@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 06:14 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 03:40 AM
+**आख़िरी update:** 13-10-2026 06:30 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 03:40 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 154 मिनट |
-| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 153 मिनट |
-| W3 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 153 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 169 मिनट |
+| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 169 मिनट |
+| W3 | Chapter 19 Cubes Dice (10th Reasoning) | 🔎 review हो रहा है | 4 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,13 +37,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 03:58:25   [Venn_Diagrams] set 02: Q28 key c vs re-solve b, Q49 key d vs re-solve a
-13-10 04:04:58   [Dictionary_Order] set 02 try 2: re-solve disagrees (Q29 key c vs re-solve d)
-13-10 04:10:13   [Venn_Diagrams] repaired set 02 (en + hi, key confirmed by an independent re-solve)
-13-10 04:12:28   [Dictionary_Order] set 02 try 3: re-solve disagrees (Q29 key b vs re-solve c)
-13-10 04:17:14   [Venn_Diagrams] set 03: Q51 key a vs re-solve d, Q60 key b vs re-solve c, Q63 key a vs re-solve b, Q66 key d vs re-solve c, Q73 key c vs re-solve a
-13-10 04:22:22   [Cubes_Dice] repaired set 02 (en + hi, key confirmed by an independent re-solve)
-13-10 04:23:08   [Dictionary_Order] set 02 try 4: re-solve disagrees (Q29 key d vs re-solve b, Q30 key b vs re-solve c, Q34 key a vs re-solve d, Q35 key c vs re-solve d, Q42 key d vs re-
 13-10 04:23:08   [Dictionary_Order] FAILED set 02: no version passed the checks — files left as they were
 13-10 04:25:59   [Venn_Diagrams] set 03 try 1: re-solve disagrees (Q55 key b vs re-solve ?)
 13-10 04:33:00   [Venn_Diagrams] set 03 try 2: re-solve disagrees (Q55 key a vs re-solve c)
@@ -77,4 +70,11 @@
 13-10 06:09:35   [Venn_Diagrams] set 06 try 1: re-solve disagrees (Q143 key c vs re-solve b)
 13-10 06:11:50   [Dictionary_Order] set 05 try 1: re-solve disagrees (Q109 key a vs re-solve d, Q124 key d vs re-solve c)
 13-10 06:11:58   [Cubes_Dice] set 04: key confirmed
+13-10 06:15:28   [Cubes_Dice] set 05: key confirmed
+13-10 06:18:10   [Venn_Diagrams] set 06 try 2: re-solve disagrees (Q130 key d vs re-solve b)
+13-10 06:20:41   [Dictionary_Order] set 05 try 2: re-solve disagrees (Q113 key c vs re-solve b, Q117 key b vs re-solve a)
+13-10 06:25:55   [Cubes_Dice] set 06: key confirmed
+13-10 06:25:55   [Cubes_Dice] written 2, failed 0; AI calls today 113/100000
+13-10 06:26:27   [Venn_Diagrams] set 06 try 3: re-solve disagrees (Q138 key c vs re-solve b, Q139 key a vs re-solve ?)
+13-10 06:29:42   [Cubes_Dice] review Content_en.txt: 3 issue(s): - Formula Chart: "1 face painted (face centres) = 6×(n−2)2" missing superscript on (n−2) → should be "6×(n−2)²"
 ```
