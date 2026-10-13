@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 07:27 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 03:40 AM
+**आख़िरी update:** 13-10-2026 07:31 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 03:40 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 📤 push हो रहा है | 0 मिनट |
-| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 226 मिनट |
-| W3 | Chapter 19 Cubes Dice (10th Reasoning) | 🔎 review हो रहा है | 61 मिनट |
+| W1 | Chapter 20 Mirror Water Images (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 230 मिनट |
+| W3 | Chapter 19 Cubes Dice (10th Reasoning) | 🔎 review हो रहा है | 65 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,9 +37,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 05:49:21   [Dictionary_Order] FAILED set 04: no version passed the checks — files left as they were
-13-10 05:53:00   [Venn_Diagrams] repaired set 05 (en + hi, key confirmed by an independent re-solve)
-13-10 06:01:09   [Venn_Diagrams] set 06: Q126 key a vs re-solve ?, Q127 key b vs re-solve d, Q130 key a vs re-solve b, Q133 key d vs re-solve a, Q144 key c vs re-solve b, Q148 key c v
 13-10 06:01:34   [Dictionary_Order] set 05: Q109 key a vs re-solve b, Q116 key d vs re-solve ?
 13-10 06:03:08   [Cubes_Dice] repaired set 03 (en + hi, key confirmed by an independent re-solve)
 13-10 06:09:35   [Venn_Diagrams] set 06 try 1: re-solve disagrees (Q143 key c vs re-solve b)
@@ -77,4 +74,7 @@
 13-10 07:26:44   [Cubes_Dice] review Short_Tricks_hi.txt: 1 issue(s): - Mnemonic 12: “बनते विपरीत अमीन” contains a Hindi typo (अमीन) → should be “बनते विपरीत हैं” or “बनते विपरीत ह
 13-10 07:27:51   [Venn_Diagrams] review: 8 section(s) corrected, 0 failed
 13-10 07:27:51   [Venn_Diagrams] written 8, failed 0; AI calls today 169/100000
+13-10 07:28:11   [Dictionary_Order] set 06 try 3: re-solve disagrees (Q132 key d vs re-solve a)
+13-10 07:28:14 DONE 10th_Level/Reasoning/Chapter_09_Venn_Diagrams in 227 min → 4d39cf1e
+13-10 07:28:15 START 10th_Level/Reasoning/Chapter_20_Mirror_Water_Images (OK: todo 0, problems 0)
 ```
