@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 12:15 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
+**आख़िरी update:** 13-10-2026 12:25 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 189 मिनट |
-| W2 | Chapter 01 Ancient History (10th GK) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 21 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W2 | Chapter 03 Modern History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W3 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 32 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,21 +37,13 @@
 - 13-10 11:03 — 10th Reasoning · Chapter 20 Mirror Water Images
 - 13-10 10:58 — 10th Reasoning · Chapter 21 Paper Folding Cutting
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 13 Dictionary Order (Reasoning) — 1 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 11:06:25   [Ancient_History] set 02: key confirmed
-13-10 11:06:41   [Dictionary_Order] set 05 try 1: re-solve disagrees (Q116 key c vs re-solve ?)
-13-10 11:06:43   [Figure_Series] set 03: key confirmed
-13-10 11:08:50   [Ancient_History] set 03: key confirmed
-13-10 11:11:02   [Ancient_History] set 04: key confirmed
-13-10 11:11:53   [Ancient_History] set 05: Q115 key a vs re-solve c
-13-10 11:12:42   [Figure_Series] set 04: key confirmed
-13-10 11:15:14   [Dictionary_Order] set 05 try 2: re-solve disagrees (Q114 key a vs re-solve d, Q121 key b vs re-solve a)
-13-10 11:19:06   [Figure_Series] set 05: key confirmed
-13-10 11:20:52   [Figure_Series] set 06: key confirmed
-13-10 11:20:52   [Figure_Series] written 0, failed 0; AI calls today 124/100000
-13-10 11:22:04   [Ancient_History] repaired set 05 (en + hi, key confirmed by an independent re-solve)
 13-10 11:22:15   [Dictionary_Order] set 05 try 3: re-solve disagrees (Q103 key a vs re-solve b, Q116 key d vs re-solve a)
 13-10 11:22:30   [Figure_Series] review Content_en.txt: 1 issue(s): - The claim "That single question saves you from 80% of traps" is an invented exam statistic → Replace with "saves 
 13-10 11:23:35   [Ancient_History] set 06: Q130 key d vs re-solve b
@@ -80,4 +72,16 @@
 13-10 12:13:09   [Ancient_History] review Memory_Hooks_hi.txt: 1 issue(s): - Mnemonic 3 lists “पहले चार” Mauryan rulers as Chandragupta, Bindusara, Ashoka, and Brihadratha, but Brihadra
 13-10 12:15:35   [Ancient_History] review: 3 section(s) corrected, 0 failed
 13-10 12:15:35   [Ancient_History] written 3, failed 0; AI calls today 187/100000
+13-10 12:15:52 DONE 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_01_Ancient_History in 72 min → 5193a922
+13-10 12:15:54 START 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_03_Modern_History (OK: todo 0, problems 0)
+13-10 12:16:57   [Medieval_History] repaired set 02 (en + hi, key confirmed by an independent re-solve)
+13-10 12:18:58   [Modern_History] set 01: key confirmed
+13-10 12:19:26   [Dictionary_Order] repaired set 06 (en + hi, key confirmed by an independent re-solve)
+13-10 12:19:26   [Dictionary_Order] written 2, failed 3; AI calls today 192/100000
+13-10 12:19:26 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_13_Dictionary_Order: ['FAILED set 02: no version passed the checks — files left as they were', 'FAILED set 04: no version passed the checks — files left as they were']
+13-10 12:19:27 START 10th_Level/Reasoning/Chapter_13_Dictionary_Order (OK: todo 0, problems 0)
+13-10 12:19:31   [Medieval_History] set 03: key confirmed
+13-10 12:21:56   [Modern_History] set 02: Q44 key c vs re-solve a
+13-10 12:23:16   [Dictionary_Order] set 01: key confirmed
+13-10 12:24:25   [Medieval_History] set 04: key confirmed
 ```
