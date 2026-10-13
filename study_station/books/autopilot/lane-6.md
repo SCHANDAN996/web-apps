@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 05:06 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
+**आख़िरी update:** 13-10-2026 05:22 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 154 मिनट |
-| W2 | Chapter 14 Sports (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 18 मिनट |
-| W3 | Chapter 17 Culture Art (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 169 मिनट |
+| W2 | Chapter 14 Sports (10th GK) | 🔎 review हो रहा है | 15 मिनट |
+| W3 | Chapter 17 Culture Art (10th GK) | 🔎 review हो रहा है | 10 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -40,13 +40,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 16:19:58   [Economy_Basic] set 04: key confirmed
-13-10 16:21:25   [Economy_Basic] set 05: key confirmed
-13-10 16:22:40   [Dictionary_Order] set 04: Q80 key a vs re-solve ?, Q81 key b vs re-solve ?, Q90 key c vs re-solve ?, Q93 key b vs re-solve d
-13-10 16:23:30   [Economy_Basic] set 06: key confirmed
-13-10 16:23:30   [Economy_Basic] written 0, failed 0; AI calls today 142/100000
-13-10 16:27:54   [Economy_Basic] review Content_en.txt: 1 issue(s): - The claim "In March 2026 the government kept the same target for 1 April 2026 – 31 March 2031" (in Section 4 and 
-13-10 16:30:58   [Dictionary_Order] set 04 try 1: re-solve disagrees (Q80 key b vs re-solve ?, Q93 key a vs re-solve d)
 13-10 16:35:53   [Physical_Geography] review Flashcards_en.txt: 3 issue(s): - Mnemonic "Hina's Pet Parrot Dances Coolly In Moonlight" has 7 initials but only 6 physiographic divisions → Us
 13-10 16:36:16   [Economy_Basic] review Content_hi.txt: 1 issue(s): - The claim that the government retained the CPI inflation target for 2026‑2031 in March 2026 is presented as a pas
 13-10 16:39:09   [Physical_Geography] review Flashcards_hi.txt: 2 issue(s): - The mnemonic "हंसी पापा दीदी चाची मामा" does not correctly correspond to the six physical divisions of India (
@@ -80,4 +73,11 @@
 13-10 17:06:15   [Culture_Art] set 03: key confirmed
 13-10 17:06:50   [Sports] repaired set 06 (en + hi, key confirmed by an independent re-solve)
 13-10 17:06:50   [Sports] written 1, failed 0; AI calls today 206/100000
+13-10 17:07:43   [Culture_Art] set 04: key confirmed
+13-10 17:09:18   [Culture_Art] set 05: key confirmed
+13-10 17:11:26   [Culture_Art] set 06: key confirmed
+13-10 17:11:26   [Culture_Art] written 0, failed 0; AI calls today 212/100000
+13-10 17:14:55   [Dictionary_Order] set 05: Q109 key a vs re-solve b, Q113 key a vs re-solve b, Q116 key d vs re-solve ?
+13-10 17:15:06   [Sports] review Content_en.txt: 8 issue(s): - "India won the ICC Men's T20 World Cup in 2026 (final on 8 March 2026 at Ahmedabad, against New Zealand)" → The 2
+13-10 17:20:01   [Culture_Art] review Content_en.txt: 5 issue(s): - The Intangible Cultural Heritage list includes "Deepavali (2025)" as an inscribed element, but Deepavali has not 
 ```
