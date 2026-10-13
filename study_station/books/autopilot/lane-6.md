@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 01:27 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
+**आख़िरी update:** 13-10-2026 01:42 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 67 मिनट |
-| W2 | Chapter 03 Modern History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 71 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 83 मिनट |
+| W2 | Chapter 03 Modern History (10th GK) | 🔎 review हो रहा है | 9 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -44,10 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 12:15:54 START 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_03_Modern_History (OK: todo 0, problems 0)
-13-10 12:16:57   [Medieval_History] repaired set 02 (en + hi, key confirmed by an independent re-solve)
-13-10 12:18:58   [Modern_History] set 01: key confirmed
-13-10 12:19:26   [Dictionary_Order] repaired set 06 (en + hi, key confirmed by an independent re-solve)
 13-10 12:19:26   [Dictionary_Order] written 2, failed 3; AI calls today 192/100000
 13-10 12:19:26 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_13_Dictionary_Order: ['FAILED set 02: no version passed the checks — files left as they were', 'FAILED set 04: no version passed the checks — files left as they were']
 13-10 12:19:27 START 10th_Level/Reasoning/Chapter_13_Dictionary_Order (OK: todo 0, problems 0)
@@ -84,4 +80,8 @@
 13-10 13:19:29 DONE 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_02_Medieval_History in 85 min → 4067c3b8
 13-10 13:19:29 worker 2: nothing left
 13-10 13:24:42   [Dictionary_Order] set 04: Q80 key a vs re-solve ?, Q81 key b vs re-solve ?, Q90 key c vs re-solve ?, Q93 key b vs re-solve d, Q100 key b vs re-solve a
+13-10 13:32:45   [Modern_History] repaired set 06 (en + hi, key confirmed by an independent re-solve)
+13-10 13:32:45   [Modern_History] written 4, failed 0; AI calls today 263/100000
+13-10 13:36:17   [Dictionary_Order] set 04 try 1: re-solve disagrees (Q80 key a vs re-solve ?, Q93 key a vs re-solve b)
+13-10 13:37:25   [Modern_History] review Content_en.txt: 2 issue(s): - The mnemonic for annexations under Dalhousie incorrectly includes Awadh as a Doctrine of Lapse annexation; Awadh 
 ```
