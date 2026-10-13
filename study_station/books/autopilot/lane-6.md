@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 09:53 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
+**आख़िरी update:** 13-10-2026 10:08 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 46 मिनट |
-| W2 | Chapter 20 Mirror Water Images (10th Reasoning) | 🔎 review हो रहा है | 15 मिनट |
-| W3 | Chapter 21 Paper Folding Cutting (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 46 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 61 मिनट |
+| W2 | Chapter 20 Mirror Water Images (10th Reasoning) | 🔎 review हो रहा है | 30 मिनट |
+| W3 | Chapter 21 Paper Folding Cutting (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 61 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -59,4 +59,8 @@
 13-10 09:46:49   [Dictionary_Order] FAILED set 02: no version passed the checks — files left as they were
 13-10 09:48:59   [Mirror_Water_Images] review Content_en.txt: 2 issue(s): - The claim that digits 0,1,3,8 stay recognisable in water image is wrong; only 0,1,8 stay same, while 3 becomes a 
 13-10 09:51:02   [Dictionary_Order] set 03: Q58 key d vs re-solve a, Q68 key b vs re-solve ?, Q71 key a vs re-solve b, Q74 key d vs re-solve b
+13-10 09:55:30   [Paper_Folding_Cutting] set 02: key confirmed
+13-10 09:57:40   [Mirror_Water_Images] review Content_hi.txt: 2 issue(s): - Water reflection symmetric letters list incorrectly includes S and Z (which are not horizontally symmetric) and o
+13-10 10:03:39   [Paper_Folding_Cutting] set 03: key confirmed
+13-10 10:07:13   [Dictionary_Order] repaired set 03 (en + hi, key confirmed by an independent re-solve)
 ```
