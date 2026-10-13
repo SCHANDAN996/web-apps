@@ -1,28 +1,28 @@
 ```mermaid
-flowchart TD
-    A[Indian Polity & Governance] --> B[Union Government]
-    A --> C[State Government]
-    A --> D[Judiciary]
-    A --> E[Constitutional Bodies]
-    A --> F[Local Self-Government]
+graph TD
+    A["भारतीय राजव्यवस्था एवं शासन<br>Indian Polity & Governance"] --> B["केंद्र सरकार<br>Union Government"]
+    A --> C["राज्य सरकार<br>State Government"]
+    A --> D["न्यायपालिका<br>Judiciary"]
+    A --> E["संवैधानिक निकाय<br>Constitutional Bodies"]
+    A --> F["स्थानीय स्वशासन<br>Local Self-Government"]
 
-    B --> B1[President & Vice-President Art 52-73]
-    B --> B2[Prime Minister & Council of Ministers Art 74-78]
-    B --> B3[Parliament: Lok Sabha & Rajya Sabha Art 79-122]
+    B --> B1["राष्ट्रपति एवं उपराष्ट्रपति<br>President & Vice-President<br>अनुच्छेद 52-73"]
+    B --> B2["प्रधानमंत्री एवं मंत्रिपरिषद<br>PM & Council of Ministers<br>अनुच्छेद 74-78"]
+    B --> B3["संसद: लोक सभा एवं राज्य सभा<br>Parliament: Lok Sabha & Rajya Sabha<br>अनुच्छेद 79-122"]
 
-    C --> C1[Governor Art 153-162]
-    C --> C2[Chief Minister & State Council Art 163-167]
-    C --> C3[State Legislature Art 168-212]
+    C --> C1["राज्यपाल<br>Governor<br>अनुच्छेद 153-162"]
+    C --> C2["मुख्यमंत्री एवं राज्य मंत्रिपरिषद<br>CM & State Council of Ministers<br>अनुच्छेद 163-167"]
+    C --> C3["राज्य विधानमंडल<br>State Legislature<br>अनुच्छेद 168-212"]
 
-    D --> D1[Supreme Court Art 124-147]
-    D --> D2[High Courts Art 214-232]
-    D --> D3[Subordinate Courts Art 233-237]
+    D --> D1["सर्वोच्च न्यायालय<br>Supreme Court<br>अनुच्छेद 124-147"]
+    D --> D2["उच्च न्यायालय<br>High Courts<br>अनुच्छेद 214-231"]
+    D --> D3["अधीनस्थ न्यायालय<br>Subordinate Courts<br>अनुच्छेद 233-237"]
 
-    E --> E1[Election Commission Art 324]
-    E --> E2[Comptroller & Auditor General Art 148]
-    E --> E3[Finance Commission Art 280]
-    E --> E4[Union Public Service Commission Art 315]
+    E --> E1["निर्वाचन आयोग<br>Election Commission<br>अनुच्छेद 324"]
+    E --> E2["नियंत्रक एवं महालेखापरीक्षक<br>Comptroller & Auditor General<br>अनुच्छेद 148"]
+    E --> E3["वित्त आयोग<br>Finance Commission<br>अनुच्छेद 280"]
+    E --> E4["संघ लोक सेवा आयोग<br>Union Public Service Commission<br>अनुच्छेद 315"]
 
-    F --> F1[Panchayati Raj 73rd Amendment Part IX]
-    F --> F2[Municipalities 74th Amendment Part IX-A]
+    F --> F1["पंचायती राज<br>Panchayati Raj<br>73वाँ संशोधन, भाग IX"]
+    F --> F2["नगरपालिकाएँ<br>Municipalities<br>74वाँ संशोधन, भाग IX-A"]
 ```
