@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 02:32 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
+**आख़िरी update:** 13-10-2026 02:48 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W2 | Chapter 04 Constitution Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W3 | Chapter 05 Polity (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 16 मिनट |
+| W2 | Chapter 04 Constitution Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 16 मिनट |
+| W3 | Chapter 05 Polity (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -42,4 +42,17 @@
 13-10 14:32:08 START 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_04_Constitution_Basic (OK: todo 0, problems 0)
 13-10 14:32:13 START 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_05_Polity (OK: todo 0, problems 0)
 13-10 14:33:01   [Dictionary_Order] set 01: Q24 key d vs re-solve b
+13-10 14:33:13   [Polity] set 01: key confirmed
+13-10 14:33:16   [Constitution_Basic] set 01: key confirmed
+13-10 14:35:05   [Constitution_Basic] set 02: key confirmed
+13-10 14:36:13   [Polity] set 02: key confirmed
+13-10 14:36:55   [Constitution_Basic] set 03: key confirmed
+13-10 14:38:17   [Constitution_Basic] set 04: key confirmed
+13-10 14:38:33   [Dictionary_Order] repaired set 01 (en + hi, key confirmed by an independent re-solve)
+13-10 14:38:58   [Constitution_Basic] set 05: key confirmed
+13-10 14:42:15   [Polity] set 03: Q52 key a vs re-solve c, Q53 key a vs re-solve ?, Q55 key d vs re-solve c, Q57 key a vs re-solve b, Q58 key d vs re-solve c, Q74 key a vs re-s
+13-10 14:42:34   [Constitution_Basic] set 06: Q130 key c vs re-solve d
+13-10 14:45:07   [Dictionary_Order] set 02: Q29 key d vs re-solve a, Q31 key b vs re-solve a, Q45 key d vs re-solve ?
+13-10 14:46:26   [Polity] set 03 try 1: re-solve disagrees (Q73 key d vs re-solve a)
+13-10 14:47:54   [Constitution_Basic] set 06 try 1: re-solve disagrees (Q128 key a vs re-solve c)
 ```
