@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 03:49 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
+**आख़िरी update:** 13-10-2026 04:05 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 77 मिनट |
-| W2 | Chapter 06 Physical Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W3 | Chapter 05 Polity (10th GK) | 🔎 review हो रहा है | 30 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 93 मिनट |
+| W2 | Chapter 06 Physical Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 20 मिनट |
+| W3 | Chapter 05 Polity (10th GK) | 🔎 review हो रहा है | 46 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,15 +37,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 14:38:33   [Dictionary_Order] repaired set 01 (en + hi, key confirmed by an independent re-solve)
-13-10 14:38:58   [Constitution_Basic] set 05: key confirmed
-13-10 14:42:15   [Polity] set 03: Q52 key a vs re-solve c, Q53 key a vs re-solve ?, Q55 key d vs re-solve c, Q57 key a vs re-solve b, Q58 key d vs re-solve c, Q74 key a vs re-s
-13-10 14:42:34   [Constitution_Basic] set 06: Q130 key c vs re-solve d
-13-10 14:45:07   [Dictionary_Order] set 02: Q29 key d vs re-solve a, Q31 key b vs re-solve a, Q45 key d vs re-solve ?
-13-10 14:46:26   [Polity] set 03 try 1: re-solve disagrees (Q73 key d vs re-solve a)
-13-10 14:47:54   [Constitution_Basic] set 06 try 1: re-solve disagrees (Q128 key a vs re-solve c)
-13-10 14:50:33   [Polity] set 03 try 2: re-solve disagrees (Q73 key d vs re-solve a)
-13-10 14:55:21   [Constitution_Basic] repaired set 06 (en + hi, key confirmed by an independent re-solve)
 13-10 14:55:21   [Constitution_Basic] written 1, failed 0; AI calls today 40/100000
 13-10 14:55:54   [Dictionary_Order] set 02 try 1: re-solve disagrees (Q29 key a vs re-solve d, Q31 key c vs re-solve a, Q47 key a vs re-solve b)
 13-10 14:59:11   [Polity] repaired set 03 (en + hi, key confirmed by an independent re-solve)
@@ -77,4 +68,13 @@
 13-10 15:44:52 START 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_06_Physical_Geography (OK: todo 0, problems 0)
 13-10 15:46:19   [Physical_Geography] set 01: key confirmed
 13-10 15:47:26   [Physical_Geography] set 02: key confirmed
+13-10 15:52:17   [Polity] review Key_Facts_en.txt: 1 issue(s): - Electoral College composition (PREM, VP=All PMs) → Electoral College composition (PEM, VP=All MPs)
+13-10 15:53:41   [Dictionary_Order] set 03 try 3: re-solve disagrees (Q58 key b vs re-solve ?)
+13-10 15:55:05   [Polity] review Key_Facts_hi.txt: 3 issue(s): - "वर्तमान अनुच्छेद (लगभग) 448" दिया गया है बिना किसी संदर्भ वर्ष के → वर्ष जोड़ें, उदा. "वर्तमान अनुच्छेद (लगभग)
+13-10 15:55:51   [Physical_Geography] set 03: Q68 key c vs re-solve a
+13-10 15:57:34   [Polity] review Feynman_hi.txt: 2 issue(s): - The school analogy incorrectly states that the Sports Captain (an elected representative) cannot vote for Vice He
+13-10 15:59:42   [Polity] review Mind_Map.txt: 1 issue(s): - High Courts article range "Art 214-232" includes repealed Article 232 → High Courts are covered under Articles 214-
+13-10 16:01:58   [Physical_Geography] repaired set 03 (en + hi, key confirmed by an independent re-solve)
+13-10 16:02:43   [Polity] review Flashcards_en.txt: 2 issue(s): - Flashcard 5 (PREM mnemonic) omits the elected members of Legislative Assemblies of Union Territories (Delhi, P
+13-10 16:04:55   [Physical_Geography] set 04: key confirmed
 ```
