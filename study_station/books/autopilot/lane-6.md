@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 07:39 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 03:40 AM
+**आख़िरी update:** 13-10-2026 07:46 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 03:40 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 20 Mirror Water Images (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 238 मिनट |
-| W3 | Chapter 19 Cubes Dice (10th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 20 Mirror Water Images (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 18 मिनट |
+| W3 | Chapter 21 Paper Folding Cutting (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -35,16 +34,13 @@
 - 13-10 07:39 — 10th Reasoning · Chapter 19 Cubes Dice
 - 13-10 07:27 — 10th Reasoning · Chapter 09 Venn Diagrams
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 13 Dictionary Order (Reasoning) — 1 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 06:11:58   [Cubes_Dice] set 04: key confirmed
-13-10 06:15:28   [Cubes_Dice] set 05: key confirmed
-13-10 06:18:10   [Venn_Diagrams] set 06 try 2: re-solve disagrees (Q130 key d vs re-solve b)
-13-10 06:20:41   [Dictionary_Order] set 05 try 2: re-solve disagrees (Q113 key c vs re-solve b, Q117 key b vs re-solve a)
-13-10 06:25:55   [Cubes_Dice] set 06: key confirmed
-13-10 06:25:55   [Cubes_Dice] written 2, failed 0; AI calls today 113/100000
-13-10 06:26:27   [Venn_Diagrams] set 06 try 3: re-solve disagrees (Q138 key c vs re-solve b, Q139 key a vs re-solve ?)
 13-10 06:29:42   [Cubes_Dice] review Content_en.txt: 3 issue(s): - Formula Chart: "1 face painted (face centres) = 6×(n−2)2" missing superscript on (n−2) → should be "6×(n−2)²"
 13-10 06:34:48   [Cubes_Dice] review Content_hi.txt: 3 issue(s): - "हर परीक्षा के 3-5 अंक चुटकी बजाते ही मिलेंगे" → आविष्कृत परीक्षा वेटेज दावा हटाएँ; किसी भी परीक्षा में निश्चित अ
 13-10 06:42:14   [Cubes_Dice] review Feynman_hi.txt: 1 issue(s): - उसने जोड़ा → उसने मोड़ा
@@ -78,4 +74,11 @@
 13-10 07:38:46   [Mirror_Water_Images] set 02: key confirmed
 13-10 07:39:18   [Cubes_Dice] review: 10 section(s) corrected, 0 failed
 13-10 07:39:18   [Cubes_Dice] written 10, failed 0; AI calls today 179/100000
+13-10 07:39:38 DONE 10th_Level/Reasoning/Chapter_19_Cubes_Dice in 238 min → 0aaf8d5a
+13-10 07:39:39 START 10th_Level/Reasoning/Chapter_21_Paper_Folding_Cutting (OK: todo 0, problems 0)
+13-10 07:43:01   [Mirror_Water_Images] set 03: key confirmed
+13-10 07:46:48   [Dictionary_Order] repaired set 06 (en + hi, key confirmed by an independent re-solve)
+13-10 07:46:48   [Dictionary_Order] written 2, failed 3; AI calls today 185/100000
+13-10 07:46:48 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_13_Dictionary_Order: ['FAILED set 02: no version passed the checks — files left as they were', 'FAILED set 03: no version passed the checks — files left as they were']
+13-10 07:46:48 worker 1: nothing left
 ```
