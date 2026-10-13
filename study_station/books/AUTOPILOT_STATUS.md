@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 14-10-2026 02:46 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:23 PM
+**आख़िरी update:** 14-10-2026 02:49 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 14-10 02:49 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 323 मिनट |
-| W2 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 323 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W2 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -38,30 +38,8 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 21:23:24 autopilot start: 3 workers, reverse=True
-13-10 21:23:27 START Graduation_Level/Reasoning/Chapter_07_Sitting_Arrangement (OK: todo 0, problems 0)
-13-10 21:23:32 START Graduation_Level/Reasoning/Chapter_08_Puzzles (OK: todo 0, problems 0)
-13-10 21:23:38 worker 2: nothing left
-13-10 21:39:05   [Sitting_Arrangement] set 01: Q24 key d vs re-solve a
-13-10 21:54:35   [Puzzles] set 01: Q22: clues contradict each other — no arrangement fits all of them
-13-10 22:24:58   [Puzzles] set 01 try 1: re-solve disagrees (Q18 key b vs re-solve a)
-13-10 22:29:02   [Sitting_Arrangement] set 01 try 1: re-solve disagrees (Q4: the clues give "c" (option c), but the key says (d); Q5: clues contradict each other — no arrangement fits all o
-13-10 22:55:27   [Puzzles] repaired set 01 (en + hi, key confirmed by an independent re-solve)
-13-10 23:06:32   [Sitting_Arrangement] repaired set 01 (en + hi, key confirmed by an independent re-solve)
-13-10 23:07:16   [Puzzles] set 02: Q30 key a vs re-solve d
-13-10 23:24:14   [Puzzles] set 02 try 1: re-solve disagrees (Q30 key a vs re-solve d, Q41 key b vs re-solve c)
-13-10 23:38:18   [Puzzles] set 02 try 2: re-solve disagrees (Q50 key c vs re-solve b)
-13-10 23:43:33   [Sitting_Arrangement] set 02: Q34: the clues allow more than one answer — add a clue so exactly one arrangement fits; Q37: clues contradict each other — no arrangement fits
-14-10 00:06:23   [Puzzles] set 02 try 3: re-solve disagrees (Q26: the clues allow more than one answer — add a clue so exactly one arrangement fits; Q37: clues contradict each o
-14-10 00:32:46   [Puzzles] repaired set 02 (en + hi, key confirmed by an independent re-solve)
-14-10 00:32:49   [Sitting_Arrangement] set 02 try 1: re-solve disagrees (Q39: the clues allow more than one answer — add a clue so exactly one arrangement fits)
-14-10 00:47:22   [Puzzles] set 03: Q64 key a vs re-solve c
-14-10 01:05:45   [Puzzles] set 03 try 1: re-solve disagrees (Q53 key c vs re-solve b)
-14-10 01:28:25   [Puzzles] set 03 try 2: re-solve disagrees (Q69 key a vs re-solve b)
-14-10 01:44:39   [Sitting_Arrangement] set 02 try 2: re-solve disagrees (Q34: the clues allow more than one answer — add a clue so exactly one arrangement fits; Q35: the clues allow more th
-14-10 01:53:36   [Puzzles] set 03 try 3: re-solve disagrees (Q64 key d vs re-solve a)
-14-10 02:23:04   [Puzzles] set 03 try 4: re-solve disagrees (Q53: clues contradict each other — no arrangement fits all of them; Q55: clues contradict each other — no arrangemen
-14-10 02:23:04   [Puzzles] FAILED set 03: no version passed the checks — files left as they were
-14-10 02:33:12   [Sitting_Arrangement] repaired set 02 (en + hi, key confirmed by an independent re-solve)
-14-10 02:45:37   [Puzzles] set 04: Q76: the clues allow more than one answer — add a clue so exactly one arrangement fits; Q85: clues contradict each other — no arrangement fits
+14-10 02:49:01 autopilot start: 3 workers, reverse=True
+14-10 02:49:04 START Graduation_Level/Reasoning/Chapter_07_Sitting_Arrangement (OK: todo 0, problems 0)
+14-10 02:49:08 START Graduation_Level/Reasoning/Chapter_08_Puzzles (OK: todo 0, problems 0)
+14-10 02:49:15 worker 2: nothing left
 ```
