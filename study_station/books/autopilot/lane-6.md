@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 01:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
+**आख़िरी update:** 13-10-2026 02:13 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 98 मिनट |
-| W2 | Chapter 03 Modern History (10th GK) | 🔎 review हो रहा है | 25 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 113 मिनट |
+| W2 | Chapter 03 Modern History (10th GK) | 🔎 review हो रहा है | 40 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -44,10 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 12:19:31   [Medieval_History] set 03: key confirmed
-13-10 12:21:56   [Modern_History] set 02: Q44 key c vs re-solve a
-13-10 12:23:16   [Dictionary_Order] set 01: key confirmed
-13-10 12:24:25   [Medieval_History] set 04: key confirmed
 13-10 12:30:25   [Modern_History] repaired set 02 (en + hi, key confirmed by an independent re-solve)
 13-10 12:31:39   [Dictionary_Order] set 02: Q29 key d vs re-solve a, Q45 key d vs re-solve ?
 13-10 12:33:37   [Medieval_History] set 05: Q103 key b vs re-solve c, Q119 key c vs re-solve b
@@ -84,4 +80,8 @@
 13-10 13:46:27   [Dictionary_Order] set 04 try 2: re-solve disagrees (Q80 key d vs re-solve ?, Q93 key b vs re-solve d)
 13-10 13:50:12   [Modern_History] review Content_hi.txt: 1 issue(s): - अवध (Awadh) को हड़प नीति (Doctrine of Lapse) के तहत हड़पे गए राज्यों की सूची में शामिल किया गया है → अवध को 1856 
 13-10 13:54:30   [Dictionary_Order] set 04 try 3: re-solve disagrees (Q93 key a vs re-solve d)
+13-10 14:00:29   [Modern_History] review Mind_Map.txt: 1 issue(s): - T3 labels the exact date of Jallianwala Bagh (13 April 1919) as 'Almost True' → Replace with 'True: Jallianwala Bag
+13-10 14:02:22   [Dictionary_Order] set 04 try 4: re-solve disagrees (Q86 key b vs re-solve a, Q93 key a vs re-solve d)
+13-10 14:02:22   [Dictionary_Order] FAILED set 04: no version passed the checks — files left as they were
+13-10 14:10:24   [Dictionary_Order] set 05: Q109 key a vs re-solve d, Q110 key b vs re-solve d, Q115 key c vs re-solve a, Q116 key d vs re-solve ?
 ```
