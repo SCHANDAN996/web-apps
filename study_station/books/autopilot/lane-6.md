@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 07:00 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 03:40 AM
+**आख़िरी update:** 13-10-2026 07:16 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 03:40 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🔎 review हो रहा है | 18 मिनट |
-| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 199 मिनट |
-| W3 | Chapter 19 Cubes Dice (10th Reasoning) | 🔎 review हो रहा है | 34 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🔎 review हो रहा है | 33 मिनट |
+| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 215 मिनट |
+| W3 | Chapter 19 Cubes Dice (10th Reasoning) | 🔎 review हो रहा है | 50 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,12 +37,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 05:09:22   [Dictionary_Order] set 03 try 4: re-solve disagrees (Q67 key a vs re-solve b, Q71 key d vs re-solve a, Q72 key c vs re-solve d)
-13-10 05:09:22   [Dictionary_Order] FAILED set 03: no version passed the checks — files left as they were
-13-10 05:11:06   [Venn_Diagrams] set 05: Q101 key a vs re-solve b, Q105 key a vs re-solve b, Q111 key c vs re-solve a, Q116 key d vs re-solve a, Q121 key a vs re-solve b, Q122 key b v
-13-10 05:11:58   [Dictionary_Order] set 04: Q80 key a vs re-solve ?, Q81 key b vs re-solve ?, Q90 key c vs re-solve ?, Q93 key b vs re-solve d
-13-10 05:18:46   [Venn_Diagrams] set 05 try 1: re-solve disagrees (Q125 key d vs re-solve b)
-13-10 05:20:40   [Dictionary_Order] set 04 try 1: re-solve disagrees (Q80 key c vs re-solve ?, Q93 key b vs re-solve d)
 13-10 05:22:26   [Cubes_Dice] set 03 try 2: re-solve disagrees (Q53 key b vs re-solve c, Q67 key d vs re-solve c)
 13-10 05:27:16   [Dictionary_Order] set 04 try 2: re-solve disagrees (Q80 key b vs re-solve ?, Q93 key c vs re-solve d)
 13-10 05:27:54   [Venn_Diagrams] set 05 try 2: re-solve disagrees (Q116 key a vs re-solve d, Q122 key a vs re-solve c)
@@ -77,4 +71,10 @@
 13-10 06:56:47   [Dictionary_Order] set 06: Q142 key a vs re-solve b
 13-10 06:59:32   [Venn_Diagrams] review Feynman_hi.txt: 2 issue(s): - “(यह एक आदमी को दिखाती है)” गलत अर्थ देता है → “(यह एक तत्व को दर्शाती है)” या “(यह एक व्यक्ति को दर्शाती है)”
 13-10 07:00:06   [Cubes_Dice] review Flashcards_hi.txt: 1 issue(s): - In the T-shaped net flashcard, the claim that the two ends of the horizontal arms become adjacent when folded 
+13-10 07:04:32   [Venn_Diagrams] review Flashcards_en.txt: 1 issue(s): - Card 10 states “Paper is subset of Book (paper used in books)” → The correct relationship is that Book is a su
+13-10 07:06:11   [Dictionary_Order] set 06 try 1: re-solve disagrees (Q142 key b vs re-solve a)
+13-10 07:08:27   [Venn_Diagrams] review Flashcards_hi.txt: 2 issue(s): - Card 2 claims three intersecting circles create 7 regions; actually they create 8 regions (including the outsi
+13-10 07:08:31   [Cubes_Dice] review PYQ_en.txt: 3 issue(s): - Invented yearly frequency table (2015–2024) with specific question counts per exam per shift → Delete table or replac
+13-10 07:13:47   [Venn_Diagrams] review PYQ_en.txt: 4 issue(s): - The "Average" row in the Annual Frequency table miscalculates averages: SSC midpoint average is 3.05 not 2.5; Banking
+13-10 07:16:06   [Dictionary_Order] set 06 try 2: re-solve disagrees (Q132 key a vs re-solve c)
 ```
