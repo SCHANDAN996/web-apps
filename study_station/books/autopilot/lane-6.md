@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 02:48 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
+**आख़िरी update:** 13-10-2026 03:03 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 16 मिनट |
-| W2 | Chapter 04 Constitution Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 16 मिनट |
-| W3 | Chapter 05 Polity (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
+| W2 | Chapter 04 Constitution Basic (10th GK) | 🔎 review हो रहा है | 8 मिनट |
+| W3 | Chapter 05 Polity (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -55,4 +55,11 @@
 13-10 14:45:07   [Dictionary_Order] set 02: Q29 key d vs re-solve a, Q31 key b vs re-solve a, Q45 key d vs re-solve ?
 13-10 14:46:26   [Polity] set 03 try 1: re-solve disagrees (Q73 key d vs re-solve a)
 13-10 14:47:54   [Constitution_Basic] set 06 try 1: re-solve disagrees (Q128 key a vs re-solve c)
+13-10 14:50:33   [Polity] set 03 try 2: re-solve disagrees (Q73 key d vs re-solve a)
+13-10 14:55:21   [Constitution_Basic] repaired set 06 (en + hi, key confirmed by an independent re-solve)
+13-10 14:55:21   [Constitution_Basic] written 1, failed 0; AI calls today 40/100000
+13-10 14:55:54   [Dictionary_Order] set 02 try 1: re-solve disagrees (Q29 key a vs re-solve d, Q31 key c vs re-solve a, Q47 key a vs re-solve b)
+13-10 14:59:11   [Polity] repaired set 03 (en + hi, key confirmed by an independent re-solve)
+13-10 14:59:46   [Constitution_Basic] review Content_en.txt: 2 issue(s): - The statement "For the very first time, 299 members gathered together" is incorrect; the first meeting on 9 Decem
+13-10 15:01:23   [Dictionary_Order] set 02 try 2: re-solve disagrees (Q29 key b vs re-solve d)
 ```
