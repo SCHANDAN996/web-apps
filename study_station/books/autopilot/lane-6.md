@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 11:53 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
+**आख़िरी update:** 13-10-2026 11:55 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 167 मिनट |
-| W2 | Chapter 01 Ancient History (10th GK) | 🔎 review हो रहा है | 10 मिनट |
-| W3 | Chapter 22 Figure Series (10th Reasoning) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 168 मिनट |
+| W2 | Chapter 01 Ancient History (10th GK) | 🔎 review हो रहा है | 12 मिनट |
+| W3 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,9 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 10:58:39 DONE 10th_Level/Reasoning/Chapter_21_Paper_Folding_Cutting in 112 min → 7c012b18
-13-10 10:58:41 START 10th_Level/Reasoning/Chapter_22_Figure_Series (OK: todo 0, problems 0)
-13-10 11:01:08   [Mirror_Water_Images] review Important_Rules_hi.txt: 1 issue(s): - जल प्रतिबिंब अंक अदला-बदली में "बाकी अंकों का आकार बदलता है" गलत है → 0, 1, 8 जल प्रतिबिंब (क्षैतिज दर्पण
 13-10 11:01:58   [Figure_Series] set 01: key confirmed
 13-10 11:03:27   [Mirror_Water_Images] review: 9 section(s) corrected, 0 failed
 13-10 11:03:27   [Mirror_Water_Images] written 9, failed 0; AI calls today 98/100000
@@ -79,4 +76,7 @@
 13-10 11:48:18   [Figure_Series] review PYQ_hi.txt: 9 issue(s): - SSC CGL 10-वर्ष कुल अधिकतम 38 दिखाया गया है, परंतु दिए गए वार्षिक आंकड़ों का योग अधिकतम 35 होता है → 34–35 लिखें
 13-10 11:53:31   [Figure_Series] review: 6 section(s) corrected, 0 failed
 13-10 11:53:31   [Figure_Series] written 6, failed 0; AI calls today 160/100000
+13-10 11:53:48   [Dictionary_Order] set 06 try 2: re-solve disagrees (Q142 key c vs re-solve a)
+13-10 11:53:52 DONE 10th_Level/Reasoning/Chapter_22_Figure_Series in 55 min → 78b35711
+13-10 11:53:53 START 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_02_Medieval_History (OK: todo 0, problems 0)
 ```
