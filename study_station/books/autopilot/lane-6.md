@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 03:44 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
+**आख़िरी update:** 13-10-2026 03:49 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 72 मिनट |
-| W2 | Chapter 04 Constitution Basic (10th GK) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 05 Polity (10th GK) | 🔎 review हो रहा है | 25 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 77 मिनट |
+| W2 | Chapter 06 Physical Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W3 | Chapter 05 Polity (10th GK) | 🔎 review हो रहा है | 30 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,10 +37,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 14:35:05   [Constitution_Basic] set 02: key confirmed
-13-10 14:36:13   [Polity] set 02: key confirmed
-13-10 14:36:55   [Constitution_Basic] set 03: key confirmed
-13-10 14:38:17   [Constitution_Basic] set 04: key confirmed
 13-10 14:38:33   [Dictionary_Order] repaired set 01 (en + hi, key confirmed by an independent re-solve)
 13-10 14:38:58   [Constitution_Basic] set 05: key confirmed
 13-10 14:42:15   [Polity] set 03: Q52 key a vs re-solve c, Q53 key a vs re-solve ?, Q55 key d vs re-solve c, Q57 key a vs re-solve b, Q58 key d vs re-solve c, Q74 key a vs re-s
@@ -77,4 +73,8 @@
 13-10 15:41:25   [Dictionary_Order] set 03 try 2: re-solve disagrees (Q51 key b vs re-solve c, Q58 key c vs re-solve d, Q64 key a vs re-solve d, Q72 key b vs re-solve c, Q74 key b vs re-
 13-10 15:44:24   [Constitution_Basic] review: 8 section(s) corrected, 0 failed
 13-10 15:44:24   [Constitution_Basic] written 8, failed 0; AI calls today 91/100000
+13-10 15:44:49 DONE 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_04_Constitution_Basic in 72 min → 0a2a8e97
+13-10 15:44:52 START 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_06_Physical_Geography (OK: todo 0, problems 0)
+13-10 15:46:19   [Physical_Geography] set 01: key confirmed
+13-10 15:47:26   [Physical_Geography] set 02: key confirmed
 ```
