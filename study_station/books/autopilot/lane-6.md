@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 07:05 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
+**आख़िरी update:** 13-10-2026 07:09 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 18 Science Tech (10th GK) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 19 Environment (10th GK) | 🔎 review हो रहा है | 40 मिनट |
+| W3 | Chapter 19 Environment (10th GK) | 🔎 review हो रहा है | 44 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -46,9 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 18:08:57   [Sports] review: 10 section(s) corrected, 0 failed
-13-10 18:08:57   [Sports] written 10, failed 0; AI calls today 266/100000
-13-10 18:09:20 DONE 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_14_Sports in 81 min → 4e3bfe0e
 13-10 18:09:23 START 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_18_Science_Tech (OK: todo 0, problems 0)
 13-10 18:09:54   [Science_Tech] set 01: key confirmed
 13-10 18:11:41   [Science_Tech] set 02: key confirmed
@@ -86,4 +82,7 @@
 13-10 19:05:16   [Science_Tech] review: 3 section(s) corrected, 0 failed
 13-10 19:05:16   [Science_Tech] written 3, failed 0; AI calls today 331/100000
 13-10 19:05:30   [Environment] review Flashcards_en.txt: 1 issue(s): - Card 19 claims India had 101 Ramsar sites and that Glaw Lake was added as the 101st on 3 August 2026 → This is
+13-10 19:05:42 DONE 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_18_Science_Tech in 56 min → c8b8e3fc
+13-10 19:05:42 worker 1: nothing left
+13-10 19:07:51   [Environment] review Flashcards_hi.txt: 1 issue(s): - Card 19 claims 101 Ramsar sites in India as of 3 August 2026 (a future, speculative figure) → As of 2024 India
 ```
