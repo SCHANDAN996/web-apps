@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 11:09 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
+**आख़िरी update:** 13-10-2026 11:24 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 123 मिनट |
-| W2 | Chapter 01 Ancient History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W3 | Chapter 22 Figure Series (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 138 मिनट |
+| W2 | Chapter 01 Ancient History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 20 मिनट |
+| W3 | Chapter 22 Figure Series (10th Reasoning) | 🔎 review हो रहा है | 3 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -38,17 +38,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 09:57:40   [Mirror_Water_Images] review Content_hi.txt: 2 issue(s): - Water reflection symmetric letters list incorrectly includes S and Z (which are not horizontally symmetric) and o
-13-10 10:03:39   [Paper_Folding_Cutting] set 03: key confirmed
-13-10 10:07:13   [Dictionary_Order] repaired set 03 (en + hi, key confirmed by an independent re-solve)
-13-10 10:11:48   [Dictionary_Order] set 04: Q80 key a vs re-solve ?, Q81 key b vs re-solve ?, Q90 key c vs re-solve ?, Q93 key b vs re-solve d
-13-10 10:16:26   [Mirror_Water_Images] review Mind_Map.txt: 2 issue(s): - अपरिवर्तित अक्षर: 9<br>B,C,D,E,H,I,K,O,X → अपरिवर्तित अक्षर: 8<br>B,C,D,E,H,I,O,X
-13-10 10:16:56   [Paper_Folding_Cutting] set 04: key confirmed
-13-10 10:21:01   [Dictionary_Order] set 04 try 1: re-solve disagrees (Q80 key a vs re-solve ?, Q93 key a vs re-solve d)
-13-10 10:25:44   [Paper_Folding_Cutting] set 05: key confirmed
-13-10 10:27:44   [Mirror_Water_Images] review Flashcards_hi.txt: 1 issue(s): - English mnemonic contains a typo: “site” should be “side” → “Mirror paltay left-right, Water ultay top-bottom 
-13-10 10:29:51   [Dictionary_Order] set 04 try 2: re-solve disagrees (Q80 key a vs re-solve ?, Q93 key c vs re-solve d)
-13-10 10:33:45   [Paper_Folding_Cutting] set 06: key confirmed
 13-10 10:33:45   [Paper_Folding_Cutting] written 1, failed 0; AI calls today 62/100000
 13-10 10:34:03   [Mirror_Water_Images] review PYQ_en.txt: 2 issue(s): - Section title says "Previous 10 Years PYQ Analysis" but the table only covers 9 years (2016–2024) → Change title to "
 13-10 10:35:28   [Paper_Folding_Cutting] review Content_en.txt: 1 issue(s): - Invented statistic "90% of exam questions" in the claim "guarantees success in 90% of exam questions" → Remove th
@@ -78,4 +67,15 @@
 13-10 11:06:41   [Dictionary_Order] set 05 try 1: re-solve disagrees (Q116 key c vs re-solve ?)
 13-10 11:06:43   [Figure_Series] set 03: key confirmed
 13-10 11:08:50   [Ancient_History] set 03: key confirmed
+13-10 11:11:02   [Ancient_History] set 04: key confirmed
+13-10 11:11:53   [Ancient_History] set 05: Q115 key a vs re-solve c
+13-10 11:12:42   [Figure_Series] set 04: key confirmed
+13-10 11:15:14   [Dictionary_Order] set 05 try 2: re-solve disagrees (Q114 key a vs re-solve d, Q121 key b vs re-solve a)
+13-10 11:19:06   [Figure_Series] set 05: key confirmed
+13-10 11:20:52   [Figure_Series] set 06: key confirmed
+13-10 11:20:52   [Figure_Series] written 0, failed 0; AI calls today 124/100000
+13-10 11:22:04   [Ancient_History] repaired set 05 (en + hi, key confirmed by an independent re-solve)
+13-10 11:22:15   [Dictionary_Order] set 05 try 3: re-solve disagrees (Q103 key a vs re-solve b, Q116 key d vs re-solve a)
+13-10 11:22:30   [Figure_Series] review Content_en.txt: 1 issue(s): - The claim "That single question saves you from 80% of traps" is an invented exam statistic → Replace with "saves 
+13-10 11:23:35   [Ancient_History] set 06: Q130 key d vs re-solve b
 ```
