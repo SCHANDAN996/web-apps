@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 13-10-2026 09:18 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 03:57 PM
+**आख़िरी update:** 13-10-2026 09:24 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:23 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 320 मिनट |
-| W2 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 320 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W2 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -38,31 +38,8 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 15:57:39 autopilot start: 3 workers, reverse=True
-13-10 15:57:41 START Graduation_Level/Reasoning/Chapter_07_Sitting_Arrangement (OK: todo 0, problems 0)
-13-10 15:57:46 START Graduation_Level/Reasoning/Chapter_08_Puzzles (OK: todo 0, problems 0)
-13-10 15:57:52 worker 2: nothing left
-13-10 16:13:32   [Sitting_Arrangement] set 01: Q24 key d vs re-solve a
-13-10 16:18:46   [Puzzles] set 01: Q22: clues contradict each other — no arrangement fits all of them
-13-10 16:30:43   [Puzzles] set 01 try 1: re-solve disagrees (Q18 key b vs re-solve a)
-13-10 16:58:19   [Sitting_Arrangement] set 01 try 1: re-solve disagrees (Q1: the clues allow more than one answer — add a clue so exactly one arrangement fits; Q2: the clues allow more than
-13-10 16:59:44   [Puzzles] repaired set 01 (en + hi, key confirmed by an independent re-solve)
-13-10 17:11:34   [Puzzles] set 02: Q30 key a vs re-solve d
-13-10 17:28:44   [Puzzles] set 02 try 1: re-solve disagrees (Q30 key d vs re-solve c)
-13-10 17:42:08   [Sitting_Arrangement] set 01 try 2: re-solve disagrees (Q5: clues contradict each other — no arrangement fits all of them)
-13-10 17:44:32   [Puzzles] set 02 try 2: re-solve disagrees (Q30 key c vs re-solve b)
-13-10 18:01:44   [Puzzles] set 02 try 3: re-solve disagrees (Q30 key d vs re-solve b, Q41 key c vs re-solve b)
-13-10 18:30:26   [Sitting_Arrangement] set 01 try 3: re-solve disagrees (Q5: clues contradict each other — no arrangement fits all of them)
-13-10 18:32:50   [Puzzles] set 02 try 4: re-solve disagrees (Q26: the clues allow more than one answer — add a clue so exactly one arrangement fits)
-13-10 18:32:50   [Puzzles] FAILED set 02: no version passed the checks — files left as they were
-13-10 18:50:49   [Puzzles] set 03: Q64 key a vs re-solve c, Q69 key b vs re-solve d
-13-10 18:57:02   [Sitting_Arrangement] set 01 try 4: re-solve disagrees (Q16 key b vs re-solve a)
-13-10 18:57:02   [Sitting_Arrangement] FAILED set 01: no version passed the checks — files left as they were
-13-10 19:27:13   [Puzzles] set 03 try 1: re-solve disagrees (Q53: the clues allow more than one answer — add a clue so exactly one arrangement fits; Q55: clues contradict each o
-13-10 19:46:05   [Sitting_Arrangement] set 02: Q34: the clues allow more than one answer — add a clue so exactly one arrangement fits; Q44: the clues give "mohan" (option c), but the key sa
-13-10 19:47:42   [Puzzles] set 03 try 2: re-solve disagrees (Q52 key c vs re-solve a)
-13-10 20:14:24   [Puzzles] repaired set 03 (en + hi, key confirmed by an independent re-solve)
-13-10 20:40:38   [Puzzles] set 04: Q76: the clues allow more than one answer — add a clue so exactly one arrangement fits; Q85: clues contradict each other — no arrangement fits
-13-10 20:41:06   [Sitting_Arrangement] set 02 try 1: re-solve disagrees (Q39: the clues allow more than one answer — add a clue so exactly one arrangement fits; Q47: the clues give "white",
-13-10 21:09:07   [Puzzles] set 04 try 1: re-solve disagrees (Q76: the clues allow more than one answer — add a clue so exactly one arrangement fits)
+13-10 21:23:24 autopilot start: 3 workers, reverse=True
+13-10 21:23:27 START Graduation_Level/Reasoning/Chapter_07_Sitting_Arrangement (OK: todo 0, problems 0)
+13-10 21:23:32 START Graduation_Level/Reasoning/Chapter_08_Puzzles (OK: todo 0, problems 0)
+13-10 21:23:38 worker 2: nothing left
 ```
