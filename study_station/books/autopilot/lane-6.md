@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 10:23 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
+**आख़िरी update:** 13-10-2026 10:38 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 77 मिनट |
-| W2 | Chapter 20 Mirror Water Images (10th Reasoning) | 🔎 review हो रहा है | 45 मिनट |
-| W3 | Chapter 21 Paper Folding Cutting (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 76 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 92 मिनट |
+| W2 | Chapter 20 Mirror Water Images (10th Reasoning) | 🔎 review हो रहा है | 60 मिनट |
+| W3 | Chapter 21 Paper Folding Cutting (10th Reasoning) | 🔎 review हो रहा है | 5 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -67,4 +67,11 @@
 13-10 10:16:26   [Mirror_Water_Images] review Mind_Map.txt: 2 issue(s): - अपरिवर्तित अक्षर: 9<br>B,C,D,E,H,I,K,O,X → अपरिवर्तित अक्षर: 8<br>B,C,D,E,H,I,O,X
 13-10 10:16:56   [Paper_Folding_Cutting] set 04: key confirmed
 13-10 10:21:01   [Dictionary_Order] set 04 try 1: re-solve disagrees (Q80 key a vs re-solve ?, Q93 key a vs re-solve d)
+13-10 10:25:44   [Paper_Folding_Cutting] set 05: key confirmed
+13-10 10:27:44   [Mirror_Water_Images] review Flashcards_hi.txt: 1 issue(s): - English mnemonic contains a typo: “site” should be “side” → “Mirror paltay left-right, Water ultay top-bottom 
+13-10 10:29:51   [Dictionary_Order] set 04 try 2: re-solve disagrees (Q80 key a vs re-solve ?, Q93 key c vs re-solve d)
+13-10 10:33:45   [Paper_Folding_Cutting] set 06: key confirmed
+13-10 10:33:45   [Paper_Folding_Cutting] written 1, failed 0; AI calls today 62/100000
+13-10 10:34:03   [Mirror_Water_Images] review PYQ_en.txt: 2 issue(s): - Section title says "Previous 10 Years PYQ Analysis" but the table only covers 9 years (2016–2024) → Change title to "
+13-10 10:35:28   [Paper_Folding_Cutting] review Content_en.txt: 1 issue(s): - Invented statistic "90% of exam questions" in the claim "guarantees success in 90% of exam questions" → Remove th
 ```
