@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 12:41 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
+**आख़िरी update:** 13-10-2026 12:56 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 21 मिनट |
-| W2 | Chapter 03 Modern History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 25 मिनट |
-| W3 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 47 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 37 मिनट |
+| W2 | Chapter 03 Modern History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 40 मिनट |
+| W3 | Chapter 02 Medieval History (10th GK) | 🔎 review हो रहा है | 7 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -44,14 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 11:27:57   [Figure_Series] review Feynman_hi.txt: 2 issue(s): - The "exam language" claim that odd-position figures (1, 3, 5…) follow a single rule like "90° clockwise rotation"
-13-10 11:28:48   [Dictionary_Order] set 05 try 4: re-solve disagrees (Q116 key b vs re-solve a)
-13-10 11:28:48   [Dictionary_Order] FAILED set 05: no version passed the checks — files left as they were
-13-10 11:31:18   [Figure_Series] review Flashcards_en.txt: 2 issue(s): - Flashcard 10 front claims "5 major pattern types" but the SHAPES mnemonic on the back expands to 6 categories 
-13-10 11:31:42   [Ancient_History] set 06 try 1: re-solve disagrees (Q132 key b vs re-solve ?, Q147 key d vs re-solve b)
-13-10 11:34:13   [Figure_Series] review Flashcards_hi.txt: 2 issue(s): - Card 10 front says “5 प्रमुख पैटर्न प्रकार” but the SHAPES mnemonic actually covers 6 pattern types (Shading/S
-13-10 11:35:47   [Dictionary_Order] set 06: Q142 key a vs re-solve b
-13-10 11:39:21   [Figure_Series] review PYQ_en.txt: 9 issue(s): - Yearly Frequency Table: SSC CGL 10Y Total shows 34–38 but sum of yearly ranges (3–4,4,3,3,4,3,3,4,4,3) is 34–35 → cor
 13-10 11:43:19   [Ancient_History] repaired set 06 (en + hi, key confirmed by an independent re-solve)
 13-10 11:43:19   [Ancient_History] written 2, failed 0; AI calls today 150/100000
 13-10 11:44:26   [Dictionary_Order] set 06 try 1: re-solve disagrees (Q132 key b vs re-solve a, Q142 key b vs re-solve a)
@@ -84,4 +76,12 @@
 13-10 12:30:25   [Modern_History] repaired set 02 (en + hi, key confirmed by an independent re-solve)
 13-10 12:31:39   [Dictionary_Order] set 02: Q29 key d vs re-solve a, Q45 key d vs re-solve ?
 13-10 12:33:37   [Medieval_History] set 05: Q103 key b vs re-solve c, Q119 key c vs re-solve b
+13-10 12:42:26   [Medieval_History] repaired set 05 (en + hi, key confirmed by an independent re-solve)
+13-10 12:43:32   [Dictionary_Order] set 02 try 1: re-solve disagrees (Q29 key a vs re-solve d, Q31 key a vs re-solve b)
+13-10 12:43:47   [Modern_History] set 03: key confirmed
+13-10 12:49:16   [Medieval_History] set 06: key confirmed
+13-10 12:49:16   [Medieval_History] written 3, failed 0; AI calls today 216/100000
+13-10 12:49:33   [Modern_History] set 04: Q79 key d vs re-solve a, Q94 key c vs re-solve a
+13-10 12:51:15   [Dictionary_Order] set 02 try 2: re-solve disagrees (Q30 key a vs re-solve b, Q44 key d vs re-solve a)
+13-10 12:52:03   [Medieval_History] review Content_en.txt: 1 issue(s): - The claim "6 out of 10 questions in competitive exams come straight from these stories" is an invented exam stati
 ```
