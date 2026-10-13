@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 04:47 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
+**आख़िरी update:** 13-10-2026 04:51 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 135 मिनट |
-| W2 | Chapter 06 Physical Geography (10th GK) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 09 Economy Basic (10th GK) | 🔎 review हो रहा है | 24 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 139 मिनट |
+| W2 | Chapter 14 Sports (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W3 | Chapter 09 Economy Basic (10th GK) | 🔎 review हो रहा है | 27 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,13 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 15:47:26   [Physical_Geography] set 02: key confirmed
-13-10 15:52:17   [Polity] review Key_Facts_en.txt: 1 issue(s): - Electoral College composition (PREM, VP=All PMs) → Electoral College composition (PEM, VP=All MPs)
-13-10 15:53:41   [Dictionary_Order] set 03 try 3: re-solve disagrees (Q58 key b vs re-solve ?)
-13-10 15:55:05   [Polity] review Key_Facts_hi.txt: 3 issue(s): - "वर्तमान अनुच्छेद (लगभग) 448" दिया गया है बिना किसी संदर्भ वर्ष के → वर्ष जोड़ें, उदा. "वर्तमान अनुच्छेद (लगभग)
-13-10 15:55:51   [Physical_Geography] set 03: Q68 key c vs re-solve a
-13-10 15:57:34   [Polity] review Feynman_hi.txt: 2 issue(s): - The school analogy incorrectly states that the Sports Captain (an elected representative) cannot vote for Vice He
-13-10 15:59:42   [Polity] review Mind_Map.txt: 1 issue(s): - High Courts article range "Art 214-232" includes repealed Article 232 → High Courts are covered under Articles 214-
 13-10 16:01:58   [Physical_Geography] repaired set 03 (en + hi, key confirmed by an independent re-solve)
 13-10 16:02:43   [Polity] review Flashcards_en.txt: 2 issue(s): - Flashcard 5 (PREM mnemonic) omits the elected members of Legislative Assemblies of Union Territories (Delhi, P
 13-10 16:04:55   [Physical_Geography] set 04: key confirmed
@@ -79,4 +72,11 @@
 13-10 16:46:35   [Physical_Geography] review Memory_Hooks_hi.txt: 1 issue(s): - Item 5 (हिमालय के प्रमुख दर्रे पश्चिम से पूर्व) का दिया गया मेमोनिक "जेल खाओ बो शिप नाथ" दर्रों को सही पश्चि
 13-10 16:47:30   [Physical_Geography] review: 5 section(s) corrected, 0 failed
 13-10 16:47:30   [Physical_Geography] written 5, failed 0; AI calls today 168/100000
+13-10 16:47:56 DONE 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_06_Physical_Geography in 63 min → 42f229f9
+13-10 16:47:59 START 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_14_Sports (OK: todo 0, problems 0)
+13-10 16:49:02   [Sports] set 01: key confirmed
+13-10 16:49:14   [Economy_Basic] review Key_Facts_hi.txt: 1 issue(s): - मुद्रास्फीति लक्ष्य पंक्ति में "मार्च 2026 में 2026–31 के लिए बरकरार" एक अपुष्ट भविष्य दावा है → इसे हटाएं या व
+13-10 16:49:41   [Sports] set 02: key confirmed
+13-10 16:49:52   [Dictionary_Order] set 04 try 3: re-solve disagrees (Q80 key b vs re-solve ?, Q90 key d vs re-solve a)
+13-10 16:50:41   [Sports] set 03: key confirmed
 ```
