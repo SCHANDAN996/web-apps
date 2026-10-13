@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 09:22 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
+**आख़िरी update:** 13-10-2026 09:37 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
-| W2 | Chapter 20 Mirror Water Images (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
-| W3 | Chapter 21 Paper Folding Cutting (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
+| W2 | Chapter 20 Mirror Water Images (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
+| W3 | Chapter 21 Paper Folding Cutting (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -46,4 +46,9 @@
 13-10 09:14:28   [Dictionary_Order] set 02: Q29 key d vs re-solve a, Q31 key b vs re-solve a, Q45 key d vs re-solve ?
 13-10 09:16:43   [Paper_Folding_Cutting] set 01: Q6 key b vs re-solve a
 13-10 09:17:37   [Mirror_Water_Images] set 02: key confirmed
+13-10 09:23:29   [Dictionary_Order] set 02 try 1: re-solve disagrees (Q29 key a vs re-solve d)
+13-10 09:26:52   [Mirror_Water_Images] set 03: key confirmed
+13-10 09:30:13   [Mirror_Water_Images] set 04: key confirmed
+13-10 09:32:16   [Dictionary_Order] set 02 try 2: re-solve disagrees (Q29 key a vs re-solve d)
+13-10 09:34:50   [Mirror_Water_Images] set 05: key confirmed
 ```
