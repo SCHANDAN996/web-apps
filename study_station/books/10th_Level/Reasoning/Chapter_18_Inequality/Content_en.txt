@@ -38,9 +38,9 @@ Building Block 1: The Five Magic Symbols
 Think of these symbols as showing the strength or position of one person compared to another.
 
 Symbol	Meaning in English	Simple Hindi
->	Greater than	से बड़ा
+>	Greater than	से बड़ा
 <	Less than	से छोटा
-≥	Greater than or equal to	बड़ा या बराबर
+≥	Greater than or equal to	बड़ा या बराबर
 ≤	Less than or equal to	छोटा या बराबर
 =	Equal to	बराबर
 
@@ -70,9 +70,11 @@ Conditions for Either-Or:
 
 The subject and object of both conclusions must be exactly the same variables. (Like A and B, not A and C.)
 
-The two conclusions must form a complementary pair: one uses > and the other = (or < and =). Some exams also treat ≥ and ≤ as complementary when all three possibilities (>, <, =) are not settled.
+The two conclusions must form a complementary pair — together they must cover all possible relationships between the two variables, without overlapping. The valid complementary pairs are: (> and =), (< and =), (≥ and <), and (≤ and >).
 
 Individually, neither conclusion is definitely true based on the statements.
+
+Why ≥ and ≤ are NOT a complementary pair: both allow equality, so they overlap at A = B, and together they still miss nothing new — they don’t cleanly split all possibilities. A pair must cover every possibility exactly once.
 
 Example:
 Statement: X ≥ Y
@@ -84,8 +86,8 @@ Now, from X ≥ Y, we know X could be greater or equal, but we don’t know whic
 If the conclusions were X > Y and X < Y, that is not complementary because the possibility X = Y is missing. Then Either-Or won’t apply.
 
 🧠 Mnemonic Trick: To remember complementary pairs, use the silly sentence:
-“Big or Equal; Small or Equal — but never mix with the opposite.”
-So > and = are friends, < and = are friends. Don’t put > and < together expecting Either-Or.
+“Big or Equal; Small or Equal — and Big-or-Equal pairs with Small.”
+So (> , =) and (< , =) are friends, and (≥ , <) and (≤ , >) are friends. Don’t put > and < together expecting Either-Or, and don’t pair ≥ with ≤.
 
 Building Block 4: Coded Inequalities — Decode Before You Jump
 
@@ -136,7 +138,7 @@ Situation	What You Must Remember
 Same direction chain (e.g., A > B > C)	Combine directly; A > C is true.
 Opposite direction meeting (A > B < C)	No definite relation between A and C.
 Symbol ≥ or ≤ present	Always remember two possibilities. Check for definite truth.
-Complementary conclusions (>, =) present and both individually false	Apply Either-Or rule.
+Complementary conclusions (>, =), (<, =), (≥, <) or (≤, >) — both individually false	Apply Either-Or rule.
 Coded inequalities	Decode first, then solve like normal inequality.
 Conclusion with ≠	True if no possibility of equality exists.
 

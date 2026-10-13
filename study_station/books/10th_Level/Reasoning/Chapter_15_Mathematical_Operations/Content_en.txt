@@ -10,10 +10,10 @@
 Imagine sitting in the exam hall as the timer ticks down. On your screen appears a question:
 *If '+' means '-', '-' means 'x', 'x' means '/', and '/' means '+', then what is the value of: 24 / 8 x 2 - 5 + 3 = ?*
 
-Your mind spins for a brief second. While the symbols appear simple, speed and precision decide who wins the race. The secret is simple: never perform math on disguise symbols. First strip away the disguise, then let standard BODMAS take over.
+Your mind spins for a brief second. While the symbols appear simple, speed and precision decide who wins the race. The secret is simple: never perform math on disguised symbols. First strip away the disguise, then let standard BODMAS take over.
 
 ## 2. The Core Logic: Change the Symbols, Not the Rules of Mathematics
-In Verbal Reasoning, the real challenge is that the symbols represent custom operations, but the fundamental axioms of mathematics remain unchanged. Your three-step blueprint:
+In Verbal Reasoning, the real challenge is that the symbols represent custom operations, but the fundamental rules of mathematics remain unchanged. Your three-step blueprint:
 1. Read the given substitution rules methodically.
 2. Replace each coded sign with its real arithmetic operator on scratch paper.
 3. Apply standard BODMAS strictly to the rewritten expression.
@@ -26,10 +26,12 @@ Without looking ahead: If '+' means '-' and '-' means '+', what is 12 + 7 - 4?
 Unless a question explicitly states "do not apply BODMAS", always follow the order:
 - **B**: Brackets first ( ), { }, [ ]
 - **O**: Orders / Powers / Roots
-- **D**: Division (left to right)
-- **M**: Multiplication (left to right)
+- **D**: Division
+- **M**: Multiplication
 - **A**: Addition
 - **S**: Subtraction
+
+**Important:** Division and Multiplication have **equal precedence** — when both appear together, solve them strictly **left to right**. The same left-to-right rule applies to Addition and Subtraction.
 
 ### Active Recall Check 2
 In the expression `20 - 8 / 2 + 3`, if `/` means `+` and `+` means `/`, what is the very first step?
@@ -58,9 +60,9 @@ Convert each option into a clear mathematical inequality chain, then evaluate it
 | **Symbol Substitution** | Replace all symbols first, then apply BODMAS | Never calculate while substituting |
 | **Sign Interchange** | Swap the given pair in options; verify LHS = RHS | Check division compatibility first |
 | **Relational Coding** | Convert symbols to >, <, =; check truth value | Beware of strict vs non-strict inequalities |
-| **BODMAS Rule** | Brackets -> Division/Multiplication -> Addition/Subtraction | Left-to-right priority |
+| **BODMAS Rule** | Brackets -> Division/Multiplication -> Addition/Subtraction | Division & Multiplication: equal rank, left to right |
 
 ## Examiner's Traps & Pitfalls
 1. **The Incomplete Replacement Trap:** Replacing some symbols while forgetting others mid-equation. Always rewrite the full expression.
-2. **The Fractional Division Trap:** Forgetting that division takes precedence over multiplication, leading to erroneous integer rounding.
-3. **The Left-to-Right Blindness:** Treating all operations in left-to-right reading order instead of following BODMAS precedence.
+2. **The Fractional Division Trap:** Choosing a sign swap that creates a non-terminating fraction where the RHS demands a whole number — eliminate such options instantly.
+3. **The Left-to-Right Blindness:** Treating all operations in left-to-right reading order instead of following BODMAS precedence. Remember: left-to-right applies only *within* the same rank (Division with Multiplication, Addition with Subtraction).

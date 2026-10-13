@@ -12,12 +12,12 @@ graph TD
 
     W --> W1["ऊपर ↔ नीचे बदलता है<br>Top ↔ Bottom flip"]
     W --> W2["बायाँ-दायाँ अपरिवर्तित<br>Left-Right unchanged"]
-    W --> W3["अपरिवर्तित अक्षर: 9<br>B,C,D,E,H,I,K,O,X"]
+    W --> W3["अपरिवर्तित अक्षर: 8<br>B,C,D,E,H,I,O,X"]
 
-    CL --> CL1["दर्पण: 11:60 या 23:60 से घटाएँ"]
-    CL --> CL2["जल: 18:30 या 17:90 से घटाएँ"]
+    CL --> CL1["दर्पण: 11:60 या 23:60 से घटाएँ<br>Mirror: subtract from 11:60 or 23:60"]
+    CL --> CL2["जल: प्रत्येक सुई का कोण θ को<br>(180−θ) mod 360 से बदलें, फिर समय निकालें<br>Water: replace each hand angle θ by (180−θ) mod 360"]
 
-    TR --> TR1["घुमाव (Rotation) और प्रतिबिंब में भ्रम"]
-    TR --> TR2["दर्पण में M↔M लेकिन जल में M↔W"]
-    TR --> TR3["घड़ी में 18:30 vs 17:90 का चयन"]
+    TR --> TR1["घुमाव (Rotation) और प्रतिबिंब में भ्रम<br>Rotation vs Reflection confusion"]
+    TR --> TR2["दर्पण में M↔M लेकिन जल में M↔W<br>Mirror: M↔M but Water: M↔W"]
+    TR --> TR3["दर्पण और जल के सूत्र मिलाना नहीं<br>Do not mix mirror and water formulas"]
 ```

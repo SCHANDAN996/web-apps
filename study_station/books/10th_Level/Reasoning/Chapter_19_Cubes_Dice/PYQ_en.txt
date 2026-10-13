@@ -1,29 +1,29 @@
-📊 PYQ Analysis: Cubes & Dice – 10-Year Trend
+📊 PYQ Analysis: Cubes & Dice – Pattern Overview
 
-📅 1. Yearly Frequency (Questions per shift/exam)
-Year	SSC CGL (Per Shift)	SSC CHSL	RRB NTPC	IBPS PO (Mains)	SSC MTS
-2015	1–2	1	1	0–1	0–1
-2016	1–2	1	1	1	0–1
-2017	1–2	1	1	1	0
-2018	1–2	1	1	1	1
-2019	1–2	1–2	1	1	1
-2020	1–2	1	1–2	1	1
-2021	1–2	1–2	1	1	0
-2022	1–3	1–2	1–2	1	1
-2023	1–3	1	1–2	0–1	1
-2024	1–2	1	1	0–1	1
+📅 1. How Often This Chapter Appears
 
-Trend: In SSC exams over the past 5 years, the presence of Cubes and Dice has remained consistent, with 1–2 questions per shift virtually guaranteed. In 2023, up to 3 questions were observed in certain shifts. In Railway (RRB) exams, open dice folding and number opposites are standard question types.
+Cubes & Dice is a regular feature of the reasoning section in SSC (CGL, CHSL, MTS), Railway (RRB NTPC, Group D) and banking exams. Typically, one or two questions from this chapter appear in a shift, making it a small but dependable scoring area. Because the number of question types is limited and the rules are fixed, this chapter rewards preparation more reliably than most reasoning topics.
 
-🎯 2. Topic Weightage & Question Types Breakdown
-• Finding Opposites from Two Views: 40% (Most frequent question type in SSC Tier-I)
-• Open Dice (Unfolded Net to Folded Cube): 25% (Growing trend in recent years)
-• Painted Cube Cutting (Formulas for 0, 1, 2, 3 painted faces): 20%
-• Cube Counting in Complex 3D Solids: 10%
-• Reverse Logic & Conditional Dice Questions: 5%
+🎯 2. Question Types That Recur
+
+Based on the pattern of past papers, questions from this chapter fall into a few well-defined types:
+
+• Opposite faces from two views: Two or three positions of the same dice are shown, and you must find which face is opposite a given face. This is the most frequently asked type in SSC Tier-I exams.
+• Open dice (net folding): An unfolded net of a cube or dice is given, and you must identify the correct folded cube, or find which faces become opposite after folding. This type has become increasingly common in recent SSC and Railway papers.
+• Painted cube cutting: A cube painted on all faces is cut into smaller equal cubes; you must count cubes with 0, 1, 2 or 3 painted faces. Standard formulas apply, so these are quick marks if the formulas are memorised.
+• Cube counting in 3D solids: Counting the number of small cubes (visible and hidden) in a stacked arrangement.
+• Standard vs non-standard dice: Questions testing whether opposite faces sum to 7, or asking you to deduce the arrangement of a non-standard dice from given views.
 
 ⚠️ 3. Common Examiner Traps in Previous Years
+
 1. The Adjacent Face Trap: Assuming that faces visible together can be opposite. Two faces sharing a visible boundary can never be opposite to each other.
 2. The "At Least" Painted Trap: In painted cube questions, confusing "at least two faces painted" with "exactly two faces painted". "At least two" requires adding both 2-face painted edge cubes and 3-face painted corner cubes.
 3. Open Dice Alternating Rule Trap: Forgetting that in an unfolded dice net, opposite faces lie in the same straight line separated by exactly one square. Diagonal steps do not form opposite pairs.
 4. Non-Standard Dice Trap: Assuming opposite faces always sum to 7. Unless the question explicitly states "standard dice", numbers can be arranged in any configuration.
+
+💡 4. Preparation Strategy
+
+• Master the two-view opposite-face method first — it solves the most common question type in under a minute.
+• Memorise the painted-cube formulas for an n×n×n cube: 3 faces painted = 8 (corners); 2 faces painted = 12(n−2); 1 face painted = 6(n−2)²; 0 faces painted = (n−2)³. Verify that these add up to n³ as a self-check.
+• For open-dice nets, practise identifying the four standard net patterns and the alternating-square rule rather than memorising answers.
+• Always check whether the question says "standard dice" before using the sum-to-7 rule.
