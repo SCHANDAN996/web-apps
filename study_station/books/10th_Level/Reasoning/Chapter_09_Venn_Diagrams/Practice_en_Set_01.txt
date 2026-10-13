@@ -3,149 +3,149 @@ Questions 1–15: Easy to Medium | Questions 16–25: Medium to Hard
 1. Which of the following Venn diagrams best represents the relationship among: India, Asia, Earth?
 (a) One circle inside another, and both inside a third (concentric circles) (b) Three separate circles (c) Two separate circles inside one large circle (d) Three mutually overlapping circles
 Answer: (a)
-Solution: India is entirely within Asia, and Asia is entirely on Earth. Hence, they form three concentric nested circles.
+Solution: Three separate circles would wrongly suggest India is not part of Asia. India is entirely within Asia, and Asia is entirely on Earth, so the answer is three concentric nested circles.
 Source: PYQ-style
 
 2. Which Venn diagram shows the correct relationship among: Pen, Pencil, Eraser?
-(a) Three mutually overlapping circles (b) Three separate (mutually disjoint) circles (c) One large circle containing two smaller circles (d) Two intersecting circles, third separate
-Answer: (b)
-Solution: Pen, pencil, and eraser are distinct stationery items with no subset or overlap relation. Hence, three separate circles.
+(a) Three mutually overlapping circles (b) Two intersecting circles, third separate (c) One large circle containing two smaller circles (d) Three separate (mutually disjoint) circles
+Answer: (d)
+Solution: Overlapping circles would wrongly imply some pens are pencils. Pen, pencil, and eraser are distinct items with no subset or overlap relation, so the answer is three separate circles.
 Source: PYQ-style
 
 3. Select the Venn diagram that best illustrates the relationship: Women, Mothers, Engineers.
 (a) Three completely separate circles (b) Two separate circles inside a large circle (c) One circle (Mothers) completely inside another (Women), and a third circle (Engineers) intersecting both (d) Three separate circles with no nested subset
 Answer: (c)
-Solution: All mothers are women (Mothers ⊂ Women). Some women and some mothers are engineers. Hence, the Engineers circle intersects both circles.
+Solution: Separate circles would wrongly deny that all mothers are women. All mothers are women, and some women and some mothers are engineers, so the answer is Mothers inside Women with Engineers intersecting both.
 Source: PYQ-style
 
 4. Which Venn diagram best represents the classes: Doctors, Surgeons, Neurologists?
-(a) Three concentric circles (b) Two overlapping circles inside a large circle (c) Three mutually overlapping circles (d) One large circle (Doctors) containing two smaller non-overlapping circles
-Answer: (d)
-Solution: Both surgeons and neurologists are doctors, but they represent distinct medical specializations. Hence, two disjoint circles inside a large circle.
+(a) Three concentric circles (b) One large circle (Doctors) containing two smaller non-overlapping circles (c) Three mutually overlapping circles (d) Two overlapping circles inside a large circle
+Answer: (b)
+Solution: Concentric circles would wrongly make every neurologist a surgeon. Both surgeons and neurologists are doctors, but they are distinct specializations, so the answer is two disjoint circles inside a large circle.
 Source: PYQ-style
 
 5. Choose the correct diagram for: Players, Singers, Doctors.
-(a) Three mutually overlapping circles (triple intersection) (b) Three completely separate circles (c) One circle inside another, third separate (d) Two overlapping circles, third separate
-Answer: (a)
-Solution: A person can be any combination of player, singer, and doctor (including all three). Hence, three mutually overlapping circles.
+(a) Two overlapping circles, third separate (b) Three completely separate circles (c) One circle inside another, third separate (d) Three mutually overlapping circles (triple intersection)
+Answer: (d)
+Solution: Separate circles would wrongly forbid a person from being both a player and a singer. A person can be any combination of the three, so the answer is three mutually overlapping circles.
 Source: PYQ-style
 
 6. In a geometric Venn diagram: Triangle = Teachers, Circle = Graduates, Rectangle = Women. Numbers are: only teachers = 4, only graduates = 6, only women = 7, teachers and graduates (not women) = 3, graduates and women (not teachers) = 5, all three = 1. How many graduate women are NOT teachers?
 (a) 6 (b) 5 (c) 7 (d) 8
 Answer: (b)
-Solution: Graduate women who are not teachers corresponds to the region common to Circle and Rectangle outside Triangle = 5.
+Solution: Adding the triple intersection (giving 6) is the trap, because those women are also teachers. The region common to Circle and Rectangle outside Triangle is 5, so the answer is 5.
 Source: PYQ-style
 
 7. In a Venn diagram, circle A = Men, circle B = Employed, circle C = Educated. Which region represents men who are educated but NOT employed?
-(a) Region only inside circle A (b) Intersection of A and B (c) Intersection of A and C excluding B (d) Intersection of all three circles
-Answer: (c)
-Solution: Men (A) who are educated (C) but not employed (outside B) corresponds to (A ∩ C) excluding B.
+(a) Region only inside circle A (b) Intersection of A and C excluding B (c) Intersection of A and B (d) Intersection of all three circles
+Answer: (b)
+Solution: The intersection of all three is the trap, because it includes employed men. Men who are educated but not employed lie in the intersection of A and C excluding B, so the answer is that region.
 Source: PYQ-style
 
-8. In a school, circle represents Cricket, triangle Football, and square Hockey. How many students play both Cricket and Football but NOT Hockey (region: Cricket ∩ Football - Hockey)?
-(a) 3 (b) 5 (c) 7 (d) 4
-Answer: (d)
-Solution: The region common to the circle and triangle outside the square contains the value 4.
-Source: PYQ-style
+8. In a class of 60 students, 30 play cricket, 25 play football, and 10 play both. How many students play neither game?
+(a) 10 (b) 20 (c) 15 (d) 5
+Answer: (c)
+Solution: Simply subtracting 30 and 25 from 60 (giving 5) is the trap, because the 10 who play both get subtracted twice. Students playing at least one game = 30 + 25 − 10 = 45, so neither = 60 − 45 = 15.
+Source: NCERT Class 11 Mathematics (Sets)
 
 9. In a survey, 55% of people like tea, 45% like coffee, and 20% like both. What percentage of people like neither tea nor coffee?
 (a) 20% (b) 15% (c) 25% (d) 30%
 Answer: (a)
-Solution: Union = 55% + 45% - 20% = 80%. Neither = 100% - 80% = 20%.
-Source: PYQ-style
+Solution: Adding 55 and 45 to get 100 and concluding 0% is the trap, since the 20% overlap is counted twice. Union = 55 + 45 − 20 = 80, so neither = 100 − 80 = 20%.
+Source: NCERT Class 11 Mathematics (Sets)
 
-10. In a Venn diagram of families using three energy sources: LPG, Electricity, and Solar, how many families use only LPG and Solar (and NOT Electricity)?
-(a) 8 (b) 12 (c) 10 (d) 15
-Answer: (b)
-Solution: The intersection of LPG and Solar circles excluding Electricity yields 12.
-Source: PYQ-style
+10. In a group of 100 people, 60 speak Hindi, 40 speak English, and 25 speak both languages. How many people speak exactly one of the two languages?
+(a) 35 (b) 75 (c) 50 (d) 15
+Answer: (c)
+Solution: Taking the union 60 + 40 − 25 = 75 is the trap, because the union includes those who speak both. Exactly one language = (60 − 25) + (40 − 25) = 35 + 15 = 50, so the answer is 50.
+Source: NCERT Class 11 Mathematics (Sets)
 
 11. Statements: All flowers are plants. Some plants are trees. Conclusions: I. Some trees are flowers. II. Some plants are flowers.
-(a) Only conclusion I follows (b) Both conclusions I and II follow (c) Only conclusion II follows (d) Neither conclusion follows
-Answer: (c)
-Solution: Since Flowers ⊂ Plants, Some plants are definitely flowers (II follows). There is no guaranteed overlap between Trees and Flowers (I does not follow).
+(a) Only conclusion I follows (b) Only conclusion II follows (c) Both conclusions I and II follow (d) Neither conclusion follows
+Answer: (b)
+Solution: Conclusion I is the trap, since trees and flowers may lie in completely different parts of the plants circle. Since all flowers are plants, some plants are definitely flowers, so only conclusion II follows.
 Source: PYQ-style
 
 12. Statements: No book is a pen. All pens are pencils. Conclusions: I. Some books are pencils. II. Some pencils are not books.
 (a) Only conclusion I follows (b) Both conclusions follow (c) Neither conclusion follows (d) Only conclusion II follows
 Answer: (d)
-Solution: Pens ⊂ Pencils, and no pen is a book. Those pencils which are pens can never be books. Hence, 'Some pencils are not books' definitely follows.
+Solution: Conclusion I is the trap, because books and pencils may remain entirely separate. The pencils that are pens can never be books, so some pencils are definitely not books and only conclusion II follows.
 Source: PYQ-style
 
 13. Statements: Some actors are singers. All singers are dancers. Conclusions: I. Some actors are dancers. II. All dancers are singers.
 (a) Only conclusion I follows (b) Only conclusion II follows (c) Both conclusions follow (d) Neither conclusion follows
 Answer: (a)
-Solution: Actors who are singers are necessarily dancers, so Some actors are dancers (I follows). All dancers are singers is not necessarily true (II does not follow).
+Solution: Conclusion II is the trap, since the dancers circle can be much larger than the singers circle. The actors who are singers must be dancers, so some actors are dancers and only conclusion I follows.
 Source: PYQ-style
 
 14. Statements: All mangoes are fruits. No fruit is a vegetable. Conclusions: I. No mango is a vegetable. II. Some vegetables are mangoes.
-(a) Only conclusion II follows (b) Only conclusion I follows (c) Both conclusions follow (d) Neither conclusion follows
-Answer: (b)
-Solution: Mangoes ⊂ Fruits, and Fruits and Vegetables are completely disjoint. Thus, no mango can be a vegetable. Only I follows.
+(a) Only conclusion II follows (b) Both conclusions follow (c) Only conclusion I follows (d) Neither conclusion follows
+Answer: (c)
+Solution: Conclusion II is the trap, as it directly contradicts the disjointness of fruits and vegetables. Mangoes lie inside fruits, which are entirely separate from vegetables, so no mango is a vegetable and only conclusion I follows.
 Source: PYQ-style
 
 15. Statements: Some cats are dogs. All dogs are rats. No rat is a bat. Conclusions: I. Some cats are rats. II. No cat is a bat.
-(a) Only conclusion II follows (b) Both conclusions follow (c) Only conclusion I follows (d) Neither conclusion follows
-Answer: (c)
-Solution: The part of cats that are dogs is inside rats, so Some cats are rats (I follows). Cats outside dogs and rats could intersect bats, so II is not definite.
+(a) Only conclusion II follows (b) Only conclusion I follows (c) Both conclusions follow (d) Neither conclusion follows
+Answer: (b)
+Solution: Conclusion II is the trap, because the cats that are not dogs could still overlap with bats. The cats that are dogs lie inside rats, so some cats are rats and only conclusion I follows.
 Source: PYQ-style
 
 16. Which Venn diagram represents the sets: College, Principal, Students?
-(a) Three mutually overlapping circles (b) Three concentric nested circles (c) Two overlapping circles, third separate (d) One large circle (College) containing two separate non-overlapping circles (Principal and Students)
-Answer: (d)
-Solution: Principal and Students are both members of a College, but a Principal is not a Student. Thus, two disjoint circles inside a large circle.
+(a) Three mutually overlapping circles (b) Three concentric nested circles (c) One large circle (College) containing two separate non-overlapping circles (Principal and Students) (d) Two overlapping circles, third separate
+Answer: (c)
+Solution: Overlapping Principal and Students circles is the trap, since a principal is not a student. Both belong to the college but are disjoint roles, so the answer is two separate circles inside one large circle.
 Source: PYQ-style
 
 17. Choose the diagram for: Furniture, Chair, Table.
-(a) One large circle (Furniture) containing two separate non-overlapping circles (Chair and Table) (b) Three separate circles (c) Two overlapping circles inside a large circle (d) Three mutually overlapping circles
-Answer: (a)
-Solution: Both Chair and Table are types of Furniture, but chairs are distinct from tables. Thus, two disjoint circles inside a large circle.
+(a) Three mutually overlapping circles (b) Three separate circles (c) Two overlapping circles inside a large circle (d) One large circle (Furniture) containing two separate non-overlapping circles (Chair and Table)
+Answer: (d)
+Solution: Overlapping Chair and Table circles is the trap, since no chair is a table. Both are types of furniture but distinct from each other, so the answer is two disjoint circles inside a large circle.
 Source: PYQ-style
 
 18. Which option fits the words: Car, Vehicle, Petrol?
-(a) Three mutually overlapping circles (b) One large circle (Vehicle) containing Car, and Petrol as a completely separate circle (c) One large circle containing two overlapping circles (d) Two separate circles, third inside one of them
-Answer: (b)
-Solution: Car is a type of vehicle (Car ⊂ Vehicle). Petrol is a fuel, not a vehicle, so it forms an entirely separate disjoint circle.
+(a) One large circle (Vehicle) containing Car, and Petrol as a completely separate circle (b) Three mutually overlapping circles (c) One large circle containing two overlapping circles (d) Two separate circles, third inside one of them
+Answer: (a)
+Solution: Putting petrol inside the vehicle circle is the trap, since petrol is a fuel, not a vehicle. Car is a subset of Vehicle and Petrol is unrelated, so the answer is Car inside Vehicle with Petrol separate.
 Source: PYQ-style
 
 19. In a Venn diagram with three intersecting circles A, B, and C, how many distinct bounded regions are formed?
-(a) 6 (b) 8 (c) 7 (d) 9
-Answer: (c)
-Solution: Three intersecting circles form exactly 7 distinct bounded regions: 3 individual only, 3 pairwise only, and 1 triple intersection.
-Source: PYQ-style
+(a) 7 (b) 8 (c) 6 (d) 9
+Answer: (a)
+Solution: Counting 8 is the trap, because the eighth region is the unbounded area outside all circles. Three intersecting circles form 3 single-only, 3 pairwise-only, and 1 triple region, so the answer is 7.
+Source: NCERT Class 11 Mathematics (Sets)
 
 20. If 'only A' = 5, 'only B' = 7, 'only C' = 9, 'A and B only' = 3, 'A and C only' = 2, 'B and C only' = 4, and 'all three' = 1, how many total elements are in set A?
 (a) 9 (b) 10 (c) 12 (d) 11
 Answer: (d)
-Solution: Total in A = only A + (A∩B only) + (A∩C only) + all three = 5 + 3 + 2 + 1 = 11.
-Source: PYQ-style
+Solution: Adding only A with the triple region (giving 6) or adding all seven regions is the trap. Set A = only A + A∩B only + A∩C only + all three = 5 + 3 + 2 + 1 = 11, so the answer is 11.
+Source: NCERT Class 11 Mathematics (Sets)
 
-21. Which Venn diagram correctly shows the relationship among: Paper, Book, Printer?
-(a) Paper and Book overlapping, Printer as a separate circle (b) Three completely separate circles (c) Three concentric circles (d) Three mutually overlapping circles
+21. Which Venn diagram correctly shows the relationship among: Apple, Fruit, Red things?
+(a) One circle (Apple) inside another (Fruit), with a third circle (Red things) intersecting both (b) Three completely separate circles (c) Three concentric circles (d) One large circle containing two disjoint circles
 Answer: (a)
-Solution: Some paper is used in books, and books are made of paper. Printer is an electronic machine, entirely disjoint from both.
+Solution: Three concentric circles is the trap, because not all fruits are red and not all red things are fruits. All apples are fruits, while some apples and some fruits are red, so the answer is Apple inside Fruit with Red things intersecting both.
 Source: PYQ-style
 
 22. Statements: Some pencils are pens. No pen is an eraser. Conclusions: I. Some pencils are not erasers. II. All pencils being pens is a possibility.
-(a) Only conclusion I follows (b) Both conclusions I and II follow (c) Only conclusion II follows (d) Neither conclusion follows
-Answer: (b)
-Solution: The part of pencils that are pens cannot be erasers (I follows). Statements do not forbid all pencils from being pens, so the possibility is valid (II follows).
+(a) Both conclusions I and II follow (b) Only conclusion I follows (c) Only conclusion II follows (d) Neither conclusion follows
+Answer: (a)
+Solution: Rejecting conclusion II is the trap, because nothing in the statements forbids all pencils from being pens. The pencils that are pens cannot be erasers, and the possibility case holds, so both conclusions follow.
 Source: PYQ-style
 
 23. In a diagram: Triangle = Players, Square = Graduates, Circle = Indians. If only players = 8, only graduates = 6, and players and graduates (not Indians) = 4, how many persons are either players or graduates, but NOT Indians?
 (a) 17 (b) 19 (c) 18 (d) 21
 Answer: (c)
-Solution: Persons in Players or Graduates outside Indians = 8 + 6 + 4 = 18.
+Solution: Including regions involving Indians is the trap, since the question excludes them. The required count = 8 + 6 + 4 = 18, so the answer is 18.
 Source: PYQ-style
 
 24. Which Venn diagram best represents: Males, Brothers, Sisters?
-(a) Two overlapping circles inside a large circle (b) Three mutually overlapping circles (c) Three completely separate circles (d) One large circle (Males) containing Brothers, and Sisters as a separate circle
-Answer: (d)
-Solution: All brothers are males (Brothers ⊂ Males). Sisters are females and cannot be males, so Sisters forms a separate disjoint circle.
+(a) Two overlapping circles inside a large circle (b) One large circle (Males) containing Brothers, and Sisters as a separate circle (c) Three completely separate circles (d) Three mutually overlapping circles
+Answer: (b)
+Solution: Overlapping Sisters with Males is the trap, since sisters are female and cannot be male. All brothers are males, so the answer is Brothers inside Males with Sisters as a separate circle.
 Source: PYQ-style
 
 25. Statements: All windows are doors. No door is a wall. Some walls are roofs. Conclusions: I. Some roofs are windows. II. No window is a wall.
-(a) Only conclusion I follows (b) Only conclusion II follows (c) Both conclusions follow (d) Neither conclusion follows
-Answer: (b)
-Solution: Windows ⊂ Doors, and Doors ∩ Walls = ∅, which implies Windows ∩ Walls = ∅ (II follows). Roofs and Windows have no definite intersection (I does not follow).
+(a) Only conclusion I follows (b) Neither conclusion follows (c) Both conclusions follow (d) Only conclusion II follows
+Answer: (d)
+Solution: Conclusion I is the trap, because roofs and windows have no definite connection. Windows lie inside doors, which are entirely separate from walls, so no window is a wall and only conclusion II follows.
 Source: PYQ-style
