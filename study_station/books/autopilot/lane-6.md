@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 06:08 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
+**आख़िरी update:** 13-10-2026 06:13 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 216 मिनट |
-| W2 | Chapter 14 Sports (10th GK) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 17 Culture Art (10th GK) | 🔎 review हो रहा है | 57 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 221 मिनट |
+| W2 | Chapter 18 Science Tech (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W3 | Chapter 17 Culture Art (10th GK) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,6 +32,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 13-10 18:13 — 10th GK · Chapter 17 Culture Art
 - 13-10 18:08 — 10th GK · Chapter 14 Sports
 - 13-10 17:02 — 10th GK · Chapter 09 Economy Basic
 - 13-10 16:47 — 10th GK · Chapter 06 Physical Geography
@@ -41,14 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 17:00:58   [Sports] set 06: Q135 key b vs re-solve ?, Q137 key b vs re-solve ?, Q139 key c vs re-solve ?, Q141 key c vs re-solve ?
-13-10 17:02:05   [Economy_Basic] review: 7 section(s) corrected, 0 failed
-13-10 17:02:05   [Economy_Basic] written 7, failed 0; AI calls today 196/100000
-13-10 17:02:30 DONE 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_09_Economy_Basic in 47 min → 6014a85a
-13-10 17:02:33 START 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_17_Culture_Art (OK: todo 0, problems 0)
-13-10 17:03:22   [Culture_Art] set 01: key confirmed
-13-10 17:04:34   [Culture_Art] set 02: key confirmed
-13-10 17:06:15   [Culture_Art] set 03: key confirmed
 13-10 17:06:50   [Sports] repaired set 06 (en + hi, key confirmed by an independent re-solve)
 13-10 17:06:50   [Sports] written 1, failed 0; AI calls today 206/100000
 13-10 17:07:43   [Culture_Art] set 04: key confirmed
@@ -81,4 +74,12 @@
 13-10 18:03:55   [Sports] review PYQ_hi.txt: 1 issue(s): - Question 10 states as fact that India won the 2025 ICC Women's ODI World Cup, beating South Africa in the final on 2 
 13-10 18:08:57   [Sports] review: 10 section(s) corrected, 0 failed
 13-10 18:08:57   [Sports] written 10, failed 0; AI calls today 266/100000
+13-10 18:09:20 DONE 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_14_Sports in 81 min → 4e3bfe0e
+13-10 18:09:23 START 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_18_Science_Tech (OK: todo 0, problems 0)
+13-10 18:09:54   [Science_Tech] set 01: key confirmed
+13-10 18:11:41   [Science_Tech] set 02: key confirmed
+13-10 18:12:45   [Science_Tech] set 03: Q73 key d vs re-solve b
+13-10 18:13:25   [Culture_Art] review: 7 section(s) corrected, 0 failed
+13-10 18:13:25   [Culture_Art] written 7, failed 0; AI calls today 275/100000
+13-10 18:13:39   [Dictionary_Order] set 06 try 1: re-solve disagrees (Q126 key c vs re-solve a, Q141 key b vs re-solve d)
 ```
