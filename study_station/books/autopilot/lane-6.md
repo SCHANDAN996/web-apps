@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 06:38 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
+**आख़िरी update:** 13-10-2026 06:54 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 246 मिनट |
-| W2 | Chapter 18 Science Tech (10th GK) | 🔎 review हो रहा है | 16 मिनट |
-| W3 | Chapter 19 Environment (10th GK) | 🔎 review हो रहा है | 14 मिनट |
+| W2 | Chapter 18 Science Tech (10th GK) | 🔎 review हो रहा है | 31 मिनट |
+| W3 | Chapter 19 Environment (10th GK) | 🔎 review हो रहा है | 29 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,17 +38,13 @@
 - 13-10 16:14 — 10th GK · Chapter 05 Polity
 - 13-10 15:44 — 10th GK · Chapter 04 Constitution Basic
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 13 Dictionary Order (Reasoning) — 1 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 17:47:37   [Sports] review Feynman_en.txt: 1 issue(s): - The lifetime award is the Dhyan Chand Award (instituted 2002), not "Arjuna Award (Lifetime)"; the National Sports
-13-10 17:49:11   [Dictionary_Order] set 05 try 4: re-solve disagrees (Q113 key b vs re-solve c, Q124 key d vs re-solve c)
-13-10 17:49:11   [Dictionary_Order] FAILED set 05: no version passed the checks — files left as they were
-13-10 17:51:28   [Sports] review Feynman_hi.txt: 1 issue(s): - "राष्ट्रीय खेल पुरस्कार 2024 में 'अर्जुन पुरस्कार (आजीवन)' के नाम से दिया गया" → यह गलत है; 2024 के राष्ट्रीय खेल
-13-10 17:52:39   [Culture_Art] review Key_Facts_hi.txt: 2 issue(s): - विश्व धरोहर स्थल (2026) 45 (37 सांस्कृतिक, 7 प्राकृतिक, 1 मिश्रित) in High-yield facts is an invented future st
-13-10 17:54:15   [Sports] review Mind_Map.txt: 3 issue(s): - CW2 node "अहमदाबाद 2030" presents Ahmedabad as confirmed 2030 Commonwealth Games host → 2030 host not yet decided; 
-13-10 17:57:28   [Dictionary_Order] set 06: Q142 key a vs re-solve b
-13-10 17:57:50   [Culture_Art] review Mind_Map.txt: 4 issue(s): - U1: "45 विश्व धरोहर स्थल - 2026" with breakdown 37 cultural, 7 natural, 1 mixed is incorrect → As of 2024, India ha
 13-10 17:58:16   [Sports] review Flashcards_hi.txt: 1 issue(s): - Card 12 incorrectly states that the Major Dhyan Chand Khel Ratna award started in 1991–92; it was originally t
 13-10 17:59:53   [Culture_Art] review Flashcards_en.txt: 1 issue(s): - Card 16 states India had 45 World Heritage sites in 2026 → As of 2024, India has 42 World Heritage sites (34 c
 13-10 18:01:41   [Sports] review PYQ_en.txt: 1 issue(s): - Question 10 presents a fabricated result for the 2025 ICC Women's ODI World Cup (India beating South Africa on 2 Nove
@@ -82,4 +77,12 @@
 13-10 18:25:50   [Dictionary_Order] set 06 try 2: re-solve disagrees (Q133 key c vs re-solve b, Q146 key c vs re-solve d, Q148 key a vs re-solve d)
 13-10 18:32:46   [Environment] review Content_en.txt: 4 issue(s): - Static-Dynamic Link claims "As announced by PIB on 3 August 2026, Glaw Lake became India's 101st Ramsar site" → t
 13-10 18:36:07   [Science_Tech] review Content_hi.txt: 3 issue(s): - Static-Dynamic Link: SpaDeX docking on 16 January 2025 is stated as a completed event, but as of 2024 it is a fut
+13-10 18:43:02   [Dictionary_Order] repaired set 06 (en + hi, key confirmed by an independent re-solve)
+13-10 18:43:02   [Dictionary_Order] written 2, failed 4; AI calls today 310/100000
+13-10 18:43:02 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_13_Dictionary_Order: ['FAILED set 02: no version passed the checks — files left as they were', 'FAILED set 03: too_long']
+13-10 18:43:02 worker 0: nothing left
+13-10 18:44:10   [Environment] review Content_hi.txt: 3 issue(s): - Ramsar Convention: claims India joined in 1982 but first Ramsar sites (Chilika, Keoladeo) designated in 1981 → In
+13-10 18:49:44   [Science_Tech] review Flashcards_en.txt: 1 issue(s): - Card 18 states as fact that Group Captain Shubhanshu Shukla visited the ISS on Axiom-4 in June–July 2025; this
+13-10 18:51:51   [Science_Tech] review Flashcards_hi.txt: 1 issue(s): - Card 18 states that Group Captain Shubhanshu Shukla became the first Indian to visit the ISS on the Axiom‑4 mi
+13-10 18:54:09   [Environment] review Key_Facts_en.txt: 2 issue(s): - Ramsar sites in India: 101 (as of 3 August 2026) → Invented future statistic; replace with verified figure (e.g
 ```
