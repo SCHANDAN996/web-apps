@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 01:42 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
+**आख़िरी update:** 13-10-2026 01:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 83 मिनट |
-| W2 | Chapter 03 Modern History (10th GK) | 🔎 review हो रहा है | 9 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 98 मिनट |
+| W2 | Chapter 03 Modern History (10th GK) | 🔎 review हो रहा है | 25 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -44,9 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 12:19:26   [Dictionary_Order] written 2, failed 3; AI calls today 192/100000
-13-10 12:19:26 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_13_Dictionary_Order: ['FAILED set 02: no version passed the checks — files left as they were', 'FAILED set 04: no version passed the checks — files left as they were']
-13-10 12:19:27 START 10th_Level/Reasoning/Chapter_13_Dictionary_Order (OK: todo 0, problems 0)
 13-10 12:19:31   [Medieval_History] set 03: key confirmed
 13-10 12:21:56   [Modern_History] set 02: Q44 key c vs re-solve a
 13-10 12:23:16   [Dictionary_Order] set 01: key confirmed
@@ -84,4 +81,7 @@
 13-10 13:32:45   [Modern_History] written 4, failed 0; AI calls today 263/100000
 13-10 13:36:17   [Dictionary_Order] set 04 try 1: re-solve disagrees (Q80 key a vs re-solve ?, Q93 key a vs re-solve b)
 13-10 13:37:25   [Modern_History] review Content_en.txt: 2 issue(s): - The mnemonic for annexations under Dalhousie incorrectly includes Awadh as a Doctrine of Lapse annexation; Awadh 
+13-10 13:46:27   [Dictionary_Order] set 04 try 2: re-solve disagrees (Q80 key d vs re-solve ?, Q93 key b vs re-solve d)
+13-10 13:50:12   [Modern_History] review Content_hi.txt: 1 issue(s): - अवध (Awadh) को हड़प नीति (Doctrine of Lapse) के तहत हड़पे गए राज्यों की सूची में शामिल किया गया है → अवध को 1856 
+13-10 13:54:30   [Dictionary_Order] set 04 try 3: re-solve disagrees (Q93 key a vs re-solve d)
 ```
