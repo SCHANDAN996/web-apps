@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 11:40 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
+**आख़िरी update:** 13-10-2026 11:53 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 153 मिनट |
-| W2 | Chapter 01 Ancient History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 36 मिनट |
-| W3 | Chapter 22 Figure Series (10th Reasoning) | 🔎 review हो रहा है | 19 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 167 मिनट |
+| W2 | Chapter 01 Ancient History (10th GK) | 🔎 review हो रहा है | 10 मिनट |
+| W3 | Chapter 22 Figure Series (10th Reasoning) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,19 +32,13 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 13-10 11:53 — 10th Reasoning · Chapter 22 Figure Series
 - 13-10 11:03 — 10th Reasoning · Chapter 20 Mirror Water Images
 - 13-10 10:58 — 10th Reasoning · Chapter 21 Paper Folding Cutting
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 10:52:56   [Mirror_Water_Images] review Short_Tricks_hi.txt: 1 issue(s): - Point 14 lists incorrect letters for water‑image symmetry (C, E, H, I, O, S, X, Z) → The correct horizontall
-13-10 10:53:10   [Dictionary_Order] set 04 try 4: re-solve disagrees (Q80 key a vs re-solve ?, Q86 key d vs re-solve b, Q93 key c vs re-solve d)
-13-10 10:53:10   [Dictionary_Order] FAILED set 04: no version passed the checks — files left as they were
-13-10 10:56:13   [Paper_Folding_Cutting] review Short_Tricks_en.txt: 1 issue(s): - The 'Jalebi Spiral Escape' mnemonic incorrectly states that a cut from the folded corner to an open edge mak
-13-10 10:58:20   [Dictionary_Order] set 05: Q109 key a vs re-solve b, Q116 key d vs re-solve ?
-13-10 10:58:22   [Paper_Folding_Cutting] review: 4 section(s) corrected, 0 failed
-13-10 10:58:22   [Paper_Folding_Cutting] written 4, failed 0; AI calls today 93/100000
 13-10 10:58:39 DONE 10th_Level/Reasoning/Chapter_21_Paper_Folding_Cutting in 112 min → 7c012b18
 13-10 10:58:41 START 10th_Level/Reasoning/Chapter_22_Figure_Series (OK: todo 0, problems 0)
 13-10 11:01:08   [Mirror_Water_Images] review Important_Rules_hi.txt: 1 issue(s): - जल प्रतिबिंब अंक अदला-बदली में "बाकी अंकों का आकार बदलता है" गलत है → 0, 1, 8 जल प्रतिबिंब (क्षैतिज दर्पण
@@ -78,4 +72,11 @@
 13-10 11:34:13   [Figure_Series] review Flashcards_hi.txt: 2 issue(s): - Card 10 front says “5 प्रमुख पैटर्न प्रकार” but the SHAPES mnemonic actually covers 6 pattern types (Shading/S
 13-10 11:35:47   [Dictionary_Order] set 06: Q142 key a vs re-solve b
 13-10 11:39:21   [Figure_Series] review PYQ_en.txt: 9 issue(s): - Yearly Frequency Table: SSC CGL 10Y Total shows 34–38 but sum of yearly ranges (3–4,4,3,3,4,3,3,4,4,3) is 34–35 → cor
+13-10 11:43:19   [Ancient_History] repaired set 06 (en + hi, key confirmed by an independent re-solve)
+13-10 11:43:19   [Ancient_History] written 2, failed 0; AI calls today 150/100000
+13-10 11:44:26   [Dictionary_Order] set 06 try 1: re-solve disagrees (Q132 key b vs re-solve a, Q142 key b vs re-solve a)
+13-10 11:46:24   [Ancient_History] review Content_en.txt: 1 issue(s): - The claim that the Union Cabinet approved the NMHC project in 2024 is incorrect; the Cabinet approved it in 2022 
+13-10 11:48:18   [Figure_Series] review PYQ_hi.txt: 9 issue(s): - SSC CGL 10-वर्ष कुल अधिकतम 38 दिखाया गया है, परंतु दिए गए वार्षिक आंकड़ों का योग अधिकतम 35 होता है → 34–35 लिखें
+13-10 11:53:31   [Figure_Series] review: 6 section(s) corrected, 0 failed
+13-10 11:53:31   [Figure_Series] written 6, failed 0; AI calls today 160/100000
 ```
