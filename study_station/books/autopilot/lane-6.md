@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 02:13 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
+**आख़िरी update:** 13-10-2026 02:18 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 113 मिनट |
-| W2 | Chapter 03 Modern History (10th GK) | 🔎 review हो रहा है | 40 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 119 मिनट |
+| W2 | Chapter 03 Modern History (10th GK) | 📤 push हो रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -31,6 +31,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 13-10 14:18 — 10th GK · Chapter 03 Modern History
 - 13-10 13:19 — 10th GK · Chapter 02 Medieval History
 - 13-10 12:15 — 10th GK · Chapter 01 Ancient History
 - 13-10 11:53 — 10th Reasoning · Chapter 22 Figure Series
@@ -44,10 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 12:30:25   [Modern_History] repaired set 02 (en + hi, key confirmed by an independent re-solve)
-13-10 12:31:39   [Dictionary_Order] set 02: Q29 key d vs re-solve a, Q45 key d vs re-solve ?
-13-10 12:33:37   [Medieval_History] set 05: Q103 key b vs re-solve c, Q119 key c vs re-solve b
-13-10 12:42:26   [Medieval_History] repaired set 05 (en + hi, key confirmed by an independent re-solve)
 13-10 12:43:32   [Dictionary_Order] set 02 try 1: re-solve disagrees (Q29 key a vs re-solve d, Q31 key a vs re-solve b)
 13-10 12:43:47   [Modern_History] set 03: key confirmed
 13-10 12:49:16   [Medieval_History] set 06: key confirmed
@@ -84,4 +81,8 @@
 13-10 14:02:22   [Dictionary_Order] set 04 try 4: re-solve disagrees (Q86 key b vs re-solve a, Q93 key a vs re-solve d)
 13-10 14:02:22   [Dictionary_Order] FAILED set 04: no version passed the checks — files left as they were
 13-10 14:10:24   [Dictionary_Order] set 05: Q109 key a vs re-solve d, Q110 key b vs re-solve d, Q115 key c vs re-solve a, Q116 key d vs re-solve ?
+13-10 14:14:14   [Modern_History] review Memory_Hooks_en.txt: 1 issue(s): - The mnemonic states Dalhousie's annexation order as Satara, Jhansi, Nagpur, Awadh, Sambalpur; the correct ch
+13-10 14:14:15   [Dictionary_Order] set 05 try 1: rejected (Q111:duplicate_options)
+13-10 14:18:37   [Modern_History] review: 4 section(s) corrected, 0 failed
+13-10 14:18:37   [Modern_History] written 4, failed 0; AI calls today 290/100000
 ```
