@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 05:37 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
+**आख़िरी update:** 13-10-2026 05:52 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 185 मिनट |
-| W2 | Chapter 14 Sports (10th GK) | 🔎 review हो रहा है | 30 मिनट |
-| W3 | Chapter 17 Culture Art (10th GK) | 🔎 review हो रहा है | 25 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 200 मिनट |
+| W2 | Chapter 14 Sports (10th GK) | 🔎 review हो रहा है | 45 मिनट |
+| W3 | Chapter 17 Culture Art (10th GK) | 🔎 review हो रहा है | 41 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -40,15 +40,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 16:43:34   [Physical_Geography] review Memory_Hooks_en.txt: 1 issue(s): - Mahendragiri (1501 m) is not the highest peak of the Eastern Ghats; Arma Konda (1680 m) / Jindhagada (1690 m
-13-10 16:44:03   [Economy_Basic] review Key_Facts_en.txt: 1 issue(s): - Inflation target claims retention in March 2026 for 2026–31 → The current inflation target (4% ±2%) is for 2021
-13-10 16:46:35   [Physical_Geography] review Memory_Hooks_hi.txt: 1 issue(s): - Item 5 (हिमालय के प्रमुख दर्रे पश्चिम से पूर्व) का दिया गया मेमोनिक "जेल खाओ बो शिप नाथ" दर्रों को सही पश्चि
-13-10 16:47:30   [Physical_Geography] review: 5 section(s) corrected, 0 failed
-13-10 16:47:30   [Physical_Geography] written 5, failed 0; AI calls today 168/100000
-13-10 16:47:56 DONE 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_06_Physical_Geography in 63 min → 42f229f9
-13-10 16:47:59 START 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_14_Sports (OK: todo 0, problems 0)
-13-10 16:49:02   [Sports] set 01: key confirmed
-13-10 16:49:14   [Economy_Basic] review Key_Facts_hi.txt: 1 issue(s): - मुद्रास्फीति लक्ष्य पंक्ति में "मार्च 2026 में 2026–31 के लिए बरकरार" एक अपुष्ट भविष्य दावा है → इसे हटाएं या व
 13-10 16:49:41   [Sports] set 02: key confirmed
 13-10 16:49:52   [Dictionary_Order] set 04 try 3: re-solve disagrees (Q80 key b vs re-solve ?, Q90 key d vs re-solve a)
 13-10 16:50:41   [Sports] set 03: key confirmed
@@ -80,4 +71,13 @@
 13-10 17:25:26   [Sports] review Content_hi.txt: 8 issue(s): - India winning the 2026 ICC Men's T20 World Cup is stated as fact → The 2026 ICC Men's T20 World Cup has not yet b
 13-10 17:32:58   [Dictionary_Order] set 05 try 2: re-solve disagrees (Q111 key a vs re-solve c, Q113 key b vs re-solve c, Q120 key c vs re-solve a, Q124 key c vs re-solve a)
 13-10 17:34:56   [Culture_Art] review Content_hi.txt: 3 issue(s): - "2026 तक भारत के 45 विश्व धरोहर स्थल" और "सारनाथ का प्राचीन बौद्ध स्थल (2026)" → यह भविष्य का अनुमान है; 2025 तक 
+13-10 17:40:43   [Sports] review Key_Facts_en.txt: 2 issue(s): - High-Yield Facts: Modern Olympics – "IOC (1894) at Lausanne" → IOC founded 1894 in Paris; headquarters Lausanne
+13-10 17:41:52   [Dictionary_Order] set 05 try 3: re-solve disagrees (Q124 key a vs re-solve c)
+13-10 17:44:08   [Culture_Art] review Key_Facts_en.txt: 1 issue(s): - World Heritage sites count for 2026 given as 45 (37 cultural, 7 natural, 1 mixed) is speculative/incorrect → As
+13-10 17:44:53   [Sports] review Key_Facts_hi.txt: 1 issue(s): - Glasgow 2026 Commonwealth Games medal tally (39 medals) is fabricated; the games have not taken place yet → Rem
+13-10 17:47:37   [Sports] review Feynman_en.txt: 1 issue(s): - The lifetime award is the Dhyan Chand Award (instituted 2002), not "Arjuna Award (Lifetime)"; the National Sports
+13-10 17:49:11   [Dictionary_Order] set 05 try 4: re-solve disagrees (Q113 key b vs re-solve c, Q124 key d vs re-solve c)
+13-10 17:49:11   [Dictionary_Order] FAILED set 05: no version passed the checks — files left as they were
+13-10 17:51:28   [Sports] review Feynman_hi.txt: 1 issue(s): - "राष्ट्रीय खेल पुरस्कार 2024 में 'अर्जुन पुरस्कार (आजीवन)' के नाम से दिया गया" → यह गलत है; 2024 के राष्ट्रीय खेल
+13-10 17:52:39   [Culture_Art] review Key_Facts_hi.txt: 2 issue(s): - विश्व धरोहर स्थल (2026) 45 (37 सांस्कृतिक, 7 प्राकृतिक, 1 मिश्रित) in High-yield facts is an invented future st
 ```
