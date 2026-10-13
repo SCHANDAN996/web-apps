@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 09:37 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
+**आख़िरी update:** 13-10-2026 09:53 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
-| W2 | Chapter 20 Mirror Water Images (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
-| W3 | Chapter 21 Paper Folding Cutting (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 46 मिनट |
+| W2 | Chapter 20 Mirror Water Images (10th Reasoning) | 🔎 review हो रहा है | 15 मिनट |
+| W3 | Chapter 21 Paper Folding Cutting (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 46 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -51,4 +51,12 @@
 13-10 09:30:13   [Mirror_Water_Images] set 04: key confirmed
 13-10 09:32:16   [Dictionary_Order] set 02 try 2: re-solve disagrees (Q29 key a vs re-solve d)
 13-10 09:34:50   [Mirror_Water_Images] set 05: key confirmed
+13-10 09:37:58   [Mirror_Water_Images] set 06: key confirmed
+13-10 09:37:58   [Mirror_Water_Images] written 0, failed 0; AI calls today 27/100000
+13-10 09:39:25   [Dictionary_Order] set 02 try 3: re-solve disagrees (Q29 key a vs re-solve d)
+13-10 09:42:58   [Paper_Folding_Cutting] repaired set 01 (en + hi, key confirmed by an independent re-solve)
+13-10 09:46:49   [Dictionary_Order] set 02 try 4: re-solve disagrees (Q29 key a vs re-solve d)
+13-10 09:46:49   [Dictionary_Order] FAILED set 02: no version passed the checks — files left as they were
+13-10 09:48:59   [Mirror_Water_Images] review Content_en.txt: 2 issue(s): - The claim that digits 0,1,3,8 stay recognisable in water image is wrong; only 0,1,8 stay same, while 3 becomes a 
+13-10 09:51:02   [Dictionary_Order] set 03: Q58 key d vs re-solve a, Q68 key b vs re-solve ?, Q71 key a vs re-solve b, Q74 key d vs re-solve b
 ```
