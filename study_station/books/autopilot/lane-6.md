@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 12:25 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
+**आख़िरी update:** 13-10-2026 12:41 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W2 | Chapter 03 Modern History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W3 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 32 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 21 मिनट |
+| W2 | Chapter 03 Modern History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 25 मिनट |
+| W3 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 47 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -44,9 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 11:22:15   [Dictionary_Order] set 05 try 3: re-solve disagrees (Q103 key a vs re-solve b, Q116 key d vs re-solve a)
-13-10 11:22:30   [Figure_Series] review Content_en.txt: 1 issue(s): - The claim "That single question saves you from 80% of traps" is an invented exam statistic → Replace with "saves 
-13-10 11:23:35   [Ancient_History] set 06: Q130 key d vs re-solve b
 13-10 11:27:57   [Figure_Series] review Feynman_hi.txt: 2 issue(s): - The "exam language" claim that odd-position figures (1, 3, 5…) follow a single rule like "90° clockwise rotation"
 13-10 11:28:48   [Dictionary_Order] set 05 try 4: re-solve disagrees (Q116 key b vs re-solve a)
 13-10 11:28:48   [Dictionary_Order] FAILED set 05: no version passed the checks — files left as they were
@@ -84,4 +81,7 @@
 13-10 12:21:56   [Modern_History] set 02: Q44 key c vs re-solve a
 13-10 12:23:16   [Dictionary_Order] set 01: key confirmed
 13-10 12:24:25   [Medieval_History] set 04: key confirmed
+13-10 12:30:25   [Modern_History] repaired set 02 (en + hi, key confirmed by an independent re-solve)
+13-10 12:31:39   [Dictionary_Order] set 02: Q29 key d vs re-solve a, Q45 key d vs re-solve ?
+13-10 12:33:37   [Medieval_History] set 05: Q103 key b vs re-solve c, Q119 key c vs re-solve b
 ```
