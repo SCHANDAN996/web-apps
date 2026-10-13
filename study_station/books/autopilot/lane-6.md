@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 10:38 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
+**आख़िरी update:** 13-10-2026 10:54 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 92 मिनट |
-| W2 | Chapter 20 Mirror Water Images (10th Reasoning) | 🔎 review हो रहा है | 60 मिनट |
-| W3 | Chapter 21 Paper Folding Cutting (10th Reasoning) | 🔎 review हो रहा है | 5 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 107 मिनट |
+| W2 | Chapter 20 Mirror Water Images (10th Reasoning) | 🔎 review हो रहा है | 76 मिनट |
+| W3 | Chapter 21 Paper Folding Cutting (10th Reasoning) | 🔎 review हो रहा है | 20 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,11 +37,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 09:06:27 autopilot start: 3 workers, reverse=True
-13-10 09:06:28 START 10th_Level/Reasoning/Chapter_13_Dictionary_Order (OK: todo 0, problems 0)
-13-10 09:06:33 START 10th_Level/Reasoning/Chapter_20_Mirror_Water_Images (OK: todo 0, problems 0)
-13-10 09:06:38 START 10th_Level/Reasoning/Chapter_21_Paper_Folding_Cutting (OK: todo 0, problems 0)
-13-10 09:10:09   [Dictionary_Order] set 01: key confirmed
 13-10 09:12:13   [Mirror_Water_Images] set 01: key confirmed
 13-10 09:14:28   [Dictionary_Order] set 02: Q29 key d vs re-solve a, Q31 key b vs re-solve a, Q45 key d vs re-solve ?
 13-10 09:16:43   [Paper_Folding_Cutting] set 01: Q6 key b vs re-solve a
@@ -74,4 +69,12 @@
 13-10 10:33:45   [Paper_Folding_Cutting] written 1, failed 0; AI calls today 62/100000
 13-10 10:34:03   [Mirror_Water_Images] review PYQ_en.txt: 2 issue(s): - Section title says "Previous 10 Years PYQ Analysis" but the table only covers 9 years (2016–2024) → Change title to "
 13-10 10:35:28   [Paper_Folding_Cutting] review Content_en.txt: 1 issue(s): - Invented statistic "90% of exam questions" in the claim "guarantees success in 90% of exam questions" → Remove th
+13-10 10:42:33   [Mirror_Water_Images] review PYQ_hi.txt: 3 issue(s): - "पिछले 10 वर्षों का PYQ विश्लेषण" शीर्षक में 10 वर्षों का दावा है, लेकिन तालिका में केवल 9 वर्ष (2016–2024) दर्शाए गए
+13-10 10:45:50   [Dictionary_Order] set 04 try 3: re-solve disagrees (Q80 key a vs re-solve ?, Q93 key c vs re-solve d)
+13-10 10:46:34   [Paper_Folding_Cutting] review PYQ_en.txt: 2 issue(s): - Year-Wise Frequency table combines RRB NTPC and RRB Group-D into a single column “RRB NTPC/Group-D” with a single fre
+13-10 10:49:21   [Mirror_Water_Images] review Short_Tricks_en.txt: 1 issue(s): - The “BOX” trick wrongly states water flips B to ᗺ (a horizontally flipped B); water flips vertically so B be
+13-10 10:51:10   [Paper_Folding_Cutting] review PYQ_hi.txt: 3 issue(s): - The yearly frequency table (2015–2024) invents specific question counts for exams not held annually (RRB NTPC, RRB Gr
+13-10 10:52:56   [Mirror_Water_Images] review Short_Tricks_hi.txt: 1 issue(s): - Point 14 lists incorrect letters for water‑image symmetry (C, E, H, I, O, S, X, Z) → The correct horizontall
+13-10 10:53:10   [Dictionary_Order] set 04 try 4: re-solve disagrees (Q80 key a vs re-solve ?, Q86 key d vs re-solve b, Q93 key c vs re-solve d)
+13-10 10:53:10   [Dictionary_Order] FAILED set 04: no version passed the checks — files left as they were
 ```
