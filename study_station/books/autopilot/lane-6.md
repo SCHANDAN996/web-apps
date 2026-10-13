@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 01:19 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
+**आख़िरी update:** 13-10-2026 01:27 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 59 मिनट |
-| W2 | Chapter 03 Modern History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 63 मिनट |
-| W3 | Chapter 02 Medieval History (10th GK) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 67 मिनट |
+| W2 | Chapter 03 Modern History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 71 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -45,9 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 12:15:35   [Ancient_History] review: 3 section(s) corrected, 0 failed
-13-10 12:15:35   [Ancient_History] written 3, failed 0; AI calls today 187/100000
-13-10 12:15:52 DONE 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_01_Ancient_History in 72 min → 5193a922
 13-10 12:15:54 START 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_03_Modern_History (OK: todo 0, problems 0)
 13-10 12:16:57   [Medieval_History] repaired set 02 (en + hi, key confirmed by an independent re-solve)
 13-10 12:18:58   [Modern_History] set 01: key confirmed
@@ -85,4 +81,7 @@
 13-10 13:18:34   [Modern_History] set 06: Q131 key d vs re-solve b
 13-10 13:19:12   [Medieval_History] review: 5 section(s) corrected, 0 failed
 13-10 13:19:12   [Medieval_History] written 5, failed 0; AI calls today 258/100000
+13-10 13:19:29 DONE 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_02_Medieval_History in 85 min → 4067c3b8
+13-10 13:19:29 worker 2: nothing left
+13-10 13:24:42   [Dictionary_Order] set 04: Q80 key a vs re-solve ?, Q81 key b vs re-solve ?, Q90 key c vs re-solve ?, Q93 key b vs re-solve d, Q100 key b vs re-solve a
 ```
