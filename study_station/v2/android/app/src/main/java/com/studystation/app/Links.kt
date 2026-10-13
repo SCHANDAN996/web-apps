@@ -44,4 +44,23 @@ object Links {
     }
 
     fun mime(name: String): String? = MIME[name.substringAfterLast('.', "").lowercase()]
+
+    // First path segment of every screen (same list as SCREEN in static/js/app.js).
+    private val SCREENS = setOf("", "settings", "practice", "mock", "attempt", "result", "revise", "progress",
+        "current-affairs", "jobs", "books")
+
+    /** One of our screens is being opened as a page: the APK answers with its own frame, and app.js then
+     *  fetches the content (those fetches carry X-SS-Nav and go to the server). */
+    fun wantsFrame(method: String, url: String, headers: Map<String, String>, base: String, mainFrame: Boolean): Boolean {
+        if (!method.equals("GET", ignoreCase = true) || !isInApp(url, base)) return false
+        val h = headers.entries.associate { it.key.lowercase() to it.value }
+        if ("x-ss-nav" in h) return false
+        if (!mainFrame && h["accept"]?.contains("text/html") != true) return false
+        val path = parse(url)?.path ?: return false
+        return path.removePrefix("/").substringBefore('/') in SCREENS
+    }
+
+    /** Value of one cookie in a "a=1; b=2" header, or null. */
+    fun cookie(header: String?, name: String): String? =
+        header?.split(';')?.map { it.trim() }?.firstOrNull { it.startsWith("$name=") }?.substring(name.length + 1)
 }

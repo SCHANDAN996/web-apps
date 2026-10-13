@@ -76,14 +76,14 @@
   SS.startPractice = function (topicId, difficulty, btn) {
     busy(btn, true);
     return SS.api('POST', '/api/v1/practice', { topic_id: Number(topicId), count: 10, difficulty: difficulty || null })
-      .then(function (a) { location.href = '/attempt/' + a.id; })
+      .then(function (a) { SS.go('/attempt/' + a.id); })
       .catch(function (e) { busy(btn, false); SS.toast(e.message); });
   };
 
   SS.startMock = function (slug, btn) {
     busy(btn, true);
     return SS.api('POST', '/api/v1/mock', { exam: slug })
-      .then(function (a) { location.href = '/attempt/' + a.id; })
+      .then(function (a) { SS.go('/attempt/' + a.id); })
       .catch(function (e) { busy(btn, false); SS.toast(e.message); });
   };
 
@@ -149,7 +149,7 @@
     if (b) {
       e.preventDefault(); busy(b, true);
       SS.api('POST', '/api/v1/attempts/' + Number(b.getAttribute('data-retry-wrong')) + '/retry-wrong')
-        .then(function (a) { location.href = '/attempt/' + a.id; })
+        .then(function (a) { SS.go('/attempt/' + a.id); })
         .catch(function (err) { busy(b, false); SS.toast(err.message); });
       return;
     }
@@ -158,7 +158,7 @@
       e.preventDefault(); busy(b, true);
       var days = Number(b.getAttribute('data-ca-quiz'));
       SS.api('POST', '/api/v1/practice', { topic_id: Number(b.getAttribute('data-topic')), count: days > 7 ? 25 : 20, since_days: days })
-        .then(function (a) { location.href = '/attempt/' + a.id; })
+        .then(function (a) { SS.go('/attempt/' + a.id); })
         .catch(function (err) { busy(b, false); SS.toast(err.message); });
       return;
     }
@@ -181,6 +181,8 @@
         it.hidden = f !== 'all' && it.getAttribute('data-status') !== f;
       });
     }
+    var to = !e.defaultPrevented && !e.button && !e.metaKey && !e.ctrlKey && !e.shiftKey && !e.altKey && screenLink(e);
+    if (to) { e.preventDefault(); SS.go(to); }
   });
 
   var langBtn = document.getElementById('langBtn');
@@ -190,6 +192,37 @@
       .catch(function (e) { SS.toast(e.message); });
   });
 
+  // ---------------------------------------------------------------- per-screen wiring
+  // Runs for the first screen and again after every screen change (see "in-app navigation" below).
+  // Anything a screen hooks onto window/document goes through onPage so it is removed on the way out.
+  var leave = [];
+  SS.onLeave = function (fn) { leave.push(fn); };
+  function onPage(target, type, fn, opts) {
+    target.addEventListener(type, fn, opts);
+    leave.push(function () { target.removeEventListener(type, fn, opts); });
+  }
+
+  function paintThemes() {
+    var c = window.SSTheme.current();
+    document.querySelectorAll('[data-theme-set]').forEach(function (b) {
+      b.setAttribute('aria-pressed', String(b.getAttribute('data-theme-set') === c));
+    });
+  }
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest('[data-theme-set]');
+    var picker = document.getElementById('themePicker');
+    if (b) {
+      window.SSTheme.set(b.getAttribute('data-theme-set'));
+      paintThemes();
+      if (picker && picker.open) { picker.open = false; picker.querySelector('summary').focus(); }
+    } else if (picker && !picker.contains(e.target)) picker.open = false;
+  });
+  document.addEventListener('keydown', function (e) {
+    var picker = document.getElementById('themePicker');
+    if (e.key === 'Escape' && picker && picker.open) { picker.open = false; picker.querySelector('summary').focus(); }
+  });
+
+  SS.initPage = function () {
   var onboard = document.getElementById('onboard');
   if (onboard) {
     onboard.addEventListener('submit', function (e) {
@@ -295,8 +328,8 @@
       if (list.indexOf(curUrl) === -1) { list.push(curUrl); try { localStorage.setItem(readKey, JSON.stringify(list.slice(-500))); } catch (e) {} }
       window.removeEventListener('scroll', markRead);
     };
-    window.addEventListener('scroll', markRead, { passive: true });
-    window.addEventListener('load', markRead);     // short chapters never scroll
+    onPage(window, 'scroll', markRead, { passive: true });
+    setTimeout(markRead, 0);                       // short chapters never scroll
   }
   var readNow = readList();
   document.querySelectorAll('[data-chapter-link]').forEach(function (a) {
@@ -330,7 +363,7 @@
     var applySize = function () { reader.style.setProperty('--reader-scale', String(scale)); };
     applyTheme(store('ss_reader_theme') || 'plain');
     applySize();
-    document.addEventListener('click', function (e) {
+    onPage(document, 'click', function (e) {
       var t = e.target.closest('[data-reader-theme]');
       if (t) { var v = t.getAttribute('data-reader-theme'); store('ss_reader_theme', v); applyTheme(v); return; }
       var z = e.target.closest('[data-reader-size]');
@@ -350,25 +383,57 @@
       readBar.style.transform = 'scaleX(' + (max > 0 ? Math.min(1, scrollY / max) : 1) + ')';
       ticking = false;
     };
-    window.addEventListener('scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(upd); } }, { passive: true });
+    onPage(window, 'scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(upd); } }, { passive: true });
     upd();
   }
 
-  // Appearance: system / light / dark (applied early by theme.js on every page)
-  var themeBtns = document.querySelectorAll('[data-theme-set]');
-  if (themeBtns.length) {
-    var curTheme = function () { try { return localStorage.getItem('ss_theme') || 'system'; } catch (e) { return 'system'; } };
-    var paintBtns = function () { var c = curTheme(); themeBtns.forEach(function (b) { b.setAttribute('aria-pressed', String(b.getAttribute('data-theme-set') === c)); }); };
-    themeBtns.forEach(function (b) {
-      b.addEventListener('click', function () {
-        var v = b.getAttribute('data-theme-set');
-        try { if (v === 'system') localStorage.removeItem('ss_theme'); else localStorage.setItem('ss_theme', v); } catch (e) {}
-        if (v === 'system') document.documentElement.removeAttribute('data-theme'); else document.documentElement.setAttribute('data-theme', v);
-        paintBtns();
-      });
+  paintThemes();
+  var resetProgress = document.getElementById('resetProgress');
+  if (resetProgress) resetProgress.addEventListener('click', function () {
+    var cancel = SS.h('button', { class: 'btn btn-secondary', type: 'button', autofocus: true }, SS.t.cancel);
+    var confirm = SS.h('button', { class: 'btn btn-primary', type: 'button' }, SS.t.reset_progress_action);
+    var dlg = SS.h('dialog', { 'aria-labelledby': 'resetTitle', 'aria-describedby': 'resetWarning' },
+      SS.h('div', { class: 'dlg-body' }, SS.h('h2', { id: 'resetTitle' }, SS.t.reset_progress_confirm),
+        SS.h('p', { id: 'resetWarning' }, SS.t.reset_progress_warning)),
+      SS.h('div', { class: 'dlg-foot' }, cancel, confirm));
+    cancel.addEventListener('click', function () { dlg.close(); });
+    confirm.addEventListener('click', function () {
+      busy(confirm, true); busy(cancel, true);
+      SS.api('POST', '/api/v1/me/reset-progress', { confirm: true }).then(function () {
+        // Reading progress is local to this phone, separate from server-side attempts.
+        try { localStorage.removeItem('ss_read_chapters'); localStorage.removeItem('ss_last_chapter'); } catch (e) {}
+        dlg.close(); SS.go('/', true);
+      }).catch(function (e) { busy(confirm, false); busy(cancel, false); SS.toast(e.message); });
     });
-    paintBtns();
+    dlg.addEventListener('close', function () { dlg.remove(); resetProgress.focus(); });
+    document.body.appendChild(dlg); dlg.showModal();
+  });
+  var jobFilters = document.getElementById('jobFilters');
+  if (jobFilters) jobFilters.addEventListener('submit', function (e) {
+    e.preventDefault();
+    SS.go('/jobs?' + new URLSearchParams(new FormData(jobFilters)).toString());
+  });
+  var jobSearch = document.getElementById('jobSearch');
+  if (jobSearch) {
+    var jobCards = document.querySelectorAll('[data-job-search]');
+    var filterJobs = function () {
+      var q = jobSearch.value.trim().toLocaleLowerCase();
+      var visible = 0;
+      jobCards.forEach(function (card) {
+        card.hidden = card.getAttribute('data-job-search').toLocaleLowerCase().indexOf(q) === -1;
+        if (!card.hidden) visible++;
+      });
+      document.getElementById('jobSearchEmpty').hidden = visible > 0;
+      document.getElementById('jobShown').textContent = String(visible);
+      document.getElementById('jobSearchClear').hidden = !q;
+    };
+    jobSearch.addEventListener('input', filterJobs);
+    document.getElementById('jobSearchClear').addEventListener('click', function () {
+      jobSearch.value = ''; filterJobs(); jobSearch.focus();
+    });
+    filterJobs();
   }
+  };
 
   // Install prompt (Android Chrome): show our own card instead of the browser mini-bar.
   var installCard = document.getElementById('installCard'), deferredInstall = null;
@@ -414,6 +479,140 @@
   var onScroll = function () { document.body.classList.toggle('scrolled', window.scrollY > 4); };
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
+
+  // ---------------------------------------------------------------- in-app navigation
+  // The frame (top bar, tab bar, CSS, JS) stays put; a screen change fetches the page and swaps only
+  // <main>. Inside the Android app the frame itself is read from the APK (templates/shell.html →
+  // android/…/assets/shell), so the structure is on screen before the network answers.
+  var SCREEN = /^\/(?:(?:settings|practice|mock|attempt|result|revise|progress|current-affairs|jobs|books)(?:\/|$)|$)/;
+  var navSeq = 0, warm = {}, here = location.pathname + location.search;
+
+  function screenLink(e) {
+    var a = e.target.closest && e.target.closest('a[href]');
+    if (!a || (a.target && a.target !== '_self') || a.hasAttribute('download')) return null;
+    var u;
+    try { u = new URL(a.getAttribute('href'), location.href); } catch (err) { return null; }
+    if (u.origin !== location.origin || !SCREEN.test(u.pathname)) return null;
+    if (u.pathname + u.search === here && u.hash) return null;          // a jump inside this screen
+    return u.href;
+  }
+
+  function assetV(doc) {
+    var l = doc.querySelector('link[rel="stylesheet"][href*="/static/css/app.css"]');
+    var m = l && /[?&]v=([0-9a-f]+)/.exec(l.getAttribute('href'));
+    return m ? m[1] : '';
+  }
+
+  function markTab(path) {
+    document.querySelectorAll('.tabbar .tab').forEach(function (a) {
+      var href = a.getAttribute('href');
+      if (href === '/' ? path === '/' : path.indexOf(href) === 0) a.setAttribute('aria-current', 'page');
+      else a.removeAttribute('aria-current');
+    });
+  }
+
+  function fetchPage(url) {
+    var ctl = window.AbortController ? new AbortController() : null;
+    var timer = ctl && setTimeout(function () { ctl.abort(); }, 15000);     // a stalled connection counts as offline
+    return fetch(url, { credentials: 'same-origin', headers: { 'X-SS-Nav': '1' }, signal: ctl ? ctl.signal : undefined }).then(function (res) {
+      return res.text().then(function (html) { clearTimeout(timer); return { url: res.url || url, html: html }; });
+    });
+  }
+
+  function setCookie(name, value) {
+    document.cookie = name + '=' + value + '; path=/; max-age=86400; samesite=lax' + (location.protocol === 'https:' ? '; secure' : '');
+  }
+
+  // The fetched page does not fit this frame (the server has newer CSS/JS, or another language): load it
+  // whole. The cookies tell the Android app which frame to use next; the guard stops a reload loop.
+  function loadWhole(url, doc) {
+    var lang = doc.documentElement.getAttribute('lang');
+    try {
+      if (sessionStorage.getItem('ss_whole') === url) return false;
+      sessionStorage.setItem('ss_whole', url);
+    } catch (e) { return false; }
+    if (lang === 'hi' || lang === 'en') setCookie('ss_lang', lang);
+    if (assetV(doc) !== assetV(document)) setCookie('ss_shell_off', assetV(document));
+    location.replace(url);
+    return true;
+  }
+
+  function show(p, mode) {                       // mode: push | replace | pop
+    var doc = new DOMParser().parseFromString(p.html, 'text/html');
+    var fresh = doc.getElementById('main');
+    var fits = fresh && assetV(doc) === assetV(document) &&
+      doc.documentElement.getAttribute('lang') === document.documentElement.getAttribute('lang');
+    if (!fits && loadWhole(p.url, doc)) return;
+    if (!fresh) { location.replace(p.url); return; }
+    try { sessionStorage.removeItem('ss_whole'); } catch (e) {}
+    leave.splice(0).forEach(function (fn) { try { fn(); } catch (e) {} });
+    document.querySelectorAll('dialog, .toast').forEach(function (el) { el.remove(); });
+    if (mode === 'push') history.pushState({ ss: 1 }, '', p.url);
+    else if (mode === 'replace') history.replaceState({ ss: 1 }, '', p.url);
+    here = location.pathname + location.search;
+    warm = {};
+    try { SS.ai = JSON.parse(doc.getElementById('ss-boot').textContent).ai; } catch (e) {}
+    document.title = doc.title;
+    document.body.className = doc.body.className;
+    var main = document.getElementById('main');
+    main.className = fresh.className;
+    main.replaceChildren.apply(main, [].map.call(fresh.childNodes, function (n) { return document.importNode(n, true); }));
+    markTab(location.pathname);
+    scrollTo(0, mode === 'pop' && history.state && history.state.y || 0);
+    onScroll();
+    // Scripts this screen needs and the frame does not have yet (the question player).
+    var had = !!SS.startPlayer;
+    var need = [].map.call(doc.querySelectorAll('script[src]'), function (s) { return s.getAttribute('src'); })
+      .filter(function (src) { return !document.querySelector('script[src="' + src + '"]'); });
+    (function next() {
+      var src = need.shift();
+      if (src) {
+        var el = document.createElement('script');
+        el.src = src; el.onload = el.onerror = next;
+        document.body.appendChild(el);
+        return;
+      }
+      SS.initPage();
+      if (had) SS.startPlayer();                  // a freshly loaded player.js starts itself
+    })();
+  }
+
+  function waiting() { return document.getElementById('shellWait'); }
+
+  function go(url, mode) {
+    var seq = ++navSeq;
+    if (mode === 'push') { try { history.replaceState({ ss: 1, y: scrollY }, ''); } catch (e) {} }
+    markTab(new URL(url).pathname);
+    document.body.classList.add('nav-busy');
+    var w = warm[url];
+    return (w && Date.now() - w.at < 5000 ? w.p : fetchPage(url)).then(function (p) {
+      if (seq === navSeq) show(p, mode);
+    }, function () {
+      if (seq !== navSeq) return;
+      document.body.classList.remove('nav-busy');
+      markTab(location.pathname);
+      if (!waiting()) { SS.toast(SS.t.offline); return; }
+      // The frame came from the APK and the first screen could not be fetched: say so, offer a retry.
+      document.getElementById('main').replaceChildren(SS.h('div', { class: 'empty', id: 'shellWait' },
+        SS.icon('wifi-off', 'empty-icon'), SS.h('p', null, SS.t.offline),
+        SS.h('button', { class: 'btn btn-primary', type: 'button', onclick: function () { go(url, 'replace'); } }, SS.t.retry)));
+    });
+  }
+  SS.go = function (url, replace) { return go(new URL(url, location.href).href, replace ? 'replace' : 'push'); };
+
+  window.addEventListener('popstate', function () {
+    if (location.pathname + location.search !== here) go(location.href, 'pop');
+  });
+  // Start fetching on touch-down: by the time the tap is complete the screen is usually there.
+  document.addEventListener('pointerdown', function (e) {
+    var to = screenLink(e);
+    if (!to || warm[to]) return;
+    var p = fetchPage(to);
+    p.catch(function () {});
+    warm[to] = { at: Date.now(), p: p };
+  }, { passive: true });
+
+  if (waiting()) go(location.href, 'replace'); else SS.initPage();
 
   if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
     navigator.serviceWorker.register('/sw.js').catch(function () {});

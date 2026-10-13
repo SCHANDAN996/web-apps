@@ -62,6 +62,7 @@ class MainActivity : Activity() {
             userAgentString = "$userAgentString StudyStationApp/${BuildConfig.VERSION_NAME}"
         }
         CookieManager.getInstance().setAcceptCookie(true)
+        WebView.setWebContentsDebuggingEnabled(BuildConfig.DEBUG)
         web.webViewClient = Client()
         web.webChromeClient = object : WebChromeClient() {
             override fun onProgressChanged(view: WebView, newProgress: Int) {
@@ -71,8 +72,27 @@ class MainActivity : Activity() {
         }
         web.setDownloadListener { url, _, _, _, _ -> openOutside(Uri.parse(url)) }
         ServiceWorkerController.getInstance().setServiceWorkerClient(object : ServiceWorkerClient() {
-            override fun shouldInterceptRequest(request: WebResourceRequest) = bundled(request.url)
+            override fun shouldInterceptRequest(request: WebResourceRequest) =
+                frame(request, false) ?: bundled(request.url)
         })
+    }
+
+    /**
+     * The app's structure lives in the APK: opening a screen shows the bundled frame (top bar, tab bar,
+     * icons — assets/shell) at once, and app.js fetches that screen's content from the server.
+     * Skipped when the page has found the server's CSS/JS newer than this APK's (cookie ss_shell_off).
+     */
+    private fun frame(request: WebResourceRequest, mainFrame: Boolean): WebResourceResponse? {
+        if (!Links.wantsFrame(request.method, request.url.toString(), request.requestHeaders, BuildConfig.BASE_URL, mainFrame)) return null
+        val cookies = CookieManager.getInstance().getCookie(BuildConfig.BASE_URL)
+        if (Links.cookie(cookies, "ss_shell_off") == BuildConfig.ASSET_V) return null
+        val lang = if (Links.cookie(cookies, "ss_lang") == "en") "en" else "hi"
+        return try {
+            WebResourceResponse("text/html", "utf-8", 200, "OK", mapOf("Cache-Control" to "no-store"),
+                assets.open("shell/$lang.html"))
+        } catch (e: IOException) {
+            null                // no frame in this APK: the server sends the whole page
+        }
     }
 
     private inner class Client : WebViewClient() {
@@ -82,7 +102,8 @@ class MainActivity : Activity() {
             return true
         }
 
-        override fun shouldInterceptRequest(view: WebView, request: WebResourceRequest) = bundled(request.url)
+        override fun shouldInterceptRequest(view: WebView, request: WebResourceRequest) =
+            frame(request, request.isForMainFrame) ?: bundled(request.url)
 
         override fun onPageStarted(view: WebView, url: String?, favicon: Bitmap?) {
             failed = false
@@ -145,12 +166,14 @@ class MainActivity : Activity() {
                 val i = insets.getInsets(
                     WindowInsets.Type.systemBars() or WindowInsets.Type.displayCutout() or WindowInsets.Type.ime())
                 v.setPadding(i.left, i.top, i.right, i.bottom)
+                WindowInsets.CONSUMED       // or the page pads for the same bars again (safe-area-inset)
             } else {
                 @Suppress("DEPRECATION")
                 v.setPadding(insets.systemWindowInsetLeft, insets.systemWindowInsetTop,
                     insets.systemWindowInsetRight, insets.systemWindowInsetBottom)
+                @Suppress("DEPRECATION")
+                insets.consumeSystemWindowInsets()
             }
-            insets
         }
     }
 

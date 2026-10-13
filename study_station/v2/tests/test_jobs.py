@@ -59,6 +59,14 @@ def test_vacancies_and_qualification():
     assert qualification('the candidate should be eligible') is None      # "be" is not B.E.
 
 
+def test_notice_date_is_not_a_vacancy_count():
+    assert vacancies('Dated: 13.10.2026\n\nVACANCY CIRCULAR') is None
+    assert vacancies('Dated: 07.08.2026\n\nVACANCY CIRCULAR\nTotal vacancies: 1') == '1'
+    assert vacancies('Dated: 13 October 2026\nVACANCY CIRCULAR') is None
+    assert vacancies('Dated: October 13, 2026\nVACANCY CIRCULAR') is None
+    assert vacancies('Recruitment for 2026 posts') == '2026'
+
+
 def test_classify():
     assert classify('Notice of Junior Engineer Examination, 2026') == 'latest'
     assert classify('Uploading of Tentative Answer Keys') == 'answer'

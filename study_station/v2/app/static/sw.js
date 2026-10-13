@@ -20,8 +20,10 @@ self.addEventListener('fetch', (e) => {
   const req = e.request;
   const url = new URL(req.url);
   if (req.method !== 'GET' || url.origin !== location.origin || url.pathname.startsWith('/api/')) return;
+  // Screens changed inside the page (app.js fetches them with X-SS-Nav) are navigations too.
+  const nav = req.mode === 'navigate' || req.headers.get('X-SS-Nav') === '1';
 
-  if (req.mode === 'navigate' && url.pathname.startsWith('/books')) {
+  if (nav && url.pathname.startsWith('/books')) {
     e.respondWith(fetch(req).then((res) => {
       if (res.ok) {
         const copy = res.clone();
@@ -32,7 +34,7 @@ self.addEventListener('fetch', (e) => {
     }).catch(() => caches.open(BOOKS).then((c) => c.match(req)).then((hit) => hit || caches.match('/offline'))));
     return;
   }
-  if (req.mode === 'navigate') {
+  if (nav) {
     // Pages are personal (progress, attempts) — don't store them, just fall back offline.
     e.respondWith(fetch(req).catch(() => caches.match('/offline')));
     return;

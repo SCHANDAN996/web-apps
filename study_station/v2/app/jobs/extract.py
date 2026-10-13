@@ -105,9 +105,15 @@ VAC_HINT = re.compile(r'approx|about|total|tentative|कुल|लगभग', re
 
 def vacancies(text):
     """Best guess at the total number of posts; prefers 'approx./total N vacancies'."""
+    # PDF line breaks can put the year of a notice date immediately before
+    # "VACANCY CIRCULAR". A date's year is not a vacancy count.
+    date_spans = [m.span() for pattern in (DATE, DATE_WORDS, DATE_WORDS_US)
+                  for m in re.finditer(pattern, text, re.I)]
     found = []
     for p in VAC_PATTERNS:
         for m in re.finditer(p, text, re.I):
+            if any(start < m.end(1) and m.start(1) < end for start, end in date_spans):
+                continue
             n = int(m.group(1).replace(',', ''))
             if 1 <= n <= 200000:
                 hinted = bool(VAC_HINT.search(text[max(0, m.start() - 30):m.start()]))

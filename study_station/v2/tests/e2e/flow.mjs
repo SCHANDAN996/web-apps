@@ -3,13 +3,14 @@
 // Needs: npm i -D playwright (or a global install). Screenshots → tests/e2e/shots/
 import { mkdirSync } from 'node:fs';
 import { createRequire } from 'node:module';
+import { fileURLToPath } from 'node:url';
 const require = createRequire(import.meta.url);
 let pw;
 try { pw = require('playwright'); } catch { pw = require(process.env.PLAYWRIGHT_PATH || '/opt/node22/lib/node_modules/playwright'); }
 const { chromium, devices } = pw;
 
 const B = (process.env.BASE_URL || 'http://localhost:8000').replace(/\/$/, '');
-const OUT = new URL('./shots/', import.meta.url).pathname;
+const OUT = fileURLToPath(new URL('./shots/', import.meta.url));
 mkdirSync(OUT, { recursive: true });
 const results = [];
 let mockResult = null;
@@ -18,7 +19,7 @@ const step = async (name, fn) => {
   catch (e) { results.push({ step: name, ok: false, error: String(e).slice(0, 300) }); }
 };
 
-const browser = await chromium.launch();
+const browser = await chromium.launch(process.env.PLAYWRIGHT_CHANNEL ? { channel: process.env.PLAYWRIGHT_CHANNEL } : {});
 const ctx = await browser.newContext({ ...devices['Pixel 7'] });
 const p = await ctx.newPage();
 const errors = [];
@@ -116,12 +117,12 @@ await step('home plan, practice search, theme switch', async () => {
   await p.fill('#topicSearch', '');
   if (await p.locator('.subject-sec:not(.is-hidden)').count() !== 1) throw new Error('subject tabs should show one subject');
   await p.goto(B + '/settings');
-  await p.click('[data-theme-set="dark"]');
+  await p.click('main [data-theme-set="dark"]');
   await p.goto(B + '/');
   if (await p.getAttribute('html', 'data-theme') !== 'dark') throw new Error('dark theme not kept');
   await shot('home-dark');
   await p.goto(B + '/settings');
-  await p.click('[data-theme-set="system"]');
+  await p.click('main [data-theme-set="system"]');
 });
 
 await step('no horizontal scroll on phone (hi + en)', async () => {

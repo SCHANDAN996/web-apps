@@ -12,7 +12,7 @@ from fastapi import Depends, FastAPI, HTTPException, Request, Response
 from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, StrictBool
 from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
@@ -198,6 +198,10 @@ class RestoreIn(BaseModel):
     code: str = Field(min_length=12, max_length=24)
 
 
+class ResetProgressIn(BaseModel):
+    confirm: StrictBool
+
+
 class ReportIn(BaseModel):
     reason: Literal['wrong_answer', 'wrong_solution', 'typo', 'unclear', 'translation', 'other']
     note: str = Field(default='', max_length=500)
@@ -284,6 +288,18 @@ def api_explain(question_id: int, body: ExplainIn, request: Request, device: Dev
     except ai.AIUnavailable as e:
         raise HTTPException(503, str(e))
     return {'text': text, 'cached': cached}
+
+
+@app.post('/api/v1/me/reset-progress')
+def api_reset_progress(body: ResetProgressIn, request: Request,
+                       device: Device | None = Depends(current_device), db: Session = Depends(get_db)):
+    if not body.confirm:
+        raise HTTPException(400, 'confirmation_required')
+    limit(request, 'reset_progress', 5, 3600)
+    if device is not None:
+        from .progress import reset_progress
+        reset_progress(db, device)
+    return {'ok': True}
 
 
 @app.post('/api/v1/sync/code')
@@ -524,7 +540,8 @@ def page_topic(subject: str, topic: str, request: Request, device: Device | None
 @app.get('/mock', response_class=HTMLResponse)
 def page_mocks(request: Request, device: Device | None = Depends(current_device), db: Session = Depends(get_db)):
     exams = list(db.scalars(select(Exam).order_by(Exam.id)))
-    plans = {e.id: services.mock_plan(db, e) for e in exams}
+    counts = services.recent_section_counts(db)
+    plans = {e.id: services.mock_plan(db, e, counts) for e in exams}
     return render('mocks.html', request, device, exams=exams, plans=plans, level_rank=LEVEL_RANK)
 
 
@@ -533,7 +550,7 @@ def page_exam(slug: str, request: Request, device: Device | None = Depends(curre
     exam = db.scalar(select(Exam).where(Exam.slug == slug))
     if exam is None:
         raise HTTPException(404)
-    plan = services.mock_plan(db, exam)
+    plan = services.mock_plan(db, exam, services.recent_section_counts(db))
     return render('exam.html', request, device, exam=exam, plan=plan, pattern_checked=PATTERN_CHECKED)
 
 
@@ -603,8 +620,11 @@ def page_jobs(request: Request, status: Literal['active', 'upcoming', 'closed', 
     jobs = list(db.scalars(services.jobs_query(qualification, category, status).limit(100)))
     best = max(JOB_TABS, key=lambda s: counts[s])
     suggest = best if counts[best] and best != status else None
+    categories = list(db.scalars(select(Job.category).where(Job.status.in_(('verified', 'legacy')),
+                                                            Job.category.is_not(None)).distinct().order_by(Job.category)))
     return render('jobs.html', request, device, jobs=jobs, status=status, qualification=qualification,
-                  category=category, counts=counts, levels=LEVELS, today=services.today_ist(), suggest=suggest)
+                  category=category, categories=categories, counts=counts, levels=LEVELS,
+                  today=services.today_ist(), suggest=suggest)
 
 
 @app.get('/jobs/{slug}', response_class=HTMLResponse)

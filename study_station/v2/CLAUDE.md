@@ -16,6 +16,7 @@ app/current_affairs.py  AIR/PIB feeds → items + MCQs           app/observe.py 
 app/review.py       question review CLI                        app/bookcheck.py  book chapter check (../books)
 app/jobs/           job engine (sources, extract, pipeline, manage, CLI)
 templates/, static/ design system (css/app.css tokens), js/app.js, js/player.js, sw.js
+app/shell.py        app frame for the APK (templates/shell.html)   android/     Android app (frame in APK, content from server)
 tests/              pytest (fixtures = trimmed real pages), tests/e2e/flow.mjs (Playwright)
 deploy/             systemd, nginx, cron, backup, setup         JOBS_AGENT.md  the "job" runbook
 ```
@@ -32,6 +33,7 @@ python -m app.current_affairs run
 python -m app.review list|show|apply|stats
 python -m app.bookcheck ../books/<Level>/<Subject>/<Book>   # OK / TODO / FIX per chapter
 python -m app.generate --topic ga/polity --n 10 | --fill --min 60
+python -m app.shell [--check]               # regenerate the APK frame after changing base.html or static/
 ```
 
 ## Non-negotiable rules
@@ -56,3 +58,6 @@ python -m app.generate --topic ga/polity --n 10 | --fill --min 60
 - PIB's firewall rejects non-browser clients; AIR feeds carry full text.
 - Old MCQ files: hi and en sets are often *different* questions — pair only via `is_translation_pair`.
 - Days are IST (`services.today_ist()`), not UTC.
+- Screens change without a page load: `app.js` swaps `<main>`. Wire a screen in `SS.initPage` (it runs again after
+  every swap), hook window/document through `onPage`/`SS.onLeave`, and move with `SS.go(url)` — not `location.href`.
+- The question bank has ~70,000 rows: never count or scan it per section/exam in a loop (`tests/test_perf.py`).

@@ -49,6 +49,30 @@ class LinksTest {
     }
 
     @Test
+    fun theApkFrameAnswersOnlyWhenAScreenIsOpenedAsAPage() {
+        val page = mapOf("Accept" to "text/html,application/xhtml+xml")
+        assertTrue(Links.wantsFrame("GET", "$base/", emptyMap(), base, true))
+        assertTrue(Links.wantsFrame("GET", "$base/practice/quant/percentage", emptyMap(), base, true))
+        assertTrue(Links.wantsFrame("GET", "$base/jobs?status=active", page, base, false))         // via the service worker
+        assertFalse(Links.wantsFrame("GET", "$base/practice", mapOf("X-SS-Nav" to "1"), base, true))   // app.js wants content
+        assertFalse(Links.wantsFrame("GET", "$base/practice", mapOf("Accept" to "*/*"), base, false))
+        assertFalse(Links.wantsFrame("POST", "$base/", page, base, true))
+        assertFalse(Links.wantsFrame("GET", "$base/api/v1/me", page, base, true))
+        assertFalse(Links.wantsFrame("GET", "$base/admin", page, base, true))
+        assertFalse(Links.wantsFrame("GET", "$base/sw.js", page, base, true))
+        assertFalse(Links.wantsFrame("GET", "$base/practiceX", page, base, true))
+        assertFalse(Links.wantsFrame("GET", "https://evil.in/", page, base, true))
+    }
+
+    @Test
+    fun cookiesAreReadByName() {
+        assertEquals("en", Links.cookie("ss_device=abc; ss_lang=en", "ss_lang"))
+        assertEquals("5cb63f101a", Links.cookie("ss_shell_off=5cb63f101a", "ss_shell_off"))
+        assertNull(Links.cookie("xss_lang=en", "ss_lang"))
+        assertNull(Links.cookie(null, "ss_lang"))
+    }
+
+    @Test
     fun bundledPathsCannotLeaveTheFolder() {
         assertNull(Links.bundledAsset("$base/static/../secret.css?v=$v", base, v))
         assertNull(Links.bundledAsset("$base/static/js/%2e%2e/app.js?v=$v", base, v))

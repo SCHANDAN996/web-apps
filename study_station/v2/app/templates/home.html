@@ -3,7 +3,7 @@
 <div class="stack">
   {% set done = stats.today_answered %}
   {% set pct = [100, (done * 10)]|min %}
-  <section class="today-card enter" aria-label="{{ tr('goal_line') }}">
+  <section class="today-card today-compact enter" aria-label="{{ tr('goal_line') }}">
     <div class="today-top">
       <div class="grow">
         <h1 class="today-hello">{{ tr(greet) }}</h1>
@@ -32,31 +32,32 @@
 
   <section class="card plan enter" aria-labelledby="plan-h">
     <h2 id="plan-h">{{ tr('plan_title') }}</h2>
-    <ul class="list">
-      <li><a class="list-item" href="/revise">
-        <span class="plan-dot{% if not stats.due_reviews %} is-done{% endif %}"><svg class="icon icon-sm"><use href="#i-{{ 'check' if not stats.due_reviews else 'repeat' }}"/></svg></span>
-        <span class="grow"><b>{% if stats.due_reviews %}{{ tr('plan_revise').format(n=stats.due_reviews) }}{% else %}{{ tr('plan_revise_none') }}{% endif %}</b>
-          <span class="xs muted block">{{ tr('revise_short') }}</span></span>
-        <svg class="icon chev"><use href="#i-chev"/></svg></a></li>
-      {% if today_topic %}
-      <li><button class="list-item" type="button" data-practice="{{ today_topic }}">
-        <span class="plan-dot{% if done >= 10 %} is-done{% endif %}"><svg class="icon icon-sm"><use href="#i-{{ 'check' if done >= 10 else 'target' }}"/></svg></span>
-        <span class="grow"><b>{{ tr('plan_practice') }}</b><span class="xs muted block">{{ tr('plan_practice_sub').format(n=[done, 10]|min) }}</span></span>
-        <svg class="icon chev"><use href="#i-chev"/></svg></button></li>
-      {% endif %}
+    <p class="xs muted plan-intro">{{ tr('plan_order') }}</p>
+    <ol class="list study-sequence">
       {% if has_books %}
       <li><a class="list-item" href="/books" id="planRead">
         <span class="plan-dot"><svg class="icon icon-sm"><use href="#i-book"/></svg></span>
         <span class="grow"><b data-continue-label="{{ tr('plan_continue') }}">{{ tr('plan_read') }}</b><span class="xs muted block">{{ tr('plan_read_sub') }}</span></span>
         <svg class="icon chev"><use href="#i-chev"/></svg></a></li>
       {% endif %}
+      {% if today_topic %}
+      <li><button class="list-item" type="button" data-practice="{{ today_topic }}">
+        <span class="plan-dot{% if done >= 10 %} is-done{% endif %}"><svg class="icon icon-sm"><use href="#i-{{ 'check' if done >= 10 else 'target' }}"/></svg></span>
+        <span class="grow"><b>{{ tr('plan_practice') }}</b><span class="xs muted block">{{ tr('plan_practice_sub').format(n=[done, 10]|min) }}</span></span>
+        <svg class="icon chev"><use href="#i-chev"/></svg></button></li>
+      {% endif %}
+      <li><a class="list-item" href="/revise">
+        <span class="plan-dot{% if not stats.due_reviews %} is-done{% endif %}"><svg class="icon icon-sm"><use href="#i-{{ 'check' if not stats.due_reviews else 'repeat' }}"/></svg></span>
+        <span class="grow"><b>{% if stats.due_reviews %}{{ tr('plan_revise').format(n=stats.due_reviews) }}{% else %}{{ tr('plan_revise_none') }}{% endif %}</b>
+          <span class="xs muted block">{{ tr('revise_short') }}</span></span>
+        <svg class="icon chev"><use href="#i-chev"/></svg></a></li>
       {% if ca_recent %}
       <li><a class="list-item" href="/current-affairs">
         <span class="plan-dot"><svg class="icon icon-sm"><use href="#i-news"/></svg></span>
         <span class="grow"><b>{{ tr('ca_today') }}</b><span class="xs muted block">{{ tr('plan_ca_sub') }}</span></span>
         <svg class="icon chev"><use href="#i-chev"/></svg></a></li>
       {% endif %}
-    </ul>
+    </ol>
   </section>
 
   <section class="enter">

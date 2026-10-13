@@ -57,7 +57,7 @@
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
+  :root:not([data-theme="light"]):not([data-theme="paper"]) {
     --md-primary: #adc7ff; --md-on-primary: #002e68; --md-primary-container: #2a4678;
     --md-on-primary-container: #d8e2ff; --md-secondary-container: #3f4759;
     --md-on-secondary-container: #dbe2f9; --md-tertiary: #debcdf; --md-tertiary-container: #583e5b;
@@ -91,6 +91,18 @@
   --md-on-warning-container: #ffdbc8; --md-review: #d2bbff; --md-on-review: #3e0789;
   --shadow-2: 0 1px 3px rgba(0,0,0,.5), 0 4px 8px 3px rgba(0,0,0,.3);
   color-scheme: dark;
+}
+
+:root[data-theme="paper"] {
+  --md-surface: var(--paper-bg);
+  --md-surface-container-lowest: var(--paper-bg);
+  --md-surface-container-low: color-mix(in srgb, var(--paper-bg) 94%, var(--paper-text));
+  --md-surface-container: color-mix(in srgb, var(--paper-bg) 91%, var(--paper-text));
+  --md-surface-container-high: color-mix(in srgb, var(--paper-bg) 88%, var(--paper-text));
+  --md-surface-container-highest: color-mix(in srgb, var(--paper-bg) 85%, var(--paper-text));
+  --md-on-surface: var(--paper-text); --md-on-surface-variant: var(--paper-text-2);
+  --md-text-3: var(--paper-text-2);
+  color-scheme: light;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -149,8 +161,43 @@ body.scrolled .topbar { background: var(--md-surface-container); }      /* M3 to
 .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 .brand-mark { width: 36px; height: 36px; border-radius: var(--r-md); background: var(--brand); color: var(--on-brand); display: grid; place-items: center; }
 .top-actions { display: flex; gap: var(--sp-2); flex: none; }
+.theme-picker { position: relative; }
+.theme-picker > summary { list-style: none; cursor: pointer; }
+.theme-picker > summary::-webkit-details-marker { display: none; }
+.theme-options { position: absolute; top: calc(100% + var(--sp-2)); right: 0; min-width: 160px; padding: var(--sp-2);
+  background: var(--surface-raised); border: 1px solid var(--border); border-radius: var(--r-lg); box-shadow: var(--shadow-2); }
+.theme-option { display: flex; align-items: center; gap: var(--sp-3); width: 100%; min-height: var(--tap); padding: var(--sp-2);
+  border: 0; border-radius: var(--r-sm); background: transparent; cursor: pointer; text-align: start; }
+.theme-option[aria-pressed="true"] { background: var(--brand-soft); color: var(--on-brand-soft); }
+.theme-swatch { width: var(--sp-4); height: var(--sp-4); border-radius: var(--r-pill); border: 1px solid var(--border-strong); }
+.theme-swatch-light { background: #f9f9ff; } .theme-swatch-dark { background: #111318; } .theme-swatch-paper { background: var(--paper-bg); }
+.theme-check { margin-inline-start: auto; visibility: hidden; }
+.theme-option[aria-pressed="true"] .theme-check { visibility: visible; }
+.jobs-tabs { margin-block: var(--sp-3); }
+.jobs-filters { display: flex; align-items: end; gap: var(--sp-2); }
+.jobs-filters label { flex: 1; min-width: 0; }
+.jobs-filters label > span { display: block; margin-bottom: var(--sp-1); }
+.jobs-filters select { width: 100%; min-height: var(--tap); padding: var(--sp-2); background: var(--surface);
+  border: 1px solid var(--border); border-radius: var(--r-md); font-size: var(--fs-sm); }
+.search.jobs-search { margin-block: var(--sp-3) var(--sp-2); height: calc(var(--tap) + var(--sp-2)); }
+.jobs-list > * + * { margin-top: var(--sp-3); }
+.card.job-card { padding: var(--sp-3) var(--sp-4); }
+.job-card .job-title { margin-block: var(--sp-2) var(--sp-1); }
+.job-meta { display: flex; flex-wrap: wrap; align-items: center; gap: var(--sp-2); margin: var(--sp-2) 0 0; color: var(--text-2); }
+.today-card.today-compact { padding: var(--sp-3) var(--sp-4); border-radius: var(--r-lg); }
+.today-compact .today-hello { font-size: var(--fs-lg); }
+.today-compact .ring { --size: 60px; }
+.today-compact .week { margin-top: var(--sp-2); }
+.study-sequence { counter-reset: study-step; }
+.study-sequence > li { counter-increment: study-step; }
+.study-sequence .plan-dot::before { content: counter(study-step); font-weight: 600; }
+.study-sequence .plan-dot > svg { display: none; }
+.plan-intro { margin-bottom: var(--sp-1); }
+.book-body p { text-align: justify; overflow-wrap: anywhere; }
 .brand-name { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 @media (max-width: 380px) { .brand-name { font-size: var(--fs-md); } }
+@media (max-width: 380px) { .top-actions { gap: var(--sp-1); } .topbar .wrap { gap: var(--sp-1); } }
+@media (max-width: 380px) { #langBtn .icon { display: none; } }
 
 .tabbar {
   position: fixed; inset: auto 0 0 0; z-index: 30;
@@ -550,6 +597,22 @@ dialog .dlg-foot .btn { min-height: var(--tap); }
 .fc-text { font-weight: 600; }
 .fc-hint { margin-top: auto; font-size: var(--fs-xs); font-weight: 700; color: var(--brand); }
 @media (prefers-reduced-motion: reduce) { .fc-face { transition-delay: 0s; } }
+
+/* ---------------------------------------------------------------- app frame */
+/* Inside the Android app (class set by theme.js): slimmer bars, more room for the lesson. */
+html.in-app { --header-h: 56px; --tabbar-h: 64px; }
+html.in-app #installCard { display: none; }
+/* Screen change without a page load (app.js): a thin bar while the content is on its way. */
+.nav-progress { position: fixed; inset: 0 0 auto 0; height: 3px; z-index: 60; pointer-events: none;
+  background: var(--brand); transform: scaleX(0); transform-origin: left; opacity: 0; }
+body.nav-busy .nav-progress { opacity: 1; transform: scaleX(.92);
+  transition: transform 6s cubic-bezier(.1, .8, .2, 1), opacity var(--dur-1) linear 150ms; }
+.skeleton { display: grid; gap: var(--sp-4); }
+.skeleton > i { display: block; height: 88px; border-radius: var(--r-lg); background: var(--surface);
+  animation: pulse 900ms var(--ease-in-out) infinite alternate; }
+.skeleton > i:first-child { height: 168px; border-radius: var(--r-xl); }
+@keyframes pulse { to { opacity: .45; } }
+@media (prefers-reduced-motion: reduce) { .skeleton > i { animation: none; } body.nav-busy .nav-progress { transition: none; } }
 
 /* ---------------------------------------------------------------- page transitions */
 /* Cross-page "fade through" (M3) with the View Transitions API — Chrome/Android only, ignored elsewhere.

@@ -17,6 +17,7 @@
 </head>
 <body class="{% block body_class %}{% endblock %}">
 {% include '_icons.html' %}
+<div class="nav-progress" aria-hidden="true"></div>
 <a class="sr-only" href="#main">{{ tr('skip_to_content') }}</a>
 <header class="topbar">
   <div class="wrap">
@@ -25,6 +26,16 @@
       <button class="btn btn-ghost btn-sm" id="langBtn" data-next="{{ 'en' if lang == 'hi' else 'hi' }}" aria-label="Change language">
         <svg class="icon icon-sm"><use href="#i-globe"/></svg>{{ tr('lang_switch') }}
       </button>
+      <details class="theme-picker" id="themePicker">
+        <summary class="btn btn-ghost icon-btn" aria-label="{{ tr('theme') }}" title="{{ tr('theme') }}">
+          <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 0 0 16z" fill="currentColor"/></svg>
+        </summary>
+        <div class="theme-options" role="group" aria-label="{{ tr('theme') }}">
+          {% for mode in ['light', 'dark', 'paper'] %}
+          <button class="theme-option" type="button" data-theme-set="{{ mode }}" aria-pressed="false"><span class="theme-swatch theme-swatch-{{ mode }}" aria-hidden="true"></span>{{ tr('theme_' ~ mode) }}<svg class="icon icon-sm theme-check" aria-hidden="true"><use href="#i-check"/></svg></button>
+          {% endfor %}
+        </div>
+      </details>
       <a class="btn btn-ghost icon-btn" href="/settings" aria-label="{{ tr('settings') }}"><svg class="icon"><use href="#i-gear"/></svg></a>
     </div>
   </div>

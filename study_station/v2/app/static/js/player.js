@@ -1,5 +1,6 @@
-/* Study Station v2 — question player: practice, CBT mock, revision. */
-(function () {
+/* Study Station v2 — question player: practice, CBT mock, revision.
+   Starts on the #player element of the current screen; app.js calls it again after a screen change. */
+window.SS.startPlayer = function () {
   'use strict';
   var SS = window.SS, h = SS.h, t = SS.t;
   var root = document.getElementById('player');
@@ -135,7 +136,7 @@
     function finish(e) {
       var btn = e.currentTarget;            // currentTarget is null by the time the promise settles
       btn.disabled = true;
-      SS.api('POST', '/api/v1/attempts/' + data.id + '/finish').then(function () { location.replace('/result/' + data.id); })
+      SS.api('POST', '/api/v1/attempts/' + data.id + '/finish').then(function () { SS.go('/result/' + data.id, true); })
         .catch(function (err) { SS.toast(err.message); btn.disabled = false; });
     }
     render();
@@ -310,7 +311,7 @@
         }).then(function () {
           window.removeEventListener('beforeunload', guard);
           try { sessionStorage.removeItem(posKey); } catch (e) {}
-          location.replace('/result/' + data.id);
+          SS.go('/result/' + data.id, true);
         }).catch(function (e) {
           tries++;
           // Offline at time-up: keep the answers and retry (also as soon as the network returns).
@@ -323,8 +324,17 @@
     }
 
     function guard(e) { if (!finishing) { e.preventDefault(); e.returnValue = ''; } }
+    function onHide() { if (document.hidden) save(qs[i]); }
     window.addEventListener('beforeunload', guard);
-    document.addEventListener('visibilitychange', function () { if (document.hidden) save(qs[i]); });
+    document.addEventListener('visibilitychange', onHide);
+    // Leaving for another screen (Back): stop the clock here and keep the answers — the test goes on
+    // on the server and reopens where it was.
+    SS.onLeave(function () {
+      clearInterval(timer);
+      window.removeEventListener('beforeunload', guard);
+      document.removeEventListener('visibilitychange', onHide);
+      if (!finishing) save(qs[i]);
+    });
     tick(); render();
   }
 
@@ -374,9 +384,12 @@
     render();
   }
 
-  if (mode === 'revise') SS.api('GET', '/api/v1/revise').then(revise).catch(fail);
+  // root.isConnected: the learner may have moved to another screen before the data arrived.
+  if (mode === 'revise') SS.api('GET', '/api/v1/revise').then(function (d) { if (root.isConnected) revise(d); }).catch(fail);
   else SS.api('GET', '/api/v1/attempts/' + attemptId).then(function (d) {
-    if (d.finished) { location.replace('/result/' + d.id); return; }   // replace: Back must not loop here
+    if (!root.isConnected) return;
+    if (d.finished) { SS.go('/result/' + d.id, true); return; }        // replace: Back must not loop here
     (d.mode === 'mock' ? mock : practice)(d);
   }).catch(fail);
-})();
+};
+window.SS.startPlayer();

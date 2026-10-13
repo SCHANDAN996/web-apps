@@ -1,5 +1,6 @@
 """Business logic: practice sets, CBT mocks, scoring, mistake revision, stats."""
 import random
+import time
 from collections import defaultdict
 from datetime import date, datetime, timedelta
 
@@ -50,15 +51,22 @@ def reveal(q: Question):
             'solution': {'hi': q.solution_hi, 'en': q.solution_en}}
 
 
-def _pick(db: Session, base_filter, n, lang, seen_ids):
-    """Pick n question ids: user's language first, unseen first, then the rest."""
-    ids_lang = list(db.scalars(select(Question.id).where(base_filter, has_lang(lang))))
-    ids_any = list(db.scalars(select(Question.id).where(base_filter)))
+def _pool(db: Session, base_filter, lang):
+    """Every question id a filter allows, as (in the learner's language, the rest) — one query."""
+    own, other = [], []
+    for qid, in_lang in db.execute(select(Question.id, has_lang(lang)).where(base_filter)):
+        (own if in_lang else other).append(qid)
+    return own, other
+
+
+def _choose(own, other, n, seen_ids):
+    """Pick n ids: learner's language first, unseen first, then the rest. Linear in the pool size —
+    a subject holds ~20,000 questions."""
     pools = [
-        [i for i in ids_lang if i not in seen_ids],
-        [i for i in ids_any if i not in seen_ids and i not in set(ids_lang)],
-        [i for i in ids_lang if i in seen_ids],
-        [i for i in ids_any if i in seen_ids and i not in set(ids_lang)],
+        [i for i in own if i not in seen_ids],
+        [i for i in other if i not in seen_ids],
+        [i for i in own if i in seen_ids],
+        [i for i in other if i in seen_ids],
     ]
     chosen = []
     for pool in pools:
@@ -67,6 +75,10 @@ def _pick(db: Session, base_filter, n, lang, seen_ids):
         if len(chosen) >= n:
             break
     return chosen
+
+
+def _pick(db: Session, base_filter, n, lang, seen_ids):
+    return _choose(*_pool(db, base_filter, lang), n, seen_ids)
 
 
 def seen_question_ids(db: Session, device: Device):
@@ -115,18 +127,40 @@ def start_retry_wrong(db: Session, device: Device, attempt_id: int):
 
 # ---------------------------------------------------------------- mock
 def section_pool_filter(subject_slug, subject_id):
-    f = and_(Question.topic.has(Topic.subject_id == subject_id), USABLE)
+    # topic_id IN (…) uses ix_question_topic_status; a per-row EXISTS on topic does not.
+    f = and_(Question.topic_id.in_(select(Topic.id).where(Topic.subject_id == subject_id)), USABLE)
     if subject_slug == 'english':
         f = and_(f, Question.text_en.is_not(None))   # English section must be in English
     return f
 
 
-def mock_plan(db: Session, exam: Exam):
+def section_counts(db: Session):
+    """Usable questions per subject as {subject_id: (all, with English text)} — one query serves every
+    section of every exam (the mock list shows them all)."""
+    rows = db.execute(select(Topic.subject_id, func.count(Question.id), func.count(Question.text_en))
+                      .join(Topic, Question.topic_id == Topic.id).where(USABLE).group_by(Topic.subject_id))
+    return {sid: (n, n_en) for sid, n, n_en in rows}
+
+
+_counts = {'at': 0.0, 'value': None}
+COUNTS_MAX_AGE = 60     # seconds; the bank only changes when questions are imported, generated or reviewed
+
+
+def recent_section_counts(db: Session):
+    """section_counts for pages that only display availability: reused for a minute (per worker)."""
+    now = time.monotonic()
+    if _counts['value'] is None or now - _counts['at'] > COUNTS_MAX_AGE:
+        _counts.update(at=now, value=section_counts(db))
+    return _counts['value']
+
+
+def mock_plan(db: Session, exam: Exam, counts=None):
     """Which sections of this exam we can build honestly from the question bank."""
+    counts = section_counts(db) if counts is None else counts
     plan = []
     for sec in exam.sections:
-        available = db.scalar(select(func.count(Question.id)).where(
-            section_pool_filter(sec.subject.slug, sec.subject_id)))
+        n, n_en = counts.get(sec.subject_id, (0, 0))
+        available = n_en if sec.subject.slug == 'english' else n
         plan.append({'section': sec, 'available': available, 'ok': available >= sec.questions})
     return plan
 
@@ -135,16 +169,16 @@ def start_mock(db: Session, device: Device, exam_slug: str):
     exam = db.scalar(select(Exam).where(Exam.slug == exam_slug))
     if exam is None:
         raise LookupError('exam')
-    plan = mock_plan(db, exam)
-    usable = [p for p in plan if p['ok']]
-    if not usable:
-        raise LookupError('no_questions')
     seen = seen_question_ids(db, device)
-    ids, total_q = [], sum(s.questions for s in exam.sections)
-    for p in usable:
-        sec = p['section']
-        ids += _pick(db, section_pool_filter(sec.subject.slug, sec.subject_id), sec.questions, device.lang, seen)
-    used_q = sum(p['section'].questions for p in usable)
+    ids, used_q, total_q = [], 0, sum(s.questions for s in exam.sections)
+    for sec in exam.sections:
+        own, other = _pool(db, section_pool_filter(sec.subject.slug, sec.subject_id), device.lang)
+        if len(own) + len(other) < sec.questions:
+            continue                      # same rule as mock_plan: only sections we can fill honestly
+        ids += _choose(own, other, sec.questions, seen)
+        used_q += sec.questions
+    if not ids:
+        raise LookupError('no_questions')
     # Partial mocks get proportional time so the pace matches the real exam.
     duration = round(exam.duration_min * 60 * used_q / total_q)
     name = exam.name_hi if device.lang == 'hi' else exam.name_en

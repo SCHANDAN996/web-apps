@@ -1,15 +1,26 @@
-# 📱 Study Station — Android app (shell)
+# 📱 Study Station — Android app
 
-यह app v2 server के ऊपर एक पतला खोल (WebView) है। कोई public website या अपना domain ख़रीदना ज़रूरी नहीं।
+App का **ढाँचा APK में** है और **content server पर**। कोई public website या अपना domain ख़रीदना ज़रूरी नहीं।
 
 | कहाँ | क्या |
 |---|---|
-| **APK के अंदर** | design की files — `../app/static` (CSS, JS, icon), offline स्क्रीन, app icon |
-| **Server पर** | सवाल, किताबें, नौकरियाँ, करंट अफेयर्स, और हर learner की प्रगति (device cookie) |
+| **APK के अंदर** | app का frame — top bar, tab bar, icons (`app/src/main/assets/shell/{hi,en}.html`), design की files — `../app/static` (CSS, JS), screens बदलने का code, offline स्क्रीन, app icon |
+| **Server पर** | हर screen का content — सवाल, किताबें, नौकरियाँ, करंट अफेयर्स — और हर learner की प्रगति (device cookie) |
 
-APK अपनी CSS/JS तभी इस्तेमाल करता है जब server वही version (`?v=…`) माँगे; server नया हो तो files अपने-आप
-network से आती हैं — पुराना APK कभी टूटा हुआ design नहीं दिखाता। दूसरी sites (official notice, PDF) फ़ोन के
-browser में खुलती हैं।
+**कैसे चलता है:** कोई screen खुलते ही APK अपना frame तुरंत दिखाता है (network का इंतज़ार नहीं), फिर `app.js` उस
+screen का content server से लाकर सिर्फ़ बीच का हिस्सा (`<main>`) बदलता है। Tab बदलने पर पूरा page दोबारा load नहीं
+होता। Internet न हो तो frame के अंदर "ऑफ़लाइन" संदेश और "दोबारा कोशिश करें" बटन आता है।
+
+**Frame की files generate होती हैं** — `templates/base.html`, `templates/shell.html`, `static/` की कोई file या frame के
+शब्द बदलें तो `study_station/v2` से चलाएँ (वरना `tests/test_shell.py` fail होगा):
+
+```
+python -m app.shell
+```
+
+**पुराना APK, नया server:** APK अपना frame और CSS/JS तभी इस्तेमाल करता है जब server वही version (`?v=…`) दे रहा हो।
+Server नया हो तो page अपने-आप पूरा server से आता है (cookie `ss_shell_off`) — पुराना APK कभी टूटा हुआ design नहीं
+दिखाता, बस थोड़ा धीमा खुलता है जब तक नया APK न बने। दूसरी sites (official notice, PDF) फ़ोन के browser में खुलती हैं।
 
 ## बनाना (Windows PC)
 
