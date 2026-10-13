@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 05:28 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 03:40 AM
+**आख़िरी update:** 13-10-2026 05:44 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 03:40 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 108 मिनट |
-| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 107 मिनट |
-| W3 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 107 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 123 मिनट |
+| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 123 मिनट |
+| W3 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 123 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,9 +37,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 03:40:48 autopilot start: 3 workers, reverse=True
-13-10 03:40:49 START 10th_Level/Reasoning/Chapter_09_Venn_Diagrams (OK: todo 0, problems 0)
-13-10 03:40:54 START 10th_Level/Reasoning/Chapter_13_Dictionary_Order (OK: todo 0, problems 0)
 13-10 03:40:59 START 10th_Level/Reasoning/Chapter_19_Cubes_Dice (OK: todo 0, problems 0)
 13-10 03:43:26   [Venn_Diagrams] set 01: Q8 key d vs re-solve ?, Q10 key b vs re-solve ?, Q21 key a vs re-solve b
 13-10 03:43:26   [Dictionary_Order] set 01: key confirmed
@@ -77,4 +74,7 @@
 13-10 05:22:26   [Cubes_Dice] set 03 try 2: re-solve disagrees (Q53 key b vs re-solve c, Q67 key d vs re-solve c)
 13-10 05:27:16   [Dictionary_Order] set 04 try 2: re-solve disagrees (Q80 key b vs re-solve ?, Q93 key c vs re-solve d)
 13-10 05:27:54   [Venn_Diagrams] set 05 try 2: re-solve disagrees (Q116 key a vs re-solve d, Q122 key a vs re-solve c)
+13-10 05:37:24   [Venn_Diagrams] set 05 try 3: re-solve disagrees (Q111 key c vs re-solve a, Q119 key c vs re-solve a, Q123 key d vs re-solve a)
+13-10 05:40:50   [Dictionary_Order] set 04 try 3: re-solve disagrees (Q80 key b vs re-solve ?, Q100 key c vs re-solve ?)
+13-10 05:41:45   [Cubes_Dice] set 03 try 3: re-solve disagrees (Q53 key a vs re-solve b)
 ```
