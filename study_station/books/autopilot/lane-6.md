@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 06:13 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
+**आख़िरी update:** 13-10-2026 06:23 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 02:32 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 221 मिनट |
-| W2 | Chapter 18 Science Tech (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W3 | Chapter 17 Culture Art (10th GK) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 231 मिनट |
+| W2 | Chapter 18 Science Tech (10th GK) | 🔎 review हो रहा है | 1 मिनट |
+| W3 | Chapter 19 Environment (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -42,18 +42,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 17:06:50   [Sports] repaired set 06 (en + hi, key confirmed by an independent re-solve)
-13-10 17:06:50   [Sports] written 1, failed 0; AI calls today 206/100000
-13-10 17:07:43   [Culture_Art] set 04: key confirmed
-13-10 17:09:18   [Culture_Art] set 05: key confirmed
-13-10 17:11:26   [Culture_Art] set 06: key confirmed
-13-10 17:11:26   [Culture_Art] written 0, failed 0; AI calls today 212/100000
-13-10 17:14:55   [Dictionary_Order] set 05: Q109 key a vs re-solve b, Q113 key a vs re-solve b, Q116 key d vs re-solve ?
-13-10 17:15:06   [Sports] review Content_en.txt: 8 issue(s): - "India won the ICC Men's T20 World Cup in 2026 (final on 8 March 2026 at Ahmedabad, against New Zealand)" → The 2
-13-10 17:20:01   [Culture_Art] review Content_en.txt: 5 issue(s): - The Intangible Cultural Heritage list includes "Deepavali (2025)" as an inscribed element, but Deepavali has not 
-13-10 17:24:38   [Dictionary_Order] set 05 try 1: re-solve disagrees (Q116 key d vs re-solve ?)
-13-10 17:25:26   [Sports] review Content_hi.txt: 8 issue(s): - India winning the 2026 ICC Men's T20 World Cup is stated as fact → The 2026 ICC Men's T20 World Cup has not yet b
-13-10 17:32:58   [Dictionary_Order] set 05 try 2: re-solve disagrees (Q111 key a vs re-solve c, Q113 key b vs re-solve c, Q120 key c vs re-solve a, Q124 key c vs re-solve a)
 13-10 17:34:56   [Culture_Art] review Content_hi.txt: 3 issue(s): - "2026 तक भारत के 45 विश्व धरोहर स्थल" और "सारनाथ का प्राचीन बौद्ध स्थल (2026)" → यह भविष्य का अनुमान है; 2025 तक 
 13-10 17:40:43   [Sports] review Key_Facts_en.txt: 2 issue(s): - High-Yield Facts: Modern Olympics – "IOC (1894) at Lausanne" → IOC founded 1894 in Paris; headquarters Lausanne
 13-10 17:41:52   [Dictionary_Order] set 05 try 3: re-solve disagrees (Q124 key a vs re-solve c)
@@ -82,4 +70,16 @@
 13-10 18:13:25   [Culture_Art] review: 7 section(s) corrected, 0 failed
 13-10 18:13:25   [Culture_Art] written 7, failed 0; AI calls today 275/100000
 13-10 18:13:39   [Dictionary_Order] set 06 try 1: re-solve disagrees (Q126 key c vs re-solve a, Q141 key b vs re-solve d)
+13-10 18:13:48 DONE 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_17_Culture_Art in 71 min → 1ffcfee8
+13-10 18:13:51 START 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_19_Environment (OK: todo 0, problems 0)
+13-10 18:15:02   [Environment] set 01: key confirmed
+13-10 18:17:25   [Environment] set 02: key confirmed
+13-10 18:17:46   [Science_Tech] repaired set 03 (en + hi, key confirmed by an independent re-solve)
+13-10 18:19:01   [Science_Tech] set 04: key confirmed
+13-10 18:19:14   [Environment] set 03: key confirmed
+13-10 18:19:49   [Science_Tech] set 05: key confirmed
+13-10 18:20:44   [Environment] set 04: key confirmed
+13-10 18:22:26   [Science_Tech] set 06: key confirmed
+13-10 18:22:26   [Science_Tech] written 1, failed 0; AI calls today 296/100000
+13-10 18:22:44   [Environment] set 05: key confirmed
 ```
