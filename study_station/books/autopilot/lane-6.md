@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 05:59 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 03:40 AM
+**आख़िरी update:** 13-10-2026 06:14 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 03:40 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 138 मिनट |
-| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 138 मिनट |
-| W3 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 138 मिनट |
+| W1 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 154 मिनट |
+| W2 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 153 मिनट |
+| W3 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 153 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -37,12 +37,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 03:44:41   [Cubes_Dice] set 01: key confirmed
-13-10 03:46:15   [Venn_Diagrams] set 01 try 1: rejected (Q10:duplicate_options)
-13-10 03:50:30   [Dictionary_Order] set 02: Q29 key d vs re-solve a, Q31 key b vs re-solve a, Q45 key d vs re-solve ?
-13-10 03:56:32   [Cubes_Dice] set 02: Q33 key d vs re-solve ?, Q41 key d vs re-solve c, Q43 key b vs re-solve ?, Q49 key d vs re-solve ?
-13-10 03:56:56   [Venn_Diagrams] repaired set 01 (en + hi, key confirmed by an independent re-solve)
-13-10 03:58:06   [Dictionary_Order] set 02 try 1: re-solve disagrees (Q29 key a vs re-solve d)
 13-10 03:58:25   [Venn_Diagrams] set 02: Q28 key c vs re-solve b, Q49 key d vs re-solve a
 13-10 04:04:58   [Dictionary_Order] set 02 try 2: re-solve disagrees (Q29 key c vs re-solve d)
 13-10 04:10:13   [Venn_Diagrams] repaired set 02 (en + hi, key confirmed by an independent re-solve)
@@ -77,4 +71,10 @@
 13-10 05:49:21   [Dictionary_Order] set 04 try 4: re-solve disagrees (Q80 key a vs re-solve ?, Q93 key d vs re-solve c)
 13-10 05:49:21   [Dictionary_Order] FAILED set 04: no version passed the checks — files left as they were
 13-10 05:53:00   [Venn_Diagrams] repaired set 05 (en + hi, key confirmed by an independent re-solve)
+13-10 06:01:09   [Venn_Diagrams] set 06: Q126 key a vs re-solve ?, Q127 key b vs re-solve d, Q130 key a vs re-solve b, Q133 key d vs re-solve a, Q144 key c vs re-solve b, Q148 key c v
+13-10 06:01:34   [Dictionary_Order] set 05: Q109 key a vs re-solve b, Q116 key d vs re-solve ?
+13-10 06:03:08   [Cubes_Dice] repaired set 03 (en + hi, key confirmed by an independent re-solve)
+13-10 06:09:35   [Venn_Diagrams] set 06 try 1: re-solve disagrees (Q143 key c vs re-solve b)
+13-10 06:11:50   [Dictionary_Order] set 05 try 1: re-solve disagrees (Q109 key a vs re-solve d, Q124 key d vs re-solve c)
+13-10 06:11:58   [Cubes_Dice] set 04: key confirmed
 ```
