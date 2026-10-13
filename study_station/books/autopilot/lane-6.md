@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 13-10-2026 12:56 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
+**आख़िरी update:** 13-10-2026 01:11 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 13-10 09:06 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 37 मिनट |
-| W2 | Chapter 03 Modern History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 40 मिनट |
-| W3 | Chapter 02 Medieval History (10th GK) | 🔎 review हो रहा है | 7 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 52 मिनट |
+| W2 | Chapter 03 Modern History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 55 मिनट |
+| W3 | Chapter 02 Medieval History (10th GK) | 🔎 review हो रहा है | 22 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -44,15 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-13-10 11:43:19   [Ancient_History] repaired set 06 (en + hi, key confirmed by an independent re-solve)
-13-10 11:43:19   [Ancient_History] written 2, failed 0; AI calls today 150/100000
-13-10 11:44:26   [Dictionary_Order] set 06 try 1: re-solve disagrees (Q132 key b vs re-solve a, Q142 key b vs re-solve a)
-13-10 11:46:24   [Ancient_History] review Content_en.txt: 1 issue(s): - The claim that the Union Cabinet approved the NMHC project in 2024 is incorrect; the Cabinet approved it in 2022 
-13-10 11:48:18   [Figure_Series] review PYQ_hi.txt: 9 issue(s): - SSC CGL 10-वर्ष कुल अधिकतम 38 दिखाया गया है, परंतु दिए गए वार्षिक आंकड़ों का योग अधिकतम 35 होता है → 34–35 लिखें
-13-10 11:53:31   [Figure_Series] review: 6 section(s) corrected, 0 failed
-13-10 11:53:31   [Figure_Series] written 6, failed 0; AI calls today 160/100000
-13-10 11:53:48   [Dictionary_Order] set 06 try 2: re-solve disagrees (Q142 key c vs re-solve a)
-13-10 11:53:52 DONE 10th_Level/Reasoning/Chapter_22_Figure_Series in 55 min → 78b35711
 13-10 11:53:53 START 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_02_Medieval_History (OK: todo 0, problems 0)
 13-10 11:56:36   [Medieval_History] set 01: Q22 key a vs re-solve ?
 13-10 12:05:51   [Medieval_History] repaired set 01 (en + hi, key confirmed by an independent re-solve)
@@ -84,4 +75,13 @@
 13-10 12:49:33   [Modern_History] set 04: Q79 key d vs re-solve a, Q94 key c vs re-solve a
 13-10 12:51:15   [Dictionary_Order] set 02 try 2: re-solve disagrees (Q30 key a vs re-solve b, Q44 key d vs re-solve a)
 13-10 12:52:03   [Medieval_History] review Content_en.txt: 1 issue(s): - The claim "6 out of 10 questions in competitive exams come straight from these stories" is an invented exam stati
+13-10 12:56:51   [Medieval_History] review Content_hi.txt: 2 issue(s): - "प्रतियोगी परीक्षाओं के 10 में से 6 सवाल इन्हीं कहानियों से आते हैं" → invented exam statistic/weightage claim; r
+13-10 12:56:52   [Modern_History] repaired set 04 (en + hi, key confirmed by an independent re-solve)
+13-10 12:58:26   [Dictionary_Order] set 02 try 3: re-solve disagrees (Q29 key a vs re-solve d, Q30 key a vs re-solve b, Q44 key d vs re-solve a)
+13-10 13:02:49   [Modern_History] set 05: Q107 key d vs re-solve c, Q121 key c vs re-solve d
+13-10 13:06:09   [Dictionary_Order] set 02 try 4: re-solve disagrees (Q30 key a vs re-solve b, Q44 key d vs re-solve a)
+13-10 13:06:09   [Dictionary_Order] FAILED set 02: no version passed the checks — files left as they were
+13-10 13:08:21   [Modern_History] set 05 try 1: re-solve disagrees (Q122 key b vs re-solve ?)
+13-10 13:09:02   [Medieval_History] review Feynman_en.txt: 1 issue(s): - The section claims Din-i-Ilahi was not a religion and calling it one is an "exam trap" → Standard NCERT textbooks
+13-10 13:12:03   [Medieval_History] review Flashcards_hi.txt: 1 issue(s): - Card 3 states that Iltutmish completed the Qutub Minar → Iltutmish added three storeys, but the final two stor
 ```
