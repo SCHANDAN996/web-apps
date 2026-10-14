@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 15-10-2026 02:46 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 14-10 09:47 PM
+**आख़िरी update:** 15-10-2026 03:02 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 14-10 09:47 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 299 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 ## 📊 हर किताब की प्रगति
 
@@ -31,6 +29,10 @@
 ## ✅ autopilot से हाल में पूरे हुए
 
 - अभी कोई नहीं
+
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 13 Dictionary Order (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
@@ -67,4 +69,8 @@
 15-10 02:13:29   [Dictionary_Order] set 06 try 1: re-solve disagrees (Q126 key a vs re-solve ?, Q141 key d vs re-solve b)
 15-10 02:24:34   [Dictionary_Order] set 06 try 2: re-solve disagrees (Q139 key d vs re-solve b)
 15-10 02:38:11   [Dictionary_Order] set 06 try 3: re-solve disagrees (Q130 key a vs re-solve b, Q135 key a vs re-solve c, Q136 key a vs re-solve c)
+15-10 02:57:45   [Dictionary_Order] repaired set 06 (en + hi, key confirmed by an independent re-solve)
+15-10 02:57:45   [Dictionary_Order] written 2, failed 3; AI calls today 30/100000
+15-10 02:57:46 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_13_Dictionary_Order: ['FAILED set 02: no version passed the checks — files left as they were', 'FAILED set 04: no version passed the checks — files left as they were']
+15-10 02:57:46 worker 0: nothing left
 ```
