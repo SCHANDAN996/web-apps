@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 14-10-2026 11:37 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 14-10 06:17 AM
+**आख़िरी update:** 14-10-2026 11:43 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 14-10 11:43 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 97 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -32,51 +32,11 @@
 
 - अभी कोई नहीं
 
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 13 Dictionary Order (Reasoning) — 1 बार
-
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-14-10 07:14:18   [Dictionary_Order] FAILED set 02: no version passed the checks — files left as they were
-14-10 07:22:44   [Dictionary_Order] set 03: Q58 key d vs re-solve a, Q71 key a vs re-solve b
-14-10 07:25:21   [Dictionary_Order] set 03 try 1: rejected (Q72:leaked_reasoning)
-14-10 07:33:17   [Dictionary_Order] set 03 try 2: re-solve disagrees (Q68 key d vs re-solve ?, Q74 key c vs re-solve b)
-14-10 07:40:53   [Dictionary_Order] set 03 try 3: re-solve disagrees (Q74 key d vs re-solve b)
-14-10 07:53:23   [Dictionary_Order] repaired set 03 (en + hi, key confirmed by an independent re-solve)
-14-10 07:58:19   [Dictionary_Order] set 04: Q80 key a vs re-solve ?, Q81 key b vs re-solve ?, Q90 key c vs re-solve ?, Q93 key b vs re-solve d
-14-10 08:06:41   [Dictionary_Order] set 04 try 1: re-solve disagrees (Q80 key b vs re-solve ?, Q93 key a vs re-solve d)
-14-10 08:14:55   [Dictionary_Order] set 04 try 2: re-solve disagrees (Q80 key b vs re-solve ?, Q93 key a vs re-solve d)
-14-10 08:25:27   [Dictionary_Order] set 04 try 3: re-solve disagrees (Q80 key b vs re-solve ?, Q93 key a vs re-solve d)
-14-10 08:36:43   [Dictionary_Order] set 04 try 4: re-solve disagrees (Q80 key b vs re-solve ?, Q93 key a vs re-solve d)
-14-10 08:36:43   [Dictionary_Order] FAILED set 04: no version passed the checks — files left as they were
-14-10 08:41:55   [Dictionary_Order] set 05: Q109 key a vs re-solve b, Q116 key d vs re-solve ?
-14-10 08:50:09   [Dictionary_Order] set 05 try 1: re-solve disagrees (Q113 key b vs re-solve a, Q120 key b vs re-solve a)
-14-10 09:04:59   [Dictionary_Order] set 05 try 2: re-solve disagrees (Q113 key a vs re-solve b)
-14-10 09:12:56   [Dictionary_Order] set 05 try 3: re-solve disagrees (Q121 key d vs re-solve c)
-14-10 09:21:43   [Dictionary_Order] set 05 try 4: re-solve disagrees (Q120 key a vs re-solve b)
-14-10 09:21:43   [Dictionary_Order] FAILED set 05: no version passed the checks — files left as they were
-14-10 09:26:01   [Dictionary_Order] set 06: Q130 key a vs re-solve b, Q142 key a vs re-solve b
-14-10 09:36:36   [Dictionary_Order] set 06 try 1: re-solve disagrees (Q137 key a vs re-solve b)
-14-10 09:48:17   [Dictionary_Order] set 06 try 2: re-solve disagrees (Q141 key b vs re-solve a)
-14-10 10:00:03   [Dictionary_Order] repaired set 06 (en + hi, key confirmed by an independent re-solve)
-14-10 10:00:03   [Dictionary_Order] written 3, failed 3; AI calls today 58/100000
-14-10 10:00:03 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_13_Dictionary_Order: ['FAILED set 02: no version passed the checks — files left as they were', 'FAILED set 04: no version passed the checks — files left as they were']
-14-10 10:00:03 START 10th_Level/Reasoning/Chapter_13_Dictionary_Order (OK: todo 0, problems 0)
-14-10 10:03:16   [Dictionary_Order] set 01: key confirmed
-14-10 10:07:30   [Dictionary_Order] set 02: Q29 key d vs re-solve a, Q45 key d vs re-solve ?
-14-10 10:17:45   [Dictionary_Order] set 02 try 1: re-solve disagrees (Q29 key a vs re-solve d)
-14-10 10:25:03   [Dictionary_Order] set 02 try 2: re-solve disagrees (Q29 key d vs re-solve a, Q31 key a vs re-solve c)
-14-10 10:34:48   [Dictionary_Order] set 02 try 3: re-solve disagrees (Q28 key a vs re-solve b, Q29 key a vs re-solve d, Q30 key a vs re-solve d, Q49 key d vs re-solve a)
-14-10 10:42:35   [Dictionary_Order] set 02 try 4: re-solve disagrees (Q35 key a vs re-solve b, Q42 key d vs re-solve b, Q44 key b vs re-solve a, Q45 key b vs re-solve a)
-14-10 10:42:35   [Dictionary_Order] FAILED set 02: no version passed the checks — files left as they were
-14-10 10:47:47   [Dictionary_Order] set 03: key confirmed
-14-10 10:53:48   [Dictionary_Order] set 04: Q80 key a vs re-solve ?, Q81 key b vs re-solve ?, Q90 key c vs re-solve ?, Q93 key b vs re-solve d
-14-10 11:03:14   [Dictionary_Order] set 04 try 1: re-solve disagrees (Q80 key d vs re-solve ?, Q93 key d vs re-solve b)
-14-10 11:12:08   [Dictionary_Order] set 04 try 2: re-solve disagrees (Q80 key a vs re-solve ?, Q93 key b vs re-solve d)
-14-10 11:18:47   [Dictionary_Order] set 04 try 3: re-solve disagrees (Q80 key a vs re-solve ?, Q93 key b vs re-solve d)
-14-10 11:27:12   [Dictionary_Order] set 04 try 4: re-solve disagrees (Q80 key b vs re-solve ?, Q93 key a vs re-solve d)
-14-10 11:27:12   [Dictionary_Order] FAILED set 04: no version passed the checks — files left as they were
-14-10 11:32:31   [Dictionary_Order] set 05: Q109 key a vs re-solve b, Q116 key d vs re-solve ?
+14-10 11:43:16 autopilot start: 3 workers, reverse=True
+14-10 11:43:17 START 10th_Level/Reasoning/Chapter_13_Dictionary_Order (OK: todo 0, problems 0)
+14-10 11:43:24 worker 1: nothing left
+14-10 11:43:29 worker 2: nothing left
 ```
