@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 14-10-2026 11:22 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 14-10 06:17 AM
+**आख़िरी update:** 14-10-2026 11:37 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 14-10 06:17 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 82 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 97 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,9 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-14-10 06:54:31   [Dictionary_Order] set 02 try 2: re-solve disagrees (Q49 key c vs re-solve b, Q50 key c vs re-solve a)
-14-10 07:04:34   [Dictionary_Order] set 02 try 3: re-solve disagrees (Q49 key c vs re-solve b)
-14-10 07:14:18   [Dictionary_Order] set 02 try 4: re-solve disagrees (Q49 key c vs re-solve b)
 14-10 07:14:18   [Dictionary_Order] FAILED set 02: no version passed the checks — files left as they were
 14-10 07:22:44   [Dictionary_Order] set 03: Q58 key d vs re-solve a, Q71 key a vs re-solve b
 14-10 07:25:21   [Dictionary_Order] set 03 try 1: rejected (Q72:leaked_reasoning)
@@ -79,4 +76,7 @@
 14-10 11:03:14   [Dictionary_Order] set 04 try 1: re-solve disagrees (Q80 key d vs re-solve ?, Q93 key d vs re-solve b)
 14-10 11:12:08   [Dictionary_Order] set 04 try 2: re-solve disagrees (Q80 key a vs re-solve ?, Q93 key b vs re-solve d)
 14-10 11:18:47   [Dictionary_Order] set 04 try 3: re-solve disagrees (Q80 key a vs re-solve ?, Q93 key b vs re-solve d)
+14-10 11:27:12   [Dictionary_Order] set 04 try 4: re-solve disagrees (Q80 key b vs re-solve ?, Q93 key a vs re-solve d)
+14-10 11:27:12   [Dictionary_Order] FAILED set 04: no version passed the checks — files left as they were
+14-10 11:32:31   [Dictionary_Order] set 05: Q109 key a vs re-solve b, Q116 key d vs re-solve ?
 ```
