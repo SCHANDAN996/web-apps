@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 14-10-2026 06:00 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 14-10 12:51 AM
+**आख़िरी update:** 14-10-2026 06:16 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 14-10 12:51 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 113 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 129 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,8 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-14-10 01:34:35   [Dictionary_Order] set 02 try 3: re-solve disagrees (Q30 key a vs re-solve b, Q35 key d vs re-solve a)
-14-10 01:40:54   [Dictionary_Order] set 02 try 4: re-solve disagrees (Q29 key a vs re-solve b, Q30 key a vs re-solve b, Q35 key d vs re-solve a, Q44 key b vs re-solve c)
 14-10 01:40:54   [Dictionary_Order] FAILED set 02: no version passed the checks — files left as they were
 14-10 01:47:42   [Dictionary_Order] set 03: Q58 key d vs re-solve a, Q66 key d vs re-solve c, Q68 key b vs re-solve ?, Q71 key a vs re-solve b, Q74 key d vs re-solve b
 14-10 01:51:11   [Dictionary_Order] set 03 try 1: rejected (Q66:leaked_reasoning)
@@ -79,4 +77,6 @@
 14-10 05:44:14   [Dictionary_Order] FAILED set 04: no version passed the checks — files left as they were
 14-10 05:54:12   [Dictionary_Order] set 05: Q109 key a vs re-solve b, Q116 key d vs re-solve b
 14-10 05:59:55   [Dictionary_Order] set 05 try 1: re-solve disagrees (Q113 key c vs re-solve b)
+14-10 06:07:46   [Dictionary_Order] set 05 try 2: re-solve disagrees (Q103 key d vs re-solve b)
+14-10 06:13:23   [Dictionary_Order] set 05 try 3: re-solve disagrees (Q103 key d vs re-solve b, Q114 key a vs re-solve d)
 ```
