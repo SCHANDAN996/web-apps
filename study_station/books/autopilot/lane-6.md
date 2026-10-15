@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 15-10-2026 09:47 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 15-10 08:30 AM
+**आख़िरी update:** 15-10-2026 10:03 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 15-10 08:30 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 77 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 92 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -48,4 +48,6 @@
 15-10 09:23:48   [Dictionary_Order] FAILED set 02: no version passed the checks — files left as they were
 15-10 09:29:47   [Dictionary_Order] set 03: Q58 key d vs re-solve a, Q68 key b vs re-solve ?, Q71 key a vs re-solve b, Q74 key d vs re-solve b
 15-10 09:40:31   [Dictionary_Order] set 03 try 1: re-solve disagrees (Q58 key c vs re-solve a, Q66 key c vs re-solve d, Q68 key c vs re-solve ?)
+15-10 09:50:01   [Dictionary_Order] set 03 try 2: re-solve disagrees (Q58 key c vs re-solve a, Q68 key c vs re-solve ?)
+15-10 10:00:28   [Dictionary_Order] set 03 try 3: re-solve disagrees (Q58 key d vs re-solve a, Q68 key b vs re-solve ?)
 ```
