@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 15-10-2026 07:26 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 15-10 03:04 AM
+**आख़िरी update:** 15-10-2026 07:41 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 15-10 03:04 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 65 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 80 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -39,8 +39,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-15-10 03:25:17   [Dictionary_Order] set 02 try 1: re-solve disagrees (Q29 key d vs re-solve a)
-15-10 03:31:49   [Dictionary_Order] set 02 try 2: re-solve disagrees (Q29 key a vs re-solve d)
 15-10 03:38:13   [Dictionary_Order] set 02 try 3: re-solve disagrees (Q29 key a vs re-solve d)
 15-10 03:44:06   [Dictionary_Order] set 02 try 4: re-solve disagrees (Q29 key a vs re-solve d)
 15-10 03:44:06   [Dictionary_Order] FAILED set 02: no version passed the checks — files left as they were
@@ -79,4 +77,6 @@
 15-10 07:06:41   [Dictionary_Order] set 02 try 4: re-solve disagrees (Q28 key a vs re-solve b, Q30 key d vs re-solve a, Q35 key d vs re-solve c, Q49 key b vs re-solve a)
 15-10 07:06:41   [Dictionary_Order] FAILED set 02: no version passed the checks — files left as they were
 15-10 07:19:48   [Dictionary_Order] set 03: Q58 key d vs re-solve a, Q68 key b vs re-solve ?, Q71 key a vs re-solve b, Q74 key d vs re-solve b
+15-10 07:28:41   [Dictionary_Order] set 03 try 1: re-solve disagrees (Q58 key d vs re-solve a, Q68 key a vs re-solve ?, Q74 key a vs re-solve b)
+15-10 07:38:25   [Dictionary_Order] set 03 try 2: re-solve disagrees (Q58 key b vs re-solve a, Q68 key b vs re-solve ?, Q74 key c vs re-solve b)
 ```
