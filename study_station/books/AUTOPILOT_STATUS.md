@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 16-10-2026 03:34 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 15-10 10:13 PM
+**आख़िरी update:** 16-10-2026 03:40 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-10 03:39 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 115 मिनट |
-| W2 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 96 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W2 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -35,44 +35,11 @@
 
 - अभी कोई नहीं
 
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 07 Sitting Arrangement (Reasoning) — 1 बार
-- Chapter 08 Puzzles (Reasoning) — 1 बार
-
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-15-10 22:13:56 autopilot start: 3 workers, reverse=True
-15-10 22:13:57 START Graduation_Level/Reasoning/Chapter_07_Sitting_Arrangement (OK: todo 0, problems 0)
-15-10 22:14:02 START Graduation_Level/Reasoning/Chapter_08_Puzzles (OK: todo 0, problems 0)
-15-10 22:14:08 worker 2: nothing left
-15-10 22:44:49   [Sitting_Arrangement] FAILED set 01: api_error
-15-10 22:45:39   [Puzzles] FAILED set 01: api_error
-15-10 23:11:42   [Sitting_Arrangement] FAILED set 02: api_error
-15-10 23:38:27   [Sitting_Arrangement] FAILED set 03: api_error
-15-10 23:39:37   [Puzzles] set 02: Q26: the clues allow more than one answer — add a clue so exactly one arrangement fits; Q37: clues contradict each other — no arrangement fits
-15-10 23:51:58   [Puzzles] FAILED set 02: api_error
-16-10 00:08:05   [Sitting_Arrangement] FAILED set 04: api_error
-16-10 00:22:03   [Puzzles] FAILED set 03: api_error
-16-10 00:35:46   [Sitting_Arrangement] FAILED set 05: api_error
-16-10 01:05:43   [Puzzles] FAILED set 04: too_long
-16-10 01:26:39   [Sitting_Arrangement] set 06: Q127: clues contradict each other — no arrangement fits all of them; Q128: clues contradict each other — no arrangement fits all of them; Q138
-16-10 01:32:58   [Puzzles] FAILED set 05: api_error
-16-10 01:39:00   [Sitting_Arrangement] FAILED set 06: api_error
-16-10 01:39:00   [Sitting_Arrangement] written 0, failed 6; AI calls today 7/100000
-16-10 01:39:00 AUDIT NOT DONE Graduation_Level/Reasoning/Chapter_07_Sitting_Arrangement: ['FAILED set 01: api_error', 'FAILED set 02: api_error']
-16-10 01:39:02 START Graduation_Level/Reasoning/Chapter_07_Sitting_Arrangement (OK: todo 0, problems 0)
-16-10 01:45:43   [Puzzles] set 06: Q133 key b vs re-solve ?, Q134 key c vs re-solve ?, Q137 key a vs re-solve ?, Q146 key a vs re-solve -, Q147 key a vs re-solve -, Q148 key a v
-16-10 01:58:04   [Puzzles] FAILED set 06: api_error
-16-10 01:58:04   [Puzzles] written 0, failed 6; AI calls today 8/100000
-16-10 01:58:04 AUDIT NOT DONE Graduation_Level/Reasoning/Chapter_08_Puzzles: ['FAILED set 01: api_error', 'FAILED set 02: api_error']
-16-10 01:58:06 START Graduation_Level/Reasoning/Chapter_08_Puzzles (OK: todo 0, problems 0)
-16-10 02:07:48   [Sitting_Arrangement] FAILED set 01: api_error
-16-10 02:27:01   [Puzzles] FAILED set 01: api_error
-16-10 02:32:09   [Sitting_Arrangement] FAILED set 02: api_error
-16-10 02:57:47   [Sitting_Arrangement] FAILED set 03: api_error
-16-10 03:09:29   [Puzzles] FAILED set 02: too_long
-16-10 03:23:06   [Sitting_Arrangement] FAILED set 04: api_error
-16-10 03:33:14   [Puzzles] FAILED set 03: api_error
+16-10 03:39:31 autopilot start: 3 workers, reverse=True
+16-10 03:39:35 START Graduation_Level/Reasoning/Chapter_07_Sitting_Arrangement (OK: todo 0, problems 0)
+16-10 03:39:39 START Graduation_Level/Reasoning/Chapter_08_Puzzles (OK: todo 0, problems 0)
+16-10 03:39:46 worker 2: nothing left
 ```
