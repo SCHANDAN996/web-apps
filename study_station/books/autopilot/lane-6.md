@@ -1,12 +1,14 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 16-10-2026 03:43 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 15-10 11:08 PM
+**आख़िरी update:** 16-10-2026 03:44 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-10 03:44 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
+| worker | अध्याय | काम | कब से |
+|---|---|---|---|
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -30,43 +32,11 @@
 
 - अभी कोई नहीं
 
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 13 Dictionary Order (Reasoning) — 2 बार
-
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-15-10 23:08:39 autopilot start: 3 workers, reverse=True
-15-10 23:08:40 START 10th_Level/Reasoning/Chapter_13_Dictionary_Order (OK: todo 0, problems 0)
-15-10 23:08:45 worker 1: nothing left
-15-10 23:08:50 worker 2: nothing left
-15-10 23:10:35   [Dictionary_Order] set 01: Q24 key d vs re-solve b
-15-10 23:22:56   [Dictionary_Order] FAILED set 01: api_error
-15-10 23:30:03   [Dictionary_Order] set 02: Q29 key d vs re-solve a, Q31 key b vs re-solve a, Q32 key c vs re-solve a, Q45 key d vs re-solve ?
-15-10 23:42:24   [Dictionary_Order] FAILED set 02: api_error
-15-10 23:49:30   [Dictionary_Order] set 03: Q58 key d vs re-solve a, Q68 key b vs re-solve ?, Q71 key a vs re-solve b, Q74 key d vs re-solve b
-16-10 00:01:50   [Dictionary_Order] FAILED set 03: api_error
-16-10 00:32:41   [Dictionary_Order] FAILED set 04: api_error
-16-10 00:38:05   [Dictionary_Order] set 05: Q109 key a vs re-solve b, Q116 key d vs re-solve ?
-16-10 00:50:25   [Dictionary_Order] FAILED set 05: api_error
-16-10 01:03:43   [Dictionary_Order] set 06: Q130 key a vs re-solve b, Q141 key d vs re-solve b, Q142 key a vs re-solve b, Q146 key a vs re-solve d
-16-10 01:16:04   [Dictionary_Order] FAILED set 06: api_error
-16-10 01:16:04   [Dictionary_Order] written 0, failed 6; AI calls today 2/100000
-16-10 01:16:04 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_13_Dictionary_Order: ['FAILED set 01: api_error', 'FAILED set 02: api_error']
-16-10 01:16:05 START 10th_Level/Reasoning/Chapter_13_Dictionary_Order (OK: todo 0, problems 0)
-16-10 01:31:37   [Dictionary_Order] set 01: key confirmed
-16-10 01:42:35   [Dictionary_Order] set 02: Q29 key d vs re-solve a, Q45 key d vs re-solve ?
-16-10 01:54:56   [Dictionary_Order] FAILED set 02: api_error
-16-10 02:01:06   [Dictionary_Order] set 03: Q58 key d vs re-solve a, Q68 key b vs re-solve ?, Q71 key a vs re-solve b, Q74 key d vs re-solve b
-16-10 02:13:26   [Dictionary_Order] FAILED set 03: api_error
-16-10 02:21:01   [Dictionary_Order] set 04: Q80 key a vs re-solve ?, Q81 key b vs re-solve ?, Q90 key c vs re-solve ?, Q93 key b vs re-solve d
-16-10 02:33:21   [Dictionary_Order] FAILED set 04: api_error
-16-10 03:00:11   [Dictionary_Order] FAILED set 05: api_error
-16-10 03:21:46   [Dictionary_Order] set 06: Q130 key a vs re-solve b, Q141 key d vs re-solve b, Q142 key a vs re-solve b
-16-10 03:34:06   [Dictionary_Order] FAILED set 06: api_error
-16-10 03:34:06   [Dictionary_Order] written 0, failed 5; AI calls today 8/100000
-16-10 03:34:06 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_13_Dictionary_Order: ['FAILED set 02: api_error', 'FAILED set 03: api_error']
-16-10 03:34:06 worker 0: nothing left
-16-10 03:43:34 autopilot end: done 0, failed 1
+16-10 03:44:14 autopilot start: 3 workers, reverse=True
+16-10 03:44:16 START 10th_Level/Reasoning/Chapter_13_Dictionary_Order (OK: todo 0, problems 0)
+16-10 03:44:22 worker 1: nothing left
+16-10 03:44:27 worker 2: nothing left
 ```
