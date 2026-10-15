@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 16-10-2026 01:32 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 15-10 10:13 PM
+**आख़िरी update:** 16-10-2026 01:47 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 15-10 10:13 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 198 मिनट |
-| W2 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 198 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W2 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 213 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -35,6 +35,10 @@
 
 - अभी कोई नहीं
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 07 Sitting Arrangement (Reasoning) — 1 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
@@ -53,4 +57,10 @@
 16-10 00:35:46   [Sitting_Arrangement] FAILED set 05: api_error
 16-10 01:05:43   [Puzzles] FAILED set 04: too_long
 16-10 01:26:39   [Sitting_Arrangement] set 06: Q127: clues contradict each other — no arrangement fits all of them; Q128: clues contradict each other — no arrangement fits all of them; Q138
+16-10 01:32:58   [Puzzles] FAILED set 05: api_error
+16-10 01:39:00   [Sitting_Arrangement] FAILED set 06: api_error
+16-10 01:39:00   [Sitting_Arrangement] written 0, failed 6; AI calls today 7/100000
+16-10 01:39:00 AUDIT NOT DONE Graduation_Level/Reasoning/Chapter_07_Sitting_Arrangement: ['FAILED set 01: api_error', 'FAILED set 02: api_error']
+16-10 01:39:02 START Graduation_Level/Reasoning/Chapter_07_Sitting_Arrangement (OK: todo 0, problems 0)
+16-10 01:45:43   [Puzzles] set 06: Q133 key b vs re-solve ?, Q134 key c vs re-solve ?, Q137 key a vs re-solve ?, Q146 key a vs re-solve -, Q147 key a vs re-solve -, Q148 key a v
 ```
