@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 15-10-2026 10:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 15-10 04:48 PM
+**आख़िरी update:** 15-10-2026 10:14 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 15-10 10:13 PM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 99 मिनट |
-| W2 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 140 मिनट |
+| W1 | Chapter 07 Sitting Arrangement (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W2 | Chapter 08 Puzzles (Graduation Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -35,42 +35,11 @@
 
 - अभी कोई नहीं
 
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 08 Puzzles (Reasoning) — 1 बार
-- Chapter 07 Sitting Arrangement (Reasoning) — 1 बार
-
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-15-10 16:48:23 autopilot start: 3 workers, reverse=True
-15-10 16:48:27 START Graduation_Level/Reasoning/Chapter_07_Sitting_Arrangement (OK: todo 0, problems 0)
-15-10 16:48:31 START Graduation_Level/Reasoning/Chapter_08_Puzzles (OK: todo 0, problems 0)
-15-10 16:48:38 worker 2: nothing left
-15-10 17:18:13   [Puzzles] FAILED set 01: api_error
-15-10 17:18:56   [Sitting_Arrangement] FAILED set 01: api_error
-15-10 17:32:10   [Puzzles] set 02: Q26 key d vs re-solve ?
-15-10 17:44:30   [Puzzles] FAILED set 02: api_error
-15-10 17:52:08   [Sitting_Arrangement] FAILED set 02: api_error
-15-10 18:15:24   [Puzzles] FAILED set 03: api_error
-15-10 18:29:47   [Sitting_Arrangement] FAILED set 03: api_error
-15-10 18:42:34   [Puzzles] FAILED set 04: api_error
-15-10 19:11:20   [Sitting_Arrangement] FAILED set 04: api_error
-15-10 19:12:46   [Puzzles] FAILED set 05: api_error
-15-10 19:41:54   [Sitting_Arrangement] FAILED set 05: api_error
-15-10 19:51:27   [Puzzles] FAILED set 06: api_error
-15-10 19:51:27   [Puzzles] written 0, failed 6; AI calls today 3/100000
-15-10 19:51:28 AUDIT NOT DONE Graduation_Level/Reasoning/Chapter_08_Puzzles: ['FAILED set 01: api_error', 'FAILED set 02: api_error']
-15-10 19:51:31 START Graduation_Level/Reasoning/Chapter_08_Puzzles (OK: todo 0, problems 0)
-15-10 20:19:48   [Sitting_Arrangement] set 06: Q127: clues contradict each other — no arrangement fits all of them; Q128: clues contradict each other — no arrangement fits all of them; Q138
-15-10 20:22:44   [Puzzles] FAILED set 01: api_error
-15-10 20:32:08   [Sitting_Arrangement] FAILED set 06: api_error
-15-10 20:32:08   [Sitting_Arrangement] written 0, failed 6; AI calls today 8/100000
-15-10 20:32:08 AUDIT NOT DONE Graduation_Level/Reasoning/Chapter_07_Sitting_Arrangement: ['FAILED set 01: api_error', 'FAILED set 02: api_error']
-15-10 20:32:11 START Graduation_Level/Reasoning/Chapter_07_Sitting_Arrangement (OK: todo 0, problems 0)
-15-10 21:01:02   [Sitting_Arrangement] FAILED set 01: api_error
-15-10 21:28:21   [Sitting_Arrangement] FAILED set 02: api_error
-15-10 21:29:36   [Puzzles] set 02: Q26: the clues allow more than one answer — add a clue so exactly one arrangement fits
-15-10 21:41:56   [Puzzles] FAILED set 02: api_error
-15-10 21:58:20   [Sitting_Arrangement] FAILED set 03: api_error
+15-10 22:13:56 autopilot start: 3 workers, reverse=True
+15-10 22:13:57 START Graduation_Level/Reasoning/Chapter_07_Sitting_Arrangement (OK: todo 0, problems 0)
+15-10 22:14:02 START Graduation_Level/Reasoning/Chapter_08_Puzzles (OK: todo 0, problems 0)
+15-10 22:14:08 worker 2: nothing left
 ```
