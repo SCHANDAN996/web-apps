@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 15-10-2026 06:09 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 15-10 03:04 AM
+**आख़िरी update:** 15-10-2026 06:24 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 15-10 03:04 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 184 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -31,6 +31,10 @@
 ## ✅ autopilot से हाल में पूरे हुए
 
 - अभी कोई नहीं
+
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 13 Dictionary Order (Reasoning) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
@@ -68,4 +72,10 @@
 15-10 05:42:01   [Dictionary_Order] set 06 try 1: re-solve disagrees (Q128 key a vs re-solve c, Q130 key d vs re-solve b, Q137 key a vs re-solve d, Q142 key a vs re-solve b, Q146 key a v
 15-10 05:57:46   [Dictionary_Order] set 06 try 2: re-solve disagrees (Q142 key b vs re-solve c)
 15-10 06:07:30   [Dictionary_Order] set 06 try 3: re-solve disagrees (Q131 key d vs re-solve b, Q132 key b vs re-solve a)
+15-10 06:20:50   [Dictionary_Order] set 06 try 4: re-solve disagrees (Q131 key c vs re-solve b, Q132 key a vs re-solve c)
+15-10 06:20:50   [Dictionary_Order] FAILED set 06: no version passed the checks — files left as they were
+15-10 06:20:50   [Dictionary_Order] written 0, failed 5; AI calls today 50/100000
+15-10 06:20:51 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_13_Dictionary_Order: ['FAILED set 02: no version passed the checks — files left as they were', 'FAILED set 03: no version passed the checks — files left as they were']
+15-10 06:20:52 START 10th_Level/Reasoning/Chapter_13_Dictionary_Order (OK: todo 0, problems 0)
+15-10 06:22:42   [Dictionary_Order] set 01: key confirmed
 ```
