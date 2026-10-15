@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 15-10-2026 12:21 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 15-10 08:30 AM
+**आख़िरी update:** 15-10-2026 12:36 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 15-10 08:30 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 17 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -75,4 +75,7 @@
 15-10 12:18:51 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_13_Dictionary_Order: ['FAILED set 02: no version passed the checks — files left as they were', 'FAILED set 03: no version passed the checks — files left as they were']
 15-10 12:18:52 START 10th_Level/Reasoning/Chapter_13_Dictionary_Order (OK: todo 0, problems 0)
 15-10 12:20:31   [Dictionary_Order] set 01: key confirmed
+15-10 12:25:52   [Dictionary_Order] set 02: Q29 key d vs re-solve a, Q45 key d vs re-solve ?
+15-10 12:28:16   [Dictionary_Order] set 02 try 1: rejected (Q32:leaked_reasoning)
+15-10 12:36:06   [Dictionary_Order] set 02 try 2: re-solve disagrees (Q27 key d vs re-solve b, Q31 key c vs re-solve b)
 ```
