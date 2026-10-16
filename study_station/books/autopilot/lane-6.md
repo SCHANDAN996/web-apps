@@ -1,12 +1,14 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 16-10-2026 08:06 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-10 03:44 AM
+**आख़िरी update:** 16-10-2026 08:08 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-10 08:07 AM
 
 > NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
+| worker | अध्याय | काम | कब से |
+|---|---|---|---|
+| W1 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 
 ## 📊 हर किताब की प्रगति
 
@@ -30,46 +32,11 @@
 
 - अभी कोई नहीं
 
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 13 Dictionary Order (Reasoning) — 2 बार
-
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-16-10 03:44:14 autopilot start: 3 workers, reverse=True
-16-10 03:44:16 START 10th_Level/Reasoning/Chapter_13_Dictionary_Order (OK: todo 0, problems 0)
-16-10 03:44:22 worker 1: nothing left
-16-10 03:44:27 worker 2: nothing left
-16-10 03:45:38   [Dictionary_Order] set 01: Q24 key d vs re-solve b
-16-10 03:57:59   [Dictionary_Order] FAILED set 01: api_error
-16-10 04:02:46   [Dictionary_Order] set 02: Q29 key d vs re-solve a, Q45 key d vs re-solve ?
-16-10 04:15:07   [Dictionary_Order] FAILED set 02: api_error
-16-10 04:21:22   [Dictionary_Order] set 03: Q58 key d vs re-solve a, Q68 key b vs re-solve ?, Q71 key a vs re-solve b, Q74 key d vs re-solve b
-16-10 04:33:43   [Dictionary_Order] FAILED set 03: api_error
-16-10 04:39:12   [Dictionary_Order] set 04: Q80 key a vs re-solve ?, Q81 key b vs re-solve ?, Q90 key c vs re-solve ?, Q93 key b vs re-solve d
-16-10 04:51:33   [Dictionary_Order] FAILED set 04: api_error
-16-10 04:58:57   [Dictionary_Order] set 05: Q109 key a vs re-solve b, Q116 key d vs re-solve b
-16-10 05:11:18   [Dictionary_Order] FAILED set 05: api_error
-16-10 05:17:28   [Dictionary_Order] set 06: Q130 key a vs re-solve b, Q142 key a vs re-solve b
-16-10 05:29:49   [Dictionary_Order] FAILED set 06: api_error
-16-10 05:29:49   [Dictionary_Order] written 0, failed 6; AI calls today 6/100000
-16-10 05:29:49 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_13_Dictionary_Order: ['FAILED set 01: api_error', 'FAILED set 02: api_error']
-16-10 05:29:50 START 10th_Level/Reasoning/Chapter_13_Dictionary_Order (OK: todo 0, problems 0)
-16-10 05:31:19   [Dictionary_Order] set 01: Q24 key d vs re-solve b
-16-10 05:43:40   [Dictionary_Order] FAILED set 01: api_error
-16-10 06:03:07   [Dictionary_Order] set 02: Q29 key d vs re-solve a, Q31 key b vs re-solve a
-16-10 06:15:28   [Dictionary_Order] FAILED set 02: api_error
-16-10 06:45:13   [Dictionary_Order] set 03: Q58 key d vs re-solve a, Q68 key b vs re-solve ?, Q70 key d vs re-solve a, Q71 key a vs re-solve b, Q74 key d vs re-solve b
-16-10 06:57:34   [Dictionary_Order] FAILED set 03: api_error
-16-10 07:04:47   [Dictionary_Order] set 04: Q80 key a vs re-solve ?, Q81 key b vs re-solve ?, Q90 key c vs re-solve ?, Q93 key b vs re-solve d
-16-10 07:17:08   [Dictionary_Order] FAILED set 04: api_error
-16-10 07:23:50   [Dictionary_Order] set 05: Q109 key a vs re-solve b, Q116 key d vs re-solve ?, Q121 key a vs re-solve c
-16-10 07:36:11   [Dictionary_Order] FAILED set 05: api_error
-16-10 07:46:26   [Dictionary_Order] set 06: Q137 key d vs re-solve b, Q142 key a vs re-solve b
-16-10 07:58:47   [Dictionary_Order] FAILED set 06: api_error
-16-10 07:58:47   [Dictionary_Order] written 0, failed 6; AI calls today 12/100000
-16-10 07:58:47 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_13_Dictionary_Order: ['FAILED set 01: api_error', 'FAILED set 02: api_error']
-16-10 07:58:47 worker 0: nothing left
-16-10 08:06:36 autopilot end: done 0, failed 1
+16-10 08:07:21 autopilot start: 3 workers, reverse=True
+16-10 08:07:21 START 10th_Level/Reasoning/Chapter_13_Dictionary_Order (OK: todo 0, problems 0)
+16-10 08:07:27 worker 1: nothing left
+16-10 08:07:32 worker 2: nothing left
 ```
