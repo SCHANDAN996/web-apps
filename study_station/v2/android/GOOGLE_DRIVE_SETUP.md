@@ -4,14 +4,20 @@ Cloud project created for this app: `study-station-511803` (Study Station).
 The project exists and Google Drive API is enabled (confirmed in Console).
 OAuth branding is configured as Study Station / External testing with the project
 owner's support and notification email (Console reports configuration created).
-The Android debug client form is filled but **not submitted**, pending explicit
-approval to create this credential. No learner Drive permission has been granted.
+The Android debug OAuth client was created on 16 October 2026 after owner approval.
+No learner Drive permission has been granted; physical consent/upload/restore testing remains pending.
 
-Prepared debug registration:
+Registered debug client:
 - Package: `com.studystation.app.debug`
 - Certificate SHA-1: `FD:8B:87:92:B8:4A:92:1C:99:2E:C2:A7:CD:FC:16:FD:BD:F0:CB:2E`
 - Name: Study Station Android debug
-- Client creation: https://console.cloud.google.com/auth/clients/create?project=study-station-511803
+- Client ID: `1040204190388-084kk93i9msui4tbfsus0jp91mnv3412.apps.googleusercontent.com` (public application identifier, not a secret)
+- Clients: https://console.cloud.google.com/auth/clients?project=study-station-511803
+
+Console Data Access is saved with **only** `drive.appdata` in non-sensitive scopes;
+sensitive and restricted scopes are empty. Audience remains External / Testing,
+with zero test users at setup time. Add the intended phone test account before
+physical consent testing. Do not publish or add unrelated accounts automatically.
 
 ## Configure the project
 

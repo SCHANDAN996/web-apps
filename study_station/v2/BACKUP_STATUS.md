@@ -21,9 +21,9 @@ fit a 360×800 viewport. Android build succeeded and 9 unit tests passed; APK sh
 and feature script bytes match the latest source.
 
 Google Cloud project `study-station-511803` exists and Drive API is enabled. OAuth
-branding is configured. The Android OAuth client form is filled for review;
-no OAuth client was created. Drive remains disabled pending owner approval,
-package/certificate registration and real-device upload/download verification.
+branding is configured. The Android debug OAuth client was created after owner
+approval on 16 October 2026. Drive remains disabled in the general build pending
+real-device upload/download verification. Release signing registration remains separate.
 See `android/GOOGLE_DRIVE_SETUP.md` for exact setup and acceptance checks.
 
 This phase has not been deployed to production. At final device discovery no phone
