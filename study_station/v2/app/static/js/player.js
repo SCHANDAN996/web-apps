@@ -74,7 +74,8 @@ window.SS.startPlayer = function () {
         SS.icon('flag', 'icon-sm'), t.report));
     }
     var fresh = lastShown !== q.id; lastShown = q.id;
-    return h('article', { class: fresh ? 'enter' : null, 'aria-live': 'polite' }, meta, h('p', { class: 'q-text' }, q.text[lang]), list, extra);
+    return h('article', { class: fresh ? 'enter' : null, 'aria-live': 'polite' }, meta, h('p', { class: 'q-text' }, q.text[lang]),
+      window.SSWhiteboard ? window.SSWhiteboard.create(q.id) : null, list, extra);
   }
 
   function actionBar() {

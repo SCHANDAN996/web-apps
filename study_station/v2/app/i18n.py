@@ -324,6 +324,96 @@ STRINGS = {
 }
 
 
+# Portable study backup and phone-local rough work.
+STRINGS.update({'rough_work': ('रफ़ वर्क', 'Rough work'),
+ 'rough_canvas': ('रफ़ वर्क के लिए चित्र क्षेत्र', 'Drawing area for rough work'),
+ 'rough_tools': ('रफ़ वर्क के औज़ार', 'Drawing tools'),
+ 'rough_hint': ('उँगली या पेन से लिखें। फ़ोन पर हाल के 80 सवालों या कुल 12,000 लिखावट बिंदुओं तक रफ़ वर्क रहता है। पुराने नोट हट सकते हैं; ज़रूरी काम का बैकअप रखें।',
+                'Write with your finger or pen. Recent rough work is kept on this device, up to 80 questions or 12,000 pen points in total. Older notes may be removed; back up important work.'),
+ 'rough_pen': ('पेन', 'Pen'),
+ 'rough_erase': ('रबर', 'Eraser'),
+ 'rough_undo': ('वापस', 'Undo'),
+ 'rough_clear': ('साफ़ करें', 'Clear'),
+ 'rough_clear_confirm': ('इस सवाल का रफ़ वर्क साफ़ करें?', 'Clear rough work for this question?'),
+ 'rough_colors': ('पेन का रंग', 'Pen colour'),
+ 'rough_black': ('काला', 'Black'),
+ 'rough_blue': ('नीला', 'Blue'),
+ 'rough_green': ('हरा', 'Green'),
+ 'rough_saved': ('फ़ोन पर सेव हो गया', 'Saved on this device'),
+ 'rough_storage': ('फ़ोन में सेव नहीं हो सका। जगह खाली करके फिर कोशिश करें।',
+                   'Could not save on this device. Free some space and try again.'),
+ 'backup_title': ('पढ़ाई का बैकअप', 'Study backup'),
+ 'backup_desc': ('प्रगति, पढ़े हुए अध्याय और रफ़ वर्क की अपनी कॉपी रखें। बैकअप फ़ाइल सुरक्षित रखें।',
+                 'Keep your own copy of progress, read chapters and rough work. Keep the backup file private.'),
+ 'backup_download': ('बैकअप फ़ाइल सेव करें', 'Save backup file'),
+ 'backup_local_restore': ('फ़ाइल से वापस लाएँ', 'Restore from file'),
+ 'backup_drive_backup': ('Drive पर सेव करें', 'Save to Drive'),
+ 'backup_restore': ('बैकअप वापस लाएँ', 'Restore backup'),
+ 'backup_drive_restore': ('Drive से वापस लाएँ', 'Restore from Drive'),
+ 'backup_drive_setup': ('Google Drive का सेटअप अभी पूरा नहीं है। तब तक फ़ाइल में बैकअप रख सकते हैं।',
+                        'Google Drive setup is not complete. You can save a backup file meanwhile.'),
+ 'backup_drive_ready': ('Google Drive उपलब्ध है। सेव या वापस लाते समय अनुमति माँगी जाएगी।',
+                        'Google Drive is available. Permission is requested when saving or restoring.'),
+ 'backup_cancelled': ('बैकअप की कार्रवाई रद्द हुई।', 'Backup action cancelled.'),
+ 'backup_none': ('इस खाते में बैकअप नहीं मिला।', 'No backup found in this account.'),
+ 'backup_invalid': ('यह बैकअप फ़ाइल मान्य नहीं है या बहुत बड़ी है।', 'This backup file is invalid or too large.'),
+ 'backup_local_partial': ('प्रगति वापस आई, लेकिन फ़ोन का कुछ डेटा सेव नहीं हो सका।',
+                          'Progress was restored, but some device data could not be saved.'),
+ 'backup_failed': ('बैकअप पूरा नहीं हुआ। दोबारा कोशिश करें।', 'Backup could not finish. Please try again.'),
+ 'backup_busy': ('कृपया रुकें…', 'Please wait…'),
+ 'backup_restore_confirm': ('इस बैकअप की पढ़ाई की प्रगति मौजूदा प्रगति में जोड़ी जाएगी। पढ़ने और थीम की सेटिंग भी '
+                            'वापस आएँगी। आगे बढ़ें?',
+                            'Study progress in this backup will be added to your existing progress. Reading and '
+                            'theme settings will also be restored. Continue?'),
+ 'backup_restored': ('बैकअप वापस आ गया।', 'Backup restored.'),
+ 'backup_downloaded': ('बैकअप फ़ाइल तैयार है।', 'Backup file is ready.'),
+ 'backup_saved': ('बैकअप सेव हो गया।', 'Backup saved.')})
+
+
+STRINGS.update({'reset_progress_desc': ('एक अध्याय, एक विषय या पूरी पढ़ाई की प्रगति चुनकर नई शुरुआत करें।',
+                         'Start fresh for one chapter, one subject, or all your study progress.'),
+ 'reset_scope_label': ('कितनी प्रगति रीसेट करनी है?', 'What would you like to reset?'),
+ 'reset_scope_all': ('पूरी पढ़ाई', 'All study progress'),
+ 'reset_scope_subject': ('एक विषय', 'One subject'),
+ 'reset_scope_chapter': ('एक अध्याय', 'One chapter'),
+ 'reset_choose_subject': ('विषय चुनें', 'Choose a subject'),
+ 'reset_choose_book': ('किताब चुनें', 'Choose a book'),
+ 'reset_choose_chapter': ('अध्याय चुनें', 'Choose a chapter'),
+ 'reset_selected_action': ('चुनी हुई प्रगति मिटाएँ', 'Clear selected progress'),
+ 'reset_confirm_selected': ('चुनी हुई प्रगति मिटानी है?', 'Clear the selected progress?'),
+ 'reset_impact_all': ('अभ्यास, मॉक, परिणाम और दोहराई मिटेंगे। इस फ़ोन के सभी पढ़े हुए अध्यायों के निशान और रफ़ '
+                      'वर्क भी साफ़ होंगे।',
+                      'Practice, mocks, results and revision will be removed. All reading marks and rough work on '
+                      'this device will also be cleared.'),
+ 'reset_impact_subject': ('इस विषय के अभ्यास के जवाब और दोहराई मिटेंगे। सभी किताबों में इसी विषय के पढ़ने के '
+                          'निशान और इसी विषय के सवालों का फ़ोन पर रखा रफ़ वर्क साफ़ होगा। मॉक टेस्ट का इतिहास बना '
+                          'रहेगा।',
+                          'This subject’s practice answers and revision will be removed. Reading marks across '
+                          'books in this subject and rough work for its questions on this device will be cleared. '
+                          'Mock test history will stay.'),
+ 'reset_impact_chapter_topic': ('सिर्फ़ चुने हुए अध्याय का पढ़ने का निशान हटेगा। जुड़े विषयांश “{topic}” का '
+                                'अभ्यास, दोहराई और फ़ोन का रफ़ वर्क भी मिटेगा, भले वही विषयांश दूसरी किताब या '
+                                'स्तर में पढ़ा हो। मॉक टेस्ट का इतिहास बना रहेगा।',
+                                'Only the selected chapter’s reading mark will be cleared. Practice, revision and '
+                                'device rough work for its linked topic “{topic}” will also be removed, including '
+                                'work through other books or levels sharing that topic. Mock test history will '
+                                'stay.'),
+ 'reset_impact_chapter_reading': ('इस अध्याय से अभ्यास का कोई विषयांश जुड़ा नहीं है। सिर्फ़ इस अध्याय का पढ़ने का '
+                                  'निशान हटेगा; अभ्यास, मॉक, दोहराई और रफ़ वर्क बना रहेगा।',
+                                  'This chapter has no linked practice topic. Only its reading mark will be '
+                                  'cleared; practice, mocks, revision and rough work will stay.'),
+ 'reset_common_warning': ('यह वापस नहीं किया जा सकता। इसी पहचान के दूसरे फ़ोन पर भी अभ्यास की यही प्रगति मिटेगी। '
+                          'पहचान और सेटिंग्स बनी रहेंगी। पहले सेव की गई बैकअप फ़ाइलें और Google Drive की कॉपियाँ '
+                          'नहीं मिटेंगी।',
+                          'This cannot be undone. The same practice history will be removed on other phones '
+                          'sharing this learner identity. Your identity and settings stay saved. Existing backup '
+                          'files and Google Drive copies will remain.'),
+ 'reset_done': ('चुनी हुई प्रगति साफ़ हो गई।', 'Selected progress cleared.'),
+ 'reset_local_partial': ('पढ़ाई की प्रगति साफ़ हुई, लेकिन फ़ोन का कुछ डेटा साफ़ नहीं हो सका।',
+                         'Study progress was cleared, but some device data could not be cleared.'),
+ 'reset_options_failed': ('विषय और अध्याय नहीं खुल सके। दोबारा कोशिश करें।',
+                          'Subjects and chapters could not load. Please try again.')})
+
 def t(key, lang):
     pair = STRINGS.get(key)
     if pair is None:
@@ -353,6 +443,7 @@ def client_strings(lang):
             'st_unanswered', 'st_marked', 'st_marked_answered', 'st_notvisited', 'submit_note',
             'revise_next', 'revise_next_1', 'revise_none', 'go_practice', 'offline_now', 'online_again', 'report_note',
             'retry', 'reset_progress_confirm', 'reset_progress_warning', 'reset_progress_action']
+    keys += [k for k in STRINGS if k.startswith(('rough_', 'backup_', 'reset_'))]
     out = {k: t(k, lang) for k in keys}
     out['errors'] = {k: (v[0] if lang == 'hi' else v[1]) for k, v in ERRORS.items()}
     return out

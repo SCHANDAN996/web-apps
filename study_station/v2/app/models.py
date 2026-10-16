@@ -1,6 +1,7 @@
 from datetime import date, datetime
+import secrets
 
-from sqlalchemy import (JSON, Boolean, Date, DateTime, Float, ForeignKey, Integer,
+from sqlalchemy import (JSON, BigInteger, Boolean, Date, DateTime, Float, ForeignKey, Integer,
                         String, Text, UniqueConstraint, Index)
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
@@ -9,6 +10,11 @@ from .db import Base
 
 def now():
     return datetime.utcnow()
+
+
+def new_backup_id():
+    # Safe in JSON/JavaScript; unrelated to SQLite row IDs that can be reused after deletion.
+    return (1 << 52) + secrets.randbelow(1 << 52)
 
 
 # ---------------------------------------------------------------- catalogue
@@ -141,6 +147,7 @@ class Device(Base):
     target_exams: Mapped[list] = mapped_column(JSON, default=list)
     # sha256 of the learner's recovery code (the code itself is shown once, never stored)
     recovery_hash: Mapped[str | None] = mapped_column(String(64), index=True)
+    backup_source_id: Mapped[str | None] = mapped_column(String(36))
     created_at: Mapped[datetime] = mapped_column(DateTime, default=now)
     last_seen: Mapped[datetime] = mapped_column(DateTime, default=now)
 
@@ -148,6 +155,7 @@ class Device(Base):
 class Attempt(Base):
     __tablename__ = 'attempt'
     id: Mapped[int] = mapped_column(primary_key=True)
+    backup_id: Mapped[int | None] = mapped_column(BigInteger, default=new_backup_id)
     device_id: Mapped[int] = mapped_column(ForeignKey('device.id'), index=True)
     mode: Mapped[str] = mapped_column(String(10))               # practice / mock
     exam_id: Mapped[int | None] = mapped_column(ForeignKey('exam.id'))
@@ -189,6 +197,17 @@ class ReviewCard(Base):
     due_on: Mapped[date] = mapped_column(Date)
     lapses: Mapped[int] = mapped_column(Integer, default=0)
     question: Mapped[Question] = relationship()
+
+
+class BackupImport(Base):
+    """Per-learner import receipts; never an authentication credential."""
+    __tablename__ = 'backup_import'
+    __table_args__ = (UniqueConstraint('device_id', 'source_id', 'original_id'),)
+    id: Mapped[int] = mapped_column(primary_key=True)
+    device_id: Mapped[int] = mapped_column(ForeignKey('device.id'), index=True)
+    source_id: Mapped[str] = mapped_column(String(36))
+    original_id: Mapped[int] = mapped_column(BigInteger)
+    checksum: Mapped[str] = mapped_column(String(64))
 
 
 class QuestionReport(Base):

@@ -48,10 +48,39 @@
   </div>
   <p class="xs muted" style="margin:var(--sp-2) 0 0">{{ tr('theme_hint') }}</p>
 </section>
+<section class="card stack" id="backup" style="margin-top:var(--sp-4)">
+  <h2>{{ tr('backup_title') }}</h2>
+  <p class="small muted">{{ tr('backup_desc') }}</p>
+  <div class="backup-actions">
+    <button class="btn btn-secondary" type="button" data-backup-action="local-backup">{{ tr('backup_download') }}</button>
+    <button class="btn btn-ghost" type="button" data-backup-action="local-restore">{{ tr('backup_local_restore') }}</button>
+  </div>
+  <input type="file" id="backupFile" accept="application/json,.json" hidden>
+  <p class="small muted" id="driveSetupStatus">{{ tr('backup_drive_setup') }}</p>
+  <div class="backup-actions">
+    <button class="btn btn-secondary" type="button" data-backup-action="backup" data-drive-action disabled>{{ tr('backup_drive_backup') }}</button>
+    <button class="btn btn-ghost" type="button" data-backup-action="restore" data-drive-action disabled>{{ tr('backup_drive_restore') }}</button>
+  </div>
+  <p class="small" id="backupStatus" role="status" aria-live="polite"></p>
+</section>
 {% if device %}
-<section class="card" style="margin-top:var(--sp-4)">
+<section class="card stack" id="resetStudy" style="margin-top:var(--sp-4)">
   <h2>{{ tr('reset_progress_title') }}</h2>
   <p class="small muted">{{ tr('reset_progress_desc') }}</p>
+  <label class="stack reset-field">{{ tr('reset_scope_label') }}
+    <select id="resetScope"><option value="all">{{ tr('reset_scope_all') }}</option><option value="subject">{{ tr('reset_scope_subject') }}</option><option value="chapter">{{ tr('reset_scope_chapter') }}</option></select>
+  </label>
+  <label class="stack reset-field" id="resetSubjectField" hidden>{{ tr('reset_choose_subject') }}
+    <select id="resetSubject"><option value="">{{ tr('reset_choose_subject') }}</option></select>
+  </label>
+  <label class="stack reset-field" id="resetBookField" hidden>{{ tr('reset_choose_book') }}
+    <select id="resetBook"><option value="">{{ tr('reset_choose_book') }}</option></select>
+  </label>
+  <label class="stack reset-field" id="resetChapterField" hidden>{{ tr('reset_choose_chapter') }}
+    <select id="resetChapter"><option value="">{{ tr('reset_choose_chapter') }}</option></select>
+  </label>
+  <p class="small muted" id="resetImpact"></p>
+  <p class="small" id="resetStatus" role="status"></p>
   <button class="btn btn-secondary" type="button" id="resetProgress">{{ tr('reset_progress_action') }}</button>
 </section>
 {% endif %}

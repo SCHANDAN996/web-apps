@@ -12,7 +12,7 @@ from fastapi import Depends, FastAPI, HTTPException, Request, Response
 from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
-from pydantic import BaseModel, Field, StrictBool
+from pydantic import BaseModel, ConfigDict, Field, StrictBool, StrictInt, model_validator
 from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
@@ -199,7 +199,25 @@ class RestoreIn(BaseModel):
 
 
 class ResetProgressIn(BaseModel):
+    model_config = ConfigDict(extra='forbid')
     confirm: StrictBool
+    scope: Literal['all', 'subject', 'chapter'] = 'all'
+    subject: str | None = Field(default=None, max_length=80)
+    book: str | None = Field(default=None, max_length=200)
+    chapter: str | None = Field(default=None, max_length=200)
+    whiteboard_question_ids: list[StrictInt] = Field(default_factory=list, max_length=80)
+
+    @model_validator(mode='after')
+    def valid_selection(self):
+        if any(qid < 1 for qid in self.whiteboard_question_ids):
+            raise ValueError('invalid_question_id')
+        if self.scope == 'all' and any((self.subject, self.book, self.chapter)):
+            raise ValueError('unexpected_selection')
+        if self.scope == 'subject' and (not self.subject or self.book or self.chapter):
+            raise ValueError('subject_required')
+        if self.scope == 'chapter' and (self.subject or not self.book or not self.chapter):
+            raise ValueError('chapter_required')
+        return self
 
 
 class ReportIn(BaseModel):
@@ -296,10 +314,20 @@ def api_reset_progress(body: ResetProgressIn, request: Request,
     if not body.confirm:
         raise HTTPException(400, 'confirmation_required')
     limit(request, 'reset_progress', 5, 3600)
+    if body.scope != 'all':
+        from .progress import reset_scoped_progress, scoped_selection
+        selected, urls = scoped_selection(db, body.scope, body.subject, body.book, body.chapter)
+        return reset_scoped_progress(db, device, selected, urls, body.whiteboard_question_ids)
     if device is not None:
         from .progress import reset_progress
         reset_progress(db, device)
     return {'ok': True}
+
+
+@app.get('/api/v1/me/reset-options')
+def api_reset_options(db: Session = Depends(get_db)):
+    from .progress import reset_options
+    return reset_options(db)
 
 
 @app.post('/api/v1/sync/code')
@@ -307,6 +335,43 @@ def api_sync_code(request: Request, device: Device = Depends(ensure_device), db:
     limit(request, 'sync_code', 10, 3600)
     from . import sync
     return {'code': sync.new_code(db, device)}
+
+
+@app.get('/api/v1/backup/export')
+def api_backup_export(request: Request, device: Device | None = Depends(current_device),
+                      db: Session = Depends(get_db)):
+    limit(request, 'backup_export', 20, 3600)
+    from .backup import export_progress
+    return export_progress(db, device)
+
+
+@app.post('/api/v1/backup/restore')
+async def api_backup_restore(request: Request, response: Response,
+                             device: Device | None = Depends(current_device), db: Session = Depends(get_db)):
+    from .backup import MAX_BYTES, RestoreRequest, restore_progress, validate_references
+    from pydantic import ValidationError
+    from starlette.concurrency import run_in_threadpool
+    limit(request, 'backup_restore', 10, 3600)
+    raw = bytearray()
+    async for chunk in request.stream():
+        if len(raw) + len(chunk) > MAX_BYTES:
+            raise HTTPException(413, 'backup_too_large')
+        raw.extend(chunk)
+    try:
+        body = RestoreRequest.model_validate_json(raw)
+    except ValidationError:
+        raise HTTPException(422, 'invalid_backup')
+    def apply_backup():
+        qs, exams = validate_references(db, body.backup)
+        if device is None:
+            limit(request, 'new_device', 30, 3600)
+        return restore_progress(db, device, body.backup, qs, exams)
+
+    owner, result = await run_in_threadpool(apply_backup)
+    set_device_cookie(response, owner.token)
+    response.set_cookie('ss_lang', owner.lang, max_age=2 * 365 * 24 * 3600,
+                        samesite='lax', secure=COOKIE_SECURE)
+    return result
 
 
 @app.post('/api/v1/sync/restore')

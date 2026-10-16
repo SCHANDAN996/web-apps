@@ -53,6 +53,9 @@
 <main id="main" class="wrap">{% block main %}{% endblock %}</main>
 <script id="ss-boot" type="application/json">{{ {'lang': lang, 't': strings, 'ai': ai_enabled}|tojson }}</script>
 <script src="/static/js/app.js?v={{ asset_v }}" defer></script>
+<script src="/static/js/whiteboard.js?v={{ asset_v }}" defer></script>
+<script src="/static/js/backup.js?v={{ asset_v }}" defer></script>
+<script src="/static/js/reset.js?v={{ asset_v }}" defer></script>
 {% block scripts %}{% endblock %}
 </body>
 </html>

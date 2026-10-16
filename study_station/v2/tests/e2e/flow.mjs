@@ -81,10 +81,11 @@ for (const [name, path] of [['revise', '/revise'], ['progress', '/progress'], ['
 
 await step('language switch', async () => {
   await p.goto(B + '/');
+  const before = await p.getAttribute('html', 'lang');
   await p.click('#langBtn');
-  await p.waitForTimeout(600);
+  await p.waitForFunction(before => document.documentElement.lang !== before, before);
   const h = await p.textContent('h1');
-  if (!/Hello|नमस्ते/.test(h)) throw new Error('unexpected heading ' + h);
+  if (!/Hello|Good morning|Good evening|नमस्ते|सुप्रभात|शुभ संध्या/.test(h)) throw new Error('unexpected heading ' + h);
 });
 
 await step('books: chapter, flashcard flip, mind map', async () => {

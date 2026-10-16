@@ -4,7 +4,7 @@ const V = '__ASSET_V__';                 // stamped by the server (hash of the s
 const VERSION = 'ss2-' + V;
 const BOOKS = 'ss2-books-v1';
 const BOOKS_MAX = 80;           // pages kept for offline reading (oldest dropped first)
-const SHELL = ['/static/css/app.css', '/static/js/app.js', '/static/js/theme.js', '/static/js/player.js', '/static/icon.svg']
+const SHELL = ['/static/css/app.css', '/static/js/app.js', '/static/js/theme.js', '/static/js/player.js', '/static/js/whiteboard.js', '/static/js/backup.js', '/static/js/reset.js', '/static/icon.svg']
   .map((u) => u + '?v=' + V).concat(['/offline']);
 
 self.addEventListener('install', (e) => {

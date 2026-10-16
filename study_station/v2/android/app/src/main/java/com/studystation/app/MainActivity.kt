@@ -35,6 +35,7 @@ class MainActivity : Activity() {
     private lateinit var progress: ProgressBar
     private lateinit var offline: View
     private var failed = false
+    private lateinit var backup: BackupBridge
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -64,6 +65,8 @@ class MainActivity : Activity() {
         CookieManager.getInstance().setAcceptCookie(true)
         WebView.setWebContentsDebuggingEnabled(BuildConfig.DEBUG)
         web.webViewClient = Client()
+        backup = BackupBridge(this, web)
+        backup.install()
         web.webChromeClient = object : WebChromeClient() {
             override fun onProgressChanged(view: WebView, newProgress: Int) {
                 progress.progress = newProgress
@@ -106,7 +109,12 @@ class MainActivity : Activity() {
             frame(request, request.isForMainFrame) ?: bundled(request.url)
 
         override fun onPageStarted(view: WebView, url: String?, favicon: Bitmap?) {
+            backup.pageStarted()
             failed = false
+        }
+
+        override fun doUpdateVisitedHistory(view: WebView, url: String?, isReload: Boolean) {
+            backup.navigationChanged(url)
         }
 
         override fun onReceivedError(view: WebView, request: WebResourceRequest, error: WebResourceError) {
@@ -117,6 +125,7 @@ class MainActivity : Activity() {
         }
 
         override fun onPageFinished(view: WebView, url: String?) {
+            backup.pageFinished()
             if (!failed) showOffline(false)
             CookieManager.getInstance().flush()
         }
@@ -194,8 +203,14 @@ class MainActivity : Activity() {
     }
 
     override fun onDestroy() {
+        backup.destroy()
         web.destroy()
         super.onDestroy()
+    }
+
+    @Deprecated("Activity result bridge for native authorization and document picker")
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        if (!backup.activityResult(requestCode, resultCode, data)) super.onActivityResult(requestCode, resultCode, data)
     }
 
     private companion object {

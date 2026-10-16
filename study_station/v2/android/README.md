@@ -52,6 +52,23 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000
 adb install -r android/app/build/outputs/apk/debug/app-debug.apk
 ```
 
+## अपने Drive या फ़ाइल में backup
+
+Settings का local backup Android के document picker से JSON फ़ाइल बनाता/खोलता है। Storage permission नहीं चाहिए।
+Google Drive backup शुरू में बंद रहता है; Cloud Console में Drive API, OAuth consent और Android client
+(इस build का package तथा signing certificate SHA-1) तैयार होने पर `local.properties` में
+`ss.googleDriveEnabled=true` रखकर नया APK बनाएँ। Debug package `com.studystation.app.debug` और release
+package `com.studystation.app` के signing certificates अलग हो सकते हैं; हर वितरण के लिए सही OAuth client बनाएँ।
+
+Drive consent सिर्फ़ Settings में user के backup/restore दबाने पर native Google authorization से खुलता है।
+केवल `drive.appdata` scope माँगा जाता है; app के private Drive folder में एक `study-station-backup-v1.json`
+फ़ाइल रहती है। Token Android में रहता है, web page या Study Station server को नहीं भेजा जाता।
+Backup सीमा 4 MiB है। Restore की पुष्टि और progress validation web app में होती है।
+
+Bridge केवल app origin के main document को दिया जाता है; iframe और दूसरे origins से अनुरोध अस्वीकार होते हैं।
+Screen/document बदलने के बाद पुराना native result छोड़ दिया जाता है। Android System WebView में
+`WEB_MESSAGE_LISTENER` support न होने पर native backup उपलब्ध नहीं होगा; WebView update करें।
+
 ## नियम
 
 - `Links.kt` तय करता है कि कौन-सा link app में खुले — बदलें तो `LinksTest.kt` भी।

@@ -41,6 +41,7 @@ android {
         versionCode = 1
         versionName = "1.0.0"
         buildConfigField("String", "ASSET_V", "\"${assetVersion()}\"")
+        buildConfigField("boolean", "GOOGLE_DRIVE_ENABLED", setting("ss.googleDriveEnabled", "false").toBooleanStrict().toString())
     }
 
     buildTypes {
@@ -71,6 +72,8 @@ android {
 }
 
 dependencies {
+    implementation("androidx.webkit:webkit:1.14.0")
+    implementation("com.google.android.gms:play-services-auth:22.0.0")
     testImplementation("junit:junit:4.13.2")
 }
 

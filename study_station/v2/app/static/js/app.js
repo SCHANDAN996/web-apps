@@ -223,6 +223,7 @@
   });
 
   SS.initPage = function () {
+  if (window.SSBackup) window.SSBackup.init();
   var onboard = document.getElementById('onboard');
   if (onboard) {
     onboard.addEventListener('submit', function (e) {
@@ -388,26 +389,7 @@
   }
 
   paintThemes();
-  var resetProgress = document.getElementById('resetProgress');
-  if (resetProgress) resetProgress.addEventListener('click', function () {
-    var cancel = SS.h('button', { class: 'btn btn-secondary', type: 'button', autofocus: true }, SS.t.cancel);
-    var confirm = SS.h('button', { class: 'btn btn-primary', type: 'button' }, SS.t.reset_progress_action);
-    var dlg = SS.h('dialog', { 'aria-labelledby': 'resetTitle', 'aria-describedby': 'resetWarning' },
-      SS.h('div', { class: 'dlg-body' }, SS.h('h2', { id: 'resetTitle' }, SS.t.reset_progress_confirm),
-        SS.h('p', { id: 'resetWarning' }, SS.t.reset_progress_warning)),
-      SS.h('div', { class: 'dlg-foot' }, cancel, confirm));
-    cancel.addEventListener('click', function () { dlg.close(); });
-    confirm.addEventListener('click', function () {
-      busy(confirm, true); busy(cancel, true);
-      SS.api('POST', '/api/v1/me/reset-progress', { confirm: true }).then(function () {
-        // Reading progress is local to this phone, separate from server-side attempts.
-        try { localStorage.removeItem('ss_read_chapters'); localStorage.removeItem('ss_last_chapter'); } catch (e) {}
-        dlg.close(); SS.go('/', true);
-      }).catch(function (e) { busy(confirm, false); busy(cancel, false); SS.toast(e.message); });
-    });
-    dlg.addEventListener('close', function () { dlg.remove(); resetProgress.focus(); });
-    document.body.appendChild(dlg); dlg.showModal();
-  });
+  if (window.SSReset) window.SSReset.init();
   var jobFilters = document.getElementById('jobFilters');
   if (jobFilters) jobFilters.addEventListener('submit', function (e) {
     e.preventDefault();
