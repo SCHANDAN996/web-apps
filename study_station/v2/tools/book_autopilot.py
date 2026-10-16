@@ -353,7 +353,7 @@ class Pilot:
         out = [f'# 📚 Book Autopilot — लाइव स्थिति{title}', '',
                f'**आख़िरी update:** {now:%d-%m-%Y %I:%M %p} IST · हर {STATUS_MINUTES} मिनट और हर पूरे अध्याय पर अपने-आप '
                f'update होता है · autopilot शुरू: {self.started:%d-%m %I:%M %p}',
-               '', '> NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → '
+               '', '> NVIDIA (GLM-5.3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → '
                'reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।', '',
                '## ⚙️ अभी क्या चल रहा है', '']
         if current and not self.stop_file.exists():
