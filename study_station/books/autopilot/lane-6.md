@@ -1,8 +1,8 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-6)
 
-**आख़िरी update:** 16-10-2026 12:11 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-10 08:07 AM
+**आख़िरी update:** 16-10-2026 12:13 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-10 12:12 PM
 
-> NVIDIA (Kimi-K3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
+> NVIDIA (GLM-5.3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
@@ -30,29 +30,11 @@
 
 - अभी कोई नहीं
 
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 13 Dictionary Order (Reasoning) — 1 बार
-
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-16-10 08:07:21 autopilot start: 3 workers, reverse=True
-16-10 08:07:21 START 10th_Level/Reasoning/Chapter_13_Dictionary_Order (OK: todo 0, problems 0)
-16-10 08:07:27 worker 1: nothing left
-16-10 08:07:32 worker 2: nothing left
-16-10 08:24:46   [Dictionary_Order] set 01: key confirmed
-16-10 08:42:31   [Dictionary_Order] set 02: Q29 key d vs re-solve a, Q31 key b vs re-solve a
-16-10 08:54:52   [Dictionary_Order] FAILED set 02: api_error
-16-10 09:06:27   [Dictionary_Order] set 03: Q58 key d vs re-solve a, Q68 key b vs re-solve ?, Q71 key a vs re-solve b, Q74 key d vs re-solve b
-16-10 09:18:48   [Dictionary_Order] FAILED set 03: api_error
-16-10 10:03:41   [Dictionary_Order] set 04: Q80 key a vs re-solve ?, Q81 key b vs re-solve ?, Q90 key c vs re-solve ?, Q93 key b vs re-solve d, Q100 key b vs re-solve ?
-16-10 10:16:02   [Dictionary_Order] FAILED set 04: api_error
-16-10 10:59:19   [Dictionary_Order] set 05: Q109 key a vs re-solve b, Q113 key a vs re-solve b, Q124 key d vs re-solve a
-16-10 11:11:39   [Dictionary_Order] FAILED set 05: api_error
-16-10 12:09:07   [Dictionary_Order] FAILED set 06: api_error
-16-10 12:09:07   [Dictionary_Order] written 0, failed 5; AI calls today 6/100000
-16-10 12:09:07 AUDIT NOT DONE 10th_Level/Reasoning/Chapter_13_Dictionary_Order: ['FAILED set 02: api_error', 'FAILED set 03: api_error']
-16-10 12:09:07 worker 0: nothing left
-16-10 12:11:44 autopilot end: done 0, failed 1
+16-10 12:12:22 autopilot start: 3 workers, reverse=True
+16-10 12:12:25 worker 0: nothing left
+16-10 12:12:29 worker 1: nothing left
+16-10 12:12:34 worker 2: nothing left
 ```
