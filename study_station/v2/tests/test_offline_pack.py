@@ -60,4 +60,3 @@ def test_pack_uses_finished_book_sections_not_prompts_and_checks_link_ancestors(
     monkeypatch.setattr(offline_pack.Path, 'is_symlink', lambda p: p == chapter or original(p))
     assert not offline_pack._safe_file(chapter / 'Content_hi.txt', root)
     assert offline_pack.export_pack(db, output, root)['counts']['chapters'] == 0
-

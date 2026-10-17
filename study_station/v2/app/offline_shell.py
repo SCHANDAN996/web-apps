@@ -8,10 +8,11 @@ OUT = BASE_DIR / 'android/app/src/main/assets/offline'
 def render(lang):
     from .main import ASSET_V, CSP, templates
     policy = '; '.join(p.strip() for p in CSP.split(';') if not p.strip().startswith('frame-ancestors'))
-    return templates.get_template('offline_study.html').render(
+    html = templates.get_template('offline_study.html').render(
         lang=lang, tr=lambda k: t(k, lang), L=lambda hi, en: hi if lang == 'hi' else en,
         device=None, site_url='', path='/offline-study', strings=client_strings(lang),
         ai_enabled=False, asset_v=ASSET_V, csp=policy)
+    return '\n'.join(line.rstrip() for line in html.splitlines()) + '\n'
 
 
 def main(check=False):

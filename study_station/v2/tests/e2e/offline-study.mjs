@@ -20,7 +20,7 @@ try {
   return route.fulfill({body:fs.readFileSync(file),contentType:types[path.extname(file)]||'application/octet-stream'});
  });
  const go=async hash=>{await p.goto('https://study-station.test/offline-study#'+hash);};
- await go('home');await p.locator('.home-image-card').first().waitFor();assert.equal(await p.locator('.home-image-card').count(),8);if(process.env.QA_SCREENSHOT_DIR)for(const theme of ['light','dark','paper']){await p.evaluate(x=>SSTheme.set(x),theme);await p.screenshot({path:path.join(process.env.QA_SCREENSHOT_DIR,'offline-home-hi-'+theme+'.png'),fullPage:true});}
+ await go('home');await p.locator('.home-image-card').first().waitFor();assert.equal(await p.locator('.home-image-card').count(),8);if(process.env.QA_SCREENSHOT_DIR)for(const theme of ['light','dark','paper']){await p.evaluate(x=>SSTheme.set(x),theme);await p.waitForTimeout(350);await p.screenshot({path:path.join(process.env.QA_SCREENSHOT_DIR,'offline-home-hi-'+theme+'.png'),fullPage:true});}
  await go('books');await p.locator('.offline-list a').first().click();await p.locator('.offline-list a').first().click();await p.locator('.offline-reader').waitFor();assert.ok((await p.locator('.offline-reader').innerText()).length>100);
  await p.getByRole('button',{name:'पढ़ लिया चिह्नित करें'}).click();
  await go('practice/1');await p.getByRole('button',{name:'शुरू करें',exact:true}).click();await p.locator('.offline-options button').first().click();await p.locator('.rough-toggle').click();assert.ok(await p.locator('canvas').isVisible());
@@ -42,4 +42,3 @@ try {
  for(const width of [360,412])for(const theme of ['light','dark','paper']){await p.setViewportSize({width,height:800});await p.evaluate(x=>SSTheme.set(x),theme);assert.equal(await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);}
  assert.deepEqual(errors,[]);assert.deepEqual(network,[]);console.log('PASS: offline reader, exact question access, practice/rough work/resume, 80-question mock/negative marking/timer state, reset/restore, EN and themes; zero server requests.');
 } finally {await browser.close();}
-
