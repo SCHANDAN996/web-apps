@@ -39,8 +39,10 @@ separate local QA learner's answered question and rough work were exported throu
 the native Drive bridge; the callback reported backup success. The USB connection
 went offline before native restore could be verified. General builds keep Drive
 disabled until the full phone restore check passes. The temporary phone installation
-is the local QA build; when reconnected, restore the normal production-URL APK
-after completing testing. Production progress was not reset.
+was the local QA build. The normal production-URL APK was subsequently reinstalled
+successfully on 17 October; QA forwarding and the local server were stopped.
+Native restore remains pending; foreground app access is needed for that check.
+Production progress was not reset.
 
 The owner selected a clean SS monogram. Website/PWA icon, topbar mark, Android
 adaptive foreground and generated shells now share this vector artwork. Small-size
