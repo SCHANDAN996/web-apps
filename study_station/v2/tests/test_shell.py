@@ -22,3 +22,15 @@ def test_frame_has_structure_but_no_content_and_no_learner_data():
 def test_served_pages_are_not_the_frame(client):
     r = client.get('/')
     assert 'id="shellWait"' not in r.text and 'class="nav-progress"' in r.text
+
+
+@pytest.mark.parametrize('lang', shell.LANGS)
+def test_local_study_entry_is_current_and_does_not_start_network_app(lang):
+    from app import offline_shell
+    html = offline_shell.render(lang)
+    assert (offline_shell.OUT / f'{lang}.html').read_text(encoding='utf-8') == html
+    assert '/static/js/offline-study.js?v=' in html
+    assert '/static/js/app.js?v=' not in html
+    assert '/static/js/backup.js?v=' not in html
+    assert 'id="offlineStudy"' in html
+    assert 'Content-Security-Policy' in html

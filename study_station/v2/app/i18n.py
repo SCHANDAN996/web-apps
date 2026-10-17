@@ -452,6 +452,122 @@ STRINGS.update({
 })
 
 
+# APK-local study interface.
+STRINGS.update({'offline_ready': ('पढ़ाई शुरू करें', 'Ready to study'),
+ 'offline_local_notice': ('किताबें और सवाल इस ऐप में हैं। पढ़ाई का data इसी मोबाइल में सेव होता है।',
+                          'Books and questions are in this app. Study progress is saved on this phone.'),
+ 'offline_books': ('किताबें', 'Books'),
+ 'offline_books_hint': ('पढ़ें और वहीं से आगे बढ़ें', 'Read and continue where you stopped'),
+ 'offline_practice': ('अभ्यास', 'Practice'),
+ 'offline_practice_hint': ('10, 20 या 50 सवाल चुनें', 'Choose 10, 20 or 50 questions'),
+ 'offline_questions': ('सभी सवाल', 'All questions'),
+ 'offline_questions_hint': ('विषय के अनुसार सवाल खोजें', 'Find questions by topic'),
+ 'offline_revision': ('दोहराएँ', 'Revision'),
+ 'offline_revision_hint': ('गलत हुए सवाल फिर हल करें', 'Try incorrect answers again'),
+ 'offline_mock': ('मॉक टेस्ट', 'Mock tests'),
+ 'offline_mock_hint': ('समयबद्ध परीक्षा अभ्यास', 'Timed exam practice'),
+ 'offline_progress': ('मेरी प्रगति', 'My progress'),
+ 'offline_progress_hint': ('पढ़ाई और नतीजे देखें', 'See study history and results'),
+ 'offline_jobs_online': ('नौकरियाँ · ऑनलाइन', 'Jobs · online'),
+ 'offline_ca_online': ('करंट अफेयर्स · ऑनलाइन', 'Current affairs · online'),
+ 'offline_content_version': ('Content संस्करण', 'Content version'),
+ 'offline_resume': ('अधूरा अभ्यास जारी रखें', 'Resume unfinished session'),
+ 'offline_continue_reading': ('पढ़ना जारी रखें', 'Continue reading'),
+ 'offline_back': ('वापस', 'Back'),
+ 'offline_settings': ('सेटिंग्स', 'Settings'),
+ 'offline_sections': ('अध्याय के भाग', 'Chapter sections'),
+ 'offline_no_content': ('इस विकल्प में content अभी नहीं है।', 'No content available for this selection.'),
+ 'offline_language_fallback': ('यह भाग चुनी भाषा में नहीं है; उपलब्ध मूल भाषा में दिखाया गया है।',
+                               'This section is shown in its available original language.'),
+ 'offline_read_done': ('पढ़ लिया ✓', 'Read ✓'),
+ 'offline_mark_read': ('पढ़ लिया चिह्नित करें', 'Mark as read'),
+ 'offline_subject': ('विषय', 'Subject'),
+ 'offline_topic': ('विषयांश', 'Topic'),
+ 'offline_choose_subject': ('विषय चुनें', 'Choose subject'),
+ 'offline_choose_topic': ('विषयांश चुनें', 'Choose topic'),
+ 'offline_difficulty': ('कठिनाई', 'Difficulty'),
+ 'offline_all_difficulties': ('सभी स्तर', 'All difficulties'),
+ 'offline_search': ('सवाल या क्रमांक खोजें', 'Search question or number'),
+ 'offline_verified': ('समीक्षित', 'Reviewed'),
+ 'offline_ai_generated': ('AI से बना · समीक्षा बाकी', 'AI generated · review pending'),
+ 'offline_review_pending': ('समीक्षा बाकी', 'Review pending'),
+ 'offline_correct': ('सही', 'Correct'),
+ 'offline_incorrect': ('गलत', 'Incorrect'),
+ 'offline_no_solution': ('इस सवाल का हल अभी उपलब्ध नहीं है।',
+                         'No explanation is available for this question yet.'),
+ 'offline_previous': ('पिछला', 'Previous'),
+ 'offline_next': ('अगला', 'Next'),
+ 'offline_loading': ('खुल रहा है…', 'Loading…'),
+ 'offline_session_size': ('सवालों की संख्या', 'Number of questions'),
+ 'offline_start': ('शुरू करें', 'Start'),
+ 'offline_replace_session': ('एक अधूरा अभ्यास है। उसे छोड़कर नया अभ्यास शुरू करें?',
+                             'An unfinished session exists. Replace it with a new session?'),
+ 'offline_time_left': ('समय बाकी', 'Time remaining'),
+ 'offline_finish': ('जमा करें', 'Finish'),
+ 'offline_finish_confirm': ('इस अभ्यास को जमा करें?', 'Finish this session?'),
+ 'offline_result': ('नतीजा', 'Result'),
+ 'offline_your_answer': ('आपका जवाब', 'Your answer'),
+ 'offline_correct_answer': ('सही जवाब', 'Correct answer'),
+ 'offline_unanswered': ('छोड़ा हुआ', 'Unanswered'),
+ 'offline_revision_count': ('दोहराने के लिए सवाल:', 'Questions to revisit:'),
+ 'offline_mock_note': ('टेस्ट APK के content और दिए गए परीक्षा pattern से बनता है। यह आधिकारिक प्रश्नपत्र '
+                       'नहीं है।',
+                       'Tests use the bundled content and exam pattern. These are not official exam papers.'),
+ 'offline_minutes': ('मिनट', 'minutes'),
+ 'offline_read_chapters': ('पढ़े अध्याय', 'Chapters read'),
+ 'offline_answered': ('हल किए सवाल', 'Questions answered'),
+ 'offline_sessions': ('पूरे अभ्यास', 'Finished sessions'),
+ 'offline_reset_scope': ('क्या reset करें', 'Reset scope'),
+ 'offline_reset_all': ('पूरा स्थानीय progress', 'All local progress'),
+ 'offline_reset': ('Progress reset करें', 'Reset progress'),
+ 'offline_reset_confirm': ('चुने हुए भाग का स्थानीय progress मिटेगा। अध्याय का reset उससे जुड़े विषयांश के '
+                           'जवाब भी हटाता है। मिश्रित मॉक बचे रहेंगे। आगे बढ़ें?',
+                           'Selected local progress will be deleted. Chapter reset also clears answers for '
+                           'its linked topic. Mixed mocks are preserved. Continue?'),
+ 'offline_reset_note': ('अध्याय, विषय या पूरा progress चुनें। Server का पुराना progress और backup files नहीं '
+                        'मिटेंगे।',
+                        'Choose a chapter, subject or all progress. Existing server progress and backup '
+                        'files are retained.'),
+ 'offline_reset_done': ('चुना हुआ स्थानीय progress reset हो गया।', 'Selected local progress was reset.'),
+ 'offline_restore_confirm': ('इस backup से स्थानीय progress बदल जाएगा। पहले अपनी backup file रख लें। Restore '
+                             'करें?',
+                             'This backup will replace local progress. Keep a backup of your current data '
+                             'first. Restore?'),
+ 'offline_restored': ('Backup restore हो गया।', 'Backup restored.'),
+ 'offline_backup': ('स्थानीय backup', 'Local backup'),
+ 'offline_backup_note': ('अपनी progress और rough work की file सेव करें। App हटाने से स्थानीय data मिट सकता '
+                         'है।',
+                         'Save a file of your progress and rough work. Uninstalling can remove local data.'),
+ 'offline_export': ('Backup file सेव करें', 'Save backup file'),
+ 'offline_import': ('Backup file खोलें', 'Open backup file'),
+ 'offline_invalid_backup': ('Backup सही नहीं है या आकार की सीमा से बड़ा है।',
+                            'Backup is invalid or exceeds the size limit.'),
+ 'offline_server_progress': ('पुराना server progress सुरक्षित है। ऑफलाइन progress अलग रहता है।',
+                             'Existing server progress is retained. Offline progress is stored separately.'),
+ 'offline_view_server_progress': ('पुराना progress देखें · ऑनलाइन', 'View previous progress · online'),
+ 'offline_load_error': ('Content नहीं खुल पाया। फिर से यह पेज खोलें।',
+                        'Content could not be opened. Please reopen this page.'),
+ 'offline_storage_full': ('Progress सेव नहीं हो सका। फोन में जगह जाँचें और backup रखें।',
+                          'Progress could not be saved. Check device storage and keep a backup.'),
+ 'offline_saved': ('Backup सेव हो गया।', 'Backup saved.'),
+ 'offline_backup_failed': ('Backup पूरा नहीं हो सका।', 'Backup could not be completed.'),
+ 'offline_section_content': ('पाठ', 'Lesson'),
+ 'offline_section_key-facts': ('मुख्य तथ्य', 'Key facts'),
+ 'offline_section_feynman': ('आसान समझ', 'Simple explanation'),
+ 'offline_section_mind-map': ('माइंड मैप', 'Mind map'),
+ 'offline_section_flashcards': ('फ्लैशकार्ड', 'Flashcards'),
+ 'offline_section_pyq': ('पिछले प्रश्न', 'Previous questions'),
+ 'offline_section_memory-hooks': ('याद रखने के तरीके', 'Memory hooks'),
+ 'offline_section_short-tricks': ('छोटे तरीके', 'Short tricks'),
+ 'offline_section_mcq': ('अभ्यास प्रश्न', 'Practice questions')})
+
+
+STRINGS.update({'offline_import_server': ('पुराना progress इस मोबाइल में लाएँ · ऑनलाइन', 'Import previous progress · online'), 'offline_import_server_confirm': ('पुराने server progress की एक प्रति इस मोबाइल में आएगी। Server पर कुछ नहीं मिटेगा। आगे बढ़ें?', 'Copy previous server progress to this phone? Nothing will be deleted from the server.'), 'offline_import_server_done': ('पुराना progress मोबाइल में आ गया।', 'Previous progress imported.'), 'offline_import_server_failed': ('पुराना progress नहीं आ सका। इंटरनेट जाँचें और फिर कोशिश करें।', 'Previous progress could not be imported. Check your connection and try again.'), 'offline_section_important-formulas': ('ज़रूरी सूत्र', 'Important formulas'), 'offline_section_important-rules': ('ज़रूरी नियम', 'Important rules')})
+
+
+STRINGS.update({'offline_home_title': ('आपकी पढ़ाई', 'Your study space'), 'offline_offline_badge': ('ऑफलाइन तैयार', 'Ready offline'), 'offline_hero_title': ('आज कुछ नया सीखें', 'Learn something new today'), 'offline_hero_hint': ('एक अध्याय पढ़ें, फिर सवालों से अपनी समझ परखें।', 'Read a chapter, then test your understanding.'), 'offline_open_book': ('किताब खोलें', 'Open a book'), 'offline_study_tools': ('पढ़ाई और अभ्यास', 'Study and practice'), 'offline_explore': ('और सुविधाएँ', 'Explore more'), 'offline_online_updates': ('ताज़ा जानकारी के लिए इंटरनेट चाहिए', 'Connect for the latest updates'), 'offline_search_books': ('किताब खोजें', 'Find a book'), 'offline_chapters': ('अध्याय', 'chapters'), 'offline_all_levels': ('सभी', 'All'), 'offline_level_10th': ('10वीं', '10th'), 'offline_level_12th': ('12वीं', '12th'), 'offline_level_graduate': ('स्नातक', 'Graduate')})
+
+
 def t(key, lang):
     pair = STRINGS.get(key)
     if pair is None:
@@ -481,7 +597,7 @@ def client_strings(lang):
             'st_unanswered', 'st_marked', 'st_marked_answered', 'st_notvisited', 'submit_note',
             'revise_next', 'revise_next_1', 'revise_none', 'go_practice', 'offline_now', 'online_again', 'report_note',
             'retry', 'reset_progress_confirm', 'reset_progress_warning', 'reset_progress_action']
-    keys += [k for k in STRINGS if k.startswith(('rough_', 'backup_', 'reset_', 'cache_', 'bank_'))]
+    keys += [k for k in STRINGS if k.startswith(('rough_', 'backup_', 'reset_', 'cache_', 'bank_', 'offline_'))]
     out = {k: t(k, lang) for k in keys}
     out['errors'] = {k: (v[0] if lang == 'hi' else v[1]) for k, v in ERRORS.items()}
     return out

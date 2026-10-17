@@ -109,3 +109,27 @@ no JavaScript errors. Updated Linux suite passed 216 tests; local shell/UI tests
 passed 6/6. APK build and Android unit tests passed. The updated APK was installed
 and the eight cards, 18px headings and image rendering checked on the real phone.
 These Home changes are deployed; no learner progress was reset.
+
+## APK-local study — 17 October
+
+Public-only export contains 70,419 usable questions, 12 books and296 readable
+chapters across88 topics. The content host's private database was not copied.
+The APK's actual first snapshot size is approximately30.6MB. Content hashes in
+the packaged assets were checked against the generated manifest. The source
+pack is generated/ignored by Git; regenerate from the trusted content host.
+
+Android1.1.0 selects its local study entry when the pack is present. Study uses
+IndexedDB for progress/resumable sessions; no routine study API request is made.
+Timed mock scoring includes section marks and negative marking. Local rough
+work, chapter/subject/all reset, native document backup/restore and optional
+explicit import of previous server progress are available. Server progress is
+retained. Jobs/current affairs remain online. Drive remains disabled pending
+the previously outstanding physical restore acceptance.
+
+UI adds a continue-study hero, eight compact illustrated glass cards, book search
+and qualification filters, section navigation and a local question palette.
+Bilingual/theme browser checks passed, including offline books, practice/resume,
+rough work, exact question access,80-question mock scoring and reset/restore with
+zero server requests. Physical phone testing/install is pending: no ADB device
+was present during final offline-build QA. See android/OFFLINE_STUDY.md for
+the distinction between local plain-text sections and rich website interactions.

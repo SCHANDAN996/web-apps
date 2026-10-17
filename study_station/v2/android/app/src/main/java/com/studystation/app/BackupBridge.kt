@@ -197,8 +197,12 @@ class BackupBridge(private val activity: Activity, private val web: WebView) {
     private fun validate(json: String): JSONObject {
         require(BackupPolicy.allowedSize(json.toByteArray(Charsets.UTF_8).size))
         val value = JSONObject(json)
-        require(value.getString("format") == "study-station-backup" && value.getInt("version") == 1)
-        value.getJSONObject("progress"); value.getJSONObject("local")
+        require(value.getInt("version") == 1)
+        when (value.getString("format")) {
+            "study-station-backup" -> { value.getJSONObject("progress"); value.getJSONObject("local") }
+            "study-station-offline-backup" -> { value.getJSONObject("progress"); value.getJSONObject("whiteboards") }
+            else -> error("invalid_backup")
+        }
         return value
     }
 

@@ -8,3 +8,5 @@ venv/
 logs/
 tests/e2e/shots/
 node_modules/
+# Generated public content snapshot; rebuilt from the content host for APKs.
+android/app/src/main/assets/study/

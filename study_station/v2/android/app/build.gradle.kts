@@ -38,8 +38,8 @@ android {
         applicationId = "com.studystation.app"
         minSdk = 26
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 2
+        versionName = "1.1.0"
         buildConfigField("String", "ASSET_V", "\"${assetVersion()}\"")
         buildConfigField("boolean", "GOOGLE_DRIVE_ENABLED", setting("ss.googleDriveEnabled", "false").toBooleanStrict().toString())
     }
@@ -81,6 +81,18 @@ tasks.matching { it.name == "preReleaseBuild" }.configureEach {
     doFirst {
         check(releaseUrl.startsWith("https://")) {
             "Set ss.releaseUrl=https://<your server> in local.properties (release builds are HTTPS only)."
+        }
+    }
+}
+
+tasks.matching { it.name == "preBuild" }.configureEach {
+    doFirst {
+        if (setting("ss.requireStudyPack", "true").toBooleanStrict()) {
+            check(file("src/main/assets/study/manifest.json").isFile &&
+                file("src/main/assets/offline/hi.html").isFile &&
+                file("src/main/assets/offline/en.html").isFile) {
+                "Generate the public study pack and run python -m app.shell before building. Use -Pss.requireStudyPack=false only for the legacy online wrapper."
+            }
         }
     }
 }

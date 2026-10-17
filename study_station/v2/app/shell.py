@@ -9,6 +9,8 @@ Regenerate after changing templates/base.html, templates/shell.html, any file in
 strings the frame uses — tests/test_shell.py fails until you do.
 """
 import sys
+import os
+import tempfile
 
 from .config import BASE_DIR
 from .i18n import client_strings, t
@@ -37,12 +39,20 @@ def main(argv=None):
                 stale.append(path.name)
         else:
             path.parent.mkdir(parents=True, exist_ok=True)
-            path.write_text(html, encoding='utf-8', newline='\n')
+            fd, temporary = tempfile.mkstemp(dir=path.parent, suffix='.tmp')
+            try:
+                with os.fdopen(fd, 'w', encoding='utf-8', newline='\n') as output:
+                    output.write(html)
+                os.replace(temporary, path)
+            finally:
+                if os.path.exists(temporary):
+                    os.unlink(temporary)
             print(f'wrote {path.relative_to(BASE_DIR)}')
     if stale:
         print('out of date: ' + ', '.join(stale) + ' — run: python -m app.shell')
         return 1
-    return 0
+    from .offline_shell import main as offline_shell
+    return offline_shell(check=check)
 
 
 if __name__ == '__main__':

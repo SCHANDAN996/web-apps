@@ -1,5 +1,13 @@
 # 📱 Study Station — Android app
 
+## वर्तमान APK: 1.1.0, पढ़ाई मोबाइल पर
+
+किताबें और सवाल अब APK के public content pack में हैं। पढ़ना, अभ्यास, मॉक और
+progress स्थानीय रूप से चलते हैं; Jobs और current affairs के लिए server खुलता है।
+Build, content export, backup और सीमाएँ: [OFFLINE_STUDY.md](OFFLINE_STUDY.md)।
+नए UI में पढ़ना जारी रखने का मुख्य card, 2×2 shortcuts, searchable book library
+और कक्षा filters हैं। नीचे का विवरण पुराने online wrapper की compatibility के लिए है।
+
 App का **ढाँचा APK में** है और **content server पर**। कोई public website या अपना domain ख़रीदना ज़रूरी नहीं।
 
 | कहाँ | क्या |

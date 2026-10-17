@@ -27,8 +27,8 @@ import android.window.OnBackInvokedDispatcher
 import java.io.IOException
 
 /**
- * The whole app: one WebView on the Study Station v2 server. The learner's progress lives on the server
- * (device cookie, kept by CookieManager); CSS/JS/icon are read from the APK; other sites open outside.
+ * One trusted-origin WebView: the public study pack and UI ship in the APK; live services use the
+ * Study Station server. Other sites open outside. The offline study UI owns its local progress.
  */
 class MainActivity : Activity() {
     private lateinit var web: WebView
@@ -36,6 +36,14 @@ class MainActivity : Activity() {
     private lateinit var offline: View
     private var failed = false
     private lateinit var backup: BackupBridge
+    private val hasStudyPack by lazy {
+        try {
+            assets.open("study/manifest.json").use { }
+            assets.open("offline/hi.html").use { }
+            true
+        } catch (_: IOException) { false }
+    }
+    private val home: String get() = if (hasStudyPack) BuildConfig.BASE_URL + "/offline-study" else HOME
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -44,12 +52,12 @@ class MainActivity : Activity() {
         progress = findViewById(R.id.progress)
         offline = findViewById(R.id.offline)
         padForSystemBars(findViewById(R.id.root))
-        findViewById<Button>(R.id.retry).setOnClickListener { web.loadUrl(web.url ?: HOME) }
+        findViewById<Button>(R.id.retry).setOnClickListener { web.loadUrl(web.url ?: home) }
         if (Build.VERSION.SDK_INT >= 33) {
             onBackInvokedDispatcher.registerOnBackInvokedCallback(OnBackInvokedDispatcher.PRIORITY_DEFAULT) { goBack() }
         }
         setUpWebView()
-        if (savedInstanceState == null || web.restoreState(savedInstanceState) == null) web.loadUrl(HOME)
+        if (savedInstanceState == null || web.restoreState(savedInstanceState) == null) web.loadUrl(home)
     }
 
     @SuppressLint("SetJavaScriptEnabled")
@@ -76,7 +84,7 @@ class MainActivity : Activity() {
         web.setDownloadListener { url, _, _, _, _ -> openOutside(Uri.parse(url)) }
         ServiceWorkerController.getInstance().setServiceWorkerClient(object : ServiceWorkerClient() {
             override fun shouldInterceptRequest(request: WebResourceRequest) =
-                frame(request, false) ?: bundled(request.url)
+                offlineStudy(request) ?: frame(request, false) ?: bundled(request.url)
         })
     }
 
@@ -106,7 +114,7 @@ class MainActivity : Activity() {
         }
 
         override fun shouldInterceptRequest(view: WebView, request: WebResourceRequest) =
-            frame(request, request.isForMainFrame) ?: bundled(request.url)
+            offlineStudy(request) ?: frame(request, request.isForMainFrame) ?: bundled(request.url)
 
         override fun onPageStarted(view: WebView, url: String?, favicon: Bitmap?) {
             backup.pageStarted()
@@ -136,7 +144,21 @@ class MainActivity : Activity() {
         }
     }
 
-    /** Our own CSS/JS/icon from the APK when the page asks for the version this APK was built with. */
+    /** Public study content stays on the trusted origin without making a server request. */
+    private fun offlineStudy(request: WebResourceRequest): WebResourceResponse? {
+        val language = Links.cookie(CookieManager.getInstance().getCookie(BuildConfig.BASE_URL), "ss_lang") ?: "hi"
+        val name = OfflineStudy.asset(request.method, request.url.toString(), BuildConfig.BASE_URL, language) ?: return null
+        return try {
+            WebResourceResponse(OfflineStudy.mime(name), "utf-8", 200, "OK",
+                mapOf("Cache-Control" to "no-store", "X-Content-Type-Options" to "nosniff"), assets.open(name))
+        } catch (_: IOException) {
+            // A missing pack file must not silently fetch different content from the server.
+            WebResourceResponse("text/plain", "utf-8", 404, "Not Found",
+                mapOf("Cache-Control" to "no-store"), "Study content unavailable".byteInputStream())
+        }
+    }
+
+    /** Our CSS/JS/icon only when the page asks for this APK's exact asset version. */
     private fun bundled(uri: Uri): WebResourceResponse? {
         val name = Links.bundledAsset(uri.toString(), BuildConfig.BASE_URL, BuildConfig.ASSET_V) ?: return null
         return try {
