@@ -568,6 +568,9 @@ STRINGS.update({'offline_import_server': ('पुराना progress इस �
 STRINGS.update({'offline_home_title': ('आपकी पढ़ाई', 'Your study space'), 'offline_offline_badge': ('ऑफलाइन तैयार', 'Ready offline'), 'offline_hero_title': ('आज कुछ नया सीखें', 'Learn something new today'), 'offline_hero_hint': ('एक अध्याय पढ़ें, फिर सवालों से अपनी समझ परखें।', 'Read a chapter, then test your understanding.'), 'offline_open_book': ('किताब खोलें', 'Open a book'), 'offline_study_tools': ('पढ़ाई और अभ्यास', 'Study and practice'), 'offline_explore': ('और सुविधाएँ', 'Explore more'), 'offline_online_updates': ('ताज़ा जानकारी के लिए इंटरनेट चाहिए', 'Connect for the latest updates'), 'offline_search_books': ('किताब खोजें', 'Find a book'), 'offline_chapters': ('अध्याय', 'chapters'), 'offline_all_levels': ('सभी', 'All'), 'offline_level_10th': ('10वीं', '10th'), 'offline_level_12th': ('12वीं', '12th'), 'offline_level_graduate': ('स्नातक', 'Graduate')})
 
 
+STRINGS.update({'offline_open_chapter': ('अध्याय खोलें', 'Open chapter'), 'offline_text_size': ('अक्षर का आकार', 'Text size')})
+
+
 def t(key, lang):
     pair = STRINGS.get(key)
     if pair is None:

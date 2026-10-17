@@ -123,7 +123,7 @@
   function chapters(slug) {
     var book = books.find(function (b) { return b.slug === slug; }); if (!book) throw Error('book');
     heading(name(book),'books'); root.appendChild(h('div',{class:'offline-list'},book.chapters.map(function (c) {
-      var id = book.slug+'/'+c.slug; return link((state.reading.indexOf(id)>=0?'✓ ':'')+c.number+'. '+name(c),'chapter/'+id,'offline-card');
+      var id = book.slug+'/'+c.slug; var done=state.reading.indexOf(id)>=0;return h('a',{href:'#chapter/'+id,class:'offline-card offline-chapter-link'},h('span',{class:'offline-chapter-number','aria-hidden':'true'},String(c.number).padStart(2,'0')),h('span',{class:'offline-chapter-copy'},h('strong',{},name(c)),h('span',{class:'muted'},done?t('read_done'):t('open_chapter'))),SS.icon(done?'check':'chev'));
     })));
   }
   function chapter(bookSlug, chapterSlug, section) {
@@ -141,7 +141,11 @@
       var texts = chosen.content || {}, text = texts[SS.lang] || texts['*'] || texts.hi || texts.en || '';
       if (!texts[SS.lang]) notice(t('language_fallback'));
       var reader = h('article',{class:'offline-reader',lang:texts[SS.lang] ? SS.lang : 'und'});
-      text.split(/\r?\n\s*\r?\n/).forEach(function (p) { reader.appendChild(h('p',{},p)); }); root.appendChild(reader);
+      var toolbar=h('div',{class:'offline-reader-tools',role:'group','aria-label':t('text_size')}),size=Number(localStorage.getItem('ss_offline_reader_size')||17);if(size<15||size>24)size=17;
+      function applySize(){reader.style.fontSize=size+'px';try{localStorage.setItem('ss_offline_reader_size',String(size));}catch(ignored){}}
+      toolbar.append(h('span',{class:'muted'},t('text_size')),button('A−',function(){size=Math.max(15,size-1);applySize();},'btn-ghost'),button('A+',function(){size=Math.min(24,size+1);applySize();},'btn-ghost'));root.appendChild(toolbar);applySize();
+      function inline(node,value){value.split(/(\*\*[^*]+\*\*)/g).forEach(function(part){node.appendChild(part.startsWith('**')&&part.endsWith('**')?h('strong',{},part.slice(2,-2)):document.createTextNode(part));});}
+      var code=false,pre=null;text.split(/\r?\n/).forEach(function(line){if(/^```/.test(line)){code=!code;if(code){pre=h('pre',{});reader.appendChild(pre);}return;}if(code){pre.appendChild(document.createTextNode(line+'\n'));return;}if(!line.trim())return;var title=/^#{1,4}\s+(.+)/.exec(line),bullet=/^[-*•]\s+(.+)/.exec(line),node=h(title?'h2':'p',bullet?{class:'offline-reader-bullet'}:{});inline(node,title?title[1]:bullet?'• '+bullet[1]:line);reader.appendChild(node);});root.appendChild(reader);
       var id = bookSlug+'/'+chapterSlug; state.last = id; save();
       root.appendChild(button(state.reading.indexOf(id)>=0?t('read_done'):t('mark_read'),function () {
         if (state.reading.indexOf(id)<0) state.reading.push(id); save(); route();
@@ -174,7 +178,7 @@
     box.appendChild(h('p',{class:'xs muted'},'#'+q.id+' · '+(q.review_status === 'verified' ? t('verified') : q.source_type === 'ai_generated' ? t('ai_generated') : t('review_pending'))));
     box.appendChild(h('h2',{class:'offline-question'},questionText(q)));
     if (!q['text_'+SS.lang]) box.appendChild(h('p',{class:'xs muted'},t('language_fallback')));
-    var choices = h('div',{class:'offline-options'}), feedback = h('div',{'aria-live':'polite'});
+    var choices = h('div',{class:'offline-options'}), feedback = h('div',{class:'offline-feedback','aria-live':'polite'});
     opts.forEach(function (text,index) {
       var choice = button(String.fromCharCode(65+index)+'. '+text,function () {
         if (picked != null && reveal) return; picked = index;
@@ -185,7 +189,7 @@
           feedback.appendChild(h('p',{class:'offline-question'},q['solution_'+SS.lang] || q.solution_hi || q.solution_en || t('no_solution')));
         }
         if (onAnswer) onAnswer(index);
-      },'btn-secondary offline-option'); choice.setAttribute('aria-pressed','false'); choices.appendChild(choice);
+      },'btn-secondary offline-option');choice.replaceChildren(h('span',{class:'offline-option-letter','aria-hidden':'true'},String.fromCharCode(65+index)),h('span',{},text));choice.setAttribute('aria-label',String.fromCharCode(65+index)+'. '+text); choice.setAttribute('aria-pressed','false'); choices.appendChild(choice);
     });
     box.appendChild(choices); box.appendChild(feedback);
     if (window.SSWhiteboard) box.appendChild(window.SSWhiteboard.create(q.id));
