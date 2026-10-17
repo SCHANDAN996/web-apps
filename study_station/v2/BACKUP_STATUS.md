@@ -76,3 +76,21 @@ attempts, library filters/pagination/language, prefetch and offline cache lifecy
 Cache clearing preserved the learner export, reading history, rough work and theme.
 360px mobile layouts and the selected logo were visually reviewed. Generated shell
 check passed. No production deployment or additional APK installation was performed.
+
+## Approved live deployment and phone verification — 17 October
+
+The owner subsequently authorized production deployment and phone testing. A
+consistent SQLite backup and previous-code archive were saved before deployment.
+Additive schema preparation ran once with the service stopped. Production nginx
+now accepts the supported 2 MiB backup size; its configuration check passed.
+The full Linux server suite passed: 216 tests. Production health is healthy and
+service startup logs show no errors. No content sweep or learner reset was run.
+
+The updated production-URL APK was installed on the connected phone. Home,
+practice, question library/detail, jobs, books and settings opened without layout
+overflow or JavaScript errors. The selected 3D SS header logo loaded correctly.
+At the owner's further request the header language control now shows EN / HI;
+the final APK was rebuilt, installed and visually checked on the phone. Header
+shell tests passed locally and on the server (4/4); Android unit tests/build passed.
+Temporary device debugging forwarding was removed. Drive restore remains pending
+and the general build continues to keep Drive disabled.
