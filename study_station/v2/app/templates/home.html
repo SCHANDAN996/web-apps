@@ -30,34 +30,43 @@
     <button class="btn btn-primary btn-sm" type="button" id="installBtn">{{ tr('install_btn') }}</button>
   </div>
 
-  <section class="card plan enter" aria-labelledby="plan-h">
-    <h2 id="plan-h">{{ tr('plan_title') }}</h2>
-    <p class="xs muted plan-intro">{{ tr('plan_order') }}</p>
-    <ol class="list study-sequence">
-      {% if has_books %}
-      <li><a class="list-item" href="/books" id="planRead">
-        <span class="plan-dot"><svg class="icon icon-sm"><use href="#i-book"/></svg></span>
-        <span class="grow"><b data-continue-label="{{ tr('plan_continue') }}">{{ tr('plan_read') }}</b><span class="xs muted block">{{ tr('plan_read_sub') }}</span></span>
-        <svg class="icon chev"><use href="#i-chev"/></svg></a></li>
-      {% endif %}
-      {% if today_topic %}
-      <li><button class="list-item" type="button" data-practice="{{ today_topic }}">
-        <span class="plan-dot{% if done >= 10 %} is-done{% endif %}"><svg class="icon icon-sm"><use href="#i-{{ 'check' if done >= 10 else 'target' }}"/></svg></span>
-        <span class="grow"><b>{{ tr('plan_practice') }}</b><span class="xs muted block">{{ tr('plan_practice_sub').format(n=[done, 10]|min) }}</span></span>
-        <svg class="icon chev"><use href="#i-chev"/></svg></button></li>
-      {% endif %}
-      <li><a class="list-item" href="/revise">
-        <span class="plan-dot{% if not stats.due_reviews %} is-done{% endif %}"><svg class="icon icon-sm"><use href="#i-{{ 'check' if not stats.due_reviews else 'repeat' }}"/></svg></span>
-        <span class="grow"><b>{% if stats.due_reviews %}{{ tr('plan_revise').format(n=stats.due_reviews) }}{% else %}{{ tr('plan_revise_none') }}{% endif %}</b>
-          <span class="xs muted block">{{ tr('revise_short') }}</span></span>
-        <svg class="icon chev"><use href="#i-chev"/></svg></a></li>
-      {% if ca_recent %}
-      <li><a class="list-item" href="/current-affairs">
-        <span class="plan-dot"><svg class="icon icon-sm"><use href="#i-news"/></svg></span>
-        <span class="grow"><b>{{ tr('ca_today') }}</b><span class="xs muted block">{{ tr('plan_ca_sub') }}</span></span>
-        <svg class="icon chev"><use href="#i-chev"/></svg></a></li>
-      {% endif %}
-    </ol>
+  <section class="home-learning enter" aria-labelledby="plan-h">
+    <h2 id="plan-h">{{ tr('home_learning_title') }}</h2>
+    <p class="xs muted">{{ tr('plan_order') }}</p>
+    <div class="home-card-grid">
+      <a class="home-image-card home-read" href="/books" id="planRead">
+        <img src="/static/illustrations/read.svg?v={{ asset_v }}" width="96" height="72" alt="" decoding="async">
+        <b data-continue-label="{{ tr('plan_continue') }}">{{ tr('plan_read') }}</b>
+        <span class="xs muted">{{ tr('plan_read_sub') }}</span>
+      </a>
+      {% if today_topic %}<button class="home-image-card" type="button" data-practice="{{ today_topic }}">{% else %}<a class="home-image-card" href="/practice">{% endif %}
+        <img src="/static/illustrations/practice.svg?v={{ asset_v }}" width="96" height="72" alt="" decoding="async">
+        <b>{{ tr('nav_practice') }}</b>
+        <span class="xs muted">{{ tr('plan_practice_sub').format(n=[done, 10]|min) }}</span>
+      {% if today_topic %}</button>{% else %}</a>{% endif %}
+      <a class="home-image-card" href="/revise">
+        <img src="/static/illustrations/revise.svg?v={{ asset_v }}" width="96" height="72" alt="" decoding="async">
+        <b>{{ tr('nav_revise') }}</b>
+        <span class="xs muted">{% if stats.due_reviews %}{{ tr('plan_revise').format(n=stats.due_reviews) }}{% else %}{{ tr('plan_revise_none') }}{% endif %}</span>
+      </a>
+      <a class="home-image-card" href="/current-affairs">
+        <img src="/static/illustrations/news.svg?v={{ asset_v }}" width="96" height="72" alt="" decoding="async">
+        <b>{{ tr('ca_today') }}</b>
+        <span class="xs muted">{{ tr('plan_ca_sub') }}</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="enter" aria-labelledby="home-explore-h">
+    <h2 id="home-explore-h">{{ tr('home_explore_title') }}</h2>
+    <div class="home-card-grid home-explore-grid">
+      {% for target, image, title, description in [('/mock', 'mock', 'home_mock_title', 'home_mock_desc'), ('/questions?lang=' ~ lang, 'questions', 'home_bank_title', 'home_bank_desc'), ('/jobs', 'jobs', 'nav_jobs', 'home_jobs_desc'), ('/progress', 'progress', 'progress', 'home_progress_desc')] %}
+      <a class="home-image-card" href="{{ target }}">
+        <img src="/static/illustrations/{{ image }}.svg?v={{ asset_v }}" width="96" height="72" alt="" loading="lazy" decoding="async">
+        <b>{{ tr(title) }}</b><span class="xs muted">{{ tr(description) }}</span>
+      </a>
+      {% endfor %}
+    </div>
   </section>
 
   <section class="enter">
@@ -106,6 +115,5 @@
   </section>
   {% endif %}
 
-  <a class="btn btn-secondary btn-block" href="/progress"><svg class="icon"><use href="#i-chart"/></svg>{{ tr('progress') }}</a>
 </div>
 {% endblock %}

@@ -36,7 +36,7 @@ def test_job_filters_preserve_category_and_hide_other_results(client, db):
     assert parse_qs(urlsplit(reset['href']).query) == {'status': ['active'], 'qualification': ['all']}
 
 
-def test_shared_theme_controls_and_numbered_home_plan(client, monkeypatch):
+def test_shared_theme_controls_and_reading_first_home_cards(client, monkeypatch):
     from app import main
     monkeypatch.setattr(main, 'has_books', lambda: True)
     client.post('/api/v1/me', json={'level': '10th'})
@@ -45,10 +45,14 @@ def test_shared_theme_controls_and_numbered_home_plan(client, monkeypatch):
     assert [b['data-theme-set'] for b in choices] == ['light', 'dark', 'paper']
     assert all(b.name == 'button' and b['aria-pressed'] == 'false' for b in choices)
     assert home.select_one('#themePicker summary')['aria-label']
-    steps = home.select('ol.study-sequence > li')
-    assert steps[0].select_one('a')['href'] == '/books'
-    assert steps[1].select_one('button')['data-practice']
-    assert steps[2].select_one('a')['href'] == '/revise'
+    steps = home.select('.home-learning .home-image-card')
+    assert len(steps) == 4
+    assert steps[0]['href'] == '/books'
+    assert steps[0]['id'] == 'planRead'
+    assert steps[1]['data-practice']
+    assert steps[2]['href'] == '/revise'
+    assert steps[3]['href'] == '/current-affairs'
+    assert all(card.select_one('img')['alt'] == '' for card in steps)
     settings = BeautifulSoup(client.get('/settings').text, 'html.parser')
     assert settings.select_one('[data-theme-set=system]')
     assert len(settings.select('[data-theme-set=paper]')) == 2

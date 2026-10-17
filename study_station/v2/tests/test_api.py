@@ -171,9 +171,9 @@ def test_pages_render(client, db):
 def test_home_today_button_and_result_defaults_to_wrong(client, db):
     onboard(client)
     home = client.get('/').text
-    assert ('आज का प्लान' in home or "Today's plan" in home) and 'data-practice=' in home
+    assert ('आज की पढ़ाई' in home or "Today's study" in home) and 'data-practice=' in home
     assert 'class="ring"' in home and home.count('class="day') == 7                # goal ring + 7-day strip
-    assert 'href="/current-affairs"' not in home                 # no CA items in the last 14 days
+    assert 'href="/current-affairs"' in home  # entry stays available even without recent items
     a = client.post('/api/v1/practice', json={'topic_id': topic_id(db, 'analogy'), 'count': 2}).json()
     q0, q1 = a['questions']
     key = db.get(Question, q0['id']).answer_index
