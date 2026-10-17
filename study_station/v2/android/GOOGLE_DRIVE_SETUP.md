@@ -15,9 +15,12 @@ Registered debug client:
 - Clients: https://console.cloud.google.com/auth/clients?project=study-station-511803
 
 Console Data Access is saved with **only** `drive.appdata` in non-sensitive scopes;
-sensitive and restricted scopes are empty. Audience remains External / Testing,
-with zero test users at setup time. Add the intended phone test account before
-physical consent testing. Do not publish or add unrelated accounts automatically.
+sensitive and restricted scopes are empty. Audience remains External / Testing.
+On 17 October 2026 the owner-provided test account was added (one test user).
+Physical Android authorization and a native Drive upload succeeded with disposable
+local QA progress and rough work. Fresh-learner native restore remains unverified:
+the USB device became offline during that step. No production learner data was reset.
+Do not publish or add unrelated accounts automatically.
 
 ## Configure the project
 

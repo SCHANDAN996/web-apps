@@ -1,31 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- The book + tick from static/icon.svg, scaled into the adaptive icon's safe zone. -->
-<vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="108dp"
-    android:height="108dp"
-    android:viewportWidth="512"
-    android:viewportHeight="512">
-    <group
-        android:pivotX="256"
-        android:pivotY="264"
-        android:scaleX="0.8"
-        android:scaleY="0.8"
-        android:translateY="-8">
-        <path
-            android:pathData="M144 148a20 20 0 0 1 20-20h204v232H164a20 20 0 0 0-20 20z"
-            android:strokeColor="#FFFFFF"
-            android:strokeLineJoin="round"
-            android:strokeWidth="28" />
-        <path
-            android:pathData="M144 380a20 20 0 0 0 20 20h204"
-            android:strokeColor="#FFFFFF"
-            android:strokeLineCap="round"
-            android:strokeWidth="28" />
-        <path
-            android:pathData="m200 238 36 36 72-80"
-            android:strokeColor="#FBBF24"
-            android:strokeLineCap="round"
-            android:strokeLineJoin="round"
-            android:strokeWidth="30" />
+<!-- SS monogram, sharing the website paths inside the adaptive safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="108dp" android:height="108dp" android:viewportWidth="512" android:viewportHeight="512">
+    <group android:pivotX="256" android:pivotY="256" android:scaleX="0.8" android:scaleY="0.8">
+        <path android:pathData="M224 164C208 148 188 140 168 140C132 140 108 160 108 190C108 218 128 232 168 242C208 252 228 268 228 298C228 332 202 354 166 354C140 354 118 344 100 326" android:fillColor="@android:color/transparent" android:strokeColor="#FFFFFF" android:strokeWidth="32" android:strokeLineCap="round" android:strokeLineJoin="round"/>
+        <path android:pathData="M404 164C388 148 368 140 348 140C312 140 288 160 288 190C288 218 308 232 348 242C388 252 408 268 408 298C408 332 382 354 346 354C320 354 298 344 280 326" android:fillColor="@android:color/transparent" android:strokeColor="#FFFFFF" android:strokeWidth="32" android:strokeLineCap="round" android:strokeLineJoin="round"/>
     </group>
 </vector>

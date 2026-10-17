@@ -31,3 +31,18 @@ was connected. Native file-picker and Google consent tests require a connected
 device. Study history continues to live on the current server; backups do not
 replace the existing progress storage system. Rough work stays local unless the
 learner exports or backs it up.
+
+## 17 October update
+
+One owner-provided Google test account was added. On the connected phone a
+separate local QA learner's answered question and rough work were exported through
+the native Drive bridge; the callback reported backup success. The USB connection
+went offline before native restore could be verified. General builds keep Drive
+disabled until the full phone restore check passes. The temporary phone installation
+is the local QA build; when reconnected, restore the normal production-URL APK
+after completing testing. Production progress was not reset.
+
+The owner selected a clean SS monogram. Website/PWA icon, topbar mark, Android
+adaptive foreground and generated shells now share this vector artwork. Small-size
+visual inspection passed; shell tests 4/4 and Android unit tests 9/9 passed, APK build
+succeeded. Logo changes are local and have not been deployed.
