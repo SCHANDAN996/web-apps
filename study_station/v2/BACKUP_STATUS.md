@@ -94,3 +94,18 @@ the final APK was rebuilt, installed and visually checked on the phone. Header
 shell tests passed locally and on the server (4/4); Android unit tests/build passed.
 Temporary device debugging forwarding was removed. Drive restore remains pending
 and the general build continues to keep Drive disabled.
+
+## Illustrated Home cards — 17 October
+
+Home now has two stable 2-by-2 groups: reading/practice/revision/current affairs,
+then mocks/question library/jobs/progress. Eight local lightweight SVG illustrations
+add roughly 4 KiB. Cards use 18px headings, 14px descriptions, theme-derived glass
+gradients and static depth shadows, with short transform motion and a reduced-motion
+alternative. Placement rationale is in `design/HOME_IMAGE_PLAN.md`.
+
+Both languages, three themes and 360/412px layouts were checked in the browser;
+all images loaded and no overflow occurred. Main browser flows passed 12/12 with
+no JavaScript errors. Updated Linux suite passed 216 tests; local shell/UI tests
+passed 6/6. APK build and Android unit tests passed. The updated APK was installed
+and the eight cards, 18px headings and image rendering checked on the real phone.
+These Home changes are deployed; no learner progress was reset.
