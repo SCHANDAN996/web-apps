@@ -14,6 +14,10 @@
   <link rel="apple-touch-icon" href="/static/icon-192.png?v={{ asset_v }}">
   <script src="/static/js/theme.js?v={{ asset_v }}"></script>
   <link rel="stylesheet" href="/static/css/app.css?v={{ asset_v }}">
+  <link rel="stylesheet" href="/static/css/dialogs.css?v={{ asset_v }}">
+  <link rel="stylesheet" href="/static/css/jobs-ui.css?v={{ asset_v }}">
+  <link rel="stylesheet" href="/static/css/mock-cards.css?v={{ asset_v }}">
+  <link rel="stylesheet" href="/static/css/question-actions.css?v={{ asset_v }}">
   {% block head %}{% endblock %}
 </head>
 <body class="{% block body_class %}{% endblock %}">
@@ -53,6 +57,8 @@
 {% endblock %}
 <main id="main" class="wrap">{% block main %}{% endblock %}</main>
 <script id="ss-boot" type="application/json">{{ {'lang': lang, 't': strings, 'ai': ai_enabled}|tojson }}</script>
+<script src="/static/js/dialogs.js?v={{ asset_v }}" defer></script>
+<script src="/static/js/question-actions.js?v={{ asset_v }}" defer></script>
 {% block app_scripts %}<script src="/static/js/app.js?v={{ asset_v }}" defer></script>
 <script src="/static/js/whiteboard.js?v={{ asset_v }}" defer></script>
 <script src="/static/js/backup.js?v={{ asset_v }}" defer></script>

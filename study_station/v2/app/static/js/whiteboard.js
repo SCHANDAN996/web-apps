@@ -96,7 +96,7 @@
         toolbar.appendChild(h('button', { class: 'btn btn-secondary btn-sm', type: 'button', 'data-rough-tool': v, 'aria-pressed': String(v === tool), onclick: function () { tool = v; updateTools(); } }, t['rough_' + v]));
       });
       toolbar.appendChild(h('button', { class: 'btn btn-ghost btn-sm', type: 'button', onclick: function () { board.strokes.pop(); persist(); redraw(); } }, t.rough_undo));
-      toolbar.appendChild(h('button', { class: 'btn btn-ghost btn-sm', type: 'button', onclick: function () { if (board.strokes.length && window.confirm(t.rough_clear_confirm)) { board.strokes = []; persist(); redraw(); } } }, t.rough_clear));
+      toolbar.appendChild(h('button', { class: 'btn btn-ghost btn-sm', type: 'button', onclick: async function () { if (!board.strokes.length) return; var accepted=window.SSDialog?await SSDialog.confirm({title:t.rough_clear,message:t.rough_clear_confirm,confirmLabel:t.rough_clear,danger:true}):window.confirm(t.rough_clear_confirm); if(accepted){board.strokes = []; persist(); redraw();} } }, t.rough_clear));
       var palette = h('div', { class: 'rough-colors', role: 'group', 'aria-label': t.rough_colors });
       Object.keys(colors).forEach(function (v) {
         palette.appendChild(h('button', { class: 'rough-color rough-color-' + v, type: 'button', 'aria-label': t['rough_' + v], 'aria-pressed': String(v === color), onclick: function () {

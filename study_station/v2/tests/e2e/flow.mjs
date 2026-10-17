@@ -55,7 +55,7 @@ await step('practice 10 questions', async () => {
 
 await step('mock test with palette and submit', async () => {
   await p.goto(B + '/mock');
-  await p.click('.card-link >> nth=0');
+  await p.click('.mock-exam-start >> nth=0');
   await p.click('[data-mock]');
   await p.waitForURL(/\/attempt\/\d+/);
   await p.waitForSelector('.option');

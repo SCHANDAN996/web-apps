@@ -96,3 +96,46 @@
 
 #offlineStudy > .home-card-grid:not(.offline-secondary-grid) .home-image-card img { height:48px; width:64px; }
 .offline-home-stats { margin-top:var(--sp-4); padding:var(--sp-3); background:var(--surface-2); border-radius:var(--r-lg); border:0; }
+
+.offline-stack { min-width:0; }
+.offline-stack select { width:100%; min-width:0; min-height:var(--tap); border:1px solid var(--border); border-radius:var(--r-md); padding:var(--sp-3); background:var(--surface-2); color:var(--text); font:inherit; }
+/* Results keep score, answer comparisons and explanations in separate reading groups. */
+.offline-result-summary { display:grid; gap:var(--sp-4); background:linear-gradient(135deg,var(--brand-soft),var(--surface)); }
+.offline-result-summary h2 { margin:0; font-size:var(--fs-lg); }
+.offline-result-eyebrow { margin:0; color:var(--brand); font-size:var(--fs-sm); font-weight:600; }
+.offline-result-score-row { display:flex; justify-content:space-between; align-items:center; gap:var(--sp-3); }
+.offline-result-score-row .offline-score { margin:var(--sp-1) 0 0; font-size:1.75rem; line-height:1.4; }
+.offline-result-accuracy { display:grid; gap:var(--sp-1); text-align:end; font-size:var(--fs-sm); color:var(--text-2); }
+.offline-result-accuracy strong { color:var(--brand); font-size:var(--fs-xl); font-weight:600; }
+.offline-result-metrics { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:var(--sp-3); padding-top:var(--sp-4); margin:0; border-top:1px solid var(--border); }
+.offline-result-metrics div { min-width:0; display:flex; justify-content:space-between; align-items:center; gap:var(--sp-2); }
+.offline-result-metrics dt { color:var(--text-2); font-size:var(--fs-sm); }
+.offline-result-metrics dd { margin:0; font-size:var(--fs-lg); font-weight:600; }
+.offline-review-hint { margin:0; line-height:1.75; }
+.offline-result-list { gap:var(--sp-4); }
+.offline-review-card { display:grid; gap:var(--sp-4); }
+.offline-review-header { display:flex; align-items:center; justify-content:space-between; gap:var(--sp-3); }
+.offline-review-number,.offline-session-position { color:var(--brand); font-size:var(--fs-sm); font-weight:600; }
+.offline-answer-status { display:inline-flex; align-items:center; gap:var(--sp-1); border-radius:var(--r-pill); padding:var(--sp-1) var(--sp-3); background:var(--surface-2); color:var(--text-2); font-size:var(--fs-sm); font-weight:600; }
+.offline-answer-status[data-status=correct] { background:var(--ok-soft); color:var(--ok); }
+.offline-answer-status[data-status=incorrect] { background:var(--bad-soft); color:var(--bad); }
+.offline-review-card > .offline-question { margin:0; font-size:1.125rem; font-weight:600; line-height:1.8; }
+.offline-answer-pair { display:grid; gap:var(--sp-3); margin:0; }
+.offline-answer-pair > div { display:grid; gap:var(--sp-1); padding:var(--sp-3); border:1px solid var(--border); border-radius:var(--r-md); background:var(--surface-2); }
+.offline-answer-pair dt { color:var(--text-2); font-size:var(--fs-sm); font-weight:500; }
+.offline-answer-pair dd { margin:0; font-size:var(--fs-md); line-height:1.8; overflow-wrap:anywhere; white-space:pre-wrap; }
+.offline-answer-pair [data-answer=correct] { border-color:var(--ok); background:var(--ok-soft); }
+.offline-solution { border-top:1px solid var(--border); padding-top:var(--sp-4); }
+.offline-solution h3 { margin:0 0 var(--sp-2); font-size:var(--fs-md); color:var(--brand); font-weight:600; }
+.offline-solution p { margin:0 0 var(--sp-3); font-size:var(--fs-md); font-weight:400; line-height:1.85; }
+.offline-solution p:last-child { margin-bottom:0; }
+.offline-answer-feedback { display:grid; gap:var(--sp-4); }
+.offline-feedback .offline-answer-feedback p { margin-top:0; }
+.offline-session-position { padding:var(--sp-2) 0; }
+@media(min-width:600px) { .offline-result-metrics { grid-template-columns:repeat(4,minmax(0,1fr)); } .offline-result-metrics div { display:grid; } }
+.offline-saved-card { display:grid; gap:var(--sp-3); }
+.offline-saved-question { color:var(--text); text-decoration:none; font-size:1.125rem; font-weight:600; line-height:1.8; overflow-wrap:anywhere; min-height:var(--tap); }
+.offline-saved-question:hover { color:var(--brand); }
+.offline-solution :is(ul,ol) { margin:0 0 var(--sp-3); padding-inline-start:var(--sp-5); line-height:1.85; overflow-wrap:anywhere; }
+.offline-solution li + li { margin-top:var(--sp-2); }
+.offline-solution h4 { margin:var(--sp-3) 0 var(--sp-2); font-size:var(--fs-md); font-weight:600; }

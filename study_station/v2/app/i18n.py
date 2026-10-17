@@ -571,6 +571,37 @@ STRINGS.update({'offline_home_title': ('आपकी पढ़ाई', 'Your stu
 STRINGS.update({'offline_open_chapter': ('अध्याय खोलें', 'Open chapter'), 'offline_text_size': ('अक्षर का आकार', 'Text size')})
 
 
+STRINGS.update({'dialog_cancel': ('अभी नहीं', 'Not now'),
+ 'dialog_confirm': ('आगे बढ़ें', 'Continue'),
+ 'offline_replace_title': ('नया अभ्यास शुरू करें?', 'Start a new session?'),
+ 'offline_replace_action': ('नया शुरू करें', 'Start new'),
+ 'offline_finish_title': ('टेस्ट जमा करें?', 'Submit this test?'),
+ 'offline_finish_action': ('जमा करें', 'Submit'),
+ 'offline_reset_title': ('चुना हुआ progress मिटाएँ?', 'Reset selected progress?'),
+ 'offline_reset_action': ('Reset करें', 'Reset'),
+ 'offline_restore_title': ('Backup वापस लाएँ?', 'Restore your backup?'),
+ 'offline_restore_action': ('Restore करें', 'Restore'),
+ 'offline_import_title': ('पुरानी पढ़ाई मोबाइल में लाएँ', 'Bring previous study to this phone'),
+ 'offline_import_action': ('कॉपी करें', 'Copy progress'),
+ 'jobs_portal_kicker': ('करियर अपडेट', 'Career updates'),
+ 'jobs_filter_title': ('अपनी योग्यता के अनुसार खोजें', 'Find your next opportunity'),
+ 'jobs_details': ('पूरी जानकारी देखें', 'View details'),
+ 'jobs_overview': ('भर्ती की जानकारी', 'Recruitment overview'),
+ 'jobs_links_title': ('आधिकारिक लिंक', 'Official links'),
+ 'jobs_source_pending': ('स्रोत की पुष्टि बाकी', 'Source verification pending'),
+ 'jobs_organisation': ('संस्था', 'Organisation'),
+ 'offline_mock_choose': ('परीक्षा चुनें', 'Choose your exam'),
+ 'offline_mock_choose_hint': ('पैटर्न देखें, फिर समयबद्ध मॉक शुरू करें।',
+                              'Review the pattern, then begin a timed mock.'),
+ 'offline_mock_sections': ('सेक्शन और अंक', 'Sections and marking'),
+ 'offline_mock_marks': ('अंक', 'Marks'),
+ 'offline_mock_negative': ('गलत उत्तर पर कटौती', 'Deduction per wrong answer'),
+ 'offline_mock_no_negative': ('कोई कटौती नहीं', 'No deduction'),
+ 'offline_mock_start': ('मॉक शुरू करें', 'Start mock'),
+ 'offline_mock_pattern': ('अभ्यास पैटर्न', 'Practice pattern'),
+ 'offline_mock_each': ('प्रति सवाल', 'per question')})
+
+
 def t(key, lang):
     pair = STRINGS.get(key)
     if pair is None:
@@ -590,6 +621,39 @@ ERRORS = {
 }
 
 
+STRINGS.update({
+    'offline_result_summary': ('परिणाम सारांश', 'Result summary'),
+    'offline_result_expired': ('इस परिणाम की विस्तृत समीक्षा इस सत्र तक उपलब्ध थी। अंक प्रगति में सुरक्षित हैं।', 'This detailed review was available for the current session. Your score is saved in Progress.'),
+    'offline_saved_questions': ('पसंदीदा सवाल', 'Saved questions'),
+    'offline_saved_empty': ('अभी कोई सवाल पसंदीदा में नहीं है। किसी सवाल पर ☆ दबाकर उसे यहाँ रखें।', 'No saved questions yet. Tap ☆ on a question to keep it here.'),
+    'offline_saved_unavailable': ('पसंदीदा सवाल इस सामग्री पैक में उपलब्ध नहीं हैं।', 'Your saved questions are unavailable in this content pack.'),
+    'offline_saved_reset_note': ('प्रगति रीसेट करने पर पसंदीदा सवाल सुरक्षित रहेंगे।', 'Saved questions stay when progress is reset.'),
+    'share_question_title': ('शेयर किया गया सवाल', 'Shared question'),
+    'share_question_description': ('सवाल हल करके देखें। उत्तर और समाधान Study Station ऐप में देखें।', 'Try this question. See the answer and solution in the Study Station app.'),
+    'share_question_code': ('सवाल का कोड', 'Question code'),
+    'share_answer_in_app': ('उत्तर और समाधान ऐप में', 'Answer and solution in the app'),
+    'share_install_note': ('Study Station ऐप में ऊपर दिया विषय और टॉपिक चुनकर सवाल के कोड से खोजें।', 'In Study Station, choose the subject and topic shown above, then search by the question code.'),
+    'share_reopen_note': ('ऐप पहले से है तो सवालों की सूची में इस कोड से खोजें। सीधे ऐप खोलने वाला लिंक अगले चरण में जुड़ेगा।', 'If you already have the app, search for this code in the question library. Direct app opening will be added in the next stage.'),
+    'offline_result_review': ('उत्तर की समीक्षा', 'Answer review'),
+    'offline_result_score': ('प्राप्त अंक', 'Score'),
+    'offline_result_accuracy': ('सटीकता', 'Accuracy'),
+    'offline_result_total': ('कुल सवाल', 'Total questions'),
+    'offline_question_number': ('सवाल', 'Question'),
+    'offline_solution_title': ('समाधान', 'Solution'),
+    'offline_result_hint': ('नीचे हर सवाल में अपना उत्तर और सही उत्तर मिलाएँ।', 'Compare your answer with the correct answer for each question below.'),
+    'question_save': ('सेव करें', 'Save'),
+    'question_saved': ('सेव किया', 'Saved'),
+    'question_share': ('शेयर करें', 'Share'),
+    'question_saved_notice': ('सवाल सेव हो गया।', 'Question saved.'),
+    'question_removed_notice': ('सवाल सेव की गई सूची से हट गया।', 'Question removed from saved questions.'),
+    'question_share_copied': ('सवाल का लिंक कॉपी हो गया।', 'Question link copied.'),
+    'question_share_failed': ('शेयर नहीं हो पाया। फिर कोशिश करें।', 'Could not share. Please try again.'),
+    'question_storage_failed': ('सवाल सेव नहीं हो पाया।', 'Could not save the question.'),
+    'question_share_prompt': ('यह सवाल हल करके देखें', 'Try this question'),
+    'question_install_answer': ('उत्तर और समाधान Study Station ऐप में देखें।', 'See the answer and solution in the Study Station app.'),
+})
+
+
 def client_strings(lang):
     """Subset sent to the browser for the JS player."""
     keys = ['check', 'next', 'prev', 'finish', 'submit', 'save_next', 'mark_review', 'clear', 'correct',
@@ -600,7 +664,7 @@ def client_strings(lang):
             'st_unanswered', 'st_marked', 'st_marked_answered', 'st_notvisited', 'submit_note',
             'revise_next', 'revise_next_1', 'revise_none', 'go_practice', 'offline_now', 'online_again', 'report_note',
             'retry', 'reset_progress_confirm', 'reset_progress_warning', 'reset_progress_action']
-    keys += [k for k in STRINGS if k.startswith(('rough_', 'backup_', 'reset_', 'cache_', 'bank_', 'offline_'))]
+    keys += [k for k in STRINGS if k.startswith(('rough_', 'backup_', 'reset_', 'cache_', 'bank_', 'offline_', 'dialog_', 'question_'))]
     out = {k: t(k, lang) for k in keys}
     out['errors'] = {k: (v[0] if lang == 'hi' else v[1]) for k, v in ERRORS.items()}
     return out

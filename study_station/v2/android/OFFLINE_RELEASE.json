@@ -1,8 +1,8 @@
 {
   "version": "1.1.0",
   "date": "2026-10-17",
-  "apk_bytes": 30563833,
-  "apk_sha256": "0b850a50c4a92deb165c093928360707157a450d13cd161956c26a5de3e19997",
+  "apk_bytes": 30578819,
+  "apk_sha256": "23bd73ec2fa46747b787b0f30629aaa753409e51d1ce3fd39539f0edc8dcf021",
   "content_hash": "9ac5d84557d04c5df173825d85f295662d47bd14c98eff51b3cc306f4b12ffbc",
   "counts": {
     "books": 12,
@@ -11,7 +11,8 @@
     "subjects": 5,
     "topics": 88
   },
-  "device_acceptance": "installed; home/books/reader/practice screen passed; network-disabled home/library passed; previous progress copied without reset",
-  "python_linux_tests": 221,
-  "android_unit_tests": 12
+  "device_acceptance": "Installed structured review/Favorites UI; question actions, Saved screen and eight mock cards passed on phone; existing 4 histories and 87 answers preserved. Result scoring/review/backup exercised in isolated browser test, no phone answers submitted.",
+  "android_unit_tests": 12,
+  "question_sharing": "Answer-free public /q/{id} deployed and checked; Android clipboard fallback available; native Sharesheet and verified App Links pending.",
+  "verification": "Offline E2E passed; shell 6 passed; Linux targeted 21 passed; full Windows run 220 passed, two privilege failures plus one shell race subsequently passed; web12flows pass but Chrome ViewTransition warning remains."
 }

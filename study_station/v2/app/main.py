@@ -835,3 +835,5 @@ async def not_found(request: Request, exc):
 
 from .question_bank import install_routes as install_question_bank  # noqa: E402
 install_question_bank(app, render, get_db, lang_from_request)
+from .shared_questions import install_routes as install_shared_questions  # noqa: E402
+install_shared_questions(app, render, get_db, lang_from_request)
