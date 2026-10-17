@@ -8,7 +8,7 @@ STRINGS = {
     'nav_mock': ('मॉक टेस्ट', 'Mock'),
     'nav_revise': ('दोहराएँ', 'Revise'),
     'nav_jobs': ('नौकरियाँ', 'Jobs'),
-    'lang_switch': ('English', 'हिंदी'),
+    'lang_switch': ('EN', 'HI'),
     'settings': ('सेटिंग्स', 'Settings'),
     'onb_title': ('चलिए शुरू करते हैं', "Let's get started"),
     'onb_lang': ('पढ़ाई की भाषा', 'Study language'),
