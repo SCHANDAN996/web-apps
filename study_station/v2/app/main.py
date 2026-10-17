@@ -14,7 +14,7 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from pydantic import BaseModel, ConfigDict, Field, StrictBool, StrictInt, model_validator
 from sqlalchemy import func, select
-from sqlalchemy.orm import Session
+from sqlalchemy.orm import Session, joinedload, selectinload
 
 from . import services
 from .catalog import LEVEL_RANK, LEVELS, PATTERN_CHECKED
@@ -22,7 +22,7 @@ from . import config
 from .config import COOKIE_SECURE, DEVICE_COOKIE, SITE_URL
 from .db import Base, engine, ensure_schema, get_db
 from .i18n import client_strings, t
-from .models import Attempt, Device, Exam, Job, Question, QuestionReport, ReviewCard, Subject, Topic
+from .models import Attempt, Device, Exam, ExamSection, Job, Question, QuestionReport, ReviewCard, Subject, Topic
 
 APP_DIR = Path(__file__).resolve().parent
 
@@ -170,13 +170,17 @@ class MeIn(BaseModel):
 
 class PracticeIn(BaseModel):
     topic_id: int
-    count: int = Field(default=10, ge=1, le=25)
+    count: int = Field(default=10, ge=1, le=50)
     difficulty: Literal['easy', 'medium', 'hard'] | None = None
     since_days: int | None = Field(default=None, ge=1, le=90)
 
 
 class MockIn(BaseModel):
     exam: str = Field(max_length=40)
+
+
+class SpecificPracticeIn(BaseModel):
+    model_config = ConfigDict(extra='forbid')
 
 
 class AnswerIn(BaseModel):
@@ -247,17 +251,17 @@ def _service_error(e):
 # ---------------------------------------------------------------- API
 @app.get('/api/v1/catalog')
 def api_catalog(db: Session = Depends(get_db)):
-    counts = dict(db.execute(select(Question.topic_id, func.count()).where(services.USABLE)
-                             .group_by(Question.topic_id)).all())
+    counts = services.recent_topic_counts(db)
     subjects = [{'slug': s.slug, 'name': {'hi': s.name_hi, 'en': s.name_en},
                  'topics': [{'id': tp.id, 'slug': tp.slug, 'name': {'hi': tp.name_hi, 'en': tp.name_en},
                              'questions': counts.get(tp.id, 0)} for tp in s.topics]}
-                for s in db.scalars(select(Subject).order_by(Subject.id))]
+                for s in db.scalars(select(Subject).order_by(Subject.id).options(selectinload(Subject.topics)))]
     exams = [{'slug': e.slug, 'body': e.body, 'name': {'hi': e.name_hi, 'en': e.name_en}, 'stage': e.stage_en,
               'level': e.level, 'duration_min': e.duration_min,
               'sections': [{'subject': s.subject.slug, 'questions': s.questions, 'marks': s.marks_per_q,
                             'negative': round(s.negative_per_q, 4)} for s in e.sections]}
-             for e in db.scalars(select(Exam).order_by(Exam.id))]
+             for e in db.scalars(select(Exam).order_by(Exam.id).options(
+                 selectinload(Exam.sections).joinedload(ExamSection.subject)))]
     return {'subjects': subjects, 'exams': exams, 'pattern_checked': PATTERN_CHECKED}
 
 
@@ -394,6 +398,17 @@ def api_practice(body: PracticeIn, request: Request, device: Device = Depends(en
     limit(request, 'start', 60, 3600)
     try:
         a = services.start_practice(db, device, body.topic_id, body.count, body.difficulty, body.since_days)
+    except Exception as e:
+        _service_error(e)
+    return services.attempt_payload(db, a)
+
+
+@app.post('/api/v1/questions/{question_id}/practice')
+def api_specific_practice(question_id: int, body: SpecificPracticeIn, request: Request,
+                          device: Device = Depends(ensure_device), db: Session = Depends(get_db)):
+    limit(request, 'start', 60, 3600)
+    try:
+        a = services.start_specific_practice(db, device, question_id)
     except Exception as e:
         _service_error(e)
     return services.attempt_payload(db, a)
@@ -549,8 +564,11 @@ def page_home(request: Request, device: Device | None = Depends(current_device),
     exams = list(db.scalars(select(Exam).where(Exam.slug.in_(device.target_exams or [])))) or \
         list(db.scalars(select(Exam).where(Exam.level == device.level)))
     jobs = list(db.scalars(services.jobs_query(device.level, None, 'active').limit(3)))
-    quick = db.execute(select(Topic, func.count(Question.id)).join(Question).where(services.USABLE)
-                       .group_by(Topic.id).order_by(func.count(Question.id).desc()).limit(6)).all()
+    counts = services.recent_topic_counts(db)
+    quick_ids = sorted(counts, key=lambda tid: (-counts[tid], tid))[:6]
+    topics = {tp.id: tp for tp in db.scalars(select(Topic).where(Topic.id.in_(quick_ids))
+                                           .options(joinedload(Topic.subject)))}
+    quick = [(topics[tid], counts[tid]) for tid in quick_ids if tid in topics]
     # Today's 10: weakest topic first, else the topic with the most questions.
     today_topic = stats['weak_topics'][0]['id'] if stats['weak_topics'] else (quick[0][0].id if quick else None)
     hour = (datetime.utcnow() + services.IST).hour
@@ -561,7 +579,7 @@ def page_home(request: Request, device: Device | None = Depends(current_device),
 
 def has_books():
     from . import books
-    return bool(books.readable_books())
+    return books.cached_availability() is not False
 
 
 def has_recent_ca(db):
@@ -578,12 +596,12 @@ def page_settings(request: Request, device: Device | None = Depends(current_devi
 
 @app.get('/practice', response_class=HTMLResponse)
 def page_practice(request: Request, device: Device | None = Depends(current_device), db: Session = Depends(get_db)):
-    counts = dict(db.execute(select(Question.topic_id, func.count()).where(services.USABLE)
-                             .group_by(Question.topic_id)).all())
+    counts = services.recent_topic_counts(db)
     mastery = {}
     if device:
         mastery = {t['id']: t for t in services.device_stats(db, device)['topics']}
-    subjects = [s for s in db.scalars(select(Subject).order_by(Subject.id)) if any(counts.get(tp.id) for tp in s.topics)]
+    subjects = [s for s in db.scalars(select(Subject).order_by(Subject.id).options(selectinload(Subject.topics)))
+                if any(counts.get(tp.id) for tp in s.topics)]
     return render('practice.html', request, device, subjects=subjects, counts=counts, mastery=mastery,
                   ca_recent=has_recent_ca(db), has_books=has_books())
 
@@ -604,7 +622,8 @@ def page_topic(subject: str, topic: str, request: Request, device: Device | None
 
 @app.get('/mock', response_class=HTMLResponse)
 def page_mocks(request: Request, device: Device | None = Depends(current_device), db: Session = Depends(get_db)):
-    exams = list(db.scalars(select(Exam).order_by(Exam.id)))
+    exams = list(db.scalars(select(Exam).order_by(Exam.id).options(
+        selectinload(Exam.sections).joinedload(ExamSection.subject))))
     counts = services.recent_section_counts(db)
     plans = {e.id: services.mock_plan(db, e, counts) for e in exams}
     return render('mocks.html', request, device, exams=exams, plans=plans, level_rank=LEVEL_RANK)
@@ -612,7 +631,8 @@ def page_mocks(request: Request, device: Device | None = Depends(current_device)
 
 @app.get('/mock/{slug}', response_class=HTMLResponse)
 def page_exam(slug: str, request: Request, device: Device | None = Depends(current_device), db: Session = Depends(get_db)):
-    exam = db.scalar(select(Exam).where(Exam.slug == slug))
+    exam = db.scalar(select(Exam).where(Exam.slug == slug).options(
+        selectinload(Exam.sections).joinedload(ExamSection.subject)))
     if exam is None:
         raise HTTPException(404)
     plan = services.mock_plan(db, exam, services.recent_section_counts(db))
@@ -811,3 +831,7 @@ async def not_found(request: Request, exc):
     if request.url.path.startswith('/api/'):
         return JSONResponse({'detail': getattr(exc, 'detail', 'Not found')}, status_code=404)
     return templates.TemplateResponse(request, 'error.html', ctx(request, None, code=404), status_code=404)
+
+
+from .question_bank import install_routes as install_question_bank  # noqa: E402
+install_question_bank(app, render, get_db, lang_from_request)

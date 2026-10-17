@@ -17,8 +17,15 @@
       {% endfor %}
     </div>
   </fieldset>
-  <button class="btn btn-primary btn-block" type="submit">{{ tr('start') }} · 10 {{ tr('questions') }}</button>
+  <fieldset style="margin:0">
+    <legend>{{ tr('practice_session_size') }}</legend>
+    <div class="chips">
+      {% for count in [10, 20, 50] %}<label class="chip"><input type="radio" name="count" value="{{ count }}" {% if count == 10 %}checked{% endif %}>{{ count }} {{ tr('questions') }}</label>{% endfor %}
+    </div>
+  </fieldset>
+  <button class="btn btn-primary btn-block" type="submit">{{ tr('start') }}</button>
 </form>
+<a class="btn btn-secondary btn-block" style="margin-top:var(--sp-3)" href="/questions?topic={{ topic.id }}&amp;lang={{ lang }}">{{ tr('bank_all_questions') }} · {{ total }}</a>
 {% if sample %}
 <section class="card" style="margin-top:var(--sp-4)">
   <p class="xs muted">{{ L('नमूना सवाल', 'Sample question') }} · <span class="badge">{{ tr('ai_label') }}</span></p>

@@ -160,7 +160,11 @@ body.scrolled .topbar { background: var(--md-surface-container); }      /* M3 to
 .topbar .wrap { height: 100%; display: flex; align-items: center; justify-content: space-between; gap: var(--sp-3); }
 .brand { display: flex; align-items: center; gap: var(--sp-2); min-height: var(--tap); min-width: 0; flex: 1 1 auto; font-weight: 600; font-size: var(--fs-lg); color: var(--text); text-decoration: none; }
 .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
-.brand-mark { width: 36px; height: 36px; border-radius: var(--r-md); background: var(--brand); color: var(--on-brand); display: grid; place-items: center; }
+.brand-mark { width: 36px; height: 36px; border-radius: var(--r-md); display: grid; place-items: center; }
+.brand-mark img { display: block; width: 36px; height: 36px; object-fit: contain; }
+.bank-filters label:not(.search) { display: grid; gap: var(--sp-2); min-width: 0; }
+.bank-filters select { width: 100%; min-width: 0; min-height: var(--tap); padding: var(--sp-2); border: 1px solid var(--border); border-radius: var(--r-md); background: var(--surface); }
+.bank-filters summary { min-height: var(--tap); padding: var(--sp-2) 0; cursor: pointer; }
 .top-actions { display: flex; gap: var(--sp-2); flex: none; }
 .theme-picker { position: relative; }
 .theme-picker > summary { list-style: none; cursor: pointer; }

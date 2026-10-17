@@ -38,6 +38,12 @@
 </form>
 
 {% if settings_mode %}
+<section class="card stack" id="contentCache" style="margin-top:var(--sp-4)">
+  <h2>{{ tr('cache_title') }}</h2>
+  <p class="small muted">{{ tr('cache_desc') }}</p>
+  <p class="small" id="contentCacheStatus" role="status">{{ tr('cache_loading') }}</p>
+  <button class="btn btn-secondary" type="button" id="contentCacheClear" disabled>{{ tr('cache_clear') }}</button>
+</section>
 <section class="card enter" style="margin-top:var(--sp-4)">
   <h2>{{ tr('theme') }}</h2>
   <div class="seg seg-wide" role="group" aria-label="{{ tr('theme') }}">

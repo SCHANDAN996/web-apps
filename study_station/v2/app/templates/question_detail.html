@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}{{ tr('bank_question') }} — {{ tr('brand') }}{% endblock %}
+{% block main %}
+<p class="small crumb"><a class="tap-link" href="/questions?lang={{ lang }}">{{ tr('bank_all_questions') }}</a> › {{ L(question.topic.name_hi,question.topic.name_en) }}</p>
+<h1>{{ tr('bank_question') }}</h1>
+<section class="card stack">
+  <p class="xs muted">{{ L(question.topic.subject.name_hi,question.topic.subject.name_en) }} · {{ tr(question.difficulty) }} · <span class="badge">{{ tr('verified_label') if question.review_status == 'verified' else (tr('ai_label') if question.source_type == 'ai_generated' else tr('bank_review_pending')) }}</span></p>
+  {% if fallback %}<p class="notice">{{ tr('bank_language_fallback') }}</p>{% endif %}
+  <p class="q-text" style="overflow-wrap:anywhere">{{ question_text }}</p>
+  <ol type="A" class="stack">{% for option in question_options %}<li style="overflow-wrap:anywhere">{{ option }}</li>{% endfor %}</ol>
+  {% if question.source_type == 'pyq' and question.source_ref %}<p class="xs muted">{{ question.source_ref }}</p>{% endif %}
+  <button class="btn btn-primary" type="button" data-question-practice="{{ question.id }}">{{ tr('bank_practice_this') }}</button>
+  <p class="small muted">{{ tr('bank_answer_note') }}</p>
+</section>
+<p class="xs muted" style="margin-top:var(--sp-4)">{{ tr('bank_cache_note') }}</p>
+{% endblock %}

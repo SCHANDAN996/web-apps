@@ -466,6 +466,19 @@ def readable_books():
     return [b for b in index() if any(not c.dynamic for c in b.readable_chapters)]
 
 
+def cached_availability() -> bool | None:
+    """Published book availability without scanning or waiting for the index lock.
+
+    None means this root has no completed snapshot yet, not that its books are empty.
+    Home/practice shortcuts can use this while book pages retain the accurate index().
+    A stale snapshot remains useful while the background thread builds its replacement.
+    """
+    snapshot = _state.copy()
+    if snapshot['root'] != Path(config.BOOKS_DIR):
+        return None
+    return any(any(not c.dynamic for c in b.readable_chapters) for b in snapshot['books'])
+
+
 # ------------------------------------------------------------------ text → safe HTML
 EMOJI_START = re.compile('^[\U0001F000-\U0001FAFF☀-➿⬀-⯿⌚-⏿]')
 HEADING = re.compile(r'^(#{1,6})\s+(.+?)\s*#*$')

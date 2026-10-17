@@ -15,6 +15,7 @@ from ..config import SITE_URL
 USER_AGENT = f"StudyStationBot/1.0 (+{SITE_URL or 'https://studystation.in'}/bot; exam-job alerts)"
 HOST_GAP_SEC = 2.0
 MAX_BYTES = 12 * 1024 * 1024
+MAX_ROBOTS_BYTES = 512 * 1024
 MAX_REDIRECTS = 4
 
 
@@ -65,15 +66,33 @@ class Fetcher:
         self._last_hit = {}
         self._lock = threading.Lock()
 
-    def _check_url(self, url):
+    def _check_target(self, url):
         from .sources import safe_http_url
         if not safe_http_url(url):
             raise FetchError(f'refusing non-http(s) or malformed URL: {url[:120]}')
         host = urlsplit(url).hostname
         if not self.allow_private and not public_host(host):
             raise FetchError(f'refusing private/unresolvable host: {host}')
+
+    def _check_url(self, url):
+        self._check_target(url)
         if not self._allowed(url):
             raise FetchError(f'robots.txt disallows {url}')
+
+    def _fetch_robots(self, url):
+        # Robots requests must obey the same per-hop destination guards, without
+        # recursively requesting robots for robots itself.
+        current = url
+        for _hop in range(MAX_REDIRECTS + 1):
+            self._check_target(current)
+            self._wait_turn(urlsplit(current).netloc)
+            status, location, body, _ = self._fetch_once(
+                current, None, None, max_bytes=MAX_ROBOTS_BYTES, timeout=10)
+            if location:
+                current = urljoin(current, location)
+                continue
+            return body.decode('utf-8', errors='replace').splitlines() if status == 200 else []
+        raise FetchError('too many robots.txt redirects')
 
     def _allowed(self, url):
         if not self.respect_robots:
@@ -84,9 +103,8 @@ class Fetcher:
         if rp is None:
             rp = urllib.robotparser.RobotFileParser()
             try:
-                r = self.client.get(base + '/robots.txt', timeout=10, follow_redirects=True)
                 # Missing/forbidden robots.txt → treat as allowed (RFC 9309 §2.3.1.3)
-                rp.parse(r.text.splitlines() if r.status_code == 200 else [])
+                rp.parse(self._fetch_robots(base + '/robots.txt'))
             except httpx.HTTPError:
                 rp.parse([])
             self._robots[base] = rp
@@ -100,9 +118,11 @@ class Fetcher:
         if go > now:
             time.sleep(go - now)
 
-    def _fetch_once(self, url, params, headers):
+    def _fetch_once(self, url, params, headers, max_bytes=None, timeout=None):
         """One request, no redirects followed. Returns (status, location, body, content_type)."""
-        with self.client.stream('GET', url, params=params, headers=headers) as r:
+        options = {'timeout': timeout} if timeout is not None else {}
+        with self.client.stream('GET', url, params=params, headers=headers,
+                                follow_redirects=False, **options) as r:
             if 300 <= r.status_code < 400 and r.headers.get('location'):
                 return r.status_code, r.headers['location'], b'', ''
             if r.status_code >= 400:
@@ -110,7 +130,7 @@ class Fetcher:
             chunks, size = [], 0
             for chunk in r.iter_bytes():
                 size += len(chunk)
-                if size > MAX_BYTES:
+                if size > (MAX_BYTES if max_bytes is None else max_bytes):
                     raise FetchError(f'too large: {url}')
                 chunks.append(chunk)
             return r.status_code, None, b''.join(chunks), r.headers.get('content-type', '')

@@ -1,5 +1,6 @@
 import json
 import os
+import threading
 
 import pytest
 
@@ -111,6 +112,54 @@ def books_dir(tmp_path, monkeypatch):
 
 
 # ------------------------------------------------------------------ discovery
+def test_cached_availability_does_not_wait_for_cold_index(tmp_path, monkeypatch):
+    entered, release, returned = threading.Event(), threading.Event(), threading.Event()
+    root = tmp_path / 'cold-books'
+    monkeypatch.setattr(config, 'BOOKS_DIR', root)
+    monkeypatch.setattr(books, '_state', {'at': 0.0, 'root': None, 'books': [], 'by_slug': {}})
+    monkeypatch.setattr(books, '_lock', threading.Lock())
+
+    def blocked_scan(_root):
+        entered.set()
+        assert release.wait(10)
+        return []
+
+    monkeypatch.setattr(books, '_scan', blocked_scan)
+    scanner = threading.Thread(target=books.index, daemon=True)
+    observed = []
+
+    def peek():
+        observed.append(books.cached_availability())
+        returned.set()
+
+    reader = threading.Thread(target=peek, daemon=True)
+    scanner.start()
+    try:
+        assert entered.wait(5)
+        reader.start()
+        assert returned.wait(3), 'Optional availability waited behind the book scan'
+        assert observed == [None]
+    finally:
+        release.set()
+        scanner.join(5)
+        if reader.ident is not None:
+            reader.join(5)
+    assert not scanner.is_alive() and not reader.is_alive()
+    assert books.cached_availability() is False  # completed and genuinely empty
+
+
+def test_cached_availability_uses_stale_snapshot_without_filesystem_work(books_dir, monkeypatch):
+    books.index(force=True)
+
+    def unexpected_scan(_root):
+        pytest.fail('Availability must not refresh the book index')
+
+    monkeypatch.setattr(books, '_scan', unexpected_scan)
+    assert books.cached_availability() is True  # fixture expiry is zero
+    monkeypatch.setattr(config, 'BOOKS_DIR', books_dir / 'another-root')
+    assert books.cached_availability() is None  # never reuse another root's metadata
+
+
 def test_index_discovers_books_chapters_and_sections(books_dir):
     readable = {b.slug: b for b in books.readable_books()}
     assert set(readable) == {'foundation-10th-gk', 'foundation-10th-math'}
@@ -252,6 +301,9 @@ def test_chapter_page_sections_language_and_badges(client, books_dir):
     assert 'class="fc"' in r.text and 'aria-expanded="false"' in r.text
     # English learner on a Hindi-only section: shown in Hindi with a note
     client.cookies.set('ss_lang', 'en')
+    shared = client.get('/books/foundation-10th-math/05-percentage?s=mind-map&lang=en')
+    assert 'id="reader" lang="und"' in shared.text
+    assert 'This shared diagram uses its original language.' in shared.text
     r = client.get('/books/foundation-10th-math/05-percentage')
     assert 'This section is only in Hindi for now.' in r.text
     # Both languages: a toggle to the other one

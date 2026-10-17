@@ -10,7 +10,8 @@
   <meta name="theme-color" content="#F9F9FF" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#111318" media="(prefers-color-scheme: dark)">
   <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="icon" href="/static/icon.svg?v={{ asset_v }}" type="image/svg+xml">
+  <link rel="icon" href="/static/favicon.png?v={{ asset_v }}" type="image/png">
+  <link rel="apple-touch-icon" href="/static/icon-192.png?v={{ asset_v }}">
   <script src="/static/js/theme.js?v={{ asset_v }}"></script>
   <link rel="stylesheet" href="/static/css/app.css?v={{ asset_v }}">
   {% block head %}{% endblock %}
@@ -21,7 +22,7 @@
 <a class="sr-only" href="#main">{{ tr('skip_to_content') }}</a>
 <header class="topbar">
   <div class="wrap">
-    <a class="brand" href="/" aria-label="{{ tr('brand') }}"><span class="brand-mark"><svg class="icon" aria-hidden="true"><use href="#i-brand"/></svg></span><span class="brand-name">{{ tr('brand') }}</span></a>
+    <a class="brand" href="/" aria-label="{{ tr('brand') }}"><span class="brand-mark"><img src="/static/brand-mark.webp?v={{ asset_v }}" width="36" height="36" alt="" decoding="async"></span><span class="brand-name">{{ tr('brand') }}</span></a>
     <div class="top-actions">
       <button class="btn btn-ghost btn-sm" id="langBtn" data-next="{{ 'en' if lang == 'hi' else 'hi' }}" aria-label="Change language">
         <svg class="icon icon-sm"><use href="#i-globe"/></svg>{{ tr('lang_switch') }}

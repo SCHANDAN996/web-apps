@@ -1,14 +1,15 @@
 """Business logic: practice sets, CBT mocks, scoring, mistake revision, stats."""
 import random
 import time
+import threading
 from collections import defaultdict
 from datetime import date, datetime, timedelta
 
-from sqlalchemy import and_, case, func, or_, select
-from sqlalchemy.orm import Session
+from sqlalchemy import and_, case, event, func, or_, select
+from sqlalchemy.orm import Session, joinedload, selectinload
 
 from .catalog import LEVEL_RANK
-from .models import (Attempt, AttemptAnswer, Device, Exam, Question, ReviewCard,
+from .models import (Attempt, AttemptAnswer, Device, Exam, ExamSection, Question, ReviewCard,
                      Subject, Topic)
 
 USABLE = Question.review_status.in_(('unreviewed', 'verified'))
@@ -96,11 +97,26 @@ def start_practice(db: Session, device: Device, topic_id: int, count: int = 10, 
         f = and_(f, Question.difficulty == difficulty)
     if since_days:   # e.g. current-affairs quiz for the last 7 / 30 days
         f = and_(f, Question.created_at >= datetime.utcnow() - timedelta(days=since_days))
-    ids = _pick(db, f, max(1, min(count, 25)), device.lang, seen_question_ids(db, device))
+    ids = _pick(db, f, max(1, min(count, 50)), device.lang, seen_question_ids(db, device))
     if not ids:
         raise LookupError('no_questions')
     a = Attempt(device_id=device.id, mode='practice', topic_id=topic_id,
                 title=topic.name_hi if device.lang == 'hi' else topic.name_en, question_ids=ids)
+    db.add(a)
+    db.commit()
+    return a
+
+
+def start_specific_practice(db: Session, device: Device, question_id: int):
+    """Open one chosen usable question through the same private practice/answer flow."""
+    if question_id < 1 or question_id >= 1 << 53:
+        raise LookupError('question')
+    q = db.scalar(select(Question).where(Question.id == question_id, USABLE)
+                  .options(joinedload(Question.topic)))
+    if q is None:
+        raise LookupError('question')
+    a = Attempt(device_id=device.id, mode='practice', topic_id=q.topic_id,
+                title=q.topic.name_hi if device.lang == 'hi' else q.topic.name_en, question_ids=[q.id])
     db.add(a)
     db.commit()
     return a
@@ -142,16 +158,72 @@ def section_counts(db: Session):
     return {sid: (n, n_en) for sid, n, n_en in rows}
 
 
-_counts = {'at': 0.0, 'value': None}
+_counts = {'at': 0.0, 'value': None, 'bind': None}
+_topic_counts = {'at': 0.0, 'value': None, 'bind': None}
+_counts_lock = threading.RLock()
 COUNTS_MAX_AGE = 60     # seconds; the bank only changes when questions are imported, generated or reviewed
+
+
+def invalidate_question_counts():
+    """Same-worker committed writes refresh immediately; other workers/CLI writes age out in 60s."""
+    with _counts_lock:
+        _counts['value'] = _topic_counts['value'] = None
+
+
+def _question_changes(db):
+    return db.info.get('question_counts_changed', False) or any(
+        isinstance(obj, Question) for group in (db.new, db.dirty, db.deleted) for obj in group)
+
+
+@event.listens_for(Session, 'after_flush')
+def _mark_question_counts_changed(db, _context):
+    if _question_changes(db):
+        db.info['question_counts_changed'] = True
+
+
+@event.listens_for(Session, 'do_orm_execute')
+def _mark_bulk_question_change(state):
+    if (state.is_update or state.is_delete) and getattr(getattr(state.statement, 'table', None), 'name', None) == Question.__tablename__:
+        state.session.info['question_counts_changed'] = True
+
+
+@event.listens_for(Session, 'after_commit')
+def _refresh_committed_question_counts(db):
+    if db.info.pop('question_counts_changed', False):
+        invalidate_question_counts()
+
+
+@event.listens_for(Session, 'after_rollback')
+def _forget_rolled_back_question_changes(db):
+    db.info.pop('question_counts_changed', None)
+
+
+def _recent_counts(db, cache, load):
+    # Never publish an uncommitted bank snapshot to other learners.
+    if _question_changes(db):
+        return load(db)
+    bind = db.get_bind()
+    with _counts_lock:
+        now = time.monotonic()
+        if cache['value'] is None or cache['bind'] is not bind or now - cache['at'] >= COUNTS_MAX_AGE:
+            value = load(db)
+            cache.update(at=time.monotonic(), value=value, bind=bind)
+        return dict(cache['value'])  # Caller changes cannot corrupt the shared aggregate.
+
+
+def topic_counts(db):
+    return dict(db.execute(select(Question.topic_id, func.count()).where(USABLE)
+                           .group_by(Question.topic_id)).all())
+
+
+def recent_topic_counts(db):
+    """One bounded aggregate shared by Home, Practice and Catalog in each worker."""
+    return _recent_counts(db, _topic_counts, topic_counts)
 
 
 def recent_section_counts(db: Session):
     """section_counts for pages that only display availability: reused for a minute (per worker)."""
-    now = time.monotonic()
-    if _counts['value'] is None or now - _counts['at'] > COUNTS_MAX_AGE:
-        _counts.update(at=now, value=section_counts(db))
-    return _counts['value']
+    return _recent_counts(db, _counts, section_counts)
 
 
 def mock_plan(db: Session, exam: Exam, counts=None):
@@ -166,7 +238,8 @@ def mock_plan(db: Session, exam: Exam, counts=None):
 
 
 def start_mock(db: Session, device: Device, exam_slug: str):
-    exam = db.scalar(select(Exam).where(Exam.slug == exam_slug))
+    exam = db.scalar(select(Exam).where(Exam.slug == exam_slug).options(
+        selectinload(Exam.sections).joinedload(ExamSection.subject)))
     if exam is None:
         raise LookupError('exam')
     seen = seen_question_ids(db, device)

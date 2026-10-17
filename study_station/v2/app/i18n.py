@@ -414,6 +414,36 @@ STRINGS.update({'reset_progress_desc': ('एक अध्याय, एक व�
  'reset_options_failed': ('विषय और अध्याय नहीं खुल सके। दोबारा कोशिश करें।',
                           'Subjects and chapters could not load. Please try again.')})
 
+STRINGS.update({
+    'practice_session_size': ('इस बार कितने सवाल?', 'Questions in this session'),
+    'bank_all_questions': ('सभी सवाल देखें', 'Browse all questions'),
+    'bank_desc': ('विषय और विषयांश चुनें, सवाल खोजें और किसी भी सवाल का अभ्यास करें। यहाँ 10 सवाल की सीमा नहीं है।', 'Choose a subject or topic, search and practise any question. Browsing is not limited to ten questions.'),
+    'bank_topic': ('विषयांश', 'Topic'),
+    'bank_level': ('स्तर', 'Level'),
+    'bank_search': ('सवाल में शब्द खोजें', 'Search words in a question'),
+    'bank_filter': ('सवाल ढूँढें', 'Find questions'),
+    'bank_filters': ('विषय, स्तर और कठिनाई के फ़िल्टर', 'Subject, level and difficulty filters'),
+    'bank_review_pending': ('समीक्षा बाकी', 'Review pending'),
+    'bank_clear': ('फ़िल्टर हटाएँ', 'Clear filters'),
+    'bank_page': ('पेज', 'Page'),
+    'bank_empty': ('इन विकल्पों में कोई सवाल नहीं मिला। फ़िल्टर बदलकर देखें।', 'No questions match these filters. Try another selection.'),
+    'bank_question': ('चुना हुआ सवाल', 'Selected question'),
+    'bank_practice_this': ('इसी सवाल को हल करें', 'Practise this question'),
+    'bank_answer_note': ('जवाब जाँचने के बाद सही उत्तर और उपलब्ध हल दिखेगा। अभ्यास शुरू करने के लिए internet चाहिए।', 'Check your answer in practice to see the correct answer and available solution. Starting practice requires internet.'),
+    'bank_language_fallback': ('यह सवाल चुनी भाषा में उपलब्ध नहीं है; दूसरी उपलब्ध भाषा में दिखाया गया है।', 'This question is shown in the other available language.'),
+    'bank_cache_note': ('हाल में खुले सवालों के पेज इस फ़ोन में सीमित समय के लिए रह सकते हैं। Offline होने पर पुरानी प्रति दिख सकती है; online होने पर ताज़ा पेज आएगा।', 'Recently opened question pages may be kept on this phone for a limited time. Offline copies may be older; online pages refresh from the server.'),
+    'cache_title': ('फ़ोन में रखे पेज', 'Pages saved on this phone'),
+    'cache_desc': ('खुले हुए किताब और सवाल के कुछ पेज तेज़ी से दोबारा पढ़ने के लिए रखे जाते हैं। इन्हें साफ करने से progress, रफ़ वर्क, backup files या settings नहीं मिटेंगी।', 'Some visited book and question pages are kept for quicker reading. Clearing them preserves progress, rough work, backup files and settings.'),
+    'cache_loading': ('रखे हुए पेज गिन रहे हैं…', 'Counting saved pages…'),
+    'cache_unavailable': ('इस browser में पेज cache की सुविधा अभी उपलब्ध नहीं है।', 'Reading cache is not currently available in this browser.'),
+    'cache_clear': ('रखे हुए पेज साफ करें', 'Clear saved pages'),
+    'cache_cleared': ('फ़ोन में रखे किताब और सवाल के पेज साफ हो गए। पढ़ाई की progress सुरक्षित है।', 'Saved book and question pages cleared. Study progress is preserved.'),
+    'cache_failed': ('रखे हुए पेज अभी साफ नहीं हो पाए। फिर कोशिश करें।', 'Saved pages could not be cleared. Please try again.'),
+    'cache_status': ('किताबों के पेज: {books} · सवालों के पेज: {questions}', 'Book pages: {books} · Question pages: {questions}'),
+    'book_shared_language': ('यह साझा चित्र अपनी मूल भाषा में है। चुनी हुई भाषा का अलग संस्करण अभी उपलब्ध नहीं है।', 'This shared diagram uses its original language. A separate version in your selected language is not available yet.'),
+})
+
+
 def t(key, lang):
     pair = STRINGS.get(key)
     if pair is None:
@@ -443,7 +473,7 @@ def client_strings(lang):
             'st_unanswered', 'st_marked', 'st_marked_answered', 'st_notvisited', 'submit_note',
             'revise_next', 'revise_next_1', 'revise_none', 'go_practice', 'offline_now', 'online_again', 'report_note',
             'retry', 'reset_progress_confirm', 'reset_progress_warning', 'reset_progress_action']
-    keys += [k for k in STRINGS if k.startswith(('rough_', 'backup_', 'reset_'))]
+    keys += [k for k in STRINGS if k.startswith(('rough_', 'backup_', 'reset_', 'cache_', 'bank_'))]
     out = {k: t(k, lang) for k in keys}
     out['errors'] = {k: (v[0] if lang == 'hi' else v[1]) for k, v in ERRORS.items()}
     return out

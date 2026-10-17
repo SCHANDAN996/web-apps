@@ -3,6 +3,7 @@
 {% block main %}
 <h1>{{ tr('practice_title') }}</h1>
 <p class="muted">{{ tr('practice_desc') }}</p>
+<a class="btn btn-secondary btn-block" style="margin-bottom:var(--sp-3)" href="/questions?lang={{ lang }}">{{ tr('bank_all_questions') }}</a>
 {% if has_books or ca_recent %}
 <div class="tile-row">
   {% if has_books %}<a class="tile card-link" href="/books"><svg class="icon"><use href="#i-book"/></svg><b>{{ tr('books_title') }}</b><span class="xs muted">{{ tr('books_tile') }}</span></a>{% endif %}

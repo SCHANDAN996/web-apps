@@ -9,6 +9,7 @@
   } catch (e) { SS.lang = SS.lang || 'hi'; SS.t = SS.t || {}; }
 
   SS.api = function (method, url, body) {
+    if (method !== 'GET') clearWarm();
     if (method !== 'GET' && !body) body = {};   // API only accepts JSON bodies (CSRF guard)
     return fetch(url, {
       method: method,
@@ -22,6 +23,7 @@
           var e = new Error((SS.t.errors && SS.t.errors[code]) || (SS.t.errors && SS.t.errors._default) || 'Error');
           e.status = res.status; e.code = code; throw e;
         }
+        if (method !== 'GET') clearWarm();
         return data;
       });
     }, function () { var e = new Error(SS.t.offline); e.status = 0; throw e; });
@@ -73,9 +75,9 @@
 
   function busy(btn, on) { if (btn) { btn.disabled = on; btn.setAttribute('aria-busy', on ? 'true' : 'false'); } }
 
-  SS.startPractice = function (topicId, difficulty, btn) {
+  SS.startPractice = function (topicId, difficulty, btn, count) {
     busy(btn, true);
-    return SS.api('POST', '/api/v1/practice', { topic_id: Number(topicId), count: 10, difficulty: difficulty || null })
+    return SS.api('POST', '/api/v1/practice', { topic_id: Number(topicId), count: Number(count) || 10, difficulty: difficulty || null })
       .then(function (a) { SS.go('/attempt/' + a.id); })
       .catch(function (e) { busy(btn, false); SS.toast(e.message); });
   };
@@ -141,6 +143,14 @@
 
   // ---------------------------------------------------------------- page wiring
   document.addEventListener('click', function (e) {
+    var questionPractice = e.target.closest('[data-question-practice]');
+    if (questionPractice) {
+      e.preventDefault(); busy(questionPractice, true);
+      SS.api('POST', '/api/v1/questions/' + Number(questionPractice.getAttribute('data-question-practice')) + '/practice', {})
+        .then(function (a) { SS.go('/attempt/' + a.id); })
+        .catch(function (err) { busy(questionPractice, false); SS.toast(err.message); });
+      return;
+    }
     var b = e.target.closest('[data-practice]');
     if (b) { e.preventDefault(); SS.startPractice(b.getAttribute('data-practice'), null, b); return; }
     b = e.target.closest('[data-mock]');
@@ -188,7 +198,11 @@
   var langBtn = document.getElementById('langBtn');
   if (langBtn) langBtn.addEventListener('click', function () {
     var next = langBtn.getAttribute('data-next');
-    SS.api('POST', '/api/v1/me', { lang: next }).then(function () { location.reload(); })
+    SS.api('POST', '/api/v1/me', { lang: next }).then(function () {
+      if (/^\/questions(?:\/|$)/.test(location.pathname)) {
+        var url = new URL(location.href); url.searchParams.set('lang', next); location.assign(url.href);
+      } else location.reload();
+    })
       .catch(function (e) { SS.toast(e.message); });
   });
 
@@ -273,8 +287,46 @@
   if (practiceForm) practiceForm.addEventListener('submit', function (e) {
     e.preventDefault();
     SS.startPractice(practiceForm.getAttribute('data-topic'), new FormData(practiceForm).get('difficulty'),
-      practiceForm.querySelector('[type=submit]'));
+      practiceForm.querySelector('[type=submit]'), new FormData(practiceForm).get('count'));
   });
+  var questionFilters = document.getElementById('questionBankFilters');
+  if (questionFilters) questionFilters.addEventListener('submit', function (e) {
+    e.preventDefault(); SS.go('/questions?' + new URLSearchParams(new FormData(questionFilters)).toString());
+  });
+  var cacheCard = document.getElementById('contentCache');
+  if (cacheCard) {
+    var cacheStatus = document.getElementById('contentCacheStatus'), cacheClear = document.getElementById('contentCacheClear');
+    function cacheMessage(type) {
+      if (!('serviceWorker' in navigator) || !window.MessageChannel) return Promise.reject(new Error('unavailable'));
+      return navigator.serviceWorker.getRegistration().then(function (registration) {
+        var worker = navigator.serviceWorker.controller || (registration && registration.active);
+        if (!worker) throw new Error('unavailable');
+        return new Promise(function (resolve, reject) {
+          var channel = new MessageChannel();
+          var timer = setTimeout(function () { channel.port1.close(); reject(new Error('timeout')); }, 5000);
+          channel.port1.onmessage = function (event) {
+            clearTimeout(timer); channel.port1.close();
+            if (event.data && event.data.ok) resolve(event.data); else reject(new Error('cache_failed'));
+          };
+          worker.postMessage({ type: type }, [channel.port2]);
+        });
+      });
+    }
+    function cacheRefresh() {
+      cacheMessage('SS_CONTENT_CACHE_STATUS').then(function (data) {
+        cacheStatus.textContent = SS.t.cache_status.replace('{books}', data.books).replace('{questions}', data.questions);
+        cacheClear.disabled = false;
+      }).catch(function () { cacheStatus.textContent = SS.t.cache_unavailable; cacheClear.disabled = true; });
+    }
+    cacheClear.addEventListener('click', function () {
+      clearWarm();
+      busy(cacheClear, true);
+      cacheMessage('SS_CLEAR_CONTENT_CACHE').then(function () { cacheStatus.textContent = SS.t.cache_cleared; busy(cacheClear, false); })
+        .catch(function () { cacheStatus.textContent = SS.t.cache_failed; busy(cacheClear, false); });
+    });
+    if ('serviceWorker' in navigator) onPage(navigator.serviceWorker, 'controllerchange', cacheRefresh);
+    cacheRefresh();
+  }
 
   // ---------------------------------------------------------------- practice: subject tabs + topic search
   var secs = document.querySelectorAll('.subject-sec');
@@ -466,8 +518,26 @@
   // The frame (top bar, tab bar, CSS, JS) stays put; a screen change fetches the page and swaps only
   // <main>. Inside the Android app the frame itself is read from the APK (templates/shell.html →
   // android/…/assets/shell), so the structure is on screen before the network answers.
-  var SCREEN = /^\/(?:(?:settings|practice|mock|attempt|result|revise|progress|current-affairs|jobs|books)(?:\/|$)|$)/;
+  var SCREEN = /^\/(?:(?:settings|practice|mock|attempt|result|revise|progress|current-affairs|jobs|books|questions)(?:\/|$)|$)/;
   var navSeq = 0, warm = {}, here = location.pathname + location.search;
+  var WARM_TTL = 5000, WARM_LIMIT = 6;
+
+  function dropWarm(url, abort) {
+    var entry = warm[url];
+    delete warm[url];
+    if (abort && entry && entry.ctl) entry.ctl.abort();
+  }
+
+  function clearWarm() {
+    Object.keys(warm || {}).forEach(function (url) { dropWarm(url, true); });
+  }
+
+  function pruneWarm() {
+    var now = Date.now();
+    Object.keys(warm).forEach(function (url) {
+      if (now - warm[url].at >= WARM_TTL) dropWarm(url, true);
+    });
+  }
 
   function screenLink(e) {
     var a = e.target.closest && e.target.closest('a[href]');
@@ -493,12 +563,12 @@
     });
   }
 
-  function fetchPage(url) {
-    var ctl = window.AbortController ? new AbortController() : null;
+  function fetchPage(url, ctl) {
+    ctl = ctl || (window.AbortController ? new AbortController() : null);
     var timer = ctl && setTimeout(function () { ctl.abort(); }, 15000);     // a stalled connection counts as offline
     return fetch(url, { credentials: 'same-origin', headers: { 'X-SS-Nav': '1' }, signal: ctl ? ctl.signal : undefined }).then(function (res) {
-      return res.text().then(function (html) { clearTimeout(timer); return { url: res.url || url, html: html }; });
-    });
+      return res.text().then(function (html) { return { url: res.url || url, html: html }; });
+    }).then(function (page) { clearTimeout(timer); return page; }, function (error) { clearTimeout(timer); throw error; });
   }
 
   function setCookie(name, value) {
@@ -532,7 +602,7 @@
     if (mode === 'push') history.pushState({ ss: 1 }, '', p.url);
     else if (mode === 'replace') history.replaceState({ ss: 1 }, '', p.url);
     here = location.pathname + location.search;
-    warm = {};
+    clearWarm();
     try { SS.ai = JSON.parse(doc.getElementById('ss-boot').textContent).ai; } catch (e) {}
     document.title = doc.title;
     document.body.className = doc.body.className;
@@ -566,8 +636,11 @@
     if (mode === 'push') { try { history.replaceState({ ss: 1, y: scrollY }, ''); } catch (e) {} }
     markTab(new URL(url).pathname);
     document.body.classList.add('nav-busy');
+    pruneWarm();
     var w = warm[url];
-    return (w && Date.now() - w.at < 5000 ? w.p : fetchPage(url)).then(function (p) {
+    dropWarm(url, false);                    // navigation owns this request now
+    clearWarm();                            // other screens belong to the page being left
+    return (w ? w.p : fetchPage(url)).then(function (p) {
       if (seq === navSeq) show(p, mode);
     }, function () {
       if (seq !== navSeq) return;
@@ -585,18 +658,30 @@
   window.addEventListener('popstate', function () {
     if (location.pathname + location.search !== here) go(location.href, 'pop');
   });
+  window.addEventListener('pagehide', clearWarm);
+  document.addEventListener('visibilitychange', function () { if (document.hidden) clearWarm(); });
   // Start fetching on touch-down: by the time the tap is complete the screen is usually there.
   document.addEventListener('pointerdown', function (e) {
     var to = screenLink(e);
+    pruneWarm();
     if (!to || warm[to]) return;
-    var p = fetchPage(to);
-    p.catch(function () {});
-    warm[to] = { at: Date.now(), p: p };
+    var urls = Object.keys(warm);
+    if (urls.length >= WARM_LIMIT) {
+      urls.sort(function (a, b) { return warm[a].at - warm[b].at; });
+      dropWarm(urls[0], true);
+    }
+    var entry = { at: Date.now(), ctl: window.AbortController ? new AbortController() : null };
+    entry.p = fetchPage(to, entry.ctl).catch(function (error) {
+      if (warm[to] === entry) dropWarm(to, false);
+      throw error;
+    });
+    entry.p.catch(function () {});
+    warm[to] = entry;
   }, { passive: true });
 
   if (waiting()) go(location.href, 'replace'); else SS.initPage();
 
-  if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
+  if ('serviceWorker' in navigator && (location.protocol === 'https:' || ['localhost', '127.0.0.1', '[::1]'].indexOf(location.hostname) !== -1)) {
     navigator.serviceWorker.register('/sw.js').catch(function () {});
   }
 })();

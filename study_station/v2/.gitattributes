@@ -1,3 +1,6 @@
 # The asset version (?v=...) is a hash of these bytes: keep them identical on every OS.
 app/static/** text eol=lf
 android/app/src/main/assets/shell/** text eol=lf
+# Raster artwork must retain its exact binary bytes.
+*.png binary
+*.webp binary

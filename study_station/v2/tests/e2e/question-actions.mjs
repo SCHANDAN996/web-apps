@@ -1,0 +1,26 @@
+// Verify actual app.js count, exact-question and filter wiring with controlled requests.
+import { createRequire } from 'node:module';
+import { readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import assert from 'node:assert/strict';
+const require = createRequire(import.meta.url);
+const { chromium } = require(process.env.PLAYWRIGHT_PATH || 'playwright');
+const browser = await chromium.launch({ channel: process.env.PLAYWRIGHT_CHANNEL || 'chrome' });
+const p = await browser.newPage(), errors = []; p.on('pageerror', e => errors.push(e.message));
+await p.route('https://questions.test/**', route => route.fulfill({ contentType: 'text/html', body: '<html lang="hi"><main id="main"><form id="practiceForm" data-topic="7"><input name="difficulty" value="hard"><input name="count" value="50"><button type="submit">Practice</button></form><button data-question-practice="123">Exact</button><form id="questionBankFilters"><input name="subject" value="quant"><input name="topic" value="7"><input name="lang" value="hi"><button type="submit">Filter</button></form></main><script id="ss-boot" type="application/json">{"lang":"hi","t":{}}</script></html>' }));
+await p.goto('https://questions.test/');
+await p.evaluate(() => { window.SSTheme = { current: () => 'light' }; window.requests = []; window.fetch = async (url, options = {}) => { window.requests.push({ url, body: options.body ? JSON.parse(options.body) : null }); return new Response('{"id":456}', { headers: { 'Content-Type': 'application/json' } }); }; });
+await p.addScriptTag({ content: readFileSync(fileURLToPath(new URL('../../app/static/js/app.js', import.meta.url)), 'utf8') });
+await p.evaluate(() => { window.destinations = []; SS.go = url => { window.destinations.push(url); return Promise.resolve(); }; });
+await p.locator('#practiceForm button').click(); await p.waitForFunction(() => window.destinations.length === 1);
+assert.deepEqual(await p.evaluate(() => window.requests.at(-1)), { url: '/api/v1/practice', body: { topic_id: 7, count: 50, difficulty: 'hard' } });
+await p.evaluate(() => SS.startPractice(7, null, null));
+assert.equal(await p.evaluate(() => window.requests.at(-1).body.count), 10);
+await p.locator('[data-question-practice]').click(); await p.waitForFunction(() => window.requests.some(r => r.url.includes('/questions/')));
+assert.deepEqual(await p.evaluate(() => window.requests.at(-1)), { url: '/api/v1/questions/123/practice', body: {} });
+assert.equal(await p.evaluate(() => window.destinations.at(-1)), '/attempt/456');
+await p.locator('#questionBankFilters button').click();
+assert.equal(await p.evaluate(() => window.destinations.at(-1)), '/questions?subject=quant&topic=7&lang=hi');
+assert.deepEqual(errors, []);
+console.log('Practice50/default10, exact-question practice and bankfilter wiring passed.');
+await browser.close();
