@@ -1,0 +1,69 @@
+```mermaid
+graph TD
+    A["भौतिकी – दैनिक जीवन<br>Physics in Everyday Life"]
+
+    A --> M["मापन<br>Measurement"]
+    M --> M1["7 SI मूल मात्रक<br>m, kg, s, A, K, mol, cd"]
+    M --> M2["प्रकाश वर्ष = दूरी<br>Light year = distance"]
+    M --> M3["1 kWh = 3.6 × 10^6 J<br>1 hp ≈ 746 W"]
+    M --> M4["उपकरण: बैरोमीटर, हाइग्रोमीटर, लैक्टोमीटर<br>Instruments: barometer, hygrometer, lactometer"]
+
+    A --> N["गति और बल<br>Motion and Force"]
+    N --> N1["पहला नियम: जड़त्व<br>1st law: inertia - bus brakes"]
+    N --> N2["दूसरा नियम: F = ma<br>2nd law: catching a ball"]
+    N --> N3["तीसरा नियम: क्रिया-प्रतिक्रिया<br>3rd law: rocket, gun recoil"]
+    N --> N4["घर्षण: लोटनिक सबसे कम, स्थैतिक सबसे अधिक<br>Friction: rolling least, static most"]
+
+    A --> G["गुरुत्व<br>Gravitation"]
+    G --> G1["g = 9.8 m/s², चंद्रमा पर 1/6<br>Moon g about 1/6"]
+    G --> G2["द्रव्यमान स्थिर, भार W = mg बदलता<br>Mass constant, weight changes"]
+    G --> G3["भारहीनता = मुक्त पतन<br>Weightlessness = free fall"]
+    G --> G4["पलायन वेग 11.2 km/s<br>Escape velocity"]
+
+    A --> P["दाब और तरल<br>Pressure and Fluids"]
+    P --> P1["P = F/A: धारदार चाकू<br>Sharp knife, broad straps"]
+    P --> P2["प्रेशर कुकर: अधिक दाब, अधिक क्वथनांक<br>Pressure cooker"]
+    P --> P3["पास्कल: हाइड्रोलिक लिफ़्ट<br>Pascal: hydraulic lift"]
+    P --> P4["आर्किमिडीज़: जहाज़ तैरता है<br>Archimedes: ship floats"]
+    P --> P5["पृष्ठ तनाव, केशिकत्व<br>Surface tension, capillarity"]
+
+    A --> H["ऊष्मा<br>Heat"]
+    H --> H1["°F = 9/5 °C + 32; K = °C + 273<br>-40 °C = -40 °F"]
+    H --> H2["पानी 4 °C पर सबसे घना<br>Water densest at 4 °C"]
+    H --> H3["भाप से अधिक जलन: गुप्त ऊष्मा<br>Steam burn: latent heat"]
+    H --> H4["समुद्री समीर दिन में<br>Sea breeze by day"]
+    H --> H5["चालन, संवहन, विकिरण<br>Conduction, convection, radiation"]
+
+    A --> S["ध्वनि<br>Sound"]
+    S --> S1["निर्वात में नहीं; ठोस में सबसे तेज़<br>No sound in vacuum, fastest in solids"]
+    S --> S2["श्रव्य 20 Hz - 20 kHz<br>Audible range"]
+    S --> S3["पराश्रव्य: चमगादड़, SONAR<br>Ultrasound: bat, SONAR"]
+    S --> S4["प्रतिध्वनि कम से कम 17.2 m<br>Echo needs 17.2 m"]
+    S --> S5["तारत्व ← आवृत्ति, प्रबलता ← आयाम<br>Pitch - frequency, loudness - amplitude"]
+
+    A --> L["प्रकाश<br>Light"]
+    L --> L1["उत्तल दर्पण: पीछे देखने का<br>Convex: rear-view mirror"]
+    L --> L2["अवतल दर्पण: दाढ़ी, हेडलाइट<br>Concave: shaving, headlight"]
+    L --> L3["प्रकीर्णन: नीला आकाश, लाल संकेत<br>Scattering: blue sky, red signal"]
+    L --> L4["पूर्ण आंतरिक परावर्तन: हीरा, फ़ाइबर<br>TIR: diamond, optical fibre"]
+    L --> L5["निकट-दृष्टि: अवतल, दूर-दृष्टि: उत्तल<br>Myopia: concave, Hypermetropia: convex"]
+    L --> L6["तारों का टिमटिमाना: अपवर्तन<br>Twinkling: refraction"]
+
+    A --> E["विद्युत और चुंबकत्व<br>Electricity and Magnetism"]
+    E --> E1["V = IR, P = VI<br>Ohm's law, power"]
+    E --> E2["घरेलू उपकरण पार्श्वक्रम में<br>Appliances in parallel"]
+    E --> E3["फ़्यूज़: कम गलनांक, लाइव तार, श्रेणीक्रम<br>Fuse: low melting point, live wire, series"]
+    E --> E4["लाइव लाल, न्यूट्रल काला, अर्थ हरा<br>Red, black, green"]
+    E --> E5["मोटर: विद्युत → यांत्रिक<br>Generator: यांत्रिक → विद्युत"]
+
+    A --> T["परीक्षक के जाल<br>Examiner's Traps"]
+    T --> T1["प्रकाश वर्ष को समय बताना<br>Light year as time"]
+    T --> T2["अंतरिक्ष में गुरुत्व शून्य<br>Zero gravity in space"]
+    T --> T3["मायोपिया में उत्तल लेंस<br>Convex lens for myopia"]
+    T --> T4["फ़्यूज़ पार्श्वक्रम में<br>Fuse in parallel"]
+
+    A --> R["रणनीति<br>Strategy"]
+    R --> R1["तथ्य प्रश्न: 15 सेकंड<br>Fact questions: 15 sec"]
+    R --> R2["सूत्र प्रश्न: 45 सेकंड<br>Formula questions: 45 sec"]
+    R --> R3["मात्रक देखकर विकल्प हटाएँ<br>Eliminate by units"]
+```

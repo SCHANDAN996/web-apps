@@ -1,18 +1,10 @@
-📋 Important Rules & Approaches
-Rule Name	Description	Example
-Robot Brain Rule	Treat the statement as the only available data. Delete all outside knowledge and assumptions.	"Some cats are black" → Do not assume other cats are not black.
-Conversion – All	"All A are B" can be safely converted to "Some B are A".	"All pens are items" → "Some items are pens" ✅
-Conversion – Some	"Some A are B" can be safely converted to "Some B are A".	"Some boys are players" → "Some players are boys" ✅
-Conversion – No	"No A is B" can be safely converted to "No B is A".	"No tree is an animal" → "No animal is a tree" ✅
-Some Not Trap	Never derive "Some A are not B" as a definite conclusion from "Some A are B".	"Some fruits are sweet" does not mean "Some fruits are not sweet".
-Certainty vs. Possibility	A conclusion is valid only if it is forced 100% by the statement. A mere possibility is not a valid conclusion.	"All dogs are mammals" → "Some mammals are dogs" (certain). "All mammals are dogs" (not certain).
-Venn Diagram Test	A conclusion is valid only if it holds true in every possible Venn diagram. If it fails in even one, it is invalid.	For "Some A are B", check both partial overlap and complete inclusion.
-T.E.A. Test	T – True as per statement only, E – Eliminate outside knowledge, A – Avoid "Some Not". A quick mental checklist.	Use before marking any answer.
-⏱️ Time Management
-Rule	Description
-15-Second Rule	For a direct single-statement-single-conclusion question, decide within 15 seconds. If you hesitate, mark it for review and skip immediately.
-45-Second Rule	For questions with 2 statements and 3-4 conclusions, spend a maximum of 45 seconds. Never overanalyze or get stuck.
-Skip Strategy	If you encounter ambiguous language or a tricky "some not" trap that confuses you, skip after 15 seconds. Return with a fresh mind later only if time permits.
-📐 Logical/Mathematical Formulas
+# Chapter: Statement & Conclusion (Basic), Level: foundation, Type: Verbal Reasoning
 
-This chapter does not involve any logical symbols or mathematical formulas. It is purely verbal reasoning based on the conversion rules and the basic Venn diagram logic described above.
+@content_agent lang=en level=foundation 'List all important rules, approaches, time management tips, and logical formulas (if any) for Statement & Conclusion (Basic) in a clean table.
+Instructions:
+- Table has three parts:
+  1. "Key Rules/Approaches" – Rule Name | Description | Example
+  2. "Time Management" – 15-second and 45-second rule (e.g., "If pattern not understood in 15 sec, skip").
+  3. "Logical/Mathematical Formulas" – if applicable; otherwise "No formulas for this chapter".
+- No explanation, just tabular data.
+- Keep language simple and precise.

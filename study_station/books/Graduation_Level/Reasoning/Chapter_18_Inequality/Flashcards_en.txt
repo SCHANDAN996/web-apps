@@ -1,0 +1,79 @@
+Card 1
+Front: What does the symbol "≥" actually guarantee between two quantities?
+Back: It guarantees "greater than OR equal to" — the quantity on the left is never smaller than the one on the right. Even equality alone satisfies it.
+
+Card 2
+Front: In "A > B ≥ C", can we conclude A > C? Why?
+Back: Yes. A is strictly greater than B, and B is at least C, so A must be strictly greater than C. A single ">" anywhere in a chain makes the end-to-end relation strict.
+
+Card 3
+Front: What is the golden rule for combining two inequalities into one chain?
+Back: The common (linking) element must appear in both statements, and the symbols must point in a compatible direction (e.g., A > B and B > C combine to A > B > C). Opposing symbols (A > B, B < C) break the chain.
+
+Card 4
+Front: Which mnemonic trick helps you remember the direction of ">" and "<"?
+Back: The "crocodile mouth" trick — the open mouth always faces the bigger number, the pointed tip faces the smaller one. So 7 > 3 means the crocodile eats 7.
+
+Card 5
+Front: What is the "King–Soldier" priority rule among inequality symbols?
+Back: ">" and "<" are the Kings (strongest), "≥" and "≤" are Ministers, "=" is the Soldier (weakest). When relations conflict, the stronger symbol decides the conclusion.
+
+Card 6
+Front: In "A ≥ B ≥ C", is "A > C" definitely true?
+Back: No. If A = B = C, then A > C fails. Only "A ≥ C" is definitely true. Strict conclusions need at least one strict symbol in the chain.
+
+Card 7
+Front: Examiner's trap: In "A > B < C", the option says "A > C — definitely true". Why is this a trap?
+Back: Because the chain is broken — B is smaller than both A and C, so no relation between A and C can be fixed. A could be greater than, equal to, or less than C. The answer is "cannot be determined".
+
+Card 8
+Front: When does "Either–Or" (complementary pair) apply between two conclusions?
+Back: When (1) both conclusions are individually false, (2) they involve the same two elements, and (3) together they cover all possible relations (e.g., A > B and A ≤ B). Then exactly one of them must be true.
+
+Card 9
+Front: Which three relations together form a complementary pair for "either-or" cases?
+Back: ">", "<", and "=" — or equivalently ">" with "≤", and "<" with "≥". If one fails, the other must hold for the same pair of elements.
+
+Card 10
+Front: In coded inequality, what does "A @ B" style questions demand first?
+Back: Decoding the symbol table first — write down what each code (@, #, $, %, *) means in plain symbols (>, <, ≥, ≤, =) before touching the conclusions. Never solve while decoding mentally.
+
+Card 11
+Front: Examiner's trap: A conclusion says "A ≥ B" and the chain gives A > B. Is the conclusion true?
+Back: Yes — this is the trap in reverse. "A ≥ B" means "A > B or A = B". Since A > B is already true, the "or" condition is satisfied. Students often wrongly reject it.
+
+Card 12
+Front: What is the fastest way to check a conclusion like "A > D" in a long chain?
+Back: Trace a single unbroken path from A to D using the common elements. If every link along the path points the same way, the conclusion follows; one reversed link kills it.
+
+Card 13
+Front: In "A = B > C ≤ D", which conclusions are definitely true?
+Back: A > C and B > C are definite. Nothing definite can be said between C and D, or between A/B and D, because the "≤" link reverses the direction.
+
+Card 14
+Front: Why can't "A ≥ B" and "B ≥ A" both hold unless one special condition is met?
+Back: Both can hold simultaneously only when A = B. Otherwise one must be strictly greater. This is why "≥" chains often hide equality cases.
+
+Card 15
+Front: What should you do when statements mix symbols like "P ≥ Q = R > S"?
+Back: Rewrite the chain left to right, then check each conclusion by tracing the path. Here P ≥ R > S gives P > S definitely, but P ≥ S is also true (since P > S implies it).
+
+Card 16
+Front: What is the 15-second rule for inequality questions in exams?
+Back: If the chain is direct (all symbols one way), answer in under 15 seconds by tracing the path. Reserve longer time only for broken chains and either-or cases.
+
+Card 17
+Front: In "quantity comparison" inequality (Q1 vs Q2 with equations), what must you compute before comparing?
+Back: Solve or simplify both quantities fully (or compare structurally). Never assume from the form of the equation — e.g., x² = 16 gives x = ±4, so x may be less than, equal to, or greater than a positive value.
+
+Card 18
+Front: Trap in quadratic-based inequality: x² = 25 and y = 5. Is x ≥ y?
+Back: No. x = +5 or −5. When x = −5, x < y. Since both cases are possible, no definite relation holds — the answer is "cannot be determined".
+
+Card 19
+Front: What does "conclusion follows" mean logically in inequality questions?
+Back: It must be true in EVERY case allowed by the statements — not just possible. If even one valid arrangement breaks it, the conclusion does not follow.
+
+Card 20
+Front: Quick memory hook: what does the phrase "Strict symbol wins the chain" remind you?
+Back: If any link in a connected chain is ">" or "<", the end-to-end conclusion must also be strict (">" or "<"). Only an all-"≥" or all-"≤" chain allows a "≥"/"≤" conclusion.

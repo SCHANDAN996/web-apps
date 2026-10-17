@@ -1,0 +1,23 @@
+# /etc/systemd/system/studystation.service
+[Unit]
+Description=Study Station v2 (FastAPI)
+After=network.target
+
+[Service]
+User=studystation
+Group=studystation
+WorkingDirectory=/var/www/study_station/v2
+EnvironmentFile=/var/www/study_station/v2/.env
+# 2 workers suit SQLite (WAL) on a small VPS. Rate limits are per worker.
+ExecStart=/var/www/study_station/v2/venv/bin/uvicorn app.main:app --host 127.0.0.1 --port 8001 \
+          --workers 2 --proxy-headers --forwarded-allow-ips 127.0.0.1
+Restart=always
+RestartSec=3
+NoNewPrivileges=true
+ProtectSystem=full
+ProtectHome=true
+PrivateTmp=true
+ReadWritePaths=/var/lib/studystation /var/log/studystation
+
+[Install]
+WantedBy=multi-user.target

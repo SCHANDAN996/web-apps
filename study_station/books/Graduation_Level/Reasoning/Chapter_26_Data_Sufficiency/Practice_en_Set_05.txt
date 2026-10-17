@@ -1,0 +1,201 @@
+Questions 101–120: Medium | Questions 121–125: Hard
+
+101. Is the integer x divisible by 6?
+Statement 1: x is divisible by 3.
+Statement 2: x is divisible by 4.
+(a) Statement 1 alone is sufficient, but Statement 2 alone is not (b) Both statements together are sufficient, but neither alone is sufficient (c) Statement 2 alone is sufficient, but Statement 1 alone is not (d) Each statement alone is sufficient
+Answer: (b)
+Solution: The trap is assuming divisibility by 3 alone settles it — but 9 is divisible by 3 and not by 6, and Statement 2 alone also fails since 8 is divisible by 4 but not by 6. Together, x is divisible by both 3 and 4, hence by their LCM 12, and every multiple of 12 is divisible by 6, so both statements together are sufficient.
+Source: PYQ-style
+
+102. What is the value of the two-digit number?
+Statement 1: The sum of its digits is 9.
+Statement 2: The number obtained by reversing the digits exceeds the original number by 27.
+(a) Both statements together are sufficient, but neither alone is sufficient (b) Statement 2 alone is sufficient, but Statement 1 alone is not (c) Statement 1 alone is sufficient, but Statement 2 alone is not (d) Statements 1 and 2 together are not sufficient
+Answer: (a)
+Solution: The trap is picking Statement 2 alone, thinking one equation fixes the number — but a digit difference of 3 allows 14, 25, 36, 47, 58, 69, and Statement 1 alone allows 18, 27, 36, 45 and more. Together, only 36 satisfies both conditions, since 3 + 6 = 9 and 63 − 36 = 27, so both statements together are sufficient.
+Source: PYQ-style
+
+103. Is triangle ABC a right-angled triangle?
+Statement 1: The sides are in the ratio 3 : 4 : 5.
+Statement 2: The area of the triangle is 6 square units.
+(a) Statement 2 alone is sufficient, but Statement 1 alone is not (b) Each statement alone is sufficient (c) Both statements together are sufficient, but neither alone is sufficient (d) Statement 1 alone is sufficient, but Statement 2 alone is not
+Answer: (d)
+Solution: The trap is Statement 2: an area of 6 can belong to many triangles, right-angled or not, so it proves nothing about the angles. Statement 1 fixes the shape, and since 3² + 4² = 5², the converse of the Pythagoras theorem makes the triangle right-angled, so Statement 1 alone is sufficient.
+Source: NCERT Class 10 Mathematics
+
+104. Who is the tallest among A, B, C and D?
+Statement 1: A is taller than B but shorter than C.
+Statement 2: D is shorter than C.
+(a) Statement 1 alone is sufficient, but Statement 2 alone is not (b) Both statements together are sufficient, but neither alone is sufficient (c) Statement 2 alone is sufficient, but Statement 1 alone is not (d) Statements 1 and 2 together are not sufficient
+Answer: (b)
+Solution: The trap is answering with Statement 1 alone and ignoring D entirely — Statement 1 gives B < A < C but says nothing about D, and Statement 2 alone says nothing about A and B. Together, C is taller than A, B and D, so C is the tallest and both statements together are sufficient.
+Source: PYQ-style
+
+105. What is the average of five consecutive even numbers?
+Statement 1: The smallest number is 10.
+Statement 2: The largest number is 18.
+(a) Statement 2 alone is sufficient, but Statement 1 alone is not (b) Both statements together are sufficient, but neither alone is sufficient (c) Each statement alone is sufficient (d) Statement 1 alone is sufficient, but Statement 2 alone is not
+Answer: (c)
+Solution: The trap is thinking you need both ends of the sequence. From Statement 1 the numbers are 10, 12, 14, 16, 18 with average 14, and from Statement 2 the same five numbers follow, again giving 14. Each statement alone fixes the full set, so each statement alone is sufficient.
+Source: PYQ-style
+
+106. Is y positive?
+Statement 1: x + y is positive.
+Statement 2: x − y is positive.
+(a) Both statements together are sufficient, but neither alone is sufficient (b) Statement 2 alone is sufficient, but Statement 1 alone is not (c) Statements 1 and 2 together are not sufficient (d) Statement 1 alone is sufficient, but Statement 2 alone is not
+Answer: (c)
+Solution: The trap is adding the two statements to get 2x > 0 and concluding something about y — that only shows x is positive. With x = 5 and y = −3 both statements hold yet y is negative, while x = 5 and y = 3 also satisfies both with y positive, so the statements together are not sufficient.
+Source: PYQ-style
+
+107. In a class of 40 students, how many passed both Mathematics and English?
+Statement 1: 30 students passed Mathematics.
+Statement 2: 25 students passed English, and every student passed at least one subject.
+(a) Statement 1 alone is sufficient, but Statement 2 alone is not (b) Both statements together are sufficient, but neither alone is sufficient (c) Each statement alone is sufficient (d) Statement 2 alone is sufficient, but Statement 1 alone is not
+Answer: (b)
+Solution: Neither statement alone gives the overlap of the two subjects. The trap is forgetting the condition that everyone passed at least one subject — without it the formula fails. Together, both = 30 + 25 − 40 = 15, so both statements together are sufficient.
+Source: NCERT Class 11 Mathematics
+
+108. What is the speed of the train?
+Statement 1: The train crosses a pole in 12 seconds.
+Statement 2: The train is 240 metres long.
+(a) Statement 1 alone is sufficient, but Statement 2 alone is not (b) Statement 2 alone is sufficient, but Statement 1 alone is not (c) Both statements together are sufficient, but neither alone is sufficient (d) Each statement alone is sufficient
+Answer: (c)
+Solution: The trap is assuming that crossing a pole gives speed directly — Statement 1 gives time but no distance, and Statement 2 gives length but no time. Together, speed = 240/12 = 20 m/s, so both statements together are sufficient.
+Source: PYQ-style
+
+109. Is the integer n odd?
+Statement 1: n² is odd.
+Statement 2: 3n is odd.
+(a) Both statements together are sufficient, but neither alone is sufficient (b) Statement 2 alone is sufficient, but Statement 1 alone is not (c) Each statement alone is sufficient (d) Statement 1 alone is sufficient, but Statement 2 alone is not
+Answer: (c)
+Solution: The trap is thinking a square can hide parity — it cannot, since n² is odd only when n is odd, so Statement 1 suffices. Likewise 3n is odd only when n is odd because 3 is odd, so Statement 2 also suffices alone, meaning each statement alone is sufficient.
+Source: NCERT Class 10 Mathematics
+
+110. What is the code for "sky" in a certain code language?
+Statement 1: In that language, "blue sky high" is coded as "ta ra sa".
+Statement 2: In that language, "sky is blue" is coded as "ra ma ta".
+(a) Statement 1 alone is sufficient, but Statement 2 alone is not (b) Statement 2 alone is sufficient, but Statement 1 alone is not (c) Both statements together are sufficient, but neither alone is sufficient (d) Statements 1 and 2 together are not sufficient
+Answer: (d)
+Solution: The trap is assuming word order matches code order — it need not, so neither statement alone separates the codes. Together, the two sentences share the words "sky" and "blue" and the codes "ta" and "ra", but which code belongs to "sky" remains undecided, so the statements together are not sufficient.
+Source: PYQ-style
+
+111. What is the present age of Ravi?
+Statement 1: Ravi is twice as old as his son.
+Statement 2: Five years ago, Ravi was three times as old as his son.
+(a) Statement 1 alone is sufficient, but Statement 2 alone is not (b) Statement 2 alone is sufficient, but Statement 1 alone is not (c) Each statement alone is sufficient (d) Both statements together are sufficient, but neither alone is sufficient
+Answer: (d)
+Solution: The trap is treating "twice as old" as a fixed age — each statement alone is one equation with two unknowns, so infinitely many age pairs fit. Together, R = 2S and R − 5 = 3(S − 5) give S = 10 and R = 20, so both statements together are sufficient.
+Source: PYQ-style
+
+112. Is x > y?
+Statement 1: x² > y².
+Statement 2: x > 0 and y > 0.
+(a) Statement 2 alone is sufficient, but Statement 1 alone is not (b) Both statements together are sufficient, but neither alone is sufficient (c) Statements 1 and 2 together are not sufficient (d) Statement 1 alone is sufficient, but Statement 2 alone is not
+Answer: (b)
+Solution: The classic trap is assuming x² > y² implies x > y — but x = −5, y = 3 satisfies Statement 1 while x < y, and Statement 2 alone says nothing about their relative size. Together, with both numbers positive, x² > y² forces x > y, so both statements together are sufficient.
+Source: PYQ-style
+
+113. How many children are there in the row?
+Statement 1: Rani is 8th from the left end.
+Statement 2: Rani is 12th from the right end.
+(a) Statement 2 alone is sufficient, but Statement 1 alone is not (b) Both statements together are sufficient, but neither alone is sufficient (c) Statement 1 alone is sufficient, but Statement 2 alone is not (d) Each statement alone is sufficient
+Answer: (b)
+Solution: The trap is answering with a single statement — one position from one end never fixes the total. Together, total = 8 + 12 − 1 = 19, subtracting 1 because Rani is counted twice, so both statements together are sufficient.
+Source: PYQ-style
+
+114. What is the profit percentage earned by selling an article?
+Statement 1: The cost price is ₹500.
+Statement 2: The selling price is ₹600.
+(a) Each statement alone is sufficient (b) Statement 1 alone is sufficient, but Statement 2 alone is not (c) Statement 2 alone is sufficient, but Statement 1 alone is not (d) Both statements together are sufficient, but neither alone is sufficient
+Answer: (d)
+Solution: The trap is computing profit from the selling price alone by assuming some standard cost — profit percent needs both cost price and selling price, so each statement alone is useless. Together, profit % = (600 − 500)/500 × 100 = 20%, so both statements together are sufficient.
+Source: PYQ-style
+
+115. On which day of the week did Rahul reach Delhi?
+Statement 1: Rahul reached Delhi two days after his brother, who reached on Wednesday.
+Statement 2: Rahul reached Delhi before Saturday.
+(a) Statement 1 alone is sufficient, but Statement 2 alone is not (b) Statement 2 alone is sufficient, but Statement 1 alone is not (c) Both statements together are sufficient, but neither alone is sufficient (d) Each statement alone is sufficient
+Answer: (a)
+Solution: The trap is Statement 2, which looks helpful but allows any day from Monday to Friday — many possibilities. Statement 1 fixes the day directly: Wednesday plus two days is Friday, so Statement 1 alone is sufficient.
+Source: PYQ-style
+
+116. Is the quadrilateral ABCD a parallelogram?
+Statement 1: AB is parallel to CD.
+Statement 2: AB = CD.
+(a) Both statements together are sufficient, but neither alone is sufficient (b) Statement 1 alone is sufficient, but Statement 2 alone is not (c) Statement 2 alone is sufficient, but Statement 1 alone is not (d) Each statement alone is sufficient
+Answer: (a)
+Solution: The trap is Statement 1 alone: a trapezium also has one pair of parallel sides, and Statement 2 alone says nothing about parallelism. Together, one pair of sides being both parallel and equal makes ABCD a parallelogram, so both statements together are sufficient.
+Source: NCERT Class 9 Mathematics
+
+117. What is the value of p + q?
+Statement 1: p − q = 6.
+Statement 2: p² − q² = 72.
+(a) Each statement alone is sufficient (b) Statement 2 alone is sufficient, but Statement 1 alone is not (c) Both statements together are sufficient, but neither alone is sufficient (d) Statement 1 alone is sufficient, but Statement 2 alone is not
+Answer: (c)
+Solution: The trap is assuming Statement 2 alone fixes the sum — it factors as (p − q)(p + q) = 72, but without p − q the sum is indeterminate, and Statement 1 alone leaves p + q free. Together, 6(p + q) = 72 gives p + q = 12, so both statements together are sufficient.
+Source: PYQ-style
+
+118. Is the integer x even?
+Statement 1: x³ is even.
+Statement 2: x² is divisible by 4.
+(a) Statement 1 alone is sufficient, but Statement 2 alone is not (b) Statement 2 alone is sufficient, but Statement 1 alone is not (c) Each statement alone is sufficient (d) Both statements together are sufficient, but neither alone is sufficient
+Answer: (c)
+Solution: The trap is thinking a cube or square can hide parity — if x were odd, x³ would be odd, so Statement 1 forces x to be even. Similarly, if x were odd, x² would be odd and could not be divisible by 4, so Statement 2 also forces x to be even, meaning each statement alone is sufficient.
+Source: NCERT Class 10 Mathematics
+
+119. What is the rate of simple interest per annum?
+Statement 1: A sum doubles itself in 10 years at simple interest.
+Statement 2: The sum invested is ₹8,000.
+(a) Each statement alone is sufficient (b) Statement 2 alone is sufficient, but Statement 1 alone is not (c) Both statements together are sufficient, but neither alone is sufficient (d) Statement 1 alone is sufficient, but Statement 2 alone is not
+Answer: (d)
+Solution: The trap is Statement 2 — the principal is irrelevant to the rate when the doubling time is known. If a sum doubles in 10 years, the interest equals the principal, so rate = 100/10 = 10% per annum from Statement 1 alone, meaning Statement 1 alone is sufficient.
+Source: PYQ-style
+
+120. Is the integer x divisible by 4?
+Statement 1: x is divisible by 8.
+Statement 2: x is divisible by 12.
+(a) Each statement alone is sufficient (b) Statement 2 alone is sufficient, but Statement 1 alone is not (c) Statement 1 alone is sufficient, but Statement 2 alone is not (d) Both statements together are sufficient, but neither alone is sufficient
+Answer: (a)
+Solution: The trap is thinking one must combine the statements — but every multiple of 8 is automatically a multiple of 4, so Statement 1 answers yes by itself. Likewise 12 = 4 × 3, so every multiple of 12 is a multiple of 4 and Statement 2 also answers yes alone, meaning each statement alone is sufficient.
+Source: NCERT Class 8 Mathematics
+
+121. Is the positive integer k a perfect square?
+Statement 1: k has exactly three positive divisors.
+Statement 2: k is the square of a prime number.
+(a) Statement 1 alone is sufficient, but Statement 2 alone is not (b) Each statement alone is sufficient (c) Both statements together are sufficient, but neither alone is sufficient (d) Statement 2 alone is sufficient, but Statement 1 alone is not
+Answer: (b)
+Solution: The trap in Statement 1 is thinking three divisors could arise otherwise — exactly three divisors (1, p, p²) occurs only for squares of primes, so k must be a perfect square. Statement 2 directly says k is a prime squared, hence a perfect square, so each statement alone is sufficient.
+Source: PYQ-style
+
+122. What is the value of the integer m?
+Statement 1: m is a prime number between 10 and 20.
+Statement 2: m leaves remainder 1 when divided by 4.
+(a) Statements 1 and 2 together are not sufficient (b) Statement 2 alone is sufficient, but Statement 1 alone is not (c) Both statements together are sufficient, but neither alone is sufficient (d) Statement 1 alone is sufficient, but Statement 2 alone is not
+Answer: (a)
+Solution: Statement 1 gives 11, 13, 17, 19 — four options — and Statement 2 alone gives infinitely many values. The trap is assuming the intersection is unique: both 13 and 17 are primes between 10 and 20 leaving remainder 1 on division by 4, so even together m is not unique and the statements together are not sufficient.
+Source: PYQ-style
+
+123. A, B, C, D and E are sitting in a circle facing the centre. Who sits immediately to the left of C?
+Statement 1: A sits between B and C.
+Statement 2: D sits to the immediate right of B.
+(a) Both statements together are sufficient, but neither alone is sufficient (b) Statement 2 alone is sufficient, but Statement 1 alone is not (c) Statements 1 and 2 together are not sufficient (d) Statement 1 alone is sufficient, but Statement 2 alone is not
+Answer: (a)
+Solution: The trap is assuming "between" fixes orientation — Statement 1 alone leaves the arrangement ambiguous, and Statement 2 alone does not involve C at all. Together, facing the centre, the order around the circle becomes C, A, B, D, E, so E sits immediately to the left of C and both statements together are sufficient.
+Source: PYQ-style
+
+124. Is the three-digit number abc divisible by 9?
+Statement 1: a + b + c = 18.
+Statement 2: The number abc is divisible by 3.
+(a) Each statement alone is sufficient (b) Statement 2 alone is sufficient, but Statement 1 alone is not (c) Both statements together are sufficient, but neither alone is sufficient (d) Statement 1 alone is sufficient, but Statement 2 alone is not
+Answer: (d)
+Solution: The trap is Statement 2: divisibility by 3 does not imply divisibility by 9 — 12 is divisible by 3 but not by 9. Statement 1 uses the divisibility rule for 9: a digit sum of 18 is divisible by 9, so the number is divisible by 9 and Statement 1 alone is sufficient.
+Source: NCERT Class 8 Mathematics
+
+125. Six persons P, Q, R, S, T and U are of different weights. Who is the lightest?
+Statement 1: P is heavier than Q and R; S is heavier than P; T is heavier than S.
+Statement 2: U is heavier than T.
+(a) Statements 1 and 2 together are not sufficient (b) Statement 2 alone is sufficient, but Statement 1 alone is not (c) Both statements together are sufficient, but neither alone is sufficient (d) Statement 1 alone is sufficient, but Statement 2 alone is not
+Answer: (a)
+Solution: The trap is Statement 1: it builds the chain T > S > P > Q with P > R, but never compares Q and R — either could be the lightest. Statement 2 only adds U at the heavy end and changes nothing about Q versus R, so even together the lightest person is undetermined and the statements together are not sufficient.
+Source: PYQ-style

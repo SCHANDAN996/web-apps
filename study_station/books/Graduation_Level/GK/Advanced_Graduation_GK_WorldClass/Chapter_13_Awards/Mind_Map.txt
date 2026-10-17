@@ -1,0 +1,68 @@
+```mermaid
+graph TD
+    A["पुरस्कार और सम्मान<br>Awards & Honours"] --> B["भारतीय पुरस्कार<br>Indian Awards"]
+    A --> C["अंतरराष्ट्रीय पुरस्कार<br>International Awards"]
+    A --> D["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> E["रणनीति<br>Strategy"]
+
+    B --> B1["भारत रत्न<br>Bharat Ratna"]
+    B --> B2["पद्म पुरस्कार<br>Padma Awards"]
+    B --> B3["साहित्य/फ़िल्म<br>Literature & Film"]
+    B --> B4["खेल पुरस्कार<br>Sports Awards"]
+    B --> B5["वीरता पुरस्कार<br>Gallantry Awards"]
+
+    B1 --> B1a["सर्वोच्च नागरिक सम्मान<br>Highest Civilian Honour"]
+    B1 --> B1b["1954 से शुरू<br>Started 1954"]
+    B1 --> B1c["एक वर्ष में अधिकतम 3 (नियम)<br>अपवाद: 1999 में 4, 2024 में 5<br>Max 3 per year (rule); exceptions 1999 — 4, 2024 — 5"]
+    B1 --> B1d["पहले प्राप्तकर्ता: राजगोपालाचारी,<br>राधाकृष्णन, सी.वी. रमन (1954)"]
+
+    B2 --> B2a["पद्म विभूषण > पद्म भूषण > पद्म श्री<br>Order of Precedence"]
+    B2 --> B2b["1954 से<br>Since 1954"]
+    B2 --> B2c["गणतंत्र दिवस पर घोषणा<br>Announced on Republic Day"]
+
+    B3 --> B3a["ज्ञानपीठ पुरस्कार<br>Jnanpith Award"]
+    B3 --> B3b["साहित्य अकादमी पुरस्कार<br>Sahitya Akademi Award"]
+    B3 --> B3c["दादा साहेब फालके पुरस्कार<br>Dadasaheb Phalke Award"]
+
+    B4 --> B4a["मेजर ध्यानचंद खेल रत्न<br>Major Dhyan Chand Khel Ratna"]
+    B4 --> B4b["अर्जुन पुरस्कार<br>Arjuna Award"]
+    B4 --> B4c["द्रोणाचार्य पुरस्कार (कोच)<br>Dronacharya Award (Coaches)"]
+
+    B5 --> B5a["युद्धकाल: PVC > MVC > VrC<br>Wartime: PVC > MVC > VrC"]
+    B5 --> B5b["शांतिकाल: अशोक चक्र > कीर्ति चक्र > शौर्य चक्र<br>Peacetime: Ashoka > Kirti > Shaurya Chakra"]
+
+    C --> C1["नोबेल पुरस्कार<br>Nobel Prize"]
+    C --> C2["अन्य प्रमुख<br>Other Major Awards"]
+
+    C1 --> C1a["1901 से, 6 श्रेणियाँ<br>Since 1901, 6 Categories"]
+    C1 --> C1b["शांति पुरस्कार ओस्लो में,<br>बाकी स्टॉकहोम में<br>Peace in Oslo, rest in Stockholm"]
+    C1 --> C1c["भारतीय नोबेल विजेता<br>Indian Nobel Laureates"]
+    C1c --> C1c1["टैगोर 1913 (साहित्य)<br>Tagore 1913 (Literature)"]
+    C1c --> C1c2["सी.वी. रमन 1930 (भौतिकी)<br>C.V. Raman 1930 (Physics)"]
+    C1c --> C1c3["मदर टेरेसा 1979 (शांति)<br>Mother Teresa 1979 (Peace)"]
+    C1c --> C1c4["अमर्त्य सेन 1998 (अर्थशास्त्र)<br>Amartya Sen 1998 (Economics)"]
+    C1c --> C1c5["कैलाश सत्यार्थी 2014 (शांति)<br>Kailash Satyarthi 2014 (Peace)"]
+
+    C2 --> C2a["पुलित्ज़र (पत्रकारिता)<br>Pulitzer (Journalism)"]
+    C2 --> C2b["बुकर पुरस्कार (साहित्य)<br>Booker Prize (Literature)"]
+    C2 --> C2c["ऑस्कर (फ़िल्म)<br>Oscar/Academy Awards (Film)"]
+    C2 --> C2d["मैगसेसे पुरस्कार<br>Ramon Magsaysay Award"]
+    C2 --> C2e["फ़ील्ड्स मेडल (गणित)<br>Fields Medal (Mathematics)"]
+
+    D --> D1["क्रम का भ्रम<br>Order Confusion"]
+    D1 --> D1a["पद्म विभूषण ≠ पद्म भूषण<br>Rank order trap"]
+    D1 --> D1b["PVC ≠ अशोक चक्र<br>Wartime vs Peacetime"]
+    D --> D2["वर्ष का भ्रम<br>Year Confusion"]
+    D2 --> D2a["टैगोर 1913, रमन 1930<br>Tagore 1913, Raman 1930"]
+    D --> D3["नाम का भ्रम<br>Name Confusion"]
+    D3 --> D3a["खेल रत्न पहले 'राजीव गांधी खेल रत्न'<br>Khel Ratna renamed 2021"]
+    D3 --> D3b["ज्ञानपीठ ≠ साहित्य अकादमी<br>Jnanpith ≠ Sahitya Akademi"]
+    D --> D4["स्थान का भ्रम<br>Place Confusion"]
+    D4 --> D4a["नोबेल शांति = ओस्लो, न कि स्टॉकहोम<br>Nobel Peace = Oslo, not Stockholm"]
+
+    E --> E1["पहले स्थिर तथ्य पक्के करें<br>Master static facts first"]
+    E --> E2["वर्तमान विजेता साल-सहित याद करें<br>Recent winners with year"]
+    E --> E3["15/45 सेकंड नियम<br>15/45 Second Rule"]
+    E3 --> E3a["तुरंत पता = 15 सेकंड में उत्तर<br>Known = answer in 15 sec"]
+    E3 --> E3b["संदेह = 45 सेकंड बाद skip<br>Doubt = skip after 45 sec"]
+```

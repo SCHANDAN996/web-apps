@@ -1,0 +1,79 @@
+Card 1
+Front: What is the compound interest formula for amount when interest is compounded annually?
+Back: A = P(1 + R/100)^T, where P = principal, R = rate % per annum, T = time in years. CI = A − P.
+
+Card 2
+Front: What is the CI formula when interest is compounded half-yearly?
+Back: A = P(1 + R/200)^(2T) — rate is halved, time is doubled.
+
+Card 3
+Front: What is the CI formula when interest is compounded quarterly?
+Back: A = P(1 + R/400)^(4T) — rate is divided by 4, time is multiplied by 4.
+
+Card 4
+Front: What is the difference between CI and SI for 2 years at rate R%?
+Back: CI − SI = P(R/100)². It equals the simple interest on the first year's interest.
+
+Card 5
+Front: What is the difference between CI and SI for 3 years at rate R%?
+Back: CI − SI = P(R/100)² × (3 + R/100).
+
+Card 6
+Front: A sum doubles in 5 years at compound interest. In how many years will it become 8 times?
+Back: 15 years. 8 = 2³, so it needs 3 doubling periods: 3 × 5 = 15 years.
+
+Card 7
+Front: What is the effective annual rate when 10% p.a. is compounded half-yearly?
+Back: 10.25%. Because (1 + 5/100)² = 1.1025, i.e., a gain of 10.25% in one year.
+
+Card 8
+Front: What is the mnemonic to remember how compounding frequency changes rate and time?
+Back: "Divide the Rate, Multiply the Time" — more frequent compounding → smaller rate per period, more periods (half-yearly: R/2, 2T; quarterly: R/4, 4T).
+
+Card 9
+Front: What is the mnemonic for the 2-year CI–SI difference formula?
+Back: "Interest on Interest" — the difference is simply SI on the first year's interest: P(R/100)². Remember: CI beats SI only because interest earns interest.
+
+Card 10
+Front: What is the formula for CI when rates are different each year (R₁, R₂, R₃)?
+Back: A = P(1 + R₁/100)(1 + R₂/100)(1 + R₃/100).
+
+Card 11
+Front: How do you compute CI when time is a fraction, e.g., 2⅓ years at R%?
+Back: A = P(1 + R/100)² × (1 + (R/3)/100) — apply full years normally, then the fractional part of the rate for the fraction of a year.
+
+Card 12
+Front: What is the formula for population growth (or depreciation) using compound interest?
+Back: Population after T years = P(1 + R/100)^T; depreciation: Value = P(1 − R/100)^T.
+
+Card 13
+Front: If a sum becomes ₹x in T years and ₹y in (T+1) years at CI, what is the rate of interest?
+Back: R = (y − x)/x × 100%. The one-year growth ratio gives the rate directly.
+
+Card 14
+Front: What is the quick CI for 2 years at 10% on ₹10,000 without using the power formula?
+Back: Year 1 interest = ₹1,000; Year 2 interest = ₹1,000 + 10% of ₹1,000 = ₹1,100. Total CI = ₹2,100 (Amount ₹12,100).
+
+Card 15
+Front: What is the "successive percentage" shortcut for 2-year CI at R%?
+Back: Effective 2-year rate = R + R + (R×R)/100 = 2R + R²/100. E.g., at 10%: 21%.
+
+Card 16
+Front: What is the mnemonic for the successive percentage formula a + b + ab/100?
+Back: "Add, then Add the Product" — first add the two rates, then add their product divided by 100. Works for CI, population change, and price hikes.
+
+Card 17
+Front: When is compound interest equal to simple interest?
+Back: Only for the first year (T = 1) at the same rate and principal. For T > 1, CI always exceeds SI.
+
+Card 18
+Front: If CI for the 2nd year is ₹1,210 and for the 3rd year is ₹1,331, what is the rate?
+Back: R = (1,331 − 1,210)/1,210 × 100 = 10%. Each year's interest grows by the rate itself.
+
+Card 19
+Front: What is present worth (principal) when amount A, rate R, and time T are given under CI?
+Back: P = A / (1 + R/100)^T.
+
+Card 20
+Front: Why do examiners' traps often mix up "compounded annually" and "compounded half-yearly"?
+Back: Because students forget to halve the rate and double the time. At 10% half-yearly for 1 year, the answer is 10.25%, not 10% — the small gap is the trap.

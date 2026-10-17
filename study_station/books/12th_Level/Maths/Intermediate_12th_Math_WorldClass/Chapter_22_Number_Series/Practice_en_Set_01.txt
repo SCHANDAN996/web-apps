@@ -1,3 +1,149 @@
-# Chapter: Number Series, Level: intermediate, Set: 1/6
+1. Find the next term: 2, 4, 6, 8, 10, ?
+(a) 11 (b) 12 (c) 14 (d) 16
+Answer: (b)
+Solution: Each term increases by 2. The tempting option 11 comes from adding 1, but the constant difference is 2, so 10 + 2 = 12. The answer is 12.
+Source: NCERT Class 8 Mathematics
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Number Series. This is Set 1 (total 6 sets, 150 questions). Questions must be numbered 1 to 25. Questions 1 to 20 should be Easy, Questions 21 to 25 should be Medium. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+2. Find the next term: 5, 10, 15, 20, ?
+(a) 22 (b) 24 (c) 30 (d) 25
+Answer: (d)
+Solution: This is a simple arithmetic series with common difference 5. Option 24 tempts those who add 4 by mistake, but 20 + 5 = 25. The answer is 25.
+Source: NCERT Class 8 Mathematics
+
+3. Find the next term: 3, 6, 12, 24, ?
+(a) 48 (b) 42 (c) 36 (d) 30
+Answer: (a)
+Solution: Each term is double the previous one (×2 pattern). Option 36 tempts those who add 12 instead of multiplying, but 24 × 2 = 48. The answer is 48.
+Source: NCERT Class 8 Mathematics
+
+4. Find the next term: 1, 4, 9, 16, 25, ?
+(a) 30 (b) 35 (c) 36 (d) 49
+Answer: (c)
+Solution: These are perfect squares: 1², 2², 3², 4², 5², so the next is 6² = 36. Option 49 tempts those who jump to 7², skipping 6². The answer is 36.
+Source: NCERT Class 8 Mathematics
+
+5. Find the next term: 100, 90, 80, 70, ?
+(a) 65 (b) 60 (c) 55 (d) 50
+Answer: (b)
+Solution: Each term decreases by 10. Option 65 tempts those who subtract 5, but the constant difference is −10, so 70 − 10 = 60. The answer is 60.
+Source: NCERT Class 8 Mathematics
+
+6. Find the next term: 7, 14, 28, 56, ?
+(a) 112 (b) 100 (c) 84 (d) 108
+Answer: (a)
+Solution: Each term is multiplied by 2. Option 84 tempts those who add 28 instead of doubling, but 56 × 2 = 112. The answer is 112.
+Source: NCERT Class 8 Mathematics
+
+7. Find the next term: 1, 1, 2, 3, 5, 8, ?
+(a) 11 (b) 12 (c) 13 (d) 14
+Answer: (c)
+Solution: This is the Fibonacci series — each term is the sum of the previous two: 5 + 8 = 13. Option 11 tempts those who add only the last difference (3) to 8. The answer is 13.
+Source: NCERT Class 11 Mathematics
+
+8. Find the next term: 11, 13, 17, 19, 23, ?
+(a) 29 (b) 27 (c) 25 (d) 31
+Answer: (a)
+Solution: These are consecutive prime numbers starting from 11. The next prime after 23 is 29. Option 25 tempts those who just add 2, but 25 is not prime. The answer is 29.
+Source: NCERT Class 8 Mathematics
+
+9. Find the next term: 4, 8, 12, 16, 20, ?
+(a) 22 (b) 26 (c) 24 (d) 28
+Answer: (c)
+Solution: The series increases by 4 each time (multiples of 4). Option 22 tempts those who add 2, but 20 + 4 = 24. The answer is 24.
+Source: NCERT Class 8 Mathematics
+
+10. Find the next term: 81, 27, 9, 3, ?
+(a) 0 (b) 2 (c) 1 (d) 6
+Answer: (c)
+Solution: Each term is divided by 3. Option 0 tempts those who think the series ends, but 3 ÷ 3 = 1. The answer is 1.
+Source: NCERT Class 8 Mathematics
+
+11. Find the next term: 2, 5, 8, 11, 14, ?
+(a) 16 (b) 19 (c) 18 (d) 17
+Answer: (d)
+Solution: The common difference is +3. Option 16 tempts those who add 2, but 14 + 3 = 17. The answer is 17.
+Source: NCERT Class 8 Mathematics
+
+12. Find the next term: 1, 8, 27, 64, ?
+(a) 100 (b) 121 (c) 125 (d) 216
+Answer: (c)
+Solution: These are perfect cubes: 1³, 2³, 3³, 4³, so the next is 5³ = 125. Option 100 tempts those who square 10, but the pattern is cubes. The answer is 125.
+Source: NCERT Class 8 Mathematics
+
+13. Find the next term: 50, 45, 40, 35, ?
+(a) 30 (b) 28 (c) 25 (d) 32
+Answer: (a)
+Solution: Each term decreases by 5. Option 25 tempts those who subtract 10, but 35 − 5 = 30. The answer is 30.
+Source: NCERT Class 8 Mathematics
+
+14. Find the next term: 6, 12, 24, 48, ?
+(a) 96 (b) 84 (c) 72 (d) 90
+Answer: (a)
+Solution: Each term doubles. Option 72 tempts those who add 24 instead of multiplying by 2, but 48 × 2 = 96. The answer is 96.
+Source: NCERT Class 8 Mathematics
+
+15. Find the next term: 9, 18, 27, 36, ?
+(a) 45 (b) 42 (c) 48 (d) 54
+Answer: (a)
+Solution: These are multiples of 9, increasing by 9 each time. Option 42 tempts those who add 6, but 36 + 9 = 45. The answer is 45.
+Source: NCERT Class 8 Mathematics
+
+16. Find the next term: 1, 3, 6, 10, 15, ?
+(a) 20 (b) 22 (c) 21 (d) 24
+Answer: (c)
+Solution: The differences increase by 1 each time: +2, +3, +4, +5, so the next difference is +6, giving 15 + 6 = 21. These are triangular numbers. Option 20 tempts those who add 5 again. The answer is 21.
+Source: NCERT Class 8 Mathematics
+
+17. Find the next term: 13, 26, 39, 52, ?
+(a) 60 (b) 65 (c) 63 (d) 68
+Answer: (b)
+Solution: These are multiples of 13, increasing by 13. Option 63 tempts those who add 11, but 52 + 13 = 65. The answer is 65.
+Source: NCERT Class 8 Mathematics
+
+18. Find the next term: 256, 128, 64, 32, ?
+(a) 24 (b) 16 (c) 20 (d) 8
+Answer: (b)
+Solution: Each term is halved (÷2). Option 24 tempts those who subtract 8, but 32 ÷ 2 = 16. The answer is 16.
+Source: NCERT Class 8 Mathematics
+
+19. Find the next term: 10, 20, 30, 40, ?
+(a) 45 (b) 60 (c) 55 (d) 50
+Answer: (d)
+Solution: The series increases by 10 each time. Option 45 tempts those who add 5, but 40 + 10 = 50. The answer is 50.
+Source: NCERT Class 8 Mathematics
+
+20. Find the next term: 2, 3, 5, 7, 11, ?
+(a) 13 (b) 12 (c) 14 (d) 15
+Answer: (a)
+Solution: These are consecutive prime numbers. The next prime after 11 is 13. Option 12 tempts those who simply add 1, but 12 is not prime. The answer is 13.
+Source: NCERT Class 8 Mathematics
+
+21. Find the next term: 3, 7, 15, 31, 63, ?
+(a) 95 (b) 127 (c) 111 (d) 125
+Answer: (b)
+Solution: The pattern is ×2 + 1: 3×2+1 = 7, 7×2+1 = 15, and so on. Option 125 tempts those who only double 63 and subtract 1 wrongly, but 63 × 2 + 1 = 127. The answer is 127.
+Source: PYQ-style
+
+22. Find the next term: 2, 6, 12, 20, 30, ?
+(a) 36 (b) 42 (c) 40 (d) 44
+Answer: (b)
+Solution: The differences are +4, +6, +8, +10, so the next difference is +12, giving 30 + 12 = 42. Equivalently, terms are n² + n. Option 40 tempts those who add 10 again. The answer is 42.
+Source: PYQ-style
+
+23. Find the wrong term: 5, 10, 17, 26, 37, 48, 65
+(a) 17 (b) 26 (c) 65 (d) 48
+Answer: (d)
+Solution: The pattern is n² + 1 for n = 2, 3, 4, …: 5, 10, 17, 26, 37, 50, 65. The term 48 should be 50 (7² + 1). Option 26 tempts because 26 looks odd among round numbers, but it fits 5² + 1. The wrong term is 48.
+Source: PYQ-style
+
+24. Find the next term: 1, 2, 6, 24, 120, ?
+(a) 240 (b) 480 (c) 600 (d) 720
+Answer: (d)
+Solution: The pattern is ×2, ×3, ×4, ×5, so next is ×6: 120 × 6 = 720. These are factorials (1!, 2!, 3!, 4!, 5!, 6!). Option 600 tempts those who multiply by 5 again. The answer is 720.
+Source: PYQ-style
+
+25. Find the next term: 4, 9, 19, 39, 79, ?
+(a) 149 (b) 158 (c) 160 (d) 159
+Answer: (d)
+Solution: The pattern is ×2 + 1: 4×2+1 = 9, 9×2+1 = 19, 19×2+1 = 39, 39×2+1 = 79, so 79 × 2 + 1 = 159. Option 158 tempts those who only double and forget the +1. The answer is 159.
+Source: PYQ-style

@@ -1,0 +1,52 @@
+```mermaid
+graph TD
+    A["संख्या प्रणाली (उन्नत)<br>Number System (Advanced)"] --> B["संख्याओं के प्रकार<br>Types of Numbers"]
+    A --> C["विभाज्यता<br>Divisibility"]
+    A --> D["शेषफल प्रमेय<br>Remainder Theorems"]
+    A --> E["इकाई अंक<br>Unit Digit"]
+    A --> F["अपघटन एवं गुणनखंड<br>Factors & Factorisation"]
+    A --> G["HCF और LCM<br>HCF & LCM"]
+    A --> H["आधार प्रणाली<br>Base Systems"]
+    A --> I["अंकों का योग एवं<br>संख्या निर्माण<br>Digit Sum & Formation"]
+
+    B --> B1["प्राकृतिक / पूर्ण / पूर्णांक<br>Natural / Whole / Integers"]
+    B --> B2["अभाज्य और भाज्य<br>Prime & Composite"]
+    B --> B3["परिमेय और अपरिमेय<br>Rational & Irrational"]
+    B --> B4["वास्तविक और सम्मिश्र<br>Real & Complex"]
+    B --> B5["सह-अभाज्य, युग्म अभाज्य<br>Co-prime, Twin Prime"]
+
+    C --> C1["विभाज्यता नियम 2–19<br>Divisibility Rules 2–19"]
+    C --> C2["यौगिक नियम: 6, 12, 15, 18<br>Composite Rules"]
+    C --> C3["विभाजन एल्गोरिथ्म<br>a = bq + r"]
+    C --> C4["शेषफल गुणधर्म<br>Remainder Properties"]
+
+    D --> D1["ऑयलर प्रमेय<br>Euler's Theorem"]
+    D --> D2["फर्मा का लघु प्रमेय<br>Fermat's Little Theorem"]
+    D --> D3["विल्सन प्रमेय<br>Wilson's Theorem"]
+    D --> D4["चीनी शेषफल प्रमेय<br>Chinese Remainder Theorem"]
+    D --> D5["घातांक का शेषफल<br>Remainder of Powers"]
+
+    E --> E1["चक्रीयता 1, 2, 3, 4<br>Cyclicity 1, 2, 3, 4"]
+    E --> E2["घात ÷ चक्रीयता<br>Power mod Cyclicity"]
+    E --> E3["0, 1, 5, 6 सदैव स्थिर<br>0, 1, 5, 6 Always Fixed"]
+
+    F --> F1["गुणनखंडों की संख्या<br>Number of Factors"]
+    F --> F2["गुणनखंडों का योग/गुणनफल<br>Sum & Product of Factors"]
+    F --> F3["सम/विषम गुणनखंड<br>Even/Odd Factors"]
+    F --> F4["पूर्ण वर्ग: विषम गुणनखंड<br>Perfect Square: Odd Factors"]
+    F --> F5["n! में अभाज्य की घात<br>Prime Power in n!"]
+    F --> F6["n! में शून्यों की संख्या<br>Trailing Zeroes in n!"]
+
+    G --> G1["यूक्लिड विधि<br>Euclid's Method"]
+    G --> G2["HCF × LCM = a × b"]
+    G --> G3["भिन्नों का HCF/LCM<br>HCF/LCM of Fractions"]
+    G --> G4["शेषफल-आधारित प्रश्न<br>Remainder-based Problems"]
+
+    H --> H1["द्विआधारी, अष्टाधारी, षोडश<br>Binary, Octal, Hexadecimal"]
+    H --> H2["आधार परिवर्तन<br>Base Conversion"]
+    H --> H3["आधार में संक्रियाएँ<br>Operations in Bases"]
+
+    I --> I1["अंकों का योग / डिजिटल रूट<br>Digit Sum / Digital Root"]
+    I --> I2["संख्या और उलटी संख्या<br>Number & Reversed Number"]
+    I --> I3["अंक-विनिमय प्रश्न<br>Digit Interchange Problems"]
+```

@@ -1,20 +1,25 @@
 ```mermaid
 graph TD
-    R["👨‍👩‍👧 रक्त संबंध<br>Blood Relations"]
-    R --> D["📖 अर्थ<br>रिश्तों की पहेली सुलझाना"]
-    R --> M["🗝️ नियम<br>परिवार वृक्ष बनाओ"]
-    R --> T["📂 प्रकार<br>Types"]
-    R --> TR["⚠️ जाल<br>Traps"]
+    A["रक्त संबंध / Blood Relations"]
 
-    M --> M1["पुरुष +/□, स्त्री −/○"]
-    M --> M2["पति-पत्नी = चिह्न"]
-    M --> M3["एक पीढ़ी एक रेखा पर"]
+    A --> T["मुख्य प्रकार<br>Major Types"]
+    A --> S["हल करने की तकनीकें<br>Solving Strategies"]
+    A --> TR["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> TM["समय प्रबंधन<br>Time Management"]
 
-    T --> T1["सीधा संबंध<br>Direct"]
-    T --> T2["फ़ोटो/इशारा पहेली<br>Pointing to Photo"]
-    T --> T3["कूट रक्त संबंध<br>Coded Relations"]
+    T --> T1["पहेली / कथन आधारित<br>Puzzle / Statement Based"]
+    T --> T2["संकेत / तस्वीर आधारित<br>Pointing / Photo Based"]
+    T --> T3["कोडेड संबंध<br>Coded Relations (+, -, ×)"]
 
-    TR --> TR1["लिंग मान लेना"]
-    TR --> TR2["पीढ़ी उलटना"]
-    TR --> TR3["ननिहाल बनाम ददिहाल"]
+    S --> S1["वंश-वृक्ष प्रतीक<br>Family Tree Symbols (+ male, - female)"]
+    S --> S2["पीढ़ी क्रम नियम<br>Generation Hierarchy Rule"]
+    S --> S3["एकमात्र शब्द का जादू<br>'Only' Superpower Shortcut"]
+    S --> S4["पीछे से ट्रेसिंग<br>Backward Tracing Technique"]
+
+    TR --> TR1["नाम से लिंग का अनुमान<br>Never Assume Gender from Name"]
+    TR --> TR2["उल्टा संबंध भ्रम<br>Reversing Subject & Object (A to B)"]
+    TR --> TR3["पितृपक्ष बनाम मातृपक्ष<br>Paternal vs Maternal (चाचा/मामा)"]
+
+    TM --> TM1["15 सेकंड नियम<br>Quick photo/statement identification"]
+    TM --> TM2["45 सेकंड अधिकतम सीमा<br>Draw family tree, avoid stalling"]
 ```

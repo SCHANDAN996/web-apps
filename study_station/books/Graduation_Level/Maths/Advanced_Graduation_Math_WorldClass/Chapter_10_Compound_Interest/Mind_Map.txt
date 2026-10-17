@@ -1,0 +1,44 @@
+```mermaid
+graph TD
+    A["चक्रवृद्धि ब्याज<br>Compound Interest"] --> B["मूल अवधारणा<br>Basic Concept"]
+    A --> C["मुख्य सूत्र<br>Main Formulas"]
+    A --> D["ब्याज-आवृत्ति<br>Compounding Frequency"]
+    A --> E["SI बनाम CI<br>SI vs CI"]
+    A --> F["विशेष स्थितियाँ<br>Special Cases"]
+    A --> G["अनुप्रयोग<br>Applications"]
+    A --> H["परीक्षा ट्रैप<br>Exam Traps"]
+
+    B --> B1["ब्याज पर ब्याज<br>Interest on Interest"]
+    B --> B2["मूलधन P, दर R, समय T<br>Principal, Rate, Time"]
+    B --> B3["मिश्रधन A = P + CI<br>Amount = P + CI"]
+
+    C --> C1["A = P(1 + R/100)^T"]
+    C --> C2["CI = P[(1 + R/100)^T − 1]"]
+    C --> C3["2 वर्ष का CI<br>CI = P·R/100·(2 + R/100)"]
+    C --> C4["CI − SI (2 वर्ष)<br>= P(R/100)²"]
+    C --> C5["CI − SI (3 वर्ष)<br>= P(R/100)²(3 + R/100)"]
+
+    D --> D1["अर्धवार्षिक<br>Half-yearly: R/2, 2T"]
+    D --> D2["त्रैमासिक<br>Quarterly: R/4, 4T"]
+    D --> D3["मासिक<br>Monthly: R/12, 12T"]
+    D --> D4["विभिन्न दरें<br>Different Rates: (1+R₁/100)(1+R₂/100)(1+R₃/100)"]
+
+    E --> E1["SI समान रहता है<br>SI stays constant"]
+    E --> E2["CI घातांकीय बढ़ता है<br>CI grows exponentially"]
+    E --> E3["पहले वर्ष CI = SI<br>1st year CI = SI"]
+
+    F --> F1["भिन्नात्मक समय<br>Fractional Time"]
+    F --> F2["किस्तों में भुगतान<br>Installments"]
+    F --> F3["जनसंख्या/मूल्यह्रास<br>Population / Depreciation"]
+    F --> F4["दोगुना/तिगुना होने का समय<br>Doubling / Tripling Time"]
+
+    G --> G1["बैंक जमा और ऋण<br>Bank Deposits & Loans"]
+    G --> G2["मशीन का मूल्यह्रास<br>Depreciation of Assets"]
+    G --> G3["जनसंख्या वृद्धि<br>Population Growth"]
+    G --> G4["EMI और किस्तें<br>EMI & Installments"]
+
+    H --> H1["R और T को आवृत्ति से बदलना न भूलें<br>Adjust R & T for frequency"]
+    H --> H2["CI पूछा है या A?<br>CI asked or Amount?"]
+    H --> H3["वार्षिक बनाम अर्धवार्षिक भ्रम<br>Annual vs Half-yearly confusion"]
+    H --> H4["साधारण ब्याज से मिलान गलती<br>Mixing SI logic with CI"]
+```

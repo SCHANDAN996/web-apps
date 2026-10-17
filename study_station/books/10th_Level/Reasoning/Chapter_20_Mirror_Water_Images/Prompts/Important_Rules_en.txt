@@ -1,96 +1,10 @@
-📋 Important Rules & Approaches
-1. Key Rules / Approaches
-Rule Name	Description	Example
-Vertical Mirror Flip	Flips left ↔ right; does not flip top ↔ bottom.	Arrow pointing right → points left; arrow pointing up → still points up.
-Horizontal Mirror / Water Flip	Flips top ↔ bottom; does not flip left ↔ right.	Arrow pointing up → points down; arrow pointing right → still points right.
-Letter Vertical Symmetry	Letters A, H, I, M, O, T, U, V, W, X, Y remain same in vertical mirror.	Mirror of "MOM" → "MOM".
-Digit Vertical Symmetry	Digits 0, 1, 8 remain same in vertical mirror.	Mirror of 8 → 8.
-Water Image Letter Trick	In water, M ↔ W and W ↔ M because top-bottom flip exchanges them.	Water image of "MOM" → "WOW".
-Water Image Digit Swap	In water, 6 ↔ 9 due to top‑bottom reversal; other digits change shape.	Water image of 69 → 96.
-Clock – Mirror Image Formula	Mirror time = 12:00 – Actual time (use 11:60 if minutes ≠ 00).	Actual 4:25 → 11:60 – 4:25 = 7:35.
-Clock – Water Image Formula	Water time = 18:30 – Actual time (adjust to 12‑hour format if needed).	Actual 7:40 → 18:30 – 7:40 = 10:50.
-Dot Method (Shapes)	For vertical mirror: keep vertical distance, flip horizontal distance across mirror line. For water: keep horizontal, flip vertical.	L‑shape with mirror on right: horizontal flip gives backward L.
-Mnemonic Trick	Cross hands (right‑left) for mirror; upside‑down clap for water.	Acts as a quick body memory to avoid confusing the two flips.
-Trap Check	Always verify letter/digit chart; double‑check arrow directions, small notches, and subtle curves.	Two identical‑looking options differ only by a tiny arrow.
-2. Time Management
-Rule	Description	Action
-15‑Second Rule	If you can’t recall the correct flip rule or symmetry for a given letter/digit within 15 seconds,	Mark the question, skip, and return later.
-45‑Second Rule	If a complex shape question (dot method) takes more than 45 seconds,	Skip immediately; do it after finishing easier ones.
-First 5‑Second Check	In clock problems, spend 5 seconds confirming whether it's mirror or water to apply correct formula.	Wrong formula → instant wrong answer; prevent by quick label check.
-Option Elimination	Eliminate obviously wrong options by checking one or two key points (e.g., arrow direction, letter M/W) before full solve.	Saves time by reducing choices.
-3. Logical / Mathematical Formulas
-Formula Name	Formula	Application
-Mirror Clock Time
-Mirror Time
-=
-12
-:
-00
-−
-Actual Time
-Mirror Time=12:00−Actual Time
-(or
-11
-:
-60
-−
-Actual Time
-11:60−Actual Time when minutes ≠ 0)	Find the time shown in a vertical mirror image of a clock.
-Water Clock Time
-Water Image Time
-=
-18
-:
-30
-−
-Actual Time
-Water Image Time=18:30−Actual Time
-(then adjust to 12‑hour clock if required)	Find the time shown in water or horizontal mirror reflection of a clock.
-Mirror Flip (Coordinate)
-(
-𝑥
-,
-𝑦
-)
-→
-vertical mirror at 
-𝑥
-=
-𝑚
-(
-2
-𝑚
-−
-𝑥
-,
-𝑦
-)
-(x,y)
-vertical mirror at x=m
-	​
+# Chapter: Mirror & Water Images, Level: foundation, Type: Non-verbal Reasoning
 
-(2m−x,y)	Not usually tested directly; underlying principle for point reflection.
-Water Flip (Coordinate)
-(
-𝑥
-,
-𝑦
-)
-→
-horizontal mirror at 
-𝑦
-=
-𝑛
-(
-𝑥
-,
-2
-𝑛
-−
-𝑦
-)
-(x,y)
-horizontal mirror at y=n
-	​
-
-(x,2n−y)	Same as above for top‑bottom flip.
+@content_agent lang=en level=foundation 'List all important rules, approaches, time management tips, and logical formulas (if any) for Mirror & Water Images in a clean table.
+Instructions:
+- Table has three parts:
+  1. "Key Rules/Approaches" – Rule Name | Description | Example
+  2. "Time Management" – 15-second and 45-second rule (e.g., "If pattern not understood in 15 sec, skip").
+  3. "Logical/Mathematical Formulas" – if applicable; otherwise "No formulas for this chapter".
+- No explanation, just tabular data.
+- Keep language simple and precise.

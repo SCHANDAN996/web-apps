@@ -1,0 +1,142 @@
+# 📊 PYQ Analysis — Coding-Decoding (10-Year Pattern Study)
+
+**Note on data:** This section is a *pattern analysis* based on the recurring style of questions seen in SSC (CGL, CHSL, MTS), Banking (IBPS, SBI), and Railway (RRB NTPC, Group D) exams. We do not claim exact year-wise counts or percentages — instead, we describe *what* is asked, *how often in relative terms*, and *where the traps lie*.
+
+---
+
+## 1. How Often Does Coding-Decoding Appear?
+
+Coding-Decoding is one of the **most reliable** chapters in Verbal Reasoning. Across SSC, Banking, and Railway exams, it appears in **almost every shift/paper**, typically contributing a small but guaranteed block of questions in the reasoning section.
+
+- **SSC CGL / CHSL:** A regular fixture — usually letter-coding and number-coding questions, sometimes 2–4 per paper.
+- **SSC MTS / GD:** Simpler direct letter-shift questions dominate.
+- **Banking (IBPS PO/Clerk, SBI):** Leans toward **sentence coding** ("in a certain code language…") and **symbol-based coding** with conditions — often 3–5 questions in a set.
+- **RRB NTPC / Group D:** Mixed letter and number coding, moderate difficulty.
+
+**Takeaway:** You cannot skip this chapter. It is low-effort, high-return — most questions are solvable in under 45 seconds once the pattern is spotted.
+
+---
+
+## 2. Sub-Topic Weightage (Relative Importance)
+
+Based on the recurring pattern across exams, the sub-topics rank roughly as follows:
+
+| Sub-topic | Relative frequency | Exams where dominant |
+|---|---|---|
+| Letter shifting (A→C, +2 type) | ★★★★★ | All exams, esp. SSC MTS/GD |
+| Letter-to-number coding (A=1…Z=26) | ★★★★ | SSC CGL/CHSL, RRB |
+| Sentence coding ("code language" type) | ★★★★ | Banking, SSC CGL |
+| Reverse order / opposite letters (A↔Z) | ★★★ | SSC, RRB |
+| Symbol coding with conditions | ★★★ | Banking (IBPS/SBI) |
+| Substitution coding (word→word) | ★★ | SSC CHSL, RRB |
+| Mixed/Chinese coding (find code of one word) | ★★★ | Banking, SSC CGL |
+
+---
+
+## 3. Exam-Wise Distribution (Pattern in Words)
+
+- **SSC CGL:** Balanced mix. Expect one letter-shift, one number-coding, and occasionally a sentence-coding question. Difficulty: easy to moderate.
+- **SSC CHSL:** Direct letter shifting and simple substitution dominate. Rarely tricky.
+- **SSC MTS/GD:** Almost always a plain +n/−n letter shift. Pure speed questions.
+- **IBPS/SBI (Banking):** Symbol coding with 2–3 conditions and mixed sentence coding. These are the *lengthiest* coding questions — decide quickly whether to attempt or skip.
+- **RRB NTPC/Group D:** Letter-to-number and reverse-order coding appear frequently; questions are short.
+
+---
+
+## 4. The Examiner's Traps (Psychological Hooks)
+
+1. **The "almost-right" shift:** Options differ by one letter position (e.g., +2 vs +3). Students who count alphabet positions on fingers make off-by-one errors.
+2. **Inconsistent pattern illusion:** The code uses *different* shifts for odd and even positions (+1, +2, +1, +2…). Students apply one uniform shift and pick the trap option.
+3. **Reverse-order confusion:** "Written in reverse order" vs "each letter replaced by its opposite (A↔Z)" — two different operations, deliberately mixed in options.
+4. **Sentence coding with a decoy word:** One word appears in all sentences, tempting you to assume its code first — but the actual question asks about a word that appears only twice.
+5. **Number coding with digit-sum twist:** Code = sum of letter positions, or position × 2. Students assume direct A=1 mapping and get trapped.
+6. **Negative wording:** "Which of the following is NOT the code…" — under time pressure, students pick the correct code instead of the wrong one.
+
+---
+
+## 5. Top 10 High-Yield Question Patterns (with Solutions & Trap Analysis)
+
+### Q1. In a certain code, CAT is written as FDW. How is DOG written in that code?
+(a) GRJ (b) GSJ (c) FQI (d) ERJ
+**Answer: (a)**
+**Solution:** Each letter shifts +3: C→F, A→D, T→W. So D→G, O→R, G→J = GRJ.
+**Trap:** Option (b) GSJ catches students who shift O by +4 by mistake while counting.
+
+### Q2. If A = 1, B = 2, … Z = 26, what is the code-sum of "BED"?
+(a) 11 (b) 14 (c) 10 (d) 16
+**Answer: (a)**
+**Solution:** B(2) + E(5) + D(4) = 11.
+**Trap:** Options are placed ±2 around the correct sum to catch addition slips. Always recompute the sum once before marking — this question type punishes mental arithmetic done in a hurry.
+
+### Q3. In a code language, "sky is blue" = "ta ra ma", "blue is beautiful" = "ra sa ma". What is the code for "blue"?
+(a) ta (b) ra (c) ma (d) Cannot be determined
+**Answer: (d)**
+**Solution:** Common words in both sentences: "is" and "blue"; common codes: "ra" and "ma". We cannot separate which code belongs to which word.
+**Trap:** Students rush to pick (b) or (c). The "Cannot be determined" option is the psychological hook — examiners reward patience.
+
+### Q4. If WATER is coded as XBUFS, how is MILK coded?
+(a) NJML (b) NJLM (c) NJMK (d) OJML
+**Answer: (a)**
+**Solution:** Each letter +1: W→X, A→B, T→U, E→F, R→S. So M→N, I→J, L→M, K→L = NJML.
+**Trap:** (b) NJLM swaps the last two letters — catches those who code K→L but then write letters in haste.
+
+### Q5. In a certain code, ROSE is written as QNRD. How is LILY written?
+(a) KHKX (b) KHKZ (c) MJLZ (d) KGKX
+**Answer: (a)**
+**Solution:** Each letter −1: R→Q, O→N, S→R, E→D. So L→K, I→H, L→K, Y→X = KHKX.
+**Trap:** (b) KHKZ — students who forget Y−1 = X (not Z) fall here. Remember the alphabet order near the end: …X, Y, Z.
+
+### Q6. If "DELHI" is coded as "73541" and "MANGO" as "25796", what is the code for "HIDE"?
+(a) 4173 (b) 1753 (c) 1375 (d) 1537
+**Answer: (a)**
+**Solution:** From DELHI → D=7, E=3, L=5, H=4, I=1. (MANGO shares no letter with DELHI, so it simply confirms the coding is a fixed letter-to-digit substitution.) HIDE = H(4) I(1) D(7) E(3) = 4173.
+**Trap:** (b) 1753 — students who read the letters of HIDE in the wrong order (copying from DELHI's sequence instead of the target word's sequence) land here. Always map letter-by-letter in the order of the word asked.
+
+### Q7. In a code, each letter is replaced by its opposite letter (A↔Z, B↔Y…). How is "MANGO" coded?
+(a) NZMTL (b) NZMTK (c) NAMTL (d) OZMTL
+**Answer: (a)**
+**Solution:** M↔N, A↔Z, N↔M, G↔T, O↔L → NZMTL.
+**Trap:** (b) NZMTK — students misremember O's opposite as K. Rule: opposite pairs sum to 27 (O=15, so opposite = 27−15 = 12 = L).
+
+### Q8. If in a code, 3 means "pen", 5 means "red", 7 means "book", and "red pen" is coded as "5 3", what is "red book"?
+(a) 5 7 (b) 3 7 (c) 5 3 (d) 7 3
+**Answer: (a)**
+**Solution:** Direct substitution: red=5, book=7 → 5 7.
+**Trap:** (d) 7 3 reverses the order — a pure haste trap. Read the question twice.
+
+### Q9. In a certain code, "TRAIN" is written as "WUDLQ". How is "PLANE" written?
+(a) SODQH (b) SODQG (c) SODRH (d) RODQH
+**Answer: (a)**
+**Solution:** Each letter +3: T→W, R→U, A→D, I→L, N→Q. So P→S, L→O, A→D, N→Q, E→H = SODQH.
+**Trap:** (b) SODQG — E+3 = H, not G. Off-by-one counting near single letters is the most common error in +3 shifts.
+
+### Q10. In a code language, "he is good" = "pa na ka", "she is good" = "pa na ta", "he is tall" = "pa ka ra". What is the code for "is"?
+(a) pa (b) na (c) ka (d) Cannot be determined
+**Answer: (a)**
+**Solution:** "is" is the only word common to all three sentences, and "pa" is the only code common to all three code groups — so is = pa. Cross-check: "good" appears in sentences 1 and 2, whose common code is "na" (good = na); "he" appears in sentences 1 and 3, whose remaining common code is "ka" (he = ka). Everything separates cleanly.
+**Trap:** Students overthink and pick (d) "Cannot be determined", assuming that a word appearing everywhere must be inseparable. The hook works in reverse here: when a word appears in *all* sentences and exactly *one* code also appears in all code groups, the answer is determinable.
+
+---
+
+## 6. The 15-Second / 45-Second Rule — Applied
+
+**The rule:** If the pattern is not visible in 15 seconds, mark and move on; return only if time remains. Never spend more than 45 seconds on a single coding question.
+
+**Applied to the questions above:**
+
+- **Q6 (letter-to-digit mapping):** ⚠️ **Borderline.** The mapping itself is quick, but you must first check whether the two given words share any letters with conflicting codes. If a shared letter has *different* codes in different words, the coding is positional/inconsistent — mark such questions and return later, because they demand careful re-analysis.
+- **Q10 (sentence coding, word in all sentences):** ✅ **Attempt** — but methodically. Check whether exactly one code is common to all groups. If yes, answer it; if two codes travel together inseparably, then "Cannot be determined" is correct. Do not guess either way without the check.
+- **Q1, Q4, Q5, Q7, Q8, Q9:** ✅ **Attempt immediately.** Single uniform shift or direct substitution — solvable in 15–30 seconds.
+- **Q3:** ✅ Attempt — the "common word" check is mechanical and fast once practised.
+
+**Time budget summary:** Direct shift/substitution → 15–30 sec. Sentence coding → 30–45 sec. Conflicting or conditional coding → skip first, revisit.
+
+---
+
+## 7. Key Lessons from the 10-Year Pattern
+
+1. **Master A=1…Z=26 and opposite pairs (sum = 27)** — these two tools alone solve the majority of coding questions across all exams.
+2. **Banking aspirants:** practise symbol coding with conditions and mixed sentence coding — these are your paper's version of this chapter.
+3. **SSC/Railway aspirants:** speed on +n/−n shifts and reverse-order coding is your edge; these are free marks.
+4. **"Cannot be determined" is a real answer** in sentence coding — but only when two words genuinely share all their sentences. Verify before choosing it, and verify before rejecting it.
+5. **Read negative wording twice** ("NOT coded as") — it appears regularly and costs easy marks.

@@ -1,0 +1,129 @@
+# 📊 PYQ Analysis — Puzzles (Complex)
+
+*(Pattern analysis based on the nature of questions asked in SSC CGL, IBPS PO/Clerk, SBI PO, RRB NTPC and State PCS prelims. We describe **what is asked and how**, not invented counts or percentages.)*
+
+---
+
+## 1. How Exams Use This Chapter
+
+Complex puzzles are the **highest-weight reasoning block** in Banking exams (IBPS/SBI PO & Clerk — often an entire seating/puzzle section of 15–25 marks in Prelims and Mains) and a **regular 2–5 mark presence** in SSC CGL/CHSL and RRB NTPC. State PCS prelims ask 1–3 moderate puzzles.
+
+The pattern is consistent: one long information paragraph → 4–5 linked questions. Solving the **arrangement once** answers all linked questions, so the real cost is the single setup, not each question.
+
+---
+
+## 2. Sub-topic Weightage (in words, not numbers)
+
+| Sub-topic | Banking (IBPS/SBI) | SSC / Railway | PCS |
+|---|---|---|---|
+| Circular seating (facing in/out/mixed) | Very high — almost every paper | Occasional | Occasional |
+| Linear seating (single/double row, uncertain persons) | Very high | Regular | Regular |
+| Floor-based / box-stacking puzzles | High | Regular | Occasional |
+| Scheduling (days/months + one extra attribute) | High | Regular | Regular |
+| Blood relation + seating hybrids | Rising trend in Mains | Rare | Rare |
+| Comparison/ordering (height, marks, age) | Moderate | Very regular | Regular |
+| Selection/grouping puzzles | Moderate (Mains) | Rare | Occasional |
+
+**Trend:** Banking Mains increasingly adds a **second variable** (colour, city, profession) and **"uncertain number of persons"** wording. SSC/Railway keep single-variable puzzles but add negative clues ("A is not adjacent to B").
+
+---
+
+## 3. The Examiner's Traps (Psychological Hooks)
+
+1. **"Who sits third to the left of X"** — direction reversal trap. In circular arrangements facing *outside*, left/right flip. Examiners place the correct-looking mirror answer as option (a).
+2. **Negative clues first** — "P does not like red" repeated 4 times hides the one positive clue that cracks the puzzle. Students start arranging from the first line instead of the strongest (most restrictive) clue.
+3. **Two-case ambiguity** — a clue like "Q sits between R and S" creates two mirror cases. The trap question asks something true in only one case; the correct answer is "Cannot be determined," which students avoid picking.
+4. **"At least / at most" wording** in selection puzzles — students treat "at least two" as "exactly two."
+5. **Uncertain-persons linear puzzle** — "some persons sit in a row" with no total given; students assume 8 and force-fit.
+6. **Attribute swap** — in floor puzzles with colours, the question asks the *colour* of the person on floor 3, but the options list *names*; inattentive students mark the name.
+
+---
+
+## 4. High-Yield Question Types with Solutions
+
+### Q1. Circular seating, mixed facing (Banking Mains style)
+*Eight persons A–H sit around a circle; four face centre, four face outside. A faces centre and is 2nd left of B. C faces outside and sits opposite A…*
+
+**Approach:** Fix A at top. Mark facing with arrows *before* placing anyone else. Convert every "left/right" into clockwise/anticlockwise **according to that person's facing** — write it on the diagram, never in your head.
+
+**Trap used:** Mixed facing flips left/right for half the persons; the question "who is 3rd to the right of C (facing outside)" has its mirror answer as the first option.
+
+**Solution sketch:** Once facing is fixed, each clue eliminates one of two cases; the final clue ("H faces the same direction as A") collapses the ambiguity. All 5 linked questions then take under 10 seconds each.
+
+### Q2. Floor + attribute puzzle (IBPS PO style)
+*Seven persons live on floors 1–7, each likes a different fruit. The one who likes Mango lives on floor 4. Two floors between Mango and Apple…*
+
+**Approach:** Draw a 7-row table, columns: Floor | Person | Fruit. Place fixed clues (Mango–4) first, then "gap" clues ("two floors between"), then negatives. Keep two parallel cases only until one clue kills one.
+
+**Trap used:** Question asks "Which fruit does the person on floor 6 like?" — options mix names and fruits to catch column-confusion.
+
+### Q3. Month + date scheduling (SBI PO style)
+*Eight events in four months (Jan, Apr, Jul, Oct) on dates 12th or 21st…*
+
+**Approach:** Grid of 4 months × 2 dates. "X is in a month with 31 days" is the hidden restrictive clue — list day-counts (Jan 31, Apr 30, Jul 31, Oct 31) beside the grid immediately.
+
+**Trap used:** "Before April" vs "in a month having 30 days" — students equate the two and lose a case.
+
+### Q4. Linear double-row (SSC CGL style)
+*Row 1 (A–E) faces south, Row 2 (P–T) faces north, members face each other…*
+
+**Approach:** Draw rows with facing arrows. Remember: for south-facing persons, their left is your right on paper.
+
+**Trap used:** "Who faces the person 2nd to the left of B?" — double transformation (left of south-facing B, then across). Mirror answer planted.
+
+### Q5. Ordering/comparison (RRB NTPC style)
+*P is taller than Q but shorter than R. S is taller than R. T is shorter than Q…*
+
+**Approach:** Chain with symbols: S > R > P > Q > T. Answer "who is second tallest" directly.
+
+**Trap used:** "Not taller than" ≠ "shorter than" (equality possible) — in statement-conclusion versions this flips the answer.
+
+### Q6. Selection puzzle (Banking Mains)
+*From 8 candidates, a team of 4: if A then B; C and D cannot be together; at least one of E, F…*
+
+**Approach:** Convert each rule to a symbol line (A→B; C⊗D; E∨F≥1). Test each option against rules one by one — elimination is faster than construction.
+
+**Trap used:** "At least one" read as "exactly one."
+
+### Q7. Blood-relation + seating hybrid (Mains, rising trend)
+*Eight family members around a table; the one facing D is D's mother-in-law…*
+
+**Approach:** Solve the family tree **first, separately**, label genders, then seat them.
+
+**Trap used:** Gender assumed from name — names are deliberately gender-neutral.
+
+### Q8. Box-stacking with numbers (SSC/Bank common)
+*Seven boxes stacked; box B is 3rd from top; two boxes between B and G…*
+
+**Approach:** Number slots 1–7 top to bottom; treat exactly like floor puzzle.
+
+**Trap used:** "3rd from bottom" vs "3rd from top" — the question switches reference direction mid-way.
+
+### Q9. "Cannot be determined" special (Banking)
+After a two-case circular puzzle: *"Who sits opposite P?"*
+**Solution:** If the two surviving cases give different persons opposite P, the answer is **"Cannot be determined."** Examiners count on students forcing one case. Always check both cases before answering the final linked question.
+
+### Q10. Uncertain-persons row (SBI PO Mains)
+*Some persons sit in a row facing north. B is 4th from the left end. Number of persons between B and C is same as between C and D…*
+
+**Approach:** Derive total from positional clues (e.g., "D is 3rd from right end" + gaps ⇒ total = 12). Only then answer.
+
+**Trap used:** Assuming a round number (10) without deriving it.
+
+---
+
+## 5. The 15-second / 45-second Rule — Applied
+
+- **15-second rule (SSC/Railway):** If after 15 seconds of reading you cannot identify the *fixed clue* (the one that anchors the arrangement), **mark and skip**; return after the section. Single standalone puzzles in SSC are worth 1 mark — never spend 90 seconds on them.
+- **45-second rule (Banking Prelims):** A puzzle *set* justifies 4–6 minutes **only if** the setup cracks within 45 seconds of diagramming. If two cases are still alive after 45 seconds and the clues are mostly negative, **skip the whole set** — it is designed as a time sink.
+- **Q9-type ("Cannot be determined"):** If you have already solved the arrangement, this is a 10-second bonus — never skip.
+- **Q10-type (uncertain persons):** Default **skip in Prelims**, attempt in Mains where per-question time is higher.
+- **Ordering/comparison (Q5-type):** Never skip — 20–30 seconds, near-certain marks.
+
+---
+
+## 6. Bottom Line
+
+In Banking, puzzles decide the reasoning cutoff — master circular + floor + scheduling grids first. In SSC/Railway, puzzles are low-count but high-time-cost: attempt ordering and single-row types instantly, and let the 15-second rule protect you from the one trap puzzle planted per paper.
+
+*Source: Pattern analysis of publicly available memory-based papers and official sample papers of IBPS/SBI/SSC/RRB; conceptual reference: standard reasoning practice texts.*

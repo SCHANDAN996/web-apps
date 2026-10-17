@@ -1,0 +1,37 @@
+```mermaid
+graph TD
+    A["One-Word Substitution<br>Replace a phrase with ONE precise word"] --> B["Why It Matters"]
+    A --> C["Word Families by Root"]
+    A --> D["High-Yield Categories"]
+    A --> E["Examiner's Traps"]
+    A --> F["Solving Strategy"]
+
+    B --> B1["SSC / Bank / Railways:<br>direct vocabulary questions"]
+    B --> B2["Tests precision:<br>one word, one exact meaning"]
+
+    C --> C1["-cide = kill<br>homicide, suicide, genocide, infanticide"]
+    C --> C2["-phobia = fear<br>claustrophobia, hydrophobia, xenophobia"]
+    C --> C3["-cracy = rule<br>democracy, autocracy, bureaucracy, theocracy"]
+    C --> C4["-logy = study<br>biology, etymology, anthropology"]
+    C --> C5["-maniac = craze<br>kleptomaniac, megalomaniac, dipsomaniac"]
+    C --> C6["-phile / -phobe = lover / hater<br>bibliophile, anglophobe"]
+    C --> C7["omni- = all<br>omnipotent, omniscient, omnipresent"]
+    C --> C8["-gamy = marriage<br>monogamy, bigamy, polygamy"]
+
+    D --> D1["People & Professions<br>orator, somnambulist, teetotaller"]
+    D --> D2["Government & Rule<br>oligarchy, plutocracy, anarchy"]
+    D --> D3["Killing & Death<br>regicide, patricide, euthanasia"]
+    D --> D4["Fears & Manias<br>agoraphobia, pyromania"]
+    D --> D5["Writing & Speech<br>epitaph, extempore, soliloquy"]
+    D --> D6["Places & Collections<br>apiary, aviary, granary, archive"]
+
+    E --> E1["Near-synonym trap:<br>'murder of one's brother'<br>= fratricide, NOT homicide"]
+    E --> E2["Sound-alike trap:<br>epitaph (tomb inscription)<br>vs epithet (descriptive phrase)"]
+    E --> E3["Over-thinking trap:<br>pick the standard word,<br>not a rare fancy one"]
+    E --> E4["Prefix confusion:<br>misogynist (hates women)<br>vs misanthropist (hates mankind)"]
+
+    F --> F1["Step 1: Spot the core idea<br>(who? what? fear? killing? study?)"]
+    F --> F2["Step 2: Match the root<br>to the core idea"]
+    F --> F3["Step 3: Eliminate options<br>with wrong roots"]
+    F --> F4["Known word = answer at once;<br>unknown word = analyse the root"]
+```

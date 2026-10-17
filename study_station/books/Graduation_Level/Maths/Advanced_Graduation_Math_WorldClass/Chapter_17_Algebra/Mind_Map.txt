@@ -1,0 +1,58 @@
+```mermaid
+graph TD
+    A["बीजगणित<br>Algebra"] --> B["बीजीय व्यंजक<br>Algebraic Expressions"]
+    A --> C["सर्वसमिकाएँ<br>Identities"]
+    A --> D["समीकरण<br>Equations"]
+    A --> E["बहुपद<br>Polynomials"]
+    A --> F["अनुक्रम एवं श्रेणी<br>Sequences & Series"]
+    A --> G["असमिकाएँ<br>Inequalities"]
+    A --> H["फलन<br>Functions"]
+
+    B --> B1["चर, अचर, गुणांक<br>Variable, Constant, Coefficient"]
+    B --> B2["पदों की संख्या<br>एकपदी, द्विपद, त्रिपद"]
+    B --> B3["सरलीकरण<br>Simplification"]
+    B --> B4["गुणनखंडन<br>Factorization"]
+
+    C --> C1["(a+b)² = a²+2ab+b²"]
+    C --> C2["(a−b)² = a²−2ab+b²"]
+    C --> C3["a²−b² = (a+b)(a−b)"]
+    C --> C4["(a+b)³ व (a−b)³<br>घन सर्वसमिकाएँ"]
+    C --> C5["a³+b³, a³−b³<br>घनों का योग/अंतर"]
+    C --> C6["a³+b³+c³−3abc<br>त्रिचर सर्वसमिका"]
+    C --> C7["x + 1/x प्रकार<br>Reciprocal Type"]
+
+    D --> D1["रैखिक समीकरण<br>Linear Equations"]
+    D --> D2["द्विघात समीकरण<br>Quadratic Equations"]
+    D --> D3["समाकालिक समीकरण<br>Simultaneous Equations"]
+
+    D1 --> D1a["एक चर: ax+b=0"]
+    D1 --> D1b["दो चर: प्रतिस्थापन/विलोपन<br>Substitution/Elimination"]
+
+    D2 --> D2a["मूलों का सूत्र<br>x = [−b ± √(b²−4ac)] / 2a"]
+    D2 --> D2b["विविक्तकर D = b²−4ac<br>Discriminant"]
+    D2 --> D2c["मूलों का योग = −b/a<br>गुणनफल = c/a"]
+    D2 --> D2d["मूलों की प्रकृति<br>D>0, D=0, D<0"]
+
+    E --> E1["शेषफल प्रमेय<br>Remainder Theorem"]
+    E --> E2["गुणनखंड प्रमेय<br>Factor Theorem"]
+    E --> E3["बहुपद की घात<br>Degree of Polynomial"]
+
+    F --> F1["समांतर श्रेणी AP<br>Arithmetic Progression"]
+    F --> F2["गुणोत्तर श्रेणी GP<br>Geometric Progression"]
+    F --> F3["हरात्मक श्रेणी HP<br>Harmonic Progression"]
+    F --> F4["AM–GM–HM संबंध<br>AM ≥ GM ≥ HM"]
+
+    F1 --> F1a["nवाँ पद: a+(n−1)d"]
+    F1 --> F1b["योग: n/2 [2a+(n−1)d]"]
+    F2 --> F2a["nवाँ पद: ar^(n−1)"]
+    F2 --> F2b["योग: a(rⁿ−1)/(r−1)<br>अनंत योग: a/(1−r)"]
+
+    G --> G1["रैखिक असमिका<br>Linear Inequality"]
+    G --> G2["द्विघात असमिका<br>Quadratic Inequality"]
+    G --> G3["मापांक असमिका<br>Modulus Inequality"]
+
+    H --> H1["प्रांत एवं परिसर<br>Domain & Range"]
+    H --> H2["फलनों के प्रकार<br>एकैकी, अच्छादक<br>One-one, Onto"]
+    H --> H3["मापांक फलन |x|<br>Modulus Function"]
+    H --> H4["महत्तम पूर्णांक फलन [x]<br>Greatest Integer Function"]
+```

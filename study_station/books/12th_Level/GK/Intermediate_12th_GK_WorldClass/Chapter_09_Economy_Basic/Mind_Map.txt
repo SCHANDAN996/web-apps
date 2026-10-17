@@ -1,0 +1,51 @@
+```mermaid
+graph TD
+    A["भारतीय अर्थव्यवस्था (बुनियादी)<br>Indian Economy (Basic)"] --> B["अर्थव्यवस्था के क्षेत्र<br>Sectors of Economy"]
+    A --> C["राष्ट्रीय आय<br>National Income"]
+    A --> D["बैंकिंग व मुद्रा<br>Banking & Money"]
+    A --> E["मुद्रास्फीति<br>Inflation"]
+    A --> F["बजट व कराधान<br>Budget & Taxation"]
+    A --> G["आर्थिक सुधार<br>Economic Reforms"]
+    A --> H["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> I["रणनीति<br>Strategy"]
+
+    B --> B1["प्राथमिक: कृषि, खनन<br>Primary: Agriculture, Mining"]
+    B --> B2["द्वितीयक: उद्योग, निर्माण<br>Secondary: Industry, Manufacturing"]
+    B --> B3["तृतीयक: सेवाएँ (सबसे बड़ा हिस्सा)<br>Tertiary: Services (Largest share)"]
+    B --> B4["संगठित vs असंगठित क्षेत्र<br>Organised vs Unorganised Sector"]
+
+    C --> C1["GDP = घरेलू सीमा में उत्पादन<br>GDP = Output within domestic territory"]
+    C --> C2["GNP = GDP + विदेशों से शुद्ध आय<br>GNP = GDP + Net factor income from abroad"]
+    C --> C3["NNP = GNP − मूल्यह्रास<br>NNP = GNP − Depreciation"]
+    C --> C4["CSO → अब NSO (MoSPI)<br>National Income estimates by NSO"]
+    C --> C5["आधार वर्ष 2011-12<br>Base Year 2011-12"]
+
+    D --> D1["RBI: 1935 स्थापना, 1949 राष्ट्रीयकरण<br>RBI: est. 1935, nationalised 1949"]
+    D --> D2["रिपो दर / रिवर्स रिपो / CRR / SLR<br>Repo / Reverse Repo / CRR / SLR"]
+    D --> D3["बैंक राष्ट्रीयकरण: 1969 (14), 1980 (6)<br>Bank Nationalisation: 1969, 1980"]
+    D --> D4["मुद्रा: M1, M2, M3, M4<br>Money Supply Measures"]
+
+    E --> E1["WPI: थोक मूल्य सूचकांक<br>WPI: Wholesale Price Index"]
+    E --> E2["CPI: उपभोक्ता मूल्य सूचकांक<br>CPI: Consumer Price Index"]
+    E --> E3["माँग-जनित vs लागत-जनित<br>Demand-pull vs Cost-push"]
+    E --> E4["स्टैगफ्लेशन = मंदी + महँगाई<br>Stagflation = Stagnation + Inflation"]
+
+    F --> F1["बजट: अनुच्छेद 112<br>Budget: Article 112"]
+    F --> F2["प्रत्यक्ष vs अप्रत्यक्ष कर<br>Direct vs Indirect Tax"]
+    F --> F3["GST: 1 जुलाई 2017, 101वाँ संशोधन<br>GST: 1 July 2017, 101st Amendment"]
+    F --> F4["राजकोषीय घाटा<br>Fiscal Deficit"]
+
+    G --> G1["LPG सुधार 1991<br>LPG Reforms 1991"]
+    G --> G2["नई आर्थिक नीति: उदारीकरण, निजीकरण, वैश्वीकरण<br>Liberalisation, Privatisation, Globalisation"]
+    G --> G3["योजना आयोग → नीति आयोग (2015)<br>Planning Commission → NITI Aayog (2015)"]
+
+    H --> H1["GDP vs GNP भ्रम<br>GDP vs GNP confusion"]
+    H --> H2["रिपो vs रिवर्स रिपो उलटना<br>Repo vs Reverse Repo swap"]
+    H --> H3["WPI vs CPI मिलान<br>WPI vs CPI mix-up"]
+    H --> H4["GST संशोधन संख्या (101वाँ)<br>GST Amendment number trap"]
+    H --> H5["नकारात्मक वाक्य: 'नहीं/EXCEPT'<br>Negative wording traps"]
+
+    I --> I1["15/45 सेकंड नियम<br>15/45 Second Rule"]
+    I --> I2["परिभाषा-आधारित प्रश्न पहले<br>Definition-based questions first"]
+    I --> I3["शक हो तो छोड़ें, नकारात्मक अंकन से बचें<br>Skip if unsure, avoid negative marking"]
+```

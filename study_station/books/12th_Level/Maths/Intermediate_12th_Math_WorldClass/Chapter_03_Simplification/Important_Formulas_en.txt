@@ -1,8 +1,43 @@
-# Chapter: Simplification, Level: intermediate
+# Important Formulas — Simplification
 
-@content_agent lang=en level=intermediate 'List all important formulas, equations, and rules for Simplification.
-Instructions:
-- Only formulas and a one-line hint (when to use), no detailed explanation.
-- Present in a clean table: Formula Name | Formula | Use-Hint
-- Cover all formulas essential for solving exam questions.
-- Keep language simple and precise.'
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| BODMAS Rule | Bracket → Of → Division → Multiplication → Addition → Subtraction | Order of operations in every simplification question |
+| Bracket Order | ( ) → { } → [ ] | Solve innermost bracket first |
+| Square of a Sum | (a + b)² = a² + 2ab + b² | Quick squaring of numbers near round values |
+| Square of a Difference | (a − b)² = a² − 2ab + b² | Squaring numbers like 98, 47 |
+| Difference of Squares | a² − b² = (a + b)(a − b) | Products like 103 × 97 |
+| Product Identity | (a + b)(a − b) = a² − b² | Same as above, used in reverse |
+| Cube of a Sum | (a + b)³ = a³ + 3a²b + 3ab² + b³ | Cubing two-digit numbers |
+| Cube of a Difference | (a − b)³ = a³ − 3a²b + 3ab² − b³ | Cubing numbers like 98 |
+| Sum of Cubes | a³ + b³ = (a + b)(a² − ab + b²) | Factorising cubic expressions |
+| Difference of Cubes | a³ − b³ = (a − b)(a² + ab + b²) | Factorising cubic expressions |
+| (a+b)² + (a−b)² | = 2(a² + b²) | When both squares appear together |
+| (a+b)² − (a−b)² | = 4ab | Finding product from sum and difference |
+| a³ + b³ + c³ − 3abc | = (a + b + c)(a² + b² + c² − ab − bc − ca) | If a + b + c = 0, then a³ + b³ + c³ = 3abc |
+| Indices: Product | aᵐ × aⁿ = aᵐ⁺ⁿ | Same base multiplied |
+| Indices: Quotient | aᵐ ÷ aⁿ = aᵐ⁻ⁿ | Same base divided |
+| Indices: Power | (aᵐ)ⁿ = aᵐⁿ | Power raised to a power |
+| Indices: Zero | a⁰ = 1 (a ≠ 0) | Any non-zero number to power zero |
+| Indices: Negative | a⁻ⁿ = 1/aⁿ | Negative exponent means reciprocal |
+| Indices: Fraction | a^(m/n) = ⁿ√(aᵐ) | Fractional power means root |
+| Surd Multiplication | √a × √b = √(ab) | Combining square roots |
+| Surd Division | √a ÷ √b = √(a/b) | Dividing square roots |
+| Rationalisation | 1/(√a + √b) = (√a − √b)/(a − b) | Removing surd from denominator |
+| Fraction to Decimal | p/q → divide p by q | Comparing fractions quickly |
+| Percentage | x% of y = (x × y)/100 | x% of y = y% of x |
+| Recurring Decimal | 0.ababab… = ab/99 | Converting recurring decimals to fractions |
+| Mixed Recurring | 0.abbb… = (ab − a)/90 | One non-recurring, one recurring digit |
+| Divisibility by 3, 9 | Sum of digits divisible by 3 or 9 | Quick checking without division |
+| Divisibility by 4 | Last two digits divisible by 4 | Quick checking |
+| Divisibility by 8 | Last three digits divisible by 8 | Quick checking |
+| Divisibility by 11 | (Sum of odd-place digits) − (Sum of even-place digits) = 0 or multiple of 11 | Quick checking |
+| Approximation | Round each number to nearest convenient value, then compute | When options are far apart |
+| Unit Digit of aⁿ | Cyclicity of unit digits: 2,3,7,8 → cycle of 4; 4,9 → cycle of 2; 0,1,5,6 → same | Finding last digit of large powers |
+| Digit Sum (Casting out 9s) | Digit sum of product = digit sum of (digit sums multiplied) | Verifying multiplication answers |
+| Square Root (estimation) | √N ≈ between squares of nearest integers | Approximating √50, √80 etc. |
+| Fraction Comparison | a/b vs c/d → compare a×d with b×c | Cross-multiplication method |
+| Continued Fraction | Solve from the bottom (last denominator) upward | Ladder-type fraction questions |
+| Sum of First n Naturals | n(n + 1)/2 | Series inside simplification |
+| Sum of Squares | n(n + 1)(2n + 1)/6 | Series inside simplification |
+| Sum of Cubes | [n(n + 1)/2]² | Series inside simplification |

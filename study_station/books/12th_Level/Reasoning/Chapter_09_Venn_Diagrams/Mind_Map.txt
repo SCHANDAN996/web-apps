@@ -1,0 +1,43 @@
+```mermaid
+graph TD
+    A["वेन आरेख<br>Venn Diagrams"] --> B["मूल अवधारणा<br>Basic Concept"]
+    A --> C["संबंधों के प्रकार<br>Types of Relations"]
+    A --> D["प्रश्नों के प्रकार<br>Question Types"]
+    A --> E["हल करने की रणनीति<br>Solving Strategy"]
+    A --> F["समय प्रबंधन<br>Time Management"]
+    A --> G["परीक्षक के जाल<br>Examiner Traps"]
+
+    B --> B1["समूह / वर्ग को वृत्त से दर्शाना<br>Groups shown as circles"]
+    B --> B2["ओवरलैप = उभयनिष्ठ तत्व<br>Overlap = common elements"]
+    B --> B3["अलग वृत्त = कोई संबंध नहीं<br>Separate circles = no relation"]
+
+    C --> C1["पूर्ण समावेश<br>Complete Inclusion<br>(सभी A, B हैं)"]
+    C --> C2["आंशिक समावेश<br>Partial Inclusion<br>(कुछ A, B हैं)"]
+    C --> C3["कोई संबंध नहीं<br>No Relation<br>(कोई A, B नहीं)"]
+    C --> C4["मिश्रित संबंध<br>Mixed Relations<br>(3 वर्ग)"]
+
+    C1 --> C1a["उदा: कुत्ता → जानवर<br>Dog → Animal"]
+    C2 --> C2a["उदा: कुछ डॉक्टर गायक<br>Some Doctors are Singers"]
+    C3 --> C3a["उदा: बिल्ली × कुत्ता<br>Cat × Dog"]
+    C4 --> C4a["उदा: पुरुष, डॉक्टर, शिक्षक<br>Men, Doctors, Teachers"]
+
+    D --> D1["सही आरेख चुनना<br>Choose Correct Diagram"]
+    D --> D2["आरेख से निष्कर्ष<br>Conclusions from Diagram"]
+    D --> D3["संख्या-आधारित आरेख<br>Number-based Diagrams"]
+    D --> D4["ज्यामितीय आकृति वाले प्रश्न<br>Geometric Figure Questions"]
+
+    E --> E1["वर्गों की सूची बनाएँ<br>List the classes"]
+    E --> E2["जोड़े-दर-जोड़े संबंध जाँचें<br>Check relation pair by pair"]
+    E --> E3["पहले समावेश, फिर आंशिक, फिर अलग<br>Inclusion → Partial → Separate"]
+    E --> E4["विकल्पों से मिलान करें<br>Match with options"]
+
+    F --> F1["सरल प्रश्न: 15–20 सेकंड<br>Easy: 15–20 seconds"]
+    F --> F2["3-वर्ग प्रश्न: 30–40 सेकंड<br>3-class: 30–40 seconds"]
+    F --> F3["अटकें तो छोड़ें, बाद में लौटें<br>Skip if stuck, return later"]
+
+    G --> G1["'कुछ' को 'सभी' मत समझें<br>Don't read 'Some' as 'All'"]
+    G --> G2["वास्तविक ज्ञान नहीं, केवल कथन<br>Follow statements, not real-world knowledge"]
+    G --> G3["मिलते-जुलते नामों का भ्रम<br>Confusing similar names"]
+    G --> G4["ओवरलैप क्षेत्र की गलत गिनती<br>Wrong counting of overlap regions"]
+    G --> G5["नकारात्मक वाक्यों में चूक<br>Errors in negative statements"]
+```

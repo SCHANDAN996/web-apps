@@ -1,19 +1,28 @@
 ```mermaid
-graph TD
-    R["⚖️ असमानता<br>Inequality"]
-    R --> D["📖 चिह्न<br>> < = ≥ ≤"]
-    R --> M["🗝️ नियम<br>शृंखला जोड़ो"]
-    R --> E["🔀 Either-Or"]
-    R --> TR["⚠️ जाल<br>Traps"]
+flowchart TD
+    A[Inequality in Reasoning] --> B[Core Symbols & Meanings]
+    A --> C[Problem Types]
+    A --> D[Golden Rules of Combining]
+    A --> E[Special Conditions: Either-Or]
+    A --> F[Examiner's Traps & Pitfalls]
 
-    M --> M1["समान दिशा जुड़ती है<br>A>B>C → A>C"]
-    M --> M2["बराबर बीच में चले<br>A>B=C → A>C"]
-    M --> M3["दिशा बदले तो टूटे<br>A>B<C → ?"]
+    B --> B1[Strict: > Greater than, < Less than]
+    B --> B2[Possibility: >= Greater or Equal, <= Less or Equal]
+    B --> B3[Equality: = Equal to]
 
-    E --> E1["एक ही जोड़ी पर > और ="]
-    E --> E2["A≥C → A>C या A=C"]
+    C --> C1[Direct Statements: Single/Multi Chains]
+    C --> C2[Coded Inequality: Symbol Decoding]
 
-    TR --> TR1["दिशा बदलना"]
-    TR --> TR2["≥ बनाम >"]
-    TR --> TR3["Either-Or भूलना"]
+    D --> D1[Same Direction: Arrows flow together]
+    D --> D2[A > B > C implies A > C]
+    D --> D3[Opposite Direction: Broken chain / No relation]
+    D --> D4[A > B < C implies No definite relation between A and C]
+
+    E --> E1[Condition 1: Both conclusions individually false]
+    E --> E2[Condition 2: Same two variables]
+    E --> E3[Condition 3: Complementary pair > and = or < and =]
+
+    F --> F1[Opposite Arrow Trap: Assuming relation exists]
+    F --> F2[Definite Trap: Assuming >= means definitely >]
+    F --> F3[Negative Decoding Trap: Not greater than means <=]
 ```

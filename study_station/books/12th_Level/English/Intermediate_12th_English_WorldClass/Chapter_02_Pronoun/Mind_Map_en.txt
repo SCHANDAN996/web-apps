@@ -1,0 +1,41 @@
+```mermaid
+graph TD
+    A["Pronoun<br>Word used in place of a Noun"] --> B["Types"]
+    A --> C["12 Golden Rules"]
+    A --> D["Examiner's Traps"]
+    A --> E["Strategies"]
+
+    B --> B1["Personal<br>I, we, you, he, she, it, they"]
+    B --> B2["Possessive<br>mine, ours, yours, his, hers, theirs"]
+    B --> B3["Reflexive / Emphatic<br>myself, himself, themselves"]
+    B --> B4["Demonstrative<br>this, that, these, those"]
+    B --> B5["Interrogative<br>who, whom, whose, which, what"]
+    B --> B6["Relative<br>who, whom, whose, which, that"]
+    B --> B7["Indefinite<br>someone, anybody, each, everyone"]
+    B --> B8["Reciprocal<br>each other (two), one another (many)"]
+    B --> B9["Distributive<br>each, either, neither"]
+
+    C --> C1["Verb agrees with REAL subject<br>not the intervening phrase"]
+    C --> C2["Each / Every / Either / Neither<br>take SINGULAR verb + his/her"]
+    C --> C3["One should do one's duty<br>keep 'one' consistent"]
+    C --> C4["Everyone / Somebody<br>singular: his or her"]
+    C --> C5["Who = subject, Whom = object"]
+    C --> C6["'That' after superlatives,<br>all, only, same, none"]
+    C --> C7["'Which' for things,<br>'Who' for persons"]
+    C --> C8["Reflexive needs same-subject<br>He hurt himself"]
+    C --> C9["Enjoy / avail / absent<br>+ reflexive pronoun"]
+    C --> C10["Order of persons: 231<br>You, he and I (good deeds)"]
+    C --> C11["123 for confession of fault<br>I, you and he broke it"]
+    C --> C12["It is I / It was he<br>nominative after 'be'"]
+
+    D --> D1["Intervening Phrase Trap<br>The quality of apples WAS good"]
+    D --> D2["Sound-Right Trap<br>Between you and I (wrong) → me"]
+    D --> D3["Each-other Trap<br>Two friends: each other,<br>many: one another"]
+    D --> D4["Over-thinking Trap<br>Everyone has THEIR (informal)<br>exam wants his or her"]
+    D --> D5["Possessive vs Contraction<br>its vs it's, theirs vs there's"]
+
+    E --> E1["15-sec: Fact-based<br>case, number, agreement"]
+    E --> E2["45-sec: Inference-based<br>error spotting in long sentences"]
+    E --> E3["Find the antecedent first<br>then check number + gender"]
+    E --> E4["Skip Strategy<br>long relative-clause Qs last"]
+```

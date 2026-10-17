@@ -1,0 +1,105 @@
+# 📊 PYQ विश्लेषण — त्रुटि पहचान (उन्नत)
+
+## परीक्षा-पैटर्न का सच (शब्दों में, आँकड़ों में नहीं)
+
+SSC CGL, CHSL, IBPS PO/Clerk और राज्य PCS की परीक्षाओं में Error Spotting लगभग हर शिफ्ट में पूछा जाता है। पैटर्न का विश्लेषण करने पर ये बातें साफ़ दिखती हैं:
+
+- **सबसे ज़्यादा पूछे जाने वाले उप-विषय:** Subject–Verb Agreement (विशेषकर Intervening Phrase वाले), Tense की consistency, Article (a/an/the), Preposition की fixed usage, और Pronoun का case।
+- **उन्नत स्तर का फ़र्क़:** आसान स्तर पर सीधी गलती होती है ("He go"); उन्नत स्तर पर परीक्षक गलती को लंबे वाक्य के बीच में छिपाता है ताकि कान को वाक्य "सही लगे"।
+- **परीक्षक के चार पसंदीदा जाल:**
+  1. **Intervening Phrase जाल** — subject और verb के बीच लंबा वाक्यांश डालना ("The quality of apples *were* good")।
+  2. **Collective Noun जाल** — "The committee *have* decided" जब निर्णय एकजुट हो।
+  3. **Sound-Right जाल** — गलत रूप जो बोलचाल में सही लगता है ("What you are doing?", "He is more superior than me")।
+  4. **Over-thinking जाल** — पूरी तरह सही वाक्य, जिसमें छात्र खुद गलती ढूँढने लगता है ("No error" विकल्प)।
+
+---
+
+## शीर्ष 10 हाई-यील्ड PYQ-शैली प्रश्न (समाधान सहित)
+
+**प्रश्न 1.** The rise in prices of essential commodities (a)/ have affected (b)/ the common man badly. (c)/ No error (d)
+
+**उत्तर:** (b)
+**हल:** Subject "The rise" है (एकवचन), "commodities" नहीं। Intervening phrase "of essential commodities" को काटकर पढ़ें — "The rise … has affected"। सही रूप: **has affected**।
+**जाल-प्रकार:** Intervening Phrase
+**स्रोत:** PYQ-style (SSC CGL पैटर्न)
+
+**प्रश्न 2.** One of my friends (a)/ are going (b)/ to Delhi tomorrow. (c)/ No error (d)
+
+**उत्तर:** (b)
+**हल:** "One of + बहुवचन noun" के बाद verb हमेशा एकवचन — "One … **is** going"। "friends" देखकर "are" लगाना ही जाल है।
+**जाल-प्रकार:** Intervening Phrase
+**स्रोत:** PYQ-style (SSC CHSL पैटर्न)
+
+**प्रश्न 3.** The committee (a)/ has submitted (b)/ its report yesterday. (c)/ No error (d)
+
+**उत्तर:** (b)
+**हल:** "yesterday" निश्चित भूतकाल का संकेत है, इसलिए Present Perfect (has submitted) नहीं, Simple Past चाहिए — "The committee **submitted** its report yesterday"। गलती खंड (b) में है; खंड (c) में "yesterday" अपने-आप में सही है।
+**जाल-प्रकार:** Sound-Right (has submitted कान को सही लगता है)
+**स्रोत:** PYQ-style (IBPS पैटर्न)
+
+**प्रश्न 4.** He is more superior (a)/ to his brother (b)/ in intelligence. (c)/ No error (d)
+
+**उत्तर:** (a)
+**हल:** superior, inferior, senior, junior, prior, posterior — ये Latin comparative हैं; इनके साथ "more" नहीं और "than" की जगह "to" आता है। सही: "He is **superior to** his brother"।
+**जाल-प्रकार:** Sound-Right
+**स्रोत:** PYQ-style (SSC CGL पैटर्न)
+
+**प्रश्न 5.** Neither of the two boys (a)/ have done (b)/ his homework. (c)/ No error (d)
+
+**उत्तर:** (b)
+**हल:** "Neither of / Either of / Each of" के बाद verb एकवचन — "**has** done"।
+**जाल-प्रकार:** Intervening Phrase
+**स्रोत:** PYQ-style (Bank Clerk पैटर्न)
+
+**प्रश्न 6.** Scarcely he had reached (a)/ the station (b)/ when the train left. (c)/ No error (d)
+
+**उत्तर:** (a)
+**हल:** Scarcely/Hardly/No sooner से वाक्य शुरू हो तो inversion होता है — "Scarcely **had he** reached"। (याद रखें: No sooner के साथ than, Scarcely/Hardly के साथ when।)
+**जाल-प्रकार:** Sound-Right
+**स्रोत:** PYQ-style (SSC CGL Tier-II पैटर्न)
+
+**प्रश्न 7.** The Ganges is (a)/ one of the longest rivers (b)/ in India. (c)/ No error (d)
+
+**उत्तर:** (d) No error
+**हल:** "One of the + बहुवचन noun" — बिल्कुल सही संरचना। नदी के नाम से पहले "the" भी सही है। यहाँ कुछ भी गलत नहीं — परीक्षक चाहता है कि आत्मविश्वासहीन छात्र खुद गलती गढ़े।
+**जाल-प्रकार:** Over-thinking
+**स्रोत:** PYQ-style
+
+**प्रश्न 8.** I have been living (a)/ in this city (b)/ since 2015. (c)/ No error (d)
+
+**उत्तर:** (d) No error
+**हल:** "since + समय-बिंदु" के साथ Present Perfect Continuous पूर्णतः सही है। फिर से Over-thinking जाल — हर वाक्य में गलती होना ज़रूरी नहीं।
+**जाल-प्रकार:** Over-thinking
+**स्रोत:** PYQ-style
+
+**प्रश्न 9.** The principal, along with the teachers, (a)/ were present (b)/ in the meeting. (c)/ No error (d)
+
+**उत्तर:** (b)
+**हल:** "along with / as well as / together with" से जुड़ा हिस्सा subject नहीं बनता। असली subject "The principal" (एकवचन) — "**was** present"।
+**जाल-प्रकार:** Intervening Phrase
+**स्रोत:** PYQ-style (SSC CGL पैटर्न)
+
+**प्रश्न 10.** He denied (a)/ to help (b)/ his friend in need. (c)/ No error (d)
+
+**उत्तर:** (b)
+**हल:** deny के बाद infinitive (to + verb) नहीं, gerund आता है — "denied **helping** his friend"। (इसी श्रेणी: enjoy, avoid, mind, suggest + gerund।)
+**जाल-प्रकार:** Sound-Right
+**स्रोत:** PYQ-style (IBPS PO पैटर्न)
+
+---
+
+## ⏱️ 15/45-सेकंड नियम — दो प्रश्नों पर लागू
+
+**प्रश्न 2 (One of my friends are going…):** यह **तथ्यात्मक (Fact-based)** प्रश्न है — नियम याद है तो 15 सेकंड काफी। रणनीति: "One of" देखते ही verb पर कूदो, बीच का वाक्यांश नज़रअंदाज़ करो। 15 सेकंड से ज़्यादा देना = समय की बर्बादी।
+
+**प्रश्न 7 (The Ganges… No error):** यह **तार्किक (Inference-based)** प्रश्न है — यहाँ हर खंड की जाँच करनी पड़ती है क्योंकि गलती छिपी भी हो सकती है और नहीं भी। पूरे 45 सेकंड लो: (a) article जाँचो, (b) "one of the + plural" जाँचो, (c) preposition जाँचो — तीनों सही निकलें तभी "No error" चुनो। जल्दबाज़ी में "No error" या जबरन गलती — दोनों गलत।
+
+---
+
+## परीक्षा-वार झुकाव (गुणात्मक)
+
+- **SSC CGL/CHSL:** Agreement और Tense पर सबसे ज़्यादा जोर; वाक्य 3-4 खंडों में बँटा होता है।
+- **IBPS/SBI (Bank):** लंबे, घुमावदार वाक्य; "No error" विकल्प अक्सर सही होता है — Over-thinking जाल से सावधान।
+- **राज्य PCS/पुलिस भर्ती:** सीधे नियम-आधारित प्रश्न; Article और Preposition का भार अधिक।
+
+**निष्कर्ष:** Agreement, Tense-consistency, Latin comparatives, Inversion और Gerund/Infinitive — ये पाँच क्षेत्र हर परीक्षा में बार-बार लौटते हैं। इन्हें पहले पक्का करें।

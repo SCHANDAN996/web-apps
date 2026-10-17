@@ -1,3 +1,79 @@
-# Chapter: Permutation & Combination, Level: intermediate
+Card 1
+Front: What is the Fundamental Principle of Counting (multiplication rule)?
+Back: If one task can be done in m ways and another in n ways, both together can be done in m × n ways.
 
-@content_agent lang=en level=intermediate 'Create 15-20 flashcards for Permutation & Combination. Each card: front a curiosity-invoking question, back concise answer. Include at least 2 cards that ask about a mnemonic trick.'
+Card 2
+Front: When do we ADD the number of ways instead of multiplying?
+Back: When the tasks are alternatives (either/or) — the addition rule: m + n ways.
+
+Card 3
+Front: What is n! (n factorial)?
+Back: n! = n × (n−1) × (n−2) × … × 2 × 1. Also, 0! = 1.
+
+Card 4
+Front: What does ⁿPᵣ count, and what is its formula?
+Back: Arrangements of r objects out of n distinct objects (order matters): ⁿPᵣ = n! / (n−r)!.
+
+Card 5
+Front: What does ⁿCᵣ count, and what is its formula?
+Back: Selections of r objects out of n distinct objects (order doesn't matter): ⁿCᵣ = n! / [r!(n−r)!].
+
+Card 6
+Front: What is the mnemonic trick to remember Permutation vs Combination?
+Back: "P = Position matters, C = Committee (only chosen)." Permutation arranges; Combination just selects.
+
+Card 7
+Front: What is the relation between ⁿPᵣ and ⁿCᵣ?
+Back: ⁿPᵣ = ⁿCᵣ × r! — every selection of r objects can be arranged in r! ways.
+
+Card 8
+Front: What is the value of ⁿC₀ and ⁿCₙ?
+Back: Both equal 1 — there is exactly one way to choose nothing or everything.
+
+Card 9
+Front: What is the symmetry property of combinations?
+Back: ⁿCᵣ = ⁿCₙ₋ᵣ. Choosing r to keep is the same as choosing n−r to leave out.
+
+Card 10
+Front: How many ways can n distinct objects be arranged in a circle?
+Back: (n−1)! — fix one object to remove rotational duplicates.
+
+Card 11
+Front: What is the trick to remember circular arrangement?
+Back: "Circle mein ek ko baitha do" — in a circle, seat one person fixed, arrange the rest: (n−1)!.
+
+Card 12
+Front: How many ways can n distinct beads be arranged in a necklace (or garland)?
+Back: (n−1)! / 2 — a necklace can be flipped, so clockwise and anticlockwise count as the same.
+
+Card 13
+Front: How do you arrange n objects where p are identical of one kind, q of another?
+Back: n! / (p! × q! × …) — divide by the factorials of the repeated groups.
+
+Card 14
+Front: How many arrangements does the word "BANANA" have?
+Back: 6! / (3! × 2!) = 60 — A repeats 3 times, N repeats 2 times.
+
+Card 15
+Front: What is the trick for "vowels together" or "certain people always together" problems?
+Back: Tie them into one bundle: treat the group as a single unit, arrange units, then multiply by arrangements inside the bundle.
+
+Card 16
+Front: How do you solve "no two vowels together" problems?
+Back: Gap method: arrange consonants first, then place vowels in the gaps between/around them.
+
+Card 17
+Front: What is ⁿCᵣ + ⁿCᵣ₋₁ equal to?
+Back: ⁿ⁺¹Cᵣ — Pascal's rule, the building block of Pascal's triangle.
+
+Card 18
+Front: How many ways can a committee of r people be formed from n people if one particular person must be included?
+Back: ⁿ⁻¹Cᵣ₋₁ — fix that person, choose the remaining r−1 from n−1.
+
+Card 19
+Front: How many diagonals does a polygon with n sides have?
+Back: ⁿC₂ − n = n(n−3)/2 — every pair of vertices gives a line; subtract the n sides.
+
+Card 20
+Front: In how many ways can r identical objects be distributed among n distinct boxes (boxes may be empty)?
+Back: ⁿ⁺ʳ⁻¹Cᵣ — the stars and bars formula.

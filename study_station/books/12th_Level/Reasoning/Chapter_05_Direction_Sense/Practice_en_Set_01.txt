@@ -1,0 +1,151 @@
+Questions 1–20: Easy | Questions 21–25: Medium
+
+1. In a coded language, 'A @ B' means 'A is to the North of B', 'A # B' means 'A is to the South of B', 'A $ B' means 'A is to the East of B', and 'A % B' means 'A is to the West of B'. If 'P @ Q' and 'Q $ R', then in which direction is P with respect to R?
+(a) North-East (b) South-East (c) North-West (d) South-West
+Answer: (a)
+Solution: P @ Q means P is North of Q, and Q $ R means Q is East of R, so R is West of Q. Place Q at the centre: P is above it and R is to its left, so from R, P lies up and to the right. The tempting wrong option North-West comes from misreading Q $ R as "Q is West of R". Hence P is to the North-East of R, so the answer is North-East.
+Source: PYQ-style
+
+2. If 'M * N' means 'M is to the South of N', 'M + N' means 'M is to the North of N', 'M – N' means 'M is to the East of N', and 'M ÷ N' means 'M is to the West of N', then in 'A + B – C', in which direction is A with respect to C?
+(a) North-East (b) South-East (c) North-West (d) South-West
+Answer: (a)
+Solution: A + B means A is North of B; B – C means B is East of C, so C is West of B. Place B at the centre: A is above it and C is to its left, so from C, A lies up and to the right. The trap is reading B – C as "B is West of C", which flips the answer to North-West. Hence A is to the North-East of C, so the answer is North-East.
+Source: PYQ-style
+
+3. In a certain code, 'P > Q' means 'P is to the East of Q', 'P < Q' means 'P is to the West of Q', 'P = Q' means 'P is to the North of Q', and 'P ≠ Q' means 'P is to the South of Q'. Given 'X = Y' and 'Y > Z', in which direction is X with respect to Z?
+(a) North-East (b) South-West (c) North-West (d) South-East
+Answer: (a)
+Solution: X = Y means X is North of Y; Y > Z means Y is East of Z, so Z is West of Y. With Y at the centre, X is above it and Z is to its left, so from Z, X lies up and to the right. The wrong option North-West tempts those who place Z to the East of Y. Hence X is to the North-East of Z, so the answer is North-East.
+Source: PYQ-style
+
+4. 'A & B' means 'A is to the North-East of B' and 'A ! B' means 'A is to the South-West of B'. If 'R & S' and 'T ! S', then in which direction is T with respect to R?
+(a) South-West (b) North-West (c) South-East (d) North-East
+Answer: (a)
+Solution: R & S means R is North-East of S, and T ! S means T is South-West of S. So R and T lie on the same diagonal on opposite sides of S, with T on the South-West side. The trap is comparing only the code symbols and answering North-East. Since T is on the exactly opposite side of S from R, T is to the South-West of R, so the answer is South-West.
+Source: PYQ-style
+
+5. If 'A ↑ B' means 'A is to the North of B', 'A ↓ B' means 'A is to the South of B', 'A → B' means 'A is to the East of B', and 'A ← B' means 'A is to the West of B', then in 'K → L ↑ M', in which direction is M with respect to K?
+(a) South-West (b) North-East (c) South-East (d) North-West
+Answer: (a)
+Solution: K → L means K is East of L, so L is West of K. L ↑ M means L is North of M, so M is South of L. Place K at the centre: L is to its left and M is below L, i.e., down-left from K. The tempting wrong option North-West comes from misreading L ↑ M as "M is North of L". Hence M is to the South-West of K, so the answer is South-West.
+Source: PYQ-style
+
+6. In a code, 'X @ Y' means 'X is 5 m to the North of Y', 'X # Y' means 'X is 5 m to the South of Y', 'X $ Y' means 'X is 5 m to the East of Y', 'X % Y' means 'X is 5 m to the West of Y'. If 'A @ B' and 'B $ C', what is the shortest distance between A and C?
+(a) 10 m (b) 15 m (c) 5 m (d) 5√2 m
+Answer: (d)
+Solution: A is 5 m North of B; B is 5 m East of C, so C is 5 m West of B. From C, A is 5 m East and 5 m North, forming a right triangle with legs 5 m and 5 m. The trap option 10 m comes from simply adding the two distances instead of applying Pythagoras. Distance = √(25 + 25) = 5√2 m, so the answer is 5√2 m.
+Source: PYQ-style
+
+7. 'P * Q' means 'P is to the South of Q', 'P + Q' means 'P is to the North of Q', 'P × Q' means 'P is to the East of Q', 'P ÷ Q' means 'P is to the West of Q'. In 'D ÷ E * F', in which direction is D with respect to F?
+(a) North-West (b) North-East (c) South-West (d) South-East
+Answer: (c)
+Solution: D ÷ E means D is West of E. E * F means E is South of F, so F is North of E. Place E at the centre: D is to its left and F is above it; the question asks for D as seen from F, and from F, D lies down and to the left. The trap is answering from E's frame and picking North-West. Hence D is to the South-West of F, so the answer is South-West.
+Source: PYQ-style
+
+8. If 'A α B' means 'A is to the East of B', 'A β B' means 'A is to the West of B', 'A γ B' means 'A is to the North of B', 'A δ B' means 'A is to the South of B', then which expression means 'G is to the North-East of H'?
+(a) G α J γ H (b) G δ J β H (c) H γ J α G (d) G γ J α H
+Answer: (d)
+Solution: In G γ J α H, G γ J means G is North of J, and J α H means J is East of H, so H is West of J. From H, G lies up and to the right, i.e., North-East. The trap option G α J γ H makes G East of J and J North of H, which places G to the South-East of H. Hence the correct expression is G γ J α H, so the answer is G γ J α H.
+Source: PYQ-style
+
+9. In a coded system, 'M $ N' means 'M is 4 m to the East of N', 'M % N' means 'M is 4 m to the West of N', 'M @ N' means 'M is 3 m to the North of N', 'M # N' means 'M is 3 m to the South of N'. If 'P @ Q' and 'Q $ R', what is the shortest distance between P and R?
+(a) 6 m (b) 5 m (c) 7 m (d) 12 m
+Answer: (b)
+Solution: P is 3 m North of Q; Q is 4 m East of R, so R is 4 m West of Q. From R, P is 4 m East and 3 m North — a 3-4-5 right triangle. The trap option 7 m comes from adding 3 + 4 directly instead of applying Pythagoras. Distance = √(9 + 16) = √25 = 5 m, so the answer is 5 m.
+Source: PYQ-style
+
+10. 'A > B' means 'A is to the North of B', 'A < B' means 'A is to the South of B', 'A = B' means 'A is to the East of B', 'A ≠ B' means 'A is to the West of B'. Given 'S > T' and 'T ≠ U', in which direction is S with respect to U?
+(a) North-West (b) South-East (c) North-East (d) South-West
+Answer: (a)
+Solution: S > T means S is North of T. T ≠ U means T is West of U, so U is East of T. Place T at the centre: S is above it and U is to its right; the question asks for S as seen from U, and from U, S lies up and to the left. The trap is answering from T's frame and picking North-East. Hence S is to the North-West of U, so the answer is North-West.
+Source: PYQ-style
+
+11. In a code, 'X & Y' means 'X is to the South-East of Y' and 'X ! Y' means 'X is to the North-West of Y'. If 'A & B' and 'C ! B', then in which direction is C with respect to A?
+(a) South-East (b) South-West (c) North-West (d) North-East
+Answer: (c)
+Solution: A & B means A is South-East of B, and C ! B means C is North-West of B. So A and C lie on the same diagonal on opposite sides of B, with C on the North-West side. The trap is treating both as being on the same side and answering South-East. Since C is on the exactly opposite side of B from A, C is to the North-West of A, so the answer is North-West.
+Source: PYQ-style
+
+12. In a code, 'P ↑ Q' means 'P is 6 m North of Q' and 'P → Q' means 'P is 8 m East of Q'. If 'A ↑ B' and 'B → C', what is the shortest distance between A and C?
+(a) 10 m (b) 14 m (c) 12 m (d) 2 m
+Answer: (a)
+Solution: A is 6 m North of B; B is 8 m East of C, so C is 8 m West of B. From C, A is 8 m East and 6 m North, forming a right triangle. The trap option 14 m comes from adding 6 + 8 instead of using Pythagoras. Distance = √(36 + 64) = √100 = 10 m, so the answer is 10 m.
+Source: PYQ-style
+
+13. 'A @ B' means 'A is to the East of B' and 'A # B' means 'A is to the North of B'. Which of the following expressions shows that 'R is to the North-East of S'?
+(a) S # T @ R (b) R @ T # S (c) R # T @ S (d) S @ T # R
+Answer: (c)
+Solution: In R # T @ S, R # T means R is North of T, and T @ S means T is East of S. From S, T is to the East and R is further North of T, so R lies up and to the right of S. The trap option R @ T # S places R East of T and T North of S, which also seems diagonal but puts R to the South-East of S. Hence the correct expression is R # T @ S, so the answer is R # T @ S.
+Source: PYQ-style
+
+14. If 'M + N' means 'M is to the North of N', 'M – N' means 'M is to the South of N', 'M × N' means 'M is to the East of N', 'M ÷ N' means 'M is to the West of N', then in 'P × Q – R', in which direction is R with respect to P?
+(a) South-West (b) South-East (c) North-East (d) North-West
+Answer: (d)
+Solution: P × Q means P is East of Q, so Q is West of P. Q – R means Q is South of R, so R is North of Q. Place P at the centre: Q is to its left and R is above Q, i.e., up-left from P. The trap option South-West comes from reading Q – R as "R is South of Q". Hence R is to the North-West of P, so the answer is North-West.
+Source: PYQ-style
+
+15. In a coded language, 'A $ B' means 'A is 10 m to the East of B', 'A % B' means 'A is 10 m to the West of B', 'A @ B' means 'A is 10 m to the North of B', 'A # B' means 'A is 10 m to the South of B'. If 'K @ L' and 'L $ M', then in which direction and at what distance is K from M?
+(a) North-West, 10√2 m (b) South-East, 20 m (c) North-East, 20 m (d) North-East, 10√2 m
+Answer: (d)
+Solution: K is 10 m North of L; L is 10 m East of M, so M is 10 m West of L. From M, K is 10 m East and 10 m North, i.e., North-East. The trap option with 20 m comes from adding the legs instead of applying Pythagoras: √(100 + 100) = 10√2 m. Hence K is to the North-East of M at 10√2 m, so the answer is North-East, 10√2 m.
+Source: PYQ-style
+
+16. 'X > Y' means 'X is to the East of Y', 'X < Y' means 'X is to the West of Y', 'X = Y' means 'X is to the South of Y', 'X ≠ Y' means 'X is to the North of Y'. Given 'C ≠ D' and 'D < E', in which direction is C with respect to E?
+(a) South-West (b) North-West (c) South-East (d) North-East
+Answer: (b)
+Solution: C ≠ D means C is North of D. D < E means D is West of E, so E is East of D. Place D at the centre: C is above it and E is to its right; from E, C lies up and to the left. The trap is answering from D's frame and picking North-East. Hence C is to the North-West of E, so the answer is North-West.
+Source: PYQ-style
+
+17. If 'A & B' means 'A is to the North-East of B' and 'A ! B' means 'A is to the South-West of B', then given 'P & Q' and 'R ! Q', in which direction is R with respect to P?
+(a) North-East (b) North-West (c) South-East (d) South-West
+Answer: (d)
+Solution: P & Q means P is North-East of Q, and R ! Q means R is South-West of Q. So P and R lie on the same diagonal on opposite sides of Q, with R on the South-West side. The trap is comparing only the symbols and answering North-East. Since R is on the exactly opposite side of Q from P, R is to the South-West of P, so the answer is South-West.
+Source: PYQ-style
+
+18. In a code, 'A ↑ B' means 'A is 5 m North of B', 'A ↓ B' means 'A is 5 m South of B', 'A → B' means 'A is 12 m East of B', 'A ← B' means 'A is 12 m West of B'. If 'X ↑ Y' and 'Y → Z', what is the shortest distance between X and Z?
+(a) 17 m (b) 13 m (c) 15 m (d) 7 m
+Answer: (b)
+Solution: X is 5 m North of Y; Y is 12 m East of Z, so Z is 12 m West of Y. From Z, X is 12 m East and 5 m North — a 5-12-13 right triangle. The trap option 17 m comes from adding 5 + 12 instead of applying Pythagoras. Distance = √(25 + 144) = √169 = 13 m, so the answer is 13 m.
+Source: PYQ-style
+
+19. 'P @ Q' means 'P is to the South of Q', 'P # Q' means 'P is to the East of Q', and 'P $ Q' means 'P is to the West of Q'. Which expression shows that 'B is to the South-West of A'?
+(a) B @ C # A (b) B @ C $ A (c) A @ C $ B (d) B # C @ A
+Answer: (b)
+Solution: In B @ C $ A, B @ C means B is South of C, and C $ A means C is West of A. From A, C is to the West and B is further South of C, so B lies down and to the left of A, i.e., South-West. The trap option B @ C # A makes C East of A, which pushes B to the South-East of A. Hence the correct expression is B @ C $ A, so the answer is B @ C $ A.
+Source: PYQ-style
+
+20. If 'M * N' means 'M is to the North-West of N' and 'M + N' means 'M is to the South-East of N', then given 'E * F' and 'G + F', in which direction is G with respect to E?
+(a) North-West (b) North-East (c) South-East (d) South-West
+Answer: (c)
+Solution: E * F means E is North-West of F, and G + F means G is South-East of F. So E and G lie on the same diagonal on opposite sides of F, with G on the South-East side. The trap is treating both as being on the same side and answering North-West. Since G is on the exactly opposite side of F from E, G is to the South-East of E, so the answer is South-East.
+Source: PYQ-style
+
+21. In a coded system, 'A @ B' means 'A is 8 m North of B', 'A # B' means 'A is 8 m South of B', 'A $ B' means 'A is 6 m East of B', 'A % B' means 'A is 6 m West of B'. If 'P @ Q', 'Q $ R' and 'R # S', what is the shortest distance between P and S?
+(a) 10 m (b) 6 m (c) 14 m (d) 8 m
+Answer: (b)
+Solution: P is 8 m North of Q; Q is 6 m East of R, so R is 6 m West of Q; R is 8 m South of S, so S is 8 m North of R. Thus S is at the same height as P but 6 m to its West, so the gap is purely horizontal. The trap is applying Pythagoras with 8 and 6 to get 10 m, ignoring that the two 8 m vertical segments cancel out. The shortest distance between P and S is 6 m, so the answer is 6 m.
+Source: PYQ-style
+
+22. 'X > Y' means 'X is to the North of Y', 'X < Y' means 'X is to the South of Y', 'X = Y' means 'X is to the East of Y', 'X ≠ Y' means 'X is to the West of Y'. Given 'A > B', 'B = C' and 'C < D', in which direction is A with respect to D?
+(a) North-East (b) South-West (c) Cannot be determined (d) North-West
+Answer: (c)
+Solution: A is North of B; B is East of C, so C is West of B; C is South of D, so D is North of C. Both A and D are north of their reference points, but no distances are given, so we cannot tell which of A and D is farther north. The trap is assuming equal steps and picking North-East. Since the vertical gap between A and D is unknown, the direction cannot be determined, so the answer is "Cannot be determined".
+Source: PYQ-style
+
+23. In a code, 'A & B' means 'A is 5 m to the North-East of B', 'A ! B' means 'A is 5 m to the South-West of B', 'A % B' means 'A is 5 m to the North-West of B'. If 'P & Q' and 'Q % R', in which direction is P with respect to R?
+(a) West (b) North (c) North-East (d) East
+Answer: (b)
+Solution: P is 5 m North-East of Q, so from Q, P is up and to the right. Q is 5 m North-West of R, so R is 5 m South-East of Q, i.e., down and to the right of Q. P and R are equally far to the East of Q, and P is exactly above R, since the eastward components are equal and only the vertical components differ. The trap option North-East comes from merely combining the two diagonal labels. Hence P is directly to the North of R, so the answer is North.
+Source: PYQ-style
+
+24. 'M @ N' means 'M is 10 m North of N', 'M # N' means 'M is 10 m South of N', 'M $ N' means 'M is 10 m East of N', 'M % N' means 'M is 10 m West of N'. If 'A @ B', 'B $ C' and 'C # D', then in which direction is D with respect to A?
+(a) North (b) West (c) South (d) East
+Answer: (b)
+Solution: A is 10 m North of B; B is 10 m East of C, so C is 10 m West of B; C is 10 m South of D, so D is 10 m North of C. Taking B as the origin, A is 10 m above it and D is 10 m to the left and 10 m above it, so D is level with A but on its left. The trap is mixing the North and South steps and answering South. Hence D is to the West of A, so the answer is West.
+Source: PYQ-style
+
+25. In a coded language, 'P α Q' means 'P is 3 m East of Q', 'P β Q' means 'P is 3 m West of Q', 'P γ Q' means 'P is 4 m North of Q', 'P δ Q' means 'P is 4 m South of Q'. If 'X γ Y', 'Y α Z' and 'Z δ W', what is the shortest distance between X and W?
+(a) 7 m (b) 5 m (c) 4 m (d) 3 m
+Answer: (d)
+Solution: X is 4 m North of Y; Y is 3 m East of Z, so Z is 3 m West of Y; Z is 4 m South of W, so W is 4 m North of Z. Thus W is at the same height as X but 3 m to its West, so the gap is purely horizontal. The trap is applying Pythagoras with 3 and 4 to get 5 m, ignoring that the two 4 m vertical segments cancel out. The shortest distance between X and W is 3 m, so the answer is 3 m.
+Source: PYQ-style

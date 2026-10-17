@@ -1,0 +1,201 @@
+Questions 76–100: Medium
+
+76. What is the value of the two-digit number?
+Statement I: The sum of its digits is 9.
+Statement II: The number obtained by reversing the digits exceeds the original number by 27.
+(a) Statement I alone is sufficient, but Statement II alone is not sufficient (b) Each statement alone is sufficient (c) Statement II alone is sufficient, but Statement I alone is not sufficient (d) Both statements together are sufficient, but neither alone is sufficient
+Answer: (d)
+Solution: The trap is assuming Statement II alone fixes the number; pairs like 14/41, 25/52, 36/63 all differ by 27 on reversal, so II alone fails, and I alone gives 18, 27, 36, …, 90. Together: x + y = 9 and 9(y − x) = 27 give y − x = 3, so x = 3, y = 6, so the answer is that both statements together are sufficient and the number is 36.
+Source: PYQ-style
+
+77. Is x an even integer?
+Statement I: x² is divisible by 4.
+Statement II: 3x is an even integer.
+(a) Statement I alone is sufficient, but Statement II alone is not sufficient (b) Both statements together are sufficient, but neither alone is sufficient (c) Each statement alone is sufficient (d) Statement II alone is sufficient, but Statement I alone is not sufficient
+Answer: (b)
+Solution: The trap is Statement II: 3x being an even integer does not force x to be an even integer, since x = 4/3 gives 3x = 4; Statement I also fails since x = 2√2 satisfies it. Together: 3x an even integer means x = 2m/3, and x² divisible by 4 forces m to be a multiple of 3, making x an even integer, so the answer is that both statements together are sufficient.
+Source: PYQ-style
+
+78. Among P, Q, R, S and T, who is the heaviest?
+Statement I: Q is heavier than R and S but lighter than P.
+Statement II: T is heavier than P.
+(a) Statement I alone is sufficient, but Statement II alone is not sufficient (b) Both statements together are sufficient, but neither alone is sufficient (c) Statement II alone is sufficient, but Statement I alone is not sufficient (d) Each statement alone is sufficient
+Answer: (b)
+Solution: Statement I gives P > Q > R, S but says nothing about T, so it fails alone; Statement II gives only T > P with no link to the others, so it fails alone. Combining gives T > P > Q > R and S, so the answer is that both statements together are sufficient and T is the heaviest.
+Source: PYQ-style
+
+79. What is the code for "sky" in a certain code language?
+Statement I: In that language, "blue sky high" is coded as "ta na ma" and "sky is blue" is coded as "na ta pa".
+Statement II: In that language, "sky falls down" is coded as "na lo ki" and "falls down fast" is coded as "lo ki ra".
+(a) Statement II alone is sufficient, but Statement I alone is not sufficient (b) Statement I alone is sufficient, but Statement II alone is not sufficient (c) Both statements together are sufficient, but neither alone is sufficient (d) Each statement alone is sufficient
+Answer: (a)
+Solution: The trap is Statement I: its two sentences share the words "blue" and "sky" and the codes "ta" and "na", so "sky" could be ta or na — I alone fails. Statement II: the two sentences share "falls" and "down" and the codes "lo" and "ki", leaving "sky" = na, so the answer is that Statement II alone is sufficient and the code is na.
+Source: PYQ-style
+
+80. On which day of the week did Rahul reach Delhi?
+Statement I: Rahul reached Delhi two days after his brother, who reached on Wednesday.
+Statement II: Rahul's sister reached Delhi on Thursday, a day before Rahul.
+(a) Statement II alone is sufficient, but Statement I alone is not sufficient (b) Statement I alone is sufficient, but Statement II alone is not sufficient (c) Both statements together are sufficient, but neither alone is sufficient (d) Each statement alone is sufficient
+Answer: (d)
+Solution: Statement I gives Wednesday + 2 days = Friday, sufficient by itself. Statement II gives Thursday + 1 day = Friday, also sufficient by itself, so the answer is that each statement alone is sufficient and Rahul reached on Friday.
+Source: PYQ-style
+
+81. What is the average of five consecutive even integers?
+Statement I: The smallest of the integers is 12.
+Statement II: The largest of the integers is 20.
+(a) Statement I alone is sufficient, but Statement II alone is not sufficient (b) Statement II alone is sufficient, but Statement I alone is not sufficient (c) Both statements together are sufficient, but neither alone is sufficient (d) Each statement alone is sufficient
+Answer: (d)
+Solution: Statement I fixes the set as 12, 14, 16, 18, 20, giving average 16. Statement II fixes the same set, since five consecutive even integers ending at 20 must start at 12, so the answer is that each statement alone is sufficient and the average is 16.
+Source: PYQ-style
+
+82. Is triangle ABC a right-angled triangle?
+Statement I: The sides are in the ratio 3 : 4 : 5.
+Statement II: The sum of two of its angles equals the third angle.
+(a) Each statement alone is sufficient (b) Statement I alone is sufficient, but Statement II alone is not sufficient (c) Both statements together are sufficient, but neither alone is sufficient (d) Statement II alone is sufficient, but Statement I alone is not sufficient
+Answer: (a)
+Solution: Statement I: 3² + 4² = 5², so by the converse of Pythagoras the triangle is right-angled — sufficient. Statement II: if A + B = C and A + B + C = 180°, then C = 90° — also sufficient, so the answer is that each statement alone is sufficient.
+Source: NCERT Class 10 Mathematics
+
+83. What is the speed of the train (in km/h)?
+Statement I: The train crosses a pole in 12 seconds.
+Statement II: The train is 180 metres long.
+(a) Statement I alone is sufficient, but Statement II alone is not sufficient (b) Statement II alone is sufficient, but Statement I alone is not sufficient (c) Both statements together are sufficient, but neither alone is sufficient (d) Each statement alone is sufficient
+Answer: (c)
+Solution: The trap is thinking that crossing a pole in 12 seconds gives speed; without the train's length no speed can be found, so I alone fails, and II gives length with no time, so it fails alone. Together: speed = 180/12 = 15 m/s = 54 km/h, so the answer is that both statements together are sufficient.
+Source: PYQ-style
+
+84. In a row of 30 students, what is the position of Mohan from the left?
+Statement I: Mohan is 12th from the right.
+Statement II: There are 11 students to the right of Mohan.
+(a) Each statement alone is sufficient (b) Statement II alone is sufficient, but Statement I alone is not sufficient (c) Both statements together are sufficient, but neither alone is sufficient (d) Statement I alone is sufficient, but Statement II alone is not sufficient
+Answer: (a)
+Solution: The trap is overlooking that the total of 30 is given in the question itself, so Statement II also works: 30 − 11 = 19th from the left. Statement I gives 30 − 12 + 1 = 19th from the left, so the answer is that each statement alone is sufficient and Mohan is 19th from the left.
+Source: PYQ-style
+
+85. What is the rate of interest per annum on a sum invested at simple interest?
+Statement I: The sum doubles itself in 8 years.
+Statement II: The sum amounts to ₹18,000 in 4 years.
+(a) Statement II alone is sufficient, but Statement I alone is not sufficient (b) Both statements together are sufficient, but neither alone is sufficient (c) Statement I alone is sufficient, but Statement II alone is not sufficient (d) Each statement alone is sufficient
+Answer: (c)
+Solution: The trap is Statement II: ₹18,000 in 4 years involves an unknown principal, so the rate cannot be isolated. Statement I: interest equals the principal in 8 years, so rate = 100/8 = 12.5% per annum, so the answer is that Statement I alone is sufficient.
+Source: NCERT Class 8 Mathematics
+
+86. How is A related to B?
+Statement I: B is the mother of C, and C is the brother of A.
+Statement II: A is the daughter of D, and D is the husband of B.
+(a) Statement I alone is sufficient, but Statement II alone is not sufficient (b) Each statement alone is sufficient (c) Statement II alone is sufficient, but Statement I alone is not sufficient (d) Both statements together are sufficient, but neither alone is sufficient
+Answer: (c)
+Solution: The trap is Statement I: B is the mother of C and A is C's sibling, but A's gender is not stated, so A could be B's son or daughter — I alone fails. Statement II: A is the daughter of D and B is D's wife, so A is B's daughter, so the answer is that Statement II alone is sufficient.
+Source: PYQ-style
+
+87. What is the value of x + y?
+Statement I: x² − y² = 45.
+Statement II: x − y = 5.
+(a) Statement I alone is sufficient, but Statement II alone is not sufficient (b) Both statements together are sufficient, but neither alone is sufficient (c) Both statements together are not sufficient (d) Statement II alone is sufficient, but Statement I alone is not sufficient
+Answer: (b)
+Solution: Statement I factors as (x − y)(x + y) = 45, but without x − y the sum is not fixed, so I alone fails; Statement II gives only the difference, so II alone fails. Together: x + y = 45/5 = 9, so the answer is that both statements together are sufficient and x + y = 9.
+Source: NCERT Class 8 Mathematics
+
+88. What is the value of x?
+Statement I: 2x + 3 = 11.
+Statement II: x² = 16.
+(a) Statement I alone is sufficient, but Statement II alone is not sufficient (b) Statement II alone is sufficient, but Statement I alone is not sufficient (c) Both statements together are sufficient, but neither alone is sufficient (d) Each statement alone is sufficient
+Answer: (a)
+Solution: The trap is Statement II: x² = 16 gives x = 4 or x = −4, so it does not fix a unique value. Statement I gives 2x = 8, hence x = 4 uniquely, so the answer is that Statement I alone is sufficient.
+Source: NCERT Class 8 Mathematics
+
+89. Is the integer n divisible by 6?
+Statement I: n is divisible by 12.
+Statement II: n is divisible by 9.
+(a) Each statement alone is sufficient (b) Statement I alone is sufficient, but Statement II alone is not sufficient (c) Statement II alone is sufficient, but Statement I alone is not sufficient (d) Both statements together are sufficient, but neither alone is sufficient
+Answer: (b)
+Solution: The trap is Statement II: multiples of 9 like 9, 27, 45 are not divisible by 6, while 18 and 36 are, so II gives no definite answer. Statement I: every multiple of 12 is a multiple of 6, so the answer is definitely yes and Statement I alone is sufficient.
+Source: NCERT Class 6 Mathematics
+
+90. What is the area of the rectangle?
+Statement I: The perimeter of the rectangle is 36 cm.
+Statement II: The length is twice the breadth.
+(a) Both statements together are not sufficient (b) Statement II alone is sufficient, but Statement I alone is not sufficient (c) Both statements together are sufficient, but neither alone is sufficient (d) Statement I alone is sufficient, but Statement II alone is not sufficient
+Answer: (c)
+Solution: Statement I alone gives only l + b = 18 with infinitely many possible areas, and Statement II alone gives a ratio with no scale, so each fails alone. Together: l = 2b and l + b = 18 give b = 6, l = 12, area = 72 cm², so the answer is that both statements together are sufficient.
+Source: NCERT Class 8 Mathematics
+
+91. In which direction is point F with respect to point G?
+Statement I: F is 5 km north of H, and H is 5 km east of G.
+Statement II: G is south-west of H.
+(a) Statement II alone is sufficient, but Statement I alone is not sufficient (b) Each statement alone is sufficient (c) Statement I alone is sufficient, but Statement II alone is not sufficient (d) Both statements together are sufficient, but neither alone is sufficient
+Answer: (c)
+Solution: The trap is Statement II: "G is south-west of H" says nothing about F, so F's direction from G cannot be found. Statement I: from G go 5 km east to H, then 5 km north to F, so F is north-east of G, so the answer is that Statement I alone is sufficient.
+Source: PYQ-style
+
+92. What is the profit percentage earned by selling an article?
+Statement I: The article is sold for ₹1,320.
+Statement II: The cost price of the article is ₹1,100.
+(a) Both statements together are sufficient, but neither alone is sufficient (b) Statement I alone is sufficient, but Statement I alone is not sufficient (c) Statement II alone is sufficient, but Statement I alone is not sufficient (d) Both statements together are not sufficient
+Answer: (a)
+Solution: Statement I gives only the selling price and Statement II only the cost price, so each fails alone. Together: profit = 1320 − 1100 = ₹220 and profit % = 220/1100 × 100 = 20%, so the answer is that both statements together are sufficient.
+Source: NCERT Class 8 Mathematics
+
+93. On which date in June did the school hold its annual function?
+Statement I: The function was held on an even-numbered date.
+Statement II: The function was held on a date between the 12th and the 16th of June.
+(a) Statement I alone is sufficient, but Statement II alone is not sufficient (b) Statement II alone is sufficient, but Statement I alone is not sufficient (c) Each statement alone is sufficient (d) Both statements together are sufficient, but neither alone is sufficient
+Answer: (d)
+Solution: Statement I alone leaves every even date in June open, and Statement II alone leaves the 13th, 14th and 15th open, so each fails alone. Together: the only even date strictly between the 12th and the 16th is the 14th, so the answer is that both statements together are sufficient and the function was on 14 June.
+Source: PYQ-style
+
+94. What is the two-digit number?
+Statement I: The digit in the tens place is 3 more than the digit in the units place.
+Statement II: The sum of the digits is 11.
+(a) Each statement alone is sufficient (b) Statement I alone is sufficient, but Statement II alone is not sufficient (c) Statement II alone is sufficient, but Statement I alone is not sufficient (d) Both statements together are sufficient, but neither alone is sufficient
+Answer: (d)
+Solution: Statement I alone allows 30, 41, 52, 63, 74, 85, 96, and Statement II alone allows 29, 38, 47, 56, 65, 74, 83, 92, so each fails alone. Together: tens − units = 3 and tens + units = 11 give digits 7 and 4, so the answer is that both statements together are sufficient and the number is 74.
+Source: PYQ-style
+
+95. Is p > q?
+Statement I: p² > q².
+Statement II: p and q are both positive, and p² > q².
+(a) Statement I alone is sufficient, but Statement II alone is not sufficient (b) Statement II alone is sufficient, but Statement I alone is not sufficient (c) Both statements together are sufficient, but neither alone is sufficient (d) Each statement alone is sufficient
+Answer: (b)
+Solution: The trap is Statement I: p = −3, q = 2 gives p² = 9 > 4 = q² yet p < q, while p = 3, q = 2 gives p > q, so I alone cannot decide. Statement II restricts both numbers to positive values, where p² > q² implies p > q, so the answer is that Statement II alone is sufficient.
+Source: NCERT Class 9 Mathematics
+
+96. How many children are there in the class?
+Statement I: If 5 more children join, the number becomes a perfect square.
+Statement II: The number of children is between 40 and 50.
+(a) Both statements together are sufficient, but neither alone is sufficient (b) Statement II alone is sufficient, but Statement I alone is not sufficient (c) Statement I alone is sufficient, but Statement II alone is not sufficient (d) Both statements together are not sufficient
+Answer: (a)
+Solution: Statement I alone allows many values such as 11, 20, 31, 44, and Statement II alone leaves a range of ten values, so each fails alone. Together: the only perfect square reachable by adding 5 to a number between 40 and 50 is 49, giving 44 children, so the answer is that both statements together are sufficient.
+Source: NCERT Class 8 Mathematics
+
+97. What is the age of the father?
+Statement I: The father is 24 years older than his son.
+Statement II: After 6 years, the father's age will be twice the son's age.
+(a) Statement I alone is sufficient, but Statement II alone is not sufficient (b) Both statements together are sufficient, but neither alone is sufficient (c) Both statements together are not sufficient (d) Statement II alone is sufficient, but Statement I alone is not sufficient
+Answer: (b)
+Solution: Statement I gives only the age gap and Statement II gives one equation in two unknowns, so each fails alone. Together: F = S + 24 and F + 6 = 2(S + 6) give S = 18 and F = 42, so the answer is that both statements together are sufficient and the father is 42 years old.
+Source: NCERT Class 8 Mathematics
+
+98. In a certain code, how is "GOOD" written?
+Statement I: In that code, "BOOK" is written as "CPPL".
+Statement II: In that code, "FOOD" is written as "GPPE".
+(a) Statement I alone is sufficient, but Statement I alone is not sufficient (b) Statement II alone is sufficient, but Statement I alone is not sufficient (c) Each statement alone is sufficient (d) Both statements together are sufficient, but neither alone is sufficient
+Answer: (d)
+Solution: The trap is Statement II alone: FOOD → GPPE shows F→G, O→P, D→E, but the code for G itself is never demonstrated, so II alone fails; Statement I alone shows a +1 shift only for B, O and K, so it also fails alone. Together: the +1 shift is confirmed for B, O, K, F and D, so G → H and GOOD is coded as HPPE, so the answer is that both statements together are sufficient.
+Source: PYQ-style
+
+99. A, B, C, D and E have different weights. Who is the lightest?
+Statement I: A is heavier than B and C; D is heavier than A.
+Statement II: E is heavier than D; C is heavier than B.
+(a) Statement I alone is sufficient, but Statement II alone is not sufficient (b) Statement II alone is sufficient, but Statement I alone is not sufficient (c) Both statements together are sufficient, but neither alone is sufficient (d) Both statements together are not sufficient
+Answer: (c)
+Solution: Statement I leaves E unplaced and B versus C unknown, and Statement II links nothing to A, so each fails alone. Together: E > D > A > C > B, so the answer is that both statements together are sufficient and B is the lightest.
+Source: PYQ-style
+
+100. What is the capacity of the tank?
+Statement I: Pipe A alone can fill the tank in 6 hours.
+Statement II: Pipes A and B together can fill the tank in 4 hours.
+(a) Both statements together are not sufficient (b) Statement I alone is sufficient, but Statement II alone is not sufficient (c) Statement II alone is sufficient, but Statement I alone is not sufficient (d) Both statements together are sufficient, but neither alone is sufficient
+Answer: (a)
+Solution: The trap is assuming fill times reveal capacity; time and rate give only the fraction filled per hour, never the absolute volume. Both statements speak only of rates, and no volume or flow in litres appears anywhere, so the answer is that both statements together are not sufficient.
+Source: NCERT Class 8 Mathematics

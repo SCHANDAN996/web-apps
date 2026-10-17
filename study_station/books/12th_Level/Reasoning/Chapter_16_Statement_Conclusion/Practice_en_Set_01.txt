@@ -1,0 +1,224 @@
+1. Statement: All pens are books. All books are chairs.
+Conclusions:
+I. All pens are chairs.
+II. Some chairs are pens.
+(a) Only conclusion I follows (b) Only conclusion II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (c)
+Solution: Since all pens are books and all books are chairs, all pens must be chairs, so conclusion I follows. If all pens are chairs, then some chairs are definitely pens, so conclusion II also follows. The tempting error is to accept only the direct conclusion I and ignore the converse-based conclusion II. Both conclusions follow, so the answer is "Both I and II follow".
+Source: PYQ-style
+
+2. Statement: Some dogs are cats. All cats are rats.
+Conclusions:
+I. Some dogs are rats.
+II. All rats are cats.
+(a) Only conclusion I follows (b) Only conclusion II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (a)
+Solution: The overlap between dogs and cats, combined with all cats being rats, guarantees that some dogs are rats, so conclusion I follows. Conclusion II reverses "all cats are rats" into "all rats are cats", which is the classic converse trap — a universal statement cannot be reversed. Only conclusion I follows, so the answer is "Only conclusion I follows".
+Source: PYQ-style
+
+3. Statement: No apple is a banana. Some bananas are mangoes.
+Conclusions:
+I. No mango is an apple.
+II. Some mangoes are not apples.
+(a) Only conclusion I follows (b) Only conclusion II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (b)
+Solution: Conclusion I is the tempting trap: a negative relation between apples and bananas does not extend to mangoes, since some mangoes may lie outside the banana group. However, the mangoes that are bananas cannot be apples (because no banana is an apple), so some mangoes are definitely not apples. Only conclusion II follows, so the answer is "Only conclusion II follows".
+Source: PYQ-style
+
+4. Statement: All students are players. Some players are singers.
+Conclusions:
+I. Some students are singers.
+II. Some singers are players.
+(a) Only conclusion I follows (b) Neither I nor II follows (c) Both I and II follow (d) Only conclusion II follows
+Answer: (d)
+Solution: Conclusion I is the trap: the singers who are players may all be players who are not students, so we cannot be sure any student is a singer. Conclusion II is simply the conversion of "some players are singers", and a particular affirmative statement converts validly. Only conclusion II follows, so the answer is "Only conclusion II follows".
+Source: PYQ-style
+
+5. Statement: Some flowers are red. All red things are beautiful.
+Conclusions:
+I. Some flowers are beautiful.
+II. All beautiful things are red.
+(a) Only conclusion II follows (b) Only conclusion I follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (b)
+Solution: The flowers that are red must be beautiful, since all red things are beautiful, so conclusion I follows. Conclusion II is the converse trap — "all red things are beautiful" does not mean every beautiful thing is red. Only conclusion I follows, so the answer is "Only conclusion I follows".
+Source: PYQ-style
+
+6. Statement: No teacher is a doctor. All doctors are engineers.
+Conclusions:
+I. No engineer is a teacher.
+II. Some engineers are not teachers.
+(a) Only conclusion I follows (b) Both I and II follow (c) Only conclusion II follows (d) Neither I nor II follows
+Answer: (c)
+Solution: Conclusion I is the trap: engineers who are not doctors could still be teachers, so a total separation cannot be concluded. But the engineers who are doctors cannot be teachers, so some engineers are definitely not teachers. Only conclusion II follows, so the answer is "Only conclusion II follows".
+Source: PYQ-style
+
+7. Statement: All cars are vehicles. All vehicles have wheels.
+Conclusions:
+I. All cars have wheels.
+II. Some vehicles are cars.
+(a) Only conclusion I follows (b) Both I and II follow (c) Only conclusion II follows (d) Neither I nor II follows
+Answer: (b)
+Solution: Chaining the two universal statements, all cars have wheels, so conclusion I follows. From "all cars are vehicles", the particular converse "some vehicles are cars" is valid, so conclusion II also follows. Both conclusions follow, so the answer is "Both I and II follow".
+Source: PYQ-style
+
+8. Statement: Some boys are tall. No tall person is weak.
+Conclusions:
+I. Some boys are not weak.
+II. No boy is weak.
+(a) Only conclusion I follows (b) Only conclusion II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (a)
+Solution: The boys who are tall cannot be weak, so some boys are definitely not weak — conclusion I follows. Conclusion II is the trap: it extends the negative relation to all boys, but boys who are not tall may be weak. Only conclusion I follows, so the answer is "Only conclusion I follows".
+Source: PYQ-style
+
+9. Statement: All mangoes are fruits. All fruits are sweet.
+Conclusions:
+I. All mangoes are sweet.
+II. Some sweet things are mangoes.
+(a) Only conclusion I follows (b) Only conclusion II follows (c) Neither I nor II follows (d) Both I and II follow
+Answer: (d)
+Solution: Direct chaining gives that all mangoes are sweet, so conclusion I follows. Since all mangoes are sweet, at least some sweet things are mangoes, so conclusion II also follows. Both conclusions follow, so the answer is "Both I and II follow".
+Source: PYQ-style
+
+10. Statement: Some chairs are tables. No table is a bed.
+Conclusions:
+I. Some chairs are not beds.
+II. Some beds are chairs.
+(a) Both I and II follow (b) Only conclusion II follows (c) Only conclusion I follows (d) Neither I nor II follows
+Answer: (c)
+Solution: The chairs that are tables cannot be beds, so some chairs are not beds — conclusion I follows. Conclusion II is a positive conclusion drawn from partly negative premises, which is never valid; nothing guarantees any bed is a chair. Only conclusion I follows, so the answer is "Only conclusion I follows".
+Source: PYQ-style
+
+11. Statement: All laptops are computers. Some computers are expensive.
+Conclusions:
+I. Some laptops are expensive.
+II. All computers are laptops.
+(a) Neither I nor II follows (b) Only conclusion II follows (c) Both I and II follow (d) Only conclusion I follows
+Answer: (a)
+Solution: Conclusion I is the trap: the expensive computers may all be non-laptops, so no laptop need be expensive. Conclusion II reverses a universal statement, which is invalid. Neither conclusion follows, so the answer is "Neither I nor II follows".
+Source: PYQ-style
+
+12. Statement: Some books are novels. All novels are interesting.
+Conclusions:
+I. Some books are interesting.
+II. Some interesting things are novels.
+(a) Only conclusion I follows (b) Only conclusion II follows (c) Neither I nor II follows (d) Both I and II follow
+Answer: (d)
+Solution: The books that are novels are interesting, so some books are interesting — conclusion I follows. Since all novels are interesting, some interesting things are certainly novels, so conclusion II also follows. Both conclusions follow, so the answer is "Both I and II follow".
+Source: PYQ-style
+
+13. Statement: No bird is a mammal. All sparrows are birds.
+Conclusions:
+I. No sparrow is a mammal.
+II. Some mammals are sparrows.
+(a) Neither I nor II follows (b) Only conclusion II follows (c) Both I and II follow (d) Only conclusion I follows
+Answer: (d)
+Solution: Since every sparrow is a bird and no bird is a mammal, no sparrow can be a mammal, so conclusion I follows. Conclusion II directly contradicts the established separation and is the trap for those who misread the negative premise. Only conclusion I follows, so the answer is "Only conclusion I follows".
+Source: PYQ-style
+
+14. Statement: All poets are readers. Some readers are writers.
+Conclusions:
+I. Some poets are writers.
+II. Some writers are readers.
+(a) Only conclusion I follows (b) Both I and II follow (c) Only conclusion II follows (d) Neither I nor II follows
+Answer: (c)
+Solution: Conclusion I is the trap: the writers among readers may be entirely outside the poet group, so it is not certain. Conclusion II is the valid conversion of "some readers are writers". Only conclusion II follows, so the answer is "Only conclusion II follows".
+Source: PYQ-style
+
+15. Statement: Some mobiles are phones. All phones are devices.
+Conclusions:
+I. Some mobiles are devices.
+II. All devices are phones.
+(a) Only conclusion I follows (b) Only conclusion II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (a)
+Solution: The mobiles that are phones must be devices, so conclusion I follows. Conclusion II is the converse trap — a universal statement cannot be fully reversed. Only conclusion I follows, so the answer is "Only conclusion I follows".
+Source: PYQ-style
+
+16. Statement: All gold is metal. Some metals are heavy.
+Conclusions:
+I. Some gold is heavy.
+II. Some metals are gold.
+(a) Only conclusion I follows (b) Only conclusion II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (b)
+Solution: Conclusion I is the trap: the heavy metals may be metals other than gold, so it is not certain. From "all gold is metal", the particular converse "some metals are gold" is valid. Only conclusion II follows, so the answer is "Only conclusion II follows".
+Source: PYQ-style
+
+17. Statement: No cup is a plate. Some plates are spoons.
+Conclusions:
+I. Some spoons are not cups.
+II. No spoon is a cup.
+(a) Only conclusion II follows (b) Only conclusion I follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (b)
+Solution: The spoons that are plates cannot be cups, so some spoons are not cups — conclusion I follows. Conclusion II is the trap: it stretches the negative relation to all spoons, but spoons that are not plates could be cups. Only conclusion I follows, so the answer is "Only conclusion I follows".
+Source: PYQ-style
+
+18. Statement: All rivers are streams. All streams flow into the sea.
+Conclusions:
+I. All rivers flow into the sea.
+II. Some things that flow into the sea are rivers.
+(a) Both I and II follow (b) Only conclusion II follows (c) Only conclusion I follows (d) Neither I nor II follows
+Answer: (a)
+Solution: Chaining the premises, all rivers flow into the sea, so conclusion I follows. Since all rivers flow into the sea, some things flowing into the sea must be rivers, so conclusion II also follows. Both conclusions follow, so the answer is "Both I and II follow".
+Source: PYQ-style
+
+19. Statement: Some actors are dancers. No dancer is a singer.
+Conclusions:
+I. Some actors are not singers.
+II. Some singers are actors.
+(a) Neither I nor II follows (b) Only conclusion II follows (c) Both I and II follow (d) Only conclusion I follows
+Answer: (d)
+Solution: The actors who are dancers cannot be singers, so some actors are not singers — conclusion I follows. Conclusion II is a positive conclusion that cannot be derived when the linking premise is negative; it is the tempting trap. Only conclusion I follows, so the answer is "Only conclusion I follows".
+Source: PYQ-style
+
+20. Statement: All trees are plants. Some plants are green.
+Conclusions:
+I. Some trees are green.
+II. Some plants are trees.
+(a) Only conclusion II follows (b) Only conclusion I follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (a)
+Solution: Conclusion I is the trap: the green plants may all be non-trees, so it cannot be guaranteed. The particular converse of "all trees are plants" gives "some plants are trees", which is valid. Only conclusion II follows, so the answer is "Only conclusion II follows".
+Source: PYQ-style
+
+21. Statement: Some pens are pencils. All pencils are erasers. No eraser is a sharpener.
+Conclusions:
+I. Some pens are not sharpeners.
+II. No pencil is a sharpener.
+(a) Both I and II follow (b) Only conclusion II follows (c) Only conclusion I follows (d) Neither I nor II follows
+Answer: (a)
+Solution: The pens that are pencils are erasers, and no eraser is a sharpener, so those pens are not sharpeners — conclusion I follows. Since all pencils are erasers and no eraser is a sharpener, no pencil can be a sharpener, so conclusion II also follows. The trap is to accept only the direct negative chain and miss the particular negative conclusion. Both conclusions follow, so the answer is "Both I and II follow".
+Source: PYQ-style
+
+22. Statement: All A are B. No B is C. Some C are D.
+Conclusions:
+I. No A is C.
+II. Some D are not B.
+(a) Only conclusion I follows (b) Only conclusion II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (c)
+Solution: Since all A are B and no B is C, no A can be C, so conclusion I follows. The D that are C cannot be B (because no B is C), so some D are not B — conclusion II also follows. The trap is to reject conclusion II by assuming the C–D overlap says nothing about B. Both conclusions follow, so the answer is "Both I and II follow".
+Source: PYQ-style
+
+23. Statement: Some doctors are rich. All rich people are happy. No happy person is sad.
+Conclusions:
+I. Some doctors are happy.
+II. Some doctors are not sad.
+(a) Only conclusion I follows (b) Only conclusion II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (c)
+Solution: The doctors who are rich are happy, so some doctors are happy — conclusion I follows. Those same happy doctors cannot be sad, so some doctors are not sad — conclusion II also follows. The trap is to stop after the first chain and ignore the negative premise's effect. Both conclusions follow, so the answer is "Both I and II follow".
+Source: PYQ-style
+
+24. Statement: All cats are animals. Some animals are wild. No wild thing is a pet.
+Conclusions:
+I. Some cats are wild.
+II. Some animals are not pets.
+(a) Only conclusion I follows (b) Neither I nor II follows (c) Both I and II follow (d) Only conclusion II follows
+Answer: (d)
+Solution: Conclusion I is the trap: the wild animals may all be non-cats, so no cat need be wild. But the animals that are wild cannot be pets, so some animals are definitely not pets — conclusion II follows. Only conclusion II follows, so the answer is "Only conclusion II follows".
+Source: PYQ-style
+
+25. Statement: Some keys are locks. All locks are doors. Some doors are windows.
+Conclusions:
+I. Some keys are doors.
+II. Some windows are locks.
+(a) Only conclusion II follows (b) Only conclusion I follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (b)
+Solution: The keys that are locks must be doors, since all locks are doors, so conclusion I follows. Conclusion II is the trap: the windows that are doors may be doors that are not locks, so no window need be a lock. Only conclusion I follows, so the answer is "Only conclusion I follows".
+Source: PYQ-style

@@ -1,0 +1,13 @@
+{% extends 'admin/base.html' %}
+{% block title %}Login{% endblock %}
+{% block main %}
+<form method="post" class="card stack" style="max-width:380px;margin:var(--sp-7) auto">
+  <h1>Admin login</h1>
+  {% if error == 'locked' %}<div class="notice">Admin is locked. Set <b>SECRET_KEY</b> and <b>ADMIN_PASSWORD</b> in <code>.env</code> and restart.</div>
+  {% elif error == 'wrong' %}<div class="notice">Wrong password.</div>
+  {% elif error == 'too_many' %}<div class="notice">Too many attempts — wait 15 minutes.</div>{% endif %}
+  <input type="hidden" name="next" value="{{ next }}">
+  <label class="f">Password<input type="password" name="password" required autofocus autocomplete="current-password"></label>
+  <button class="btn btn-primary btn-block">Log in</button>
+</form>
+{% endblock %}

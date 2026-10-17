@@ -1,0 +1,107 @@
+# 🪄 Short Tricks & Mnemonics — Clock & Calendar
+
+---
+
+## 🧠 Mnemonic Box 1 — The Minute Hand Sprint
+**"The minute hand is a sprinter — it gains 55 minutes on the lazy hour hand every hour."**
+The hour hand crawls 5 minute-spaces per hour while the minute hand runs 60. Relative speed = **55 minute-spaces/hour**. Every "when do they meet/coincide?" question is just: distance ÷ 55.
+
+---
+
+## 🧠 Mnemonic Box 2 — The 11-in-12 Rule
+**"Eleven dates in twelve hours — the hands are not that romantic."**
+Hands coincide **11 times in 12 hours** (not 12!), because between 11 and 1 they meet only once — at 12:00. Same 11-times rule applies for opposite (180°) and right angle is **22 times** (twice per hour, minus the two "stolen" ones near 3 and 9).
+
+---
+
+## 🧠 Mnemonic Box 3 — The Coincidence Formula Song
+**"Sixty H over eleven, that's the minute past the hour, heaven!"**
+Hands coincide at H o'clock + **(60H/11)** minutes.
+Example: between 4 and 5 → 240/11 = 21⁹⁄₁₁ min past 4.
+
+---
+
+## 🧠 Mnemonic Box 4 — The Mirror Trick (11:60)
+**"Look in the mirror at 11:60 — the clock's twin lives there."**
+Mirror image of time T = **11:60 − T** (if minutes = 00, use 12:00 − T).
+Example: mirror of 4:20 → 11:60 − 4:20 = **7:40**.
+
+---
+
+## 🧠 Mnemonic Box 5 — The Water Image Cousin
+**"Water flips at 18:30 — the mirror's upside-down cousin."**
+Water image of time T = **18:30 − T**. Mirror = left-right flip (11:60), Water = top-bottom flip (18:30). Don't mix the twins!
+
+---
+
+## 🧠 Mnemonic Box 6 — The Angle Formula Anchor
+**"Thirty H minus eleven-halves M — take it positive, and if it's fat, flip it from 360."**
+Angle = |30H − (11/2)M|. If answer > 180°, subtract from 360° (examiner wants the smaller angle).
+Example: 3:40 → |90 − 220| = 130°.
+
+---
+
+## 🧠 Mnemonic Box 7 — The Half-Degree Turtle
+**"The hour hand is a turtle: half a degree a minute, and proud of it."**
+Hour hand = **0.5°/min**, minute hand = **6°/min**, relative speed = **5.5°/min**. Every angle chase = gap ÷ 5.5.
+
+---
+
+## 🧠 Mnemonic Box 8 — The Right-Angle Robbery
+**"At 3 and 9, the thief steals one right angle each — so 22, not 24."**
+In 12 hours, hands make 90° **22 times**, not 24 — because the right angles near 3 o'clock and 9 o'clock get "shared" between adjacent hours.
+
+---
+
+## 🧠 Mnemonic Box 9 — Odd Days: The Week's Leftovers
+**"Odd days are the week's leftovers — what remains after full weeks are eaten."**
+Ordinary year = 365 days = 52 weeks + **1 leftover**. Leap year = **2 leftovers**. Count leftovers, ignore full weeks.
+
+---
+
+## 🧠 Mnemonic Box 10 — The Century Odd-Days Ladder
+**"Century odd days climb down: 0-5-3-1 — then back to zero."**
+Odd days accumulated up to the start of a century year: 1600→**0**, 1700→**5**, 1800→**3**, 1900→**1**, 2000→**0** again (the cycle repeats every 400 years). Remember: **0-5-3-1-0**.
+
+---
+
+## 🧠 Mnemonic Box 11 — The Month Code Chant
+**"JFM: 0-3-3, A-M-J: 6-1-4, J-A-S: 6-2-5, O-N-D: 0-3-5."**
+Month codes (ordinary year): Jan 0, Feb 3, Mar 3, Apr 6, May 1, Jun 4, Jul 6, Aug 2, Sep 5, Oct 0, Nov 3, Dec 5. Chant the offsets: **033 614 625 035**.
+
+---
+
+## 🧠 Mnemonic Box 12 — Leap Year Gatekeeper
+**"Divide by 4 — but the century gatekeeper demands 400."**
+Year divisible by 4 = leap, **except** century years, which must be divisible by **400**. So 1900 = NOT leap, 2000 = leap. The classic examiner trap!
+
+---
+
+## 🧠 Mnemonic Box 13 — The Doomsday Anchor
+**"Last day of February is the anchor — 4/4, 6/6, 8/8, 10/10, 12/12 all fall on the same weekday."**
+In any year, 4 April, 6 June, 8 August, 10 October, 12 December share the same weekday as the year's "Doomsday" (last day of Feb). One anchor → whole year's calendar unlocked.
+
+---
+
+## 🧠 Mnemonic Box 14 — The 400-Year Reset
+**"The calendar has amnesia every 400 years — it forgets and repeats exactly."**
+The Gregorian calendar repeats every **400 years** (and a normal year's calendar repeats after 6 or 11 years depending on leap-year gaps). So 2024's calendar = 1624's = 2424's.
+
+---
+
+## 🧠 Mnemonic Box 15 — The Faulty Clock Proportion
+**"A sick clock keeps its own ratio — scale everything by its personal speed."**
+If a clock gains/loses x minutes per hour, use proportion: (faulty time elapsed) × (60 / (60±x)) = true time elapsed. Never add/subtract directly — always scale.
+
+---
+
+# ⏭️ Skip Strategy — When to Skip & Move On
+
+### 🚫 Skip Tip 1 — The 15-Second Pattern Rule
+If a calendar question's setup (odd days chain across centuries + years + months) isn't clear within **15 seconds**, mark it and move on. A 3-century odd-day calculation eats 2+ minutes — that's 3 easier questions lost. Return only if time remains.
+
+### 🚫 Skip Tip 2 — The "Two Unknowns" Alarm
+If a faulty-clock question has **both** an unknown gain/loss rate **and** an unknown true time (needs two equations), skip it in the first pass. These are designed as time-traps; single-unknown versions are quick, double-unknown ones are not.
+
+### 🚫 Skip Tip 3 — The Angle-Trap Check
+If an angle question gives an unusual time (e.g., 7:43) and the options are very close (like 17.5°, 18.5°, 19.5°), the arithmetic (11/2 × 43) will be messy. If your first calculation doesn't match any option cleanly, **don't recompute on the spot** — mark it, bank the sure questions, and revisit. One re-check at the end beats three panicked recalculations mid-paper.

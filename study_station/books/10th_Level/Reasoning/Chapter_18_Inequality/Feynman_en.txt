@@ -1,22 +1,26 @@
-# Feynman Technique: Inequality in Simple Words
+🧒 Feynman (फेनमैन तकनीक + ब्लर्टिंग शीट)
 
-Tell your younger brother: "Think, three friends by height — Ram > Shyam, Shyam > Mohan. So who is tallest? Ram! Shortest? Mohan! When all the arrows point the same way (>), the ends join directly. That is all inequality is."
+Imagine you and your friend Rohan are standing against the wall, and someone draws a mark above both your heads. You are told, "Rohan's height is less than or equal to your height." That's a weird statement. It means Rohan could be shorter than you, or exactly the same height. You look at the marks, but they're smudged! You can't see who is taller. Now someone asks:
 
-**If all signs are in the same direction, the chain joins; the moment the direction changes, the relation breaks.**
+"Can you prove Rohan is shorter than you?"
+— No, because maybe you're both exactly the same.
+"Can you prove you are exactly the same height?"
+— No, because maybe Rohan is a bit shorter.
+You're stuck. Both answers could be true, but neither is guaranteed.
 
-## The Biggest Trick: Watch the Arrow Direction
+This is the hardest idea in Inequality: the "Either-Or" case. It's like when you know the truth is sitting inside a mystery box with two keys, but you don't know which key opens it. The statement gives you two possibilities, and you cannot pick one as certain. So you say, "Either this, or that."
 
-A > B > C — all arrows point 'greater to smaller' → A > C is certain.
-But A > B < C — here B is smaller than both, so we don't know which of A and C is greater → no definite relation.
+That's exactly what happens with A ≥ B. The statement is a box containing two toys: one with A > B and one with A = B. The examiner asks, "Which toy is definitely in my hand?" You can't say. But if they ask, "Is one of these two toys definitely in my hand?" you shout, "YES!"
 
-Whenever the direction is not the same, immediately conclude — "no definite relation".
+So, the Either-Or trick is simply this: When you see a statement that leaves two possibilities open, and two conclusions each claim one of those possibilities, and neither is forced by other clues, then they are like best friends who walk together. You can't separate them. The answer becomes "Either I or II follows."
 
-## Blurting Sheet (Write from Memory)
+Unforgettable trick — "The Smudged Line":
+Next time you see A ≥ B, imagine a line drawn between A and B, but it's smudged. You can't tell if it's a > or an = sign. So, if a conclusion says A > B, you say, "Maybe, but the smudge hides the =." If another says A = B, you say, "Maybe, but the smudge hides the >." When both conclusions appear together, you simply say, "The smudge covers exactly these two — so one of them has to be right!" That's your signal for Either-Or.
 
-Close the book and write:
-1. The five inequality signs and their meanings.
-2. What follows from A > B > C?
-3. What relation in A > B < C?
-4. When does the Either-Or rule apply?
+Now, the most important part of learning anything: Blurting.
 
-Whatever you cannot write, read again.
+✍️ Blurting Sheet Instruction
+
+Take a blank sheet of paper. Without looking at any book or notes, write down everything you remember from this chapter — symbols, combining rules, the Either-Or conditions, the detective method, the coded inequality translations, and the exam traps. Draw the smudged line. Do not worry if it's messy. This single habit will boost your memory more than re-reading five times. After 10 minutes, open the chapter and fill in what you missed in a different color.
+
+Now, here's a question for you: If a statement says P ≥ Q, and conclusion I says P > Q, conclusion II says P = Q, and there are no other statements — what should be your answer? 🤔

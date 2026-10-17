@@ -1,24 +1,10 @@
-Important Rules & Approaches
-1. Key Rules/Approaches
-Rule Name	Description	Example
-EJOTY Anchor Trick	E=5, J=10, O=15, T=20, Y=25 serve as quick reference points for forward positions.	To find R: O=15, P=16, Q=17, R=18.
-Reverse Position	Reverse position (from Z=1) = 27 – Forward position.	G (7) → reverse = 20.
-Opposite Letter	Opposite letter = 27 – Forward position.	C (3) → 27-3 = 24 = X.
-Constant Difference Series	Add/subtract same number each step to find next letter.	B, E, H, K (positions 2,5,8,11) → +3 → next N.
-Increasing/Decreasing Gap Series	Gaps change by ±1, ±2, etc.	A(1), C(3) gap 2, F(6) gap 3, J(10) gap 4 → next gap 5 → O.
-Mixed Letter-Number Series	Treat letters and numbers separately, then combine.	A2, C4, E6 → letters +2, numbers +2 → G8.
-Analogy Mapping	Decode relationship (shift, opposite, reverse) from first pair, apply identically to second.	ACE : GIK → +6 shift; MOQ +6 = SUW.
-Classification (Odd One Out)	Check vowel/consonant, position parity, prime/composite, or anchor distance.	Odd one: T in A, E, I, O, T (only consonant).
-Coding-Decoding Sequence	Identify operation order (shift, opposite, reverse) and reverse it to decode.	If code “GURF” → rule: –2 then opposite, decode by opposite first then +2.
-Common Opposite Pairs	Memorize E↔V, J↔Q, O↔L, T↔G, Y↔B for speed.	Opposite of J = Q without calculation.
-2. Time Management
-Time Rule	Description
-15-Second Rule	If pattern not spotted in 15 sec, mark & skip. Do not get stuck.
-45-Second Rule	If pattern found but solving takes long, skip after 45 sec. Return later if time allows.
-Skip Multi-Step Coding	Questions with 3+ operations or 5+ letter words — skip immediately; attempt at end only.
-3. Logical/Mathematical Formulas
-Formula	Usage
-Opposite Letter = 27 – Forward Position	Directly gives opposite letter.
-Reverse Position = 27 – Forward Position	Converts left-end position to right-end counting.
-Forward Position = 27 – Reverse Position	Converts right-end position to forward counting.
-nth Term of Constant Gap Series: aₙ = a₁ + (n–1)·d	d = common difference; a₁ = position of first letter.
+# Chapter: Alphabet Questions, Level: foundation, Type: Verbal Reasoning
+
+@content_agent lang=en level=foundation 'List all important rules, approaches, time management tips, and logical formulas (if any) for Alphabet Questions in a clean table.
+Instructions:
+- Table has three parts:
+  1. "Key Rules/Approaches" – Rule Name | Description | Example
+  2. "Time Management" – 15-second and 45-second rule (e.g., "If pattern not understood in 15 sec, skip").
+  3. "Logical/Mathematical Formulas" – if applicable; otherwise "No formulas for this chapter".
+- No explanation, just tabular data.
+- Keep language simple and precise.

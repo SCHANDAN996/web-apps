@@ -1,339 +1,151 @@
-📝 Set 1: Statistics MCQs (1–25)
+📝 Set 1: Statistics MCQs — Questions 1–20: Easy | Questions 21–25: Moderate
 
-Q1. The science of collecting, organising, presenting, analysing, and interpreting data is called:
-A. Algebra
-B. Geometry
-C. Statistics
-D. Arithmetic
+1. The science of collecting, organising, presenting, analysing and interpreting data is called:
+(a) Statistics (b) Geometry (c) Algebra (d) Arithmetic
+Answer: (a)
+Solution: Algebra and geometry deal with symbols and shapes, not data handling. By definition, Statistics is the branch of mathematics concerned with data, so the answer is Statistics.
+Source: NCERT Class 9 Mathematics
 
-✅ Correct Answer: C. Statistics
-Step-by-step: By definition, Statistics is the branch of mathematics dealing with data handling.
-Source: NCERT Class 9
+2. In the marks 12, 15, 11, 18, 12, 15, 12, 18, 15, 12, the most frequent mark is:
+(a) 18 (b) 15 (c) 12 (d) 11
+Answer: (c)
+Solution: Tally the frequencies: 11 appears once, 12 four times, 15 three times, 18 twice. The value 15 is tempting but occurs only 3 times, so the mode is 12.
+Source: NCERT Class 9 Mathematics
 
-Q2. In a dataset of 10 students' marks: 12, 15, 11, 18, 12, 15, 12, 18, 15, 12, the most frequent mark is:
-A. 18
-B. 15
-C. 12
-D. 11
+3. The mean of 2, 4, 6, 8, 10 is:
+(a) 5 (b) 6 (c) 7 (d) 8
+Answer: (b)
+Solution: Sum = 2+4+6+8+10 = 30 and n = 5, so mean = 30/5 = 6. Picking the middle term 6 works here only because the data is symmetric; the calculation confirms the mean is 6.
+Source: NCERT Class 9 Mathematics
 
-✅ Correct Answer: C. 12
-Step-by-step: Mode is the most frequent value. Tally: 11(1), 12(4), 15(3), 18(2). 12 appears 4 times.
-Source: NCERT Class 9
+4. The middlemost value of a data set arranged in ascending or descending order is called:
+(a) Median (b) Mode (c) Mean (d) Range
+Answer: (a)
+Solution: Mean is the average and mode is the most frequent value; neither depends on position. The positional middle value is the median, so the answer is Median.
+Source: NCERT Class 9 Mathematics
 
-Q3. The mean of 2, 4, 6, 8, 10 is:
-A. 5
-B. 6
-C. 7
-D. 8
+5. The median of 3, 1, 5, 2, 4 is:
+(a) 1 (b) 2 (c) 5 (d) 3
+Answer: (d)
+Solution: Arrange in order: 1, 2, 3, 4, 5. With n = 5 (odd), the median is the 3rd term. Taking 3 without sorting is a trap only if data were unsorted; here the sorted middle value is 3.
+Source: NCERT Class 9 Mathematics
 
-✅ Correct Answer: B. 6
-Step-by-step: Sum = 2+4+6+8+10 = 30, n=5, Mean = 30/5 = 6.
-Source: NCERT Class 9
+6. The mode of 5, 6, 7, 6, 5, 8, 6 is:
+(a) 6 (b) 7 (c) 5 (d) 8
+Answer: (a)
+Solution: Frequencies: 5 appears twice, 6 three times, 7 once, 8 once. The value 5 is tempting as it repeats, but 6 repeats most, so the mode is 6.
+Source: NCERT Class 9 Mathematics
 
-Q4. The middlemost value of a data set when arranged in order is called:
-A. Mean
-B. Mode
-C. Median
-D. Range
+7. The mean of ungrouped data is found by the formula:
+(a) Largest value − smallest value (b) Sum of observations ÷ number of observations (c) Middle term of the data (d) Most frequent value
+Answer: (b)
+Solution: The range is largest minus smallest, and the middle term gives the median — both are traps. Mean is the sum of all observations divided by their count, so the answer is sum of observations ÷ number of observations.
+Source: NCERT Class 9 Mathematics
 
-✅ Correct Answer: C. Median
-Source: NCERT Class 9
+8. The median of 14, 10, 12, 18, 15 is:
+(a) 14 (b) 12 (c) 15 (d) 10
+Answer: (a)
+Solution: Sorted data: 10, 12, 14, 15, 18. With n = 5, the median is the 3rd term. Choosing 12 (the 2nd term) is a common slip, so the median is 14.
+Source: NCERT Class 9 Mathematics
 
-Q5. The median of 3, 1, 5, 2, 4 is:
-A. 1
-B. 2
-C. 3
-D. 5
+9. The sum of all observations divided by the number of observations gives the:
+(a) Median (b) Mode (c) Mean (d) Range
+Answer: (c)
+Solution: Median and mode are positional or frequency-based measures, not ratios of sum to count. This definition is exactly that of the mean, so the answer is Mean.
+Source: NCERT Class 9 Mathematics
 
-✅ Correct Answer: C. 3
-Step-by-step: Arrange ascending: 1,2,3,4,5. n=5 (odd), median position = (5+1)/2 = 3rd term = 3.
-Source: NCERT Class 9
+10. The mode of 2, 2, 3, 4, 4, 4, 5 is:
+(a) 2 (b) 3 (c) 5 (d) 4
+Answer: (d)
+Solution: Frequencies: 2 appears twice, 3 once, 4 three times, 5 once. The value 2 repeats but less often than 4, so the mode is 4.
+Source: NCERT Class 9 Mathematics
 
-Q6. The mode of 5, 6, 7, 6, 5, 8, 6 is:
-A. 5
-B. 6
-C. 7
-D. 8
+11. If the mean of 5, x, 3, 7 is 5, then x equals:
+(a) 3 (b) 6 (c) 4 (d) 5
+Answer: (d)
+Solution: Sum = 5 + x + 3 + 7 = 15 + x, and mean = (15 + x)/4 = 5, giving 15 + x = 20. Forgetting to multiply the mean by 4 is the usual trap, so x = 5.
+Source: NCERT Class 9 Mathematics
 
-✅ Correct Answer: B. 6
-Step-by-step: Frequency: 5(2), 6(3), 7(1), 8(1). Mode = 6.
-Source: NCERT Class 9
+12. The median of an even number of observations is the:
+(a) First term of the data (b) Most frequent term (c) Last term of the data (d) Average of the two middle terms
+Answer: (d)
+Solution: With even n there is no single middle term, so taking one middle term is wrong. The median is the average of the two middle terms, so the answer is average of the two middle terms.
+Source: NCERT Class 9 Mathematics
 
-Q7. To find the mean of ungrouped data, we use the formula:
-A.
-Σ
-𝑓
-𝑖
-𝑥
-𝑖
-Σ
-𝑓
-𝑖
-Σf
-i
-	​
+13. The arithmetic mean of the first 5 natural numbers is:
+(a) 2 (b) 4 (c) 3 (d) 5
+Answer: (c)
+Solution: Sum = 1+2+3+4+5 = 15 and n = 5, so mean = 15/5 = 3. Dividing by the wrong count is the trap, so the mean is 3.
+Source: NCERT Class 9 Mathematics
 
-Σf
-i
-	​
+14. If the mean of a distribution is 15 and the median is 17, the mode by the empirical relation is approximately:
+(a) 19 (b) 21 (c) 17 (d) 15
+Answer: (b)
+Solution: Empirical relation: Mode = 3 × Median − 2 × Mean = 51 − 30 = 21. Reversing the formula gives wrong values like 19, so the mode is 21.
+Source: NCERT Class 10 Mathematics
 
-x
-i
-	​
+15. Numerical figures collected to give some information are called:
+(a) Frequency (b) Range (c) Data (d) Class mark
+Answer: (c)
+Solution: Frequency counts repetitions and range measures spread; neither means the raw figures themselves. The collected numerical facts are called data, so the answer is Data.
+Source: NCERT Class 9 Mathematics
 
-	​
+16. The marks of a student in 6 subjects are 72, 85, 90, 68, 74, 81. The mean marks are:
+(a) 76.5 (b) 75 (c) 80 (d) 78.33
+Answer: (d)
+Solution: Sum = 72+85+90+68+74+81 = 470, and mean = 470/6 ≈ 78.33. Rounding prematurely or dividing by 5 gives the trap values, so the mean is 78.33.
+Source: NCERT Class 9 Mathematics
 
-B.
-𝑙
-+
-𝑛
-/
-2
-−
-𝑐
-𝑓
-𝑓
-×
-ℎ
-l+
-f
-n/2−cf
-	​
+17. The class mark of the class interval 30 – 40 is:
+(a) 35 (b) 30 (c) 40 (d) 10
+Answer: (a)
+Solution: Class mark = (upper limit + lower limit)/2 = (30 + 40)/2 = 35. Taking either limit alone is the trap, so the class mark is 35.
+Source: NCERT Class 9 Mathematics
 
-×h
-C.
-Σ
-𝑥
-𝑛
-n
-Σx
-	​
+18. The mode of a set of observations is the value which:
+(a) Occurs most frequently (b) Is the average of all values (c) Is the middle value (d) Is the smallest value
+Answer: (a)
+Solution: The average describes the mean and the middle value the median; both are traps. Mode is defined by highest frequency, so the answer is occurs most frequently.
+Source: NCERT Class 9 Mathematics
 
-D.
-𝑙
-+
-𝑓
-1
-−
-𝑓
-0
-2
-𝑓
-1
-−
-𝑓
-0
-−
-𝑓
-2
-×
-ℎ
-l+
-2f
-1
-	​
+19. For the data 8, 9, 10, 11, 11, 12, 13, the median is:
+(a) 9 (b) 10 (c) 11 (d) 12
+Answer: (c)
+Solution: The data is already sorted with n = 7 (odd), so the median is the 4th term. Confusing median with mode also gives 11 here, but positionally the 4th term confirms the median is 11.
+Source: NCERT Class 9 Mathematics
 
-−f
-0
-	​
+20. In a grouped frequency distribution, the mid-value of a class is called the:
+(a) Class limit (b) Class mark (c) Class width (d) Frequency
+Answer: (b)
+Solution: Class width is the difference of limits and frequency is the count of observations; both are traps. The mid-value is the class mark, so the answer is Class mark.
+Source: NCERT Class 9 Mathematics
 
-−f
-2
-	​
+21. The mean of 10 observations is 20. If each observation is increased by 5, the new mean will be:
+(a) 20 (b) 25 (c) 15 (d) 30
+Answer: (b)
+Solution: Adding a constant k to every observation raises the mean by exactly k, so new mean = 20 + 5 = 25. Multiplying or leaving the mean unchanged are common traps, so the new mean is 25.
+Source: PYQ-style
 
-f
-1
-	​
+22. The median of 41, 45, 32, 55, 50, 48, 50 is:
+(a) 45 (b) 55 (c) 50 (d) 48
+Answer: (d)
+Solution: Sorted: 32, 41, 45, 48, 50, 50, 55. With n = 7, the median is the 4th term. Picking 50 because it repeats confuses mode with median, so the median is 48.
+Source: PYQ-style
 
-−f
-0
-	​
+23. The empirical relationship between the three measures of central tendency for a moderately skewed distribution is:
+(a) Mode = 3 Mean − 2 Median (b) Median = 3 Mode − 2 Mean (c) Mode = 3 Median − 2 Mean (d) Mean = 3 Mode − 2 Median
+Answer: (c)
+Solution: The standard empirical formula is Mode = 3 Median − 2 Mean. Swapping mean and median positions gives the tempting wrong forms, so the correct relation is Mode = 3 Median − 2 Mean.
+Source: NCERT Class 10 Mathematics
 
-	​
+24. The mean of 5, 8, 7, 6, 9, 5 is 6.5. If one entry 5 is replaced by 11, the new mean will be:
+(a) 7.0 (b) 7.5 (c) 8.0 (d) 6.5
+Answer: (b)
+Solution: Original sum = 6.5 × 6 = 39; new sum = 39 − 5 + 11 = 45, so new mean = 45/6 = 7.5. Recomputing from scratch with an arithmetic slip gives the trap values, so the new mean is 7.5.
+Source: PYQ-style
 
-×h
-
-✅ Correct Answer: C.
-Σ
-𝑥
-𝑛
-n
-Σx
-	​
-
-Step-by-step: A is mean for grouped data, B is median, D is mode. C is mean for ungrouped data.
-Source: NCERT Class 9
-
-Q8. The median of 14, 10, 12, 18, 15 is:
-A. 10
-B. 12
-C. 14
-D. 15
-
-✅ Correct Answer: C. 14
-Step-by-step: Sorted: 10,12,14,15,18. n=5 odd, median = 3rd = 14.
-Source: NCERT Class 9
-
-Q9. The sum of all observations divided by number of observations is:
-A. Median
-B. Mode
-C. Mean
-D. Range
-
-✅ Correct Answer: C. Mean
-Source: NCERT Class 9
-
-Q10. The mode of 2, 2, 3, 4, 4, 4, 5 is:
-A. 2
-B. 3
-C. 4
-D. 5
-
-✅ Correct Answer: C. 4
-Step-by-step: Frequency: 2(2), 3(1), 4(3), 5(1). Mode = 4.
-Source: NCERT Class 9
-
-Q11. If the mean of 5, x, 3, 7 is 5, then x is:
-A. 3
-B. 5
-C. 4
-D. 6
-
-✅ Correct Answer: B. 5
-Step-by-step: Sum = 5+x+3+7 = 15+x. Mean = (15+x)/4 = 5 → 15+x = 20 → x=5.
-Source: NCERT Class 9
-
-Q12. The median of an even number of observations is the:
-A. First term
-B. Average of the two middle terms
-C. Last term
-D. Most frequent term
-
-✅ Correct Answer: B. Average of the two middle terms
-Source: NCERT Class 9
-
-Q13. The arithmetic mean of first 5 natural numbers is:
-A. 2
-B. 3
-C. 4
-D. 5
-
-✅ Correct Answer: B. 3
-Step-by-step: 1+2+3+4+5=15, n=5, Mean = 3.
-Source: NCERT Class 9
-
-Q14. In a data set, if the mean = 15 and the median = 17, then mode (using empirical relation) is approximately:
-A. 21
-B. 19
-C. 17
-D. 15
-
-✅ Correct Answer: A. 21
-Step-by-step: Mode = 3 Median - 2 Mean = 3×17 - 2×15 = 51 - 30 = 21.
-Source: NCERT Class 10
-
-Q15. The collection of numerical figures giving some information is called:
-A. Frequency
-B. Data
-C. Range
-D. Class mark
-
-✅ Correct Answer: B. Data
-Source: NCERT Class 9
-
-Q16. The marks of a student in 6 subjects are: 72, 85, 90, 68, 74, 81. The mean marks are:
-A. 76.5
-B. 78.33
-C. 80
-D. 75
-
-✅ Correct Answer: B. 78.33
-Step-by-step: Sum = 72+85+90+68+74+81 = 470; n=6; Mean = 470/6 ≈ 78.33.
-Source: NCERT Class 9
-
-Q17. The class mark of the class interval 30 – 40 is:
-A. 30
-B. 35
-C. 40
-D. 10
-
-✅ Correct Answer: B. 35
-Step-by-step: Class mark = (30+40)/2 = 35.
-Source: NCERT Class 9
-
-Q18. The mode of a set of observations is the value which:
-A. Occurs most frequently
-B. Is the average
-C. Is the middle value
-D. Is minimum
-
-✅ Correct Answer: A. Occurs most frequently
-Source: NCERT Class 9
-
-Q19. For the data: 8, 9, 10, 11, 11, 12, 13, the median is:
-A. 9
-B. 10
-C. 11
-D. 12
-
-✅ Correct Answer: C. 11
-Step-by-step: Sorted: 8,9,10,11,11,12,13. n=7 odd, median = 4th term = 11.
-Source: NCERT Class 9
-
-Q20. In a grouped frequency distribution, the mid-value of a class is called:
-A. Class limit
-B. Class width
-C. Class mark
-D. Frequency
-
-✅ Correct Answer: C. Class mark
-Source: NCERT Class 9
-
-Q21. The mean of 10 observations is 20. If each observation is increased by 5, the new mean will be:
-A. 20
-B. 25
-C. 15
-D. 100
-
-✅ Correct Answer: B. 25
-Step-by-step: If each observation is increased by a constant k, the mean also increases by k. So new mean = 20+5 = 25.
-Source: SSC MTS 2019
-
-Q22. Find the median of the following data: 41, 45, 32, 55, 50, 48, 50.
-A. 45
-B. 48
-C. 50
-D. 55
-
-✅ Correct Answer: B. 48
-Step-by-step: Sort: 32,41,45,48,50,50,55. n=7 odd, median = 4th term = 48.
-Source: RRB NTPC 2016
-
-Q23. The empirical relationship between three measures of central tendency for a moderately skewed distribution is:
-A. Mode = 3 Mean – 2 Median
-B. Median = 3 Mode – 2 Mean
-C. Mode = 3 Median – 2 Mean
-D. Mean = 3 Mode – 2 Median
-
-✅ Correct Answer: C. Mode = 3 Median – 2 Mean
-Source: NCERT Class 10
-
-Q24. The mean of the following data: 5, 8, 7, 6, 9, 5 is 6.5. If 5 is replaced by 11, what will be the new mean?
-A. 7.0
-B. 7.5
-C. 8.0
-D. 6.5
-
-✅ Correct Answer: B. 7.5
-Step-by-step: Original sum = 6.5×6 = 39. New sum = 39 – 5 + 11 = 45. New mean = 45/6 = 7.5.
-Source: SSC CHSL 2020
-
-Q25. The median of the data 10, 22, 14, 8, 20, 30, 16 is:
-A. 14
-B. 16
-C. 15
-D. 20
-
-✅ Correct Answer: B. 16
-Step-by-step: Sorted: 8,10,14,16,20,22,30. n=7 odd, median = 4th = 16.
-Source: Bank Clerk 2018
+25. The median of 10, 22, 14, 8, 20, 30, 16 is:
+(a) 16 (b) 15 (c) 14 (d) 20
+Answer: (a)
+Solution: Sorted: 8, 10, 14, 16, 20, 22, 30. With n = 7, the median is the 4th term. Taking 14 (the 3rd term) is the common slip, so the median is 16.
+Source: PYQ-style

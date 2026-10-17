@@ -1,0 +1,34 @@
+```mermaid
+graph TD
+    A["Sentence Improvement<br>(Basic)"] --> B["What is it?"]
+    A --> C["12 Golden Rules"]
+    A --> D["Examiner's Traps"]
+    A --> E["Strategy"]
+
+    B --> B1["A part of the sentence<br>is underlined"]
+    B --> B2["Choose the option that<br>makes it grammatically correct"]
+    B --> B3["'No improvement' =<br>sentence is already correct"]
+
+    C --> C1["Subject-Verb Agreement<br>'Each of the boys HAS'"]
+    C --> C2["Tense Consistency<br>Keep one time frame"]
+    C --> C3["Correct Preposition<br>'good AT', 'married TO'"]
+    C --> C4["Articles a / an / the"]
+    C --> C5["Pronoun Agreement<br>he-his, they-their"]
+    C --> C6["Comparatives<br>'better THAN', not 'better then'"]
+    C --> C7["No Double Negative<br>'He does not know nothing' = WRONG"]
+    C --> C8["Since vs For<br>since + point, for + period"]
+    C --> C9["Much vs Many<br>much + uncountable"]
+    C --> C10["Fewer vs Less"]
+    C --> C11["Active vs Passive Voice"]
+    C --> C12["Parallel Structure<br>'reading, writing and speaking'"]
+
+    D --> D1["Sound-Right Trap<br>Spoken English sounds OK<br>but is grammatically wrong"]
+    D --> D2["Intervening Phrase Trap<br>'The quality of apples WAS good'<br>verb matches 'quality', not 'apples'"]
+    D --> D3["Over-thinking Trap<br>Correct sentence changed<br>to a wrong option"]
+    D --> D4["Hindi-English Bridge<br>'What you are doing?' WRONG<br>'What are you doing?' RIGHT"]
+
+    E --> E1["15-Second Rule<br>Fact-based grammar = answer fast"]
+    E --> E2["45-Second Rule<br>Read all 4 options first"]
+    E --> E3["Eliminate 2 wrong options<br>then compare the last two"]
+    E --> E4["Skip Strategy<br>If confused after 45 sec,<br>mark and move on"]
+```

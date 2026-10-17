@@ -1,3 +1,151 @@
-# Chapter: Fractions & Decimals, Level: intermediate, Set: 6/6
+प्रश्न 126–150: कठिन (Hard)
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Fractions & Decimals. This is Set 6 (total 6 sets, 150 questions). Questions must be numbered 126 to 150. All 25 questions should be Hard. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+126. If x = 0.232323… and y = 0.454545…, then x + y expressed as a fraction is
+(a) 7/11 (b) 67/99 (c) 23/33 (d) 68/99
+Answer: (d)
+Solution: The trap is adding the denominators too and writing 68/198. Here x = 23/99 and y = 45/99, so x + y = (23 + 45)/99 = 68/99, so the answer is 68/99.
+Source: NCERT Class 9 Mathematics, Number Systems
+
+127. The value of (0.1 × 0.01 × 0.001) ÷ (0.2 × 0.02) is
+(a) 0.025 (b) 0.0025 (c) 0.00025 (d) 0.25
+Answer: (c)
+Solution: The tempting wrong option 0.0025 comes from misplacing one decimal place. Numerator = 0.000001 and denominator = 0.004, so 0.000001 ÷ 0.004 = 0.00025, so the answer is 0.00025.
+Source: PYQ-style
+
+128. Which of the following fractions is the largest: 7/9, 11/15, 13/17, 19/25?
+(a) 7/9 (b) 11/15 (c) 13/17 (d) 19/25
+Answer: (a)
+Solution: The trap is picking 19/25 because it has the largest numerator. Convert to decimals: 7/9 ≈ 0.7778, 11/15 ≈ 0.7333, 13/17 ≈ 0.7647, 19/25 = 0.76. The greatest is 0.7778, so the answer is 7/9.
+Source: NCERT Class 7 Mathematics, Fractions and Decimals
+
+129. If 3/7 of a number exceeds its 2/5 by 36, the number is
+(a) 840 (b) 1050 (c) 1260 (d) 720
+Answer: (c)
+Solution: The trap is dividing 36 by 35 instead of multiplying after finding the fractional difference. Correctly, 3/7 − 2/5 = (15 − 14)/35 = 1/35, so the number = 36 × 35 = 1260, so the answer is 1260.
+Source: PYQ-style
+
+130. The value of 2.5̄ + 1.3̄ (where the bar denotes the repeating digit), expressed as a fraction, is
+(a) 3.88 (b) 4.0 (c) 35/9 (d) 17/9
+Answer: (c)
+Solution: The trap is adding 2.555… + 1.333… and stopping at the truncated decimal 3.88, which is only an approximation. Exactly, 2.5̄ = 23/9 and 1.3̄ = 12/9, so the sum = 23/9 + 12/9 = 35/9, so the answer is 35/9.
+Source: NCERT Class 9 Mathematics, Number Systems
+
+131. A student was asked to multiply a number by 5/3 but divided it by 5/3 instead. The result was 45. The correct result should have been
+(a) 135 (b) 225 (c) 125 (d) 75
+Answer: (c)
+Solution: The trap is multiplying 45 by 5/3 to get 75, which only reverses one step. The number = 45 × 5/3 = 75, and the correct result = 75 × 5/3 = 125, so the answer is 125.
+Source: PYQ-style
+
+132. The sum of the reciprocals of 0.5, 0.25 and 0.2 is
+(a) 10 (b) 0.95 (c) 9 (d) 11
+Answer: (d)
+Solution: The trap is adding 0.5 + 0.25 + 0.2 = 0.95 directly. Reciprocals: 1/0.5 = 2, 1/0.25 = 4, 1/0.2 = 5, and the sum = 2 + 4 + 5 = 11, so the answer is 11.
+Source: NCERT Class 7 Mathematics, Fractions and Decimals
+
+133. If 1/3 + 1/4 + 1/x = 1, then x equals
+(a) 12/5 (b) 5/12 (c) 12 (d) 7/12
+Answer: (a)
+Solution: The trap is computing 1 − 1/3 − 1/4 = 5/12 and choosing it as x, forgetting that 5/12 equals 1/x, not x. So 1/x = 5/12 gives x = 12/5, so the answer is 12/5.
+Source: PYQ-style
+
+134. The decimal 0.121212… is what fraction of 0.363636…?
+(a) 1/3 (b) 1/2 (c) 1/4 (d) 2/3
+Answer: (a)
+Solution: The trap is comparing only the integer parts 12 and 36 without converting properly. Here 0.1212… = 12/99 and 0.3636… = 36/99, so the ratio = 12/99 ÷ 36/99 = 12/36 = 1/3, so the answer is 1/3.
+Source: NCERT Class 9 Mathematics, Number Systems
+
+135. A fraction becomes 2/3 when 2 is added to both its numerator and denominator, and becomes 1/3 when 1 is subtracted from both. The fraction is
+(a) 2/3 (b) 1/2 (c) 3/5 (d) 4/7
+Answer: (b)
+Solution: The trap is testing only one condition and picking a fraction that fails the other. Solve algebraically: 3(n+2) = 2(d+2) gives 3n − 2d = −2, and 3(n−1) = d − 1 gives d = 3n − 2. Substituting, 3n − 6n + 4 = −2, so n = 2 and d = 4, giving the fraction 2/4 = 1/2, which satisfies both conditions, so the answer is 1/2.
+Source: PYQ-style
+
+136. The value of 1/(1 × 2) + 1/(2 × 3) + 1/(3 × 4) + … + 1/(9 × 10) is
+(a) 10/9 (b) 9/10 (c) 1 (d) 1/10
+Answer: (b)
+Solution: The trap is adding all nine terms mechanically and making arithmetic slips. Use 1/(n(n+1)) = 1/n − 1/(n+1); the series telescopes to 1 − 1/10 = 9/10, so the answer is 9/10.
+Source: NCERT Class 8 Mathematics, Rational Numbers
+
+137. If the numerator of a fraction is increased by 200% and the denominator is increased by 300%, the fraction becomes 5/8. The original fraction is
+(a) 4/5 (b) 5/6 (c) 3/4 (d) 2/3
+Answer: (b)
+Solution: The trap is taking a 200% increase as "becomes 2 times" instead of 3 times. New numerator = 3n, new denominator = 4d, so 3n/4d = 5/8, giving n/d = 20/24 = 5/6, so the answer is 5/6.
+Source: PYQ-style
+
+138. The value of (3.6 × 4.8 × 2.5) ÷ (1.2 × 0.8 × 7.5) is
+(a) 6 (b) 8 (c) 5 (d) 4
+Answer: (a)
+Solution: The trap is multiplying everything out and misplacing decimals. Pair smartly: 3.6/1.2 = 3, 4.8/0.8 = 6, 2.5/7.5 = 1/3, and the product = 3 × 6 × 1/3 = 6, so the answer is 6.
+Source: PYQ-style
+
+139. A man spends 3/8 of his money on food, 2/5 of the remainder on rent, and is left with ₹9000. His original money was
+(a) ₹24000 (b) ₹20000 (c) ₹30000 (d) ₹18000
+Answer: (a)
+Solution: The trap is taking 2/5 of the original money instead of the remainder. After food, remainder = 5/8; rent = 2/5 × 5/8 = 1/4 of the original. Money left = 5/8 − 1/4 = 3/8 of the original = ₹9000, so the original = 9000 × 8/3 = ₹24000, so the answer is ₹24000.
+Source: PYQ-style
+
+140. The decimal 0.0666… (where only the digit 6 repeats) is equal to
+(a) 6/99 (b) 1/15 (c) 2/33 (d) 1/16
+Answer: (b)
+Solution: The trap is choosing 2/33, which equals 0.0606… where both digits repeat, or 6/99, which equals 0.0606… as well. For 0.0666…, let x = 0.0666…; then 10x = 0.666… = 2/3, so x = 2/30 = 1/15, so the answer is 1/15.
+Source: NCERT Class 9 Mathematics, Number Systems
+
+141. The difference between the largest and smallest of the fractions 3/4, 5/6, 7/8, 11/12 is
+(a) 1/24 (b) 1/8 (c) 1/12 (d) 1/6
+Answer: (d)
+Solution: The trap is assuming 11/12 minus 3/4 gives 1/12 by subtracting numerators and denominators directly. Convert to 24ths: 3/4 = 18/24, 5/6 = 20/24, 7/8 = 21/24, 11/12 = 22/24. Largest = 22/24, smallest = 18/24, and the difference = 4/24 = 1/6, so the answer is 1/6.
+Source: PYQ-style
+
+142. If 0.4 of a number is equal to 0.06 of another number, the ratio of the first number to the second is
+(a) 3 : 20 (b) 20 : 3 (c) 2 : 3 (d) 3 : 2
+Answer: (a)
+Solution: The trap is inverting the ratio and choosing 20 : 3. Given 0.4a = 0.06b, so a/b = 0.06/0.4 = 6/40 = 3/20, so the answer is 3 : 20.
+Source: PYQ-style
+
+143. The value of 0.2 + 0.22 + 0.222 + 0.2222 is
+(a) 0.8642 (b) 0.8662 (c) 0.8666 (d) 0.8622
+Answer: (a)
+Solution: The trap is aligning decimals wrongly and getting 0.8662. Write all to four places: 0.2000 + 0.2200 + 0.2220 + 0.2222; adding step by step, 0.2000 + 0.2200 = 0.4200, then + 0.2220 = 0.6420, then + 0.2222 = 0.8642, so the answer is 0.8642.
+Source: NCERT Class 7 Mathematics, Fractions and Decimals
+
+144. A vessel is full of a mixture in which milk is 3/4 of the total. If 6 litres of the mixture is drawn out and replaced by water, milk becomes 2/3 of the total. The capacity of the vessel is
+(a) 72 litres (b) 60 litres (c) 54 litres (d) 48 litres
+Answer: (c)
+Solution: The trap is computing 3/4 − 2/3 = 1/12 and dividing 6 by it to get 72 litres, ignoring that the removed mixture also contained milk. Milk after replacement: 3V/4 − (3/4)(6) = 2V/3, so 3V/4 − 2V/3 = 9/2, giving V/12 = 9/2 and V = 54. Check: milk = 40.5 − 4.5 = 36 = 2/3 × 54, so the answer is 54 litres.
+Source: PYQ-style
+
+145. The expression (1/2 + 1/3) ÷ (1/2 − 1/3) simplifies to
+(a) 6 (b) 5 (c) 1/5 (d) 1
+Answer: (b)
+Solution: The trap is computing 1/2 + 1/3 = 2/5 by adding numerators and denominators. Correctly, 1/2 + 1/3 = 5/6 and 1/2 − 1/3 = 1/6, and dividing gives (5/6) ÷ (1/6) = 5, so the answer is 5.
+Source: NCERT Class 7 Mathematics, Fractions and Decimals
+
+146. If a = 2/3 of b, b = 4/5 of c, and c = 3/7 of d, then a is what fraction of d?
+(a) 12/35 (b) 24/35 (c) 8/35 (d) 6/35
+Answer: (c)
+Solution: The trap is adding the fractions instead of multiplying them. Here a = (2/3)(4/5)(3/7) d = 24/105 d = 8/35 d, so the answer is 8/35.
+Source: PYQ-style
+
+147. The value of 1.222… × 0.999… (where the digits repeat indefinitely) is
+(a) 12/11 (b) 1.2 (c) 10/9 (d) 11/9
+Answer: (d)
+Solution: The trap is truncating 1.222… × 0.999… to about 1.2. Exactly, 1.222… = 11/9 and 0.999… = 1, so the product = 11/9 × 1 = 11/9, so the answer is 11/9.
+Source: NCERT Class 9 Mathematics, Number Systems
+
+148. When a ball bounces, it rises to 3/5 of the height from which it fell. If it is dropped from 250 cm, the height it rises after the third bounce is
+(a) 32.4 cm (b) 90 cm (c) 150 cm (d) 54 cm
+Answer: (d)
+Solution: The trap is stopping at the second bounce (90 cm) or computing 250 × 3/5 × 3 = 450. After each bounce the height multiplies by 3/5, so after three bounces: 250 × (3/5)³ = 250 × 27/125 = 54, so the answer is 54 cm.
+Source: PYQ-style
+
+149. The sum 1/2 + 1/6 + 1/12 + 1/20 + 1/30 + 1/42 equals
+(a) 5/7 (b) 1 (c) 7/6 (d) 6/7
+Answer: (d)
+Solution: The trap is adding with a common denominator and slipping in arithmetic. Note 1/2 = 1/(1×2), 1/6 = 1/(2×3), …, 1/42 = 1/(6×7), so the series telescopes to 1 − 1/7 = 6/7, so the answer is 6/7.
+Source: NCERT Class 8 Mathematics, Rational Numbers
+
+150. A number when divided by 0.08 gives the same result as when it is multiplied by
+(a) 1.25 (b) 12.5 (c) 8 (d) 0.125
+Answer: (b)
+Solution: The trap is choosing 0.125, thinking of 1/8. Dividing by 0.08 means dividing by 8/100, which equals multiplying by 100/8 = 12.5, so the answer is 12.5.
+Source: NCERT Class 7 Mathematics, Fractions and Decimals

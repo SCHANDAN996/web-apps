@@ -1,0 +1,40 @@
+```mermaid
+graph TD
+    A["TENSE<br>Time + Aspect of the Verb"] --> B["PRESENT"]
+    A --> C["PAST"]
+    A --> D["FUTURE"]
+
+    B --> B1["Simple Present<br>V1 / V1+s/es<br>Habits, facts, universal truths"]
+    B --> B2["Present Continuous<br>is/am/are + V1+ing<br>Action happening now"]
+    B --> B3["Present Perfect<br>has/have + V3<br>Just completed, result matters"]
+    B --> B4["Present Perfect Continuous<br>has/have + been + V1+ing<br>Since / For + duration"]
+
+    C --> C1["Simple Past<br>V2<br>Finished action, definite past time"]
+    C --> C2["Past Continuous<br>was/were + V1+ing<br>Action in progress in past"]
+    C --> C3["Past Perfect<br>had + V3<br>Earlier of two past actions"]
+    C --> C4["Past Perfect Continuous<br>had + been + V1+ing<br>Duration before a past point"]
+
+    D --> D1["Simple Future<br>will/shall + V1"]
+    D --> D2["Future Continuous<br>will be + V1+ing"]
+    D --> D3["Future Perfect<br>will have + V3<br>By / Before + future time"]
+    D --> D4["Future Perfect Continuous<br>will have been + V1+ing"]
+
+    A --> E["6 GOLDEN RULES"]
+    E --> E1["Since + point of time<br>For + period of time<br>→ Perfect tenses:<br>Perfect Continuous for action verbs<br>Simple Perfect for stative verbs<br>('I have known him since 2010')"]
+    E --> E2["Two past actions:<br>Earlier = Past Perfect<br>Later = Simple Past"]
+    E --> E3["Universal truth stays in<br>Simple Present even after 'said that'"]
+    E --> E4["If clause = Simple Present<br>Main clause = Simple Future"]
+    E --> E5["Stative verbs (know, believe, own)<br>NO continuous form"]
+    E --> E6["By + future time<br>→ Future Perfect"]
+
+    A --> F["EXAMINER'S TRAPS"]
+    F --> F1["Sound-Right Trap<br>'I am knowing him' ❌<br>'I know him' ✅"]
+    F --> F2["Time-Marker Trap<br>'since morning' + Simple Past ❌"]
+    F --> F3["Sequence Trap<br>Both actions in Simple Past<br>when order matters ❌"]
+    F --> F4["Over-thinking Trap<br>Simple, correct sentence<br>marked as error"]
+
+    A --> G["STRATEGY"]
+    G --> G1["15-sec: Spot time marker<br>(since, for, ago, by, already)"]
+    G --> G2["45-sec: Two-action sequence<br>or reported speech"]
+    G --> G3["Step 1: Find time clue<br>Step 2: Match aspect<br>Step 3: Check stative verb"]
+```

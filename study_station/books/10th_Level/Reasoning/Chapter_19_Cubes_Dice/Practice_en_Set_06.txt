@@ -1,0 +1,255 @@
+📝 Practice Set 6 (Questions 126–150)
+
+Hard (126–150) | Total 25 MCQs
+Includes at least 2 Examiner's Trap questions (marked with ⚠️).
+
+
+Q126. (Hard) Three views of a dice are given: View 1: 1, 2, 3; View 2: 2, 4, 5; View 3: 3, 5, 6. Which number is opposite to 3?
+(A) 4 (B) 2 (C) 5 (D) 1
+
+Answer: (A) 4
+
+Solution:
+From View 1, 3 is adjacent to 1 and 2. From View 3, 3 is adjacent to 5 and 6. Thus, 1, 2, 5, and 6 are all adjacent to 3. The only remaining face 4 is opposite to 3. Hence, the correct option is (A).
+
+Source: SSC CGL
+
+Q127. (Hard) Four views of a dice are given: View 1: 1, 2, 3; View 2: 2, 4, 5; View 3: 3, 5, 6; View 4: 4, 6, 1. Which number is opposite to 2?
+(A) 1 (B) 6 (C) 5 (D) 4
+
+Answer: (B) 6
+
+Solution:
+From View 1, 2 is adjacent to 1 and 3. From View 2, 2 is adjacent to 4 and 5. Thus, 1, 3, 4, and 5 are all adjacent to 2. The only remaining number 6 is opposite to 2. Hence, the correct option is (B).
+
+Source: SSC CHSL
+
+Q128. (Hard) In an open dice net, four squares are in a row from left to right: 1, 2, 3, 4. Square 5 is above square 3, and square 6 is below square 1. When folded, which number is opposite to 5?
+(A) 1 (B) 3 (C) 6 (D) 4
+
+Answer: (C) 6
+
+Solution:
+In this open dice net, alternating squares in the 4-square row are opposite (1 ↔ 3 and 2 ↔ 4). The two outer flap squares (5 and 6) fold to become opposite faces to each other. Therefore, 5 is opposite to 6. Hence, the correct option is (C).
+
+Source: SSC MTS
+
+Q129. (Hard) A painted cube of side 6 cm is cut into 1 cm small cubes. How many small cubes have exactly one face painted?
+(A) 144 (B) 108 (C) 120 (D) 96
+
+Answer: (D) 96
+
+Solution:
+For n = 6, cubes with exactly one face painted = 6 × (n - 2)² = 6 × (6 - 2)² = 6 × 16 = 96. Hence, the correct option is (D).
+
+Source: RRB NTPC
+
+Q130. (Hard) ⚠️ A painted cube of side 5 cm is cut into 1 cm small cubes. If all 8 corner cubes are removed, how many of the remaining cubes have exactly two faces painted?
+(A) 36 (B) 32 (C) 28 (D) 44
+
+Answer: (A) 36
+
+Solution:
+Examiner's Trap: Cubes with two faces painted lie on edges: 12 × (5 - 2) = 36. Corner cubes (8) had 3 painted faces. Removing corner cubes does not affect edge cubes, so exactly 36 cubes remain with two painted faces. Hence, the correct option is (A).
+
+Source: RRB Group D
+
+Q131. (Hard) A non-standard dice has opposite pairs 1-6, 2-5, 3-4. Three views are shown: (i) 1, 2, 3; (ii) 2, 5, 6; (iii) 3, 5, 1. Which view is impossible?
+(A) (i) (B) (ii) (C) (iii) (D) All are possible
+
+Answer: (B) (ii)
+
+Solution:
+Opposite faces can never appear simultaneously in the same view. Since 2 and 5 are an opposite pair, they cannot be seen together. Therefore, View (ii) is impossible. Hence, the correct option is (B).
+
+Source: SSC CGL
+
+Q132. (Hard) The top view of a solid is a 3×3 grid: Row 1: 2, 3, 2; Row 2: 3, 0, 3; Row 3: 2, 3, 2 (where 0 is an empty central hole). What is the total number of cubes?
+(A) 16 (B) 18 (C) 20 (D) 22
+
+Answer: (C) 20
+
+Solution:
+Total cubes = sum of all column heights = 2 + 3 + 2 + 3 + 0 + 3 + 2 + 3 + 2 = 20. Hence, the correct option is (C).
+
+Source: SSC CHSL
+
+Q133. (Hard) A standard dice is placed in front of a mirror. In the mirror, the visible faces are top 2, front 4, and right 1. What is the right face of the actual dice?
+(A) 1 (B) 3 (C) 5 (D) 6
+
+Answer: (D) 6
+
+Solution:
+In a mirror reflection, left and right are reversed. The right face in the mirror corresponds to the left face of the actual dice, so actual left = 1. In a standard dice, opposite faces sum to 7: opposite to 1 is 6. Thus, the actual right face is 6. Hence, the correct option is (D).
+
+Source: SSC MTS
+
+Q134. (Hard) A 4×4×4 cube is painted and cut into 64 small cubes. If all unpainted interior cubes are removed, how many of the remaining cubes have exactly two faces painted?
+(A) 24 (B) 32 (C) 40 (D) 48
+
+Answer: (A) 24
+
+Solution:
+For n = 4, cubes with exactly two faces painted = 12 × (4 - 2) = 24. Unpainted cubes are in the interior core (2³ = 8). Removing interior unpainted cubes does not affect the exterior edge cubes, so exactly 24 remain. Hence, the correct option is (A).
+
+Source: RRB NTPC
+
+Q135. (Hard) A dice has opposite pairs 1-5, 2-6, 3-4. Initially, top is 1, front is 2, and right is 3. It is rolled forward once (front becomes bottom), and then rolled right once (right becomes bottom). What is the final top face?
+(A) 1 (B) 4 (C) 3 (D) 6
+
+Answer: (B) 4
+
+Solution:
+Initial: Top=1, Front=2, Right=3, Left=4, Back=6, Bottom=5. Rolling forward: Top=6, Front=1, Bottom=2, Back=5 (Right=3, Left=4 unchanged). Rolling right: Left face (4) becomes the new top. Hence, the final top face is 4. Hence, the correct option is (B).
+
+Source: RRB Group D
+
+Q136. (Hard) Four views of a dice are given: View 1: 1, 2, 3; View 2: 2, 4, 5; View 3: 3, 5, 6; View 4: 4, 6, 1. Which number is opposite to 1?
+(A) 3 (B) 4 (C) 5 (D) 6
+
+Answer: (C) 5
+
+Solution:
+From View 1, 1 is adjacent to 2 and 3. From View 4, 1 is adjacent to 4 and 6. Therefore, faces 2, 3, 4, and 6 are all adjacent to 1. The only remaining face 5 must be opposite to 1. Hence, the correct option is (C).
+
+Source: SSC CGL
+
+Q137. (Hard) A painted cube of side 6 cm is cut into 1 cm small cubes. If all cubes with exactly one face painted are removed, how many cubes remain?
+(A) 64 (B) 152 (C) 96 (D) 120
+
+Answer: (D) 120
+
+Solution:
+Total cubes = 6³ = 216. Cubes with exactly one face painted = 6 × (6 - 2)² = 6 × 16 = 96. Remaining cubes = 216 - 96 = 120. Hence, the correct option is (D).
+
+Source: SSC CHSL
+
+Q138. (Hard) In an open net, four squares are in a row from left to right: 1, 2, 3, 4. Square 6 is above square 1, and square 5 is below square 4. When folded, which number is opposite to 3?
+(A) 1 (B) 2 (C) 4 (D) 6
+
+Answer: (A) 1
+
+Solution:
+In the 4-square row, alternating squares are opposite: 1 ↔ 3 and 2 ↔ 4. Therefore, 3 is opposite to 1. Hence, the correct option is (A).
+
+Source: SSC MTS
+
+Q139. (Hard) A dice has opposite pairs A-F, B-E, C-D. View 1 has top A, front B, right C. View 2 has top B, front A, right D. What is on the bottom face in View 2?
+(A) A (B) E (C) C (D) F
+
+Answer: (B) E
+
+Solution:
+In View 2, the top face is B. The bottom face is always directly opposite to the top face. Since B is opposite to E, the bottom face is E. Hence, the correct option is (B).
+
+Source: RRB NTPC
+
+Q140. (Hard) ⚠️ A cube of side 5 cm is painted red. A 2×2×2 corner block is cut off and removed. The remaining solid is cut into 1 cm cubes. How many small cubes have exactly two faces painted?
+(A) 24 (B) 36 (C) 33 (D) 27
+
+Answer: (C) 33
+
+Solution:
+Examiner's Trap: A complete 5 cm cube has 12 × (5 - 2) = 36 two-face painted cubes along edges. The removed 2×2×2 corner block contained 3 two-face painted cubes (1 along each edge meeting at that corner). Remaining = 36 - 3 = 33. Hence, the correct option is (C).
+
+Source: RRB Group D
+
+Q141. (Hard) A standard dice is initially placed with top 1, front 2, and right 3. It is rolled forward once (front becomes bottom), and then rolled right once (right becomes bottom). What is the final top face?
+(A) 2 (B) 6 (C) 5 (D) 4
+
+Answer: (D) 4
+
+Solution:
+In a standard dice, opposite pairs sum to 7: 1 ↔ 6, 2 ↔ 5, 3 ↔ 4. Initial: Top=1, Front=2, Right=3, Left=4, Back=5, Bottom=6. Rolling forward: Top=5, Front=1, Bottom=2, Back=6. Rolling right: Left face (4) becomes the new top. Hence, the final top face is 4. Hence, the correct option is (D).
+
+Source: SSC CGL
+
+Q142. (Hard) The top view of a solid is a 3×3 grid: Row 1: 1, 2, 1; Row 2: 2, 1, 2; Row 3: 1, 2, 1. What is the total number of cubes?
+(A) 13 (B) 12 (C) 11 (D) 14
+
+Answer: (A) 13
+
+Solution:
+Total cubes = sum of all column heights = 1 + 2 + 1 + 2 + 1 + 2 + 1 + 2 + 1 = 13. Hence, the correct option is (A).
+
+Source: SSC CHSL
+
+Q143. (Hard) An open cross net has top 6, middle row from left to right: 2, 1, 5, 3, and bottom 4. Which of the following views of the folded dice is impossible?
+(A) Top 6, Front 2, Right 1 (B) Top 6, Front 4, Right 3 (C) Top 4, Front 2, Right 1 (D) Top 4, Front 5, Right 3
+
+Answer: (B) Top 6, Front 4, Right 3
+
+Solution:
+In this net, opposite pairs are 6 ↔ 4, 2 ↔ 5, and 1 ↔ 3. Opposite faces can never appear simultaneously in the same view. Since 6 and 4 are opposite, they cannot appear together. Therefore, the view showing both 6 and 4 is impossible. Hence, the correct option is (B).
+
+Source: SSC MTS
+
+Q144. (Hard) A dice has opposite pairs 1-4, 2-5, 3-6. Initially, top is 1, front is 2, and right is 3. If rolled forward once (front becomes bottom), what is the new top face?
+(A) 1 (B) 2 (C) 5 (D) 4
+
+Answer: (C) 5
+
+Solution:
+Initial: Top=1, Front=2, Right=3, Left=6, Back=5, Bottom=4. Rolling forward once brings the back face (5) to the top. Thus, the new top face is 5. Hence, the correct option is (C).
+
+Source: RRB NTPC
+
+Q145. (Hard) A 3×3×3 cube is painted and cut into 27 small cubes. If all unpainted interior cubes are removed, how many cubes have exactly two faces painted?
+(A) 24 (B) 16 (C) 20 (D) 12
+
+Answer: (D) 12
+
+Solution:
+For n = 3, cubes with exactly two faces painted (along edges) = 12 × (3 - 2) = 12. Removing the unpainted center core does not affect the edge cubes, so exactly 12 remain. Hence, the correct option is (D).
+
+Source: RRB Group D
+
+Q146. (Hard) Four views of a dice are given: View 1: 1, 2, 3; View 2: 1, 4, 5; View 3: 2, 4, 6; View 4: 3, 5, 6. Which number is opposite to 6?
+(A) 1 (B) 2 (C) 3 (D) 4
+
+Answer: (A) 1
+
+Solution:
+From View 1 and View 2, faces adjacent to 1 are 2, 3, 4, and 5. The only remaining face 6 must be opposite to 1. Hence, the correct option is (A).
+
+Source: SSC CGL
+
+Q147. (Hard) ⚠️ The top view of a solid is a 2×2 grid: front row has column heights 3, 2; back row has column heights 2, 1. How many cubes are completely hidden when viewed directly from the front?
+(A) 0 (B) 3 (C) 2 (D) 1
+
+Answer: (B) 3
+
+Solution:
+Examiner's Trap: Left column: front height is 3, back height is 2 → both 2 cubes behind are hidden. Right column: front height is 2, back height is 1 → the 1 cube behind is hidden. Total hidden cubes = 2 + 1 = 3. Hence, the correct option is (B).
+
+Source: SSC CHSL
+
+Q148. (Hard) A standard dice is viewed in a mirror, showing top 3, front 1, and right 5. What is the right face of the actual dice?
+(A) 5 (B) 4 (C) 2 (D) 6
+
+Answer: (C) 2
+
+Solution:
+In a mirror reflection, the right face corresponds to the actual left face. So actual left = 5. In a standard dice, opposite faces sum to 7, so opposite to 5 is 2. Therefore, the actual right face is 2. Hence, the correct option is (C).
+
+Source: SSC MTS
+
+Q149. (Hard) A cube of side 6 cm is painted with three colors: opposite faces are red, blue, and green respectively. It is cut into 1 cm cubes. How many small cubes have only red and blue paint (exactly two faces painted: one red, one blue)?
+(A) 8 (B) 12 (C) 24 (D) 16
+
+Answer: (D) 16
+
+Solution:
+There are 4 edges where a red face meets a blue face. Along each edge, the number of cubes with two painted faces = (6 - 2) = 4. Total = 4 × 4 = 16. Hence, the correct option is (D).
+
+Source: RRB NTPC
+
+Q150. (Hard) ⚠️ A dice has opposite pairs 1-4, 2-5, 3-6. Initially: top is 1, front is 2, and right is 3. If rolled forward twice, what will be the new top face?
+(A) 1 (B) 4 (C) 2 (D) 5
+
+Answer: (B) 4
+
+Solution:
+Examiner's Trap: Initial: Top=1, Front=2, Back=5, Bottom=4. Rolling forward once: Top=5, Front=1, Bottom=2, Back=4. Rolling forward a second time: The back face (4) becomes the new top. Hence, the new top face is 4. Hence, the correct option is (B).
+
+Source: RRB Group D

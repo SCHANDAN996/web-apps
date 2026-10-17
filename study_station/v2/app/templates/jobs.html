@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% block title %}{{ tr('jobs_title') }} — {{ tr('brand') }}{% endblock %}
+{% block main %}
+<h1 class="h1-sm">{{ tr('jobs_title') }}</h1>
+<p class="muted small">{{ tr('jobs_desc') }}</p>
+{% set q = '&qualification=' ~ (qualification or 'all') ~ ('&category=' ~ (category|urlencode) if category else '') %}
+<nav class="chips chips-scroll jobs-tabs" aria-label="{{ tr('jobs_status') }}">
+  {% for s, key in [('active', 'jobs_active'), ('upcoming', 'jobs_upcoming'), ('updates', 'jobs_updates'), ('closed', 'jobs_closed'), ('undated', 'jobs_undated')] %}
+  <a class="chip" href="?status={{ s }}{{ q }}" {% if status == s %}aria-current="true"{% endif %}>{{ tr(key) }} · {{ counts[s] }}</a>
+  {% endfor %}
+</nav>
+<form action="/jobs" method="get" class="jobs-filters" id="jobFilters">
+  <input type="hidden" name="status" value="{{ status }}">
+  <label><span class="xs muted">{{ tr('jobs_qualification') }}</span><select name="qualification">
+    <option value="all" {% if not qualification %}selected{% endif %}>{{ tr('all') }}</option>
+    {% for code, hi, en in levels %}<option value="{{ code }}" {% if qualification == code %}selected{% endif %}>{{ L(hi, en) }}</option>{% endfor %}
+  </select></label>
+  <label><span class="xs muted">{{ tr('jobs_category') }}</span><select name="category">
+    <option value="">{{ tr('all') }}</option>
+    {% for c in categories %}<option value="{{ c }}" {% if category == c %}selected{% endif %}>{{ tr('jobs_cat_' ~ c) if c in ['ssc', 'railway', 'banking', 'defence', 'psc', 'psu', 'teaching', 'govt'] else c|upper }}</option>{% endfor %}
+  </select></label>
+  <button class="btn btn-secondary btn-sm" type="submit">{{ tr('jobs_see') }}</button>
+</form>
+{% if qualification or category %}<a class="xs tap-link" href="/jobs?status={{ status }}&qualification=all">{{ tr('jobs_reset') }}</a>{% endif %}
+{% if jobs %}
+<label class="search jobs-search"><svg class="icon" aria-hidden="true"><use href="#i-search"/></svg><input id="jobSearch" type="search" placeholder="{{ tr('jobs_search') }}" aria-label="{{ tr('jobs_search') }}"><button id="jobSearchClear" class="btn btn-ghost icon-btn" type="button" aria-label="{{ tr('jobs_search_clear') }}" hidden>×</button></label>
+<p class="xs muted" aria-live="polite">{{ tr('jobs_loaded') }}: <span id="jobShown">{{ jobs|length }}</span>{% if counts[status] > 100 %} · {{ tr('jobs_more') }}{% endif %}</p>
+<div class="stack jobs-list">
+  {% for job in jobs %}
+  <a class="card card-link job-card" href="/jobs/{{ job.slug }}" data-job-search="{{ job.title }} {{ job.org or '' }} {{ job.category or '' }}">
+    <div class="row-between">
+      <span class="row" style="gap:6px;flex-wrap:wrap">
+        <span class="badge badge-brand">{{ tr('jobs_cat_' ~ job.category) if job.category in ['ssc', 'railway', 'banking', 'defence', 'psc', 'psu', 'teaching', 'govt'] else job.category|upper }}</span>
+        {% if job.job_type != 'latest' %}<span class="badge">{{ tr('type_' ~ job.job_type) }}</span>{% endif %}
+        {% if job.status == 'verified' %}<span class="badge badge-ok"><svg class="icon icon-sm"><use href="#i-check"/></svg>{{ tr('official_badge') }}</span>{% endif %}
+      </span>
+      {% include '_job_badge.html' %}
+    </div>
+    <h3 class="job-title">{{ job.title }}</h3>
+    {% if job.org %}<p class="small muted" style="margin:0">{{ job.org }}</p>{% endif %}
+    <p class="xs job-meta">
+      {% for code, hi, en in levels %}{% if job.min_qualification == code %}<span class="badge">{{ L(hi, en) }}</span>{% endif %}{% endfor %}
+      {% if job.vacancies %}{{ job.vacancies }} {{ tr('vacancies') }} · {% endif %}
+      {% if job.job_type == 'upcoming' and job.start_date %}<span>{{ tr('expected_notice') }}: {{ job.start_date.strftime('%m-%Y') }}</span>{% elif job.last_date %}<span><b>{{ tr('last_date') }}: {{ job.last_date.strftime('%d-%m-%Y') }}</b></span>{% elif job.last_date_text %}<span>{{ tr('last_date') }}: {{ job.last_date_text }}</span>{% endif %}
+    </p>
+  </a>
+  {% endfor %}
+</div>
+<div id="jobSearchEmpty" class="empty" hidden><p>{{ tr('jobs_search_none') }}</p></div>
+{% else %}
+<div class="empty">
+  <svg class="icon empty-icon"><use href="#i-briefcase"/></svg>
+  <p>{{ tr('jobs_empty') }}</p>
+  {% if suggest %}{% set names = {'active': 'jobs_active', 'upcoming': 'jobs_upcoming', 'updates': 'jobs_updates', 'closed': 'jobs_closed', 'undated': 'jobs_undated'} %}
+  <a class="btn btn-primary" data-suggest href="?status={{ suggest }}{{ q }}">{{ tr('jobs_see') }}: {{ tr(names[suggest]) }} · {{ counts[suggest] }}</a>{% endif %}
+</div>
+{% endif %}
+{% endblock %}

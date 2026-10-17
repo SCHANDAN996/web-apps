@@ -1,0 +1,176 @@
+Questions 76–100: Medium
+
+76. Statements: P > Q ≥ R = S; S < T ≤ U
+Conclusions: I. P > S  II. Q ≥ T
+(a) Neither I nor II follows (b) Only II follows (c) Both I and II follow (d) Only I follows
+Answer: (d)
+Solution: The tempting trap is conclusion II: since Q ≥ R = S and S < T, we cannot link Q and T, so II does not follow. For I, P > Q ≥ R = S gives P > S directly, so the answer is that only I follows.
+Source: PYQ-style
+
+77. Statements: A = B > C ≥ D; C < E ≤ F
+Conclusions: I. B > D  II. A > E
+(a) Both I and II follow (b) Only II follows (c) Only I follows (d) Neither I nor II follows
+Answer: (c)
+Solution: Conclusion II is the trap: A > C and C < E give no relation between A and E, so II fails. Since B > C ≥ D, we get B > D, so the answer is that only I follows.
+Source: PYQ-style
+
+78. Statements: M ≤ N < O = P; P > Q ≥ R
+Conclusions: I. O > R  II. M < P
+(a) Both I and II follow (b) Only II follows (c) Only I follows (d) Neither I nor II follows
+Answer: (a)
+Solution: O = P > Q ≥ R gives O > R, so I follows. M ≤ N < O = P gives M < P, so II also follows. Both conclusions follow.
+Source: PYQ-style
+
+79. Statements: X > Y = Z ≥ W; W < V ≤ U
+Conclusions: I. X > W  II. Z > V
+(a) Only II follows (b) Only I follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (b)
+Solution: Conclusion II is the trap: Z ≥ W and W < V cannot fix Z against V, so II fails. X > Y = Z ≥ W gives X > W, so the answer is that only I follows.
+Source: PYQ-style
+
+80. Statements: G ≥ H > I = J; J < K ≤ L
+Conclusions: I. G > J  II. H > K
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (a)
+Solution: The trap is II: H > I = J and J < K give no relation between H and K. G ≥ H > I = J gives G > J, so the answer is that only I follows.
+Source: PYQ-style
+
+81. Statements: D < E ≤ F = G; G ≥ H > I
+Conclusions: I. F ≥ H  II. D < G
+(a) Both I and II follow (b) Only II follows (c) Only I follows (d) Neither I nor II follows
+Answer: (a)
+Solution: F = G ≥ H gives F ≥ H, so I follows. D < E ≤ F = G gives D < G, so II follows. Both conclusions follow.
+Source: PYQ-style
+
+82. Statements: R ≥ S > T ≥ U; T < V = W
+Conclusions: I. R > U  II. S > W
+(a) Both I and II follow (b) Only II follows (c) Only I follows (d) Neither I nor II follows
+Answer: (c)
+Solution: Conclusion II is the trap: S > T and T < V = W cannot relate S and W. R ≥ S > T ≥ U gives R > U, so the answer is that only I follows.
+Source: PYQ-style
+
+83. Statements: K = L ≥ M > N; N < O ≤ P
+Conclusions: I. K > N  II. L ≥ O
+(a) Neither I nor II follows (b) Only II follows (c) Both I and II follow (d) Only I follows
+Answer: (d)
+Solution: The trap is II: L ≥ M > N and N < O give no relation between L and O. K = L ≥ M > N gives K > N, so the answer is that only I follows.
+Source: PYQ-style
+
+84. Statements: B > C ≥ D = E; E ≤ F < G
+Conclusions: I. B > E  II. D < G
+(a) Only I follows (b) Both I and II follow (c) Only II follows (d) Neither I nor II follows
+Answer: (b)
+Solution: B > C ≥ D = E gives B > E, so I follows. D = E ≤ F < G gives D < G, so II follows. Both conclusions follow.
+Source: PYQ-style
+
+85. Statements: T ≤ U < V = W; W > X ≥ Y
+Conclusions: I. V > Y  II. T < W
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (c)
+Solution: V = W > X ≥ Y gives V > Y, so I follows. T ≤ U < V = W gives T < W, so II follows. Both conclusions follow.
+Source: PYQ-style
+
+86. Statements: H ≥ I > J = K; K < L ≤ M
+Conclusions: I. H > K  II. I > M
+(a) Neither I nor II follows (b) Only II follows (c) Both I and II follow (d) Only I follows
+Answer: (d)
+Solution: The trap is II: I > J = K and K < L ≤ M cannot relate I and M. H ≥ I > J = K gives H > K, so the answer is that only I follows.
+Source: PYQ-style
+
+87. Statements: N < O ≤ P = Q; Q ≥ R > S
+Conclusions: I. P ≥ R  II. N < Q
+(a) Only I follows (b) Only II follows (c) Neither I nor II follows (d) Both I and II follow
+Answer: (d)
+Solution: P = Q ≥ R gives P ≥ R, so I follows. N < O ≤ P = Q gives N < Q, so II follows. Both conclusions follow.
+Source: PYQ-style
+
+88. Statements: C ≥ D > E ≥ F; E < G = H
+Conclusions: I. C > F  II. D > H
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (a)
+Solution: Conclusion II is the trap: D > E and E < G = H give no relation between D and H. C ≥ D > E ≥ F gives C > F, so the answer is that only I follows.
+Source: PYQ-style
+
+89. Statements: L = M ≥ N > O; O < P ≤ Q
+Conclusions: I. L > O  II. M ≥ P
+(a) Only II follows (b) Only I follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (b)
+Solution: The trap is II: M ≥ N > O and O < P cannot fix M against P. L = M ≥ N > O gives L > O, so the answer is that only I follows.
+Source: PYQ-style
+
+90. Statements: E > F ≥ G = H; H ≤ I < J
+Conclusions: I. E > H  II. G < J
+(a) Only I follows (b) Both I and II follow (c) Only II follows (d) Neither I nor II follows
+Answer: (b)
+Solution: E > F ≥ G = H gives E > H, so I follows. G = H ≤ I < J gives G < J, so II follows. Both conclusions follow.
+Source: PYQ-style
+
+91. Statements: W ≤ X < Y = Z; Z > A ≥ B
+Conclusions: I. Y > B  II. W < Z
+(a) Only I follows (b) Both I and II follow (c) Only II follows (d) Neither I nor II follows
+Answer: (b)
+Solution: Y = Z > A ≥ B gives Y > B, so I follows. W ≤ X < Y = Z gives W < Z, so II follows. Both conclusions follow.
+Source: PYQ-style
+
+92. Statements: Q ≥ R > S = T; T < U ≤ V
+Conclusions: I. Q > T  II. R > V
+(a) Both I and II follow (b) Only II follows (c) Only I follows (d) Neither I nor II follows
+Answer: (c)
+Solution: The trap is II: R > S = T and T < U ≤ V cannot relate R and V. Q ≥ R > S = T gives Q > T, so the answer is that only I follows.
+Source: PYQ-style
+
+93. Statements: J < K ≤ L = M; M ≥ N > O
+Conclusions: I. L ≥ N  II. J < M
+(a) Both I and II follow (b) Only II follows (c) Only I follows (d) Neither I nor II follows
+Answer: (a)
+Solution: L = M ≥ N gives L ≥ N, so I follows. J < K ≤ L = M gives J < M, so II follows. Both conclusions follow.
+Source: PYQ-style
+
+94. Statements: F ≥ G > H ≥ I; H < J = K
+Conclusions: I. F > I  II. G > K
+(a) Only II follows (b) Only I follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (b)
+Solution: Conclusion II is the trap: G > H and H < J = K give no relation between G and K. F ≥ G > H ≥ I gives F > I, so the answer is that only I follows.
+Source: PYQ-style
+
+95. Statements: S = T ≥ U > V; V < W ≤ X
+Conclusions: I. S > V  II. T ≥ W
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (a)
+Solution: The trap is II: T ≥ U > V and V < W cannot fix T against W. S = T ≥ U > V gives S > V, so the answer is that only I follows.
+Source: PYQ-style
+
+96. Statements: A > B ≥ C = D; D ≤ E < F
+Conclusions: I. A > D  II. C < F
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (c)
+Solution: A > B ≥ C = D gives A > D, so I follows. C = D ≤ E < F gives C < F, so II follows. Both conclusions follow.
+Source: PYQ-style
+
+97. Statements: O ≤ P < Q = R; R > S ≥ T
+Conclusions: I. Q > T  II. O < R
+(a) Only I follows (b) Only II follows (c) Neither I nor II follows (d) Both I and II follow
+Answer: (d)
+Solution: Q = R > S ≥ T gives Q > T, so I follows. O ≤ P < Q = R gives O < R, so II follows. Both conclusions follow.
+Source: PYQ-style
+
+98. Statements: U ≥ V > W = X; X < Y ≤ Z
+Conclusions: I. U > X  II. V > Z
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (a)
+Solution: The trap is II: V > W = X and X < Y ≤ Z cannot relate V and Z. U ≥ V > W = X gives U > X, so the answer is that only I follows.
+Source: PYQ-style
+
+99. Statements: I < J ≤ K = L; L ≥ M > N
+Conclusions: I. K ≥ M  II. I < L
+(a) Only I follows (b) Only II follows (c) Neither I nor II follows (d) Both I and II follow
+Answer: (d)
+Solution: K = L ≥ M gives K ≥ M, so I follows. I < J ≤ K = L gives I < L, so II follows. Both conclusions follow.
+Source: PYQ-style
+
+100. Statements: Y ≥ Z > A ≥ B; A < C = D
+Conclusions: I. Y > B  II. Z > D
+(a) Both I and II follow (b) Only II follows (c) Only I follows (d) Neither I nor II follows
+Answer: (c)
+Solution: Conclusion II is the trap: Z > A and A < C = D give no relation between Z and D. Y ≥ Z > A ≥ B gives Y > B, so the answer is that only I follows.
+Source: PYQ-style

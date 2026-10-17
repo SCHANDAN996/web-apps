@@ -1,0 +1,41 @@
+```mermaid
+graph TD
+    A["Error Spotting<br>Advanced"] --> B["Core Concepts"]
+    A --> C["12 Golden Rules"]
+    A --> D["Examiner's Traps"]
+    A --> E["Strategies"]
+
+    B --> B1["Subject-Verb Agreement"]
+    B --> B2["Tense Consistency"]
+    B --> B3["Articles & Determiners"]
+    B --> B4["Prepositions"]
+    B --> B5["Pronoun Reference"]
+    B --> B6["Parallelism"]
+    B --> B7["Modifiers &<br>Misplaced Phrases"]
+
+    C --> C1["Intervening phrases<br>don't change the subject"]
+    C --> C2["Each / Every / Neither<br>+ singular verb"]
+    C --> C3["Collective nouns:<br>singular when unit acts as one"]
+    C --> C4["One of + plural noun<br>+ singular verb"]
+    C --> C5["No sooner...than /<br>Hardly...when"]
+    C --> C6["Since + point of time /<br>For + period"]
+    C --> C7["Comparatives need<br>parallel comparison"]
+    C --> C8["Gerund after<br>possessive adjective"]
+    C --> C9["Would rather / Had better<br>+ bare infinitive"]
+    C --> C10["Scarcely / Seldom:<br>negative words, no 'not'"]
+    C --> C11["The + adjective =<br>plural class (the rich)"]
+    C --> C12["Reported speech:<br>backshift of tense"]
+
+    D --> D1["Intervening Phrase Trap<br>'The quality of apples WAS...'"]
+    D --> D2["Sound-Right Trap<br>'What you are doing?'"]
+    D --> D3["Collective Noun Trap<br>'The team are...' vs 'is'"]
+    D --> D4["Over-thinking Trap<br>Correct sentence marked wrong"]
+    D --> D5["Near-Name Trap<br>beside / besides,<br>principal / principle"]
+
+    E --> E1["15-Second Rule:<br>Fact-based errors<br>(agreement, articles)"]
+    E --> E2["45-Second Rule:<br>Inference-based errors<br>(tone, idiom, logic)"]
+    E --> E3["Read whole sentence<br>before deciding"]
+    E --> E4["Check verb first,<br>then pronoun, then preposition"]
+    E --> E5["Skip Strategy:<br>flag long sentences,<br>return after easy ones"]
+    E --> E6["'No error' is a<br>valid answer — don't force one"]
+```

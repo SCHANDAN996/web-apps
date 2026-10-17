@@ -1,0 +1,33 @@
+# Important Formulas — Fractions & Decimals
+
+| Formula Name | Formula | One-line Use-Hint |
+|---|---|---|
+| Fraction definition | a/b, where b ≠ 0 | a = numerator, b = denominator |
+| Equivalent fractions | a/b = (a×k)/(b×k), k ≠ 0 | Multiply/divide top & bottom by same number |
+| Comparing fractions | a/b ⋛ c/d ⟺ a×d ⋛ c×b | Cross-multiply to compare |
+| Addition (same denominator) | a/b + c/b = (a+c)/b | Add numerators, keep denominator |
+| Addition (different denominators) | a/b + c/d = (ad + bc)/bd | Use LCM of denominators |
+| Subtraction | a/b − c/d = (ad − bc)/bd | Same as addition, with minus |
+| Multiplication | (a/b) × (c/d) = (a×c)/(b×d) | Multiply straight across; cancel first |
+| Division | (a/b) ÷ (c/d) = (a/b) × (d/c) | "Keep–Change–Flip" (reciprocal) |
+| Reciprocal | Reciprocal of a/b = b/a | Flip numerator and denominator |
+| Fraction of a number | (a/b) of N = (a×N)/b | "Of" means multiply |
+| Mixed → Improper | W a/b = (W×b + a)/b | Whole × denominator + numerator |
+| Improper → Mixed | p/q = quotient (remainder/q) | Divide; remainder stays as numerator |
+| Fraction → Decimal | a/b = a ÷ b | Divide numerator by denominator |
+| Terminating decimal condition | a/b terminates ⟺ b = 2^m × 5^n (after simplifying) | Denominator has only factors 2 and 5 |
+| Recurring decimal → Fraction | 0.ababab… = ab/99 (2 repeating digits) | Repeating block over that many 9s |
+| Mixed recurring → Fraction | 0.abc̄ = (abc − ab)/900 | (whole − non-repeating) / (9s then 0s) |
+| Decimal → Fraction | 0.x = x/10, 0.xy = xy/100 | Digits after point = number of zeros |
+| Percentage link | a/b = (a/b × 100)% | Multiply fraction by 100 for % |
+| % → Fraction | x% = x/100 | Divide by 100 |
+| Fraction → Percentage shortcuts | 1/2=50%, 1/3=33.33%, 1/4=25%, 1/5=20%, 1/6=16.67%, 1/8=12.5%, 1/9=11.11%, 1/11=9.09%, 1/12=8.33% | Memorise for instant conversion |
+| Ascending/Descending order | Convert to decimals or common denominator | Compare after unifying form |
+| HCF of fractions | HCF = HCF(numerators)/LCM(denominators) | "HCF up, LCM down" |
+| LCM of fractions | LCM = LCM(numerators)/HCF(denominators) | "LCM up, HCF down" |
+| Continued/Complex fraction | a/(b/c) = (a×c)/b | Simplify innermost first |
+| Decimal places in product | Product of decimals: total decimal places = sum of places | Count digits after point in both factors |
+| Division by decimal | a ÷ 0.b = (a×10)/b | Shift decimal to make divisor whole |
+| Fraction between two fractions | Between a/b and c/d lies (a+c)/(b+d) | Quick "mediant" for a value in between |
+| Difference of fraction & reciprocal | x − 1/x = (x² − 1)/x | Common in simplification traps |
+| Unit digit / place value | In 0.abc: a = tenths, b = hundredths, c = thousandths | Each step right = ÷10 |

@@ -18,13 +18,13 @@ The ₹5 Lakh Car That Cost Me Nothing (Almost!)
 
 Imagine this: You lend your friend ₹5,00,000 to buy a car. Your friend promises, “I’ll return the money in 2 years, plus ₹50,000 extra as thanks.” Sounds fair, right? You just earned ₹50,000 for doing nothing. But wait — is that a good deal? What if a bank would have paid you ₹80,000 for the same money? In both cases, the extra money is called interest. The simplest form of this deal — where interest is calculated only on the original sum, year after year, without adding it back — is what we call Simple Interest.
 
-In exams like SSC and Banking, Simple Interest (SI) might seem like a tiny topic, but it’s the foundation for Compound Interest, Installments, and even Data Interpretation. Nail SI today, and you’ll breeze through harder topics tomorrow. And the best part? It’s just 4th-grade math wrapped in a formula.
+In exams like SSC and Banking, Simple Interest (SI) might seem like a tiny topic, but it’s the foundation for Compound Interest, Installments, and even Data Interpretation. Nail SI today, and you’ll breeze through harder topics tomorrow. And the best part? It’s just basic arithmetic wrapped in a formula.
 
-But first, let’s be real…
+But first, let’s be honest…
 
 I Get It — You’ve Seen This Before, And It Still Feels Tricky
 
-Maybe you’ve opened a book, stared at SI = (P×R×T)/100, and thought, “Why are there three ways to write time? When do I divide by 365?” Or you solved 10 questions, only to get confused by the 11th because it asked for “twice the sum” and your brain froze. You are not alone. Almost every topper has scribbled “SI = PRT” on their hand before an exam. The trick isn’t to work harder — it’s to remember the formula so weirdly that it sticks like a nursery rhyme. Let’s do exactly that.
+Maybe you’ve opened a book, stared at SI = (P×R×T)/100, and thought, “Why are there three ways to write time? When do I divide by 365?” Or you solved 10 questions, only to get confused by the 11th because it asked for “twice the sum” and your brain froze. You are not alone. The trick isn’t to work harder — it’s to remember the formula so weirdly that it sticks like a nursery rhyme. Let’s do exactly that.
 
 Chunk 1: The Golden Formula — And a Dirty Rat 🐀
 
@@ -32,28 +32,11 @@ Simple Interest answers one question: How much rent does your money earn? If you
 
 Formula:
 
-Simple Interest (SI)
-=
-𝑃
-×
-𝑅
-×
-𝑇
-100
-Simple Interest (SI)=
-100
-P×R×T
-	​
+Simple Interest (SI) = (P × R × T) / 100
 
 And if someone asks “How much total money will I get back?”, that’s Amount (A):
 
-𝐴
-=
-𝑃
-+
-𝑆
-𝐼
-A=P+SI
+A = P + SI
 
 Now, how will you never forget the order? Imagine a dirty rat named PRT.
 People Really Trust this rat. But the rat only works when you divide by 100.
@@ -70,7 +53,7 @@ If time is given in months, convert to years by dividing by 12. (e.g., 6 months 
 
 If time is given in days, divide by 365. (e.g., 73 days = 73/365 = 0.2 years)
 
-Sometimes they use 366 for a leap year — but 99% of the time, use 365 unless they scream “leap year.”
+Sometimes a question uses 366 for a leap year — but in most cases, use 365 unless the question specifies a leap year.
 
 Even easier: remember “M÷12, D÷365” as a chant. (M for months, D for days.)
 
@@ -89,7 +72,7 @@ Cancel P from both sides (P ≠ 0): 1 = (R × 10)/100 → R = 10%.
 
 The secret: Whenever you see “doubles,” “triples,” or “n times,” subtract the original P to get SI. For “doubles,” SI = P; for “triples,” SI = 2P; for “4 times,” SI = 3P, and so on. Observation: SI is always (n-1) × P when the sum becomes n times.
 
-This single insight solves 80% of the hard-looking SI problems in under 30 seconds.
+This single insight solves many hard-looking SI problems in under 30 seconds.
 
 🧠 Active Recall Prompt: A sum becomes 3 times in 8 years at simple interest. What is the rate of interest? (Try it now. Hint: SI = 2P, so 2P = (P × R × 8)/100 → R = 25%.) Check your answer.
 
@@ -99,7 +82,7 @@ Trap 1: “Rate is 5% per annum, time is 6 months.” Many write T=6 and get a b
 
 Trap 2: “Amount after 3 years is ₹X, SI is given.” They ask for Principal, but some directly use X as P. Always: P = Amount – SI.
 
-Trap 3: Two different principals, same rate and time, but SI difference is given. Just use the formula on the difference of principals. (SI1 – SI2) = (P1 – P2) × R × T / 100. This shortcut appears in nearly every banking exam.
+Trap 3: Two different principals, same rate and time, but SI difference is given. Just use the formula on the difference of principals: (SI1 – SI2) = (P1 – P2) × R × T / 100. This shortcut appears frequently in banking exams.
 
 Let’s frame an active recall for the difference trap.
 
@@ -118,14 +101,14 @@ Remember: “Quarterly? Multiply rate by 4; Half-yearly? Multiply by 2.” But k
 
 Chapter Summary Table
 
-Concept	Key Point
-Basic Formula	SI = (Principal × Rate × Time in years) / 100
-Amount (A)	A = Principal + SI
-Time Conversion	Months → divide by 12; Days → divide by 365
-Sum becomes n times	SI = (n-1) × P, then plug into formula to find missing R or T
-Rate not per annum	Half-yearly R × 2, Quarterly R × 4 to make annual; keep T in years
-Difference of SI trick	(SI1 – SI2) = (P1 – P2) × R × T / 100
-Common Trap	Always ensure Time is in years before multiplying; never use months directly
+Concept | Key Point
+Basic Formula | SI = (Principal × Rate × Time in years) / 100
+Amount (A) | A = Principal + SI
+Time Conversion | Months → divide by 12; Days → divide by 365
+Sum becomes n times | SI = (n-1) × P, then plug into formula to find missing R or T
+Rate not per annum | Half-yearly R × 2, Quarterly R × 4 to make annual; keep T in years
+Difference of SI trick | (SI1 – SI2) = (P1 – P2) × R × T / 100
+Common Trap | Always ensure Time is in years before multiplying; never use months directly
 
 🧠 Final Retrieval Cue: Tonight before sleep, take a blank sheet and write the SI formula from memory. Then sketch a rat holding a sign “PRT / 100”. If you can’t recall it perfectly, review the “dirty rat” mnemonic once. The sillier the image, the stickier it is.
 

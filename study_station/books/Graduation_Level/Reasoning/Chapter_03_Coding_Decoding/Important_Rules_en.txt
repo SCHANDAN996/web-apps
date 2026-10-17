@@ -1,0 +1,43 @@
+# Important Rules & Approaches — Coding-Decoding (Advanced)
+
+## Part 1: Key Rules/Approaches
+
+| Rule Name | Description | Example |
+|---|---|---|
+| Letter Position Rule | Memorise A=1 to Z=26 and reverse positions (Z=1 to A=26). Every coding question reduces to position arithmetic. | E = 5; reverse position of E = 22 |
+| EJOTY Rule | Use anchor letters E(5), J(10), O(15), T(20), Y(25) to find any letter's position in 2 seconds without counting. | R = T(20) − 2 = 18 |
+| Opposite Letter Pairs | Learn the 13 opposite pairs (sum = 27): AZ, BY, CX, DW, EV, FU, GT, HS, IR, JQ, KP, LO, MN. | Opposite of C is X (3 + 24 = 27) |
+| Shift Pattern Rule | First check if each letter shifts by a constant (+1, +2, −3…) or by an increasing/decreasing series (+1, +2, +3…). | CAT → DBU means +1 shift for every letter |
+| Reverse Order Rule | Check if the word is simply written backwards, or backwards plus a shift. | WORD → DROW (pure reversal) |
+| Vowel-Consonant Split Rule | In advanced codes, vowels and consonants often follow different rules (e.g., vowels +1, consonants −1). | A→B (vowel +1), B→A (consonant −1) |
+| Position-Sum Rule | Code may be the sum/difference/product of letter positions, or position × number of letters. | BAT = 2+1+20 = 23 |
+| Letter-to-Number Rule | Numbers in the code usually mean letter position, reverse position, or sum of digits of the position. | M = 13 → 1+3 = 4 |
+| Substitution (Direct Coding) Rule | In "if A means B" type, build a fixed letter-to-letter table first, then decode mechanically — never guess letter by letter. | If 'water' is 'food', 'food' is 'tree'… then what you eat = tree |
+| Mixed Sentence Coding Rule | Compare two sentences sharing one common word; the common code word is the answer for that word. Eliminate step by step. | "ram is good" = "ta na pa"; "ram is tall" = "ta na sa" ⇒ ram/is = ta/na |
+| New Pattern (Symbol/Condition) Rule | Read ALL conditions before coding; apply conditions in the given order; check which condition the word satisfies first. | If word starts with vowel → code as @; else code first letter as # |
+| Matrix/Number Coding Rule | Each letter has a row+column code; verify that no two letters share the same code before answering. | Letter at row 2, column 3 → code 23 |
+| Chinese/Decoding Trap Rule | A code common to two sentences may still be ambiguous if it appears with two different common words — mark "cannot be determined" only after full elimination. | If "ta" is common but both "ram" and "is" are common, code of "ram" alone cannot be fixed |
+
+## Part 2: Time Management
+
+| Situation | Rule | Action |
+|---|---|---|
+| Pattern not visible in 15 seconds | 15-Second Rule | Mark the question and skip; return after finishing the section. |
+| Pattern identified, only decoding remains | 45-Second Rule | Complete decoding within 45 seconds; if a second hidden pattern appears, skip. |
+| Mixed sentence coding with 4+ sentences | Elimination Budget | Spend max 60 seconds building the common-word table; if still ambiguous, choose "cannot be determined" only if offered, else skip. |
+| New pattern (conditional symbol) questions | Condition-First Rule | Never start coding before reading all conditions — 20 seconds reading saves 60 seconds of wrong coding. |
+| Letter position recall taking long | EJOTY Shortcut | If you are counting A-B-C on fingers, stop — use EJOTY anchors; counting costs 10+ seconds per letter. |
+| Two options look identical | Re-check Rule | Re-verify only the FIRST and LAST letters of the code; examiners usually differ options in middle letters. |
+
+## Part 3: Logical/Mathematical Formulas
+
+| Formula | Use | Example |
+|---|---|---|
+| Opposite letter position = 27 − n | Find reverse/opposite letter instantly | Opposite of H(8) = 27 − 8 = 19 = S |
+| Reverse position of letter = 27 − n | Convert normal position to position from Z | Reverse position of D(4) = 23 |
+| Letter at position n from end = 27 − n th letter from start | Read "5th from right" type questions | 5th from right = 22nd from start = V |
+| Sum of positions = code value | Letter-to-number coding | CAB = 3+1+2 = 6 |
+| Code = position × k (k = constant or word length) | Multiplicative coding | DOG, k=2: 4×2, 15×2, 7×2 = 8, 30, 14 |
+| Digital sum: keep adding digits until single digit | When code is a single digit from a large position sum | SUM = 19+21+13 = 53 → 5+3 = 8 |
+
+No other formulas required for this chapter — all remaining patterns are solved by the rules in Part 1.

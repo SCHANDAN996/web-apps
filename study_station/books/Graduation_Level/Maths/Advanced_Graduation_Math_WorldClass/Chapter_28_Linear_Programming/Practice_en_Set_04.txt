@@ -1,0 +1,151 @@
+Questions 76–100: Medium
+
+76. Maximise Z = 2x + 5y subject to 3x + 4y ≤ 12, x + y ≤ 20, x ≥ 0, y ≥ 0. What is the maximum value of Z?
+(a) 8 (b) 0 (c) 17 (d) 15
+Answer: (d)
+Solution: The feasible region is bounded; check Z at each corner point: (0, 0) → 0; (0, 3) → 15; (4, 0) → 8. The largest value is 15, at (0, 3). So the answer is 15.
+Source: PYQ-style
+
+77. For Z = x + 6y subject to 2x + 2y ≤ 20, 3x + y ≤ 18, x ≥ 0, y ≥ 0, what is the smallest value of Z among the corner points other than the origin?
+(a) 7 (b) 6 (c) 60 (d) 40
+Answer: (b)
+Solution: Corner points other than (0, 0): (0, 10) → 60; (4, 6) → 40; (6, 0) → 6. The smallest is 6. So the answer is 6.
+Source: PYQ-style
+
+78. The feasible region of 4x + 4y ≤ 16, x + 3y ≤ 15, x ≥ 0, y ≥ 0 has a corner point at (0, 4). What is the value of Z = 6x + 4y there?
+(a) 22 (b) 16 (c) 12 (d) 24
+Answer: (b)
+Solution: Z = 6 × 0 + 4 × 4 = 16. So the answer is 16.
+Source: PYQ-style
+
+79. Maximise Z = 6x + y subject to x + 4y ≤ 24, 2x + 2y ≤ 10, x ≥ 0, y ≥ 0. What is the maximum value of Z?
+(a) 30 (b) 5 (c) 0 (d) 29
+Answer: (a)
+Solution: The feasible region is bounded; check Z at each corner point: (0, 0) → 0; (0, 5) → 5; (5, 0) → 30. The largest value is 30, at (5, 0). So the answer is 30.
+Source: PYQ-style
+
+80. How many corner points does the feasible region of 3x + 3y ≤ 18, 4x + 3y ≤ 20, x ≥ 0, y ≥ 0 have?
+(a) 3 (b) 5 (c) 4 (d) 2
+Answer: (c)
+Solution: Solving the boundary lines in pairs and keeping the points that satisfy every constraint gives (0, 0), (0, 6), (2, 4), (5, 0) — 4 corner points. So the answer is 4.
+Source: PYQ-style
+
+81. Maximise Z = 2x + 2y subject to 3x + y ≤ 18, 2x + y ≤ 15, x ≥ 0, y ≥ 0. What is the maximum value of Z?
+(a) 30 (b) 32 (c) 12 (d) 29
+Answer: (a)
+Solution: The feasible region is bounded; check Z at each corner point: (0, 0) → 0; (0, 15) → 30; (3, 9) → 24; (6, 0) → 12. The largest value is 30, at (0, 15). So the answer is 30.
+Source: PYQ-style
+
+82. For Z = 3x + 2y subject to 2x + y ≤ 18, x + 2y ≤ 24, x ≥ 0, y ≥ 0, what is the smallest value of Z among the corner points other than the origin?
+(a) 25 (b) 32 (c) 27 (d) 24
+Answer: (d)
+Solution: Corner points other than (0, 0): (0, 12) → 24; (4, 10) → 32; (9, 0) → 27. The smallest is 24. So the answer is 24.
+Source: PYQ-style
+
+83. The feasible region of 2x + y ≤ 10, 3x + 3y ≤ 18, x ≥ 0, y ≥ 0 has a corner point at (0, 6). What is the value of Z = 5x + 3y there?
+(a) 23 (b) 15 (c) 18 (d) 30
+Answer: (c)
+Solution: Z = 5 × 0 + 3 × 6 = 18. So the answer is 18.
+Source: PYQ-style
+
+84. Maximise Z = 5x + 3y subject to x + 3y ≤ 12, 2x + 3y ≤ 18, x ≥ 0, y ≥ 0. What is the maximum value of Z?
+(a) 50 (b) 44 (c) 36 (d) 45
+Answer: (d)
+Solution: The feasible region is bounded; check Z at each corner point: (0, 0) → 0; (0, 4) → 12; (6, 2) → 36; (9, 0) → 45. The largest value is 45, at (9, 0). So the answer is 45.
+Source: PYQ-style
+
+85. How many corner points does the feasible region of 2x + y ≤ 12, 3x + 4y ≤ 12, x ≥ 0, y ≥ 0 have?
+(a) 2 (b) 3 (c) 4 (d) 5
+Answer: (b)
+Solution: Solving the boundary lines in pairs and keeping the points that satisfy every constraint gives (0, 0), (0, 3), (4, 0) — 3 corner points. So the answer is 3.
+Source: PYQ-style
+
+86. Maximise Z = 3x + 4y subject to 4x + 4y ≤ 24, 2x + y ≤ 10, x ≥ 0, y ≥ 0. What is the maximum value of Z?
+(a) 28 (b) 20 (c) 24 (d) 27
+Answer: (c)
+Solution: The feasible region is bounded; check Z at each corner point: (0, 0) → 0; (0, 6) → 24; (4, 2) → 20; (5, 0) → 15. The largest value is 24, at (0, 6). So the answer is 24.
+Source: PYQ-style
+
+87. For Z = x + 6y subject to 2x + 2y ≤ 12, 2x + 4y ≤ 16, x ≥ 0, y ≥ 0, what is the smallest value of Z among the corner points other than the origin?
+(a) 7 (b) 0 (c) 6 (d) 24
+Answer: (c)
+Solution: Corner points other than (0, 0): (0, 4) → 24; (4, 2) → 16; (6, 0) → 6. The smallest is 6. So the answer is 6.
+Source: PYQ-style
+
+88. The feasible region of 3x + 4y ≤ 24, 2x + 2y ≤ 10, x ≥ 0, y ≥ 0 has a corner point at (0, 5). What is the value of Z = 4x + 3y there?
+(a) 20 (b) 12 (c) 19 (d) 15
+Answer: (d)
+Solution: Z = 4 × 0 + 3 × 5 = 15. So the answer is 15.
+Source: PYQ-style
+
+89. Maximise Z = 5x + 3y subject to 2x + y ≤ 24, 4x + 4y ≤ 16, x ≥ 0, y ≥ 0. What is the maximum value of Z?
+(a) 19 (b) 20 (c) 12 (d) 23
+Answer: (b)
+Solution: The feasible region is bounded; check Z at each corner point: (0, 0) → 0; (0, 4) → 12; (4, 0) → 20. The largest value is 20, at (4, 0). So the answer is 20.
+Source: PYQ-style
+
+90. How many corner points does the feasible region of x + 2y ≤ 18, 4x + 2y ≤ 24, x ≥ 0, y ≥ 0 have?
+(a) 5 (b) 6 (c) 3 (d) 4
+Answer: (d)
+Solution: Solving the boundary lines in pairs and keeping the points that satisfy every constraint gives (0, 0), (0, 9), (2, 8), (6, 0) — 4 corner points. So the answer is 4.
+Source: PYQ-style
+
+91. Maximise Z = 5x + y subject to x + 4y ≤ 24, x + 2y ≤ 16, x ≥ 0, y ≥ 0. What is the maximum value of Z?
+(a) 0 (b) 44 (c) 80 (d) 6
+Answer: (c)
+Solution: The feasible region is bounded; check Z at each corner point: (0, 0) → 0; (0, 6) → 6; (8, 4) → 44; (16, 0) → 80. The largest value is 80, at (16, 0). So the answer is 80.
+Source: PYQ-style
+
+92. For Z = x + 6y subject to 3x + 3y ≤ 12, 3x + y ≤ 15, x ≥ 0, y ≥ 0, what is the smallest value of Z among the corner points other than the origin?
+(a) 5 (b) 4 (c) 24 (d) 0
+Answer: (b)
+Solution: Corner points other than (0, 0): (0, 4) → 24; (4, 0) → 4. The smallest is 4. So the answer is 4.
+Source: PYQ-style
+
+93. The feasible region of x + y ≤ 10, x + 2y ≤ 8, x ≥ 0, y ≥ 0 has a corner point at (0, 4). What is the value of Z = 4x + 4y there?
+(a) 16 (b) 20 (c) 12 (d) 17
+Answer: (a)
+Solution: Z = 4 × 0 + 4 × 4 = 16. So the answer is 16.
+Source: PYQ-style
+
+94. Maximise Z = 6x + 4y subject to x + 4y ≤ 20, 2x + 4y ≤ 8, x ≥ 0, y ≥ 0. What is the maximum value of Z?
+(a) 24 (b) 8 (c) 30 (d) 23
+Answer: (a)
+Solution: The feasible region is bounded; check Z at each corner point: (0, 0) → 0; (0, 2) → 8; (4, 0) → 24. The largest value is 24, at (4, 0). So the answer is 24.
+Source: PYQ-style
+
+95. How many corner points does the feasible region of x + 2y ≤ 20, 3x + 2y ≤ 18, x ≥ 0, y ≥ 0 have?
+(a) 2 (b) 5 (c) 4 (d) 3
+Answer: (d)
+Solution: Solving the boundary lines in pairs and keeping the points that satisfy every constraint gives (0, 0), (0, 9), (6, 0) — 3 corner points. So the answer is 3.
+Source: PYQ-style
+
+96. Maximise Z = 5x + 4y subject to x + 3y ≤ 15, 2x + 3y ≤ 24, x ≥ 0, y ≥ 0. What is the maximum value of Z?
+(a) 60 (b) 0 (c) 59 (d) 65
+Answer: (a)
+Solution: The feasible region is bounded; check Z at each corner point: (0, 0) → 0; (0, 5) → 20; (9, 2) → 53; (12, 0) → 60. The largest value is 60, at (12, 0). So the answer is 60.
+Source: PYQ-style
+
+97. For Z = x + 4y subject to x + 3y ≤ 18, 4x + 4y ≤ 8, x ≥ 0, y ≥ 0, what is the smallest value of Z among the corner points other than the origin?
+(a) 2 (b) 8 (c) 3 (d) 0
+Answer: (a)
+Solution: Corner points other than (0, 0): (0, 2) → 8; (2, 0) → 2. The smallest is 2. So the answer is 2.
+Source: PYQ-style
+
+98. The feasible region of 4x + 4y ≤ 18, 4x + 3y ≤ 12, x ≥ 0, y ≥ 0 has a corner point at (0, 4). What is the value of Z = 6x + 5y there?
+(a) 24 (b) 26 (c) 20 (d) 15
+Answer: (c)
+Solution: Z = 6 × 0 + 5 × 4 = 20. So the answer is 20.
+Source: PYQ-style
+
+99. Maximise Z = x + y subject to 4x + 3y ≤ 12, x + 4y ≤ 20, x ≥ 0, y ≥ 0. What is the maximum value of Z?
+(a) 0 (b) 4 (c) 3 (d) 5
+Answer: (b)
+Solution: The feasible region is bounded; check Z at each corner point: (0, 0) → 0; (0, 4) → 4; (3, 0) → 3. The largest value is 4, at (0, 4). So the answer is 4.
+Source: PYQ-style
+
+100. How many corner points does the feasible region of 3x + y ≤ 20, 4x + 4y ≤ 20, x ≥ 0, y ≥ 0 have?
+(a) 3 (b) 2 (c) 4 (d) 5
+Answer: (a)
+Solution: Solving the boundary lines in pairs and keeping the points that satisfy every constraint gives (0, 0), (0, 5), (5, 0) — 3 corner points. So the answer is 3.
+Source: PYQ-style

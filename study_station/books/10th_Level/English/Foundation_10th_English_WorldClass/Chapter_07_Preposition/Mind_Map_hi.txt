@@ -1,0 +1,34 @@
+```mermaid
+graph TD
+    A["Preposition (संबंधसूचक)<br>शब्दों के बीच संबंध बताने वाले शब्द"] --> B["समय के Preposition<br>(Time)"]
+    A --> C["स्थान के Preposition<br>(Place)"]
+    A --> D["दिशा/गति के Preposition<br>(Direction/Movement)"]
+    A --> E["अन्य प्रयोग<br>(Fixed/Phrasal)"]
+    A --> F["त्रुटि-पहचान के नियम<br>(Error Spotting)"]
+
+    B --> B1["at: निश्चित समय<br>at 5 o'clock, at night"]
+    B --> B2["on: दिन/तारीख<br>on Monday, on 15 August"]
+    B --> B3["in: महीना/वर्ष/ऋतु<br>in July, in 2024"]
+    B --> B4["since: समय-बिंदु से<br>since Monday"]
+    B --> B5["for: अवधि<br>for two years"]
+
+    C --> C1["at: छोटा/निश्चित स्थान<br>at the station"]
+    C --> C2["in: बड़ा स्थान/अंदर<br>in Delhi, in the box"]
+    C --> C3["on: सतह पर<br>on the table"]
+    C --> C4["between: दो के बीच<br>between Ram and Shyam"]
+    C --> C5["among: दो से अधिक के बीच<br>among the students"]
+
+    D --> D1["to: गंतव्य की ओर<br>go to school"]
+    D --> D2["into: अंदर प्रवेश<br>jump into the river"]
+    D --> D3["from: प्रारंभ-बिंदु<br>from Agra to Delhi"]
+    D --> D4["towards: दिशा में<br>walk towards the gate"]
+
+    E --> E1["depend on, listen to<br>look at, wait for"]
+    E --> E2["good at, angry with<br>afraid of, fond of"]
+    E --> E3["agree with (व्यक्ति)<br>agree to (प्रस्ताव)"]
+
+    F --> F1["since के साथ अवधि नहीं<br>for के साथ बिंदु नहीं"]
+    F --> F2["between/among का भ्रम"]
+    F --> F3["in/on/at का समय-स्थान भ्रम"]
+    F --> F4["वाक्यांत में अनावश्यक preposition<br>जैसे: enter into the room (गलत)"]
+```

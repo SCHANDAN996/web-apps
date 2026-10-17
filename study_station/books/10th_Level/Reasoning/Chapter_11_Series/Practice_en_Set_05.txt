@@ -1,0 +1,151 @@
+Set 5: Series MCQs (English) — Questions 101–120: Medium | Questions 121–125: Hard
+
+101. 8, 13, 20, 29, 40, ?
+(a) 54 (b) 51 (c) 52 (d) 53
+Answer: (d)
+Solution: The differences are +5, +7, +9, +11, rising by 2 each time, so the next difference is +13. The trap is assuming a constant difference of +11, which gives 51. Adding 13 to 40, the answer is 53.
+Source: PYQ-style
+
+102. 3, 6, 11, 18, 27, ?
+(a) 38 (b) 36 (c) 37 (d) 39
+Answer: (a)
+Solution: Each term is n²+2: 1²+2=3, 2²+2=6, 3²+2=11, 4²+2=18, 5²+2=27. The trap is treating the differences +3, +5, +7, +9 as ending, but the next difference is +11, giving 27+11=38. So the answer is 38.
+Source: PYQ-style
+
+103. A, D, H, M, ?
+(a) T (b) S (c) U (d) V
+Answer: (b)
+Solution: Letter positions go 1, 4, 8, 13 with gaps of +3, +4, +5, so the next gap is +6, giving position 19. The trap is adding +5 again, which lands on R and tempts a nearby wrong choice. Position 19 is S, so the answer is S.
+Source: PYQ-style
+
+104. 2, 12, 36, 80, ?
+(a) 120 (b) 140 (c) 160 (d) 150
+Answer: (d)
+Solution: Each term is n²(n+1): 1²×2=2, 2²×3=12, 3²×4=36, 4²×5=80, so the next is 5²×6=150. The trap is using n³+n, which coincidentally matches the early terms but also gives 150 only if applied correctly; guessing a round number like 160 fails. So the answer is 150.
+Source: PYQ-style
+
+105. 10, 19, 37, 73, ?
+(a) 141 (b) 139 (c) 145 (d) 143
+Answer: (c)
+Solution: The rule is ×2−1: 10×2−1=19, 19×2−1=37, 37×2−1=73, so next is 73×2−1=145. The trap is doubling without subtracting, which gives 146 and tempts the nearest listed value. So the answer is 145.
+Source: PYQ-style
+
+106. Z, X, V, T, R, ?
+(a) N (b) P (c) O (d) Q
+Answer: (b)
+Solution: The letters step back by 2 each time: Z(26), X(24), V(22), T(20), R(18), so the next is position 16. The trap is stepping back by 1, which gives Q. Position 16 is P, so the answer is P.
+Source: PYQ-style
+
+107. 5, 11, 23, 47, 95, ?
+(a) 185 (b) 191 (c) 187 (d) 189
+Answer: (b)
+Solution: The rule is ×2+1: 5×2+1=11, 11×2+1=23, 23×2+1=47, 47×2+1=95, so next is 95×2+1=191. The trap is plain doubling, which gives 190 and tempts 189. So the answer is 191.
+Source: PYQ-style
+
+108. Find the wrong term: 1, 2, 6, 24, 120, 700, 5040
+(a) 6 (b) 24 (c) 120 (d) 700
+Answer: (d)
+Solution: The series is factorials: 1!=1, 2!=2, 3!=6, 4!=24, 5!=120, 6!=720, 7!=5040. The trap is that 700 looks like a plausible round number after 120, but 6! is 720, not 700. So the wrong term is 700.
+Source: PYQ-style
+
+109. 3, 4, 8, 17, 33, ?
+(a) 60 (b) 56 (c) 58 (d) 62
+Answer: (c)
+Solution: The differences are +1, +4, +9, +16, which are perfect squares, so the next difference is +25. The trap is treating the differences as doubling, which gives 33+32=65 and tempts 62. Adding 25 to 33, the answer is 58.
+Source: PYQ-style
+
+110. 2, 3, 10, 15, 26, 35, ?
+(a) 48 (b) 49 (c) 50 (d) 51
+Answer: (c)
+Solution: Odd-position terms are n²+1 (1²+1=2, 3²+1=10, 5²+1=26) and even-position terms are n²−1 (2²−1=3, 4²−1=15, 6²−1=35). The trap is applying n²−1 to the 7th term, which gives 48. The 7th term is odd-positioned, so 7²+1=50, and the answer is 50.
+Source: PYQ-style
+
+111. 1, 2, 9, 28, 65, ?
+(a) 121 (b) 124 (c) 130 (d) 126
+Answer: (d)
+Solution: Each term is n³+1 starting from n=0: 0³+1=1, 1³+1=2, 2³+1=9, 3³+1=28, 4³+1=65, so next is 5³+1=126. The trap is using 5³−1, which gives 124. So the answer is 126.
+Source: PYQ-style
+
+112. C, E, H, L, Q, ?
+(a) V (b) X (c) Y (d) W
+Answer: (d)
+Solution: Letter positions go 3, 5, 8, 12, 17 with gaps of +2, +3, +4, +5, so the next gap is +6, giving position 23. The trap is adding +7 by mistake, which gives position 24, i.e. X. Position 23 is W, so the answer is W.
+Source: PYQ-style
+
+113. 13, 17, 25, 37, 53, ?
+(a) 75 (b) 71 (c) 73 (d) 77
+Answer: (c)
+Solution: The differences are +4, +8, +12, +16, rising by 4, so the next difference is +20. The trap is treating the differences as doubling, which gives 53+32=85 and tempts 77 as a nearby value. Adding 20 to 53, the answer is 73.
+Source: PYQ-style
+
+114. Find the wrong term: 7, 10, 15, 22, 31, 42, 54
+(a) 54 (b) 10 (c) 22 (d) 42
+Answer: (a)
+Solution: The pattern is n²+6: 1²+6=7, 2²+6=10, 3²+6=15, 4²+6=22, 5²+6=31, 6²+6=42, 7²+6=55. The trap is that 54 differs from 55 by only 1, so it looks harmless, but the last term should be 55. So the wrong term is 54.
+Source: PYQ-style
+
+115. 3, 5, 10, 18, 29, ?
+(a) 40 (b) 41 (c) 43 (d) 42
+Answer: (c)
+Solution: The differences are +2, +5, +8, +11, rising by 3, so the next difference is +14. The trap is assuming the differences rise by 2, giving +13 and the tempting value 42. Adding 14 to 29, the answer is 43.
+Source: PYQ-style
+
+116. 6, 11, 20, 37, 70, ?
+(a) 135 (b) 131 (c) 140 (d) 130
+Answer: (a)
+Solution: The rule is ×2−1, ×2−2, ×2−3, ×2−4, so next is ×2−5: 6×2−1=11, 11×2−2=20, 20×2−3=37, 37×2−4=70, 70×2−5=135. The trap is doubling and subtracting a fixed 1, which gives 139 and tempts 140. So the answer is 135.
+Source: PYQ-style
+
+117. F, J, O, U, ?
+(a) C (b) B (c) D (d) E
+Answer: (b)
+Solution: Letter positions go 6, 10, 15, 21 with gaps of +4, +5, +6, so the next gap is +7, giving 28, which wraps around to 2. The trap is forgetting the wrap-around after Z and stopping at a letter near the end of the alphabet. Position 2 is B, so the answer is B.
+Source: PYQ-style
+
+118. 1, 4, 27, 256, ?
+(a) 3120 (b) 3130 (c) 3125 (d) 3145
+Answer: (c)
+Solution: The terms are n raised to the power n: 1¹=1, 2²=4, 3³=27, 4⁴=256, so next is 5⁵=3125. The trap is computing 5⁵ roughly and picking a nearby round number like 3130. So the answer is 3125.
+Source: PYQ-style
+
+119. 7, 8, 10, 14, 22, ?
+(a) 38 (b) 40 (c) 36 (d) 42
+Answer: (a)
+Solution: The differences are +1, +2, +4, +8, doubling each time, so the next difference is +16. The trap is treating the differences as rising by a fixed step, which tempts 36. Adding 16 to 22, the answer is 38.
+Source: PYQ-style
+
+120. Find the wrong term: 3, 5, 9, 17, 33, 66, 129
+(a) 66 (b) 9 (c) 33 (d) 5
+Answer: (a)
+Solution: The rule is ×2−1: 3×2−1=5, 5×2−1=9, 9×2−1=17, 17×2−1=33, 33×2−1=65, 65×2−1=129. The trap is that 66 fits a plain doubling of 33, but the rule subtracts 1, so the term should be 65. So the wrong term is 66.
+Source: PYQ-style
+
+121. 1, 4, 11, 26, 57, ?
+(a) 120 (b) 116 (c) 124 (d) 128
+Answer: (a)
+Solution: The differences are +3, +7, +15, +31, and their own differences +4, +8, +16 double each time, so the next second difference is +32, making the next first difference 63. The trap is doubling the last difference 31 to 62, which gives 119 and tempts 116 or 124. Adding 63 to 57, the answer is 120.
+Source: PYQ-style
+
+122. 1, 2, 8, 33, 148, ?
+(a) 770 (b) 765 (c) 780 (d) 800
+Answer: (b)
+Solution: The rule is ×n+n²: 1×1+1²=2, 2×2+2²=8, 8×3+3²=33, 33×4+4²=148, so next is 148×5+5²=765. The trap is multiplying by 5 and adding only 5 instead of 25, which gives 745 and tempts a nearby wrong value. So the answer is 765.
+Source: PYQ-style
+
+123. A, D, I, P, Y, ?
+(a) K (b) J (c) L (d) M
+Answer: (b)
+Solution: Letter positions go 1, 4, 9, 16, 25, which are perfect squares, so the next position is 36, which wraps around to 36−26=10. The trap is taking the gaps +3, +5, +7, +9 and forgetting the wrap-around past Z. Position 10 is J, so the answer is J.
+Source: PYQ-style
+
+124. 6, 24, 60, 120, 210, ?
+(a) 336 (b) 360 (c) 400 (d) 300
+Answer: (a)
+Solution: Each term is n(n+1)(n+2): 1×2×3=6, 2×3×4=24, 3×4×5=60, 4×5×6=120, 5×6×7=210, so next is 6×7×8=336. The trap is extending the differences +18, +36, +60, +90 by a wrong step and landing near 360. So the answer is 336.
+Source: PYQ-style
+
+125. 3, 10, 29, 66, 127, ?
+(a) 216 (b) 222 (c) 220 (d) 218
+Answer: (d)
+Solution: Each term is n³+2: 1³+2=3, 2³+2=10, 3³+2=29, 4³+2=66, 5³+2=127, so next is 6³+2=218. The trap is spotting the cubes and answering 6³=216, forgetting the +2. So the answer is 218.
+Source: PYQ-style

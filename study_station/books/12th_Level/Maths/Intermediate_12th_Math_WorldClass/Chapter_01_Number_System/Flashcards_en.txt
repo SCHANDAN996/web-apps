@@ -1,3 +1,79 @@
-# Chapter: Number System (Advanced), Level: intermediate
+Card 1
+Front: What is the smallest number that must be added to 2497 so that the sum is completely divisible by 5, 6, 4 and 3?
+Back: LCM of 5, 6, 4, 3 = 60. 2497 ÷ 60 leaves remainder 37, so add 60 − 37 = 23.
 
-@content_agent lang=en level=intermediate 'Create 15-20 flashcards for Number System (Advanced). Each card: front a curiosity-invoking question, back concise answer. Include at least 2 cards that ask about a mnemonic trick.'
+Card 2
+Front: A number divided by 5 leaves remainder 3. What remainder does its square leave when divided by 5?
+Back: 3² = 9, and 9 ÷ 5 leaves remainder 4. Trick: square the remainder, then divide again.
+
+Card 3
+Front: What is the unit digit of 7^95?
+Back: Cyclicity of 7 is 4 (7, 9, 3, 1). 95 ÷ 4 leaves remainder 3 → unit digit = 3.
+
+Card 4
+Front: Mnemonic check — what does "7-9-3-1, cycle of fun" help you remember?
+Back: The unit-digit cycle of powers of 7: 7¹=7, 7²=9, 7³=3, 7⁴=1, then it repeats every 4 powers.
+
+Card 5
+Front: How do you check divisibility by 11 in 5 seconds?
+Back: Take (sum of digits at odd places) − (sum at even places). If the result is 0 or a multiple of 11, the number is divisible by 11.
+
+Card 6
+Front: What is the remainder when 2^100 is divided by 3?
+Back: 2 ≡ −1 (mod 3), so 2^100 ≡ (−1)^100 = 1. Remainder = 1.
+
+Card 7
+Front: How many prime numbers are there between 1 and 100?
+Back: 25 primes. (2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97)
+
+Card 8
+Front: If N = a^p × b^q × c^r (prime factorization), how many total factors does N have?
+Back: (p+1)(q+1)(r+1). Example: 12 = 2²×3¹ → (2+1)(1+1) = 6 factors.
+
+Card 9
+Front: What is the sum of all factors of 28?
+Back: 28 = 2²×7. Sum = (1+2+4)(1+7) = 7×8 = 56. (28 is a perfect number — sum of proper factors = 28.)
+
+Card 10
+Front: Mnemonic check — what does "HCF × LCM = Product of the two numbers" remind you, and when does it FAIL?
+Back: It works only for TWO numbers. For three or more numbers, this formula does not hold — a classic exam trap!
+
+Card 11
+Front: What is the largest 4-digit number exactly divisible by 12, 15, 18 and 27?
+Back: LCM = 540. Largest 4-digit number = 9999; 9999 ÷ 540 leaves remainder 279. Answer: 9999 − 279 = 9720.
+
+Card 12
+Front: A number when divided by 6 leaves remainder 5, by 5 leaves 4, by 4 leaves 3. What is the smallest such number?
+Back: Divisor − remainder = 1 in each case. Answer = LCM(6,5,4) − 1 = 60 − 1 = 59.
+
+Card 13
+Front: What is the unit digit of the sum 1! + 2! + 3! + … + 100! ?
+Back: From 5! onward every factorial ends in 0. So unit digit = unit digit of (1+2+6+24) = 33 → 3.
+
+Card 14
+Front: How many zeros are at the end of 100! ?
+Back: Count factors of 5: ⌊100/5⌋ + ⌊100/25⌋ = 20 + 4 = 24 zeros.
+
+Card 15
+Front: What is the remainder when 51^203 is divided by 7?
+Back: 51 ≡ 2 (mod 7). Powers of 2 mod 7 cycle as 2, 4, 1 (period 3). 203 ÷ 3 leaves remainder 2 → remainder = 4.
+
+Card 16
+Front: What is the difference between a factor and a multiple — in one line?
+Back: A factor divides the number (smaller or equal); a multiple is divided by the number (larger or equal). Factors are finite, multiples are infinite.
+
+Card 17
+Front: Two numbers are in ratio 3:4 and their HCF is 4. What is their LCM?
+Back: Numbers are 12 and 16. LCM = (3×4)×4 = 48. Trick: LCM = product of ratio terms × HCF.
+
+Card 18
+Front: What is the smallest perfect square divisible by 8, 9 and 10?
+Back: LCM(8,9,10) = 360 = 2³×3²×5. Make all powers even: multiply by 2×5 = 10 → 3600.
+
+Card 19
+Front: Mnemonic check — what does "Divide the power by 4, remainder is the door" teach?
+Back: For unit digits of powers: divide the exponent by the cyclicity (usually 4); the remainder tells which position of the cycle to pick. (Remainder 0 → take the 4th position.)
+
+Card 20
+Front: If the sum of two numbers is 55 and their HCF is 5, how many such pairs are possible?
+Back: Numbers are 5a and 5b with a+b = 11, a and b coprime. Coprime pairs: (1,10), (2,9), (3,8), (4,7), (5,6) → 5 pairs.

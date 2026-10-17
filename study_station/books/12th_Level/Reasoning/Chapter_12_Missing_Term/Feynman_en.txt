@@ -1,0 +1,56 @@
+# Missing Term — Explained Like You're 12
+
+## The Cricket Scoreboard Story
+
+Imagine you're watching a cricket match, but the power went out for a few overs. When it comes back, the scoreboard shows:
+
+**Runs after each over: 5, 11, 19, 29, ?, 55**
+
+Your friend asks, "How many runs were on the board in the 5th over?"
+
+You don't panic. You do what every detective does — you look at the *gaps*:
+
+- 11 − 5 = **6**
+- 19 − 11 = **8**
+- 29 − 19 = **10**
+
+See it? The gap grows by 2 every time: 6, 8, 10... so the next gap must be **12**, and then **14**.
+
+- 29 + 12 = **41** ✅ (that's your missing term!)
+- Check: 41 + 14 = 55 ✅ — matches the last number!
+
+That's it. **That is the entire chapter.** A "Missing Term" question is just a broken scoreboard. Your job is never to guess the number — it's to find the *rule hiding in the gaps*.
+
+## The One Big Idea
+
+Every series is built by a machine that does something to each number to produce the next. The machine can:
+
+1. **Add or subtract** a fixed number (5, 9, 13, 17... → +4 each time)
+2. **Add or subtract a growing number** (like our cricket story: +6, +8, +10...)
+3. **Multiply or divide** (3, 6, 12, 24... → ×2)
+4. **Mix two operations** (×2 + 1, ×2 + 2, ×2 + 3...)
+5. **Use squares or cubes** (1, 4, 9, 16, ? → 25, because these are 1², 2², 3², 4², 5²)
+6. **Run two series together** — odd positions follow one rule, even positions another (2, 5, 4, 10, 6, 15, ? → odd spots: 2, 4, 6, so next is 8)
+
+The hardest questions in exams are just #4, #5 or #6 wearing a disguise.
+
+## The Unforgettable Trick: "GAP-GAP-GAP"
+
+Whenever you see a series, chant this in your head:
+
+> **"First take the GAP. If the gaps look random, take the GAP of the GAP. If still lost, check MULTIPLY, SQUARES, or ALTERNATE positions."**
+
+- **GAP 1** (first difference) solves most easy questions.
+- **GAP 2** (difference of differences) catches the "growing gap" traps — if the second difference is constant, you've cracked it.
+- If numbers grow *fast* (2, 6, 22, 90...), stop subtracting — think **multiply** (×3, ×4... or ×4 − 2 style).
+- If numbers jump up and down, split into **odd/even positions** — two series are hiding inside one.
+
+## The Examiner's Trap (Don't Fall For It!)
+
+The examiner loves giving a series where the first two gaps suggest one rule, but the third gap breaks it. Example: 2, 4, 8, 16, **?** — looks like ×2, answer 32. Fine. But 2, 4, 8, 14, **?** — gaps are 2, 4, 6, so next gap is 8, answer **22**, not 16! Students who stop thinking after two terms lose the mark. **Always verify your rule on at least three steps before answering.**
+
+## Blurting Sheet
+
+Now close this book. Take a blank sheet and write down everything you remember: the cricket story's method, the 6 types of machines, the GAP-GAP-GAP chant, and the examiner's trap. Write it all without looking up. Then open the book and check what you missed — that missing point is exactly what you need to revise.
+
+**Question for you:** The series is 3, 7, 15, 31, ? — before reaching for differences, ask yourself: are these numbers hiding near powers of 2? What is the missing term?

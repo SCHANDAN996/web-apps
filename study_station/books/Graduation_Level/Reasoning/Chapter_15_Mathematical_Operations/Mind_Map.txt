@@ -1,0 +1,40 @@
+```mermaid
+graph TD
+    A["गणितीय संक्रियाएँ<br>Mathematical Operations"] --> B["प्रकार 1: चिन्ह बदलना<br>Symbol Substitution"]
+    A --> C["प्रकार 2: चिन्ह पहचानना<br>Symbol Identification"]
+    A --> D["प्रकार 3: संख्या अदला-बदली<br>Number Interchange"]
+    A --> E["प्रकार 4: समीकरण संतुलन<br>Equation Balancing"]
+    A --> F["प्रकार 5: असमानता / कथन<br>Inequality / Statement Based"]
+
+    B --> B1["+ को ×, − को ÷ आदि मानकर हल करें<br>Replace symbols as directed"]
+    B --> B2["BODMAS सख्ती से लागू करें<br>Apply BODMAS strictly"]
+
+    C --> C1["विकल्पों को एक-एक करके रखें<br>Insert options one by one"]
+    C --> C2["पहले ÷ और × जाँचें<br>Check ÷ and × first"]
+
+    D --> D1["दो अंक/संख्याएँ आपस में बदलें<br>Swap two digits/numbers"]
+    D --> D2["हर विकल्प में बदलकर जाँचें<br>Test each option after swap"]
+
+    E --> E1["किस चिन्ह से समीकरण सही होगा<br>Which sign balances equation"]
+    E --> E2["LHS = RHS सत्यापन<br>Verify LHS equals RHS"]
+
+    F --> F1[">, <, =, ≥, ≤ के अर्थ याद रखें<br>Remember meaning of signs"]
+    F --> F2["निष्कर्ष निश्चित रूप से जाँचें<br>Check conclusions definitively"]
+
+    A --> G["रणनीति<br>Strategy"]
+    G --> G1["BODMAS क्रम: Bracket → Of → ÷ → × → + → −"]
+    G --> G2["विकल्प-आधारित प्रश्नों में उल्टा हल<br>Back-solve from options"]
+    G --> G3["अनुमान से पहले गणना<br>Calculate, don't guess"]
+
+    A --> H["समय प्रबंधन<br>Time Management"]
+    H --> H1["आसान प्रश्न: 30–40 सेकंड<br>Easy: 30–40 sec"]
+    H --> H2["विकल्प-जाँच प्रश्न: 60–90 सेकंड<br>Option-testing: 60–90 sec"]
+    H --> H3["लंबी गणना हो तो अंत में लौटें<br>Skip lengthy ones, return later"]
+
+    A --> I["परीक्षक के जाल<br>Examiner Traps"]
+    I --> I1["BODMAS क्रम भूलना<br>Forgetting operation order"]
+    I --> I2["बाएँ-से-दाएँ जोड़-घटाव की गलती<br>Left-to-right add/subtract error"]
+    I --> I3["≥ को > समझ लेना<br>Confusing ≥ with >"]
+    I --> I4["आधे विकल्प जाँचकर उत्तर देना<br>Answering after partial checking"]
+    I --> I5["ऋणात्मक संख्या वाले भाग में गलती<br>Errors with negative division"]
+```

@@ -1,0 +1,35 @@
+```mermaid
+graph TD
+    A["Sentence Structure"] --> B["Basic Elements"]
+    A --> C["Sentence Types"]
+    A --> D["Clauses"]
+    A --> E["Common Errors"]
+    A --> F["Exam Strategy"]
+
+    B --> B1["Subject + Verb<br>the core pair"]
+    B --> B2["Object / Complement"]
+    B --> B3["Modifiers:<br>phrases that add detail"]
+    B1 --> B4["SV Agreement<br>verb matches real subject"]
+
+    C --> C1["Simple<br>1 independent clause"]
+    C --> C2["Compound<br>2+ independent clauses<br>FANBOYS"]
+    C --> C3["Complex<br>1 independent + 1+ dependent"]
+    C --> C4["Compound-Complex<br>2+ independent + 1+ dependent"]
+
+    D --> D1["Independent Clause<br>stands alone"]
+    D --> D2["Dependent Clause<br>needs a main clause"]
+    D2 --> D3["Noun Clause"]
+    D2 --> D4["Adjective Clause<br>who / which / that"]
+    D2 --> D5["Adverb Clause<br>because / although / if"]
+
+    E --> E1["Fragment<br>incomplete sentence"]
+    E --> E2["Run-on / Comma Splice<br>two clauses, wrong join"]
+    E --> E3["Misplaced / Dangling<br>Modifier"]
+    E --> E4["Faulty Parallelism<br>lists must match form"]
+
+    F --> F1["15-sec: Fact-based<br>spot SV pair, check agreement"]
+    F --> F2["45-sec: Inference<br>complex error, tone, structure"]
+    F --> F3["Trap: Intervening Phrase<br>ignore words between S and V"]
+    F --> F4["Trap: Sound-Right<br>ear deceives, rule decides"]
+    F --> F5["Trap: Inversion<br>verb before subject<br>Never / Hardly / Not only"]
+```

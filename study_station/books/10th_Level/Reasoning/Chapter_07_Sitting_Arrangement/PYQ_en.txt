@@ -1,63 +1,171 @@
-PYQ Analysis: Sitting Arrangement (SSC, Banking, Railway — last 10 years)
+📊 PYQ Pattern Analysis: Seating Arrangement (Easy)
 
-Sitting arrangement gives 2–5 questions per exam (often a set on one arrangement). Linear and circular (facing centre) are most common. The trap is the facing direction and "immediate" vs "any" side.
+1. How Exams Ask Questions from This Chapter
 
-Q1. Five friends P, Q, R, S, T sit in a row facing north. R is at the extreme left, T at the extreme right. Q is immediately right of P, and S is immediately right of Q. Who is in the middle?
-(a) P (b) Q (c) S (d) R
-Answer: (b) Q
-Solution: R _ _ _ T. P, Q, S form a block (P,Q,S consecutive) in the middle three seats: R, P, Q, S, T. The middle (3rd) seat is Q.
-Source: SSC CGL
+Seating arrangement is one of the most reliable scoring areas in reasoning. Across SSC, Banking, and Railway exams, the questions follow a small set of repeatable patterns:
 
-Q2. P faces the centre of a round table. Q is to the immediate right of P. In your drawing, Q is placed which way from P?
-(a) Clockwise (b) Anticlockwise (c) Opposite (d) Same seat
-Answer: (b) Anticlockwise
-Solution: For a person facing the centre, their right hand is on the observer's left, i.e. anticlockwise on the drawing.
-Source: SSC CHSL
+- **Linear row, single direction** — the most common pattern everywhere. 5–8 persons in a row, all facing north (or south), with clues like "second to the left", "exactly between", "at the extreme end". SSC GD, MTS, and RRB Group-D ask almost only this type.
+- **Circular arrangement facing the centre** — the second most common. The key skill is remembering that for a person facing the centre, "left" means clockwise. SSC CGL and RRB NTPC use this regularly.
+- **Parallel rows** — two rows facing each other (one row north, one row south). This is the signature pattern of banking exams (IBPS PO/Clerk, SBI PO) and appears occasionally in SSC CGL Tier-II.
+- **Mixed facing (some north, some south) and square/rectangular tables** — rarer, and mostly in banking mains-level papers.
 
-Q3. A, B, C, D, E sit in a row facing north. C is exactly in the middle, A is at the left end, and D is immediately left of E. Where does B sit?
-(a) 2nd from left (b) right end (c) middle (d) 4th from left
-Answer: (a) 2nd from left
-Solution: A _ C _ _. D and E are adjacent → seats 4 and 5. So B takes seat 2: A, B, C, D, E. B is 2nd from left.
-Source: RRB NTPC
+2. Difficulty by Exam (Qualitative)
 
-Q4. Six friends A, B, C, D, E, F sit around a circle facing the centre, arranged clockwise in alphabetical order from A. Who sits opposite A?
-(a) C (b) D (c) E (d) F
-Answer: (b) D
-Solution: With 6 seats, the opposite seat is 3 places away. From A: A→B→C→D. So D is opposite A.
-Source: SSC CGL
+- **SSC GD / MTS / RRB Group-D**: 5–6 persons, one simple row or circle, direct clues. Solvable in 30–45 seconds with a quick sketch.
+- **SSC CGL Tier-I / RRB NTPC**: 5–8 persons, one or two linked clues ("X is immediately left of Y and immediately right of Z"). Needs careful block-building.
+- **SSC CGL Tier-II / IBPS PO Prelims**: 8–10 persons, parallel rows or circles with negative clues ("R is not a neighbour of U"). Needs systematic case elimination.
+- **Banking Mains**: 10+ persons with extra attributes (city, colour, profession) layered on the seating. Attempt only after the easy questions are done.
 
-Q5. Seven boys sit in a row facing north. D is 3rd from the left. Who is 5th from the right?
-(a) D (b) the boy left of D (c) the boy right of D (d) cannot say
-Answer: (a) D
-Solution: In a row of 7, the 5th from the right = 7 − 5 + 1 = 3rd from the left = D.
-Source: SSC MTS
+3. The Examiner's Favourite Traps
 
-Q6. Two people stand facing each other. A's right hand is towards B's which side?
-(a) Right (b) Left (c) Front (d) Back
-Answer: (b) Left
-Solution: When two people face each other, one's right side is opposite the other's left. So A's right is towards B's left.
-Source: SSC CHSL
+- **Double relation on one person**: "Sajit is immediately left of Rohan AND immediately right of Bikshu" — this is one 3-person block (Bikshu–Sajit–Rohan), not two separate pairs. Reading only half the clue is the single most common error.
+- **Clock-L confusion**: in a circle facing the centre, left = clockwise. Candidates who treat left as anti-clockwise build a mirror-image arrangement and get every question wrong.
+- **"Exactly between" vs "somewhere between"**: "Z sits exactly between W and G" means W–Z–G as a continuous block; "somewhere between" only fixes relative order. Mixing these up breaks the whole diagram.
+- **"Definitely true" questions**: the correct option must hold in EVERY valid arrangement, not just the first one you draw. Checking one diagram and concluding early is the trap.
+- **Nested clues in parallel rows**: "A is a neighbour of the person facing R" — you must fix R's position, find who faces R, and only then place A. Skipping a step inverts the rows.
+- **Negative clues**: "not a neighbour", "not at an end", "not opposite" — these eliminate positions rather than fix them. They must be applied last, after all positive blocks are placed.
 
-Q7. Five people A, B, C, D, E sit in a row facing north. B is immediately right of A, C is immediately right of B, and D is at the extreme right. Who is at the extreme left?
-(a) A (b) B (c) C (d) E
-Answer: (a) A
-Solution: A, B, C are consecutive from the left (seats 1,2,3); D is at seat 5; E takes seat 4. The left end is A.
-Source: SSC CGL
+4. Ten High-Yield PYQ-Style Questions (with Solutions)
 
-Q8. Eight friends A–H sit around a circle facing the centre, clockwise in alphabetical order from A. Who sits opposite E?
-(a) A (b) B (c) H (d) C
-Answer: (a) A
-Solution: With 8 seats, the opposite seat is 4 places away. E is 5th; 5 + 4 = 9 → back to seat 1 = A.
-Source: Bank PO
+**Question 1** (Source: PYQ-style, SSC CGL pattern)
 
-Q9. In a row of 6 people facing north, X is 4th from the left. What is X's position from the right?
-(a) 2nd (b) 3rd (c) 4th (d) 5th
-Answer: (b) 3rd
-Solution: From the right = 6 − 4 + 1 = 3rd.
-Source: RRB Group D
+Five friends Sajit, Rohan, Bikshu, Tomar, and Madhu are sitting on a bench facing north. Sajit is sitting immediately to the left of Rohan and immediately to the right of Bikshu. Madhu is sitting somewhere to the right of Rohan. Tomar is exactly between Rohan and Madhu. Who is sitting at the extreme right end?
 
-Q10. Eight people sit around a circle facing the centre. The person immediately to A's left is on which side in our clockwise view?
-(a) Clockwise (b) Anticlockwise (c) Opposite (d) Same
-Answer: (a) Clockwise
-Solution: For a person facing the centre, the left hand points clockwise around the circle, so the immediate-left neighbour is the next one clockwise.
-Source: SSC CGL
+(A) Sajit
+(B) Madhu
+(C) Tomar
+(D) Bikshu
+
+Solution: "Sajit is immediately left of Rohan and immediately right of Bikshu" gives one block: Bikshu–Sajit–Rohan. Madhu is to the right of Rohan, and Tomar is exactly between them: Rohan–Tomar–Madhu. Final row: Bikshu–Sajit–Rohan–Tomar–Madhu. Madhu is at the extreme right. Answer: (B)
+
+⚠️ Trap: The double relation on Sajit. Read both halves and build one 3-person block.
+
+**Question 2** (Source: PYQ-style, SSC CGL pattern)
+
+Six students Lucy, Loren, Simran, Dolly, Vikas, and Francis are sitting around a circular table facing the centre. Lucy is second to the left of Francis. Loren is second to the left of Lucy. Vikas is to the immediate right of Loren. Simran is second to the left of Vikas. Dolly is an immediate neighbour of Lucy. Who is sitting between Francis and Loren?
+
+(A) Simran
+(B) Dolly
+(C) Vikas
+(D) Lucy
+
+Solution: Facing the centre, left = clockwise. Fix Francis; place Lucy two seats clockwise, Loren two seats clockwise from Lucy, Vikas immediately anti-clockwise (right) of Loren, Simran two seats clockwise from Vikas, and Dolly next to Lucy. In the final arrangement, Simran sits between Francis and Loren. Answer: (A)
+
+⚠️ Trap: Assuming "left" is anti-clockwise in a centre-facing circle inverts the whole layout.
+
+**Question 3** (Source: PYQ-style, IBPS PO Prelims pattern)
+
+Nine persons G, H, I, J, K, R, S, T, and U are sitting in a straight line facing north. Only two persons sit to the left of I. Only one person sits between I and U. H sits fourth to the right of R. R is not an immediate neighbour of U. Less than three persons sit between R and U. The number of persons sitting between I and U is half of the number of persons sitting between H and J. Only three persons sit between K and T. K is not an immediate neighbour of J. Only two persons sit between T and G. Who are sitting at the extreme ends?
+
+(A) H, U
+(B) K, G
+(C) U, G
+(D) H, G
+
+Solution: Seats 1–9. Two persons left of I → I at seat 3. One person between I and U → U at seat 1 or 5. Persons between I and U = 1, so persons between H and J = 2. H is 4th right of R, with fewer than 3 persons between R and U, and R not next to U. Three persons between K and T; two between T and G; K not next to J. Resolving all constraints gives U at seat 1 and G at seat 9. Answer: (C)
+
+⏱️ 15-Second Rule: 9 persons and 6+ constraints signal a high-complexity puzzle. Under strict time pressure, flag it and return later.
+
+⚠️ Trap: The "half of the number" condition — candidates often invert the ratio when computing relative distances.
+
+**Question 4** (Source: PYQ-style, RRB NTPC pattern)
+
+Eight captains are sitting around a circular table facing the centre. The Finland captain sits third to the left of the Sweden captain. Only two persons sit between the Canada captain and the Europe captain. Neither the Canada nor the Europe captain is an immediate neighbour of the Finland captain. The North America captain sits second to the right of the United States captain. The United States captain is not an immediate neighbour of the Finland captain. The Canada captain sits third to the left of the Finland captain. The Russia and Czech Republic captains are not immediate neighbours. The Russia captain sits third to the left of the United States captain. Who is sitting between the Canada and Sweden captains?
+
+(A) Finland
+(B) United States
+(C) Europe
+(D) North America
+
+Solution: Fix Finland. Canada is 3rd to the left of Finland (clockwise, since facing centre). Sweden is placed so that Finland is 3rd to Sweden's left. Applying the remaining constraints places the United States captain between the Canada and Sweden captains. Answer: (B)
+
+⚠️ Trap: Several "third to the left" clues at once — choosing the wrong anchor person destroys the circular orientation. Always anchor on the person named in the most clues.
+
+**Question 5** (Source: PYQ-style, SSC MTS pattern)
+
+Eight students A, B, C, D, E, F, G, and H are sitting around a circular table facing the centre. B and D are neither adjacent to C nor opposite to C. A sits between E and D, and F sits between B and H. Which of the following is definitely true?
+
+(A) G is between B and D.
+(B) G is second to the left of C.
+(C) B is between E and H.
+(D) None of the above.
+
+Solution: The clues give blocks E–A–D (or D–A–E) and B–F–H (or H–F–B), plus negative conditions on B and D relative to C. More than one valid circular arrangement satisfies all the clues, and none of statements (A), (B), (C) holds in every valid arrangement. Hence "None of the above" is definitely true. Answer: (D)
+
+⏱️ 45-Second Rule: 8 persons with multiple negative clues and branching cases. If no statement is verified across all cases within 45 seconds, choose "None of the above" and move on.
+
+🧠 Trap: "Definitely true" questions tempt you to check only one plausible diagram and conclude early.
+
+**Question 6** (Source: PYQ-style, IBPS PO Prelims pattern)
+
+Eight persons are sitting in two parallel rows of four each, equidistant from their neighbours. In Row 1, P, Q, R, and S face south. In Row 2, A, B, C, and D face north, so each person faces a member of the opposite row. R sits second to the right of P. A is an immediate neighbour of the person facing R. Q sits second to the left of the person facing A. Only one person sits between B and C. C does not face P and is not at any extreme end. Who faces B?
+
+(A) P
+(B) Q
+(C) R
+(D) S
+
+Solution: Fix Row 1 first: R is 2nd right of P (remember Row 1 faces south, so right is reversed on paper). Find who faces R, then place A next to that person. Use "Q is 2nd left of the person facing A" to fix Q. C is not at an end and does not face P; one person sits between B and C. The unique arrangement has P facing B. Answer: (A)
+
+⚠️ Trap: Nested phrasing — "A is a neighbour of the person facing R" requires finding the facing person first, then placing A.
+
+**Question 7** (Source: PYQ-style, SSC CGL pattern)
+
+Six persons A, B, C, D, E, and F are sitting around a circular table facing the centre. A sits exactly between B and C. D sits immediately to the left of E. F sits immediately to the right of C. Who sits immediately to the left of D?
+
+(A) A
+(B) B
+(C) E
+(D) F
+
+Solution: "A sits exactly between B and C" gives the block B–A–C or C–A–B. F is immediately right of C (anti-clockwise, facing centre), and D is immediately left of E. Fitting all conditions in the 6-seat circle places F immediately to the left of D. Answer: (D)
+
+🧠 Trap: "A sits exactly between B and C" allows both B–A–C and C–A–B; fixing one orientation prematurely leads to the wrong neighbour.
+
+**Question 8** (Source: PYQ-style, RRB Group-D pattern)
+
+Seven persons W, X, Y, Z, E, F, and G are sitting in a row facing north. Only two persons sit to the right of Y. Only two persons sit between Y and F. X sits immediately to the left of G. Z sits exactly between W and G. E sits immediately to the left of F. Who sits in the exact middle of the row?
+
+(A) W
+(B) Z
+(C) G
+(D) E
+
+Solution: Seats 1–7. Two persons right of Y → Y at seat 5. Two persons between Y and F → F at seat 2. E immediately left of F → E at seat 1. X immediately left of G, and Z exactly between W and G (W–Z–G in sequence). Assigning the remaining seats (3, 4, 6, 7): W-3, Z-4, X-6, G-7. The middle seat (4) is occupied by Z. Answer: (B)
+
+⚠️ Trap: "Z sits exactly between W and G" fixes the order W…Z…G with Z in the middle of the two, but does not by itself say the three are adjacent — use the other clues (X immediately left of G) to lock the seats.
+
+**Question 9** (Source: PYQ-style, SBI PO Prelims pattern)
+
+Twelve persons sit in two parallel rows of six each. Row 1: A, B, C, D, E, F facing south; Row 2: P, Q, R, S, T, U facing north. D sits third to the left of the person facing T. B is not a neighbour of E, who faces U. Only two persons sit between B and C, who faces Q. S sits third to the right of R. A sits immediately to the right of the person facing P. F does not face R. Who faces A?
+
+(A) P
+(B) Q
+(C) R
+(D) S
+
+Solution: Use the cross-row anchors first: C faces Q, E faces U. Two persons between B and C fixes B; D is 3rd left of the person facing T; S is 3rd right of R; A is immediately right of the person facing P; F does not face R. Step-by-step resolution shows P faces A. Answer: (A)
+
+⏱️ 45-Second Rule: 12 persons with 7 conditions. If no initial structure emerges within 45 seconds, skip to faster questions and return.
+
+**Question 10** (Source: PYQ-style, SSC GD pattern)
+
+Six persons M, N, O, P, Q, and R sit in two parallel rows of three each. Row 1 faces south and Row 2 faces north, so the rows face each other. O sits directly opposite N, who sits to the left of Q. M sits directly opposite Q. R sits directly opposite P. Who sits immediately to the left of P?
+
+(A) M
+(B) O
+(C) R
+(D) Cannot be determined
+
+Solution: Row 2 (facing north): N is left of Q, so the row is N–Q–P or P–N–Q; the opposite-pair clues (O opposite N, M opposite Q, R opposite P) fix Row 1 but leave Row 2's order ambiguous between the two arrangements. In one arrangement Q is immediately left of P; in the other, N is. Since the clues do not decide between them, the answer is Cannot be determined. Answer: (D)
+
+🧠 Trap: In rows facing each other, "left" runs in opposite visual directions in the two rows. Draw both rows with arrows before placing anyone.
+
+5. Key Takeaways
+
+- Master the linear single-direction row first — it dominates SSC and Railway papers.
+- For circles facing the centre, drill the Clock-L rule (left = clockwise) until it is automatic.
+- Build blocks from double-relation clues before placing single clues; apply negative clues last.
+- In parallel rows, fix one row completely before touching the other, and use "facing" pairs as anchors.
+- For "definitely true" questions, test the option against every valid arrangement, not just one.
+- Use the 15-second rule (flag over-complex puzzles early) and the 45-second rule (abandon a diagram that is not converging) to protect your time for easier questions.

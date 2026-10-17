@@ -1,3 +1,151 @@
-# Chapter: Permutation & Combination, Level: intermediate, Set: 3/6
+प्रश्न 51–70: आसान | प्रश्न 71–75: मध्यम
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Permutation & Combination. This is Set 3 (total 6 sets, 150 questions). Questions must be numbered 51 to 75. All 25 questions should be Medium. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+51. In how many ways can 6 different books be arranged on a shelf?
+(a) 120 (b) 720 (c) 360 (d) 5040
+Answer: (b)
+Solution: The tempting wrong option 120 is 5!, which students pick when they mistakenly count only 5 books. Arranging 6 distinct books means 6! = 6 × 5 × 4 × 3 × 2 × 1 = 720, so the answer is 720.
+Source: NCERT Class 11 Mathematics
+
+52. How many 3-digit numbers can be formed using the digits 1, 2, 3, 4, 5 without repetition?
+(a) 60 (b) 125 (c) 30 (d) 20
+Answer: (a)
+Solution: The trap option 125 comes from allowing repetition (5 × 5 × 5), but repetition is not allowed. The number of arrangements is ⁵P₃ = 5 × 4 × 3 = 60, so the answer is 60.
+Source: NCERT Class 11 Mathematics
+
+53. In how many ways can the letters of the word "APPLE" be arranged?
+(a) 120 (b) 24 (c) 30 (d) 60
+Answer: (d)
+Solution: The tempting wrong option 120 is 5!, ignoring that the letter P repeats twice. Total arrangements = 5!/2! = 120/2 = 60, so the answer is 60.
+Source: NCERT Class 11 Mathematics
+
+54. How many ways are there to select 3 students from a group of 10 for a committee?
+(a) 240 (b) 720 (c) 30 (d) 120
+Answer: (d)
+Solution: The trap option 720 is ¹⁰P₃, which counts order, but a committee has no order. Selections = ¹⁰C₃ = (10 × 9 × 8)/(3 × 2 × 1) = 120, so the answer is 120.
+Source: NCERT Class 11 Mathematics
+
+55. In how many ways can 5 boys and 3 girls be seated in a row so that all girls sit together?
+(a) 720 (b) 4320 (c) 5760 (d) 40320
+Answer: (b)
+Solution: The tempting wrong option 40320 is 8!, ignoring the together condition. Treat the 3 girls as one block: 6 units arrange in 6! = 720 ways, and girls arrange within the block in 3! = 6 ways, giving 720 × 6 = 4320, so the answer is 4320.
+Source: NCERT Class 11 Mathematics
+
+56. How many diagonals does a polygon with 10 sides have?
+(a) 45 (b) 90 (c) 35 (d) 40
+Answer: (c)
+Solution: The trap option 45 is ¹⁰C₂, which counts all line segments including the 10 sides. Diagonals = ¹⁰C₂ − 10 = 45 − 10 = 35, so the answer is 35.
+Source: NCERT Class 11 Mathematics
+
+57. In how many ways can the letters of "BANANA" be arranged?
+(a) 60 (b) 120 (c) 720 (d) 360
+Answer: (a)
+Solution: The tempting wrong option 720 is 6!, ignoring repetitions. Here A appears 3 times and N appears 2 times, so arrangements = 6!/(3! × 2!) = 720/12 = 60, so the answer is 60.
+Source: NCERT Class 11 Mathematics
+
+58. From 6 men and 4 women, a committee of 5 is to be formed with exactly 3 men. In how many ways can this be done?
+(a) 60 (b) 120 (c) 240 (d) 480
+Answer: (b)
+Solution: The trap option 240 comes from doubling the correct product by mistake. The committee needs 3 men and 2 women, so ways = ⁶C₃ × ⁴C₂ = 20 × 6 = 120, so the answer is 120.
+Source: NCERT Class 11 Mathematics
+
+59. How many 4-letter words (meaningful or not) can be formed from the letters of "LOGARITHMS" without repetition?
+(a) 10000 (b) 210 (c) 720 (d) 5040
+Answer: (d)
+Solution: The trap option 210 is ¹⁰C₄, which only selects letters but a word needs arrangement too. Words = ¹⁰P₄ = 10 × 9 × 8 × 7 = 5040, so the answer is 5040.
+Source: NCERT Class 11 Mathematics
+
+60. In how many ways can 7 people be seated around a circular table?
+(a) 5040 (b) 120 (c) 360 (d) 720
+Answer: (d)
+Solution: The tempting wrong option 5040 is 7!, which treats the arrangement as linear. In a circle, rotations are identical, so arrangements = (7 − 1)! = 6! = 720, so the answer is 720.
+Source: NCERT Class 11 Mathematics
+
+61. How many numbers between 100 and 1000 have all distinct digits?
+(a) 900 (b) 729 (c) 648 (d) 504
+Answer: (c)
+Solution: The trap option 900 counts all 3-digit numbers, ignoring the distinct-digit condition. Hundreds digit: 9 choices (1–9), tens digit: 9 choices (0 plus remaining), units digit: 8 choices, giving 9 × 9 × 8 = 648, so the answer is 648.
+Source: NCERT Class 11 Mathematics
+
+62. In how many ways can a team of 11 players be chosen from 15 players?
+(a) 3003 (b) 2730 (c) 1365 (d) 455
+Answer: (c)
+Solution: The trap option 3003 is ¹⁵C₁₀ or ¹⁵C₅, choosing the wrong group size. Ways = ¹⁵C₁₁ = ¹⁵C₄ = (15 × 14 × 13 × 12)/(4 × 3 × 2 × 1) = 1365, so the answer is 1365.
+Source: NCERT Class 11 Mathematics
+
+63. How many arrangements of the word "SUCCESS" are possible?
+(a) 420 (b) 840 (c) 5040 (d) 210
+Answer: (a)
+Solution: The tempting wrong option 5040 is 7!, ignoring repeated letters. S appears 3 times and C appears 2 times, so arrangements = 7!/(3! × 2!) = 5040/12 = 420, so the answer is 420.
+Source: NCERT Class 11 Mathematics
+
+64. In how many ways can 4 prizes be distributed among 5 students if no student gets more than one prize?
+(a) 625 (b) 120 (c) 60 (d) 20
+Answer: (b)
+Solution: The trap option 625 is 5⁴, which allows one student to take many prizes. With at most one prize each, ways = ⁵P₄ = 5 × 4 × 3 × 2 = 120, so the answer is 120.
+Source: NCERT Class 11 Mathematics
+
+65. How many straight lines can be drawn through 8 points, no three of which are collinear?
+(a) 16 (b) 56 (c) 64 (d) 28
+Answer: (d)
+Solution: The trap option 56 is 8 × 7, which counts each line twice. Lines = ⁸C₂ = (8 × 7)/2 = 28, so the answer is 28.
+Source: NCERT Class 11 Mathematics
+
+66. In how many ways can 5 different rings be worn on 4 fingers of one hand?
+(a) 625 (b) 1024 (c) 120 (d) 20
+Answer: (b)
+Solution: The tempting wrong option 625 is 5⁴, reversing base and power. Each ring has 4 finger choices, so ways = 4⁵ = 1024, so the answer is 1024.
+Source: NCERT Class 11 Mathematics
+
+67. A committee of 4 is to be formed from 5 men and 6 women such that at least one woman is included. In how many ways can this be done?
+(a) 325 (b) 330 (c) 320 (d) 150
+Answer: (a)
+Solution: The trap option 330 is ¹¹C₄, which includes all-men committees. Required ways = ¹¹C₄ − ⁵C₄ = 330 − 5 = 325, so the answer is 325.
+Source: NCERT Class 11 Mathematics
+
+68. How many 5-digit numbers divisible by 2 can be formed using digits 0, 1, 2, 3, 4 without repetition?
+(a) 96 (b) 60 (c) 48 (d) 120
+Answer: (b)
+Solution: The trap option 96 counts all valid 5-digit numbers, ignoring divisibility by 2. Case 1: units digit 0 gives 4! = 24 numbers. Case 2: units digit 2 or 4 gives 2 × 3 × 3 × 2 × 1 = 36 numbers. Total = 24 + 36 = 60, so the answer is 60.
+Source: NCERT Class 11 Mathematics
+
+69. In how many ways can the letters of "MISSISSIPPI" be arranged?
+(a) 17325 (b) 39916800 (c) 69300 (d) 34650
+Answer: (d)
+Solution: The tempting wrong option 39916800 is 11!, ignoring repetitions. I appears 4 times, S appears 4 times, P appears 2 times, so arrangements = 11!/(4! × 4! × 2!) = 34650, so the answer is 34650.
+Source: NCERT Class 11 Mathematics
+
+70. How many triangles can be formed from 12 points in a plane, of which 5 are collinear?
+(a) 200 (b) 220 (c) 210 (d) 120
+Answer: (c)
+Solution: The trap option 220 is ¹²C₃, which counts the collinear triples that form no triangle. Triangles = ¹²C₃ − ⁵C₃ = 220 − 10 = 210, so the answer is 210.
+Source: NCERT Class 11 Mathematics
+
+71. In how many ways can 8 people sit in a row if two particular persons must not sit together?
+(a) 30240 (b) 40320 (c) 10080 (d) 20160
+Answer: (a)
+Solution: The trap option 10080 is only the together case (2 × 7!), subtracted from nothing. Total arrangements = 8! = 40320, together arrangements = 2 × 7! = 10080, so required = 40320 − 10080 = 30240, so the answer is 30240.
+Source: NCERT Class 11 Mathematics
+
+72. How many words can be formed from the letters of "DAUGHTER" so that vowels always come together?
+(a) 4320 (b) 3600 (c) 720 (d) 5040
+Answer: (a)
+Solution: The tempting wrong option 720 is only 6!, forgetting the internal arrangement of vowels. Treat A, U, E as one block: 6 units arrange in 6! = 720 ways, vowels arrange in 3! = 6 ways, giving 720 × 6 = 4320, so the answer is 4320.
+Source: NCERT Class 11 Mathematics
+
+73. From a deck of 52 cards, in how many ways can 4 cards be drawn such that all are of the same suit?
+(a) 715 (b) 11440 (c) 2860 (d) 13000
+Answer: (c)
+Solution: The trap option 715 is ¹³C₄ for just one suit, forgetting there are 4 suits. Ways = 4 × ¹³C₄ = 4 × 715 = 2860, so the answer is 2860.
+Source: NCERT Class 11 Mathematics
+
+74. In how many ways can 6 men and 6 women sit around a round table so that no two women sit together?
+(a) 14400 (b) 518400 (c) 86400 (d) 720
+Answer: (c)
+Solution: The tempting wrong option 518400 is 6! × 6!, which wrongly uses linear arrangement for the men. Seat 6 men in a circle in (6 − 1)! = 120 ways, creating 6 gaps; place 6 women in the gaps in 6! = 720 ways. Total = 120 × 720 = 86400, so the answer is 86400.
+Source: NCERT Class 11 Mathematics
+
+75. How many different signals can be made by hoisting 5 flags of different colours, using any number of them at a time?
+(a) 325 (b) 120 (c) 300 (d) 720
+Answer: (a)
+Solution: The trap option 120 is 5!, counting only signals using all 5 flags. Signals using 1, 2, 3, 4 or 5 flags = ⁵P₁ + ⁵P₂ + ⁵P₃ + ⁵P₄ + ⁵P₅ = 5 + 20 + 60 + 120 + 120 = 325, so the answer is 325.
+Source: NCERT Class 11 Mathematics

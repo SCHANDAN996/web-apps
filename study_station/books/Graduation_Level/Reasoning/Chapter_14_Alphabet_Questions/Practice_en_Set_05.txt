@@ -1,0 +1,151 @@
+Questions 101–120: Medium | Questions 121–125: Hard
+
+101. Which letter is 9th to the right of the letter which is 5th to the left of M in the English alphabet?
+(a) O (b) Q (c) R (d) P
+Answer: (b)
+Solution: 5th to the left of M (13th) is H (8th), and 9th to the right of H is the 17th letter, Q. The trap is counting M itself while moving left, which wrongly gives I and then R. So the answer is Q.
+Source: PYQ-style
+
+102. If the alphabet is written in reverse order, which letter will be 5th to the right of the 8th letter from the left end?
+(a) M (b) O (c) L (d) N
+Answer: (d)
+Solution: The reversed row begins Z, Y, X, W, V, U, T, S, so the 8th letter from the left is S. Moving 5 to the right gives R, Q, P, O, N. The trap is counting in the normal alphabet instead of the reversed one. So the answer is N.
+Source: PYQ-style
+
+103. How many pairs of letters in the word "MASTER" have as many letters between them in the word as in the English alphabet?
+(a) 1 (b) 2 (c) 4 (d) 3
+Answer: (d)
+Solution: The matching pairs are M–R (positions 1 and 6, four letters between in both), S–T (adjacent in both, zero between) and T–R (positions 4 and 6, one letter between in both). The trap is checking only forward alphabetical pairs and missing backward ones like T–R. So the answer is 3.
+Source: PYQ-style
+
+104. If the first half of the alphabet is reversed, which letter will be 8th to the right of F?
+(a) N (b) P (c) M (d) O
+Answer: (b)
+Solution: Reversed first half: M L K J I H G F E D C B A N O P Q R S T U V W X Y Z. Here F is at position 8, and 8 places to its right is position 16, which is P. The trap is miscounting F as the 6th letter of the new row, which wrongly gives N. So the answer is P.
+Source: PYQ-style
+
+105. Which letter is exactly midway between the 9th letter from the left and the 8th letter from the right in the English alphabet?
+(a) O (b) M (c) L (d) N
+Answer: (d)
+Solution: 9th from the left is I (position 9), and 8th from the right is position 26 − 8 + 1 = 19, i.e., S. Midway between 9 and 19 is position 14, which is N. The trap is taking 8th from the right as position 18 by forgetting the +1. So the answer is N.
+Source: PYQ-style
+
+106. In the word "CORRESPONDING", how many letters remain at the same position when the letters are arranged in alphabetical order?
+(a) 0 (b) 2 (c) 1 (d) 3
+Answer: (b)
+Solution: Alphabetical arrangement: C D E G I N N O O P R R S. Comparing position by position with C O R R E S P O N D I N G, position 1 (C) and position 8 (O) match — two in all. The trap is stopping after the first match C and missing the O at position 8. So the answer is 2.
+Source: PYQ-style
+
+107. If A = 1, B = 2, … Z = 26, what is the sum of the letter values of the word "CAB"?
+(a) 6 (b) 8 (c) 5 (d) 9
+Answer: (a)
+Solution: C = 3, A = 1, B = 2, so the total is 3 + 1 + 2 = 6. The trap is counting A as 0, which gives 5. So the answer is 6.
+Source: PYQ-style
+
+108. Which of the following words will come third in a dictionary?
+(a) Mango (b) Magnet (c) Manage (d) Manner
+Answer: (a)
+Solution: Compare letter by letter: Magnet has g at the third place, so it comes first; among the rest, the fourth letter decides — a (Manage), g (Mango), n (Manner). The order is Magnet, Manage, Mango, Manner. The trap is stopping the comparison at the third letter and treating all "Man-" words as equal. So the answer is Mango.
+Source: PYQ-style
+
+109. If every alternate letter starting from B is dropped from the alphabet, which letter will be the 7th in the new series?
+(a) N (b) O (c) L (d) M
+Answer: (d)
+Solution: Dropping B, D, F, H, J, L, N, P, R, T, V, X, Z leaves A C E G I K M O Q S U W Y, whose 7th letter is M. The trap is dropping A, C, E… instead of B, D, F…, which gives N. So the answer is M.
+Source: PYQ-style
+
+110. How many meaningful English words can be formed using the letters E, A, T (each used once)?
+(a) 1 (b) 2 (c) 4 (d) 3
+Answer: (d)
+Solution: The words are EAT, TEA and ATE — three meaningful words. The trap is counting only EAT and TEA and missing ATE. So the answer is 3.
+Source: PYQ-style
+
+111. In a certain code, the alphabet positions are reversed (A ↔ Z, B ↔ Y, …). What is the code for "DOG"?
+(a) WKT (b) WLU (c) WLT (d) XLT
+Answer: (c)
+Solution: D (4) ↔ 27 − 4 = 23 = W; O (15) ↔ 12 = L; G (7) ↔ 20 = T, giving WLT. The trap is using 26 − n instead of 27 − n, which produces XMU-type wrong options. So the answer is WLT.
+Source: PYQ-style
+
+112. Which letter is 5th to the left of the 12th letter from the right end of the alphabet?
+(a) J (b) K (c) N (d) L
+Answer: (a)
+Solution: 12th from the right is position 26 − 12 + 1 = 15, i.e., O. Five places to the left of O: N, M, L, K, J. The trap is counting O itself as the first step, which stops at K. So the answer is J.
+Source: PYQ-style
+
+113. If the letters of the word "LEADER" are arranged alphabetically, which letter will be in the middle?
+(a) E (b) A (c) L (d) D
+Answer: (a)
+Solution: Alphabetical order: A D E E L R. With 6 letters the two middle positions are the 3rd and 4th, and both are E. The trap is picking only the 3rd letter and ignoring that both middle letters must be checked — here both happen to be E. So the answer is E.
+Source: PYQ-style
+
+114. What comes next in the series: Z, X, V, T, ?
+(a) Q (b) S (c) R (d) P
+Answer: (c)
+Solution: The letters decrease by 2 each time: Z(26), X(24), V(22), T(20), so the next is R(18). The trap is decreasing by 1 and choosing S. So the answer is R.
+Source: PYQ-style
+
+115. If the word "IMPORTANT" is written with vowels first (in original order) followed by consonants (in original order), which letter will be 5th from the left?
+(a) M (b) P (c) R (d) T
+Answer: (b)
+Solution: Vowels in original order: I, O, A; consonants in original order: M, P, R, T, N, T. The new arrangement is I O A M P R T N T, whose 5th letter is P. The trap is arranging the vowels alphabetically (A, I, O), which shifts every position. So the answer is P.
+Source: PYQ-style
+
+116. How many letters in the word "PSYCHOLOGY" have a vertical line of symmetry in capital form?
+(a) 4 (b) 5 (c) 6 (d) 3
+Answer: (b)
+Solution: Capitals with vertical symmetry are A, H, I, M, O, T, U, V, W, X, Y. In PSYCHOLOGY the qualifying letters are Y, H, O, O, Y — five in all; S, C, L, G, P do not qualify. The trap is counting C as vertically symmetric (it is only horizontally symmetric), which inflates the count to 6. So the answer is 5.
+Source: PYQ-style
+
+117. If A is coded as Z, B as Y, C as X and so on, how is "FIVE" coded?
+(a) URFV (b) UREV (c) TREV (d) UREW
+Answer: (b)
+Solution: F(6) → 27 − 6 = 21 = U; I(9) → 18 = R; V(22) → 5 = E; E(5) → 22 = V, giving UREV. The trap is pairing letters from the same end, which codes V as F and yields URFV. So the answer is UREV.
+Source: PYQ-style
+
+118. Find the missing letter: B, E, H, K, ?
+(a) M (b) L (c) O (d) N
+Answer: (d)
+Solution: The positions are 2, 5, 8, 11 — each increases by 3 — so the next is 14 = N. The trap is reading the gaps as +2 and choosing M. So the answer is N.
+Source: PYQ-style
+
+119. In the English alphabet, which letter is as far before G as T is after P?
+(a) C (b) K (c) J (d) D
+Answer: (a)
+Solution: T(20) is 4 positions after P(16), so we need the letter 4 positions before G(7), which is C(3). The trap is moving 4 positions after G and choosing K. So the answer is C.
+Source: PYQ-style
+
+120. If the first and last letters of "KNOWLEDGE" are interchanged, then the second and second-last, and so on, what is the 4th letter of the new word?
+(a) D (b) L (c) E (d) W
+Answer: (c)
+Solution: Swapping symmetric pairs reverses the whole word: E G D E L W O N K, whose 4th letter is E. The trap is swapping only the outermost pair and reading the original 4th letter W. So the answer is E.
+Source: PYQ-style
+
+121. How many pairs of letters in the word "SUBORDINATE" have as many letters between them in the word (in either direction) as in the alphabet?
+(a) 3 (b) 2 (c) 4 (d) 1
+Answer: (a)
+Solution: The matching pairs are R–U (positions 5 and 2, two letters between in both), E–I (positions 11 and 7, three letters between in both) and D–A (positions 6 and 9, two letters between in both). The trap is checking only forward pairs and missing backward ones like R–U. So the answer is 3.
+Source: PYQ-style
+
+122. If the letters of "DEMONSTRATE" are arranged in alphabetical order, how many letters remain in their original positions?
+(a) 1 (b) 0 (c) 2 (d) 3
+Answer: (c)
+Solution: The sorted arrangement is A D E E M N O R S T T. Comparing with D E M O N S T R A T E position by position, position 8 (R) and position 10 (T) match — two in all. The trap is assuming the repeated letters must shift and concluding zero, missing R and T. So the answer is 2.
+Source: PYQ-style
+
+123. In the series: A, C, F, J, O, ? — which letter comes next?
+(a) U (b) T (c) S (d) V
+Answer: (a)
+Solution: The gaps increase by 1: A→C (+2), C→F (+3), F→J (+4), J→O (+5), so the next gap is +6, giving U. The trap is repeating +5 and choosing T. So the answer is U.
+Source: PYQ-style
+
+124. If each consonant in the alphabet is replaced by the next consonant and each vowel by the next vowel, how is "BOAT" coded?
+(a) CUEW (b) CEBV (c) CUEV (d) DUEV
+Answer: (c)
+Solution: B shifts to the next consonant C, O shifts to the next vowel U, A shifts to the next vowel E, and T shifts to the next consonant V, giving CUEV. The trap is shifting vowels to the next alphabet letter (O→P, A→B) instead of the next vowel. So the answer is CUEV.
+Source: PYQ-style
+
+125. A sequence is formed by the 4th, 7th, 11th and 15th letters of the alphabet. Which option shows exactly these letters in order?
+(a) DGKP (b) DEKO (c) DGKO (d) DGKQ
+Answer: (c)
+Solution: The 4th letter is D, the 7th is G, the 11th is K and the 15th is O, so the sequence is DGKO. The trap is misreading the 15th letter as P (which is the 16th), giving DGKP. So the answer is DGKO.
+Source: PYQ-style

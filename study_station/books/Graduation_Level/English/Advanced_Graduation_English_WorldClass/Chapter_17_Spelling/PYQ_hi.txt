@@ -1,0 +1,117 @@
+# 📊 PYQ विश्लेषण — वर्तनी जाँच (Spelling Check)
+
+## परीक्षा-पैटर्न का विश्लेषण
+
+Spelling Check लगभग हर प्रतियोगी परीक्षा (SSC CGL, CHSL, IBPS PO/Clerk, RRB NTPC, राज्य PCS) के English खंड का स्थायी हिस्सा है। पिछले वर्षों के प्रश्न-पत्रों के अध्ययन से स्पष्ट पैटर्न दिखता है — परीक्षक नए शब्द नहीं, बल्कि **परिचित शब्दों की आम गलतियों** को बार-बार घुमा-फिराकर पूछता है।
+
+### किस तरह के सवाल पूछे जाते हैं
+
+1. **चार विकल्पों में सही वर्तनी चुनें** — सबसे आम प्रारूप। चारों विकल्प सुनने में लगभग एक जैसे लगते हैं (जैसे *Occassion / Ocasion / Occasion / Ocassion*)।
+2. **गलत वर्तनी वाला शब्द पहचानें** — तीन सही, एक गलत। यहाँ "सही वाला" पढ़ने की आदत धोखा देती है।
+3. **वाक्य में रेखांकित शब्द की वर्तनी जाँच** — संदर्भ दिया जाता है, पर जाँच वर्तनी की ही होती है।
+
+### बार-बार आने वाले उप-विषय (हाई-यील्ड क्षेत्र)
+
+- **डबल अक्षर वाले शब्द:** accommodate, committee, embarrass, occasion, millennium, questionnaire
+- **-ible / -able भ्रम:** accessible, visible, dependable, advisable
+- **-ent / -ant भ्रम:** independent, persistent, relevant, pleasant
+- **ie / ei नियम:** receive, believe, height, foreign, seize
+- **-tion / -sion / -cian:** permission, decision, technician, pronunciation
+- **silent letters:** psychology, pneumonia, honest, knife, subtle
+- **अमेरिकी बनाम ब्रिटिश वर्तनी:** colour/color, centre/center — परीक्षा में आमतौर पर ब्रिटिश मान्य
+- **एक जैसे दिखने वाले शब्द:** principal/principle, stationary/stationery, advice/advise
+
+### परीक्षक के जाल (Trap Types)
+
+| जाल | कैसे काम करता है | उदाहरण |
+|---|---|---|
+| **Sound-Right जाल** | बोलने में सही लगने वाली गलत वर्तनी | *Pronounciation* ❌ (सही: Pronunciation — "pronounce" से बनता है पर "noun" नहीं रहता) |
+| **Double-Letter भ्रम** | कहाँ एक, कहाँ दो अक्षर — याद भरोसे छोड़ देना | *Acomodate* ❌ / *Accommodate* ✅ (दोनों c और m दोहरे) |
+| **Over-thinking जाल** | सरल सही वर्तनी को देखकर शक करना | *Tomorrow* सही है, पर छात्र *Tommorrow* चुन लेता है |
+| **Intervening Suffix जाल** | मूल शब्द याद रहता है, प्रत्यय जोड़ते समय अक्षर बदल जाता है | *Beauty + ful = Beautiful* (y → i), *Beautifull* ❌ |
+
+## शीर्ष 10 हाई-यील्ड PYQ-शैली प्रश्न (समाधान सहित)
+
+**प्रश्न 1.** सही वर्तनी चुनें:
+(a) Occassion (b) Ocasion (c) Occasion (d) Ocassion
+**उत्तर:** (c)
+**हल:** Occasion में दोहरा **c** और एकल **s** होता है। ट्रिक: "दो Car (cc) एक Seat (s) पर — एक मौक़े (occasion) पर।"
+**जाल-प्रकार:** Double-Letter भ्रम
+**स्रोत:** PYQ-style
+
+**प्रश्न 2.** सही वर्तनी चुनें:
+(a) Accomodate (b) Accommodate (c) Acommodate (d) Accomadate
+**उत्तर:** (b)
+**हल:** Accommodate = दोहरा **c** + दोहरा **m**। याद रखें: "इतना बड़ा कमरा कि दो C और दो M ठहर सकें।"
+**जाल-प्रकार:** Double-Letter भ्रम
+**स्रोत:** PYQ-style
+
+**प्रश्न 3.** सही वर्तनी चुनें:
+(a) Pronounciation (b) Pronunciation (c) Pronunciaton (d) Pronunsiation
+**उत्तर:** (b)
+**हल:** क्रिया *pronounce* है, पर संज्ञा बनते समय "noun" गिर जाता है → **pronunciation**। यह परीक्षकों के प्रिय शब्दों में से एक है।
+**जाल-प्रकार:** Sound-Right जाल
+**स्रोत:** PYQ-style
+
+**प्रश्न 4.** गलत वर्तनी वाला शब्द पहचानें:
+(a) Millennium (b) Questionnaire (c) Embarass (d) Committee
+**उत्तर:** (c)
+**हल:** सही रूप **Embarrass** है — दोहरा r और दोहरा s दोनों। बाकी तीनों सही हैं: Millennium (दोहरा l, दोहरा n), Questionnaire (दोहरा n), Committee (दोहरा m, t, e)।
+**जाल-प्रकार:** Double-Letter भ्रम
+**स्रोत:** PYQ-style
+
+**प्रश्न 5.** सही वर्तनी चुनें:
+(a) Recieve (b) Receive (c) Riceive (d) Receeve
+**उत्तर:** (b)
+**हल:** नियम — "i before e, except after c"। यहाँ c के बाद आया है, इसलिए **ei** → Receive।
+**जाल-प्रकार:** ie/ei भ्रम
+**स्रोत:** PYQ-style
+
+**प्रश्न 6.** गलत वर्तनी वाला शब्द पहचानें:
+(a) Independent (b) Persistent (c) Relevent (d) Pleasant
+**उत्तर:** (c)
+**हल:** सही रूप **Relevant** है (-ant)। -ent/-ant का कोई आवाज़-आधारित नियम नहीं है — ये शब्द अलग-अलग याद करने ही पड़ते हैं।
+**जाल-प्रकार:** -ent/-ant भ्रम
+**स्रोत:** PYQ-style
+
+**प्रश्न 7.** सही वर्तनी चुनें:
+(a) Maintainance (b) Maintenance (c) Maintenence (d) Mentainance
+**उत्तर:** (b)
+**हल:** *Maintain* से बनता है, पर प्रत्यय जोड़ते समय "ai" → "e" हो जाता है: Main + ten + ance = **Maintenance**।
+**जाल-प्रकार:** Intervening Suffix जाल
+**स्रोत:** PYQ-style
+
+**प्रश्न 8.** सही वर्तनी चुनें:
+(a) Tommorrow (b) Tomorow (c) Tomorrow (d) Tommorow
+**उत्तर:** (c)
+**हल:** एकल **m** के बाद दोहरा **r** — Tomorrow। अधिकतर छात्र दोहरा m लगाकर गलती करते हैं।
+**जाल-प्रकार:** Over-thinking जाल (सरल शब्द पर शक)
+**स्रोत:** PYQ-style
+
+**प्रश्न 9.** गलत वर्तनी वाला शब्द पहचानें:
+(a) Psychology (b) Pneumonia (c) Subtle (d) Dout
+**उत्तर:** (d)
+**हल:** सही रूप **Doubt** है — silent **b** होता है (जैसे subtle में भी)। बाकी तीनों सही हैं: Psychology (silent p), Pneumonia (silent p), Subtle (silent b)।
+**जाल-प्रकार:** Silent Letter जाल
+**स्रोत:** PYQ-style
+
+**प्रश्न 10.** सही वर्तनी चुनें:
+(a) Begining (b) Beginning (c) Beginninng (d) Biginning
+**उत्तर:** (b)
+**हल:** छोटा स्वर + एकल व्यंजन पर ज़ोर हो तो अंतिम अक्षर दोहरता है: begin → beginning (दोहरा n)। वही नियम: running, stopped, committed।
+**जाल-प्रकार:** Doubling Rule जाल
+**स्रोत:** PYQ-style
+
+## 15/45-सेकंड नियम का प्रयोग
+
+**प्रश्न 1 (Occasion) — 15 सेकंड वाला (तथ्यात्मक):**
+यह शुद्ध स्मृति-आधारित प्रश्न है। या तो वर्तनी याद है या नहीं। 15 सेकंड में उत्तर लगाकर आगे बढ़ें — सोचने से Sound-Right जाल में फँसने का ख़तरा बढ़ता है।
+
+**प्रश्न 4 (Embarass पहचानें) — 45 सेकंड वाला (तार्किक):**
+यहाँ चारों विकल्पों की **एक-एक करके** जाँच करनी पड़ती है, क्योंकि तीन सही हैं और एक गलत। जल्दबाज़ी में पहला "सही लगने वाला" विकल्प चुनना गलती कराता है। हर विकल्प पर 10-12 सेकंड दें, फिर निश्चित उत्तर लगाएँ।
+
+## परीक्षा-दृष्टि से निष्कर्ष
+
+- Spelling के प्रश्न **सबसे तेज़ अंक** हैं — या तो आता है या नहीं; बीच का रास्ता नहीं।
+- परीक्षक अक्सर उन्हीं सामान्य "क्लासिक गलत" शब्दों को घुमा-फिराकर दोहराते हैं — ऊपर दी गई सूची इन्हीं की ओर इशारा करती है।
+- गलत वर्तनी पहचानने वाले प्रश्नों में **पहले सभी चार विकल्प पढ़ें**, फिर उत्तर दें — यही सबसे बड़ी रणनीति है।

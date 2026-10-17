@@ -1,0 +1,151 @@
+Questions 51–75: Medium
+
+51. Six persons A, B, C, D, E and F sit in a row facing north. F sits at the left end of the row and B sits immediately to the right of F. A sits third to the left of D. C sits exactly between A and E. Who sits at the right end?
+(a) B (b) C (c) D (d) E
+Answer: (c)
+Solution: The trap is placing A at the left end because the clue chain starts with A — but F already occupies the left end and B sits next to F. A is third to the left of D, giving the block A _ _ D, and C sits exactly between A and E, giving A C E D, which must occupy seats 3 to 6. Hence D sits at the right end, so the answer is D.
+Source: PYQ-style
+
+52. In a family of six members P, Q, R, S, T and U, there are two married couples. Q is the father of T. S is the daughter of P. R is the sister of T. U is the mother of R. How is U related to P?
+(a) Mother (b) Sister (c) Daughter (d) Daughter-in-law
+Answer: (d)
+Solution: The trap is assuming Q and U's children make U the daughter of P — but S is P's daughter, not T or R. Q is father of T and R, and U is mother of R, so Q and U form one couple. Since there are exactly two couples, Q must be the child of P, making U the wife of P's son. Hence U is P's daughter-in-law, so the answer is daughter-in-law.
+Source: PYQ-style
+
+53. Five boxes P, Q, R, S and T are stacked one above another. P is immediately above Q. R is below S but above T. Q is not at the bottom. Which box is at the top?
+(a) R (b) S (c) P (d) Q
+Answer: (b)
+Solution: The trap is placing P at the top because it is "immediately above" something — but P is only above Q, not above all. R is below S and above T: S > R > T. P is directly above Q, and Q is not at the bottom, so T must be at the bottom. The only arrangement fitting all clues is S, P, Q, R, T from top to bottom. Hence S is at the top, so the answer is S.
+Source: PYQ-style
+
+54. Seven lectures on subjects A, B, C, D, E, F and G are held from Monday to Sunday, one per day. A is on Thursday. D is on Monday. B is held on Tuesday and immediately before E. C is held on the day immediately after G. F is held on Friday. On which day is C held?
+(a) Tuesday (b) Saturday (c) Wednesday (d) Sunday
+Answer: (d)
+Solution: The trap is pairing G–C on Friday–Saturday — but Friday is already taken by F. With A on Thursday, D on Monday, B–E on Tuesday–Wednesday and F on Friday, only Saturday and Sunday remain for the G–C pair, with C immediately after G. Hence C is held on Sunday, so the answer is Sunday.
+Source: PYQ-style
+
+55. Eight friends sit around a circular table facing the centre. M is second to the right of N. O sits opposite M. P is an immediate neighbour of both N and Q. R sits second to the left of O. Who sits opposite N?
+(a) Q (b) P (c) O (d) R
+Answer: (d)
+Solution: The trap is answering O because "opposite" appears with M and O together — O is opposite M, not N. Fix N at position 1; M is second to the right at position 3; O opposite M is at position 7. R is second to the left of O, so R is at position 5, exactly opposite N. Hence R sits opposite N, so the answer is R.
+Source: PYQ-style
+
+56. Six employees A, B, C, D, E and F have different salaries. A earns more than B but less than C. D earns more than E but less than B. F earns more than C. Who earns the second highest?
+(a) A (b) F (c) C (d) B
+Answer: (c)
+Solution: The trap is picking F because it "earns more than C" — but that makes F the highest, not second highest. Chain the clues: F > C > A > B > D > E. The highest is F and the second highest is C, so the answer is C.
+Source: PYQ-style
+
+57. Five persons L, M, N, O and P like five different colours — red, blue, green, yellow and white. L likes red. M does not like blue or green. N likes yellow. O does not like blue. Who likes blue?
+(a) P (b) O (c) L (d) M
+Answer: (a)
+Solution: The trap is assigning blue to O by elimination too early — O is explicitly excluded from blue. L = red, N = yellow. M cannot take blue or green, so M = white. O cannot take blue, so O = green. Only P remains for blue, so the answer is P.
+Source: PYQ-style
+
+58. A, B, C, D and E are five friends of different heights. B is taller than only one person. A is taller than D but shorter than C. E is not the tallest. Who is the tallest?
+(a) E (b) C (c) B (d) A
+Answer: (b)
+Solution: The trap is choosing E by assuming "not the tallest" still leaves E near the top — it does not. B is taller than exactly one person, so B is fourth and D is shortest. C > A > D forces C above A, and E is not the tallest, so C must occupy the top. Hence C is the tallest, so the answer is C.
+Source: PYQ-style
+
+59. Six cities P, Q, R, S, T and U are visited by a traveller one after another. P is visited immediately after Q. R is visited before S but after T. U is visited last. Q is visited before T. Which city is visited third?
+(a) R (b) S (c) T (d) P
+Answer: (c)
+Solution: The trap is placing the Q–P pair first and pushing T later — but Q must come before T, and T before R before S, with U last. Order: Q, P, T, R, S, U. The third city is T, so the answer is T.
+Source: PYQ-style
+
+60. In a row of students facing north, Ravi is 12th from the left and 15th from the right. How many students are in the row?
+(a) 25 (b) 28 (c) 27 (d) 26
+Answer: (d)
+Solution: The trap is adding 12 + 15 = 27 directly — that counts Ravi twice. Total = left position + right position − 1 = 12 + 15 − 1 = 26, so the answer is 26.
+Source: PYQ-style
+
+61. Five teams A, B, C, D and E finished a race in different positions. A finished before B but after C. D finished before C. E finished after B. Which team finished first?
+(a) A (b) D (c) C (d) E
+Answer: (b)
+Solution: The trap is choosing C because A is "after C" — but D finished before C, so C is not first. Order: D, C, A, B, E. The first team is D, so the answer is D.
+Source: PYQ-style
+
+62. Seven persons P, Q, R, S, T, U and V live on seven floors of a building (ground floor = 1). P lives on floor 4. Q lives immediately above R. S lives on the top floor. T lives below P but above U. V lives on floor 2. On which floor does Q live?
+(a) 3 (b) 5 (c) 7 (d) 6
+Answer: (d)
+Solution: The trap is putting Q on floor 5 with R on 4 — but floor 4 is P's. Fixed: V = 2, P = 4, S = 7. T is below P and above U, so T = 3 and U = 1. Remaining floors 5 and 6 take R and Q with Q immediately above R: R = 5, Q = 6. Hence Q lives on floor 6, so the answer is 6.
+Source: PYQ-style
+
+63. Four couples sit in a row of eight chairs. Each husband sits immediately to the left of his wife. The wives are W1, W2, W3 and W4 and the husbands H1, H2, H3 and H4. If W2 sits at the rightmost chair, who sits at the leftmost chair?
+(a) W1 (b) H1 (c) H2 (d) Cannot be determined
+Answer: (d)
+Solution: The trap is assuming the pairs fill the row in numbered order, making H1 leftmost — but no clue fixes the order of the four husband–wife blocks. W2 at the right end only fixes H2 in chair 7; the other three pairs can occupy chairs 1–6 in any order. Hence the leftmost occupant cannot be determined, so the answer is "Cannot be determined".
+Source: PYQ-style
+
+64. Six books of subjects Hindi, English, Maths, Science, History and Geography are kept in a pile. Maths is immediately above Science. English is at the top. Hindi is immediately below English. History is at the bottom. Which book is immediately above History?
+(a) Geography (b) Maths (c) Science (d) Hindi
+Answer: (a)
+Solution: The trap is placing the Maths–Science pair just above History — but then Geography has no valid slot. Top to bottom: English, Hindi, then Maths–Science together, and History at the bottom. The only fit is English, Hindi, Maths, Science, Geography, History. The book immediately above History is Geography, so the answer is Geography.
+Source: PYQ-style
+
+65. A, B, C, D, E and F are seated in two rows of three facing each other. A faces D. B is to the left of A. E faces B. C is to the right of D. Who faces F?
+(a) B (b) C (c) A (d) D
+Answer: (b)
+Solution: The trap is pairing F with D because D is named with A — but A already faces D. Row 1 has B left of A, so row 1 is B, A, F. Row 2 has E facing B, D facing A, and C right of D: E, D, C. F sits in the third seat of row 1, facing C. Hence C faces F, so the answer is C.
+Source: PYQ-style
+
+66. Five persons K, L, M, N and O wear shirts of five different colours — black, red, green, blue and white. K wears black. L wears neither red nor white. M wears green. N wears neither red nor blue. Who wears red?
+(a) M (b) L (c) O (d) N
+Answer: (c)
+Solution: The trap is giving red to N by elimination — but N is barred from red. K = black, M = green. L cannot take red or white, so L = blue. N cannot take red or blue, so N = white. Only O remains for red, so the answer is O.
+Source: PYQ-style
+
+67. In a class list, Meena is ranked 9th from the top and 28th from the bottom. How many students are there in the class?
+(a) 36 (b) 37 (c) 38 (d) 35
+Answer: (a)
+Solution: The trap is adding 9 + 28 = 37 directly — that counts Meena twice. Total = position from top + position from bottom − 1 = 9 + 28 − 1 = 36, so the answer is 36.
+Source: PYQ-style
+
+68. Six friends G, H, I, J, K and L are of different weights. H is heavier than G but lighter than I. J is heavier than K but lighter than G. L is heavier than I. Who is the lightest?
+(a) K (b) J (c) H (d) G
+Answer: (a)
+Solution: The trap is naming J because it appears low in the chain — but J is heavier than K. Chain: L > I > H > G > J > K. The lightest is K, so the answer is K.
+Source: PYQ-style
+
+69. Eight boxes are stacked. Box A is immediately below Box B. Box C is at the top. Box D is immediately above Box E. Box F is at the bottom. Box G is immediately below Box C. Box H is between Box E and Box F. Which box is third from the top?
+(a) A (b) B (c) G (d) D
+Answer: (b)
+Solution: The trap is counting G as third because it is "immediately below C" — that makes G second, not third. Top to bottom: C, G, then B–A together, then D–E together, then H, then F: C, G, B, A, D, E, H, F. Third from the top is B, so the answer is B.
+Source: PYQ-style
+
+70. Five friends P, Q, R, S and T go to a restaurant on different days from Monday to Friday. P goes on Wednesday. Q goes before R. S goes on the day immediately after T. R does not go on Friday. On which day does S go?
+(a) Friday (b) Thursday (c) Monday (d) Tuesday
+Answer: (a)
+Solution: The trap is placing T–S on Monday–Tuesday and forcing Q–R into Thursday–Friday, which violates "R not on Friday". With P = Wednesday, the T–S pair must be Thursday–Friday, and Q = Monday, R = Tuesday satisfies Q before R. Hence S goes on Friday, so the answer is Friday.
+Source: PYQ-style
+
+71. In a family, A is the son of B. C is the daughter of A. D is the wife of A. E is the son of D. F is the mother of B. How is F related to C?
+(a) Grandmother (b) Mother (c) Great-grandmother (d) Aunt
+Answer: (c)
+Solution: The trap is calling F the grandmother of C by counting only two generations — but the chain runs F → B → A → C, three steps. F is mother of B, B is parent of A, A is parent of C. So F is C's great-grandmother, so the answer is great-grandmother.
+Source: PYQ-style
+
+72. Six poles U, V, W, X, Y and Z have different heights. V is taller than W but shorter than U. X is taller than Y but shorter than W. Z is taller than U. Which pole is the second shortest?
+(a) W (b) X (c) Y (d) V
+Answer: (b)
+Solution: The trap is picking Y as second shortest because it is named near the bottom — but Y is the shortest. Chain: Z > U > V > W > X > Y. Shortest is Y, second shortest is X, so the answer is X.
+Source: PYQ-style
+
+73. In a row of 40 students facing north, Sunil is 17th from the left end. What is his position from the right end?
+(a) 24th (b) 23rd (c) 25th (d) 22nd
+Answer: (a)
+Solution: The trap is subtracting 17 from 40 to get 23 — that forgets to count Sunil himself in the right-hand count. Position from right = total − position from left + 1 = 40 − 17 + 1 = 24, so the answer is 24th.
+Source: PYQ-style
+
+74. A man has five shirts — red, blue, green, yellow and white — worn from Monday to Friday, one each day. The yellow shirt is worn on Monday. The green shirt is worn on Friday. The red shirt is worn two days after the blue shirt. On which day is the white shirt worn?
+(a) Wednesday (b) Tuesday (c) Thursday (d) Monday
+Answer: (a)
+Solution: The trap is placing blue on Monday — but Monday already has yellow. With yellow = Monday and green = Friday, red must be two days after blue among Tuesday–Thursday: only blue = Tuesday and red = Thursday fits. That leaves Wednesday for white, so the answer is Wednesday.
+Source: PYQ-style
+
+75. Six persons A, B, C, D, E and F are compared by age. A is older than B but younger than C. D is older than E but younger than B. F is younger than E. Who is the youngest?
+(a) B (b) E (c) F (d) D
+Answer: (c)
+Solution: The trap is naming E because it sits low in the chain — but F is younger than E. Chain: C > A > B > D > E > F. The youngest is F, so the answer is F.
+Source: PYQ-style

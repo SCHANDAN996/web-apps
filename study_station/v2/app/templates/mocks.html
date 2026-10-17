@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block title %}{{ tr('mock_title') }} — {{ tr('brand') }}{% endblock %}
+{% block main %}
+<h1>{{ tr('mock_title') }}</h1>
+<p class="muted">{{ tr('mock_desc') }}</p>
+{% for code, hi, en in [('10th', '10वीं स्तर', '10th level'), ('12th', '12वीं स्तर', '12th level'), ('graduate', 'स्नातक स्तर', 'Graduate level')] %}
+<section style="margin-top:var(--sp-5)">
+  <h2>{{ L(hi, en) }}</h2>
+  <div class="grid">
+    {% for e in exams if e.level == code %}
+    {% set plan = plans[e.id] %}
+    {% set ok = plan|selectattr('ok')|list|length %}
+    <a class="card card-link" href="/mock/{{ e.slug }}">
+      <div class="row-between"><span class="badge badge-brand">{{ e.body }}</span>
+        {% if ok == plan|length %}<span class="badge badge-ok">{{ L('पूरा मॉक', 'Full mock') }}</span>
+        {% elif ok %}<span class="badge badge-warn">{{ L('आंशिक', 'Partial') }}</span>
+        {% else %}<span class="badge">{{ L('जल्द', 'Soon') }}</span>{% endif %}</div>
+      <h3 style="margin:var(--sp-2) 0 4px">{{ L(e.name_hi, e.name_en) }}</h3>
+      <p class="small muted" style="margin:0">{{ e.stage_en }} · {{ e.sections|sum(attribute='questions') }} {{ tr('questions') }} · {{ e.duration_min }} {{ tr('minutes') }}</p>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}
+{% endblock %}

@@ -1,63 +1,97 @@
-PYQ Analysis: Mirror & Water Images (SSC, Banking, Railway — last 10 years)
+📊 PYQ Pattern Analysis (Mirror & Water Images)
 
-Mirror & water images give 1–3 questions per exam. The trap is mixing the two directions and the clock mirror-time formula.
+1. How Exams Ask Questions from This Chapter
 
-Q1. A mirror image reverses which direction?
-(a) top-bottom (b) left-right (c) both (d) none
-Answer: (b) left-right
-Solution: A mirror reverses left and right.
-Source: SSC CGL
+Mirror and Water Image questions are a regular feature of the non-verbal reasoning section in SSC (CGL, CHSL, GD, MTS, CPO), Railway (RRB NTPC, Group D, ALP) and State-level police/administrative exams. Banking exams (IBPS, SBI) ask them occasionally. Typically, one or two questions from this chapter appear in a paper — a small count, but these are quick, high-accuracy marks if the rules are clear.
 
-Q2. A water image reverses which direction?
-(a) left-right (b) top-bottom (c) both (d) none
-Answer: (b) top-bottom
-Solution: A water image reverses top and bottom.
-Source: SSC MTS
+The recurring question types are:
 
-Q3. What is the mirror time of 3:00?
-(a) 6:00 (b) 9:00 (c) 3:00 (d) 12:00
-Answer: (b) 9:00
-Solution: 11:60 − 3:00 = 8:60 = 9:00.
-Source: SSC CHSL
+- **Mirror image of letters, words and numbers** — a vertical mirror is shown on the left or right, and the candidate must pick the laterally inverted (left ↔ right flipped) option.
+- **Water image of letters, words and figures** — the figure is flipped vertically (top ↔ bottom), while the left-to-right order stays unchanged.
+- **Mirror image of a clock** — solved with the 11:60 (or 23:60) subtraction rule.
+- **Water image of a clock** — solved with the 18:30 (or 17:90) subtraction rule.
+- **Symmetry-based counting** — e.g., how many capital letters look the same in a mirror or in water.
+- **Mirror placed horizontally** — a trap type where a horizontal mirror behaves exactly like a water surface.
 
-Q4. Which letter looks the same in a mirror image?
-(a) A (b) B (c) G (d) P
-Answer: (a) A
-Solution: A is symmetric about the vertical axis, so it looks the same in a mirror.
-Source: RRB NTPC
+2. Examiner's Common Traps
 
-Q5. What is the mirror time of 9:00?
-(a) 3:00 (b) 6:00 (c) 9:00 (d) 12:00
-Answer: (a) 3:00
-Solution: 11:60 − 9:00 = 2:60 = 3:00.
-Source: SSC MTS
+- **Rotation vs reflection:** Options that are merely rotated versions of the figure, not true reflections.
+- **Sequence reversal in water images:** In a water image the left-to-right order does NOT change; only the top-bottom flip happens. Options that reverse the order are mirror traps.
+- **Mirror position confusion:** A mirror on the right flips left-right just like a mirror on the left (the image appears behind the mirror); a mirror below the figure produces a water-type image.
+- **Clock formula mix-up:** Using 11:60 for water images or 18:30 for mirror images. Remember: Mirror → 11:60, Water → 18:30.
+- **Near-identical letters:** Letters like b/d, p/q, and digits like 6/9 are used to test careful observation.
 
-Q6. In a water image, the object is flipped:
-(a) left to right (b) top to bottom (c) diagonally (d) not at all
-Answer: (b) top to bottom
-Solution: Water images flip top-bottom.
-Source: NCERT Reasoning
+3. High-Yield Practice Questions with Solutions
 
-Q7. What is the mirror time of 6:00?
-(a) 5:00 (b) 6:00 (c) 7:00 (d) 12:00
-Answer: (b) 6:00
-Solution: 11:60 − 6:00 = 5:60 = 6:00.
-Source: SSC CGL
+Question 1:
+If a clock shows 11:50, what time will appear in its mirror image?
+Solution:
+Formula: Mirror Time = 11:60 − Actual Time
+Calculation: 11:60 − 11:50 = 00:10, which corresponds to 12:10.
+Examiner's Trap: Students often misread '00:10' as 1:10 or 12:00. Subtracting from 11:60 gives 00:10, i.e., 12:10.
+Source: PYQ-style
 
-Q8. Which digit looks the same in a water image?
-(a) 2 (b) 3 (c) 8 (d) 6
-Answer: (c) 8
-Solution: 8 is symmetric about the horizontal axis, so it looks the same in water.
-Source: Bank Clerk
+Question 2:
+Find the correct water image of the word "QUALITY".
+Solution:
+In a water image, inversion is strictly vertical (top ↔ bottom), while the left-to-right order of letters remains unchanged. Each letter is flipped vertically, reading from left to right: Q-U-A-L-I-T-Y.
+Examiner's Trap: Students often laterally reverse the whole word as in a mirror image. In water reflection, the first letter stays on the left, but upside down.
+Source: PYQ-style
 
-Q9. What is the mirror time of 2:30?
-(a) 8:30 (b) 9:30 (c) 10:30 (d) 3:30
-Answer: (b) 9:30
-Solution: 11:60 − 2:30 = 9:30.
-Source: SSC CHSL
+Question 3:
+Find the mirror image of a figure having an arrow pointing left and a square on the right, when the mirror is placed on the right.
+Solution:
+When a vertical mirror is on the right, left and right swap: the arrow moves to the right side and points right, while the square moves to the left.
+Examiner's Trap: Watch for options where positions are swapped but the arrow's pointing direction is mistakenly left unchanged.
+Source: PYQ-style
 
-Q10. Mirror flips left-right; water flips:
-(a) left-right (b) top-bottom (c) both (d) neither
-Answer: (b) top-bottom
-Solution: Water images flip top-bottom.
-Source: SSC CGL
+Question 4:
+How many capital letters of the English alphabet have identical water images?
+Solution:
+Letters with horizontal symmetry remain identical in water reflection: B, C, D, E, H, I, K, O, X (total 9 letters).
+Examiner's Trap: Do not confuse mirror symmetry (A, H, I, M, O, T, U, V, W, X, Y — 11 letters) with water symmetry. Letters like A, M, W change completely in water reflection.
+Source: PYQ-style
+
+Question 5:
+Find the water image of the time 8:20 on a clock.
+Solution:
+Formula: Water Time = 18:30 − Actual Time
+Calculation: 18:30 − 8:20 = 10:10.
+Examiner's Trap: If minutes exceed 30, borrow 60 minutes and subtract from 17:90. For minutes up to 30, subtract directly from 18:30.
+Source: PYQ-style
+
+Question 6:
+If the clock displays 4:45, what is its water image?
+Solution:
+Since the minutes (45) exceed 30, use 17:90:
+17:90 − 4:45 = 13:45, which converts to 1:45.
+Examiner's Trap: Do not mix up the formulas — using the mirror formula (11:60) here would give a wrong answer. For water images always subtract from 18:30 (or 17:90 when minutes > 30).
+Source: PYQ-style
+
+Question 7:
+Which digits from 0 to 9 have identical mirror and water images?
+Solution:
+The digits 0 and 8 possess both vertical and horizontal symmetry, so they remain unchanged in both mirror and water reflections.
+Examiner's Trap: Digit 1 is often drawn with an asymmetric serif; the standard symmetrical digits are 0 and 8.
+Source: PYQ-style
+
+Question 8:
+Find the mirror image of "BRIDGE" when the mirror is placed vertically to its right.
+Solution:
+The word is read in reverse order from right to left: E-G-D-I-R-B, with each individual letter laterally inverted.
+Examiner's Trap: A common mistake is flipping each letter in place without reversing the letter sequence.
+Source: PYQ-style
+
+Question 9:
+What is the image of a shape when the mirror is placed horizontally below it?
+Solution:
+A mirror placed horizontally below an object produces an exact water image (vertical flip: top becomes bottom, left-right unchanged).
+Examiner's Trap: A mirror placed horizontally is NOT a lateral (left-right) inversion; it acts identically to a water reflection surface.
+Source: PYQ-style
+
+Question 10:
+Find the water image of "DISC8".
+Solution:
+Letters and digits are inverted vertically: D, I, C and 8 have horizontal symmetry and look identical; S flips vertically (its top and bottom curves invert). The sequence stays left to right.
+Examiner's Trap: Reversing the order of characters is a mirror trap; in water reflection the sequence stays left-to-right.
+Source: PYQ-style

@@ -1,0 +1,151 @@
+Questions 126–145: Easy | Questions 146–150: Medium
+
+126. If the letters of the word "CORRESPONDENCE" are arranged in alphabetical order, how many letters will remain in the same position as in the original word?
+(a) None (b) One (c) Two (d) Three
+Answer: (c)
+Solution: The trap is eyeballing instead of writing both sequences. Original: C O R R E S P O N D E N C E; sorted: C C D E E E N N O O P R R S. Only position 1 (C) and position 5 (E) match, so the answer is Two.
+Source: PYQ-style
+
+127. In the English alphabet, which letter is 7th to the right of the 15th letter from the left?
+(a) T (b) U (c) V (d) W
+Answer: (c)
+Solution: The trap is counting the 15th letter itself as the first step to the right. The 15th letter is O; moving 7 steps right gives P, Q, R, S, T, U, V, so the answer is V.
+Source: PYQ-style
+
+128. If the first and third letters of "ESTABLISHMENT" are interchanged, the second and fourth are interchanged, the fifth and seventh, the sixth and eighth, and so on, which letter will be third to the right of the sixth letter from the right end?
+(a) T (b) M (c) H (d) N
+Answer: (c)
+Solution: The trap is swapping adjacent pairs (1-2, 3-4) instead of the stated pattern (1-3, 2-4, 5-7, 6-8 …). After swapping, the word becomes T A E S I S B L E N H M T; the sixth letter from the right is L (position 8), and third to its right is H, so the answer is H.
+Source: PYQ-style
+
+129. How many meaningful English words can be formed using the 1st, 3rd and 5th letters of the word "PLANET", each letter used only once?
+(a) One (b) None (c) Two (d) Three
+Answer: (c)
+Solution: The trap is stopping after finding just one arrangement. The letters are P, A and E, which form two meaningful words, PEA and APE, so the answer is Two.
+Source: PYQ-style
+
+130. If the alphabet is written in reverse order (Z = 1, Y = 2, …, A = 26), what is the sum of the positions of the letters of the word "DOG"?
+(a) 55 (b) 54 (c) 53 (d) 56
+Answer: (a)
+Solution: The trap is using normal positions D = 4, O = 15, G = 7, which gives 26. In the reversed alphabet D = 23, O = 12 and G = 20, and 23 + 12 + 20 = 55, so the answer is 55.
+Source: PYQ-style
+
+131. If every alternate letter of the alphabet starting from B is removed (B, D, F, …), which letter will be the 7th letter in the remaining series?
+(a) K (b) N (c) O (d) M
+Answer: (d)
+Solution: The trap is counting the removed letters instead of the survivors. The remaining letters are A, C, E, G, I, K, M, O, Q, S, U, W, Y, and the 7th is M, so the answer is M.
+Source: PYQ-style
+
+132. The positions of how many letters in the word "WONDERFUL" remain unchanged when the letters are arranged in alphabetical order?
+(a) None (b) Three (c) Two (d) One
+Answer: (d)
+Solution: The trap is guessing without writing both sequences. Original: W O N D E R F U L; sorted: D E F L N O R U W. Only U at position 8 stays fixed, so the answer is One.
+Source: PYQ-style
+
+133. If A = 2, B = 4, C = 6, … (double the normal position), what is the value of the word "CAB"?
+(a) 16 (b) 10 (c) 14 (d) 12
+Answer: (d)
+Solution: The trap is using normal values 3 + 1 + 2 = 6. With doubled values C = 6, A = 2 and B = 4, the sum is 6 + 2 + 4 = 12, so the answer is 12.
+Source: PYQ-style
+
+134. How many vowels are there in the word "EDUCATION"?
+(a) Three (b) Four (c) Five (d) Six
+Answer: (c)
+Solution: The trap is missing the vowel at the very start of the word. The vowels are E, U, A, I and O, so the answer is Five.
+Source: PYQ-style
+
+135. If vowels take their normal positions and consonants are numbered from the end of the alphabet (Z = 1, Y = 2, …), what is the sum for the word "BAT"?
+(a) 28 (b) 27 (c) 29 (d) 26
+Answer: (a)
+Solution: The trap is mixing the two numbering rules. A is a vowel, so A = 1; among consonants counted from the end, B = 21 and T = 6, giving 21 + 1 + 6 = 28, so the answer is 28.
+Source: PYQ-style
+
+136. How many letters in the word "COMPREHENSIVE" are immediately preceded by a vowel and immediately followed by a consonant?
+(a) One (b) Two (c) Three (d) Four
+Answer: (b)
+Solution: The trap is checking only what comes before a letter and ignoring what follows it. Scanning C O M P R E H E N S I V E, only M (between O and P) and N (between E and S) satisfy both conditions, so the answer is Two.
+Source: PYQ-style
+
+137. If each letter of the word "APPLE" is replaced by the letter one place ahead in the alphabet, which letter appears twice in the new word?
+(a) P (b) Q (c) M (d) F
+Answer: (b)
+Solution: The trap is shifting only some of the letters. A→B, P→Q, P→Q, L→M, E→F gives B Q Q M F, in which Q appears twice, so the answer is Q.
+Source: PYQ-style
+
+138. In the English alphabet, which letter is 9th to the right of the letter which is 5th to the left of the 18th letter from the left?
+(a) T (b) V (c) W (d) U
+Answer: (b)
+Solution: The trap is doing the left-right operations in the wrong order. The 18th letter is R; 5th to its left is M (13th); 9th to the right of M is the 22nd letter V, so the answer is V.
+Source: PYQ-style
+
+139. If the alphabet is divided into two halves and the second half is written in reverse, which letter is 10th from the left in the new arrangement?
+(a) J (b) Z (c) K (d) M
+Answer: (a)
+Solution: The trap is reversing the whole alphabet instead of only the second half. The new order is A to M followed by Z, Y, X, …, N, so the 10th position still lies in the unchanged first half and is J, so the answer is J.
+Source: PYQ-style
+
+140. The letters of "LEMON" are rearranged so that the vowels occupy only the odd positions. How many such arrangements are possible?
+(a) 36 (b) 24 (c) 12 (d) 48
+Answer: (a)
+Solution: The trap is arranging all 5 letters freely and ignoring the restriction. The odd positions are 1, 3 and 5; the 2 vowels E and O can be placed in them in 3 × 2 = 6 ways, and the 3 consonants fill the rest in 3! = 6 ways, giving 6 × 6 = 36, so the answer is 36.
+Source: PYQ-style
+
+141. If "KEYBOARD" is coded by shifting each letter forward by its own position number in the word (1st letter by 1, 2nd by 2, …), what is the 4th letter of the coded word?
+(a) E (b) H (c) G (d) F
+Answer: (d)
+Solution: The trap is shifting every letter by the same amount. The 4th letter of KEYBOARD is B, and shifting it forward by 4 gives F, so the answer is F.
+Source: PYQ-style
+
+142. How many letters in the word "GARDEN" have even alphabetical positions?
+(a) Two (b) Three (c) Four (d) Five
+Answer: (b)
+Solution: The trap is counting letters at even places in the word instead of letters with even alphabet values. G = 7, A = 1, R = 18, D = 4, E = 5, N = 14; the even-valued letters are R, D and N, so the answer is Three.
+Source: PYQ-style
+
+143. If A = 1, B = 2, …, Z = 26, which of the following words has a letter-sum of 44?
+(a) MOM (b) MOB (c) MOP (d) MOW
+Answer: (c)
+Solution: The trap is checking only the first letter, which is M in every option. MOP gives 13 + 15 + 16 = 44, while MOB gives 28, MOM gives 41 and MOW gives 50, so the answer is MOP.
+Source: PYQ-style
+
+144. In the word "REVOLUTIONARY", if all vowels are deleted, which letter will be 4th from the right in the remaining string?
+(a) N (b) T (c) L (d) R
+Answer: (b)
+Solution: The trap is counting from the left after deleting the vowels. The remaining consonants are R V L T N R Y; counting from the right gives Y, R, N, T, so the answer is T.
+Source: PYQ-style
+
+145. If A is coded as 1, B as 2, …, Z as 26, and a word's code is the product of its letters, which word has code 45?
+(a) ADI (b) AFI (c) BEI (d) AEI
+Answer: (d)
+Solution: The trap is adding instead of multiplying. AEI gives 1 × 5 × 9 = 45, while AFI gives 54, BEI gives 90 and ADI gives 36, so the answer is AEI.
+Source: PYQ-style
+
+146. The word "BREAKDOWN" has how many letters whose alphabetical position is a perfect square?
+(a) Three (b) One (c) Four (d) Two
+Answer: (d)
+Solution: The trap is forgetting that only 1, 4, 9, 16 and 25 are square positions within the alphabet. In B R E A K D O W N, only A (1) and D (4) qualify, so the answer is Two.
+Source: PYQ-style
+
+147. If the alphabet is written in a circle and you move 7 steps clockwise from S, then 5 steps anticlockwise, which letter do you reach?
+(a) T (b) U (c) V (d) R
+Answer: (b)
+Solution: The trap is applying both moves in the same direction. S is the 19th letter; +7 gives 26 (Z), then −5 gives 21, which is U, so the answer is U.
+Source: PYQ-style
+
+148. In "DICTIONARY", how many letters are there between the letter which is 3rd from the left and the letter which is 3rd from the right?
+(a) Four (b) Five (c) Three (d) Six
+Answer: (a)
+Solution: The trap is counting the two end letters as well. The word has 10 letters; 3rd from the left is C (position 3) and 3rd from the right is R (position 8); the letters strictly between them occupy positions 4, 5, 6 and 7, so the answer is Four.
+Source: PYQ-style
+
+149. If each consonant in "SQUARE" is replaced by the next consonant in the alphabet and each vowel by the next vowel (A→E→I→O→U→A), what does the word become?
+(a) TRAESI (b) SRAESI (c) TRBEAI (d) TQAFRI
+Answer: (a)
+Solution: The trap is moving to the very next letter instead of the next letter of the same type. S→T, Q→R, U→A, A→E, R→S and E→I give TRAESI, so the answer is TRAESI.
+Source: PYQ-style
+
+150. How many letters of the word "CANDLE" stand at prime-numbered positions in the alphabet (2, 3, 5, 7, 11, …)?
+(a) Two (b) One (c) Three (d) Four
+Answer: (a)
+Solution: The trap is treating 1 as a prime number. C = 3, A = 1, N = 14, D = 4, L = 12, E = 5; only C and E have prime positions, so the answer is Two.
+Source: PYQ-style

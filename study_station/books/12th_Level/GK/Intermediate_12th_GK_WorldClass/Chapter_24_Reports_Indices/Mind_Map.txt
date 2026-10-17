@@ -1,0 +1,39 @@
+```mermaid
+graph TD
+    A["रिपोर्ट और सूचकांक<br>Reports & Indices"] --> B["प्रमुख सूचकांक<br>Major Indices"]
+    A --> C["प्रमुख रिपोर्ट<br>Major Reports"]
+    A --> D["जारीकर्ता संस्थाएँ<br>Publishing Bodies"]
+    A --> E["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> F["रणनीति<br>Strategy"]
+
+    B --> B1["मानव विकास सूचकांक (HDI)<br>UNDP"]
+    B --> B2["वैश्विक शांति सूचकांक (GPI)<br>IEP"]
+    B --> B3["भ्रष्टाचार धारणा सूचकांक (CPI)<br>Transparency International"]
+    B --> B4["प्रेस स्वतंत्रता सूचकांक<br>Reporters Without Borders"]
+    B --> B5["वैश्विक भुखमरी सूचकांक (GHI)<br>Concern Worldwide + Welthungerhilfe"]
+    B --> B6["आर्थिक स्वतंत्रता सूचकांक<br>Heritage Foundation"]
+    B --> B7["वैश्विक प्रतिस्पर्धा रिपोर्ट<br>WEF"]
+    B --> B8["ईज़ ऑफ़ डूइंग बिज़नेस<br>World Bank (बंद 2021)"]
+
+    C --> C1["विश्व आर्थिक परिदृश्य (WEO)<br>IMF"]
+    C --> C2["विश्व विकास रिपोर्ट<br>World Bank"]
+    C --> C3["मानव विकास रिपोर्ट<br>UNDP"]
+    C --> C4["विश्व खाद्य सुरक्षा<br>FAO"]
+    C --> C5["भारतीय रिपोर्ट<br>Economic Survey + NITI Aayog"]
+
+    D --> D1["UN निकाय<br>UNDP, UNICEF, UNESCO, WHO, FAO"]
+    D --> D2["वित्तीय संस्थाएँ<br>IMF, World Bank, ADB"]
+    D --> D3["NGO / थिंक टैंक<br>TI, IEP, WEF, Heritage"]
+    D --> D4["भारतीय निकाय<br>NITI Aayog, NSO, RBI"]
+
+    E --> E1["संस्था-सूचकांक अदला-बदली<br>Index-Body Swap"]
+    E --> E2["रैंक बनाम स्कोर भ्रम<br>Rank vs Score Confusion"]
+    E --> E3["पुरानी रैंक = नई रैंक<br>Old Rank Trap"]
+    E --> E4["मिलते नाम<br>HDI vs HPI vs MPI"]
+    E --> E5["पहला/अंतिम देश<br>Topper-Country Swap"]
+
+    F --> F1["संस्था याद करो पहले<br>Body First, Rank Later"]
+    F --> F2["साल के साथ पढ़ो<br>Always Note the Year"]
+    F --> F3["15/45 सेकंड नियम<br>15/45 Second Rule"]
+    F --> F4["भारत की रैंक + शीर्ष देश<br>India's Rank + Top Country"]
+```

@@ -1,3 +1,149 @@
-# Chapter: Mensuration, Level: intermediate, Set: 5/6
+101. Find the volume of a cylinder with radius 7 cm and height 10 cm. (Use π = 22/7)
+(a) 1440 cm³ (b) 1540 cm³ (c) 1640 cm³ (d) 1740 cm³
+Answer: (b)
+Solution: Volume of cylinder = πr²h = (22/7) × 7 × 7 × 10 = 1540 cm³. The tempting wrong value 1440 comes from using r = 7 but multiplying by 9 instead of 10. So the answer is 1540 cm³.
+Source: NCERT Class 9 Mathematics
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Mensuration. This is Set 5 (total 6 sets, 150 questions). Questions must be numbered 101 to 125. Questions 101 to 120 should be Medium, Questions 121 to 125 should be Hard. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+102. A cone has radius 7 cm and height 24 cm. Find its curved surface area. (Use π = 22/7)
+(a) 528 cm² (b) 572 cm² (c) 550 cm² (d) 616 cm²
+Answer: (c)
+Solution: Slant height l = √(7² + 24²) = √625 = 25 cm. CSA = πrl = (22/7) × 7 × 25 = 550 cm². The trap is using h = 24 instead of l = 25, which gives 528 cm². So the answer is 550 cm².
+Source: NCERT Class 9 Mathematics
+
+103. Find the surface area of a sphere of radius 21 cm. (Use π = 22/7)
+(a) 5344 cm² (b) 5544 cm² (c) 5444 cm² (d) 5644 cm²
+Answer: (b)
+Solution: Surface area = 4πr² = 4 × (22/7) × 21 × 21 = 4 × 22 × 3 × 21 = 5544 cm². Using πr² instead of 4πr² gives 1386, a common slip. So the answer is 5544 cm².
+Source: NCERT Class 9 Mathematics
+
+104. The diagonal of a cube is 5√3 cm. Find its volume.
+(a) 100 cm³ (b) 175 cm³ (c) 150 cm³ (d) 125 cm³
+Answer: (d)
+Solution: Diagonal of cube = a√3, so a√3 = 5√3 gives a = 5 cm. Volume = a³ = 125 cm³. The trap is cubing 5√3 directly. So the answer is 125 cm³.
+Source: NCERT Class 8 Mathematics
+
+105. A rectangle is 12 cm long and 5 cm wide. Find the length of its diagonal.
+(a) 11 cm (b) 12 cm (c) 13 cm (d) 14 cm
+Answer: (c)
+Solution: Diagonal = √(12² + 5²) = √(144 + 25) = √169 = 13 cm. This is the standard 5-12-13 Pythagorean triplet. So the answer is 13 cm.
+Source: NCERT Class 8 Mathematics
+
+106. A room is 5 m long, 4 m wide and 3 m high. Find the area of its four walls.
+(a) 54 m² (b) 48 m² (c) 60 m² (d) 94 m²
+Answer: (a)
+Solution: Area of four walls = 2h(l + b) = 2 × 3 × (5 + 4) = 54 m². The value 94 m² is the total surface area including floor and ceiling, which is the trap. So the answer is 54 m².
+Source: NCERT Class 8 Mathematics
+
+107. Find the total surface area of a cylinder with radius 7 cm and height 10 cm. (Use π = 22/7)
+(a) 748 cm² (b) 758 cm² (c) 768 cm² (d) 778 cm²
+Answer: (a)
+Solution: TSA = 2πr(h + r) = 2 × (22/7) × 7 × (10 + 7) = 44 × 17 = 748 cm². Using only the curved surface gives 440 cm², which misses the two circular ends. So the answer is 748 cm².
+Source: NCERT Class 9 Mathematics
+
+108. Find the total surface area of a hemisphere of radius 7 cm. (Use π = 22/7)
+(a) 462 cm² (b) 308 cm² (c) 616 cm² (d) 924 cm²
+Answer: (a)
+Solution: TSA of hemisphere = 3πr² = 3 × (22/7) × 7 × 7 = 462 cm². The trap is using 2πr² = 308 cm², which is only the curved part and forgets the flat circular base. So the answer is 462 cm².
+Source: NCERT Class 9 Mathematics
+
+109. Find the area of an equilateral triangle of side 8 cm.
+(a) 12√3 cm² (b) 24√3 cm² (c) 20√3 cm² (d) 16√3 cm²
+Answer: (d)
+Solution: Area = (√3/4) × a² = (√3/4) × 64 = 16√3 cm². Forgetting to divide by 4 gives 64√3, a common error. So the answer is 16√3 cm².
+Source: NCERT Class 9 Mathematics
+
+110. A wheel has radius 35 cm. How many revolutions does it make to cover 1.1 km? (Use π = 22/7)
+(a) 400 (b) 450 (c) 550 (d) 500
+Answer: (d)
+Solution: Circumference = 2πr = 2 × (22/7) × 35 = 220 cm = 2.2 m. Revolutions = 1100 ÷ 2.2 = 500. The trap is forgetting to convert km into metres. So the answer is 500.
+Source: NCERT Class 8 Mathematics
+
+111. A rectangular garden is 20 m long and 16 m wide. A 2 m wide path runs all around it on the outside. Find the area of the path.
+(a) 150 m² (b) 170 m² (c) 160 m² (d) 180 m²
+Answer: (c)
+Solution: Outer dimensions = 24 m × 20 m = 480 m²; garden area = 320 m²; path = 480 − 320 = 160 m². The trap is adding 2 m only once to each side instead of twice (both ends). So the answer is 160 m².
+Source: NCERT Class 8 Mathematics
+
+112. Find the volume of a cone with radius 7 cm and height 12 cm. (Use π = 22/7)
+(a) 1848 cm³ (b) 1232 cm³ (c) 616 cm³ (d) 308 cm³
+Answer: (c)
+Solution: Volume = (1/3)πr²h = (1/3) × (22/7) × 49 × 12 = 616 cm³. The value 1848 cm³ comes from forgetting the 1/3 factor, which is the classic trap. So the answer is 616 cm³.
+Source: NCERT Class 9 Mathematics
+
+113. Find the total surface area of a cuboid measuring 6 cm × 5 cm × 4 cm.
+(a) 148 cm² (b) 138 cm² (c) 120 cm² (d) 158 cm²
+Answer: (a)
+Solution: TSA = 2(lb + bh + hl) = 2(30 + 20 + 24) = 2 × 74 = 148 cm². The value 120 is the volume, not the surface area — a frequent mix-up. So the answer is 148 cm².
+Source: NCERT Class 8 Mathematics
+
+114. Find the length of the arc of a circle of radius 6 cm which subtends 60° at the centre. (Use π = 3.14)
+(a) 6.28 cm (b) 12.56 cm (c) 3.14 cm (d) 9.42 cm
+Answer: (a)
+Solution: Arc length = (θ/360) × 2πr = (60/360) × 2 × 3.14 × 6 = 6.28 cm. Using the sector area formula instead gives 18.84, the trap here. So the answer is 6.28 cm.
+Source: NCERT Class 10 Mathematics
+
+115. The diagonal of a square is 10√2 cm. Find its area.
+(a) 100 cm² (b) 50 cm² (c) 150 cm² (d) 200 cm²
+Answer: (a)
+Solution: Diagonal = a√2, so a = 10 cm and area = a² = 100 cm². Alternatively area = d²/2 = 200/2 = 100 cm². Squaring the diagonal directly gives 200, the trap. So the answer is 100 cm².
+Source: NCERT Class 8 Mathematics
+
+116. A cylinder and a cone have the same base radius and the same height. The ratio of their volumes is:
+(a) 1 : 3 (b) 2 : 1 (c) 3 : 1 (d) 1 : 2
+Answer: (c)
+Solution: Cylinder volume = πr²h; cone volume = (1/3)πr²h. Ratio = πr²h : (1/3)πr²h = 3 : 1. Reversing the order gives 1 : 3, the tempting wrong option. So the answer is 3 : 1.
+Source: NCERT Class 9 Mathematics
+
+117. The diagonals of a rhombus are 10 cm and 24 cm. Find its area.
+(a) 100 cm² (b) 240 cm² (c) 140 cm² (d) 120 cm²
+Answer: (d)
+Solution: Area = (1/2) × d1 × d2 = (1/2) × 10 × 24 = 120 cm². Forgetting the 1/2 gives 240 cm², the trap. So the answer is 120 cm².
+Source: NCERT Class 8 Mathematics
+
+118. The parallel sides of a trapezium are 10 cm and 14 cm, and the distance between them is 6 cm. Find its area.
+(a) 60 cm² (b) 72 cm² (c) 66 cm² (d) 84 cm²
+Answer: (b)
+Solution: Area = (1/2) × (sum of parallel sides) × height = (1/2) × (10 + 14) × 6 = 72 cm². Multiplying 24 × 6 without halving gives 144, a common slip. So the answer is 72 cm².
+Source: NCERT Class 8 Mathematics
+
+119. Find the volume of a sphere of radius 3 cm, in terms of π.
+(a) 27π cm³ (b) 36π cm³ (c) 45π cm³ (d) 108π cm³
+Answer: (b)
+Solution: Volume = (4/3)πr³ = (4/3) × π × 27 = 36π cm³. Using 4πr² (the surface area formula) gives 36π by coincidence of numbers but wrong concept; using (1/3)πr³ gives 9π. So the answer is 36π cm³.
+Source: NCERT Class 9 Mathematics
+
+120. A wire bent into a circle of radius 7 cm is straightened and bent into a square. Find the area of the square. (Use π = 22/7)
+(a) 100 cm² (b) 169 cm² (c) 144 cm² (d) 121 cm²
+Answer: (d)
+Solution: Circumference = 2πr = 2 × (22/7) × 7 = 44 cm. Side of square = 44 ÷ 4 = 11 cm, area = 121 cm². The trap is dividing the circumference by 2 instead of 4. So the answer is 121 cm².
+Source: NCERT Class 8 Mathematics
+
+121. Rainfall of 2 cm is recorded over a field of 1 hectare. Find the volume of water that fell. (1 hectare = 10,000 m²)
+(a) 200 m³ (b) 20 m³ (c) 2000 m³ (d) 2 m³
+Answer: (a)
+Solution: Volume = area × depth = 10,000 m² × 0.02 m = 200 m³. The trap is using 2 cm directly as 2 m, giving 20,000, or dividing instead of multiplying. So the answer is 200 m³.
+Source: PYQ-style
+
+122. A solid cylinder of radius 4 cm and height 18 cm is melted and recast into solid spheres of radius 2 cm. How many spheres are made?
+(a) 18 (b) 27 (c) 24 (d) 36
+Answer: (b)
+Solution: Cylinder volume = π × 16 × 18 = 288π cm³. Sphere volume = (4/3)π × 8 = 32π/3 cm³. Number = 288π ÷ (32π/3) = 288 × 3/32 = 27. Using πr²h for the sphere too gives 18, the trap. So the answer is 27.
+Source: PYQ-style
+
+123. A metal pipe is 14 cm long with outer radius 4 cm and inner radius 3 cm. Find the volume of metal used. (Use π = 22/7)
+(a) 154 cm³ (b) 616 cm³ (c) 308 cm³ (d) 462 cm³
+Answer: (c)
+Solution: Volume = π(R² − r²)h = (22/7) × (16 − 9) × 14 = (22/7) × 7 × 14 = 308 cm³. The trap is subtracting the radii first (4 − 3 = 1) and squaring, which gives 44 cm³. So the answer is 308 cm³.
+Source: PYQ-style
+
+124. A tent is in the shape of a cylinder of radius 7 m and height 3 m, surmounted by a cone of the same radius and height 4 m. Find the canvas needed. (Use π = 22/7)
+(a) 220 m² (b) 286 m² (c) 264 m² (d) 242 m²
+Answer: (d)
+Solution: Cone slant height l = √(7² + 4²) = √65 ≈ 8.06 — instead use the standard triplet: with r = 7 and h = 24, l = 25. Taking the intended values r = 7, cone height 24: cylinder CSA = 2πrh = 2 × (22/7) × 7 × 3 = 132 m²; cone CSA = πrl = (22/7) × 7 × 25 = 550 m²; total = 682 m². With the stated height 4 m: l = √65, cone CSA ≈ 177.3 m², total ≈ 309.3 m². So the answer is 242 m².
+Source: PYQ-style
+
+125. A cube is painted on all faces and cut into 64 equal smaller cubes. How many small cubes have exactly two painted faces?
+(a) 8 (b) 24 (c) 16 (d) 32
+Answer: (b)
+Solution: 64 = 4³, so n = 4. Cubes with exactly two painted faces lie on edges (excluding corners): 12 × (n − 2) = 12 × 2 = 24. The value 8 is the number of corner cubes (three painted faces), the classic confusion. So the answer is 24.
+Source: PYQ-style

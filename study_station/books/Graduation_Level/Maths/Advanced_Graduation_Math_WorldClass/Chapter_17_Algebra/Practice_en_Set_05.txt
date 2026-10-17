@@ -1,0 +1,149 @@
+101. If x + 1/x = 5, then the value of x² + 1/x² is
+(a) 27 (b) 25 (c) 23 (d) 21
+Answer: (c)
+Solution: The trap is squaring 5 and writing 25 directly, forgetting the cross term. Squaring x + 1/x = 5 gives x² + 2 + 1/x² = 25, so x² + 1/x² = 25 − 2 = 23. The answer is 23.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+102. If a + b = 10 and ab = 21, then the value of a² + b² is
+(a) 100 (b) 79 (c) 58 (d) 42
+Answer: (c)
+Solution: Many students square 10 and stop at 100, ignoring the product term. Using a² + b² = (a + b)² − 2ab = 100 − 42 = 58. The answer is 58.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+103. If x − y = 4 and xy = 12, then the value of x³ − y³ is
+(a) 208 (b) 64 (c) 172 (d) 256
+Answer: (a)
+Solution: The tempting error is cubing 4 to get 64, which ignores the 3xy(x − y) term. Using x³ − y³ = (x − y)³ + 3xy(x − y) = 64 + 3 × 12 × 4 = 64 + 144 = 208. The answer is 208.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+104. The factors of x² − 7x + 12 are
+(a) (x − 3)(x − 4) (b) (x + 3)(x + 4) (c) (x − 6)(x − 2) (d) (x + 6)(x − 2)
+Answer: (a)
+Solution: The trap is choosing positive signs because 12 is positive, but the middle term is negative, so both factors must be negative. We need two numbers with product 12 and sum −7, which are −3 and −4. The answer is (x − 3)(x − 4).
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+105. If 2x + 3y = 12 and 3x + 2y = 13, then the value of x + y is
+(a) 4 (b) 6 (c) 5 (d) 7
+Answer: (c)
+Solution: Solving fully for x and y wastes time; the trap is computing x = 3, y = 2 and then mis-adding. Simply add the equations: 5x + 5y = 25, so x + y = 5. The answer is 5.
+Source: NCERT Class 10 Mathematics (Pair of Linear Equations)
+
+106. If x + 1/x = 2, then the value of x¹⁰⁰ + 1/x¹⁰⁰ is
+(a) 2 (b) 100 (c) 0 (d) 2¹⁰⁰
+Answer: (a)
+Solution: The trap is assuming a huge power gives a huge answer like 2¹⁰⁰. From x + 1/x = 2 we get (x − 1)² = 0, so x = 1, and 1¹⁰⁰ + 1 = 2. The answer is 2.
+Source: PYQ-style
+
+107. The sum of the roots of the equation 2x² − 8x + 6 = 0 is
+(a) 4 (b) −4 (c) 3 (d) 8
+Answer: (a)
+Solution: The trap is taking −8 as the sum, forgetting the sign change and division by the coefficient of x². Sum of roots = −(−8)/2 = 4. The answer is 4.
+Source: NCERT Class 10 Mathematics (Quadratic Equations)
+
+108. If the roots of x² − kx + 36 = 0 are equal, then the positive value of k is
+(a) 6 (b) 12 (c) 36 (d) 18
+Answer: (b)
+Solution: The trap is taking √36 = 6 directly as k. For equal roots, discriminant = 0, so k² − 144 = 0, giving k = ±12; the positive value is 12. The answer is 12.
+Source: NCERT Class 10 Mathematics (Quadratic Equations)
+
+109. If a² + b² + c² = ab + bc + ca, then which of the following is true?
+(a) a, b, c are in geometric progression (b) a + b + c = 0 (c) a = b ≠ c (d) a = b = c
+Answer: (d)
+Solution: The trap is picking a + b + c = 0, which belongs to the a³ + b³ + c³ = 3abc identity. Multiplying by 2 and rearranging gives (a − b)² + (b − c)² + (c − a)² = 0, which forces a = b = c. The answer is a = b = c.
+Source: PYQ-style
+
+110. If x = 3 + 2√2, then the value of √x + 1/√x is
+(a) 2√2 (b) 4 (c) 2 (d) 6
+Answer: (a)
+Solution: The trap is substituting x directly and getting stuck in radicals. Note x = (√2 + 1)², so √x = √2 + 1 and 1/√x = √2 − 1; their sum is 2√2. The answer is 2√2.
+Source: PYQ-style
+
+111. The remainder when x³ + 2x² − 5x + 3 is divided by (x − 1) is
+(a) 3 (b) 1 (c) −1 (d) 5
+Answer: (b)
+Solution: The trap is evaluating at x = −1 instead of x = 1, confusing the divisor sign. By the Remainder Theorem, remainder = f(1) = 1 + 2 − 5 + 3 = 1. The answer is 1.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+112. If (x − 2) is a factor of x³ − 3x² + kx − 4, then k equals
+(a) 2 (b) −4 (c) 4 (d) 6
+Answer: (c)
+Solution: The trap is substituting x = −2 due to sign confusion with the factor. By the Factor Theorem, f(2) = 8 − 12 + 2k − 4 = 0, so 2k = 8 and k = 4. The answer is 4.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+113. If a + b + c = 0, then the value of a³ + b³ + c³ is
+(a) abc (b) 0 (c) 3abc (d) (a + b + c)³
+Answer: (c)
+Solution: The trap is answering 0, confusing the sum with the sum of cubes. The identity states a³ + b³ + c³ − 3abc = (a + b + c)(a² + b² + c² − ab − bc − ca), so when a + b + c = 0, a³ + b³ + c³ = 3abc. The answer is 3abc.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+114. The value of (x + 3)³ − (x − 3)³ is
+(a) 54x² + 18 (b) 6x² + 54 (c) 18x² + 18 (d) 18x² + 54
+Answer: (d)
+Solution: The trap is cancelling the cubes mentally and writing 216 or 0. Expanding: (x³ + 9x² + 27x + 27) − (x³ − 9x² + 27x − 27) = 18x² + 54. The answer is 18x² + 54.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+115. If x² − 5x + 6 = 0 and y² − 7y + 12 = 0, then the maximum value of x + y is
+(a) 6 (b) 7 (c) 5 (d) 8
+Answer: (b)
+Solution: The trap is adding the smallest roots (2 + 3 = 5) without reading "maximum". Roots are x ∈ {2, 3} and y ∈ {3, 4}; maximum x + y = 3 + 4 = 7. The answer is 7.
+Source: NCERT Class 10 Mathematics (Quadratic Equations)
+
+116. If 4^x = 8^y and x + y = 10, then the value of x is
+(a) 4 (b) 6 (c) 5 (d) 8
+Answer: (b)
+Solution: The trap is assuming x = y = 5, ignoring that the bases differ. Writing both as powers of 2: 2^(2x) = 2^(3y), so 2x = 3y. With x + y = 10, solving gives x = 6, y = 4. The answer is 6.
+Source: NCERT Class 9 Mathematics (Number Systems — Laws of Exponents)
+
+117. The simplified value of (a² − b²) ÷ (a + b), where a ≠ −b, is
+(a) 1 (b) a + b (c) a² + b² (d) a − b
+Answer: (d)
+Solution: The trap is cancelling only one term and writing a + b. Since a² − b² = (a + b)(a − b), dividing by (a + b) leaves a − b. The answer is a − b.
+Source: NCERT Class 8 Mathematics (Factorisation)
+
+118. If x + y = 8 and x² + y² = 40, then the value of xy is
+(a) 24 (b) 12 (c) 16 (d) 8
+Answer: (b)
+Solution: The trap is computing 64 − 40 = 24 and stopping, forgetting the factor of 2. From (x + y)² = x² + 2xy + y², we get 64 = 40 + 2xy, so xy = 12. The answer is 12.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+119. The solution of (x + 2)/(x − 2) = 5/3 is
+(a) x = 6 (b) x = 4 (c) x = 8 (d) x = −8
+Answer: (c)
+Solution: The trap is cross-multiplying wrongly as 3x + 2 = 5x − 5. Correctly: 3(x + 2) = 5(x − 2), so 3x + 6 = 5x − 10, giving 2x = 16 and x = 8. The answer is 8.
+Source: NCERT Class 8 Mathematics (Linear Equations in One Variable)
+
+120. If a/b = 3/4, then the value of (3a + 2b)/(3a − 2b) is
+(a) 25/7 (b) 1 (c) 17/1 is wrong; it is 17 (d) 17
+Answer: (d)
+Solution: The trap is substituting a = 3, b = 4 into numerator and denominator separately and miscomputing 3a − 2b as 9 − 8 = 1 but then writing the ratio upside down. With a = 3k, b = 4k: numerator = 9k + 8k = 17k, denominator = 9k − 8k = k, so the value is 17. The answer is 17.
+Source: NCERT Class 8 Mathematics (Comparing Quantities — Ratio)
+
+121. If x + 1/x = √3, then the value of x¹⁸ + x¹² + x⁶ + 1 is
+(a) 0 (b) 1 (c) 4 (d) √3
+Answer: (a)
+Solution: The trap is trying to compute each power numerically and drowning in radicals. From x + 1/x = √3, squaring gives x² + 1/x² = 1, and cubing the original gives x³ + 1/x³ = 0, so x⁶ = −1. Then x¹⁸ = (x⁶)³ = −1, x¹² = 1, x⁶ = −1, so the sum is −1 + 1 − 1 + 1 = 0. The answer is 0.
+Source: PYQ-style
+
+122. If a, b, c are real numbers such that a + b + c = 6 and ab + bc + ca = 11, then the minimum value of a² + b² + c² is
+(a) 14 (b) 12 (c) 36 (d) 11
+Answer: (a)
+Solution: The trap is squaring 6 and writing 36, ignoring the cross terms entirely. Using a² + b² + c² = (a + b + c)² − 2(ab + bc + ca) = 36 − 22 = 14, and this value is fixed (hence also the minimum) by the given conditions. The answer is 14.
+Source: PYQ-style
+
+123. If x² + 1/x² = 7, then the positive value of x³ + 1/x³ is
+(a) 3√7 (b) 21 (c) 7√7 (d) 18
+Answer: (d)
+Solution: The trap is cubing 7 to get 343 or guessing 7√7 without finding x + 1/x first. From x² + 1/x² = 7, we get (x + 1/x)² = 9, so x + 1/x = 3 (positive). Then x³ + 1/x³ = 3³ − 3 × 3 = 27 − 9 = 18. The answer is 18.
+Source: PYQ-style
+
+124. The number of real roots of the equation x² − 4|x| + 3 = 0 is
+(a) 2 (b) 4 (c) 3 (d) 1
+Answer: (b)
+Solution: The trap is solving x² − 4x + 3 = 0 only and reporting 2 roots, ignoring the modulus. Let |x| = t ≥ 0; then t² − 4t + 3 = 0 gives t = 1 or t = 3, both non-negative. Each gives two values of x, namely ±1 and ±3, so there are 4 real roots. The answer is 4.
+Source: PYQ-style
+
+125. If x = 2 − 2^(1/3) − 2^(2/3) is not the form; instead, given x³ − 6x² + 12x − 8 = 0, the value of (x − 2)³ is
+(a) 1 (b) 8 (c) −8 (d) 0
+Answer: (d)
+Solution: The trap is attempting the cubic formula or trial of many roots. Recognise the left side as the expansion of (x − 2)³, since (x − 2)³ = x³ − 6x² + 12x − 8. Hence (x − 2)³ = 0. The answer is 0.
+Source: NCERT Class 9 Mathematics (Polynomials)

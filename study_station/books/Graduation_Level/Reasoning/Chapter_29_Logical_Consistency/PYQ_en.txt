@@ -1,0 +1,183 @@
+# 📊 PYQ Analysis — Logical Consistency (Verbal Reasoning)
+
+**Level: Advanced (Graduation)** | Exams covered: SSC CGL, IBPS PO/Clerk, RRB NTPC, State PCS prelims
+
+---
+
+## 1. How Exams Test This Chapter (Pattern Analysis)
+
+Logical Consistency questions appear in the **Statement–Conclusion, Statement–Assumption, Statement–Course of Action, and Syllogism** families. Across SSC CGL, IBPS PO and RRB NTPC, examiners consistently test the same core skill: *can you accept only what the statement guarantees, and reject what it merely suggests?*
+
+**Recurring sub-topics (in order of how often they appear):**
+
+1. **Syllogism with "only a few / some not / possibility" cases** — the modern favourite in Banking exams.
+2. **Statement–Conclusion with two conclusions** (I follows / II follows / both / neither / either-or).
+3. **Statement–Assumption** — especially assumptions that are *implicit* vs. *desirable*.
+4. **Course of Action** — distinguishing a *logical* action from an *extreme* or *emotional* one.
+5. **Cause–Effect pairing** — two statements, decide common cause / independent causes / direct effect.
+6. **Strong vs. Weak Argument** — mostly in IBPS PO mains and State PCS.
+
+**Exam-wise flavour:**
+
+- **SSC CGL / CHSL:** Short statements, direct syllogisms, "definitely follows" traps. Speed matters more than depth.
+- **IBPS PO / Clerk:** "Only a few", "some not", complementary pairs (either-or), possibility conclusions. Depth matters.
+- **RRB NTPC:** Simple two-statement syllogisms and assumption questions; rarely tricky, but negative wording ("does NOT follow") is common.
+- **State PCS:** Statement–Argument and Course of Action with administrative flavour.
+
+---
+
+## 2. The Examiner's Favourite Traps (Psychological Hooks)
+
+| Trap | How it works |
+|---|---|
+| **Real-world knowledge leak** | The conclusion is true in real life but not guaranteed by the statement. Students mark it because it "sounds right." |
+| **Restatement dressed as conclusion** | The conclusion just repeats the statement in new words — it *follows*, but students overthink and reject it. |
+| **"Some" read as "All"** | "Some A are B" is treated as "All A are B" — the single most common error. |
+| **Negative wording** | "Which conclusion does NOT follow?" — students solve for what follows and pick the first correct-looking option. |
+| **Either-or blindness** | Two conclusions form a complementary pair (some/no, is/is-not on the same subject-predicate); students mark "neither" instead of "either I or II." |
+| **Extreme action** | In Course of Action, an emotionally satisfying but extreme step (dismiss, ban, punish all) is offered as bait. |
+| **Assumption vs. implication confusion** | An assumption must be *taken for granted before* the statement; students pick what the statement *leads to*. |
+
+---
+
+## 3. Top 10 High-Yield Questions (with Solutions & Trap Analysis)
+
+---
+
+**Q1.** Statements: All pens are books. Some books are chairs.
+Conclusions: I. Some pens are chairs. II. Some chairs are books.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+
+**Answer: (b)**
+**Solution:** "All pens are books" + "Some books are chairs" gives no definite link between pens and chairs — the chairs-portion of books may lie entirely outside pens. So I fails. II is a direct conversion of "Some books are chairs," so it follows.
+**Trap:** Students draw the Venn diagram with the "chairs" circle cutting the "pens" region and mark I — but a *possible* diagram is not a *guaranteed* conclusion.
+**Source:** PYQ-style (SSC CGL pattern)
+
+---
+
+**Q2.** Statements: No mango is an apple. Some apples are sweet.
+Conclusions: I. Some sweet things are not mangoes. II. No sweet thing is a mango.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+
+**Answer: (a)**
+**Solution:** The sweet apples (some apples) cannot be mangoes, since no mango is an apple — so "some sweet things are not mangoes" definitely follows. II overreaches: other sweet things could still be mangoes.
+**Trap:** II feels like a "stronger version" of the negative premise; students mark both. A universal negative conclusion needs a universal chain, which doesn't exist here.
+**Source:** PYQ-style (IBPS Clerk pattern)
+
+---
+
+**Q3.** Statement: "The company should recruit only experienced candidates," the HR head argues.
+Assumptions: I. Experienced candidates are available. II. Experience guarantees better performance.
+(a) Only I implicit (b) Only II implicit (c) Both implicit (d) Neither implicit
+
+**Answer: (a)**
+**Solution:** Recommending recruitment of experienced candidates presupposes that such candidates exist and can be found — I is implicit. II is too strong: the speaker believes experience *helps*, not that it *guarantees* performance.
+**Trap:** "Guarantees" is an extreme word. Students who agree with the statement emotionally mark II as well.
+**Source:** PYQ-style (IBPS PO pattern)
+
+---
+
+**Q4.** Statements: Only a few laptops are tablets. All tablets are gadgets.
+Conclusions: I. Some laptops are gadgets. II. Some gadgets are laptops.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+
+**Answer: (c)**
+**Solution:** "Only a few laptops are tablets" means **some laptops are tablets** (and some laptops are not tablets). Take the definite part: some laptops are tablets, and all tablets are gadgets — so those laptops are definitely gadgets. Hence "Some laptops are gadgets" follows (I). "Some laptops are gadgets" converts directly to "Some gadgets are laptops" (II). Both follow.
+**Trap:** Students over-focus on the "some laptops are NOT tablets" part and conclude that nothing definite can be drawn. Remember: "only a few" still *guarantees* the positive overlap — the "some are not" portion restricts, it does not erase, the "some are" portion.
+**Source:** PYQ-style (IBPS PO pattern)
+
+---
+
+**Q5.** Statement: Cases of dengue have risen sharply in the city this monsoon.
+Courses of Action: I. The municipal body should launch fogging and clean-up drives in affected areas. II. All hospitals in the city should be shut down for fumigation.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+
+**Answer: (a)**
+**Solution:** I is a practical, proportionate response targeting the cause (mosquito breeding). II is extreme and disruptive — shutting all hospitals harms patients and is not a logical response.
+**Trap:** II is emotionally satisfying ("strong action!"). The rule: an action that creates a bigger problem than it solves never follows.
+**Source:** PYQ-style (State PCS pattern)
+
+---
+
+**Q6.** Statements: Some teachers are doctors. No doctor is a lawyer.
+Conclusions: I. Some teachers are not lawyers. II. Some lawyers are not teachers.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+
+**Answer: (a)**
+**Solution:** The teachers who are doctors cannot be lawyers (no doctor is a lawyer), so "some teachers are not lawyers" is definite. II fails — nothing restricts lawyers relative to teachers in general.
+**Trap:** Students assume symmetry: "if some teachers aren't lawyers, some lawyers aren't teachers." "Some…not" does **not** convert.
+**Source:** PYQ-style (SSC CGL pattern)
+
+---
+
+**Q7.** Statement: "Buy X-brand soap — it keeps your skin soft," an advertisement claims.
+Assumptions: I. People want soft skin. II. No other soap keeps skin soft.
+(a) Only I implicit (b) Only II implicit (c) Both implicit (d) Neither implicit
+
+**Answer: (a)**
+**Solution:** An advertisement assumes the claimed benefit is something people desire — I is implicit. II is an exclusivity claim the ad never needs; ads persuade, they don't assume monopoly.
+**Trap:** Students read the ad's *implied superiority* as an *assumption of exclusivity*. "Better" does not assume "only."
+**Source:** PYQ-style (SSC CHSL pattern)
+
+---
+
+**Q8.** Statements: All A are B. No B is C.
+Conclusions: I. No A is C. II. Some A are not C.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+
+**Answer: (c)**
+**Solution:** All A are inside B, and B has zero overlap with C — so no A can be C (I follows). "No A is C" automatically implies "some A are not C" (II follows).
+**Trap:** Students treat I and II as competitors and pick only the "stronger" one. A universal negative conclusion validates its particular negative form too.
+**Source:** PYQ-style (RRB NTPC pattern)
+
+---
+
+**Q9.** Statements: Some cats are dogs. All dogs are animals.
+Conclusions: I. Some cats are animals. II. All cats are animals.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+
+**Answer: (a)**
+**Solution:** The cats that are dogs are animals — so "some cats are animals" is definite. II converts "some" into "all," which the statements never support.
+**Trap:** II is the classic "some → all" inflation. If the conclusion upgrades the quantity without a universal premise, reject it.
+**Source:** PYQ-style (SSC CGL pattern)
+
+---
+
+**Q10.** Statement: The government has announced free coaching for civil services aspirants from economically weaker sections.
+Conclusions: I. Coaching improves the chances of selection in civil services. II. Economically weaker students cannot afford coaching otherwise.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+
+**Answer: (a)**
+**Solution:** The scheme's very purpose rests on the belief that coaching helps — I follows. II is too absolute: "cannot afford" applies to some, not all; the statement targets a section, not every individual in it.
+**Trap:** II uses an absolute claim about a whole group. Conclusions with "all/none/cannot" about a group need equally absolute statements.
+**Source:** PYQ-style (State PCS pattern)
+
+---
+
+## 4. The 15-Second / 45-Second Rule — Applied
+
+**Rule recap:** If a question's structure is clear within **15 seconds** of reading, invest up to **45 seconds** solving it. If the structure itself is confusing after 15 seconds, **skip and return later**.
+
+**Skip-verdicts on the questions above:**
+
+- **Q4 ("Only a few" case) — SKIP on first pass.** "Only a few" syllogisms demand careful separation of the definite part ("some are") from the restrictive part ("some are not"). If this convention isn't drilled into muscle memory, the question eats 90+ seconds. Mark it, move on, return if time remains.
+- **Q6 (Some…not conversion) — SKIP if negative conclusions slow you down.** "Some A are not B" questions have the highest wrong-answer rate per second spent. If you haven't practised the non-conversion rule recently, flag it rather than gamble.
+- **Q1, Q3, Q5, Q7, Q9 — SOLVE immediately.** Standard two-statement syllogisms and single-assumption questions are 20–30 second earns. These are your guaranteed marks.
+- **Q8 — SOLVE.** Universal chains (All + No) are the fastest syllogisms that exist — one diagram, both conclusions visible.
+
+**General skip signals for this chapter:**
+1. Three or more statements with mixed positive/negative premises → skip on first pass.
+2. "Possibility" conclusions ("there is a possibility that…") → only attempt if you've practised the possibility rule; otherwise skip.
+3. Course of Action with three actions where two look similar → skip; these are designed to split your attention.
+
+---
+
+## 5. One-Line Takeaways
+
+- Conclusions must be **guaranteed**, not merely plausible.
+- "Some" never means "All"; "Some…not" never converts.
+- "Only a few A are B" = "Some A are B" **and** "Some A are not B" — the positive part still supports definite conclusions.
+- Assumptions come **before** the statement; implications come **after** — don't swap them.
+- Extreme words (all, none, always, guarantee, only) in conclusions/assumptions are guilty until proven innocent.
+- In Course of Action, reject any step that is extreme, vindictive, or creates a bigger problem.
+- Either-or applies only to complementary pairs on the **same subject and predicate** — check before marking "neither."

@@ -1,0 +1,151 @@
+Questions 126–145: Easy | Questions 146–150: Moderate
+
+126. Simplify: (0.6 × 0.6 × 0.6 + 0.4 × 0.4 × 0.4) ÷ (0.6 × 0.6 − 0.6 × 0.4 + 0.4 × 0.4)
+(a) 0.2 (b) 0.4 (c) 0.6 (d) 1.0
+Answer: (d)
+Solution: The trap is to compute the cubes separately and divide, getting a messy decimal. The numerator is a³ + b³ and the denominator is a² − ab + b² with a = 0.6, b = 0.4; since a³ + b³ = (a + b)(a² − ab + b²), the expression equals a + b = 0.6 + 0.4, so the answer is 1.0.
+Source: PYQ-style
+
+127. If x = 3 + 2√2, find the value of √x + 1/√x.
+(a) 2√2 (b) 2 (c) √2 (d) 4
+Answer: (a)
+Solution: The trap is to square first and get confused with the reciprocal. Note x = (√2 + 1)², so √x = √2 + 1 and 1/√x = √2 − 1 after rationalising; adding gives 2√2, so the answer is 2√2.
+Source: NCERT Class 9 Mathematics
+
+128. Simplify: (1 − 1/2)(1 − 1/3)(1 − 1/4) … (1 − 1/50)
+(a) 1/49 (b) 49/50 (c) 1/50 (d) 1/25
+Answer: (c)
+Solution: The trap is to multiply all numerators and denominators blindly. Each bracket is (n−1)/n, so the product telescopes: (1/2)(2/3)(3/4)…(49/50) = 1/50, so the answer is 1/50.
+Source: PYQ-style
+
+129. Find the value of √(12 + √(12 + √(12 + … ∞))).
+(a) 3 (b) 2√3 (c) 6 (d) 4
+Answer: (d)
+Solution: The trap is to assume the answer is close to √12 ≈ 3.46 and pick 3. Let the value be x; then x = √(12 + x), so x² − x − 12 = 0, giving (x − 4)(x + 3) = 0; since x > 0, x = 4, so the answer is 4.
+Source: PYQ-style
+
+130. Simplify: (999² − 998²) ÷ (999 + 998)
+(a) 2 (b) 999 (c) 1 (d) 1997
+Answer: (c)
+Solution: The trap is to compute the huge squares directly. Using a² − b² = (a − b)(a + b), the numerator is (1)(999 + 998), which cancels the denominator exactly, so the answer is 1.
+Source: NCERT Class 8 Mathematics
+
+131. If a + b + c = 0, find the value of (a²/bc + b²/ca + c²/ab).
+(a) 0 (b) 3 (c) −3 (d) 1
+Answer: (b)
+Solution: The trap is to assume the expression equals 0 because a + b + c = 0. Combining over the common denominator abc gives (a³ + b³ + c³)/abc, and when a + b + c = 0, a³ + b³ + c³ = 3abc, so the answer is 3.
+Source: NCERT Class 9 Mathematics
+
+132. Approximate the value of (49.98 × 20.03) ÷ 9.99 + 15.05.
+(a) 110 (b) 100 (c) 115 (d) 125
+Answer: (c)
+Solution: The trap is to compute 49.98 × 20.03 fully and waste time. Approximating: 50 × 20 = 1000, 1000 ÷ 10 = 100, then 100 + 15 = 115, so the answer is 115.
+Source: PYQ-style
+
+133. Simplify: 1/(1 + √2) + 1/(√2 + √3) + 1/(√3 + √4) + … + 1/(√8 + √9)
+(a) 3 (b) 2 (c) √2 (d) 1
+Answer: (b)
+Solution: The trap is to add the fractions using a common denominator. Rationalising each term gives (√2 − 1) + (√3 − √2) + (√4 − √3) + … + (√9 − √8), which telescopes to √9 − 1 = 3 − 1, so the answer is 2.
+Source: NCERT Class 9 Mathematics
+
+134. Express 2.373737… (i.e., 2.37 with 37 repeating) as a fraction.
+(a) 237/100 (b) 237/99 (c) 235/99 (d) 235/100
+Answer: (c)
+Solution: The trap is to write 237/100 by treating it as a terminating decimal. Let x = 2.3737…; then 100x = 237.3737…, so 99x = 235 and x = 235/99, so the answer is 235/99.
+Source: NCERT Class 9 Mathematics
+
+135. Simplify: (7³ + 5³) ÷ (7² − 7×5 + 5²) − (7³ − 5³) ÷ (7² + 7×5 + 5²)
+(a) 10 (b) 12 (c) 2 (d) 24
+Answer: (a)
+Solution: The trap is to compute all the cubes. Using a³ + b³ = (a + b)(a² − ab + b²) and a³ − b³ = (a − b)(a² + ab + b²), the first term is 7 + 5 = 12 and the second is 7 − 5 = 2, giving 12 − 2, so the answer is 10.
+Source: PYQ-style
+
+136. If x + 1/x = 5, find x³ + 1/x³.
+(a) 125 (b) 120 (c) 115 (d) 110
+Answer: (d)
+Solution: The trap is to answer 125 by simply cubing 5. Using (x + 1/x)³ = x³ + 1/x³ + 3(x + 1/x), we get 125 = x³ + 1/x³ + 15, so x³ + 1/x³ = 110, so the answer is 110.
+Source: NCERT Class 9 Mathematics
+
+137. Approximate: ∛(730) + √(255) − (5% of 200)
+(a) 20 (b) 18 (c) 12 (d) 15
+Answer: (d)
+Solution: The trap is to take ∛730 as 10 by rounding 730 to 1000. Actually ∛729 = 9 and √256 = 16, while 5% of 200 = 10; so 9 + 16 − 10 = 15, so the answer is 15.
+Source: PYQ-style
+
+138. Simplify: [(5 − 2)² + (3 − 1)²] × [(4² − 3²) ÷ 7]
+(a) 14 (b) 13 (c) 12 (d) 15
+Answer: (b)
+Solution: The trap is to compute 4² − 3² as 1 by subtracting before squaring. First bracket: 9 + 4 = 13; second bracket: (16 − 9) ÷ 7 = 1; product: 13 × 1, so the answer is 13.
+Source: NCERT Class 8 Mathematics
+
+139. Find the value of (0.1 + 0.01 + 0.001)² − (0.1 − 0.01 − 0.001)².
+(a) 0.044 (b) 0.0044 (c) 0.00044 (d) 0.44
+Answer: (b)
+Solution: The trap is to expand both squares fully and misplace the decimal, or to take the difference of the two bases as 0.04. Using a² − b² = (a + b)(a − b): a + b = 0.2 and a − b = 0.022, so the product is 0.2 × 0.022, so the answer is 0.0044.
+Source: PYQ-style
+
+140. If 2ˣ = 3ʸ = 6⁻ᶻ, then find the value of 1/x + 1/y + 1/z.
+(a) 0 (b) 1 (c) 2 (d) −1
+Answer: (a)
+Solution: The trap is to assume the sum equals 1 by analogy with 2ˣ = 3ʸ = 6ᶻ problems. Let each term equal k; then 2 = k^(1/x), 3 = k^(1/y), 6 = k^(−1/z), and since 2 × 3 = 6, we get 1/x + 1/y = −1/z, so the answer is 0.
+Source: PYQ-style
+
+141. Simplify: (1/2 + 1/3 + 1/6) ÷ (1/2 × 1/3 × 1/6)
+(a) 6 (b) 1 (c) 36 (d) 12
+Answer: (c)
+Solution: The trap is to cancel terms across the numerator and denominator incorrectly. Numerator: 3/6 + 2/6 + 1/6 = 1; denominator: 1/36; so the value is 1 ÷ (1/36), so the answer is 36.
+Source: NCERT Class 7 Mathematics
+
+142. Find the value of √(5 + 2√6) − √(5 − 2√6).
+(a) 2√2 (b) 2 (c) √6 (d) 2√3
+Answer: (a)
+Solution: The trap is to assume the two surds cancel to 0. Write 5 + 2√6 = (√3 + √2)² and 5 − 2√6 = (√3 − √2)²; then the expression is (√3 + √2) − (√3 − √2), so the answer is 2√2.
+Source: NCERT Class 9 Mathematics
+
+143. Approximate: (24.97% of 640.3) + (35.05% of 399.8) − 99.9
+(a) 180 (b) 200 (c) 220 (d) 160
+Answer: (b)
+Solution: The trap is to compute exact percentages and lose time. Approximating: 25% of 640 = 160 and 35% of 400 = 140, so 160 + 140 − 100, so the answer is 200.
+Source: PYQ-style
+
+144. Simplify: (111111)² ÷ (12345654321 ÷ 111111)
+(a) 111111 (b) 12321 (c) 123454321 (d) 11111
+Answer: (a)
+Solution: The trap is to attempt the full multiplication. Note 111111² = 12345654321, so the inner bracket becomes 12345654321 ÷ 111111 = 111111, and the whole expression is 12345654321 ÷ 111111, so the answer is 111111.
+Source: PYQ-style
+
+145. If x = √3 + √2 and y = √3 − √2, find x³ − y³.
+(a) 22√2 (b) 18√2 (c) 20√2 (d) 24√2
+Answer: (a)
+Solution: The trap is to cube each surd separately. Use x³ − y³ = (x − y)(x² + xy + y²): x − y = 2√2, xy = 1, and x² + y² = (x − y)² + 2xy = 10, so the second factor is 11; hence 2√2 × 11, so the answer is 22√2.
+Source: NCERT Class 9 Mathematics
+
+146. Simplify: 1 + 1/(1 + 1/(1 + 1/(1 + 1/2)))
+(a) 5/3 (b) 8/5 (c) 21/13 (d) 13/8
+Answer: (d)
+Solution: The trap is to evaluate from the top down or stop one step early, which gives 8/5. Work from the bottom: 1 + 1/2 = 3/2; 1 + 2/3 = 5/3; 1 + 3/5 = 8/5; 1 + 5/8 = 13/8, so the answer is 13/8.
+Source: PYQ-style
+
+147. Find the value of (0.333… + 0.666…) × (0.111… ÷ 0.999…).
+(a) 1 (b) 1/9 (c) 1/3 (d) 9
+Answer: (b)
+Solution: The trap is to treat the decimals as 0.33 and 0.66 and get a wrong product. As fractions: 1/3 + 2/3 = 1, and (1/9) ÷ 1 = 1/9, so the product is 1 × 1/9, so the answer is 1/9.
+Source: NCERT Class 9 Mathematics
+
+148. Simplify: (17² + 15² − 2 × 17 × 15) ÷ (17 − 15)²
+(a) 4 (b) 2 (c) 1 (d) 8
+Answer: (c)
+Solution: The trap is to compute 17² and 15² separately and make an arithmetic slip. The numerator is (17 − 15)² = 4 and the denominator is (17 − 15)² = 4, so the value is 4 ÷ 4, so the answer is 1.
+Source: NCERT Class 8 Mathematics
+
+149. Approximate: (719.8 ÷ 12.03) × (8.95² ÷ 9.02) − 449.7
+(a) 90 (b) 100 (c) 70 (d) 80
+Answer: (d)
+Solution: The trap is to compute 8.95² exactly and get bogged down, or to round 8.95² up to 81 and overshoot. Approximating: 720 ÷ 12 = 60; 8.95² ≈ 80 and 80 ÷ 9 ≈ 9; so 60 × 9 = 540, and 540 − 450 = 90, but the slightly lower true values (59.8 × 8.9 ≈ 532) pull it down, so the answer is 80.
+Source: PYQ-style
+
+150. If a = 7 − 4√3, find the value of √a + 1/√a.
+(a) 4 (b) 2 (c) 2√3 (d) 14
+Answer: (a)
+Solution: The trap is to rationalise 1/a first and get tangled. Note a = (2 − √3)², so √a = 2 − √3 and 1/√a = 2 + √3 after rationalising; adding gives 4, so the answer is 4.
+Source: NCERT Class 9 Mathematics

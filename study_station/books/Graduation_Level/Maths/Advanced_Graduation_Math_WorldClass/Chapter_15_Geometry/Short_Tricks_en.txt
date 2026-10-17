@@ -1,0 +1,144 @@
+# 🪄 Geometry — Short Tricks & Mnemonics
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 1 — "SOH-CAH-TOA" (Right Triangle Ratios)** │
+└─────────────────────────────────────────────┘
+**S**in = **O**pposite / **H**ypotenuse
+**C**os = **A**djacent / **H**ypotenuse
+**T**an = **O**pposite / **A**djacent
+🗣️ Say it like a name: *"SOH-CAH-TOA"* — the three syllables never let you mix up the ratios.
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 2 — "All Silver Tea Cups" (Quadrant Signs)** │
+└─────────────────────────────────────────────┘
+Quadrant I → **A**ll positive
+Quadrant II → **S**in positive
+Quadrant III → **T**an positive
+Quadrant IV → **C**os positive
+🗣️ *"All Silver Tea Cups"* — read anticlockwise from Quadrant I.
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 3 — Sum of Angles = 180°** │
+└─────────────────────────────────────────────┘
+Any triangle's three angles = **180°** — always.
+Memory hook: a triangle is a *half-turn* shape. Fold all three corners to one point — they form a **straight line (180°)**.
+🗣️ *"Three corners fold into one straight line."*
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 4 — Polygon Angle Sum: "(n − 2) × 180"** │
+└─────────────────────────────────────────────┘
+Sum of interior angles of an n-sided polygon = **(n − 2) × 180°**
+Why it sticks: from one vertex you can draw **(n − 2) triangles** — each carries 180°.
+🗣️ *"Cut the polygon into triangles: sides minus two."*
+Bonus: each exterior angle of a regular polygon = **360°/n** — *"Exterior angles always race around the full circle."*
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 5 — "πr² is the PIE, 2πr is the CRUST"** │
+└─────────────────────────────────────────────┘
+Area of circle = **πr²** (the whole pie 🥧)
+Circumference = **2πr** (just the crust/edge)
+🗣️ *"Area has r SQUARED because area is always squared units — the pie fills space; the crust is just a line."*
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 6 — Pythagorean Triples: "3-4-5 and Family"** │
+└─────────────────────────────────────────────┘
+Memorize the family, skip the calculation:
+**3-4-5** | **5-12-13** | **8-15-17** | **7-24-25** | **20-21-29**
+And any multiple works: 6-8-10, 9-12-15, 10-24-26…
+🗣️ *"Odd-start triples: 3, 5, 7, 9… — square the odd number, split the result into two consecutive numbers."*
+Example: 7² = 49 → 24 + 25 → **7-24-25**. Instant!
+(Note: this square-and-split shortcut works only when the smallest side is odd — 8-15-17 and 20-21-29 are separate triples to memorize.)
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 7 — "CENTroid = CENTre of Mass = 2:1"** │
+└─────────────────────────────────────────────┘
+The **centroid** (where medians meet) divides every median in ratio **2 : 1** — longer part toward the vertex.
+🗣️ *"The centroid is greedy — it keeps TWICE as much of the median on the vertex side."*
+Also: **In**centre = **in**side circle (angle bisectors); **Circum**centre = circle **around** (perpendicular bisectors); **Ortho**centre = altitudes.
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 8 — "SSS, SAS, ASA, RHS — No ASS!"** │
+└─────────────────────────────────────────────┘
+Congruency tests that WORK: **SSS, SAS, ASA (AAS), RHS**
+Trap: **ASS/SSA does NOT prove congruency** (two different triangles possible).
+🗣️ *"The angle must be BETWEEN the two sides (SAS) — an angle sitting outside the sandwich proves nothing."*
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 9 — "TANGENT = 90° HANDSHAKE"** │
+└─────────────────────────────────────────────┘
+Radius ⟂ Tangent at the point of contact — always **90°**.
+🗣️ *"The radius shakes hands with the tangent at a perfect right angle — no leaning allowed."*
+Bonus: tangents from an external point are **equal** — *"Two arms reaching the circle from one point are the same length."*
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 10 — "Angle at Centre = DOUBLE the Edge"** │
+└─────────────────────────────────────────────┘
+Angle subtended by an arc at the **centre = 2 ×** angle at the circumference.
+🗣️ *"The centre is the BOSS — it sees double what the circumference sees."*
+Corollary: angle in a **semicircle = 90°** (centre sees 180°, edge sees half).
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 11 — Hero's Formula: "s is the SEMI-perimeter"** │
+└─────────────────────────────────────────────┘
+Area = **√[s(s−a)(s−b)(s−c)]**, where s = (a+b+c)/2
+🗣️ *"HERO takes the SEMI-perimeter, then subtracts each side — multiply all four, take the root."*
+Memory image: a hero 🦸 stands on **s**, kicks away a, b, c one by one.
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 12 — "30-60-90 → 1 : √3 : 2" (The Ladder)** │
+└─────────────────────────────────────────────┘
+Sides opposite 30°, 60°, 90° = **1 : √3 : 2** (climbing order)
+45-45-90 → **1 : 1 : √2**
+🗣️ *"Small angle, small side — the sides climb the ladder with the angles: 1, √3, 2."*
+Exam speed: see 60° in a right triangle → instantly scale the triple.
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 13 — "Cyclic Quad: Opposites = 180°"** │
+└─────────────────────────────────────────────┘
+In a cyclic quadrilateral, **opposite angles are supplementary** (A + C = 180°, B + D = 180°).
+🗣️ *"Opposites attract to 180 — corners facing each other across the circle complete a half-turn together."*
+Trap alert: adjacent angles are NOT supplementary (that's a parallelogram property).
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 14 — "Distance = Pythagoras in Disguise"** │
+└─────────────────────────────────────────────┘
+Distance between (x₁,y₁) and (x₂,y₂) = **√[(x₂−x₁)² + (y₂−y₁)²]**
+🗣️ *"Every distance question is secretly a right triangle — the coordinate differences are the legs."*
+Section formula hook: *"m:n means m pulls toward the OTHER point"* — coordinate = (mx₂+nx₁)/(m+n). The weight crosses over!
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 15 — "Similar Triangles: Areas = SQUARE the Ratio"** │
+└─────────────────────────────────────────────┘
+If sides are in ratio **k**, areas are in ratio **k²**.
+🗣️ *"Length is one-dimensional, area is two — so the ratio gets SQUARED. Volume? CUBED."*
+Quick kill: sides 2:3 → areas 4:9. No formula needed, just square it.

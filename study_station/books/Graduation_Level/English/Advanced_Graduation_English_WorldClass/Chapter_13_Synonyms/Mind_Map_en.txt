@@ -1,0 +1,35 @@
+```mermaid
+graph TD
+    A["Synonyms<br>Words with Similar Meanings"] --> B["Core Concepts"]
+    A --> C["Word-Building Roots"]
+    A --> D["Examiner Traps"]
+    A --> E["Solving Strategies"]
+    A --> F["Time Management"]
+
+    B --> B1["Exact Synonym<br>begin = commence"]
+    B --> B2["Near Synonym<br>happy ≈ glad / content"]
+    B --> B3["Context-Dependent<br>right = correct / direction"]
+    B --> B4["Register Matters<br>formal vs informal<br>purchase vs buy"]
+
+    C --> C1["BENE = good<br>benefit, benevolent"]
+    C --> C2["MAL = bad<br>malice, malignant"]
+    C --> C3["CHRON = time<br>chronic, synchronize"]
+    C --> C4["PHIL = love<br>philanthropy, bibliophile"]
+    C --> C5["OMNI = all<br>omnipotent, omniscient"]
+    C --> C6["LOQU = speak<br>eloquent, loquacious"]
+
+    D --> D1["Sound-Right Trap<br>similar sound ≠ similar meaning<br>enervate ≠ energize"]
+    D --> D2["Partial-Meaning Trap<br>option matches only one sense"]
+    D --> D3["Over-Thinking Trap<br>rare word picked over obvious one"]
+    D --> D4["False Friends<br>deceive vs delude<br>confuse vs confound"]
+
+    E --> E1["Step 1: Read word in sentence"]
+    E --> E2["Step 2: Guess meaning before options"]
+    E --> E3["Step 3: Eliminate antonyms first"]
+    E --> E4["Step 4: Match tone and register"]
+    E --> E5["Step 5: Verify by substitution"]
+
+    F --> F1["Fact-Based Recall<br>15 seconds<br>direct vocabulary"]
+    F --> F2["Context-Based Inference<br>45 seconds<br>word in passage"]
+    F --> F3["Skip Strategy<br>unknown word + no clue<br>mark and move on"]
+```

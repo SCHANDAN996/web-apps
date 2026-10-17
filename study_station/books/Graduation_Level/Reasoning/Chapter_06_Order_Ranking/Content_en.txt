@@ -1,0 +1,28 @@
+# Order & Ranking — Chapter Outline
+
+**Learning Goals:**
+- Understand the core concepts of Order & Ranking
+- Learn to solve problems on Order & Ranking
+- Apply the concepts of Order & Ranking
+
+**Hook:**
+Imagine a queue of people. You know a person's position from the front and from the back. Can you find the total number of people in the queue? That is exactly what Order & Ranking questions ask — and with one simple formula, you can answer them in seconds.
+
+**Why this chapter matters:**
+Order & Ranking is one of the most scoring topics in the Reasoning section of SSC, Railway, Bank and State exams. Questions are short, need no long calculation, and follow a small set of fixed patterns. If you master the few standard types, you can solve these questions quickly and accurately.
+
+**What you will learn:**
+1. **Position from one end** — finding a person's rank from the other end when total strength and one rank are known.
+2. **Total strength of a row** — finding the total number of persons when one person's positions from both ends are given.
+3. **Number of persons between two people** — using ranks from the same end or from opposite ends.
+4. **Interchanging positions** — finding the new total or new rank when two persons swap places.
+5. **Ranking by comparison** — arranging persons by height, weight, marks or age using "taller than", "heavier than" type clues.
+
+**Key formulas (to be explained with examples in the chapter):**
+- Total persons = (Position from left) + (Position from right) − 1
+- Position from one end = (Total persons) − (Position from the other end) + 1
+
+**Common traps to avoid:**
+- Forgetting the "−1" when adding positions from both ends (the person gets counted twice).
+- Mixing up "from the left" and "from the right" while reading the question.
+- Assuming the direction of the row when it is not stated — read the question carefully.

@@ -1,0 +1,105 @@
+# 📊 PYQ Analysis — Compound Interest (Advanced Level)
+
+## 1. How Exams Test This Chapter
+
+Compound Interest is a permanent resident of the quantitative section in UPSC CSAT, SSC CGL Tier-II, IBPS PO Mains, CAT and State PCS papers. Examiners rarely ask the plain formula A = P(1 + r/100)ⁿ directly. Instead, they wrap it in one of these recurring patterns:
+
+**Pattern A — CI vs SI comparison.** "The difference between CI and SI for 2 years is ₹X. Find the rate or principal." This is the single most repeated idea across banking and SSC exams. The trap: students forget that the 2-year difference equals interest on the first year's interest, i.e., P(r/100)².
+
+**Pattern B — Compounding frequency change.** Half-yearly or quarterly compounding. The trap: forgetting to halve the rate and double the time (or divide rate by 4, multiply time by 4).
+
+**Pattern C — Amount becomes n times.** "A sum doubles/triples in t years; in how many years will it become 8 times?" The trap: adding years linearly instead of using powers (if 2× in t years, then 8× = 2³ in 3t years).
+
+**Pattern D — Rate changes every year.** r₁% first year, r₂% second year. The trap: adding the rates instead of multiplying the factors (1 + r₁/100)(1 + r₂/100).
+
+**Pattern E — Installments / depreciation / population growth.** Same formula, new costume. The trap: misreading whether the value grows (×(1+r/100)) or decays (×(1−r/100)).
+
+**Pattern F — Finding rate or time from given CI.** Requires back-calculation; the trap is premature rounding of (1 + r/100)ⁿ.
+
+**Pattern G — CI for fractional time** (e.g., 2½ years). The trap: applying the power formula blindly instead of computing 2 full years + simple interest on the amount for the remaining fraction.
+
+**Psychological hooks examiners use:**
+- *Near-correct statements* in CSAT: "CI is always more than double the SI" — sounds plausible, is false.
+- *Time-line confusion*: "at the end of 2 years" vs "during the 2nd year" — the second asks only for year-2 interest.
+- *Similar-sounding names*: "compounded annually" vs "compounded half-yearly" buried mid-sentence.
+- *Negative framing*: "which of the following is NOT true" — students mark the first true statement.
+
+---
+
+## 2. Top 10 High-Yield Questions (with Solutions)
+
+**Q1.** The difference between compound interest and simple interest on a sum for 2 years at 10% per annum is ₹50. Find the sum.
+
+*Solution:* Difference for 2 years = P(r/100)² = P × (10/100)² = P/100.
+P/100 = 50 ⇒ P = ₹5,000.
+*Hook:* Students set up the full CI − SI expansion and waste minutes. The shortcut P(r/100)² finishes it in seconds.
+*Source: PYQ-style (banking exams)*
+
+**Q2.** A sum becomes ₹6,050 in 2 years and ₹6,655 in 3 years at compound interest. Find the rate.
+
+*Solution:* Interest earned in the 3rd year = 6,655 − 6,050 = ₹605, on ₹6,050.
+Rate = 605/6,050 × 100 = 10%.
+*Hook:* The ratio of two consecutive amounts directly gives (1 + r/100). No need to find the principal.
+*Source: PYQ-style (SSC pattern)*
+
+**Q3.** A sum doubles itself in 5 years at compound interest. In how many years will it become 8 times?
+
+*Solution:* 8 = 2³, so time = 3 × 5 = 15 years.
+*Hook:* The linear instinct says "8 is 4 times 2, so 20 years." Growth is multiplicative, not additive.
+*Source: PYQ-style (CSAT pattern)*
+
+**Q4.** Find the compound interest on ₹10,000 at 20% per annum for 1½ years, interest compounded half-yearly.
+
+*Solution:* Half-yearly: rate = 10%, periods = 3.
+A = 10,000 × (1.1)³ = 10,000 × 1.331 = ₹13,310. CI = ₹3,310.
+*Hook:* Using r = 20% and n = 1.5 directly is the classic error. Frequency change means adjust both r and n.
+*Source: PYQ-style (PO Mains pattern)*
+
+**Q5.** A sum is invested at 10% in the first year and 20% in the second year (compound interest). If the amount after 2 years is ₹6,600, find the sum.
+
+*Solution:* A = P × 1.10 × 1.20 = 1.32P = 6,600 ⇒ P = ₹5,000.
+*Hook:* Adding rates (10 + 20 = 30%) gives 1.30P and a wrong answer. Rates multiply as factors, never add.
+*Source: PYQ-style*
+
+**Q6.** The difference between CI and SI on a sum for 3 years at 10% p.a. is ₹31. Find the sum.
+
+*Solution:* For 3 years, difference = P(r/100)²(3 + r/100) = P × 0.01 × 3.1 = 0.031P.
+0.031P = 31 ⇒ P = ₹1,000.
+*Hook:* Students wrongly reuse the 2-year formula P(r/100)². The 3-year difference has an extra (3 + r/100) factor.
+*Source: PYQ-style (SSC CGL pattern)*
+
+**Q7.** The population of a town is 1,00,000. It increases by 10% in the first year and decreases by 10% in the second. What is the population after 2 years?
+
+*Solution:* 1,00,000 × 1.10 × 0.90 = 1,00,000 × 0.99 = 99,000.
+*Hook:* "+10% then −10% cancels out" is the trap. The base changes, so the net effect is a 1% loss.
+*Source: PYQ-style (CSAT pattern)*
+
+**Q8.** Find the compound interest on ₹8,000 at 5% per annum for 2 years 4 months.
+
+*Solution:* For 2 years: A = 8,000 × (1.05)² = 8,000 × 1.1025 = ₹8,820.
+For 4 months (simple interest on ₹8,820): SI = 8,820 × 5 × (4/12)/100 = ₹147.
+CI = 820 + 147 = ₹967.
+*Hook:* Fractional time is handled as full years (compound) + fraction (simple on the grown amount), not by a fractional exponent in exams.
+*Source: PYQ-style*
+
+**Q9.** A machine worth ₹2,56,000 depreciates at 12.5% per annum. Find its value after 3 years.
+
+*Solution:* Value = 2,56,000 × (1 − 1/8)³ = 2,56,000 × (7/8)³ = 2,56,000 × 343/512 = ₹1,71,500.
+*Hook:* 12.5% = 1/8 — exams pick rates that convert to neat fractions. Students who use decimals drown in arithmetic.
+*Source: PYQ-style (banking pattern)*
+
+**Q10.** At what rate per annum will ₹4,000 amount to ₹4,410 in 2 years, compounded annually?
+
+*Solution:* 4,410/4,000 = 1.1025 = (1.05)² ⇒ (1 + r/100) = 1.05 ⇒ r = 5%.
+*Hook:* Recognising 1.1025 = (1.05)² is the whole game. Memorise squares of 1.05, 1.10, 1.15, 1.20 — they recur constantly.
+*Source: PYQ-style*
+
+---
+
+## 3. Quick Revision Pointers from the Analysis
+
+- Master the two difference formulas: 2 years → P(r/100)²; 3 years → P(r/100)²(3 + r/100).
+- Consecutive amounts ratio = (1 + r/100). Growth "times" questions are power questions.
+- Frequency change: divide rate, multiply periods — always both.
+- Convert rates to fractions (12.5% = 1/8, 16⅔% = 1/6, 33⅓% = 1/3) before computing.
+- Read the question twice for: frequency, "end of" vs "during", growth vs decay, and NOT-type framing.

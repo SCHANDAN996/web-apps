@@ -1,0 +1,165 @@
+# 📊 PYQ Analysis — Critical Reasoning (Advanced Level)
+
+## 1. How Exams Test This Chapter
+
+Critical Reasoning appears across SSC CGL (Tier-I & II), SSC CHSL, IBPS PO/Clerk, SBI PO, RRB NTPC, and State PCS prelims in a handful of recurring formats. Instead of counting questions year by year (we do not have verified official data for that), here is what a careful reading of available papers shows about **patterns**:
+
+**Recurring question families:**
+
+1. **Statement & Assumption** — "Which assumption is implicit?" The single most repeated family. Exams love assumptions that *paraphrase* the statement (a trap) versus assumptions that the speaker must truly take for granted.
+2. **Statement & Conclusion** — Conclusions that go *beyond* the statement ("all", "always", "only") are the standard trap.
+3. **Statement & Course of Action** — Only practical, logical, problem-solving actions are valid; extreme or punitive actions are traps.
+4. **Strong vs Weak Arguments** — "Should India…?" style. Emotional, one-sided, or example-based arguments are weak; structural, reasoned arguments are strong.
+5. **Cause & Effect** — Two statements: common cause, direct cause-effect, or independent events? Chronology confusion is the favourite trap.
+6. **Inference from a passage** (Banking exams especially) — "definitely true / probably true / cannot be determined" gradations.
+7. **Assertion & Reason** — Both true but R not explaining A is the classic answer students miss.
+8. **Strengthen / Weaken** (growing in Banking and CGL Tier-II) — identify what supports or attacks the argument's *conclusion*, not its premises.
+
+**Exam-wise flavour (qualitative):**
+
+- **SSC exams (CGL, CHSL):** short one-liner statements; assumption/conclusion dominate; options are usually "only I", "only II", "both", "neither".
+- **RRB NTPC (Railway):** similar short-format assumption/conclusion and cause-effect items, usually at a slightly easier level than CGL.
+- **IBPS / SBI PO (Banking):** longer passages, inference gradations, strengthen/weaken, and "which of the following can be concluded" — more time-consuming.
+- **State PCS:** assertion-reason and course-of-action appear frequently, often with governance-themed statements.
+
+**The examiner's favourite traps (in words):**
+
+- **Almost-true conclusion:** restates the statement with one word upgraded ("some" → "all").
+- **Emotional argument:** sounds morally right but gives no reason — a *weak* argument dressed as strong.
+- **Chronology illusion:** B happened after A, so B "must" be A's effect — often they share a common cause.
+- **Extreme course of action:** "dismiss all employees" — decisive-sounding but illogical.
+- **Negative wording:** "Which is NOT implicit?" — students answer the positive version in a hurry.
+
+---
+
+## 2. The 15-Second / 45-Second Rule — Review
+
+- **15-second rule:** If after 15 seconds you cannot even classify the question type (assumption? conclusion? cause-effect?), mark and move on.
+- **45-second rule:** Assumption/conclusion/argument questions with one-line statements should be solved within 45 seconds. If you are re-reading the statement a third time, your answer is probably being pulled by a trap option — pick by elimination and move.
+- **Skip candidates:** long-passage inference questions (Banking style) with 4–5 line statements and "probably true / cannot be determined" gradations — budget these for the second pass, 90+ seconds each.
+- **Never skip:** short assertion-reason and cause-effect questions — they are the fastest marks in this chapter.
+
+---
+
+## 3. Top 10 High-Yield Questions (with Solutions & Trap Analysis)
+
+**Q1. Statement:** "The government has decided to levy a congestion tax on private vehicles entering the city centre during peak hours."
+**Assumptions:**
+I. People may shift to public transport to avoid the tax.
+II. The tax can be collected effectively at entry points.
+(a) Only I is implicit (b) Only II is implicit (c) Both are implicit (d) Neither is implicit
+**Answer: (c)**
+**Solution:** Any policy decision assumes both that it will influence behaviour (I) and that it is implementable (II).
+**Trap:** Students reject I thinking "may" makes it uncertain — but an assumption need only be *taken for granted by the decision-maker*, not guaranteed.
+**Source:** PYQ-style (SSC CGL pattern)
+
+**Q2. Statement:** "Regular exercise reduces the risk of heart disease."
+**Conclusions:**
+I. All people who exercise regularly will never get heart disease.
+II. Exercise is beneficial for heart health.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+**Answer: (b)**
+**Solution:** "Reduces risk" ≠ "eliminates risk"; I upgrades "reduces" to "never" — the classic almost-true trap. II is a safe restatement.
+**Trap:** Absolute words ("all", "never") smuggled into the conclusion.
+**Source:** PYQ-style (SSC CHSL pattern)
+
+**Q3. Statement:** "Several passengers were injured when a bus overturned on the highway due to over-speeding."
+**Courses of Action:**
+I. The driver should be suspended and an inquiry ordered.
+II. Speed governors should be made mandatory on all highway buses.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+**Answer: (c)**
+**Solution:** I addresses accountability for this incident; II addresses the systemic cause. Both are practical and logical.
+**Trap:** Students mark II as "too extreme" — but a preventive regulation is a standard valid course of action, unlike punitive mass actions.
+**Source:** PYQ-style (State PCS pattern)
+
+**Q4. Statement:** Should India make voting compulsory for all eligible citizens?
+**Arguments:**
+I. Yes, it will ensure that election results truly reflect the will of the people.
+II. No, voting is a personal choice and forcing it violates individual freedom.
+(a) Only I is strong (b) Only II is strong (c) Both are strong (d) Neither is strong
+**Answer: (c)**
+**Solution:** Both give reasoned, structural grounds — democratic legitimacy vs individual liberty. Strong arguments can exist on both sides.
+**Trap:** Students pick the side they personally agree with. Strength is about *reasoning quality*, not your opinion.
+**Source:** PYQ-style (IBPS pattern)
+
+**Q5. Statements:**
+I. The prices of vegetables have risen sharply this month.
+II. Unseasonal rains damaged standing crops in several districts.
+(a) I is the cause and II is the effect
+(b) II is the cause and I is the effect
+(c) Both are effects of a common cause
+(d) Both are independent causes
+**Answer: (b)**
+**Solution:** Crop damage (II) reduces supply, which pushes prices up (I) — a direct cause-effect chain.
+**Trap:** Chronology illusion in reverse — students see "prices rose" first in the sentence and assume it is the cause. Read the logic, not the order of presentation.
+**Source:** PYQ-style (SSC CGL pattern)
+
+**Q6. Assertion (A):** The Sahara desert is expanding southward.
+**Reason (R):** Overgrazing and deforestation in the Sahel region degrade the land.
+(a) Both A and R are true and R explains A
+(b) Both are true but R does not explain A
+(c) A is true, R is false
+(d) A is false, R is true
+**Answer: (a)**
+**Solution:** Land degradation in the Sahel is a documented driver of desertification — R directly explains A.
+**Trap:** The famous "both true but not the explanation" option (b) tempts students who overthink; here the causal link is genuine.
+**Source:** NCERT Class 11 Geography (Fundamentals of Physical Geography)
+
+**Q7. Passage:** "Company X's profits rose by 20% this year. The company attributes this to its new cost-cutting policy introduced last year."
+**Which of the following, if true, most weakens the company's claim?**
+(a) The company also launched a new product line last year that became a bestseller.
+(b) Cost-cutting reduced the company's expenses.
+(c) Other companies in the sector also saw profit growth.
+(d) The policy was implemented by an experienced manager.
+**Answer: (a)**
+**Solution:** (a) offers an alternative cause for the profit rise, directly attacking the attribution. (b) supports the claim; (c) is about the sector, not this company's attribution; (d) is irrelevant.
+**Trap:** (c) feels like a weakener ("everyone grew") but does not break the internal link between the policy and Company X's profit.
+**Source:** PYQ-style (SBI PO pattern)
+
+**Q8. Statement:** "The school has instructed parents to ensure their children do not carry mobile phones to school."
+**Assumptions:**
+I. Parents are in a position to enforce this instruction.
+II. Mobile phones are harmful in every possible way.
+(a) Only I is implicit (b) Only II is implicit (c) Both are implicit (d) Neither is implicit
+**Answer: (a)**
+**Solution:** The instruction presupposes parents can act on it (I). II is an extreme generalisation — the school need only believe phones are disruptive, not "harmful in every possible way".
+**Trap:** Extreme-word assumption ("every possible way") — the single most repeated assumption trap.
+**Source:** PYQ-style (SSC CGL pattern)
+
+**Q9. Passage (Banking style):** "The RBI's report notes that digital payment transactions in rural areas have grown, though cash remains the dominant mode for daily purchases in these regions."
+**Which inference is definitely true?**
+(a) Cash will soon disappear from rural areas.
+(b) Digital transactions in rural areas have increased.
+(c) Urban areas have fully adopted digital payments.
+(d) Rural people distrust digital payments.
+**Answer: (b)**
+**Solution:** (b) is a direct restatement of "have grown". (a) is a prediction, (c) is outside the passage's scope, (d) invents a motive not stated.
+**Trap:** (d) is psychologically plausible — inference questions punish "reasonable-sounding" additions beyond the text.
+**Source:** PYQ-style (IBPS PO pattern)
+**⏱ Skip note:** Passage-based inference items like this deserve the second pass if the passage exceeds 3 lines — do not burn 90 seconds here in the first round.
+
+**Q10. Statement:** "Despite a nationwide awareness campaign, the number of road accidents caused by drunk driving has not declined."
+**Which of the following best explains the paradox?**
+(a) The campaign reached only urban audiences while enforcement checks on highways were simultaneously reduced.
+(b) People generally ignore awareness campaigns.
+(c) Road accidents are impossible to prevent.
+(d) Drunk driving is a serious offence.
+**Answer: (a)**
+**Solution:** (a) supplies a concrete mechanism — awareness without enforcement fails — resolving the paradox. (b) and (c) are sweeping generalisations; (d) is true but explains nothing.
+**Trap:** (d) is a "true but irrelevant" option — the most common paradox-question trap.
+**Source:** PYQ-style (SSC CGL Tier-II pattern)
+**⏱ Skip note:** Paradox/explain questions with four long options often exceed 45 seconds; if two options both look plausible after one reading, mark and revisit rather than forcing a guess.
+
+---
+
+## 4. Quick Revision of the Chapter's PYQ Lessons
+
+1. Assumption = what the speaker *takes for granted*, not what is desirable or true in general.
+2. Conclusions with "all / always / never / only" are guilty until proven innocent.
+3. Courses of action must be practical, legal, and problem-solving — never extreme or retaliatory.
+4. Argument strength is about reasoning, not your personal opinion or emotional appeal.
+5. In cause-effect, follow the logic chain, not the sentence order.
+6. In inference, "definitely true" means *only* what the text says — plausible additions are traps.
+7. Assertion-Reason: check the *link*, not just the truth of each part.
+8. Apply the 15/45-second rule ruthlessly: short assumption/conclusion items first, long-passage inference and paradox items in the second pass.

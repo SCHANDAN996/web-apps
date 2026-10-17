@@ -1,0 +1,49 @@
+```mermaid
+graph TD
+    A["प्रतिशत<br>Percentage"] --> B["मूल अवधारणा<br>Basic Concept"]
+    A --> C["रूपांतरण<br>Conversions"]
+    A --> D["प्रतिशत परिवर्तन<br>% Change"]
+    A --> E["लाभ-हानि<br>Profit & Loss"]
+    A --> F["ब्याज<br>Interest"]
+    A --> G["छूट<br>Discount"]
+    A --> H["अनुप्रयोग<br>Applications"]
+    A --> I["उन्नत प्रकार<br>Advanced Types"]
+
+    B --> B1["x% = x/100<br>प्रति सौ"]
+    B --> B2["संख्या का %<br>% of a Number"]
+    B --> B3["एक संख्या दूसरी का कितना %<br>% Comparison"]
+
+    C --> C1["भिन्न → प्रतिशत<br>Fraction → %"]
+    C --> C2["प्रतिशत → भिन्न<br>% → Fraction"]
+    C --> C3["दशमलव ↔ प्रतिशत<br>Decimal ↔ %"]
+    C --> C4["मानक तालिका<br>1/2=50%, 1/3=33.33%<br>1/4=25%, 1/8=12.5%"]
+
+    D --> D1["% वृद्धि = (वृद्धि/मूल)×100<br>% Increase"]
+    D --> D2["% कमी = (कमी/मूल)×100<br>% Decrease"]
+    D --> D3["क्रमिक परिवर्तन<br>Successive Change<br>a+b+ab/100"]
+    D --> D4["मूल्य वापसी<br>Reversing a Change<br>x/(100±x)×100"]
+
+    E --> E1["लाभ% = लाभ/CP×100<br>Profit %"]
+    E --> E2["हानि% = हानि/CP×100<br>Loss %"]
+    E --> E3["SP = CP×(100±x)/100"]
+    E --> E4["CP पर vs SP पर<br>Base Trap"]
+
+    F --> F1["साधारण ब्याज<br>SI = PRT/100"]
+    F --> F2["चक्रवृद्धि ब्याज<br>CI = P(1+R/100)^T − P"]
+    F --> F3["CI − SI अंतर<br>Difference"]
+
+    G --> G1["छूट% = छूट/MP×100<br>Discount on Marked Price"]
+    G --> G2["क्रमिक छूट<br>Successive Discounts"]
+    G --> G3["MP, CP, SP संबंध<br>Mark-up + Discount"]
+
+    H --> H1["जनसंख्या वृद्धि/कमी<br>Population Change"]
+    H --> H2["चुनाव/मतदान<br>Elections & Votes"]
+    H --> H3["परीक्षा अंक/उत्तीर्ण<br>Marks & Pass %"]
+    H --> H4["आय-व्यय/बचत<br>Income-Expenditure"]
+    H --> H5["मिश्रण/मूल्य वृद्धि<br>Mixture & Price Hike"]
+
+    I --> I1["प्रतिशत बिंदु vs प्रतिशत<br>% Points vs %"]
+    I --> I2["डेटा इंटरप्रिटेशन<br>DI में प्रतिशत"]
+    I --> I3["अनुपात से प्रतिशत<br>Ratio ↔ %"]
+    I --> I4["नेट परिवर्तन<br>Net Effect"]
+```

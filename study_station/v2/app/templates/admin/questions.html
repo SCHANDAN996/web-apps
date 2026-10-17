@@ -1,0 +1,29 @@
+{% extends 'admin/base.html' %}
+{% block title %}Questions{% endblock %}
+{% block main %}
+<h1>Questions</h1>
+<nav class="chips" style="margin-bottom:var(--sp-3)">
+  {% for key, label in queues.items() %}<a class="chip" href="?queue={{ key }}&subject={{ subject }}" {% if key == queue %}aria-current="true"{% endif %}>{{ label }}</a>{% endfor %}
+</nav>
+<nav class="chips" style="margin-bottom:var(--sp-4)">
+  <a class="chip" href="?queue={{ queue }}" {% if not subject %}aria-current="true"{% endif %}>All subjects</a>
+  {% for s in subjects %}<a class="chip" href="?queue={{ queue }}&subject={{ s.slug }}" {% if s.slug == subject %}aria-current="true"{% endif %}>{{ s.name_en }}</a>{% endfor %}
+</nav>
+<p class="small muted">{{ total }} questions · page {{ page_no }}/{{ pages }}</p>
+<table class="tbl">
+  <thead><tr><th>#</th><th>Question</th><th>Topic</th><th>Note</th><th></th></tr></thead>
+  <tbody>
+  {% for q in rows %}
+    <tr><td>{{ q.id }}</td>
+      <td>{{ (q.text_hi or q.text_en)[:140] }}{% if report_counts.get(q.id) %} <span class="badge badge-bad">{{ report_counts[q.id] }} reports</span>{% endif %}</td>
+      <td class="xs">{{ q.topic.subject.slug }} / {{ q.topic.name_en }}</td>
+      <td class="xs muted">{{ q.review_note or '' }}</td>
+      <td><a class="btn btn-secondary btn-sm" href="/admin/questions/{{ q.id }}?queue={{ queue }}">Open</a></td></tr>
+  {% else %}<tr><td colspan="5" class="muted">Nothing here 🎉</td></tr>{% endfor %}
+  </tbody>
+</table>
+<div class="row" style="margin-top:var(--sp-4)">
+  {% if page_no > 1 %}<a class="btn btn-secondary btn-sm" href="?queue={{ queue }}&subject={{ subject }}&page_no={{ page_no - 1 }}">← Prev</a>{% endif %}
+  {% if page_no < pages %}<a class="btn btn-secondary btn-sm" href="?queue={{ queue }}&subject={{ subject }}&page_no={{ page_no + 1 }}">Next →</a>{% endif %}
+</div>
+{% endblock %}

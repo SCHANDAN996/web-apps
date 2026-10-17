@@ -1,3 +1,151 @@
-# Chapter: Permutation & Combination, Level: intermediate, Set: 6/6
+प्रश्न 126–140: आसान | प्रश्न 141–150: मध्यम (Easy: 126–140 | Medium: 141–150)
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Permutation & Combination. This is Set 6 (total 6 sets, 150 questions). Questions must be numbered 126 to 150. All 25 questions should be Hard. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+126. In how many ways can 5 boys and 5 girls be seated in a row so that no two girls sit together?
+(a) 6! × 5! (b) 5! × 5! (c) 10! (d) 2 × 5! × 5!
+Answer: (a)
+Solution: The tempting wrong option 2 × 5! × 5! treats this like an alternating arrangement, but that forces a strict boy-girl pattern, which is not required. First arrange the 5 boys in 5! ways, creating 6 gaps (including both ends); place the 5 girls in these gaps in ⁶P₅ = 6! ways. Total = 5! × 6!, so the answer is 6! × 5!.
+Source: NCERT Class 11 Mathematics
+
+127. How many words can be formed from the letters of the word "MISSISSIPPI"?
+(a) 11! (b) 39600 (c) 34650 (d) 69300
+Answer: (c)
+Solution: The tempting wrong option 11! ignores the repeated letters. MISSISSIPPI has 11 letters with I appearing 4 times, S appearing 4 times, and P appearing 2 times, so the count is 11!/(4! × 4! × 2!) = 34650, so the answer is 34650.
+Source: NCERT Class 11 Mathematics
+
+128. In how many ways can 10 identical balls be distributed among 4 distinct boxes if each box must get at least one ball?
+(a) 120 (b) 286 (c) 210 (d) 84
+Answer: (d)
+Solution: The tempting wrong option 286 = ¹³C₃ counts distributions where boxes may stay empty. With at least one ball per box, give one ball to each box first, then distribute the remaining 6 identical balls freely: ⁹C₃ = 84, so the answer is 84.
+Source: PYQ-style
+
+129. How many diagonals does a convex polygon of 12 sides have?
+(a) 48 (b) 66 (c) 60 (d) 54
+Answer: (d)
+Solution: The tempting wrong option 66 = ¹²C₂ counts all line segments joining pairs of vertices, including the 12 sides. Diagonals = ¹²C₂ − 12 = 66 − 12 = 54, so the answer is 54.
+Source: NCERT Class 11 Mathematics
+
+130. A committee of 5 is to be formed from 6 men and 4 women so that the committee contains at least 2 women. In how many ways can this be done?
+(a) 186 (b) 180 (c) 336 (d) 246
+Answer: (a)
+Solution: The tempting wrong option 336 = ⁴C₂ × ⁸C₃ double-counts committees having 3 or 4 women. The correct case-by-case count is ⁴C₂·⁶C₃ + ⁴C₃·⁶C₂ + ⁴C₄·⁶C₁ = 120 + 60 + 6 = 186, so the answer is 186.
+Source: PYQ-style
+
+131. How many 4-digit numbers greater than 5000 can be formed using the digits 0, 1, 2, 3, 4, 5, 6 without repetition?
+(a) 480 (b) 360 (c) 240 (d) 720
+Answer: (c)
+Solution: The tempting wrong option 720 = 6 × 5 × 4 × 3 wrongly allows the thousands digit to be 1, 2, 3 or 4, which produces numbers below 5000. The thousands digit must be 5 or 6 (2 choices), and the remaining three places are filled from the remaining 6 digits in ⁶P₃ = 120 ways: 2 × 120 = 240, so the answer is 240.
+Source: PYQ-style
+
+132. In how many ways can 8 people sit around a round table if 2 particular persons must not sit together?
+(a) 4320 (b) 3600 (c) 5040 (d) 720
+Answer: (b)
+Solution: The tempting wrong option 5040 = 7! counts all circular arrangements without the restriction. Total circular arrangements = 7! = 5040; arrangements with the two together = 2 × 6! = 1440; required = 5040 − 1440 = 3600, so the answer is 3600.
+Source: PYQ-style
+
+133. How many words can be formed using all the letters of "ARRANGE" so that the two R's are never together?
+(a) 1080 (b) 1260 (c) 900 (d) 840
+Answer: (c)
+Solution: The tempting wrong option 1260 counts all arrangements ignoring the restriction. Total arrangements = 7!/(2!·2!) = 1260 (A and R each repeat twice); arrangements with both R's together = 6!/2! = 360; required = 1260 − 360 = 900, so the answer is 900.
+Source: NCERT Class 11 Mathematics
+
+134. From a group of 10 people, in how many ways can a selection of 4 be made if one particular person is always included?
+(a) 84 (b) 120 (c) 210 (d) 126
+Answer: (a)
+Solution: The tempting wrong option 210 = ¹⁰C₄ ignores the condition that one person is fixed. Fix that person, then choose the remaining 3 from the other 9: ⁹C₃ = 84, so the answer is 84.
+Source: NCERT Class 11 Mathematics
+
+135. How many numbers between 100 and 1000 have all distinct digits?
+(a) 900 (b) 720 (c) 504 (d) 648
+Answer: (d)
+Solution: The tempting wrong option 900 = 9 × 10 × 10 allows digits to repeat. The hundreds digit has 9 choices (1–9), the tens digit has 9 choices (0 plus the 8 unused non-zero digits), and the units digit has 8 choices: 9 × 9 × 8 = 648, so the answer is 648.
+Source: PYQ-style
+
+136. In how many ways can the letters of "BANANA" be arranged?
+(a) 120 (b) 60 (c) 720 (d) 360
+Answer: (b)
+Solution: The tempting wrong option 720 = 6! ignores repeated letters. BANANA has 6 letters with A three times and N twice, so arrangements = 6!/(3! × 2!) = 60, so the answer is 60.
+Source: NCERT Class 11 Mathematics
+
+137. A box contains 5 red and 4 blue balls. In how many ways can 4 balls be drawn so that at least one is blue?
+(a) 115 (b) 121 (c) 120 (d) 126
+Answer: (b)
+Solution: The tempting wrong option 126 = ⁹C₄ counts all selections without the condition. Subtract the all-red selections: ⁹C₄ − ⁵C₄ = 126 − 5 = 121, so the answer is 121.
+Source: PYQ-style
+
+138. How many ways are there to arrange 6 different books on a shelf so that two particular books are always together?
+(a) 120 (b) 240 (c) 720 (d) 360
+Answer: (b)
+Solution: The tempting wrong option 720 = 6! ignores the togetherness condition. Treat the two books as one unit: 5 units arrange in 5! = 120 ways, and the pair swaps internally in 2 ways: 120 × 2 = 240, so the answer is 240.
+Source: NCERT Class 11 Mathematics
+
+139. In how many ways can 12 people be divided into three groups of 4 each?
+(a) 11550 (b) 34650 (c) 17325 (d) 5775
+Answer: (d)
+Solution: The tempting wrong option 34650 = 12!/(4!·4!·4!) treats the three groups as labelled, but identical-sized unlabelled groups need division by 3!. So the count is 12!/(4!·4!·4!·3!) = 5775, so the answer is 5775.
+Source: PYQ-style
+
+140. How many 5-letter words (meaningful or not) can be formed from the letters of "EQUATION" if each word must contain exactly 3 vowels and 2 consonants?
+(a) 7200 (b) 1440 (c) 3600 (d) 2880
+Answer: (c)
+Solution: The tempting wrong option 1440 undercounts by skipping the arrangement step. EQUATION has 5 vowels and 3 consonants; choose 3 vowels in ⁵C₃ = 10 ways and 2 consonants in ³C₂ = 3 ways, then arrange the 5 letters in 5! = 120 ways: 10 × 3 × 120 = 3600, so the answer is 3600.
+Source: PYQ-style
+
+141. In how many ways can 5 different prizes be given to 4 boys if each boy can receive any number of prizes?
+(a) 625 (b) 20 (c) 120 (d) 1024
+Answer: (d)
+Solution: The tempting wrong option 625 = 5⁴ reverses base and exponent. Each of the 5 prizes can go to any of the 4 boys independently, giving 4⁵ = 1024 ways, so the answer is 1024.
+Source: NCERT Class 11 Mathematics
+
+142. How many straight lines can be drawn through 10 points in a plane, no three of which are collinear?
+(a) 90 (b) 45 (c) 50 (d) 100
+Answer: (b)
+Solution: The tempting wrong option 90 = 10 × 9 counts each line twice (once from each endpoint). Lines = ¹⁰C₂ = 45, so the answer is 45.
+Source: NCERT Class 11 Mathematics
+
+143. From 10 points in a plane, of which 4 are collinear, how many triangles can be formed?
+(a) 116 (b) 120 (c) 114 (d) 100
+Answer: (a)
+Solution: The tempting wrong option 120 = ¹⁰C₃ ignores that 4 collinear points cannot form a triangle among themselves. Triangles = ¹⁰C₃ − ⁴C₃ = 120 − 4 = 116, so the answer is 116.
+Source: PYQ-style
+
+144. In how many ways can 4 boys and 3 girls be seated in a row so that all the girls sit together?
+(a) 5040 (b) 144 (c) 720 (d) 2880
+Answer: (c)
+Solution: The tempting wrong option 5040 = 7! ignores the condition. Treat the 3 girls as one block: 5 units arrange in 5! = 120 ways, and the girls arrange within the block in 3! = 6 ways: 120 × 6 = 720, so the answer is 720.
+Source: NCERT Class 11 Mathematics
+
+145. How many 3-digit even numbers can be formed from the digits 1, 2, 3, 4, 5, 6 without repetition?
+(a) 100 (b) 120 (c) 90 (d) 60
+Answer: (d)
+Solution: The tempting wrong option 120 = ⁶P₃ counts all 3-digit numbers, not just even ones. The units digit must be 2, 4 or 6 (3 choices); the remaining two places take 2 of the remaining 5 digits in ⁵P₂ = 20 ways: 3 × 20 = 60, so the answer is 60.
+Source: PYQ-style
+
+146. In how many ways can 7 different coloured beads be strung into a necklace?
+(a) 5040 (b) 360 (c) 720 (d) 2520
+Answer: (b)
+Solution: The tempting wrong option 720 = 6! treats the necklace like a round table, but a necklace can be flipped, merging clockwise and anticlockwise arrangements. Necklace arrangements = (7−1)!/2 = 720/2 = 360, so the answer is 360.
+Source: PYQ-style
+
+147. How many ways can 6 men and 6 women be seated alternately in a row?
+(a) 12! (b) (6!)² (c) 2 × (6!)² (d) 2 × 6!
+Answer: (c)
+Solution: The tempting wrong option (6!)² counts only the pattern starting with a man. The row can start with either a man or a woman (2 patterns); within each pattern men arrange in 6! ways and women in 6! ways: 2 × (6!)², so the answer is 2 × (6!)².
+Source: PYQ-style
+
+148. A student must answer 8 out of 12 questions, including exactly 4 of the first 6 questions. In how many ways can the selection be made?
+(a) 225 (b) 450 (c) 495 (d) 300
+Answer: (a)
+Solution: The tempting wrong option 495 = ¹²C₈ ignores the condition on the first 6 questions. Choose 4 of the first 6 in ⁶C₄ = 15 ways and the remaining 4 of the last 6 in ⁶C₄ = 15 ways: 15 × 15 = 225, so the answer is 225.
+Source: PYQ-style
+
+149. How many numbers greater than 3000 can be formed from the digits 1, 2, 3, 4, 5 without repetition, if each number has 4 digits?
+(a) 72 (b) 60 (c) 48 (d) 96
+Answer: (a)
+Solution: The tempting wrong option 96 = 4 × 24 wrongly allows the thousands digit to be 1 or 2, giving numbers below 3000. The thousands digit must be 3, 4 or 5 (3 choices); the other three places take 3 of the remaining 4 digits in ⁴P₃ = 24 ways: 3 × 24 = 72, so the answer is 72.
+Source: PYQ-style
+
+150. In how many ways can 10 examination papers be arranged so that the best and the worst papers never come together?
+(a) 8 × 9! (b) 9 × 9! (c) 10! − 9! (d) 8 × 8!
+Answer: (a)
+Solution: The tempting wrong option 10! − 9! subtracts only one ordering of the pair instead of both. Total arrangements = 10!; arrangements with the two together = 2 × 9!; required = 10! − 2 × 9! = 9!(10 − 2) = 8 × 9!, so the answer is 8 × 9!.
+Source: PYQ-style

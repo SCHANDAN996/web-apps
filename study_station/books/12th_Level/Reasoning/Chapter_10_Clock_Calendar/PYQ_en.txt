@@ -1,0 +1,103 @@
+# 📊 PYQ Analysis — Clock & Calendar
+
+## 1. How Exams Use This Chapter
+
+Clock & Calendar is a **small but reliable** chapter in Verbal Reasoning. It does not appear in every shift, but when it appears, the questions are highly formula-driven — which means a prepared student converts them into sure-shot marks, while an unprepared student wastes 2–3 minutes and still gets them wrong.
+
+**Where it appears most:**
+- **SSC (CGL, CHSL, MTS, GD):** Clock angle and "mirror/water image of time" questions are favourites. Calendar questions on odd days appear regularly in CGL/CHSL.
+- **Banking (IBPS, SBI):** Calendar-based day-finding and "which day falls on date X" questions; clock questions are rarer but appear in prelims reasoning.
+- **Railway (NTPC, Group D):** Both sub-topics appear; questions are usually direct formula applications.
+- **State exams (Police, PCS prelims):** Simple day/date and angle questions.
+
+## 2. Sub-topic Weightage (in words)
+
+**Clock questions** cluster around four recurring patterns:
+1. **Angle between hands** at a given time — the single most repeated pattern.
+2. **When do hands coincide / are opposite / are at right angle** between two given hours.
+3. **Mirror image and water image of a clock time** — very frequent in SSC.
+4. **Faulty clock** (gains/loses time) — less frequent, but appears in CGL-level papers.
+
+**Calendar questions** cluster around:
+1. **Finding the day of a given date** (odd-days method) — the dominant pattern.
+2. **Leap year identification** — often embedded inside a bigger question as a trap.
+3. **"Same calendar year repeats"** type questions.
+4. **Day-shift across years** ("If 15 Aug 2020 was Saturday, what was 15 Aug 2023?").
+
+## 3. The Examiner's Traps (Psychological Hooks)
+
+- **The 90°/180° confusion:** Between any two consecutive hours, the hands are at right angle **twice** and opposite **once**, but coincide only **once**. Over a full 12 hours, the totals are 11 coincidences, 22 right angles and 11 oppositions — **not** 12/24/12. The reason: in the 11-to-1 stretch the hands coincide only at 12:00, so one coincidence is "lost" from the naive count of 12. Papers exploit this with "how many times in 12 hours" questions.
+- **The mirror-image borrowing trap:** The standard shortcut is "subtract the time from 11:60" (which is just 12:00 written so that borrowing is easy). It works for **every** time — including times like 3:00 or 9:00 — *provided you borrow correctly*: 11:60 − 3:00 = 8:60 = 9:00. The trap is that students who instead subtract from 12:00 forget to borrow 1 hour as 60 minutes and write wrong answers like 9:60 or 8:00. Examiners deliberately pick :00 times to catch exactly this slip.
+- **The century-year leap trap:** 1900 is **not** a leap year, 2000 **is**. Any date calculation crossing 1900 is a trap question.
+- **The "angle at H:00" trap:** At 3:00 the angle is 90°, but at 3:30 it is **75°, not 90°** — because the hour hand has moved. This is the most exploited hook in clock questions.
+- **Reflex vs. smaller angle:** Formula gives one value; the question may ask for the *smaller* angle (take 360° − value if value > 180°).
+
+## 4. High-Yield PYQ-Style Questions with Solutions
+
+**Q1.** What is the angle between the hands of a clock at 3:30?
+(a) 90° (b) 75° (c) 80° (d) 105°
+**Answer: (b)**
+**Solution:** Angle = |30H − 5.5M| = |90 − 165| = 75°. **Hook:** Option (a) 90° is the trap — students forget the hour hand moves 15° ahead of 3 by 3:30.
+**Source:** PYQ-style (SSC pattern)
+
+**Q2.** At what time between 4 and 5 o'clock will the hands coincide?
+(a) 21⁹⁄₁₁ min past 4 (b) 20 min past 4 (c) 22 min past 4 (d) 21 min past 4
+**Answer: (a)**
+**Solution:** Coincidence at (60/11) × H minutes past H = (60/11) × 4 = 240/11 = 21⁹⁄₁₁ min. **Hook:** Option (b) tempts students who assume the hour hand stays at 4.
+**Source:** PYQ-style
+
+**Q3.** What is the mirror image of 8:25?
+(a) 3:35 (b) 4:35 (c) 3:25 (d) 4:25
+**Answer: (a)**
+**Solution:** 11:60 − 8:25 = 3:35. **Hook:** The formula works for all times, but only if you borrow correctly — students who subtract from 12:00 and forget to convert 1 hour into 60 minutes go wrong on :00 times like 3:00 or 9:00, and examiners mix both types in one paper.
+**Source:** PYQ-style
+
+**Q4.** What day of the week was 15 August 1947?
+(a) Friday (b) Saturday (c) Thursday (d) Wednesday
+**Answer: (a)**
+**Solution:** Odd days: 1600 yrs → 0; 300 yrs → 1; 46 yrs = 11 leap + 35 ordinary = 57 → 1; Jan–Jul 1947 (non-leap) = 31+28+31+30+31+30+31 = 212 → 2; +15 days → 1. Total = 0+1+1+2+1 = 5 → Friday. **Hook:** Miscounting leap years between 1901–1946 (it is 11, not 12) shifts the answer by one day.
+**Source:** PYQ-style (classic exam favourite)
+
+**Q5.** How many times do the hands of a clock coincide in 12 hours?
+(a) 12 (b) 11 (c) 10 (d) 24
+**Answer: (b)**
+**Solution:** Hands coincide every 65⁵⁄₁₁ minutes, i.e., 11 times in 12 hours (in the 11-to-1 stretch the only coincidence is at 12:00, so one coincidence is lost from the naive count of 12). **Hook:** Option (a) 12 is the intuitive-but-wrong answer; this is a pure memory trap.
+**Source:** PYQ-style
+
+**Q6.** If 1 January 2023 was a Sunday, what day was 1 January 2024?
+(a) Sunday (b) Monday (c) Tuesday (d) Saturday
+**Answer: (b)**
+**Solution:** 2023 is an ordinary year → 1 odd day → Sunday + 1 = Monday. **Hook:** Students see "2024 is a leap year" and add 2 — but the leap day of 2024 falls *after* 1 Jan 2024, so it doesn't count. **Skip-rule note:** Solvable in under 15 seconds if the odd-day rule is memorised — never skip this type.
+**Source:** PYQ-style
+
+**Q7.** A clock gains 5 minutes every hour. If set correctly at 6 AM, what will it show when the actual time is 4 PM?
+(a) 4:50 PM (b) 5:00 PM (c) 4:40 PM (d) 5:10 PM
+**Answer: (a)**
+**Solution:** In 10 actual hours the clock gains 10 × 5 = 50 min → shows 4:50 PM. **Hook:** Some students compute the gain on the *shown* time instead of actual elapsed time. **Skip-rule note:** If the question instead asks "what is the actual time when the faulty clock shows X," the proportion method takes longer — apply the 45-second rule: if your setup isn't clear in 45 seconds, mark and move on.
+**Source:** PYQ-style
+
+**Q8.** What is the angle between the hands at 7:20?
+(a) 100° (b) 90° (c) 110° (d) 80°
+**Answer: (a)**
+**Solution:** |30×7 − 5.5×20| = |210 − 110| = 100°. **Hook:** Forgetting the hour hand's drift gives 140° or 90°; forgetting the smaller-angle rule isn't needed here but appears in variants like 8:30 (75° vs 285°).
+**Source:** PYQ-style
+
+**Q9.** Which of the following years will have the same calendar as 2023?
+(a) 2034 (b) 2033 (c) 2028 (d) 2030
+**Answer: (a)**
+**Solution:** An ordinary year's calendar repeats when the odd days accumulated from the following years sum to a multiple of 7. Year-by-year odd days after 2023: 2024 is a leap year (+2), every other year +1. Cumulative sums (mod 7): 2024→2, 2025→3, 2026→4, 2027→5, 2028→0 (leap, +2)… wait — check carefully: 2024(+2)=2, 2025(+1)=3, 2026(+1)=4, 2027(+1)=5, 2028(+2)=7≡0. That would suggest 2028 repeats 2023 — but 2028 is a **leap** year while 2023 is ordinary, so their calendars cannot match (February differs). Continue: 2029→1, 2030→2, 2031→3, 2032(leap,+2)→5, 2033→6, 2034→7≡0, and 2034 is ordinary like 2023 → **2034**. **Hook:** Students pick 2028 because the odd days total 7 there — but a leap year can never share a calendar with an ordinary year. **Skip-rule note:** This requires year-by-year addition; if options span many years, it can exceed 45 seconds — attempt only if the nearest option is within ~6 years, else skip and return.
+**Source:** PYQ-style
+
+**Q10.** The water image of a clock showing 2:30 is:
+(a) 4:00 (b) 3:00 (c) 4:30 (d) 3:30
+**Answer: (a)**
+**Solution:** Water image: subtract from 18:30 → 18:30 − 2:30 = 4:00. **Hook:** Students apply the mirror formula (11:60) and get 9:30, or mix up the two formulas — examiners place both image types in the same paper.
+**Source:** PYQ-style
+
+## 5. Time Rules Review (15-sec / 45-sec strategy)
+
+- **Under 15 seconds (never skip):** leap-year check, day-shift across 1–2 years, "how many times hands coincide/are opposite in 12 hours," mirror image of a simple time.
+- **Under 45 seconds (attempt):** angle between hands (one formula), coincidence/opposition time between two hours, day-of-date for recent years.
+- **Skip-and-return candidates:** full odd-days calculation for dates before 1900, same-calendar-year questions with far-apart options, faulty-clock reverse problems ("clock shows X, find actual time"). These are solvable but eat time — in a 25-question reasoning section, banking 2 minutes here costs you 2 easier questions elsewhere.
+
+**Bottom line:** Clock & Calendar rewards formula memory, not intelligence. Master the 6 core formulas (angle, coincidence, opposition, right angle, mirror/water image, odd days) and this chapter becomes a 100%-accuracy zone.

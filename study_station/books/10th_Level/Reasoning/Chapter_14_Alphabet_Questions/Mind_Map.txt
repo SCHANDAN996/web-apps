@@ -1,21 +1,26 @@
+# Mind Map: Alphabet Questions (अक्षर आधारित प्रश्न)
+
 ```mermaid
 graph TD
-    R["🔤 वर्णमाला प्रश्न<br>Alphabet Questions"]
-    R --> D["📖 अर्थ<br>अक्षरों की स्थिति का खेल"]
-    R --> M["🗝️ आधार<br>A=1 … Z=26"]
-    R --> T["📂 प्रकार<br>Types"]
-    R --> TR["⚠️ जाल<br>Traps"]
+    Root["Alphabet Questions"] --> Foundation["Foundation & Positions"]
+    Root --> Types["Types of Questions"]
+    Root --> Strategies["Solving Strategies"]
+    Root --> Traps["Examiner Traps"]
 
-    M --> M1["EJOTY: E5 J10 O15 T20 Y25"]
-    M --> M2["दाएँ से = 27 − बाएँ से"]
+    Foundation --> F1["Forward Position: A=1 to Z=26<br/>EJOTY anchors (5, 10, 15, 20, 25)"]
+    Foundation --> F2["Reverse Position: Z=1 to A=26<br/>Rule of 27: Reverse = 27 - Forward"]
+    Foundation --> F3["Opposite Pairs: Sum = 27<br/>A-Z, B-Y, C-X, D-W, E-V, etc."]
 
-    T --> T1["स्थिति ज्ञात करना"]
-    T --> T2["दाएँ से गिनती"]
-    T --> T3["दो अक्षरों के बीच दूरी"]
-    T --> T4["n-वाँ बाएँ/दाएँ अक्षर"]
-    T --> T5["बीच वाला अक्षर (औसत)"]
+    Types --> T1["Letter Series<br/>Constant (+/-), increasing, alternating"]
+    Types --> T2["Letter Analogy<br/>Decode 1st pair, apply to 2nd pair"]
+    Types --> T3["Classification<br/>Odd one out: vowel/consonant, position gaps"]
+    Types --> T4["Coding-Decoding<br/>Direct shift (+1/-1), position value, opposite"]
 
-    TR --> TR1["बाएँ बनाम दाएँ"]
-    TR --> TR2["के बाद बनाम n-वाँ"]
-    TR --> TR3["बीच में दोहरी गिनती"]
+    Strategies --> S1["Convert letters to numbers immediately"]
+    Strategies --> S2["Left/Right rules: Opposite directions add, Same subtract"]
+    Strategies --> S3["15-Sec Rule: If pattern not spotted, move on"]
+
+    Traps --> TR1["Off-by-one errors in reverse counting"]
+    Traps --> TR2["Multiple plausible patterns: choose simplest arithmetic"]
+    Traps --> TR3["Overlooking subset prefix or letter case"]
 ```

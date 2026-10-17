@@ -1,0 +1,173 @@
+# Inequality (असमानता)
+
+## Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Read and understand the five inequality symbols instantly.
+2. Decode coded inequalities (where symbols are replaced by words or signs).
+3. Find the definite relationship between two elements using a chain.
+4. Handle "either-or" (complementary pair) conclusions confidently.
+5. Solve a standard 5-question inequality set in under 3 minutes.
+
+---
+
+## The Hook: One Symbol Can Cost You a Government Job
+
+In SSC CGL, IBPS PO, and RRB NTPC, inequality questions look like the easiest marks in the reasoning section — and they are, *if* you respect them. Many aspirants lose marks here not because they didn't know the rules, but because they read `>` as `<` in a hurry, or forgot the "either-or" case. This chapter will make sure that never happens to you. Inequality is pure logic — no formulas to memorise, no calculations. Just symbols, a chain, and discipline.
+
+---
+
+## The Common Struggle (You're Not Alone)
+
+Most students struggle with inequality for three reasons:
+
+- **Symbol confusion under pressure** — `>` and `<` look similar when the clock is ticking.
+- **Broken chains** — when the chain goes `A > B < C`, students force a relationship that doesn't exist.
+- **The either-or panic** — when neither conclusion follows individually, students don't know what to mark.
+
+We will fix all three, one chunk at a time.
+
+---
+
+## Chunk 1: The Five Symbols — Your Alphabet
+
+| Symbol | Meaning | Memory Trick |
+|---|---|---|
+| `>` | Greater than | The crocodile's mouth opens toward the **bigger** number |
+| `<` | Less than | Mouth opens toward the bigger number (so the smaller one is at the pointed end) |
+| `≥` | Greater than or equal to | `>` with an "equal" line underneath |
+| `≤` | Less than or equal to | `<` with an "equal" line underneath |
+| `=` | Equal to | Both sides are the same |
+
+**The Crocodile Rule 🐊:** A hungry crocodile always opens its mouth toward the bigger meal. So in `A > B`, the mouth faces A — A is bigger. In `A < B`, the mouth faces B — B is bigger.
+
+🧠 **Active Recall:** Without looking above — in `P < Q`, which element is bigger? Which way does the crocodile's mouth open?
+
+---
+
+## Chunk 2: The Priority Order (The Golden Rule)
+
+When two symbols fight, the stronger one wins. Remember this priority:
+
+> **`>` and `<` (strict) beat `≥` and `≤` (flexible), which beat `=`**
+
+Think of it like a family hierarchy:
+
+- **Strict symbols (`>`, `<`)** = the strict father — his decision is final.
+- **Flexible symbols (`≥`, `≤`)** = the adjustable mother — she allows equality too.
+- **Equal (`=`)** = the child — adjusts to everyone.
+
+**Example:** If `A ≥ B` and `B > C`, then `A > C` (strict `>` wins over flexible `≥`).
+
+🧠 **Active Recall:** If `X > Y` and `Y ≥ Z`, what is the definite relation between X and Z — strict or flexible?
+
+---
+
+## Chunk 3: Building the Chain
+
+Inequality questions give you **statements** and ask you to check **conclusions**. The method:
+
+**Step 1:** Write all statements in one line, joining common elements.
+
+**Step 2:** Trace a path from the first element of the conclusion to the second.
+
+**Step 3:** Apply the priority rule along the path.
+
+**Example:**
+Statements: `A > B ≥ C = D`
+Conclusion I: `A > D` → Path: A > B ≥ C = D. The strict `>` dominates → **True.**
+Conclusion II: `B > D` → Path: B ≥ C = D. Only flexible symbols → `B ≥ D`, not `B > D` → **False.**
+
+**The Gate Rule 🚪:** If the path between two elements has **opposite-facing signs** (like `A > B < C`), the gate is closed — **no definite relationship exists**. Never force one.
+
+🧠 **Active Recall:** In `M > N < O ≥ P`, can you find any definite relation between M and O? Why or why not?
+
+---
+
+## Chunk 4: The Either-Or (Complementary Pair) Case
+
+This is where examiners trap the most students. Sometimes **neither conclusion follows individually**, but together they cover all possibilities. Then the answer is "either I or II follows."
+
+**Three conditions must ALL be true:**
+
+1. Both conclusions have the **same two elements**.
+2. **Neither** conclusion is definitely true on its own.
+3. The two conclusions together form a **complementary pair** — one of these combinations:
+   - `>` and `≤`
+   - `<` and `≥`
+   - `=` and `≠` (equal vs. not equal)
+
+Note: `>` and `<` alone are **not** a complementary pair, because they leave out the possibility of equality. A valid pair must cover *every* possible relationship between the two elements.
+
+**Example:**
+Statement: `A = B`
+Conclusion I: `A > B` — False.
+Conclusion II: `A ≤ B` — True (since A = B satisfies ≤).
+Here II follows directly, so no either-or needed.
+
+**Truer either-or example:**
+Statement: `A ≥ B`
+Conclusion I: `A > B` — not definite.
+Conclusion II: `A = B` — not definite.
+Both same elements, neither true, and together (`>` or `=`) they cover everything under `≥` → **Either I or II follows.**
+
+🧠 **Active Recall:** Statement: `P ≤ Q`. Conclusions: I. `P < Q`  II. `P = Q`. What is the answer?
+
+---
+
+## Chunk 5: Coded Inequalities
+
+Here symbols are disguised in words:
+
+> 'A @ B' means 'A is greater than B'
+> 'A # B' means 'A is less than or equal to B'
+
+**Strategy:** Before solving, make a small **translation table** on your rough sheet:
+
+| Code | Real Symbol |
+|---|---|
+| @ | > |
+| # | ≤ |
+
+Then rewrite every statement and conclusion in real symbols, and solve normally. Never try to solve in coded form in your head — that's exactly where silly mistakes happen.
+
+🧠 **Active Recall:** If 'A $ B' means 'A ≥ B' and 'A % B' means 'A < B', translate: `P $ Q % R`.
+
+---
+
+## Mnemonic Trick: "Crocodile Eats Big, Strict Dad Decides, Opposite Gates Close"
+
+- 🐊 **Crocodile eats big** → mouth opens toward the bigger element.
+- 👨 **Strict dad decides** → `>`/`<` override `≥`/`≤`.
+- 🚪 **Opposite gates close** → `A > B < C` means no relation between A and C.
+
+Say this line to yourself before every practice set.
+
+---
+
+## Summary Table
+
+| Situation | Rule | Result |
+|---|---|---|
+| Same-direction signs in chain | Strict sign dominates | Definite relation exists |
+| Mixed strict + flexible, same direction | Strict wins (`A ≥ B > C` → `A > C`) | Definite relation exists |
+| Opposite-facing signs (`A > B < C`) | Gate closed | No relation |
+| Only flexible signs (`A ≥ B ≥ C`) | Result stays flexible (`A ≥ C`) | Strict conclusion fails |
+| Neither conclusion true, same elements, complementary pair | Either-Or | "Either I or II follows" |
+| Coded symbols | Translate first, solve second | Avoids symbol confusion |
+
+📅 **Review this chapter after 2 days.** Redo one either-or example and one coded inequality from memory — if you can do both without notes, this chapter is permanently yours.
+
+---
+
+## ⚠️ Caution: Examiner's Trap
+
+**Trap 1: Multiple possible relations shown in options.**
+The examiner designs conclusions where a *possible* relation looks like a *definite* one. Example: from `A ≥ B`, the conclusion `A > B` is *possible* but not *definite*. Unless the question says "possibility," mark only what is 100% certain. When in doubt, ask: "Can I find even one case where this fails?" If yes, it's false.
+
+**Trap 2: Confusing language to rattle you.**
+Phrases like "A is not smaller than B" simply mean `A ≥ B`, and "A is not greater than B" means `A ≤ B`. Examiners use double negatives to slow you down. Translate every phrase into a symbol immediately — never reason in words.
+
+**Trap 3: Double-relation (either-or) questions.**
+Students see that neither conclusion is true and mark "neither follows" — forgetting to check the either-or conditions. Always run the 3-point checklist: same elements? neither true? complementary pair? If all three are yes, the answer is "either I or II follows." Missing this check is the single most common reason for losing marks in this chapter.

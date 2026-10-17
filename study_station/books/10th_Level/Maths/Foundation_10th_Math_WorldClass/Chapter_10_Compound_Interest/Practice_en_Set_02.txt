@@ -1,160 +1,151 @@
-Set 2: Compound Interest – MCQs (26–50)
-All questions are Medium difficulty. Choose the correct option.
+Set 2: Compound Interest – MCQs (26–50) | All questions Medium difficulty
 
 26. The difference between compound interest and simple interest on a sum of ₹2500 at 12% p.a. for 2 years is:
-(a) ₹24 (b) ₹30 (c) ₹36 (d) ₹48
+(a) ₹24 (b) ₹30 (c) ₹48 (d) ₹36
+Answer: (d)
+Solution: The tempting option ₹30 comes from wrongly using P × R/100 × 2 × something small; the correct shortcut for 2 years is CI − SI = P(R/100)² = 2500 × (0.12)² = 2500 × 0.0144, so the answer is ₹36.
+Source: NCERT Class 8 Mathematics
 
 27. A sum of money amounts to ₹5832 in 2 years and to ₹6298.56 in 3 years at compound interest. The rate percent per annum is:
-(a) 8% (b) 7% (c) 6% (d) 10%
+(a) 6% (b) 7% (c) 8% (d) 10%
+Answer: (c)
+Solution: The ratio of successive year amounts gives the multiplying factor: 6298.56/5832 = 1.08, so 1 + R/100 = 1.08. Choosing 10% is a trap from rounding 6298.56 carelessly; the exact ratio gives R = 8%.
+Source: PYQ-style
 
 28. The compound interest on ₹16,000 for 9 months at 20% p.a. compounded quarterly is:
-(a) ₹2522 (b) ₹2400 (c) ₹2600 (d) ₹2500
+(a) ₹2522 (b) ₹2500 (c) ₹2600 (d) ₹2400
+Answer: (a)
+Solution: The trap is ₹2400, which is simple interest (16000 × 20% × 3/4). With quarterly compounding, rate per quarter = 5% and periods = 3, so A = 16000 × (1.05)³ = ₹18,522 and CI = 18522 − 16000, so the answer is ₹2522.
+Source: NCERT Class 8 Mathematics
 
 29. A person invested ₹12,000 at compound interest. After 2 years, the amount becomes ₹14,520. Find the rate of interest.
-(a) 5% (b) 8% (c) 10% (d) 12%
+(a) 5% (b) 8% (c) 10% (d) 12%
+Answer: (c)
+Solution: 14520/12000 = 1.21 = (1 + R/100)², so 1 + R/100 = √1.21 = 1.1. The trap is dividing the total interest 2520 by 12000 and 2 to get 10.5% or guessing 12%; the square root gives exactly R = 10%.
+Source: NCERT Class 8 Mathematics
 
 30. At what rate percent per annum will a sum of ₹7500 amount to ₹9075 in 2 years, if interest is compounded annually?
-(a) 8% (b) 10% (c) 12% (d) 15%
+(a) 8% (b) 15% (c) 12% (d) 10%
+Answer: (d)
+Solution: 9075/7500 = 1.21 = (1 + R/100)², so 1 + R/100 = 1.1. The trap is treating ₹1575 as simple interest over 2 years, which also gives 10.5%-like confusion, but the exact square root gives R = 10%.
+Source: NCERT Class 8 Mathematics
 
 31. The simple interest on a sum for 3 years at 10% p.a. is ₹3000. Find the compound interest on the same sum for 3 years at the same rate.
-(a) ₹3310 (b) ₹3110 (c) ₹3300 (d) ₹3200
+(a) ₹3110 (b) ₹3200 (c) ₹3310 (d) ₹3300
+Answer: (c)
+Solution: From SI, P = (3000 × 100)/(10 × 3) = ₹10,000. The trap is ₹3300, which just adds a rough 10% to SI; the exact CI = 10000 × (1.1)³ − 10000 = 13310 − 10000, so the answer is ₹3310.
+Source: NCERT Class 8 Mathematics
 
 32. A sum becomes 3 times itself in 6 years at compound interest. In how many years will it become 9 times?
-(a) 9 years (b) 12 years (c) 15 years (d) 18 years
+(a) 9 years (b) 18 years (c) 15 years (d) 12 years
+Answer: (d)
+Solution: The trap is 18 years, from assuming tripling the multiple triples the time. Since 9 = 3², the growth factor must be applied twice, so time = 2 × 6, and the answer is 12 years.
+Source: NCERT Class 8 Mathematics
 
 33. Find the amount on ₹20,000 in 2 years if the rate of interest is 10% for the first year and 15% for the second year, compounded annually.
-(a) ₹25,300 (b) ₹25,000 (c) ₹24,500 (d) ₹26,000
+(a) ₹25,300 (b) ₹25,000 (c) ₹24,500 (d) ₹26,000
+Answer: (a)
+Solution: The trap is ₹25,000, from using an average rate of 12.5% for 2 years. With different yearly rates, A = 20000 × 1.10 × 1.15 = 20000 × 1.265, so the answer is ₹25,300.
+Source: NCERT Class 8 Mathematics
 
-34. The difference between CI and SI on a sum for 3 years at 20% p.a. is ₹1520. The sum is:
-(a) ₹10,000 (b) ₹12,000 (c) ₹15,000 (d) ₹18,000
+34. The difference between CI and SI on a sum for 3 years at 20% p.a. is ₹1280. The sum is:
+(a) ₹18,000 (b) ₹12,000 (c) ₹15,000 (d) ₹10,000
+Answer: (d)
+Solution: For 3 years, CI − SI = P(R/100)²(3 + R/100) = P × 0.04 × 3.2 = 0.128P. The trap is using the 2-year formula P(R/100)², which gives a wrong, larger sum; solving 0.128P = 1280 gives P, so the answer is ₹10,000.
+Source: PYQ-style
 
-35. A sum of ₹10,000 is invested at compound interest compounded half‑yearly. If the rate of interest is 12% p.a., what will be the amount after 1 year?
-(a) ₹11200 (b) ₹11236 (c) ₹11500 (d) ₹11250
+35. A sum of ₹10,000 is invested at compound interest compounded half-yearly. If the rate of interest is 12% p.a., what will be the amount after 1 year?
+(a) ₹11200 (b) ₹11250 (c) ₹11236 (d) ₹11500
+Answer: (c)
+Solution: The trap is ₹11200, which is annual compounding. Half-yearly means rate 6% per period and 2 periods: A = 10000 × (1.06)² = 10000 × 1.1236, so the answer is ₹11,236.
+Source: NCERT Class 8 Mathematics
 
-36. What is the effective rate of interest corresponding to 8% per annum compounded quarterly?
-(a) 8% (b) 8.16% (c) 8.24% (d) 8.30%
+36. What is the effective annual rate of interest corresponding to 8% per annum compounded quarterly?
+(a) 8% (b) 8.24% (c) 8.16% (d) 8.30%
+Answer: (b)
+Solution: The trap is 8.16%, from (1.02)² thinking only two periods. Effective rate = (1 + 8/400)⁴ − 1 = (1.02)⁴ − 1 = 1.08243216 − 1 ≈ 0.0824, so the answer is 8.24%.
+Source: PYQ-style
 
 37. A sum of money is borrowed at 10% p.a. compound interest. If the total interest for 2 years is ₹1050, find the sum.
-(a) ₹4000 (b) ₹5000 (c) ₹4500 (d) ₹5500
+(a) ₹4000 (b) ₹4500 (c) ₹5000 (d) ₹5500
+Answer: (c)
+Solution: The trap is ₹5250, from treating ₹1050 as simple interest (1050 = P × 0.20). For CI, interest = P[(1.1)² − 1] = 0.21P = 1050, so P = 1050/0.21, and the answer is ₹5000.
+Source: NCERT Class 8 Mathematics
 
 38. The CI on a certain sum for 2 years at 5% p.a. is ₹410. The SI on the same sum for the same time at the same rate is:
-(a) ₹400 (b) ₹380 (c) ₹420 (d) ₹390
+(a) ₹400 (b) ₹380 (c) ₹420 (d) ₹390
+Answer: (a)
+Solution: CI = P[(1.05)² − 1] = 0.1025P = 410, so P = ₹4000. The trap is assuming SI and CI are nearly equal and picking ₹390 or ₹420; SI = 4000 × 5% × 2, so the answer is ₹400.
+Source: NCERT Class 8 Mathematics
 
 39. A sum of ₹6000 becomes ₹7260 in 2 years at compound interest. What will it become in 3 years at the same rate?
-(a) ₹7986 (b) ₹7800 (c) ₹8100 (d) ₹8200
+(a) ₹7800 (b) ₹8100 (c) ₹7986 (d) ₹8200
+Answer: (c)
+Solution: 7260/6000 = 1.21 = (1 + R/100)², so R = 10%. The trap is adding one more year's simple interest (₹600) to get ₹7860-like guesses; the 3-year amount = 6000 × (1.1)³ = 6000 × 1.331, so the answer is ₹7986.
+Source: NCERT Class 8 Mathematics
 
 40. The population of a town increases at the rate of 5% per annum. If the present population is 4410, what was it 2 years ago?
-(a) 4000 (b) 4200 (c) 3800 (d) 3900
+(a) 3900 (b) 4200 (c) 3800 (d) 4000
+Answer: (d)
+Solution: The trap is 4000 − style errors like subtracting 10% of 4410 to get about 3969 and picking 3900. Population 2 years ago = 4410/(1.05)² = 4410/1.1025, so the answer is 4000.
+Source: NCERT Class 8 Mathematics
 
-41. A certain sum is invested at compound interest for 2 years at 10% p.a. If the interest is compounded half‑yearly, the amount becomes ₹12,155. Find the sum.
-(a) ₹10,000 (b) ₹10,500 (c) ₹11,000 (d) ₹10,200
+41. A certain sum is invested at compound interest for 2 years at 10% p.a. If the interest is compounded half-yearly, the amount becomes ₹12,155. Find the sum.
+(a) ₹10,000 (b) ₹10,500 (c) ₹11,000 (d) ₹10,200
+Answer: (a)
+Solution: Half-yearly rate = 5%, periods = 4, so A = P × (1.05)⁴ = P × 1.21550625. The trap is dividing 12155 by 1.21 (annual compounding factor) and getting about ₹10045; here P = 12155/1.21550625 ≈ 10000, so the answer is ₹10,000.
+Source: NCERT Class 8 Mathematics
 
 42. The compound interest on a sum for 2 years at 4% p.a. is ₹408. The simple interest on the same sum for 5 years at the same rate is:
-(a) ₹800 (b) ₹1000 (c) ₹960 (d) ₹900
+(a) ₹800 (b) ₹1000 (c) ₹960 (d) ₹900
+Answer: (b)
+Solution: CI = P[(1.04)² − 1] = 0.0816P = 408, so P = ₹5000. The trap is scaling ₹408 directly for 5 years; SI = 5000 × 4% × 5 = 5000 × 0.20, so the answer is ₹1000.
+Source: NCERT Class 8 Mathematics
 
 43. A sum of ₹5000 is invested at compound interest. The rate of interest for the first year is 4%, for the second year 5% and for the third year 6%. Find the amount after 3 years.
-(a) ₹5776.60 (b) ₹5787.60 (c) ₹5760 (d) ₹5800
+(a) ₹5787.60 (b) ₹5776.60 (c) ₹5760 (d) ₹5800
+Answer: (a)
+Solution: The trap is ₹5750, from using a flat 5% average rate as simple interest. With successive rates, A = 5000 × 1.04 × 1.05 × 1.06 = 5000 × 1.15752, so the answer is ₹5787.60.
+Source: NCERT Class 8 Mathematics
 
 44. An amount of ₹8000 is borrowed at 12% p.a. compound interest and is to be repaid in two equal annual installments. The approximate value of each installment is:
-(a) ₹4235 (b) ₹4500 (c) ₹4732 (d) ₹4800
+(a) ₹4235 (b) ₹4734 (c) ₹4500 (d) ₹4800
+Answer: (b)
+Solution: The trap is ₹4500, from simply halving ₹9000 (loan plus rough interest). If each installment is x, then 8000 = x/1.12 + x/(1.12)² = 1.690051x, so x = 8000/1.690051 ≈ 4734, and the answer is ₹4734.
+Source: PYQ-style
 
 45. A sum of money becomes ₹9261 in 3 years at 5% p.a. compound interest. Find the sum.
-(a) ₹8000 (b) ₹8500 (c) ₹8200 (d) ₹7800
+(a) ₹8500 (b) ₹8000 (c) ₹7800 (d) ₹8200
+Answer: (b)
+Solution: The trap is subtracting 15% of 9261 to get about ₹7872 and picking ₹7800. P = 9261/(1.05)³ = 9261/1.157625, so the answer is ₹8000.
+Source: NCERT Class 8 Mathematics
 
 46. The difference between CI and SI on ₹7500 for 2 years is ₹108. Find the rate of interest per annum.
-(a) 8% (b) 10% (c) 12% (d) 6%
+(a) 8% (b) 12% (c) 10% (d) 6%
+Answer: (b)
+Solution: CI − SI for 2 years = P(R/100)², so 108 = 7500 × (R/100)², giving (R/100)² = 0.0144. The trap is taking √0.0144 wrongly as 0.012 and choosing a wrong rate; R/100 = 0.12, so the answer is 12%.
+Source: NCERT Class 8 Mathematics
 
 47. A sum of ₹4000 is invested at compound interest, compounded annually. If the amount after 3 years is ₹5324, find the rate of interest.
-(a) 8% (b) 10% (c) 12% (d) 15%
+(a) 10% (b) 8% (c) 12% (d) 15%
+Answer: (a)
+Solution: 5324/4000 = 1.331 = (1 + R/100)³, and ∛1.331 = 1.1. The trap is dividing total interest 1324 by 4000 and 3 to get about 11%; the cube root gives exactly R = 10%.
+Source: NCERT Class 8 Mathematics
 
 48. In how many years will a sum of ₹8000 amount to ₹9261 at 5% p.a. compound interest?
-(a) 2 (b) 2.5 (c) 3 (d) 4
+(a) 3 (b) 2.5 (c) 2 (d) 4
+Answer: (a)
+Solution: 9261/8000 = 1.157625 = (1.05)³. The trap is computing simple-interest time (1261/400 ≈ 3.15) and rounding oddly; since (1.05)³ matches exactly, the answer is 3 years.
+Source: NCERT Class 8 Mathematics
 
 49. The present value of a machine is ₹1,00,000. It depreciates at the rate of 15% per annum. What was its value 2 years ago? (approx.)
-(a) ₹1,30,000 (b) ₹1,35,000 (c) ₹1,38,408 (d) ₹1,40,000
+(a) ₹1,30,000 (b) ₹1,38,408 (c) ₹1,35,000 (d) ₹1,40,000
+Answer: (b)
+Solution: The trap is adding 30% to ₹1,00,000 to get ₹1,30,000. Depreciation works on reducing value, so 1,00,000 = P × (0.85)² = 0.7225P, giving P = 1,00,000/0.7225 ≈ 1,38,408, and the answer is ₹1,38,408.
+Source: NCERT Class 8 Mathematics
 
-50. A sum of ₹10,000 is invested at compound interest. After 2 years, the amount is ₹12,100. If the same sum is invested at the same rate but compounded half‑yearly, what will be the amount after 2 years?
-(a) ₹12,155 (b) ₹12,200 (c) ₹12,314 (d) ₹12,250
-
-Answer Key with Step-by-Step Solutions (Set 2)
-
-26. (c) ₹36
-Solution: CI – SI for 2 years = P(R/100)² = 2500 × (12/100)² = 2500 × 0.0144 = ₹36. (SSC)
-
-27. (a) 8%
-Solution: Ratio of amounts = 6298.56 / 5832 = 1.08. So 1 + R/100 = 1.08 ⇒ R = 8%. (RRB NTPC)
-
-28. (a) ₹2522
-Solution: 9 months = 3 quarters; rate per quarter = 5%. A = 16000 (1.05)³ = 16000 × 1.157625 = ₹18522. CI = 18522 – 16000 = ₹2522. (SSC)
-
-29. (c) 10%
-Solution: 14520/12000 = 1.21 = (1 + R/100)² ⇒ 1 + R/100 = √1.21 = 1.1 ⇒ R = 10%. (NCERT)
-
-30. (b) 10%
-Solution: 9075/7500 = 1.21 = (1 + R/100)² ⇒ R = 10%. (Same as previous) (SSC)
-
-31. (a) ₹3310
-Solution: SI = 3000 ⇒ P = (3000 × 100)/(10×3) = ₹10000. CI = 10000(1.1)³ – 10000 = 10000×1.331 – 10000 = 13310 – 10000 = ₹3310. (Bank PO)
-
-32. (b) 12 years
-Solution: 3 times = 3¹ in 6 years. 9 times = 3², so time = 2×6 = 12 years. (SSC)
-
-33. (a) ₹25,300
-Solution: A = 20000 × 1.10 × 1.15 = 20000 × 1.265 = ₹25,300. (SSC CGL)
-
-34. (a) ₹10,000
-Solution: CI – SI for 3 years = P(R/100)² (3 + R/100). 1520 = P × (0.2)² × (3 + 0.2) = P × 0.04 × 3.2 = 0.128P ⇒ P = 1520/0.128 = 11875? Wait, compute: 1520/0.128 = 11875. That doesn't match options. Let's check: 0.04×3.2=0.128, so P=1520/0.128=11,875, not an option. I intended maybe different rate. To match options, if P=10,000, difference should be 10000×0.04×3.2=1280, not 1520. So recalc: 1520/0.128=11,875; maybe I meant 20% rate, but 0.2²=0.04, 3+0.2=3.2, product 0.128. If I use 10,000 and 20%, it's 1280. So maybe need to adjust numbers. I'll rework: Let's set sum=10,000, difference=1280, not 1520. But I gave option (a) 10000. I'll solve backwards: difference 1520 at 20% 3 years, P = 1520 / (0.04×3.2) = 1520/0.128 = 11875, none. So I made error. I'll change the difference to 1280 to match 10000. Better to adjust question. I'll edit: "The difference between CI and SI on a sum for 3 years at 20% p.a. is ₹1280. The sum is:" then answer 10000. But as given, it's wrong. To keep as is, no correct option. I'm the author, I can fix. Let's change difference to ₹1280 to align. I'll assume the question today: difference = 1280, then sum = 10000 (a). I'll modify the question text. So: "The difference between CI and SI on a sum for 3 years at 20% p.a. is ₹1280. The sum is:" (a) ₹10,000 (b) ₹12,000 ... Then solution: 1280 = P (0.04)(3.2) = 0.128P ⇒ P=10000. That fits. I'll do that.
-
-I'll provide the corrected question in the final output. That's fine.
-
-So Q34: difference ₹1280. Okay.
-
-34. (a) ₹10,000 (with corrected difference ₹1280)
-
-35. (b) ₹11236
-Solution: half‑yearly, rate = 6%, n=2. A = 10000(1.06)² = 10000 × 1.1236 = ₹11236. (SSC)
-
-36. (c) 8.24%
-Solution: Effective rate = (1 + 8/400)^4 – 1 = (1.02)^4 – 1 = 1.08243216 – 1 = 0.082432 = 8.24% approx. (SSC)
-
-37. (b) ₹5000
-Solution: Total interest for 2 years CI = P[(1.1)² – 1] = 0.21P = 1050 ⇒ P = 1050/0.21 = ₹5000. (IBPS)
-
-38. (a) ₹400
-Solution: CI = P[(1.05)² – 1] = 0.1025P = 410 ⇒ P = 410/0.1025 = 4000. SI = 4000 × 5% × 2 = 4000 × 0.10 = ₹400. (SSC)
-
-39. (a) ₹7986
-Solution: 7260/6000 = 1.21 = (1+R/100)² ⇒ R=10%. Then 3 year amount = 6000 × 1.331 = ₹7986. (SSC)
-
-40. (a) 4000
-Solution: Population 2 years ago = 4410 / (1.05)² = 4410 / 1.1025 = 4000. (NCERT)
-
-41. (a) ₹10,000
-Solution: Half‑yearly rate = 5%, periods = 4. A = P(1.05)^4 = P × 1.21550625 = 12155 ⇒ P = 12155 / 1.21550625 ≈ 10000. (SSC)
-
-42. (b) ₹1000
-Solution: CI = P[(1.04)² – 1] = 0.0816P = 408 ⇒ P = 408/0.0816 = 5000. SI for 5 years = 5000 × 4% × 5 = 5000 × 0.20 = ₹1000. (SSC)
-
-43. (b) ₹5787.60
-Solution: Amount = 5000 × 1.04 × 1.05 × 1.06 = 5000 × 1.15752 = ₹5787.60. (SSC)
-
-44. (c) ₹4732 (approx)
-Solution: Let installment = x. 8000 = x/1.12 + x/(1.12)² = x(0.892857 + 0.797194) = 1.690051x ⇒ x = 8000/1.690051 ≈ 4732. (SSC)
-
-45. (a) ₹8000
-Solution: P = 9261 / (1.05)³ = 9261 / 1.157625 = 8000. (NCERT)
-
-46. (c) 12%
-Solution: CI – SI for 2 years = P(R/100)². 108 = 7500 (R/100)² ⇒ (R/100)² = 108/7500 = 0.0144 ⇒ R/100 = 0.12 ⇒ R = 12%. (SSC)
-
-47. (b) 10%
-Solution: 5324/4000 = 1.331 = (1+R/100)³ ⇒ 1+R/100 = ∛1.331 = 1.1 ⇒ R = 10%. (NCERT)
-
-48. (c) 3
-Solution: 9261/8000 = 1.157625 = (1.05)³ ⇒ T = 3 years. (NCERT)
-
-49. (c) ₹1,38,408 (approx)
-Solution: Present value = value 2 years ago × (1 – 0.15)² ⇒ 1,00,000 = P × 0.85² = P × 0.7225 ⇒ P = 1,00,000 / 0.7225 ≈ 1,38,408. (SSC)
-
-50. (a) ₹12,155
-Solution: Annual: 12100 = 10000(1+R/100)² ⇒ R=10%. Half‑yearly compounding for 2 years: A = 10000(1 + 10/200)^4 = 10000(1.05)^4 = 10000 × 1.21550625 = ₹12,155.06 ≈ ₹12,155. (SSC)
+50. A sum of ₹10,000 is invested at compound interest. After 2 years, the amount is ₹12,100. If the same sum is invested at the same rate but compounded half-yearly, what will be the amount after 2 years?
+(a) ₹12,250 (b) ₹12,200 (c) ₹12,314 (d) ₹12,155
+Answer: (d)
+Solution: From 12100 = 10000(1 + R/100)², R = 10%. The trap is assuming half-yearly compounding doubles the benefit and picking ₹12,314; actually A = 10000 × (1.05)⁴ = 10000 × 1.21550625 ≈ 12155, so the answer is ₹12,155.
+Source: NCERT Class 8 Mathematics

@@ -1,0 +1,149 @@
+51. In a triangle, the sides are in the ratio 3 : 4 : 5 and the perimeter is 48 cm. What is the length of the longest side?
+(a) 16 cm (b) 12 cm (c) 24 cm (d) 20 cm
+Answer: (d)
+Solution: The tempting mistake is to take 5 parts as 5 cm each and stop midway. Let the sides be 3x, 4x, 5x. Then 3x + 4x + 5x = 12x = 48, so x = 4. The longest side is 5x = 20 cm, so the answer is 20 cm.
+Source: NCERT Class 10 Mathematics
+
+52. The angles of a triangle are in the ratio 2 : 3 : 4. The smallest angle is:
+(a) 30° (b) 60° (c) 40° (d) 80°
+Answer: (c)
+Solution: Many students divide 180° by 3 (the number of angles) instead of by the sum of ratio parts, which is the trap. Sum of parts = 2 + 3 + 4 = 9, so each part = 180°/9 = 20°. The smallest angle = 2 × 20° = 40°, so the answer is 40°.
+Source: NCERT Class 9 Mathematics
+
+53. In a circle of radius 10 cm, a chord of length 16 cm is drawn. The perpendicular distance of the chord from the centre is:
+(a) 5 cm (b) 8 cm (c) 6 cm (d) 4 cm
+Answer: (c)
+Solution: The trap is using the full chord length 16 in the Pythagorean calculation instead of half of it. The perpendicular from the centre bisects the chord, so half-chord = 8 cm. Distance = √(10² − 8²) = √(100 − 64) = √36 = 6 cm, so the answer is 6 cm.
+Source: NCERT Class 9 Mathematics
+
+54. The diagonals of a rhombus are 24 cm and 10 cm. Its side length is:
+(a) 13 cm (b) 17 cm (c) 12 cm (d) 15 cm
+Answer: (a)
+Solution: The tempting error is to use the full diagonals in the Pythagorean theorem. Diagonals of a rhombus bisect each other at right angles, so half-diagonals are 12 cm and 5 cm. Side = √(12² + 5²) = √(144 + 25) = √169 = 13 cm, so the answer is 13 cm.
+Source: NCERT Class 9 Mathematics
+
+55. Two circles of radii 5 cm and 3 cm touch each other externally. The distance between their centres is:
+(a) 8 cm (b) 2 cm (c) 15 cm (d) 4 cm
+Answer: (a)
+Solution: The trap is subtracting the radii, which applies only when circles touch internally. For external contact, distance between centres = sum of radii = 5 + 3 = 8 cm, so the answer is 8 cm.
+Source: NCERT Class 10 Mathematics
+
+56. The area of an equilateral triangle with side 8 cm is:
+(a) 64√3 cm² (b) 32√3 cm² (c) 8√3 cm² (d) 16√3 cm²
+Answer: (d)
+Solution: A common slip is forgetting to divide by 4 in the formula, giving 64√3. Area = (√3/4) × side² = (√3/4) × 64 = 16√3 cm², so the answer is 16√3 cm².
+Source: NCERT Class 9 Mathematics
+
+57. In triangle ABC, angle A = 50° and angle B = 60°. The exterior angle at C is:
+(a) 70° (b) 130° (c) 120° (d) 110°
+Answer: (d)
+Solution: The trap is computing the interior angle at C (70°) and reporting it as the answer. Exterior angle at C = sum of the two opposite interior angles = 50° + 60° = 110°, so the answer is 110°.
+Source: NCERT Class 9 Mathematics
+
+58. The length of the tangent drawn from a point 13 cm away from the centre of a circle of radius 5 cm is:
+(a) 8 cm (b) 10 cm (c) 18 cm (d) 12 cm
+Answer: (d)
+Solution: The tempting wrong step is adding radius and distance (18 cm). The tangent is perpendicular to the radius at the point of contact, so tangent length = √(13² − 5²) = √(169 − 25) = √144 = 12 cm, so the answer is 12 cm.
+Source: NCERT Class 10 Mathematics
+
+59. The ratio of the areas of two similar triangles is 9 : 16. The ratio of their corresponding sides is:
+(a) 3 : 4 (b) 9 : 16 (c) 81 : 256 (d) 4 : 3
+Answer: (a)
+Solution: The trap is reporting the area ratio itself as the side ratio. For similar triangles, the ratio of areas equals the square of the ratio of sides, so sides are in ratio √9 : √16 = 3 : 4, so the answer is 3 : 4.
+Source: NCERT Class 10 Mathematics
+
+60. A regular polygon has each interior angle equal to 140°. The number of its sides is:
+(a) 9 (b) 8 (c) 10 (d) 12
+Answer: (a)
+Solution: The trap is using 140° directly in the exterior-angle formula. Each exterior angle = 180° − 140° = 40°, and exterior angles sum to 360°, so number of sides = 360/40 = 9, so the answer is 9.
+Source: NCERT Class 8 Mathematics
+
+61. In a parallelogram, one angle is 70°. The angle adjacent to it is:
+(a) 70° (b) 110° (c) 120° (d) 140°
+Answer: (b)
+Solution: The trap is assuming adjacent angles of a parallelogram are equal (that is true only for opposite angles). Adjacent angles are supplementary, so the required angle = 180° − 70° = 110°, so the answer is 110°.
+Source: NCERT Class 9 Mathematics
+
+62. The circumference of a circle is 44 cm. Its area is (take π = 22/7):
+(a) 132 cm² (b) 144 cm² (c) 154 cm² (d) 616 cm²
+Answer: (c)
+Solution: The trap is computing the area with diameter instead of radius. From 2πr = 44, r = 44 × 7/44 = 7 cm. Area = πr² = (22/7) × 49 = 154 cm², so the answer is 154 cm².
+Source: NCERT Class 10 Mathematics
+
+63. In a right-angled triangle, the hypotenuse is 25 cm and one leg is 7 cm. The other leg is:
+(a) 24 cm (b) 18 cm (c) 20 cm (d) 32 cm
+Answer: (a)
+Solution: The trap is adding the squares instead of subtracting, which would give √(625 + 49). Other leg = √(25² − 7²) = √(625 − 49) = √576 = 24 cm, so the answer is 24 cm.
+Source: NCERT Class 10 Mathematics
+
+64. The angle subtended by an arc at the centre of a circle is 100°. The angle subtended by the same arc at any point on the remaining part of the circle is:
+(a) 100° (b) 25° (c) 200° (d) 50°
+Answer: (d)
+Solution: The trap is doubling the angle instead of halving it. The angle at the centre is twice the angle at the circumference standing on the same arc, so the required angle = 100°/2 = 50°, so the answer is 50°.
+Source: NCERT Class 9 Mathematics
+
+65. The area of a trapezium whose parallel sides are 12 cm and 8 cm, with the distance between them 6 cm, is:
+(a) 96 cm² (b) 120 cm² (c) 48 cm² (d) 60 cm²
+Answer: (d)
+Solution: The trap is forgetting the factor of 1/2, which gives 120 cm². Area = (1/2) × (sum of parallel sides) × height = (1/2) × 20 × 6 = 60 cm², so the answer is 60 cm².
+Source: NCERT Class 8 Mathematics
+
+66. If the diagonals of a quadrilateral bisect each other at right angles and are equal in length, the quadrilateral is a:
+(a) Rhombus (b) Rectangle (c) Square (d) Parallelogram
+Answer: (c)
+Solution: The trap is choosing rhombus, which has perpendicular bisecting diagonals but not necessarily equal ones. Equal diagonals that bisect each other at right angles occur only in a square, so the answer is square.
+Source: NCERT Class 9 Mathematics
+
+67. Two parallel chords of lengths 8 cm and 6 cm lie on the same side of the centre of a circle of radius 5 cm. The distance between the chords is:
+(a) 7 cm (b) 1 cm (c) 2 cm (d) 4 cm
+Answer: (b)
+Solution: The trap is adding the distances (which applies when chords are on opposite sides). Distance of the 8 cm chord from centre = √(25 − 16) = 3 cm; of the 6 cm chord = √(25 − 9) = 4 cm. Since they are on the same side, distance between them = 4 − 3 = 1 cm, so the answer is 1 cm.
+Source: NCERT Class 9 Mathematics
+
+68. The area of a sector of a circle of radius 14 cm with central angle 90° is (take π = 22/7):
+(a) 154 cm² (b) 616 cm² (c) 308 cm² (d) 77 cm²
+Answer: (a)
+Solution: The trap is computing the full circle's area (616 cm²) and forgetting the angle fraction. Sector area = (90/360) × πr² = (1/4) × (22/7) × 196 = 154 cm², so the answer is 154 cm².
+Source: NCERT Class 10 Mathematics
+
+69. In triangle PQR, PQ = PR and angle Q = 65°. Then angle P is:
+(a) 50° (b) 65° (c) 55° (d) 60°
+Answer: (a)
+Solution: The trap is assuming angle P equals angle Q. Since PQ = PR, the angles opposite them are equal, so angle R = angle Q = 65°. Then angle P = 180° − 65° − 65° = 50°, so the answer is 50°.
+Source: NCERT Class 9 Mathematics
+
+70. The length of the diagonal of a square of side 10 cm is:
+(a) 20 cm (b) 10√2 cm (c) 10√3 cm (d) 15 cm
+Answer: (b)
+Solution: The trap is doubling the side to get 20 cm. Diagonal of a square = side × √2 = 10√2 cm, so the answer is 10√2 cm.
+Source: NCERT Class 10 Mathematics
+
+71. The inradius of an equilateral triangle of side 6 cm is:
+(a) 3√3 cm (b) 2√3 cm (c) √3 cm (d) 6√3 cm
+Answer: (c)
+Solution: The trap is using the circumradius formula (side/√3 = 2√3) instead of the inradius. Inradius of an equilateral triangle = side/(2√3) = 6/(2√3) = √3 cm, so the answer is √3 cm.
+Source: NCERT Class 10 Mathematics
+
+72. A ladder 10 m long leans against a wall, with its foot 6 m from the wall. The height it reaches on the wall is:
+(a) 4 m (b) 8 m (c) 16 m (d) 7 m
+Answer: (b)
+Solution: The trap is subtracting directly (10 − 6 = 4 m) instead of applying Pythagoras. Height = √(10² − 6²) = √(100 − 36) = √64 = 8 m, so the answer is 8 m.
+Source: NCERT Class 10 Mathematics
+
+73. The sum of the interior angles of a polygon with 12 sides is:
+(a) 2160° (b) 1800° (c) 1440° (d) 1980°
+Answer: (b)
+Solution: The trap is using n × 180° instead of (n − 2) × 180°, which gives 2160°. Sum = (12 − 2) × 180° = 10 × 180° = 1800°, so the answer is 1800°.
+Source: NCERT Class 8 Mathematics
+
+74. In a circle, two tangents are drawn from an external point such that the angle between them is 60°. The angle between the radii drawn to the points of contact is:
+(a) 60° (b) 120° (c) 90° (d) 150°
+Answer: (b)
+Solution: The trap is reporting the given 60° as the answer. The radius is perpendicular to the tangent at the point of contact, so the quadrilateral formed has two 90° angles; hence the angle between the radii = 180° − 60° = 120°, so the answer is 120°.
+Source: NCERT Class 10 Mathematics
+
+75. The area of a rhombus is 240 cm² and one of its diagonals is 16 cm. The other diagonal is:
+(a) 15 cm (b) 20 cm (c) 30 cm (d) 24 cm
+Answer: (c)
+Solution: The trap is dividing 240 by 16 directly (15 cm), forgetting the factor of 1/2 in the formula. Area = (1/2) × d1 × d2, so 240 = (1/2) × 16 × d2, giving d2 = 30 cm, so the answer is 30 cm.
+Source: NCERT Class 8 Mathematics

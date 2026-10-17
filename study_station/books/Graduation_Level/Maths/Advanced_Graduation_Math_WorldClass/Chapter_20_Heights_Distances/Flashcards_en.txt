@@ -1,0 +1,79 @@
+Card 1
+Front: What is the angle of elevation?
+Back: The angle between the horizontal line of sight and the line of sight to an object above the horizontal level.
+
+Card 2
+Front: What is the angle of depression?
+Back: The angle between the horizontal line of sight and the line of sight to an object below the horizontal level.
+
+Card 3
+Front: What is the key relationship between the angle of elevation from point A to B and the angle of depression from B to A?
+Back: They are equal (alternate interior angles, since horizontal lines are parallel).
+
+Card 4
+Front: State the values of tan 30°, tan 45°, and tan 60°.
+Back: tan 30° = 1/√3, tan 45° = 1, tan 60° = √3.
+
+Card 5
+Front: If the angle of elevation of the sun is 45°, what is the relation between a pole's height and its shadow?
+Back: Height = Shadow length (because tan 45° = 1).
+
+Card 6
+Front: When the sun's elevation rises from 30° to 60°, what happens to the shadow's length?
+Back: It becomes one-third of its original length (shadow ∝ cot θ; cot 60° = 1/√3, cot 30° = √3).
+
+Card 7
+Front: What is the mnemonic to remember sin values for 0°, 30°, 45°, 60°, 90°?
+Back: "Square root of 0,1,2,3,4 over 2" — sin θ = √0/2, √1/2, √2/2, √3/2, √4/2 → 0, 1/2, 1/√2, √3/2, 1.
+
+Card 8
+Front: What mnemonic gives tan values quickly from sin and cos?
+Back: "Tan = Sin over Cos" — divide the sin row by the cos row: tan 30° = (1/2)/(√3/2) = 1/√3.
+
+Card 9
+Front: In a "two angles of elevation from the same point" problem (angles α and β to the top of a tower, distances known), what formula gives the height?
+Back: h = d·(tan α · tan β)/(tan β − tan α), where d is the distance between the two observation points (β > α).
+
+Card 10
+Front: A tower's top shows elevation 30° from a point and 60° after walking x metres towards it. What is the height?
+Back: h = x·√3/2 (since h = x·tan30°·tan60°/(tan60° − tan30°) = x·1/(√3 − 1/√3) = x√3/2).
+
+Card 11
+Front: From the top of a cliff, angles of depression of two boats in line are 30° and 60°. If the boats are 40 m apart, what is the cliff's height?
+Back: h = 40·√3/2 = 20√3 m (same complementary-angle structure as the elevation case).
+
+Card 12
+Front: What is the standard first step in solving any heights-and-distances problem?
+Back: Draw a right-triangle diagram, mark the horizontal/vertical, and label the angle of elevation or depression.
+
+Card 13
+Front: Why do we convert an angle of depression into an angle of elevation inside the triangle?
+Back: Because the angle of depression (outside the triangle) equals the angle of elevation at the object (alternate angles), letting us use tan directly.
+
+Card 14
+Front: If a ladder leans against a wall making 60° with the ground, what fraction of the ladder's length is the height reached on the wall?
+Back: sin 60° = √3/2 of the ladder's length.
+
+Card 15
+Front: In "flag on a building" problems (elevation of building top = α, flag top = β), how is the flag's height found?
+Back: Flag height = d(tan β − tan α), where d is the observer's distance from the building.
+
+Card 16
+Front: What is the memory trick for complementary angles 30° and 60° in two-position problems?
+Back: "30-60, root-three party" — the height always comes out as (distance apart)·√3/2 when the two angles are 30° and 60°.
+
+Card 17
+Front: An observer 1.6 m tall stands 30 m from a tower; the elevation of the top is 30°. What is the tower's height?
+Back: 30·tan 30° + 1.6 = 30/√3 + 1.6 = 10√3 + 1.6 ≈ 18.92 m (remember to add the observer's eye height).
+
+Card 18
+Front: What common trap do examiners set with "shadow increases by x metres" problems?
+Back: Students use the new shadow length instead of the increase; correct setup: h(cot α − cot β) = x, where α < β are the two sun elevations.
+
+Card 19
+Front: What is cot 15° and why is it useful?
+Back: cot 15° = 2 + √3; it appears in advanced problems where the elevation is 15° (tan 15° = 2 − √3).
+
+Card 20
+Front: From a tower of height h, the depression of a point on the ground is 45°. How far is the point from the foot of the tower?
+Back: Distance = h (since tan 45° = 1, distance = h/tan 45° = h).

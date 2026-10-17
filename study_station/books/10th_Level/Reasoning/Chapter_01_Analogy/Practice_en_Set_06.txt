@@ -1,0 +1,151 @@
+Questions 126–145: Easy | Questions 146–150: Medium
+
+126. Architect : Blueprint :: Composer : ?
+(a) Orchestra (b) Symphony (c) Concert (d) Score
+Answer: (d)
+Solution: An architect uses a blueprint as the detailed written plan for construction; similarly, a composer uses a score as the detailed written plan for a musical performance. The trap is "Symphony", which is the finished work, not the plan, so the answer is Score.
+Source: PYQ-style
+
+127. 4 : 68 :: 5 : ?
+(a) 125 (b) 130 (c) 120 (d) 135
+Answer: (b)
+Solution: The pattern is n³ + n: 4³ + 4 = 64 + 4 = 68. The trap is 125, which is only 5³ and ignores the addition of n. Applying the rule, 5³ + 5 = 125 + 5 = 130, so the answer is 130.
+Source: PYQ-style
+
+128. ABCD : ZYXW :: MNOP : ?
+(a) NMLK (b) MNOP (c) KLMN (d) LKMN
+Answer: (a)
+Solution: Each letter is replaced by its opposite-position letter in the alphabet: A→Z, B→Y, C→X, D→W, with the order preserved. The trap is KLMN, which wrongly reverses the order after substitution. Applying the same rule, M→N, N→M, O→L, P→K, so the answer is NMLK.
+Source: PYQ-style
+
+129. Bird : Nest :: Bee : ?
+(a) Den (b) Web (c) Burrow (d) Hive
+Answer: (d)
+Solution: A bird lives in a nest; a bee lives in a hive, so the relationship is creature to its dwelling. The trap is "Web", which is made by a spider, not a bee, so the answer is Hive.
+Source: PYQ-style
+
+130. 2 : 10 :: 4 : 68 :: 6 : ?
+(a) 220 (b) 216 (c) 222 (d) 218
+Answer: (c)
+Solution: The pattern is n³ + n: 2³ + 2 = 10 and 4³ + 4 = 68. The trap is 216, which is only 6³ and forgets to add n. Applying the rule, 6³ + 6 = 216 + 6 = 222, so the answer is 222.
+Source: PYQ-style
+
+131. 3 : 6 :: 4 : 24 :: 5 : ?
+(a) 120 (b) 100 (c) 60 (d) 125
+Answer: (a)
+Solution: The pattern is factorial: 3! = 6 and 4! = 24. The trap is 125, which is 5³ and uses the wrong operation. Applying the rule, 5! = 5 × 4 × 3 × 2 × 1 = 120, so the answer is 120.
+Source: PYQ-style
+
+132. AZ : CX :: GT : ?
+(a) JS (b) RI (c) HS (d) IR
+Answer: (d)
+Solution: The first letter moves +2 and the second letter moves −2: A(1)+2 = C(3), Z(26)−2 = X(24). The trap is RI, which reverses the two resulting letters. Applying the rule, G(7)+2 = I(9) and T(20)−2 = R(18), so the answer is IR.
+Source: PYQ-style
+
+133. Prologue : Book :: Prelude : ?
+(a) Symphony (b) Play (c) Poem (d) Opera
+Answer: (d)
+Solution: A prologue is the introductory section of a book; a prelude is the introductory musical piece of an opera. The trap is "Symphony", but a symphony's opening movement is not called a prelude, so the answer is Opera.
+Source: PYQ-style
+
+134. 5 : 26 :: 7 : ?
+(a) 48 (b) 50 (c) 49 (d) 52
+Answer: (b)
+Solution: The pattern is n² + 1: 5² + 1 = 26. The trap is 49, which is only 7² and forgets the +1. Applying the rule, 7² + 1 = 49 + 1 = 50, so the answer is 50.
+Source: PYQ-style
+
+135. J : Q :: T : ?
+(a) Z (b) B (c) A (d) Y
+Answer: (c)
+Solution: The pattern is +7 positions: J(10) + 7 = Q(17). The trap is Z, chosen by wrongly thinking of the opposite end of the alphabet. Applying the rule, T(20) + 7 = 27, which wraps around to position 1 = A, so the answer is A.
+Source: PYQ-style
+
+136. Tongs : Pincer :: Wrench : ?
+(a) Hammer (b) Chisel (c) Spanner (d) Screwdriver
+Answer: (c)
+Solution: Tongs and pincers are similar gripping tools; a wrench and a spanner are the same tool, spanner being the British English name. The trap is "Hammer", which is a tool but serves a completely different purpose, so the answer is Spanner.
+Source: PYQ-style
+
+137. Anemometer : Wind :: Hygrometer : ?
+(a) Pressure (b) Rain (c) Temperature (d) Humidity
+Answer: (d)
+Solution: An anemometer measures wind speed; a hygrometer measures humidity. The trap is "Temperature", which is measured by a thermometer, not a hygrometer, so the answer is Humidity.
+Source: NCERT Class 7 Science
+
+138. 10 : 101 :: 12 : ?
+(a) 145 (b) 144 (c) 143 (d) 146
+Answer: (a)
+Solution: The pattern is n² + 1: 10² + 1 = 101. The trap is 144, which is only 12² and forgets the +1. Applying the rule, 12² + 1 = 144 + 1 = 145, so the answer is 145.
+Source: PYQ-style
+
+139. 2 : 4 :: 3 : 27 :: 4 : ?
+(a) 64 (b) 256 (c) 128 (d) 32
+Answer: (b)
+Solution: The pattern is n raised to the power n: 2² = 4 and 3³ = 27. The trap is 64, which is 4³ and uses the wrong exponent. Applying the rule, 4⁴ = 256, so the answer is 256.
+Source: PYQ-style
+
+140. Seismograph : Earthquake :: Sphygmomanometer : ?
+(a) Heartbeat (b) Pulse (c) Blood Pressure (d) Temperature
+Answer: (c)
+Solution: A seismograph measures earthquake intensity; a sphygmomanometer measures blood pressure. The trap is "Heartbeat", which is checked with a stethoscope, so the answer is Blood Pressure.
+Source: NCERT Class 7 Science
+
+141. 8 : 512 :: 11 : ?
+(a) 121 (b) 1331 (c) 1321 (d) 1111
+Answer: (b)
+Solution: The pattern is n³: 8³ = 512. The trap is 121, which is only 11² and uses the wrong power. Applying the rule, 11³ = 11 × 11 × 11 = 1331, so the answer is 1331.
+Source: PYQ-style
+
+142. Generous : Miserly :: Brave : ?
+(a) Bold (b) Heroic (c) Timid (d) Courageous
+Answer: (c)
+Solution: Generous and miserly are antonyms, so we need the opposite of brave, which is timid. The trap is "Heroic", which is a synonym of brave, not its opposite, so the answer is Timid.
+Source: PYQ-style
+
+143. 3 : 3 :: 4 : 8 :: 5 : ?
+(a) 24 (b) 15 (c) 12 (d) 10
+Answer: (b)
+Solution: The pattern is the double factorial: 3!! = 3 × 1 = 3 and 4!! = 4 × 2 = 8. The trap is 24, which wrongly applies 4! to the next case. Applying the rule, 5!! = 5 × 3 × 1 = 15, so the answer is 15.
+Source: PYQ-style
+
+144. 2 : 7 :: 3 : 25 :: 4 : ?
+(a) 64 (b) 65 (c) 63 (d) 61
+Answer: (d)
+Solution: The pattern is n³ − (n−1): 2³ − 1 = 7 and 3³ − 2 = 25. The trap is 64, which is only 4³ and skips the subtraction. Applying the rule, 4³ − 3 = 64 − 3 = 61, so the answer is 61.
+Source: PYQ-style
+
+145. CE : GI :: KM : ?
+(a) OQ (b) OR (c) NP (d) PR
+Answer: (a)
+Solution: Each letter moves +4: C(3)+4 = G(7) and E(5)+4 = I(9). The trap is OR, which shifts the second letter by 5 instead of 4. Applying the rule, K(11)+4 = O(15) and M(13)+4 = Q(17), so the answer is OQ.
+Source: PYQ-style
+
+146. Choreographer : Steps :: Playwright : ?
+(a) Dialogues (b) Stage (c) Actor (d) Audience
+Answer: (a)
+Solution: A choreographer designs steps, the individual units of a dance; a playwright writes dialogues, the individual units of a play. The trap is "Stage", which is where a play is performed, not what the playwright creates, so the answer is Dialogues.
+Source: PYQ-style
+
+147. PQ : TV :: XY : ?
+(a) BD (b) BC (c) CD (d) AC
+Answer: (a)
+Solution: The first letter moves +4 and the second letter moves +5: P(16)+4 = T(20) and Q(17)+5 = V(22). The trap is BC, which applies +4 to both letters. Applying the rule, X(24)+4 = 28, which wraps to B(2), and Y(25)+5 = 30, which wraps to D(4), so the answer is BD.
+Source: PYQ-style
+
+148. 6 : 18 :: 10 : 50 :: 14 : ?
+(a) 70 (b) 98 (c) 84 (d) 112
+Answer: (b)
+Solution: The pattern is n × (n/2): 6 × 3 = 18 and 10 × 5 = 50. The trap is 70, which uses the multiplier 5 from the second pair instead of deriving it from 14. Applying the rule, 14 × 7 = 98, so the answer is 98.
+Source: PYQ-style
+
+149. L : O :: U : ?
+(a) W (b) Y (c) X (d) Z
+Answer: (c)
+Solution: The pattern is +3 positions: L(12) + 3 = O(15). The trap is W, which results from adding only 2. Applying the rule, U(21) + 3 = X(24), so the answer is X.
+Source: PYQ-style
+
+150. Unprecedented : New :: Ubiquitous : ?
+(a) Widespread (b) Old (c) Hidden (d) Rare
+Answer: (a)
+Solution: Unprecedented means new or never seen before; ubiquitous means present everywhere, i.e., widespread. The trap is "Rare", which is actually the opposite of ubiquitous, so the answer is Widespread.
+Source: PYQ-style

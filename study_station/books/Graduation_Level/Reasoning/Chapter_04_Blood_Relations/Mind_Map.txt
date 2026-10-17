@@ -1,0 +1,33 @@
+```mermaid
+graph TD
+    A["रक्त संबंध (कोडेड/जटिल)<br>Blood Relations (Coded/Complex)"] --> B["मूल अवधारणाएँ<br>Basic Concepts"]
+    A --> C["कोडेड प्रश्न के प्रकार<br>Types of Coded Questions"]
+    A --> D["हल करने की रणनीति<br>Solving Strategies"]
+    A --> E["समय प्रबंधन<br>Time Management"]
+    A --> F["परीक्षक के जाल<br>Examiner's Traps"]
+
+    B --> B1["पीढ़ी का नियम<br>Generation Rule<br>ऊपर +1, नीचे −1"]
+    B --> B2["लिंग निर्धारण<br>Gender Determination<br>भाई/बहन, पुत्र/पुत्री"]
+    B --> B3["पारिवारिक वृक्ष<br>Family Tree<br>पुरुष □, महिला ○, विवाह ="]
+    B --> B4["मामा-चाचा अंतर<br>Maternal vs Paternal<br>माता-पक्ष / पिता-पक्ष"]
+
+    C --> C1["प्रतीक-आधारित कोड<br>Symbol-Based Codes<br>A + B, A − B, A × B, A ÷ B"]
+    C --> C2["वाक्य-आधारित कोड<br>Statement-Based Codes<br>'A is the father of B'"]
+    C --> C3["संकेत-परिवर्तन प्रश्न<br>Code-Switching<br>हर प्रश्न में नया अर्थ"]
+    C --> C4["जटिल/मिश्रित शृंखला<br>Complex Chains<br>3-4 संबंधों की लंबी शृंखला"]
+
+    D --> D1["पीछे से आगे पढ़ें<br>Read Backwards<br>अंतिम संबंध से शुरुआत"]
+    D --> D2["आरेख बनाएँ<br>Draw Diagram<br>हर कथन को चित्र में बदलें"]
+    D --> D3["लिंग अनुमान न लगाएँ<br>Never Assume Gender<br>नाम से लिंग तय न करें"]
+    D --> D4["विकल्पों से जाँच<br>Verify via Options<br>उत्तर को वापस रखकर परखें"]
+
+    E --> E1["सरल कोड: 30-40 सेकंड<br>Simple Code: 30-40 sec"]
+    E --> E2["जटिल शृंखला: 60-90 सेकंड<br>Complex Chain: 60-90 sec"]
+    E --> E3["2 मिनट से अधिक = छोड़ें<br>Over 2 min = Skip"]
+
+    F --> F1["लिंग का भ्रम<br>Gender Confusion<br>'भाई या बहन' वाले विकल्प"]
+    F --> F2["पीढ़ी की गलती<br>Generation Error<br>दादा बनाम पिता"]
+    F --> F3["कोड का उल्टा अर्थ<br>Reversed Code Meaning<br>A + B में कौन पिता है?"]
+    F --> F4["ससुराल/मायका मिश्रण<br>In-law Mix-up<br>सास-ससुर बनाम माता-पिता"]
+    F --> F5["लगभग-सही कथन<br>Nearly-True Statements<br>एक शब्द बदलकर गलत विकल्प"]
+```

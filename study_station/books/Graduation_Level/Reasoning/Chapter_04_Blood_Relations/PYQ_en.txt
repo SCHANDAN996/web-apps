@@ -1,0 +1,171 @@
+# 📊 PYQ Analysis — Blood Relations (Coded/Complex)
+
+## 1. How Exams Ask This Chapter
+
+Across SSC (CGL, CHSL, MTS), Banking (IBPS PO/Clerk, SBI PO), Railways (RRB NTPC, Group D) and State PCS prelims, Blood Relations is a **permanent fixture** of the reasoning section. It almost never disappears from a paper — typically 1–3 questions per shift in SSC/Railway and 2–5 questions (often as a coded set) in Banking prelims.
+
+The chapter appears in **four recurring formats**:
+
+1. **Direct relationship puzzle** — "Pointing to a photograph, Ravi said…" One speaker, one chain of relations, one question.
+2. **Coded relations** — Symbols defined (A + B means A is the father of B; A − B means A is the sister of B…), then an expression must be decoded or an expression must be *chosen* that proves a stated relationship.
+3. **Family-tree puzzle (Banking favourite)** — A paragraph describes 6–8 family members across 3 generations; 3–5 questions follow (How is X related to Y? How many females? Who is the wife of Z?).
+4. **Mixed with other topics** — Blood relations embedded inside seating arrangement, direction sense ("a man walks towards his sister's house…"), or syllogism-style statements.
+
+## 2. Sub-topics That Repeat Most Often
+
+- **Gender-hidden names**: Names like Kiran, Suman, Kamal, Neeraj that do not reveal gender — the examiner deliberately withholds gender so that careless solvers assume it.
+- **"Only son / only daughter" clauses**: "My mother's only son" = the speaker himself (if male). Missing the word *only* is the single most common error.
+- **Maternal vs paternal side confusion**: Mother's brother (maternal uncle) vs father's brother (paternal uncle) — options are designed so both look plausible.
+- **In-law relations**: Wife's brother, husband's sister, son's wife — Banking exams love these.
+- **Coded chains of 3–4 symbols**: e.g., P × Q + R − S. The trap is reading left-to-right without fixing each pair's gender first.
+- **Generation-count questions**: "How many generations are there?" or "How many married couples?" — solvers forget that a single person can belong to two generations' counts in different questions.
+
+## 3. Examiner's Traps (Psychological Hooks)
+
+1. **The almost-true option**: If the answer is "maternal uncle", one option will be "paternal uncle" and another "cousin". The trap works because solvers build the tree correctly but flip one link at the end.
+2. **Assumed gender**: The statement never says whether the speaker is male or female; two answer options differ only on this. Correct approach: check if the question even *can* be answered, or whether the relation is gender-independent.
+3. **Pronoun back-reference**: Long sentences like "She is the daughter of the wife of the only son of my father's father" — the examiner counts on you losing track of "my". Always start from "my father's father" and build outward.
+4. **Symbol overload in coded questions**: Defining 5–6 symbols when only 3 are needed for the actual question — a pure time-waster trap.
+5. **Negative phrasing**: "Which of the following does NOT establish that M is the mother of N?" — solvers pick the first expression that *does* establish it.
+
+## 4. Exam-wise Distribution (Qualitative)
+
+- **SSC CGL/CHSL/MTS, RRB**: Mostly direct photograph/pointing questions and short coded questions; difficulty easy-to-moderate; 1 question per shift is common.
+- **IBPS/SBI PO & Clerk**: Coded relations and full family-tree puzzles dominate; often 3–5 questions from one paragraph; difficulty moderate-to-high with gender-hidden names.
+- **State PCS prelims**: Direct relations plus one coded question; difficulty moderate.
+
+## 5. Top 10 High-Yield PYQ-Style Questions (with Solutions & Trap Analysis)
+
+---
+
+**Q1.** Pointing to a photograph, a man said, "She is the daughter of my grandfather's only son." How is the woman in the photograph related to the man?
+
+(a) Sister (b) Cousin (c) Aunt (d) Mother
+
+**Answer: (a)**
+
+**Solution:** Grandfather's *only* son = the man's father. Father's daughter = his sister.
+**Trap:** Missing "only". If grandfather had several sons, she could be a cousin. The word "only" collapses the chain to one path.
+**Source:** PYQ-style
+
+---
+
+**Q2.** If A + B means A is the father of B; A − B means A is the brother of B; A × B means A is the mother of B, then which of the following shows that P is the maternal uncle of R?
+
+(a) P + Q × R (b) P − Q × R (c) P × Q + R (d) P − Q + R
+
+**Answer: (b)**
+
+**Solution:** P − Q means P is the *brother* of Q, so P is male. Q × R means Q is the mother of R. P is the brother of R's mother = maternal **uncle**. Option (d) fails because Q + R makes Q the father of R, so P would be the paternal uncle.
+**Trap:** Options (b) and (d) differ only in the last symbol — the examiner counts on you not checking whether Q becomes R's mother or father.
+**Source:** PYQ-style
+
+---
+
+**Q3.** Introducing a boy, a girl said, "He is the son of the only daughter of the father of my paternal uncle." How is the boy related to the girl?
+
+(a) Brother (b) Cousin (c) Nephew (d) Son
+
+**Answer: (b)**
+
+**Solution:** Father of my paternal uncle = my (paternal) grandfather. The *only* daughter of my grandfather = my father's sister, i.e., my aunt. Son of my aunt = my **cousin**.
+**Trap:** Solvers take "daughter of the father of my uncle" as the girl's mother, getting "brother". The chain must be read strictly right-to-left, and "only daughter" fixes that this daughter is not the girl's mother (the mother would be a daughter-*in-law*, not a daughter, of the grandfather).
+**Source:** PYQ-style
+
+---
+
+**Q4.** A family has 6 members: P, Q, R, S, T, U. P is the father of Q. R is the mother of S. S is the son of P. T is the wife of S. U is the daughter of S. How is R related to U?
+
+(a) Mother (b) Grandmother (c) Aunt (d) Sister
+
+**Answer: (b)**
+
+**Solution:** P (father) and R (mother) are parents of Q and S. S's daughter is U, so R is U's grandmother.
+**Trap:** Rushing to "mother" because R is introduced as "mother of S" — the question asks about U, one generation down.
+**Source:** PYQ-style
+
+---
+
+**Q5.** Pointing to a woman, Rohan said, "Her mother's only daughter is my mother." How is Rohan related to the woman?
+
+(a) Son (b) Nephew (c) Brother (d) Grandson
+
+**Answer: (a)**
+
+**Solution:** "Her mother's only daughter" = the woman herself (she is the only daughter). So the woman *is* Rohan's mother. Rohan is her son.
+**Trap:** The sentence folds back on itself — "only daughter" makes the woman and "my mother" the same person. Solvers who build a two-person tree land on "nephew".
+**Source:** PYQ-style
+
+---
+
+**Q6.** If M × N means M is the brother of N; M + N means M is the wife of N; M ÷ N means M is the daughter of N, then in the expression A + B × C ÷ D, how is A related to D?
+
+(a) Daughter-in-law (b) Sister-in-law (c) Daughter (d) Mother
+
+**Answer: (a)**
+
+**Solution:** B × C → B is the brother of C. C ÷ D → C is the daughter of D, so B and C are both children of D, i.e., B is D's son. A + B → A is the wife of B, hence wife of D's son = D's **daughter-in-law**.
+**Trap:** Two-step gender fixing: C's gender (daughter) confirms B is D's son; then A's relation to D follows. Solvers who stop at "A is wife of B" pick "sister-in-law".
+**Source:** PYQ-style
+**⏱ Skip rule:** 3-symbol chains like this are solvable in 30–40 seconds with a mini family tree — attempt. Skip only if the chain has 4+ symbols *and* a negative question.
+
+---
+
+**Q7.** Kiran is the brother of Suman. Suman is the daughter of Rajesh. Kamal is the son of Rajesh. How is Kiran related to Kamal?
+
+(a) Brother (b) Cousin (c) Uncle (d) Cannot be determined
+
+**Answer: (a)**
+
+**Solution:** Suman and Kamal are both children of Rajesh; Kiran is Suman's brother, hence also Rajesh's child. Kiran (male) and Kamal (male) are brothers.
+**Trap:** "Cannot be determined" tempts solvers who think the parents' marriage isn't stated — but shared parent Rajesh is enough.
+**Source:** PYQ-style
+
+---
+
+**Q8.** A said to B, "Your father's only sister is my mother." How is A related to B?
+
+(a) Cousin (b) Brother (c) Nephew (d) Uncle
+
+**Answer: (a)**
+
+**Solution:** B's father's only sister = B's paternal aunt. She is A's mother, so A is the child of B's paternal aunt — A and B are **cousins** (A is B's aunt's child).
+**Trap:** Solvers who misread "your father's sister" as "your mother" land on "brother". Note the statement is fully determinate here: the aunt is explicitly A's mother, so no sibling/cousin ambiguity arises.
+**Source:** PYQ-style
+
+---
+
+**Q9.** In a family of three generations, there are two married couples. F is the grandfather of H. G is the mother of H. E is the father-in-law of G. How many male members are definitely in the family?
+
+(a) 1 (b) 2 (c) 3 (d) Cannot be determined
+
+**Answer: (d)**
+
+**Solution:** E (male, father-in-law of G) and F (male, grandfather) — note E and F may be the *same person* (G's husband's father = H's grandfather). H's gender is unstated; G's husband's existence is implied but he may or may not be counted among named members. Hence "definitely male" cannot be fixed.
+**Trap:** Solvers count E, F, and H's father as 3 males, ignoring that E and F can coincide and H's gender is hidden.
+**Source:** PYQ-style
+**⏱ Skip rule:** "Cannot be determined" family-count questions with overlapping identities are classic 45-second skips in SSC — high ambiguity, low reward.
+
+---
+
+**Q10.** Pointing to a lady, a man said, "The son of her only brother is the brother of my wife." How is the lady related to the man?
+
+(a) Mother-in-law (b) Sister of father-in-law (c) Aunt (d) Mother
+
+**Answer: (b)**
+
+**Solution:** Brother of my wife = my brother-in-law (wife's brother). He is the son of the lady's only brother → the lady's brother is my wife's father → the lady is the sister of my father-in-law.
+**Trap:** The chain crosses two families (speaker's wife's side and the lady's side). Solvers who stay in one family pick "aunt" or "mother-in-law".
+**Source:** PYQ-style
+
+---
+
+## 6. The 15-Second / 45-Second Rule — Review
+
+- **15-second questions**: Direct "pointing to a photograph" with ≤3 links and the word "only" clearly placed (Q1, Q5 type). Solve instantly by reading right-to-left from "my".
+- **45-second questions**: Coded expressions with ≤3 symbols (Q2, Q6 type) and short family paragraphs with ≤5 members. Draw a 3-line tree and answer.
+- **SKIP immediately (return later if time permits)**:
+  - 4+ symbol coded chains with a negative question ("does NOT establish").
+  - "Cannot be determined" traps with overlapping identities (Q9 type).
+  - Questions where the symbol table and options appear inconsistent — mark the closest intended option and move on; never argue with the paper.
+- **Golden rule**: One blood-relation question should never consume more than 60 seconds. The tree either forms quickly or the question is designed to eat your time — that *is* the trap.

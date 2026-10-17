@@ -1,0 +1,44 @@
+```mermaid
+graph TD
+    A["संज्ञा (Noun)<br>नाम, स्थान, व्यक्ति, वस्तु, भाव"] --> B["प्रकार (Types)"]
+    A --> C["संख्या (Number)"]
+    A --> D["लिंग (Gender)"]
+    A --> E["कारक (Case)"]
+    A --> F["6 स्वर्ण नियम"]
+
+    B --> B1["व्यक्तिवाचक संज्ञा (Proper Noun)<br>विशेष नाम: India, Ganga"]
+    B --> B2["जातिवाचक संज्ञा (Common Noun)<br>सामान्य: boy, city"]
+    B --> B3["समूहवाचक संज्ञा (Collective Noun)<br>समूह: team, jury, committee"]
+    B --> B4["पदार्थवाचक संज्ञा (Material Noun)<br>पदार्थ: gold, water"]
+    B --> B5["भाववाचक संज्ञा (Abstract Noun)<br>भाव: honesty, freedom"]
+
+    C --> C1["गणनीय (Countable)<br>book → books"]
+    C --> C2["अगणनीय (Uncountable)<br>advice, information, furniture<br>❌ advices, informations"]
+    C --> C3["सदैव बहुवचन<br>scissors, trousers, spectacles"]
+    C --> C4["समान रूप<br>sheep, deer, series"]
+
+    D --> D1["पुल्लिंग / स्त्रीलिंग<br>(Masculine / Feminine)"]
+    D --> D2["उभयलिंग (Common)<br>teacher, student"]
+    D --> D3["नपुंसकलिंग (Neuter)<br>table, pen"]
+
+    E --> E1["संबंध कारक (Possessive Case)<br>boy's, boys', children's"]
+    E --> E2["निर्जीव में of<br>leg of the table ❌ table's leg"]
+
+    F --> F1["नियम 1: अगणनीय के साथ<br>much/little, एकवचन क्रिया"]
+    F --> F2["नियम 2: समूहवाचक संज्ञा<br>एकता = एकवचन, विभाजन = बहुवचन"]
+    F --> F3["नियम 3: मध्यवर्ती वाक्यांश<br>One of the boys + एकवचन क्रिया"]
+    F --> F4["नियम 4: News, Physics, Ethics<br>दिखते बहुवचन, हैं एकवचन"]
+    F --> F5["नियम 5: Scenery, Poetry, Machinery<br>कोई बहुवचन नहीं"]
+    F --> F6["नियम 6: Hair (समूह) एकवचन<br>Hairs (अलग-अलग) बहुवचन"]
+
+    A --> G["परीक्षक के जाल"]
+    G --> G1["मध्यवर्ती वाक्यांश जाल<br>The quality of apples WAS<br>(कर्ता = quality)"]
+    G --> G2["सही-लगने वाला जाल<br>❌ informations, furnitures"]
+    G --> G3["समूहवाचक संज्ञा जाल<br>The jury IS / ARE?"]
+    G --> G4["अति-विचार जाल<br>सरल नियम पर संदेह"]
+
+    A --> H["रणनीति"]
+    H --> H1["15 सेकंड: तथ्यात्मक<br>बहुवचन रूप, संबंध कारक"]
+    H --> H2["45 सेकंड: तार्किक<br>त्रुटि पहचान, कर्ता पहचान"]
+    H --> H3["छोड़ें: दोनों विकल्प सही लगें<br>तो चिह्नित कर आगे बढ़ें"]
+```

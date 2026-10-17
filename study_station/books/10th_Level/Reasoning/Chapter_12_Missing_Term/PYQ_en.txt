@@ -1,63 +1,119 @@
-PYQ Analysis: Missing Term (SSC, Banking, Railway — last 10 years)
+📊 PYQ Analysis: Missing Term — Pattern & Trend Analysis
 
-Missing term gives 1–3 questions per exam. Sequence and matrix types are most common. The trap is checking only the row and ignoring column/diagonal rules.
+Note: This section analyses how exams test Missing Term questions — which sub-topics recur, what traps examiners set, and how to manage time. We do not quote year-wise question counts, as verified official data of that kind is not available.
 
-Q1. 3, 6, ?, 12, 15
-(a) 8 (b) 9 (c) 10 (d) 7
-Answer: (b) 9
-Solution: Add 3 each time: 6 + 3 = 9.
-Source: SSC CGL
+1. How Different Exams Test This Topic
 
-Q2. 2, 4, ?, 8, 10
-(a) 5 (b) 6 (c) 7 (d) 4
-Answer: (b) 6
-Solution: Add 2 each time: 4 + 2 = 6.
-Source: SSC MTS
+- Banking exams (IBPS/SBI PO & Clerk Prelims): Number series is a regular, high-weightage feature of the reasoning/quant section. Mixed-operation series (×2+1, ×3−2), decimal multipliers (×0.5, ×1.5, ×2.5…) and double (interleaved) series are favourites. Expect several series questions in a single paper.
+- SSC (CGL, CHSL): Usually a small but consistent number of series questions per paper. SSC favours squares/cubes-based series, second-order differences, and occasionally letter series and matrix-based missing numbers.
+- Railway (NTPC, Group D): Series questions appear intermittently; simple number series and alphabet series dominate, with moderate difficulty.
+- Delhi Police / State exams: Occasional series questions, often logic-heavy — primes, alternating sequences, and sometimes date-based series.
 
-Q3. In a matrix, rows are (2, 3, 5), (4, 5, 9), (6, 7, ?). Find ?.
-(a) 11 (b) 13 (c) 12 (d) 10
-Answer: (b) 13
-Solution: The third column = first + second: 6 + 7 = 13.
-Source: SSC CHSL
+Overall: the topic's importance is stable across exams. Banking demands speed on number series; SSC demands breadth across number, letter and matrix formats.
 
-Q4. 5, 10, ?, 20, 25
-(a) 12 (b) 15 (c) 18 (d) 14
-Answer: (b) 15
-Solution: Add 5 each time: 10 + 5 = 15.
-Source: RRB NTPC
+2. Sub-Topics That Recur Most
 
-Q5. 1, ?, 9, 16, 25
-(a) 3 (b) 4 (c) 5 (d) 6
-Answer: (b) 4
-Solution: Perfect squares: 2² = 4.
-Source: SSC MTS
+- Number series with simple or second-order differences (all exams; usually easy)
+- Number series based on squares, cubes, or n²/n³ ± constant (SSC favourite)
+- Mixed-operation series: ×a + b with changing a, b (Banking favourite)
+- Double (interleaved) series — two alternating patterns (Banking, higher difficulty)
+- Alphabet series with position-wise increments (SSC, Railway)
+- Alphanumeric series — parallel number + letter + number patterns (Railway, SSC)
+- Matrix-based missing number — row or column logic (SSC, occasional)
 
-Q6. A, C, ?, G, I
-(a) D (b) E (c) F (d) H
-Answer: (b) E
-Solution: Add 2 positions each time: C → E.
-Source: SSC CGL
+Key insight: In Banking, master mixed operations and decimal multipliers first. For SSC, prioritise squares/cubes and second-order differences, then letter series. For Railway, simple number and alphabet series give the best return.
 
-Q7. 2, 6, ?, 54
-(a) 12 (b) 18 (c) 24 (d) 27
-Answer: (b) 18
-Solution: Multiply by 3 each time: 6 × 3 = 18 (then 18 × 3 = 54).
-Source: Bank Clerk
+3. Ten High-Yield PYQ-Style Questions with Solutions
 
-Q8. 10, ?, 30, 40
-(a) 15 (b) 20 (c) 25 (d) 18
-Answer: (b) 20
-Solution: Add 10 each time: 10 + 10 = 20.
-Source: SSC CHSL
+Q1. 0, 7, 26, 63, ?
 
-Q9. 100, 50, ?, 12.5
-(a) 20 (b) 25 (c) 30 (d) 35
-Answer: (b) 25
-Solution: Divide by 2 each time: 50 ÷ 2 = 25.
-Source: RRB Group D
+Solution: Each term is n³ – 1. 1³–1=0, 2³–1=7, 3³–1=26, 4³–1=63, so next is 5³–1=124.
+Answer: 124
+Trap: The numbers are one less than perfect cubes, but 0 also fits n²–1 (n=1), anchoring candidates to squares. Explore cubes when squares fail.
+Skip decision (45-sec rule): Solve immediately — the cube pattern is recognisable in under 15 seconds.
+Source: PYQ-style
 
-Q10. 1, 4, ?, 10, 13
-(a) 6 (b) 7 (c) 8 (d) 9
-Answer: (b) 7
-Solution: Add 3 each time: 4 + 3 = 7.
-Source: SSC CGL
+Q2. Matrix: In each column, a² + c = b². Given 1² + 120 = 121 = 11² and 2² + 45 = 49 = 7², find x where 3² + x = 5².
+
+Solution: x = 25 – 9 = 16.
+Answer: 16
+Trap: Matrix data is often displayed to suggest row-wise reading while the logic works column-wise — a "direction bias" trap. Candidates waste time checking rows.
+Skip decision: Solve if column logic is spotted quickly; otherwise mark and return after two attempts.
+Source: PYQ-style
+
+Q3. HJRN, JMTQ, LPVT, NSXW, ?
+
+Solution: First letter: H→J→L→N→P (+2). Second: J→M→P→S→V (+3). Third: R→T→V→X→Z (+2). Fourth: N→Q→T→W→Z (+3).
+Answer: PVZZ
+Trap: Four letters with two alternating increments (+2, +3) overload working memory. Decoy options match only one or two letters.
+Skip decision (15-sec rule): If the split pattern isn't detected in 15 seconds, skip and return.
+Source: PYQ-style
+
+Q4. 56, 28, 42, 105, ?, 1653.75
+
+Solution: Multipliers are ×0.5, ×1.5, ×2.5, ×3.5, ×4.5. So 105 × 3.5 = 367.5 (check: 367.5 × 4.5 = 1653.75 ✓).
+Answer: 367.5
+Trap: Decimal multipliers induce anxiety — candidates expect integers. The large jump to 1653.75 tests whether you trust the pattern with extreme values.
+Skip decision: A classic banking pattern; solve if the multiplier sequence is recognised, else skip after 45 seconds.
+Source: PYQ-style
+
+Q5. 2, 6, 30, 210, ?, 30030
+
+Solution: Multipliers are consecutive primes: ×3, ×5, ×7, ×11, ×13. So 210 × 11 = 2310 (check: 2310 × 13 = 30030 ✓).
+Answer: 2310
+Trap: Rapid growth tempts candidates toward ×2, ×3, ×4… (factorial-like). The examiner exploits "familiar pattern bias" — check primes when integer multipliers fail.
+Skip decision: Solve within 30–40 seconds if prime multiplication occurs to you; otherwise skip.
+Source: PYQ-style
+
+Q6. 132, 129, 124, 117, 106, 93, ?
+
+Solution: Differences: –3, –5, –7, –9, –11, so next is –13. 93 – 13 = 80.
+Answer: 80
+Trap: The differences look like primes (–3, –5, –7…) but –9 is not prime — a "near-prime" decoy for those who don't verify every term.
+Skip decision (15-sec rule): Recognisable second-order pattern — solve in 15–20 seconds.
+Source: PYQ-style
+
+Q7. Date series: 4/12/95, 1/1/96, 29/1/96, 26/2/96, ?
+
+Solution: Each date is 28 days after the previous. 26/2/96 + 28 days = 25/3/96 (1996 is a leap year, so February has 29 days).
+Answer: 25/3/96
+Trap: A "domain shift" trap — the pattern leaves pure arithmetic and enters calendar logic. The leap year is a subtle distractor that tests date awareness.
+Skip decision: If the 28-day cycle isn't spotted quickly, skip — date series are rare but high-trap.
+Source: PYQ-style
+
+Q8. 2A11, 4D13, 12G17, ?, 240M31
+
+Solution: Prefix numbers: ×2, ×3, ×4, ×5 → 12×4 = 48 (check: 48×5 = 240 ✓). Letters: A→D→G→J→M (+3). Suffix: primes 11, 13, 17, 23, 31 (gaps +2, +4, +6, +8).
+Answer: 48J23
+Trap: Three parallel patterns overload working memory. The suffix skips 19 — a "missing step" trap for those who assume consecutive primes.
+Skip decision: High-difficulty alphanumeric; skip if not solved in 45 seconds.
+Source: PYQ-style
+
+Q9. ZE8, YJ6, VO4, ?, JY0
+
+Solution: First letter: Z→Y(–1), Y→V(–3), V→Q(–5), Q→J(–7). Second letter: E→J→O→T→Y (+5). Number: 8→6→4→2→0 (–2).
+Answer: QT2
+Trap: Three different operations on three elements demand divided attention. The examiner lures candidates into assuming one uniform operation.
+Skip decision: Time-consuming multi-element series — mark and return after 45 seconds.
+Source: PYQ-style
+
+Q10. 12, 17, 24, 33, 44, ?
+
+Solution: Differences: +5, +7, +9, +11, so next is +13. 44 + 13 = 57.
+Answer: 57
+Trap: A simple second-order difference looks too easy, provoking overthinking — candidates hunt for hidden squares or primes and miss the obvious. The trap is distrust of simplicity.
+Skip decision (15-sec rule): Solve immediately — a textbook 10-second question.
+Source: PYQ-style
+
+4. Psychological Trap Summary
+
+Trap Category | Description | Mitigation
+Direction Bias | Matrix logic works column-wise but data appears row-wise. | Test both row and column patterns within the first 15 seconds.
+Working Memory Overload | Multi-letter or alphanumeric series with different increments per element. | Isolate each position and solve independently.
+Familiar Pattern Bias | Candidate locks onto a familiar pattern (e.g., squares) and ignores alternatives (e.g., cubes). | Keep a mental checklist; do not commit until 3 terms confirm.
+Decimal Anxiety | Non-integer multipliers induce panic. | Treat decimals as normal arithmetic; the logic is identical.
+Premature Closure | Candidate selects an answer after matching only 2 terms. | Verify the rule on at least 3 consecutive pairs.
+Domain Shift | Pattern shifts from numbers to calendar logic or letter rules. | Stay mentally flexible; not all series are arithmetic.
+Simplicity Distrust | Easy patterns are doubted, leading to overthinking. | If a simple rule fits all terms, it is correct — do not overcomplicate.
+
+Final Word: Missing Term is a high-accuracy, high-speed topic. The key is pattern-recognition speed, which comes only from practising diverse question types. Use the 15/45-second rule ruthlessly; never let one question consume your entire reasoning section.

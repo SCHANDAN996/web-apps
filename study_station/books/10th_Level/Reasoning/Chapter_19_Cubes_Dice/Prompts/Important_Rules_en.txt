@@ -1,24 +1,10 @@
-📋 Important Rules & Approaches
-1. Key Rules/Approaches
-Rule Name	Description	Example
-Standard Dice Opposite Sum	In a standard dice, opposite faces add to 7.	1 opposite 6, 2 opposite 5, 3 opposite 4.
-Common-Face Clockwise Trick	In two views with a common face, go clockwise from that face; first neighbour of view-1 is opposite first neighbour of view-2.	View-1: Top 3, Front 1, Right 2. View-2: Top 3, Front 5, Right 6. Then 1 opposite 5, 2 opposite 6.
-Open Dice (Net) – O-CAN Rule	Opposite faces never touch in the net. In a cross net, alternate faces in the 4-face row are opposite, and the top lone is opposite the bottom lone.	Cross net middle row: [2,3,4,5] → 2 opposite 4, 3 opposite 5; top 1 opposite bottom 6.
-Painted Cube – 3 Faces	Always 8 small cubes (corners) have 3 faces painted.	For any n≥2, 3-face = 8.
-Painted Cube – 2 Faces	Cubes on edges excluding corners: 12 × (n – 2)	n=4: 12×(4-2)=24 cubes.
-Painted Cube – 1 Face	Cubes at face centres: 6 × (n – 2)²	n=4: 6×(4-2)²=24 cubes.
-Painted Cube – 0 Faces	Inner core cubes: (n – 2)³	n=4: (4-2)³=8 cubes.
-Counting Cubes in a Solid – Column Method	Look from top; note height in each cell; sum all heights = total cubes.	3×3 grid with heights 1,2,1; 2,3,2; 1,2,1 gives total 15 cubes.
-Non-Standard Dice Rule	Do NOT assume sum=7. Use common-face method to find opposites.	If two views show no common face, build adjacency relationships.
-“Only” vs “At least” Trap	“Only 2 faces” excludes 3-face cubes; “at least 2 faces” includes both 2 and 3-face cubes.	n=4, “only 2” → 24; “at least 2” → 24+8=32.
-2. Time Management
-Rule	Description
-15-Second Rule	If you cannot identify the type of dice or sketch a net within 15 seconds, mark the question and move on. Return later with a fresh mind.
-45-Second Rule	Spend no more than 45 seconds per Cubes & Dice question in the first attempt. If still stuck, apply the skip strategy — eliminate two wrong options and guess logically.
-3. Logical/Mathematical Formulas
-Context	Formula
-Painted cube: Total unit cubes after cutting n×n×n cube	n³
-3 faces painted (corners)	8
-2 faces painted (edges, corners excluded)	12 × (n – 2)
-1 face painted (face centres)	6 × (n – 2)²
-0 faces painted (inner core)	(n – 2)³ (for n ≥ 3)
+# Chapter: Cubes & Dice, Level: foundation, Type: Non-verbal Reasoning
+
+@content_agent lang=en level=foundation 'List all important rules, approaches, time management tips, and logical formulas (if any) for Cubes & Dice in a clean table.
+Instructions:
+- Table has three parts:
+  1. "Key Rules/Approaches" – Rule Name | Description | Example
+  2. "Time Management" – 15-second and 45-second rule (e.g., "If pattern not understood in 15 sec, skip").
+  3. "Logical/Mathematical Formulas" – if applicable; otherwise "No formulas for this chapter".
+- No explanation, just tabular data.
+- Keep language simple and precise.

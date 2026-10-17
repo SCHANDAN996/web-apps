@@ -1,0 +1,33 @@
+```mermaid
+graph TD
+    A["Critical Reading<br>आलोचनात्मक पठन"] --> B["Core Skills"]
+    A --> C["Question Types"]
+    A --> D["Strategies"]
+    A --> E["Examiner's Traps"]
+    A --> F["Time Management"]
+
+    B --> B1["Identify Main Idea<br>Central theme of passage"]
+    B --> B2["Tone Mapping<br>Author's attitude:<br>Critical / Neutral / Optimistic / Sarcastic"]
+    B --> B3["Inference<br>Read between the lines"]
+    B --> B4["Vocabulary in Context<br>Meaning from surrounding words"]
+
+    C --> C1["Fact-Based<br>Directly stated in passage"]
+    C --> C2["Inference-Based<br>Implied, not stated"]
+    C --> C3["Tone / Attitude<br>How the author feels"]
+    C --> C4["Title / Main Idea<br>Best summary of passage"]
+    C --> C5["Vocabulary<br>Word meaning in context"]
+
+    D --> D1["Detective Approach<br>Question → Keywords →<br>Locate in passage → Verify"]
+    D --> D2["Skim First<br>Read Qs before passage"]
+    D --> D3["Eliminate Extremes<br>always / never / completely<br>usually wrong"]
+    D --> D4["Paraphrase Check<br>Correct answer restates,<br>never copies blindly"]
+
+    E --> E1["Sound-Right Trap<br>Option feels true in real life<br>but is NOT in the passage"]
+    E --> E2["Half-Right Trap<br>First half correct,<br>second half twisted"]
+    E --> E3["Over-Thinking Trap<br>Adding outside knowledge<br>to a fact-based question"]
+    E --> E4["Negative Wording<br>EXCEPT / NOT / LEAST<br>misread in a hurry"]
+
+    F --> F1["15-Second Rule<br>Fact & Vocabulary Qs<br>Locate → Answer → Move"]
+    F --> F2["45-Second Rule<br>Inference & Tone Qs<br>Eliminate → Compare → Decide"]
+    F --> F3["Skip Strategy<br>Mark hard inference Qs,<br>return after easy ones"]
+```

@@ -1,0 +1,56 @@
+```mermaid
+graph TD
+    A["पुरस्कार और सम्मान<br>Awards & Honours"]
+
+    A --> C["नागरिक सम्मान<br>Civilian Honours"]
+    A --> G["वीरता पुरस्कार<br>Gallantry Awards"]
+    A --> F["क्षेत्र-वार राष्ट्रीय पुरस्कार<br>Field-wise National Awards"]
+    A --> I["अंतरराष्ट्रीय पुरस्कार<br>International Awards"]
+    A --> T["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> ST["रणनीति<br>Strategies"]
+
+    C --> C1["भारत रत्न 1954<br>Bharat Ratna, 2 Jan 1954"]
+    C --> C2["पद्म पुरस्कार 1954, नाम 1955<br>Padma Vibhushan → Bhushan → Shri"]
+    C1 --> C1a["पहले: राजगोपालाचारी, राधाकृष्णन, रमन<br>First trio RRR"]
+    C1 --> C1b["पहला मरणोपरांत: शास्त्री 1966<br>First woman: Indira Gandhi 1971"]
+    C1 --> C1c["पहला खिलाड़ी: सचिन 2014<br>First sportsperson, youngest"]
+    C1 --> C1d["2024: पाँच प्राप्तकर्ता<br>Karpoori Thakur, Advani, Charan Singh, Rao, Swaminathan"]
+    C2 --> C2a["सीमा 120 प्रति वर्ष<br>Cap 120 a year"]
+    C2 --> C2b["गणतंत्र दिवस की पूर्व संध्या<br>Announced on 25 January"]
+
+    G --> G1["युद्धकाल 1950<br>Param Vir → Maha Vir → Vir"]
+    G --> G2["शांतिकाल 1952, नाम 1967<br>Ashoka → Kirti → Shaurya"]
+    G1 --> G1a["पहला परमवीर: मेजर सोमनाथ शर्मा<br>First PVC 1947"]
+    G1 --> G1b["डिज़ाइन: सावित्री खानोलकर, इंद्र का वज्र<br>Designer Savitri Khanolkar"]
+
+    F --> F1["खेल<br>Sports"]
+    F --> F2["सिनेमा: दादासाहेब फाल्के 1969<br>First: Devika Rani"]
+    F --> F3["साहित्य<br>Literature"]
+    F --> F4["शांति और विज्ञान<br>Peace and Science"]
+    F1 --> F1a["खेल रत्न 1991-92, नया नाम 2021<br>First: Viswanathan Anand"]
+    F1 --> F1b["अर्जुन 1961 खिलाड़ी<br>Dronacharya 1985 coach"]
+    F3 --> F3a["ज्ञानपीठ: स्थापना 1961, पहली बार 1965<br>First: G. Sankara Kurup"]
+    F3 --> F3b["सरस्वती सम्मान: के. के. बिड़ला 1991<br>First: Harivansh Rai Bachchan"]
+    F3 --> F3c["साहित्य अकादमी 1954<br>24 languages"]
+    F4 --> F4a["गांधी शांति पुरस्कार 1995<br>First: Julius Nyerere"]
+    F4 --> F4b["राष्ट्रीय विज्ञान पुरस्कार 2024<br>First Vigyan Ratna: G. Padmanabhan"]
+
+    I --> I1["नोबेल 1901<br>Peace in Oslo, rest in Stockholm"]
+    I --> I2["रेमन मैग्सेसे 1957 फ़िलीपींस<br>First Indian: Vinoba Bhave 1958"]
+    I --> I3["बुकर और अंतरराष्ट्रीय बुकर<br>Booker and International Booker"]
+    I --> I4["ऑस्कर<br>First Indian: Bhanu Athaiya 1983"]
+    I --> I5["विश्व खाद्य पुरस्कार, कलिंग<br>World Food Prize, Kalinga Prize"]
+    I1 --> I1a["टैगोर 1913 साहित्य, रमन 1930 भौतिकी<br>First Indian Nobels"]
+    I1 --> I1b["सेन 1998, सत्यार्थी 2014, बनर्जी 2019<br>Economics, Peace, Economics"]
+    I3 --> I3a["गीतांजलि श्री 2022 हिंदी<br>Banu Mushtaq 2025 Kannada"]
+
+    T --> T1["समान नाम: ज्ञानपीठ बनाम सरस्वती सम्मान<br>Similar name: who gives which"]
+    T --> T2["कालक्रम: स्थापना बनाम नया नाम<br>Chronology: instituted vs renamed"]
+    T --> T3["लगभग सही: कीर्ति चक्र युद्धकालीन?<br>Almost true: Kirti is peace-time"]
+    T --> T4["नकारात्मक: किसे नहीं मिला?<br>Negative phrasing: read NOT twice"]
+
+    ST --> ST1["15 सेकंड: क्षेत्र, देश, पहला विजेता<br>15 sec: field, country, first winner"]
+    ST --> ST2["45 सेकंड: क्रम, बहु-कथन<br>45 sec: order, statements"]
+    ST --> ST3["हर पुरस्कार एक डिब्बा<br>What, who gives, since when, first"]
+    ST --> ST4["नई ख़बर हमेशा वर्ष के साथ<br>New winners always with year"]
+```

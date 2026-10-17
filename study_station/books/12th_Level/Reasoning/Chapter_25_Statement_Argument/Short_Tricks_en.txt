@@ -1,0 +1,118 @@
+# Short Tricks & Quick Methods
+
+These shortcuts save time in the exam hall. Every trick here is mathematically exact — learn the logic, not just the formula, so you can spot when a trick does **not** apply.
+
+---
+
+## 1. Fast Multiplication
+
+**Multiply by 5:** Halve the number, then multiply by 10.
+- 248 × 5 = (248 ÷ 2) × 10 = 124 × 10 = **1240**
+
+**Multiply by 25:** Divide by 4, then multiply by 100.
+- 364 × 25 = (364 ÷ 4) × 100 = 91 × 100 = **9100**
+
+**Multiply by 11 (two-digit number ab):** Write a, then (a+b), then b. Carry if the middle sum exceeds 9.
+- 43 × 11 → 4, (4+3), 3 = **473**
+- 87 × 11 → 8, (8+7)=15, 7 → carry 1 → **957**
+
+**Numbers near 100:** Use (100 + a)(100 + b) = 10000 + 100(a+b) + ab.
+- 103 × 107 = 10000 + 100(3+7) + 21 = **11021**
+
+---
+
+## 2. Squaring Numbers Ending in 5
+
+For a number ending in 5, say (10n + 5): the square is n × (n+1) followed by 25.
+- 65² = 6 × 7 = 42, then 25 → **4225**
+- 115² = 11 × 12 = 132, then 25 → **13225**
+
+---
+
+## 3. Divisibility Rules (very frequently tested)
+
+| Divisor | Rule |
+|---|---|
+| 2 | Last digit even |
+| 3 | Sum of digits divisible by 3 |
+| 4 | Last two digits divisible by 4 |
+| 5 | Last digit 0 or 5 |
+| 6 | Divisible by both 2 and 3 |
+| 8 | Last three digits divisible by 8 |
+| 9 | Sum of digits divisible by 9 |
+| 11 | (Sum of digits in odd places) − (sum in even places) is 0 or a multiple of 11 |
+
+**Exam trap:** A number divisible by 2 and 3 is divisible by 6, but divisibility by 4 and 2 does **not** guarantee divisibility by 8 — the rule works only for co-prime factor pairs.
+
+---
+
+## 4. Percentage ↔ Fraction Conversions (memorise)
+
+| Fraction | Percentage |
+|---|---|
+| 1/2 | 50% |
+| 1/3 | 33.33% |
+| 1/4 | 25% |
+| 1/5 | 20% |
+| 1/6 | 16.66% |
+| 1/8 | 12.5% |
+| 1/10 | 10% |
+| 1/12 | 8.33% |
+
+**Trick:** "x% of y" = "y% of x". So 8% of 25 = 25% of 8 = **2**.
+
+---
+
+## 5. Successive Percentage Change
+
+If a value changes by a% and then b%, the net change is:
+
+**a + b + (ab/100)** percent (use negative signs for decreases).
+
+- Price up 20%, then down 10%: 20 − 10 + (20 × −10)/100 = 20 − 10 − 2 = **+8%** net increase.
+- **Trap:** Up 20% then down 20% is **not** zero — it is 20 − 20 − 4 = **−4%** (a net decrease).
+
+---
+
+## 6. Ratio & Proportion Shortcuts
+
+- If A : B = 2 : 3 and B : C = 4 : 5, make B equal: A : B : C = 8 : 12 : 15.
+- Dividing ₹X in the ratio a : b : c — first share = X × a/(a+b+c). Always check that the parts add up to X.
+
+---
+
+## 7. Time, Speed & Distance
+
+- Speed = Distance / Time. Convert km/h to m/s by multiplying by **5/18**; m/s to km/h by **18/5**.
+- Average speed for equal distances at speeds x and y = **2xy/(x+y)** (harmonic mean — not the simple average).
+- **Trap:** For a round trip at 40 km/h and 60 km/h, average speed = 2×40×60/100 = **48 km/h**, not 50 km/h.
+
+---
+
+## 8. Simple Interest & Compound Interest
+
+- SI = P × R × T / 100. Amount = P + SI.
+- CI for 2 years: effective rate = 2R + R²/100 percent.
+  - At 10% for 2 years: 20 + 1 = **21%** effective.
+- Difference between CI and SI for 2 years = P × (R/100)².
+
+---
+
+## 9. Reasoning: Series & Coding
+
+- **Number series:** First check differences, then differences of differences, then ratios, then alternating patterns (two interleaved series).
+- **Letter series:** Convert letters to positions (A=1 … Z=26) and look for arithmetic patterns in the numbers.
+- **Coding–decoding:** Check whether letters shift by a fixed number, reverse order, or swap positions. Write the alphabet positions above the word before guessing.
+
+---
+
+## 10. Elimination Strategy in the Exam Hall
+
+1. **Units digit check:** In multiplication questions, compute only the units digit first — often two options die immediately.
+2. **Approximation:** Round to convenient numbers, estimate, and pick the closest option when exact calculation is slow.
+3. **Option substitution:** For equations and age problems, test the options in the question instead of solving from scratch — start with a middle option.
+4. **Negative-marking discipline:** If you can eliminate two options confidently, an educated guess is usually worth it; if you cannot eliminate any, skip and return later.
+
+---
+
+**How to use this section:** Practise each trick on 5–10 problems from the Practice Sets until it becomes automatic. A trick remembered but applied wrongly costs more time than the straight method.

@@ -1,0 +1,5 @@
+{% extends 'base.html' %}
+{# The app frame the Android APK carries (python -m app.shell): everything except the screen's content.
+   app.js sees #shellWait and fetches the content for the current address from the server. #}
+{% block robots %}<meta http-equiv="Content-Security-Policy" content="{{ csp }}">{% endblock %}
+{% block main %}<div class="skeleton" id="shellWait" aria-busy="true"><i></i><i></i><i></i></div>{% endblock %}

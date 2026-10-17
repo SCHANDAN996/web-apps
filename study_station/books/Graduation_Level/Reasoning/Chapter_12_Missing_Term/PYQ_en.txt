@@ -1,0 +1,75 @@
+# PYQ Analysis — Missing Term (Verbal Reasoning)
+
+## 1. How Often It Appears
+
+Missing-term questions (number, letter and alphanumeric series, and missing numbers in figures) are a regular part of the reasoning section in SSC CGL/CHSL, banking (IBPS/SBI PO and Clerk), railway (RRB NTPC/Group D) and state PCS papers. Most papers carry a few such questions; banking papers often add a "wrong number series" block. Exact yearly counts vary from paper to paper, so this analysis describes the pattern rather than quoting numbers.
+
+## 2. Sub-topic Weightage (qualitative)
+
+- **Difference-based number series** — the most common family in every exam.
+- **Mixed operations (×k ± c)** — frequent in banking papers.
+- **Squares and cubes (± small numbers)** — common in SSC.
+- **Letter series** — common in SSC and railway papers.
+- **Alphanumeric series** — occasional.
+- **Missing number in figures/grids** — common in SSC and state PCS papers.
+- **Wrong-term series** — mainly banking papers.
+
+## 3. Exam-wise Tendencies
+
+- **SSC:** short series, letter series, powers, figure-based missing numbers; speed matters.
+- **Banking:** wrong-number series and two-step multiplicative patterns with close options.
+- **Railway:** simple difference and ratio patterns, letter series.
+- **State PCS:** grids and figure-based missing numbers.
+
+## 4. Ten High-Yield Questions (PYQ-style, with solutions)
+
+**1.** 3, 7, 13, 21, 31, ?
+Solution: differences 4, 6, 8, 10 → next 12 → **43**.
+Hook: students who stop at "differences are even" pick 41.
+
+**2.** 5, 15, 45, 135, ?
+Solution: ×3 each time → **405**.
+Hook: the option 270 (×2 at the end) catches careless multiplication.
+
+**3.** 4, 9, 25, 49, 121, ?
+Solution: squares of primes 2, 3, 5, 7, 11 → 13² = **169**.
+Hook: 144 (12²) is placed in the options for students who assume consecutive squares.
+
+**4.** 3, 7, 15, 31, 63, ?
+Solution: ×2 + 1 → **127**.
+Hook: differences 4, 8, 16, 32 also work — both rules give 127, so either method is safe.
+
+**5.** 2, 10, 4, 20, 8, 40, ?
+Solution: odd places 2, 4, 8 → **16**.
+Hook: 80 (continuing the even places) is the trap answer.
+
+**6.** B, E, I, N, ?
+Solution: positions 2, 5, 9, 14 → gaps 3, 4, 5 → next gap 6 → position 20 = **T**.
+Hook: S (position 19) is the trap for students who add 5 instead of 6 in the last step, repeating the previous gap instead of increasing it.
+
+**7.** AZ, BY, CX, ?
+Solution: first letter forward, second backward, opposite pairs → **DW**.
+Hook: DV is placed for students who move the second letter by two.
+
+**8.** Grid rows: (4, 5, 20), (6, 3, 18), (7, 8, ?)
+Solution: first × second = third → **56**.
+Hook: 15 (7 + 8) fits only if you test addition on the last row alone.
+
+**9.** Find the wrong term: 3, 5, 9, 17, 31, 65
+Solution: ×2 − 1 → 3, 5, 9, 17, 33, 65 → **31** is wrong.
+Hook: students search for a difference pattern and waste time.
+
+**10.** 2, 3, 8, 27, 112, ?
+Solution: ×1 + 1, ×2 + 2, ×3 + 3, ×4 + 4 → 112 × 5 + 5 = **565**.
+Hook: a two-part changing rule — **skip on the first round** if the rule is not visible in 15 seconds; it is a deliberate time sink.
+
+## 5. Skip Guidance (15-second / 45-second rule)
+
+- Question 10 above: skip in the first round if no rule appears in 15 seconds; return later.
+- Long wrong-term series with three levels of differences: skip if not solved in 45 seconds — they cost more time than one mark is worth.
+
+## 6. Examiner's Traps Seen Again and Again
+
+1. Two rules fit the given terms — only one answer is in the options.
+2. The rule changes in the last step — test every term.
+3. Off-by-one letters — mixing up A = 1 and A = 0 numbering, or repeating a gap instead of extending the gap pattern.

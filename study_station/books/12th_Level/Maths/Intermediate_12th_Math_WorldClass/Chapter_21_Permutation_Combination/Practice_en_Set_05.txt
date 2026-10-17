@@ -1,3 +1,151 @@
-# Chapter: Permutation & Combination, Level: intermediate, Set: 5/6
+Questions 101–120: Easy | Questions 121–125: Medium
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Permutation & Combination. This is Set 5 (total 6 sets, 150 questions). Questions must be numbered 101 to 125. Questions 101 to 120 should be Medium, Questions 121 to 125 should be Hard. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+101. Find the value of 5P3.
+(a) 20 (b) 60 (c) 120 (d) 15
+Answer: (b)
+Solution: The tempting wrong option 120 is 5!, which counts arrangements of all 5 objects, not 3 out of 5. Using nPr = n!/(n−r)!, we get 5P3 = 5!/2! = 5 × 4 × 3 = 60, so the answer is 60.
+Source: NCERT Class 11 Mathematics
+
+102. In how many ways can 2 students be chosen from 6 students?
+(a) 15 (b) 30 (c) 12 (d) 36
+Answer: (a)
+Solution: The tempting wrong option 30 comes from using permutation 6P2, but selection does not involve order. Using 6C2 = 6!/(2! × 4!) = (6 × 5)/2 = 15, so the answer is 15.
+Source: NCERT Class 11 Mathematics
+
+103. How many different arrangements can be made using all the letters of the word APPLE?
+(a) 120 (b) 24 (c) 30 (d) 60
+Answer: (d)
+Solution: The tempting wrong option 120 is 5!, which ignores that the letter P repeats twice. Dividing by 2! for the repeated P: 5!/2! = 120/2 = 60, so the answer is 60.
+Source: NCERT Class 11 Mathematics
+
+104. A committee of 3 members is to be formed from 8 persons. In how many ways can this be done?
+(a) 336 (b) 112 (c) 56 (d) 24
+Answer: (c)
+Solution: The tempting wrong option 336 is 8P3, which wrongly treats committee posts as distinct. Since order does not matter, 8C3 = (8 × 7 × 6)/(3 × 2 × 1) = 56, so the answer is 56.
+Source: NCERT Class 11 Mathematics
+
+105. In how many ways can 6 persons be seated around a round table?
+(a) 720 (b) 120 (c) 60 (d) 24
+Answer: (b)
+Solution: The tempting wrong option 720 is 6!, which is for a straight row; in a circle, rotations of the same arrangement are identical. Circular arrangements = (6−1)! = 5! = 120, so the answer is 120.
+Source: NCERT Class 11 Mathematics
+
+106. Find the value of 7C3.
+(a) 21 (b) 35 (c) 42 (d) 210
+Answer: (b)
+Solution: The tempting wrong option 210 is 7P3, which counts ordered selections. Using 7C3 = (7 × 6 × 5)/(3 × 2 × 1) = 210/6 = 35, so the answer is 35.
+Source: NCERT Class 11 Mathematics
+
+107. How many distinct words can be formed using all the letters of the word SCHOOL?
+(a) 720 (b) 120 (c) 360 (d) 180
+Answer: (c)
+Solution: The tempting wrong option 720 is 6!, which ignores the two identical O's. Dividing by 2!: 6!/2! = 720/2 = 360, so the answer is 360.
+Source: NCERT Class 11 Mathematics
+
+108. In how many ways can 4 boys and 3 girls be seated in a row so that all the girls sit together?
+(a) 5040 (b) 720 (c) 144 (d) 2880
+Answer: (b)
+Solution: The tempting wrong option 5040 is 7!, which ignores the condition that girls must stay together. Treat the 3 girls as one block: 5 units arrange in 5! = 120 ways, and the girls arrange within the block in 3! = 6 ways, giving 120 × 6 = 720, so the answer is 720.
+Source: NCERT Class 11 Mathematics
+
+109. If nP2 = 30, find the value of n.
+(a) 5 (b) 6 (c) 7 (d) 15
+Answer: (b)
+Solution: The tempting wrong option 15 comes from halving 30 instead of solving the product. We need n(n−1) = 30, and 6 × 5 = 30, so n = 6, so the answer is 6.
+Source: NCERT Class 11 Mathematics
+
+110. If nC2 = 28, find the value of n.
+(a) 7 (b) 14 (c) 8 (d) 9
+Answer: (c)
+Solution: The tempting wrong option 7 gives 7C2 = 21, not 28. We need n(n−1)/2 = 28, i.e., n(n−1) = 56, and 8 × 7 = 56, so n = 8, so the answer is 8.
+Source: NCERT Class 11 Mathematics
+
+111. At a party, 10 people shake hands with each other exactly once. How many handshakes take place?
+(a) 45 (b) 90 (c) 100 (d) 20
+Answer: (a)
+Solution: The tempting wrong option 90 counts each handshake twice (A with B and B with A). Each handshake is a selection of 2 from 10: 10C2 = 45, so the answer is 45.
+Source: NCERT Class 11 Mathematics
+
+112. How many diagonals does a regular octagon have?
+(a) 28 (b) 8 (c) 16 (d) 20
+Answer: (d)
+Solution: The tempting wrong option 28 is 8C2, which counts all line segments including the 8 sides. Diagonals = 8C2 − 8 = 28 − 8 = 20, so the answer is 20.
+Source: NCERT Class 11 Mathematics
+
+113. How many 3-digit numbers can be formed using the digits 1, 2, 3, 4 without repetition?
+(a) 36 (b) 12 (c) 64 (d) 24
+Answer: (d)
+Solution: The tempting wrong option 64 allows repetition (4 × 4 × 4), which the question forbids. Without repetition: 4 × 3 × 2 = 24, so the answer is 24.
+Source: NCERT Class 11 Mathematics
+
+114. Five different books are to be arranged on a shelf so that two particular books are always together. In how many ways can this be done?
+(a) 48 (b) 96 (c) 24 (d) 120
+Answer: (a)
+Solution: The tempting wrong option 120 is 5!, which ignores the together condition. Treat the two books as one unit: 4 units arrange in 4! = 24 ways, and the pair swaps in 2! = 2 ways, giving 24 × 2 = 48, so the answer is 48.
+Source: NCERT Class 11 Mathematics
+
+115. A committee of 4 is to be formed from 6 men and 4 women such that exactly 2 women are included. In how many ways can this be done?
+(a) 90 (b) 60 (c) 120 (d) 45
+Answer: (a)
+Solution: The tempting wrong option 60 results from multiplying wrong combination values or forgetting one selection step. Choose 2 women from 4: 4C2 = 6; choose 2 men from 6: 6C2 = 15; total = 6 × 15 = 90, so the answer is 90.
+Source: NCERT Class 11 Mathematics
+
+116. Find the value of 8C3.
+(a) 56 (b) 336 (c) 48 (d) 112
+Answer: (a)
+Solution: The tempting wrong option 336 is 8P3, which counts ordered arrangements. Using 8C3 = (8 × 7 × 6)/(3 × 2 × 1) = 336/6 = 56, so the answer is 56.
+Source: NCERT Class 11 Mathematics
+
+117. How many distinct arrangements can be made using all the letters of the word MISSISSIPPI?
+(a) 39916800 (b) 34650 (c) 69300 (d) 17325
+Answer: (b)
+Solution: The tempting wrong option 39916800 is 11!, which ignores all repeated letters. Here I appears 4 times, S appears 4 times, P appears 2 times: 11!/(4! × 4! × 2!) = 39916800/1152 = 34650, so the answer is 34650.
+Source: NCERT Class 11 Mathematics
+
+118. How many 3-digit numbers can be formed from the digits 0, 1, 2, 3, 4 without repetition?
+(a) 60 (b) 24 (c) 100 (d) 48
+Answer: (d)
+Solution: The tempting wrong option 60 is 5 × 4 × 3, which wrongly allows 0 in the hundreds place, making it a 2-digit number. Hundreds place: 4 choices (non-zero); tens: 4 choices; units: 3 choices, giving 4 × 4 × 3 = 48, so the answer is 48.
+Source: NCERT Class 11 Mathematics
+
+119. Find the value of 10C4.
+(a) 5040 (b) 252 (c) 420 (d) 210
+Answer: (d)
+Solution: The tempting wrong option 5040 is 10P4, which counts ordered selections. Using 10C4 = (10 × 9 × 8 × 7)/(4 × 3 × 2 × 1) = 5040/24 = 210, so the answer is 210.
+Source: NCERT Class 11 Mathematics
+
+120. In how many ways can 5 men and 4 women be seated in a row so that no two women sit together?
+(a) 2880 (b) 14400 (c) 720 (d) 43200
+Answer: (d)
+Solution: The tempting wrong option 2880 forces a strict alternating pattern, but women may also sit in the two end gaps. Arrange the 5 men first: 5! = 120 ways; this creates 6 gaps, and placing 4 women in different gaps gives 6P4 = 360 ways, giving 120 × 360 = 43200, so the answer is 43200.
+Source: NCERT Class 11 Mathematics
+
+121. How many distinct arrangements can be made using all the letters of the word BANANA?
+(a) 720 (b) 120 (c) 60 (d) 360
+Answer: (c)
+Solution: The tempting wrong option 120 divides only by 3! for the A's and forgets the two N's. Here A appears 3 times and N appears 2 times: 6!/(3! × 2!) = 720/12 = 60, so the answer is 60.
+Source: NCERT Class 11 Mathematics
+
+122. A committee of 5 is to be formed from 7 men and 5 women such that at least 3 women are included. In how many ways can this be done?
+(a) 252 (b) 210 (c) 246 (d) 231
+Answer: (c)
+Solution: The tempting wrong option 210 counts only the case of exactly 3 women and stops there. Add all valid cases: exactly 3 women: 5C3 × 7C2 = 10 × 21 = 210; exactly 4 women: 5C4 × 7C1 = 5 × 7 = 35; exactly 5 women: 5C5 = 1. Total = 210 + 35 + 1 = 246, so the answer is 246.
+Source: NCERT Class 11 Mathematics
+
+123. How many 4-digit even numbers can be formed using the digits 0, 1, 2, 3, 4, 5 without repetition?
+(a) 300 (b) 180 (c) 156 (d) 96
+Answer: (c)
+Solution: The tempting wrong option 180 assumes all even endings behave alike and ignores the zero restriction at the thousands place. Split by units digit: if units is 0, thousands has 5 choices, then 4 × 3 for the middle: 5 × 4 × 3 = 60. If units is 2 or 4 (2 choices), thousands has 4 choices (non-zero, non-used), then 4 × 3 for the middle: 2 × 4 × 4 × 3 = 96. Total = 60 + 96 = 156, so the answer is 156.
+Source: NCERT Class 11 Mathematics
+
+124. Six persons are seated around a round table. In how many arrangements are two particular persons NOT sitting together?
+(a) 72 (b) 48 (c) 96 (d) 120
+Answer: (a)
+Solution: The tempting wrong option 48 is actually the count of arrangements where the two ARE together, which is the opposite of what is asked. Total circular arrangements = 5! = 120; together arrangements = 2 × 4! = 48; not together = 120 − 48 = 72, so the answer is 72.
+Source: NCERT Class 11 Mathematics
+
+125. There are 12 points in a plane, out of which 5 are collinear. How many triangles can be formed using these points as vertices?
+(a) 210 (b) 220 (c) 215 (d) 200
+Answer: (a)
+Solution: The tempting wrong option 220 is 12C3, which counts all triples including the collinear ones that cannot form triangles. Subtract the degenerate triples from the 5 collinear points: 12C3 − 5C3 = 220 − 10 = 210, so the answer is 210.
+Source: NCERT Class 11 Mathematics

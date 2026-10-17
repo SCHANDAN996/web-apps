@@ -1,0 +1,141 @@
+# 🪄 Short Tricks — Inequality
+
+---
+
+## 🎭 Mnemonic Box 1 — "The Hungry Crocodile"
+> **The crocodile's mouth always opens toward the BIGGER number.**
+> `5 > 3` → the croc eats 5. `2 < 7` → the croc eats 7.
+> Never decide direction by the symbol's shape — ask: *"Which side would the croc eat?"*
+
+---
+
+## 🎭 Mnemonic Box 2 — "GOLD = Greater Or Less, Decide!"
+> When two conclusions are given and neither follows alone, check for **GOLD**:
+> - **G** — are the two conclusions a **G**enuine pair (a > b and a < b, or a ≥ b and a ≤ b)?
+> - **O** — do they cover **O**nly the same two elements?
+> - **L** — are they **L**ogical opposites (all three relations possible)?
+> - **D** — then the answer is **D**: "Either I or II follows."
+> **GOLD pair = Either-Or!**
+
+---
+
+## 🎭 Mnemonic Box 3 — "The Bridge Rule"
+> To connect A and C, you need a **bridge** through B.
+> `A > B` and `B > C` → bridge exists → `A > C` ✔
+> `A > B` and `B < C` → **bridge broken** (signs face away) → no relation ✘
+> **"Same direction = bridge stands. Opposite direction = bridge collapses."**
+
+---
+
+## 🎭 Mnemonic Box 4 — "Strict Needs Strict — But One Strict Link Is Enough"
+> `>` and `<` are **STRICT** (bouncers — no entry without proof).
+> `≥` and `≤` are **SOFT** (friendly — equal is allowed).
+> **"A strict conclusion needs at least one strict link in a same-direction chain."**
+> - `A ≥ B ≥ C` → no strict link anywhere → only `A ≥ C` ✔, never `A > C` ✘
+> - `A ≥ B > C` → the link `B > C` is strict and all signs point the same way → **`A > C` ✔**
+> **"All-soft chain = soft conclusion. One strict link in a one-way chain = strict conclusion."**
+
+---
+
+## 🎭 Mnemonic Box 5 — "The Wall of ="
+> `A = B` is a **wall**, not a door.
+> `A > B = C` → A is greater than the whole wall → `A > C` ✔
+> But `A = B > C` and conclusion `A > C` ✔ — the wall passes the relation through.
+> **"Equals sign transmits, never blocks."**
+
+---
+
+## 🎭 Mnemonic Box 6 — "SOS: Same, Opposite, Single"
+> For **Either-Or**, remember **SOS**:
+> - **S**ame two elements in both conclusions?
+> - **O**pposite relations (>, < or ≥, ≤)?
+> - **S**ingle pair covers all three possibilities (>, <, =)?
+> All three YES → Either-Or. Even one NO → Neither.
+
+---
+
+## 🎭 Mnemonic Box 7 — "The Grumpy Gatekeeper (≥)"
+> `A ≥ B` means the gatekeeper lets in **two guests**: "greater" AND "equal."
+> So if the only link between A and B is `≥` and the conclusion says `A > B`, the gatekeeper says: *"You forgot my equal guest — REJECTED!"*
+> **"A single ≥ link alone can never prove >. You need a strict link somewhere in the chain."**
+
+---
+
+## 🎭 Mnemonic Box 8 — "Chain Train"
+> Write the statement as a **train**: `P ≥ Q = R > S ≤ T`
+> - Engine P, coaches Q, R, S, T.
+> - To go from P to S, every coupling between them must point the **same way** (or be `=`).
+> - `P ≥ Q = R > S`: couplings ≥, =, > — all "forward" and one of them (`R > S`) is strict → **P > S** ✔
+> - But from S to T the coupling `≤` points backward → the train cannot pass → no relation between P and T.
+> **"One-way train + at least one strict coupling = strict conclusion. One-way train, all soft = soft conclusion."**
+
+---
+
+## 🎭 Mnemonic Box 9 — "Coded Inequality = Decode First, Think Later"
+> Symbols wear costumes: `@ means >`, `# means <`, `$ means =`, `% means ≥`, `& means ≤`.
+> **Trick: rewrite the ENTIRE question in plain symbols before reading any conclusion.**
+> 30 seconds of decoding saves 3 minutes of confusion.
+> **"Decode once, solve five."**
+
+---
+
+## 🎭 Mnemonic Box 10 — "The Liar's Test (Definite vs Possible)"
+> A conclusion "follows" only if it is true in **EVERY** possible arrangement.
+> **Test: try to make the conclusion FALSE.** If you can build even one arrangement where it fails → it does NOT follow.
+> **"One counter-example kills a conclusion."**
+
+---
+
+## 🎭 Mnemonic Box 11 — "Reverse Trap Alarm"
+> Statement: `A > B`. Conclusion: `B < A`.
+> Same thing, flipped! ✔ FOLLOWS.
+> But Statement: `A ≥ B`. Conclusion: `B < A` — **TRAP!** Flipping ≥ gives ≤, not <.
+> **"Flip the symbol, flip BOTH parts — strict stays strict, soft stays soft."**
+
+---
+
+## 🎭 Mnemonic Box 12 — "Three Musketeers of Either-Or"
+> Between any two elements A and B, only three relations exist: **A > B, A = B, A < B.**
+> A valid Either-Or pair must cover **all three musketeers**:
+> - `A > B` + `A ≤ B` → covers all three ✔
+> - `A > B` + `A < B` → misses "=" ✘ (Neither!)
+> **"Miss one musketeer, lose the Either-Or."**
+
+---
+
+## 🎭 Mnemonic Box 13 — "The 20-Second Scan"
+> Before solving, scan the conclusions:
+> 1. Conclusion connects elements with a **direct single statement**? → Check instantly.
+> 2. Conclusion jumps **3+ elements**? → Build the chain.
+> 3. Conclusion has **opposite-facing signs** in its path? → Mark "doesn't follow" in 5 seconds.
+> **"Broken bridge = instant reject."**
+
+---
+
+## 🎭 Mnemonic Box 14 — "Direction First, Strength Second"
+> When a chain mixes symbols, check two things in order:
+> 1. **Direction:** do all signs on the path point the same way (ignoring `=`)? If not → no relation at all.
+> 2. **Strength:** if direction is fine, the conclusion is **strict (>, <)** if at least one strict link lies on the path; otherwise it is **soft (≥, ≤)**.
+> - `A ≥ B > C` → same direction, one strict link → `A > C` ✔
+> - `A ≥ B ≥ C` → same direction, no strict link → only `A ≥ C` ✔
+> **"Direction decides IF you can conclude; the strictest link on the path decides HOW strongly."**
+
+---
+
+## 🎭 Mnemonic Box 15 — "The Mirror Check"
+> For `A ≥ B ≥ C`, conclusion `A ≥ C` ✔ — mirror the chain, it holds.
+> For `A ≥ B ≤ C`, conclusion `A ≥ C` ✘ — the mirror **cracks** at the sign change.
+> **"Sign change in the middle = mirror cracks = no relation."**
+
+---
+
+# ⏭️ Skip Strategy — When to Skip an Inequality Question
+
+### 🚫 Skip Tip 1 — "The 15-Second Decode Rule"
+In **coded inequality**, if you cannot finish decoding the symbol table into plain `>, <, =, ≥, ≤` within **15 seconds**, mark it and move on. Come back only if time remains — a half-decoded question guarantees a silly error.
+
+### 🚫 Skip Tip 2 — "The 4+ Variable Chain"
+If the statement chains **4 or more variables with mixed directions** (e.g., `P > Q ≤ R = S < T`) AND the conclusions connect the two extreme ends, the chain is already broken — but if you can't spot the break in **10 seconds**, skip. Such questions are designed to eat 90+ seconds for 1 mark.
+
+### 🚫 Skip Tip 3 — "Either-Or Doubt = Skip, Don't Guess"
+If you've proven neither conclusion follows but are **unsure whether the Either-Or conditions (SOS rule)** are fully met, do NOT gamble. A wrong Either-Or guess costs negative marking. Skip it, bank the sure questions first, and return with a fresh eye — Either-Or traps are the #1 error source in this chapter.

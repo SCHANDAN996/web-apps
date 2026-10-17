@@ -1,0 +1,112 @@
+# 📊 PYQ Analysis — Probability (Advanced Level)
+
+## How Examiners Test Probability
+
+Probability is a permanent resident of the quantitative/aptitude sections of UPSC CSAT, SSC CGL Tier-II, IBPS PO Mains, CAT and State PCS exams. The questions rarely test heavy theory — they test whether you can **translate a story into a counting problem** without falling for the traps the examiner has planted.
+
+### The recurring sub-topics (in words, not numbers)
+
+- **Classical probability with dice and coins** — the single most repeated family. Two-dice sums, "at least one head", conditional reading of outcomes.
+- **Cards** — a 52-card deck appears again and again: colour, suit, face cards, "without replacement" pairs.
+- **Balls from a bag (urn problems)** — with/without replacement is the examiner's favourite switch.
+- **"At least one" questions** — almost always designed to be solved by the complement rule; solving directly is the trap.
+- **Conditional probability / Bayes' theorem** — appears in CAT and PO Mains as a short word problem (defective items from machines, disease testing).
+- **Independent vs mutually exclusive events** — a conceptual statement question that CSAT loves.
+- **Probability with arrangements** — letters of a word, people in a row, committees (probability + permutation-combination hybrid).
+- **Odds, expectation and "and/or" language** — small but regular.
+
+### The examiner's psychological traps
+
+1. **The near-correct statement trap** — options like "P(A∪B) = P(A) + P(B)" given without the word *mutually exclusive*. One missing condition makes it wrong.
+2. **Replacement confusion** — the question says "two balls drawn" and silently means *without replacement*; the option set contains both answers.
+3. **Order illusion** — "a king and a queen" (any order) vs "first a king, then a queen". The second probability is half of the first.
+4. **The "at least one" direct-count trap** — students add overlapping cases and get a probability greater than the correct one (sometimes > 1, which should be an alarm bell).
+5. **Sample-space shrinkage** — in conditional questions ("given that the sum is 8"), students keep using 36 instead of the reduced sample space.
+6. **Similar-name confusion** — mutually exclusive vs independent vs exhaustive are swapped in statement options.
+7. **Negative wording** — "which is NOT true", "probability that NEITHER occurs" — read the stem twice.
+
+### Time advice
+
+- Dice/coin/cards direct questions: aim for **30–45 seconds** using memorised counts (two-dice sum table, 52-card structure).
+- "At least one" questions: **15 seconds** once you reflexively reach for the complement rule.
+- Bayes/conditional word problems: allow **90 seconds** — write the tree, don't do it mentally.
+
+---
+
+## Top 10 High-Yield Questions (with solutions and trap analysis)
+
+**Q1.** Two fair dice are thrown. What is the probability that the sum of the numbers is 9?
+(a) 1/9  (b) 1/6  (c) 5/36  (d) 1/12
+**Answer: (a)**
+**Solution:** Favourable outcomes: (3,6), (4,5), (5,4), (6,3) = 4. Total = 36. P = 4/36 = 1/9.
+**Trap:** Students who forget that (4,5) and (5,4) are distinct pick 2/36 — not listed, so they "correct" themselves to a wrong nearby option. Memorise the sum table: sums 2–12 have counts 1,2,3,4,5,6,5,4,3,2,1.
+**Source:** PYQ-style
+
+**Q2.** A bag has 4 red and 6 blue balls. Two balls are drawn one after another **without replacement**. Probability that both are red?
+(a) 2/15  (b) 4/25  (c) 1/5  (d) 3/10
+**Answer: (a)**
+**Solution:** P = (4/10)×(3/9) = 12/90 = 2/15.
+**Trap:** Option (b) 4/25 = (4/10)² is the *with replacement* answer, planted deliberately. The phrase "without replacement" changes the second denominator to 9.
+**Source:** PYQ-style
+
+**Q3.** A coin is tossed 3 times. What is the probability of getting **at least one** head?
+(a) 3/4  (b) 7/8  (c) 1/2  (d) 5/8
+**Answer: (b)**
+**Solution:** Complement: P(no head) = P(TTT) = 1/8. So P(at least one head) = 1 − 1/8 = 7/8.
+**Trap:** Direct counting (1 head + 2 heads + 3 heads) invites overlap errors. The moment you read "at least one", switch to 1 − P(none). Option (a) tempts those who count only 3 of the 8 cases.
+**Source:** PYQ-style
+
+**Q4.** From a well-shuffled deck of 52 cards, one card is drawn. Probability that it is either a king or a heart?
+(a) 17/52  (b) 16/52  (c) 4/13  (d) 15/52
+**Answer: (c)**
+**Solution:** P(K) = 4/52, P(H) = 13/52, P(K∩H) = 1/52 (king of hearts). P = 4/52 + 13/52 − 1/52 = 16/52 = 4/13.
+**Trap:** Option (a) 17/52 is the answer if you forget to subtract the overlap — the classic double-count trap in "or" questions. "OR means ADD, then subtract the AND."
+**Source:** PYQ-style
+
+**Q5.** If P(A) = 0.5, P(B) = 0.4 and P(A∩B) = 0.2, then A and B are:
+(a) mutually exclusive  (b) independent  (c) exhaustive  (d) complementary
+**Answer: (b)**
+**Solution:** P(A)×P(B) = 0.5 × 0.4 = 0.2 = P(A∩B). Hence independent.
+**Trap:** Students confuse "mutually exclusive" (P(A∩B) = 0) with "independent" (P(A∩B) = P(A)P(B)). Note: mutually exclusive events with positive probabilities can **never** be independent — a favourite CSAT statement question.
+**Source:** PYQ-style
+
+**Q6.** Two cards are drawn from a deck one after another without replacement. Probability that the first is an ace and the second is a king?
+(a) 4/663  (b) 16/2704  (c) 1/169  (d) 8/663
+**Answer: (a)**
+**Solution:** P = (4/52)×(4/51) = 16/2652 = 4/663.
+**Trap:** Option (d) 8/663 is the answer to "an ace and a king in any order" — exactly double. If the question fixes the order, do not multiply by 2. Option (b) is the with-replacement answer.
+**Source:** PYQ-style
+
+**Q7.** A problem is given to three students whose chances of solving it are 1/2, 1/3 and 1/4 independently. What is the probability that the problem is solved?
+(a) 1/4  (b) 3/4  (c) 13/24  (d) 1/24
+**Answer: (b)**
+**Solution:** P(not solved) = (1/2)×(2/3)×(3/4) = 1/4. P(solved) = 1 − 1/4 = 3/4.
+**Trap:** Option (c) 13/24 comes from adding 1/2 + 1/3 + 1/4 and then "fixing" — adding probabilities of non-exclusive events is wrong. "Problem is solved" = "at least one solves" → complement rule again.
+**Source:** PYQ-style
+
+**Q8.** Given that a family has two children and at least one is a boy, what is the probability that both are boys? (Assume P(boy) = P(girl) = 1/2.)
+(a) 1/2  (b) 1/3  (c) 1/4  (d) 2/3
+**Answer: (b)**
+**Solution:** Sample space {BB, BG, GB, GG}. Condition "at least one boy" removes GG → {BB, BG, GB}. Favourable = BB. P = 1/3.
+**Trap:** The intuitive answer 1/2 is the planted option. The condition **shrinks the sample space** — the heart of conditional probability. CSAT has used exactly this flavour of "given that" reasoning.
+**Source:** PYQ-style
+
+**Q9.** A factory has machines M₁ and M₂ producing 60% and 40% of items. M₁ produces 2% defective, M₂ produces 4% defective. An item is found defective. Probability it came from M₂?
+(a) 0.4  (b) 4/7  (c) 0.04  (d) 3/7
+**Answer: (b)**
+**Solution:** Bayes: P(M₂|D) = (0.4×0.04) / (0.6×0.02 + 0.4×0.04) = 0.016 / 0.028 = 4/7.
+**Trap:** Option (a) 0.4 is just P(M₂) — ignoring the defect evidence. Option (c) confuses joint and conditional probability. Write the two branches (machine → defective?) as a tree; never attempt Bayes mentally.
+**Source:** PYQ-style
+
+**Q10.** The letters of the word "RANDOM" are arranged in a row at random. What is the probability that the two vowels (A, O) come together?
+(a) 1/3  (b) 2/3  (c) 1/6  (d) 5/6
+**Answer: (a)**
+**Solution:** Treat (A,O) as one block → 5 units arranged in 5! ways × 2! internal arrangements = 240. Total = 6! = 720. P = 240/720 = 1/3.
+**Trap:** Hybrid questions (probability × permutations) are the advanced-level norm. Students who compute arrangements correctly but forget the internal 2! get 1/6 — option (c) is waiting for them. Quick check: for n distinct items, P(two specific items together) = 2/n; here 2/6 = 1/3. ✓
+**Source:** PYQ-style
+
+---
+
+## One-line revision of the traps
+
+> "At least one" → complement. "Or" → add, subtract overlap. "Without replacement" → denominator drops. "Given that" → shrink the sample space. "Independent" → multiply the marginals and check. Order fixed → don't double. Bayes → draw the tree.

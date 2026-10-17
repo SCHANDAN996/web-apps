@@ -1,0 +1,35 @@
+```mermaid
+graph TD
+    A["कथन और निष्कर्ष<br>Statement & Conclusion"] --> B["मूल अवधारणा<br>Core Concept"]
+    A --> C["निष्कर्ष के प्रकार<br>Types of Conclusions"]
+    A --> D["हल करने की रणनीति<br>Solving Strategy"]
+    A --> E["समय प्रबंधन<br>Time Management"]
+    A --> F["परीक्षक के जाल<br>Examiner Traps"]
+
+    B --> B1["कथन = दिया गया तथ्य<br>Statement = Given Fact"]
+    B --> B2["निष्कर्ष = कथन से निकला निश्चित परिणाम<br>Conclusion = Definite Result"]
+    B --> B3["कथन को 100% सत्य मानें<br>Assume Statement 100% True"]
+    B --> B4["बाहरी ज्ञान / व्यक्तिगत राय निषिद्ध<br>No Outside Knowledge / Opinion"]
+
+    C --> C1["प्रत्यक्ष निष्कर्ष<br>Direct Conclusion<br>कथन में स्पष्ट आधार"]
+    C --> C2["अप्रत्यक्ष निष्कर्ष<br>Indirect Conclusion<br>तर्क से निकाला गया"]
+    C --> C3["अमान्य निष्कर्ष<br>Invalid Conclusion<br>कथन से परे / अनुमान मात्र"]
+
+    D --> D1["चरण 1: कथन ध्यान से पढ़ें<br>Step 1: Read Statement Carefully"]
+    D --> D2["चरण 2: प्रत्येक निष्कर्ष जाँचें<br>Step 2: Test Each Conclusion"]
+    D --> D3["चरण 3: क्या कथन से निश्चित निकलता है?<br>Step 3: Does it Follow Definitely?"]
+    D --> D4["चरण 4: उत्तर विकल्प चुनें<br>Step 4: Choose Option<br>केवल I / केवल II / दोनों / कोई नहीं"]
+    D --> D5["मुख्य शब्दों पर ध्यान<br>Focus on Keywords<br>सभी, कुछ, केवल, कभी नहीं"]
+
+    E --> E1["सरल प्रश्न: 20–30 सेकंड<br>Easy: 20–30 sec"]
+    E --> E2["कठिन प्रश्न: 45–60 सेकंड<br>Hard: 45–60 sec"]
+    E --> E3["60 सेकंड से अधिक = छोड़ें<br>Skip if > 60 sec"]
+    E --> E4["पहले आसान, फिर कठिन<br>Easy First, Hard Later"]
+
+    F --> F1["जाल 1: 'कुछ' को 'सभी' बनाना<br>Trap: Some → All"]
+    F --> F2["जाल 2: भावनात्मक / नैतिक निष्कर्ष<br>Trap: Emotional / Moral Conclusion"]
+    F --> F3["जाल 3: सामान्य ज्ञान से सही लगने वाला<br>Trap: True by General Knowledge<br>पर कथन से न निकलता हो"]
+    F --> F4["जाल 4: सुझाव / सलाह को निष्कर्ष मानना<br>Trap: Suggestion as Conclusion"]
+    F --> F5["जाल 5: चरम शब्द<br>Trap: Extreme Words<br>हमेशा, कभी नहीं, अवश्य"]
+    F --> F6["जाल 6: कारण-परिणाम उलटना<br>Trap: Reversing Cause-Effect"]
+```

@@ -1,0 +1,31 @@
+```mermaid
+graph TD
+    A["Idioms & Phrases<br>मुहावरे एवं वाक्यांश"] --> B["What is an Idiom?"]
+    A --> C["High-Frequency Themes"]
+    A --> D["Examiner's Traps"]
+    A --> E["Solving Strategy"]
+    A --> F["Memory Tools"]
+
+    B --> B1["Fixed expression<br>Meaning ≠ literal words"]
+    B --> B2["Example: 'Kick the bucket'<br>= to die, NOT to kick"]
+    B --> B3["Idiom vs Phrase vs Proverb<br>Proverb = full sentence of wisdom"]
+
+    C --> C1["Body Parts<br>by heart, face the music,<br>wash one's hands of"]
+    C --> C2["Colours<br>once in a blue moon,<br>red tape, black sheep"]
+    C --> C3["Animals<br>let the cat out of the bag,<br>a wild goose chase"]
+    C --> C4["Weather & Nature<br>rain cats and dogs,<br>storm in a teacup"]
+    C --> C5["Money & Work<br>burn the midnight oil,<br>bring home the bacon"]
+
+    D --> D1["Literal-Meaning Trap<br>Option repeats the words<br>of the idiom — always wrong"]
+    D --> D2["Similar-Sounding Trap<br>'to eat humble pie' vs<br>'to eat one's words'"]
+    D --> D3["Partial-Meaning Trap<br>Option is half-correct,<br>read all four fully"]
+
+    E --> E1["Step 1: Recall the image<br>behind the idiom"]
+    E --> E2["Step 2: Eliminate literal<br>options first"]
+    E --> E3["Step 3: Match tone —<br>positive / negative / neutral"]
+    E --> E4["15-sec rule: direct recall<br>45-sec rule: idiom in a sentence<br>needs context reading"]
+
+    F --> F1["Story Method<br>Link idiom to a mini-story"]
+    F --> F2["Hindi Bridge<br>'नौ दो ग्यारह होना' ≈<br>'to take to one's heels'"]
+    F --> F3["Revise after 2 days,<br>then after 1 week"]
+```

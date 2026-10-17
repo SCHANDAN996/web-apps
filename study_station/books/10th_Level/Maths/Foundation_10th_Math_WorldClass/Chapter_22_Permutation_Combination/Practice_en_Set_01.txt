@@ -1,178 +1,151 @@
-Set 1: Permutation & Combination — Foundation Level (Easy to Medium)
+Practice Set 1: Permutation & Combination — Questions 1–20 Easy, Questions 21–25 Medium
 
-Q1. How many 2-digit numbers can be formed using the digits 1, 2, 3 if repetition of digits is not allowed?
-(1) 6 (2) 9 (3) 3 (4) 12
+1. How many 2-digit numbers can be formed using the digits 1, 2, 3 if repetition of digits is not allowed?
+(a) 3 (b) 9 (c) 12 (d) 6
+Answer: (d)
+Solution: The trap is 3 × 3 = 9, which wrongly allows repetition. Tens place has 3 choices and units place has 2 remaining choices, so the answer is 6.
+Source: NCERT Class 11 Mathematics
 
-Answer: (1) 6
-Solution: Tens place: 3 choices (1,2,3). Units place: 2 remaining choices. Total = 3 × 2 = 6.
-Source: NCERT Class 11, Ex 7.1
+2. In how many ways can 4 different books be arranged on a shelf?
+(a) 24 (b) 12 (c) 4 (d) 16
+Answer: (a)
+Solution: The trap is 4 × 4 = 16, which ignores that each position loses one choice. Arranging 4 distinct items in a row gives 4! = 24, so the answer is 24.
+Source: NCERT Class 11 Mathematics
 
-Q2. In how many ways can 4 different books be arranged on a shelf?
-(1) 12 (2) 24 (3) 4 (4) 16
+3. A restaurant offers 2 soups and 3 starters. In how many ways can a customer choose one soup and one starter?
+(a) 5 (b) 8 (c) 6 (d) 9
+Answer: (c)
+Solution: The trap is 2 + 3 = 5, which uses addition instead of multiplication. By the fundamental counting principle, 2 × 3 = 6, so the answer is 6.
+Source: NCERT Class 11 Mathematics
 
-Answer: (2) 24
-Solution: Arranging 4 distinct items in a row = 4! = 24.
-Source: NCERT Class 11, Ex 7.2
+4. What is the value of 5P2?
+(a) 120 (b) 10 (c) 60 (d) 20
+Answer: (d)
+Solution: The trap is 5C2 = 10, but order matters in a permutation. 5P2 = 5 × 4 = 20, so the answer is 20.
+Source: NCERT Class 11 Mathematics
 
-Q3. A restaurant offers 2 soups and 3 starters. How many ways can a customer choose one soup and one starter?
-(1) 5 (2) 6 (3) 8 (4) 9
+5. In how many ways can a captain and a vice-captain be chosen from 5 players?
+(a) 20 (b) 25 (c) 5 (d) 10
+Answer: (a)
+Solution: The trap is 5C2 = 10, but the two posts are different, so order matters. 5P2 = 5 × 4 = 20, so the answer is 20.
+Source: NCERT Class 11 Mathematics
 
-Answer: (2) 6
-Solution: Fundamental Counting Principle: 2 × 3 = 6.
-Source: NCERT Class 11, Ex 7.1
+6. A team of 2 students is to be selected from 4 students. In how many ways can this be done?
+(a) 12 (b) 6 (c) 8 (d) 4
+Answer: (b)
+Solution: The trap is 4P2 = 12, but selection does not involve order. 4C2 = 6, so the answer is 6.
+Source: NCERT Class 11 Mathematics
 
-Q4. What is the value of 5P2?
-(1) 10 (2) 20 (3) 60 (4) 120
+7. The value of nC0 is:
+(a) 0 (b) 1 (c) n (d) n!
+Answer: (b)
+Solution: The trap is 0, but there is exactly one way to choose nothing from n objects. Hence nC0 = 1, so the answer is 1.
+Source: NCERT Class 11 Mathematics
 
-Answer: (2) 20
-Solution: 5P2 = 5!/(5-2)! = 5 × 4 = 20.
-Source: NCERT Class 11, Ex 7.3
+8. How many 3-letter words (with or without meaning) can be formed using the first 5 letters of the English alphabet if no letter is repeated?
+(a) 125 (b) 10 (c) 15 (d) 60
+Answer: (d)
+Solution: The trap is 5³ = 125, which allows repetition. Without repetition, 5P3 = 5 × 4 × 3 = 60, so the answer is 60.
+Source: NCERT Class 11 Mathematics
 
-Q5. How many ways can a captain and vice-captain be chosen from 5 players?
-(1) 10 (2) 20 (3) 25 (4) 5
+9. In how many ways can 6 people be seated in a row?
+(a) 36 (b) 120 (c) 720 (d) 30
+Answer: (c)
+Solution: The trap is 5! = 120, which counts one person short. Seating 6 people in a row gives 6! = 720, so the answer is 720.
+Source: NCERT Class 11 Mathematics
 
-Answer: (2) 20
-Solution: Order matters (captain, vice-captain) → 5P2 = 5 × 4 = 20.
-Source: NCERT Class 11, Ex 7.3
+10. If nC8 = nC5, what is the value of n?
+(a) 15 (b) 13 (c) 12 (d) 11
+Answer: (b)
+Solution: The trap is adding wrongly or assuming n = 8 + 5 is not needed. Since nCr = nC(n − r), we get n − 8 = 5, so the answer is 13.
+Source: NCERT Class 11 Mathematics
 
-Q6. A team of 2 students is to be selected from 4 students. How many ways?
-(1) 6 (2) 12 (3) 8 (4) 4
+11. In how many ways can a committee of 3 be formed from 7 people?
+(a) 35 (b) 21 (c) 210 (d) 42
+Answer: (a)
+Solution: The trap is 7P3 = 210, but a committee is a selection, not an arrangement. 7C3 = (7 × 6 × 5)/(3 × 2 × 1) = 35, so the answer is 35.
+Source: NCERT Class 11 Mathematics
 
-Answer: (1) 6
-Solution: Selection, order doesn’t matter → 4C2 = 6.
-Source: NCERT Class 11, Ex 7.4
+12. A lock code consists of 3 digits, each from 0 to 9. If repetition is allowed, how many codes are possible?
+(a) 720 (b) 504 (c) 1000 (d) 100
+Answer: (c)
+Solution: The trap is 10P3 = 720, which wrongly forbids repetition. Each of the 3 places has 10 choices, giving 10³ = 1000, so the answer is 1000.
+Source: NCERT Class 11 Mathematics
 
-Q7. nC0 is equal to:
-(1) 0 (2) 1 (3) n (4) n!
+13. How many even 2-digit numbers can be formed using the digits 1, 2, 3, 4, 5 without repetition?
+(a) 12 (b) 10 (c) 8 (d) 6
+Answer: (c)
+Solution: The trap is 5 × 4 = 20 ÷ 2 = 10, a faulty halving. The units digit must be 2 or 4 (2 choices), then the tens digit has 4 choices, giving 2 × 4 = 8, so the answer is 8.
+Source: NCERT Class 11 Mathematics
 
-Answer: (2) 1
-Solution: There is exactly one way to choose nothing.
-Source: NCERT Class 11, Section 7.4
+14. What is the number of diagonals in a regular hexagon?
+(a) 6 (b) 9 (c) 12 (d) 15
+Answer: (b)
+Solution: The trap is 6C2 = 15, which counts the 6 sides as well. Diagonals = 15 − 6 = 9, so the answer is 9.
+Source: NCERT Class 11 Mathematics
 
-Q8. How many 3-letter words (with or without meaning) can be formed using the first 5 letters of the English alphabet if no letter is repeated?
-(1) 60 (2) 125 (3) 10 (4) 15
+15. The value of 5P5 is:
+(a) 120 (b) 60 (c) 5 (d) 25
+Answer: (a)
+Solution: The trap is 5 × 5 = 25, confusing permutation with multiplication. 5P5 = 5! = 120, so the answer is 120.
+Source: NCERT Class 11 Mathematics
 
-Answer: (1) 60
-Solution: 5P3 = 5 × 4 × 3 = 60.
-Source: NCERT Class 11, Ex 7.2
+16. A man has 3 shirts and 4 ties. In how many ways can he choose one shirt and one tie?
+(a) 7 (b) 24 (c) 4 (d) 12
+Answer: (d)
+Solution: The trap is 3 + 4 = 7, which adds instead of multiplying. By the counting principle, 3 × 4 = 12, so the answer is 12.
+Source: NCERT Class 11 Mathematics
 
-Q9. In how many ways can 6 people be seated in a row?
-(1) 720 (2) 120 (3) 36 (4) 30
+17. How many ways can 3 letters be chosen from the word COUNT?
+(a) 60 (b) 10 (c) 20 (d) 15
+Answer: (b)
+Solution: The trap is 5P3 = 60, but only selection is asked, not arrangement. 5C3 = 10, so the answer is 10.
+Source: NCERT Class 11 Mathematics
 
-Answer: (1) 720
-Solution: 6! = 720.
-Source: NCERT Class 11, Ex 7.2
+18. The value of 0! is:
+(a) 0 (b) 1 (c) Undefined (d) Infinity
+Answer: (b)
+Solution: The trap is 0, since 0 multiplied gives 0. By definition 0! = 1, which keeps n! = n × (n − 1)! consistent, so the answer is 1.
+Source: NCERT Class 11 Mathematics
 
-Q10. If nC8 = nC5, what is the value of n?
-(1) 13 (2) 15 (3) 12 (4) 11
+19. How many different signals can be given by arranging 3 flags of different colours vertically on a pole, using all three flags?
+(a) 6 (b) 9 (c) 12 (d) 3
+Answer: (a)
+Solution: The trap is 3 × 3 = 9, which reuses flags. Arranging 3 distinct flags gives 3! = 6, so the answer is 6.
+Source: NCERT Class 11 Mathematics
 
-Answer: (1) 13
-Solution: Using symmetry, nC8 = nC(n-8). Given nC8 = nC5, so n-8 = 5 → n = 13.
-Source: NCERT Class 11, Ex 7.4
+20. If nP2 = 12, what is the value of n?
+(a) 4 (b) 5 (c) 6 (d) 3
+Answer: (a)
+Solution: The trap is n = 3, since 3 × 4 = 12 reverses the factors. nP2 = n(n − 1) = 12 gives n² − n − 12 = 0, so n = 4, and the answer is 4.
+Source: NCERT Class 11 Mathematics
 
-Q11. How many ways can a committee of 3 be formed from 7 people?
-(1) 35 (2) 210 (3) 21 (4) 42
+21. In how many ways can the letters of the word MATH be arranged so that the first letter is a consonant?
+(a) 12 (b) 24 (c) 6 (d) 18
+Answer: (d)
+Solution: The trap is 4! = 24, which ignores the restriction. The first place has 3 consonant choices (M, T, H) and the remaining 3 letters arrange in 3! = 6 ways, giving 3 × 6 = 18, so the answer is 18.
+Source: PYQ-style
 
-Answer: (1) 35
-Solution: 7C3 = 7!/(3!4!) = (7×6×5)/(3×2×1) = 35.
-Source: NCERT Class 11, Ex 7.4
+22. How many 3-digit numbers divisible by 5 can be formed using the digits 0, 1, 2, 3, 4, 5 without repetition?
+(a) 36 (b) 20 (c) 15 (d) 24
+Answer: (a)
+Solution: The trap is counting only numbers ending in 0, which gives 20. Ending in 0: 5 × 4 = 20; ending in 5: hundreds digit has 4 choices (not 0 or 5), tens has 4, giving 16. Total = 36, so the answer is 36.
+Source: PYQ-style
 
-Q12. A lock code consists of 3 digits (0–9 each). If repetition is allowed, how many codes are possible?
-(1) 1000 (2) 720 (3) 504 (4) 100
+23. From 5 men and 3 women, a committee of 2 men and 1 woman is to be formed. In how many ways can this be done?
+(a) 40 (b) 15 (c) 20 (d) 30
+Answer: (d)
+Solution: The trap is 5C2 + 3C1 = 13 or using permutations. Choose 2 men in 5C2 = 10 ways and 1 woman in 3C1 = 3 ways, giving 10 × 3 = 30, so the answer is 30.
+Source: PYQ-style
 
-Answer: (1) 1000
-Solution: 10 choices for each digit, total = 10³ = 1000.
-Source: NCERT Class 11, Ex 7.1
+24. In how many ways can 5 persons be seated around a circular table?
+(a) 120 (b) 60 (c) 24 (d) 20
+Answer: (c)
+Solution: The trap is 5! = 120, which treats the arrangement as linear. In a circle only relative positions matter, giving (5 − 1)! = 24, so the answer is 24.
+Source: NCERT Class 11 Mathematics
 
-Q13. How many even numbers of 2 digits can be formed using digits 1,2,3,4,5 without repetition?
-(1) 8 (2) 10 (3) 12 (4) 6
-
-Answer: (1) 8
-Solution: Unit digit must be even: 2 or 4 (2 choices). Tens digit: any of remaining 4 digits. Total = 2 × 4 = 8.
-Source: NCERT Class 11, Ex 7.1
-
-Q14. What is the number of diagonals in a regular hexagon? (A diagonal is a line joining two non-adjacent vertices)
-(1) 9 (2) 6 (3) 12 (4) 15
-
-Answer: (1) 9
-Solution: Total ways to choose 2 vertices from 6 = 6C2 = 15. Subtract the 6 sides (adjacent pairs). Diagonals = 15 − 6 = 9.
-Source: NCERT Class 11, Ex 7.4
-
-Q15. 5P5 is equal to:
-(1) 120 (2) 60 (3) 5 (4) 25
-
-Answer: (1) 120
-Solution: 5P5 = 5! = 120.
-Source: NCERT Class 11, Ex 7.3
-
-Q16. A man has 3 shirts and 4 ties. In how many ways can he choose one shirt and one tie?
-(1) 7 (2) 12 (3) 24 (4) 4
-
-Answer: (2) 12
-Solution: 3 × 4 = 12.
-Source: NCERT Class 11, Ex 7.1
-
-Q17. How many ways can 3 letters be chosen from the word ‘COUNT’?
-(1) 60 (2) 10 (3) 20 (4) 15
-
-Answer: (2) 10
-Solution: Simply selecting 3 out of 5 distinct letters → 5C3 = 10.
-Source: NCERT Class 11, Ex 7.4
-
-Q18. 0! equals:
-(1) 0 (2) 1 (3) Undefined (4) Infinity
-
-Answer: (2) 1
-Solution: By convention, 0! = 1.
-Source: NCERT Class 11, Section 7.2
-
-Q19. How many different signals can be given using 3 flags of different colours, arranged vertically on a pole?
-(1) 6 (2) 9 (3) 3 (4) 12
-
-Answer: (1) 6
-Solution: 3 distinct flags arranged in order = 3! = 6.
-Source: NCERT Class 11, Ex 7.2
-
-Q20. If nP2 = 12, what is n?
-(1) 4 (2) 5 (3) 6 (4) 3
-
-Answer: (1) 4
-Solution: nP2 = n(n-1) = 12 → n² - n - 12 = 0 → (n-4)(n+3)=0 → n=4.
-Source: NCERT Class 11, Ex 7.3
-
-Q21. In how many ways can the letters of the word ‘MATH’ be arranged so that the first letter is a consonant?
-(1) 12 (2) 18 (3) 24 (4) 6
-
-Answer: (2) 18
-Solution: ‘MATH’ has consonants M,T,H (3) and vowel A (1). First letter must be a consonant: 3 choices. Remaining 3 letters can be arranged in 3! = 6 ways. Total = 3 × 6 = 18.
-Source: SSC CGL (P&C pattern)
-
-Q22. How many 3-digit numbers divisible by 5 can be formed using digits 0,1,2,3,4,5 without repetition?
-(1) 36 (2) 20 (3) 15 (4) 24
-
-Answer: (1) 36
-Solution: A number divisible by 5 ends with 0 or 5. Case 1: unit=0 → hundreds place 5 choices (can't be 0), tens 4 → 5×4=20. Case 2: unit=5 → hundreds 4 choices (not 0,5), tens 4 (including 0 but not taken digit) → 4×4=16. Total = 20+16=36.
-Source: SSC CHSL pattern
-
-Q23. From 5 men and 3 women, a committee of 2 men and 1 woman is to be formed. How many ways?
-(1) 30 (2) 40 (3) 15 (4) 20
-
-Answer: (1) 30
-Solution: 2 men from 5: 5C2 = 10; 1 woman from 3: 3C1 = 3; multiply = 10 × 3 = 30.
-Source: Bank PO pattern
-
-Q24. How many ways can 5 persons be seated around a circular table?
-(1) 120 (2) 24 (3) 60 (4) 20
-
-Answer: (2) 24
-Solution: Circular permutation formula: (5-1)! = 4! = 24.
-Source: NCERT Class 11, Ex 7.4
-
-Q25. A box contains 2 white, 3 black and 4 red balls. In how many ways can 3 balls be drawn such that all are of different colours?
-(1) 24 (2) 60 (3) 12 (4) 28
-
-Answer: (1) 24
-Solution: One ball from each colour: 2C1 × 3C1 × 4C1 = 2 × 3 × 4 = 24.
-Source: SSC CGL (Mains) pattern
-
-🚀 Review this set after 2 days. Pick any 5 wrong or tricky questions and re-solve them without looking; explain the trap aloud in 30 seconds.
+25. A box contains 2 white, 3 black and 4 red balls. In how many ways can 3 balls be drawn such that all are of different colours?
+(a) 60 (b) 12 (c) 24 (d) 28
+Answer: (c)
+Solution: The trap is 9C3 = 84 or adding the choices. One ball of each colour gives 2C1 × 3C1 × 4C1 = 2 × 3 × 4 = 24, so the answer is 24.
+Source: PYQ-style

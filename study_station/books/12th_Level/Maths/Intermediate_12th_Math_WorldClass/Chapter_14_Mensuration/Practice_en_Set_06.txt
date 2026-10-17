@@ -1,3 +1,149 @@
-# Chapter: Mensuration, Level: intermediate, Set: 6/6
+126. A solid metallic cylinder of radius 12 cm and height 9 cm is melted and recast into identical solid cones, each of radius 6 cm and height 9 cm. How many cones are formed?
+(a) 9 (b) 15 (c) 12 (d) 18
+Answer: (c)
+Solution: The tempting wrong answer 18 comes from using the cone's volume as if it were a full cylinder, forgetting the one-third factor. Volume of cylinder = π × 12² × 9 = 1296π cm³. Volume of one cone = (1/3) × π × 6² × 9 = 108π cm³. Number of cones = 1296π ÷ 108π = 12, so the answer is 12.
+Source: NCERT Class 10 Mathematics, Surface Areas and Volumes
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Mensuration. This is Set 6 (total 6 sets, 150 questions). Questions must be numbered 126 to 150. All 25 questions should be Hard. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+127. A bucket is in the shape of a frustum of a cone with radii 8 cm and 4 cm and slant height 5 cm. Find its volume. (Use π = 22/7)
+(a) 308 cm³ (b) 336 cm³ (c) 352 cm³ (d) 374 cm³
+Answer: (c)
+Solution: The trap answer 308 comes from wrongly taking the height as 5 cm instead of computing it. Height h = √(5² − (8−4)²) = √(25−16) = 3 cm. Volume = (1/3)πh(R² + Rr + r²) = (1/3) × (22/7) × 3 × (64 + 32 + 16) = (22/7) × 112 = 352 cm³, so the answer is 352 cm³.
+Source: NCERT Class 10 Mathematics, Surface Areas and Volumes
+
+128. A cube is painted on all faces and cut into 216 identical smaller cubes. How many small cubes have exactly two faces painted?
+(a) 48 (b) 36 (c) 60 (d) 24
+Answer: (a)
+Solution: The trap answer 36 comes from using n = 6 directly in 12(n−2) as 12 × (6−3) or confusing it with one-face cubes. Since 216 = 6³, n = 6. Cubes with exactly two painted faces lie on edges (excluding corners): 12(n−2) = 12 × 4 = 48, so the answer is 48.
+Source: PYQ-style (SSC CGL pattern)
+
+129. A room is 12 m long, 9 m wide and 8 m high. Find the length of the longest pole that can be placed in it.
+(a) 15 m (b) 17 m (c) 19 m (d) 21 m
+Answer: (b)
+Solution: The trap answer 15 comes from taking only the floor diagonal √(12² + 9²) = 15 and ignoring the height. The longest pole equals the space diagonal = √(12² + 9² + 8²) = √(144 + 81 + 64) = √289 = 17 m, so the answer is 17 m.
+Source: NCERT Class 10 Mathematics, Surface Areas and Volumes
+
+130. A cylinder and a cone have the same base radius and the same height. If the volume of the cone is 154 cm³, what is the volume of the cylinder?
+(a) 308 cm³ (b) 462 cm³ (c) 154 cm³ (d) 616 cm³
+Answer: (b)
+Solution: The trap answer 308 comes from doubling instead of tripling, misremembering the ratio. For the same base and height, cylinder volume = 3 × cone volume = 3 × 154 = 462 cm³, so the answer is 462 cm³.
+Source: NCERT Class 9 Mathematics, Surface Areas and Volumes
+
+131. A sector of a circle of radius 21 cm has a central angle of 60°. Find the perimeter of the sector. (Use π = 22/7)
+(a) 64 cm (b) 44 cm (c) 86 cm (d) 22 cm
+Answer: (a)
+Solution: The trap answer 22 is only the arc length, forgetting the two radii. Arc length = (60/360) × 2 × (22/7) × 21 = 22 cm. Perimeter = arc + 2r = 22 + 42 = 64 cm, so the answer is 64 cm.
+Source: NCERT Class 10 Mathematics, Areas Related to Circles
+
+132. The area of an equilateral triangle is 16√3 cm². Find the area of its inscribed circle.
+(a) 12π cm² (b) 4π cm² (c) 8π cm² (d) 16π/3 cm²
+Answer: (d)
+Solution: The trap answer 4π comes from taking the inradius as half the side instead of side ÷ 2√3. From (√3/4)a² = 16√3, a² = 64, so a = 8 cm. Inradius r = a/(2√3) = 8/(2√3) = 4/√3 cm. Area = πr² = π × 16/3 = 16π/3 cm², so the answer is 16π/3 cm².
+Source: PYQ-style (SSC CGL pattern)
+
+133. The diagonals of a rhombus are 24 cm and 10 cm. Find its perimeter.
+(a) 48 cm (b) 52 cm (c) 56 cm (d) 68 cm
+Answer: (b)
+Solution: The trap answer 68 comes from adding the diagonals (24 + 10 = 34) and doubling, which is meaningless. Diagonals bisect each other at right angles, so side = √(12² + 5²) = √169 = 13 cm. Perimeter = 4 × 13 = 52 cm, so the answer is 52 cm.
+Source: NCERT Class 8 Mathematics, Mensuration
+
+134. A rectangular field is 50 m long and 40 m wide. A path 2 m wide is built all around it on the outside. Find the cost of paving the path at ₹25 per m².
+(a) ₹10,400 (b) ₹8,400 (c) ₹9,600 (d) ₹9,400
+Answer: (d)
+Solution: The trap answer ₹8,400 comes from adding 2 m only once to each dimension instead of on both sides. Outer dimensions = 54 m × 44 m, outer area = 2376 m², inner area = 2000 m², path area = 376 m². Cost = 376 × 25 = ₹9,400, so the answer is ₹9,400.
+Source: NCERT Class 8 Mathematics, Mensuration
+
+135. A well of diameter 7 m is dug 12 m deep. The earth taken out is spread evenly on a rectangular plot 22 m × 14 m. Find the rise in the level of the plot.
+(a) 1.0 m (b) 2.0 m (c) 1.5 m (d) 2.5 m
+Answer: (c)
+Solution: The trap answer 1.0 m comes from using the diameter 7 m as the radius in the well's volume. Volume of earth = π × 3.5² × 12 = (22/7) × 12.25 × 12 = 462 m³. Rise = 462 ÷ (22 × 14) = 462 ÷ 308 = 1.5 m, so the answer is 1.5 m.
+Source: NCERT Class 10 Mathematics, Surface Areas and Volumes
+
+136. A toy is in the form of a cone of radius 3.5 cm mounted on a hemisphere of the same radius. The total height of the toy is 15.5 cm. Find its total surface area. (Use π = 22/7)
+(a) 214.5 cm² (b) 205.5 cm² (c) 220 cm² (d) 192.5 cm²
+Answer: (a)
+Solution: The trap answer 205.5 comes from taking the cone's height as 15.5 cm instead of subtracting the hemisphere's radius. Cone height = 15.5 − 3.5 = 12 cm, slant height l = √(12² + 3.5²) = √156.25 = 12.5 cm. Total surface area = 2πr² + πrl = (22/7)(2 × 12.25 + 3.5 × 12.5) = (22/7)(24.5 + 43.75) = (22/7) × 68.25 = 214.5 cm², so the answer is 214.5 cm².
+Source: NCERT Class 10 Mathematics, Surface Areas and Volumes
+
+137. A wire bent into a circle of radius 42 cm is straightened and rebent into a square. Find the area of the square. (Use π = 22/7)
+(a) 4624 cm² (b) 4096 cm² (c) 4356 cm² (d) 3844 cm²
+Answer: (c)
+Solution: The trap answer 4624 comes from using the diameter 84 cm as the square's side. Circumference = 2 × (22/7) × 42 = 264 cm, which becomes the square's perimeter. Side = 264 ÷ 4 = 66 cm, area = 66² = 4356 cm², so the answer is 4356 cm².
+Source: NCERT Class 10 Mathematics, Areas Related to Circles
+
+138. The curved surface area of a cylinder is 264 cm² and its volume is 924 cm³. Find its diameter. (Use π = 22/7)
+(a) 7 cm (b) 10.5 cm (c) 21 cm (d) 14 cm
+Answer: (d)
+Solution: The trap answer 7 cm is the radius, and the question asks for the diameter — a classic exam trap. Dividing volume by curved surface area: (πr²h)/(2πrh) = r/2 = 924/264 = 3.5, so r = 7 cm. Diameter = 2 × 7 = 14 cm, so the answer is 14 cm.
+Source: PYQ-style (SSC CGL pattern)
+
+139. The radii of two cylinders are in the ratio 2 : 3 and their heights are in the ratio 5 : 4. Find the ratio of their volumes.
+(a) 4 : 9 (b) 5 : 6 (c) 10 : 12 (d) 5 : 9
+Answer: (d)
+Solution: The trap answer 5 : 6 comes from multiplying radius by height directly (2×5 : 3×4 = 10 : 12 = 5 : 6), forgetting that radius is squared. Volume ratio = (2² × 5) : (3² × 4) = 20 : 36 = 5 : 9, so the answer is 5 : 9.
+Source: NCERT Class 9 Mathematics, Surface Areas and Volumes
+
+140. The surface area of a sphere is 616 cm². Find its volume. (Use π = 22/7)
+(a) 4312/3 cm³ (b) 1437.33 cm³ (c) 1232 cm³ (d) 2156/3 cm³
+Answer: (a)
+Solution: The trap answer 1232 comes from doubling 616 instead of computing the volume from the radius. From 4πr² = 616, r² = 616 × 7/(4 × 22) = 49, so r = 7 cm. Volume = (4/3) × (22/7) × 343 = 4312/3 cm³, so the answer is 4312/3 cm³.
+Source: NCERT Class 9 Mathematics, Surface Areas and Volumes
+
+141. The parallel sides of a trapezium are 18 cm and 12 cm, and the perpendicular distance between them is 10 cm. Find its area.
+(a) 180 cm² (b) 150 cm² (c) 120 cm² (d) 300 cm²
+Answer: (b)
+Solution: The trap answer 300 comes from multiplying (18 + 12) × 10 without halving. Area = (1/2) × (sum of parallel sides) × height = (1/2) × 30 × 10 = 150 cm², so the answer is 150 cm².
+Source: NCERT Class 8 Mathematics, Mensuration
+
+142. If each edge of a cube is increased by 20%, by what percentage does its volume increase?
+(a) 60% (b) 72.8% (c) 66% (d) 80%
+Answer: (b)
+Solution: The trap answer 60% comes from simply adding 20% three times, ignoring compounding. New volume = (1.2)³ = 1.728 times the original, an increase of 0.728 = 72.8%, so the answer is 72.8%.
+Source: PYQ-style (SSC CGL pattern)
+
+143. A metallic sphere of radius 10.5 cm is melted and recast into small cones, each of radius 3.5 cm and height 3 cm. How many cones are formed?
+(a) 108 (b) 116 (c) 126 (d) 132
+Answer: (c)
+Solution: The trap answer 108 comes from arithmetic slips in the sphere's volume. Volume of sphere = (4/3)π × 10.5³ = (4/3)π × 1157.625 = 1543.5π cm³. Volume of one cone = (1/3)π × 3.5² × 3 = 12.25π cm³. Number = 1543.5π ÷ 12.25π = 126, so the answer is 126.
+Source: NCERT Class 10 Mathematics, Surface Areas and Volumes
+
+144. Find the area of a regular hexagon of side 6 cm.
+(a) 36√3 cm² (b) 72√3 cm² (c) 48√3 cm² (d) 54√3 cm²
+Answer: (d)
+Solution: The trap answer 36√3 comes from using the wrong coefficient (3√3/2 replaced by √3). A regular hexagon equals 6 equilateral triangles of side 6 cm: area = 6 × (√3/4) × 36 = 54√3 cm², so the answer is 54√3 cm².
+Source: NCERT Class 8 Mathematics, Mensuration
+
+145. A cylindrical vessel has radius 14 cm and height 20 cm. How many litres of water can it hold? (Use π = 22/7)
+(a) 12.32 L (b) 10.56 L (c) 14.08 L (d) 11.44 L
+Answer: (a)
+Solution: The trap answer 10.56 comes from forgetting to convert cm³ to litres correctly or halving the height. Volume = (22/7) × 14² × 20 = (22/7) × 196 × 20 = 12320 cm³ = 12320 ÷ 1000 = 12.32 L, so the answer is 12.32 L.
+Source: NCERT Class 9 Mathematics, Surface Areas and Volumes
+
+146. A circle and a square have the same perimeter. The ratio of the area of the circle to the area of the square is:
+(a) 11 : 14 (b) 22 : 7 (c) 7 : 11 (d) 14 : 11
+Answer: (d)
+Solution: The trap answer 11 : 14 reverses the ratio, giving square to circle instead of circle to square. With perimeter P: square area = P²/16, circle area = P²/(4π). Ratio = (P²/4π) : (P²/16) = 4 : π = 4 : (22/7) = 28 : 22 = 14 : 11, so the answer is 14 : 11.
+Source: PYQ-style (SSC CGL pattern)
+
+147. Rainwater from a flat roof 20 m × 15 m drains into a tank. If 5 cm of rain falls, how many litres of water are collected (assuming all of it is collected)?
+(a) 15,000 L (b) 1,500 L (c) 150,000 L (d) 7,500 L
+Answer: (a)
+Solution: The trap answer 1,500 L comes from taking 5 cm as 5 m or misplacing the decimal in unit conversion. Volume = 20 × 15 × 0.05 = 15 m³ = 15 × 1000 = 15,000 L, so the answer is 15,000 L.
+Source: NCERT Class 9 Mathematics, Surface Areas and Volumes
+
+148. A cone has base radius 7 cm and slant height 25 cm. Find its volume. (Use π = 22/7)
+(a) 1386 cm³ (b) 1078 cm³ (c) 1232 cm³ (d) 1540 cm³
+Answer: (c)
+Solution: The trap answer 1540 comes from using the slant height 25 cm directly as the height in the volume formula. Height h = √(25² − 7²) = √(625 − 49) = √576 = 24 cm. Volume = (1/3) × (22/7) × 49 × 24 = 1232 cm³, so the answer is 1232 cm³.
+Source: NCERT Class 9 Mathematics, Surface Areas and Volumes
+
+149. A metallic cuboid 22.5 cm × 10 cm × 7.5 cm is melted and recast into identical cubes of edge 2.5 cm. How many cubes are formed?
+(a) 96 (b) 108 (c) 120 (d) 90
+Answer: (b)
+Solution: The trap answer 96 comes from a division slip in the cuboid's volume. Volume of cuboid = 22.5 × 10 × 7.5 = 1687.5 cm³. Volume of one cube = 2.5³ = 15.625 cm³. Number = 1687.5 ÷ 15.625 = 108, so the answer is 108.
+Source: NCERT Class 10 Mathematics, Surface Areas and Volumes
+
+150. A sector of a circle of radius 12 cm with central angle 120° is folded to form a cone. Find the volume of the cone.
+(a) (128√2 π)/3 cm³ (b) (64√2 π)/3 cm³ (c) (256√2 π)/3 cm³ (d) 128π cm³
+Answer: (a)
+Solution: The trap answer (256√2 π)/3 comes from forgetting the one-third factor in the cone's volume. The sector's arc becomes the base circumference: (120/360) × 2π × 12 = 8π = 2πR, so base radius R = 4 cm. Slant height = 12 cm, so h = √(144 − 16) = √128 = 8√2 cm. Volume = (1/3)π × 16 × 8√2 = (128√2 π)/3 cm³, so the answer is (128√2 π)/3 cm³.
+Source: PYQ-style (SSC CGL pattern)

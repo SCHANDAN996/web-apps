@@ -1,0 +1,54 @@
+```mermaid
+graph TD
+    A["निर्देशांक ज्यामिति<br>Coordinate Geometry"] --> B["कार्तीय तंत्र<br>Cartesian System"]
+    A --> C["बिंदु-सूत्र<br>Point Formulas"]
+    A --> D["सरल रेखा<br>Straight Line"]
+    A --> E["शंकु परिच्छेद<br>Conic Sections"]
+    A --> F["त्रिभुज के केंद्र<br>Centres of Triangle"]
+
+    B --> B1["चतुर्थांश<br>Quadrants"]
+    B --> B2["अक्ष पर चिह्न<br>Signs on Axes"]
+    B --> B3["मूलबिंदु (0,0)<br>Origin"]
+
+    C --> C1["दूरी सूत्र<br>Distance Formula"]
+    C --> C2["विभाजन सूत्र<br>Section Formula"]
+    C --> C3["मध्यबिंदु<br>Midpoint"]
+    C --> C4["त्रिभुज का क्षेत्रफल<br>Area of Triangle"]
+    C --> C5["संरेखता शर्त<br>Collinearity Condition"]
+
+    C2 --> C2a["आंतरिक विभाजन<br>Internal Division"]
+    C2 --> C2b["बाह्य विभाजन<br>External Division"]
+
+    D --> D1["ढाल / प्रवणता<br>Slope m = tanθ"]
+    D --> D2["रेखा के समीकरण<br>Forms of Line"]
+    D --> D3["समांतर व लंब<br>Parallel & Perpendicular"]
+    D --> D4["बिंदु से दूरी<br>Distance from Point"]
+    D --> D5["कोण का समीकरण<br>Angle between Lines"]
+
+    D2 --> D2a["बिंदु-ढाल रूप<br>Point-Slope Form"]
+    D2 --> D2b["दो-बिंदु रूप<br>Two-Point Form"]
+    D2 --> D2c["अंतःखंड रूप<br>Intercept Form"]
+    D2 --> D2d["लंब रूप<br>Normal Form"]
+    D2 --> D2e["व्यापक रूप<br>General Form ax+by+c=0"]
+
+    D3 --> D3a["समांतर: m1 = m2<br>Parallel"]
+    D3 --> D3b["लंब: m1·m2 = −1<br>Perpendicular"]
+
+    E --> E1["वृत्त<br>Circle"]
+    E --> E2["परवलय<br>Parabola"]
+    E --> E3["दीर्घवृत्त<br>Ellipse"]
+    E --> E4["अतिपरवलय<br>Hyperbola"]
+
+    E1 --> E1a["मानक रूप<br>x²+y²=r²"]
+    E1 --> E1b["व्यापक रूप<br>x²+y²+2gx+2fy+c=0"]
+    E1 --> E1c["स्पर्श रेखा<br>Tangent"]
+
+    E2 --> E2a["y² = 4ax"]
+    E3 --> E3a["x²/a² + y²/b² = 1"]
+    E4 --> E4a["x²/a² − y²/b² = 1"]
+
+    F --> F1["गुरुत्व केंद्र<br>Centroid"]
+    F --> F2["अंतःकेंद्र<br>Incentre"]
+    F --> F3["परिकेंद्र<br>Circumcentre"]
+    F --> F4["लंबकेंद्र<br>Orthocentre"]
+```

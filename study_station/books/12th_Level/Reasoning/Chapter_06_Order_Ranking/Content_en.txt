@@ -1,0 +1,143 @@
+# Order & Ranking
+
+## Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Find a person's position from one end when positions from both ends are given.
+2. Find the total number of people in a row.
+3. Solve "interchange of positions" problems.
+4. Handle questions based on height, weight, marks, or age comparisons.
+5. Spot and avoid the examiner's favourite traps.
+
+---
+
+## 1. The Hook: One Line, One Question
+
+Imagine 40 students standing in a queue for an exam admit card. Ravi is 12th from the front. The clerk asks, "What is your position from the back?" Ravi starts counting all 40 students one by one… and the queue moves on without him.
+
+You don't need to count. You need **one formula and three seconds**:
+
+**Position from other end = Total − Position from given end + 1**
+
+So Ravi = 40 − 12 + 1 = **29th from the back**. Done. That is the entire spirit of this chapter — small formulas, huge time savings.
+
+---
+
+## 2. Why Students Struggle Here (And Why You Won't)
+
+Order & Ranking questions look easy, and that is exactly the danger. Students lose marks because:
+
+- They forget the **"+1"** in the formula.
+- They mix up "left" and "right" when the row direction changes.
+- In comparison questions (taller/heavier/older), they try to build the full order when the question only asks for one position.
+
+We will fix each of these, one chunk at a time.
+
+---
+
+## 3. Chunk 1: The Master Formula
+
+In a single row:
+
+> **Total = Position from Left + Position from Right − 1**
+
+**Example:** Sita is 15th from the left and 20th from the right in a row.
+Total = 15 + 20 − 1 = **34 students**.
+
+Why "−1"? Because Sita is counted **twice** — once from the left, once from the right. We remove one duplicate count. This "−1" is the heart of the whole chapter.
+
+🧠 **Active Recall:** Mohan is 8th from the top and 12th from the bottom of a result list. How many students are on the list? *(Answer: 8 + 12 − 1 = 19)*
+
+---
+
+## 4. Chunk 2: Position from the Other End
+
+Rearranging the master formula:
+
+> **Position from other end = Total − Position from given end + 1**
+
+**Example:** In a class of 50, Priya ranks 7th from the top. Her rank from the bottom = 50 − 7 + 1 = **44th**.
+
+Notice the pattern: the two positions always add up to **Total + 1**. (7 + 44 = 51 = 50 + 1.) Use this as a quick self-check in the exam.
+
+🧠 **Active Recall:** In a row of 35 people, a man is 10th from the right. What is his position from the left? *(Answer: 35 − 10 + 1 = 26th)*
+
+---
+
+## 5. Chunk 3: Number of People Between Two Persons
+
+If A is 5th from the left and B is 9th from the right in a row of 20:
+
+- B's position from the left = 20 − 9 + 1 = 12th.
+- People between them = 12 − 5 − 1 = **6**.
+
+**Rule:** Convert both positions to the **same end**, then subtract and remove 1 (the two people themselves are not "between" themselves).
+
+🧠 **Active Recall:** In a row of 30, X is 4th from the left and Y is 6th from the right. How many people sit between them? *(Y from left = 25; between = 25 − 4 − 1 = 20)*
+
+---
+
+## 6. Chunk 4: Interchange of Positions
+
+**Type:** A is 10th from the left, B is 15th from the right. They interchange positions. Now A becomes 18th from the left. Find the total.
+
+**Logic:** After interchange, A sits where B was. So B's original seat is 18th from the left **and** 15th from the right.
+
+Total = 18 + 15 − 1 = **32**.
+
+**Golden rule for interchange:** After the swap, the *new* position of one person + the *old* position of the other (from the opposite end) gives the total via the master formula.
+
+🧠 **Active Recall:** P is 7th from the left, Q is 12th from the right. After swapping, P is 20th from the left. Total students? *(20 + 12 − 1 = 31)*
+
+---
+
+## 7. Chunk 5: Comparison-Based Ranking (Taller, Heavier, Older)
+
+Here no row is given — only clues like "A is taller than B but shorter than C."
+
+**Method:**
+1. Write clues as a chain: C > A > B.
+2. Merge all clues into **one chain** if possible.
+3. Answer only what is asked — do not build the full order unnecessarily.
+
+**Example:** Five friends — P, Q, R, S, T. P is taller than Q. R is taller than P. S is shorter than Q. T is taller than R.
+
+Chain: T > R > P > Q > S. Tallest = **T**, Shortest = **S**.
+
+**Caution:** If clues don't connect everyone, some positions stay uncertain — and the correct answer may be "Cannot be determined." Don't force an order that the clues don't guarantee.
+
+🧠 **Active Recall:** A is heavier than B; C is lighter than B; D is heavier than A. Who is the heaviest? *(D > A > B > C → D)*
+
+---
+
+## 8. Mnemonic Trick 🔑
+
+> **"L + R − 1 = Total"** — remember it as **"LoReMi"**: **L**eft + **R**ight **Mi**nus 1.
+
+And for the other-end formula: **"Total + 1 − given"** — the two ends are best friends; they always sum to **Total + 1**.
+
+---
+
+## 9. Summary Table
+
+| Situation | Formula / Rule |
+|---|---|
+| Total from both-end positions | Total = Left + Right − 1 |
+| Position from other end | Total − Given position + 1 |
+| Self-check | Both-end positions sum to Total + 1 |
+| People between two persons | Convert to same end, subtract, minus 1 |
+| Interchange | New position of one + old position of other (opposite end) − 1 |
+| Comparisons | Build a single chain (A > B > C); answer only what is asked |
+
+📌 **Review this chapter after 2 days.** Redo the Active Recall questions without looking at the answers — if you can, the formulas are yours for life.
+
+---
+
+## ⚠️ Caution: Examiner's Trap
+
+**Trap 1 — The missing "+1 / −1":** Options are designed so that both `Total − position` and `Total − position + 1` appear. If you rush, you will pick the wrong twin. Always do the self-check: both-end positions must add to **Total + 1**.
+
+**Trap 2 — Confusing language:** Phrases like "seventh to the left of the one who is tenth from the right" are deliberately wordy. Translate step by step: tenth from right → convert to left → then move 7 places left. Never solve such phrases in your head in one jump.
+
+**Trap 3 — Double relationships in comparisons:** The examiner gives clues that *look* sufficient but leave two people unlinked (e.g., nothing connects C with D). The honest answer is "Cannot be determined" — and it is often the correct option. Never assume an order the clues don't prove.
