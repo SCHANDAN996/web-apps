@@ -140,3 +140,11 @@ study API requests, including navigation from a live-screen fixture back to the
 local study entry. Final APK1.1.0 is30,577,118bytes; its hash/content counts are
 recorded in android/OFFLINE_RELEASE.json. All packaged content and UI bytes were
 verified against source/manifest. Physical-device acceptance remains pending.
+
+Subsequent owner-approved phone follow-up: the latest compact UI APK was installed.
+All four main cards fit above navigation on384×771. Library/reader/practice setup
+opened with no overflow, JS errors or study API requests. With WebView network
+disabled, local Home and library still opened; network conditions were restored.
+The owner's prior86 answers and3 completed sessions were copied into local progress
+using Settings import, with no resets or answer submissions. Native file-picker/
+Drive restore and a complete physical mock remain separate outstanding checks.

@@ -103,12 +103,13 @@
   function home() {
     heading(t('home_title'));var answered=Object.keys(state.answers).length,wrong=Object.keys(state.answers).filter(function(id){return !state.answers[id].correct;}).length;
     var action=state.active?button(t('resume'),resume,'btn-primary'):link(state.last?t('continue_reading'):t('open_book'),state.last?'chapter/'+state.last:'books','btn btn-primary');
-    root.appendChild(h('section',{class:'offline-hero'},h('div',{class:'offline-hero-copy'},h('span',{class:'offline-badge'},SS.icon('check'),t('offline_badge')),h('h2',{},state.last?t('continue_reading'):t('hero_title')),h('p',{},t('hero_hint')),action),h('img',{class:'offline-hero-art',src:'/static/illustrations/read.svg?v='+assetVersion,width:96,height:72,alt:''}),h('div',{class:'offline-summary'},h('span',{},h('b',{},state.reading.length),t('read_chapters')),h('span',{},h('b',{},answered),t('answered')),h('span',{},h('b',{},wrong),t('revision')))));
+    root.appendChild(h('section',{class:'offline-hero'},h('div',{class:'offline-hero-copy'},h('span',{class:'offline-badge'},SS.icon('check'),t('offline_badge')),h('h2',{},state.last?t('continue_reading'):t('hero_title')),action),h('img',{class:'offline-hero-art',src:'/static/illustrations/read.svg?v='+assetVersion,width:96,height:72,alt:''})));
     root.appendChild(h('h2',{class:'offline-section-title'},t('study_tools')));
     root.appendChild(h('div',{class:'home-card-grid'},[
       card(t('books'),t('books_hint'),'books','read'),card(t('practice'),t('practice_hint'),'practice','practice'),
       card(t('revision'),t('revision_hint'),'revision','revise'),card(t('mock'),t('mock_hint'),'mock','mock')
     ]));
+    root.appendChild(h('div',{class:'offline-summary offline-home-stats'},h('span',{},h('b',{},state.reading.length),t('read_chapters')),h('span',{},h('b',{},answered),t('answered')),h('span',{},h('b',{},wrong),t('revision'))));
     root.appendChild(h('h2',{class:'offline-section-title'},t('explore')));
     var more=h('div',{class:'home-card-grid offline-secondary-grid'},card(t('questions'),t('questions_hint'),'questions','questions'),card(t('progress'),t('progress_hint'),'progress','progress'));
     [['jobs','jobs_online','jobs'],['current-affairs','ca_online','news']].forEach(function(item){more.appendChild(h('a',{class:'home-image-card',href:'/'+item[0]},h('img',{src:'/static/illustrations/'+item[2]+'.svg?v='+assetVersion,width:72,height:60,alt:'',loading:'lazy'}),h('strong',{class:'home-card-title'},t(item[1])),h('span',{class:'muted'},t('online_updates'))));});root.appendChild(more);

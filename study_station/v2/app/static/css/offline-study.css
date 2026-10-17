@@ -93,3 +93,6 @@
 #offlineStudy :is(a,button,input,select):focus-visible { outline:2px solid var(--brand); outline-offset:var(--sp-1); }
 
 .offline-tabs { position:sticky; top:var(--header-h); z-index:11; background:var(--bg); }
+
+#offlineStudy > .home-card-grid:not(.offline-secondary-grid) .home-image-card img { height:48px; width:64px; }
+.offline-home-stats { margin-top:var(--sp-4); padding:var(--sp-3); background:var(--surface-2); border-radius:var(--r-lg); border:0; }
