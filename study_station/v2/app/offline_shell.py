@@ -1,4 +1,7 @@
 """Build the fully local Android study entry pages; contains no learner data."""
+import os
+import tempfile
+
 from .config import BASE_DIR
 from .i18n import client_strings, t
 
@@ -24,7 +27,14 @@ def main(check=False):
             if not path.is_file() or path.read_text(encoding='utf-8') != html:
                 stale.append(lang)
         else:
-            path.write_text(html, encoding='utf-8', newline='\n')
+            fd, temporary = tempfile.mkstemp(dir=path.parent, suffix='.tmp')
+            try:
+                with os.fdopen(fd, 'w', encoding='utf-8', newline='\n') as output:
+                    output.write(html)
+                os.replace(temporary, path)
+            finally:
+                if os.path.exists(temporary):
+                    os.unlink(temporary)
             print(f'wrote offline/{lang}.html')
     if stale:
         print('out of date offline shells: ' + ', '.join(stale))

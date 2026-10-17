@@ -133,3 +133,10 @@ rough work, exact question access,80-question mock scoring and reset/restore wit
 zero server requests. Physical phone testing/install is pending: no ADB device
 was present during final offline-build QA. See android/OFFLINE_STUDY.md for
 the distinction between local plain-text sections and rich website interactions.
+
+Final verification:221 Linux Python tests,12 Android unit tests and12 legacy
+browser flows passed. The independent local-asset browser test passed with zero
+study API requests, including navigation from a live-screen fixture back to the
+local study entry. Final APK1.1.0 is30,577,118bytes; its hash/content counts are
+recorded in android/OFFLINE_RELEASE.json. All packaged content and UI bytes were
+verified against source/manifest. Physical-device acceptance remains pending.

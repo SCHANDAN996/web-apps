@@ -134,6 +134,9 @@ class MainActivity : Activity() {
 
         override fun onPageFinished(view: WebView, url: String?) {
             backup.pageFinished()
+            if (hasStudyPack && Links.isInApp(url ?: "", BuildConfig.BASE_URL)) {
+                web.evaluateJavascript(OfflineStudy.navigationScript, null)
+            }
             if (!failed) showOffline(false)
             CookieManager.getInstance().flush()
         }

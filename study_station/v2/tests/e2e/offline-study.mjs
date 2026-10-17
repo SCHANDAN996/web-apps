@@ -40,5 +40,9 @@ try {
  await p.locator('input[type=file]').setInputFiles({name:'restore.json',mimeType:'application/json',buffer:Buffer.from(backup)});await p.waitForFunction(()=>JSON.parse(SSOffline.exportBackup()).progress.history.length===2);
  await p.goto('https://study-station.test/offline-study?lang=en');await p.locator('.home-image-card').first().waitFor();assert.equal((await p.locator('#langBtn').innerText()).trim(),'HI');
  for(const width of [360,412])for(const theme of ['light','dark','paper']){await p.setViewportSize({width,height:800});await p.evaluate(x=>SSTheme.set(x),theme);assert.equal(await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);}
+ const nativeSource=fs.readFileSync(path.join(root,'android/app/src/main/java/com/studystation/app/OfflineStudy.kt'),'utf8');
+ const nativeNavigation=/val navigationScript = """([\s\S]*?)"""\.trimIndent/.exec(nativeSource)[1];
+ await context.route('**/jobs',r=>r.fulfill({contentType:'text/html',body:'<a href="/">Home</a>'}));
+ await p.goto('https://study-station.test/jobs');await p.evaluate(nativeNavigation);await p.getByRole('link',{name:'Home',exact:true}).click();await p.locator('.home-image-card').first().waitFor();assert.match(p.url(),/offline-study#home$/);
  assert.deepEqual(errors,[]);assert.deepEqual(network,[]);console.log('PASS: offline reader, exact question access, practice/rough work/resume, 80-question mock/negative marking/timer state, reset/restore, EN and themes; zero server requests.');
 } finally {await browser.close();}
