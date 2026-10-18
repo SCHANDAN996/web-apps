@@ -4,7 +4,7 @@
 <p class="small crumb"><a class="tap-link" href="/questions?lang={{ lang }}">{{ tr('bank_all_questions') }}</a> › {{ L(question.topic.name_hi,question.topic.name_en) }}</p>
 <h1>{{ tr('bank_question') }}</h1>
 <section class="card stack">
-  <p class="xs muted">{{ L(question.topic.subject.name_hi,question.topic.subject.name_en) }} · {{ tr(question.difficulty) }} · <span class="badge">{{ tr('verified_label') if question.review_status == 'verified' else (tr('ai_label') if question.source_type == 'ai_generated' else tr('bank_review_pending')) }}</span></p>
+  <p class="xs muted">{{ L(question.topic.subject.name_hi,question.topic.subject.name_en) }} · {{ tr(question.difficulty) }}{% if question.review_status == 'verified' %} · <span class="badge">{{ tr('verified_label') }}</span>{% endif %}</p>
   {% if fallback %}<p class="notice">{{ tr('bank_language_fallback') }}</p>{% endif %}
   <p class="q-text" style="overflow-wrap:anywhere">{{ question_text }}</p>
   <ol type="A" class="stack">{% for option in question_options %}<li style="overflow-wrap:anywhere">{{ option }}</li>{% endfor %}</ol>

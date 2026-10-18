@@ -18,6 +18,8 @@
   <link rel="stylesheet" href="/static/css/jobs-ui.css?v={{ asset_v }}">
   <link rel="stylesheet" href="/static/css/mock-cards.css?v={{ asset_v }}">
   <link rel="stylesheet" href="/static/css/question-actions.css?v={{ asset_v }}">
+  <link rel="stylesheet" href="/static/css/practice-setup.css?v={{ asset_v }}">
+  <link rel="stylesheet" href="/static/css/choice-list.css?v={{ asset_v }}">
   {% block head %}{% endblock %}
 </head>
 <body class="{% block body_class %}{% endblock %}">
@@ -59,6 +61,7 @@
 <script id="ss-boot" type="application/json">{{ {'lang': lang, 't': strings, 'ai': ai_enabled}|tojson }}</script>
 <script src="/static/js/dialogs.js?v={{ asset_v }}" defer></script>
 <script src="/static/js/question-actions.js?v={{ asset_v }}" defer></script>
+<script src="/static/js/choice-list.js?v={{ asset_v }}" defer></script>
 {% block app_scripts %}<script src="/static/js/app.js?v={{ asset_v }}" defer></script>
 <script src="/static/js/whiteboard.js?v={{ asset_v }}" defer></script>
 <script src="/static/js/backup.js?v={{ asset_v }}" defer></script>

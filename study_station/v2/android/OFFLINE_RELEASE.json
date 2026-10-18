@@ -1,8 +1,8 @@
 {
   "version": "1.1.0",
   "date": "2026-10-18",
-  "apk_bytes": 30788696,
-  "apk_sha256": "270521fbcf4a16431fafc4be9aeb79dc7f99521f437d1635dc8a9fffacbd61df",
+  "apk_bytes": 30802514,
+  "apk_sha256": "fdd57c89889c512c57db57d60416e37234516ae94904c0df61585c50a019cb62",
   "content_hash": "ae3a38d90383066f432a62a6d03c85d788eece1657de0e2aec924e0c324e5905",
   "counts": {
     "books": 12,
@@ -11,8 +11,8 @@
     "subjects": 5,
     "topics": 88
   },
-  "device_acceptance": "Updated APK installed; exact bundled shared question10950 opened and native Android chooser visibly opened then canceled without sending; existing87 answers/4 histories preserved.",
+  "device_acceptance": "Practice custom lists, compact header/resume and tag visibility installed and checked on phone. Actual portrait384x771: resume75.97px, last optionbottom730.78 withinlist742.67 anddialog759.2 belowviewport771. Back closes choice without leavingpage; topiclist and page touchscroll passed. Current88answers/4histories/10question unfinishedsession retained. Rotation settings restored.",
   "android_unit_tests": 15,
   "question_sharing": "Android chooser verified; current debug certificate/domain association verified by phone; external cold/warm ACTION_VIEW launch test blocked by automatic approval review. Production release signing/public install destination remain separate.",
-  "verification": "Android15 unit tests and assemble passed; targeted Python13 passed across shell/shared/export checks; Linux7 passed; offlineE2E, favoritesE2E and nativegesture wrapperE2E passed."
+  "verification": "Practice setup E2E passed portrait/landscape, HI/EN and themes; retry/resume/cancel/search/focus/list-last-row checks passed. Offline study E2E passed after custom lists. Targeted Python12 passed; generatedshellcheck passes."
 }

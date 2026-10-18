@@ -165,7 +165,8 @@ body.scrolled .topbar { background: var(--md-surface-container); }      /* M3 to
 .bank-filters label:not(.search) { display: grid; gap: var(--sp-2); min-width: 0; }
 .bank-filters select { width: 100%; min-width: 0; min-height: var(--tap); padding: var(--sp-2); border: 1px solid var(--border); border-radius: var(--r-md); background: var(--surface); }
 .bank-filters summary { min-height: var(--tap); padding: var(--sp-2) 0; cursor: pointer; }
-.top-actions { display: flex; gap: var(--sp-2); flex: none; }
+.top-actions { display: flex; gap: var(--sp-1); flex: none; }
+.top-actions #langBtn { min-width:var(--tap); min-height:var(--tap); padding-inline:var(--sp-1); gap:var(--sp-1); }
 .theme-picker { position: relative; }
 .theme-picker > summary { list-style: none; cursor: pointer; }
 .theme-picker > summary::-webkit-details-marker { display: none; }

@@ -209,7 +209,16 @@ class MainActivity : Activity() {
     }
 
     private fun goBack() {
-        if (!failed && web.canGoBack()) web.goBack() else finish()
+        if (failed) { finish(); return }
+        web.evaluateJavascript("""
+            (function(){var d=document.querySelector('dialog[open]');if(!d)return false;
+            var e=new Event('cancel',{cancelable:true});d.dispatchEvent(e);
+            if(!e.defaultPrevented&&d.open)d.close();return true;})();
+        """.trimIndent()) { handled ->
+            if (handled != "true") {
+                if (web.canGoBack()) web.goBack() else finish()
+            }
+        }
     }
 
     @Deprecated("Android 12 and older; newer versions use the callback registered in onCreate")

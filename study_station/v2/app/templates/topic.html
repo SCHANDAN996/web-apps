@@ -28,7 +28,7 @@
 <a class="btn btn-secondary btn-block" style="margin-top:var(--sp-3)" href="/questions?topic={{ topic.id }}&amp;lang={{ lang }}">{{ tr('bank_all_questions') }} · {{ total }}</a>
 {% if sample %}
 <section class="card" style="margin-top:var(--sp-4)">
-  <p class="xs muted">{{ L('नमूना सवाल', 'Sample question') }} · <span class="badge">{{ tr('ai_label') }}</span></p>
+  <p class="xs muted">{{ L('नमूना सवाल', 'Sample question') }}</p>
   {% set qt = sample.text_hi if lang == 'hi' else sample.text_en %}
   {% set opts = sample.options_hi if lang == 'hi' else sample.options_en %}
   <p class="q-text" style="font-size:var(--fs-md)">{{ qt }}</p>

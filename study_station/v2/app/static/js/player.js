@@ -40,7 +40,7 @@ window.SS.startPlayer = function () {
       h('b', null, 'Q' + q.n),
       opts.exam ? null : h('span', { class: 'xs muted' }, SS.pick(q.topic)),
       !opts.exam && q.difficulty ? h('span', { class: 'badge' }, t[q.difficulty] || q.difficulty) : null,
-      opts.exam ? null : h('span', { class: 'badge ' + (q.verified ? 'badge-ok' : '') }, q.verified ? t.verified_label : t.ai_label),
+      !opts.exam && q.verified ? h('span', { class: 'badge badge-ok' }, t.verified_label) : null,
       both ? h('button', {
         class: 'chip', style: 'margin-left:auto', 'aria-label': 'Switch question language',
         onclick: function () { qLang[q.id] = lang === 'hi' ? 'en' : 'hi'; opts.rerender(); }

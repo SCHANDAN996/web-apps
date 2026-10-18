@@ -72,3 +72,18 @@ coverage, but external ACTION_VIEW device test was blocked by automatic approval
 review and is not reported as physically passed. Android15 tests, offline browser
 flow, native gesture/allowlist browser test, shell checks and targeted Python
 checks passed. Public signed production download remains pending.
+
+
+## Practice/custom list/resume follow-up — 18 October
+
+Practice now has a structured setup card, count chips and a clear reachable Start.
+Custom searchable lists replace offline subject/topic/difficulty/reset controls.
+Header actions are closer together. Learner AI/pending tags were hidden by explicit
+owner instruction; backend review states remain unchanged. Compact Resume fixes
+word-by-word wrapping. Floating list dialogs reserve bottom spacing and scroll
+internally to a fully visible last row. Actual phone topic finger-scroll, page
+scroll, dialog Back, safe last-row geometry and portrait Resume verified; existing
+88answers/4results/active10 questions preserved. Original rotation settings restored.
+Browser portrait/landscape, HI/EN/themes and selection/retry/resume tests passed;
+full offline regression passed with custom lists; targeted Python12 passed.
+New APK installed and matching server assets deployed, with app-code backup.

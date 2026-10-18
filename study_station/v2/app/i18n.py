@@ -623,6 +623,17 @@ ERRORS = {
 
 STRINGS.update({
     'offline_result_summary': ('परिणाम सारांश', 'Result summary'),
+    'choice_search': ('खोजें', 'Search'),
+    'choice_empty': ('कोई विकल्प नहीं मिला', 'No options found'),
+    'choice_cancel': ('रद्द करें', 'Cancel'),
+    'choice_close': ('बंद करें', 'Close'),
+    'offline_practice_intro': ('विषय चुनें और अपनी गति से सवाल हल करें।', 'Choose a topic and practise at your pace.'),
+    'offline_practice_resume_action': ('जारी रखें', 'Resume'),
+    'offline_practice_available': ('उपलब्ध सवाल', 'Available questions'),
+    'offline_practice_summary': ('इस सत्र में सवाल', 'Questions in this session'),
+    'offline_practice_all': ('सभी सवाल देखें', 'Browse all questions'),
+    'offline_practice_load_error': ('सवाल नहीं खुल सके। दोबारा कोशिश करें।', 'Questions could not load. Try again.'),
+    'offline_practice_retry': ('फिर कोशिश करें', 'Try again'),
     'offline_shared_missing': ('यह सवाल इस सामग्री पैक में नहीं मिला। ऐप अपडेट करें या सवालों की सूची में इसका कोड खोजें।', 'This question is unavailable in this content pack. Update the app or search its code in Questions.'),
     'offline_shared_invalid': ('सवाल का लिंक मान्य नहीं है।', 'This question link is invalid.'),
     'share_open_app': ('ऐप में सवाल खोलें', 'Open question in app'),
@@ -667,7 +678,7 @@ def client_strings(lang):
             'st_unanswered', 'st_marked', 'st_marked_answered', 'st_notvisited', 'submit_note',
             'revise_next', 'revise_next_1', 'revise_none', 'go_practice', 'offline_now', 'online_again', 'report_note',
             'retry', 'reset_progress_confirm', 'reset_progress_warning', 'reset_progress_action']
-    keys += [k for k in STRINGS if k.startswith(('rough_', 'backup_', 'reset_', 'cache_', 'bank_', 'offline_', 'dialog_', 'question_'))]
+    keys += [k for k in STRINGS if k.startswith(('rough_', 'backup_', 'reset_', 'cache_', 'bank_', 'offline_', 'dialog_', 'question_', 'choice_'))]
     out = {k: t(k, lang) for k in keys}
     out['errors'] = {k: (v[0] if lang == 'hi' else v[1]) for k, v in ERRORS.items()}
     return out
