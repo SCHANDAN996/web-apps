@@ -15,7 +15,7 @@ Verified:
 - Local notebook browser: legacy migration, pointer drawing, autosave, undo/redo, pages, isolation, trash/restore, backup restore and malformed import rejection.
 - Offline study regression passed with zero server API requests during normal study, and all three themes.
 - Android build and unit tests passed. Phone installation succeeded; fullscreen notebook and classroom sign-in screen passed before the final Home-card promotion; original study state unchanged.
-- Final Home cards checked at mobile browser sizes. Final repeated phone navigation/test command rejected by automatic approval review with generic blocked-by-policy reason; do not claim this acceptance completed.
+- Final Home cards also passed on the connected Android phone: 2×2 geometry above the reading hero, Workspace opens, Group/Class/Shared cards each open the correct authentication gate; existing learner progress unchanged. Earlier automatic-review block was resolved after renewed user authorization and separate connection/launch checks.
 - Windows symlink tests require privileges; both passed against this source in isolated Linux tests. The fixed-date current-affairs fixture now sets its reference date explicitly.
 
 Limits and later stages:
