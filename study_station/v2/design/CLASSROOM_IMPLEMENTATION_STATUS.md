@@ -19,7 +19,7 @@ Verified:
 - Windows symlink tests require privileges; both passed against this source in isolated Linux tests. The fixed-date current-affairs fixture now sets its reference date explicitly.
 
 Limits and later stages:
-- No voice/video calling, recording, object selection/move or pinch gestures. SVG embeds raster canvas. PDF uses the platform print dialog.
+- Drawing v2 now includes object selection/move/resize/copy/delete, marker/highlighter and two-finger pan/zoom. No voice/video calling or recording. SVG embeds raster canvas; native PDF printing acceptance remains separate. See WORKSPACE_DRAWING_UX_V2_PLAN.md.
 - Large classroom capacity and extended offline/reconnect behavior need load/device testing; no claim of production scale acceptance.
 - Google Drive OAuth/restore acceptance and production signing/distribution remain separate existing release tasks. Notebook backup support does not assert Drive setup is complete.
 - No learner progress was reset. No production test accounts or notifications were created during deployment.

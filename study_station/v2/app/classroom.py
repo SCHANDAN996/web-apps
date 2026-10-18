@@ -73,10 +73,13 @@ def text(v, limit=160, required=True):
 
 def stroke(value):
     if not isinstance(value, dict): fail('invalid_stroke')
-    if value.get('tool', 'pen') not in ('pen', 'erase', 'line', 'rect', 'circle'): fail('invalid_stroke')
-    if not re.fullmatch(r'#[0-9a-fA-F]{6}', value.get('color', '')): fail('invalid_stroke')
+    if value.get('tool', 'pen') not in ('pen', 'marker', 'highlighter', 'erase', 'line', 'rect', 'circle'): fail('invalid_stroke')
+    if not isinstance(value.get('color'), str) or not re.fullmatch(r'#[0-9a-fA-F]{6}', value['color']): fail('invalid_stroke')
     width = value.get('width')
     if type(width) not in (int, float) or not math.isfinite(width) or not .1 <= width <= 100: fail('invalid_stroke')
+    opacity = value.get('opacity', .25 if value.get('tool') == 'highlighter' else 1)
+    if type(opacity) not in (int, float) or not math.isfinite(opacity) or not 0 <= opacity <= 1: fail('invalid_stroke')
+    if 'id' in value and (not isinstance(value['id'], str) or not 1 <= len(value['id']) <= 128): fail('invalid_stroke')
     points = value.get('points')
     if not isinstance(points, list) or not 1 <= len(points) <= 10000: fail('invalid_stroke')
     for point in points:
@@ -92,6 +95,7 @@ def snapshot(value):
     total = 0
     for page in pages:
         if not isinstance(page, dict): fail('invalid_pages')
+        if page.get('paper', 'blank') not in ('blank', 'ruled', 'grid'): fail('invalid_pages')
         strokes = page.get('strokes', [])
         if not isinstance(strokes, list) or len(strokes) > 10000: fail('invalid_pages')
         for item in strokes:

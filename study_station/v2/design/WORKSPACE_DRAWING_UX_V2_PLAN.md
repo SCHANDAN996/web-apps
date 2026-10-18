@@ -1,6 +1,6 @@
 # Drawing Workspace v2 — plan, 18 October 2026
 
-Status: plan only, requested by owner. No production drawing implementation changed for this plan.
+Status: drawing editor, compact icon controls, Help, pinch/pan and marker/highlighter/selection implemented, deployed and installed on18October2026. Image/PDF annotation remains a later extension. See implementation/verification notes below.
 This supersedes drawing UI/gesture parts of ROUGH_WORK_WORKSPACE_PLAN.md. Existing named workspaces, account isolation, classroom permissions and local-first storage remain requirements.
 
 ## Goal and reference
@@ -81,3 +81,13 @@ Acceptance:
 - Bottom edge remains reachable in both orientations; operating-system navigation gestures remain usable.
 - Saved notebook, selected question, account ownership and learner progress survive reopen/rotation; failed saves do not display Saved.
 - Drawing remains responsive on the target phone with a representative large existing notebook; report observed performance rather than inventing a target benchmark result.
+
+
+## Implementation and verification
+Implemented workspace-editor.js, workspace-gestures.js and shared workspace-renderer.js. Local/server validation and classroom rendering support additive opacity, marker/highlighter and stroke IDs; existing version1 notebooks remain accepted. Paper is rendered into PNG/SVG exports, and erasing clears only ink. Selection supports box selection, move, resize, duplicate and delete with page-specific Undo/Redo.
+
+Full Python suite:249 passed on Windows; two existing symlink tests require Windows privileges and both pass in isolated Linux with this source. Browser acceptance covers HI/EN, three themes,360x640/390x844/412x915/844x330, real two-touch sequences, no phantom ink, autosave, selection actions, Help/menu reachability and actual PNG/SVG output pixels. Offline regression retains zero API requests during ordinary study. Android build and unit tests passed.
+
+Connected Android acceptance: actual two-touch zoom reached180%, gesture-only saved strokes unchanged; eight-rule Help opened; portrait and landscape controls stayed inside available viewport; last More export option reachable. Temporary test notebook removed, original learner progress unchanged, original rotation settings restored. Source and live service backed up before deployment.
+
+Limits: no hardware palm-rejection claim; stylus behavior conservatively separates inputs. SVG embeds a raster image. PDF still uses the platform print path and native print acceptance is not established here. Image/PDF imports and very large notebook performance/load tests remain later work. Private notebooks remain local unless explicitly shared or backed up.

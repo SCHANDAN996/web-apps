@@ -105,3 +105,49 @@ def test_reject_malformed_board_and_live_data(people):
     r=post(a,f'/groups/{g}/sessions',name='Board').json()['session']
     assert post(a,f"/sessions/{r['id']}/events",version=1,type='stroke',payload={'points':[]}).status_code == 400
     assert a.get(f"/api/v1/classroom/sessions/{r['id']}").json()['last_seq']==0
+
+
+@pytest.mark.parametrize('tool', ['pen', 'marker', 'highlighter', 'erase', 'line', 'rect', 'circle'])
+def test_drawing_formats_accept_additive_fields(tool):
+    from app.classroom import stroke, snapshot
+    value = {'tool': tool, 'color': '#123456', 'width': 4, 'points': [[.1, .2], [.9, .8]], 'opacity': .25, 'id': 'stable-stroke'}
+    assert stroke(value) == value
+    assert snapshot({'pages': [{'paper': 'grid', 'strokes': [value]}]})['pages'][0]['strokes'] == [value]
+
+
+@pytest.mark.parametrize('extra', [
+    {'tool': 'unknown'}, {'opacity': -1}, {'opacity': 1.1}, {'opacity': True},
+    {'opacity': '0.25'}, {'opacity': float('nan')}, {'opacity': float('inf')},
+    {'id': ''}, {'id': 4}, {'id': 'x' * 129},
+])
+def test_drawing_formats_reject_malformed_fields(extra):
+    from fastapi import HTTPException
+    from app.classroom import stroke
+    value = {'tool': 'pen', 'color': '#123456', 'width': 4, 'points': [[.1, .2]], **extra}
+    with pytest.raises(HTTPException) as e:
+        stroke(value)
+    assert e.value.detail == 'invalid_stroke'
+
+
+def test_drawing_formats_legacy_and_paper_validation():
+    from fastapi import HTTPException
+    from app.classroom import stroke, snapshot
+    old = {'color': '#123456', 'width': 4, 'points': [[.1, .2]]}
+    assert stroke(old) == old
+    with pytest.raises(HTTPException):
+        snapshot({'pages': [{'paper': 'unknown', 'strokes': []}]})
+
+
+def test_drawing_formats_live_reject_without_mutating(people):
+    a,b,c,g = joined(people)
+    session = post(a, f'/groups/{g}/sessions', name='Ink').json()['session']
+    rid = session['id']
+    base = {'tool': 'highlighter', 'color': '#ffcc00', 'width': 18, 'points': [[.1, .2], [.8, .2]], 'id': 'highlight-1'}
+    for extra in ({'tool': 'unsupported'}, {'opacity': -1}, {'opacity': '0.25'}):
+        r = post(a, f'/sessions/{rid}/events', version=1, type='stroke', payload={**base, **extra})
+        assert r.status_code == 400
+        assert a.get(f'/api/v1/classroom/sessions/{rid}').json()['last_seq'] == 0
+    r = post(a, f'/sessions/{rid}/events', version=1, type='stroke', payload=base)
+    assert r.status_code == 200
+    events = b.get(f'/api/v1/classroom/sessions/{rid}?after=0').json()['events']
+    assert events[0]['data']['payload']['tool'] == 'highlighter'

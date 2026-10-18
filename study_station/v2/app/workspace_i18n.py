@@ -46,3 +46,23 @@ STRINGS = {
 'workspace_attach_question': ('सवाल जोड़ें', 'Attach question'),
 'workspace_account_changed': ('खाता बदल गया है। सुरक्षित रखने के लिए पहले बैकअप निकालें।', 'Account changed. Export a backup to keep this work safe.'),
 }
+
+STRINGS.update({
+'workspace_tools': ('लिखने के औज़ार','Drawing tools'),
+'workspace_marker': ('मार्कर','Marker'), 'workspace_highlighter': ('हाइलाइटर','Highlighter'), 'workspace_select': ('चुनें और खिसकाएँ','Select and move'),
+'workspace_help': ('कैसे इस्तेमाल करें?','How to use?'), 'workspace_more': ('और विकल्प','More options'),
+'workspace_tool_options': ('रंग और मोटाई','Colour and width'), 'workspace_shapes': ('आकार','Shapes'), 'workspace_paper': ('पेज की शैली','Paper style'), 'workspace_view': ('पेज का दृश्य','Page view'),
+'workspace_zoom_in': ('बड़ा करें','Zoom in'), 'workspace_zoom_out': ('छोटा करें','Zoom out'), 'workspace_fit_page': ('पूरा पेज दिखाएँ','Fit page'),
+'workspace_export': ('बैकअप और डाउनलोड','Backup and export'),
+'workspace_export_note': ('PNG/SVG में मौजूदा पेज की तस्वीर; PDF में सभी पेज प्रिंट करें। JSON से लिखावट दोबारा संपादित की जा सकती है।','PNG/SVG export an image of this page. PDF opens printing for all pages. JSON keeps an editable backup.'),
+'workspace_delete_selection': ('चुनी लिखावट हटाएँ','Delete selection'), 'workspace_selection_hint': ('खिसकाने के लिए बीच से खींचें; आकार बदलने के लिए कोना खींचें।','Drag inside to move; drag the corner to resize.'),
+'workspace_clear_warning': ('केवल इस पेज की लिखावट हटेगी। बाकी पेज सुरक्षित रहेंगे।','Only this page will be cleared. Other pages stay safe.'),
+'workspace_help_draw': ('एक उँगली या पेन से लिखें। पेन, मार्कर, हाइलाइटर और रबर के चिन्ह से औज़ार चुनें।','Write with one finger or a pen. Choose Pen, Marker, Highlighter or Eraser from their icons.'),
+'workspace_help_tools': ('चुने हुए औज़ार पर दोबारा टैप करें या रंग के चिन्ह से रंग और मोटाई बदलें। पीछे और आगे वाले तीर Undo/Redo हैं।','Tap the selected drawing tool again, or the colour icon, to change colour and width. The arrows undo and redo writing.'),
+'workspace_help_gestures': ('दो उँगलियों से पेज खिसकाएँ। उँगलियाँ फैलाकर बड़ा और पास लाकर छोटा करें। 10–400% ज़ूम है। जेस्चर के बाद दोनों उँगलियाँ उठाकर फिर लिखें। हाथ वाला चिन्ह एक उँगली से पेज खिसकाता है।','Move the page with two fingers. Spread them to zoom in, pinch to zoom out (10–400%). Lift both fingers before writing again. Hand mode pans with one finger.'),
+'workspace_help_select': ('चयन वाले चिन्ह से लिखावट के चारों ओर बॉक्स खींचें। चुने हुए हिस्से के बीच से खींचकर खिसकाएँ या निचले दाएँ कोने से आकार बदलें। कॉपी और हटाने के चिन्ह उसी चयन पर काम करते हैं।','Use Select to draw a box around writing. Drag inside to move it, or drag its lower-right corner to resize. Copy and Delete affect only that selection.'),
+'workspace_help_pages': ('पेज संख्या से पेज बदलें और + से नया पेज जोड़ें। पूरा पेज दिखाने वाला चिन्ह दृश्य वापस लाता है। ⋯ में आकार, पेज शैली, नाम और डाउनलोड हैं।','Tap the page count to switch pages; + adds a page. Fit page brings the paper back into view. More contains shapes, paper style, rename and export.'),
+'workspace_help_save': ('लिखावट इसी डिवाइस में अपने आप सेव होती है। सेव होने का संदेश देखें। पेज खिसकाने या ज़ूम करने से लिखावट नहीं बदलती। सेव न हो तो काम खुला रखें और दोबारा कोशिश करें।','Writing saves automatically on this device. Check the save status. Panning and zooming do not change your writing. If saving fails, keep the work open and retry.'),
+'workspace_help_private': ('आपकी निजी कॉपी अपने आप किसी ग्रुप या शिक्षक को नहीं जाती। शेयर या जमा करने के लिए अलग से वही काम चुनना होता है। JSON बैकअप संपादन के लिए सुरक्षित रखें।','Private notebooks are never automatically sent to a group or teacher. Sharing/submitting requires choosing that work explicitly. Keep a JSON backup for editing later.'),
+'workspace_help_back': ('वापस वाले तीर से सेव करके बंद करें। ? से यह सहायता कभी भी खोलें। पेज साफ करने से पहले पुष्टि पूछी जाएगी; Undo से हाल का बदलाव वापस कर सकते हैं।','Back saves and closes the editor. Reopen this guide with ?. Clearing a page asks for confirmation; Undo can restore a recent change.'),
+})
