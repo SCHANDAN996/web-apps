@@ -106,6 +106,15 @@
   async function share(question, options) {
     var data = payload(question,options);
     try {
+      if (window.SSNativeShare && typeof SSNativeShare.shareQuestion === 'function') {
+        var language = options && options.lang === 'en' ? 'en' : 'hi';
+        var contentLanguage = question['text_'+language] ? language : question.text_hi ? 'hi' : 'en';
+        var result = await SSNativeShare.shareQuestion({id:Number(idOf(question)),lang:language,
+          question:String(question['text_'+contentLanguage] || ''),
+          options:question['options_'+contentLanguage] || []});
+        if (result && result.ok) return true;
+        notice('question_share_failed'); return false;
+      }
       if (navigator.share) { await navigator.share(data); return true; }
       if (navigator.clipboard && navigator.clipboard.writeText) {
         await navigator.clipboard.writeText(data.text+'\n\n'+data.url);

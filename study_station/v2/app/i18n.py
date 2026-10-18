@@ -623,6 +623,9 @@ ERRORS = {
 
 STRINGS.update({
     'offline_result_summary': ('परिणाम सारांश', 'Result summary'),
+    'offline_shared_missing': ('यह सवाल इस सामग्री पैक में नहीं मिला। ऐप अपडेट करें या सवालों की सूची में इसका कोड खोजें।', 'This question is unavailable in this content pack. Update the app or search its code in Questions.'),
+    'offline_shared_invalid': ('सवाल का लिंक मान्य नहीं है।', 'This question link is invalid.'),
+    'share_open_app': ('ऐप में सवाल खोलें', 'Open question in app'),
     'offline_result_expired': ('इस परिणाम की विस्तृत समीक्षा इस सत्र तक उपलब्ध थी। अंक प्रगति में सुरक्षित हैं।', 'This detailed review was available for the current session. Your score is saved in Progress.'),
     'offline_saved_questions': ('पसंदीदा सवाल', 'Saved questions'),
     'offline_saved_empty': ('अभी कोई सवाल पसंदीदा में नहीं है। किसी सवाल पर ☆ दबाकर उसे यहाँ रखें।', 'No saved questions yet. Tap ☆ on a question to keep it here.'),
@@ -633,7 +636,7 @@ STRINGS.update({
     'share_question_code': ('सवाल का कोड', 'Question code'),
     'share_answer_in_app': ('उत्तर और समाधान ऐप में', 'Answer and solution in the app'),
     'share_install_note': ('Study Station ऐप में ऊपर दिया विषय और टॉपिक चुनकर सवाल के कोड से खोजें।', 'In Study Station, choose the subject and topic shown above, then search by the question code.'),
-    'share_reopen_note': ('ऐप पहले से है तो सवालों की सूची में इस कोड से खोजें। सीधे ऐप खोलने वाला लिंक अगले चरण में जुड़ेगा।', 'If you already have the app, search for this code in the question library. Direct app opening will be added in the next stage.'),
+    'share_reopen_note': ('नया ऐप पहले से है तो ऊपर दिए बटन से सवाल खोलें। न खुले तो बताए गए विषय और टॉपिक में इसका कोड खोजें।', 'With the updated app installed, use the button above. If it does not open, choose the subject and topic shown here and search the question code.'),
     'offline_result_review': ('उत्तर की समीक्षा', 'Answer review'),
     'offline_result_score': ('प्राप्त अंक', 'Score'),
     'offline_result_accuracy': ('सटीकता', 'Accuracy'),

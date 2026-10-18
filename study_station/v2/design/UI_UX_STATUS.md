@@ -60,3 +60,15 @@ regeneration race; shell then passed separately, both symlink cases passed on
 Linux. Linux targeted app checks19 passed. All12 legacy browser flows passed,
 but Chrome emits an unresolved cross-document ViewTransition warning; do not
 report the browser error log as clean.
+
+
+## Native share continuation — 18 October
+
+New APK installed. Actual Android chooser opened from Share and was canceled;
+no recipient selected or message sent. Exact shared question10950 rendered from
+bundled content; history4/answers87 preserved. Phone domain association verified
+for current debug/testing certificate. Native cold/warm link handlers have unit
+coverage, but external ACTION_VIEW device test was blocked by automatic approval
+review and is not reported as physically passed. Android15 tests, offline browser
+flow, native gesture/allowlist browser test, shell checks and targeted Python
+checks passed. Public signed production download remains pending.

@@ -40,6 +40,12 @@ async def lifespan(_app):
 app = FastAPI(title='Study Station API', version='2.0', docs_url='/api/docs', redoc_url=None, lifespan=lifespan)
 app.mount('/static', StaticFiles(directory=APP_DIR / 'static'), name='static')
 
+
+@app.get('/.well-known/assetlinks.json', include_in_schema=False)
+def android_app_association():
+    return FileResponse(APP_DIR / 'static/assetlinks.json', media_type='application/json',
+                        headers={'Cache-Control': 'public, max-age=300'})
+
 from .admin import router as admin_router  # noqa: E402
 app.include_router(admin_router)
 templates = Jinja2Templates(directory=APP_DIR / 'templates')

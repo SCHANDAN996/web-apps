@@ -22,6 +22,10 @@ def test_pack_is_public_deterministic_and_contains_all_usable_questions(db, tmp_
     assert all(q['review_status'] != 'flagged' for q in seen)
     assert all('import_key' not in q and 'review_note' not in q for q in seen)
     assert len(seen) == first['counts']['questions']
+    question_index = json.loads((output / 'question-index.json').read_text(encoding='utf-8'))
+    assert question_index == {str(q['id']): q['topic_id'] for q in seen}
+    assert all(type(topic) is int for topic in question_index.values())
+    assert 'question-index.json' in first['files']
     for relative, digest in first['files'].items():
         assert hashlib.sha256((output / relative).read_bytes()).hexdigest() == digest
     before = {str(p.relative_to(output)): p.read_bytes() for p in output.rglob('*.json')}

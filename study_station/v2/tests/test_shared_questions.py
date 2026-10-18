@@ -46,3 +46,25 @@ def test_shared_question_languages_and_unavailable_status(client, db, shared_rec
     db.commit()
     assert client.get(f'/q/{shared_record.id}').status_code == 404
     assert client.get('/q/999999999999').status_code == 404
+
+
+def test_android_association_is_public_and_matches_current_build(client):
+    response = client.get('/.well-known/assetlinks.json')
+    assert response.status_code == 200
+    assert response.headers['content-type'].startswith('application/json')
+    association = response.json()
+    assert len(association) == 1
+    assert association[0]['target']['package_name'] == 'com.studystation.app.debug'
+    assert len(association[0]['target']['sha256_cert_fingerprints'][0].split(':')) == 32
+    assert 'set-cookie' not in response.headers
+
+
+def test_shared_page_only_links_configured_android_package(client, shared_record, monkeypatch):
+    from app import shared_questions
+    monkeypatch.setattr(shared_questions, 'ANDROID_APP_PACKAGE', 'com.studystation.app.debug')
+    response = client.get(f'/q/{shared_record.id}?lang=en')
+    assert f'intent://studystation.ebookcart.in/q/{shared_record.id}?lang=en' in response.text
+    assert 'package=com.studystation.app.debug;end' in response.text
+    assert 'SECRET_SOLUTION_SENTINEL' not in response.text
+    monkeypatch.setattr(shared_questions, 'ANDROID_APP_PACKAGE', 'untrusted;scheme=evil')
+    assert 'intent://' not in client.get(f'/q/{shared_record.id}?lang=en').text

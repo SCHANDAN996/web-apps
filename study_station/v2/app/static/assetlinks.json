@@ -1,0 +1,10 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.studystation.app.debug",
+      "sha256_cert_fingerprints": ["19:33:D6:A2:D4:98:2B:08:6E:03:1A:C6:8A:A6:C8:F4:3D:F6:4A:7B:05:C2:BC:CE:99:5E:43:D9:53:47:67:C3"]
+    }
+  }
+]

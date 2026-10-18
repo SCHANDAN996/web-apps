@@ -19,6 +19,7 @@
 </article>
 <section class="card stack" style="margin-block:var(--sp-4)">
   <h2>{{ tr('share_answer_in_app') }}</h2>
+  {% if app_intent %}<a class="btn btn-primary" href="{{ app_intent }}">{{ tr('share_open_app') }}</a>{% endif %}
   <p class="small muted">{{ tr('share_install_note') }}</p>
   <p class="small muted">{{ tr('share_reopen_note') }}</p>
 </section>

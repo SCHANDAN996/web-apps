@@ -42,6 +42,16 @@ try {
     return {before,after,rejected,snapshot:SSQuestionActions.exportSnapshot()};
   });
   assert.equal(backup.rejected,4);assert.equal(backup.before,backup.after);assert.equal(backup.snapshot.length,1);
+  const nativeShare = await page.evaluate(async()=>{
+    let sent;
+    window.SSNativeShare={shareQuestion:async data=>{sent=data;return {ok:true};}};
+    const ok=await SSQuestionActions.share({id:123,text_en:'Public question',options_en:['One','Two'],answer_index:1,solution_en:'PRIVATE_NATIVE_SOLUTION'},{lang:'en'});
+    delete window.SSNativeShare;
+    return {ok,sent};
+  });
+  assert.equal(nativeShare.ok,true);
+  assert.deepEqual(Object.keys(nativeShare.sent).sort(),['id','lang','options','question']);
+  assert.doesNotMatch(JSON.stringify(nativeShare),/answer_index|PRIVATE_NATIVE_SOLUTION/);
   await page.reload();
   await page.addScriptTag({content:await readFile(new URL('../../app/static/js/question-actions.js',import.meta.url),'utf8')});
   assert.equal(await page.evaluate(async()=>{await SSQuestionActions.ready();return SSQuestionActions.exportSnapshot()[0].id;}),'456');

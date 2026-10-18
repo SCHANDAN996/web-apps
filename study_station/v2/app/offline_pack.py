@@ -87,6 +87,7 @@ def export_pack(db: Session, output, books_dir=None):
         topics = db.scalars(select(Topic).order_by(Topic.id)).all()
         topic_data = {}
         question_count = 0
+        question_index = {}
         # A single ordered scan, no per-topic database queries and no private tables.
         chunks = {t.id: [] for t in topics}
         for q in db.scalars(select(Question).where(
@@ -94,6 +95,8 @@ def export_pack(db: Session, output, books_dir=None):
             if q.topic_id in chunks:
                 chunks[q.topic_id].append(_fields(q, QUESTION_FIELDS))
                 question_count += 1
+                question_index[str(q.id)] = q.topic_id
+        write('question-index.json', question_index)
         for t in topics:
             relative = f'questions/{t.id}.json'
             write(relative, chunks[t.id])

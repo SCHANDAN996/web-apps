@@ -259,6 +259,18 @@
     await paint();
   }
 
+  async function sharedQuestion(id) {
+    heading(t('questions'),'questions');var token=generation;
+    if(!/^[1-9][0-9]{0,14}$/.test(id||'')){notice(t('shared_invalid'));return;}
+    function missing(){if(token!==generation)return;notice(t('shared_missing'));root.appendChild(h('p',{class:'offline-alert'},'SS-'+id));root.appendChild(link(t('questions'),'questions','btn btn-secondary'));}
+    try{
+      var index=await local('question-index.json');if(token!==generation)return;
+      if(!object(index)||!Object.prototype.hasOwnProperty.call(index,id)||!Number.isSafeInteger(index[id])||!topicBy(index[id])){missing();return;}
+      var rows=await loadTopic(index[id]);if(token!==generation)return;
+      var q=rows.find(function(item){return String(item.id)===id;});if(!q){missing();return;}
+      root.appendChild(questionCard(q,true,function(pick){record(q,pick);}));
+    }catch(error){missing();}
+  }
   function oneQuestion(topic,id) { heading(t('questions'),'questions/'+topic); var token=generation; return loadTopic(topic).then(function(rows){if(token!==generation)return;var q=rows.find(function(q){return q.id===Number(id);});if(!q)throw Error('question');root.appendChild(questionCard(q,true,function(index){record(q,index);}));}); }
   function record(q,index,defer) { state.answers[q.id]={topic:q.topic_id,pick:index,correct:index===q.answer_index,at:Date.now()}; if(!defer)save(); }
   function shuffle(rows) { var copy=rows.slice(); for(var i=copy.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),v=copy[i];copy[i]=copy[j];copy[j]=v;}return copy; }
@@ -391,7 +403,7 @@
     root.appendChild(h('section',{class:'offline-card offline-stack'},h('h2',{},t('backup')),h('p',{},t('backup_note')),button(t('export'),async function(){try{if(window.SSQuestionActions)await window.SSQuestionActions.ready();}catch(e){status.textContent=t('backup_failed');return;}var raw=exportBackup(),bridge=window.StudyStationNative;if(new TextEncoder().encode(raw).length>MAX_BACKUP){status.textContent=t('invalid_backup');return;}if(bridge&&typeof bridge.requestLocalBackup==='function'){bridge.requestLocalBackup(raw);return;}var url=URL.createObjectURL(new Blob([raw],{type:'application/json'})),a=h('a',{href:url,download:'study-station-offline-'+new Date().toISOString().slice(0,10)+'.json'});document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(url);},1000);}),button(t('import'),function(){var bridge=window.StudyStationNative;if(bridge&&typeof bridge.requestLocalRestore==='function')bridge.requestLocalRestore();else file.click();}),file,status));
   }
   function showError(){if(root)root.appendChild(h('p',{class:'offline-alert',role:'alert'},t('load_error')));}
-  function route(){generation++;leaving.splice(0).forEach(function(fn){try{fn();}catch(e){}});root.replaceChildren();window.scrollTo(0,0);var parts=location.hash.slice(1).split('/'),page=parts[0]||'home';document.querySelectorAll('.tabbar a').forEach(function(a){a.removeAttribute('aria-current');if(a.getAttribute('href')==='#'+page)a.setAttribute('aria-current','page');});try{var result=page==='home'?home():page==='books'?bookList():page==='book'?chapters(parts[1]):page==='chapter'?chapter(parts[1],parts[2],parts[3]):page==='questions'?bank(parts[1]):page==='question'?oneQuestion(parts[1],parts[2]):page==='saved'?savedQuestions():page==='practice'?practice(parts[1]):page==='session'?sessionView():page==='revision'?revision():page==='mock'?mocks():page==='progress'?progress():page==='settings'?settings():page==='result'?resultView():home();if(result&&result.catch)result.catch(showError);}catch(e){showError();}}
+  function route(){generation++;leaving.splice(0).forEach(function(fn){try{fn();}catch(e){}});root.replaceChildren();window.scrollTo(0,0);var parts=location.hash.slice(1).split('/'),page=parts[0]||'home';document.querySelectorAll('.tabbar a').forEach(function(a){a.removeAttribute('aria-current');if(a.getAttribute('href')==='#'+page)a.setAttribute('aria-current','page');});try{var result=page==='home'?home():page==='books'?bookList():page==='book'?chapters(parts[1]):page==='chapter'?chapter(parts[1],parts[2],parts[3]):page==='questions'?bank(parts[1]):page==='question'?oneQuestion(parts[1],parts[2]):page==='shared'?sharedQuestion(parts.length===2?parts[1]:''):page==='saved'?savedQuestions():page==='practice'?practice(parts[1]):page==='session'?sessionView():page==='revision'?revision():page==='mock'?mocks():page==='progress'?progress():page==='settings'?settings():page==='result'?resultView():home();if(result&&result.catch)result.catch(showError);}catch(e){showError();}}
   function init(){root=document.getElementById('offlineStudy');if(!root)return;if(window.SSQuestionActions)window.SSQuestionActions.ready().catch(function(){});document.cookie='ss_lang='+SS.lang+'; Path=/; SameSite=Lax';
     document.querySelector('.brand').setAttribute('href','#home');var settingsLink=document.querySelector('.top-actions a[href="/settings"]');if(settingsLink)settingsLink.href='#settings';
     var routes=['home','practice','mock','revision'];document.querySelectorAll('.tabbar a').forEach(function(a,index){if(index<4)a.setAttribute('href','#'+routes[index]);});

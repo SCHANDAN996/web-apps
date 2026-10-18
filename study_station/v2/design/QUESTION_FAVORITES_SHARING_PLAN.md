@@ -1,19 +1,18 @@
 # Saved questions and answer-free sharing
 
-Status: first implementation verified and installed on 17 October 2026.
+Status: native sharing implementation installed and checked on 18 October 2026.
 
-Implemented in source: structured Result/review cards; shared practice feedback;
-Save/Share controls; phone-local IndexedDB favorites; Saved question library;
-portable backup merge; answer-free anonymous `/q/{id}` landing route.
-Progress reset retains favorites and explains that choice. An explicit separate
-favorites-clear control is still pending. Sharing uses the browser share API when
-available, with explicit clipboard fallback.
+Implemented: structured Result/review cards; shared practice feedback; Favorite
+and native Share controls; phone-local favorites and Saved question library;
+portable backup merge; answer-free `/q/{id}` landing; direct bundled ID lookup;
+cold/warm link handling and current testing-build domain association. Android
+reports the domain verified, and the native chooser was visibly checked on phone.
+Progress reset retains favorites and explains that choice.
 
-Still pending: verified Android App Links, a real public install destination and
-post-install question continuation, native Sharesheet verification on Android,
-The answer-free landing page is deployed, and device checks confirmed question
-actions, Saved and mock screens. Do not claim native sharing or App Links work
-because the landing page and helper tests pass.
+Still pending: external cold/warm device launch acceptance (automatic approval
+review rejected that test), production release signing/public install destination,
+optional post-install continuation, and a separate favorites-clear control.
+Browser share/clipboard fallback remains available outside the native app.
 
 ## Learner experience
 
@@ -71,3 +70,32 @@ do not claim absolute prevention of extracting or independently sharing answers.
 
 References: [Android App Links](https://developer.android.com/training/app-links)
 and [Android Sharesheet](https://developer.android.com/develop/ui/compose/sharing/send).
+
+
+## Native continuation — 18 October 2026
+
+Implemented native Android Sharesheet bridge restricted to the trusted main frame,
+with an explicit user gesture and public-field allowlist. Native code constructs
+the HTTPS link and never accepts an answer, solution or arbitrary caller URL.
+Cold/warm ACTION_VIEW handlers and in-WebView `/q/` navigation resolve to the
+bundled shared-question screen. A deterministic759KB ID-to-topic index avoids
+scanning70419 questions; opening a link reads one topic and never submits an answer.
+Invalid/missing IDs and old packs without an index have a clear code/update fallback.
+
+The server now serves `/.well-known/assetlinks.json` for the certificate and package
+of the current installed testing APK only. The configured public question page has
+an explicit Open in app action. Production release association must use its real
+signing certificate, and no public debug APK download was published.
+
+Acceptance: Android15 unit tests pass; full offline browser flow and native JS
+wrapper gesture/allowlist checks pass. APK built, signed as the existing testing
+app, installed and signature checked. Actual phone opened native chooser and the
+exact bundled question10950; chooser was canceled without sending. Progress87
+answers/4 histories preserved. Android reports domain `verified`.
+
+Remaining: actual external cold/warm launch acceptance was stopped by automatic
+approval review (combined ACTION_VIEW test rejected without detailed reason).
+No alternative external-launch path was attempted. Production signed release and
+its public install destination, plus optional post-install continuation, remain
+pending. An uninstalled browser currently sees question/options/code/instructions,
+not a false download URL or an answer.

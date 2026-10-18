@@ -36,6 +36,7 @@ class MainActivity : Activity() {
     private lateinit var offline: View
     private var failed = false
     private lateinit var backup: BackupBridge
+    private lateinit var questionShare: QuestionShareBridge
     private val hasStudyPack by lazy {
         try {
             assets.open("study/manifest.json").use { }
@@ -57,7 +58,19 @@ class MainActivity : Activity() {
             onBackInvokedDispatcher.registerOnBackInvokedCallback(OnBackInvokedDispatcher.PRIORITY_DEFAULT) { goBack() }
         }
         setUpWebView()
-        if (savedInstanceState == null || web.restoreState(savedInstanceState) == null) web.loadUrl(home)
+        if (savedInstanceState == null || web.restoreState(savedInstanceState) == null)
+            web.loadUrl(questionDestination(intent) ?: home)
+    }
+
+    private fun questionDestination(incoming: Intent?): String? {
+        if (incoming?.action != Intent.ACTION_VIEW) return null
+        return QuestionLinks.parse(incoming.dataString)?.destination(BuildConfig.BASE_URL, hasStudyPack)
+    }
+
+    override fun onNewIntent(intent: Intent) {
+        super.onNewIntent(intent)
+        setIntent(intent)
+        questionDestination(intent)?.let { web.loadUrl(it) }
     }
 
     @SuppressLint("SetJavaScriptEnabled")
@@ -75,6 +88,8 @@ class MainActivity : Activity() {
         web.webViewClient = Client()
         backup = BackupBridge(this, web)
         backup.install()
+        questionShare = QuestionShareBridge(this, web)
+        questionShare.install()
         web.webChromeClient = object : WebChromeClient() {
             override fun onProgressChanged(view: WebView, newProgress: Int) {
                 progress.progress = newProgress
@@ -108,6 +123,12 @@ class MainActivity : Activity() {
 
     private inner class Client : WebViewClient() {
         override fun shouldOverrideUrlLoading(view: WebView, request: WebResourceRequest): Boolean {
+            if (request.isForMainFrame && request.method == "GET" && hasStudyPack) {
+                QuestionLinks.parse(request.url.toString())?.let {
+                    view.loadUrl(it.destination(BuildConfig.BASE_URL, true))
+                    return true
+                }
+            }
             if (Links.isInApp(request.url.toString(), BuildConfig.BASE_URL)) return false
             openOutside(request.url)
             return true
@@ -134,6 +155,7 @@ class MainActivity : Activity() {
 
         override fun onPageFinished(view: WebView, url: String?) {
             backup.pageFinished()
+            questionShare.pageFinished()
             if (hasStudyPack && Links.isInApp(url ?: "", BuildConfig.BASE_URL)) {
                 web.evaluateJavascript(OfflineStudy.navigationScript, null)
             }

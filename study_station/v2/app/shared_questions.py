@@ -7,6 +7,7 @@ from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from . import services
+from .config import ANDROID_APP_PACKAGE
 from .i18n import client_strings, t
 from .models import Question, Subject, Topic
 
@@ -39,7 +40,10 @@ def install_routes(app, render, get_db, lang_from_request):
         response = render('shared_question.html', request, None, lang=language,
                           tr=lambda key: t(key, language),
                           L=lambda hi, en: hi if language == 'hi' else en,
-                          strings=client_strings(language), shared=public, fallback=fallback)
+                          strings=client_strings(language), shared=public, fallback=fallback,
+                          app_intent=(f'intent://studystation.ebookcart.in/q/{row["id"]}?lang={language}'
+                                      f'#Intent;scheme=https;package={ANDROID_APP_PACKAGE};end')
+                          if ANDROID_APP_PACKAGE in ('com.studystation.app', 'com.studystation.app.debug') else None)
         response.headers['X-SS-Public-Content'] = 'shared-question-v1'
         # An explicit language is cacheable; cookie-selected language must not cross users.
         response.headers['Cache-Control'] = 'public, max-age=300' if lang else 'no-store'

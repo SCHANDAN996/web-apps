@@ -1,9 +1,9 @@
 {
   "version": "1.1.0",
-  "date": "2026-10-17",
-  "apk_bytes": 30578819,
-  "apk_sha256": "23bd73ec2fa46747b787b0f30629aaa753409e51d1ce3fd39539f0edc8dcf021",
-  "content_hash": "9ac5d84557d04c5df173825d85f295662d47bd14c98eff51b3cc306f4b12ffbc",
+  "date": "2026-10-18",
+  "apk_bytes": 30788696,
+  "apk_sha256": "270521fbcf4a16431fafc4be9aeb79dc7f99521f437d1635dc8a9fffacbd61df",
+  "content_hash": "ae3a38d90383066f432a62a6d03c85d788eece1657de0e2aec924e0c324e5905",
   "counts": {
     "books": 12,
     "chapters": 296,
@@ -11,8 +11,8 @@
     "subjects": 5,
     "topics": 88
   },
-  "device_acceptance": "Installed structured review/Favorites UI; question actions, Saved screen and eight mock cards passed on phone; existing 4 histories and 87 answers preserved. Result scoring/review/backup exercised in isolated browser test, no phone answers submitted.",
-  "android_unit_tests": 12,
-  "question_sharing": "Answer-free public /q/{id} deployed and checked; Android clipboard fallback available; native Sharesheet and verified App Links pending.",
-  "verification": "Offline E2E passed; shell 6 passed; Linux targeted 21 passed; full Windows run 220 passed, two privilege failures plus one shell race subsequently passed; web12flows pass but Chrome ViewTransition warning remains."
+  "device_acceptance": "Updated APK installed; exact bundled shared question10950 opened and native Android chooser visibly opened then canceled without sending; existing87 answers/4 histories preserved.",
+  "android_unit_tests": 15,
+  "question_sharing": "Android chooser verified; current debug certificate/domain association verified by phone; external cold/warm ACTION_VIEW launch test blocked by automatic approval review. Production release signing/public install destination remain separate.",
+  "verification": "Android15 unit tests and assemble passed; targeted Python13 passed across shell/shared/export checks; Linux7 passed; offlineE2E, favoritesE2E and nativegesture wrapperE2E passed."
 }
