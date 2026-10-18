@@ -682,6 +682,11 @@ body.nav-busy .nav-progress { opacity: 1; transform: scaleX(.92);
 /* Home: reading first, then a stable two-column learning and exploration grid. */
 .home-card-grid { --home-card-title-size:1.125rem; --home-card-press-scale:.985; --home-glass-edge:color-mix(in srgb,var(--text) 12%,var(--surface-raised)); --home-glass-shadow:0 6px 16px color-mix(in srgb,var(--text) 8%,transparent),inset 0 1px 0 color-mix(in srgb,var(--text) 9%,transparent); display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:var(--sp-3); }
 .home-image-card { display:flex; flex-direction:column; align-items:flex-start; gap:var(--sp-2); min-width:0; min-height:var(--tap); padding:var(--sp-4); border:1px solid var(--home-glass-edge); border-radius:var(--r-lg); background:linear-gradient(145deg,color-mix(in srgb,var(--surface-raised) 94%,var(--brand-soft)),var(--surface) 54%,var(--surface-2)); box-shadow:var(--home-glass-shadow); color:var(--text); text-align:start; text-decoration:none; font:inherit; cursor:pointer; overflow-wrap:anywhere; transition:transform var(--dur-1) var(--ease-emph); }
+/* Keep both WebView tap feedback and our pressed layer inside the rounded card. */
+.home-image-card { position:relative; overflow:hidden; isolation:isolate; -webkit-tap-highlight-color:transparent; }
+.home-image-card::after { content:""; position:absolute; inset:0; border-radius:inherit; background:currentColor; opacity:0; pointer-events:none; transition:opacity var(--dur-1) var(--ease-emph); }
+.home-image-card:active::after { opacity:var(--press); }
+.card-link, .btn { -webkit-tap-highlight-color:transparent; }
 .home-image-card img { display:block; width:96px; max-width:100%; height:72px; object-fit:contain; align-self:center; }
 .home-image-card b { font-size:var(--home-card-title-size); line-height:1.5; font-weight:600; letter-spacing:0; }
 .home-image-card .xs { font-size:var(--fs-sm); line-height:1.7; }

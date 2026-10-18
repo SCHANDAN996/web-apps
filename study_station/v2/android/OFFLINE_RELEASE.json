@@ -1,8 +1,8 @@
 {
   "version": "1.1.0",
   "date": "2026-10-18",
-  "apk_bytes": 30836149,
-  "apk_sha256": "0fb1aeda9c3fcd06bbb07872c112e51032a7efed8c310f36858f4776a9a9fae3",
+  "apk_bytes": 30836082,
+  "apk_sha256": "9d4a3269cd715178317a7c28d8b0cb253626b88c5abf2cb61083fbbc4ce5adc6",
   "content_hash": "ae3a38d90383066f432a62a6d03c85d788eece1657de0e2aec924e0c324e5905",
   "counts": {
     "books": 12,
@@ -11,7 +11,7 @@
     "subjects": 5,
     "topics": 88
   },
-  "device_acceptance": "Latest APK installed. Actual Android phone: four main Home cards in 2x2 above the reading hero; Workspace library opens; Group/Class/Shared links each open correct signup/sign-in gate. Existing learner progress unchanged. Earlier fullscreen notebook and classroom sign-in acceptance also passed. Home spacing update: actual Android measured16px gap before reading hero; bottom Settings button56px+ and opens Settings.",
+  "device_acceptance": "Latest APK installed. Actual Android phone: four main Home cards in 2x2 above the reading hero; Workspace library opens; Group/Class/Shared links each open correct signup/sign-in gate. Existing learner progress unchanged. Earlier fullscreen notebook and classroom sign-in acceptance also passed. Home spacing update: actual Android measured16px gap before reading hero; bottom Settings button56px+ and opens Settings. Rounded press: Android WebView pointer-held active state checked; card and feedback radii16px, overflow hidden, transparent native tap highlight; pressed screenshot inspected.",
   "android_unit_tests": 15,
   "question_sharing": "Android chooser verified; current debug certificate/domain association verified by phone; external cold/warm ACTION_VIEW launch test blocked by automatic approval review. Production release signing/public install destination remain separate.",
   "verification": "Classroom browser two-account invitation/assignment/private submission/feedback/live stroke/raised-hand passed. Workspace browser migration/drawing/autosave/pages/account isolation/trash/backup/malformed import passed. Offline study regression passed with zero study API requests and three themes. Targeted classroom+UI+shell15 passed. Two Windows symlink privilege cases passed in isolated Linux. See design/CLASSROOM_IMPLEMENTATION_STATUS.md for limitations."
