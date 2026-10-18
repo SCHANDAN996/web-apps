@@ -2,6 +2,92 @@
 
 Status: owner-requested plan only. Full-screen mode is an explicit requirement.
 
+## App-wide workspaces and linked teaching — owner extension
+
+Confirmed sharing rule: anyone holding the link may view after app sign-up.
+Viewing does not grant editing. This is a product plan, not an existing feature.
+
+### Placement and workspace library
+
+Add a Workspace entry to Home's secondary tools and Practice tools, and keep the
+per-question Rough Work entry. The per-question entry can create a new workspace
+or attach the question to an existing named workspace. The app-wide entry works
+without choosing a bank question, including solving a question from a book or
+elsewhere. Keep the main study navigation uncluttered; no sixth bottom tab by default.
+
+The library has My workspaces, Shared with me and Linked workspaces. Each workspace
+has an owner, stable ID, user-chosen name, thumbnail, optional subject, pages and
+last-edited time. Support create/rename/search/duplicate/recoverable delete and
+several separately named workspaces such as Algebra practice and Railway class.
+One workspace can reference multiple question IDs; deleting a question reference
+does not silently delete its written pages. Names need not be globally unique.
+
+### Sharing and account flow
+
+Private workspaces remain phone-local by default. Sharing explicitly publishes
+only that workspace's selected content to the sync service. It never publishes
+all local notebooks, progress, account details or unrelated rough work.
+
+Opening a workspace link before installation shows only an install/sign-in route
+and workspace code, not private canvas/thumbnail/page content. After installation
+and sign-up, the learner reopens the original link or enters the code. Do not
+promise automatic deferred post-install opening until tested. App Links for `/w/`
+will need their own validated routing in addition to existing question links.
+
+The current app uses device/recovery-code identity, not a complete account and
+workspace membership system. Real sign-in, server-validated sessions and explicit
+linking of local data to an account are prerequisites. Keep Google Drive backup
+consent separate from sign-in. Do not reset or merge two learners silently.
+
+A high-entropy, unlisted share link grants authenticated viewers access. Treat it
+as forwardable: anyone who receives it can join under the owner's chosen rule.
+The owner may revoke/rotate the link or stop sharing. Permissions are owner,
+explicit editor and viewer, enforced on every API and live-room operation.
+No content/answer is embedded in URL previews or pre-auth page responses. App
+installation alone is not authentication or a guarantee against copying content.
+
+### Linked Workspace and teaching
+
+Offer two distinct actions:
+
+- Make a copy: an independent workspace; later teacher edits do not alter it.
+- Link workspace: follow the source workspace's updates while preserving the
+  source owner's authority. Show source/connection status and last synchronized time.
+
+For a class, the teacher owns a shared source board and students join from its
+link after sign-up. The teacher's drawing/page changes can stream live to viewers.
+Each student can maintain a private personal practice layer or linked child board;
+it does not overwrite the teacher board. Owner-granted co-editors may write on a
+shared board, with separate stroke ownership so one person's undo does not erase
+another person's work. Learners can optionally send their own work for discussion.
+
+Start with live drawing, page-following, text notes and a connection indicator.
+Voice/video calls and recording are separate later work with explicit controls,
+consent and cost planning; a live board alone is not presented as a full video class.
+Source deletion, sharing revocation and loss of access produce clear unavailable
+states; do not leave a linked board silently displaying itself as up to date.
+
+### Server load and staged implementation
+
+Local named notebooks and offline drawing use IndexedDB. Only explicitly shared
+or linked/live workspaces require server state: account/membership, share tokens,
+compact stroke/page snapshots and changes. Send incremental strokes, not continuous
+screen images; batch/save changes, bound room/asset sizes and handle reconnects.
+Do not promise zero server cost for live collaboration or silent Drive syncing.
+Offline edits need a queued/retry/conflict policy and honest sync status.
+
+Implementation order:
+
+1. Full-screen drawing, named local workspace library, migration and reliable save.
+2. Real sign-up/account ownership, shared snapshots and authenticated view links.
+3. Linked source/child workspaces, live teacher updates and reconnect handling.
+4. Explicit co-editing and advanced classroom features, then optional voice/video.
+
+Acceptance includes multiple named boards, per-question attachment and reopening,
+account switches, sign-up/install return, unauthenticated denial, viewer/edit
+boundaries, forwarded/revoked links, independent copy versus linked updates,
+offline/reconnect, concurrent strokes/undo and retained local work on sync failure.
+
 ## Current implementation
 
 The existing per-question board is a240px canvas with pen/eraser, three colors,
