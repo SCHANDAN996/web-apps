@@ -2,6 +2,9 @@
 
 Status: owner-requested plan only. Full-screen mode is an explicit requirement.
 
+Group study and one-teacher/many-students teaching are expanded in
+GROUP_STUDY_CLASSROOM_PLAN.md, which builds on this workspace foundation.
+
 ## App-wide workspaces and linked teaching — owner extension
 
 Confirmed sharing rule: anyone holding the link may view after app sign-up.
