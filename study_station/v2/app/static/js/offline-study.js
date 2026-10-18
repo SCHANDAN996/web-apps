@@ -116,7 +116,7 @@
     root.appendChild(h('h2',{class:'offline-section-title'},t('explore')));
     var more=h('div',{class:'home-card-grid offline-secondary-grid'},card(t('questions'),t('questions_hint'),'questions','questions'),card(t('progress'),t('progress_hint'),'progress','progress'));
     [['jobs','jobs_online','jobs'],['current-affairs','ca_online','news']].forEach(function(item){more.appendChild(h('a',{class:'home-image-card',href:'/'+item[0]},h('img',{src:'/static/illustrations/'+item[2]+'.svg?v='+assetVersion,width:72,height:60,alt:'',loading:'lazy'}),h('strong',{class:'home-card-title'},t(item[1])),h('span',{class:'muted'},t('online_updates'))));});root.appendChild(more);
-    root.appendChild(link(t('settings'),'settings','btn btn-ghost btn-block'));
+    root.appendChild(h('a',{href:'#settings',class:'btn btn-secondary btn-block home-settings-link'},SS.icon('gear'),h('span',{},t('settings'))));
   }
   function bookList() {
     heading(t('books'),'home');notice(t('books_hint'));

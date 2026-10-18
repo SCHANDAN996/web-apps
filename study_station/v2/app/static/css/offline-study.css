@@ -141,3 +141,5 @@
 .offline-solution :is(ul,ol) { margin:0 0 var(--sp-3); padding-inline-start:var(--sp-5); line-height:1.85; overflow-wrap:anywhere; }
 .offline-solution li + li { margin-top:var(--sp-2); }
 .offline-solution h4 { margin:var(--sp-3) 0 var(--sp-2); font-size:var(--fs-md); font-weight:600; }
+
+#offlineStudy > .home-collaboration-grid { margin-bottom:var(--sp-4); }
