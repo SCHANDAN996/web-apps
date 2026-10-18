@@ -2,6 +2,8 @@
 .offline-heading { display:flex; align-items:center; justify-content:space-between; gap:var(--sp-3); margin-bottom:var(--sp-4); }
 .offline-stack { display:grid; gap:var(--sp-3); }
 .offline-row { display:flex; gap:var(--sp-2); align-items:center; flex-wrap:wrap; }
+.offline-session-actions { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:var(--sp-3); margin-top:var(--sp-4); max-width:36rem; }
+.offline-session-actions .btn { min-width:0; min-height:48px; padding-inline:var(--sp-2); white-space:normal; }
 .offline-card { padding:var(--sp-4); border:1px solid var(--border); border-radius:var(--r-lg); background:var(--surface); }
 .offline-card h2,.offline-card h3 { margin-top:0; }
 .offline-card p { margin-bottom:0; }

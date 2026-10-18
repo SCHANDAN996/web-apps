@@ -87,3 +87,23 @@ scroll, dialog Back, safe last-row geometry and portrait Resume verified; existi
 Browser portrait/landscape, HI/EN/themes and selection/retry/resume tests passed;
 full offline regression passed with custom lists; targeted Python12 passed.
 New APK installed and matching server assets deployed, with app-code backup.
+
+
+## Jobs choices and question navigation — 18 October
+
+Jobs qualification/category filters now reuse the custom searchable choice sheet;
+All values, FormData/status/query behavior, SPA cleanup and history are preserved.
+Next/previous/submit form a spaced action group16px below the question card.
+The question palette reveals the current question on every navigation/resume,
+instead of recreating a strip visually starting at1. Browser test reaches12,
+reloads and confirms12 remains selected/in view, then resumes normal scoring.
+
+Actual phone: bothJobs customcontrols available; lastoption fullyinsidepopup;
+16px card/action gap; question12 visiblyselected; original50question session
+index45 restored;88answers/4results unchanged. Jobs choices E2E passed both
+languages/themes and portrait/landscape plus filterAll/search/history. Offline
+regression passed. Jobs/shell Python30passed. New APK installed and server assets
+updated with code backup; job records were not changed.
+
+Advanced Rough Work, including explicit full-screen mode, is planned in
+ROUGH_WORK_WORKSPACE_PLAN.md; no advanced workspace implementation is claimed.

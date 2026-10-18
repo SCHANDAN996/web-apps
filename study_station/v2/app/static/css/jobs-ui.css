@@ -49,3 +49,7 @@
 @media (hover:hover) { .jobs-list .job-card:hover { transform:translateY(-2px); } }
 @media (min-width:640px) { .jobs-list { grid-template-columns:repeat(2,minmax(0,1fr)); } .jobs-discovery .jobs-filters { grid-template-columns:1fr 1fr auto; align-items:end; } .jobs-discovery .jobs-filters>.btn { grid-column:auto; } }
 @media (prefers-reduced-motion:reduce) { .jobs-list .card.job-card { transition:none; } .jobs-list .job-card:hover { transform:none; } }
+
+/* Jobs uses the same searchable first-party choice sheet as study screens. */
+.jobs-filters .choice-trigger { width:100%; min-width:0; min-height:var(--tap); background:var(--surface-raised); font-size:var(--fs-sm); white-space:normal; }
+.jobs-filters .choice-trigger-text { overflow-wrap:anywhere; line-height:1.75; }

@@ -443,10 +443,20 @@
   paintThemes();
   if (window.SSReset) window.SSReset.init();
   var jobFilters = document.getElementById('jobFilters');
-  if (jobFilters) jobFilters.addEventListener('submit', function (e) {
-    e.preventDefault();
-    SS.go('/jobs?' + new URLSearchParams(new FormData(jobFilters)).toString());
-  });
+  if (jobFilters) {
+    if (window.SSChoiceList) ['qualification','category'].forEach(function (name) {
+      var select=jobFilters.querySelector('select[name="'+name+'"]');
+      if (!select || select.dataset.jobChoiceEnhanced) return;
+      var key='jobs_'+name, label=select.closest('label').querySelector('span');
+      var control=window.SSChoiceList.enhance(select,{key:key,label:SS.t[key]||(label?label.textContent:name),allowEmpty:true});
+      select.dataset.jobChoiceEnhanced='true';
+      SS.onLeave(function(){control.destroy();delete select.dataset.jobChoiceEnhanced;});
+    });
+    onPage(jobFilters,'submit',function (e) {
+      e.preventDefault();
+      SS.go('/jobs?' + new URLSearchParams(new FormData(jobFilters)).toString());
+    });
+  }
   var jobSearch = document.getElementById('jobSearch');
   if (jobSearch) {
     var jobCards = document.querySelectorAll('[data-job-search]');
