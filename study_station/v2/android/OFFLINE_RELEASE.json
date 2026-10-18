@@ -1,8 +1,8 @@
 {
   "version": "1.1.0",
   "date": "2026-10-18",
-  "apk_bytes": 30802516,
-  "apk_sha256": "5717945494c44ce3716471919bc4c85ff272ebb427eacf03f180ef2597202fda",
+  "apk_bytes": 30836152,
+  "apk_sha256": "fc8d4c3eb343a10b9afe448ff600566695f9f277e1eb34dd939b0241a9022c47",
   "content_hash": "ae3a38d90383066f432a62a6d03c85d788eece1657de0e2aec924e0c324e5905",
   "counts": {
     "books": 12,
@@ -11,8 +11,8 @@
     "subjects": 5,
     "topics": 88
   },
-  "device_acceptance": "Installed Jobs custom qualification/category choices; phone popup lastrow730.51 withinlist742.67/dialog759.2/viewport771. Questioncard/actions16px separation verified. Activequestion12 visible in palette; original50question session index45 restored,88answers/4results unchanged.",
+  "device_acceptance": "Latest APK installed. Prior same-feature phone fullscreen workspace and classroom sign-in screen passed with original study state unchanged. Final Home card promotion tested in mobile browser; repeated final phone navigation test blocked by automatic approval review.",
   "android_unit_tests": 15,
   "question_sharing": "Android chooser verified; current debug certificate/domain association verified by phone; external cold/warm ACTION_VIEW launch test blocked by automatic approval review. Production release signing/public install destination remain separate.",
-  "verification": "Jobs choices E2E: HI/EN/themes/portrait/landscape/search/All/filterFormData/SPAlifecycle/history passed. Offline study E2E:12thpalette number visibility after navigation/reload and actionspacing passed. Jobs+shell Python30 passed. Rough-work full-screen is documented plan only."
+  "verification": "Classroom browser two-account invitation/assignment/private submission/feedback/live stroke/raised-hand passed. Workspace browser migration/drawing/autosave/pages/account isolation/trash/backup/malformed import passed. Offline study regression passed with zero study API requests and three themes. Targeted classroom+UI+shell15 passed. Two Windows symlink privilege cases passed in isolated Linux. See design/CLASSROOM_IMPLEMENTATION_STATUS.md for limitations."
 }

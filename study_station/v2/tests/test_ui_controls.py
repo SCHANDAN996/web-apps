@@ -45,7 +45,7 @@ def test_shared_theme_controls_and_reading_first_home_cards(client, monkeypatch)
     assert [b['data-theme-set'] for b in choices] == ['light', 'dark', 'paper']
     assert all(b.name == 'button' and b['aria-pressed'] == 'false' for b in choices)
     assert home.select_one('#themePicker summary')['aria-label']
-    steps = home.select('.home-learning .home-image-card')
+    steps = home.select('[aria-labelledby="plan-h"] .home-image-card')
     assert len(steps) == 4
     assert steps[0]['href'] == '/books'
     assert steps[0]['id'] == 'planRead'
@@ -58,3 +58,12 @@ def test_shared_theme_controls_and_reading_first_home_cards(client, monkeypatch)
     assert len(settings.select('[data-theme-set=paper]')) == 2
     assert settings.select_one('#resetProgress')['type'] == 'button'
     assert '"reset_progress_warning"' in client.get('/settings').text
+
+
+def test_home_collaboration_cards_precede_learning(client):
+    client.post('/api/v1/me', json={'level': '10th'})
+    home=BeautifulSoup(client.get('/').text, 'html.parser')
+    cards=home.select('.home-collaboration-grid .home-image-card')
+    assert [c['href'] for c in cards] == ['/classroom?view=workspace','/classroom?view=groups','/classroom?view=classes','/classroom?view=shared']
+    assert all(c.select_one('img[alt=""]') for c in cards)
+    assert home.select_one('main .stack > section').get('aria-labelledby') == 'home-collaboration-h'

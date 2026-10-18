@@ -24,6 +24,8 @@ from .db import Base, engine, ensure_schema, get_db
 from .i18n import client_strings, t
 from .models import Attempt, Device, Exam, ExamSection, Job, Question, QuestionReport, ReviewCard, Subject, Topic
 
+from .classroom import router as classroom_router
+
 APP_DIR = Path(__file__).resolve().parent
 
 
@@ -843,3 +845,22 @@ from .question_bank import install_routes as install_question_bank  # noqa: E402
 install_question_bank(app, render, get_db, lang_from_request)
 from .shared_questions import install_routes as install_shared_questions  # noqa: E402
 install_shared_questions(app, render, get_db, lang_from_request)
+
+app.include_router(classroom_router)
+
+@app.get("/classroom", response_class=HTMLResponse)
+@app.get("/w/{share_token}", response_class=HTMLResponse)
+def page_classroom(request: Request, share_token: str = "", device: Device | None = Depends(current_device)):
+    response = render("classroom.html", request, device)
+    response.headers["Cache-Control"] = "no-store"
+    response.headers["Referrer-Policy"] = "no-referrer"
+    response.headers["X-Robots-Tag"] = "noindex, nofollow"
+    return response
+
+@app.middleware("http")
+async def classroom_private_cache(request: Request, call_next):
+    response = await call_next(request)
+    if request.url.path.startswith('/api/v1/classroom'):
+        response.headers['Cache-Control'] = 'no-store'
+        response.headers['Vary'] = 'Cookie'
+    return response

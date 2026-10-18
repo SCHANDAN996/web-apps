@@ -50,6 +50,8 @@ def test_parse_feed_and_release():
 
 
 def test_without_ai_stores_official_headlines(clean, client, monkeypatch):
+    # These fixed feed fixtures are dated October 2–3, 2026.
+    monkeypatch.setattr('app.services.today_ist', lambda: date(2026, 10, 5))
     monkeypatch.setattr(config, 'ANTHROPIC_API_KEY', '')
     http = Fake()
     stats = ca.run(clean, http=http)

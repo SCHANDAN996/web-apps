@@ -3,6 +3,18 @@
 <div class="stack">
   {% set done = stats.today_answered %}
   {% set pct = [100, (done * 10)]|min %}
+
+  <section class="home-learning enter" aria-labelledby="home-collaboration-h">
+    <h2 id="home-collaboration-h">{{ tr('classroom_home_title') }}</h2>
+    <div class="home-card-grid home-collaboration-grid">
+      {% for view, image, label in [('workspace','workspace','workspace'),('groups','group','groups'),('classes','classroom','classes'),('shared','linked','shared')] %}
+      <a class="home-image-card" href="/classroom?view={{ view }}">
+        <img src="/static/illustrations/{{ image }}.svg?v={{ asset_v }}" width="96" height="72" alt="" decoding="async">
+        <b>{{ tr('classroom_home_' ~ label) }}</b><span class="xs muted">{{ tr('classroom_home_' ~ label ~ '_desc') }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
   <section class="today-card today-compact enter" aria-label="{{ tr('goal_line') }}">
     <div class="today-top">
       <div class="grow">

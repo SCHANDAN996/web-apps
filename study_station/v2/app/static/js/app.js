@@ -237,6 +237,7 @@
   });
 
   SS.initPage = function () {
+  if (window.SSClassroom) window.SSClassroom.init();
   if (window.SSBackup) window.SSBackup.init();
   var onboard = document.getElementById('onboard');
   if (onboard) {

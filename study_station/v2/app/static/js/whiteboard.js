@@ -1,7 +1,7 @@
 /* Per-question rough work. Coordinates are normalized so drawings survive phone rotation. */
 (function () {
   'use strict';
-  var KEY = 'ss_whiteboards_v1', MAX_BOARDS = 80, MAX_POINTS = 12000, MAX_STROKES = 200;
+  var KEY = 'ss_whiteboards_v1', MAX_BOARDS = 10000, MAX_POINTS = 1000000, MAX_STROKES = 10000;
   var opened = {}, cache = null, disposeCurrent = null, leaveRegistered = false;
   function valid(raw) {
     if (!raw || typeof raw !== 'object' || Array.isArray(raw)) throw new Error('invalid_backup');
@@ -34,11 +34,7 @@
   function save() {
     try { localStorage.setItem(KEY, JSON.stringify(cache)); return true; } catch (e) { return false; }
   }
-  function trim() {
-    var ids = Object.keys(cache).sort(function (a, b) { return cache[a].updated - cache[b].updated; });
-    var points = function () { return Object.keys(cache).reduce(function (sum, id) { return sum + cache[id].strokes.reduce(function (n, s) { return n + s.points.length; }, 0); }, 0); };
-    while (ids.length > MAX_BOARDS || points() > MAX_POINTS) delete cache[ids.shift()];
-  }
+  function trim() { /* Existing drawings are never evicted automatically. */ }
   window.SSWhiteboard = {
     validate: valid,
     export: function () { return JSON.parse(JSON.stringify(load())); },
@@ -53,9 +49,10 @@
       ids.forEach(function (id) { delete cache[String(id)]; delete opened[String(id)]; });
       if (!save()) throw new Error('storage_full');
     },
-    create: function (qid) {
+    create: function (qid, questionText) {
       if (disposeCurrent) disposeCurrent();
       var SS = window.SS, h = SS.h, t = SS.t, id = String(qid);
+      if(window.SSWorkspaceStore && SSWorkspaceStore.scope() !== 'guest' && window.SSWorkspace) return h('section',{class:'rough-work'},h('button',{class:'btn btn-secondary',type:'button',onclick:function(){SSWorkspace.open({questionId:id,questionText:questionText||''});}},t.workspace_expand||t.rough_work));
       load();
       var board = cache[id] || { strokes: [], updated: 0 }, tool = 'pen', color = 'black', drawing = null, pointer = null;
       var host = h('section', { class: 'rough-work' });
@@ -85,7 +82,6 @@
         board.strokes.forEach(paintStroke); if (drawing) paintStroke(drawing);
       }
       function persist() {
-        while (board.strokes.reduce(function (n, s) { return n + s.points.length; }, 0) > 6000) board.strokes.shift();
         board.updated = Date.now(); cache[id] = board; trim();
         status.textContent = save() ? t.rough_saved : t.rough_storage;
       }
@@ -103,6 +99,7 @@
           color = v; tool = 'pen'; updateTools(); palette.querySelectorAll('button').forEach(function (b) { b.setAttribute('aria-pressed', String(b.classList.contains('rough-color-' + v))); });
         } }, h('span', { 'aria-hidden': 'true' })));
       });
+      if(window.SSWorkspace) toolbar.appendChild(h('button',{class:'btn btn-secondary btn-sm',type:'button',onclick:function(){SSWorkspace.open({questionId:id,questionText:questionText||''});}},t.workspace_expand||t.rough_work));
       panel.append(toolbar, palette, canvas, status); host.append(toggle, panel);
       toggle.addEventListener('click', function () { panel.hidden = !panel.hidden; opened[id] = !panel.hidden; toggle.setAttribute('aria-expanded', String(!panel.hidden)); if (!panel.hidden) requestAnimationFrame(redraw); });
       function point(e) { var r = canvas.getBoundingClientRect(); return [Math.max(0, Math.min(1, (e.clientX - r.left) / r.width)), Math.max(0, Math.min(1, (e.clientY - r.top) / r.height))]; }
@@ -117,13 +114,13 @@
       });
       function finish(e) {
         if (e.pointerId !== pointer || !drawing) return;
-        board.strokes.push(drawing); if (board.strokes.length > MAX_STROKES) board.strokes.shift();
+        board.strokes.push(drawing);
         drawing = null; pointer = null; persist(); redraw();
       }
       canvas.addEventListener('pointerup', finish); canvas.addEventListener('pointercancel', finish);
       var resize = typeof ResizeObserver === 'function' ? new ResizeObserver(redraw) : null;
       disposeCurrent = function () {
-        if (drawing) { board.strokes.push(drawing); if (board.strokes.length > MAX_STROKES) board.strokes.shift(); drawing = null; pointer = null; persist(); }
+        if (drawing) { board.strokes.push(drawing); drawing = null; pointer = null; persist(); }
         if (resize) resize.disconnect();
       };
       if (resize) resize.observe(canvas);

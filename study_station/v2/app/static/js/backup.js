@@ -21,7 +21,7 @@
     });
     if (last && (!object(last) || !chapterUrl(last.url) || ['hi', 'en'].some(function (lang) { return typeof last[lang] !== 'string' || last[lang].length > 300; }))) throw new Error('invalid_backup');
     return { format: data.format, version: 1, progress: data.progress, local: {
-      whiteboards: window.SSWhiteboard.validate(local.whiteboards || {}), reading: reading,
+      workspaces: window.SSWorkspaceStore?SSWorkspaceStore.validateAll(local.workspaces||[]):[], whiteboards: window.SSWhiteboard.validate(local.whiteboards || {}), reading: reading,
       preferences: cleanPrefs, lastChapter: last ? { url: last.url, hi: last.hi, en: last.en } : null
     } };
   }
@@ -46,8 +46,10 @@
   function setBusy(on) { document.querySelectorAll('[data-backup-action]').forEach(function (b) { b.disabled = on; b.setAttribute('aria-busy', String(on)); }); }
   function finish() { pending = null; setBusy(false); window.SSBackup.refresh(); }
   function exportAll() {
-    return window.SS.api('GET', '/api/v1/backup/export').then(function (progress) {
+    return window.SS.api('GET', '/api/v1/backup/export').then(async function (progress) {
+      if(window.SSWorkspaceReady)await window.SSWorkspaceReady;
       var data = { format: 'study-station-backup', version: 1, created_at: new Date().toISOString(), progress: progress, local: localState() };
+      if(window.SSWorkspaceStore)data.local.workspaces=await SSWorkspaceStore.exportAll();
       validate(data); return data;
     });
   }
@@ -69,11 +71,12 @@
     dlg.addEventListener('close', function () { dlg.remove(); if (!accepted && generation === pageGeneration) { finish(); message(t.backup_cancelled); } });
     apply.addEventListener('click', function () {
       restoring = true; apply.disabled = cancel.disabled = true;
-      SS.api('POST', '/api/v1/backup/restore', { confirm: true, backup: data.progress }).then(function () {
+      SS.api('POST', '/api/v1/backup/restore', { confirm: true, backup: data.progress }).then(async function () {
         accepted = true;
         var notice = t.backup_restored;
         try {
           window.SSWhiteboard.merge(data.local.whiteboards);
+          if(window.SSWorkspaceStore)await SSWorkspaceStore.restoreAll(data.local.workspaces);
           var existing = read('ss_read_chapters', []);
           if (!Array.isArray(existing)) existing = [];
           var merged = Array.from(new Set(existing.filter(chapterUrl).concat(data.local.reading))).slice(-500);

@@ -1,0 +1,105 @@
+(function () {
+  'use strict';
+  var active = null, scopeAccount = null;
+  var scopeRequest=null;
+  window.SSWorkspaceEnsure=function(){if(!scopeRequest)scopeRequest=fetch('/api/v1/classroom/me',{credentials:'same-origin',cache:'no-store'}).then(function(r){if(!r.ok)throw Error('auth');return r.json();}).then(function(d){scopeAccount=d.account||null;}).catch(function(){scopeAccount=null;});return scopeRequest;};
+  window.SSWorkspaceReady=Promise.resolve();
+
+  window.SSWorkspaceScope = function () { return scopeAccount ? 'account:' + scopeAccount.id : 'guest'; };
+  function init() {
+    var root = document.getElementById('classroomHub');
+    if (!root || root.dataset.ready) return;
+    root.dataset.ready = '1';
+    if (active) active();
+    var alive = true, timer = null, account = null, boot = JSON.parse(document.getElementById('ss-boot').textContent), words = boot.t || {};
+    function t(k) { return words['classroom_' + k] || k; }
+    function stop() { alive = false; clearTimeout(timer); }
+    active = stop;
+    if (window.SS && SS.onLeave) SS.onLeave(stop);
+    function node(tag, text, cls) { var e = document.createElement(tag); if (text != null) e.textContent = text; if (cls) e.className = cls; return e; }
+    function box(title, parent) { var b = node('section', null, 'cr-card'); if (title) b.append(node('h2', title)); (parent || root).append(b); return b; }
+    function button(label, fn, parent, primary) { var b = node('button', label, 'btn ' + (primary ? 'btn-primary' : 'btn-secondary')); b.type = 'button'; b.onclick = function () { run(fn, b); }; parent.append(b); return b; }
+    var status = node('p', '', 'cr-status'); status.setAttribute('role', 'status');
+    async function run(fn, b) { if (b) b.disabled = true; status.textContent = t('loading'); status.classList.remove('cr-error'); try { await fn(); if (alive) status.textContent = ''; } catch (e) { if (alive) { status.textContent = t('error') + ' ' + (words['classroom_error_' + e.message] || t('retry')); status.classList.add('cr-error'); } } finally { if (b && alive) b.disabled = false; } }
+    async function api(path, method, data) { var r = await fetch('/api/v1/classroom' + path, {method: method || 'GET', credentials: 'same-origin', cache:'no-store', headers: data ? {'Content-Type':'application/json'} : {}, body: data ? JSON.stringify(data) : undefined}); var d = await r.json(); if (!r.ok) throw new Error(typeof d.detail === 'string' ? d.detail : 'request_failed'); return d; }
+    function op(data) { return Object.assign({op_id: crypto.randomUUID()}, data || {}); }
+    function clear(title) { clearTimeout(timer); root.replaceChildren(); root.append(node('h1', title || t('title')), status); status.textContent = ''; }
+    function input(form, label, name, type, required) { var l = node('label', label), i = node(type === 'textarea' ? 'textarea' : 'input'); i.name = name; if (type !== 'textarea') i.type = type || 'text'; i.required = required !== false; l.append(i); form.append(l); return i; }
+    function form(parent, label, fields, submit) { var f = node('form'); var ins = {}; fields.forEach(function (x) { ins[x[1]] = input(f, t(x[0]), x[1], x[2], x[3]); }); var b = node('button', t(label), 'btn btn-primary'); b.type = 'submit'; f.append(b); f.onsubmit = function(e) { e.preventDefault(); run(function(){ var values={};Object.keys(ins).forEach(function(k){values[k]=k==='password'?ins[k].value:ins[k].value.trim();}); return submit(values); },b); }; parent.append(f); return ins; }
+    function back(fn) { button(t('back'), fn || hub, root); }
+    function recordName(r) { return r.name || (r.data && r.data.name) || t('untitled'); }
+    function data(r) { return r.data || r; }
+    function invitation() { var q = new URLSearchParams(location.search); return q.get('join') || q.get('invite') || ''; }
+    function sharedToken() { var m = location.pathname.match(/^\/w\/([A-Za-z0-9_-]+)$/); return m ? m[1] : new URLSearchParams(location.search).get('workspace'); }
+    async function auth() {
+      clear(); root.append(node('p', t('account_note'), 'cr-note'));
+      var grid=node('div',null,'cr-grid');root.append(grid);
+      form(box(t('login'),grid),'login',[['username','username'],['password','password','password']],async function(v){await api('/login','POST',v); await start();});
+      var signup=form(box(t('signup'),grid),'signup',[['name','name'],['username','username'],['password','password','password']],async function(v){await api('/signup','POST',v);await start();});signup.password.minLength=10;
+    }
+    async function start() { await window.SSWorkspaceEnsure(); var me=await api('/me'); if(!alive)return;account=me.account; scopeAccount=account; window.dispatchEvent(new Event('workspace-scope-changed')); if(!account)return auth(); if(sharedToken())return shared(sharedToken()); if(invitation())return joinScreen(invitation());return hub(); }
+    async function hub() {
+      var h=await api('/hub');if(!alive)return;clear();var view=new URLSearchParams(location.search).get('view')||'';if(view==='workspace'){await SSWorkspace.mount(box(t('my_workspace')));return;}if(view==='groups'||view==='classes')h.groups=h.groups.filter(function(g){return data(g).kind===(view==='classes'?'class':'peer');});
+      var row=node('div',null,'cr-row');root.append(row);row.append(node('span',(account.name||account.username)+' · ID '+account.id,'cr-pill'));button(t('logout'),async function(){await api('/logout','POST',{});account=null;scopeAccount=null;window.dispatchEvent(new Event('workspace-scope-changed'));auth();},row);
+      root.append(node('p',t('private_note'),'cr-private'));
+      var grid=node('div',null,'cr-grid');root.append(grid);
+      var create=box(t('create_group'),grid);var fields=form(create,'create',[['group_name','name'],['goal','goal','textarea',false]],async function(v){v.kind=kind.value;await api('/groups','POST',op(v));await hub();});
+      var kind=node('select');kind.setAttribute('aria-label',t('kind'));[['peer','peer'],['class','class']].forEach(function(x){var o=node('option',t(x[1]));o.value=x[0];kind.append(o);});create.querySelector('form').prepend(kind);if(view==='classes')kind.value='class';if(view==='shared')grid.hidden=true;
+      form(box(t('join'),grid),'join',[['invite_code','token']],async function(v){await api('/join','POST',op(v));await hub();});
+      var list=box(t('my_groups'));if(!(h.groups||[]).length)list.append(node('p',t('empty_groups')));(h.groups||[]).forEach(function(g){var c=box(recordName(g),list);c.append(node('p',data(g).goal||''));c.append(node('span',t(data(g).kind==='class'?'class':'peer'),'cr-pill'));button(t('open'),function(){return group(g.id);},c,true);});
+      if(view==='shared')list.hidden=true;var local=box(t('my_workspace'));if(view==='shared')local.hidden=true; await window.SSWorkspace.mount(local);
+      var w=box(t('shared_work'));if(!(h.workspaces||[]).length)w.append(node('p',t('empty_work')));(h.workspaces||[]).forEach(function(x){var c=box(recordName(x),w);button(t('open'),function(){return workspace(x);},c);});
+      button(t('publish_work'),publishPicker, w);
+    }
+    async function joinScreen(token) { clear(t('join'));root.append(node('p',t('join_note')));button(t('join'),async function(){await api('/join','POST',op({token:token}));await hub();},root,true);back(); }
+    async function localSnapshots() {
+      var engine=window.SSWorkspaceStore;
+      if(!engine)throw new Error('workspace_unavailable');
+      if(engine.listSnapshots)return engine.listSnapshots();
+      var items=await engine.list();return items.filter(function(x){return !x.deleted;}).map(function(x){return {id:x.id,name:x.name,snapshot:x};});
+    }
+    async function chooseSnapshot(parent, submit) {
+      var items=await localSnapshots();if(!alive)return;if(!items.length){parent.append(node('p',t('empty_local')));return;}
+      var select=node('select');select.setAttribute('aria-label',t('select_work'));items.forEach(function(x,i){var o=node('option',x.name||t('untitled'));o.value=String(i);select.append(o);});parent.append(select);
+      parent.append(node('p',t('explicit_publish'),'cr-private'));button(t('send_selected'),function(){var x=items[Number(select.value)];return submit(x.snapshot||x,x.name);},parent,true);
+    }
+    async function publishPicker() {clear(t('publish_work'));back();await chooseSnapshot(box(t('select_work')),async function(snapshot,name){await api('/workspaces','POST',op({name:name||t('untitled'),snapshot:snapshot}));await hub();});}
+    async function group(id) {
+      var d=await api('/groups/'+id);if(!alive)return;clear(recordName(d.group));back();root.append(node('p',data(d.group).goal||''));
+      var members=d.members||[], own=String(d.group.owner_id)===String(account.id), membership=members.find(function(m){return String(m.id)===String(account.id);}), teacher=own||d.role==='teacher';
+      var actions=node('div',null,'cr-row');root.append(actions);
+      if(teacher)button(t('invite'),async function(){var r=await api('/groups/'+id+'/invite','POST',{});showLink(location.origin+'/classroom?join='+encodeURIComponent(r.token));},actions);
+      var assignments=box(t('assignments'));if(!(d.assignments||[]).length)assignments.append(node('p',t('empty_assignments')));(d.assignments||[]).forEach(function(a){button(recordName(a),function(){return assignment(a.id,id,teacher);},assignments);});
+      if(teacher)form(box(t('new_assignment')),'publish',[['task_name','name'],['instructions','instructions','textarea'],['question_ids','question_ids','text',false]],async function(v){v.question_ids=v.question_ids?v.question_ids.split(/[\s,]+/).map(Number):[];if(v.question_ids.some(function(n){return !Number.isInteger(n)||n<1;}))throw new Error('invalid_questions');await api('/groups/'+id+'/assignments','POST',op(v));await group(id);});
+      var sessions=box(t('sessions'));(d.sessions||[]).forEach(function(s){button(recordName(s),function(){return session(s.id,id,teacher);},sessions);});if(teacher)form(sessions,'start_session',[['session_name','name']],async function(v){var r=await api('/groups/'+id+'/sessions','POST',op(v));return session((r.session||r).id,id,true);});
+      var doubts=box(t('discussions'));(d.discussions||[]).forEach(function(x){var dd=data(x);doubts.append(node('p',(dd.question_id?'SS-'+dd.question_id+' · ':'')+dd.text));});form(doubts,'send_doubt',[['doubt','text','textarea'],['question_id','question_id','number',false]],async function(v){v.question_id=v.question_id?Number(v.question_id):null;await api('/groups/'+id+'/discussions','POST',op(v));await group(id);});
+      var roster=box(t('members'));members.forEach(function(m){var r=node('div',null,'cr-row');r.append(node('span',m.name||m.username||String(m.id)),node('span',t(m.role)||m.role,'cr-pill'));roster.append(r);if(own&&String(m.id)!==String(account.id)){button(t(m.role==='teacher'?'make_student':'make_teacher'),async function(){await api('/groups/'+id+'/members','POST',{account_id:m.id,role:m.role==='teacher'?'student':'teacher'});await group(id);},r);}if(own&&String(m.id)!==String(account.id))button(t(m.role==='editor'?'make_student':'grant_write'),async function(){await api('/groups/'+id+'/members','POST',{account_id:m.id,role:m.role==='editor'?'student':'editor'});await group(id);},r);});
+    }
+    function showLink(url) { var p=node('p',url,'cr-link');root.append(p);button(t('copy_link'),async function(){await navigator.clipboard.writeText(url);status.textContent=t('copied');},root); }
+    async function assignment(id,gid,teacher) {
+      var d=await api('/assignments/'+id);if(!alive)return;clear(recordName(d.assignment));back(function(){return group(gid);});root.append(node('p',data(d.assignment).instructions||''));var answers={}, qs=box(t('questions'));
+      (d.questions||[]).forEach(function(q,i){var c=node('fieldset',null,'cr-answer');c.append(node('legend',String(i+1)+'. '+(q['text_'+boot.lang]||q.text_hi||q.text_en||'')));var opts=q['options_'+boot.lang]||q.options_hi||q.options_en||[];if(!Array.isArray(opts))opts=Object.values(opts);opts.forEach(function(o,j){var l=node('label'),r=node('input');r.type='radio';r.name='q'+q.id;r.onchange=function(){answers[q.id]=j;};l.append(r,node('span',typeof o==='string'?o:o.text||''));c.append(l);});qs.append(c);});
+      if(!teacher){var send=box(t('submit_work'));send.append(node('p',t('explicit_publish'),'cr-private'));button(t('submit_answers'),async function(){await api('/assignments/'+id+'/submissions','POST',op({answers:answers,snapshot:{pages:[]}}));await assignment(id,gid,false);},send,true);await chooseSnapshot(send,async function(snapshot){await api('/assignments/'+id+'/submissions','POST',op({answers:answers,snapshot:snapshot}));await assignment(id,gid,false);});}
+      var submissions=box(t(teacher?'review_work':'my_submissions'));(d.submissions||[]).forEach(function(s){var sd=data(s), c=box((s.name||s.account_name||t('submission'))+' · '+String(s.id),submissions);(Array.isArray(sd.feedback)?sd.feedback:[{text:sd.feedback||''}]).forEach(function(f){if(f.text)c.append(node('p',f.text,'cr-note'));});renderSnapshot(sd.snapshot||{},c);if(teacher)form(c,'send_feedback',[['feedback','text','textarea']],async function(v){await api('/submissions/'+s.id+'/feedback','POST',op(v));await assignment(id,gid,true);});});
+    }
+    function renderSnapshot(snapshot,parent) { (snapshot.pages||[]).forEach(function(p,i){var c=node('div',null,'cr-stack');c.append(node('h3',p.name||t('page')+' '+(i+1)));var canvas=node('canvas',null,'cr-board cr-snapshot');canvas.width=900;canvas.height=1200;canvas.setAttribute('aria-label',t('shared_page'));c.append(canvas);parent.append(c);paint(canvas,p.strokes||[]);if(p.text)c.append(node('p',p.text));}); }
+    function paint(canvas,strokes) {var ctx=canvas.getContext('2d');ctx.clearRect(0,0,canvas.width,canvas.height);strokes.forEach(function(s){var points=s.points||[];if(!points.length)return;ctx.save();ctx.globalCompositeOperation=s.tool==='erase'?'destination-out':'source-over';ctx.lineWidth=Math.min(100,Math.max(.1,Number(s.width)||3));ctx.strokeStyle=ctx.fillStyle=/^#[0-9a-f]{6}$/i.test(s.color||'')?s.color:'#333333';ctx.lineCap=ctx.lineJoin='round';ctx.beginPath();var a=points[0],b=points[points.length-1],w=canvas.width,h=canvas.height;if(s.tool==='rect')ctx.rect(a[0]*w,a[1]*h,(b[0]-a[0])*w,(b[1]-a[1])*h);else if(s.tool==='circle')ctx.ellipse((a[0]+b[0])*w/2,(a[1]+b[1])*h/2,Math.abs(b[0]-a[0])*w/2,Math.abs(b[1]-a[1])*h/2,0,0,Math.PI*2);else{points.forEach(function(p,i){if(!Number.isFinite(p[0])||!Number.isFinite(p[1]))return;if(i)ctx.lineTo(p[0]*w,p[1]*h);else ctx.moveTo(p[0]*w,p[1]*h);});if(points.length===1){ctx.arc(a[0]*w,a[1]*h,ctx.lineWidth/2,0,Math.PI*2);ctx.fill();}}ctx.stroke();ctx.restore();});}
+
+    async function workspace(w,token) {var fresh=await api('/workspaces/'+w.id+(token?'?token='+encodeURIComponent(token):''));if(!alive)return;w=fresh.workspace;clear(recordName(w));back();var wd=data(w);if(fresh.source_status)root.append(node('p',t(fresh.source_status==='linked'?'source_linked':'source_revoked'),'cr-note'));renderSnapshot(data(fresh.source||w).snapshot||{},box(t('shared_work')));var row=node('div',null,'cr-row');root.append(row);button(t('open_private_copy'),async function(){var snap=data(fresh.source||w).snapshot;var copy=await SSWorkspaceStore.import({format:'study-station-workspace',version:1,workspace:Object.assign({},snap,{name:recordName(w)})});await SSWorkspace.open({id:copy.id});},row);if(fresh.can_write){button(t('update_work'),async function(){var picker=box(t('select_work'));await chooseSnapshot(picker,async function(snapshot,name){await api('/workspaces/'+w.id,'PUT',op({version:w.version,name:name,snapshot:snapshot}));await workspace(w,token);});},row);}if(String(w.owner_id)===String(account.id)){form(box(t('edit_permission')),'grant_write',[['account_id','account_id','number']],async function(v){await api('/workspaces/'+w.id+'/editors','POST',{account_id:Number(v.account_id),allow:true,version:w.version});await workspace(w,token);});button(t('share'),async function(){var r=await api('/workspaces/'+w.id+'/share','POST',op());showLink(r.url.startsWith('/')?location.origin+r.url:r.url);},row);button(t('revoke'),async function(){await api('/workspaces/'+w.id+'/share','DELETE',{});status.textContent=t('revoked');},row);}button(t('copy_work'),function(){return api('/workspaces/'+w.id+'/copy','POST',op({token:token||undefined,linked:false})).then(hub);},row);button(t('link_work'),function(){return api('/workspaces/'+w.id+'/copy','POST',op({token:token||undefined,linked:true})).then(hub);},row);}
+    async function shared(token) {var r=await api('/shared/'+encodeURIComponent(token));if(alive)await workspace(r.workspace,token);}
+    async function session(id,gid,teacher) {
+      var d=await api('/sessions/'+id+'?after=0');if(!alive)return;clear(recordName(d.session));back(function(){return group(gid);});root.append(node('p',t(teacher?'teacher_board':'follow_board'),'cr-note'));var connection=node('p',t('connected'),'cr-status');root.append(connection);var canvas=node('canvas',null,'cr-board');canvas.width=1000;canvas.height=700;canvas.setAttribute('aria-label',t('live_board'));canvas.setAttribute('aria-disabled',String(!teacher));root.append(canvas);teacher=!!d.can_write;var strokes=[],version=d.session.version,seq=0,ended=!data(d.session).active,points=null,queue=Promise.resolve();var hands=box(t('hands'));
+      function ingest(r){version=r.session.version;(r.events||[]).forEach(function(e){if(e.seq<=seq)return;seq=e.seq;var ed=e.data||e, payload=ed.payload||{};if(ed.type==='stroke')strokes.push(payload);if(ed.type==='page'){strokes=[];}if(ed.type==='snapshot'){strokes=(payload.pages&&payload.pages[0]&&payload.pages[0].strokes)||[];}if(ed.type==='undo'){strokes.pop();}if(ed.type==='hand'){hands.append(node('p',(payload.name||t('student'))+' · '+t('help_requested')));}if(ed.type==='end'){ended=true;connection.textContent=t('ended');}});paint(canvas,strokes);}
+      ingest(d);
+      var pendingKey='ss-live-pending:'+account.id+':'+id,pendingOps=[];try{pendingOps=JSON.parse(localStorage.getItem(pendingKey)||'[]');if(!Array.isArray(pendingOps))pendingOps=[];}catch(e){}var flushing=false;
+      function savePending(){localStorage.setItem(pendingKey,JSON.stringify(pendingOps));}
+      async function flushPending(){if(flushing||!alive)return;flushing=true;try{while(pendingOps.length&&alive){var item=pendingOps[0],tries=0;while(true){var latest=await api('/sessions/'+id+'?after='+seq);if(!alive)return;ingest(latest);try{await api('/sessions/'+id+'/events','POST',{op_id:item.op_id,version:version,type:item.type,payload:item.payload});break;}catch(e){if((e.message==='version_conflict'||e.message==='concurrent_operation_retry')&&++tries<4)continue;throw e;}}pendingOps.shift();savePending();var fresh=await api('/sessions/'+id+'?after='+seq);if(alive)ingest(fresh);}}finally{flushing=false;}}
+      async function event(type,payload){if(pendingOps.length>=50)throw Error('try_later');pendingOps.push({op_id:crypto.randomUUID(),type:type,payload:payload});savePending();return flushPending();}
+
+      if(teacher){canvas.onpointerdown=function(e){if(ended)return;points=[];canvas.setPointerCapture(e.pointerId);point(e);};canvas.onpointermove=function(e){if(points)point(e);};canvas.onpointerup=function(){if(!points)return;var s={points:points,color:'#333333',width:3};points=null;queue=queue.then(function(){return event('stroke',s);}).catch(function(){connection.textContent=t('disconnected');});};canvas.onpointercancel=function(){points=null;};function point(e){var r=canvas.getBoundingClientRect();points.push([Math.max(0,Math.min(1,(e.clientX-r.left)/r.width)),Math.max(0,Math.min(1,(e.clientY-r.top)/r.height))]);paint(canvas,strokes.concat([{points:points,color:'#333333',width:3}]));}button(t('new_page'),function(){return event('page',{});},root);button(t('end_session'),function(){return event('end',{});},root);}else button(t('raise_hand'),function(){return event('hand',{name:account.name||account.username});},root,true);
+      async function poll(){if(!alive||!document.contains(canvas)||ended)return;try{await flushPending();var r=await api('/sessions/'+id+'?after='+seq);if(!alive||!document.contains(canvas))return;ingest(r);if(!ended)connection.textContent=t('connected');}catch(e){if(alive)connection.textContent=t('disconnected');}if(alive&&!ended)timer=setTimeout(poll,2500);}timer=setTimeout(poll,2500);
+    }
+    run(start);
+  }
+  window.SSClassroom={init:init};
+})();
