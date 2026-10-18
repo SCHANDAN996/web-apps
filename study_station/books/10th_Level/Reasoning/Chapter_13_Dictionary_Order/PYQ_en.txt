@@ -1,385 +1,365 @@
-📊 PYQ Analysis — Dictionary Order (10-Year Trend: 2016–2026)
-1. Yearly Frequency & Trend
+📊 PYQ Analysis — Dictionary Order (Pattern & Trap Guide)
 
-Dictionary Order is a consistent low-volume, high-accuracy topic across all major competitive exams. Over the past 10 years, it has appeared almost every year in at least one shift of SSC CGL, CHSL, MTS, GD, and Banking Prelims.
+## 1. How Exams Test This Topic
 
-Year	SSC (CGL/CHSL/MTS/GD)	Banking (PO/Clerk)	Railway (NTPC/Group D)	Total Shifts with ≥1 Q
-2016-17	2-3 shifts	1-2 shifts	1-2 shifts	~6
-2018	2 shifts	1 shift	1 shift	~4
-2019	3-4 shifts	2 shifts	1 shift	~7
-2020-21	5-6 shifts	3 shifts	2 shifts	~11
-2022	8-10 shifts	2-3 shifts	1 shift	~14
-2023	6-8 shifts	2 shifts	2 shifts	~12
-2024-25	4-5 shifts	1-2 shifts	1 shift	~7
-2026 (proj.)	2-3 shifts	1 shift	1 shift	~5
+Dictionary Order is a recurring, low-volume topic in the Reasoning sections of SSC (CGL, CHSL, MTS, GD), Railway (NTPC, Group D), Banking and State exams. When a paper includes it, it is almost always a single standalone question — arrange four to seven words in alphabetical order and pick the correct sequence from the options.
 
-Trend Insight: Dictionary Order questions have shown a slight peak in 2022 (SSC CGL 2022 had at least 8 distinct Dictionary Order questions across shifts) and remain a staple topic. Frequency dipped slightly post-2023 as SSC introduced more puzzle-based reasoning, but it remains a "banker" topic — easy to prepare, high accuracy rate.
+For a prepared student this is a "banker" question: the method is fixed, the alphabet never changes, and the mark is near-certain. That is why toppers attempt it in the first round of the paper and never leave it unattempted. The only real dangers are the examiner's traps (Section 4) and time-sink sets with deep overlapping prefixes (Section 5).
 
-2. Sub-Topic Weightage
+## 2. Recurring Variants (Sub-Topics)
 
-Within "Dictionary Order," examiners test distinct variants. Here's the approximate weightage based on 100+ PYQs analysed:
+Examiners test a small set of distinct variants. In rough order of how often they are seen:
 
-Sub-Topic	Weightage	Trend
-Standard A-Z Arrangement (4-6 words)	60-65%	Stable, most common
-Reverse Dictionary Order (Z-A)	10-15%	Increasing (SSC 2023-24)
-Find nth Word from Left/Right	10-12%	Stable
-Mixed Case / Hyphen / Space Words	5-8%	Rare, but tricky
-Position Unchanged After Arrangement	3-5%	Banking favourite
-Letter Interchange + Dictionary Order	2-3%	Rare, high difficulty
-3. Exam-Wise Distribution
-Exam	Avg Qs per Paper	Difficulty	Common Variant
-SSC CGL Tier-I	1 Q per shift	Easy–Moderate	Standard A-Z (4-6 words)
-SSC CHSL	1 Q per shift	Easy	Standard A-Z
-SSC MTS	1 Q per paper	Easy	Standard A-Z
-SSC GD	1 Q per shift	Easy	Standard A-Z
-IBPS PO Prelims	1 Q (often in Order & Ranking set)	Moderate	Position Unchanged / nth from left-right
-SBI Clerk	0-1 Q	Moderate	Mixed Letter Interchange + Dictionary
-RRB NTPC	1 Q	Easy	Standard A-Z
-RRB Group D	0-1 Q	Easy	Standard A-Z
-State Police / Forest Guard	1 Q	Easy	Standard A-Z
-State SSC / Constable	0-1 Q	Easy	Standard A-Z
+| Variant | How often it is seen |
+|---|---|
+| Standard A–Z arrangement (4–6 words) | The most common form, especially in SSC and Railway papers |
+| Reverse dictionary order (Z–A) | Occasional; it inverts your trained habit, so practise it separately |
+| "Which word is second/third from the left/right?" | Regular in Banking-style papers; arrangement plus a position step |
+| Mixed case / hyphen / space words | Rare but tricky; compare letter by letter, ignoring case |
+| "Which word keeps its position after arrangement?" | A Banking favourite inside Order & Ranking sets |
+| Letter interchange + dictionary order | Rare, higher difficulty |
 
-Note: In Banking, Dictionary Order often appears as a sub-part of "Order & Ranking" or "Alphabet Series" questions, rather than standalone. In SSC, it is almost always standalone.-
+## 3. Exam-Wise Pattern
 
-4. Top 10 High-Yield PYQs with Solutions & Psychological Traps
+| Exam family | Pattern |
+|---|---|
+| SSC (CGL / CHSL / MTS / GD) | Almost always standalone: arrange 4–6 words, choose the correct sequence. Easy to moderate. SSC favours words sharing the first two or three letters. |
+| Banking (IBPS PO/Clerk, SBI) | Rarely standalone. Usually a sub-part of an "Order & Ranking" or alphabet set: arrange first, then answer a position question. Moderate. |
+| Railway (RRB NTPC / Group D) | Standalone, easy, standard A–Z arrangement. |
+| State exams (Police / Constable / Forest Guard / State SSC) | Standalone, easy, standard A–Z arrangement. |
 
-Below are 10 questions that have appeared repeatedly with minor variations. Each is tagged with the examiner's psychological hook and the time rule (15-sec or 45-sec).
+## 4. Ten PYQ-Style Questions with Solutions & Psychological Traps
 
-Q1. SSC CGL 2023 (19 July, Shift-1)
+The ten questions below reproduce the exact patterns examiners use. A question carries a specific exam/shift tag only when it has been verified from an official paper or answer key; otherwise it is marked **PYQ-style** — the pattern is real, the wording is reconstructed. Each question is tagged with the examiner's psychological hook and the applicable time rule (15-sec / 45-sec / 60-sec).
+
+**Q1. Six words, one first letter — the second-letter split (SSC pattern, PYQ-style)**
 
 Question: Select the correct dictionary order:
-
-Variance, 2. Violence, 3. Vanquish, 4. Vampire, 5. Valiant, 6. Victorious
+1. Variance  2. Violence  3. Vanquish  4. Vampire  5. Valiant  6. Victorious
 
 Solution:
-All start with 'V'. Second letter: all 'a'. Third letter:
+All six words start with 'V'. Second letter:
+- Variance → a
+- Vanquish → a
+- Vampire → a
+- Valiant → a
+- Violence → i
+- Victorious → i
 
-Valiant → l
+'a' < 'i', so the four 'Va-' words come first and the two 'Vi-' words come last.
 
-Vampire → m
+Among the 'Va-' words, third letter: Valiant → l, Vampire → m, Vanquish → n, Variance → r. Since l < m < n < r: Valiant (5), Vampire (4), Vanquish (3), Variance (1).
 
-Vanquish → n
+Among the 'Vi-' words, third letter: Victorious → c, Violence → o. Since c < o: Victorious (6) before Violence (2).
 
-Variance → r
+Final order: Valiant (5), Vampire (4), Vanquish (3), Variance (1), Victorious (6), Violence (2).
+Answer: 5, 4, 3, 1, 6, 2.
 
-Victorious → i
+🧠 Psychological Hook: Second-letter split. Four words begin 'Va-' but two begin 'Vi-'. A student who assumes all six share the same second letter and jumps straight to the third letter builds the whole order on a false base. And inside the 'Vi-' pair, the third letter decides: c < o, so Victorious comes before Violence — the opposite of what word familiarity whispers to many candidates.
 
-Violence → i
+⏱️ Time Rule: 45-sec rule — six words with overlapping prefixes need careful letter-by-letter comparison.
 
-Alphabetical order of third letters: i < l < m < n < r.
-But Victorious vs Violence: fourth letter 'c' < 't' → Violence before Victorious.
+Source: PYQ-style
 
-Final Order: Valiant (5), Vampire (4), Vanquish (3), Variance (1), Violence (2), Victorious (6).
-Answer: 5, 4, 3, 1, 2, 6.
-
-🧠 Psychological Hook: Third-letter trap. Students often jump from the second letter ('a') directly to the fourth or fifth letter, missing that Victorious/Violence share 'i' as the third letter. The examiner embeds two words with the same third letter to test patience.
-
-⏱️ Time Rule: 45-sec rule — 6 words with overlapping prefixes require careful letter-by-letter comparison.
-
-Q2. SSC CGL 2022 (01 Dec, Shift-4)
+**Q2. Seven words, deep prefix (SSC pattern, PYQ-style)**
 
 Question: Dictionary order of:
-
-Inundate, 2. Invidious, 3. Individual, 4. Inveterate, 5. Invective, 6. Invincible, 7. Inviolable
+1. Inundate  2. Invidious  3. Individual  4. Inveterate  5. Invective  6. Invincible  7. Inviolable
 
 Solution:
-All start 'In'. Third letter:
+All seven start with 'In'. Third letter:
+- Individual → d
+- Inundate → u
+- Invidious → v
+- Inveterate → v
+- Invective → v
+- Invincible → v
+- Inviolable → v
 
-Individual → d
+d < u < v → Individual (3) first, Inundate (1) second, then the five 'Inv-' words.
 
-Inundate → u
+Among the five 'Inv-' words, fourth letter:
+- Invective → e
+- Inveterate → e
+- Invidious → i
+- Invincible → i
+- Inviolable → i
 
-Invidious → v
+e < i → Invective and Inveterate come before Invidious, Invincible and Inviolable.
 
-Inveterate → v
+Invective vs Inveterate (fifth letter): c < t → Invective (5), Inveterate (4).
 
-Invective → v
+Invidious vs Invincible vs Inviolable (fifth letter): d < n < o → Invidious (2), Invincible (6), Inviolable (7).
 
-Invincible → v
+Final order: Individual (3), Inundate (1), Invective (5), Inveterate (4), Invidious (2), Invincible (6), Inviolable (7).
+Answer: 3, 1, 5, 4, 2, 6, 7.
 
-Inviolable → v
+🧠 Psychological Hook: Homogeneous prefix illusion. Seven words starting "In…" tempt the brain to skim. The third letter splits them into three clean groups (d, u, v); the fourth letter splits the 'Inv-' block into 'e' and 'i' groups. Note carefully: Invincible takes 'i' at the fourth position (I-n-v-i…), not 'e' — candidates who misread it as "Inve…" place it one slot too early. Missing any one grouping leads to total chaos.
 
-'d' < 'u' < 'v'. So Individual first, then Inundate.
-Among the 5 'v' words, fourth letter: all 'e' except Inviolable ('i') and Invidious ('i').
-'e' < 'i'. So Invective, Inveterate, Invincible come before Invidious, Inviolable.
-Now compare fifth letters within each group.
+⏱️ Time Rule: 45-sec rule — seven words, layered grouping. If 45 seconds pass without clarity, skip and mark for review.
 
-Final Order: Individual (3), Inundate (1), Invective (5), Inveterate (4), Invincible (6), Invidious (2), Inviolable (7).
-Answer: 3, 1, 5, 4, 6, 2, 7.
+Source: PYQ-style
 
-🧠 Psychological Hook: Homogeneous prefix illusion. Seven words starting "In..." — the brain wants to skim. But the third letter splits them into three distinct groups (d, u, v). Missing this grouping leads to total chaos.
-
-⏱️ Time Rule: 45-sec rule — 7 words, complex grouping. If 45 seconds pass without clarity, SKIP.
-
-Q3. SSC CGL 2023 (20 July, Shift-1)
+**Q3. Same first three letters, hidden double letter (SSC pattern, PYQ-style)**
 
 Question: Correct dictionary order:
-
-Dissolve, 2. Display, 3. Distance, 4. Disturb, 5. Displace, 6. Dispute
+1. Dissolve  2. Display  3. Distance  4. Disturb  5. Displace  6. Dispute
 
 Solution:
-All start 'Dis'. Third letter: all 's'. Fourth letter:
+All six start with 'Dis'. Fourth letter:
+- Displace → p
+- Display → p
+- Dispute → p
+- Dissolve → s
+- Distance → t
+- Disturb → t
 
-Displace → p
+p < s < t.
 
-Display → p
+Among the three 'p' words, fifth letter:
+- Displace → l
+- Display → l
+- Dispute → u
 
-Dispute → p
+l < u → Dispute (6) comes last of the three.
 
-Dissolve → s
+Displace vs Display: both share 'D-i-s-p-l-a-' — the tie survives six full letters. It breaks only at the seventh letter: c < y → Displace (5) before Display (2).
 
-Distance → t
+Among the 't' words, fifth letter: Distance → a, Disturb → u. a < u → Distance (3) before Disturb (4).
 
-Disturb → t
-
-'p' < 's' < 't'. Among the three 'p' words, fifth letter: Displace ('l'), Display ('l'), Dispute ('u'). 'l' < 'u'.
-Displace vs Display: sixth letter 'a' < 't', so Displace before Display.
-Among 't' words: Distance ('a'), Disturb ('u'). 'a' < 'u'.
-
-Final Order: Displace (5), Display (2), Dispute (6), Dissolve (1), Distance (3), Disturb (4).
+Final order: Displace (5), Display (2), Dispute (6), Dissolve (1), Distance (3), Disturb (4).
 Answer: 5, 2, 6, 1, 3, 4.
 
-🧠 Psychological Hook: Hidden 's' fourth-letter trap. All words begin "Dis...", but the fourth letter is either 'p', 's', or 't'. The brain pattern-matches "Dissolve" as similar to "Display" and may group them incorrectly. The fourth letter 's' in Dissolve is the decoy.
+🧠 Psychological Hook: Hidden 's' and the six-letter tie. All words begin "Dis…", but the fourth letter is p, s or t — the double 's' in Dissolve is the decoy students miss. Worse, Displace and Display stay tied through six full letters ("Displa-") and separate only at the seventh (c < y). Anyone who stops comparing at the fourth or fifth letter gets this pair wrong.
 
-⏱️ Time Rule: 15-sec rule — once you identify the three fourth-letter groups, arrangement is fast.
+⏱️ Time Rule: 15-sec rule — once the three fourth-letter groups are visible, the arrangement falls quickly; only the Displace/Display pair needs one extra beat.
 
-Q4. SSC CGL 2020 (3 March, Shift-3)
+Source: PYQ-style
+
+**Q4. Unfamiliar vocabulary (SSC pattern, PYQ-style)**
 
 Question: Which word comes third in dictionary order?
-
-Isomer, 2. Isoline, 3. Isotope, 4. Isolate, 5. Isologs, 6. Isonomy
+1. Isomer  2. Isoline  3. Isotope  4. Isolate  5. Isologs  6. Isonomy
 
 Solution:
-All start 'Iso'. Fourth letter:
+All six start with 'Iso'. Fourth letter:
+- Isolate → l
+- Isologs → l
+- Isoline → l
+- Isomer → m
+- Isonomy → n
+- Isotope → t
 
-Isolate → l
+l < m < n < t.
 
-Isologs → l
+Among the 'l' words, fifth letter:
+- Isolate → a
+- Isoline → i
+- Isologs → o
 
-Isoline → l
+a < i < o → Isolate (4), Isoline (2), Isologs (5).
 
-Isomer → m
-
-Isonomy → n
-
-Isotope → t
-
-Among 'l' words, fifth letter: Isolate ('a'), Isologs ('o'), Isoline ('i'). Order: a < i < o.
-
-Dictionary Order: Isolate (4), Isoline (2), Isologs (5), Isomer (1), Isonomy (6), Isotope (3).
+Dictionary order: Isolate (4), Isoline (2), Isologs (5), Isomer (1), Isonomy (6), Isotope (3).
 Third word: Isologs.
 
-🧠 Psychological Hook: "Isologs" is an unfamiliar word. The examiner uses rare vocabulary to force you to rely on letter-by-letter comparison rather than "word familiarity." Students who try to guess based on "which word looks familiar" fail.
+🧠 Psychological Hook: Rare-word force. "Isologs" and "Isonomy" are unfamiliar to most candidates. The examiner uses rare vocabulary on purpose — it forces letter-by-letter comparison and punishes anyone who arranges words by "which one looks familiar". In dictionary order, only the alphabet matters, never meaning.
 
-⏱️ Time Rule: 45-sec rule — unfamiliar words require deliberate comparison.
+⏱️ Time Rule: 45-sec rule — unfamiliar words demand deliberate comparison; do not rush just because the prefix is shared.
 
-Q5. SSC CGL 2022 (02 Dec, Shift-1)
+Source: PYQ-style
+
+**Q5. Double letters and vowel confusion (SSC pattern, PYQ-style)**
 
 Question: Dictionary order:
-
-Laudanum, 2. Lattice, 3. Laudation, 4. Latterly, 5. Laudable
+1. Laudanum  2. Lattice  3. Laudation  4. Latterly  5. Laudable
 
 Solution:
-All start 'La'. Third letter:
+All five start with 'La'. Third letter:
+- Lattice → t
+- Latterly → t
+- Laudanum → u
+- Laudation → u
+- Laudable → u
 
-Lattice → t
+t < u → the two 'Lat-' words come before the three 'Lau-' words.
 
-Latterly → t
+Lattice vs Latterly: both share 'L-a-t-t-'. Fifth letter: Lattice → i, Latterly → e. e < i → Latterly (4) before Lattice (2).
 
-Laudanum → u
+Among the 'Lau-' words: all share 'L-a-u-d-a-'. Sixth letter:
+- Laudable → b
+- Laudanum → n
+- Laudation → t
 
-Laudation → u
+b < n < t → Laudable (5), Laudanum (1), Laudation (3).
 
-Laudable → u
-
-'t' < 'u'. So Lattice and Latterly before the three 'Lau' words.
-Lattice vs Latterly: fourth letter 't' vs 't', fifth letter 'i' < 'e'? No — Lattice has 'i' (fifth), Latterly has 'e' (fifth). 'e' < 'i', so Latterly before Lattice.
-Among 'Lau' words: Laudable ('d'), Laudanum ('d'), Laudation ('d'). Fifth letter: 'a', 'a', 'a'. Sixth: Laudable ('b'), Laudanum ('n'), Laudation ('t'). Order: b < n < t.
-
-Final Order: Latterly (4), Lattice (2), Laudable (5), Laudanum (1), Laudation (3).
+Final order: Latterly (4), Lattice (2), Laudable (5), Laudanum (1), Laudation (3).
 Answer: 4, 2, 5, 1, 3.
 
-🧠 Psychological Hook: Double-letter and vowel confusion. "Lattice" and "Latterly" share "Latt..." but diverge at the fifth letter. Students often stop at the fourth letter, seeing both 't's and assuming they're tied.
+🧠 Psychological Hook: Double-letter and vowel confusion. "Lattice" and "Latterly" share "Latt…" but split at the fifth letter (e < i). Students who stop at the fourth letter, see two 't's and assume a tie, get the pair wrong. Similarly, the three 'Lau-' words look identical until the sixth letter.
 
 ⏱️ Time Rule: 45-sec rule.
 
-Q6. SSC GD 2023 (01 Feb, Shift-3)
+Source: PYQ-style
+
+**Q6. Easy words, rushed decisions (SSC GD / Railway pattern, PYQ-style)**
 
 Question: Dictionary order:
-
-riddle, 2. river, 3. rightful, 4. ring, 5. risk
+1. riddle  2. river  3. rightful  4. ring  5. risk
 
 Solution:
-All start 'ri'. Third letter:
+All five start with 'ri'. Third letter:
+- riddle → d
+- rightful → g
+- ring → n
+- risk → s
+- river → v
 
-riddle → d
+d < g < n < s < v.
 
-rightful → g
-
-ring → n
-
-risk → s
-
-river → v
-
-Alphabetical: d < g < n < s < v.
-
-Final Order: riddle (1), rightful (3), ring (4), risk (5), river (2).
+Final order: riddle (1), rightful (3), ring (4), risk (5), river (2).
 Answer: 1, 3, 4, 5, 2.
 
-🧠 Psychological Hook: Easy words, rushed decisions. The simplicity of these words tempts students to arrange them by "feel." River feels like it should come before riddle — but 'v' > 'd'. This is the "familiarity overrides logic" trap.
+🧠 Psychological Hook: Familiarity overrides logic. The simplicity of these everyday words tempts students to arrange them by "feel". "River" feels like it should come early — but v is the last of the five third letters, so it comes last. Never let word familiarity outvote the alphabet.
 
-⏱️ Time Rule: 15-sec rule — all diverge cleanly at the third letter.
+⏱️ Time Rule: 15-sec rule — all five words diverge cleanly at the third letter.
 
-Q7. SSC CGL 2022 (05 Dec, Shift-3)
+Source: PYQ-style
+
+**Q7. Working-memory overload (SSC pattern, PYQ-style)**
 
 Question: Dictionary order:
-
-Humility, 2. Humbug, 3. Humanoid, 4. Humidity, 5. Humoresque, 6. Humanity, 7. Humectants
+1. Humility  2. Humbug  3. Humanoid  4. Humidity  5. Humoresque  6. Humanity  7. Humectants
 
 Solution:
-All start 'Hum'. Fourth letter:
+All seven start with 'Hum'. Fourth letter:
+- Humanity → a
+- Humanoid → a
+- Humbug → b
+- Humectants → e
+- Humidity → i
+- Humility → i
+- Humoresque → o
 
-Humanoid → a
+a < b < e < i < o.
 
-Humanity → a
+Humanity vs Humanoid: both share 'H-u-m-a-n-'. Sixth letter: Humanity → i, Humanoid → o. i < o → Humanity (6) before Humanoid (3).
 
-Humbug → b
+Humidity vs Humility (fifth letter): d < l → Humidity (4) before Humility (1).
 
-Humectants → e
-
-Humidity → i
-
-Humility → i
-
-Humoresque → o
-
-Order of fourth letters: a < b < e < i < o.
-Among 'a': Humanoid ('n') vs Humanity ('n'). Fifth letter: 'o' < 'a'? Wait, Humanoid (a-n-o), Humanity (a-n-i). Fifth: 'i' < 'o' → Humanity before Humanoid.
-Among 'i': Humidity ('d'), Humility ('l'). 'd' < 'l'.
-
-Final Order: Humanity (6), Humanoid (3), Humbug (2), Humectants (7), Humidity (4), Humility (1), Humoresque (5).
+Final order: Humanity (6), Humanoid (3), Humbug (2), Humectants (7), Humidity (4), Humility (1), Humoresque (5).
 Answer: 6, 3, 2, 7, 4, 1, 5.
 
-🧠 Psychological Hook: Deep-prefix quagmire. 7 words sharing "Hum..." — the exam deliberately overloads working memory. Without systematic grouping by the fourth letter, you drown.
+🧠 Psychological Hook: Deep-prefix quagmire. Seven words sharing "Hum…" deliberately overload working memory. Without systematic grouping by the fourth letter, you drown. Write the group letters on your rough sheet instead of holding them in your head.
 
-⏱️ Time Rule: SKIP if 60 seconds elapse. This is a classic time-sink question.
+⏱️ Time Rule: Skip if 60 seconds elapse. This is a classic time-sink question — mark it and return later.
 
-Q8. Banking (SBI Clerk 2012 pattern, reused in IBPS 2022)
+Source: PYQ-style
+
+**Q8. Banking twist — position after arrangement (Banking pattern, PYQ-style)**
 
 Question: Arrange in dictionary order and find which word is second from the right:
 ARK, MET, MOB, SKI, URN
 
 Solution:
 First letters: A (ARK), M (MET, MOB), S (SKI), U (URN).
-M words: MET vs MOB → second letter 'E' < 'O' → MET before MOB.
+Among the M words: MET vs MOB → second letter E < O → MET before MOB.
 
-Dictionary Order: ARK, MET, MOB, SKI, URN.
-Second from right: SKI.
+Dictionary order: ARK, MET, MOB, SKI, URN.
+Second from the right: SKI.
 
-🧠 Psychological Hook: "Order & Ranking" twist. The dictionary arrangement itself is easy (15-sec rule), but the question asks for a position in the arranged list. Many students arrange correctly but then miscount "second from right" vs "second from left."
+🧠 Psychological Hook: "Order & Ranking" twist. The arrangement itself is easy (15-sec rule), but the question asks for a position in the arranged list. Many candidates arrange correctly and then miscount "second from the right" as "second from the left". Always re-read which position is demanded, and count from the end that is named.
 
-⏱️ Time Rule: 15-sec rule for arrangement; add 5 seconds to verify position. Total: 20 sec max.
+⏱️ Time Rule: 15-sec rule for the arrangement; add 5 seconds to verify the position. Total: about 20 seconds.
 
-Q9. SSC CGL 2022 (07 Dec, Shift-3)
+Source: PYQ-style
+
+**Q9. Early split that skimmers miss (SSC pattern, PYQ-style)**
 
 Question: Dictionary order:
-
-Effluent, 2. Edifice, 3. Effleurage, 4. Edacious, 5. Effeminate, 6. Eccentric, 7. Effulgent
+1. Effluent  2. Edifice  3. Effleurage  4. Edacious  5. Effeminate  6. Eccentric  7. Effulgent
 
 Solution:
-First letter: all 'E'. Second letter:
+All seven start with 'E'. Second letter:
+- Eccentric → c
+- Edacious → d
+- Edifice → d
+- Effeminate → f
+- Effleurage → f
+- Effluent → f
+- Effulgent → f
 
-Eccentric → c
+c < d < f → Eccentric (6) first.
 
-Edifice → d
+Among the 'd' words (third letter): Edacious → a, Edifice → i. a < i → Edacious (4) before Edifice (2).
 
-Edacious → d
+Among the 'f' words: all share 'E-f-f-'. Fourth letter:
+- Effeminate → e
+- Effleurage → l
+- Effluent → l
+- Effulgent → u
 
-Effluent → f
+e < l < u → Effeminate (5) first, Effulgent (7) last.
 
-Effleurage → f
+Effleurage vs Effluent (fifth letter): e < u → Effleurage (3) before Effluent (1).
 
-Effeminate → f
-
-Effulgent → f
-
-'c' < 'd' < 'f'. So Eccentric first.
-Among 'd': Edacious ('a') < Edifice ('i').
-Among 'f' words, third letter all 'f'. Fourth:
-
-Effeminate → e
-
-Effleurage → l
-
-Effluent → l
-
-Effulgent → u
-
-'e' < 'l' < 'u'. Effeminate first among 'f's.
-Effleurage vs Effluent: fifth letter 'e' < 'u' → Effleurage before Effluent.
-
-Final Order: Eccentric (6), Edacious (4), Edifice (2), Effeminate (5), Effleurage (3), Effluent (1), Effulgent (7).
+Final order: Eccentric (6), Edacious (4), Edifice (2), Effeminate (5), Effleurage (3), Effluent (1), Effulgent (7).
 Answer: 6, 4, 2, 5, 3, 1, 7.
 
-🧠 Psychological Hook: Scattered second letters. Unlike most PYQs where the first 2-3 letters are identical, here the second letter splits the list immediately (c, d, f). Students in "deep-prefix mode" may overthink and miss this early split.
+🧠 Psychological Hook: Scattered second letters. Unlike most questions where the first two or three letters are identical, here the second letter splits the list immediately (c, d, f). Students stuck in "deep-prefix mode" overthink and start comparing fourth letters on words that differ at the second. Always check how deep the shared prefix actually goes before diving deep.
 
-⏱️ Time Rule: 45-sec rule — despite early split, 7 words still require systematic work.
+⏱️ Time Rule: 45-sec rule — despite the early split, seven words still need systematic work.
 
-Q10. SSC GD Mini Mock 2024
+Source: PYQ-style
+
+**Q10. Familiar-word decoy (SSC GD pattern, PYQ-style)**
 
 Question: Dictionary order:
-Priceless, Prison, Pristine, Priority, Prejudice
+1. Priceless  2. Prison  3. Pristine  4. Priority  5. Prejudice
 
 Solution:
-All start 'Pr'. Third letter:
+All five start with 'Pr'. Third letter:
+- Prejudice → e
+- Priceless → i
+- Prison → i
+- Pristine → i
+- Priority → i
 
-Prejudice → e
+e < i → Prejudice (5) first.
 
-Priceless → i
+Among the 'i' words, fourth letter:
+- Priceless → c
+- Priority → o
+- Prison → s
+- Pristine → s
 
-Prison → i
+c < o < s → Priceless (1) next, then Priority (4), then the two 's' words.
 
-Pristine → i
+Prison vs Pristine (fifth letter): o < t → Prison (2) before Pristine (3).
 
-Priority → i
+Final order: Prejudice (5), Priceless (1), Priority (4), Prison (2), Pristine (3).
+Answer: 5, 1, 4, 2, 3.
 
-'e' < 'i'. So Prejudice first.
-Among 'i' words, fourth letter:
+🧠 Psychological Hook: "Prejudice" as decoy. The brain sees "Pre-" and files it next to "Pri-" as similar. But e < i is a hard alphabetical fact, so Prejudice comes first. Familiarity with a word can override logic only if you let it — the alphabet does not negotiate.
 
-Priceless → c
+⏱️ Time Rule: 15-sec rule — clean split at the third letter, then the fourth.
 
-Priority → o
+Source: PYQ-style
 
-Prison → s
-
-Pristine → s
-
-'c' < 'o' < 's'. So Priceless next.
-Priority (o) third.
-Prison vs Pristine: fifth letter 's' < 't' → Prison before Pristine.
-
-Final Order: Prejudice, Priceless, Priority, Prison, Pristine.
-Answer: 5, 1, 4, 3, 2.
-
-🧠 Psychological Hook: "Prejudice" as a decoy. The brain sees "Pre-" and wants to group it with "Pri-" as similar. But 'e' < 'i' is a hard alphabetical fact. The emotional familiarity of the word "Prejudice" can override logic.
-
-⏱️ Time Rule: 15-sec rule — clean split at third letter, then fourth.
-
-5. Summary: Which Questions to Skip?
+## 5. Summary: Which Questions to Skip?
 
 Based on the 15-sec / 45-sec / 60-sec rules established in the chapter:
 
-Question Type	Time Rule	Skip?
-First letters all different	15-sec	Never skip — instant solve
-2-3 shared starting letters, ≤5 words	45-sec	Skip only if >45 sec without clarity
-5+ words, deep overlapping prefixes (e.g., Humility set)	60-sec	Yes, skip after 60 sec — mark for review
-7+ words (e.g., Effluent set)	60-sec	Yes, skip after 60 sec
-Reverse dictionary order	45-sec	Skip if the forward order itself took >30 sec
-Position-based ("which is third?")	45-sec	Do not skip — these are often easy after arrangement
+| Question type | Time rule | Skip? |
+|---|---|---|
+| First letters all different | 15-sec | Never skip — instant solve |
+| 2–3 shared starting letters, ≤ 5 words | 45-sec | Skip only if 45 sec pass without clarity |
+| 5+ words with deep overlapping prefixes (e.g., the Humility set) | 60-sec | Yes — mark for review and move on |
+| 7+ words (e.g., the Effluent set) | 60-sec | Yes — mark for review |
+| Reverse dictionary order | 45-sec | Skip if the forward order itself took more than 30 sec |
+| Position-based ("which is third?") | 45-sec | Do not skip — easy once arranged |
 
-Golden Rule for Exam Hall: If a Dictionary Order question has more than 5 words with 3+ shared starting letters, it is statistically a time-sink. Over 10 years of PYQ data, these "deep-prefix" questions consume 3-4x the time of standard questions with only marginally higher difficulty. Mark, move on, and return only if time permits.
+Golden Rule for the Exam Hall: If a Dictionary Order question has more than five words with three or more shared starting letters, it will usually take far longer than a standard question while carrying the same single mark. Mark it, move on, and return only if time permits.
 
-📅 Review This Analysis After 2 Days
+📅 Revision Nudge
 
-When you revisit, test yourself: Can you recall the 4 psychological hooks without looking? Can you explain when to apply the 15-sec vs 45-sec rule? This meta-awareness is what separates toppers from the rest.
+Revisit this analysis after two days. Test yourself: Can you recall the ten psychological hooks without looking? Can you explain when to apply the 15-sec rule versus the 45-sec rule, and which question types deserve the 60-sec skip? This meta-awareness — knowing not just the method but the traps — is what separates toppers from the rest.

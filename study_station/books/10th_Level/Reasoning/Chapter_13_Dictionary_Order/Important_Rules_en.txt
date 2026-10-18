@@ -6,7 +6,7 @@ Rule/Approach Name	Description	Example
 3. Shortest Word First (Subset Rule)	If a word is completely contained as the starting part of a longer word, the shorter word always comes first.	Arm vs Army: First three letters identical, then Arm ends → Arm comes first.
 4. Ignore Hyphens and Spaces	Treat hyphenated words and words with spaces as single continuous strings by removing the hyphen/space.	X-ray → Xray; Post office → Postoffice
 5. Case Insensitivity	Capital letters and small letters are considered identical in dictionary order.	Apple = apple; Ball = ball
-6. Double Letters are Single Entities	Each occurrence of a letter, even if repeated, must be compared individually. A double letter does not give priority.	Butter (t,t) vs Button (t,t): fifth letter e < o, Butter comes first.
+6. Double Letters Count Twice	Each occurrence of a letter, even if repeated, must be compared individually. A double letter does not give priority.	Butter (t,t) vs Button (t,t): fifth letter e < o, Butter comes first.
 
 Time Management
 
