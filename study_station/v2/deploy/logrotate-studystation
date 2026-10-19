@@ -1,6 +1,7 @@
 # /etc/logrotate.d/studystation-oauth-errors
 /var/log/studystation-nginx-errors.log {
     daily
+    su syslog adm
     rotate 14
     missingok
     notifempty
