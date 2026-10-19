@@ -52,3 +52,16 @@ def ensure_schema(engine_=None):
                 if col.name not in have:
                     ddl = col.type.compile(dialect=eng.dialect)
                     conn.execute(text(f'ALTER TABLE {table.name} ADD COLUMN {col.name} {ddl}'))
+
+        # Only accounts present during migration can adopt their legacy local scope.
+        if 'classroom_account' in Base.metadata.tables:
+            import secrets
+            rows = conn.execute(text('SELECT id FROM classroom_account WHERE storage_namespace IS NULL')).all()
+            for (account_id,) in rows:
+                conn.execute(text('UPDATE classroom_account SET storage_namespace=:namespace, legacy_workspace_scope=:legacy WHERE id=:id AND storage_namespace IS NULL'),
+                             dict(namespace=secrets.token_hex(24), legacy=True, id=account_id))
+            # Preserve the old high-water mark before any account can be deleted.
+            highest = conn.execute(text('SELECT MAX(id) FROM classroom_account')).scalar() or 0
+            reserved = conn.execute(text('SELECT MAX(id) FROM classroom_account_identity')).scalar() or 0
+            if highest > reserved:
+                conn.execute(text('INSERT INTO classroom_account_identity (id) VALUES (:id)'), dict(id=highest))

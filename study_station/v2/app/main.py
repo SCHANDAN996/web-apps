@@ -25,6 +25,8 @@ from .i18n import client_strings, t
 from .models import Attempt, Device, Exam, ExamSection, Job, Question, QuestionReport, ReviewCard, Subject, Topic
 
 from .classroom import router as classroom_router
+from .google_auth import router as google_auth_router
+from .account_deletion import router as account_deletion_router
 
 APP_DIR = Path(__file__).resolve().parent
 
@@ -847,6 +849,8 @@ from .shared_questions import install_routes as install_shared_questions  # noqa
 install_shared_questions(app, render, get_db, lang_from_request)
 
 app.include_router(classroom_router)
+app.include_router(google_auth_router)
+app.include_router(account_deletion_router)
 
 @app.get("/classroom", response_class=HTMLResponse)
 @app.get("/w/{share_token}", response_class=HTMLResponse)
@@ -863,4 +867,16 @@ async def classroom_private_cache(request: Request, call_next):
     if request.url.path.startswith('/api/v1/classroom'):
         response.headers['Cache-Control'] = 'no-store'
         response.headers['Vary'] = 'Cookie'
+    return response
+
+
+@app.get('/privacy', response_class=HTMLResponse)
+def page_privacy(request: Request, device: Device | None = Depends(current_device)):
+    return render('privacy.html', request, device)
+
+@app.get('/delete-account', response_class=HTMLResponse)
+def page_account_deletion(request: Request, device: Device | None = Depends(current_device)):
+    response = render('delete_account.html', request, device)
+    response.headers['Cache-Control'] = 'no-store'
+    response.headers['X-Robots-Tag'] = 'noindex, nofollow'
     return response

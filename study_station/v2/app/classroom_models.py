@@ -1,12 +1,21 @@
 """Additive account/classroom storage. Private guest progress is deliberately separate."""
+import secrets
 from datetime import datetime
-from sqlalchemy import String, Text, Integer, JSON, DateTime, UniqueConstraint, ForeignKey
+from sqlalchemy import String, Text, Integer, JSON, DateTime, UniqueConstraint, ForeignKey, Boolean, event, select, func, insert
 from sqlalchemy.orm import Mapped, mapped_column
 from .db import Base
+
+class ClassroomAccountIdentity(Base):
+    """Permanent allocator: retained after deletion so account IDs never recycle."""
+    __tablename__ = 'classroom_account_identity'
+    __table_args__ = {'sqlite_autoincrement': True}
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
 
 class ClassroomAccount(Base):
     __tablename__ = 'classroom_account'
     id: Mapped[int] = mapped_column(primary_key=True)
+    storage_namespace: Mapped[str | None] = mapped_column(String(64), default=lambda: secrets.token_hex(24))
+    legacy_workspace_scope: Mapped[bool | None] = mapped_column(Boolean, default=False)
     username: Mapped[str] = mapped_column(String(40), unique=True)
     name: Mapped[str] = mapped_column(String(80))
     password: Mapped[str] = mapped_column(Text)
@@ -61,3 +70,12 @@ class ClassroomRate(Base):
     key: Mapped[str] = mapped_column(String(100), primary_key=True)
     count: Mapped[int] = mapped_column(Integer, default=0)
     expires: Mapped[datetime] = mapped_column(DateTime)
+
+
+@event.listens_for(ClassroomAccount, 'before_insert')
+def _allocate_account_identity(mapper, connection, target):
+    highest = connection.scalar(select(func.max(ClassroomAccount.id))) or 0
+    reserved = connection.scalar(select(func.max(ClassroomAccountIdentity.id))) or 0
+    number = max(highest, reserved, target.id or 0) + 1
+    connection.execute(insert(ClassroomAccountIdentity).values(id=number))
+    target.id = number

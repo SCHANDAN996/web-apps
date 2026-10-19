@@ -1,4 +1,5 @@
 import java.security.MessageDigest
+import java.net.URI
 import java.util.Properties
 
 plugins {
@@ -29,6 +30,16 @@ fun setting(name: String, default: String) =
 
 val debugUrl = setting("ss.debugUrl", "http://10.0.2.2:8000")      // emulator's name for this PC
 val releaseUrl = setting("ss.releaseUrl", "")
+val googleWebClientId = setting("ss.googleWebClientId", "")
+require(googleWebClientId.isEmpty() || Regex("[A-Za-z0-9_-]+\\.apps\\.googleusercontent\\.com").matches(googleWebClientId)) { "Invalid ss.googleWebClientId" }
+// Signing material lives outside the checkout; only its path is configured locally.
+val signingFile = setting("ss.signingProperties", "")
+val uploadSigning = Properties().apply {
+    if (signingFile.isNotEmpty()) file(signingFile).inputStream().use { load(it) }
+}
+val releaseVersionCode = setting("ss.versionCode", "3").toInt()
+val releaseVersionName = setting("ss.versionName", "1.2.0")
+require(releaseVersionCode > 2 && Regex("[0-9]+\\.[0-9]+\\.[0-9]+").matches(releaseVersionName)) { "Use an increasing release version" }
 
 android {
     namespace = "com.studystation.app"
@@ -38,10 +49,21 @@ android {
         applicationId = "com.studystation.app"
         minSdk = 26
         targetSdk = 36
-        versionCode = 2
-        versionName = "1.1.0"
+        versionCode = releaseVersionCode
+        versionName = releaseVersionName
         buildConfigField("String", "ASSET_V", "\"${assetVersion()}\"")
+        buildConfigField("String", "GOOGLE_WEB_CLIENT_ID", "\"$googleWebClientId\"")
         buildConfigField("boolean", "GOOGLE_DRIVE_ENABLED", setting("ss.googleDriveEnabled", "false").toBooleanStrict().toString())
+    }
+
+    signingConfigs {
+        if (signingFile.isNotEmpty()) create("upload") {
+            storeFile = file(requireNotNull(uploadSigning.getProperty("storeFile")))
+            storeType = uploadSigning.getProperty("storeType", "PKCS12")
+            storePassword = requireNotNull(uploadSigning.getProperty("storePassword"))
+            keyAlias = requireNotNull(uploadSigning.getProperty("keyAlias"))
+            keyPassword = requireNotNull(uploadSigning.getProperty("keyPassword"))
+        }
     }
 
     buildTypes {
@@ -51,6 +73,7 @@ android {
             manifestPlaceholders["cleartext"] = "true"       // local test server is plain http
         }
         release {
+            if (signingFile.isNotEmpty()) signingConfig = signingConfigs.getByName("upload")
             isMinifyEnabled = true
             isShrinkResources = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"))
@@ -74,12 +97,18 @@ android {
 dependencies {
     implementation("androidx.webkit:webkit:1.14.0")
     implementation("com.google.android.gms:play-services-auth:22.0.0")
+    implementation("androidx.credentials:credentials:1.6.0")
+    implementation("androidx.credentials:credentials-play-services-auth:1.6.0")
+    implementation("com.google.android.libraries.identity.googleid:googleid:1.1.1")
     testImplementation("junit:junit:4.13.2")
 }
 
 tasks.matching { it.name == "preReleaseBuild" }.configureEach {
     doFirst {
-        check(releaseUrl.startsWith("https://")) {
+        check(signingFile.isNotEmpty() && uploadSigning.getProperty("storeFile")?.let { file(it).isFile } == true) {
+            "Configure ss.signingProperties with an external upload keystore before a release build."
+        }
+        check(runCatching { URI(releaseUrl).let { it.scheme == "https" && it.host != null && it.userInfo == null && it.query == null && it.fragment == null && (it.path.isNullOrEmpty() || it.path == "/") } }.getOrDefault(false)) {
             "Set ss.releaseUrl=https://<your server> in local.properties (release builds are HTTPS only)."
         }
     }

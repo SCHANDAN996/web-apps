@@ -4,8 +4,10 @@
   var scopeRequest=null;
   window.SSWorkspaceEnsure=function(){if(!scopeRequest)scopeRequest=fetch('/api/v1/classroom/me',{credentials:'same-origin',cache:'no-store'}).then(function(r){if(!r.ok)throw Error('auth');return r.json();}).then(function(d){scopeAccount=d.account||null;}).catch(function(){scopeAccount=null;});return scopeRequest;};
   window.SSWorkspaceReady=Promise.resolve();
+  window.SSWorkspaceForgetAccount=function(){scopeAccount=null;scopeRequest=null;};
 
-  window.SSWorkspaceScope = function () { return scopeAccount ? 'account:' + scopeAccount.id : 'guest'; };
+  window.SSWorkspaceScope = function () { return scopeAccount && /^[a-f0-9]{48}$/.test(scopeAccount.storage_namespace||'') ? 'account:' + scopeAccount.storage_namespace : (scopeAccount ? 'locked' : 'guest'); };
+  window.SSWorkspaceLegacyScope = function () { return scopeAccount && scopeAccount.legacy_workspace_scope && /^[a-f0-9]{48}$/.test(scopeAccount.storage_namespace||'') ? 'account:' + scopeAccount.id : null; };
   function init() {
     var root = document.getElementById('classroomHub');
     if (!root || root.dataset.ready) return;
@@ -13,7 +15,8 @@
     if (active) active();
     var alive = true, timer = null, account = null, boot = JSON.parse(document.getElementById('ss-boot').textContent), words = boot.t || {};
     function t(k) { return words['classroom_' + k] || k; }
-    function stop() { alive = false; clearTimeout(timer); }
+    function stop() { alive = false; clearTimeout(timer); window.removeEventListener('ss-google-auth-ready', googleReady); }
+    var googleReady = function () {};
     active = stop;
     if (window.SS && SS.onLeave) SS.onLeave(stop);
     function node(tag, text, cls) { var e = document.createElement(tag); if (text != null) e.textContent = text; if (cls) e.className = cls; return e; }
@@ -33,6 +36,34 @@
     function sharedToken() { var m = location.pathname.match(/^\/w\/([A-Za-z0-9_-]+)$/); return m ? m[1] : new URLSearchParams(location.search).get('workspace'); }
     async function auth() {
       clear(); root.append(node('p', t('account_note'), 'cr-note'));
+      var googleBox=box('',root), googleButton=button(t('google_continue'),googleSignIn,googleBox);
+      googleButton.dataset.googleSignin=''; googleButton.disabled=true;
+      googleButton.style.cssText='display:flex;align-items:center;justify-content:center;gap:12px;background:#fff;color:#1f1f1f;border:1px solid #747775;min-height:48px;border-radius:12px';
+      var svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('viewBox','0 0 48 48');svg.setAttribute('width','20');svg.setAttribute('height','20');svg.setAttribute('aria-hidden','true');svg.style.flex='0 0 20px';
+      [['#4285F4','M43.61 20.46H42V20H24v8h11.3A12 12 0 0 1 12.7 32.5l-6.56 5.05A20 20 0 0 0 44 24c0-1.21-.14-2.39-.39-3.54Z'],['#34A853','M24 44c5.39 0 10.3-2.06 13.95-5.43l-6.19-5.24A12 12 0 0 1 12.7 28H4.41A20 20 0 0 0 24 44Z'],['#FBBC05','M12 24c0-1.37.24-2.69.67-3.92L6.1 15A20 20 0 0 0 4 24c0 3.23.77 6.28 2.14 8.98l6.56-5.05A12 12 0 0 1 12 24Z'],['#EA4335','M24 12c3.06 0 5.85 1.15 7.97 3.03l5.66-5.66A20 20 0 0 0 6.1 15l6.57 5.08A12 12 0 0 1 24 12Z']].forEach(function(v){var p=document.createElementNS(svg.namespaceURI,'path');p.setAttribute('fill',v[0]);p.setAttribute('d',v[1]);svg.append(p);});googleButton.prepend(svg);
+      var googleNote=node('p',t('google_loading'),'cr-private');googleNote.setAttribute('role','status');googleBox.append(googleNote);
+      var googleConfig=null,googleNonce=null,preparing=null;
+      function nativeBridge(){var b=window.StudyStationAuth;try{return b&&typeof b.configured==='function'&&b.configured()?b:null;}catch(e){return null;}}
+      async function prepareGoogle(){
+        if(preparing)return preparing;
+        preparing=(async function(){try{googleConfig=await api('/google/config');if(!alive||!document.contains(googleButton))return;
+          if(googleConfig.enabled&&nativeBridge()){var challenge=await api('/google/challenge','POST',{});googleNonce=challenge.nonce;}
+          if(!alive||!document.contains(googleButton))return;
+          googleButton.disabled=!(googleConfig.enabled&&googleNonce&&nativeBridge())&&!(googleConfig.web_enabled&&!window.StudyStationAuth);
+          googleNote.textContent=googleButton.disabled?t('google_unavailable'):t('google_privacy');
+        }catch(e){if(alive){googleNote.textContent=t('google_unavailable');googleButton.disabled=true;}}finally{preparing=null;}})();return preparing;
+      }
+      async function googleSignIn(){
+        var bridge=nativeBridge();
+        if(bridge&&googleNonce){var nonce=googleNonce;googleNonce=null;var result,failureNote='';
+          try{result=await bridge.signIn(nonce);if(!alive||!document.contains(googleButton))return;
+            if(!result||result.ok!==true||typeof result.idToken!=='string'){var outcome=t(result&&result.error==='cancelled'?'google_cancelled':'google_failed');await prepareGoogle();googleNote.textContent=outcome;return;}
+            var token=result.idToken;result.idToken='';try{await api('/google/token','POST',{id_token:token});}finally{token=null;}await start();
+          }catch(e){failureNote=t('google_failed');}finally{result=null;if(alive&&document.contains(googleButton)){if(!googleNonce)await prepareGoogle();if(failureNote)googleNote.textContent=failureNote;}}
+        }else if(googleConfig&&googleConfig.web_enabled&&!window.StudyStationAuth){var target=location.pathname+location.search;location.assign('/api/v1/classroom/google/start?return_to='+encodeURIComponent(target));}
+      }
+      window.removeEventListener('ss-google-auth-ready',googleReady);googleReady=function(){if(alive&&document.contains(googleButton))prepareGoogle();};window.addEventListener('ss-google-auth-ready',googleReady);prepareGoogle();
+      var authError=new URLSearchParams(location.search).get('google_error');if(authError)googleNote.textContent=t('google_failed');
       var grid=node('div',null,'cr-grid');root.append(grid);
       form(box(t('login'),grid),'login',[['username','username'],['password','password','password']],async function(v){await api('/login','POST',v); await start();});
       var signup=form(box(t('signup'),grid),'signup',[['name','name'],['username','username'],['password','password','password']],async function(v){await api('/signup','POST',v);await start();});signup.password.minLength=10;
@@ -40,8 +71,8 @@
     async function start() { await window.SSWorkspaceEnsure(); var me=await api('/me'); if(!alive)return;account=me.account; scopeAccount=account; window.dispatchEvent(new Event('workspace-scope-changed')); if(!account)return auth(); if(sharedToken())return shared(sharedToken()); if(invitation())return joinScreen(invitation());return hub(); }
     async function hub() {
       var h=await api('/hub');if(!alive)return;clear();var view=new URLSearchParams(location.search).get('view')||'';if(view==='workspace'){await SSWorkspace.mount(box(t('my_workspace')));return;}if(view==='groups'||view==='classes')h.groups=h.groups.filter(function(g){return data(g).kind===(view==='classes'?'class':'peer');});
-      var row=node('div',null,'cr-row');root.append(row);row.append(node('span',(account.name||account.username)+' · ID '+account.id,'cr-pill'));button(t('logout'),async function(){await api('/logout','POST',{});account=null;scopeAccount=null;window.dispatchEvent(new Event('workspace-scope-changed'));auth();},row);
-      root.append(node('p',t('private_note'),'cr-private'));
+      var row=node('div',null,'cr-row');root.append(row);row.append(node('span',(account.name||account.username)+' · ID '+account.id,'cr-pill'));button(t('logout'),async function(){await api('/logout','POST',{});if(window.StudyStationAuth&&typeof window.StudyStationAuth.signOut==='function'){try{await window.StudyStationAuth.signOut();}catch(e){}}account=null;scopeAccount=null;window.dispatchEvent(new Event('workspace-scope-changed'));auth();},row);
+      root.append(node('p',t('private_note'),'cr-private'));var privacyLinks=node('div',null,'cr-row');[['/privacy',words.privacy_title||'Privacy'],['/delete-account',words.deletion_title||'Delete account']].forEach(function(x){var a=node('a',x[1],'btn btn-ghost');a.href=x[0];privacyLinks.append(a);});root.append(privacyLinks);
       var grid=node('div',null,'cr-grid');root.append(grid);
       var create=box(t('create_group'),grid);var fields=form(create,'create',[['group_name','name'],['goal','goal','textarea',false]],async function(v){v.kind=kind.value;await api('/groups','POST',op(v));await hub();});
       var kind=node('select');kind.setAttribute('aria-label',t('kind'));[['peer','peer'],['class','class']].forEach(function(x){var o=node('option',t(x[1]));o.value=x[0];kind.append(o);});create.querySelector('form').prepend(kind);if(view==='classes')kind.value='class';if(view==='shared')grid.hidden=true;

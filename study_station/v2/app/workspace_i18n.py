@@ -66,3 +66,13 @@ STRINGS.update({
 'workspace_help_private': ('आपकी निजी कॉपी अपने आप किसी ग्रुप या शिक्षक को नहीं जाती। शेयर या जमा करने के लिए अलग से वही काम चुनना होता है। JSON बैकअप संपादन के लिए सुरक्षित रखें।','Private notebooks are never automatically sent to a group or teacher. Sharing/submitting requires choosing that work explicitly. Keep a JSON backup for editing later.'),
 'workspace_help_back': ('वापस वाले तीर से सेव करके बंद करें। ? से यह सहायता कभी भी खोलें। पेज साफ करने से पहले पुष्टि पूछी जाएगी; Undo से हाल का बदलाव वापस कर सकते हैं।','Back saves and closes the editor. Reopen this guide with ?. Clearing a page asks for confirmation; Undo can restore a recent change.'),
 })
+
+STRINGS.update({
+'workspace_custom_colour': ('अपना रंग','Custom colour'), 'workspace_hex_colour': ('रंग का HEX कोड','HEX colour code'),
+'workspace_apply_colour': ('रंग लगाएँ','Apply colour'), 'workspace_custom_colour_hint': ('रंग चुनें या 6 अंकों का HEX कोड डालकर ✓ दबाएँ।','Pick a colour, or enter a six-digit HEX code and tap ✓.'),
+'workspace_invalid_colour': ('सही कोड डालें, जैसे #1557B0।','Enter a valid colour such as #1557B0.'), 'workspace_stroke_preview': ('लिखावट का नमूना','Stroke preview'),
+'workspace_colour_black': ('काला','Black'), 'workspace_colour_grey': ('स्लेटी','Grey'), 'workspace_colour_white': ('सफेद','White'),
+'workspace_colour_red': ('लाल','Red'), 'workspace_colour_orange': ('नारंगी','Orange'), 'workspace_colour_yellow': ('पीला','Yellow'),
+'workspace_colour_green': ('हरा','Green'), 'workspace_colour_teal': ('नील-हरा','Teal'), 'workspace_colour_blue': ('नीला','Blue'),
+'workspace_colour_sky': ('आसमानी','Sky blue'), 'workspace_colour_purple': ('बैंगनी','Purple'), 'workspace_colour_pink': ('गुलाबी','Pink'),
+})

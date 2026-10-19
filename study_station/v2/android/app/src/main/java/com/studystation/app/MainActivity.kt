@@ -37,6 +37,7 @@ class MainActivity : Activity() {
     private var failed = false
     private lateinit var backup: BackupBridge
     private lateinit var questionShare: QuestionShareBridge
+    private lateinit var googleAuth: GoogleAuthBridge
     private val hasStudyPack by lazy {
         try {
             assets.open("study/manifest.json").use { }
@@ -90,6 +91,8 @@ class MainActivity : Activity() {
         backup.install()
         questionShare = QuestionShareBridge(this, web)
         questionShare.install()
+        googleAuth = GoogleAuthBridge(this, web)
+        googleAuth.install()
         web.webChromeClient = object : WebChromeClient() {
             override fun onProgressChanged(view: WebView, newProgress: Int) {
                 progress.progress = newProgress
@@ -139,6 +142,7 @@ class MainActivity : Activity() {
 
         override fun onPageStarted(view: WebView, url: String?, favicon: Bitmap?) {
             backup.pageStarted()
+            googleAuth.pageStarted()
             failed = false
         }
 
@@ -156,6 +160,7 @@ class MainActivity : Activity() {
         override fun onPageFinished(view: WebView, url: String?) {
             backup.pageFinished()
             questionShare.pageFinished()
+            googleAuth.pageFinished()
             if (hasStudyPack && Links.isInApp(url ?: "", BuildConfig.BASE_URL)) {
                 web.evaluateJavascript(OfflineStudy.navigationScript, null)
             }
@@ -259,6 +264,7 @@ class MainActivity : Activity() {
     }
 
     override fun onDestroy() {
+        googleAuth.destroy()
         backup.destroy()
         web.destroy()
         super.onDestroy()

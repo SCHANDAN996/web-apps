@@ -27,7 +27,8 @@ def digest(value):
     return hashlib.sha256(value.encode()).hexdigest()
 
 def public_account(a):
-    return dict(id=a.id, username=a.username, name=a.name)
+    return dict(id=a.id, username=a.username, name=a.name, storage_namespace=a.storage_namespace,
+                legacy_workspace_scope=bool(a.legacy_workspace_scope))
 
 def serial(r):
     return dict(id=r.id, kind=r.kind, owner_id=r.owner_id, parent=r.parent,
