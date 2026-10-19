@@ -18,6 +18,7 @@ This is the upload certificate, not a Google Play App Signing certificate.
 - Android unit tests, debug APK, release APK and signed release bundle build passed.
 - Bundle JAR signature verification passed. Android signing certificates are
   self-signed; Play acceptance and device delivery are still separate checks.
+- Bundletool 1.18.3 validation and Android APK signature verification passed.
 - Google Web OAuth client created in `study-station-511803` and configured on the
   production server; only public client ID is compiled into the app.
 - Real browser Google sign-in succeeded using the operator-approved account.
