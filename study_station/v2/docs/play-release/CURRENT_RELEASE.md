@@ -36,8 +36,11 @@ This is the upload certificate, not a Google Play App Signing certificate.
 
 ## Remaining gates
 
-1. Play Console app creation declarations require the operator's confirmation.
-   Prepared form: Study Station, `com.studystation.app`, Hindi, App, Free.
+1. Play Console draft created after the operator explicitly approved both creation
+   declarations on 19 October 2026: Study Station, `com.studystation.app`, Hindi,
+   App, Free. Tube algo developer account; Play app ID `4973935062186222203`.
+   Dashboard: https://play.google.com/console/u/6/developers/7384073571952451725/app/4973935062186222203/app-dashboard
+   Store setup and testing release upload remain pending; app is not published.
 2. Register the actual Play App Signing certificate's SHA-1 with the Android
    OAuth client and its SHA-256 for verified App Links. Do not substitute upload
    certificate fingerprints for Play's signing certificate.
