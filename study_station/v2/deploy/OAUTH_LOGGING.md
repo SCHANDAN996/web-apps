@@ -36,7 +36,7 @@ names from the sample nginx site over the live site.
    `logger --socket /var/spool/rsyslog/studystation-nginx-log.sock -t studystation_nginx 'probe GET /api/v1/classroom/google/callback?code=SS_SYNTHETIC_CODE&state=SS_SYNTHETIC_STATE HTTP/1.1 upstream failure'`.
    Repeat with `%3Fcode=...` and inject an ordinary upstream failure. The callback
    events must produce only the constant callback diagnostic in
-   `/var/log/nginx/studystation-error.log`; ordinary failure detail must survive.
+   `/var/log/studystation-nginx-errors.log`; ordinary failure detail must survive.
    Neither synthetic value may reach that file, generic syslog, journal or any
    forwarded collector. If this fails, keep browser OAuth disabled.
 4. Put `log_format ss_safe ...` in nginx's http context. Add supplied access_log
