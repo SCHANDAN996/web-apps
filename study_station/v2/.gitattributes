@@ -2,6 +2,8 @@
 app/static/** text eol=lf
 android/app/src/main/assets/shell/** text eol=lf
 android/app/src/main/assets/offline/** text eol=lf
+# Linux service and log-rotation parsers require Unix line endings.
+deploy/** text eol=lf
 # Raster artwork must retain its exact binary bytes.
 *.png binary
 *.webp binary
