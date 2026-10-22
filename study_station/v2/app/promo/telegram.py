@@ -7,6 +7,7 @@ import html
 import os
 import re
 import time
+from pathlib import Path
 
 import httpx
 
@@ -25,12 +26,16 @@ def _config():
     return token, chat
 
 
-def _call(method, payload, retries=3):
+def _call(method, payload, retries=3, files=None):
     token, chat = _config()
     payload = {'chat_id': chat, **payload}
     for attempt in range(retries + 1):
         try:
-            r = httpx.post(f'https://api.telegram.org/bot{token}/{method}', json=payload, timeout=30)
+            url = f'https://api.telegram.org/bot{token}/{method}'
+            if files:      # multipart upload (video): plain form fields + the file
+                r = httpx.post(url, data={k: str(v) for k, v in payload.items()}, files=files(), timeout=120)
+            else:
+                r = httpx.post(url, json=payload, timeout=30)
         except httpx.HTTPError as e:
             raise TelegramError(f'network error ({type(e).__name__})') from None
         try:
@@ -75,6 +80,14 @@ def send_html(text):
         ids.append(_call('sendMessage', {'text': part, 'parse_mode': 'HTML',
                                          'link_preview_options': {'is_disabled': True}}))
     return ids
+
+
+def send_video(path, caption=''):
+    """Upload one MP4 (≤ 50 MB, the Bot API limit) as a streamable video with an HTML caption (≤ 1024)."""
+    def files():
+        return {'video': (Path(path).name, open(path, 'rb'), 'video/mp4')}
+    return _call('sendVideo', {'caption': caption[:1024], 'parse_mode': 'HTML', 'supports_streaming': 'true',
+                               'width': 1080, 'height': 1920}, files=files)
 
 
 def md_to_html(text):

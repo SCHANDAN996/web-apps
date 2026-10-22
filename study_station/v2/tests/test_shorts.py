@@ -65,3 +65,27 @@ def test_pick_shorts():
         assert shorts.short_ok(q) and 'Current_Affairs' not in q['chapter']
         assert q['difficulty'] in ('easy', 'medium')
     assert not {q['id'] for q in qs} & {q['id'] for q in shorts.pick_shorts(day, 3, [q['id'] for q in qs])}
+
+
+def test_send_video_upload(monkeypatch, tmp_path):
+    from app.promo import telegram
+    monkeypatch.setenv('TELEGRAM_BOT_TOKEN', '1:SECRET')
+    monkeypatch.setenv('TELEGRAM_CHANNEL_ID', '@ss_test')
+    monkeypatch.setattr(telegram, 'SEND_GAP', 0)
+    seen = {}
+
+    class R:
+        status_code = 200
+
+        def json(self):
+            return {'ok': True, 'result': {'message_id': 7}}
+
+    def post(url, data=None, files=None, timeout=None, json=None):
+        seen.update(url=url, data=data, name=files['video'][0])
+        return R()
+    monkeypatch.setattr(telegram.httpx, 'post', post)
+    v = tmp_path / '01.mp4'
+    v.write_bytes(b'x')
+    assert telegram.send_video(v, shorts.telegram_caption(Q)) == 7
+    assert seen['url'].endswith('/sendVideo') and seen['name'] == '01.mp4'
+    assert seen['data']['chat_id'] == '@ss_test' and 'अनुच्छेद 17' not in seen['data']['caption']   # no spoiler

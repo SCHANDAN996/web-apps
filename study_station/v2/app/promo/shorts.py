@@ -342,3 +342,12 @@ def pick_shorts(day: date, count, posted, level=None):
         out.append(q)
         i += 1
     return out
+
+
+def telegram_caption(q):
+    """Channel caption: no answer in the text — the video reveals it."""
+    import html
+    subj = html.escape(pick.SUBJECT_HI.get(q['subject'], q['subject']))
+    link = channel_link()
+    return (f'<b>🎬 {subj} क्विज़</b> — उत्तर वीडियो के अंत में! अपना उत्तर पहले सोचें 🤔'
+            + (f'\n\n📚 रोज़ 10 मुफ़्त सवाल · {html.escape(link)}' if link else ''))
