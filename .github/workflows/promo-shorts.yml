@@ -13,6 +13,10 @@ on:
       count:
         description: 'how many videos'
         default: '3'
+      send_telegram:
+        description: 'also post the videos to the Telegram channel'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -46,7 +50,13 @@ jobs:
           PROMO_TELEGRAM: ${{ vars.PROMO_TELEGRAM }}
           PROMO_LINK: ${{ vars.PROMO_LINK }}
           COUNT: ${{ inputs.count || '3' }}
-        run: python -m app.promo shorts --count "$COUNT" --out "$RUNNER_TEMP/shorts"
+          SEND: ${{ github.event_name == 'workflow_dispatch' && inputs.send_telegram }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+        run: |
+          flag=""
+          if [ "$SEND" = "true" ]; then flag="--telegram"; fi
+          python -m app.promo shorts --count "$COUNT" --out "$RUNNER_TEMP/shorts" $flag
       - name: Upload videos
         uses: actions/upload-artifact@v4
         with:
