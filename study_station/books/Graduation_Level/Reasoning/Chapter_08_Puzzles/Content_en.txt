@@ -14,13 +14,13 @@ By the end of this chapter, you will be able to:
 
 ## The Hook: Why Toppers Love Puzzles (and Others Fear Them)
 
-Here is a secret from exam halls: a single complex puzzle set usually carries **5 questions**. Solve the puzzle once, and you get 5 marks for the price of one piece of thinking. Miss it, and you lose 5 marks in one shot.
+In exams such as IBPS PO, one complex puzzle set often carries five questions. Solve the puzzle once, and all five questions turn into quick marks for a single piece of thinking. Miss the set, and all five marks slip away together.
 
-That is why puzzles are the highest "return on investment" topic in reasoning — and also the riskiest. This chapter teaches you to be on the winning side.
+That is why puzzles are among the highest "return on investment" topics in reasoning — and also among the riskiest. This chapter teaches you to be on the winning side.
 
 ---
 
-## First, Let's Admit the Common Struggle
+## First, the Common Struggle (and Its One Root Cause)
 
 Almost every aspirant says the same three things:
 
@@ -28,7 +28,7 @@ Almost every aspirant says the same three things:
 - "I make a table, but halfway through, two arrangements seem possible."
 - "I spend 8 minutes on one puzzle and still get it wrong."
 
-All three problems have **one root cause**: trying to hold the puzzle in your head instead of on paper. Complex puzzles are not a test of intelligence — they are a test of **organised thinking**. Let's build that organisation, chunk by chunk.
+All three problems have **one root cause**: trying to hold the puzzle in your head instead of on paper. Complex puzzles are not a test of intelligence — they are a test of **organised thinking**. This chapter builds that organisation, chunk by chunk.
 
 ---
 
@@ -64,14 +64,15 @@ Follow these three steps for every complex puzzle:
 ## Chunk 3: Worked Mini-Example (Floor Puzzle)
 
 *Five people P, Q, R, S, T live on floors 1–5 (1 = bottom). Clues:*
+
 1. *R lives on floor 4.* → **FIX**: R = 4.
 2. *P lives immediately above R.* → **CHAIN**: P = 5.
-3. *Q lives below R but not on floor 1.* → Q = 2 or 3.
-4. *S lives on floor 1.* → **FIX**: S = 1, so Q = 3, and T = 2.
+3. *S lives on floor 1.* → **FIX**: S = 1.
+4. *Q lives below R but not on floor 2.* → **ELIMINATE**: "Below R" means floors 1–3. Floor 1 is already taken by S, and floor 2 is not allowed — so Q = 3. The only floor left for T is 2.
 
-Done. Notice: we never guessed. We fixed, chained, and the rest fell into place.
+Done. Notice: we never guessed. We fixed, chained, eliminated — and the last person fell into place by himself.
 
-> 🧠 **Active Recall:** In the example above, which clue was used last, and why? (Clue 3 — the negative/conditional clue — because it only became useful after other slots were fixed.)
+> 🧠 **Active Recall:** In the example above, which clue was used last, and why? (Clue 4 — the negative clue — because it became decisive only after Clues 1–3 had fixed R, P and S. Before S took floor 1, "not on floor 2" still left Q with two possible floors.)
 
 ---
 
@@ -96,11 +97,11 @@ Rules of the table:
 
 ## Chunk 5: When Two Cases Are Possible
 
-Sometimes a clue gives a genuine fork: "M sits two seats away from K" — but on which side? 
+Sometimes a clue gives a genuine fork: "M sits two seats away from K" — but on which side?
 
-**Strategy:** Draw **Case 1 and Case 2** side by side. Keep solving both. In 90% of exam puzzles, one case will collide with a later clue and die. The surviving case is your answer.
+**Strategy:** Draw **Case 1 and Case 2** side by side. Keep solving both. In many exam puzzles, one case will collide with a later clue and die. The surviving case is your answer.
 
-**Warning:** Never carry more than two cases. If a puzzle needs three or more parallel cases, it is a **skip candidate** in the real exam (see Skip Strategy section).
+**Warning:** Never carry more than two cases. If a puzzle needs three or more parallel cases, it is a **skip candidate** in the real exam — mark it for the second round and move on.
 
 > 🧠 **Active Recall:** What should you do when a clue allows two arrangements? (Draw both cases, solve in parallel, and let a later clue kill one of them.)
 
@@ -123,7 +124,7 @@ Sometimes a clue gives a genuine fork: "M sits two seats away from K" — but on
 | Comparison | Inequality chain (A > B) | Merge chains via common person |
 | Two possible cases | Parallel Case 1 / Case 2 | Solve both until one dies |
 
-**⏳ Time rule:** 60–90 seconds to set up the diagram; 3–4 minutes total for a 5-question set. If no anchor clue appears after reading twice, mark it for the second round.
+**⏳ Time rule:** 60–90 seconds to set up the diagram; 3–4 minutes total for a five-question set. If no anchor clue appears after reading twice, mark it for the second round.
 
 📅 **Review this chapter after 2 days** — redraw the FCE method and the summary table from memory.
 
