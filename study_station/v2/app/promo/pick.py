@@ -36,6 +36,7 @@ TRICK_HEAD = re.compile(
     r'[^\w\s*#|]{1,3}\s*(?:ट्रिक|Trick|Mnemonic)\s*\d)')
 NUMBERED_TRICK = re.compile(r'(?:ट्रिक|Trick|Mnemonic|हुक|Hook)\s*[-–:#]?\s*\d|^[\s*#]*\d{1,2}\.\s', re.I)
 RULE_LINE = re.compile(r'^\s*[━═─—_=*-]{3,}\s*$', re.M)
+TIP = re.compile(r'^(?:चुनने से पहले|ध्यान दें|याद रखें|टिप|tip|note)\b', re.I)
 SKIP_TRICK = re.compile(r'Skip Strategy|स्किप|│|┌|└|```|^\s*\|', re.I | re.M)
 
 
@@ -93,12 +94,11 @@ def explanation(solution, answer, limit=MAX_EXPLANATION):
     key = _clean(answer).lower()
     trivial = re.compile(r'^(?:अतः|इसलिए|so|hence|therefore|thus)?[\s,]*(?:सही\s*)?(?:उत्तर|the answer|answer)\b.{0,%d}$' % (len(key) + 12), re.I)
     sents = [x for x in sents if not trivial.match(x)]
+    sents = [re.sub(r'^\s*(?:चुनने से पहले|ध्यान दें|याद रखें|परीक्षा में)[^;]*;\s*', '', x) for x in sents]
+    sents = [x for x in sents if x and not TIP.match(x)]
     best = [x for x in sents if key and key in x.lower()] or sents[-1:]
-    rest = ''
-    for x in best[::-1]:                       # the last mention is usually the conclusion
-        if len(head) + 1 + len(x) <= limit:
-            rest = x
-            break
+    fitting = [x for x in best if len(head) + 1 + len(x) <= limit]
+    rest = max(fitting, key=len) if fitting else ''   # the fullest working that still fits
     if not rest and best:
         rest = short_solution(best[-1], limit - len(head) - 1)
     return f'{head} {rest}'.strip()[:limit]
@@ -152,11 +152,12 @@ def _chapters(level, subject, rng):
     return chs
 
 
-def _pick_one(level, subject, rng, posted, used_chapters, difficulties):
+def _pick_one(level, subject, rng, posted, used_chapters, difficulties, ok=None):
     for ch in _chapters(level, subject, rng):
         if rel(ch) in used_chapters:
             continue
-        cands = [q for q in chapter_questions(str(ch)) if q['id'] not in posted and q['difficulty'] in difficulties]
+        cands = [q for q in chapter_questions(str(ch))
+                 if q['id'] not in posted and q['difficulty'] in difficulties and (ok is None or ok(q))]
         if cands:
             return rng.choice(cands)
     return None

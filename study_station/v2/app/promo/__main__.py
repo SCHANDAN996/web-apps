@@ -1,4 +1,5 @@
 """python -m app.promo telegram --slot quiz|trick|revision|weekly [--dry-run] [--date YYYY-MM-DD]
+python -m app.promo shorts --count 3 [--level 10th|12th|graduation] [--out DIR] [--dry-run] [--date YYYY-MM-DD]
 
 Slots (IST): 07:30 quiz · 12:30 trick · 18:00 quiz · 20:30 revision · Sun 10:00 weekly.
 --dry-run prints what the real run would post and changes nothing.
@@ -8,6 +9,8 @@ import html
 import os
 import sys
 from datetime import date, datetime, timedelta, timezone
+
+from pathlib import Path
 
 from . import pick, posted as plog, telegram
 
@@ -110,6 +113,33 @@ def run(slot, day, data):
     return 1 if error else 0
 
 
+def run_shorts(a, day, data):
+    from . import shorts
+    qs = shorts.pick_shorts(day, a.count, data['shorts'], a.level)
+    if a.dry_run:
+        for q in qs:
+            print(f"{q['id']}\n  {q['question']}\n  ✅ {q['options'][q['answer']]}")
+        return 0
+    out = Path(a.out)
+    out.mkdir(parents=True, exist_ok=True)
+    made = []
+    for q in qs:
+        n = len(made) + 1
+        try:
+            shorts.render(q, out / f'{n:02d}.mp4', out / f'.frames{n:02d}')
+        except shorts.DoesNotFit as e:
+            print(f"skip {q['id']}: {e}")
+            continue
+        (out / f'{n:02d}.txt').write_text(shorts.caption(q), encoding='utf-8')
+        made.append({'id': q['id'], 'file': f'{n:02d}.mp4'})
+        print(f"{n:02d}.mp4  {q['id']}")
+    if made:
+        plog.record(data, day.isoformat(), 'shorts', made, key='shorts')
+        plog.save(data)
+    print(f'shorts: {len(made)} video(s) in {out}')
+    return 0 if len(made) == len(qs) and made else 1
+
+
 def main(argv=None):
     try:
         sys.stdout.reconfigure(encoding='utf-8', errors='replace')
@@ -122,9 +152,17 @@ def main(argv=None):
     t.add_argument('--slot', required=True, choices=['quiz', 'trick', 'revision', 'weekly'])
     t.add_argument('--dry-run', action='store_true')
     t.add_argument('--date', help='YYYY-MM-DD (default: today in IST)')
+    sh = sub.add_parser('shorts', help='render vertical quiz videos + captions')
+    sh.add_argument('--count', type=int, default=3)
+    sh.add_argument('--level', choices=['10th', '12th', 'graduation'])
+    sh.add_argument('--out', default='shorts_out')
+    sh.add_argument('--dry-run', action='store_true', help='list the questions only')
+    sh.add_argument('--date', help='YYYY-MM-DD (default: today in IST)')
     a = ap.parse_args(argv)
     day = date.fromisoformat(a.date) if a.date else datetime.now(IST).date()
     data = plog.load()
+    if a.cmd == 'shorts':
+        return run_shorts(a, day, data)
     if a.dry_run:
         show(plan(a.slot, day, data))
         return 0
