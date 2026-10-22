@@ -27,7 +27,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: promo-telegram
+  group: promo-posted-log         # both promo workflows write study_station/promo/posted.json
   cancel-in-progress: false
 
 jobs:

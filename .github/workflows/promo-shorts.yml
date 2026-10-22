@@ -1,0 +1,69 @@
+# Study Station promotion — 3 vertical quiz videos (Shorts/Reels) every morning, made from the book files.
+# Owner's routine (2 min, phone): Actions → latest "Promo Shorts" run → Artifacts → download the zip →
+# upload each NN.mp4 to YouTube Shorts / Instagram Reels with the text from NN.txt as title + description.
+# Optional repository variable PROMO_TELEGRAM (e.g. t.me/yourchannel) is shown at the end of every video.
+# Used questions are logged in study_station/promo/posted.json on the books branch (no repeats).
+name: Promo Shorts
+
+on:
+  schedule:
+    - cron: '31 23 * * *'      # 05:01 IST
+  workflow_dispatch:
+    inputs:
+      count:
+        description: 'how many videos'
+        default: '3'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: promo-posted-log         # both promo workflows write study_station/promo/posted.json
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      BOOKS_BRANCH: claude/elegant-rubin-sgov1q
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.BOOKS_BRANCH }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: study_station/v2/requirements.txt
+      - name: Install
+        run: |
+          sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+          pip install -r study_station/v2/requirements.txt
+      - name: Render videos
+        working-directory: study_station/v2
+        env:
+          PROMO_TELEGRAM: ${{ vars.PROMO_TELEGRAM }}
+          PROMO_LINK: ${{ vars.PROMO_LINK }}
+          COUNT: ${{ inputs.count || '3' }}
+        run: python -m app.promo shorts --count "$COUNT" --out "$RUNNER_TEMP/shorts"
+      - name: Upload videos
+        uses: actions/upload-artifact@v4
+        with:
+          name: shorts-${{ github.run_number }}
+          path: ${{ runner.temp }}/shorts/
+          if-no-files-found: error
+          retention-days: 14
+      - name: Save the posted-log
+        if: always()
+        run: |
+          git config user.name "study-station-promo"
+          git config user.email "211449723+SCHANDAN996@users.noreply.github.com"
+          git add study_station/promo/posted.json 2>/dev/null || exit 0
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Promo: posted-log (shorts)"
+          for i in 1 2 3 4 5; do
+            git pull -q --rebase origin "$BOOKS_BRANCH" && git push -q origin "HEAD:$BOOKS_BRANCH" && exit 0
+            sleep $((i * 5))
+          done
+          echo "::error::could not push the posted-log"; exit 1
