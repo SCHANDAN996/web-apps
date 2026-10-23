@@ -61,3 +61,6 @@ python -m app.shell [--check]               # regenerate the APK frame after cha
 - Screens change without a page load: `app.js` swaps `<main>`. Wire a screen in `SS.initPage` (it runs again after
   every swap), hook window/document through `onPage`/`SS.onLeave`, and move with `SS.go(url)` — not `location.href`.
 - The question bank has ~70,000 rows: never count or scan it per section/exam in a loop (`tests/test_perf.py`).
+
+## Canonical source and UI
+Owner decision (23 October 2026): use the new PC UI everywhere and keep GitHub, PC and the deployed v2 source on one verified revision. Follow `docs/SOURCE_SYNC.md`; preserve secrets/runtime data and GitHub-owned promo schedules. Do not restore the old UI or force-push.
