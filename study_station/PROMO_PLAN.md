@@ -6,6 +6,20 @@
 > ```
 > (या `Part B (Shorts) से` — दोनों अलग-अलग हैं।) AI पहले "मालिक को क्या करना है" वाले कदम बताएगा, फिर बाकी ख़ुद करेगा।
 
+## ✅ Status (22 Oct 2026)
+- **Part A built:** `app/promo` (pick/telegram/posted + CLI), tests, workflow `promo-telegram.yml` on `main`.
+  - Without the secrets, every run is skipped and stays green.
+  - CI dry run checked: it showed the same 5 polls as the local run.
+  - **Waiting on the owner:** A.1 steps 1–4 (channel, bot, admin, the two secrets).
+  - Optional repository *variable* `PROMO_LINK` (e.g. `https://t.me/<channel>`) is shown in each message footer.
+- **Part B built:** `app/promo/shorts.py`, tests, workflow `promo-shorts.yml`.
+  - Runs daily at 05:01 IST and produces 3 MP4s + captions as an artifact.
+  - Optional repository variable `PROMO_TELEGRAM` (e.g. `t.me/<channel>`) is shown at the end of each video.
+  - Current-affairs questions are not used in videos, because they go out of date.
+- Changes from the plan:
+  - Telegram's Bot API now takes `correct_option_ids` (an array).
+  - The fonts (Noto Sans Devanagari + Noto Sans, OFL) are committed under `promo/fonts/`.
+
 ---
 
 ## 0. Context the next AI must know (read first)
