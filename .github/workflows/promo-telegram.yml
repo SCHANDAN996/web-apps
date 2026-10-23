@@ -1,5 +1,7 @@
 # Study Station promotion — posts to the Telegram channel every day, straight from the book files.
-# Slots (IST): 07:31 quiz · 12:31 trick · 18:01 quiz · 20:31 revision (answers) · Sunday 10:01 weekly test.
+# Slots (IST): 07:30 quiz · 12:30 trick · 18:00 quiz · 20:30 answers · Sunday 10:00 weekly test.
+# GitHub drops or delays many scheduled runs, so this wakes every 30 minutes with --slot auto: each slot is
+# posted once, at the first run inside its window (see WINDOWS in app/promo/__main__.py).
 # Needs repository secrets TELEGRAM_BOT_TOKEN and TELEGRAM_CHANNEL_ID (@channelname); optional variable PROMO_LINK.
 # Without the secrets every run is skipped (green), so nothing breaks before the channel exists.
 # What went out is logged in study_station/promo/posted.json on the books branch (no repeats).
@@ -7,15 +9,11 @@ name: Promo Telegram
 
 on:
   schedule:
-    - cron: '1 2 * * *'        # 07:31 IST quiz
-    - cron: '1 7 * * *'        # 12:31 IST trick
-    - cron: '31 12 * * *'      # 18:01 IST quiz
-    - cron: '1 15 * * *'       # 20:31 IST revision
-    - cron: '31 4 * * 0'       # Sunday 10:01 IST weekly test
+    - cron: '7,37 * * * *'     # every 30 min → --slot auto
   workflow_dispatch:
     inputs:
       slot:
-        description: 'quiz | trick | revision | weekly'
+        description: 'auto | quiz | trick | revision | weekly'
         required: true
         default: quiz
       dry_run:
@@ -43,14 +41,8 @@ jobs:
           SCHEDULE: ${{ github.event.schedule }}
           INPUT_SLOT: ${{ inputs.slot }}
         run: |
-          case "$SCHEDULE" in
-            '1 2 * * *'|'31 12 * * *') slot=quiz ;;
-            '1 7 * * *') slot=trick ;;
-            '1 15 * * *') slot=revision ;;
-            '31 4 * * 0') slot=weekly ;;
-            *) slot="$INPUT_SLOT" ;;
-          esac
-          case "$slot" in quiz|trick|revision|weekly) ;; *) echo "::error::unknown slot '$slot'"; exit 1 ;; esac
+          if [ -n "$SCHEDULE" ]; then slot=auto; else slot="$INPUT_SLOT"; fi
+          case "$slot" in auto|quiz|trick|revision|weekly) ;; *) echo "::error::unknown slot '$slot'"; exit 1 ;; esac
           echo "slot=$slot" >> "$GITHUB_OUTPUT"
       - uses: actions/checkout@v4
         with:
