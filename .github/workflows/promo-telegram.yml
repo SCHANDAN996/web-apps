@@ -52,7 +52,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
-          PROMO_LINK: ${{ vars.PROMO_LINK }}
+          PROMO_LINK: ${{ vars.PROMO_LINK || 'https://t.me/studystation_hindi' }}
           SLOT: ${{ inputs.slot || 'auto' }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run }}
         run: |

@@ -47,8 +47,8 @@ jobs:
       - name: Render videos
         working-directory: study_station/v2
         env:
-          PROMO_TELEGRAM: ${{ vars.PROMO_TELEGRAM }}
-          PROMO_LINK: ${{ vars.PROMO_LINK }}
+          PROMO_TELEGRAM: ${{ vars.PROMO_TELEGRAM || 't.me/studystation_hindi' }}
+          PROMO_LINK: ${{ vars.PROMO_LINK || 'https://t.me/studystation_hindi' }}
           COUNT: ${{ inputs.count || '3' }}
           PROMO_POSTED: ${{ github.workspace }}/study_station/promo/posted_shorts.json
           SEND: ${{ github.event_name == 'workflow_dispatch' && inputs.send_telegram }}
