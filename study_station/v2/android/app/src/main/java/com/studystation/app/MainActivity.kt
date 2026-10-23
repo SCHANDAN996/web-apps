@@ -38,6 +38,8 @@ class MainActivity : Activity() {
     private lateinit var backup: BackupBridge
     private lateinit var questionShare: QuestionShareBridge
     private lateinit var googleAuth: GoogleAuthBridge
+    private lateinit var membership: MembershipBridge
+    private var playBilling: PlayBillingBridge? = null
     private val hasStudyPack by lazy {
         try {
             assets.open("study/manifest.json").use { }
@@ -91,8 +93,13 @@ class MainActivity : Activity() {
         backup.install()
         questionShare = QuestionShareBridge(this, web)
         questionShare.install()
-        googleAuth = GoogleAuthBridge(this, web)
+        googleAuth = GoogleAuthBridge(this, web) { membership.clear() }
         googleAuth.install()
+        membership = MembershipBridge(this, web)
+        membership.install()
+        if (!BuildConfig.DIRECT_PAYU_ALLOWED) {
+            playBilling = PlayBillingBridge(this, web).also { it.install() }
+        }
         web.webChromeClient = object : WebChromeClient() {
             override fun onProgressChanged(view: WebView, newProgress: Int) {
                 progress.progress = newProgress
@@ -143,6 +150,8 @@ class MainActivity : Activity() {
         override fun onPageStarted(view: WebView, url: String?, favicon: Bitmap?) {
             backup.pageStarted()
             googleAuth.pageStarted()
+            membership.pageStarted()
+            playBilling?.pageStarted()
             failed = false
         }
 
@@ -161,6 +170,8 @@ class MainActivity : Activity() {
             backup.pageFinished()
             questionShare.pageFinished()
             googleAuth.pageFinished()
+            membership.pageFinished()
+            playBilling?.pageFinished()
             if (hasStudyPack && Links.isInApp(url ?: "", BuildConfig.BASE_URL)) {
                 web.evaluateJavascript(OfflineStudy.navigationScript, null)
             }
@@ -180,7 +191,11 @@ class MainActivity : Activity() {
         val name = OfflineStudy.asset(request.method, request.url.toString(), BuildConfig.BASE_URL, language) ?: return null
         return try {
             WebResourceResponse(OfflineStudy.mime(name), "utf-8", 200, "OK",
-                mapOf("Cache-Control" to "no-store", "X-Content-Type-Options" to "nosniff"), assets.open(name))
+                mapOf("Cache-Control" to "no-store", "X-Content-Type-Options" to "nosniff"),
+                if (name.startsWith("offline/") && name.endsWith(".html")) {
+                    val html = assets.open(name).bufferedReader().use { it.readText() }
+                    html.replace("<head>", "<head><meta name=\"ss-membership-required\" content=\"${BuildConfig.MEMBERSHIP_REQUIRED}\">").byteInputStream()
+                } else assets.open(name))
         } catch (_: IOException) {
             // A missing pack file must not silently fetch different content from the server.
             WebResourceResponse("text/plain", "utf-8", 404, "Not Found",
@@ -255,6 +270,7 @@ class MainActivity : Activity() {
     override fun onResume() {
         super.onResume()
         web.onResume()
+        membership.resumed()
     }
 
     override fun onPause() {
@@ -265,6 +281,8 @@ class MainActivity : Activity() {
 
     override fun onDestroy() {
         googleAuth.destroy()
+        membership.destroy()
+        playBilling?.destroy()
         backup.destroy()
         web.destroy()
         super.onDestroy()

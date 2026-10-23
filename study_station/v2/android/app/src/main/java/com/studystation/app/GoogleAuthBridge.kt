@@ -22,7 +22,7 @@ import com.google.android.libraries.identity.googleid.GoogleIdTokenCredential
 import org.json.JSONObject
 
 /** Native account chooser only. Tokens are delivered once to the trusted page and never persisted. */
-class GoogleAuthBridge(private val activity: Activity, private val web: WebView) {
+class GoogleAuthBridge(private val activity: Activity, private val web: WebView, private val onSignOut: () -> Unit = {}) {
     private val origin = Uri.parse(BuildConfig.BASE_URL).let { "${it.scheme}://${it.authority}" }
     private val manager = CredentialManager.create(activity)
     private var cancellation: CancellationSignal? = null
@@ -69,6 +69,7 @@ class GoogleAuthBridge(private val activity: Activity, private val web: WebView)
                 if (token != null) result.put("idToken",token)
                 runCatching { reply.postMessage(result.toString()) }
             }
+            if (payload.getString("op") == "signout") onSignOut()
             if (cancellation != null) { send(false,"busy"); return@addWebMessageListener }
             val signal = CancellationSignal()
             val currentGeneration = generation

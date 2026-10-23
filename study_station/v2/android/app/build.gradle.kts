@@ -30,6 +30,9 @@ fun setting(name: String, default: String) =
 
 val debugUrl = setting("ss.debugUrl", "http://10.0.2.2:8000")      // emulator's name for this PC
 val releaseUrl = setting("ss.releaseUrl", "")
+val membershipRequired = setting("ss.membershipRequired", "false").toBooleanStrict()
+val membershipPublicKey = setting("ss.membershipPublicKey", "")
+require(!membershipRequired || Regex("[A-Za-z0-9+/=]{300,2048}").matches(membershipPublicKey)) { "Configure RSA public key before enabling memberships" }
 val googleWebClientId = setting("ss.googleWebClientId", "")
 require(googleWebClientId.isEmpty() || Regex("[A-Za-z0-9_-]+\\.apps\\.googleusercontent\\.com").matches(googleWebClientId)) { "Invalid ss.googleWebClientId" }
 // Signing material lives outside the checkout; only its path is configured locally.
@@ -52,6 +55,10 @@ android {
         versionCode = releaseVersionCode
         versionName = releaseVersionName
         buildConfigField("String", "ASSET_V", "\"${assetVersion()}\"")
+        buildConfigField("boolean", "MEMBERSHIP_REQUIRED", membershipRequired.toString())
+        // External checkout is only presented by the separately distributed direct APK.
+        buildConfigField("boolean", "DIRECT_PAYU_ALLOWED", "false")
+        buildConfigField("String", "MEMBERSHIP_PUBLIC_KEY", "\"$membershipPublicKey\"")
         buildConfigField("String", "GOOGLE_WEB_CLIENT_ID", "\"$googleWebClientId\"")
         buildConfigField("boolean", "GOOGLE_DRIVE_ENABLED", setting("ss.googleDriveEnabled", "false").toBooleanStrict().toString())
     }
@@ -80,6 +87,16 @@ android {
             buildConfigField("String", "BASE_URL", "\"$releaseUrl\"")
             manifestPlaceholders["cleartext"] = "false"      // HTTPS only
         }
+        create("directRelease") {
+            initWith(getByName("release"))
+            matchingFallbacks += listOf("release")
+            buildConfigField("boolean", "DIRECT_PAYU_ALLOWED", "true")
+        }
+        create("directDebug") {
+            initWith(getByName("debug"))
+            matchingFallbacks += listOf("debug")
+            buildConfigField("boolean", "DIRECT_PAYU_ALLOWED", "true")
+        }
     }
 
     compileOptions {
@@ -96,6 +113,7 @@ android {
 
 dependencies {
     implementation("androidx.webkit:webkit:1.14.0")
+    implementation("com.android.billingclient:billing:9.1.0")
     implementation("com.google.android.gms:play-services-auth:22.0.0")
     implementation("androidx.credentials:credentials:1.6.0")
     implementation("androidx.credentials:credentials-play-services-auth:1.6.0")
@@ -103,7 +121,7 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
 }
 
-tasks.matching { it.name == "preReleaseBuild" }.configureEach {
+tasks.matching { it.name in setOf("preReleaseBuild", "preDirectReleaseBuild") }.configureEach {
     doFirst {
         check(signingFile.isNotEmpty() && uploadSigning.getProperty("storeFile")?.let { file(it).isFile } == true) {
             "Configure ss.signingProperties with an external upload keystore before a release build."
@@ -123,5 +141,15 @@ tasks.matching { it.name == "preBuild" }.configureEach {
                 "Generate the public study pack and run python -m app.shell before building. Use -Pss.requireStudyPack=false only for the legacy online wrapper."
             }
         }
+    }
+}
+
+// This distribution is an APK for our own website, never a Google Play bundle.
+val directBundleTasks = setOf("bundleDirectRelease", "packageDirectReleaseBundle", "signDirectReleaseBundle",
+    "bundleDirectDebug", "packageDirectDebugBundle", "signDirectDebugBundle")
+tasks.matching { it.name in directBundleTasks }.configureEach { enabled = false }
+gradle.taskGraph.whenReady {
+    check(allTasks.none { it.name in directBundleTasks }) {
+        "Direct PayU distribution cannot produce an AAB. Use assembleDirectRelease for the website APK, or bundleRelease for Google Play."
     }
 }

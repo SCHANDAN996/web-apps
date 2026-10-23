@@ -48,3 +48,53 @@ Official guidance:
 - https://developer.android.com/studio/publish/upload-bundle
 
 Store listing, privacy/data safety/account deletion, content rights, app access instructions, rating, and Play testing/verification requirements must be completed against the actual implementation before production submission. No Play upload or publication is performed by these build settings.
+# Play prepaid billing
+
+## Separate website APK
+
+`assembleDirectRelease` creates the signed APK for direct website distribution. It uses the same
+package and external upload signing configuration as the existing direct APK, so an update can
+preserve local progress when its signing certificate matches. `DIRECT_PAYU_ALLOWED` is true only
+in this variant; `StudyStationMembership.allowPayu()` exposes that immutable presentation setting
+to the trusted origin. The normal `release` and `debug` variants return false.
+`assembleDirectDebug` is a separate QA variant with the existing debug package and debug signing
+certificate, preserving that installed app's data when updated. It also enables the direct channel;
+it is not a distribution release. AAB creation is blocked for both direct variants.
+
+The direct variant does not install the Play Billing bridge and removes the Play billing manifest
+permission. All membership decisions still come from server-verified payment and signed leases;
+the presentation flag grants no access. The app retains its usual `StudyStationApp` user agent.
+The direct app's explicit payment button calls `StudyStationMembership.openPayuWebsite()`.
+Both JavaScript and native code require a current trusted main-frame user gesture, then open only
+the fixed HTTPS `/membership` URL in the phone browser. No session or account credentials are
+transferred; the user signs into the same account in that browser. On returning to the app,
+`ss-payu-return` asks the UI to refresh server status and its signed lease. The native app does not
+embed the PayU checkout or grant access merely because the external browser was opened.
+
+Direct AAB creation is blocked at task-graph validation, including packaging/signing bundle tasks.
+Do not upload this direct APK to Google Play. Build the normal `bundleRelease` for the Play channel;
+Google Play payment eligibility and activation must be handled separately before enabling checkout.
+
+Distribution filenames must identify the channel clearly, for example
+`Study-Station-Direct-PayU-1.2.0.apk`. Google sign-in on that APK additionally requires the matching
+Android signing-certificate OAuth registration; successful compilation does not verify that setup.
+
+The native app uses Google Play Billing Library 9.1.0. The only selectable subscriptions are
+`study_station_monthly` / `monthly-prepaid` and `study_station_yearly` / `yearly-prepaid`.
+The bridge rejects recurring pricing phases, introductory offers, and a different base plan.
+The screen displays the localized price returned by Play rather than a hard-coded amount.
+
+The server must enable `/api/v1/payments/google/config` and supply the signed-in account's
+opaque billing identifier. A purchase must be verified and acknowledged by the backend before
+the app renews its signed offline membership lease. Pending and cancelled payments do not grant
+access. The Restore button queries existing Play purchases and sends purchased tokens through
+the same verification path; the client does not acknowledge or consume subscriptions itself.
+
+Configure and activate both prepaid plans and the backend Google Play Developer API credentials
+before enabling checkout. Use licensed testers and Play test tracks for acceptance; building an
+APK or passing mocked tests does not prove that checkout or real settlement is operational.
+No checkout is launched automatically during startup or product discovery.
+
+Official integration reference: https://developer.android.com/google/play/billing/integrate
+Release reference: https://developer.android.com/google/play/billing/release-notes
+
