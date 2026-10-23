@@ -1,151 +1,151 @@
 Questions 26–50: Medium
 
-26. Five persons P, Q, R, S, T sit in a row facing north. P sits at the extreme left end. S sits to the immediate left of Q. R sits to the immediate right of Q. Who sits at the extreme right end?
-(a) Q (b) R (c) S (d) T
-Answer: (d)
-Solution: The tempting wrong choice is R, who sits fourth, not last. Placing P at the left end and the block S, Q, R next to it gives the order P, S, Q, R, T, so the answer is T.
-Source: PYQ-style
-
-27. Five boxes P, Q, R, S, T are stacked one above another. P is immediately above Q. R is above P but not at the top. T is at the bottom. Which box is at the top?
-(a) R (b) P (c) S (d) Q
+26. Seven friends P, Q, R, S, T, U and V are of different heights. Rank 1 is the shortest and rank 7 is the tallest. U is just taller than V (next rank). Q has rank 6 from the shortest. U is shorter than R, with exactly 1 person(s) in height between them. V is taller than S, with exactly 1 person(s) in height between them. Who is just taller than Q?
+(a) U (b) V (c) R (d) P
 Answer: (c)
-Solution: T is at the bottom, P is directly above Q, and R is above P but not at the top, so the stack from top is S, R, P, Q, T. The tempting wrong choice is R, but R is barred from the top by the clue. The only box left for the top is S, so the answer is S.
+Solution: Fixing the clues one by one gives only one order. From 1 upwards: rank 1 – P, rank 2 – S, rank 3 – T, rank 4 – V, rank 5 – U, rank 6 – Q, rank 7 – R. The trap is U, which you get by counting from the wrong end or on the wrong side. So the answer is R.
 Source: PYQ-style
 
-28. In a family of six, P is the son of Q. R is the sister of P. S is the mother of R. T is the husband of S. U is the daughter of T. How is U related to P?
-(a) Mother (b) Sister (c) Aunt (d) Cousin
-Answer: (b)
-Solution: S is mother of R, and R is sister of P, so S is also mother of P; T, husband of S, is father of P. U is daughter of T, making U a sister of P. The tempting wrong choice is Cousin, but no second couple is given to create a cousin branch, so the answer is Sister.
+27. Seven boxes S, T, U, V, W, X and Y are kept one above another in a single stack. Position 1 is the bottom and position 7 is the top. Box T is at position 3 from the bottom. Box W is somewhere below box S. Box T is immediately below box W. Box W is immediately below box Y. Box U is somewhere above box S. At which position from the bottom is box S?
+(a) 6 (b) 3 (c) 2 (d) 7
+Answer: (a)
+Solution: Fixing the clues one by one gives only one order. From 1 upwards: box 1 – V, box 2 – X, box 3 – T, box 4 – W, box 5 – Y, box 6 – S, box 7 – U. The trap is 2, which you get by counting from the wrong end or on the wrong side. So the answer is 6.
 Source: PYQ-style
 
-29. Seven lectures on subjects A, B, C, D, E, F, G are held from Monday to Sunday. A is on Thursday. B is immediately before A. C is three days after B. E is on Sunday. F is immediately after D. Which subject is on Monday?
-(a) F (b) C (c) D (d) G
+28. Six friends D, E, F, G, H and I are of different heights. Rank 1 is the shortest and rank 6 is the tallest. Exactly 2 persons are taller than one and shorter than the other of D and F. I is taller than D. F is shorter than D. Exactly 2 persons are taller than one and shorter than the other of G and I. E is shorter than G, with exactly 1 person(s) in height between them. How many persons are taller than one and shorter than the other of D and E?
+(a) 2 (b) 4 (c) 3 (d) 1
 Answer: (c)
-Solution: B is on Wednesday, C is three days later on Saturday, and E is on Sunday. The remaining days Monday, Tuesday, Friday go to D, F, G; since F must be immediately after D, D is Monday and F is Tuesday, leaving G on Friday. The tempting wrong choice is G, but G cannot be paired with F as required, so the answer is D.
+Solution: Fixing the clues one by one gives only one order. From 1 upwards: rank 1 – E, rank 2 – F, rank 3 – G, rank 4 – H, rank 5 – D, rank 6 – I. The trap is 4, which you get by counting from the wrong end or on the wrong side. So the answer is 3.
 Source: PYQ-style
 
-30. Six persons P, Q, R, S, T, U sit around a circular table facing the centre. P sits opposite S. Q sits to the immediate right of P. R sits to the immediate left of S. T sits to the immediate right of S. Who sits opposite Q?
-(a) T (b) P (c) U (d) R
-Answer: (a)
-Solution: Fix P with S opposite; Q takes the seat immediately right of P, R the seat immediately left of S, and T the seat immediately right of S, leaving U in the last seat. Counting across the table, the seat opposite Q falls on T. The tempting wrong choice is R, but R sits next to T, not opposite Q, so the answer is T.
-Source: PYQ-style
-
-31. Five friends scored different marks. Ram scored more than Shyam but less than Mohan. Sohan scored more than Mohan. Geeta scored less than Shyam. Who scored the second highest?
-(a) Shyam (b) Sohan (c) Ram (d) Mohan
+29. Six persons L, M, N, O, P and Q live on six different floors of a building. The lowest floor is numbered 1 and the top floor is numbered 6. N lives on some floor below Q. P lives on floor 5. Q lives on floor 3. Exactly 1 person lives between M and N. Who lives on the floor immediately above M?
+(a) O (b) N (c) Q (d) P
 Answer: (d)
-Solution: The order from highest is Sohan, Mohan, Ram, Shyam, Geeta. The tempting wrong choice is Sohan, who is the highest, not the second highest. Second highest is Mohan, so the answer is Mohan.
+Solution: Fixing the clues one by one gives only one order. From 1 upwards: floor 1 – L, floor 2 – N, floor 3 – Q, floor 4 – M, floor 5 – P, floor 6 – O. The trap is Q, which you get by counting from the wrong end or on the wrong side. So the answer is P.
 Source: PYQ-style
 
-32. In a row of students, Kiran is 12th from the left and 18th from the right. How many students are in the row?
-(a) 28 (b) 30 (c) 31 (d) 29
-Answer: (d)
-Solution: Total = position from left + position from right − 1 = 12 + 18 − 1 = 29. The tempting wrong choice is 30, obtained by adding 12 and 18 without subtracting the double-counted person, so the answer is 29.
-Source: PYQ-style
-
-33. Six persons P, Q, R, S, T, U are seated in two rows of three facing each other. P faces Q. R is to the left of P. S faces R. T is to the right of Q. Who faces T?
-(a) P (b) U (c) R (d) S
-Answer: (b)
-Solution: In the first row R sits left of P, so the row is R, P, U. In the facing row S faces R and Q faces P, so T, being to the right of Q, faces the remaining person U. The tempting wrong choice is S, but S faces R, so the answer is U.
-Source: PYQ-style
-
-34. A man points to a photo and says, "She is the daughter of my grandfather's only son." How is the woman related to the man?
-(a) Aunt (b) Mother (c) Sister (d) Daughter
+30. Six friends P, Q, R, S, T and U are of different heights. Rank 1 is the shortest and rank 6 is the tallest. U is just shorter than P (next rank). Q is taller than U. T is taller than R, with exactly 1 person(s) in height between them. Exactly 1 person is taller than one and shorter than the other of P and T. Who has rank 4 from the shortest?
+(a) S (b) T (c) U (d) Q
 Answer: (c)
-Solution: The grandfather's only son is the man's own father, and the father's daughter is the man's sister. The tempting wrong choice is Aunt, which comes from misreading "grandfather's son" as an uncle, but "only son" fixes it as the father, so the answer is Sister.
+Solution: Fixing the clues one by one gives only one order. From 1 upwards: rank 1 – R, rank 2 – S, rank 3 – T, rank 4 – U, rank 5 – P, rank 6 – Q. The trap is T, which you get by counting from the wrong end or on the wrong side. So the answer is U.
 Source: PYQ-style
 
-35. Five cities A, B, C, D, E are located such that A is north of B, C is south of B, D is north of C, and E is south of C. Which city is the southernmost?
-(a) C (b) D (c) E (d) B
+31. Seven persons A, B, C, D, E, F and G sit in a row facing north. C sits to the immediate right of A. A sits third from the left end. B sits second to the left of F. E sits to the immediate left of D. Who sits to the immediate right of D?
+(a) E (b) G (c) A (d) B
 Answer: (c)
-Solution: A is north of B, C is south of B, D is north of C, and E is south of C, so E lies below every other city. The tempting wrong choice is C, which is south of B but still north of E, so the answer is E.
+Solution: Fixing the clues one by one gives only one arrangement. From left to right: E, D, A, C, B, G, F. The trap is E, who is on the other side of D. So the answer is A.
 Source: PYQ-style
 
-36. Four persons W, X, Y, Z like four different colours red, blue, green, yellow. W likes neither red nor yellow. X likes blue. Y does not like red. Who likes red?
-(a) Z (b) X (c) Y (d) W
-Answer: (a)
-Solution: X likes blue; W cannot like red or yellow, so W likes green; Y cannot like red, so Y likes yellow. Red is left for Z. The tempting wrong choice is Y, but the clue directly bars Y from red, so the answer is Z.
+32. Seven friends S, T, U, V, W, X and Y are of different heights. Rank 1 is the shortest and rank 7 is the tallest. U has rank 3 from the shortest. T is just taller than W (next rank). U is shorter than X, with exactly 2 person(s) in height between them. Exactly 1 person is taller than one and shorter than the other of T and Y. X is shorter than V. What is the rank of S from the shortest?
+(a) 1 (b) 5 (c) 3 (d) 4
+Answer: (b)
+Solution: Fixing the clues one by one gives only one order. From 1 upwards: rank 1 – W, rank 2 – T, rank 3 – U, rank 4 – Y, rank 5 – S, rank 6 – X, rank 7 – V. The trap is 3, which you get by counting from the wrong end or on the wrong side. So the answer is 5.
 Source: PYQ-style
 
-37. Six books are kept on a shelf. History is to the right of Geography but to the left of Maths. English is at the extreme left. Science is between English and Geography. Civics is between History and Maths. Which book is at the extreme right?
-(a) Civics (b) History (c) Maths (d) Geography
+33. Seven persons P, Q, R, S, T, U and V sit in a row facing north. P sits between U and V (next to both). Q sits third to the left of V. S sits third from the left end. T sits to the immediate right of Q. Who sits to the immediate right of U?
+(a) P (b) V (c) R (d) T
 Answer: (c)
-Solution: The order from left is English, Science, Geography, History, Civics, Maths, which satisfies every clue. The tempting wrong choice is Civics, but Civics must sit between History and Maths, so it cannot be last. The extreme right book is Maths, so the answer is Maths.
+Solution: Fixing the clues one by one gives only one arrangement. From left to right: Q, T, S, V, P, U, R. The trap is P, who is on the other side of U. So the answer is R.
 Source: PYQ-style
 
-38. In a family, A is the brother of B. B is the daughter of C. D is the father of A. E is the son of D. How is E related to B?
-(a) Cousin (b) Father (c) Uncle (d) Brother
+34. Seven lectures P, Q, R, S, T, U and V are held on seven consecutive days of one week, from Monday to Sunday, one lecture a day. Exactly 3 lectures are held between T and U. R is held 3 days after P. P is held on some day after S. P is held on some day after Q. Which lecture is held on Thursday?
+(a) V (b) Q (c) S (d) P
 Answer: (d)
-Solution: D is father of A, and A is brother of B, so D is also father of B. E is son of D, hence E is brother of B. The tempting wrong choice is Cousin, which assumes E belongs to another branch, but all share father D, so the answer is Brother.
+Solution: Fixing the clues one by one gives only one order. From 1 upwards: Monday – T, Tuesday – S, Wednesday – Q, Thursday – P, Friday – U, Saturday – V, Sunday – R. So the answer is P.
 Source: PYQ-style
 
-39. Seven persons stand in a queue. Ganesh is at the front. Mahesh is immediately behind Ganesh. Ramesh is immediately behind Mahesh. Suresh is immediately behind Ramesh. Dinesh is behind Suresh. Mukesh is behind Dinesh. Who is exactly in the middle of the queue?
-(a) Suresh (b) Dinesh (c) Mahesh (d) Ramesh
+35. Seven persons S, T, U, V, W, X and Y live on seven different floors of a building. The lowest floor is numbered 1 and the top floor is numbered 7. Exactly 1 person lives between V and X. X lives on some floor below U. Y lives 2 floors below T. Exactly 3 persons live between T and V. X lives on some floor above S. Who lives on floor 6?
+(a) U (b) T (c) Y (d) W
 Answer: (a)
-Solution: The order from front is Ganesh, Mahesh, Ramesh, Suresh, Dinesh, Mukesh, and the seventh person at the rear. With seven persons the middle is the 4th position, which is Suresh. The tempting wrong choice is Ramesh, who is 3rd, not 4th, so the answer is Suresh.
+Solution: Fixing the clues one by one gives only one order. From 1 upwards: floor 1 – Y, floor 2 – W, floor 3 – T, floor 4 – S, floor 5 – X, floor 6 – U, floor 7 – V. The trap is W, which you get by counting from the wrong end or on the wrong side. So the answer is U.
 Source: PYQ-style
 
-40. Five friends A, B, C, D, E have birthdays in different months from January to May. A's birthday is in March. B's is before A's but not in January. C's is immediately after A's. D's is in January. In which month is E's birthday?
-(a) April (b) May (c) February (d) January
+36. Seven boxes D, E, F, G, H, I and J are kept one above another in a single stack. Position 1 is the bottom and position 7 is the top. Exactly 1 box is kept between box F and box J. Box I is somewhere above box F. Box H is either at the top or at the bottom. Box I is at position 4 from the bottom. Box E is 2 places below box I. Box J is somewhere above box G. How many boxes are kept between box D and box J?
+(a) 1 (b) 0 (c) 2 (d) 4
 Answer: (b)
-Solution: D is January, B is February (before March but not January), A is March, and C is immediately after A, so C is April. The only month left for E is May. The tempting wrong choice is April, but April is fixed for C, so the answer is May.
+Solution: Fixing the clues one by one gives only one order. From 1 upwards: box 1 – G, box 2 – E, box 3 – F, box 4 – I, box 5 – J, box 6 – D, box 7 – H. The trap is 1, which you get by counting from the wrong end or on the wrong side. So the answer is 0.
 Source: PYQ-style
 
-41. In a circular arrangement of six people facing the centre, A is opposite D. B is to the immediate left of A. C is between D and E. Who is to the immediate right of D?
-(a) E (b) F (c) C (d) B
-Answer: (b)
-Solution: Fix A with D opposite; B is immediate left of A. C sits between D and E, so C and E occupy the two seats on one side of D, leaving F on the other side, which is the immediate right of D. The tempting wrong choice is C, but C is separated from D's right side by the "between" clue, so the answer is F.
-Source: PYQ-style
-
-42. Pointing to a man, a woman said, "His mother is the only daughter of my mother." How is the woman related to the man?
-(a) Mother (b) Aunt (c) Sister (d) Grandmother
-Answer: (a)
-Solution: The only daughter of the woman's mother is the woman herself, so the man's mother is the woman speaking. The tempting wrong choice is Sister, which comes from thinking "only daughter" refers to someone else in the family, so the answer is Mother.
-Source: PYQ-style
-
-43. Six employees work on six different floors numbered 1 to 6. K works on floor 4. L is above K. M is below K but not on floor 1. N is on floor 1. O is immediately below L. On which floor does O work?
-(a) 2 (b) 5 (c) 6 (d) 3
-Answer: (b)
-Solution: K is on 4 and N on 1; M is below K but not on 1, so M is on 2 or 3. L is above K on floor 5 or 6; if L were on 5, O would be on 4, but K is there, so L is on 6 and O is on 5. The tempting wrong choice is 6, which is L's floor, not O's, so the answer is 5.
-Source: PYQ-style
-
-44. In a row facing north, X is 7th from the left and Y is 9th from the right. If they interchange positions, X becomes 11th from the left. How many persons are in the row?
-(a) 19 (b) 18 (c) 20 (d) 21
-Answer: (a)
-Solution: After the interchange X sits at Y's original seat, which is 11th from the left and 9th from the right. Total = 11 + 9 − 1 = 19. The tempting wrong choice is 20, obtained by adding without subtracting the double-counted seat, so the answer is 19.
-Source: PYQ-style
-
-45. Five boxes contain different items. The red box is heavier than the blue box but lighter than the green box. The yellow box is heavier than the green box. The black box is lighter than the blue box. Which is the lightest box?
-(a) Blue (b) Green (c) Red (d) Black
+37. Six boxes A, B, C, D, E and F are kept one above another in a single stack. Position 1 is the bottom and position 6 is the top. Box B is somewhere below box A. Box C is somewhere above box A. Exactly 2 boxes are kept between box B and box E. Box D is at position 5 from the bottom. Box F is somewhere above box C. Which box is at position 2 from the bottom?
+(a) C (b) D (c) B (d) A
 Answer: (d)
-Solution: The order from heaviest is Yellow, Green, Red, Blue, Black. The tempting wrong choice is Blue, which is lighter than Red but still heavier than Black. The lightest is Black, so the answer is Black.
+Solution: Fixing the clues one by one gives only one order. From 1 upwards: box 1 – B, box 2 – A, box 3 – C, box 4 – E, box 5 – D, box 6 – F. The trap is D, which you get by counting from the wrong end or on the wrong side. So the answer is A.
 Source: PYQ-style
 
-46. A is the mother of B. C is the son of A. D is the brother of E. E is the daughter of B. How is D related to A?
-(a) Nephew (b) Son (c) Grandson (d) Brother
+38. Seven persons J, K, L, M, N, O and P sit in a row facing north. M sits second to the right of O. K sits to the immediate right of J. P sits between K and N (next to both). O sits at one of the ends. Who sits third to the right of M?
+(a) P (b) J (c) K (d) O
+Answer: (a)
+Solution: Fixing the clues one by one gives only one arrangement. From left to right: O, L, M, J, K, P, N. So the answer is P.
+Source: PYQ-style
+
+39. Seven lectures A, B, C, D, E, F and G are held on seven consecutive days of one week, from Monday to Sunday, one lecture a day. Exactly 1 lecture is held between C and F. Exactly 1 lecture is held between D and E. B is held on the day immediately after D. G is held 3 days before A. Which lecture is held on the day just after E?
+(a) F (b) D (c) B (d) A
+Answer: (d)
+Solution: Fixing the clues one by one gives only one order. From 1 upwards: Monday – C, Tuesday – G, Wednesday – F, Thursday – E, Friday – A, Saturday – D, Sunday – B. The trap is F, which you get by counting from the wrong end or on the wrong side. So the answer is A.
+Source: PYQ-style
+
+40. Seven lectures A, B, C, D, E, F and G are held on seven consecutive days of one week, from Monday to Sunday, one lecture a day. G is held 2 days before F. C is held on the day immediately after B. F is held on some day before E. F is held on Thursday. How many lectures are held between D and G?
+(a) 2 (b) 3 (c) 1 (d) 0
+Answer: (d)
+Solution: Fixing the clues one by one gives only one order. From 1 upwards: Monday – A, Tuesday – G, Wednesday – D, Thursday – F, Friday – E, Saturday – B, Sunday – C. The trap is 1, which you get by counting from the wrong end or on the wrong side. So the answer is 0.
+Source: PYQ-style
+
+41. Seven persons A, B, C, D, E, F and G sit in a row facing north. D sits at one of the ends. C sits third to the left of A. E sits third to the left of B. How many persons sit between F and G?
+(a) 1 (b) 2 (c) 3 (d) 5
+Answer: (b)
+Solution: Fixing the clues one by one gives only one arrangement. From left to right: D, E, C, G, B, A, F. So the answer is 2.
+Source: PYQ-style
+
+42. Six persons J, K, L, M, N and O live on six different floors of a building. The lowest floor is numbered 1 and the top floor is numbered 6. N lives on the floor immediately below M. Exactly 3 persons live between J and K. Exactly 1 person lives between N and O. Exactly 2 persons live between M and O. On which floor does O live?
+(a) 3 (b) 1 (c) 6 (d) 5
+Answer: (b)
+Solution: Fixing the clues one by one gives only one order. From 1 upwards: floor 1 – O, floor 2 – J, floor 3 – N, floor 4 – M, floor 5 – L, floor 6 – K. The trap is 6, which you get by counting from the wrong end or on the wrong side. So the answer is 1.
+Source: PYQ-style
+
+43. Seven persons D, E, F, G, H, I and J live on seven different floors of a building. The lowest floor is numbered 1 and the top floor is numbered 7. G lives 2 floors below H. J lives either on the top floor or on floor 1. I lives 2 floors above F. J lives on the floor immediately above H. H lives on the floor immediately above E. How many persons live between I and E?
+(a) 1 (b) 3 (c) 4 (d) 2
+Answer: (a)
+Solution: Fixing the clues one by one gives only one order. From 1 upwards: floor 1 – F, floor 2 – D, floor 3 – I, floor 4 – G, floor 5 – E, floor 6 – H, floor 7 – J. The trap is 2, which you get by counting from the wrong end or on the wrong side. So the answer is 1.
+Source: PYQ-style
+
+44. Six boxes P, Q, R, S, T and U are kept one above another in a single stack. Position 1 is the bottom and position 6 is the top. Box Q is somewhere above box S. Exactly 2 boxes are kept between box P and box T. Box U is at position 5 from the bottom. Box R is at position 4 from the bottom. Which box is at position 2 from the bottom?
+(a) Q (b) P (c) U (d) T
+Answer: (a)
+Solution: Fixing the clues one by one gives only one order. From 1 upwards: box 1 – S, box 2 – Q, box 3 – P, box 4 – R, box 5 – U, box 6 – T. The trap is U, which you get by counting from the wrong end or on the wrong side. So the answer is Q.
+Source: PYQ-style
+
+45. Eight persons S, T, U, V, W, X, Y and Z sit around a circular table, facing the centre. Z sits second to the right of T. V sits opposite Y. T sits to the immediate right of Y. Who sits to the immediate left of V?
+(a) Y (b) Z (c) W (d) T
+Answer: (b)
+Solution: Fixing the clues one by one gives only one arrangement. Going clockwise: V, Z, X, T, Y, S, U, W (facing the centre, a person's left is clockwise). The trap is W, who is on the other side of V. So the answer is Z.
+Source: PYQ-style
+
+46. Seven friends L, M, N, O, P, Q and R are of different heights. Rank 1 is the shortest and rank 7 is the tallest. R is shorter than O, with exactly 2 person(s) in height between them. Q has rank 2 from the shortest. O is taller than N. O is taller than M. Exactly 3 persons are taller than one and shorter than the other of L and R. Who has rank 6 from the shortest?
+(a) O (b) M (c) R (d) Q
+Answer: (a)
+Solution: Fixing the clues one by one gives only one order. From 1 upwards: rank 1 – P, rank 2 – Q, rank 3 – R, rank 4 – N, rank 5 – M, rank 6 – O, rank 7 – L. The trap is Q, which you get by counting from the wrong end or on the wrong side. So the answer is O.
+Source: PYQ-style
+
+47. Seven lectures D, E, F, G, H, I and J are held on seven consecutive days of one week, from Monday to Sunday, one lecture a day. G is held 2 days before F. J is held on the day immediately before H. D is held on Monday. Exactly 3 lectures are held between D and J. How many lectures are held between E and J?
+(a) 5 (b) 2 (c) 3 (d) 1
+Answer: (d)
+Solution: Fixing the clues one by one gives only one order. From 1 upwards: Monday – D, Tuesday – G, Wednesday – E, Thursday – F, Friday – J, Saturday – H, Sunday – I. The trap is 2, which you get by counting from the wrong end or on the wrong side. So the answer is 1.
+Source: PYQ-style
+
+48. Seven boxes L, M, N, O, P, Q and R are kept one above another in a single stack. Position 1 is the bottom and position 7 is the top. Box L is 3 places below box P. Box R is 3 places below box M. Box L is immediately below box N. Box L is somewhere below box R. Which box is immediately below box P?
+(a) O (b) L (c) R (d) Q
 Answer: (c)
-Solution: A is mother of B, and E is daughter of B, so E is granddaughter of A; D, brother of E, is therefore grandson of A. The tempting wrong choice is Nephew, which wrongly links D through C instead of through B, so the answer is Grandson.
+Solution: Fixing the clues one by one gives only one order. From 1 upwards: box 1 – L, box 2 – N, box 3 – R, box 4 – P, box 5 – Q, box 6 – M, box 7 – O. The trap is Q, which you get by counting from the wrong end or on the wrong side. So the answer is R.
 Source: PYQ-style
 
-47. Eight boxes are stacked. Box A is immediately above Box B. Box C is immediately below Box B. Box D is at the top. Box E is immediately below Box D. Box F is at the bottom. Box G is immediately above Box F. Where is Box H?
-(a) Between B and C (b) Between G and F (c) Immediately above D (d) Between E and A
-Answer: (d)
-Solution: From the top the fixed order is D, E, then the block A, B, C, then G, F — that is seven boxes. The eighth box H must fit between E and A to complete the stack. The tempting wrong choice is between B and C, but A, B, C form a fixed consecutive block, so the answer is Between E and A.
-Source: PYQ-style
-
-48. In a group, P is taller than Q. R is shorter than S. Q is taller than S. T is shorter than R. Who is the shortest?
-(a) T (b) S (c) Q (d) R
+49. Seven persons S, T, U, V, W, X and Y live on seven different floors of a building. The lowest floor is numbered 1 and the top floor is numbered 7. V lives on some floor below Y. Y lives on the floor immediately above S. X lives on the floor immediately above T. Exactly 1 person lives between W and Y. T lives 2 floors above Y. On which floor does U live?
+(a) 5 (b) 1 (c) 3 (d) 7
 Answer: (a)
-Solution: The height order is P, Q, S, R, T from tallest to shortest. The tempting wrong choice is R, which forgets that T is shorter than R. The shortest is T, so the answer is T.
+Solution: Fixing the clues one by one gives only one order. From 1 upwards: floor 1 – V, floor 2 – W, floor 3 – S, floor 4 – Y, floor 5 – U, floor 6 – T, floor 7 – X. The trap is 3, which you get by counting from the wrong end or on the wrong side. So the answer is 5.
 Source: PYQ-style
 
-49. Six friends G, H, I, J, K, L sit in a row facing north. G is third to the left of H. I is to the immediate right of H. J is at the extreme right end. K sits between G and L. Who sits at the extreme left end?
-(a) G (b) K (c) L (d) I
-Answer: (a)
-Solution: Facing north, left and right match the observer's left and right. G is three places left of H and I is immediately right of H, giving G, _, _, H, I with J at the extreme right; K between G and L fills the two gaps as K then L, giving G, K, L, H, I, J. The tempting wrong choice is L, but L sits between K and H, not at an end, so the answer is G.
-Source: PYQ-style
-
-50. A, B, C, D, E are five houses in a row. A is to the right of B. C is to the left of D. E is to the right of A. B is to the right of D. Which house is in the middle?
-(a) A (b) B (c) D (d) E
+50. Six lectures P, Q, R, S, T and U are held on six consecutive days of one week, from Monday to Saturday, one lecture a day. P is held on the day immediately after Q. S is held 3 days after P. Exactly 1 lecture is held between R and S. Which lecture is held on the day just after P?
+(a) T (b) R (c) Q (d) U
 Answer: (b)
-Solution: Chaining the clues gives the left-to-right order C, D, B, A, E. The tempting wrong choice is A, which feels central but is actually fourth. The middle (third) house is B, so the answer is B.
+Solution: Fixing the clues one by one gives only one order. From 1 upwards: Monday – U, Tuesday – Q, Wednesday – P, Thursday – R, Friday – T, Saturday – S. The trap is Q, which you get by counting from the wrong end or on the wrong side. So the answer is R.
 Source: PYQ-style
