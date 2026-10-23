@@ -28,6 +28,8 @@ Study Station is an independent educational app. It is not affiliated with or en
 Support: all.chandansingh@gmail.com
 Privacy: https://studystation.ebookcart.in/privacy
 
+New accounts can start a 3-day trial without payment. There is no automatic charge or renewal. After the trial, choose access for ₹9 per month or ₹51 per year. Offline study requires one internet access check each day.
+
 ## हिन्दी
 
 **ऐप का नाम:** Study Station
@@ -53,6 +55,8 @@ Study Station एक स्वतंत्र शैक्षिक ऐप ह�
 
 सहायता: all.chandansingh@gmail.com
 गोपनीयता: https://studystation.ebookcart.in/privacy
+
+नए खाते के लिए 3 दिन का trial। Trial के लिए भुगतान ज़रूरी नहीं और अपने-आप पैसा नहीं कटता। उसके बाद ₹9 प्रति माह या ₹51 प्रति वर्ष का access plan चुनें। ऑफलाइन पढ़ाई के लिए रोज़ एक बार इंटरनेट पर access जाँच ज़रूरी है।
 
 ## Claim exclusions and assets
 
