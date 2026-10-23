@@ -1,5 +1,5 @@
 """Telegram promotion: picker rules, explanation text, Telegram client, posted-log, slot runs."""
-from datetime import date
+from datetime import date, datetime
 
 import httpx
 import pytest
@@ -155,3 +155,29 @@ def test_dry_run_changes_nothing(monkeypatch, capsys):
     assert cli.main(['telegram', '--slot', 'trick', '--dry-run', '--date', '2026-10-23']) == 0
     assert 'आज की ट्रिक' in capsys.readouterr().out
     assert not sent and not plog.POSTED.exists()
+
+
+def test_auto_posts_each_slot_once_inside_its_window(monkeypatch):
+    sent = fake_telegram(monkeypatch)
+    day = '2026-10-23'                                                      # a Friday
+    run = lambda now: cli.main(['telegram', '--slot', 'auto', '--date', day, '--now', now])
+    assert run('06:00') == 0 and not sent                                   # too early
+    assert run('11:05') == 0                                                # schedule was late: still posts
+    assert len(plog.batches(plog.load(), day, 'quiz')) == 1
+    n = len(sent)
+    assert run('11:35') == 0 and len(sent) == n                             # already done
+    assert run('15:00') == 0 and len(plog.batches(plog.load(), day, 'trick')) == 1
+    assert run('19:00') == 0 and len(plog.batches(plog.load(), day, 'quiz')) == 2
+    assert run('19:30') == 0 and len(plog.batches(plog.load(), day, 'quiz')) == 2   # evening done once
+    assert run('22:10') == 0 and len(plog.batches(plog.load(), day, 'revision')) == 1
+    assert not plog.batches(plog.load(), day, 'weekly')
+    n = len(sent)
+    assert run('23:30') == 0 and len(sent) == n
+
+
+def test_auto_windows():
+    data = {'telegram': [], 'shorts': [], 'days': {}}
+    t = lambda hm: datetime.strptime(hm, '%H:%M').time()
+    assert cli.due_slots(date(2026, 10, 23), t('19:00'), data) == [('quiz', 'pm')]   # morning missed: evening still goes
+    assert cli.due_slots(date(2026, 10, 23), t('12:10'), data) == []                 # morning window is over
+    assert cli.due_slots(date(2026, 10, 25), t('10:30'), data) == [('quiz', 'am'), ('weekly', None)]

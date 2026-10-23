@@ -8,7 +8,7 @@ import argparse
 import html
 import os
 import sys
-from datetime import date, datetime, timedelta, timezone
+from datetime import date, datetime, time, timedelta, timezone
 
 from pathlib import Path
 
@@ -27,7 +27,16 @@ def poll_question(q):
     return f"[{pick.SUBJECT_HI.get(q['subject'], q['subject'])}] {q['question']}"
 
 
-def plan(slot, day, data):
+def part_now():
+    return 'am' if datetime.now(IST).hour < 15 else 'pm'
+
+
+def quiz_parts(data, day):
+    """Which quiz batches went out today: {'am', 'pm'} (batches from before the tag count as 'am')."""
+    return {(b[0].get('part') or 'am') for b in plog.batches(data, day.isoformat(), 'quiz') if b}
+
+
+def plan(slot, day, data, part=None):
     """What this slot posts: a list of ('html', text) / ('poll', item) steps."""
     ids = set(data['telegram'])
     if slot == 'quiz':
@@ -36,7 +45,7 @@ def plan(slot, day, data):
         qs = pick.pick_quiz(day, len(done), ids, used)
         if not qs:
             return []
-        when = 'सुबह' if not done else 'शाम'
+        when = 'सुबह' if (part or part_now()) == 'am' else 'शाम'
         level = pick.LEVEL_HI.get(qs[0]['level'], '') if len({q['level'] for q in qs}) == 1 else 'मिला-जुला स्तर'
         head = (f'<b>🎯 {when} के {len(qs)} सवाल</b> ({level})\n'
                 f'उत्तर चुनें — गलत होने पर 💡 दबाकर हल देखें। रात 8:30 बजे सभी उत्तर + हल।\n\n{footer()}')
@@ -87,9 +96,10 @@ def show(steps):
             print(f"  💡 {q['explanation']}\n")
 
 
-def run(slot, day, data):
+def run(slot, day, data, part=None):
     """Post the steps; record what went out even if a later send fails."""
-    steps = plan(slot, day, data)
+    part = part or part_now()
+    steps = plan(slot, day, data, part)
     sent, error = [], None
     try:
         for step in steps:
@@ -101,7 +111,8 @@ def run(slot, day, data):
                 q = step[1]
                 msg = telegram.send_poll(poll_question(q), q['options'], q['answer'], q['explanation'])
                 sent.append({'id': q['id'], 'msg': msg, 'chapter': q['chapter'], 'q': q['question'],
-                             'ans': q['answer'], 'opt': q['options'][q['answer']], 'exp': q['explanation']})
+                             'ans': q['answer'], 'opt': q['options'][q['answer']], 'exp': q['explanation'],
+                             'part': part})
     except telegram.TelegramError as e:
         error = e
     if sent:
@@ -147,6 +158,31 @@ def run_shorts(a, day, data):
     return 0 if len(made) == len(qs) and made and not error else 1
 
 
+# GitHub often drops or delays scheduled runs (hours), so the workflow wakes every 30 minutes with --slot auto and
+# each slot goes out once, any time inside its window. (slot, quiz batch, from, until) in IST; weekly only on Sunday.
+WINDOWS = [('quiz', 'am', time(7, 30), time(12, 0)), ('trick', None, time(12, 30), time(17, 30)),
+           ('weekly', None, time(10, 0), time(17, 0)), ('quiz', 'pm', time(18, 0), time(20, 15)),
+           ('revision', None, time(20, 30), time(23, 59))]
+
+
+def due_slots(day, now, data):
+    """[(slot, part)] that are due at `now` (IST) and have not gone out today."""
+    out = []
+    parts = quiz_parts(data, day)
+    for slot, part, start, end in WINDOWS:
+        if not start <= now <= end or (slot == 'weekly' and day.weekday() != 6):
+            continue
+        if slot == 'quiz':
+            if part not in parts:
+                out.append((slot, part))
+        elif slot == 'revision':
+            if parts and not plog.batches(data, day.isoformat(), slot):
+                out.append((slot, None))
+        elif not plog.batches(data, day.isoformat(), slot):
+            out.append((slot, None))
+    return out
+
+
 def main(argv=None):
     try:
         sys.stdout.reconfigure(encoding='utf-8', errors='replace')
@@ -156,7 +192,9 @@ def main(argv=None):
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest='cmd', required=True)
     t = sub.add_parser('telegram', help='post one slot to the Telegram channel')
-    t.add_argument('--slot', required=True, choices=['quiz', 'trick', 'revision', 'weekly'])
+    t.add_argument('--slot', required=True, choices=['auto', 'quiz', 'trick', 'revision', 'weekly'],
+                   help='auto = post every slot that is due now (IST) and not posted yet today')
+    t.add_argument('--now', help='HH:MM IST for --slot auto (default: now; for testing)')
     t.add_argument('--dry-run', action='store_true')
     t.add_argument('--date', help='YYYY-MM-DD (default: today in IST)')
     sh = sub.add_parser('shorts', help='render vertical quiz videos + captions')
@@ -171,6 +209,15 @@ def main(argv=None):
     data = plog.load()
     if a.cmd == 'shorts':
         return run_shorts(a, day, data)
+    if a.slot == 'auto':
+        now = datetime.strptime(a.now, '%H:%M').time() if a.now else datetime.now(IST).time()
+        slots = due_slots(day, now, data)
+        print(f"auto {day} {now.strftime('%H:%M')} IST: due {[s for s, _ in slots] or 'nothing'}")
+        if a.dry_run:
+            for slot, part in slots:
+                show(plan(slot, day, data, part))
+            return 0
+        return max([run(slot, day, data, part) for slot, part in slots] or [0])
     if a.dry_run:
         show(plan(a.slot, day, data))
         return 0
