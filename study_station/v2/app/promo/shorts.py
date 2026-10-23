@@ -281,7 +281,8 @@ def ffmpeg_cmd(listfile, out):
     return ['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', str(listfile),
             '-f', 'lavfi', '-i', 'anullsrc=r=44100:cl=stereo', '-shortest',
             '-vf', 'fps=30,format=yuv420p', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '22',
-            '-c:a', 'aac', '-b:a', '64k', '-movflags', '+faststart', str(out)]
+            '-c:a', 'aac', '-b:a', '64k', '-t', str(sum(secs for _, secs in SCENES)),
+            '-movflags', '+faststart', str(out)]
 
 
 def render(q, out_mp4, workdir):

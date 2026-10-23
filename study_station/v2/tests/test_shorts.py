@@ -43,6 +43,7 @@ def test_render_builds_the_ffmpeg_command(monkeypatch, tmp_path):
     shorts.render(Q, tmp_path / 'out.mp4', tmp_path / 'w')
     cmd = seen['cmd']
     assert cmd[0] == 'ffmpeg' and cmd[-1] == str(tmp_path / 'out.mp4')
+    assert float(cmd[cmd.index('-t') + 1]) == 24
     assert '+faststart' in cmd and 'libx264' in cmd and 'aac' in cmd and 'anullsrc=r=44100:cl=stereo' in cmd
     durations = [float(l.split()[1]) for l in seen['list'].splitlines() if l.startswith('duration')]
     assert abs(sum(durations) - 24) < 0.01
