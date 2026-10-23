@@ -204,7 +204,7 @@ async def question_save(qid: int, request: Request, _: bool = Depends(require_ad
         raise HTTPException(400, 'question needs Hindi or English text')
     q.answer_index = int(form.get('answer_index', q.answer_index))
     if q.answer_index not in (0, 1, 2, 3):
-        raise HTTPException(400, 'answer must be A–D')
+        raise HTTPException(400, 'answer must be Aâ€“D')
     q.difficulty = form.get('difficulty') if form.get('difficulty') in ('easy', 'medium', 'hard') else q.difficulty
     if form.get('topic_id'):
         q.topic_id = int(form['topic_id'])
@@ -282,7 +282,7 @@ async def job_save(jid: int, request: Request, _: bool = Depends(require_admin),
     job.last_date_text = job.last_date.strftime('%d-%m-%Y') if job.last_date else job.last_date_text
     if action == 'verify':
         if not is_official(job.notification_url or ''):
-            raise HTTPException(400, 'Verify needs an official notification URL (gov.in/nic.in/… or a listed board)')
+            raise HTTPException(400, 'Verify needs an official notification URL (gov.in/nic.in/â€¦ or a listed board)')
         job.status, job.verified_at = 'verified', datetime.utcnow()
     elif action == 'unpublish':
         job.status = 'pending'
@@ -319,3 +319,33 @@ def run(what: str, _: bool = Depends(require_admin)):
         subprocess.Popen([sys.executable, '-m', 'app.jobs', *RUNS[what]], cwd=APP_DIR.parent,
                          stdout=fh, stderr=subprocess.STDOUT, start_new_session=True)
     return back('/admin#runs')
+
+
+# Community reports are private to authenticated moderators; actions are audited.
+@router.get('/community', response_class=HTMLResponse)
+def community_queue(request: Request, report_id: str = '', _: bool = Depends(require_admin), db: Session = Depends(get_db)):
+    from .ugc import Report
+    rows=list(db.scalars(select(Report).order_by(Report.resolved_at.is_not(None),Report.created_at).limit(25)))
+    if report_id and not any(r.id == report_id for r in rows):
+        selected = db.get(Report, report_id)
+        if selected: rows.insert(0, selected)
+    records={r.id:(r.evidence if r.id == report_id else None) for r in rows}
+    return page(request,'community.html',reports=rows,records=records)
+
+@router.post('/community/{report_id}')
+def moderate_community(report_id: str, request: Request, action: str = Form(...), note: str = Form(''),
+                        _: bool = Depends(require_admin), db: Session = Depends(get_db)):
+    from .ugc import Report,Moderation,Suspension
+    if action not in ('dismiss','remove','suspend') or not note.strip() or len(note)>2000:
+        raise HTTPException(400,'Invalid moderation action')
+    report=db.get(Report,report_id)
+    if not report:raise HTTPException(404,'Report not found')
+    if report.resolved_at:raise HTTPException(409,'Already resolved')
+    if action in ('remove','suspend') and not report.record_id:
+        raise HTTPException(409,'Reported content was deleted')
+    if action == 'suspend' and not report.owner_id:
+        raise HTTPException(409,'Reported account was deleted')
+    if action in ('remove','suspend') and not db.get(Moderation,report.record_id):db.add(Moderation(record_id=report.record_id))
+    if action=='suspend' and not db.get(Suspension,report.owner_id):db.add(Suspension(account_id=report.owner_id))
+    report.action=action;report.note=note.strip();report.resolved_at=datetime.utcnow();db.commit()
+    return back('/admin/community')

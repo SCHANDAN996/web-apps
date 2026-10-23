@@ -53,9 +53,12 @@ def test_android_association_is_public_and_matches_current_build(client):
     assert response.status_code == 200
     assert response.headers['content-type'].startswith('application/json')
     association = response.json()
-    assert len(association) == 1
-    assert association[0]['target']['package_name'] == 'com.studystation.app.debug'
-    assert len(association[0]['target']['sha256_cert_fingerprints'][0].split(':')) == 32
+    targets = {entry['target']['package_name']: entry['target'] for entry in association}
+    assert set(targets) == {'com.studystation.app.debug', 'com.studystation.app'}
+    for target in targets.values():
+        assert target['namespace'] == 'android_app'
+        assert all(len(value.split(':')) == 32 for value in target['sha256_cert_fingerprints'])
+    assert '95:5A:EB:76:AE:DE:50:C5:66:AC:E3:76:22:30:68:03:47:85:8D:5B:D4:99:B4:97:8A:EB:17:BC:BE:F1:7B:7E' in targets['com.studystation.app']['sha256_cert_fingerprints']
     assert 'set-cookie' not in response.headers
 
 

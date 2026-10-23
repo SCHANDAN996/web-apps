@@ -44,7 +44,7 @@ from .models import AiUsage
 log = logging.getLogger('bookgen')
 BOOK_USAGE_ID = -1                 # AiUsage.device_id for the bookgen budget (not a real device)
 MAX_TOKENS = 16000                 # non-streaming calls must stay well under the SDK's 10-minute limit
-NVIDIA_MAX_TOKENS = 32000          # NVIDIA calls stream; long Hindi sections need more than 16k tokens
+NVIDIA_MAX_TOKENS = 64000          # NVIDIA calls stream; long Hindi sections and reasoning models (GLM thinks before answering) need room
 PRACTICE = re.compile(r'^Practice_(en|hi)_Set_(\d+)\.txt$')
 PUZZLE_CHAPTER = re.compile(r'Sitting|Seating|Puzzle|Order_Ranking', re.I)   # gets the solver check too
 LANG_NAME = {'hi': 'Hindi (Devanagari)', 'en': 'English'}
@@ -163,7 +163,7 @@ def _nvidia_second_opinion(system, user, model=None):
     models = [first] + [m for m in [config.NVIDIA_CHECK_MODEL, *config.NVIDIA_FALLBACK_MODELS] if m != first]
     for i, model in enumerate(models):
         try:
-            return nvidia.call(system, user, max_tokens=MAX_TOKENS, temperature=0, model=model)
+            return nvidia.call(system, user, max_tokens=NVIDIA_MAX_TOKENS, temperature=0, model=model)
         except ai.AIUnavailable as e:
             if str(e) not in ('empty', 'api_error', 'bad_request', 'too_long', 'network', 'rate_limited') \
                     or i == len(models) - 1:

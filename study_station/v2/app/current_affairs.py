@@ -32,7 +32,7 @@ SOURCES = [
     ('air', 'https://newsonair.gov.in/category/national/feed/', 'AIR'),
     ('air', 'https://newsonair.gov.in/category/business/feed/', 'AIR'),
     ('air', 'https://newsonair.gov.in/category/sports/feed/', 'AIR'),
-    ('air', 'https://newsonair.gov.in/category/science-technology/feed/', 'AIR'),
+    ('air', 'https://newsonair.gov.in/category/miscellaneous/feed/', 'AIR'),   # science/environment (science-technology feed is empty)
     ('air', 'https://newsonair.gov.in/category/international/feed/', 'AIR'),
     ('pib', 'https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=3', 'PIB'),
 ]

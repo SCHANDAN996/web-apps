@@ -1,0 +1,21 @@
+{% extends 'admin/base.html' %}
+{% block title %}Community moderation{% endblock %}
+{% block main %}
+<h1>Community reports / साझा सामग्री की शिकायतें</h1>
+<p>Inspect reported text and drawings before deciding. Remove hides the record; suspend also revokes account access. Reporter IDs are never shown to learners.</p>
+{% for r in reports %}{% set content=records.get(r.id) %}
+<section class="card" style="padding:var(--sp-4);margin-block:var(--sp-4)">
+<h2>{{ r.reason }} · {{ r.id }}</h2>
+<p>Content {{ r.record_id }} · owner {{ r.owner_id }} · reporter {{ r.reporter_id }} · {{ r.created_at }}</p>
+<p>{{ r.text }}</p><a class="btn btn-secondary" href="/admin/community?report_id={{ r.id }}">Inspect saved evidence / सामग्री देखें</a>
+{% if content %}<h3>{{ content.kind }}</h3><pre class="log">{{ content.data|tojson(indent=2) }}</pre>
+{% if content.data.get('snapshot') %}<div class="moderation-snapshot" data-snapshot='{{ content.data.snapshot|tojson }}'></div>{% endif %}
+{% else %}<p>Open the saved evidence to inspect this report.</p>{% endif %}
+{% if not r.resolved_at %}<form method="post" action="/admin/community/{{ r.id }}">
+<label class="f">Decision / निर्णय<select name="action" required><option value="dismiss">Dismiss / कोई उल्लंघन नहीं</option><option value="remove">Remove content / सामग्री हटाएँ</option><option value="suspend">Remove and suspend account / अकाउंट निलंबित करें</option></select></label>
+<label class="f">Review notes / समीक्षा<textarea name="note" maxlength="2000" required></textarea></label><button class="btn btn-primary">Apply decision / निर्णय लागू करें</button></form>
+{% else %}<p>{{ r.action }} · {{ r.resolved_at }} · {{ r.note }}</p>{% endif %}
+</section>{% else %}<p>No community reports / कोई शिकायत नहीं</p>{% endfor %}
+<script src="/static/js/workspace-renderer.js?v={{ asset_v }}"></script>
+<script src="/static/js/community-moderation.js?v={{ asset_v }}" defer></script>
+{% endblock %}

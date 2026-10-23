@@ -8,6 +8,10 @@ from .classroom_models import (ClassroomAccount as Account, ClassroomSession as 
     ClassroomRecord as Record, ClassroomMember as Member, ClassroomEvent as Event,
     ClassroomOperation as Operation)
 from .google_auth_models import GoogleIdentity
+from .membership_models import Membership, MembershipGrant
+from .payu_models import PayUOrder
+from .play_billing_models import PlayPurchase
+from .play_choice_models import PlayChoice
 
 router = APIRouter(prefix='/api/v1/classroom')
 
@@ -28,7 +32,7 @@ def counts(rows):
 
 @router.get('/account')
 def preview(request: Request, response: Response, db=Depends(get_db)):
-    account = require(request, db)
+    account = require(request, db, allow_suspended=True)
     response.headers['Cache-Control'] = 'no-store'
     return dict(account=public_account(account), counts=counts(affected(db, account.id)),
                 local_data_preserved=True, includes_owned_group_content=True)
@@ -54,12 +58,38 @@ async def remove_account(request: Request, response: Response, db=Depends(get_db
     if db.bind.dialect.name == 'sqlite':
         db.connection().exec_driver_sql('BEGIN IMMEDIATE')
     try:
-        account = require(request, db)
+        account = require(request, db, allow_suspended=True)
         if data.get('confirm') is not True or data.get('username') != account.username:
             fail('account_delete_confirmation_required', 400)
         aid = account.id
+        from .ugc import Acceptance, Block, Report, Suspension
+        db.execute(delete(Acceptance).where(Acceptance.account_id == aid))
+        db.execute(delete(Block).where((Block.account_id == aid) | (Block.target_id == aid)))
+        db.execute(delete(Suspension).where(Suspension.account_id == aid))
+        for report in db.scalars(select(Report).where((Report.reporter_id == aid) | (Report.owner_id == aid))):
+            if report.reporter_id == aid: report.reporter_id = 0
+            if report.owner_id == aid: report.owner_id = 0
+            report.text = ''
+            report.note = ''
+            report.evidence = {}
+
         rows = affected(db, aid)
         ids = {rid for rid, _ in rows}
+        # Reports about descendants may contain another learner's submission
+        # under the erased teacher-owned class. Erase those evidence snapshots too.
+        for report in db.scalars(select(Report).execution_options(yield_per=200)):
+            if report.record_id in ids:
+                report.record_id = ''
+                report.text = ''
+                report.note = ''
+                report.evidence = {}
+            elif refers(report.evidence, ids, aid):
+                # Evidence can freeze someone else's submission containing the
+                # erased teacher's feedback. Clear the entire protected copy,
+                # including moderator prose that may quote that feedback.
+                report.text = ''
+                report.note = ''
+                report.evidence = {}
         db.execute(delete(Member).where(Member.account_id == aid))
         db.execute(delete(Event).where(Event.account_id == aid))
         db.execute(delete(Operation).where(Operation.account_id == aid))
@@ -100,6 +130,14 @@ async def remove_account(request: Request, response: Response, db=Depends(get_db
                        execution_options={'synchronize_session': False})
         db.execute(delete(Session).where(Session.account_id == aid))
         db.execute(delete(GoogleIdentity).where(GoogleIdentity.account_id == aid))
+        namespace=account.storage_namespace
+        if namespace:
+            from .play_choice import detach_account
+            detach_account(db, namespace)
+            db.execute(delete(PlayPurchase).where(PlayPurchase.namespace == namespace))
+            db.execute(delete(MembershipGrant).where(MembershipGrant.namespace == namespace))
+            db.execute(delete(Membership).where(Membership.namespace == namespace))
+            db.execute(delete(PayUOrder).where(PayUOrder.account_namespace == namespace))
         db.execute(delete(Account).where(Account.id == aid), execution_options={'synchronize_session': False})
         db.commit()
     except Exception:

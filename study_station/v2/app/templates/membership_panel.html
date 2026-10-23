@@ -1,0 +1,10 @@
+{# Include only in the authenticated account/profile view; JS hides it while disabled. #}
+<section id="membershipPanel" class="card" hidden aria-labelledby="membershipTitle">
+  <h2 id="membershipTitle">{{ tr('membership_title') }}</h2>
+  <p data-membership-status role="status"></p>
+  <p>{{ tr('membership_price') }}</p>
+  <p class="muted" data-membership-payment-note>{{ tr('membership_unavailable') }}</p>
+  <button type="button" class="btn btn-primary" data-membership-start hidden>{{ tr('membership_activate') }}</button>
+<div data-membership-checkout></div>
+<section data-play-billing hidden></section>
+</section>

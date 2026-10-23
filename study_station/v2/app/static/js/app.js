@@ -237,6 +237,7 @@
   });
 
   SS.initPage = function () {
+  if (window.SSMembershipInit) window.SSMembershipInit();
   if (window.SSClassroom) window.SSClassroom.init();
   if (window.SSBackup) window.SSBackup.init();
   var onboard = document.getElementById('onboard');
@@ -529,7 +530,7 @@
   // The frame (top bar, tab bar, CSS, JS) stays put; a screen change fetches the page and swaps only
   // <main>. Inside the Android app the frame itself is read from the APK (templates/shell.html →
   // android/…/assets/shell), so the structure is on screen before the network answers.
-  var SCREEN = /^\/(?:(?:settings|practice|mock|attempt|result|revise|progress|current-affairs|jobs|books|questions)(?:\/|$)|$)/;
+  var SCREEN = /^\/(?:(?:settings|membership|practice|mock|attempt|result|revise|progress|current-affairs|jobs|books|questions)(?:\/|$)|$)/;
   var navSeq = 0, warm = {}, here = location.pathname + location.search;
   var WARM_TTL = 5000, WARM_LIMIT = 6;
 
@@ -643,6 +644,19 @@
   function waiting() { return document.getElementById('shellWait'); }
 
   function go(url, mode) {
+    // Website checkout needs the destination document's restrictive PayU form
+    // policy; a main-only swap cannot update the active document's CSP.
+    var nativeMembership = /StudyStationApp\//.test(navigator.userAgent) ||
+      !!(window.StudyStationAuth || window.StudyStationMembership || window.StudyStationBackup);
+    var directPayu = false;
+    try { directPayu = !!window.StudyStationMembership &&
+      typeof window.StudyStationMembership.allowPayu === 'function' &&
+      window.StudyStationMembership.allowPayu() === true; } catch (e) {}
+    if (new URL(url).pathname === '/membership' && (!nativeMembership || directPayu)) {
+      clearWarm();
+      location.assign(url);
+      return Promise.resolve();
+    }
     var seq = ++navSeq;
     if (mode === 'push') { try { history.replaceState({ ss: 1, y: scrollY }, ''); } catch (e) {} }
     markTab(new URL(url).pathname);

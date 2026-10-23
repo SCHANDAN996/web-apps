@@ -27,6 +27,10 @@ from .models import Attempt, Device, Exam, ExamSection, Job, Question, QuestionR
 from .classroom import router as classroom_router
 from .google_auth import router as google_auth_router
 from .account_deletion import router as account_deletion_router
+from .membership import router as membership_router, guard_request as membership_guard
+from .payu_payments import router as payu_payments_router
+from .play_billing import router as play_billing_router
+from . import play_choice  # registers fail-closed user-choice routes/models
 
 APP_DIR = Path(__file__).resolve().parent
 
@@ -554,7 +558,8 @@ ASSET_V = _asset_version()
 
 
 def ctx(request: Request, device: Device | None, **extra):
-    lang = device.lang if device else lang_from_request(request)
+    preferred = request.cookies.get('ss_lang')
+    lang = preferred if preferred in ('hi', 'en') else (device.lang if device else lang_from_request(request))
     return {'request': request, 'lang': lang, 'tr': lambda k: t(k, lang), 'device': device,
             'L': lambda hi, en: hi if lang == 'hi' else en, 'site_url': SITE_URL,
             'strings': client_strings(lang), 'path': request.url.path,
@@ -851,6 +856,10 @@ install_shared_questions(app, render, get_db, lang_from_request)
 app.include_router(classroom_router)
 app.include_router(google_auth_router)
 app.include_router(account_deletion_router)
+app.include_router(membership_router)
+app.include_router(payu_payments_router)
+app.include_router(play_billing_router)
+app.middleware("http")(membership_guard)
 
 @app.get("/classroom", response_class=HTMLResponse)
 @app.get("/w/{share_token}", response_class=HTMLResponse)
@@ -879,4 +888,16 @@ def page_account_deletion(request: Request, device: Device | None = Depends(curr
     response = render('delete_account.html', request, device)
     response.headers['Cache-Control'] = 'no-store'
     response.headers['X-Robots-Tag'] = 'noindex, nofollow'
+    return response
+
+
+@app.get('/membership', response_class=HTMLResponse)
+def page_membership(request: Request, device: Device | None = Depends(current_device), db: Session = Depends(get_db)):
+    from .classroom import current
+    response=render('membership.html',request,device,membership_account=current(request,db))
+    from .payu_payments import settings as payment_settings
+    if payment_settings()['enabled']:
+        response.headers['Content-Security-Policy']=CSP.replace("form-action 'self'","form-action 'self' https://secure.payu.in https://test.payu.in")
+    response.headers['Cache-Control']='no-store'
+    response.headers['X-Robots-Tag']='noindex, nofollow'
     return response

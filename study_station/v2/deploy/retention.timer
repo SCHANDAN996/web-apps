@@ -1,0 +1,13 @@
+# /etc/systemd/system/studystation-retention.timer
+[Unit]
+Description=Hourly Study Station retention guard
+
+[Timer]
+OnCalendar=hourly
+Persistent=true
+AccuracySec=1min
+RandomizedDelaySec=0
+Unit=studystation-retention.service
+
+[Install]
+WantedBy=timers.target

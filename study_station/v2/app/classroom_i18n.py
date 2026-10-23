@@ -85,3 +85,27 @@ STRINGS.update({
 'classroom_home_classes':('शिक्षक की कक्षा','Teacher classroom'),'classroom_home_classes_desc':('पढ़ाएँ, काम दें और सुधारें','Teach, assign and give feedback'),
 'classroom_home_shared':('साझा वर्कस्पेस','Shared workspaces'),'classroom_home_shared_desc':('साझा और जुड़े हुए पन्ने','Shared and linked notebooks'),
 })
+
+STRINGS.update({
+'classroom_community_rules':('सामुदायिक नियम और सुरक्षा','Community rules & safety'),
+'classroom_accept_rules':('मैंने नियम पढ़े हैं और साझा सामग्री के लिए सहमत हूँ','I have read and accept the rules for shared content'),
+'classroom_continue':('सहमत होकर आगे बढ़ें','Accept and continue'),
+'classroom_private_only':('केवल निजी ऑफलाइन workspace खोलें','Use private offline workspace only'),
+'classroom_report':('सामग्री रिपोर्ट करें','Report content'),
+'classroom_report_reason':('रिपोर्ट का कारण','Reason for report'),
+'classroom_report_details':('विवरण (वैकल्पिक)','Details (optional)'),
+'classroom_send_report':('रिपोर्ट भेजें','Send report'),
+'classroom_report_received':('रिपोर्ट मिल गई है। व्यवस्थापक इसकी समीक्षा करेंगे। ज़रूरत हो तो उपयोगकर्ता को ब्लॉक भी करें।','Report received for moderator review. You can also block the user.'),
+'classroom_block_user':('उपयोगकर्ता ब्लॉक करें','Block user'),
+'classroom_blocked_users':('ब्लॉक किए उपयोगकर्ता','Blocked users'),
+'classroom_none_blocked':('किसी को ब्लॉक नहीं किया है।','No blocked users.'),
+'classroom_unblock':('अनब्लॉक करें','Unblock'),
+'classroom_reason_abuse':('उत्पीड़न या नफ़रत','Harassment or hate'),
+'classroom_reason_sexual':('यौन या बच्चों के लिए असुरक्षित सामग्री','Sexual or child safety content'),
+'classroom_reason_violence':('हिंसा या धमकी','Violence or threats'),
+'classroom_reason_spam':('स्पैम या धोखाधड़ी','Spam or scams'),
+'classroom_reason_other':('अन्य उल्लंघन','Other violation'),
+'classroom_error_content_terms_required':('साझा सामग्री बनाने से पहले सामुदायिक नियम स्वीकार करें।','Accept community rules before posting shared content.'),
+'classroom_error_content_unavailable':('ब्लॉक या समीक्षा के कारण यह सामग्री उपलब्ध नहीं है।','Content is unavailable because of blocking or moderation.'),
+'classroom_error_account_suspended':('सामुदायिक नियमों की समीक्षा के कारण अकाउंट निलंबित है।','Account suspended following community review.'),
+})

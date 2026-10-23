@@ -1,0 +1,13 @@
+.membership-payment-form {display:grid;gap:var(--sp-4);margin-top:var(--sp-4)}
+.membership-payment-form label {display:grid;gap:var(--sp-2);font-weight:500}
+.membership-payment-form input:not([type="checkbox"]),.membership-payment-form select {
+  width:100%;box-sizing:border-box;min-height:44px;border:1px solid var(--border);
+  border-radius:var(--r-md);padding:var(--sp-3);background:var(--surface);color:var(--text);font:inherit;
+}
+.membership-payment-form input:focus-visible,.membership-payment-form select:focus-visible {outline:2px solid var(--brand);outline-offset:2px}
+.membership-payment-form .membership-consent {display:flex;align-items:flex-start;gap:var(--sp-2);font-weight:400}
+.membership-consent input {width:24px;height:24px;flex:0 0 24px;margin:0;accent-color:var(--brand)}
+.membership-payment-form [role="status"]:empty {display:none}
+.membership-payment-form button {justify-self:start;min-height:44px}
+.membership-direct-actions {display:grid;gap:var(--sp-3);margin-top:var(--sp-3)}
+.membership-direct-actions .btn {width:100%;min-height:44px;box-sizing:border-box}

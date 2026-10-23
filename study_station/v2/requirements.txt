@@ -5,6 +5,7 @@ SQLAlchemy==2.0.36
 python-multipart==0.0.20
 itsdangerous==2.2.0
 google-auth[requests]>=2.40,<3
+cryptography>=46,<51
 # job aggregation
 httpx==0.28.1
 beautifulsoup4==4.12.3

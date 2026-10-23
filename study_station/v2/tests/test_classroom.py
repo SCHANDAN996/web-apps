@@ -16,6 +16,7 @@ def people(db):
     for c in clients:
         r=c.post('/api/v1/classroom/signup',json={'username':'u'+uuid.uuid4().hex[:12],'password':'long-safe-password'})
         assert r.status_code == 200, r.text
+        assert c.post('/api/v1/classroom/safety/terms',json={'version':'2026-10-19','accept':True}).status_code==200
     yield clients
     for c in clients: c.close()
 
