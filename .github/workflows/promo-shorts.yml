@@ -2,7 +2,7 @@
 # Owner's routine (2 min, phone): Actions → latest "Promo Shorts" run → Artifacts → download the zip →
 # upload each NN.mp4 to YouTube Shorts / Instagram Reels with the text from NN.txt as title + description.
 # Optional repository variable PROMO_TELEGRAM (e.g. t.me/yourchannel) is shown at the end of every video.
-# Used questions are logged in study_station/promo/posted.json on the books branch (no repeats).
+# Used questions are logged in study_station/promo/posted_shorts.json on the books branch (no repeats).
 name: Promo Shorts
 
 on:
@@ -22,7 +22,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: promo-posted-log         # both promo workflows write study_station/promo/posted.json
+  group: promo-shorts
   cancel-in-progress: false
 
 jobs:
@@ -50,6 +50,7 @@ jobs:
           PROMO_TELEGRAM: ${{ vars.PROMO_TELEGRAM }}
           PROMO_LINK: ${{ vars.PROMO_LINK }}
           COUNT: ${{ inputs.count || '3' }}
+          PROMO_POSTED: ${{ github.workspace }}/study_station/promo/posted_shorts.json
           SEND: ${{ github.event_name == 'workflow_dispatch' && inputs.send_telegram }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
@@ -69,7 +70,7 @@ jobs:
         run: |
           git config user.name "study-station-promo"
           git config user.email "211449723+SCHANDAN996@users.noreply.github.com"
-          git add study_station/promo/posted.json 2>/dev/null || exit 0
+          git add study_station/promo/posted_shorts.json 2>/dev/null || exit 0
           git diff --cached --quiet && exit 0
           git commit -q -m "Promo: posted-log (shorts)"
           for i in 1 2 3 4 5; do

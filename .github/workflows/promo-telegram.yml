@@ -1,49 +1,43 @@
 # Study Station promotion — posts to the Telegram channel every day, straight from the book files.
-# Slots (IST): 07:30 quiz · 12:30 trick · 18:00 quiz · 20:30 answers · Sunday 10:00 weekly test.
-# GitHub drops or delays many scheduled runs, so this wakes every 30 minutes with --slot auto: each slot is
-# posted once, at the first run inside its window (see WINDOWS in app/promo/__main__.py).
-# Needs repository secrets TELEGRAM_BOT_TOKEN and TELEGRAM_CHANNEL_ID (@channelname); optional variable PROMO_LINK.
-# Without the secrets every run is skipped (green), so nothing breaks before the channel exists.
+# Slots (IST): 07:30–12:00 morning quiz (5 polls) · 12:30–17:30 trick · Sunday 10:00–17:00 weekly test ·
+# 18:00–20:15 evening quiz · 20:30–23:59 answers + solutions. Each goes out once, at the first check in its window.
+#
+# GitHub drops most scheduled runs on this repo, so one run stays alive ~5h50m, checks every 10 minutes
+# (python -m app.promo telegram --slot auto) and then starts the next run itself. The cron below only
+# restarts the chain if it ever stops; concurrency keeps a single run alive.
+# Needs secrets TELEGRAM_BOT_TOKEN, TELEGRAM_CHANNEL_ID; optional variable PROMO_LINK.
 # What went out is logged in study_station/promo/posted.json on the books branch (no repeats).
 name: Promo Telegram
 
 on:
   schedule:
-    - cron: '7,37 * * * *'     # every 30 min → --slot auto
+    - cron: '7,37 * * * *'     # restarts the loop if the chain broke (waits in line while one is running)
   workflow_dispatch:
     inputs:
       slot:
-        description: 'auto | quiz | trick | revision | weekly'
+        description: 'auto (keeps running) | quiz | trick | revision | weekly'
         required: true
-        default: quiz
+        default: auto
       dry_run:
         description: 'only show what would be posted'
         type: boolean
-        default: true
+        default: false
 
 permissions:
   contents: write
+  actions: write                 # to start the next run
 
 concurrency:
-  group: promo-posted-log         # both promo workflows write study_station/promo/posted.json
+  group: promo-telegram
   cancel-in-progress: false
 
 jobs:
   post:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 355
     env:
       BOOKS_BRANCH: claude/elegant-rubin-sgov1q
     steps:
-      - name: Which slot
-        id: slot
-        env:
-          SCHEDULE: ${{ github.event.schedule }}
-          INPUT_SLOT: ${{ inputs.slot }}
-        run: |
-          if [ -n "$SCHEDULE" ]; then slot=auto; else slot="$INPUT_SLOT"; fi
-          case "$slot" in auto|quiz|trick|revision|weekly) ;; *) echo "::error::unknown slot '$slot'"; exit 1 ;; esac
-          echo "slot=$slot" >> "$GITHUB_OUTPUT"
       - uses: actions/checkout@v4
         with:
           ref: ${{ env.BOOKS_BRANCH }}
@@ -54,32 +48,46 @@ jobs:
           cache-dependency-path: study_station/v2/requirements.txt
       - name: Install
         run: pip install -r study_station/v2/requirements.txt
-      - name: Post ${{ steps.slot.outputs.slot }}
-        working-directory: study_station/v2
+      - name: Post
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
           PROMO_LINK: ${{ vars.PROMO_LINK }}
+          SLOT: ${{ inputs.slot || 'auto' }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run }}
-          SLOT: ${{ steps.slot.outputs.slot }}
-        run: |
-          if [ "$DRY_RUN" = "true" ]; then
-            python -m app.promo telegram --slot "$SLOT" --dry-run
-          elif [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_CHANNEL_ID" ]; then
-            echo "::notice::TELEGRAM_BOT_TOKEN / TELEGRAM_CHANNEL_ID secrets are not set yet — skipping."
-          else
-            python -m app.promo telegram --slot "$SLOT"
-          fi
-      - name: Save the posted-log
-        if: always()
         run: |
           git config user.name "study-station-promo"
           git config user.email "211449723+SCHANDAN996@users.noreply.github.com"
-          git add study_station/promo/posted.json 2>/dev/null || exit 0
-          git diff --cached --quiet && exit 0
-          git commit -q -m "Promo: posted-log (${{ steps.slot.outputs.slot }})"
-          for i in 1 2 3 4 5; do
-            git pull -q --rebase origin "$BOOKS_BRANCH" && git push -q origin "HEAD:$BOOKS_BRANCH" && exit 0
-            sleep $((i * 5))
+          case "$SLOT" in auto|quiz|trick|revision|weekly) ;; *) echo "::error::unknown slot '$SLOT'"; exit 1 ;; esac
+          if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_CHANNEL_ID" ]; then
+            echo "::notice::TELEGRAM secrets are not set — skipping."; exit 0
+          fi
+          save_log() {
+            git add study_station/promo/posted.json 2>/dev/null || return 0
+            git diff --cached --quiet && return 0
+            git commit -q -m "Promo: posted-log (telegram)"
+            for i in 1 2 3 4 5; do
+              git pull -q --rebase origin "$BOOKS_BRANCH" && git push -q origin "HEAD:$BOOKS_BRANCH" && return 0
+              sleep $((i * 5))
+            done
+            echo "::warning::could not push the posted-log"
+          }
+          cd study_station/v2
+          if [ "$DRY_RUN" = "true" ]; then python -m app.promo telegram --slot "$SLOT" --dry-run; exit 0; fi
+          if [ "$SLOT" != "auto" ]; then
+            set +e; rc=0; python -m app.promo telegram --slot "$SLOT" || rc=$?
+            (cd ../.. && save_log); exit $rc
+          fi
+          set +e                         # one failed git/post must not end the loop
+          end=$(( $(date +%s) + 330 * 60 ))
+          while [ "$(date +%s)" -lt "$end" ]; do
+            (cd ../.. && git pull -q --rebase origin "$BOOKS_BRANCH") || true
+            python -m app.promo telegram --slot auto || echo "::warning::a post failed (it is retried next check)"
+            (cd ../.. && save_log)
+            sleep 600
           done
-          echo "::error::could not push the posted-log"; exit 1
+      - name: Start the next run
+        if: success() && (github.event_name == 'schedule' || inputs.slot == 'auto') && !inputs.dry_run
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run promo-telegram.yml --repo "${{ github.repository }}" --ref main -f slot=auto -f dry_run=false
