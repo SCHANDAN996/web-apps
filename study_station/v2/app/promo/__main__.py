@@ -1,5 +1,5 @@
 """python -m app.promo telegram --slot quiz|trick|revision|weekly [--dry-run] [--date YYYY-MM-DD]
-python -m app.promo shorts --count 3 [--level 10th|12th|graduation] [--out DIR] [--telegram] [--dry-run] [--date …]
+python -m app.promo shorts --count 3 [--level 10th|12th|graduation] [--out DIR] [--telegram] [--youtube] [--dry-run] [--date …]
 
 Slots (IST): 07:30 quiz · 12:30 trick · 18:00 quiz · 20:30 revision · Sun 10:00 weekly.
 --dry-run prints what the real run would post and changes nothing.
@@ -131,6 +131,14 @@ def run_shorts(a, day, data):
         for q in qs:
             print(f"{q['id']}\n  {q['question']}\n  ✅ {q['options'][q['answer']]}")
         return 0
+    uploader = None
+    if getattr(a, 'youtube', False):
+        from . import youtube
+        try:
+            uploader = youtube.Uploader()
+        except youtube.YouTubeError as e:
+            print(f'youtube: {e}')
+            return 1
     out = Path(a.out)
     out.mkdir(parents=True, exist_ok=True)
     made, error = [], False
@@ -149,11 +157,19 @@ def run_shorts(a, day, data):
             except telegram.TelegramError as e:
                 print(f'telegram: {e}')
                 error = True
+        if uploader:
+            try:
+                item['youtube_id'] = uploader.upload(q['id'], out / f'{n:02d}.mp4', shorts.caption(q), day)
+                print(f"YouTube: https://youtu.be/{item['youtube_id']}")
+            except youtube.YouTubeError as e:
+                print(f'youtube: {e}')
+                error = True
         made.append(item)
-        print(f"{n:02d}.mp4  {q['id']}" + (' → Telegram' if item.get('msg') else ''))
-    if made:
-        plog.record(data, day.isoformat(), 'shorts', made, key='shorts')
+        plog.record(data, day.isoformat(), 'shorts', [item], key='shorts')
         plog.save(data)
+        if error and uploader:
+            break
+        print(f"{n:02d}.mp4  {q['id']}" + (' → Telegram' if item.get('msg') else ''))
     print(f'shorts: {len(made)} video(s) in {out}')
     return 0 if len(made) == len(qs) and made and not error else 1
 
@@ -203,6 +219,7 @@ def main(argv=None):
     sh.add_argument('--out', default='shorts_out')
     sh.add_argument('--dry-run', action='store_true', help='list the questions only')
     sh.add_argument('--date', help='YYYY-MM-DD (default: today in IST)')
+    sh.add_argument('--youtube', action='store_true', help='also upload to the authorized YouTube channel')
     sh.add_argument('--telegram', action='store_true', help='also post each video to the Telegram channel')
     a = ap.parse_args(argv)
     day = date.fromisoformat(a.date) if a.date else datetime.now(IST).date()

@@ -1,6 +1,6 @@
 # Study Station promotion — 3 vertical quiz videos (Shorts/Reels) every morning, made from the book files.
-# Owner's routine (2 min, phone): Actions → latest "Promo Shorts" run → Artifacts → download the zip →
-# upload each NN.mp4 to YouTube Shorts / Instagram Reels with the text from NN.txt as title + description.
+# YouTube uploads are enabled with YOUTUBE_AUTO_UPLOAD=true after one-time OAuth setup (promo/YOUTUBE.md).
+# Artifacts remain available for Instagram/manual use.
 # Optional repository variable PROMO_TELEGRAM (e.g. t.me/yourchannel) is shown at the end of every video.
 # Used questions are logged in study_station/promo/posted_shorts.json on the books branch (no repeats).
 name: Promo Shorts
@@ -34,7 +34,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ env.BOOKS_BRANCH }}
+          ref: ${{ github.event_name == 'workflow_dispatch' && github.ref_name || env.BOOKS_BRANCH }}
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -54,27 +55,44 @@ jobs:
           SEND: ${{ github.event_name == 'workflow_dispatch' && inputs.send_telegram }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          YOUTUBE_AUTO_UPLOAD: ${{ vars.YOUTUBE_AUTO_UPLOAD }}
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          YOUTUBE_CHANNEL_ID: ${{ vars.YOUTUBE_CHANNEL_ID }}
+          YOUTUBE_PRIVACY_STATUS: ${{ vars.YOUTUBE_PRIVACY_STATUS || 'private' }}
+          YOUTUBE_MADE_FOR_KIDS: ${{ vars.YOUTUBE_MADE_FOR_KIDS }}
+          PROMO_YOUTUBE_POSTED: ${{ github.workspace }}/study_station/promo/youtube_uploads.json
+          PROMO_YOUTUBE_GIT_CHECKPOINT: 'true'
+          PROMO_YOUTUBE_BRANCH: ${{ github.event_name == 'workflow_dispatch' && github.ref_name || env.BOOKS_BRANCH }}
         run: |
+          git config user.name "study-station-promo"
+          git config user.email "211449723+SCHANDAN996@users.noreply.github.com"
           flag=""
           if [ "$SEND" = "true" ]; then flag="--telegram"; fi
+          if [ "$YOUTUBE_AUTO_UPLOAD" = "true" ]; then flag="$flag --youtube"; fi
           python -m app.promo shorts --count "$COUNT" --out "$RUNNER_TEMP/shorts" $flag
       - name: Upload videos
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: shorts-${{ github.run_number }}
           path: ${{ runner.temp }}/shorts/
-          if-no-files-found: error
+          if-no-files-found: warn
           retention-days: 14
       - name: Save the posted-log
         if: always()
+        env:
+          PROMO_TARGET_BRANCH: ${{ github.event_name == 'workflow_dispatch' && github.ref_name || env.BOOKS_BRANCH }}
         run: |
           git config user.name "study-station-promo"
           git config user.email "211449723+SCHANDAN996@users.noreply.github.com"
-          git add study_station/promo/posted_shorts.json 2>/dev/null || exit 0
+          git add study_station/promo/posted_shorts.json
+          if [ -f study_station/promo/youtube_uploads.json ]; then git add study_station/promo/youtube_uploads.json; fi
           git diff --cached --quiet && exit 0
           git commit -q -m "Promo: posted-log (shorts)"
           for i in 1 2 3 4 5; do
-            git pull -q --rebase origin "$BOOKS_BRANCH" && git push -q origin "HEAD:$BOOKS_BRANCH" && exit 0
+            git pull -q --rebase origin "$PROMO_TARGET_BRANCH" && git push -q origin "HEAD:$PROMO_TARGET_BRANCH" && exit 0
             sleep $((i * 5))
           done
           echo "::error::could not push the posted-log"; exit 1
