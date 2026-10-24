@@ -1,6 +1,6 @@
 """Shorts / Reels from the books: a 24-second 1080×1920 video per question (no voice).
 
-0–2 s hook · 2–9 s question + options · 9–14 s countdown 5…1 · 14–20 s answer + solution · 20–24 s call to action.
+0–2 s question + challenge · 2–9 s question + options · 9–14 s countdown 5…1 · 14–22 s answer + solution · 22–24 s call to action.
 Sound: synthesised chime, countdown ticks and an answer 'ding' (sound_expr) — no music file, no licence.
 Frames are drawn with Pillow (Noto Sans Devanagari for Hindi, Noto Sans for Latin — both OFL, in
 study_station/promo/fonts) and joined with ffmpeg. A question whose text cannot be drawn (missing glyph, does
@@ -25,9 +25,10 @@ FONTS = Path(__file__).resolve().parents[3] / 'promo' / 'fonts'
 C = {'bg': '#F9F9FF', 'card': '#F3F3FA', 'card_hi': '#E8E7EE', 'text': '#1A1B20', 'muted': '#44474F',
      'primary': '#005BBF', 'on_primary': '#FFFFFF', 'primary_c': '#D8E2FF', 'on_primary_c': '#2A4678',
      'success': '#1B6B45', 'success_c': '#ABF9C8', 'on_success_c': '#003920', 'outline': '#C4C6D0'}
-SCENES = [('hook', 2.0), ('question', 7.0), ('countdown', 5.0), ('answer', 6.0), ('cta', 4.0)]
+SCENES = [('hook', 2.0), ('question', 7.0), ('countdown', 5.0), ('answer', 8.0), ('cta', 2.0)]
 COUNTDOWN_FPS = 10
 MAX_Q, MAX_OPT = 160, 40
+MAX_SOLUTION_WORDS = 32                    # eight seconds to read; reject long explanations, never truncate them
 LEVEL_ARG = {'10th': '10th_Level', '12th': '12th_Level', 'graduation': 'Graduation_Level'}
 HASHTAG = {'GK': '#GKinHindi', 'Reasoning': '#Reasoning', 'Maths': '#MathsTricks', 'English': '#EnglishGrammar'}
 DEVANAGARI = re.compile(r'[ऀ-ॿ꣠-ꣿ᳐-᳿‌‍]')
@@ -180,12 +181,12 @@ def _chip(d, x, y, text, size=40, bg=None, fg=None):
 
 
 def _brand(d, on_brand=False):
-    """'Study Station' pill at the top of every screen."""
+    """'StudyStation' pill at the top of every screen."""
     size, x, y = 40, LEFT, TOP - 120
-    w = width('Study Station', size, True) + 64
+    w = width('StudyStation', size, True) + 64
     d.rounded_rectangle((x, y, x + w, y + line_h(size) + 16), radius=999,
                         fill=(255, 255, 255) if on_brand else C['primary'])
-    draw_line(d, x + 32, y + 8, 'Study Station', size, C['primary'] if on_brand else C['on_primary'], True)
+    draw_line(d, x + 32, y + 8, 'StudyStation', size, C['primary'] if on_brand else C['on_primary'], True)
 
 
 def _check(d, cx, cy, r, color):
@@ -198,8 +199,15 @@ def _arrow_up(d, cx, top, size, color):
     d.rounded_rectangle((cx - size // 3, top + size - 2, cx + size // 3, top + size * 2), radius=size // 6, fill=color)
 
 
+def solution(q):
+    """The complete reasoning after an optional leading answer label; never cut a proof mid-sentence."""
+    return re.sub(r'^उत्तर:\s*[^।]*।\s*', '', q['explanation']).strip()
+
+
 def layout(q):
     """Measure everything once; DoesNotFit if the question cannot be shown readably."""
+    if len(solution(q).split()) > MAX_SOLUTION_WORDS:
+        raise DoesNotFit('explanation too long for an eight-second reveal')
     inner = RIGHT - LEFT - 2 * 48
     opt = []
     for i, o in enumerate(q['options']):
@@ -207,10 +215,13 @@ def layout(q):
         opt.append((s, lines))
     osize = min(s for s, _ in opt)
     opt = [wrap(o, osize, inner - 120) for o in q['options']]
-    sol = re.sub(r'^उत्तर:\s*[^।]*।\s*', '', q['explanation']).strip()
-    ssize, slines = fit(sol, inner, 480, range(52, 33, -4)) if sol else (40, [])
+    sol = solution(q)
     qsmall = fit(q['question'], inner, 320, range(56, 31, -4), True)
-    fit(f"A.  {q['options'][q['answer']]}", RIGHT - LEFT - 160, 3 * line_h(60), range(64, 39, -4), True)
+    asz, alines = fit(f"{'ABCD'[q['answer']]}.  {q['options'][q['answer']]}",
+                      RIGHT - LEFT - 160, 3 * line_h(60), range(64, 39, -4), True)
+    # Account for every heading/card padding so the complete solution stays above platform controls.
+    sol_room = BOTTOM - TOP - 128 - len(qsmall[1]) * line_h(qsmall[0]) - 32 - (len(alines) * line_h(asz) + 64) - 40 - 140
+    ssize, slines = fit(sol, inner, min(480, sol_room), range(52, 39, -4)) if sol else (40, [])
     opt_h = sum(max(1, len(l)) * line_h(osize) + 64 for l in opt) + 3 * 28
     room = BOTTOM - TOP - 120 - 96 - 48 - opt_h            # what is left for the question text
     qs, qlines = fit(q['question'], inner, min(560, room), range(84, 43, -4), True)
@@ -253,6 +264,14 @@ def frame_question(q, L, show=None):
     return img
 
 
+def frame_hook(q, L):
+    """Lead with the actual question, with one short challenge in the unused header space."""
+    from PIL import ImageDraw
+    img = frame_question(q, L)
+    _chip(ImageDraw.Draw(img), RIGHT - 310, TOP - 120, 'जवाब चुनें', size=36, bg=C['success'], fg='#FFFFFF')
+    return img
+
+
 def frame_countdown(base, left, frac):
     """The question frame with the countdown ring on top (base is drawn once, the ring per frame)."""
     img = base.copy()
@@ -282,7 +301,7 @@ def frame_answer(q, L):
     asz, alines = fit(ans, RIGHT - LEFT - 160, 3 * line_h(60), range(64, 39, -4), True)
     ah = len(alines) * line_h(asz) + 64
     sh = len(L['slines']) * line_h(L['ssize']) + 140 if L['slines'] else 0
-    total = 120 + len(qlines) * line_h(s) + 32 + ah + 40 + sh
+    total = 128 + len(qlines) * line_h(s) + 32 + ah + 40 + sh
     y = _chip(d, LEFT, TOP + max(0, (BOTTOM - TOP - total) // 3), 'सही उत्तर', bg=C['success'], fg=C['on_primary']) + 48
     y = draw_block(d, LEFT, y, qlines, s, C['muted'], True) + 32
     _shadow_card(img, (LEFT, y, RIGHT, y + ah), 44, C['success_c'], outline=C['success'], width=5)
@@ -333,17 +352,16 @@ def frames(q):
     """[(image, seconds)] for one video."""
     L = layout(q)
     link = channel_link()
-    out = [(frame_text('आज का सवाल', f"{pick.SUBJECT_HI.get(q['subject'], '')} · SSC · Railway · Bank की तैयारी",
-                       'अंत तक देखें — उत्तर और हल वीडियो में'), 2.0)]
+    out = [(frame_hook(q, L), 2.0)]
     base = frame_question(q, L)
     out.append((base, 7.0))
     for i in range(int(5 * COUNTDOWN_FPS)):
         out.append((frame_countdown(base, 5 - i // COUNTDOWN_FPS, 1 - (i % COUNTDOWN_FPS) / COUNTDOWN_FPS),
                     1 / COUNTDOWN_FPS))
-    out.append((frame_answer(q, L), 6.0))
-    out.append((frame_text('रोज़ ऐसे 10 सवाल', 'मुफ़्त · हिंदी में · हल के साथ',
-                           '' if link else 'फ़ॉलो करें — Study Station',
-                           link=f"Telegram: {re.sub(r'^https?://', '', link)}" if link else '', bio=bool(link)), 4.0))
+    out.append((frame_answer(q, L), 8.0))
+    out.append((frame_text('ऐसे और सवाल चाहिए?', 'मुफ़्त · हिंदी में · हल के साथ',
+                           '' if link else 'फ़ॉलो करें — StudyStation',
+                           link=f"Telegram: {re.sub(r'^https?://', '', link)}" if link else '', bio=False), 2.0))
     return out
 
 
@@ -403,16 +421,18 @@ def caption(q):
     title = title if len(title) <= 80 else title[:79].rstrip() + '…'
     link = channel_link()
     body = [q['question'], ''] + [f"{'ABCD'[i]}. {o}" for i, o in enumerate(q['options'])] + [
-        '', 'उत्तर वीडियो के अंत में 👆 — कमेंट में अपना उत्तर लिखें!', '', q['explanation'], '']
+        '', 'उत्तर और पूरा हल वीडियो में 👆 — कमेंट में अपना उत्तर लिखें!', '']
     if link:
-        body.append(f'रोज़ 10 मुफ़्त सवाल: {link}')
+        body.append(f'मुफ़्त अभ्यास और हल: {link}')
     body.append(' '.join([HASHTAG.get(q['subject'], '#GK'), '#SSC', '#RailwayExam', '#Shorts', '#StudyStation']))
     return f"{title} #Shorts\n\n" + '\n'.join(body) + '\n'
 
 
 def short_ok(q):
     """Short enough for a phone screen; no current affairs (a video stays up long after the news is old)."""
-    return 'Current_Affairs' not in q['chapter'] and len(q['question']) <= MAX_Q and all(len(o) <= MAX_OPT for o in q['options'])
+    return ('Current_Affairs' not in q['chapter'] and len(q['question']) <= MAX_Q
+            and all(len(o) <= MAX_OPT for o in q['options'])
+            and len(solution(q).split()) <= MAX_SOLUTION_WORDS)
 
 
 def pick_shorts(day: date, count, posted, level=None):

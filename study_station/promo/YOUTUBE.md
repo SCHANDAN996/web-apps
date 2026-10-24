@@ -4,6 +4,10 @@ The existing 05:01 IST workflow renders three quiz videos. Setting `YOUTUBE_AUTO
 adds upload to the selected channel with the generated title and description. Telegram and MP4/caption
 artifacts remain available. No additional server cron or ChatGPT scheduled task is needed.
 
+Channel created 24 October 2026: **StudyStation**, handle **@StudyStationHindi**, Channel ID: `UCNuPv4cBb4YAIguIk9_yTNQ`.
+Public channel: https://www.youtube.com/channel/UCNuPv4cBb4YAIguIk9_yTNQ
+Logo and responsive banner sources are in `branding/`.
+
 ## One-time channel connection
 
 1. In [Google Cloud Console](https://console.cloud.google.com/), create/select your project and enable
@@ -16,8 +20,8 @@ artifacts remain available. No additional server cron or ChatGPT scheduled task 
    python scripts/youtube_authorize.py /outside/repo/client_secret.json /outside/repo/youtube-secrets.json
    ```
 
-   A browser opens for Google consent with `all.chandansingh@gmail.com` preselected as a login hint.
-   Use that account and select its Study Station channel (including the correct Brand account if applicable).
+   A browser opens for Google consent.
+   Choose the account that owns StudyStation and its correct Brand channel if applicable.
    The requested scopes are `youtube.upload` and `youtube.readonly` (to verify the channel).
    Credentials are saved with owner-only permissions outside Git. Do not paste them into chat.
 3. In repository **Settings → Secrets and variables → Actions**, add these **secrets** from that local file:
@@ -26,7 +30,7 @@ artifacts remain available. No additional server cron or ChatGPT scheduled task 
 
    | Variable | Value |
    | --- | --- |
-   | `YOUTUBE_CHANNEL_ID` | Exact channel ID starting with `UC` (YouTube Studio → Settings → Channel → Advanced settings) |
+   | `YOUTUBE_CHANNEL_ID` | `UCNuPv4cBb4YAIguIk9_yTNQ` (StudyStation / @StudyStationHindi) |
    | `YOUTUBE_MADE_FOR_KIDS` | `false` for general government-exam preparation; choose `true` if the actual audience is children |
    | `YOUTUBE_PRIVACY_STATUS` | `private` for the first check; then `public` for automatic public posting |
    | `YOUTUBE_AUTO_UPLOAD` | `true` to enable upload; `false` to keep generating without upload |
