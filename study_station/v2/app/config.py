@@ -30,6 +30,8 @@ LOG_DIR = Path(os.environ.get('LOG_DIR', BASE_DIR / 'logs'))
 # Written by each server deployment (docs/SOURCE_SYNC.md); the admin dashboard shows which revision is live.
 SOURCE_RELEASE_PATH = Path(os.environ.get('SOURCE_RELEASE_PATH', '/var/lib/studystation/source-release.json'))
 PROMO_CHANNEL_URL = os.environ.get('PROMO_LINK', '') or 'https://t.me/studystation_hindi'
+# Today's Telegram quiz in the app reads the workflow-owned log from the public branch ('' = local copy only).
+PROMO_POSTED_URL = os.environ.get('PROMO_POSTED_URL', 'https://raw.githubusercontent.com/SCHANDAN996/web-apps/claude/elegant-rubin-sgov1q/study_station/promo/posted.json')
 AI_DAILY_BOOK_SECTIONS = int(os.environ.get('AI_DAILY_BOOK_SECTIONS', '60'))   # bookgen: AI calls per day, all chapters
 
 # Books (study_station/books/<Level>/<Subject>/[<Book>/]Chapter_NN_Name/) — read-only for the app.

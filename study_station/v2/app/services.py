@@ -122,6 +122,19 @@ def start_specific_practice(db: Session, device: Device, question_id: int):
     return a
 
 
+def start_telegram_quiz(db: Session, device: Device):
+    """Practice the questions posted to the Telegram channel today (else the latest day in the last 2)."""
+    from .promo import live
+    day, ids = live.quiz_for(db, today_ist())
+    if not ids:
+        raise LookupError('no_questions')
+    title = ('Telegram क्विज़ · ' if device.lang == 'hi' else 'Telegram quiz · ') + day.strftime('%d-%m-%Y')
+    a = Attempt(device_id=device.id, mode='practice', title=title, question_ids=ids)
+    db.add(a)
+    db.commit()
+    return a
+
+
 def start_retry_wrong(db: Session, device: Device, attempt_id: int):
     """Practice the questions answered wrongly in a finished attempt — right away, with solutions.
     (Revision cards for them are scheduled from tomorrow, so this is the same-day pass.)"""
