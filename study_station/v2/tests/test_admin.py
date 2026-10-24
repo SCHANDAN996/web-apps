@@ -1,4 +1,5 @@
 import pytest
+from sqlalchemy import select
 
 from app import config
 from app.models import Job, Question, QuestionReport
@@ -116,3 +117,64 @@ def test_dashboard_overview_is_read_only_and_shows_live_state(client, admin_on, 
 def test_dashboard_overview_needs_login(client, admin_on):
     r = client.get('/admin', follow_redirects=False)
     assert r.status_code == 303 and '/admin/login' in r.headers['location']
+
+
+def _answers(db, qid, n, correct):
+    from app.models import Attempt, AttemptAnswer, Device
+    dev = Device(token='t' * 20 + str(qid), level='10th')
+    db.add(dev); db.flush()
+    for i in range(n):                                    # one answer per attempt (unique per attempt+question)
+        att = Attempt(device_id=dev.id, mode='practice', question_ids=[qid])
+        db.add(att); db.flush()
+        db.add(AttemptAnswer(attempt_id=att.id, question_id=qid, chosen_index=0, correct=i < correct))
+    db.commit()
+
+
+def test_suspicious_queue_bulk_actions_are_audited(client, admin_on, db):
+    from app.models import AdminAction
+    from app.services import suspicious_keys
+    qs = list(db.scalars(select(Question).where(Question.review_status == 'unreviewed').order_by(Question.id).limit(3)))
+    _answers(db, qs[0].id, 25, 2)      # 8% correct -> suspicious
+    _answers(db, qs[1].id, 25, 20)     # fine
+    _answers(db, qs[2].id, 10, 0)      # too few answers to judge
+    assert set(suspicious_keys(db)) == {qs[0].id}
+    login(client)
+    from app import admin
+    admin._report_cache.update(at=0.0, value=None)
+    assert 'Possible wrong answer keys' in client.get('/admin').text
+    page = client.get('/admin/questions?queue=suspicious').text
+    assert f'value="{qs[0].id}"' in page and f'value="{qs[1].id}"' not in page and '2/25' in page
+    # a reason is required, and the request must come from the admin page (CSRF)
+    assert client.post('/admin/questions/bulk', data={'ids': [qs[0].id], 'action': 'flag', 'note': ''},
+                       headers=H).status_code == 400
+    assert client.post('/admin/questions/bulk', data={'ids': [qs[0].id], 'action': 'flag', 'note': 'x'}).status_code == 403
+    r = client.post('/admin/questions/bulk', data={'ids': [qs[0].id], 'action': 'flag', 'note': 'key wrong per solution',
+                                                   'queue': 'suspicious'}, headers=H, follow_redirects=False)
+    assert r.status_code == 303 and r.headers['location'] == '/admin/questions?queue=suspicious'
+    db.expire_all()
+    assert db.get(Question, qs[0].id).review_status == 'flagged'
+    assert suspicious_keys(db) == {}                     # decided questions leave the queue
+    log = db.scalars(select(AdminAction).order_by(AdminAction.id.desc())).first()
+    assert (log.action, log.target, log.note) == ('question.flag', f'question:{qs[0].id}', 'key wrong per solution')
+    assert 'unreviewed -> flagged' in log.detail
+    audit_page = client.get('/admin/audit').text
+    assert 'question.flag' in audit_page and 'key wrong per solution' in audit_page
+
+
+def test_single_question_save_is_audited(client, admin_on, db):
+    from app.models import AdminAction
+    q = db.scalars(select(Question).where(Question.text_hi.is_not(None), Question.options_hi.is_not(None))).first()
+    login(client)
+    form = {'action': 'verify', 'review_note': 'checked', 'answer_index': str(q.answer_index), 'text_hi': q.text_hi,
+            'solution_hi': q.solution_hi or ''}
+    form.update({f'opt_hi_{i}': o for i, o in enumerate(q.options_hi)})
+    if q.text_en:
+        form.update({'text_en': q.text_en, 'solution_en': q.solution_en or ''})
+        form.update({f'opt_en_{i}': o for i, o in enumerate(q.options_en)})
+    assert client.post(f'/admin/questions/{q.id}', data=form, headers=H, follow_redirects=False).status_code == 303
+    log = db.scalars(select(AdminAction).where(AdminAction.target == f'question:{q.id}').order_by(AdminAction.id.desc())).first()
+    assert log.action == 'question.verify' and log.note == 'checked'
+
+
+def test_audit_page_needs_login(client, admin_on):
+    assert client.get('/admin/audit', follow_redirects=False).status_code == 303

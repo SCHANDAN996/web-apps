@@ -555,3 +555,18 @@ def jobs_query(qualification=None, category=None, status='active', today=None):
         ok = [lv for lv, r in LEVEL_RANK.items() if r <= LEVEL_RANK[qualification]]
         q = q.where(or_(Job.min_qualification.in_(ok), Job.min_qualification.is_(None)))
     return q
+
+
+SUSPICIOUS_MIN_ANSWERS = 20
+SUSPICIOUS_MAX_RATE = 0.15
+
+
+def suspicious_keys(db, min_answers=SUSPICIOUS_MIN_ANSWERS, max_rate=SUSPICIOUS_MAX_RATE):
+    """{question_id: (answers, correct)} for live questions that students get wrong unusually often —
+    a sign of a wrong answer key. Already verified or hidden questions are left out (the admin decided)."""
+    rows = db.execute(
+        select(AttemptAnswer.question_id, func.count(), func.sum(case((AttemptAnswer.correct.is_(True), 1), else_=0)))
+        .join(Question, Question.id == AttemptAnswer.question_id)
+        .where(AttemptAnswer.chosen_index.is_not(None), Question.review_status == 'unreviewed')
+        .group_by(AttemptAnswer.question_id).having(func.count() >= min_answers)).all()
+    return {qid: (n, ok or 0) for qid, n, ok in rows if n and (ok or 0) / n < max_rate}

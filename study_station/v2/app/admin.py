@@ -23,7 +23,7 @@ from sqlalchemy.orm import Session
 from . import config
 from .db import get_db
 from .jobs.sources import safe_http_url
-from .models import (Job, JobSource, Question, QuestionReport, SourceHealth, Subject, Topic)
+from .models import (AdminAction, Job, JobSource, Question, QuestionReport, SourceHealth, Subject, Topic)
 
 APP_DIR = Path(__file__).resolve().parent
 templates = Jinja2Templates(directory=APP_DIR / 'templates')
@@ -82,6 +82,11 @@ def page(request, name, **ctx):
 
 def back(url):
     return RedirectResponse(url, status_code=303)
+
+
+def audit(db, action, target, detail='', note=''):
+    """Record an admin change; committed together with the change itself."""
+    db.add(AdminAction(action=action, target=target, detail=(detail or '')[:300] or None, note=(note or '')[:500] or None))
 
 
 # ------------------------------------------------------------------ login
@@ -186,6 +191,7 @@ def promo_status():
 # ------------------------------------------------------------------ questions
 QUEUES = {
     'reported': 'Reported by students',
+    'suspicious': 'Possible wrong key (<15% correct)',
     'flagged': 'Auto-flagged (hidden)',
     'unreviewed': 'AI-generated, not reviewed',
     'verified': 'Verified',
@@ -197,8 +203,12 @@ def questions(request: Request, queue: str = 'reported', subject: str = '', page
               _: bool = Depends(require_admin), db: Session = Depends(get_db)):
     per = 30
     q = select(Question).join(Topic).join(Subject)
+    from .services import suspicious_keys
+    stats = suspicious_keys(db) if queue == 'suspicious' else {}
     if queue == 'reported':
         q = q.where(Question.id.in_(select(QuestionReport.question_id).where(QuestionReport.resolved_at.is_(None))))
+    elif queue == 'suspicious':
+        q = q.where(Question.id.in_(list(stats) or [-1]))
     elif queue in QUEUES:
         q = q.where(Question.review_status == queue)
     if subject:
@@ -211,7 +221,34 @@ def questions(request: Request, queue: str = 'reported', subject: str = '', page
     subjects = list(db.scalars(select(Subject).order_by(Subject.id)))
     return page(request, 'questions.html', rows=rows, queue=queue, queues=QUEUES, subject=subject,
                 subjects=subjects, total=total, page_no=page_no, pages=max(1, -(-total // per)),
-                report_counts=report_counts)
+                report_counts=report_counts, stats=stats)
+
+
+BULK_ACTIONS = {'verify': 'verified', 'flag': 'flagged'}
+
+
+@router.post('/questions/bulk')
+async def questions_bulk(request: Request, _: bool = Depends(require_admin), db: Session = Depends(get_db)):
+    """Verify or hide several questions at once; a reason is required and every question is audited."""
+    form = await request.form()
+    action, note = form.get('action', ''), (form.get('note') or '').strip()
+    queue = form.get('queue', 'reported') if form.get('queue') in QUEUES else 'reported'
+    try:
+        ids = sorted({int(i) for i in form.getlist('ids')})
+    except ValueError:
+        raise HTTPException(400, 'bad question id')
+    if action not in BULK_ACTIONS or not ids or len(ids) > 100 or not note or len(note) > 200:
+        raise HTTPException(400, 'Choose questions (max 100), an action and write a reason')
+    now = datetime.utcnow()
+    for q in db.scalars(select(Question).where(Question.id.in_(ids))):
+        before = q.review_status
+        q.review_status, q.review_note, q.reviewed_at = BULK_ACTIONS[action], note, now
+        for r in db.scalars(select(QuestionReport).where(QuestionReport.question_id == q.id,
+                                                         QuestionReport.resolved_at.is_(None))):
+            r.resolved_at = now
+        audit(db, f'question.{action}', f'question:{q.id}', f'{before} -> {q.review_status} (bulk, {queue})', note)
+    db.commit()
+    return back(f'/admin/questions?queue={queue}')
 
 
 @router.get('/questions/{qid}', response_class=HTMLResponse)
@@ -239,6 +276,7 @@ async def question_save(qid: int, request: Request, _: bool = Depends(require_ad
     action = form.get('action', 'save')
     if action == 'delete':
         db.query(QuestionReport).filter_by(question_id=qid).delete()
+        audit(db, 'question.delete', f'question:{qid}', (q.text_hi or q.text_en or '')[:120], form.get('review_note', ''))
         db.delete(q)
         db.commit()
         return back('/admin/questions?queue=' + form.get('queue', 'reported'))
@@ -254,7 +292,7 @@ async def question_save(qid: int, request: Request, _: bool = Depends(require_ad
         raise HTTPException(400, 'question needs Hindi or English text')
     q.answer_index = int(form.get('answer_index', q.answer_index))
     if q.answer_index not in (0, 1, 2, 3):
-        raise HTTPException(400, 'answer must be Aâ€“D')
+        raise HTTPException(400, 'answer must be A–D')
     q.difficulty = form.get('difficulty') if form.get('difficulty') in ('easy', 'medium', 'hard') else q.difficulty
     if form.get('topic_id'):
         q.topic_id = int(form['topic_id'])
@@ -263,6 +301,8 @@ async def question_save(qid: int, request: Request, _: bool = Depends(require_ad
     if q.source_type == 'pyq' and not q.source_ref:
         raise HTTPException(400, 'PYQ needs a source (exam, year, shift)')
     status = {'verify': 'verified', 'flag': 'flagged', 'save': q.review_status}.get(action, q.review_status)
+    audit(db, f'question.{action}', f'question:{qid}', f'{q.review_status} -> {status}; key {"ABCD"[q.answer_index]}',
+          form.get('review_note', ''))
     q.review_status = status
     q.review_note = (form.get('review_note') or '').strip()[:200] or None
     q.reviewed_at = datetime.utcnow()
@@ -332,11 +372,12 @@ async def job_save(jid: int, request: Request, _: bool = Depends(require_admin),
     job.last_date_text = job.last_date.strftime('%d-%m-%Y') if job.last_date else job.last_date_text
     if action == 'verify':
         if not is_official(job.notification_url or ''):
-            raise HTTPException(400, 'Verify needs an official notification URL (gov.in/nic.in/â€¦ or a listed board)')
+            raise HTTPException(400, 'Verify needs an official notification URL (gov.in/nic.in/… or a listed board)')
         job.status, job.verified_at = 'verified', datetime.utcnow()
     elif action == 'unpublish':
         job.status = 'pending'
     job.updated_at = datetime.utcnow()
+    audit(db, f'job.{action}', f'job:{jid}', f'status {job.status}')
     db.commit()
     return back(f'/admin/jobs/{jid}')
 
@@ -360,9 +401,11 @@ def recent_runs(n=6):
 
 
 @router.post('/run/{what}')
-def run(what: str, _: bool = Depends(require_admin)):
+def run(what: str, _: bool = Depends(require_admin), db: Session = Depends(get_db)):
     if what not in RUNS:
         raise HTTPException(404)
+    audit(db, f'run.{what}', 'job-engine')
+    db.commit()
     log = log_dir() / f'admin-{datetime.utcnow():%Y%m%d-%H%M%S}-{what}.log'
     with open(log, 'w') as fh:
         # Separate process: a sweep takes minutes and must not block the web worker.
@@ -397,5 +440,13 @@ def moderate_community(report_id: str, request: Request, action: str = Form(...)
         raise HTTPException(409,'Reported account was deleted')
     if action in ('remove','suspend') and not db.get(Moderation,report.record_id):db.add(Moderation(record_id=report.record_id))
     if action=='suspend' and not db.get(Suspension,report.owner_id):db.add(Suspension(account_id=report.owner_id))
-    report.action=action;report.note=note.strip();report.resolved_at=datetime.utcnow();db.commit()
+    report.action=action;report.note=note.strip();report.resolved_at=datetime.utcnow()
+    audit(db, f'community.{action}', f'report:{report_id}', '', note.strip());db.commit()
     return back('/admin/community')
+
+
+# ------------------------------------------------------------------ audit log
+@router.get('/audit', response_class=HTMLResponse)
+def audit_log(request: Request, _: bool = Depends(require_admin), db: Session = Depends(get_db)):
+    rows = list(db.scalars(select(AdminAction).order_by(AdminAction.id.desc()).limit(200)))
+    return page(request, 'audit.html', rows=rows)

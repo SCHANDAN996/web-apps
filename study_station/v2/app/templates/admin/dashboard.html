@@ -45,6 +45,7 @@
 <h2 style="margin-top:var(--sp-5)">Content &amp; jobs</h2>
 <div class="grid">
   <a class="card card-link" href="/admin/questions?queue=reported"><b style="font-size:var(--fs-2xl)">{{ open_reports }}</b><div class="muted small">Open student reports</div></a>
+  <a class="card card-link" href="/admin/questions?queue=suspicious"><b style="font-size:var(--fs-2xl)">{{ report.content.suspicious_keys|length }}</b><div class="muted small">Possible wrong answer keys</div></a>
   <a class="card card-link" href="/admin/questions?queue=flagged"><b style="font-size:var(--fs-2xl)">{{ q_counts.get('flagged', 0) }}</b><div class="muted small">Auto-flagged questions</div></a>
   <a class="card card-link" href="/admin/questions?queue=unreviewed"><b style="font-size:var(--fs-2xl)">{{ q_counts.get('unreviewed', 0) }}</b><div class="muted small">Unreviewed (live, labelled AI)</div></a>
   <a class="card card-link" href="/admin/questions?queue=verified"><b style="font-size:var(--fs-2xl)">{{ q_counts.get('verified', 0) }}</b><div class="muted small">Verified questions</div></a>

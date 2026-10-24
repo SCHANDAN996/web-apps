@@ -14,7 +14,7 @@ import sys
 from datetime import datetime, timedelta
 from pathlib import Path
 
-from sqlalchemy import case, func, select
+from sqlalchemy import func, select
 
 from . import config
 from .db import SessionLocal, engine, ensure_schema
@@ -46,12 +46,9 @@ def collect(db, url=None):
     thin = [{'topic': f'{t.subject.slug}/{t.slug}', 'usable': per_topic.get(t.id, 0)}
             for t in db.scalars(select(Topic).join(Subject).order_by(Subject.id, Topic.order))
             if per_topic.get(t.id, 0) < THIN_TOPIC]
-    # questions students get wrong unusually often → maybe a wrong key
-    hard = db.execute(
-        select(AttemptAnswer.question_id, func.count(), func.sum(case((AttemptAnswer.correct.is_(True), 1), else_=0)))
-        .where(AttemptAnswer.chosen_index.is_not(None)).group_by(AttemptAnswer.question_id)
-        .having(func.count() >= 20)).all()
-    suspicious = [qid for qid, n, ok in hard if ok is not None and n and ok / n < 0.15]
+    # questions students get wrong unusually often → maybe a wrong key (shared with the admin queue)
+    from .services import suspicious_keys
+    suspicious = sorted(suspicious_keys(db))
     content = {
         'questions_by_status': status,
         'open_reports': c(select(func.count(QuestionReport.id)).where(QuestionReport.resolved_at.is_(None))),

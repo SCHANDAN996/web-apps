@@ -35,7 +35,7 @@
   <a class="brand" href="/admin"><span class="brand-mark">⚙</span>Admin</a>
   {% if request.cookies.get('ss_admin') %}
   <nav class="admin-nav">
-    {% for href, label in [('/admin', 'Dashboard'), ('/admin/questions', 'Questions'), ('/admin/jobs', 'Jobs'), ('/admin/community', 'Community reports')] %}
+    {% for href, label in [('/admin', 'Dashboard'), ('/admin/questions', 'Questions'), ('/admin/jobs', 'Jobs'), ('/admin/community', 'Community reports'), ('/admin/audit', 'Audit log')] %}
     <a class="chip" href="{{ href }}" {% if request.url.path == href %}aria-current="page"{% endif %}>{{ label }}</a>
     {% endfor %}
     <form method="post" action="/admin/logout"><button class="chip">Logout</button></form>

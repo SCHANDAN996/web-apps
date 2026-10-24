@@ -294,3 +294,14 @@ class SourceHealth(Base):
     last_error: Mapped[str | None] = mapped_column(String(300))
     last_items: Mapped[int] = mapped_column(Integer, default=0)
     consecutive_failures: Mapped[int] = mapped_column(Integer, default=0)
+
+
+class AdminAction(Base):
+    """Audit log: every change made from /admin (who = the single admin login; what, when, why)."""
+    __tablename__ = 'admin_action'
+    id: Mapped[int] = mapped_column(primary_key=True)
+    at: Mapped[datetime] = mapped_column(DateTime, default=now, index=True)
+    action: Mapped[str] = mapped_column(String(32))            # question.verify, question.flag, job.save, …
+    target: Mapped[str] = mapped_column(String(64))            # e.g. question:123
+    detail: Mapped[str | None] = mapped_column(String(300))
+    note: Mapped[str | None] = mapped_column(String(500))
