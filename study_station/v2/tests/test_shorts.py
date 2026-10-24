@@ -19,12 +19,16 @@ def test_runs_split_scripts_and_refuse_missing_glyphs():
 
 
 def test_frames_stay_inside_the_safe_area():
+    from PIL import ImageChops
     L = shorts.layout(Q)
+    bg = shorts.background('soft')
     for img in (shorts.frame_question(Q, L), shorts.frame_question(Q, L, show=1), shorts.frame_answer(Q, L)):
-        below = img.crop((0, shorts.BOTTOM, shorts.W, shorts.H))
-        assert below.getcolors(1) is not None, 'something was drawn under the safe area'
-        side = img.crop((0, shorts.TOP, shorts.LEFT - 4, shorts.BOTTOM))
-        assert side.getcolors(1) is not None, 'something was drawn in the left margin'
+        # Only the background may show under the safe area and in the left margin (card shadows are allowed to
+        # spill a few pixels, so compare from 60 px below the safe area and the outer 16 px of the side margin).
+        below = (0, shorts.BOTTOM + 60, shorts.W, shorts.H)
+        assert ImageChops.difference(img.crop(below), bg.crop(below)).getbbox() is None, 'drawn under the safe area'
+        side = (0, shorts.TOP, shorts.LEFT - 56, shorts.BOTTOM)
+        assert ImageChops.difference(img.crop(side), bg.crop(side)).getbbox() is None, 'drawn in the left margin'
 
 
 def test_too_long_question_is_refused():
@@ -98,3 +102,17 @@ def test_soundtrack_follows_the_scenes():
     assert expr.count('1200') == int(ans - cd)                 # one tick per countdown second
     assert f'between(t,{ans:.2f}' in expr                       # the ding starts with the answer
     assert "'" not in expr and ':' not in expr                  # safe inside the quoted lavfi option
+
+
+def test_end_screen_shows_channel_link_and_bio_note(monkeypatch):
+    monkeypatch.setenv('PROMO_TELEGRAM', 't.me/ss_test')
+    seen = []
+    real = shorts.draw_block
+    monkeypatch.setattr(shorts, 'draw_block', lambda d, x, y, lines, *a, **k: seen.extend(lines) or real(d, x, y, lines, *a, **k))
+    drawn = []
+    real_line = shorts.draw_line
+    monkeypatch.setattr(shorts, 'draw_line', lambda d, x, y, line, *a, **k: drawn.append(line) or real_line(d, x, y, line, *a, **k))
+    monkeypatch.setattr(shorts, 'COUNTDOWN_FPS', 1)
+    end = shorts.frames(Q)[-1][0]
+    assert end.size == (shorts.W, shorts.H)
+    assert 'Telegram: t.me/ss_test' in drawn and 'लिंक Bio में है' in seen
