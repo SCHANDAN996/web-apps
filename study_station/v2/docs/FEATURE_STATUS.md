@@ -1,4 +1,4 @@
-# Feature status matrix (UI batch 1, 24 Oct 2026)
+# Feature status matrix (24 Oct 2026)
 
 Each stage is a separate column, as asked in `design/UI_UX_NEXT_AND_AI_HANDOFF.md` (point 4). A feature that is
 "in source" is not automatically verified, deployed, or in the Play bundle.
@@ -19,7 +19,7 @@ The Phone / Deployed / Play columns are left ⬜ on purpose. They need the owner
 
 | Feature | Source | Tests | Browser (Linux, 24 Oct) | Phone | Deployed | Play 1.2.0 |
 |---|---|---|---|---|---|---|
-| Home (today action first, collaboration cards, study block) | ✅ `templates/home.html` | `test_ui_controls.py`, `e2e/flow.mjs` | ✅ 360px light/dark/paper, English, 130% text, landscape; no overflow, no JS errors | ⬜ | ⬜ | ❌ (changed after submission) |
+| Home (collaboration cards first, today card, study block — owner kept this layout; batch-1 redesign reverted 24 Oct) | ✅ `templates/home.html` | `test_ui_controls.py`, `e2e/flow.mjs` | ✅ 360px light/dark/paper, 130% text, landscape; no overflow, no JS errors | ⬜ | ⬜ | ⬜ |
 | Onboarding, practice 10, mock submit, revise, books reader, settings, language switch | ✅ | `test_api.py`, `test_books.py`, `e2e/flow.mjs` | ✅ all `flow.mjs` steps pass | ⬜ | ⬜ | ⬜ |
 | Themes (light/dark/paper/system) | ✅ `js/theme.js` | `test_ui_controls.py`, `flow.mjs` | ✅ | ⬜ | ⬜ | ⬜ |
 | Workspace v2 / notebooks / drawing | ✅ `js/workspace-*.js` | `workspace*.cjs` (PC-only paths) | ⬜ scripts not portable yet | ⬜ | ⬜ | ⬜ |
