@@ -1,6 +1,7 @@
-"""Shorts / Reels from the books: a 24-second 1080×1920 video per question (no voice, silent AAC track).
+"""Shorts / Reels from the books: a 24-second 1080×1920 video per question (no voice).
 
 0–2 s hook · 2–9 s question + options · 9–14 s countdown 5…1 · 14–20 s answer + solution · 20–24 s call to action.
+Sound: synthesised chime, countdown ticks and an answer 'ding' (sound_expr) — no music file, no licence.
 Frames are drawn with Pillow (Noto Sans Devanagari for Hindi, Noto Sans for Latin — both OFL, in
 study_station/promo/fonts) and joined with ffmpeg. A question whose text cannot be drawn (missing glyph, does
 not fit at the smallest size) is refused and the next one is taken.
@@ -277,9 +278,32 @@ def frames(q):
 
 
 # ------------------------------------------------------------------------------------------------ video
+def scene_start(name):
+    t = 0.0
+    for n, secs in SCENES:
+        if n == name:
+            return t
+        t += secs
+    raise KeyError(name)
+
+
+def sound_expr():
+    """The soundtrack, synthesised by ffmpeg (no music file, so nothing to license): a soft chime when the video
+    opens, a short tick on each second of the countdown and a two-note 'ding' when the answer appears."""
+    def tone(t0, freq, dur, decay, vol):
+        return (f'{vol}*between(t,{t0:.2f},{t0 + dur:.2f})*sin(2*PI*{freq}*(t-{t0:.2f}))'
+                f'*exp(-(t-{t0:.2f})*{decay})')
+    cd, ans = scene_start('countdown'), scene_start('answer')
+    parts = [tone(0.15, 660, 0.6, 6, 0.25), tone(0.15, 990, 0.6, 7, 0.12)]
+    parts += [tone(cd + i, 1200, 0.08, 45, 0.35) for i in range(int(scene_start('answer') - cd))]
+    parts += [tone(ans, 880, 1.6, 3, 0.35), tone(ans + 0.12, 1320, 1.4, 3.5, 0.25)]
+    return '+'.join(parts)
+
+
 def ffmpeg_cmd(listfile, out):
     return ['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', str(listfile),
-            '-f', 'lavfi', '-i', 'anullsrc=r=44100:cl=stereo', '-shortest',
+            '-f', 'lavfi', '-i', f"aevalsrc='{sound_expr()}':s=44100:d={sum(secs for _, secs in SCENES)}",
+            '-ac', '2', '-shortest',
             '-vf', 'fps=30,format=yuv420p', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '22',
             '-c:a', 'aac', '-b:a', '64k', '-t', str(sum(secs for _, secs in SCENES)),
             '-movflags', '+faststart', str(out)]

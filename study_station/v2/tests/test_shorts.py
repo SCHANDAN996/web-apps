@@ -44,7 +44,7 @@ def test_render_builds_the_ffmpeg_command(monkeypatch, tmp_path):
     cmd = seen['cmd']
     assert cmd[0] == 'ffmpeg' and cmd[-1] == str(tmp_path / 'out.mp4')
     assert float(cmd[cmd.index('-t') + 1]) == 24
-    assert '+faststart' in cmd and 'libx264' in cmd and 'aac' in cmd and 'anullsrc=r=44100:cl=stereo' in cmd
+    assert '+faststart' in cmd and 'libx264' in cmd and 'aac' in cmd and any(a.startswith("aevalsrc='") for a in cmd)
     durations = [float(l.split()[1]) for l in seen['list'].splitlines() if l.startswith('duration')]
     assert abs(sum(durations) - 24) < 0.01
     assert not (tmp_path / 'w').exists()                     # frames are cleaned up
@@ -90,3 +90,11 @@ def test_send_video_upload(monkeypatch, tmp_path):
     assert telegram.send_video(v, shorts.telegram_caption(Q)) == 7
     assert seen['url'].endswith('/sendVideo') and seen['name'] == '01.mp4'
     assert seen['data']['chat_id'] == '@ss_test' and 'अनुच्छेद 17' not in seen['data']['caption']   # no spoiler
+
+
+def test_soundtrack_follows_the_scenes():
+    expr = shorts.sound_expr()
+    cd, ans = shorts.scene_start('countdown'), shorts.scene_start('answer')
+    assert expr.count('1200') == int(ans - cd)                 # one tick per countdown second
+    assert f'between(t,{ans:.2f}' in expr                       # the ding starts with the answer
+    assert "'" not in expr and ':' not in expr                  # safe inside the quoted lavfi option
