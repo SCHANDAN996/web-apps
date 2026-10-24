@@ -17,7 +17,12 @@
   "Graduation_Level/Reasoning/Chapter_12_Missing_Term#Set03#Q57",
   "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_24_Statistics#Set06#Q150",
   "Graduation_Level/Reasoning/Chapter_05_Direction_Sense#Set01#Q23",
-  "Graduation_Level/Reasoning/Chapter_04_Blood_Relations#Short_Tricks_hi.txt#10"
+  "Graduation_Level/Reasoning/Chapter_04_Blood_Relations#Short_Tricks_hi.txt#10",
+  "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_14_Sports#Set02#Q37",
+  "Graduation_Level/Reasoning/Chapter_14_Alphabet_Questions#Set02#Q38",
+  "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_26_Permutation_Combination#Set04#Q97",
+  "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_28_Error_Log#Set03#Q71",
+  "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_21_Complex_Numbers#Set03#Q73"
  ],
  "shorts": [
   "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_17_Culture_Art#Set01#Q8",
@@ -242,6 +247,58 @@
       "opt": "10 मी",
       "exp": "उत्तर: 10 मी। दक्षिण 10 मी, दाईं ओर पश्चिम 5 मी, दाईं ओर उत्तर 10 मी (दक्षिण वाली दूरी को काटता है), फिर उत्तर से बाईं ओर पश्चिम 5 मी; कुल विस्थापन 5 + 5 = 10 मी पश्चिम है, अतः उत्तर 10 मी है।",
       "part": "am"
+     }
+    ],
+    [
+     {
+      "id": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_14_Sports#Set02#Q37",
+      "msg": 25,
+      "chapter": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_14_Sports",
+      "q": "लंदन 2012 ओलंपिक में मुक्केबाज़ी में कांस्य पदक जीतने वाली भारतीय महिला कौन थी?",
+      "ans": 0,
+      "opt": "मैरी कॉम",
+      "exp": "उत्तर: मैरी कॉम। मैरी कॉम ने लंदन 2012 में फ्लाईवेट वर्ग में कांस्य पदक जीता, इसलिए उत्तर मैरी कॉम है।",
+      "part": "pm"
+     },
+     {
+      "id": "Graduation_Level/Reasoning/Chapter_14_Alphabet_Questions#Set02#Q38",
+      "msg": 26,
+      "chapter": "Graduation_Level/Reasoning/Chapter_14_Alphabet_Questions",
+      "q": "श्रृंखला में प्रश्नवाचक चिह्न के स्थान पर क्या आएगा: Z, X, V, T, ?",
+      "ans": 1,
+      "opt": "R",
+      "exp": "उत्तर: R। श्रृंखला हर बार 2 अक्षर पीछे चलती है: Z(26), X(24), V(22), T(20), अतः अगला अक्षर स्थिति 18 पर है, जो R है।",
+      "part": "pm"
+     },
+     {
+      "id": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_26_Permutation_Combination#Set04#Q97",
+      "msg": 27,
+      "chapter": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_26_Permutation_Combination",
+      "q": "7 पुरुषों और 6 महिलाओं के समूह से 5 सदस्यों की समिति इस प्रकार बनानी है कि कम से कम 3 पुरुष हों। कितने तरीके हैं?",
+      "ans": 3,
+      "opt": "756",
+      "exp": "उत्तर: 756। कुल = 525 + 210 + 21 = 756, अतः उत्तर 756 है।",
+      "part": "pm"
+     },
+     {
+      "id": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_28_Error_Log#Set03#Q71",
+      "msg": 28,
+      "chapter": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_28_Error_Log",
+      "q": "A good Error Log entry for a vocabulary mistake should include:",
+      "ans": 3,
+      "opt": "the word, its meaning, the confusing similar word, and an example sentence",
+      "exp": "उत्तर: the word, its meaning, the confusing similar word, and an example sentence। अंतर और एक वाक्य दर्ज करने से भेद पक्का होता है, इसलिए उत्तर है — शब्द, उसका अर्थ, भ्रम पैदा करने वाला मिलता-जुलता श…",
+      "part": "pm"
+     },
+     {
+      "id": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_21_Complex_Numbers#Set03#Q73",
+      "msg": 29,
+      "chapter": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_21_Complex_Numbers",
+      "q": "यदि (x + iy)¹ᐟ³ = a + ib, तो x/a + y/b बराबर है",
+      "ans": 0,
+      "opt": "4(a² − b²)",
+      "exp": "उत्तर: 4(a² − b²)। घन करने पर: x = a³ − 3ab² और y = 3a²b − b³, अतः x/a = a² − 3b² और y/b = 3a² − b²; जोड़ने पर 4a² − 4b² मिलता है, अतः उत्तर 4(a² − b²) है।",
+      "part": "pm"
      }
     ]
    ],
