@@ -37,4 +37,5 @@
 25-10 02:15:40 worker 0: nothing left
 25-10 02:15:44 worker 1: nothing left
 25-10 02:15:49 worker 2: nothing left
+25-10 02:16:33 autopilot end: done 0, failed 0
 ```
