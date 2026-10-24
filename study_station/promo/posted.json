@@ -11,7 +11,12 @@
   "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_09_Economy_Basic#Set03#Q71",
   "12th_Level/Reasoning/Chapter_07_Sitting_Arrangement#Set03#Q74",
   "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_16_Idioms_Phrases#Set04#Q97",
-  "revision#2026-10-23"
+  "revision#2026-10-23",
+  "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_12_Sentence_Structure#Set04#Q95",
+  "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_22_Defence#Set03#Q69",
+  "Graduation_Level/Reasoning/Chapter_12_Missing_Term#Set03#Q57",
+  "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_24_Statistics#Set06#Q150",
+  "Graduation_Level/Reasoning/Chapter_05_Direction_Sense#Set01#Q23"
  ],
  "shorts": [
   "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_17_Culture_Art#Set01#Q8",
@@ -180,6 +185,62 @@
      {
       "id": "revision#2026-10-23",
       "msg": 16
+     }
+    ]
+   ]
+  },
+  "2026-10-24": {
+   "quiz": [
+    [
+     {
+      "id": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_12_Sentence_Structure#Set04#Q95",
+      "msg": 18,
+      "chapter": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_12_Sentence_Structure",
+      "q": "सही वाक्य चुनें:",
+      "ans": 1,
+      "opt": "It is high time we went home.",
+      "exp": "उत्तर: It is high time we went home. पहले विकल्प का वर्तमान काल स्वाभाविक लगता है पर अव्याकरणिक है, इसलिए उत्तर है \"It is high time we went home.\"",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_22_Defence#Set03#Q69",
+      "msg": 19,
+      "chapter": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_22_Defence",
+      "q": "कौन सा अर्धसैनिक बल भारत-पाकिस्तान और भारत-बांग्लादेश सीमाओं की रक्षा करता है?",
+      "ans": 1,
+      "opt": "BSF",
+      "exp": "उत्तर: BSF। सीमा सुरक्षा बल भारत-पाकिस्तान और भारत-बांग्लादेश सीमाओं की रक्षा करता है, इसलिए उत्तर BSF है।",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/Reasoning/Chapter_12_Missing_Term#Set03#Q57",
+      "msg": 20,
+      "chapter": "Graduation_Level/Reasoning/Chapter_12_Missing_Term",
+      "q": "लुप्त पद ज्ञात कीजिए: H, I, J, K, L, ?",
+      "ans": 3,
+      "opt": "M",
+      "exp": "उत्तर: M। स्थितियाँ 8, 9, 10, 11, 12 (A = 1); अंतर 1, 1, 1, 1, इसलिए अगला 13 = M है।",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_24_Statistics#Set06#Q150",
+      "msg": 21,
+      "chapter": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_24_Statistics",
+      "q": "एक बारंबारता बंटन में, माध्यिका वर्ग 20–30 से ठीक नीचे और ठीक ऊपर की संचयी बारंबारताएँ क्रमशः 12 और 45 हैं, माध्यिका वर्ग की बारंबारता 33 है, और कुल बारंबारता 60 है। माध्यिका है:",
+      "ans": 0,
+      "opt": "25.45",
+      "exp": "उत्तर: 25.45। माध्यिका = L + [(N/2 − cf)/f] × h = 20 + [(30 − 12)/33] × 10 = 20 + 180/33 = 20 + 5.45 = 25.45, अतः उत्तर 25.45 है।",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/Reasoning/Chapter_05_Direction_Sense#Set01#Q23",
+      "msg": 22,
+      "chapter": "Graduation_Level/Reasoning/Chapter_05_Direction_Sense",
+      "q": "एक व्यक्ति दक्षिण दिशा की ओर 10 मी चलता है, दाईं ओर मुड़कर 5 मी चलता है, दाईं ओर मुड़कर 10 मी चलता है, फिर बाईं ओर मुड़कर 5 मी चलता है। वह प्रारंभिक बिंदु से कितनी दूर है?",
+      "ans": 0,
+      "opt": "10 मी",
+      "exp": "उत्तर: 10 मी। दक्षिण 10 मी, दाईं ओर पश्चिम 5 मी, दाईं ओर उत्तर 10 मी (दक्षिण वाली दूरी को काटता है), फिर उत्तर से बाईं ओर पश्चिम 5 मी; कुल विस्थापन 5 + 5 = 10 मी पश्चिम है, अतः उत्तर 10 मी है।",
+      "part": "am"
      }
     ]
    ]
