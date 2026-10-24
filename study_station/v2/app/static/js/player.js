@@ -146,8 +146,23 @@ window.SS.startPlayer = function () {
   // ================================================================ CBT MOCK
   function mock(data) {
     var qs = data.questions, i = 0, visited = {}, pending = {}, shownAt = Date.now(), finishing = false;
+    // Where the learner was: kept in localStorage so it survives closing the app/tab (sessionStorage did not);
+    // without a saved spot, resume at the first question not yet answered or marked.
     var posKey = 'ss-mock-pos-' + data.id;
-    try { i = Math.min(qs.length - 1, Math.max(0, parseInt(sessionStorage.getItem(posKey) || '0', 10) || 0)); } catch (e) {}
+    var savedPos = null;
+    try {
+      savedPos = localStorage.getItem(posKey);
+      if (savedPos === null) savedPos = sessionStorage.getItem(posKey);       // positions saved before this change
+      var old = [];
+      for (var n = 0; n < localStorage.length; n++) { var key = localStorage.key(n); if (key && key.indexOf('ss-mock-pos-') === 0 && key !== posKey) old.push(key); }
+      if (old.length > 20) old.forEach(function (key) { localStorage.removeItem(key); });
+    } catch (e) {}
+    savedPos = parseInt(savedPos, 10);
+    if (isNaN(savedPos)) {
+      savedPos = 0;
+      for (var u = 0; u < qs.length; u++) { if ((qs[u].state.chosen === null || qs[u].state.chosen === undefined) && !qs[u].state.marked) { savedPos = u; break; } }
+    }
+    i = Math.min(qs.length - 1, Math.max(0, savedPos));
     qs.forEach(function (q) { if (q.state.chosen !== null || q.state.marked) visited[q.id] = true; });
     visited[qs[i].id] = true;
     var deadline = Date.now() + (data.remaining_sec || 0) * 1000;
@@ -185,7 +200,7 @@ window.SS.startPlayer = function () {
       if (n < 0 || n >= qs.length) return;
       save(qs[i]);
       i = n; visited[qs[i].id] = true;
-      try { sessionStorage.setItem(posKey, String(i)); } catch (e) {}
+      try { localStorage.setItem(posKey, String(i)); } catch (e) {}
       render(); scrollTo(0, 0);
     }
 
@@ -311,7 +326,7 @@ window.SS.startPlayer = function () {
           return SS.api('POST', '/api/v1/attempts/' + data.id + '/finish');
         }).then(function () {
           window.removeEventListener('beforeunload', guard);
-          try { sessionStorage.removeItem(posKey); } catch (e) {}
+          try { localStorage.removeItem(posKey); sessionStorage.removeItem(posKey); } catch (e) {}
           SS.go('/result/' + data.id, true);
         }).catch(function (e) {
           tries++;

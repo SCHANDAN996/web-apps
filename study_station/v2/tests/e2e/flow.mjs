@@ -60,6 +60,18 @@ await step('mock test with palette and submit', async () => {
   await p.waitForURL(/\/attempt\/\d+/);
   await p.waitForSelector('.option');
   for (let i = 0; i < 5; i++) { await p.click('.option >> nth=1'); await p.click('.action-bar .btn-primary'); await p.waitForTimeout(100); }
+  // Reopening the test (new tab = app closed and opened again) resumes at the same question …
+  await p.waitForTimeout(500);
+  const pos = async pg => (await pg.textContent('button[aria-label="Question palette"]')).trim().split('/')[0];
+  const here = await pos(p);
+  const again = await ctx.newPage();
+  await again.goto(p.url()); await again.waitForSelector('.option');
+  if (await pos(again) !== here) throw new Error(`mock resumed at ${await pos(again)}, expected ${here}`);
+  // … and without a saved position it starts at the first unanswered question, not at 1.
+  await again.evaluate(() => Object.keys(localStorage).filter(k => k.startsWith('ss-mock-pos-')).forEach(k => localStorage.removeItem(k)));
+  await again.reload(); await again.waitForSelector('.option');
+  if (await pos(again) !== '6') throw new Error(`mock without saved position opened at ${await pos(again)}, expected 6`);
+  await again.close();
   await p.click('button[aria-label="Question palette"]');
   await p.waitForSelector('dialog .pal');
   await shot('mock-palette');

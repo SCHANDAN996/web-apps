@@ -22,6 +22,7 @@ The Phone / Deployed / Play columns are left ⬜ on purpose. They need the owner
 | Home (collaboration cards first, today card, study block — owner kept this layout; batch-1 redesign reverted 24 Oct) | ✅ `templates/home.html` | `test_ui_controls.py`, `e2e/flow.mjs` | ✅ 360px light/dark/paper, 130% text, landscape; no overflow, no JS errors | ⬜ | ⬜ | ⬜ |
 | Onboarding, practice 10, mock submit, revise, books reader, settings, language switch | ✅ | `test_api.py`, `test_books.py`, `e2e/flow.mjs` | ✅ all `flow.mjs` steps pass | ⬜ | ⬜ | ⬜ |
 | Themes (light/dark/paper/system) | ✅ `js/theme.js` | `test_ui_controls.py`, `flow.mjs` | ✅ | ⬜ | ⬜ | ⬜ |
+| Mock resume after closing the app (position kept in localStorage; else first unanswered) | ✅ `js/player.js` | `e2e/flow.mjs` (reopen + no-saved-position checks) | ✅ reproduced 6/80 → 1/80 before, 6/80 after | ⬜ | ⬜ | ❌ (after submission) |
 | Workspace v2 / notebooks / drawing | ✅ `js/workspace-*.js` | `workspace*.cjs` (PC-only paths) | ⬜ scripts not portable yet | ⬜ | ⬜ | ⬜ |
 | Group study / Teacher class / Shared | ✅ `classroom.py` | `test_classroom.py`, `classroom.cjs` (PC-only) | ⬜ | ⬜ | ⬜ | ⬜ |
 | Favourites / share question | ✅ `shared_questions.py`, `js/question-actions.js` | `test_shared_questions.py`, `question-actions.mjs` | ⬜ script needs Chrome channel | ⬜ | ⬜ | ⬜ |
