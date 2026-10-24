@@ -707,3 +707,30 @@ body.nav-busy .nav-progress { opacity: 1; transform: scaleX(.92);
 @media (prefers-reduced-motion:reduce) { .home-image-card:active { transform:none; } }
 
 .home-settings-link { margin-top:var(--sp-4); min-height:56px; gap:var(--sp-2); justify-content:center; }
+
+/* ---------------------------------------------------------------- shared spacing (UI batch 1) */
+/* One scale for cards, buttons and dialogs: inner padding, gap between siblings, gap between sections. */
+:root { --card-pad: var(--sp-4); --card-pad-compact: var(--sp-3); --card-gap: var(--sp-3); --section-gap: var(--sp-5); }
+.card { padding: var(--card-pad); }
+.ss-dialog-body { padding: var(--sp-5) var(--sp-5) var(--card-pad-compact); }
+.ss-dialog-actions { gap: var(--sp-2); padding: var(--card-pad-compact) var(--sp-5) var(--sp-5); }
+.btn { text-align: center; }
+
+/* ---------------------------------------------------------------- home: today first, compact cards */
+.home-stack > * + * { margin-top: var(--section-gap); }
+.home-stack > .home-status-link { margin-top: var(--sp-2); }
+.home-today-actions { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--sp-2); margin-top: var(--card-pad-compact); }
+.home-today-actions .btn { width: 100%; height: auto; padding-block: var(--sp-2); padding-inline: var(--sp-4); white-space: normal; line-height: 1.4; }
+.home-today-actions .btn > span { min-width: 0; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+@media (min-width: 520px) { .home-today-actions { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.home-status-link { display: flex; align-items: center; gap: var(--sp-2); width: fit-content; max-width: 100%; min-height: var(--tap);
+  margin-inline-start: auto; padding-inline: var(--sp-3); border-radius: var(--r-pill); color: var(--text-2);
+  font-size: var(--fs-sm); text-decoration: none; }
+.home-status-link:hover { color: var(--brand); text-decoration: none; }
+.home-status-link .chev { opacity: .7; }
+.home-card-grid { gap: var(--card-gap); }
+.home-card-grid .home-image-card { gap: var(--sp-1); padding: var(--card-pad-compact); }
+.home-card-grid .home-image-card img { width: 64px; height: 48px; margin-bottom: var(--sp-1); }
+.home-card-grid .home-image-card .xs { line-height: 1.55; }
+.home-explore-grid .home-image-card img { width: 56px; height: 42px; }
+.home-today .btn-secondary { background: var(--surface-raised); color: var(--text); border-color: color-mix(in srgb, currentColor 16%, transparent); }

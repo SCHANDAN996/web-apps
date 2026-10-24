@@ -66,4 +66,25 @@ def test_home_collaboration_cards_precede_learning(client):
     cards=home.select('.home-collaboration-grid .home-image-card')
     assert [c['href'] for c in cards] == ['/classroom?view=workspace','/classroom?view=groups','/classroom?view=classes','/classroom?view=shared']
     assert all(c.select_one('img[alt=""]') for c in cards)
-    assert home.select_one('main .stack > section').get('aria-labelledby') == 'home-collaboration-h'
+    # Owner's UI plan (design/UI_UX_NEXT_AND_AI_HANDOFF.md, P0 Home): today's action first, then the four
+    # collaboration cards, then the study block.
+    order = [s.get('aria-labelledby') for s in home.select('main .stack > section')]
+    assert order[:3] == ['home-today-h', 'home-collaboration-h', 'plan-h']
+
+
+def test_home_today_card_leads_with_one_action(client):
+    client.post('/api/v1/me', json={'level': '10th'})
+    home = BeautifulSoup(client.get('/').text, 'html.parser')
+    today = home.select_one('main .stack > section')
+    start = today.select_one('#homeStart')
+    assert 'btn-primary' in start['class'] and (start.get('data-practice') or start.get('href') == '/practice')
+    assert 'आज के 10 सवाल' in start.text
+    cont = today.select_one('#continueRead')
+    assert cont['href'] == '/books' and cont.select_one('[data-continue-label]')
+    # membership is a small status link right after the card, not a big button above everything
+    link = home.select_one('main .stack > a.home-status-link')
+    assert link['href'] == '/membership' and link.find_previous_sibling('section') is today
+    assert not home.select('main .stack > a.btn[href="/membership"], main > a.btn[href="/membership"]')
+    client.cookies.set('ss_lang', 'en')
+    en = BeautifulSoup(client.get('/').text, 'html.parser')
+    assert "Start today's 10 questions" in en.select_one('#homeStart').text

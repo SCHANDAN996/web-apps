@@ -393,17 +393,18 @@
       var m = a.querySelector('.read-mark'); if (m) m.hidden = false;
     }
   });
-  var planRead = document.getElementById('planRead');
-  if (planRead) {
+  ['planRead', 'continueRead'].forEach(function (id) {   // home: "continue where you left off" links
+    var link = document.getElementById(id);
+    if (!link) return;
     try {
       var last = JSON.parse(localStorage.getItem(lastKey) || 'null');
       if (last && /^\/books\//.test(last.url)) {
-        planRead.setAttribute('href', last.url);
-        var b = planRead.querySelector('[data-continue-label]');
+        link.setAttribute('href', last.url);
+        var b = link.querySelector('[data-continue-label]');
         b.textContent = b.getAttribute('data-continue-label') + ': ' + (last[SS.lang] || last.hi || last.en || last.title || '');
       }
     } catch (e) {}
-  }
+  });
 
   // ---------------------------------------------------------------- book reader settings
   var reader = document.getElementById('reader');

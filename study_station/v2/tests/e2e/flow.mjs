@@ -111,7 +111,8 @@ await step('books: chapter, flashcard flip, mind map', async () => {
 await step('home plan, practice search, theme switch', async () => {
   await p.goto(B + '/');
   await p.waitForSelector('.today-card .ring');
-  if (await p.locator('.home-learning .home-image-card').count() !== 4) throw new Error('study cards missing');
+  if (await p.locator('[aria-labelledby="plan-h"] .home-image-card').count() !== 4) throw new Error('study cards missing');
+  if (!(await p.isVisible('#homeStart'))) throw new Error('today start button missing');
   await p.goto(B + '/practice');
   await p.fill('#topicSearch', 'zzzz-no-such-topic');
   if (await p.isHidden('#searchEmpty')) throw new Error('search empty state not shown');
