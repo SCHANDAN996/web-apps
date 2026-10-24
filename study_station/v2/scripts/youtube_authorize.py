@@ -17,15 +17,16 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument('client_file', type=Path)
     ap.add_argument('output', type=Path)
-    ap.add_argument('--email', default='all.chandansingh@gmail.com', help='Google account to use for consent')
+    ap.add_argument('--email', help='Optional Google account hint for consent')
     args = ap.parse_args()
     repo = Path(__file__).resolve().parents[3]
     output = args.output.resolve()
     if output.is_relative_to(repo):
         ap.error('Save credentials outside the repository.')
     flow = InstalledAppFlow.from_client_secrets_file(str(args.client_file), SCOPES)
+    options = {'login_hint': args.email} if args.email else {}
     credentials = flow.run_local_server(host='localhost', port=0, access_type='offline', prompt='consent',
-                                        login_hint=args.email)
+                                        **options)
     if not credentials.refresh_token:
         raise SystemExit('No refresh token returned. Repeat consent with the correct Google account.')
     values = {'YOUTUBE_CLIENT_ID': credentials.client_id,
