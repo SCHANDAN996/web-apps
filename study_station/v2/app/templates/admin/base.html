@@ -20,6 +20,13 @@
       border: 1px solid var(--border); background: var(--surface); font: inherit; }
     .two { display: grid; gap: var(--sp-4); grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); }
     .wide { max-width: 1180px; }
+    .topbar { height: auto; }
+    .topbar .wrap { flex-wrap: wrap; height: auto; min-height: 56px; row-gap: var(--sp-2); padding-block: var(--sp-2); }
+    .admin-nav .chip, .admin-nav form { min-height: var(--tap); }
+    .tbl { display: block; overflow-x: auto; }
+    main .row-between, main .row { flex-wrap: wrap; gap: var(--sp-2); }          /* wide tables scroll inside their card on a phone */
+    .stat-grid { display: grid; gap: var(--sp-2); grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); }
+    .stat-grid .card { padding: var(--sp-3); }
     pre.log { white-space: pre-wrap; font-size: 12px; background: var(--surface-2); padding: 8px; border-radius: 8px; max-height: 220px; overflow: auto; }
   </style>
 </head>

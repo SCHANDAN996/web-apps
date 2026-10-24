@@ -2,6 +2,47 @@
 {% block title %}Dashboard{% endblock %}
 {% block main %}
 <h1>Dashboard</h1>
+
+{% set L = report.learners %}
+<section class="card" aria-labelledby="today-h">
+  <h2 id="today-h">Learners (counts only)</h2>
+  <div class="stat-grid">
+    {% for value, label in [(L.active_24h, 'Active in 24 h'), (L.active_7d, 'Active in 7 days'), (L.answers_24h, 'Answers in 24 h'), (L.mocks_finished_7d, 'Mocks finished in 7 days'), (L.devices_total, 'Learners in total')] %}
+    <div class="card" style="background:var(--surface-2)"><b style="font-size:var(--fs-2xl)">{{ value }}</b><div class="muted small">{{ label }}</div></div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="card" style="margin-top:var(--sp-4)" aria-labelledby="alerts-h" id="alerts">
+  <h2 id="alerts-h">Alerts</h2>
+  {% if report.alerts %}
+  <ul class="list">
+    {% for a in report.alerts %}<li class="list-item"><span class="badge {{ 'badge-bad' if a.level == 'critical' else 'badge-warn' if a.level == 'warning' else 'badge-brand' }}">{{ a.level }}</span> <span class="grow small">{{ a.msg }}</span></li>{% endfor %}
+  </ul>
+  {% else %}<p class="muted small" style="margin:0">No alerts — everything checked is healthy.</p>{% endif %}
+  <p class="xs muted" style="margin:var(--sp-2) 0 0">Current affairs: {{ report.current_affairs.items_7d }} items in 7 days
+    · AI calls today: {{ report.ai.calls_today }}{% if report.ai.enabled %} / {{ report.ai.daily_limit_total }}{% else %} (AI off){% endif %}</p>
+</section>
+
+<div class="two" style="margin-top:var(--sp-4)">
+  <section class="card" aria-labelledby="release-h" id="release">
+    <h2 id="release-h">Live source</h2>
+    {% if release %}
+    <p class="small" style="margin:0">Revision <code>{{ release.revision[:12] or '—' }}</code>{% if release.branch %} · {{ release.branch }}{% endif %}</p>
+    <p class="xs muted" style="margin:4px 0 0">Deployed {{ release.deployed_at or '—' }}{% if release.files %} · {{ release.files }} files in the manifest{% endif %}</p>
+    {% else %}<p class="muted small" style="margin:0">No deployment manifest on this server yet (expected at <code>/var/lib/studystation/source-release.json</code>).</p>{% endif %}
+  </section>
+  <section class="card" aria-labelledby="promo-h" id="promo">
+    <h2 id="promo-h">Telegram &amp; Shorts</h2>
+    <p class="small" style="margin:0"><a href="{{ promo.channel|safe_url }}" target="_blank" rel="noopener">{{ promo.channel }}</a> · <a href="{{ promo.actions|safe_url }}" target="_blank" rel="noopener">GitHub Actions</a></p>
+    {% if promo.as_of %}
+    <p class="xs muted" style="margin:4px 0 0">Posted today (server copy of the log, {{ promo.as_of }}):
+      {% for slot, n in promo.today.items() %}{{ slot }} {{ n }}{% if not loop.last %} · {% endif %}{% else %}nothing yet in this copy (last day: {{ promo.last_day or '—' }}){% endfor %}</p>
+    {% else %}<p class="xs muted" style="margin:4px 0 0">No posted log on this server; the live log is on GitHub.</p>{% endif %}
+  </section>
+</div>
+
+<h2 style="margin-top:var(--sp-5)">Content &amp; jobs</h2>
 <div class="grid">
   <a class="card card-link" href="/admin/questions?queue=reported"><b style="font-size:var(--fs-2xl)">{{ open_reports }}</b><div class="muted small">Open student reports</div></a>
   <a class="card card-link" href="/admin/questions?queue=flagged"><b style="font-size:var(--fs-2xl)">{{ q_counts.get('flagged', 0) }}</b><div class="muted small">Auto-flagged questions</div></a>

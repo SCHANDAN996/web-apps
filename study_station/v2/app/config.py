@@ -27,6 +27,9 @@ NVIDIA_BASE_URL = os.environ.get('NVIDIA_BASE_URL', 'https://integrate.api.nvidi
 BOOKGEN_PROVIDER = os.environ.get('BOOKGEN_PROVIDER', '')
 
 LOG_DIR = Path(os.environ.get('LOG_DIR', BASE_DIR / 'logs'))
+# Written by each server deployment (docs/SOURCE_SYNC.md); the admin dashboard shows which revision is live.
+SOURCE_RELEASE_PATH = Path(os.environ.get('SOURCE_RELEASE_PATH', '/var/lib/studystation/source-release.json'))
+PROMO_CHANNEL_URL = os.environ.get('PROMO_LINK', '') or 'https://t.me/studystation_hindi'
 AI_DAILY_BOOK_SECTIONS = int(os.environ.get('AI_DAILY_BOOK_SECTIONS', '60'))   # bookgen: AI calls per day, all chapters
 
 # Books (study_station/books/<Level>/<Subject>/[<Book>/]Chapter_NN_Name/) — read-only for the app.

@@ -10,6 +10,7 @@ def admin_on(monkeypatch):
     monkeypatch.setattr(config, 'ADMIN_PASSWORD', 'pass123')
     from app import admin
     admin._attempts.clear()
+    admin._report_cache.update(at=0.0, value=None)
 
 
 H = {'origin': 'http://testserver'}
@@ -81,3 +82,37 @@ def test_publish_pending_job_needs_official_url(client, admin_on, db):
     j = db.get(Job, job.id)
     assert j.status == 'verified' and str(j.last_date) == '2099-01-31'
     assert client.get('/jobs/pending-x').status_code == 200
+
+
+def test_dashboard_overview_is_read_only_and_shows_live_state(client, admin_on, db, monkeypatch, tmp_path):
+    import json
+    from app import services
+    from app.promo import posted as plog
+    login(client)
+    r = client.get('/admin')
+    assert 'Learners (counts only)' in r.text and 'Alerts' in r.text
+    assert 'No deployment manifest' in r.text
+    # deployment manifest -> revision shown
+    manifest = tmp_path / 'source-release.json'
+    manifest.write_text(json.dumps({'revision': 'abc123def4567890', 'deployed_at': '2026-10-24T10:00:00+05:30',
+                                    'branch': 'claude/elegant-rubin-sgov1q', 'files': {'a.py': 'x', 'b.py': 'y'}}))
+    monkeypatch.setattr(config, 'SOURCE_RELEASE_PATH', manifest)
+    log = tmp_path / 'posted.json'
+    day = services.today_ist().isoformat()
+    log.write_text(json.dumps({'telegram': [], 'shorts': [], 'days': {day: {'quiz': [[{'id': 'a'}] * 5, [{'id': 'b'}] * 5]}}}))
+    monkeypatch.setattr(plog, 'POSTED', log)
+    r = client.get('/admin')
+    assert 'abc123def456' in r.text and '2 files in the manifest' in r.text
+    assert 'quiz 10' in r.text and 't.me/studystation_hindi' in r.text
+    # a broken manifest does not break the page
+    manifest.write_text('{not json')
+    assert client.get('/admin').status_code == 200
+    # nothing on the dashboard changes data: only GETs, and the overview has no forms of its own
+    from bs4 import BeautifulSoup
+    doc = BeautifulSoup(client.get('/admin').text, 'html.parser')
+    assert not doc.select('#release form, #promo form, #alerts form')
+
+
+def test_dashboard_overview_needs_login(client, admin_on):
+    r = client.get('/admin', follow_redirects=False)
+    assert r.status_code == 303 and '/admin/login' in r.headers['location']

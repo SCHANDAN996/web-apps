@@ -130,7 +130,57 @@ def dashboard(request: Request, _: bool = Depends(require_admin), db: Session = 
     open_jobs = db.scalar(select(func.count(Job.id)).where(Job.status == 'verified', Job.job_type == 'latest',
                                                           Job.last_date >= today_ist()))
     return page(request, 'dashboard.html', q_counts=q_counts, open_reports=open_reports, j_counts=j_counts,
-                health=health, open_jobs=open_jobs, runs=recent_runs())
+                health=health, open_jobs=open_jobs, runs=recent_runs(), report=health_report(db),
+                release=release_info(), promo=promo_status())
+
+
+# ------------------------------------------------------------------ dashboard 2.0 (read-only)
+_report_cache = {'at': 0.0, 'value': None}
+REPORT_TTL = 60          # seconds; observe.collect groups the whole question bank once
+
+
+def health_report(db):
+    """Learner counts, content/AI figures and alerts from app.observe (read-only, cached for a minute)."""
+    now = time.monotonic()
+    if _report_cache['value'] is None or now - _report_cache['at'] > REPORT_TTL:
+        from . import observe
+        _report_cache.update(at=now, value=observe.collect(db))
+    return _report_cache['value']
+
+
+def release_info():
+    """Which source revision the server runs, from the deployment manifest; None if there is none."""
+    import json
+    p = config.SOURCE_RELEASE_PATH
+    try:
+        data = json.loads(p.read_text(encoding='utf-8'))
+    except (OSError, ValueError):
+        return None
+    if not isinstance(data, dict):
+        return None
+    files = data.get('files') or data.get('manifest') or {}
+    return {'revision': str(data.get('revision') or data.get('commit') or '')[:40],
+            'deployed_at': str(data.get('deployed_at') or data.get('created_at') or data.get('released_at') or ''),
+            'branch': str(data.get('branch') or ''), 'files': len(files) if hasattr(files, '__len__') else None}
+
+
+def promo_status():
+    """Telegram/Shorts as seen in this server's copy of the workflow-owned posted logs (read-only).
+    The logs are written on GitHub, so the copy is only as new as the last deployment; the date says so."""
+    from .promo import posted as plog
+    from .services import today_ist
+    out = {'channel': config.PROMO_CHANNEL_URL, 'as_of': None, 'today': {}, 'last_day': None,
+           'actions': 'https://github.com/SCHANDAN996/web-apps/actions'}
+    p = plog.POSTED
+    if not p.exists():
+        return out
+    data = plog.load(p)
+    out['as_of'] = datetime.utcfromtimestamp(p.stat().st_mtime).strftime('%d-%m-%Y %H:%M UTC')
+    days = sorted(data['days'])
+    out['last_day'] = days[-1] if days else None
+    today = data['days'].get(today_ist().isoformat(), {})
+    out['today'] = {slot: sum(len(b) for b in batches) for slot, batches in today.items()}
+    return out
 
 
 # ------------------------------------------------------------------ questions
