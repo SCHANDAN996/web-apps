@@ -41,6 +41,7 @@ STRINGS = {
     'plan_read': ('एक अध्याय पढ़ें', 'Read a chapter'),
     'plan_read_sub': ('किताबों से — फिर उसी का अभ्यास', 'From the books — then practise it'),
     'plan_continue': ('जारी रखें', 'Continue'),
+    'mistakes_btn': ('मेरी गलतियाँ: पिछले 7 दिन के {n} सवाल फिर से', 'My mistakes: retry {n} questions from the last 7 days'),
     'tg_quiz_title': ('Telegram क्विज़', 'Telegram quiz'),
     'tg_quiz_tile': ('चैनल के आज के {n} सवाल', "Today's {n} channel questions"),
     'plan_ca_sub': ('5 मिनट में आज की ज़रूरी ख़बरें', "Today's key news in 5 minutes"),

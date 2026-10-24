@@ -428,6 +428,16 @@ def api_specific_practice(question_id: int, body: SpecificPracticeIn, request: R
     return services.attempt_payload(db, a)
 
 
+@app.post('/api/v1/mistakes')
+def api_mistakes(request: Request, device: Device = Depends(ensure_device), db: Session = Depends(get_db)):
+    limit(request, 'start', 60, 3600)
+    try:
+        a = services.start_mistakes(db, device)
+    except Exception as e:
+        _service_error(e)
+    return services.attempt_payload(db, a)
+
+
 @app.post('/api/v1/telegram-quiz')
 def api_telegram_quiz(request: Request, device: Device = Depends(ensure_device), db: Session = Depends(get_db)):
     limit(request, 'start', 60, 3600)
@@ -692,8 +702,9 @@ def page_result(attempt_id: int, request: Request, device: Device | None = Depen
 
 
 @app.get('/revise', response_class=HTMLResponse)
-def page_revise(request: Request, device: Device | None = Depends(current_device)):
-    return render('revise.html', request, device)
+def page_revise(request: Request, device: Device | None = Depends(current_device), db: Session = Depends(get_db)):
+    mistakes = len(services.recent_mistakes(db, device)) if device else 0
+    return render('revise.html', request, device, mistakes=mistakes)
 
 
 @app.get('/progress', response_class=HTMLResponse)

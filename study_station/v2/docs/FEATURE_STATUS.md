@@ -38,6 +38,7 @@ The Phone / Deployed / Play columns are left ⬜ on purpose. They need the owner
 | Admin dashboard 2.0 (learner counts, alerts, live revision, Telegram/Shorts) — read-only | ✅ `admin.py`, `templates/admin/dashboard.html` | `test_admin.py` | ✅ 360px, no horizontal scroll, no JS errors | ⬜ | ⬜ | n/a (website only) |
 | Admin: possible-wrong-key queue, bulk verify/hide with reason, audit log (`/admin/audit`) | ✅ `admin.py`, `services.suspicious_keys`, `AdminAction` | `test_admin.py` | ✅ 360px list + bulk form | ⬜ | ⬜ | n/a (website only) |
 | Telegram quiz in the app (Practice tile → today's channel questions, live log from GitHub, cached 10 min) | ✅ `promo/live.py`, `/api/v1/telegram-quiz` | `test_promo_live.py` | ✅ tile + quiz opened with the 24 Oct channel questions | ⬜ | ⬜ | ❌ (after submission) |
+| My mistakes (revise page button: latest-wrong questions of the last 7 days, max 25, this learner only) | ✅ `services.recent_mistakes`, `/api/v1/mistakes` | `test_mistakes.py` | ✅ 4 wrong → button '4 सवाल' → set of 4; hi/en at 130% text, no overflow | ⬜ | ⬜ | ❌ (after submission) |
 | Telegram posts (GitHub Actions) | ✅ `app/promo/` | `test_promo.py` | n/a; live: `t.me/s/studystation_hindi` shows the 23–24 Oct polls | n/a | ✅ GitHub Actions (not the server) | n/a |
 | Shorts videos (GitHub Actions) | ✅ `app/promo/shorts.py` | `test_shorts.py` | n/a; frames checked by eye | n/a | ✅ GitHub Actions artifact | n/a |
 

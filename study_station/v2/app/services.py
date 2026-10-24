@@ -122,6 +122,38 @@ def start_specific_practice(db: Session, device: Device, question_id: int):
     return a
 
 
+MISTAKE_DAYS = 7
+MISTAKE_MAX = 25
+
+
+def recent_mistakes(db: Session, device: Device, days=MISTAKE_DAYS, limit=MISTAKE_MAX):
+    """This learner's questions whose latest answer in the last `days` days was wrong (newest first).
+    A question answered right again later in the window drops out; hidden questions never come back."""
+    since = datetime.utcnow() - timedelta(days=days)
+    rows = db.execute(
+        select(AttemptAnswer.question_id, AttemptAnswer.correct, AttemptAnswer.answered_at)
+        .join(Attempt, Attempt.id == AttemptAnswer.attempt_id)
+        .join(Question, Question.id == AttemptAnswer.question_id)
+        .where(Attempt.device_id == device.id, AttemptAnswer.answered_at >= since,
+               AttemptAnswer.chosen_index.is_not(None), USABLE)
+        .order_by(AttemptAnswer.answered_at.desc(), AttemptAnswer.id.desc())).all()
+    latest = {}
+    for qid, correct, _ in rows:
+        latest.setdefault(qid, correct)                  # first row per question = its latest answer
+    return [qid for qid, correct in latest.items() if correct is False][:limit]
+
+
+def start_mistakes(db: Session, device: Device):
+    ids = recent_mistakes(db, device)
+    if not ids:
+        raise LookupError('no_questions')
+    title = 'मेरी गलतियाँ (7 दिन)' if device.lang == 'hi' else 'My mistakes (7 days)'
+    a = Attempt(device_id=device.id, mode='practice', title=title, question_ids=ids)
+    db.add(a)
+    db.commit()
+    return a
+
+
 def start_telegram_quiz(db: Session, device: Device):
     """Practice the questions posted to the Telegram channel today (else the latest day in the last 2)."""
     from .promo import live

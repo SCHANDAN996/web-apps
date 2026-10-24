@@ -163,6 +163,14 @@
         .catch(function (err) { busy(b, false); SS.toast(err.message); });
       return;
     }
+    b = e.target.closest('[data-mistakes]');
+    if (b) {
+      e.preventDefault(); busy(b, true);
+      SS.api('POST', '/api/v1/mistakes', {})
+        .then(function (a) { SS.go('/attempt/' + a.id); })
+        .catch(function (err) { busy(b, false); SS.toast(err.message); });
+      return;
+    }
     b = e.target.closest('[data-telegram-quiz]');
     if (b) {
       e.preventDefault(); busy(b, true);
