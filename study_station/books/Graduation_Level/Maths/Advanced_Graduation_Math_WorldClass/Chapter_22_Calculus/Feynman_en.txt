@@ -1,0 +1,50 @@
+# Feynman Explains: The Limit — Calculus's Sneakiest Idea
+
+## The Speedometer Puzzle
+
+Imagine you're sitting in a car with your dad. He says, "We drove 120 kilometres in 2 hours, so our speed was 60 km/h."
+
+You nod. Easy. Distance ÷ time = speed.
+
+But then you glance at the speedometer. It says **73 km/h**. Wait — how can the needle show a speed *right now*? Speed needs distance and time. At a single frozen instant, the car travels **zero** distance in **zero** time. Zero divided by zero is... nothing. Meaningless. So how does the needle know?!
+
+That puzzle stumped the smartest humans for 2,000 years. And the answer — the trick that cracked it — is the entire heart of calculus. It's called a **limit**.
+
+## The Shrinking Stopwatch
+
+Here's how a 12-year-old detective (that's you) solves it.
+
+You can't measure speed at one instant. Fine. So cheat a little: measure over a **tiny** interval instead.
+
+- From 2:00:00 to 2:00:10 — the car went 200 metres. Speed ≈ 72 km/h.
+- From 2:00:00 to 2:00:01 — it went 20.05 metres. Speed ≈ 72.2 km/h.
+- From 2:00:00 to 2:00:00.1 — speed ≈ 72.98 km/h.
+
+See the pattern? As your stopwatch interval shrinks — 10 seconds, 1 second, a tenth of a second — the answer **homes in** on one number: 73. You never actually divide by zero. You just sneak closer and closer, and the answer settles down like a cricket ball landing in a fielder's hands.
+
+That settling-down number is the **limit**. And "speed at one instant" — the derivative — is just a limit wearing a fancy hat.
+
+## The Unforgettable Trick: "The Ghost of Zero"
+
+This is the image to lock in your brain forever:
+
+> **A limit is a ghost.** You never let the interval actually *become* zero — zero is a ghost you can chase but never touch. But you get so close that the answer stops running away and shows its face.
+
+Whenever you see **lim (h → 0)**, just whisper: *"Chase the ghost, don't catch it."*
+
+- **Derivative** = ghost-chasing to find *how fast* something changes (slope, speed).
+- **Integral** = the reverse trick: chopping a weird shape into a million thin strips, adding them up, and letting the strips shrink to ghost-thinness to get the *exact* area.
+
+Same ghost. Two directions. That's all of calculus.
+
+## Why the Ghost Matters
+
+Without limits, "instantaneous speed," "steepest point of a curve," and "area under a curve" would all be nonsense phrases. With limits, they become exact numbers — and suddenly we can build bridges, launch rockets, and price bank loans. Newton and Leibniz didn't invent new arithmetic; they just taught the world how to chase a ghost *correctly*.
+
+## Your Turn — One Question
+
+A ball drops from a tower. In the first second it falls 5 metres, in the next second 15 metres more. Your friend says, "At exactly t = 1 second, the ball's speed is 5 m/s, because that's how far it fell in the first second."
+
+Using the ghost trick — is your friend right, wrong, or *almost* right? And how would you shrink the stopwatch to find the true answer?
+
+*(Hint: the true speed at t = 1 is 10 m/s. Can you see why the shrinking intervals would land there?)*

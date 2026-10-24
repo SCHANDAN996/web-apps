@@ -1,0 +1,151 @@
+Questions 101–120: Medium | Questions 121–125: Hard
+
+101. In a certain code, "MOTHER" is written as "NPUIFS". How is "FATHER" written in that code?
+(a) GAUIFS (b) GBTIFS (c) GBUIFR (d) GBUIFS
+Answer: (d)
+Solution: Each letter is shifted one step forward: M→N, O→P, T→U, H→I, E→F, R→S. Applying the same to FATHER gives G, B, U, I, F, S; the tempting wrong option swaps the third and fourth letters, a common slip. So the answer is GBUIFS.
+Source: PYQ-style
+
+102. If "DELHI" is coded as "73541" and "CALCUTTA" as "82589662", how will "CALICUT" be coded?
+(a) 8521896 (b) 8259168 (c) 8251896 (d) 8251986
+Answer: (c)
+Solution: Match letters to digits: C=8, A=2, L=5, I=1, U=9, T=6. So CALICUT = 8251896; the tempting wrong option reverses the last two digits, a classic misread. So the answer is 8251896.
+Source: PYQ-style
+
+103. In a code language, "APPLE" is written as "CRRNG". How is "GRAPE" written in that code?
+(a) HTCRG (b) ITCRF (c) ITRCG (d) ITCRG
+Answer: (d)
+Solution: Each letter moves two steps forward: A→C, P→R, P→R, L→N, E→G. For GRAPE: G→I, R→T, A→C, P→R, E→G; the tempting wrong option swaps the third and fourth letters. So the answer is ITCRG.
+Source: PYQ-style
+
+104. If "WATER" is coded as "XBUFS", then "MILK" will be coded as:
+(a) NJLK (b) NJML (c) NKML (d) NJLM
+Answer: (b)
+Solution: The pattern is +1 for every letter: W→X, A→B, T→U, E→F, R→S. So MILK becomes N, J, M, L; the tempting wrong option swaps the last two letters. So the answer is NJML.
+Source: PYQ-style
+
+105. In a certain code, "123" means "hot filtered coffee", "356" means "very hot day", and "589" means "day and night". Which digit stands for "very"?
+(a) 5 (b) 6 (c) 3 (d) 9
+Answer: (b)
+Solution: "hot" is common to the first two codes, and 3 is the common digit, so hot = 3. "day" is common to the last two codes, and 5 is common, so day = 5. In "356" = "very hot day", removing 3 and 5 leaves 6 for "very". So the answer is 6.
+Source: PYQ-style
+
+106. If "ROSE" is coded as "6821", "CHAIR" as "73456", and "PREACH" as "961473", what is the code for "SEARCH"?
+(a) 216473 (b) 216743 (c) 214673 (d) 261473
+Answer: (c)
+Solution: From the codes: S=2, E=1, A=4, R=6, C=7, H=3. So SEARCH = 2,1,4,6,7,3 = 214673; the tempting wrong option swaps the digits for A and R, which happens if you copy R=6 before checking A=4. So the answer is 214673.
+Source: PYQ-style
+
+107. In a code, "TRAIN" is written as "WUDLQ". How is "COACH" written?
+(a) FRDFK (b) FRDEK (c) FQDFK (d) FRDGK
+Answer: (a)
+Solution: Each letter shifts +3: T→W, R→U, A→D, I→L, N→Q. For COACH: C→F, O→R, A→D, C→F, H→K; the tempting wrong option mis-shifts the second C. So the answer is FRDFK.
+Source: PYQ-style
+
+108. If "PENCIL" is coded as "RGPEKN", how is "PAPER" coded?
+(a) RCRGS (b) RCRGT (c) RCQGT (d) RBRGT
+Answer: (b)
+Solution: The pattern is +2 for each letter: P→R, E→G, N→P, C→E, I→K, L→N. For PAPER: P→R, A→C, P→R, E→G, R→T; the tempting wrong option mis-shifts the second P. So the answer is RCRGT.
+Source: PYQ-style
+
+109. In a certain code, "TIGER" is written as "UJHFS". How is "LION" written in that code?
+(a) MJOP (b) MKPO (c) MJPO (d) NJPO
+Answer: (c)
+Solution: Each letter shifts one step forward: T→U, I→J, G→H, E→F, R→S. For LION: L→M, I→J, O→P, N→O; the tempting wrong option swaps the last two letters. So the answer is MJPO.
+Source: PYQ-style
+
+110. If "BRIGHT" is coded as "CSJHIU", then "DANGER" will be coded as:
+(a) EAOHFS (b) EBOHFR (c) EBOHFS (d) EBOIFS
+Answer: (c)
+Solution: Every letter moves +1: B→C, R→S, I→J, G→H, H→I, T→U. For DANGER: D→E, A→B, N→O, G→H, E→F, R→S; the tempting wrong option leaves the last letter unshifted. So the answer is EBOHFS.
+Source: PYQ-style
+
+111. In a code, "SILVER" is written as "TJKWFS". How is "GOLDEN" written?
+(a) HPMEFN (b) HPMEEO (c) HPMEFO (d) HPLMFO
+Answer: (c)
+Solution: Each letter shifts +1: S→T, I→J, L→K, V→W, E→F, R→S. For GOLDEN: G→H, O→P, L→M, D→E, E→F, N→O; the tempting wrong option leaves the last letter unshifted. So the answer is HPMEFO.
+Source: PYQ-style
+
+112. If "TABLE" is coded as "GZOEV", how is "CHAIR" coded?
+(a) XSYRI (b) XSZRJ (c) XSZQI (d) XSZRI
+Answer: (d)
+Solution: This is reverse-alphabet coding where each letter is replaced by its opposite: T(20)→G(7), A(1)→Z(26), B(2)→Y(25), L(12)→O(15), E(5)→V(22); each pair sums to 27. For CHAIR: C→X, H→S, A→Z, I→R, R→I; the tempting wrong option shifts the last letter forward instead of taking its opposite. So the answer is XSZRI.
+Source: PYQ-style
+
+113. In a certain code, "FISH" is written as "GJTI". How is "BIRD" written?
+(a) CJTE (b) CJSF (c) CKSE (d) CJSE
+Answer: (d)
+Solution: Each letter shifts +1: F→G, I→J, S→T, H→I. For BIRD: B→C, I→J, R→S, D→E; the tempting wrong option mis-shifts R. So the answer is CJSE.
+Source: PYQ-style
+
+114. If "MONDAY" is coded as "NPOEBZ", how is "FRIDAY" coded?
+(a) GSJEBZ (b) GSIDBZ (c) GSJEBY (d) GSJEAZ
+Answer: (a)
+Solution: Every letter moves +1: M→N, O→P, N→O, D→E, A→B, Y→Z. For FRIDAY: F→G, R→S, I→J, D→E, A→B, Y→Z; the tempting wrong option leaves the last letter unshifted. So the answer is GSJEBZ.
+Source: PYQ-style
+
+115. In a code language, "pen is mightier than sword" is written as "ta na ka sa ma", "sword is powerful" is "ka na ra", and "pen and sword" is "ta pa ka". What is the code for "powerful"?
+(a) ra (b) na (c) ka (d) pa
+Answer: (a)
+Solution: "sword" appears in all three sentences and the common code is "ka", so sword = ka; "is" is common to the first two sentences and the common code is "na", so is = na. In "sword is powerful" = "ka na ra", removing ka and na leaves "ra" for powerful; the tempting wrong option "na" actually stands for "is". So the answer is ra.
+Source: PYQ-style
+
+116. If "CLOCK" is coded as "DMPEL", how is "WATCH" coded?
+(a) XBUDJ (b) XBUDI (c) XBUCI (d) XAUDI
+Answer: (b)
+Solution: Each letter shifts +1: C→D, L→M, O→P, C→D, K→L. For WATCH: W→X, A→B, T→U, C→D, H→I; the tempting wrong option mis-shifts the second A. So the answer is XBUDI.
+Source: PYQ-style
+
+117. In a certain code, "HOUSE" is written as "IPVTF". How is "PLANT" written in that code?
+(a) QMBOU (b) QMBOV (c) QNBOU (d) QMBPU
+Answer: (a)
+Solution: Each letter shifts one step forward: H→I, O→P, U→V, S→T, E→F. For PLANT: P→Q, L→M, A→B, N→O, T→U; the tempting wrong option mis-shifts the last letter. So the answer is QMBOU.
+Source: PYQ-style
+
+118. If "ORANGE" is coded as "PSBOHF", how is "BANANA" coded?
+(a) CBONOB (b) CBOBNA (c) CBOBOB (d) CBOBOA
+Answer: (c)
+Solution: Each letter shifts +1: O→P, R→S, A→B, N→O, G→H, E→F. For BANANA: B→C, A→B, N→O, A→B, N→O, A→B; the tempting wrong options break the repeating pattern in the middle. So the answer is CBOBOB.
+Source: PYQ-style
+
+119. In a code, "SQUARE" is written as "TRVBSF". How is "CIRCLE" written?
+(a) DJSDMF (b) DJSDNF (c) DJSCMF (d) DJSEMF
+Answer: (a)
+Solution: Each letter shifts +1: S→T, Q→R, U→V, A→B, R→S, E→F. For CIRCLE: C→D, I→J, R→S, C→D, L→M, E→F; the tempting wrong options mis-shift the second C or the L. So the answer is DJSDMF.
+Source: PYQ-style
+
+120. If "WINDOW" is coded as "XJOEPX", how is "DOOR" coded?
+(a) EPPT (b) EPPS (c) EPQR (d) EOPS
+Answer: (b)
+Solution: Each letter shifts +1: W→X, I→J, N→O, D→E, O→P, W→X. For DOOR: D→E, O→P, O→P, R→S; the tempting wrong option leaves the last letter unshifted. So the answer is EPPS.
+Source: PYQ-style
+
+121. In a certain code, "DOCTOR" is written as "EPDUPS". How is "NURSE" written in that code?
+(a) OVSTF (b) OUSTF (c) OVSTG (d) PVSTF
+Answer: (a)
+Solution: Each letter shifts one step forward: D→E, O→P, C→D, T→U, O→P, R→S. For NURSE: N→O, U→V, R→S, S→T, E→F; the tempting wrong option mis-shifts the U. So the answer is OVSTF.
+Source: PYQ-style
+
+122. In a code, "TEACHER" is written as "VGCEJGT". How is "STUDENT" written?
+(a) UVWFGQV (b) UVWFGPU (c) UVWFGPW (d) UVWFGPV
+Answer: (d)
+Solution: Each letter shifts +2: T→V, E→G, A→C, C→E, H→J, E→G, R→T. For STUDENT: S→U, T→V, U→W, D→F, E→G, N→P, T→V; the tempting wrong option mis-shifts N, a trap for those who lose count near the end. So the answer is UVWFGPV.
+Source: PYQ-style
+
+123. If "COMPUTER" is coded as "EQORWVGT", how is "KEYBOARD" coded?
+(a) MGADQCTG (b) MGADQCTF (c) MGAEQCTF (d) MGADQATF
+Answer: (b)
+Solution: The shift is +2 for each letter: C→E, O→Q, M→O, P→R, U→W, T→V, E→G, R→T. For KEYBOARD: K→M, E→G, Y→A (wrap-around), B→D, O→Q, A→C, R→T, D→F; the tempting wrong option shifts B to E instead of D, the examiner's trap on wrap-around letters. So the answer is MGADQCTF.
+Source: PYQ-style
+
+124. In a certain language, "she is reading books" is coded as "lo mi na po", "books are very good" as "po re ti su", and "she reads good stories" as "mi su ka le". What is the code for "good"?
+(a) su (b) re (c) ti (d) po
+Answer: (a)
+Solution: "books" appears in sentences one and two, and the common code is "po", so books = po. "good" appears in sentences two and three; the common code between "po re ti su" and "mi su ka le" is "su", so good = su. The tempting wrong option "po" belongs to "books", not "good". So the answer is su.
+Source: PYQ-style
+
+125. If "FLOWER" is coded as "GMPXFS", how is "GARDEN" coded?
+(a) HBSEFN (b) HBSFEO (c) HBSDFO (d) HBSEFO
+Answer: (d)
+Solution: Each letter shifts +1: F→G, L→M, O→P, W→X, E→F, R→S. For GARDEN: G→H, A→B, R→S, D→E, E→F, N→O; the tempting wrong option swaps the fourth and fifth letters, a common misordering trap. So the answer is HBSEFO.
+Source: PYQ-style

@@ -5,16 +5,16 @@ graph TD
     R --> D["🎲 पासा<br>Dice"]
     R --> TR["⚠️ जाल<br>Traps"]
 
-    C --> C1["3 रंगे (कोने) = 8"]
-    C --> C2["2 रंगे (किनारे) = 12(n−2)"]
-    C --> C3["1 रंगा (फलक) = 6(n−2)²"]
-    C --> C4["0 रंगे (भीतरी) = (n−2)³"]
+    C --> C1["3 रंगे (कोने) = 8<br>3 painted (corners) = 8"]
+    C --> C2["2 रंगे (किनारे) = 12(n−2)<br>2 painted (edges) = 12(n−2)"]
+    C --> C3["1 रंगा (फलक) = 6(n−2)²<br>1 painted (faces) = 6(n−2)²"]
+    C --> C4["0 रंगे (भीतरी) = (n−2)³<br>0 painted (inner) = (n−2)³"]
 
-    D --> D1["सामने वाले का योग = 7"]
+    D --> D1["सामने वाले फलकों का योग = 7<br>Opposite faces sum = 7"]
     D --> D2["1↔6, 2↔5, 3↔4"]
-    D --> D3["दो स्थितियों से<br>common अंक ढूँढो"]
+    D --> D3["दो स्थितियों से common अंक ढूँढो<br>Find common face from two views"]
 
-    TR --> TR1["योग 7 भूलना"]
-    TR --> TR2["कोने हमेशा 8"]
-    TR --> TR3["(n−2) याद रखना"]
+    TR --> TR1["योग 7 भूलना<br>Forgetting sum = 7"]
+    TR --> TR2["कोनों की गिनती गलत करना<br>Miscounting corners"]
+    TR --> TR3["(n−2) याद रखना<br>Remember (n−2)"]
 ```

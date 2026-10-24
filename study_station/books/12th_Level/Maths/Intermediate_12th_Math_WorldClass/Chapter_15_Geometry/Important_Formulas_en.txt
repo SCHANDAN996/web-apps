@@ -1,8 +1,72 @@
-# Chapter: Geometry, Level: intermediate
+# Important Formulas — Geometry
 
-@content_agent lang=en level=intermediate 'List all important formulas, equations, and rules for Geometry.
-Instructions:
-- Only formulas and a one-line hint (when to use), no detailed explanation.
-- Present in a clean table: Formula Name | Formula | Use-Hint
-- Cover all formulas essential for solving exam questions.
-- Keep language simple and precise.'
+## 1. Angles
+
+| Formula / Result | Statement | Use-Hint |
+|---|---|---|
+| Complementary angles | Two angles are complementary if their sum = 90° | Complement of x = 90° − x |
+| Supplementary angles | Two angles are supplementary if their sum = 180° | Supplement of x = 180° − x |
+| Angles on a straight line | Sum of angles on one side of a straight line = 180° | Linear pair |
+| Angles around a point | Sum of angles around a point = 360° | Full turn |
+| Vertically opposite angles | Vertically opposite angles are equal | x = y at intersection |
+| Corresponding angles | Equal when lines are parallel | F-shape |
+| Alternate interior angles | Equal when lines are parallel | Z-shape |
+| Co-interior angles | Supplementary (sum = 180°) when lines are parallel | C-shape |
+| Angle sum of triangle | Sum of the three interior angles of a triangle = 180° | ∠A + ∠B + ∠C = 180° |
+| Exterior angle of triangle | Exterior angle = sum of the two interior opposite angles | Ext. ∠ = ∠A + ∠B |
+| Angle bisector theorem | The bisector of an angle of a triangle divides the opposite side in the ratio of the adjacent sides | BD/DC = AB/AC |
+
+## 2. Circles
+
+| Formula / Result | Statement | Use-Hint |
+|---|---|---|
+| Angle at centre theorem | Angle subtended at the centre = 2 × angle subtended at the circumference by the same arc | Central angle = 2 × inscribed angle |
+| Angle in a semicircle | Angle in a semicircle = 90° | Diameter as base |
+| Angles in the same segment | Angles in the same segment of a circle are equal | Same chord, same side |
+| Perpendicular to chord | The perpendicular from the centre of a circle to a chord bisects the chord | OM ⊥ AB ⇒ AM = MB |
+| Equal chords | Equal chords are equidistant from the centre | Chord length ↔ distance |
+| Tangent and radius | Tangent at any point is perpendicular to the radius through the point of contact | Tangent ⊥ radius |
+| Tangents from external point | Lengths of the two tangents drawn from an external point are equal | PA = PB |
+| Cyclic quadrilateral | Opposite angles of a cyclic quadrilateral are supplementary | ∠A + ∠C = 180° |
+
+## 3. Triangles
+
+| Formula / Result | Statement | Use-Hint |
+|---|---|---|
+| Pythagoras theorem | In a right triangle, (hypotenuse)² = (base)² + (perpendicular)² | h² = b² + p² |
+| Area of triangle | Area = ½ × base × height | A = ½bh |
+| Heron's formula | Area = √[s(s−a)(s−b)(s−c)], where s = (a+b+c)/2 | Use when 3 sides given |
+| Equilateral triangle area | Area = (√3/4) × side² | Side = a |
+| Equilateral triangle height | Height = (√3/2) × side | h = a√3/2 |
+| Similar triangles | Ratio of areas = square of ratio of corresponding sides | A₁/A₂ = (s₁/s₂)² |
+| Basic proportionality (Thales) | A line parallel to one side of a triangle divides the other two sides proportionally | AD/DB = AE/EC |
+| Mid-point theorem | The segment joining the mid-points of two sides is parallel to the third side and half of it | DE = ½BC |
+
+## 4. Quadrilaterals and Polygons
+
+| Formula / Result | Statement | Use-Hint |
+|---|---|---|
+| Sum of interior angles of polygon | (n − 2) × 180°, n = number of sides | Hexagon: 720° |
+| Each interior angle (regular polygon) | (n − 2) × 180° / n | Regular hexagon: 120° |
+| Sum of exterior angles | 360° (any polygon) | Constant |
+| Each exterior angle (regular polygon) | 360° / n | Regular octagon: 45° |
+| Number of diagonals | n(n − 3)/2 | Hexagon: 9 |
+| Parallelogram | Opposite sides and opposite angles equal; diagonals bisect each other | Area = base × height |
+| Rhombus area | Area = ½ × d₁ × d₂ (d₁, d₂ = diagonals) | Diagonals ⊥ each other |
+| Trapezium area | Area = ½ × (sum of parallel sides) × height | A = ½(a+b)h |
+
+## 5. Mensuration (2D & 3D)
+
+| Formula / Result | Statement | Use-Hint |
+|---|---|---|
+| Circle circumference | 2πr | π ≈ 22/7 |
+| Circle area | πr² | — |
+| Sector area | (θ/360°) × πr² | θ = central angle |
+| Arc length | (θ/360°) × 2πr | — |
+| Cube | Volume = a³; Surface area = 6a²; Diagonal = a√3 | a = edge |
+| Cuboid | Volume = lbh; Surface area = 2(lb + bh + hl); Diagonal = √(l²+b²+h²) | — |
+| Cylinder | Volume = πr²h; Curved surface = 2πrh; Total surface = 2πr(r+h) | — |
+| Cone | Volume = (1/3)πr²h; Curved surface = πrl; l = √(r²+h²) | l = slant height |
+| Sphere | Volume = (4/3)πr³; Surface area = 4πr² | Hemisphere: (2/3)πr³ |
+
+**Source:** NCERT Class 9–10 Mathematics (Geometry & Mensuration chapters)

@@ -1,0 +1,34 @@
+# Important Rules & Approaches — Dictionary Order
+
+## Part 1: Key Rules/Approaches
+
+| Rule Name | Description | Example |
+|---|---|---|
+| Alphabetical Position Rule | Assign each letter its position (A=1 … Z=26) and compare words letter by letter, left to right. | APPLE vs APPLY: A-P-P-L same; E (5) < Y (25), so APPLE comes first. |
+| First Letter Rule | The word whose first letter comes earlier in the alphabet comes first. | CAT before DOG (C < D). |
+| Common Prefix Rule | If letters match up to a point, the first letter where they differ decides the order. | MANGO vs MANOR: M-A-N same; G < O, so MANGO first. |
+| Shorter Word First Rule | If one word is a prefix of another, the shorter word comes first. | BAT before BATH. |
+| Number of Letters Rule | When words are identical up to the shorter word's length, the word with fewer letters comes first. | PEN before PENCIL. |
+| Letter Position Rule | Convert letters to positions and compare numerically to avoid confusion between similar-looking letters. | E (5) vs F (6): E comes first. |
+| Rank Finding Rule | To find the rank of a word in a list, count how many words come before it. | In a dictionary, rank of "DOG" = number of words preceding it + 1. |
+| Reverse Order Rule | For reverse dictionary order, apply the same rules from Z to A (Z=1 … A=26). | Reverse: ZEBRA before APPLE. |
+| Case Rule | In standard dictionary order, capital and small letters of the same alphabet are treated alike. | "apple" and "Apple" occupy the same position. |
+| Elimination Rule | In options, eliminate words that clearly come after the target word to narrow down the answer. | If asked for the 3rd word, drop words starting with letters after the target's first letter. |
+
+## Part 2: Time Management
+
+| Rule | Description |
+|---|---|
+| 15-Second Rule | If the order of letters is not clear within 15 seconds, write down positions (A=1…) and compare numerically. |
+| 45-Second Rule | If even after 45 seconds the correct sequence is not emerging, skip the question and return later. |
+| Position Writing Tip | Always write letter positions above the word; never compare by sight alone. |
+| Skip Strategy | Questions asking for the 4th/5th word in a list of 5–6 words are quick; questions asking to arrange 8–10 words alphabetically are time-consuming — attempt only if time permits. |
+
+## Part 3: Logical/Mathematical Formulas
+
+| Formula | Description |
+|---|---|
+| Alphabet Position | A=1, B=2, …, Z=26; E=5, J=10, O=15, T=20, Z=26 (EJOTZ rule). |
+| Reverse Position | Reverse position = 27 − normal position (e.g., A=26, Z=1). |
+| Rank of a Word | Rank = number of words preceding it + 1. |
+| Note | This chapter is rule-based; the three relations above are the only formulas used. All other questions are solved by applying the rules in Part 1. |

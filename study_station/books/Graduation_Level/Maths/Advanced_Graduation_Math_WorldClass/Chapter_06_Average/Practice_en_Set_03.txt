@@ -1,0 +1,151 @@
+Questions 51–75: Easy (51–70) | Medium (71–75)
+
+51. The average of 11 numbers is 50. If the average of the first six numbers is 49 and that of the last six numbers is 52, find the sixth number.
+(a) 48 (b) 52 (c) 50 (d) 56
+Answer: (d)
+Solution: The tempting mistake is to subtract the two group averages directly, which ignores that the sixth number is counted twice. Sum of all 11 numbers = 11 × 50 = 550; sum of first six = 294; sum of last six = 312. Sixth number = 294 + 312 − 550 = 56, so the answer is 56.
+Source: PYQ-style
+
+52. The average weight of 8 persons increases by 2.5 kg when a new person replaces one of them weighing 65 kg. Find the weight of the new person.
+(a) 80 kg (b) 85 kg (c) 76 kg (d) 75 kg
+Answer: (b)
+Solution: Many students add only 2.5 kg to 65 kg, forgetting the increase applies to all 8 persons. Total increase = 8 × 2.5 = 20 kg, so the new person weighs 65 + 20 = 85 kg, so the answer is 85 kg.
+Source: PYQ-style
+
+53. The average of five consecutive even numbers is 24. What is the largest of these numbers?
+(a) 26 (b) 28 (c) 30 (d) 32
+Answer: (b)
+Solution: A common trap is taking 24 as the largest number instead of the middle one. For consecutive even numbers, the average equals the middle (third) number, so the numbers are 20, 22, 24, 26, 28. The largest is 28, so the answer is 28.
+Source: NCERT Class 10 Mathematics
+
+54. The average age of a class of 30 students is 14 years. When the teacher's age is included, the average becomes 15 years. Find the teacher's age.
+(a) 40 years (b) 48 years (c) 42 years (d) 45 years
+Answer: (d)
+Solution: The trap is to simply add 1 year to the average. Students' total age = 30 × 14 = 420; with the teacher, total = 31 × 15 = 465. Teacher's age = 465 − 420 = 45 years, so the answer is 45 years.
+Source: PYQ-style
+
+55. The average of 20 numbers is zero. At most, how many of them can be greater than zero?
+(a) 19 (b) 0 (c) 1 (d) 10
+Answer: (a)
+Solution: The tempting wrong answer is 10, assuming half must be positive and half negative. If 19 numbers are positive, the 20th can be a single negative number equal in magnitude to their total, keeping the sum zero; but all 20 cannot be positive. So the answer is 19.
+Source: PYQ-style
+
+56. A batsman makes a score of 87 runs in the 17th innings and thus increases his average by 3. Find his average after the 17th innings.
+(a) 37 (b) 36 (c) 39 (d) 40
+Answer: (c)
+Solution: The trap is to divide 87 by 17 or to subtract 3 from 87. Let the new average be x; then 17x − 16(x − 3) = 87, giving x + 48 = 87, so x = 39. The average after the 17th innings is 39, so the answer is 39.
+Source: PYQ-style
+
+57. The average of three numbers is 77. The first number is twice the second, and the second is twice the third. Find the first number.
+(a) 132 (b) 126 (c) 120 (d) 144
+Answer: (a)
+Solution: Students often reverse the ratio and take the first number as the smallest. Let the third number be x; then the second is 2x and the first is 4x. Sum = 7x = 3 × 77 = 231, so x = 33 and the first number is 132, so the answer is 132.
+Source: PYQ-style
+
+58. The average salary of all workers in a factory is Rs 8,000. The average salary of 7 technicians is Rs 12,000 and that of the rest is Rs 6,000. Find the total number of workers.
+(a) 20 (b) 21 (c) 22 (d) 23
+Answer: (b)
+Solution: The trap is to average 12,000 and 6,000 directly, ignoring the group sizes. Let the rest be n workers: 8000(7 + n) = 84000 + 6000n, giving 2000n = 28000, so n = 14. Total workers = 7 + 14 = 21, so the answer is 21.
+Source: PYQ-style
+
+59. The average of 9 observations was found to be 35. Later it was discovered that an observation 81 was misread as 18. Find the correct average.
+(a) 43 (b) 41 (c) 40 (d) 42
+Answer: (d)
+Solution: A common error is adding the full 81 again instead of only the difference. Correction to the sum = 81 − 18 = 63, so the correct sum = 315 + 63 = 378. Correct average = 378 ÷ 9 = 42, so the answer is 42.
+Source: PYQ-style
+
+60. The average age of a husband and wife was 23 years at their marriage. After 5 years they have a one-year-old child. What is the average age of the family now?
+(a) 20 years (b) 21 years (c) 19 years (d) 22 years
+Answer: (c)
+Solution: The trap is to add 5 years to 23 and divide by 3, forgetting the child is only one year old. At marriage the couple's total age was 46; after 5 years it is 46 + 10 = 56; adding the child gives 57. Family average = 57 ÷ 3 = 19 years, so the answer is 19 years.
+Source: PYQ-style
+
+61. The average of 5 numbers is 27. If one number is excluded, the average becomes 25. Find the excluded number.
+(a) 30 (b) 35 (c) 27 (d) 25
+Answer: (b)
+Solution: The tempting wrong answer is 27, assuming removing the average value changes nothing — but the average falls, so the removed number must be above average. Excluded number = 5 × 27 − 4 × 25 = 135 − 100 = 35, so the answer is 35.
+Source: PYQ-style
+
+62. The average marks of 120 candidates were 35. If the average of passed candidates was 39 and that of failed candidates was 15, how many candidates passed?
+(a) 90 (b) 110 (c) 100 (d) 120
+Answer: (c)
+Solution: The trap is to split 120 in the ratio of the averages directly rather than using deviations. By alligation, passed : failed = (35 − 15) : (39 − 35) = 20 : 4 = 5 : 1. Passed = 120 × 5/6 = 100, so the answer is 100.
+Source: PYQ-style
+
+63. The average of the first 100 positive integers is:
+(a) 51 (b) 49.5 (c) 50 (d) 50.5
+Answer: (d)
+Solution: Many students answer 50 by halving 100, forgetting the series starts at 1. Average of the first n natural numbers = (n + 1)/2 = 101/2 = 50.5, so the answer is 50.5.
+Source: NCERT Class 10 Mathematics
+
+64. A cricketer has a certain average for 10 innings. In the 11th innings he scores 108 runs, thereby increasing his average by 6 runs. Find his new average.
+(a) 46 (b) 48 (c) 42 (d) 44
+Answer: (b)
+Solution: The trap is to subtract 6 from 108 or divide 108 by 11. Let the new average be x: 11x − 10(x − 6) = 108, so x + 60 = 108 and x = 48. The new average is 48, so the answer is 48.
+Source: PYQ-style
+
+65. The average of 6 numbers is 30. If one number is removed, the average of the remaining numbers becomes 28. Find the number removed.
+(a) 42 (b) 36 (c) 38 (d) 40
+Answer: (d)
+Solution: The trap is to think the removed number equals the old average of 30, but the average falls, so it must be larger. Removed number = 6 × 30 − 5 × 28 = 180 − 140 = 40, so the answer is 40.
+Source: PYQ-style
+
+66. The average of 7 consecutive numbers is 20. What is the largest of these numbers?
+(a) 20 (b) 22 (c) 23 (d) 24
+Answer: (c)
+Solution: The trap is to take 20 as the largest or to add 7 to it. The average of consecutive numbers is the middle (4th) term, so the numbers run from 17 to 23. The largest is 23, so the answer is 23.
+Source: NCERT Class 10 Mathematics
+
+67. The average age of 24 students and their principal is 15 years. When the principal's age is excluded, the average drops by 1 year. Find the principal's age.
+(a) 39 years (b) 40 years (c) 38 years (d) 41 years
+Answer: (a)
+Solution: The trap is to add just 1 year to 15. Total of all 25 persons = 25 × 15 = 375; total of 24 students = 24 × 14 = 336. Principal's age = 375 − 336 = 39 years, so the answer is 39 years.
+Source: PYQ-style
+
+68. The average of two numbers is 62. If 2 is added to the smaller number, the ratio of the numbers becomes 1 : 2. Find the smaller number.
+(a) 44 (b) 42 (c) 40 (d) 46
+Answer: (c)
+Solution: The trap is to apply the ratio to the original numbers instead of the adjusted ones. Sum = 124. Let the smaller be x; then 2(x + 2) = 124 − x, so 3x = 120 and x = 40. The smaller number is 40, so the answer is 40.
+Source: PYQ-style
+
+69. The average temperature for Monday, Tuesday and Wednesday was 40°C. The average for Tuesday, Wednesday and Thursday was 41°C. If Thursday's temperature was 42°C, find Monday's temperature.
+(a) 38°C (b) 39°C (c) 40°C (d) 41°C
+Answer: (b)
+Solution: The trap is to assume Monday equals Thursday because the averages are close. Mon + Tue + Wed = 120 and Tue + Wed + Thu = 123; subtracting gives Thu − Mon = 3. Monday = 42 − 3 = 39°C, so the answer is 39°C.
+Source: PYQ-style
+
+70. In a class, the average marks of boys is 65 and that of girls is 80. If the overall average is 68, what is the ratio of boys to girls?
+(a) 4 : 1 (b) 3 : 1 (c) 2 : 1 (d) 5 : 1
+Answer: (a)
+Solution: The trap is to invert the alligation ratio. By alligation, boys : girls = (80 − 68) : (68 − 65) = 12 : 3 = 4 : 1, so the answer is 4 : 1.
+Source: PYQ-style
+
+71. The average of 50 numbers is 38. If two numbers 45 and 55 are discarded, the average of the remaining numbers is:
+(a) 37 (b) 36.5 (c) 37.5 (d) 38
+Answer: (c)
+Solution: The trap is to think removing 45 and 55 (whose average is 50) leaves the average unchanged. New sum = 50 × 38 − 100 = 1800 over 48 numbers. New average = 1800 ÷ 48 = 37.5, so the answer is 37.5.
+Source: PYQ-style
+
+72. The average of five numbers is 306.4. The average of the first two numbers is 431 and that of the last two is 214.5. Find the third number.
+(a) 241 (b) 243 (c) 245 (d) 247
+Answer: (a)
+Solution: The trap is to average 431 and 214.5 to estimate the third number. Total = 5 × 306.4 = 1532; first two = 862; last two = 429. Third number = 1532 − 862 − 429 = 241, so the answer is 241.
+Source: PYQ-style
+
+73. The average monthly income of a man for the first 8 months of a year is Rs 6,000 and for the last 4 months it is Rs 7,500. His average monthly income for the whole year is:
+(a) Rs 6,500 (b) Rs 6,600 (c) Rs 6,400 (d) Rs 6,750
+Answer: (a)
+Solution: The trap is to average 6,000 and 7,500 directly, ignoring the different month counts. Total income = 8 × 6000 + 4 × 7500 = 48000 + 30000 = 78000. Average = 78000 ÷ 12 = 6500, so the answer is Rs 6,500.
+Source: PYQ-style
+
+74. The average of 8 readings is 24.5. The average of the first three is 22 and that of the next three is 26. If the seventh reading is 2 more than the eighth, find the seventh reading.
+(a) 25 (b) 24 (c) 26 (d) 27
+Answer: (d)
+Solution: The trap is to split the remaining total equally between the last two readings, which would give 26 each and ignore the difference of 2. Total = 8 × 24.5 = 196; first three = 66; next three = 78; so the last two together = 196 − 66 − 78 = 52. With the seventh 2 more than the eighth, seventh = (52 + 2)/2 = 27 and eighth = 25, so the answer is 27.
+Source: PYQ-style
+
+75. The average score of a class of 40 students in an exam is 52. The average score of the top 10 students is 75 and that of the bottom 10 is 31. Find the average score of the remaining 20 students.
+(a) 51 (b) 53 (c) 52 (d) 50
+Answer: (a)
+Solution: The trap is to average 75 and 31, which ignores the middle group entirely. Total = 40 × 52 = 2080; top 10 = 750; bottom 10 = 310. Remaining total = 2080 − 750 − 310 = 1020, and 1020 ÷ 20 = 51, so the answer is 51.
+Source: PYQ-style

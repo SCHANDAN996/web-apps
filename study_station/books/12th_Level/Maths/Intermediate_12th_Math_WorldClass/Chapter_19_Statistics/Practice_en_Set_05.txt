@@ -1,3 +1,151 @@
-# Chapter: Statistics, Level: intermediate, Set: 5/6
+Questions 101–120: Easy | Questions 121–125: Medium
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Statistics. This is Set 5 (total 6 sets, 150 questions). Questions must be numbered 101 to 125. Questions 101 to 120 should be Medium, Questions 121 to 125 should be Hard. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+101. The mean of 20 observations is 15. If each observation is increased by 5, the new mean is:
+(a) 20 (b) 15 (c) 75 (d) 100
+Answer: (a)
+Solution: The tempting wrong option is 75, which comes from multiplying 15 by 5 — but adding 5 to each value shifts the mean by exactly 5, not by a multiple. New mean = 15 + 5 = 20, so the answer is 20.
+Source: NCERT Class 10 Mathematics (Statistics)
+
+102. The median of the data 12, 15, 11, 19, 8, 14, 17 is:
+(a) 17 (b) 14 (c) 15 (d) 12
+Answer: (b)
+Solution: The trap is 15, which sits in the middle of the unsorted list — the median requires sorting first. Arranged in order: 8, 11, 12, 14, 15, 17, 19; the middle (4th) value is 14, so the answer is 14.
+Source: NCERT Class 10 Mathematics (Statistics)
+
+103. The mode of the data 3, 5, 7, 5, 3, 5, 9, 5, 7 is:
+(a) 3 (b) 5 (c) 7 (d) 9
+Answer: (b)
+Solution: The trap is 7, which appears twice and looks frequent, but 5 appears four times — more than any other value. The most frequent observation is the mode, so the answer is 5.
+Source: NCERT Class 9 Mathematics (Statistics)
+
+104. If the mean of x, x+2, x+4, x+6, x+8 is 11, then the value of x is:
+(a) 8 (b) 5 (c) 6 (d) 7
+Answer: (d)
+Solution: The trap is 6, obtained by wrongly dividing 11 by 2. Sum of terms = 5x + 20, so mean = x + 4 = 11, giving x = 7, so the answer is 7.
+Source: NCERT Class 10 Mathematics (Statistics)
+
+105. The mean of the first 10 natural numbers is:
+(a) 5 (b) 5.5 (c) 6 (d) 55
+Answer: (b)
+Solution: The trap is 55, which is the sum, not the mean. Sum = 10×11/2 = 55, and mean = 55/10 = 5.5, so the answer is 5.5.
+Source: NCERT Class 10 Mathematics (Statistics)
+
+106. The median of the first 12 natural numbers is:
+(a) 6 (b) 12 (c) 7 (d) 6.5
+Answer: (d)
+Solution: The trap is 6, the 6th term — but with an even count, the median is the average of the 6th and 7th terms. Median = (6 + 7)/2 = 6.5, so the answer is 6.5.
+Source: NCERT Class 10 Mathematics (Statistics)
+
+107. If the mode of the data 16, 15, 17, 16, 15, x, 18, 17, 15 is 15, then x equals:
+(a) 18 (b) 16 (c) 17 (d) 15
+Answer: (d)
+Solution: The trap is 16, which appears twice like 15 — but for 15 to be the unique mode it must occur most often. Currently 15 appears twice and 16 appears twice; setting x = 15 makes 15 appear three times, so the answer is 15.
+Source: NCERT Class 9 Mathematics (Statistics)
+
+108. The range of the data 25, 18, 42, 33, 9, 27 is:
+(a) 33 (b) 42 (c) 9 (d) 51
+Answer: (a)
+Solution: The trap is 51, which comes from adding the maximum and minimum instead of subtracting. Range = 42 − 9 = 33, so the answer is 33.
+Source: NCERT Class 9 Mathematics (Statistics)
+
+109. The mean of 5 numbers is 18. If one number is excluded, the mean becomes 16. The excluded number is:
+(a) 26 (b) 28 (c) 24 (d) 20
+Answer: (a)
+Solution: The trap is 20, from simply playing with the difference of the means (18 − 16 = 2) instead of using totals. Total of 5 numbers = 90; total of 4 numbers = 64; excluded number = 90 − 64 = 26, so the answer is 26.
+Source: NCERT Class 10 Mathematics (Statistics)
+
+110. The average of 11 results is 50. If the average of the first 6 results is 49 and that of the last 6 is 52, the 6th result is:
+(a) 56 (b) 50 (c) 46 (d) 60
+Answer: (a)
+Solution: The trap is 50, assuming the middle result equals the overall average. First 6 total = 294, last 6 total = 312; their sum 606 counts the 6th result twice. 6th result = 606 − 550 = 56, so the answer is 56.
+Source: PYQ-style
+
+111. The empirical relationship between mean, median and mode is:
+(a) Mode = 3 Median − 2 Mean (b) Mode = 2 Median − 3 Mean (c) Mode = 3 Mean − 2 Median (d) Mode = Median + Mean
+Answer: (a)
+Solution: The trap is the first option, which swaps the coefficients — a classic confusion. The correct empirical formula is Mode = 3 Median − 2 Mean, so the answer is Mode = 3 Median − 2 Mean.
+Source: NCERT Class 10 Mathematics (Statistics)
+
+112. If the mean of a distribution is 24 and the mode is 30, then the median (using the empirical formula) is:
+(a) 25 (b) 26 (c) 27 (d) 28
+Answer: (b)
+Solution: The trap is 27, the simple average of 24 and 30 — but the empirical formula weights the median twice. 30 = 3M − 48, so 3M = 78 and M = 26, so the answer is 26.
+Source: NCERT Class 10 Mathematics (Statistics)
+
+113. The mean of the squares of the first 5 natural numbers is:
+(a) 9 (b) 15 (c) 11 (d) 10
+Answer: (c)
+Solution: The trap is 15, which is the mean of the first 5 natural numbers themselves, not their squares. Sum of squares = 1+4+9+16+25 = 55; mean = 55/5 = 11, so the answer is 11.
+Source: NCERT Class 10 Mathematics (Statistics)
+
+114. In a frequency distribution, the class mark of the class 20–30 is:
+(a) 20 (b) 50 (c) 25 (d) 30
+Answer: (c)
+Solution: The trap is 50, from adding the limits without dividing by 2. Class mark = (20 + 30)/2 = 25, so the answer is 25.
+Source: NCERT Class 10 Mathematics (Statistics)
+
+115. The average of 8 numbers is 12. If each number is multiplied by 3, the new average is:
+(a) 12 (b) 15 (c) 36 (d) 96
+Answer: (c)
+Solution: The trap is 15, from adding 3 instead of multiplying — scaling every value scales the average by the same factor. New average = 12 × 3 = 36, so the answer is 36.
+Source: NCERT Class 10 Mathematics (Statistics)
+
+116. The median of 11 observations is 40. If each observation is decreased by 4, the new median is:
+(a) 40 (b) 44 (c) 36 (d) 10
+Answer: (c)
+Solution: The trap is 10, from dividing 40 by 4 — but subtracting a constant shifts the median by that constant. New median = 40 − 4 = 36, so the answer is 36.
+Source: NCERT Class 10 Mathematics (Statistics)
+
+117. The mean of 100 observations was calculated as 40. Later it was found that one observation 53 was misread as 35. The correct mean is:
+(a) 39.82 (b) 41.8 (c) 40.36 (d) 40.18
+Answer: (d)
+Solution: The trap is 41.8, from adding the full difference 18 to the mean instead of spreading it over 100 observations. Correction = (53 − 35)/100 = 0.18; correct mean = 40 + 0.18 = 40.18, so the answer is 40.18.
+Source: PYQ-style
+
+118. If the mean of the data 7, 9, 11, 13, x, 21 is 13, then x is:
+(a) 17 (b) 16 (c) 15 (d) 18
+Answer: (a)
+Solution: The trap is 15, from guessing near the mean without computing the required total. Total needed = 13 × 6 = 78; known sum = 7 + 9 + 11 + 13 + 21 = 61; x = 78 − 61 = 17, so the answer is 17.
+Source: NCERT Class 10 Mathematics (Statistics)
+
+119. The average weight of 30 students increases by 1 kg when a new student joins in place of one weighing 40 kg. The weight of the new student is:
+(a) 60 kg (b) 65 kg (c) 70 kg (d) 71 kg
+Answer: (c)
+Solution: The trap is 71 kg, from adding 31 × 1 to 40 — but the group still has 30 students, so the increase applies to 30 members. New student's weight = 40 + 30 × 1 = 70 kg, so the answer is 70 kg.
+Source: PYQ-style
+
+120. The mode of a distribution is 45 and the median is 42. Using the empirical formula, the mean is:
+(a) 39 (b) 40.5 (c) 42 (d) 43.5
+Answer: (b)
+Solution: The trap is 39, from subtracting 3 from the median directly. 45 = 3(42) − 2 Mean, so 2 Mean = 126 − 45 = 81 and Mean = 40.5, so the answer is 40.5.
+Source: NCERT Class 10 Mathematics (Statistics)
+
+121. The values 4, 8, 12, 16 occur with frequencies 1, 2, 3, 2 respectively. The mean of this frequency distribution is:
+(a) 10 (b) 12 (c) 11 (d) 10.5
+Answer: (c)
+Solution: The trap is 10, from averaging the four values directly (40/4) and ignoring the frequencies. Weighted sum = 4×1 + 8×2 + 12×3 + 16×2 = 4 + 16 + 36 + 32 = 88; total frequency = 8; mean = 88/8 = 11, so the answer is 11.
+Source: NCERT Class 10 Mathematics (Statistics)
+
+122. The average of 50 numbers is 38. If two numbers 45 and 55 are discarded, the average of the remaining numbers is:
+(a) 36.5 (b) 37 (c) 38 (d) 37.5
+Answer: (d)
+Solution: The trap is 38, assuming discarding two numbers leaves the average unchanged — but their mean 50 differs from 38. Remaining sum = 1900 − 100 = 1800; remaining count = 48; average = 1800/48 = 37.5, so the answer is 37.5.
+Source: PYQ-style
+
+123. The median of the data 29, 32, 48, 50, x, x+2, 72, 78, 84, 95 is 63. The value of x is:
+(a) 60 (b) 62 (c) 61 (d) 63
+Answer: (b)
+Solution: The trap is 63, assuming x itself equals the median — but with 10 observations the median is the average of the 5th and 6th values. (x + x + 2)/2 = 63, so 2x + 2 = 126 and x = 62, so the answer is 62.
+Source: NCERT Class 10 Mathematics (Statistics)
+
+124. The mean of 9 observations is 9. The mean of the first 5 observations is 10 and that of the last 5 is 8. The 5th observation is:
+(a) 9 (b) 8 (c) 10 (d) 11
+Answer: (a)
+Solution: The trap is 10, assuming the middle observation equals the mean of the first group. First 5 total = 50, last 5 total = 40; combined 90 counts the 5th observation twice. 5th observation = 90 − 81 = 9, so the answer is 9.
+Source: PYQ-style
+
+125. For a moderately skewed distribution, the mean is 26 and the median is 24. The mode is:
+(a) 18 (b) 28 (c) 22 (d) 20
+Answer: (d)
+Solution: The trap is 22, a rough midpoint guess between 24 and 26. Mode = 3 Median − 2 Mean = 72 − 52 = 20, so the answer is 20.
+Source: NCERT Class 10 Mathematics (Statistics)

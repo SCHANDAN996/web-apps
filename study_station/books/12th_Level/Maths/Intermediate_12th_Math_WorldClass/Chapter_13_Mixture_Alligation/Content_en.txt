@@ -1,11 +1,80 @@
-# Chapter: Mixture & Alligation, Level: intermediate
+# Mixture and Alligation (मिश्रण और एलिगेशन)
 
-@content_agent lang=en level=intermediate role='experienced educator and cognitive psychologist' 'Write a chapter on Mixture & Alligation that makes even complex 12th-grade concepts feel incredibly simple. Follow Chain-of-Thought:
-1. First, outline the chapter and learning goals.
-2. Start with a powerful hook (story, shocking fact, contradiction).
-3. Acknowledge the learner's common struggle with 'Mixture & Alligation' and build empathy.
-4. Break content into small chunks (Segmenting Principle).
-5. After every 2-3 paragraphs, insert an Active Recall Prompt (🧠).
-6. Include at least one memory trick (mnemonic) that is weird or funny.
-7. End with a summary table and 'Review this after 2 days' prompt.
-Keep language extremely simple, conversational, and motivational, but depth at 12th grade level.
+## Learning Goals
+
+By the end of this chapter you will be able to:
+
+1. Find the average price or strength of a mixture.
+2. Use the alligation cross to find the ratio in which two things must be mixed.
+3. Solve repeated replacement questions (milk taken out, water added).
+4. Find the new ratio when one component is added to a mixture.
+5. Apply alligation to any "weighted average" problem — prices, speeds, marks, profits.
+
+## The Hook: The Chai Stall Puzzle
+
+A chai stall owner mixes tea leaves costing ₹200 per kg with leaves costing ₹300 per kg. He wants the blend to cost exactly ₹240 per kg. How much of each should he use? You could set up equations — or you could draw a small cross and get the answer in 10 seconds. That cross is **alligation**.
+
+## Why Students Struggle
+
+- They take the simple average of two prices even when the quantities are different.
+- They write the alligation ratio upside down.
+- They subtract the same amount every time in replacement questions.
+
+🧠 **Active Recall:** If equal amounts of ₹200 and ₹300 tea are mixed, what is the price of the mixture? What if the amounts are not equal?
+
+## Chunk 1: Mean Price (Weighted Average)
+
+Mean price = (q₁ × c₁ + q₂ × c₂) ÷ (q₁ + q₂)
+
+Example: 3 kg at ₹40 and 2 kg at ₹50 → (120 + 100) ÷ 5 = ₹44 per kg.
+
+## Chunk 2: The Alligation Cross
+
+```
+   cheaper (c)          dearer (d)
+            \          /
+             mean (m)
+            /          \
+     (d − m)            (m − c)
+```
+
+**Cheaper : Dearer = (d − m) : (m − c)**
+
+Chai example: c = 200, d = 300, m = 240 → (300 − 240) : (240 − 200) = 60 : 40 = **3 : 2**.
+
+Mnemonic — **"Cross and Subtract, Far goes Near"**: each quantity is the distance of the *other* price from the mean.
+
+🧠 **Active Recall:** In the chai example, why does the cheaper tea get the bigger share?
+
+## Chunk 3: Replacement (Removal and Refilling)
+
+A vessel has V litres of milk. x litres are taken out and replaced by water, n times.
+
+**Milk left = V × (1 − x/V)ⁿ**
+
+Example: 80 litres of milk, 20 litres replaced twice → 80 × (3/4)² = 45 litres (not 40).
+
+## Chunk 4: Adding One Component
+
+Milk : water = 4 : 1 in 50 litres → milk 40, water 10. Add 10 litres of water → 40 : 20 = 2 : 1.
+
+## Chunk 5: Alligation Beyond Mixtures
+
+Any average of two groups works the same way: average speeds, average marks of two sections, profit on two parts of a sale.
+
+## Summary Table
+
+| Situation | Formula |
+|-----------|---------|
+| Mean price | Σ(quantity × price) ÷ Σ quantity |
+| Mixing ratio | (d − m) : (m − c) |
+| Repeated replacement | V (1 − x/V)ⁿ |
+| Adding one part | Find each part, add, then simplify |
+
+📅 **Review this chapter after 2 days**, then solve one practice set with a timer.
+
+## ⚠️ Caution: Examiner's Trap
+
+1. **Upside-down ratio:** the option with the ratio reversed is always present. The cheaper item's share is (dearer − mean).
+2. **Linear replacement:** subtracting x litres of milk each time ignores that later removals contain water too.
+3. **Simple average:** averaging two concentrations without weighting by volume.

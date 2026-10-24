@@ -1,0 +1,151 @@
+प्रश्न 126–150: Hard
+
+126. The LCM of 2/3, 4/5 and 6/7 is:
+(a) 24/35 (b) 12/35 (c) 2/105 (d) 12
+Answer: (d)
+Solution: The trap is to take the LCM of denominators and get 12/35, which mixes both rules wrongly. For fractions, LCM = LCM of numerators ÷ HCF of denominators; LCM of 2, 4, 6 = 12 and HCF of 3, 5, 7 = 1, so the answer is 12.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+127. The HCF of 9/10, 12/25 and 18/35 is:
+(a) 36/35 (b) 3/70 (c) 1/350 (d) 3/350
+Answer: (d)
+Solution: The tempting wrong choice 36/35 comes from wrongly applying the LCM formula to an HCF question. For fractions, HCF = HCF of numerators ÷ LCM of denominators; HCF of 9, 12, 18 = 3 and LCM of 10, 25, 35 = 350, so the answer is 3/350.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+128. Two numbers are in the ratio 3 : 4 and their HCF is 4. Their sum is:
+(a) 28 (b) 32 (c) 24 (d) 36
+Answer: (a)
+Solution: Many students compute LCM = 3 × 4 × 4 = 48 and stop, or just add the ratio terms to get 7. Let the numbers be 3k and 4k; since 3 and 4 are coprime, HCF = k = 4, giving 12 and 16, so the answer is 28.
+Source: PYQ-style
+
+129. The HCF and LCM of two numbers are 12 and 504 respectively. If one number is 84, the other number is:
+(a) 56 (b) 64 (c) 72 (d) 96
+Answer: (c)
+Solution: The trap is dividing 504 by 84 to get 6, ignoring the HCF entirely. Using product of numbers = HCF × LCM, the other number = (12 × 504) ÷ 84 = 6048 ÷ 84, so the answer is 72.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+130. The smallest number which when divided by 12, 15 and 20 leaves a remainder of 8 in each case is:
+(a) 60 (b) 68 (c) 128 (d) 608
+Answer: (b)
+Solution: The trap is answering 60, which is only the LCM and leaves remainder 0. LCM of 12, 15, 20 = 60; adding the common remainder gives 60 + 8, so the answer is 68.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+131. The smallest number which when divided by 5, 6, 7 and 8 leaves remainder 3 in each case, but is exactly divisible by 9, is:
+(a) 843 (b) 3363 (c) 1683 (d) 2523
+Answer: (c)
+Solution: The trap is picking 843 (= 840 + 3), which satisfies the remainder condition but is not divisible by 9. LCM of 5, 6, 7, 8 = 840; we need 840k + 3 divisible by 9, and since 840 ≡ 3 (mod 9), k = 2 works, so the answer is 1683.
+Source: PYQ-style
+
+132. The greatest four-digit number exactly divisible by 12, 18, 24 and 36 is:
+(a) 9972 (b) 9864 (c) 9900 (d) 9936
+Answer: (d)
+Solution: The trap is computing the LCM wrongly by multiplying factors that overlap. LCM of 12, 18, 24, 36 = 72; dividing 9999 by 72 gives quotient 138 with remainder 63, so 9999 − 63 = 9936, and the answer is 9936.
+Source: PYQ-style
+
+133. The greatest number that divides 1657 and 2037 leaving remainders 6 and 5 respectively is:
+(a) 131 (b) 127 (c) 137 (d) 109
+Answer: (b)
+Solution: The trap is taking the HCF of the original numbers instead of subtracting the remainders first. Subtracting: 1657 − 6 = 1651 and 2037 − 5 = 2032; HCF of 1651 and 2032 is 127 by the division method, so the answer is 127.
+Source: PYQ-style
+
+134. Four bells toll at intervals of 12, 15, 20 and 30 seconds. After tolling together at the start, how many more times will they toll together in the next 8 hours?
+(a) 479 (b) 240 (c) 481 (d) 480
+Answer: (d)
+Solution: The trap is answering 481 by counting the initial toll at time zero, but the question asks only for the times after the start. LCM of 12, 15, 20, 30 = 60 seconds, so they toll together every minute; in 8 hours = 480 minutes there are 480 such occasions, so the answer is 480.
+Source: PYQ-style
+
+135. Three runners take 36, 48 and 60 seconds respectively to complete one lap of a circular track. If they start together, after how many minutes will they meet again at the starting point?
+(a) 6 (b) 24 (c) 12 (d) 10
+Answer: (c)
+Solution: The trap is taking the HCF (= 12 seconds) instead of the LCM, confusing "meeting together" with "common divisor". LCM of 36, 48, 60 = 720 seconds = 12 minutes, so the answer is 12.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+136. How many pairs of positive integers have HCF 12 and LCM 360?
+(a) 4 (b) 2 (c) 3 (d) 6
+Answer: (a)
+Solution: The trap is counting all factor pairs of 30 without checking coprimality. Let the numbers be 12x and 12y with x, y coprime; then xy = 360 ÷ 12 = 30, and the coprime factor pairs of 30 are (1, 30), (2, 15), (3, 10) and (5, 6), so the answer is 4.
+Source: PYQ-style
+
+137. The sum of two numbers is 528 and their HCF is 33. The number of such pairs is:
+(a) 4 (b) 2 (c) 3 (d) 5
+Answer: (a)
+Solution: The trap is listing all pairs summing to 16 without the coprime condition. Let the numbers be 33x and 33y with x, y coprime; then x + y = 16, and the coprime pairs are (1, 15), (3, 13), (5, 11) and (7, 9), while pairs like (2, 14) fail since both are even, so the answer is 4.
+Source: PYQ-style
+
+138. The HCF of 2³ × 3² × 5 and 2² × 3³ × 5² × 7 is:
+(a) 180 (b) 60 (c) 90 (d) 360
+Answer: (a)
+Solution: The trap is taking the minimum exponent of 3 as 1 or dropping a factor, which gives 60. For HCF take the lowest power of each common prime: 2² × 3² × 5 = 4 × 9 × 5, so the answer is 180.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+139. The LCM of 2³ × 3² × 5, 2² × 3³ × 5² and 2 × 3 × 5 × 7 is:
+(a) 18900 (b) 37800 (c) 7560 (d) 75600
+Answer: (b)
+Solution: The trap is missing the factor 7 or taking the lowest powers, which actually gives the HCF. For LCM take the highest power of every prime present: 2³ × 3³ × 5² × 7 = 8 × 27 × 25 × 7, so the answer is 37800.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+140. The smallest perfect square number exactly divisible by 8, 15 and 20 is:
+(a) 2400 (b) 1200 (c) 3600 (d) 900
+Answer: (c)
+Solution: The trap is answering 120, the plain LCM, which is not a perfect square. LCM of 8, 15, 20 = 120 = 2³ × 3 × 5; to make every exponent even, multiply by 2 × 3 × 5 = 30, so the answer is 3600.
+Source: PYQ-style
+
+141. The greatest number which on dividing 398, 436 and 542 leaves remainders 7, 11 and 15 respectively is:
+(a) 51 (b) 17 (c) 34 (d) 13
+Answer: (b)
+Solution: The trap is taking the HCF of the original numbers or of the differences of the remainders. Subtract each remainder: 398 − 7 = 391, 436 − 11 = 425, 542 − 15 = 527; the HCF of 391, 425 and 527 is 17, so the answer is 17.
+Source: PYQ-style
+
+142. Three traffic lights change after 48, 72 and 108 seconds respectively. If they all change together at 8:00:00, they will next change together at:
+(a) 8:07:12 (b) 8:06:24 (c) 8:12:00 (d) 8:03:36
+Answer: (a)
+Solution: The trap is computing the LCM of only two lights (48 and 72 give 144) or misreading 432 seconds as 7 minutes 2 seconds. LCM of 48, 72, 108 = 432 seconds = 7 minutes 12 seconds, so the answer is 8:07:12.
+Source: PYQ-style
+
+143. The product of two numbers is 2028 and their HCF is 13. The number of such pairs is:
+(a) 1 (b) 2 (c) 3 (d) 4
+Answer: (b)
+Solution: The trap is counting all factor pairs of 12, including non-coprime ones like (2, 6). Let the numbers be 13x and 13y with x, y coprime; then 169xy = 2028, so xy = 12, and the coprime pairs of 12 are only (1, 12) and (3, 4), so the answer is 2.
+Source: PYQ-style
+
+144. The HCF and LCM of two numbers are 21 and 4641 respectively. If one of the numbers is 147, the other number is:
+(a) 567 (b) 693 (c) 441 (d) 663
+Answer: (d)
+Solution: The trap is dividing 4641 by 147 directly (about 31.6) and rounding. Using product of numbers = HCF × LCM, the other number = (21 × 4641) ÷ 147 = 4641 ÷ 7, so the answer is 663.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+145. Three numbers are in the ratio 1 : 2 : 3 and their HCF is 12. Their LCM is:
+(a) 36 (b) 72 (c) 48 (d) 144
+Answer: (b)
+Solution: The trap is taking the LCM of the ratio terms (6) and forgetting to scale by the HCF. The numbers are 12, 24 and 36, and LCM of 12, 24, 36 = 72, so the answer is 72.
+Source: PYQ-style
+
+146. Two numbers are in the ratio 2 : 3 and their LCM is 48. The sum of the numbers is:
+(a) 40 (b) 48 (c) 30 (d) 36
+Answer: (a)
+Solution: The trap is treating the ratio terms 2 and 3 as the actual numbers and reporting 5 or scaling wrongly. Let the numbers be 2k and 3k; since 2 and 3 are coprime, LCM = 6k = 48, so k = 8, the numbers are 16 and 24, and the answer is 40.
+Source: PYQ-style
+
+147. The greatest three-digit number which when divided by 6, 9 and 12 leaves a remainder of 3 in each case is:
+(a) 999 (b) 972 (c) 963 (d) 975
+Answer: (d)
+Solution: The trap is answering 972, the greatest three-digit multiple of the LCM, which leaves remainder 0. LCM of 6, 9, 12 = 36; the greatest three-digit multiple is 972, and adding the remainder gives 975, so the answer is 975.
+Source: PYQ-style
+
+148. The least number which when divided by 24, 36 and 54 leaves remainders 14, 26 and 44 respectively is:
+(a) 196 (b) 216 (c) 206 (d) 226
+Answer: (c)
+Solution: The trap is adding the remainders or using the LCM 216 directly. Here divisor − remainder is constant: 24 − 14 = 36 − 26 = 54 − 44 = 10; LCM of 24, 36, 54 = 216, so the required number is 216 − 10, and the answer is 206.
+Source: PYQ-style
+
+149. Six bells toll at intervals of 2, 4, 6, 8, 10 and 12 seconds. If they toll together at the start, how many times do they toll together in 30 minutes, counting the initial toll?
+(a) 15 (b) 30 (c) 16 (d) 14
+Answer: (c)
+Solution: The trap is answering 15 by ignoring the toll at time zero, which the question says to count. LCM of 2, 4, 6, 8, 10, 12 = 120 seconds = 2 minutes; in 30 minutes there are 15 intervals, plus the initial toll, so the answer is 16.
+Source: PYQ-style
+
+150. The HCF of 4 × 27 × 3125, 8 × 9 × 25 × 7 and 16 × 81 × 5 × 11 × 49 is:
+(a) 180 (b) 60 (c) 90 (d) 360
+Answer: (a)
+Solution: The trap is including 7 or 11, which are not common to all three numbers. In prime form the numbers are 2² × 3³ × 5⁵, 2³ × 3² × 5² × 7 and 2⁴ × 3⁴ × 5 × 7² × 11; common primes with lowest powers give 2² × 3² × 5 = 4 × 9 × 5, so the answer is 180.
+Source: NCERT Class 10 Mathematics (Real Numbers)

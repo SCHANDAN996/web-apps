@@ -1,0 +1,18 @@
+{
+  "version": "1.1.0",
+  "date": "2026-10-18",
+  "apk_bytes": 30841058,
+  "apk_sha256": "5e151b7fc6d66f7734472034e6061361f39ed060ddea4e2680eee5d4a5f25453",
+  "content_hash": "ae3a38d90383066f432a62a6d03c85d788eece1657de0e2aec924e0c324e5905",
+  "counts": {
+    "books": 12,
+    "chapters": 296,
+    "questions": 70419,
+    "subjects": 5,
+    "topics": 88
+  },
+  "device_acceptance": "Drawing v2 APK installed on connected Android phone. Real CDP two-touch pinch reached180%; saved stroke bytes unchanged through pinch/pan/all-up. Help8rules opens. Portrait and short landscape editor controls contained; More last exportaction reachable. Test notebook removed, original learner progress and original rotation settings preserved.",
+  "android_unit_tests": 15,
+  "question_sharing": "Android chooser verified; current debug certificate/domain association verified by phone; external cold/warm ACTION_VIEW launch test blocked by automatic approval review. Production release signing/public install destination remain separate.",
+  "verification": "249 Python tests passed on Windows; two symlink tests failed only for WinError1314 privilege and both passed against this source in isolated Linux. Drawing v2 browser: HI/EN, three themes, four viewport sizes, real multitouch, cancellation, autosave, selection move/copy/delete+undo/redo, paper/highlighter/eraser pixels and downloaded PNG/SVG passed. Offline study regression passed with zero study API requests. Android build and unit tests passed."
+}

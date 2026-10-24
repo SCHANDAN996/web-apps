@@ -1,0 +1,151 @@
+प्रश्न 101–120: आसान | प्रश्न 121–125: मध्यम
+
+101. In a figure series, a dot moves one corner clockwise in each step, while a small circle moves one corner anticlockwise. If the dot is at the top-right and the circle at the top-left in the first figure, where will both be in the fifth figure?
+(a) Dot at bottom-right, circle at bottom-left (b) Dot at bottom-left, circle at bottom-right (c) Dot at top-left, circle at top-right (d) Dot at top-right, circle at top-left
+Answer: (d)
+Solution: The trap is assuming the cycle needs 5 moves; figure 5 is only 4 moves after figure 1. Four moves around four corners complete a full cycle, returning both symbols to their starting corners. So the answer is dot at top-right, circle at top-left.
+Source: PYQ-style
+
+102. A square is divided into 4 equal smaller squares. In each step, one more small square is shaded, moving left to right, top row first. How many small squares are shaded in the fourth figure?
+(a) 2 (b) 4 (c) 5 (d) 3
+Answer: (b)
+Solution: The trap is to think shading restarts after the grid fills; here the question only asks up to the fourth figure. Shading increases by one each step: 1, 2, 3, 4. So the answer is 4.
+Source: PYQ-style
+
+103. In a series, a triangle rotates 90° clockwise each step and alternates between shaded and unshaded. Figure 1: unshaded, apex up. What is figure 5?
+(a) Shaded, apex up (b) Shaded, apex down (c) Unshaded, apex up (d) Unshaded, apex left
+Answer: (c)
+Solution: The tempting wrong choice marks figure 5 as shaded, but shading alternates every step: figures 1, 3, 5 are unshaded. After four 90° rotations the apex returns to up. So the answer is unshaded, apex up.
+Source: PYQ-style
+
+104. Find the odd figure out: four figures each show a circle with a line through it. In three, the line divides the circle into two equal halves; in one, the line is off-centre. Which is the odd one?
+(a) The figure with a vertical diameter (b) The figure with an off-centre chord (c) The figure with a horizontal diameter (d) The figure with a diagonal diameter
+Answer: (b)
+Solution: The trap is to classify by orientation of the line, but orientation varies among all four. The real property is whether the line passes through the centre; only the off-centre chord fails this. So the answer is the figure with an off-centre chord.
+Source: PYQ-style
+
+105. A series shows arrows: ↑, →, ↓, ←, ↑, … What is the 10th arrow?
+(a) ↑ (b) → (c) ↓ (d) ←
+Answer: (b)
+Solution: The pattern repeats every 4. The trap is counting 10 as the start of a new cycle; 10 ÷ 4 leaves remainder 2, so the 10th arrow matches the 2nd, which is →. So the answer is →.
+Source: PYQ-style
+
+106. In each step of a series, the number of sides of the outer figure increases by 1 (triangle, square, pentagon, …) while the inner figure stays a circle. What is the outer figure in the 6th step?
+(a) Heptagon (b) Octagon (c) Hexagon (d) Pentagon
+Answer: (b)
+Solution: The trap is counting the triangle as step 0; step 1 is a triangle (3 sides), so step 6 has 3 + 5 = 8 sides. So the answer is octagon.
+Source: PYQ-style
+
+107. Choose the figure that continues the series: a line segment gains one perpendicular tick mark at each step, alternating top and bottom. Figure 4 has 4 ticks. How many ticks are on top in figure 6?
+(a) 2 (b) 4 (c) 6 (d) 3
+Answer: (d)
+Solution: The trap is answering total ticks (6) instead of top ticks. Ticks alternate top, bottom, top, bottom…, so in figure 6 the top ticks are at steps 1, 3, 5 = 3 ticks. So the answer is 3.
+Source: PYQ-style
+
+108. Four figures show one shape inside another. In three, the inner shape has fewer sides than the outer; in one, the inner shape has more sides. Which is the odd one?
+(a) Square inside a triangle (b) Triangle inside a square (c) Circle inside a hexagon (d) Triangle inside a pentagon
+Answer: (a)
+Solution: The trap is comparing the shapes by name instead of counting sides. Only in the square-inside-triangle case does the inner shape (4 sides) exceed the outer (3 sides). So the answer is square inside a triangle.
+Source: PYQ-style
+
+109. A figure series shows a clock hand pointing at 12, 3, 6, 9, … Where does it point in the 7th figure?
+(a) 12 (b) 3 (c) 6 (d) 9
+Answer: (c)
+Solution: The hand moves 3 hours clockwise each step, cycling every 4. Figure 7 = figure (7 − 4) = figure 3 position, which is 6. The trap is treating the cycle length as 3. So the answer is 6.
+Source: PYQ-style
+
+110. In a series, a black square moves along the border of a 3×3 grid, one cell clockwise per step, starting at the top-left corner. Where is it in figure 9?
+(a) Top-left (b) Top-right (c) Bottom-right (d) Bottom-left
+Answer: (a)
+Solution: The border of a 3×3 grid has 8 cells, so the square returns to start after 8 moves. Figure 9 is 8 moves after figure 1, i.e., back at top-left. The trap is assuming a 9-cell cycle including the centre. So the answer is top-left.
+Source: PYQ-style
+
+111. Find the missing figure: 2 dots, 4 dots, 8 dots, 16 dots, ?
+(a) 20 dots (b) 24 dots (c) 30 dots (d) 32 dots
+Answer: (d)
+Solution: The trap is adding a constant difference; here the count doubles each time: 2, 4, 8, 16, 32. So the answer is 32 dots.
+Source: PYQ-style
+
+112. A figure shows two overlapping circles. In each step the right circle moves one radius-length to the right. If they initially overlap by one radius, in which figure do the circles just touch externally?
+(a) Figure 2 (b) Figure 4 (c) Figure 3 (d) Figure 1
+Answer: (a)
+Solution: Initially the centres are one radius apart; external touching needs centres two radii apart, so the right circle must move one radius, i.e., one step. Since the initial position is figure 1, touching occurs at figure 2. The trap is answering the number of moves (1) instead of the figure number. So the answer is figure 2.
+Source: PYQ-style
+
+113. In a classification question, four figures each contain a triangle and a circle. In three, the circle is inside the triangle; in one, the triangle is inside the circle. Which is the odd one?
+(a) Figure with triangle inside circle (b) Figure with circle inside triangle, unshaded (c) Figure with circle inside triangle, large (d) Figure with circle inside triangle, shaded
+Answer: (a)
+Solution: The trap is classifying by shading or size, which vary among the similar figures. The containment relation is the distinguishing property. So the answer is the figure with triangle inside circle.
+Source: PYQ-style
+
+114. A series rotates a flag 45° clockwise each step. Starting pointing up (0°), what angle does it make with the vertical in figure 5?
+(a) 90° (b) 180° (c) 135° (d) 45°
+Answer: (b)
+Solution: Figure 5 is 4 steps after figure 1: 4 × 45° = 180°. The trap is computing 5 × 45° = 225° by counting the first figure as a move. So the answer is 180°.
+Source: PYQ-style
+
+115. Choose the next figure: a square alternately gains a diagonal (step 1: none, step 2: one diagonal, step 3: both diagonals, step 4: one diagonal, …). What does figure 6 show?
+(a) No diagonal (b) Both diagonals (c) One diagonal (d) A cross of both diagonals plus a vertical line
+Answer: (c)
+Solution: The pattern of diagonals is 0, 1, 2, 1, 0, 1, … — a rise and fall. Figure 6 has one diagonal. The trap is assuming diagonals keep increasing. So the answer is one diagonal.
+Source: PYQ-style
+
+116. In a series, the number of circles increases by 2 each step (1, 3, 5, …). How many circles are there in figure 6?
+(a) 11 (b) 10 (c) 9 (d) 13
+Answer: (a)
+Solution: The nth figure has 2n − 1 circles; figure 6 has 11. The trap is using 2n, giving 12, which is not even among the options — a sign the odd-number formula is right. So the answer is 11.
+Source: PYQ-style
+
+117. Four figures show a rectangle with a dot. In three, the dot is inside the rectangle but outside an inner circle; in one, the dot is inside both. Which is the odd one?
+(a) Dot in rectangle only, top area (b) Dot in rectangle only, bottom area (c) Dot inside both rectangle and circle (d) Dot in rectangle only, left area
+Answer: (c)
+Solution: Position within the rectangle varies and is the trap; the real rule is whether the dot lies inside the inner circle. Only one figure has the dot inside both shapes. So the answer is the dot inside both rectangle and circle.
+Source: PYQ-style
+
+118. A figure series shows letters made of straight lines only: in each step one line segment is added to build the letter E (start: vertical line). If figure 1 is the vertical stroke, what does figure 4 show?
+(a) Vertical line with one horizontal bar (b) Vertical line with three horizontal bars (c) Vertical line with two horizontal bars (d) A complete different letter
+Answer: (b)
+Solution: Each step adds one segment: figure 2 has one bar, figure 3 has two, figure 4 has three — completing E. The trap is miscounting the starting figure as having a bar already. So the answer is vertical line with three horizontal bars.
+Source: PYQ-style
+
+119. In a series, a shaded sector of a circle grows by 45° each step, starting at 45°. In which figure is the circle fully shaded?
+(a) Figure 6 (b) Figure 7 (c) Figure 8 (d) Figure 9
+Answer: (c)
+Solution: Full circle = 360°, and 360 ÷ 45 = 8, so figure 8 completes the shading. The trap is adding one extra step, assuming shading starts from 0°. So the answer is figure 8.
+Source: PYQ-style
+
+120. Find the odd figure: four figures each show two shapes touching. In three, they touch at exactly one point; in one, they overlap. Which is the odd one?
+(a) Two circles touching externally (b) A circle and a square touching at one point (c) Two overlapping circles (d) Two triangles touching at a vertex
+Answer: (c)
+Solution: The trap is classifying by shape types; the rule is the nature of contact. Only the overlapping circles share an area rather than a single point. So the answer is two overlapping circles.
+Source: PYQ-style
+
+121. In a series, a symbol moves clockwise around a hexagon's corners, advancing 1 corner in step 1, 2 corners in step 2, 3 corners in step 3, and so on. Starting at corner 1, where is it after the 4th move (figure 5)?
+(a) Corner 5 (b) Corner 2 (c) Corner 3 (d) Corner 1
+Answer: (a)
+Solution: Total displacement after 4 moves = 1 + 2 + 3 + 4 = 10 corners; 10 mod 6 = 4, so corner 1 + 4 = corner 5. The trap is computing 1+2+3+4 = 10 and forgetting to reduce modulo 6, giving a meaningless "corner 10". So the answer is corner 5.
+Source: PYQ-style
+
+122. A figure contains a large triangle with a smaller inverted triangle inside, and a circle inside that. In the next step, the outermost figure is removed and the remaining figures enlarge to fill the space. If the series continues this way, what is figure 3?
+(a) Triangle with circle inside (b) Circle inside a triangle inside a square (c) Inverted triangle with circle inside (d) Circle only
+Answer: (d)
+Solution: Figure 1: triangle > inverted triangle > circle. Figure 2: inverted triangle > circle. Figure 3: circle only. The trap is assuming a new outer shape is added; the rule only removes. So the answer is circle only.
+Source: PYQ-style
+
+123. In a classification set, four figures show numbers of dots inside shapes equal to the number of sides of the shape, except one. Which is the odd one?
+(a) Triangle with 3 dots (b) Hexagon with 6 dots (c) Square with 4 dots (d) Pentagon with 4 dots
+Answer: (d)
+Solution: The trap is checking only that dots increase with sides; the rule is exact equality. A pentagon must contain 5 dots, not 4. So the answer is pentagon with 4 dots.
+Source: PYQ-style
+
+124. A series shows a 2×2 grid where the shaded cell moves: top-left → top-right → bottom-right → bottom-left → top-left…, and simultaneously a cross appears in the cell diagonally opposite the shaded cell. In figure 6, where is the cross?
+(a) Top-left (b) Top-right (c) Bottom-right (d) Bottom-left
+Answer: (d)
+Solution: The shaded cell cycles every 4, so figure 6 matches figure 2: shaded at top-right. The cross sits diagonally opposite, which is bottom-left. The trap is placing the cross in the shaded cell itself. So the answer is bottom-left.
+Source: PYQ-style
+
+125. In a series, each figure has lines equal to the figure number and dots equal to the square of the figure number. How many elements (lines + dots) does figure 4 contain?
+(a) 20 (b) 8 (c) 16 (d) 24
+Answer: (a)
+Solution: Figure 4 has 4 lines and 4² = 16 dots, totalling 20. The trap is doubling instead of squaring (4 + 8 = 12) or counting only dots (16). So the answer is 20.
+Source: PYQ-style

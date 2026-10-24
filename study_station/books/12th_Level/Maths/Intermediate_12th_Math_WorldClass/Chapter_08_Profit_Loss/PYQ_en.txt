@@ -1,3 +1,114 @@
-# Chapter: Profit & Loss, Level: intermediate
+# 📊 PYQ Analysis — Profit & Loss (English)
 
-@pyq_agent lang=en level=intermediate 'Analyse PYQs of Profit & Loss for last 10 years (SSC CGL Mains, IBPS PO, RRB NTPC, CAT etc.). Give top 10 high-yield questions with solutions. Also explain what psychological hook or trap each question uses.'
+## How Exams Test This Chapter
+
+Profit & Loss is one of the most dependable chapters in the Arithmetic section. Across SSC CGL (Tier-I & Mains), IBPS PO/Clerk, RRB NTPC and similar exams, the questions follow a small set of repeatable patterns. If you master these patterns, you master the chapter — because examiners rarely invent new ones; they only change the numbers and the story.
+
+### The recurring question patterns
+
+1. **Direct CP–SP calculation** — find profit/loss % from given CP and SP. The easiest marks in the chapter.
+2. **Two successive discounts** — "a discount of 20% followed by 10%" is NOT 30%. This is the single most repeated trap.
+3. **Marked Price problems** — MP, discount and profit linked together: MP × (1 − d%) = CP × (1 + p%).
+4. **Selling two articles at the same SP** — one at x% profit, one at x% loss → overall there is ALWAYS a loss of x²/100 %. Examiners love this because the intuitive answer ("no profit no loss") is wrong.
+5. **Dishonest dealer / false weights** — a shopkeeper uses 900 g instead of 1 kg. Tests whether you can find the real cost per unit sold.
+6. **Profit % calculated on SP instead of CP** — the classic conceptual trap. Profit % is ALWAYS on CP unless stated otherwise.
+7. **CP of one article found from a transaction chain** — "A sells to B at 10% profit, B sells to C at 20% profit…" — successive multiplication.
+8. **Discount vs. profit combined** — "after allowing 10% discount, a trader still gains 20%" — find MP:CP ratio.
+9. **Selling price to gain/lose a different %** — "if SP were ₹X more, profit would be 15% instead of 10%".
+10. **Mixture-type CP problems** — buying at "x articles for ₹a" and selling at "y articles for ₹b" — use LCM of article counts.
+
+### The examiner's psychological traps
+
+- **The "almost right" statement**: "A sells at the same price, gaining 20% on one and losing 20% on the other — so overall no profit no loss." Sounds logical; mathematically false (always a 4% loss when x = 20).
+- **The discount-addition illusion**: 20% + 10% looks like 30%. Real equivalent = 20 + 10 − (20×10)/100 = 28%. The wrong option 30% is always present in the choices.
+- **Base confusion**: giving profit as "₹40 on SP of ₹240" and hoping you compute 40/240 instead of 40/200.
+- **Word camouflage**: wrapping a simple CP–SP question inside a long story about a fruit seller, so students waste time re-reading instead of extracting two numbers.
+- **Negative phrasing**: "at what price should it be sold so that there is NO loss" — students overthink; it simply means SP = CP.
+
+### Time advice
+
+Direct formula questions should take 30–40 seconds. If a question needs more than 90 seconds, you are probably doing arithmetic the long way — switch to the fraction method (20% = 1/5, 25% = 1/4, 12.5% = 1/8) or the successive-change formula.
+
+---
+
+## Top 10 High-Yield Questions (with Solutions)
+
+**Q1.** A shopkeeper buys an article for ₹400 and sells it for ₹460. Find his profit per cent.
+(a) 12% (b) 15% (c) 18% (d) 20%
+**Answer: (b)**
+**Solution:** Profit = 460 − 400 = ₹60. Profit % = (60/400) × 100 = 15%.
+**Trap:** Option (a) tempts those who divide 60 by 500 by mistake. Always divide by CP.
+**Source:** PYQ-style
+
+**Q2.** A trader offers two successive discounts of 20% and 10% on an article marked ₹1,000. Find the selling price.
+(a) ₹700 (b) ₹720 (c) ₹680 (d) ₹750
+**Answer: (b)**
+**Solution:** SP = 1000 × 0.80 × 0.90 = ₹720. Equivalent single discount = 20 + 10 − (20×10)/100 = 28%, so SP = 72% of 1000 = ₹720.
+**Trap:** Option (a) ₹700 corresponds to the wrong "30% total discount" intuition — the most planted distractor in this chapter.
+**Source:** PYQ-style
+
+**Q3.** A man sells two chairs at ₹990 each. On one he gains 10% and on the other he loses 10%. His overall result is:
+(a) No profit, no loss (b) Loss of 1% (c) Profit of 1% (d) Loss of 2%
+**Answer: (b)**
+**Solution:** When two articles are sold at the same SP, one at x% profit and one at x% loss, overall loss % = x²/100 = 100/100 = 1%.
+**Trap:** Option (a) is the psychological hook — equal gain and loss "feel" like they cancel. They don't, because the CPs are different (₹900 and ₹1,100).
+**Source:** PYQ-style
+
+**Q4.** A dishonest dealer sells goods at cost price but uses a weight of 900 g instead of 1 kg. Find his gain per cent.
+(a) 10% (b) 11⅑% (c) 9⅑% (d) 12%
+**Answer: (b)**
+**Solution:** He charges for 1000 g but gives goods costing only 900 g. Gain % = (100/900) × 100 = 11⅑%.
+**Trap:** Option (a) comes from computing 100/1000 = 10%. The gain must be measured on what he actually spent (900 g worth), not on what he claims.
+**Source:** PYQ-style
+
+**Q5.** By selling an article for ₹720, a man loses 10%. At what price should he sell it to gain 10%?
+(a) ₹800 (b) ₹880 (c) ₹792 (d) ₹900
+**Answer: (b)**
+**Solution:** 90% of CP = 720 → CP = ₹800. For 10% gain, SP = 110% of 800 = ₹880.
+**Trap:** Option (c) ₹792 = 720 × 1.10 — applying the gain to the old SP instead of first recovering the CP. The hook is skipping the middle step.
+**Source:** PYQ-style
+
+**Q6.** A shopkeeper marks his goods 40% above cost price and allows a discount of 10%. Find his profit per cent.
+(a) 30% (b) 26% (c) 24% (d) 28%
+**Answer: (b)**
+**Solution:** Let CP = 100. MP = 140. SP = 140 × 0.90 = 126. Profit = 26%.
+**Trap:** Option (a) 30% = 40 − 10, the naive subtraction. Discount applies to MP, profit to CP — different bases, so they never subtract directly.
+**Source:** PYQ-style
+
+**Q7.** A sells an article to B at a profit of 10%, and B sells it to C at a profit of 20%. If C pays ₹1,320, find A's cost price.
+(a) ₹1,000 (b) ₹1,100 (c) ₹1,200 (d) ₹1,050
+**Answer: (a)**
+**Solution:** CP(A) × 1.10 × 1.20 = 1320 → CP(A) = 1320 / 1.32 = ₹1,000.
+**Trap:** Students who add the profits (10 + 20 = 30%) get 1320/1.30 ≈ ₹1,015 and pick the nearest wrong option. Successive profits multiply, never add.
+**Source:** PYQ-style
+
+**Q8.** A fruit seller buys oranges at 6 for ₹10 and sells them at 4 for ₹10. Find his profit per cent.
+(a) 40% (b) 50% (c) 33⅓% (d) 60%
+**Answer: (b)**
+**Solution:** Take LCM of 6 and 4 = 12 oranges. CP of 12 = ₹20; SP of 12 = ₹30. Profit % = (10/20) × 100 = 50%.
+**Trap:** Comparing "6 vs 4" directly and answering 33⅓% (option c). Equalise the number of articles first — that equalisation step is the whole question.
+**Source:** PYQ-style
+
+**Q9.** If the selling price of an article is 4/3 of its cost price, the profit per cent is:
+(a) 25% (b) 33⅓% (c) 30% (d) 20%
+**Answer: (b)**
+**Solution:** SP/CP = 4/3 → Profit = 4 − 3 = 1 part on CP of 3 parts → (1/3) × 100 = 33⅓%.
+**Trap:** Option (a) 25% comes from dividing 1 by 4 (the SP) instead of by 3 (the CP). Denominator discipline is everything here.
+**Source:** PYQ-style
+
+**Q10.** A trader allows a discount of 10% on the marked price and still makes a profit of 20%. By what per cent is the marked price above the cost price?
+(a) 30% (b) 33⅓% (c) 25% (d) 28%
+**Answer: (b)**
+**Solution:** Let CP = 100 → SP = 120. SP = 90% of MP → MP = 120/0.9 = 133⅓. So MP is 33⅓% above CP.
+**Trap:** Option (a) 30% = 20 + 10, the addition illusion again. The correct chain: CP →(+20%)→ SP →(÷0.9)→ MP.
+**Source:** PYQ-style
+
+---
+
+## One-Line Revision of the Patterns
+
+- Same SP, +x% and −x% → always **loss** of x²/100 %.
+- Successive discounts d₁, d₂ → equivalent = d₁ + d₂ − (d₁d₂/100).
+- Profit % and Loss % are always on **CP**; discount % is always on **MP**.
+- False weight: gain % = (error / weight actually given) × 100.
+- Articles-for-rupees problems: equalise article count with LCM before comparing.

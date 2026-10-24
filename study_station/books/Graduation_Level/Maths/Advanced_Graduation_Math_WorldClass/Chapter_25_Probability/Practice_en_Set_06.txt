@@ -1,0 +1,151 @@
+प्रश्न 126–145: आसान | प्रश्न 146–150: मध्यम
+
+126. A bag contains 4 red and 6 blue balls. Two balls are drawn one after another without replacement. What is the probability that the second ball drawn is red?
+(a) 3/8 (b) 4/9 (c) 2/5 (d) 1/2
+Answer: (c)
+Solution: The trap is assuming the first draw changes the answer to 4/9, which is only the conditional probability given the first was red. By total probability: P = (4/10)(3/9) + (6/10)(4/9) = 12/90 + 24/90 = 36/90 = 2/5, so the answer is 2/5.
+Source: NCERT Class 12 Mathematics, Probability
+
+127. A speaks truth in 75% of cases and B in 80% of cases. In what percentage of cases are they likely to contradict each other in stating the same fact?
+(a) 35% (b) 30% (c) 65% (d) 70%
+Answer: (a)
+Solution: The tempting wrong answer 65% comes from adding the cases where they agree. Contradiction occurs when A is truthful and B lies, or A lies and B is truthful: P = (3/4)(1/5) + (1/4)(4/5) = 3/20 + 4/20 = 7/20 = 35%, so the answer is 35%.
+Source: NCERT Class 12 Mathematics, Probability
+
+128. Three dice are thrown simultaneously. What is the probability of getting a sum of 10?
+(a) 1/9 (b) 1/6 (c) 25/216 (d) 27/216
+Answer: (d)
+Solution: The trap is counting unordered combinations only, which gives fewer than 27 favourable outcomes. Ordered triples with sum 10: solutions of x+y+z = 10 with each at least 1 number C(9,2) = 36; subtract cases where some variable is at least 7 (3 per variable, total 9). Valid = 36 − 9 = 27, so the answer is 27/216.
+Source: PYQ-style
+
+129. A problem is given to three students A, B and C whose chances of solving it are 1/2, 1/3 and 1/4 respectively. What is the probability that the problem is solved?
+(a) 1/4 (b) 3/4 (c) 13/24 (d) 11/24
+Answer: (b)
+Solution: The trap is adding the probabilities, which exceeds 1, or averaging them. Use the complement: P(none solves) = (1/2)(2/3)(3/4) = 1/4, so P(solved) = 1 − 1/4 = 3/4, so the answer is 3/4.
+Source: NCERT Class 12 Mathematics, Probability
+
+130. If P(A) = 0.4, P(B) = 0.5 and P(A ∪ B) = 0.7, then P(A|B) equals:
+(a) 0.4 (b) 0.5 (c) 0.2 (d) 0.8
+Answer: (a)
+Solution: The trap is computing P(A ∩ B) = 0.2 and stopping there, treating it as the final answer. P(A ∩ B) = 0.4 + 0.5 − 0.7 = 0.2, then P(A|B) = 0.2/0.5 = 0.4, so the answer is 0.4.
+Source: NCERT Class 12 Mathematics, Probability
+
+131. A box contains 5 defective and 15 non-defective bulbs. Two bulbs are drawn at random without replacement. What is the probability that exactly one is defective?
+(a) 5/19 (b) 15/38 (c) 25/76 (d) 3/8
+Answer: (b)
+Solution: The trap is forgetting the two orders (defective first or second), giving 15/76. P = (5/20)(15/19) + (15/20)(5/19) = 75/380 + 75/380 = 150/380 = 15/38, so the answer is 15/38.
+Source: NCERT Class 11 Mathematics, Probability
+
+132. A fair coin is tossed 5 times. What is the probability of getting at least 3 heads?
+(a) 13/32 (b) 5/16 (c) 3/8 (d) 1/2
+Answer: (d)
+Solution: The trap is computing only exactly 3 heads, which gives 10/32 = 5/16. P(at least 3) = [C(5,3) + C(5,4) + C(5,5)]/32 = (10 + 5 + 1)/32 = 16/32 = 1/2, so the answer is 1/2.
+Source: NCERT Class 12 Mathematics, Probability
+
+133. Two cards are drawn at random from a well-shuffled pack of 52 cards. What is the probability that both are aces or both are kings?
+(a) 2/221 (b) 1/221 (c) 8/663 (d) 4/663
+Answer: (a)
+Solution: The trap is adding 4/52 + 4/52, ignoring that draws are without replacement. P(both aces) = C(4,2)/C(52,2) = 6/1326; same for both kings. Total = 12/1326 = 2/221, so the answer is 2/221.
+Source: PYQ-style
+
+134. The probability that a man hits a target is 3/4. He fires 5 shots. What is the probability that he hits the target exactly 3 times?
+(a) 45/512 (b) 45/256 (c) 135/512 (d) 27/128
+Answer: (c)
+Solution: The trap is omitting the binomial coefficient, giving values like 27/1024. P = C(5,3)(3/4)³(1/4)² = 10 × 27/64 × 1/16 = 270/1024 = 135/512, so the answer is 135/512.
+Source: NCERT Class 12 Mathematics, Probability
+
+135. A and B throw a pair of dice alternately. A wins if he throws a sum of 6 before B throws a sum of 7. If A starts, what is the probability that A wins?
+(a) 5/11 (b) 31/61 (c) 30/61 (d) 6/11
+Answer: (c)
+Solution: The trap is comparing single-throw probabilities 5/36 vs 6/36 and answering 5/11, which ignores the alternating order. P(sum 6) = 5/36, P(sum 7) = 1/6. P(A wins) = (5/36)/[1 − (31/36)(5/6)] = (5/36)/(61/216) = 30/61, so the answer is 30/61.
+Source: PYQ-style
+
+136. A bag contains 3 white and 5 black balls. A ball is drawn, its colour noted, and replaced along with 2 more balls of the same colour. Then a ball is drawn again. What is the probability that the second ball drawn is black?
+(a) 7/10 (b) 13/20 (c) 3/5 (d) 5/8
+Answer: (d)
+Solution: The trap is computing only the case where the first ball was black, giving 7/10. P = (3/8)(5/10) + (5/8)(7/10) = 15/80 + 35/80 = 50/80 = 5/8, so the answer is 5/8.
+Source: NCERT Class 12 Mathematics, Probability
+
+137. Events A and B are independent with P(A) = 0.3 and P(B) = 0.6. What is P(neither A nor B occurs)?
+(a) 0.28 (b) 0.18 (c) 0.42 (d) 0.12
+Answer: (a)
+Solution: The trap is computing P(A)P(B) = 0.18, which is the probability that both occur. P(neither) = P(A′)P(B′) = 0.7 × 0.4 = 0.28, so the answer is 0.28.
+Source: NCERT Class 12 Mathematics, Probability
+
+138. A committee of 4 is chosen from 5 men and 4 women. What is the probability that the committee contains at least 2 women?
+(a) 41/126 (b) 9/14 (c) 5/9 (d) 1/2
+Answer: (b)
+Solution: The trap is computing only exactly 2 women, giving 60/126, and missing the cases of 3 and 4 women. Use the complement: committees with 0 women = C(5,4) = 5, with exactly 1 woman = C(4,1)C(5,3) = 40. Favourable = 126 − 45 = 81, and 81/126 = 9/14, so the answer is 9/14.
+Source: PYQ-style
+
+139. A random variable X has the probability distribution: P(X=0) = k, P(X=1) = 2k, P(X=2) = 3k, P(X=3) = 4k. What is P(X ≥ 2)?
+(a) 4/5 (b) 3/10 (c) 1/2 (d) 7/10
+Answer: (d)
+Solution: The trap is taking k = 1 and adding 3 + 4 = 7 directly. Sum of probabilities: 10k = 1, so k = 1/10. P(X ≥ 2) = 3k + 4k = 7k = 7/10, so the answer is 7/10.
+Source: NCERT Class 12 Mathematics, Probability
+
+140. Three machines A, B and C produce 50%, 30% and 20% of items, with defect rates 2%, 3% and 5% respectively. An item is found defective. What is the probability it was produced by machine A?
+(a) 10/29 (b) 2/29 (c) 1/2 (d) 20/29
+Answer: (a)
+Solution: The trap is answering 1/2 because A produces half the items, ignoring defect rates. By Bayes' theorem: P(A|D) = (0.5 × 0.02)/(0.01 + 0.009 + 0.01) = 0.01/0.029 = 10/29, so the answer is 10/29.
+Source: NCERT Class 12 Mathematics, Probability
+
+141. A die is thrown twice. What is the probability that the sum obtained is greater than 8, given that the first throw shows a number greater than 3?
+(a) 5/12 (b) 1/2 (c) 1/3 (d) 7/12
+Answer: (b)
+Solution: The trap is using the unconditional probability of sum greater than 8, which is 10/36. Given the first throw is 4, 5 or 6 (18 equally likely outcomes): favourable pairs are 2 + 3 + 4 = 9. P = 9/18 = 1/2, so the answer is 1/2.
+Source: NCERT Class 12 Mathematics, Probability
+
+142. In a class, 60% of students play cricket, 40% play football and 25% play both. What is the probability that a randomly selected student plays cricket given that he plays football?
+(a) 5/8 (b) 3/8 (c) 5/12 (d) 1/4
+Answer: (a)
+Solution: The trap is dividing by P(cricket) instead of P(football), giving 25/60 = 5/12. P(C|F) = P(C ∩ F)/P(F) = 0.25/0.40 = 5/8, so the answer is 5/8.
+Source: NCERT Class 12 Mathematics, Probability
+
+143. A letter is chosen at random from the word "ASSASSINATION". What is the probability that it is a vowel?
+(a) 1/2 (b) 7/13 (c) 3/13 (d) 6/13
+Answer: (d)
+Solution: The trap is counting distinct vowels (A, I, O = 3) and answering 3/13. The word has 13 letters; vowels are A, A, A, I, I, O = 6 vowels. P = 6/13, so the answer is 6/13.
+Source: NCERT Class 11 Mathematics, Probability
+
+144. The odds in favour of event A are 3:2 and odds against event B are 5:2. If A and B are independent, what is the probability that exactly one of them occurs?
+(a) 19/35 (b) 13/35 (c) 23/35 (d) 3/7
+Answer: (a)
+Solution: The trap is misreading odds against B as P(B) = 5/7 instead of 2/7. P(A) = 3/5, P(B) = 2/7. P(exactly one) = (3/5)(5/7) + (2/5)(2/7) = 15/35 + 4/35 = 19/35, so the answer is 19/35.
+Source: PYQ-style
+
+145. A bag contains 8 red and 4 white balls. Three balls are drawn at random without replacement. What is the probability that one ball is red and two are white?
+(a) 12/55 (b) 8/55 (c) 6/55 (d) 4/33
+Answer: (a)
+Solution: The trap is using replacement logic, giving (8/12)(4/12)² = 2/27. P = C(8,1)C(4,2)/C(12,3) = (8 × 6)/220 = 48/220 = 12/55, so the answer is 12/55.
+Source: NCERT Class 11 Mathematics, Probability
+
+146. A fair coin is tossed repeatedly until a head appears. What is the probability that the first head appears on an odd-numbered toss?
+(a) 1/2 (b) 2/3 (c) 3/4 (d) 5/8
+Answer: (b)
+Solution: The trap is assuming each toss position is equally likely, giving 1/2. P = 1/2 + (1/2)³ + (1/2)⁵ + … = (1/2)/(1 − 1/4) = 2/3, so the answer is 2/3.
+Source: PYQ-style
+
+147. Two numbers are selected at random (without replacement) from the first 10 natural numbers. What is the probability that their sum is odd?
+(a) 5/9 (b) 4/9 (c) 1/2 (d) 25/81
+Answer: (a)
+Solution: The trap is answering 1/2 by symmetry, which fails because draws are without replacement. Sum is odd when one number is odd and one even: P = (5 × 5)/C(10,2) = 25/45 = 5/9, so the answer is 5/9.
+Source: PYQ-style
+
+148. A shooter has probability 0.8 of hitting a target. What is the minimum number of shots he must fire so that the probability of hitting the target at least once is greater than 0.99?
+(a) 4 (b) 3 (c) 5 (d) 2
+Answer: (b)
+Solution: The trap is solving 0.8n > 0.99, giving n = 2. P(at least one hit) = 1 − (0.2)ⁿ > 0.99 means (0.2)ⁿ < 0.01. For n = 2: 0.04 > 0.01; for n = 3: 0.008 < 0.01, so the answer is 3.
+Source: PYQ-style
+
+149. A family has two children. Given that at least one of them is a boy, what is the probability that both are boys?
+(a) 2/3 (b) 1/2 (c) 1/4 (d) 1/3
+Answer: (d)
+Solution: The classic trap is answering 1/2, treating the other child as an independent coin flip. Sample space {BB, BG, GB, GG}; given at least one boy, the space reduces to {BB, BG, GB}, all equally likely. P(both boys) = 1/3, so the answer is 1/3.
+Source: NCERT Class 12 Mathematics, Probability
+
+150. A box contains 10 tickets numbered 1 to 10. Two tickets are drawn together. What is the probability that the sum of the numbers on them is divisible by 3?
+(a) 14/45 (b) 16/45 (c) 1/3 (d) 17/45
+Answer: (c)
+Solution: The trap is assuming the answer cannot be exactly 1/3 because the set is finite, and picking a nearby fraction instead. Residues mod 3: residue 0 → {3,6,9} (3 tickets), residue 1 → {1,4,7,10} (4 tickets), residue 2 → {2,5,8} (3 tickets). Favourable pairs = C(3,2) + 4×3 = 3 + 12 = 15 out of C(10,2) = 45, giving 15/45 = 1/3, so the answer is 1/3.
+Source: PYQ-style

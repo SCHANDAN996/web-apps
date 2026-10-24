@@ -1,0 +1,34 @@
+```mermaid
+graph TD
+    A["कथन और कार्यवाही<br>Statement & Course of Action"] --> B["मूल अवधारणा<br>Core Concept"]
+    A --> C["कार्यवाही के प्रकार<br>Types of Action"]
+    A --> D["मूल्यांकन के नियम<br>Evaluation Rules"]
+    A --> E["समय प्रबंधन<br>Time Management"]
+    A --> F["परीक्षक के जाल<br>Examiner's Traps"]
+
+    B --> B1["कथन = समस्या/स्थिति<br>Statement = Problem/Situation"]
+    B --> B2["कार्यवाही = तार्किक कदम<br>Action = Logical Step"]
+    B --> B3["कार्यवाही कथन से सीधे जुड़ी हो<br>Action must follow from statement"]
+
+    C --> C1["प्रशासनिक कदम<br>Administrative Action"]
+    C --> C2["जाँच/समिति गठन<br>Inquiry/Committee"]
+    C --> C3["जागरूकता अभियान<br>Awareness Campaign"]
+    C --> C4["कानूनी/दंडात्मक कदम<br>Legal/Punitive Action"]
+
+    D --> D1["व्यावहारिक होनी चाहिए<br>Must be Practical"]
+    D --> D2["समस्या का समाधान करे<br>Must Solve the Problem"]
+    D --> D3["तार्किक रूप से अनुसरण करे<br>Must Logically Follow"]
+    D --> D4["अत्यधिक/कठोर कदम अस्वीकार्य<br>Extreme/Harsh Steps Rejected"]
+    D --> D5["दोहराव/सामान्य सलाह अस्वीकार्य<br>Repetition/Generic Advice Rejected"]
+
+    E --> E1["कथन ध्यान से पढ़ें<br>Read Statement Carefully"]
+    E --> E2["हर कार्यवाही अलग जाँचें<br>Test Each Action Separately"]
+    E --> E3["30–45 सेकंड प्रति प्रश्न<br>30–45 Seconds per Question"]
+    E --> E4["अटकने पर छोड़ें<br>Skip if Stuck"]
+
+    F --> F1["भावनात्मक/अत्यधिक कार्यवाही<br>Emotional/Extreme Action"]
+    F --> F2["कथन का दोहराव<br>Mere Restatement"]
+    F --> F3["असंबंधित पर सही लगने वाला कदम<br>Irrelevant but Good-sounding Step"]
+    F --> F4["दोनों सही लगें पर एक कमज़ोर हो<br>Both Seem Right, One is Weak"]
+    F --> F5["नकारात्मक वाक्य का भ्रम<br>Negative Wording Confusion"]
+```

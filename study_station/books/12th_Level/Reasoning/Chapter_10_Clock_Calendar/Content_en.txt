@@ -1,0 +1,177 @@
+# Clock & Calendar
+
+## Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Find the angle between the hour hand and the minute hand at any given time.
+2. Find the time when the two hands are together, opposite, or at a right angle.
+3. Solve mirror-image and water-image clock problems.
+4. Find the day of the week for any date using odd days.
+5. Handle leap-year and century-year traps confidently.
+
+---
+
+## The Hook: Two Questions, Zero Formulas Needed (Almost)
+
+"At what time between 4 and 5 o'clock will the hands of a clock be together?"
+"What day of the week was 15 August 1947?"
+
+These two questions appear in some form in almost every SSC, Banking, and Railway exam. And here is the good news: both are solved with **one formula each**. This entire chapter rests on just a handful of ideas. Master them once, and these become your fastest marks in the reasoning section.
+
+---
+
+## Part 1: The Clock — Understand the Machine First
+
+Many students jump straight to formulas and then freeze when the question is slightly twisted. So first, let's understand what the clock is actually doing.
+
+A clock face is a circle = **360°**, divided into 12 hours and 60 minutes.
+
+- **Minute hand:** covers 360° in 60 minutes → **6° per minute**.
+- **Hour hand:** covers 360° in 12 hours (720 minutes) → **0.5° per minute**.
+- So the minute hand gains on the hour hand at **6 − 0.5 = 5.5° per minute**.
+
+That single number — **5.5° per minute** — is the heart of every clock problem.
+
+🧠 **Active Recall:** Without looking up — how many degrees does the hour hand move in one minute? And what is the relative speed of the two hands?
+
+---
+
+## Part 2: Angle Between the Hands
+
+**Formula:**
+
+> Angle = |30H − (11/2)M|
+
+where H = hours, M = minutes. If the answer is more than 180°, subtract it from 360° (the question usually wants the smaller angle).
+
+**Example:** Angle at 4:20?
+= |30×4 − (11/2)×20| = |120 − 110| = **10°**
+
+**Example:** Angle at 2:30?
+= |60 − 165| = 105°. (Smaller angle = 105°, since it is already below 180°.)
+
+🧠 **Active Recall:** Try it yourself — what is the angle at 6:15? (Answer: |180 − 82.5| = 97.5°)
+
+---
+
+## Part 3: Hands Together, Opposite, and at Right Angle
+
+The hands coincide at 12:00. After that, the minute hand must gain a full 360° to catch up again — that takes 360/5.5 = **65(5/11) minutes**. So:
+
+- Hands coincide **11 times in 12 hours** (22 times in 24 hours) — not 12!
+- Hands are opposite (180°) **11 times in 12 hours**.
+- Hands are at right angle (90°) **22 times in 12 hours** (44 times in 24 hours).
+
+**Coincidence formula:** Between H and H+1 o'clock, hands meet at:
+
+> Time = (60/11) × H minutes past H o'clock
+
+**Example:** Between 4 and 5, hands meet at (60/11)×4 = 240/11 = **21(9/11) minutes past 4**.
+
+**Right angle:** hands are 15 minute-spaces apart. Between H and H+1, the two right-angle times are at (5H ± 15) × (12/11) minutes past H.
+
+🧠 **Active Recall:** How many times do the hands coincide in 24 hours — 22, 23, or 24? Why not 24?
+
+---
+
+## Part 4: Mirror and Water Images of Time
+
+**Mirror image:** Subtract the given time from **11:60** (this simply means 12:00, written in a form that makes subtraction of minutes easy).
+
+**Example:** Mirror image of 3:40 → 11:60 − 3:40 = **8:20**.
+
+**Water image:** Subtract the given time from **17:90** (this simply means 18:30, written in a form that makes subtraction easy).
+
+**Example:** Water image of 3:40 → 17:90 − 3:40 = **14:50**, i.e., **2:50**.
+
+🧠 **Mnemonic:** *"Mirror is 11-60, Water is 17-90."* Say it three times — it will never leave you.
+
+---
+
+## Part 5: The Calendar — Odd Days Are Everything
+
+The calendar chapter is really just one question: **how many "extra" days pile up?**
+
+- **Ordinary year** = 365 days = 52 weeks + **1 odd day**.
+- **Leap year** = 366 days = 52 weeks + **2 odd days**.
+
+**Leap year rule:** Divisible by 4. **But** a century year (1700, 1800, 1900, 2100) is a leap year **only if divisible by 400**. So 2000 was a leap year; 1900 was not. This is the examiner's favourite trap.
+
+**Odd days in centuries:**
+
+| Period | Odd days |
+|---|---|
+| 100 years | 5 |
+| 200 years | 3 |
+| 300 years | 1 |
+| 400 years | 0 |
+| Ordinary year | 1 |
+| Leap year | 2 |
+
+**Day codes:** 0 = Sunday, 1 = Monday, 2 = Tuesday, 3 = Wednesday, 4 = Thursday, 5 = Friday, 6 = Saturday.
+
+**Reference point:** 1 January 1 AD was a **Monday** — that is why, in the standard code above, Monday corresponds to **1 odd day**. When you finish counting total odd days, the number itself (0 to 6) maps directly to the day using the code table.
+
+**Month codes (odd days per month):** Jan 3, Feb 0 (ordinary) / 1 (leap), Mar 3, Apr 2, May 3, Jun 2, Jul 3, Aug 3, Sep 2, Oct 3, Nov 2, Dec 3.
+
+🧠 **Mnemonic for month odd days:** *"3-0-3-2-3-2-3-3-2-3-2-3"* — chant it like a phone number.
+
+---
+
+## Part 6: Finding the Day of Any Date
+
+**Method:** Count total odd days from the reference point, take mod 7, map to the day using the code table (0 = Sunday … 6 = Saturday).
+
+**Example:** What day was 15 August 1947?
+
+- 1600 years → 0 odd days
+- 300 years → **1 odd day**
+- 46 years = 11 leap + 35 ordinary → 11×2 + 35×1 = 57 → 57 mod 7 = **1 odd day**
+- Days in 1947 up to 15 Aug: Jan 31 + Feb 28 + Mar 31 + Apr 30 + May 31 + Jun 30 + Jul 31 + 15 = 227 → 227 mod 7 = **3 odd days**
+- Total = 0 + 1 + 1 + 3 = 5 → code 5 = **Friday** ✔
+
+🧠 **Active Recall:** Close the book and list the odd days for 100, 200, 300, and 400 years. Then check.
+
+---
+
+## Part 7: Quick Calendar Facts Examiners Love
+
+- The calendar **repeats every 400 years**.
+- An ordinary year starts and ends on the **same day** (1 Jan and 31 Dec are the same weekday).
+- A leap year's 31 December is **one day ahead** of its 1 January.
+- The first day of a century can only be **Monday, Tuesday, Thursday, or Saturday** — never Sunday, Wednesday, or Friday.
+- The last day of a century cannot be Tuesday, Thursday, or Saturday.
+
+---
+
+## Summary Table
+
+| Concept | Key Formula / Fact |
+|---|---|
+| Minute hand speed | 6° per minute |
+| Hour hand speed | 0.5° per minute |
+| Relative speed | 5.5° per minute |
+| Angle between hands | \|30H − 5.5M\| |
+| Hands coincide | 11 times in 12 hrs; at (60/11)×H min past H |
+| Right angles | 22 times in 12 hrs |
+| Mirror image | 11:60 − given time |
+| Water image | 17:90 − given time |
+| Odd days: ordinary / leap year | 1 / 2 |
+| Odd days: 100 / 200 / 300 / 400 yrs | 5 / 3 / 1 / 0 |
+| Day codes | 0 = Sunday … 6 = Saturday |
+| Century leap year test | Divisible by 400 |
+
+📌 **Review this chapter after 2 days.** Redo the 15 August 1947 example from memory — if you can do it without peeking, the calendar is yours forever.
+
+---
+
+## ⚠️ Caution: Examiner's Trap
+
+**Trap 1 — The "12 times" illusion.** Questions ask how many times hands coincide or are opposite in 12/24 hours. The tempting answer is 12 (or 24), but the correct answer is **11 in 12 hours (22 in 24)** because between 11 and 1 o'clock the hands coincide only once (at 12:00). Examiners always keep 12 and 24 as options.
+
+**Trap 2 — The century leap-year trap.** "Was 1900 a leap year?" It is divisible by 4, so students say yes — but century years need divisibility by **400**, so 1900 was NOT a leap year. This silently shifts every odd-day calculation by one day.
+
+**Trap 3 — The bigger-angle trick.** The angle formula sometimes gives a value above 180° (e.g., 262.5°). The examiner puts both 262.5° and 97.5° in the options. Unless the question says otherwise, the angle between the hands means the **smaller** angle — subtract from 360°.
+
+**Trap 4 — Confusing mirror and water subtraction bases.** Students mix up 11:60 and 17:90, or subtract from 12:00 directly and get an answer that is one minute off. Fix the mnemonic in memory: *Mirror 11-60, Water 17-90.*

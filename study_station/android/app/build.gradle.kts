@@ -34,12 +34,16 @@ android {
             // Production backend — replace studystation.in with your real domain
             // (same domain used in DEPLOY_VPS.md and the website SITE_URL).
             buildConfigField("String", "API_BASE_URL", "\"https://studystation.in/api/\"")
+            // HTTPS only in release builds
+            manifestPlaceholders["usesCleartextTraffic"] = "false"
         }
         debug {
             isMinifyEnabled = false
             applicationIdSuffix = ".debug"
             // Android emulator's alias for the host machine's localhost
             buildConfigField("String", "API_BASE_URL", "\"http://10.0.2.2:5000/api/\"")
+            // Local Flask dev server is plain http
+            manifestPlaceholders["usesCleartextTraffic"] = "true"
         }
     }
 

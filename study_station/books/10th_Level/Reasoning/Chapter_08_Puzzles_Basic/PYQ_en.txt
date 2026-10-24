@@ -1,63 +1,170 @@
-PYQ Analysis: Puzzles (SSC, Banking, Railway — last 10 years)
+📊 PYQ Analysis: Simple Puzzles
 
-Puzzles give 3–5 questions per exam (often a set on one arrangement). Floor and scheduling puzzles are most common. The trap is guessing before filling definite clues.
+6.1 How Often Do Puzzles Appear? (Pattern Overview)
 
-Q1. A, B, C live on 3 floors. A lives on top, C at the bottom. Who lives on the middle floor?
-(a) A (b) B (c) C (d) none
-Answer: (b) B
-Solution: A on top, C at the bottom, so the only person left, B, is on the middle floor.
-Source: SSC MTS
+We do not have verified year-wise question counts, so instead of numbers, here is the reliable qualitative pattern every aspirant should know:
 
-Q2. P, Q, R, S, T live on floors 1–5. P is on 5, Q on 1, R on 3. S lives above T. On which floor is S?
-(a) 2 (b) 4 (c) 3 (d) 1
-Answer: (b) 4
-Solution: Floors 2 and 4 remain for S and T. S is above T, so S = 4 and T = 2.
-Source: SSC CGL
+- **Banking exams (SBI/IBPS PO & Clerk, RRB Clerk):** Puzzles and seating arrangement together form the single largest block of the Reasoning section — typically several sets of 4–5 linked questions each in prelims, and even more in mains. A candidate who masters puzzles effectively masters bank reasoning.
+- **SSC CGL / CHSL / MTS / GD:** Puzzles appear regularly but in small numbers — usually one short set or 1–3 standalone questions (ranking, direction, simple seating). Difficulty is easy to moderate.
+- **RRB NTPC:** Puzzles and seating arrangement are a consistent part of the reasoning portion, asked as short sets or standalone questions of easy-to-moderate difficulty.
 
-Q3. Five people have birthdays on Monday–Friday (one each). A's is on Monday, and B's is immediately after A's. When is B's birthday?
-(a) Monday (b) Tuesday (c) Wednesday (d) Friday
-Answer: (b) Tuesday
-Solution: Immediately after Monday is Tuesday.
-Source: SSC CHSL
+**Trend insight:** In banking exams, puzzle sets have grown longer and more constraint-heavy over the years (mixed facing, uncertain number of persons, floor + scheduling combinations). SSC and RRB have kept puzzles short and scoring.
 
-Q4. Four boxes W, X, Y, Z are stacked. W is above X, X above Y, Y above Z. Which box is at the bottom?
-(a) W (b) X (c) Y (d) Z
-Answer: (d) Z
-Solution: The order top to bottom is W, X, Y, Z, so Z is at the bottom.
-Source: RRB NTPC
+6.2 Which Sub-Types Matter Most
 
-Q5. While solving a puzzle, which clue should you fill first?
-(a) The negative clue (b) The definite clue (c) The relative clue (d) Any random clue
-Answer: (b) The definite clue
-Solution: Definite clues are certain and fix positions, from which the rest follow.
-Source: NCERT Reasoning
+Based on the recurring pattern across exams (qualitative, not percentage-based):
 
-Q6. Three friends like three colours: red, blue, green. Ram likes red, Mohan likes blue. Shyam does not like blue. What does Shyam like?
-(a) Red (b) Blue (c) Green (d) Cannot say
-Answer: (c) Green
-Solution: Red and blue are taken by Ram and Mohan, so Shyam likes green.
-Source: SSC MTS
+| Sub-Topic | Where It Dominates | Trend |
+|---|---|---|
+| Linear Seating (single/two row) | All exams | Most frequently asked subtype everywhere |
+| Circular Seating (facing centre/outside/mixed) | Banking mainly; occasionally SSC | "Mixed facing" variant rising in Bank PO |
+| Comparison / Ranking puzzles | SSC, RRB NTPC, all exams | Short, quick, high-yield |
+| Floor / Building / Box-stacking puzzles | Banking, RRB | Rising trend in recent years |
+| Scheduling (day/month/year based) | Banking Clerk, PO | Consistent; usually one full set |
+| Direction-Distance mini puzzles | SSC, RRB NTPC | Standalone 1-mark questions |
 
-Q7. On a 5-floor building: A is on 2, B on 4, C on 5, D on 1, E on 3. Who lives immediately above A?
+6.3 Exam-Wise Focus (Qualitative)
+
+| Exam | Role of Puzzles | Typical Difficulty | Key Focus Sub-Types |
+|---|---|---|---|
+| SSC CGL | A few questions per paper | Easy | Linear seating, ranking, direction |
+| SSC MTS / GD | Occasional standalone questions | Easy | Direction-sense, simple ranking |
+| SBI/IBPS PO | Dominant — multiple full sets | Moderate–Hard | Circular (mixed facing), floor, scheduling, uncertain-row |
+| IBPS/RRB Clerk | Dominant — multiple full sets | Moderate | Linear, floor, day-based, comparison |
+| RRB NTPC | Regular short sets | Easy–Moderate | Linear seating, ranking, direction |
+
+**Strategy takeaway:** For banking, puzzles are the make-or-break topic — practise full 5-question sets under time pressure. For SSC/RRB, treat puzzles as quick scoring questions and never let one set eat more than 2 minutes.
+
+6.4 Top 10 High-Yield Questions (With Solutions & Trap Analysis)
+
+**Q1. Linear Seating — "Second to the Left" Trap (PYQ-style)**
+
+Six persons P, Q, R, S, T, U sit in a row facing north. R sits at the extreme right end. P sits second to the left of Q. S sits immediately to the left of P. T sits between Q and R. Who sits at the extreme left end?
+
+(a) P (b) S (c) T (d) U
+
+**Solution:** Positions 1–6 left to right; R = 6. "T between Q and R" forces Q = 4 and T = 5. Then P (second left of Q) = 2, and S (immediate left of P) = 1. U fills 3. Extreme left = **S → (b)**.
+
+**Trap:** Students read "second to the left" as "immediately left" and place P at 3, breaking the whole row. Always count the gap: "second to the left" means one person sits in between.
+
+**Skip Advice:** Do NOT skip — a single-row puzzle with all definite clues is solvable in under 60 seconds.
+
+**Q2. Linear Uncertain-Persons Trap (PYQ-style, Bank pattern)**
+
+A certain number of persons sit in a row facing north. A sits 4th from the left end. B sits 3rd from the right end. Three persons sit between A and B. Only two persons sit to the left of C. How many persons are there in the row?
+
+(a) 9 (b) 10 (c) 11 (d) 12
+
+**Solution:** A is at position 4. B is 3rd from right, i.e., at position n−2. Three persons between A and B means their positions differ by 4: (n−2) − 4 = 4 → n = 10. (C sits at position 3 — consistent with the row.) Answer: **10 → (b)**.
+
+**Trap (Extra Relationship):** The clue about C is inserted after you have already solved for A and B. Students often restart the entire puzzle instead of simply using the row length they already found. This wastes 60–90 seconds on redundant recalculation.
+
+**Skip Advice:** Attempt, but set a hard 90-second limit. If the algebra stalls, mark and move on.
+
+**Q3. Floor-Based Puzzle (PYQ-style, RRB pattern)**
+
+A, B, C, D, E live on 5 floors (1 = bottom, 5 = top). D lives immediately above E. C lives immediately below B. E and C live on even-numbered floors. A does not live immediately below E. Who lives on the top floor?
+
 (a) B (b) C (c) D (d) E
-Answer: (d) E
-Solution: A is on floor 2, so the floor immediately above (floor 3) is E.
-Source: SSC CGL
 
-Q8. In a floor puzzle, "immediately below" means:
-(a) any lower floor (b) the very next lower floor (c) the ground floor (d) two floors down
-Answer: (b) the very next lower floor
-Solution: "Immediately below" refers to the floor directly beneath, not any lower floor.
-Source: NCERT Reasoning
+**Solution:** E and C occupy floors 2 and 4 in some order.
+- Case 1: E = 2, D = 3, C = 4, B = 5 → A = 1. But then A (floor 1) is immediately below E (floor 2) — violates the condition. Rejected.
+- Case 2: E = 4, D = 5, C = 2, B = 3 → A = 1. A is not immediately below E (floors 1 and 4 are far apart) — valid.
+Top floor = **D → (c)**.
 
-Q9. An exam is on Wednesday. What day is 3 days after Wednesday?
-(a) Friday (b) Saturday (c) Sunday (d) Thursday
-Answer: (b) Saturday
-Solution: Thursday, Friday, Saturday — 3 days after Wednesday is Saturday.
-Source: SSC CHSL
+**Trap (Vague "Below"):** "Below" alone does not mean "immediately below." Students who assume it does will wrongly eliminate the correct case. Only trust "immediately" when the word is actually written.
 
-Q10. In a 6-floor building (top = 6), X lives on floor 4. How many people live above X?
+**Skip Advice:** Do NOT skip — a clean two-case puzzle with a definite resolution.
+
+**Q4. Comparison / Ranking Trap (PYQ-style)**
+
+Five friends B, C, D, E, A compare heights. C is taller than only one person. E is neither the tallest nor the shortest. Two persons are taller than A. B is not the tallest. Who is the tallest?
+
+(a) B (b) E (c) A (d) D
+
+**Solution:** "C taller than only one" → C is 4th. "Two persons taller than A" → A is 3rd. E is neither tallest nor shortest → E is 2nd. B is not tallest → B is 5th (shortest), leaving D at the top. Order: D > E > A > C > B. Tallest = **D → (d)**.
+
+**Trap:** The negative clue "B is not the tallest" is placed last deliberately, so you first build a full order and then must retro-fit B. Handle negative clues as hard constraints from the start, not as afterthoughts.
+
+**Skip Advice:** Do NOT skip — 40 seconds, guaranteed marks.
+
+**Q5. Day-Based Scheduling (PYQ-style, Bank Clerk pattern)**
+
+Seven persons K, L, M, N, P, Q and one more take leave on different days from Monday to Sunday. L takes leave on Friday. Only two persons take leave between L and Q. P takes leave one day before M. N takes leave after K but before P. K does not take leave on Monday. Who takes leave on Wednesday?
+
+(a) N (b) Q (c) K (d) P
+
+**Solution:** Number the days Mon = 1 … Sun = 7. L = 5 (Friday). "Two persons between L and Q" means positions differ by 3 → Q = 2 (Tuesday), since 5 + 3 = 8 is invalid. Remaining days: 1, 3, 4, 6, 7. P immediately before M → consecutive pair; the only consecutive pair available is 6–7, so P = 6, M = 7. K < N < P with K ≠ 1 → K = 3, N = 4. Wednesday (day 3) = **K → (c)**.
+
+**Trap ("Between" Misinterpretation):** "Only two persons take leave between L and Q" counts *persons*, not calendar days. Two persons between means a position gap of 3. Misreading this as a 2-day gap collapses the whole arrangement.
+
+**Skip Advice:** Attempt, but if the "between" clue confuses you beyond 60 seconds, mark for review and return.
+
+**Q6. Two-Row Arrangement, Opposite Facing (PYQ-style, SSC pattern)**
+
+Six persons sit in two rows of three. A, B, C sit in Row-1 facing south; D, E, F sit in Row-2 facing north, each directly opposite a Row-1 person. B sits opposite the person who is immediately to the right of E. A sits at an extreme end of Row-1. D does not sit opposite A. Who sits opposite C?
+
+(a) D (b) E (c) F (d) A
+
+**Solution:** Number positions 1–3 from the viewer's left in both rows. A north-facing person's right hand points to the viewer's left. Place E at Row-2 position 2; the person immediately to E's right is at Row-2 position 1. B sits opposite that person → B is at Row-1 position 1. A must be at an extreme end → A = Row-1 position 3, so C = Row-1 position 2. D does not sit opposite A → D is not at Row-2 position 3; E is at 2, so D = Row-2 position 1 and F = Row-2 position 3. Opposite C (Row-1 position 2) = **E → (b)**.
+
+**Trap (Direction Reversal):** A south-facing person's left is the viewer's right; a north-facing person's left is the viewer's left. The examiner counts on you applying the same left-right logic to both rows, producing a mirror-image error. Always fix facing direction *before* reading "left/right" clues.
+
+**Skip Advice:** Do NOT skip if you have practised parallel rows. Skip only if the facing logic forces more than 2 cases.
+
+**Q7. Weight Comparison with Numbers (PYQ-style, RRB pattern)**
+
+P, Q, R, S, T compare their weights. Q is lighter than only S. R is not the lightest. P is heavier than R but lighter than Q. The heaviest person weighs 84 kg. The second lightest person weighs 46 kg. What could be the weight of T?
+
+(a) 48 kg (b) 57 kg (c) 42 kg (d) 82 kg
+
+**Solution:** "Q lighter than only S" → S heaviest, Q second. "P heavier than R but lighter than Q" → Q > P > R. "R not lightest" → T is lightest. Order: S > Q > P > R > T. Second lightest = R = 46 kg, so T < 46 kg. Only option below 46 is **42 kg → (c)**.
+
+**Trap (Quantitative Overlay):** The numbers (84 kg, 46 kg) disguise a pure ranking puzzle. Students switch into "arithmetic mode" and try to compute exact weight ranges, when all that is needed is: T is the lightest, so T < 46.
+
+**Skip Advice:** Do NOT skip — a 30-second puzzle wearing a quantitative costume.
+
+**Q8. Box Stacking Puzzle (PYQ-style, SSC/Bank pattern)**
+
+Seven boxes A to G are kept one above another, numbered 1 (bottom) to 7 (top). G is kept on a perfect-square-numbered position. C is kept three boxes above G. A is kept just below D. E is kept two boxes below A. Neither B nor F is kept adjacent to G. B is kept above F. How many boxes are kept between A and F?
+
 (a) 1 (b) 2 (c) 3 (d) 4
-Answer: (b) 2
-Solution: Floors 5 and 6 are above floor 4, so 2 people live above X.
-Source: RRB Group D
+
+**Solution:** Perfect squares between 1 and 7: 1 and 4. G = 4 (G = 1 fails because C must be three above G and the remaining clues cannot fit). Then C = 7. A just below D with E two below A → D = 6, A = 5, E = 3. Remaining positions 1 and 2: B above F → B = 2, F = 1. Check: B (2) and F (1) are not adjacent to G (4) ✓. Boxes between A (5) and F (1): positions 2, 3, 4 → **3 boxes → (c)**.
+
+**Trap (Perfect Square Distractor):** Many students forget that **1 is a perfect square** and only test 4 — or conversely waste time listing squares beyond 7. Fix the candidate positions first, then test each case quickly.
+
+**Skip Advice:** Attempt with a 45-second rule: if G's position is still undecided after two quick cases, move on.
+
+**Q9. Circular Number-Pattern Puzzle (PYQ-style)**
+
+40 children stand in a circle, numbered 1 to 40. Child-1 holds a ring and passes it clockwise: first 1 place ahead, then 2 places ahead, then 3, and so on (each pass is one place longer than the previous). After how many passes does the ring first return to child-1?
+
+(a) 12 (b) 15 (c) 20 (d) 40
+
+**Solution:** After n passes, the ring has moved a total of 1 + 2 + … + n = n(n+1)/2 places. It returns to child-1 when this total is a multiple of 40. Testing n: n = 15 gives 15 × 16 / 2 = 120 = 3 × 40 ✓ (and no smaller n works). Answer: **15 → (b)**.
+
+**Trap (Pattern Disguise):** This looks like a simple circle game but is really a triangular-number problem. Students start simulating pass by pass, lose count midway, and must restart — a classic time-sink.
+
+**Skip Advice:** SKIP on the first pass (15-second rule). If you spot the triangular-number shortcut n(n+1)/2 ≡ 0 (mod 40), solve it; otherwise return only if time remains.
+
+**Q10. Mixed-Facing Circular Puzzle (Bank PO pattern)**
+
+Eight persons sit around a circular table; some face the centre, some face outside. Clues combine relative positions ("second to the left of…"), facing constraints ("immediate neighbours of E face outside"), and an adjacency rule ("no two persons facing the same direction sit together"). A typical set asks 3–5 linked questions on the final arrangement.
+
+**Approach:** (1) Anchor the person whose facing is given (e.g., E faces centre). (2) Derive neighbours' facing from the adjacency rule before placing anyone else. (3) Fix "opposite" pairs next — they are the strongest positional clues. (4) Only then place "second to the left/right" clues, remembering that left/right reverses for outside-facing persons. Expect 2–3 cases; usually only one survives all constraints.
+
+**Trap (Combination Layering):** The puzzle stacks three difficulty elements — mixed facing, circular positions, and a facing-adjacency rule. Students who handle one or two elements still fail on the third, and options are often drawn from incomplete cases, so a half-solved diagram actively misleads you.
+
+**Skip Advice:** Apply the 45-second rule strictly. If you have not fixed at least 4 positions (with facing) in 45 seconds, skip the entire linked set and return at the end. This is the highest time-risk puzzle type in banking exams.
+
+6.5 Time Rule Review: Which Questions to Skip?
+
+| Skip Rule | When to Apply | Example |
+|---|---|---|
+| 15-Second Rule | Puzzle type unclear or hidden pattern not recognised | Q9 — numerical pattern disguised as a verbal puzzle |
+| 45-Second Rule | More than 2 cases still open; no anchor fixed | Q10 — mixed-facing circular with adjacency rule |
+| Skip If | 3+ interlocking variables; "uncertain number of persons" with no quick equation | Uncertain-row Bank PO sets where the diagram won't stabilise |
+| Never Skip | Simple ranking, basic linear seating, floor puzzles with at most 2 cases | Q4, Q7 (30–40 sec each), Q3, Q1 |
+
+**Golden Strategy:** In banking exams, where puzzles dominate the reasoning section, the attempt-vs-skip decision itself determines whether you clear the cut-off. Solve all easy sets first (ranking, single-row, two-case floor puzzles), then return to moderate ones. Attempt complex mixed-facing circular sets (Q10 type) last — only if time permits. In SSC/RRB, where puzzles are few and easy, never leave them unattempted.

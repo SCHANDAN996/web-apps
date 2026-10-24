@@ -1,0 +1,112 @@
+# 📊 PYQ Analysis — Trigonometry (Advanced Level)
+
+## How Exams Test This Chapter
+
+Trigonometry appears across UPSC CSAT, SSC CGL Tier-II, IBPS PO Mains, CAT and State PCS exams in a remarkably predictable set of patterns. Instead of inventing numbers, here is what repeated analysis of actual papers shows — in words.
+
+**Pattern 1 — Direct value substitution.** Questions like "find the value of sin²60° + cos²30° − tan45°" are the bread and butter of SSC and CSAT. The examiner's trap: mixing angles whose values look similar (30° vs 60°, 45° vs 90°) so that a half-remembered table gives a plausible wrong option.
+
+**Pattern 2 — Identity-based simplification.** Expressions built on sin²θ + cos²θ = 1, 1 + tan²θ = sec²θ, and 1 + cot²θ = cosec²θ. The trap: the expression is designed so that a student who expands everything wastes minutes, while one who spots the identity finishes in seconds. PO Mains and CGL Tier-II love this.
+
+**Pattern 3 — Complementary angle pairs.** sin(90° − θ) = cos θ type conversions, often hidden inside products like tan1°·tan89° or sin20°·cos70°. The trap: the product looks terrifying until you pair terms from both ends.
+
+**Pattern 4 — Heights and distances.** A tower, a ladder, two angles of elevation from points in a line. The trap: the two observation points may be on the *same side* or *opposite sides* of the object — the diagram decides whether you add or subtract. Examiners deliberately word this ambiguously.
+
+**Pattern 5 — Max/min and range questions.** "What is the maximum value of 3sinθ + 4cosθ?" (answer: 5, by the a sinθ + b cosθ ≤ √(a²+b²) rule). CAT and CSAT favour these because they test concept, not memory.
+
+**Pattern 6 — Quadrant and sign logic.** "If sinθ > 0 and cosθ < 0, which quadrant?" The trap: options pair the signs in ways that punish students who memorised the ASTC rule imperfectly.
+
+**Pattern 7 — Equation solving.** Solve 2sin²θ − 3sinθ + 1 = 0 for 0° ≤ θ ≤ 90°. The trap: one root of the quadratic may be invalid (sinθ > 1), and a wrong option includes it.
+
+**Pattern 8 — Compound/double angle in disguise.** sin2θ, cos2θ formulas hidden inside expressions. The trap: cos2θ has *three* forms, and choosing the wrong one doubles your work.
+
+**Pattern 9 — "Nearly true" statements.** CSAT-style: "Statement I: sin60° = √3/2. Statement II: cos60° = √3/2." One statement is subtly wrong (cos60° = 1/2). The trap is confidence — students skim and mark both correct.
+
+**Pattern 10 — Chronology/confusion between similar names.** sin⁻¹ vs (sinθ)⁻¹ vs sin²θ. Examiners exploit notation confusion relentlessly.
+
+---
+
+## Top 10 High-Yield Questions (with Solutions)
+
+**Q1.** Find the value of: sin²60° + cos²30° − tan²45°
+(a) 1/2  (b) 1  (c) 3/2  (d) 0
+**Answer: (a)**
+**Solution:** sin60° = √3/2 ⇒ sin²60° = 3/4. cos30° = √3/2 ⇒ cos²30° = 3/4. tan45° = 1 ⇒ tan²45° = 1. Total = 3/4 + 3/4 − 1 = 1/2.
+**Trap:** Option (c) tempts students who forget to subtract tan²45°. The expression is built so each term individually looks "nice."
+**Source:** PYQ-style (SSC pattern)
+
+**Q2.** If tanθ + cotθ = 2, find tan²θ + cot²θ.
+(a) 4  (b) 2  (c) 1  (d) 0
+**Answer: (b)**
+**Solution:** Square both sides: tan²θ + cot²θ + 2·tanθ·cotθ = 4. Since tanθ·cotθ = 1, we get tan²θ + cot²θ = 4 − 2 = 2.
+**Trap:** Students who don't notice tanθ·cotθ = 1 get stuck expanding. Also, tanθ + cotθ = 2 forces θ = 45°, a shortcut worth seeing.
+**Source:** PYQ-style (Bank/SSC pattern)
+
+**Q3.** Evaluate: tan1° · tan2° · tan3° … tan89°
+(a) 0  (b) 1  (c) √3  (d) undefined
+**Answer: (b)**
+**Solution:** Pair from the ends: tan1°·tan89° = tan1°·cot1° = 1, similarly tan2°·tan88° = 1, … The middle term is tan45° = 1. Product = 1.
+**Trap:** The 89-factor product looks impossible; students who start computing individual values give up. The hook is *pairing*, not computing.
+**Source:** PYQ-style (CSAT/CAT pattern)
+
+**Q4.** From a point on the ground, the angle of elevation of the top of a tower is 30°. On walking 30 m towards the tower, the angle becomes 60°. Find the height of the tower.
+(a) 15 m  (b) 15√3 m  (c) 30√3 m  (d) 30 m
+**Answer: (b)**
+**Solution:** Let height = h, nearer distance = x. Then h/x = tan60° = √3 and h/(x+30) = tan30° = 1/√3. So √3x = (x+30)/√3 ⇒ 3x = x + 30 ⇒ x = 15, h = 15√3 m.
+**Trap:** Option (a) catches students who report x instead of h. Always re-read what is asked.
+**Source:** PYQ-style (SSC/CSAT pattern)
+
+**Q5.** What is the maximum value of 3sinθ + 4cosθ?
+(a) 7  (b) 5  (c) 4  (d) 25
+**Answer: (b)**
+**Solution:** For a sinθ + b cosθ, the maximum is √(a² + b²) = √(9+16) = √25 = 5.
+**Trap:** Option (a) = 3+4 tempts those who think both functions peak together — they can't, since sin and cos peak at different angles. Option (d) is 5², for those who forget the root.
+**Source:** PYQ-style (CAT/CSAT pattern)
+
+**Q6.** If sinθ > 0 and tanθ < 0, in which quadrant does θ lie?
+(a) First  (b) Second  (c) Third  (d) Fourth
+**Answer: (b)**
+**Solution:** sinθ > 0 in quadrants I and II. tanθ < 0 in quadrants II and IV. Intersection: quadrant II.
+**Trap:** Students who check only one condition pick (a) or (d). The question is pure ASTC-rule discipline.
+**Source:** NCERT Class 11 Mathematics
+
+**Q7.** Solve for θ (0° ≤ θ ≤ 90°): 2sin²θ − 3sinθ + 1 = 0
+(a) 30° only  (b) 90° only  (c) 30° or 90°  (d) 45° or 90°
+**Answer: (c)**
+**Solution:** Factor: (2sinθ − 1)(sinθ − 1) = 0 ⇒ sinθ = 1/2 or sinθ = 1 ⇒ θ = 30° or θ = 90°. Both lie in the given range.
+**Trap:** This is a disguised quadratic — treat sinθ as a variable x. Students who try to "eyeball" it usually find only one root.
+**Source:** PYQ-style (CGL Tier-II pattern)
+
+**Q8.** If cos2θ = 1/2 and 0° < θ < 90°, find θ.
+(a) 15°  (b) 30°  (c) 60°  (d) 45°
+**Answer: (b)**
+**Solution:** cos2θ = 1/2 ⇒ 2θ = 60° ⇒ θ = 30°.
+**Trap:** Option (c) is for students who forget the angle is *doubled* — the single most common error with multiple-angle questions.
+**Source:** NCERT Class 11 Mathematics
+
+**Q9.** Simplify: (1 + tan²θ)(1 − sin²θ)
+(a) 1  (b) sec²θ  (c) cos²θ  (d) tan²θ
+**Answer: (a)**
+**Solution:** 1 + tan²θ = sec²θ and 1 − sin²θ = cos²θ. Product = sec²θ · cos²θ = 1.
+**Trap:** Options (b) and (c) are the *individual* factors — the examiner bets you'll stop halfway. Simplify fully before matching options.
+**Source:** PYQ-style (SSC pattern)
+
+**Q10.** The shadow of a pole is equal to its height. The angle of elevation of the sun is:
+(a) 30°  (b) 45°  (c) 60°  (d) 90°
+**Answer: (b)**
+**Solution:** tanθ = height/shadow = 1 ⇒ θ = 45°.
+**Trap:** Looks trivial, but under time pressure students confuse "shadow equal to height" with "shadow √3 times height" (which gives 30°). Read the ratio direction carefully.
+**Source:** PYQ-style (CSAT pattern)
+
+---
+
+## Examiner's Favourite Traps — Summary
+
+1. **Halfway answers:** the correct intermediate value (x, 2θ, one factor) is planted as an option.
+2. **Sign confusion:** quadrant questions where one condition alone gives a wrong answer.
+3. **Invalid roots:** quadratic solutions where sinθ or cosθ exceeds 1 must be rejected.
+4. **Same-side vs opposite-side** observers in heights & distances — add or subtract distances accordingly.
+5. **Notation traps:** sin²θ ≠ sin(θ²); sin⁻¹θ ≠ 1/sinθ.
+6. **Skim-and-mark statements:** CSAT statement questions where one clause is subtly altered (cos60° = √3/2 is wrong).
+
+**Revision cue:** Re-attempt these 10 questions after 2 days without looking at solutions. If Q3, Q5 and Q9 take under 60 seconds each, this chapter is exam-ready.

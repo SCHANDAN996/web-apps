@@ -1,0 +1,79 @@
+Card 1
+Front: What is the basic formula for Simple Interest?
+Back: SI = (P × R × T) / 100, where P = Principal, R = Rate % per annum, T = Time in years.
+
+Card 2
+Front: What is the formula for Amount under Simple Interest?
+Back: Amount = Principal + Simple Interest = P + (P × R × T)/100 = P(1 + RT/100).
+
+Card 3
+Front: How do you find the Principal when SI, Rate and Time are given?
+Back: P = (SI × 100) / (R × T).
+
+Card 4
+Front: How do you find the Rate when SI, Principal and Time are given?
+Back: R = (SI × 100) / (P × T).
+
+Card 5
+Front: How do you find the Time when SI, Principal and Rate are given?
+Back: T = (SI × 100) / (P × R).
+
+Card 6
+Front: What is the key difference between Simple Interest and Compound Interest?
+Back: In SI, interest is calculated only on the original principal every year; in CI, interest is calculated on principal plus accumulated interest.
+
+Card 7
+Front: If a sum doubles in T years at simple interest, what is the rate?
+Back: R = 100/T % per annum. (SI = P, so P = P×R×T/100 → R = 100/T.)
+
+Card 8
+Front: If a sum triples in T years at simple interest, what is the rate?
+Back: R = 200/T % per annum. (SI = 2P, so R = 200/T.)
+
+Card 9
+Front: A sum becomes n times itself in T years at SI. What is the rate?
+Back: R = 100(n − 1)/T % per annum.
+
+Card 10
+Front: What is the mnemonic to remember the SI formula?
+Back: "PRT/100" — remember "PaRTy divided by 100": Principal × Rate × Time, then divide by 100.
+
+Card 11
+Front: What mnemonic helps recall that SI grows linearly while CI grows exponentially?
+Back: "SI is a Straight line, CI is a Curve" — both start with the same letter as their growth shape.
+
+Card 12
+Front: If the rate is R% per annum but time is given in months, what must you do?
+Back: Convert months to years by dividing by 12 before applying SI = PRT/100.
+
+Card 13
+Front: If time is given in days, how is it converted for the SI formula?
+Back: Divide the number of days by 365 (or 366 for a leap year) to get time in years.
+
+Card 14
+Front: A sum doubles in 8 years at SI. In how many years will it become 4 times?
+Back: 24 years. SI grows linearly: doubling needs SI = P (8 yrs), 4× needs SI = 3P (3 × 8 = 24 yrs).
+
+Card 15
+Front: If P is lent at R% for T years and the same P at R% for (T + x) years, what is the difference in SI?
+Back: Difference = (P × R × x)/100 — interest depends linearly on time.
+
+Card 16
+Front: Two sums are lent at the same rate for the same time. How do their simple interests compare?
+Back: The SIs are in the same ratio as their principals (SI ∝ P when R and T are constant).
+
+Card 17
+Front: What is the annual installment formula to repay a debt of ₹D in n equal yearly installments at R% SI?
+Back: Installment = 100D / [100n + R × n(n−1)/2].
+
+Card 18
+Front: If a sum amounts to ₹A₁ in T₁ years and ₹A₂ in T₂ years at SI, how do you find the principal?
+Back: Annual SI = (A₂ − A₁)/(T₂ − T₁); then P = A₁ − (annual SI × T₁).
+
+Card 19
+Front: What is the memory trick for the "n times in T years" rate formula?
+Back: "Extra over 1, times 100, over Time" — R = 100(n − 1)/T. The interest earned is always (n − 1) times the principal.
+
+Card 20
+Front: At what rate will ₹1 earn ₹1 interest in 1 year under SI?
+Back: 100% per annum (since SI = P requires R × T = 100, and T = 1).

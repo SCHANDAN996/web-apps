@@ -1,0 +1,151 @@
+प्रश्न 51–70: आसान | प्रश्न 71–75: मध्यम
+
+51. The LCM of two numbers is 495 and their HCF is 5. If one of the numbers is 45, find the other number.
+(a) 50 (b) 65 (c) 55 (d) 60
+Answer: (c)
+Solution: The tempting wrong option 50 comes from dividing 495 by 45 and then adding 5, which misuses the product rule. Use the rule: product of two numbers = LCM × HCF, so other number = (495 × 5) ÷ 45 = 2475 ÷ 45 = 55. Check: HCF of 45 and 55 is 5 and LCM is 495, so the answer is 55.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+52. Find the least number which when divided by 12, 15, 20 and 27 leaves a remainder of 7 in each case.
+(a) 540 (b) 553 (c) 547 (d) 527
+Answer: (c)
+Solution: The tempting wrong option 540 is just the LCM itself, forgetting the remainder. LCM of 12, 15, 20, 27 = 2² × 3³ × 5 = 540, and the required number = 540 + 7 = 547. So the answer is 547.
+Source: PYQ-style (based on SSC CGL pattern)
+
+53. The HCF of two numbers is 11 and their LCM is 7700. If one number is 275, the other number is:
+(a) 308 (b) 283 (c) 279 (d) 318
+Answer: (a)
+Solution: The tempting wrong option 283 arises from adding 11 to 275 incorrectly instead of using the product rule. Other number = (11 × 7700) ÷ 275 = 84700 ÷ 275 = 308. Verify: 275 = 25 × 11 and 308 = 28 × 11, so HCF = 11 and LCM = 25 × 28 × 11 = 7700, so the answer is 308.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+54. Find the greatest number which divides 285 and 1249 leaving remainders 9 and 7 respectively.
+(a) 46 (b) 276 (c) 92 (d) 138
+Answer: (d)
+Solution: The tempting wrong option 276 comes from taking 285 − 9 = 276 alone without checking the second number. Subtract remainders: 285 − 9 = 276 and 1249 − 7 = 1242; required number = HCF of 276 and 1242. Since 1242 = 276 × 4 + 138 and 276 = 138 × 2, the HCF is 138, so the answer is 138.
+Source: PYQ-style (based on SSC pattern)
+
+55. Three bells ring at intervals of 18, 24 and 32 minutes. If they ring together at 10 a.m., when will they next ring together?
+(a) 1:28 p.m. (b) 2:48 p.m. (c) 4:48 p.m. (d) 12:48 p.m.
+Answer: (b)
+Solution: The tempting wrong option 1:28 p.m. comes from using a wrong LCM of 208 minutes. LCM of 18, 24, 32: since 18 = 2 × 3², 24 = 2³ × 3 and 32 = 2⁵, the LCM = 2⁵ × 3² = 288 minutes = 4 hours 48 minutes. So 10:00 a.m. + 4 h 48 min = 2:48 p.m., and the answer is 2:48 p.m.
+Source: PYQ-style (based on RRB NTPC pattern)
+
+56. The ratio of two numbers is 3 : 4 and their HCF is 4. Their LCM is:
+(a) 12 (b) 48 (c) 16 (d) 24
+Answer: (b)
+Solution: The tempting wrong option 12 is just 3 × 4, ignoring the HCF. The numbers are 3 × 4 = 12 and 4 × 4 = 16, and LCM of 12 and 16 = 48. Equivalently, LCM = 3 × 4 × HCF = 12 × 4 = 48, so the answer is 48.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+57. Find the least number which when divided by 5, 6, 7 and 8 leaves a remainder 3 in each case, but is divisible by 9.
+(a) 1683 (b) 843 (c) 2523 (d) 3363
+Answer: (a)
+Solution: The tempting wrong option 843 is LCM(5, 6, 7, 8) + 3 = 840 + 3 = 843, but 843 is not divisible by 9. The general form is 840k + 3: for k = 1 we get 843 (fails), and for k = 2 we get 1683, and 1683 ÷ 9 = 187 exactly. So the answer is 1683.
+Source: PYQ-style (based on SSC CGL pattern)
+
+58. The HCF and LCM of two numbers are 21 and 4641 respectively. If one of the numbers lies between 200 and 300, the number is:
+(a) 252 (b) 231 (c) 273 (d) 294
+Answer: (c)
+Solution: The tempting wrong option 231 = 21 × 11 fails because 11 does not divide 221. Since 4641 ÷ 21 = 221 = 13 × 17, the coprime factor pairs of 221 are (1, 221) and (13, 17), giving number pairs (21, 4641) and (273, 357). Only 273 lies between 200 and 300, so the answer is 273.
+Source: PYQ-style (based on IBPS pattern)
+
+59. Find the greatest number of four digits which is divisible by 15, 25, 40 and 75.
+(a) 9600 (b) 9000 (c) 9800 (d) 9975
+Answer: (a)
+Solution: The tempting wrong option 9975 is the largest 4-digit multiple of 75 but it is not divisible by 40. LCM of 15, 25, 40, 75 = 2³ × 3 × 5² = 600, and 9999 ÷ 600 = 16.66, so 600 × 16 = 9600. So the answer is 9600.
+Source: PYQ-style (based on SSC pattern)
+
+60. The LCM of two numbers is 48 and the numbers are in the ratio 2 : 3. The sum of the numbers is:
+(a) 28 (b) 40 (c) 64 (d) 32
+Answer: (b)
+Solution: The tempting wrong option 64 comes from taking the numbers as 32 and 48 wrongly. Let the numbers be 2x and 3x; their LCM = 6x = 48, so x = 8, giving 16 and 24. Sum = 16 + 24 = 40, so the answer is 40.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+61. Find the least number which when divided by 16, 18, 20 and 25 leaves remainder 4 in each case, but is divisible by 7.
+(a) 7204 (b) 3604 (c) 14404 (d) 18004
+Answer: (d)
+Solution: The tempting wrong option 3604 = LCM + 4 fails the divisibility-by-7 condition, since 3604 = 7 × 514 + 6. LCM of 16, 18, 20, 25 = 2⁴ × 3² × 5² = 3600, so test numbers of the form 3600k + 4: 3604, 7204, 10804, 14404, 18004. Only 18004 = 7 × 2572 is divisible by 7, so the answer is 18004.
+Source: PYQ-style (based on SSC CGL Tier-II pattern)
+
+62. HCF of 3240, 3600 and a third number N is 36, and their LCM is 2⁴ × 3⁵ × 5² × 7². The number N can be:
+(a) 2⁴ × 3² × 5 × 7 (b) 2³ × 3⁵ × 5² (c) 2² × 3³ × 7² (d) 2 × 3² × 5 × 7²
+Answer: (c)
+Solution: The tempting wrong option 2³ × 3⁵ × 5² contains a factor 5, which would push the HCF above 36. Since 3240 = 2³ × 3⁴ × 5 and 3600 = 2⁴ × 3² × 5², for the final HCF to be 36 = 2² × 3² the number N must have exactly 2², no factor 5, and must supply the 7² needed by the LCM. Only 2² × 3³ × 7² satisfies all these conditions, so the answer is 2² × 3³ × 7².
+Source: PYQ-style (based on CAT pattern)
+
+63. The product of two numbers is 2028 and their HCF is 13. The number of such pairs is:
+(a) 4 (b) 1 (c) 3 (d) 2
+Answer: (d)
+Solution: The tempting wrong option 3 comes from counting all factor pairs of 12 without checking coprimality. Let the numbers be 13a and 13b with HCF(a, b) = 1; then 169ab = 2028, so ab = 12. Coprime pairs are (1, 12) and (3, 4), while (2, 6) is not coprime, so there are 2 pairs and the answer is 2.
+Source: PYQ-style (based on SSC CGL pattern)
+
+64. Find the greatest number that will divide 43, 91 and 183 so as to leave the same remainder in each case.
+(a) 13 (b) 7 (c) 9 (d) 4
+Answer: (d)
+Solution: The tempting wrong option 13 divides some of the differences but not all of them. The required number = HCF of (91 − 43), (183 − 91) and (183 − 43) = HCF of 48, 92 and 140. HCF of 48 and 92 is 4, and HCF of 4 and 140 is 4, so the answer is 4.
+Source: PYQ-style (based on SSC pattern)
+
+65. Six bells commence tolling together and toll at intervals of 2, 4, 6, 8, 10 and 12 seconds. In 30 minutes, how many times do they toll together?
+(a) 16 (b) 4 (c) 15 (d) 10
+Answer: (a)
+Solution: The tempting wrong option 15 forgets to count the tolling at the start (time zero). LCM of 2, 4, 6, 8, 10, 12 = 120 seconds = 2 minutes, so in 30 minutes they toll together at 0, 2, 4, …, 30 minutes, which is (30 ÷ 2) + 1 = 16 times. So the answer is 16.
+Source: PYQ-style (based on RRB pattern)
+
+66. The sum of two numbers is 528 and their HCF is 33. The number of such pairs is:
+(a) 4 (b) 3 (c) 5 (d) 2
+Answer: (a)
+Solution: The tempting wrong option 5 counts all pairs with sum 16 without the coprime condition. Let the numbers be 33a and 33b with HCF(a, b) = 1; then a + b = 528 ÷ 33 = 16. Coprime pairs with sum 16 are (1, 15), (3, 13), (5, 11) and (7, 9) — four pairs, while (2, 14), (4, 12), (6, 10) and (8, 8) are not coprime. So the answer is 4.
+Source: PYQ-style (based on IBPS PO pattern)
+
+67. Find the least multiple of 7 which leaves a remainder of 4 when divided by 6, 9, 15 and 18.
+(a) 94 (b) 184 (c) 274 (d) 364
+Answer: (d)
+Solution: The tempting wrong option 94 = 90 + 4 satisfies the remainder condition but is not divisible by 7. LCM of 6, 9, 15, 18 = 90, so test numbers of the form 90k + 4: 94, 184, 274, 364. The first one divisible by 7 is 364 = 7 × 52, so the answer is 364.
+Source: PYQ-style (based on SSC pattern)
+
+68. The HCF of two numbers is 8. Which one of the following can never be their LCM?
+(a) 24 (b) 48 (c) 60 (d) 56
+Answer: (c)
+Solution: The tempting wrong option 56 looks odd but 56 = 8 × 7, so it is divisible by 8 and possible (numbers 8 and 56). The LCM must always be divisible by the HCF: 24, 48 and 56 are all divisible by 8, but 60 ÷ 8 = 7.5 is not exact. So 60 can never be the LCM, and the answer is 60.
+Source: PYQ-style (based on SSC CGL pattern)
+
+69. Three numbers are in the ratio 1 : 2 : 3 and their HCF is 12. The numbers are:
+(a) 10, 20, 30 (b) 12, 24, 36 (c) 4, 8, 12 (d) 24, 48, 72
+Answer: (b)
+Solution: The tempting wrong option 24, 48, 72 has the right ratio but its HCF is 24, not 12. The numbers are 12 × 1, 12 × 2, 12 × 3 = 12, 24, 36, and HCF of 12, 24, 36 = 12. So the answer is 12, 24, 36.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+70. Find the least number which when diminished by 5 is divisible by each of 21, 28, 36 and 45.
+(a) 1260 (b) 1265 (c) 1255 (d) 1270
+Answer: (b)
+Solution: The tempting wrong option 1260 is the LCM itself, but we need the number that becomes 1260 after subtracting 5. LCM of 21, 28, 36, 45 = 2² × 3² × 5 × 7 = 1260, so the required number = 1260 + 5 = 1265. So the answer is 1265.
+Source: PYQ-style (based on SSC pattern)
+
+71. The LCM of two numbers is 1820 and their HCF is 26. If one number is 130, the other number is:
+(a) 352 (b) 346 (c) 338 (d) 364
+Answer: (d)
+Solution: The tempting wrong option 338 comes from arithmetic slips in the division. Other number = (1820 × 26) ÷ 130 = 47320 ÷ 130 = 364. Verify: 130 = 26 × 5 and 364 = 26 × 14, so HCF = 26 and LCM = 26 × 5 × 14 = 1820, and the answer is 364.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+72. A merchant has three kinds of wine: 403 litres, 434 litres and 465 litres. Find the least number of casks of equal size in which the wine can be filled without mixing.
+(a) 51 (b) 46 (c) 42 (d) 31
+Answer: (c)
+Solution: The tempting wrong option 31 is the size of each cask, not the number of casks. Size of each cask = HCF of 403, 434, 465: since 403 = 13 × 31, 434 = 14 × 31 and 465 = 15 × 31, the HCF is 31. Number of casks = 13 + 14 + 15 = 42, so the answer is 42.
+Source: PYQ-style (based on SSC pattern)
+
+73. The difference of two numbers is 1365. On dividing the larger by the smaller, we get 6 as quotient and 15 as remainder. The HCF of the numbers is:
+(a) 15 (b) 270 (c) 135 (d) 45
+Answer: (a)
+Solution: The tempting wrong option 270 is the smaller number itself, not the HCF. Larger = 6 × smaller + 15 and larger − smaller = 1365, so 5 × smaller + 15 = 1365, giving smaller = 270 and larger = 1635. HCF of 270 and 1635: 1635 = 270 × 6 + 15 and 270 = 15 × 18, so the HCF is 15, and the answer is 15.
+Source: PYQ-style (based on Bank exam pattern)
+
+74. Find the least number which when divided by 35, 45 and 55 leaves remainders 18, 28 and 38 respectively.
+(a) 3465 (b) 3448 (c) 3482 (d) 3445
+Answer: (b)
+Solution: The tempting wrong option 3465 is just the LCM, ignoring the remainders. Note that 35 − 18 = 17, 45 − 28 = 17 and 55 − 38 = 17, a common difference of 17. LCM of 35, 45, 55 = 3465, so the required number = 3465 − 17 = 3448, and the answer is 3448.
+Source: PYQ-style (based on SSC CGL pattern)
+
+75. The product of the HCF and LCM of two numbers is 9072. If one of the numbers is 72, the other number is:
+(a) 126 (b) 108 (c) 144 (d) 168
+Answer: (a)
+Solution: The tempting wrong option 144 comes from dividing 9072 by 63 or similar slips. Product of the numbers = HCF × LCM = 9072, so the other number = 9072 ÷ 72 = 126. Verify: HCF of 72 and 126 is 18, LCM is 504, and 18 × 504 = 9072, so the answer is 126.
+Source: NCERT Class 10 Mathematics (Real Numbers)

@@ -1,3 +1,13 @@
-# Chapter: LCM & HCF, Level: intermediate
-
-@content_agent 'Create a detailed mind map (Mermaid code) for the chapter "LCM & HCF". Show main concepts, sub-concepts, and their interconnections clearly.'
+```mermaid
+graph TD
+    A["ल.स.प. और म.स.प.<br>(LCM & HCF)"] --> B["ल.स.प. (LCM)<br>लघुत्तम समापवर्त्य"]
+    A --> C["म.स.प. (HCF)<br>महत्तम समापवर्तक"]
+    A --> D["गुणज (Multiples)"]
+    A --> E["गुणनखंड (Factors)"]
+    A --> G["अभाज्य संख्याएँ<br>(Prime Numbers)"]
+    B --> F["अभाज्य गुणनखंड विधि<br>(Prime Factorisation)"]
+    C --> F
+    G --> H["100 तक की अभाज्य संख्याएँ:<br>2, 3, 5, 7, 11, 13, 17, 19, 23, 29,<br>31, 37, 41, 43, 47, 53, 59, 61,<br>67, 71, 73, 79, 83, 89, 97"]
+    B --> I["सूत्र: LCM × HCF =<br>पहली संख्या × दूसरी संख्या"]
+    C --> I
+```

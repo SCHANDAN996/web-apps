@@ -1,0 +1,106 @@
+# 📊 PYQ Analysis — Complex Numbers (Advanced Level)
+
+## 1. How Exams Test This Chapter
+
+Complex Numbers is a *concept-dense, formula-light* chapter. Across UPSC CSAT, SSC CGL Tier-II, IBPS PO Mains, CAT and State PCS prelims, the questions cluster around a small set of recurring sub-topics:
+
+- **Algebra of i** — powers of i, simplification of expressions like iⁿ + iⁿ⁺¹.
+- **Modulus and conjugate** — |z|, z·z̄ = |z|², and identities such as |z₁ + z₂|² + |z₁ − z₂|² = 2(|z₁|² + |z₂|²).
+- **Argument and polar form** — converting a + ib to r(cos θ + i sin θ), quadrant traps.
+- **De Moivre's theorem** — (cos θ + i sin θ)ⁿ, powers of complex numbers.
+- **Roots of unity** — 1 + ω + ω² = 0, ω³ = 1, sum/product of n-th roots.
+- **Geometry in the Argand plane** — |z − z₀| = r (circle), |z − z₁| = |z − z₂| (perpendicular bisector), arg(z) = constant (ray).
+- **Quadratic equations with real coefficients** — complex roots occur in conjugate pairs; sum and product from coefficients.
+
+**Where the examiner hides the trap:**
+
+1. *The almost-true statement trap:* "If z₁z₂ = 0 then both z₁ and z₂ are zero" — false, only one needs to be. Statements that are true for real numbers but fail for complex ones (e.g., z² > 0, or comparing two complex numbers with >) are favourite CSAT/PCS statement questions.
+2. *The quadrant trap:* arg(−1 − i) is −3π/4 (or 5π/4), not π/4. Students compute tan⁻¹(1) and stop.
+3. *The ω-trap:* questions on 1 + ω + ω² are trivial if you know the identity, impossible if you try to expand ω = (−1 + i√3)/2 directly.
+4. *The modulus trap:* |z₁ + z₂| ≤ |z₁| + |z₂| — equality holds only when z₁, z₂ have the same argument. Examiners flip the inequality direction in options.
+5. *The "real coefficients" trap:* conjugate-root pairing needs *real* coefficients; with complex coefficients it fails.
+
+**Time advice:** pure i-power and ω questions are 15-second questions — never skip them. Argand-plane geometry questions deserve 45–60 seconds; if a locus question doesn't click in one minute, mark and move on.
+
+---
+
+## 2. Top 10 High-Yield Questions (with Solutions)
+
+**Q1.** If i² = −1, then the value of i⁴ⁿ⁺³ (n a positive integer) is:
+(a) i (b) −i (c) 1 (d) −1
+**Answer: (b)**
+**Solution:** i⁴ⁿ = (i⁴)ⁿ = 1, so i⁴ⁿ⁺³ = i³ = −i.
+**Hook:** Students who don't reduce the exponent modulo 4 try to compute i⁴ⁿ separately and panic. Rule: divide the power by 4, keep the remainder.
+**Source: PYQ-style**
+
+**Q2.** If ω is a complex cube root of unity, then (1 + ω)(1 + ω²) equals:
+(a) 0 (b) 1 (c) −1 (d) ω
+**Answer: (b)**
+**Solution:** (1 + ω)(1 + ω²) = 1 + ω + ω² + ω³ = 0 + 1 = 1, using 1 + ω + ω² = 0 and ω³ = 1.
+**Hook:** Expanding ω = (−1 + i√3)/2 takes 3 minutes; the identity takes 10 seconds. The examiner rewards identity recall, punishes brute force.
+**Source: NCERT Class 11 Mathematics**
+
+**Q3.** The modulus of (3 + 4i)/(4 − 3i) is:
+(a) 1 (b) 5 (c) 1/5 (d) 25
+**Answer: (a)**
+**Solution:** |z₁/z₂| = |z₁|/|z₂| = √(9+16)/√(16+9) = 5/5 = 1.
+**Hook:** Rationalising the denominator is the long road. |z₁/z₂| = |z₁|/|z₂| is the 10-second road — and notice both moduli are equal, so the answer must be 1.
+**Source: PYQ-style**
+
+**Q4.** If z = −1 − i√3, then the principal argument of z is:
+(a) π/3 (b) 2π/3 (c) −2π/3 (d) −π/3
+**Answer: (c)**
+**Solution:** z lies in the third quadrant (real and imaginary parts both negative). tan θ = √3 gives reference angle π/3, so arg z = −π + π/3 = −2π/3.
+**Hook:** The classic quadrant trap. Option (a) tempts everyone who computes tan⁻¹(√3) = π/3 and stops. Always locate the point on the Argand plane first.
+**Source: NCERT Class 11 Mathematics**
+
+**Q5.** If x² + x + 1 = 0, then the value of x³³³ is:
+(a) 0 (b) 1 (c) −1 (d) x
+**Answer: (b)**
+**Solution:** Roots of x² + x + 1 = 0 are ω and ω², and ω³ = 1. Hence x³³³ = (x³)¹¹¹ = 1.
+**Hook:** Disguised ω-question. The examiner never writes ω — he writes the equation x² + x + 1 = 0 and expects you to recognise it. 333 being a multiple of 3 is the giveaway.
+**Source: PYQ-style**
+
+**Q6.** The locus of a point z in the Argand plane satisfying |z − 2| = |z − 2i| is:
+(a) a circle (b) the line y = x (c) the line y = −x (d) an ellipse
+**Answer: (b)**
+**Solution:** |z − 2| = |z − 2i| means z is equidistant from (2, 0) and (0, 2); the locus is the perpendicular bisector of the segment joining them, which is y = x.
+**Hook:** Students who square both sides and expand reach the answer in 2 minutes; students who read the geometry reach it in 10 seconds. |z − a| = |z − b| is *always* a perpendicular bisector.
+**Source: PYQ-style**
+
+**Q7.** If z is a complex number such that z + |z| = 2 + 8i, then |z| equals:
+(a) 68 (b) 17 (c) 10 (d) 8
+**Answer: (b)**
+**Solution:** Let z = x + 8i (imaginary parts must match). Then x + √(x² + 64) = 2, so √(x² + 64) = 2 − x. Squaring: x² + 64 = 4 − 4x + x², giving x = −15. Hence |z| = √(225 + 64) = 17.
+**Hook:** The equation mixes z and |z| — one complex, one real. The key move is comparing imaginary parts first. Squaring can introduce extraneous roots, so verify: −15 + 17 = 2 ✓.
+**Source: PYQ-style**
+
+**Q8.** (cos θ + i sin θ)⁶ + (cos θ − i sin θ)⁶ equals:
+(a) 2 cos 6θ (b) 2 sin 6θ (c) cos 6θ (d) 2 cos⁶θ
+**Answer: (a)**
+**Solution:** By De Moivre, (cos θ ± i sin θ)⁶ = cos 6θ ± i sin 6θ. Adding cancels the sine terms: 2 cos 6θ.
+**Hook:** Option (d) traps students who think (a + b)⁶-style expansion is needed. De Moivre converts a power into a multiple of the angle — that is the entire trick.
+**Source: NCERT Class 11 Mathematics**
+
+**Q9.** If 1, ω, ω² are the cube roots of unity, then (1 − ω + ω²)(1 + ω − ω²) equals:
+(a) 4 (b) −4 (c) 2 (d) 0
+**Answer: (a)**
+**Solution:** Since 1 + ω + ω² = 0, we get 1 + ω² = −ω and 1 + ω = −ω². So (1 − ω + ω²) = −2ω and (1 + ω − ω²) = −2ω². Product = 4ω³ = 4.
+**Hook:** Two identities, two substitutions, done. The trap is expanding all nine terms. Whenever you see 1, ω, ω² mixed with signs, rewrite each bracket using 1 + ω + ω² = 0.
+**Source: PYQ-style**
+
+**Q10.** Statement I: If the quadratic equation ax² + bx + c = 0 (a, b, c real, a ≠ 0) has a complex root 2 + 3i, then its other root is 2 − 3i.
+Statement II: For any two complex numbers z₁, z₂, if z₁ > z₂ then z₁ − z₂ > 0.
+(a) Both statements are true (b) Both are false (c) I true, II false (d) I false, II true
+**Answer: (c)**
+**Solution:** Statement I is true: with real coefficients, complex roots occur in conjugate pairs. Statement II is meaningless: the order relation ">" is not defined for complex numbers.
+**Hook:** The CSAT/PCS favourite — a true statement paired with a statement that *sounds* true because it works for real numbers. Remember: complex numbers cannot be compared with < or >.
+**Source: PYQ-style**
+
+---
+
+## 3. One-Line Revision of the Pattern
+
+Master five identities — i⁴ = 1, z·z̄ = |z|², 1 + ω + ω² = 0, De Moivre, |z − a| = |z − b| ⇒ perpendicular bisector — and you cover the overwhelming majority of what these exams ask from this chapter. Everything else is a quadrant check or a statement-trap about what is *not* true for complex numbers.
+
+🔁 **Revise this analysis again after 2 days, and re-attempt all 10 questions without looking at the solutions.**

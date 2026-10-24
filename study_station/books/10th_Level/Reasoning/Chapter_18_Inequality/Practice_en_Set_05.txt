@@ -1,0 +1,181 @@
+📝 Practice Set 5 (Questions 101–125): Medium (101–120), Hard (121–125) | Total 25 MCQs | ⚠️ marks Examiner's Trap questions
+
+101. Statements: A > B ≥ C = D ≤ E < F
+Conclusions: I. A > D  II. B < F  III. C < F
+(a) Only I follows (b) All follow (c) I and II follow (d) I and III follow
+Answer: (d)
+Solution: The tempting trap is II: B ≥ C = D ≤ E < F reverses direction at D, so no definite relation exists between B and F. But A > B ≥ C = D gives A > D, and C = D ≤ E < F gives C < F, so the answer is that I and III follow.
+Source: PYQ-style
+
+102. In a certain code: 'A @ B' means A ≤ B, 'A # B' means A ≥ B, 'A $ B' means A < B, 'A % B' means A > B, 'A * B' means A = B
+Statements: P @ Q, Q % R, R * S
+Conclusions: I. P % S  II. P * S
+(a) Only II follows (b) Only I follows (c) Neither I nor II follows (d) Either I or II follows
+Answer: (c)
+Solution: Decoded: P ≤ Q > R = S, and the signs reverse at Q, so no definite relation exists between P and S. The trap is choosing 'either-or', but > and = are not complementary because < is missing, so the answer is that neither follows.
+Source: PYQ-style
+
+103. Statements: M > N = O ≥ P; Q = R < P; S ≥ Q
+Conclusions: I. O > S  II. N > R  III. M > Q
+(a) Only I follows (b) I and III follow (c) II and III follow (d) All follow
+Answer: (c)
+Solution: The trap is I: O ≥ P > Q ≤ S reverses at Q, so O and S have no definite relation. But N = O ≥ P > R gives N > R, and M > N = O ≥ P > Q gives M > Q, so the answer is that II and III follow.
+Source: PYQ-style
+
+104. Which set of symbols in 'A _ B _ C _ D' ensures that 'A > C' and 'B ≤ D' are both definitely true?
+(a) >, <, ≤ (b) ≥, >, = (c) >, =, ≤ (d) <, =, ≤
+Answer: (c)
+Solution: With >, =, ≤ we get A > B = C ≤ D, so A > C holds and B = C ≤ D gives B ≤ D. The trap is the first set, where A > B < C breaks the chain between A and C, so the answer is >, =, ≤.
+Source: PYQ-style
+
+105. In a certain code: 'A % B' means A > B, 'A @ B' means A ≥ B, 'A * B' means A = B, 'A # B' means A < B, 'A $ B' means A ≤ B
+Statements: X % Y, Y @ Z, Z % W
+Conclusions: I. X % W  II. X * W
+(a) Neither I nor II follows (b) Only II follows (c) Either I or II follows (d) Only I follows
+Answer: (d)
+Solution: Decoded: X > Y ≥ Z > W, an unbroken chain of > and ≥, so X > W definitely holds and X = W is false. The trap is 'either-or', which needs genuine uncertainty, so the answer is that only I follows.
+Source: PYQ-style
+
+106. Statements: P ≤ Q < R = S; T > S; U ≤ T
+Conclusions: I. P < T  II. R < T  III. S < U
+(a) Only II follows (b) I and II follow (c) II and III follow (d) All follow
+Answer: (b)
+Solution: P ≤ Q < R = S < T gives P < T, and R = S < T gives R < T. The trap is III: S < T and U ≤ T compare both to T but fix no relation between S and U, so the answer is that I and II follow.
+Source: PYQ-style
+
+107. In a certain code: 'A α B' means A > B, 'A β B' means A < B, 'A γ B' means A = B, 'A δ B' means A ≥ B, 'A ε B' means A ≤ B
+Statements: M δ N, N β O, O γ P
+Conclusions: I. M α P  II. M γ P
+(a) Neither I nor II follows (b) Only II follows (c) Only I follows (d) Either I or II follows
+Answer: (a)
+Solution: Decoded: M ≥ N < O = P, and the signs reverse at N, so all three relations between M and P are possible. The trap is 'either-or', but > and = omit < and are not complementary, so the answer is that neither follows.
+Source: PYQ-style
+
+108. Which symbols in 'A _ B _ C _ D' make 'A ≤ D' definitely false and 'B > C' definitely true?
+(a) >, >, = (b) ≤, >, = (c) <, >, ≥ (d) =, >, <
+Answer: (a)
+Solution: With >, >, = we get A > B > C = D, so A > D makes A ≤ D definitely false, and B > C holds directly. The trap is the second set, where A ≤ B already makes A ≤ D possible, so the answer is >, >, =.
+Source: PYQ-style
+
+109. Statements: M ≥ N > O = P; Q ≤ P < R; S > R
+Conclusions: I. M > Q  II. O < S  III. N > R
+(a) I and II follow (b) All follow (c) II and III follow (d) Only I follows
+Answer: (a)
+Solution: M ≥ N > O = P ≥ Q gives M > Q, and O = P < R < S gives O < S. The trap is III: N > O = P < R reverses at P, so N and R are unrelated, so the answer is that I and II follow.
+Source: PYQ-style
+
+110. In a certain code: 'A & B' means A ≤ B, 'A # B' means A ≥ B, 'A $ B' means A < B, 'A % B' means A > B, 'A * B' means A = B
+Statements: X # Y, Y $ Z, Z * W
+Conclusions: I. X % W  II. X * W
+(a) Neither I nor II follows (b) Only I follows (c) Either I or II follows (d) Only II follows
+Answer: (a)
+Solution: Decoded: X ≥ Y < Z = W, and the signs reverse at Y, so all three relations between X and W are possible. The trap is 'either-or', but > and = omit <, so the answer is that neither follows.
+Source: PYQ-style
+
+111. Which expression ensures 'X < Z' is definitely true and 'Y > W' is definitely false?
+(a) X ≤ Y = Z > W (b) X < Y = Z ≤ W (c) X = Y < Z > W (d) X < Y > Z = W
+Answer: (b)
+Solution: With X < Y = Z ≤ W we get X < Z directly, and Y = Z ≤ W gives Y ≤ W, making Y > W definitely false. The trap is the first expression, where X ≤ Y = Z only gives X ≤ Z, not a definite X < Z, so the answer is X < Y = Z ≤ W.
+Source: PYQ-style
+
+112. Statements: A ≥ B > C = D; E < D ≤ F; G > F
+Conclusions: I. A > E  II. C < G  III. B ≤ F
+(a) Only I follows (b) All follow (c) I and II follow (d) II and III follow
+Answer: (c)
+Solution: A ≥ B > C = D > E gives A > E, and C = D ≤ F < G gives C < G. The trap is III: B > C = D ≤ F reverses at D, so B and F have no definite relation, so the answer is that I and II follow.
+Source: PYQ-style
+
+113. In a certain code: 'A ↑ B' means A > B, 'A ↓ B' means A < B, 'A → B' means A ≥ B, 'A ← B' means A ≤ B, 'A ↔ B' means A = B
+Statements: X → Y, Y ↓ Z, Z ↔ W, W ← V
+Conclusions: I. X ↓ V  II. X ↑ V
+(a) Either I or II follows (b) Only II follows (c) Only I follows (d) Neither I nor II follows
+Answer: (d)
+Solution: Decoded: X ≥ Y < Z = W ≤ V, and the signs reverse at Y, so X and V have no definite relation. The trap is 'either-or', but < and > omit = and are not complementary, so the answer is that neither follows.
+Source: PYQ-style
+
+114. Statements: P < Q = R ≤ S; T > S < U; V = U > W
+Conclusions: I. P < T  II. Q < U  III. R ≤ W
+(a) II and III follow (b) Only I follows (c) I and II follow (d) All follow
+Answer: (c)
+Solution: P < Q = R ≤ S < T gives P < T, and Q = R ≤ S < U gives Q < U. The trap is III: R ≤ S < U = V > W reverses at V, so R and W are unrelated, so the answer is that I and II follow.
+Source: PYQ-style
+
+115. In a certain code: 'A @ B' means A ≤ B, 'A # B' means A ≥ B, 'A $ B' means A < B, 'A % B' means A > B, 'A * B' means A = B
+Statements: M # N, N * O, O % P, P @ Q
+Conclusions: I. M % Q  II. M * Q
+(a) Either I or II follows (b) Only I follows (c) Only II follows (d) Neither I nor II follows
+Answer: (d)
+Solution: Decoded: M ≥ N = O > P ≤ Q, and the signs reverse at P, so all three relations between M and Q are possible. The trap is 'either-or', but > and = omit <, so the answer is that neither follows.
+Source: PYQ-style
+
+116. Which symbols in 'A _ B _ C _ D' make 'A > C' definitely true and 'B ≤ D' definitely false?
+(a) >, =, > (b) ≥, >, ≤ (c) =, <, < (d) >, >, <
+Answer: (a)
+Solution: With >, =, > we get A > B = C > D, so A > C holds and B = C > D makes B ≤ D definitely false. The trap is the fourth set, where C < D leaves B versus D undecided, so the answer is >, =, >.
+Source: PYQ-style
+
+117. Statements: A < B = C = D > E; F = G < E; H ≥ G
+Conclusions: I. B > F  II. A < D  III. H ≤ D
+(a) All follow (b) I and II follow (c) I and III follow (d) Only II follows
+Answer: (b)
+Solution: B = D > E > G = F gives B > F, and A < B = D gives A < D. The trap is III: H ≥ G < E < D reverses at G, so H and D have no definite relation, so the answer is that I and II follow.
+Source: PYQ-style
+
+118. In a certain code: 'A © B' means A ≥ B, 'A ® B' means A ≤ B, 'A µ B' means A = B, 'A β B' means A > B, 'A ∑ B' means A < B
+Statements: P β Q, Q µ R, R ® S, S ∑ T
+Conclusions: I. P β T  II. P µ T
+(a) Only I follows (b) Only II follows (c) Either I or II follows (d) Neither I nor II follows
+Answer: (d)
+Solution: Decoded: P > Q = R ≤ S < T, and the signs reverse at Q, so no definite relation exists between P and T. The trap is assuming the chain stays open toward T, so the answer is that neither follows.
+Source: PYQ-style
+
+119. Which symbols in 'X _ Y _ Z _ W' make 'X ≤ Y' definitely false and 'Z > W' definitely true?
+(a) <, <, > (b) >, <, = (c) ≥, >, < (d) >, =, >
+Answer: (d)
+Solution: With >, =, > we get X > Y = Z > W, so X > Y makes X ≤ Y definitely false, and Z > W holds directly. The trap is the third set, where X ≥ Y still allows X = Y, so the answer is >, =, >.
+Source: PYQ-style
+
+120. Statements: A > B ≥ C = D; E < D; F = E; G ≤ F
+Conclusions: I. A > G  II. B > E  III. C = G
+(a) I and II follow (b) None follows (c) II and III follow (d) Only I follows
+Answer: (a)
+Solution: The full chain is A > B ≥ C = D > E = F ≥ G, giving A > G and B > E. The trap is III: the chain gives C > G, not C = G, so the answer is that I and II follow.
+Source: PYQ-style
+
+121. ⚠️ In a certain code: 'A @ B' means A ≥ B, 'A # B' means A ≤ B, 'A $ B' means A < B, 'A % B' means A > B, 'A * B' means A = B
+Statements: P @ Q, Q # R, R % S, S * T, T $ U, V # U
+Conclusions: I. P % T  II. Q $ U
+(a) Only II follows (b) Neither I nor II follows (c) Either I or II follows (d) Only I follows
+Answer: (b)
+Solution: Decoded: P ≥ Q ≤ R > S = T < U. For I the signs reverse at Q, and for II they reverse at R, so both relations are undetermined. The trap is assuming the long chain forces a relation, so the answer is that neither follows.
+Source: PYQ-style
+
+122. ⚠️ Statements: X ≥ Y = Z < W ≤ V; U > V; T ≤ U > S
+Conclusions: I. X < V  II. X = V  III. Y < U  IV. Z > S
+(a) I and III follow (b) Only III follows (c) III and either I or II follow (d) III and IV follow
+Answer: (b)
+Solution: Between X and V the chain X ≥ Y = Z < W ≤ V reverses at Z, so all three relations are possible; I and II omit X > V and are not a complementary pair, which is the trap in the second option. But Y = Z < W ≤ V < U gives Y < U definitely, and Z versus S is undetermined, so the answer is that only III follows.
+Source: PYQ-style
+
+123. ⚠️ In a certain code: 'A % B' means A > B, 'A $ B' means A < B, 'A @ B' means A ≥ B, 'A * B' means A = B, 'A # B' means A ≤ B
+Statements: M % N, N $ O, O @ P, P * Q, Q $ R, R # S
+Conclusions: I. M $ R  II. O % S
+(a) Only II follows (b) Neither I nor II follows (c) Only I follows (d) Either I or II follows
+Answer: (b)
+Solution: Decoded: M > N < O ≥ P = Q < R ≤ S. Between M and R the signs reverse at N, and between O and S they reverse at Q, so both relations are undetermined. The trap is reading the chain as one-directional, so the answer is that neither follows.
+Source: PYQ-style
+
+124. ⚠️ Statements: A ≥ B = C < D ≤ E; F = E > G; H ≤ G
+Conclusions: I. B < F  II. H < E  III. A > D
+(a) I and II follow (b) Only I follows (c) II and III follow (d) All follow
+Answer: (a)
+Solution: B = C < D ≤ E = F gives B < F, and H ≤ G < E gives H < E. The trap is III: A ≥ B = C < D reverses direction at C, so A and D have no definite relation, so the answer is that I and II follow.
+Source: PYQ-style
+
+125. ⚠️ In a certain code: 'A α B' means A > B, 'A β B' means A < B, 'A γ B' means A = B, 'A δ B' means A ≥ B, 'A ε B' means A ≤ B
+Statements: M δ N, N α O, O γ P, P β Q, Q δ R, R ε S
+Conclusions: I. M α Q  II. O β R  III. N γ P  IV. M δ S
+(a) Only I and IV follow (b) Only II follows (c) None follows (d) I, II and IV follow
+Answer: (c)
+Solution: Decoded: M ≥ N > O = P < Q ≥ R ≤ S. I reverses at P, II reverses at Q, IV reverses at P and R, and III claims N = P while the chain gives N > O = P, i.e. N > P. The trap is treating N > P as consistent with N = P, so the answer is that none follows.
+Source: PYQ-style

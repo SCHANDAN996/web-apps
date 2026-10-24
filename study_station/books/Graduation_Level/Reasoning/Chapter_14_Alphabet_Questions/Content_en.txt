@@ -1,0 +1,176 @@
+# Alphabet Questions
+
+## Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Recall the position of any letter (A=1 to Z=26) instantly, from both ends.
+2. Solve "which letter is Nth to the left/right of X" questions in under 15 seconds.
+3. Handle letter-pair counting questions (like "how many pairs in the word EXAMINATION…").
+4. Tackle dictionary-order and word-formation questions confidently.
+5. Spot and avoid the examiner's favourite traps.
+
+---
+
+## The Hook: 26 Letters, Guaranteed Marks
+
+Here is a secret most aspirants never realise: **alphabet questions are the only reasoning questions where the entire syllabus fits on one line** — A B C D E F G H I J K L M N O P Q R S T U V W X Y Z.
+
+No formulas. No current affairs. No exceptions. The examiner can only ask a handful of question types from these 26 letters, and every single one of them becomes mechanical once you know the positions by heart. In SSC CGL, IBPS PO, and RRB NTPC, alphabet questions appear regularly — and students who have memorised positions solve them in 10–15 seconds, while others waste a full minute counting on fingers.
+
+That minute is the difference between attempting 95 questions and attempting 100.
+
+---
+
+## The Common Struggle (And Why It Happens)
+
+Most students know the alphabet — they have known it since childhood. So why do they lose marks here?
+
+Because **knowing the sequence is not the same as knowing the positions**. Ask yourself right now: what is the 19th letter? If you had to count "A, B, C…" in your head, you are like most aspirants. Under exam pressure, finger-counting causes three disasters:
+
+- **Slow counting** → time lost.
+- **Off-by-one errors** → you count S as 19 instead of 19th being S… wait, check: S is the 19th letter — but R is 18, and many students misplace letters near the pillars.
+- **Left-right confusion** → "3rd to the left of M" becomes "3rd to the right" in a hurry.
+
+The fix is not more practice. The fix is **position memory + a standard method**. Let's build both.
+
+---
+
+## Chunk 1: Learn Positions in 5 Minutes (The EJOTY Trick)
+
+Memorise these five anchor letters:
+
+**E – J – O – T – Y = 5 – 10 – 15 – 20 – 25**
+
+Say it as a word: **"EJOTY"**. These are your five pillars. Every other letter is just ±1, ±2, ±3, or ±4 from a pillar.
+
+- Need R? O is 15, so P=16, Q=17, **R=18**.
+- Need W? T is 20, so U=21, V=22, **W=23**.
+- Need H? E is 5, so F=6, G=7, **H=8**.
+
+With EJOTY, no letter is ever more than 4 steps away from a known position.
+
+**Reverse positions (from Z):** Use the formula —
+
+> **Position from right = 27 − Position from left**
+
+So M (13th from left) = 27 − 13 = **14th from right**.
+
+🧠 **Active Recall:** Close the book. What is the position of K? Of V? What is the 12th letter from the right? (Answers: K=11, V=22, 27−12=15 → O)
+
+---
+
+## Chunk 2: Type 1 — "Nth Letter to the Left/Right of X"
+
+This is the most frequent type. The method:
+
+1. Convert X to its position number.
+2. **Left = subtract, Right = add** (in the normal A→Z sequence).
+3. Convert back to a letter.
+
+**Example:** Which letter is 5th to the right of J?
+- J = 10 → 10 + 5 = 15 → **O**.
+
+**Example:** Which letter is 4th to the left of T?
+- T = 20 → 20 − 4 = 16 → **P**.
+
+**Combined version:** "7th to the right of the 6th letter from the left" → 6 + 7 = 13 → **M**. When both references are from the same end, **add** for right, **subtract** for left — and work step by step.
+
+**Opposite-end version:** "5th to the right of the 8th letter from the right" → 8th from right = 27 − 8 = 19 (S) → 19 + 5 = 24 → **X**.
+
+🧠 **Active Recall:** 6th to the left of R? (R=18, 18−6=12 → L). 9th to the right of H? (8+9=17 → Q).
+
+---
+
+## Chunk 3: Type 2 — Middle Letter Between Two Letters
+
+**Method:** Add the two positions, divide by 2.
+
+**Example:** Middle letter between D (4) and N (14)? → (4+14)/2 = 9 → **I**.
+
+⚠️ If the sum is odd, there is **no single middle letter** — the answer is "two middle letters" or the question will ask for one of them. Between E (5) and L (12): (5+12)/2 = 8.5 → middle lies between H (8) and I (9). Examiners love testing whether you notice this.
+
+---
+
+## Chunk 4: Type 3 — Letter Pairs in a Word
+
+**Question pattern:** "How many pairs of letters in the word XYZ have as many letters between them as in the English alphabet?"
+
+**Method:**
+1. Write the position number above each letter of the word.
+2. Check every pair (left-to-right **and** right-to-left, if the question says "in both directions" — read carefully!).
+3. A pair qualifies when the **gap in the alphabet equals the gap in the word** — i.e., the number of letters between the two letters in the alphabet is the same as the number of letters between them in the word.
+
+**Example:** Word = **DREAM** → D(4) R(18) E(5) A(1) M(13).
+- D–E: positions 4 and 5 (adjacent in alphabet, zero letters between); in the word, D and E have R between them — gap doesn't match. ✗
+- D–A: 4 and 1, two letters between in alphabet (B, C); in the word, D…A has R, E between — two letters. ✓
+- Count all such pairs systematically, first letter by first letter.
+
+This type is slow if you guess. It is fast if you write numbers above letters and scan methodically.
+
+🧠 **Active Recall:** In the word "NOTE", do N and O form a valid pair? (N=14, O=15 — adjacent in alphabet AND adjacent in the word → yes, 1 pair.)
+
+---
+
+## Chunk 5: Type 4 — Dictionary Order & Word Formation
+
+**Dictionary order:** Arrange words letter by letter. Compare the first letters; if tied, compare second letters, and so on.
+
+**Example:** Arrange — APPLE, APPLY, APART, APEX.
+- First letters: all A. Second letters: all P. So move to the **third** letters: APPLE→P, APPLY→P, APART→A, APEX→E.
+- Since A < E < P, **APART** comes first, then **APEX**.
+- APPLE vs APPLY: fourth letters L vs L — same; fifth letters E vs Y → **APPLE** before **APPLY**.
+- Final order: **APART, APEX, APPLE, APPLY**.
+
+**Word formation:** "How many meaningful words can be formed from the 2nd, 4th, and 6th letters of MARKET?" → M-A-R-K-E-T gives A, K, T → words like "KAT"? Not standard English; "TAK"? No. Answer often is **one or none** — and "none" is a legitimate answer. Don't force a word that doesn't exist.
+
+---
+
+## Chunk 6: Type 5 — Alphabet Series (A, C, F, J, ?)
+
+Letter series are number series in disguise. **Convert letters to positions first.**
+
+**Example:** A, C, F, J, ?
+→ 1, 3, 6, 10, ? → differences: +2, +3, +4 → next +5 → 15 → **O**.
+
+**Example:** Z, X, U, Q, ?
+→ 26, 24, 21, 17 → differences: −2, −3, −4 → next −5 → 12 → **L**.
+
+🧠 **Active Recall:** B, E, H, K, ? (2, 5, 8, 11 → +3 each → 14 → N.)
+
+---
+
+## Mnemonic Box: Remember It All
+
+- **EJOTY** → 5, 10, 15, 20, 25 (your five pillars).
+- **"Left Less, Right Rise"** → left = subtract, right = add.
+- **"27 minus"** → flip any position to the opposite end.
+- **"Numbers on top, pairs below"** → for pair-counting, always write positions above the word.
+
+---
+
+## Summary Table
+
+| Type | Core Method | Time Target |
+|---|---|---|
+| Position recall | EJOTY pillars | 2–3 sec |
+| Left/Right of a letter | Convert → add/subtract → convert back | 10–15 sec |
+| Middle letter | (p₁ + p₂) ÷ 2; watch for odd sums | 10 sec |
+| Letter pairs in a word | Write positions above letters; check gaps both ways if asked | 40–60 sec |
+| Dictionary order | Compare letter by letter | 20–30 sec |
+| Alphabet series | Convert to numbers, find the pattern | 15–20 sec |
+
+📅 **Review this chapter after 2 days.** Redo the Active Recall questions without looking at the solutions. If EJOTY doesn't come back instantly, rewrite the five pillars ten times — that single habit pays off in every exam.
+
+---
+
+## ⚠️ Caution: Examiner's Trap
+
+**Trap 1 — Multiple plausible relationships in the options.**
+In series and analogy questions, the examiner designs options so that two answers look defensible. Example: A, D, G, ? — you think "+3 → J", but an option like K tempts those who counted A→D as +4. **Always verify the pattern across at least three given terms before choosing.** One matching step proves nothing.
+
+**Trap 2 — Confusing wording designed to flip your direction.**
+"Which letter is 5th to the **left** of the letter which is 3rd to the **right** of M?" — two operations, opposite directions. Students who rush do M+3+5 or M−3−5. Correct: M(13) + 3 = 16 (P), then 16 − 5 = 11 → **K**. Read the question twice; solve it step by step, never in one jump.
+
+**Trap 3 — Double-relationship and "both directions" pair questions.**
+In letter-pair questions, some papers ask for pairs "in the forward direction only" while others say "in either direction" — the counts differ, and both numbers appear in the options. Similarly, in word-formation questions, a letter may be usable in two different words, but the question asks for a word using **all** the given letters **exactly once**. Underline the condition words ("only", "both", "exactly", "meaningful") before you start counting.

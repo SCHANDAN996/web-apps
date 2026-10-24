@@ -1,0 +1,79 @@
+Card 1
+Front: In a row of 40 students, Ravi is 12th from the left. What is his rank from the right — and what one-line formula gives it instantly?
+Back: Rank from right = Total − Rank from left + 1 = 40 − 12 + 1 = 29th. Formula: Right = Total − Left + 1.
+
+Card 2
+Front: Why do we add "+1" when converting a left rank into a right rank?
+Back: Because the person is counted in both positions. Total = Left rank + Right rank − 1, so converting requires the +1 adjustment.
+
+Card 3
+Front: A is 15th from the top and B is 20th from the bottom in a class of 40. How many students sit between them?
+Back: B's rank from top = 40 − 20 + 1 = 21. Students between 15th and 21st = 21 − 15 − 1 = 5.
+
+Card 4
+Front: Mnemonic trick: what does "L + R − 1 = T" help you remember, and how do you rearrange it for any unknown?
+Back: It links Left rank, Right rank and Total. From it: T = L + R − 1; L = T − R + 1; R = T − L + 1. One equation solves every single-row conversion.
+
+Card 5
+Front: In a queue, Mohan is 9th from the front and Sohan is 14th from the back, and they interchange positions. After swapping, Mohan becomes 17th from the front. What is the total number of people?
+Back: After the swap Mohan occupies Sohan's place, which is 17th from front and 14th from back. Total = 17 + 14 − 1 = 30.
+
+Card 6
+Front: Examiner's trap: "A is taller than B, B is taller than C, so A is the tallest." When is this conclusion WRONG?
+Back: When the group has more members than A, B, C — an unmentioned person D could be taller than A. Transitivity only orders the named persons, never the whole group.
+
+Card 7
+Front: In a row of boys facing north, Ram is 8th from the left. If the whole row turns to face south, what happens to Ram's position from the left?
+Back: Facing direction does not change physical positions — Ram is still 8th from the left. Direction matters only when the question defines left/right from the viewer's new perspective.
+
+Card 8
+Front: Mnemonic trick: how does the phrase "Middle = (Total + 1) ÷ 2" help in odd-total ranking questions?
+Back: For an odd number of persons, the exact middle rank is (T + 1)/2. E.g., with 25 students, the middle one is 13th — 12 on each side. Useful for "middle person" puzzles.
+
+Card 9
+Front: In a class, Priya's rank is 7th from the top and 32nd from the bottom. How many students are in the class?
+Back: Total = Top rank + Bottom rank − 1 = 7 + 32 − 1 = 38.
+
+Card 10
+Front: Examiner's trap: "X is 10th from the left and Y is 10th from the right in a row of 20. How many sit between them?" What is the tempting wrong answer and the correct one?
+Back: Tempting wrong answer: 20 − 10 − 10 = 0... actually correct here is 0, but the trap version: with 10th from left and 10th from right in a row of 19, Y is 10th from left too — they coincide, so "between" is meaningless/negative. Always convert both ranks to the same side first; if positions overlap, the count of people between can be zero or the data inconsistent.
+
+Card 11
+Front: Five friends P, Q, R, S, T are ranked by height: P > Q, Q > R, S > P, T > S. Who is the tallest and who is the shortest?
+Back: Chain: T > S > P > Q > R. Tallest = T, shortest = R. Build one chain by linking overlapping pairs.
+
+Card 12
+Front: In a row, A is to the left of B but to the right of C, and D is to the right of B. What is the full order, and which position is fixed?
+Back: Order: C – A – B – D. Every position is fixed: C is 1st, A 2nd, B 3rd, D 4th (from the left).
+
+Card 13
+Front: How do you quickly find the number of persons between two people whose ranks from the same end are m and n (m < n)?
+Back: Persons between = n − m − 1. If ranks are from opposite ends, first convert one rank using Total − rank + 1, then apply the formula.
+
+Card 14
+Front: In an exam, Ashok ranks 18th from the top and 42nd from the bottom among those who passed. 6 students failed and 4 were absent. What is the total class strength?
+Back: Passed = 18 + 42 − 1 = 59. Total = 59 + 6 + 4 = 69. Trap: forgetting to add the failed and absent students.
+
+Card 15
+Front: Mnemonic trick: what does "Same side subtract, opposite sides convert" mean in ranking problems?
+Back: If both ranks are from the same end, subtract directly to find gaps. If ranks are from opposite ends, first convert one rank to the other end using T − rank + 1, then subtract.
+
+Card 16
+Front: Examiner's trap: "Ramesh is 5 ranks ahead of Suresh, who is 12th from the last." Does "ahead" mean toward the front or toward the back — and why do students err?
+Back: "Ahead" means toward the front (better rank). So Ramesh is 12 + 5 = 17th from the last. Students err by subtracting, mixing "ahead in merit" with "ahead in the line from the back."
+
+Card 17
+Front: In a row of 60, Kiran is 25th from the left and Manoj is 30th from the right. How many students are between them?
+Back: Manoj from left = 60 − 30 + 1 = 31. Between 25th and 31st = 31 − 25 − 1 = 5 students.
+
+Card 18
+Front: When a ranking puzzle says "B is exactly between A and C," what two arrangements must you consider before more clues arrive?
+Back: A – B – C or C – B – A. "Between" fixes B's middle position but not which side A and C are on — never assume an order until a direction clue confirms it.
+
+Card 19
+Front: Three persons' ages: A is older than B; C is younger than B; D is older than A. Who is the youngest, and can you determine the second oldest?
+Back: Chain: D > A > B > C. Youngest = C. Second oldest = A — yes, fully determined since the chain is complete.
+
+Card 20
+Front: What is the fastest first step for any "rank from both ends" problem?
+Back: Write T = L + R − 1 immediately, plug in the two known values, and solve for the third. This single equation handles over half of all Order & Ranking questions.

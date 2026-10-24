@@ -1,306 +1,151 @@
-📝 Practice MCQs: Time & Work — Set 6 (Q126–Q150)
-
-Q126. A and B can do a piece of work in 12 days and 15 days respectively. They work together for 4 days, then A leaves. B works for 4 more days and then B also leaves. C alone completes the remaining work in 2 days. In how many days can C alone do the whole work?
-(a) 12 days (b) 15 days (c) 20 days (d) 24 days
-
-Answer: (b) 15 days
-
-Solution:
-Total work = LCM(12, 15) = 60 units. A eff = 5, B eff = 4.
-First 4 days (A+B): (5+4)×4 = 36. Remaining = 24.
-Next 4 days (B alone): 4×4 = 16. Remaining = 8.
-C does 8 units in 2 days → C eff = 4.
-C's time = 60/4 = 15 days.
-Source: SSC CPO PYQ
-
-Q127. A is 20% more efficient than B, and B is 25% more efficient than C. C alone can do a work in 40 days. They all start together, but after 3 days A leaves, and after another 3 days B also leaves. In how many total days will the work be completed?
-(a) 26 days (b) 28 days (c) 30 days (d) 32 days
-
-Answer: (b) 28 days
-
-Solution:
-Efficiency ratio: A:B = 120:100 = 6:5, B:C = 125:100 = 5:4 → A:B:C = 6:5:4.
-C's eff = 4, so total work = 4 × 40 = 160 units. A=6, B=5.
-First 3 days (all): (6+5+4)×3 = 45. Remaining = 115.
-Next 3 days (B+C): (5+4)×3 = 27. Remaining = 88.
-C alone: 88/4 = 22 days. Total = 3+3+22 = 28 days.
-Source: SSC CGL PYQ
-
-Q128. A certain number of men can complete a piece of work in 60 days. If there were 8 more men, the work could be finished in 10 days less. How many men were originally there?
-(a) 32 (b) 36 (c) 40 (d) 44
-
-Answer: (c) 40
-
-Solution:
-Let original men = M. Work = 60M.
-With M+8 men, time = 50 days, work = 50(M+8).
-Equate: 60M = 50(M+8) → 60M = 50M + 400 → 10M = 400 → M = 40.
-Source: SSC CGL PYQ
-
-Q129. The efficiency ratio of A, B and C is 3 : 2 : 1. They undertake a work for ₹2800. A works for the entire duration, B works for 2/3 of the duration, and C works for 1/3 of the duration. What is A's share?
-(a) ₹1500 (b) ₹1800 (c) ₹2000 (d) ₹2100
-
-Answer: (b) ₹1800
-
-Solution:
-Let total duration = T days. Work done: A = 3T, B = 2 × (2T/3) = 4T/3, C = 1 × (T/3) = T/3.
-Work ratio = 3T : 4T/3 : T/3 = 9 : 4 : 1. Total parts = 14.
-A's share = (9/14) × 2800 = ₹1800.
-Source: SSC CGL PYQ
-
-Q130. Pipe A can fill a tank in 8 hours, pipe B in 12 hours. A leak C can empty half the tank in 6 hours. If A and B are opened for 2 hours, then C is also opened. In how many total hours will the tank be full?
-(a) 5⅓ hrs (b) 6 hrs (c) 6⅔ hrs (d) 7½ hrs
-
-Answer: (c) 6⅔ hrs
-
-Solution:
-A's rate = 1/8, B's = 1/12. Combined fill = 1/8 + 1/12 = 5/24 tank/hr.
-In 2 hours, filled = 5/24 × 2 = 5/12 tank. Remaining = 7/12.
-Leak C empties half in 6 hrs → full empty rate = 1/12 per hr.
-Net rate when all three open = 5/24 – 1/12 = 3/24 = 1/8 tank/hr.
-Time to fill remaining 7/12 = (7/12) / (1/8) = 56/12 = 14/3 hrs = 4⅔ hrs.
-Total time = 2 + 4⅔ = 6⅔ hrs.
-Source: SSC CGL PYQ
-
-Q131. 3 men, 2 women and 1 boy can complete a work in 10 days. 2 men, 3 women and 1 boy can complete it in 12 days. 1 man, 2 women and 3 boys can complete it in 15 days. In how many days will 1 man, 1 woman and 1 boy together complete the work?
-(a) 20 days (b) 22 days (c) 24 days (d) 26 days
-
-Answer: (c) 24 days
-
-Solution:
-Total work = LCM(10,12,15) = 60 units.
-(3M+2W+1B) × 10 = 60 → 3M+2W+B = 6 …(i)
-(2M+3W+1B) × 12 = 60 → 2M+3W+B = 5 …(ii)
-(1M+2W+3B) × 15 = 60 → M+2W+3B = 4 …(iii)
-Subtract (ii) from (i): M – W = 1 → M = W+1.
-Subtract (iii) from (ii): M + W – 2B = 1 → (W+1)+W –2B = 1 → 2W –2B = 0 → W = B.
-Put W = B and M = B+1 into (i): 3(B+1)+2B+B = 6 → 3B+3+3B = 6 → 6B = 3 → B=0.5, W=0.5, M=1.5.
-1M+1W+1B = 2.5 units/day. Time = 60/2.5 = 24 days.
-Source: SSC CGL PYQ
-
-Q132. A, B and C can complete a work in 12, 15 and 20 days respectively. They all start together. After 1 day, A leaves. B and C work for 3 more days and then B leaves. In how many total days will the remaining work be completed?
-(a) 12 days (b) 13 days (c) 14 days (d) 15 days
-
-Answer: (b) 13 days
-
-Solution:
-Total work = LCM(12,15,20) = 60 units. Eff: A=5, B=4, C=3.
-Day 1 (all): 5+4+3 = 12. Remaining = 48.
-Next 3 days (B+C): (4+3)×3 = 21. Remaining = 27.
-C alone: 27/3 = 9 days. Total days = 1+3+9 = 13 days.
-Source: SSC CHSL PYQ
-
-Q133. A and B together can do a work in 12 days, B and C in 15 days, C and A in 20 days. They work in a cycle: A alone on first day, B alone on second day, C alone on third day, and then repeating. In how many days will the work be finished?
-(a) 27 days (b) 30 days (c) 33 days (d) 36 days
-
-Answer: (b) 30 days
-
-Solution:
-2(A+B+C) = 1/12+1/15+1/20 = (5+4+3)/60 = 12/60 = 1/5 → A+B+C = 1/10.
-Individual rates: A = 1/10 – 1/15 = 1/30, B = 1/10 – 1/20 = 1/20, C = 1/10 – 1/12 = 1/60.
-Total work = 60 units. A=2, B=3, C=1.
-3-day cycle = 2+3+1 = 6 units. 10 cycles (30 days) = 60 units exactly.
-Source: SSC CPO PYQ
-
-Q134. A and B can do a piece of work in 24 days and 30 days respectively. They start working together. After some days, A leaves. B works alone for 1 day, then C joins B and they complete the remaining work in 5 days. If C alone takes 40 days to do the work, after how many days from the start did A leave?
-(a) 7 days (b) 8 days (c) 9 days (d) 10 days
-
-Answer: (c) 9 days
-
-Solution:
-Total work = LCM(24,30,40) = 120 units. A=5, B=4, C=3.
-Let A worked for x days together with B. Work done together = (5+4)x = 9x.
-B alone 1 day = 4. B+C for 5 days = (4+3)×5 = 35.
-Total work equation: 9x + 4 + 35 = 120 → 9x = 81 → x = 9 days.
-Source: SSC CGL PYQ
-
-Q135. A is 20% more efficient than B. B is 25% more efficient than C. Working together they can finish a work in 15 days. In how many days will A and C together finish the work?
-(a) 20 days (b) 21½ days (c) 22½ days (d) 24 days
-
-Answer: (c) 22½ days
-
-Solution:
-Efficiency A:B = 120:100 = 6:5, B:C = 125:100 = 5:4 → A:B:C = 6:5:4.
-Combined eff = 15. Total work = 15 × 15 = 225 units.
-A+C eff = 6+4 = 10. Time = 225/10 = 22.5 days.
-Source: SSC CGL PYQ
-
-Q136. A certain number of men can complete a piece of work in some days. If 2 men leave, the work takes 8 more days to complete. If 4 men join, the work is completed 4 days earlier. How many men are there initially?
-(a) 3 (b) 4 (c) 5 (d) 6
-
-Answer: (b) 4
-
-Solution:
-Let initial men = M, initial days = D. Work = MD.
-Case 1: (M–2)(D+8) = MD → –2D + 8M – 16 = 0 → 8M – 2D = 16 → 4M – D = 8.
-Case 2: (M+4)(D–4) = MD → 4D – 4M – 16 = 0 → –M + D = 4 → D = M + 4.
-Substitute: 4M – (M+4) = 8 → 3M = 12 → M = 4.
-Source: SSC CGL PYQ
-
-Q137. A, B and C can do a work in 10, 15 and 20 days respectively. They all start together. After 2 days A leaves. B and C continue for 3 more days, then B leaves and C finishes the work. If total wages for the work is ₹2100, what is B's share?
-(a) ₹500 (b) ₹600 (c) ₹700 (d) ₹800
-
-Answer: (c) ₹700
-
-Solution:
-Total work = LCM(10,15,20) = 60 units. A=6, B=4, C=3.
-First 2 days (all): (6+4+3)×2 = 26. Remaining = 34.
-Next 3 days (B+C): (4+3)×3 = 21. Remaining = 13.
-C alone: 13/3 days. B worked total 2+3 = 5 days, work = 4×5 = 20 units.
-C worked 2+3+13/3 = 28/3 days, work = 3×(28/3) = 28 units. A worked 2 days = 12 units.
-Ratio A:B:C = 12:20:28 = 3:5:7. B's share = (5/15)×2100 = ₹700.
-Source: SSC CGL PYQ
-
-Q138. A and B can do a work in 12 days and 15 days respectively. They work together for 4 days, then A leaves. B works alone for 4 days, then A rejoins and they complete the work. For how many days did A work in total?
-(a) 4⅔ days (b) 4⁸⁄₉ days (c) 5⅓ days (d) 5⁵⁄₉ days
-
-Answer: (b) 4⁸⁄₉ days
-
-Solution:
-Total work = LCM(12,15) = 60 units. A=5, B=4.
-First 4 days (A+B): (5+4)×4 = 36. Remaining = 24.
-Next 4 days (B alone): 4×4 = 16. Remaining = 8.
-A rejoins: (A+B) eff = 9, time = 8/9 days.
-A worked = 4 + 8/9 = 4⁸⁄₉ days.
-Source: SSC CHSL PYQ
-
-Q139. Pipes A, B and C can fill a tank in 6 hours, 8 hours and 12 hours respectively. They are opened simultaneously. After 2 hours, B is closed. After another 1 hour, C is also closed. In how many total hours is the tank filled?
-(a) 2½ hrs (b) 3 hrs (c) 3⅓ hrs (d) 4 hrs
-
-Answer: (b) 3 hrs
-
-Solution:
-Rates: A=1/6, B=1/8, C=1/12. Combined first 2 hrs = (1/6+1/8+1/12) = (4+3+2)/24 = 9/24 = 3/8 tank/hr.
-In 2 hrs: 2 × 3/8 = 6/8 = 3/4 tank. Remaining = 1/4.
-Next 1 hr (A+C): rate = 1/6+1/12 = 3/12 = 1/4 tank/hr. Fills exactly 1/4. Tank full in 2+1=3 hrs.
-Source: SSC CGL PYQ
-
-Q140. A and B can do a work in 12 days and 15 days respectively. They work on alternate days, starting with A. After some days, B leaves, and the remaining work is finished by A alone in 3 days. For how many days did they work alternately before B left?
-(a) 8 days (b) 10 days (c) 12 days (d) 14 days
-
-Answer: (b) 10 days
-
-Solution:
-Total work = LCM(12,15) = 60 units. A=5, B=4.
-Alternate days starting A: 2‑day cycle = 5+4 = 9 units.
-Let k cycles (2k days) of alternate work, then A alone 3 days.
-Work done = 9k + 5×3 = 9k+15 = 60 → 9k = 45 → k = 5 cycles.
-Days of alternate work = 2×5 = 10 days.
-Source: SSC CGL PYQ
-
-Q141. A is 25% less efficient than B. C is 20% more efficient than A. Together they can complete a work in 10 days. In how many days will B alone complete the work?
-(a) 25 days (b) 26½ days (c) 28 days (d) 30 days
-
-Answer: (b) 26½ days
-
-Solution:
-A = 0.75 B, C = 1.2 A = 1.2 × 0.75 B = 0.9 B.
-Efficiency ratio A:B:C = 0.75:1:0.9 = 15:20:18. Combined = 53.
-Total work = 53 × 10 = 530. B's time = 530/20 = 26.5 days.
-Source: SSC CGL PYQ
-
-Q142. A and B together can do a piece of work in 12 days. A alone can do it in 24 days. They start together for 4 days, then B leaves. A works alone for 4 days, then C joins A and they finish the remaining work in 6 days. In how many days can C alone do the work?
-(a) 20 days (b) 24 days (c) 28 days (d) 30 days
-
-Answer: (b) 24 days
-
-Solution:
-Work = LCM(12,24) = 24 units. A+B = 2, A=1 → B=1.
-First 4 days (A+B): 2×4 = 8, remaining 16.
-Next 4 days (A alone): 1×4 = 4, remaining 12.
-A+C 6 days: eff = 12/6 = 2. Since A=1, C=1.
-C alone time = 24/1 = 24 days.
-Source: SSC CHSL PYQ
-
-Q143. The efficiency ratio of A and B is 5:4. Together they can complete 2/3 of a work in 8 days. In how many days will A alone complete the full work?
-(a) 20 days (b) 21⅗ days (c) 24 days (d) 25 days
-
-Answer: (b) 21⅗ days
-
-Solution:
-Combined eff = 5+4 = 9. In 8 days, work done = 9×8 = 72 = 2/3 of total.
-Total work = 72 × (3/2) = 108 units. A's eff = 5, time = 108/5 = 21.6 days = 21⅗ days.
-Source: SSC CGL PYQ
-
-Q144. 18 men or 27 women can complete a work in 20 days. In how many days will 12 men and 18 women complete the same work?
-(a) 12 days (b) 15 days (c) 18 days (d) 20 days
-
-Answer: (b) 15 days
-
-Solution:
-18M = 27W → M = 1.5W. Total work = 18M × 20 = 360M = 540W.
-12M+18W = 12×1.5W+18W = 18W+18W = 36W. Time = 540/36 = 15 days.
-Source: SSC CGL PYQ
-
-Q145. A and B can do a piece of work in 30 days, B and C in 12 days, A and C in 15 days. They all start together. After 5 days, A leaves. B and C continue for 3 more days, then B leaves. In how many days will C alone complete the remaining work?
-(a) 3 days (b) 4 days (c) 5 days (d) 6 days
-
-Answer: (c) 5 days
-
-Solution:
-2(A+B+C) = 1/30+1/12+1/15 = (2+5+4)/60 = 11/60 → A+B+C = 11/120.
-Individual: A = 11/120 – 1/12 = 1/120, B = 11/120 – 1/15 = 3/120, C = 11/120 – 1/30 = 7/120.
-Total work = 120 units. A=1, B=3, C=7.
-First 5 days (all): (1+3+7)×5 = 55. Remaining = 65.
-Next 3 days (B+C): (3+7)×3 = 30. Remaining = 35.
-C alone: 35/7 = 5 days.
-Source: SSC CGL PYQ
-
-Q146. A can do a work in 20 days, B in 30 days. They work together for 4 days. Then C, whose efficiency is the average of A and B, joins them. In how many total days will the work be finished?
-(a) 8⅓ days (b) 9 days (c) 9⅓ days (d) 10 days
-
-Answer: (c) 9⅓ days
-
-Solution:
-A=1/20, B=1/30. Combined = 1/20+1/30 = 1/12. In 4 days: 4/12 = 1/3 work. Remaining = 2/3.
-C's eff = (1/20+1/30)/2 = (1/12)/2 = 1/24. All three = 1/12+1/24 = 3/24 = 1/8.
-Time for remaining = (2/3) / (1/8) = 16/3 = 5⅓ days. Total = 4 + 5⅓ = 9⅓ days.
-Source: SSC CGL PYQ
-
-Q147. A and B can do a work in 12 days and 18 days respectively. They work on alternate days, starting with A. On the days B works, he is assisted by C who is half as efficient as B. In how many days will the work be completed?
-(a) 10 days (b) 11 days (c) 12 days (d) 13 days
-
-Answer: (c) 12 days
-
-Solution:
-Total work = LCM(12,18) = 36 units. A=3, B=2. C = half of B = 1.
-Pattern: Day1 (A alone) = 3. Day2 (B+C) = 2+1 = 3. 2‑day cycle = 6.
-6 cycles (12 days) = 36 units exactly.
-Source: SSC CHSL PYQ
-
-Q148. The efficiency ratio of A, B and C is 7 : 5 : 4. They work together to complete a work for ₹8400. A and B work on all days, but C works only on every alternate day. What is C's share?
-(a) ₹1000 (b) ₹1200 (c) ₹1400 (d) ₹1600
-
-Answer: (b) ₹1200
-
-Solution:
-Let total duration be T days (assume T even). Work days: A=T, B=T, C=T/2.
-Work ratio = 7T : 5T : 4×(T/2) = 7 : 5 : 2. Total parts = 14.
-C's share = (2/14) × 8400 = ₹1200.
-Source: SSC CGL PYQ
-
-Q149. A and B together can do a work in 25 days, B and C in 20 days, C and A in 15 days. They work in a cyclic order: A alone on day 1, B alone on day 2, C alone on day 3, repeating. In how many days will the work be completed?
-(a) 36 days (b) 37½ days (c) 38¹²⁄₂₃ days (d) 40 days
-
-Answer: (c) 38¹²⁄₂₃ days
-
-Solution:
-2(A+B+C) = 1/25+1/20+1/15 = (12+15+20)/300 = 47/300 → A+B+C = 47/600.
-Individual: A = 47/600 – 1/20 = 17/600, B = 47/600 – 1/15 = 7/600, C = 47/600 – 1/25 = 23/600.
-Total work = 600 units. A=17, B=7, C=23. 3‑day cycle = 17+7+23 = 47.
-12 full cycles (36 days) = 12×47 = 564. Remaining = 36.
-Day 37 (A): 17 done, remaining 19. Day 38 (B): 7 done, remaining 12. Day 39 (C): 12/23 day.
-Total = 38 + 12/23 = 38¹²⁄₂₃ days.
-Source: SSC CGL PYQ
-
-Q150. A certain number of men can complete a work in 24 days. They start working, but after 10 days, 5 men leave. After another 10 days, 5 more men leave, and the remaining work is completed by the remaining men in the next 10 days. Find the initial number of men.
-(a) 20 (b) 25 (c) 30 (d) 35
-
-Answer: (b) 25
-
-Solution:
-Let initial men = N. Total work = 24N.
-First 10 days: work done = 10N. Remaining = 14N.
-Next 10 days (N–5 men): work done = 10(N–5) = 10N–50. Remaining = 14N – (10N–50) = 4N+50.
-Last 10 days (N–10 men): work = 10(N–10) = 4N+50 → 10N – 100 = 4N + 50 → 6N = 150 → N = 25.
-Source: SSC CGL PYQ
+📝 Practice MCQs: Time & Work — Set 6 (Q126–Q150) | Questions 126–145: Moderate | Questions 146–150: Hard
+
+126. A and B can do a piece of work in 12 days and 15 days respectively. They work together for 4 days, then A leaves. B works for 4 more days and then B also leaves. C alone completes the remaining work in 2 days. In how many days can C alone do the whole work?
+(a) 12 days (b) 15 days (c) 20 days (d) 24 days
+Answer: (b)
+Solution: The trap is to count only the first 4 days of joint work and forget B's extra 4 solo days. Total work = LCM(12, 15) = 60 units, so A does 5 and B does 4 units per day. Joint work = 9 × 4 = 36, then B alone = 4 × 4 = 16, leaving 8 units which C does in 2 days, so C's rate is 4 units per day and C alone needs 60/4 = 15 days.
+Source: PYQ-style
+
+127. A is 20% more efficient than B, and B is 25% more efficient than C. C alone can do a work in 40 days. They all start together, but after 3 days A leaves, and after another 3 days B also leaves. In how many total days will the work be completed?
+(a) 24 days (b) 28 days (c) 30 days (d) 26 days
+Answer: (b)
+Solution: The trap is to merge the two percentage increases into one wrong ratio; correctly A : B = 6 : 5 and B : C = 5 : 4, giving A : B : C = 6 : 5 : 4. Total work = 4 × 40 = 160 units; first 3 days give 15 × 3 = 45, next 3 days give 9 × 3 = 27, leaving 88 units for C alone at 4 per day = 22 days. Total time = 3 + 3 + 22 = 28 days.
+Source: PYQ-style
+
+128. A can do a work in 15 days and B in 20 days. They work together for 5 days, after which A leaves. In how many more days will B finish the remaining work?
+(a) 9 days (b) 7 days (c) 8⅓ days (d) 10 days
+Answer: (c)
+Solution: The trap is to compute the total time instead of only the extra days B needs after A leaves. Total work = LCM(15, 20) = 60 units, A = 4 and B = 3 units per day; in 5 days together they finish 35 units, leaving 25 units. B alone needs 25/3 = 8⅓ more days, so the answer is 8⅓ days.
+Source: PYQ-style
+
+129. The efficiency ratio of A, B and C is 4 : 3 : 2. They complete a work together, all working for the full duration, and receive ₹2700 in total. What is A's share?
+(a) ₹900 (b) ₹1500 (c) ₹1200 (d) ₹1350
+Answer: (c)
+Solution: The trap is to divide ₹2700 equally among the three, ignoring that wages follow work done. Since all work the same number of days, the wage ratio equals the efficiency ratio 4 : 3 : 2, with 9 total parts. A's share = (4/9) × 2700 = ₹1200, so the answer is ₹1200.
+Source: PYQ-style
+
+130. Pipe A can fill a tank in 10 hours and pipe B in 15 hours, while a leak at the bottom can empty the full tank in 30 hours. If all three are opened together, in how many hours will the tank be filled?
+(a) 7½ hours (b) 8 hours (c) 9 hours (d) 6 hours
+Answer: (a)
+Solution: The trap is to add the leak's rate instead of subtracting it, which gives an impossibly small time. Net rate = 1/10 + 1/15 − 1/30 = (3 + 2 − 1)/30 = 4/30 = 2/15 of the tank per hour. Time = 15/2 = 7½ hours, so the answer is 7½ hours.
+Source: PYQ-style
+
+131. 3 men, 2 women and 1 boy can complete a work in 10 days. 2 men, 3 women and 1 boy can complete it in 12 days. 1 man, 2 women and 3 boys can complete it in 15 days. In how many days will 1 man, 1 woman and 1 boy together complete the work?
+(a) 24 days (b) 22 days (c) 20 days (d) 26 days
+Answer: (a)
+Solution: The trap is to assume a man, a woman and a boy are equally efficient. With total work 60 units, the three group rates are 6, 5 and 4 units per day; subtracting pairs of equations gives M = W + 1 and W = B, and solving yields M = 1.5, W = 0.5, B = 0.5. One of each does 2.5 units per day, so the time is 60/2.5 = 24 days.
+Source: PYQ-style
+
+132. A, B and C can complete a work in 10, 12 and 15 days respectively. They all work together for 2 days, after which A leaves. In how many total days will the work be completed?
+(a) 6 days (b) 5 days (c) 5⅓ days (d) 4⅔ days
+Answer: (c)
+Solution: The trap is to report only the time after A leaves and forget the first 2 joint days. Total work = LCM(10, 12, 15) = 60 units, with rates A = 6, B = 5, C = 4; in 2 days all three finish 30 units, leaving 30 units for B and C at 9 per day = 3⅓ days. Total time = 2 + 3⅓ = 5⅓ days, so the answer is 5⅓ days.
+Source: PYQ-style
+
+133. A can do a work in 12 days and B in 16 days. They work on alternate days, starting with A. In how many days will the work be completed?
+(a) 13⅔ days (b) 14 days (c) 13½ days (d) 13⅓ days
+Answer: (a)
+Solution: The trap is to stop after the full 2-day cycles and ignore the leftover fraction of a day. Total work = LCM(12, 16) = 48 units, A = 4 and B = 3 per day, so each 2-day cycle completes 7 units; 6 cycles (12 days) finish 42 units, leaving 6. On day 13 A does 4, leaving 2, which B finishes in 2/3 of day 14, so the total time is 13⅔ days.
+Source: PYQ-style
+
+134. A and B can do a piece of work in 24 days and 30 days respectively. They start working together. After some days, A leaves. B works alone for 1 day, then C joins B and they complete the remaining work in 5 days. If C alone takes 40 days to do the work, after how many days from the start did A leave?
+(a) 7 days (b) 8 days (c) 10 days (d) 9 days
+Answer: (d)
+Solution: The trap is to forget B's single solo day when setting up the equation. Total work = LCM(24, 30, 40) = 120 units, with A = 5, B = 4, C = 3; if A worked x days with B, then 9x + 4 + (4 + 3) × 5 = 120, giving 9x = 81. So A left after 9 days, and the answer is 9 days.
+Source: PYQ-style
+
+135. A is 20% more efficient than B. B is 25% more efficient than C. Working together they can finish a work in 15 days. In how many days will A and C together finish the work?
+(a) 21½ days (b) 20 days (c) 22½ days (d) 24 days
+Answer: (c)
+Solution: The trap is to average the two percentages and get a wrong combined ratio; correctly A : B : C = 6 : 5 : 4. Combined efficiency is 15 units per day, so total work = 15 × 15 = 225 units. A and C together do 10 units per day, needing 225/10 = 22½ days, so the answer is 22½ days.
+Source: PYQ-style
+
+136. A certain number of men can complete a piece of work in some days. If 2 men leave, the work takes 8 more days to complete. If 4 men join, the work is completed 4 days earlier. How many men are there initially?
+(a) 3 (b) 6 (c) 5 (d) 4
+Answer: (d)
+Solution: The trap is to treat the change in days as proportional to the change in men directly. With M men and D days, (M − 2)(D + 8) = MD gives 4M − D = 8, and (M + 4)(D − 4) = MD gives D = M + 4; substituting yields 3M = 12. So the initial number of men is 4.
+Source: PYQ-style
+
+137. A, B and C can do a work in 10, 15 and 20 days respectively. They all start together. After 2 days A leaves. B and C continue for 3 more days, then B leaves and C finishes the work. If the total wage for the work is ₹2100, what is B's share?
+(a) ₹500 (b) ₹700 (c) ₹800 (d) ₹600
+Answer: (b)
+Solution: The trap is to split the wage by days worked instead of by units of work done. Total work = 60 units with rates A = 6, B = 4, C = 3; A works 2 days (12 units), B works 5 days (20 units), and C does the remaining 28 units, giving the ratio 3 : 5 : 7. B's share = (5/15) × 2100 = ₹700, so the answer is ₹700.
+Source: PYQ-style
+
+138. A and B can do a work in 12 days and 15 days respectively. They work together for 4 days, then A leaves. B works alone for 4 days, then A rejoins and they complete the work. For how many days did A work in total?
+(a) 4⁸⁄₉ days (b) 4⅔ days (c) 5⅓ days (d) 5⁵⁄₉ days
+Answer: (a)
+Solution: The trap is to count A's absence period as working time. Total work = 60 units, A = 5, B = 4; the first 4 joint days finish 36 units, B's 4 solo days finish 16, leaving 8 units done jointly in 8/9 of a day. A worked 4 + 8/9 = 4⁸⁄₉ days, so the answer is 4⁸⁄₉ days.
+Source: PYQ-style
+
+139. Pipes A, B and C can fill a tank in 6 hours, 8 hours and 12 hours respectively. They are opened simultaneously. After 2 hours, B is closed. After another 1 hour, C is also closed. In how many total hours is the tank filled?
+(a) 3⅓ hours (b) 2½ hours (c) 3 hours (d) 4 hours
+Answer: (c)
+Solution: The trap is to assume more time is needed after C closes without checking whether the tank is already full. Combined rate of all three is (4 + 3 + 2)/24 = 3/8 per hour, filling 3/4 of the tank in 2 hours; then A and C at 1/4 per hour fill the remaining 1/4 in exactly 1 hour. The tank is full in 3 hours, so the answer is 3 hours.
+Source: PYQ-style
+
+140. A and B can do a work in 12 days and 15 days respectively. They work on alternate days, starting with A. After some days, B leaves, and the remaining work is finished by A alone in 3 days. For how many days did they work alternately before B left?
+(a) 8 days (b) 12 days (c) 10 days (d) 14 days
+Answer: (c)
+Solution: The trap is to count the final 3 solo days of A as part of the alternate period. Total work = 60 units, A = 5, B = 4; each 2-day alternate cycle completes 9 units, and A's last 3 days account for 15 units, so the cycles completed 45 units, i.e. 5 cycles. The alternate work lasted 2 × 5 = 10 days, so the answer is 10 days.
+Source: PYQ-style
+
+141. A is 25% less efficient than B. C is 20% more efficient than A. Together they can complete a work in 10 days. In how many days will B alone complete the work?
+(a) 25 days (b) 30 days (c) 28 days (d) 26½ days
+Answer: (d)
+Solution: The trap is to take C as 20% more efficient than B instead of than A. Taking B = 20 units, A = 15 and C = 18, so the combined rate is 53 units per day and total work = 530 units. B alone needs 530/20 = 26½ days, so the answer is 26½ days.
+Source: PYQ-style
+
+142. A and B together can do a piece of work in 12 days. A alone can do it in 24 days. They start together for 4 days, then B leaves. A works alone for 4 days, then C joins A and they finish the remaining work in 6 days. In how many days can C alone do the work?
+(a) 24 days (b) 28 days (c) 30 days (d) 20 days
+Answer: (a)
+Solution: The trap is to assume C is faster than A because the last stretch finishes quickly. Total work = 24 units, A + B = 2 and A = 1, so B = 1; the first 4 days finish 8 units, A's next 4 days finish 4, leaving 12 units done by A and C in 6 days, so their combined rate is 2 and C's rate is 1. C alone needs 24/1 = 24 days, so the answer is 24 days.
+Source: PYQ-style
+
+143. The efficiency ratio of A and B is 5 : 4. Together they can complete 2/3 of a work in 8 days. In how many days will A alone complete the full work?
+(a) 20 days (b) 21⅗ days (c) 24 days (d) 25 days
+Answer: (b)
+Solution: The trap is to scale 8 days up to the full work (12 days) and hand that to A, forgetting B's contribution. Combined rate is 9 units per day, so 8 days give 72 units = 2/3 of the work, making the total 108 units. A alone at 5 units per day needs 108/5 = 21⅗ days, so the answer is 21⅗ days.
+Source: PYQ-style
+
+144. 18 men or 27 women can complete a work in 20 days. In how many days will 12 men and 18 women complete the same work?
+(a) 12 days (b) 15 days (c) 18 days (d) 20 days
+Answer: (b)
+Solution: The trap is to add 12 and 18 and compare directly with 18 or 27 without converting units. Since 18 men = 27 women, 1 man = 1.5 women, so 12 men + 18 women = 36 women-equivalents against a total of 27 × 20 = 540 woman-days. Time = 540/36 = 15 days, so the answer is 15 days.
+Source: PYQ-style
+
+145. A and B can do a piece of work in 30 days, B and C in 12 days, A and C in 15 days. They all start together. After 5 days, A leaves. B and C continue for 3 more days, then B leaves. In how many days will C alone complete the remaining work?
+(a) 3 days (b) 4 days (c) 6 days (d) 5 days
+Answer: (d)
+Solution: The trap is to use the pair rates directly instead of first extracting individual rates. Adding the pair rates gives 2(A + B + C) = 11/60, so individual rates on 120 units are A = 1, B = 3, C = 7; the first 5 days finish 55 units and the next 3 days finish 30, leaving 35 units. C alone needs 35/7 = 5 days, so the answer is 5 days.
+Source: PYQ-style
+
+146. A can do a work in 20 days, B in 30 days. They work together for 4 days. Then C, whose efficiency is the average of A and B, joins them. In how many total days will the work be finished?
+(a) 8⅓ days (b) 9 days (c) 10 days (d) 9⅓ days
+Answer: (d)
+Solution: The trap is to take C's rate as the sum of A's and B's rates instead of their average. A + B = 1/12 of the work per day, so in 4 days they finish 1/3; C's rate is 1/24, making the triple rate 1/8 per day, and the remaining 2/3 takes 16/3 = 5⅓ days. Total time = 4 + 5⅓ = 9⅓ days, so the answer is 9⅓ days.
+Source: PYQ-style
+
+147. A and B can do a work in 12 days and 18 days respectively. They work on alternate days, starting with A. On the days B works, he is assisted by C who is half as efficient as B. In how many days will the work be completed?
+(a) 10 days (b) 11 days (c) 13 days (d) 12 days
+Answer: (d)
+Solution: The trap is to ignore C and compute the plain alternate-day cycle of A and B. Total work = 36 units, A = 3, B = 2, C = 1; odd days give 3 units and even days give B + C = 3 units, so each 2-day cycle completes 6 units. Six cycles finish all 36 units, so the work is completed in 12 days.
+Source: PYQ-style
+
+148. The efficiency ratio of A, B and C is 7 : 5 : 4. They work together to complete a work for ₹8400. A and B work on all days, but C works only on every alternate day. What is C's share?
+(a) ₹1200 (b) ₹1000 (c) ₹1400 (d) ₹1600
+Answer: (a)
+Solution: The trap is to divide ₹8400 in the ratio 7 : 5 : 4 directly, ignoring that C works only half the days. With total duration T, the work ratio is 7T : 5T : 4 × (T/2) = 7 : 5 : 2, with 14 parts. C's share = (2/14) × 8400 = ₹1200, so the answer is ₹1200.
+Source: PYQ-style
+
+149. A and B together can do a work in 25 days, B and C in 20 days, C and A in 15 days. They work in a cyclic order: A alone on day 1, B alone on day 2, C alone on day 3, repeating. In how many days will the work be completed?
+(a) 38¹²⁄₂₃ days (b) 37½ days (c) 36 days (d) 40 days
+Answer: (a)
+Solution: The trap is to assume the work ends exactly at the close of a 3-day cycle. Adding pair rates gives 2(A + B + C) = 47/300, so on 600 units the rates are A = 17, B = 7, C = 23 and each cycle completes 47 units; 12 cycles (36 days) finish 564, leaving 36, of which A does 17 and B does 7, leaving 12 for C. C needs 12/23 of day 39, so the total time is 38¹²⁄₂₃ days.
+Source: PYQ-style
+
+150. A certain number of men can complete a work in 24 days. They start working, but after 10 days, 5 men leave. After another 10 days, 5 more men leave, and the remaining work is completed by the remaining men in the next 10 days. Find the initial number of men.
+(a) 20 (b) 25 (c) 30 (d) 35
+Answer: (b)
+Solution: The trap is to assume the workforce drops only once instead of in two stages. With N initial men, total work = 24N; the three 10-day phases contribute 10N, 10(N − 5) and 10(N − 10), and setting their sum equal to 24N gives 30N − 150 = 24N, so 6N = 150. The initial number of men is 25, so the answer is 25.
+Source: PYQ-style

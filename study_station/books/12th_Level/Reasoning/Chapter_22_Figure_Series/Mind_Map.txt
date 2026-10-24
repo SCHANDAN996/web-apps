@@ -1,0 +1,35 @@
+```mermaid
+graph TD
+    A["आकृति शृंखला / वर्गीकरण<br>Figure Series / Classification"] --> B["शृंखला<br>Series"]
+    A --> C["वर्गीकरण<br>Classification"]
+    A --> D["रणनीति<br>Strategy"]
+    A --> E["परीक्षक के जाल<br>Examiner Traps"]
+    A --> F["समय प्रबंधन<br>Time Management"]
+
+    B --> B1["घूर्णन<br>Rotation: 45°/90°/135°/180°"]
+    B --> B2["तत्वों की संख्या<br>Number of Elements: +1/−1"]
+    B --> B3["स्थान परिवर्तन<br>Position Shift: कोना/भुजा"]
+    B --> B4["छायांकन / रंग<br>Shading: काला↔सफ़ेद"]
+    B --> B5["तत्व जुड़ना/हटना<br>Addition / Deletion"]
+    B --> B6["दर्पण / जल प्रतिबिंब<br>Mirror / Water Image"]
+    B --> B7["वैकल्पिक पैटर्न<br>Alternate Pattern: 1,3,5 / 2,4,6"]
+
+    C --> C1["विषम आकृति चुनें<br>Odd Figure Out"]
+    C --> C2["समानता का आधार<br>Basis: भुजाएँ, कोण, सममिति"]
+    C --> C3["घूर्णन बनाम प्रतिबिंब<br>Rotation vs Reflection"]
+    C --> C4["खुली / बंद आकृति<br>Open / Closed Figure"]
+
+    D --> D1["पहले दो आकृतियों की तुलना<br>Compare First Two Figures"]
+    D --> D2["एक समय में एक बदलाव<br>Track One Change at a Time"]
+    D --> D3["विकल्पों से मिलान<br>Eliminate Options"]
+    D --> D4["अंतिम आकृति से अगली की कल्पना<br>Predict Next Figure"]
+
+    E --> E1["घड़ी की दिशा उलटना<br>Clockwise ↔ Anti-clockwise"]
+    E --> E2["घूर्णन को प्रतिबिंब समझना<br>Rotation Mistaken for Mirror"]
+    E --> E3["दो बदलाव एक साथ<br>Two Changes Together"]
+    E --> E4["लगभग-समान विकल्प<br>Look-alike Options"]
+
+    F --> F1["आसान: 20–30 सेकंड<br>Easy: 20–30 sec"]
+    F --> F2["कठिन: 45 सेकंड में छोड़ें<br>Skip after 45 sec"]
+    F --> F3["पहले सीधे पैटर्न वाले हल करें<br>Attempt Simple Patterns First"]
+```

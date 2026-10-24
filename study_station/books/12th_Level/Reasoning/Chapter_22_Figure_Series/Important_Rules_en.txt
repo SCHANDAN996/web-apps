@@ -1,0 +1,42 @@
+# Important Rules & Approaches — Figure Series/Classification
+
+## Part 1: Key Rules/Approaches
+
+| Rule Name | Description | Example |
+|---|---|---|
+| Rotation Rule | Check if an element rotates by a fixed angle (45°, 90°, 135°, 180°) clockwise or anticlockwise in each step. | An arrow turns 90° clockwise in every next figure. |
+| Movement Rule | Track an element shifting position — corner to corner, side to side, or along a fixed path. | A dot moves one corner anticlockwise each step. |
+| Addition/Deletion Rule | Elements are added or removed one at a time in a fixed order. | One line is added to the figure in each step. |
+| Number Pattern Rule | Count elements (sides, dots, lines); they often follow +1, −1, ×2, or alternate patterns. | Figures have 3, 4, 5, 6 sides — next has 7. |
+| Position Swap Rule | Two or more elements interchange positions in a set order. | The circle and triangle swap places alternately. |
+| Mirror/Flip Rule | The figure is flipped horizontally or vertically in each step. | A "P" shape becomes its mirror image in the next figure. |
+| Shading Rule | Shaded/unshaded regions shift or alternate in a fixed sequence. | The shaded sector moves one segment clockwise each step. |
+| Size Change Rule | Elements grow, shrink, or alternate in size systematically. | The inner circle gets smaller in each successive figure. |
+| Alternation Rule | Two patterns run alternately (odd-position figures follow one rule, even-position another). | Figures 1, 3, 5 rotate; figures 2, 4, 6 add a line. |
+| Combination Rule | Two or more rules operate together (e.g., rotation + addition). | Arrow rotates 90° while one dot is added each step. |
+| Odd-One-Out Rule (Classification) | Find the property shared by all figures except one — check rotation, symmetry, element count, enclosed regions. | Four figures have a dot inside a closed shape; one has it outside. |
+| Rotation vs. Different Trap | A rotated figure is the SAME figure; only a mirrored or structurally changed figure is different. | A rotated "L" matches the group; a mirrored "L" is the odd one. |
+| Element Count Check (Classification) | Count lines, corners, circles, or regions — the odd figure usually breaks the count pattern. | Four figures have 4 lines; one has 5. |
+| Inner-Outer Relation Rule | Check the relation between inner and outer elements (same shape, touching, number of sides). | Inner shape's sides = outer shape's sides in four figures, not in one. |
+
+## Part 2: Time Management
+
+| Rule | Description |
+|---|---|
+| 15-Second Rule | If the pattern is not clear within 15 seconds, mark the question and move on; return only if time remains. |
+| 45-Second Rule | Never spend more than 45 seconds on any single figure series/classification question, even if the pattern seems close. |
+| First-Glance Scan | In the first 5 seconds, check the most common patterns: rotation, element count, and movement — they cover most questions. |
+| Option-Elimination First | Eliminate clearly wrong options before fully solving; often 2 options can be removed in 10 seconds. |
+| Classification Priority | In odd-one-out questions, check element count and symmetry first — these are the fastest tests. |
+| Skip-and-Return | If two patterns seem possible, pick the simpler one, mark the question, and verify later if time permits. |
+| No Blind Guessing | Attempt only after eliminating at least two options; random guessing costs marks in negative-marking exams. |
+
+## Part 3: Logical/Mathematical Formulas
+
+| Formula | Application |
+|---|---|
+| Next element count = previous count ± k (constant k) | Series where dots/lines/sides increase or decrease uniformly (e.g., 2, 4, 6, 8 → next 10). |
+| Next element count = previous count × k | Doubling/halving patterns (e.g., 1, 2, 4, 8 → next 16). |
+| Rotation position after n steps = (n × angle) mod 360° | Predicting orientation after repeated fixed-angle rotation. |
+| Pattern repeats every LCM of individual cycles | When two elements change at different rates (e.g., one rotates every 2 steps, another every 3 → combined cycle of 6). |
+| No other formulas for this chapter — success depends on pattern observation, not calculation. | — |

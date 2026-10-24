@@ -1,3 +1,55 @@
-# Chapter: Percentage, Level: intermediate
+# The Pizza Shop Mystery — Understanding Percentage Like a 12-Year-Old
 
-@content_agent lang=en level=intermediate role='a teacher like Richard Feynman' 'Explain the hardest concept of Percentage so simply that a 12-year-old can understand. Weave a fun real-life story. Give a trick that they will never forget. End with a question.
+## The Hardest Concept: "Percentage OF" vs "Percentage CHANGE"
+
+## The Story
+
+Ravi's father runs a small pizza shop. One evening Ravi looked at the accounts book and got confused.
+
+"Papa," he said, "yesterday you sold pizzas worth ₹800. Today you sold pizzas worth ₹1,000. The newspaper boy said your sales went up by 25%. But when I calculated 25% of ₹1,000, I got ₹250, and ₹1,000 − ₹250 = ₹750, not ₹800. Something is wrong!"
+
+His father smiled. "Nothing is wrong, beta. You mixed up the two different meanings of percentage. Let me show you."
+
+He drew two boxes on a paper:
+
+**Box 1 — "Percentage OF":** 25% **of** ₹1,000 means take 25 parts out of every 100 parts of ₹1,000.
+25% of 1,000 = (25/100) × 1,000 = ₹250.
+
+**Box 2 — "Percentage CHANGE":** Sales **rose by** 25% means compare the *change* with the *starting* value.
+Change = 1,000 − 800 = ₹200. Starting value = ₹800.
+Percentage change = (200/800) × 100 = 25%.
+
+"See?" said his father. "In Box 1, the base is ₹1,000. In Box 2, the base is ₹800 — the value *before* the change. Same word 'percentage', different base. That is the whole mystery."
+
+Ravi thought for a moment. "So when the question says 'find 20% of 450', the base is 450. But when it says 'a price increased from 450 to 540, find the percentage increase', the base is the *old* value, 450?"
+
+"Exactly," said his father. "Always ask one question first: **percentage of WHAT?** Find the base, and the problem is half solved."
+
+## The Trick
+
+Before solving any percentage question, write down:
+
+1. **What is the base?** (the number after "of", or the *original/old* value in a change question)
+2. **Which type is it?**
+   - "x% of y" → answer = (x/100) × y
+   - "x% change from old to new" → answer = (change/old) × 100, where change = new − old
+
+**Quick check:** If a value rises from 80 to 100, the increase is (20/80) × 100 = 25%. But if it falls back from 100 to 80, the decrease is (20/100) × 100 = 20%. Same ₹20 change, different percentages — because the base changed. This is why a 25% rise followed by a 25% fall does **not** bring you back to the start.
+
+## Try It Yourself
+
+1. Find 15% of 240.
+   → (15/100) × 240 = **36**
+
+2. A shirt's price rose from ₹500 to ₹575. Find the percentage increase.
+   → Change = 75, base = 500 → (75/500) × 100 = **15%**
+
+3. A number decreased from 200 to 170. Find the percentage decrease.
+   → Change = 30, base = 200 → (30/200) × 100 = **15%**
+
+4. Population of a village was 2,000 last year and is 2,200 this year. Find the percentage increase.
+   → (200/2,000) × 100 = **10%**
+
+## The One-Line Lesson
+
+**Percentage is always "of" something — find the base first, and the rest is just multiply and divide.**

@@ -1,0 +1,30 @@
+```mermaid
+graph TD
+    A["पर्यायवाची<br>Synonyms"] --> B["अवधारणा<br>Concept"]
+    A --> C["मूल शब्द रणनीति<br>Root Strategy"]
+    A --> D["परीक्षक के जाल<br>Examiner Traps"]
+    A --> E["रणनीतियाँ<br>Strategies"]
+
+    B --> B1["समान अर्थ वाले शब्द<br>Words with similar meaning"]
+    B --> B2["सटीक अर्थ नहीं, निकटतम अर्थ<br>Nearest meaning, not exact"]
+    B --> B3["संदर्भ से अर्थ तय<br>Context decides meaning"]
+
+    C --> C1["bene = अच्छा<br>benefit, benevolent"]
+    C --> C2["mal = बुरा<br>malice, malignant"]
+    C --> C3["dict = बोलना<br>predict, dictate"]
+    C --> C4["port = ले जाना<br>transport, export"]
+    C --> C5["cred = विश्वास<br>credible, credit"]
+
+    D --> D1["ध्वनि-समान जाल<br>Sound-alike trap<br>accept vs expect"]
+    D --> D2["आंशिक अर्थ जाल<br>Partial meaning trap<br>happy ≠ wealthy"]
+    D --> D3["विलोम में भ्रम<br>Antonym confusion<br>प्रश्न ध्यान से पढ़ें"]
+    D --> D4["अपरिचित शब्द = डर<br>Unknown word fear<br>Root से तोड़ें"]
+
+    E --> E1["15 सेकंड नियम<br>परिचित शब्द = तुरंत उत्तर"]
+    E --> E2["45 सेकंड नियम<br>वाक्य-संदर्भ वाले प्रश्न"]
+    E --> E3["विकल्प हटाओ विधि<br>Elimination Method"]
+    E --> E4["Skip Strategy<br>बिल्कुल अज्ञात शब्द = छोड़ें<br>बाद में लौटें"]
+
+    C1 --> F["दैनिक अभ्यास<br>10 नए शब्द + मूल शब्द"]
+    E3 --> F
+```

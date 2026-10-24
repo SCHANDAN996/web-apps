@@ -1,0 +1,48 @@
+# 🧒 The Feynman Way — Puzzles (Intermediate)
+
+## The Hardest Part, Explained Like You're 12
+
+The toughest thing in puzzle questions is not logic — it's **knowing where to start**. You get 6 people, 6 cities, 6 colours, 6 days... and your brain freezes. Let me tell you a story.
+
+## The Birthday Party Mystery 🎂
+
+Imagine you're a detective. Riya's birthday cake has vanished, and 5 friends were in the house: Aman, Bina, Chintu, Diya, and Esha. You get clues:
+
+- "The thief is taller than Bina."
+- "Chintu was in the garden when it happened."
+- "The thief sat next to Diya at lunch."
+- "Aman and the thief are never in the same room."
+
+Most students read all clues, panic, and start guessing. A detective does something smarter: **he draws a table and hunts for the clue that kills the most suspects at once.**
+
+"Chintu was in the garden" — Chintu is OUT. ✅
+"The thief sat next to Diya" — Diya can't sit next to herself, so Diya is OUT. ✅
+"Aman and the thief are never in the same room" — Aman is OUT. ✅
+
+Three clues, three people eliminated. Only Bina and Esha remain. Now "the thief is taller than Bina" — the thief can't be taller than herself, so Bina is OUT. **Esha ate the cake!** 🍰
+
+Notice what happened: we never needed to *prove* who did it. We just kept **eliminating** until only one name survived. That is the entire soul of puzzle solving.
+
+## The One Golden Habit: The Grid
+
+Every seating arrangement, every scheduling puzzle, every "who likes which colour" question is the birthday mystery in disguise. The method never changes:
+
+1. **Draw the skeleton first** — a row of 7 boxes for 7 days, a circle for a round table, a table of Person × City.
+2. **Fix the "anchor" clue** — the one definite statement ("P sits at the extreme left"). Never start with a "maybe" clue.
+3. **Park the "maybe" clues** — write them on the side ("Q is somewhere left of R") and use them only after anchors are placed.
+4. **Eliminate, don't confirm** — every clue should *remove* possibilities. When only one box remains for a person, it's theirs.
+5. **Case split when stuck** — if "M sits 2nd or 4th", draw both mini-diagrams. One will die on its own within two clues.
+
+## The Unforgettable Trick: **"Dead Men Tell No Tales" 💀**
+
+Whenever a clue says "X is **not** next to Y" or "X does **not** like red" — don't groan. Celebrate! Negative clues are your dead suspects. Each one shrinks the board. Train yourself to read a puzzle asking: *"Which clue eliminates the most?"* — and attack that one first, even if it's the last line of the question.
+
+And remember the trap: **"between" does not mean "immediately between"**, and "A is to the left of B" does **not** mean "immediately left". The examiner's favourite trick is making you assume closeness that was never stated. When in doubt, leave gaps.
+
+## 📝 Blurting Sheet
+
+Now try to write down all key points of this chapter on a blank sheet without looking up — the grid method, anchor clues, parking "maybe" clues, elimination, case splitting, and the "left of ≠ immediately left of" trap. Then check what you missed and blurt again.
+
+## One Question For You 🤔
+
+Five friends — P, Q, R, S, T — sit in a row facing north. P is at one end. Q is not next to P. R sits exactly in the middle. Without drawing anything yet, can you tell me **which clue you would place first, and why**?

@@ -1,0 +1,39 @@
+We need to produce a clean table with three parts as described. The user says: "List all important rules, approaches, time management tips, and logical formulas (if any) for Mathematical Operations in a clean table. Instructions:
+
+Table has three parts:
+
+"Key Rules/Approaches" – Rule Name | Description | Example
+
+"Time Management" – 15-second and 45-second rule (e.g., "If pattern not understood in 15 sec, skip").
+
+"Logical/Mathematical Formulas" – if applicable; otherwise "No formulas for this chapter".
+
+No explanation, just tabular data.
+
+Keep language simple and precise."
+
+We need to respond with the table. Since the language of the chapter might be bilingual, but the instruction is English for this section? The user wrote "lang=en". So we'll output in English. We'll generate a table with three parts. The content should cover rules for Mathematical Operations (symbol substitution, sign interchange, BODMAS, etc.). Provide examples in the table. Also time management: 15-second rule and 45-second rule. And then formulas: since it's verbal reasoning, likely there are no fixed formulas, so "No mathematical formulas for this chapter; it’s based on logical replacement and BODMAS." but the instruction says "otherwise 'No formulas for this chapter'". So we'll put that.
+
+We'll structure it as a table. Might be better to present as three separate tables or one combined. The prompt says "Table has three parts". We'll make a table with sections. Could use markdown tables. I'll produce a single table with headings for the three parts. But that might be messy. I'll create three separate sub-tables within one section. But the user might want a single table with these parts. I'll do something like:
+
+📋 Important Rules & Approaches | गणितीय संक्रियाएँ
+1. Key Rules/Approaches
+Rule Name	Description	Example
+...	...	...
+2. Time Management
+Rule	Description
+15-Second Rule	...
+45-Second Rule	...
+3. Logical/Mathematical Formulas
+
+No mathematical formulas for this chapter; it relies on logical substitution, sign interchange, and BODMAS application.
+
+I need to output only the table content, no explanation. The user says "No explanation, just tabular data." So I'll just provide the tables. Maybe combine into one overall table? It's tricky. I'll output as plain text with simple markdown tables.
+
+I'll need to list important rules: Symbol Substitution (RDB), Sign Interchange (option testing), BODMAS adherence, Double-relation mapping (decode first). For examples, I'll provide quick ones.
+
+For time management: 15-second rule - if you can't identify the type of operation (substitution, interchange) and start replacing signs within 15 seconds, skip and mark for review. 45-second rule - if you're stuck in calculation or can't find the correct option after testing two options, move on. That's typical.
+
+I'll craft the response accordingly.
+
+Let's generate the final

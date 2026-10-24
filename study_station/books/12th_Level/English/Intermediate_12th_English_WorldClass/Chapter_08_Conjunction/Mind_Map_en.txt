@@ -1,0 +1,45 @@
+```mermaid
+graph TD
+    A["Conjunction<br>Joining Words"] --> B["Coordinating<br>FANBOYS"]
+    A --> C["Subordinating"]
+    A --> D["Correlative<br>Pairs"]
+    A --> E["Conjunctive Adverbs"]
+
+    B --> B1["For, And, Nor,<br>But, Or, Yet, So"]
+    B --> B2["Join EQUAL parts<br>word + word, clause + clause"]
+    B --> B3["Trap: comma before FANBOYS<br>only between two clauses"]
+
+    C --> C1["Time: when, while, until,<br>since, before, after"]
+    C --> C2["Reason: because, since, as"]
+    C --> C3["Condition: if, unless,<br>provided that, in case"]
+    C --> C4["Contrast: although, though,<br>even though, whereas"]
+    C --> C5["Purpose: so that, in order that"]
+    C --> C6["Rule: subordinate clause + main clause<br>= complex sentence"]
+
+    D --> D1["Either...or / Neither...nor"]
+    D --> D2["Both...and / Not only...but also"]
+    D --> D3["Whether...or / No sooner...than"]
+    D --> D4["Hardly/Scarcely...when"]
+    D --> D5["Rule: pair must be PARALLEL<br>same structure after each part"]
+    D --> D6["Trap: Neither...or ❌<br>Neither...nor ✔️"]
+
+    E --> E1["however, therefore,<br>moreover, nevertheless"]
+    E --> E2["Rule: semicolon before,<br>comma after"]
+
+    A --> F["12 Golden Rules"]
+    F --> F1["No double conjunction:<br>Although...but ❌"]
+    F --> F2["Since = time/reason,<br>not with 'ago'"]
+    F --> F3["Unless = if...not<br>never 'unless...not'"]
+    F --> F4["Until = time, Till = time,<br>not for distance"]
+    F --> F5["That after said/told,<br>not after asked (use if/whether)"]
+
+    A --> G["Examiner Traps"]
+    G --> G1["Sound-Right: 'Because...so' ❌"]
+    G --> G2["Broken pairs: 'Not only...and' ❌"]
+    G --> G3["Over-thinking: simple FANBOYS<br>made to look complex"]
+
+    A --> H["Strategy"]
+    H --> H1["15-sec: spot the pair,<br>check parallelism"]
+    H --> H2["45-sec: meaning-based<br>reason vs contrast vs condition"]
+    H --> H3["Read both clauses first,<br>then choose the linker"]
+```

@@ -1,0 +1,43 @@
+{% extends 'admin/base.html' %}
+{% block title %}Question {{ q.id }}{% endblock %}
+{% block main %}
+{% set queue = request.query_params.get('queue', 'reported') %}
+<p class="small"><a href="/admin/questions?queue={{ queue }}">← Back to queue</a></p>
+<h1>Question #{{ q.id }} <span class="badge">{{ q.review_status }}</span> <span class="badge">{{ q.source_type }}</span></h1>
+{% if q.review_note %}<div class="notice">Note: {{ q.review_note }}</div>{% endif %}
+{% if reports %}
+<section class="card" style="margin:var(--sp-4) 0">
+  <h2>Student reports</h2>
+  <ul class="list">{% for r in reports %}<li class="list-item"><span class="grow"><b>{{ r.reason }}</b> — {{ r.note or '—' }} <span class="xs muted">{{ r.created_at.strftime('%d-%m-%Y') }}</span></span>
+    {% if r.resolved_at %}<span class="badge badge-ok">resolved</span>{% else %}<span class="badge badge-bad">open</span>{% endif %}</li>{% endfor %}</ul>
+</section>
+{% endif %}
+<form method="post" class="stack">
+  <input type="hidden" name="queue" value="{{ queue }}">
+  <div class="two">
+    {% for lang, label in [('hi', 'हिंदी'), ('en', 'English')] %}
+    {% set opts = q['options_' ~ lang] or ['', '', '', ''] %}
+    <section class="card">
+      <h2>{{ label }}</h2>
+      <label class="f">Question<textarea name="text_{{ lang }}" rows="4">{{ q['text_' ~ lang] or '' }}</textarea></label>
+      {% for i in range(4) %}<label class="f">Option {{ 'ABCD'[i] }}<input name="opt_{{ lang }}_{{ i }}" value="{{ opts[i] }}"></label>{% endfor %}
+      <label class="f">Solution<textarea name="solution_{{ lang }}" rows="5">{{ q['solution_' ~ lang] or '' }}</textarea></label>
+    </section>
+    {% endfor %}
+  </div>
+  <section class="card two">
+    <label class="f">Correct answer<select name="answer_index">{% for i in range(4) %}<option value="{{ i }}" {% if q.answer_index == i %}selected{% endif %}>{{ 'ABCD'[i] }}</option>{% endfor %}</select></label>
+    <label class="f">Difficulty<select name="difficulty">{% for d in ['easy', 'medium', 'hard'] %}<option {% if q.difficulty == d %}selected{% endif %}>{{ d }}</option>{% endfor %}</select></label>
+    <label class="f">Topic<select name="topic_id">{% for t in topics %}<option value="{{ t.id }}" {% if t.id == q.topic_id %}selected{% endif %}>{{ t.subject.slug }} / {{ t.name_en }}</option>{% endfor %}</select></label>
+    <label class="f">Source type<select name="source_type">{% for s in ['ai_generated', 'editorial', 'pyq'] %}<option {% if q.source_type == s %}selected{% endif %}>{{ s }}</option>{% endfor %}</select></label>
+    <label class="f">Source (for PYQ: exam, year, shift)<input name="source_ref" value="{{ q.source_ref or '' }}" placeholder="SSC CGL 2024 Tier-I, 10 Sep, Shift 2"></label>
+    <label class="f">Review note<input name="review_note" value="{{ q.review_note or '' }}"></label>
+  </section>
+  <div class="row" style="flex-wrap:wrap">
+    <button class="btn btn-primary" name="action" value="verify">✓ Save & mark verified</button>
+    <button class="btn btn-secondary" name="action" value="save">Save</button>
+    <button class="btn btn-secondary" name="action" value="flag">Hide (flag)</button>
+    <button class="btn btn-ghost" name="action" value="delete" data-confirm="Delete this question permanently?">Delete</button>
+  </div>
+</form>
+{% endblock %}

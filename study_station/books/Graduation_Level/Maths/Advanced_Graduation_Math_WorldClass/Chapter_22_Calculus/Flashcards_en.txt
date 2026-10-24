@@ -1,0 +1,79 @@
+Card 1
+Front: What is the derivative of xⁿ?
+Back: n·xⁿ⁻¹ (Power Rule)
+
+Card 2
+Front: What is the derivative of sin x?
+Back: cos x
+
+Card 3
+Front: What is the derivative of cos x?
+Back: −sin x
+
+Card 4
+Front: What is the derivative of eˣ?
+Back: eˣ (it is its own derivative)
+
+Card 5
+Front: What is the derivative of ln x?
+Back: 1/x, for x > 0
+
+Card 6
+Front: State the Product Rule.
+Back: d/dx(u·v) = u·v′ + v·u′
+
+Card 7
+Front: State the Quotient Rule.
+Back: d/dx(u/v) = (v·u′ − u·v′) / v²
+
+Card 8
+Front: State the Chain Rule.
+Back: d/dx[f(g(x))] = f′(g(x)) · g′(x) — differentiate the outer function, then multiply by the derivative of the inner one.
+
+Card 9
+Front: What is the mnemonic for the Quotient Rule?
+Back: "Low D-High minus High D-Low, over Low squared" — (v·u′ − u·v′)/v². Remember: LOW comes first on top and gets squared at the bottom.
+
+Card 10
+Front: What is the mnemonic to remember which trig derivative gets a minus sign?
+Back: "C goes negative" — derivatives of functions starting with C (cos x, cot x, cosec x) carry a minus sign: cos′ = −sin, cot′ = −cosec², cosec′ = −cosec·cot.
+
+Card 11
+Front: What does f′(x) = 0 at a point tell you?
+Back: The tangent is horizontal there — the point is a stationary point (possible local max, min, or point of inflection).
+
+Card 12
+Front: How do you distinguish a local maximum from a local minimum using the second derivative?
+Back: If f′(a) = 0 and f″(a) < 0 → local maximum; if f″(a) > 0 → local minimum.
+
+Card 13
+Front: What is ∫ xⁿ dx (n ≠ −1)?
+Back: xⁿ⁺¹/(n+1) + C
+
+Card 14
+Front: What is ∫ (1/x) dx?
+Back: ln|x| + C
+
+Card 15
+Front: State the First Fundamental Theorem of Calculus.
+Back: If F′(x) = f(x), then ∫ₐᵇ f(x) dx = F(b) − F(a) — definite integration is the reverse of differentiation.
+
+Card 16
+Front: What is the integration by parts formula, and its mnemonic for choosing u?
+Back: ∫ u dv = u·v − ∫ v du. Choose u by ILATE: Inverse, Log, Algebraic, Trig, Exponential (in that priority order).
+
+Card 17
+Front: What is the area under a curve y = f(x) from a to b?
+Back: ∫ₐᵇ f(x) dx (taking absolute value where the curve dips below the x-axis).
+
+Card 18
+Front: What does a positive derivative say about a function?
+Back: The function is increasing on that interval; negative derivative means decreasing.
+
+Card 19
+Front: What is the derivative of tan x?
+Back: sec²x
+
+Card 20
+Front: What is ∫ eˣ dx and ∫ aˣ dx?
+Back: ∫ eˣ dx = eˣ + C; ∫ aˣ dx = aˣ/ln a + C

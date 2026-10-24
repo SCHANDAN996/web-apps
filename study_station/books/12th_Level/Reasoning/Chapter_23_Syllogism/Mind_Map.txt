@@ -1,0 +1,46 @@
+```mermaid
+graph TD
+    A["न्याय-वाक्य<br>Syllogism"] --> B["मूल अवधारणाएँ<br>Basic Concepts"]
+    A --> C["कथन के प्रकार<br>Types of Statements"]
+    A --> D["निष्कर्ष के प्रकार<br>Types of Conclusions"]
+    A --> E["हल करने की विधियाँ<br>Methods"]
+    A --> F["नियम<br>Rules"]
+    A --> G["समय प्रबंधन<br>Time Management"]
+    A --> H["परीक्षक के जाल<br>Examiner Traps"]
+
+    B --> B1["कथन = दी गई जानकारी<br>Statement = Given Info"]
+    B --> B2["निष्कर्ष = निकाला गया परिणाम<br>Conclusion = Derived Result"]
+    B --> B3["कथन 100% सत्य मानें<br>Statements Always True"]
+    B --> B4["वास्तविक ज्ञान लागू न करें<br>No Real-World Knowledge"]
+
+    C --> C1["सभी A, B हैं<br>All A are B"]
+    C --> C2["कोई A, B नहीं है<br>No A is B"]
+    C --> C3["कुछ A, B हैं<br>Some A are B"]
+    C --> C4["कुछ A, B नहीं हैं<br>Some A are not B"]
+
+    D --> D1["निश्चित निष्कर्ष<br>Definite Conclusion"]
+    D --> D2["संभावना वाला निष्कर्ष<br>Possibility Case"]
+    D --> D3["या-वाला निष्कर्ष<br>Either-Or Case"]
+    D --> D4["पूरक युग्म<br>Complementary Pair<br>(Some + Some Not)"]
+
+    E --> E1["वेन आरेख विधि<br>Venn Diagram Method<br>(सबसे सुरक्षित)"]
+    E --> E2["नियम-आधारित विधि<br>Rule-Based Method"]
+    E --> E3["संभावना जाँच<br>Possibility Check<br>= सभी आरेख बनाएँ"]
+
+    F --> F1["All + All = All<br>सभी + सभी = सभी"]
+    F --> F2["All + No = No<br>सभी + कोई नहीं = कोई नहीं"]
+    F --> F3["All + Some = कोई निश्चित निष्कर्ष नहीं<br>All + Some = No Definite Conclusion"]
+    F --> F4["Some + Some = कोई निष्कर्ष नहीं<br>Some + Some = No Conclusion"]
+    F --> F5["मध्य पद दोनों कथनों में<br>Middle Term in Both Statements"]
+    F --> F6["दो नकारात्मक कथनों से निष्कर्ष नहीं<br>No Conclusion from Two Negatives"]
+
+    G --> G1["आसान प्रश्न: 30-40 सेकंड<br>Easy: 30-40 sec"]
+    G --> G2["संभावना प्रश्न: 60-90 सेकंड<br>Possibility: 60-90 sec"]
+    G --> G3["3+ कथन हों तो बाद में करें<br>3+ Statements: Attempt Later"]
+
+    H --> H1["'कुछ' = कम-से-कम एक<br>Some = At Least One<br>(सभी भी हो सकते हैं)"]
+    H --> H2["संभावना को निश्चित मानना<br>Treating Possibility as Definite"]
+    H --> H3["Either-Or की शर्तें भूलना<br>Forgetting Either-Or Conditions"]
+    H --> H4["वास्तविक ज्ञान से हल करना<br>Using Real-World Logic"]
+    H --> H5["'कुछ नहीं' को 'कोई नहीं' समझना<br>Confusing Some-Not with No"]
+```

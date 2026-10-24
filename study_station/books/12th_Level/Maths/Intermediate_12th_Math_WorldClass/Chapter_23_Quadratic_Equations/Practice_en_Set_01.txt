@@ -1,3 +1,149 @@
-# Chapter: Quadratic Equations & Series, Level: intermediate, Set: 1/6
+1. What is the degree of the equation 3x² + 5x − 7 = 0?
+(a) 2 (b) 1 (c) 3 (d) 0
+Answer: (a)
+Solution: A quadratic equation has the form ax² + bx + c = 0 with a ≠ 0, so its highest power (degree) is 2. The tempting wrong option 1 belongs to linear equations, not this one. The degree here is 2, so the answer is 2.
+Source: NCERT Class 10 Maths, Chapter 4
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Quadratic Equations & Series. This is Set 1 (total 6 sets, 150 questions). Questions must be numbered 1 to 25. Questions 1 to 20 should be Easy, Questions 21 to 25 should be Medium. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+2. Which of the following is a quadratic equation?
+(a) 2x + 5 = 0 (b) x³ + x = 0 (c) x² − 4x + 3 = 0 (d) 1/x + 2 = 0
+Answer: (c)
+Solution: A quadratic equation must be a polynomial of degree 2 in one variable. Option with 2x + 5 = 0 is linear, x³ + x = 0 is cubic, and 1/x + 2 = 0 is not a polynomial equation. Only x² − 4x + 3 = 0 fits, so the answer is x² − 4x + 3 = 0.
+Source: NCERT Class 10 Maths, Chapter 4
+
+3. For the equation x² − 5x + 6 = 0, what is the sum of the roots?
+(a) −5 (b) 5 (c) 6 (d) −6
+Answer: (b)
+Solution: Sum of roots = −b/a = −(−5)/1 = 5. The trap is choosing −5 by forgetting the minus sign in the formula −b/a. The sum of roots is 5, so the answer is 5.
+Source: NCERT Class 10 Maths, Chapter 4
+
+4. For the equation x² − 5x + 6 = 0, what is the product of the roots?
+(a) 6 (b) −6 (c) 5 (d) −5
+Answer: (a)
+Solution: Product of roots = c/a = 6/1 = 6. The tempting wrong option 5 is the sum of roots, not the product. The product is 6, so the answer is 6.
+Source: NCERT Class 10 Maths, Chapter 4
+
+5. The discriminant of ax² + bx + c = 0 is:
+(a) b² − 4ac (b) b² + 4ac (c) 4ac − b² (d) b − 4ac
+Answer: (a)
+Solution: The discriminant D = b² − 4ac decides the nature of roots. The trap is b² + 4ac, which has the wrong sign. The discriminant is b² − 4ac, so the answer is b² − 4ac.
+Source: NCERT Class 10 Maths, Chapter 4
+
+6. If the discriminant of a quadratic equation is zero, the roots are:
+(a) real and distinct (b) irrational (c) imaginary (d) real and equal
+Answer: (d)
+Solution: When D = 0, both roots equal −b/2a, so they are real and equal. Real and distinct needs D > 0, which is the tempting trap. The roots are real and equal, so the answer is real and equal.
+Source: NCERT Class 10 Maths, Chapter 4
+
+7. The roots of x² − 9 = 0 are:
+(a) 3 only (b) −3 only (c) 3 and −3 (d) 9 and −9
+Answer: (c)
+Solution: x² = 9 gives x = ±3. The trap is taking only the positive root 3 and forgetting the negative one. The roots are 3 and −3, so the answer is 3 and −3.
+Source: NCERT Class 10 Maths, Chapter 4
+
+8. What are the roots of x² − 5x + 6 = 0?
+(a) 1 and 6 (b) 2 and 3 (c) −2 and −3 (d) 5 and 1
+Answer: (b)
+Solution: Factorising: x² − 5x + 6 = (x − 2)(x − 3) = 0, so x = 2 or 3. The trap is −2 and −3, whose sum is −5 but product is still 6 — sign confusion. The roots are 2 and 3, so the answer is 2 and 3.
+Source: NCERT Class 10 Maths, Chapter 4
+
+9. The quadratic formula for the roots of ax² + bx + c = 0 is:
+(a) x = [b ± √(b² − 4ac)] / 2a (b) x = [−b ± √(b² − 4ac)] / 2a (c) x = [−b ± √(b² + 4ac)] / 2a (d) x = [−b ± √(b² − 4ac)] / a
+Answer: (b)
+Solution: The standard quadratic formula is x = [−b ± √(b² − 4ac)] / 2a. The trap is the version starting with +b, which drops the minus sign before b. The correct formula is x = [−b ± √(b² − 4ac)] / 2a, so the answer is x = [−b ± √(b² − 4ac)] / 2a.
+Source: NCERT Class 10 Maths, Chapter 4
+
+10. If the discriminant D < 0, the roots of the quadratic equation are:
+(a) not real (b) real and distinct (c) real and equal (d) rational
+Answer: (a)
+Solution: A negative discriminant means √(negative), which is not a real number, so the roots are not real (they are complex). Real and distinct requires D > 0, the tempting trap. The roots are not real, so the answer is not real.
+Source: NCERT Class 10 Maths, Chapter 4
+
+11. The next term of the AP: 2, 5, 8, 11, … is:
+(a) 13 (b) 15 (c) 14 (d) 12
+Answer: (c)
+Solution: Common difference d = 5 − 2 = 3, so next term = 11 + 3 = 14. The trap is 13, obtained by adding 2 instead of 3. The next term is 14, so the answer is 14.
+Source: NCERT Class 10 Maths, Chapter 5
+
+12. The common difference of the AP: 10, 7, 4, 1, … is:
+(a) 3 (b) −4 (c) 4 (d) −3
+Answer: (d)
+Solution: d = 7 − 10 = −3. The trap is writing 3 and ignoring that the series is decreasing, so d must be negative. The common difference is −3, so the answer is −3.
+Source: NCERT Class 10 Maths, Chapter 5
+
+13. The nth term of an AP with first term a and common difference d is:
+(a) a + (n − 1)d (b) a + nd (c) a − (n − 1)d (d) n + (a − 1)d
+Answer: (a)
+Solution: The nth term formula is Tₙ = a + (n − 1)d. The trap is a + nd, which forgets that the first term already uses zero differences. The formula is a + (n − 1)d, so the answer is a + (n − 1)d.
+Source: NCERT Class 10 Maths, Chapter 5
+
+14. The 10th term of the AP: 3, 7, 11, 15, … is:
+(a) 43 (b) 37 (c) 40 (d) 39
+Answer: (d)
+Solution: a = 3, d = 4, so T₁₀ = 3 + (10 − 1)×4 = 3 + 36 = 39. The trap is 43, which comes from using n×d = 40 instead of (n−1)×d. The 10th term is 39, so the answer is 39.
+Source: NCERT Class 10 Maths, Chapter 5
+
+15. The sum of the first n natural numbers is:
+(a) n(n − 1)/2 (b) n(n + 1)/2 (c) n²/2 (d) n(2n + 1)/2
+Answer: (b)
+Solution: Sum of first n natural numbers = n(n + 1)/2. The trap is n(n − 1)/2, which is the sum of the first n − 1 natural numbers. The formula is n(n + 1)/2, so the answer is n(n + 1)/2.
+Source: NCERT Class 10 Maths, Chapter 5
+
+16. The sum of the first 10 natural numbers is:
+(a) 45 (b) 55 (c) 50 (d) 60
+Answer: (b)
+Solution: Sum = 10×11/2 = 55. The trap is 45, which is the sum of the first 9 natural numbers. The sum is 55, so the answer is 55.
+Source: NCERT Class 10 Maths, Chapter 5
+
+17. The common ratio of the GP: 3, 6, 12, 24, … is:
+(a) 3 (b) 6 (c) 4 (d) 2
+Answer: (d)
+Solution: r = 6/3 = 2. The trap is 3, which is the difference between terms, not the ratio. The common ratio is 2, so the answer is 2.
+Source: NCERT Class 11 Maths, Chapter 9
+
+18. The nth term of a GP with first term a and common ratio r is:
+(a) arⁿ⁻¹ (b) arⁿ (c) a + rⁿ⁻¹ (d) a·r·n
+Answer: (a)
+Solution: The nth term of a GP is Tₙ = arⁿ⁻¹. The trap is arⁿ, which actually gives the (n+1)th term. The formula is arⁿ⁻¹, so the answer is arⁿ⁻¹.
+Source: NCERT Class 11 Maths, Chapter 9
+
+19. The 5th term of the GP: 2, 6, 18, … is:
+(a) 54 (b) 486 (c) 162 (d) 108
+Answer: (c)
+Solution: a = 2, r = 3, so T₅ = 2×3⁴ = 2×81 = 162. The trap is 486, which is the 6th term, obtained by using r⁵ instead of r⁴. The 5th term is 162, so the answer is 162.
+Source: NCERT Class 11 Maths, Chapter 9
+
+20. Which term of the AP: 5, 9, 13, 17, … is 41?
+(a) 9th (b) 12th (c) 11th (d) 10th
+Answer: (d)
+Solution: a = 5, d = 4; 41 = 5 + (n − 1)×4 gives (n − 1) = 9, so n = 10. The trap is 9th, which is the value of (n − 1), not n. The answer is the 10th term, so the answer is 10th.
+Source: NCERT Class 10 Maths, Chapter 5
+
+21. If the roots of x² − kx + 16 = 0 are equal, then k equals:
+(a) ±8 (b) 8 (c) 4 (d) 16
+Answer: (a)
+Solution: Equal roots need D = 0: k² − 4×1×16 = 0, so k² = 64 and k = ±8. The trap is choosing only 8 and forgetting the negative value also satisfies the equation. The value of k is ±8, so the answer is ±8.
+Source: NCERT Class 10 Maths, Chapter 4
+
+22. If one root of x² − 7x + k = 0 is 3, then k equals:
+(a) 10 (b) 12 (c) −12 (d) 21
+Answer: (b)
+Solution: Substituting x = 3: 9 − 21 + k = 0, so k = 12. The trap is −12, from a sign slip while moving terms. The value of k is 12, so the answer is 12.
+Source: NCERT Class 10 Maths, Chapter 4
+
+23. The sum of the first 20 terms of the AP: 1, 4, 7, 10, … is:
+(a) 610 (b) 580 (c) 600 (d) 590
+Answer: (d)
+Solution: a = 1, d = 3; S₂₀ = (20/2)[2×1 + 19×3] = 10×(2 + 57) = 10×59 = 590. The trap is 600, from rounding 59 to 60 in a hurry. The sum is 590, so the answer is 590.
+Source: NCERT Class 10 Maths, Chapter 5
+
+24. The sum of the infinite GP: 1, 1/2, 1/4, 1/8, … is:
+(a) 1 (b) 3/2 (c) 2 (d) infinite
+Answer: (c)
+Solution: For |r| < 1, S∞ = a/(1 − r) = 1/(1 − 1/2) = 2. The trap is "infinite", but since r = 1/2 < 1, the series converges. The sum is 2, so the answer is 2.
+Source: NCERT Class 11 Maths, Chapter 9
+
+25. If the sum and product of the roots of a quadratic equation are 7 and 12 respectively, the equation is:
+(a) x² + 7x + 12 = 0 (b) x² − 7x − 12 = 0 (c) x² − 7x + 12 = 0 (d) x² + 7x − 12 = 0
+Answer: (c)
+Solution: The equation is x² − (sum)x + (product) = 0, i.e., x² − 7x + 12 = 0. The trap is x² + 7x + 12 = 0, whose roots sum to −7, not 7. The equation is x² − 7x + 12 = 0, so the answer is x² − 7x + 12 = 0.
+Source: NCERT Class 10 Maths, Chapter 4

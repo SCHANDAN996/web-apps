@@ -1,0 +1,45 @@
+```mermaid
+graph TD
+    A["पुस्तकें और लेखक<br>Books & Authors"] --> B["भारतीय लेखक<br>Indian Authors"]
+    A --> C["विदेशी लेखक<br>Foreign Authors"]
+    A --> D["प्राचीन ग्रंथ<br>Ancient Texts"]
+    A --> E["पुरस्कार विजेता<br>Award Winners"]
+    A --> F["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> G["रणनीति<br>Strategy"]
+
+    B --> B1["मुंशी प्रेमचंद<br>गोदान, गबन<br>Munshi Premchand"]
+    B --> B2["रवीन्द्रनाथ टैगोर<br>गीतांजलि (नोबेल 1913)<br>Rabindranath Tagore"]
+    B --> B3["आर.के. नारायण<br>मालगुडी डेज़<br>R.K. Narayan"]
+    B --> B4["सलमान रश्दी<br>मिडनाइट्स चिल्ड्रन<br>Salman Rushdie"]
+    B --> B5["अरुंधति रॉय<br>The God of Small Things<br>बुकर 1997"]
+    B --> B6["चेतन भगत<br>Five Point Someone<br>Chetan Bhagat"]
+
+    C --> C1["शेक्सपियर<br>हैमलेट, मैकबेथ<br>Shakespeare"]
+    C --> C2["चार्ल्स डिकेंस<br>A Tale of Two Cities<br>Charles Dickens"]
+    C --> C3["लियो टॉल्स्टॉय<br>War and Peace<br>Leo Tolstoy"]
+    C --> C4["जॉर्ज ऑरवेल<br>1984, Animal Farm<br>George Orwell"]
+    C --> C5["विक्टर ह्यूगो<br>Les Misérables<br>Victor Hugo"]
+
+    D --> D1["कौटिल्य (चाणक्य)<br>अर्थशास्त्र<br>Arthashastra"]
+    D --> D2["कालिदास<br>अभिज्ञान शाकुन्तलम्<br>मेघदूतम्"]
+    D --> D3["बाणभट्ट<br>हर्षचरित, कादम्बरी<br>Banabhatta"]
+    D --> D4["तुलसीदास<br>रामचरितमानस<br>Tulsidas"]
+    D --> D5["वेद व्यास<br>महाभारत<br>Ved Vyas"]
+
+    E --> E1["ज्ञानपीठ पुरस्कार<br>साहित्य का सर्वोच्च भारतीय पुरस्कार<br>Jnanpith Award"]
+    E --> E2["साहित्य अकादमी पुरस्कार<br>Sahitya Akademi Award"]
+    E --> E3["बुकर पुरस्कार<br>Booker Prize"]
+    E --> E4["नोबेल साहित्य पुरस्कार<br>Nobel Prize in Literature"]
+    E --> E5["पुलित्ज़र पुरस्कार<br>Pulitzer Prize"]
+
+    F --> F1["मिलते-जुलते नाम<br>Similar Names<br>रश्दी vs रॉय"]
+    F --> F2["कालक्रम भ्रम<br>Timeline Confusion<br>पुरस्कार वर्ष"]
+    F --> F3["लगभग-सही कथन<br>Almost-True Statements"]
+    F --> F4["नकारात्मक वाक्य<br>Negative Questions<br>कौन-सा सही नहीं है"]
+    F --> F5["उपनाम भ्रम<br>Pen-name Traps<br>प्रेमचंद = धनपत राय"]
+
+    G --> G1["15/45 सेकंड नियम<br>15/45 Second Rule"]
+    G --> G2["पहले अक्षर ट्रिक<br>First-Letter Tricks"]
+    G --> G3["Skip Strategy<br>अनिश्चित = छोड़ें<br>नेगेटिव मार्किंग से बचें"]
+    G --> G4["दोहराव योजना<br>Revision Planner<br>1-7-30 दिन"]
+```

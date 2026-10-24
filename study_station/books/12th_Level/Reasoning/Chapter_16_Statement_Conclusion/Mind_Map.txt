@@ -1,0 +1,31 @@
+```mermaid
+graph TD
+    A["कथन और निष्कर्ष<br>Statement & Conclusion"] --> B["मूल अवधारणा<br>Basic Concept"]
+    A --> C["निष्कर्ष के प्रकार<br>Types of Conclusions"]
+    A --> D["हल करने की रणनीति<br>Solving Strategy"]
+    A --> E["समय प्रबंधन<br>Time Management"]
+    A --> F["परीक्षक के जाल<br>Examiner's Traps"]
+
+    B --> B1["कथन = दिया गया तथ्य<br>Statement = Given Fact<br>100% सत्य मानें"]
+    B --> B2["निष्कर्ष = कथन से निकला निश्चित परिणाम<br>Conclusion = Definite Result<br>कथन से ही निकले"]
+    B --> B3["सामान्य ज्ञान / बाहरी जानकारी<br>General Knowledge / Outside Info<br>का प्रयोग वर्जित"]
+
+    C --> C1["निश्चित निष्कर्ष<br>Definite Conclusion<br>कथन से सीधे सिद्ध"]
+    C --> C2["संभावित निष्कर्ष<br>Probable Conclusion<br>'शायद / हो सकता है' = गलत"]
+    C --> C3["दोनों निष्कर्ष<br>Both Follow<br>(a) केवल I (b) केवल II<br>(c) दोनों (d) कोई नहीं"]
+
+    D --> D1["चरण 1: कथन ध्यान से पढ़ें<br>Step 1: Read Statement Carefully"]
+    D --> D2["चरण 2: निष्कर्ष को कथन से जाँचें<br>Step 2: Test Conclusion Against Statement"]
+    D --> D3["चरण 3: 100% निश्चितता देखें<br>Step 3: Check 100% Certainty"]
+    D --> D4["चरण 4: अतिरंजित / भावनात्मक<br>निष्कर्ष काटें<br>Step 4: Eliminate Extreme Ones"]
+
+    E --> E1["प्रति प्रश्न 30–40 सेकंड<br>30–40 Seconds per Question"]
+    E --> E2["पहले आसान प्रश्न<br>Easy Questions First"]
+    E --> E3["अटके तो छोड़ें, बाद में आएँ<br>Skip if Stuck, Return Later"]
+
+    F --> F1["जाल 1: 'कुछ' को 'सभी' मान लेना<br>Trap 1: Treating 'Some' as 'All'"]
+    F --> F2["जाल 2: अपना अनुभव मिलाना<br>Trap 2: Adding Personal Experience"]
+    F --> F3["जाल 3: 'सभी / कभी नहीं / हमेशा'<br>चरम शब्द वाले निष्कर्ष<br>Trap 3: Extreme Words"]
+    F --> F4["जाल 4: सुझाव / कार्यवाही को<br>निष्कर्ष समझना<br>Trap 4: Suggestion ≠ Conclusion"]
+    F --> F5["जाल 5: आंशिक सत्य को<br>पूर्ण सत्य मानना<br>Trap 5: Partial Truth ≠ Full Truth"]
+```

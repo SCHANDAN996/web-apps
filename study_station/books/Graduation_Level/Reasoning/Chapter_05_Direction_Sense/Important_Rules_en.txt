@@ -1,0 +1,39 @@
+# Important Rules & Approaches — Direction Sense (Coded/Distance)
+
+## Part 1: Key Rules/Approaches
+
+| Rule Name | Description | Example |
+|---|---|---|
+| Fixed Direction Map | Always fix North at top, South at bottom, East right, West left before solving. Never rotate the map mid-question. | "Facing East" means facing right on your diagram. |
+| Right/Left Turn Rule | Right turn = 90° clockwise; Left turn = 90° anti-clockwise from the current facing direction. | Facing North, a right turn makes you face East. |
+| Turn Tracking | Track direction after EVERY turn, not just at the end. | N → right → E → left → N → right → E. |
+| Opposite Direction Pairs | N↔S, E↔W, NE↔SW, NW↔SE. A 180° turn (or two right/left turns) reverses direction. | Facing NE, turning 180° → facing SW. |
+| Net Displacement (Pythagoras) | When movements are along perpendicular axes, shortest distance = √(x² + y²). | 3 km East + 4 km North → 5 km from start. |
+| Axis-wise Net Movement | Add movements on the same axis; subtract opposite ones. East − West, North − South. | 5 km E then 2 km W → net 3 km East. |
+| Shadow Rule (Morning) | At sunrise, shadow falls to the West. | A man facing his shadow in the morning faces West. |
+| Shadow Rule (Evening) | At sunset, shadow falls to the East. | Shadow on his right at sunset → facing South. |
+| Coded Directions | Symbols replace directions (e.g., A = North, B = South). Decode the key FIRST, then solve as a normal question. | If "P" means East, "walk P 5 km" = walk 5 km East. |
+| Coded Turns | Symbols may code left/right turns or angles. Substitute before tracking. | "@ = turn left" → apply left turn at each @. |
+| Reference Point Rule | "Direction of B from A" — stand at A, look at B. "Direction of A from B" is the opposite. | B is NE of A ⇒ A is SW of B. |
+| Clockwise/Anti-clockwise Angle | 45°, 90°, 135°, 180° turns change facing by that many compass steps (each step = 45°). | Facing East, 135° clockwise → facing SW. |
+| Back-to-Start Problems | For "how far and in which direction from start", use net displacement + Pythagoras, then state direction from origin. | Net 6 km W, 8 km N → 10 km, NW of start. |
+
+## Part 2: Time Management
+
+| Rule | Guideline |
+|---|---|
+| 15-Second Rule | If the coded key or turn sequence is not clear within 15 seconds, mark the question and move on; return later. |
+| 45-Second Rule | A standard direction question (2–4 movements) must be solved within 45 seconds. If your diagram is still messy after 45 seconds, skip it. |
+| Draw First, Think Later | Spend the first 10 seconds drawing the compass/diagram; never solve direction questions purely mentally. |
+| Coded Questions Priority | Decode the symbol key once and write it above the question; this saves re-reading time for every step. |
+| Skip Signal | Questions mixing shadows + codes + multiple persons are time traps — attempt only if under 60 seconds seems possible. |
+
+## Part 3: Logical/Mathematical Formulas
+
+| Formula | Use |
+|---|---|
+| Shortest distance = √(x² + y²) | Net displacement when movements are along two perpendicular axes (Pythagoras theorem). |
+| Net East-West = (total East) − (total West) | Net horizontal displacement. |
+| Net North-South = (total North) − (total South) | Net vertical displacement. |
+| Facing after turn = current direction ± (angle ÷ 45°) steps | Clockwise = +, anti-clockwise = −, on the 8-point compass (N, NE, E, SE, S, SW, W, NW). |
+| Common Pythagorean triples | (3,4,5), (6,8,10), (5,12,13), (8,15,17), (7,24,25) — recognise these to avoid calculation. |

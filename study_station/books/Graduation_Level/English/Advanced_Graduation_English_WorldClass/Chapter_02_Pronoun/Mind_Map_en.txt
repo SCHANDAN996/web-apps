@@ -1,0 +1,42 @@
+```mermaid
+graph TD
+    A["Pronoun<br>Word used in place of a Noun"] --> B["Types"]
+    A --> C["12 Golden Rules"]
+    A --> D["Examiner's Traps"]
+    A --> E["Strategies"]
+
+    B --> B1["Personal<br>I, we, you, he, she, it, they"]
+    B --> B2["Possessive<br>mine, ours, yours, his, hers, theirs"]
+    B --> B3["Reflexive / Emphatic<br>myself, ourselves, himself"]
+    B --> B4["Demonstrative<br>this, that, these, those"]
+    B --> B5["Interrogative<br>who, whom, whose, which, what"]
+    B --> B6["Relative<br>who, whom, whose, which, that"]
+    B --> B7["Indefinite<br>someone, anybody, each, everyone"]
+    B --> B8["Reciprocal<br>each other, one another"]
+    B --> B9["Distributive<br>each, every, either, neither"]
+
+    C --> C1["Agreement<br>Pronoun must match antecedent<br>in number, gender, person"]
+    C --> C2["Case<br>Subject: I, he, they<br>Object: me, him, them"]
+    C --> C3["Order of Persons<br>231 Good / 123 Bad<br>You, he and I passed<br>I, you and he failed"]
+    C --> C4["Each / Every / Either / Neither<br>take SINGULAR verb + pronoun"]
+    C --> C5["One ... one's / oneself<br>never his / himself"]
+    C --> C6["Relative Pronoun<br>who for persons<br>which for things<br>that after superlative / only / all"]
+    C --> C7["Same ... as / Such ... as<br>as acts as relative pronoun"]
+    C --> C8["Verb + Reflexive<br>only when subject = object<br>He availed himself of"]
+    C --> C9["Preposition + whom<br>To whom did you speak?"]
+    C --> C10["It is I / It was he<br>Nominative after 'to be'"]
+    C --> C11["Between you and me<br>Object case after preposition"]
+    C --> C12["Everyone / Everybody<br>Singular: his, not their<br>in formal exam English"]
+
+    D --> D1["Intervening Phrase Trap<br>Each of the boys has (not have)<br>his book (not their)"]
+    D --> D2["Sound-Right Trap<br>Between you and I ❌<br>Between you and me ✅"]
+    D --> D3["Over-thinking Trap<br>Who vs Whom<br>Answer with he/him test"]
+    D --> D4["Collective Noun Trap<br>Team ... its (united)<br>Team ... their (divided)"]
+    D --> D5["Reflexive Trap<br>I myself went ✅<br>Myself went ❌"]
+
+    E --> E1["15-Second Rule<br>Fact-based: case, agreement,<br>reflexive, who/whom"]
+    E --> E2["45-Second Rule<br>Inference: long intervening phrases,<br>collective noun context, error spotting"]
+    E --> E3["He/Him Test<br>he → who | him → whom"]
+    E --> E4["Skip Strategy<br>Skip ambiguous antecedent Qs<br>in first round, return later"]
+    E --> E5["Mnemonic: 231-123<br>Praise = You-He-I<br>Blame = I-You-He"]
+```

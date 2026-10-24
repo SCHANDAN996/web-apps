@@ -1,3 +1,191 @@
-# Chapter: Number System (Advanced), Level: intermediate
+# 🪄 Short Tricks — Number System (Advanced)
 
-@content_agent lang=en level=intermediate role='mnemonic specialist' 'Create 10-15 fun and outrageous memory tricks (Mnemonics) for all key formulas, rules and concepts of Number System (Advanced). Each trick should be unforgettable. Use Keyword Method, Loci, or Acronyms wherever possible. Present each trick in a separate box.'
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 1 — Divisibility Squad: "2-3-5 Family Photo"** │
+└─────────────────────────────────────────────┘
+
+Imagine a family photo where everyone poses differently:
+- **2** checks only the LAST digit (even?) — the lazy one, looks at feet only.
+- **3 & 9** add up ALL digits — the accountants, they sum everything.
+- **5** checks last digit (0 or 5) — the picky eater.
+- **4** checks last TWO digits — the twins, always together.
+- **8** checks last THREE digits — triplets!
+- **11** alternates + − + − — the seesaw kid.
+
+**Memory line:** *"Lazy 2, Accountant 3-9, Picky 5, Twins 4, Triplets 8, Seesaw 11."*
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 2 — Remainder Theorem: "The Lazy Postman"** │
+└─────────────────────────────────────────────┘
+
+To find remainder of a huge power like 7^100 ÷ 5, the Lazy Postman never delivers the full parcel. He only carries the **remainder of the base**: 7 → 2 (mod 5). Then he watches the remainders **cycle**: 2, 4, 3, 1, 2, 4, 3, 1…
+
+**Rule:** *"Shrink the base, find the cycle, jump to the power's position."*
+Cycle length of 2 mod 5 is 4 → 100 ÷ 4 = 0 remainder → answer = 1.
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 3 — Unit Digit: "The 4-Seat Merry-Go-Round"** │
+└─────────────────────────────────────────────┘
+
+Every unit digit rides a merry-go-round with at most **4 seats** (cycle ≤ 4):
+- 2: 2-4-8-6 | 3: 3-9-7-1 | 7: 7-9-3-1 | 8: 8-4-2-6
+- 0, 1, 5, 6 never move (they're glued to their seat!)
+
+**Trick:** Divide the power by 4. Remainder tells the seat. Remainder 0 = seat 4.
+**Memory line:** *"0,1,5,6 are couch potatoes — they never change!"*
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 4 — Number of Factors: "Add-One Party"** │
+└─────────────────────────────────────────────┘
+
+If N = a^p × b^q × c^r, then number of factors = **(p+1)(q+1)(r+1)**.
+
+**Story:** Every prime exponent gets invited to a party, but each must bring **+1 guest** (the power 0 option — "I might not show up at all!"). Multiply all the (guest+1)s.
+
+**Memory hook:** *"Every exponent brings a plus-one!"*
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 5 — Sum of Factors: "The ATM Formula"** │
+└─────────────────────────────────────────────┘
+
+Sum of factors of N = a^p × b^q is:
+**(a^(p+1) − 1)/(a − 1) × (b^(q+1) − 1)/(b − 1)**
+
+**Story:** An ATM dispenses every power of each prime (a⁰, a¹, … a^p). The geometric-series formula is the ATM's receipt. **"Power up one, minus one, over prime minus one."**
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 6 — HCF × LCM: "The Marriage Law"** │
+└─────────────────────────────────────────────┘
+
+**HCF × LCM = Product of the two numbers.**
+
+**Story:** HCF is what the couple SHARES, LCM is EVERYTHING they own together. Multiply shared × everything = both their complete assets = a × b.
+⚠️ **Warning:** This marriage law works ONLY for TWO numbers — three numbers break the marriage!
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 7 — LCM of Fractions: "Topsy-Turvy"** │
+└─────────────────────────────────────────────┘
+
+- **LCM of fractions = LCM of numerators / HCF of denominators**
+- **HCF of fractions = HCF of numerators / LCM of denominators**
+
+**Memory line:** *"LCM stands tall (big on top), HCF lies flat (big at bottom)."*
+LCM wants to be BIG → big operation (LCM) on top. HCF wants to be SMALL → big operation (LCM) at bottom.
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 8 — Remainder Same for All: "Common Sweater"** │
+└─────────────────────────────────────────────┘
+
+"Smallest number which when divided by a, b, c leaves remainder r in each case":
+**Answer = LCM(a, b, c) + r**
+
+**Story:** The number wears the LCM as a perfectly-fitting sweater, then carries remainder **r in its pocket**. Same pocket money for every divisor!
+
+If remainders DIFFER but (divisor − remainder) is constant = k:
+**Answer = LCM − k** — *"Everyone is short by the same amount k, so the number itself is short by k."*
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 9 — Trailing Zeroes: "Count the 5s, Ignore the 2s"** │
+└─────────────────────────────────────────────┘
+
+Zeroes at the end of n! = ⌊n/5⌋ + ⌊n/25⌋ + ⌊n/125⌋ + …
+
+**Story:** Every zero needs a couple: one 2 × one 5. But 2s are everywhere (like pigeons), 5s are rare (like peacocks). **The rare bird decides the count!** So just count 5s — and remember 25, 125 hide EXTRA 5s inside.
+
+**Memory line:** *"Peacocks are rare — count only the peacocks (5s)!"*
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 10 — Divisibility by 7: "The Double-Chop"** │
+└─────────────────────────────────────────────┘
+
+Chop off the last digit, **DOUBLE** it, and **SUBTRACT** from the rest. Repeat till small. If the result is divisible by 7, so was the original.
+
+Example: 343 → 34 − (3×2) = 28 → divisible by 7 ✓
+
+**Memory line:** *"For 7, chop the tail, double it, and bite it off!"*
+(For 13, same chop but ADD 4× the digit; for 19, ADD 2× — *"7 bites, 13 feeds four, 19 feeds two."*)
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 11 — Perfect Square Detective: "The Unit-Digit Bouncer"** │
+└─────────────────────────────────────────────┘
+
+A perfect square's unit digit can ONLY be **0, 1, 4, 5, 6, 9**.
+Never 2, 3, 7, 8.
+
+**Mnemonic:** *"Squares enter the club only with ID 0-1-4-5-6-9. The bouncer kicks out 2, 3, 7, 8."*
+Instant elimination in MCQs: any option ending in 2, 3, 7, 8 can never be a perfect square!
+
+Bonus: a perfect square has an **ODD** number of factors (one factor pairs with itself — *"the square root dances solo!"*).
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 12 — a^n − b^n vs a^n + b^n: "Minus is Friendly, Plus is Picky"** │
+└─────────────────────────────────────────────┘
+
+- **a^n − b^n** is ALWAYS divisible by (a − b). If n is even, also by (a + b).
+- **a^n + b^n** is divisible by (a + b) ONLY when n is ODD.
+
+**Memory line:** *"Minus welcomes everyone; Plus opens the door only for ODD guests."*
+Classic exam trap: 5^even + 3^even is NOT divisible by 8 via this rule — check before applying!
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 13 — Digit Sum & Casting Out Nines: "The 9-Vacuum"** │
+└─────────────────────────────────────────────┘
+
+A number and the sum of its digits leave the **same remainder when divided by 9**.
+
+**Story:** 9 is a vacuum cleaner — suck out all 9s (and pairs summing to 9) from the digit sum; whatever dust remains is the remainder.
+Example: 7854 → 7+8+5+4 = 24 → 2+4 = 6. So 7854 ÷ 9 leaves remainder 6.
+
+**Use:** Lightning-fast checking of multiplication/addition answers in exams.
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 14 — Successive Division / Base Conversion: "Read the Remainders Upside-Down"** │
+└─────────────────────────────────────────────┘
+
+To convert decimal to base b: keep dividing by b, note remainders, then **read them BOTTOM-UP**.
+
+**Story:** The remainders fall into a well. The LAST one falls deepest but is the MOST important (highest place value) — so you rescue-read from the bottom up.
+
+**Memory line:** *"Last remainder, first citizen!"*
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 15 — Fermat's Little Theorem: "The Prime Elevator"** │
+└─────────────────────────────────────────────┘
+
+If p is prime and a is not a multiple of p:
+**a^(p−1) ≡ 1 (mod p)**
+
+**Story:** In a prime-numbered elevator with p floors, any number a, when pressed (p−1) times, always lands back on floor **1**.
+Example: remainder of 2^100 ÷ 101 → since 101 is prime, 2^100 ≡ 1. Done in 5 seconds!
+
+**Memory line:** *"Prime p, power p−1, answer 1 — the elevator always returns home."*

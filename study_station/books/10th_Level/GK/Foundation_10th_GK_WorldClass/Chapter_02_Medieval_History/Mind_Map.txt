@@ -1,0 +1,54 @@
+```mermaid
+graph TD
+    M["🕌 मध्यकालीन भारतीय इतिहास<br>Medieval Indian History"]
+
+    M --> DS["दिल्ली सल्तनत (1206–1526)<br>Delhi Sultanate"]
+    M --> ME["मुग़ल साम्राज्य (1526–1857)<br>Mughal Empire"]
+    M --> RK["क्षेत्रीय राज्य<br>Regional Kingdoms"]
+    M --> AA["प्रशासन एवं संस्कृति<br>Administration & Culture"]
+    M --> TR["परीक्षक के जाल व रणनीति<br>Examiner Traps & Strategy"]
+
+    DS --> D1["ग़ुलाम वंश (1206–1290)<br>Slave Dynasty"]
+    DS --> D2["ख़िलजी वंश (1290–1320)<br>Khilji Dynasty"]
+    DS --> D3["तुग़लक़ वंश (1320–1414)<br>Tughlaq Dynasty"]
+    DS --> D4["सैयद व लोदी (1414–1526)<br>Sayyid & Lodi"]
+
+    D1 --> D1a["कुतुबुद्दीन ऐबक: लाख बख़्श, कुतुब मीनार नींव<br>Qutbuddin Aibak: Lakh Baksh"]
+    D1 --> D1b["इल्तुतमिश: इक्ता, टका व जीतल, चालीसा दल<br>Iltutmish: Iqta, Tanka, Jital"]
+    D1 --> D1c["रज़िया सुल्तान: प्रथम मुस्लिम महिला शासक<br>Razia Sultan: First female ruler"]
+    D1 --> D1d["बलबन: सिजदा-पाबोस, लौह व रक्त नीति<br>Balban: Sijdah, Paibos, Blood & Iron"]
+
+    D2 --> D2a["अलाउद्दीन ख़िलजी: बाज़ार सुधार, शहना-ए-मंडी<br>Alauddin Khilji: Market reforms"]
+    D2 --> D2b["सैन्य सुधार: दाग़ व चेहरा प्रथा<br>Military: Dagh & Chehra"]
+    D2 --> D2c["मलिक काफ़ूर: दक्षिण विजय अभियान<br>Malik Kafur: Deccan conquest"]
+    D2 --> D2d["स्थापत्य: अलाई दरवाज़ा, सिरी क़िला<br>Architecture: Alai Darwaza, Siri"]
+
+    D3 --> D3a["मुहम्मद बिन तुग़लक़: राजधानी परिवर्तन, सांकेतिक मुद्रा<br>Muhammad Tughlaq: Daulatabad, Token currency"]
+    D3 --> D3b["फ़िरोज़शाह तुग़लक़: नहरें, दीवान-ए-ख़ैरात, जज़िया<br>Firoz Tughlaq: Canals, Charters, Jaziya"]
+    D3 --> D3c["इब्नबतूता: मोरक्को यात्री, 'रेहला' ग्रंथ<br>Ibn Battuta: Rihla"]
+
+    D4 --> D4a["सिकंदर लोदी: 1504 में आगरा नगर की स्थापना<br>Sikandar Lodi: Founded Agra 1504"]
+    D4 --> D4b["इब्राहिम लोदी: पानीपत का प्रथम युद्ध 1526<br>Ibrahim Lodi: First Panipat 1526"]
+
+    ME --> M1["बाबर: पानीपत, खानवा (1527), तुज़ुक-ए-बाबरी<br>Babur: Panipat, Khanwa, Memoirs"]
+    ME --> M2["हुमायूँ व शेरशाह: चौसा (1539), रुपया, जीटी रोड<br>Humayun & Sher Shah: Chausa, Rupiya, GT Road"]
+    ME --> M3["अकबर: मनसबदारी, ज़ब्ती, दीन-ए-इलाही, इबादतख़ाना<br>Akbar: Mansabdari, Zabti, Din-i-Ilahi"]
+    ME --> M4["जहाँगीर: न्याय की ज़ंजीर, चित्रकला स्वर्णकाल<br>Jahangir: Chain of Justice, Painting"]
+    ME --> M5["शाहजहाँ: ताज महल, लाल क़िला, मयूर सिंहासन<br>Shah Jahan: Taj Mahal, Red Fort, Golden Age"]
+    ME --> M6["औरंगज़ेब: आलमगीर, 1679 जज़िया पुनः, दक्षिण अभियान<br>Aurangzeb: Alamgir, Jaziya 1679"]
+
+    RK --> R1["विजयनगर (1336): हरिहर-बुक्का, हम्पी राजधानी<br>Vijayanagar: Harihara & Bukka, Hampi"]
+    RK --> R2["कृष्णदेवराय: अमुक्तमाल्यदा, अष्टदिग्गज<br>Krishnadeva Raya: Amuktamalyada"]
+    RK --> R3["तालीकोटा युद्ध (1565): विजयनगर का पतन<br>Battle of Talikota 1565"]
+    RK --> R4["बहमनी राज्य (1347): अलाउद्दीन बहमन शाह, गुलबर्गा<br>Bahmani Kingdom: Gulbarga, Bidar"]
+    RK --> R5["मराठा साम्राज्य: छत्रपति शिवाजी, अष्टप्रधान, चौथ<br>Marathas: Shivaji, Ashtapradhan, Chauth"]
+
+    AA --> A1["प्रशासन: इक्ता (सल्तनत), मनसबदारी व ज़ब्ती (मुग़ल)<br>Admin: Iqta, Mansabdari, Zabti"]
+    AA --> A2["अमीर ख़ुसरो: 'तूती-ए-हिंद', सितार-तबला, क़व्वाली<br>Amir Khusrau: Parrot of India"]
+    AA --> A3["भक्ति व सूफ़ी आंदोलन: कबीर, गुरु नानक, चिश्ती संप्रदाय<br>Bhakti & Sufi: Kabir, Nanak, Chishti"]
+
+    TR --> T1["कालानुक्रम: गुलाम-खिलजी-तुगलक-सैयद-लोदी<br>Chronology: G-K-T-S-L"]
+    TR --> T2["समान नाम: इल्तुतमिश vs ऐबक (मीनार निर्माण)<br>Similar Names: Aibak vs Iltutmish"]
+    TR --> T3["लगभग सही: आगरा सिकंदर लोदी ने बसाया (अकबर ने नहीं)<br>Almost True: Agra founded by Sikandar Lodi"]
+    TR --> T4["15/45 सेकंड: सीधे तथ्य 15s, कथन/मिलान 45s<br>Strategy: 15s for one-liners, 45s for matching"]
+```

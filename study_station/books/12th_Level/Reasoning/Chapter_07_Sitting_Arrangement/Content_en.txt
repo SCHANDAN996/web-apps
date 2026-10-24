@@ -1,0 +1,162 @@
+# Sitting Arrangement (Intermediate)
+
+## Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Solve **circular arrangements** where people face inward AND outward (mixed facing).
+2. Handle **rectangular/square tables** with people at corners and sides.
+3. Crack **two-row parallel arrangements** (people facing each other).
+4. Manage **extra variables** — like each person having a different city, colour, or profession.
+5. Use a fixed, repeatable method so you never panic in the exam hall.
+
+---
+
+## The Hook: One Diagram Is Worth Ten Lines of Reading
+
+Imagine this. The examiner gives you 8 lines of clues about 8 friends sitting around a table. Most students read the clues again and again — 4 minutes gone, nothing solved. The topper? She draws one circle, marks 8 seats, and starts *placing* people. In 90 seconds, the whole arrangement is on paper, and all 5 questions are free marks.
+
+That is the entire secret of Sitting Arrangement: **stop reading, start drawing.** This chapter teaches you exactly how.
+
+---
+
+## We Know the Struggle
+
+Almost every aspirant says the same three things:
+
+- "The clues contradict each other in my head."
+- "I make the diagram, but one clue breaks everything."
+- "Facing outward vs inward confuses me completely."
+
+Relax. These problems come from **one root cause**: trying to hold the arrangement in your memory instead of on paper. Once everything lives on the diagram, the confusion disappears. Let's build the skill chunk by chunk.
+
+---
+
+## Chunk 1: The Golden Method (Works for Every Question)
+
+Follow these 5 steps, in this order, every single time:
+
+**Step 1 — Draw the frame first.** Circle, square, or two parallel lines. Mark the seats. Mark the facing direction with small arrows.
+
+**Step 2 — Hunt for the "anchor clue."** An anchor clue fixes someone's exact position: *"A sits at the head of the table"* or *"P is second to the right of Q"* (once Q is placed). Start with the most definite clue.
+
+**Step 3 — Place relatives, not absolutes.** Clues like *"B is third to the left of A"* only work after A is placed. Chain them one by one.
+
+**Step 4 — Use "negative clues" to eliminate.** *"C is NOT next to D"* doesn't place anyone, but it kills wrong possibilities. Write it beside the diagram.
+
+**Step 5 — If two cases are possible, draw both.** Solve until one case breaks a clue. Delete it. Never guess between cases in your head.
+
+🧠 **Active Recall:** Without looking above — what are the 5 steps of the Golden Method? Say them aloud. Which step do most students skip? (Step 5 — and that's where marks are lost.)
+
+---
+
+## Chunk 2: Circular Arrangement — Mixed Facing (The Intermediate Upgrade)
+
+In basic circles, everyone faces the centre. At the intermediate level, **some face inward, some face outward**. This changes everything about left and right.
+
+**The one rule to memorise:**
+
+- Facing the **centre (inward)** → their **right is clockwise**, their **left is anti-clockwise**.
+- Facing **outside (outward)** → their **right is anti-clockwise**, their **left is clockwise**.
+
+**Mnemonic — "IN-CR, OUT-AR":**
+> **IN**ward → **C**lockwise **R**ight. **OUT**ward → **A**nti-clockwise **R**ight.
+
+Say it three times: *IN-CR, OUT-AR.* You'll never mix up directions again.
+
+**Worked mini-example:** 6 people around a circle, A faces outward. Who is on A's immediate right? Since A faces outward, A's right = anti-clockwise direction. So the person sitting anti-clockwise next to A is on A's right.
+
+🧠 **Active Recall:** If B faces the centre, is B's left clockwise or anti-clockwise? (Anti-clockwise — because inward means right is clockwise, so left is anti-clockwise.)
+
+---
+
+## Chunk 3: Rectangular & Square Tables
+
+Typical setup: 8 people — 4 at corners, 4 at the middle of sides. Facing can be inward or outward.
+
+Key facts to remember:
+
+- A person at a **corner** has exactly **2 neighbours**.
+- A person at the **middle of a side** has exactly **2 neighbours** too, but "opposite" means the middle of the facing side.
+- "Sits opposite" is a strong anchor clue — use it early.
+- Corner people facing inward: their left/right still follows IN-CR, OUT-AR along the table's edge.
+
+**Pro tip:** Number the seats 1–8 clockwise on your diagram. Then clues like "third to the right" become simple counting.
+
+---
+
+## Chunk 4: Two Parallel Rows (Facing Each Other)
+
+Setup: Row 1 faces **south**, Row 2 faces **north** (or vice versa), and each person faces exactly one person in the other row.
+
+The trap here is left-right reversal:
+
+- A person facing **south**: their right hand points **west** (your left on paper).
+- A person facing **north**: their right hand points **east** (your right on paper).
+
+**Simple hack:** For the row facing south, *flip* your sense of left and right. Many toppers write a small "R→" arrow above each row showing which way "right" goes for that row. Do this — it takes 3 seconds and saves 3 marks.
+
+🧠 **Active Recall:** In a row facing south, if X is "second to the right" of Y, does X appear to the left or right of Y on your paper? (To the left — because their right is your left.)
+
+---
+
+## Chunk 5: Extra Variables (Person + City + Colour)
+
+Intermediate questions add a second layer: *"The one who likes red sits second to the left of the doctor."*
+
+Method:
+
+1. Solve the **seating skeleton first** — get every person into a seat.
+2. Then attach the extra variable (city/colour/profession) clue by clue, writing it under each name.
+3. If a variable clue also fixes a seat (e.g., "the Delhi person sits at a corner"), use it as an anchor earlier.
+
+Never try to solve persons and variables simultaneously — one layer at a time.
+
+---
+
+## Chunk 6: The "Two Cases" Discipline
+
+When a clue gives you a choice ("P sits either second or third to the left of Q"), do this:
+
+- Draw **Case 1** and **Case 2** side by side, small diagrams.
+- Keep solving both. Usually within 2–3 clues, one case hits a contradiction.
+- Cross out the dead case loudly on paper. Commit fully to the survivor.
+
+Students who keep two cases "in their head" mix them up and answer everything wrong. Paper is cheap; marks are not.
+
+🧠 **Active Recall:** Why should you never merge two possible cases into one diagram? (Because clues from different cases contaminate each other and produce a fake arrangement that "almost" works.)
+
+---
+
+## Summary Table
+
+| Arrangement Type | Key Rule | Biggest Danger |
+|---|---|---|
+| Circle, all inward | Right = clockwise | Miscounting positions |
+| Circle, mixed facing | IN-CR, OUT-AR | Forgetting to flip for outward facers |
+| Square/Rectangle | Corner = 2 neighbours; use "opposite" as anchor | Confusing corner vs side-middle |
+| Two parallel rows | South-facing row: flip left-right | Left-right reversal |
+| Extra variables | Skeleton first, variables second | Solving both layers at once |
+| Two possible cases | Draw both, kill one | Merging cases mentally |
+
+---
+
+## ⚠️ Caution: Examiner's Trap
+
+**Trap 1 — The "almost right" arrangement.** The examiner designs options so that if you misread even ONE clue (e.g., "second to the right" read as "second to the left"), the whole arrangement still looks neat — and matches a wrong option. **Defence:** After solving, re-check your diagram against every single clue before touching the questions. 20 seconds of checking saves 5 questions.
+
+**Trap 2 — Confusing language and double relationships.** Phrases like *"R sits between the one who faces P and the one who is opposite Q"* are deliberately heavy. **Defence:** Translate each heavy sentence into a small symbol note on your diagram immediately (e.g., write "R: between X & Y"). Never carry a complicated sentence in your head.
+
+**Trap 3 — Mixed facing hidden in plain sight.** The clue *"some face the centre, some face outside"* appears once, early in the paragraph, and students forget it by clue number 4. **Defence:** The moment you read facing directions, draw arrows on every seat FIRST, before placing a single person.
+
+---
+
+## Review This After 2 Days
+
+Come back to this chapter after 48 hours and do three things without re-reading first:
+
+1. Write the 5 steps of the Golden Method from memory.
+2. Explain IN-CR, OUT-AR to an imaginary friend.
+3. Redraw the summary table on a blank page.
+
+Whatever you forgot — that's exactly what to revise. Then move to the Practice Sets.

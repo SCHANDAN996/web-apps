@@ -1,0 +1,46 @@
+```mermaid
+graph TD
+    A["सरकारी योजनाएँ और पहल<br>Government Schemes & Initiatives"] --> B["प्रमुख क्षेत्र<br>Major Sectors"]
+    A --> C["योजना की पहचान<br>Scheme Identification"]
+    A --> D["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> E["रणनीति<br>Strategy"]
+
+    B --> B1["कृषि एवं किसान<br>Agriculture & Farmers"]
+    B --> B2["स्वास्थ्य<br>Health"]
+    B --> B3["शिक्षा<br>Education"]
+    B --> B4["आवास एवं शहरी विकास<br>Housing & Urban Development"]
+    B --> B5["वित्तीय समावेशन<br>Financial Inclusion"]
+    B --> B6["रोजगार एवं कौशल<br>Employment & Skill"]
+    B --> B7["महिला एवं बाल कल्याण<br>Women & Child Welfare"]
+    B --> B8["डिजिटल एवं ऊर्जा<br>Digital & Energy"]
+
+    B1 --> B1a["PM-KISAN<br>प्रधानमंत्री किसान सम्मान निधि"]
+    B1 --> B1b["PMFBY<br>फसल बीमा योजना"]
+    B2 --> B2a["आयुष्मान भारत (PM-JAY)<br>Ayushman Bharat"]
+    B3 --> B3a["PM-POSHAN<br>मध्याह्न भोजन"]
+    B4 --> B4a["PM आवास योजना<br>ग्रामीण + शहरी"]
+    B5 --> B5a["जन धन योजना<br>Jan Dhan Yojana"]
+    B5 --> B5b["मुद्रा योजना<br>MUDRA: शिशु/किशोर/तरुण"]
+    B6 --> B6a["MGNREGA<br>मनरेगा"]
+    B6 --> B6b["कौशल भारत<br>Skill India / PMKVY"]
+    B7 --> B7a["बेटी बचाओ बेटी पढ़ाओ<br>BBBP"]
+    B7 --> B7b["सुकन्या समृद्धि योजना<br>Sukanya Samriddhi"]
+    B8 --> B8a["डिजिटल इंडिया<br>Digital India"]
+    B8 --> B8b["उज्ज्वला योजना<br>Ujjwala (LPG)"]
+
+    C --> C1["मंत्रालय कौन सा?<br>Which Ministry?"]
+    C --> C2["कब शुरू हुई?<br>Launch Year"]
+    C --> C3["लाभार्थी कौन?<br>Target Beneficiaries"]
+    C --> C4["केंद्रीय vs राज्य योजना<br>Central vs State Scheme"]
+
+    D --> D1["मिलते-जुलते नाम<br>Similar Names<br>(PM-JAY vs PM-JBY)"]
+    D --> D2["वर्ष का भ्रम<br>Year Confusion"]
+    D --> D3["मंत्रालय बदलाव<br>Ministry Mix-up"]
+    D --> D4["लगभग-सही कथन<br>Almost-True Statements"]
+    D --> D5["नकारात्मक वाक्य<br>NOT/EXCEPT Questions"]
+
+    E --> E1["करंट अफेयर्स से जोड़ें<br>Link with Current Affairs"]
+    E --> E2["मंत्रालय-वार सूची बनाएँ<br>Ministry-wise List"]
+    E --> E3["शुरुआती वर्ष याद रखें<br>Remember Launch Years"]
+    E --> E4["नियमित रिवीजन<br>Regular Revision"]
+```

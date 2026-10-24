@@ -1,0 +1,45 @@
+```mermaid
+graph TD
+    A["Adverb<br>क्रियाविशेषण"] --> B["Definition"]
+    A --> C["Types"]
+    A --> D["Position Rules"]
+    A --> E["Comparison"]
+    A --> F["12 Golden Rules"]
+    A --> G["Examiner's Traps"]
+    A --> H["Strategies"]
+
+    B --> B1["Modifies Verb, Adjective,<br>or another Adverb"]
+    B --> B2["Answers: How? When?<br>Where? How much?"]
+
+    C --> C1["Manner: slowly, well"]
+    C --> C2["Time: now, yesterday, soon"]
+    C --> C3["Place: here, there, everywhere"]
+    C --> C4["Frequency: always, often, never"]
+    C --> C5["Degree: very, quite, too, almost"]
+    C --> C6["Sentence: luckily, obviously"]
+
+    D --> D1["Frequency adverbs: before main verb<br>He always comes late"]
+    D --> D2["But after 'be' verb<br>He is always late"]
+    D --> D3["Enough comes AFTER adj/adv<br>good enough, fast enough"]
+    D --> D4["Order: Manner + Place + Time<br>He sang well at home yesterday"]
+
+    E --> E1["Positive: fast, well"]
+    E --> E2["Comparative: faster, better"]
+    E --> E3["Superlative: fastest, best"]
+    E --> E4["Irregular: well-better-best,<br>badly-worse-worst"]
+
+    F --> F1["Adverb modifies verb, not noun"]
+    F --> F2["No adverb after linking verbs<br>She looks happy (not happily)"]
+    F --> F3["Hard vs Hardly<br>Fast vs Fastly (wrong!)"]
+    F --> F4["Very + positive, Much + comparative"]
+    F --> F5["Too = negative sense<br>too tired to work"]
+
+    G --> G1["Sound-Right Trap:<br>'He runs fastly' ❌ → fast ✓"]
+    G --> G2["Hardly = barely (negative)<br>He works hardly ❌ → hard ✓"]
+    G --> G3["Lately vs Late<br>lately = recently"]
+    G --> G4["Only placement changes meaning<br>Only he said vs He only said"]
+
+    H --> H1["15-sec: Spot -ly forms,<br>hard/hardly, enough position"]
+    H --> H2["45-sec: Meaning-based<br>too/enough, only placement"]
+    H --> H3["Mnemonic: MPT order<br>'My Pet Tiger'<br>Manner-Place-Time"]
+```

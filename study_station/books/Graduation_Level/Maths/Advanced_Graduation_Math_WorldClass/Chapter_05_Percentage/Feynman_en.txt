@@ -1,0 +1,78 @@
+# Feynman Explanation: The Hardest Idea in Percentage
+
+## The Concept That Tricks Everyone: "Percentage of a Percentage" (Successive Change)
+
+Ask most students this: *"A price goes UP by 20%, then comes DOWN by 20%. Is it back where it started?"*
+
+Almost everyone says **yes**. Almost everyone is **wrong**. Let's see why — with pizza. 🍕
+
+---
+
+## The Pizza Story
+
+Meet Ravi. Ravi has **100 rupees** (a nice round number — remember this, it's our secret weapon).
+
+**Monday:** Ravi's money **increases by 20%**.
+- 20% of 100 = 20
+- Ravi now has **120 rupees**. 🎉
+
+**Tuesday:** Ravi's money **decreases by 20%**.
+- Here's the trap! 20% of *what*?
+- Not 20% of 100 — that money is gone. Now it's 20% of **120**.
+- 20% of 120 = 24
+- Ravi now has 120 − 24 = **96 rupees**. 😢
+
+Ravi went up 20% and down 20%... and **lost 4 rupees**. Where did they go?!
+
+**The secret:** Percentages don't have a fixed size. A percentage is like a rubber band — it stretches or shrinks depending on **what it's holding onto**. The "up 20%" grabbed onto 100. The "down 20%" grabbed onto 120. Same 20%, different victims.
+
+---
+
+## The Elevator Rule 🛗
+
+Think of percentage change like an elevator:
+
+> **Going up 1 floor and coming down 1 floor brings you home — but only if the floors are the same height. In percentages, every floor is a DIFFERENT height, because each floor is measured from where you're standing right now.**
+
+So: **+20% then −20% ≠ 0**. It always leaves you slightly **lower** than where you started.
+
+---
+
+## The Unforgettable Trick: "The 100 Trick" 💯
+
+Whenever a problem says "increases by X%, then changes by Y%", don't panic. Just **pretend the starting number is 100** — always.
+
+- Start: 100
+- Apply the first change to 100
+- Apply the second change to the *new* number
+- Whatever you end with **is your answer in percent**. Done. No algebra needed.
+
+**Speed version (the formula):**
+$$\text{Net change} = a + b + \frac{ab}{100}$$
+(Use + for increase, − for decrease.)
+
+Check Ravi: +20 + (−20) + (20 × −20)/100 = 20 − 20 − 4 = **−4%**. Ravi lost 4%. Matches the pizza story! ✅
+
+**Memory hook:** *"Same up, same down — you still frown."* 😟
+Equal percentage up and down **always** ends in a small loss, and the loss is exactly $\frac{x^2}{100}\%$. For 20%: 400/100 = **4% loss**. For 10%: **1% loss**. For 50%: **25% loss**.
+
+---
+
+## Why Toppers Love This
+
+Examiners hide this trap everywhere:
+- Population grows 10%, then falls 10% → net?
+- Salary cut 25%, then raised 25% → back to normal? (No! 6.25% poorer.)
+- Area of a rectangle: length +10%, breadth −10% → area drops 1%.
+
+Once you see the rubber band, you can never be fooled again.
+
+---
+
+## 🧠 Your Turn (The Feynman Test)
+
+Explain this to a friend — or your wall — in your own words:
+
+> **A shopkeeper raises the price of a toy by 25%, then offers a 25% discount and claims "It's back to the original price!" Is he honest, or is he quietly cheating you — and by exactly how much?**
+
+If you can answer that without a formula, using the 100 Trick, you've truly understood percentages. That's the Feynman way: *if you can't explain it simply, you don't understand it yet.*

@@ -1,0 +1,45 @@
+# Important Rules & Approaches — Syllogism
+
+## Part 1: Key Rules/Approaches
+
+| Rule Name | Description | Example |
+|---|---|---|
+| Venn Diagram Method | Draw circles for each term; shade/mark the relation given in each statement; check if the conclusion holds in ALL possible diagrams. | "All A are B" → circle A fully inside circle B. |
+| "All" Rule | All A are B means every A is B, but NOT every B is A (B may be bigger). | All cats are animals ≠ All animals are cats. |
+| "Some" Rule | Some A are B means at least one A is B; it never confirms "All". | Some pens are red does not mean all pens are red. |
+| "Some Not" Rule | Some A are not B is a definite statement: at least one A lies outside B. Mark it with an X in the part of A that is outside B. It does NOT mean "Some A are B" is also true, and it never confirms "No A is B". | Some students are not players → at least one student is definitely outside the players circle. |
+| "No" Rule | No A is B is fully reversible: No B is A is always true. | No dog is a cat → No cat is a dog. |
+| Conversion Rule | "No A is B" → "No B is A" (valid); "Some A are B" → "Some B are A" (valid); "All A are B" → only "Some B are A" (valid). | All boys are tall → Some tall are boys. ✔ |
+| Definite vs Possible Conclusion | A definite conclusion must be true in every diagram; a possibility is true if it holds in at least one diagram without violating statements. | "Some A being C is a possibility" — check if any diagram allows it. |
+| Middle Term Rule | The term common to both statements (middle term) links the other two; conclusions join the non-common terms. | All A are B + All B are C → middle term B → All A are C. |
+| Two Negatives Rule | Two negative statements (No / Some not) never give a definite positive conclusion. | No A is B + No B is C → no definite conclusion between A and C. |
+| Two Particulars Rule | Two "Some" statements never give a definite conclusion. | Some A are B + Some B are C → no definite conclusion. |
+| Negative Statement Rule | If any statement is negative, a definite conclusion (if any) must also be negative. | All A are B + No B is C → No A is C. |
+| Complementary Pair (Either–Or) | Either–Or applies only when: (1) both conclusions are individually false, (2) same subject & predicate, (3) one positive + one negative (Some / No pair or All / Some-not pair). | "Some A are B" + "No A is B" → Either I or II follows. |
+| Only / Only a Few Rule | "Only A are B" = All B are A. "Only a few A are B" = Some A are B + Some A are not B. | Only men are doctors → All doctors are men. |
+| At Least / At Most Rule | "At least some A are B" = Some A are B. Treat "at least" as "some". | At least some pens are blue = Some pens are blue. |
+| 100–50 Rule (Distribution) | "All" distributes 100% of the subject; "Some" covers 50% (part); conclusions cannot exceed what statements distribute. | From "All A are B", you cannot conclude "All B are A". |
+
+## Part 2: Time Management
+
+| Situation | Time Rule | Action |
+|---|---|---|
+| Reading statements & identifying terms | First 15 seconds | Identify the middle term and statement types (All/Some/No). If the structure is not clear in 15 sec, mark and move on. |
+| Drawing Venn diagram | Next 15–20 seconds | Draw the standard diagram quickly; do not redraw repeatedly. |
+| Checking conclusions | Final 10–15 seconds | Test each conclusion against the diagram; for "possibility" questions, try one alternate diagram. |
+| Total per question | 45 seconds max | If not solved in 45 sec, skip and return later — syllogism questions are equal-mark; don't lose 3 easy questions for 1 hard one. |
+| Either–Or / Possibility questions | Extra caution, still ≤ 45 sec | These are trap-heavy; if confused after one alternate diagram, skip rather than guess. |
+
+## Part 3: Logical/Mathematical Formulas
+
+| Formula | Meaning |
+|---|---|
+| All A are B + All B are C → All A are C | Universal affirmative chain (always valid). |
+| All A are B + No B is C → No A is C | Universal + negative → negative conclusion. |
+| No A is B ⇔ No B is A | Full conversion of "No". |
+| Some A are B ⇔ Some B are A | Full conversion of "Some". |
+| All A are B → Some B are A | Partial conversion of "All" (only "Some" is valid). |
+| Some A are not B → (no conversion valid) | "Some not" cannot be converted; "Some B are not A" does NOT follow. |
+| Some + Some → No definite conclusion | Two particular statements give nothing definite. |
+| No + No → No definite conclusion | Two negative statements give nothing definite. |
+| Only A are B ≡ All B are A | "Only" reverses the direction. |

@@ -1,0 +1,148 @@
+# 🪄 Short Tricks & Mnemonics — Quadratic Equations & Series
+
+---
+
+**🎯 Trick 1: The "S-P" Factor Finder**
+
+> **"Split the Product, Sum it back!"**
+
+To factor x² + bx + c: find two numbers whose **P**roduct = c and **S**um = b.
+Memory hook: **"P before S — multiply first, add to check."**
+Example: x² + 7x + 12 → numbers 3 & 4 (3×4=12, 3+4=7) → (x+3)(x+4).
+
+---
+
+**🎯 Trick 2: Discriminant = "The Judge D"**
+
+> **"D decides the Destiny of roots!"**
+
+D = b² − 4ac
+- D > 0 → **Two** real roots ("Positive = Pair")
+- D = 0 → **One** repeated root ("Zero = Zipped together")
+- D < 0 → **No** real roots ("Negative = No-show")
+
+Mnemonic: **"Positive Pair, Zero Zip, Negative Nope!"**
+
+---
+
+**🎯 Trick 3: Sum & Product of Roots — "Minus b, Plain c"**
+
+> **"Sum flips the sign, Product keeps it fine."**
+
+For ax² + bx + c = 0:
+- Sum of roots = **−b/a** (the MINUS belongs to Sum)
+- Product of roots = **c/a** (plain, no sign change)
+
+Mnemonic: **"S is Shy (hides behind minus), P is Proud (stands plain)."**
+
+---
+
+**🎯 Trick 4: Quadratic Formula Song**
+
+> Sing to the tune of "Pop Goes the Weasel":
+> **"x equals minus b, plus or minus square root, b-squared minus 4ac, all over 2a!"**
+
+Sing it 3 times — you'll never forget x = [−b ± √(b²−4ac)] / 2a.
+
+---
+
+**🎯 Trick 5: AP nth Term — "a + (n−1)d = 'AND'"**
+
+> **"A N D — A, then N-minus-1, times D."**
+
+Tₙ = a + (n−1)d
+Memory hook: The formula literally spells **AND**: **A** + (**N**−1)**D**.
+Trap alert: it's (n−1), not n — "The first term is already free, so pay for one less!"
+
+---
+
+**🎯 Trick 6: AP Sum — "First + Last, times Half the Count"**
+
+> **"Average the ends, multiply by friends!"**
+
+Sₙ = n/2 × (first term + last term) = n/2 (a + l)
+Mnemonic: **"Gauss's Sandwich"** — pair the first and last like bread slices; every pair tastes the same!
+
+---
+
+**🎯 Trick 7: GP nth Term — "a times r to the (n−1)"**
+
+> **"Ratios Repeat, Power Retreats by one."**
+
+Tₙ = arⁿ⁻¹
+Memory hook: **"The exponent is always one step BEHIND the term number"** — term 5 wears power 4.
+
+---
+
+**🎯 Trick 8: GP Sum — "r−1 Down Under"**
+
+> **"Bigger ratio minus one, sits below the gun."**
+
+Sₙ = a(rⁿ − 1)/(r − 1) when r > 1; flip both if r < 1.
+Mnemonic: **"Whatever sign is on top, the same sign lives below"** — (rⁿ−1)/(r−1) or (1−rⁿ)/(1−r). Never mix!
+
+---
+
+**🎯 Trick 9: Infinite GP — "a over One-minus-r"**
+
+> **"Infinity shrinks when r is a fraction!"**
+
+S∞ = a/(1 − r), valid only when |r| < 1.
+Memory hook: **"Small r, Sum exists; Big r, Runs away!"** (|r| ≥ 1 → sum explodes, don't even try.)
+
+---
+
+**🎯 Trick 10: Nature of Roots by Signs — "Same Sign c, Same Sign Roots"**
+
+> If c/a is **positive** → roots have the **same** sign (both + or both −).
+> If c/a is **negative** → roots have **opposite** signs.
+
+Mnemonic: **"Product Positive = Partners; Product Negative = Polar opposites."**
+
+---
+
+**🎯 Trick 11: Forming an Equation from Roots — "x² − Sx + P"**
+
+> **"Square, Subtract the Sum, Plus the Product — SSP!"**
+
+Equation = x² − (Sum)x + (Product) = 0
+Memory hook: **"SSP — Super Speedy Polynomial"**: x² **S**ubtract-**S**um, **P**lus-**P**roduct.
+
+---
+
+**🎯 Trick 12: Sum of First n Naturals — "n(n+1)/2 = 'N and its Neighbour'"**
+
+> **"N times its Next-door Neighbour, cut in Half."**
+
+1 + 2 + … + n = n(n+1)/2
+- Squares: n(n+1)(2n+1)/6 → **"N, Neighbour, Double-N-plus-1, over 6"**
+- Cubes: [n(n+1)/2]² → **"Just square the plain sum!"** (Cubes = Sum² — the easiest upgrade in maths!)
+
+---
+
+**🎯 Trick 13: AM ≥ GM — "Arithmetic Always Above"**
+
+> **"A beats G (or ties) — Arithmetic Always Above Geometric."**
+
+(a+b)/2 ≥ √(ab), equality only when a = b.
+Memory hook: **"A comes before G in the alphabet AND in value."**
+Exam use: if product is fixed, sum is minimum when numbers are equal.
+
+---
+
+**🎯 Trick 14: AP Middle-Term Shortcut — "Odd terms? Middle × Count!"**
+
+> For an AP with odd number of terms: **Sum = middle term × number of terms**.
+
+Example: 5 terms, middle = 10 → Sum = 50. Done in 3 seconds!
+Mnemonic: **"The middle term is the average of the whole family."**
+
+---
+
+**🎯 Trick 15: Root-Sign Quick Check — "DESCARTES' Flip Counter"**
+
+> Count sign changes in f(x) → max number of **positive** roots.
+> Count sign changes in f(−x) → max number of **negative** roots.
+
+Mnemonic: **"Every FLIP is a possible PLUS."**
+Example: x² − 5x + 6 → signs + − + = 2 flips → up to 2 positive roots (indeed 2 and 3!).

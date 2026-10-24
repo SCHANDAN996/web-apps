@@ -1,0 +1,55 @@
+```mermaid
+graph TD
+    A["घड़ी और कैलेंडर<br>Clock & Calendar"] --> B["घड़ी<br>Clock"]
+    A --> C["कैलेंडर<br>Calendar"]
+
+    B --> B1["मूल तथ्य<br>Basic Facts"]
+    B1 --> B1a["मिनट सुई: 6°/मिनट<br>Minute hand: 6°/min"]
+    B1 --> B1b["घंटा सुई: 0.5°/मिनट<br>Hour hand: 0.5°/min"]
+    B1 --> B1c["सापेक्ष चाल: 5.5°/मिनट<br>Relative speed: 5.5°/min"]
+
+    B --> B2["कोण सूत्र<br>Angle Formula"]
+    B2 --> B2a["कोण = |30H − 5.5M|<br>Angle = |30H − 5.5M|"]
+    B2 --> B2b[">180° हो तो 360° में से घटाएँ<br>If >180°, subtract from 360°"]
+
+    B --> B3["विशेष स्थितियाँ<br>Special Positions"]
+    B3 --> B3a["एक साथ (0°): हर 65 5/11 मिनट<br>Together: every 65 5/11 min"]
+    B3 --> B3b["विपरीत (180°): 11 बार/12 घंटे<br>Opposite: 11 times/12 hrs"]
+    B3 --> B3c["समकोण (90°): 22 बार/12 घंटे<br>Right angle: 22 times/12 hrs"]
+
+    B --> B4["दर्पण व जल प्रतिबिंब<br>Mirror & Water Image"]
+    B4 --> B4a["दर्पण: 11:60 − समय<br>Mirror: 11:60 − time"]
+    B4 --> B4b["जल: 18:30 − समय<br>Water: 18:30 − time"]
+
+    B --> B5["तेज/धीमी घड़ी<br>Fast/Slow Clock"]
+    B5 --> B5a["लाभ-हानि का अनुपातिक हिसाब<br>Proportion of gain/loss"]
+
+    C --> C1["विषम दिन<br>Odd Days"]
+    C1 --> C1a["साधारण वर्ष = 1<br>Ordinary year = 1"]
+    C1 --> C1b["लीप वर्ष = 2<br>Leap year = 2"]
+    C1 --> C1c["100 वर्ष = 5, 200 = 3, 300 = 1, 400 = 0<br>Century odd days"]
+
+    C --> C2["लीप वर्ष नियम<br>Leap Year Rule"]
+    C2 --> C2a["4 से भाज्य, पर 100 से भाज्य हो<br>तो 400 से भी भाज्य हो<br>Divisible by 4; century by 400"]
+
+    C --> C3["दिन ज्ञात करना<br>Finding the Day"]
+    C3 --> C3a["कुल विषम दिन ÷ 7 का शेषफल<br>Total odd days mod 7"]
+    C3 --> C3b["0=रविवार … 6=शनिवार<br>0=Sunday … 6=Saturday"]
+
+    C --> C4["महीने के कोड<br>Month Codes"]
+    C4 --> C4a["जन 0, फर 3, मार्च 3, अप्रै 6, मई 1,<br>जून 4, जुलाई 6, अग 2, सित 5,<br>अक्टू 0, नव 3, दिस 5"]
+
+    C --> C5["कैलेंडर पुनरावृत्ति<br>Calendar Repetition"]
+    C5 --> C5a["साधारण: 6 या 11 वर्ष<br>लीप: 28 वर्ष"]
+
+    A --> D["रणनीति<br>Strategy"]
+    D --> D1["सूत्र पहले, गणना बाद में<br>Formula first, calculate later"]
+    D --> D2["30–45 सेकंड/प्रश्न<br>30–45 sec/question"]
+    D --> D3["लंबी तारीख गणना = skip विकल्प<br>Long date sums = skip option"]
+
+    A --> E["परीक्षक के जाल<br>Examiner Traps"]
+    E --> E1["12 घंटे में 12 बार नहीं, 11 बार<br>11 times, not 12, in 12 hrs"]
+    E --> E2["1900 लीप नहीं, 2000 लीप है<br>1900 not leap, 2000 is leap"]
+    E --> E3["दर्पण में 12:00 − समय की गलती<br>Wrong 12:00 − time in mirror"]
+    E --> E4["कोण >180° पर छोटा कोण चुनना<br>Take smaller angle if >180°"]
+```

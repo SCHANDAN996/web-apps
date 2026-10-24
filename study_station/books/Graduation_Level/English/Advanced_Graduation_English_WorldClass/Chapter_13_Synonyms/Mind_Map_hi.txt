@@ -1,0 +1,33 @@
+```mermaid
+graph TD
+    A["पर्यायवाची<br>Synonyms"] --> B["अवधारणा"]
+    A --> C["मूल शब्द<br>Roots"]
+    A --> D["रणनीति"]
+    A --> E["परीक्षक के जाल"]
+    A --> F["समय प्रबंधन"]
+
+    B --> B1["समान अर्थ वाले शब्द<br>लेकिन सूक्ष्म भेद"]
+    B --> B2["शब्द + संदर्भ = सही उत्तर"]
+    B --> B3["Tone: सकारात्मक / नकारात्मक / तटस्थ"]
+
+    C --> C1["bene = अच्छा<br>benefit, benevolent"]
+    C --> C2["mal = बुरा<br>malice, malignant"]
+    C --> C3["dict = बोलना<br>predict, verdict"]
+    C --> C4["port = ले जाना<br>transport, export"]
+    C --> C5["cred = विश्वास<br>credible, credit"]
+    C --> C6["chron = समय<br>chronology, chronic"]
+
+    D --> D1["वाक्य में शब्द रखकर जाँचो"]
+    D --> D2["विकल्प हटाओ<br>Elimination"]
+    D --> D3["Tone मिलान करो"]
+    D --> D4["Root से अर्थ अनुमान<br>Detective Approach"]
+
+    E --> E1["Sound-Right जाल<br>सुनने में सही, अर्थ में गलत"]
+    E --> E2["आंशिक पर्याय<br>आधा अर्थ मिलता, पूरा नहीं"]
+    E --> E3["Over-thinking<br>सरल उत्तर को नज़रअंदाज़ करना"]
+    E --> E4["विलोम से भ्रम<br>Antonym को Synonym समझना"]
+
+    F --> F1["तथ्यात्मक प्रश्न<br>15 सेकंड"]
+    F --> F2["संदर्भ / अनुमान प्रश्न<br>45 सेकंड"]
+    F --> F3["अनजाना शब्द?<br>Skip करो, बाद में आओ"]
+```

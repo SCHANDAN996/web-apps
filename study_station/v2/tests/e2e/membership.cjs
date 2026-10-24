@@ -1,0 +1,28 @@
+const assert=require('node:assert/strict');
+const {chromium}=require(process.env.PLAYWRIGHT_PATH || 'C:/Users/Admin/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+(async()=>{
+const browser=await chromium.launch({channel:'chrome',headless:true});
+const context=await browser.newContext({viewport:{width:360,height:740}});
+await context.addCookies([{name:'ss_lang',value:'en',url:'http://127.0.0.1:8773'}]);
+const page=await context.newPage(); const errors=[];page.on('pageerror',e=>errors.push(e.message));
+await page.goto('http://127.0.0.1:8773/membership?lang=en');
+await assert.equal(await page.locator('a[href^="/classroom?return_to"]').count(),1);
+const name='trialui'+Date.now();
+let signup=await context.request.post('http://127.0.0.1:8773/api/v1/classroom/signup',{data:{username:name,password:'only-local-trial-test'}});
+assert.equal(signup.status(),200,await signup.text());
+await page.reload();
+const start=page.locator('[data-membership-start]');
+await start.waitFor({state:'visible'});assert.match(await page.locator('[data-membership-status]').innerText(),/3-day/);
+await start.click();await page.waitForFunction(()=>document.querySelector('[data-membership-start]').hidden);
+assert.match(await page.locator('[data-membership-status]').innerText(),/72-hour trial/);
+assert.equal((await context.request.get('http://127.0.0.1:8773/api/v1/membership/status')).status(),200);
+assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+await page.screenshot({path:'C:/Users/Admin/AppData/Local/Temp/ss-membership-en.png',fullPage:true});
+await context.addCookies([{name:'ss_lang',value:'hi',url:'http://127.0.0.1:8773'}]);
+await page.goto('http://127.0.0.1:8773/membership');
+await page.locator('[data-membership-status]').filter({hasText:'72'}).waitFor();
+assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+await page.screenshot({path:'C:/Users/Admin/AppData/Local/Temp/ss-membership-hi.png',fullPage:true});
+assert.deepEqual(errors,[]);console.log('PASS membership signup/explicit activation/HI+EN/360px/no JS errors');
+await browser.close();
+})().catch(e=>{console.error(e);process.exitCode=1;});

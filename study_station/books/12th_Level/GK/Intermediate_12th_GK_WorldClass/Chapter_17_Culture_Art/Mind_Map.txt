@@ -1,0 +1,58 @@
+```mermaid
+graph TD
+    A["भारतीय संस्कृति और कला<br>Indian Culture & Art"] --> B["शास्त्रीय नृत्य<br>Classical Dances"]
+    A --> C["संगीत<br>Music"]
+    A --> D["चित्रकला<br>Paintings"]
+    A --> E["स्थापत्य व मंदिर<br>Architecture & Temples"]
+    A --> F["भाषा व साहित्य<br>Language & Literature"]
+    A --> G["त्योहार व मेले<br>Festivals & Fairs"]
+    A --> H["यूनेस्को धरोहर<br>UNESCO Heritage"]
+    A --> I["परीक्षक के जाल<br>Examiner's Traps"]
+
+    B --> B1["भरतनाट्यम् — तमिलनाडु<br>Bharatanatyam — Tamil Nadu"]
+    B --> B2["कथक — उत्तर प्रदेश<br>Kathak — Uttar Pradesh"]
+    B --> B3["कथकली / मोहिनीअट्टम — केरल<br>Kathakali / Mohiniyattam — Kerala"]
+    B --> B4["कुचिपुड़ी — आंध्र प्रदेश<br>Kuchipudi — Andhra Pradesh"]
+    B --> B5["ओडिसी — ओडिशा<br>Odissi — Odisha"]
+    B --> B6["मणिपुरी — मणिपुर<br>Manipuri — Manipur"]
+    B --> B7["सत्तरिया — असम<br>Sattriya — Assam"]
+    B --> B8["यक्षगान — कर्नाटक का पारंपरिक नृत्य-नाटक (शास्त्रीय नहीं)<br>Yakshagana — Traditional Dance-Theatre of Karnataka (Not Classical)"]
+
+    C --> C1["हिंदुस्तानी — उत्तर भारत<br>Hindustani — North India"]
+    C --> C2["कर्नाटक — दक्षिण भारत<br>Carnatic — South India"]
+    C --> C3["घराने: ग्वालियर, जयपुर, किराना<br>Gharanas: Gwalior, Jaipur, Kirana"]
+    C --> C4["तानसेन — अकबर का दरबारी<br>Tansen — Akbar's Court"]
+
+    D --> D1["अजंता — बौद्ध भित्ति-चित्र<br>Ajanta — Buddhist Murals"]
+    D --> D2["मुगल लघुचित्र<br>Mughal Miniatures"]
+    D --> D3["राजस्थानी / पहाड़ी शैली<br>Rajasthani / Pahari Schools"]
+    D --> D4["मधुबनी — बिहार<br>Madhubani — Bihar"]
+    D --> D5["तंजौर — तमिलनाडु<br>Tanjore — Tamil Nadu"]
+
+    E --> E1["नागर शैली — उत्तर भारत<br>Nagara Style — North India"]
+    E --> E2["द्रविड़ शैली — दक्षिण भारत<br>Dravida Style — South India"]
+    E --> E3["वेसर शैली — मिश्रित (दक्कन)<br>Vesara Style — Mixed (Deccan)"]
+    E --> E4["सांची स्तूप — अशोक काल<br>Sanchi Stupa — Ashoka Era"]
+    E --> E5["कोणार्क सूर्य मंदिर<br>Konark Sun Temple"]
+    E --> E6["खजुराहो — चंदेल वंश<br>Khajuraho — Chandela Dynasty"]
+
+    F --> F1["संविधान की 8वीं अनुसूची — 22 भाषाएँ<br>8th Schedule — 22 Languages"]
+    F --> F2["वेद, उपनिषद, पुराण<br>Vedas, Upanishads, Puranas"]
+    F --> F3["कालिदास — अभिज्ञान शाकुंतलम्<br>Kalidasa — Abhijnanashakuntalam"]
+    F --> F4["संगम साहित्य — तमिल<br>Sangam Literature — Tamil"]
+
+    G --> G1["होली, दिवाली, ईद, क्रिसमस<br>Holi, Diwali, Eid, Christmas"]
+    G --> G2["बिहू — असम | ओणम — केरल<br>Bihu — Assam | Onam — Kerala"]
+    G --> G3["पोंगल — तमिलनाडु<br>Pongal — Tamil Nadu"]
+    G --> G4["कुंभ मेला — 4 स्थान<br>Kumbh Mela — 4 Sites"]
+
+    H --> H1["ताज महल, आगरा किला<br>Taj Mahal, Agra Fort"]
+    H --> H2["हम्पी, पट्टदकल<br>Hampi, Pattadakal"]
+    H --> H3["अमूर्त धरोहर: योग, कुंभ, वैदिक मंत्रोच्चार<br>Intangible: Yoga, Kumbh, Vedic Chanting"]
+
+    I --> I1["जाल: नृत्य ↔ राज्य की गलत जोड़ी<br>Trap: Wrong Dance–State Pair"]
+    I --> I2["जाल: कथकली (केरल) बनाम कथक (उ.प्र.)<br>Trap: Kathakali vs Kathak"]
+    I --> I3["जाल: नागर बनाम द्रविड़ शैली का भ्रम<br>Trap: Nagara vs Dravida Confusion"]
+    I --> I4["जाल: लगभग-सही कथन<br>Trap: Almost-True Statements"]
+    I --> I5["रणनीति: जोड़ी-आधारित प्रश्नों में पहले राज्य जाँचें<br>Strategy: Verify State First in Match Questions"]
+```

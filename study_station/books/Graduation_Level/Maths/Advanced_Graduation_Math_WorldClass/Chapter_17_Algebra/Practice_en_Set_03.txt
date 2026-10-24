@@ -1,0 +1,149 @@
+51. If x + 1/x = 5, then the value of x² + 1/x² is:
+(a) 25 (b) 23 (c) 27 (d) 21
+Answer: (b)
+Solution: The trap is squaring 5 to get 25 directly, forgetting the cross term. Squaring x + 1/x = 5 gives x² + 2 + 1/x² = 25, so x² + 1/x² = 25 − 2 = 23. The answer is 23.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+52. If a + b = 10 and ab = 21, then the value of a³ + b³ is:
+(a) 400 (b) 370 (c) 430 (d) 460
+Answer: (b)
+Solution: Many students cube 10 to get 1000 and stop. Use a³ + b³ = (a + b)³ − 3ab(a + b) = 1000 − 3(21)(10) = 1000 − 630 = 370. The answer is 370.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+53. The roots of the equation x² − 7x + 12 = 0 are:
+(a) −2 and −6 (b) −3 and −4 (c) 2 and 6 (d) 3 and 4
+Answer: (d)
+Solution: The trap is ignoring signs and picking −3, −4, whose sum is −7, not +7. Factorising: (x − 3)(x − 4) = 0, giving x = 3 or x = 4; sum = 7 and product = 12, both matching. The answer is 3 and 4.
+Source: NCERT Class 10 Mathematics (Quadratic Equations)
+
+54. If 2x − 3y = 7 and 3x + 2y = 4, then the value of x is:
+(a) 2 (b) −2 (c) 1 (d) −1
+Answer: (a)
+Solution: A common slip is a sign error while eliminating y. Multiply the first equation by 2 and the second by 3: 4x − 6y = 14 and 9x + 6y = 12. Adding gives 13x = 26, so x = 2. The answer is 2.
+Source: NCERT Class 10 Mathematics (Pair of Linear Equations)
+
+55. If x² + 1/x² = 18, then the value of x − 1/x (x > 1) is:
+(a) 4 (b) 6 (c) 2 (d) 8
+Answer: (a)
+Solution: The tempting error is taking √18 ≈ 4.24 and rounding. Use (x − 1/x)² = x² + 1/x² − 2 = 18 − 2 = 16, so x − 1/x = 4 (positive since x > 1). The answer is 4.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+56. The sum of the roots of 3x² − 12x + 9 = 0 is:
+(a) −3 (b) −4 (c) 3 (d) 4
+Answer: (d)
+Solution: Students often forget to divide by the coefficient of x² and answer 12. Sum of roots = −(−12)/3 = 4. The answer is 4.
+Source: NCERT Class 10 Mathematics (Quadratic Equations)
+
+57. If a − b = 4 and ab = 12, then the value of a² + b² is:
+(a) 32 (b) 16 (c) 40 (d) 24
+Answer: (c)
+Solution: The trap is squaring 4 to get 16 and ignoring ab. Use a² + b² = (a − b)² + 2ab = 16 + 24 = 40. The answer is 40.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+58. For what value of k does the equation x² + kx + 9 = 0 have equal roots?
+(a) 12 (b) 9 (c) 3 (d) 6
+Answer: (d)
+Solution: Equal roots need discriminant zero: k² − 36 = 0, so k = ±6. The trap is answering 9 by confusing the constant term with k. Among the options, the valid value is 6. The answer is 6.
+Source: NCERT Class 10 Mathematics (Quadratic Equations)
+
+59. If x + y = 8 and x − y = 2, then the value of xy is:
+(a) 12 (b) 16 (c) 15 (d) 20
+Answer: (c)
+Solution: Solving gives x = 5, y = 3, so xy = 15. Alternatively, xy = [(x + y)² − (x − y)²]/4 = (64 − 4)/4 = 15. The trap is computing (x+y)(x−y) = 16, which is x² − y², not xy. The answer is 15.
+Source: NCERT Class 10 Mathematics (Pair of Linear Equations)
+
+60. The value of (x + 2)² − (x − 2)² is:
+(a) 2x² + 8 (b) 4x (c) 8 (d) 8x
+Answer: (d)
+Solution: Expanding: (x² + 4x + 4) − (x² − 4x + 4) = 8x. The trap is cancelling everything and answering 0 or 8. The answer is 8x.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+61. If 3^x = 81, then the value of x is:
+(a) 3 (b) 4 (c) 27 (d) 9
+Answer: (b)
+Solution: 81 = 3⁴, so x = 4. The trap is dividing 81 by 3 to get 27, confusing exponent with multiplication. The answer is 4.
+Source: NCERT Class 8 Mathematics (Exponents and Powers)
+
+62. If x² − 5x + 6 = 0 and y² − 5y + 6 = 0 with x ≠ y, then x + y equals:
+(a) 6 (b) 5 (c) −5 (d) 11
+Answer: (b)
+Solution: Since x and y are the two distinct roots 2 and 3, x + y = 5, which is also the sum of roots by Vieta's formula. The trap is adding all four roots 2 + 3 + 2 + 3 = 10 or answering the product 6. The answer is 5.
+Source: NCERT Class 10 Mathematics (Quadratic Equations)
+
+63. If a + b + c = 0, then the value of a³ + b³ + c³ is:
+(a) abc (b) 3abc (c) 0 (d) (a + b + c)³
+Answer: (b)
+Solution: The standard identity: when a + b + c = 0, then a³ + b³ + c³ = 3abc. The trap is answering 0, which holds for the sum, not the sum of cubes. The answer is 3abc.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+64. The solution of (x/2) + (x/3) = 10 is:
+(a) 12 (b) 10 (c) 6 (d) 15
+Answer: (a)
+Solution: Combining: (3x + 2x)/6 = 10, so 5x = 60 and x = 12. The trap is adding denominators wrongly to get x/5 = 10, giving 50, or halving 10 to get 5. The answer is 12.
+Source: NCERT Class 8 Mathematics (Linear Equations in One Variable)
+
+65. If 2x + 3 = 11, then the value of 4x + 5 is:
+(a) 21 (b) 16 (c) 25 (d) 19
+Answer: (a)
+Solution: From 2x + 3 = 11, x = 4. Then 4x + 5 = 16 + 5 = 21. The trap is doubling the whole equation to 4x + 6 = 22 and then misreading it as the answer. The answer is 21.
+Source: NCERT Class 8 Mathematics (Linear Equations in One Variable)
+
+66. The factors of x² + 5x + 6 are:
+(a) (x + 2)(x + 3) (b) (x − 2)(x − 3) (c) (x + 1)(x + 6) (d) (x − 1)(x − 6)
+Answer: (a)
+Solution: We need two numbers with sum 5 and product 6: these are 2 and 3, both positive. The trap is choosing 1 and 6, whose product is 6 but sum is 7. The answer is (x + 2)(x + 3).
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+67. If x = 3 + 2√2, then the value of √x − 1/√x is:
+(a) 4 (b) 2√2 (c) 2 (d) √2
+Answer: (c)
+Solution: Note x = (√2 + 1)², so √x = √2 + 1 and 1/√x = √2 − 1. Their difference is 2. The trap is computing √x + 1/√x = 2√2 instead of the difference. The answer is 2.
+Source: NCERT Class 9 Mathematics (Number Systems)
+
+68. The value of k for which the lines 2x + 3y = 5 and 4x + ky = 10 represent coincident lines is:
+(a) 5 (b) 3 (c) 6 (d) 10
+Answer: (c)
+Solution: For coincident lines, 2/4 = 3/k = 5/10 = 1/2, so k = 6. The trap is matching only the constant ratio and picking 10. The answer is 6.
+Source: NCERT Class 10 Mathematics (Pair of Linear Equations)
+
+69. If x² + y² = 29 and xy = 10, then x + y (positive) equals:
+(a) √29 (b) 9 (c) 7 (d) 49
+Answer: (c)
+Solution: (x + y)² = x² + y² + 2xy = 29 + 20 = 49, so x + y = 7. The trap is answering 49, which is the square, not the sum. The answer is 7.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+70. The discriminant of 2x² − 4x + 3 = 0 is:
+(a) 8 (b) −8 (c) 40 (d) −40
+Answer: (b)
+Solution: Discriminant = b² − 4ac = 16 − 24 = −8, so roots are imaginary. The trap is computing 16 + 24 = 40 by mishandling the minus sign. The answer is −8.
+Source: NCERT Class 10 Mathematics (Quadratic Equations)
+
+71. If (x − 2) is a factor of x² + kx − 6, then k equals:
+(a) 1 (b) −1 (c) 2 (d) −2
+Answer: (a)
+Solution: By the factor theorem, substituting x = 2 gives 4 + 2k − 6 = 0, so 2k = 2 and k = 1. The trap is a sign slip giving k = −1. The answer is 1.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+72. The sum of a number and its reciprocal is 10/3. The number (greater than 1) is:
+(a) 7/3 (b) 1/3 (c) 10/3 (d) 3
+Answer: (d)
+Solution: Let the number be n: n + 1/n = 10/3 gives 3n² − 10n + 3 = 0, so (3n − 1)(n − 3) = 0, giving n = 3 or 1/3. Since the number exceeds 1, it is 3. The trap is picking 1/3, which is the reciprocal. The answer is 3.
+Source: NCERT Class 10 Mathematics (Quadratic Equations)
+
+73. If a² − b² = 45 and a − b = 5, then a + b equals:
+(a) 9 (b) 40 (c) 50 (d) 225
+Answer: (a)
+Solution: a² − b² = (a − b)(a + b), so 45 = 5(a + b), giving a + b = 9. The trap is squaring 5 to get 25 or dividing wrongly to get 40. The answer is 9.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+74. If x + 1/x = 2, then the value of x¹⁰ + 1/x¹⁰ is:
+(a) 1024 (b) 20 (c) 2 (d) 10
+Answer: (c)
+Solution: x + 1/x = 2 implies (x − 1)² = 0, so x = 1. Then x¹⁰ + 1/x¹⁰ = 1 + 1 = 2. The trap is raising 2 to the 10th power to get 1024. The answer is 2.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+75. The ages of two brothers are in the ratio 3 : 5. After 6 years, the ratio becomes 2 : 3. The present age of the younger brother is:
+(a) 24 years (b) 12 years (c) 15 years (d) 18 years
+Answer: (d)
+Solution: Let ages be 3k and 5k. Then (3k + 6)/(5k + 6) = 2/3, so 9k + 18 = 10k + 12, giving k = 6. Younger brother = 3k = 18 years. The trap is reporting 5k = 30 or stopping at k = 6. The answer is 18 years.
+Source: NCERT Class 10 Mathematics (Pair of Linear Equations)

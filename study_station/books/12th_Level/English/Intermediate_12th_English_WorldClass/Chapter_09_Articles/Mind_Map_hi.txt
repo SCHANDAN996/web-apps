@@ -1,0 +1,33 @@
+```mermaid
+graph TD
+    A["लेख (Articles)"] --> B["अनिश्चित लेख<br>A / An"]
+    A --> C["निश्चित लेख<br>The"]
+    A --> D["शून्य लेख<br>Zero Article"]
+
+    B --> B1["A = व्यंजन ध्वनि से पहले<br>a boy, a university, a one-rupee note"]
+    B --> B2["An = स्वर ध्वनि से पहले<br>an apple, an hour, an honest man"]
+    B --> B3["ध्वनि देखें, अक्षर नहीं!<br>an MBA, a European"]
+
+    C --> C1["अद्वितीय वस्तुएँ<br>the sun, the moon, the earth"]
+    C --> C2["नदियाँ, सागर, पर्वत-श्रृंखलाएँ<br>the Ganga, the Indian Ocean, the Himalayas"]
+    C --> C3["अधिकतम (Superlative) + क्रमवाचक<br>the best, the first"]
+    C --> C4["पुनः उल्लेख / विशिष्ट वस्तु<br>I saw a dog. The dog was black."]
+    C --> C5["समाचार-पत्र, पवित्र ग्रंथ, इमारतें<br>the Times of India, the Ramayana, the Taj Mahal"]
+
+    D --> D1["उचित संज्ञा (Proper Nouns)<br>India, Ram, Delhi"]
+    D --> D2["भौतिक संज्ञा (Material Nouns)<br>Gold is costly."]
+    D --> D3["अमूर्त संज्ञा (Abstract Nouns)<br>Honesty is the best policy."]
+    D --> D4["भाषाएँ, खेल, भोजन<br>Hindi, cricket, lunch"]
+    D --> D5["बहुवचन सामान्य वर्ग<br>Dogs are faithful."]
+
+    A --> E["परीक्षक के जाल"]
+    E --> E1["ध्वनि बनाम अक्षर<br>an hour (h मूक) / a university (yu ध्वनि)"]
+    E --> E2["the + विशेषण = वर्ग<br>the rich = अमीर लोग"]
+    E --> E3["देशों के नाम<br>India लेकिन the USA, the UK"]
+    E --> E4["भोजन में the तभी जब विशिष्ट<br>The lunch was tasty."]
+
+    A --> F["रणनीति"]
+    F --> F1["15 सेकंड: A/An ध्वनि-नियम,<br>the + superlative"]
+    F --> F2["45 सेकंड: Zero Article वाले<br>कथन-आधारित प्रश्न"]
+    F --> F3["म्नेमोनिक: RIMS<br>Rivers, Indian Ocean, Mountains, Superlatives = the"]
+```

@@ -1,0 +1,30 @@
+```mermaid
+graph TD
+    A["Spelling Check<br>वर्तनी जाँच"] --> B["Core Rules"]
+    A --> C["Confusing Word Pairs"]
+    A --> D["Examiner's Traps"]
+    A --> E["Strategy & Time Rules"]
+
+    B --> B1["i before e except after c<br>believe, receive<br>Exception: weird, seize"]
+    B --> B2["Silent Letters<br>knight, psychology, doubt"]
+    B --> B3["Double Consonants<br>accommodate, committee, embarrass"]
+    B --> B4["-able vs -ible<br>readable, visible"]
+    B --> B5["-ance vs -ence<br>attendance, existence"]
+    B --> B6["-ful has one l<br>beautiful, grateful"]
+
+    C --> C1["Principal vs Principle"]
+    C --> C2["Stationary vs Stationery"]
+    C --> C3["Complement vs Compliment"]
+    C --> C4["Lose vs Loose"]
+    C --> C5["Advice vs Advise"]
+
+    D --> D1["Sound-Right Trap<br>definately ❌ definitely ✔"]
+    D --> D2["Double-Letter Trap<br>occurence ❌ occurrence ✔"]
+    D --> D3["British vs American<br>colour / color — both correct<br>pick the standard option"]
+    D --> D4["Over-thinking Trap<br>simple word marked wrong<br>trust the rule, not the look"]
+
+    E --> E1["15-sec Rule<br>Fact-based: spot the misspelt word"]
+    E --> E2["45-sec Rule<br>Inference: all four look similar<br>test each with a rule"]
+    E --> E3["Mnemonics<br>Separate: A RAT in sepARate<br>Necessary: 1 Collar, 2 Sleeves"]
+    E --> E4["Skip Strategy<br>if 2 options both look right<br>after 45 sec, mark & move"]
+```

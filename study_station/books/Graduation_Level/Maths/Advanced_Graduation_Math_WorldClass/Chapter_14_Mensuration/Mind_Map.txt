@@ -1,0 +1,50 @@
+```mermaid
+graph TD
+    A["क्षेत्रमिति<br>Mensuration"] --> B["2D आकृतियाँ<br>2D Figures"]
+    A --> C["3D ठोस<br>3D Solids"]
+    A --> D["मिश्रित अवधारणाएँ<br>Mixed Concepts"]
+
+    B --> B1["त्रिभुज<br>Triangle"]
+    B --> B2["चतुर्भुज<br>Quadrilateral"]
+    B --> B3["वृत्त<br>Circle"]
+    B --> B4["बहुभुज<br>Polygon"]
+
+    B1 --> B1a["क्षेत्रफल = ½ × आधार × ऊँचाई<br>Area = ½ × base × height"]
+    B1 --> B1b["हीरोन सूत्र<br>Heron's Formula<br>√s(s−a)(s−b)(s−c)"]
+    B1 --> B1c["समबाहु: √3/4 × भुजा²<br>Equilateral: √3/4 × side²"]
+
+    B2 --> B2a["आयत: l × b<br>Rectangle"]
+    B2 --> B2b["वर्ग: भुजा², विकर्ण = a√2<br>Square, diagonal = a√2"]
+    B2 --> B2c["समांतर चतुर्भुज: आधार × ऊँचाई<br>Parallelogram"]
+    B2 --> B2d["समचतुर्भुज: ½ × d₁ × d₂<br>Rhombus"]
+    B2 --> B2e["समलंब: ½ × (समांतर भुजाओं का योग) × ऊँचाई<br>Trapezium"]
+
+    B3 --> B3a["क्षेत्रफल = πr², परिधि = 2πr<br>Area, Circumference"]
+    B3 --> B3b["त्रिज्यखंड = θ/360 × πr²<br>Sector"]
+    B3 --> B3c["चाप लंबाई = θ/360 × 2πr<br>Arc Length"]
+    B3 --> B3d["वलय (रिंग) = π(R²−r²)<br>Annulus"]
+
+    B4 --> B4a["सम बहुभुज क्षेत्रफल<br>Regular Polygon Area"]
+    B4 --> B4b["विकर्णों की संख्या = n(n−3)/2<br>Diagonals"]
+
+    C --> C1["घन<br>Cube"]
+    C --> C2["घनाभ<br>Cuboid"]
+    C --> C3["बेलन<br>Cylinder"]
+    C --> C4["शंकु<br>Cone"]
+    C --> C5["गोला<br>Sphere"]
+    C --> C6["प्रिज्म व पिरामिड<br>Prism & Pyramid"]
+    C --> C7["छिन्नक<br>Frustum"]
+
+    C1 --> C1a["आयतन = a³, पृष्ठ = 6a²<br>Volume, Surface Area"]
+    C2 --> C2a["आयतन = lbh, विकर्ण = √(l²+b²+h²)<br>Volume, Diagonal"]
+    C3 --> C3a["आयतन = πr²h, वक्र पृष्ठ = 2πrh<br>Volume, CSA"]
+    C4 --> C4a["आयतन = ⅓πr²h, तिर्यक ऊँचाई l = √(r²+h²)<br>Volume, Slant Height"]
+    C5 --> C5a["आयतन = 4/3 πr³, पृष्ठ = 4πr²<br>Volume, Surface"]
+    C5 --> C5b["अर्धगोला: आयतन = 2/3 πr³<br>Hemisphere"]
+    C7 --> C7a["आयतन = ⅓πh(R²+r²+Rr)<br>Frustum Volume"]
+
+    D --> D1["पिघलाना/ढलाई<br>Melting & Casting<br>(आयतन संरक्षित)"]
+    D --> D2["लागत आधारित प्रश्न<br>Cost-based Problems"]
+    D --> D3["घेराव/पथ प्रश्न<br>Fencing & Path Problems"]
+    D --> D4["भुजा परिवर्तन का प्रभाव<br>Effect of Side Change<br>(k गुना → क्षेत्रफल k², आयतन k³)"]
+```

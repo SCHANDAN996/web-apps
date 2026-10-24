@@ -1,0 +1,119 @@
+# 📊 PYQ विश्लेषण — क्लोज़ टेस्ट (Cloze Test)
+
+## 🔍 पैटर्न विश्लेषण (Pattern Analysis)
+
+क्लोज़ टेस्ट लगभग हर प्रतियोगी परीक्षा (SSC CGL, CHSL, IBPS PO/Clerk, RRB NTPC, राज्य PCS) का स्थायी हिस्सा है। आम तौर पर **एक गद्यांश में 5–10 रिक्त स्थान (blanks)** दिए जाते हैं और हर blank के लिए 4 विकल्प होते हैं।
+
+**परीक्षाएँ किस तरह के सवाल पूछती हैं:**
+
+- **शब्द-चयन (Vocabulary-in-context):** blank में कौन-सा शब्द भाव के अनुसार ठीक बैठेगा — यही सबसे बड़ा हिस्सा है।
+- **व्याकरणिक रिक्तियाँ:** preposition, article, tense, conjunction, pronoun — गद्यांश के प्रवाह के अनुसार।
+- **Connector/Discourse markers:** however, therefore, moreover, although — पैराग्राफ की दिशा बताने वाले शब्द।
+- **Phrasal verbs और collocations:** "look forward to", "cope with" जैसी स्थायी जोड़ियाँ।
+
+**बार-बार आने वाले उप-विषय:**
+
+1. Preposition-based blanks (in/on/at, since/for)
+2. Tense consistency — पूरा गद्यांश एक ही काल में
+3. Articles (a/an/the) — विशेष रूप से "the" कहाँ लगेगा
+4. Conjunctions और contrast words (but/however/although)
+5. Synonym/antonym confusion — लगभग-समान अर्थ वाले विकल्प
+
+**परीक्षक के जाल (Traps):**
+
+- **Sound-Right जाल:** वह विकल्प जो सुनने में सही लगता है पर व्याकरणिक रूप से गलत (जैसे "discuss about")।
+- **कालक्रम भ्रम:** गद्यांश past में है, पर एक विकल्प present tense में दिया जाता है।
+- **मिलते-जुलते शब्द:** affect/effect, rise/raise, beside/besides।
+- **Over-thinking जाल:** सबसे सरल विकल्प ही सही होता है, पर छात्र कठिन शब्द चुन लेता है।
+
+---
+
+## 🏆 शीर्ष 10 हाई-यील्ड प्रश्न (समाधान सहित)
+
+**प्रश्न 1.** The government has launched several schemes to ______ the condition of farmers.
+(a) ameliorate (b) deteriorate (c) aggravate (d) worsen
+
+**उत्तर:** (a)
+**हल:** गद्यांश सकारात्मक है — सरकार योजनाएँ "सुधार" के लिए लाती है। Ameliorate = सुधारना। बाकी तीनों विकल्प नकारात्मक हैं — यह **Tone जाल** है।
+**जाल-प्रकार:** Over-thinking (कठिन शब्द देखकर घबराना नहीं — भाव पकड़ो)
+**स्रोत:** PYQ-style
+
+**प्रश्न 2.** He has been working in this office ______ 2015.
+(a) for (b) since (c) from (d) by
+
+**उत्तर:** (b)
+**हल:** "Since + point of time" (2015 एक निश्चित बिंदु है); "for + period of time" (for 9 years)। यह **Fact-based** प्रश्न है — **15 सेकंड नियम** लागू करें: नियम याद है तो तुरंत टिक करें, सोचने का समय बर्बाद न करें।
+**जाल-प्रकार:** Sound-Right ("from 2015" कानों को सही लगता है)
+**स्रोत:** NCERT कक्षा 9–10 English Grammar
+
+**प्रश्न 3.** The committee ______ its report yesterday.
+(a) has submitted (b) submitted (c) have submitted (d) is submitting
+
+**उत्तर:** (b)
+**हल:** "Yesterday" जैसे निश्चित भूतकाल-संकेतक के साथ simple past tense लगता है, present perfect नहीं — इसलिए "submitted"। Committee यहाँ एक इकाई (collective noun) है, पर मुख्य कसौटी यहाँ काल (tense) की है।
+**जाल-प्रकार:** कालक्रम भ्रम (yesterday देखकर भी present perfect लगाने की गलती)
+**स्रोत:** NCERT कक्षा 9–10 English Grammar
+
+**प्रश्न 4.** ______ the heavy rain, the match continued.
+(a) Because of (b) Despite (c) Due to (d) Owing to
+
+**उत्तर:** (b)
+**हल:** वाक्य में विरोधाभास (contrast) है — बारिश के बावजूद मैच चलता रहा। "Despite + noun" = के बावजूद। Because of/Due to कारण बताते हैं, जो भाव को उलट देते हैं।
+**जाल-प्रकार:** Connector भ्रम
+**स्रोत:** PYQ-style
+
+**प्रश्न 5.** She is ______ honest officer.
+(a) a (b) an (c) the (d) no article
+
+**उत्तर:** (b)
+**हल:** "Honest" में 'h' मूक है; उच्चारण स्वर से शुरू होता है, इसलिए "an"। यह **Fact-based** प्रश्न — **15 सेकंड नियम**: उच्चारण सोचो, वर्तनी नहीं।
+**जाल-प्रकार:** Sound-Right (वर्तनी देखकर "a" लगाने की गलती)
+**स्रोत:** NCERT कक्षा 8 English Grammar
+
+**प्रश्न 6.** The prices of essential commodities have ______ sharply this year.
+(a) raised (b) risen (c) rose (d) raise
+
+**उत्तर:** (b)
+**हल:** "Rise" (intransitive — खुद बढ़ना) का past participle "risen"। "Raise" (transitive — किसी को बढ़ाना) यहाँ नहीं चलेगा क्योंकि कोई object नहीं है।
+**जाल-प्रकार:** मिलते-जुलते शब्द (rise/raise)
+**स्रोत:** PYQ-style
+
+**प्रश्न 7.** The teacher asked the students to ______ their books to page 45.
+(a) open (b) turn (c) look (d) see
+
+**उत्तर:** (b)
+**हल:** "Turn to page" सही collocation है। "Open their books at page 45" भी संभव है पर "to page" के साथ "turn" ही प्राकृतिक अंग्रेज़ी है।
+**जाल-प्रकार:** Collocation जाल
+**स्रोत:** PYQ-style
+
+**प्रश्न 8.** He is junior ______ me by two years.
+(a) than (b) to (c) from (d) with
+
+**उत्तर:** (b)
+**हल:** Latin origin के comparative adjectives (junior, senior, superior, inferior, prefer) के साथ "than" नहीं, "to" लगता है।
+**जाल-प्रकार:** Sound-Right ("junior than" कानों को सही लगता है)
+**स्रोत:** NCERT कक्षा 10 English Grammar
+
+**प्रश्न 9.** The passage states that the new policy will benefit rural areas. The word "benefit" here is closest in meaning to:
+(a) harm (b) improve (c) ignore (d) control
+
+**उत्तर:** (b)
+**हल:** संदर्भ सकारात्मक है — नीति ग्रामीण क्षेत्रों के "हित" में है। Benefit ≈ improve। यह **Inference-based** प्रश्न है — **45 सेकंड नियम**: पहले वाक्य की tone पकड़ो, फिर विकल्प काटो।
+**जाल-प्रकार:** Tone/अनुमान
+**स्रोत:** PYQ-style
+
+**प्रश्न 10.** Neither of the two boys ______ done his homework.
+(a) have (b) has (c) are (d) were
+
+**उत्तर:** (b)
+**हल:** "Neither of" के बाद singular verb आता है — "has"। "His" भी singular pronoun है, जो संकेत देता है।
+**जाल-प्रकार:** Intervening Phrase ("two boys" देखकर plural लगाने का जाल)
+**स्रोत:** PYQ-style
+
+---
+
+## ⏱️ 15/45 सेकंड नियम — क्लोज़ टेस्ट में
+
+- **15 सेकंड (Fact-based):** preposition, article, tense, subject-verb agreement — नियम याद है तो तुरंत उत्तर। (जैसे प्रश्न 2, 5)
+- **45 सेकंड (Inference-based):** tone, connector, vocabulary-in-context — पूरा वाक्य/पैरा पढ़कर भाव समझो। (जैसे प्रश्न 4, 9)
+- **सुनहरा सूत्र:** पहले पूरा गद्यांश एक बार बिना विकल्प देखे पढ़ो — आधे blanks अपने-आप दिमाग में भर जाएँगे।

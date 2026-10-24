@@ -1,0 +1,54 @@
+# Important Formulas — Number System (Advanced)
+
+| Formula Name | Formula | One-line Use-Hint |
+|---|---|---|
+| Division Algorithm | Dividend = Divisor × Quotient + Remainder, 0 ≤ R < Divisor | Base of every remainder problem |
+| Number of Factors | If N = pᵃ × qᵇ × rᶜ, then d(N) = (a+1)(b+1)(c+1) | Count divisors of any composite N |
+| Sum of Factors | σ(N) = (pᵃ⁺¹−1)/(p−1) × (qᵇ⁺¹−1)/(q−1) × (rᶜ⁺¹−1)/(r−1) | Total of all divisors |
+| Product of Factors | N^(d(N)/2) | Pair divisors: each pair multiplies to N |
+| Number of Odd Factors | (a+1)(b+1)… using only odd primes | Drop the factor 2 from prime factorisation |
+| Number of Even Factors | d(N) − (odd factors) | Total minus odd |
+| Number of Perfect-Square Factors | (⌊a/2⌋+1)(⌊b/2⌋+1)… | Halve each exponent, round down, add 1 |
+| Number of Perfect-Cube Factors | (⌊a/3⌋+1)(⌊b/3⌋+1)… | Same idea with 3 |
+| Factors that are Multiples of k | Write N = k × M, then count d(M) (k must divide N) | Reduce to a smaller divisor-count |
+| Sum of First n Naturals | n(n+1)/2 | Quick series totals |
+| Sum of First n Squares | n(n+1)(2n+1)/6 | Squares series |
+| Sum of First n Cubes | [n(n+1)/2]² | Cube sum = square of natural sum |
+| HCF × LCM | HCF(a,b) × LCM(a,b) = a × b | Valid for two numbers only |
+| LCM of Fractions | LCM(numerators) / HCF(denominators) | Bell-tolling, fraction problems |
+| HCF of Fractions | HCF(numerators) / LCM(denominators) | Reverse of LCM rule |
+| Remainder of Sum/Product | (a+b) mod m = [(a mod m)+(b mod m)] mod m; same for × | Break big numbers before dividing |
+| Fermat's Little Theorem | aᵖ⁻¹ ≡ 1 (mod p), p prime, p ∤ a | Remainder of huge powers mod a prime |
+| Euler's Theorem | a^φ(n) ≡ 1 (mod n), gcd(a,n)=1 | Generalisation of Fermat |
+| Euler's Totient | φ(N) = N(1−1/p)(1−1/q)(1−1/r) | Count of numbers < N coprime to N |
+| Wilson's Theorem | (p−1)! ≡ −1 (mod p), p prime | Factorial remainder mod prime |
+| Cyclicity of Unit Digits | Unit digit of aⁿ repeats with cycle ≤ 4; use n mod 4 (use 4 if remainder 0) | Last digit of large powers |
+| Last Two Digits | (…x)² patterns; 76ⁿ ends in 76, 25ⁿ ends in 25, 24^even ends in 76 | Automorphic numbers shortcut |
+| Divisibility by 3 / 9 | Digit sum divisible by 3 / 9 | Fast screening |
+| Divisibility by 4 / 8 / 16 | Last 2 / 3 / 4 digits divisible | Truncate the number |
+| Divisibility by 11 | (Sum of odd-place digits) − (sum of even-place digits) = 0 or ±11 | Alternating sum test |
+| Divisibility by 7, 11, 13 | Split number in 3-digit groups from right; alternating sum divisible by 7/11/13 | Works because 1001 = 7×11×13 |
+| Divisibility by 99 / 999 | Split in 2-digit / 3-digit groups from right; sum divisible by 99 / 999 | Extension of the 9-rule |
+| Highest Power of Prime p in n! | ⌊n/p⌋ + ⌊n/p²⌋ + ⌊n/p³⌋ + … | Legendre's formula — trailing zeros use p = 5 |
+| Trailing Zeros in n! | ⌊n/5⌋ + ⌊n/25⌋ + ⌊n/125⌋ + … | Count of 5s (2s are always more) |
+| Remainder Theorem (Polynomial) | Remainder of f(x) ÷ (x−a) = f(a) | Substitute the root |
+| Chinese Remainder Idea | x ≡ r₁ (mod m₁), x ≡ r₂ (mod m₂), gcd(m₁,m₂)=1 ⇒ unique solution mod m₁m₂ | Simultaneous remainder problems |
+| Successive Division | If N divided successively by a, b, c leaves remainders r₁, r₂, r₃ with final quotient k, then N = a·b·c·k + a·b·r₃ + a·r₂ + r₁ | Reconstruct N backwards from the last quotient |
+| Negative Remainder Trick | Remainder −r ≡ (divisor − r) | Convert to positive remainder |
+| aⁿ − bⁿ Divisibility | Divisible by (a−b) always; by (a+b) when n is even | Instant factor check |
+| aⁿ + bⁿ Divisibility | Divisible by (a+b) when n is odd | Odd-power sum rule |
+| Number of Zeroes at End of Product | min(power of 2, power of 5) in factorisation | Each 10 = 2 × 5 |
+| Sum of Numbers Formed by Digits | (sum of digits) × (n−1)! × 111…1 (n ones) | All permutations of n distinct digits |
+| Digital Root | dr(N) = 1 + ((N−1) mod 9); dr = 9 when 9 divides N | Casting out nines |
+| Base Conversion (to base b) | Repeated division by b; remainders read bottom-up | Decimal → any base |
+| Base to Decimal | Σ dᵢ × bⁱ | Any base → decimal |
+| Number of Digits of N in Base b | ⌊log_b N⌋ + 1 | Digit count without writing N |
+| Geometric Progression Sum | a(rⁿ−1)/(r−1), r ≠ 1 | Repunit and base problems |
+| Repunit | Rₙ = (10ⁿ − 1)/9 = 111…1 (n times) | Links digit patterns to powers of 10 |
+| Perfect Number Check | If 2ᵖ−1 is prime, then 2ᵖ⁻¹(2ᵖ−1) is perfect | Euclid–Euler form |
+| HCF by Euclidean Algorithm | HCF(a,b) = HCF(b, a mod b), repeat till 0 | Fastest HCF method |
+| Numbers from 1 to N Coprime to N | φ(N) | Totient re-read as a counting tool |
+| Remainder of aᵇ mod m (large b) | Reduce b mod φ(m) (Euler), then use cyclicity | Tower/exponent reduction |
+| Unit Digit of 0,1,5,6 powers | Always 0, 1, 5, 6 respectively | Fixed-point digits |
+| Square Ending Rules | A perfect square ends only in 0,1,4,5,6,9; ends in 5 ⇒ tens digit 2 | Eliminate wrong options fast |
+| Number of Ways to Write N as Product of Two Factors | d(N)/2 if N not a perfect square; (d(N)+1)/2 if perfect square | Ordered vs unordered care |

@@ -1,0 +1,79 @@
+Card 1
+Front: How many faces, edges, and vertices does a cube have?
+Back: 6 faces, 12 edges, 8 vertices. Remember: F + V − E = 2 (Euler's formula) → 6 + 8 − 12 = 2.
+
+Card 2
+Front: In a standard die, what is the sum of numbers on any pair of opposite faces?
+Back: Always 7. The pairs are: 1–6, 2–5, 3–4.
+
+Card 3
+Front: Two views of a die show the same face in the same position. How do you find the opposite faces?
+Back: Write the other faces in clockwise order around the common face in each view; faces at the same position in the two sequences are opposite to each other. The common face is opposite to the face not shown in either view.
+
+Card 4
+Front: Two views of a die show one common face. What is the quick rule to find opposites?
+Back: Write the faces around the common face in clockwise order for both views; faces at the same position in the two sequences are opposite to each other.
+
+Card 5
+Front: What is the mnemonic to remember the opposite pairs of a standard die?
+Back: "1-6, 2-5, 3-4 — all make SEVEN." If two faces add to 7, they can never be adjacent (or visible together) on a standard die.
+
+Card 6
+Front: A cube is painted on all 6 faces and cut into n³ smaller cubes. How many small cubes have exactly 3 painted faces?
+Back: Always 8 — only the corner cubes, regardless of n.
+
+Card 7
+Front: In an n×n×n painted cube, what is the formula for cubes with exactly 2 painted faces?
+Back: 12(n − 2) — these lie on the 12 edges, excluding corners.
+
+Card 8
+Front: In an n×n×n painted cube, how many small cubes have exactly 1 painted face?
+Back: 6(n − 2)² — the inner squares of each of the 6 faces.
+
+Card 9
+Front: In an n×n×n painted cube, how many small cubes have NO painted face?
+Back: (n − 2)³ — the completely inner cubes. Mnemonic: "Unpainted = shrink by 2, then cube it."
+
+Card 10
+Front: What is the memory trick for all four painted-cube formulas?
+Back: "3-2-1-0 → 8, 12(n−2), 6(n−2)², (n−2)³." Painted faces decrease 3→0; powers of (n−2) increase 0→3; coefficients are 8, 12, 6, 1 (vertices, edges, faces, core).
+
+Card 11
+Front: A cube is cut into 64 equal small cubes. How many have no painted face (all faces painted before cutting)?
+Back: 64 = 4³, so n = 4. Unpainted = (4 − 2)³ = 8.
+
+Card 12
+Front: Examiner's trap: A die shows 1, 2, 3 on three faces meeting at a corner. Can 1 and 6 be adjacent on a standard die?
+Back: No. On a standard die 1 and 6 are opposite (sum = 7), so they can never be adjacent or visible together. Options showing them together are traps.
+
+Card 13
+Front: Examiner's trap: Two views of a die look identical but are rotated. What mistake do students make?
+Back: They treat the two views as different positions and wrongly conclude opposites. Always check whether one view is just a rotation of the other before applying the common-face rule.
+
+Card 14
+Front: If only one face is common between two views of a die, how do you find the face opposite to the common face?
+Back: You cannot directly. The common-face rule gives opposites of the other faces; the common face is opposite to the one face that appears in neither view.
+
+Card 15
+Front: When a sheet is folded into a cube (cube-net questions), which faces become opposite?
+Back: In a straight strip of 4 squares, the 1st is opposite the 3rd and the 2nd is opposite the 4th; the two remaining flaps are opposite each other.
+
+Card 16
+Front: How many different nets (unfolded patterns) can a cube have?
+Back: 11 distinct nets. Any given net must be checked against these valid patterns — a 2×3 rectangle of 6 squares is NOT a valid cube net.
+
+Card 17
+Front: A cube is painted red on two opposite faces, green on two opposite faces, and blue on the remaining pair. After cutting into n³ cubes, what is the maximum number of faces any small cube can have painted?
+Back: 3 — corner cubes always touch exactly 3 faces, one of each colour.
+
+Card 18
+Front: In dice problems, what does "two faces are adjacent" immediately tell you?
+Back: They can never be opposite to each other. Collect all adjacency clues; the face left out of a face's four adjacents is its opposite.
+
+Card 19
+Front: Quick check: total small cubes after cutting = n³. How do you verify your painted-cube counts?
+Back: Sum check: 8 + 12(n−2) + 6(n−2)² + (n−2)³ must equal n³. If the total doesn't match, one of the counts is wrong.
+
+Card 20
+Front: In a non-standard die question, what is the very first thing you must check?
+Back: Whether opposite faces really sum to 7. If the question says "an ordinary die" it is standard; if views contradict the sum-7 rule, solve only from the given views, never assume 7.

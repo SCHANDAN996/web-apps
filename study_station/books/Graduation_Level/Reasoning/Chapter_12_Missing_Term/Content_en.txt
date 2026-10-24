@@ -1,0 +1,125 @@
+# Missing Term (लुप्त पद)
+
+## Chapter Outline & Learning Goals
+
+By the end of this chapter you will be able to:
+
+1. Find the missing term in number series built on differences, ratios, powers and mixed operations.
+2. Crack letter and alphanumeric series by turning letters into numbers.
+3. Solve missing-number figures and 3×3 grids where each row or column hides one rule.
+4. Spot the "wrong term" in a series that looks correct at first glance.
+5. Use a fixed checking order so you never stare at a question without a plan.
+
+## 1. The Hook: The Detective's Last Clue
+
+Imagine a detective's notebook: 2, 6, 12, 20, 30, ___. Every number is a footprint, and one footprint is missing. The criminal (the rule) has walked the same way every time — you only have to notice the stride.
+
+That is all a missing-term question is: **a pattern with one hole.** The examiner hides the rule, and you have about 40 seconds to find it. The good news? At Graduation level the rules come from a small family — once you know the family, you recognise every member.
+
+## 2. "I Can't See the Pattern!" — The Common Struggle
+
+Most students lose marks here for three reasons:
+
+- They **guess the rule from two terms** and stop checking.
+- They **jump to complicated ideas** (cubes, primes) before trying the simple ones (differences).
+- They **miscount letter positions** (A = 1, not 0).
+
+If you have felt stuck, it is not a talent problem — it is an order problem. This chapter gives you an order.
+
+🧠 **Active Recall:** Without looking up, name the three reasons students get stuck. Which one have you done before?
+
+## 3. Chunk 1 — Number Series: The Five Families
+
+### (a) Difference series
+Write the differences between neighbours.
+- 3, 7, 13, 21, 31, ? → differences 4, 6, 8, 10 → next difference 12 → **43**.
+- If the first differences are not regular, take **second differences**: 2, 5, 11, 20, 32, ? → 3, 6, 9, 12 → next 15 → **47**.
+
+### (b) Ratio (multiplication) series
+Divide each term by the previous one.
+- 5, 15, 45, 135, ? → ×3 → **405**.
+- Changing ratio: 2, 2, 4, 12, 48, ? → ×1, ×2, ×3, ×4 → ×5 → **240**.
+
+### (c) Powers: squares and cubes
+- 4, 9, 25, 49, 121, ? → squares of primes 2, 3, 5, 7, 11 → 13² = **169**.
+- 0, 7, 26, 63, 124, ? → n³ − 1 → 6³ − 1 = **215**.
+
+### (d) Mixed operations
+The terms grow too fast for differences but the ratio is not fixed: try "× something, ± something".
+- 3, 7, 15, 31, 63, ? → ×2 + 1 → **127**.
+- 2, 5, 14, 41, 122, ? → ×3 − 1 → **365**.
+
+### (e) Two series in one (alternate terms)
+Odd positions follow one rule, even positions another.
+- 2, 10, 4, 20, 8, 40, ? → odd places 2, 4, 8 (×2) → **16**.
+
+🧠 **Active Recall:** For 6, 11, 21, 41, 81, ? — which family is it? (Answer: ×2 − 1 → 161.)
+
+## 4. Chunk 2 — Letter Series: Change Letters into Numbers
+
+Always convert with **A = 1 … Z = 26**. Remember the anchors with the mnemonic **"EJOTY"**: E = 5, J = 10, O = 15, T = 20, Y = 25.
+
+- B, E, I, N, ? → 2, 5, 9, 14 → differences 3, 4, 5 → next 6 → 20 = **T**.
+- Z, X, U, Q, ? → 26, 24, 21, 17 → −2, −3, −4 → −5 → 12 = **L**.
+- Letter groups: AZ, BY, CX, ? → first letter moves forward, second backward (opposite pairs add to 27) → **DW**.
+
+Wrap-around: after Z comes A again (26 + 1 → 1).
+
+## 5. Chunk 3 — Alphanumeric Series
+
+Treat each part as its own series.
+- A1, C3, E5, G7, ? → letters skip one (A, C, E, G, I), numbers are odd → **I9**.
+- 3C, 5E, 8H, 12L, ? → numbers grow by +2, +3, +4, so next +5 = 17; each letter is the letter at that number's position (3 = C, 5 = E, 8 = H, 12 = L) → **17Q**.
+
+🧠 **Active Recall:** What is the position of R? (Hint: T = 20, so R = 18.)
+
+## 6. Chunk 4 — Missing Numbers in Figures and Grids
+
+In a 3×3 grid, test **rows first, then columns**:
+
+| 4 | 5 | 20 |
+|---|---|----|
+| 6 | 3 | 18 |
+| 7 | 8 | ?  |
+
+Row rule: first × second = third → 7 × 8 = **56**.
+
+Common grid rules: sum of a row is constant; third = (first + second) × k; middle = average of the other two; squares of the first two add up to the third.
+
+In circle or triangle figures, the centre number is usually made from the outer numbers (sum, product, or difference). Check every figure — the rule must fit **all** of them, not just one.
+
+## 7. Chunk 5 — The Wrong Term
+
+"Find the term that does not fit": 3, 5, 9, 17, 31, 65.
+Rule ×2 − 1: 3, 5, 9, 17, **33**, 65 → 31 is the wrong term.
+Trick: find the rule using the terms that clearly agree, then test each term one by one.
+
+## 8. The Fixed Checking Order (Mnemonic: "D-R-P-M-A")
+
+1. **D**ifferences (first, then second)
+2. **R**atios
+3. **P**owers (squares, cubes, ± a small number)
+4. **M**ixed (× then ±)
+5. **A**lternate terms (two series)
+
+Spend at most 15 seconds per step. If nothing appears after the fifth step, move on and come back later.
+
+## 9. Summary Table
+
+| Type | First thing to check | Example → answer |
+|------|----------------------|------------------|
+| Difference | Gaps between terms | 3, 7, 13, 21 → 31 |
+| Ratio | Term ÷ previous term | 5, 15, 45 → 135 |
+| Powers | Near squares/cubes | 0, 7, 26, 63 → 124 |
+| Mixed | ×k ± c | 3, 7, 15, 31 → 63 |
+| Alternate | Odd and even places | 2, 10, 4, 20, 8 → 40 |
+| Letters | A = 1 … Z = 26, EJOTY | B, E, I, N → T |
+| Grid | Rows, then columns | 7 × 8 → 56 |
+
+📅 **Review this chapter after 2 days**, then try one practice set without looking at the table.
+
+## ⚠️ Caution: Examiner's Trap
+
+1. **Two rules fit the given terms.** 1, 2, 4, ? could be ×2 (→ 8) or +1, +2, +3 (→ 7). Only one of them is in the options — always check the options before you commit.
+2. **The rule changes in the last step.** A series looks like ×2 for three terms and then becomes ×2 + 2. Test the rule on **every** given term, not only the first three.
+3. **Off-by-one letters.** Counting A = 0 gives an answer exactly one letter away — and that wrong letter is always in the options.

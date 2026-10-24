@@ -1,0 +1,79 @@
+Card 1
+Front: What is the single most important first step before drawing any Venn diagram in an exam?
+Back: Identify the exact relationship between the given classes — whether they overlap, one contains the other, or they are completely separate. Never assume overlap just because two words seem related.
+
+Card 2
+Front: If "All A are B," how is this shown in a Venn diagram?
+Back: The circle of A is drawn completely inside the circle of B. A is the subset; B is the superset.
+
+Card 3
+Front: "Some A are B" — which diagram represents this?
+Back: Two circles of A and B intersecting (overlapping). The common region represents "some A that are B."
+
+Card 4
+Front: "No A is B" — what does the diagram look like?
+Back: Two completely separate (disjoint) circles with no common region.
+
+Card 5
+Front: In a syllogism, does "Some A are B" guarantee that "Some B are A"?
+Back: Yes. "Some" statements are reversible — if some A are B, then some B are A. But "All A are B" is NOT reversible.
+
+Card 6
+Front: What is the classic examiner's trap with "All A are B"?
+Back: Students assume "All B are A" is also true. It is not — B may contain many things outside A. Example: All dogs are animals, but not all animals are dogs.
+
+Card 7
+Front: Mnemonic trick: How do you remember the four basic relationships quickly?
+Back: "A-S-N-C" — All (circle inside), Some (circles intersect), No (circles separate), and Check reverse only for Some/No. Recall: "All goes in, Some crosses, No stays apart."
+
+Card 8
+Front: Mnemonic trick: For "All + Some" combined statements, what shortcut helps?
+Back: "Big eats Small" — draw the bigger class first as the outer circle, then place the smaller one inside or crossing it. Always draw the "All" statement first, then fit "Some" around it.
+
+Card 9
+Front: In number-based Venn problems (e.g., students liking tea/coffee), what is the core formula for two sets?
+Back: n(A ∪ B) = n(A) + n(B) − n(A ∩ B). Subtract the overlap once because it was counted twice.
+
+Card 10
+Front: What is the formula for three overlapping sets?
+Back: n(A ∪ B ∪ C) = n(A) + n(B) + n(C) − n(A∩B) − n(B∩C) − n(A∩C) + n(A∩B∩C). Add the triple overlap back at the end.
+
+Card 11
+Front: In a two-set problem, how do you find "only A" (those in A but not B)?
+Back: Only A = n(A) − n(A ∩ B). Always subtract the intersection from the individual total.
+
+Card 12
+Front: Examiner's trap: In "exactly two" vs "at least two" questions, what mistake do students make?
+Back: They treat "exactly two" regions as including the triple-overlap region. "Exactly two" excludes those in all three sets; "at least two" includes them.
+
+Card 13
+Front: If 60% like tea, 50% like coffee, and 20% like both, what percent like neither (out of 100)?
+Back: Neither = 100 − (60 + 50 − 20) = 100 − 90 = 10%.
+
+Card 14
+Front: Which diagram fits: Doctors, Men, Fathers?
+Back: The Fathers circle lies completely inside the Men circle (every father is a man), and the Doctors circle intersects both — some doctors are men, some men (including some fathers) are doctors, and some doctors are neither men nor fathers.
+
+Card 15
+Front: Which diagram fits: Animals, Dogs, Cats?
+Back: Dogs and Cats are two separate circles, both completely inside the big circle of Animals — no dog is a cat, but both are animals.
+
+Card 16
+Front: Which diagram fits: Women, Mothers, Sisters?
+Back: Mothers and Sisters are two circles inside the big Women circle (every mother and every sister is a woman), and these two inner circles intersect each other — a woman can be both a mother and a sister, only one of them, or neither.
+
+Card 17
+Front: In "possibility" conclusions in syllogism, when is a possibility conclusion valid?
+Back: When the definite conclusion is false but the situation is not ruled out by any diagram. If no diagram contradicts it, the possibility holds.
+
+Card 18
+Front: What is the fastest check for a "No A is B" conclusion from "All A are C, No C is B"?
+Back: Draw A inside C, and B separate from C. Since A is entirely within C and C never touches B, "No A is B" definitely follows.
+
+Card 19
+Front: Examiner's trap: In class-relation questions (e.g., "Apple, Fruit, Red"), what error is most common?
+Back: Putting "Red" as a circle containing Apple. "Red" is a quality, not a class — it intersects both Apple and Fruit partially, since not all apples/fruits are red and not all red things are apples.
+
+Card 20
+Front: When the intersection value is unknown in a two-set problem, what is the safe strategy?
+Back: Let the intersection be x, express each region in terms of x, and use the total (including "neither," if given) to form one equation. Solve for x before answering any sub-question.

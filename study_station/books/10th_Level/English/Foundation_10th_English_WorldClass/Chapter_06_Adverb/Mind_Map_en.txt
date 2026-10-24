@@ -1,0 +1,40 @@
+```mermaid
+graph TD
+    A["Adverb<br>क्रियाविशेषण"] --> B["What it modifies"]
+    A --> C["Types"]
+    A --> D["Position Rules"]
+    A --> E["Comparison"]
+    A --> F["Examiner's Traps"]
+    A --> G["Strategies"]
+
+    B --> B1["Verb: He runs fast"]
+    B --> B2["Adjective: very tall"]
+    B --> B3["Another Adverb: quite slowly"]
+    B --> B4["Whole Sentence: Luckily, he passed"]
+
+    C --> C1["Manner: slowly, well"]
+    C --> C2["Time: now, yesterday, soon"]
+    C --> C3["Place: here, there, everywhere"]
+    C --> C4["Frequency: always, often, seldom"]
+    C --> C5["Degree: very, too, quite, almost"]
+
+    D --> D1["Frequency adverbs: before main verb<br>He always comes late"]
+    D --> D2["After be-verb: He is always late"]
+    D --> D3["Enough comes AFTER adjective<br>tall enough"]
+    D --> D4["Only next to the word it modifies"]
+
+    E --> E1["Positive: fast"]
+    E --> E2["Comparative: faster"]
+    E --> E3["Superlative: fastest"]
+    E --> E4["Irregular: well-better-best<br>badly-worse-worst"]
+
+    F --> F1["Sound-Right Trap<br>He sings good ❌ → well ✔"]
+    F --> F2["No adverb after linking verb<br>She feels badly ❌ → bad ✔"]
+    F --> F3["Hard vs Hardly<br>work hard ≠ hardly work"]
+    F --> F4["Lately ≠ Late<br>lately = recently"]
+    F --> F5["Very vs Much<br>very tired, much better"]
+
+    G --> G1["Fact-based: spot the modifier<br>15-second rule"]
+    G --> G2["Error-spotting: check verb type first<br>45-second rule"]
+    G --> G3["Mnemonic: M-T-P-F-D<br>Manner Time Place Frequency Degree"]
+```

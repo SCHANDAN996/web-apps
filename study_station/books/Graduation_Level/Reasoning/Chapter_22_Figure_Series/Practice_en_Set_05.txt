@@ -1,0 +1,151 @@
+Questions 101–120: Medium | Questions 121–125: Hard
+
+101. In a figure series, a dot moves one corner clockwise in each step, while a cross moves one corner anticlockwise. If the dot is at the top-left and the cross at the top-right in step 1, where will they be in step 3?
+(a) Dot at bottom-right, cross at bottom-left (b) Dot at top-right, cross at bottom-right (c) Dot at top-right, cross at top-left (d) Dot at bottom-left, cross at top-right
+Answer: (a)
+Solution: The tempting wrong choice moves only one step instead of two. From step 1 to step 3 there are two moves: the dot goes top-left → top-right → bottom-right (clockwise), and the cross goes top-right → top-left → bottom-left (anticlockwise), so the answer is dot at bottom-right, cross at bottom-left.
+Source: PYQ-style
+
+102. A square is divided into 4 equal smaller squares. In each figure exactly one small square is shaded, and the shaded square moves one position clockwise per figure, starting from the top-left square in figure 1. Which square is shaded in figure 5?
+(a) Top-right (b) Top-left (c) Bottom-right (d) Bottom-left
+Answer: (b)
+Solution: The trap is to assume the shading accumulates, but only one square is shaded at a time. The shaded position cycles through four squares: figure 1 top-left, figure 2 top-right, figure 3 bottom-right, figure 4 bottom-left, so figure 5 returns to the start, so the answer is top-left.
+Source: PYQ-style
+
+103. In a series, the number of sides of the outer figure increases by 1 each step (triangle, square, pentagon, …), while the inner figure has one side fewer than the outer figure. What is the inner figure when the outer figure is a hexagon?
+(a) Pentagon (b) Triangle (c) Heptagon (d) Square
+Answer: (a)
+Solution: The trap is to pick the heptagon by adding instead of subtracting. Inner sides = outer sides − 1 = 6 − 1 = 5, so the answer is pentagon.
+Source: PYQ-style
+
+104. Five figures are given. Four of them have an arrow inside a circle pointing toward the thicker half of the circle; in one figure the arrow points toward the thinner half. Which figure is the odd one out?
+(a) The figure with the arrow pointing down (b) The figure with the arrow pointing left (c) The figure with the arrow pointing up (d) The figure with the arrow pointing toward the thinner half
+Answer: (d)
+Solution: Direction of the arrow (up, left, down) is irrelevant because rotation does not change classification. The only structural difference is the arrow pointing toward the thinner half instead of the thicker half, so the answer is the figure with the arrow pointing toward the thinner half.
+Source: PYQ-style
+
+105. In a figure series, a line segment rotates 45° clockwise each step and alternates between solid and dashed. If step 1 shows a solid horizontal line, what does step 5 show?
+(a) Dashed vertical line (b) Dashed horizontal line (c) Solid vertical line (d) Solid horizontal line
+Answer: (d)
+Solution: The tempting wrong choice is the dashed horizontal line, but after 4 steps the line rotates 4 × 45° = 180°, returning to horizontal, and the solid/dashed alternation (odd steps solid) makes step 5 solid, so the answer is solid horizontal line.
+Source: PYQ-style
+
+106. Four figures show a triangle with a dot inside; in three figures the dot lies inside both the triangle and an overlapping circle, while in one it lies inside the triangle only. Identify the odd figure.
+(a) The figure where the circle is larger (b) The figure where the dot is near the apex (c) The figure where the dot is inside the triangle only (d) The figure where the dot is near the base
+Answer: (c)
+Solution: Position near apex or base and circle size are distractors; the classification rule is the dot's region. Three dots lie in the intersection of triangle and circle, one lies in the triangle alone, so the answer is the figure where the dot is inside the triangle only.
+Source: PYQ-style
+
+107. A series shows figures with 1, 2, 3, 4 dots respectively. If the pattern continues, how many dots will the 7th figure contain, given that after 4 the count doubles each step?
+(a) 32 (b) 24 (c) 20 (d) 16
+Answer: (a)
+Solution: The trap is to keep adding 1 (giving 7) or to double from the start. Doubling applies only after 4: 5th = 8, 6th = 16, 7th = 32, so the answer is 32.
+Source: PYQ-style
+
+108. In a classification question, figures P, Q, R, S, T are shown. P, R and T are made of straight lines only; Q and S contain curves. Which group forms a valid class?
+(a) Q, S, T (b) P, R, T (c) P, Q, R (d) Q, R, S
+Answer: (b)
+Solution: The misleading groups mix straight-line and curved figures. The consistent class is the figures drawn with straight lines only, so the answer is P, R, T.
+Source: PYQ-style
+
+109. A black dot moves from corner to corner of a square anticlockwise, one corner per step. If the dot is at the top-left corner in step 1, at which corner is it in step 4?
+(a) Top-left (b) Bottom-right (c) Top-right (d) Bottom-left
+Answer: (c)
+Solution: The trap is to move the dot clockwise or to count step 1 as the first move. Anticlockwise from top-left: step 2 bottom-left, step 3 bottom-right, step 4 top-right, so the answer is top-right.
+Source: PYQ-style
+
+110. In a series, each figure has two shapes; the larger shape of one figure becomes the smaller shape of the next, and a new larger shape appears. If figure 1 has a large circle and small triangle, what is the small shape in figure 4?
+(a) Circle (b) The new shape introduced in figure 3 (c) Square (d) Triangle
+Answer: (b)
+Solution: The trap is to repeat the circle or triangle. Tracking the rule: fig 2 large triangle + small new shape, fig 3 large = that shape + small new shape, so the small shape in figure 4 is the shape newly introduced in figure 3, so the answer is the new shape introduced in figure 3.
+Source: PYQ-style
+
+111. Five figures show stars with 4, 5, 6, 7 and 8 points. Four of them have a number of small circles inside equal to half the points; one has circles equal to the points. Which is the odd one?
+(a) The figure where circles equal the number of points (b) The 6-pointed star (c) The 4-pointed star (d) The 8-pointed star
+Answer: (a)
+Solution: The number of points itself is not the discriminator since all differ. The rule is circles = half the points; the figure violating it has circles equal to the points, so the answer is the figure where circles equal the number of points.
+Source: PYQ-style
+
+112. A figure series alternates between a shaded and unshaded circle, and the circle's size increases every two steps. If step 1 is a small shaded circle, what is step 6?
+(a) Large unshaded circle (b) Medium unshaded circle (c) Large shaded circle (d) Medium shaded circle
+Answer: (a)
+Solution: The tempting wrong choice is the medium unshaded circle, but size increases every two steps: steps 1–2 small, 3–4 medium, 5–6 large; even steps are unshaded, so the answer is large unshaded circle.
+Source: PYQ-style
+
+113. In a classification set, four figures can be obtained from one another by rotation, while one requires reflection. Which figure is the odd one out?
+(a) The figure that is a mirror image of the others (b) The figure rotated 90° (c) The figure rotated 180° (d) The figure rotated 270°
+Answer: (a)
+Solution: Rotations never create an odd figure in classification; only a change in handedness does. The mirror image cannot be obtained by any rotation, so the answer is the figure that is a mirror image of the others.
+Source: PYQ-style
+
+114. A series shows a hexagon with lines joining vertices: step 1 has 1 diagonal, step 2 has 2, step 3 has 4, step 4 has 8. How many diagonals does step 6 have?
+(a) 16 (b) 32 (c) 12 (d) 24
+Answer: (b)
+Solution: The trap is to add 2 each time (arithmetic), but the counts double: 1, 2, 4, 8, 16, 32, so the answer is 32.
+Source: PYQ-style
+
+115. Four figures show a rectangle divided into parts. In three, the number of parts equals the number of lines drawn plus one; in one, the parts are fewer. Identify the odd figure.
+(a) The figure with 3 lines and 4 parts (b) The figure with 2 lines and 3 parts (c) The figure with 5 lines and 6 parts (d) The figure with 4 lines and 4 parts
+Answer: (d)
+Solution: The rule parts = lines + 1 holds for 3→4, 2→3 and 5→6. Only the figure with 4 lines but 4 parts breaks it, so the answer is the figure with 4 lines and 4 parts.
+Source: PYQ-style
+
+116. In a series, an arrow rotates 90° anticlockwise each step, and every third step the arrowhead becomes double. Step 1 shows an upward single arrow. What does step 6 show?
+(a) Right-pointing single arrow (b) Left-pointing double arrow (c) Down-pointing double arrow (d) Down-pointing single arrow
+Answer: (b)
+Solution: The trap is to rotate clockwise or to forget the double head. Anticlockwise from up: step 2 left, step 3 down (double), step 4 right, step 5 up, step 6 left; step 6 is a multiple of 3, so the head is double, so the answer is left-pointing double arrow.
+Source: PYQ-style
+
+117. Figures P, Q, R, S each contain a circle and a square. In P, Q and R the circle touches the square; in S the circle overlaps the square. Which is the odd one?
+(a) S (b) P (c) R (d) Q
+Answer: (a)
+Solution: Touching and overlapping are different spatial relations; three figures merely touch while one overlaps, so the answer is S.
+Source: PYQ-style
+
+118. A series shows letter-like symbols made of matchsticks: figure 1 uses 3 sticks, figure 2 uses 5, figure 3 uses 7. How many sticks does figure 6 use?
+(a) 12 (b) 15 (c) 13 (d) 11
+Answer: (c)
+Solution: The trap is to multiply (3 × 6 = 18) or add 3 each time. The pattern adds 2: 3, 5, 7, 9, 11, 13, so the answer is 13.
+Source: PYQ-style
+
+119. In a classification question, five figures show triangles with internal lines. Four are divided into an even number of regions; one is divided into an odd number. Which is the odd one out?
+(a) The triangle divided into 4 regions (b) The triangle divided into 6 regions (c) The triangle divided into 8 regions (d) The triangle divided into 5 regions
+Answer: (d)
+Solution: All figures differ in region count, so the discriminator is parity. Only one figure has an odd number of regions, so the answer is the triangle divided into 5 regions.
+Source: PYQ-style
+
+120. A series shows a clock-like figure where the long hand moves 3 hours forward and the short hand moves 1 hour backward each step. If both hands start at 12, where do they point in step 4?
+(a) Long hand at 9, short hand at 3 (b) Long hand at 3, short hand at 9 (c) Long hand at 9, short hand at 9 (d) Long hand at 6, short hand at 9
+Answer: (c)
+Solution: The trap is to move both hands forward. After 3 moves: long hand 12 → 3 → 6 → 9; short hand 12 → 11 → 10 → 9, so the answer is long hand at 9, short hand at 9.
+Source: PYQ-style
+
+121. In a series, a symbol rotates 45° clockwise in odd-numbered moves and 90° anticlockwise in even-numbered moves, starting upright in step 1. What is its net rotation after step 5 (i.e. after four moves)?
+(a) 45° clockwise (b) 45° anticlockwise (c) 90° anticlockwise (d) Upright
+Answer: (c)
+Solution: The tempting wrong choice applies only one of the two rotation rules. Net rotation: +45 − 90 + 45 − 90 = −90°, i.e. 90° anticlockwise from upright, so the answer is 90° anticlockwise.
+Source: PYQ-style
+
+122. Five figures each contain three elements: a dot, a cross and a triangle inside a square. In four figures, exactly two elements lie on the square's diagonal; in one figure, all three lie on it. Which is the odd one out?
+(a) The figure with dot and cross on the diagonal (b) The figure with dot and triangle on the diagonal (c) The figure with cross and triangle on the diagonal (d) The figure with all three elements on the diagonal
+Answer: (d)
+Solution: Which pair lies on the diagonal is irrelevant; the count is the rule. Four figures have exactly two elements on the diagonal, one has three, so the answer is the figure with all three elements on the diagonal.
+Source: PYQ-style
+
+123. A figure series follows two interleaved patterns: odd-positioned figures gain one side each time (3, 4, 5, …), even-positioned figures lose one side each time (8, 7, 6, …). If figure 1 is a triangle and figure 2 is an octagon, what is figure 6?
+(a) Heptagon (b) Hexagon (c) Pentagon (d) Octagon
+Answer: (b)
+Solution: The trap is to apply one pattern to all positions. Even positions 2, 4, 6 lose one side each time: 8 → 7 → 6, so figure 6 has 6 sides, so the answer is hexagon.
+Source: PYQ-style
+
+124. In a classification set of five figures, each shows two overlapping shapes. In four figures the overlapping region is shaded; in one figure a non-overlapping region is shaded. Which is the odd one out?
+(a) The figure with the larger circle (b) The figure with two identical shapes (c) The figure with a shaded non-overlapping region (d) The figure with the most regions
+Answer: (c)
+Solution: The trap is to classify by size, shape identity or region count, none of which is stated as a rule. The single stated rule is that the overlapping region is shaded, and exactly one figure violates it, so the answer is the figure with a shaded non-overlapping region.
+Source: PYQ-style
+
+125. A series shows a 2×2 grid where one cell is blackened. The black cell moves one step at a time around the four cells in this fixed order: top-left → top-right → bottom-right → bottom-left → top-left, and so on. Starting from the top-left cell in figure 1, which cell is black in figure 7?
+(a) Top-left (b) Bottom-left (c) Top-right (d) Bottom-right
+Answer: (d)
+Solution: The trap is to stop the cycle early or reverse the order. Counting along the stated cycle: figure 1 top-left, 2 top-right, 3 bottom-right, 4 bottom-left, 5 top-left, 6 top-right, 7 bottom-right, so the answer is bottom-right.
+Source: PYQ-style

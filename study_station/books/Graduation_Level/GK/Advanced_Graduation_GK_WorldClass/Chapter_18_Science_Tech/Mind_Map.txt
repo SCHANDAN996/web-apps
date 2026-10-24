@@ -1,0 +1,52 @@
+```mermaid
+graph TD
+    A["विज्ञान और प्रौद्योगिकी (बुनियादी)<br>Science & Technology (Basic)"] --> B["भौतिक विज्ञान<br>Physics"]
+    A --> C["रसायन विज्ञान<br>Chemistry"]
+    A --> D["जीव विज्ञान<br>Biology"]
+    A --> E["अंतरिक्ष एवं रक्षा<br>Space & Defence"]
+    A --> F["IT एवं नई तकनीक<br>IT & Emerging Tech"]
+    A --> G["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> H["रणनीति<br>Strategy"]
+
+    B --> B1["गति के नियम<br>Laws of Motion"]
+    B --> B2["ऊर्जा, कार्य, शक्ति<br>Energy, Work, Power"]
+    B --> B3["प्रकाश: परावर्तन/अपवर्तन<br>Light: Reflection/Refraction"]
+    B --> B4["ध्वनि: ~343 m/s (20°C वायु में)<br>Sound: ~343 m/s (in air at 20°C)"]
+    B --> B5["विद्युत: ओम का नियम<br>Electricity: Ohm's Law"]
+    B --> B6["SI मात्रक<br>SI Units"]
+
+    C --> C1["परमाणु संरचना<br>Atomic Structure"]
+    C --> C2["आवर्त सारणी<br>Periodic Table"]
+    C --> C3["अम्ल, क्षार, लवण (pH)<br>Acids, Bases, Salts"]
+    C --> C4["धातु-अधातु<br>Metals & Non-metals"]
+    C --> C5["सामान्य रसायन<br>Everyday Chemicals"]
+
+    D --> D1["कोशिका<br>Cell"]
+    D --> D2["मानव तंत्र<br>Human Systems"]
+    D --> D3["विटामिन एवं रोग<br>Vitamins & Diseases"]
+    D --> D4["रक्त समूह, DNA<br>Blood Groups, DNA"]
+    D --> D5["पोषण एवं प्रकाश संश्लेषण<br>Nutrition & Photosynthesis"]
+
+    E --> E1["ISRO: 1969, श्रीहरिकोटा<br>ISRO: 1969, Sriharikota"]
+    E --> E2["PSLV / GSLV / LVM3<br>Launch Vehicles"]
+    E --> E3["चंद्रयान, मंगलयान<br>Chandrayaan, Mangalyaan"]
+    E --> E4["DRDO, मिसाइलें<br>DRDO, Missiles"]
+    E --> E5["नाभिकीय ऊर्जा<br>Nuclear Energy"]
+
+    F --> F1["कंप्यूटर की पीढ़ियाँ<br>Computer Generations"]
+    F --> F2["इंटरनेट, नेटवर्क<br>Internet, Networks"]
+    F --> F3["AI, IoT, 5G<br>AI, IoT, 5G"]
+    F --> F4["बायोटेक्नोलॉजी<br>Biotechnology"]
+    F --> F5["नैनोटेक्नोलॉजी<br>Nanotechnology"]
+
+    G --> G1["लगभग-सही कथन<br>Near-correct statements"]
+    G --> G2["मिलते-जुलते नाम<br>Similar names<br>(PSLV vs GSLV)"]
+    G --> G3["मात्रक भ्रम<br>Unit confusion<br>(Watt vs Joule)"]
+    G --> G4["नकारात्मक वाक्य<br>NOT/EXCEPT questions"]
+    G --> G5["विटामिन-रोग अदला-बदली<br>Vitamin-disease swap"]
+
+    H --> H1["15/45 सेकंड नियम<br>15/45 second rule"]
+    H --> H2["SI मात्रक तालिका रटें<br>Memorise SI units table"]
+    H --> H3["pH स्केल 0–14<br>pH scale 0–14"]
+    H --> H4["रिवीजन: 1-7-30 दिन<br>Revision: 1-7-30 days"]
+```

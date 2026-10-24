@@ -1,0 +1,105 @@
+# 📊 PYQ Analysis — Analogy (Verbal Reasoning)
+
+## 1. How Exams Ask Questions from This Chapter
+
+Analogy is one of the most reliable scoring areas across SSC (CGL, CHSL, MTS, GD), Banking (IBPS PO/Clerk, SBI), and Railway (NTPC, Group D) exams. The questions are always of the form **A : B :: C : ?** — find the pair that shares the same relationship. What changes from exam to exam is the *type* of relationship tested.
+
+**Sub-topics that appear again and again:**
+
+- **Word analogies** — synonym/antonym pairs, part-to-whole, tool-to-function, worker-to-workplace, animal-to-young one/sound/dwelling, country-capital-currency.
+- **Number analogies** — square/cube relations, ×n + k patterns, digit sum, prime-based pairs, (a² ± a) type links.
+- **Letter analogies** — alphabet-position shifts (+2, −3, reverse position), opposite letters (sum = 27), vowel/consonant manipulation.
+- **Mixed/GK-based analogies** — river-city, instrument-measurement, science-unit, book-author. These appear more in SSC CGL and state PCS prelims than in Banking.
+
+**Exam-wise flavour (in words, not numbers):**
+
+- **SSC CGL / CHSL:** Balanced mix of word, number, and letter analogies; at least one question usually hides a *double relationship* (e.g., both synonym + intensity).
+- **Banking (IBPS/SBI):** Fewer analogy questions, but when asked they lean toward word relationships and letter shifts; speed matters more than depth.
+- **Railway NTPC / Group D:** Straightforward factual analogies — country-capital, animal-young one, unit-quantity.
+- **State PCS prelims:** Occasionally statement-based analogies where you must first identify the relationship in words before applying it.
+
+## 2. The Examiner's Traps (Psychological Hooks)
+
+1. **The near-correct synonym trap:** Options contain two synonyms of the target word, but only one matches the *exact* relationship (e.g., synonym vs. antonym, or same-direction vs. reverse-direction).
+2. **Reversed-order trap:** The given pair is "tool : function" but a tempting option is "function : tool". Order matters.
+3. **Part-whole confusion:** "Petal : Flower" (part : whole) vs. "Bouquet : Flowers" (whole : parts). Examiners place both types in the same option set.
+4. **Number-pattern ambiguity:** A pair like 8 : 64 fits both ×8 and ². The correct option is the one where *only one* pattern works — check all four options before deciding.
+5. **Letter-shift vs. opposite-letter confusion:** A pair may look like a +2 shift but is actually a reverse-alphabet (sum 27) relation. Compute positions, don't guess.
+6. **Degree/intensity trap:** "Warm : Hot" is intensity; options include another intensity pair plus a synonym pair. Only intensity matches.
+7. **Gender/species look-alikes:** "Dog : Bitch" type pairs where one option reverses male-female order.
+
+## 3. The 15-Second / 45-Second Rule — Reviewed
+
+- **15-second rule:** If the relationship is a standard factual one (capital, unit, young one, synonym), you should answer within 15 seconds. If you can't name the relationship in 15 seconds, mark and move on.
+- **45-second rule:** Number and letter analogies deserve up to 45 seconds — compute positions or test 2–3 patterns. Beyond 45 seconds without a clear pattern, skip; the pattern is probably unusual and the time cost is not worth one mark.
+- **Verdict:** The rule holds well for this chapter. Analogy questions are binary — you either see the relationship or you don't. Extra staring rarely helps.
+
+## 4. Ten High-Yield PYQ-Style Questions (with Trap Analysis)
+
+**Q1.** Doctor : Patient :: Lawyer : ?
+(a) Court (b) Client (c) Judge (d) Case
+**Answer:** (b)
+**Solution:** A doctor serves a patient; a lawyer serves a client. **Trap:** (a) Court is the *workplace* — the examiner mixes "professional : person served" with "professional : workplace" in the same option set.
+**Source:** PYQ-style
+
+**Q2.** Thermometer : Temperature :: Ammeter : ?
+(a) Current (b) Voltage (c) Resistance (d) Power
+**Answer:** (a)
+**Solution:** Instrument : quantity measured. An ammeter measures electric current. **Trap:** (b) Voltage is measured by a voltmeter — a near-correct distractor from the same family of instruments.
+**Source:** PYQ-style
+
+**Q3.** 8 : 72 :: 9 : ?
+(a) 81 (b) 90 (c) 99 (d) 72
+**Answer:** (b)
+**Solution:** 8 × (8+1) = 72; so 9 × 10 = 90. **Trap:** (a) 81 tempts those who assume a simple square relation (9² = 81) without verifying it against the given pair (8² = 64 ≠ 72). **Skip check:** Worth the full 45 seconds — test square, cube, and n(n+1) patterns before skipping.
+**Source:** PYQ-style
+
+**Q4.** CFIL : XURO :: GJMP : ?
+(a) TQNK (b) TQKN (c) QNKT (d) TNKQ
+**Answer:** (a)
+**Solution:** Each letter is replaced by its reverse-alphabet counterpart (C↔X, F↔U, I↔R, L↔O; positions sum to 27). So G→T, J→Q, M→N, P→K = TQNK. **Trap:** (b) and (d) are permutations of the correct letters — the examiner banks on careless ordering. **Skip check:** If you don't spot the sum-27 pattern within 45 seconds, skip — random shift hunting wastes time.
+**Source:** PYQ-style
+
+**Q5.** Moon : Satellite :: Earth : ?
+(a) Sun (b) Planet (c) Star (d) Asteroid
+**Answer:** (b)
+**Solution:** The Moon is a satellite; the Earth is a planet — object : category. **Trap:** (a) Sun reverses the logic (Earth revolves around the Sun — a different relation entirely).
+**Source:** PYQ-style
+
+**Q6.** Warm : Hot :: Cool : ?
+(a) Cold (b) Ice (c) Freeze (d) Chill
+**Answer:** (a)
+**Solution:** The relationship is *degree of intensity* — hot is a stronger form of warm; cold is a stronger form of cool. **Trap:** (b) Ice and (c) Freeze are extreme states, not the next degree; the examiner tests whether you match *gradation*, not extremity.
+**Source:** PYQ-style
+
+**Q7.** India : Tiger :: USA : ?
+(a) Bald Eagle (b) Lion (c) Kangaroo (d) Panda
+**Answer:** (a)
+**Solution:** Country : national animal. The tiger is India's national animal; the bald eagle is the national animal/bird of the USA. **Trap:** (c) Kangaroo (Australia) and (d) Panda (China) are famous animal-country links placed to catch those who recall *an* association but not the right one.
+**Source:** PYQ-style
+
+**Q8.** 11 : 121 :: 15 : ?
+(a) 225 (b) 215 (c) 235 (d) 195
+**Answer:** (a)
+**Solution:** Simple square: 11² = 121, so 15² = 225. **Trap:** The nearby wrong values (215, 235) punish mental-arithmetic slips. This is a 15-second question — if it takes longer, your squares up to 25 need revision.
+**Source:** PYQ-style
+
+**Q9.** Petal : Flower :: Page : ?
+(a) Book (b) Library (c) Author (d) Ink
+**Answer:** (a)
+**Solution:** Part : whole — a petal is a part of a flower; a page is a part of a book. **Trap:** (b) Library is "whole : collection" (a library holds many books), a deliberately shifted level of the part-whole relation.
+**Source:** PYQ-style
+
+**Q10.** Ornithology : Birds :: Entomology : ?
+(a) Insects (b) Fish (c) Snakes (d) Plants
+**Answer:** (a)
+**Solution:** Study : subject studied. Entomology is the study of insects. **Trap:** (c) Snakes tempts those confusing entomology with herpetology; "-logy" words are a classic confusion family the examiner exploits.
+**Source:** PYQ-style
+
+## 5. Key Takeaways
+
+- Name the relationship **in words** before looking at the options — this single habit defeats most traps.
+- Always verify the **direction** of the pair (part→whole vs. whole→part, tool→function vs. function→tool).
+- For number analogies, test patterns in this order: square/cube → ×n ± k → n(n±1) → digit operations.
+- For letter analogies, write alphabet positions; check simple shifts first, then reverse positions (sum 27).
+- Respect the 15/45-second rule — Analogy rewards recognition, not prolonged analysis.

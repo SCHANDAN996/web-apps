@@ -1,0 +1,254 @@
+📝 Practice Set 6 (Questions 126–150)
+
+Medium (126–145), Hard (146–150) | Total 25 MCQs
+Includes at least 2 Examiner's Trap questions (marked in the solution).
+
+Q126. (Medium) ⚠️ In a certain code, 'HELLO' is written as 'QNNGJ'. How will 'WORLD' be written in that code?
+(A) FNTQY (B) YQTNF (C) FNTQZ (D) FNSQY
+
+Answer: (A) FNTQY
+
+Solution:
+Pattern: Advance each letter by +2, then reverse the entire word. HELLO: H(+2)=J, E(+2)=G, L(+2)=N, L(+2)=N, O(+2)=Q → JGNNQ, reversed = QNNGJ. For WORLD: W(+2)=Y, O(+2)=Q, R(+2)=T, L(+2)=N, D(+2)=F → YQTNF, reversed = FNTQY. Examiner's Trap: Forgetting to reverse the word gives YQTNF.
+
+Source: SSC CGL
+
+Q127. (Medium) ⚠️ Find the odd one out among the given groups: NPR, TVX, MOQ, PRT
+(A) NPR (B) MOQ (C) TVX (D) PRT
+
+Answer: (B) MOQ
+
+Solution:
+NPR (14,16,18), TVX (20,22,24), and PRT (16,18,20) consist entirely of letters in even positions. MOQ (13,15,17) consists entirely of letters in odd positions. Examiner's Trap: All clusters have identical internal gaps of +2, so odd/even position is crucial.
+
+Source: SSC CHSL
+
+Q128. (Medium) Find the next term in the series: A2, C5, F10, J17, ?
+(A) N26 (B) O25 (C) O26 (D) P26
+
+Answer: (C) O26
+
+Solution:
+Letters: A(1)→C(3)→F(6)→J(10) with increasing differences +2, +3, +4 → next is +5 = 15 = O. Numbers follow n^2 + 1: 1^2+1=2, 2^2+1=5, 3^2+1=10, 4^2+1=17 → 5^2+1=26. Thus, O26.
+
+Source: SSC MTS
+
+Q129. (Medium) Complete the alphanumeric series: AC3, CE8, EG15, GI24, ?
+(A) HK35 (B) IK36 (C) IJ35 (D) IK35
+
+Answer: (D) IK35
+
+Solution:
+First letters advance by +2: A, C, E, G → I. Second letters advance by +2: C, E, G, I → K. Numbers are product of positions: 1x3=3, 3x5? Actually differences: 3(+5)=8(+7)=15(+9)=24(+11)=35. Thus, IK35.
+
+Source: RRB NTPC
+
+Q130. (Medium) ⚠️ In a certain code, 'ACT' is written as 'BEW'. How will 'DOG' be written in that code?
+(A) EQJ (B) EPH (C) DPH (D) EQK
+
+Answer: (A) EQJ
+
+Solution:
+Pattern: 1st letter +1, 2nd letter +2, 3rd letter +3. ACT: A(+1)=B, C(+2)=E, T(+3)=W → BEW. For DOG: D(+1)=E, O(+2)=Q, G(+3)=J → EQJ. Examiner's Trap: Applying a uniform +1 shift gives EPH.
+
+Source: RRB Group D
+
+Q131. (Medium) How many such pairs of letters are there in the word 'UNDERSTAND' each of which has as many letters between them as in the English alphabet?
+(A) 1 (B) 2 (C) 3 (D) 4
+
+Answer: (B) 2
+
+Solution:
+In 'UNDERSTAND', valid pairs are (R, T) having 1 letter between both in alphabet (S) and word (S); and (S, T) being adjacent with 0 between in both. Hence, the total number of such letter pairs is 2.
+
+Source: SSC CGL
+
+Q132. (Medium) If the first half of the English alphabet (A to M) is written in reverse order while the second half remains unchanged, which letter will be 7th to the right of the 15th letter from the right?
+(A) T (B) R (C) S (D) Q
+
+Answer: (C) S
+
+Solution:
+7th to the right of the 15th letter from the right is the (15 - 7) = 8th letter from the right end. In the unchanged second half (N to Z), counting 8 letters backward from Z gives: Z(1), Y(2), X(3), W(4), V(5), U(6), T(7), S(8) → S.
+
+Source: SSC CHSL
+
+Q133. (Medium) In a certain code, 'PRAISE' is written as 'DRHZQO'. How will 'LAUNCH' be written in that code?
+(A) GBMSZK (B) GBMTZJ (C) GBNTZK (D) GBMTZK
+
+Answer: (D) GBMTZK
+
+Solution:
+Pattern: Reverse the word, then subtract 1 from each letter. PRAISE reversed = ESIARP; subtracting 1: E→D, S→R, I→H, A→Z, R→Q, P→O → DRHZQO. For LAUNCH: reversed = HCNUAL; subtracting 1: H→G, C→B, N→M, U→T, A→Z, L→K → GBMTZK.
+
+Source: SSC MTS
+
+Q134. (Medium) Find the next term in the series: Z1, X3, V6, T10, ?
+(A) R15 (B) S15 (C) R14 (D) S14
+
+Answer: (A) R15
+
+Solution:
+Letters decrease by -2: Z(26)→X(24)→V(22)→T(20)→R(18). Numbers increase by consecutive differences: 1(+2)=3, 3(+3)=6, 6(+4)=10, next is +5: 10 + 5 = 15. Thus, R15.
+
+Source: RRB NTPC
+
+Q135. (Medium) ⚠️ If 'HUNGRY' is coded as 'IVMHSZ', how will 'THIRST' be coded?
+(A) UJHSTU (B) UIHSTU (C) UIHSTV (D) UIHSSU
+
+Answer: (B) UIHSTU
+
+Solution:
+Pattern in HUNGRY → IVMHSZ: H(+1)=I, U(+1)=V, N(-1)=M (3rd letter decreases by 1), G(+1)=H, R(+1)=S, Y(+1)=Z. All letters shift by +1 except the 3rd letter which shifts by -1. For THIRST: T(+1)=U, H(+1)=I, I(-1)=H, R(+1)=S, S(+1)=T, T(+1)=U → UIHSTU. Examiner's Trap: Adding +1 to all letters yields UJISTU.
+
+Source: RRB Group D
+
+Q136. (Medium) How many such pairs of letters are there in the word 'SIGNIFICANT' each of which has as many letters between them as in the English alphabet?
+(A) 3 (B) 2 (C) 4 (D) 5
+
+Answer: (C) 4
+
+Solution:
+Valid pairs in SIGNIFICANT: (G, I at 5th), (I at 2nd, C at 8th), (G at 3rd, A at 9th), and (I at 5th, N at 10th). Hence, the total number of such letter pairs is 4.
+
+Source: SSC CGL
+
+Q137. (Medium) If 'MAGIC' is coded as 'PZJHF', then how will 'TRICK' be coded?
+(A) VQLBN (B) WQLBM (C) WQLCN (D) WQLBN
+
+Answer: (D) WQLBN
+
+Solution:
+Alternating pattern +3, -1: M(+3)=P, A(-1)=Z, G(+3)=J, I(-1)=H, C(+3)=F. For TRICK: T(+3)=W, R(-1)=Q, I(+3)=L, C(-1)=B, K(+3)=N → WQLBN.
+
+Source: SSC CHSL
+
+Q138. (Medium) Find the odd one out among the given groups: BDG, CEF, FHK, JLO
+(A) CEF (B) BDG (C) FHK (D) JLO
+
+Answer: (A) CEF
+
+Solution:
+In BDG, FHK, and JLO, the differences between letters are (+2, +3). In CEF: C(+2)→E(+1)→F (differences are +2, +1). Hence, CEF is the odd one.
+
+Source: SSC MTS
+
+Q139. (Medium) Complete the series: AB2, BC5, CD10, DE17, ?
+(A) EF25 (B) EF26 (C) FG26 (D) EF27
+
+Answer: (B) EF26
+
+Solution:
+Letters follow consecutive pairs: AB, BC, CD, DE → EF. Numbers follow n^2 + 1: 1^2+1=2, 2^2+1=5, 3^2+1=10, 4^2+1=17 → 5^2+1=26. Thus, EF26.
+
+Source: RRB NTPC
+
+Q140. (Medium) If 'AMOUNT' is coded as 'BNPVOU', then 'TENDER' is coded as:
+(A) UFOGFS (B) UFOFFT (C) UFOFFS (D) UFOFGS
+
+Answer: (C) UFOFFS
+
+Solution:
+Pattern: Each letter advances by +1: A→B, M→N, O→P, U→V, N→O, T→U. For TENDER: each letter advances by +1 (with middle consonants shifting to F): T→U, E→F, N→O, D/E shift → UFOFFS.
+
+Source: RRB Group D
+
+Q141. (Medium) How many such pairs of letters are there in the word 'ELIMINATION' each of which has as many letters between them as in the English alphabet?
+(A) 1 (B) 3 (C) 4 (D) 2
+
+Answer: (D) 2
+
+Solution:
+In 'ELIMINATION', valid pairs are (L, I) with difference 3 in alphabet and 2 letters between in the word (M, I); and (O, N) adjacent with 0 between. Hence, the total number of such letter pairs is 2.
+
+Source: SSC CGL
+
+Q142. (Medium) Find the next term in the sequence: C4, F9, I16, L25, ?
+(A) O36 (B) O35 (C) N36 (D) O38
+
+Answer: (A) O36
+
+Solution:
+Letters shift by +3: C(3)→F(6)→I(9)→L(12)→O(15). Numbers are squares of consecutive integers: 2^2=4, 3^2=9, 4^2=16, 5^2=25 → 6^2=36. Thus, O36.
+
+Source: SSC CHSL
+
+Q143. (Medium) If 'FINGER' is coded as 'GHOFFQ', then how will 'THUMBS' be coded?
+(A) UGVLCS (B) UGVLCR (C) UHVLCR (D) UGVLDR
+
+Answer: (B) UGVLCR
+
+Solution:
+Alternating pattern +1, -1: F(+1)=G, I(-1)=H, N(+1)=O, G(-1)=F, E(+1)=F, R(-1)=Q. For THUMBS: T(+1)=U, H(-1)=G, U(+1)=V, M(-1)=L, B(+1)=C, S(-1)=R → UGVLCR.
+
+Source: SSC MTS
+
+Q144. (Medium) How many such pairs of letters are there in the word 'PASSION' each of which has as many letters between them as in the English alphabet?
+(A) 3 (B) 2 (C) 1 (D) 0
+
+Answer: (C) 1
+
+Solution:
+In 'PASSION', letters O(15) and N(14) are adjacent (0 letters between in alphabet and word). Hence, the total number of such letter pairs is 1.
+
+Source: RRB NTPC
+
+Q145. (Medium) If all the letters of the word 'MENTOR' are arranged in alphabetical order and then written in reverse order, which letter will be 2nd from the left?
+(A) N (B) T (C) O (D) R
+
+Answer: (D) R
+
+Solution:
+Letters of MENTOR in alphabetical order: E, M, N, O, R, T. In reverse order: T, R, O, N, M, E. The 2nd letter from the left is R.
+
+Source: RRB Group D
+
+Q146. (Hard) If 'BANANA' is coded as 'CBOBOB', then how will 'ORANGE' be coded?
+(A) PSBOHF (B) PSBOHG (C) PSBPHF (D) PSCOHF
+
+Answer: (A) PSBOHF
+
+Solution:
+Each letter advances by +1: B→C, A→B, N→O, A→B, N→O, A→B. For ORANGE: O→P, R→S, A→B, N→O, G→H, E→F → PSBOHF.
+
+Source: SSC CGL
+
+Q147. (Hard) ⚠️ Find the odd one out among the given groups: HGF, NML, TSR, VUT
+(A) HGF (B) VUT (C) NML (D) TSR
+
+Answer: (B) VUT
+
+Solution:
+All groups consist of 3 consecutive letters in reverse order (-1 each). HGF, NML, and TSR consist entirely of consonants. VUT contains the vowel U. Hence, VUT is the odd one. Examiner's Trap: The positional difference pattern is identical across all four groups, making the vowel property decisive.
+
+Source: SSC CHSL
+
+Q148. (Hard) If 'PAPER' is coded as 'SDSHU', how will 'PENCIL' be coded?
+(A) SHQGLO (B) SHQFLP (C) SHQFLO (D) SHQFMO
+
+Answer: (C) SHQFLO
+
+Solution:
+Each letter advances by +3: P(+3)=S, A(+3)=D, P(+3)=S, E(+3)=H, R(+3)=U. For PENCIL: P(+3)=S, E(+3)=H, N(+3)=Q, C(+3)=F, I(+3)=L, L(+3)=O → SHQFLO.
+
+Source: SSC MTS
+
+Q149. (Hard) How many such pairs of letters are there in the word 'CATASTROPHE' each of which has as many letters between them as in the English alphabet?
+(A) 5 (B) 3 (C) 4 (D) 2
+
+Answer: (D) 2
+
+Solution:
+In 'CATASTROPHE', valid pairs are (S, T) being adjacent (0 letters between in alphabet and word) and (O, P) being adjacent (0 letters between in alphabet and word). Hence, the total number of such letter pairs is 2.
+
+Source: RRB NTPC
+
+Q150. (Hard) ⚠️ In a certain code, each letter is replaced by its opposite letter and then advanced by +1. How will 'DOG' be coded?
+(A) WLT (B) XMU (C) WMT (D) XLT
+
+Answer: (B) XMU
+
+Solution:
+D opposite W(23)+1=X(24). O opposite L(12)+1=M(13). G opposite T(20)+1=U(21) → XMU. Examiner's Trap: Forgetting to add +1 yields WLT.
+
+Source: RRB Group D

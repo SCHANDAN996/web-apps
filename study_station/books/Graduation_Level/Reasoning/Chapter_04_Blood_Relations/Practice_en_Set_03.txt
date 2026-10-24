@@ -1,0 +1,151 @@
+Questions 51–75: Medium
+
+51. If A + B means A is the father of B, A − B means A is the mother of B, and A × B means A is the sister of B, then in the expression P × Q + R − S, how is P related to S?
+(a) Sister (b) Mother (c) Aunt (d) Grandmother
+Answer: (c)
+Solution: The tempting wrong choice is "Sister", which only covers P × Q and ignores the rest of the chain. P × Q means P is the sister of Q; Q + R means Q is the father of R; R − S means R is the mother of S. So Q and R are the parents of S, and P is the sister of S's father, so the answer is Aunt.
+Source: PYQ-style
+
+52. Pointing to a photograph, a man said, "She is the daughter of my grandfather's only son." How is the woman in the photograph related to the man?
+(a) Cousin (b) Mother (c) Sister (d) Aunt
+Answer: (c)
+Solution: The trap is "Cousin", chosen by those who assume the grandfather has more than one son. "My grandfather's only son" must be the man's own father, so the daughter of his father is his sister, so the answer is Sister.
+Source: PYQ-style
+
+53. If A # B means A is the mother of B, A $ B means A is the brother of B, and A * B means A is the daughter of B, then which expression shows that M is the maternal grandmother of T?
+(a) M # N $ T (b) M * N # T (c) M # N # T (d) M $ N # T
+Answer: (c)
+Solution: The trap is the first option, where N is the brother of T, making M the mother of T's uncle, not the grandmother. For M to be the maternal grandmother of T, M must be the mother of T's mother: M # N means M is the mother of N, and N # T means N is the mother of T, so the answer is M # N # T.
+Source: PYQ-style
+
+54. Introducing a boy, a girl said, "He is the son of the daughter of the father of my uncle." How is the boy related to the girl?
+(a) Brother (b) Nephew (c) Son (d) Cousin
+Answer: (d)
+Solution: The trap is "Brother", which would require the boy's mother to be the girl's own mother. The father of the girl's uncle is her grandfather; the daughter of the grandfather is the girl's aunt (father's sister); the son of that aunt is the girl's cousin, so the answer is Cousin.
+Source: PYQ-style
+
+55. If M × N means M is the wife of N, M + N means M is the son of N, and M ÷ N means M is the daughter of N, then in K + L × M, how is K related to M?
+(a) Husband (b) Brother (c) Son (d) Father
+Answer: (c)
+Solution: The trap is "Brother", from misreading L × M as L being the husband. L × M means L is the wife of M, and K + L means K is the son of L, so K is the son of L and hence also the son of her husband M, so the answer is Son.
+Source: PYQ-style
+
+56. A is the brother of B. B is the daughter of C. D is the father of A. E is the wife of D. How is E related to C?
+(a) Cannot be determined (b) Daughter-in-law (c) Mother (d) Sister
+Answer: (a)
+Solution: The trap is assuming E must be C's daughter or daughter-in-law. D is the father of A, and C is a parent of B (and hence of A, since A is B's brother). So C and D are the two parents, and E is the wife of D, but the gender of C is not given, so the exact relation of E to C cannot be fixed, so the answer is Cannot be determined.
+Source: PYQ-style
+
+57. If X @ Y means X is the husband of Y, X & Y means X is the sister of Y, and X % Y means X is the son of Y, then in P % Q @ R & S, how is P related to S?
+(a) Son (b) Nephew (c) Brother (d) Uncle
+Answer: (b)
+Solution: The trap is "Son", which ignores the last link R & S. P % Q means P is the son of Q; Q @ R means Q is the husband of R; R & S means R is the sister of S. So P is the son of R (Q's wife), and R is the sister of S, making P the nephew of S, so the answer is Nephew.
+Source: PYQ-style
+
+58. Pointing to a woman, Rohan said, "Her only brother is the father of my daughter's father." How is the woman related to Rohan?
+(a) Aunt (b) Mother (c) Sister (d) Grandmother
+Answer: (a)
+Solution: The trap is "Mother", from misreading "my daughter's father" as someone else. Rohan's daughter's father is Rohan himself, so the woman's brother is Rohan's father, which makes the woman Rohan's paternal aunt, so the answer is Aunt.
+Source: PYQ-style
+
+59. In a family, P is the father of Q, R is the sister of Q, S is the mother of R, and T is the brother of S. How is T related to Q?
+(a) Father (b) Brother (c) Grandfather (d) Uncle
+Answer: (d)
+Solution: The trap is "Grandfather", from adding an extra generation. S is the mother of R and hence of Q (R is Q's sister); T is the brother of S, so T is the brother of Q's mother, i.e., Q's maternal uncle, so the answer is Uncle.
+Source: PYQ-style
+
+60. If A − B means A is the mother of B, A + B means A is the brother of B, and A × B means A is the father of B, then which expression means "M is the paternal uncle of P"?
+(a) M + N − P (b) M + N × P (c) M − N + P (d) M × N + P
+Answer: (b)
+Solution: The trap is the second option, where M becomes the father, not the uncle. For M to be the paternal uncle of P, M must be the brother of P's father: M + N means M is the brother of N, and N × P means N is the father of P, so the answer is M + N × P.
+Source: PYQ-style
+
+61. K is the son of L. M is the daughter of N. L is the wife of N. O is the brother of K. How is O related to M?
+(a) Cousin (b) Brother (c) Uncle (d) Nephew
+Answer: (b)
+Solution: The trap is "Cousin", from assuming K and M belong to different families. L is the wife of N, so L and N are a couple; K is the son of L (and N), M is the daughter of N (and L), and O is the brother of K, so O and M share the same parents, so the answer is Brother.
+Source: PYQ-style
+
+62. Pointing to a man, a woman said, "His mother is the only daughter of my mother." How is the woman related to the man?
+(a) Grandmother (b) Sister (c) Aunt (d) Mother
+Answer: (d)
+Solution: The trap is "Sister", from thinking "only daughter of my mother" could be a sibling. The only daughter of the woman's mother is the woman herself, so the man's mother is the woman, meaning the woman is the man's mother, so the answer is Mother.
+Source: PYQ-style
+
+63. If P > Q means P is the father of Q, P < Q means P is the wife of Q, and P = Q means P is the brother of Q, then in A > B = C < D, how is A related to D?
+(a) Father (b) Father-in-law (c) Brother (d) Son
+Answer: (b)
+Solution: The trap is "Father", which stops after the first symbol. A > B means A is the father of B; B = C means B is the brother of C; C < D means C is the wife of D. So A is the father of C, and C is D's wife, making A the father-in-law of D, so the answer is Father-in-law.
+Source: PYQ-style
+
+64. Ravi says, "That girl's father is the only son of my father-in-law." How is the girl related to Ravi?
+(a) Sister (b) Daughter (c) Niece (d) Wife
+Answer: (c)
+Solution: The trap is "Daughter", from assuming the girl's father must be Ravi himself. The only son of Ravi's father-in-law is Ravi's wife's brother, so the girl is the daughter of Ravi's brother-in-law, making her Ravi's niece, so the answer is Niece.
+Source: PYQ-style
+
+65. If J + K means J is the sister of K, J − K means J is the father of K, and J × K means J is the mother of K, then in A − B + C × D, how is A related to D?
+(a) Father (b) Husband (c) Brother (d) Grandfather
+Answer: (d)
+Solution: The trap is "Father", from stopping after the first symbol. A − B means A is the father of B; B + C means B is the sister of C, so A is also the father of C; C × D means C is the mother of D, making A the maternal grandfather of D, so the answer is Grandfather.
+Source: PYQ-style
+
+66. S is the mother of T. T is the husband of U. V is the son of U. W is the daughter of T. How is S related to V?
+(a) Mother (b) Grandmother (c) Aunt (d) Sister
+Answer: (b)
+Solution: The trap is "Aunt", from treating S as belonging to the same generation as T. S is the mother of T; T and U are a couple; V is the son of U (and T). So S is the mother of V's father, making S the paternal grandmother of V, so the answer is Grandmother.
+Source: PYQ-style
+
+67. Pointing to a photograph, Meena said, "He is the son of the only daughter of the mother of my brother." How is the man related to Meena?
+(a) Son (b) Brother (c) Nephew (d) Cousin
+Answer: (a)
+Solution: The trap is "Nephew", from assuming Meena has a sister. The mother of Meena's brother is Meena's own mother, and since Meena is the only daughter of her mother, the son of that only daughter is Meena's own son, so the answer is Son.
+Source: PYQ-style
+
+68. If C @ D means C is the daughter of D, C # D means C is the husband of D, and C $ D means C is the brother of D, then in X @ Y $ Z # W, how is X related to W?
+(a) Niece (b) Sister (c) Daughter (d) Mother
+Answer: (a)
+Solution: The trap is "Daughter", from ignoring the middle brother link. X @ Y means X is the daughter of Y; Y $ Z means Y is the brother of Z; Z # W means Z is the husband of W. So Y and Z are brothers, X is the daughter of Y, and W is Z's wife, making X the niece of W (wife of X's uncle), so the answer is Niece.
+Source: PYQ-style
+
+69. In a family of six members A, B, C, D, E and F, there are two married couples. B is the son of A. C is the wife of A. D is the daughter of F. E is the husband of D. F is the mother of B. How is E related to A?
+(a) Father (b) Son (c) Brother (d) Son-in-law
+Answer: (d)
+Solution: The trap is "Son", from placing E in the children's generation without the marriage link. A and C are one couple; F is the mother of B, and B is the son of A, so F and C are the same person. D is the daughter of F (hence of A), and E is the husband of D, so E is the husband of A's daughter, so the answer is Son-in-law.
+Source: PYQ-style
+
+70. If M * N means M is the mother of N, M + N means M is the father of N, and M − N means M is the sister of N, then which expression shows that T is the maternal aunt of W?
+(a) T + U * W (b) T * U − W (c) T − U + W (d) T − U * W
+Answer: (d)
+Solution: The trap is the third option, where U becomes the father of W, making T the paternal aunt. For T to be the maternal aunt of W, T must be the sister of W's mother: T − U means T is the sister of U, and U * W means U is the mother of W, so the answer is T − U * W.
+Source: PYQ-style
+
+71. A man said to a woman, "Your mother's husband's sister is my aunt." How is the woman related to the man?
+(a) Cousin (b) Aunt (c) Niece (d) Sister
+Answer: (a)
+Solution: The trap is "Sister", from assuming the shared relative makes them siblings. The woman's mother's husband is her father; her father's sister is her paternal aunt. That aunt is also the man's aunt, so the man and the woman share an aunt but are not siblings, making them cousins, so the answer is Cousin.
+Source: PYQ-style
+
+72. If P ÷ Q means P is the son of Q, P × Q means P is the wife of Q, and P − Q means P is the daughter of Q, then in A ÷ B × C − D, how is A related to D?
+(a) Nephew (b) Grandson (c) Brother (d) Son
+Answer: (b)
+Solution: The trap is "Son", from stopping at the second symbol. A ÷ B means A is the son of B; B × C means B is the wife of C; C − D means C is the daughter of D. So A is the son of B and C, and C is the daughter of D, making A the grandson of D, so the answer is Grandson.
+Source: PYQ-style
+
+73. Introducing a man, a woman said, "His wife is the only daughter of my father." How is the man related to the woman?
+(a) Husband (b) Brother (c) Father (d) Brother-in-law
+Answer: (a)
+Solution: The trap is "Brother-in-law", from assuming the woman has a sister. The only daughter of the woman's father is the woman herself, so the man's wife is the woman, meaning the man is her husband, so the answer is Husband.
+Source: PYQ-style
+
+74. E is the brother of F. G is the mother of E. H is the father of G. I is the daughter of F. How is H related to I?
+(a) Great-grandfather (b) Grandfather (c) Uncle (d) Father
+Answer: (a)
+Solution: The trap is "Grandfather", from counting only two generations. H is the father of G; G is the mother of E and hence of F (E's brother); F is the parent of I. So the chain H → G → F → I spans three generations, making H the great-grandfather of I, so the answer is Great-grandfather.
+Source: PYQ-style
+
+75. If X & Y means X is the father of Y, X % Y means X is the sister of Y, and X @ Y means X is the mother of Y, then in P % Q & R @ S, how is P related to S?
+(a) Sister (b) Mother (c) Aunt (d) Grandmother
+Answer: (c)
+Solution: The trap is "Sister", from reading only the first symbol. P % Q means P is the sister of Q; Q & R means Q is the father of R; R @ S means R is the mother of S. So Q and R are the parents of S, and P is the sister of S's father Q, making P the paternal aunt of S, so the answer is Aunt.
+Source: PYQ-style

@@ -1,0 +1,132 @@
+# Paper Folding & Cutting
+
+## Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+- Visualise what happens when a paper is folded once, twice, or thrice.
+- Predict the pattern of holes or cuts after the paper is unfolded.
+- Use the "mirror rule" to solve questions in seconds.
+- Spot and avoid the examiner's favourite traps.
+
+---
+
+## The Hook: One Punch, Many Holes
+
+Imagine this. You fold a sheet of paper just **two times**, punch **one single hole** through it, and then open it up. How many holes do you see?
+
+Not one. **Four.**
+
+That is the magic — and the logic — of this chapter. Every fold **doubles** the layers of paper. One punch through 4 layers = 4 holes. One punch through 8 layers = 8 holes. Once you truly *feel* this idea, most questions in this chapter become straightforward.
+
+---
+
+## "But I Can't Visualise 3D Shapes!" — You're Not Alone
+
+Most students look at a Paper Folding question and their mind goes blank. The figures look like a puzzle from another planet. Here is the truth: **toppers don't have special brains — they have a method.** They never try to "see" the whole answer at once. They unfold the paper **one fold at a time**, in reverse order. That is exactly what you will learn now.
+
+---
+
+## Chunk 1: The Golden Rule — Fold Forward, Unfold Backward
+
+Every question shows you a sequence:
+
+**Step 1 → Step 2 → Step 3 → ?**
+
+The paper is folded in steps 1 and 2, and a cut/punch is made in step 3. You must find how it looks when fully opened.
+
+**The method:**
+1. Look at the **last fold** made.
+2. Mentally **unfold it** — the cut gets reflected (mirrored) across that fold line.
+3. Now unfold the **previous fold** — all the cuts you now have get mirrored again.
+4. Repeat until the paper is fully open.
+
+> **Key line to memorise:** *"Last fold, first unfold."* Always work in **reverse order**.
+
+🧠 **Active Recall:** If a paper is folded twice and then punched once, in which order do you unfold — first fold first, or last fold first? (Answer: last fold first — always reverse order.)
+
+---
+
+## Chunk 2: The Mirror Rule (Your Best Friend)
+
+When you unfold a fold, the hole or cut does not just "copy" — it **reflects**, like an image in a mirror placed along the fold line.
+
+- Fold was **vertical** → the copy appears on the **other side, left-right flipped**.
+- Fold was **horizontal** → the copy appears **above/below, top-bottom flipped**.
+- Fold was **diagonal** → the copy flips across the diagonal line.
+
+**Mnemonic — "MIRROR":**
+> **M**irror **I**mage **R**eflects, **R**everse **O**rder **R**ules.
+
+Every cut is a mirror image across the fold line, and you always unfold in reverse order.
+
+🧠 **Active Recall:** A paper is folded upward along a horizontal line and a triangle is cut near the fold. When unfolded, where does the second triangle appear, and in what orientation? (Answer: on the other side of the horizontal fold, flipped top-to-bottom.)
+
+---
+
+## Chunk 3: Counting Holes — The Doubling Logic
+
+Each fold doubles the paper layers at the punched spot:
+
+| Number of folds (all covering the punch point) | Layers | Holes from 1 punch |
+|---|---|---|
+| 1 | 2 | 2 |
+| 2 | 4 | 4 |
+| 3 | 8 | 8 |
+
+**But caution!** This doubling works only if the punch lies in the region covered by **all** the folds. If a punch falls on a part covered by only one fold, it produces only 2 holes, not 4. This is exactly where the examiner traps you.
+
+🧠 **Active Recall:** Paper folded twice, one punch gives 4 holes — true always, or only sometimes? (Answer: only when the punch point is covered by both folds.)
+
+---
+
+## Chunk 4: Cuts on the Fold Line and on the Edges
+
+Two special cases that exams love:
+
+1. **Cut exactly ON the fold line:** When opened, the two mirrored halves **join into one symmetric shape**. A half-circle cut on the fold becomes a full circle; a half-diamond becomes a full diamond.
+2. **Cut on the outer edge (not on a fold):** It produces **separate** identical cuts on the corresponding edges — they do not merge.
+
+> **Quick check:** Cut on fold = shapes **merge**. Cut away from fold = shapes **multiply**.
+
+🧠 **Active Recall:** A semicircle is cut on a fold line. After opening, do you get one circle or two semicircles? (Answer: one full circle — the halves merge.)
+
+---
+
+## Chunk 5: A Step-by-Step Solved Example
+
+**Question type:** A square paper is folded (i) left half onto the right half, then (ii) bottom half upward. A small circle is punched at the centre of the folded paper. What appears on opening?
+
+**Solution (reverse order):**
+1. **Unfold fold (ii):** the circle mirrors across the horizontal fold → now 2 circles, one above the other.
+2. **Unfold fold (i):** both circles mirror across the vertical fold → now 4 circles, arranged in a 2×2 symmetric pattern.
+
+**Answer:** 4 circles in a square arrangement. Notice — we never "imagined" the final figure. We just mirrored, step by step.
+
+---
+
+## Summary Table
+
+| Situation | Result on unfolding |
+|---|---|
+| 1 fold + 1 punch | 2 holes (mirror images) |
+| 2 folds + 1 punch (covered by both) | 4 holes |
+| 3 folds + 1 punch (covered by all) | 8 holes |
+| Cut on the fold line | Halves merge into one symmetric shape |
+| Cut on outer edge | Separate identical cuts on edges |
+| Order of solving | Always unfold the **last fold first** |
+
+📌 **Review this chapter after 2 days.** Redraw one fold sequence on rough paper, punch it with a pen tip, and check your prediction — 2 minutes of real folding fixes this chapter in memory forever.
+
+---
+
+## ⚠️ Caution: Examiner's Trap
+
+**Trap 1 — Unclear figures on screen/paper.**
+In the exam, fold arrows and dotted lines can look faint or confusing. Students misread a **diagonal fold as a horizontal fold** and lose the mark. Fix: before solving, spend 3 seconds confirming the **direction of every arrow** — which side is folding onto which.
+
+**Trap 2 — Similar-looking options with hidden differences.**
+The four answer figures often differ only in the **position of one hole** or the **orientation of one cut**. The examiner hides the difference in a corner. Fix: don't scan the whole figure — check **one hole at a time**, starting from the hole nearest to the last fold.
+
+**Trap 3 — Slight change in rotation/reflection.**
+A cut shape (like an L or a triangle) is shown **rotated** in the option instead of **mirrored**. Rotation and reflection look similar but are not the same — unfolding always produces a **mirror image**, never a rotation. Fix: ask yourself for every option — "Is this a mirror flip across the fold line, or just a turned-around copy?" Eliminate the rotated ones.

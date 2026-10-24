@@ -1,0 +1,151 @@
+Questions 76–95: Easy | Questions 96–100: Moderate
+
+76. Find the missing term: 4, 9, 25, 49, 121, ?
+(a) 144 (b) 225 (c) 196 (d) 169
+Answer: (d)
+Solution: The tempting choice 144 assumes squares of consecutive integers, but the terms are squares of primes: 2², 3², 5², 7², 11². The next prime is 13, so the answer is 169.
+Source: PYQ-style
+
+77. Find the missing term: 2, 6, 12, 20, 30, 42, ?
+(a) 52 (b) 56 (c) 60 (d) 54
+Answer: (b)
+Solution: The tempting choice 54 comes from wrongly adding a constant 12, but the differences are 4, 6, 8, 10, 12, so the next difference is 14. Adding 14 to 42, the answer is 56.
+Source: NCERT Class 8 Mathematics (pattern recognition)
+
+78. Find the wrong term in the series: 3, 7, 15, 31, 63, 127, 256
+(a) 15 (b) 256 (c) 127 (d) 31
+Answer: (b)
+Solution: Each term follows the rule "double and add 1": 3→7→15→31→63→127→255. The tempting choice 127 fits the rule perfectly, so it is not wrong; the last term should be 255, not 256. Hence the wrong term is 256.
+Source: PYQ-style
+
+79. Find the missing term: 1, 4, 27, 256, ?
+(a) 625 (b) 1024 (c) 3125 (d) 4096
+Answer: (c)
+Solution: The tempting choice 1024 assumes powers of 2, but the pattern is n raised to n: 1¹, 2², 3³, 4⁴. The next term is 5⁵, so the answer is 3125.
+Source: PYQ-style
+
+80. Find the missing term: 11, 13, 17, 19, 23, 29, ?
+(a) 31 (b) 33 (c) 35 (d) 37
+Answer: (a)
+Solution: The tempting choice 37 skips ahead by assuming a difference of 8, but the series is simply consecutive prime numbers starting from 11. The prime after 29 is 31, so the answer is 31.
+Source: NCERT Class 6 Mathematics (prime numbers)
+
+81. Find the missing term: 5, 11, 23, 47, 95, ?
+(a) 191 (b) 189 (c) 193 (d) 197
+Answer: (a)
+Solution: The tempting choice 193 comes from doubling and adding 3, but the rule is "multiply by 2 and add 1": 5→11→23→47→95. So 95 × 2 + 1 = 191, and the answer is 191.
+Source: PYQ-style
+
+82. Find the missing term: 8, 27, 64, 125, 216, ?
+(a) 343 (b) 324 (c) 512 (d) 289
+Answer: (a)
+Solution: The tempting choice 512 is 8³, which skips a term; the series is cubes of consecutive integers 2³, 3³, 4³, 5³, 6³. The next term is 7³, so the answer is 343.
+Source: NCERT Class 8 Mathematics (cubes)
+
+83. Find the wrong term in the series: 2, 4, 8, 16, 30, 64
+(a) 4 (b) 30 (c) 16 (d) 64
+Answer: (b)
+Solution: The tempting choice 64 looks suspicious as a round number, but the rule is "multiply by 2": 2→4→8→16→32→64. The term written as 30 should be 32, so the wrong term is 30.
+Source: PYQ-style
+
+84. Find the missing term: 3, 10, 29, 66, 127, ?
+(a) 216 (b) 218 (c) 220 (d) 224
+Answer: (b)
+Solution: The tempting choice 216 is 6³, forgetting the added constant; the pattern is n³ + 2: 1³+2=3, 2³+2=10, 3³+2=29, 4³+2=66, 5³+2=127. The next term is 6³+2, so the answer is 218.
+Source: PYQ-style
+
+85. Find the missing term: 7, 26, 63, 124, 215, ?
+(a) 340 (b) 346 (c) 344 (d) 342
+Answer: (d)
+Solution: The tempting choice 344 adds 2 instead of subtracting 1; the pattern is n³ − 1: 2³−1=7, 3³−1=26, 4³−1=63, 5³−1=124, 6³−1=215. The next term is 7³−1, so the answer is 342.
+Source: PYQ-style
+
+86. Find the missing term: 2, 3, 5, 9, 17, 33, ?
+(a) 67 (b) 63 (c) 65 (d) 69
+Answer: (c)
+Solution: The tempting choice 63 comes from doubling and subtracting 3, but the rule is "double and subtract 1" at every step: 2→3→5→9→17→33. So 33 × 2 − 1 = 65, and the answer is 65.
+Source: PYQ-style
+
+87. Find the missing term: 1, 1, 2, 3, 5, 8, 13, ?
+(a) 21 (b) 20 (c) 18 (d) 24
+Answer: (a)
+Solution: The tempting choice 20 adds the last difference 5 twice more, but this is the Fibonacci series where each term is the sum of the previous two: 8 + 13 = 21. So the answer is 21.
+Source: NCERT Class 11 Mathematics (sequences)
+
+88. Find the wrong term in the series: 2, 5, 10, 17, 26, 38, 50
+(a) 38 (b) 17 (c) 10 (d) 50
+Answer: (a)
+Solution: The pattern is n² + 1: 1²+1=2, 2²+1=5, 3²+1=10, 4²+1=17, 5²+1=26, 6²+1=37, 7²+1=50. The tempting choice 50 fits the rule, so it is correct; the term that should be 37 is written as 38. Hence the wrong term is 38.
+Source: PYQ-style
+
+89. Find the missing term: 6, 13, 28, 59, 122, ?
+(a) 249 (b) 247 (c) 245 (d) 251
+Answer: (a)
+Solution: The tempting choice 245 comes from doubling and adding 1 again, but the added number rises by 1 each step: 6×2+1=13, 13×2+2=28, 28×2+3=59, 59×2+4=122. Next is 122 × 2 + 5 = 249, so the answer is 249.
+Source: PYQ-style
+
+90. Find the missing term: 17, 19, 23, 29, 31, 37, ?
+(a) 39 (b) 41 (c) 43 (d) 47
+Answer: (b)
+Solution: The tempting choice 43 skips one prime; the series lists consecutive primes from 17 onward: 17, 19, 23, 29, 31, 37. The next prime is 41, so the answer is 41.
+Source: NCERT Class 6 Mathematics (prime numbers)
+
+91. Find the missing term: 4, 18, 48, 100, 180, ?
+(a) 294 (b) 300 (c) 288 (d) 306
+Answer: (a)
+Solution: The tempting choice 300 assumes a round number, but the pattern is n² × (n+1): 1²×2=4, 2²×3=18, 3²×4=48, 4²×5=100, 5²×6=180. The next term is 6² × 7 = 294, so the answer is 294.
+Source: PYQ-style
+
+92. Find the missing term: 9, 27, 31, 155, 161, 1127, ?
+(a) 1288 (b) 2254 (c) 1135 (d) 1133
+Answer: (c)
+Solution: The tempting choice 2254 doubles the last term, but the operations alternate between rising multipliers and rising additions: 9×3=27, 27+4=31, 31×5=155, 155+6=161, 161×7=1127. The next operation is +8, giving 1127 + 8 = 1135, so the answer is 1135.
+Source: PYQ-style
+
+93. Find the wrong term in the series: 4, 10, 22, 46, 96, 190
+(a) 10 (b) 190 (c) 46 (d) 96
+Answer: (d)
+Solution: The rule is "double and add 2": 4→10→22→46→94→190. The tempting choice 190 fits the rule, so it is correct; the term written as 96 should be 94. Hence the wrong term is 96.
+Source: PYQ-style
+
+94. Find the missing term: 1, 8, 27, 64, 125, 216, ?
+(a) 289 (b) 324 (c) 343 (d) 361
+Answer: (c)
+Solution: The tempting choice 324 is 18², mixing squares with cubes; the series is cubes of consecutive integers 1³ to 6³. The next term is 7³, so the answer is 343.
+Source: NCERT Class 8 Mathematics (cubes)
+
+95. Find the missing term: 12, 6, 6, 9, 18, 45, ?
+(a) 90 (b) 120 (c) 180 (d) 135
+Answer: (d)
+Solution: The tempting choice 90 simply doubles 45, but the multipliers rise by 0.5 each step: ×0.5, ×1, ×1.5, ×2, ×2.5. The next multiplier is ×3, giving 45 × 3 = 135, so the answer is 135.
+Source: PYQ-style
+
+96. Find the missing term: 3, 5, 9, 17, 33, 65, ?
+(a) 127 (b) 131 (c) 129 (d) 133
+Answer: (c)
+Solution: The tempting choice 127 subtracts 3 at the last step, but the rule is "double and subtract 1": 3→5→9→17→33→65. So 65 × 2 − 1 = 129, and the answer is 129.
+Source: PYQ-style
+
+97. Find the missing term: 2, 12, 36, 80, 150, ?
+(a) 260 (b) 240 (c) 252 (d) 272
+Answer: (c)
+Solution: The tempting choice 240 assumes a simple multiple, but the pattern is n³ + n²: 1+1=2, 8+4=12, 27+9=36, 64+16=80, 125+25=150. The next term is 216 + 36 = 252, so the answer is 252.
+Source: PYQ-style
+
+98. Find the wrong term in the series: 3, 5, 8, 13, 22, 34, 55
+(a) 5 (b) 34 (c) 13 (d) 22
+Answer: (d)
+Solution: This is a Fibonacci-type series where each term is the sum of the previous two: 3+5=8, 5+8=13, 8+13=21, 13+21=34, 21+34=55. The tempting choice 34 fits the rule, so it is correct; the term written as 22 should be 21. Hence the wrong term is 22.
+Source: PYQ-style
+
+99. Find the missing term: 100, 50, 52, 26, 28, 14, ?
+(a) 7 (b) 16 (c) 12 (d) 18
+Answer: (b)
+Solution: The tempting choice 7 halves 14, but the operations alternate "÷2, +2": 100÷2=50, 50+2=52, 52÷2=26, 26+2=28, 28÷2=14. Next is 14 + 2 = 16, so the answer is 16.
+Source: PYQ-style
+
+100. Find the missing term: 7, 15, 32, 67, 138, ?
+(a) 276 (b) 285 (c) 279 (d) 281
+Answer: (d)
+Solution: The tempting choice 276 just doubles 138, but the rule is "double and add consecutive integers": 7×2+1=15, 15×2+2=32, 32×2+3=67, 67×2+4=138. Next is 138 × 2 + 5 = 281, so the answer is 281.
+Source: PYQ-style

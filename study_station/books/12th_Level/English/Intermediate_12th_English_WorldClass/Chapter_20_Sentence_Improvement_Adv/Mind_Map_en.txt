@@ -1,0 +1,43 @@
+```mermaid
+graph TD
+    A["Sentence Improvement<br>(Advanced)"] --> B["Core Grammar Zones"]
+    A --> C["Examiner's Traps"]
+    A --> D["Strategy"]
+    A --> E["12 Golden Rules"]
+
+    B --> B1["Subject-Verb Agreement<br>Intervening phrases"]
+    B --> B2["Tense Consistency<br>Sequence of tenses"]
+    B --> B3["Modifiers<br>Dangling / Misplaced"]
+    B --> B4["Parallelism<br>and, or, not only...but also"]
+    B --> B5["Pronouns<br>Reference & case"]
+    B --> B6["Idioms &<br>Prepositions"]
+
+    C --> C1["Sound-Right Trap<br>'The media is' vs 'are'"]
+    C --> C2["Intervening Phrase Trap<br>'The quality of apples WAS'"]
+    C --> C3["Collective Noun Trap<br>Team is / team are"]
+    C --> C4["Over-thinking Trap<br>First instinct often right"]
+    C --> C5["'No Improvement' Option<br>Sentence may already be correct"]
+
+    D --> D1["15-Second Rule<br>Fact-based: agreement, tense, idiom"]
+    D --> D2["45-Second Rule<br>Inference: modifiers, parallelism, tone"]
+    D --> D3["Read full sentence first<br>Never judge by underlined part alone"]
+    D --> D4["Eliminate 2 wrong options<br>Then compare remaining pair"]
+    D --> D5["Skip Strategy<br>Mark & return if >60 sec"]
+
+    E --> E1["One of + plural noun<br>+ singular verb"]
+    E --> E2["Each / Every / Everyone<br>+ singular verb"]
+    E --> E3["Neither...nor<br>Verb agrees with nearer subject"]
+    E --> E4["Since + point of time<br>For + period"]
+    E --> E5["Hardly/Scarcely + when<br>No sooner + than"]
+    E --> E6["Comparative + than<br>Superlative + the"]
+    E --> E7["Not only...but also<br>Correlative pairs stay parallel"]
+    E --> E8["Between you and me<br>Preposition + object case"]
+    E --> E9["Less + uncountable<br>Fewer + countable"]
+    E --> E10["Prefer X to Y<br>Never 'prefer...than'"]
+    E --> E11["Despite / In spite of + noun<br>Never 'despite of'"]
+    E --> E12["Reported speech<br>Backshift of tenses"]
+
+    B1 -.->|"feeds"| C2
+    B3 -.->|"feeds"| D2
+    C4 -.->|"avoided by"| D4
+```

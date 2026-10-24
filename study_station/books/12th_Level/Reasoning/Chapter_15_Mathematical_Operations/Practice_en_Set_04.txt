@@ -1,0 +1,151 @@
+Questions 76–100: Moderate (symbol substitution, new operations and sign interchange)
+
+76. If '+' means '÷', '÷' means '×', '×' means '−' and '−' means '+', then the value of 36 + 6 × 3 − 2 ÷ 4 is
+(a) 8 (b) 9 (c) 14 (d) 11
+Answer: (d)
+Solution: Replace the signs: 36 ÷ 6 − 3 + 2 × 4. The trap is to work left to right; apply BODMAS instead: 36 ÷ 6 = 6 and 2 × 4 = 8, so 6 − 3 + 8 = 11, so the answer is 11.
+Source: PYQ-style
+
+77. If 'A' means '+', 'B' means '−', 'C' means '×' and 'D' means '÷', then 15 A 3 B 4 C 2 D 4 = ?
+(a) 14 (b) 18 (c) 20 (d) 16
+Answer: (d)
+Solution: Convert: 15 + 3 − 4 × 2 ÷ 4. The tempting error is to work left to right and get 7; instead apply BODMAS: 4 × 2 ÷ 4 = 2, so 15 + 3 − 2 = 16, so the answer is 16.
+Source: PYQ-style
+
+78. Which interchange of signs makes the equation 2 + 3 × 4 − 5 = 5 correct?
+(a) + and × (b) + and − (c) × and − (d) − and ÷
+Answer: (a)
+Solution: Interchanging + and × gives 2 × 3 + 4 − 5 = 6 + 4 − 5 = 5, which works. The trap is option + and −, which gives 2 − 12 + 5 = −5; always verify the full equation after swapping, so the answer is + and ×.
+Source: PYQ-style
+
+79. If 5 * 3 = 34, 7 * 2 = 53 and 6 * 4 = 52, then 8 * 5 = ?
+(a) 64 (b) 104 (c) 89 (d) 39
+Answer: (c)
+Solution: The rule is a * b = a² + b²: 25 + 9 = 34, 49 + 4 = 53, 36 + 16 = 52. The trap is to assume a × b plus a fixed number. So 8² + 5² = 64 + 25 = 89, so the answer is 89.
+Source: PYQ-style
+
+80. If 12 @ 4 = 8, 15 @ 5 = 10 and 21 @ 7 = 14, then 36 @ 9 = ?
+(a) 45 (b) 27 (c) 4 (d) 32
+Answer: (b)
+Solution: The rule is simple subtraction: 12 − 4 = 8, 15 − 5 = 10, 21 − 7 = 14. The trap is to divide because the numbers are exactly divisible, which gives 4. So 36 − 9 = 27, so the answer is 27.
+Source: PYQ-style
+
+81. Select the correct set of signs to make the equation true: 12 ? 4 ? 3 ? 2 = 13
+(a) −, +, + (b) +, −, − (c) −, −, + (d) +, +, −
+Answer: (a)
+Solution: With −, +, +: 12 − 4 + 3 + 2 = 13, which is correct. The trap is +, +, −, which looks similar but gives 12 + 4 + 3 − 2 = 17; check every option fully, so the answer is −, +, +.
+Source: PYQ-style
+
+82. If '×' means '+', '+' means '÷', '÷' means '−' and '−' means '×', then 8 − 4 + 2 × 6 ÷ 3 = ?
+(a) 16 (b) 22 (c) 25 (d) 19
+Answer: (d)
+Solution: Convert: 8 × 4 ÷ 2 + 6 − 3. The trap is to compute left to right; apply BODMAS: 8 × 4 ÷ 2 = 16, so 16 + 6 − 3 = 19, so the answer is 19.
+Source: PYQ-style
+
+83. In a certain code, 7 # 4 = 28, 9 # 6 = 54 and 11 # 3 = 33. Then 13 # 8 = ?
+(a) 104 (b) 96 (c) 21 (d) 112
+Answer: (a)
+Solution: The rule is plain multiplication: 7 × 4 = 28, 9 × 6 = 54, 11 × 3 = 33. The trap is to hunt for a hidden pattern like a × b + a. So 13 × 8 = 104, so the answer is 104.
+Source: PYQ-style
+
+84. Which of the following equations becomes correct after interchanging the numbers 4 and 6?
+(a) 4 + 6 × 2 = 20 (b) 6 × 4 − 2 = 20 (c) 4 × 6 + 2 = 26 (d) 6 + 4 ÷ 2 = 5
+Answer: (c)
+Solution: Interchanging 4 and 6 in 4 × 6 + 2 gives 6 × 4 + 2 = 26, which matches. The trap is 4 + 6 × 2 = 20: after swapping it becomes 6 + 4 × 2 = 14, not 20, so the answer is 4 × 6 + 2 = 26.
+Source: PYQ-style
+
+85. If '+' is called '×', '×' is called '−', '−' is called '÷' and '÷' is called '+', then what is the value of 9 + 3 × 4 − 2 ÷ 1?
+(a) 24 (b) 28 (c) 31 (d) 26
+Answer: (d)
+Solution: Convert: 9 × 3 − 4 ÷ 2 + 1. The trap is to add 1 before subtracting; apply BODMAS: 9 × 3 = 27 and 4 ÷ 2 = 2, so 27 − 2 + 1 = 26, so the answer is 26.
+Source: PYQ-style
+
+86. If a Δ b means a × b − (a + b), then (5 Δ 3) Δ 2 = ?
+(a) 3 (b) −1 (c) 7 (d) 5
+Answer: (d)
+Solution: First solve the bracket: 5 Δ 3 = 15 − 8 = 7, then 7 Δ 2 = 14 − 9 = 5. The trap is to compute 3 Δ 2 first (right to left), which gives −1; brackets must be solved first, so the answer is 5.
+Source: PYQ-style
+
+87. If 4 $ 2 = 6, 9 $ 3 = 12 and 8 $ 4 = 12, then 15 $ 5 = ?
+(a) 10 (b) 25 (c) 20 (d) 3
+Answer: (c)
+Solution: The rule is a + b: 4 + 2 = 6, 9 + 3 = 12, 8 + 4 = 12. The trap is to divide because the second number divides the first exactly, which gives 3. So 15 + 5 = 20, so the answer is 20.
+Source: PYQ-style
+
+88. Select the correct combination of mathematical signs to replace * in: 18 * 3 * 2 * 4 = 8
+(a) ÷, ×, − (b) ÷, +, − (c) −, ÷, + (d) +, −, ÷
+Answer: (a)
+Solution: With ÷, ×, −: 18 ÷ 3 × 2 − 4 = 12 − 4 = 8, which is correct. The trap is ÷, +, −, which gives 6 + 2 − 4 = 4; test each combination with BODMAS, so the answer is ÷, ×, −.
+Source: PYQ-style
+
+89. If 'P' denotes '÷', 'Q' denotes '×', 'R' denotes '+' and 'S' denotes '−', then 18 Q 3 P 9 R 5 S 4 = ?
+(a) 13 (b) 9 (c) 7 (d) 11
+Answer: (c)
+Solution: Convert: 18 × 3 ÷ 9 + 5 − 4. The trap is to do 9 + 5 before dividing; apply BODMAS: 18 × 3 = 54, 54 ÷ 9 = 6, so 6 + 5 − 4 = 7, so the answer is 7.
+Source: PYQ-style
+
+90. If 3 ○ 4 = 25, 2 ○ 5 = 29 and 6 ○ 1 = 37, then 5 ○ 6 = ?
+(a) 56 (b) 61 (c) 11 (d) 30
+Answer: (b)
+Solution: The rule is a ○ b = a² + b²: 9 + 16 = 25, 4 + 25 = 29, 36 + 1 = 37. The trap is to compute (a + b)², which gives 121. So 5² + 6² = 25 + 36 = 61, so the answer is 61.
+Source: PYQ-style
+
+91. If '−' means '×', '×' means '+', '+' means '−' and '÷' remains unchanged, then 24 × 6 − 3 + 12 ÷ 4 = ?
+(a) 39 (b) 33 (c) 42 (d) 36
+Answer: (a)
+Solution: Convert: 24 + 6 × 3 − 12 ÷ 4. The trap is to change ÷ as well, but it stays unchanged; apply BODMAS: 6 × 3 = 18 and 12 ÷ 4 = 3, so 24 + 18 − 3 = 39, so the answer is 39.
+Source: PYQ-style
+
+92. If 8 % 4 = 2, 27 % 3 = 9 and 50 % 5 = 10, then 72 % 8 = ?
+(a) 64 (b) 8 (c) 80 (d) 9
+Answer: (d)
+Solution: The rule is division: 8 ÷ 4 = 2, 27 ÷ 3 = 9, 50 ÷ 5 = 10. The trap is subtraction, but 8 − 4 = 4 ≠ 2, so it fails at once. So 72 ÷ 8 = 9, so the answer is 9.
+Source: PYQ-style
+
+93. Which two signs should be interchanged to make 12 + 6 ÷ 3 − 2 × 4 = 18 correct?
+(a) × and ÷ (b) + and − (c) + and × (d) − and ÷
+Answer: (b)
+Solution: Interchanging + and − gives 12 − 6 ÷ 3 + 2 × 4 = 12 − 2 + 8 = 18, which works. The trap is + and ×, which gives 12 × 6 ÷ 3 − 2 + 4 = 26; verify each swap completely, so the answer is + and −.
+Source: PYQ-style
+
+94. If a ⊗ b = (a + b) × (a − b), then 7 ⊗ 3 − 2 ⊗ 1 = ?
+(a) 34 (b) 40 (c) 37 (d) 43
+Answer: (c)
+Solution: 7 ⊗ 3 = 10 × 4 = 40 and 2 ⊗ 1 = 3 × 1 = 3, so 40 − 3 = 37. The trap is to add instead of subtract, giving 43, so the answer is 37.
+Source: PYQ-style
+
+95. If '×' means '−', '−' means '÷', '÷' means '+' and '+' means '×', then 60 ÷ 10 × 4 − 2 + 3 = ?
+(a) 64 (b) 58 (c) 70 (d) 66
+Answer: (a)
+Solution: Convert: 60 + 10 − 4 ÷ 2 × 3. The trap is to multiply 2 × 3 before dividing; apply BODMAS: 4 ÷ 2 × 3 = 6, so 60 + 10 − 6 = 64, so the answer is 64.
+Source: PYQ-style
+
+96. If 6 * 8 = 14, 9 * 5 = 14 and 7 * 7 = 14, then 11 * 3 = ?
+(a) 14 (b) 33 (c) 8 (d) 38
+Answer: (a)
+Solution: Every given pair simply adds up: 6 + 8 = 14, 9 + 5 = 14, 7 + 7 = 14. The trap is to hunt for a complex rule when plain addition fits. So 11 + 3 = 14, so the answer is 14.
+Source: PYQ-style
+
+97. If 2 □ 3 = 13, 3 □ 4 = 25 and 4 □ 5 = 41, then 5 □ 6 = ?
+(a) 71 (b) 11 (c) 61 (d) 30
+Answer: (c)
+Solution: The rule is a □ b = a² + b²: 4 + 9 = 13, 9 + 16 = 25, 16 + 25 = 41. The trap is to compute (a + b)² minus a fixed number. So 5² + 6² = 25 + 36 = 61, so the answer is 61.
+Source: PYQ-style
+
+98. If '+' means '÷', '−' means '+', '×' means '−' and '÷' means '×', then 36 × 6 + 3 − 2 ÷ 4 = ?
+(a) 38 (b) 42 (c) 46 (d) 34
+Answer: (b)
+Solution: Convert: 36 − 6 ÷ 3 + 2 × 4. The trap is to subtract 8 instead of adding it, giving 26; apply BODMAS: 6 ÷ 3 = 2 and 2 × 4 = 8, so 36 − 2 + 8 = 42, so the answer is 42.
+Source: PYQ-style
+
+99. If 10 # 2 = 5, 18 # 3 = 6 and 28 # 4 = 7, then 45 # 9 = ?
+(a) 54 (b) 5 (c) 36 (d) 6
+Answer: (b)
+Solution: The rule is division: 10 ÷ 2 = 5, 18 ÷ 3 = 6, 28 ÷ 4 = 7. The trap is to notice the results 5, 6, 7 and guess the next is 8 without applying the rule. So 45 ÷ 9 = 5, so the answer is 5.
+Source: PYQ-style
+
+100. If a ⊕ b = 2a + 3b, then the value of (4 ⊕ 2) ⊕ 3 is
+(a) 31 (b) 37 (c) 43 (d) 25
+Answer: (b)
+Solution: First 4 ⊕ 2 = 2(4) + 3(2) = 8 + 6 = 14, then 14 ⊕ 3 = 2(14) + 3(3) = 28 + 9 = 37. The trap is to compute 2 ⊕ 3 first (right to left), which gives 47; brackets must be solved first, so the answer is 37.
+Source: PYQ-style

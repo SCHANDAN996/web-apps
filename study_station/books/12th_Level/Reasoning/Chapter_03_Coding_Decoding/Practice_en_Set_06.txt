@@ -1,0 +1,151 @@
+Questions 126–145: Easy | Questions 146–150: Moderate
+
+126. In a certain code, "MASTER" is written as "OCUVGT". How will "PLANET" be written in that code?
+(a) QNCPGV (b) RNCPGU (c) RMCPGV (d) RNCPGV
+Answer: (d)
+Solution: Each letter is shifted forward by 2: M→O, A→C, S→U, T→V, E→G, R→T. The trap is shifting only consonants or mixing +1 and +2, which gives tempting strings like RMCPGV. Applying +2 to PLANET: P→R, L→N, A→C, N→P, E→G, T→V, so the answer is RNCPGV.
+Source: PYQ-style
+
+127. In a code, "FRIEND" is coded as "HUMJTK". How is "ENEMY" coded in the same code?
+(a) GQIRE (b) GQIRF (c) GPIRE (d) HQIRE
+Answer: (a)
+Solution: The shifts increase by 1 at each position: F+2=H, R+3=U, I+4=M, E+5=J, N+6=T, D+7=K. The trap is assuming a uniform +2 shift, which gives wrong strings like GPIRE. For ENEMY: E+2=G, N+3=Q, E+4=I, M+5=R, Y+6=E, so the answer is GQIRE.
+Source: PYQ-style
+
+128. If "DELHI" is coded as "73541" and "CALCUTTA" as "82589662", how will "CALICUT" be coded?
+(a) 8259168 (b) 8251897 (c) 8251896 (d) 8251986
+Answer: (c)
+Solution: Map letters from the codes: C=8, A=2, L=5, I=1, U=9, T=6 (from CALCUTTA = 82589662). The trap is reusing digits from DELHI for similar-looking letters. CALICUT = C-A-L-I-C-U-T = 8-2-5-1-8-9-6, so the answer is 8251896.
+Source: PYQ-style
+
+129. In a certain language, "pit na som" means "bring me water", "na jo tod" means "water is life", and "tub od pit" means "give me toy". Which word means "me"?
+(a) pit (b) som (c) na (d) jo
+Answer: (a)
+Solution: "pit na som" and "na jo tod" share "na" = "water". "pit na som" and "tub od pit" share "pit" = "me". The trap is picking "na", which is common to two sentences but means "water", not "me". So the answer is pit.
+Source: PYQ-style
+
+130. In a code, "TIGER" is written as "WLJHU". How is "LION" written?
+(a) PMRQ (b) OKRQ (c) OLRQ (d) OLSQ
+Answer: (c)
+Solution: TIGER→WLJHU uses a uniform +3 shift: T→W, I→L, G→J, E→H, R→U. The trap is shifting only consonants or reversing the word first. LION +3: L→O, I→L, O→R, N→Q, so the answer is OLRQ.
+Source: PYQ-style
+
+131. If A = 1, B = 2, …, Z = 26, and the code for a word is the sum of its letters, what is the code for "CABLE"?
+(a) 21 (b) 25 (c) 22 (d) 23
+Answer: (d)
+Solution: C=3, A=1, B=2, L=12, E=5; sum = 3+1+2+12+5 = 23. The trap is misreading L as 11, which gives 22. So the answer is 23.
+Source: PYQ-style
+
+132. In a certain code, "MONDAY" is written as "NPOEBZ". How is "FRIDAY" written?
+(a) GSJEBZ (b) GSJEAZ (c) GSJEBY (d) GSJDBZ
+Answer: (a)
+Solution: Each letter is shifted by +1: M→N, O→P, N→O, D→E, A→B, Y→Z. The trap is coding the last letter Y as A by wrapping wrongly. FRIDAY: F→G, R→S, I→J, D→E, A→B, Y→Z, so the answer is GSJEBZ.
+Source: PYQ-style
+
+133. In a code, "CHAIR" = "DIBJS" and "TABLE" = "UBCMF". How is "DESK" written?
+(a) FETL (b) EFTM (c) EFTK (d) EFTL
+Answer: (d)
+Solution: Both examples use +1 for every letter (C→D, H→I, A→B, I→J, R→S; T→U, A→B, B→C, L→M, E→F). The trap is reversing the word first, which gives FETL-like strings. DESK +1: D→E, E→F, S→T, K→L, so the answer is EFTL.
+Source: PYQ-style
+
+134. If "ROSE" is coded as "6821" and "CHAIR" as "73456", what is the code for "SEARCH"?
+(a) 216437 (b) 214673 (c) 216473 (d) 261473
+Answer: (b)
+Solution: From ROSE: R=6, O=8, S=2, E=1. From CHAIR: C=7, H=3, A=4, I=5, R=6 (consistent). The trap is swapping A=4 and R=6, which gives 216473. SEARCH = S-E-A-R-C-H = 2-1-4-6-7-3, so the answer is 214673.
+Source: PYQ-style
+
+135. In a certain language, "sun rises east" is coded as "la ka ma", "east is direction" as "ma si ti", and "sun is bright" as "la ti zo". What is the code for "is"?
+(a) ma (b) ti (c) la (d) si
+Answer: (b)
+Solution: "sun" appears in sentences 1 and 3 → "la". "east" appears in 1 and 2 → "ma". "is" appears in 2 and 3 → the common code is "ti". The trap is choosing "si", which appears only in sentence 2 and means "direction". So the answer is ti.
+Source: PYQ-style
+
+136. In a code, "PAPER" is written as "OZODQ". How is "PENCIL" written?
+(a) OCMBHK (b) ODMBHL (c) ODMBHK (d) ODMBIK
+Answer: (c)
+Solution: PAPER→OZODQ uses a uniform −1 shift: P→O, A→Z, P→O, E→D, R→Q. The trap is applying −1 only to consonants. PENCIL −1: P→O, E→D, N→M, C→B, I→H, L→K, so the answer is ODMBHK.
+Source: PYQ-style
+
+137. If "WATER" = "XBUFS" and "MILK" = "NJML", then "JUICE" = ?
+(a) KVJDG (b) KVJDF (c) KUJDF (d) KVJDE
+Answer: (b)
+Solution: Both examples use +1: W→X, A→B, T→U, E→F, R→S; M→N, I→J, L→M, K→L. The trap is mixing +1 and −1 by position. JUICE +1: J→K, U→V, I→J, C→D, E→F, so the answer is KVJDF.
+Source: PYQ-style
+
+138. In a certain code, "123" means "hot filtered coffee", "356" means "very hot day", and "589" means "day and night". Which digit stands for "very"?
+(a) 3 (b) 6 (c) 9 (d) 5
+Answer: (b)
+Solution: "hot" is common to sentences 1 and 2 → digit 3. "day" is common to 2 and 3 → digit 5. So in sentence 2, the remaining word "very" = 6. The trap is picking 5, which actually means "day". So the answer is 6.
+Source: PYQ-style
+
+139. In a code, "BIRD" is written as "ELUG". How is "FISH" written?
+(a) ILVK (b) ILWJ (c) IKVK (d) ILVL
+Answer: (a)
+Solution: BIRD→ELUG uses a uniform +3 shift: B→E, I→L, R→U, D→G. The trap is using +3 for consonants and +2 for vowels. FISH +3: F→I, I→L, S→V, H→K, so the answer is ILVK.
+Source: PYQ-style
+
+140. If "GOOD" is coded as 91 under the rule "sum of letter positions × 2 + 9", what is the code for "BAD" under the same rule?
+(a) 23 (b) 21 (c) 25 (d) 14
+Answer: (a)
+Solution: Check the rule: GOOD = 7+15+15+4 = 41, and 41×2+9 = 91, so the rule holds. For BAD: B=2, A=1, D=4, sum = 7, and 7×2+9 = 23. The trap is forgetting the +9 and answering 14. So the answer is 23.
+Source: PYQ-style
+
+141. In a certain code, "TRAIN" is written as "WUDLQ". How is "COACH" written?
+(a) FRDFL (b) FQDFK (c) FRDGK (d) FRDFK
+Answer: (d)
+Solution: TRAIN→WUDLQ uses a uniform +3 shift: T→W, R→U, A→D, I→L, N→Q. The trap is reversing the word after shifting. COACH +3: C→F, O→R, A→D, C→F, H→K, so the answer is FRDFK.
+Source: PYQ-style
+
+142. In a code, "APPLE" = "ZKKOV". How is "MANGO" written?
+(a) NZMTL (b) NZMTM (c) NYMTL (d) NZNTL
+Answer: (a)
+Solution: Each letter is replaced by its reverse-position letter: A↔Z, P↔K, L↔O, E↔V. The trap is using a −1 shift instead of opposite letters. MANGO: M→N, A→Z, N→M, G→T, O→L, so the answer is NZMTL.
+Source: PYQ-style
+
+143. In a certain language, "mew lom pik" means "sky is blue", "pik tor sen" means "blue and green", and "lom sen daf" means "is green high". Which word means "blue"?
+(a) pik (b) lom (c) sen (d) tor
+Answer: (a)
+Solution: "is" is common to sentences 1 and 3 → "lom". "green" is common to 2 and 3 → "sen". "blue" is common to 1 and 2 → "pik". The trap is choosing "sen", which means "green". So the answer is pik.
+Source: PYQ-style
+
+144. In a certain code, "EXAM" is coded as "FYBN". How is "TEST" coded?
+(a) UFTV (b) UGTU (c) UFTU (d) UETU
+Answer: (c)
+Solution: EXAM→FYBN uses a uniform +1 shift: E→F, X→Y, A→B, M→N. The trap is shifting the last letter by 2. TEST +1: T→U, E→F, S→T, T→U, so the answer is UFTU.
+Source: PYQ-style
+
+145. In a code, "467" means "red rose flower", "489" means "rose is beautiful", and "615" means "red and pink". Which digit stands for "rose"?
+(a) 5 (b) 8 (c) 6 (d) 4
+Answer: (d)
+Solution: "red" is common to sentences 1 and 3 → digit 6. "rose" is common to sentences 1 and 2 → the common digit is 4. The trap is picking 6, which means "red". So the answer is 4.
+Source: PYQ-style
+
+146. In a certain code, "LIGHT" is written as "MJHIU". How is "DARK" written?
+(a) EBSM (b) EBTK (c) EBSL (d) EASL
+Answer: (c)
+Solution: LIGHT→MJHIU uses a uniform +1 shift: L→M, I→J, G→H, H→I, T→U. The trap is applying +1 only to alternate letters. DARK +1: D→E, A→B, R→S, K→L, so the answer is EBSL.
+Source: PYQ-style
+
+147. If A=26, B=25, …, Z=1 (reverse alphabet values), what is the value of "COW"?
+(a) 36 (b) 38 (c) 42 (d) 40
+Answer: (d)
+Solution: In reverse values, C=24, O=12, W=4; sum = 24+12+4 = 40. The trap is using normal values (3+15+23=41) or misreading the reverse positions. So the answer is 40.
+Source: PYQ-style
+
+148. In a code, "STONE" is written as "TUPOF". How is "BRICK" written?
+(a) CRJDL (b) CSJDL (c) CSJDM (d) CSKDL
+Answer: (b)
+Solution: STONE→TUPOF uses a uniform +1 shift: S→T, T→U, O→P, N→O, E→F. The trap is reversing the word before shifting. BRICK +1: B→C, R→S, I→J, C→D, K→L, so the answer is CSJDL.
+Source: PYQ-style
+
+149. In a certain language, "ka li mo" means "you are welcome", "mo ni sa" means "welcome to home", and "li sa te" means "are home safe". What is the code for "welcome"?
+(a) li (b) mo (c) sa (d) ka
+Answer: (b)
+Solution: "are" is common to sentences 1 and 3 → "li". "home" is common to 2 and 3 → "sa". "welcome" is common to 1 and 2 → "mo". The trap is choosing "sa", which means "home". So the answer is mo.
+Source: PYQ-style
+
+150. In a code, "CANDLE" is written as "ECPFNG". How is "BOTTLE" written?
+(a) DPVVNG (b) DQVVNH (c) DQVVNG (d) DQWVNG
+Answer: (c)
+Solution: CANDLE→ECPFNG uses a uniform +2 shift: C→E, A→C, N→P, D→F, L→N, E→G. The trap is mixing +1 and +2 by position. BOTTLE +2: B→D, O→Q, T→V, T→V, L→N, E→G, so the answer is DQVVNG.
+Source: PYQ-style

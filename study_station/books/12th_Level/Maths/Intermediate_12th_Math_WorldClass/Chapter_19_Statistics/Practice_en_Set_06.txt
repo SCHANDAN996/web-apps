@@ -1,3 +1,149 @@
-# Chapter: Statistics, Level: intermediate, Set: 6/6
+126. The mean of 5 observations is 20. If one observation, 40, is removed, the mean of the remaining observations is:
+(a) 15 (b) 18 (c) 20 (d) 25
+Answer: (a)
+Solution: The trap is assuming the mean stays 20 after removing a value — that only happens if the removed value equals the mean. Total of 5 observations = 5 × 20 = 100. After removing 40, remaining total = 60 over 4 observations, so mean = 60/4 = 15. So the answer is 15.
+Source: NCERT Class 9 Mathematics (Statistics)
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Statistics. This is Set 6 (total 6 sets, 150 questions). Questions must be numbered 126 to 150. All 25 questions should be Hard. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+127. The mean of 10 numbers is 12.5. The mean of the first 6 numbers is 15 and the mean of the last 3 numbers is 10. The 7th number is:
+(a) 5 (b) 7.5 (c) 10 (d) 12.5
+Answer: (a)
+Solution: Many students average 15 and 10 to guess the 7th number, but the 7th number must be found by subtraction. Total of 10 numbers = 125; first 6 total = 90; last 3 total = 30. So the 7th number = 125 − 90 − 30 = 5. So the answer is 5.
+Source: NCERT Class 9 Mathematics (Statistics)
+
+128. The mean of 100 observations was calculated as 40. Later it was found that one observation was wrongly taken as 53 instead of 85. The correct mean is:
+(a) 41.32 (b) 40.68 (c) 39.68 (d) 40.32
+Answer: (d)
+Solution: The trap is adding the full difference 85 to the total instead of only the correction 85 − 53 = 32. Corrected total = 4000 + 32 = 4032, so correct mean = 4032/100 = 40.32. So the answer is 40.32.
+Source: NCERT Class 9 Mathematics (Statistics)
+
+129. The median of the data 24, 36, 46, 17, 18, 25, 35 is:
+(a) 24 (b) 36 (c) 35 (d) 25
+Answer: (d)
+Solution: The common trap is picking the middle value 17 without arranging the data in order. Arranged: 17, 18, 24, 25, 35, 36, 46. With 7 values, the median is the 4th value, which is 25. So the answer is 25.
+Source: NCERT Class 9 Mathematics (Statistics)
+
+130. If the mode of the data 16, 15, 17, 16, 15, x, 19, 17, 14 is 15, then the value of x is:
+(a) 15 (b) 14 (c) 16 (d) 17
+Answer: (a)
+Solution: The trap is assuming x can be any value; but for 15 to be the unique mode it must occur most often. Currently 15, 16 and 17 each occur twice. Setting x = 15 makes 15 occur three times, more than any other value. So the answer is 15.
+Source: NCERT Class 9 Mathematics (Statistics)
+
+131. For a moderately skewed distribution, if the mean is 26 and the mode is 20, then the median is:
+(a) 22 (b) 23 (c) 24 (d) 25
+Answer: (c)
+Solution: The trap is taking the simple average of mean and mode, which gives 23, but the empirical relation is Mode = 3 Median − 2 Mean. So 20 = 3 Median − 52, giving 3 Median = 72 and Median = 24. So the answer is 24.
+Source: NCERT Class 11 Mathematics (Statistics)
+
+132. The mean of the squares of the first n natural numbers is:
+(a) n(n+1)/2 (b) (n+1)(2n+1)/6 (c) (n+1)(2n+1)/3 (d) n(2n+1)/6
+Answer: (b)
+Solution: The trap is choosing n(n+1)/2, which is the mean of the first n natural numbers, not of their squares. Sum of squares = n(n+1)(2n+1)/6; dividing by n gives (n+1)(2n+1)/6. So the answer is (n+1)(2n+1)/6.
+Source: NCERT Class 11 Mathematics (Statistics)
+
+133. The variance of the first 10 natural numbers is:
+(a) 9.25 (b) 8.25 (c) 10.5 (d) 7.25
+Answer: (b)
+Solution: The trap is using n²/12 = 100/12 ≈ 8.33, but the correct formula is (n² − 1)/12. Variance = (100 − 1)/12 = 99/12 = 8.25. So the answer is 8.25.
+Source: NCERT Class 11 Mathematics (Statistics)
+
+134. If the standard deviation of the data 2, 4, 6, 8, 10 is σ, then the standard deviation of the data 12, 14, 16, 18, 20 is:
+(a) σ + 10 (b) 10σ (c) 2σ (d) σ
+Answer: (d)
+Solution: The trap is thinking adding 10 to each value increases the spread by 10, but standard deviation measures spread, which is unchanged by adding a constant. Each value is just shifted by 10, so the standard deviation remains σ. So the answer is σ.
+Source: NCERT Class 11 Mathematics (Statistics)
+
+135. If each observation of a data set is multiplied by 3 and then 5 is added, and the original standard deviation was 4, the new standard deviation is:
+(a) 4 (b) 17 (c) 27 (d) 12
+Answer: (d)
+Solution: The trap is adding 5 to the result, giving 17, but adding a constant does not change standard deviation. Only multiplication matters: new SD = 3 × 4 = 12. So the answer is 12.
+Source: NCERT Class 11 Mathematics (Statistics)
+
+136. The mean deviation about the mean of the data 4, 7, 8, 9, 10, 12, 13, 17 is:
+(a) 2 (b) 3 (c) 3.5 (d) 4
+Answer: (b)
+Solution: The trap is computing deviations about the median instead of the mean. Mean = 80/8 = 10. Absolute deviations: 6, 3, 2, 1, 0, 2, 3, 7; sum = 24. Mean deviation = 24/8 = 3. So the answer is 3.
+Source: NCERT Class 11 Mathematics (Statistics)
+
+137. The coefficient of variation of a data set with mean 50 and standard deviation 8 is:
+(a) 6.25% (b) 8% (c) 12.5% (d) 16%
+Answer: (d)
+Solution: The trap is computing SD/mean without multiplying by 100, giving 0.16, or inverting the ratio to get 6.25. CV = (SD/Mean) × 100 = (8/50) × 100 = 16%. So the answer is 16%.
+Source: NCERT Class 11 Mathematics (Statistics)
+
+138. Two data sets have coefficients of variation 25% and 20% respectively. Both have the same standard deviation of 5. Their means are:
+(a) 125 and 100 (b) 25 and 20 (c) 20 and 25 (d) 20 and 30
+Answer: (c)
+Solution: The trap is matching the larger CV with the larger mean, but CV = SD/Mean × 100 means a larger CV implies a smaller mean for equal SD. Mean₁ = 5×100/25 = 20; Mean₂ = 5×100/20 = 25. So the answer is 20 and 25.
+Source: NCERT Class 11 Mathematics (Statistics)
+
+139. The range of the data 3, 7, 12, 5, 18, 9, 21, 4 is:
+(a) 16 (b) 18 (c) 21 (d) 12
+Answer: (b)
+Solution: The trap is subtracting the first value from the last (21 − 3 = 18 happens to match here only by luck) — always find the true maximum and minimum. Maximum = 21, minimum = 3, so range = 21 − 3 = 18. So the answer is 18.
+Source: NCERT Class 9 Mathematics (Statistics)
+
+140. The median of a grouped frequency distribution is given by l + ((N/2 − C)/f) × h. For a distribution with l = 20, N = 50, C = 13, f = 15, h = 10, the median is:
+(a) 26 (b) 28 (c) 30 (d) 32
+Answer: (b)
+Solution: The trap is using N instead of N/2 in the formula, which gives 32. Here N/2 = 25, so median = 20 + ((25 − 13)/15) × 10 = 20 + 8 = 28. So the answer is 28.
+Source: NCERT Class 10 Mathematics (Statistics)
+
+141. In a frequency distribution, the modal class is 40–50 with frequency 30, the preceding class has frequency 18 and the succeeding class has frequency 22. The mode is:
+(a) 44 (b) 45 (c) 46 (d) 47
+Answer: (c)
+Solution: The trap is taking the class midpoint 45 as the mode, ignoring the formula. Mode = 40 + ((30 − 18)/(2×30 − 18 − 22)) × 10 = 40 + (12/20) × 10 = 40 + 6 = 46. So the answer is 46.
+Source: NCERT Class 10 Mathematics (Statistics)
+
+142. If the mean of a frequency distribution is 8.1 and Σfᵢxᵢ = 405, then Σfᵢ is:
+(a) 50 (b) 45 (c) 40 (d) 55
+Answer: (a)
+Solution: The trap is dividing 405 by 8 instead of 8.1, giving about 50.6 and confusion. Mean = Σfᵢxᵢ/Σfᵢ, so Σfᵢ = 405/8.1 = 50. So the answer is 50.
+Source: NCERT Class 10 Mathematics (Statistics)
+
+143. The mean of 20 observations is 15. If each observation is increased by 25%, the new mean is:
+(a) 18.75 (b) 17.5 (c) 20 (d) 22.5
+Answer: (a)
+Solution: The trap is adding 25 to the mean or adding 25% of 100; the mean scales by the same factor as the data. New mean = 15 × 1.25 = 18.75. So the answer is 18.75.
+Source: NCERT Class 11 Mathematics (Statistics)
+
+144. The standard deviation of the data 5, 5, 5, 5, 5 is:
+(a) 1 (b) 5 (c) 0 (d) 2.5
+Answer: (c)
+Solution: The trap is assuming the SD equals the repeated value 5, but standard deviation measures spread, and identical values have zero spread. Every deviation from the mean 5 is 0, so SD = 0. So the answer is 0.
+Source: NCERT Class 11 Mathematics (Statistics)
+
+145. The sum of the squares of deviations of 10 observations from their mean 50 is 250. The standard deviation is:
+(a) 2.5 (b) 25 (c) 5 (d) 50
+Answer: (c)
+Solution: The trap is dividing 250 by 10 and reporting 25 as the SD — that is the variance, not the standard deviation. Variance = 250/10 = 25, so SD = √25 = 5. So the answer is 5.
+Source: NCERT Class 11 Mathematics (Statistics)
+
+146. The mean of 6, 8, 12, x, 10 is 10. The value of x and the median are respectively:
+(a) 14 and 10 (b) 12 and 10 (c) 14 and 12 (d) 10 and 10
+Answer: (a)
+Solution: The trap is stopping after finding x and guessing the median without ordering the data. Sum needed = 50, so x = 50 − 36 = 14. Ordered data: 6, 8, 10, 12, 14; median = 10. So the answer is 14 and 10.
+Source: NCERT Class 9 Mathematics (Statistics)
+
+147. For the data 3, 5, 7, 9, 11, the mean deviation about the median is:
+(a) 2 (b) 2.4 (c) 3 (d) 2.8
+Answer: (b)
+Solution: The trap is computing mean deviation about the mean 7, which coincidentally equals the median here, but the count matters: median = 7, absolute deviations are 4, 2, 0, 2, 4, sum = 12. Mean deviation = 12/5 = 2.4. So the answer is 2.4.
+Source: NCERT Class 11 Mathematics (Statistics)
+
+148. If the variance of 10 observations is 16 and their mean is 12, then the sum of the squares of the observations is:
+(a) 1600 (b) 1440 (c) 160 (d) 1560
+Answer: (a)
+Solution: The trap is using Σx² = n(mean)² = 1440, ignoring the variance term. Variance = Σx²/n − (mean)², so 16 = Σx²/10 − 144, giving Σx²/10 = 160 and Σx² = 1600. So the answer is 1600.
+Source: NCERT Class 11 Mathematics (Statistics)
+
+149. The average of 11 results is 50. The average of the first 6 results is 49 and that of the last 6 is 52. The 6th result is:
+(a) 46 (b) 50 (c) 56 (d) 60
+Answer: (c)
+Solution: The trap is averaging 49 and 52 to get 50.5, but the 6th result is counted in both groups. Total = 550; first 6 + last 6 = 294 + 312 = 606, which counts the 6th result twice. So 6th result = 606 − 550 = 56. So the answer is 56.
+Source: PYQ-style (SSC CGL pattern)
+
+150. The geometric mean of 4 and 16 is:
+(a) 6 (b) 10 (c) 12 (d) 8
+Answer: (d)
+Solution: The trap is computing the arithmetic mean (4 + 16)/2 = 10 instead of the geometric mean. GM = √(4 × 16) = √64 = 8. So the answer is 8.
+Source: NCERT Class 11 Mathematics (Statistics)

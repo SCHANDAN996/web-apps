@@ -1,8 +1,30 @@
-# Chapter: Time & Work, Level: intermediate
+# Important Formulas — Time & Work
 
-@content_agent lang=en level=intermediate 'List all important formulas, equations, and rules for Time & Work.
-Instructions:
-- Only formulas and a one-line hint (when to use), no detailed explanation.
-- Present in a clean table: Formula Name | Formula | Use-Hint
-- Cover all formulas essential for solving exam questions.
-- Keep language simple and precise.'
+| # | Formula Name | Formula | Use-Hint |
+|---|---|---|---|
+| 1 | Basic Work–Time Relation | Work = Rate × Time | Foundation of every problem; Rate = 1/Time (work per day) |
+| 2 | One-Day Work | 1 day's work = 1/n | If a person finishes work in n days |
+| 3 | Combined Work (2 persons) | 1/A + 1/B = 1/T, so T = AB/(A+B) | A and B working together |
+| 4 | Combined Work (3 persons) | 1/A + 1/B + 1/C = 1/T | Three workers together |
+| 5 | Work Done in t Days | Work = t × (1/A + 1/B) | Partial work by a group in t days |
+| 6 | Remaining Work | Remaining = 1 − work done | When someone leaves midway |
+| 7 | A leaves after t days | Remaining work ÷ B's rate = B's extra time | "A leaves, B finishes alone" type |
+| 8 | Alternate Days Work | Work in 2 days = 1/A + 1/B | A and B work on alternate days |
+| 9 | Efficiency Ratio | Time ratio = inverse of efficiency ratio | If A is twice as efficient, A takes half the time |
+| 10 | M₁D₁H₁/W₁ = M₂D₂H₂/W₂ | MDH/W formula | Men, days, hours change; work may differ |
+| 11 | Wages Distribution | Wages ∝ Work done (efficiency × days) | Splitting payment among workers |
+| 12 | Pipes: Filling & Emptying | Net rate = 1/F − 1/E | Fill pipe + leak/empty pipe together |
+| 13 | Two Pipes Together | T = xy/(x+y) | Both filling pipes open together |
+| 14 | Fill + Leak | T = xy/(y − x) (y > x) | Pipe fills in x hrs, leak empties in y hrs |
+| 15 | Negative Work (destroyer) | Net = 1/A − 1/B | One builds, other destroys (e.g., leak) |
+| 16 | Chain Rule (Men-Days) | Total work = M × D × H (constant) | Same work, different men/days/hours |
+| 17 | A does in a days, B in b days — share of A | A's share = b/(a+b) of wages | Quick wage split for 2 workers |
+| 18 | x% work in t days | Full work time = 100t/x | Percentage-based questions |
+| 19 | A is n times as efficient as B | Time_A = Time_B / n | Efficiency–time inverse link |
+| 20 | Work added mid-way | New total work = W₁ + W₂ | Extra work introduced later |
+
+**Quick Reminders:**
+- Always convert "days to finish" → "one-day work" first.
+- LCM of individual times = total work units (smart shortcut base).
+- Efficiency ↑ ⇒ Time ↓ (inverse relation).
+- In pipes, treat emptying/leak as negative work.

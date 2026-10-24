@@ -1,0 +1,43 @@
+```mermaid
+graph TD
+    A["भारतीय अर्थव्यवस्था (बुनियादी)<br>Indian Economy (Basic)"] --> B["अर्थव्यवस्था के क्षेत्र<br>Sectors of Economy"]
+    A --> C["राष्ट्रीय आय<br>National Income"]
+    A --> D["बैंकिंग व मुद्रा<br>Banking & Money"]
+    A --> E["मुद्रास्फीति<br>Inflation"]
+    A --> F["बजट व कराधान<br>Budget & Taxation"]
+    A --> G["आर्थिक सुधार<br>Economic Reforms"]
+    A --> H["परीक्षक के जाल<br>Examiner's Traps"]
+
+    B --> B1["प्राथमिक: कृषि, खनन<br>Primary: Agriculture, Mining"]
+    B --> B2["द्वितीयक: उद्योग, निर्माण<br>Secondary: Industry, Manufacturing"]
+    B --> B3["तृतीयक: सेवाएँ (सबसे बड़ा हिस्सा)<br>Tertiary: Services (largest share)"]
+
+    C --> C1["GDP = देश की सीमा में उत्पादन<br>GDP = within domestic territory"]
+    C --> C2["GNP = GDP + विदेशों से शुद्ध आय<br>GNP = GDP + Net Factor Income from Abroad"]
+    C --> C3["NNP = GNP − मूल्यह्रास (Depreciation)"]
+    C --> C4["बाज़ार मूल्य vs कारक लागत<br>Market Price vs Factor Cost"]
+    C --> C5["CSO → अब MoSPI के अंतर्गत<br>Base year: 2011-12"]
+
+    D --> D1["RBI: स्थापना 1935, राष्ट्रीयकरण 1949<br>RBI Act 1934"]
+    D --> D2["Repo / Reverse Repo / CRR / SLR"]
+    D --> D3["मुद्रा के प्रकार: M1, M2, M3, M4<br>M3 = Broad Money"]
+    D --> D4["बजटीय घाटा / राजकोषीय घाटा<br>Budgetary / Fiscal Deficit"]
+
+    E --> E1["CPI (उपभोक्ता) vs WPI (थोक)<br>CPI vs WPI"]
+    E --> E2["महंगाई के प्रकार<br>Demand-Pull / Cost-Push / Stagflation"]
+    E --> E3["Stagflation = मंदी + महंगाई<br>Stagnation + Inflation"]
+
+    F --> F1["अनुच्छेद 112: वार्षिक वित्तीय विवरण<br>Article 112: Annual Financial Statement"]
+    F --> F2["GST: 101वाँ संशोधन, 1 जुलाई 2017<br>Article 246A, GST Council"]
+    F --> F3["प्रत्यक्ष vs अप्रत्यक्ष कर<br>Direct vs Indirect Tax"]
+
+    G --> G1["1991: LPG सुधार<br>Liberalisation, Privatisation, Globalisation"]
+    G --> G2["नई आर्थिक नीति: मनमोहन सिंह (वित्त मंत्री)<br>PM: नरसिम्हा राव"]
+
+    H --> H1["जाल: GDP vs GNP उलट-पुलट<br>Trap: GDP/GNP confusion"]
+    H --> H2["जाल: Repo बढ़ने पर तरलता घटती है<br>Trap: Repo ↑ → Liquidity ↓"]
+    H --> H3["जाल: CRR RBI के पास, SLR बैंक के पास<br>Trap: CRR with RBI, SLR with bank itself"]
+    H --> H4["जाल: WPI में सेवाएँ शामिल नहीं<br>Trap: WPI excludes services"]
+    H --> H5["रणनीति: परिभाषा-प्रश्न 15 सेकंड<br>Strategy: Definition Q = 15 sec"]
+    H --> H6["रणनीति: कथन-आधारित प्रश्न 45 सेकंड<br>Strategy: Statement Q = 45 sec"]
+```

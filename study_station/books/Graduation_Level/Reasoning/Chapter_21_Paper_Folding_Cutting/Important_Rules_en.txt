@@ -1,0 +1,38 @@
+# Important Rules & Approaches — Paper Folding & Cutting
+
+## Part 1: Key Rules / Approaches
+
+| Rule Name | Description | Example |
+|---|---|---|
+| Reverse Unfolding Rule | Always solve from the last fold back to the first — unfold step by step in reverse order of folding. | If paper is folded twice and then punched, unfold the last fold first, mirror the holes, then unfold the first fold. |
+| Mirror Reflection Rule | Every fold acts like a mirror line; holes/cuts on one side are reflected symmetrically across the fold line. | A hole 1 cm from a vertical fold reappears 1 cm on the other side when unfolded. |
+| Doubling Rule | Each unfold doubles the number of holes across that fold line (unless a hole lies exactly on the fold). | 1 punch after 2 folds → 1 × 2 × 2 = 4 holes in the opened sheet. |
+| Hole-on-Fold Rule | A punch made exactly on a fold line does NOT double across that fold; it stays single. | Punch on the crease of a single fold → only 1 hole, not 2. |
+| Layer Count Rule | Number of paper layers at the punched point = number of holes produced on full opening. | Paper folded into 4 layers and punched once → 4 holes. |
+| Symmetry Axis Rule | Final pattern is symmetric about every fold line; use this to eliminate wrong options quickly. | If folds are along both diagonals, the answer must show 4-way symmetry. |
+| Cut Shape Preservation Rule | A cut made on folded paper reproduces the same shape mirrored at every corresponding position; shapes never rotate arbitrarily — they only reflect. | A triangle cut near a fold appears as mirror-image triangles, not rotated ones. |
+| Edge/Corner Cut Rule | A cut at a folded corner opens into a complete symmetric shape (e.g., half-circle cut on a fold → full circle). | Semicircle cut on folded edge → circle hole on opening. |
+| Direction Tracking Rule | Track orientation (top/bottom/left/right) of the paper through each fold; flips change which edge meets which. | Folding bottom-up then left-right places the original top-right corner at a specific quadrant. |
+| Option Elimination Approach | Check symmetry, hole count, and distance from fold lines in options; eliminate mismatches before full tracing. | If 8 holes are expected, reject all options showing 6 or 10. |
+| Transparent Sheet Rule (overlay type) | When a transparent sheet with a pattern is folded, the design superimposes; lines overlap, they do not mirror-erase. | A line on the folded flap appears reflected over the base design. |
+
+## Part 2: Time Management
+
+| Situation | Time Rule | Action |
+|---|---|---|
+| Pattern/fold sequence not understood | 15-second rule | If the fold logic is not clear within 15 seconds, mark and skip; return later. |
+| Standard 2–3 fold question | 45-second rule | Complete tracing and option matching within 45 seconds; do not redraw the diagram more than once. |
+| Complex question (4+ folds or cuts + punches mixed) | 45-second cap | If hole count exceeds easy tracking, count layers, predict hole number, eliminate options, and move on. |
+| Revision pass | — | Attempt skipped questions only after finishing all easier reasoning questions. |
+| Practice target | — | Average 30–40 seconds per question in mock tests. |
+
+## Part 3: Logical / Mathematical Formulas
+
+| Formula | Meaning | Condition |
+|---|---|---|
+| Total holes = P × 2ⁿ | P = punches made, n = number of folds | Only when no punch lies on any fold line and all folds halve the paper. |
+| Total holes = number of layers at punch point | Each layer pierced gives one hole on opening | General rule; works even for irregular folds. |
+| Holes reduced by fold-line punches | A punch on a fold line counts once for that fold instead of twice | Apply per fold line the punch lies on. |
+| Symmetry axes in answer = number of fold lines | Final figure must be symmetric about each fold axis | Use for option elimination. |
+
+Note: Beyond these counting rules, there are no fixed formulas for this chapter — success depends on systematic reverse unfolding and symmetry checking.

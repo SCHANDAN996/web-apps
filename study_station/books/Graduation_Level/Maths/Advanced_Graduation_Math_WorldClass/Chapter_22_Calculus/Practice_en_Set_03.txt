@@ -1,0 +1,149 @@
+51. If y = x³ − 3x² + 5, then dy/dx at x = 2 is
+(a) 0 (b) 4 (c) 5 (d) 8
+Answer: (a)
+Solution: Differentiate term by term: dy/dx = 3x² − 6x. At x = 2, this is 3(4) − 6(2) = 12 − 12 = 0. The tempting wrong choice 8 comes from substituting x = 2 into x³ only, ignoring the derivative step. So the answer is 0.
+Source: NCERT Class 12 Mathematics, Chapter 5
+
+52. The derivative of sin x · cos x with respect to x is
+(a) sin²x − cos²x (b) cos²x − sin²x (c) 2 sin x cos x (d) cos²x + sin²x
+Answer: (b)
+Solution: By the product rule, d/dx(sin x cos x) = cos x·cos x + sin x·(−sin x) = cos²x − sin²x. The tempting wrong choice 2 sin x cos x is the derivative of sin²x, not of sin x cos x. So the answer is cos²x − sin²x.
+Source: NCERT Class 12 Mathematics, Chapter 5
+
+53. ∫(2x + 3) dx equals
+(a) 2x² + 3x + C (b) x² + 3x + C (c) x² + 3 + C (d) 2x + C
+Answer: (b)
+Solution: Integrate term by term: ∫2x dx = x² and ∫3 dx = 3x, so the result is x² + 3x + C. The tempting wrong choice 2x² + 3x + C forgets to divide by the new power when integrating 2x. So the answer is x² + 3x + C.
+Source: NCERT Class 12 Mathematics, Chapter 7
+
+54. The maximum value of f(x) = 4x − x² is
+(a) 2 (b) 16 (c) 8 (d) 4
+Answer: (d)
+Solution: f′(x) = 4 − 2x = 0 gives x = 2, and f″(x) = −2 < 0 confirms a maximum. Then f(2) = 8 − 4 = 4. The tempting wrong choice 8 comes from computing 4x at x = 2 without subtracting x². So the answer is 4.
+Source: NCERT Class 12 Mathematics, Chapter 6
+
+55. d/dx (e^x · ln x) equals
+(a) e^x ln x (b) e^x / x (c) e^x (ln x + 1/x) (d) e^x (ln x − 1/x)
+Answer: (c)
+Solution: By the product rule: e^x · ln x + e^x · (1/x) = e^x (ln x + 1/x). The tempting wrong choice e^x / x keeps only the derivative of ln x and drops the term where e^x multiplies ln x unchanged. So the answer is e^x (ln x + 1/x).
+Source: NCERT Class 12 Mathematics, Chapter 5
+
+56. ∫₀¹ x² dx equals
+(a) 1/3 (b) 1/2 (c) 1 (d) 2/3
+Answer: (a)
+Solution: The antiderivative is x³/3. Evaluating from 0 to 1 gives 1/3 − 0 = 1/3. The tempting wrong choice 1/2 comes from using x²/2, which is the antiderivative of x, not of x². So the answer is 1/3.
+Source: NCERT Class 12 Mathematics, Chapter 7
+
+57. If y = (2x + 1)⁵, then dy/dx is
+(a) 10(2x + 1)⁴ (b) 5(2x + 1)⁴ (c) 5(2x + 1)⁴ · 2x (d) 10(2x + 1)⁵
+Answer: (a)
+Solution: By the chain rule, dy/dx = 5(2x + 1)⁴ · d/dx(2x + 1) = 5(2x + 1)⁴ · 2 = 10(2x + 1)⁴. The tempting wrong choice 5(2x + 1)⁴ forgets to multiply by the inner derivative 2. So the answer is 10(2x + 1)⁴.
+Source: NCERT Class 12 Mathematics, Chapter 5
+
+58. The slope of the tangent to the curve y = x² − 4x + 3 at the point where x = 3 is
+(a) 2 (b) 0 (c) 3 (d) 6
+Answer: (a)
+Solution: dy/dx = 2x − 4, and at x = 3 this is 6 − 4 = 2. The tempting wrong choice 0 comes from substituting x = 3 into the original curve y = 9 − 12 + 3 = 0, which gives the point's height, not the slope. So the answer is 2.
+Source: NCERT Class 12 Mathematics, Chapter 6
+
+59. ∫(1/x) dx, for x > 0, equals
+(a) −1/x² + C (b) x ln x + C (c) ln x + C (d) 1/x² + C
+Answer: (c)
+Solution: The integral of 1/x is the natural logarithm, ln x + C. The tempting wrong choice −1/x² + C is the integral of 1/x², obtained by wrongly applying the power rule to x⁻¹. So the answer is ln x + C.
+Source: NCERT Class 12 Mathematics, Chapter 7
+
+60. The function f(x) = x³ − 3x has a local minimum at
+(a) x = −1 (b) x = 0 (c) x = 3 (d) x = 1
+Answer: (d)
+Solution: f′(x) = 3x² − 3 = 0 gives x = ±1. Since f″(x) = 6x, f″(1) = 6 > 0, so x = 1 is a local minimum, while f″(−1) = −6 < 0 makes x = −1 a local maximum. The tempting wrong choice x = −1 is the maximum point, the classic sign trap. So the answer is x = 1.
+Source: NCERT Class 12 Mathematics, Chapter 6
+
+61. d/dx (tan x) equals
+(a) cot x (b) sec x tan x (c) sec²x (d) −cosec²x
+Answer: (c)
+Solution: Writing tan x = sin x / cos x and applying the quotient rule gives (cos²x + sin²x)/cos²x = 1/cos²x = sec²x. The tempting wrong choice sec x tan x is the derivative of sec x, not of tan x. So the answer is sec²x.
+Source: NCERT Class 12 Mathematics, Chapter 5
+
+62. ∫₀^(π/2) sin x dx equals
+(a) 0 (b) π/2 (c) 1 (d) −1
+Answer: (c)
+Solution: The antiderivative is −cos x. Evaluating: −cos(π/2) − (−cos 0) = 0 + 1 = 1. The tempting wrong choice −1 comes from dropping the minus sign in the antiderivative of sin x. So the answer is 1.
+Source: NCERT Class 12 Mathematics, Chapter 7
+
+63. If y = x^x (x > 0), then dy/dx equals
+(a) x · x^(x−1) (b) x^x / x (c) x^x ln x (d) x^x (1 + ln x)
+Answer: (d)
+Solution: Take logarithms: ln y = x ln x. Differentiate: y′/y = ln x + 1, so y′ = x^x (1 + ln x). The tempting wrong choice x · x^(x−1) wrongly applies the power rule, which requires a constant exponent. So the answer is x^x (1 + ln x).
+Source: NCERT Class 12 Mathematics, Chapter 5
+
+64. The area enclosed between y = x, the x-axis, x = 0 and x = 4 is
+(a) 4 (b) 16 (c) 12 (d) 8
+Answer: (d)
+Solution: Area = ∫₀⁴ x dx = [x²/2]₀⁴ = 16/2 = 8. The tempting wrong choice 16 comes from evaluating x² at x = 4 without dividing by 2. So the answer is 8.
+Source: NCERT Class 12 Mathematics, Chapter 8
+
+65. If f(x) = ln(sin x), then f′(x) equals
+(a) 1/sin x (b) cot x (c) tan x (d) cos x
+Answer: (b)
+Solution: By the chain rule, f′(x) = (1/sin x) · cos x = cos x / sin x = cot x. The tempting wrong choice 1/sin x stops after differentiating the logarithm and forgets the inner derivative cos x. So the answer is cot x.
+Source: NCERT Class 12 Mathematics, Chapter 5
+
+66. ∫ x e^x dx equals
+(a) (x − 1) e^x + C (b) x e^x + C (c) e^x + C (d) (x + 1) e^x + C
+Answer: (a)
+Solution: By integration by parts with u = x and dv = e^x dx: ∫x e^x dx = x e^x − ∫e^x dx = x e^x − e^x + C = (x − 1)e^x + C. The tempting wrong choice x e^x + C omits the second integral that parts always produces. So the answer is (x − 1) e^x + C.
+Source: NCERT Class 12 Mathematics, Chapter 7
+
+67. The minimum value of f(x) = x² + 4x + 7 is
+(a) 3 (b) 4 (c) 7 (d) 11
+Answer: (a)
+Solution: f′(x) = 2x + 4 = 0 gives x = −2, and f″(x) = 2 > 0 confirms a minimum. Then f(−2) = 4 − 8 + 7 = 3. The tempting wrong choice 7 is simply the constant term, which equals f(0), not the minimum. So the answer is 3.
+Source: NCERT Class 12 Mathematics, Chapter 6
+
+68. d/dx [sin⁻¹x] for −1 < x < 1 equals
+(a) −1/√(1 − x²) (b) 1/√(1 − x²) (c) 1/(1 + x²) (d) √(1 − x²)
+Answer: (b)
+Solution: If y = sin⁻¹x then x = sin y, so dx/dy = cos y = √(1 − x²), giving dy/dx = 1/√(1 − x²). The tempting wrong choice 1/(1 + x²) is the derivative of tan⁻¹x, a common mix-up between inverse functions. So the answer is 1/√(1 − x²).
+Source: NCERT Class 12 Mathematics, Chapter 5
+
+69. ∫₁^e (1/x) dx equals
+(a) 1 (b) e − 1 (c) e (d) 0
+Answer: (a)
+Solution: The antiderivative is ln x, so the value is ln e − ln 1 = 1 − 0 = 1. The tempting wrong choice e − 1 comes from treating the integral as if the antiderivative were x, evaluating e − 1 directly. So the answer is 1.
+Source: NCERT Class 12 Mathematics, Chapter 7
+
+70. The second derivative of y = x⁴ − 2x³ + x is
+(a) 4x³ − 6x² + 1 (b) 12x² − 12x (c) 12x² − 6x (d) 24x − 12
+Answer: (b)
+Solution: First derivative: 4x³ − 6x² + 1. Differentiate again: 12x² − 12x. The tempting wrong choice 4x³ − 6x² + 1 is only the first derivative, the result of stopping one step too early. So the answer is 12x² − 12x.
+Source: NCERT Class 12 Mathematics, Chapter 5
+
+71. The function f(x) = 2x³ − 9x² + 12x + 1 is increasing when
+(a) 1 < x < 2 (b) x > 1 only (c) x < 1 or x > 2 (d) x < 2 only
+Answer: (c)
+Solution: f′(x) = 6x² − 18x + 12 = 6(x − 1)(x − 2). This is positive when both factors have the same sign, i.e. x < 1 or x > 2. The tempting wrong choice 1 < x < 2 is exactly where f′(x) is negative, so the function decreases there. So the answer is x < 1 or x > 2.
+Source: NCERT Class 12 Mathematics, Chapter 6
+
+72. ∫ cos(3x) dx equals
+(a) 3 sin(3x) + C (b) (1/3) sin(3x) + C (c) −3 sin(3x) + C (d) −(1/3) sin(3x) + C
+Answer: (b)
+Solution: Since d/dx[sin(3x)] = 3 cos(3x), we need to divide by 3: ∫cos(3x) dx = (1/3) sin(3x) + C. The tempting wrong choice 3 sin(3x) + C multiplies by 3 instead of dividing, reversing the chain-rule correction. So the answer is (1/3) sin(3x) + C.
+Source: NCERT Class 12 Mathematics, Chapter 7
+
+73. If the radius of a circle increases at 2 cm/s, the rate at which its area increases when r = 5 cm is
+(a) 10π cm²/s (b) 4π cm²/s (c) 25π cm²/s (d) 20π cm²/s
+Answer: (d)
+Solution: A = πr², so dA/dt = 2πr · dr/dt = 2π(5)(2) = 20π cm²/s. The tempting wrong choice 10π cm²/s uses dr/dt = 1 instead of the given 2 cm/s. So the answer is 20π cm²/s.
+Source: NCERT Class 12 Mathematics, Chapter 6
+
+74. ∫₀² (3x² + 1) dx equals
+(a) 8 (b) 14 (c) 12 (d) 10
+Answer: (d)
+Solution: The antiderivative is x³ + x. Evaluating from 0 to 2: (8 + 2) − 0 = 10. The tempting wrong choice 8 comes from integrating only 3x² and forgetting the +1 term contributes x, which adds 2. So the answer is 10.
+Source: NCERT Class 12 Mathematics, Chapter 7
+
+75. The point of inflection of f(x) = x³ − 6x² + 9x + 1 occurs at x equal to
+(a) 0 (b) 1 (c) 2 (d) 3
+Answer: (c)
+Solution: f′(x) = 3x² − 12x + 9 and f″(x) = 6x − 12. Setting f″(x) = 0 gives x = 2, and f″ changes sign there, confirming an inflection point. The tempting wrong choices 1 and 3 are the stationary points where f′(x) = 0, not where f″(x) = 0. So the answer is 2.
+Source: NCERT Class 12 Mathematics, Chapter 6

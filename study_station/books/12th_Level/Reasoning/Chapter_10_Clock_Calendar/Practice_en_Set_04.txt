@@ -1,0 +1,151 @@
+Questions 76–95: Easy | Questions 96–100: Moderate
+
+76. What is the angle between the hour hand and the minute hand of a clock at 4:20?
+(a) 0° (b) 10° (c) 15° (d) 20°
+Answer: (b)
+Solution: The tempting answer is 0°, chosen by students who assume the hands overlap whenever the minute hand points at the hour numeral, but the hour hand has moved past 4. Angle = |30 × 4 − 5.5 × 20| = |120 − 110| = 10°, so the answer is 10°.
+Source: PYQ-style
+
+77. At what time between 7 o'clock and 8 o'clock do the two hands of a clock coincide?
+(a) 38 2/11 minutes past 7 (b) 35 minutes past 7 (c) 37 1/2 minutes past 7 (d) 40 minutes past 7
+Answer: (a)
+Solution: The trap is 35 minutes past 7, which ignores that the hour hand also moves forward while the minute hand travels. Coincidence time = 60 × 7 / 11 = 420/11 = 38 2/11 minutes past 7, so the answer is 38 2/11 minutes past 7.
+Source: PYQ-style
+
+78. How many times are the hands of a clock at right angles in 12 hours?
+(a) 22 (b) 12 (c) 24 (d) 44
+Answer: (a)
+Solution: Many students double 12 and pick 24, but between 2–3, 3–4, 8–9 and 9–10 the right angle occurs only once in each stretch instead of twice, reducing the count by 2. In 12 hours the hands are perpendicular 22 times, so the answer is 22.
+Source: PYQ-style
+
+79. What was the day of the week on 15 August 1947?
+(a) Wednesday (b) Friday (c) Thursday (d) Saturday
+Answer: (b)
+Solution: The trap is Thursday, obtained by forgetting the leap day of 1944 in the count. Counting odd days: 1600 years give 0, 300 years give 1, 46 years (11 leap + 35 ordinary) give 57 ≡ 1, and days up to 15 August 1947 give 227 ≡ 3; total 5, which is Friday, so the answer is Friday.
+Source: PYQ-style
+
+80. What is the mirror image of the time 3:40 as seen in a plane mirror placed beside the clock?
+(a) 7:20 (b) 8:40 (c) 9:20 (d) 8:20
+Answer: (d)
+Solution: The trap is 9:20, which comes from wrongly subtracting from 12:00 and mishandling the borrow. Subtract 3:40 from 11:60: 11:60 − 3:40 = 8:20, so the answer is 8:20.
+Source: PYQ-style
+
+81. A watch gains 5 seconds in every 3 minutes of correct time. It was set right at 7 AM. What is the true time when the watch shows 4:15 PM the same day?
+(a) 3:58:45 PM (b) 3:59:35 PM (c) 4:15:25 PM (d) 4:00:00 PM
+Answer: (d)
+Solution: The trap is 3:59:35 PM, which treats the 555 minutes shown on the watch as correct time and subtracts the gain directly; but the gain accumulates over correct time, not watch time. In 185 minutes of watch time only 180 minutes of correct time pass, so 555 watch-minutes correspond to 555 × 180/185 = 540 correct minutes = 9 hours, giving 4:00:00 PM, so the answer is 4:00:00 PM.
+Source: PYQ-style
+
+82. Which of the following years is a leap year?
+(a) 2000 (b) 2100 (c) 1900 (d) 2018
+Answer: (a)
+Solution: The trap is 1900, which is divisible by 4 but is a century year not divisible by 400, so it is not a leap year. Only 2000 is divisible by 400, so the answer is 2000.
+Source: PYQ-style
+
+83. How many odd days are there in 100 consecutive years?
+(a) 6 (b) 1 (c) 5 (d) 3
+Answer: (c)
+Solution: The trap is 6, from assuming 100 years contain 25 leap years; actually a century year like 1900 is not a leap year, so there are only 24. Odd days = 24 × 2 + 76 × 1 = 124 ≡ 5 (mod 7), so the answer is 5.
+Source: PYQ-style
+
+84. If today is Monday, what day of the week will it be after 61 days?
+(a) Friday (b) Sunday (c) Thursday (d) Saturday
+Answer: (d)
+Solution: The trap is Sunday, obtained by taking 62 days by mistake or adding 6 instead of 5. 61 ÷ 7 leaves remainder 5; Monday + 5 days = Saturday, so the answer is Saturday.
+Source: PYQ-style
+
+85. If 1 January 2001 was a Monday, what day of the week was 1 January 2002?
+(a) Wednesday (b) Sunday (c) Tuesday (d) Monday
+Answer: (c)
+Solution: The trap is Wednesday, which assumes 2001 is a leap year; 2001 is an ordinary year with 1 odd day. Monday + 1 = Tuesday, so the answer is Tuesday.
+Source: PYQ-style
+
+86. The calendar of the year 2007 will be exactly repeated in which year?
+(a) 2018 (b) 2023 (c) 2017 (d) 2012
+Answer: (a)
+Solution: The trap is 2017, which gives only 13 odd days, not a multiple of 7. From 2007 to 2018 there are 11 years with 3 leap years (2008, 2012, 2016), giving 11 + 3 = 14 odd days ≡ 0, and 2018 is also an ordinary year like 2007, so the answer is 2018.
+Source: PYQ-style
+
+87. What is the angle between the two hands of a clock at 9:30?
+(a) 105° (b) 100° (c) 90° (d) 120°
+Answer: (a)
+Solution: The trap is 90°, which assumes the hour hand is exactly at 9; at 9:30 it has moved 15° ahead. Angle = |30 × 9 − 5.5 × 30| = |270 − 165| = 105°, so the answer is 105°.
+Source: PYQ-style
+
+88. At what time between 7 o'clock and 8 o'clock are the hands of a clock exactly opposite each other?
+(a) 7 1/11 minutes past 7 (b) 10 minutes past 7 (c) 5 minutes past 7 (d) 5 5/11 minutes past 7
+Answer: (d)
+Solution: The trap is 10 minutes past 7, a rough guess ignoring the relative speed of the hands. For opposite hands, |30 × 7 − 5.5M| = 180 gives 5.5M = 30, so M = 60/11 = 5 5/11 minutes past 7, so the answer is 5 5/11 minutes past 7.
+Source: PYQ-style
+
+89. How many times do the hands of a clock coincide in 24 hours?
+(a) 24 (b) 11 (c) 12 (d) 22
+Answer: (d)
+Solution: The trap is 24, from assuming one coincidence per hour; between 11 and 1 the hands meet only once (at 12), so in 12 hours they coincide 11 times. In 24 hours they coincide 22 times, so the answer is 22.
+Source: PYQ-style
+
+90. What was the day of the week on 26 January 1950?
+(a) Friday (b) Wednesday (c) Thursday (d) Tuesday
+Answer: (c)
+Solution: The trap is Friday, which results from miscounting the leap years between 1947 and 1950. From 15 August 1947 (Friday) to 26 January 1950 there are 895 days; 895 ≡ 6 (mod 7), and Friday + 6 = Thursday, so the answer is Thursday.
+Source: PYQ-style
+
+91. The minute hand of a clock overtakes the hour hand at intervals of 65 minutes of correct time. How much time does the minute hand gain over the hour hand in 60 minutes of correct time?
+(a) 60 minutes (b) 55 minutes (c) 65 minutes (d) 50 minutes
+Answer: (b)
+Solution: The trap is 60 minutes, which confuses the minute hand's own travel with its relative gain. In 60 minutes the minute hand moves 60 minute-spaces while the hour hand moves 5, so the gain is 55 minute-spaces, so the answer is 55 minutes.
+Source: PYQ-style
+
+92. A clock is set right at 9 AM. It gains 3 minutes per hour. What will it show when the correct time is 3 PM the same day?
+(a) 3:18 PM (b) 3:15 PM (c) 3:20 PM (d) 3:12 PM
+Answer: (a)
+Solution: The trap is 3:15 PM, from multiplying 3 minutes by 5 hours instead of 6. From 9 AM to 3 PM is 6 hours, so the gain is 6 × 3 = 18 minutes and the clock shows 3:18 PM, so the answer is 3:18 PM.
+Source: PYQ-style
+
+93. At what time between 3 o'clock and 4 o'clock will the hands of a clock be together?
+(a) 15 minutes past 3 (b) 16 minutes past 3 (c) 16 4/11 minutes past 3 (d) 17 minutes past 3
+Answer: (c)
+Solution: The trap is 16 minutes past 3, a rounded guess that ignores the hour hand's movement. Coincidence time = 60 × 3 / 11 = 180/11 = 16 4/11 minutes past 3, so the answer is 16 4/11 minutes past 3.
+Source: PYQ-style
+
+94. If 1 January of a leap year falls on a Friday, which day(s) of the week will occur 53 times in that year?
+(a) Friday only (b) Thursday and Friday (c) Saturday and Sunday (d) Friday and Saturday
+Answer: (d)
+Solution: The trap is Friday only, which treats a leap year like an ordinary year with one odd day. A leap year has 52 weeks + 2 odd days, so the first two days, Friday and Saturday, occur 53 times, so the answer is Friday and Saturday.
+Source: PYQ-style
+
+95. What is the maximum possible number of days in 10 consecutive years?
+(a) 3652 (b) 3650 (c) 3653 (d) 3654
+Answer: (c)
+Solution: The trap is 3654, which assumes 4 leap years can fall in 10 consecutive years; at most 3 leap years are possible (e.g., years 4, 8 and 12 within the span). Maximum days = 10 × 365 + 3 = 3653, so the answer is 3653.
+Source: PYQ-style
+
+96. What is the angle between the hands of a clock at 6:15?
+(a) 97.5° (b) 95° (c) 90° (d) 82.5°
+Answer: (a)
+Solution: The trap is 90°, which assumes the hour hand stays exactly at 6; in 15 minutes it moves 7.5° forward. Angle = |30 × 6 − 5.5 × 15| = |180 − 82.5| = 97.5°, so the answer is 97.5°.
+Source: PYQ-style
+
+97. What is the water image of the time 5:20 shown by a clock?
+(a) 12:10 (b) 1:10 (c) 6:10 (d) 1:20
+Answer: (b)
+Solution: The trap is 6:10, which applies the mirror-image formula (subtracting from 11:60) instead of the water-image formula. For a water image subtract the time from 18:30: 18:30 − 5:20 = 13:10, i.e. 1:10, so the answer is 1:10.
+Source: PYQ-style
+
+98. If 5 March of a particular year is Tuesday, what day of the week will 5 July of the same year be?
+(a) Monday (b) Friday (c) Saturday (d) Sunday
+Answer: (b)
+Solution: The trap is Sunday, obtained by counting only the days remaining in each month (117) instead of the full gap between the two dates. From 5 March to 5 July = 26 + 30 + 31 + 30 + 5 = 122 days; 122 ≡ 3 (mod 7), and Tuesday + 3 = Friday, so the answer is Friday.
+Source: PYQ-style
+
+99. A clock strikes once at 1 o'clock, twice at 2 o'clock, and so on up to twelve strikes at 12 o'clock. How many times does it strike in 24 hours?
+(a) 132 (b) 78 (c) 156 (d) 144
+Answer: (c)
+Solution: The trap is 78, which is the count for only 12 hours. Strikes in 12 hours = 1 + 2 + … + 12 = 78, so in 24 hours it strikes 2 × 78 = 156 times, so the answer is 156.
+Source: PYQ-style
+
+100. The last day of a century cannot be which of the following?
+(a) Monday (b) Tuesday (c) Wednesday (d) Friday
+Answer: (b)
+Solution: The trap is picking a day that actually occurs, such as Friday (last day of the 1st century). Odd days for 100, 200, 300, 400 years are 5, 3, 1, 0, giving only Friday, Wednesday, Monday and Sunday as possible last days; Tuesday, Thursday and Saturday are impossible, so the answer is Tuesday.
+Source: PYQ-style

@@ -1,0 +1,149 @@
+51. In a class of 60 students, 35 play cricket, 28 play football and 12 play both. How many students play neither game?
+(a) 11 (b) 7 (c) 9 (d) 5
+Answer: (c)
+Solution: The tempting wrong answer comes from adding 35 + 28 = 63 and subtracting 60 to get 3, which confuses the overlap with the "neither" group. Correct method: students playing at least one game = 35 + 28 − 12 = 51, so neither = 60 − 51 = 9. So the answer is 9.
+Source: PYQ-style
+
+52. In a survey of 100 people, 60 read newspaper A, 45 read newspaper B and 20 read both. How many read exactly one newspaper?
+(a) 65 (b) 75 (c) 55 (d) 85
+Answer: (a)
+Solution: The trap is computing "at least one" = 60 + 45 − 20 = 85 and stopping there. Exactly one = (60 − 20) + (45 − 20) = 40 + 25 = 65. So the answer is 65.
+Source: PYQ-style
+
+53. In a group, 40% speak Hindi, 50% speak English and 15% speak both. What percentage speak neither?
+(a) 30% (b) 20% (c) 15% (d) 25%
+Answer: (d)
+Solution: The trap is adding 40 + 50 = 90 and answering 10%, forgetting the overlap. At least one = 40 + 50 − 15 = 75%, so neither = 100 − 75 = 25%. So the answer is 25%.
+Source: PYQ-style
+
+54. Among 80 students, 50 like tea, 40 like coffee and 20 like both. How many like only tea?
+(a) 50 (b) 20 (c) 30 (d) 10
+Answer: (c)
+Solution: The tempting wrong answer is 50, which counts all tea-likers including those who also like coffee. Only tea = 50 − 20 = 30. So the answer is 30.
+Source: PYQ-style
+
+55. In a colony of 120 families, 70 have a scooter, 60 have a car and 25 have both. How many families have neither vehicle?
+(a) 20 (b) 15 (c) 10 (d) 25
+Answer: (b)
+Solution: The trap is 120 − 70 − 60 = −10 leading to confusion, or subtracting only one overlap wrongly. At least one = 70 + 60 − 25 = 105, so neither = 120 − 105 = 15. So the answer is 15.
+Source: PYQ-style
+
+56. In a class, 25 students passed in Maths, 20 passed in Science and 8 passed in both. If 5 students failed in both, what is the total strength of the class?
+(a) 42 (b) 37 (c) 48 (d) 40
+Answer: (a)
+Solution: The trap is adding 25 + 20 + 5 = 50 without removing the double-counted overlap. Passed in at least one = 25 + 20 − 8 = 37; total = 37 + 5 = 42. So the answer is 42.
+Source: PYQ-style
+
+57. Out of 200 candidates, 130 know typing, 90 know shorthand and 50 know both. How many know only shorthand?
+(a) 40 (b) 50 (c) 90 (d) 30
+Answer: (a)
+Solution: The tempting wrong answer is 90, which includes those knowing both skills. Only shorthand = 90 − 50 = 40. So the answer is 40.
+Source: PYQ-style
+
+58. In a school, 60% of students play cricket, 40% play hockey and 20% play both. What percentage of students play exactly one of the two games?
+(a) 50% (b) 60% (c) 40% (d) 80%
+Answer: (b)
+Solution: The trap is answering 80% (at least one) or 100% (simple sum). Exactly one = (60 − 20) + (40 − 20) = 40 + 20 = 60%. So the answer is 60%.
+Source: PYQ-style
+
+59. In a group of 50 people, 28 like tea, 30 like coffee and 10 like neither. How many like both?
+(a) 12 (b) 18 (c) 20 (d) 8
+Answer: (b)
+Solution: The trap is computing 28 + 30 − 50 = 8, which ignores the "neither" group. People liking at least one = 50 − 10 = 40; both = 28 + 30 − 40 = 18. So the answer is 18.
+Source: PYQ-style
+
+60. In an office, 45 employees know Excel, 35 know Tally and 15 know both. If 10 know neither, how many employees are there in total?
+(a) 75 (b) 65 (c) 80 (d) 70
+Answer: (a)
+Solution: The trap is 45 + 35 + 10 = 90, double-counting the overlap. At least one = 45 + 35 − 15 = 65; total = 65 + 10 = 75. So the answer is 75.
+Source: PYQ-style
+
+61. In a survey, 70 people like apples, 50 like bananas and 30 like both. How many like only one fruit?
+(a) 90 (b) 60 (c) 40 (d) 50
+Answer: (b)
+Solution: The trap is answering 90, which is "at least one" (70 + 50 − 30). Only one fruit = (70 − 30) + (50 − 30) = 40 + 20 = 60. So the answer is 60.
+Source: PYQ-style
+
+62. In a batch of 90 students, 55 study Physics, 45 study Chemistry and 20 study both. How many study neither subject?
+(a) 15 (b) 10 (c) 5 (d) 20
+Answer: (b)
+Solution: The trap is 90 − 55 − 45 = −10, showing the overlap must be handled first. At least one = 55 + 45 − 20 = 80; neither = 90 − 80 = 10. So the answer is 10.
+Source: PYQ-style
+
+63. In a town, 65% of households have a TV, 45% have a fridge and 25% have both. What percentage have neither?
+(a) 10% (b) 20% (c) 15% (d) 25%
+Answer: (c)
+Solution: The trap is 100 − 65 − 45 = −10 or answering 10% by a wrong subtraction. At least one = 65 + 45 − 25 = 85%; neither = 100 − 85 = 15%. So the answer is 15%.
+Source: PYQ-style
+
+64. Among 150 people, 90 drink tea, 70 drink coffee and 30 drink both. How many drink neither?
+(a) 25 (b) 30 (c) 10 (d) 20
+Answer: (d)
+Solution: The trap is 150 − 90 − 70 = −10, ignoring the overlap. At least one = 90 + 70 − 30 = 130; neither = 150 − 130 = 20. So the answer is 20.
+Source: PYQ-style
+
+65. In a class of 45 students, 30 play cricket, 20 play football and 8 play both. How many play only football?
+(a) 15 (b) 20 (c) 8 (d) 12
+Answer: (d)
+Solution: The tempting wrong answer is 20, which includes those playing both games. Only football = 20 − 8 = 12. So the answer is 12.
+Source: PYQ-style
+
+66. In a library survey of 250 readers, 140 read fiction, 120 read non-fiction and 60 read both. How many read neither type?
+(a) 30 (b) 40 (c) 60 (d) 50
+Answer: (d)
+Solution: The trap is 250 − 140 − 120 = −10, which mishandles the overlap. At least one = 140 + 120 − 60 = 200; neither = 250 − 200 = 50. So the answer is 50.
+Source: PYQ-style
+
+67. In a group of tourists, 40 can speak French, 30 can speak German and 12 can speak both. If 22 can speak neither language, how many tourists are there in total?
+(a) 92 (b) 70 (c) 80 (d) 58
+Answer: (c)
+Solution: The trap is 40 + 30 + 22 = 92, double-counting the 12 who speak both. At least one = 40 + 30 − 12 = 58; total = 58 + 22 = 80. So the answer is 80.
+Source: PYQ-style
+
+68. In a college, 75 students play cricket, 55 play hockey and 25 play both. How many students play exactly one game?
+(a) 100 (b) 105 (c) 50 (d) 80
+Answer: (d)
+Solution: The trap is answering 105, which is "at least one" (75 + 55 − 25). Exactly one = (75 − 25) + (55 − 25) = 50 + 30 = 80. So the answer is 80.
+Source: PYQ-style
+
+69. In a society of 300 members, 180 use WhatsApp, 150 use Telegram and 90 use both. How many use neither app?
+(a) 40 (b) 50 (c) 70 (d) 60
+Answer: (d)
+Solution: The trap is 300 − 180 − 150 = −30, ignoring the overlap. At least one = 180 + 150 − 90 = 240; neither = 300 − 240 = 60. So the answer is 60.
+Source: PYQ-style
+
+70. In an exam, 48 students passed English, 36 passed Hindi and 15 passed both. If 11 failed in both subjects, what is the total number of students?
+(a) 95 (b) 69 (c) 80 (d) 84
+Answer: (c)
+Solution: The trap is 48 + 36 + 11 = 95, double-counting the 15 who passed both. Passed at least one = 48 + 36 − 15 = 69; total = 69 + 11 = 80. So the answer is 80.
+Source: PYQ-style
+
+71. In a group of 100 people, 55 like singing, 40 like dancing and 20 like both. How many like neither activity?
+(a) 25 (b) 20 (c) 30 (d) 15
+Answer: (a)
+Solution: The trap is 100 − 55 − 40 = 5, forgetting the overlap was subtracted twice. At least one = 55 + 40 − 20 = 75; neither = 100 − 75 = 25. So the answer is 25.
+Source: PYQ-style
+
+72. In a factory, 85 workers know welding, 60 know fitting and 30 know both. How many workers know only welding?
+(a) 85 (b) 55 (c) 30 (d) 25
+Answer: (b)
+Solution: The tempting wrong answer is 85, which includes workers knowing both trades. Only welding = 85 − 30 = 55. So the answer is 55.
+Source: PYQ-style
+
+73. In a survey of 500 people, 300 watch cricket, 250 watch football and 150 watch both. How many watch exactly one sport?
+(a) 250 (b) 400 (c) 200 (d) 300
+Answer: (a)
+Solution: The trap is answering 400, which is "at least one" (300 + 250 − 150). Exactly one = (300 − 150) + (250 − 150) = 150 + 100 = 250. So the answer is 250.
+Source: PYQ-style
+
+74. In a coaching institute, 70% of students take Maths, 50% take Reasoning and 30% take both. What percentage of students take neither subject?
+(a) 10% (b) 20% (c) 15% (d) 5%
+Answer: (a)
+Solution: The trap is 100 − 70 − 50 = −20 or answering 20% by a wrong step. At least one = 70 + 50 − 30 = 90%; neither = 100 − 90 = 10%. So the answer is 10%.
+Source: PYQ-style
+
+75. In a hostel of 110 students, 65 eat breakfast, 55 eat lunch in the mess and 25 do both. How many students do neither in the mess?
+(a) 10 (b) 20 (c) 15 (d) 25
+Answer: (c)
+Solution: The trap is 110 − 65 − 55 = −10, which mishandles the overlap. At least one = 65 + 55 − 25 = 95; neither = 110 − 95 = 15. So the answer is 15.
+Source: PYQ-style

@@ -1,0 +1,38 @@
+# Important Rules & Approaches — Missing Term
+
+## 1. Key Rules / Approaches
+
+| Rule Name | Description | Example |
+|-----------|-------------|---------|
+| Difference first | Write the gap between every pair of neighbours | 3, 7, 13, 21, ? → gaps 4, 6, 8 → 31 |
+| Second difference | If the gaps are irregular, take gaps of the gaps | 2, 5, 11, 20, ? → 3, 6, 9 → 32 |
+| Ratio test | Divide each term by the one before it | 5, 15, 45, ? → ×3 → 135 |
+| Changing ratio | The multiplier itself grows | 2, 2, 4, 12, ? → ×1, ×2, ×3 → 48 |
+| Powers | Terms close to squares or cubes (n², n³, ± a small number) | 0, 7, 26, 63, ? → n³ − 1 → 124 |
+| Squares of primes | Square numbers with uneven gaps | 4, 9, 25, 49, ? → 121 |
+| Mixed operation | Multiply, then add/subtract a fixed number | 3, 7, 15, 31, ? → ×2 + 1 → 63 |
+| Alternate series | Odd and even positions follow different rules | 2, 10, 4, 20, 8, ? → 40 |
+| Letter positions | Convert letters with A = 1 … Z = 26 | B, E, I, N, ? → T |
+| Opposite letters | Opposite pairs add up to 27 | AZ, BY, CX, ? → DW |
+| Alphanumeric | Solve the letter part and the number part separately | A1, C3, E5, ? → G7 |
+| Grid rule | Test each row, then each column; the rule must fit all | 7, 8, ? with a×b → 56 |
+| Wrong term | Find the rule from the agreeing terms, then test each term | 3, 5, 9, 17, 31, 65 → 31 (should be 33) |
+
+## 2. Time Management
+
+| Rule | What to do |
+|------|------------|
+| 15-second rule | If no rule appears after differences and ratios (about 15 seconds), try powers and mixed operations once |
+| 45-second rule | If the pattern is still not clear after 45 seconds, mark the question and move on |
+| Options check | Before calculating long chains, see whether only one option fits the first step |
+| Second round | Return to skipped series only after finishing the rest of the section |
+
+## 3. Logical / Mathematical Formulas
+
+| Formula | Use |
+|---------|-----|
+| nth term of an arithmetic series = a + (n − 1)d | Constant difference d |
+| nth term of a geometric series = a × r^(n − 1) | Constant ratio r |
+| n² and n³ tables (1–20 and 1–12) | Spotting powers quickly |
+| Letter position: A = 1 … Z = 26; opposite letter = 27 − position | Letter series |
+| Anchors EJOTY: E = 5, J = 10, O = 15, T = 20, Y = 25 | Fast letter counting |

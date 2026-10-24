@@ -1,8 +1,33 @@
-# Chapter: Compound Interest, Level: intermediate
+# Important Formulas & Approaches — Compound Interest
 
-@content_agent lang=en level=intermediate 'List all important formulas, equations, and rules for Compound Interest.
-Instructions:
-- Only formulas and a one-line hint (when to use), no detailed explanation.
-- Present in a clean table: Formula Name | Formula | Use-Hint
-- Cover all formulas essential for solving exam questions.
-- Keep language simple and precise.'
+## 1. Key Formulas
+
+| Formula | Use | Example |
+|---------|-----|---------|
+| A = P (1 + R/100)ⁿ | Amount after n years | ₹8,000 at 5% for 2 years → ₹8,820 |
+| CI = A − P | Compound interest | ₹8,820 − ₹8,000 = ₹820 |
+| Half-yearly: R/2 per period, 2n periods | Compounding twice a year | 20% for 1 year → 10% × 2 |
+| Quarterly: R/4 per period, 4n periods | Compounding four times a year | 12% for 1 year → 3% × 4 |
+| CI − SI (2 years) = P (R/100)² | Quick difference | ₹5,000, 10% → ₹50 |
+| CI − SI (3 years) = P (R/100)² (3 + R/100) | Quick difference | ₹8,000, 5% → ₹61 |
+| Growth: P (1 + R/100)ⁿ | Population, bacteria | 50,000 at 10% for 2 years → 60,500 |
+| Depreciation: P (1 − R/100)ⁿ | Value of machines, cars | ₹40,000 at 10% for 2 years → ₹32,400 |
+| Different rates each year: P (1 + R₁/100)(1 + R₂/100) | Changing rate | 10% then 20% → × 1.1 × 1.2 |
+| Doubling in n years → 4 times in 2n, 8 times in 3n | Time questions | Doubles in 5 years → 4 times in 10 |
+
+## 2. Time Management
+
+| Rule | What to do |
+|------|------------|
+| 15-second rule | For CI − SI and 2-year amounts, use the shortcut formulas directly |
+| 45-second rule | Rate/time questions with large numbers: if the ratio A/P is not a neat square or cube, mark and return |
+| Option check | Eliminate the simple-interest and full-amount options first |
+
+## 3. Useful Values
+
+| Rate | (1 + R/100)² | (1 + R/100)³ |
+|------|--------------|--------------|
+| 5% | 441/400 = 1.1025 | 9261/8000 = 1.157625 |
+| 10% | 121/100 = 1.21 | 1331/1000 = 1.331 |
+| 20% | 36/25 = 1.44 | 216/125 = 1.728 |
+| 25% | 25/16 = 1.5625 | 125/64 = 1.953125 |

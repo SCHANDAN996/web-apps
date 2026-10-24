@@ -1,0 +1,42 @@
+```mermaid
+graph TD
+    A["कथन (Narration)<br>Direct ↔ Indirect Speech"] --> B["मूल अवधारणा"]
+    A --> C["परिवर्तन के 4 स्तंभ"]
+    A --> D["वाक्य-प्रकार अनुसार नियम"]
+    A --> E["Tense परिवर्तन"]
+    A --> F["परीक्षक के जाल"]
+    A --> G["रणनीति"]
+
+    B --> B1["Direct: वक्ता के शब्द यथावत<br>उद्धरण चिह्नों में"]
+    B --> B2["Indirect: भाव वही,<br>रूप बदला, बिना उद्धरण चिह्न"]
+    B --> B3["Reporting Verb: said, told, asked<br>Reported Speech: उद्धरण के भीतर का भाग"]
+
+    C --> C1["1. Reporting Verb बदलें<br>said (बिना object) = said ही रहता है<br>said to → told / asked / ordered<br>(वाक्य-प्रकार अनुसार)"]
+    C --> C2["2. Tense एक कदम पीछे<br>(Present→Past)"]
+    C --> C3["3. सर्वनाम बदलें<br>S-O-N नियम"]
+    C --> C4["4. समय/स्थान शब्द बदलें<br>now→then, here→there"]
+
+    D --> D1["Assertive: said/told + that"]
+    D --> D2["Interrogative: asked + if/whether<br>या Wh-word; प्रश्नवाचक क्रम हटाएँ"]
+    D --> D3["Imperative: ordered/requested/advised<br>+ to / not to"]
+    D --> D4["Exclamatory: exclaimed with joy/sorrow<br>+ that; What a/How हटाएँ"]
+    D --> D5["Optative: wished/prayed + that"]
+
+    E --> E1["Present Simple → Past Simple"]
+    E --> E2["Present Continuous → Past Continuous"]
+    E --> E3["Present Perfect → Past Perfect"]
+    E --> E4["Past Simple → Past Perfect"]
+    E --> E5["will→would, can→could, may→might<br>shall→should/would"]
+    E --> E6["अपवाद: सार्वभौमिक सत्य, आदत,<br>ऐतिहासिक तथ्य — Tense नहीं बदलता"]
+
+    F --> F1["Universal Truth जाल<br>'The earth revolves…' में tense न बदलें"]
+    F --> F2["said vs told जाल<br>told के बाद object अनिवार्य"]
+    F --> F3["Interrogative में inversion जाल<br>Indirect में subject पहले, verb बाद में"]
+    F --> F4["must जाल<br>अक्सर अपरिवर्तित रहता है"]
+    F --> F5["this/these → that/those<br>ago→before, tomorrow→the next day"]
+
+    G --> G1["तथ्यात्मक प्रश्न = 15 सेकंड<br>(सीधा tense/सर्वनाम परिवर्तन)"]
+    G --> G2["तार्किक प्रश्न = 45 सेकंड<br>(मिश्रित वाक्य, अपवाद, reporting verb चुनाव)"]
+    G --> G3["पहले Reporting Verb पहचानें<br>फिर Tense, फिर सर्वनाम"]
+    G --> G4["Skip Strategy: दो विकल्प लगभग समान हों<br>तो अपवाद जाँचें, अंदाज़ा न लगाएँ"]
+```

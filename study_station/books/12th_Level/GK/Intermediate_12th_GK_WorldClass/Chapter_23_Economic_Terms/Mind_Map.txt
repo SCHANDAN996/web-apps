@@ -1,0 +1,57 @@
+```mermaid
+graph TD
+    A["आर्थिक शब्दावली और अवधारणाएँ<br>Economic Terms & Concepts"] --> B["राष्ट्रीय आय<br>National Income"]
+    A --> C["मुद्रास्फीति<br>Inflation"]
+    A --> D["बैंकिंग<br>Banking"]
+    A --> E["बजट और कर<br>Budget & Tax"]
+    A --> F["विदेशी व्यापार<br>Foreign Trade"]
+    A --> G["आर्थिक विकास<br>Growth & Development"]
+    A --> H["परीक्षक के जाल<br>Examiner's Traps"]
+
+    B --> B1["GDP: देश की सीमा में उत्पादन<br>Production within country"]
+    B --> B2["GNP = GDP + विदेशों से शुद्ध आय<br>Net income from abroad"]
+    B --> B3["NNP = GNP − मूल्यह्रास<br>Depreciation"]
+    B --> B4["प्रति व्यक्ति आय = राष्ट्रीय आय ÷ जनसंख्या<br>Per Capita Income"]
+    B --> B5["आधार वर्ष बनाम चालू मूल्य<br>Base Year vs Current Prices"]
+
+    C --> C1["मुद्रास्फीति: कीमतें बढ़ना<br>General price rise"]
+    C --> C2["अपस्फीति: कीमतें घटना<br>Deflation"]
+    C --> C3["स्टैगफ्लेशन: मंदी + महंगाई<br>Stagnation + Inflation"]
+    C --> C4["WPI: थोक मूल्य सूचकांक<br>Wholesale Price Index"]
+    C --> C5["CPI: उपभोक्ता मूल्य सूचकांक<br>Consumer Price Index"]
+    C --> C6["मांग-जनित बनाम लागत-जनित<br>Demand-pull vs Cost-push"]
+
+    D --> D1["RBI: केंद्रीय बैंक, 1935 में स्थापित<br>Central Bank, est. 1935"]
+    D --> D2["RBI का राष्ट्रीयकरण: 1949<br>RBI nationalised 1949"]
+    D --> D3["Repo Rate: RBI → बैंकों को उधार दर<br>RBI lends to banks"]
+    D --> D4["Reverse Repo: बैंक → RBI में जमा<br>Banks park funds with RBI"]
+    D --> D5["CRR: RBI के पास नकद आरक्षित<br>Cash kept with RBI"]
+    D --> D6["SLR: बैंक के पास तरल संपत्ति<br>Liquid assets with bank itself"]
+    D --> D7["NPA: 90 दिन से अधिक बकाया ऋण<br>Bad Loans"]
+
+    E --> E1["अनुच्छेद 112: वार्षिक वित्तीय विवरण<br>Annual Financial Statement"]
+    E --> E2["राजस्व घाटा बनाम राजकोषीय घाटा<br>Revenue vs Fiscal Deficit"]
+    E --> E3["प्रत्यक्ष कर: आयकर<br>Direct Tax: Income Tax"]
+    E --> E4["अप्रत्यक्ष कर: GST<br>Indirect Tax"]
+    E --> E5["GST: 1 जुलाई 2017, अनुच्छेद 246A<br>GST launched 2017"]
+
+    F --> F1["भुगतान संतुलन (BoP)<br>Balance of Payments"]
+    F --> F2["चालू खाता बनाम पूंजी खाता<br>Current vs Capital Account"]
+    F --> F3["विनिमय दर: रुपये का मूल्य<br>Exchange Rate"]
+    F --> F4["अवमूल्यन बनाम अधिमूल्यन<br>Devaluation vs Revaluation"]
+    F --> F5["विदेशी मुद्रा भंडार<br>Forex Reserves"]
+
+    G --> G1["आर्थिक वृद्धि: GDP में वृद्धि<br>Growth: rise in output"]
+    G --> G2["विकास: वृद्धि + जीवन स्तर<br>Development: growth + welfare"]
+    G --> G3["HDI: UNDP द्वारा<br>Human Development Index"]
+    G --> G4["गरीबी रेखा<br>Poverty Line"]
+    G --> G5["प्राथमिक, द्वितीयक, तृतीयक क्षेत्र<br>Three Sectors of Economy"]
+
+    H --> H1["जाल 1: GDP बनाम GNP भ्रम<br>GDP vs GNP confusion"]
+    H --> H2["जाल 2: Repo बनाम Reverse Repo<br>Rate names swapped"]
+    H --> H3["जाल 3: CRR बनाम SLR<br>Where reserve is kept"]
+    H --> H4["जाल 4: WPI बनाम CPI<br>Index confusion"]
+    H --> H5["जाल 5: राजस्व बनाम राजकोषीय घाटा<br>Deficit types mixed"]
+    H --> H6["रणनीति: परिभाषा + उदाहरण याद करें<br>Strategy: definition + example"]
+    H --> H7["15/45 सेकंड नियम<br>Skip Strategy"]
+```

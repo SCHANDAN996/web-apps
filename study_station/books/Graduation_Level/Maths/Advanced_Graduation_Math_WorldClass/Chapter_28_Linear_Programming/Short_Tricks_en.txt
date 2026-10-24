@@ -1,0 +1,142 @@
+# 🪄 Short Tricks — Linear Programming (English)
+
+---
+
+**BOX 1 — The "C-O-F-C" Corner Rule**
+
+> **C**orner points **O**f the **F**easible region give the **C**hoice (optimal) value.
+
+The optimal solution of an LPP (if it exists) always lies at a **corner point (vertex)** of the feasible region — never in the middle. Shout it: *"Optimal lives on the CORNER, never on the couch!"*
+
+---
+
+**BOX 2 — "Max Goes UP, Min Goes DOWN"**
+
+For the objective line Z = ax + by:
+- **Maximise** → slide the line **UP/OUTWARD** (away from origin) until it just touches the last corner.
+- **Minimise** → slide it **DOWN/INWARD** (toward origin) until first contact.
+
+Memory hook: *"Max climbs the mountain, Min digs the mine."*
+
+---
+
+**BOX 3 — "LESS is BELOW, MORE is ABOVE"**
+
+For constraints with a positive RHS:
+- **≤ (less than)** → shade **BELOW/toward the origin** side of the line.
+- **≥ (greater than)** → shade **ABOVE/away from origin**.
+
+Trick: *"Less hugs the origin; More runs away from home."*
+(Always verify with the test point (0,0) — if it satisfies the inequality, shade the origin side.)
+
+---
+
+**BOX 4 — The "S-T-O-M-P" Setup Sequence**
+
+Build any LPP in 5 stomps:
+- **S** — Set the decision variables (x, y)
+- **T** — Target: write the objective function (Max/Min Z)
+- **O** — Organise constraints from the word problem
+- **M** — Mark non-negativity: x ≥ 0, y ≥ 0
+- **P** — Plot, find corners, Plug into Z
+
+*"STOMP the problem flat!"*
+
+---
+
+**BOX 5 — "Corners Come from Couples"**
+
+Every corner point is found by solving **two lines together** (a couple). Never read a corner off the graph by eyeballing — always solve the pair of equations simultaneously.
+
+Trick: *"A corner is a marriage of two lines — solve the couple, don't guess the couple."*
+
+---
+
+**BOX 6 — "OPEN = No Max, CLOSED = Both"**
+
+Feasible region check:
+- **Bounded (closed polygon)** → both Max and Min exist.
+- **Unbounded (open)** → Max may not exist; Min must be double-checked with the **open-half-plane test**.
+
+Trick: *"A closed box holds everything; an open field lets the maximum escape."*
+
+---
+
+**BOX 7 — The Unbounded Min Test: "Draw the Doubt Line"**
+
+For an **unbounded** region with a **minimisation** problem:
+1. Find the smallest corner value, say Z = m.
+2. Draw the line **ax + by = m**.
+3. If the open half-plane **ax + by < m** has **no point** in common with the feasible region → m is the true minimum. If it does → no minimum exists.
+
+Trick: *"Doubt the corner? Draw the line and check the overlap!"*
+
+---
+
+**BOX 8 — "Z = 0 Passes Through Zero"**
+
+To draw the objective line quickly, set **Z = 0**: the line ax + by = 0 passes through the **origin**. Then shift it parallel — up for max, down for min.
+
+Trick: *"Zero-Z starts at zero; then slide it like a elevator."*
+
+---
+
+**BOX 9 — "Redundant = Lazy Constraint"**
+
+A constraint that doesn't touch the feasible region is **redundant** — it changes nothing.
+
+Trick: *"A lazy constraint sleeps outside the fence — it never guards anything."*
+
+---
+
+**BOX 10 — "Infeasible = Empty Party"**
+
+If constraints contradict each other (e.g., x + y ≤ 2 and x + y ≥ 5), the feasible region is **empty** → the LPP is **infeasible**, no solution at all.
+
+Trick: *"When constraints fight, nobody gets invited — the party (region) is empty."*
+
+---
+
+**BOX 11 — "Multiple Optima = Parallel Lovers"**
+
+If the objective line is **parallel to a boundary edge** of the feasible region, every point on that edge is optimal → **infinitely many solutions**, all giving the same Z.
+
+Trick: *"When Z runs parallel to an edge, the whole edge wins the prize."*
+
+---
+
+**BOX 12 — "ISO-Profit = Same Money Line"**
+
+The objective line is also called the **iso-profit** (or iso-cost) line — "iso" means "equal". Every point on one such line gives the **same** value of Z.
+
+Trick: *"ISO = Identical Score On the line."*
+
+---
+
+**BOX 13 — "Non-Negativity = First Floor Only"**
+
+x ≥ 0, y ≥ 0 locks everything into the **first quadrant**.
+
+Trick: *"Real-world LPP lives on the first floor — no negative basements allowed!"* (You can't produce −3 chairs.)
+
+---
+
+**BOX 14 — The Exam Blitz: "3-Step Corner Crush"**
+
+For any 2-variable graphical LPP in the exam:
+1. **Lines** — convert each constraint to an equation, plot intercepts (x = 0, then y = 0).
+2. **Shade** — test (0,0) in each inequality.
+3. **Corners → Table** — list corner points, compute Z in a mini-table, pick the answer.
+
+Trick: *"Lines, Shade, Table — LST, your Last Second Ticket."*
+
+---
+
+**BOX 15 — "Intercepts in 2 Moves"**
+
+To plot ax + by = c lightning-fast:
+- Put **x = 0** → y = c/b → point (0, c/b)
+- Put **y = 0** → x = c/a → point (c/a, 0)
+Join the two points. Done.
+
+Trick: *"Kill one variable, catch the other — two catches make a line."*

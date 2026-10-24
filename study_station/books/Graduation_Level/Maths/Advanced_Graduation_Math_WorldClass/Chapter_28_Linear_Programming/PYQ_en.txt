@@ -1,0 +1,128 @@
+# 📊 PYQ Analysis — Linear Programming (Advanced Level)
+
+## How Exams Test This Chapter
+
+Linear Programming (LP) appears in different disguises across exams. UPSC CSAT and CAT rarely use the words "linear programming" — instead they hide it inside **resource-allocation word problems** (maximise profit, minimise cost, diet/blending problems). IBPS PO Mains and SSC CGL Tier-II test the **graphical method** and **corner-point theorem** directly, often as 2-variable maximisation questions. NCERT Class 12 (Mathematics, Chapter: Linear Programming) is the conceptual backbone for almost all of these.
+
+### Recurring Sub-Topics (in words, not numbers)
+
+- **Corner-point evaluation**: The single most repeated pattern. You are given (or must derive) the feasible region's vertices and evaluate the objective function Z = ax + by at each. The answer is always at a vertex — never in the interior.
+- **Feasible region identification**: Shading the correct region from 2–3 constraints. Traps involve reversing inequality signs (≥ vs ≤) or forgetting the non-negativity conditions x ≥ 0, y ≥ 0.
+- **Bounded vs unbounded regions**: A favourite conceptual trap. An unbounded feasible region can still have a finite **minimum**, but a finite **maximum** exists only if the region is bounded (or the objective line's direction is limited). Examiners love asking "maximum exists?" for an unbounded region.
+- **Word-problem formulation**: Translating a story (factory, diet, transport) into constraints. The trap is usually in "at least / at most / not more than" language.
+- **Redundant constraints**: One constraint that doesn't touch the feasible region — included purely to waste your time.
+
+### Examiner's Psychological Traps
+
+1. **The "almost correct" vertex**: Options include the value of Z at a *nearby but wrong* vertex. If you mis-plot even one line, you land on a planted option.
+2. **Sign-flip bait**: Constraint written as "2x + 3y ≥ 6" but the option set assumes "≤". Read the inequality twice.
+3. **Interior-point illusion**: An option equal to Z at the midpoint of the feasible region — tempting for students who average instead of checking corners.
+4. **Unbounded-region panic**: Students assume "unbounded ⇒ no answer" and skip; often the *minimum* is perfectly well-defined.
+5. **Time sink**: A 3-constraint graphing question placed early in the paper to eat 4–5 minutes. The 90-second rule: if the vertices aren't obvious within 90 seconds, mark and move on.
+
+---
+
+## Top 10 High-Yield Questions (with Solutions)
+
+**Q1.** The feasible region of an LPP has corner points (0, 0), (4, 0), (2, 3) and (0, 5). The maximum value of Z = 3x + 2y is:
+(a) 12 (b) 13 (c) 10 (d) 15
+
+**Answer: (a) 12**
+**Solution:** Evaluate Z at each corner: (0,0)→0; (4,0)→12; (2,3)→6+6=12; (0,5)→10. Maximum = 12. **Trap:** Option (b) 13 is planted for those who mis-add, and option (d) 15 tempts those who take 3×5 from the y-intercept. Only vertex values count.
+**Source:** NCERT Class 12 Mathematics (Linear Programming) — corner-point method.
+
+---
+
+**Q2.** For the constraints x + y ≤ 4, x ≥ 0, y ≥ 0, the minimum value of Z = 3x + 5y is:
+(a) 0 (b) 12 (c) 20 (d) 4
+
+**Answer: (a) 0**
+**Solution:** Corners are (0,0), (4,0), (0,4). Z values: 0, 12, 20. Minimum = 0 at the origin. **Trap:** Students habituated to "maximise" questions pick 20 (option c) without reading "minimum". Always underline min/max before solving.
+**Source:** PYQ-style (NCERT-based).
+
+---
+
+**Q3.** An LPP has an **unbounded** feasible region in the first quadrant with corner points (0, 4) and (6, 0), and Z = 2x + 3y is to be **minimised**. The minimum value is:
+(a) 12 (b) 8 (c) does not exist (d) 0
+
+**Answer: (a) 12**
+**Solution:** Z at (0,4) = 12; at (6,0) = 12. Since the open half-plane 2x + 3y < 12 has no point in common with the feasible region, minimum = 12. **Trap:** Option (c) exploits the myth "unbounded ⇒ no solution". Unbounded regions kill the *maximum*, not necessarily the *minimum*.
+**Source:** NCERT Class 12 Mathematics (unbounded region theorem).
+
+---
+
+**Q4.** A manufacturer produces chairs and tables. A chair needs 2 hours of labour and a table 3 hours; at most 12 labour-hours are available daily. Profit is ₹50 per chair and ₹60 per table. If x = chairs, y = tables, the correct constraint for labour is:
+(a) 2x + 3y ≤ 12 (b) 2x + 3y ≥ 12 (c) 3x + 2y ≤ 12 (d) 2x + 3y = 12
+
+**Answer: (a) 2x + 3y ≤ 12**
+**Solution:** Labour per chair = 2 hrs, per table = 3 hrs; "at most 12" ⇒ ≤. **Trap:** Option (c) swaps the coefficients — the classic "similar numbers" trap. Option (b) flips the inequality, the sign-flip bait.
+**Source:** PYQ-style (NCERT formulation exercises).
+
+---
+
+**Q5.** Maximise Z = 4x + y subject to x + y ≤ 50, 3x + y ≤ 90, x ≥ 0, y ≥ 0. The maximum value is:
+(a) 120 (b) 130 (c) 140 (d) 150
+
+**Answer: (a) 120**
+**Solution:** Corners: (0,0)→0; (30,0)→120 (check: 3(30)+0=90 ≤ 90 ✓); intersection of x+y=50 and 3x+y=90 gives 2x=40, so x=20, y=30 → Z=80+30=110; (0,50)→50. Maximum = 120 at (30,0). **Trap:** Option (c) 140 = 4(20)+60, planted for those who mis-solve the intersection as y=60. Re-evaluate *every* vertex — the intersection point is not always the winner.
+**Source:** NCERT Class 12 Mathematics (worked example pattern).
+
+---
+
+**Q6.** The region satisfying x ≥ 0, y ≥ 0, x + y ≥ 1 is:
+(a) bounded (b) unbounded (c) a triangle (d) empty
+
+**Answer: (b) unbounded**
+**Solution:** x + y ≥ 1 in the first quadrant is the region *above* the line joining (1,0) and (0,1), extending infinitely. **Trap:** Option (c) tempts students who shade the wrong side (x + y ≤ 1 gives the triangle). The ≥ sign is the hook.
+**Source:** NCERT Class 11/12 (linear inequalities).
+
+---
+
+**Q7.** (CSAT-style) A diet must contain at least 60 units of protein. Food A gives 3 units/gram, Food B gives 4 units/gram. If x grams of A and y grams of B are used, the protein constraint is:
+(a) 3x + 4y ≤ 60 (b) 3x + 4y ≥ 60 (c) 4x + 3y ≥ 60 (d) x + y ≥ 60
+
+**Answer: (b) 3x + 4y ≥ 60**
+**Solution:** "At least" ⇒ ≥. Protein = 3x + 4y. **Trap:** "At least/at most" language is the #1 CSAT formulation trap; option (a) is the mirror image. Option (d) ignores per-unit protein content.
+**Source:** PYQ-style (UPSC CSAT pattern).
+
+---
+
+**Q8.** If the feasible region is bounded, then the optimal value of the objective function:
+(a) always exists and occurs at a corner point
+(b) may occur at an interior point
+(c) never exists
+(d) occurs at the midpoint of the longest edge
+
+**Answer: (a)**
+**Solution:** Corner-point theorem: for a bounded feasible region, both max and min exist and occur at vertex/vertices. **Trap:** Option (b) is the "interior-point illusion" — plausible-sounding but false. (Edge case: if the objective line is parallel to an edge, *every* point of that edge is optimal — but corner points are still among them.)
+**Source:** NCERT Class 12 Mathematics (theorem).
+
+---
+
+**Q9.** Minimise Z = x + 2y subject to 2x + y ≥ 3, x + 2y ≥ 6, x ≥ 0, y ≥ 0. The minimum value is:
+(a) 6 (b) 4 (c) 3 (d) 5
+
+**Answer: (a) 6**
+**Solution:** The feasible region is unbounded, with corner points where the constraint lines meet the axes and each other. Solving 2x+y=3 and x+2y=6 simultaneously: multiply the first by 2 → 4x+2y=6; subtract the second → 3x=0, so x=0, y=3. Check (0,3): 2(0)+3=3 ≥ 3 ✓ and 0+2(3)=6 ≥ 6 ✓ — both binding, so it is a corner. Other corners: (6,0) from x+2y=6 with y=0 (check 2(6)+0=12 ≥ 3 ✓). Z values: (0,3)→6; (6,0)→6. The open half-plane x+2y<6 does not intersect the feasible region, so minimum = 6. **Trap:** Option (b) 4 comes from careless algebra — verify each candidate point against *all* constraints before trusting it.
+**Source:** NCERT Class 12 Mathematics (minimisation with ≥ constraints).
+
+---
+
+**Q10.** (PO Mains style) A firm makes products P and Q. Profit: ₹40 (P), ₹30 (Q). Machine time: P needs 1 hr, Q needs 1 hr, total ≤ 8 hrs. Raw material: P needs 2 units, Q needs 1 unit, total ≤ 10 units. Maximum profit is:
+(a) ₹280 (b) ₹260 (c) ₹240 (d) ₹320
+
+**Answer: (b) ₹260**
+**Solution:** Constraints: x+y≤8, 2x+y≤10, x,y≥0. Corners: (0,0)→0; (5,0)→200 (check: 2(5)=10 ≤ 10 ✓); intersection of x+y=8 and 2x+y=10 gives x=2, y=6 → Z=80+180=260; (0,8)→240. Maximum = ₹260 at (2,6). **Trap:** Option (a) 280 = 40×7, planted for those who ignore the material constraint and push x to 7. Here the intersection point beats the axis intercepts — always evaluate every vertex.
+**Source:** PYQ-style (IBPS PO Mains pattern).
+
+---
+
+## Key Takeaways for the Exam Hall
+
+1. **List every vertex, evaluate Z at every vertex** — no shortcuts, no averaging.
+2. **Underline "maximum/minimum" and every inequality sign** before touching the graph.
+3. **Unbounded region ≠ no answer** — check whether the open half-plane ax + by < m (for min) intersects the feasible region.
+4. **Word problems**: translate "at least → ≥", "at most/not more than → ≤", and never forget x ≥ 0, y ≥ 0.
+5. **Time discipline**: 90 seconds to set up; if the graph resists, flag and return. LP questions are scoring only when they don't eat your clock.
+
+*Revise this analysis again after 2 days, and re-solve Q5, Q9 and Q10 without looking at the solutions.*

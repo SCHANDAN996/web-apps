@@ -1,8 +1,75 @@
-# Chapter: Mensuration, Level: intermediate
+# Important Formulas — Mensuration
 
-@content_agent lang=en level=intermediate 'List all important formulas, equations, and rules for Mensuration.
-Instructions:
-- Only formulas and a one-line hint (when to use), no detailed explanation.
-- Present in a clean table: Formula Name | Formula | Use-Hint
-- Cover all formulas essential for solving exam questions.
-- Keep language simple and precise.'
+## 1. 2D Figures (Plane Figures)
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Area of Square | a² | Side given; also = d²/2 if diagonal d given |
+| Perimeter of Square | 4a | Fencing/boundary questions |
+| Area of Rectangle | l × b | Length × breadth |
+| Perimeter of Rectangle | 2(l + b) | Boundary of rectangular field |
+| Diagonal of Rectangle | √(l² + b²) | Longest rod inside a room/field |
+| Area of Triangle (base-height) | ½ × b × h | Height is perpendicular to base |
+| Area of Triangle (Heron's) | √[s(s−a)(s−b)(s−c)], s = (a+b+c)/2 | All three sides given |
+| Area of Equilateral Triangle | (√3/4) a² | All sides equal |
+| Height of Equilateral Triangle | (√3/2) a | Needed for pyramid-type questions |
+| Area of Right Triangle | ½ × product of perpendicular sides | Legs act as base and height |
+| Area of Isosceles Triangle | (b/4)√(4a² − b²) | a = equal side, b = base |
+| Area of Parallelogram | base × height | Height is perpendicular distance |
+| Area of Rhombus | ½ × d₁ × d₂ | Diagonals given |
+| Side of Rhombus | ½√(d₁² + d₂²) | Diagonals bisect at 90° |
+| Area of Trapezium | ½ × (sum of parallel sides) × height | Two parallel sides given |
+| Area of Quadrilateral | ½ × d × (h₁ + h₂) | Diagonal and offsets given |
+| Area of Regular Hexagon | (3√3/2) a² | Six equilateral triangles |
+| Area of Circle | πr² | Full circular region |
+| Circumference of Circle | 2πr | Boundary of circle |
+| Area of Semicircle | ½ πr² | Half circle |
+| Perimeter of Semicircle | πr + 2r | Don't forget the diameter! |
+| Area of Sector | (θ/360°) × πr² | θ = central angle |
+| Arc Length of Sector | (θ/360°) × 2πr | Curved part only |
+| Area of Ring (Annulus) | π(R² − r²) | Path around a circle |
+| Area of Segment | Area of sector − area of triangle | Chord cuts off a region |
+
+## 2. 3D Figures (Solids)
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Volume of Cube | a³ | Space occupied |
+| Surface Area of Cube (Total) | 6a² | Painting all faces |
+| Lateral Surface Area of Cube | 4a² | Four walls only |
+| Diagonal of Cube | a√3 | Longest rod inside cube |
+| Volume of Cuboid | l × b × h | Box-shaped objects |
+| Total Surface Area of Cuboid | 2(lb + bh + hl) | Painting entire box |
+| Lateral Surface Area of Cuboid | 2h(l + b) | Four walls of a room |
+| Diagonal of Cuboid | √(l² + b² + h²) | Longest pole in a room |
+| Volume of Cylinder | πr²h | Water in a cylindrical tank |
+| Curved Surface Area of Cylinder | 2πrh | Label on a can (no top/bottom) |
+| Total Surface Area of Cylinder | 2πr(h + r) | Closed cylinder |
+| Volume of Cone | (1/3)πr²h | One-third of cylinder with same base & height |
+| Curved Surface Area of Cone | πrl | l = slant height |
+| Total Surface Area of Cone | πr(l + r) | Include circular base |
+| Slant Height of Cone | l = √(r² + h²) | Pythagoras on r, h, l |
+| Volume of Sphere | (4/3)πr³ | Ball-shaped objects |
+| Surface Area of Sphere | 4πr² | Painting a ball |
+| Volume of Hemisphere | (2/3)πr³ | Half sphere |
+| Curved Surface Area of Hemisphere | 2πr² | Dome only |
+| Total Surface Area of Hemisphere | 3πr² | Dome + flat circular base |
+| Volume of Hollow Cylinder | πh(R² − r²) | Pipe material |
+| Volume of Frustum of Cone | (1/3)πh(R² + r² + Rr) | Bucket-shaped objects |
+| CSA of Frustum | πl(R + r), l = √(h² + (R−r)²) | Slant surface of bucket |
+
+## 3. Conversion & Combination Rules
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Melting/Recasting | Volume before = Volume after | n × small volume = big volume; find n |
+| Ratio of Areas (similar figures) | (ratio of sides)² | Sides in ratio k ⇒ areas in k² |
+| Ratio of Volumes (similar solids) | (ratio of sides)³ | Sides in ratio k ⇒ volumes in k³ |
+| Path inside a rectangle | Area = 2w(l + b − 2w) | w = width of path inside |
+| Path outside a rectangle | Area = 2w(l + b + 2w) | w = width of path outside |
+| Carpeting a room | Carpet area = floor area = l × b | Cost = area × rate |
+| Paper wrapping / Painting | Use surface area (CSA/TSA as asked) | Open box → exclude top |
+| 1 cm³ | = 1 mL; 1 m³ = 1000 litres | Capacity conversions |
+| π value | 22/7 or 3.14 | Use 22/7 when r is multiple of 7 |
+
+**Memory Hook:** "Cone is one-third, Sphere is four-thirds" — Cylinder πr²h → Cone (1/3)πr²h → Sphere (4/3)πr³.

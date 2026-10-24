@@ -1,0 +1,421 @@
+Q126. (Hard) (⚠️ Examiner's Trap) Figure Series (Delayed Appearance of Second Element):
+Problem Figures:
+A 2×2 grid square containing a black triangle (▲) and a white circle (○).
+(i) ▲ at top-left (TL); ○ is absent.
+(ii) ▲ at top-right (TR); ○ appears at bottom-left (BL).
+(iii) ▲ at bottom-right (BR); ○ at top-left (TL).
+(iv) ▲ at bottom-left (BL); ○ at top-right (TR).
+(v) ?
+(A) ▲ at top-left (TL); ○ at bottom-right (BR) (B) ▲ at top-right (TR); ○ at bottom-left (BL) (C) ▲ at bottom-right (BR); ○ at top-left (TL) (D) ▲ at top-left (TL); ○ is absent
+
+Answer: (A) ▲ at top-left (TL); ○ at bottom-right (BR)
+
+Solution:
+The black triangle (▲) advances clockwise corner-to-corner (TL → TR → BR → BL → TL). The white circle (○) emerges at step 2 and continually occupies the diagonally opposite cell to ▲. At step 5, ▲ arrives back at TL, placing ○ at BR. Hence, the correct option is (A).
+
+Source: SSC CGL
+
+Q127. (Hard) Classification (Odd One Out):
+Problem Figures:
+Five visually near-identical regular pentagons.
+(1) Regular pentagon with strictly equal side lengths.
+(2) Regular pentagon with strictly equal side lengths.
+(3) Irregular pentagon with one side shorter by 0.5 mm.
+(4) Regular pentagon with strictly equal side lengths.
+(5) Regular pentagon with strictly equal side lengths.
+(A) Figure 1 (B) Figure 3 (C) Figure 2 (D) Figure 4
+
+Answer: (B) Figure 3
+
+Solution:
+All figures except Figure 3 are perfectly equilateral regular pentagons with congruent side lengths. Figure 3 contains a subtle geometric irregularity in one side length, making Figure 3 the odd one out. Hence, the correct option is (B).
+
+Source: SSC CHSL
+
+Q128. (Hard) Figure Series (Differential Clockwise Rotation of Two Hands):
+Problem Figures:
+A circular dial containing a long hand (L) and a short hand (S).
+(i) L pointing up (0°); S pointing up (0°).
+(ii) L pointing right (90° clockwise); S pointing up-right (45° clockwise).
+(iii) L pointing down (180°); S pointing right (90°).
+(iv) L pointing left (270°); S pointing down-right (135°).
+(v) ?
+(A) L pointing up; S pointing up-right (B) L pointing right; S pointing right (C) L pointing up (360°); S pointing down (180°) (D) L pointing down; S pointing left
+
+Answer: (C) L pointing up (360°); S pointing down (180°)
+
+Solution:
+Hand L rotates 90° clockwise per step (0° → 90° → 180° → 270° → 360°/up). Hand S rotates 45° clockwise per step (0° → 45° → 90° → 135° → 180°/down). Step (v) positions L pointing up and S pointing down. Hence, the correct option is (C).
+
+Source: SSC MTS
+
+Q129. (Hard) Classification (Odd One Out):
+Problem Figures:
+Five figures each depicting a circle and a square.
+(1) Circle and square overlap, intersecting at 2 points to form 3 distinct bounded regions.
+(2) Circle and square overlap to form 3 bounded regions.
+(3) Square lies entirely inside circle without touching (2 bounded regions).
+(4) Circle and square overlap to form 3 bounded regions.
+(5) Circle and square overlap to form 3 bounded regions.
+(A) Figure 1 (B) Figure 2 (C) Figure 4 (D) Figure 3
+
+Answer: (D) Figure 3
+
+Solution:
+In all figures except Figure 3, the boundary intersection partitions the plane into exactly three bounded interior regions. In Figure 3, non-intersecting concentric nesting yields only two bounded regions, making Figure 3 the odd one out. Hence, the correct option is (D).
+
+Source: RRB NTPC
+
+Q130. (Hard) Figure Series (Side Increment with Alternating Orientation):
+Problem Figures:
+(i) Equilateral triangle pointing up (3 sides, 0° orientation).
+(ii) Square rotated 45° like a diamond (4 sides, 45° orientation).
+(iii) Regular pentagon pointing up (5 sides, 0° orientation).
+(iv) Regular hexagon rotated 45° (6 sides, 45° orientation).
+(v) ?
+(A) Regular heptagon pointing up (7 sides, 0° orientation) (B) Regular heptagon rotated 45° (7 sides, 45° orientation) (C) Regular hexagon pointing up (6 sides, 0° orientation) (D) Regular pentagon rotated 45° (5 sides, 45° orientation)
+
+Answer: (A) Regular heptagon pointing up (7 sides, 0° orientation)
+
+Solution:
+The number of polygon sides increases by 1 at each step: 3 → 4 → 5 → 6 → 7 (a heptagon). The tilt orientation alternates strictly: upright 0° on odd steps and 45° tilted on even steps. Step (v) is odd, requiring an upright heptagon with 0° orientation. Hence, the correct option is (A).
+
+Source: RRB Group D
+
+Q131. (Hard) (⚠️ Examiner's Trap) Classification (Odd One Out):
+Problem Figures:
+Five house figures each consisting of a square body and a triangular roof.
+(1) House figure consisting of exactly 7 straight line segments.
+(2) House figure consisting of exactly 7 straight line segments.
+(3) House figure with an extra minute vertical line segment (8 segments in total).
+(4) House figure consisting of exactly 7 straight line segments.
+(5) House figure consisting of exactly 7 straight line segments.
+(A) Figure 1 (B) Figure 3 (C) Figure 2 (D) Figure 4
+
+Answer: (B) Figure 3
+
+Solution:
+All figures except Figure 3 are formed by precisely seven straight line segments (4 for the square base and 3 for the roof). Figure 3 incorporates a hidden extra line segment making eight in total, making Figure 3 the odd one out. Hence, the correct option is (B).
+
+Source: SSC CGL
+
+Q132. (Hard) Figure Series (Chord Rotation with Symmetrical Length Variation):
+Problem Figures:
+A circle containing a chord that rotates 30° clockwise while changing length symmetrically.
+(i) Chord at 0° (horizontal, near top), very short length.
+(ii) Chord at 30° clockwise, medium-short length.
+(iii) Chord at 60° clockwise, medium-long length.
+(iv) Chord at 90° clockwise, maximum length (diameter of circle).
+(v) ?
+(A) Chord at 150° clockwise, very short length (B) Chord at 90° clockwise, maximum length (C) Chord at 120° clockwise, medium-long length (matching step 3 length) (D) Chord at 30° clockwise, medium-short length
+
+Answer: (C) Chord at 120° clockwise, medium-long length (matching step 3 length)
+
+Solution:
+The chord rotates by +30° clockwise at each step. Its length expands from minimum at 0° to maximum (diameter) at 90°, and then symmetrically contracts from 90° to 180°. At step (v) (120°), the chord length matches the medium-long length of step 3 (60°). Hence, the correct option is (C).
+
+Source: SSC CHSL
+
+Q133. (Hard) Figure Series (4-Bit Binary Counter Progression):
+Problem Figures:
+A row of 4 square indicator cells where white denotes 0 and black denotes 1 (binary up-counter).
+(i) 0 0 0 0 (all 4 cells white).
+(ii) 0 0 0 1 (rightmost cell black, value 1).
+(iii) 0 0 1 0 (third cell black, value 2).
+(iv) 0 0 1 1 (third and fourth cells black, value 3).
+(v) ?
+(A) 0 1 1 0 (second and third cells black, value 6) (B) 0 0 1 1 (third and fourth cells black, value 3) (C) 0 1 0 1 (second and fourth cells black, value 5) (D) 0 1 0 0 (second cell black, value 4)
+
+Answer: (D) 0 1 0 0 (second cell black, value 4)
+
+Solution:
+The black and white cells represent successive integers in standard 4-bit binary notation: 0000 (0) → 0001 (1) → 0010 (2) → 0011 (3) → 0100 (4). Step (v) corresponds to binary 0100, where only the second cell from left is black. Hence, the correct option is (D).
+
+Source: SSC MTS
+
+Q134. (Hard) Classification (Odd One Out):
+Problem Figures:
+Five intricate line diagrams each containing multiple straight lines.
+(1) Lines intersect each other at exactly 5 distinct crossing points.
+(2) Lines intersect each other at exactly 5 distinct crossing points.
+(3) Lines intersect each other at exactly 5 distinct crossing points.
+(4) Lines intersect at 4 points with 1 tangent point of contact (non-crossing).
+(5) Lines intersect each other at exactly 5 distinct crossing points.
+(A) Figure 4 (B) Figure 2 (C) Figure 3 (D) Figure 1
+
+Answer: (A) Figure 4
+
+Solution:
+In all figures except Figure 4, the intersecting line paths generate exactly five genuine crossing intersection points. In Figure 4, two lines merely touch tangentially without crossing, resulting in only 4 true intersections, making Figure 4 the odd one out. Hence, the correct option is (A).
+
+Source: RRB NTPC
+
+Q135. (Hard) Figure Series (Two-Vertex Leap Motion Around Regular Pentagon):
+Problem Figures:
+A regular pentagon with vertices numbered 1, 2, 3, 4, 5 clockwise. A black dot leaps clockwise along vertices skipping one vertex each time (+2 vertices).
+(i) Dot at vertex 1.
+(ii) Dot at vertex 3 (skips vertex 2).
+(iii) Dot at vertex 5 (skips vertex 4).
+(iv) Dot at vertex 2 (skips vertex 1).
+(v) ?
+(A) Dot at vertex 1 (B) Dot at vertex 4 (skips vertex 3) (C) Dot at vertex 3 (D) Dot at vertex 5
+
+Answer: (B) Dot at vertex 4 (skips vertex 3)
+
+Solution:
+The black dot traverses the pentagon vertices by advancing +2 positions modulo 5: 1 → 3 → 5 → 2 → 4. Advancing two vertices past vertex 2 skips vertex 3 and lands the dot on vertex 4 at step (v). Hence, the correct option is (B).
+
+Source: RRB Group D
+
+Q136. (Hard) Figure Series (Nested Polygon Hierarchy with Contrasting Fill):
+Problem Figures:
+(i) Black circle enclosing an internal white square.
+(ii) White square enclosing an internal black triangle.
+(iii) Black triangle enclosing an internal white pentagon.
+(iv) White pentagon enclosing an internal black hexagon.
+(v) ?
+(A) Black circle enclosing a white square (B) White hexagon enclosing an internal black heptagon (C) Black hexagon enclosing an internal white heptagon (D) White triangle enclosing a black square
+
+Answer: (C) Black hexagon enclosing an internal white heptagon
+
+Solution:
+The outer polygon side count increases: circle → square (4) → triangle (3) → pentagon (5) → hexagon (6). Outer fill alternates black (odd steps) and white (even steps). The inner polygon is always the next shape in sequence with opposite fill. Step (v) requires an outer black hexagon enclosing an inner white heptagon. Hence, the correct option is (C).
+
+Source: SSC CGL
+
+Q137. (Hard) (⚠️ Examiner's Trap) Figure Series (Alternating Arrow Direction and Feather Count):
+Problem Figures:
+An arrow with fletching feathers attached at its tail.
+(i) Arrow pointing right, with 1 tail feather.
+(ii) Arrow pointing left (horizontal mirror), with 2 tail feathers.
+(iii) Arrow pointing down (90° clockwise), with 1 tail feather.
+(iv) Arrow pointing up (vertical mirror), with 2 tail feathers.
+(v) ?
+(A) Arrow pointing down, with 2 tail feathers (B) Arrow pointing right, with 1 tail feather (C) Arrow pointing left, with 2 tail feathers (D) Arrow pointing left, with 1 tail feather
+
+Answer: (D) Arrow pointing left, with 1 tail feather
+
+Solution:
+Odd steps follow a 90° clockwise sequence: right → down → left, with strictly 1 feather. Even steps are mirror reflections of the previous odd figure with 2 feathers. Step (v) is odd, requiring an arrow pointing left with 1 feather. Hence, the correct option is (D).
+
+Source: SSC CHSL
+
+Q138. (Hard) Classification (Odd One Out):
+Problem Figures:
+Five circular pie charts with a single shaded sector.
+(1) Shaded sector occupies exactly 25% of the circle (central angle 90.0°).
+(2) Shaded sector occupies exactly 25% of the circle (central angle 90.0°).
+(3) Shaded sector occupies 26% of the circle (central angle 93.6°).
+(4) Shaded sector occupies exactly 25% of the circle (central angle 90.0°).
+(5) Shaded sector occupies exactly 25% of the circle (central angle 90.0°).
+(A) Figure 3 (B) Figure 2 (C) Figure 1 (D) Figure 4
+
+Answer: (A) Figure 3
+
+Solution:
+In all figures except Figure 3, the shaded sector forms an exact quadrant subtending 90° (25% area). In Figure 3, the central angle is 93.6° spanning 26% area, making Figure 3 the odd one out. Hence, the correct option is (A).
+
+Source: SSC MTS
+
+Q139. (Hard) Figure Series (Clockwise Step Increment of Shaded Dots):
+Problem Figures:
+A 3×3 grid of 9 circular dots. Dots are progressively shaded black.
+(i) 1 dot shaded (cell 1, top-left).
+(ii) 3 dots shaded (+2 dots).
+(iii) 6 dots shaded (+3 dots).
+(iv) 8 dots shaded (+2 dots).
+(v) ?
+(A) 8 dots shaded (B) All 9 dots shaded (+1 dot completing grid) (C) 7 dots shaded (D) All 9 dots white (reset)
+
+Answer: (B) All 9 dots shaded (+1 dot completing grid)
+
+Solution:
+The dots fill the 9-cell grid following an alternating increment pattern: +2, +3, +2, +1. At step 5, adding the final dot completes the entire 9-dot grid. Hence, the correct option is (B).
+
+Source: RRB NTPC
+
+Q140. (Hard) Figure Series (Independent Corner Orbit of Three Geometric Symbols):
+Problem Figures:
+A square containing a Circle (○), Square (□), and Triangle (△) at its corners.
+(i) ○ at top-left, □ at top-right, △ at bottom-right.
+(ii) ○ at top-right, □ at bottom-right, △ at bottom-left.
+(iii) ○ at bottom-right, □ at bottom-left, △ at top-left.
+(iv) ○ at bottom-left, □ at top-left, △ at top-right.
+(v) ?
+(A) ○ at bottom-right, □ at bottom-left, △ at top-left (B) ○ at top-right, □ at bottom-right, △ at bottom-left (C) ○ at top-left, □ at top-right, △ at bottom-right (D) ○ at bottom-left, □ at top-left, △ at top-right
+
+Answer: (C) ○ at top-left, □ at top-right, △ at bottom-right
+
+Solution:
+All three symbols shift clockwise corner-to-corner around the square with a period of 4 steps. Step 5 restores the exact original starting positions: ○ at top-left, □ at top-right, △ at bottom-right. Hence, the correct option is (C).
+
+Source: RRB Group D
+
+Q141. (Hard) Classification (Odd One Out):
+Problem Figures:
+Five polygons each partitioned by internal line segments.
+(1) Square divided into 4 congruent quadrants by two orthogonal midlines.
+(2) Regular hexagon divided into 6 congruent equilateral triangles.
+(3) Circle divided into 3 unequal non-congruent segments by parallel chords.
+(4) Equilateral triangle divided into 3 congruent parts by medians.
+(5) Regular octagon divided into 8 congruent sectors.
+(A) Figure 1 (B) Figure 2 (C) Figure 4 (D) Figure 3
+
+Answer: (D) Figure 3
+
+Solution:
+All figures except Figure 3 are divided into completely congruent sub-regions of equal area. In Figure 3, the chords partition the circle into unequal segments, making Figure 3 the odd one out. Hence, the correct option is (D).
+
+Source: SSC CGL
+
+Q142. (Hard) Figure Series (Outer Shape Decrement + Inner Line Increment):
+Problem Figures:
+(i) Hexagon (6 sides) containing 1 internal line.
+(ii) Pentagon (5 sides) containing 2 internal lines.
+(iii) Square (4 sides) containing 3 internal lines.
+(iv) Triangle (3 sides) containing 4 internal lines.
+(v) ?
+(A) Circle (0 sides) containing 5 internal lines (B) Triangle containing 5 lines (C) Square containing 5 lines (D) Circle containing 4 lines
+
+Answer: (A) Circle (0 sides) containing 5 internal lines
+
+Solution:
+Outer polygon side count decreases by 1 at each step: 6 → 5 → 4 → 3 → circle. Internal line count increases by 1 at each step: 1 → 2 → 3 → 4 → 5. Step (v) features a circle containing 5 internal lines. Hence, the correct option is (A).
+
+Source: SSC CHSL
+
+Q143. (Hard) Figure Series (Independent Dual Rotating Crosses):
+Problem Figures:
+A square containing a large plus sign (+) and a small cross (×).
+(i) + oriented upright (0°); × oriented tilted (45°).
+(ii) + rotated 45° (now ×); × rotated 45° (now +).
+(iii) + oriented upright; × oriented tilted.
+(iv) + rotated 45°; × rotated 45°.
+(v) ?
+(A) + rotated 45°; × rotated 45° (B) + oriented upright (0°); × oriented tilted (45°) (C) + upright; × upright (D) + tilted; × tilted
+
+Answer: (B) + oriented upright (0°); × oriented tilted (45°)
+
+Solution:
+Both elements rotate 45° on even steps and return on odd steps. Odd steps (1, 3, 5) display the large plus sign upright (+) and the small cross tilted (×). Step (v) is odd, matching step 1. Hence, the correct option is (B).
+
+Source: SSC MTS
+
+Q144. (Hard) Classification (Odd One Out):
+Problem Figures:
+Five polygons each evaluated for reflective lines of symmetry.
+(1) Regular pentagon (5 lines of symmetry).
+(2) Equilateral triangle (3 lines of symmetry).
+(3) Non-square rhombus (2 lines of symmetry).
+(4) Regular hexagon (6 lines of symmetry).
+(5) Square (4 lines of symmetry).
+(A) Figure 1 (B) Figure 2 (C) Figure 3 (D) Figure 4
+
+Answer: (C) Figure 3
+
+Solution:
+All figures except Figure 3 are regular polygons where the number of lines of symmetry strictly equals the number of sides (n lines of symmetry for n sides). The rhombus has 4 sides but only 2 lines of symmetry, making Figure 3 the odd one out. Hence, the correct option is (C).
+
+Source: RRB NTPC
+
+Q145. (Hard) Figure Series (Accelerating Step Progression of Dot Around Clock):
+Problem Figures:
+A circular clock dial with 12 hour positions. A black dot advances clockwise by an increasing number of hours (+1, +2, +3, +4).
+(i) Dot at 12 o'clock.
+(ii) Dot at 1 o'clock (+1 hour).
+(iii) Dot at 3 o'clock (+2 hours).
+(iv) Dot at 6 o'clock (+3 hours).
+(v) ?
+(A) Dot at 8 o'clock (B) Dot at 12 o'clock (C) Dot at 9 o'clock (D) Dot at 10 o'clock (+4 hours)
+
+Answer: (D) Dot at 10 o'clock (+4 hours)
+
+Solution:
+The step size increases by 1 hour at each successive transition: +1 hour, +2 hours, +3 hours, +4 hours. Advancing 4 hours past 6 o'clock lands the dot at 10 o'clock at step (v). Hence, the correct option is (D).
+
+Source: RRB Group D
+
+Q146. (Hard) Figure Series (Concentric Circle Growth with Alternating Shading):
+Problem Figures:
+Nested concentric circular rings.
+(i) 1 circle; black.
+(ii) 2 circles; outer black, inner white.
+(iii) 3 circles; outer black, middle white, inner black.
+(iv) 4 circles; black, white, black, white.
+(v) ?
+(A) 5 circles; black, white, black, white, black (B) 5 circles; white, black, white, black, white (C) 4 circles; black, white, black, white (D) 1 circle; black
+
+Answer: (A) 5 circles; black, white, black, white, black
+
+Solution:
+The count of concentric circles increments by 1 at each step: 1 → 2 → 3 → 4 → 5. Shading alternates from outermost to innermost starting with black: Black, White, Black, White, Black. Hence, the correct option is (A).
+
+Source: SSC CGL
+
+Q147. (Hard) Figure Series (Corner Triangle Pointing Towards Center):
+Problem Figures:
+A square with a small equilateral triangle at one corner permanently pointing towards the square's center.
+(i) Triangle at top-left corner, pointing down-right towards center.
+(ii) Triangle at top-right corner, pointing down-left towards center.
+(iii) Triangle at bottom-right corner, pointing up-left towards center.
+(iv) Triangle at bottom-left corner, pointing up-right towards center.
+(v) ?
+(A) Triangle at top-right corner, pointing down-left (B) Triangle at top-left corner, pointing down-right towards center (C) Triangle at center, pointing up (D) Triangle at bottom-right corner, pointing up-left
+
+Answer: (B) Triangle at top-left corner, pointing down-right towards center
+
+Solution:
+The triangle rotates clockwise around the four corners of the square while maintaining an orientation pointing inwards towards the center. After 4 steps, step 5 returns to top-left pointing towards center. Hence, the correct option is (B).
+
+Source: SSC CHSL
+
+Q148. (Hard) Classification (Odd One Out):
+Problem Figures:
+Five polygonal line paths constructed of connected line segments.
+(1) Continuous path consisting of exactly 6 line segments.
+(2) Continuous path consisting of exactly 6 line segments.
+(3) Continuous path consisting of 7 line segments (including a minute 0.5 mm segment).
+(4) Continuous path consisting of exactly 6 line segments.
+(5) Continuous path consisting of exactly 6 line segments.
+(A) Figure 1 (B) Figure 2 (C) Figure 3 (D) Figure 4
+
+Answer: (C) Figure 3
+
+Solution:
+All figures except Figure 3 comprise exactly six line segments. Figure 3 incorporates a hidden extra line segment making seven in total, making Figure 3 the odd one out. Hence, the correct option is (C).
+
+Source: SSC MTS
+
+Q149. (Hard) Figure Series (3-Bit Binary Counter Progression):
+Problem Figures:
+A row of 3 circular dots where white denotes 0 and black denotes 1 (binary up-counter).
+(i) 0 0 0 (all 3 dots white, value 0).
+(ii) 0 0 1 (rightmost dot black, value 1).
+(iii) 0 1 0 (middle dot black, value 2).
+(iv) 0 1 1 (middle and right dots black, value 3).
+(v) ?
+(A) 1 1 1 (all 3 dots black, value 7) (B) 1 0 1 (left and right dots black, value 5) (C) 1 1 0 (left and middle dots black, value 6) (D) 1 0 0 (leftmost dot black, value 4)
+
+Answer: (D) 1 0 0 (leftmost dot black, value 4)
+
+Solution:
+The dots represent successive 3-bit binary numbers: 000 (0) → 001 (1) → 010 (2) → 011 (3) → 100 (4). Step (v) corresponds to binary 100, where only the leftmost dot is black. Hence, the correct option is (D).
+
+Source: RRB NTPC
+
+Q150. (Hard) (⚠️ Examiner's Trap) Classification (Odd One Out):
+Problem Figures:
+Five chain figures each formed by interlocking circular rings.
+(1) Interlocking rings forming a completely closed continuous circular loop.
+(2) Completely closed chain loop.
+(3) Chain with a microscopic 0.5 mm open gap at one junction (broken open loop).
+(4) Completely closed chain loop.
+(5) Completely closed chain loop.
+(A) Figure 1 (B) Figure 3 (C) Figure 2 (D) Figure 4
+
+Answer: (B) Figure 3
+
+Solution:
+All figures except Figure 3 form complete, uninterrupted closed loops. Figure 3 contains a subtle open gap breaking topological closure, making Figure 3 the odd one out. Hence, the correct option is (B).
+
+Source: RRB Group D

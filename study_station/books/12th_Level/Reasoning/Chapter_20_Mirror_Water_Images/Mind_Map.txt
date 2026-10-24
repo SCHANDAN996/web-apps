@@ -1,0 +1,39 @@
+```mermaid
+graph TD
+    A["दर्पण/जल प्रतिबिंब<br>Mirror & Water Images"] --> B["दर्पण प्रतिबिंब<br>Mirror Image"]
+    A --> C["जल प्रतिबिंब<br>Water Image"]
+    A --> D["रणनीतियाँ<br>Strategies"]
+    A --> E["समय प्रबंधन<br>Time Management"]
+    A --> F["परीक्षक के जाल<br>Common Traps"]
+
+    B --> B1["दर्पण स्थिति<br>Mirror Position"]
+    B1 --> B1a["दाएँ/बाएँ (ऊर्ध्वाधर दर्पण)<br>Right/Left (Vertical Mirror)"]
+    B1 --> B1b["ऊपर/नीचे (क्षैतिज दर्पण)<br>Top/Bottom (Horizontal Mirror)"]
+    B --> B2["मुख्य नियम<br>Key Rule"]
+    B2 --> B2a["ऊर्ध्वाधर दर्पण: बायाँ↔दायाँ उलटता है<br>Vertical: Left-Right flips"]
+    B2 --> B2b["क्षैतिज दर्पण: ऊपर↔नीचे उलटता है<br>Horizontal: Top-Bottom flips"]
+    B --> B3["क्या नहीं बदलता<br>What Stays Same"]
+    B3 --> B3a["ऊर्ध्वाधर में: ऊपर-नीचे समान<br>Vertical: Top-Bottom same"]
+    B3 --> B3b["क्षैतिज में: बायाँ-दायाँ समान<br>Horizontal: Left-Right same"]
+
+    C --> C1["मुख्य नियम<br>Key Rule"]
+    C1 --> C1a["ऊपर↔नीचे उलटता है<br>Top-Bottom flips"]
+    C1 --> C1b["बायाँ-दायाँ समान रहता है<br>Left-Right stays same"]
+    C --> C2["अक्षर/अंक<br>Letters & Digits"]
+    C2 --> C2a["जल में समान: B, C, D, E, H, I, K, O, X<br>Same in water"]
+    C2 --> C2b["दर्पण में समान: A, H, I, M, O, T, U, V, W, X, Y<br>Same in mirror"]
+
+    D --> D1["विकल्प हटाओ विधि<br>Elimination Method"]
+    D --> D2["सममित अक्षर पहचानो<br>Identify Symmetric Letters"]
+    D --> D3["एक-एक अक्षर जाँचो<br>Check Letter by Letter"]
+    D --> D4["दर्पण रेखा पर ध्यान<br>Focus on Mirror Line"]
+
+    E --> E1["आसान प्रश्न: 15-20 सेकंड<br>Easy: 15-20 sec"]
+    E --> E2["कठिन आकृति: 30-40 सेकंड<br>Complex figure: 30-40 sec"]
+    E --> E3["अटक जाओ तो छोड़ो<br>Skip if stuck"]
+
+    F --> F1["दर्पण vs जल भ्रम<br>Mirror vs Water confusion"]
+    F --> F2["दर्पण की स्थिति न पढ़ना<br>Ignoring mirror position"]
+    F --> F3["लगभग-समान विकल्प<br>Look-alike options"]
+    F --> F4["घड़ी/अंक में उलटफेर<br>Clock/Digit reversal traps"]
+```

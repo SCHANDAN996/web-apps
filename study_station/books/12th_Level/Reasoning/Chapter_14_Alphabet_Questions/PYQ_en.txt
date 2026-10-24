@@ -1,0 +1,120 @@
+# 📊 PYQ Analysis — Alphabet Questions (Verbal Reasoning)
+
+## 1. How Exams Ask This Chapter
+
+Alphabet questions appear in **every** SSC (CGL, CHSL, MTS, GD), Banking (IBPS, SBI), and Railway (NTPC, Group D) paper. They are among the **most reliable scoring areas** in Verbal Reasoning — the concepts are fixed, and the same patterns repeat year after year with only the letters changed.
+
+**What examiners repeatedly ask:**
+
+- **Position-based questions** — "Which letter is 7th to the right of the 12th letter from the left?" This is the single most common pattern. Examiners love mixing left/right directions to create confusion.
+- **Letter series completion** — finding the next term in sequences like A, C, F, J, ? (gaps increasing by 1).
+- **Alphabetical order / dictionary arrangement** — arranging words as in a dictionary, or finding which word comes first/last.
+- **Word formation** — "How many meaningful words can be formed from the letters of 'TEACHER' using each letter once?"
+- **Letter-pair counting** — "How many pairs of letters in the word 'EXAMINATION' have as many letters between them as in the alphabet?" (forward and backward both).
+- **Middle letter / opposite letter** — letters opposite in the alphabet (A–Z, B–Y, …) and mid-position questions.
+- **Rearrangement questions** — "If the alphabet is written in reverse order, which letter will be 10th from the left?"
+
+**Exam-wise flavour:**
+
+- **SSC CGL/CHSL:** position arithmetic and letter series dominate; usually a few questions, easy to moderate.
+- **Banking (IBPS/SBI):** letter-pair counting and word-based arrangement appear inside reasoning sections; often combined with "meaningful word" framing.
+- **Railway NTPC/Group D:** direct position questions and reverse-alphabet questions; mostly easy, high attempt rate.
+
+## 2. Examiner's Traps (Psychological Hooks)
+
+1. **Direction confusion:** "7th to the right of the 12th from the left" — students add/subtract wrongly. Rule: same direction → subtract; opposite direction → add.
+2. **"From the right" conversion:** forgetting that position from right = 27 − position from left.
+3. **Reverse alphabet trap:** when the alphabet is reversed, the Nth letter from the left is the (27 − N)th letter of the normal alphabet.
+4. **Letter-pair questions:** students count only forward pairs and miss backward pairs (or vice versa).
+5. **Near-correct options:** options differ by one position (e.g., M, N, O, P) — one counting slip picks the wrong one.
+6. **"Meaningful word" questions:** options like "0, 1, 2, more than 2" — students overthink; usually the answer is 1.
+7. **Series with two interleaved sequences:** looks like one hard series but is two easy ones alternating.
+
+## 3. Top 10 High-Yield Questions (with Solutions and Trap Analysis)
+
+**Q1.** Which letter is 7th to the right of the 12th letter from the left in the English alphabet?
+(a) R (b) S (c) T (d) Q
+**Answer: (b)**
+**Solution:** Right of 12th from left = 12 + 7 = 19th letter = S.
+**Trap:** Options cluster around the answer; students who subtract (12 − 7 = 5 = E) or misread "right" as "left" fall. Opposite-direction rule: add.
+**Source:** PYQ-style
+
+**Q2.** Which letter is 5th to the left of the 9th letter from the right end of the alphabet?
+(a) M (b) N (c) O (d) L
+**Answer: (a)**
+**Solution:** 9th from right = 27 − 9 = 18th from left = R. 5th to the left of R (toward A) = 18 − 5 = 13th letter = M.
+**Trap:** Mixing "from right" with "to the left" causes double conversion errors. Convert everything to "from left" first, then move left by subtracting.
+**Source:** PYQ-style
+
+**Q3.** If the English alphabet is written in reverse order, which letter will be 10th from the left?
+(a) P (b) Q (c) R (d) O
+**Answer: (b)**
+**Solution:** In reverse order, 10th from left = (27 − 10) = 17th letter of the normal alphabet = Q.
+**Trap:** Students count Z=1, Y=2… and slip at 10. The formula 27 − N is faster and safer.
+**Source:** PYQ-style
+
+**Q4.** Complete the series: A, C, F, J, O, ?
+(a) S (b) T (c) U (d) V
+**Answer: (c)**
+**Solution:** Gaps: +2, +3, +4, +5, so next gap +6: O(15) + 6 = 21 = U.
+**Trap:** Students assume a constant gap and pick a wrong letter. Always write the position numbers (1, 3, 6, 10, 15) and check differences.
+**Source:** PYQ-style
+
+**Q5.** Complete the series: Z, X, V, T, ?
+(a) Q (b) R (c) S (d) P
+**Answer: (b)**
+**Solution:** Each step −2: Z(26), X(24), V(22), T(20), next 18 = R.
+**Trap:** Reverse-direction series feel harder; writing position numbers removes the fear.
+**Source:** PYQ-style
+
+**Q6.** How many pairs of letters in the word "CREATIVE" have as many letters between them in the word as in the English alphabet (in both directions)?
+(a) 1 (b) 2 (c) 3 (d) 4
+**Answer: (c)**
+**Solution:** Write alphabet positions: C3 R18 E5 A1 T20 I9 V22 E5. Check each pair: the gap in alphabet positions must equal the gap in word positions. Valid pairs: **C–E** (alphabet 3→5: one letter between; word positions 1→3: one letter between), **A–E** (A1→E5: three letters between; word positions 4→8: three letters between), **T–V** (T20→V22: one letter between; word positions 5→7: one letter between). Total = 3 pairs.
+**Trap:** Students count only the forward direction and miss backward pairs like A–E — the most common error in this type.
+**Source:** PYQ-style
+
+**Q7.** Arrange the words in dictionary order and find which comes third: (1) School (2) Scheme (3) Scholar (4) Science
+(a) School (b) Scheme (c) Scholar (d) Science
+**Answer: (a)**
+**Solution:** Compare letter by letter. 'Sch-' is common to School, Scheme, Scholar; 'Sci-' for Science, and 'h' < 'i', so Science comes last. Among the rest, the 4th letters are o, e, o → Scheme is first. Scholar vs School differ at the 5th letter: 'l' < 'o', so Scholar comes before School. Final order: Scheme → Scholar → School → Science. Third = School.
+**Trap:** Scholar vs School differ only at the 5th letter (l vs o) — students stop comparing too early.
+**Source:** PYQ-style
+
+**Q8.** How many meaningful English words can be formed with the letters E, T, A using each letter only once?
+(a) 1 (b) 2 (c) 3 (d) 4
+**Answer: (c)**
+**Solution:** EAT, TEA, ATE — three meaningful words.
+**Trap:** Students forget "ATE" or count "TAE"-type non-words. Systematically fix one letter at a time.
+**Source:** PYQ-style
+
+**Q9.** Which letter is exactly midway between the 10th letter from the left and the 16th letter from the left in the alphabet?
+(a) M (b) N (c) L (d) O
+**Answer: (a)**
+**Solution:** Midway position = (10 + 16)/2 = 13th letter = M.
+**Trap:** "Midway" = average of the two positions — not the middle letter of the whole alphabet (which falls between M and N, positions 13 and 14).
+**Source:** PYQ-style
+
+**Q10.** In the word "EXAMINATION", which letter is in the middle?
+(a) N (b) A (c) T (d) I
+**Answer: (a)**
+**Solution:** EXAMINATION has 11 letters; middle = (11 + 1)/2 = 6th letter = N (E-X-A-M-I-**N**-A-T-I-O-N).
+**Trap:** Students miscount the word length and pick the wrong position. Count letters first, then use (n+1)/2 for odd n.
+**Source:** PYQ-style
+
+## 4. The 15-Second / 45-Second Rule — Review
+
+- **15-second questions (attempt instantly):** direct position questions (Q1, Q3 type), reverse-alphabet position, middle letter of a word, opposite letters. If you know the 27 − N formula, these are free marks.
+- **45-second questions (attempt with care):** letter series with varying gaps, dictionary arrangement of 4–5 words, midway questions. Write position numbers on the rough sheet — never count on fingers in your head.
+- **SKIP candidates:**
+  - **Q6-type (letter-pair counting):** if the word has 8+ letters and asks "both directions", it can eat 2+ minutes with high error risk. **Skip in first pass**; return only if time remains. This is a classic skip under the 45-second rule.
+  - **Q8-type (meaningful word formation):** if you cannot see a word within 20 seconds, further staring rarely helps. Mark and move on — vocabulary luck, not skill, decides these.
+- **Golden rule:** alphabet questions are usually placed early in reasoning sections and are high-accuracy. Attempt all position/series questions first, skip pair-counting and word-formation for the second pass.
+
+## 5. One-Line Takeaways
+
+1. Master EJOTY (5,10,15,20,25 → E,J,O,T,Y) and 27 − N conversion — most position questions collapse into 10 seconds.
+2. Convert every direction to "from left" before calculating.
+3. Write position numbers for series; never guess gaps visually.
+4. Letter-pair and word-formation questions: attempt last, skip without guilt.
+5. Options differing by one letter mean the examiner expects a counting slip — double-check before marking.

@@ -1,0 +1,51 @@
+```mermaid
+graph TD
+    A["खेल और प्रतियोगिताएँ<br>Sports & Competitions"] --> B["अंतरराष्ट्रीय प्रतियोगिताएँ<br>International Events"]
+    A --> C["राष्ट्रीय खेल<br>National Games & Events"]
+    A --> D["खेल पुरस्कार<br>Sports Awards"]
+    A --> E["प्रमुख खेल-संघ<br>Sports Federations"]
+    A --> F["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> G["रणनीति<br>Strategy"]
+
+    B --> B1["ओलंपिक<br>Olympics"]
+    B --> B2["राष्ट्रमंडल खेल<br>Commonwealth Games"]
+    B --> B3["एशियाई खेल<br>Asian Games"]
+    B --> B4["फीफा विश्व कप<br>FIFA World Cup"]
+    B --> B5["क्रिकेट विश्व कप<br>Cricket World Cup"]
+
+    B1 --> B1a["ग्रीष्मकालीन: 4 वर्ष चक्र<br>Summer: 4-year cycle"]
+    B1 --> B1b["शीतकालीन: अलग वर्ष<br>Winter: separate years"]
+    B1 --> B1c["IOC मुख्यालय: लुसाने, स्विट्ज़रलैंड<br>IOC HQ: Lausanne, Switzerland"]
+    B1 --> B1d["आधुनिक ओलंपिक शुरू: 1896 एथेंस<br>Modern Olympics began: 1896 Athens"]
+
+    B2 --> B2a["पहले: 1930 हैमिल्टन<br>First: 1930 Hamilton"]
+    B2 --> B2b["4 वर्ष चक्र<br>4-year cycle"]
+
+    B3 --> B3a["पहले: 1951 नई दिल्ली<br>First: 1951 New Delhi"]
+    B3 --> B3b["OCA मुख्यालय: कुवैत<br>OCA HQ: Kuwait"]
+
+    C --> C1["राष्ट्रीय खेल (भारत)<br>National Games (India)"]
+    C --> C2["खेलो इंडिया<br>Khelo India"]
+    C1 --> C1a["पहले: 1924 लाहौर (भारतीय ओलंपिक खेल)<br>First: 1924 Lahore (Indian Olympic Games)"]
+
+    D --> D1["मेजर ध्यानचंद खेल रत्न<br>Major Dhyan Chand Khel Ratna"]
+    D --> D2["अर्जुन पुरस्कार<br>Arjuna Award"]
+    D --> D3["द्रोणाचार्य पुरस्कार (कोच)<br>Dronacharya Award (Coaches)"]
+    D --> D4["ध्यानचंद पुरस्कार (जीवनकाल)<br>Dhyan Chand Award (Lifetime)"]
+    D1 --> D1a["2021 से नाम बदला (पहले राजीव गांधी)<br>Renamed 2021 (earlier Rajiv Gandhi)"]
+
+    E --> E1["BCCI: 1928, मुंबई<br>BCCI: 1928, Mumbai"]
+    E --> E2["FIFA: 1904, ज़्यूरिख<br>FIFA: 1904, Zurich"]
+    E --> E3["ICC: 1909, दुबई<br>ICC: 1909, Dubai"]
+    E --> E4["AIFF: 1937<br>AIFF: 1937"]
+    E --> E5["IOA: 1927<br>IOA: 1927"]
+
+    F --> F1["पुरस्कारों के नाम मिलते-जुलते<br>Similar award names"]
+    F --> F2["मुख्यालय भ्रम (IOC-लुसाने, FIFA-ज़्यूरिख)<br>HQ confusion (IOC-Lausanne, FIFA-Zurich)"]
+    F --> F3["स्थापना वर्ष का कालक्रम जाल<br>Founding-year chronology trap"]
+    F --> F4["नकारात्मक वाक्य: 'नहीं/कौन सा सही नहीं'<br>Negative stems: 'NOT/except'"]
+
+    G --> G1["15/45 सेकंड नियम<br>15/45 second rule"]
+    G --> G2["स्थिर तथ्य याद रखें, वर्तमान विजेता साल सहित<br>Static facts fixed; current winners with year"]
+    G --> G3["शक हो तो छोड़ें — नकारात्मक अंकन<br>If unsure, skip — negative marking"]
+```

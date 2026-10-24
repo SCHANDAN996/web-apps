@@ -1,0 +1,11 @@
+# /etc/systemd/system/studystation-retention.service
+[Unit]
+Description=Study Station private backup and log expiry
+
+[Service]
+Type=oneshot
+UMask=0077
+StateDirectory=studystation-retention
+StateDirectoryMode=0700
+ExecStartPre=/usr/sbin/logrotate --force --state /var/lib/studystation-retention/logrotate.status /etc/studystation/retention-logrotate.conf
+ExecStart=/usr/bin/python3 /usr/local/lib/studystation/retention.py --apply

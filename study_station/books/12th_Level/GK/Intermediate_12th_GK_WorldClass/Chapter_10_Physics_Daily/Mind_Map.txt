@@ -1,0 +1,47 @@
+```mermaid
+graph TD
+    A["भौतिकी – दैनिक जीवन<br>Physics in Everyday Life"] --> B["ऊर्जा और रूपांतरण<br>Energy & Transformations"]
+    A --> C["घरेलू उपकरण<br>Household Devices"]
+    A --> D["प्रकाशिकी<br>Optics in Daily Life"]
+    A --> E["ध्वनि<br>Sound"]
+    A --> F["दाब और तरल<br>Pressure & Fluids"]
+    A --> G["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> H["रणनीति<br>Strategy"]
+
+    B --> B1["बल्ब: विद्युत → प्रकाश + ऊष्मा<br>Bulb: Electrical → Light + Heat"]
+    B --> B2["पंखा: विद्युत → यांत्रिक<br>Fan: Electrical → Mechanical"]
+    B --> B3["ऊर्जा संरक्षण नियम<br>Law of Conservation of Energy"]
+    B --> B4["1 यूनिट = 1 kWh<br>1 Unit = 1 kWh"]
+
+    C --> C1["रेफ्रिजरेटर: ऊष्मा पंप<br>Refrigerator: Heat Pump"]
+    C --> C2["माइक्रोवेव: जल अणु कंपन<br>Microwave: Water Molecule Vibration"]
+    C --> C3["फ्यूज़/MCB: अधिक धारा से सुरक्षा<br>Fuse/MCB: Overcurrent Protection"]
+    C --> C4["इंडक्शन चूल्हा: विद्युतचुंबकीय प्रेरण<br>Induction Stove: Electromagnetic Induction"]
+
+    D --> D1["आकाश नीला: रेले प्रकीर्णन<br>Blue Sky: Rayleigh Scattering"]
+    D --> D2["सूर्यास्त लाल: अधिक प्रकीर्णन<br>Red Sunset: More Scattering"]
+    D --> D3["तालाब उथला दिखना: अपवर्तन<br>Pool Looks Shallow: Refraction"]
+    D --> D4["इंद्रधनुष: अपवर्तन + परावर्तन<br>Rainbow: Refraction + Reflection"]
+    D --> D5["शीशे में उल्टी छवि: पार्श्व उलटन<br>Mirror Image: Lateral Inversion"]
+
+    E --> E1["अनुप्रस्थ नहीं, अनुदैर्ध्य तरंग<br>Longitudinal, Not Transverse"]
+    E --> E2["निर्वात में ध्वनि नहीं<br>No Sound in Vacuum"]
+    E --> E3["गूंज: परावर्तन<br>Echo: Reflection"]
+    E --> E4["अल्ट्रासाउंड > 20,000 Hz<br>Ultrasound > 20,000 Hz"]
+
+    F --> F1["चाकू तेज़: कम क्षेत्र, अधिक दाब<br>Sharp Knife: Less Area, More Pressure"]
+    F --> F2["हाइड्रोलिक ब्रेक: पास्कल नियम<br>Hydraulic Brake: Pascal's Law"]
+    F --> F3["हवाई जहाज का पंख: बर्नौली सिद्धांत<br>Airplane Wing: Bernoulli's Principle"]
+    F --> F4["उत्प्लावन: आर्किमिडीज़<br>Buoyancy: Archimedes"]
+
+    G --> G1["जाल: 'ध्वनि निर्वात में चलती है'<br>Trap: Sound Travels in Vacuum"]
+    G --> G2["जाल: 'इंद्रधनुष केवल अपवर्तन से'<br>Trap: Rainbow Only by Refraction"]
+    G --> G3["जाल: 'फ्रिज ठंडक बनाता है'<br>Trap: Fridge Creates Coldness"]
+    G --> G4["जाल: मिलते-जुलते नाम<br>Trap: Similar-Sounding Terms"]
+    G --> G5["जाल: नकारात्मक वाक्य 'नहीं/केवल'<br>Trap: Negative Words 'Not/Only'"]
+
+    H --> H1["15 सेकंड: सीधा तथ्य<br>15 sec: Direct Fact"]
+    H --> H2["45 सेकंड: कथन-आधारित<br>45 sec: Statement-Based"]
+    H --> H3["पहले जाल-शब्द पढ़ें<br>Read Trap Words First"]
+    H --> H4["घरेलू उदाहरण से याद करें<br>Recall via Home Examples"]
+```

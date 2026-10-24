@@ -1,0 +1,34 @@
+```mermaid
+graph TD
+    A["मिश्रण और पृथक्कीकरण<br>Mixture & Alligation"] --> B["मिश्रण<br>Mixture"]
+    A --> C["पृथक्कीकरण नियम<br>Alligation Rule"]
+    A --> D["प्रतिस्थापन<br>Replacement"]
+    A --> E["मिश्रण के प्रकार<br>Types of Mixtures"]
+
+    B --> B1["दो या अधिक पदार्थों का मेल<br>Combination of 2+ substances"]
+    B --> B2["मूल्य/सांद्रता आधारित<br>Price/Concentration based"]
+    B --> B3["अनुपात में मिश्रण<br>Mixing in Ratio"]
+
+    C --> C1["माध्य मूल्य सूत्र<br>Mean Price Formula"]
+    C --> C2["क्रॉस विधि<br>Cross Method"]
+    C1 --> C1a["(महंगा − माध्य) : (माध्य − सस्ता)<br>(Dearer − Mean) : (Mean − Cheaper)"]
+    C2 --> C2a["एलीगेशन चार्ट<br>Alligation Chart"]
+
+    D --> D1["बार-बार प्रतिस्थापन<br>Repeated Replacement"]
+    D --> D2["सूत्र: अंतिम मात्रा = V(1 − x/V)ⁿ<br>Final = V(1 − x/V)ⁿ"]
+    D --> D3["दूध-पानी प्रश्न<br>Milk-Water Problems"]
+
+    E --> E1["साधारण मिश्रण<br>Simple Mixture"]
+    E --> E2["मिश्रधातु<br>Alloys (Metal Mixtures)"]
+    E --> E3["विलयन<br>Solutions (Water-Alcohol)"]
+
+    A --> F["अनुप्रयोग<br>Applications"]
+    F --> F1["लाभ-हानि से संबंध<br>Linked with Profit-Loss"]
+    F --> F2["औसत से संबंध<br>Linked with Average"]
+    F --> F3["अनुपात-समानुपात<br>Ratio-Proportion"]
+
+    A --> G["परीक्षा के जाल<br>Exam Traps"]
+    G --> G1["मात्रा vs मूल्य भ्रम<br>Quantity vs Price Confusion"]
+    G --> G2["प्रतिस्थापन में शेष मात्रा<br>Remaining Quantity Error"]
+    G --> G3["उल्टा अनुपात<br>Inverse Ratio Trap"]
+```

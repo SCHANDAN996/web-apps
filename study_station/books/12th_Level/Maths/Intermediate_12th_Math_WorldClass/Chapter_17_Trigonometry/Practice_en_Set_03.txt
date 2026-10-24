@@ -1,3 +1,151 @@
-# Chapter: Trigonometry, Level: intermediate, Set: 3/6
+प्रश्न 51–70: आसान | प्रश्न 71–75: मध्यम
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Trigonometry. This is Set 3 (total 6 sets, 150 questions). Questions must be numbered 51 to 75. All 25 questions should be Medium. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+51. If sin θ = 3/5 and θ is acute, then the value of cos θ + tan θ is
+(a) 4/5 (b) 31/20 (c) 7/5 (d) 23/20
+Answer: (b)
+Solution: The tempting wrong option 7/5 comes from adding 3/4 and 4/5 by adding numerators and denominators separately. Correctly, cos θ = 4/5 and tan θ = 3/4, so cos θ + tan θ = 16/20 + 15/20 = 31/20, so the answer is 31/20.
+Source: NCERT Class 10 Mathematics
+
+52. The value of sin² 25° + sin² 65° is
+(a) 0 (b) 1 (c) 2 (d) 1/2
+Answer: (b)
+Solution: The trap is to compute each term separately and get confused. Since sin 65° = sin(90° − 25°) = cos 25°, the expression becomes sin² 25° + cos² 25° = 1, so the answer is 1.
+Source: NCERT Class 10 Mathematics
+
+53. If tan θ + cot θ = 2, then the value of tan² θ + cot² θ is
+(a) 2 (b) 1 (c) 4 (d) 0
+Answer: (a)
+Solution: Many students wrongly square each term and guess 4. Squaring the given equation: tan² θ + cot² θ + 2·tan θ·cot θ = 4, and since tan θ·cot θ = 1, we get tan² θ + cot² θ = 4 − 2 = 2, so the answer is 2.
+Source: NCERT Class 10 Mathematics
+
+54. The value of (1 + tan² θ)·(1 − sin θ)·(1 + sin θ) is
+(a) cos² θ (b) 0 (c) sin² θ (d) 1
+Answer: (d)
+Solution: The trap is to expand everything and lose track. Note (1 − sin θ)(1 + sin θ) = 1 − sin² θ = cos² θ, and 1 + tan² θ = sec² θ, so the product is sec² θ·cos² θ = 1, so the answer is 1.
+Source: NCERT Class 10 Mathematics
+
+55. If 3 sin θ = 4 cos θ, then the value of (4 sin θ + 2 cos θ)/(4 sin θ − 2 cos θ) is
+(a) 5/11 (b) 11/5 (c) 7/3 (d) 3/7
+Answer: (b)
+Solution: The tempting wrong option 5/11 is the reciprocal, obtained by inverting the ratio carelessly. From 3 sin θ = 4 cos θ, tan θ = 4/3; dividing numerator and denominator by cos θ gives (4 tan θ + 2)/(4 tan θ − 2) = (22/3)/(10/3) = 11/5, so the answer is 11/5.
+Source: NCERT Class 10 Mathematics
+
+56. The value of cos 1°·cos 2°·cos 3° … cos 90° is
+(a) 1 (b) 0 (c) 1/2 (d) √3/2
+Answer: (b)
+Solution: The trap is to assume the product telescopes to a nice value like 1/2. Since cos 90° = 0 is one of the factors, the entire product is 0, so the answer is 0.
+Source: NCERT Class 10 Mathematics
+
+57. If sin θ + cos θ = √2, then the value of θ (acute) is
+(a) 60° (b) 30° (c) 45° (d) 90°
+Answer: (c)
+Solution: The trap is to pick 60° thinking of √3. At θ = 45°, sin 45° + cos 45° = 1/√2 + 1/√2 = 2/√2 = √2, which matches, so the answer is 45°.
+Source: NCERT Class 10 Mathematics
+
+58. The value of (sec θ + tan θ)(sec θ − tan θ) is
+(a) 0 (b) sec² θ (c) 1 (d) tan² θ
+Answer: (c)
+Solution: The tempting wrong option sec² θ comes from forgetting the difference-of-squares identity. The product equals sec² θ − tan² θ = 1, so the answer is 1.
+Source: NCERT Class 10 Mathematics
+
+59. If tan θ = 5/12, then the value of sin θ·cos θ is
+(a) 5/13 (b) 25/144 (c) 12/13 (d) 60/169
+Answer: (d)
+Solution: The trap is to square 5/12 and pick 25/144. With tan θ = 5/12, the hypotenuse is √(25 + 144) = 13, so sin θ = 5/13 and cos θ = 12/13, giving sin θ·cos θ = 60/169, so the answer is 60/169.
+Source: NCERT Class 10 Mathematics
+
+60. The value of sin 60°·cos 30° + cos 60°·sin 30° is
+(a) 1/2 (b) 1 (c) √3/2 (d) 0
+Answer: (b)
+Solution: The trap is to stop after computing only one product. This is sin(60° + 30°) = sin 90° = 1; directly, (√3/2)(√3/2) + (1/2)(1/2) = 3/4 + 1/4 = 1, so the answer is 1.
+Source: NCERT Class 10 Mathematics
+
+61. If cosec θ − cot θ = 1/3, then the value of cosec θ + cot θ is
+(a) 3 (b) 1/3 (c) 9 (d) 1
+Answer: (a)
+Solution: The tempting wrong option 1/3 comes from assuming the two expressions are equal. Since cosec² θ − cot² θ = 1, we have (cosec θ − cot θ)(cosec θ + cot θ) = 1, so cosec θ + cot θ = 1/(1/3) = 3, so the answer is 3.
+Source: NCERT Class 10 Mathematics
+
+62. The value of tan 1°·tan 2°·tan 3° … tan 89° is
+(a) 0 (b) √3 (c) 1 (d) undefined
+Answer: (c)
+Solution: The trap is to think the product is undefined like tan 90°. Pairing terms: tan 1°·tan 89° = tan 1°·cot 1° = 1, and similarly all pairs give 1, with tan 45° = 1 in the middle, so the answer is 1.
+Source: NCERT Class 10 Mathematics
+
+63. If sin θ − cos θ = 0, then the value of sin⁴ θ + cos⁴ θ is
+(a) 1 (b) 3/4 (c) 1/4 (d) 1/2
+Answer: (d)
+Solution: The trap is to assume the answer is 1 like the basic identity. From sin θ = cos θ, θ = 45°, so sin⁴ θ + cos⁴ θ = 1/4 + 1/4 = 1/2, so the answer is 1/2.
+Source: NCERT Class 10 Mathematics
+
+64. The value of (sin θ + cosec θ)² + (cos θ + sec θ)² is
+(a) 5 (b) 7 + tan² θ + cot² θ (c) 9 (d) 7
+Answer: (b)
+Solution: The tempting wrong option 7 comes from dropping the leftover squared terms. Expanding: sin² θ + cosec² θ + 2 + cos² θ + sec² θ + 2 = 1 + 4 + (1 + cot² θ) + (1 + tan² θ) = 7 + tan² θ + cot² θ, so the answer is 7 + tan² θ + cot² θ.
+Source: NCERT Class 10 Mathematics
+
+65. If 2 sin² θ + 3 cos θ = 3, then the value of cos θ (θ acute) is
+(a) √3/2 (b) 1 (c) 1/√2 (d) 1/2
+Answer: (d)
+Solution: The trap is to accept cos θ = 1 blindly, which forces θ = 0°, not acute. Writing sin² θ = 1 − cos² θ gives 2cos² θ − 3 cos θ + 1 = 0, so cos θ = 1 or 1/2; for acute θ ≠ 0°, cos θ = 1/2, so the answer is 1/2.
+Source: NCERT Class 10 Mathematics
+
+66. The value of cos² 30° − sin² 30° is
+(a) 1/2 (b) √3/2 (c) 0 (d) 1
+Answer: (a)
+Solution: The trap is to think the two squares cancel to 0. cos² 30° = 3/4 and sin² 30° = 1/4, so the difference is 3/4 − 1/4 = 1/2 (this equals cos 60°), so the answer is 1/2.
+Source: NCERT Class 10 Mathematics
+
+67. If sec θ + tan θ = p, then the value of sin θ is
+(a) (p² + 1)/(p² − 1) (b) 2p/(p² + 1) (c) (p² − 1)/(p² + 1) (d) (p² − 1)/2p
+Answer: (c)
+Solution: The tempting wrong option 2p/(p² + 1) is a distractor resembling half-angle formulas. Since sec θ − tan θ = 1/p, adding and subtracting give sec θ = (p² + 1)/2p and tan θ = (p² − 1)/2p, so sin θ = tan θ/sec θ = (p² − 1)/(p² + 1), so the answer is (p² − 1)/(p² + 1).
+Source: NCERT Class 10 Mathematics
+
+68. The value of tan 45°/(cot 30° + tan 60°) is
+(a) 1/√3 (b) 1/2 (c) √3/2 (d) √3/6
+Answer: (d)
+Solution: The trap is to misadd cot 30° + tan 60° as √3 instead of 2√3. Correctly, cot 30° = √3 and tan 60° = √3, so the value is 1/(2√3) = √3/6, so the answer is √3/6.
+Source: NCERT Class 10 Mathematics
+
+69. If sin A = 1/2 and cos B = 1/2 (A, B acute), then the value of A + B is
+(a) 120° (b) 60° (c) 90° (d) 30°
+Answer: (c)
+Solution: The trap is to add 30° + 30° = 60° by misreading cos B = 1/2 as giving B = 30°. Actually sin A = 1/2 gives A = 30° and cos B = 1/2 gives B = 60°, so A + B = 90°, so the answer is 90°.
+Source: NCERT Class 10 Mathematics
+
+70. The value of (1 + cot θ − cosec θ)(1 + tan θ + sec θ) is
+(a) 2 (b) 1 (c) 0 (d) −1
+Answer: (a)
+Solution: The trap is to assume the brackets cancel to 1. Writing everything in sin and cos, the product becomes [(sin θ + cos θ)² − 1]/(sin θ cos θ) = 2 sin θ cos θ/(sin θ cos θ) = 2, so the answer is 2.
+Source: NCERT Class 10 Mathematics
+
+71. If tan θ = 1/√3 (θ acute), then the value of (1 − cos² θ)/(1 − sin² θ) is
+(a) 1/3 (b) 3 (c) 1/2 (d) 2
+Answer: (a)
+Solution: The trap is to take θ = 60° instead of 30° and get 3. With tan θ = 1/√3, θ = 30°, and the expression equals sin² θ/cos² θ = tan² θ = 1/3, so the answer is 1/3.
+Source: NCERT Class 10 Mathematics
+
+72. The value of sin² 5° + sin² 10° + sin² 15° + … + sin² 90° is
+(a) 9 (b) 10 (c) 19/2 (d) 17/2
+Answer: (c)
+Solution: The trap is to count 18 terms and guess 9. Pairing sin² 5° + sin² 85° = 1, and so on, gives 8 such pairs equal to 8, plus sin² 45° = 1/2 and sin² 90° = 1, totalling 8 + 1/2 + 1 = 19/2, so the answer is 19/2.
+Source: NCERT Class 10 Mathematics
+
+73. If cos θ + sec θ = 2, then the value of cos² θ + sec² θ is
+(a) 2 (b) 4 (c) 6 (d) 0
+Answer: (a)
+Solution: The tempting wrong option 4 comes from squaring 2 directly. Squaring: cos² θ + sec² θ + 2·cos θ·sec θ = 4, and since cos θ·sec θ = 1, we get cos² θ + sec² θ = 4 − 2 = 2, so the answer is 2.
+Source: NCERT Class 10 Mathematics
+
+74. The value of (sin 30° + cos 60° − tan 45°)/(sec 60° − cosec 30°) is
+(a) undefined (b) 1 (c) 0 (d) 1/2
+Answer: (a)
+Solution: The trap is to compute only the numerator and answer 0. The numerator is 1/2 + 1/2 − 1 = 0, but the denominator is 2 − 2 = 0 as well, and division by zero is undefined, so the answer is undefined.
+Source: NCERT Class 10 Mathematics
+
+75. If x = a sin θ and y = b cos θ, then the value of x²/a² + y²/b² is
+(a) 0 (b) a² + b² (c) 2 (d) 1
+Answer: (d)
+Solution: The trap is to add a² + b² thinking of the Pythagorean theorem. Substituting: x²/a² = sin² θ and y²/b² = cos² θ, so the sum is sin² θ + cos² θ = 1, so the answer is 1.
+Source: NCERT Class 10 Mathematics

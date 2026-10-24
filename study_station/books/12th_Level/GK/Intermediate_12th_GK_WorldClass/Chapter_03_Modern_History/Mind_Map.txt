@@ -1,0 +1,58 @@
+```mermaid
+graph TD
+    A["आधुनिक भारतीय इतिहास<br>Modern Indian History"] --> B["यूरोपीय आगमन<br>European Arrival"]
+    A --> C["ब्रिटिश साम्राज्यवाद<br>British Imperialism"]
+    A --> D["1857 की क्रांति<br>Revolt of 1857"]
+    A --> E["सामाजिक-धार्मिक सुधार<br>Socio-Religious Reforms"]
+    A --> F["राष्ट्रीय आंदोलन<br>National Movement"]
+    A --> G["स्वतंत्रता और विभाजन<br>Freedom & Partition"]
+
+    B --> B1["पुर्तगाली 1498<br>Portuguese (Vasco da Gama)"]
+    B --> B2["डच 1602 / अंग्रेज़ 1600<br>Dutch / English EIC"]
+    B --> B3["फ्रांसीसी 1664<br>French"]
+    B --> B4["जाल: EIC स्थापना 1600,<br>प्लासी 1757, बक्सर 1764<br>Trap: Dates confusion"]
+
+    C --> C1["प्लासी 1757<br>Battle of Plassey"]
+    C --> C2["बक्सर 1764 → दिवानी 1765<br>Buxar → Diwani Rights"]
+    C --> C3["सहायक संधि - वेलेज़ली<br>Subsidiary Alliance"]
+    C --> C4["व्यपगत सिद्धांत - डलहौज़ी<br>Doctrine of Lapse"]
+    C --> C5["जाल: लॉर्डों के कार्य मिलान<br>Trap: Governor-General mix-up"]
+
+    D --> D1["कारण: चर्बी वाले कारतूस<br>Immediate Cause: Greased Cartridges"]
+    D --> D2["मंगल पांडे - बैरकपुर<br>Mangal Pandey - Barrackpore"]
+    D --> D3["कानपुर-नाना साहेब, झाँसी-रानी लक्ष्मीबाई<br>Leaders by centre"]
+    D --> D4["परिणाम: 1858 अधिनियम,<br>कंपनी शासन समाप्त<br>Govt of India Act 1858"]
+
+    E --> E1["राजा राममोहन राय - ब्रह्म समाज 1828<br>Brahmo Samaj"]
+    E --> E2["सती प्रथा उन्मूलन 1829 - बेंटिंक<br>Sati Abolition"]
+    E --> E3["स्वामी दयानंद - आर्य समाज 1875<br>Arya Samaj"]
+    E --> E4["विवेकानंद - रामकृष्ण मिशन 1897<br>Ramakrishna Mission"]
+    E --> E5["जाल: प्रार्थना समाज ≠ ब्रह्म समाज<br>Trap: Similar names"]
+
+    F --> F1["कांग्रेस स्थापना 1885 - ह्यूम<br>INC Formation"]
+    F --> F2["उग्रवादी युग 1905-19<br>Extremist Era"]
+    F --> F3["गांधी युग 1919-47<br>Gandhian Era"]
+    F --> F4["क्रांतिकारी आंदोलन<br>Revolutionary Movement"]
+
+    F1 --> F1a["पहला अधिवेशन बॉम्बे 1885<br>अध्यक्ष: व्योमेश चंद्र बनर्जी<br>First Session - W.C. Bonnerjee"]
+    F2 --> F2a["बंगाल विभाजन 1905 - कर्ज़न<br>Partition of Bengal"]
+    F2 --> F2b["स्वदेशी आंदोलन<br>Swadeshi Movement"]
+    F2 --> F2c["सूरत विभाजन 1907<br>Surat Split"]
+    F3 --> F3a["चंपारण 1917 - पहला सत्याग्रह<br>Champaran"]
+    F3 --> F3b["जलियाँवाला बाग 1919<br>Jallianwala Bagh"]
+    F3 --> F3c["असहयोग 1920-22<br>Non-Cooperation"]
+    F3 --> F3d["दांडी मार्च 1930<br>Dandi March"]
+    F3 --> F3e["भारत छोड़ो 1942<br>Quit India"]
+    F4 --> F4a["भगत सिंह - HSRA 1928<br>Bhagat Singh"]
+    F4 --> F4b["चटगाँव शस्त्रागार 1930 - सूर्य सेन<br>Chittagong Armoury Raid"]
+
+    G --> G1["कैबिनेट मिशन 1946<br>Cabinet Mission"]
+    G --> G2["माउंटबेटन योजना 3 जून 1947<br>Mountbatten Plan"]
+    G --> G3["स्वतंत्रता 15 अगस्त 1947<br>Independence"]
+    G --> G4["रेडक्लिफ रेखा<br>Radcliffe Line"]
+
+    A --> H["रणनीति<br>Strategy"]
+    H --> H1["कालक्रम याद करें<br>Master Chronology"]
+    H --> H2["व्यक्ति-संस्था-वर्ष त्रिकोण<br>Person-Org-Year triangle"]
+    H --> H3["नकारात्मक प्रश्नों में सावधानी<br>Careful with NOT/EXCEPT questions"]
+```

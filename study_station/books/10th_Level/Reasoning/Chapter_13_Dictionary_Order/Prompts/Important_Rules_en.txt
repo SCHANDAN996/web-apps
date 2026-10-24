@@ -1,19 +1,10 @@
-📋 Important Rules & Approaches
+# Chapter: Dictionary Order, Level: foundation, Type: Verbal Reasoning
 
-Rule/Approach Name	Description	Example
-1. Left-to-Right Comparison	Compare words letter by letter from the first letter to the right. Stop at the first point of difference.	Cat vs Dog: First letter C < D, so Cat comes first.
-2. Smaller Alphabet Wins	The letter that appears earlier in the English alphabet (A to Z) decides the order.	A < B < C ... < Z. Apple (A) before Ball (B).
-3. Shortest Word First (Subset Rule)	If a word is completely contained as the starting part of a longer word, the shorter word always comes first.	Arm vs Army: First three letters identical, then Arm ends → Arm comes first.
-4. Ignore Hyphens and Spaces	Treat hyphenated words and words with spaces as single continuous strings by removing the hyphen/space.	X-ray → Xray; Post office → Postoffice
-5. Case Insensitivity	Capital letters and small letters are considered identical in dictionary order.	Apple = apple; Ball = ball
-6. Double Letters are Single Entities	Each occurrence of a letter, even if repeated, must be compared individually. A double letter does not give priority.	Butter (t,t) vs Button (t,t): fifth letter e < o, Butter comes first.
-
-Time Management
-
-Time Rule	Condition	Action
-15-Second Rule	First letters of all words are distinct (e.g., A, B, C)	Arrange immediately by first letters. Move on in under 15 seconds.
-45-Second Rule	Words share the first 2-3 letters (e.g., Butter, Button, Butler)	Apply letter-by-letter method carefully. If the exact order is not crystal clear in 45 seconds, mark and skip.
-Skip Strategy	The set contains 5+ words with deeply overlapping prefixes (e.g., Conservation, Conversation, Conversion)	Do not spend more than 60 seconds. Attempt a quick order, choose the best option, mark for review and skip.
-
-Logical / Mathematical Formulas
-No formulas for this chapter.
+@content_agent lang=en level=foundation 'List all important rules, approaches, time management tips, and logical formulas (if any) for Dictionary Order in a clean table.
+Instructions:
+- Table has three parts:
+  1. "Key Rules/Approaches" – Rule Name | Description | Example
+  2. "Time Management" – 15-second and 45-second rule (e.g., "If pattern not understood in 15 sec, skip").
+  3. "Logical/Mathematical Formulas" – if applicable; otherwise "No formulas for this chapter".
+- No explanation, just tabular data.
+- Keep language simple and precise.

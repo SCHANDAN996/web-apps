@@ -1,0 +1,183 @@
+# Statistics — Turning Numbers into Answers
+
+## What You Will Master in This Chapter
+
+By the end of this chapter, you will be able to:
+
+1. Compute and interpret **mean, median, and mode** for raw, discrete, and grouped data.
+2. Measure spread using **range, variance, and standard deviation** — and know when each matters.
+3. Use the **coefficient of variation** to compare datasets with different units.
+4. Handle **combined means**, **missing-frequency problems**, and **weighted averages** — the exam favourites.
+5. Understand **skewness** and the empirical relationship between mean, median, and mode.
+6. Spot the traps examiners set in SSC CGL Tier-II, IBPS PO Mains, CAT, and CSAT statistics questions.
+
+---
+
+## The Hook: The Average That Almost Sank an Air Force
+
+In the 1950s, the US Air Force designed cockpits based on the **average** body dimensions of thousands of pilots. The result? The cockpit fit **almost nobody**. Hardly any pilot was actually "average" on all measurements. The average — the most trusted number in statistics — had failed completely.
+
+That is the lesson of this chapter: **statistics is not about computing numbers; it is about knowing what a number hides.** A mean of 50 can come from (48, 52) or from (0, 100). Same average, wildly different reality. Exams like SSC CGL Tier-II and IBPS PO Mains test exactly this — not whether you can divide, but whether you understand what the division *means*.
+
+---
+
+## "Statistics Is Just Averages, Right?" — The Struggle Is Real
+
+Most aspirants feel statistics is formula-mugging: memorise σ = √(Σx²/n), plug, chug, move on. Then the exam asks: *"The mean of 40 observations was 36. Later it was found that one observation, 23, was wrongly copied as 32. Find the correct mean."* — and the formula alone doesn't save you.
+
+So we will build this chapter differently: **small chunks, one idea at a time, with the "why" before the "how".**
+
+---
+
+## Chunk 1: What Statistics Actually Does
+
+Statistics is the science of **collecting, organising, analysing, and interpreting data** to make decisions under uncertainty. For your exams, it splits into two branches:
+
+- **Descriptive statistics** — summarising data you already have (mean, median, mode, standard deviation). This forms the vast majority of what SSC, Banking, and CSAT ask.
+- **Inferential statistics** — drawing conclusions about a population from a sample (probability distributions, estimation). Only the basics appear, mostly in CAT-level papers.
+
+Data itself comes in three forms:
+
+| Form | Example | Typical exam use |
+|---|---|---|
+| Raw (ungrouped) | 5, 8, 12, 8, 15 | Direct mean/median/mode |
+| Discrete frequency | x: 2, 4, 6 with f: 3, 5, 2 | Σfx / Σf calculations |
+| Grouped (class intervals) | 0–10, 10–20 … | Assumed-mean method, median formula |
+
+🧠 **Active Recall:** Before reading on — what is the difference between descriptive and inferential statistics? Say it aloud in one sentence. If you can't, reread the two bullets above.
+
+---
+
+## Chunk 2: The Mean — and Its Secret Weakness
+
+The **arithmetic mean** is the balance point of data:
+
+$$\bar{x} = \frac{\sum x_i}{n} \quad \text{or for frequency data:} \quad \bar{x} = \frac{\sum f_i x_i}{\sum f_i}$$
+
+**Key properties the exam loves:**
+
+1. **Algebraic sum of deviations from the mean is always zero:** Σ(x − x̄) = 0. This single fact solves dozens of "correction" questions.
+2. **Every value changes ⇒ mean changes.** If each observation is increased by k, the mean increases by k. If each is multiplied by k, the mean is multiplied by k.
+3. **The mean is sensitive to outliers.** One billionaire entering a village of 1,000 people can double the "average income" — without anyone actually getting richer.
+
+**The classic trap — wrong observation correction:**
+Mean of 40 observations = 36, but 23 was misread as 32.
+- Wrong total = 40 × 36 = 1440
+- Correct total = 1440 − 32 + 23 = 1431
+- Correct mean = 1431 / 40 = **35.775**
+
+Notice: we never needed the individual observations. Total = mean × n is the master key.
+
+**Combined mean** of two groups:
+$$\bar{x}_{combined} = \frac{n_1\bar{x}_1 + n_2\bar{x}_2}{n_1 + n_2}$$
+
+🧠 **Active Recall:** A class of 30 boys has mean weight 60 kg and 20 girls have mean weight 50 kg. What is the combined mean? (Try it: (30×60 + 20×50)/50 = 56 kg. Did you get it?)
+
+---
+
+## Chunk 3: Median — The Middle That Ignores Extremes
+
+The **median** is the middle value when data is arranged in order. It divides data into two equal halves.
+
+- **Raw data:** Arrange in ascending order.
+  - If n is odd → median = value of the ((n+1)/2)th item.
+  - If n is even → median = average of the (n/2)th and (n/2 + 1)th items.
+- **Grouped data:**
+$$\text{Median} = L + \frac{\frac{N}{2} - C}{f} \times h$$
+where L = lower limit of median class, N = total frequency, C = cumulative frequency before the median class, f = frequency of the median class, h = class width.
+
+**Why exams love the median:** it is **not affected by extreme values**. If the largest value in a dataset doubles, the mean jumps but the median doesn't move. Questions testing this conceptual point appear regularly in CSAT and Banking exams.
+
+🧠 **Active Recall:** Data: 3, 7, 9, 12, 100. Mean = 26.2, Median = 9. Which one better represents a "typical" value here, and why?
+
+---
+
+## Chunk 4: Mode and the Golden Triangle
+
+The **mode** is the most frequent value. For grouped data:
+
+$$\text{Mode} = L + \frac{f_1 - f_0}{2f_1 - f_0 - f_2} \times h$$
+
+where f₁ = frequency of modal class, f₀ = frequency of the class before it, f₂ = frequency of the class after it.
+
+**The empirical relationship (memorise this — it is asked directly):**
+
+$$\boxed{\text{Mode} = 3\,\text{Median} - 2\,\text{Mean}}$$
+
+This holds for moderately skewed distributions and is a one-line answer to many SSC CGL questions: *"If mean = 40 and median = 42, find mode."* → Mode = 3(42) − 2(40) = **46**.
+
+**🎵 Mnemonic — "M3M2":** *"Mode needs 3 Medians but pays only 2 Means."* Say it once and the formula is yours forever.
+
+🧠 **Active Recall:** Without looking — write the empirical relation between mean, median, and mode. Now check.
+
+---
+
+## Chunk 5: Measuring Spread — Variance and Standard Deviation
+
+Two datasets can share a mean yet be completely different. Spread measures fix this blindness.
+
+- **Range** = Maximum − Minimum. Quick, but uses only two values.
+- **Variance (σ²):**
+$$\sigma^2 = \frac{\sum (x_i - \bar{x})^2}{n} = \frac{\sum x_i^2}{n} - \bar{x}^2$$
+- **Standard deviation (σ)** = √variance. It is in the **same units** as the data, which is why it is preferred for interpretation.
+
+**Properties that become exam questions:**
+
+1. Adding a constant k to every value → **σ unchanged** (spread doesn't move).
+2. Multiplying every value by k → **σ becomes |k|·σ**.
+3. σ is always ≥ 0; σ = 0 only when all values are identical.
+
+**Coefficient of Variation (CV)** — for comparing consistency across datasets with different means or units:
+
+$$CV = \frac{\sigma}{\bar{x}} \times 100\%$$
+
+**Lower CV = more consistent.** This is the standard answer to "which player/team/machine is more consistent?" questions.
+
+🧠 **Active Recall:** Player A: mean 50, σ = 10. Player B: mean 40, σ = 6. Who is more consistent? (CV_A = 20%, CV_B = 15% → B. Did you compare CVs and not just σ?)
+
+---
+
+## Chunk 6: Skewness — Which Way Does the Data Lean?
+
+- **Symmetrical:** Mean = Median = Mode.
+- **Positively skewed (right-skewed):** Mean > Median > Mode. A long tail of high values (e.g., income data) drags the mean up.
+- **Negatively skewed (left-skewed):** Mean < Median < Mode.
+
+**🎵 Mnemonic:** *"The Mean is a greedy child — it always runs toward the tail."* Right tail → mean runs right (highest). Left tail → mean runs left (lowest).
+
+🧠 **Active Recall:** In a positively skewed distribution, arrange mean, median, and mode in descending order. (Answer: Mean > Median > Mode.)
+
+---
+
+## Chunk 7: The Examiner's Favourite Traps
+
+1. **Wrong-observation corrections** — always work through the *total*, never the list.
+2. **Combined mean ≠ average of means** — you must weight by group size. Averaging 60 and 50 to get 55 is wrong when groups are unequal.
+3. **Median of even n** — students forget to average the two middle values.
+4. **"More consistent" questions** — compare CV, not σ, when means differ.
+5. **Effect of transformations** — adding a constant changes the mean but not σ; multiplying changes both.
+6. **Negative-worded stems** — "which of the following is NOT affected by extreme values?" (Answer: median/mode, not mean.)
+
+---
+
+## Summary Table
+
+| Concept | Formula / Rule | One-line memory |
+|---|---|---|
+| Mean (raw) | x̄ = Σx / n | Balance point of data |
+| Mean (frequency) | x̄ = Σfx / Σf | Weight by frequency |
+| Combined mean | (n₁x̄₁ + n₂x̄₂)/(n₁+n₂) | Weight, don't average |
+| Median (raw) | Middle value(s) after sorting | Immune to outliers |
+| Median (grouped) | L + ((N/2 − C)/f)·h | Find median class first |
+| Mode (grouped) | L + ((f₁−f₀)/(2f₁−f₀−f₂))·h | Most crowded class |
+| Empirical relation | Mode = 3Median − 2Mean | "M3M2" |
+| Variance | σ² = Σ(x−x̄)²/n | Mean of squared gaps |
+| Std. deviation | σ = √variance | Same units as data |
+| CV | (σ/x̄)×100% | Lower CV = more consistent |
+| Skewness | Mean runs toward the tail | Greedy mean chases the tail |
+
+---
+
+## 🔁 Review This Chapter After 2 Days
+
+Statistics fades fast because it is formula-dense. After 48 hours, close the book and test yourself on: (1) the empirical relation Mode = 3Median − 2Mean, (2) the grouped median and mode formulas, (3) the effect of adding vs. multiplying a constant on mean and σ, and (4) the CV rule for consistency. If any of these feel shaky, reread only that chunk — then move to the flashcards and practice sets.

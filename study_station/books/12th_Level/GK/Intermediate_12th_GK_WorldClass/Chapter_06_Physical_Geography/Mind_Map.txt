@@ -1,0 +1,72 @@
+```mermaid
+graph TD
+    A["भारत का भौतिक भूगोल<br>Physical Geography of India"] --> B["स्थिति एवं विस्तार<br>Location & Extent"]
+    A --> C["भौतिक विभाजन<br>Physiographic Divisions"]
+    A --> D["नदी तंत्र<br>River Systems"]
+    A --> E["जलवायु एवं मानसून<br>Climate & Monsoon"]
+    A --> F["मिट्टी एवं वनस्पति<br>Soils & Vegetation"]
+    A --> G["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> H["रणनीति<br>Strategy"]
+
+    B --> B1["अक्षांश: 8°4'N – 37°6'N<br>देशांतर: 68°7'E – 97°25'E"]
+    B --> B2["क्षेत्रफल: 32.87 लाख वर्ग किमी<br>विश्व में 7वाँ स्थान"]
+    B --> B3["उत्तर-दक्षिण: 3214 किमी<br>पूर्व-पश्चिम: 2933 किमी"]
+    B --> B4["मुख्य भूमि तट: 6100 किमी<br>कुल तट: 7516.6 किमी"]
+    B --> B5["कर्क रेखा 8 राज्यों से<br>Tropic of Cancer – 8 States"]
+
+    C --> C1["हिमालय<br>The Himalayas"]
+    C --> C2["उत्तरी मैदान<br>Northern Plains"]
+    C --> C3["प्रायद्वीपीय पठार<br>Peninsular Plateau"]
+    C --> C4["तटीय मैदान<br>Coastal Plains"]
+    C --> C5["द्वीप समूह<br>Islands"]
+
+    C1 --> C1a["हिमाद्री/महान हिमालय<br>Greater Himalaya – Mt. Everest"]
+    C1 --> C1b["हिमाचल/लघु हिमालय<br>Lesser Himalaya – पीर पंजाल, धौलाधार"]
+    C1 --> C1c["शिवालिक/बाह्य हिमालय<br>Shiwalik – दून घाटियाँ"]
+    C1 --> C1d["ट्रांस हिमालय<br>Trans Himalaya – काराकोरम, लद्दाख, ज़ास्कर"]
+
+    C2 --> C2a["भाबर, तराई, भांगड़, खादर<br>Bhabar, Terai, Bhangar, Khadar"]
+    C2 --> C2b["राजस्थान, पंजाब, गंगा, ब्रह्मपुत्र मैदान"]
+
+    C3 --> C3a["दक्कन का पठार<br>Deccan Plateau"]
+    C3 --> C3b["मध्य उच्चभूमि<br>Central Highlands – मालवा, बुंदेलखंड"]
+    C3 --> C3c["पश्चिमी घाट (सह्याद्रि)<br>Western Ghats – अनाई मुडी"]
+    C3 --> C3d["पूर्वी घाट (खंडित)<br>Eastern Ghats – महेन्द्रगिरि"]
+
+    C4 --> C4a["पश्चिमी तट: कोंकण, कन्नड़, मालाबार<br>Western Coast"]
+    C4 --> C4b["पूर्वी तट: उत्तरी सरकार, कोरोमंडल<br>Eastern Coast"]
+
+    C5 --> C5a["अंडमान-निकोबार (बंगाल की खाड़ी)<br>Andaman-Nicobar"]
+    C5 --> C5b["लक्षद्वीप (अरब सागर)<br>Lakshadweep – प्रवाल द्वीप"]
+
+    D --> D1["हिमालयी नदियाँ (बारहमासी)<br>Himalayan Rivers – Perennial"]
+    D --> D2["प्रायद्वीपीय नदियाँ (मानसून-आधारित)<br>Peninsular Rivers – Seasonal"]
+    D1 --> D1a["गंगा तंत्र: गंगा, यमुना, घाघरा, गंडक, कोसी<br>Ganga System"]
+    D1 --> D1b["सिंधु तंत्र: सिंधु, झेलम, चिनाब, रावी, ब्यास, सतलज<br>Indus System"]
+    D1 --> D1c["ब्रह्मपुत्र (तिब्बत में सांगपो)<br>Brahmaputra"]
+    D2 --> D2a["पश्चिम वाहिनी: नर्मदा, तापी<br>West-flowing – ज्वारीय मुहाना (Estuary)"]
+    D2 --> D2b["पूर्व वाहिनी: महानदी, गोदावरी, कृष्णा, कावेरी<br>East-flowing – डेल्टा"]
+
+    E --> E1["दक्षिण-पश्चिम मानसून (जून–सितंबर)<br>SW Monsoon"]
+    E --> E2["उत्तर-पूर्व मानसून (अक्टूबर–दिसंबर)<br>NE Monsoon – तमिलनाडु को वर्षा"]
+    E --> E3["मानसून की शाखाएँ: अरब सागर + बंगाल की खाड़ी<br>Two Branches"]
+    E --> E4["मौसम: चेरापूंजी/मौसिनराम (मेघालय)<br>Wettest Place"]
+
+    F --> F1["जलोड़ मिट्टी – उत्तरी मैदान<br>Alluvial Soil"]
+    F --> F2["काली मिट्टी (रेगुर) – कपास<br>Black Soil – Cotton"]
+    F --> F3["लाल-पीली मिट्टी<br>Red & Yellow Soil"]
+    F --> F4["लैटेराइट मिट्टी<br>Laterite Soil"]
+    F --> F5["पर्वतीय, मरुस्थलीय मिट्टी<br>Mountain & Desert Soil"]
+
+    G --> G1["जाल 1: कर्क रेखा 8 राज्य (7 नहीं)<br>Trap: Tropic of Cancer – 8 States"]
+    G --> G2["जाल 2: गोदावरी सबसे लंबी प्रायद्वीपीय,<br>गंगा सबसे लंबी भारतीय नदी"]
+    G --> G3["जाल 3: नर्मदा-तापी भ्रंश घाटी में बहती हैं<br>Rift Valley – डेल्टा नहीं बनातीं"]
+    G --> G4["जाल 4: अनाई मुडी (प. घाट) बनाम<br>दोदाबेट्टा (नीलगिरि)"]
+    G --> G5["जाल 5: शिवालिक सबसे नई पर्वत शृंखला<br>Shiwalik – Youngest Range"]
+    G --> G6["जाल 6: कोसी = बिहार का शोक,<br>दामोदर = बंगाल का शोक"]
+
+    H --> H1["मानचित्र से पढ़ें<br>Study with Maps"]
+    H --> H2["तुलनात्मक तालिकाएँ बनाएँ<br>Comparison Tables"]
+    H --> H3["15/45 सेकंड नियम<br>15/45 Second Rule"]
+    H --> H4["NCERT कक्षा 6–12 आधार<br>NCERT Foundation"]
+```

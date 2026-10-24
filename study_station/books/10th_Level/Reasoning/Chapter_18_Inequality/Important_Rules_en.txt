@@ -1,0 +1,18 @@
+📋 Important Rules & Approaches
+1. Key Rules/Approaches
+Rule Name	Description	Example
+Combining Same Direction	If the inequality signs point the same way, you can combine them into a single relationship.	A > B > C ⇒ A > C
+Opposite Direction Trap	If signs point in opposite directions meeting at a common variable, no definite relation exists between the outer variables.	A > B < C ⇒ No relation between A and C
+Double Possibility Symbols (≥, ≤)	These symbols mean "greater than OR equal to" or "less than OR equal to". A conclusion with only > or < is not definite unless forced by the chain.	P ≥ Q ⇒ P > Q is not definite
+Either-Or Conditions	Apply when two conclusions have the same variables, are individually false, and form a complementary pair (e.g., > and =).	P ≥ Q; I: P > Q, II: P = Q ⇒ Either I or II follows
+Coded Inequality – Decode First	Replace code symbols with real inequality signs using the given definitions. Then treat as a normal inequality.	‘A @ B’ means A ≤ B ⇒ replace @ with ≤
+Chain Formation	Connect all statements into a single chain of inequalities where possible, then check each conclusion against this chain.	Combine P ≥ Q, Q = R, R > S into P ≥ Q = R > S
+Checking Definite Truth	A conclusion follows only if it is true in every possible scenario allowed by the statements. If a single counterexample exists, it does not follow.	M ≥ N ⇒ M > N is false because M = N is possible
+2. Time Management
+Rule	Description
+15-second rule	If you cannot decode the coded inequality symbols within 15 seconds, skip the question and return later.
+45-second rule	If a single inequality question (including reading, decoding, combining, and checking 3 conclusions) takes more than 45 seconds, mark it for review and move on.
+First-pass strategy	Attempt direct and simple inequality questions first. Leave complex coded or multiple-statement Either-Or questions for the second pass.
+3. Logical/Mathematical Formulas
+Formula
+No formulas for this chapter. All solutions rely on logical combination of relationships and checking definite truth.

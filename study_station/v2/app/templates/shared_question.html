@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block title %}{{ shared.code }} · {{ tr('share_question_title') }} — {{ tr('brand') }}{% endblock %}
+{% block description %}{{ tr('share_question_description') }}{% endblock %}
+{% block nav %}{% endblock %}
+{% block main %}
+<header class="stack" style="margin-block:var(--sp-4)">
+  <p class="small muted">{{ shared.subject }} · {{ shared.topic }}</p>
+  <h1>{{ tr('share_question_title') }}</h1>
+  <p class="small muted">{{ tr('share_question_code') }} <strong>{{ shared.code }}</strong></p>
+</header>
+<article class="card stack" aria-label="{{ tr('share_question_title') }}">
+  {% if fallback %}<p class="notice">{{ tr('bank_language_fallback') }}</p>{% endif %}
+  <p class="q-text" style="white-space:pre-wrap;overflow-wrap:anywhere">{{ shared.text }}</p>
+  <ol class="stack" style="padding-inline-start:var(--sp-6)">
+  {% for option in shared.options %}
+    <li class="card" style="white-space:pre-wrap;overflow-wrap:anywhere;padding:var(--sp-3);background:var(--surface-2)">{{ option }}</li>
+  {% endfor %}
+  </ol>
+</article>
+<section class="card stack" style="margin-block:var(--sp-4)">
+  <h2>{{ tr('share_answer_in_app') }}</h2>
+  {% if app_intent %}<a class="btn btn-primary" href="{{ app_intent }}">{{ tr('share_open_app') }}</a>{% endif %}
+  <p class="small muted">{{ tr('share_install_note') }}</p>
+  <p class="small muted">{{ tr('share_reopen_note') }}</p>
+</section>
+{% endblock %}

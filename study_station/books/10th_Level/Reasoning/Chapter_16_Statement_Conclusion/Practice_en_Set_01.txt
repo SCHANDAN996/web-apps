@@ -1,122 +1,329 @@
-Set 1: Statement & Conclusion MCQs (English)
-Questions 1–16: Easy | Questions 17–20: Medium
+📝 Practice Set 1 (Questions 1–25)
 
-Q1. Statement: All apples are fruits. Conclusion: Some fruits are apples. Does it follow?
-(a) Follows (b) Does not follow (c) Cannot say (d) Never
-Answer: (a) Follows
-Solution: "All A are B" gives "Some B are A".
-Source: NCERT Reasoning
+Easy (1–20), Medium (21–25) | Total 25 MCQs
+Includes at least 2 Examiner's Trap questions (marked in the solution).
 
-Q2. Statement: All cars are vehicles. Conclusion: All vehicles are cars. Does it follow?
-(a) Follows (b) Does not follow (c) Always (d) Sometimes
-Answer: (b) Does not follow
-Solution: "All A are B" does not give "All B are A".
-Source: SSC MTS
+Q1. (Easy) Statements: All roses are flowers.
+Conclusions:
+I. Some flowers are roses.
+II. All flowers are roses.
+(A) Only conclusion I follows (B) Only conclusion II follows (C) Both conclusions I and II follow (D) Neither conclusion I nor II follows
 
-Q3. Statement: No fish is a bird. Conclusion: No bird is a fish. Does it follow?
-(a) Follows (b) Does not follow (c) Cannot say (d) Never
-Answer: (a) Follows
-Solution: "No A is B" gives "No B is A".
+Answer: (A) Only conclusion I follows
+
+Solution:
+From 'All roses are flowers', the valid conversion is 'Some flowers are roses' (Conclusion I). 'All flowers are roses' is an invalid reversal. Hence, the correct option is (A).
+
+Source: SSC CGL
+
+Q2. (Easy) Statements: Some pens are blue.
+Conclusions:
+I. All pens are blue.
+II. Some blue things are pens.
+(A) Only conclusion I follows (B) Only conclusion II follows (C) Both conclusions I and II follow (D) Neither conclusion I nor II follows
+
+Answer: (B) Only conclusion II follows
+
+Solution:
+From 'Some pens are blue', conversion yields 'Some blue things are pens' (Conclusion II). Conclusion I overextends 'some' to 'all'. Hence, the correct option is (B).
+
 Source: SSC CHSL
 
-Q4. Statement: Some pens are red. Conclusion: Some red things are pens. Does it follow?
-(a) Follows (b) Does not follow (c) Never (d) Cannot say
-Answer: (a) Follows
-Solution: "Some A are B" gives "Some B are A".
+Q3. (Easy) Statements: No crow is white.
+Conclusions:
+I. No white bird is a crow.
+II. Some crows are white.
+(A) Both conclusions I and II follow (B) Only conclusion II follows (C) Only conclusion I follows (D) Neither conclusion I nor II follows
+
+Answer: (C) Only conclusion I follows
+
+Solution:
+Universal negative statements convert directly: 'No A is B' implies 'No B is A' (Conclusion I follows). Conclusion II directly contradicts the premise. Hence, the correct option is (C).
+
+Source: SSC MTS
+
+Q4. (Easy) ⚠️ Statements: Some fruits are apples.
+Conclusions:
+I. Some fruits are not apples.
+II. Some apples are fruits.
+(A) Only conclusion I follows (B) Neither conclusion I nor II follows (C) Both conclusions I and II follow (D) Only conclusion II follows
+
+Answer: (D) Only conclusion II follows
+
+Solution:
+'Some fruits are apples' converts validly to 'Some apples are fruits' (II follows). Examiner's Trap: In formal logic, 'some' means 'at least one' and does not guarantee 'some are not'. Therefore, conclusion I is invalid. Hence, the correct option is (D).
+
 Source: RRB NTPC
 
-Q5. Conclusions must be drawn from:
-(a) real-world facts (b) the given statement only (c) your opinion (d) common knowledge
-Answer: (b) the given statement only
-Solution: Use only the statement, not outside knowledge.
-Source: NCERT Reasoning
+Q5. (Easy) Statements: All lions are predators. All predators are animals.
+Conclusions:
+I. All lions are animals.
+II. Some animals are lions.
+(A) Both conclusions I and II follow (B) Only conclusion II follows (C) Only conclusion I follows (D) Neither conclusion I nor II follows
 
-Q6. Statement: All teachers are educated. Conclusion: Some educated people are teachers. Does it follow?
-(a) Follows (b) Does not follow (c) Never (d) Cannot say
-Answer: (a) Follows
-Solution: "All A are B" gives "Some B are A".
-Source: SSC MTS
+Answer: (A) Both conclusions I and II follow
 
-Q7. Statements: All pens are tools. All tools are useful. Conclusion: All pens are useful. Does it follow?
-(a) Follows (b) Does not follow (c) Cannot say (d) Partly
-Answer: (a) Follows
-Solution: Chain: pens ⊂ tools ⊂ useful, so all pens are useful.
-Source: SSC CGL
+Solution:
+By transitive inclusion, Lions ⊂ Predators ⊂ Animals, so all lions are animals (I follows). Since all lions are animals, some animals are lions (II follows). Hence, the correct option is (A).
 
-Q8. Statement: Some flowers are red. Conclusion: All flowers are red. Does it follow?
-(a) Follows (b) Does not follow (c) Always (d) Cannot say
-Answer: (b) Does not follow
-Solution: "Some" never gives "All".
-Source: NCERT Reasoning
-
-Q9. Statement: No metal is wood. Conclusion: No wood is metal. Does it follow?
-(a) Follows (b) Does not follow (c) Cannot say (d) Never
-Answer: (a) Follows
-Solution: "No A is B" gives "No B is A".
-Source: SSC CHSL
-
-Q10. A valid conclusion must be:
-(a) possible (b) certain from the statement (c) true in real life (d) your guess
-Answer: (b) certain from the statement
-Solution: It must follow with certainty from the statement.
-Source: NCERT Reasoning
-
-Q11. Statement: All lions are wild. Conclusion: Some wild animals are lions. Does it follow?
-(a) Follows (b) Does not follow (c) Never (d) Cannot say
-Answer: (a) Follows
-Solution: "All A are B" gives "Some B are A".
-Source: SSC CGL
-
-Q12. Statement: All squares are shapes. Conclusion: All shapes are squares. Does it follow?
-(a) Follows (b) Does not follow (c) Always (d) Sometimes
-Answer: (b) Does not follow
-Solution: "All A are B" does not give "All B are A".
-Source: SSC MTS
-
-Q13. Statement: Some doctors are singers. Conclusion: Some singers are doctors. Does it follow?
-(a) Follows (b) Does not follow (c) Never (d) Cannot say
-Answer: (a) Follows
-Solution: "Some A are B" gives "Some B are A".
 Source: RRB Group D
 
-Q14. Statement (assume true): All planets are round. Conclusion: Some round things are planets. Does it follow?
-(a) Follows (b) Does not follow (c) Cannot say (d) False
-Answer: (a) Follows
-Solution: Taking the statement as true, it gives "Some round things are planets".
+Q6. (Easy) Statements: Some teachers are writers. Some writers are poets.
+Conclusions:
+I. Some teachers are poets.
+II. All poets are teachers.
+(A) Only conclusion I follows (B) Neither conclusion I nor II follows (C) Both conclusions I and II follow (D) Only conclusion II follows
+
+Answer: (B) Neither conclusion I nor II follows
+
+Solution:
+Two particular premises ('Some') sharing a middle term do not guarantee any definite overlap between the extremes (teachers and poets). Hence, the correct option is (B).
+
 Source: SSC CGL
 
-Q15. Statement: No cat is a dog. Conclusion: Some cats are dogs. Does it follow?
-(a) Follows (b) Does not follow (c) Cannot say (d) Always
-Answer: (b) Does not follow
-Solution: "No A is B" contradicts "Some A are B".
-Source: NCERT Reasoning
+Q7. (Easy) Statements: All cars are vehicles. No vehicle is an airplane.
+Conclusions:
+I. No car is an airplane.
+II. Some vehicles are cars.
+(A) Only conclusion I follows (B) Only conclusion II follows (C) Both conclusions I and II follow (D) Neither conclusion I nor II follows
 
-Q16. When treating a statement, you should:
-(a) check if it is true in reality (b) accept it as true (c) reject it if odd (d) modify it
-Answer: (b) accept it as true
-Solution: Always accept the statement as true, even if it seems odd.
+Answer: (C) Both conclusions I and II follow
+
+Solution:
+Cars lie entirely within vehicles, and vehicles have zero intersection with airplanes; hence no car is an airplane (I follows). 'All cars are vehicles' converts to 'Some vehicles are cars' (II follows). Hence, the correct option is (C).
+
+Source: SSC CHSL
+
+Q8. (Easy) Statements: No table is a chair. All chairs are furniture.
+Conclusions:
+I. No table is furniture.
+II. Some furniture are not tables.
+(A) Only conclusion I follows (B) Neither conclusion I nor II follows (C) Both conclusions I and II follow (D) Only conclusion II follows
+
+Answer: (D) Only conclusion II follows
+
+Solution:
+Those furniture items which are chairs cannot be tables, so 'Some furniture are not tables' definitely follows (II follows). Tables could still overlap with other furniture, so I is not certain. Hence, the correct option is (D).
+
 Source: SSC MTS
 
-Q17. (Medium) Statements: All A are B. Some B are C. Conclusion: Some A are C. Does it follow?
-(a) Follows (b) Does not follow (c) Always (d) Certain
-Answer: (b) Does not follow
-Solution: The C part may not overlap with A, so it is not certain.
-Source: SSC CGL
+Q9. (Easy) Statements: All cups are glass.
+Conclusions:
+I. Some glass items are cups.
+II. All glass items are cups.
+(A) Only conclusion I follows (B) Only conclusion II follows (C) Both conclusions I and II follow (D) Neither conclusion I nor II follows
 
-Q18. (Medium) Statements: All birds are animals. Some animals are pets. Conclusion: Some birds are pets. Does it follow?
-(a) Follows (b) Does not follow (c) Always (d) Certain
-Answer: (b) Does not follow
-Solution: The pets may be non-bird animals, so it is not certain.
+Answer: (A) Only conclusion I follows
+
+Solution:
+Valid conversion of 'All A are B' is 'Some B are A' (Conclusion I). The universal reversal 'All B are A' is invalid. Hence, the correct option is (A).
+
 Source: RRB NTPC
 
-Q19. (Medium) Statements: All roses are flowers. All flowers are plants. Conclusion: All roses are plants. Does it follow?
-(a) Follows (b) Does not follow (c) Cannot say (d) Partly
-Answer: (a) Follows
-Solution: Chain: roses ⊂ flowers ⊂ plants, so all roses are plants.
+Q10. (Easy) Statements: Some doctors are painters. All painters are artists.
+Conclusions:
+I. Some doctors are artists.
+II. All artists are doctors.
+(A) Only conclusion II follows (B) Only conclusion I follows (C) Both conclusions I and II follow (D) Neither conclusion I nor II follows
+
+Answer: (B) Only conclusion I follows
+
+Solution:
+The doctors who are painters are necessarily artists, so 'Some doctors are artists' follows (I follows). Conclusion II is an invalid reversal. Hence, the correct option is (B).
+
+Source: RRB Group D
+
+Q11. (Easy) Statements: No plastic is biodegradable.
+Conclusions:
+I. Some plastic is biodegradable.
+II. No biodegradable material is plastic.
+(A) Only conclusion I follows (B) Both conclusions I and II follow (C) Only conclusion II follows (D) Neither conclusion I nor II follows
+
+Answer: (C) Only conclusion II follows
+
+Solution:
+Universal negative premise 'No A is B' converts validly to 'No B is A' (Conclusion II). Conclusion I contradicts the statement. Hence, the correct option is (C).
+
 Source: SSC CGL
 
-Q20. (Medium) Statement: Some students are players. Conclusion: Some players are students. Does it follow?
-(a) Follows (b) Does not follow (c) Never (d) Cannot say
-Answer: (a) Follows
-Solution: "Some A are B" gives "Some B are A".
+Q12. (Easy) Statements: All horses are mammals. All mammals are warm-blooded.
+Conclusions:
+I. All horses are warm-blooded.
+II. Some warm-blooded creatures are horses.
+(A) Only conclusion I follows (B) Only conclusion II follows (C) Neither conclusion I nor II follows (D) Both conclusions I and II follow
+
+Answer: (D) Both conclusions I and II follow
+
+Solution:
+By complete transitive inclusion, Horses ⊂ Mammals ⊂ Warm-blooded. Hence all horses are warm-blooded (I follows) and some warm-blooded creatures are horses (II follows). Hence, the correct option is (D).
+
+Source: SSC CHSL
+
+Q13. (Easy) Statements: Some cats are black. Some black things are stones.
+Conclusions:
+I. Some cats are stones.
+II. All stones are cats.
+(A) Neither conclusion I nor II follows (B) Only conclusion II follows (C) Both conclusions I and II follow (D) Only conclusion I follows
+
+Answer: (A) Neither conclusion I nor II follows
+
+Solution:
+No definite relationship can be established between cats and stones through two particular ('Some') statements. Hence, the correct option is (A).
+
 Source: SSC MTS
+
+Q14. (Easy) ⚠️ Statements: Some dancers are singers.
+Conclusions:
+I. Some dancers are not singers.
+II. No dancer is a singer.
+(A) Only conclusion I follows (B) Neither conclusion I nor II follows (C) Both conclusions I and II follow (D) Only conclusion II follows
+
+Answer: (B) Neither conclusion I nor II follows
+
+Solution:
+Examiner's Trap: Never deduce 'Some are not' from 'Some are'. 'Some' allows the possibility that all dancers are singers. Conclusion II directly contradicts the premise. Neither follows. Hence, the correct option is (B).
+
+Source: RRB NTPC
+
+Q15. (Easy) Statements: All squares are rectangles. All rectangles are polygons.
+Conclusions:
+I. Some polygons are squares.
+II. All squares are polygons.
+(A) Only conclusion I follows (B) Only conclusion II follows (C) Both conclusions I and II follow (D) Neither conclusion I nor II follows
+
+Answer: (C) Both conclusions I and II follow
+
+Solution:
+Since Squares ⊂ Rectangles ⊂ Polygons, all squares are polygons (II follows) and some polygons are squares (I follows). Hence, the correct option is (C).
+
+Source: RRB Group D
+
+Q16. (Easy) Statements: Some mobile phones are cameras.
+Conclusions:
+I. All cameras are mobile phones.
+II. Some cameras are mobile phones.
+(A) Only conclusion I follows (B) Neither conclusion I nor II follows (C) Both conclusions I and II follow (D) Only conclusion II follows
+
+Answer: (D) Only conclusion II follows
+
+Solution:
+'Some mobile phones are cameras' converts to 'Some cameras are mobile phones' (II follows). I is an unsupported generalization. Hence, the correct option is (D).
+
+Source: SSC CGL
+
+Q17. (Easy) Statements: No snake has legs.
+Conclusions:
+I. No creature with legs is a snake.
+II. Some snakes have legs.
+(A) Only conclusion I follows (B) Only conclusion II follows (C) Both conclusions I and II follow (D) Neither conclusion I nor II follows
+
+Answer: (A) Only conclusion I follows
+
+Solution:
+Conversion of 'No snake has legs' gives 'No creature with legs is a snake' (I follows). II contradicts the statement. Hence, the correct option is (A).
+
+Source: SSC CHSL
+
+Q18. (Easy) Statements: All books are pages. Some pages are covers.
+Conclusions:
+I. All books are covers.
+II. Some books are covers.
+(A) Only conclusion I follows (B) Neither conclusion I nor II follows (C) Both conclusions I and II follow (D) Only conclusion II follows
+
+Answer: (B) Neither conclusion I nor II follows
+
+Solution:
+The subset 'books' may not overlap with 'covers' at all, as covers could only overlap with pages outside books. Neither conclusion follows. Hence, the correct option is (B).
+
+Source: SSC MTS
+
+Q19. (Easy) Statements: All guitars are musical instruments.
+Conclusions:
+I. Some musical instruments are guitars.
+II. All musical instruments are guitars.
+(A) Both conclusions I and II follow (B) Only conclusion II follows (C) Only conclusion I follows (D) Neither conclusion I nor II follows
+
+Answer: (C) Only conclusion I follows
+
+Solution:
+'All A are B' validly implies 'Some B are A' (I follows). 'All B are A' is invalid reversal. Hence, the correct option is (C).
+
+Source: RRB NTPC
+
+Q20. (Easy) Statements: Some shirts are cotton. All cotton is soft.
+Conclusions:
+I. All shirts are soft.
+II. Some shirts are soft.
+(A) Only conclusion I follows (B) Neither conclusion I nor II follows (C) Both conclusions I and II follow (D) Only conclusion II follows
+
+Answer: (D) Only conclusion II follows
+
+Solution:
+The shirts that are cotton must be soft, so 'Some shirts are soft' follows (II follows). We cannot claim all shirts are soft. Hence, the correct option is (D).
+
+Source: RRB Group D
+
+Q21. (Medium) Statements: All circles are shapes. Some shapes are blue.
+Conclusions:
+I. Some circles are blue.
+II. No circle is blue.
+(A) Either conclusion I or II follows (B) Only conclusion II follows (C) Only conclusion I follows (D) Neither conclusion I nor II follows
+
+Answer: (A) Either conclusion I or II follows
+
+Solution:
+Circles and blue may or may not overlap. Individually neither is certain, but together I and II form a contradictory complementary pair (Some / None). Thus, either I or II must follow. Hence, the correct option is (A).
+
+Source: SSC CGL
+
+Q22. (Medium) Statements: No metal is liquid. Some liquids are heavy.
+Conclusions:
+I. Some heavy substances are not metals.
+II. No heavy substance is a metal.
+(A) Only conclusion II follows (B) Only conclusion I follows (C) Both conclusions I and II follow (D) Neither conclusion I nor II follows
+
+Answer: (B) Only conclusion I follows
+
+Solution:
+The heavy substances that are liquids cannot be metals, so 'Some heavy substances are not metals' definitely follows (I follows). Other heavy substances could be metals, so II is not certain. Hence, the correct option is (B).
+
+Source: SSC CHSL
+
+Q23. (Medium) Statements: All apples are red. All red items are tasty.
+Conclusions:
+I. Some tasty items are apples.
+II. All apples are tasty.
+(A) Only conclusion I follows (B) Only conclusion II follows (C) Both conclusions I and II follow (D) Neither conclusion I nor II follows
+
+Answer: (C) Both conclusions I and II follow
+
+Solution:
+Apples ⊂ Red ⊂ Tasty. Hence all apples are tasty (II follows) and some tasty items are apples (I follows). Hence, the correct option is (C).
+
+Source: SSC MTS
+
+Q24. (Medium) Statements: Some stars are planets. No planet is a moon.
+Conclusions:
+I. Some stars are not moons.
+II. No star is a moon.
+(A) Neither conclusion I nor II follows (B) Only conclusion II follows (C) Both conclusions I and II follow (D) Only conclusion I follows
+
+Answer: (D) Only conclusion I follows
+
+Solution:
+The stars that are planets cannot be moons; hence 'Some stars are not moons' follows (I follows). We cannot conclude that no star is a moon. Hence, the correct option is (D).
+
+Source: RRB NTPC
+
+Q25. (Medium) Statements: All students are hard-working. Some hard-working people are successful.
+Conclusions:
+I. All students are successful.
+II. Some students are successful.
+(A) Only conclusion I follows (B) Neither conclusion I nor II follows (C) Both conclusions I and II follow (D) Only conclusion II follows
+
+Answer: (B) Neither conclusion I nor II follows
+
+Solution:
+Students and successful people both overlap with hard-working people, but they might not overlap with each other. Neither conclusion follows. Hence, the correct option is (B).
+
+Source: RRB Group D

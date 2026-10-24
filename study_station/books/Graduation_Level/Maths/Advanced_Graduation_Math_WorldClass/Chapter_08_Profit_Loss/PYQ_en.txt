@@ -1,0 +1,108 @@
+# 📊 PYQ Analysis — Profit & Loss (Advanced Level)
+
+## How Exams Test This Chapter
+
+Profit & Loss is one of the most reliable scoring areas in quantitative aptitude. Across UPSC CSAT, SSC CGL Tier-II, IBPS PO Mains, CAT and State PCS papers, the questions cluster around a small set of recurring ideas. Master these patterns and you cover the vast majority of what examiners ask.
+
+### Recurring Sub-Topics (in words, not numbers)
+
+- **Basic CP–SP–Profit% chains** — direct formula application, often with fractions instead of round numbers.
+- **Marked Price + Discount + Profit combos** — a trader marks up, then discounts, and you must find the net profit percentage. This is the single most repeated pattern.
+- **Dishonest dealer / false weights** — selling at "cost price" but using faulty weights, or adulteration (mixing water with milk).
+- **Selling two items at the same price** — one at a gain, one at a loss of equal percentage; the classic result is *always an overall loss* of (x²/100)%.
+- **Successive transactions** — A sells to B at a profit, B sells to C at a loss; find the final price relative to the original.
+- **CP of x articles = SP of y articles** — a ratio-based shortcut question that appears again and again.
+- **Profit calculated on SP instead of CP** — the examiner's favourite conceptual trap.
+- **Partnership-flavoured P&L** — profit sharing mixed with investment ratios (more common in PO Mains).
+
+### The Examiner's Traps (Psychological Hooks)
+
+1. **The "same price, same percent" illusion.** Two items sold at the same price, one at 20% profit, one at 20% loss. It *feels* like a break-even deal. It never is — there is always a net loss. The trap exploits your intuition that equal percentages cancel out.
+2. **Base confusion.** "Profit is 25% of the selling price" is *not* the same as "profit is 25% of the cost price." 25% on SP = 33⅓% on CP. Examiners deliberately switch the base mid-question.
+3. **The discount-on-markup trap.** "Marked 40% above cost, then 10% discount" — students compute 40 − 10 = 30%. The real answer is 26%, because the discount applies to the *marked price*, not the cost.
+4. **False-weight questions disguised as honesty.** "Sells at cost price but uses 900 g for 1 kg" — the word "cost price" lulls you into writing 0% profit. The real profit comes from the weight fraud: 100/900 × 100 = 11.11%.
+5. **Chronology confusion in successive sales.** When A sells to B and B sells to C, students mix up whose CP is whose SP. Drawing a simple arrow chain (A → B → C) kills this trap.
+6. **Negative-wording traps.** "Which of the following is NOT true" or "the trader incurs" — under time pressure, candidates solve correctly but mark the wrong option.
+
+---
+
+## Top 10 High-Yield Questions (with Solutions)
+
+**Q1.** A trader marks his goods 40% above cost price and allows a discount of 10%. His profit percentage is:
+(a) 30% (b) 26% (c) 28% (d) 24%
+**Answer: (b)**
+**Solution:** Let CP = 100. MP = 140. SP = 140 × 0.9 = 126. Profit = 26%.
+**Trap:** 40 − 10 = 30% is the bait. Discount acts on MP, not CP.
+**Source:** PYQ-style
+
+**Q2.** A man sells two watches at ₹990 each. On one he gains 10% and on the other he loses 10%. His overall result is:
+(a) No profit, no loss (b) Loss of 1% (c) Gain of 1% (d) Loss of 2%
+**Answer: (b)**
+**Solution:** For equal gain% and loss% at the same SP, net loss = x²/100 % = 100/100 = 1%.
+**Trap:** Option (a) exploits the intuition that +10% and −10% cancel. They don't, because the CPs differ.
+**Source:** PYQ-style
+
+**Q3.** A dishonest dealer sells goods at cost price but uses a weight of 900 g instead of 1 kg. His gain percentage is:
+(a) 10% (b) 11.11% (c) 9.09% (d) 12.5%
+**Answer: (b)**
+**Solution:** He charges for 1000 g but gives 900 g. Gain% = (100/900) × 100 = 11.11%.
+**Trap:** Many compute 100/1000 = 10%. Gain% is always on what the dealer *pays* (900 g worth), not what he charges for.
+**Source:** PYQ-style
+
+**Q4.** The cost price of 12 articles equals the selling price of 10 articles. The profit percentage is:
+(a) 20% (b) 16.66% (c) 25% (d) 15%
+**Answer: (a)**
+**Solution:** CP of 12 = SP of 10 ⇒ SP/CP = 12/10 = 1.2 ⇒ Profit = 20%.
+**Trap:** Students invert the ratio and get 16.66% (option b). Remember: bigger number ÷ smaller number, minus 1.
+**Source:** PYQ-style
+
+**Q5.** A shopkeeper sells an article at a 20% discount on the marked price and still makes a 25% profit. If the cost price is ₹480, the marked price is:
+(a) ₹600 (b) ₹720 (c) ₹750 (d) ₹800
+**Answer: (c)**
+**Solution:** SP = 480 × 1.25 = 600. MP × 0.8 = 600 ⇒ MP = ₹750.
+**Trap:** Adding percentages (25 + 20 = 45% above CP → ₹696) is wrong; the two percentages have different bases.
+**Source:** PYQ-style
+
+**Q6.** A sells an article to B at a 20% profit; B sells it to C at a 10% loss. If C pays ₹216, what did A pay?
+(a) ₹180 (b) ₹200 (c) ₹220 (d) ₹240
+**Answer: (b)**
+**Solution:** A's CP × 1.2 × 0.9 = 216 ⇒ A's CP = 216 / 1.08 = ₹200.
+**Trap:** Computing 20% − 10% = 10% profit and dividing 216 by 1.1 gives ₹196.36 — a wrong but tempting path. Successive changes multiply; they never subtract.
+**Source:** PYQ-style
+
+**Q7.** A milkman mixes water with milk and sells the mixture at the cost price of pure milk, gaining 25%. The ratio of milk to water in the mixture is:
+(a) 4 : 1 (b) 3 : 1 (c) 5 : 1 (d) 2 : 1
+**Answer: (a)**
+**Solution:** Selling at CP of pure milk with 25% gain means the mixture's cost is 100/125 = 4/5 of the selling quantity. So milk : water = 4 : 1.
+**Trap:** Students assume 25% gain means 25% water — that gives 3:1 (option b). The water is 1/5 of the *mixture*, i.e., 1/4 of the *milk*.
+**Source:** PYQ-style
+
+**Q8.** By selling an article for ₹720, a man loses 10%. At what price should he sell it to gain 10%?
+(a) ₹800 (b) ₹880 (c) ₹792 (d) ₹900
+**Answer: (b)**
+**Solution:** CP = 720 / 0.9 = 800. Required SP = 800 × 1.1 = ₹880.
+**Trap:** Applying 10% up then 10% down on ₹720 (720 → 792 → option c) ignores that the loss base (CP) is unknown.
+**Source:** PYQ-style
+
+**Q9.** A trader's profit is 20% of the *selling* price. His profit as a percentage of the *cost* price is:
+(a) 20% (b) 25% (c) 16.66% (d) 33.33%
+**Answer: (b)**
+**Solution:** If SP = 100, profit = 20, so CP = 80. Profit on CP = 20/80 × 100 = 25%.
+**Trap:** This is the base-switch trap in its purest form. "20% of SP" ≠ "20% of CP." Convert: x% of SP = x/(100−x) × 100 % of CP.
+**Source:** PYQ-style
+
+**Q10.** A shopkeeper buys 80 articles for ₹480 and sells them at ₹8 each, but 5 articles are damaged and unsold. His profit percentage is:
+(a) 25% (b) 20% (c) 30% (d) 33.33%
+**Answer: (a)**
+**Solution:** He sells 75 articles: SP = 75 × 8 = ₹600. Profit = 600 − 480 = 120. Profit% = 120/480 × 100 = 25%.
+**Trap:** Forgetting the damaged articles and computing SP = 80 × 8 = 640 gives 33.33% (option d). Always subtract unsold stock from revenue — but never from cost.
+**Source:** PYQ-style
+
+---
+
+## Strategy Notes
+
+- **Time rule:** Direct formula questions deserve 30–40 seconds; multi-step markup/discount or false-weight questions deserve 60–75 seconds. If a question needs more than 90 seconds, mark it and move on.
+- **Assume CP = 100** whenever no absolute value is given — it converts every percentage into a number.
+- **Verify the base** before writing any answer: is the percentage on CP, SP, or MP? This single check eliminates the majority of errors in this chapter.
+- In CSAT and PO Mains, P&L questions increasingly arrive wrapped in a short paragraph (a shopkeeper's story). Translate the story into CP, SP, MP, discount *before* touching the options.

@@ -1,360 +1,151 @@
-Set 3: Mixture & Alligation (All 25 Medium)
+Difficulty split: Questions 51–75 — all Medium (Mixture & Alligation)
 
-Q51. A shopkeeper mixes two varieties of wheat costing ₹18 per kg and ₹24 per kg. He sells the mixture at ₹27 per kg and earns a profit of 20%. In what ratio must the two varieties be mixed?
-(A) 1 : 3
-(B) 3 : 1
-(C) 2 : 3
-(D) 3 : 2
+51. A shopkeeper mixes two varieties of wheat costing ₹18 per kg and ₹24 per kg. He sells the mixture at ₹27 per kg and earns a profit of 20%. In what ratio must the two varieties be mixed?
+(a) 1 : 3 (b) 3 : 1 (c) 2 : 3 (d) 3 : 2
+Answer: (a)
+Solution: The trap is applying alligation on the selling price ₹27 instead of the cost price; CP = 27 × 100/120 = ₹22.5 per kg. Alligation gives (24 − 22.5) : (22.5 − 18) = 1.5 : 4.5 = 1 : 3, so the answer is 1 : 3.
+Source: PYQ-style
 
-Answer: (A) 1 : 3
-Solution:
-SP = ₹27/kg, Profit = 20% → CP = 27 × 100/120 = ₹22.5/kg.
-Alligation: cheaper (₹18) and dearer (₹24) to get mean ₹22.5.
-(24 – 22.5) = 1.5, (22.5 – 18) = 4.5 → ratio of cheaper : dearer = 1.5 : 4.5 = 1 : 3.
-Thus ₹18/kg variety : ₹24/kg variety = 1 : 3.
-Source: SSC CGL (Adapted)
+52. A vessel contains a mixture of milk and water in the ratio 5 : 2. 14 litres of the mixture is drawn out and replaced with water. The new ratio of milk to water becomes 5 : 3. What was the initial quantity of the mixture?
+(a) 84 litres (b) 98 litres (c) 112 litres (d) 126 litres
+Answer: (c)
+Solution: The trap is forgetting that the removed 14 L also carries away 10 L milk and 4 L water. Let mixture be 7x; then (5x − 10)/(2x + 10) = 5/3 gives 15x − 30 = 10x + 50, so x = 16 and the initial quantity is 7 × 16 = 112 litres.
+Source: PYQ-style
 
-Q52. A vessel contains a mixture of milk and water in the ratio 5 : 2. 14 litres of the mixture is drawn out and replaced with water. The new ratio of milk to water becomes 5 : 3. What was the initial quantity of the mixture?
-(A) 84 litres
-(B) 98 litres
-(C) 112 litres
-(D) 126 litres
+53. A 30-litre mixture of alcohol and water contains alcohol and water in the ratio 2 : 3. How much alcohol must be added to make the ratio 3 : 2?
+(a) 12 litres (b) 21 litres (c) 18 litres (d) 15 litres
+Answer: (d)
+Solution: The trap is changing the water quantity too, but only alcohol is added; water stays 18 L. Alcohol is 12 L, so (12 + x)/18 = 3/2 gives 2x = 30, and the answer is 15 litres.
+Source: NCERT Class 8 Mathematics
 
-Answer: (C) 112 litres
-Solution:
-Let initial mixture = 7x litres (milk = 5x, water = 2x).
-14 L removed: milk out = (5/7)×14 = 10 L, water out = 4 L.
-After adding 14 L water: milk = 5x – 10, water = 2x – 4 + 14 = 2x + 10.
-Given ratio 5 : 3 → (5x – 10)/(2x + 10) = 5/3 → 15x – 30 = 10x + 50 → 5x = 80 → x = 16.
-Initial mixture = 7 × 16 = 112 litres.
-Source: SSC CGL (Tier II)
+54. A cask contains a mixture of liquids A and B in the ratio 7 : 3. When 15 litres of the mixture is drawn off and the cask is filled with B, the ratio of A to B becomes 7 : 9. What is the capacity of the cask?
+(a) 30 litres (b) 35 litres (c) 40 litres (d) 45 litres
+Answer: (c)
+Solution: The trap is ignoring that the drawn 15 L removes A and B in the 7 : 3 ratio (10.5 L and 4.5 L). With capacity x, (0.7x − 10.5)/(0.3x + 10.5) = 7/9 gives 4.2x = 168, so the capacity is 40 litres.
+Source: PYQ-style
 
-Q53. A 30-litre mixture of alcohol and water contains alcohol and water in the ratio 2 : 3. How much alcohol must be added to make the ratio 3 : 2?
-(A) 12 litres
-(B) 15 litres
-(C) 18 litres
-(D) 21 litres
+55. An 80-litre mixture of milk and water contains 20% water. How much water must be added so that water becomes 50% of the new mixture?
+(a) 36 litres (b) 40 litres (c) 44 litres (d) 48 litres
+Answer: (d)
+Solution: The trap is taking 50% of the original 80 L instead of the new total. Water is 16 L and milk 64 L; (16 + x)/(80 + x) = 1/2 gives x = 48, so the answer is 48 litres.
+Source: PYQ-style
 
-Answer: (B) 15 litres
-Solution:
-Alcohol = (2/5) × 30 = 12 L, water = 18 L.
-Let x L alcohol be added. (12 + x) / 18 = 3/2 → 24 + 2x = 54 → 2x = 30 → x = 15 L.
-Source: NCERT
+56. A container contains 100 litres of pure milk. 20 litres is drawn and replaced with water. This process is repeated two more times (three times in all). Find the quantity of milk left in the container.
+(a) 48.2 litres (b) 56.4 litres (c) 54.8 litres (d) 51.2 litres
+Answer: (d)
+Solution: The trap is subtracting 20 L of milk each time, but after the first replacement the drawn liquid is a mixture. Milk left = 100 × (1 − 20/100)³ = 100 × 0.512, so the answer is 51.2 litres.
+Source: PYQ-style
 
-Q54. A cask contains a mixture of liquids A and B in the ratio 7 : 3. When 15 litres of the mixture is drawn off and the cask is filled with B, the ratio of A to B becomes 7 : 9. What is the capacity of the cask?
-(A) 30 litres
-(B) 35 litres
-(C) 40 litres
-(D) 45 litres
+57. How many kilograms of sugar costing ₹15 per kg must be mixed with 30 kg of sugar costing ₹25 per kg so that by selling the mixture at ₹24 per kg a profit of 20% is earned?
+(a) 35 kg (b) 20 kg (c) 25 kg (d) 30 kg
+Answer: (d)
+Solution: The trap is using ₹24 as the mean price; the mean cost price is 24 × 100/120 = ₹20 per kg. Alligation gives (25 − 20) : (20 − 15) = 1 : 1, so the cheaper sugar needed equals 30 kg.
+Source: PYQ-style
 
-Answer: (C) 40 litres
-Solution:
-Let capacity = x L. Initially A = 0.7x, B = 0.3x.
-15 L removed: A out = 0.7×15 = 10.5 L, B out = 4.5 L.
-After filling with B: A = 0.7x – 10.5, B = 0.3x – 4.5 + 15 = 0.3x + 10.5.
-Ratio 7:9 → (0.7x – 10.5)/(0.3x + 10.5) = 7/9 → 9(0.7x – 10.5) = 7(0.3x + 10.5)
-→ 6.3x – 94.5 = 2.1x + 73.5 → 4.2x = 168 → x = 40 litres.
-Source: SSC CGL (Adapted)
+58. A jar contains a mixture of two liquids A and B in the ratio 5 : 3. When 16 litres of the mixture is taken out and 16 litres of B is poured in, the ratio becomes 1 : 1. What was the initial quantity of the mixture?
+(a) 80 litres (b) 72 litres (c) 64 litres (d) 96 litres
+Answer: (a)
+Solution: The trap is assuming the 16 L drawn removes only A; it removes 10 L of A and 6 L of B. With mixture 8x, 5x − 10 = 3x + 10 gives x = 10, so the initial quantity is 80 litres.
+Source: PYQ-style
 
-Q55. A 80-litre mixture of milk and water contains 20% water. How much water must be added so that water becomes 50% of the new mixture?
-(A) 36 litres
-(B) 40 litres
-(C) 44 litres
-(D) 48 litres
+59. A trader has 100 kg of wheat. He sells a part at 10% profit and the rest at 30% profit. If the overall profit is 22%, what quantity did he sell at 10% profit?
+(a) 40 kg (b) 35 kg (c) 45 kg (d) 30 kg
+Answer: (a)
+Solution: The trap is reversing the alligation ratio; the part sold at 10% corresponds to the difference 30 − 22 = 8. Ratio of parts = 8 : 12 = 2 : 3, so the quantity at 10% profit is (2/5) × 100 = 40 kg.
+Source: PYQ-style
 
-Answer: (D) 48 litres
-Solution:
-Water = 20% of 80 = 16 L, milk = 64 L.
-Let x L water be added. Then (16 + x) / (80 + x) = 1/2 → 32 + 2x = 80 + x → x = 48 L.
-Source: IBPS Clerk (Adapted)
+60. From a container with 50 litres of pure milk, 10 litres is taken out and replaced with water. Again 10 litres of the mixture is taken out and replaced with water. What is the ratio of milk to water in the final mixture?
+(a) 16 : 9 (b) 9 : 16 (c) 25 : 16 (d) 16 : 25
+Answer: (a)
+Solution: The trap is writing the ratio as water to milk. Milk left = 50 × (1 − 10/50)² = 50 × 0.64 = 32 L and water = 18 L, so milk : water = 32 : 18 = 16 : 9.
+Source: PYQ-style
 
-Q56. A container contains 100 litres of pure milk. 20 litres is drawn and replaced with water. Again 20 litres of the mixture is drawn and replaced with water. This process is carried out one more time. Find the quantity of milk left in the container.
-(A) 48.2 litres
-(B) 51.2 litres
-(C) 54.8 litres
-(D) 56.4 litres
+61. A solution of 45 litres contains 30% alcohol. How much alcohol must be added to make the solution 50% alcohol?
+(a) 12 litres (b) 15 litres (c) 21 litres (d) 18 litres
+Answer: (d)
+Solution: The trap is computing 50% of 45 L and ignoring that the total volume grows. Alcohol is 13.5 L; (13.5 + x)/(45 + x) = 1/2 gives x = 18, so the answer is 18 litres.
+Source: NCERT Exemplar Class 8 Mathematics
 
-Answer: (B) 51.2 litres
-Solution:
-Milk left = 100 × (1 – 20/100)³ = 100 × (0.8)³ = 100 × 0.512 = 51.2 litres.
-Source: SSC CGL (Tier I)
+62. Two alloys contain tin and lead in the ratios 5 : 3 and 3 : 5 respectively. Equal quantities of these alloys are melted together. What is the ratio of tin to lead in the new alloy?
+(a) 2 : 1 (b) 1 : 2 (c) 1 : 1 (d) 3 : 2
+Answer: (c)
+Solution: The trap is adding the ratios term by term as (5+3) : (3+5) without equal weights — which coincidentally also gives 1 : 1 here, but the correct method uses fractions: tin = 5/8 + 3/8 = 1 part out of 2 parts total. So tin is half the alloy and the answer is 1 : 1.
+Source: NCERT Class 8 Mathematics
 
-Q57. How many kilograms of sugar costing ₹15 per kg must be mixed with 30 kg of sugar costing ₹25 per kg so that by selling the mixture at ₹24 per kg a profit of 20% is earned?
-(A) 20 kg
-(B) 25 kg
-(C) 30 kg
-(D) 35 kg
+63. A vessel contains 80 litres of a mixture of milk and water in the ratio 5 : 3. How much of the mixture should be taken out and replaced with water so that the ratio of milk to water becomes 1 : 1?
+(a) 16 litres (b) 12 litres (c) 20 litres (d) 24 litres
+Answer: (a)
+Solution: The trap is removing only milk in the calculation; the removed x litres contains milk and water in 5 : 3. Milk left = 50 − 5x/8 and water = 30 + 5x/8; equating gives 20 = 10x/8, so the answer is 16 litres.
+Source: PYQ-style
 
-Answer: (C) 30 kg
-Solution:
-SP = ₹24/kg, Profit = 20% → CP = 24 × 100/120 = ₹20/kg.
-Alligation: cheaper ₹15 and dearer ₹25 to get mean ₹20.
-(25 – 20) = 5, (20 – 15) = 5 → ratio = 1 : 1.
-Thus quantity of ₹15 sugar = quantity of ₹25 sugar = 30 kg.
-Source: IBPS PO (Adapted)
+64. A solution of 120 litres contains acid and water in the ratio 4 : 1. Some quantity of the solution is taken out and replaced with water so that the ratio becomes 3 : 2. How many litres were replaced?
+(a) 24 litres (b) 30 litres (c) 40 litres (d) 36 litres
+Answer: (b)
+Solution: The trap is assuming acid alone is removed; the removed x litres is 4/5 acid and 1/5 water. Solving (96 − 4x/5)/(24 + 4x/5) = 3/2 gives 120 = 4x, so the quantity replaced is 30 litres.
+Source: PYQ-style
 
-Q58. A jar contains a mixture of two liquids A and B in the ratio 5 : 3. When 16 litres of the mixture is taken out and 16 litres of B is poured into the jar, the ratio becomes 1 : 1. What was the initial quantity of the mixture?
-(A) 64 litres
-(B) 72 litres
-(C) 80 litres
-(D) 96 litres
+65. In what ratio should two varieties of pulses costing ₹45 and ₹65 per kg be mixed so that by selling the mixture at ₹66 per kg a profit of 20% is made?
+(a) 1 : 2 (b) 1 : 1 (c) 2 : 1 (d) 3 : 2
+Answer: (b)
+Solution: The trap is applying alligation at ₹66; the mean cost price is 66 × 100/120 = ₹55 per kg. Differences are 65 − 55 = 10 and 55 − 45 = 10, so the answer is 1 : 1.
+Source: PYQ-style
 
-Answer: (C) 80 litres
-Solution:
-Let initial mixture = 8x (A = 5x, B = 3x).
-16 L removed: A out = (5/8)×16 = 10 L, B out = 6 L.
-After adding 16 L B: A = 5x – 10, B = 3x – 6 + 16 = 3x + 10.
-Ratio 1:1 → 5x – 10 = 3x + 10 → 2x = 20 → x = 10.
-Initial mixture = 8 × 10 = 80 litres.
-Source: SSC CGL (Adapted)
+66. A 56-litre mixture of milk and water contains milk and water in the ratio 5 : 2. How much water must be added to make the ratio 2 : 5?
+(a) 72 litres (b) 64 litres (c) 84 litres (d) 96 litres
+Answer: (c)
+Solution: The trap is inverting the target ratio or changing the milk quantity; milk stays 40 L. From 40/(16 + x) = 2/5 we get 200 = 32 + 2x, so x = 84 litres.
+Source: PYQ-style
 
-Q59. A trader has 100 kg of wheat. He sells a part at 10% profit and the rest at 30% profit. If the overall profit is 22%, what quantity did he sell at 10% profit?
-(A) 30 kg
-(B) 35 kg
-(C) 40 kg
-(D) 45 kg
+67. A milkman has two cans. One contains a mixture with 50% milk and the other a mixture with 75% milk. In what ratio must the contents of the two cans be mixed to obtain a mixture containing 60% milk?
+(a) 1 : 2 (b) 2 : 1 (c) 3 : 2 (d) 2 : 3
+Answer: (c)
+Solution: The trap is reversing the alligation cross-differences. The 50% mixture corresponds to 75 − 60 = 15 and the 75% mixture to 60 − 50 = 10, giving 15 : 10 = 3 : 2, so the answer is 3 : 2.
+Source: NCERT Class 8 Mathematics
 
-Answer: (C) 40 kg
-Solution:
-Alligation on profit percentages: 10% and 30% to get mean 22%.
-(30 – 22) = 8, (22 – 10) = 12 → ratio of 10% part : 30% part = 8 : 12 = 2 : 3.
-Quantity at 10% profit = (2/5) × 100 = 40 kg.
-Source: SSC CGL (Adapted)
+68. A vessel is full of a mixture of kerosene and petrol in which kerosene forms 20%. 20 litres of the mixture is taken out and the vessel is filled with petrol. If the kerosene is now 15%, what is the capacity of the vessel?
+(a) 60 litres (b) 80 litres (c) 90 litres (d) 70 litres
+Answer: (b)
+Solution: The trap is taking the removed 20 L as pure kerosene; it removes only 20% × 20 = 4 L of kerosene. Then (0.2V − 4)/V = 0.15 gives 0.05V = 4, so the capacity is 80 litres.
+Source: PYQ-style
 
-Q60. From a container containing 50 litres of pure milk, 10 litres is taken out and replaced with water. Again 10 litres of the mixture is taken out and replaced with water. What is the ratio of milk to water in the final mixture?
-(A) 9 : 16
-(B) 16 : 9
-(C) 25 : 16
-(D) 16 : 25
+69. A mixture of 40 litres of alcohol and water contains 10% alcohol. How much alcohol must be added to make the alcohol percentage 50%?
+(a) 32 litres (b) 30 litres (c) 28 litres (d) 34 litres
+Answer: (a)
+Solution: The trap is keeping the denominator at 40 L after adding alcohol. Alcohol is 4 L; (4 + x)/(40 + x) = 1/2 gives 8 + 2x = 40 + x, so the answer is 32 litres.
+Source: NCERT Class 8 Mathematics
 
-Answer: (B) 16 : 9
-Solution:
-Milk left = 50 × (1 – 10/50)² = 50 × (0.8)² = 50 × 0.64 = 32 L.
-Water = 50 – 32 = 18 L. Ratio = 32 : 18 = 16 : 9.
-Source: SSC CGL (Tier I)
+70. Two alloys A and B contain gold and silver in the ratios 3 : 7 and 1 : 1 respectively. They are mixed in the ratio 2 : 3 by weight. Find the ratio of gold to silver in the resulting alloy.
+(a) 29 : 21 (b) 21 : 29 (c) 11 : 19 (d) 19 : 11
+Answer: (b)
+Solution: The trap is averaging the gold fractions without the 2 : 3 weights. Gold = 2 × 3/10 + 3 × 1/2 = 0.6 + 1.5 = 2.1 and silver = 1.4 + 1.5 = 2.9, so the answer is 21 : 29.
+Source: PYQ-style
 
-Q61. A solution of 45 litres contains 30% alcohol. How much alcohol must be added to make the solution 50% alcohol?
-(A) 12 litres
-(B) 15 litres
-(C) 18 litres
-(D) 21 litres
+71. A container is filled with a liquid which is 5 parts water and 11 parts syrup. What fraction of the mixture must be drawn off and replaced with water so that the mixture becomes half water and half syrup?
+(a) 1/11 (b) 5/16 (c) 3/11 (d) 7/16
+Answer: (c)
+Solution: The trap is using the syrup fraction 11/16 as the answer base instead of solving for the replaced fraction x. Final water fraction = 5/16 (1 − x) + x = 1/2 gives (11/16)x = 3/16, so the answer is 3/11.
+Source: PYQ-style
 
-Answer: (C) 18 litres
-Solution:
-Alcohol = 30% of 45 = 13.5 L, water = 31.5 L.
-Let x L alcohol be added. (13.5 + x)/(45 + x) = 1/2 → 27 + 2x = 45 + x → x = 18 L.
-Source: NCERT Exemplar
+72. A container contains a mixture of two liquids A and B in the ratio 7 : 5. When 24 litres of the mixture is drawn off and the container is filled with B, the ratio of A and B becomes 1 : 1. How many litres of liquid A was originally present?
+(a) 98 litres (b) 84 litres (c) 70 litres (d) 112 litres
+Answer: (a)
+Solution: The trap is reporting the total capacity instead of liquid A. With total 12x, the drawn 24 L removes 14 L of A and 10 L of B; 7x − 14 = 5x + 14 gives x = 14, so A originally was 7 × 14 = 98 litres.
+Source: PYQ-style
 
-Q62. Two alloys contain tin and lead in the ratios 5 : 3 and 3 : 5 respectively. Equal quantities of these alloys are melted together. What is the ratio of tin to lead in the new alloy?
-(A) 1 : 2
-(B) 2 : 1
-(C) 1 : 1
-(D) 3 : 2
+73. In a mixture of 60 litres, the ratio of milk to water is 2 : 1. If this ratio is to be changed to 1 : 2, what quantity of water must be added?
+(a) 40 litres (b) 60 litres (c) 70 litres (d) 50 litres
+Answer: (b)
+Solution: The trap is computing the final water needed (80 L) and forgetting the 20 L already present. Milk is 40 L, so water must become 80 L; water to add = 80 − 20 = 60 litres.
+Source: NCERT Class 8 Mathematics
 
-Answer: (C) 1 : 1
-Solution:
-Tin fractions: 5/8 in first, 3/8 in second. Equal weights: total tin = (5/8 + 3/8) per unit weight = 1, total weight = 2, so tin fraction = 1/2. Thus ratio = 1 : 1.
-Source: NCERT
+74. A milkman buys 80 litres of milk at ₹40 per litre. He adds some water and sells the mixture at ₹40 per litre, thereby making a profit of 20%. How many litres of water did he add?
+(a) 12 litres (b) 16 litres (c) 14 litres (d) 18 litres
+Answer: (b)
+Solution: The trap is taking 20% of the total mixture instead of the pure milk; since water is free and sold at milk's cost price, profit% = (water/milk) × 100. So water = (20/100) × 80 = 16 litres.
+Source: PYQ-style
 
-Q63. A vessel contains 80 litres of a mixture of milk and water in the ratio 5 : 3. How much of the mixture should be taken out and replaced with water so that the ratio of milk to water becomes 1 : 1?
-(A) 12 litres
-(B) 16 litres
-(C) 20 litres
-(D) 24 litres
-
-Answer: (B) 16 litres
-Solution:
-Milk = 50 L, water = 30 L. Let x L be removed and replaced with water.
-Milk left = 50 – (5/8)x, water left = 30 – (3/8)x + x = 30 + (5/8)x.
-For 1:1 → 50 – (5/8)x = 30 + (5/8)x → 20 = (10/8)x → x = 16 L.
-Source: SSC CGL (Adapted)
-
-Q64. A solution of 120 litres contains acid and water in the ratio 4 : 1. Some quantity of the solution is taken out and replaced with water so that the ratio becomes 3 : 2. How many litres were replaced?
-(A) 24 litres
-(B) 30 litres
-(C) 36 litres
-(D) 40 litres
-
-Answer: (B) 30 litres
-Solution:
-Acid = (4/5)×120 = 96 L, water = 24 L.
-Let x L be replaced with water.
-Acid left = 96 – (4/5)x, water left = 24 – (1/5)x + x = 24 + (4/5)x.
-Given acid : water = 3 : 2 → (96 – 4x/5) / (24 + 4x/5) = 3/2
-→ 2(96 – 4x/5) = 3(24 + 4x/5) → 192 – 8x/5 = 72 + 12x/5 → 120 = 20x/5 = 4x → x = 30 L.
-Source: SSC CGL (Tier II)
-
-Q65. In what ratio should two varieties of pulses costing ₹45 and ₹65 per kg be mixed so that by selling the mixture at ₹66 per kg a profit of 20% is made?
-(A) 1 : 2
-(B) 2 : 1
-(C) 1 : 1
-(D) 3 : 2
-
-Answer: (C) 1 : 1
-Solution:
-SP = ₹66/kg, Profit 20% → CP = 66 × 100/120 = ₹55/kg.
-Alligation: (65 – 55) = 10, (55 – 45) = 10 → ratio = 1 : 1.
-Source: SSC CGL (Adapted)
-
-Q66. A 56-litre mixture of milk and water contains milk and water in the ratio 5 : 2. How much water must be added to make the ratio 2 : 5?
-(A) 64 litres
-(B) 72 litres
-(C) 84 litres
-(D) 96 litres
-
-Answer: (C) 84 litres
-Solution:
-Milk = (5/7)×56 = 40 L, water = 16 L.
-Let x L water be added. Then 40/(16 + x) = 2/5 → 200 = 32 + 2x → 168 = 2x → x = 84 L.
-Source: IBPS PO (Adapted)
-
-Q67. A milkman has two cans. One contains a mixture of milk and water with 50% milk and the other contains a mixture with 75% milk. In what ratio must the contents of the two cans be mixed to obtain a mixture containing 60% milk?
-(A) 1 : 2
-(B) 2 : 1
-(C) 3 : 2
-(D) 2 : 3
-
-Answer: (C) 3 : 2
-Solution:
-Alligation on milk percentages: 50% and 75% to get 60%.
-(75 – 60) = 15, (60 – 50) = 10 → ratio of 50% solution to 75% solution = 15 : 10 = 3 : 2.
-Source: NCERT (Class 8)
-
-Q68. A vessel is full of a mixture of kerosene and petrol in which kerosene forms 20%. 20 litres of the mixture is taken out and the vessel is filled with petrol. If the kerosene is now 15%, what is the capacity of the vessel?
-(A) 60 litres
-(B) 70 litres
-(C) 80 litres
-(D) 90 litres
-
-Answer: (C) 80 litres
-Solution:
-Let capacity = V L. Kerosene initially = 0.2V.
-20 L mixture removed → kerosene removed = 20% of 20 = 4 L.
-Kerosene left = 0.2V – 4. After filling with petrol, total volume = V.
-Kerosene % = 15% → (0.2V – 4)/V = 0.15 → 0.2V – 4 = 0.15V → 0.05V = 4 → V = 80 L.
-Source: SSC CGL (Adapted)
-
-Q69. A mixture of 40 litres of alcohol and water contains 10% alcohol. How much alcohol must be added to make the alcohol percentage 50%?
-(A) 28 litres
-(B) 30 litres
-(C) 32 litres
-(D) 34 litres
-
-Answer: (C) 32 litres
-Solution:
-Alcohol = 10% of 40 = 4 L, water = 36 L.
-Let x L alcohol be added. (4 + x)/(40 + x) = 1/2 → 8 + 2x = 40 + x → x = 32 L.
-Source: NCERT
-
-Q70. Two alloys A and B contain gold and silver in the ratios 3 : 7 and 5 : 5 (i.e., 1 : 1) respectively. They are mixed in the ratio 2 : 3 by weight. Find the ratio of gold to silver in the resulting alloy.
-(A) 21 : 29
-(B) 29 : 21
-(C) 11 : 19
-(D) 19 : 11
-
-Answer: (A) 21 : 29
-Solution:
-Gold in A = 3/10, gold in B = 1/2.
-In mixture ratio A:B = 2:3.
-Total gold = 2×(3/10) + 3×(1/2) = 6/10 + 1.5 = 0.6 + 1.5 = 2.1 parts.
-Total silver = 2×(7/10) + 3×(1/2) = 1.4 + 1.5 = 2.9 parts.
-Ratio = 2.1 : 2.9 = 21 : 29.
-Source: SSC CGL (Adapted)
-
-Q71. A container is filled with a liquid which is 5 parts water and 11 parts syrup. How much of the mixture must be drawn off and replaced with water so that the mixture becomes half water and half syrup?
-(A) 1/11
-(B) 3/11
-(C) 5/16
-(D) 7/16
-
-Answer: (B) 3/11
-Solution:
-Initial water fraction = 5/16, target water fraction = 1/2.
-Let fraction x of the mixture be replaced by water.
-Final water fraction = (5/16)(1 – x) + x = 1/2 → 5/16 – (5/16)x + x = 1/2
-→ 5/16 + (11/16)x = 1/2 → (11/16)x = 8/16 – 5/16 = 3/16 → 11x = 3 → x = 3/11.
-Thus 3/11 of the mixture must be replaced.
-Source: SSC CGL (Adapted)
-
-Q72. A container contains a mixture of two liquids A and B in the ratio 7 : 5. When 24 litres of the mixture is drawn off and the container is filled with B, the ratio of A and B becomes 1 : 1. How many litres of liquid A was originally present?
-(A) 70 litres
-(B) 84 litres
-(C) 98 litres
-(D) 112 litres
-
-Answer: (C) 98 litres
-Solution:
-Let total capacity = 12x (A = 7x, B = 5x).
-24 L removed: A out = (7/12)×24 = 14 L, B out = 10 L.
-After filling with B: A = 7x – 14, B = 5x – 10 + 24 = 5x + 14.
-Ratio 1:1 → 7x – 14 = 5x + 14 → 2x = 28 → x = 14.
-A originally = 7 × 14 = 98 litres.
-Source: SSC CGL (Adapted)
-
-Q73. In a mixture of 60 litres, the ratio of milk to water is 2 : 1. If this ratio is to be changed to 1 : 2, what quantity of water must be added?
-(A) 40 litres
-(B) 50 litres
-(C) 60 litres
-(D) 70 litres
-
-Answer: (C) 60 litres
-Solution:
-Milk = (2/3)×60 = 40 L, water = 20 L.
-For milk : water = 1 : 2, water required = 2 × 40 = 80 L.
-Water to be added = 80 – 20 = 60 L.
-Source: NCERT
-
-Q74. A milkman buys 80 litres of milk at ₹40 per litre. He adds some water and sells the mixture at ₹40 per litre thereby making a profit of 20%. How many litres of water did he add?
-(A) 12 litres
-(B) 14 litres
-(C) 16 litres
-(D) 18 litres
-
-Answer: (C) 16 litres
-Solution:
-Profit% = (Water added / Pure milk) × 100, since cost of water is zero and selling price equals cost price per litre of pure milk.
-Let water added = W litres. Then 20 = (W/80) × 100 → W = (20/100)×80 = 16 litres.
-Source: IBPS PO (Adapted)
-
-Q75. A vessel contains a mixture of milk and water in the ratio 3 : 1. 8 litres of the mixture is drawn off and replaced with water. Now if 8 litres of the new mixture is again drawn off and replaced with water, the ratio of milk to water becomes 27 : 37. Find the initial quantity of the mixture.
-(A) 40 litres
-(B) 48 litres
-(C) 56 litres
-(D) 64 litres
-
-Answer: (B) 48 litres
-Solution:
-Let initial quantity = 4x litres (milk = 3x, water = x).
-After first replacement (remove 8 L, add water):
-Milk left = 3x – (3/4)×8 = 3x – 6, water = x – (1/4)×8 + 8 = x + 6.
-After second replacement: remove 8 L of new mixture. Milk fraction = (3x–6)/(4x).
-Milk left = (3x–6) – (3x–6)/(4x) × 8 = (3x–6)[1 – 8/(4x)] = (3x–6)(1 – 2/x) = (3x–6)( (x–2)/x ).
-Water after second replacement = total volume 4x – milk.
-Given final ratio milk:water = 27:37. So milk fraction = 27/64.
-Total volume unchanged (4x). So Milk final = 4x × (27/64) = (27x/16).
-Set (3x–6)(x–2)/x = 27x/16.
-Solve: (3x–6)(x–2) = (27x^2)/16.
-3(x–2)(x–2) = 3(x–2)^2 = (27x^2)/16 → (x–2)^2 = (9x^2)/16 → Take square root (positive, x>2): x–2 = (3x)/4 → 4(x–2)=3x → 4x–8=3x → x=8.
-Initial mixture = 4x = 32 litres? That gives 32 L, not 48. Let's double-check calculation:
-
-Milk fraction after first replacement = (3x–6)/(4x). After second removal of 8 L, milk becomes (3x–6) * (1 – 8/(4x)) = (3x–6)*(1 – 2/x) = (3x–6)*( (x–2)/x ). Indeed. Final total volume = 4x (since we replaced with water, volume returns to 4x). Final milk fraction = (3x–6)(x–2)/(4x^2). Set equal to 27/64. So (3x–6)(x–2)/(4x^2) = 27/64 → Multiply both sides: 64(3x–6)(x–2) = 108 x^2 → 64*3(x–2)(x–2) = 192 (x–2)^2 = 108 x^2 → (x–2)^2 = (108/192) x^2 = (9/16) x^2 → x–2 = (3/4)x → 4x–8=3x → x=8. So initial total = 4x = 32. But options don't have 32. So perhaps I mis-set the final ratio. I used 27:37 → milk fraction 27/64 = 0.421875. My formula gave 32 L. To get 48 L, x=12, total 48. Then check final milk fraction: (3*12–6)=30, x–2=10, product=300, divided by (4x^2)=4*144=576, fraction=300/576=25/48≈0.5208, not 0.4219. So not. I intended to create a medium problem but my algebra doesn't match options. I'll adjust final ratio to something that yields x=12, total 48. If total 48, x=12. Then final milk fraction = (3*12–6)(12–2)/(4*144) = 30*10/576 = 300/576 = 25/48. So milk:water = 25:23. That gives ratio 25:23. That could be in options. So I'll change final ratio to 25:23, answer 48 L. Then solution: x=12, total=48. So Q75: A vessel contains mixture of milk and water in ratio 3:1. 8 litres drawn and replaced with water, then 8 litres again drawn and replaced with water. If final ratio milk:water = 25:23, find initial quantity. Answer 48 L. That works. So I'll use 25:23. Options: (A) 40 (B) 48 (C) 56 (D) 64. Answer (B) 48. Good.
-
-Q75. A vessel contains a mixture of milk and water in the ratio 3 : 1. 8 litres of the mixture is drawn off and replaced with water. Now, 8 litres of the new mixture is again drawn off and replaced with water. If the ratio of milk to water in the final mixture is 25 : 23, find the initial quantity of the mixture.
-(A) 40 litres
-(B) 48 litres
-(C) 56 litres
-(D) 64 litres
-
-Answer: (B) 48 litres
-Solution:
-Let initial quantity = 4x litres (milk = 3x, water = x).
-After first replacement, milk = 3x – (3/4)×8 = 3x – 6, water = x + 6.
-After second replacement, milk = (3x – 6) × (1 – 8/(4x)) = (3x – 6) × (x – 2)/x.
-Total volume remains 4x. Milk fraction = (3x – 6)(x – 2) / (4x^2).
-Given milk : water = 25 : 23 → milk fraction = 25/48.
-So (3x – 6)(x – 2) / (4x^2) = 25/48 → 48(3x – 6)(x – 2) = 100 x^2
-→ 144 (x – 2)^2 = 100 x^2 → (x – 2)^2 / x^2 = 100/144 = (10/12)^2 → (x – 2)/x = 5/6
-→ 6x – 12 = 5x → x = 12. Thus initial quantity = 48 litres.
-Source: SSC CGL (Tier II, Adapted)
-
-End of Set 3.
+75. A vessel contains a mixture of milk and water in the ratio 3 : 1. 8 litres of the mixture is drawn off and replaced with water, and then 8 litres of the new mixture is again drawn off and replaced with water. If the final ratio of milk to water is 25 : 23, find the initial quantity of the mixture.
+(a) 40 litres (b) 64 litres (c) 56 litres (d) 48 litres
+Answer: (d)
+Solution: The trap is applying the replacement factor only once; milk is multiplied by (1 − 8/V) at each of the two steps. With V = 4x, milk fraction = (3x − 6)(x − 2)/(4x²) = 25/48, which simplifies to (x − 2)/x = 5/6, giving x = 12, so the initial quantity is 48 litres.
+Source: PYQ-style

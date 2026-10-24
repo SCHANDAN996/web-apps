@@ -1,8 +1,36 @@
-# Chapter: Probability, Level: intermediate
+# Important Formulas — Probability
 
-@content_agent lang=en level=intermediate 'List all important formulas, equations, and rules for Probability.
-Instructions:
-- Only formulas and a one-line hint (when to use), no detailed explanation.
-- Present in a clean table: Formula Name | Formula | Use-Hint
-- Cover all formulas essential for solving exam questions.
-- Keep language simple and precise.'
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Basic Probability | P(E) = n(E) / n(S) | Favourable outcomes ÷ total outcomes |
+| Probability Range | 0 ≤ P(E) ≤ 1 | Check: answer can never exceed 1 or be negative |
+| Complement Rule | P(E′) = 1 − P(E) | Use when "at least one" or "not" appears |
+| Sure Event | P(S) = 1 | Event must happen |
+| Impossible Event | P(∅) = 0 | Event can never happen |
+| Addition Rule (General) | P(A ∪ B) = P(A) + P(B) − P(A ∩ B) | "A or B" when events overlap |
+| Addition Rule (Mutually Exclusive) | P(A ∪ B) = P(A) + P(B) | "A or B" when both cannot occur together |
+| Multiplication Rule (Independent) | P(A ∩ B) = P(A) × P(B) | "A and B" when one doesn't affect the other |
+| Multiplication Rule (Dependent) | P(A ∩ B) = P(A) × P(B\|A) | Without replacement — second draw depends on first |
+| Conditional Probability | P(A\|B) = P(A ∩ B) / P(B), P(B) > 0 | "Given that B has occurred" |
+| Independent Events Test | P(A ∩ B) = P(A) × P(B) | To verify independence |
+| Total Probability | P(A) = Σ P(Bᵢ) × P(A\|Bᵢ) | Event A can occur through several disjoint routes Bᵢ |
+| Bayes' Theorem | P(Bᵢ\|A) = P(Bᵢ) × P(A\|Bᵢ) / Σ P(Bⱼ) × P(A\|Bⱼ) | Reverse conditional — find cause given the result |
+| Odds in Favour | P(E) : P(E′) | Ratio of success to failure |
+| Odds Against | P(E′) : P(E) | Ratio of failure to success |
+| Probability from Odds | P(E) = a / (a + b) | When odds in favour are a : b |
+| At Least One | P(at least one) = 1 − P(none) | Faster than adding many cases |
+| Coin Toss (n coins) | n(S) = 2ⁿ | Total outcomes for n coins tossed together |
+| Dice Throw (n dice) | n(S) = 6ⁿ | Total outcomes for n dice thrown together |
+| Two Dice — Sum Count | Sums 2–12; max ways = 6 for sum 7 | Sum 7 is most likely (6/36 = 1/6) |
+| Cards — Total | n(S) = 52; 26 red, 26 black; 4 suits of 13 | 12 face cards (4 kings, 4 queens, 4 jacks), 4 aces |
+| Cards (without replacement) | P = (favourable₁/52) × (favourable₂/51) | Denominator drops by 1 each draw |
+| Balls from a Bag | P = C(favourable, r) / C(total, r) | When r balls drawn together |
+| Permutation | ⁿPᵣ = n! / (n − r)! | Arrangement — order matters |
+| Combination | ⁿCᵣ = n! / [r!(n − r)!] | Selection — order doesn't matter |
+| Combination Identity | ⁿCᵣ = ⁿCₙ₋ᵣ | Shortcut: pick the smaller r |
+| Binomial Probability | P(X = r) = ⁿCᵣ pʳ (1−p)ⁿ⁻ʳ | Exactly r successes in n independent trials |
+| Expected Value | E(X) = Σ xᵢ × P(xᵢ) | Average outcome over many trials |
+| Expected Value (Binomial) | E(X) = np | Mean of binomial distribution |
+| Variance (Binomial) | Var(X) = np(1 − p) | Spread of binomial distribution |
+| Birthday-type / Matching | P(match) = 1 − P(all different) | Complement trick for "at least two same" |
+| Geometric-type (first success) | P = (1 − p)ᵏ⁻¹ × p | First success on the k-th trial |

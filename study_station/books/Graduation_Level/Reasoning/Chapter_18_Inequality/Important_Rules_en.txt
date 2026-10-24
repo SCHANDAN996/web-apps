@@ -1,0 +1,42 @@
+# Important Rules & Approaches — Inequality
+
+## Part 1: Key Rules / Approaches
+
+| Rule Name | Description | Example |
+|---|---|---|
+| Symbol Meaning | > (greater than), < (less than), ≥ (greater than or equal to), ≤ (less than or equal to), = (equal to) | A > B means A is greater than B |
+| Chain Rule (Transitivity) | If A > B and B > C, then A > C. Combine statements into one chain before checking conclusions. | A > B > C ⇒ A > C (definitely true) |
+| Opposite Symbols Break the Chain | If symbols face opposite directions (A > B < C), no definite relation exists between the end elements. | A > B < C ⇒ relation between A and C cannot be determined |
+| Same-Direction Symbols | Conclusion follows only when symbols point the same way through the chain. | A ≥ B ≥ C ⇒ A ≥ C is true |
+| Priority of Symbols | > and < are stronger than ≥ and ≤. A chain with ≥ throughout gives ≥; if any strict symbol (>) appears, result is strict (>). | A ≥ B > C ⇒ A > C |
+| Either-Or Case (Complementary Pair) | When two conclusions are false individually but together cover all possibilities (same elements, opposite relations), "either I or II follows" applies. | Conclusions: A > B and A ≤ B — if neither is definite, either-or may apply |
+| Three Conditions for Either-Or | (1) Both conclusions individually false, (2) same two elements in both, (3) conclusions are complementary (e.g., > and ≤, or < and ≥). | A ≥ B and A < B form a complementary pair |
+| Coded Inequality | Symbols are replaced by codes (e.g., 'A @ B' means A > B). Decode the key first, then rewrite all statements in normal symbols. | '@' = '>', so P @ Q means P > Q |
+| Reverse the Chain | To compare two elements, you may need to read part of the chain backwards, flipping each symbol. | From A > B and C < B: rewrite as A > B > C |
+| ≥ / ≤ Include Equality | A ≥ B is true if A > B OR A = B. Do not reject ≥ just because strict > is not proven. | If A ≥ B ≥ C, then A ≥ C holds even if A = C is possible |
+| Definite vs Possible | "Definitely true" must hold in every case; if even one arrangement violates it, the conclusion does not follow. | A > B ≥ C: A > C is definite; A = C is impossible |
+| Negative Conclusion Trap | A conclusion like "A is not greater than B" means A ≤ B — check it as a normal conclusion, not as a guess. | "A ≯ B" is equivalent to A ≤ B |
+
+## Part 2: Time Management
+
+| Time Rule | Guideline |
+|---|---|
+| 15-Second Rule | If within 15 seconds you cannot merge the statements into a single chain, mark the question and move on; return later. |
+| 45-Second Rule | No inequality question should take more than 45 seconds. If it does, you are re-reading instead of chaining — write the combined chain once and decide. |
+| Decode First (Coded Type) | Spend the first 10–15 seconds decoding all symbols into >, <, ≥, ≤, = before touching the conclusions. |
+| Conclusion Check Order | Check the simpler conclusion first; often one is clearly true/false and decides the option quickly. |
+| Either-Or Check Last | Apply the either-or test only after confirming both conclusions are individually false — never assume it directly. |
+| Skip Strategy | Skip questions with 3+ separate statements that cannot be merged quickly; attempt them in the second pass. |
+
+## Part 3: Logical / Mathematical Formulas
+
+| Formula / Rule | Meaning |
+|---|---|
+| A > B and B > C ⇒ A > C | Transitivity of strict inequality |
+| A ≥ B and B ≥ C ⇒ A ≥ C | Transitivity of weak inequality |
+| A ≥ B and B > C ⇒ A > C | Mixed chain gives strict result |
+| A > B < C ⇒ A ? C | Opposite symbols: no relation determinable |
+| A ≥ B ⇔ A > B or A = B | Weak inequality includes equality |
+| A ≯ B ⇔ A ≤ B | Negation of "greater than" |
+| A ≮ B ⇔ A ≥ B | Negation of "less than" |
+| Complementary pairs: (> , ≤) and (< , ≥) | Pairs valid for either-or conclusions |

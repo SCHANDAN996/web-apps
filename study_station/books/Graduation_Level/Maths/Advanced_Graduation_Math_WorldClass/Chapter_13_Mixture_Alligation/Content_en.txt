@@ -1,0 +1,188 @@
+# Mixture & Alligation
+
+## Chapter Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Understand what a mixture is and how ratios behave inside it.
+2. Master the **Rule of Alligation** — the fastest cross-method for two-component mixtures.
+3. Solve **replacement problems** (the classic "milk drawn out and water added" type) using a single formula.
+4. Handle **mixing of mixtures**, price-based mixtures, and three-component extensions.
+5. Spot the traps examiners set in SSC CGL Tier-II, IBPS PO Mains, CAT and CSAT.
+
+---
+
+## The Hook: The Milkman Who Never Studied Maths
+
+A milkman in your neighbourhood mixes water into milk every single day — and yet he never calculates wrongly. Ask him how, and he'll say: *"I just know how much profit I want."*
+
+That is exactly what Alligation is. It is not a formula invented by mathematicians; it is the **street-smart shortcut** that shopkeepers, goldsmiths and chemists have used for centuries. The moment you see the "cross diagram," you will realise that questions which look like 2-minute algebra problems are actually **10-second ratio problems**.
+
+And here is the uncomfortable truth: most aspirants lose marks in this chapter not because it is hard, but because they solve it with equations when a single diagonal subtraction would do. Let's fix that — permanently.
+
+---
+
+## 1. What Is a Mixture, Really?
+
+A **mixture** is simply two or more quantities combined together — milk and water, two varieties of rice, two alcohol solutions, two alloys of gold and copper.
+
+The key insight: **in a mixture, only ratios matter, not absolute quantities.** A 3:1 milk-water mixture behaves identically whether it is 4 litres or 400 litres.
+
+**Alligation** is the rule that tells us the ratio in which two ingredients (at two different "values" — price, concentration, percentage) must be mixed to get a mixture of a desired mean value.
+
+🧠 **Active Recall:** Why do we say "only ratios matter" in a mixture? If a mixture has milk and water in 5:2, what fraction of the mixture is water?
+
+---
+
+## 2. The Rule of Alligation — The Cross That Solves Everything
+
+Suppose ingredient A has value **a** (cheaper) and ingredient B has value **b** (dearer), and we mix them to get a mean value **m** (where a < m < b). Then:
+
+```
+        a              b
+          \          /
+            \  m  /
+            /      \
+          /          \
+     (b − m)      (m − a)
+```
+
+**Quantity of A : Quantity of B = (b − m) : (m − a)**
+
+Notice the diagonal subtraction: the cheaper ingredient's quantity comes from the *dearer* value minus the mean, and vice versa. The values "cross over" — hence the name *alligation* (from Latin *alligare*, "to bind together").
+
+**Example:** Rice at ₹40/kg and rice at ₹60/kg are mixed to get rice worth ₹48/kg. Ratio?
+- (60 − 48) : (48 − 40) = 12 : 8 = **3 : 2**
+
+Ten seconds. No equations.
+
+🧠 **Active Recall:** In the cross diagram, why does the cheaper ingredient's quantity come from (b − m) and not (m − a)? What would go wrong if you didn't cross?
+
+---
+
+## 3. Why Does the Cross Work? (The One-Minute Proof)
+
+Let quantities be x (at value a) and y (at value b). The mean is:
+
+m = (ax + by) / (x + y)
+
+Cross-multiply: mx + my = ax + by
+⟹ x(m − a) = y(b − m)
+⟹ **x : y = (b − m) : (m − a)**
+
+That's it. The cross diagram is just this equation drawn as a picture. Once you trust the picture, you never need the equation again.
+
+**Mnemonic — "CROSS to WIN":**
+> **C**heaper quantity comes from the **R**emote (far) **O**pposite **S**ide **S**ubtraction.
+
+Or simply remember: *"Far value gives near quantity"* — the quantity of each ingredient is found from the value on the **opposite** end of the cross.
+
+🧠 **Active Recall:** Derive the alligation ratio from m = (ax + by)/(x + y) without looking above. Can you do it in under a minute?
+
+---
+
+## 4. Concentration Problems — Alligation Beyond Money
+
+Alligation works for **any mean value**: price, percentage of alcohol, profit %, speed, even average marks.
+
+**Example:** A 20% alcohol solution is mixed with a 50% alcohol solution to get a 35% solution. Ratio?
+- (50 − 35) : (35 − 20) = 15 : 15 = **1 : 1**
+
+**Trap alert:** If the question asks "how much of the 50% solution is needed to make 60 L of the final mixture," don't stop at the ratio. Ratio 1:1 in 60 L means **30 L**. Advanced exams (CAT, PO Mains) always add this second step.
+
+---
+
+## 5. The Replacement Formula — The Crown Jewel of This Chapter
+
+This is the most-tested pattern in SSC and Banking exams.
+
+**Setup:** A vessel contains V litres of pure liquid (say milk). x litres are drawn out and replaced with water. This is repeated n times.
+
+**Final quantity of pure milk:**
+
+$$\text{Milk left} = V\left(1 - \frac{x}{V}\right)^n$$
+
+**Example:** A 40 L vessel of pure milk; 8 L is replaced by water, twice.
+- Milk left = 40 × (1 − 8/40)² = 40 × (4/5)² = 40 × 16/25 = **25.6 L**
+
+**Why it works:** Each operation removes the *same fraction* (x/V) of whatever milk is present — so milk shrinks by a constant factor each time, exactly like compound depreciation.
+
+**Memory trick:** Think of it as **"Compound Interest in Reverse"** — the same (1 − r)ⁿ structure you already know, where r = x/V.
+
+🧠 **Active Recall:** In the replacement formula, what plays the role of the "rate"? If 1/5 of the mixture is replaced each time, what fraction of milk remains after 3 operations?
+
+---
+
+## 6. Variations of Replacement (Where Toppers Separate Themselves)
+
+**Variation 1 — Replacement with another liquid, then asked for ratio:**
+After finding milk left, water = V − milk left. Ratio follows directly.
+
+**Variation 2 — Different amounts replaced each time:**
+Multiply the factors individually: Milk left = V × (1 − x₁/V)(1 − x₂/V)(1 − x₃/V)
+
+**Variation 3 — The vessel starts as a mixture, not pure liquid:**
+Apply the factor only to the component asked. If milk is initially 60% of V, then milk left = 0.6V × (1 − x/V)ⁿ.
+
+**Variation 4 — "After n operations the ratio becomes a:b, find n":**
+Set V(1 − x/V)ⁿ / V = a/(a+b) and solve by trial with small n (exams keep n = 2 or 3).
+
+---
+
+## 7. Mixing Two Mixtures
+
+When two *mixtures* (not pure ingredients) are combined, work component by component.
+
+**Example:** Vessel A has milk:water = 3:2; Vessel B has milk:water = 7:3. Equal quantities are mixed. Find the new ratio.
+
+Take 10 L from each (LCM-friendly choice):
+- Milk = 10×(3/5) + 10×(7/10) = 6 + 7 = 13
+- Water = 4 + 3 = 7
+- New ratio = **13 : 7**
+
+**Shortcut via alligation:** Treat milk-fractions 3/5 and 7/10 as the two "values," and the desired mean as the unknown — alligation works here too if the final ratio is given instead.
+
+🧠 **Active Recall:** When mixing two mixtures in equal amounts, why can we pick any convenient quantity (like 10 L) from each? What changes if the quantities are unequal?
+
+---
+
+## 8. Three Ingredients and Repeated Alligation
+
+Alligation is a two-ingredient tool. For three ingredients, apply it **in stages**: mix two first, then mix the result with the third. Or use the weighted-average equation directly.
+
+**Example pattern (CAT-level):** Three teas at ₹120, ₹150 and ₹200 per kg must give a blend at ₹160/kg, with the first two in ratio 2:3.
+- Step 1: Blend of first two at 2:3 → value = (2×120 + 3×150)/5 = ₹138
+- Step 2: Alligate ₹138 with ₹200 for mean ₹160 → (200−160):(160−138) = 40:22 = 20:11
+- Final ratio = 2 : 3 : (5 × 11/20) → scale to integers: **8 : 12 : 11**
+
+---
+
+## 9. Examiner's Traps — Read This Twice
+
+1. **"Water is free" trap:** Mixing water (₹0) with milk — alligation still works; just use 0 as the cheaper value.
+2. **Profit-based mixture:** If milk at ₹40/L is mixed with water and sold at ₹48/L with 20% profit, the *cost price of the mixture* is 48/1.2 = ₹40... wait — check: CP = 48 × 100/120 = ₹40. Then alligate 40 (milk) and 0 (water) against mean 40 → pure milk! Questions like this test whether you convert SP to CP *before* alligating.
+3. **Ratio vs. quantity confusion:** "In what ratio" and "how many litres" are different questions — the second needs the total.
+4. **Replacement trap:** The formula gives *milk left*, but the question may ask for *water added* or the *final ratio*. Always finish the last step.
+5. **Percentage vs. fraction:** 20% alcohol means alcohol fraction 1/5 — keep one consistent form throughout.
+
+🧠 **Active Recall:** In a profit-based mixture problem, what must you compute *before* applying alligation — and why can't you use the selling price directly?
+
+---
+
+## 10. Summary Table
+
+| Concept | Tool / Formula | Key Reminder |
+|---|---|---|
+| Mixing two ingredients | Alligation: (b−m) : (m−a) | Cross-subtract diagonally |
+| Mean value | m = (ax + by)/(x+y) | Works for price, %, speed, marks |
+| Replacement (n times) | V(1 − x/V)ⁿ | Like compound depreciation |
+| Different replacements | V∏(1 − xᵢ/V) | Multiply factors one by one |
+| Mixing two mixtures | Component-wise addition | Pick LCM-friendly quantities |
+| Three ingredients | Alligation in stages | Mix two, then the third |
+| Profit + mixture | Convert SP → CP first | Never alligate selling prices |
+
+---
+
+## 📌 Review Reminder
+
+**Review this chapter after 2 days.** Redo the replacement formula derivation and solve one alligation problem from memory. Spaced repetition is what converts this chapter from "understood" to "unshakable" in the exam hall.

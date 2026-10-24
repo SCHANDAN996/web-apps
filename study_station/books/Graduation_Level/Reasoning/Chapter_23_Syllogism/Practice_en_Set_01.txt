@@ -1,0 +1,176 @@
+Questions 1–20: Easy | Questions 21–25: Medium
+
+1. Statements: All pens are books. All books are chairs.
+Conclusions: I. All pens are chairs. II. All chairs are pens.
+(a) Only II follows (b) Only I follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (b)
+Solution: The tempting option claims both follow, but "All chairs are pens" reverses the chain, which is never valid. Since pens ⊂ books ⊂ chairs, all pens are chairs, so the answer is Only I follows.
+Source: PYQ-style
+
+2. Statements: Some dogs are cats. All cats are animals.
+Conclusions: I. Some dogs are animals. II. All dogs are animals.
+(a) Neither follows (b) Only II follows (c) Both follow (d) Only I follows
+Answer: (d)
+Solution: "All dogs are animals" is the trap — "some" can never be stretched to "all". The dogs that are cats are animals, so some dogs are animals, and the answer is Only I follows.
+Source: PYQ-style
+
+3. Statements: No apple is a banana. All bananas are fruits.
+Conclusions: I. No apple is a fruit. II. Some fruits are not apples.
+(a) Only II follows (b) Only I follows (c) Both follow (d) Neither follows
+Answer: (a)
+Solution: The trap is concluding "No apple is a fruit" — apples may still be fruits through other routes. Since bananas are fruits and no banana is an apple, that part of fruits is not apples, so the answer is Only II follows.
+Source: PYQ-style
+
+4. Statements: All flowers are leaves. Some leaves are red.
+Conclusions: I. Some flowers are red. II. All leaves are flowers.
+(a) Only I follows (b) Only II follows (c) Neither follows (d) Both follow
+Answer: (c)
+Solution: "Some flowers are red" tempts because both link to leaves, but the red leaves may lie outside flowers; reversal of "all" is also invalid. Neither conclusion is definite, so the answer is Neither follows.
+Source: PYQ-style
+
+5. Statements: Some boys are students. All students are girls.
+Conclusions: I. Some boys are girls. II. Some girls are boys.
+(a) Both follow (b) Only II follows (c) Only I follows (d) Neither follows
+Answer: (a)
+Solution: The boys who are students are girls, giving "some boys are girls", and "some" statements convert, giving "some girls are boys". Both hold, so the answer is Both follow.
+Source: PYQ-style
+
+6. Statements: All cars are buses. No bus is a truck.
+Conclusions: I. No car is a truck. II. Some buses are cars.
+(a) Both follow (b) Only II follows (c) Only I follows (d) Neither follows
+Answer: (a)
+Solution: Cars lie inside buses, and buses are entirely outside trucks, so no car is a truck; "all cars are buses" also converts to "some buses are cars". Both follow, so the answer is Both follow.
+Source: PYQ-style
+
+7. Statements: Some teachers are doctors. No doctor is a lawyer.
+Conclusions: I. Some teachers are not lawyers. II. No teacher is a lawyer.
+(a) Neither follows (b) Only II follows (c) Both follow (d) Only I follows
+Answer: (d)
+Solution: "No teacher is a lawyer" is the trap — only the doctor-teachers are barred from being lawyers, not all teachers. Those doctor-teachers are definitely not lawyers, so the answer is Only I follows.
+Source: PYQ-style
+
+8. Statements: All mangoes are sweet. Some sweet things are costly.
+Conclusions: I. Some mangoes are costly. II. All mangoes are costly.
+(a) Neither follows (b) Only II follows (c) Both follow (d) Only I follows
+Answer: (a)
+Solution: The costly sweet things may not include any mango, so even "some mangoes are costly" is not definite. Neither conclusion must be true, so the answer is Neither follows.
+Source: PYQ-style
+
+9. Statements: No chair is a table. Some tables are desks.
+Conclusions: I. Some desks are not chairs. II. No desk is a chair.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (a)
+Solution: "No desk is a chair" overreaches — desks outside the table portion could be chairs. The desks that are tables cannot be chairs, so the answer is Only I follows.
+Source: PYQ-style
+
+10. Statements: All stars are moons. All moons are suns.
+Conclusions: I. All stars are suns. II. Some suns are stars.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (c)
+Solution: The chain stars ⊂ moons ⊂ suns gives "all stars are suns", and conversion gives "some suns are stars". Both follow, so the answer is Both follow.
+Source: PYQ-style
+
+11. Statements: Some books are pens. Some pens are erasers.
+Conclusions: I. Some books are erasers. II. No book is an eraser.
+(a) Only I follows (b) Either I or II follows (c) Only II follows (d) Neither follows
+Answer: (b)
+Solution: Two "some" statements with different middle terms give no definite link between books and erasers, but the two conclusions form a complementary some–no pair. Exactly one must be true, so the answer is Either I or II follows.
+Source: PYQ-style
+
+12. Statements: All cups are plates. All plates are spoons.
+Conclusions: I. All spoons are cups. II. Some spoons are cups.
+(a) Only I follows (b) Neither follows (c) Both follow (d) Only II follows
+Answer: (d)
+Solution: "All spoons are cups" is the reversal trap — "all" never converts into "all". Since cups ⊂ spoons, some spoons are certainly cups, so the answer is Only II follows.
+Source: PYQ-style
+
+13. Statements: Some rivers are mountains. All mountains are hills.
+Conclusions: I. Some rivers are hills. II. Some hills are rivers.
+(a) Only I follows (b) Both follow (c) Only II follows (d) Neither follows
+Answer: (b)
+Solution: The rivers that are mountains are hills, so some rivers are hills, and this converts to some hills are rivers. Both follow, so the answer is Both follow.
+Source: PYQ-style
+
+14. Statements: No bird is a fish. All fish are swimmers.
+Conclusions: I. Some swimmers are not birds. II. No swimmer is a bird.
+(a) Both follow (b) Only II follows (c) Only I follows (d) Neither follows
+Answer: (c)
+Solution: "No swimmer is a bird" is the trap — non-fish swimmers may be birds. The fish-swimmers are definitely not birds, so the answer is Only I follows.
+Source: PYQ-style
+
+15. Statements: All laptops are computers. Some computers are mobiles.
+Conclusions: I. Some laptops are mobiles. II. Some computers are laptops.
+(a) Only I follows (b) Neither follows (c) Both follow (d) Only II follows
+Answer: (d)
+Solution: The mobiles among computers may exclude all laptops, so conclusion I is the tempting error. Conversion of "all laptops are computers" gives some computers are laptops, so the answer is Only II follows.
+Source: PYQ-style
+
+16. Statements: Some papers are white. All white things are bright.
+Conclusions: I. Some papers are bright. II. All bright things are papers.
+(a) Both follow (b) Only II follows (c) Only I follows (d) Neither follows
+Answer: (c)
+Solution: "All bright things are papers" reverses the chain and is invalid. The white papers are bright, so some papers are bright, and the answer is Only I follows.
+Source: PYQ-style
+
+17. Statements: All keys are locks. No lock is a door.
+Conclusions: I. No key is a door. II. Some doors are keys.
+(a) Neither follows (b) Only II follows (c) Both follow (d) Only I follows
+Answer: (d)
+Solution: Keys lie inside locks, which are entirely outside doors, so no key is a door; "some doors are keys" directly contradicts this. Only I follows, so the answer is Only I follows.
+Source: PYQ-style
+
+18. Statements: Some actors are singers. All singers are dancers.
+Conclusions: I. Some actors are dancers. II. All actors are dancers.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (a)
+Solution: "All actors are dancers" inflates "some" into "all", a classic trap. The singer-actors are dancers, so some actors are dancers, and the answer is Only I follows.
+Source: PYQ-style
+
+19. Statements: No pen is a pencil. No pencil is a rubber.
+Conclusions: I. No pen is a rubber. II. Some rubbers are pens.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (d)
+Solution: Two negative statements never yield a definite conclusion — pens and rubbers may or may not overlap. Neither conclusion is certain, so the answer is Neither follows.
+Source: PYQ-style
+
+20. Statements: All trees are plants. Some plants are green.
+Conclusions: I. Some trees are green. II. Some plants are trees.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (b)
+Solution: The green plants may all lie outside trees, so conclusion I is not definite. Conversion of "all trees are plants" gives some plants are trees, so the answer is Only II follows.
+Source: PYQ-style
+
+21. Statements: Some A are B. No B is C. All C are D.
+Conclusions: I. Some A are not C. II. Some D are not B.
+(a) Both follow (b) Only II follows (c) Only I follows (d) Neither follows
+Answer: (a)
+Solution: The A-portion inside B cannot be C, so some A are not C; likewise all D that are C lie outside B, so some D are not B. Both follow, so the answer is Both follow.
+Source: PYQ-style
+
+22. Statements: All P are Q. Some Q are R. No R is S.
+Conclusions: I. Some P are R. II. Some Q are not S. III. No P is S.
+(a) Only II and III follow (b) Only I and II follow (c) Only II follows (d) All follow
+Answer: (c)
+Solution: The traps are I and III — the R-portion of Q may exclude all P, so nothing definite links P with R or S. But the Q that are R cannot be S, so some Q are not S, and the answer is Only II follows.
+Source: PYQ-style
+
+23. Statements: Some cats are rats. All rats are bats. No bat is a mat.
+Conclusions: I. Some cats are bats. II. No rat is a mat. III. Some cats are not mats.
+(a) Only I and II follow (b) Only II and III follow (c) All follow (d) Only I and III follow
+Answer: (c)
+Solution: Cat-rats are bats, giving I; rats ⊂ bats and bats exclude mats, giving II; the cat-rats are bats and hence not mats, giving III. All three follow, so the answer is All follow.
+Source: PYQ-style
+
+24. Statements: All X are Y. Some Y are Z. No Z is W.
+Conclusions: I. Some X are W. II. No X is W.
+(a) Only I follows (b) Either I or II follows (c) Only II follows (d) Neither follows
+Answer: (b)
+Solution: No definite path connects X and W — the Z-portion of Y may or may not contain X — but the two conclusions form a complementary pair about X and W. Exactly one must hold, so the answer is Either I or II follows.
+Source: PYQ-style
+
+25. Statements: Some M are N. All N are O. Some O are P. No P is Q.
+Conclusions: I. Some M are O. II. Some O are not Q. III. Some N are P.
+(a) Only I follows (b) Only I and II follow (c) Only II and III follow (d) All follow
+Answer: (b)
+Solution: The trap is III — the P-portion of O may exclude all N, so no N–P link is definite. M that are N are O (I follows), and the O that are P are not Q (II follows), so the answer is Only I and II follow.
+Source: PYQ-style

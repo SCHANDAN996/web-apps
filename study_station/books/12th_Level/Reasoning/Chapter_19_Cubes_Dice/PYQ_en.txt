@@ -1,0 +1,122 @@
+# 📊 PYQ Analysis — Cubes & Dice (Non-verbal Reasoning)
+
+## 1. How Exams Test This Chapter (Pattern Analysis)
+
+Cubes & Dice is a **permanent fixture** in the Non-verbal Reasoning section of SSC (CGL, CHSL, MTS, GD), Railway (NTPC, Group D), Banking (IBPS, SBI) and State PCS prelims. Questions from this chapter appear regularly in SSC and Railway exams — usually a small number per paper. It is a compact chapter with a **near-guaranteed presence**, which makes it one of the highest return-on-effort topics in reasoning.
+
+### Sub-topics that repeat most often
+
+1. **Standard vs. Ordinary (General) Dice** — identifying whether a die is standard (opposite faces sum to 7) or ordinary, and finding the face opposite to a given face. *This is the single most repeated question type.*
+2. **Two/three positions of the same die** — deducing opposite faces from different views of one die.
+3. **Painted cube cut into smaller cubes** — counting cubes with 3, 2, 1, or 0 painted faces (classic n³ cube problems).
+4. **Open dice / dice nets** — which face is opposite which when a sheet is folded into a die.
+5. **Counting cubes in a stack/figure** — hidden cubes, minimum number of cubes.
+6. **Numbered/lettered dice with conditions** — "if 1 is at bottom, what is on top" type.
+
+### Exam-wise flavour (in words, not numbers)
+
+- **SSC CGL / CHSL:** Loves the *two-positions-of-a-die* format and *painted cube cutting* (n = 3, 4, 5). Options are close numbers to trap hasty solvers.
+- **SSC MTS / GD, Railway Group D:** Mostly *opposite face from two views* and simple *standard dice* rules — direct, formula-based.
+- **RRB NTPC:** Mix of dice views and cube-counting in stacked figures.
+- **Banking (IBPS/SBI Clerk-PO prelims):** Rare but appears as *net folding* or *coded dice*; when it appears, it is usually easy.
+
+### The Examiner's Traps (psychological hooks)
+
+- **Trap 1 — "Looks standard, isn't":** A die is drawn where two visible adjacent faces sum to 7 (e.g., 3 and 4 side by side). Students blindly apply the standard-dice rule. Remember: in a *standard* die, opposite faces sum to 7 — adjacent faces never do. If two adjacent faces sum to 7, it is an **ordinary die**.
+- **Trap 2 — Common face confusion:** When two views share one common face, students rotate mentally in the wrong direction and pick the mirror-image answer.
+- **Trap 3 — Painted cube edge cases:** Forgetting that corner cubes have **3** painted faces, or miscounting cubes with exactly 2 painted faces (formula 12(n−2), not 12n).
+- **Trap 4 — Close options:** Options like 8, 12, 16, 24 for painted-face counts — one arithmetic slip lands on a wrong but plausible number.
+- **Trap 5 — Net folding:** Choosing the face that is *adjacent* in the flat net but becomes *opposite* after folding.
+- **Trap 6 — Hidden cubes:** In stacked-cube figures, forgetting the cubes that are not visible but must exist to support the upper ones.
+
+---
+
+## 2. Top 10 High-Yield Questions (with Solutions & Trap Analysis)
+
+**Q1.** Two positions of the same die are shown. In position I, faces 1, 2, 3 are visible; in position II, faces 2, 3, 5 are visible. Which number is on the face opposite to 2?
+(a) 1 (b) 3 (c) 5 (d) 6
+**Answer:** (d)
+**Solution:** Faces 2 and 3 are common to both views. The remaining visible faces are 1 and 5, so 1 is opposite 5. Since 2 is adjacent to 1, 3, and 5, the only number left for its opposite is 6 (a die has faces 1–6).
+**Trap:** Students pick (c) 5, assuming the "different" faces in the two views are opposite — but that rule applies to the *non-common* faces (1 opp 5), not to the common one.
+**Source:** PYQ-style
+
+**Q2.** A die has faces numbered 1 to 6. If the numbers on opposite faces add up to 7, and face 2 is on top with face 3 facing you, which number is on the right-hand face?
+(a) 1 (b) 4 (c) 5 (d) Cannot be determined
+**Answer:** (d)
+**Solution:** Knowing only that opposite faces sum to 7 fixes the pairs (1,6), (2,5), (3,4) but not the *orientation* (clockwise or anticlockwise arrangement) around the die. Both 1 and 6 could be on the right depending on the die's handedness.
+**Trap:** The "standard dice" rule alone never fixes left/right faces. Examiners bank on students forcing a definite answer.
+**Source:** PYQ-style
+
+**Q3.** A cube is painted red on all faces and cut into 64 equal smaller cubes. How many small cubes have exactly two painted faces?
+(a) 8 (b) 12 (c) 24 (d) 32
+**Answer:** (c)
+**Solution:** 64 = 4³, so n = 4. Cubes with exactly two painted faces lie on edges (excluding corners): 12(n−2) = 12 × 2 = 24.
+**Trap:** Option (b) 12 catches students who forget to multiply by (n−2); option (a) 8 is the corner count (3 painted faces).
+**Source:** PYQ-style
+
+**Q4.** In the same 4×4×4 painted cube, how many small cubes have no painted face at all?
+(a) 4 (b) 8 (c) 16 (d) 27
+**Answer:** (b)
+**Solution:** Unpainted cubes form the inner cube: (n−2)³ = 2³ = 8.
+**Trap:** Students compute (n−1)³ = 27 (option d) by removing only one layer instead of one layer from *each* side.
+**Source:** PYQ-style
+
+**Q5.** Two views of a die show: View I — A on top, B and C on sides; View II — A on top, D and E on sides. Which letter is opposite A?
+(a) B (b) F (c) D (d) E
+**Answer:** (b)
+**Solution:** A is adjacent to B, C, D, E — four different faces. A die face has exactly 4 adjacent faces, so the only remaining letter, F, must be opposite A.
+**Trap:** When one face is common and in the *same position* in both views, the four side faces are all adjacent to it — students often try the rotation rule unnecessarily and get confused.
+**Source:** PYQ-style
+
+**Q6.** A die shows 1, 2, 3 on three faces meeting at a corner. Is this die standard or ordinary?
+(a) Standard (b) Ordinary (c) Both (d) Cannot say
+**Answer:** (a)
+**Solution:** Faces 1, 2, 3 are mutually adjacent (meeting at one corner), and none of these pairs sums to 7 (1+2=3, 2+3=5, 1+3=4), so the standard-dice condition — opposite pairs sum to 7 — is not violated. The standard pairing (1-6, 2-5, 3-4) allows 1, 2, 3 to meet at a corner. The die is standard.
+**Trap:** The mere sight of small consecutive numbers tempts students to shout "ordinary." Check whether any *adjacent* pair sums to 7 — that alone disqualifies a standard die.
+**Source:** PYQ-style
+
+**Q7.** A wooden cube of side 3 cm is painted black on one pair of opposite faces, green on another pair, and red on the third pair. It is cut into 27 cubes of 1 cm side. How many small cubes have exactly one face painted?
+(a) 3 (b) 6 (c) 9 (d) 12
+**Answer:** (b)
+**Solution:** For n = 3, single-painted cubes are the centre cubes of each face: 6(n−2)² = 6 × 1 = 6. (Colours don't change the count — every face has exactly one centre cube.)
+**Trap:** The three-colour detail is decorative; students waste time tracking colours when the formula depends only on n.
+**Source:** PYQ-style
+
+**Q8.** ⏱️ *Skip-rule candidate.* Four different views of the same die are given, each showing three faces with symbols (★, ◆, ●, ▲, ■, ○). Which symbol is opposite ◆?
+(a) ★ (b) ● (c) ■ (d) ○
+**Answer:** (c)
+**Solution:** From the four views, list all faces seen adjacent to ◆. If ◆ appears with ★, ●, ▲, ○ across the views, the only unseen symbol ■ is opposite it. With four views, cross-check at least two views before concluding.
+**Trap & Skip Rule:** Four-view dice puzzles are the most time-hungry type in this chapter. If the adjacency list is not clear within **45 seconds**, mark it for review and move on — the next question is likely a 15-second painted-cube formula problem worth the same 1 mark.
+**Source:** PYQ-style
+
+**Q9.** A net of a cube shows six squares in a row of four with one square above the second and one below the third. When folded, which face is opposite the top flap?
+(a) The first square of the row (b) The third square of the row (c) The bottom flap (d) The fourth square of the row
+**Answer:** (c)
+**Solution:** The four squares in a row fold into a tube (square 1 opposite square 3, square 2 opposite square 4). The two single flaps attached to the strip fold to close the two open ends of the tube — they become opposite faces. So the top flap is opposite the bottom flap.
+**Trap:** Students assume flaps attach to their neighbouring strip faces as opposites; in fact neighbours in a net are almost always *adjacent* in the cube.
+**Source:** PYQ-style
+
+**Q10.** ⏱️ *Skip-rule candidate.* A stack of identical cubes is drawn: 3 cubes in the bottom row, 2 in the middle, 1 on top (a staircase viewed from the front). What is the minimum number of cubes in the stack?
+(a) 6 (b) 7 (c) 9 (d) 10
+**Answer:** (a)
+**Solution:** If the figure is a single-cube-deep staircase, the visible cubes alone suffice: 3 + 2 + 1 = 6. "Minimum" means assume no hidden cubes behind unless support demands them — here every upper cube rests directly on a lower one.
+**Trap & Skip Rule:** Options include 9 and 10 to catch students who imagine a full 3D pyramid. But if the figure shows depth (isometric view with hidden backs), counting becomes error-prone — apply the **45-second rule**: if you cannot map the hidden layer quickly, skip and return. Never spend 2 minutes on a 1-mark counting figure.
+**Source:** PYQ-style
+
+---
+
+## 3. The 15-Second / 45-Second Rule — Review for This Chapter
+
+- **15-second questions (attempt instantly):**
+  - Standard-dice opposite face (7 − given face).
+  - Painted cube counts with formula: corners = 8, two-face = 12(n−2), one-face = 6(n−2)², zero-face = (n−2)³.
+  - Two views with one common face in the same position → the two non-common visible faces are opposite.
+- **45-second questions (attempt with care, then decide):**
+  - Two views with the common face in *different* positions (needs mental rotation).
+  - Net-folding questions (draw a quick cross-sketch).
+- **Skip-and-return candidates:**
+  - Four-view dice puzzles (Q8 type).
+  - 3D stacked-cube counting with hidden layers (Q10 type).
+  - Any question where you must track three or more faces simultaneously — the error rate exceeds the mark value under time pressure.
+
+**Golden rule:** In Cubes & Dice, most exam questions are formula- or rule-based (15-second type). Secure those first; the chapter's reputation for difficulty comes entirely from the remaining rotation- and counting-based questions, which you should attack only in the second pass.

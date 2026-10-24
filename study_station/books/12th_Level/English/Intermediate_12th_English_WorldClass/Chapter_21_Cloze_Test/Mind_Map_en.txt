@@ -1,0 +1,34 @@
+```mermaid
+graph TD
+    A["Cloze Test<br>Fill the Blanks in a Passage"] --> B["Step 1: Read Whole Passage First"]
+    A --> C["Step 2: Identify Blank Type"]
+    A --> D["Step 3: Eliminate & Verify"]
+    A --> E["Common Traps"]
+    A --> F["Time Strategy"]
+
+    B --> B1["Grasp the Tone:<br>Positive / Negative / Neutral"]
+    B --> B2["Note the Tense of the Passage"]
+    B --> B3["Understand the Central Idea"]
+
+    C --> C1["Grammar Blank<br>Article / Tense / Preposition"]
+    C --> C2["Vocabulary Blank<br>Word Meaning in Context"]
+    C --> C3["Connector Blank<br>although / however / because"]
+    C --> C4["Collocation Blank<br>Fixed Word Pairs"]
+
+    C1 --> C1a["Check Subject-Verb Agreement"]
+    C1 --> C1b["Check Article: a / an / the"]
+    C2 --> C2a["Match Word with Tone of Passage"]
+    C3 --> C3a["Contrast = but / however<br>Cause = because / since"]
+
+    D --> D1["Remove Grammatically Wrong Options"]
+    D --> D2["Remove Opposite-Tone Options"]
+    D --> D3["Read Sentence Again with Chosen Word"]
+
+    E --> E1["Trap 1: Sound-Right Word<br>Fits Alone, Fails in Context"]
+    E --> E2["Trap 2: Similar-Looking Words<br>accept / except, affect / effect"]
+    E --> E3["Trap 3: Ignoring the Next Sentence<br>Answer Often Hides Ahead"]
+
+    F --> F1["Fact / Grammar Blanks: 15 Seconds"]
+    F --> F2["Tone / Inference Blanks: 45 Seconds"]
+    F --> F3["Skip Hard Blank, Return After Passage is Clear"]
+```

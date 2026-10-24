@@ -1,3 +1,206 @@
-# Chapter: Algebra, Level: intermediate
+# 🪄 Short Tricks — Algebra (Memory Tricks)
 
-@content_agent lang=en level=intermediate role='mnemonic specialist' 'Create 10-15 fun and outrageous memory tricks (Mnemonics) for all key formulas, rules and concepts of Algebra. Each trick should be unforgettable. Use Keyword Method, Loci, or Acronyms wherever possible. Present each trick in a separate box.'
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 1 — The "SQUAD" Expansion**          │
+│                                             │
+│ (a + b)² = a² + 2ab + b²                    │
+│                                             │
+│ **Keyword: "SQUAD"**                        │
+│ **S**quare first, **QU**ick double-product, │
+│ **A**dd, square the **D**ud (last term).    │
+│                                             │
+│ Say it: "Square, Double, Square!"           │
+│ (a−b)²? Same SQUAD, but the double-product  │
+│ wears a MINUS hat.                          │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 2 — Difference of Squares = "SOAP"**│
+│                                             │
+│ a² − b² = (a + b)(a − b)                    │
+│                                             │
+│ **Loci trick:** Imagine a bar of SOAP.      │
+│ One side is slippery (+), one side is       │
+│ rough (−). Two squares minus each other     │
+│ ALWAYS split into a plus-bracket and a      │
+│ minus-bracket. "Squares Apart → Plus And    │
+│ Minus" → **SAP-PM → SOAP!**                 │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 3 — Cubes: "CUBE-Sign-CUBE"**       │
+│                                             │
+│ a³ + b³ = (a + b)(a² − ab + b²)             │
+│ a³ − b³ = (a − b)(a² + ab + b²)             │
+│                                             │
+│ **Rule: "Same sign first, OPPOSITE in the   │
+│ middle, Always Plus at the end" → SOP-AP**  │
+│ First bracket copies the cube's sign; the   │
+│ middle term of the second bracket flips it; │
+│ the last term is ALWAYS positive.           │
+│ Memory line: "Copy, Flip, Always Plus!"     │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 4 — The Quadratic Formula Song**    │
+│                                             │
+│ x = [−b ± √(b² − 4ac)] / 2a                 │
+│                                             │
+│ **Sing to "Pop Goes the Weasel":**          │
+│ "x equals minus b, plus or minus the square │
+│ root, of b-squared minus 4-a-c, ALL over    │
+│ 2-a!"                                       │
+│ Sing it 3 times — you'll never forget it.   │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 5 — Discriminant = "The Bouncer"**  │
+│                                             │
+│ D = b² − 4ac                                │
+│                                             │
+│ **Loci:** D is the bouncer at the club door │
+│ of "Real Roots":                            │
+│ • D > 0 → TWO guests walk in (2 real roots) │
+│ • D = 0 → ONE guest, twins merged (equal)   │
+│ • D < 0 → NOBODY gets in (no real roots)    │
+│ "Positive Pair, Zero One, Negative None!"   │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 6 — Sum & Product of Roots: "Viète's│
+│ Vampire"**                                  │
+│                                             │
+│ Sum of roots = −b/a   Product = c/a         │
+│                                             │
+│ **Trick: "SUM Steals the Sign"**            │
+│ The SUM is a thief — it steals b's sign     │
+│ (that's why minus). The PRODUCT is honest — │
+│ it takes c exactly as it is.                │
+│ "Sum flips, Product stays!"                 │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 7 — (a+b)³ : "1-3-3-1 Pascal        │
+│ Power"**                                    │
+│                                             │
+│ (a + b)³ = a³ + 3a²b + 3ab² + b³            │
+│                                             │
+│ **Keyword: "1331"** — a palindrome number!  │
+│ Coefficients read the same forwards and     │
+│ backwards. Powers of a go DOWN (3,2,1,0),   │
+│ powers of b go UP (0,1,2,3).                │
+│ "a descends, b ascends, 1331 defends!"      │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 8 — a³ + b³ + c³ − 3abc : "The     │
+│ Zero Trap"**                                │
+│                                             │
+│ If a + b + c = 0, then a³ + b³ + c³ = 3abc  │
+│                                             │
+│ **Story:** Three friends' pockets sum to    │
+│ ZERO (all broke together). Their cubes      │
+│ panic and merge into 3 times their product. │
+│ **Exam alert:** Whenever you see a+b+c = 0, │
+│ instantly write a³+b³+c³ = 3abc.            │
+│ "Zero sum → triple product!"                │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 9 — Laws of Exponents: "PEMDAS for  │
+│ Powers"**                                   │
+│                                             │
+│ aᵐ × aⁿ = aᵐ⁺ⁿ    aᵐ ÷ aⁿ = aᵐ⁻ⁿ           │
+│ (aᵐ)ⁿ = aᵐⁿ       a⁰ = 1                    │
+│                                             │
+│ **Acronym: "MAP-Z"**                        │
+│ **M**ultiply → **A**dd powers               │
+│ **A**part (divide) → **P**ull apart         │
+│ (subtract)                                  │
+│ **P**ower of power → **Z**ip them (multiply)│
+│ And anything to power 0 = 1 ("Zero → One!") │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 10 — Surds: "Root = Half-Brother    │
+│ of Power"**                                 │
+│                                             │
+│ √a = a^(1/2),  ⁿ√a = a^(1/n)                │
+│                                             │
+│ **Loci:** Picture the root symbol √ as a    │
+│ DIVIDE sign wearing a disguise. Every root  │
+│ is secretly a fraction power.               │
+│ "Root n = power 1-over-n. The root is a     │
+│ fraction in a mask!"                        │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 11 — Factorising Quadratics: "Split │
+│ the Middle — Find the Criminal Pair"**      │
+│                                             │
+│ x² + 5x + 6 → need two numbers:             │
+│ product = 6, sum = 5 → 2 and 3.             │
+│                                             │
+│ **Detective rule: "Multiply the ends,       │
+│ hunt the pair that adds to the middle."**   │
+│ Multiply a×c first (the "ends"), then find  │
+│ the two suspects whose sum is b.            │
+│ "Ends multiply, middle adds!"               │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 12 — (a + b)² − (a − b)² = 4ab      │
+│ "The 4ab Bridge"**                          │
+│                                             │
+│ **Trick:** The plus-square and minus-square │
+│ are twins; their difference is always       │
+│ FOUR times the product.                     │
+│ Also: (a+b)² = (a−b)² + 4ab                 │
+│ **Memory line: "Twins differ by 4ab —       │
+│ the bridge between them!"**                 │
+│ Great for: given a+b and ab, find a−b.      │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 13 — Inequality Sign Flip: "The     │
+│ Negative Mirror"**                          │
+│                                             │
+│ Multiplying/dividing an inequality by a     │
+│ NEGATIVE number flips the sign.             │
+│                                             │
+│ **Loci:** A negative number is a MIRROR.    │
+│ Walk through it and everything reverses:    │
+│ > becomes <, and < becomes >.               │
+│ "Negative crosses, sign reverses!"          │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 14 — AP nth term & Sum: "a + (n−1)d │
+│ — The Ladder"**                             │
+│                                             │
+│ nth term: Tₙ = a + (n − 1)d                 │
+│ Sum: Sₙ = n/2 [2a + (n−1)d] = n/2 (a + l)   │
+│                                             │
+│ **Loci:** A ladder with n rungs. To reach   │
+│ rung n from rung 1, you climb only (n−1)    │
+│ gaps! "n rungs, n−1 steps."                 │
+│ For the sum: "Average of first & last,      │
+│ times how many" → Sₙ = n(a + l)/2.          │
+│ "First plus Last, halved, times Count!"     │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 15 — GP: "Ratio Rules Everything"** │
+│                                             │
+│ nth term: Tₙ = arⁿ⁻¹                        │
+│ Sum: Sₙ = a(rⁿ − 1)/(r − 1)  (r > 1)        │
+│ Infinite sum (|r| < 1): S∞ = a/(1 − r)      │
+│                                             │
+│ **Keyword: "r is the King"**                │
+│ • r > 1 → kingdom grows (use rⁿ − 1 on top) │
+│ • r < 1 → kingdom shrinks to a/(1 − r)      │
+│ "Big r: r-minus-1 below. Tiny r forever:    │
+│ 1-minus-r below!"                           │
+└─────────────────────────────────────────────┘

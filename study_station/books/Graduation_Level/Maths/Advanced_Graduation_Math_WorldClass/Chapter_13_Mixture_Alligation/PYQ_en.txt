@@ -1,0 +1,124 @@
+# 📊 PYQ Analysis — Mixture & Alligation (Advanced Level)
+
+## 1. How Examiners Test This Chapter
+
+Mixture & Alligation is one of the most reliable scoring areas in quantitative aptitude. Across SSC CGL Tier-II, IBPS PO Mains, CAT, UPSC CSAT and State PCS papers, the questions cluster around a small set of recurring patterns. Master the pattern, and the question solves itself.
+
+### The recurring question families
+
+**Family 1 — The classic Alligation cross.**
+Two varieties (rice, milk, spirit) at two prices/concentrations are mixed to get a mean value. The examiner expects you to apply the cross rule in under 30 seconds. This is the single most repeated format.
+
+**Family 2 — Repeated replacement.**
+"A vessel contains pure milk. x litres are drawn out and replaced with water; this is repeated n times." The formula Final quantity = P(1 − x/V)ⁿ is tested directly, sometimes with two or three operations, sometimes asking for the ratio of milk to water at the end.
+
+**Family 3 — Mixing two mixtures.**
+Two vessels already contain milk-and-water in given ratios; they are combined. The trap: students average the ratios directly instead of converting to fractions of the whole.
+
+**Family 4 — Profit through adulteration.**
+A dishonest milkman mixes water (free) and sells at cost price of pure milk. Profit % = (water/milk) × 100. Frequently combined with a faulty-weight twist at higher difficulty.
+
+**Family 5 — Alligation applied beyond mixtures.**
+Average salary of officers and clerks, average marks of two sections, speed of two groups, even interest rates on two investments. The cross rule is secretly an average-splitting tool — CAT and CSAT love disguising it.
+
+**Family 6 — Quantity to be added/removed to change a ratio.**
+"How much water must be added to 40 L of a 3:1 mixture to make it 2:1?" Solved by fixing the unchanged component.
+
+### The examiner's favourite traps
+
+- **Near-correct statements:** options differing by a small amount (e.g., 20 L vs 24 L) to catch arithmetic slips in the cross.
+- **Ratio vs fraction confusion:** "milk : water = 3:1" misread as "milk is 1/3 of the mixture."
+- **Replacement trap:** applying (1 − x/V) only once when the operation happens twice or thrice.
+- **Selling-price trap:** profit computed on the mixture's cost instead of recognising water costs nothing.
+- **Negative wording:** "which of the following is NOT possible" — students pick the first plausible value.
+- **Unit mismatch:** litres vs millilitres, kg vs grams, price per kg vs price per litre.
+
+### Time strategy
+
+- Easy alligation cross: target 30–40 seconds.
+- Replacement formula questions: 45–60 seconds if the formula is memorised; skip-and-return if it must be derived.
+- Two-mixture combinations: 60–90 seconds; convert ratios to fractions first, always.
+
+---
+
+## 2. Top 10 High-Yield Questions (with solutions)
+
+**Q1.** In what ratio must rice at ₹42 per kg be mixed with rice at ₹58 per kg so that the mixture is worth ₹50 per kg?
+(a) 1:1 (b) 2:1 (c) 1:2 (d) 3:2
+**Answer: (a)**
+**Solution:** By alligation: (58 − 50) : (50 − 42) = 8 : 8 = 1:1.
+**Hook:** The mean ₹50 is exactly midway, so the ratio must be 1:1 — a 10-second question if you notice the symmetry; a trap for those who set up full equations.
+**Source:** PYQ-style
+
+**Q2.** A vessel contains 60 L of pure milk. 12 L is drawn out and replaced with water. This operation is repeated once more. How much milk remains?
+(a) 36 L (b) 38.4 L (c) 40 L (d) 42.4 L
+**Answer: (b)**
+**Solution:** Milk left = 60(1 − 12/60)² = 60 × (4/5)² = 60 × 16/25 = 38.4 L.
+**Hook:** Option (a) 36 L tempts students who subtract 12 L twice (60 − 24). Replacement removes only a *fraction* of the milk each time, never a fixed amount.
+**Source:** PYQ-style
+
+**Q3.** Two vessels contain milk and water in the ratios 5:2 and 7:4 respectively. Equal volumes from both are mixed. The ratio of milk to water in the new mixture is:
+(a) 12:6 (b) 52:25 (c) 35:22 (d) 2:1
+**Answer: (b)**
+**Solution:** Take equal volumes of 1 L from each. Milk = 5/7 + 7/11 = (55 + 49)/77 = 104/77; water = 2/7 + 4/11 = (22 + 28)/77 = 50/77. Ratio = 104 : 50 = 52 : 25.
+**Hook:** Option (a) is the classic trap — adding numerators and denominators (5+7):(2+4) = 12:6. Ratios with different total parts can never be added directly; convert each to a fraction of its own whole first.
+**Source:** PYQ-style
+
+**Q4.** A milkman mixes water with milk and sells the mixture at the cost price of pure milk, gaining 25%. The ratio of milk to water in the mixture is:
+(a) 4:1 (b) 5:1 (c) 3:1 (d) 1:4
+**Answer: (a)**
+**Solution:** Water is free, so profit % = water/milk × 100 = 25 → water : milk = 1:4, i.e., milk : water = 4:1.
+**Hook:** Option (d) reverses the ratio — the examiner bets on students writing the answer in the order they computed it, not the order asked.
+**Source:** PYQ-style
+
+**Q5.** The average salary of officers in a firm is ₹60,000 and of clerks is ₹24,000. The overall average is ₹36,000. The ratio of officers to clerks is:
+(a) 1:2 (b) 2:1 (c) 1:3 (d) 3:1
+**Answer: (a)**
+**Solution:** Alligation: officers : clerks = (36,000 − 24,000) : (60,000 − 36,000) = 12,000 : 24,000 = 1:2.
+**Hook:** This is a mixture question wearing an averages costume. Students who don't see the alligation structure waste minutes on algebra.
+**Source:** PYQ-style
+
+**Q6.** How many litres of water must be added to 40 L of a milk-water mixture containing milk and water in the ratio 3:1, so that the ratio becomes 2:1?
+(a) 5 L (b) 8 L (c) 10 L (d) 12 L
+**Answer: (a)**
+**Solution:** Milk = 30 L (unchanged), water = 10 L. New ratio 2:1 means water must be 30/2 = 15 L. Water to add = 15 − 10 = 5 L.
+**Hook:** The invariant is milk, not the total. Students who anchor on the total volume (40 L) land on the wrong options.
+**Source:** PYQ-style
+
+**Q7.** A 100 L mixture of milk and water contains 20% water. How much water must be added so that water becomes 25% of the new mixture?
+(a) 5 L (b) 20/3 L (c) 25/3 L (d) 10 L
+**Answer: (b)**
+**Solution:** Milk = 80 L stays fixed. In the new mixture milk is 75%, so total = 80 × 100/75 = 320/3 L. Water added = 320/3 − 100 = 20/3 L.
+**Hook:** Option (a) 5 L tempts those who think "20% → 25% means add 5% of 100." Percentages are of *different* totals before and after — the classic CSAT trap.
+**Source:** PYQ-style
+
+**Q8.** A grocer mixes two varieties of tea costing ₹300/kg and ₹400/kg and sells the mixture at ₹385/kg, gaining 10%. The mixing ratio (cheaper : dearer) is:
+(a) 2:3 (b) 3:2 (c) 1:1 (d) 4:3
+**Answer: (c)**
+**Solution:** Cost price of mixture = 385 × 100/110 = ₹350/kg. Alligation: cheaper : dearer = (400 − 350) : (350 − 300) = 50 : 50 = 1:1.
+**Hook:** The double layer — profit % first, alligation second. Students who apply the cross directly on the selling price ₹385 get a ratio that isn't among the options. Always compute CP first, then cross.
+**Source:** PYQ-style
+
+**Q9.** From a cask of wine, 8 L is drawn and replaced with water. This is done three times. The final ratio of wine to water is 343:169. The original capacity of the cask is:
+(a) 32 L (b) 40 L (c) 48 L (d) 64 L
+**Answer: (d)**
+**Solution:** Wine fraction = 343/(343 + 169) = 343/512 = (7/8)³. So (1 − 8/V)³ = (7/8)³ → 1 − 8/V = 7/8 → 8/V = 1/8 → V = 64 L.
+**Hook:** Recognising 343 = 7³ and 512 = 8³ is the entire question. The examiner tests cube-root pattern recognition, not computation.
+**Source:** PYQ-style
+
+**Q10.** A sum of ₹10,000 is lent partly at 8% and partly at 12% simple interest. The total interest after one year is ₹920. The ratio of the two parts is:
+(a) 7:3 (b) 3:7 (c) 2:3 (d) 3:2
+**Answer: (a)**
+**Solution:** Overall rate = 920/10,000 × 100 = 9.2%. Alligation: (12 − 9.2) : (9.2 − 8) = 2.8 : 1.2 = 7:3 (8% part : 12% part).
+**Hook:** Alligation on interest rates — the question never mentions "mixture," yet it is one. CAT and PO Mains routinely hide the cross rule inside interest, speed and average problems.
+**Source:** PYQ-style
+
+---
+
+## 3. Key Takeaways
+
+1. The alligation cross appears in disguise (averages, interest, speed) more often than in plain mixture form — train yourself to spot the "two groups, one mean" structure.
+2. Replacement questions are pure formula recall: P(1 − x/V)ⁿ. Deriving it in the exam is a time loss.
+3. Whenever one component stays fixed (milk when water is added), anchor your equation on that invariant.
+4. Never add ratios with different total parts — convert to fractions of the whole first.
+5. Check the *order* of the ratio asked before marking the answer; reversed-ratio options are the cheapest trap in this chapter.

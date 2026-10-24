@@ -1,0 +1,149 @@
+# 📊 PYQ Analysis — Mensuration (Advanced Level)
+
+## How Exams Test This Chapter
+
+Mensuration is one of the most reliable scoring areas in UPSC CSAT, SSC CGL Tier-II, IBPS PO Mains, CAT and State PCS papers. Examiners rarely ask you to merely "apply a formula." Instead, they wrap the formula inside a situation — a painted cube, a rolled-up sheet, a wire bent into two shapes, water flowing into a tank. The maths is usually one or two lines; the real test is whether you *see* the geometry hidden in the words.
+
+### The recurring question patterns
+
+**1. The "change in dimension" family.**
+"If the radius is doubled, what happens to volume?" or "length increased by 20%, breadth decreased by 20% — net effect on area?" These appear constantly. The trap: students add percentages (20 − 20 = 0) instead of multiplying factors (1.2 × 0.8 = 0.96, i.e., a 4% *decrease*). For 3D, a doubled radius makes volume 8 times, not 2 or 4.
+
+**2. The "cost / painting / fencing" wrapper.**
+Area and volume are disguised as money: cost of carpeting a room, painting the walls of a hall (walls only — exclude floor and ceiling!), fencing a field, tin needed for a closed box. The trap is almost always *which surfaces count*. A room's "walls" = lateral surface area of a cuboid = 2h(l + b). An open tank excludes the top.
+
+**3. The "melt and recast" family.**
+A metallic sphere is melted into small cones; a cylinder is recast into spheres. Volume is conserved — that single idea solves everything. The trap: students equate *surface areas* instead of volumes, or forget that the number of small solids = big volume ÷ small volume.
+
+**4. The "surface area after cutting/joining" family.**
+A cube cut into 64 identical smaller cubes — how many have exactly two painted faces? Or two cubes joined face-to-face — what is the new surface area? The trap: joining two cubes does NOT double the surface area; two faces get hidden (subtract 2a²).
+
+**5. The "wire / rope reshaped" family.**
+A wire bent from a square into a circle — compare areas. Perimeter/circumference stays constant. The trap: assuming area also stays constant. For a fixed perimeter, the circle always encloses the *maximum* area — a favourite CSAT fact.
+
+**6. The "path around / inside a field" family.**
+A path of uniform width runs around (or inside) a rectangular park. Outer area minus inner area. The trap: the path adds width on *both* sides, so each dimension changes by 2w, not w.
+
+**7. The "cylinder from a sheet / cone from a sector" family.**
+A rectangular sheet rolled into a cylinder; a sector of a circle folded into a cone. The trap: when a sheet is rolled, one side becomes the height and the other becomes the *circumference* (2πr), not the radius or diameter. For a sector, the arc length becomes the base circumference and the sector radius becomes the slant height.
+
+**8. The "rainfall / water flow" family.**
+Rain falling on a roof drains into a tank; water flows through a pipe into a cistern. Volume collected = base area × height of water. The trap: unit conversion — rainfall in cm over an area in m² must be converted before multiplying.
+
+**9. The "ratio" family.**
+Two cylinders have radii in ratio 2:3 and heights in ratio 5:4 — find the ratio of volumes. The trap: forgetting that radius is *squared* in the formula. Volume ratio = (2² × 5) : (3² × 4) = 20 : 36 = 5 : 9.
+
+**10. The "diagonal" family.**
+Diagonal of a square or cube given, area/volume asked. The trap: using the diagonal as if it were the side. Remember: side = diagonal/√2 (square), space diagonal of cube = a√3.
+
+### The examiner's favourite traps (psychological hooks)
+
+- **Almost-right statements:** "Doubling the radius doubles the volume" — sounds plausible, is false (volume becomes 8×). Examiners love statements that are *directionally* right but *magnitude* wrong.
+- **Unit mismatch:** dimensions in metres, options in cm²; rainfall in cm, tank in m. The correct numerical value with the wrong unit is always one of the options.
+- **Open vs closed:** "open box," "walls of a room," "hollow cylinder" — one word changes which surfaces count. The option set always contains the closed-figure answer as bait.
+- **π = 22/7 vs 3.14:** when the radius is a multiple of 7, use 22/7 — the question is designed for it. Forcing 3.14 wastes time and invites arithmetic slips.
+- **Perimeter–area confusion:** same perimeter does not mean same area. Options pair the perimeter answer with the area question.
+
+---
+
+## Top 10 High-Yield Questions (with solutions)
+
+**Q1.** The length of a rectangle is increased by 25% and its breadth is decreased by 20%. What is the percentage change in its area?
+
+(a) 5% increase (b) 0% (no change) (c) 5% decrease (d) 2.5% increase
+
+**Answer: (b)**
+**Solution:** Net factor = 1.25 × 0.80 = 1.00, so the area is unchanged.
+**Trap:** Students compute 25 − 20 = 5% increase (option a). Percentage changes on *different* dimensions multiply; they never add or subtract.
+**Source: PYQ-style**
+
+**Q2.** A solid metallic sphere of radius 6 cm is melted and recast into identical small cones, each of radius 2 cm and height 3 cm. How many cones are formed?
+
+(a) 24 (b) 36 (c) 48 (d) 72
+
+**Answer: (d)**
+**Solution:** Volume of sphere = (4/3)π(6)³ = 288π cm³. Volume of one cone = (1/3)π(2)²(3) = 4π cm³. Number = 288π ÷ 4π = 72.
+**Trap:** Equating surface areas, or forgetting the 1/3 in the cone's volume (which gives 24 — option a, the bait).
+**Source: PYQ-style**
+
+**Q3.** A cube is painted on all faces and cut into 64 identical smaller cubes. How many small cubes have exactly two painted faces?
+
+(a) 8 (b) 12 (c) 24 (d) 32
+
+**Answer: (c)**
+**Solution:** 64 = 4³, so each edge has 4 small cubes. Two-painted-face cubes lie on edges but not at corners: 12 edges × (4 − 2) = 24.
+**Trap:** Option (a) is the corner count (3 painted faces); option (b) is just the number of edges. The formula is 12(n − 2).
+**Source: PYQ-style**
+
+**Q4.** A wire is bent into a square of side 11 cm. The same wire is then bent into a circle. What is the area of the circle? (Take π = 22/7)
+
+(a) 154 cm² (b) 144 cm² (c) 121 cm² (d) 176 cm²
+
+**Answer: (a)**
+**Solution:** Wire length = 4 × 11 = 44 cm = circumference. So 2πr = 44 → r = 7 cm. Area = πr² = (22/7) × 49 = 154 cm².
+**Trap:** Assuming the area stays 121 cm² (option c — the square's area). For a fixed perimeter, the circle encloses more area than any other shape.
+**Source: PYQ-style**
+
+**Q5.** A rectangular sheet of paper 44 cm × 18 cm is rolled along its length to form a cylinder. What is the volume of the cylinder? (Take π = 22/7)
+
+(a) 2772 cm³ (b) 1386 cm³ (c) 5544 cm³ (d) 693 cm³
+
+**Answer: (a)**
+**Solution:** Rolled along the length: circumference = 44 cm, height = 18 cm. Then 2πr = 44 → r = 7 cm. Volume = πr²h = (22/7) × 49 × 18 = 2772 cm³.
+**Trap:** Taking 44 cm as the height instead of the circumference. Rolling the other way (circumference = 18 cm, height = 44 cm) gives r = 63/22 cm and volume ≈ 1134 cm³ — a different answer entirely, so the question's wording decides which side becomes the circumference.
+**Source: PYQ-style**
+
+**Q6.** A path 2 m wide runs around *inside* a rectangular park 40 m × 30 m. What is the area of the path?
+
+(a) 264 m² (b) 280 m² (c) 256 m² (d) 300 m²
+
+**Answer: (a)**
+**Solution:** Inner rectangle = (40 − 4) × (30 − 4) = 36 × 26 = 936 m². Path area = 1200 − 936 = 264 m².
+**Trap:** Subtracting only 2 m from each dimension (giving 38 × 28) — the path eats 2 m from *both* sides, so subtract 4 m. Option (b) is that exact mistake.
+**Source: PYQ-style**
+
+**Q7.** The radii of two cylinders are in the ratio 2 : 3 and their heights in the ratio 5 : 4. What is the ratio of their volumes?
+
+(a) 5 : 6 (b) 5 : 9 (c) 10 : 12 (d) 4 : 9
+
+**Answer: (b)**
+**Solution:** V = πr²h, so ratio = (2² × 5) : (3² × 4) = 20 : 36 = 5 : 9.
+**Trap:** Using r instead of r² gives (2 × 5) : (3 × 4) = 10 : 12 = 5 : 6 — option (a), the classic bait.
+**Source: PYQ-style**
+
+**Q8.** A room is 8 m long, 6 m wide and 4 m high. What is the cost of painting its four walls and ceiling at ₹25 per m²?
+
+(a) ₹4,000 (b) ₹4,800 (c) ₹5,200 (d) ₹3,700
+
+**Answer: (a)**
+**Solution:** Walls = 2h(l + b) = 2 × 4 × (8 + 6) = 112 m². Ceiling = l × b = 48 m². Total = 160 m². Cost = 160 × 25 = ₹4,000.
+**Trap:** Using total surface area 2(lb + bh + hl) = 208 m² (option c = 208 × 25) — that includes the floor, which is not painted.
+**Source: PYQ-style**
+
+**Q9.** The diagonal of a square is 10√2 cm. What is its area?
+
+(a) 100 cm² (b) 200 cm² (c) 50 cm² (d) 100√2 cm²
+
+**Answer: (a)**
+**Solution:** Side = diagonal/√2 = 10 cm. Area = 10² = 100 cm². (Shortcut: area = d²/2 = 200/2 = 100.)
+**Trap:** Treating the diagonal as the side gives 200 cm² (option b). The d²/2 shortcut kills this trap permanently.
+**Source: PYQ-style**
+
+**Q10.** Water flows through a cylindrical pipe of internal diameter 7 cm at 5 m/s into a tank. How much water (in litres) flows into the tank in 10 minutes? (Take π = 22/7)
+
+(a) 1,155 litres (b) 11,550 litres (c) 1,15,500 litres (d) 115.5 litres
+
+**Answer: (b)**
+**Solution:** Radius = 3.5 cm = 0.035 m. Length of water column in 10 min = 5 × 600 = 3000 m. Volume = πr²h = (22/7) × (0.035)² × 3000 = (22/7) × 0.001225 × 3000 = 11.55 m³. Since 1 m³ = 1000 litres, volume = 11,550 litres.
+**Trap:** The unit chain cm → m and m³ → litres is where most candidates slip; options (a) and (d) are the same digits with decimal shifts — pure unit-conversion bait.
+**Source: PYQ-style**
+
+---
+
+## Strategy Notes
+
+- **Read the last line first.** Knowing whether the question wants area, volume, cost or a ratio tells you which surfaces/dimensions matter before you start computing.
+- **Hunt the hidden constant.** In melt-recast, wire-reshaping and water-flow questions, one quantity (volume, length, perimeter) never changes. Find it and the problem collapses to one equation.
+- **Check units before touching π.** Convert everything to one unit system first; examiners place the "right digits, wrong unit" option deliberately.
+- **Memorise the scaling laws:** length ×k → area ×k², volume ×k³. Half of all Mensuration PYQs reduce to this single idea.
+- **30-second rule:** if a Mensuration problem needs more than three formula steps, you have probably missed a shortcut — re-read for the conserved quantity or a ratio approach.

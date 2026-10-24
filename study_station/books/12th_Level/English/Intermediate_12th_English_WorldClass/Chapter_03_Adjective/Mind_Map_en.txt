@@ -1,0 +1,39 @@
+```mermaid
+graph TD
+    A["ADJECTIVE<br>Word that describes a Noun or Pronoun"] --> B["Types of Adjectives"]
+    A --> C["Degrees of Comparison"]
+    A --> D["Position & Order"]
+    A --> E["Common Traps"]
+    A --> F["Exam Strategy"]
+
+    B --> B1["Adjective of Quality<br>honest, tall, beautiful"]
+    B --> B2["Adjective of Quantity<br>some, much, little, whole"]
+    B --> B3["Adjective of Number<br>five, many, few, several"]
+    B --> B4["Demonstrative<br>this, that, these, those"]
+    B --> B5["Distributive<br>each, every, either, neither"]
+    B --> B6["Interrogative<br>what, which, whose"]
+    B --> B7["Possessive<br>my, your, his, their"]
+    B --> B8["Proper Adjective<br>Indian, Chinese, French"]
+
+    C --> C1["Positive: tall, good"]
+    C --> C2["Comparative: taller, better<br>used for TWO + than"]
+    C --> C3["Superlative: tallest, best<br>used for THREE or more + the"]
+    C --> C4["Irregular: good-better-best<br>bad-worse-worst<br>much-more-most"]
+    C --> C5["No comparison: unique, perfect,<br>supreme, universal, empty"]
+
+    D --> D1["Before noun: a red car"]
+    D --> D2["After linking verb: The car is red"]
+    D --> D3["Order: OSASCOMP<br>Opinion-Size-Age-Shape-Colour-Origin-Material-Purpose"]
+    D --> D4["Enough: adjective + enough<br>but enough + noun"]
+
+    E --> E1["Trap 1: more taller / most best<br>Double comparison is WRONG"]
+    E --> E2["Trap 2: senior/junior/superior/inferior<br>take TO, not THAN"]
+    E --> E3["Trap 3: little vs a little vs the little<br>few vs a few vs the few"]
+    E --> E4["Trap 4: latter vs later<br>former vs latter"]
+    E --> E5["Trap 5: Adjective after verb of sense<br>She looks beautiful (NOT beautifully)"]
+
+    F --> F1["15-sec: Degree fill-ups,<br>article + adjective, error spotting"]
+    F --> F2["45-sec: Order of adjectives,<br>little/few confusion, sentence improvement"]
+    F --> F3["Check: Does the word describe a NOUN?<br>If yes, it is an adjective"]
+    F --> F4["Mnemonic: OSASCOMP for order<br>SJSP (Senior-Junior-Superior-Prior) take TO"]
+```

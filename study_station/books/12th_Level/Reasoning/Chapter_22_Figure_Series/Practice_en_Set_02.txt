@@ -1,0 +1,151 @@
+Questions 26–45: Easy | Questions 46–50: Moderate
+
+26. In a figure series, a dot moves one corner clockwise in each step, while a small circle moves one corner anticlockwise. If the dot is at the top-left and the circle at the bottom-right in the first figure, where will the dot be in the fourth figure?
+(a) Top-right (b) Bottom-right (c) Bottom-left (d) Top-left
+Answer: (c)
+Solution: The tempting answer is bottom-right, obtained by counting four moves instead of three. The dot moves one corner clockwise per step: top-left → top-right → bottom-right → bottom-left, so after three moves it is at the bottom-left, so the answer is bottom-left.
+Source: PYQ-style
+
+27. A series shows a triangle rotating 90° clockwise each step while the number of lines inside it increases by one. The first figure has one line. How many lines will the fifth figure contain?
+(a) 3 (b) 5 (c) 4 (d) 6
+Answer: (b)
+Solution: Many candidates answer 4 by counting the steps between figures instead of the figures themselves. The first figure already has 1 line, and each subsequent figure adds one: 1, 2, 3, 4, 5, so the answer is 5.
+Source: PYQ-style
+
+28. In a series, a square alternates between shaded and unshaded, and an arrow inside it rotates 45° clockwise each step. If the arrow points up in figure 1, in which figure will it first point down?
+(a) Figure 3 (b) Figure 5 (c) Figure 6 (d) Figure 4
+Answer: (b)
+Solution: The trap is figure 4, chosen by those who think 180° needs four 45° steps from the start. From up to down is 180°, which is 180 ÷ 45 = 4 moves, and 4 moves after figure 1 gives figure 5, so the answer is figure 5.
+Source: PYQ-style
+
+29. Four figures are given: a triangle inside a square, a square inside a pentagon, a pentagon inside a hexagon, and a hexagon inside a triangle. Which one is the odd one out?
+(a) Triangle inside square (b) Hexagon inside triangle (c) Square inside pentagon (d) Pentagon inside hexagon
+Answer: (b)
+Solution: The tempting choice is the pentagon inside hexagon because it looks the most crowded. In three figures the inner shape has exactly one side fewer than the outer shape; only the hexagon-inside-triangle has the inner shape with more sides than the outer, so the answer is hexagon inside triangle.
+Source: PYQ-style
+
+30. A figure series shows a hexagon with dots on its vertices. The number of dots follows the pattern 2, 4, 6, 8, … How many dots will the sixth figure have?
+(a) 12 (b) 8 (c) 14 (d) 10
+Answer: (a)
+Solution: Some pick 10 by stopping the count at the fifth figure. The pattern adds 2 dots per step: 2, 4, 6, 8, 10, 12, so the answer is 12.
+Source: PYQ-style
+
+31. In a series, a star moves from the centre to the corners in order: top-right, bottom-right, bottom-left, top-left, and then back to centre. If figure 1 has the star at the centre, where is it in figure 7?
+(a) Bottom-left (b) Centre (c) Top-right (d) Top-left
+Answer: (c)
+Solution: The trap answer is centre, from wrongly assuming the cycle restarts at figure 7. The full cycle is centre → top-right → bottom-right → bottom-left → top-left → centre, so figure 6 is centre and figure 7 is top-right, so the answer is top-right.
+Source: PYQ-style
+
+32. A series of figures shows a rectangle divided into parts: 2, 4, 8, 16, … How many parts will the sixth figure have?
+(a) 24 (b) 48 (c) 64 (d) 32
+Answer: (c)
+Solution: Many choose 32, which is only the fifth term. The number of parts doubles each step: 2, 4, 8, 16, 32, 64, so the answer is 64.
+Source: PYQ-style
+
+33. Four figures show arrows: one pointing up with a circle, one pointing right with a circle, one pointing down with a square, and one pointing left with a circle. Which is the odd one out?
+(a) Left arrow with circle (b) Right arrow with circle (c) Up arrow with circle (d) Down arrow with square
+Answer: (d)
+Solution: The trap is to pick an arrow based on direction, but all four directions are different anyway, so direction cannot decide. The real distinction is the attached shape: three arrows carry a circle and only one carries a square, so the answer is the down arrow with square.
+Source: PYQ-style
+
+34. In a figure series, a line segment rotates 45° anticlockwise each step. Starting horizontal (pointing right) in figure 1, what is its orientation in figure 5?
+(a) Horizontal, pointing left (b) Vertical, pointing up (c) Vertical, pointing down (d) Diagonal at 45°
+Answer: (a)
+Solution: The tempting answer is vertical up, reached by counting only two steps. Four moves of 45° give 180° total rotation, turning the right-pointing horizontal line into a left-pointing horizontal line, so the answer is horizontal, pointing left.
+Source: PYQ-style
+
+35. A series shows concentric circles: figure 1 has 1 circle, figure 2 has 2 circles, figure 3 has 3 circles, and figure 4 has 4 circles. A dot alternates between inside and outside the innermost circle, starting inside in figure 1. In figure 4, where is the dot?
+(a) Inside the innermost circle (b) On the outermost circle (c) Between the innermost and the second circle (d) Outside the outermost circle
+Answer: (c)
+Solution: The trap is "inside the innermost circle", chosen by assuming the alternation has a two-figure period ending inside. The dot goes inside, outside, inside, outside across figures 1 to 4, so in figure 4 it is outside the innermost circle but still inside the surrounding circles, so the answer is between the innermost and the second circle.
+Source: PYQ-style
+
+36. In a classification question, four figures each contain two shapes. Three have shapes touching at exactly one point; one has shapes overlapping. Which is the odd one out?
+(a) Two overlapping squares (b) Two circles touching at one point (c) Circle and triangle touching at one point (d) Two triangles touching at one point
+Answer: (a)
+Solution: The trap is to classify by shape type, but each option uses different shapes, so that fails. The distinguishing property is contact: three pairs touch at a single point while one pair overlaps, so the answer is two overlapping squares.
+Source: PYQ-style
+
+37. A figure series shows a triangle whose number of internal dots follows 1, 2, 4, 7, 11, … What is the next number of dots?
+(a) 15 (b) 16 (c) 14 (d) 17
+Answer: (b)
+Solution: Many pick 15 by assuming a constant difference of 3 after 11. The differences are 1, 2, 3, 4, so the next difference is 5: 11 + 5 = 16, so the answer is 16.
+Source: PYQ-style
+
+38. In a series, a shaded sector of a circle moves 90° clockwise each step, while the circle gains one extra radius line every second step. If figure 1 has the sector at the top, where is the shaded sector in figure 5?
+(a) Bottom (b) Right (c) Left (d) Top
+Answer: (d)
+Solution: The trap is bottom, from counting only two moves. The sector moves 90° per step: top → right → bottom → left → top, so after four moves it completes a full circle and returns to the top, so the answer is top.
+Source: PYQ-style
+
+39. Four figures show: a square with both diagonals drawn, a rectangle with both diagonals drawn, a rhombus with both diagonals drawn, and a triangle with one line from a vertex to the opposite side. Which is the odd one out?
+(a) Rhombus with both diagonals (b) Square with both diagonals (c) Rectangle with both diagonals (d) Triangle with one internal line
+Answer: (d)
+Solution: The tempting answer is the rhombus, because it looks less familiar than the square or rectangle. The real rule is that three figures are quadrilaterals with both diagonals joining opposite corners, while the triangle has only one internal line and is not a quadrilateral, so the answer is the triangle with one internal line.
+Source: PYQ-style
+
+40. A series shows letter-like symbols made of straight lines only, then one figure made with a curve. Figures: a triangle, a square, a pentagon, and a circle. Which is the odd one out?
+(a) Square (b) Triangle (c) Circle (d) Pentagon
+Answer: (c)
+Solution: Some pick the pentagon thinking "more sides means odd", but side count alone is not a valid distinction here. Three figures are polygons made only of straight lines; the circle is the only curved figure, so the answer is circle.
+Source: NCERT Class 6 Mathematics (Understanding Elementary Shapes)
+
+41. In a figure series, a small black square moves along the sides of a larger square: 1 side clockwise in step 1, 2 sides in step 2, 3 sides in step 3, and 4 sides in step 4. Starting at the top side midpoint, where is it after step 4?
+(a) Bottom side (b) Right side (c) Top side (d) Left side
+Answer: (a)
+Solution: The trap is left side, from adding only 1 + 2 + 3 = 6 moves and forgetting step 4. Total moves are 1 + 2 + 3 + 4 = 10 sides; since 8 moves (two full rounds) return to the top, the remaining 2 moves clockwise reach the bottom side, so the answer is bottom side.
+Source: PYQ-style
+
+42. A series shows figures with an increasing number of sides: 3, 4, 5, 6, … and each figure alternates shaded/unshaded, with figure 1 shaded. Which describes figure 6?
+(a) 8 sides, unshaded (b) 7 sides, shaded (c) 8 sides, shaded (d) 9 sides, unshaded
+Answer: (a)
+Solution: The double relationship traps candidates who track only sides or only shading. Figure n has n + 2 sides, so figure 6 has 8 sides, and shading alternates so even figures are unshaded, so the answer is 8 sides, unshaded.
+Source: PYQ-style
+
+43. Four figures each show a line with arrows at its ends. Three have arrows pointing in opposite directions; one has both arrows pointing the same way. Which is the odd one out?
+(a) Arrows pointing toward each other (b) One arrow up, one arrow down (c) Arrows pointing away from each other (d) Both arrows pointing right
+Answer: (d)
+Solution: The trap is "one up, one down", which looks different but still has arrows in opposite directions. Three figures have arrows in opposite directions (toward, away, or up-down); only one has both arrows pointing the same way, so the answer is both arrows pointing right.
+Source: PYQ-style
+
+44. In a series, a cross (+) rotates 45° clockwise each step while a dot orbits it, moving 90° anticlockwise from each figure to the next. In figure 1 the dot is at the top. Where is the dot in figure 3?
+(a) Bottom (b) Left (c) Right (d) Top
+Answer: (a)
+Solution: The tempting answer is left, which is only the dot's position in figure 2 after a single 90° move; right comes from wrongly taking anticlockwise as clockwise. From figure 1 to figure 3 the dot moves twice anticlockwise: top → left → bottom, so the answer is bottom.
+Source: PYQ-style
+
+45. In a classification question, four figures each contain three elements. Three figures have all three elements identical; one has two identical and one different. Which is the odd one out?
+(a) Two squares and one circle (b) Three identical circles (c) Three identical triangles (d) Three identical squares
+Answer: (a)
+Solution: The trap is to compare across figures by shape, but each figure uses different shapes, so that cannot distinguish them. Within each figure, three have all elements identical, while one mixes two squares with a circle, so the answer is two squares and one circle.
+Source: PYQ-style
+
+46. A figure series shows a flag on a pole. The flag rotates 90° clockwise each step, starting pointing right in figure 1, and alternates between triangular and rectangular every step, starting triangular in figure 1. What is figure 4?
+(a) Triangular flag pointing left (b) Rectangular flag pointing up (c) Rectangular flag pointing down (d) Triangular flag pointing up
+Answer: (b)
+Solution: This double-relationship question traps those who track only shape or only direction. Shape alternates, so even figures are rectangular; direction after three 90° clockwise moves from right is right → down → left → up, so the answer is rectangular flag pointing up.
+Source: PYQ-style
+
+47. In a series, the number of small circles inside a big square follows 5, 4, 3, 2, … and one circle is shaded in each figure, shifting one position clockwise. How many circles does figure 5 contain?
+(a) 2 (b) 3 (c) 0 (d) 1
+Answer: (d)
+Solution: The trap is 0, from subtracting one too many times. The count decreases by 1 per figure: 5, 4, 3, 2, 1, so the answer is 1.
+Source: PYQ-style
+
+48. Four figures show a pentagon, a hexagon, a heptagon, and a star. Which is the odd one out?
+(a) Pentagon (b) Star (c) Heptagon (d) Hexagon
+Answer: (b)
+Solution: Some choose heptagon for having the most sides, but side count varies across all options. Three figures are simple convex polygons; the star is a non-convex (indented) figure, so the answer is star.
+Source: PYQ-style
+
+49. A series shows a semicircle flipping alternately up and down, while a dot inside moves from the left end to the right end and back. In figure 1 the semicircle opens upward with the dot at the left. What is figure 3?
+(a) Opens downward, dot at right (b) Opens upward, dot at right (c) Opens upward, dot at left (d) Opens downward, dot at left
+Answer: (c)
+Solution: The trap is "opens upward, dot at right", from forgetting that the dot returns. Orientation alternates, so figures 1 and 3 open upward, and the dot goes left → right → left across figures 1 to 3, so the answer is opens upward, dot at left.
+Source: PYQ-style
+
+50. A series shows a square with a diagonal. The diagonal alternates between top-left to bottom-right and top-right to bottom-left each step, while a dot at the centre moves one corner clockwise each step, starting at the top-left in figure 1. Which describes figure 4?
+(a) Diagonal top-left to bottom-right, dot at bottom-right (b) Diagonal top-left to bottom-right, dot at top-right (c) Diagonal top-right to bottom-left, dot at bottom-right (d) Diagonal top-right to bottom-left, dot at bottom-left
+Answer: (d)
+Solution: The trap is the option with the dot at bottom-right, from counting four moves instead of three. Even figures have the diagonal from top-right to bottom-left, and the dot moves top-left → top-right → bottom-right → bottom-left in three moves, so the answer is diagonal top-right to bottom-left, dot at bottom-left.
+Source: PYQ-style

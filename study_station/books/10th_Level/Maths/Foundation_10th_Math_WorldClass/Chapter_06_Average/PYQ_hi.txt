@@ -1,25 +1,27 @@
-We need to produce Hindi version of the PYQ analysis. The instruction: "औसत' के लिए पिछले 10 वर्षों के PYQ का विश्लेषण करो। शीर्ष 10 हाई-यील्ड प्रश्नों को हल सहित दो। यह भी बताओ कि ये प्रश्न किस 'हुक' या 'ट्रैप' का उपयोग करते हैं।"We already have an English version. We can translate and adapt it into Hindi. Keep the same structure, same questions but in Hindi. Ensure that the trap analysis is in Hindi as well. The output should be directly the Hindi content, no meta text.We'll produce a similar table and then 10 questions with solutions, each with a trap/hook explanation. Must be in Hindi.I'll rewrite the same questions with Hindi translation. I need to ensure the numbers match the exam data (though I can keep generic exam references). Use the same solutions. I'll use the same set, probably just translate.Let's structure:Title: "📊 PYQ विश्लेषण: औसत"Introductory paragraph in Hindi.Table with columns: प्रश्न संख्या, परीक्षा (वर्ष), परीक्षित अवधारणा, ट्रैप/हुकThen सवाल संख्या 1 to 10 with step-by-step solutions, answer, and trap explanation.Be careful to translate correctly: "Inclusion" -> "समावेश", "Weighted Average" -> "भारित औसत", "Allegation/Mixture" -> "मिश्रण/पृथ्थीकरण", "Error Correction" -> "त्रुटि सुधार", "Group Average" -> "समूह औसत", "Linear Equations" -> "रैखिक समीकरण", "Replacement" -> "प्रतिस्थापन", "Ratio from Combined Avg" -> "संयुक्त औसत से अनुपात", "Consecutive Numbers" -> "क्रमागत संख्याएँ", "Batting Average" -> "बल्लेबाजी औसत". The psychological hooks should be translated accordingly. The "just add the difference" fallacy in Hindi: "सिर्फ अंतर जोड़ दो" भ्रांति. For the Q1, we need to check the original English answer: (c) 34.5.The English Q1 and solution: "The average score of a cricketer for 13 matches is 42 runs. If the average score for the first 5 matches is 54, what is his average score for the last 8 matches?" That's a partition problem. That's simple. I'll translate that. The trap is "just add the difference" fallacy — but in this case the trap is maybe taking simple average of averages? Actually I'll keep the same.I'll replicate all 10 questions with Hindi text, solution steps in Hindi. Ensure to include the trap explanation. I'll also add a note about "Not Out" rule in batting.Now produce final answer.markdownCopyDownload## 📊 PYQ विश्लेषण: औसत
+यह विश्लेषण बताता है कि SSC, बैंकिंग और रेलवे परीक्षाएँ औसत (Average) अध्याय से किस तरह के सवाल पूछती हैं, कौन से उप-विषय बार-बार आते हैं, और परीक्षक किन मनोवैज्ञानिक जालों से उम्मीदवारों को फँसाते हैं। नीचे 10 उच्च-लाभकारी PYQ-शैली प्रश्न उनके हल और ट्रैप विश्लेषण के साथ दिए गए हैं।
 
-पिछले 10 वर्षों की SSC, बैंकिंग और रेलवे परीक्षाओं के पैटर्न पर आधारित यह विश्लेषण हमें बताता है कि किन अवधारणाओं को सबसे अधिक पूछा जाता है और परीक्षक किन मनोवैज्ञानिक जालों से उम्मीदवारों को फँसाते हैं। नीचे 10 उच्च-लाभकारी प्रश्न उनके हल और ट्रैप विश्लेषण के साथ दिए गए हैं।
+**बार-बार पूछे जाने वाले उप-विषय:** समावेश/नई प्रविष्टि, भारित औसत, मिश्रण (alligation), त्रुटि सुधार, समूह/उप-समूह औसत, प्रतिस्थापन का प्रभाव, क्रमागत संख्याएँ, और क्रिकेट का बल्लेबाजी औसत।
 
-| **प्रश्न सं.** | **परीक्षा (वर्ष)** | **परीक्षित अवधारणा** | **ट्रैप / हुक** |
-| :--- | :--- | :--- | :--- |
-| 1 | SBI PO (2020) | समावेश / नई प्रविष्टि | "बस अंतर जोड़ दो" वाली भ्रांति |
-| 2 | SSC CGL (2022) | भारित औसत | बराबर समूह मान लेना |
-| 3 | RRB Group D (2018) | मिश्रण / पृथ्थीकरण | अति-जटिलता में फँसना |
-| 4 | SSC CHSL (2020) | त्रुटि सुधार | योग सुधारने की बजाय औसत से सीधा खेलना |
-| 5 | IBPS PO (2019) | समूह औसत / उप-समूह | अज्ञात का ट्रैक खो देना |
-| 6 | SSC CPO (2019) | रैखिक समीकरण युक्त औसत | जटिल सवाल देखकर ठिठक जाना |
-| 7 | RRB NTPC (2019) | प्रतिस्थापन का प्रभाव | अंकगणितीय शॉर्टकट का जाल |
-| 8 | IBPS Clerk (2020) | संयुक्त औसत से अनुपात | मूल सूत्र भूल जाना |
-| 9 | SSC CGL (2023) | क्रमागत संख्याएँ | सम/विषम गिनती की छिपी शर्त |
-| 10 | SBI Clerk (2021) | बल्लेबाजी औसत | "नाबाद" नियम की गलतफहमी |
+**परीक्षक के पसंदीदा जाल:** लगभग-सही कथन, औसत और योग में भ्रम, "नाबाद" नियम की गलतफहमी, और सम/विषम गिनती की छिपी शर्तें।
+
+| **प्रश्न सं.** | **परीक्षित अवधारणा** | **ट्रैप / हुक** |
+| :--- | :--- | :--- |
+| 1 | समावेश / नई प्रविष्टि | "बस अंतर जोड़ दो" वाली भ्रांति |
+| 2 | भारित औसत | बराबर समूह मान लेना |
+| 3 | मिश्रण / पृथक्कीकरण | अति-जटिलता में फँसना |
+| 4 | त्रुटि सुधार | योग सुधारने की बजाय औसत से सीधा खेलना |
+| 5 | समूह औसत / उप-समूह | अज्ञात का ट्रैक खो देना |
+| 6 | रैखिक समीकरण युक्त औसत | जटिल सवाल देखकर ठिठक जाना |
+| 7 | प्रतिस्थापन का प्रभाव | अंकगणितीय शॉर्टकट का जाल |
+| 8 | संयुक्त औसत से अनुपात | मूल सूत्र भूल जाना |
+| 9 | क्रमागत संख्याएँ | सम/विषम गिनती की छिपी शर्त |
+| 10 | बल्लेबाजी औसत | "नाबाद" नियम की गलतफहमी |
 
 ---
 
 ### शीर्ष 10 उच्च-लाभकारी प्रश्न, समाधान सहित
 
-#### Q1. [SBI PO 2020] समावेश — "बस अंतर जोड़ दो" का जाल
+#### Q1. [PYQ-शैली] समावेश — "बस अंतर जोड़ दो" का जाल
 एक क्रिकेटर का 13 मैचों का औसत स्कोर 42 रन है। यदि पहले 5 मैचों का औसत 54 रन हो, तो अंतिम 8 मैचों का औसत स्कोर क्या है?
 *   (a) 37
 *   (b) 39
@@ -37,7 +39,7 @@ We need to produce Hindi version of the PYQ analysis. The instruction: "औस�
 
 ---
 
-#### Q2. [SSC CGL 2022] भारित औसत — "बराबर समूह" का जाल
+#### Q2. [PYQ-शैली] भारित औसत — "बराबर समूह" का जाल
 दो समूहों के छात्रों का औसत अंक क्रमशः 30 और 40 है। जब दोनों समूहों को मिलाया जाता है तो कुल औसत 34 आता है। पहले और दूसरे समूह में छात्रों की संख्या का अनुपात ज्ञात करो।
 *   (a) 2 : 1
 *   (b) 3 : 2
@@ -55,7 +57,7 @@ We need to produce Hindi version of the PYQ analysis. The instruction: "औस�
 
 ---
 
-#### Q3. [RRB Group D 2018] मिश्रण/पृथ्थीकरण — "अति-जटिलता" का हुक
+#### Q3. [PYQ-शैली] मिश्रण/पृथक्कीकरण — "अति-जटिलता" का हुक
 120 छात्रों के प्राप्तांकों का औसत 35 है। सफल छात्रों का औसत 39 और असफल छात्रों का औसत 15 था। सफल छात्रों की संख्या कितनी है?
 *   (a) 100
 *   (b) 110
@@ -70,11 +72,11 @@ We need to produce Hindi version of the PYQ analysis. The instruction: "औस�
 5.  सफल छात्र = 5 भाग × 20 = **100**।
 *   **✅ सही उत्तर: (a) 100**
 
-> **🧠 ट्रैप और हुक:** यह प्रश्न बिल्कुल कस्टम-मेड है मिश्रण (allegation) शॉर्टकट के लिए। जाल यह है कि बोरिंग बीजगणित से हल करने में समय बर्बाद हो जाता है। हुक है — "दो भिन्न समूहों के मिश्रण से एक समग्र औसत" का पैटर्न पहचानना।
+> **🧠 ट्रैप और हुक:** यह प्रश्न बिल्कुल कस्टम-मेड है मिश्रण (alligation) शॉर्टकट के लिए। जाल यह है कि बोरिंग बीजगणित से हल करने में समय बर्बाद हो जाता है। हुक है — "दो भिन्न समूहों के मिश्रण से एक समग्र औसत" का पैटर्न पहचानना।
 
 ---
 
-#### Q4. [SSC CHSL 2020] त्रुटि सुधार — "पहले योग सुधारो" नियम
+#### Q4. [PYQ-शैली] त्रुटि सुधार — "पहले योग सुधारो" नियम
 50 परिणामों का औसत 30 परिकलित किया गया, लेकिन बाद में पता चला कि 73 को गलती से 33 ले लिया गया था। सही औसत क्या होगा?
 *   (a) 29.2
 *   (b) 30.8
@@ -92,7 +94,7 @@ We need to produce Hindi version of the PYQ analysis. The instruction: "औस�
 
 ---
 
-#### Q5. [IBPS PO 2019] समूह औसत — "अनुवाद में खो जाना"
+#### Q5. [PYQ-शैली] समूह औसत — "अनुवाद में खो जाना"
 एक कक्षा के 50 छात्रों का औसत अंक 72 है। लड़कों का औसत 70 और लड़कियों का औसत 75 है। कक्षा में लड़कों की संख्या कितनी है?
 *   (a) 20
 *   (b) 35
@@ -110,7 +112,7 @@ We need to produce Hindi version of the PYQ analysis. The instruction: "औस�
 
 ---
 
-#### Q6. [SSC CPO 2019] औसत में छिपे रैखिक समीकरण
+#### Q6. [PYQ-शैली] औसत में छिपे रैखिक समीकरण
 दस संख्याओं का औसत 72 है। पहली चार संख्याओं का औसत 69 और अगली तीन का औसत 74 है। 8वीं संख्या, 9वीं से 6 अधिक और 10वीं से 12 अधिक है। 8वीं और 9वीं संख्या का औसत क्या है?
 *   (a) 74
 *   (b) 75
@@ -132,7 +134,7 @@ We need to produce Hindi version of the PYQ analysis. The instruction: "औस�
 
 ---
 
-#### Q7. [RRB NTPC 2019] प्रतिस्थापन — "अंकगणितीय शॉर्टकट" का जाल
+#### Q7. [PYQ-शैली] प्रतिस्थापन — "अंकगणितीय शॉर्टकट" का जाल
 एक नाव के 15 खेवैयों का औसत भार 1.6 kg बढ़ जाता है जब 42 kg वाले एक खेवैये की जगह नया व्यक्ति लेता है। नए व्यक्ति का भार ज्ञात करो।
 *   (a) 67 kg
 *   (b) 65 kg
@@ -149,7 +151,7 @@ We need to produce Hindi version of the PYQ analysis. The instruction: "औस�
 
 ---
 
-#### Q8. [IBPS Clerk 2020] संयुक्त औसत से अनुपात
+#### Q8. [PYQ-शैली] संयुक्त औसत से अनुपात
 दो समूहों को मिलाने पर कुल औसत 34 आता है। यदि पहले समूह का औसत 30 और दूसरे का 40 हो, तो पहले और दूसरे समूह की छात्र संख्या का अनुपात बताओ।
 *   (a) 2:1
 *   (b) 3:2
@@ -167,7 +169,7 @@ We need to produce Hindi version of the PYQ analysis. The instruction: "औस�
 
 ---
 
-#### Q9. [SSC CGL 2023] क्रमागत संख्याएँ
+#### Q9. [PYQ-शैली] क्रमागत संख्याएँ
 चार क्रमागत संख्याओं A, B, C, और D का औसत 49.5 है। B और D का गुणनफल क्या होगा?
 *   (a) 2499
 *   (b) 2352
@@ -185,7 +187,7 @@ We need to produce Hindi version of the PYQ analysis. The instruction: "औस�
 
 ---
 
-#### Q10. [SBI Clerk 2021] बल्लेबाजी औसत — "नाबाद" का भ्रम
+#### Q10. [PYQ-शैली] बल्लेबाजी औसत — "नाबाद" का भ्रम
 एक बल्लेबाज ने 10 पूर्ण पारियों में 450 रन बनाए हैं। उसका बल्लेबाजी औसत 45 है। अगली पारी में वह 55 रन बनाकर नाबाद रहता है। उसका नया बल्लेबाजी औसत क्या है?
 *   (a) 45.9
 *   (b) 48.6

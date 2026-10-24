@@ -1,3 +1,102 @@
-# Chapter: Number System (Advanced), Level: intermediate
+# 📊 PYQ Analysis — Number System (Advanced)
 
-@pyq_agent lang=en level=intermediate 'Analyse PYQs of Number System (Advanced) for last 10 years (SSC CGL Mains, IBPS PO, RRB NTPC, CAT etc.). Give top 10 high-yield questions with solutions. Also explain what psychological hook or trap each question uses.'
+## How Exams Test This Chapter
+
+Across SSC CGL (Mains), IBPS PO, RRB NTPC and CAT, Number System questions follow a handful of repeating patterns. Examiners rarely invent new ideas — they recycle the same concepts with fresh numbers and psychological traps. Here is what the pattern looks like, in words:
+
+- **Remainders & divisibility** are the single most repeated theme. Expect questions on remainders of large powers (cyclicity), successive division, and divisibility rules for 7, 11, 13.
+- **Unit digit questions** appear almost every cycle — usually a product or power of large numbers where only the last digit matters.
+- **Number of factors / sum of factors** of a given number (prime factorisation based) is a favourite of SSC CGL Mains and CAT.
+- **LCM–HCF word problems** (bells ringing together, greatest number dividing with same remainder) recur constantly.
+- **Fractions of numbers, digit reversal (two-digit number problems), and consecutive integers** form the classic "easy but trap-laden" layer.
+- **Trailing zeroes in n!** and **highest power of a prime in n!** are CAT and IBPS PO staples.
+
+### The Examiner's Favourite Traps
+
+1. **The "almost right" option** — e.g., unit digit of 7^95: students who stop one step early in the cycle pick the wrong digit, and that wrong digit is always present as an option.
+2. **Remainder sign confusion** — "leaves remainder −1" type questions where the answer is (divisor − 1), not 1.
+3. **LCM vs HCF swap** — the question asks for the *greatest* number but the situation demands LCM, or vice versa.
+4. **Digit reversal algebra** — interchanging digits changes value by a multiple of 9; students forget the 9-factor.
+5. **Negative wording** — "which of the following is NOT divisible…" — read twice before answering.
+
+---
+
+## Top 10 High-Yield Questions (with Solutions)
+
+**Q1.** What is the unit digit of 7^95?
+(a) 1 (b) 3 (c) 7 (d) 9
+**Answer: (b)**
+**Solution:** Powers of 7 cycle through unit digits 7, 9, 3, 1 (cycle of 4). 95 ÷ 4 leaves remainder 3, so the unit digit is the 3rd in the cycle = 3.
+**Trap:** Students who compute 95 mod 4 = 3 but count the cycle starting from 1 instead of 7 land on 9 — which is sitting there as option (d).
+**Source:** PYQ-style (SSC CGL pattern)
+
+**Q2.** Find the remainder when 2^100 is divided by 7.
+(a) 1 (b) 2 (c) 4 (d) 6
+**Answer: (b)**
+**Solution:** 2^3 = 8 ≡ 1 (mod 7). So 2^99 = (2^3)^33 ≡ 1 (mod 7), and 2^100 ≡ 2 (mod 7).
+**Trap:** Reducing 100 mod 3 = 1 and answering 2^1 = 2 works here, but students often misapply it as 2^3 = 8 → remainder 1 and stop.
+**Source:** PYQ-style (IBPS PO pattern)
+
+**Q3.** How many factors does 360 have?
+(a) 20 (b) 22 (c) 24 (d) 28
+**Answer: (c)**
+**Solution:** 360 = 2^3 × 3^2 × 5^1. Number of factors = (3+1)(2+1)(1+1) = 4 × 3 × 2 = 24.
+**Trap:** Forgetting to add 1 to each exponent gives 3 × 2 × 1 = 6; multiplying wrongly gives 20 or 28 — all planted options.
+**Source:** NCERT Class 10 Maths, PYQ-style framing
+
+**Q4.** The HCF of two numbers is 11 and their LCM is 7700. If one number is 275, find the other.
+(a) 308 (b) 279 (c) 318 (d) 283
+**Answer: (a)**
+**Solution:** Product of numbers = HCF × LCM = 11 × 7700 = 84700. Other number = 84700 ÷ 275 = 308.
+**Trap:** Dividing LCM by the given number directly (7700 ÷ 275 = 28) tempts students who forget the HCF factor.
+**Source:** PYQ-style (SSC pattern)
+
+**Q5.** Find the greatest number that divides 1657 and 2037 leaving remainders 6 and 5 respectively.
+(a) 123 (b) 127 (c) 235 (d) 305
+**Answer: (b)**
+**Solution:** Subtract remainders: 1657 − 6 = 1651, 2037 − 5 = 2032. Required number = HCF(1651, 2032) = 127.
+**Trap:** Taking HCF of the original numbers (without subtracting remainders) gives 1, pushing students to guess among options.
+**Source:** PYQ-style (RRB NTPC pattern)
+
+**Q6.** How many trailing zeroes are there in 100!?
+(a) 20 (b) 22 (c) 24 (d) 25
+**Answer: (c)**
+**Solution:** Count powers of 5: ⌊100/5⌋ + ⌊100/25⌋ = 20 + 4 = 24. (Powers of 2 are more than enough.)
+**Trap:** Counting only ⌊100/5⌋ = 20 — option (a) exists precisely for this mistake. Don't forget 25, 50, 75, 100 contribute an extra 5 each.
+**Source:** PYQ-style (CAT pattern)
+
+**Q7.** A two-digit number is 4 times the sum of its digits. If the digits are interchanged, the new number is how many times the sum of digits?
+(a) 3 (b) 7 (c) 9 (d) 11
+**Answer: (b)**
+**Solution:** Let digits be x (tens), y (units). 10x + y = 4(x + y) → 6x = 3y → y = 2x. Number is 12, 24, or 36… take 12: reversed = 21 = 7 × (1+2). Answer: 7 times.
+**Trap:** Students solve for the number and stop, or assume the ratio stays 4 — the reversal changes the multiplier.
+**Source:** PYQ-style (SSC CGL pattern)
+
+**Q8.** What is the remainder when (17^23 + 19^23) is divided by 36?
+(a) 0 (b) 18 (c) 12 (d) 24
+**Answer: (a)**
+**Solution:** For odd n, a^n + b^n is divisible by (a + b). Here a + b = 17 + 19 = 36 and n = 23 (odd). So the expression is divisible by 36; remainder = 0.
+**Trap:** Trying to compute cyclicity of 17^23 and 19^23 separately wastes 5 minutes; the a^n + b^n identity finishes it in 10 seconds.
+**Source:** PYQ-style (CAT/SSC Mains pattern)
+
+**Q9.** The sum of three consecutive even numbers is 252. What is the largest of them?
+(a) 82 (b) 84 (c) 86 (d) 88
+**Answer: (c)**
+**Solution:** Middle number = 252 ÷ 3 = 84. Largest = 84 + 2 = 86.
+**Trap:** Answering 84 (the middle number) — option (b) is the classic "one step short" bait.
+**Source:** PYQ-style (RRB NTPC pattern)
+
+**Q10.** A number when divided by 5 leaves remainder 3, when divided by 4 leaves remainder 2, and when divided by 3 leaves remainder 1. Find the smallest such number.
+(a) 53 (b) 58 (c) 63 (d) 68
+**Answer: (b)**
+**Solution:** In each case, divisor − remainder = 2. So the number is 2 less than a common multiple: LCM(5, 4, 3) − 2 = 60 − 2 = 58.
+**Trap:** Adding 2 instead of subtracting gives 62 (not listed, causing panic); or taking LCM = 60 directly. Recognise the "constant difference" pattern: answer = LCM − difference.
+**Source:** PYQ-style (SSC/IBPS pattern)
+
+---
+
+## Key Takeaways
+
+- Master **cyclicity of unit digits**, **factor-count formula**, **HCF × LCM = product**, **trailing zeroes**, and the **a^n ± b^n divisibility identities** — these five ideas cover the bulk of what exams ask.
+- In every question, ask: *"Which wrong answer did the examiner plant for a half-finished solution?"* Finishing the last step is where marks live.
+- Time discipline: unit-digit and remainder questions should take under 45 seconds with cyclicity; if you're computing actual powers, you've fallen into the trap.

@@ -1,0 +1,52 @@
+```mermaid
+graph TD
+    A["सामान्य रसायन<br>General Chemistry"] --> B["परमाणु संरचना<br>Atomic Structure"]
+    A --> C["आवर्त सारणी<br>Periodic Table"]
+    A --> D["रासायनिक बंध<br>Chemical Bonding"]
+    A --> E["अम्ल, क्षार, लवण<br>Acids, Bases, Salts"]
+    A --> F["धातु एवं अधातु<br>Metals & Non-metals"]
+    A --> G["ऑक्सीकरण-अपचयन<br>Oxidation-Reduction"]
+    A --> H["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> I["रणनीति<br>Strategy"]
+
+    B --> B1["इलेक्ट्रॉन, प्रोटॉन, न्यूट्रॉन<br>Electron, Proton, Neutron"]
+    B --> B2["परमाणु क्रमांक = प्रोटॉन संख्या<br>Atomic No. = Protons"]
+    B --> B3["द्रव्यमान संख्या = p + n<br>Mass No. = p + n"]
+    B --> B4["समस्थानिक / समभारिक<br>Isotopes / Isobars"]
+    B --> B5["बोर मॉडल, कक्षाएँ K L M N<br>Bohr Model, Shells"]
+
+    C --> C1["मेंडेलीव → मोज़ले (आधुनिक)<br>Mendeleev → Moseley"]
+    C --> C2["18 समूह, 7 आवर्त<br>18 Groups, 7 Periods"]
+    C --> C3["s, p, d, f ब्लॉक<br>s, p, d, f Blocks"]
+    C --> C4["आवर्तीय प्रवृत्तियाँ: आकार ↓, आयनन ऊर्जा ↑<br>Periodic Trends: Size ↓, IE ↑"]
+    C --> C5["अक्रिया गैसें समूह 18<br>Noble Gases Group 18"]
+
+    D --> D1["आयनिक बंध — इलेक्ट्रॉन स्थानांतरण<br>Ionic — Transfer"]
+    D --> D2["सहसंयोजक बंध — साझेदारी<br>Covalent — Sharing"]
+    D --> D3["धात्विक बंध — इलेक्ट्रॉन सागर<br>Metallic — Electron Sea"]
+    D --> D4["हाइड्रोजन बंध — जल का उच्च क्वथनांक<br>H-bond — Water's High BP"]
+
+    E --> E1["pH स्केल 0–14, उदासीन = 7<br>pH Scale, Neutral = 7"]
+    E --> E2["सूचक: लिटमस, फिनॉफ्थैलीन<br>Indicators: Litmus, Phenolphthalein"]
+    E --> E3["उदासीनीकरण → लवण + जल<br>Neutralisation → Salt + Water"]
+    E --> E4["सामान्य लवण: NaCl, NaHCO₃, CaOCl₂<br>Common Salts"]
+
+    F --> F1["क्रियाशीलता श्रेणी<br>Reactivity Series K→Au"]
+    F --> F2["अपवाद: Hg तरल, ग्रेफाइट चालक<br>Exceptions: Hg Liquid, Graphite Conductor"]
+    F --> F3["खनिज एवं अयस्क<br>Minerals & Ores"]
+    F --> F4["मिश्र धातु: पीतल, कांसा, स्टील<br>Alloys: Brass, Bronze, Steel"]
+
+    G --> G1["ऑक्सीकरण = इलेक्ट्रॉन त्याग<br>Oxidation = Loss of e⁻"]
+    G --> G2["अपचयन = इलेक्ट्रॉन ग्रहण<br>Reduction = Gain of e⁻"]
+    G --> G3["जंग लगना = धीमा ऑक्सीकरण<br>Rusting = Slow Oxidation"]
+
+    H --> H1["समस्थानिक बनाम समभारिक भ्रम<br>Isotope vs Isobar Confusion"]
+    H --> H2["आवर्त में आकार घटता है, बढ़ता नहीं<br>Size Decreases Across Period"]
+    H --> H3["ग्रेफाइट अधातु फिर भी चालक<br>Graphite: Non-metal yet Conductor"]
+    H --> H4["pH 7 से कम = अम्लीय (उल्टा नहीं)<br>pH < 7 = Acidic"]
+    H --> H5["पीतल = Cu+Zn, कांसा = Cu+Sn<br>Brass vs Bronze Mix-up"]
+
+    I --> I1["पहले परिभाषा, फिर अपवाद<br>Definition First, Then Exceptions"]
+    I --> I2["15/45 सेकंड नियम<br>15/45 Second Rule"]
+    I --> I3["नकारात्मक प्रश्नों में UNDERLINE<br>Underline NOT/EXCEPT Questions"]
+```

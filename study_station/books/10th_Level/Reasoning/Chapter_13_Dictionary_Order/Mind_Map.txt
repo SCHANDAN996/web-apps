@@ -1,16 +1,27 @@
+# Mind Map: Dictionary Order (शब्दकोश क्रम)
+
 ```mermaid
 graph TD
-    R["📖 शब्दकोश क्रम<br>Dictionary Order"]
-    R --> D["📖 अर्थ<br>शब्दों को वर्णमाला क्रम में"]
-    R --> M["🗝️ नियम<br>अक्षर-दर-अक्षर तुलना"]
-    R --> TR["⚠️ जाल<br>Traps"]
+    Root["Dictionary Order"] --> Basic["Basic Rules"]
+    Root --> Method["Step-by-Step Method"]
+    Root --> Special["Special Cases"]
+    Root --> Traps["Common Traps"]
 
-    M --> M1["पहला अक्षर देखो"]
-    M --> M2["समान हो तो दूसरा, फिर तीसरा"]
-    M --> M3["छोटा शब्द पहले<br>car < card"]
-    M --> M4["A=1 … Z=26 याद रखो"]
+    Basic --> B1["Left-to-Right Comparison<br/>Compare letter by letter"]
+    Basic --> B2["Alphabetical Hierarchy<br/>A before B before C... Z"]
+    Basic --> B3["Shorter Word Rule<br/>Subset prefix word always comes first (Arm before Army)"]
 
-    TR --> TR1["केवल पहला अक्षर देखना"]
-    TR --> TR2["छोटा बनाम लंबा शब्द"]
-    TR --> TR3["जल्दबाज़ी में अक्षर ग़लत"]
+    Method --> M1["Align all words vertically"]
+    Method --> M2["Compare 1st letters across words"]
+    Method --> M3["If identical, advance to 2nd, 3rd, etc."]
+    Method --> M4["Stop at first distinct letter"]
+    Method --> M5["Arrange based on alphabetical order"]
+
+    Special --> S1["Hyphens and Spaces<br/>Ignore punctuation (X-ray = Xray)"]
+    Special --> S2["Letter Case<br/>Uppercase equals lowercase ('A' = 'a')"]
+    Special --> S3["Double Letters<br/>Treated as two separate letters"]
+
+    Traps --> T1["Hidden Short Word<br/>Missing subset prefix (Sun vs Sunday)"]
+    Traps --> T2["Look-Alike Words<br/>Conservation vs Conversation vs Conversion"]
+    Traps --> T3["Reverse Order Demand<br/>Examiner asks for descending (Z to A)"]
 ```
