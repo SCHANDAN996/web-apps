@@ -104,7 +104,7 @@ def test_soundtrack_follows_the_scenes():
     assert "'" not in expr and ':' not in expr                  # safe inside the quoted lavfi option
 
 
-def test_end_screen_shows_channel_link_and_bio_note(monkeypatch):
+def test_end_screen_shows_channel_url_without_claiming_a_bio_link(monkeypatch):
     monkeypatch.setenv('PROMO_TELEGRAM', 't.me/ss_test')
     seen = []
     real = shorts.draw_block
@@ -115,4 +115,37 @@ def test_end_screen_shows_channel_link_and_bio_note(monkeypatch):
     monkeypatch.setattr(shorts, 'COUNTDOWN_FPS', 1)
     end = shorts.frames(Q)[-1][0]
     assert end.size == (shorts.W, shorts.H)
-    assert 'Telegram: t.me/ss_test' in drawn and 'लिंक Bio में है' in seen
+    assert 'Telegram: t.me/ss_test' in drawn
+    assert 'लिंक Bio में है' not in seen and 'लिंक Bio में है' not in drawn
+
+
+def test_first_frame_contains_the_question_and_options():
+    from PIL import ImageChops
+    base = shorts.frame_question(Q, shorts.layout(Q))
+    hook = shorts.frames(Q)[0][0]
+    # The opening challenge badge may change the header; the question/option cards must be visible immediately.
+    box = (0, shorts.TOP + 80, shorts.W, shorts.BOTTOM)
+    assert ImageChops.difference(base.crop(box), hook.crop(box)).getbbox() is None
+
+
+def test_answer_has_eight_seconds_and_total_remains_twenty_four():
+    sequence = shorts.frames(Q)
+    assert sequence[-2][1] == 8
+    assert sequence[-1][1] == 2
+    assert abs(sum(seconds for _, seconds in sequence) - 24) < .001
+
+
+def test_public_caption_does_not_spoil_the_solution(monkeypatch):
+    monkeypatch.setenv('PROMO_TELEGRAM', 't.me/ss_test')
+    text = shorts.caption(Q)
+    assert Q['explanation'] not in text
+    assert 'अस्पृश्यता का अंत करता है।' not in text
+    assert all(option in text for option in Q['options'])
+    assert '10 मुफ़्त' not in text
+
+
+def test_short_rejects_explanation_too_long_to_read_without_truncating():
+    long = {**Q, 'explanation': 'यह तथ्य समझना जरूरी है ' * 15}
+    assert not shorts.short_ok(long)
+    with pytest.raises(shorts.DoesNotFit, match='explanation'):
+        shorts.layout(long)
