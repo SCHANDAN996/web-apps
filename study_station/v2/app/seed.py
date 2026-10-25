@@ -6,6 +6,7 @@ updated, not duplicated.
 """
 import re
 import sys
+import hashlib
 from datetime import date, datetime
 from pathlib import Path
 
@@ -188,11 +189,63 @@ def clean_legacy_links(db: Session):
     return n
 
 
+AIR_SOURCE = re.compile(r'All India Radio News, (\d{1,2}) ([A-Za-z]{3,9}) (\d{4}) \((https://newsonair\.gov\.in/[^\s)]+)\)')
+MONTHS = {m: i for i, m in enumerate('jan feb mar apr may jun jul aug sep oct nov dec'.split(), 1)}
+LEVEL_RANK = {'10th': 0, '12th': 1, 'graduate': 2}
+
+
+def seed_ca_book_questions(db: Session, root=PROJECT_DIR):
+    """The current-affairs chapters' practice questions (hi+en, each from one All India Radio report) go into the
+    current-affairs topic dated by their report, so the 'this week / this month' CA quizzes pick them up only
+    while they are recent. Same fact in several books = one question. Safe to re-run; admin decisions stay."""
+    from . import current_affairs as ca
+    topic = ca.ca_topic(db)
+    if topic is None:
+        return {'imported': 0, 'skipped': 0}
+    level_of = {'10th_Level': '10th', '12th_Level': '12th', 'Graduation_Level': 'graduate'}
+    found = {}
+    skipped = 0
+    for ch in sorted(Path(root, 'books').glob('*/GK/*/Chapter_*Current_Affairs*')):
+        level = level_of.get(ch.relative_to(Path(root, 'books')).parts[0])
+        for n in range(1, 7):
+            en_p, hi_p = ch / f'Practice_en_Set_{n:02d}.txt', ch / f'Practice_hi_Set_{n:02d}.txt'
+            if not (level and en_p.is_file() and hi_p.is_file()):
+                continue
+            hi_by_no = {q.number: q for q in parse_mcq_text(hi_p.read_text(encoding='utf-8'))}
+            for en in parse_mcq_text(en_p.read_text(encoding='utf-8')):
+                hi = hi_by_no.get(en.number)
+                m = AIR_SOURCE.search(en.source_claim or '')
+                if (hi is None or hi.answer_index != en.answer_index or quality_problem(en) or quality_problem(hi)
+                        or not m or m[2][:3].lower() not in MONTHS):
+                    skipped += 1
+                    continue
+                key = 'ca-book/' + hashlib.sha1(en.text.strip().lower().encode()).hexdigest()[:16]
+                day = datetime(int(m[3]), MONTHS[m[2][:3].lower()], int(m[1]))
+                old = found.get(key)
+                if old is None or LEVEL_RANK[level] < LEVEL_RANK[old[0]]:
+                    found[key] = (level, en, hi, day, m[4])
+    existing = {q.import_key: q for q in db.scalars(select(Question).where(Question.import_key.like('ca-book/%')))}
+    for key, (level, en, hi, day, link) in found.items():
+        row = existing.get(key) or Question(import_key=key)
+        row.topic_id, row.level, row.difficulty = topic.id, level, en.difficulty or 'medium'
+        row.text_en, row.options_en, row.solution_en = en.text, en.options, en.solution
+        row.text_hi, row.options_hi, row.solution_hi = hi.text, hi.options, hi.solution
+        row.answer_index = en.answer_index
+        row.source_type, row.source_ref = 'ai_generated', link[:200]
+        row.created_at = day                       # the report's date: decides the week/month quiz window
+        if row.review_status not in ('verified', 'flagged'):
+            row.review_status, row.review_note = 'unreviewed', 'AIR fact (book current-affairs chapter)'
+        db.add(row)
+    db.commit()
+    return {'imported': len(found), 'skipped': skipped}
+
+
 def main():
     ensure_schema(engine)
     with SessionLocal() as db:
         seed_catalog(db)
         print('questions:', seed_questions(db))
+        print('current-affairs book questions:', seed_ca_book_questions(db))
         # The old website feed (website/js/jobs_data.js) is no longer imported: its titles were copied
         # from aggregator sites (CLAUDE.md rule 1). Jobs come only from the official job engine now.
         from .jobs.manage import drop_legacy
