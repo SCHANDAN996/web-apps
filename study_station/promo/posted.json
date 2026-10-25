@@ -23,7 +23,12 @@
   "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_26_Permutation_Combination#Set04#Q97",
   "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_28_Error_Log#Set03#Q71",
   "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_21_Complex_Numbers#Set03#Q73",
-  "revision#2026-10-24"
+  "revision#2026-10-24",
+  "10th_Level/Reasoning/Chapter_09_Venn_Diagrams#Set01#Q9",
+  "10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_04_Fractions_Decimals#Set02#Q32",
+  "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_07_States_Rivers#Set02#Q42",
+  "10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_12_Time_Distance#Set04#Q100",
+  "10th_Level/English/Foundation_10th_English_WorldClass/Chapter_15_One_Word_Substitution#Set06#Q128"
  ],
  "shorts": [
   "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_17_Culture_Art#Set01#Q8",
@@ -316,6 +321,62 @@
      {
       "id": "revision#2026-10-24",
       "msg": 30
+     }
+    ]
+   ]
+  },
+  "2026-10-25": {
+   "quiz": [
+    [
+     {
+      "id": "10th_Level/Reasoning/Chapter_09_Venn_Diagrams#Set01#Q9",
+      "msg": 32,
+      "chapter": "10th_Level/Reasoning/Chapter_09_Venn_Diagrams",
+      "q": "एक सर्वेक्षण में, 55% लोग चाय पसंद करते हैं, 45% कॉफ़ी पसंद करते हैं, और 20% दोनों पसंद करते हैं। कितने प्रतिशत लोग चाय और कॉफ़ी दोनों में से कोई भी पसंद नहीं करते?",
+      "ans": 0,
+      "opt": "20%",
+      "exp": "उत्तर: 20%। 55 और 45 जोड़कर 100 पाना और 0% निष्कर्ष निकालना जाल है, क्योंकि 20% ओवरलैप दो बार गिना गया है।",
+      "part": "am"
+     },
+     {
+      "id": "10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_04_Fractions_Decimals#Set02#Q32",
+      "msg": 33,
+      "chapter": "10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_04_Fractions_Decimals",
+      "q": "सरल कीजिए: 5 1/4 – 3 2/3 + 1 1/6",
+      "ans": 2,
+      "opt": "2 3/4",
+      "exp": "उत्तर: 2 3/4। 12: (63 – 44 + 14)/12 = 33/12 = 2 3/4।",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_07_States_Rivers#Set02#Q42",
+      "msg": 34,
+      "chapter": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_07_States_Rivers",
+      "q": "किस नदी को \"दक्षिण गंगा\" कहा जाता है?",
+      "ans": 0,
+      "opt": "गोदावरी",
+      "exp": "उत्तर: गोदावरी। कावेरी दक्षिण में अपनी पवित्रता के कारण लुभावना गलत उत्तर है, लेकिन \"दक्षिण गंगा\" की उपाधि गोदावरी की है — अपनी विशाल लंबाई के कारण, जो प्रायद्वीपीय नदियों में सबसे अधिक है — इसलिए उत…",
+      "part": "am"
+     },
+     {
+      "id": "10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_12_Time_Distance#Set04#Q100",
+      "msg": 35,
+      "chapter": "10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_12_Time_Distance",
+      "q": "एक कार 60 किमी/घंटा की चाल से चलना शुरू करती है और हर घंटे के बाद अपनी चाल 10 किमी/घंटा बढ़ा देती है। 4 घंटे की यात्रा में उसकी औसत चाल क्या है?",
+      "ans": 2,
+      "opt": "75 किमी/घंटा",
+      "exp": "उत्तर: 75 किमी/घंटा। जाल यह है कि केवल पहली और आखिरी चाल का मध्यबिंदु गलत तरीके से लिया जाए या 80 किमी/घंटा (तीसरे घंटे की चाल) ले ली जाए; औसत चाल = 300/4 = 75 किमी/घंटा, इसलिए उत्तर 75 किमी/घंटा है।",
+      "part": "am"
+     },
+     {
+      "id": "10th_Level/English/Foundation_10th_English_WorldClass/Chapter_15_One_Word_Substitution#Set06#Q128",
+      "msg": 36,
+      "chapter": "10th_Level/English/Foundation_10th_English_WorldClass/Chapter_15_One_Word_Substitution",
+      "q": "One who looks at the bright side of things:",
+      "ans": 3,
+      "opt": "Optimist",
+      "exp": "उत्तर: Optimist। जो चीज़ों का उज्ज्वल पक्ष देखता है वह Optimist है, इसलिए उत्तर Optimist है।",
+      "part": "am"
      }
     ]
    ]
