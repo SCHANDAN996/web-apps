@@ -143,3 +143,8 @@
 .offline-solution h4 { margin:var(--sp-3) 0 var(--sp-2); font-size:var(--fs-md); font-weight:600; }
 
 #offlineStudy > .home-collaboration-grid { margin-bottom:var(--sp-4); }
+
+/* Settings actions must not touch even when links and buttons are direct siblings. */
+#offlineStudy[data-screen="settings"] { display:grid; gap:var(--sp-4); }
+#offlineStudy[data-screen="settings"] > * { margin-block:0; min-width:0; }
+#offlineStudy[data-screen="settings"] > .btn { width:100%; white-space:normal; min-height:48px; }

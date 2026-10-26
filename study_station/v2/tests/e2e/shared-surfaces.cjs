@@ -17,6 +17,15 @@ const base=process.env.BASE_URL||'http://127.0.0.1:8023';
    }));
    assert.ok(surfaces.length,path+' needs cards');
    assert.ok(surfaces.some(s=>s.image.includes('linear-gradient')),path+' shared glass surface');
+   if(path==='/settings'){
+    const gaps=await page.locator('.settings-actions').evaluate(async section=>{
+     await Promise.allSettled(section.getAnimations({subtree:true}).map(animation=>animation.finished));
+     const actions=Array.from(section.querySelectorAll(':scope > .btn'));
+     return actions.slice(1).map((action,index)=>action.getBoundingClientRect().top-actions[index].getBoundingClientRect().bottom);
+    });
+    assert.equal(gaps.length,2,'Settings must keep all three account actions');
+    gaps.forEach(gap=>assert.ok(gap>=12,`Online Settings ${theme} action gap ${gap}px is below 12px`));
+   }
    if(process.env.QA_SCREENSHOT_DIR&&theme==='light'){
     fs.mkdirSync(process.env.QA_SCREENSHOT_DIR,{recursive:true});
     await page.screenshot({path:process.env.QA_SCREENSHOT_DIR+'/shared-'+(path.slice(1)||'home')+'.png',fullPage:true});

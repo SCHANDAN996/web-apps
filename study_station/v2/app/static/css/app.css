@@ -712,3 +712,9 @@ body.nav-busy .nav-progress { opacity: 1; transform: scaleX(.92);
 @media (prefers-reduced-motion:reduce) { .home-image-card:active { transform:none; } }
 
 .home-settings-link { margin-top:var(--sp-4); min-height:56px; gap:var(--sp-2); justify-content:center; }
+
+/* Settings controls are separate tap targets, including the account/privacy links. */
+.settings-actions { display:grid; gap:var(--sp-3); }
+.settings-actions > .btn { min-width:0; min-height:48px; white-space:normal; }
+.settings-theme { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:var(--sp-2); border:0; border-radius:0; overflow:visible; }
+.settings-theme .seg-btn { border:1px solid var(--border); border-radius:var(--r-md); min-width:0; white-space:normal; }
