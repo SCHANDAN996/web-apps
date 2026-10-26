@@ -21,3 +21,11 @@ The source deployment must keep Play billing/UCB disabled and existing website P
 
 ## Validation scope
 Backend coverage includes month-end/leap-year arithmetic, old-account rollout, repeated apply, protected paid access, login activation, safe return destinations and existing payment behavior. Browser checks cover Hindi/English, all themes, wrong password, cancelled Google login, retry, offline-readiness feedback, account scope and return to study/invites. Use disposable test accounts/data; never reset a learner's progress for QA.
+
+
+## Compact Home-style UI — 26 October 2026
+- Shared Home card surface tokens now cover standard cards, empty states, stats and Jobs discovery/cards without changing their list structure.
+- Login and Account use existing illustrations, shorter bilingual copy and collapsed optional help/data/payment details. Signup shows required fields and submit first; optional name remains supported.
+- Active accounts show a primary study continuation action; pricing stays available for renewal/activation states. Trial dates, prices, billing flags and authentication behavior are unchanged.
+- Validation: full isolated Linux suite **490 passed**; Windows generated-shell checks **6 passed**. Fresh browser login, Google cancellation/retry (mock provider), account state matrix, real disposable-user Classroom flow and eight-page/three-theme mobile smoke passed. Optional-name signup CTA is checked above the fixed navigation at 360×800.
+- Browser Google-provider mocks do not establish a real Google sign-in on the owner's phone. No account logout, reset or real payment is part of this release.

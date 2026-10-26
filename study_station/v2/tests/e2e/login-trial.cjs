@@ -19,6 +19,15 @@ const {chromium}=require(process.env.PLAYWRIGHT_PATH||'playwright');
  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
  await page.reload();await page.getByText(words.login_trial_active,{exact:true}).waitFor();assert.equal(starts,1);
  for(const theme of ['light','dark','paper']){await page.evaluate(x=>SSTheme.set(x),theme);await page.screenshot({path:process.env.QA_SCREENSHOT_DIR+'/login-'+lang+'-'+theme+'.png',fullPage:true});}
+ signed=false;await page.reload();await page.getByRole('button',{name:words.login_signup,exact:true}).click();
+ assert.ok(words.login_optional_details,'Localized optional details label');
+ const optional=page.locator('details').filter({has:page.locator('[name=name]')});
+ assert.equal(await optional.locator('summary').textContent(),words.login_optional_details);
+ assert.equal(await optional.getAttribute('open'),null);
+ assert.equal(await page.locator('[name=name]').isVisible(),false);
+ const submitBox=await page.locator('form button[type=submit]').boundingBox(),navBox=await page.locator('.tabbar').boundingBox();
+ assert.ok(submitBox.y+submitBox.height<=navBox.y,'Signup action visible above navigation');
+ await page.evaluate(()=>SSTheme.set('light'));await page.screenshot({path:process.env.QA_SCREENSHOT_DIR+'/signup-final-'+lang+'.png',fullPage:true});
  assert.deepEqual(errors,[]);await ctx.close();
  }
  console.log('PASS login: HI/EN, wrong password, login-success/access-failure, retry, automatic single activation, reload, safe study return, three themes, no overflow or JS errors');

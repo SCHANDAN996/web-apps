@@ -1,6 +1,6 @@
 # Login और 3-महीने trial का UX plan
 
-26 October 2026 · स्थिति: योजना; code, existing trials या production अभी नहीं बदले।
+26 October 2026 · स्थिति: login और 3-calendar-month trial लागू हैं; rollout तथा जाँच का रिकॉर्ड `docs/LOGIN_TRIAL_RELEASE.md` में है।
 Owner decision: पुराने और नए दोनों users को 3 महीने का trial; paid membership की मौजूदा अवधि सुरक्षित। नया UI ही आधार रहेगा।
 
 ## मौजूदा code में मिली उलझन
@@ -39,7 +39,7 @@ Loading, cancelled login, wrong password, server error, signed-out और expire
 - पुराने non-paid trial users, expired सहित: rollout के एक स्थिर recorded timestamp से कम-से-कम 3 महीने। Existing later trial end हो तो कम न करें। Migration idempotent और versioned हो।
 - Paid users: paid_until न घटाएँ, paid grant/refund ledger न बदलें। Launch trial eligibility को paid access से अलग record करें; final access = existing paid और applicable trial में जो बाद में समाप्त हो। किसी refund/automatic charge का वादा नहीं।
 - तारीख केवल server तय करे; local clock, browser storage, username rename या progress reset से trial न बदले। Account reset और commercial entitlement अलग रहें।
-- Actual rollout date अभी तय नहीं; plan की तारीख को migration activation date न मानें।
+- Rollout anchor 26 October 2026, 07:18:12 UTC पर स्थिर है। दोबारा login या deployment से यह नहीं बदलता।
 
 ## Account और Home
 Account पर एक स्पष्ट summary: signed-in identity, trial/paid status, end date, offline readiness, logout और account/privacy controls। Home पर छोटा status link; हर screen पर paywall, timer या repeated popup नहीं। Trial में payment form मुख्य content से हटे। 3 महीने बाद कोई automatic debit नहीं।
@@ -66,3 +66,6 @@ Website में expiry के पास PayU renewal उपलब्ध हो
 
 ## Scope boundary
 यह plan approval के बाद implementation का आधार है। अभी 72-hour constant/strings/server dates नहीं बदले गए। Secrets, promo schedules और Play billing/UCB enable flags इस काम में नहीं बदलेंगे।
+
+## Compact UI follow-up — 26 October 2026
+Home और सामान्य cards के लिए एक साझा surface, border और shadow token set। Login/account पर वही illustrations, rounded cards और themes; केवल मुख्य action, access status और समाप्ति तारीख सामने। वैकल्पिक सहायता और payment/privacy जानकारी खोलने पर उपलब्ध। Errors, daily offline check, trial अवधि और prices अपरिवर्तित। Authentication और account scope के अलावा बाकी मुख्य pages पर भी mobile/theme/overflow smoke check करें।

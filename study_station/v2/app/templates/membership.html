@@ -1,12 +1,20 @@
 {% extends 'base.html' %}
 {% block title %}{{ tr('membership_title') }} — {{ tr('brand') }}{% endblock %}
 {% block main %}
-<section class="page-head"><h1>{{ tr('membership_title') }}</h1><p class="muted">{{ tr('membership_intro') }}</p></section>
+<div class="account-hub stack">
+<header class="login-heading account-heading"><img src="/static/illustrations/progress.svg?v={{ asset_v }}" width="96" height="72" alt="" decoding="async"><div><h1>{{ tr('membership_title') }}</h1><p class="muted">{{ tr('membership_intro') }}</p></div></header>
 {% if membership_account %}
 {% include 'membership_panel.html' %}
 {% else %}
 <section class="card stack"><p>{{ tr('membership_login_note') }}</p><a class="btn btn-primary" href="/login?return_to=/account">{{ tr('membership_login') }}</a></section>
 {% endif %}
-<section class="card stack" style="margin-top:var(--sp-4)"><h2>{{ tr('membership_your_data') }}</h2><p>{{ tr('membership_private_note') }}</p><div class="row" style="gap:var(--sp-3);flex-wrap:wrap"><a class="btn btn-secondary" href="/settings">{{ tr('settings') }}</a><a class="btn btn-secondary" href="/classroom?view=workspace">{{ tr('classroom_my_workspace') }}</a><a class="btn btn-ghost" href="/privacy">{{ tr('privacy_title') }}</a><a class="btn btn-ghost" href="/delete-account">{{ tr('deletion_title') }}</a></div></section>
-<section class="card stack" style="margin-top:var(--sp-4)"><h2>{{ tr('payment_policy_title') }}</h2><p>{{ tr('payment_policy_terms') }}</p><p>{{ tr('payment_policy_refund') }}</p><p>{{ tr('payment_policy_contact') }}</p><a href="mailto:all.chandansingh@gmail.com">all.chandansingh@gmail.com</a></section>
+<section aria-labelledby="accountToolsTitle"><h2 id="accountToolsTitle">{{ tr('membership_your_data') }}</h2>
+<div class="home-card-grid account-tools">
+<a class="home-image-card" href="/classroom?view=workspace"><img src="/static/illustrations/workspace.svg?v={{ asset_v }}" width="96" height="72" alt="" decoding="async"><b>{{ tr('classroom_my_workspace') }}</b></a>
+<a class="home-image-card" href="/settings"><svg class="icon" aria-hidden="true"><use href="#i-gear"/></svg><b>{{ tr('settings') }}</b></a>
+</div>
+<details class="account-details card"><summary>{{ tr('membership_data_options') }}</summary><p class="small muted">{{ tr('membership_private_note') }}</p><div class="account-links"><a href="/privacy">{{ tr('privacy_title') }}</a><a href="/delete-account">{{ tr('deletion_title') }}</a></div></details>
+</section>
+<details class="account-details card"><summary>{{ tr('payment_policy_title') }}</summary><p>{{ tr('payment_policy_terms') }}</p><p>{{ tr('payment_policy_refund') }}</p><p>{{ tr('payment_policy_contact') }}</p><a href="mailto:all.chandansingh@gmail.com">all.chandansingh@gmail.com</a></details>
+</div>
 {% endblock %}

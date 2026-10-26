@@ -1,10 +1,11 @@
 {# Include only in the authenticated account/profile view; JS hides it while disabled. #}
-<section id="membershipPanel" class="card" hidden aria-labelledby="membershipTitle">
-  <h2 id="membershipTitle">{{ tr('membership_title') }}</h2>
+<section id="membershipPanel" class="card account-access stack" hidden aria-labelledby="membershipTitle">
+  <h2 id="membershipTitle" class="sr-only">{{ tr('membership_title') }}</h2>
   <p data-membership-status role="status"></p>
-  <p>{{ tr('membership_price') }}</p>
+  <p class="small muted" data-membership-price hidden>{{ tr('membership_price') }}</p>
   <p class="muted" data-membership-payment-note>{{ tr('membership_unavailable') }}</p>
   <button type="button" class="btn btn-primary" data-membership-start hidden>{{ tr('membership_activate') }}</button>
+<a class="btn btn-primary" href="/" data-membership-continue hidden>{{ tr('login_continue_existing') }}</a>
 <div data-membership-checkout></div>
 <section data-play-billing hidden></section>
 <button type="button" class="btn btn-ghost" data-account-logout>{{ tr('login_logout') }}</button>
