@@ -223,11 +223,14 @@ async def finish_web_callback(request, db):
 async def web_callback(request: Request, db=Depends(get_db)):
     try:
         return await finish_web_callback(request, db)
-    except HTTPException:
+    except HTTPException as error:
         db.rollback()
         # Fixed local destination: provider errors and state failures cannot
         # turn into an open redirect or expose callback parameters to the UI.
-        response = RedirectResponse('/login?google_error=1', status_code=303)
+        result = 'cancelled' if error.detail == 'google_cancelled' else 'failed'
+        row = db.get(GoogleChallenge, digest(request.cookies.get(COOKIE, '')))
+        target = safe_target(row.return_to) if row and row.return_to.startswith('/login?') else '/login'
+        response = RedirectResponse(target + ('&' if '?' in target else '?') + urlencode({'google_error': result}), status_code=303)
         response.delete_cookie(COOKIE, path=PATH)
         response.headers['Cache-Control'] = 'no-store'
         return response

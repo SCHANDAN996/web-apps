@@ -89,7 +89,7 @@ def test_web_pkce_safe_redirect_state(google, monkeypatch, db):
     assert row.return_to == '/classroom'
     denied = google.get('/api/v1/classroom/google/callback?state=wrong&code=x',follow_redirects=False)
     assert denied.status_code == 303
-    assert denied.headers['location'] == '/login?google_error=1'
+    assert denied.headers['location'] == '/login?google_error=failed'
 
 
 def test_google_email_never_links_local_account(google, monkeypatch):
@@ -155,3 +155,12 @@ def test_web_callback_creates_session_and_preserves_invite(google, monkeypatch):
 @pytest.mark.parametrize('value', ['https://evil.example','//evil.example','/classroom/../evil','/classroom?next=https://evil.example','http://[bad'])
 def test_safe_target(value):
     assert auth.safe_target(value)=='/classroom'
+
+
+def test_web_cancel_keeps_study_return(google,monkeypatch):
+    from urllib.parse import urlparse,parse_qs
+    monkeypatch.setenv('GOOGLE_CLIENT_SECRET','test-not-real')
+    start=google.get('/api/v1/classroom/google/start',params={'return_to':'/login?return_to=%2Fbooks'},follow_redirects=False)
+    query=parse_qs(urlparse(start.headers['location']).query)
+    response=google.get('/api/v1/classroom/google/callback',params={'state':query['state'][0],'error':'access_denied'},follow_redirects=False)
+    assert response.headers['location']=='/login?return_to=%2Fbooks&google_error=cancelled'
