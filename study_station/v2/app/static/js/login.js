@@ -17,7 +17,7 @@ window.SSLoginInit=function(){
  function reset(){card.replaceChildren(status);show('');}
  async function ready(){if(!alive)return;show(tr('activating'));let value=await api('membership/status');if(value.enabled&&value.state==='available')value=await api('membership/start',{confirm:true});if(!alive)return;
  if(window.SSWorkspaceForgetAccount)SSWorkspaceForgetAccount();if(window.SSWorkspaceEnsure)await SSWorkspaceEnsure();if(!alive)return;window.dispatchEvent(new Event('workspace-scope-changed'));
- reset();card.append(n('span','âœ“','login-success-mark'),n('h2',tr(value.state==='paid'?'paid_ready':value.state==='trial'?'trial_active':value.state==='expired'?'expired':'ready')));
+ reset();card.append(n('span','✓','login-success-mark'),n('h2',tr(value.state==='paid'?'paid_ready':value.state==='trial'?'trial_active':value.state==='expired'?'expired':'ready')));
  card.append(n('p',tr('signed_in_as')+': '+(account.name||account.username),'login-identity'));
  const end=value.state==='paid'?value.paid_until:value.trial_ends_at;if(end&&Number.isFinite(Date.parse(end))){const date=n('div',null,'login-date');date.append(n('span',tr('end_date')),n('strong',new Date(end).toLocaleDateString(document.documentElement.lang==='hi'?'hi-IN':'en-IN',{day:'numeric',month:'long',year:'numeric'})));card.append(date);}
  card.append(link(tr(value.state==='expired'?'account':'continue_existing'),value.state==='expired'?'/account':target));

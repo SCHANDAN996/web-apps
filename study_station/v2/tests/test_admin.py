@@ -89,6 +89,7 @@ def test_dashboard_overview_is_read_only_and_shows_live_state(client, admin_on, 
     import json
     from app import services
     from app.promo import posted as plog
+    monkeypatch.setattr(config,'SOURCE_RELEASE_PATH',tmp_path/'missing-release.json')
     login(client)
     r = client.get('/admin')
     assert 'Learners (counts only)' in r.text and 'Alerts' in r.text

@@ -52,3 +52,11 @@ def test_successful_signup_starts_one_trial(client,monkeypatch):
     assert not first['auto_renew']
     assert client.post('/api/v1/membership/start',json={'confirm':True}).json()['trial_ends_at']==first['trial_ends_at']
     client.post('/api/v1/classroom/logout',json={})
+
+
+def test_auth_assets_have_valid_utf8():
+    from pathlib import Path
+    root=Path(__file__).resolve().parents[1]/'app/static/js'
+    for name in ['login.js','membership.js','classroom.js']:
+        text=(root/name).read_text(encoding='utf-8')
+        assert '\u00c2\u00b7' not in text

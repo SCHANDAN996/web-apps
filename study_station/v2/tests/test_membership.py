@@ -25,7 +25,7 @@ def trial(db, monkeypatch):
     yield client,response.json()['account']
     client.close()
 
-def test_start_is_explicit_and_does_not_charge(trial,db,monkeypatch):
+def test_legacy_start_is_idempotent_and_does_not_charge(trial,db,monkeypatch):
     client,account=trial
     now=datetime(2026,1,1,12)
     monkeypatch.setattr(service,'utcnow',lambda:now)

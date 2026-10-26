@@ -65,6 +65,8 @@ def test_config_is_account_bound_and_has_no_secrets(purchase):
 
 def test_verified_token_is_encrypted_and_idempotent(purchase,db):
     client,account,token,data,now=purchase
+    trial=db.get(Membership,account['storage_namespace'])
+    initial_trial=(trial.trial_started_at,trial.trial_ends_at)
     first=verify(client,token)
     assert first.status_code==200,first.text
     assert first.json()['entitled'] and first.json()['acknowledged']
@@ -78,7 +80,9 @@ def test_verified_token_is_encrypted_and_idempotent(purchase,db):
     # Google's exact expiry is used, with no fictitious extra calendar grant.
     status=client.get('/api/v1/membership/status').json()
     assert status['state']=='paid' and status['paid_until']==first.json()['valid_until']
-    assert db.get(Membership,account['storage_namespace']) is None
+    trial=db.get(Membership,account['storage_namespace'])
+    assert (trial.trial_started_at,trial.trial_ends_at)==initial_trial
+    assert trial.paid_until is None
 
 
 def test_pending_ack_needs_backend_ack_and_google_recheck(purchase,monkeypatch,db):

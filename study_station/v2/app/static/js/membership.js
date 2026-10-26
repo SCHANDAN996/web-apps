@@ -60,7 +60,7 @@
       if(value.state==='paid'&&value.paid_until)line.textContent+=' '+new Date(value.paid_until).toLocaleDateString(document.documentElement.lang==='hi'?'hi-IN':'en-IN');
       if (value.state === 'trial') {
         const language = document.documentElement.lang === 'hi' ? 'hi-IN' : 'en-IN';
-        line.textContent += ' ' + new Date(value.trial_ends_at).toLocaleDateString(language,{day:'numeric',month:'long',year:'numeric'}) + ' · ' + Math.ceil(value.remaining_seconds / 86400) + ' ' + tr('membership_days_left');
+        line.textContent += ' ' + new Date(value.trial_ends_at).toLocaleDateString(language,{day:'numeric',month:'long',year:'numeric'}) + ' Â· ' + Math.ceil(value.remaining_seconds / 86400) + ' ' + tr('membership_days_left');
       }
     }
     async function request(method) {
@@ -82,7 +82,7 @@
     const retry=document.createElement('button');retry.type='button';retry.className='btn btn-secondary';retry.textContent=tr('membership_access_retry');retry.hidden=true;panel.append(retry);
     function load(){retry.disabled=true;return request('GET').then(()=>{retry.hidden=true;}).catch(()=>{panel.hidden=false;line.textContent=tr('membership_error');retry.hidden=false;}).finally(()=>{retry.disabled=false;});}
     retry.addEventListener('click',load);load();
-    fetch('/api/v1/classroom/me',{credentials:'same-origin',cache:'no-store'}).then(r=>r.json()).then(d=>{if(!panel.isConnected||!d.account)return;const identity=document.createElement('p');identity.className='muted';identity.textContent=(d.account.name||d.account.username)+' · '+d.account.username;panel.prepend(identity);}).catch(()=>{});
+    fetch('/api/v1/classroom/me',{credentials:'same-origin',cache:'no-store'}).then(r=>r.json()).then(d=>{if(!panel.isConnected||!d.account)return;const identity=document.createElement('p');identity.className='muted';identity.textContent=(d.account.name||d.account.username)+' Â· '+d.account.username;panel.prepend(identity);}).catch(()=>{});
   };
 }());
 
