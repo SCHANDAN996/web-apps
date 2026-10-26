@@ -43,3 +43,5 @@ STRINGS = {
  'login_google_cancelled': ('Google लॉगिन रद्द हुआ। फिर कोशिश करें या यूज़र नाम चुनें।', 'Google sign-in was cancelled. Retry or choose username.'),
  'login_privacy': ('गोपनीयता और आपके डेटा की जानकारी', 'Privacy and your data'),
 }
+
+STRINGS['login_logout'] = ('लॉगआउट करें', 'Sign out')

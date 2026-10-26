@@ -46,6 +46,7 @@
     if (!panel || panel.dataset.ready) return;
     panel.dataset.ready = '1';
     const line = panel.querySelector('[data-membership-status]');
+    const logout=panel.querySelector('[data-account-logout]');if(logout)logout.addEventListener('click',async()=>{logout.disabled=true;try{const r=await fetch('/api/v1/classroom/logout',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:'{}'});if(!r.ok)throw Error('logout');if(window.SSWorkspaceForgetAccount)SSWorkspaceForgetAccount();window.dispatchEvent(new Event('workspace-scope-changed'));if(window.StudyStationMembership)await StudyStationMembership.clear();if(window.StudyStationAuth&&StudyStationAuth.signOut)await StudyStationAuth.signOut();location.assign('/login');}catch(e){line.textContent=tr('membership_error');logout.disabled=false;}});
     const start = panel.querySelector('[data-membership-start]');
     const words = JSON.parse(document.getElementById('ss-boot').textContent).t || {};
     const tr = key => words[key] || key;
