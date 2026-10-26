@@ -428,6 +428,26 @@ def api_specific_practice(question_id: int, body: SpecificPracticeIn, request: R
     return services.attempt_payload(db, a)
 
 
+@app.post('/api/v1/mistakes')
+def api_mistakes(request: Request, device: Device = Depends(ensure_device), db: Session = Depends(get_db)):
+    limit(request, 'start', 60, 3600)
+    try:
+        a = services.start_mistakes(db, device)
+    except Exception as e:
+        _service_error(e)
+    return services.attempt_payload(db, a)
+
+
+@app.post('/api/v1/telegram-quiz')
+def api_telegram_quiz(request: Request, device: Device = Depends(ensure_device), db: Session = Depends(get_db)):
+    limit(request, 'start', 60, 3600)
+    try:
+        a = services.start_telegram_quiz(db, device)
+    except Exception as e:
+        _service_error(e)
+    return services.attempt_payload(db, a)
+
+
 @app.post('/api/v1/mock')
 def api_mock(body: MockIn, request: Request, device: Device = Depends(ensure_device),
              db: Session = Depends(get_db)):
@@ -618,7 +638,16 @@ def page_practice(request: Request, device: Device | None = Depends(current_devi
     subjects = [s for s in db.scalars(select(Subject).order_by(Subject.id).options(selectinload(Subject.topics)))
                 if any(counts.get(tp.id) for tp in s.topics)]
     return render('practice.html', request, device, subjects=subjects, counts=counts, mastery=mastery,
-                  ca_recent=has_recent_ca(db), has_books=has_books())
+                  ca_recent=has_recent_ca(db), has_books=has_books(), telegram_quiz=telegram_quiz_count(db))
+
+
+def telegram_quiz_count(db):
+    """How many of the Telegram channel's latest questions are live in the app (0 = hide the tile)."""
+    from .promo import live
+    try:
+        return len(live.quiz_for(db, services.today_ist())[1])
+    except Exception:                       # never let the promo log break the practice page
+        return 0
 
 
 @app.get('/practice/{subject}/{topic}', response_class=HTMLResponse)
@@ -673,8 +702,9 @@ def page_result(attempt_id: int, request: Request, device: Device | None = Depen
 
 
 @app.get('/revise', response_class=HTMLResponse)
-def page_revise(request: Request, device: Device | None = Depends(current_device)):
-    return render('revise.html', request, device)
+def page_revise(request: Request, device: Device | None = Depends(current_device), db: Session = Depends(get_db)):
+    mistakes = len(services.recent_mistakes(db, device)) if device else 0
+    return render('revise.html', request, device, mistakes=mistakes)
 
 
 @app.get('/progress', response_class=HTMLResponse)

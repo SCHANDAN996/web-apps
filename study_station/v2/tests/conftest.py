@@ -9,6 +9,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 _tmp = tempfile.mkdtemp()
 os.environ['DATABASE_URL'] = f'sqlite:///{_tmp}/test.db'
 os.environ['COOKIE_SECURE'] = '0'
+os.environ['PROMO_POSTED_URL'] = ''        # tests never fetch the live promo log from GitHub
 
 from fastapi.testclient import TestClient  # noqa: E402
 

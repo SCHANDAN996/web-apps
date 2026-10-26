@@ -4,9 +4,10 @@
 <h1>{{ tr('practice_title') }}</h1>
 <p class="muted">{{ tr('practice_desc') }}</p>
 <a class="btn btn-secondary btn-block" style="margin-bottom:var(--sp-3)" href="/questions?lang={{ lang }}">{{ tr('bank_all_questions') }}</a>
-{% if has_books or ca_recent %}
+{% if has_books or ca_recent or telegram_quiz %}
 <div class="tile-row">
   {% if has_books %}<a class="tile card-link" href="/books"><svg class="icon"><use href="#i-book"/></svg><b>{{ tr('books_title') }}</b><span class="xs muted">{{ tr('books_tile') }}</span></a>{% endif %}
+  {% if telegram_quiz %}<a class="tile card-link" href="/practice" data-telegram-quiz id="telegramQuiz"><svg class="icon"><use href="#i-target"/></svg><b>{{ tr('tg_quiz_title') }}</b><span class="xs muted">{{ tr('tg_quiz_tile').format(n=telegram_quiz) }}</span></a>{% endif %}
   {% if ca_recent %}<a class="tile card-link" href="/current-affairs"><svg class="icon"><use href="#i-news"/></svg><b>{{ tr('ca_title') }}</b><span class="xs muted">{{ tr('ca_tile') }}</span></a>{% endif %}
 </div>
 {% endif %}

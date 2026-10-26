@@ -122,6 +122,51 @@ def start_specific_practice(db: Session, device: Device, question_id: int):
     return a
 
 
+MISTAKE_DAYS = 7
+MISTAKE_MAX = 25
+
+
+def recent_mistakes(db: Session, device: Device, days=MISTAKE_DAYS, limit=MISTAKE_MAX):
+    """This learner's questions whose latest answer in the last `days` days was wrong (newest first).
+    A question answered right again later in the window drops out; hidden questions never come back."""
+    since = datetime.utcnow() - timedelta(days=days)
+    rows = db.execute(
+        select(AttemptAnswer.question_id, AttemptAnswer.correct, AttemptAnswer.answered_at)
+        .join(Attempt, Attempt.id == AttemptAnswer.attempt_id)
+        .join(Question, Question.id == AttemptAnswer.question_id)
+        .where(Attempt.device_id == device.id, AttemptAnswer.answered_at >= since,
+               AttemptAnswer.chosen_index.is_not(None), USABLE)
+        .order_by(AttemptAnswer.answered_at.desc(), AttemptAnswer.id.desc())).all()
+    latest = {}
+    for qid, correct, _ in rows:
+        latest.setdefault(qid, correct)                  # first row per question = its latest answer
+    return [qid for qid, correct in latest.items() if correct is False][:limit]
+
+
+def start_mistakes(db: Session, device: Device):
+    ids = recent_mistakes(db, device)
+    if not ids:
+        raise LookupError('no_questions')
+    title = 'मेरी गलतियाँ (7 दिन)' if device.lang == 'hi' else 'My mistakes (7 days)'
+    a = Attempt(device_id=device.id, mode='practice', title=title, question_ids=ids)
+    db.add(a)
+    db.commit()
+    return a
+
+
+def start_telegram_quiz(db: Session, device: Device):
+    """Practice the questions posted to the Telegram channel today (else the latest day in the last 2)."""
+    from .promo import live
+    day, ids = live.quiz_for(db, today_ist())
+    if not ids:
+        raise LookupError('no_questions')
+    title = ('Telegram क्विज़ · ' if device.lang == 'hi' else 'Telegram quiz · ') + day.strftime('%d-%m-%Y')
+    a = Attempt(device_id=device.id, mode='practice', title=title, question_ids=ids)
+    db.add(a)
+    db.commit()
+    return a
+
+
 def start_retry_wrong(db: Session, device: Device, attempt_id: int):
     """Practice the questions answered wrongly in a finished attempt — right away, with solutions.
     (Revision cards for them are scheduled from tomorrow, so this is the same-day pass.)"""
@@ -555,3 +600,18 @@ def jobs_query(qualification=None, category=None, status='active', today=None):
         ok = [lv for lv, r in LEVEL_RANK.items() if r <= LEVEL_RANK[qualification]]
         q = q.where(or_(Job.min_qualification.in_(ok), Job.min_qualification.is_(None)))
     return q
+
+
+SUSPICIOUS_MIN_ANSWERS = 20
+SUSPICIOUS_MAX_RATE = 0.15
+
+
+def suspicious_keys(db, min_answers=SUSPICIOUS_MIN_ANSWERS, max_rate=SUSPICIOUS_MAX_RATE):
+    """{question_id: (answers, correct)} for live questions that students get wrong unusually often —
+    a sign of a wrong answer key. Already verified or hidden questions are left out (the admin decided)."""
+    rows = db.execute(
+        select(AttemptAnswer.question_id, func.count(), func.sum(case((AttemptAnswer.correct.is_(True), 1), else_=0)))
+        .join(Question, Question.id == AttemptAnswer.question_id)
+        .where(AttemptAnswer.chosen_index.is_not(None), Question.review_status == 'unreviewed')
+        .group_by(AttemptAnswer.question_id).having(func.count() >= min_answers)).all()
+    return {qid: (n, ok or 0) for qid, n, ok in rows if n and (ok or 0) / n < max_rate}

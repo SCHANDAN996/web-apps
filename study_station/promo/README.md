@@ -2,6 +2,8 @@
 
 Plan and rules: `../PROMO_PLAN.md`. Code: `v2/app/promo/` (run from `study_station/v2`).
 
+YouTube automatic uploads: [one-time connection and schedule setup](YOUTUBE.md).
+
 ```
 python -m app.promo telegram --slot quiz|trick|revision|weekly --dry-run   # what would be posted
 python -m app.promo shorts --count 3 --out shorts_out                       # 3 videos + captions
@@ -19,5 +21,5 @@ python -m app.promo shorts --count 3 --out shorts_out                       # 3 
 - Both are under the SIL Open Font License 1.1; the licence texts are `fonts/OFL.txt` and `fonts/OFL-NotoSans.txt`.
 
 ## Audio
-- The videos carry a silent AAC track, so there is no music licence to track.
+- The videos carry synthesized chimes/countdown ticks, so there is no music licence to track.
 - If music is added later, use only CC0 or royalty-free tracks and record each source and licence here.
