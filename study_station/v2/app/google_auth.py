@@ -39,6 +39,10 @@ def safe_target(value):
         return '/classroom'
     if re.fullmatch(r'/w/[A-Za-z0-9_-]{16,128}', parts.path) and not parts.query:
         return value
+    if parts.path == '/login':
+        from .auth_navigation import study_target
+        target = dict(parse_qsl(parts.query)).get('return_to', '/')
+        return '/login?' + urlencode({'return_to': study_target(target)})
     if parts.path != '/classroom':
         return '/classroom'
     allowed = []
@@ -223,7 +227,7 @@ async def web_callback(request: Request, db=Depends(get_db)):
         db.rollback()
         # Fixed local destination: provider errors and state failures cannot
         # turn into an open redirect or expose callback parameters to the UI.
-        response = RedirectResponse('/classroom?google_error=1', status_code=303)
+        response = RedirectResponse('/login?google_error=1', status_code=303)
         response.delete_cookie(COOKIE, path=PATH)
         response.headers['Cache-Control'] = 'no-store'
         return response

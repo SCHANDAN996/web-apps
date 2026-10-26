@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% block main %}
-<a class="btn btn-secondary" href="/membership" style="margin-bottom:var(--sp-3)">{{ tr('membership_title') }}</a>
+<a class="btn btn-secondary" href="/account" style="margin-bottom:var(--sp-3)">{{ tr('login_account') }}</a>
 <div class="stack">
   {% set done = stats.today_answered %}
   {% set pct = [100, (done * 10)]|min %}

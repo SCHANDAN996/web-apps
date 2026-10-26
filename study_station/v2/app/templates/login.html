@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}{{ tr('login_title') }} — {{ tr('brand') }}{% endblock %}
+{% block main %}
+<section id="loginHub" class="login-hub" data-return-to="{{ return_to or '/' }}" aria-labelledby="loginTitle">
+  <header class="login-heading"><span class="login-offer">{{ tr('login_offer') }}</span><h1 id="loginTitle">{{ tr('login_title') }}</h1><p>{{ tr('login_intro') }}</p></header>
+  <div class="login-card card"><p role="status">{{ tr('login_checking') }}</p></div>
+  <p class="login-assurance">{{ tr('login_no_charge') }}</p>
+  <a class="small" href="/privacy">{{ tr('login_privacy') }}</a>
+</section>
+{% endblock %}

@@ -1,4 +1,4 @@
-"""Three-day trial foundation. Disabled until the operator explicitly enables it.
+"""Three-calendar-month trial policy. Disabled until the operator explicitly enables it.
 
 A client cannot set dates, prices, a paid entitlement or a payment success flag.
 No card, payment order, recurring mandate or automatic charge is created here.
@@ -12,7 +12,8 @@ from .classroom import require, body, fail
 from .membership_models import Membership
 
 router = APIRouter(prefix='/api/v1/membership', tags=['membership'])
-TRIAL_DURATION = timedelta(hours=72)
+TRIAL_MONTHS = 3
+TRIAL_POLICY_VERSION = 'three-calendar-months-v1'
 PLANS = ({'id': 'monthly', 'amount_paise': 900, 'currency': 'INR', 'period': 'calendar_month'},
          {'id': 'yearly', 'amount_paise': 5100, 'currency': 'INR', 'period': 'calendar_year'})
 
@@ -24,6 +25,40 @@ def utcnow():
 
 def stamp(value):
     return value.isoformat(timespec='seconds') + 'Z' if value else None
+
+
+
+def trial_end(value):
+    """Three calendar months, clamped once to the destination month's last day."""
+    import calendar
+    offset = value.month - 1 + TRIAL_MONTHS
+    year, month = value.year + offset // 12, offset % 12 + 1
+    return value.replace(year=year, month=month, day=min(value.day, calendar.monthrange(year, month)[1]))
+
+
+def ensure_trial(db, account, now=None):
+    """Flush one account-bound grant; caller commits with its login transaction.
+
+    A savepoint absorbs a concurrent insert without rolling back a successful
+    account/session operation. Existing grants are never restarted by sign-in.
+    """
+    if not enabled() or not account.storage_namespace:
+        return None
+    row = db.get(Membership, account.storage_namespace)
+    if row is not None:
+        return row
+    now = now or utcnow()
+    try:
+        with db.begin_nested():
+            row = Membership(namespace=account.storage_namespace, trial_started_at=now,
+                             trial_ends_at=trial_end(now), trial_policy_version=TRIAL_POLICY_VERSION)
+            db.add(row)
+            db.flush()
+    except IntegrityError:
+        row = db.get(Membership, account.storage_namespace)
+        if row is None:
+            raise
+    return row
 
 
 def paid_access_until(db,account,now=None):
@@ -49,6 +84,8 @@ def status_for(db, account, now=None):
     paid_active = bool(paid_until and paid_until > now)
     state = 'disabled' if not active else ('paid' if paid_active else 'trial' if trial_active else 'expired' if row else 'available')
     return {'enabled': active, 'state': state, 'server_time': stamp(now),
+            'trial_period': {'unit': 'calendar_month', 'count': TRIAL_MONTHS},
+            'trial_policy_version': row.trial_policy_version if row else TRIAL_POLICY_VERSION,
             'trial_started_at': stamp(row.trial_started_at) if row else None,
             'trial_ends_at': stamp(row.trial_ends_at) if row else None,
             'paid_until': stamp(paid_until),
@@ -76,16 +113,8 @@ async def membership_start(request: Request, db=Depends(get_db)):
         fail('membership_not_enabled', 409)
     if not account.storage_namespace:
         fail('account_namespace_required', 409)
-    row = db.get(Membership, account.storage_namespace)
-    if not row:
-        now = utcnow()
-        db.add(Membership(namespace=account.storage_namespace, trial_started_at=now,
-                          trial_ends_at=now+TRIAL_DURATION))
-        try:
-            db.commit()
-        except IntegrityError:
-            # A concurrent activation must return the first period, never restart it.
-            db.rollback()
+    ensure_trial(db, account)
+    db.commit()
     return status_for(db, account)
 
 
@@ -215,7 +244,7 @@ async def guard_request(request, call_next):
                 return JSONResponse({'detail':reason,'membership_url':'/membership'},status_code=code,
                                     headers={'Cache-Control':'no-store','Vary':'Cookie'})
             # Only the actual same-origin allowlisted path is carried, no arbitrary return URL.
-            return RedirectResponse('/membership?'+urlencode({'return_to':request.url.path}),status_code=303,
+            return RedirectResponse(('/login?' if code == 401 else '/membership?')+urlencode({'return_to':request.url.path}),status_code=303,
                                     headers={'Cache-Control':'no-store','Vary':'Cookie'})
     response=await call_next(request)
     if request.url.path.startswith('/api/v1/membership') or request.url.path=='/membership':

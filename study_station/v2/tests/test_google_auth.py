@@ -89,7 +89,7 @@ def test_web_pkce_safe_redirect_state(google, monkeypatch, db):
     assert row.return_to == '/classroom'
     denied = google.get('/api/v1/classroom/google/callback?state=wrong&code=x',follow_redirects=False)
     assert denied.status_code == 303
-    assert denied.headers['location'] == '/classroom?google_error=1'
+    assert denied.headers['location'] == '/login?google_error=1'
 
 
 def test_google_email_never_links_local_account(google, monkeypatch):

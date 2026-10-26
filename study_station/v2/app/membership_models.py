@@ -11,6 +11,7 @@ class Membership(Base):
     trial_started_at: Mapped[datetime] = mapped_column(DateTime)
     trial_ends_at: Mapped[datetime] = mapped_column(DateTime)
     paid_until: Mapped[datetime | None] = mapped_column(DateTime, nullable=True)
+    trial_policy_version: Mapped[str | None] = mapped_column(String(40), nullable=True)
 
 class MembershipGrant(Base):
     __tablename__ = 'membership_grant'
@@ -21,3 +22,10 @@ class MembershipGrant(Base):
     verified_at: Mapped[datetime] = mapped_column(DateTime)
     paid_until: Mapped[datetime] = mapped_column(DateTime)
     revoked_at: Mapped[datetime | None] = mapped_column(DateTime, nullable=True)
+
+
+class TrialRollout(Base):
+    """Global non-personal marker: the first apply fixes the rollout date forever."""
+    __tablename__ = 'membership_trial_rollout'
+    version: Mapped[str] = mapped_column(String(40), primary_key=True)
+    activated_at: Mapped[datetime] = mapped_column(DateTime)

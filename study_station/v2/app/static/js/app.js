@@ -238,6 +238,7 @@
 
   SS.initPage = function () {
   if (window.SSMembershipInit) window.SSMembershipInit();
+  if (window.SSLoginInit) window.SSLoginInit();
   if (window.SSClassroom) window.SSClassroom.init();
   if (window.SSBackup) window.SSBackup.init();
   var onboard = document.getElementById('onboard');

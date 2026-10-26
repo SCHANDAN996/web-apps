@@ -13,7 +13,7 @@ from app.db import Base, engine
 def trial(db, monkeypatch):
     Base.metadata.create_all(engine)
     db.query(ClassroomRate).delete(); db.commit()
-    monkeypatch.setenv('MEMBERSHIP_ENABLED', '1')
+    monkeypatch.setenv('MEMBERSHIP_ENABLED', '0')
     app=FastAPI(); app.include_router(accounts); app.include_router(service.router)
     from app.account_deletion import router as deletion_router
     app.include_router(deletion_router)
@@ -21,6 +21,7 @@ def trial(db, monkeypatch):
     user='trial'+uuid.uuid4().hex[:12]
     response=client.post('/api/v1/classroom/signup',json={'username':user,'password':'long-enough-password'})
     assert response.status_code==200,response.text
+    monkeypatch.setenv('MEMBERSHIP_ENABLED','1')
     yield client,response.json()['account']
     client.close()
 
@@ -32,12 +33,12 @@ def test_start_is_explicit_and_does_not_charge(trial,db,monkeypatch):
     assert db.query(Membership).filter_by(namespace=account['storage_namespace']).first() is None
     first=client.post('/api/v1/membership/start',json={'confirm':True}).json()
     assert first['trial_started_at']=='2026-01-01T12:00:00Z'
-    assert first['trial_ends_at']=='2026-01-04T12:00:00Z'
-    assert first['remaining_seconds']==259200
+    assert first['trial_ends_at']=='2026-04-01T12:00:00Z'
+    assert first['remaining_seconds']==int((service.trial_end(now)-now).total_seconds())
     assert first['premium_access'] and not first['payment_available'] and not first['auto_renew']
-    monkeypatch.setattr(service,'utcnow',lambda:now+timedelta(hours=71,seconds=3599))
+    monkeypatch.setattr(service,'utcnow',lambda:service.trial_end(now)-timedelta(seconds=1))
     assert client.get('/api/v1/membership/status').json()['state']=='trial'
-    monkeypatch.setattr(service,'utcnow',lambda:now+timedelta(hours=72))
+    monkeypatch.setattr(service,'utcnow',lambda:service.trial_end(now))
     expired=client.post('/api/v1/membership/start',json={'confirm':True}).json()
     assert expired['state']=='expired' and not expired['premium_access']
     assert expired['trial_ends_at']==first['trial_ends_at']
@@ -75,8 +76,8 @@ def test_restart_after_logout_and_other_account_isolation(trial,db,monkeypatch):
     client.post('/api/v1/classroom/logout',json={})
     second=client.post('/api/v1/classroom/signup',json={'username':'other'+uuid.uuid4().hex[:12],'password':'long-enough-password'})
     assert second.status_code==200
-    assert client.get('/api/v1/membership/status').json()['state']=='available'
-    assert client.get('/api/v1/membership/status').json()['trial_started_at'] is None
+    assert client.get('/api/v1/membership/status').json()['state']=='trial'
+    assert client.get('/api/v1/membership/status').json()['account_namespace']!=first['account_namespace']
 
 def test_verified_payment_grants_calendar_period_once(trial,db):
     client,account=trial
@@ -120,15 +121,14 @@ def test_full_app_enforcement_and_html_entry(client,monkeypatch):
     result=client.post('/api/v1/practice',json={})
     assert result.status_code==401 and result.json()['detail']=='sign_in_required'
     redirect=client.get('/books',follow_redirects=False)
-    assert redirect.status_code==303 and redirect.headers['location'].startswith('/membership?return_to=%2Fbooks')
+    assert redirect.status_code==303 and redirect.headers['location'].startswith('/login?return_to=%2Fbooks')
     assert client.get('/membership').status_code==200
     assert 'no-store' in client.get('/membership').headers['cache-control']
     assert client.get('/privacy').status_code==200
     signup=client.post('/api/v1/classroom/signup',json={'username':'gate'+uuid.uuid4().hex[:12],'password':'long-enough-password'})
     assert signup.status_code==200,signup.text
-    assert client.get('/books',follow_redirects=False).status_code==303
-    denied=client.post('/api/v1/practice',json={})
-    assert denied.status_code==402 and denied.json()['detail']=='membership_required'
+    assert client.get('/books',follow_redirects=False).status_code==200
+    assert client.get('/api/v1/membership/status').json()['state']=='trial'
     assert client.post('/api/v1/membership/start',json={'confirm':True}).status_code==200
     assert client.get('/books',follow_redirects=False).status_code==200
     assert client.get('/api/v1/membership/status').headers['cache-control']=='no-store'
@@ -147,7 +147,7 @@ def test_lease_signature_and_expiry_clamped_to_trial(trial,db,monkeypatch,tmp_pa
     start=datetime(2026,1,1)
     monkeypatch.setattr(service,'utcnow',lambda:start)
     assert client.post('/api/v1/membership/start',json={'confirm':True}).status_code==200
-    now=start+timedelta(hours=72-hours)
+    now=service.trial_end(start)-timedelta(hours=hours)
     monkeypatch.setattr(service,'utcnow',lambda:now)
     response=client.get('/api/v1/membership/lease')
     assert response.status_code==200,response.text
@@ -158,7 +158,7 @@ def test_lease_signature_and_expiry_clamped_to_trial(trial,db,monkeypatch,tmp_pa
     assert claims['aud']=='com.studystation.app' and claims['iss']=='StudyStation'
     assert claims['namespace']==account['storage_namespace']
     assert claims['exp']-claims['iat']==min(hours,24)*3600
-    assert claims['exp']<=calendar.timegm((start+timedelta(hours=72)).utctimetuple())
+    assert claims['exp']<=calendar.timegm(service.trial_end(start).utctimetuple())
     assert 'email' not in claims and 'username' not in claims
 
 

@@ -685,6 +685,9 @@ STRINGS.update(PLAY_BILLING_STRINGS)
 from .payment_policy_i18n import STRINGS as PAYMENT_POLICY_STRINGS
 STRINGS.update(PAYMENT_POLICY_STRINGS)
 
+from .login_i18n import STRINGS as LOGIN_STRINGS
+STRINGS.update(LOGIN_STRINGS)
+
 def client_strings(lang):
     """Subset sent to the browser for the JS player."""
     keys = ['check', 'next', 'prev', 'finish', 'submit', 'save_next', 'mark_review', 'clear', 'correct',
@@ -695,7 +698,7 @@ def client_strings(lang):
             'st_unanswered', 'st_marked', 'st_marked_answered', 'st_notvisited', 'submit_note',
             'revise_next', 'revise_next_1', 'revise_none', 'go_practice', 'offline_now', 'online_again', 'report_note',
             'retry', 'reset_progress_confirm', 'reset_progress_warning', 'reset_progress_action']
-    keys += [k for k in STRINGS if k.startswith(('rough_', 'backup_', 'reset_', 'cache_', 'bank_', 'offline_', 'dialog_', 'question_', 'choice_', 'workspace_', 'classroom_', 'privacy_', 'deletion_', 'membership_', 'payu_', 'play_billing_'))]
+    keys += [k for k in STRINGS if k.startswith(('rough_', 'backup_', 'reset_', 'cache_', 'bank_', 'offline_', 'dialog_', 'question_', 'choice_', 'workspace_', 'classroom_', 'privacy_', 'deletion_', 'membership_', 'payu_', 'play_billing_', 'login_'))]
     out = {k: t(k, lang) for k in keys}
     out['errors'] = {k: (v[0] if lang == 'hi' else v[1]) for k, v in ERRORS.items()}
     return out

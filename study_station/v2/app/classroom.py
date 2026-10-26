@@ -234,6 +234,8 @@ async def signup(request: Request, response: Response, db=Depends(get_db)):
     return login_session(db, a, response)
 
 def login_session(db, a, response):
+    from .membership import ensure_trial
+    ensure_trial(db, a)
     token = secrets.token_urlsafe(32)
     db.add(Session(token=digest(token), account_id=a.id, expires=datetime.utcnow() + timedelta(days=30)))
     db.commit()

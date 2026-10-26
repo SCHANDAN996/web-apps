@@ -901,3 +901,17 @@ def page_membership(request: Request, device: Device | None = Depends(current_de
     response.headers['Cache-Control']='no-store'
     response.headers['X-Robots-Tag']='noindex, nofollow'
     return response
+
+
+@app.get('/login', response_class=HTMLResponse)
+def page_login(request: Request, device: Device | None = Depends(current_device)):
+    from .auth_navigation import study_target
+    response=render('login.html',request,device,return_to=study_target(request.query_params.get('return_to','/')))
+    response.headers['Cache-Control']='no-store'
+    response.headers['Vary']='Cookie'
+    response.headers['X-Robots-Tag']='noindex, nofollow'
+    return response
+
+@app.get('/account', response_class=HTMLResponse)
+def page_account(request: Request, device: Device | None = Depends(current_device), db: Session = Depends(get_db)):
+    return page_membership(request,device,db)
