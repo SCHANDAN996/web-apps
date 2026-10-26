@@ -623,7 +623,8 @@ body.nav-busy .nav-progress { opacity: 1; transform: scaleX(.92);
 /* ---------------------------------------------------------------- page transitions */
 /* Cross-page "fade through" (M3) with the View Transitions API — Chrome/Android only, ignored elsewhere.
    App bars keep their own names so they stay put while the content changes. */
-@view-transition { navigation: auto; }
+/* OAuth, login and live-classroom redirects must not compete with document transitions. */
+@view-transition { navigation: none; }
 .topbar { view-transition-name: topbar; }
 .tabbar { view-transition-name: tabbar; }
 ::view-transition-old(root) { animation: 90ms var(--ease-accel) both vt-out; }

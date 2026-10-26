@@ -9,7 +9,7 @@ STRINGS = {
  'login_password_option': ('यूज़र नाम से जारी रखें', 'Continue with username'),
  'login_existing': ('लॉगिन करें', 'Sign in'),
  'login_signup': ('अकाउंट बनाएँ', 'Create account'),
- 'login_name': ('आपका नाम', 'Your name'),
+ 'login_name': ('आपका नाम (वैकल्पिक)', 'Your name (optional)'),
  'login_username': ('यूज़र नाम', 'Username'),
  'login_password': ('पासवर्ड', 'Password'),
  'login_password_hint': ('नए अकाउंट के लिए कम-से-कम 10 अक्षर।', 'Use at least 10 characters for a new account.'),
@@ -45,3 +45,5 @@ STRINGS = {
 }
 
 STRINGS['login_logout'] = ('लॉगआउट करें', 'Sign out')
+
+STRINGS['login_username_hint'] = ('यूज़र नाम: 3–40 अंग्रेज़ी अक्षर या अंक; डॉट, अंडरस्कोर और हाइफ़न भी चलेंगे।', 'Username: 3–40 English letters or numbers; dots, underscores and hyphens are allowed.')
