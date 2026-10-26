@@ -8,7 +8,7 @@ window.SSLoginInit=function(){
  if(window.SS&&SS.onLeave)SS.onLeave(stop);
  const n=(tag,text,cls)=>{const e=document.createElement(tag);if(text!=null)e.textContent=text;if(cls)e.className=cls;return e;};
  const card=root.querySelector('.login-card'),status=n('p','','login-status');status.setAttribute('role','status');status.setAttribute('aria-live','polite');
- const target=root.dataset.returnTo||'/';
+ const requested=root.dataset.returnTo||'/';const target=['/account','/membership'].includes(requested)?'/':requested;
  const link=(label,url,primary=true)=>{const a=n('a',label,'btn '+(primary?'btn-primary':'btn-secondary'));a.href=url;return a;};
  function button(label,fn,primary=false){const b=n('button',label,'btn '+(primary?'btn-primary':'btn-secondary'));b.type='button';b.onclick=()=>run(fn);return b;}
  function show(text,error=false){status.textContent=text;status.classList.toggle('is-error',error);}

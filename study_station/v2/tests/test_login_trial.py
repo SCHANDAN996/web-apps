@@ -60,3 +60,8 @@ def test_auth_assets_have_valid_utf8():
     for name in ['login.js','membership.js','classroom.js']:
         text=(root/name).read_text(encoding='utf-8')
         assert '\u00c2\u00b7' not in text
+
+
+def test_guest_account_goes_directly_to_login(client):
+    r=client.get('/account',follow_redirects=False)
+    assert r.status_code==303 and r.headers['location']=='/login?return_to=%2Faccount'

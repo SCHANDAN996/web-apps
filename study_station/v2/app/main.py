@@ -944,4 +944,8 @@ def page_login(request: Request, device: Device | None = Depends(current_device)
 
 @app.get('/account', response_class=HTMLResponse)
 def page_account(request: Request, device: Device | None = Depends(current_device), db: Session = Depends(get_db)):
+    from .classroom import current
+    if not current(request,db):
+        from fastapi.responses import RedirectResponse
+        return RedirectResponse('/login?return_to=%2Faccount',status_code=303,headers={'Cache-Control':'no-store'})
     return page_membership(request,device,db)
