@@ -40,14 +40,15 @@ sys.stdout.write(render('membership.html',request,None,membership_account=Simple
             trial_ends_at:'2027-01-26T12:00:00Z', paid_until:'2027-05-01T12:00:00Z',
             remaining_seconds:92*86400, trial_period:{unit:'calendar_month',count:3}, auto_renew:false};
         } else if (url.pathname === '/api/v1/classroom/me') {
-          value={account:{id:9902,name:'QA Learner',username:'qa',storage_namespace:'b'.repeat(48)}};
+          value={account:{id:9902,name:'QA Learner',username:'google_internal_identity_not_for_display',storage_namespace:'b'.repeat(48)}};
         } else if (url.pathname === '/api/v1/payments/payu/config') value={enabled:false};
         return route.fulfill({status, contentType:'application/json', body:JSON.stringify(value)});
       });
       await page.goto(base+'/membership?qa='+lang);
       const words = await page.evaluate(() => JSON.parse(document.getElementById('ss-boot').textContent).t);
       const panel = page.locator('#membershipPanel'), line = panel.locator('[data-membership-status]');
-      await page.getByText('QA Learner · qa', {exact:true}).waitFor();
+      await page.getByText('QA Learner', {exact:true}).waitFor();
+      assert.equal(await panel.innerText().then(t=>t.includes('google_internal_identity_not_for_display')),false);
       for (const nextState of ['trial','paid','expired','disabled']) {
         state=nextState;
         if (nextState!=='trial') await page.reload();
