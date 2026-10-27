@@ -67,7 +67,12 @@
   "10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_07_Ratio_Proportion#Set02#Q42",
   "10th_Level/English/Foundation_10th_English_WorldClass/Chapter_12_Sentence_Structure#Set04#Q100",
   "10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_06_Physical_Geography#Set04#Q82",
-  "revision#2026-10-26"
+  "revision#2026-10-26",
+  "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_08_World_Geography#Set01#Q1",
+  "12th_Level/Reasoning/Chapter_04_Blood_Relations#Set03#Q60",
+  "12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_22_Number_Series#Set02#Q35",
+  "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_13_Synonyms#Set06#Q135",
+  "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_09_Economy_Basic#Set01#Q15"
  ],
  "shorts": [
   "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_17_Culture_Art#Set01#Q8",
@@ -812,6 +817,62 @@
      {
       "id": "revision#2026-10-26",
       "msg": 79
+     }
+    ]
+   ]
+  },
+  "2026-10-27": {
+   "quiz": [
+    [
+     {
+      "id": "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_08_World_Geography#Set01#Q1",
+      "msg": 81,
+      "chapter": "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_08_World_Geography",
+      "q": "क्षेत्रफल की दृष्टि से सबसे बड़ा महाद्वीप कौन-सा है?",
+      "ans": 1,
+      "opt": "एशिया",
+      "exp": "उत्तर: एशिया। अफ्रीका दूसरा सबसे बड़ा महाद्वीप है और सबसे अधिक देश होने के कारण अक्सर विद्यार्थियों को भ्रमित करता है, लेकिन एशिया लगभग 44.6 मिलियन वर्ग किमी में फैला है, जो पृथ्वी की भूमि का लगभग एक…",
+      "part": "am"
+     },
+     {
+      "id": "12th_Level/Reasoning/Chapter_04_Blood_Relations#Set03#Q60",
+      "msg": 82,
+      "chapter": "12th_Level/Reasoning/Chapter_04_Blood_Relations",
+      "q": "R, Q का बेटा है। Q, P की बहन है। P, S का पिता है। R, S से किस प्रकार संबंधित है?",
+      "ans": 0,
+      "opt": "चचेरा भाई",
+      "exp": "उत्तर: चचेरा भाई। भाई और बहन की संतानें चचेरे/ममेरे भाई-बहन होती हैं, इसलिए R, S का चचेरा भाई है।",
+      "part": "am"
+     },
+     {
+      "id": "12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_22_Number_Series#Set02#Q35",
+      "msg": 83,
+      "chapter": "12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_22_Number_Series",
+      "q": "श्रृंखला में लुप्त संख्या ज्ञात कीजिए: 1, 8, 27, 64, 125, ?",
+      "ans": 2,
+      "opt": "216",
+      "exp": "उत्तर: 216। जाल वाला विकल्प 196 तब आता है जब श्रृंखला को वर्गों से भ्रमित किया जाए (14² = 196), लेकिन ये प्राकृत संख्याओं के घन हैं: 1³, 2³, 3³, 4³, 5³, इसलिए अगला पद 6³ = 216 है, अतः उत्तर 216 है।",
+      "part": "am"
+     },
+     {
+      "id": "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_13_Synonyms#Set06#Q135",
+      "msg": 84,
+      "chapter": "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_13_Synonyms",
+      "q": "OSTENTATIOUS के अर्थ के सबसे निकट शब्द का चयन करें।",
+      "ans": 0,
+      "opt": "Showy",
+      "exp": "उत्तर: Showy। Showy उस प्रदर्शन को दर्शाता है, इसलिए उत्तर showy है।",
+      "part": "am"
+     },
+     {
+      "id": "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_09_Economy_Basic#Set01#Q15",
+      "msg": 85,
+      "chapter": "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_09_Economy_Basic",
+      "q": "भारत में निम्नलिखित में से कौन-सा प्रत्यक्ष कर है?",
+      "ans": 0,
+      "opt": "आयकर",
+      "exp": "उत्तर: आयकर। आयकर सीधे उस व्यक्ति द्वारा चुकाया जाता है जो आय अर्जित करता है, इसलिए उत्तर आयकर है।",
+      "part": "am"
      }
     ]
    ]
