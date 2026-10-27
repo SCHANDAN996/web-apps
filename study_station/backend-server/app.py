@@ -1,9 +1,17 @@
 import os
-from flask import Flask, jsonify, request, render_template
+from flask import Flask, jsonify, request, render_template, redirect, url_for, abort
 from flask_cors import CORS
 from models import db, StudyContent, PracticeQuestion, JobAlert
 
 app = Flask(__name__)
+app.secret_key = os.environ.get('FLASK_SECRET_KEY', '')
+if not app.secret_key:
+    raise RuntimeError('FLASK_SECRET_KEY is required')
+app.config['SESSION_COOKIE_HTTPONLY'] = True
+app.config['SESSION_COOKIE_SAMESITE'] = 'Lax'
+app.config['SESSION_COOKIE_SECURE'] = os.environ.get('SESSION_COOKIE_SECURE', 'true').lower() == 'true'
+from admin_auth import admin_auth_bp, admin_authorized
+app.register_blueprint(admin_auth_bp)
 CORS(app)
 
 # Configure SQLite Database for development
@@ -31,6 +39,15 @@ def add_header(response):
     response.headers['Pragma'] = 'no-cache'
     response.headers['Expires'] = '-1'
     return response
+
+@app.before_request
+def require_admin_login():
+    if request.path == '/admin' or request.path.startswith('/admin/'):
+        if not admin_authorized():
+            if request.method == 'GET':
+                return redirect(url_for('admin_auth.login'))
+            abort(401, description='Google admin login required.')
+
 
 # ==========================================
 # ADMIN PANEL ROUTES (Hostinger Style UI)
