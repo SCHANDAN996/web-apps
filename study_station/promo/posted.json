@@ -73,7 +73,12 @@
   "12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_22_Number_Series#Set02#Q35",
   "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_13_Synonyms#Set06#Q135",
   "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_09_Economy_Basic#Set01#Q15",
-  "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_11_Chemistry#Memory_Hooks_hi.txt#11"
+  "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_11_Chemistry#Memory_Hooks_hi.txt#11",
+  "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_23_Economic_Terms#Set01#Q17",
+  "12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_17_Trigonometry#Set02#Q26",
+  "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_17_Spelling#Set04#Q84",
+  "12th_Level/Reasoning/Chapter_12_Missing_Term#Set02#Q33",
+  "12th_Level/Reasoning/Chapter_16_Statement_Conclusion#Set02#Q36"
  ],
  "shorts": [
   "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_17_Culture_Art#Set01#Q8",
@@ -874,6 +879,58 @@
       "opt": "आयकर",
       "exp": "उत्तर: आयकर। आयकर सीधे उस व्यक्ति द्वारा चुकाया जाता है जो आय अर्जित करता है, इसलिए उत्तर आयकर है।",
       "part": "am"
+     }
+    ],
+    [
+     {
+      "id": "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_23_Economic_Terms#Set01#Q17",
+      "msg": 88,
+      "chapter": "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_23_Economic_Terms",
+      "q": "भारत में किस कर को GST में समाहित किया गया?",
+      "ans": 0,
+      "opt": "उत्पाद शुल्क",
+      "exp": "उत्तर: उत्पाद शुल्क। अधिकांश वस्तुओं पर केंद्रीय उत्पाद शुल्क 1 जुलाई 2017 से GST में समाहित हो गया, इसलिए उत्तर उत्पाद शुल्क है।",
+      "part": "pm"
+     },
+     {
+      "id": "12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_17_Trigonometry#Set02#Q26",
+      "msg": 89,
+      "chapter": "12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_17_Trigonometry",
+      "q": "यदि sin θ = 3/5 और θ न्यून कोण है, तो cos θ का मान है",
+      "ans": 0,
+      "opt": "4/5",
+      "exp": "उत्तर: 4/5। sin²θ + cos²θ = 1 से, cos²θ = 1 − 9/25 = 16/25, अतः cos θ = 4/5 (धनात्मक, क्योंकि θ न्यून कोण है)।",
+      "part": "pm"
+     },
+     {
+      "id": "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_17_Spelling#Set04#Q84",
+      "msg": 90,
+      "chapter": "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_17_Spelling",
+      "q": "सही वर्तनी (spelling) वाला शब्द चुनिए।",
+      "ans": 2,
+      "opt": "Pronunciation",
+      "exp": "उत्तर: Pronunciation। क्रिया \"pronounce\" के कारण \"Pronounciation\" लुभाता है, पर संज्ञा में n के बाद o नहीं रहता।",
+      "part": "pm"
+     },
+     {
+      "id": "12th_Level/Reasoning/Chapter_12_Missing_Term#Set02#Q33",
+      "msg": 91,
+      "chapter": "12th_Level/Reasoning/Chapter_12_Missing_Term",
+      "q": "लुप्त पद ज्ञात कीजिए: 11, 13, 17, 19, 23, 29, ?",
+      "ans": 2,
+      "opt": "31",
+      "exp": "उत्तर: 31। यह श्रृंखला 11 से शुरू होकर क्रमागत अभाज्य संख्याओं को दर्शाती है: 11, 13, 17, 19, 23, 29, और अगली अभाज्य संख्या 31 है।",
+      "part": "pm"
+     },
+     {
+      "id": "12th_Level/Reasoning/Chapter_16_Statement_Conclusion#Set02#Q36",
+      "msg": 92,
+      "chapter": "12th_Level/Reasoning/Chapter_16_Statement_Conclusion",
+      "q": "कथन: कोई झील नदी नहीं है। सभी नदियाँ तालाब हैं।\nनिष्कर्ष:\nI. कुछ तालाब नदियाँ हैं।\nII. सभी झीलें तालाब हैं।",
+      "ans": 1,
+      "opt": "केवल निष्कर्ष I अनुसरण करता है",
+      "exp": "उत्तर: केवल निष्कर्ष I अनुसरण करता है। जाल यह है कि निष्कर्ष II को किसी कथन का मान्य उलटा रूप समझ लिया जाता है; इसलिए उत्तर है \"केवल निष्कर्ष I अनुसरण करता है\"।",
+      "part": "pm"
      }
     ]
    ],
