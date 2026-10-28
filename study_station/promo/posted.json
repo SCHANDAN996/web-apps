@@ -85,7 +85,12 @@
   "Graduation_Level/Reasoning/Chapter_14_Alphabet_Questions#Set04#Q95",
   "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_05_Tense#Set06#Q146",
   "Graduation_Level/Reasoning/Chapter_25_Statement_Argument#Set04#Q94",
-  "Graduation_Level/Reasoning/Chapter_05_Direction_Sense#Short_Tricks_hi.txt#4"
+  "Graduation_Level/Reasoning/Chapter_05_Direction_Sense#Short_Tricks_hi.txt#4",
+  "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_01_Number_System_Advanced#Set01#Q9",
+  "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_07_Ratio_Proportion#Set04#Q84",
+  "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_21_International_Orgs#Set04#Q81",
+  "Graduation_Level/Reasoning/Chapter_12_Missing_Term#Set04#Q92",
+  "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_20_Sentence_Improvement_Adv#Set03#Q73"
  ],
  "shorts": [
   "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_17_Culture_Art#Set01#Q8",
@@ -1010,6 +1015,58 @@
       "opt": "केवल तर्क I मजबूत है",
       "exp": "उत्तर: केवल तर्क I मजबूत है। तर्क II एक गलत सामान्यीकरण है, इसलिए केवल I मजबूत है।",
       "part": "am"
+     }
+    ],
+    [
+     {
+      "id": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_01_Number_System_Advanced#Set01#Q9",
+      "msg": 102,
+      "chapter": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_01_Number_System_Advanced",
+      "q": "47 को 6 से भाग देने पर शेषफल क्या है?",
+      "ans": 1,
+      "opt": "5",
+      "exp": "उत्तर: 5। चूँकि 6 × 7 = 42 और 47 − 42 = 5, शेषफल 5 है, इसलिए उत्तर 5 है।",
+      "part": "pm"
+     },
+     {
+      "id": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_07_Ratio_Proportion#Set04#Q84",
+      "msg": 103,
+      "chapter": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_07_Ratio_Proportion",
+      "q": "यदि x : y = 3 : 4, तो (5x + 3y) : (7x − 2y) ज्ञात कीजिए।",
+      "ans": 1,
+      "opt": "27 : 13",
+      "exp": "उत्तर: 27 : 13। अनुपात = 27 : 13, अतः उत्तर 27 : 13 है।",
+      "part": "pm"
+     },
+     {
+      "id": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_21_International_Orgs#Set04#Q81",
+      "msg": 104,
+      "chapter": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_21_International_Orgs",
+      "q": "विश्व व्यापार संगठन (WTO) ने 1 जनवरी 1995 को किस निकाय का स्थान लिया?",
+      "ans": 0,
+      "opt": "GATT",
+      "exp": "उत्तर: GATT। UNCTAD आज भी व्यापार और विकास पर संयुक्त राष्ट्र का निकाय के रूप में मौजूद है, इसलिए वह उत्तर नहीं हो सकता; WTO उरुग्वे दौर के बाद टैरिफ और व्यापार पर सामान्य समझौते (GATT, 1947) का उत्त…",
+      "part": "pm"
+     },
+     {
+      "id": "Graduation_Level/Reasoning/Chapter_12_Missing_Term#Set04#Q92",
+      "msg": 105,
+      "chapter": "Graduation_Level/Reasoning/Chapter_12_Missing_Term",
+      "q": "लुप्त संख्या ज्ञात कीजिए। एक 3×3 ग्रिड की पंक्तियाँ हैं: (3, 5, 34), (4, 8, 80), (6, 5, ?)",
+      "ans": 3,
+      "opt": "61",
+      "exp": "उत्तर: 61। जाल 11 है, जो अंतिम पंक्ति को केवल जोड़ता है; अतः उत्तर 61 है।",
+      "part": "pm"
+     },
+     {
+      "id": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_20_Sentence_Improvement_Adv#Set03#Q73",
+      "msg": 106,
+      "chapter": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_20_Sentence_Improvement_Adv",
+      "q": "सही सुधार चुनें: \"The principal and secretary have arrived for the meeting.\"",
+      "ans": 0,
+      "opt": "The principal and secretary has arrived for the meeting.",
+      "exp": "उत्तर: The principal and secretary has arrived for the meeting. \"The\" दोहराने पर दो व्यक्ति समझे जाएँगे — यह article जाल है।",
+      "part": "pm"
      }
     ]
    ],
