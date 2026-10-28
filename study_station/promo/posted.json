@@ -79,7 +79,12 @@
   "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_17_Spelling#Set04#Q84",
   "12th_Level/Reasoning/Chapter_12_Missing_Term#Set02#Q33",
   "12th_Level/Reasoning/Chapter_16_Statement_Conclusion#Set02#Q36",
-  "revision#2026-10-27"
+  "revision#2026-10-27",
+  "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_16_Coordinate_Geometry#Set02#Q43",
+  "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_14_Sports#Set04#Q82",
+  "Graduation_Level/Reasoning/Chapter_14_Alphabet_Questions#Set04#Q95",
+  "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_05_Tense#Set06#Q146",
+  "Graduation_Level/Reasoning/Chapter_25_Statement_Argument#Set04#Q94"
  ],
  "shorts": [
   "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_17_Culture_Art#Set01#Q8",
@@ -948,6 +953,62 @@
      {
       "id": "revision#2026-10-27",
       "msg": 93
+     }
+    ]
+   ]
+  },
+  "2026-10-28": {
+   "quiz": [
+    [
+     {
+      "id": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_16_Coordinate_Geometry#Set02#Q43",
+      "msg": 95,
+      "chapter": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_16_Coordinate_Geometry",
+      "q": "बिंदु (2, 3) से होकर जाने वाली और x – 2y + 5 = 0 पर लंबवत रेखा का समीकरण है",
+      "ans": 2,
+      "opt": "2x + y – 7 = 0",
+      "exp": "उत्तर: 2x + y – 7 = 0। दी गई रेखा की ढलान 1/2 है, इसलिए लंबवत ढलान –2 है; रेखा: y – 3 = –2(x – 2) → 2x + y – 7 = 0, अतः उत्तर 2x + y – 7 = 0 है।",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_14_Sports#Set04#Q82",
+      "msg": 96,
+      "chapter": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_14_Sports",
+      "q": "संतोष ट्रॉफी भारत में किस खेल से संबंधित है?",
+      "ans": 2,
+      "opt": "फुटबॉल",
+      "exp": "उत्तर: फुटबॉल। संतोष ट्रॉफी भारत की प्रमुख अंतर-राज्यीय फुटबॉल चैंपियनशिप है जो वरिष्ठ पुरुष टीमों के लिए होती है, इसलिए उत्तर फुटबॉल है।",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/Reasoning/Chapter_14_Alphabet_Questions#Set04#Q95",
+      "msg": 97,
+      "chapter": "Graduation_Level/Reasoning/Chapter_14_Alphabet_Questions",
+      "q": "अंग्रेज़ी वर्णमाला में J और R के ठीक बीच में कौन-सा अक्षर है?",
+      "ans": 2,
+      "opt": "N",
+      "exp": "उत्तर: N। J = 10 और R = 18, इसलिए बीच की स्थिति (10 + 18)/2 = 14 = N है।",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_05_Tense#Set06#Q146",
+      "msg": 98,
+      "chapter": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_05_Tense",
+      "q": "He talked as if he ______ a ghost. (वह ऐसे बात कर रहा था मानो उसने भूत ______ हो।)",
+      "ans": 0,
+      "opt": "had seen",
+      "exp": "उत्तर: had seen। Simple past केवल अवास्तविक वर्तमान तुलना में ठीक बैठता।",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/Reasoning/Chapter_25_Statement_Argument#Set04#Q94",
+      "msg": 99,
+      "chapter": "Graduation_Level/Reasoning/Chapter_25_Statement_Argument",
+      "q": "कथन: क्या भारत को अधिक सड़कें बनाकर अपने सीमावर्ती क्षेत्रों तक पहुँच आसान बनानी चाहिए?\nतर्क:\nI. हाँ, बेहतर सड़कों से रक्षा बल तेज़ी से आगे बढ़ सकते हैं और सीमावर्ती गाँवों का जीवन सुधरता है।\nII. नहीं, सड़कें केवल पिकनिक के लिए इस्तेमाल होती हैं।",
+      "ans": 1,
+      "opt": "केवल तर्क I मजबूत है",
+      "exp": "उत्तर: केवल तर्क I मजबूत है। तर्क II एक गलत सामान्यीकरण है, इसलिए केवल I मजबूत है।",
+      "part": "am"
      }
     ]
    ]
