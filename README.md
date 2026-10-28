@@ -50,3 +50,8 @@ web-apps/
 ## 👤 Author & Maintainer
 * **Chandan Singh** — [@SCHANDAN996](https://github.com/SCHANDAN996)
 * 📬 **Contact:** [all.chandansingh@gmail.com](mailto:all.chandansingh@gmail.com)
+
+
+## Portable personal-memory framework
+
+[`my-clone/`](my-clone/) provides reusable per-chat record templates, source-compilation tools and specialist-agent instructions. Personal records and generated memory stay local and are excluded from Git.
