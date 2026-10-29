@@ -60,10 +60,17 @@ def test_shared_theme_controls_and_reading_first_home_cards(client, monkeypatch)
     assert '"reset_progress_warning"' in client.get('/settings').text
 
 
-def test_home_collaboration_cards_precede_learning(client):
+def test_home_learning_cards_precede_collaboration(client):
     client.post('/api/v1/me', json={'level': '10th'})
     home=BeautifulSoup(client.get('/').text, 'html.parser')
     cards=home.select('.home-collaboration-grid .home-image-card')
     assert [c['href'] for c in cards] == ['/classroom?view=workspace','/classroom?view=groups','/classroom?view=classes','/classroom?view=shared']
     assert all(c.select_one('img[alt=""]') for c in cards)
-    assert home.select_one('main .stack > section').get('aria-labelledby') == 'home-collaboration-h'
+    assert home.select_one('main .stack > section').get('aria-labelledby') == 'plan-h'
+
+
+def test_offline_home_learning_cards_precede_collaboration():
+    from pathlib import Path
+    script = (Path(__file__).parents[1] / "app/static/js/offline-study.js").read_text(encoding="utf-8")
+    home = script.split("  function home() {", 1)[1].split("  function bookList()", 1)[0]
+    assert home.index("t('study_tools')") < home.index("class:'offline-hero'") < home.index("SS.t.classroom_home_title")

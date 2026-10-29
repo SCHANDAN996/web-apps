@@ -126,13 +126,22 @@
       return false;
     }
   }
+  function actionIcon(kind) {
+    var ns='http://www.w3.org/2000/svg', svg=document.createElementNS(ns,'svg'), path=document.createElementNS(ns,'path');
+    svg.setAttribute('viewBox','0 0 24 24');svg.setAttribute('class','icon question-action-icon');svg.setAttribute('aria-hidden','true');svg.setAttribute('focusable','false');
+    path.setAttribute('d',kind==='save'?'M6 4h12v17l-6-4-6 4z':'M8 12l8-5M8 12l8 5M7 12a2 2 0 1 1-4 0 2 2 0 0 1 4 0M20 6a2 2 0 1 1-4 0 2 2 0 0 1 4 0M20 18a2 2 0 1 1-4 0 2 2 0 0 1 4 0');svg.appendChild(path);return svg;
+  }
+  function actionLabel(button,kind,label) {
+    var text=document.createElement('span');text.textContent=label;
+    button.replaceChildren(actionIcon(kind),text);button.setAttribute('aria-label',label);button.title=label;
+  }
   function render(question, options) {
     var id = idOf(question), row = document.createElement('div'); row.className = 'question-actions';
     var save = document.createElement('button'), send = document.createElement('button');
     save.type = send.type = 'button'; save.className = send.className = 'btn btn-ghost question-action';
     save.dataset.favoriteQuestion = id; send.dataset.shareQuestion = id;
-    function paint(saved) { save.setAttribute('aria-pressed',String(saved)); save.textContent = (saved ? '★ ' : '☆ ')+t(saved ? 'question_saved' : 'question_save'); }
-    paint(false); send.textContent = '↗ '+t('question_share');
+    function paint(saved) { save.setAttribute('aria-pressed',String(saved)); actionLabel(save,'save',t(saved ? 'question_saved' : 'question_save')); }
+    paint(false); actionLabel(send,'share',t('question_share'));
     read(id).then(function (record) { paint(!!record); }).catch(function () {});
     save.addEventListener('click',async function () {
       save.disabled = true;

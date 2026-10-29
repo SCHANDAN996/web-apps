@@ -5,44 +5,6 @@
   {% set done = stats.today_answered %}
   {% set pct = [100, (done * 10)]|min %}
 
-  <section class="home-learning enter" aria-labelledby="home-collaboration-h">
-    <h2 id="home-collaboration-h">{{ tr('classroom_home_title') }}</h2>
-    <div class="home-card-grid home-collaboration-grid">
-      {% for view, image, label in [('workspace','workspace','workspace'),('groups','group','groups'),('classes','classroom','classes'),('shared','linked','shared')] %}
-      <a class="home-image-card" href="/classroom?view={{ view }}">
-        <img src="/static/illustrations/{{ image }}.svg?v={{ asset_v }}" width="96" height="72" alt="" decoding="async">
-        <b>{{ tr('classroom_home_' ~ label) }}</b><span class="xs muted">{{ tr('classroom_home_' ~ label ~ '_desc') }}</span>
-      </a>
-      {% endfor %}
-    </div>
-  </section>
-  <section class="today-card today-compact enter" aria-label="{{ tr('goal_line') }}">
-    <div class="today-top">
-      <div class="grow">
-        <h1 class="today-hello">{{ tr(greet) }}</h1>
-        <p class="today-goal">{% if done >= 10 %}{{ tr('goal_done') }}{% elif done == 0 %}{{ tr('goal_line') }}{% else %}{{ tr('goal_left').format(n=10 - done) }}{% endif %}</p>
-      </div>
-      <div class="ring" role="img" aria-label="{{ done }}/10">
-        <svg viewBox="0 0 44 44" aria-hidden="true"><circle class="ring-track" cx="22" cy="22" r="19"/>
-          {% if pct %}<circle class="ring-fill" cx="22" cy="22" r="19" pathLength="100" style="stroke-dasharray: {{ pct }} 100"/>{% endif %}</svg>
-        <span><b>{{ [done, 10]|min }}</b>/10</span>
-      </div>
-    </div>
-    {% set wd = tr('week_days').split(',') %}
-    <div class="week" aria-label="{{ tr('streak_n').format(n=stats.streak_days) }}">
-      {% for d in stats.week %}
-      <span class="day{% if d.active %} is-on{% endif %}{% if loop.last %} is-today{% endif %}"><i></i>{{ wd[d.weekday] }}</span>
-      {% endfor %}
-      <span class="streak"><svg class="icon icon-sm"><use href="#i-flame"/></svg>{{ tr('streak_n').format(n=stats.streak_days) }}</span>
-    </div>
-  </section>
-
-  <div class="install card row" id="installCard" hidden>
-    <svg class="icon" style="color:var(--brand)"><use href="#i-download"/></svg>
-    <span class="grow"><b>{{ tr('install_title') }}</b><span class="xs muted block">{{ tr('install_desc') }}</span></span>
-    <button class="btn btn-primary btn-sm" type="button" id="installBtn">{{ tr('install_btn') }}</button>
-  </div>
-
   <section class="home-learning enter" aria-labelledby="plan-h">
     <h2 id="plan-h">{{ tr('home_learning_title') }}</h2>
     <p class="xs muted">{{ tr('plan_order') }}</p>
@@ -70,6 +32,44 @@
     </div>
   </section>
 
+  <section class="today-card today-compact enter" aria-label="{{ tr('goal_line') }}">
+    <div class="today-top">
+      <div class="grow">
+        <h1 class="today-hello">{{ tr(greet) }}</h1>
+        <p class="today-goal">{% if done >= 10 %}{{ tr('goal_done') }}{% elif done == 0 %}{{ tr('goal_line') }}{% else %}{{ tr('goal_left').format(n=10 - done) }}{% endif %}</p>
+      </div>
+      <div class="ring" role="img" aria-label="{{ done }}/10">
+        <svg viewBox="0 0 44 44" aria-hidden="true"><circle class="ring-track" cx="22" cy="22" r="19"/>
+          {% if pct %}<circle class="ring-fill" cx="22" cy="22" r="19" pathLength="100" style="stroke-dasharray: {{ pct }} 100"/>{% endif %}</svg>
+        <span><b>{{ [done, 10]|min }}</b>/10</span>
+      </div>
+    </div>
+    {% set wd = tr('week_days').split(',') %}
+    <div class="week" aria-label="{{ tr('streak_n').format(n=stats.streak_days) }}">
+      {% for d in stats.week %}
+      <span class="day{% if d.active %} is-on{% endif %}{% if loop.last %} is-today{% endif %}"><i></i>{{ wd[d.weekday] }}</span>
+      {% endfor %}
+      <span class="streak"><svg class="icon icon-sm"><use href="#i-flame"/></svg>{{ tr('streak_n').format(n=stats.streak_days) }}</span>
+    </div>
+  </section>
+
+  <div class="install card row" id="installCard" hidden>
+    <svg class="icon" style="color:var(--brand)"><use href="#i-download"/></svg>
+    <span class="grow"><b>{{ tr('install_title') }}</b><span class="xs muted block">{{ tr('install_desc') }}</span></span>
+    <button class="btn btn-primary btn-sm" type="button" id="installBtn">{{ tr('install_btn') }}</button>
+  </div>
+
+  <section class="home-learning enter" aria-labelledby="home-collaboration-h">
+    <h2 id="home-collaboration-h">{{ tr('classroom_home_title') }}</h2>
+    <div class="home-card-grid home-collaboration-grid">
+      {% for view, image, label in [('workspace','workspace','workspace'),('groups','group','groups'),('classes','classroom','classes'),('shared','linked','shared')] %}
+      <a class="home-image-card" href="/classroom?view={{ view }}">
+        <img src="/static/illustrations/{{ image }}.svg?v={{ asset_v }}" width="96" height="72" alt="" decoding="async">
+        <b>{{ tr('classroom_home_' ~ label) }}</b><span class="xs muted">{{ tr('classroom_home_' ~ label ~ '_desc') }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
   <section class="enter" aria-labelledby="home-explore-h">
     <h2 id="home-explore-h">{{ tr('home_explore_title') }}</h2>
     <div class="home-card-grid home-explore-grid">

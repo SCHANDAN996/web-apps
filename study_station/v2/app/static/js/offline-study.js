@@ -102,16 +102,16 @@
   function notice(text) { root.appendChild(h('p',{class:'offline-alert'},text)); }
   function home() {
     heading(t('home_title'));var answered=Object.keys(state.answers).length,wrong=Object.keys(state.answers).filter(function(id){return !state.answers[id].correct;}).length;
-    root.appendChild(h('h2',{class:'offline-section-title'},SS.t.classroom_home_title));
-    var featured=h('div',{class:'home-card-grid home-collaboration-grid'});
-    [['workspace','workspace','workspace'],['groups','group','/classroom?view=groups'],['classes','classroom','/classroom?view=classes'],['shared','linked','/classroom?view=shared']].forEach(function(item){featured.appendChild(h('a',{class:'home-image-card',href:item[2].charAt(0)==='/'?item[2]:'#'+item[2]},h('img',{src:'/static/illustrations/'+item[1]+'.svg?v='+assetVersion,width:96,height:72,alt:''}),h('strong',{class:'home-card-title'},SS.t['classroom_home_'+item[0]]),h('span',{class:'muted'},SS.t['classroom_home_'+item[0]+'_desc'])));});root.appendChild(featured);
-    var action=state.active?button(t('resume'),resume,'btn-primary'):link(state.last?t('continue_reading'):t('open_book'),state.last?'chapter/'+state.last:'books','btn btn-primary');
-    root.appendChild(h('section',{class:'offline-hero'},h('div',{class:'offline-hero-copy'},h('span',{class:'offline-badge'},SS.icon('check'),t('offline_badge')),h('h2',{},state.last?t('continue_reading'):t('hero_title')),action),h('img',{class:'offline-hero-art',src:'/static/illustrations/read.svg?v='+assetVersion,width:96,height:72,alt:''})));
     root.appendChild(h('h2',{class:'offline-section-title'},t('study_tools')));
     root.appendChild(h('div',{class:'home-card-grid'},[
       card(t('books'),t('books_hint'),'books','read'),card(t('practice'),t('practice_hint'),'practice','practice'),
       card(t('revision'),t('revision_hint'),'revision','revise'),card(t('mock'),t('mock_hint'),'mock','mock')
     ]));
+    var action=state.active?button(t('resume'),resume,'btn-primary'):link(state.last?t('continue_reading'):t('open_book'),state.last?'chapter/'+state.last:'books','btn btn-primary');
+    root.appendChild(h('section',{class:'offline-hero'},h('div',{class:'offline-hero-copy'},h('span',{class:'offline-badge'},SS.icon('check'),t('offline_badge')),h('h2',{},state.last?t('continue_reading'):t('hero_title')),action),h('img',{class:'offline-hero-art',src:'/static/illustrations/read.svg?v='+assetVersion,width:96,height:72,alt:''})));
+    root.appendChild(h('h2',{class:'offline-section-title'},SS.t.classroom_home_title));
+    var featured=h('div',{class:'home-card-grid home-collaboration-grid'});
+    [['workspace','workspace','workspace'],['groups','group','/classroom?view=groups'],['classes','classroom','/classroom?view=classes'],['shared','linked','/classroom?view=shared']].forEach(function(item){featured.appendChild(h('a',{class:'home-image-card',href:item[2].charAt(0)==='/'?item[2]:'#'+item[2]},h('img',{src:'/static/illustrations/'+item[1]+'.svg?v='+assetVersion,width:96,height:72,alt:''}),h('strong',{class:'home-card-title'},SS.t['classroom_home_'+item[0]]),h('span',{class:'muted'},SS.t['classroom_home_'+item[0]+'_desc'])));});root.appendChild(featured);
     root.appendChild(h('div',{class:'offline-summary offline-home-stats'},h('span',{},h('b',{},state.reading.length),t('read_chapters')),h('span',{},h('b',{},answered),t('answered')),h('span',{},h('b',{},wrong),t('revision'))));
     root.appendChild(h('h2',{class:'offline-section-title'},t('explore')));
     var more=h('div',{class:'home-card-grid offline-secondary-grid'},card(t('questions'),t('questions_hint'),'questions','questions'),card(t('progress'),t('progress_hint'),'progress','progress'));
@@ -220,8 +220,13 @@
       },'btn-secondary offline-option');choice.replaceChildren(h('span',{class:'offline-option-letter','aria-hidden':'true'},String.fromCharCode(65+index)),h('span',{},text));choice.setAttribute('aria-label',String.fromCharCode(65+index)+'. '+text); choice.setAttribute('aria-pressed','false'); choices.appendChild(choice);
     });
     box.appendChild(choices); box.appendChild(feedback);
-    if (window.SSQuestionActions) box.appendChild(window.SSQuestionActions.render(q,{lang:SS.lang,topicId:q.topic_id}));
-    if (window.SSWhiteboard) box.appendChild(window.SSWhiteboard.create(q.id,questionText(q)));
+    var questionTools=window.SSQuestionActions?window.SSQuestionActions.render(q,{lang:SS.lang,topicId:q.topic_id}):null;
+    var rough=window.SSWhiteboard?window.SSWhiteboard.create(q.id,questionText(q)):null;
+    if(questionTools){
+      if(rough){var roughButton=rough.querySelector(':scope > button');if(roughButton){questionTools.classList.add('question-tools-group');questionTools.appendChild(roughButton);}}
+      box.appendChild(questionTools);
+    }
+    if(rough)box.appendChild(rough);
     return box;
   }
   function bank(selected) {
@@ -380,20 +385,25 @@
       exam.sections.forEach(function(section){var subject=subjects.find(function(s){return s.id===section.subject_id;});sectionList.appendChild(h('li',{},h('strong',{},subject?name(subject):t('subject')),h('span',{},section.questions+' '+t('questions')+' · '+section.marks_per_q+' '+t('mock_marks')+' '+t('mock_each')),h('span',{class:'mock-exam-penalty'},section.negative_per_q?t('mock_negative')+': '+Number(section.negative_per_q.toFixed(3)):t('mock_no_negative'))));});
       details.appendChild(sectionList);var patternNote=exam['pattern_note_'+SS.lang]||exam.pattern_note_hi||exam.pattern_note_en;if(patternNote)details.appendChild(h('p',{class:'mock-exam-note'},patternNote));card.appendChild(details);
       var b=button(t('mock_start'),async function(){
-        var token=generation;b.disabled=true;
+        var token=generation;b.disabled=true;b.textContent=t('loading');b.setAttribute('aria-busy','true');
         try {
           var picked=[],rules={},complete=true;
           for(var si=0;si<exam.sections.length;si++) {
             var section=exam.sections[si],pool=[],seen=0,eligible=topics.filter(function(top){return top.subject_id===section.subject_id&&top.question_count;});
-            for(var ti=0;ti<eligible.length;ti++) {
-              var rows=await loadTopic(eligible[ti].id);if(token!==generation)return;
-              rows.forEach(function(q){if(exam.level&&q.level!==exam.level)return;seen++;if(pool.length<section.questions)pool.push(q);else{var slot=Math.floor(Math.random()*seen);if(slot<section.questions)pool[slot]=q;}});
+            // Bound file reads on low-RAM phones, without serialising the entire subject.
+            // Each batch is sampled in topic order, preserving the uniform reservoir rule.
+            for(var ti=0;ti<eligible.length;ti+=4) {
+              if(token!==generation)return;
+              var groups=await Promise.all(eligible.slice(ti,ti+4).map(function(top){return loadTopic(top.id);}));
+              if(token!==generation)return;
+              groups.forEach(function(rows){rows.forEach(function(q){if(exam.level&&q.level!==exam.level)return;seen++;if(pool.length<section.questions)pool.push(q);else{var slot=Math.floor(Math.random()*seen);if(slot<section.questions)pool[slot]=q;}});});
             }
             if(pool.length!==section.questions)complete=false;
             pool.forEach(function(q){rules[q.id]={marks:section.marks_per_q,negative:section.negative_per_q};});picked=picked.concat(shuffle(pool));
           }
-          b.disabled=false;if(!complete){SS.toast(t('no_content'));return;}begin(picked,'mock',exam.duration_min,rules);
-        }catch(e){b.disabled=false;showError();}
+          if(token!==generation)return;if(!complete){SS.toast(t('no_content'));return;}begin(picked,'mock',exam.duration_min,rules);
+        }catch(e){if(token===generation)showError();}
+        finally{b.disabled=false;b.textContent=t('mock_start');b.removeAttribute('aria-busy');}
       },'btn-primary mock-exam-start');b.setAttribute('aria-label',t('mock_start')+' · '+name(exam));card.appendChild(b);grid.appendChild(card);
     });
     notice(t('mock_note'));

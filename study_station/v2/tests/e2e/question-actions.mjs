@@ -20,8 +20,9 @@ try {
     await new Promise(resolve=>setTimeout(resolve,30));
     const pressed=row.querySelector('button').getAttribute('aria-pressed');
     const removed=await SSQuestionActions.toggle(question,{lang:'en'});
-    return {saved,records,state,payload,pressed,removed,remaining:await SSQuestionActions.list(),events};
+    return {saved,records,state,payload,pressed,removed,remaining:await SSQuestionActions.list(),events,icons:row.querySelectorAll('svg[aria-hidden=true]').length,labels:Array.from(row.querySelectorAll('button')).map(b=>b.getAttribute('aria-label'))};
   });
+  assert.equal(result.icons,2);assert.ok(result.labels.every(Boolean));
   assert.equal(result.saved,true);assert.equal(result.state,true);assert.equal(result.pressed,'true');
   assert.deepEqual(Object.keys(result.records[0]).sort(),['id','lang','savedAt','topicId','version']);
   assert.equal(result.records[0].topicId,'math/fractions');

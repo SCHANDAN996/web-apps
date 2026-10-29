@@ -52,11 +52,11 @@
     create: function (qid, questionText) {
       if (disposeCurrent) disposeCurrent();
       var SS = window.SS, h = SS.h, t = SS.t, id = String(qid);
-      if(window.SSWorkspaceStore && SSWorkspaceStore.scope() !== 'guest' && window.SSWorkspace) return h('section',{class:'rough-work'},h('button',{class:'btn btn-secondary',type:'button',onclick:function(){SSWorkspace.open({questionId:id,questionText:questionText||''});}},t.workspace_expand||t.rough_work));
+      if(window.SSWorkspaceStore && SSWorkspaceStore.scope() !== 'guest' && window.SSWorkspace) return h('section',{class:'rough-work'},h('button',{class:'btn btn-ghost question-action rough-toggle',type:'button','aria-label':t.rough_work,title:t.rough_work,onclick:function(){SSWorkspace.open({questionId:id,questionText:questionText||''});}},SS.icon('pen'),t.rough_work));
       load();
       var board = cache[id] || { strokes: [], updated: 0 }, tool = 'pen', color = 'black', drawing = null, pointer = null;
       var host = h('section', { class: 'rough-work' });
-      var toggle = h('button', { class: 'btn btn-ghost btn-sm rough-toggle', type: 'button', 'aria-expanded': String(!!opened[id]), 'aria-controls': 'rough-' + id }, SS.icon('pen', 'icon-sm'), t.rough_work);
+      var toggle = h('button', { class: 'btn btn-ghost question-action rough-toggle', type: 'button', title: t.rough_work, 'aria-label': t.rough_work, 'aria-expanded': String(!!opened[id]), 'aria-controls': 'rough-' + id }, SS.icon('pen', 'icon-sm'), t.rough_work);
       var panel = h('div', { id: 'rough-' + id, class: 'rough-panel', hidden: !opened[id] });
       var canvas = h('canvas', { class: 'rough-canvas', 'aria-label': t.rough_canvas, role: 'img' });
       var status = h('p', { class: 'xs muted rough-status', role: 'status' }, t.rough_hint);
