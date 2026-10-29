@@ -91,7 +91,12 @@
   "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_21_International_Orgs#Set04#Q81",
   "Graduation_Level/Reasoning/Chapter_12_Missing_Term#Set04#Q92",
   "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_20_Sentence_Improvement_Adv#Set03#Q73",
-  "revision#2026-10-28"
+  "revision#2026-10-28",
+  "10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_21_Probability#Set01#Q7",
+  "10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_03_Modern_History#Set04#Q78",
+  "10th_Level/Reasoning/Chapter_19_Cubes_Dice#Set03#Q51",
+  "10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_13_Mixture_Alligation#Set02#Q34",
+  "10th_Level/English/Foundation_10th_English_WorldClass/Chapter_06_Adverb#Set06#Q135"
  ],
  "shorts": [
   "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_17_Culture_Art#Set01#Q8",
@@ -1084,6 +1089,62 @@
      {
       "id": "revision#2026-10-28",
       "msg": 107
+     }
+    ]
+   ]
+  },
+  "2026-10-29": {
+   "quiz": [
+    [
+     {
+      "id": "10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_21_Probability#Set01#Q7",
+      "msg": 109,
+      "chapter": "10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_21_Probability",
+      "q": "एक थैले में 5 हरी और 3 पीली गेंदें हैं। यादृच्छया एक गेंद निकाली जाती है। पीली गेंद निकलने की प्रायिकता क्या है?",
+      "ans": 2,
+      "opt": "3/8",
+      "exp": "उत्तर: 3/8। कुल गेंदें = 5 + 3 = 8, और पीली गेंदें = 3, इसलिए प्रायिकता 3/8 है।",
+      "part": "am"
+     },
+     {
+      "id": "10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_03_Modern_History#Set04#Q78",
+      "msg": 110,
+      "chapter": "10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_03_Modern_History",
+      "q": "रॉलेट अधिनियम (1919) को किस नाम से भी जाना जाता है?",
+      "ans": 2,
+      "opt": "काला कानून",
+      "exp": "उत्तर: काला कानून। रॉलेट अधिनियम, जो बिना मुकदमे के कारावास की अनुमति देता था, को काला कानून कहा गया, इसलिए उत्तर काला कानून है।",
+      "part": "am"
+     },
+     {
+      "id": "10th_Level/Reasoning/Chapter_19_Cubes_Dice#Set03#Q51",
+      "msg": 111,
+      "chapter": "10th_Level/Reasoning/Chapter_19_Cubes_Dice",
+      "q": "एक पासे की दो स्थितियाँ दी गई हैं। स्थिति 1: ऊपर 6, सामने 2, दाएँ 1। स्थिति 2: ऊपर 6, सामने 3, दाएँ 4। 6 के विपरीत कौन-सी संख्या है?",
+      "ans": 0,
+      "opt": "5",
+      "exp": "उत्तर: 5। 6 ऊपर उभयनिष्ठ होने से चार पार्श्व फलक 2, 1, 3, 4 हैं, जिससे 6 के विपरीत केवल 5 बचता है, इसलिए उत्तर 5 है।",
+      "part": "am"
+     },
+     {
+      "id": "10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_13_Mixture_Alligation#Set02#Q34",
+      "msg": 112,
+      "chapter": "10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_13_Mixture_Alligation",
+      "q": "एक बर्तन में स्पिरिट और पानी का 120 लीटर मिश्रण 5 : 3 के अनुपात में है। इस मिश्रण का 40 लीटर निकालकर पानी से बदल दिया जाता है, और यह प्रक्रिया एक बार फिर दोहराई जाती है। अंतिम मिश्रण में स्पिरिट और पानी का अनुपात ज्ञात कीजिए।",
+      "ans": 2,
+      "opt": "25 : 65",
+      "exp": "उत्तर: 25 : 65। शेष स्पिरिट = 75 × (1 − 40/120)² = 75 × 4/9 = 100/3 लीटर, इसलिए पानी = 120 − 100/3 = 260/3 लीटर, जिससे 100 : 260 मिलता है।",
+      "part": "am"
+     },
+     {
+      "id": "10th_Level/English/Foundation_10th_English_WorldClass/Chapter_06_Adverb#Set06#Q135",
+      "msg": 113,
+      "chapter": "10th_Level/English/Foundation_10th_English_WorldClass/Chapter_06_Adverb",
+      "q": "त्रुटि पहचानिए: \"He is (P) / enough tall (Q) / to reach the shelf. (R) / No error (S)\"",
+      "ans": 1,
+      "opt": "भाग Q",
+      "exp": "उत्तर: भाग Q। भाग R कई लोगों को संदिग्ध लगता है, लेकिन वह सही है; त्रुटि भाग Q में है क्योंकि \"enough\" उस विशेषण के बाद आता है जिसकी वह विशेषता बताता है — यह \"tall enough\" होना चाहिए।",
+      "part": "am"
      }
     ]
    ]
