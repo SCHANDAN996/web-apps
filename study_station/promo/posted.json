@@ -109,7 +109,12 @@
   "12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_18_Data_Interpretation#Set06#Q144",
   "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_19_Fill_in_Blanks_Adv#Set06#Q143",
   "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_23_Sentence_Arrangement#Set02#Q48",
-  "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_17_Spelling#Short_Tricks_hi.txt#9"
+  "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_17_Spelling#Short_Tricks_hi.txt#9",
+  "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_11_Chemistry#Set02#Q45",
+  "12th_Level/Reasoning/Chapter_22_Figure_Series#Set05#Q105",
+  "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_04_Verb#Set05#Q118",
+  "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_16_Books_Authors#Set03#Q67",
+  "12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_21_Permutation_Combination#Set06#Q146"
  ],
  "shorts": [
   "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_17_Culture_Art#Set01#Q8",
@@ -1282,6 +1287,58 @@
       "opt": "PQRS",
       "exp": "उत्तर: PQRS। सही क्रम PQRS है, इसलिए उत्तर PQRS है।",
       "part": "am"
+     }
+    ],
+    [
+     {
+      "id": "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_11_Chemistry#Set02#Q45",
+      "msg": 130,
+      "chapter": "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_11_Chemistry",
+      "q": "एक विलयन लाल लिटमस को नीला कर देता है। वह विलयन है:",
+      "ans": 2,
+      "opt": "क्षारीय",
+      "exp": "उत्तर: क्षारीय। चूँकि लाल लिटमस नीला हुआ, विलयन क्षारीय है।",
+      "part": "pm"
+     },
+     {
+      "id": "12th_Level/Reasoning/Chapter_22_Figure_Series#Set05#Q105",
+      "msg": 131,
+      "chapter": "12th_Level/Reasoning/Chapter_22_Figure_Series",
+      "q": "एक श्रृंखला में तीर दिखाए गए हैं: ↑, →, ↓, ←, ↑, … 10वाँ तीर क्या है?",
+      "ans": 1,
+      "opt": "→",
+      "exp": "उत्तर: →। जाल 10 को नए चक्र की शुरुआत मानना है; 10 ÷ 4 का शेषफल 2 है, इसलिए 10वाँ तीर दूसरे तीर जैसा है, यानी →।",
+      "part": "pm"
+     },
+     {
+      "id": "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_04_Verb#Set05#Q118",
+      "msg": 132,
+      "chapter": "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_04_Verb",
+      "q": "त्रुटि पहचानें: भाग P: Scarcely he had / भाग Q: entered the room / भाग R: when the phone rang.",
+      "ans": 1,
+      "opt": "Part P",
+      "exp": "उत्तर: Part P। भाग P में शब्द-क्रम गलत है।",
+      "part": "pm"
+     },
+     {
+      "id": "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_16_Books_Authors#Set03#Q67",
+      "msg": 133,
+      "chapter": "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_16_Books_Authors",
+      "q": "मैन बुकर पुरस्कार 2008 जीतने वाले उपन्यास \"द व्हाइट टाइगर\" के लेखक कौन हैं?",
+      "ans": 1,
+      "opt": "अरविंद अडिगा",
+      "exp": "उत्तर: अरविंद अडिगा। \"द व्हाइट टाइगर\" अरविंद अडिगा का पहला उपन्यास है, जिसका कथावाचक बलराम हलवई नामक पात्र है, इसलिए उत्तर अरविंद अडिगा है।",
+      "part": "pm"
+     },
+     {
+      "id": "12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_21_Permutation_Combination#Set06#Q146",
+      "msg": 134,
+      "chapter": "12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_21_Permutation_Combination",
+      "q": "7 भिन्न रंगों के मोतियों को एक माला में कितने तरीकों से पिरोया जा सकता है?",
+      "ans": 1,
+      "opt": "360",
+      "exp": "उत्तर: 360। माला की व्यवस्थाएँ = (7−1)!/2 = 720/2 = 360, अतः उत्तर 360 है।",
+      "part": "pm"
      }
     ]
    ],
