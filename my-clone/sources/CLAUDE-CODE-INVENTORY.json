@@ -1,0 +1,1069 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-27",
+  "source": "local_saved_session_files",
+  "source_files": 63,
+  "candidate_entries": 1832,
+  "candidate_entries_are_not_verified_human_messages": true,
+  "reviewed_sessions": [
+    {
+      "record": "claude-code-ffb11889-d7cf-436d-a297-93a246d1b0a6",
+      "session_id": "ffb11889-d7cf-436d-a297-93a246d1b0a6",
+      "source_path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat\\ffb11889-d7cf-436d-a297-93a246d1b0a6.jsonl",
+      "coverage": "partial",
+      "selected_message_ids": [
+        "45f3c565-5a3d-417c-a8e9-446dbab90ad7",
+        "0ba755e7-c0d7-40d2-a7ab-c7aaca7c88e6",
+        "0be59413-7e72-4fa3-8d1c-27adbbb75275"
+      ]
+    },
+    {
+      "record": "claude-code-0d538d6e-e0b1-4a54-a634-e1e22b0bf1ec",
+      "session_id": "0d538d6e-e0b1-4a54-a634-e1e22b0bf1ec",
+      "source_path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-study-station\\0d538d6e-e0b1-4a54-a634-e1e22b0bf1ec.jsonl",
+      "coverage": "partial",
+      "selected_message_ids": [
+        "1860f855-1bfd-428f-8c67-e8e90fb02c67",
+        "74a33608-356f-422d-b511-db5a3baea2f0",
+        "a276c17a-f85b-4817-b7dd-963f6fb2cd4d",
+        "ee7ba680-650b-45a8-a2a3-1f7ee3fc0ad1"
+      ]
+    },
+    {
+      "record": "claude-code-b9c4f524-5fdf-4fb5-8a96-b9a47265c0e6",
+      "session_id": "b9c4f524-5fdf-4fb5-8a96-b9a47265c0e6",
+      "source_path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-english-spoken\\b9c4f524-5fdf-4fb5-8a96-b9a47265c0e6.jsonl",
+      "coverage": "partial",
+      "selected_message_ids": [
+        "1c68cc5c-5b95-4976-bf71-9b7083d464f8",
+        "fc7f22dc-d69e-4832-935c-eddab0e204c3",
+        "0e928bef-7d4f-4cbc-8e79-64d6cd3103ae"
+      ]
+    },
+    {
+      "record": "claude-code-29391d6a-4bf2-4ba2-9f70-29c66ed1d76e",
+      "session_id": "29391d6a-4bf2-4ba2-9f70-29c66ed1d76e",
+      "source_path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP-16-QR\\29391d6a-4bf2-4ba2-9f70-29c66ed1d76e.jsonl",
+      "coverage": "partial",
+      "selected_message_ids": [
+        "5bea9442-d646-47d7-b9c5-535900c99c88",
+        "8a9649ab-8e1b-42a9-bd3b-d0d4659026e4"
+      ]
+    },
+    {
+      "record": "claude-code-a08bc317-9400-4805-b8e4-f6767c20f5ec",
+      "session_id": "a08bc317-9400-4805-b8e4-f6767c20f5ec",
+      "source_path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP-Jameen-Napi\\a08bc317-9400-4805-b8e4-f6767c20f5ec.jsonl",
+      "coverage": "partial",
+      "selected_message_ids": [
+        "5895a390-fcfd-4830-ad47-c7f607e9adbd",
+        "ad9737dc-2826-4153-a1b4-439ded5a53dd",
+        "b60eaf9e-0dd6-4227-850c-500cd00b3d91",
+        "3428665e-8ca6-497f-abf9-ee5e4df99abd",
+        "4920a189-8939-4b48-9a14-ad93884c83fc"
+      ]
+    },
+    {
+      "record": "claude-code-2e5d5989-4da4-48c4-b9ed-86913ac6c5f9",
+      "session_id": "2e5d5989-4da4-48c4-b9ed-86913ac6c5f9",
+      "source_path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-PDFKaro\\2e5d5989-4da4-48c4-b9ed-86913ac6c5f9.jsonl",
+      "coverage": "partial",
+      "selected_message_ids": [
+        "1bc71635-c2f1-464d-a4c4-57705bcda1f8",
+        "6087a92b-c81f-4441-9145-b1d48380c28d",
+        "e8bb0b38-32f7-4eaf-b624-c5e993917a24",
+        "9371a9a8-7e67-4fa8-9094-d2c7de379269"
+      ]
+    }
+  ],
+  "inventory": [
+    {
+      "session_id": "0bd17da8-5633-48e8-8857-f421db8598cf",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-english-spoken\\0bd17da8-5633-48e8-8857-f421db8598cf.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-english-spoken",
+      "bytes": 3490507,
+      "counts": {
+        "user_records": 365,
+        "candidate_text_messages": 11,
+        "tool_results_skipped": 352,
+        "system_or_continuation_skipped": 2
+      },
+      "first_candidate_timestamp": "2026-07-30T08:37:06.980Z",
+      "last_candidate_timestamp": "2026-08-03T10:22:29.310Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\english spoken",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "33ebc8c8-13d6-43f2-8d82-c80491343cd3",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-english-spoken\\33ebc8c8-13d6-43f2-8d82-c80491343cd3.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-english-spoken",
+      "bytes": 7673842,
+      "counts": {
+        "user_records": 210,
+        "candidate_text_messages": 30,
+        "tool_results_skipped": 166,
+        "system_or_continuation_skipped": 14
+      },
+      "first_candidate_timestamp": "2026-07-02T17:34:56.354Z",
+      "last_candidate_timestamp": "2026-07-04T03:05:00.871Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\english spoken",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "6d957f83-5133-4611-b124-32850a1aab84",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-english-spoken\\6d957f83-5133-4611-b124-32850a1aab84.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-english-spoken",
+      "bytes": 6671197,
+      "counts": {
+        "user_records": 684,
+        "candidate_text_messages": 28,
+        "tool_results_skipped": 651,
+        "system_or_continuation_skipped": 5
+      },
+      "first_candidate_timestamp": "2026-07-14T00:47:29.346Z",
+      "last_candidate_timestamp": "2026-08-01T15:39:03.237Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\english spoken",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "88ea344c-e955-4719-9174-71d5728bfbc4",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-english-spoken\\88ea344c-e955-4719-9174-71d5728bfbc4.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-english-spoken",
+      "bytes": 4766285,
+      "counts": {
+        "user_records": 105,
+        "candidate_text_messages": 18,
+        "tool_results_skipped": 83,
+        "system_or_continuation_skipped": 3
+      },
+      "first_candidate_timestamp": "2026-07-05T07:52:33.000Z",
+      "last_candidate_timestamp": "2026-07-06T09:49:36.202Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\english spoken",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "9a7be5df-27f5-41bd-8306-b7540c6d03df",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-english-spoken\\9a7be5df-27f5-41bd-8306-b7540c6d03df.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-english-spoken",
+      "bytes": 6095420,
+      "counts": {
+        "user_records": 385,
+        "candidate_text_messages": 19,
+        "tool_results_skipped": 366
+      },
+      "first_candidate_timestamp": "2026-07-30T08:39:47.229Z",
+      "last_candidate_timestamp": "2026-08-01T14:07:15.679Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\english spoken",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "b9c4f524-5fdf-4fb5-8a96-b9a47265c0e6",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-english-spoken\\b9c4f524-5fdf-4fb5-8a96-b9a47265c0e6.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-english-spoken",
+      "bytes": 546398,
+      "counts": {
+        "user_records": 64,
+        "candidate_text_messages": 3,
+        "tool_results_skipped": 57,
+        "system_or_continuation_skipped": 4
+      },
+      "first_candidate_timestamp": "2026-07-14T11:42:54.400Z",
+      "last_candidate_timestamp": "2026-07-14T13:30:12.161Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\english spoken",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "e5fee37b-375f-4c69-8028-315df27b3714",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-english-spoken\\e5fee37b-375f-4c69-8028-315df27b3714.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-english-spoken",
+      "bytes": 8184760,
+      "counts": {
+        "user_records": 372,
+        "candidate_text_messages": 22,
+        "tool_results_skipped": 339,
+        "system_or_continuation_skipped": 4
+      },
+      "first_candidate_timestamp": "2026-07-16T05:20:44.075Z",
+      "last_candidate_timestamp": "2026-09-16T10:55:03.938Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\english spoken",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "fc314aaa-75b4-49e8-bc48-3d9cf5737e07",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-english-spoken\\fc314aaa-75b4-49e8-bc48-3d9cf5737e07.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-english-spoken",
+      "bytes": 60869668,
+      "counts": {
+        "user_records": 1377,
+        "candidate_text_messages": 70,
+        "tool_results_skipped": 1268,
+        "system_or_continuation_skipped": 38
+      },
+      "first_candidate_timestamp": "2026-07-25T01:44:31.959Z",
+      "last_candidate_timestamp": "2026-08-03T04:59:37.859Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\english spoken",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "1b0279d1-308e-4815-a1e0-04e4033d44b0",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP\\1b0279d1-308e-4815-a1e0-04e4033d44b0.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP",
+      "bytes": 21729276,
+      "counts": {
+        "user_records": 447,
+        "candidate_text_messages": 26,
+        "tool_results_skipped": 416,
+        "system_or_continuation_skipped": 5
+      },
+      "first_candidate_timestamp": "2026-08-20T21:10:23.763Z",
+      "last_candidate_timestamp": "2026-09-02T15:31:59.684Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "218c3400-42bf-4418-8927-08e77548d303",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP\\218c3400-42bf-4418-8927-08e77548d303.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP",
+      "bytes": 1309323,
+      "counts": {
+        "user_records": 53,
+        "candidate_text_messages": 1,
+        "tool_results_skipped": 52
+      },
+      "first_candidate_timestamp": "2026-08-27T14:29:08.923Z",
+      "last_candidate_timestamp": "2026-08-27T14:29:08.923Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "2c33cb53-1363-4b94-86ce-0fbfd04852f4",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP\\2c33cb53-1363-4b94-86ce-0fbfd04852f4.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP",
+      "bytes": 7068361,
+      "counts": {
+        "user_records": 322,
+        "candidate_text_messages": 43,
+        "tool_results_skipped": 271,
+        "system_or_continuation_skipped": 7
+      },
+      "first_candidate_timestamp": "2026-08-12T05:19:09.477Z",
+      "last_candidate_timestamp": "2026-08-18T15:04:22.931Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "2ccda18f-da02-4fc4-a65b-5bdd952eb793",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP\\2ccda18f-da02-4fc4-a65b-5bdd952eb793.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP",
+      "bytes": 6543077,
+      "counts": {
+        "user_records": 309,
+        "candidate_text_messages": 40,
+        "tool_results_skipped": 262,
+        "system_or_continuation_skipped": 6
+      },
+      "first_candidate_timestamp": "2026-08-12T05:19:09.477Z",
+      "last_candidate_timestamp": "2026-08-18T06:35:39.254Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "347fffc8-c179-4245-a0d6-2a33250cf79d",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP\\347fffc8-c179-4245-a0d6-2a33250cf79d.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP",
+      "bytes": 37047,
+      "counts": {
+        "user_records": 4,
+        "candidate_text_messages": 4
+      },
+      "first_candidate_timestamp": "2026-08-12T05:19:09.477Z",
+      "last_candidate_timestamp": "2026-08-12T14:25:30.436Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "46e7f251-e463-4af6-8031-a09442e1df97",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP\\46e7f251-e463-4af6-8031-a09442e1df97.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP",
+      "bytes": 622750,
+      "counts": {
+        "user_records": 61,
+        "candidate_text_messages": 2,
+        "tool_results_skipped": 59
+      },
+      "first_candidate_timestamp": "2026-08-14T10:10:19.627Z",
+      "last_candidate_timestamp": "2026-08-14T10:46:03.219Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "4a3374d0-2fe4-4819-993a-cd4e3dd09e89",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP\\4a3374d0-2fe4-4819-993a-cd4e3dd09e89.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP",
+      "bytes": 51662272,
+      "counts": {
+        "user_records": 684,
+        "system_or_continuation_skipped": 8,
+        "tool_results_skipped": 624,
+        "candidate_text_messages": 50
+      },
+      "first_candidate_timestamp": "2026-08-08T14:50:40.077Z",
+      "last_candidate_timestamp": "2026-08-28T07:16:45.548Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "64da7dd2-b180-4f8c-853d-cfb08537e6c9",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP\\64da7dd2-b180-4f8c-853d-cfb08537e6c9.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP",
+      "bytes": 4083348,
+      "counts": {
+        "user_records": 380,
+        "candidate_text_messages": 10,
+        "tool_results_skipped": 370
+      },
+      "first_candidate_timestamp": "2026-08-19T19:12:49.607Z",
+      "last_candidate_timestamp": "2026-08-20T00:50:05.140Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "664bfd59-080b-4e27-8bf0-01d7408a6adf",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP\\664bfd59-080b-4e27-8bf0-01d7408a6adf.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP",
+      "bytes": 27114,
+      "counts": {
+        "user_records": 1,
+        "candidate_text_messages": 1
+      },
+      "first_candidate_timestamp": "2026-08-11T22:04:47.572Z",
+      "last_candidate_timestamp": "2026-08-11T22:04:47.572Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "6bf46f01-406a-45f7-9a3b-d1bc0379b7bc",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP\\6bf46f01-406a-45f7-9a3b-d1bc0379b7bc.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP",
+      "bytes": 4159888,
+      "counts": {
+        "user_records": 385,
+        "candidate_text_messages": 11,
+        "tool_results_skipped": 374
+      },
+      "first_candidate_timestamp": "2026-08-19T19:12:49.607Z",
+      "last_candidate_timestamp": "2026-08-20T00:47:43.946Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "726baff2-7a21-450e-9198-9d27bb69ef05",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP\\726baff2-7a21-450e-9198-9d27bb69ef05.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP",
+      "bytes": 4106897,
+      "counts": {
+        "user_records": 212,
+        "candidate_text_messages": 24,
+        "tool_results_skipped": 188
+      },
+      "first_candidate_timestamp": "2026-08-12T05:19:09.477Z",
+      "last_candidate_timestamp": "2026-08-12T20:54:18.658Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "780d4085-e9ea-47bf-8f45-fdcd6e56d809",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP\\780d4085-e9ea-47bf-8f45-fdcd6e56d809.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP",
+      "bytes": 61941,
+      "counts": {
+        "user_records": 10,
+        "candidate_text_messages": 5,
+        "tool_results_skipped": 5
+      },
+      "first_candidate_timestamp": "2026-08-12T05:19:09.477Z",
+      "last_candidate_timestamp": "2026-08-12T14:24:23.238Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "7b305816-2b6d-4431-8eee-98d5556ced61",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP\\7b305816-2b6d-4431-8eee-98d5556ced61.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP",
+      "bytes": 6537884,
+      "counts": {
+        "user_records": 174,
+        "candidate_text_messages": 27,
+        "tool_results_skipped": 144
+      },
+      "first_candidate_timestamp": "2026-08-21T05:15:22.065Z",
+      "last_candidate_timestamp": "2026-08-21T13:05:41.852Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "7de85f51-7557-45ce-ae58-1630bab925f6",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP\\7de85f51-7557-45ce-ae58-1630bab925f6.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP",
+      "bytes": 9026624,
+      "counts": {
+        "user_records": 313,
+        "candidate_text_messages": 54,
+        "tool_results_skipped": 249,
+        "system_or_continuation_skipped": 5
+      },
+      "first_candidate_timestamp": "2026-08-21T05:15:22.065Z",
+      "last_candidate_timestamp": "2026-08-22T06:18:55.699Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "857d4c40-3435-4d0d-b3c8-95cb170ece27",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP\\857d4c40-3435-4d0d-b3c8-95cb170ece27.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP",
+      "bytes": 34432901,
+      "counts": {
+        "user_records": 482,
+        "system_or_continuation_skipped": 6,
+        "candidate_text_messages": 22,
+        "tool_results_skipped": 454
+      },
+      "first_candidate_timestamp": "2026-08-16T15:16:32.550Z",
+      "last_candidate_timestamp": "2026-08-29T00:55:22.465Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "90aa7b22-c7ac-49ee-bf73-e6f97e89ab92",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP\\90aa7b22-c7ac-49ee-bf73-e6f97e89ab92.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP",
+      "bytes": 8413622,
+      "counts": {
+        "user_records": 372,
+        "candidate_text_messages": 32,
+        "tool_results_skipped": 337,
+        "system_or_continuation_skipped": 3
+      },
+      "first_candidate_timestamp": "2026-08-19T18:43:35.419Z",
+      "last_candidate_timestamp": "2026-08-20T21:03:15.665Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "9ce58e71-93e3-42c0-8afb-7b3c392e6947",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP\\9ce58e71-93e3-42c0-8afb-7b3c392e6947.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP",
+      "bytes": 3032193,
+      "counts": {
+        "user_records": 193,
+        "candidate_text_messages": 7,
+        "tool_results_skipped": 174,
+        "system_or_continuation_skipped": 12
+      },
+      "first_candidate_timestamp": "2026-08-06T04:59:41.670Z",
+      "last_candidate_timestamp": "2026-08-09T08:25:56.553Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "a6aa0a42-4aca-4dbb-aa74-f765ba014dd3",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP\\a6aa0a42-4aca-4dbb-aa74-f765ba014dd3.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP",
+      "bytes": 15390350,
+      "counts": {
+        "user_records": 496,
+        "candidate_text_messages": 34,
+        "tool_results_skipped": 446,
+        "system_or_continuation_skipped": 16
+      },
+      "first_candidate_timestamp": "2026-08-20T21:10:23.763Z",
+      "last_candidate_timestamp": "2026-09-04T07:21:46.913Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "ac790ad1-99f0-49e4-9e5f-1c4e4c78853c",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP\\ac790ad1-99f0-49e4-9e5f-1c4e4c78853c.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP",
+      "bytes": 5454784,
+      "counts": {
+        "user_records": 294,
+        "candidate_text_messages": 14,
+        "tool_results_skipped": 277,
+        "system_or_continuation_skipped": 3
+      },
+      "first_candidate_timestamp": "2026-08-13T05:34:47.246Z",
+      "last_candidate_timestamp": "2026-08-15T06:32:34.432Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "bd53dae7-908b-4ed9-a6a1-09a22a1e3651",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP\\bd53dae7-908b-4ed9-a6a1-09a22a1e3651.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP",
+      "bytes": 46354336,
+      "counts": {
+        "user_records": 1130,
+        "candidate_text_messages": 63,
+        "tool_results_skipped": 1040,
+        "system_or_continuation_skipped": 24
+      },
+      "first_candidate_timestamp": "2026-08-05T17:21:20.860Z",
+      "last_candidate_timestamp": "2026-08-10T04:12:45.012Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "c7e8e038-6478-413c-a46b-3675bde882ef",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP\\c7e8e038-6478-413c-a46b-3675bde882ef.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP",
+      "bytes": 38721889,
+      "counts": {
+        "user_records": 453,
+        "system_or_continuation_skipped": 6,
+        "tool_results_skipped": 411,
+        "candidate_text_messages": 36
+      },
+      "first_candidate_timestamp": "2026-08-08T14:50:40.077Z",
+      "last_candidate_timestamp": "2026-08-28T02:54:39.466Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "c8d64071-753b-4525-b277-ed095e6f6572",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP\\c8d64071-753b-4525-b277-ed095e6f6572.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP",
+      "bytes": 38732564,
+      "counts": {
+        "user_records": 453,
+        "system_or_continuation_skipped": 6,
+        "tool_results_skipped": 411,
+        "candidate_text_messages": 36
+      },
+      "first_candidate_timestamp": "2026-08-08T14:50:40.077Z",
+      "last_candidate_timestamp": "2026-08-28T02:47:38.829Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "d86d8aa1-656d-44cf-8f56-9cde90efdd48",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP\\d86d8aa1-656d-44cf-8f56-9cde90efdd48.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP",
+      "bytes": 336238,
+      "counts": {
+        "user_records": 23,
+        "candidate_text_messages": 5,
+        "tool_results_skipped": 18
+      },
+      "first_candidate_timestamp": "2026-08-21T05:15:22.065Z",
+      "last_candidate_timestamp": "2026-08-21T05:29:18.658Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "db1618b6-aeda-4ce6-90c1-10d21ea093a2",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP\\db1618b6-aeda-4ce6-90c1-10d21ea093a2.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP",
+      "bytes": 335345,
+      "counts": {
+        "user_records": 25,
+        "candidate_text_messages": 7,
+        "tool_results_skipped": 18
+      },
+      "first_candidate_timestamp": "2026-08-21T05:15:22.065Z",
+      "last_candidate_timestamp": "2026-08-21T05:43:38.773Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "e171d3e8-f2f5-4fac-989e-7b74a41c4c17",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP\\e171d3e8-f2f5-4fac-989e-7b74a41c4c17.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP",
+      "bytes": 7272077,
+      "counts": {
+        "user_records": 190,
+        "candidate_text_messages": 32,
+        "tool_results_skipped": 154,
+        "system_or_continuation_skipped": 1
+      },
+      "first_candidate_timestamp": "2026-08-21T05:15:22.065Z",
+      "last_candidate_timestamp": "2026-08-21T16:10:52.432Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "e29df459-d2e2-4f43-a287-37fc05c27699",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP\\e29df459-d2e2-4f43-a287-37fc05c27699.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP",
+      "bytes": 3604109,
+      "counts": {
+        "user_records": 414,
+        "candidate_text_messages": 11,
+        "tool_results_skipped": 389,
+        "system_or_continuation_skipped": 14
+      },
+      "first_candidate_timestamp": "2026-08-05T17:32:49.888Z",
+      "last_candidate_timestamp": "2026-08-07T08:53:31.085Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "eb2b66a9-d3ec-4617-bcde-59616dd8332d",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP\\eb2b66a9-d3ec-4617-bcde-59616dd8332d.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP",
+      "bytes": 7292147,
+      "counts": {
+        "user_records": 190,
+        "candidate_text_messages": 32,
+        "tool_results_skipped": 154,
+        "system_or_continuation_skipped": 1
+      },
+      "first_candidate_timestamp": "2026-08-21T05:15:22.065Z",
+      "last_candidate_timestamp": "2026-08-21T16:06:16.612Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "eddce5c9-43dc-4181-a050-cdab4ac8bf82",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP\\eddce5c9-43dc-4181-a050-cdab4ac8bf82.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP",
+      "bytes": 16188528,
+      "counts": {
+        "user_records": 791,
+        "candidate_text_messages": 114,
+        "tool_results_skipped": 645,
+        "system_or_continuation_skipped": 26
+      },
+      "first_candidate_timestamp": "2026-08-21T05:15:22.065Z",
+      "last_candidate_timestamp": "2026-08-29T17:00:01.294Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "fb9b86c4-2ba1-43c3-b8d8-1ff90609da2f",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP\\fb9b86c4-2ba1-43c3-b8d8-1ff90609da2f.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP",
+      "bytes": 5124342,
+      "counts": {
+        "user_records": 443,
+        "candidate_text_messages": 27,
+        "tool_results_skipped": 410,
+        "system_or_continuation_skipped": 5
+      },
+      "first_candidate_timestamp": "2026-08-05T17:26:07.397Z",
+      "last_candidate_timestamp": "2026-09-05T08:43:31.429Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "0b54d0f4-664a-4a28-92c5-c2f449f5cd55",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP-01-Mistri-Calculator\\0b54d0f4-664a-4a28-92c5-c2f449f5cd55.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP-01-Mistri-Calculator",
+      "bytes": 19360767,
+      "counts": {
+        "user_records": 423,
+        "candidate_text_messages": 17,
+        "tool_results_skipped": 393,
+        "system_or_continuation_skipped": 13
+      },
+      "first_candidate_timestamp": "2026-08-28T11:02:18.470Z",
+      "last_candidate_timestamp": "2026-08-30T08:27:46.343Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP\\01 Mistri Calculator",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "336033d6-f2d3-4471-936d-34beedaa7616",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP-01-Mistri-Calculator\\336033d6-f2d3-4471-936d-34beedaa7616.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP-01-Mistri-Calculator",
+      "bytes": 6831858,
+      "counts": {
+        "user_records": 207,
+        "candidate_text_messages": 12,
+        "tool_results_skipped": 187,
+        "system_or_continuation_skipped": 8
+      },
+      "first_candidate_timestamp": "2026-10-03T02:35:50.310Z",
+      "last_candidate_timestamp": "2026-10-04T07:08:59.153Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP\\01 Mistri Calculator",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "02c7d0de-4776-4092-a9d4-6572b4b9ccbb",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat\\02c7d0de-4776-4092-a9d4-6572b4b9ccbb.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat",
+      "bytes": 1932348,
+      "counts": {
+        "user_records": 52,
+        "candidate_text_messages": 2,
+        "tool_results_skipped": 50
+      },
+      "first_candidate_timestamp": "2026-09-13T05:34:21.321Z",
+      "last_candidate_timestamp": "2026-09-13T05:36:07.034Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP\\14 Vidhivat",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "03519d1c-6ecb-433a-8ad5-c97d356a964f",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat\\03519d1c-6ecb-433a-8ad5-c97d356a964f.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat",
+      "bytes": 232557576,
+      "counts": {
+        "user_records": 2341,
+        "candidate_text_messages": 97,
+        "tool_results_skipped": 2232,
+        "system_or_continuation_skipped": 12
+      },
+      "first_candidate_timestamp": "2026-10-01T17:27:30.805Z",
+      "last_candidate_timestamp": "2026-10-11T11:32:58.211Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP\\14 Vidhivat",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "09d5fd6e-faa2-4970-a9cd-73a626f53393",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat\\09d5fd6e-faa2-4970-a9cd-73a626f53393.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat",
+      "bytes": 40905258,
+      "counts": {
+        "user_records": 718,
+        "candidate_text_messages": 37,
+        "tool_results_skipped": 665,
+        "system_or_continuation_skipped": 16
+      },
+      "first_candidate_timestamp": "2026-09-03T07:38:20.605Z",
+      "last_candidate_timestamp": "2026-09-04T00:12:44.762Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP\\14 Vidhivat",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "16f16d13-e1bc-41a9-9dd4-45396f0ffb80",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat\\16f16d13-e1bc-41a9-9dd4-45396f0ffb80.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat",
+      "bytes": 8123853,
+      "counts": {
+        "user_records": 276,
+        "system_or_continuation_skipped": 22,
+        "candidate_text_messages": 27,
+        "tool_results_skipped": 226
+      },
+      "first_candidate_timestamp": "2026-09-21T10:07:50.185Z",
+      "last_candidate_timestamp": "2026-10-12T10:54:18.867Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP\\14 Vidhivat",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "179c01a3-493a-49ce-bfc3-c818a9a711b1",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat\\179c01a3-493a-49ce-bfc3-c818a9a711b1.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat",
+      "bytes": 1542282,
+      "counts": {
+        "user_records": 91,
+        "candidate_text_messages": 3,
+        "tool_results_skipped": 88
+      },
+      "first_candidate_timestamp": "2026-09-23T16:20:58.745Z",
+      "last_candidate_timestamp": "2026-09-23T16:30:06.165Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP\\14 Vidhivat",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "17ab1e79-c1df-4d50-b577-e8fa4966396e",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat\\17ab1e79-c1df-4d50-b577-e8fa4966396e.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat",
+      "bytes": 42320764,
+      "counts": {
+        "user_records": 1088,
+        "candidate_text_messages": 43,
+        "tool_results_skipped": 1031,
+        "system_or_continuation_skipped": 14
+      },
+      "first_candidate_timestamp": "2026-09-12T05:51:21.496Z",
+      "last_candidate_timestamp": "2026-09-16T23:53:46.651Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP\\14 Vidhivat",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "1ca35f13-f8c7-4c76-990c-cffe039cb12a",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat\\1ca35f13-f8c7-4c76-990c-cffe039cb12a.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat",
+      "bytes": 8146904,
+      "counts": {
+        "user_records": 505,
+        "candidate_text_messages": 33,
+        "tool_results_skipped": 466,
+        "system_or_continuation_skipped": 6
+      },
+      "first_candidate_timestamp": "2026-09-09T05:03:10.102Z",
+      "last_candidate_timestamp": "2026-09-21T04:14:49.713Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP\\14 Vidhivat",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "253c2fdf-ec2e-4bad-9d49-e14c8c6a9b94",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat\\253c2fdf-ec2e-4bad-9d49-e14c8c6a9b94.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat",
+      "bytes": 53883620,
+      "counts": {
+        "user_records": 787,
+        "candidate_text_messages": 28,
+        "tool_results_skipped": 754,
+        "system_or_continuation_skipped": 5
+      },
+      "first_candidate_timestamp": "2026-09-04T07:43:20.231Z",
+      "last_candidate_timestamp": "2026-09-05T15:49:55.439Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP\\14 Vidhivat",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "403aad3b-485f-400f-87ac-9efb1cea7b33",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat\\403aad3b-485f-400f-87ac-9efb1cea7b33.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat",
+      "bytes": 27349591,
+      "counts": {
+        "user_records": 990,
+        "candidate_text_messages": 55,
+        "tool_results_skipped": 924,
+        "system_or_continuation_skipped": 10
+      },
+      "first_candidate_timestamp": "2026-09-20T07:48:39.085Z",
+      "last_candidate_timestamp": "2026-09-24T13:48:43.220Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP\\14 Vidhivat",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "5905b56a-6180-469e-86a9-bad61692ec63",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat\\5905b56a-6180-469e-86a9-bad61692ec63.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat",
+      "bytes": 42747599,
+      "counts": {
+        "user_records": 1124,
+        "candidate_text_messages": 44,
+        "tool_results_skipped": 1066,
+        "system_or_continuation_skipped": 14
+      },
+      "first_candidate_timestamp": "2026-09-12T05:51:21.496Z",
+      "last_candidate_timestamp": "2026-09-17T00:11:50.678Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP\\14 Vidhivat",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "60a399df-51e5-4e76-958b-12447e3be0b4",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat\\60a399df-51e5-4e76-958b-12447e3be0b4.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat",
+      "bytes": 51870978,
+      "counts": {
+        "user_records": 898,
+        "candidate_text_messages": 57,
+        "tool_results_skipped": 829,
+        "system_or_continuation_skipped": 10
+      },
+      "first_candidate_timestamp": "2026-09-06T07:38:46.500Z",
+      "last_candidate_timestamp": "2026-09-12T04:46:33.789Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP\\14 Vidhivat",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "76dbb3a3-9cba-4144-a9d4-7d30003c0922",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat\\76dbb3a3-9cba-4144-a9d4-7d30003c0922.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat",
+      "bytes": 1908922,
+      "counts": {
+        "user_records": 139,
+        "candidate_text_messages": 5,
+        "tool_results_skipped": 134
+      },
+      "first_candidate_timestamp": "2026-09-05T09:19:28.901Z",
+      "last_candidate_timestamp": "2026-09-05T15:36:23.348Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP\\14 Vidhivat",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "9fca69f7-bbad-4284-83e6-aff63a7b8dad",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat\\9fca69f7-bbad-4284-83e6-aff63a7b8dad.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat",
+      "bytes": 530236072,
+      "counts": {
+        "user_records": 2748,
+        "system_or_continuation_skipped": 16,
+        "tool_results_skipped": 2639,
+        "candidate_text_messages": 93
+      },
+      "first_candidate_timestamp": "2026-10-11T07:55:46.288Z",
+      "last_candidate_timestamp": "2026-10-25T11:16:02.538Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP\\14 Vidhivat",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "af1627ff-d08b-4173-8107-94204bb30552",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat\\af1627ff-d08b-4173-8107-94204bb30552.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat",
+      "bytes": 38839487,
+      "counts": {
+        "user_records": 516,
+        "candidate_text_messages": 17,
+        "tool_results_skipped": 499
+      },
+      "first_candidate_timestamp": "2026-09-04T07:43:20.231Z",
+      "last_candidate_timestamp": "2026-09-05T05:28:35.593Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP\\14 Vidhivat",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "bbd0af6e-7583-4b2f-9d7c-a0627fe17847",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat\\bbd0af6e-7583-4b2f-9d7c-a0627fe17847.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat",
+      "bytes": 14250397,
+      "counts": {
+        "user_records": 742,
+        "candidate_text_messages": 53,
+        "tool_results_skipped": 665,
+        "system_or_continuation_skipped": 23
+      },
+      "first_candidate_timestamp": "2026-09-09T05:03:10.102Z",
+      "last_candidate_timestamp": "2026-10-02T11:29:53.102Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP\\14 Vidhivat",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "ffb11889-d7cf-436d-a297-93a246d1b0a6",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat\\ffb11889-d7cf-436d-a297-93a246d1b0a6.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat",
+      "bytes": 309717617,
+      "counts": {
+        "user_records": 1379,
+        "system_or_continuation_skipped": 10,
+        "tool_results_skipped": 1244,
+        "candidate_text_messages": 125
+      },
+      "first_candidate_timestamp": "2026-10-25T07:12:02.839Z",
+      "last_candidate_timestamp": "2026-10-26T21:00:46.089Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP\\14 Vidhivat",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "c9465ce8-3f61-4121-85e0-dc03843896ca",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat--claude-worktrees-gracious-antonelli-4f6ec4\\c9465ce8-3f61-4121-85e0-dc03843896ca.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP-14-Vidhivat--claude-worktrees-gracious-antonelli-4f6ec4",
+      "bytes": 2615507,
+      "counts": {
+        "user_records": 125,
+        "system_or_continuation_skipped": 2,
+        "tool_results_skipped": 121,
+        "candidate_text_messages": 2
+      },
+      "first_candidate_timestamp": "2026-09-14T09:01:57.953Z",
+      "last_candidate_timestamp": "2026-09-14T16:52:13.682Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP\\14 Vidhivat\\.claude\\worktrees\\gracious-antonelli-4f6ec4",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "29391d6a-4bf2-4ba2-9f70-29c66ed1d76e",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP-16-QR\\29391d6a-4bf2-4ba2-9f70-29c66ed1d76e.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP-16-QR",
+      "bytes": 28283552,
+      "counts": {
+        "user_records": 1017,
+        "candidate_text_messages": 21,
+        "tool_results_skipped": 995
+      },
+      "first_candidate_timestamp": "2026-09-13T08:20:40.727Z",
+      "last_candidate_timestamp": "2026-09-15T05:10:34.570Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP\\16 QR",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "a08bc317-9400-4805-b8e4-f6767c20f5ec",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-MASS-APP-Jameen-Napi\\a08bc317-9400-4805-b8e4-f6767c20f5ec.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-MASS-APP-Jameen-Napi",
+      "bytes": 22632920,
+      "counts": {
+        "user_records": 250,
+        "candidate_text_messages": 15,
+        "tool_results_skipped": 227,
+        "system_or_continuation_skipped": 8
+      },
+      "first_candidate_timestamp": "2026-09-15T12:08:34.667Z",
+      "last_candidate_timestamp": "2026-10-02T11:38:23.859Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\MASS APP\\Jameen Napi",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "2e5d5989-4da4-48c4-b9ed-86913ac6c5f9",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-PDFKaro\\2e5d5989-4da4-48c4-b9ed-86913ac6c5f9.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-PDFKaro",
+      "bytes": 6564496,
+      "counts": {
+        "user_records": 338,
+        "candidate_text_messages": 8,
+        "tool_results_skipped": 325,
+        "system_or_continuation_skipped": 5
+      },
+      "first_candidate_timestamp": "2026-09-15T06:45:28.600Z",
+      "last_candidate_timestamp": "2026-09-15T12:02:59.893Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\PDFKaro",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "0d538d6e-e0b1-4a54-a634-e1e22b0bf1ec",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-study-station\\0d538d6e-e0b1-4a54-a634-e1e22b0bf1ec.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-study-station",
+      "bytes": 6418088,
+      "counts": {
+        "user_records": 261,
+        "candidate_text_messages": 10,
+        "tool_results_skipped": 250
+      },
+      "first_candidate_timestamp": "2026-10-12T09:45:44.056Z",
+      "last_candidate_timestamp": "2026-10-13T06:00:51.998Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\study_station",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "fec24758-5e00-4725-9f16-63df450efd52",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-study-station\\fec24758-5e00-4725-9f16-63df450efd52.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-study-station",
+      "bytes": 608984,
+      "counts": {
+        "user_records": 36,
+        "candidate_text_messages": 5,
+        "tool_results_skipped": 31
+      },
+      "first_candidate_timestamp": "2026-10-03T02:48:33.295Z",
+      "last_candidate_timestamp": "2026-10-12T07:32:30.556Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\study_station",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "84178cc0-2301-47bd-9f8a-be6f5a1afc34",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-yt-video-automation\\84178cc0-2301-47bd-9f8a-be6f5a1afc34.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-yt-video-automation",
+      "bytes": 2615553,
+      "counts": {
+        "user_records": 146,
+        "candidate_text_messages": 25,
+        "tool_results_skipped": 121
+      },
+      "first_candidate_timestamp": "2026-08-29T16:33:34.460Z",
+      "last_candidate_timestamp": "2026-09-01T06:49:48.316Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\yt video automation",
+      "parse_errors": 0
+    },
+    {
+      "session_id": "d4134bfc-6a48-40cc-861a-9789e67b01aa",
+      "path": "C:\\Users\\Admin\\.claude\\projects\\C--Users-Admin-Desktop-my-project-yt-video-automation\\d4134bfc-6a48-40cc-861a-9789e67b01aa.jsonl",
+      "project": "C--Users-Admin-Desktop-my-project-yt-video-automation",
+      "bytes": 2435064,
+      "counts": {
+        "user_records": 149,
+        "candidate_text_messages": 27,
+        "tool_results_skipped": 122
+      },
+      "first_candidate_timestamp": "2026-08-29T16:33:34.460Z",
+      "last_candidate_timestamp": "2026-09-03T04:51:32.359Z",
+      "cwd": "C:\\Users\\Admin\\Desktop\\my project\\yt video automation",
+      "parse_errors": 0
+    }
+  ],
+  "ui_capture_status": "timeout_exact_open_session_not_verified",
+  "remaining_status": "unreviewed_or_partially_reviewed",
+  "automatic_followup": false
+}

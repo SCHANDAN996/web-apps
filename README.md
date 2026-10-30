@@ -55,3 +55,8 @@ web-apps/
 ## Portable personal-memory framework
 
 [`my-clone/`](my-clone/) provides reusable per-chat record templates, source-compilation tools and specialist-agent instructions. Personal records and generated memory stay local and are excluded from Git.
+
+
+### My Clone — सार्वजनिक स्मृति snapshot
+
+मालिक की स्पष्ट पुष्टि से [my-clone](my-clone/README.md) में वर्तमान स्मृति, चैट रिकॉर्ड और योजनाएँ प्रकाशित हैं। [प्रकाशन का दायरा](my-clone/PUBLICATION.md) देखें।

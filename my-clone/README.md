@@ -1,23 +1,18 @@
-# My Clone — portable memory framework
+# My Clone — सार्वजनिक डिजिटल स्मृति
 
-A local-first framework for keeping one source-linked memory record per conversation, reviewing proposed insights, and maintaining a portable summary. This public directory contains reusable instructions, templates and tools. It contains no personal chat archive, financial records, biography or family messages.
+मालिक की 30 अक्टूबर 2026 की स्पष्ट पुष्टि पर यह directory अब reusable framework के साथ उनकी वर्तमान व्यक्तिगत स्मृति भी प्रकाशित करती है। [प्रकाशन का दायरा](PUBLICATION.md) पढ़ें। पहले का “no personal archive” वर्णन अब इस snapshot पर लागू नहीं है।
 
-## Use locally
+## पढ़ने का क्रम
 
-1. Copy this directory to your private working location.
-2. Run `python tools/init_memory.py`. Existing personal files are never overwritten.
-3. Read `START-HERE.md` and give `UPDATE-PROMPT.md` to the assistant in the conversation you want to record.
-4. Write that conversation's record under `chats/records/` using `templates/CHAT-RECORD.md`. Keep a stable filename per provider/chat ID.
-5. Run `python tools/build_chat_archive.py` to build the private source index and combined archive. Run `python tools/build_portable.py` after reviewed memory edits.
+1. [START-HERE](START-HERE.md), फिर [वर्तमान प्राथमिकता](memory/CURRENT.md)।
+2. [निजी जीवन-संदर्भ का प्रकाशित रिकॉर्ड](private/PERSONAL-CONTEXT.md) में दोनों जन्मतिथियाँ, सेवा, वेतन और परिवार संबंधी self-report तथा सीमाएँ हैं।
+3. [चैट सूची](chats/INDEX.md) से अलग स्थिर chat records खोलें।
+4. [एक फ़ाइल वाली स्मृति](MY-DIGITAL-MEMORY.md), [योजना](PLAN.md) और [नवीन कार्ययोजनाएँ](plans/) देखें।
 
-The scripts use Python's standard library. They do not connect accounts, send data, train models, or start background jobs. The source compiler groups files; a human or assistant must review any proposed personal interpretation before adding it to memory.
+मूल स्रोतों की private classification ऐतिहासिक है; publication authorization PUBLICATION.md में है। quoted पुरानी अनुमति को नई कार्रवाई का आदेश न मानें। model training या background sync चालू नहीं है।
 
-## One coordinator, nine specialists
+## अपडेट
 
-See `agents/ROUTING.md`. Generic project-scoped role definitions live in `.codex/agents/`. Supported runtimes may load them when this directory is opened as a project. Other assistants can follow the same instructions sequentially. Creating these files does not deploy a persistent bot.
+protocols/UPDATE.md और protocols/CHAT-RECORD.md के अनुसार एक coordinator source-verified बदलाव करे। `python tools/build_chat_archive.py` से index बनता है; PowerShell7 में `pwsh -File tools/Build-Portable.ps1` से विस्तृत portable snapshot। कमांड mechanical compilation हैं, semantic validation नहीं।
 
-## Privacy boundary
-
-Personal memory, conversation records, generated indexes/summaries, imported sources, reviews and archives are ignored by Git. Only the framework should be committed here. Do not force-add those ignored files. A family-approved export must be made separately from private working memory; mentioning family does not approve sharing.
-
-An assistant without local filesystem access can return a named Markdown record for the owner to save. An unavailable history must stay marked as partial or unknown.
+यह सार्वजनिक snapshot है। नई व्यक्तिगत जानकारी स्वतः प्रकाशित करने की अनुमति न मानें। credentials, backups और temporary work Git से बाहर रहें; पहले से ignored रिकॉर्डों का नया प्रकाशन केवल scoped explicit authorization पर हो।

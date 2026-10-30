@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-27",
+  "batch": 2,
+  "status": "second_batch_saved",
+  "automatic_followup": false,
+  "accounts_reviewed": [
+    {
+      "provider": "Gemini",
+      "account": "trade.chandansingh@gmail.com",
+      "access": "signed_in_ui_verified"
+    },
+    {
+      "provider": "Gemini",
+      "account": "schandan995@gmail.com",
+      "access": "signed_in_ui_verified"
+    },
+    {
+      "provider": "Claude",
+      "account": "work.chandansingh@gmail.com",
+      "access": "signed_in_web_ui_verified"
+    }
+  ],
+  "read_records": [
+    {
+      "record": "gemini-trade-638463cd4fd67e96",
+      "source_url": "https://gemini.google.com/u/2/app/638463cd4fd67e96?pageId=none",
+      "coverage": "partial"
+    },
+    {
+      "record": "claude-work-b1278015-5461-413c-a2b3-6f657468e5bf",
+      "source_url": "https://claude.ai/chat/b1278015-5461-413c-a2b3-6f657468e5bf",
+      "coverage": "partial"
+    },
+    {
+      "record": "gemini-schandan995-4e037cb5f72afca1",
+      "source_url": "https://gemini.google.com/app/4e037cb5f72afca1",
+      "coverage": "partial"
+    },
+    {
+      "record": "gemini-schandan995-c4f08354183aeae7",
+      "source_url": "https://gemini.google.com/app/c4f08354183aeae7",
+      "coverage": "partial"
+    },
+    {
+      "record": "gemini-schandan995-e6457e3505a8a5b9",
+      "source_url": "https://gemini.google.com/app/e6457e3505a8a5b9",
+      "coverage": "partial",
+      "batch": 2
+    },
+    {
+      "record": "gemini-schandan995-20a81b18668e97fb",
+      "source_url": "https://gemini.google.com/app/20a81b18668e97fb",
+      "coverage": "partial",
+      "batch": 2
+    },
+    {
+      "record": "gemini-schandan995-048585c37df11a1a",
+      "source_url": "https://gemini.google.com/app/048585c37df11a1a",
+      "coverage": "partial",
+      "batch": 2
+    },
+    {
+      "record": "gemini-trade-443c5b9019ea96b2",
+      "source_url": "https://gemini.google.com/u/2/app/443c5b9019ea96b2?pageId=none",
+      "coverage": "partial",
+      "batch": 2
+    },
+    {
+      "record": "gemini-trade-63d3bf8b9d029465",
+      "source_url": "https://gemini.google.com/u/2/app/63d3bf8b9d029465?pageId=none",
+      "coverage": "partial",
+      "batch": 2
+    },
+    {
+      "record": "gemini-trade-5720dcfaa659c4d2",
+      "source_url": "https://gemini.google.com/u/2/app/5720dcfaa659c4d2?pageId=none",
+      "coverage": "partial",
+      "batch": 2
+    },
+    {
+      "record": "gemini-trade-51012bf288ba85d8",
+      "source_url": "https://gemini.google.com/u/2/app/51012bf288ba85d8?pageId=none",
+      "coverage": "partial",
+      "batch": 2
+    }
+  ],
+  "queued_titles_only": [
+    {
+      "provider": "Gemini",
+      "account": "schandan995@gmail.com",
+      "title": "Project Structure and Improvement Ideas",
+      "url": "https://gemini.google.com/app/e6457e3505a8a5b9",
+      "status": "selected_visible_parts_reviewed_batch_2"
+    },
+    {
+      "provider": "Gemini",
+      "account": "schandan995@gmail.com",
+      "title": "Project Improvement and Competition Strategy",
+      "url": "https://gemini.google.com/app/20a81b18668e97fb",
+      "status": "selected_visible_parts_reviewed_batch_2"
+    },
+    {
+      "provider": "Gemini",
+      "account": "trade.chandansingh@gmail.com",
+      "title": "AI Model Development Timeline Analysis",
+      "url": "https://gemini.google.com/u/2/app/443c5b9019ea96b2?pageId=none",
+      "status": "selected_visible_parts_reviewed_batch_2"
+    },
+    {
+      "provider": "Claude",
+      "account": "work.chandansingh@gmail.com",
+      "title": "YouTube video layout design",
+      "url": "https://claude.ai/chat/dbc132b1-17a3-4f94-908c-49ed989129a5",
+      "status": "title_seen_content_unread"
+    },
+    {
+      "provider": "Claude",
+      "account": "work.chandansingh@gmail.com",
+      "title": "YouTube video page layout redesign",
+      "url": "https://claude.ai/chat/39b13a1e-fae0-44bb-9a68-c96e41f6fc74",
+      "status": "title_seen_content_unread"
+    },
+    {
+      "provider": "Gemini",
+      "account": "trade.chandansingh@gmail.com",
+      "title": "Play Store ASO Organic Growth",
+      "url": "https://gemini.google.com/u/2/app/27bea81b40bbd191?pageId=none",
+      "status": "title_seen_content_unread"
+    },
+    {
+      "provider": "Gemini",
+      "account": "trade.chandansingh@gmail.com",
+      "title": "Ebook Selling Platform Evaluation",
+      "url": "https://gemini.google.com/u/2/app/68fd3421555a6f74?pageId=none",
+      "status": "title_seen_content_unread"
+    },
+    {
+      "provider": "Gemini",
+      "account": "trade.chandansingh@gmail.com",
+      "title": "AI Long-Form Video Creation Guide",
+      "url": "https://gemini.google.com/u/2/app/e165682bf437df8e?pageId=none",
+      "status": "title_seen_content_unread"
+    }
+  ]
+}
