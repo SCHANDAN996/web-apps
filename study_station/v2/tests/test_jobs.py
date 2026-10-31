@@ -292,3 +292,11 @@ def test_cleanup_and_seed_drop_legacy_jobs(clean_jobs):
     db.commit()
     assert manage.cleanup(db)['legacy'] == 1
     assert {j.slug for j in db.query(Job)} == {'ok'}
+
+
+def test_sbi_migrated_official_host_stays_narrow():
+    # bank.sbi / sbi.co.in careers redirect to this exact SBI host (31 Oct 2026).
+    assert is_official('https://sbi.bank.in/web/careers/current-openings')
+    assert not is_official('https://unrelated.bank.in/careers')
+    assert not is_official('https://sbi.bank.in.example.com/notice.pdf')
+    assert not is_official('https://evil-sbi.bank.in/notice.pdf')

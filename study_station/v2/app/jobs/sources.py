@@ -21,7 +21,7 @@ from bs4 import BeautifulSoup
 # Domains whose documents count as "official".
 OFFICIAL_SUFFIXES = ('.gov.in', '.nic.in', '.ac.in', '.edu.in', '.res.in', '.gov')
 OFFICIAL_HOSTS = {
-    'ibps.in', 'sbi.co.in', 'bank.sbi', 'rbi.org.in', 'licindia.in', 'nabard.org', 'sidbi.in', 'ntpc.co.in',
+    'ibps.in', 'sbi.co.in', 'bank.sbi', 'sbi.bank.in', 'rbi.org.in', 'licindia.in', 'nabard.org', 'sidbi.in', 'ntpc.co.in',
     'ongcindia.com', 'bhel.com', 'iocl.com', 'gailonline.com', 'aai.aero', 'bel-india.in', 'hal-india.co.in',
     'powergrid.in', 'coalindia.in', 'nhpcindia.com', 'sail.co.in', 'bsnl.co.in', 'indiapost.gov.in',
     'aiimsexams.ac.in', 'nta.ac.in', 'cdac.in', 'barc.gov.in', 'isro.gov.in', 'drdo.gov.in', 'nhai.gov.in',
