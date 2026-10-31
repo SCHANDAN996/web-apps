@@ -189,7 +189,7 @@ TYPE_RULES = [
     ('answer', r'answer\s*key|उत्तर\s*कुंजी|response\s+sheet'),
     ('results', r'\bresult|marks|merit\s+list|list\s+of\s+(?:candidates|selected)|provisionally\s+(?:selected|shortlisted)|selection\s+list|shortlist|qualified|परिणाम|cut.?off'),
     ('admit', r'admit\s*card|admission\s+certificate|hall\s*ticket|call\s*letter|प्रवेश\s*पत्र|city\s+of\s+exam'),
-    ('notice', r'(?:tentative|final)\s+vacanc|date\s+of\s+(?:conducting|interview)|schedule\s+of\s+interview|tentative\s+date|recommended\s+candidates|allocation|document\s+verification|physical\s+(?:standard|efficiency)|cancel|corrigendum|addendum|schedule|postpone|extension|important\s+notice|calendar|option|preference|vacanc(y|ies)\s+(?:of|as\s+on)|tender|scholarship|शुद्धिपत्र|स्थगित'),
+    ('notice', r'(?:tentative|final)\s+vacanc|date\s+of\s+(?:conducting|interview)|schedule\s+of\s+interview|tentative\s+date|recommended\s+candidates|allocation|document\s+verification|physical\s+(?:standard|efficiency)|cancel|corrigendum|addendum|schedule|postpone|extension|important\s+notice|calendar|option|preference|vacanc(y|ies)\s+(?:of|as\s+on)|\btenders?\b|scholarship|शुद्धिपत्र|स्थगित'),
     ('latest', r'recruit|notice\s+of|notification|advertisement|advt|apply|vacanc|engagement|walk.?in|भर्ती|विज्ञापन|आवेदन|post\s+of|posts\b'),
 ]
 

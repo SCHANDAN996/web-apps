@@ -14,7 +14,7 @@ import xml.etree.ElementTree as ET
 from dataclasses import dataclass, field
 from datetime import date, timedelta
 from email.utils import parsedate_to_datetime
-from urllib.parse import urljoin, urlsplit
+from urllib.parse import quote, urljoin, urlsplit
 
 from bs4 import BeautifulSoup
 
@@ -140,6 +140,8 @@ class HtmlListingSource:
 
     def fetch(self, http):
         r = http.get(self.url)
+        if not is_official(r.url):
+            raise ValueError('Official listing redirected outside approved domains')
         return self.parse(r.text, r.url)
 
     def parse(self, html, base_url):
@@ -187,6 +189,99 @@ class HtmlListingSource:
             if a.find_parent('tr') is None:
                 add(a.get_text(' '), a['href'])
         return out[: self.max_items]
+
+
+# ------------------------------------------------------------------ Railway Board's VC table uses td cells for its header.
+class RailwayBoardSource(HtmlListingSource):
+    def __init__(self):
+        super().__init__('railway-board', 'https://rb.indianrailways.gov.in/show-irPersonnel/preview/20',
+                         'Railway Board', 'railway', max_items=20)
+
+    def parse(self, html, base_url):
+        soup = BeautifulSoup(html, 'html.parser')
+        out, seen = [], set()
+        for table in soup.find_all('table'):
+            rows = table.find_all('tr')
+            if not rows:
+                continue
+            headers = [clean(c.get_text(' ')).lower() for c in rows[0].find_all(['th', 'td'], recursive=False)]
+            required = ['vc no', 'organisation', 'service', 'post', 'no. of post', 'issue date', 'closing date']
+            if headers != required:
+                continue
+            for row in rows[1:]:
+                cells = row.find_all('td', recursive=False)
+                if len(cells) != len(headers):
+                    continue
+                values = [clean(c.get_text(' ')) for c in cells]
+                # The VC-number link is the notice; a separate Proforma is not a job.
+                for a in cells[0].find_all('a', href=True):
+                    url = safe_http_url(urljoin(base_url, a['href'].replace(' ', '%20')))
+                    if not url or not is_official(url) or '.pdf' not in urlsplit(url).path.lower() or 'proforma' in a.get_text(' ').lower():
+                        continue
+                    if url in seen:
+                        break
+                    seen.add(url)
+                    title = 'Vacancy notice: ' + values[1] + ' — ' + values[3]
+                    hint = ('Posts: ' + values[4] + '\nAdvertisement No: ' + clean(a.get_text(' ')) +
+                            '\nIssue date: ' + values[5] + '\nService: ' + values[2] +
+                            '\nClosing date: ' + values[6])
+                    out.append(Item(self.name, self.kind, title[:300], url, org=values[1] or self.org,
+                                    category=self.category, doc_urls=[url], hint_text=hint))
+                    break
+        if not seen:
+            raise ValueError('Railway Board vacancy table missing or empty')
+        return out[:self.max_items]
+
+
+# ------------------------------------------------------------------ SBI accordion: headline, amended dates, actual notice PDF
+class SBICareersSource:
+    kind = 'official'
+    name = 'sbi'
+    url = 'https://sbi.bank.in/web/careers/current-openings'
+    # A fixed advertisement URL can receive a deadline extension between runs.
+    refresh_existing = True
+
+    def fetch(self, http):
+        r = http.get(self.url)
+        if not is_official(r.url):
+            raise ValueError('Official listing redirected outside approved domains')
+        return self.parse(r.text, r.url)
+
+    def parse(self, html, base_url):
+        soup = BeautifulSoup(html, 'html.parser')
+        headers = soup.select('.accordion[data-articleid]')
+        if not headers:
+            raise ValueError('SBI careers listing layout missing')
+        out, seen = [], set()
+        for header in headers:
+            advert = clean(header.get('data-articleid'))
+            card = header.find_parent('div', class_='card')
+            title_parts = []
+            for paragraph in header.find_all('p'):
+                copy = BeautifulSoup(str(paragraph), 'html.parser')
+                for badge in copy.select('.text_blink'):
+                    badge.decompose()
+                title_parts.append(copy.get_text(' '))
+            title = clean(' '.join(title_parts))
+            if not advert or advert in seen or not card or not LISTING_KW.search(title):
+                continue
+            docs = []
+            for a in card.select('.accordion-content a[href]'):
+                url = safe_http_url(urljoin(base_url, a['href']))
+                li = a.find_parent('li')
+                label = clean(li.get_text(' ') if li else a.get_text(' '))
+                if url and is_official(url) and '.pdf' in urlsplit(url).path.lower() and re.search(r'advertisement|notification', label, re.I):
+                    docs.append((0 if 'english' in a.get_text(' ').lower() else 1, url))
+            if not docs:
+                continue  # Never ingest APPLY ONLINE, biodata or navigation as a notice.
+            seen.add(advert)
+            out.append(Item(self.name, self.kind, title[:300],
+                            self.url + '#advt-' + quote(advert, safe=''), org='SBI', category='banking',
+                            doc_urls=list(dict.fromkeys(url for _, url in sorted(docs))),
+                            hint_text='Advertisement No: ' + advert + '\n' + '\n'.join(
+                                clean(b.get_text(' ')) for b in header.find_all('button')
+                                if re.search(r'last\s+date|closing\s+date', b.get_text(' '), re.I))))
+        return out[:20]
 
 
 # ------------------------------------------------------------------ aggregator RSS (discovery only)
@@ -241,6 +336,10 @@ def official_links_from_page(html, base_url):
 # "checked" = parser verified against the live site while building this.
 # Unchecked sources use the generic parser and report health after each run.
 SOURCES = [
+    SBICareersSource(),
+    RailwayBoardSource(),
+    HtmlListingSource('iim-kozhikode', 'https://webapps.iimk.ac.in/jobportal/vacancy', 'IIM Kozhikode', 'teaching', max_items=20),
+    HtmlListingSource('icar-iimr', 'https://iimr.res.in/events/vacancy', 'ICAR-IIMR', 'govt', max_items=10),
     SSCSource(),                                                                                         # checked
     HtmlListingSource('isro', 'https://www.isro.gov.in/Careers.html', 'ISRO', 'psu'),                    # checked
     HtmlListingSource('uppsc', 'https://uppsc.up.nic.in/CandidatePages/Notifications.aspx', 'UPPSC', 'psc'),  # checked

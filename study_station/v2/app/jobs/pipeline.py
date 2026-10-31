@@ -211,10 +211,12 @@ def run(db: Session, sources=None, http: Fetcher | None = None, max_new_per_sour
             report[src.name] = {'error': health.last_error}
             continue
         stats['items'] = len(items)
-        seen = set(db.scalars(select(SeenItem.url).where(SeenItem.source == src.name)))
+        previous = {row.url: row for row in db.scalars(select(SeenItem).where(SeenItem.source == src.name))}
+        seen = set()
+        refresh = getattr(src, 'refresh_existing', False)
         todo = []
         for i in items:                       # skip seen, and duplicates within this batch
-            if i.url not in seen:
+            if i.url not in seen and (i.url not in previous or refresh):
                 seen.add(i.url)
                 todo.append(i)
         todo = todo[:max_new_per_source]
@@ -228,7 +230,11 @@ def run(db: Session, sources=None, http: Fetcher | None = None, max_new_per_sour
             key = outcome.split(':')[-1] if outcome.startswith('job') else ('errors' if outcome == 'error' else 'skipped')
             stats[key] = stats.get(key, 0) + 1
             if outcome != 'error':           # errors are retried next run
-                db.add(SeenItem(source=src.name, url=item.url[:500], outcome=outcome[:30]))
+                record = previous.get(item.url)
+                if record is not None:
+                    record.outcome = outcome[:30]
+                else:
+                    db.add(SeenItem(source=src.name, url=item.url[:500], outcome=outcome[:30]))
             if dry_run:
                 db.rollback()
             else:

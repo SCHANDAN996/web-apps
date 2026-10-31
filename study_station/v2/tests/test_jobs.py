@@ -300,3 +300,80 @@ def test_sbi_migrated_official_host_stays_narrow():
     assert not is_official('https://unrelated.bank.in/careers')
     assert not is_official('https://sbi.bank.in.example.com/notice.pdf')
     assert not is_official('https://evil-sbi.bank.in/notice.pdf')
+
+
+# Additional official sources, captured from the live listings on 31 October 2026.
+def test_sbi_cards_use_notices_and_current_header_deadlines():
+    from app.jobs.sources import SBICareersSource
+    src = SBICareersSource()
+    items = src.parse(fx('sbi_current_openings.html'), src.url)
+    assert len(items) == 3
+    assert len({i.url for i in items}) == 3
+    assert all(i.doc_urls and all('.pdf' in u for u in i.doc_urls) for i in items)
+    assert all('APPLY ONLINE' not in i.title and 'Recruitment Results' not in i.title for i in items)
+    by_advert = {extract_facts(i.hint_text)['advt_no']: i for i in items}
+    assert extract_facts(by_advert['CRPD/SCO/2026-27/30'].hint_text)['last_date'] == date(2026, 11, 9)
+    # Original apply range / notice PDF may be stale after a deadline extension.
+    assert extract_facts(by_advert['CRPD/SCO/2026-27/25'].hint_text)['last_date'] == date(2026, 10, 31)
+    with pytest.raises(ValueError, match='layout missing'):
+        src.parse('<a href="/apply">Apply online</a>', src.url)
+
+
+def test_railway_board_reads_closing_column_without_inventing_relative_dates():
+    from app.jobs.sources import RailwayBoardSource
+    src = RailwayBoardSource()
+    items = src.parse(fx('railway_board_vacancies.html'), src.url)
+    assert len(items) == 3
+    assert all('Proforma' not in i.url and i.doc_urls == [i.url] for i in items)
+    assert all(classify(i.title) == 'latest' for i in items)
+    assert extract_facts(items[0].hint_text)['last_date'] is None  # '30 days from issue' is not an exact date.
+    assert extract_facts(items[0].hint_text)['vacancies'] == '1'  # Not the 2026 advert year.
+    assert extract_facts(items[1].hint_text)['last_date'] == date(2026, 11, 28)
+    assert extract_facts(items[2].hint_text)['last_date'] == date(2026, 11, 26)
+
+
+def test_more_official_sources_are_registered_with_bounded_real_listings():
+    from app.jobs.sources import enabled_sources
+    wanted = {'sbi', 'railway-board', 'iim-kozhikode', 'icar-iimr'}
+    sources = {s.name: s for s in enabled_sources(only=wanted)}
+    assert set(sources) == wanted
+    for name in ['iim-kozhikode', 'icar-iimr']:
+        src = sources[name]
+        items = src.parse(fx(name.replace('-', '_') + '_vacancies.html'), src.url)
+        assert 2 <= len(items) <= 20
+        assert all(is_official(i.url) and i.kind == 'official' for i in items)
+    assert not enabled_sources(only=wanted, disabled=wanted)
+
+
+def test_refreshable_source_updates_same_advert_without_duplicate_or_changing_first_seen(clean_jobs):
+    from app.jobs.sources import SBICareersSource
+    db = clean_jobs
+    src = SBICareersSource()
+    html = fx('sbi_current_openings.html')
+    pipeline.run(db, [src], http=FakeFetcher({src.url: html}))
+    count = db.query(Job).count()
+    records = {r.url: (r.id, r.first_seen) for r in db.query(SeenItem)}
+    changed = html.replace('LAST DATE TO APPLY : 09-11-2026', 'LAST DATE TO APPLY : 16-11-2026')
+    result = pipeline.run(db, [src], http=FakeFetcher({src.url: changed}))
+    assert result['sbi']['new'] == 0 and result['sbi']['merged'] == count
+    assert db.query(Job).count() == count
+    assert {r.url: (r.id, r.first_seen) for r in db.query(SeenItem)} == records
+    item = next(i for i in src.parse(changed, src.url) if i.url.endswith('30'))
+    job = db.query(Job).join(JobSource).filter(JobSource.url == item.url).one()
+    assert job.last_date == date(2026, 11, 16)
+
+
+def test_tender_notices_do_not_hide_procurement_and_tendering_jobs():
+    assert classify('Vacancy notice: IRCTC — Manager in Procurement and Tendering department') == 'latest'
+    assert classify('Tender for recruitment of outsourced staff') == 'notice'
+    assert classify('Tenders for supply of materials') == 'notice'
+
+
+def test_official_listing_redirect_cannot_publish_untrusted_row_facts():
+    from app.jobs.sources import SBICareersSource
+    class RedirectedFetcher:
+        def get(self, url):
+            return Response('https://outside.example/careers', 200, fx('sbi_current_openings.html').encode(), 'text/html')
+    for source in [SBICareersSource(), HtmlListingSource('test', 'https://ssc.gov.in/jobs', 'SSC')]:
+        with pytest.raises(ValueError, match='outside approved domains'):
+            source.fetch(RedirectedFetcher())
