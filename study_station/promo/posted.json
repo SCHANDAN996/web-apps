@@ -115,7 +115,12 @@
   "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_04_Verb#Set05#Q118",
   "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_16_Books_Authors#Set03#Q67",
   "12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_21_Permutation_Combination#Set06#Q146",
-  "revision#2026-10-30"
+  "revision#2026-10-30",
+  "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_12_Biology#Set05#Q111",
+  "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_30_Current_Affairs_12M#Set04#Q93",
+  "Graduation_Level/Reasoning/Chapter_16_Statement_Conclusion#Set02#Q34",
+  "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_19_Trigonometry#Set06#Q149",
+  "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_06_Adverb#Set03#Q65"
  ],
  "shorts": [
   "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_17_Culture_Art#Set01#Q8",
@@ -1356,6 +1361,62 @@
      {
       "id": "revision#2026-10-30",
       "msg": 135
+     }
+    ]
+   ]
+  },
+  "2026-10-31": {
+   "quiz": [
+    [
+     {
+      "id": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_12_Biology#Set05#Q111",
+      "msg": 137,
+      "chapter": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_12_Biology",
+      "q": "आहार में आयोडीन की कमी से होता है:",
+      "ans": 1,
+      "opt": "घेंघा (गॉयटर)",
+      "exp": "उत्तर: घेंघा (गॉयटर)। आयोडीन की कमी से थायरॉइड ग्रंथि बढ़ जाती है जिससे घेंघा होता है, इसलिए उत्तर घेंघा है।",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_30_Current_Affairs_12M#Set04#Q93",
+      "msg": 138,
+      "chapter": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_30_Current_Affairs_12M",
+      "q": "मई 2026 में पश्चिम बंगाल के मुख्यमंत्री सुवेंदु अधिकारी को शपथ किसने दिलाई?",
+      "ans": 2,
+      "opt": "राज्यपाल आर. एन. रवि",
+      "exp": "उत्तर: राज्यपाल आर. एन. रवि। रवि है।",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/Reasoning/Chapter_16_Statement_Conclusion#Set02#Q34",
+      "msg": 139,
+      "chapter": "Graduation_Level/Reasoning/Chapter_16_Statement_Conclusion",
+      "q": "कथन: सभी आम फल हैं। सभी फल मीठे हैं।\nनिष्कर्ष:\nI. सभी आम मीठे हैं।\nII. कुछ मीठी चीज़ें आम हैं।",
+      "ans": 3,
+      "opt": "I और II दोनों अनुसरण करते हैं",
+      "exp": "उत्तर: I और II दोनों अनुसरण करते हैं। \"सभी आम मीठे हैं\" से रूपांतरण द्वारा \"कुछ मीठी चीज़ें आम हैं\" मिलता है — निष्कर्ष II भी सही है।",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_19_Trigonometry#Set06#Q149",
+      "msg": 140,
+      "chapter": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_19_Trigonometry",
+      "q": "यदि sec θ + tan θ = 5, तो sin θ का मान है",
+      "ans": 3,
+      "opt": "12/13",
+      "exp": "उत्तर: 12/13। चूँकि sec²θ − tan²θ = 1, हमें sec θ − tan θ = 1/5 मिलता है; जोड़ने पर 2 sec θ = 26/5, अतः cos θ = 5/13 और sin θ = 12/13 (θ न्यून), इसलिए उत्तर 12/13 है।",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_06_Adverb#Set03#Q65",
+      "msg": 141,
+      "chapter": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_06_Adverb",
+      "q": "सही वाक्य चुनिए।",
+      "ans": 3,
+      "opt": "I saw him yesterday.",
+      "exp": "उत्तर: I saw him yesterday. इसलिए \"I saw him yesterday.\" सही है।",
+      "part": "am"
      }
     ]
    ]
