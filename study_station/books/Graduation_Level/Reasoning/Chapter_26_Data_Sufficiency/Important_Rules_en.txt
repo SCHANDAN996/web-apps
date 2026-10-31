@@ -1,0 +1,37 @@
+# Important Rules & Approaches — Data Sufficiency
+
+## Part 1: Key Rules / Approaches
+
+| Rule Name | Description | Example |
+|---|---|---|
+| Never Solve Fully | You only need to decide whether the data is *sufficient* to answer, not the actual answer. Stop the moment sufficiency is confirmed. | Q: "What is x?" If Statement I gives x = 5, mark sufficient — do not compute further. |
+| Evaluate Statements Separately First | Test Statement I alone, then Statement II alone, before combining them. | I: x > 0 (not sufficient); II: x² = 9 (not sufficient, x = ±3); I + II together → x = 3 (sufficient). |
+| Fixed Answer Options | Standard options: (a) I alone sufficient, (b) II alone sufficient, (c) both together needed, (d) either alone sufficient, (e) both together still insufficient. Read the exact option wording in your exam. | If I alone works AND II alone works → answer is "either alone sufficient". |
+| Sufficiency ≠ Correctness of Answer | A statement is sufficient even if the answer it yields is "No" or a negative result. A definite "No" is still a definite answer. | Q: "Is x > 10?" Statement: x = 4 → sufficient (answer is "No"). |
+| No Outside Knowledge | Use only the information given in the question and statements. Do not import real-world facts or assumptions. | Do not assume a mentioned person is male/female unless stated. |
+| Uniqueness Test | A statement is sufficient only if it gives exactly ONE possible answer. Multiple possible values = insufficient. | x² = 16 → x = 4 or −4 → not sufficient for "What is x?" |
+| Combine Only When Needed | Choose "both together" only after confirming that neither statement alone is sufficient. | I: A is taller than B. II: B is taller than C. Together → A is tallest (sufficient). |
+| Watch for Hidden Information in the Question | The question stem itself often contains usable data (e.g., "x is a positive integer"). | "x is a prime number" + "x² = 4" → x = 2 (sufficient). |
+| Redundant Information Trap | Sometimes one statement alone is sufficient and the second merely repeats it — answer is still based on the single statement. | I: x = 7. II: x + 2 = 9. I alone is sufficient. |
+| "Either Alone Sufficient" Check | Test this option actively; many students skip it and wrongly pick "both together". | I: x = 5. II: 2x = 10. Each alone gives x → "either alone sufficient". |
+
+## Part 2: Time Management
+
+| Rule | Description |
+|---|---|
+| 15-Second Rule | If within 15 seconds you cannot identify what the question is really asking (value? yes/no? comparison?), mark it and move on. |
+| 45-Second Rule | If sufficiency is not decided within 45 seconds, make your best logical guess (usually "both together insufficient" is NOT the default — eliminate first) and skip. Do not exceed 45 seconds per question. |
+| No-Calculation Discipline | If you find yourself doing long calculations, you are violating the method — stop and only check sufficiency. |
+| Option-Elimination Order | Test I alone → II alone → combined. This fixed order saves re-reading time. |
+| Yes/No Questions Are Faster | Prioritise "Is/Can/Does" type questions; they usually need only a definite yes or no, not a value. |
+| Skip Signals | Skip immediately if: both statements give ranges only, or the question needs 3+ variables but statements give only 2 equations. |
+
+## Part 3: Logical / Mathematical Formulas
+
+| Formula / Principle | Use |
+|---|---|
+| n unknowns need n independent equations | For value-based questions: 2 variables generally need 2 distinct equations to be solvable. |
+| x² = a (a > 0) → x = ±√a | Square equations give two values → usually insufficient alone. |
+| Definite "No" = Sufficient | For yes/no questions, any statement yielding a consistent yes OR no is sufficient. |
+| Inequality chains: A > B and B > C → A > C | Used in comparison/ranking data sufficiency questions. |
+| No other fixed formulas for this chapter | Data Sufficiency tests decision-making logic, not formula recall. |

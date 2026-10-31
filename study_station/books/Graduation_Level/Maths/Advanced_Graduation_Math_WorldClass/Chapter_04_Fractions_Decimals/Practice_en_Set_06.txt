@@ -1,0 +1,151 @@
+Questions 126–145: Easy | Questions 146–150: Medium
+
+126. The value of 0.2̄3̄ + 0.3̄2̄ is:
+(a) 0.5555 (b) 0.56 (c) 0.5̄6̄ (d) 0.5̄5̄
+Answer: (d)
+Solution: The trap is adding the decimal parts directly as 0.23 + 0.32 = 0.55, which ignores the recurring nature. Convert: 0.2̄3̄ = 23/99 and 0.3̄2̄ = 32/99. Sum = 55/99 = 0.5̄5̄, so the answer is 0.5̄5̄.
+Source: PYQ-style
+
+127. If x = 0.1̄6̄ and y = 0.08̄3̄, then x + y equals:
+(a) 1/5 (b) 1/4 (c) 1/6 (d) 1/3
+Answer: (b)
+Solution: The tempting error is treating 0.1̄6̄ as 16/99; actually only the digit 6 repeats, so x = (16 − 1)/90 = 15/90 = 1/6. Similarly y = (83 − 8)/900 = 75/900 = 1/12. Sum = 1/6 + 1/12 = 3/12 = 1/4, so the answer is 1/4.
+Source: NCERT Class 9 Mathematics
+
+128. Which of the following fractions is the largest: 7/9, 11/14, 13/17, 19/24?
+(a) 7/9 (b) 11/14 (c) 19/24 (d) 13/17
+Answer: (c)
+Solution: The trap is picking 7/9 ≈ 0.7778 because it looks simplest. Compute: 11/14 ≈ 0.7857, 13/17 ≈ 0.7647, 19/24 ≈ 0.7917. The greatest is 19/24, so the answer is 19/24.
+Source: PYQ-style
+
+129. The value of (0.75 × 0.75 − 2 × 0.75 × 0.25 + 0.25 × 0.25) is:
+(a) 0.0625 (b) 0.25 (c) 1 (d) 0.5
+Answer: (b)
+Solution: The trap is computing each product separately and making an arithmetic slip. Recognise the identity a² − 2ab + b² = (a − b)² with a = 0.75, b = 0.25. Value = (0.75 − 0.25)² = 0.5² = 0.25, so the answer is 0.25.
+Source: NCERT Class 8 Mathematics
+
+130. If 1/3.142 = 0.3183, then the value of 1/0.0003142 is:
+(a) 3.183 (b) 318.3 (c) 31.83 (d) 3183
+Answer: (d)
+Solution: The trap is shifting the decimal the wrong way. 0.0003142 = 3.142 × 10⁻⁴, so 1/0.0003142 = (1/3.142) × 10⁴ = 0.3183 × 10000 = 3183, so the answer is 3183.
+Source: PYQ-style
+
+131. The sum of the first 20 terms of the series 1/2 + 1/6 + 1/12 + 1/20 + … is:
+(a) 19/20 (b) 21/22 (c) 1 (d) 20/21
+Answer: (d)
+Solution: The trap is trying to add fractions directly. The nth term is 1/[n(n+1)] = 1/n − 1/(n+1), so the series telescopes to 1 − 1/21 = 20/21, so the answer is 20/21.
+Source: PYQ-style
+
+132. A fraction becomes 4/5 when 1 is added to both numerator and denominator, and becomes 1/2 when 5 is subtracted from both. The fraction is:
+(a) 5/7 (b) 7/9 (c) 3/5 (d) 9/11
+Answer: (b)
+Solution: The trap is reversing the two conditions while forming equations. Let the fraction be x/y. Then (x+1)/(y+1) = 4/5 gives 5x − 4y = −1, and (x−5)/(y−5) = 1/2 gives 2x − y = 5. Solving: y = 2x − 5, so 5x − 8x + 20 = −1, giving x = 7, y = 9. The fraction is 7/9, so the answer is 7/9.
+Source: PYQ-style
+
+133. The value of 2.̄4̄ × 0.̄8̄1̄ is:
+(a) 2 (b) 1.98 (c) 2.16 (d) 2.1̄6̄
+Answer: (a)
+Solution: The trap is multiplying the decimal forms 2.44 × 0.81 ≈ 1.98 and rounding. Exactly: 2.̄4̄ = 22/9 and 0.̄8̄1̄ = 81/99 = 9/11. Product = (22/9)(9/11) = 22/11 = 2, so the answer is 2.
+Source: NCERT Class 9 Mathematics
+
+134. If the numerator of a fraction is increased by 200% and the denominator is increased by 300%, the fraction becomes 5/12. The original fraction is:
+(a) 5/8 (b) 3/8 (c) 5/6 (d) 7/12
+Answer: (a)
+Solution: The trap is reading "increased by 200%" as "becomes 2 times" — it becomes 3 times, and the denominator becomes 4 times. So 3x/4y = 5/12, giving x/y = (5/12)(4/3) = 20/36 = 5/8, so the answer is 5/8.
+Source: PYQ-style
+
+135. The decimal 0.̄1̄4̄2̄8̄5̄7̄ expressed as a fraction in its simplest form is:
+(a) 142857/999999 (b) 2/7 (c) 1/7 (d) 1/9
+Answer: (c)
+Solution: The option 142857/999999 is technically equal but the question asks for the simplest form; the trap is stopping there. 0.̄1̄4̄2̄8̄5̄7̄ = 142857/999999 = 1/7 on dividing numerator and denominator by 142857, so the answer is 1/7.
+Source: NCERT Class 9 Mathematics
+
+136. The value of (1.5)³ + (2.5)³ + (3)³ − 3(1.5)(2.5)(3) is:
+(a) 0 (b) 12.25 (c) 24.5 (d) 49
+Answer: (b)
+Solution: The trap is assuming a³ + b³ + c³ − 3abc = 0, but that needs a + b + c = 0, whereas 1.5 + 2.5 + 3 = 7. Compute directly: 3.375 + 15.625 + 27 − 33.75 = 12.25, so the answer is 12.25.
+Source: NCERT Class 9 Mathematics
+
+137. The correct ascending order of 3/7, 4/9, 5/12, 6/13 is:
+(a) 3/7 < 5/12 < 4/9 < 6/13 (b) 5/12 < 4/9 < 3/7 < 6/13 (c) 4/9 < 5/12 < 3/7 < 6/13 (d) 5/12 < 3/7 < 4/9 < 6/13
+Answer: (d)
+Solution: The trap is comparing numerators only. Convert: 3/7 ≈ 0.4286, 4/9 ≈ 0.4444, 5/12 ≈ 0.4167, 6/13 ≈ 0.4615. Ascending: 5/12 < 3/7 < 4/9 < 6/13, so the answer is 5/12 < 3/7 < 4/9 < 6/13.
+Source: PYQ-style
+
+138. If 0.0̄6̄ + 0.0̄7̄ = x, then x equals:
+(a) 13/90 (b) 7/45 (c) 13/99 (d) 0.13
+Answer: (a)
+Solution: The trap is writing 0.0̄6̄ = 6/99; with one non-repeating zero it is 6/90. So x = 6/90 + 7/90 = 13/90, so the answer is 13/90.
+Source: NCERT Class 9 Mathematics
+
+139. The value of 1/(1×3) + 1/(3×5) + 1/(5×7) + … + 1/(19×21) is:
+(a) 20/21 (b) 9/19 (c) 10/21 (d) 1/2
+Answer: (c)
+Solution: The trap is using the telescoping factor 1 instead of 1/2. Each term 1/[(2n−1)(2n+1)] = ½[1/(2n−1) − 1/(2n+1)]. Sum = ½[1 − 1/21] = ½ × 20/21 = 10/21, so the answer is 10/21.
+Source: PYQ-style
+
+140. A student was asked to multiply a number by 4/5 but divided it by 4/5 instead. The percentage error in the result is:
+(a) 56.25% (b) 36% (c) 25% (d) 64%
+Answer: (a)
+Solution: The trap is computing error relative to the wrong result instead of the correct one. Correct result = 4N/5 = 0.8N; wrong result = 5N/4 = 1.25N. Error = 1.25N − 0.8N = 0.45N. Percentage error = 0.45N/0.8N × 100 = 56.25%, so the answer is 56.25%.
+Source: PYQ-style
+
+141. The value of 0.̄3̄ + 0.̄6̄ − 0.̄9̄ is:
+(a) 0 (b) 0.01 (c) 0.1 (d) 1/9
+Answer: (a)
+Solution: The trap is refusing to accept 0.̄9̄ = 1 and computing 0.33 + 0.67 − 0.99 ≈ 0.01. Exactly: 1/3 + 2/3 − 1 = 0, so the answer is 0.
+Source: NCERT Class 9 Mathematics
+
+142. If a = 0.999… (9 repeating infinitely), then a² is:
+(a) greater than 1 (b) less than a (c) equal to 1 (d) equal to 0.998001
+Answer: (c)
+Solution: The trap is squaring 0.99 to get 0.9801 and concluding a² < a. Since 0.999… = 1 exactly, a² = 1, so the answer is equal to 1.
+Source: NCERT Class 9 Mathematics
+
+143. The denominator of a fraction is 3 more than twice its numerator. If 1 is added to the numerator and 2 is subtracted from the denominator, the fraction becomes 5/9. The original fraction is:
+(a) 3/9 (b) 4/11 (c) 5/13 (d) 7/17
+Answer: (b)
+Solution: The trap is writing the first condition as numerator = 2 × denominator + 3, reversing the relation. Let the numerator be x, so denominator = 2x + 3. Then (x+1)/(2x+3−2) = 5/9 gives 9x + 9 = 10x + 5, so x = 4 and denominator = 11. The fraction is 4/11, so the answer is 4/11.
+Source: PYQ-style
+
+144. The value of (0.1)² + (0.11)² + (0.111)² is:
+(a) 0.034421 (b) 0.024421 (c) 0.044421 (d) 0.023421
+Answer: (a)
+Solution: The trap is misplacing decimals while squaring, e.g. taking (0.11)² as 0.121. Correctly: (0.1)² = 0.01, (0.11)² = 0.0121, (0.111)² = 0.012321. Sum = 0.01 + 0.0121 + 0.012321 = 0.034421, so the answer is 0.034421.
+Source: PYQ-style
+
+145. If 1/x = 0.008, then the value of 1/(x/10) is:
+(a) 0.8 (b) 80 (c) 8 (d) 0.08
+Answer: (d)
+Solution: The trap is dividing 0.008 by 10 instead of multiplying. 1/(x/10) = 10/x = 10 × (1/x) = 10 × 0.008 = 0.08, so the answer is 0.08.
+Source: PYQ-style
+
+146. The sum 1/2 + 1/4 + 1/8 + 1/16 + … to infinity is:
+(a) 1 (b) never converges (c) 3/2 (d) 2
+Answer: (a)
+Solution: The trap is thinking an infinite series must diverge. This is a geometric series with first term 1/2 and ratio 1/2; sum = (1/2)/(1 − 1/2) = 1, so the answer is 1.
+Source: NCERT Class 11 Mathematics
+
+147. A number when multiplied by 0.72 gives a result which is 14 less than the number. The number is:
+(a) 40 (b) 45 (c) 60 (d) 50
+Answer: (d)
+Solution: The trap is setting up 0.72N = N + 14, which reverses the difference. Correctly, N − 0.72N = 14, so 0.28N = 14 and N = 50, so the answer is 50.
+Source: PYQ-style
+
+148. The value of 3.̄4̄5̄ − 1.̄2̄3̄ is:
+(a) 2.22 (b) 2.̄2̄1̄ (c) 2.̄2̄ (d) 2.2̄
+Answer: (c)
+Solution: The trap is subtracting digit-wise as 3.45 − 1.23 = 2.22 and stopping. Exactly: 3.̄4̄5̄ = 342/99 and 1.̄2̄3̄ = 122/99. Difference = 220/99 = 20/9 = 2.̄2̄, so the answer is 2.̄2̄.
+Source: NCERT Class 9 Mathematics
+
+149. If the fractions 5/6, 7/8, 11/12 and 13/15 are each subtracted from 1, the largest result comes from subtracting:
+(a) 13/15 (b) 5/6 (c) 11/12 (d) 7/8
+Answer: (b)
+Solution: The trap is assuming the largest fraction gives the largest remainder — it gives the smallest. Remainders: 1/6 ≈ 0.1667, 1/8 = 0.125, 1/12 ≈ 0.0833, 1/15 ≈ 0.0667. Largest remainder is 1/6, from subtracting 5/6, so the answer is 5/6.
+Source: PYQ-style
+
+150. The value of (2.3̄ + 1.6̄) ÷ 0.̄1̄ is:
+(a) 35 (b) 35.5 (c) 36 (d) 34
+Answer: (c)
+Solution: The trap is converting 2.3̄ as 23/99; with only the 3 repeating it is (23 − 2)/9 = 21/9 = 7/3. Similarly 1.6̄ = (16 − 1)/9 = 15/9 = 5/3, so the sum is 7/3 + 5/3 = 4. Dividing by 0.̄1̄ = 1/9 gives 4 × 9 = 36, so the answer is 36.
+Source: PYQ-style

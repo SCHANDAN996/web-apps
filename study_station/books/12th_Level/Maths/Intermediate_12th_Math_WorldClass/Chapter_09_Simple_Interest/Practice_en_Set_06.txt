@@ -1,3 +1,151 @@
-# Chapter: Simple Interest, Level: intermediate, Set: 6/6
+प्रश्न 126–145: आसान | प्रश्न 146–150: मध्यम
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Simple Interest. This is Set 6 (total 6 sets, 150 questions). Questions must be numbered 126 to 150. All 25 questions should be Hard. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+126. A sum of money at simple interest amounts to ₹2,240 in 2 years and ₹2,600 in 5 years. The sum is:
+(a) ₹1,880 (b) ₹2,120 (c) ₹2,000 (d) ₹2,400
+Answer: (c)
+Solution: The tempting trap is to take ₹2,240 as the principal, but that includes 2 years of interest. Interest for 3 years = 2,600 − 2,240 = ₹360, so interest per year = ₹120. Interest for 2 years = ₹240, hence principal = 2,240 − 240 = ₹2,000. So the answer is ₹2,000.
+Source: PYQ-style
+
+127. A sum was invested at simple interest at a certain rate for 3 years. Had it been invested at a rate 4% per annum higher, it would have fetched ₹600 more. The sum is:
+(a) ₹4,000 (b) ₹4,500 (c) ₹5,000 (d) ₹6,000
+Answer: (c)
+Solution: The trap is dividing 600 by 4 to get 150 and stopping there. Extra interest = P × 4 × 3/100 = 600, so P = 600 × 100/12 = ₹5,000. So the answer is ₹5,000.
+Source: PYQ-style
+
+128. A person lent ₹10,000 in two parts, one at 8% and the other at 10% per annum simple interest. The total interest after 2 years was ₹1,760. The part lent at 8% was:
+(a) ₹6,000 (b) ₹5,000 (c) ₹7,000 (d) ₹4,000
+Answer: (a)
+Solution: The trap is splitting equally, which gives interest 800 + 1,000 = ₹1,800, not ₹1,760. Let the 8% part be x: 16x/100 + 20(10,000 − x)/100 = 1,760, so 2,000 − 4x/100 = 1,760, giving x = ₹6,000. So the answer is ₹6,000.
+Source: PYQ-style
+
+129. A sum doubles itself in 8 years at simple interest. In how many years will it become four times itself at the same rate?
+(a) 32 years (b) 20 years (c) 16 years (d) 24 years
+Answer: (d)
+Solution: The trap is doubling 8 to get 16, but "four times" means interest = 3P, not 2P. Interest of P takes 8 years, so interest of 3P takes 24 years. So the answer is 24 years.
+Source: PYQ-style
+
+130. The simple interest on a sum for 5 years is two-fifths of the sum. The rate of interest per annum is:
+(a) 6% (b) 10% (c) 8% (d) 12.5%
+Answer: (c)
+Solution: The trap is taking 2/5 as 40% and calling that the rate. SI = 2P/5, so P × R × 5/100 = 2P/5, giving R = 40/5 = 8%. So the answer is 8%.
+Source: PYQ-style
+
+131. A man borrowed ₹8,000 at 10% per annum simple interest and immediately lent the whole sum at 12% per annum simple interest. His gain after 4 years is:
+(a) ₹480 (b) ₹560 (c) ₹720 (d) ₹640
+Answer: (d)
+Solution: The trap is computing the gain for one year only, which gives ₹160. Net gain rate = 12 − 10 = 2% per annum, so gain = 8,000 × 2 × 4/100 = ₹640. So the answer is ₹640.
+Source: PYQ-style
+
+132. A sum of ₹1,550 was lent partly at 5% and partly at 8% per annum simple interest. The total interest received after 3 years was ₹300. The ratio of money lent at 5% to that at 8% is:
+(a) 5 : 8 (b) 16 : 15 (c) 15 : 16 (d) 8 : 5
+Answer: (b)
+Solution: The trap is assuming equal parts, which gives interest of about ₹302, close but wrong. Let the 5% part be x: 15x/100 + 24(1,550 − x)/100 = 300, so 37,200 − 9x = 30,000, giving x = 800 and the other part 750; ratio 800 : 750 = 16 : 15. So the answer is 16 : 15.
+Source: PYQ-style
+
+133. The simple interest on a certain sum at 8% per annum for 6 years is ₹1,200 less than the simple interest on the same sum at 10% per annum for 6 years. The sum is:
+(a) ₹10,000 (b) ₹9,000 (c) ₹8,000 (d) ₹12,000
+Answer: (a)
+Solution: The trap is using the rate difference of 2% for one year only. Difference in interest = P × (10 − 8) × 6/100 = 1,200, so P = 1,200 × 100/12 = ₹10,000. So the answer is ₹10,000.
+Source: PYQ-style
+
+134. A sum of money becomes ₹4,200 in 4 years and ₹4,800 in 6 years at simple interest. The rate of interest per annum is:
+(a) 15% (b) 8% (c) 12% (d) 10%
+Answer: (d)
+Solution: The trap is taking ₹4,200 as the principal. Interest for 2 years = 4,800 − 4,200 = ₹600, so yearly interest = ₹300. Principal = 4,200 − 4 × 300 = ₹3,000, and rate = 300 × 100/3,000 = 10%. So the answer is 10%.
+Source: PYQ-style
+
+135. A person invests money in three schemes for 6 years, 10 years and 12 years at 10%, 12% and 15% simple interest respectively. At the end of each scheme he gets the same interest. The ratio of his investments is:
+(a) 3 : 4 : 6 (b) 6 : 3 : 2 (c) 2 : 3 : 4 (d) 4 : 3 : 2
+Answer: (b)
+Solution: The trap is taking the ratio of the times or the rates directly. Equal interest means P₁ × 60 = P₂ × 120 = P₃ × 180 (rate × time), so P₁ : P₂ : P₃ = 1/60 : 1/120 : 1/180 = 6 : 3 : 2. So the answer is 6 : 3 : 2.
+Source: PYQ-style
+
+136. A sum of ₹12,000 amounts to ₹15,600 in 3 years at simple interest. If the rate of interest is increased by 3% per annum, the new amount after 3 years would be:
+(a) ₹16,680 (b) ₹16,920 (c) ₹16,440 (d) ₹17,200
+Answer: (a)
+Solution: The trap is adding 3% of the amount instead of recomputing the interest. Original interest = ₹3,600, so rate = 3,600 × 100/(12,000 × 3) = 10%. New rate = 13%, new interest = 12,000 × 13 × 3/100 = ₹4,680, new amount = ₹16,680. So the answer is ₹16,680.
+Source: PYQ-style
+
+137. A man lent ₹5,000 for 2 years and ₹3,000 for 4 years at simple interest at the same rate and received ₹2,200 in all as interest. The rate of interest per annum is:
+(a) 8% (b) 9% (c) 10% (d) 12%
+Answer: (c)
+Solution: The trap is averaging the principals or the times. Total interest = (5,000 × 2 + 3,000 × 4) × R/100 = 22,000R/100 = 2,200, so R = 10%. So the answer is 10%.
+Source: PYQ-style
+
+138. A sum was put at simple interest at a certain rate for 4 years. Had it been put at 2% higher rate, it would have fetched ₹56 more. The sum is:
+(a) ₹680 (b) ₹750 (c) ₹720 (d) ₹700
+Answer: (d)
+Solution: The trap is dividing 56 by 2 to get 28 and building the answer on that. Extra interest = P × 2 × 4/100 = 56, so P = 56 × 100/8 = ₹700. So the answer is ₹700.
+Source: PYQ-style
+
+139. The simple interest on a sum of money is one-ninth of the principal, and the number of years is equal to the rate percent per annum. The rate per annum is:
+(a) 3% (b) 3⅓% (c) 4% (d) 5%
+Answer: (b)
+Solution: The trap is taking the square root of 9 as 3%. Given SI = P/9 and R = T: P × R × R/100 = P/9, so R² = 100/9 and R = 10/3 = 3⅓%. So the answer is 3⅓%.
+Source: PYQ-style
+
+140. A sum of ₹5,400 is divided into two parts such that the amount on the first part at 6% per annum for 5 years equals the amount on the second part at 8% per annum for 5 years, both at simple interest. The first part is:
+(a) ₹2,600 (b) ₹2,800 (c) ₹2,700 (d) ₹3,000
+Answer: (b)
+Solution: The trap is dividing ₹5,400 equally. Equal amounts mean P₁ × 1.30 = P₂ × 1.40, so P₁ : P₂ = 14 : 13. First part = 5,400 × 14/27 = ₹2,800. So the answer is ₹2,800.
+Source: PYQ-style
+
+141. A man invested one-third of his capital at 7%, one-fourth at 8% and the remainder at 10% per annum simple interest. If his annual income from interest is ₹561, the capital is:
+(a) ₹6,000 (b) ₹7,200 (c) ₹6,600 (d) ₹7,500
+Answer: (c)
+Solution: The trap is averaging the three rates to 8.33% directly. Let capital = 12k: the parts are 4k, 3k and 5k. Interest = (28 + 24 + 50)k/100 = 102k/100 = 561, so k = 550 and capital = 12 × 550 = ₹6,600. So the answer is ₹6,600.
+Source: PYQ-style
+
+142. A sum of money lent at simple interest amounts to ₹1,008 in 2 years and ₹1,164 in 3½ years. The rate of interest per annum is:
+(a) 13% (b) 11% (c) 12% (d) 10%
+Answer: (a)
+Solution: The trap is taking ₹1,008 as the principal. Interest for 1½ years = 1,164 − 1,008 = ₹156, so yearly interest = ₹104. Principal = 1,008 − 2 × 104 = ₹800, and rate = 104 × 100/800 = 13%. So the answer is 13%.
+Source: PYQ-style
+
+143. A person borrows ₹5,000 at 4% per annum and ₹4,000 at 5% per annum simple interest for the same period. He pays ₹1,200 as total interest. The period is:
+(a) 2 years (b) 4 years (c) 3 years (d) 5 years
+Answer: (c)
+Solution: The trap is computing interest on ₹9,000 at a guessed average rate. Yearly interest = 5,000 × 4/100 + 4,000 × 5/100 = 200 + 200 = ₹400, so time = 1,200/400 = 3 years. So the answer is 3 years.
+Source: PYQ-style
+
+144. A sum of money becomes 7/5 of itself in 4 years at simple interest. In how many years will it become 2 times itself at the same rate?
+(a) 8 years (b) 10 years (c) 12 years (d) 14 years
+Answer: (b)
+Solution: The trap is scaling 4 years by 2/(7/5) directly. Interest in 4 years = 2P/5, so yearly interest = P/10. To double, interest needed = P, which takes 10 years. So the answer is 10 years.
+Source: PYQ-style
+
+145. Two equal sums were lent at 5% and 6% per annum simple interest. The interest on the first sum for 3 years equals the interest on the second sum for 2 years plus ₹90. Each sum is:
+(a) ₹4,000 (b) ₹2,500 (c) ₹3,500 (d) ₹3,000
+Answer: (d)
+Solution: The trap is ignoring the ₹90 difference and equating the two interests. Let each sum be P: 15P/100 = 12P/100 + 90, so 3P/100 = 90, giving P = ₹3,000. So the answer is ₹3,000.
+Source: PYQ-style
+
+146. A man lent a sum at 12% per annum simple interest for some years and received an amount of ₹14,800. If he had lent it at 15% for the same period, he would have received ₹16,000. The sum and the period are:
+(a) ₹10,000, 4 years (b) ₹12,000, 5 years (c) ₹10,000, 6 years (d) ₹12,000, 4 years
+Answer: (a)
+Solution: The trap is treating the difference ₹1,200 as one year's interest. Difference = P × 3 × T/100 = 1,200, so PT = 40,000. Also P + 12PT/100 = 14,800 gives P + 4,800 = 14,800, so P = ₹10,000 and T = 40,000/10,000 = 4 years. So the answer is ₹10,000, 4 years.
+Source: PYQ-style
+
+147. A sum of ₹2,600 is lent in two parts so that the interest on the first part at 10% for 5 years equals the interest on the second part at 9% for 6 years. The first part is:
+(a) ₹1,350 (b) ₹1,250 (c) ₹1,400 (d) ₹1,450
+Answer: (a)
+Solution: The trap is splitting the sum equally. Let the first part be x: 50x/100 = 54(2,600 − x)/100, so 50x = 140,400 − 54x, giving 104x = 140,400 and x = ₹1,350. So the answer is ₹1,350.
+Source: PYQ-style
+
+148. The rate of simple interest on a sum is 6% per annum for the first 3 years, 8% per annum for the next 4 years and 10% per annum for the period beyond 7 years. The total interest earned on ₹6,000 in 10 years is:
+(a) ₹4,200 (b) ₹4,800 (c) ₹4,920 (d) ₹4,440
+Answer: (b)
+Solution: The trap is applying one average rate for all 10 years. Interest = 6,000 × (6 × 3 + 8 × 4 + 10 × 3)/100 = 6,000 × (18 + 32 + 30)/100 = 6,000 × 80/100 = ₹4,800. So the answer is ₹4,800.
+Source: PYQ-style
+
+149. A sum of money at simple interest trebles itself in 15 years. It will become 5 times itself in:
+(a) 30 years (b) 25 years (c) 40 years (d) 45 years
+Answer: (a)
+Solution: The trap is scaling 15 by 5/3 to get 25. Trebling means interest = 2P in 15 years, so interest of P takes 7.5 years. Becoming 5 times needs interest = 4P, taking 30 years. So the answer is 30 years.
+Source: PYQ-style
+
+150. A man deposited ₹8,000 in a bank at 5% per annum simple interest. After 3 years he withdrew the whole amount and deposited it in another bank at 8% per annum simple interest. His total interest earned after 6 years from the start is:
+(a) ₹3,360 (b) ₹3,600 (c) ₹4,080 (d) ₹3,408
+Answer: (d)
+Solution: The trap is computing 8% on the original ₹8,000 for the second period. First interest = 8,000 × 5 × 3/100 = ₹1,200, so the new principal = ₹9,200. Second interest = 9,200 × 8 × 3/100 = ₹2,208, and total interest = 1,200 + 2,208 = ₹3,408. So the answer is ₹3,408.
+Source: PYQ-style

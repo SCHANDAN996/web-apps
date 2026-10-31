@@ -1,0 +1,151 @@
+प्रश्न 126–145: आसान | प्रश्न 146–150: मध्यम
+
+126. A cube is painted red on all faces and cut into 125 identical smaller cubes. How many smaller cubes have exactly two faces painted?
+(a) 44 (b) 60 (c) 48 (d) 36
+Answer: (d)
+Solution: The tempting answer 48 comes from wrongly counting 4 cubes per edge (12 edges × 4), but that counts corner cubes too. For n = 5, cubes with exactly two painted faces lie on edges excluding corners: 12 × (n − 2) = 12 × 3 = 36, so the answer is 36.
+Source: PYQ-style
+
+127. A cube of side 6 cm is painted black on all faces and cut into 1 cm cubes. How many small cubes have no face painted?
+(a) 27 (b) 125 (c) 64 (d) 8
+Answer: (c)
+Solution: The trap is to use (n − 1)³ = 125, which removes only one layer instead of two. Unpainted cubes form the inner cube of side (n − 2) = 4, giving 4³ = 64, so the answer is 64.
+Source: PYQ-style
+
+128. A cube is painted on all faces and cut into 64 equal cubes. How many cubes have exactly one face painted?
+(a) 8 (b) 24 (c) 16 (d) 32
+Answer: (b)
+Solution: The tempting answer 16 uses (n − 2)² but forgets that there are 6 faces. Here n = 4; one-face-painted cubes = 6 × (n − 2)² = 6 × 4 = 24, so the answer is 24.
+Source: PYQ-style
+
+129. A cube is painted red on two opposite faces, green on two opposite faces, and blue on the remaining two opposite faces. It is cut into 27 equal cubes. How many cubes have at least two colours on them?
+(a) 12 (b) 18 (c) 24 (d) 20
+Answer: (d)
+Solution: The trap is to count only the 12 edge-middle cubes and forget the corners. With n = 3, each of the 12 edges has 1 middle cube carrying two colours, and all 8 corners touch one face of each colour, carrying three colours. Total = 12 + 8 = 20, so the answer is 20.
+Source: PYQ-style
+
+130. Two positions of a standard dice are shown. In position 1, the top face is 1 and the front face is 2. In position 2, the top face is 2 and the front face is 3. Which number is opposite to 2?
+(a) 1 (b) 3 (c) 6 (d) 5
+Answer: (d)
+Solution: The trap is to pick 1 or 3, but both are adjacent to 2 in the given views. On a standard dice, opposite faces sum to 7, so the face opposite 2 is 5, so the answer is 5.
+Source: PYQ-style
+
+131. On a standard dice (opposite faces sum to 7), the top face shows 6 and the front face shows 2. What number is on the bottom face?
+(a) 5 (b) 1 (c) 2 (d) 4
+Answer: (b)
+Solution: The trap is to answer 5, which is opposite the front face 2, not the top face. The bottom is opposite the top face 6, and 6 is opposite 1, so the answer is 1.
+Source: PYQ-style
+
+132. A cube is cut by 3 cuts parallel to one pair of faces, 4 cuts parallel to the second pair, and 5 cuts parallel to the third pair. How many pieces are formed?
+(a) 120 (b) 60 (c) 180 (d) 240
+Answer: (a)
+Solution: The trap is to multiply the cuts directly: 3 × 4 × 5 = 60. Pieces along each direction = cuts + 1, so total = 4 × 5 × 6 = 120, so the answer is 120.
+Source: PYQ-style
+
+133. From a cube painted on all faces and cut into 216 equal cubes, how many cubes have at least one face painted?
+(a) 152 (b) 169 (c) 125 (d) 98
+Answer: (a)
+Solution: The trap is to compute 216 − 125 = 91 using (n − 1)³ for the unpainted cubes. Unpainted = (n − 2)³ = 4³ = 64, so painted = 216 − 64 = 152, so the answer is 152.
+Source: PYQ-style
+
+134. Four positions of the same dice show: view 1 has 1, 2, 3; view 2 has 1, 3, 5; view 3 has 1, 5, 6; view 4 has 1, 6, 2. Which number is opposite to 1?
+(a) 3 (b) 4 (c) 2 (d) 6
+Answer: (b)
+Solution: The trap is to pick 6 because it appears far from 1 in the list. From the four views, 1 is adjacent to 2, 3, 5, and 6 — four different faces. The only number not adjacent to 1 is 4, so the answer is 4.
+Source: PYQ-style
+
+135. On a standard dice (opposite faces sum to 7), the top face shows 2 and the front face shows 1. What number is on the bottom face?
+(a) 6 (b) 5 (c) 3 (d) 4
+Answer: (b)
+Solution: The trap is to answer 6, which is opposite the front face 1, not the top face. The bottom is opposite the top face 2, and 2 is opposite 5, so the answer is 5.
+Source: PYQ-style
+
+136. A wooden cube of side 9 cm is painted red on all faces and cut into 3 cm cubes. How many cubes have exactly three faces painted?
+(a) 8 (b) 6 (c) 12 (d) 4
+Answer: (a)
+Solution: The trap is to answer 12 by confusing edges with corners. Only corner cubes have three painted faces, and a cube always has 8 corners regardless of size, so the answer is 8.
+Source: PYQ-style
+
+137. A cube is painted blue and cut into 343 small cubes. How many cubes have exactly two faces painted?
+(a) 72 (b) 84 (c) 60 (d) 96
+Answer: (c)
+Solution: The trap is to use n = 6 by miscounting 343 as 6³; in fact 343 = 7³. Two-face cubes = 12 × (n − 2) = 12 × 5 = 60, so the answer is 60.
+Source: PYQ-style
+
+138. Two dice are thrown simultaneously. What is the probability that the sum of the numbers is a prime number?
+(a) 4/9 (b) 1/2 (c) 7/18 (d) 5/12
+Answer: (d)
+Solution: The trap is to count the prime sums 2, 3, 5, 7, 11 as 5 cases out of 11 possible sums, ignoring that sums are not equally likely. Favourable outcomes: sum 2 (1 way), 3 (2), 5 (4), 7 (6), 11 (2) = 15 out of 36 = 5/12, so the answer is 5/12.
+Source: NCERT Class 10 Mathematics
+
+139. A cube is painted with three colours — red on one pair of opposite faces, green on another pair, blue on the third pair — and cut into 64 cubes. How many cubes have exactly two colours?
+(a) 24 (b) 12 (c) 36 (d) 48
+Answer: (a)
+Solution: The trap is to count the 8 corners as two-colour cubes; corners actually carry three colours. Two-colour cubes are the edge-middle cubes: 12 edges × (4 − 2) = 24, so the answer is 24.
+Source: PYQ-style
+
+140. In a dice, the face with 1 dot is opposite the face with 6 dots, 2 is opposite 4, and 3 is opposite 5. If the top face shows 2 and the front face shows 3, what is on the bottom face?
+(a) 5 (b) 6 (c) 4 (d) 1
+Answer: (c)
+Solution: The trap is to answer 5, which is opposite the front face 3, not the top. The bottom is opposite the top face 2, and 2 is opposite 4, so the answer is 4.
+Source: PYQ-style
+
+141. A large cube is made of 1000 small cubes and painted on the outside. How many small cubes have exactly two faces painted?
+(a) 104 (b) 96 (c) 88 (d) 80
+Answer: (b)
+Solution: The trap is to add the 8 corners to the edge cubes, getting 104, but corners have three painted faces. With n = 10, two-face cubes = 12 × (n − 2) = 12 × 8 = 96, so the answer is 96.
+Source: PYQ-style
+
+142. A standard dice is rolled three times and the top faces show 2, 3, and 5. What is the sum of the three bottom faces?
+(a) 11 (b) 12 (c) 10 (d) 9
+Answer: (a)
+Solution: The trap is to doubt the shortcut and recompute wrongly. On a standard dice each top–bottom pair sums to 7, so the bottoms are 5, 4, and 2, summing to 11, so the answer is 11.
+Source: PYQ-style
+
+143. A cube painted on all faces is cut into 27 cubes. The corner cubes are removed. How many of the remaining cubes have exactly two painted faces?
+(a) 8 (b) 18 (c) 6 (d) 12
+Answer: (d)
+Solution: The trap is to subtract corners from the two-face count, but corners have three painted faces, not two. Two-face cubes are the middle cube of each of the 12 edges: 12 × (3 − 2) = 12, so the answer is 12.
+Source: PYQ-style
+
+144. Three views of a cube show letters: view 1 has A on top, B in front; view 2 has B on top, C in front; view 3 has C on top, A in front. Which letter is opposite to B?
+(a) A (b) C (c) D (d) Cannot be determined
+Answer: (d)
+Solution: The trap is to assume a cyclic deduction fixes a definite opposite. From the views, B is adjacent to A and C only; nothing is known about how the remaining faces D, E, F are placed, so the face opposite B cannot be determined, so the answer is "cannot be determined".
+Source: PYQ-style
+
+145. A rectangular block of 4 cm × 5 cm × 6 cm is painted on all faces and cut into 1 cm cubes. How many cubes have exactly two faces painted?
+(a) 52 (b) 44 (c) 36 (d) 60
+Answer: (c)
+Solution: The trap is to apply the cube formula 12 × (n − 2), which needs equal sides. For a cuboid, two-face cubes = 4 × [(4 − 2) + (5 − 2) + (6 − 2)] = 4 × 9 = 36, so the answer is 36.
+Source: PYQ-style
+
+146. A cuboid of 3 cm × 4 cm × 5 cm is painted on all faces and cut into 1 cm cubes. How many cubes have no face painted?
+(a) 12 (b) 8 (c) 6 (d) 4
+Answer: (c)
+Solution: The trap is to compute (n − 2)³ = 1 using only the smallest dimension. Unpainted cubes = (3 − 2) × (4 − 2) × (5 − 2) = 1 × 2 × 3 = 6, so the answer is 6.
+Source: PYQ-style
+
+147. A standard dice is placed on a table with 1 on top, 2 facing east, and 3 facing north. It is rolled once to the east, then once to the north. What number is now on top?
+(a) 3 (b) 4 (c) 2 (d) 5
+Answer: (b)
+Solution: The trap is to track only one roll. Rolling east moves the west face (5) to the top and 2 to the bottom; the north and south faces (3 and 4) stay unchanged. Rolling north then moves the south face (4) to the top, so the answer is 4.
+Source: PYQ-style
+
+148. A cube is painted red on all faces, cut into 64 cubes, and then all cubes with no paint are painted green on all their faces. How many cubes are now green?
+(a) 8 (b) 27 (c) 16 (d) 4
+Answer: (a)
+Solution: The trap is to count one-face or two-face cubes, which already have red paint. Unpainted cubes after the first cut = (4 − 2)³ = 8, and exactly these are painted green, so the answer is 8.
+Source: PYQ-style
+
+149. Two positions of a standard dice are shown: position 1 shows 4 on top and 5 in front; position 2 shows 5 on top and 6 in front. Which number is opposite to 5?
+(a) 4 (b) 6 (c) 2 (d) 1
+Answer: (c)
+Solution: The trap is to pick 4 or 6, both of which are adjacent to 5 in the given views. On a standard dice, opposite faces sum to 7, so 5 is opposite 2, so the answer is 2.
+Source: PYQ-style
+
+150. A cube of side 5 cm, painted on all faces, is cut into 1 cm cubes. What is the ratio of cubes with exactly one painted face to cubes with exactly two painted faces?
+(a) 3 : 2 (b) 2 : 3 (c) 9 : 6 (d) 6 : 4
+Answer: (a)
+Solution: The trap is to invert the ratio or to include corners in the count. One-face cubes = 6 × (5 − 2)² = 54; two-face cubes = 12 × (5 − 2) = 36; ratio 54 : 36 = 3 : 2, so the answer is 3 : 2.
+Source: PYQ-style

@@ -1,0 +1,43 @@
+```mermaid
+graph TD
+    A["Conjunction<br>Joining Words"] --> B["Coordinating<br>FANBOYS"]
+    A --> C["Subordinating"]
+    A --> D["Correlative<br>Pairs"]
+
+    B --> B1["For - reason"]
+    B --> B2["And - addition"]
+    B --> B3["Nor - negative addition"]
+    B --> B4["But - contrast"]
+    B --> B5["Or - choice"]
+    B --> B6["Yet - contrast"]
+    B --> B7["So - result"]
+
+    C --> C1["Time<br>when, while, before, after, until, since"]
+    C --> C2["Reason<br>because, since, as"]
+    C --> C3["Condition<br>if, unless, provided that"]
+    C --> C4["Contrast<br>although, though, even though, whereas"]
+    C --> C5["Purpose<br>so that, in order that"]
+
+    D --> D1["Either...or"]
+    D --> D2["Neither...nor"]
+    D --> D3["Both...and"]
+    D --> D4["Not only...but also"]
+    D --> D5["Whether...or"]
+
+    A --> E["Golden Rules"]
+    E --> E1["No double conjunction:<br>Although...but ❌<br>Although...yet ✓"]
+    E --> E2["Since = time/reason<br>Because = only reason"]
+    E --> E3["Until vs Unless:<br>Until = time, Unless = condition"]
+    E --> E4["Correlative pairs must match:<br>Neither...nor, never Neither...or"]
+
+    A --> F["Examiner's Traps"]
+    F --> F1["Trap 1: Although + but together"]
+    F --> F2["Trap 2: Because + so together"]
+    F --> F3["Trap 3: Unless + not<br>Unless you do not work ❌"]
+    F --> F4["Trap 4: Scarcely/Hardly + when<br>never + than"]
+
+    A --> G["Strategy"]
+    G --> G1["Fact-based rule Qs<br>15 seconds"]
+    G --> G2["Sentence-combining /<br>error-spotting Qs<br>45 seconds"]
+    G --> G3["Check pair completeness first<br>then meaning"]
+```

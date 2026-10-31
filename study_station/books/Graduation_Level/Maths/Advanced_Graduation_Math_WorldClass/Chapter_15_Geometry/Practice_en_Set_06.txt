@@ -1,0 +1,149 @@
+126. In a triangle ABC, the sides are in the ratio 3 : 4 : 5 and the perimeter is 48 cm. What is the area of the triangle?
+(a) 96 cm² (b) 84 cm² (c) 72 cm² (d) 108 cm²
+Answer: (a)
+Solution: The tempting wrong option 84 cm² comes from taking the sides as 12, 16, 20 but then miscomputing half of 12 × 14. Sides are 3k, 4k, 5k with 12k = 48, so k = 4 and the sides are 12, 16, 20. Since 3-4-5 is a right triangle, area = ½ × 12 × 16 = 96, so the answer is 96 cm².
+Source: NCERT Class 10 Mathematics
+
+127. The angles of a triangle are in the ratio 2 : 3 : 7. The triangle is:
+(a) acute-angled (b) right-angled (c) obtuse-angled (d) equilateral
+Answer: (c)
+Solution: Many pick right-angled assuming one angle must be 90°, but the angles are 2x, 3x, 7x with 12x = 180°, so x = 15° and the angles are 30°, 45°, 105°. Since 105° > 90°, the triangle is obtuse-angled, so the answer is obtuse-angled.
+Source: NCERT Class 9 Mathematics
+
+128. In a circle of radius 10 cm, a chord is at a distance of 6 cm from the centre. The length of the chord is:
+(a) 16 cm (b) 12 cm (c) 8 cm (d) 14 cm
+Answer: (a)
+Solution: The trap is answering 8 cm, which is only half the chord (the segment from foot of perpendicular to one end). Half-chord = √(10² − 6²) = √64 = 8 cm, so full chord = 2 × 8 = 16, so the answer is 16 cm.
+Source: NCERT Class 9 Mathematics
+
+129. Two circles of radii 8 cm and 3 cm touch each other externally. The distance between their centres is:
+(a) 5 cm (b) 11 cm (c) 24 cm (d) 8 cm
+Answer: (b)
+Solution: The tempting wrong option 5 cm is the difference of radii, which applies when circles touch internally, not externally. For external contact, distance between centres = 8 + 3 = 11, so the answer is 11 cm.
+Source: NCERT Class 10 Mathematics
+
+130. The diagonals of a rhombus are 24 cm and 10 cm. Its side length is:
+(a) 13 cm (b) 17 cm (c) 26 cm (d) 12 cm
+Answer: (a)
+Solution: The trap is using the full diagonals in Pythagoras, giving √(24² + 10²) = 26. Diagonals of a rhombus bisect each other at right angles, so half-diagonals are 12 and 5, and side = √(12² + 5²) = √169 = 13, so the answer is 13 cm.
+Source: NCERT Class 9 Mathematics
+
+131. The area of an equilateral triangle is 16√3 cm². Its side is:
+(a) 4 cm (b) 6 cm (c) 8 cm (d) 12 cm
+Answer: (c)
+Solution: The tempting wrong option 4 cm comes from forgetting the √3/4 factor and solving s² = 16. Area = (√3/4)s² = 16√3 gives s² = 64, so s = 8, so the answer is 8 cm.
+Source: NCERT Class 10 Mathematics
+
+132. In triangle ABC, angle A = 50° and angle B = 60°. The bisectors of angles B and C meet at point O. Angle BOC is:
+(a) 110° (b) 125° (c) 115° (d) 120°
+Answer: (c)
+Solution: The trap is computing 90° + A/2 with the wrong angle or forgetting that angle C = 180° − 50° − 60° = 70°. The angle between internal bisectors of B and C is 90° + A/2 = 90° + 25° = 115°, so the answer is 115°.
+Source: NCERT Class 9 Mathematics
+
+133. A regular polygon has each interior angle equal to 156°. The number of its sides is:
+(a) 12 (b) 15 (c) 18 (d) 20
+Answer: (b)
+Solution: The trap is using interior angle directly in 360/n, giving 360/156 which is meaningless. Each exterior angle = 180° − 156° = 24°, and number of sides = 360/24 = 15, so the answer is 15.
+Source: NCERT Class 8 Mathematics
+
+134. The length of the tangent from a point 13 cm away from the centre of a circle of radius 5 cm is:
+(a) 12 cm (b) 10 cm (c) 8 cm (d) 14 cm
+Answer: (a)
+Solution: The tempting wrong option 8 cm comes from computing 13 − 5, which ignores that the radius is perpendicular to the tangent. Tangent length = √(13² − 5²) = √(169 − 25) = √144 = 12, so the answer is 12 cm.
+Source: NCERT Class 10 Mathematics
+
+135. In a triangle, the centroid divides each median in the ratio:
+(a) 2 : 1 (b) 1 : 2 (c) 3 : 1 (d) 1 : 1
+Answer: (a)
+Solution: The trap is writing 1 : 2 by reversing the order. The centroid divides each median in the ratio 2 : 1, with the longer part (2) towards the vertex and the shorter part (1) towards the midpoint of the side, so the answer is 2 : 1.
+Source: NCERT Class 10 Mathematics
+
+136. The area of a trapezium is 180 cm² and the distance between its parallel sides is 12 cm. If one parallel side is 18 cm, the other is:
+(a) 12 cm (b) 10 cm (c) 14 cm (d) 16 cm
+Answer: (a)
+Solution: The tempting wrong option 14 cm comes from forgetting the factor ½ in the area formula. Area = ½ × (sum of parallel sides) × height, so 180 = ½ × (18 + x) × 12, giving 18 + x = 30 and x = 12, so the answer is 12 cm.
+Source: NCERT Class 8 Mathematics
+
+137. In a circle, two chords AB and CD intersect inside the circle at P. If AP = 4 cm, PB = 9 cm and CP = 6 cm, then PD is:
+(a) 5 cm (b) 6 cm (c) 7 cm (d) 8 cm
+Answer: (b)
+Solution: The trap is adding or subtracting the segments instead of using the intersecting chords property. By that property, AP × PB = CP × PD, so 4 × 9 = 6 × PD, giving PD = 36/6 = 6, so the answer is 6 cm.
+Source: NCERT Class 9 Mathematics
+
+138. The angle subtended by an arc at the centre of a circle is 100°. The angle subtended by the same arc at any point on the remaining part of the circle is:
+(a) 100° (b) 200° (c) 50° (d) 25°
+Answer: (c)
+Solution: The tempting wrong option 100° assumes the angles are equal, but the angle at the centre is double the angle at the circumference standing on the same arc. Hence the required angle = 100°/2 = 50°, so the answer is 50°.
+Source: NCERT Class 9 Mathematics
+
+139. A ladder 25 m long leans against a wall with its foot 7 m from the wall. The height reached on the wall is:
+(a) 20 m (b) 24 m (c) 18 m (d) 26 m
+Answer: (b)
+Solution: The trap is computing 25 − 7 = 18 instead of applying Pythagoras. Height = √(25² − 7²) = √(625 − 49) = √576 = 24, so the answer is 24 m.
+Source: NCERT Class 10 Mathematics
+
+140. The ratio of the areas of two similar triangles is 16 : 25. The ratio of their corresponding sides is:
+(a) 16 : 25 (b) 4 : 5 (c) 8 : 12.5 (d) 256 : 625
+Answer: (b)
+Solution: The tempting wrong option 16 : 25 forgets that areas scale as the square of sides. Ratio of sides = √(16 : 25) = 4 : 5, so the answer is 4 : 5.
+Source: NCERT Class 10 Mathematics
+
+141. In triangle ABC, D and E are points on AB and AC such that DE is parallel to BC. If AD = 3 cm, DB = 6 cm and AE = 4 cm, then EC is:
+(a) 8 cm (b) 6 cm (c) 10 cm (d) 12 cm
+Answer: (a)
+Solution: The trap is using AD : AB instead of AD : DB in the proportion. By the Basic Proportionality Theorem, AD/DB = AE/EC, so 3/6 = 4/EC, giving EC = 8, so the answer is 8 cm.
+Source: NCERT Class 10 Mathematics
+
+142. The sum of interior angles of a polygon is 1980°. The number of sides is:
+(a) 11 (b) 12 (c) 14 (d) 13
+Answer: (d)
+Solution: The tempting wrong option 11 comes from dividing 1980 by 180 and forgetting to add 2. Sum = (n − 2) × 180° = 1980°, so n − 2 = 11 and n = 13, so the answer is 13.
+Source: NCERT Class 8 Mathematics
+
+143. A sector of a circle of radius 14 cm has a central angle of 90°. Its area is (take π = 22/7):
+(a) 77 cm² (b) 616 cm² (c) 308 cm² (d) 154 cm²
+Answer: (d)
+Solution: The trap is computing the full circle area πr² = 616 cm² and forgetting the 90°/360° factor. Sector area = (90/360) × (22/7) × 14 × 14 = ¼ × 616 = 154, so the answer is 154 cm².
+Source: NCERT Class 10 Mathematics
+
+144. The inradius of a right-angled triangle with legs 6 cm and 8 cm is:
+(a) 1 cm (b) 3 cm (c) 2 cm (d) 4 cm
+Answer: (c)
+Solution: The tempting wrong option 3 cm comes from halving a leg instead of using r = (a + b − c)/2 for right triangles. Hypotenuse = √(36 + 64) = 10, so r = (6 + 8 − 10)/2 = 2, so the answer is 2 cm.
+Source: NCERT Class 10 Mathematics
+
+145. ABCD is a cyclic quadrilateral. If angle A = 75°, then angle C is:
+(a) 75° (b) 115° (c) 105° (d) 95°
+Answer: (c)
+Solution: The trap is taking opposite angles as equal, which is true for a parallelogram, not a cyclic quadrilateral. Opposite angles of a cyclic quadrilateral are supplementary, so angle C = 180° − 75° = 105°, so the answer is 105°.
+Source: NCERT Class 9 Mathematics
+
+146. The area of a rhombus is 240 cm² and one diagonal is 16 cm. The other diagonal is:
+(a) 15 cm (b) 24 cm (c) 20 cm (d) 30 cm
+Answer: (d)
+Solution: The tempting wrong option 15 cm comes from using area = product of diagonals without the factor ½. Area = ½ × d1 × d2, so 240 = ½ × 16 × d2, giving d2 = 30, so the answer is 30 cm.
+Source: NCERT Class 8 Mathematics
+
+147. From an external point P, two tangents PA and PB are drawn to a circle. If angle APB = 60°, then angle AOB (O being the centre) is:
+(a) 60° (b) 90° (c) 150° (d) 120°
+Answer: (d)
+Solution: The trap is taking angle AOB equal to angle APB. Since radius is perpendicular to tangent, angles OAP and OBP are 90° each, so in quadrilateral OAPB, angle AOB = 360° − 90° − 90° − 60° = 120°, so the answer is 120°.
+Source: NCERT Class 10 Mathematics
+
+148. The sides of a triangle are 13 cm, 14 cm and 15 cm. Its area is:
+(a) 90 cm² (b) 96 cm² (c) 72 cm² (d) 84 cm²
+Answer: (d)
+Solution: The tempting wrong option 96 cm² comes from an arithmetic slip in Heron's formula. Semi-perimeter s = 21, so area = √(21 × 8 × 7 × 6) = √7056 = 84, so the answer is 84 cm².
+Source: NCERT Class 9 Mathematics
+
+149. In triangle ABC, the exterior angle at C is 130° and angle A = 55°. Then angle B is:
+(a) 65° (b) 75° (c) 70° (d) 85°
+Answer: (b)
+Solution: The trap is computing 130° − 55° incorrectly or using 180° − 130° = 50° as angle B directly. Exterior angle equals sum of the two interior opposite angles, so angle B = 130° − 55° = 75°, so the answer is 75°.
+Source: NCERT Class 9 Mathematics
+
+150. A wire bent into a square encloses an area of 484 cm². If the same wire is bent into a circle, the area enclosed is (take π = 22/7):
+(a) 462 cm² (b) 154 cm² (c) 308 cm² (d) 616 cm²
+Answer: (d)
+Solution: The trap is equating areas instead of perimeters. Side of square = √484 = 22 cm, so wire length = 88 cm. Then 2πr = 88 gives r = 14 cm, and circle area = (22/7) × 14 × 14 = 616, so the answer is 616 cm².
+Source: NCERT Class 10 Mathematics

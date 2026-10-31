@@ -1,0 +1,42 @@
+```mermaid
+graph TD
+    A["शब्द मूल<br>Word Roots & Morphology"] --> B["मूल अवधारणा"]
+    A --> C["प्रमुख ग्रीक-लैटिन मूल"]
+    A --> D["उपसर्ग<br>Prefix"]
+    A --> E["प्रत्यय<br>Suffix"]
+    A --> F["परीक्षक के जाल"]
+    A --> G["रणनीति"]
+
+    B --> B1["Root = शब्द की जड़<br>अर्थ का आधार"]
+    B --> B2["Prefix = आगे जुड़ता है<br>अर्थ बदलता है"]
+    B --> B3["Suffix = पीछे जुड़ता है<br>शब्द-वर्ग बदलता है"]
+    B --> B4["Morphology = शब्द-रचना का विज्ञान"]
+
+    C --> C1["dict = बोलना<br>predict, dictionary"]
+    C --> C2["port = ले जाना<br>transport, export"]
+    C --> C3["spect = देखना<br>inspect, spectator"]
+    C --> C4["bio = जीवन<br>biology, biography"]
+    C --> C5["geo = पृथ्वी<br>geography, geology"]
+    C --> C6["chron = समय<br>chronology, chronic"]
+    C --> C7["tele = दूर<br>telephone, television"]
+    C --> C8["scrib/scrip = लिखना<br>describe, manuscript"]
+
+    D --> D1["un-/dis-/in- = नकारात्मक<br>unhappy, disagree"]
+    D --> D2["re- = पुनः<br>rewrite, rebuild"]
+    D --> D3["pre-/post- = पहले/बाद<br>preview, postwar"]
+    D --> D4["mis- = गलत<br>misunderstand"]
+
+    E --> E1["-tion/-ment = संज्ञा<br>action, movement"]
+    E --> E2["-ful/-less = विशेषण<br>hopeful, hopeless"]
+    E --> E3["-ly = क्रिया-विशेषण<br>quickly"]
+    E --> E4["-er/-ist = कर्ता<br>teacher, artist"]
+
+    F --> F1["जाल 1: मिलते-जुलते मूल<br>aud (सुनना) vs vid (देखना)"]
+    F --> F2["जाल 2: लगभग-सही अर्थ<br>biography vs bibliography"]
+    F --> F3["जाल 3: Sound-Right शब्द<br>जो सुनने में सही लगे पर अर्थ गलत"]
+
+    G --> G1["अज्ञात शब्द = टुकड़ों में तोड़ो<br>Prefix + Root + Suffix"]
+    G --> G2["15 सेकंड: सीधा मूल-अर्थ प्रश्न"]
+    G --> G3["45 सेकंड: संदर्भ से अर्थ निकालना"]
+    G --> G4["Skip: मूल अज्ञात + संदर्भ से सुराग न मिले"]
+```

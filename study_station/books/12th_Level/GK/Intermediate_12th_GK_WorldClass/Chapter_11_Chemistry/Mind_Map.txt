@@ -1,0 +1,56 @@
+```mermaid
+graph TD
+    A["सामान्य रसायन<br>General Chemistry"] --> B["पदार्थ और उसकी अवस्थाएँ<br>Matter & Its States"]
+    A --> C["परमाणु संरचना<br>Atomic Structure"]
+    A --> D["आवर्त सारणी<br>Periodic Table"]
+    A --> E["रासायनिक बंध<br>Chemical Bonding"]
+    A --> F["अम्ल, क्षार, लवण<br>Acids, Bases & Salts"]
+    A --> G["धातु और अधातु<br>Metals & Non-metals"]
+    A --> H["रासायनिक अभिक्रियाएँ<br>Chemical Reactions"]
+    A --> I["दैनिक जीवन में रसायन<br>Chemistry in Daily Life"]
+    A --> J["परीक्षक के जाल<br>Examiner's Traps"]
+
+    B --> B1["ठोस, द्रव, गैस, प्लाज़्मा<br>Solid, Liquid, Gas, Plasma"]
+    B --> B2["मिश्रण: समांगी vs विषमांगी<br>Mixtures: Homogeneous vs Heterogeneous"]
+    B --> B3["तत्व, यौगिक, मिश्रण<br>Element, Compound, Mixture"]
+
+    C --> C1["प्रोटॉन, न्यूट्रॉन, इलेक्ट्रॉन<br>Proton, Neutron, Electron"]
+    C --> C2["परमाणु क्रमांक vs द्रव्यमान संख्या<br>Atomic No. vs Mass No."]
+    C --> C3["समस्थानिक, समभारिक, समन्यूट्रॉनिक<br>Isotopes, Isobars, Isotones"]
+    C --> C4["बोर मॉडल, इलेक्ट्रॉनिक विन्यास<br>Bohr Model, Electronic Config."]
+
+    D --> D1["मेंडेलीव vs आधुनिक आवर्त सारणी<br>Mendeleev vs Modern Table"]
+    D --> D2["18 समूह, 7 आवर्त<br>18 Groups, 7 Periods"]
+    D --> D3["s, p, d, f ब्लॉक<br>s, p, d, f Blocks"]
+    D --> D4["आवर्ती प्रवृत्तियाँ<br>Periodic Trends"]
+
+    E --> E1["आयनिक बंध<br>Ionic Bond"]
+    E --> E2["सहसंयोजक बंध<br>Covalent Bond"]
+    E --> E3["धात्विक बंध<br>Metallic Bond"]
+    E --> E4["हाइड्रोजन बंध<br>Hydrogen Bond"]
+
+    F --> F1["pH स्केल: 0–14<br>pH Scale: 0–14"]
+    F --> F2["सूचक: लिटमस, फिनॉफ्थैलीन<br>Indicators: Litmus, Phenolphthalein"]
+    F --> F3["महत्वपूर्ण लवण: बेकिंग सोडा, वाशिंग सोडा<br>Key Salts: Baking Soda, Washing Soda"]
+    F --> F4["उदासीनीकरण अभिक्रिया<br>Neutralisation Reaction"]
+
+    G --> G1["गैलियम, सीज़ियम: कम गलनांक<br>Ga, Cs: Low Melting Point"]
+    G --> G2["पारा: द्रव धातु<br>Mercury: Liquid Metal"]
+    G --> G3["मिश्र धातु: पीतल, कांसा, स्टील<br>Alloys: Brass, Bronze, Steel"]
+    G --> G4["संक्षारण और जंग<br>Corrosion & Rusting"]
+
+    H --> H1["संयोजन, वियोजन, विस्थापन<br>Combination, Decomposition, Displacement"]
+    H --> H2["ऑक्सीकरण और अपचयन<br>Oxidation & Reduction"]
+    H --> H3["उत्प्रेरक<br>Catalysts"]
+
+    I --> I1["उर्वरक: यूरिया, NPK<br>Fertilisers: Urea, NPK"]
+    I --> I2["पॉलिमर और प्लास्टिक<br>Polymers & Plastics"]
+    I --> I3["साबुन और अपमार्जक<br>Soaps & Detergents"]
+    I --> I4["औषधि: एंटासिड, एंटीबायोटिक<br>Drugs: Antacids, Antibiotics"]
+
+    J --> J1["जाल: समस्थानिक = समान प्रोटॉन, भिन्न न्यूट्रॉन<br>Trap: Isotopes = same p, different n"]
+    J --> J2["जाल: ब्रोमीन द्रव अधातु, पारा द्रव धातु<br>Trap: Bromine liquid non-metal, Hg liquid metal"]
+    J --> J3["जाल: pH 7 से कम = अम्लीय<br>Trap: pH below 7 = acidic"]
+    J --> J4["जाल: हीरा कार्बन का अपररूप<br>Trap: Diamond is allotrope of carbon"]
+    J --> J5["रणनीति: सूत्र-नाम जोड़े रटें<br>Strategy: Memorise formula-name pairs"]
+```

@@ -1,0 +1,53 @@
+```mermaid
+graph TD
+    A["सरलीकरण एवं सन्निकटन<br>Simplification & Approximation"] --> B["संक्रिया क्रम<br>Order of Operations"]
+    A --> C["भिन्न एवं दशमलव<br>Fractions & Decimals"]
+    A --> D["प्रतिशत आधारित<br>Percentage Based"]
+    A --> E["वर्ग, घन, वर्गमूल<br>Squares, Cubes, Roots"]
+    A --> F["सन्निकटन तकनीकें<br>Approximation Techniques"]
+    A --> G["श्रेणी एवं पैटर्न<br>Series & Patterns"]
+    A --> H["सूत्र-आधारित सरलीकरण<br>Identity-Based Simplification"]
+
+    B --> B1["BODMAS / PEMDAS<br>ब्रैकेट → घात → भाग → गुणा → जोड़ → घटाव"]
+    B --> B2["ब्रैकेट का क्रम<br>Bar → ( ) → { } → [ ]"]
+    B --> B3["'का' = गुणा<br>'of' = Multiplication"]
+    B --> B4["बायें से दायें नियम<br>Left to Right for × ÷ and + −"]
+
+    C --> C1["उचित / अनुचित भिन्न<br>Proper / Improper Fractions"]
+    C --> C2["मिश्र भिन्न<br>Mixed Fractions"]
+    C --> C3["दशमलव संक्रियाएँ<br>Decimal Operations"]
+    C --> C4["भिन्न ↔ दशमलव ↔ प्रतिशत<br>Conversion Table"]
+    C --> C5["LCM से भिन्न जोड़<br>Fraction Addition via LCM"]
+
+    D --> D1["x% of y = y% of x<br>अदला-बदली ट्रिक"]
+    D --> D2["प्रतिशत → भिन्न<br>12.5% = 1/8, 33.33...% = 1/3"]
+    D --> D3["आधार बदलाव<br>Base Change Concept"]
+
+    E --> E1["वर्ग याद करें 1–50<br>Memorize Squares 1–50"]
+    E --> E2["घन याद करें 1–20<br>Memorize Cubes 1–20"]
+    E --> E3["वर्गमूल अनुमान<br>√N Estimation by Pairing"]
+    E --> E4["घनमूल अनुमान<br>∛N by Unit Digit"]
+
+    F --> F1["राउंडिंग नियम<br>Rounding Rules"]
+    F --> F2["निकटतम 10/100 पर राउंड<br>Round to Nearest 10/100"]
+    F --> F3["तुच्छता सीमा<br>Error Tolerance ±5%"]
+    F --> F4["विकल्प-आधारित अनुमान<br>Option-Gap Based Guessing"]
+    F --> F5["डिजिटल रूट जाँच<br>Digital Root Verification"]
+
+    G --> G1["समांतर श्रेणी योग<br>AP Sum: n/2(a+l)"]
+    G --> G2["गुणोत्तर श्रेणी<br>GP Basics"]
+    G --> G3["1+2+…+n = n(n+1)/2<br>Natural Number Sums"]
+    G --> G4["वर्गों/घनों का योग<br>Sum of Squares/Cubes"]
+
+    H --> H1["(a+b)² = a²+2ab+b²"]
+    H --> H2["(a−b)² = a²−2ab+b²"]
+    H --> H3["a²−b² = (a+b)(a−b)<br>दो वर्गों का अंतर"]
+    H --> H4["(a+b)³, (a−b)³<br>घन सूत्र"]
+    H --> H5["a³±b³ फैक्टर<br>Sum/Difference of Cubes"]
+
+    A --> I["परीक्षा रणनीति<br>Exam Strategy"]
+    I --> I1["पहले विकल्प देखें<br>Check Options First"]
+    I --> I2["इकाई अंक ट्रिक<br>Unit Digit Elimination"]
+    I --> I3["15–45 सेकंड नियम<br>Time Management"]
+    I --> I4["सामान्य जाल<br>Sign Errors, BODMAS Traps"]
+```

@@ -1,0 +1,40 @@
+```mermaid
+graph TD
+    A["वाच्य (Voice)"] --> B["Active Voice<br>कर्ता + क्रिया + कर्म<br>राम ने आम खाया"]
+    A --> C["Passive Voice<br>कर्म + be + V3 + by + कर्ता<br>आम राम द्वारा खाया गया"]
+
+    B --> D["पहचान: Subject काम करता है"]
+    C --> E["पहचान: Subject पर काम होता है"]
+
+    A --> F["परिवर्तन के नियम"]
+    F --> F1["Object → Subject बनता है"]
+    F --> F2["Verb → be + V3 (tense के अनुसार)"]
+    F --> F3["Subject → by + object (या छोड़ दें)"]
+    F --> F4["Pronoun बदलें: I→me, He→him,<br>They→them, Who→Whom"]
+
+    A --> G["Tense-वार Passive रूप"]
+    G --> G1["Present Simple: is/am/are + V3"]
+    G --> G2["Past Simple: was/were + V3"]
+    G --> G3["Future Simple: will be + V3"]
+    G --> G4["Present Continuous: is/am/are + being + V3"]
+    G --> G5["Past Continuous: was/were + being + V3"]
+    G --> G6["Perfect Tenses: has/have/had + been + V3<br>और will have been + V3"]
+    G --> G7["Modals: modal + be + V3<br>can be done, should be done"]
+
+    A --> H["विशेष स्थितियाँ"]
+    H --> H1["Imperative: Let + object + be + V3<br>Open the door → Let the door be opened"]
+    H --> H2["Infinitive: to be + V3<br>He wants to be helped"]
+    H --> H3["Double Object: दोनों में से कोई भी<br>Subject बन सकता है"]
+    H --> H4["Preposition वाली क्रिया: by/with<br>में अंतर — cut with a knife"]
+
+    A --> I["परीक्षक के जाल"]
+    I --> I1["जाल 1: by + agent गलत pronoun<br>by he ❌ → by him ✅"]
+    I --> I2["जाल 2: V3 की जगह V2<br>was wrote ❌ → was written ✅"]
+    I --> I3["जाल 3: Intransitive verb का Passive नहीं<br>He was slept ❌"]
+    I --> I4["जाल 4: Continuous में 'being' भूलना"]
+
+    A --> J["रणनीति"]
+    J --> J1["15 सेकंड: सीधा tense-रूप पहचान"]
+    J --> J2["45 सेकंड: Imperative/Double Object/<br>Modals वाले प्रश्न"]
+    J --> J3["Skip: दोनों विकल्प सही लगें तो<br>object-subject क्रम दोबारा जाँचें"]
+```

@@ -1,0 +1,61 @@
+```mermaid
+graph TD
+    A["Direct & Indirect Speech<br>(Narration)"] --> B["Key Terms"]
+    A --> C["Core Changes"]
+    A --> D["Sentence Types"]
+    A --> E["Golden Rules"]
+    A --> F["Examiner's Traps"]
+    A --> G["Strategy"]
+
+    B --> B1["Reporting Verb<br>said, told, asked"]
+    B --> B2["Reported Speech<br>words inside quotes"]
+    B --> B3["Direct: He said, 'I am ill.'"]
+    B --> B4["Indirect: He said that<br>he was ill."]
+
+    C --> C1["Pronoun Change<br>S-O-N Rule"]
+    C --> C2["Tense Shift<br>one step back"]
+    C --> C3["Time & Place Words<br>now → then"]
+    C --> C4["Remove quotes, add connector<br>that / if / whether / to<br>as per sentence type"]
+
+    C1 --> C1A["S = Subject of reporting verb<br>1st person follows it"]
+    C1 --> C1B["O = Object<br>2nd person follows it"]
+    C1 --> C1C["N = No change<br>3rd person stays"]
+
+    C2 --> C2A["Present → Past<br>am/is → was"]
+    C2 --> C2B["Past → Past Perfect<br>went → had gone"]
+    C2 --> C2C["will → would<br>can → could, may → might"]
+    C2 --> C2D["No change: Universal truth<br>Past Perfect, could/should"]
+
+    C3 --> C3A["now→then, today→that day"]
+    C3 --> C3B["yesterday→the previous day<br>tomorrow→the next day"]
+    C3 --> C3C["here→there, this→that<br>ago→before"]
+
+    D --> D1["Assertive<br>said that / told + obj + that"]
+    D --> D2["Interrogative<br>asked + if/whether or Wh-word"]
+    D --> D3["Imperative<br>ordered/requested + to / not to"]
+    D --> D4["Exclamatory<br>exclaimed with joy/sorrow + that"]
+    D --> D5["Optative<br>wished/prayed + that"]
+
+    D2 --> D2A["Yes/No Q → if / whether<br>Wh-Q → keep Wh-word"]
+    D2 --> D2B["Question becomes statement<br>no question mark, no inversion"]
+
+    D3 --> D3A["Positive: verb + to + V1"]
+    D3 --> D3B["Negative: verb + not to + V1"]
+    D3 --> D3C["'Please' → requested"]
+
+    E --> E1["Reporting verb in present/future<br>→ tense does NOT change"]
+    E --> E2["Universal truth / habit<br>→ tense does NOT change"]
+    E --> E3["'said to' → 'told' before object"]
+    E --> E4["must → had to / must"]
+
+    F --> F1["Trap 1: Keeping question order<br>He asked where was I ❌<br>He asked where I was ✅"]
+    F --> F2["Trap 2: Changing tense of<br>universal truth ❌"]
+    F --> F3["Trap 3: 'said me' ❌<br>→ 'told me' ✅"]
+    F --> F4["Trap 4: Using 'that' after<br>if/whether or Wh-word ❌"]
+
+    G --> G1["Step 1: Identify sentence type"]
+    G --> G2["Step 2: Apply S-O-N pronoun rule"]
+    G --> G3["Step 3: Shift tense one step back"]
+    G --> G4["Step 4: Convert time/place words"]
+    G --> G5["15-sec: direct tense shift Qs<br>45-sec: mixed pronoun + tense Qs"]
+```

@@ -1,0 +1,149 @@
+26. If z = 3 + 4i, then |z|² equals
+(a) 7 (b) 5 (c) 25 (d) 12
+Answer: (c)
+Solution: The tempting wrong option 5 is |z|, not |z|². |z|² = 3² + 4² = 9 + 16 = 25, so the answer is 25.
+Source: NCERT Class 11 Mathematics
+
+27. The multiplicative inverse of 2 − 3i is
+(a) (2 − 3i)/13 (b) (2 + 3i)/13 (c) (2 + 3i)/5 (d) (3 + 2i)/13
+Answer: (b)
+Solution: The trap is dividing by |z| = √13 instead of |z|² = 13, or keeping the minus sign. Inverse = z̄/|z|² = (2 + 3i)/(4 + 9) = (2 + 3i)/13, so the answer is (2 + 3i)/13.
+Source: NCERT Class 11 Mathematics
+
+28. If z = (1 + i)/(1 − i), then z equals
+(a) −i (b) −1 (c) 1 (d) i
+Answer: (d)
+Solution: Multiplying numerator and denominator by (1 + i): (1 + i)²/((1)² + (1)²) = (1 + 2i + i²)/2 = 2i/2 = i. The trap is forgetting i² = −1 and getting (2 + 2i)/2 = 1 + i, which is not listed, so the answer is i.
+Source: NCERT Class 11 Mathematics
+
+29. The argument of z = −1 − i is
+(a) π/4 (b) −3π/4 (c) 3π/4 (d) −π/4
+Answer: (b)
+Solution: The point lies in the third quadrant. The trap is taking tan⁻¹(1) = π/4 directly, ignoring the quadrant. Principal argument = −π + π/4 = −3π/4, so the answer is −3π/4.
+Source: NCERT Class 11 Mathematics
+
+30. If |z − 2| = |z + 2|, then the locus of z is
+(a) a circle of radius 2 (b) a parabola (c) the real axis (d) the imaginary axis
+Answer: (d)
+Solution: The condition says z is equidistant from 2 and −2, so the locus is the perpendicular bisector of the segment joining them, i.e., the y-axis (imaginary axis). The trap is assuming equal moduli always give a circle, so the answer is the imaginary axis.
+Source: NCERT Class 11 Mathematics
+
+31. The value of i¹⁰³ is
+(a) i (b) 1 (c) −i (d) −1
+Answer: (c)
+Solution: Divide 103 by 4: remainder 3, so i¹⁰³ = i³ = −i. The trap is using remainder 1 (miscounting 100 as divisible by 4 wrongly) and answering i, so the answer is −i.
+Source: NCERT Class 11 Mathematics
+
+32. If z = 1 + i√3, then arg(z) is
+(a) π/6 (b) π/3 (c) 2π/3 (d) 5π/3
+Answer: (b)
+Solution: z lies in the first quadrant with tan θ = √3/1 = √3, giving θ = π/3. The trap is confusing tan θ = √3 with π/6 (which corresponds to tan θ = 1/√3), so the answer is π/3.
+Source: NCERT Class 11 Mathematics
+
+33. The modulus of (3 − 4i)(1 + i) is
+(a) 5 (b) 5√2 (c) 10 (d) √50/2
+Answer: (b)
+Solution: Use |z₁z₂| = |z₁||z₂| = √(9 + 16)·√(1 + 1) = 5√2. The trap is multiplying first and making an arithmetic slip, or forgetting the √2 factor and answering 5, so the answer is 5√2.
+Source: NCERT Class 11 Mathematics
+
+34. If z + z̄ = 8 and z − z̄ = 6i, then z equals
+(a) 4 + 3i (b) 4 − 3i (c) 8 + 6i (d) 3 + 4i
+Answer: (a)
+Solution: Adding the equations: 2z = 8 + 6i, so z = 4 + 3i. The trap is subtracting instead of adding and getting the sign of the imaginary part wrong, so the answer is 4 + 3i.
+Source: NCERT Class 11 Mathematics
+
+35. The polar form of z = −√3 + i is
+(a) 2(cos 5π/6 + i sin 5π/6) (b) 2(cos π/6 + i sin π/6) (c) 2(cos 2π/3 + i sin 2π/3) (d) 4(cos 5π/6 + i sin 5π/6)
+Answer: (a)
+Solution: |z| = √(3 + 1) = 2. The point is in the second quadrant with reference angle π/6, so arg = π − π/6 = 5π/6. The trap is ignoring the quadrant and writing π/6, so the answer is 2(cos 5π/6 + i sin 5π/6).
+Source: NCERT Class 11 Mathematics
+
+36. If ω is a complex cube root of unity, then 1 + ω + ω² equals
+(a) 1 (b) ω (c) 0 (d) −1
+Answer: (c)
+Solution: The cube roots of unity satisfy x³ − 1 = 0, i.e., (x − 1)(x² + x + 1) = 0, so 1 + ω + ω² = 0. The trap is assuming the sum equals 1 like a real root, so the answer is 0.
+Source: NCERT Class 11 Mathematics
+
+37. If ω is a complex cube root of unity, then ω³⁰ equals
+(a) 1 (b) ω² (c) ω (d) −1
+Answer: (a)
+Solution: Since ω³ = 1, ω³⁰ = (ω³)¹⁰ = 1. The trap is reducing 30 mod 3 incorrectly and answering ω, so the answer is 1.
+Source: NCERT Class 11 Mathematics
+
+38. The real part of (2 + 3i)² is
+(a) 13 (b) 4 (c) 12 (d) −5
+Answer: (d)
+Solution: (2 + 3i)² = 4 + 12i + 9i² = 4 + 12i − 9 = −5 + 12i. The trap is forgetting i² = −1 and reporting 13 as the real part, so the answer is −5.
+Source: NCERT Class 11 Mathematics
+
+39. If |z| = 5, then the locus of w = 2z is
+(a) a circle of radius 5 (b) a circle of radius 10 (c) a circle of radius 25 (d) a circle of radius 7
+Answer: (b)
+Solution: |w| = |2z| = 2|z| = 10, so w moves on a circle of radius 10 centred at the origin. The trap is squaring the radius to 25, confusing |z|² with scaling, so the answer is a circle of radius 10.
+Source: NCERT Class 11 Mathematics
+
+40. The value of (1 + i)⁴ is
+(a) 4 (b) 4i (c) −4 (d) −4i
+Answer: (c)
+Solution: (1 + i)² = 2i, so (1 + i)⁴ = (2i)² = −4. The trap is writing (2i)² = 4i² = 4 by dropping the minus from i², so the answer is −4.
+Source: NCERT Class 11 Mathematics
+
+41. If z₁ = 2 + 3i and z₂ = 1 − i, then z₁/z₂ equals
+(a) (−1 − 5i)/2 (b) (5 + i)/2 (c) (−1 + 5i)/2 (d) (1 + 5i)/2
+Answer: (c)
+Solution: Multiply numerator and denominator by (1 + i): numerator = (2 + 3i)(1 + i) = 2 + 2i + 3i + 3i² = −1 + 5i; denominator = 2. The trap is a sign slip giving (5 + i)/2, so the answer is (−1 + 5i)/2.
+Source: NCERT Class 11 Mathematics
+
+42. The conjugate of (1 − i)³ is
+(a) −2 − 2i (b) −2 + 2i (c) 2 + 2i (d) 2 − 2i
+Answer: (b)
+Solution: (1 − i)² = −2i, so (1 − i)³ = −2i(1 − i) = −2i + 2i² = −2 − 2i. Its conjugate is −2 + 2i. The trap is conjugating before cubing and mishandling signs, so the answer is −2 + 2i.
+Source: NCERT Class 11 Mathematics
+
+43. If z = x + iy satisfies z² = 8 − 6i, then x² − y² equals
+(a) 10 (b) −6 (c) 8 (d) 6
+Answer: (c)
+Solution: z² = (x² − y²) + 2xyi, so comparing real parts gives x² − y² = 8. The trap is comparing with the imaginary part −6, so the answer is 8.
+Source: NCERT Class 11 Mathematics
+
+44. The number of solutions of z² + |z| = 0, where z is complex, is
+(a) 3 (b) 2 (c) 1 (d) 4
+Answer: (a)
+Solution: Let z = x + iy. Then z² = −|z| is real and non-positive, so z is purely imaginary or zero. z = 0 works. For z = iy: −y² + |y| = 0 gives |y| = 1, i.e., z = ±i. Total 3 solutions. The trap is finding only z = 0, so the answer is 3.
+Source: PYQ-style
+
+45. If |z − 3i| = 3, then the maximum value of |z| is
+(a) 6 (b) 3 (c) 9 (d) 3√2
+Answer: (a)
+Solution: z lies on a circle centred at 3i with radius 3. Maximum distance from origin = distance of centre from origin + radius = 3 + 3 = 6. The trap is answering just the radius 3, so the answer is 6.
+Source: PYQ-style
+
+46. The value of (1 + i)¹⁰ + (1 − i)¹⁰ is
+(a) 32 (b) 64 (c) −64 (d) 0
+Answer: (d)
+Solution: (1 + i)² = 2i, so (1 + i)¹⁰ = (2i)⁵ = 32i. Similarly (1 − i)¹⁰ = (−2i)⁵ = −32i. Sum = 0. The trap is adding magnitudes and getting 64, so the answer is 0.
+Source: PYQ-style
+
+47. If z = cos θ + i sin θ, then zⁿ + 1/zⁿ equals
+(a) 2i sin nθ (b) 2 sin nθ (c) cos nθ (d) 2 cos nθ
+Answer: (d)
+Solution: By De Moivre's theorem, zⁿ = cos nθ + i sin nθ and 1/zⁿ = cos nθ − i sin nθ; adding gives 2 cos nθ. The trap is mixing up the sine formula (which applies to zⁿ − 1/zⁿ), so the answer is 2 cos nθ.
+Source: NCERT Class 11 Mathematics
+
+48. The imaginary part of 1/(3 + 4i) is
+(a) −4/25 (b) 3/25 (c) 4/25 (d) −3/25
+Answer: (a)
+Solution: 1/(3 + 4i) = (3 − 4i)/25, so the imaginary part is −4/25. The trap is dropping the negative sign from the conjugate and answering 4/25, so the answer is −4/25.
+Source: NCERT Class 11 Mathematics
+
+49. If the points z₁, z₂, z₃ in the Argand plane satisfy z₁ + z₂ + z₃ = 0 and |z₁| = |z₂| = |z₃| = 1, then the triangle formed is
+(a) right-angled (b) scalene (c) isosceles but not equilateral (d) equilateral
+Answer: (d)
+Solution: Points on the unit circle whose sum (centroid) is the origin have coinciding centroid and circumcentre, which forces the triangle to be equilateral. The trap is assuming any three points on a circle form a right triangle, so the answer is equilateral.
+Source: PYQ-style
+
+50. The least positive integer n for which ((1 + i)/(1 − i))ⁿ = 1 is
+(a) 4 (b) 2 (c) 6 (d) 8
+Answer: (a)
+Solution: (1 + i)/(1 − i) = i, so we need iⁿ = 1, whose least positive solution is n = 4. The trap is stopping at n = 2, where i² = −1 ≠ 1, so the answer is 4.
+Source: NCERT Class 11 Mathematics

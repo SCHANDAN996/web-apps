@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %}{{ tr('privacy_title') }} — {{ tr('brand') }}{% endblock %}
+{% block main %}
+<article class="stack" style="max-width:760px;margin:auto;overflow-wrap:anywhere"><h1>{{ tr('privacy_title') }}</h1><p>{{ tr('privacy_intro') }}</p>
+<section class="card stack"><h2>{{ tr('privacy_account_title') }}</h2><p>{{ tr('privacy_account') }}</p></section>
+<section class="card stack"><h2>{{ tr('privacy_learning_title') }}</h2><p>{{ tr('privacy_learning') }}</p></section>
+<section class="card stack"><h2>{{ tr('privacy_drive_title') }}</h2><p>{{ tr('privacy_drive') }}</p></section>
+<section class="card stack"><h2>{{ tr('privacy_membership_title') }}</h2><p>{{ tr('privacy_membership') }}</p></section>
+<section class="card stack"><h2>{{ tr('privacy_payment_title') }}</h2><p>{{ tr('privacy_payment') }}</p></section>
+<section class="card stack"><h2>{{ tr('privacy_external_title') }}</h2><p>{{ tr('privacy_external') }}</p></section>
+<section class="card stack"><h2>{{ tr('privacy_control_title') }}</h2><p>{{ tr('privacy_control') }}</p></section>
+<section class="card stack"><h2>{{ tr('privacy_contact_title') }}</h2><p>{{ tr('privacy_contact') }}</p><a class="tap-link" href="mailto:all.chandansingh@gmail.com">all.chandansingh@gmail.com</a></section>
+<a class="btn btn-secondary" href="/delete-account">{{ tr('deletion_title') }}</a></article>
+{% endblock %}

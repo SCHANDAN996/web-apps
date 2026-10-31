@@ -1,3 +1,149 @@
-# Chapter: Trigonometry, Level: intermediate, Set: 4/6
+76. If sin θ = 3/5 and θ is acute, then the value of cos θ is
+(a) 3/4 (b) 5/4 (c) 4/5 (d) 4/3
+Answer: (c)
+Solution: The tempting wrong option 3/4 comes from wrongly dividing the given numerator by the hypotenuse difference. Using sin²θ + cos²θ = 1, cos²θ = 1 − 9/25 = 16/25, so cos θ = 4/5 (positive since θ is acute). So the answer is 4/5.
+Source: NCERT Class 10 Mathematics
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Trigonometry. This is Set 4 (total 6 sets, 150 questions). Questions must be numbered 76 to 100. All 25 questions should be Medium. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+77. The value of tan 45° + cot 45° is
+(a) 1 (b) √2 (c) 2 (d) 0
+Answer: (c)
+Solution: The trap is thinking the two terms cancel to give 0, but both tan 45° and cot 45° equal 1. Hence the sum is 1 + 1 = 2. So the answer is 2.
+Source: NCERT Class 10 Mathematics
+
+78. If tan θ = 1, then the value of (sin θ + cos θ) is
+(a) √2 (b) 1 (c) 2 (d) 1/√2
+Answer: (a)
+Solution: The tempting wrong option 1 comes from assuming each of sin θ and cos θ is 1/2. Since tan θ = 1, θ = 45°, so sin θ = cos θ = 1/√2, and their sum is 2/√2 = √2. So the answer is √2.
+Source: NCERT Class 10 Mathematics
+
+79. The value of sin² 30° + cos² 60° is
+(a) 1/4 (b) 1 (c) 1/2 (d) 3/4
+Answer: (c)
+Solution: The trap is applying the identity sin²θ + cos²θ = 1 directly, but the angles here are different (30° and 60°), so the identity does not apply. sin 30° = 1/2 and cos 60° = 1/2, giving 1/4 + 1/4 = 1/2. So the answer is 1/2.
+Source: NCERT Class 10 Mathematics
+
+80. If 2 sin θ = √3, then θ equals
+(a) 60° (b) 45° (c) 30° (d) 90°
+Answer: (a)
+Solution: The tempting wrong option 30° comes from confusing sin with cos, since cos 30° = √3/2. Here sin θ = √3/2, which occurs at θ = 60°. So the answer is 60°.
+Source: NCERT Class 10 Mathematics
+
+81. The value of (1 + tan² 45°) is
+(a) 1 (b) 2 (c) √2 (d) 4
+Answer: (b)
+Solution: The trap is using the identity 1 + tan²θ = sec²θ and then misreading sec 45° as 1. Actually sec 45° = √2, so sec² 45° = 2; directly, tan 45° = 1 gives 1 + 1 = 2. So the answer is 2.
+Source: NCERT Class 10 Mathematics
+
+82. If cos θ = 1/2 and θ is acute, then the value of tan θ is
+(a) 1/√3 (b) √3 (c) 1 (d) 2
+Answer: (b)
+Solution: The tempting wrong option 1/√3 comes from taking θ = 30°, but cos 30° = √3/2, not 1/2. Since cos θ = 1/2, θ = 60°, and tan 60° = √3. So the answer is √3.
+Source: NCERT Class 10 Mathematics
+
+83. The value of sin 60° · cos 30° + cos 60° · sin 30° is
+(a) 1 (b) √3/2 (c) 1/2 (d) 0
+Answer: (a)
+Solution: The trap is computing each product and forgetting one term, giving 3/4 or 1/4. This is sin(60° + 30°) = sin 90° = 1; directly, (√3/2)(√3/2) + (1/2)(1/2) = 3/4 + 1/4 = 1. So the answer is 1.
+Source: NCERT Class 11 Mathematics
+
+84. If sec θ = 2, then the value of tan θ (θ acute) is
+(a) 1 (b) √3 (c) 1/√3 (d) 2
+Answer: (b)
+Solution: The tempting wrong option 2 comes from confusing sec with tan. Since sec θ = 2, cos θ = 1/2, so θ = 60° and tan 60° = √3. So the answer is √3.
+Source: NCERT Class 10 Mathematics
+
+85. The value of cosec 30° − sec 60° is
+(a) 0 (b) 1 (c) 2 (d) 4
+Answer: (a)
+Solution: The trap is thinking the values differ because the angles differ. cosec 30° = 2 and sec 60° = 2, so the difference is 0. So the answer is 0.
+Source: NCERT Class 10 Mathematics
+
+86. If sin θ = cos θ, then the value of θ (acute) is
+(a) 30° (b) 45° (c) 60° (d) 90°
+Answer: (b)
+Solution: The tempting wrong option 30° comes from guessing a standard angle without checking. Dividing by cos θ gives tan θ = 1, so θ = 45°. So the answer is 45°.
+Source: NCERT Class 10 Mathematics
+
+87. The value of tan 30° × tan 60° is
+(a) 3 (b) √3 (c) 1/3 (d) 1
+Answer: (d)
+Solution: The trap is multiplying √3 by √3 to get 3, but tan 30° = 1/√3, not √3. Hence (1/√3)(√3) = 1. So the answer is 1.
+Source: NCERT Class 10 Mathematics
+
+88. If 3 cot θ = 3, then the value of (sin²θ + cos²θ) is
+(a) 1/2 (b) 2 (c) 1 (d) depends on θ
+Answer: (c)
+Solution: The tempting wrong option "depends on θ" ignores the fundamental identity. For every angle, sin²θ + cos²θ = 1, regardless of the value of θ. So the answer is 1.
+Source: NCERT Class 10 Mathematics
+
+89. The value of (sec² 60° − 1) is
+(a) 1 (b) 3 (c) 2 (d) 4
+Answer: (b)
+Solution: The trap is computing sec² 60° = 4 and forgetting to subtract 1. Using sec²θ − 1 = tan²θ, we get tan² 60° = (√3)² = 3. So the answer is 3.
+Source: NCERT Class 10 Mathematics
+
+90. If tan θ = 3/4, then the value of sin θ (θ acute) is
+(a) 3/5 (b) 4/5 (c) 3/4 (d) 5/3
+Answer: (a)
+Solution: The tempting wrong option 4/5 is actually cos θ, not sin θ. With opposite = 3 and adjacent = 4, the hypotenuse is √(9 + 16) = 5, so sin θ = 3/5. So the answer is 3/5.
+Source: NCERT Class 10 Mathematics
+
+91. The value of cos 1° · cos 2° · cos 3° … cos 90° is
+(a) 1 (b) 1/2 (c) 0 (d) √2/2
+Answer: (c)
+Solution: The trap is assuming the product of many small numbers is some positive fraction. Since cos 90° = 0 is one of the factors, the entire product is 0. So the answer is 0.
+Source: PYQ-style
+
+92. If sin A = 1/2 and cos B = 1/2 (A, B acute), then A + B equals
+(a) 60° (b) 90° (c) 120° (d) 30°
+Answer: (b)
+Solution: The tempting wrong option 60° comes from taking both angles as 30°. sin A = 1/2 gives A = 30°, but cos B = 1/2 gives B = 60°, so A + B = 90°. So the answer is 90°.
+Source: NCERT Class 10 Mathematics
+
+93. The value of (1 − sin² 45°) is
+(a) 1/2 (b) 1 (c) 1/4 (d) 3/4
+Answer: (a)
+Solution: The trap is computing sin 45° = 1/√2 and forgetting to square it, giving 1 − 1/√2. Since sin² 45° = 1/2, we get 1 − 1/2 = 1/2 (which equals cos² 45°). So the answer is 1/2.
+Source: NCERT Class 10 Mathematics
+
+94. If cosec θ = 2/√3, then θ (acute) equals
+(a) 30° (b) 45° (c) 90° (d) 60°
+Answer: (d)
+Solution: The tempting wrong option 30° comes from recalling cosec 30° = 2 and ignoring the √3 in the denominator. Here sin θ = √3/2, so θ = 60°. So the answer is 60°.
+Source: NCERT Class 10 Mathematics
+
+95. The value of tan² 60° − tan² 30° is
+(a) 1 (b) 2 (c) 3 (d) 8/3
+Answer: (d)
+Solution: The trap is subtracting the angles first or computing 3 − 1 = 2 by taking tan² 30° as 1. Actually tan² 60° = 3 and tan² 30° = 1/3, so the difference is 3 − 1/3 = 8/3. So the answer is 8/3.
+Source: NCERT Class 10 Mathematics
+
+96. If sin θ + cosec θ = 2, then the value of sin²θ + cosec²θ is
+(a) 0 (b) 4 (c) 1 (d) 2
+Answer: (d)
+Solution: The tempting wrong option 4 comes from squaring both terms of the sum directly. Squaring: sin²θ + cosec²θ + 2·sin θ·cosec θ = 4, and since sin θ·cosec θ = 1, we get sin²θ + cosec²θ = 4 − 2 = 2. So the answer is 2.
+Source: PYQ-style
+
+97. The value of sin 45° · cos 45° is
+(a) 1 (b) 1/√2 (c) 1/2 (d) 1/4
+Answer: (c)
+Solution: The trap is adding 1/√2 + 1/√2 instead of multiplying. The product is (1/√2)(1/√2) = 1/2. So the answer is 1/2.
+Source: NCERT Class 10 Mathematics
+
+98. If 5 tan θ = 4, then the value of (5 sin θ − 3 cos θ)/(5 sin θ + 2 cos θ) is
+(a) 2/3 (b) 5/6 (c) 1/3 (d) 1/6
+Answer: (d)
+Solution: The trap is substituting sin θ = 4 and cos θ = 5 directly without a hypotenuse. Divide numerator and denominator by cos θ: (5 tan θ − 3)/(5 tan θ + 2) = (4 − 3)/(4 + 2) = 1/6. So the answer is 1/6.
+Source: PYQ-style
+
+99. The value of (cos 60° + sin 30°)/(cos 30° + sin 60°) is
+(a) 1/√3 (b) 1 (c) √3 (d) 1/2
+Answer: (a)
+Solution: The tempting wrong option 1 comes from assuming numerator and denominator are equal. Numerator = 1/2 + 1/2 = 1; denominator = √3/2 + √3/2 = √3; so the ratio is 1/√3. So the answer is 1/√3.
+Source: NCERT Class 10 Mathematics
+
+100. If tan θ + cot θ = 2, then the value of tan²θ + cot²θ is
+(a) 4 (b) 0 (c) 1 (d) 2
+Answer: (d)
+Solution: The tempting wrong option 4 comes from squaring each term of the sum directly. Squaring: tan²θ + cot²θ + 2·tan θ·cot θ = 4, and since tan θ·cot θ = 1, we get tan²θ + cot²θ = 4 − 2 = 2. So the answer is 2.
+Source: PYQ-style

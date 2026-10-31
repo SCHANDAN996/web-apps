@@ -1,0 +1,151 @@
+Questions 76–95: Easy | Questions 96–100: Medium
+
+76. Three statements are given: "All engineers are graduates. Some graduates are artists. No artist is a doctor." Which of the following conclusions is definitely consistent with all three statements?
+(a) Some graduates are not doctors (b) Some engineers are doctors (c) All doctors are engineers (d) No graduate is an artist
+Answer: (a)
+Solution: The tempting wrong choice claims some engineers are doctors, but nothing links engineers to doctors, so it is not definitely consistent. Since some graduates are artists and no artist is a doctor, those graduate-artists cannot be doctors, so the answer is "Some graduates are not doctors".
+Source: PYQ-style
+
+77. Which set of statements is logically consistent (all can be true together)?
+(a) All men are mortal; Socrates is a man; Socrates is immortal (b) No fish can fly; All birds can fly; Some fish are birds (c) Some pens are red; All red things are blue; Some pens are blue (d) All cats are dogs; All dogs are animals; No cat is an animal
+Answer: (c)
+Solution: The other three sets each contain a direct contradiction: the second makes some fish both flyers and non-flyers, the third makes Socrates both mortal and immortal, and the fourth makes cats both animals and non-animals. Red pens being blue follows smoothly with no clash, so the answer is "Some pens are red; All red things are blue; Some pens are blue".
+Source: PYQ-style
+
+78. Given: "All A are B. No B is C." Which statement would be INCONSISTENT with these?
+(a) Some B are not C (b) No A is C (c) All C are not A (d) Some A are C
+Answer: (d)
+Solution: From the premises, every A is a B and no B is a C, so no A can be a C. The claim that some A are C directly contradicts this, so the answer is "Some A are C".
+Source: PYQ-style
+
+79. A detective notes: "If the door was locked, the thief entered through the window. The door was locked." Which conclusion is consistent?
+(a) The door was unlocked (b) The thief entered through the door (c) The thief entered through the window (d) The thief did not enter
+Answer: (c)
+Solution: This is a direct modus ponens: a locked door implies window entry, and the door was locked. The door-entry option contradicts the conditional chain, so the answer is "The thief entered through the window".
+Source: PYQ-style
+
+80. Which of the following pairs of statements are mutually inconsistent?
+(a) No student failed; Some students passed (b) All students passed; Some students failed (c) All students passed; All students studied (d) Some students passed; Some students failed
+Answer: (b)
+Solution: If all students passed, then none failed, which directly contradicts "some students failed". The other pairs can hold simultaneously, so the answer is "All students passed; Some students failed".
+Source: PYQ-style
+
+81. Statements: "Only politicians are liars. Ram is a liar." What must be true?
+(a) Ram is a politician (b) Ram is not a politician (c) Some politicians are not liars (d) All politicians are honest
+Answer: (a)
+Solution: "Only politicians are liars" means every liar is a politician — the trap is reading it as "all politicians are liars", which reverses the logic. Since Ram is a liar, Ram must be a politician, so the answer is "Ram is a politician".
+Source: PYQ-style
+
+82. Statements: "All teachers are readers. Some readers are writers." Which conclusion definitely follows?
+(a) Some teachers are writers (b) All writers are teachers (c) Some readers are teachers (d) No teacher is a writer
+Answer: (c)
+Solution: The trap is chaining the two premises to claim some teachers are writers, but the writers among readers need not be teachers. From "all teachers are readers" it directly follows that some readers are teachers, so the answer is "Some readers are teachers".
+Source: PYQ-style
+
+83. "No honest man is a thief. Some thieves are caught." Which is consistent with these?
+(a) Some honest men are caught (b) No thief is caught (c) All caught people are honest (d) Some caught people are not honest
+Answer: (d)
+Solution: The thieves who are caught cannot be honest, since no honest man is a thief. The trap is claiming all caught people are honest, which contradicts the existence of caught thieves, so the answer is "Some caught people are not honest".
+Source: PYQ-style
+
+84. Given "All B are C" and "Some A are B", which statement is definitely consistent?
+(a) Some A are C (b) No A is C (c) Some C are not A (d) All C are A
+Answer: (a)
+Solution: The A-members that are B must also be C, since all B are C. The claim that no A is C directly contradicts this, so the answer is "Some A are C".
+Source: PYQ-style
+
+85. Which of the following is a self-contradictory statement?
+(a) All triangles have three sides (b) Some bachelors are married (c) All squares are rectangles (d) Some students are tall
+Answer: (b)
+Solution: A bachelor is by definition an unmarried man, so claiming some bachelors are married violates the definition itself. The other statements are either true by definition or plainly possible, so the answer is "Some bachelors are married".
+Source: PYQ-style
+
+86. Statements: "If it rains, the match is cancelled. The match was not cancelled." What follows consistently?
+(a) It did not rain (b) It rained (c) The match was played in rain (d) Rain is unrelated to the match
+Answer: (a)
+Solution: This is modus tollens: rain would have cancelled the match; the match was not cancelled; therefore it did not rain. The trap is affirming the consequent, so the answer is "It did not rain".
+Source: PYQ-style
+
+87. "All that glitters is not gold." This statement is logically equivalent to:
+(a) Some things that glitter are not gold (b) Nothing that glitters is gold (c) All gold glitters (d) Some gold does not glitter
+Answer: (a)
+Solution: The classic trap is reading it as "nothing that glitters is gold", but the statement means not everything glittering is gold, i.e., at least some glittering things are not gold. So the answer is "Some things that glitter are not gold".
+Source: PYQ-style
+
+88. Given: "Some doctors are singers. All singers are dancers." Which is inconsistent with these?
+(a) Some doctors are dancers (b) Some dancers are doctors (c) Some singers are doctors (d) No doctor is a dancer
+Answer: (d)
+Solution: The doctor-singers must be dancers, so some doctors are definitely dancers. Claiming no doctor is a dancer contradicts this directly, so the answer is "No doctor is a dancer".
+Source: PYQ-style
+
+89. A witness says: "Either the butler or the cook is guilty. The butler is innocent." What is consistent?
+(a) The cook is guilty (b) The butler is guilty (c) Neither is guilty (d) Both are guilty
+Answer: (a)
+Solution: A disjunction with one disjunct eliminated forces the other. Since the butler is innocent, the cook must be guilty, so the answer is "The cook is guilty".
+Source: PYQ-style
+
+90. Which set is inconsistent?
+(a) All A are B; Some B are C; Some A are C (b) All A are B; No B is C; Some A are C (c) Some A are B; Some B are C; Some A are C (d) No A is B; No B is C; No A is C
+Answer: (b)
+Solution: In the second set, all A are B and no B is C together force that no A is C, which contradicts "some A are C". The other sets contain no forced contradiction, so the answer is "All A are B; No B is C; Some A are C".
+Source: PYQ-style
+
+91. "Unless you work hard, you will fail." You passed. What is consistent?
+(a) You did not work hard (b) Working hard guarantees passing (c) Passing is impossible (d) You worked hard
+Answer: (d)
+Solution: "Unless you work hard, you will fail" means failing is avoided only by hard work; since you passed, you must have worked hard. The trap is treating hard work as a guarantee rather than a necessity, so the answer is "You worked hard".
+Source: PYQ-style
+
+92. Statements: "No student who cheats passes honestly. Some students cheat." Which is consistent?
+(a) No student cheats (b) All students pass honestly (c) All cheaters pass honestly (d) Some students do not pass honestly
+Answer: (d)
+Solution: Since some students cheat and no cheater passes honestly, those cheating students do not pass honestly. The option claiming all students pass honestly contradicts this, so the answer is "Some students do not pass honestly".
+Source: PYQ-style
+
+93. Which of the following arguments is logically valid (conclusion consistent with premises)?
+(a) All dogs bark; Tommy barks; so Tommy is a dog (b) All dogs bark; Tommy is not a dog; so Tommy does not bark (c) All dogs bark; Tommy is a dog; so Tommy barks (d) Some dogs bark; Tommy is a dog; so Tommy barks
+Answer: (c)
+Solution: The tempting wrong choice infers Tommy is a dog from barking, which is the fallacy of affirming the consequent — other animals bark too. Only the second argument applies the universal rule to a member correctly, so the answer is "All dogs bark; Tommy is a dog; so Tommy barks".
+Source: PYQ-style
+
+94. Given "Some A are not B" and "All B are C", which conclusion is definitely consistent?
+(a) Some A are not C (b) Some A are C (c) No conclusion about A and C is definite (d) All A are C
+Answer: (c)
+Solution: The trap is assuming the A-members outside B must also be outside C, but C may extend beyond B, so those A-members could still be C. Neither link between A and C is forced, so the answer is "No conclusion about A and C is definite".
+Source: PYQ-style
+
+95. Statements: "All managers are employees. Some employees are part-time." Which conclusion definitely follows?
+(a) Some managers are part-time (b) Some employees are managers (c) All part-time workers are managers (d) No manager is an employee
+Answer: (b)
+Solution: The trap is chaining the premises to claim some managers are part-time, but the part-time employees need not be managers. From "all managers are employees" it directly follows that some employees are managers, so the answer is "Some employees are managers".
+Source: PYQ-style
+
+96. Statements: "If the alarm rings, everyone wakes. Some people did not wake." What follows?
+(a) Everyone woke (b) The alarm rang (c) The alarm did not ring (d) The alarm is broken
+Answer: (c)
+Solution: If the alarm had rung, everyone would have woken; since some people did not wake, the alarm cannot have rung — this is modus tollens. The broken-alarm option adds outside speculation not given in the premises, so the answer is "The alarm did not ring".
+Source: PYQ-style
+
+97. Which pair can both be true simultaneously?
+(a) All metals are solids; Mercury is a metal and a liquid (b) Some birds cannot fly; All birds can fly (c) No prime number is even; 2 is a prime number and even (d) Some students are tall; Some students are not tall
+Answer: (d)
+Solution: The other pairs each contain a direct clash: mercury contradicts the universal metal claim, the two bird claims oppose each other, and 2 refutes the prime claim. "Some students are tall" and "some students are not tall" can easily coexist, so the answer is "Some students are tall; Some students are not tall".
+Source: PYQ-style
+
+98. "No A is B. All C are B." Which is definitely consistent?
+(a) No C is A (b) All A are C (c) Some C are A (d) Some A are C
+Answer: (a)
+Solution: Since every C is a B and no A is a B, no C can be an A. The trap is assuming some overlap between A and C is possible, so the answer is "No C is A".
+Source: PYQ-style
+
+99. A code states: "Whoever is a member can vote. Asha cannot vote." What is consistent?
+(a) Membership is unrelated to voting (b) Asha is not a member (c) Asha voted illegally (d) Asha is a member
+Answer: (b)
+Solution: Membership guarantees voting ability; Asha cannot vote, so by the contrapositive she cannot be a member. The illegal-voting option invents facts not in the premises, so the answer is "Asha is not a member".
+Source: PYQ-style
+
+100. Statements: "All honest officers are respected. Some respected people are wealthy." Which conclusion is definitely consistent with both?
+(a) All wealthy people are honest officers (b) Some respected people are honest officers (c) No honest officer is wealthy (d) Some honest officers are wealthy
+Answer: (b)
+Solution: The tempting wrong choice links honest officers to wealth, but the premises never connect honesty to wealth — that is the examiner's trap of chaining two separate relations. From "all honest officers are respected" it directly follows that some respected people are honest officers, so the answer is "Some respected people are honest officers".
+Source: PYQ-style

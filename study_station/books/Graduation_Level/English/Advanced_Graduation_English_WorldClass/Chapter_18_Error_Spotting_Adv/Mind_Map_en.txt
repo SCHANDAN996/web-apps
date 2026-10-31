@@ -1,0 +1,43 @@
+```mermaid
+graph TD
+    A["Error Spotting<br>Advanced"] --> B["Core Concepts"]
+    A --> C["12 Golden Rules"]
+    A --> D["Examiner's Traps"]
+    A --> E["Strategies"]
+
+    B --> B1["Subject-Verb Agreement"]
+    B --> B2["Tense Consistency"]
+    B --> B3["Pronoun Reference"]
+    B --> B4["Modifiers<br>Misplaced / Dangling"]
+    B --> B5["Parallelism"]
+    B --> B6["Articles & Prepositions"]
+
+    C --> C1["Intervening phrases ignored<br>'The quality of apples WAS'"]
+    C --> C2["Collective nouns = singular"]
+    C --> C3["Each / Every / Neither = singular"]
+    C --> C4["One of + plural noun + singular verb"]
+    C --> C5["No sooner...than / Hardly...when"]
+    C --> C6["Since + point of time<br>For + period"]
+    C --> C7["Comparatives need 'than'"]
+    C --> C8["Gerund after preposition"]
+    C --> C9["Fewer vs Less"]
+    C --> C10["Who vs Whom"]
+    C --> C11["Neither...nor / Either...or<br>verb agrees with nearer subject"]
+    C --> C12["Unreal past: If I were"]
+
+    D --> D1["Intervening Phrase Trap<br>long phrase hides true subject"]
+    D --> D2["Collective Noun Trap<br>team / jury / committee"]
+    D --> D3["Sound-Right Trap<br>spoken English feels correct"]
+    D --> D4["Over-thinking Trap<br>correct sentence marked wrong"]
+    D --> D5["Hindi-Bridge Trap<br>'What you are doing?'"]
+
+    E --> E1["15-Second Rule<br>Fact-based: agreement, articles"]
+    E --> E2["45-Second Rule<br>Inference: modifier, tone, parallelism"]
+    E --> E3["Read whole sentence first"]
+    E --> E4["Find subject & verb first"]
+    E --> E5["Skip Strategy<br>flag hard ones, return later"]
+
+    D1 -.-> C1
+    D2 -.-> C2
+    D3 -.-> C3
+```

@@ -1,3 +1,149 @@
-# Chapter: Geometry, Level: intermediate, Set: 4/6
+76. In a triangle ABC, the angles are in the ratio 2 : 3 : 4. The smallest angle of the triangle is:
+(a) 30° (b) 60° (c) 45° (d) 40°
+Answer: (d)
+Solution: The tempting wrong option is 30°, which comes from wrongly dividing 180° by 6 parts and taking 1 part. The ratio has 2 + 3 + 4 = 9 parts, so each part is 180° ÷ 9 = 20°, and the smallest angle is 2 × 20° = 40°, so the answer is 40°.
+Source: NCERT Class 9 Mathematics
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Geometry. This is Set 4 (total 6 sets, 150 questions). Questions must be numbered 76 to 100. All 25 questions should be Medium. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+77. The supplement of an angle is four times its complement. The angle is:
+(a) 30° (b) 60° (c) 45° (d) 75°
+Answer: (b)
+Solution: Many students pick 45° by guessing, but checking fails: supplement 135° is not four times complement 45°. Let the angle be x; then 180° − x = 4(90° − x), giving 180° − x = 360° − 4x, so 3x = 180° and x = 60°, so the answer is 60°.
+Source: NCERT Class 9 Mathematics
+
+78. In triangle ABC, AB = AC and angle A = 80°. Then angle B equals:
+(a) 40° (b) 80° (c) 60° (d) 50°
+Answer: (d)
+Solution: The trap is 80°, chosen by those who forget the base angles are equal, not equal to the vertex angle. Since AB = AC, angles B and C are equal, and B + C = 180° − 80° = 100°, so each is 50°, so the answer is 50°.
+Source: NCERT Class 9 Mathematics
+
+79. The lengths of two sides of a triangle are 7 cm and 11 cm. The third side can be:
+(a) 10 cm (b) 4 cm (c) 18 cm (d) 3 cm
+Answer: (a)
+Solution: The trap is 4 cm, because 11 − 7 = 4 looks like a valid difference, but the third side must be strictly greater than the difference and strictly less than the sum. So the third side lies between 4 cm and 18 cm, exclusive, and only 10 cm fits, so the answer is 10 cm.
+Source: NCERT Class 9 Mathematics
+
+80. In a circle of radius 10 cm, a chord of length 16 cm is drawn. The distance of the chord from the centre is:
+(a) 6 cm (b) 4 cm (c) 8 cm (d) 5 cm
+Answer: (a)
+Solution: The tempting wrong option is 8 cm, which is just half the chord and ignores the radius. The perpendicular from the centre bisects the chord, giving a right triangle with hypotenuse 10 cm and one leg 8 cm; the other leg is √(100 − 64) = √36 = 6 cm, so the answer is 6 cm.
+Source: NCERT Class 10 Mathematics
+
+81. The angle subtended by an arc at the centre of a circle is 100°. The angle subtended by the same arc at any point on the remaining part of the circle is:
+(a) 100° (b) 50° (c) 200° (d) 25°
+Answer: (b)
+Solution: The trap is 200°, from doubling instead of halving. The angle at the centre is twice the angle at the circumference standing on the same arc, so the required angle is 100° ÷ 2 = 50°, so the answer is 50°.
+Source: NCERT Class 9 Mathematics
+
+82. In a cyclic quadrilateral ABCD, angle A = 75°. Then angle C equals:
+(a) 75° (b) 115° (c) 105° (d) 95°
+Answer: (c)
+Solution: The trap is 75°, from assuming opposite angles are equal as in a parallelogram. In a cyclic quadrilateral, opposite angles are supplementary, so angle C = 180° − 75° = 105°, so the answer is 105°.
+Source: NCERT Class 9 Mathematics
+
+83. The diagonals of a rhombus are 24 cm and 10 cm. The side of the rhombus is:
+(a) 17 cm (b) 13 cm (c) 12 cm (d) 26 cm
+Answer: (b)
+Solution: The trap is 17 cm, from using the full diagonals 24 and 10 in Pythagoras (√676 = 26 is then wrongly halved). Diagonals of a rhombus bisect each other at right angles, so the side is √(12² + 5²) = √169 = 13 cm, so the answer is 13 cm.
+Source: NCERT Class 9 Mathematics
+
+84. Two circles of radii 5 cm and 3 cm touch each other externally. The distance between their centres is:
+(a) 2 cm (b) 15 cm (c) 8 cm (d) 4 cm
+Answer: (c)
+Solution: The trap is 2 cm, which is the difference of radii and applies only when circles touch internally. For external contact, the distance between centres equals the sum of radii: 5 + 3 = 8 cm, so the answer is 8 cm.
+Source: NCERT Class 10 Mathematics
+
+85. From an external point P, a tangent PA of length 12 cm is drawn to a circle of radius 5 cm with centre O. Then OP equals:
+(a) 7 cm (b) 17 cm (c) 13 cm (d) 11 cm
+Answer: (c)
+Solution: The trap is 17 cm, from simply adding 12 and 5. The radius is perpendicular to the tangent at the point of contact, so triangle OAP is right-angled at A, and OP = √(12² + 5²) = √169 = 13 cm, so the answer is 13 cm.
+Source: NCERT Class 10 Mathematics
+
+86. The area of an equilateral triangle with side 8 cm is:
+(a) 16√3 cm² (b) 32√3 cm² (c) 8√3 cm² (d) 64√3 cm²
+Answer: (a)
+Solution: The trap is 32√3 cm², from forgetting the division by 4 in the formula. Area = (√3/4) × side² = (√3/4) × 64 = 16√3 cm², so the answer is 16√3 cm².
+Source: NCERT Class 9 Mathematics
+
+87. The perimeter of a semicircle of radius 7 cm is (take π = 22/7):
+(a) 22 cm (b) 36 cm (c) 44 cm (d) 29 cm
+Answer: (b)
+Solution: The trap is 22 cm, which is only the curved part πr and forgets the diameter. Perimeter of a semicircle = πr + 2r = 22 + 14 = 36 cm, so the answer is 36 cm.
+Source: NCERT Class 10 Mathematics
+
+88. In triangle ABC, D and E are midpoints of AB and AC respectively. If BC = 12 cm, then DE equals:
+(a) 6 cm (b) 4 cm (c) 8 cm (d) 3 cm
+Answer: (a)
+Solution: The trap is 4 cm, from dividing by 3 without reason. By the midpoint theorem, the segment joining the midpoints of two sides is parallel to the third side and half of it, so DE = 12 ÷ 2 = 6 cm, so the answer is 6 cm.
+Source: NCERT Class 9 Mathematics
+
+89. The angles of a quadrilateral are in the ratio 1 : 2 : 3 : 4. The largest angle is:
+(a) 120° (b) 108° (c) 144° (d) 160°
+Answer: (c)
+Solution: The trap is 160°, from dividing 360° by 9 and multiplying by 4 incorrectly as 40 × 4 = 160 with wrong part value. Sum of parts is 10, each part is 360° ÷ 10 = 36°, so the largest angle is 4 × 36° = 144°, so the answer is 144°.
+Source: NCERT Class 9 Mathematics
+
+90. Each interior angle of a regular polygon is 150°. The number of sides of the polygon is:
+(a) 10 (b) 8 (c) 15 (d) 12
+Answer: (d)
+Solution: The trap is 10, from using 360° ÷ 150° wrongly rounded. Each exterior angle is 180° − 150° = 30°, and the number of sides is 360° ÷ 30° = 12, so the answer is 12.
+Source: NCERT Class 8 Mathematics
+
+91. In triangle PQR, angle P = 50° and angle Q = 60°. The longest side of the triangle is:
+(a) PR (b) QR (c) PQ (d) Cannot be determined
+Answer: (c)
+Solution: The trap is QR, picked by assuming the side opposite the first-named angle is longest. Angle R = 180° − 110° = 70°, which is the largest angle, and the side opposite to it is PQ, so the answer is PQ.
+Source: NCERT Class 9 Mathematics
+
+92. The area of a trapezium whose parallel sides are 12 cm and 8 cm and the distance between them is 5 cm is:
+(a) 40 cm² (b) 100 cm² (c) 50 cm² (d) 60 cm²
+Answer: (c)
+Solution: The trap is 100 cm², from forgetting the factor of one-half. Area = (1/2) × (sum of parallel sides) × height = (1/2) × 20 × 5 = 50 cm², so the answer is 50 cm².
+Source: NCERT Class 8 Mathematics
+
+93. Two triangles are similar with corresponding sides in the ratio 3 : 5. The ratio of their areas is:
+(a) 3 : 5 (b) 27 : 125 (c) 5 : 3 (d) 9 : 25
+Answer: (d)
+Solution: The trap is 3 : 5, from assuming areas scale like sides. The ratio of areas of similar triangles equals the square of the ratio of corresponding sides, giving 9 : 25, so the answer is 9 : 25.
+Source: NCERT Class 10 Mathematics
+
+94. In a right-angled triangle, the hypotenuse is 13 cm and one leg is 5 cm. The area of the triangle is:
+(a) 30 cm² (b) 32.5 cm² (c) 60 cm² (d) 65 cm²
+Answer: (a)
+Solution: The trap is 32.5 cm², from using 13 and 5 directly as base and height, but 13 is the hypotenuse, not a leg. The other leg is √(169 − 25) = 12 cm, so area = (1/2) × 5 × 12 = 30 cm², so the answer is 30 cm².
+Source: NCERT Class 10 Mathematics
+
+95. AB and CD are two parallel chords of a circle on the same side of the centre. AB = 10 cm, CD = 24 cm, and the radius is 13 cm. The distance between the chords is:
+(a) 5 cm (b) 17 cm (c) 12 cm (d) 7 cm
+Answer: (d)
+Solution: The trap is 17 cm, from adding the two distances, which applies only when chords are on opposite sides of the centre. Distances from centre are √(169 − 25) = 12 cm and √(169 − 144) = 5 cm; on the same side, the gap is 12 − 5 = 7 cm, so the answer is 7 cm.
+Source: NCERT Class 9 Mathematics
+
+96. The length of the tangent drawn from a point 10 cm away from the centre of a circle of radius 6 cm is:
+(a) 4 cm (b) 8 cm (c) 16 cm (d) 7 cm
+Answer: (b)
+Solution: The trap is 4 cm, from subtracting 10 − 6. Tangent length = √(d² − r²) = √(100 − 36) = √64 = 8 cm, so the answer is 8 cm.
+Source: NCERT Class 10 Mathematics
+
+97. In triangle ABC, the bisectors of angles B and C meet at I. If angle A = 70°, then angle BIC equals:
+(a) 110° (b) 125° (c) 105° (d) 140°
+Answer: (b)
+Solution: The trap is 110°, from computing 180° − 70° directly. The standard result is angle BIC = 90° + (angle A)/2 = 90° + 35° = 125°, so the answer is 125°.
+Source: NCERT Class 9 Mathematics
+
+98. A ladder 25 m long leans against a wall with its foot 7 m from the wall. The height reached on the wall is:
+(a) 24 m (b) 18 m (c) 20 m (d) 26 m
+Answer: (a)
+Solution: The trap is 18 m, from subtracting 25 − 7. By Pythagoras, height = √(25² − 7²) = √(625 − 49) = √576 = 24 m, so the answer is 24 m.
+Source: NCERT Class 10 Mathematics
+
+99. The area of a rhombus is 120 cm² and one diagonal is 24 cm. The other diagonal is:
+(a) 10 cm (b) 5 cm (c) 12 cm (d) 20 cm
+Answer: (a)
+Solution: The trap is 5 cm, from computing 120 ÷ 24 and forgetting the factor of one-half in the formula. Area = (1/2) × d1 × d2, so d2 = (2 × 120) ÷ 24 = 10 cm, so the answer is 10 cm.
+Source: NCERT Class 8 Mathematics
+
+100. In the figure of a circle, O is the centre and angle OAB = 40°, where A and B are points on the circle. Then angle AOB equals:
+(a) 80° (b) 50° (c) 40° (d) 100°
+Answer: (d)
+Solution: The trap is 80°, from doubling 40° without noting that OA = OB are radii. Triangle OAB is isosceles, so angle OBA = 40° as well, and angle AOB = 180° − 80° = 100°, so the answer is 100°.
+Source: NCERT Class 9 Mathematics

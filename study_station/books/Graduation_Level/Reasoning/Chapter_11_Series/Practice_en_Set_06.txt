@@ -1,0 +1,151 @@
+प्रश्न 126–150: कठिन
+
+126. Find the missing term: 2, 3, 10, 39, 172, ?
+(a) 865 (b) 875 (c) 895 (d) 885
+Answer: (d)
+Solution: The tempting option 875 comes from assuming a constant multiplier of 5 at the last step, but the multipliers themselves grow. The pattern is multiply by n and add n²: 2×1+1=3, 3×2+4=10, 10×3+9=39, 39×4+16=172, 172×5+25=885, so the answer is 885.
+Source: PYQ-style
+
+127. Find the missing term: 4, 18, 48, 100, 180, ?
+(a) 284 (b) 300 (c) 296 (d) 294
+Answer: (d)
+Solution: The tempting option 284 comes from treating the differences (14, 30, 52, 80) as growing by a constant, but the third differences are constant at 6. Second differences: 16, 22, 28, so next is 34; next difference = 80+34=114, giving 180+114=294, so the answer is 294.
+Source: PYQ-style
+
+128. Find the missing term: 1, 4, 27, 256, ?
+(a) 4096 (b) 3025 (c) 3125 (d) 2401
+Answer: (c)
+Solution: The tempting option 4096 is 4⁶, a plausible-looking power, but the pattern is nⁿ: 1¹=1, 2²=4, 3³=27, 4⁴=256, 5⁵=3125, so the answer is 3125.
+Source: PYQ-style
+
+129. Find the wrong term: 4, 9, 19, 39, 78, 159
+(a) 9 (b) 19 (c) 159 (d) 78
+Answer: (d)
+Solution: The tempting option 159 looks suspicious as the largest jump, but 79×2+1=159 is correct. The rule is ×2+1 throughout: 4×2+1=9, 9×2+1=19, 19×2+1=39, 39×2+1=79 (not 78), 79×2+1=159, so the wrong term is 78.
+Source: PYQ-style
+
+130. Find the missing term: 6, 13, 28, 59, 122, ?
+(a) 253 (b) 249 (c) 245 (d) 251
+Answer: (b)
+Solution: The tempting option 251 comes from applying ×2+7 at the last step, but the added numbers grow by 1 each time. The pattern is ×2+1, ×2+2, ×2+3, ×2+4, ×2+5: 6×2+1=13, 13×2+2=28, 28×2+3=59, 59×2+4=122, 122×2+5=249, so the answer is 249.
+Source: PYQ-style
+
+131. Find the missing term: 2, 6, 21, 88, 445, ?
+(a) 2676 (b) 2666 (c) 2230 (d) 2680
+Answer: (a)
+Solution: The tempting option 2230 comes from simply multiplying 445 by 5, ignoring the growing multiplier and the added term. The pattern is ×2+2, ×3+3, ×4+4, ×5+5, ×6+6: 2×2+2=6, 6×3+3=21, 21×4+4=88, 88×5+5=445, 445×6+6=2676, so the answer is 2676.
+Source: PYQ-style
+
+132. Find the missing term: 17, 36, 74, 150, ?, 606
+(a) 302 (b) 300 (c) 298 (d) 304
+Answer: (a)
+Solution: The tempting option 300 is a round number that fits a rough doubling, but the exact rule is ×2+2: 17×2+2=36, 36×2+2=74, 74×2+2=150, 150×2+2=302, and the check 302×2+2=606 confirms it, so the answer is 302.
+Source: PYQ-style
+
+133. Find the missing term: 8, 24, 12, 36, 18, 54, ?
+(a) 24 (b) 27 (c) 36 (d) 48
+Answer: (b)
+Solution: The tempting option 36 merely repeats an earlier value, but the pattern alternates ×3 and ÷2: 8×3=24, 24÷2=12, 12×3=36, 36÷2=18, 18×3=54, 54÷2=27, so the answer is 27.
+Source: PYQ-style
+
+134. Find the wrong term: 6, 13, 27, 55, 110, 223
+(a) 110 (b) 13 (c) 27 (d) 223
+Answer: (a)
+Solution: The tempting option 223 looks odd as the biggest jump, but 111×2+1=223 is correct. The rule is ×2+1 throughout: 6×2+1=13, 13×2+1=27, 27×2+1=55, 55×2+1=111 (not 110), 111×2+1=223, so the wrong term is 110.
+Source: PYQ-style
+
+135. Find the missing term: 3, 12, 48, 384, ?, 92160
+(a) 4608 (b) 3072 (c) 6144 (d) 2304
+Answer: (a)
+Solution: The tempting option 3072 comes from multiplying 384 by 8, but the multipliers grow as 4, 4, 8, 12, 20 where each is the sum of the previous two after the first. So 3×4=12, 12×4=48, 48×8=384, 384×12=4608, and the check 4608×20=92160 confirms it, so the answer is 4608.
+Source: PYQ-style
+
+136. Find the missing term: 1, 2, 6, 15, 31, ?
+(a) 61 (b) 55 (c) 56 (d) 57
+Answer: (c)
+Solution: The tempting option 55 comes from stopping the square-addition one step early. The differences are consecutive squares: +1, +4, +9, +16, +25, giving 1+1=2, 2+4=6, 6+9=15, 15+16=31, 31+25=56, so the answer is 56.
+Source: PYQ-style
+
+137. Find the missing term: 2, 8, 26, 80, 242, ?
+(a) 726 (b) 724 (c) 730 (d) 728
+Answer: (d)
+Solution: The tempting option 726 is just 242×3, forgetting the added term. The pattern is ×3+2: 2×3+2=8, 8×3+2=26, 26×3+2=80, 80×3+2=242, 242×3+2=728, so the answer is 728.
+Source: PYQ-style
+
+138. Find the missing term: 7, 26, 63, 124, 215, ?
+(a) 342 (b) 340 (c) 344 (d) 336
+Answer: (a)
+Solution: The tempting option 340 is close to 343 but applies the wrong offset. The pattern is n³−1: 2³−1=7, 3³−1=26, 4³−1=63, 5³−1=124, 6³−1=215, 7³−1=342, so the answer is 342.
+Source: PYQ-style
+
+139. Find the wrong term: 2, 5, 11, 23, 48, 95
+(a) 23 (b) 11 (c) 48 (d) 5
+Answer: (c)
+Solution: The tempting option 23 looks like a big jump from 11, but 11×2+1=23 is correct. The rule is ×2+1: 2×2+1=5, 5×2+1=11, 11×2+1=23, 23×2+1=47 (not 48), 47×2+1=95, so the wrong term is 48.
+Source: PYQ-style
+
+140. Find the missing term: 11, 13, 17, 19, 23, 29, ?
+(a) 35 (b) 33 (c) 31 (d) 37
+Answer: (c)
+Solution: The tempting option 37 is also prime, but it skips the immediate next prime after 29. The series lists consecutive primes starting from 11, and the next prime after 29 is 31, so the answer is 31.
+Source: PYQ-style
+
+141. Find the missing term: 4, 9, 25, 49, 121, ?
+(a) 196 (b) 169 (c) 144 (d) 225
+Answer: (b)
+Solution: The tempting option 144 is 12², but the bases are consecutive primes, not consecutive integers. The series is squares of primes: 2²=4, 3²=9, 5²=25, 7²=49, 11²=121, 13²=169, so the answer is 169.
+Source: PYQ-style
+
+142. Find the missing term: 1, 1, 2, 3, 5, 8, 13, ?
+(a) 18 (b) 21 (c) 22 (d) 20
+Answer: (b)
+Solution: The tempting option 20 comes from computing 13+8−1, an unjustified adjustment. This is the Fibonacci series where each term is the sum of the previous two: 8+13=21, so the answer is 21.
+Source: PYQ-style
+
+143. Find the missing term: 100, 50, 52, 26, 28, 14, ?
+(a) 12 (b) 16 (c) 7 (d) 28
+Answer: (b)
+Solution: The tempting option 7 comes from halving 14, but the operations alternate ÷2 then +2: 100÷2=50, 50+2=52, 52÷2=26, 26+2=28, 28÷2=14, 14+2=16, so the answer is 16.
+Source: PYQ-style
+
+144. Find the missing term: 3, 10, 29, 66, 127, ?
+(a) 216 (b) 218 (c) 220 (d) 224
+Answer: (b)
+Solution: The tempting option 216 is exactly 6³, forgetting the +2 offset. The pattern is n³+2: 1³+2=3, 2³+2=10, 3³+2=29, 4³+2=66, 5³+2=127, 6³+2=218, so the answer is 218.
+Source: PYQ-style
+
+145. Find the wrong term: 1, 3, 6, 11, 18, 29, 43
+(a) 43 (b) 6 (c) 11 (d) 29
+Answer: (a)
+Solution: The tempting option 11 seems off because the jump from 6 is 5, but the differences are consecutive primes: +2, +3, +5, +7, +11, +13. Checking: 1+2=3, 3+3=6, 6+5=11, 11+7=18, 18+11=29, 29+13=42 (not 43), so the wrong term is 43.
+Source: PYQ-style
+
+146. Find the missing term: 5, 16, 49, 148, 445, ?
+(a) 1335 (b) 1330 (c) 1340 (d) 1336
+Answer: (d)
+Solution: The tempting option 1335 is just 445×3, ignoring the added term. The pattern is ×3+1 throughout: 5×3+1=16, 16×3+1=49, 49×3+1=148, 148×3+1=445, 445×3+1=1336, so the answer is 1336.
+Source: PYQ-style
+
+147. Find the missing term: 9, 27, 31, 155, 161, 1127, ?
+(a) 1133 (b) 2254 (c) 1135 (d) 1121
+Answer: (c)
+Solution: The tempting option 2254 doubles 1127, but the operations alternate between multiplying by a growing odd number and adding a growing even number: 9×3=27, 27+4=31, 31×5=155, 155+6=161, 161×7=1127, 1127+8=1135, so the answer is 1135.
+Source: PYQ-style
+
+148. Find the missing term: 2, 12, 36, 80, 150, ?
+(a) 250 (b) 240 (c) 256 (d) 252
+Answer: (d)
+Solution: The tempting option 250 is a round number near the true value, but the pattern is n²(n+1): 1²×2=2, 2²×3=12, 3²×4=36, 4²×5=80, 5²×6=150, 6²×7=252, so the answer is 252.
+Source: PYQ-style
+
+149. Find the wrong term: 8, 27, 64, 125, 216, 344
+(a) 344 (b) 125 (c) 216 (d) 27
+Answer: (a)
+Solution: The tempting option 216 looks suspicious only because it follows 125, but 6³=216 is correct. The series is consecutive cubes: 2³=8, 3³=27, 4³=64, 5³=125, 6³=216, 7³=343 (not 344), so the wrong term is 344.
+Source: PYQ-style
+
+150. Find the missing term: 13, 35, 57, 79, 911, ?
+(a) 1111 (b) 1011 (c) 1113 (d) 1315
+Answer: (c)
+Solution: The tempting option 1111 treats the terms as plain numbers, but each term is a concatenation of two consecutive odd numbers: 1|3, 3|5, 5|7, 7|9, 9|11, so the next term joins 11 and 13, so the answer is 1113.
+Source: PYQ-style

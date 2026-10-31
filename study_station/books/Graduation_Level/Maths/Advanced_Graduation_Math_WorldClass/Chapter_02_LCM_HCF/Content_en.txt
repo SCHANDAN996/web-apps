@@ -1,0 +1,195 @@
+# LCM & HCF — The Two Numbers That Run the World of Arithmetic
+
+## What You Will Master in This Chapter
+
+By the end of this chapter, you will be able to:
+
+1. Find the LCM and HCF of any set of numbers — by listing, prime factorisation, and division methods.
+2. Use the golden relation **LCM × HCF = Product of two numbers** to solve problems in seconds.
+3. Handle LCM and HCF of **fractions and decimals** — the favourite trap of CAT and IBPS PO Mains.
+4. Crack the classic "remainder" problems (same remainder, different remainders, bells ringing together).
+5. Apply LCM–HCF to real situations: tiles, bells, runners on a circular track, and gear wheels.
+6. Spot the examiner's traps before they trap you.
+
+---
+
+## The Hook: Two Buses, One Question
+
+Two buses leave a depot together at 6:00 AM. Bus A returns every 12 minutes, Bus B every 18 minutes. When will they stand at the depot together again?
+
+You could list times: 12, 24, 36… and 18, 36, 54… — and you'd find **36 minutes**. Congratulations, you just computed an LCM without knowing its name.
+
+Now flip it. A fruit seller has 48 apples and 60 oranges. He wants identical gift baskets, using every fruit, with nothing left over. What is the largest number of baskets he can make? The answer is the biggest number that divides both 48 and 60 — **12 baskets**. You just computed an HCF.
+
+That is the whole chapter in one breath:
+
+- **LCM answers: "When do things meet again?"** (multiples, cycles, repetition)
+- **HCF answers: "What is the biggest equal split?"** (division, grouping, sharing)
+
+Every advanced problem in this chapter is just one of these two questions wearing a disguise.
+
+---
+
+## Why Students Struggle (And Why You Won't)
+
+Most aspirants don't fail LCM–HCF because the maths is hard. They fail because:
+
+- They **confuse which one to use** — is this an LCM question or an HCF question?
+- They forget that the famous formula **LCM × HCF = a × b works only for TWO numbers**, not three.
+- They panic when fractions appear: "LCM of 2/3 and 4/5? Is that even a thing?" (It is — and it's easy.)
+- They misread remainder problems: "leaves remainder 3" vs. "is 3 short of dividing exactly."
+
+We will kill each of these fears, one chunk at a time.
+
+---
+
+## Chunk 1: The Foundations — Factors vs. Multiples
+
+**Factor:** A number that divides another exactly. Factors of 12: 1, 2, 3, 4, 6, 12. Factors are **small or equal** to the number. Every number has a **finite** number of factors.
+
+**Multiple:** What you get by multiplying. Multiples of 12: 12, 24, 36, 48… Multiples are **equal or larger**, and they go on **forever**.
+
+🧠 **Memory anchor:** **F**actor **F**its inside (small). **M**ultiple **M**ultiplies outward (big). "Factors Fall down, Multiples Mount up."
+
+**HCF (Highest Common Factor)** — also called **GCD (Greatest Common Divisor)**: the largest number that divides all given numbers exactly. HCF of 12 and 18 = 6.
+
+**LCM (Least Common Multiple):** the smallest number that all given numbers divide exactly. LCM of 12 and 18 = 36.
+
+🧠 **Active Recall:** Without looking back — (a) Is the HCF of two numbers always smaller than both? (b) Is the LCM always larger than both? (c) What if one number divides the other — what are the LCM and HCF then? *(Answers: (a) yes, or equal to the smaller one; (b) yes, or equal to the larger one; (c) HCF = smaller number, LCM = larger number.)*
+
+---
+
+## Chunk 2: Three Methods to Find Them
+
+### Method 1 — Prime Factorisation (the concept method)
+
+Break each number into primes.
+
+- 36 = 2² × 3²
+- 48 = 2⁴ × 3
+
+**HCF = take each COMMON prime with its LOWEST power** → 2² × 3 = **12**
+**LCM = take EVERY prime that appears, with its HIGHEST power** → 2⁴ × 3² = **144**
+
+🧠 **Mnemonic:** "**HCF is Humble — only Common, Lowest. LCM is Lavish — All primes, Largest power.**"
+
+### Method 2 — Division Method (the exam-speed method)
+
+For HCF of two numbers, use **Euclid's algorithm**: divide the larger by the smaller, then divide the divisor by the remainder, and repeat until the remainder is 0. The last non-zero divisor is the HCF.
+
+HCF of 48 and 36: 48 ÷ 36 → remainder 12; 36 ÷ 12 → remainder 0. **HCF = 12.** No factorisation needed — this works even for huge numbers like 1071 and 462 (HCF = 21).
+
+For LCM of several numbers, divide them together by common primes, carrying down undivided numbers, until only 1s remain; multiply all divisors.
+
+### Method 3 — The Golden Formula (two numbers only)
+
+> **LCM × HCF = Product of the two numbers**
+
+So if HCF(48, 36) = 12, then LCM = (48 × 36)/12 = **144**. This is the single most-used shortcut in SSC and Banking exams.
+
+⚠️ **Trap alert:** For three numbers, LCM × HCF ≠ product. The correct relation for three numbers involves pairwise HCFs — but exams rarely need it. Just remember: **the golden formula is a two-number formula.**
+
+🧠 **Active Recall:** Two numbers have HCF 8 and LCM 96. One number is 24. What is the other? *(Answer: 8 × 96 = 768; 768 ÷ 24 = 32.)*
+
+---
+
+## Chunk 3: LCM & HCF of Fractions and Decimals
+
+This is where CAT and IBPS PO Mains separate the prepared from the hopeful.
+
+> **LCM of fractions = LCM of numerators ÷ HCF of denominators**
+> **HCF of fractions = HCF of numerators ÷ LCM of denominators**
+
+🧠 **Mnemonic:** "**LCM wants to be BIG — big top, small bottom. HCF is the opposite.**" (LCM: L over H. HCF: H over L.)
+
+**Example:** LCM of 2/3 and 4/5 = LCM(2,4)/HCF(3,5) = 4/1 = **4**. Check: 4 ÷ (2/3) = 6 ✓, 4 ÷ (4/5) = 5 ✓. Both divide exactly.
+
+**Decimals:** Convert to like decimals (equal digits after the point), remove the decimal point, find LCM/HCF of the integers, then put the decimal point back.
+
+**Example:** HCF of 0.6 and 0.8 → 6 and 8 → HCF = 2 → put back one decimal → **0.2**.
+
+🧠 **Active Recall:** Find the HCF of 3/4 and 6/7. *(HCF(3,6)/LCM(4,7) = 3/28.)*
+
+---
+
+## Chunk 4: The Remainder Family — The Examiner's Favourite
+
+Four templates cover almost every remainder question ever asked. Learn to recognise them on sight.
+
+**Type 1 — "Greatest number that divides a, b, c leaving the SAME remainder r":**
+HCF of (a−r), (b−r), (c−r).
+*Example:* Greatest number dividing 110, 128, 146 leaving remainder 2 → HCF(108, 126, 144) = **18**.
+
+**Type 2 — "Greatest number that divides a, b, c leaving DIFFERENT remainders p, q, s":**
+HCF of (a−p), (b−q), (c−s).
+
+**Type 3 — "Smallest number which, when divided by a, b, c, leaves the SAME remainder r":**
+LCM(a, b, c) + r.
+*Example:* Smallest number leaving remainder 5 when divided by 12, 15, 20 → LCM = 60 → **65**.
+
+**Type 4 — "Smallest number which, when divided by a, b, c, leaves remainders that are each SHORT by the same amount k"** (i.e., divisor − remainder = k for all):
+LCM(a, b, c) − k.
+*Example:* Divided by 4, 5, 6 leaves remainders 1, 2, 3 — each is 3 short → LCM = 60 → **57**.
+
+🧠 **Mnemonic:** "**Same remainder? ADD it. Same shortage? SUBTRACT it. Same-remainder division? HCF the differences.**"
+
+🧠 **Active Recall:** The smallest number which when divided by 8, 12, and 15 leaves remainder 7 in each case? *(LCM = 120; 120 + 7 = 127.)*
+
+---
+
+## Chunk 5: The Two Classic Applications
+
+### Bells, Runners, Blinking Lights — "When do they meet again?"
+
+Bells toll at intervals of 4, 6, and 8 seconds. They toll together now; when next? **LCM(4, 6, 8) = 24 seconds.** Three runners circle a track in 60, 72, and 90 seconds — they meet at the start after **LCM = 360 seconds = 6 minutes**. Any "together again" question = LCM. No exceptions.
+
+### Tiles, Planks, Baskets — "Biggest equal piece?"
+
+A courtyard 24 m × 18 m must be paved with the **largest possible identical square tiles**. Side of tile = HCF(24, 18) = **6 m**; number of tiles = (24×18)/(6×6) = **12**. Any "largest equal division with nothing wasted" question = HCF.
+
+🧠 **The master decision rule:** Read the question and ask — *"Am I building UP to a meeting point (LCM), or cutting DOWN into equal parts (HCF)?"* This one question solves 90% of word problems.
+
+🧠 **Active Recall:** A room is 5.4 m × 4.5 m. Largest square tile size? *(HCF of 54 and 45 = 9 → 0.9 m.)*
+
+---
+
+## Chunk 6: Advanced Nuggets for Graduation-Level Exams
+
+1. **Co-prime numbers:** HCF = 1 (e.g., 8 and 15). For co-prime numbers, LCM = their product.
+2. **Ratio form:** If two numbers are in ratio a : b (with a, b co-prime) and HCF = h, the numbers are ah and bh, and LCM = abh. *Example:* Ratio 3:4, HCF 5 → numbers 15, 20; LCM = 60.
+3. **HCF is always a factor of LCM.** If a question gives HCF = 7 and LCM = 100, it's impossible — 7 doesn't divide 100. Use this to eliminate options instantly.
+4. **LCM of first n natural numbers** grows fast: LCM(1–5) = 60, LCM(1–10) = 2520. CAT loves 2520.
+5. **Sum of two numbers given with HCF and LCM:** express numbers as ha and hb (a, b co-prime), then use h(a+b) and hab to solve.
+
+---
+
+## Summary Table
+
+| Concept | Rule / Formula | Use When |
+|---|---|---|
+| HCF by primes | Common primes, lowest powers | Concept questions |
+| LCM by primes | All primes, highest powers | Concept questions |
+| Golden formula | LCM × HCF = a × b | Exactly TWO numbers |
+| LCM of fractions | LCM(num) / HCF(den) | Fractions, decimals |
+| HCF of fractions | HCF(num) / LCM(den) | Fractions, decimals |
+| Same remainder r (division) | HCF of (a−r, b−r, c−r) | "Greatest number that divides…" |
+| Same remainder r (multiple) | LCM + r | "Smallest number leaving remainder…" |
+| Same shortage k | LCM − k | Remainders equally short |
+| Meet again / together | LCM | Bells, runners, cycles |
+| Largest equal split | HCF | Tiles, baskets, planks |
+| Co-prime pair | HCF = 1, LCM = product | Quick checks |
+| Sanity check | HCF must divide LCM | Eliminate options |
+
+---
+
+## 🔁 Review This Chapter After 2 Days
+
+Close the book and answer from memory:
+
+1. What is the one-question test to decide LCM vs. HCF in a word problem?
+2. Why does LCM × HCF = product fail for three numbers?
+3. LCM of 3/4 and 5/6?
+4. Smallest number leaving remainder 4 when divided by 6, 8, 10?
+5. What is the fastest way to check whether a given HCF–LCM pair is even possible?
+
+If any answer hesitates, re-read that chunk — then attempt Practice Set 1.

@@ -1,0 +1,26 @@
+Key Rules/Approaches	Description	Example
+Same Direction Rule	When all face the same direction (e.g., all North), left/right is identical for everyone.	In a row facing North, A is to the left of B means A sits on the left side of B for everyone.
+Center-Facing Circle (Clock-L)	For people facing the centre, clockwise direction is their left.	A, B, C around a circle facing centre; B is immediate left of A if moving clockwise from A gives B.
+Outside-Facing Circle (Anti-Clock-R)	For people facing outside, clockwise direction is their right.	A, B, C facing outward; B is immediate right of A if moving clockwise from A gives B.
+Fix One in Circle	In circular arrangements, start by placing any one person arbitrarily to set a reference point.	Place "A" at the top seat, then arrange others relative to A.
+Certain vs. Relative Info	First use definite information (exact position, extreme ends), then apply relative clues (left/right, between).	"A sits third" is certain; "B is left of C" is relative.
+Extreme Ends in Row	Identify who sits at the corners/ends; these have only one neighbor, so they restrict possibilities.	"D is at one of the extreme ends" → put D at either position 1 or last.
+Block/Pair Technique	Treat "immediate left/right" or "adjacent" as a fixed block; keep the order and move them together.	"B is immediately right of C" → treat as (C, B) block.
+Gap/Gap Method	"n persons between A and B" means exactly n seats gap; check all possible positions from left and right.	"2 persons between A and B" in a row of 5 → A and B can be (1,4) or (2,5) etc.
+Opposite in Circle	In a circle with even number of persons, "opposite" means exactly halfway across (gap = (n/2)-1 persons between).	In a circle of 6, opposite person is 3 seats away clockwise or anti-clockwise.
+Mixed Facing (Arrows)	When some face North, some South, draw small arrows (↑ ↓) above each name; use each person's own left/right.	A(↑) left side is West; B(↓) left side is East; adjust relative positions accordingly.
+Mnemonic: Face to Face Left-Right Reverse	Two persons facing each other have opposite left/right perceptions.	A facing North, B facing South; if A says "B is my left", for B, A is on B's right.
+Negative Condition Handling	"Not adjacent", "not at extreme" – mark with ✗ and use to eliminate wrong branches.	"B is not neighbour of D" → cancel any arrangement where B and D sit next to each other.
+Branching & Elimination	When multiple possibilities arise, keep branches; apply next condition to each, discard impossible ones.	Two possible spots for a pair → try both, keep only those satisfying all later conditions.
+Verification after each step	After placing all elements, re-check every given condition to ensure no conflict.	Reread all statements and confirm they hold in your final diagram.
+
+Time Management
+
+Rule	Time Limit	Action
+15-Second Rule	15 seconds	If you cannot identify the type (row/circle) and key starting clue within 15 seconds, mark the question for review and skip to the next one.
+45-Second Rule	45 seconds	If you have started but the arrangement is not fully solved (still more than one possibility) after 45 seconds, skip immediately. Do not spend more than 45 sec per puzzle.
+Skip Strategy	-	Attempt only those puzzles where the skeleton is clear after reading the first two lines. Leave complex mixed-facing or double-relation puzzles for the end if time permits.
+Review after solving easy ones	-	Solve all "single certainty" puzzles first, then return to skipped ones with fresh eyes if time allows.
+
+Logical/Mathematical Formulas
+No formulas for this chapter.

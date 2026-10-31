@@ -1,987 +1,225 @@
-📊 PYQ Analysis: Geometry (Foundation Level) – Last 10 Years
+📊 PYQ Analysis: Geometry (Foundation Level)
 
-Geometry consistently contributes 3–5 questions in Tier-I and 8–10 questions in Tier-II of SSC CGL, with similar weightage in CHSL, CPO, and Banking/Railway exams. Over the last decade (2014–2024), analysis of more than 400 PYQs reveals a clear pattern: roughly 35% of questions come from Triangles and their centres, 25% from Circles (tangents, chords, cyclic quadrilaterals), 20% from Quadrilaterals and Polygons, and 20% from 3D Mensuration. The ten questions below are high-yield archetypes that repeat with minor numerical variations. Each is accompanied by the psychological "trap" that makes aspirants stumble despite knowing the formula.
+Geometry is a regular, dependable part of the Quantitative Aptitude section in SSC (CGL, CHSL, CPO), Banking, and Railway exams. Questions from this chapter follow a stable pattern: triangles and their centres, circles (tangents, chords, cyclic quadrilaterals), quadrilaterals and polygons, and basic 3D mensuration appear again and again, usually with only the numbers changed. The ten questions below are high-yield archetypes built on concepts from NCERT Class 9–10 Mathematics. Each is accompanied by the psychological "trap" that makes aspirants stumble despite knowing the formula.
 
-#	High‑Yield Topic	Frequency (Approx.)	Exam Appearances
-1	Tangent Length from External Point	⭐⭐⭐⭐⭐ (Very High)	SSC CGL 2015–2024
-2	Centroid & Area Partition	⭐⭐⭐⭐⭐ (Very High)	SSC CGL/CHSL
-3	Cyclic Quadrilateral	⭐⭐⭐⭐ (High)	SSC CGL 2016–2023
-4	Equilateral Triangle: Height/Area	⭐⭐⭐⭐ (High)	SSC CGL/CPO
-5	Parallel Chords & Circle Radius	⭐⭐⭐⭐ (High)	SSC CGL Tier‑II
-6	Direct Common Tangent (Two Circles)	⭐⭐⭐⭐ (High)	SSC CGL/CPO
-7	Chord Intersection (Circle)	⭐⭐⭐ (Moderate)	SSC CGL/CHSL
-8	Cone Volume: 1/3rd of Cylinder	⭐⭐⭐ (Moderate)	SSC CGL/Banking
-9	Polygon Angle Sum	⭐⭐⭐ (Moderate)	SSC CGL/CHSL
-10	Sphere/Cube Surface‑Volume Trap	⭐⭐⭐ (Moderate)	SSC/Banking/Railways
-Q1. Tangent Length from an External Point
+**How exams typically distribute Geometry questions (pattern, in words):**
+- Triangles and their centres (centroid, circumcentre, orthocentre, incentre) — asked most often.
+- Circles — tangent properties, chords, cyclic quadrilaterals — a close second.
+- Quadrilaterals and polygons — angle sums and ratio-based angle questions.
+- 3D mensuration — cone/cylinder/sphere/cube volume and surface-area relations.
 
-SSC CGL 2021 — A tangent is drawn to a circle of radius 6 cm from a point 10 cm from the centre. Find the length of the tangent.
+**High-yield sub-topics to master first:**
+1. Tangent length from an external point
+2. Centroid and area partition of a triangle
+3. Cyclic quadrilateral — opposite angles
+4. Equilateral triangle — height ↔ area conversion
+5. Parallel chords and the radius
+6. Direct common tangent of two circles
+7. Intersecting chords theorem
+8. Cone volume = one-third of a cylinder
+9. Polygon interior angle sum
+10. Sphere vs cube — equal surface area, unequal volume
+
+---
+
+**Q1. Tangent Length from an External Point**
+
+A tangent is drawn to a circle of radius 6 cm from a point 10 cm from the centre. Find the length of the tangent.
 
 Solution:
-Let
-𝑂
-O be the centre,
-𝑃
-P the external point, and
-𝑇
-T the point of tangency. Since
-𝑂
-𝑇
-⊥
-𝑃
-𝑇
-OT⊥PT,
-△
-𝑂
-𝑃
-𝑇
-△OPT is right‑angled.
+Let O be the centre, P the external point, and T the point of tangency. Since OT ⊥ PT, △OPT is right-angled.
 
-𝑃
-𝑇
-=
-𝑂
-𝑃
-2
-−
-𝑂
-𝑇
-2
-=
-10
-2
-−
-6
-2
-=
-100
-−
-36
-=
-64
-=
-8
- 
-cm
-PT=
-OP
-2
-−OT
-2
-	​
+PT = √(OP² − OT²) = √(10² − 6²) = √(100 − 36) = √64 = 8 cm
 
-=
-10
-2
-−6
-2
-	​
+Answer: 8 cm.
 
-=
-100−36
-	​
+🧠 Trap: Aspirants often add the numbers (10 + 6) or multiply, confusing tangent length with the distance from the external point to the farthest point on the circle. The right-angle property (radius ⊥ tangent) is the key.
 
-=
-64
-	​
+Source: NCERT Class 10 Mathematics (Circles)
 
-=8cm
+---
 
-Answer: 8 cm.
+**Q2. Centroid & Area Partition of a Triangle**
 
-🧠 Trap: Aspirants often add the numbers (10 + 6) or multiply, confusing tangent length with the distance from the external point to the farthest point on the circle. The right‑angle property is the key.
-
-Q2. Centroid & Area Partition of a Triangle
-
-SSC CGL 2019 — If G is the centroid of ΔABC and area of ΔABC = 48 cm², find the area of ΔBGC.
+If G is the centroid of ΔABC and area of ΔABC = 48 cm², find the area of ΔBGC.
 
 Solution:
 The centroid divides the triangle into three smaller triangles of equal area.
 
-Area of 
-Δ
-𝐵
-𝐺
-𝐶
-=
-1
-3
-×
-48
-=
-16
- 
-cm
-2
-Area of ΔBGC=
-3
-1
-	​
+Area of ΔBGC = (1/3) × 48 = 16 cm²
 
-×48=16cm
-2
+Answer: 16 cm².
 
-Answer: 16 cm².
+🧠 Trap: Many candidates confuse the centroid (G) with the orthocentre or circumcentre and apply different ratios. The 1/3 rule works only for the centroid, because it is the intersection of the medians — and the three medians partition a triangle into six small triangles of equal area.
 
-🧠 Trap: Many candidates confuse centroid (G) with orthocenter or circumcenter and apply different area ratios. The uniform
-1
-3
-3
-1
-	​
+Source: NCERT Class 9–10 Mathematics (Triangles)
 
- rule works only for the centroid because it is the intersection of medians; medians always partition a triangle into six equal‑area small triangles.
+---
 
-Q3. Cyclic Quadrilateral: Opposite Angle Sum
+**Q3. Cyclic Quadrilateral: Opposite Angle Sum**
 
-SSC CGL 2017 — In a cyclic quadrilateral ABCD, find
-∠
-𝐴
-+
-∠
-𝐶
-∠A+∠C.
+In a cyclic quadrilateral ABCD, find ∠A + ∠C.
 
 Solution:
 Theorem: The sum of opposite angles of a cyclic quadrilateral is 180°.
 
-∠
-𝐴
-+
-∠
-𝐶
-=
-180
-∘
-,
-∠
-𝐵
-+
-∠
-𝐷
-=
-180
-∘
-∠A+∠C=180
-∘
-,∠B+∠D=180
-∘
+∠A + ∠C = 180°, and ∠B + ∠D = 180°
 
 Answer: 180°.
 
 🧠 Trap: A surprising number of aspirants answer 360° (the total interior angle sum of any quadrilateral) because they forget the special cyclic property. The question tests whether you recall the extra condition, not the generic quadrilateral rule.
 
-Q4. Equilateral Triangle: Height → Area
+Source: NCERT Class 9–10 Mathematics (Circles)
 
-SSC CGL 2020 — The height of an equilateral triangle is 15 cm. Find its area.
+---
 
-Solution:
-Height
-ℎ
-=
-3
-2
-𝑎
-h=
-2
-3
-	​
+**Q4. Equilateral Triangle: Height → Area**
 
-	​
-
-a ⟹
-𝑎
-=
-2
-ℎ
-3
-=
-30
-3
-=
-10
-3
-a=
-3
-	​
-
-2h
-	​
-
-=
-3
-	​
-
-30
-	​
-
-=10
-3
-	​
-
-.
-Area =
-3
-4
-𝑎
-2
-=
-3
-4
-×
-300
-=
-75
-3
- 
-cm
-2
-4
-3
-	​
-
-	​
-
-a
-2
-=
-4
-3
-	​
-
-	​
-
-×300=75
-3
-	​
-
-cm
-2
-.
-
-Answer:
-75
-3
- 
-cm
-2
-75
-3
-	​
-
-cm
-2
-.
-
-🧠 Trap: Aspirants often directly plug the height into the area formula (
-3
-4
-×
-15
-2
-4
-3
-	​
-
-	​
-
-×15
-2
-), forgetting to convert height to side first. The relationship
-𝑎
-=
-2
-ℎ
-3
-a=
-3
-	​
-
-2h
-	​
-
- must be applied before using
-3
-4
-𝑎
-2
-4
-3
-	​
-
-	​
-
-a
-2
-.
-
-Q5. Parallel Chords & Circle Radius
-
-SSC CGL Tier‑II 2018 — AB = 10 cm and CD = 24 cm are parallel chords on opposite sides of the centre. The distance between them is 17 cm. Find the radius.
+The height of an equilateral triangle is 15 cm. Find its area.
 
 Solution:
-Let the distances from the centre to AB and CD be
-𝑥
-x and
-𝑦
-y respectively.
-From right triangles:
+Height h = (√3/2)·a ⟹ a = 2h/√3 = 30/√3 = 10√3 cm.
+Area = (√3/4)·a² = (√3/4) × 300 = 75√3 cm².
 
-𝑟
-2
-=
-𝑥
-2
-+
-5
-2
-,
-𝑟
-2
-=
-𝑦
-2
-+
-12
-2
-r
-2
-=x
-2
-+5
-2
-,r
-2
-=y
-2
-+12
-2
+Answer: 75√3 cm².
 
-Also
-𝑥
-+
-𝑦
-=
-17
-x+y=17. Subtracting the two equations gives
-𝑥
-2
-−
-𝑦
-2
-=
-119
-x
-2
-−y
-2
-=119 ⟹
-(
-𝑥
-−
-𝑦
-)
-(
-𝑥
-+
-𝑦
-)
-=
-119
-(x−y)(x+y)=119 ⟹
-𝑥
-−
-𝑦
-=
-7
-x−y=7. Solving with
-𝑥
-+
-𝑦
-=
-17
-x+y=17 yields
-𝑥
-=
-12
-,
-  
-𝑦
-=
-5
-x=12,y=5. Then
-𝑟
-=
-12
-2
-+
-5
-2
-=
-13
- 
-cm
-r=
-12
-2
-+5
-2
-	​
+🧠 Trap: Aspirants often plug the height directly into the area formula ((√3/4) × 15²), forgetting to convert height to side first. The relation a = 2h/√3 must be applied before using (√3/4)a².
 
-=13cm.
+Source: NCERT Class 9–10 Mathematics (Triangles, Mensuration)
 
-Answer: 13 cm.
+---
 
-🧠 Trap: The most common error is assuming the chords are equidistant from the centre (i.e.,
-𝑥
-=
-𝑦
-x=y), which would give
-𝑟
-=
-8.5
-2
-+
-5
-2
-≈
-9.8
-r=
-8.5
-2
-+5
-2
-	​
+**Q5. Parallel Chords & Circle Radius**
 
-≈9.8 — completely wrong. Always set up two separate right‑triangle equations and use the given distance sum.
-
-Q6. Direct Common Tangent of Two Externally Touching Circles
-
-SSC CPO 2014 — Two circles of radii 25 cm and 9 cm touch each other externally. Find the length of the direct common tangent.
+AB = 10 cm and CD = 24 cm are parallel chords on opposite sides of the centre. The distance between them is 17 cm. Find the radius.
 
 Solution:
-Distance between centres
-𝑑
-=
-25
-+
-9
-=
-34
- 
-cm
-d=25+9=34cm.
-Length of Direct Common Tangent =
-𝑑
-2
-−
-(
-𝑟
-1
-−
-𝑟
-2
-)
-2
-=
-34
-2
-−
-16
-2
-=
-1156
-−
-256
-=
-900
-=
-30
- 
-cm
-d
-2
-−(r
-1
-	​
+Let the distances from the centre to AB and CD be x and y respectively. The perpendicular from the centre bisects each chord, so from the two right triangles:
 
-−r
-2
-	​
+r² = x² + 5²,  r² = y² + 12²
 
-)
-2
-	​
+Also x + y = 17. Subtracting the equations: x² − y² = 119 ⟹ (x − y)(x + y) = 119 ⟹ x − y = 7. Solving with x + y = 17 gives x = 12, y = 5. Then r = √(12² + 5²) = √169 = 13 cm.
 
-=
-34
-2
-−16
-2
-	​
+Answer: 13 cm.
 
-=
-1156−256
-	​
+🧠 Trap: The most common error is assuming the chords are equidistant from the centre (x = y), which gives a wrong radius. Always set up two separate right-triangle equations and use the given distance sum.
 
-=
-900
-	​
+Source: PYQ-style (NCERT Class 9 Mathematics, Circles)
 
-=30cm.
+---
 
-Answer: 30 cm.
+**Q6. Direct Common Tangent of Two Externally Touching Circles**
 
-Alternative Formula:
-2
-𝑟
-1
-𝑟
-2
-2
-r
-1
-	​
-
-r
-2
-	​
-
-	​
-
- when circles touch externally. Here,
-2
-25
-×
-9
-=
-2
-×
-15
-=
-30
- 
-cm
-2
-25×9
-	​
-
-=2×15=30cm.
-
-🧠 Trap: When circles touch externally, many aspirants mistakenly use the formula for transverse common tangent (
-𝑑
-2
-−
-(
-𝑟
-1
-+
-𝑟
-2
-)
-2
-=
-0
-d
-2
-−(r
-1
-	​
-
-+r
-2
-	​
-
-)
-2
-	​
-
-=0) or confuse the "sum" and "difference" in the direct common tangent formula. The quick alternate form
-2
-𝑟
-1
-𝑟
-2
-2
-r
-1
-	​
-
-r
-2
-	​
-
-	​
-
- bypasses the centre‑distance calculation entirely.
-
-Q7. Chord Intersection Inside a Circle
-
-SSC CGL 2016 — In a circle, chords AC and BD intersect at P. If AP = 4 cm, PC = 6 cm, and BP = 3 cm, find PD.
+Two circles of radii 25 cm and 9 cm touch each other externally. Find the length of the direct common tangent.
 
 Solution:
-Intersecting chords theorem:
-𝐴
-𝑃
-×
-𝑃
-𝐶
-=
-𝐵
-𝑃
-×
-𝑃
-𝐷
-AP×PC=BP×PD.
+Distance between centres d = 25 + 9 = 34 cm.
+Length of direct common tangent = √(d² − (r₁ − r₂)²) = √(34² − 16²) = √(1156 − 256) = √900 = 30 cm.
 
-4
-×
-6
-=
-3
-×
-𝑃
-𝐷
-  
-⟹
-  
-𝑃
-𝐷
-=
-24
-3
-=
-8
- 
-cm
-.
-4×6=3×PD⟹PD=
-3
-24
-	​
+Answer: 30 cm.
 
-=8cm.
+Shortcut: When circles touch externally, the direct common tangent = 2√(r₁r₂). Here, 2√(25 × 9) = 2 × 15 = 30 cm.
 
-Answer: 8 cm.
+🧠 Trap: Aspirants often confuse the "sum" and "difference" inside the root, or apply the transverse-tangent formula. For externally touching circles, the shortcut 2√(r₁r₂) bypasses the centre-distance calculation entirely.
 
-🧠 Trap: When the diagram is not provided, aspirants often assign segments to the wrong chord or try to apply the tangent‑secant theorem, which is used only when a tangent and a secant are drawn from an external point.
+Source: PYQ-style (NCERT Class 10 Mathematics, Circles)
 
-Q8. Cone Volume: The One‑Third Cylinder Relationship
+---
 
-Bank PO 2022 — A cone and a cylinder have the same base radius and the same height. If the cylinder’s volume is 270 cm³, find the cone’s volume.
+**Q7. Chord Intersection Inside a Circle**
+
+In a circle, chords AC and BD intersect at P. If AP = 4 cm, PC = 6 cm, and BP = 3 cm, find PD.
 
 Solution:
-Volume of cone =
-1
-3
-×
-3
-1
-	​
+Intersecting chords theorem: AP × PC = BP × PD.
 
-× Volume of cylinder =
-1
-3
-×
-270
-=
-90
- 
-cm
-3
-3
-1
-	​
+4 × 6 = 3 × PD ⟹ PD = 24/3 = 8 cm.
 
-×270=90cm
-3
-.
+Answer: 8 cm.
 
-Answer: 90 cm³.
+🧠 Trap: When no diagram is given, aspirants assign segments to the wrong chord, or reach for the tangent–secant theorem, which applies only when a tangent and a secant are drawn from an external point.
 
-🧠 Trap: Many aspirants confuse this with the sphere‑cylinder relationship (sphere:cylinder = 2:3 for equal radius and height) or with the hemisphere‑cone relationship. The mnemonic “Cone is one‑third of a cylinder” is the only reliable mental hook.
+Source: NCERT Class 9–10 Mathematics (Circles)
 
-Q9. Polygon Interior Angle Sum
+---
 
-SSC CGL 2018 — The interior angles of a pentagon are in the ratio 2:3:3:5:5. Find the smallest angle.
+**Q8. Cone Volume: The One-Third Cylinder Relationship**
+
+A cone and a cylinder have the same base radius and the same height. If the cylinder's volume is 270 cm³, find the cone's volume.
 
 Solution:
-Sum of interior angles of a pentagon =
-(
-5
-−
-2
-)
-×
-180
-∘
-=
-540
-∘
-(5−2)×180
-∘
-=540
-∘
-.
-Let the angles be
-2
-𝑥
-,
- 
-3
-𝑥
-,
- 
-3
-𝑥
-,
- 
-5
-𝑥
-,
- 
-5
-𝑥
-2x,3x,3x,5x,5x. Then
+Volume of cone = (1/3) × Volume of cylinder = (1/3) × 270 = 90 cm³.
 
-2
-𝑥
-+
-3
-𝑥
-+
-3
-𝑥
-+
-5
-𝑥
-+
-5
-𝑥
-=
-540
-∘
-  
-⟹
-  
-18
-𝑥
-=
-540
-∘
-  
-⟹
-  
-𝑥
-=
-30
-∘
-.
-2x+3x+3x+5x+5x=540
-∘
-⟹18x=540
-∘
-⟹x=30
-∘
-.
+Answer: 90 cm³.
 
-Smallest angle =
-2
-𝑥
-=
-60
-∘
-2x=60
-∘
-.
+🧠 Trap: Many aspirants confuse this with other fractional relationships (e.g., sphere vs cylinder). The mnemonic "Cone is one-third of a cylinder" is the reliable mental hook — same base, same height.
+
+Source: NCERT Class 9–10 Mathematics (Surface Areas and Volumes)
+
+---
+
+**Q9. Polygon Interior Angle Sum**
+
+The interior angles of a pentagon are in the ratio 2:3:3:5:5. Find the smallest angle.
+
+Solution:
+Sum of interior angles of a pentagon = (5 − 2) × 180° = 540°.
+Let the angles be 2x, 3x, 3x, 5x, 5x. Then
+
+2x + 3x + 3x + 5x + 5x = 540° ⟹ 18x = 540° ⟹ x = 30°.
+
+Smallest angle = 2x = 60°.
 
 Answer: 60°.
 
-🧠 Trap: The most common mistake is using 360° (the exterior‑angle sum or quadrilateral sum) instead of
-(
-𝑛
-−
-2
-)
-×
-180
-∘
-(n−2)×180
-∘
-. Another trap: misreading “pentagon” as “hexagon” and using
-720
-∘
-720
-∘
-. Always underline the polygon’s name and verify
-𝑛
-n before you begin.
+🧠 Trap: The most common mistake is using 360° (the exterior-angle sum, or the quadrilateral sum) instead of (n − 2) × 180°. Another trap: misreading "pentagon" as "hexagon" and using 720°. Always underline the polygon's name and verify n before you begin.
 
-Q10. Sphere vs Cube: Equal Surface Area, Unequal Volume
+Source: NCERT Class 8–9 Mathematics (Quadrilaterals, Polygons)
 
-SSC CGL 2023 — A sphere and a cube have the same surface area. Which has a greater volume?
+---
+
+**Q10. Sphere vs Cube: Equal Surface Area, Unequal Volume**
+
+A sphere and a cube have the same surface area. Which has a greater volume?
 
 Solution:
-For a given surface area
-𝑆
-S:
+Let the common surface area be S.
 
-Cube side
-𝑎
-=
-𝑆
-6
-a=
-6
-S
-	​
+Cube: side a = √(S/6); Volume = a³ = (S/6)^(3/2) = S^(3/2) / (6√6) ≈ 0.068·S^(3/2).
 
-	​
+Sphere: radius r = √(S/4π); Volume = (4/3)πr³ = (4/3)π · (S/4π)^(3/2) = S^(3/2) / (6√π) ≈ 0.094·S^(3/2).
 
-; Volume =
-𝑎
-3
-=
-(
-𝑆
-6
-)
-3
-/
-2
-a
-3
-=(
-6
-S
-	​
-
-)
-3/2
-.
-
-Sphere radius
-𝑟
-=
-𝑆
-4
-𝜋
-r=
-4π
-S
-	​
-
-	​
-
-; Volume =
-4
-3
-𝜋
-𝑟
-3
-=
-4
-3
-𝜋
-(
-𝑆
-4
-𝜋
-)
-3
-/
-2
-3
-4
-	​
-
-πr
-3
-=
-3
-4
-	​
-
-π(
-4π
-S
-	​
-
-)
-3/2
-.
-
-Since
-4
-3
-4
-𝜋
-≈
-0.094
-3
-4π
-	​
-
-4
-	​
-
-≈0.094 versus
-1
-6
-6
-≈
-0.068
-6
-6
-	​
-
-1
-	​
-
-≈0.068, the sphere’s volume is larger for the same surface area.
+Since 1/(6√π) ≈ 0.094 > 1/(6√6) ≈ 0.068, the sphere's volume is larger for the same surface area.
 
 Answer: The sphere.
 
-🧠 Trap: The intuitive guess is often “cube,” because we live in a world of boxes. But mathematically, the sphere is the most efficient shape for enclosing volume — it minimizes surface area for a given volume. This question exploits the “common‑sense” instinct to choose the familiar shape, not the mathematically optimal one. Memorise: “For equal surface area, sphere always beats cube on volume.”
+🧠 Trap: The intuitive guess is often "cube," because we live in a world of boxes. But mathematically, the sphere is the most efficient shape for enclosing volume — it needs the least surface area for a given volume. This question exploits the "common-sense" instinct to choose the familiar shape. Memorise: "For equal surface area, the sphere always beats the cube on volume."
 
-Psychological Trap Summary Table
-Trap Type	Question	Why Aspirants Fall
-Formula confusion	Q1, Q6	Using the wrong theorem for the given configuration
-Property over‑generalisation	Q3, Q9	Applying generic rules (sum = 360°) where a special property applies
-Centre confusion	Q2	Mixing up centroid, orthocenter, and circumcenter properties
-Direct substitution error	Q4	Plugging the given number into the wrong variable slot
-Symmetry assumption	Q5	Assuming equal distances when none is stated
-Intuitive vs mathematical	Q10	Trusting real‑world intuition over mathematical proof
-Diagram dependency	Q7	Misreading segment assignments when no figure is given
-Mnemonic overload	Q8	Confusing “one‑third” with other fractional relationships
-Data‑Driven Topic Weightage (SSC CGL 2014–2024)
-Topic	Approx. % of Geometry PYQs
-Triangles & Centres	35%
-Circles (Tangents, Chords, Cyclic)	25%
-Quadrilaterals & Polygons	20%
-3D Mensuration	20%
-🧠 Active Recall Prompt
+Source: PYQ-style (NCERT Class 9–10 Mathematics, Surface Areas and Volumes)
+
+---
+
+**Psychological Trap Summary Table**
+
+| Trap Type | Question | Why Aspirants Fall |
+|---|---|---|
+| Formula confusion | Q1, Q6 | Using the wrong theorem for the given configuration |
+| Property over-generalisation | Q3, Q9 | Applying generic rules (sum = 360°) where a special property applies |
+| Centre confusion | Q2 | Mixing up centroid, orthocentre, and circumcentre properties |
+| Direct substitution error | Q4 | Plugging the given number into the wrong variable slot |
+| Symmetry assumption | Q5 | Assuming equal distances when none is stated |
+| Intuitive vs mathematical | Q10 | Trusting real-world intuition over mathematical proof |
+| Diagram dependency | Q7 | Misreading segment assignments when no figure is given |
+| Mnemonic overload | Q8 | Confusing "one-third" with other fractional relationships |
+
+---
+
+**🧠 Active Recall Prompt**
 
 Without scrolling up, answer these three:
 
-What is the formula for the direct common tangent of two externally touching circles with radii
-𝑟
-1
-r
-1
-	​
-
- and
-𝑟
-2
-r
-2
-	​
-
-?
-
-What property does the intersecting chords theorem state?
-
-Which has greater volume — a cube or a sphere — if they have equal surface area?
+1. What is the formula for the direct common tangent of two externally touching circles with radii r₁ and r₂?
+2. What does the intersecting chords theorem state?
+3. Which has greater volume — a cube or a sphere — if they have equal surface area?
 
 (Check your answers against Q6, Q7, and Q10 above.)

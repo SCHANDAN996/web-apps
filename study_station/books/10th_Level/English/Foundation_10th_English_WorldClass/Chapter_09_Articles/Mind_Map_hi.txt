@@ -1,0 +1,30 @@
+```mermaid
+graph TD
+    A["लेख (Articles)"] --> B["A / An<br>(अनिश्चित)"]
+    A --> C["The<br>(निश्चित)"]
+    A --> D["Zero Article<br>(लेख नहीं)"]
+
+    B --> B1["A = व्यंजन ध्वनि से पहले<br>a boy, a university, a one-rupee note"]
+    B --> B2["An = स्वर ध्वनि से पहले<br>an apple, an hour, an honest man"]
+    B --> B3["पहली बार उल्लेख<br>I saw a dog"]
+
+    C --> C1["दोबारा उल्लेख<br>The dog was black"]
+    C --> C2["अद्वितीय चीज़ें<br>the sun, the moon, the earth"]
+    C --> C3["नदी, पर्वत-श्रृंखला, महासागर<br>the Ganga, the Himalayas"]
+    C --> C4["अधिकतम उपाधि से पहले<br>the best, the tallest"]
+    C --> C5["क्रमवाचक संख्या से पहले<br>the first, the second"]
+
+    D --> D1["भाषाएँ, खेल, भोजन<br>Hindi, cricket, lunch"]
+    D --> D2["असंख्य/भाववाचक (सामान्य अर्थ)<br>Water is life, Honesty is the best policy"]
+    D --> D3["देश (सामान्यतः)<br>India, Japan — पर the USA, the UK"]
+
+    A --> E["परीक्षक के जाल"]
+    E --> E1["ध्वनि बनाम अक्षर<br>an hour ✓, a hour ✗<br>a university ✓, an university ✗"]
+    E --> E2["हिंदी में लेख नहीं होता<br>सीधा अनुवाद से गलती"]
+    E --> E3["the + विशेषण = वर्ग/समूह<br>the poor = गरीब वर्ग"]
+
+    A --> F["रणनीति"]
+    F --> F1["15 सेकंड: A/An ध्वनि-नियम<br>(तथ्यात्मक प्रश्न)"]
+    F --> F2["45 सेकंड: the vs zero article<br>(संदर्भ-आधारित प्रश्न)"]
+    F --> F3["Mnemonic: 'SEU' —<br>Superlative, Exclusive, Unique = the"]
+```

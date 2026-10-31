@@ -1,0 +1,79 @@
+Card 1
+Front: What is the general form of a quadratic equation, and what are its roots?
+Back: ax² + bx + c = 0 (a ≠ 0). Roots: x = [−b ± √(b² − 4ac)] / 2a.
+
+Card 2
+Front: What does the discriminant D = b² − 4ac tell us about the roots?
+Back: D > 0 → two real distinct roots; D = 0 → two equal real roots; D < 0 → no real roots (complex conjugate pair).
+
+Card 3
+Front: State the sum and product of roots of ax² + bx + c = 0.
+Back: Sum of roots = −b/a; Product of roots = c/a.
+
+Card 4
+Front: What is the mnemonic to remember sum and product of roots?
+Back: "Sum flips the sign, Product stays fine" — Sum = −b/a (sign flips), Product = c/a (as it is).
+
+Card 5
+Front: How do you form a quadratic equation from roots α and β?
+Back: x² − (α + β)x + αβ = 0, i.e., x² − (sum)x + (product) = 0.
+
+Card 6
+Front: If roots of ax² + bx + c = 0 are reciprocal to each other, what condition holds?
+Back: Product of roots = 1, so c/a = 1, i.e., c = a.
+
+Card 7
+Front: If one root is the negative of the other (roots are α and −α), what condition holds?
+Back: Sum of roots = 0, so b = 0.
+
+Card 8
+Front: What is the maximum or minimum value of ax² + bx + c, and where does it occur?
+Back: Occurs at x = −b/2a; value = (4ac − b²)/4a = −D/4a. Minimum if a > 0, maximum if a < 0.
+
+Card 9
+Front: What is the mnemonic for the vertex x-coordinate?
+Back: "Vertex hides at minus-b over two-a" — x = −b/2a, the axis of symmetry.
+
+Card 10
+Front: What is the nth term of an Arithmetic Progression (AP)?
+Back: aₙ = a + (n − 1)d, where a = first term, d = common difference.
+
+Card 11
+Front: What is the sum of the first n terms of an AP?
+Back: Sₙ = n/2 [2a + (n − 1)d] = n/2 (first term + last term).
+
+Card 12
+Front: What is the nth term and sum of n terms of a Geometric Progression (GP)?
+Back: aₙ = arⁿ⁻¹; Sₙ = a(rⁿ − 1)/(r − 1) for r ≠ 1.
+
+Card 13
+Front: When does an infinite GP converge, and what is its sum?
+Back: Converges when |r| < 1; sum S∞ = a/(1 − r).
+
+Card 14
+Front: What is the mnemonic to remember the infinite GP sum condition?
+Back: "Small ratio, finite total" — only |r| < 1 gives S∞ = a/(1 − r); |r| ≥ 1 blows up.
+
+Card 15
+Front: If a, b, c are in AP, what is the relation between them?
+Back: 2b = a + c (b is the arithmetic mean of a and c).
+
+Card 16
+Front: If a, b, c are in GP, what is the relation between them?
+Back: b² = ac (b is the geometric mean of a and c).
+
+Card 17
+Front: What is the sum of the first n natural numbers, first n squares, and first n cubes?
+Back: Σn = n(n+1)/2; Σn² = n(n+1)(2n+1)/6; Σn³ = [n(n+1)/2]².
+
+Card 18
+Front: What is the trick to remember Σn³?
+Back: "Cubes are squares in disguise" — Σn³ = (Σn)², i.e., the square of the sum of first n numbers.
+
+Card 19
+Front: For what values of k does x² + kx + 9 = 0 have equal roots?
+Back: D = 0 → k² − 36 = 0 → k = ±6.
+
+Card 20
+Front: If α and β are roots of x² − 5x + 6 = 0, what is α² + β²?
+Back: α² + β² = (α+β)² − 2αβ = 25 − 12 = 13.

@@ -1,0 +1,43 @@
+```mermaid
+graph TD
+    A["क्रियाविशेषण (Adverb)"] --> B["परिभाषा<br>क्रिया, विशेषण या दूसरे<br>क्रियाविशेषण की विशेषता बताता है"]
+    A --> C["प्रकार (Types)"]
+    A --> D["बनावट (Formation)"]
+    A --> E["स्थान (Position)"]
+    A --> F["12 स्वर्ण नियम"]
+    A --> G["परीक्षक के जाल"]
+    A --> H["रणनीति"]
+
+    C --> C1["कालवाचक<br>Time: now, yesterday, soon"]
+    C --> C2["स्थानवाचक<br>Place: here, there, everywhere"]
+    C --> C3["रीतिवाचक<br>Manner: slowly, carefully"]
+    C --> C4["परिमाणवाचक<br>Degree: very, too, quite"]
+    C --> C5["आवृत्तिवाचक<br>Frequency: always, often, never"]
+    C --> C6["वाक्य-क्रियाविशेषण<br>Sentence: fortunately, obviously"]
+
+    D --> D1["विशेषण + ly<br>quick → quickly"]
+    D --> D2["y → ily<br>happy → happily"]
+    D --> D3["le → ly<br>gentle → gently"]
+    D --> D4["अपवाद: fast, hard, late<br>(ly नहीं लगता)"]
+
+    E --> E1["आवृत्तिवाचक: मुख्य क्रिया से पहले<br>He always comes late"]
+    E --> E2["be क्रिया के बाद<br>She is always busy"]
+    E --> E3["रीतिवाचक: क्रिया/कर्म के बाद<br>He speaks clearly"]
+
+    F --> F1["very + विशेषण<br>too + नकारात्मक अर्थ"]
+    F --> F2["hard ≠ hardly<br>late ≠ lately"]
+    F --> F3["enough: विशेषण के बाद<br>good enough"]
+    F --> F4["else + than<br>nothing else than"]
+    F --> F5["much + तुलनात्मक<br>very + मूल रूप"]
+    F --> F6["since + समय-बिंदु<br>for + अवधि"]
+
+    G --> G1["जाल 1: He runs fastly ❌<br>सही: He runs fast ✓"]
+    G --> G2["जाल 2: She sings beautiful ❌<br>सही: She sings beautifully ✓"]
+    G --> G3["जाल 3: hardly का अर्थ<br>'मुश्किल से', 'कड़ी मेहनत' नहीं"]
+    G --> G4["जाल 4: too = अत्यधिक (नकारात्मक)<br>very = बहुत (तटस्थ)"]
+
+    H --> H1["15 सेकंड: तथ्यात्मक<br>शब्द पहचानो, ly देखो"]
+    H --> H2["45 सेकंड: तार्किक<br>त्रुटि-पहचान, स्थान-निर्णय"]
+    H --> H3["Skip: दोनों विकल्प सही लगें<br>तो अंकित करके आगे बढ़ो"]
+    H --> H4["म्नेमोनिक: T-P-M-D-F<br>Time, Place, Manner, Degree, Frequency"]
+```

@@ -1,0 +1,37 @@
+```mermaid
+graph TD
+    A["कोडिंग-डिकोडिंग (उन्नत)<br>Coding-Decoding (Advanced)"] --> B["मुख्य प्रकार<br>Main Types"]
+    A --> C["रणनीतियाँ<br>Strategies"]
+    A --> D["समय प्रबंधन<br>Time Management"]
+    A --> E["परीक्षक के जाल<br>Examiner's Traps"]
+
+    B --> B1["अक्षर प्रतिस्थापन<br>Letter Substitution<br>(A→C, +2 shift)"]
+    B --> B2["संख्या कोडिंग<br>Number Coding<br>(अक्षर → स्थान मान)"]
+    B --> B3["मिश्रित/वाक्य कोडिंग<br>Mixed/Sentence Coding<br>(common words से code निकालना)"]
+    B --> B4["प्रतीक कोडिंग<br>Symbol Coding<br>(@ # $ % के नियम)"]
+    B --> B5["नया पैटर्न<br>New Pattern<br>(reverse, pair-swap, vowel rule)"]
+
+    B1 --> B1a["आगे/पीछे शिफ्ट<br>Forward/Backward Shift"]
+    B1 --> B1b["विपरीत अक्षर<br>Opposite Letters<br>(A↔Z, B↔Y)"]
+    B1 --> B1c["स्थान बदलना<br>Position Swap<br>(1st↔last)"]
+
+    B2 --> B2a["स्थान मान योग<br>Sum of Place Values"]
+    B2 --> B2b["वर्ग/घन पैटर्न<br>Square/Cube Pattern"]
+
+    B3 --> B3a["उभयनिष्ठ शब्द खोजें<br>Find Common Words"]
+    B3 --> B3b["उभयनिष्ठ कोड मिलाएँ<br>Match Common Codes"]
+
+    C --> C1["EJOTY याद रखें<br>Memorize EJOTY<br>(5,10,15,20,25)"]
+    C --> C2["विपरीत जोड़े याद करें<br>Opposite Pairs<br>(AZ, BY, CX...)"]
+    C --> C3["पहले पैटर्न पहचानें<br>Identify Pattern First"]
+    C --> C4["विकल्प से जाँचें<br>Verify with Options"]
+
+    D --> D1["आसान प्रश्न: 20-30 सेकंड<br>Easy: 20-30 sec"]
+    D --> D2["मिश्रित कोडिंग: 45-60 सेकंड<br>Mixed Coding: 45-60 sec"]
+    D --> D3["नया पैटर्न अटके तो छोड़ें<br>Skip if new pattern stuck"]
+
+    E --> E1["शिफ्ट दिशा का भ्रम<br>Shift Direction Confusion<br>(+2 या -2?)"]
+    E --> E2["लगभग-सही विकल्प<br>Near-Correct Options<br>(एक अक्षर गलत)"]
+    E --> E3["उल्टा क्रम भूलना<br>Forgetting Reverse Order"]
+    E --> E4["मिश्रित कोडिंग में अनुमान<br>Guessing in Mixed Coding<br>(बिना common match के)"]
+```

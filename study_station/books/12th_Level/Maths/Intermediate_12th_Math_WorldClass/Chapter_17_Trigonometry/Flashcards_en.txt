@@ -1,3 +1,79 @@
-# Chapter: Trigonometry, Level: intermediate
+Card 1
+Front: What is the value of sin²θ + cos²θ for any angle θ?
+Back: Always 1. This is the fundamental Pythagorean identity — every other identity grows from it.
 
-@content_agent lang=en level=intermediate 'Create 15-20 flashcards for Trigonometry. Each card: front a curiosity-invoking question, back concise answer. Include at least 2 cards that ask about a mnemonic trick.'
+Card 2
+Front: Which mnemonic helps you remember the values of sin 0°, 30°, 45°, 60°, 90°?
+Back: The "Palm Trick" or √n/2 method: write 0, 1, 2, 3, 4 under the angles, divide each by 4, take the square root: √(0/4), √(1/4), √(2/4), √(3/4), √(4/4) = 0, 1/2, 1/√2, √3/2, 1.
+
+Card 3
+Front: In a right triangle, how is tan θ defined using sides?
+Back: tan θ = Perpendicular / Base (opposite side / adjacent side). Also tan θ = sin θ / cos θ.
+
+Card 4
+Front: What is the reciprocal of sin θ, and what is the reciprocal of cos θ?
+Back: Reciprocal of sin θ is cosec θ; reciprocal of cos θ is sec θ. Trap: cosec goes with sin, sec goes with cos — don't swap them!
+
+Card 5
+Front: Which mnemonic tells you which ratios are positive in each quadrant?
+Back: "All Silver Tea Cups" (or "Add Sugar To Coffee"): Quadrant I — All positive; II — Sin positive; III — Tan positive; IV — Cos positive.
+
+Card 6
+Front: What is the value of tan 45°, and why is it special?
+Back: tan 45° = 1, because at 45° the perpendicular and base of the right triangle are equal, so their ratio is 1.
+
+Card 7
+Front: What is sin(90° − θ) equal to?
+Back: cos θ. Complementary angles swap the ratio to its co-function: sin ↔ cos, tan ↔ cot, sec ↔ cosec.
+
+Card 8
+Front: State the identity connecting sec θ and tan θ.
+Back: sec²θ − tan²θ = 1 (i.e., 1 + tan²θ = sec²θ).
+
+Card 9
+Front: State the identity connecting cosec θ and cot θ.
+Back: cosec²θ − cot²θ = 1 (i.e., 1 + cot²θ = cosec²θ).
+
+Card 10
+Front: If tan θ = 3/4, what are sin θ and cos θ?
+Back: Perpendicular = 3, Base = 4, so Hypotenuse = 5 (3-4-5 triplet). Hence sin θ = 3/5, cos θ = 4/5.
+
+Card 11
+Front: What is the angle of elevation?
+Back: The angle between the horizontal line of sight and the line of sight when looking UP at an object.
+
+Card 12
+Front: What is the angle of depression, and what key fact links it to the angle of elevation?
+Back: The angle between the horizontal and the line of sight when looking DOWN. The angle of depression from the top equals the angle of elevation from the bottom (alternate angles between parallel lines).
+
+Card 13
+Front: What is the maximum value of sin θ, and the minimum value of cosec θ (for acute θ)?
+Back: Maximum of sin θ is 1 (at 90°); minimum of cosec θ is 1, since cosec θ = 1/sin θ.
+
+Card 14
+Front: What is the value of cos 60° + sin 30°?
+Back: 1/2 + 1/2 = 1. Both are equal because 60° and 30° are complementary angles.
+
+Card 15
+Front: Which mnemonic helps you remember sin, cos, tan definitions in a right triangle?
+Back: "Pandit Badri Prasad, Har Har Bhole" → sin = P/H, cos = B/H, tan = P/B (Perpendicular, Base, Hypotenuse).
+
+Card 16
+Front: What is tan θ · cot θ equal to, and why?
+Back: 1, because cot θ = 1/tan θ — they are reciprocals of each other.
+
+Card 17
+Front: If the angle of elevation of the sun is 45°, how does a pole's height compare to its shadow?
+Back: They are equal, because tan 45° = height/shadow = 1.
+
+Card 18
+Front: What is the value of sin 0° and cos 90°?
+Back: Both are 0. Remember: sin starts at 0 and rises to 1; cos starts at 1 and falls to 0.
+
+Card 19
+Front: How do you convert sin²θ + cos²θ = 1 into the sec–tan identity?
+Back: Divide the whole identity by cos²θ: tan²θ + 1 = sec²θ.
+
+Card 20
+Front: In heights-and-distances problems, which two angles appear most often and what are their tan values?
+Back: 30° and 60°. tan 30° = 1/√3, tan 60° = √3 — and √3 ≈ 1.732 is the number to keep ready.

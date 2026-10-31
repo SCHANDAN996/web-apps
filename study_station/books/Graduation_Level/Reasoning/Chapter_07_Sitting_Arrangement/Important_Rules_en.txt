@@ -1,0 +1,46 @@
+# Important Rules & Approaches — Sitting Arrangement (Complex)
+
+## Part 1: Key Rules/Approaches
+
+| Rule Name | Description | Example |
+|---|---|---|
+| Fix the Definite First | Start with the statement that fixes a person's exact position; never begin with "may be" clues. | "A sits at the extreme left end" → place A first. |
+| Direction of Facing | In a circular arrangement, "left" and "right" reverse depending on whether people face the centre or away from it. | Facing centre: your left-hand side is the clockwise direction. |
+| Immediate Neighbour Rule | "X sits immediately to the left of Y" means X and Y are adjacent with no gap. | Y facing centre, X on Y's left = X is clockwise of Y. |
+| "Between" Rule | "X sits between Y and Z" means Y–X–Z or Z–X–Y as a continuous block. | Block can be placed in two orientations until another clue fixes it. |
+| Second/Third to the Left | Count positions strictly in the stated direction from the reference person. | "2nd to the right of P" = skip 1 seat, land on the 2nd. |
+| Opposite Pairs (Circle) | In an even-numbered circle, a person has exactly one person directly opposite; distance = n/2 seats. | 8 persons → opposite seat is 4 places away. |
+| Two-Row Arrangement | In parallel rows, note facing direction of each row; "facing each other" pairs sit in the same column. | Row 1 faces south, Row 2 faces north → same column = facing pair. |
+| Negative Clues | "X does not sit next to Y" eliminates positions; use after placing positives. | If only 2 seats remain for X, the negative clue picks one. |
+| Case-Splitting | When a clue allows 2 possibilities, draw both diagrams; the later clue that kills one case is the key. | "P is left of Q" → try both gaps; one case will contradict a fixed clue. |
+| Block Technique | Treat a fixed group (e.g., "3 friends sit together") as one unit, arrange units first, then arrange inside the block. | 6 people with a block of 3 → arrange 4 units, then 3! inside. |
+| Vacant Seat Handling | If seats are vacant, mark them clearly; "next to" never skips a vacant seat unless stated. | 8 chairs, 6 people → 2 seats stay empty in the diagram. |
+| Attribute Linking | For puzzles with extra data (city, colour, profession), build a grid/table alongside the seating diagram. | Person–Position–City table; tick confirmed links. |
+| Circular + Facing Outward | When facing away from centre, left and right swap compared to facing centre. | Facing outward: your left-hand side is the anti-clockwise direction. |
+| Rectangular/Square Table | Every person at a square/rectangular table has exactly 2 immediate neighbours (the persons on either side). Track corners vs side-middles separately because a corner person faces the person diagonally opposite, while a side-middle person faces the person directly across the table. | 8 around a square: 4 corners + 4 side-middles; each has 2 neighbours. |
+| "At least / At most" Clues | Translate into range of positions; combine ranges to narrow to one seat. | "At most 2 persons between A and B" → gap of 1, 2, or 3 seats. |
+
+## Part 2: Time Management
+
+| Situation | Time Rule | Action |
+|---|---|---|
+| Reading the puzzle | First 15 seconds | Scan all clues; identify type (circle/row/two-row/square) and number of definite clues. |
+| No fixed/definite clue found | 15-second rule | If no anchor clue appears within 15 seconds of scanning, mark the question set and skip; return after solving easier sets. |
+| Diagram drawing | 20–30 seconds | Draw one clean diagram; write initials only, never full names. |
+| Case-splitting | 45-second rule | If both cases are still alive after 45 seconds of work, pick the case with more confirmed links and proceed; note the doubt. |
+| Single question stuck | 15-second rule | If one sub-question's answer isn't visible in 15 seconds from the finished diagram, re-read only the relevant clue — never redraw. |
+| Whole puzzle set (5 questions) | 45-second rule per question | Target: full set in 4–5 minutes. If the diagram itself isn't complete in 3 minutes, skip the set in the exam. |
+| Double-checking | Last 10 seconds | Verify one "immediate left/right" and one "opposite" relation against the clues before marking answers. |
+
+## Part 3: Logical/Mathematical Formulas
+
+| Formula | Meaning | Use |
+|---|---|---|
+| Opposite position = n/2 seats away | In a circle of n persons (n even), the person opposite is n/2 places from any seat. | 10 persons → opposite is 5 seats away. |
+| Neighbours in a circle = 2 | Every person in a circular arrangement has exactly 2 immediate neighbours. | Checking "sits between" clues. |
+| Total arrangements of n in a circle = (n−1)! | Number of distinct circular orders (only for counting-type questions, rarely asked). | n = 5 → 24 arrangements. |
+| Linear arrangements of n = n! | Number of distinct row orders (counting-type only). | n = 4 → 24 arrangements. |
+| Persons between A and B = gap − 1 | If A and B are k seats apart, persons sitting between them = k − 1. | Seats 2 and 6 → 3 persons between. |
+| Block as one unit: (n − b + 1)! × b! | Treating a block of b persons as one unit in a row of n. | 6 in a row, block of 3 → 4! × 3! = 144. |
+
+Note: In exam puzzles, arrangement-counting formulas are rarely needed; position-gap logic (opposite = n/2, between = gap − 1) is what actually gets used.

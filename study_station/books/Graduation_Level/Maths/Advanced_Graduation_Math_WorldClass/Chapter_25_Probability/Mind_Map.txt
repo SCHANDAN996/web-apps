@@ -1,0 +1,49 @@
+```mermaid
+graph TD
+    A["प्रायिकता<br>Probability"] --> B["मूल अवधारणाएँ<br>Basic Concepts"]
+    A --> C["प्रायिकता के नियम<br>Rules of Probability"]
+    A --> D["सप्रतिबंध प्रायिकता<br>Conditional Probability"]
+    A --> E["बेज़ प्रमेय<br>Bayes' Theorem"]
+    A --> F["यादृच्छिक चर<br>Random Variables"]
+    A --> G["प्रायिकता बंटन<br>Probability Distributions"]
+    A --> H["गणन-तकनीकें<br>Counting Techniques"]
+
+    B --> B1["प्रतिदर्श समष्टि<br>Sample Space"]
+    B --> B2["घटना<br>Event"]
+    B --> B3["परस्पर अपवर्जी<br>Mutually Exclusive"]
+    B --> B4["स्वतंत्र घटनाएँ<br>Independent Events"]
+    B --> B5["पूरक घटना<br>Complementary Event"]
+    B --> B6["समसंभाव्य परिणाम<br>Equally Likely Outcomes"]
+
+    C --> C1["योग नियम<br>Addition Rule<br>P(A∪B)=P(A)+P(B)−P(A∩B)"]
+    C --> C2["गुणन नियम<br>Multiplication Rule<br>P(A∩B)=P(A)·P(B|A)"]
+    C --> C3["पूरक नियम<br>Complement Rule<br>P(A')=1−P(A)"]
+    C --> C4["कुल प्रायिकता<br>Total Probability"]
+
+    D --> D1["सूत्र<br>P(A|B)=P(A∩B)/P(B)"]
+    D --> D2["स्वतंत्रता परीक्षण<br>Test of Independence"]
+    D --> D3["बिना प्रतिस्थापन<br>Without Replacement"]
+
+    E --> E1["पूर्व प्रायिकता<br>Prior Probability"]
+    E --> E2["पश्च प्रायिकता<br>Posterior Probability"]
+    E --> E3["सूत्र<br>P(A|B)=P(B|A)P(A)/P(B)"]
+
+    F --> F1["असतत चर<br>Discrete Variable"]
+    F --> F2["सतत चर<br>Continuous Variable"]
+    F --> F3["अपेक्षित मान<br>Expected Value E(X)"]
+    F --> F4["प्रसरण<br>Variance Var(X)"]
+
+    G --> G1["द्विपद बंटन<br>Binomial Distribution"]
+    G --> G2["पॉइसन बंटन<br>Poisson Distribution"]
+    G --> G3["प्रसामान्य बंटन<br>Normal Distribution"]
+
+    H --> H1["क्रमचय<br>Permutation nPr"]
+    H --> H2["संचय<br>Combination nCr"]
+    H --> H3["गुणन सिद्धांत<br>Multiplication Principle"]
+
+    A --> I["क्लासिक प्रयोग<br>Classic Experiments"]
+    I --> I1["सिक्का उछाल<br>Coin Toss"]
+    I --> I2["पासा फेंक<br>Dice Throw"]
+    I --> I3["ताश की गड्डी<br>Deck of Cards"]
+    I --> I4["कलश-गेंद<br>Urn & Balls"]
+```

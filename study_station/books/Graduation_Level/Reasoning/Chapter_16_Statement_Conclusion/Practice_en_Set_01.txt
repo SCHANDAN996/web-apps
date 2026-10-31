@@ -1,0 +1,176 @@
+Questions 1–20: Easy | Questions 21–25: Medium
+
+1. Statement: All pens are books. All books are chairs.
+Conclusions: I. All pens are chairs. II. All chairs are pens.
+(a) Only conclusion I follows (b) Only conclusion II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (a)
+Solution: The tempting wrong choice is "Both follow" — students often reverse the chain and assume chairs must also be pens, but "All books are chairs" does not mean all chairs are books or pens. From the two universal statements, pens ⊆ books ⊆ chairs, so every pen is a chair, while conclusion II reverses the relation without support. Only conclusion I follows, so the answer is "Only conclusion I follows".
+Source: PYQ-style
+
+2. Statement: Some dogs are cats. Some cats are rats.
+Conclusions: I. Some dogs are rats. II. Some cats are dogs.
+(a) Only conclusion I follows (b) Both I and II follow (c) Only conclusion II follows (d) Neither I nor II follows
+Answer: (c)
+Solution: The trap is conclusion I — two "some" statements sharing a middle term never guarantee a connection between the extremes, so dogs and rats may have no overlap at all. Conclusion II is simply the conversion of "Some dogs are cats", which is always valid. Only conclusion II follows, so the answer is "Only conclusion II follows".
+Source: PYQ-style
+
+3. Statement: No apple is a banana. All bananas are fruits.
+Conclusions: I. No apple is a fruit. II. Some fruits are bananas.
+(a) Only conclusion I follows (b) Only conclusion II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (b)
+Solution: The tempting wrong option claims no apple is a fruit, but the statement only separates apples from bananas, not from the wider class of fruits — apples could still be fruits through another route. Conclusion II is the direct conversion of "All bananas are fruits". Only conclusion II follows, so the answer is "Only conclusion II follows".
+Source: PYQ-style
+
+4. Statement: All teachers are educated. Some educated persons are writers.
+Conclusions: I. Some teachers are writers. II. Some writers are educated.
+(a) Only conclusion I follows (b) Only conclusion II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (b)
+Solution: The trap is linking teachers to writers through "educated" — a shared middle term in two particular/universal statements does not force an overlap between the extremes. Conclusion II is the valid conversion of "Some educated persons are writers". Only conclusion II follows, so the answer is "Only conclusion II follows".
+Source: PYQ-style
+
+5. Statement: All flowers are beautiful. Rose is a flower.
+Conclusions: I. Rose is beautiful. II. Some beautiful things are flowers.
+(a) Both I and II follow (b) Only conclusion II follows (c) Only conclusion I follows (d) Neither I nor II follows
+Answer: (a)
+Solution: Since rose belongs to the class of flowers and all flowers are beautiful, rose must be beautiful, so conclusion I holds. Conclusion II is the valid conversion of "All flowers are beautiful" into a particular statement. Both conclusions follow, so the answer is "Both I and II follow".
+Source: PYQ-style
+
+6. Statement: Some boys are students. All students are players.
+Conclusions: I. Some boys are players. II. All players are students.
+(a) Both I and II follow (b) Only conclusion II follows (c) Only conclusion I follows (d) Neither I nor II follows
+Answer: (c)
+Solution: The tempting wrong option reverses "All students are players" into "All players are students", which is an invalid conversion of a universal affirmative. The boys who are students must also be players, so some boys are definitely players. Only conclusion I follows, so the answer is "Only conclusion I follows".
+Source: PYQ-style
+
+7. Statement: No man is a monkey. Some monkeys are black.
+Conclusions: I. Some black things are not men. II. No black thing is a man.
+(a) Only conclusion I follows (b) Only conclusion II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (a)
+Solution: The trap is conclusion II, which extends a negative relation to all black things, but only the black monkeys are excluded from men — other black things may be men. The black monkeys are certainly not men, so some black things are not men. Only conclusion I follows, so the answer is "Only conclusion I follows".
+Source: PYQ-style
+
+8. Statement: All cars are vehicles. All vehicles have wheels.
+Conclusions: I. All cars have wheels. II. Some vehicles are cars.
+(a) Only conclusion I follows (b) Only conclusion II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (c)
+Solution: Cars ⊆ vehicles ⊆ things with wheels, so every car has wheels, making conclusion I valid. Conclusion II is the valid particular conversion of "All cars are vehicles". Both conclusions follow, so the answer is "Both I and II follow".
+Source: PYQ-style
+
+9. Statement: Some books are papers. No paper is a pen.
+Conclusions: I. Some books are not pens. II. No book is a pen.
+(a) Both I and II follow (b) Only conclusion II follows (c) Only conclusion I follows (d) Neither I nor II follows
+Answer: (c)
+Solution: The tempting wrong option generalises the exclusion to all books, but only the books that are papers are barred from being pens — other books could be pens. Those paper-books are definitely not pens, so some books are not pens. Only conclusion I follows, so the answer is "Only conclusion I follows".
+Source: PYQ-style
+
+10. Statement: All singers are dancers. Some dancers are actors.
+Conclusions: I. Some singers are actors. II. Some dancers are singers.
+(a) Only conclusion I follows (b) Neither I nor II follows (c) Both I and II follow (d) Only conclusion II follows
+Answer: (d)
+Solution: The trap is conclusion I — the middle term "dancers" is not distributed in both statements, so singers and actors cannot be linked. Conclusion II is the valid conversion of "All singers are dancers". Only conclusion II follows, so the answer is "Only conclusion II follows".
+Source: PYQ-style
+
+11. Statement: All mangoes are fruits. All fruits are sweet.
+Conclusions: I. All mangoes are sweet. II. Some sweet things are mangoes.
+(a) Only conclusion I follows (b) Both I and II follow (c) Only conclusion II follows (d) Neither I nor II follows
+Answer: (b)
+Solution: Mangoes ⊆ fruits ⊆ sweet things, so all mangoes are sweet and conclusion I holds. Since all mangoes are sweet, at least some sweet things are mangoes, so conclusion II also holds. Both conclusions follow, so the answer is "Both I and II follow".
+Source: PYQ-style
+
+12. Statement: Some chairs are tables. No table is a desk.
+Conclusions: I. Some chairs are not desks. II. Some desks are chairs.
+(a) Only conclusion II follows (b) Only conclusion I follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (b)
+Solution: The tempting wrong option asserts a positive link between desks and chairs, but the statements give no such support — the chair-tables are excluded from desks, and nothing is said about the rest. Those chairs that are tables are definitely not desks, so some chairs are not desks. Only conclusion I follows, so the answer is "Only conclusion I follows".
+Source: PYQ-style
+
+13. Statement: All A are B. All B are C. All C are D.
+Conclusions: I. All A are D. II. All B are D.
+(a) Only conclusion I follows (b) Both I and II follow (c) Only conclusion II follows (d) Neither I nor II follows
+Answer: (b)
+Solution: The chain A ⊆ B ⊆ C ⊆ D is transitive, so every A is a D and every B is also a D. Both conclusions follow, so the answer is "Both I and II follow".
+Source: PYQ-style
+
+14. Statement: Some pens are red. All red things are bright.
+Conclusions: I. Some pens are bright. II. Some bright things are pens.
+(a) Both I and II follow (b) Only conclusion II follows (c) Only conclusion I follows (d) Neither I nor II follows
+Answer: (a)
+Solution: The pens that are red must be bright, so some pens are bright, and converting that gives some bright things are pens. Both conclusions follow, so the answer is "Both I and II follow".
+Source: PYQ-style
+
+15. Statement: No bird is a mammal. All sparrows are birds.
+Conclusions: I. No sparrow is a mammal. II. Some mammals are birds.
+(a) Both I and II follow (b) Only conclusion II follows (c) Only conclusion I follows (d) Neither I nor II follows
+Answer: (c)
+Solution: The tempting wrong option directly contradicts "No bird is a mammal", so it can never follow. Since all sparrows are birds and no bird is a mammal, no sparrow can be a mammal. Only conclusion I follows, so the answer is "Only conclusion I follows".
+Source: PYQ-style
+
+16. Statement: All laptops are computers. Some computers are costly.
+Conclusions: I. Some laptops are costly. II. All laptops being costly is a possibility.
+(a) Only conclusion I follows (b) Both I and II follow (c) Only conclusion II follows (d) Neither I nor II follows
+Answer: (c)
+Solution: The trap is conclusion I — the costly computers may all be non-laptops, so a definite overlap cannot be claimed. However, nothing in the statements forbids all laptops from being costly, so the possibility holds. Only conclusion II follows, so the answer is "Only conclusion II follows".
+Source: PYQ-style
+
+17. Statement: Some students are intelligent. All intelligent people work hard.
+Conclusions: I. Some students work hard. II. All students work hard.
+(a) Neither I nor II follows (b) Only conclusion II follows (c) Both I and II follow (d) Only conclusion I follows
+Answer: (d)
+Solution: The tempting wrong option stretches a "some" premise into an "all" conclusion, which is never valid. The intelligent students must work hard, so at least some students work hard. Only conclusion I follows, so the answer is "Only conclusion I follows".
+Source: PYQ-style
+
+18. Statement: All cups are plates. Some plates are spoons.
+Conclusions: I. Some cups are spoons. II. Some plates are cups.
+(a) Only conclusion I follows (b) Neither I nor II follows (c) Both I and II follow (d) Only conclusion II follows
+Answer: (d)
+Solution: The trap is conclusion I — the spoons among the plates may lie entirely outside the cups, so no definite cup-spoon link exists. Conclusion II is the valid conversion of "All cups are plates". Only conclusion II follows, so the answer is "Only conclusion II follows".
+Source: PYQ-style
+
+19. Statement: No tree is a plant. All plants are green.
+Conclusions: I. No tree is green. II. Some green things are plants.
+(a) Only conclusion I follows (b) Neither I nor II follows (c) Both I and II follow (d) Only conclusion II follows
+Answer: (d)
+Solution: The tempting wrong option assumes trees cannot be green, but the statements only separate trees from plants — trees may be green independently. Conclusion II is the valid conversion of "All plants are green". Only conclusion II follows, so the answer is "Only conclusion II follows".
+Source: PYQ-style
+
+20. Statement: All doctors are graduates. Ram is a doctor.
+Conclusions: I. Ram is a graduate. II. Some graduates are doctors.
+(a) Both I and II follow (b) Only conclusion II follows (c) Only conclusion I follows (d) Neither I nor II follows
+Answer: (a)
+Solution: Ram belongs to the class of doctors, and all doctors are graduates, so Ram is a graduate. Conclusion II is the valid particular conversion of "All doctors are graduates". Both conclusions follow, so the answer is "Both I and II follow".
+Source: PYQ-style
+
+21. Statement: Some A are B. No B is C. Some C are D.
+Conclusions: I. Some A are not C. II. Some D are not B. III. Some A are D.
+(a) All follow (b) Only I follows (c) Only II and III follow (d) Only I and II follow
+Answer: (d)
+Solution: The trap is conclusion III — A and D have no connecting term, so linking them is a classic examiner's mislead. The A that are B cannot be C, so some A are not C (I holds); the C that are D cannot be B since no B is C, so some D are not B (II holds). Only I and II follow, so the answer is "Only I and II follow".
+Source: PYQ-style
+
+22. Statement: All pens are pencils. No pencil is an eraser. Some erasers are sharpeners.
+Conclusions: I. No pen is an eraser. II. Some sharpeners are not pencils. III. Some pencils are pens.
+(a) All follow (b) Only I and II follow (c) Only II and III follow (d) Only I and III follow
+Answer: (a)
+Solution: Since pens ⊆ pencils and no pencil is an eraser, no pen is an eraser, so I holds. The erasers that are sharpeners cannot be pencils, so some sharpeners are not pencils, so II holds. III is the valid conversion of "All pens are pencils". All three conclusions follow, so the answer is "All follow".
+Source: PYQ-style
+
+23. Statement: Some mobiles are phones. All phones are gadgets. No gadget is a toy.
+Conclusions: I. Some mobiles are gadgets. II. No phone is a toy. III. Some mobiles are not toys.
+(a) Only I and II follow (b) Only II and III follow (c) Only I and III follow (d) All follow
+Answer: (d)
+Solution: The mobiles that are phones are gadgets, so I holds. All phones are gadgets and no gadget is a toy, so no phone is a toy, so II holds. Those mobile-phones are gadgets and hence not toys, so some mobiles are not toys, so III holds. All three conclusions follow, so the answer is "All follow".
+Source: PYQ-style
+
+24. Statement: Some cats are dogs. All dogs are animals. Some animals are wild.
+Conclusions: I. Some cats are animals. II. Some cats are wild. III. Some animals are dogs.
+(a) Only I and III follow (b) Only I and II follow (c) Only II and III follow (d) All follow
+Answer: (a)
+Solution: The trap is conclusion II — "wild" attaches to animals generally, and the wild animals may include none of the cat-dogs, so no definite cat-wild link exists; this is the examiner's double-relationship mislead. The cats that are dogs are animals, so I holds, and III is the valid conversion of "All dogs are animals". Only I and III follow, so the answer is "Only I and III follow".
+Source: PYQ-style
+
+25. Statement: All stars are suns. All suns are moons. No moon is a planet.
+Conclusions: I. No star is a planet. II. All suns being planets is a possibility. III. Some moons are stars.
+(a) Only I and II follow (b) Only I and III follow (c) Only II and III follow (d) All follow
+Answer: (b)
+Solution: The trap is conclusion II — since every sun is a moon and no moon is a planet, suns are positively barred from being planets, so even the possibility fails; examiners use such "possibility" wording to lure students who skip the negative statement. Stars ⊆ suns ⊆ moons and moons exclude planets, so no star is a planet (I holds), and III is the valid conversion of "All stars are moons". Only I and III follow, so the answer is "Only I and III follow".
+Source: PYQ-style

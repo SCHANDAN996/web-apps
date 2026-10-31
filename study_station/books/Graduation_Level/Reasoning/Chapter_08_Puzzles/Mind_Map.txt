@@ -1,0 +1,47 @@
+```mermaid
+graph TD
+    A["पहेलियाँ (जटिल)<br>Puzzles (Complex)"] --> B["मुख्य प्रकार<br>Main Types"]
+    A --> C["समाधान रणनीति<br>Solution Strategy"]
+    A --> D["समय प्रबंधन<br>Time Management"]
+    A --> E["परीक्षक के जाल<br>Examiner Traps"]
+
+    B --> B1["बैठक व्यवस्था<br>Seating Arrangement"]
+    B --> B2["फ्लोर/मंज़िल पहेली<br>Floor-Based Puzzle"]
+    B --> B3["बॉक्स/स्टैक पहेली<br>Box/Stack Puzzle"]
+    B --> B4["दिन/महीना/वर्ष पहेली<br>Day-Month-Year Puzzle"]
+    B --> B5["तुलना/क्रम पहेली<br>Comparison/Ranking"]
+    B --> B6["चयन/समूह पहेली<br>Selection/Grouping"]
+    B --> B7["रक्त संबंध + व्यवस्था<br>Blood Relation + Arrangement"]
+
+    B1 --> B1a["रेखीय: एक/दो पंक्ति<br>Linear: Single/Double Row"]
+    B1 --> B1b["वृत्ताकार: अंदर/बाहर मुख<br>Circular: Facing In/Out"]
+    B1 --> B1c["आयताकार/वर्गाकार<br>Rectangular/Square"]
+
+    B2 --> B2a["सबसे नीचे = मंज़िल 1<br>Bottom = Floor 1"]
+    B2 --> B2b["खाली मंज़िल संभव<br>Vacant Floor Possible"]
+
+    B4 --> B4a["7 दिन / 12 महीने<br>7 Days / 12 Months"]
+    B4 --> B4b["अलग-अलग वर्ष/तारीख<br>Different Years/Dates"]
+
+    C --> C1["पूरा प्रश्न पहले पढ़ें<br>Read Full Question First"]
+    C --> C2["निश्चित सूत्र से शुरू<br>Start with Definite Clue"]
+    C --> C3["तालिका/चित्र बनाएँ<br>Make Table/Diagram"]
+    C --> C4["संभावनाएँ अलग लिखें<br>Write Possibilities Separately"]
+    C --> C5["नकारात्मक सूत्र से काटें<br>Eliminate via Negative Clues"]
+    C --> C6["सभी शर्तें जाँचें<br>Verify All Conditions"]
+
+    C2 --> C2a["'तुरंत बाएँ' = निश्चित<br>'Immediate Left' = Definite"]
+    C2 --> C2b["'कहीं बाएँ' = अनिश्चित<br>'Somewhere Left' = Uncertain"]
+
+    D --> D1["आसान पहेली: 3-4 मिनट<br>Easy: 3-4 min"]
+    D --> D2["जटिल पहेली: 6-8 मिनट<br>Complex: 6-8 min"]
+    D --> D3["2 मिनट में सूत्र न मिले<br>तो छोड़ें<br>No Clue in 2 min → Skip"]
+    D --> D4["एक पहेली = 4-5 प्रश्न<br>One Puzzle = 4-5 Questions"]
+
+    E --> E1["बाएँ/दाएँ उलटना<br>Left/Right Reversal"]
+    E --> E2["अंदर/बाहर मुख भ्रम<br>Inward/Outward Facing Confusion"]
+    E --> E3["'के बीच' बनाम 'के ठीक बीच'<br>'Between' vs 'Exactly Between'"]
+    E --> E4["'कम से कम/अधिक से अधिक'<br>'At least/At most' Traps"]
+    E --> E5["लिंग/संबंध मिश्रण<br>Gender/Relation Mix-up"]
+    E --> E6["अधूरी जानकारी पर अनुमान<br>Assuming Beyond Given Data"]
+```

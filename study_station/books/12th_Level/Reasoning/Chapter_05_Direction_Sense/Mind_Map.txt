@@ -1,0 +1,42 @@
+```mermaid
+graph TD
+    A["दिशा ज्ञान (कोडेड)<br>Direction Sense (Coded)"] --> B["मूल अवधारणाएँ<br>Basic Concepts"]
+    A --> C["कोडेड दिशाओं के प्रकार<br>Types of Coded Directions"]
+    A --> D["हल करने की रणनीति<br>Solving Strategy"]
+    A --> E["समय प्रबंधन<br>Time Management"]
+    A --> F["परीक्षक के जाल<br>Examiner's Traps"]
+
+    B --> B1["8 दिशाएँ<br>8 Directions"]
+    B1 --> B1a["4 मुख्य: उत्तर, दक्षिण, पूर्व, पश्चिम<br>Main: N, S, E, W"]
+    B1 --> B1b["4 उप-दिशाएँ: उ-पू, उ-प, द-पू, द-प<br>Sub: NE, NW, SE, SW"]
+    B --> B2["दायाँ = दक्षिणावर्त 90°<br>Right = Clockwise 90°"]
+    B --> B3["बायाँ = वामावर्त 90°<br>Left = Anti-clockwise 90°"]
+    B --> B4["पीछे मुड़ना = 180°<br>About turn = 180°"]
+
+    C --> C1["प्रकार 1: दिशा के नाम बदले गए<br>Direction Names Swapped"]
+    C1 --> C1a["जैसे: पूर्व को पश्चिम कहा जाए<br>E.g., East called West"]
+    C1 --> C1b["कोड-तालिका बनाकर हल करें<br>Make a code table first"]
+    C --> C2["प्रकार 2: घड़ी की दिशा से कोड<br>Clock-based Coding"]
+    C2 --> C2a["जैसे: दक्षिणावर्त 45° = नई दिशा<br>E.g., 45° clockwise shift"]
+    C --> C3["प्रकार 3: छाया/समय आधारित<br>Shadow/Time Based"]
+    C3 --> C3a["सुबह छाया पश्चिम में<br>Morning shadow → West"]
+    C3 --> C3b["शाम छाया पूर्व में<br>Evening shadow → East"]
+    C --> C4["प्रकार 4: मिश्रित कोड + मोड़<br>Mixed Code + Turns"]
+    C4 --> C4a["पहले कोड हटाएँ, फिर मोड़ लगाएँ<br>Decode first, then apply turns"]
+
+    D --> D1["चरण 1: कोड-तालिका बनाएँ<br>Step 1: Build code table"]
+    D --> D2["चरण 2: वास्तविक दिशा में बदलें<br>Step 2: Convert to real direction"]
+    D --> D3["चरण 3: आरेख बनाएँ<br>Step 3: Draw diagram"]
+    D --> D4["चरण 4: उत्तर कोड में वापस बदलें<br>Step 4: Convert answer back to code"]
+    D --> D5["सुनिश्चित करें: उत्तर कोड में माँगा है या वास्तविक में?<br>Check: answer asked in code or real?"]
+
+    E --> E1["सरल कोड प्रश्न: 30–40 सेकंड<br>Simple coded Q: 30–40 sec"]
+    E --> E2["मिश्रित/छाया प्रश्न: 60–90 सेकंड<br>Mixed/shadow Q: 60–90 sec"]
+    E --> E3["2 मिनट से अधिक = छोड़ें, बाद में आएँ<br>>2 min = skip, return later"]
+
+    F --> F1["जाल 1: उत्तर वास्तविक दिशा में दे देना<br>Answering in real direction instead of code"]
+    F --> F2["जाल 2: दायाँ/बायाँ उलटना<br>Confusing right/left turns"]
+    F --> F3["जाल 3: छाया का समय भूलना<br>Forgetting morning/evening shadow rule"]
+    F --> F4["जाल 4: आधा कोड लागू करना<br>Applying code only partially"]
+    F --> F5["जाल 5: 45° और 90° मोड़ में भ्रम<br>Confusing 45° vs 90° turns"]
+```

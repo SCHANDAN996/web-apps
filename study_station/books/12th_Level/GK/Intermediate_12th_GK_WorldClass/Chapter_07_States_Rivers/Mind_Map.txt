@@ -1,0 +1,42 @@
+```mermaid
+graph TD
+    A["राज्य एवं नदियाँ<br>States & Rivers"] --> B["प्रमुख नदी तंत्र<br>Major River Systems"]
+    A --> C["राज्य-नदी संबंध<br>State-River Links"]
+    A --> D["नदी तट के शहर<br>Cities on River Banks"]
+    A --> E["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> F["रणनीति<br>Strategy"]
+
+    B --> B1["गंगा तंत्र<br>Ganga System"]
+    B --> B2["ब्रह्मपुत्र तंत्र<br>Brahmaputra System"]
+    B --> B3["सिंधु तंत्र<br>Indus System"]
+    B --> B4["प्रायद्वीपीय नदियाँ<br>Peninsular Rivers"]
+
+    B1 --> B1a["मुख्य सहायक: यमुना, घाघरा,<br>गंडक, कोसी, सोन<br>Key Tributaries"]
+    B1 --> B1b["उद्गम: गंगोत्री हिमनद<br>Source: Gangotri Glacier"]
+    B2 --> B2a["उद्गम: तिब्बत (चेमायुंगडुंग हिमनद)<br>Source: Chemayungdung Glacier, Tibet"]
+    B2 --> B2b["असम में मुख्य धारा<br>Main Course in Assam"]
+    B3 --> B3a["सहायक: झेलम, चिनाब, रावी,<br>व्यास, सतलज<br>Tributaries: Jhelum, Chenab,<br>Ravi, Beas, Sutlej"]
+    B4 --> B4a["पश्चिम वाहिनी: नर्मदा, तापी<br>West-flowing: Narmada, Tapi"]
+    B4 --> B4b["पूर्व वाहिनी: महानदी, गोदावरी,<br>कृष्णा, कावेरी<br>East-flowing: Mahanadi, Godavari,<br>Krishna, Kaveri"]
+
+    C --> C1["नर्मदा: MP, गुजरात, महाराष्ट्र<br>Narmada: MP, Gujarat, Maharashtra"]
+    C --> C2["कावेरी: कर्नाटक, तमिलनाडु<br>Kaveri: Karnataka, Tamil Nadu"]
+    C --> C3["गोदावरी: महाराष्ट्र, तेलंगाना, AP<br>Godavari: Maharashtra, Telangana, AP"]
+    C --> C4["महानदी: छत्तीसगढ़, ओडिशा<br>Mahanadi: Chhattisgarh, Odisha"]
+
+    D --> D1["वाराणसी-गंगा, प्रयागराज-संगम<br>Varanasi-Ganga, Prayagraj-Sangam"]
+    D --> D2["अहमदाबाद-साबरमती, सूरत-तापी<br>Ahmedabad-Sabarmati, Surat-Tapi"]
+    D --> D3["जबलपुर-नर्मदा, पटना-गंगा<br>Jabalpur-Narmada, Patna-Ganga"]
+    D --> D4["गुवाहाटी-ब्रह्मपुत्र, श्रीनगर-झेलम<br>Guwahati-Brahmaputra, Srinagar-Jhelum"]
+
+    E --> E1["उद्गम बनाम मुहाना भ्रम<br>Source vs Mouth Confusion"]
+    E --> E2["मिलते नाम: तापी/ताप्ती,<br>गंगा/गोमती<br>Similar Names Trap"]
+    E --> E3["पूर्व/पश्चिम वाहिनी उलटना<br>East/West Flowing Reversal"]
+    E --> E4["नकारात्मक प्रश्न: 'नहीं है'<br>Negative Questions: 'NOT'"]
+    E --> E5["शहर-नदी गलत जोड़ी<br>Wrong City-River Pair"]
+
+    F --> F1["मानचित्र पर नदी ट्रेस करें<br>Trace Rivers on Map"]
+    F --> F2["सहायक नदियाँ क्रम से याद करें<br>Memorise Tributaries in Order"]
+    F --> F3["15/45 सेकंड नियम<br>15/45 Second Rule"]
+    F --> F4["रिवीजन: साप्ताहिक माइंड मैप<br>Weekly Mind Map Revision"]
+```

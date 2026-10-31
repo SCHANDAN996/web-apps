@@ -1,0 +1,43 @@
+# Important Rules & Approaches — Cubes & Dice
+
+## Part 1: Key Rules / Approaches
+
+| Rule Name | Description | Example |
+|---|---|---|
+| Standard Dice Rule | In a standard die, the sum of numbers on opposite faces is always 7. | 1 is opposite 6, 2 is opposite 5, 3 is opposite 4. |
+| One Common Face (Same Position) Rule | If two views of a die show one common face in the same position, then the faces in the other corresponding positions are opposite to each other. | Both views show 3 on top; front faces are 2 and 5, side faces are 1 and 4 → 2 is opposite 5, and 1 is opposite 4. |
+| Two Common Faces Rule | If two views of a die show two common faces, the remaining (third) faces are opposite to each other. | Views show (1, 2) and (1, 2) with third faces 4 and 6 → 4 is opposite 6. |
+| One Common Face (Different Position) Rule | If one face is common but appears in different positions, list the faces adjacent to the common face in each view; the face adjacent to the common face in neither pairing logic — the two faces that appear with the common face in the same rotational order are matched, and the leftover faces are opposite. | Common face 5; write the faces around 5 in clockwise order for both views; faces occupying the same relative slot are opposite. |
+| Opposite Face Elimination | A face can never be adjacent to its opposite face; eliminate options showing opposite faces together. | If 1 is opposite 6, any option showing 1 and 6 on adjacent faces is wrong. |
+| Painted Cube — Corner Pieces | A cube cut into n³ smaller cubes has exactly 8 corner pieces with 3 painted faces. | A 4×4×4 cube has 8 three-face-painted cubes. |
+| Painted Cube — Edge Pieces | Cubes with 2 painted faces lie on edges (excluding corners): 12(n−2). | n = 4 → 12×2 = 24 two-face-painted cubes. |
+| Painted Cube — Face Pieces | Cubes with 1 painted face lie on faces (excluding edges): 6(n−2)². | n = 4 → 6×4 = 24 one-face-painted cubes. |
+| Painted Cube — Inner Cubes | Cubes with 0 painted faces are completely inside: (n−2)³. | n = 4 → 2³ = 8 unpainted cubes. |
+| Total Verification | Sum of all categories must equal n³. | 8 + 24 + 24 + 8 = 64 = 4³. |
+| Cube Net — Straight Line of Four Rule | In a cube net that contains a straight line of four squares, the 1st square is opposite the 3rd, and the 2nd is opposite the 4th; the two remaining squares are opposite each other. This applies only to nets containing such a line of four, not to every net. | In a row of 4 squares A–B–C–D: A is opposite C, B is opposite D. |
+| Rotation Counting | A cube has 24 distinct orientations (6 faces × 4 rotations). | Used to check whether two dice views can be the same die. |
+
+## Part 2: Time Management
+
+| Situation | Time Rule | Action |
+|---|---|---|
+| Dice opposite-face question | 15-second rule | If the common face is not spotted within 15 seconds, mark and skip; return later. |
+| Painted cube counting (n given) | 15-second rule | Directly apply formulas; should take under 15 seconds. If n is not clearly given, skip. |
+| Two/three dice views comparison | 45-second rule | Maximum 45 seconds to identify common faces and derive opposites; if not resolved, guess by eliminating adjacent-opposite options and move on. |
+| Cube net folding question | 45-second rule | Try the straight-line-of-four opposite rule first; if the net is irregular and unclear in 45 seconds, skip. |
+| Multi-cut painted cuboid (different cuts per axis) | 45-second rule | Compute l×m×n breakdown; if dimensions are confusing, skip rather than misapply formulas. |
+
+## Part 3: Logical / Mathematical Formulas
+
+| Formula | Meaning | Condition |
+|---|---|---|
+| Opposite faces sum = 7 | Standard die property | Only for standard dice |
+| 3-face painted = 8 | Corner cubes | Cube cut into n³ parts, n ≥ 2 |
+| 2-face painted = 12(n−2) | Edge cubes | n ≥ 2 |
+| 1-face painted = 6(n−2)² | Face-centre cubes | n ≥ 2 |
+| 0-face painted = (n−2)³ | Inner cubes | n ≥ 2 |
+| Total = n³ | Verification | Always |
+| Cuboid: 3-face painted = 8 | Corner pieces of l×m×n cuboid | l, m, n ≥ 2 |
+| Cuboid: 2-face painted = 4[(l−2)+(m−2)+(n−2)] | Edge pieces of l×m×n cuboid | l, m, n ≥ 2 |
+| Cuboid: 1-face painted = 2[(l−2)(m−2)+(m−2)(n−2)+(l−2)(n−2)] | Face pieces of cuboid | l, m, n ≥ 2 |
+| Cuboid: 0-face painted = (l−2)(m−2)(n−2) | Inner pieces of cuboid | l, m, n ≥ 2 |

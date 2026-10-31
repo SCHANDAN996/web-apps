@@ -1,3 +1,151 @@
-# Chapter: Permutation & Combination, Level: intermediate, Set: 2/6
+Questions 26–45: Easy | Questions 46–50: Medium
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Permutation & Combination. This is Set 2 (total 6 sets, 150 questions). Questions must be numbered 26 to 50. All 25 questions should be Medium. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+26. In how many different ways can the letters of the word "LEADER" be arranged?
+(a) 720 (b) 360 (c) 120 (d) 240
+Answer: (b)
+Solution: The tempting answer 720 comes from 6! without noticing the repetition. The word LEADER has 6 letters with E repeated twice, so arrangements = 6!/2! = 720/2 = 360, so the answer is 360.
+Source: NCERT Class 11 Mathematics
+
+27. How many 4-digit numbers can be formed using the digits 1, 2, 3, 4, 5 if no digit is repeated?
+(a) 60 (b) 625 (c) 24 (d) 120
+Answer: (d)
+Solution: Choosing 4! = 24 is the trap — that only arranges 4 fixed digits and ignores the choice of which 4 digits to use. Number of ways = ⁵P₄ = 5 × 4 × 3 × 2 = 120, so the answer is 120.
+Source: NCERT Class 11 Mathematics
+
+28. In how many ways can 5 boys and 3 girls be seated in a row so that all the girls sit together?
+(a) 720 (b) 40320 (c) 1440 (d) 4320
+Answer: (d)
+Solution: Treating all 8 people as distinct gives 40320, which ignores the "girls together" condition. Tie the 3 girls into one block: 6 units arrange in 6! = 720 ways, and girls arrange within the block in 3! = 6 ways, giving 720 × 6 = 4320, so the answer is 4320.
+Source: NCERT Class 11 Mathematics
+
+29. A committee of 4 is to be formed from 6 men and 4 women such that it contains at least one woman. In how many ways can this be done?
+(a) 210 (b) 180 (c) 195 (d) 200
+Answer: (c)
+Solution: The trap is computing ⁴C₁ × ⁹C₃ = 336, which double-counts committees with more than one woman. Use complement: total committees ¹⁰C₄ = 210 minus all-men committees ⁶C₄ = 15, giving 210 − 15 = 195, so the answer is 195.
+Source: NCERT Class 11 Mathematics
+
+30. How many words can be formed from the letters of "DAUGHTER" so that the vowels always come together?
+(a) 4320 (b) 8640 (c) 2160 (d) 720
+Answer: (a)
+Solution: Vowels are A, U, E (3 vowels) and consonants D, G, H, T, R (5). Treating all 8 letters freely gives 40320, which ignores the condition. Bundle the vowels: 6 units in 6! = 720 ways, vowels inside in 3! = 6 ways, giving 720 × 6 = 4320, so the answer is 4320.
+Source: NCERT Class 11 Mathematics
+
+31. In how many ways can 7 people be seated around a circular table?
+(a) 120 (b) 5040 (c) 360 (d) 720
+Answer: (d)
+Solution: The trap is 7! = 5040, which counts rotations of the same arrangement as different. In circular permutations, fix one person and arrange the rest: (7 − 1)! = 6! = 720, so the answer is 720.
+Source: NCERT Class 11 Mathematics
+
+32. How many diagonals does a polygon with 10 sides have?
+(a) 30 (b) 45 (c) 40 (d) 35
+Answer: (d)
+Solution: The trap is ¹⁰C₂ = 45, which counts the 10 sides as well. Diagonals = ¹⁰C₂ − 10 = 45 − 10 = 35, so the answer is 35.
+Source: NCERT Class 11 Mathematics
+
+33. From a group of 7 men and 6 women, a committee of 5 is to be formed with exactly 3 men. How many ways are possible?
+(a) 525 (b) 700 (c) 350 (d) 1050
+Answer: (a)
+Solution: The trap is stopping at ⁷C₃ = 35, which forgets the 2 women required to complete the committee of 5. Ways = ⁷C₃ × ⁶C₂ = 35 × 15 = 525, so the answer is 525.
+Source: NCERT Class 11 Mathematics
+
+34. How many 3-digit even numbers can be formed from the digits 1, 2, 3, 4, 5, 6 without repetition?
+(a) 60 (b) 120 (c) 90 (d) 30
+Answer: (a)
+Solution: Computing ⁶P₃ = 120 ignores the "even" condition. The units place must be 2, 4 or 6 (3 choices); then the remaining two places fill from 5 digits in 5 × 4 = 20 ways, giving 3 × 20 = 60, so the answer is 60.
+Source: NCERT Class 11 Mathematics
+
+35. In how many ways can the letters of "BANANA" be arranged?
+(a) 720 (b) 360 (c) 60 (d) 120
+Answer: (c)
+Solution: The trap is 6! = 720, ignoring repeated letters. BANANA has 6 letters with A thrice and N twice: 6!/(3! × 2!) = 720/12 = 60, so the answer is 60.
+Source: NCERT Class 11 Mathematics
+
+36. If ⁿP₂ = 30, find the value of n.
+(a) 5 (b) 7 (c) 6 (d) 8
+Answer: (c)
+Solution: Guessing n = 5 gives ⁵P₂ = 20, which is too small. Solve n(n − 1) = 30, so n² − n − 30 = 0, giving (n − 6)(n + 5) = 0, hence n = 6, so the answer is 6.
+Source: NCERT Class 11 Mathematics
+
+37. How many ways are there to select 3 books from 8 different books?
+(a) 336 (b) 112 (c) 24 (d) 56
+Answer: (d)
+Solution: The trap is ⁸P₃ = 336, which counts order — but selecting books is unordered. Ways = ⁸C₃ = 8!/(3! × 5!) = 56, so the answer is 56.
+Source: NCERT Class 11 Mathematics
+
+38. In how many ways can 4 prizes be distributed among 5 students if no student gets more than one prize?
+(a) 625 (b) 20 (c) 60 (d) 120
+Answer: (d)
+Solution: The trap is 5⁴ = 625, which allows a student to win multiple prizes. With at most one prize each, it is ⁵P₄ = 5 × 4 × 3 × 2 = 120, so the answer is 120.
+Source: NCERT Class 11 Mathematics
+
+39. How many different signals can be made by hoisting 5 flags of different colours one above the other, using all flags?
+(a) 25 (b) 120 (c) 60 (d) 240
+Answer: (b)
+Solution: The trap is 5 × 5 = 25, which wrongly allows repetition. All 5 distinct flags arranged in order: 5! = 120, so the answer is 120.
+Source: NCERT Class 11 Mathematics
+
+40. A box contains 4 red and 5 blue balls. In how many ways can 3 balls be drawn so that exactly 2 are red?
+(a) 30 (b) 45 (c) 120 (d) 60
+Answer: (a)
+Solution: The trap is ⁹C₃ = 84, which ignores the requirement of exactly 2 red balls. Ways = ⁴C₂ × ⁵C₁ = 6 × 5 = 30, so the answer is 30.
+Source: NCERT Class 11 Mathematics
+
+41. How many numbers greater than 4000 can be formed with the digits 2, 3, 4, 5 without repetition, using all four digits?
+(a) 12 (b) 24 (c) 18 (d) 6
+Answer: (a)
+Solution: Taking all 4! = 24 arrangements ignores the "greater than 4000" condition. The thousands digit must be 4 or 5 (2 choices), and the remaining 3 digits arrange in 3! = 6 ways, giving 2 × 6 = 12, so the answer is 12.
+Source: NCERT Class 11 Mathematics
+
+42. In how many ways can 6 different books be arranged on a shelf so that two particular books are never together?
+(a) 240 (b) 720 (c) 480 (d) 600
+Answer: (c)
+Solution: The trap is answering 240, which is only the "together" count, not the "never together" count. Total arrangements = 6! = 720; together = 2 × 5! = 240; never together = 720 − 240 = 480, so the answer is 480.
+Source: NCERT Class 11 Mathematics
+
+43. If ⁿC₈ = ⁿC₆, find the value of n.
+(a) 14 (b) 12 (c) 48 (d) 2
+Answer: (a)
+Solution: The trap is thinking 8 = 6, which is impossible, and giving up. Use the rule: if ⁿCᵣ = ⁿCₛ then r = s or r + s = n. Here n = 8 + 6 = 14, so the answer is 14.
+Source: NCERT Class 11 Mathematics
+
+44. How many straight lines can be drawn through 10 points, no three of which are collinear?
+(a) 90 (b) 45 (c) 100 (d) 20
+Answer: (b)
+Solution: The trap is 10 × 9 = 90, which counts each line twice (once from each endpoint). Lines = ¹⁰C₂ = 45, so the answer is 45.
+Source: NCERT Class 11 Mathematics
+
+45. In how many ways can a cricket team of 11 players be chosen from 15 players, if a particular player is always included?
+(a) 1365 (b) 1001 (c) 364 (d) 455
+Answer: (b)
+Solution: The trap is ¹⁵C₁₁ = 1365, which ignores the condition that one player is fixed. Fix that player, then choose the remaining 10 from 14: ¹⁴C₁₀ = ¹⁴C₄ = 1001, so the answer is 1001.
+Source: NCERT Class 11 Mathematics
+
+46. How many 5-letter words (meaningful or not) can be formed from the letters of "APPLE"?
+(a) 120 (b) 24 (c) 60 (d) 30
+Answer: (c)
+Solution: The trap is 5! = 120, ignoring the repeated P. APPLE has 5 letters with P twice: 5!/2! = 120/2 = 60, so the answer is 60.
+Source: NCERT Class 11 Mathematics
+
+47. In how many ways can 5 men and 5 women be seated in a row so that no two women sit together?
+(a) 28800 (b) 14400 (c) 86400 (d) 7200
+Answer: (c)
+Solution: The trap is 5! × 5! = 14400, which places women only in the 5 gaps between men and forgets the two end gaps. Arrange men in 5! = 120 ways; there are 6 gaps, choose and arrange women in ⁶P₅ = 720 ways; total = 120 × 720 = 86400, so the answer is 86400.
+Source: NCERT Class 11 Mathematics
+
+48. How many triangles can be formed by joining the vertices of an octagon?
+(a) 28 (b) 56 (c) 48 (d) 64
+Answer: (b)
+Solution: The trap is 8 × 7 × 6 = 336, which counts order and repeats each triangle 6 times. Triangles = ⁸C₃ = 56, so the answer is 56.
+Source: NCERT Class 11 Mathematics
+
+49. In how many ways can the letters of "SCHOOL" be arranged so that the two O's are always together?
+(a) 360 (b) 120 (c) 240 (d) 60
+Answer: (b)
+Solution: The trap is 6!/2! = 360, which separates the O's instead of binding them. Treat OO as one unit: 5 units arrange in 5! = 120 ways (O's identical inside), so the answer is 120.
+Source: NCERT Class 11 Mathematics
+
+50. A question paper has two sections of 5 questions each. A student must attempt 6 questions, choosing at least 2 from each section. In how many ways can this be done?
+(a) 200 (b) 400 (c) 300 (d) 250
+Answer: (a)
+Solution: The trap is ¹⁰C₆ = 210, which ignores the minimum-2-per-section rule. Valid splits are (2,4), (3,3), (4,2): ⁵C₂×⁵C₄ + ⁵C₃×⁵C₃ + ⁵C₄×⁵C₂ = 50 + 100 + 50 = 200, so the answer is 200.
+Source: NCERT Class 11 Mathematics

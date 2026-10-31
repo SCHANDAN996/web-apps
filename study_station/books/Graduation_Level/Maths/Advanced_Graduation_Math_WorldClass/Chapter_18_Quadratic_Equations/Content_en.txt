@@ -1,0 +1,159 @@
+# Quadratic Equations & Series
+
+## Why This Chapter Can Make or Break Your Score
+
+In almost every major exam — SSC CGL Tier-II, IBPS PO Mains, CAT, State PCS — quadratic equations and series questions appear as "quick kills." Candidates who know the patterns solve a quadratic comparison question in well under a minute; others burn 3 minutes and still pick the wrong option. The difference is not intelligence — it is knowing a handful of patterns cold. This chapter gives you exactly those patterns.
+
+**Learning goals:**
+1. Solve any quadratic equation by factorisation, formula, or inspection.
+2. Master root–coefficient relations (sum and product of roots) and use them backwards.
+3. Crack "compare x and y" questions without fully solving.
+4. Identify and solve Arithmetic, Geometric, and special series (including missing/wrong number series).
+
+---
+
+## Part 1: The Quadratic Equation — One Shape, Many Faces
+
+A quadratic equation is any equation that can be written as:
+
+**ax² + bx + c = 0**, where a ≠ 0.
+
+That's it. The "quad" simply means the highest power of x is 2. Everything in this chapter flows from this one line.
+
+There are three ways to find its solutions (called **roots**):
+
+**1. Factorisation** — split the middle term so that ax² + bx + c breaks into two brackets.
+Example: x² − 5x + 6 = 0 → (x − 2)(x − 3) = 0 → x = 2 or x = 3.
+
+**2. The quadratic formula** — works always, even when factorisation fails:
+
+**x = [−b ± √(b² − 4ac)] / 2a**
+
+**3. Inspection (the exam trick)** — if the roots are integers, their sum is −b/a and product is c/a. Guess two numbers that fit, and you're done in seconds.
+
+🧠 **Active Recall:** Without looking back — what are the three methods to solve a quadratic? What is the formula for the sum of roots?
+
+---
+
+## Part 2: The Discriminant — The Equation's Fortune Teller
+
+The expression inside the square root, **D = b² − 4ac**, is called the **discriminant**. Before you solve anything, D tells you what kind of roots to expect:
+
+- **D > 0** → two distinct real roots
+- **D = 0** → two equal real roots (x = −b/2a)
+- **D < 0** → no real roots (complex roots)
+
+Examiners love asking "for what value of k does the equation have equal roots?" — the answer is always: set D = 0 and solve for k.
+
+🧠 **Active Recall:** If D = 0, what is the single root equal to? What does D < 0 mean?
+
+---
+
+## Part 3: Sum and Product of Roots — The Real Exam Weapon
+
+For ax² + bx + c = 0 with roots α and β:
+
+- **Sum of roots: α + β = −b/a**
+- **Product of roots: αβ = c/a**
+
+This pair of facts is the single most tested idea in this chapter. It works **backwards** too: if you know the sum and product, you can *build* the equation:
+
+**x² − (sum of roots)x + (product of roots) = 0**
+
+**Memory trick — "S-P-S":** **S**um gives the **S**ign-flipped middle term; **P**roduct gives the last term. Say it as: *"Flip the Sum, keep the Product."*
+
+**Example:** Roots are 4 and −3. Sum = 1, Product = −12. Equation: x² − (1)x + (−12) = 0 → **x² − x − 12 = 0**. Ten seconds, done.
+
+🧠 **Active Recall:** Build the quadratic whose roots are 5 and −2. (Answer: x² − 3x − 10 = 0.)
+
+---
+
+## Part 4: The "Compare x and y" Question Type
+
+This is the signature question of bank and SSC exams:
+
+> I. 2x² − 7x + 6 = 0
+> II. 2y² − 9y + 10 = 0
+> Compare x and y.
+
+**The trap:** solving both equations fully. You often don't need to. Use the **sign trick**, which follows directly from the sum and product of roots (assuming a > 0):
+
+- **Form x² − bx + c with b > 0, c > 0:** sum of roots = b > 0 and product = c > 0 → **both roots are positive**.
+- **Form x² + bx + c with b > 0, c > 0:** sum of roots = −b < 0 and product = c > 0 → **both roots are negative**.
+- **c < 0** (product negative) → roots have **opposite signs** — one positive, one negative.
+
+So if every root of x is positive and every root of y is negative, you can conclude x > y without solving at all.
+
+When signs alone don't settle it, factorise quickly, list both roots of each equation, and compare **every root of x with every root of y**. Only if one variable is greater in *all* comparisons can you conclude x > y. Otherwise the answer is **"relationship cannot be determined" (CND)** — which is the correct answer far more often than candidates think.
+
+**Example above:** For x: 2x² − 7x + 6 = (2x − 3)(x − 2) → x = 1.5, 2. For y: 2y² − 9y + 10 = (2y − 5)(y − 2) → y = 2.5, 2. Comparing: sometimes x < y, sometimes x = y → **CND**.
+
+🧠 **Active Recall:** In compare-x-and-y questions, when is the answer "relationship cannot be determined"?
+
+---
+
+## Part 5: Series — Arithmetic, Geometric, and the Exam's Favourite Tricks
+
+A **series** (or progression) is an ordered list of numbers following a rule.
+
+**Arithmetic Progression (AP):** constant difference d between terms.
+- nth term: **aₙ = a + (n − 1)d**
+- Sum of n terms: **Sₙ = n/2 × [2a + (n − 1)d] = n/2 × (first + last)**
+
+**Geometric Progression (GP):** constant ratio r between terms.
+- nth term: **aₙ = arⁿ⁻¹**
+- Sum of n terms: **Sₙ = a(rⁿ − 1)/(r − 1)** for r ≠ 1
+- Infinite sum (|r| < 1): **S∞ = a/(1 − r)**
+
+**Number series questions** in exams rarely announce themselves as AP or GP. Instead, look for these patterns, in this order:
+
+1. **Differences** — are the gaps constant (AP), or do the gaps themselves form a pattern (×2, +3, squares…)?
+2. **Ratios** — is each term a multiple of the previous (GP or mixed like ×2 + 1)?
+3. **Squares/cubes** — terms like 4, 9, 16, 25 or 1, 8, 27, 64, possibly ± a small number.
+4. **Alternating or two interleaved series** — odd positions follow one rule, even positions another.
+
+**Example:** 3, 7, 15, 31, 63, ?
+Differences: 4, 8, 16, 32 — doubling. Next difference 64 → **127**. (Hidden rule: ×2 + 1.)
+
+🧠 **Active Recall:** What are the four pattern checks for number series, in order? What is the infinite GP sum formula and when does it apply?
+
+---
+
+## Part 6: Wrong Number Series — Find the Impostor
+
+In this type, one term breaks the pattern. Strategy: first decode the rule from the *majority* of terms, then find the one that violates it.
+
+**Example:** 2, 6, 12, 20, 32, 42
+Differences: 4, 6, 8, 12, 10 — the pattern should be +4, +6, +8, +10, +12, giving 2, 6, 12, 20, 30, 42. So **32 is wrong** (should be 30).
+
+Notice the series is also n² + n: 2, 6, 12, 20, 30, 42. Recognising n² ± n patterns (2, 6, 12, 20, 30…) is a huge time-saver — memorise this family.
+
+🧠 **Active Recall:** What is the n² + n series? How do you approach a wrong-number question differently from a missing-number one?
+
+---
+
+## Summary Table
+
+| Concept | Key Fact | Exam Use |
+|---|---|---|
+| Standard form | ax² + bx + c = 0 | Identify a, b, c first |
+| Quadratic formula | x = [−b ± √(b²−4ac)] / 2a | When factorisation fails |
+| Discriminant | D = b² − 4ac | D>0: 2 roots; D=0: equal; D<0: none real |
+| Sum of roots | −b/a | Build equations backwards |
+| Product of roots | c/a | Sign of c tells root signs |
+| Compare x & y | Check all root pairs | CND is often correct |
+| AP nth term | a + (n−1)d | Term & sum problems |
+| GP sum | a(rⁿ−1)/(r−1); S∞ = a/(1−r) | Growth/decay problems |
+| Series patterns | Differences → ratios → squares → interleave | Missing/wrong number |
+
+---
+
+## 🔁 Review this after 2 days
+
+Close the book and answer from memory:
+1. Write the quadratic formula and the discriminant conditions.
+2. Build the equation with roots 6 and −4.
+3. Solve: 2, 5, 10, 17, 26, ? (Hint: n² + 1 → answer 37.)
+4. In compare-x-and-y questions, when must you answer CND?
+
+If any of these take more than 30 seconds, re-read that section — then review once more after a week.

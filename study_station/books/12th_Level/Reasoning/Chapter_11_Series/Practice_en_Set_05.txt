@@ -1,0 +1,149 @@
+101. Find the missing term: 3, 7, 15, 31, 63, ?
+(a) 127 (b) 111 (c) 95 (d) 131
+Answer: (a)
+Solution: Each term is double the previous term plus 1: 3×2+1=7, 7×2+1=15, 15×2+1=31, 31×2+1=63, so 63×2+1=127. The tempting value 131 comes from wrongly adding 68 as if the gaps doubled without the +1 step. The answer is 127.
+Source: PYQ-style
+
+102. Find the missing term: 2, 6, 12, 20, 30, ?
+(a) 40 (b) 44 (c) 42 (d) 36
+Answer: (c)
+Solution: The differences are 4, 6, 8, 10, so the next difference is 12, giving 30+12=42. Equivalently the terms are n(n+1): 1×2, 2×3, …, 6×7=42. The option 40 tempts those who add only 10 again. The answer is 42.
+Source: PYQ-style
+
+103. Find the next term: Z, X, V, T, R, ?
+(a) P (b) Q (c) O (d) N
+Answer: (a)
+Solution: Letters move backward by 2 each time: Z→X→V→T→R→P. The option Q tempts those who count only one step back from R. The answer is P.
+Source: PYQ-style
+
+104. Find the missing term: 5, 11, 23, 47, 95, ?
+(a) 189 (b) 193 (c) 190 (d) 191
+Answer: (d)
+Solution: Each term is double the previous plus 1: 5×2+1=11, 11×2+1=23, 23×2+1=47, 47×2+1=95, so 95×2+1=191. The value 190 tempts those who merely double 95 and forget the +1. The answer is 191.
+Source: PYQ-style
+
+105. Find the next term: B, E, H, K, N, ?
+(a) P (b) O (c) Q (d) R
+Answer: (c)
+Solution: Each letter advances by 3: B(2), E(5), H(8), K(11), N(14), so next is 17 = Q. The option P tempts those who add only 2 to N. The answer is Q.
+Source: PYQ-style
+
+106. Find the missing term: 1, 4, 9, 16, 25, ?, 49
+(a) 36 (b) 35 (c) 30 (d) 40
+Answer: (a)
+Solution: These are perfect squares: 1², 2², 3², 4², 5², 6²=36, 7²=49. The option 35 tempts those who treat the gaps (3, 5, 7, 9) as continuing with 10 instead of 11. The answer is 36.
+Source: NCERT Class 8 Mathematics (Squares)
+
+107. Find the next term: 2, 3, 5, 7, 11, 13, ?
+(a) 15 (b) 16 (c) 17 (d) 19
+Answer: (c)
+Solution: The series lists consecutive prime numbers: 2, 3, 5, 7, 11, 13, so the next prime is 17. The option 15 tempts those who assume a simple +2 odd-number pattern, but 15 is not prime and 9 was already skipped. The answer is 17.
+Source: PYQ-style
+
+108. Find the missing term: 100, 90, 81, 73, 66, ?
+(a) 59 (b) 61 (c) 60 (d) 58
+Answer: (c)
+Solution: The subtractions decrease by 1 each time: −10, −9, −8, −7, so next is −6, giving 66−6=60. The option 61 tempts those who subtract 5 instead of 6. The answer is 60.
+Source: PYQ-style
+
+109. Find the next term: A, C, F, J, O, ?
+(a) T (b) S (c) V (d) U
+Answer: (d)
+Solution: The gaps grow by 1: A+2=C, C+3=F, F+4=J, J+5=O, so O+6=U. The option T tempts those who add 5 again instead of 6. The answer is U.
+Source: PYQ-style
+
+110. Find the missing term: 7, 14, 28, 56, ?, 224
+(a) 96 (b) 112 (c) 104 (d) 108
+Answer: (b)
+Solution: Each term doubles: 7, 14, 28, 56, 112, 224. The option 96 tempts those who switch to adding a growing difference instead of multiplying by 2. The answer is 112.
+Source: PYQ-style
+
+111. Find the next term: 4, 9, 25, 49, 121, ?
+(a) 169 (b) 144 (c) 196 (d) 225
+Answer: (a)
+Solution: These are squares of consecutive primes: 2²=4, 3²=9, 5²=25, 7²=49, 11²=121, so next is 13²=169. The trap option 144 = 12² tempts those who simply continue squaring consecutive integers. The answer is 169.
+Source: PYQ-style
+
+112. Find the missing term: 13, 17, 23, 31, 41, ?
+(a) 51 (b) 47 (c) 49 (d) 53
+Answer: (d)
+Solution: The differences are even numbers growing by 2: +4, +6, +8, +10, so next is +12, giving 41+12=53. The option 51 tempts those who add 10 again. The answer is 53.
+Source: PYQ-style
+
+113. Find the next term: D, G, J, M, P, ?
+(a) R (b) S (c) Q (d) T
+Answer: (b)
+Solution: Each letter advances by 3: D(4), G(7), J(10), M(13), P(16), so next is 19 = S. The option R tempts those who add only 2 to P. The answer is S.
+Source: PYQ-style
+
+114. Find the missing term: 6, 12, 21, 33, 48, ?
+(a) 60 (b) 63 (c) 66 (d) 69
+Answer: (c)
+Solution: The differences grow by 3: +6, +9, +12, +15, so next is +18, giving 48+18=66. The option 63 tempts those who add 15 again instead of increasing the gap. The answer is 66.
+Source: PYQ-style
+
+115. Find the next term: 1, 1, 2, 3, 5, 8, 13, ?
+(a) 18 (b) 21 (c) 20 (d) 19
+Answer: (b)
+Solution: This is the Fibonacci pattern — each term is the sum of the previous two: 8+13=21. The option 18 tempts those who add 5 (the last gap) again. The answer is 21.
+Source: PYQ-style
+
+116. Find the missing term: 2, 5, 11, 23, 47, ?
+(a) 95 (b) 94 (c) 93 (d) 96
+Answer: (a)
+Solution: Each term is double the previous plus 1: 2×2+1=5, 5×2+1=11, 11×2+1=23, 23×2+1=47, so 47×2+1=95. The trap option 94 tempts those who only double 47 and forget the +1. The answer is 95.
+Source: PYQ-style
+
+117. Find the next term: ZA, YB, XC, WD, ?
+(a) VE (b) UF (c) VD (d) UE
+Answer: (a)
+Solution: The first letter moves back by 1 (Z, Y, X, W, V) and the second letter moves forward by 1 (A, B, C, D, E), giving VE. The option UF tempts those who move the first letter back by 2. The answer is VE.
+Source: PYQ-style
+
+118. Find the missing term: 8, 27, 64, 125, ?, 343
+(a) 200 (b) 196 (c) 225 (d) 216
+Answer: (d)
+Solution: These are cubes: 2³=8, 3³=27, 4³=64, 5³=125, 6³=216, 7³=343. The option 225 tempts those who confuse cubes with squares (15²=225). The answer is 216.
+Source: NCERT Class 8 Mathematics (Cubes)
+
+119. Find the next term: 3, 6, 11, 18, 27, ?
+(a) 36 (b) 40 (c) 38 (d) 35
+Answer: (c)
+Solution: The differences are consecutive odd numbers: +3, +5, +7, +9, so next is +11, giving 27+11=38. The option 36 tempts those who add 9 again. The answer is 38.
+Source: PYQ-style
+
+120. Find the missing term: 17, 19, 23, 29, 31, ?
+(a) 33 (b) 35 (c) 39 (d) 37
+Answer: (d)
+Solution: The series lists consecutive prime numbers starting from 17: 17, 19, 23, 29, 31, so the next prime is 37. The trap options 33, 35 and 39 tempt those who follow an odd-number pattern, but none of them is prime. The answer is 37.
+Source: PYQ-style
+
+121. Find the missing term: 2, 6, 21, 88, 445, ?
+(a) 2676 (b) 2670 (c) 2230 (d) 1780
+Answer: (a)
+Solution: The rule is multiply by the position number and add that same number: 2×2+2=6, 6×3+3=21, 21×4+4=88, 88×5+5=445, so 445×6+6=2676. The trap option 2670 tempts those who only multiply 445 by 6 and forget to add 6. The answer is 2676.
+Source: PYQ-style
+
+122. Find the next term: 1, 2, 6, 15, 31, 56, ?
+(a) 91 (b) 92 (c) 90 (d) 87
+Answer: (b)
+Solution: The differences are perfect squares: +1, +4, +9, +16, +25, so the next difference is +36, giving 56+36=92. The trap option 91 tempts those who add 35 by treating the gaps as merely growing odd numbers. The answer is 92.
+Source: PYQ-style
+
+123. Find the missing term: 4, 18, 48, 100, 180, ?
+(a) 288 (b) 294 (c) 280 (d) 300
+Answer: (b)
+Solution: The terms follow n²(n+1): 1²×2=4, 2²×3=12 does not fit, so check differences instead: 14, 30, 52, 80, whose second differences are 16, 22, 28 — growing by 6; the next second difference is 34, the next first difference is 80+34=114, giving 180+114=294. The trap option 288 tempts those who assume a clean ×2 or square pattern. The answer is 294.
+Source: PYQ-style
+
+124. Find the next term: 11, 13, 17, 19, 23, 29, 31, 37, 41, ?
+(a) 42 (b) 47 (c) 45 (d) 43
+Answer: (d)
+Solution: The series lists consecutive prime numbers from 11 onward: 11, 13, 17, 19, 23, 29, 31, 37, 41, so the next prime is 43. The trap option 47 tempts those who skip 43 by mistake, and 42 or 45 tempt those following an even/odd guess — none of these fits the prime rule except 43. The answer is 43.
+Source: PYQ-style
+
+125. Find the missing term: 3, 10, 29, 66, 127, ?
+(a) 216 (b) 218 (c) 220 (d) 214
+Answer: (b)
+Solution: Each term is a cube plus 2: 1³+2=3, 2³+2=10, 3³+2=29, 4³+2=66, 5³+2=127, so 6³+2=218. The trap option 216 tempts those who compute 6³ but forget the +2 — a classic double-relationship trap where the series looks like pure cubes. The answer is 218.
+Source: PYQ-style

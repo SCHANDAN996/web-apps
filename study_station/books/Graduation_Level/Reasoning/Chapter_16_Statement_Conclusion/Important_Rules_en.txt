@@ -1,0 +1,39 @@
+# Important Rules & Approaches — Statement & Conclusion
+
+## Part 1: Key Rules / Approaches
+
+| Rule Name | Description | Example |
+|---|---|---|
+| Follow-the-Statement Rule | A conclusion is valid only if it follows directly and necessarily from the statement, without adding outside information. | Statement: "All pens are books." Conclusion: "Some books are pens." → Valid (follows directly). |
+| No Outside Knowledge Rule | Never use real-world facts or personal beliefs; treat the statement as the only truth, even if it sounds false. | Statement: "All cats are dogs." Accept it as true for the question; judge conclusions only on this basis. |
+| Definite vs. Probable Rule | Conclusions with "may", "might", "possibly" are usually invalid unless the statement itself suggests possibility; only definite conclusions follow. | Statement: "Ravi is a teacher." Conclusion: "Ravi may be honest." → Invalid (mere guess). |
+| Keyword Matching Rule | The conclusion must use only the terms/scope given in the statement; new terms or wider scope make it invalid. | Statement: "Some students passed." Conclusion: "Some students failed." → Invalid (new claim not stated). |
+| Negative Statement Rule | From a positive statement, no negative conclusion can be drawn, and vice versa. | Statement: "All A are B." Conclusion: "No A is C." → Invalid. |
+| "Some" is not "Some Not" Rule | "Some A are B" does NOT imply "Some A are not B" — a classic examiner trap. | Statement: "Some boys are tall." Conclusion: "Some boys are not tall." → Invalid. |
+| Extreme Words Rule | Conclusions with "all", "every", "never", "only", "completely" are usually invalid unless the statement explicitly supports them. | Statement: "Many employees work hard." Conclusion: "All employees work hard." → Invalid. |
+| Venn Diagram Approach | Draw all possible Venn diagrams for the statement; a conclusion is valid only if it holds in EVERY possible diagram. | "Some A are B" → check both overlapping and subset diagrams before accepting a conclusion. |
+| Either-Or (Complementary Pair) Rule | "Either I or II follows" applies only when: (i) both conclusions are individually invalid, (ii) they form a complementary pair (e.g., "All A are B" / "Some A are not B", or "Some A are B" / "No A is B"), (iii) both use the same two terms. | Conclusions: I. "All pens are red." II. "Some pens are not red." → If neither follows alone, answer is "Either I or II". |
+| Action/Inference Distinction | A conclusion is a logical deduction; a suggestion, advice, or prediction is NOT a conclusion. | Statement: "Road accidents are rising." Conclusion: "People should drive carefully." → Invalid as a conclusion (it is advice). |
+| Universal-to-Particular Rule | From "All A are B", "Some A are B" and "Some B are A" always follow (conversion). | Statement: "All dogs are animals." → "Some animals are dogs." → Valid. |
+| Same-Term Check | Both conclusions in an either-or case must involve exactly the same subject and predicate terms; otherwise the pair is invalid. | I. "Some A are B." II. "No A is C." → Not a complementary pair (different terms). |
+
+## Part 2: Time Management
+
+| Rule | Description |
+|---|---|
+| 15-Second Rule | If within 15 seconds you cannot identify the statement type (universal/particular, positive/negative), mark the question and move on; return later. |
+| 45-Second Rule | A standard Statement–Conclusion question must be solved within 45 seconds; if your Venn diagram check exceeds this, skip and revisit at the end. |
+| Read-Conclusions-First Tip | Glance at the conclusions before drawing diagrams — often one conclusion is eliminated instantly by the Negative or Extreme Words rule, saving 15–20 seconds. |
+| Either-Or Shortcut Timing | If both conclusions fail individually, spend no more than 10 extra seconds checking the complementary-pair conditions before marking "Either I or II". |
+| Skip Strategy | Skip questions with 3+ statements and multiple conclusions in the first pass; attempt them only after finishing all single-statement questions. |
+| No Overthinking Rule | Do not debate real-world truth of the statement for more than a moment — outside knowledge is the biggest time-waster in this chapter. |
+
+## Part 3: Logical / Mathematical Formulas
+
+| Item | Rule |
+|---|---|
+| Conversion (valid) | All A are B → Some B are A; Some A are B → Some B are A; No A is B → No B is A. |
+| Conversion (invalid) | All A are B ↛ All B are A. |
+| Implication | All A are B → Some A are B (universal implies particular). |
+| Complementary Pairs (Either-Or) | (i) "All A are B" + "Some A are not B"; (ii) "Some A are B" + "No A is B". |
+| Formulas note | No numerical formulas for this chapter — only the logical conversion and complementary-pair rules above. |

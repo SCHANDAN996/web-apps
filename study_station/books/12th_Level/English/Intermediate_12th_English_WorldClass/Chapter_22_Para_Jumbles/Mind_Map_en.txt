@@ -1,0 +1,35 @@
+```mermaid
+graph TD
+    A["Para Jumbles<br>Sentence Rearrangement"] --> B["Goal"]
+    A --> C["Core Strategies"]
+    A --> D["Clue Types"]
+    A --> E["Examiner Traps"]
+    A --> F["Time Strategy"]
+
+    B --> B1["Find the logical order<br>of 4-6 jumbled sentences"]
+    B --> B2["Build one coherent paragraph<br>Opening → Body → Closing"]
+
+    C --> C1["Step 1: Find the OPENER<br>Independent sentence<br>Introduces the topic<br>No pronoun or connector"]
+    C --> C2["Step 2: Make MANDATORY PAIRS<br>Link sentences that must stay together"]
+    C --> C3["Step 3: Eliminate options<br>Use pairs to cut wrong choices"]
+    C --> C4["Step 4: Verify the CLOSER<br>Conclusion, result, or summary tone"]
+
+    D --> D1["Pronoun Chain<br>he, she, it, they, this<br>→ needs a noun before it"]
+    D --> D2["Connectors<br>but, however, therefore, moreover<br>→ never open a paragraph"]
+    D --> D3["Article Clue<br>'a/an' = first mention<br>'the' = already introduced"]
+    D --> D4["Time Sequence<br>first, then, later, finally"]
+    D --> D5["Idea → Example<br>General statement, then<br>'for instance', 'such as'"]
+    D --> D6["Acronym Rule<br>Full form first<br>Short form later"]
+
+    E --> E1["TRAP 1: Sound-Right Opener<br>A sentence that 'sounds nice'<br>but starts with a pronoun"]
+    E --> E2["TRAP 2: Broken Pair<br>Option splits a mandatory pair<br>Reject it instantly"]
+    E --> E3["TRAP 3: Over-thinking<br>Two orders look possible<br>Trust the clues, not feelings"]
+
+    F --> F1["Fact-based clue spotting<br>15 seconds"]
+    F --> F2["Full arrangement + verification<br>45 seconds"]
+    F --> F3["Skip if no clear opener<br>after 45 seconds<br>Mark and return later"]
+
+    C1 -.->|"uses"| D1
+    C2 -.->|"uses"| D3
+    C2 -.->|"uses"| D5
+```

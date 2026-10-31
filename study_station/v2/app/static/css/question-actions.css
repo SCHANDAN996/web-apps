@@ -1,0 +1,21 @@
+.question-actions { display:flex; flex-wrap:wrap; gap:var(--sp-2); padding-top:var(--sp-3); margin-top:var(--sp-3); border-top:1px solid var(--border); }
+.question-actions .question-action { min-height:44px; min-width:44px; height:auto; white-space:normal; font-size:var(--fs-sm); overflow-wrap:anywhere; }
+.question-actions [aria-pressed=true] { color:var(--on-brand-soft); background:var(--brand-soft); }
+.question-actions .question-action:focus-visible { outline:2px solid var(--brand); outline-offset:var(--sp-1); }
+
+/* Compact, consistent tools with readable labels and a full touch target. */
+.question-actions .question-action, .rough-work > .rough-toggle {
+  display:inline-flex; align-items:center; justify-content:center; gap:var(--sp-2);
+  min-height:44px; min-width:44px; padding:var(--sp-2) var(--sp-3);
+  border:1px solid var(--border); border-radius:var(--radius-full, 999px);
+  background:var(--surface); color:var(--text); font-size:var(--fs-sm);
+}
+.question-action-icon, .rough-toggle > .icon { width:20px; height:20px; flex:none; }
+.question-action-icon { fill:none; stroke:currentColor; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; }
+.question-actions [aria-pressed=true] { color:var(--on-brand-soft); background:var(--brand-soft); border-color:var(--brand); }
+.question-actions [aria-pressed=true] .question-action-icon { fill:currentColor; }
+.rough-work > .rough-toggle:focus-visible { outline:2px solid var(--brand); outline-offset:var(--sp-1); }
+
+.question-tools-group { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); }
+.question-tools-group .question-action { flex-direction:column; gap:var(--sp-1); padding:var(--sp-2) var(--sp-1); min-height:60px; border-radius:var(--radius-lg, 16px); font-size:var(--fs-xs); }
+.question-tools-group .rough-toggle { color:var(--brand); }

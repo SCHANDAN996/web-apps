@@ -1,0 +1,43 @@
+```mermaid
+graph TD
+    A["संयोजक<br>Conjunction"] --> B["समानाधिकरण<br>Coordinating"]
+    A --> C["अधीनस्थ<br>Subordinating"]
+    A --> D["सहसंबंधी<br>Correlative"]
+    A --> E["संयोजकीय क्रिया-विशेषण<br>Conjunctive Adverbs"]
+
+    B --> B1["FANBOYS<br>For, And, Nor, But,<br>Or, Yet, So"]
+    B --> B2["समान पद जोड़ते हैं<br>शब्द-शब्द, वाक्य-वाक्य"]
+    B --> B3["जाल: Neither...nor में<br>क्रिया निकटवर्ती कर्ता के अनुसार"]
+
+    C --> C1["कारण: because, since, as"]
+    C --> C2["समय: when, while, until, before"]
+    C --> C3["शर्त: if, unless, provided that"]
+    C --> C4["रियायत: although, though, even if"]
+    C --> C5["उद्देश्य: so that, in order that"]
+    C --> C6["जाल: Although के साथ But नहीं<br>Since के साथ Therefore नहीं"]
+
+    D --> D1["Either...or / Neither...nor"]
+    D --> D2["Both...and / Not only...but also"]
+    D --> D3["Whether...or / No sooner...than"]
+    D --> D4["जाल: जोड़े हमेशा पूरे रखें<br>Neither...or ❌ Neither...nor ✔"]
+
+    E --> E1["however, therefore, moreover,<br>nevertheless, consequently"]
+    E --> E2["अर्धविराम + क्रिया-विशेषण + अल्पविराम<br>; however,"]
+
+    A --> F["12 स्वर्ण नियम"]
+    F --> F1["Unless = if not<br>साथ में not नहीं"]
+    F --> F2["Until/Till = समय तक<br>सकारात्मक व नकारात्मक दोनों में<br>not...until = जब तक नहीं"]
+    F --> F3["Scarcely/Hardly...when<br>No sooner...than"]
+    F --> F4["Lest...should<br>lest के साथ not नहीं"]
+    F --> F5["The reason is that ✔<br>The reason is because ❌"]
+
+    A --> G["परीक्षक के जाल"]
+    G --> G1["Sound-Right: कान को सही लगने वाला<br>गलत जोड़ा"]
+    G --> G2["Over-thinking: सरल नियम पर<br>अनावश्यक सोच"]
+    G --> G3["Intervening Phrase: कर्ता और क्रिया<br>के बीच का भ्रम"]
+
+    A --> H["रणनीति"]
+    H --> H1["15 सेकंड: जोड़ा पहचानो<br>either-or, hardly-when"]
+    H --> H2["45 सेकंड: अर्थ-आधारित<br>कारण/शर्त/रियायत चुनना"]
+    H --> H3["Skip: दो विकल्प लगभग समान हों<br>और समय कम हो"]
+```

@@ -1,19 +1,28 @@
 ```mermaid
 graph TD
-    R["✂️ कागज़ मोड़ना-काटना<br>Paper Folding & Cutting"]
-    R --> D["📖 अर्थ<br>खोलने पर कैसा दिखेगा"]
-    R --> M["🗝️ नियम<br>मोड़-रेखा पर दर्पण"]
-    R --> S["🔢 गिनती"]
-    R --> TR["⚠️ जाल<br>Traps"]
+    A["कागज मोड़ना एवं काटना (Paper Folding & Cutting)"] --> B["मूल सिद्धांत (Core Principles)"]
+    A --> C["प्रश्नों के प्रकार (Problem Types)"]
+    A --> D["MUFLI विधि (Key Technique)"]
+    A --> E["परीक्षक के जाल (Examiner's Traps)"]
 
-    M --> M1["हर छेद रेखा पर उल्टा बनता है"]
-    M --> M2["उल्टे क्रम में खोलो"]
+    B --> B1["मोड़ रेखा = समतल दर्पण (Fold Line = Mirror)"]
+    B --> B2["उल्टे क्रम में खोलना (Unfold in Reverse Order - LIFO)"]
+    B --> B3["कोई घुमाव नहीं, केवल परावर्तन (No Rotation, Only Reflection)"]
 
-    S --> S1["1 मोड़ → छेद ×2"]
-    S --> S2["2 मोड़ → छेद ×4"]
-    S --> S3["हर मोड़ दुगना करता है"]
+    C --> C1["एकल-मोड़ प्रश्न (Single Fold)"]
+    C --> C2["दोहरा-मोड़ प्रश्न (Double Fold - 4 Quadrants)"]
+    C --> C3["तिहरा व विकर्ण मोड़ (Triple / Diagonal Fold)"]
+    C --> C4["छेद पंचिंग (Hole Punching - 2ⁿ Rule)"]
+    C --> C5["पारदर्शी शीट मोड़ना (Transparent Sheet Folding)"]
 
-    TR --> TR1["दर्पण भूलना"]
-    TR --> TR2["मोड़ का क्रम"]
-    TR --> TR3["छेद की स्थिति"]
+    D --> D1["M - Mirror: हर मोड़ रेखा को आईना मानो"]
+    D --> D2["U - Unfold Reverse: अंतिम मोड़ से शुरुआत करो"]
+    D --> D3["F - Focus on Cut: कट मोड़ रेखा को छूता है या नहीं"]
+    D --> D4["L - Layers: प्रत्येक मोड़ पर परतों की संख्या दोगुनी"]
+    D --> D5["I - Inspect Options: विकल्पों से सममिति मिलाएँ"]
+
+    E --> E1["घुमाव बनाम परावर्तन जाल (Rotated Figure Trap)"]
+    E --> E2["छूने-न-छूने का भ्रम (Touch vs Separate Shape)"]
+    E --> E3["मोड़ रेखा पर छेद (Holes on Crease Merging)"]
+    E --> E4["अति-समान विकल्प (Visually Similar Options)"]
 ```

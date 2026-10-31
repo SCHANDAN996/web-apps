@@ -1,0 +1,151 @@
+प्रश्न 126–145: आसान | प्रश्न 146–150: मध्यम
+
+126. The mean of 10 observations is 15. If one observation, 25, is removed, the mean of the remaining observations is:
+(a) 14.44 (b) 15.5 (c) 12.5 (d) 13.89
+Answer: (d)
+Solution: The tempting wrong option 14.44 comes from wrongly subtracting 25 from 150 and dividing by 10 instead of 9. Total of 10 observations = 10 × 15 = 150. After removing 25, sum = 125 over 9 observations, giving 125/9 = 13.89, so the answer is 13.89.
+Source: NCERT Class 11 Statistics
+
+127. For a moderately skewed distribution, the mean is 26 and the mode is 20. The median of the distribution is:
+(a) 24 (b) 22 (c) 23 (d) 25
+Answer: (a)
+Solution: The trap is assuming the median is simply the average of mean and mode, which gives 23. Using the empirical relation Mode = 3 Median − 2 Mean: 20 = 3 Median − 52, so 3 Median = 72 and Median = 24, so the answer is 24.
+Source: NCERT Class 11 Statistics
+
+128. The variance of the first n natural numbers is 10. The value of n is:
+(a) 11 (b) 13 (c) 12 (d) 10
+Answer: (a)
+Solution: The trap is using the formula n²/12 instead of (n² − 1)/12, which suggests n ≈ 11 anyway but for the wrong reason; some students pick 12 by confusing it with the denominator. Variance of first n natural numbers = (n² − 1)/12 = 10, so n² − 1 = 120, n² = 121, n = 11, so the answer is 11.
+Source: NCERT Class 11 Statistics
+
+129. If the mean and standard deviation of a series are 40 and 10 respectively, and each observation is increased by 5 and then multiplied by 2, the new mean and standard deviation are:
+(a) 85 and 20 (b) 85 and 25 (c) 90 and 20 (d) 90 and 25
+Answer: (c)
+Solution: The trap is the pair 85 and 25, which applies the operations in the wrong order or adds 5 to the standard deviation. New mean = 2(40 + 5) = 90. Standard deviation is unaffected by addition but scales with multiplication: new SD = 2 × 10 = 20, so the answer is 90 and 20.
+Source: NCERT Class 11 Statistics
+
+130. The coefficients of variation of two series are 60% and 70%, and their standard deviations are 21 and 16 respectively. The difference of their means is:
+(a) 22.86 (b) 35 (c) 12.14 (d) 12
+Answer: (c)
+Solution: The trap is subtracting the standard deviations or the CVs directly instead of first recovering each mean. Mean₁ = 21/0.60 = 35; Mean₂ = 16/0.70 ≈ 22.86; difference = 35 − 22.86 = 12.14, so the answer is 12.14.
+Source: NCERT Class 11 Statistics
+
+131. For a grouped frequency distribution, the modal class is 40–50 with frequency 30. The frequencies of the preceding and succeeding classes are 18 and 22 respectively, and the class width is 10. The mode is:
+(a) 46 (b) 45 (c) 43.33 (d) 44.44
+Answer: (a)
+Solution: The trap is option 45, the simple midpoint of the modal class, which ignores the formula entirely. Mode = L + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] × h = 40 + [(30 − 18)/(60 − 18 − 22)] × 10 = 40 + (12/20) × 10 = 40 + 6 = 46, so the answer is 46.
+Source: NCERT Class 11 Statistics
+
+132. The sum of squares of deviations of 20 observations from their mean is 500. If each observation is doubled, the new variance is:
+(a) 25 (b) 100 (c) 50 (d) 200
+Answer: (b)
+Solution: The trap is option 50, obtained by merely doubling the variance instead of multiplying by 2². Original variance = 500/20 = 25. Doubling each value multiplies variance by 4: 25 × 4 = 100, so the answer is 100.
+Source: NCERT Class 11 Statistics
+
+133. The geometric mean of 4, 8, 16 and 32 is:
+(a) 8√2 (b) 16 (c) 8 (d) 4√2
+Answer: (a)
+Solution: The trap is option 16, the arithmetic-looking middle value, but the GM of an even number of terms is not the middle term. GM = (4 × 8 × 16 × 32)^(1/4) = (2^14)^(1/4) = 2^3.5 = 8√2, so the answer is 8√2.
+Source: NCERT Class 11 Statistics
+
+134. A car travels four equal distances at speeds of 20, 30, 40 and 60 km/h. The average speed for the whole journey is:
+(a) 37.5 km/h (b) 35 km/h (c) 30 km/h (d) 32 km/h
+Answer: (d)
+Solution: The trap is option 37.5, the arithmetic mean of the speeds, which is wrong because equal distances (not equal times) require the harmonic mean. HM = 4/(1/20 + 1/30 + 1/40 + 1/60) = 4/(10/120) = 4 × 12 = 32 km/h, so the answer is 32 km/h.
+Source: NCERT Class 11 Statistics
+
+135. The mean deviation about the median for the data 3, 9, 5, 3, 12, 10, 18, 4, 7, 19, 21 is:
+(a) 5.5 (b) 5.27 (c) 6.32 (d) 6
+Answer: (b)
+Solution: The trap is computing mean deviation about the mean instead of the median. Ordered data: 3, 3, 4, 5, 7, 9, 10, 12, 18, 19, 21; median = 9. Absolute deviations: 6, 6, 5, 4, 2, 0, 1, 3, 9, 10, 12; sum = 58; mean deviation = 58/11 ≈ 5.27, so the answer is 5.27.
+Source: NCERT Class 11 Statistics
+
+136. If the quartile deviation of a distribution is 12 and the upper quartile is 46, the lower quartile is:
+(a) 22 (b) 34 (c) 24 (d) 20
+Answer: (a)
+Solution: The trap is subtracting 12 from 46 to get 34, forgetting that quartile deviation is half the interquartile range. QD = (Q₃ − Q₁)/2 = 12, so Q₃ − Q₁ = 24, and Q₁ = 46 − 24 = 22, so the answer is 22.
+Source: NCERT Class 11 Statistics
+
+137. The standard deviation of the data 6, 8, 10, 12, 14 is:
+(a) 8 (b) 2 (c) 2√2 (d) √6
+Answer: (c)
+Solution: The trap is option 2, which comes from dividing the sum of squared deviations by (n − 1) or miscomputing. Mean = 10; squared deviations: 16, 4, 0, 4, 16; sum = 40; variance = 40/5 = 8; SD = √8 = 2√2, so the answer is 2√2.
+Source: NCERT Class 11 Statistics
+
+138. For a distribution, the sum of the lower limits of the median class and modal class is 70, and both classes coincide. If the class width is 10 and the cumulative frequency before the median class is 30, total frequency 100, and median class frequency 40, the median is:
+(a) 45 (b) 35 (c) 40 (d) 37.5
+Answer: (c)
+Solution: The trap is misreading "sum of lower limits is 70" as each being 70; since the classes coincide, each lower limit is 35. Median = L + [(N/2 − cf)/f] × h = 35 + [(50 − 30)/40] × 10 = 35 + 5 = 40, so the answer is 40.
+Source: NCERT Class 11 Statistics
+
+139. The mean of 5 observations is 4.4 and their variance is 8.24. If three of the observations are 1, 2 and 6, the other two observations are:
+(a) 2 and 11 (b) 3 and 10 (c) 5 and 8 (d) 4 and 9
+Answer: (d)
+Solution: The trap is the pair 5 and 8, which satisfies the sum (1 + 2 + 6 + 5 + 8 = 22 = 5 × 4.4) but fails the variance condition. Let the two be x and y: x + y = 22 − 9 = 13. Sum of squares = 5(8.24 + 4.4²) = 5(27.6) = 138; so x² + y² = 138 − 41 = 97. With x + y = 13 and x² + y² = 97, xy = (169 − 97)/2 = 36, giving roots 4 and 9, so the answer is 4 and 9.
+Source: NCERT Class 11 Statistics
+
+140. The coefficient of correlation between two variables is 0.6. Their covariance is 4.8 and the variance of X is 16. The standard deviation of Y is:
+(a) 4 (b) 2 (c) 5 (d) 8
+Answer: (b)
+Solution: The trap is forgetting to take the square root of the variance of X, using 16 instead of 4 in the denominator. r = Cov(X,Y)/(σₓσ_y): 0.6 = 4.8/(4 × σ_y), so σ_y = 4.8/2.4 = 2, so the answer is 2.
+Source: NCERT Class 11 Statistics
+
+141. If the rank correlation coefficient between marks in two subjects is 2/3 and the sum of squares of rank differences is 55, the number of students is:
+(a) 9 (b) 12 (c) 10 (d) 8
+Answer: (c)
+Solution: The trap is algebraic slips in solving n(n² − 1). Spearman's formula: 2/3 = 1 − 6(55)/[n(n² − 1)], so 330/[n(n² − 1)] = 1/3, giving n(n² − 1) = 990. Testing n = 10: 10 × 99 = 990, so the answer is 10.
+Source: NCERT Class 11 Statistics
+
+142. The regression coefficients of Y on X and X on Y are 0.8 and 0.45 respectively. The coefficient of correlation between X and Y is:
+(a) 0.5 (b) 0.6 (c) 0.36 (d) 0.72
+Answer: (b)
+Solution: The trap is option 0.36, the product of the coefficients instead of its square root. r = √(b_yx × b_xy) = √(0.8 × 0.45) = √0.36 = 0.6, and since both coefficients are positive, r is positive, so the answer is 0.6.
+Source: NCERT Class 11 Statistics
+
+143. Two regression lines are 3x + 2y = 26 and 6x + y = 31. The mean values of X and Y are:
+(a) (5, 5.5) (b) (7, 4) (c) (3, 8.5) (d) (4, 7)
+Answer: (d)
+Solution: The trap is swapping the coordinates, since regression lines pass through (x̄, ȳ) but students often misassign. Solving: from the second equation y = 31 − 6x; substituting: 3x + 2(31 − 6x) = 26, −9x = −36, x = 4, y = 31 − 24 = 7, so the answer is (4, 7).
+Source: NCERT Class 11 Statistics
+
+144. If the two regression coefficients are −0.4 and −0.9, the correlation coefficient is:
+(a) 0.6 (b) 0.36 (c) −0.36 (d) −0.6
+Answer: (d)
+Solution: The trap is option 0.6, ignoring that r must carry the common sign of the regression coefficients. r = −√(0.4 × 0.9) = −√0.36 = −0.6, so the answer is −0.6.
+Source: NCERT Class 11 Statistics
+
+145. A distribution has mean 50, mode 45 and standard deviation 20. Karl Pearson's coefficient of skewness is:
+(a) 1 (b) −0.25 (c) 0.5 (d) 0.25
+Answer: (d)
+Solution: The trap is reversing the numerator as Mode − Mean, giving −0.25. Skewness = (Mean − Mode)/SD = (50 − 45)/20 = 5/20 = 0.25, so the answer is 0.25.
+Source: NCERT Class 11 Statistics
+
+146. For a symmetric distribution, the first and third quartiles are 20 and 40 respectively. The median and quartile deviation are:
+(a) 30 and 20 (b) 30 and 10 (c) 25 and 10 (d) 35 and 5
+Answer: (b)
+Solution: The trap is reporting the interquartile range 20 as the quartile deviation. For a symmetric distribution, median = (Q₁ + Q₃)/2 = 30; QD = (Q₃ − Q₁)/2 = 20/2 = 10, so the answer is 30 and 10.
+Source: NCERT Class 11 Statistics
+
+147. The standard deviation of 25 observations is 4. If each observation is increased by 2, the new variance is:
+(a) 18 (b) 16 (c) 20 (d) 36
+Answer: (b)
+Solution: The trap is adding 2 to the variance or standard deviation, giving 18 or 36. Adding a constant to every observation does not change dispersion, so variance remains 4² = 16, so the answer is 16.
+Source: NCERT Class 11 Statistics
+
+148. The combined mean of two groups of 40 and 60 observations with means 15 and 20 respectively is:
+(a) 18 (b) 17.5 (c) 17 (d) 18.5
+Answer: (a)
+Solution: The trap is option 17.5, the simple average of the two means, which ignores the unequal group sizes. Combined mean = (40 × 15 + 60 × 20)/100 = (600 + 1200)/100 = 1800/100 = 18, so the answer is 18.
+Source: NCERT Class 11 Statistics
+
+149. If the mean of the squares of n observations is 100 and the variance is 36, the mean of the observations is:
+(a) 64 (b) 10 (c) 8 (d) 6
+Answer: (c)
+Solution: The trap is taking √100 = 10 as the mean, confusing mean of squares with square of the mean. Variance = mean of squares − (mean)²: 36 = 100 − x̄², so x̄² = 64 and x̄ = 8, so the answer is 8.
+Source: NCERT Class 11 Statistics
+
+150. In a frequency distribution, the cumulative frequencies just below and just above the median class 20–30 are 12 and 45 respectively, the median class frequency is 33, and total frequency is 60. The median is:
+(a) 25.45 (b) 24.5 (c) 26.36 (d) 23.5
+Answer: (a)
+Solution: The trap is using 45 (the cumulative frequency above) in the formula instead of 12, the cumulative frequency before the median class. Median = L + [(N/2 − cf)/f] × h = 20 + [(30 − 12)/33] × 10 = 20 + 180/33 = 20 + 5.45 = 25.45, so the answer is 25.45.
+Source: NCERT Class 11 Statistics

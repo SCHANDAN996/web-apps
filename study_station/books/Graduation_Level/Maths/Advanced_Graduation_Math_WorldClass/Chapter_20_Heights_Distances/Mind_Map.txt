@@ -1,0 +1,43 @@
+```mermaid
+graph TD
+    A["ऊँचाई एवं दूरी<br>Heights & Distances"] --> B["मूल अवधारणाएँ<br>Basic Concepts"]
+    A --> C["त्रिकोणमितीय अनुपात<br>Trigonometric Ratios"]
+    A --> D["मानक कोणों की तालिका<br>Standard Angle Table"]
+    A --> E["ऊँचाई-दूरी के प्रश्न-प्रकार<br>Question Types"]
+    A --> F["उन्नत प्रकार<br>Advanced Types"]
+    A --> G["शॉर्टकट सूत्र<br>Shortcut Formulas"]
+
+    B --> B1["उन्नयन कोण<br>Angle of Elevation<br>(ऊपर देखना)"]
+    B --> B2["अवनमन कोण<br>Angle of Depression<br>(नीचे देखना)"]
+    B --> B3["क्षैतिज रेखा<br>Horizontal Line"]
+    B --> B4["दृष्टि रेखा<br>Line of Sight"]
+    B2 --> B5["अवनमन कोण = उन्नयन कोण<br>(समांतर रेखाओं के एकांतर कोण)<br>Alternate Angles Equal"]
+
+    C --> C1["tan θ = लंब/आधार<br>Perpendicular/Base"]
+    C --> C2["sin θ = लंब/कर्ण<br>Perpendicular/Hypotenuse"]
+    C --> C3["cos θ = आधार/कर्ण<br>Base/Hypotenuse"]
+    C --> C4["मुख्य उपयोग: tan θ<br>Most Used: tan θ"]
+
+    D --> D1["tan 30° = 1/√3"]
+    D --> D2["tan 45° = 1"]
+    D --> D3["tan 60° = √3"]
+    D --> D4["sin 30° = 1/2, sin 60° = √3/2"]
+    D --> D5["cos 30° = √3/2, cos 60° = 1/2"]
+
+    E --> E1["एक मीनार, एक प्रेक्षक<br>One Tower, One Observer<br>h = d·tan θ"]
+    E --> E2["दो प्रेक्षण बिंदु (एक ही ओर)<br>Two Points, Same Side<br>h = d·tan α·tan β/(tan α − tan β)<br>जहाँ α > β"]
+    E --> E3["दो प्रेक्षण बिंदु (विपरीत ओर)<br>Two Points, Opposite Sides<br>h = d·tan α·tan β/(tan α + tan β)"]
+    E --> E4["ध्वजदंड/पेड़ टूटना<br>Broken Tree/Flagstaff"]
+    E --> E5["छाया वाले प्रश्न<br>Shadow Problems<br>छाया = h/tan θ"]
+
+    F --> F1["मीनार + ध्वजदंड<br>Tower + Flagstaff"]
+    F --> F2["पहाड़ी/झील पर अवनमन<br>Depression from Hill/Cliff"]
+    F --> F3["गुब्बारा/विमान<br>Balloon/Aeroplane"]
+    F --> F4["नदी के दोनों किनारे<br>Two Banks of River"]
+    F --> F5["गति के साथ बदलता कोण<br>Moving Observer Problems"]
+
+    G --> G1["कोण 30°→60° होने पर<br>Angle Changes 30°→60°<br>तय दूरी = 2h/√3"]
+    G --> G2["पूरक कोण α+β=90°<br>Complementary Angles<br>h = √(d₁·d₂)"]
+    G --> G3["45° पर ऊँचाई = दूरी<br>At 45°: Height = Distance"]
+    G --> G4["√3 ≈ 1.732 याद रखें<br>Remember √3 ≈ 1.732"]
+```

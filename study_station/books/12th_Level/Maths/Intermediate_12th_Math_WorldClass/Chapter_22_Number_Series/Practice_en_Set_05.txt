@@ -1,3 +1,149 @@
-# Chapter: Number Series, Level: intermediate, Set: 5/6
+101. Find the missing number: 4, 9, 19, 39, 79, ?
+(a) 159 (b) 149 (c) 169 (d) 139
+Answer: (a)
+Solution: The tempting option 149 comes from adding 70 to 79, but the differences are 5, 10, 20, 40 — each doubling — so the next difference is 80, not 70. Each term is also previous × 2 + 1: 79 × 2 + 1 = 159, so the answer is 159.
+Source: PYQ-style
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Number Series. This is Set 5 (total 6 sets, 150 questions). Questions must be numbered 101 to 125. Questions 101 to 120 should be Medium, Questions 121 to 125 should be Hard. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+102. Find the missing number: 7, 12, 19, 28, 39, ?
+(a) 50 (b) 52 (c) 51 (d) 54
+Answer: (b)
+Solution: The tempting option 50 assumes a constant difference of 11, but the differences are 5, 7, 9, 11 — increasing by 2 — so the next difference is 13. Adding 13 to 39 gives 52, so the answer is 52.
+Source: NCERT Class 8 Mathematics (pattern)
+
+103. Find the missing number: 3, 6, 18, 72, 360, ?
+(a) 1800 (b) 1440 (c) 2160 (d) 2520
+Answer: (c)
+Solution: The tempting option 1800 comes from multiplying 360 by 5, but the multipliers are 2, 3, 4, 5 — so the next multiplier is 6. Multiplying 360 by 6 gives 2160, so the answer is 2160.
+Source: PYQ-style
+
+104. Find the missing number: 11, 13, 17, 19, 23, 29, ?
+(a) 33 (b) 31 (c) 35 (d) 37
+Answer: (b)
+Solution: The tempting option 33 comes from adding 4 to 29, but this is the series of consecutive prime numbers starting from 11. The prime after 29 is 31, so the answer is 31.
+Source: NCERT Class 6 Mathematics (primes)
+
+105. Find the missing number: 2, 6, 12, 20, 30, ?
+(a) 40 (b) 44 (c) 42 (d) 36
+Answer: (c)
+Solution: The tempting option 40 comes from adding 10 to 30, but the differences are 4, 6, 8, 10 — increasing by 2 — so the next difference is 12. Each term is also n(n+1): 6 × 7 = 42, so the answer is 42.
+Source: NCERT Class 8 Mathematics (pattern)
+
+106. Find the missing number: 5, 11, 23, 47, 95, ?
+(a) 191 (b) 190 (c) 189 (d) 193
+Answer: (a)
+Solution: The tempting option 190 comes from doubling 95, but the rule is previous × 2 + 1: 5×2+1 = 11, 11×2+1 = 23, and so on. So 95 × 2 + 1 = 191, so the answer is 191.
+Source: PYQ-style
+
+107. Find the missing number: 8, 27, 64, 125, 216, ?
+(a) 343 (b) 324 (c) 289 (d) 361
+Answer: (a)
+Solution: The tempting option 324 is 18², but this is a cube series, not a square series: 2³, 3³, 4³, 5³, 6³. The next term is 7³ = 343, so the answer is 343.
+Source: NCERT Class 8 Mathematics (cubes)
+
+108. Find the missing number: 1, 4, 9, 25, 36, 49, ?
+(a) 64 (b) 81 (c) 100 (d) 121
+Answer: (a)
+Solution: The tempting option 81 is 9², but the series is squares of consecutive numbers with 16 (4²) missing in the middle — actually it is squares of 1, 2, 3, 5, 6, 7, so the next is 8² = 64. Checking differences 3, 5, 16, 11, 13 is irregular, but reading the terms as squares of 1, 2, 3, 5, 6, 7, 8 fits perfectly, so the answer is 64.
+Source: PYQ-style
+
+109. Find the missing number: 6, 11, 21, 36, 56, ?
+(a) 76 (b) 91 (c) 86 (d) 81
+Answer: (d)
+Solution: The tempting option 76 comes from adding 20 to 56, but the differences are 5, 10, 15, 20 — multiples of 5 — so the next difference is 25. Adding 25 to 56 gives 81, so the answer is 81.
+Source: PYQ-style
+
+110. Find the missing number: 13, 26, 24, 48, 46, ?
+(a) 92 (b) 90 (c) 88 (d) 94
+Answer: (a)
+Solution: The tempting option 90 comes from doubling 46 minus 2, but the pattern alternates ×2, −2: 13×2 = 26, 26−2 = 24, 24×2 = 48, 48−2 = 46. Next is 46 × 2 = 92, so the answer is 92.
+Source: PYQ-style
+
+111. Find the missing number: 100, 96, 90, 82, 72, ?
+(a) 64 (b) 58 (c) 62 (d) 60
+Answer: (d)
+Solution: The tempting option 62 comes from subtracting 10 from 72, but the differences are 4, 6, 8, 10 — increasing by 2 — so the next difference is 12. Subtracting 12 from 72 gives 60, so the answer is 60.
+Source: PYQ-style
+
+112. Find the missing number: 2, 3, 5, 9, 17, 33, ?
+(a) 63 (b) 64 (c) 65 (d) 66
+Answer: (c)
+Solution: The tempting option 66 comes from doubling 33, but the differences are 1, 2, 4, 8, 16 — powers of 2 — so the next difference is 32. Adding 32 to 33 gives 65, so the answer is 65.
+Source: PYQ-style
+
+113. Find the missing number: 15, 21, 29, 39, 51, ?
+(a) 63 (b) 61 (c) 67 (d) 65
+Answer: (d)
+Solution: The tempting option 63 comes from adding 12 to 51, but the differences are 6, 8, 10, 12 — increasing by 2 — so the next difference is 14. Adding 14 to 51 gives 65, so the answer is 65.
+Source: PYQ-style
+
+114. Find the missing number: 1, 8, 27, 64, 125, ?
+(a) 196 (b) 216 (c) 225 (d) 256
+Answer: (b)
+Solution: The tempting option 225 is 15², but this is the cube series 1³, 2³, 3³, 4³, 5³. The next term is 6³ = 216, so the answer is 216.
+Source: NCERT Class 8 Mathematics (cubes)
+
+115. Find the missing number: 9, 15, 23, 33, 45, ?
+(a) 57 (b) 59 (c) 61 (d) 55
+Answer: (b)
+Solution: The tempting option 57 comes from adding 12 to 45, but the differences are 6, 8, 10, 12 — increasing by 2 — so the next difference is 14. Adding 14 to 45 gives 59, so the answer is 59.
+Source: PYQ-style
+
+116. Find the missing number: 4, 12, 36, 108, 324, ?
+(a) 648 (b) 864 (c) 1296 (d) 972
+Answer: (d)
+Solution: The tempting option 648 comes from multiplying 324 by 2, but this is a geometric series with common ratio 3. Multiplying 324 by 3 gives 972, so the answer is 972.
+Source: NCERT Class 11 Mathematics (GP)
+
+117. Find the missing number: 17, 22, 32, 47, 67, ?
+(a) 87 (b) 97 (c) 92 (d) 82
+Answer: (c)
+Solution: The tempting option 87 comes from adding 20 to 67, but the differences are 5, 10, 15, 20 — multiples of 5 — so the next difference is 25. Adding 25 to 67 gives 92, so the answer is 92.
+Source: PYQ-style
+
+118. Find the missing number: 3, 10, 24, 45, 73, ?
+(a) 104 (b) 108 (c) 106 (d) 110
+Answer: (b)
+Solution: The tempting option 106 comes from adding 33 to 73, but the differences are 7, 14, 21, 28 — multiples of 7 — so the next difference is 35. Adding 35 to 73 gives 108, so the answer is 108.
+Source: PYQ-style
+
+119. Find the missing number: 2, 5, 11, 23, 47, ?
+(a) 93 (b) 94 (c) 96 (d) 95
+Answer: (d)
+Solution: The tempting option 94 comes from doubling 47, but the rule is previous × 2 + 1: 2×2+1 = 5, 5×2+1 = 11, and so on. So 47 × 2 + 1 = 95, so the answer is 95.
+Source: PYQ-style
+
+120. Find the missing number: 50, 45, 41, 38, 36, ?
+(a) 33 (b) 35 (c) 34 (d) 32
+Answer: (b)
+Solution: The tempting option 34 comes from subtracting 2 from 36, but the differences are 5, 4, 3, 2 — decreasing by 1 — so the next difference is 1. Subtracting 1 from 36 gives 35, so the answer is 35.
+Source: PYQ-style
+
+121. Find the missing number: 2, 12, 36, 80, 150, ?
+(a) 252 (b) 240 (c) 260 (d) 264
+Answer: (a)
+Solution: The tempting option 240 comes from adding 90 to 150, but each term is n³ + n²: 1+1 = 2, 8+4 = 12, 27+9 = 36, 64+16 = 80, 125+25 = 150. The next term is 216 + 36 = 252, so the answer is 252.
+Source: PYQ-style
+
+122. Find the missing number: 6, 13, 28, 59, 122, ?
+(a) 249 (b) 247 (c) 245 (d) 251
+Answer: (a)
+Solution: The tempting option 245 comes from doubling 122 plus 1, but the rule alternates ×2+1, ×2+2, ×2+3, ×2+4: 6×2+1 = 13, 13×2+2 = 28, 28×2+3 = 59, 59×2+4 = 122. Next is 122 × 2 + 5 = 249, so the answer is 249.
+Source: PYQ-style
+
+123. Find the missing number: 3, 7, 16, 35, 74, ?
+(a) 151 (b) 149 (c) 155 (d) 153
+Answer: (d)
+Solution: The tempting option 151 comes from doubling 74 plus 3, but the rule is ×2+1, ×2+2, ×2+3, ×2+4: 3×2+1 = 7, 7×2+2 = 16, 16×2+3 = 35, 35×2+4 = 74. Next is 74 × 2 + 5 = 153, so the answer is 153.
+Source: PYQ-style
+
+124. Find the missing number: 1, 2, 6, 21, 88, ?
+(a) 440 (b) 435 (c) 445 (d) 450
+Answer: (c)
+Solution: The tempting option 440 comes from multiplying 88 by 5, but the rule is ×1+1, ×2+2, ×3+3, ×4+4: 1×1+1 = 2, 2×2+2 = 6, 6×3+3 = 21, 21×4+4 = 88. Next is 88 × 5 + 5 = 445, so the answer is 445.
+Source: PYQ-style
+
+125. Find the missing number: 5, 7, 13, 25, 45, ?
+(a) 71 (b) 73 (c) 75 (d) 77
+Answer: (c)
+Solution: The tempting option 73 comes from adding 28 to 45, but the differences are 2, 6, 12, 20 — themselves differing by 4, 6, 8 — so the next difference is 30 (since 20 + 10 = 30). Adding 30 to 45 gives 75, so the answer is 75.
+Source: PYQ-style

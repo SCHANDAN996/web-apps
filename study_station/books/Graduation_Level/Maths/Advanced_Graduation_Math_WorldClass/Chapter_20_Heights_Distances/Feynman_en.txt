@@ -1,0 +1,69 @@
+# 🧒 Heights & Distances — Explained Like You're 12
+
+## The Kite That Started It All
+
+Imagine this. You're flying a kite in a big open field. The string is fully stretched — 100 metres of it. The kite is dancing high in the sky, and your friend asks:
+
+**"How high is the kite?"**
+
+You can't climb up to it. You can't stretch a measuring tape into the sky. So... is it impossible?
+
+Nope. You need just **two things**:
+
+1. The **length of the string** (100 m — you already know this).
+2. The **angle** the string makes with the ground. You measure it with a simple protractor-like tool: it's **30°**.
+
+Now here's the magic. The string, the ground, and the imaginary vertical line from the kite down to the ground form a **right-angled triangle**. The string is the slanted side (hypotenuse), the kite's height is the standing side (opposite to your angle), and the ground distance is the flat side (adjacent).
+
+And triangles have a beautiful secret: **once you fix the angle, the *ratio* of the sides never changes.** A 30° triangle always behaves the same way, whether it's the size of a postage stamp or the size of a football field.
+
+For 30°, the standing side is always **half** the slanted side. Always. So:
+
+**Height of kite = 100 × ½ = 50 metres.** Done. You measured the sky without leaving the ground. 🪁
+
+## So What Was the "Hard" Concept?
+
+The hardest idea in this whole chapter is this:
+
+> **You never measure the height directly. You measure an angle and a distance you *can* reach, and let the triangle's fixed ratios do the rest.**
+
+That ratio has a name — **tangent** (tan). It's just:
+
+**tan(angle) = standing side ÷ flat side = height ÷ distance**
+
+So if you stand some distance from a tower, measure the angle to its top, then:
+
+**Height = distance × tan(angle)**
+
+That's the entire chapter in one line. Everything else — two angles, moving observers, shadows — is just this same trick wearing different costumes.
+
+## The Unforgettable Trick: "The 1–√3–3 Family" 🎯
+
+Almost every exam question uses only three angles: **30°, 45°, 60°**. Remember them as a family of three brothers:
+
+| Angle | tan value | Memory hook |
+|---|---|---|
+| 30° | 1/√3 | "Small brother = 1 over root 3" |
+| 45° | 1 | "Middle brother = perfectly balanced = 1" |
+| 60° | √3 | "Big brother = root 3" |
+
+**The trick:** Notice the pattern — **1/√3 → 1 → √3**. Each step *multiplies by √3* as the angle grows 30° → 45° → 60°. Small angle, small height. Big angle, big height. The brothers grow by √3 each time!
+
+So when you see tan 60°, your brain should instantly shout **"√3 ≈ 1.732"** — and when you see tan 30°, shout **"1/√3 ≈ 0.577"**.
+
+## One More Story Twist: The Two-Angle Puzzle
+
+Exams love this one: you walk **towards** a tower, and the angle changes from 30° to 60°. Sounds hard? It's just the three brothers again!
+
+- Far away → small angle (30°, small brother)
+- Walk closer → bigger angle (60°, big brother)
+
+Since tan 60° is exactly **3 times** tan 30° (√3 = 3 × 1/√3), the distances have a fixed relationship: the far distance is **3 times** the near distance. So if you walked 20 m closer, that 20 m is the *difference* — 2 parts out of 3 — and the tower's height falls out in seconds. No panic, just brothers doing maths for you.
+
+## 🧠 Your Turn — One Question Before You Go
+
+You stand 30 m from a tree and the angle to its top is 45°. Without any formula sheet, using only the "middle brother"...
+
+**What is the height of the tree — and why did you barely need to calculate anything?**
+
+*(Hint: What is tan 45°, and what does that force the height and distance to be?)*

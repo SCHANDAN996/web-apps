@@ -1,0 +1,203 @@
+Questions 1–20: Easy | Questions 21–25: Medium
+
+Note for all questions: Each question is followed by two statements, I and II. Decide whether the data given in the statements are sufficient to answer the question.
+
+1. What is the value of x?
+I. 2x + 6 = 20
+II. x² = 49
+(a) Both statements together are needed (b) Statement II alone is sufficient (c) Statement I alone is sufficient (d) Either statement alone is sufficient
+Answer: (c)
+Solution: The trap is assuming x² = 49 fixes x uniquely; it gives x = +7 or x = −7, two values, so Statement II is not sufficient. Statement I gives 2x = 14, so x = 7, so the answer is Statement I alone is sufficient.
+Source: PYQ-style
+
+2. Is the integer n even?
+I. n + 4 is even
+II. 3n is even
+(a) Statement I alone is sufficient (b) Statement II alone is sufficient (c) Either statement alone is sufficient (d) Both statements together are needed
+Answer: (c)
+Solution: From Statement I, n + 4 even means n is even, since even minus even is even. From Statement II, 3n even with 3 odd forces n to be even. Each statement alone answers the question, so the answer is either statement alone is sufficient.
+Source: PYQ-style
+
+3. What is the age of Ravi?
+I. Ravi is 5 years older than Mohan.
+II. Mohan is 20 years old.
+(a) Both statements together are needed (b) Statement II alone is sufficient (c) Statement I alone is sufficient (d) Either statement alone is sufficient
+Answer: (a)
+Solution: The trap is using Statement II alone, which gives Mohan's age but says nothing about Ravi. Statement I alone gives only a relation, not an actual age. Combining them: Ravi = 20 + 5 = 25 years, so the answer is both statements together are needed.
+Source: PYQ-style
+
+4. What is the two-digit number?
+I. The sum of its digits is 9.
+II. The number is 45.
+(a) Statement I alone is sufficient (b) Either statement alone is sufficient (c) Statement II alone is sufficient (d) Both statements together are needed
+Answer: (c)
+Solution: The trap is trusting Statement I, but digit-sum 9 fits many numbers (18, 27, 36, 45, 54), so it is not sufficient. Statement II directly gives the number 45, so the answer is Statement II alone is sufficient.
+Source: PYQ-style
+
+5. Who is the tallest among A, B and C?
+I. A is taller than B.
+II. B is taller than C.
+(a) Either statement alone is sufficient (b) Statement II alone is sufficient (c) Statement I alone is sufficient (d) Both statements together are needed
+Answer: (d)
+Solution: Statement I alone does not place C, and Statement II alone does not place A, so neither works alone. Together they give A > B > C, so the answer is both statements together are needed.
+Source: PYQ-style
+
+6. What is the value of y?
+I. 3y − 7 = 11
+II. y is a positive integer less than 10.
+(a) Either statement alone is sufficient (b) Statement II alone is sufficient (c) Both statements together are needed (d) Statement I alone is sufficient
+Answer: (d)
+Solution: The trap is accepting Statement II, but "positive integer less than 10" allows nine different values. Statement I gives 3y = 18, so y = 6, so the answer is Statement I alone is sufficient.
+Source: PYQ-style
+
+7. Is x greater than y?
+I. x − y = 5
+II. x + y = 15
+(a) Statement II alone is sufficient (b) Statement I alone is sufficient (c) Either statement alone is sufficient (d) Both statements together are needed
+Answer: (b)
+Solution: The trap is Statement II: x and y could be 10 and 5 (x greater) or 5 and 10 (y greater), so it is not sufficient. Statement I says x − y = 5, which is positive, so x is greater than y, so the answer is Statement I alone is sufficient.
+Source: PYQ-style
+
+8. What is the average of three consecutive integers?
+I. The smallest integer is 10.
+II. The middle integer is 11.
+(a) Statement II alone is sufficient (b) Statement I alone is sufficient (c) Either statement alone is sufficient (d) Both statements together are needed
+Answer: (c)
+Solution: From Statement I, the integers are 10, 11, 12 and the average is 11. From Statement II, the integers are again 10, 11, 12 with average 11. Each statement alone fixes the set, so the answer is either statement alone is sufficient.
+Source: PYQ-style
+
+9. How many children does Mr. Sharma have?
+I. He has twice as many daughters as sons.
+II. He has 2 sons.
+(a) Statement I alone is sufficient (b) Both statements together are needed (c) Either statement alone is sufficient (d) Statement II alone is sufficient
+Answer: (b)
+Solution: The trap is Statement I alone, which gives only a ratio with no actual count. Statement II alone gives only the number of sons. Together: daughters = 2 × 2 = 4, total = 6, so the answer is both statements together are needed.
+Source: PYQ-style
+
+10. What is the code for "sky" in a certain code language?
+I. In that language, "blue sky" is coded as "ta na".
+II. In that language, "blue sea" is coded as "ta pa".
+(a) Both statements together are needed (b) Statement I alone is sufficient (c) Either statement alone is sufficient (d) Statement II alone is sufficient
+Answer: (a)
+Solution: The trap is Statement I alone, where "sky" could be "ta" or "na". Comparing the two statements, "blue" is common, so "blue" = "ta" and hence "sky" = "na", so the answer is both statements together are needed.
+Source: PYQ-style
+
+11. Is the number N divisible by 6?
+I. N is divisible by 2.
+II. N is divisible by 3.
+(a) Statement I alone is sufficient (b) Both statements together are needed (c) Statement II alone is sufficient (d) Either statement alone is sufficient
+Answer: (b)
+Solution: The trap is using one statement alone: 8 is divisible by 2 but not by 6, and 9 is divisible by 3 but not by 6. A number divisible by both 2 and 3 is divisible by 6, so the answer is both statements together are needed.
+Source: NCERT Class 6 Mathematics
+
+12. What is the selling price of an article?
+I. The cost price is ₹500.
+II. The profit is 20% of the cost price.
+(a) Both statements together are needed (b) Statement II alone is sufficient (c) Statement I alone is sufficient (d) Either statement alone is sufficient
+Answer: (a)
+Solution: Statement I gives only the cost price and Statement II gives only the profit percentage, so neither alone yields the selling price. Together: profit = 20% of 500 = ₹100, SP = ₹600, so the answer is both statements together are needed.
+Source: NCERT Class 8 Mathematics
+
+13. On which day of the week was 26 January 2023?
+I. 1 January 2023 was a Sunday.
+II. The year 2023 was not a leap year.
+(a) Both statements together are needed (b) Statement I alone is sufficient (c) Statement II alone is sufficient (d) Either statement alone is sufficient
+Answer: (b)
+Solution: The trap is Statement II, which gives no reference day at all, so nothing can be counted from it. From Statement I, 26 January is 25 days after Sunday, and 25 mod 7 = 4, giving Thursday, so the answer is Statement I alone is sufficient.
+Source: PYQ-style
+
+14. What is the area of a rectangle?
+I. Its perimeter is 40 cm.
+II. Its length is twice its breadth.
+(a) Both statements together are needed (b) Statement II alone is sufficient (c) Statement I alone is sufficient (d) Either statement alone is sufficient
+Answer: (a)
+Solution: The trap is Statement I alone: l + b = 20 fits many rectangles with different areas, and the ratio in Statement II alone gives no size. Together: 3b = 20, so b = 20/3, l = 40/3, area = 800/9 cm², a unique value, so the answer is both statements together are needed.
+Source: NCERT Class 8 Mathematics
+
+15. In which direction is point P from point Q?
+I. Point R is 5 km north of Q, and P is 5 km east of R.
+II. P is to the north-east of Q.
+(a) Either statement alone is sufficient (b) Both statements together are needed (c) Statement II alone is sufficient (d) Statement I alone is sufficient
+Answer: (a)
+Solution: The trap is thinking Statement I is vague; in fact it fixes P exactly 5 km north and 5 km east of Q, which is uniquely the north-east direction. Statement II also directly states the direction, so the answer is either statement alone is sufficient.
+Source: PYQ-style
+
+16. What is the value of the expression a + b?
+I. a = 3b
+II. b = 4
+(a) Either statement alone is sufficient (b) Both statements together are needed (c) Statement II alone is sufficient (d) Statement I alone is sufficient
+Answer: (b)
+Solution: Statement I relates a and b without any value, and Statement II gives b but not a, so neither alone works. Together: a = 12, so a + b = 16, so the answer is both statements together are needed.
+Source: PYQ-style
+
+17. Is triangle ABC a right-angled triangle?
+I. AB = 3 cm, BC = 4 cm, CA = 5 cm.
+II. The perimeter of the triangle is 12 cm.
+(a) Statement II alone is sufficient (b) Both statements together are needed (c) Either statement alone is sufficient (d) Statement I alone is sufficient
+Answer: (d)
+Solution: The trap is Statement II: a perimeter of 12 cm fits many triangles, for example 4-4-4, which is not right-angled, so it is not sufficient. From Statement I, 3² + 4² = 5², so by the converse of Pythagoras the triangle is right-angled, so the answer is Statement I alone is sufficient.
+Source: NCERT Class 10 Mathematics
+
+18. How is Sita related to Ram?
+I. Sita is the sister of Ram's father.
+II. Ram is the son of Mohan.
+(a) Statement I alone is sufficient (b) Both statements together are needed (c) Either statement alone is sufficient (d) Statement II alone is sufficient
+Answer: (a)
+Solution: The trap is combining both statements unnecessarily; Statement II says nothing about Sita. Statement I alone makes Sita the sister of Ram's father, that is, his paternal aunt, so the answer is Statement I alone is sufficient.
+Source: PYQ-style
+
+19. What is the rate of simple interest per annum?
+I. The principal is ₹10,000 and the interest earned in 2 years is ₹1,600.
+II. The amount after 2 years is ₹11,600.
+(a) Statement II alone is sufficient (b) Either statement alone is sufficient (c) Both statements together are needed (d) Statement I alone is sufficient
+Answer: (d)
+Solution: The trap is Statement II: the amount is given but the principal is not stated, so the interest cannot be found. From Statement I, 1600 = 10000 × R × 2/100 gives R = 8%, so the answer is Statement I alone is sufficient.
+Source: NCERT Class 8 Mathematics
+
+20. Five friends P, Q, R, S, T sit in a row facing north. Who sits in the middle?
+I. P sits at one end, and Q sits second from the left.
+II. R sits exactly between Q and S, and T sits at the right end.
+(a) Statement I alone is sufficient (b) Statement II alone is sufficient (c) Both statements together are needed (d) Either statement alone is sufficient
+Answer: (c)
+Solution: Statement I leaves R, S, T unplaced, and Statement II alone does not fix positions from the ends. Together: Q is 2nd, R between Q and S forces R 3rd and S 4th, T is 5th and P is 1st, so R sits in the middle, so the answer is both statements together are needed.
+Source: PYQ-style
+
+21. What is the value of the two-digit number?
+I. The tens digit is 4 and the units digit is 7.
+II. The sum of the digits is 11 and the tens digit is 3 less than the units digit.
+(a) Statement I alone is sufficient (b) Statement II alone is sufficient (c) Both statements together are needed (d) Either statement alone is sufficient
+Answer: (d)
+Solution: The trap is assuming Statement II needs help from Statement I; in fact its two equations, x + y = 11 and y − x = 3, solve to digits 4 and 7, giving 47. Statement I also directly gives 47, so the answer is either statement alone is sufficient.
+Source: NCERT Class 8 Mathematics
+
+22. Is the integer m divisible by 12?
+I. m is divisible by 4.
+II. m is divisible by 6.
+(a) Statement I alone is sufficient (b) Both statements together are needed (c) Either statement alone is sufficient (d) Statement II alone is sufficient
+Answer: (b)
+Solution: The trap is using one statement alone: 20 is divisible by 4 but not by 12, and 18 is divisible by 6 but not by 12. Together, m is divisible by LCM(4, 6) = 12, so the answer is both statements together are needed.
+Source: NCERT Class 6 Mathematics
+
+23. What is the speed of a train?
+I. The train crosses a pole in 12 seconds.
+II. The train is 240 metres long.
+(a) Statement I alone is sufficient (b) Statement II alone is sufficient (c) Both statements together are needed (d) Either statement alone is sufficient
+Answer: (c)
+Solution: Statement I gives time but no distance, and Statement II gives length but no time, so neither alone works. Together: speed = 240/12 = 20 m/s, so the answer is both statements together are needed.
+Source: PYQ-style
+
+24. Among five persons A, B, C, D, E, who earns the most?
+I. A earns more than B and C. D earns more than A.
+II. E earns more than D.
+(a) Statement II alone is sufficient (b) Statement I alone is sufficient (c) Either statement alone is sufficient (d) Both statements together are needed
+Answer: (d)
+Solution: The trap is answering from Statement I alone by ignoring E, whom it never mentions. Together: E > D > A > B and C, so E earns the most, so the answer is both statements together are needed.
+Source: PYQ-style
+
+25. What is the value of x + y?
+I. x² − y² = 20
+II. x − y = 4
+(a) Both statements together are needed (b) Either statement alone is sufficient (c) Statement II alone is sufficient (d) Statement I alone is sufficient
+Answer: (a)
+Solution: The trap is trying to solve for x and y individually, which is unnecessary. Statement I factors as (x − y)(x + y) = 20, and with Statement II, 4(x + y) = 20 gives x + y = 5, so the answer is both statements together are needed.
+Source: NCERT Class 8 Mathematics

@@ -1,0 +1,151 @@
+Questions 76–100: Medium
+
+76. If '+' means '÷', '÷' means '×', '×' means '−' and '−' means '+', then the value of 24 + 4 × 5 − 2 ÷ 3 is:
+(a) 5 (b) 7 (c) 9 (d) 11
+Answer: (b)
+Solution: Substituting the symbols: 24 ÷ 4 − 5 + 2 × 3. By BODMAS: 24 ÷ 4 = 6 and 2 × 3 = 6, so 6 − 5 + 6 = 7. The trap is computing left to right without BODMAS, which gives a wrong value. So the answer is 7.
+Source: PYQ-style
+
+77. If '×' means '+', '+' means '÷', '÷' means '−' and '−' means '×', then 8 × 6 + 3 ÷ 5 − 2 = ?
+(a) 0 (b) 2 (c) 4 (d) 6
+Answer: (a)
+Solution: Substituting: 8 + 6 ÷ 3 − 5 × 2. By BODMAS: 6 ÷ 3 = 2 and 5 × 2 = 10, so 8 + 2 − 10 = 0. The trap is swapping the mappings of '÷' and '−', which leads to a wrong positive value. So the answer is 0.
+Source: PYQ-style
+
+78. If '+' means '×', '−' means '+', '×' means '÷' and '÷' means '−', then 7 + 3 − 20 × 4 ÷ 6 = ?
+(a) 16 (b) 18 (c) 20 (d) 22
+Answer: (c)
+Solution: Substituting: 7 × 3 + 20 ÷ 4 − 6. By BODMAS: 7 × 3 = 21 and 20 ÷ 4 = 5, so 21 + 5 − 6 = 20. The trap is reading '20 × 4' as multiplication even after substitution; here '×' has become '÷'. So the answer is 20.
+Source: PYQ-style
+
+79. Select the correct combination of mathematical signs to replace * so that 18 * 3 * 2 * 3 = 24 is true.
+(a) ÷, ×, + (b) +, ×, − (c) ×, ÷, − (d) ×, +, −
+Answer: (c)
+Solution: Trying option (c): 18 × 3 ÷ 2 − 3 = 54 ÷ 2 − 3 = 27 − 3 = 24, which is true. The trap is option (a): 18 ÷ 3 × 2 + 3 = 15, which looks close to a plausible result but fails. So the answer is ×, ÷, −.
+Source: PYQ-style
+
+80. If 5 * 3 = 34, 7 * 2 = 53 and 4 * 6 = 52, then 8 * 5 = ?
+(a) 98 (b) 89 (c) 94 (d) 104
+Answer: (b)
+Solution: The pattern is a * b = a² + b²: 25 + 9 = 34, 49 + 4 = 53, 16 + 36 = 52. The trap is assuming a² + b² + ab, which overshoots every example. Hence 8 * 5 = 64 + 25 = 89, so the answer is 89.
+Source: PYQ-style
+
+81. If 12 @ 4 = 8, 15 @ 5 = 10 and 21 @ 7 = 14, then 36 @ 9 = ?
+(a) 27 (b) 20 (c) 24 (d) 30
+Answer: (a)
+Solution: The rule is simple subtraction: 12 − 4 = 8, 15 − 5 = 10, 21 − 7 = 14. The trap is over-complicating with division-based formulas when subtraction fits all three examples. Hence 36 @ 9 = 36 − 9 = 27, so the answer is 27.
+Source: PYQ-style
+
+82. Which interchange of signs will make the equation 5 + 3 × 8 − 12 ÷ 4 = 3 correct?
+(a) + and − (b) − and ÷ (c) + and ÷ (d) × and ÷
+Answer: (b)
+Solution: Interchanging − and ÷: 5 + 3 × 8 ÷ 12 − 4 = 5 + 2 − 4 = 3, which is correct. The trap is option (a): interchanging + and − gives 5 − 3 × 8 + 12 ÷ 4 = 5 − 24 + 3 = −16, which fails badly. So the answer is − and ÷.
+Source: PYQ-style
+
+83. If 'A' means '+', 'B' means '−', 'C' means '×' and 'D' means '÷', then 18 C 3 A 6 B 9 D 3 = ?
+(a) 57 (b) 61 (c) 59 (d) 55
+Answer: (a)
+Solution: Substituting: 18 × 3 + 6 − 9 ÷ 3 = 54 + 6 − 3 = 57. The trap is doing the addition and subtraction before the division; BODMAS requires 9 ÷ 3 = 3 first. So the answer is 57.
+Source: PYQ-style
+
+84. If '−' means '÷', '×' means '+', '+' means '−' and '÷' means '×', then 12 − 6 ÷ 3 = ?
+(a) 8 (b) 12 (c) 10 (d) 6
+Answer: (d)
+Solution: Substituting: 12 ÷ 6 × 3. Division and multiplication are done left to right: 12 ÷ 6 = 2, then 2 × 3 = 6. The trap is multiplying 6 × 3 first, which gives 12 ÷ 18 and a wrong fraction. So the answer is 6.
+Source: PYQ-style
+
+85. If 4 # 3 = 13, 5 # 4 = 21 and 6 # 2 = 14, then 7 # 5 = ?
+(a) 37 (b) 35 (c) 33 (d) 39
+Answer: (a)
+Solution: The pattern is a # b = a × b + (a − b): 12 + 1 = 13, 20 + 1 = 21, 12 + 2 = 14. The trap is assuming a × b + 1 always, which fits the first two examples but fails on the third. Hence 7 # 5 = 35 + 2 = 37, so the answer is 37.
+Source: PYQ-style
+
+86. Select the correct set of signs: 20 * 5 * 2 * 3 = 20
+(a) +, −, − (b) −, +, × (c) ÷, ×, + (d) +, ×, −
+Answer: (a)
+Solution: Option (a): 20 + 5 − 2 − 3 = 20, which is true. The trap is option (d): 20 + 5 × 2 − 3 = 27, which fails because BODMAS makes the multiplication happen first. So the answer is +, −, −.
+Source: PYQ-style
+
+87. If '+' is called '÷', '×' is called '+', '−' is called '×' and '÷' is called '−', then 9 + 3 − 4 × 2 ÷ 6 = ?
+(a) 8 (b) 7 (c) 6 (d) 9
+Answer: (a)
+Solution: Substituting: 9 ÷ 3 × 4 + 2 − 6. By BODMAS: 9 ÷ 3 = 3, then 3 × 4 = 12, so 12 + 2 − 6 = 8. The trap is mixing up the mappings of '×' and '−', which changes the middle term. So the answer is 8.
+Source: PYQ-style
+
+88. If 3 % 5 = 64, 2 % 7 = 81 and 4 % 4 = 64, then 5 % 6 = ?
+(a) 144 (b) 100 (c) 132 (d) 121
+Answer: (d)
+Solution: The pattern is a % b = (a + b)²: 8² = 64, 9² = 81, 8² = 64. The trap is assuming a² + b², which fails on the very first example since 9 + 25 = 34 ≠ 64. Hence 5 % 6 = 11² = 121, so the answer is 121.
+Source: PYQ-style
+
+89. Which of the following equations becomes correct only after interchanging the numbers 4 and 6?
+(a) 4 + 6 × 2 = 20 (b) 4 × 6 − 6 = 20 (c) 6 + 4 ÷ 2 = 10 (d) 6 × 4 + 2 = 24
+Answer: (b)
+Solution: In option (b), the original is 4 × 6 − 6 = 18 ≠ 20; after interchanging 4 and 6 it becomes 6 × 4 − 4 = 24 − 4 = 20, which is correct. The trap is option (d): after interchange it gives 4 × 6 + 2 = 26, still not 24. So the answer is option (b).
+Source: PYQ-style
+
+90. If 'P' denotes '×', 'Q' denotes '−', 'R' denotes '+' and 'S' denotes '÷', then 20 S 5 P 3 Q 6 R 8 = ?
+(a) 10 (b) 12 (c) 14 (d) 16
+Answer: (c)
+Solution: Substituting: 20 ÷ 5 × 3 − 6 + 8 = 4 × 3 − 6 + 8 = 12 − 6 + 8 = 14. The trap is computing 5 × 3 before the division; ÷ and × are done left to right. So the answer is 14.
+Source: PYQ-style
+
+91. If 3 * 4 = 25, 5 * 2 = 29 and 6 * 3 = 45, then 7 * 2 = ?
+(a) 49 (b) 45 (c) 58 (d) 53
+Answer: (d)
+Solution: The pattern is a * b = a² + b²: 9 + 16 = 25, 25 + 4 = 29, 36 + 9 = 45. The trap is assuming (a + b)², which fits the first example (49 ≠ 25, so it actually fails immediately) — always test the rule on all examples. Hence 7 * 2 = 49 + 4 = 53, so the answer is 53.
+Source: PYQ-style
+
+92. If 2 = 6, 3 = 12, 4 = 20 and 5 = 30, then 8 = ?
+(a) 56 (b) 64 (c) 80 (d) 72
+Answer: (d)
+Solution: The pattern is n = n × (n + 1): 2 × 3 = 6, 3 × 4 = 12, 4 × 5 = 20, 5 × 6 = 30. The trap is assuming n² + 2, which fits only the first value (4 + 2 = 6) and fails on the rest. Hence 8 = 8 × 9 = 72, so the answer is 72.
+Source: PYQ-style
+
+93. The equation 8 ÷ 2 + 3 × 2 − 9 = 7 becomes correct if which two signs are interchanged?
+(a) ÷ and × (b) ÷ and + (c) × and − (d) + and −
+Answer: (d)
+Solution: As printed, 8 ÷ 2 + 3 × 2 − 9 = 4 + 6 − 9 = 1, not 7. Interchanging + and −: 8 ÷ 2 − 3 × 2 + 9 = 4 − 6 + 9 = 7, which is correct. The trap is option (c): interchanging × and − gives 4 + 3 − 2 × 9 = −11, which fails. So the answer is + and −.
+Source: PYQ-style
+
+94. If 'a' means '+', 'b' means '−', 'c' means '×' and 'd' means '÷', then (24 c 3) d (12 b 4) = ?
+(a) 9 (b) 6 (c) 8 (d) 12
+Answer: (a)
+Solution: Inside the brackets: 24 c 3 = 24 × 3 = 72 and 12 b 4 = 12 − 4 = 8; then 72 d 8 = 72 ÷ 8 = 9. The trap is ignoring the brackets and computing strictly left to right. So the answer is 9.
+Source: PYQ-style
+
+95. If 11 × 11 = 4, 22 × 22 = 16 and 33 × 33 = 36, then 44 × 44 = ?
+(a) 48 (b) 56 (c) 64 (d) 72
+Answer: (c)
+Solution: The rule is (sum of digits of one number)²: (1+1)² = 4, (2+2)² = 16, (3+3)² = 36. The trap is using the digit-sum of the actual product, which fails on the third example (1+0+8+9 = 18 ≠ 36). Hence (4+4)² = 64, so the answer is 64.
+Source: PYQ-style
+
+96. Select the correct signs: 15 * 5 * 3 * 10 = 40
+(a) ×, −, + (b) +, ×, + (c) +, ×, − (d) ÷, ×, +
+Answer: (b)
+Solution: Option (b): 15 + 5 × 3 + 10 = 15 + 15 + 10 = 40, which is true. The trap is option (c): 15 + 5 × 3 − 10 = 20, which fails because the last sign must add, not subtract. So the answer is +, ×, +.
+Source: PYQ-style
+
+97. If 5 $ 4 = 41, 6 $ 3 = 45 and 8 $ 2 = 68, then 9 $ 5 = ?
+(a) 96 (b) 101 (c) 106 (d) 111
+Answer: (c)
+Solution: The pattern is a $ b = a² + b²: 25 + 16 = 41, 36 + 9 = 45, 64 + 4 = 68. The trap is assuming a² + b² + ab, which overshoots every example. Hence 9 $ 5 = 81 + 25 = 106, so the answer is 106.
+Source: PYQ-style
+
+98. If '÷' means '+', '×' means '−', '+' means '×' and '−' means '÷', then 48 ÷ 6 × 2 + 8 − 4 = ?
+(a) 46 (b) 48 (c) 50 (d) 52
+Answer: (c)
+Solution: Substituting: 48 + 6 − 2 × 8 ÷ 4. By BODMAS: 2 × 8 = 16 and 16 ÷ 4 = 4, so 48 + 6 − 4 = 50. The trap is doing the subtraction before resolving × and ÷, which distorts the middle term. So the answer is 50.
+Source: PYQ-style
+
+99. If 7 @ 3 = 58, 5 @ 4 = 41 and 9 @ 2 = 85, then 8 @ 6 = ?
+(a) 96 (b) 108 (c) 104 (d) 100
+Answer: (d)
+Solution: The pattern is a @ b = a² + b²: 49 + 9 = 58, 25 + 16 = 41, 81 + 4 = 85. The trap is assuming a × b + (a + b), which fits none of the examples consistently. Hence 8 @ 6 = 64 + 36 = 100, so the answer is 100.
+Source: PYQ-style
+
+100. If 3 + 4 = 25, 5 + 2 = 29 and 6 + 1 = 37, then 4 + 5 = ?
+(a) 81 (b) 41 (c) 49 (d) 36
+Answer: (b)
+Solution: The pattern is a + b = a² + b²: 9 + 16 = 25, 25 + 4 = 29, 36 + 1 = 37. The trap is assuming (a + b)², which fails on the first example since 7² = 49 ≠ 25. Hence 4 + 5 = 16 + 25 = 41, so the answer is 41.
+Source: PYQ-style

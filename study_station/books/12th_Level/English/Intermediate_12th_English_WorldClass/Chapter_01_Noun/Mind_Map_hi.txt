@@ -1,0 +1,42 @@
+```mermaid
+graph TD
+    A["संज्ञा (Noun)<br>नाम, स्थान, व्यक्ति, वस्तु, भाव"] --> B["प्रकार (Types)"]
+    A --> C["गिनती (Countability)"]
+    A --> D["लिंग (Gender)"]
+    A --> E["वचन (Number)"]
+    A --> F["कारक (Case)"]
+    A --> G["परीक्षक के जाल (Traps)"]
+    A --> H["रणनीति (Strategy)"]
+
+    B --> B1["व्यक्तिवाचक संज्ञा<br>(Proper Noun) — राम, भारत"]
+    B --> B2["जातिवाचक संज्ञा<br>(Common Noun) — लड़का, शहर"]
+    B --> B3["समूहवाचक संज्ञा<br>(Collective Noun) — टीम, जूरी"]
+    B --> B4["पदार्थवाचक संज्ञा<br>(Material Noun) — सोना, पानी"]
+    B --> B5["भाववाचक संज्ञा<br>(Abstract Noun) — ईमानदारी, स्वतंत्रता"]
+
+    C --> C1["गणनीय (Countable)<br>a/an + एकवचन<br>many, few"]
+    C --> C2["अगणनीय (Uncountable)<br>कोई a/an नहीं<br>much, little"]
+    C2 --> C3["SCARF याद रखने की युक्ति<br>Scenery, Cash, Advice,<br>Research, Furniture"]
+
+    D --> D1["पुल्लिंग / स्त्रीलिंग<br>(Masculine / Feminine)"]
+    D --> D2["उभयलिंग (Common Gender)<br>teacher, student"]
+    D --> D3["नपुंसकलिंग (Neuter Gender)<br>table, book"]
+
+    E --> E1["एकवचन ↔ बहुवचन नियम<br>-s, -es, -ies, -ves"]
+    E --> E2["अनियमित बहुवचन<br>child→children, ox→oxen"]
+    E --> E3["सदा बहुवचन<br>scissors, trousers, spectacles"]
+    E --> E4["समान रूप<br>sheep, deer, species"]
+    E --> E5["-s लगा फिर भी एकवचन<br>news, physics, mathematics"]
+
+    F --> F1["संबंध कारक (Possessive Case)<br>'s और of का प्रयोग"]
+    F1 --> F2["जीवित → 's<br>निर्जीव → of"]
+
+    G --> G1["जाल 1: बीच का वाक्यांश<br>The quality of apples WAS good"]
+    G --> G2["जाल 2: समूहवाचक संज्ञा<br>एकता → एकवचन, मतभेद → बहुवचन"]
+    G --> G3["जाल 3: सुनने में सही<br>informations ❌ information ✔"]
+    G --> G4["जाल 4: अधिक सोचना<br>सरल नियम पर संदेह न करें"]
+
+    H --> H1["15 सेकंड: तथ्यात्मक<br>बहुवचन, गणनीय/अगणनीय"]
+    H --> H2["45 सेकंड: तार्किक<br>त्रुटि पहचान, कर्ता-क्रिया समानता"]
+    H --> H3["छोड़ने की रणनीति<br>दोनों विकल्प सही लगें → छोड़ें,<br>बाद में लौटें"]
+```

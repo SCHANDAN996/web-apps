@@ -1,0 +1,65 @@
+# Feynman Explanation — LCM & HCF (The Trickiest Idea)
+
+## The Concept Everyone Gets Wrong
+
+Ask any student: "What is LCM?" and they'll say "the smallest common multiple." Ask "What is HCF?" and they'll say "the biggest common factor." Correct — but useless. The *hardest* idea in this chapter is this:
+
+> **Why does LCM × HCF = Product of the two numbers?**
+
+Students memorize it like a phone number and panic when a question twists it. So let me explain it the way I'd explain it to a 12-year-old — with LEGO blocks.
+
+## 🧱 The LEGO Story
+
+Imagine every number is a LEGO tower built from **prime blocks**. Prime blocks are the only blocks that exist: 2, 3, 5, 7, 11…
+
+- 12 = 2 × 2 × 3 → a tower with two "2-blocks" and one "3-block"
+- 18 = 2 × 3 × 3 → a tower with one "2-block" and two "3-blocks"
+
+Now meet two friends: **HCF the Hoarder** and **LCM the Collector**.
+
+**HCF the Hoarder** is stingy. He walks up to both towers and says: *"I'll only take the blocks that BOTH of you have — and only as many as the smaller pile."*
+
+- Both have a 2-block? He takes **one** 2 (because 18 only has one).
+- Both have 3-blocks? 12 has one, 18 has two — so he takes **one** 3.
+- HCF = 2 × 3 = **6**. He takes the *minimum* of everything shared.
+
+**LCM the Collector** is greedy. He says: *"I want enough blocks to build EITHER tower completely."*
+
+- To build 12 he needs two 2-blocks; to build 18 he needs one. Greedy Collector takes **two** 2-blocks (the maximum).
+- For 3-blocks: 12 needs one, 18 needs two. He takes **two** 3-blocks.
+- LCM = 2 × 2 × 3 × 3 = **36**. He takes the *maximum* of everything.
+
+## 🔑 The Magic Moment
+
+Now count the blocks. Together, the two towers have:
+
+- 2-blocks: 12 has two, 18 has one → **three total**
+- 3-blocks: 12 has one, 18 has two → **three total**
+
+Hoarder + Collector split these exact same blocks between them:
+
+- 2-blocks: Hoarder took 1 (minimum), Collector took 2 (maximum) → 1 + 2 = **three** ✓
+- 3-blocks: Hoarder took 1, Collector took 2 → **three** ✓
+
+Nothing is created, nothing is lost! Every block that exists in the two numbers ends up in exactly one of the two bags. That's why:
+
+> **LCM × HCF = First number × Second number**
+
+It's not a formula to memorize — it's just *splitting the same pile of LEGO blocks two ways*. Minimum goes to HCF, maximum goes to LCM, and min + max always equals the total.
+
+## 🎯 The Unforgettable Trick: "MIN goes to H, MAX goes to L"
+
+Remember it like a movie ticket counter:
+
+- **HCF = "How much is Common, Friend?"** → take the **MIN**imum power of each shared prime.
+- **LCM = "Load up Completely, Mate!"** → take the **MAX**imum power of every prime that appears anywhere.
+
+And the golden rule: **H is small, L is large** — HCF can never exceed the smaller number, LCM can never be less than the larger number. If your answer breaks this, you made a mistake. Make this check a habit after every LCM–HCF question — it takes two seconds and flags wrong answers instantly.
+
+⚠️ **One warning Feynman would insist on:** the product rule works for **two** numbers only. For three numbers, LCM × HCF ≠ product — because a block can be shared by all three towers, and the simple min-max split breaks down. Exam setters love this trap!
+
+## ❓ Now You Try (Answer Before Reading Any Further!)
+
+Two numbers have HCF = 4 and LCM = 48. One number is 12. Using only the LEGO logic — no formula sheet — can you find the other number? And can you explain *why* your method works, the way you'd explain it to a friend over lunch?
+
+*(Hint: the blocks in the two towers together must equal the blocks in the Hoarder's bag plus the Collector's bag.)*

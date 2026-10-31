@@ -1,0 +1,104 @@
+# 📊 PYQ Analysis — Sitting Arrangement (Intermediate)
+
+## 1. How Exams Ask Questions from This Chapter
+
+Sitting Arrangement is one of the most reliable scoring areas in SSC (CGL, CHSL, MTS), Banking (IBPS PO/Clerk, SBI), and Railway (RRB NTPC, Group D) exams. Examiners treat it as a **logic-consistency test**: they give 5–8 conditions and check whether you can build one unique arrangement without contradiction.
+
+The questions almost always fall into these patterns:
+
+- **Linear row, all facing one direction** — the warm-up version. Usually 5–7 persons.
+- **Linear row, mixed facing (some North, some South)** — the classic trap version. Left/right must be computed from each person's own perspective.
+- **Circular arrangement, all facing centre** — "second to the left of", "immediate neighbour of" dominate.
+- **Circular arrangement, mixed facing (centre + outside)** — the highest-difficulty regular pattern.
+- **Two parallel rows facing each other** — common in Banking; "who faces whom" questions.
+- **Square/rectangular table** — corner vs. middle-of-side positions; appears in IBPS and SSC CGL Tier-I.
+- **Arrangement + extra attribute** — persons plus city/colour/profession; two-layer deduction.
+
+## 2. Sub-topics That Repeat Most Often
+
+In words, not numbers: across SSC, Banking and Railway papers, the **single most repeated demand** is identifying a person's *position relative to another* ("who sits second to the right of X?") and *who sits at an end / exactly in the middle*. Circular sets with all-facing-centre appear slightly more often than mixed-facing sets in SSC and Railway, while Banking leans towards parallel rows and arrangement-with-attributes. Square-table sets appear less frequently but carry the same logic as circles, so students who master circles handle them easily.
+
+## 3. Exam-wise Tendencies (Qualitative)
+
+- **SSC CGL / CHSL:** One compact set (4–6 persons, 1–2 questions) or a single standalone question. Conditions are short; the trap is usually a negative condition ("A is *not* at an end").
+- **RRB NTPC / Group D:** Straightforward linear or circular sets, all facing one direction. Speed matters more than depth here.
+- **IBPS / SBI (Banking):** Full puzzle sets of 5 questions from 7–8 persons, often with an attribute layer (city, colour, department). Mixed facing and parallel rows are their favourites.
+
+## 4. The Examiner's Traps (Psychological Hooks)
+
+1. **Left–right mirror trap:** In mixed-facing rows, the examiner places a South-facing person so that a careless student uses the reader's left instead of the person's left. This single trap eliminates the majority of wrong answers.
+2. **"Not" conditions:** "B does not sit next to C" is easy to forget mid-solution. Examiners deliberately place it as the *last* condition so you relax too early.
+3. **"Second to the right of the person who…"** — chained references. Students anchor on the wrong person.
+4. **Near-true options:** Options like (a) A (b) B (c) C (d) D where the correct answer is the person *one seat away* from the one your half-finished diagram suggests.
+5. **"Who sits exactly in the middle?"** in even-numbered rows — there is no single middle; the trap option assumes one.
+6. **Attribute swap:** In person+colour sets, the question asks about the *colour* of the person sitting next to X, not the person — students answer the person's name.
+
+## 5. High-Yield PYQ-Style Questions with Solutions
+
+**Q1.** Six persons P, Q, R, S, T, U sit in a row facing North. P sits second to the left of Q. R sits at an extreme end. T sits between Q and S. U does not sit next to P. Who sits at the right end?
+(a) P (b) R (c) U (d) S
+**Answer: (c) U**
+**Solution:** Fix R at one end. Placing P second left of Q and T between Q and S forces the chain; the "U not next to P" condition then pushes U to the right end.
+**Trap:** Students place R at the right end by habit ("end = right"), which collapses the whole arrangement. Test both ends.
+**Source:** PYQ-style
+
+**Q2.** Eight persons sit around a circle facing the centre. A faces B. C is second to the right of A. D sits between B and E. F is immediate left of C. Who sits opposite C?
+(a) D (b) E (c) F (d) B
+**Answer: (b) E**
+**Solution:** Draw 8 seats, fix A and B opposite, place C, then F, then fit D–E between B's side; E lands opposite C.
+**Trap:** "Second to the right" counted as adjacent (first-right) — the most common counting slip in circles.
+**Source:** PYQ-style
+
+**Q3.** In a row of 7 facing North, M is fourth from the left. N is to the immediate right of M. O is at the right end. How many persons sit between N and O?
+(a) One (b) Two (c) Three (d) None
+**Answer: (a) One**
+**Solution:** Positions: M=4, N=5, O=7 → only position 6 lies between.
+**Trap:** Students count N or O themselves and answer "two". "Between" excludes endpoints.
+**Source:** PYQ-style
+
+**Q4.** Five persons A, B, C, D, E face South in a row. B sits second from the left end. A is second to the left of B. C is at an end. D is immediate right of A. Who sits in the middle?
+(a) A (b) B (c) D (d) E
+**Answer: (c) D**
+**Solution:** With South-facing, a person's "left" is the reader's right, and "right" is the reader's left. B is fixed at position 2 (from the reader's left). A second to B's left → A at position 4. D immediate right of A → D at position 3. C at an end → position 5 (position 1 is the other end, taken by E). So the row is E–B–D–A–C and the middle (position 3) is D.
+**Trap:** Using North-facing left/right — the mirror trap in its purest form. Without the fixing condition "B sits second from the left end", several arrangements are possible; always check that the clues give one unique answer.
+**Source:** PYQ-style
+
+**Q5.** Six persons sit at a square table, one at each corner and one at the middle of each of two opposite sides… (condensed) — the key question: "Who faces P?" In square sets, always mark facing direction *before* placing names.
+**Trap:** Assuming corner persons face the centre when the statement says some face outside.
+**Source:** PYQ-style
+
+**Q6.** Parallel rows: Row 1 (A, B, C, D) faces South; Row 2 (P, Q, R, S) faces North; each person in Row 1 faces exactly one person in Row 2 (seats are aligned). A sits at the left end of Row 1. A faces Q. B is second to the left of A. R is second to the right of Q. Who faces B?
+(a) P (b) Q (c) R (d) S
+**Answer: (c) R**
+**Solution:** A is at the left end of Row 1 (reader's position 1) and faces Q, so Q is at position 1 of Row 2. A faces South, so A's left is the reader's right → B is at position 3 of Row 1. Q faces North, so Q's right is the reader's right → R is at position 3 of Row 2. Position 3 faces position 3, so R faces B.
+**Trap:** Computing "second to the left" from the reader's view instead of A's (South-facing) view — and note that without the fixing conditions (A at the end, R's position relative to Q), the answer cannot be determined; a well-formed puzzle always pins down every seat.
+**Source:** PYQ-style
+
+**Q7.** "P is third to the right of the person who is immediate left of Q." — chained reference. Solve *inside out*: find Q, then Q's immediate left, then three right from there.
+**Trap:** Anchoring on Q directly instead of the intermediate person.
+**Source:** PYQ-style
+
+**Q8.** Persons + colours: "The person in red sits next to the one who faces T." The question asks the *colour*, not the name.
+**Trap:** Answering with the person's name — read the final question line twice.
+**Source:** PYQ-style
+
+**Q9.** Even-row middle: 6 persons face North; "who sits exactly in the middle?" Options include two adjacent names plus "either of the two middle seats".
+**Trap:** Picking one name when positions 3 and 4 are both "middle". Check whether the question means a unique seat.
+**Source:** PYQ-style
+
+**Q10.** Circular, mixed facing: 6 around a circle, 3 face centre, 3 face outside. "V sits second to the right of W, who faces outside."
+**Trap:** Forgetting that for an outside-facing person, right and left reverse relative to the centre-facing convention.
+**Source:** PYQ-style
+
+## 6. The 15-Second / 45-Second Rule — Applied
+
+- **15-second check:** Read all conditions once. If the set has ≤6 persons, one row/circle, one facing direction, and no attribute layer → **attempt immediately**; these typically solve in 40–60 seconds total.
+- **45-second checkpoint:** If after 45 seconds your diagram still has two conflicting placements, **mark and move on**. Do not restart the diagram in the exam hall.
+- **Skip candidates (apply the rule strictly):**
+  - **Q6-type (parallel rows with mixed facing + chained conditions):** If you cannot fix the first facing pair within 15 seconds, skip and return later — these sets punish half-finished diagrams.
+  - **Q10-type (circular mixed facing with 7–8 persons):** High time cost, high mirror-trap risk. In SSC/Railway where each question carries equal marks, skip it in the first pass; a solved linear set earns the same mark in one-third the time.
+- **Never skip:** Single-row, single-direction sets with a clear anchor condition ("X sits at the left end") — these are the fastest marks in the reasoning section.
+
+## 7. One-Line Revision of the Pattern
+
+Fix the anchor → place definite pairs → keep "not" conditions visible → compute left/right from the *person's* facing → answer the exact thing asked (name, colour, or count).

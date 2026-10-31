@@ -1,3 +1,149 @@
-# Chapter: Algebra, Level: intermediate, Set: 5/6
+101. If x + 1/x = 5, then the value of x² + 1/x² is
+(a) 23 (b) 25 (c) 27 (d) 21
+Answer: (a)
+Solution: Many students square 5 and write 25, forgetting the cross term. Squaring x + 1/x = 5 gives x² + 2 + 1/x² = 25, so x² + 1/x² = 25 − 2 = 23. The answer is 23.
+Source: NCERT Class 8 Mathematics (Algebraic Identities)
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Algebra. This is Set 5 (total 6 sets, 150 questions). Questions must be numbered 101 to 125. Questions 101 to 120 should be Medium, Questions 121 to 125 should be Hard. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+102. If a + b = 10 and ab = 21, then the value of a² + b² is
+(a) 79 (b) 58 (c) 100 (d) 42
+Answer: (b)
+Solution: The trap is writing 10² = 100 directly. Use a² + b² = (a + b)² − 2ab = 100 − 42 = 58. The answer is 58.
+Source: NCERT Class 9 Mathematics (Algebraic Identities)
+
+103. If x − 1/x = 4, then the value of x² + 1/x² is
+(a) 14 (b) 16 (c) 18 (d) 20
+Answer: (c)
+Solution: Students often subtract 2 and get 14, but here the sign is minus, so squaring gives x² − 2 + 1/x² = 16, hence x² + 1/x² = 16 + 2 = 18. The answer is 18.
+Source: NCERT Class 8 Mathematics (Algebraic Identities)
+
+104. The factors of x² + 7x + 12 are
+(a) (x − 3)(x − 4) (b) (x + 2)(x + 6) (c) (x + 3)(x + 4) (d) (x + 1)(x + 12)
+Answer: (c)
+Solution: We need two numbers with product 12 and sum 7; those are 3 and 4. Options with 2 and 6 give sum 8, and negative signs give a negative middle term, so the answer is (x + 3)(x + 4).
+Source: NCERT Class 8 Mathematics (Factorisation)
+
+105. If 2x + 3y = 12 and 3x + 2y = 13, then the value of x + y is
+(a) 7 (b) 4 (c) 6 (d) 5
+Answer: (d)
+Solution: Instead of solving for x and y separately, add the two equations: 5x + 5y = 25, so x + y = 5. The answer is 5.
+Source: NCERT Class 10 Mathematics (Pair of Linear Equations)
+
+106. The value of (997)² using an algebraic identity is
+(a) 993009 (b) 994090 (c) 994009 (d) 995009
+Answer: (c)
+Solution: Write 997 = 1000 − 3. Then (1000 − 3)² = 1000000 − 6000 + 9 = 994009. Forgetting the middle term gives 1000009, a common trap, so the answer is 994009.
+Source: NCERT Class 8 Mathematics (Algebraic Identities)
+
+107. If x + y = 8 and xy = 15, then the value of x³ + y³ is
+(a) 200 (b) 512 (c) 360 (d) 152
+Answer: (d)
+Solution: Use x³ + y³ = (x + y)³ − 3xy(x + y) = 512 − 3 × 15 × 8 = 512 − 360 = 152. Writing 8³ = 512 directly is the trap, so the answer is 152.
+Source: NCERT Class 9 Mathematics (Algebraic Identities)
+
+108. The roots of the equation x² − 5x + 6 = 0 are
+(a) 2 and 3 (b) −2 and −3 (c) 1 and 6 (d) −1 and −6
+Answer: (a)
+Solution: Factorise: x² − 5x + 6 = (x − 2)(x − 3) = 0, giving x = 2 or x = 3. The sign trap gives −2, −3, whose sum is −5, not 5, so the answer is 2 and 3.
+Source: NCERT Class 10 Mathematics (Quadratic Equations)
+
+109. If a² + b² = 29 and ab = 10, then the value of a + b (taking positive value) is
+(a) 7 (b) 9 (c) 6 (d) 8
+Answer: (a)
+Solution: (a + b)² = a² + b² + 2ab = 29 + 20 = 49, so a + b = 7. Taking √29 ≈ 5.4 is the trap, so the answer is 7.
+Source: NCERT Class 9 Mathematics (Algebraic Identities)
+
+110. Simplify: (x + 3)² − (x − 3)²
+(a) 6x (b) 12x (c) 18 (d) 2x² + 18
+Answer: (b)
+Solution: Use a² − b² = (a − b)(a + b): here difference of the brackets is 6 and sum is 2x, giving 6 × 2x = 12x. Expanding and cancelling wrongly gives 18, so the answer is 12x.
+Source: NCERT Class 8 Mathematics (Algebraic Identities)
+
+111. If 3x − 5 = 16, then the value of 2x + 1 is
+(a) 16 (b) 14 (c) 13 (d) 15
+Answer: (d)
+Solution: 3x = 21 gives x = 7, so 2x + 1 = 15. The trap is answering x = 7 itself or computing 2 × 7 = 14 and forgetting +1, so the answer is 15.
+Source: NCERT Class 8 Mathematics (Linear Equations)
+
+112. The sum of the roots of 2x² − 8x + 6 = 0 is
+(a) 3 (b) 4 (c) −4 (d) 8
+Answer: (b)
+Solution: Sum of roots = −(−8)/2 = 4. The trap is ignoring the coefficient 2 and answering 8, or mishandling the sign to get −4, so the answer is 4.
+Source: NCERT Class 10 Mathematics (Quadratic Equations)
+
+113. If x = 3 + 2√2, then the value of √x − 1/√x is
+(a) 4 (b) 2√2 (c) 2 (d) √2
+Answer: (c)
+Solution: Note x = (√2 + 1)², so √x = √2 + 1 and 1/√x = √2 − 1. Their difference is 2. Rationalising wrongly leads to 2√2, so the answer is 2.
+Source: NCERT Class 9 Mathematics (Number Systems / Surds)
+
+114. If a + b + c = 0, then the value of a³ + b³ + c³ is
+(a) 3abc (b) 0 (c) abc (d) −3abc
+Answer: (a)
+Solution: The standard identity says when a + b + c = 0, then a³ + b³ + c³ = 3abc. Choosing 0 is the common trap since the sum is zero, so the answer is 3abc.
+Source: NCERT Class 9 Mathematics (Algebraic Identities)
+
+115. The product of (x + 2)(x + 5) is
+(a) x² + 7x + 10 (b) x² + 10x + 7 (c) x² + 3x + 10 (d) x² + 7x + 7
+Answer: (a)
+Solution: Multiply term by term: x² + 5x + 2x + 10 = x² + 7x + 10. Swapping the coefficient and constant is the trap, so the answer is x² + 7x + 10.
+Source: NCERT Class 8 Mathematics (Algebraic Expressions)
+
+116. If x² + 1/x² = 7, then the value of x + 1/x (taking positive value) is
+(a) 5 (b) √7 (c) 9 (d) 3
+Answer: (d)
+Solution: (x + 1/x)² = x² + 1/x² + 2 = 7 + 2 = 9, so x + 1/x = 3. Taking √7 directly is the trap, so the answer is 3.
+Source: NCERT Class 9 Mathematics (Algebraic Identities)
+
+117. Solve: (x/2) + (x/3) = 10. The value of x is
+(a) 10 (b) 12 (c) 15 (d) 6
+Answer: (b)
+Solution: LCM of 2 and 3 is 6: (3x + 2x)/6 = 10, so 5x = 60 and x = 12. Adding denominators to get x/5 = 10 is the trap, so the answer is 12.
+Source: NCERT Class 8 Mathematics (Linear Equations)
+
+118. If a − b = 3 and a² + b² = 29, then the value of ab is
+(a) 10 (b) 12 (c) 20 (d) 6
+Answer: (a)
+Solution: (a − b)² = a² + b² − 2ab gives 9 = 29 − 2ab, so 2ab = 20 and ab = 10. Forgetting to halve 20 is the trap, so the answer is 10.
+Source: NCERT Class 9 Mathematics (Algebraic Identities)
+
+119. The value of k for which x² + kx + 9 is a perfect square is
+(a) 12 (b) 9 (c) 3 (d) 6
+Answer: (d)
+Solution: A perfect square x² + 2ax + a² with a² = 9 needs a = 3, so k = 2a = 6. Choosing 3 (only a, not 2a) is the trap, so the answer is 6.
+Source: NCERT Class 10 Mathematics (Quadratic Equations)
+
+120. If 2ˣ = 8ʸ and x + y = 8, then the value of x is
+(a) 2 (b) 6 (c) 4 (d) 5
+Answer: (b)
+Solution: 8ʸ = 2³ʸ, so x = 3y. With x + y = 8, we get 4y = 8, y = 2, x = 6. Answering y = 2 instead of x is the trap, so the answer is 6.
+Source: NCERT Class 9 Mathematics (Exponents)
+
+121. If x + 1/x = 2, then the value of x¹⁰⁰ + 1/x¹⁰⁰ is
+(a) 2¹⁰⁰ (b) 100 (c) 2 (d) 0
+Answer: (c)
+Solution: x + 1/x = 2 implies (x − 1)² = 0 after multiplying by x, so x = 1. Then x¹⁰⁰ + 1/x¹⁰⁰ = 1 + 1 = 2. Assuming the value grows with the power is the trap, so the answer is 2.
+Source: PYQ-style (based on NCERT Class 9 identities)
+
+122. If a + b = 5 and a³ + b³ = 35, then the value of ab is
+(a) 8 (b) 5 (c) 4 (d) 6
+Answer: (d)
+Solution: a³ + b³ = (a + b)³ − 3ab(a + b) gives 35 = 125 − 15ab, so 15ab = 90 and ab = 6. Using (a + b)³ = 125 directly as the cube sum is the trap, so the answer is 6.
+Source: PYQ-style (based on NCERT Class 9 identities)
+
+123. If x² − 3x + 1 = 0, then the value of x³ + 1/x³ is
+(a) 27 (b) 18 (c) 9 (d) 36
+Answer: (b)
+Solution: Divide by x: x − 3 + 1/x = 0, so x + 1/x = 3. Then x³ + 1/x³ = 3³ − 3 × 3 = 27 − 9 = 18. Cubing 3 to get 27 without subtracting is the trap, so the answer is 18.
+Source: PYQ-style (based on NCERT Class 9 identities)
+
+124. If a + b + c = 6 and ab + bc + ca = 11, then the value of a² + b² + c² is
+(a) 14 (b) 36 (c) 22 (d) 25
+Answer: (a)
+Solution: (a + b + c)² = a² + b² + c² + 2(ab + bc + ca) gives 36 = a² + b² + c² + 22, so a² + b² + c² = 14. Writing 36 directly is the trap, so the answer is 14.
+Source: PYQ-style (based on NCERT Class 9 identities)
+
+125. If x = 5 − 2√6, then the value of x² + 1/x² is
+(a) 100 (b) 96 (c) 98 (d) 94
+Answer: (c)
+Solution: 1/x = 5 + 2√6 (rationalising, since 25 − 24 = 1), so x + 1/x = 10. Then x² + 1/x² = 10² − 2 = 98. Squaring 10 without subtracting 2 gives 100, the trap, so the answer is 98.
+Source: PYQ-style (based on NCERT Class 9 surds and identities)

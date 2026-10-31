@@ -1,0 +1,38 @@
+```mermaid
+graph TD
+    A["घन-पासा<br>Cubes & Dice"] --> B["घन / Cube"]
+    A --> C["पासा / Dice"]
+    A --> D["समय प्रबंधन<br>Time Management"]
+    A --> E["परीक्षक के जाल<br>Examiner Traps"]
+
+    B --> B1["आधारभूत तथ्य<br>6 फलक, 12 किनारे, 8 शीर्ष<br>6 faces, 12 edges, 8 corners"]
+    B --> B2["घन काटना<br>Cutting a Cube"]
+    B --> B3["रंगा हुआ घन<br>Painted Cube"]
+    B --> B4["घन का जाल<br>Cube Net / Folding"]
+
+    B2 --> B2a["n भागों में कटाव<br>कुल छोटे घन = n³<br>Total small cubes = n³"]
+    B3 --> B3a["3 फलक रंगे = 8 (कोने)<br>3 painted faces = 8 (corners)"]
+    B3 --> B3b["2 फलक रंगे = 12(n−2)<br>2 painted faces = 12(n−2)"]
+    B3 --> B3c["1 फलक रंगा = 6(n−2)²<br>1 painted face = 6(n−2)²"]
+    B3 --> B3d["0 फलक रंगा = (n−2)³<br>Unpainted = (n−2)³"]
+    B4 --> B4a["11 प्रकार के जाल<br>11 types of nets"]
+    B4 --> B4b["विपरीत फलक पहचानना<br>Identify opposite faces"]
+
+    C --> C1["मानक पासा<br>Standard Dice<br>विपरीत फलकों का योग = 7<br>Opposite faces sum = 7"]
+    C --> C2["साधारण पासा<br>Ordinary Dice<br>योग 7 नहीं<br>Sum not 7"]
+    C --> C3["दो स्थितियों से तुलना<br>Compare two positions"]
+    C --> C4["उन्मुक्त पासा<br>Open Dice"]
+
+    C1 --> C1a["1↔6, 2↔5, 3↔4"]
+    C3 --> C3a["उभयनिष्ठ फलक से घुमाएँ<br>Rotate using common face"]
+    C3 --> C3b["दो उभयनिष्ठ फलक →<br>शेष फलक परस्पर विपरीत<br>Two common faces → remaining are opposite"]
+
+    D --> D1["सरल विपरीत-फलक प्रश्न<br>15 सेकंड नियम<br>15-second rule"]
+    D --> D2["कटाव/रंगाई प्रश्न<br>45 सेकंड नियम<br>45-second rule"]
+    D --> D3["कठिन जाल प्रश्न<br>Skip करके बाद में लौटें<br>Skip & return"]
+
+    E --> E1["मानक बनाम साधारण पासा<br>भ्रम<br>Standard vs Ordinary confusion"]
+    E --> E2["n³ बनाम (n−2)³<br>गलती<br>n³ vs (n−2)³ error"]
+    E --> E3["घड़ी/विपरीत दिशा<br>घुमाव में भूल<br>Clockwise/anticlockwise rotation error"]
+    E --> E4["छिपे फलक पर अनुमान<br>Guessing hidden faces"]
+```

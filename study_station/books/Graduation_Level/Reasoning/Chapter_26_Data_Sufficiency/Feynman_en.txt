@@ -1,0 +1,59 @@
+# 🧒 The Feynman Way — Data Sufficiency Explained Like You're 12
+
+## The Story of the Locked Lunchbox
+
+Imagine this. Your friend Ravi comes to school crying: *"Someone ate my lunchbox!"* You are the detective. But here's the twist — you don't need to find the thief. You only need to decide: **"Do I have ENOUGH clues to find the thief?"**
+
+That, my friend, is the entire game of Data Sufficiency.
+
+In normal maths, the question is: *"Solve it. Get the answer."*
+In Data Sufficiency, the question is: *"Could you solve it IF you wanted to?"* You never actually solve it. You just check whether the clues are **enough**.
+
+## The Two Clues Game
+
+Back to Ravi's lunchbox. The thief is one of three kids: Aman, Bittu, or Chotu.
+
+**Clue 1:** "The thief wears a red cap."
+You look around — Aman AND Bittu both wear red caps. Two suspects left. **Not enough!**
+
+**Clue 2:** "The thief has a blue water bottle."
+Only Chotu has a blue bottle... but wait, Chotu doesn't wear a red cap. Hmm, Clue 2 alone says Chotu — but does that match? Actually, alone, Clue 2 points to exactly one person. **Enough!**
+
+See what happened? You tested each clue **separately first**. Never mix the clues before testing them alone. That is the golden rule.
+
+## The Magic Question
+
+For every statement, ask only ONE thing:
+
+> **"If this were the ONLY clue I had, could I get exactly ONE answer?"**
+
+- One answer → the clue is **sufficient** ✅
+- Two or more possible answers → **not sufficient** ❌
+- Zero answers (contradiction) → also not sufficient ❌
+
+Notice: "sufficient" doesn't mean the answer is nice or big or positive. It only means **unique**. Even if the answer is "x = –47", if it's the ONLY possible value, the data is sufficient.
+
+## The Unforgettable Trick: **"ALONE FIRST, TOGETHER LAST"**
+
+Remember it like eating dinner: you taste the dal **alone**, the sabzi **alone**, and only then mix them.
+
+1. **Statement I ALONE** → enough? If yes, answer is (a) or (d).
+2. **Statement II ALONE** → enough? If yes, answer is (b) or (d).
+3. **Only if BOTH fail alone** → combine them. Now enough? (c) : (e).
+
+Most students lose marks because they jump to step 3. Don't. **Alone first, together last.**
+
+And here's the examiner's favourite trap: a question like *"Is x > 5?"* — if the statement tells you x = 3, the answer to the question is "No"... and that IS sufficient! A definite "No" is just as good as a definite "Yes". Students think "the answer came out negative, so data is insufficient." Wrong! **A unique NO is still a unique answer.**
+
+## The Examiner's Trap Box 🪤
+
+- **Trap 1:** You solved the whole problem and found x = 7. Waste of time! The moment you knew x *would* be unique, you should have stopped.
+- **Trap 2:** Statement II repeats Statement I in disguise (e.g., "x + y = 10" and "y = 10 – x"). Two copies of one clue = still one clue.
+- **Trap 3:** Information hidden in the question itself ("Ram and Shyam are brothers" — so they're male!). Use it.
+- **Trap 4:** "x² = 16" looks like it gives x = 4, but x could be –4 too. Two answers → NOT sufficient. Squares and absolute values are the examiner's favourite hiding place.
+
+## 📝 Blurting Sheet Time!
+
+Close this book. Take a blank sheet. **Now try to write down all key points of this chapter on a blank sheet without looking up.** Write: the golden question, the ALONE-FIRST-TOGETHER-LAST order, what "sufficient" really means, the answer options (a)–(e), and at least three examiner traps. Then open the book and check what you missed — that missing part is what you revise tonight.
+
+**Question for you:** If a statement tells you "x is a prime number between 10 and 15", is it sufficient to find x? Think — how many primes live between 10 and 15?

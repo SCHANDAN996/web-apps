@@ -1,0 +1,35 @@
+```mermaid
+graph TD
+    A["कागज़ मोड़ना-काटना<br>Paper Folding & Cutting"] --> B["मूल अवधारणा<br>Core Concept"]
+    A --> C["प्रश्नों के प्रकार<br>Types of Questions"]
+    A --> D["हल करने की रणनीति<br>Strategies"]
+    A --> E["समय प्रबंधन<br>Time Management"]
+    A --> F["परीक्षक के जाल<br>Common Traps"]
+
+    B --> B1["मोड़ = सममिति बनती है<br>Fold creates symmetry"]
+    B --> B2["हर मोड़ पर परतें दोगुनी<br>Layers double at each fold"]
+    B --> B3["कट/पंच खोलने पर दर्पण-प्रतिबिंब बनाता है<br>Cut mirrors on unfolding"]
+    B --> B4["क्रम उल्टा चलता है<br>Unfold in reverse order"]
+
+    C --> C1["मोड़ + पंच/कट → खोलने पर आकृति<br>Fold + Punch → Unfolded figure"]
+    C --> C2["कागज़ काटना (किनारे/कोने)<br>Paper Cutting (edges/corners)"]
+    C --> C3["आधा/चौथाई मोड़<br>Half / Quarter folds"]
+    C --> C4["विकर्ण/त्रिभुज मोड़<br>Diagonal / Triangular folds"]
+
+    D --> D1["अंतिम मोड़ से उल्टा खोलें<br>Unfold from last fold backwards"]
+    D --> D2["हर खोलने पर कट की संख्या ×2<br>Cuts double at each unfold"]
+    D --> D3["मोड़-रेखा = सममिति अक्ष<br>Fold line = axis of symmetry"]
+    D --> D4["मानसिक रूप से दर्पण लगाएँ<br>Mirror mentally across fold line"]
+    D --> D5["विकल्पों से मिलान करें<br>Eliminate options by symmetry"]
+
+    E --> E1["सरल प्रश्न: 30–40 सेकंड<br>Easy: 30–40 sec"]
+    E --> E2["कठिन (3+ मोड़): 60–75 सेकंड<br>Hard (3+ folds): 60–75 sec"]
+    E --> E3["परतें गिनें, आकृति न बनाएँ<br>Count layers, don't draw"]
+    E --> E4["उलझने पर छोड़ें, बाद में आएँ<br>Skip if stuck, return later"]
+
+    F --> F1["मोड़ों का क्रम भूलना<br>Forgetting fold order"]
+    F --> F2["कट की संख्या कम/ज़्यादा गिनना<br>Miscounting holes"]
+    F --> F3["दर्पण-दिशा उलटना<br>Wrong mirror direction"]
+    F --> F4["किनारे पर कट = आधा आकार<br>Edge cut = half shape"]
+    F --> F5["मोड़-रेखा पर कट = जुड़ा हुआ आकार<br>Cut on fold line = joined shape"]
+```

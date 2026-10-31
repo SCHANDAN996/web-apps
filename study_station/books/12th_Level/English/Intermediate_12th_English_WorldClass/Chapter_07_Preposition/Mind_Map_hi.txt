@@ -1,0 +1,45 @@
+```mermaid
+graph TD
+    A["संबंधसूचक<br>Preposition"] --> B["प्रकार"]
+    A --> C["12 स्वर्ण नियम"]
+    A --> D["परीक्षक के जाल"]
+    A --> E["रणनीति"]
+
+    B --> B1["समय<br>at, on, in, since, for"]
+    B --> B2["स्थान<br>at, on, in, above, below"]
+    B --> B3["दिशा/गति<br>to, into, towards, across"]
+    B --> B4["Fixed Phrases<br>depend on, consist of"]
+
+    B1 --> B1a["at = सही समय<br>at 5 pm"]
+    B1 --> B1b["on = दिन/तारीख<br>on Monday"]
+    B1 --> B1c["in = महीना/वर्ष/युग<br>in July, in 2024"]
+    B1 --> B1d["since = बिंदु से<br>since 2020"]
+    B1 --> B1e["for = अवधि<br>for 2 years"]
+
+    B2 --> B2a["at = बिंदु<br>at the station"]
+    B2 --> B2b["on = सतह<br>on the table"]
+    B2 --> B2c["in = भीतर<br>in the room"]
+
+    C --> C1["between vs among<br>2 vs 2+"]
+    C --> C2["beside vs besides<br>पास vs अतिरिक्त"]
+    C --> C3["in vs into<br>स्थिर vs गति"]
+    C --> C4["on vs upon<br>साधारण vs औपचारिक"]
+    C --> C5["by vs with<br>कर्ता vs साधन"]
+    C --> C6["agree with/to/on<br>व्यक्ति/प्रस्ताव/बिंदु"]
+    C --> C7["married to<br>married with नहीं"]
+    C --> C8["different from<br>different than नहीं"]
+    C --> C9["good at, angry with<br>Fixed Combinations"]
+    C --> C10["discuss/enter/reach के बाद<br>कोई Preposition नहीं"]
+    C --> C11["since + बिंदु<br>for + अवधि"]
+    C --> C12["arrive at/in<br>arrive to नहीं"]
+
+    D --> D1["Sound-Right जाल<br>married with सुनने में सही"]
+    D --> D2["हिंदी अनुवाद जाल<br>से = with हमेशा नहीं"]
+    D --> D3["Intervening Phrase<br>Verb + Preposition अलग करना"]
+    D --> D4["Over-thinking<br>सीधा नियम याद करो"]
+
+    E --> E1["15 सेकंड नियम<br>Fixed Phrase = तुरंत"]
+    E --> E2["45 सेकंड नियम<br>संदर्भ देखकर चुनो"]
+    E --> E3["Skip Strategy<br>2 पढ़ने पर भी शक = छोड़ो"]
+    E --> E4["Mnemonic<br>ATI = At Time In"]
+```

@@ -1,0 +1,149 @@
+101. If sin θ = 3/5 and θ is acute, find the value of (tan θ + sec θ).
+(a) 2 (b) 1 (c) 3/2 (d) 5/4
+Answer: (a)
+Solution: The tempting wrong option 3/2 comes from adding tan θ = 3/4 and sec θ = 5/4 incorrectly as 3/4 + 3/4. With sin θ = 3/5, cos θ = 4/5, so tan θ = 3/4 and sec θ = 5/4; their sum is 3/4 + 5/4 = 8/4 = 2, so the answer is 2.
+Source: NCERT Class 10 Mathematics
+
+102. Find the value of sin² 25° + sin² 65°.
+(a) 1/2 (b) 2 (c) 1 (d) 3/4
+Answer: (c)
+Solution: The trap is to compute each term separately and guess 1/2. Since sin 65° = cos 25°, the expression becomes sin² 25° + cos² 25° = 1, so the answer is 1.
+Source: NCERT Class 10 Mathematics
+
+103. If tan θ + cot θ = 2, find the value of tanⁿ θ + cotⁿ θ for any positive integer n.
+(a) 2 (b) 2ⁿ (c) n (d) 1
+Answer: (a)
+Solution: Many students pick 2ⁿ by wrongly raising the whole equation to power n. From tan θ + cot θ = 2 we get tan²θ − 2 tan θ + 1 = 0, so tan θ = 1 and cot θ = 1; hence 1ⁿ + 1ⁿ = 2, so the answer is 2.
+Source: NCERT Class 10 Mathematics
+
+104. The value of (1 + tan²θ)(1 − sin θ)(1 + sin θ) is:
+(a) 1 (b) 0 (c) sin²θ (d) cos²θ
+Answer: (a)
+Solution: The tempting wrong option cos²θ comes from stopping after (1 − sin θ)(1 + sin θ) = cos²θ and forgetting the first factor. Since (1 + tan²θ) = sec²θ, the product is sec²θ · cos²θ = 1, so the answer is 1.
+Source: NCERT Class 10 Mathematics
+
+105. If 3 sin θ + 4 cos θ = 5, find the value of 4 sin θ − 3 cos θ.
+(a) 5 (b) 1 (c) 0 (d) 3
+Answer: (c)
+Solution: The trap is to assume the second expression also equals 5 by symmetry. Squaring and adding: (3 sin θ + 4 cos θ)² + (4 sin θ − 3 cos θ)² = 9 + 16 = 25, so the second expression squared is 25 − 25 = 0, so the answer is 0.
+Source: NCERT Class 11 Mathematics
+
+106. Find the value of cos 1° · cos 2° · cos 3° … cos 90°.
+(a) 1 (b) 1/2 (c) 0 (d) √2/2
+Answer: (c)
+Solution: The tempting wrong option 1 comes from assuming complementary pairs multiply to 1, which is false. The product contains the factor cos 90° = 0, which makes the entire product 0, so the answer is 0.
+Source: NCERT Class 10 Mathematics
+
+107. If sin θ + sin²θ = 1, find the value of cos²θ + cos⁴θ.
+(a) 0 (b) 2 (c) 1/2 (d) 1
+Answer: (d)
+Solution: The trap is to solve for θ numerically, which is unnecessary. From sin θ = 1 − sin²θ = cos²θ, we get cos²θ + cos⁴θ = cos²θ + sin²θ = 1, so the answer is 1.
+Source: NCERT Class 10 Mathematics
+
+108. The angle of elevation of the top of a tower from a point 30 m from its foot is 60°. The height of the tower is:
+(a) 30√3 m (b) 30 m (c) 10√3 m (d) 60 m
+Answer: (a)
+Solution: The tempting wrong option 30 m comes from using tan 45° instead of tan 60°. Height = 30 × tan 60° = 30√3 m, so the answer is 30√3 m.
+Source: NCERT Class 10 Mathematics
+
+109. Find the value of (sec A − tan A)², given sec A + tan A = 3.
+(a) 1/3 (b) 9 (c) 1/9 (d) 3
+Answer: (c)
+Solution: The trap is to square 3 and pick 9. Using the identity (sec A + tan A)(sec A − tan A) = 1, we get sec A − tan A = 1/3, and squaring gives 1/9, so the answer is 1/9.
+Source: NCERT Class 10 Mathematics
+
+110. If tan θ = 1/√7, find the value of (cosec²θ − sec²θ)/(cosec²θ + sec²θ).
+(a) 2/3 (b) 5/4 (c) 3/4 (d) 4/5
+Answer: (c)
+Solution: The tempting wrong option 5/4 comes from adding instead of subtracting in the numerator. Dividing numerator and denominator by sec²θ·cosec²θ form: cosec²θ = 1 + cot²θ = 8, sec²θ = 1 + tan²θ = 8/7; the ratio is (8 − 8/7)/(8 + 8/7) = (48/7)/(64/7) = 3/4, so the answer is 3/4.
+Source: NCERT Class 10 Mathematics
+
+111. Find the value of sin 60° cos 30° + cos 60° sin 30°.
+(a) 1/2 (b) 1 (c) √3/2 (d) 0
+Answer: (b)
+Solution: The trap is to compute only the first product, √3/2 × √3/2 = 3/4, and stop. This is sin(60° + 30°) = sin 90° = 1, so the answer is 1.
+Source: NCERT Class 11 Mathematics
+
+112. If 5 tan θ = 4, find the value of (5 sin θ − 3 cos θ)/(5 sin θ + 2 cos θ).
+(a) 2/3 (b) 5/6 (c) 1/3 (d) 1/6
+Answer: (d)
+Solution: The tempting wrong option 5/6 comes from an arithmetic slip in the denominator. Dividing numerator and denominator by cos θ: (5 tan θ − 3)/(5 tan θ + 2) = (4 − 3)/(4 + 2) = 1/6, so the answer is 1/6.
+Source: NCERT Class 10 Mathematics
+
+113. The value of tan 1° · tan 2° · tan 3° … tan 89° is:
+(a) 0 (b) 1 (c) 1/2 (d) undefined
+Answer: (b)
+Solution: The trap is to think the product is 0 like the cosine product, but tan 90° is not in the list. Pairing tan k° · tan(90° − k°) = tan k° · cot k° = 1, with the middle term tan 45° = 1, the whole product is 1, so the answer is 1.
+Source: NCERT Class 10 Mathematics
+
+114. If cos θ + sec θ = 2, find the value of cosⁿθ + secⁿθ.
+(a) 2 (b) 2ⁿ (c) 1 (d) 0
+Answer: (a)
+Solution: The trap is to pick 2ⁿ by raising the sum to power n. From cos θ + sec θ = 2 we get cos²θ − 2 cos θ + 1 = 0, so cos θ = 1 and sec θ = 1; hence 1 + 1 = 2, so the answer is 2.
+Source: NCERT Class 10 Mathematics
+
+115. A ladder 10 m long leans against a wall making 60° with the ground. How high up the wall does it reach?
+(a) 5 m (b) 20 m (c) 10√3 m (d) 5√3 m
+Answer: (d)
+Solution: The tempting wrong option 5 m comes from using cos 60° instead of sin 60°. Height = 10 × sin 60° = 10 × √3/2 = 5√3 m, so the answer is 5√3 m.
+Source: NCERT Class 10 Mathematics
+
+116. Find the value of (sin θ − cos θ)² + (sin θ + cos θ)².
+(a) 2 (b) 1 (c) 2 sin θ cos θ (d) 0
+Answer: (a)
+Solution: The trap is to expand only one bracket and get 1. Expanding both: (sin²θ − 2 sin θ cos θ + cos²θ) + (sin²θ + 2 sin θ cos θ + cos²θ) = 1 + 1 = 2, so the answer is 2.
+Source: NCERT Class 10 Mathematics
+
+117. If tan A = 3/4 and A is acute, find sin A + cos A.
+(a) 1 (b) 7/5 (c) 5/7 (d) 4/3
+Answer: (b)
+Solution: The tempting wrong option 1 comes from assuming sin A + cos A always equals 1, which is false. With tan A = 3/4, the hypotenuse is 5, so sin A = 3/5 and cos A = 4/5; their sum is 7/5, so the answer is 7/5.
+Source: NCERT Class 10 Mathematics
+
+118. Find the value of sec²θ · (1 + sin θ)(1 − sin θ).
+(a) sec²θ (b) 1 (c) tan²θ (d) 0
+Answer: (b)
+Solution: The trap is to leave the answer as cos²θ · sec²θ without simplifying and pick sec²θ. Since (1 + sin θ)(1 − sin θ) = cos²θ, the expression is sec²θ · cos²θ = 1, so the answer is 1.
+Source: NCERT Class 10 Mathematics
+
+119. The shadow of a pole is equal to its height. The angle of elevation of the sun is:
+(a) 30° (b) 90° (c) 60° (d) 45°
+Answer: (d)
+Solution: The tempting wrong option 60° comes from confusing shadow with height ratio √3. Here tan θ = height/shadow = 1, so θ = 45°, so the answer is 45°.
+Source: NCERT Class 10 Mathematics
+
+120. Find the value of (1 + cot θ − cosec θ)(1 + tan θ + sec θ).
+(a) 1 (b) sin θ cos θ (c) 0 (d) 2
+Answer: (d)
+Solution: The trap is to expand randomly and conclude 1. Writing everything in sin and cos: first bracket = (sin θ + cos θ − 1)/sin θ, second = (cos θ + sin θ + 1)/cos θ; product = [(sin θ + cos θ)² − 1]/(sin θ cos θ) = 2 sin θ cos θ/(sin θ cos θ) = 2, so the answer is 2.
+Source: NCERT Class 10 Mathematics
+
+121. If sin θ + cos θ = √2, find the value of sin⁶θ + cos⁶θ.
+(a) 1/4 (b) 1/2 (c) 1 (d) 3/4
+Answer: (a)
+Solution: The tempting wrong option 1 comes from assuming the identity behaves like sin²θ + cos²θ. Squaring gives sin θ cos θ = 1/2; then sin⁶θ + cos⁶θ = (sin²θ + cos²θ)³ − 3 sin²θ cos²θ(sin²θ + cos²θ) = 1 − 3(1/4) = 1/4, so the answer is 1/4.
+Source: NCERT Class 11 Mathematics
+
+122. Find the maximum value of 3 sin θ + 4 cos θ + 7.
+(a) 7 (b) 12 (c) 10 (d) 5
+Answer: (b)
+Solution: The trap is to add 3 + 4 + 7 = 14 or to pick 10 by forgetting the constant. The maximum of a sin θ + b cos θ is √(a² + b²) = √(9 + 16) = 5, so the maximum is 5 + 7 = 12, so the answer is 12.
+Source: NCERT Class 11 Mathematics
+
+123. If tan θ + sin θ = m and tan θ − sin θ = n, then m² − n² equals:
+(a) 2√(mn) (b) 4√(mn) (c) mn (d) 4mn
+Answer: (b)
+Solution: The tempting wrong option 4mn comes from stopping at m² − n² = 4 tan θ sin θ without simplifying. Now mn = tan²θ − sin²θ = sin²θ tan²θ, so √(mn) = sin θ tan θ, and m² − n² = 4 sin θ tan θ = 4√(mn), so the answer is 4√(mn).
+Source: NCERT Class 11 Mathematics
+
+124. Find the value of sin²(π/8) + sin²(3π/8) + sin²(5π/8) + sin²(7π/8).
+(a) 1 (b) 4 (c) 3/2 (d) 2
+Answer: (d)
+Solution: The trap is to evaluate each term numerically and make errors. Using sin(π − x) = sin x, the sum is 2[sin²(π/8) + sin²(3π/8)] = 2[sin²(π/8) + cos²(π/8)] = 2, so the answer is 2.
+Source: NCERT Class 11 Mathematics
+
+125. If A + B = 45°, find the value of (1 + tan A)(1 + tan B).
+(a) 1 (b) √2 (c) 2 (d) 1/2
+Answer: (c)
+Solution: The tempting wrong option 1 comes from assuming each factor equals 1. From tan(A + B) = 1 we get tan A + tan B = 1 − tan A tan B; expanding (1 + tan A)(1 + tan B) = 1 + tan A + tan B + tan A tan B = 1 + (1 − tan A tan B) + tan A tan B = 2, so the answer is 2.
+Source: NCERT Class 11 Mathematics

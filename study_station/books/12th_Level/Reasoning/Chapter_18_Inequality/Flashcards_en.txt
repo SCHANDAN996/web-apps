@@ -1,0 +1,79 @@
+Card 1
+Front: What are the five basic inequality symbols and their meanings?
+Back: > (greater than), < (less than), ≥ (greater than or equal to), ≤ (less than or equal to), = (equal to). In coded form, words or symbols like @, #, $ replace these.
+
+Card 2
+Front: In "A > B ≥ C", what is the definite relation between A and C?
+Back: A > C. When symbols point the same way (or include ≥/≤ in that direction), the strictest symbol survives: > beats ≥.
+
+Card 3
+Front: In "A ≥ B > C", is A > C or A ≥ C?
+Back: A > C. The strict symbol (>) dominates over ≥ when combining in the same direction.
+
+Card 4
+Front: In "A > B < C", what can we conclude about A and C?
+Back: Nothing definite. When the symbols point in opposite directions (a "gate" or zigzag), no relation can be established between the end terms.
+
+Card 5
+Front: What is the "priority order" of symbols when combining a chain?
+Back: > and < (strict) have higher priority than ≥ and ≤, which have higher priority than =. The strongest surviving symbol decides the conclusion.
+
+Card 6
+Front: In "A ≥ B ≥ C", what is the relation between A and C?
+Back: A ≥ C. Two non-strict symbols in the same direction give a non-strict conclusion.
+
+Card 7
+Front: What is the mnemonic trick to remember which symbol "wins" in a chain?
+Back: "Strict is King": > and < are kings, ≥ and ≤ are ministers, = is a commoner. The highest-rank symbol in the chain decides the final relation.
+
+Card 8
+Front: What is the "same direction" memory trick for solving chains quickly?
+Back: "Arrows must agree": combine terms only when all symbols between them point the same way (all > / ≥, or all < / ≤). Opposite arrows = no conclusion.
+
+Card 9
+Front: For the statement "A > B ≥ C", which of these conclusions are definitely true: "A > C" and "A ≥ C"?
+Back: Both are definitely true. The chain gives A > C, and since "greater than" automatically satisfies "greater than or equal to", A ≥ C also follows. Remember: > implies ≥.
+
+Card 10
+Front: Examiner's trap: In coded inequality, "P @ Q" means P > Q. What is the most common mistake students make?
+Back: Reading the code table too fast and mixing up similar codes (e.g., @ means > but # means <). Always rewrite the full statement in normal symbols before solving.
+
+Card 11
+Front: What is an "either-or" (complementary pair) case in inequality?
+Back: When two conclusions together cover all possibilities between two terms — e.g., "A > B" and "A ≤ B" — and neither is individually definite, the answer is "either I or II follows".
+
+Card 12
+Front: What three conditions must hold for a valid either-or answer?
+Back: (1) Both conclusions involve the same two elements, (2) neither conclusion is individually definite, (3) together they are complementary (cover all possible relations).
+
+Card 13
+Front: Is "A = B" and "A > B" a valid either-or pair?
+Back: No. They are not complementary — the case A < B is left out. A valid pair must cover all three possibilities (>, <, =), e.g., "A ≥ B" and "A < B".
+
+Card 14
+Front: In "A ≤ B = C ≤ D", what is the relation between A and D?
+Back: A ≤ D. All symbols effectively run in the same direction (≤ and =), and the strongest surviving symbol is ≤.
+
+Card 15
+Front: If the chain gives A > B, how do you judge the conclusions "A = B" and "A ≥ B"?
+Back: "A = B" is definitely false, because A is strictly greater than B. But "A ≥ B" is definitely true, because A > B already satisfies the "greater than or equal to" condition.
+
+Card 16
+Front: What is the fastest first step when you see a coded inequality question?
+Back: Decode the entire statement into standard symbols (>, <, ≥, ≤, =) in one line, then check each conclusion against the chain — never solve directly from codes.
+
+Card 17
+Front: In "M > N ≥ O = P", what is the relation between M and P?
+Back: M > P. The chain runs in one direction; the strict symbol (>) dominates ≥ and =.
+
+Card 18
+Front: Can you combine A and D in "A > B, C > D, B = C"?
+Back: Yes — substitute B = C: A > B = C > D, so A > D. The trick is to merge separate statements using the common term (B = C) before concluding.
+
+Card 19
+Front: What does "conclusion definitely false" mean versus "does not follow"?
+Back: "Definitely false" means the opposite is certain (chain gives A > B, conclusion says A < B). "Does not follow" means it is not certainly true — it may or may not be true.
+
+Card 20
+Front: Time rule: how long should a standard 2-statement, 2-conclusion inequality question take?
+Back: About 30–40 seconds: 10 seconds to decode/merge the chain, 10–15 seconds per conclusion. If an either-or check is needed, cap it at 45 seconds and move on.

@@ -1,0 +1,45 @@
+```mermaid
+graph TD
+    A["अनुपात और समानुपात<br>Ratio & Proportion"] --> B["अनुपात<br>Ratio"]
+    A --> C["समानुपात<br>Proportion"]
+    A --> D["विशेष अनुपात<br>Special Ratios"]
+    A --> E["अनुप्रयोग<br>Applications"]
+
+    B --> B1["परिभाषा: a:b = a/b<br>Definition"]
+    B --> B2["पूर्व पद / उत्तर पद<br>Antecedent / Consequent"]
+    B --> B3["सरलतम रूप<br>Simplest Form"]
+    B --> B4["अनुपात के प्रकार<br>Types of Ratio"]
+    B4 --> B41["मिश्र अनुपात<br>Compound Ratio"]
+    B4 --> B42["द्विगुण / त्रिगुण अनुपात<br>Duplicate / Triplicate"]
+    B4 --> B43["उप-द्विगुण / उप-त्रिगुण<br>Sub-duplicate / Sub-triplicate"]
+    B4 --> B44["व्युत्क्रम अनुपात<br>Inverse Ratio"]
+
+    C --> C1["a:b :: c:d<br>Proportion (चार राशियाँ)"]
+    C --> C1A["क्रमागत समानुपात a:b = b:c<br>Continued Proportion"]
+    C --> C2["मध्यानुपाती b² = ac<br>Mean Proportional"]
+    C --> C3["तृतीयानुपाती<br>Third Proportional"]
+    C --> C4["चतुर्थानुपाती<br>Fourth Proportional"]
+    C --> C5["प्रमुख प्रमेय<br>Key Theorems"]
+    C5 --> C51["Componendo<br>(a+b)/b = (c+d)/d"]
+    C5 --> C52["Dividendo<br>(a−b)/b = (c−d)/d"]
+    C5 --> C53["Componendo-Dividendo<br>(a+b)/(a−b) = (c+d)/(c−d)"]
+    C5 --> C54["Alternendo & Invertendo"]
+    C5 --> C55["Addendo: a/b = c/d = (a+c)/(b+d)"]
+
+    D --> D1["आय अनुपात<br>Income Ratio"]
+    D --> D2["व्यय अनुपात<br>Expenditure Ratio"]
+    D --> D3["बचत = आय − व्यय<br>Saving = Income − Expense"]
+    D --> D4["संख्या में वृद्धि/कमी<br>Increase / Decrease in Ratio"]
+
+    E --> E1["लाभ-विभाजन<br>Profit Sharing / Partnership"]
+    E --> E2["मिश्रण और मिश्रधातु<br>Mixtures & Alloys"]
+    E --> E3["आयु संबंधी प्रश्न<br>Age Problems"]
+    E --> E4["सिक्के / नोट<br>Coins & Notes"]
+    E --> E5["कार्य-मजदूरी<br>Work & Wages"]
+    E --> E6["चाल-समय-दूरी<br>Speed-Time-Distance"]
+
+    A --> F["परीक्षा के जाल<br>Exam Traps"]
+    F --> F1["अनुपात बनाम वास्तविक मान<br>Ratio vs Actual Value"]
+    F --> F2["क्रम बदलने की गलती<br>Order Confusion"]
+    F --> F3["मिश्रण में मात्रा बदलना<br>Quantity Change in Mixture"]
+```

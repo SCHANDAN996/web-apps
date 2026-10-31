@@ -1,0 +1,149 @@
+26. Find the missing term: 3, 7, 15, 31, 63, ?
+(a) 127 (b) 111 (c) 95 (d) 131
+Answer: (a)
+Solution: Each term is obtained by doubling the previous term and adding 1: 3×2+1=7, 7×2+1=15, 15×2+1=31, 31×2+1=63, so 63×2+1=127. The tempting wrong option 131 comes from adding 68 by mistake, but the rule is ×2+1, so the answer is 127.
+Source: PYQ-style
+
+27. Find the missing term: 2, 6, 12, 20, 30, ?
+(a) 36 (b) 42 (c) 40 (d) 44
+Answer: (b)
+Solution: The differences are 4, 6, 8, 10, so the next difference is 12, giving 30+12=42. Equivalently each term is n(n+1): 1×2, 2×3, 3×4, 4×5, 5×6, 6×7=42. The option 40 misleads those who assume a constant difference of 10, so the answer is 42.
+Source: PYQ-style
+
+28. Find the missing term: 5, 11, 23, 47, 95, ?
+(a) 189 (b) 197 (c) 193 (d) 191
+Answer: (d)
+Solution: Each term follows ×2+1: 5×2+1=11, 11×2+1=23, 23×2+1=47, 47×2+1=95, so 95×2+1=191. The option 189 tempts those who compute 95×2−1, but the pattern adds 1, so the answer is 191.
+Source: PYQ-style
+
+29. Find the missing term: 1, 4, 9, 16, 25, ?, 49
+(a) 30 (b) 36 (c) 32 (d) 40
+Answer: (b)
+Solution: These are perfect squares: 1², 2², 3², 4², 5², so the missing term is 6²=36, followed by 7²=49. The option 32 tempts those who add a growing odd difference wrongly, so the answer is 36.
+Source: NCERT Class 8 Mathematics
+
+30. Find the missing term: 100, 96, 88, 76, 60, ?
+(a) 44 (b) 42 (c) 38 (d) 40
+Answer: (d)
+Solution: The subtractions increase by 4 each time: −4, −8, −12, −16, so the next subtraction is −20, giving 60−20=40. The option 44 tempts those who subtract 16 again instead of increasing the gap, so the answer is 40.
+Source: PYQ-style
+
+31. Find the missing term: 7, 14, 28, 56, 112, ?
+(a) 168 (b) 196 (c) 224 (d) 232
+Answer: (c)
+Solution: Each term is double the previous one: 7×2=14, 14×2=28, and so on, so 112×2=224. The option 196 tempts those who add 84 by mixing addition with multiplication, so the answer is 224.
+Source: PYQ-style
+
+32. Find the missing term: 4, 9, 19, 39, 79, ?
+(a) 158 (b) 161 (c) 160 (d) 159
+Answer: (d)
+Solution: The rule is ×2+1: 4×2+1=9, 9×2+1=19, 19×2+1=39, 39×2+1=79, so 79×2+1=159. The option 158 is a trap for those who forget the +1 step, so the answer is 159.
+Source: PYQ-style
+
+33. Find the missing term: 11, 13, 17, 19, 23, 29, ?
+(a) 35 (b) 33 (c) 31 (d) 37
+Answer: (c)
+Solution: The series lists consecutive prime numbers starting from 11: 11, 13, 17, 19, 23, 29, and the next prime is 31. The option 33 is a trap because it looks like the next odd number, but 33 is not prime, so the answer is 31.
+Source: PYQ-style
+
+34. Find the missing term: 8, 27, 64, 125, ?
+(a) 216 (b) 196 (c) 225 (d) 256
+Answer: (a)
+Solution: These are cubes of consecutive numbers: 2³=8, 3³=27, 4³=64, 5³=125, so the next term is 6³=216. The option 225 tempts those who switch to squares (15²), but the pattern is cubes, so the answer is 216.
+Source: NCERT Class 8 Mathematics
+
+35. Find the missing term: 6, 11, 21, 36, 56, ?
+(a) 81 (b) 78 (c) 76 (d) 83
+Answer: (a)
+Solution: The differences are 5, 10, 15, 20, increasing by 5, so the next difference is 25, giving 56+25=81. The option 76 tempts those who repeat the difference of 20, so the answer is 81.
+Source: PYQ-style
+
+36. Find the missing term: 2, 3, 5, 9, 17, 33, ?
+(a) 65 (b) 64 (c) 63 (d) 66
+Answer: (a)
+Solution: Each term follows ×2−1: 2×2−1=3, 3×2−1=5, 5×2−1=9, 9×2−1=17, 17×2−1=33, so 33×2−1=65. The option 66 is a trap for those who use ×2 without subtracting 1, so the answer is 65.
+Source: PYQ-style
+
+37. Find the missing term: 1, 1, 2, 3, 5, 8, 13, ?
+(a) 18 (b) 21 (c) 20 (d) 19
+Answer: (b)
+Solution: This is the Fibonacci pattern where each term is the sum of the previous two: 5+8=13, so the next term is 8+13=21. The option 18 tempts those who add 13+5 instead of the last two terms, so the answer is 21.
+Source: PYQ-style
+
+38. Find the missing term: 90, 85, 75, 60, 40, ?
+(a) 20 (b) 15 (c) 10 (d) 5
+Answer: (b)
+Solution: The subtractions grow by 5: −5, −10, −15, −20, so the next subtraction is −25, giving 40−25=15. The option 20 tempts those who subtract 20 again, so the answer is 15.
+Source: PYQ-style
+
+39. Find the missing term: 3, 6, 18, 72, 360, ?
+(a) 2160 (b) 1800 (c) 1440 (d) 2520
+Answer: (a)
+Solution: The multipliers increase by 1 each time: ×2, ×3, ×4, ×5, so the next multiplier is ×6, giving 360×6=2160. The option 1800 tempts those who repeat ×5, so the answer is 2160.
+Source: PYQ-style
+
+40. Find the missing term: 13, 26, 24, 48, 46, ?
+(a) 88 (b) 90 (c) 94 (d) 92
+Answer: (d)
+Solution: This is a double relationship series alternating ×2 and −2: 13×2=26, 26−2=24, 24×2=48, 48−2=46, so the next step is 46×2=92. The examiner's trap is option 44, which would follow if you subtracted 2 again; since the operations alternate, the answer is 92.
+Source: PYQ-style
+
+41. Find the missing term: 5, 10, 8, 16, 14, 28, ?
+(a) 24 (b) 26 (c) 30 (d) 56
+Answer: (b)
+Solution: The pattern alternates ×2 and −2: 5×2=10, 10−2=8, 8×2=16, 16−2=14, 14×2=28, so the next step is 28−2=26. The trap option 56 comes from applying ×2 again, but the alternating rule requires subtraction here, so the answer is 26.
+Source: PYQ-style
+
+42. Find the missing term: 17, 34, 31, 62, 59, ?
+(a) 112 (b) 116 (c) 118 (d) 120
+Answer: (c)
+Solution: The operations alternate ×2 and −3: 17×2=34, 34−3=31, 31×2=62, 62−3=59, so the next step is 59×2=118. The trap option 56-style error here is subtracting 3 again to get a smaller number, but the turn belongs to doubling, so the answer is 118.
+Source: PYQ-style
+
+43. Find the missing term: 2, 5, 10, 17, 26, ?
+(a) 37 (b) 36 (c) 35 (d) 38
+Answer: (a)
+Solution: Each term is n²+1: 1²+1=2, 2²+1=5, 3²+1=10, 4²+1=17, 5²+1=26, so the next term is 6²+1=37. The option 36 is a trap because it is exactly 6², forgetting the +1, so the answer is 37.
+Source: PYQ-style
+
+44. Find the missing term: 0, 6, 24, 60, 120, ?
+(a) 180 (b) 210 (c) 200 (d) 240
+Answer: (b)
+Solution: Each term is n³−n: 1³−1=0, 2³−2=6, 3³−3=24, 4³−4=60, 5³−5=120, so the next term is 6³−6=210. The option 216−6 confusion leads some to 240 by wrong multiplication, so the answer is 210.
+Source: PYQ-style
+
+45. Find the missing term: 121, 100, 81, 64, 49, ?
+(a) 42 (b) 38 (c) 36 (d) 32
+Answer: (c)
+Solution: These are squares in descending order: 11², 10², 9², 8², 7², so the next term is 6²=36. The option 38 tempts those who subtract a growing difference incorrectly, so the answer is 36.
+Source: NCERT Class 8 Mathematics
+
+46. Find the missing term: 4, 12, 36, 108, 324, ?
+(a) 648 (b) 864 (c) 1296 (d) 972
+Answer: (d)
+Solution: Each term is triple the previous one: 4×3=12, 12×3=36, 36×3=108, 108×3=324, so 324×3=972. The option 648 tempts those who multiply by 2 out of habit, so the answer is 972.
+Source: PYQ-style
+
+47. Find the missing term: 15, 31, 63, 127, 255, ?
+(a) 501 (b) 505 (c) 511 (d) 509
+Answer: (c)
+Solution: Each term follows ×2+1: 15×2+1=31, 31×2+1=63, 63×2+1=127, 127×2+1=255, so 255×2+1=511. Equivalently these are 2ⁿ−1 values. The option 509 comes from an arithmetic slip in doubling, so the answer is 511.
+Source: PYQ-style
+
+48. Find the missing term: 9, 20, 42, 86, 174, ?
+(a) 346 (b) 348 (c) 350 (d) 352
+Answer: (c)
+Solution: The rule is ×2+2: 9×2+2=20, 20×2+2=42, 42×2+2=86, 86×2+2=174, so 174×2+2=350. The trap option 348 comes from doubling without adding 2, so the answer is 350.
+Source: PYQ-style
+
+49. Find the missing term: 2, 8, 18, 32, 50, ?
+(a) 68 (b) 70 (c) 74 (d) 72
+Answer: (d)
+Solution: Each term is 2n²: 2×1=2, 2×4=8, 2×9=18, 2×16=32, 2×25=50, so the next term is 2×36=72. The differences 6, 10, 14, 18 also grow by 4, confirming the next difference of 22. The option 70 tempts those who add 20 instead of 22, so the answer is 72.
+Source: PYQ-style
+
+50. Find the missing term: 6, 13, 27, 55, 111, ?
+(a) 223 (b) 221 (c) 225 (d) 227
+Answer: (a)
+Solution: The rule is ×2+1: 6×2+1=13, 13×2+1=27, 27×2+1=55, 55×2+1=111, so 111×2+1=223. The trap option 222-style slip gives 221 when 1 is subtracted instead of added, so the answer is 223.
+Source: PYQ-style

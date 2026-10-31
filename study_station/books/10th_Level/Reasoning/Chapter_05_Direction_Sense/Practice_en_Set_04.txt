@@ -1,0 +1,151 @@
+Questions 76–95: Easy | Questions 96–100: Medium
+
+76. At 8 a.m., a man stands in a field. His shadow falls exactly behind him. In which direction is he facing?
+(a) West (b) East (c) North (d) South
+Answer: (b)
+Solution: In the morning the Sun is in the East, so shadows fall toward the West. The tempting option is West, but if he faced West his shadow would fall in front of him, not behind. Since the shadow is behind him, he is facing East.
+Source: PYQ-style
+
+77. A person walks 20 m East, then turns left and walks 20 m, and then turns right and walks 10 m. What is the shortest distance from the starting point?
+(a) 30 m (b) 10√13 m (c) 20 m (d) 25 m
+Answer: (b)
+Solution: Net East displacement = 20 + 10 = 30 m and North displacement = 20 m. The trap is to add all distances (50 m) or just take 30 m, but the shortest distance is the diagonal: √(30² + 20²) = √1300 = 10√13 m.
+Source: PYQ-style
+
+78. A boy walks 30 m South, turns right and walks 40 m, turns right and walks 30 m, and finally turns left and walks 20 m. In which direction is he from his starting point?
+(a) North (b) East (c) West (d) South
+Answer: (c)
+Solution: The 30 m South and the later 30 m North cancel out. The 40 m and 20 m are both walked toward the West, giving 60 m West. The trap is to treat the last left turn as East, so the answer is West.
+Source: PYQ-style
+
+79. At 5 p.m., a woman notices that her shadow falls to her right. In which direction is she facing?
+(a) West (b) South (c) East (d) North
+Answer: (d)
+Solution: In the evening the Sun is in the West, so shadows fall toward the East. If East is on her right, she must be facing North; the tempting option South would put the shadow on her left. So the answer is North.
+Source: PYQ-style
+
+80. A is 5 m North of B. C is 12 m East of A. D is 5 m South of C. What is the shortest distance between A and D?
+(a) 10 m (b) 12 m (c) 5 m (d) 13 m
+Answer: (d)
+Solution: From A to C is 12 m East and from C to D is 5 m South, forming a right triangle with legs 12 and 5. The trap is to add 12 + 5 = 17 or take just 12, but AD = √(12² + 5²) = √169 = 13 m.
+Source: PYQ-style
+
+81. A person is facing North. He turns 45° clockwise, then 90° anticlockwise, and finally 135° clockwise. In which direction is he facing now?
+(a) North (b) South (c) East (d) West
+Answer: (c)
+Solution: Net rotation = 45° − 90° + 135° = 90° clockwise. The trap is to add all three angles without signs, which gives 270°, but turning 90° clockwise from North gives East.
+Source: PYQ-style
+
+82. A man walks 15 m North, then 8 m West, then 15 m South, and finally 6 m East. How far and in which direction is he from the start?
+(a) 8 m West (b) 2 m East (c) 2 m West (d) 14 m East
+Answer: (c)
+Solution: The 15 m North and 15 m South cancel out. Net horizontal displacement = 8 − 6 = 2 m toward West; the trap is to subtract the wrong way and say 2 m East. So he is 2 m West of the start.
+Source: PYQ-style
+
+83. At 12 noon in India, a boy stands facing the Sun. In which direction will his shadow fall?
+(a) North (b) West (c) South (d) East
+Answer: (a)
+Solution: At noon the Sun is roughly toward the South in India (which lies north of the equator), so shadows fall toward the North. The trap is to think the shadow falls behind him toward the South, but a shadow always falls opposite the Sun, so the answer is North.
+Source: PYQ-style
+
+84. If 'East' is called 'North', 'West' as 'South', 'North' as 'West', and 'South' as 'East', what will 'North-West' be called?
+(a) South-West (b) North-East (c) South-East (d) West-North
+Answer: (a)
+Solution: North becomes West and West becomes South, so North-West becomes West-South, i.e. South-West. The trap is to swap only one component, which wrongly gives North-East or South-East. So the answer is South-West.
+Source: PYQ-style
+
+85. A person walks 10 m East, turns left and walks 10 m, then turns about (180°) and walks 20 m. In which direction is he from the starting point?
+(a) North-East (b) South-West (c) South-East (d) North-West
+Answer: (c)
+Solution: He reaches (10, 0), goes 10 m North to (10, 10), then reverses and walks 20 m South to (10, −10). The trap is to cancel the 10 m North with only 10 m of the return walk and stop at North-East, but the full 20 m takes him South, so the answer is South-East.
+Source: PYQ-style
+
+86. In a code, 'Left' means East, 'Right' means West, 'Forward' means North, and 'Backward' means South. A person facing North turns according to: Left, Forward, Right. Which direction is he facing at the end?
+(a) West (b) East (c) North (d) South
+Answer: (a)
+Solution: The last instruction executed is 'Right', which in this code means West, so he ends facing West. The trap is to decode 'Right' as the ordinary right turn from North, which would wrongly give East.
+Source: PYQ-style
+
+87. A woman walks 12 m South, then 5 m West, then 6 m North, and then 5 m East. How far is she from her starting point?
+(a) 4 m (b) 6 m (c) 8 m (d) 10 m
+Answer: (b)
+Solution: The 5 m West and 5 m East cancel horizontally, leaving 12 − 6 = 6 m South. The trap is to add 12 + 6 = 18 or to forget the cancellation, so the answer is 6 m.
+Source: PYQ-style
+
+88. Point P is 4 m West of Q. R is 3 m North of Q. S is 4 m East of R. What is the shortest distance between Q and S?
+(a) 4 m (b) 7 m (c) 6 m (d) 5 m
+Answer: (d)
+Solution: Taking Q as origin, R is at (0, 3) and S is at (4, 3). The trap is to add 4 + 3 = 7, but QS = √(4² + 3²) = √25 = 5 m.
+Source: PYQ-style
+
+89. A person walks 25 m East, turns right and walks 10 m, then turns about (180°) and walks 10 m. How far is he from the starting point?
+(a) 10 m (b) 0 m (c) 35 m (d) 25 m
+Answer: (d)
+Solution: The 10 m South and the 10 m back North cancel each other, leaving only the 25 m East. The trap is to add everything to get 45 m or to think he returns to the start, so the answer is 25 m.
+Source: PYQ-style
+
+90. If 'South-East' is called 'North', what will 'West' be called? (assuming uniform rotation)
+(a) South-East (b) North-East (c) South-West (d) North-West
+Answer: (a)
+Solution: South-East shifting to North is a 135° anticlockwise rotation. Applying the same 135° anticlockwise shift to West gives South-East; the trap is to rotate clockwise instead, which gives North-West. So the answer is South-East.
+Source: PYQ-style
+
+91. A boy walks 6 m North, 8 m West, 6 m South, and 2 m East. In which direction is he from his starting point?
+(a) East (b) West (c) South (d) North
+Answer: (b)
+Solution: The 6 m North and 6 m South cancel out, and horizontally 8 − 2 = 6 m remains toward West. The trap is to compute 8 − 2 = 6 and then pick East by flipping the sign, so the answer is West.
+Source: PYQ-style
+
+92. At 7 a.m., a person starts walking towards his shadow. He walks 10 m, then turns left and walks 10 m. In which direction is he from his starting point?
+(a) North-West (b) South-West (c) North-East (d) South-East
+Answer: (b)
+Solution: In the morning the shadow points West, so he walks 10 m West and then turns left, which is South, for 10 m. The trap is to take the left turn as North, giving North-West, so the answer is South-West.
+Source: PYQ-style
+
+93. A person walks 5 m East, 10 m North, 10 m West, 5 m South, and 5 m East. What is the shortest distance from the start?
+(a) 10 m (b) 15 m (c) 0 m (d) 5 m
+Answer: (d)
+Solution: East-West displacement = 5 − 10 + 5 = 0 m and North-South displacement = 10 − 5 = 5 m. The trap is to assume he returns to the start (0 m), but a net 5 m North remains, so the answer is 5 m.
+Source: PYQ-style
+
+94. Point A is 7 m South of B. Point C is 24 m East of B. What is the straight-line distance between A and C?
+(a) 17 m (b) 24 m (c) 25 m (d) 31 m
+Answer: (c)
+Solution: A and C form a right triangle at B with legs 7 m and 24 m. The trap is to add 7 + 24 = 31, but AC = √(24² + 7²) = √625 = 25 m.
+Source: PYQ-style
+
+95. At 6 p.m., a boy stands facing West. In which direction is his shadow falling?
+(a) South (b) West (c) East (d) North
+Answer: (c)
+Solution: In the evening the Sun is in the West, so every shadow falls toward the East regardless of facing direction. The trap is to think the shadow falls in front of him toward the West, so the answer is East.
+Source: PYQ-style
+
+96. A man walks 15 m North, then 20 m East, then 15 m South, and finally 10 m West. What is the straight-line distance from the start?
+(a) 20 m (b) 5 m (c) 15 m (d) 10 m
+Answer: (d)
+Solution: The 15 m North and 15 m South cancel vertically, leaving 20 − 10 = 10 m East. The trap is to take 20 m without subtracting the return walk, so the answer is 10 m.
+Source: PYQ-style
+
+97. A person is facing South-West. He turns 90° to his left, then turns 180°, and finally turns 90° to his right. In which direction is he facing now?
+(a) North-East (b) South-East (c) North-West (d) South-West
+Answer: (a)
+Solution: From South-West, 90° left gives South-East, then 180° gives North-West, and finally 90° right gives North-East. The trap is to stop after the 180° turn and pick North-West, so the answer is North-East.
+Source: PYQ-style
+
+98. A woman walks 10 m West, then 6 m North, then 4 m East, and then 3 m South. In which direction is she from her starting point?
+(a) North-West (b) North-East (c) South-West (d) South-East
+Answer: (a)
+Solution: Net displacement = 10 − 4 = 6 m West and 6 − 3 = 3 m North, placing her in the North-West. The trap is to compare 6 and 3 and pick a pure direction, but both components are non-zero, so the answer is North-West.
+Source: PYQ-style
+
+99. If 'North' means 'South-East', and 'West' means 'North-East', what does 'South' mean?
+(a) North-West (b) South-West (c) North-East (d) South-East
+Answer: (a)
+Solution: North shifting to South-East is a 135° clockwise rotation, confirmed by West becoming North-East. Rotating South by 135° clockwise gives North-West; the trap is to rotate anticlockwise and get South-West. So the answer is North-West.
+Source: PYQ-style
+
+100. A child walks 8 m East, then 5 m North, then 4 m West, then 5 m South, and finally 2 m East. How far and in which direction is he from the start?
+(a) 4 m East (b) 6 m East (c) 8 m East (d) 10 m East
+Answer: (b)
+Solution: The 5 m North and 5 m South cancel out, and net East displacement = 8 − 4 + 2 = 6 m. The trap is to forget the final 2 m and answer 4 m East, so the answer is 6 m East.
+Source: PYQ-style

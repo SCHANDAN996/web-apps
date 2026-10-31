@@ -1,0 +1,35 @@
+```mermaid
+graph TD
+    A["Word Roots & Morphology"] --> B["Core Idea"]
+    A --> C["Word Parts"]
+    A --> D["High-Yield Roots"]
+    A --> E["Examiner Traps"]
+    A --> F["Strategies"]
+
+    B --> B1["Words are built like blocks:<br>Root + Prefix + Suffix"]
+    B --> B2["One root unlocks<br>many related words"]
+
+    C --> C1["Root = core meaning<br>(spect = look)"]
+    C --> C2["Prefix = before root<br>(re-, un-, pre-)"]
+    C --> C3["Suffix = after root<br>(-tion, -able, -ist)"]
+    C --> C4["Example: re + spect + ful<br>= looking back with respect"]
+
+    D --> D1["SPECT = look<br>inspect, respect, spectator"]
+    D --> D2["DICT = say<br>predict, verdict, dictionary"]
+    D --> D3["PORT = carry<br>transport, export, portable"]
+    D --> D4["SCRIB/SCRIPT = write<br>describe, manuscript"]
+    D --> D5["AUD = hear<br>audible, audience, audit"]
+    D --> D6["BENE = good<br>benefit, benevolent"]
+    D --> D7["MAL = bad<br>malfunction, malnutrition"]
+    D --> D8["CHRON = time<br>chronology, chronic"]
+
+    E --> E1["Trap 1: Similar-looking roots<br>biography vs biology"]
+    E --> E2["Trap 2: False friends<br>prejudice ≠ pre + juice"]
+    E --> E3["Trap 3: Sound-right guess<br>inflammable = flammable!"]
+
+    F --> F1["Detective Approach:<br>break word into parts first"]
+    F --> F2["Known root?<br>Recall meaning directly"]
+    F --> F3["Unknown root?<br>Infer from sentence context"]
+    F --> F4["Skip if root unknown<br>and no context clue"]
+    F --> F5["Mnemonic: SPECTacles help you LOOK"]
+```

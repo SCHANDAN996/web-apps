@@ -1,0 +1,47 @@
+# 🧒 The Feynman Way — Clock & Calendar, Explained Like You're 12
+
+## The Story: Ravi's Birthday Puzzle
+
+Imagine your friend Ravi says: *"My birthday was on a **Tuesday** this year. What day will it fall on next year?"*
+
+You might think — "How would I know? I'd need a calendar!" But here's the secret: **you don't need a calendar. You need to count how many extra days a year throws at you.**
+
+A year has 365 days. Now, a week has 7 days. Divide 365 by 7:
+
+365 = 52 weeks + **1 leftover day**
+
+That 1 leftover day is called an **odd day**. It's like buying 52 full boxes of 7 toffees, and 1 toffee is left rolling around loose. That loose toffee pushes every date forward by **one day** next year. So Ravi's birthday next year = Tuesday + 1 = **Wednesday**. Done!
+
+But wait — in a **leap year** (366 days), there are **2 loose toffees** (odd days). So the date jumps forward by **two days**. That's the whole game of calendars: **count the loose toffees (odd days), and the weekday shifts by that many.**
+
+## The Clock Version of the Same Trick
+
+Now look at a clock. The minute hand is a fast runner, the hour hand is a slow walker.
+
+- The minute hand sprints: **6° per minute** (360° ÷ 60).
+- The hour hand strolls: **0.5° per minute** (30° per hour ÷ 60).
+
+So the minute hand gains on the hour hand at **5.5° per minute** — like a fast runner gaining on a slow one in a circular race.
+
+**The angle between the hands at H hours M minutes:**
+
+$$\text{Angle} = |30H - 5.5M|$$
+
+If the answer is more than 180°, subtract it from 360° (because the angle between two hands is always the *smaller* one).
+
+**Example:** Angle at 3:20?
+|30×3 − 5.5×20| = |90 − 110| = **20°**. That's it — one line!
+
+## The Unforgettable Trick: "The Loose Toffee Rule" 🍬
+
+> **Every ordinary year drops 1 loose toffee (odd day). Every leap year drops 2. Collect the toffees, take remainder with 7, and shift the weekday forward.**
+
+And for clocks, remember the **"Race Track Rule"**: the minute hand gains 5.5° every minute — so hands coincide every **65⁵⁄₁₁ minutes** (not 60!), and in 12 hours they meet only **11 times**, not 12. Why 11? Because between 11 and 1 o'clock, they meet just once — at 12. That "missing" meeting is the examiner's favourite trap!
+
+**Mirror trick for clocks:** Time in mirror = **11:60 − actual time** (use 12:00 as 11:60). Mirror of 4:30? 11:60 − 4:30 = **7:30**.
+
+## 📝 Blurting Sheet
+
+Now try to write down all key points of this chapter on a blank sheet without looking up — odd days of ordinary/leap years, odd days of 100/200/300/400 years, the angle formula, the 5.5° gain, the 11-times-in-12-hours rule, and the mirror formula. Then check what you missed and blurt again!
+
+**Question for you:** If today is Monday, and exactly 100 days pass, what day will it be — and can you solve it using only loose toffees? 🍬

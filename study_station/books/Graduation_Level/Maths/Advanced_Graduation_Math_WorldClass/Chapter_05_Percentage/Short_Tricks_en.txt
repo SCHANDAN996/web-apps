@@ -1,0 +1,165 @@
+# 🪄 Short Tricks — Percentage (Advanced)
+
+---
+
+**🧠 Trick 1 — The "Flip-Flop" Law**
+
+> **a% of b = b% of a. Always. No exceptions.**
+
+Stuck on 8% of 25? Flip it: 25% of 8 = **2**. Done in 2 seconds.
+*Memory hook:* "Percentages are polite — they swap seats and nothing changes."
+
+---
+
+**🧠 Trick 2 — The "10% Slide"**
+
+> To find 10% of anything, just slide the decimal one place LEFT.
+
+10% of 460 → 46. Then build everything from it:
+- 5% = half of 10% → 23
+- 20% = double 10% → 92
+- 15% = 10% + 5% → 46 + 23 = 69
+
+*Memory hook:* "**Slide, Halve, Double** — the three dance moves of percentage."
+
+---
+
+**🧠 Trick 3 — Fraction-Percent Twins (Memorize the Family)**
+
+| Fraction | % | Fraction | % |
+|---|---|---|---|
+| 1/2 | 50% | 1/8 | 12.5% |
+| 1/3 | 33.33% | 1/9 | 11.11% |
+| 1/4 | 25% | 1/11 | 9.09% |
+| 1/5 | 20% | 1/12 | 8.33% |
+| 1/6 | 16.66% | 1/15 | 6.66% |
+| 1/7 | 14.28% | 1/16 | 6.25% |
+
+*Memory hook:* "**7-11-9 are the weird cousins**" — 1/7 = 14.28, 1/11 = 9.09, 1/9 = 11.11. Notice 1/9 and 1/11 swap digits!
+
+---
+
+**🧠 Trick 4 — The "Net Change" Formula (Successive %)**
+
+> Two successive changes of a% and b%:
+> **Net = a + b + (ab/100)**
+
++20% then +10% → 20 + 10 + 2 = **+32%** (NOT 30%!)
+*Memory hook:* "**Add them, then tip the waiter ab/100** — the bill is always bigger than you think."
+
+⚠️ Signs matter: +20% then −10% → 20 − 10 − 2 = **+8%**.
+
+---
+
+**🧠 Trick 5 — The "Price–Quantity Seesaw"**
+
+> If price rises by x%, consumption must fall by **x/(100+x) × 100%** to keep expenditure same.
+> If price falls by x%, consumption can rise by **x/(100−x) × 100%**.
+
+Price ↑ 25% → cut consumption by 25/125 = **20%**.
+*Memory hook:* "**Up goes over the bigger number, Down goes over the smaller.**" Rise → denominator 100+x; Fall → denominator 100−x.
+
+---
+
+**🧠 Trick 6 — The "Back-to-100" Recovery Rule**
+
+> If something drops by x%, it needs a rise of **x/(100−x) × 100%** to return to original.
+
+Salary cut 20% → needs 20/80 = **25%** hike to recover.
+*Memory hook:* "**Falling is easy, climbing is hard** — the climb % is always bigger than the fall %."
+
+---
+
+**🧠 Trick 7 — The "Population Multiplier"**
+
+> Population after n years at r% growth: **P × (1 + r/100)ⁿ**
+> Depreciation after n years: **P × (1 − r/100)ⁿ**
+
+*Memory hook:* "**Growth wears a PLUS cape, Decay wears a MINUS mask.**" Same formula, different sign.
+
+Quick check for 2 years at 10%: 1.1² = 1.21 → **21% total growth** (not 20%).
+
+---
+
+**🧠 Trick 8 — The "Exam Marks Anchor"**
+
+> Pass mark problems: **(Marks needed) = (Marks got) + (Shortfall)**, and that total = Pass% of Max.
+
+Ravi scores 30% and fails by 15 marks; pass mark is 40%.
+→ 10% of max = 15 → Max = **150**.
+*Memory hook:* "**The gap between two percentages IS the gap between two marks.**" Find what 1% is worth, then multiply.
+
+---
+
+**🧠 Trick 9 — The "Election Winner's Margin"**
+
+> Winner gets W% of valid votes, loser gets (100−W)%. **Margin = (2W − 100)% of valid votes.**
+
+Winner gets 62% → margin = 24% of valid votes.
+*Memory hook:* "**Double the winner, subtract the century** — that's the gap."
+
+⚠️ Trap: always check if votes are "valid" — invalid votes must be removed FIRST.
+
+---
+
+**🧠 Trick 10 — The "A is what % of B" Compass**
+
+> "A is what % of B?" → **(A/B) × 100**. The word after "of" goes DOWN (denominator).
+
+*Memory hook:* "**'Of' is the floor** — whatever follows 'of' sits at the bottom of the fraction."
+
+40 is what % of 160? → 40/160 = **25%**.
+
+---
+
+**🧠 Trick 11 — The "% More vs % Less" Mirror Trap**
+
+> If A is 25% MORE than B, then B is **NOT** 25% less than A.
+> B is 25/125 × 100 = **20%** less than A.
+
+*Memory hook:* "**More and Less are not mirror twins — the base changes, the % changes.**"
+Rule: x% more than B ⟺ x/(100+x) % less in reverse.
+
+---
+
+**🧠 Trick 12 — The "1% Scout" Method**
+
+> For ugly numbers, send out the 1% scout first.
+
+Find 17% of 350:
+- 1% of 350 = 3.5
+- 17% = 17 × 3.5 = **59.5**
+
+*Memory hook:* "**When the army is messy, send the 1% scout.**"
+
+---
+
+**🧠 Trick 13 — The "Percentage Point vs Percent" Alarm**
+
+> Interest rate rises from 4% to 5%:
+> - That's **1 percentage POINT** rise
+> - But a **25%** relative rise (1/4 × 100)
+
+*Memory hook:* "**Points are subtraction, Percent is division.**" Examiners love swapping these — read twice!
+
+---
+
+**🧠 Trick 14 — The "Area of Square" Double-Dip**
+
+> Side of square changes by x% → Area changes by **2x + x²/100** % (apply Trick 4 twice).
+
+Side ↑ 10% → Area ↑ 10 + 10 + 1 = **21%**.
+*Memory hook:* "**Length and width both take the same medicine — so the area gets a double dose.**"
+
+---
+
+**🧠 Trick 15 — The "Expenditure = Price × Quantity" Triangle**
+
+> If price ↑ x% and expenditure stays fixed, quantity adjusts by the seesaw (Trick 5).
+> If BOTH price and quantity change, use the net-change formula (Trick 4).
+
+*Memory hook:* "**E = P × Q — the triangle of truth.** Cover what you want; the other two reveal it. Any two changes? Net formula. One change with E fixed? Seesaw."
+
+---
+
+**🔁 Revision Cue:** Revisit these 15 tricks after 2 days, then solve 10 mixed questions using ONLY tricks — no long methods.

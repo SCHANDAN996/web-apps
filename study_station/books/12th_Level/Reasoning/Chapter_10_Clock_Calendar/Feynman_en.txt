@@ -1,0 +1,67 @@
+# The Feynman Way: Clock & Calendar Explained Like You're 12
+
+## The Hardest Concept: "Odd Days" — Why Calendars Repeat
+
+Most students can handle clock angles with practice. But the one idea that makes everyone freeze is **odd days** in calendar problems. Let's crack it with a story.
+
+### The Story of Ravi's Birthday
+
+Imagine your friend Ravi was born on a **Monday**. Next year, you want to know: on which day will his birthday fall?
+
+You might guess "Monday again!" — but no. Here's why.
+
+A normal year has **365 days**. Now, a week has 7 days. Divide:
+
+**365 ÷ 7 = 52 weeks and 1 day left over.**
+
+That "1 day left over" is the whole secret. After 52 full weeks, the calendar comes back to the same day — and then **one extra day pushes everything forward by one**. So Ravi's next birthday falls on **Tuesday**.
+
+That leftover day is called an **odd day**. That's it. That's the entire concept.
+
+- **Normal year (365 days)** → 1 odd day
+- **Leap year (366 days)** → 2 odd days (because 366 ÷ 7 leaves 2 extra days)
+
+### Why Leap Years Exist (The Clock Story)
+
+The Earth takes about **365 days and 6 hours** to go around the Sun. We ignore those 6 hours every year… but 6 hours × 4 years = 24 hours = **one full extra day**. So every 4th year we add February 29 to "catch up." That year has 366 days → 2 odd days.
+
+**The trap:** A century year (like 1900, 2100) is a leap year **only if divisible by 400**. So 2000 was a leap year, but 1900 was not. Examiners love this trap!
+
+### Counting Odd Days Over Many Years
+
+Want the day of the week for a far-off date? Just count total odd days from a known reference:
+
+- **100 years** = 5 odd days (76 normal + 24 leap years → 76×1 + 24×2 = 124 days → 124 ÷ 7 leaves 5)
+- **200 years** = 3 odd days
+- **300 years** = 1 odd day
+- **400 years** = 0 odd days ← this is why the calendar **repeats every 400 years**!
+
+Then take the total odd days, divide by 7, and the remainder tells you how many days to move forward from your reference day. Remainder 0 = same day, 1 = one day ahead, and so on.
+
+## The Unforgettable Trick: "The Extra Guest"
+
+Think of every week as a dinner table with exactly **7 chairs**. Every year, 365 guests arrive. They fill 52 full tables — and **one extra guest** is left standing. That standing guest pushes the next year one chair forward. In a leap year, **two guests** are left standing.
+
+Whenever you see "odd days," just ask: *"How many guests are left standing after filling tables of 7?"* Divide by 7, keep only the **remainder**, and ignore the quotient completely. The quotient is a distraction — the remainder is the answer.
+
+**Memory line:** *"Divide by seven, keep the rest — the remainder passes the test!"*
+
+## The Clock Version of the Same Idea
+
+The clock works the same way, just with 12 instead of 7:
+
+- The minute hand gains **55 minutes** on the hour hand every 60 minutes.
+- So the two hands **coincide every 65(5/11) minutes**, not every 60 — another "extra guest" situation!
+- Angle formula: **Angle = |30H − (11/2)M|** — if the answer is more than 180°, subtract it from 360°.
+
+Same philosophy: track the *gap*, not the whole journey.
+
+---
+
+## 📝 Blurting Sheet Instruction
+
+**Now close this book. Take a blank sheet and try to write down all key points of this chapter — odd days of a normal year, leap year, 100/200/300/400 years, the leap-year century rule, the angle formula, and the 65(5/11) minute coincidence rule — without looking up.** Then open the book and check what you missed. Whatever you forgot is exactly what you need to revise tonight.
+
+---
+
+**Question for you:** If today is Wednesday, and exactly 400 years pass, on which day of the week will the same date fall — and can you explain *why* using the "extra guest" idea?

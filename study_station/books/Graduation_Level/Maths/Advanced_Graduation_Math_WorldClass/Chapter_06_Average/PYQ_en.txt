@@ -1,0 +1,95 @@
+# 📊 PYQ Analysis — Average (Advanced Level)
+
+## How Exams Test This Chapter
+
+Average is one of the most reliable scoring areas in UPSC CSAT, SSC CGL Tier-II, IBPS PO Mains and CAT. Examiners rarely ask a plain "find the average" question at this level — they wrap the concept inside a story. The recurring patterns are:
+
+- **Replacement problems** — one person leaves, another joins; average age/weight changes. The trap is forgetting that the *total* changes by (new − old), not by the average change alone.
+- **Weighted average** — two groups with different sizes merged. The trap is taking a simple mean of the two averages.
+- **Consecutive numbers** — average of consecutive integers/odd/even numbers equals the middle term. The trap is miscounting how many terms exist.
+- **Inclusion/exclusion of a wrong value** — a misread number is corrected; the trap is adjusting the average instead of the total.
+- **Average speed** — the classic trap: average of speeds is NOT the average speed when distances are equal (use harmonic mean).
+- **Statement-based questions** (CSAT/PCS) — "the average of the remaining…", where you must set up one clean equation instead of computing everything.
+
+**Examiner's favourite psychological hooks:**
+1. *Almost-correct statements* — e.g., "average increases by 2, so each member's age increases by 2" (false; only the total rises by 2 × n).
+2. *Chronology confusion* — average age "3 years ago" vs "3 years hence"; students add/subtract from the wrong base.
+3. *Similar-sounding names* — average of first n naturals (n+1)/2 vs average of first n even numbers (n+1).
+4. *Negative wording* — "which is NOT possible" questions on weighted averages.
+
+**Time advice:** aim for 45–60 seconds per question. If a question needs more than two equations, you are probably missing the total-sum shortcut.
+
+---
+
+## Top 10 High-Yield Questions (with Solutions)
+
+**Q1.** The average age of 30 students is 15 years. If the teacher's age is included, the average becomes 16 years. Find the teacher's age.
+(a) 44 years (b) 46 years (c) 45 years (d) 48 years
+**Answer: (b)**
+**Solution:** Total of students = 30 × 15 = 450. New total = 31 × 16 = 496. Teacher's age = 496 − 450 = 46. *Trap:* students often compute 16 + 15 = 31 or just 16 + 30. Remember: teacher = new average + (old count × increase) = 16 + 30 × 1 = 46.
+**Source: PYQ-style (SSC CGL pattern)**
+
+**Q2.** The average weight of 8 persons increases by 2.5 kg when a new person replaces one weighing 65 kg. Find the new person's weight.
+(a) 85 kg (b) 80 kg (c) 75 kg (d) 90 kg
+**Answer: (a)**
+**Solution:** Increase in total = 8 × 2.5 = 20 kg. New person = 65 + 20 = 85 kg. *Trap:* multiplying 2.5 by the wrong count or subtracting 20 instead of adding.
+**Source: PYQ-style (Bank PO pattern)**
+
+**Q3.** The average of five consecutive even numbers is 24. Find the largest number.
+(a) 28 (b) 26 (c) 30 (d) 32
+**Answer: (a)**
+**Solution:** For consecutive numbers, average = middle (3rd) term = 24. Largest = 24 + 4 = 28. *Trap:* taking 24 as the first term and adding 8.
+**Source: PYQ-style**
+
+**Q4.** The average of 11 results is 50. The average of the first 6 is 49 and that of the last 6 is 52. Find the 6th result.
+(a) 56 (b) 55 (c) 54 (d) 58
+**Answer: (a)**
+**Solution:** 6th result = (6 × 49 + 6 × 52) − 11 × 50 = (294 + 312) − 550 = 56. *Trap:* the 6th result is counted in *both* groups — that overlap is exactly the hook of this classic question.
+**Source: PYQ-style (SSC/CSAT pattern)**
+
+**Q5.** A batsman has an average of 40 runs after 20 innings. How many runs must he score in the 21st innings to raise his average to 41?
+(a) 60 (b) 61 (c) 62 (d) 59
+**Answer: (b)**
+**Solution:** Required = 21 × 41 − 20 × 40 = 861 − 800 = 61. Shortcut: new average + old count × increase = 41 + 20 × 1 = 61. *Trap:* answering 41 + 1 = 42.
+**Source: PYQ-style (cricket-average is a perennial favourite)**
+
+**Q6.** A man travels 60 km at 30 km/h and returns the same 60 km at 20 km/h. His average speed for the whole journey is:
+(a) 25 km/h (b) 24 km/h (c) 26 km/h (d) 22 km/h
+**Answer: (b)**
+**Solution:** Equal distances → harmonic mean = 2 × 30 × 20 / (30 + 20) = 1200/50 = 24 km/h. *Trap:* the arithmetic mean 25 km/h is option (a) — placed there deliberately to catch the hurried.
+**Source: PYQ-style (UPSC CSAT pattern)**
+
+**Q7.** The average of 20 numbers is zero. At most how many of them can be greater than zero?
+(a) 0 (b) 1 (c) 10 (d) 19
+**Answer: (d)**
+**Solution:** If 19 numbers are positive, the 20th can be a single negative number balancing their total. But all 20 cannot be positive (sum would exceed zero). So maximum = 19. *Trap:* this is a logic question wearing an average costume — CSAT loves this disguise.
+**Source: PYQ-style (CSAT reasoning pattern)**
+
+**Q8.** The average age of a group of 10 members is 25 years. After 5 years, what will be the average age of the same group?
+(a) 30 years (b) 28 years (c) 35 years (d) 25 years
+**Answer: (a)**
+**Solution:** Every member ages 5 years, so the average also rises by exactly 5: 25 + 5 = 30. *Trap:* adding 5 × 10 = 50 to the average. Time shifts the average by the time elapsed — nothing more.
+**Source: PYQ-style**
+
+**Q9.** The average marks of 100 students were 40. Later it was found that one score of 83 was misread as 38. Find the correct average.
+(a) 40.45 (b) 40.50 (c) 40.25 (d) 41.45
+**Answer: (a)**
+**Solution:** Correction to total = 83 − 38 = +45. Correct average = 40 + 45/100 = 40.45. *Trap:* adjusting the average by (83 − 38)/83 or similar misplacements; always fix the *total*, then divide.
+**Source: PYQ-style (Bank/SSC pattern)**
+
+**Q10.** The average of the first 50 natural numbers is:
+(a) 25 (b) 25.5 (c) 26 (d) 24.5
+**Answer: (b)**
+**Solution:** Average of first n naturals = (n + 1)/2 = 51/2 = 25.5. *Trap:* confusing with n/2 = 25, or with the average of the first 50 *even* numbers, which is 51. Similar formulas side by side — the examiner's oldest trick.
+**Source: NCERT Class 10 Maths (Statistics) / PYQ-style**
+
+---
+
+## Key Takeaways for the Exam Hall
+
+- Convert every average problem into a **total-sum problem** first; 80% of traps dissolve.
+- For replacement/inclusion: **new member = new average ± (old count × change)**.
+- For equal-distance speed: **harmonic mean**, never arithmetic.
+- For consecutive terms: **average = middle term**; count terms carefully.
+- In CSAT logic-type questions, think about *possibility* (max/min), not computation.
+- When two groups merge, use the **alligation cross** — it is faster than equations.

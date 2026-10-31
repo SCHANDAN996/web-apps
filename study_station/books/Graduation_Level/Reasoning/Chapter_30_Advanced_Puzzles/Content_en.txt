@@ -1,0 +1,164 @@
+# Advanced Puzzles (Multi-condition)
+
+## 1. Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+- Read a puzzle with 5–8 conditions and convert every condition into a usable clue.
+- Build a **master grid/table** that tracks 3 or more attributes at once (person × city × profession × day, etc.).
+- Use **positive clues, negative clues, and comparative clues** in the right order.
+- Handle "two possible cases" without panic — and eliminate the wrong case fast.
+- Decide in 10 seconds whether a puzzle is worth solving in the exam or should be skipped.
+
+---
+
+## 2. The Hook: Why Toppers Love These Questions
+
+Here is a secret most coaching institutes won't tell you: **multi-condition puzzles are the most predictable questions in the entire reasoning paper.** The examiner has only a handful of tricks — hiding information, splitting one fact into two sentences, and giving you a condition that only becomes useful at the very end. Once you learn to *organise* instead of *memorise*, a question that scares 90% of candidates becomes your personal 5-mark gift.
+
+The difference between a student who solves a 7-condition puzzle in 4 minutes and one who gives up is not intelligence. It is **one sheet of paper with a clean table on it.**
+
+---
+
+## 3. The Common Struggle (You Are Not Alone)
+
+Almost every aspirant says the same three things:
+
+1. *"I read all the conditions and forget the first one by the time I reach the last."*
+2. *"I make the table, but two people fit in the same slot."*
+3. *"I solve it fully, and still mark the wrong answer."*
+
+All three problems have the same root cause: **trying to hold the puzzle in your head instead of on paper.** Your working memory can hold about 4 items at once. A multi-condition puzzle has 15–20. The maths is simple — the puzzle *must* live on paper.
+
+---
+
+## 4. Chunk 1 — What Makes a Puzzle "Multi-condition"?
+
+A basic puzzle gives you direct facts: *"A sits to the left of B."*
+A **multi-condition puzzle** layers three things together:
+
+- **Multiple attributes**: each person has a city, a profession, a favourite colour, a day…
+- **Indirect clues**: *"The doctor does not live in the city whose name starts with the same letter as his own."*
+- **Linked conditions**: clue 4 only makes sense after you place clue 1 and clue 7.
+
+The golden rule: **the puzzle is never solved clue-by-clue in reading order.** It is solved in *usefulness order*.
+
+🧠 **Active Recall:** Without looking back — what are the three layers that make a puzzle "multi-condition"? Say them out loud.
+
+---
+
+## 5. Chunk 2 — The Master Grid: Your Only Weapon
+
+For any puzzle with 3+ attributes, draw a grid before you place a single fact.
+
+Example skeleton (5 persons, 3 attributes):
+
+| Person | City | Profession | Colour |
+|--------|------|-----------|--------|
+| A | | | |
+| B | | | |
+| C | | | |
+| D | | | |
+| E | | | |
+
+Now fill it using three clue types, **in this order**:
+
+1. **Definite clues first** — "C is the doctor." Straight into the grid.
+2. **Negative clues second** — "B is not from Pune, not the teacher." Write small ✗ marks in those cells. Negative clues are silent killers; most students ignore them, and they are usually the key that cracks the puzzle.
+3. **Comparative/linked clues last** — "The person from Delhi is older than the engineer." These only work once the grid has some entries.
+
+🧠 **Active Recall:** Which clue type do you fill *second*, and why is it the one most students skip?
+
+---
+
+## 6. Chunk 3 — The Two-Case Technique
+
+Sometimes a clue gives you a fork: *"Either F is the singer, or G is the dancer."* Do not guess. Do this:
+
+- Draw **Case 1** and **Case 2** side by side (two mini-grids).
+- Fill both as far as the clues take you.
+- One case will **collide with a condition** — a contradiction. Cross it out completely.
+- Continue with the surviving case. This is now your only grid.
+
+**Exam discipline:** never carry three cases. If a puzzle genuinely needs 3+ cases and none collapses quickly, that is your signal to consider skipping (see the time rule below).
+
+🧠 **Active Recall:** What event tells you a case is dead? (Answer: a contradiction with any given condition.)
+
+---
+
+## 7. Chunk 4 — Reading Clues Like a Detective
+
+Examiners hide facts inside grammar. Train yourself to translate:
+
+| Examiner writes | You read |
+|---|---|
+| "A, who is not the clerk, lives with the engineer" | A ≠ clerk, A ≠ engineer, and these are 3 different people |
+| "Only one person sits between P and R" | P _ R or R _ P (distance = 2) |
+| "M is taller than only N" | M is second-shortest; N is shortest |
+| "Neither X nor Y is from Goa" | X ≠ Goa, Y ≠ Goa (two separate ✗ marks) |
+
+Notice the last two rows — **"only" and "neither…nor"** are the examiner's favourite trap words. Underline them every single time.
+
+🧠 **Active Recall:** "M is taller than only N" — what is M's exact rank from the bottom?
+
+---
+
+## 8. Chunk 5 — A Mnemonic to Remember the Method
+
+Remember **"GRID-P"**:
+
+- **G** — Grid first, always.
+- **R** — Read all clues once *before* placing anything.
+- **I** — Insert definite clues.
+- **D** — Deduce with negative clues (✗ marks).
+- **P** — Prune the wrong case.
+
+Say it once before every practice puzzle: *"Grid first, then GRID-P."*
+
+---
+
+## 9. Chunk 6 — Worked Mini-Example
+
+**Puzzle:** Three friends — A, B, C — live in Delhi, Jaipur, Kochi and are a doctor, teacher, lawyer (in some order).
+(i) A is not the doctor. (ii) The teacher lives in Jaipur. (iii) C lives in Kochi. (iv) A does not live in Jaipur.
+
+**Solution walk-through:**
+1. Grid: rows A, B, C; columns City, Profession.
+2. Definite: C → Kochi (clue iii).
+3. Negative: A ≠ Jaipur (iv), and C = Kochi, so A → **Delhi**, B → **Jaipur**.
+4. Linked: teacher lives in Jaipur (ii) → B = teacher. A ≠ doctor (i) → A = lawyer, C = doctor.
+
+Done in under a minute — because every clue went straight into the grid, not into your head.
+
+🧠 **Active Recall:** Which single clue unlocked the professions? (Clue ii — the linked clue — but only *after* cities were fixed.)
+
+---
+
+## 10. Summary Table
+
+| Step | Action | Common Mistake |
+|------|--------|----------------|
+| 1 | Draw the full grid with all attributes | Starting to solve while reading |
+| 2 | Read ALL clues once | Placing clue 1 before reading clue 7 |
+| 3 | Fill definite clues | Filling "maybe" clues first |
+| 4 | Mark ✗ for every negative clue | Ignoring "neither…nor" |
+| 5 | Apply linked/comparative clues | Forgetting "only" changes rank meaning |
+| 6 | Split into 2 cases if needed | Guessing instead of casing |
+| 7 | Re-check the grid against EVERY clue | Answering from memory of the grid |
+
+**Time rule:** A 5-question puzzle set deserves 6–8 minutes maximum. If after 2 minutes your grid is still empty, mark it and move on — return only if time remains.
+
+📌 **Review this chapter after 2 days.** Redraw the GRID-P steps from memory, then re-solve the mini-example in Chunk 6 without looking at the solution.
+
+---
+
+## ⚠️ Caution: Examiner's Trap
+
+**Trap 1 — Multiple plausible relationships in the options.**
+In multi-condition puzzles, the examiner designs answer options so that *two options look correct* if you solved only 80% of the grid. Example: the question asks "Who is the engineer?" and both "A" and "The person from Delhi" appear as options — and A *is* from Delhi. If your grid is incomplete, you may pick the wrong form. **Defence:** complete the full grid before looking at the options, and check whether two options refer to the same person.
+
+**Trap 2 — Difficult wording to confuse you.**
+Phrases like *"the person who lives immediately above the one who likes the colour of the fruit sold by the vendor"* are deliberately twisted. The content is simple; the sentence is not. **Defence:** translate every long clause into symbols (✗, →, =) on paper the moment you read it. Never re-read a twisted sentence three times — decode it once, write it once.
+
+**Trap 3 — Double-relationship questions.**
+Some questions test two links at once: *"The doctor's neighbour is the brother-in-law of the teacher."* Students often satisfy one relationship and forget the second. **Defence:** for every such clue, put a small "2" next to it in your notes — a reminder that it must be verified twice before the grid is final. If even one of the two links fails, the placement is wrong.

@@ -1,0 +1,151 @@
+Questions 101–120: Medium | Questions 121–125: Hard
+
+101. If 'P + Q' means 'P is the father of Q', 'P − Q' means 'P is the mother of Q', and 'P × Q' means 'P is the sister of Q', then how is A related to D in the expression 'A + B − C × D'?
+(a) Grandfather (b) Uncle (c) Father (d) Brother
+Answer: (a)
+Solution: A + B means A is the father of B. B − C means B is the mother of C. C × D means C is the sister of D, so C and D are siblings and both are children of B. The tempting wrong choice is "Father", which ignores that the parent directly above D is B, not A. A is the father of D's mother, so the answer is Grandfather.
+Source: PYQ-style
+
+102. If 'M × N' means 'M is the wife of N', 'M ÷ N' means 'M is the son of N', and 'M + N' means 'M is the daughter of N', then which expression shows that 'T is the father of R'?
+(a) T × S ÷ R (b) T ÷ S × R (c) R + S ÷ T (d) R ÷ S × T
+Answer: (d)
+Solution: In "R ÷ S × T", R ÷ S means R is the son of S, and S × T means S is the wife of T. So R is the son of S, and S is married to T, making T the father of R. The trap in the first option is that it makes T the wife, not the father. So the answer is "R ÷ S × T".
+Source: PYQ-style
+
+103. If 'A @ B' means 'A is the brother of B', 'A # B' means 'A is the mother of B', and 'A $ B' means 'A is the father of B', then how is P related to T in 'P # Q @ R $ T'?
+(a) Grandmother (b) Mother (c) Aunt (d) Sister
+Answer: (a)
+Solution: P # Q means P is the mother of Q. Q @ R means Q is the brother of R, so P is the mother of R as well. R $ T means R is the father of T. The tempting wrong choice is "Mother", which stops one generation too early. P is the mother of T's father, so the answer is Grandmother.
+Source: PYQ-style
+
+104. If 'X * Y' means 'X is the husband of Y', 'X % Y' means 'X is the daughter of Y', and 'X & Y' means 'X is the son of Y', then how is K related to G in 'K % L * M & G'?
+(a) Daughter (b) Niece (c) Sister (d) Granddaughter
+Answer: (d)
+Solution: K % L means K is the daughter of L. L * M means L is the husband of M, so K is the daughter of L and M. M & G means M is the son of G. The trap is "Daughter", which ignores the extra generation through M. K is the daughter of G's son, so the answer is Granddaughter.
+Source: PYQ-style
+
+105. If 'P > Q' means 'P is the father of Q', 'P < Q' means 'P is the mother of Q', and 'P = Q' means 'P is the brother of Q', then which expression means 'S is the grandmother of W'?
+(a) S < T = W (b) S > T > W (c) S = T < W (d) S < T > W
+Answer: (d)
+Solution: In "S < T > W", S < T means S is the mother of T, and T > W means T is the father of W. So S is the mother of W's father, i.e., the grandmother of W. The second option makes S a grandfather (father of the father), which is the trap. So the answer is "S < T > W".
+Source: PYQ-style
+
+106. If 'A + B' means 'A is the father of B', 'A − B' means 'A is the mother of B', and 'A × B' means 'A is the brother of B', then how is P related to S in 'P × Q + R − S'?
+(a) Brother (b) Father (c) Uncle (d) Grandfather
+Answer: (c)
+Solution: P × Q means P is the brother of Q. Q + R means Q is the father of R. R − S means R is the mother of S, so Q and R are the parents of S. The tempting wrong choice is "Father", which confuses P with Q. P is the brother of S's father, so the answer is Uncle.
+Source: PYQ-style
+
+107. If 'R α S' means 'R is the mother of S', 'R β S' means 'R is the father of S', and 'R γ S' means 'R is the sister of S', then how is D related to H in 'D β E α F γ G β H'?
+(a) Grandfather (b) Great-grandfather (c) Uncle (d) Father
+Answer: (b)
+Solution: D β E means D is the father of E. E α F means E is the mother of F. F γ G means F is the sister of G, so E is the mother of G too. G β H means G is the father of H. The trap is "Grandfather", which counts only three generations instead of four. D → E → G → H is three steps down, so the answer is Great-grandfather.
+Source: PYQ-style
+
+108. If 'K □ L' means 'K is the wife of L', 'K △ L' means 'K is the son of L', and 'K ○ L' means 'K is the daughter of L', then how is U related to X in 'U △ V □ W ○ X'?
+(a) Grandson (b) Brother (c) Nephew (d) Son
+Answer: (a)
+Solution: U △ V means U is the son of V. V □ W means V is the wife of W, so U is the son of V and W. W ○ X means W is the daughter of X. The tempting wrong choice is "Son", which skips the generation of W. U is the son of X's daughter, so the answer is Grandson.
+Source: PYQ-style
+
+109. If 'A ⋆ B' means 'A is the brother of B', 'A ⊕ B' means 'A is the mother of B', and 'A ⊖ B' means 'A is the father of B', then which expression shows that 'F is the paternal uncle of J'?
+(a) F ⊖ G ⋆ J (b) F ⋆ G ⊖ J (c) F ⋆ G ⊕ J (d) J ⋆ G ⊖ F
+Answer: (b)
+Solution: In "F ⋆ G ⊖ J", F ⋆ G means F is the brother of G, and G ⊖ J means G is the father of J. So F is the brother of J's father, i.e., the paternal uncle of J. The third option makes G the mother, which would make F a maternal uncle — that is the trap. So the answer is "F ⋆ G ⊖ J".
+Source: PYQ-style
+
+110. If 'P ↑ Q' means 'P is the father of Q', 'P ↓ Q' means 'P is the daughter of Q', and 'P ↔ Q' means 'P is the wife of Q', then how is B related to E in 'B ↓ C ↔ D ↑ E'?
+(a) Aunt (b) Mother (c) Sister (d) Daughter
+Answer: (c)
+Solution: B ↓ C means B is the daughter of C. C ↔ D means C is the wife of D, so B is the daughter of C and D. D ↑ E means D is the father of E, so E is also a child of C and D. The tempting wrong choice is "Daughter", which misreads the direction of the last symbol. B and E share the same parents, so the answer is Sister.
+Source: PYQ-style
+
+111. If 'M # N' means 'M is the son of N', 'M @ N' means 'M is the mother of N', and 'M & N' means 'M is the husband of N', then how is T related to V in 'T # U @ V'?
+(a) Father (b) Brother (c) Son (d) Uncle
+Answer: (b)
+Solution: T # U means T is the son of U. U @ V means U is the mother of V, so T and V are both children of U. The tempting wrong choice is "Son", which ignores that T and V are in the same generation. Since T is male and shares a mother with V, the answer is Brother.
+Source: PYQ-style
+
+112. If 'X ÷ Y' means 'X is the father of Y', 'X − Y' means 'X is the sister of Y', and 'X + Y' means 'X is the mother of Y', then how is H related to L in 'H ÷ I − J + K ÷ L'?
+(a) Great-grandfather (b) Father (c) Grandfather (d) Uncle
+Answer: (a)
+Solution: H ÷ I means H is the father of I. I − J means I is the sister of J, so H is the father of J too. J + K means J is the mother of K. K ÷ L means K is the father of L. The trap is "Grandfather", which stops at K and forgets L. H → J → K → L is three steps down, so the answer is Great-grandfather.
+Source: PYQ-style
+
+113. If 'A ∆ B' means 'A is the wife of B', 'A ∇ B' means 'A is the brother of B', and 'A ◊ B' means 'A is the son of B', then how is Q related to S in 'Q ◊ R ∇ S'?
+(a) Son (b) Cousin (c) Brother (d) Nephew
+Answer: (d)
+Solution: Q ◊ R means Q is the son of R. R ∇ S means R is the brother of S, so R and S are siblings. The tempting wrong choice is "Son", which ignores the sibling link between R and S. Q is the son of S's brother, so the answer is Nephew.
+Source: PYQ-style
+
+114. If 'P ⊗ Q' means 'P is the mother of Q', 'P ⊘ Q' means 'P is the father of Q', and 'P ⊙ Q' means 'P is the sister of Q', then which expression shows that 'D is the maternal grandmother of H'?
+(a) D ⊗ E ⊗ H (b) D ⊙ E ⊗ H (c) D ⊗ E ⊘ H (d) D ⊘ E ⊗ H
+Answer: (a)
+Solution: In "D ⊗ E ⊗ H", D ⊗ E means D is the mother of E, and E ⊗ H means E is the mother of H. So D is the mother of H's mother — the maternal grandmother. The first option makes E the father, which would make D a paternal grandmother — that is the trap. So the answer is "D ⊗ E ⊗ H".
+Source: PYQ-style
+
+115. If 'G ⋄ H' means 'G is the husband of H', 'G ⋆ H' means 'G is the daughter of H', and 'G ⋇ H' means 'G is the brother of H', then how is N related to S in 'N ⋆ O ⋄ P ⋇ Q ⋆ R ⋄ S'?
+(a) Niece (b) Sister (c) Daughter (d) Granddaughter
+Answer: (d)
+Solution: N ⋆ O means N is the daughter of O. O ⋄ P means O is the husband of P, so N is the daughter of P. P ⋇ Q means P is the brother of Q. Q ⋆ R means Q is the daughter of R, and R ⋄ S means R is the husband of S, so P and Q are both children of R and S. The tempting wrong choice is "Niece", which misreads the sibling link. N is the daughter of S's child P, so the answer is Granddaughter.
+Source: PYQ-style
+
+116. If 'A ⇒ B' means 'A is the father of B', 'A ⇐ B' means 'A is the sister of B', and 'A ⇔ B' means 'A is the mother of B', then how is J related to L in 'J ⇒ K ⇔ L'?
+(a) Uncle (b) Father (c) Brother (d) Grandfather
+Answer: (d)
+Solution: J ⇒ K means J is the father of K. K ⇔ L means K is the mother of L. The tempting wrong choice is "Father", which ignores the middle generation K. J is the father of L's mother, so the answer is Grandfather.
+Source: PYQ-style
+
+117. If 'S ∘ T' means 'S is the son of T', 'S ∙ T' means 'S is the wife of T', and 'S ∘∘ T' means 'S is the daughter of T', then how is E related to G in 'E ∘ F ∙ G'?
+(a) Grandson (b) Son (c) Nephew (d) Brother
+Answer: (b)
+Solution: E ∘ F means E is the son of F. F ∙ G means F is the wife of G, so F and G are a couple and E is their child. The tempting wrong choice is "Grandson", which adds a generation that does not exist. E is the son of F and G, so the answer is Son.
+Source: PYQ-style
+
+118. If 'U ∧ V' means 'U is the brother of V', 'U ∨ V' means 'U is the mother of V', and 'U ¬ V' means 'U is the father of V', then which expression shows that 'Y is the nephew of W'?
+(a) W ¬ X ∨ Y (b) W ∨ X ∧ Y (c) W ∧ X ¬ Y (d) Y ∧ X ¬ W
+Answer: (c)
+Solution: In "W ∧ X ¬ Y", W ∧ X means W is the brother of X, and X ¬ Y means X is the father of Y. So W is the brother of Y's father, making Y the nephew of W. The last option reverses the roles and makes W the nephew of Y — that is the trap. So the answer is "W ∧ X ¬ Y".
+Source: PYQ-style
+
+119. If 'B ⊏ C' means 'B is the daughter of C', 'B ⊐ C' means 'B is the father of C', and 'B ⊓ C' means 'B is the wife of C', then how is R related to T in 'R ⊏ S ⊐ T'?
+(a) Daughter (b) Mother (c) Sister (d) Aunt
+Answer: (c)
+Solution: R ⊏ S means R is the daughter of S. S ⊐ T means S is the father of T, so R and T are both children of S. The tempting wrong choice is "Daughter", which misreads the direction of the second symbol. R is female and shares a father with T, so the answer is Sister.
+Source: PYQ-style
+
+120. If 'F ≺ G' means 'F is the mother of G', 'F ≻ G' means 'F is the brother of G', and 'F ≼ G' means 'F is the son of G', then how is L related to Q in 'L ≼ M ≺ N ≻ O ≼ P ≺ Q'?
+(a) Nephew (b) Son (c) Brother (d) Grandson
+Answer: (c)
+Solution: L ≼ M means L is the son of M. M ≺ N means M is the mother of N, so L and N are brothers. N ≻ O means N is the brother of O. O ≼ P means O is the son of P, and P ≺ Q means P is the mother of Q, so O and Q are siblings. Thus L, N, O and Q all belong to the same sibling group of one family. The tempting wrong choice is "Nephew", which misreads the sibling chain. So the answer is Brother.
+Source: PYQ-style
+
+121. If 'A + B' means 'A is the father of B', 'A − B' means 'A is the wife of B', 'A × B' means 'A is the brother of B', and 'A ÷ B' means 'A is the daughter of B', then how is P related to R in 'P ÷ Q + R'?
+(a) Sister (b) Daughter (c) Mother (d) Aunt
+Answer: (a)
+Solution: P ÷ Q means P is the daughter of Q. Q + R means Q is the father of R, so P and R are both children of Q. The tempting wrong choice is "Daughter", which ignores that P and R are in the same generation. P is female and shares a father with R, so the answer is Sister.
+Source: PYQ-style
+
+122. If 'M α N' means 'M is the son of N', 'M β N' means 'M is the wife of N', 'M γ N' means 'M is the sister of N', and 'M δ N' means 'M is the father of N', then which expression shows that 'K is the maternal uncle of P'?
+(a) K γ L β M α P (b) P α M γ L γ K (c) K δ L γ M α P (d) P α M β L γ K
+Answer: (b)
+Solution: In "P α M γ L γ K", P α M means P is the son of M, so M is the mother of P. M γ L means M is the sister of L, and L γ K means L is the sister of K, so K is the brother of L and M. Thus K is the brother of P's mother — the maternal uncle. The last option makes M the wife of L, so L becomes the father and K a paternal uncle — that is the trap. So the answer is "P α M γ L γ K".
+Source: PYQ-style
+
+123. If 'X ⊕ Y' means 'X is the daughter of Y', 'X ⊖ Y' means 'X is the husband of Y', 'X ⊗ Y' means 'X is the brother of Y', and 'X ⊘ Y' means 'X is the mother of Y', then which expression shows that 'C is the mother of F'?
+(a) C ⊗ E ⊘ F (b) C ⊖ E ⊘ F (c) C ⊘ E ⊗ F (d) C ⊕ E ⊘ F
+Answer: (c)
+Solution: In "C ⊘ E ⊗ F", C ⊘ E means C is the mother of E, and E ⊗ F means E is the brother of F, so E and F are siblings and C is the mother of both. The third option makes C the husband of E's mother, i.e., the father — that is the trap. So the answer is "C ⊘ E ⊗ F".
+Source: PYQ-style
+
+124. If 'P ↑ Q' means 'P is the father of Q', 'P ↓ Q' means 'P is the sister of Q', 'P → Q' means 'P is the mother of Q', and 'P ← Q' means 'P is the husband of Q', then how is G related to J in 'G ↑ H ↓ I → J'?
+(a) Uncle (b) Grandfather (c) Father (d) Brother
+Answer: (b)
+Solution: G ↑ H means G is the father of H. H ↓ I means H is the sister of I, so G is the father of I as well. I → J means I is the mother of J. The tempting wrong choice is "Father", which stops one generation too early. G is the father of J's mother, so the answer is Grandfather.
+Source: PYQ-style
+
+125. If 'D ⋆ E' means 'D is the wife of E', 'D ⋇ E' means 'D is the son of E', 'D ⋈ E' means 'D is the sister of E', and 'D ⋉ E' means 'D is the father of E', then which expression shows that 'V is the paternal grandmother of Z'?
+(a) V ⋆ W ⋉ X ⋉ Z (b) V ⋉ W ⋆ X ⋇ Z (c) V ⋈ W ⋉ X ⋉ Z (d) Z ⋇ X ⋉ W ⋆ V
+Answer: (a)
+Solution: In "V ⋆ W ⋉ X ⋉ Z", V ⋆ W means V is the wife of W, W ⋉ X means W is the father of X, and X ⋉ Z means X is the father of Z. So V is the wife of Z's grandfather W, i.e., the paternal grandmother of Z. The third option makes V the sister of W, which would make her a great-aunt — that is the trap. So the answer is "V ⋆ W ⋉ X ⋉ Z".
+Source: PYQ-style

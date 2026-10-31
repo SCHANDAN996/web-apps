@@ -1,0 +1,46 @@
+```mermaid
+graph TD
+    A["TENSE<br>Time of Action"] --> B["PRESENT"]
+    A --> C["PAST"]
+    A --> D["FUTURE"]
+
+    B --> B1["Simple Present<br>V1 / V1+s/es<br>Habits, Facts, Universal Truths"]
+    B --> B2["Present Continuous<br>is/am/are + V1+ing<br>Action happening now"]
+    B --> B3["Present Perfect<br>has/have + V3<br>Just completed, result visible"]
+    B --> B4["Present Perfect Continuous<br>has/have + been + V1+ing<br>Since / For + action continuing"]
+
+    C --> C1["Simple Past<br>V2<br>Finished action, past time words"]
+    C --> C2["Past Continuous<br>was/were + V1+ing<br>Action in progress in past"]
+    C --> C3["Past Perfect<br>had + V3<br>Earlier of two past actions"]
+    C --> C4["Past Perfect Continuous<br>had + been + V1+ing<br>Duration before a past point"]
+
+    D --> D1["Simple Future<br>will/shall + V1"]
+    D --> D2["Future Continuous<br>will be + V1+ing"]
+    D --> D3["Future Perfect<br>will have + V3<br>Before a future deadline"]
+    D --> D4["Future Perfect Continuous<br>will have been + V1+ing"]
+
+    A --> R["12 GOLDEN RULES"]
+    R --> R1["Universal truth → Simple Present<br>even after past reporting verb"]
+    R --> R2["Since + point of time<br>For + period of time<br>→ Perfect Continuous"]
+    R --> R3["Two past actions:<br>Earlier → Past Perfect (had+V3)<br>Later → Simple Past"]
+    R --> R4["Before / After / When joining<br>two past actions → check sequence"]
+    R --> R5["Stative verbs (know, love, own)<br>→ NO continuous form"]
+    R --> R6["By + future time<br>→ Future Perfect"]
+    R --> R7["If clause (Type 1):<br>If + Simple Present, will + V1"]
+    R --> R8["Time clauses (when, until, as soon as)<br>→ Simple Present, NOT will"]
+    R --> R9["It is time / wish / as if<br>→ Past form for present unreal"]
+    R --> R10["Hardly...when / No sooner...than<br>→ Past Perfect + Simple Past"]
+    R --> R11["Yesterday, ago, last week<br>→ Simple Past, NEVER Present Perfect"]
+    R --> R12["This morning, today, just, already<br>→ Present Perfect"]
+
+    A --> T["EXAMINER'S TRAPS"]
+    T --> T1["Sound-Right Trap<br>'I am knowing him' ❌<br>'I know him' ✔"]
+    T --> T2["Sequence Trap<br>'When I reached, the train left' ❌<br>'...the train had left' ✔"]
+    T --> T3["Since/For Confusion<br>since Monday / for two days"]
+    T --> T4["Will after When<br>'When he will come' ❌<br>'When he comes' ✔"]
+
+    A --> S["STRATEGY"]
+    S --> S1["15-sec: Spot time marker<br>(ago, since, by 2030) → pick tense"]
+    S --> S2["45-sec: Two-action sequence<br>or conditional → map timeline first"]
+    S --> S3["Skip: If both Perfect &<br>Perfect Continuous look right,<br>mark and return"]
+```

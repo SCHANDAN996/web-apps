@@ -1,0 +1,130 @@
+# 🪄 Short Tricks & Mnemonics — Cubes & Dice
+
+---
+
+## 🧠 Mnemonic 1: The "7-11" Rule for Standard Dice
+
+> **"A standard die is a 7-Eleven store — opposite faces always sum to SEVEN!"**
+
+1↔6, 2↔5, 3↔4. If a die is standard, just subtract from 7 to find the hidden opposite face. No drawing needed!
+
+---
+
+## 🧠 Mnemonic 2: "Two Twins, Third Opposite"
+
+> **"When two dice show the SAME two faces, the remaining two are a married couple — opposites!"**
+
+If two views of a die both show faces A and B, then the two unseen faces are opposite each other. Twins reveal the couple.
+
+---
+
+## 🧠 Mnemonic 3: "One Common Face? Clock It!"
+
+> **"One common face — put it at 12 o'clock and read the CLOCKWISE race!"**
+
+When two views share exactly one face, fix the common face on top, write the other faces clockwise in both views, and match positions — faces in the same clockwise slot are opposites.
+
+---
+
+## 🧠 Mnemonic 4: The Cube-Cut Formula Song
+
+> **"n small cubes along each edge? Just CUBE it, baby — n³!"**
+
+If each edge is divided into **n equal parts**, the cube splits into **n³** small cubes. 4 parts per edge → 4³ = 64 cubes.
+
+⚠️ **Careful — cuts ≠ parts!** n cuts per edge make **(n+1) parts**, so n cuts give **(n+1)³** cubes. 4 cuts per edge → 5 parts → 125 cubes, not 64. Examiners love swapping "cuts" and "parts" — read the question twice!
+
+---
+
+## 🧠 Mnemonic 5: "3-2-1-0 Painted Face Ladder"
+
+> **"Corners get THREE, edges get TWO, faces get ONE, the core gets NONE."**
+
+(Here n = number of small cubes along each edge.)
+
+- 3 painted faces: always **8** (corners — a cube has 8 corners, period!)
+- 2 painted faces: **12(n−2)** (12 edges)
+- 1 painted face: **6(n−2)²** (6 faces)
+- 0 painted faces: **(n−2)³** (the hidden inner cube)
+
+Climb the ladder: 3-2-1-0, corner-edge-face-core!
+
+---
+
+## 🧠 Mnemonic 6: "Corners Never Cheat — Always 8"
+
+> **"No matter how big the cube, only 8 corners exist. 3-face-painted = 8. FOREVER."**
+
+If an option says 6 or 12 cubes have 3 painted faces, eliminate it instantly without any calculation.
+
+---
+
+## 🧠 Mnemonic 7: "The Naked Core"
+
+> **"Unpainted cubes live inside like a shy smaller cube — strip one layer from every side: (n−2)³."**
+
+Imagine peeling an onion: remove the outer painted shell, and the naked inner cube of side (n−2) remains.
+
+---
+
+## 🧠 Mnemonic 8: "Adjacent Can Never Be Opposite"
+
+> **"If you SEE two faces together in any view, they can NEVER be opposites — friends seen together don't hide from each other!"**
+
+Elimination trick: from one view showing faces A, B, C — cross out A-B, B-C, A-C as opposite pairs in every option.
+
+---
+
+## 🧠 Mnemonic 9: "Four in a Row, Fold and Know"
+
+> **"In a cube net with 4 squares in a row: square 1 fights square 3, square 2 fights square 4 (alternates are opposites)."**
+
+For open-net questions: in a straight strip of 4, alternate squares become opposite faces when folded.
+
+---
+
+## 🧠 Mnemonic 10: "Standard Die? Check the Neighbours First"
+
+> **"Before assuming a die is standard, CHECK the views. A fake die wears a fake crown!"**
+
+Examiners love showing a die that *looks* standard but isn't. Use the sum-to-7 rule only after the question says the die is standard, or after two views confirm it.
+
+---
+
+## 🧠 Mnemonic 11: "Two Common Faces = Locked Opposites"
+
+> **"Two faces common in two views? The two leftover faces are LOCKED as opposites — case closed, no appeal!"**
+
+This is the fastest dice question type — solve in under 10 seconds.
+
+---
+
+## 🧠 Mnemonic 12: "Painted Cube Budget: 8-12-6-1"
+
+> **"Remember the family: 8 corner shops, 12 edge roads, 6 face markets, 1 core house."**
+
+The numbers 8, 12, 6, 1 are the fixed counts of corners, edges, faces, and the inner body of ANY cube — the skeleton behind every painted-cube formula.
+
+---
+
+## 🧠 Mnemonic 13: "Opposite Faces Never Meet at a Party"
+
+> **"In any single view of a die, you see 3 faces — none of them can be opposite each other. A party of 3 = all friends!"**
+
+Use this to eliminate 2–3 options instantly in "which face is opposite X" questions.
+
+---
+
+# ⏭️ Skip Strategy — When to Skip a Cubes & Dice Question
+
+### 🚫 Skip Tip 1: The 15-Second Pattern Rule
+If you cannot identify which rule applies (one common face / two common faces / net folding) within **15 seconds**, mark and skip. Dice questions are either 20-second solves or 3-minute traps — there is no middle ground.
+
+### 🚫 Skip Tip 2: Non-Standard Die with 3+ Views
+If the die is **not standard** and the question gives 3 or more views with no common face between any pair, skip it on the first pass. These require full elimination tables and eat 2+ minutes. Return only if time remains.
+
+### 🚫 Skip Tip 3: Painted Cube with Tricky Wording
+If the question says "cuts" instead of "parts", paints only some faces before cutting, or uses a large n (n ≥ 6) with very close options, skip unless you have the 3-2-1-0 ladder formulas memorized cold. Guessing between two close numbers is a negative-marking gamble, not a strategy.
+
+### ✅ Golden Rule
+**Attempt order:** Standard-die (sum-to-7) questions → Two-common-face questions → Painted-cube formula questions → One-common-face clock method → Net folding → Non-standard multi-view (last, or skip).

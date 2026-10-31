@@ -1,0 +1,13 @@
+.ss-dialog { width:min(420px,calc(100% - var(--sp-6))); max-height:calc(100dvh - var(--sp-6)); border:1px solid var(--border); background:var(--surface); border-radius:var(--r-xl); overflow:auto; }
+.ss-dialog::backdrop { background:rgba(0,0,0,.4); }
+.ss-dialog-body { padding:var(--sp-5) var(--sp-5) var(--sp-3); }
+.ss-dialog-icon { width:var(--empty-icon); height:var(--empty-icon); border-radius:var(--r-lg); display:grid; place-items:center; background:var(--brand-soft); color:var(--on-brand-soft); font-size:var(--fs-xl); font-weight:600; margin-bottom:var(--sp-4); }
+.ss-dialog h2 { font-size:var(--fs-lg); line-height:1.6; margin:0 0 var(--sp-2); }
+.ss-dialog p { font-size:var(--fs-md); line-height:1.8; margin:0; color:var(--text-2); overflow-wrap:anywhere; }
+.ss-dialog p.ss-dialog-context { margin-top:var(--sp-3); padding:var(--sp-3); border-radius:var(--r-md); background:var(--surface-2); color:var(--text); font-size:var(--fs-sm); }
+.ss-dialog-actions { display:flex; gap:var(--sp-2); padding:var(--sp-3) var(--sp-5) var(--sp-5); }
+.ss-dialog-actions .btn { flex:1; min-width:0; min-height:48px; height:auto; white-space:normal; text-align:center; font-size:var(--fs-sm); }
+.ss-dialog[data-tone=danger] .ss-dialog-icon { background:var(--bad-soft); color:var(--bad); }
+.ss-dialog[data-tone=danger] [data-dialog-confirm] { background:var(--bad); color:var(--md-on-error); }
+.ss-dialog :focus-visible { outline:2px solid var(--brand); outline-offset:var(--sp-1); }
+@media(prefers-reduced-motion:reduce) { .ss-dialog[open] { animation:none; } }

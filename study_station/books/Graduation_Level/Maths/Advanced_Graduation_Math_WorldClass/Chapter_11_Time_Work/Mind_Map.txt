@@ -1,0 +1,41 @@
+```mermaid
+graph TD
+    A["समय और कार्य<br>Time & Work"] --> B["मूल अवधारणा<br>Basic Concept"]
+    A --> C["कार्य-दर<br>Work Rate"]
+    A --> D["संयुक्त कार्य<br>Combined Work"]
+    A --> E["वैकल्पिक दिन<br>Alternate Days"]
+    A --> F["कार्य छोड़ना / जुड़ना<br>Leaving & Joining"]
+    A --> G["पाइप और टंकी<br>Pipes & Cisterns"]
+    A --> H["मज़दूरी और वेतन<br>Wages & Payment"]
+    A --> I["उन्नत प्रकार<br>Advanced Types"]
+
+    B --> B1["कार्य = दर × समय<br>Work = Rate × Time"]
+    B --> B2["कुल कार्य = 1 इकाई या LCM<br>Total Work = 1 unit or LCM"]
+    B --> B3["दर ∝ 1/समय<br>Rate ∝ 1/Time"]
+
+    C --> C1["A की 1 दिन की कार्य = 1/n<br>A's 1 day work = 1/n"]
+    C --> C2["दक्षता अनुपात<br>Efficiency Ratio"]
+    C --> C3["M1D1H1/W1 = M2D2H2/W2<br>MDH Formula"]
+
+    D --> D1["दरें जुड़ती हैं<br>Rates Add Up"]
+    D --> D2["A+B का समय = xy/(x+y)<br>Time = xy/(x+y)"]
+    D --> D3["तीन व्यक्ति<br>Three Persons"]
+
+    E --> E1["2-दिन चक्र का कार्य<br>2-Day Cycle Work"]
+    E --> E2["शेष कार्य का समय<br>Remaining Work Time"]
+
+    F --> F1["बीच में छोड़ना<br>Leaves Midway"]
+    F --> F2["बाद में जुड़ना<br>Joins Later"]
+    F --> F3["कुल कार्य = LCM विधि<br>Total Work = LCM Method"]
+
+    G --> G1["भरने वाला पाइप = +<br>Inlet = Positive"]
+    G --> G2["खाली करने वाला = −<br>Outlet = Negative"]
+    G --> G3["रिसाव / लीक<br>Leak Problems"]
+
+    H --> H1["वेतन ∝ कार्य-दर<br>Wages ∝ Work Rate"]
+    H --> H2["अनुपात में बँटवारा<br>Ratio Distribution"]
+
+    I --> I1["पुरुष-महिला-बच्चे<br>Men-Women-Children"]
+    I --> I2["कार्य और समय श्रृंखला<br>Chain Rule"]
+    I --> I3["नकारात्मक कार्य<br>Negative Work"]
+```

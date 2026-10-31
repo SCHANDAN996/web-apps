@@ -1,0 +1,105 @@
+# 🪄 Short Tricks & Mnemonics — Data Sufficiency
+
+---
+
+**Box 1 — The Golden Rule: "DON'T SOLVE, JUST CHECK!"**
+> **D**on't **O**pen the **N**umbers fully — **T**est sufficiency only!
+The biggest trap in Data Sufficiency is actually solving the problem. You only need to know *whether* it CAN be solved. The moment you start calculating the final answer, you've fallen for the examiner's time-trap. Ask only: "Is the information enough?" — never "What is the answer?"
+
+---
+
+**Box 2 — The Two Doors Rule: "Each Statement is a Separate Room"**
+> Check Statement I **alone** first. Then Statement II **alone**. Only if BOTH fail, combine them.
+Memory hook: **"Alone → Alone → Together"** (A-A-T).
+Never mix the statements before testing each one separately. Mixing early is the #1 beginner mistake.
+
+---
+
+**Box 3 — The Answer Option Ladder: "1-2-B-E-N"**
+Standard options decoded:
+- **1** → Statement I alone is sufficient
+- **2** → Statement II alone is sufficient
+- **B** → **B**oth together needed (neither alone works)
+- **E** → **E**ither alone is sufficient
+- **N** → **N**either, even together, is sufficient
+Mnemonic: **"One Boy Eats Nothing"** → 1, B, E, N (and 2 is the mirror of 1).
+
+---
+
+**Box 4 — The "Unique Answer" Test: "One Bride, One Groom"**
+A statement is sufficient only if it gives **exactly ONE** possible answer.
+If Statement I gives x = 2 or x = −2 (two answers) → **NOT sufficient**.
+Hook: *"Two answers = No answer."* Ambiguity kills sufficiency.
+
+---
+
+**Box 5 — The Equation Counter: "N Unknowns Need N Equations"**
+> 2 unknowns but only 1 equation → insufficient. 2 unknowns + 2 independent equations → sufficient.
+Mnemonic: **"Match the locks with the keys."** Count unknowns, count equations. If keys < locks, the door won't open.
+⚠️ Trap: equations must be *independent* — "x + y = 5" and "2x + 2y = 10" are the SAME equation in disguise!
+
+---
+
+**Box 6 — The "Yes/No is Also an Answer" Trick**
+In questions like "Is x > 5?", a statement is sufficient even if the answer is a firm **NO**.
+Hook: **"NO is a full answer."** If Statement I proves x = 3, then "Is x > 5?" is answered (NO) → sufficient!
+Examiner's trap: students think "the statement didn't give what I wanted, so it's insufficient." Wrong — a definite NO is sufficient.
+
+---
+
+**Box 7 — The "Free Information" Warning: "Don't Carry the Baggage"**
+> When testing Statement II **alone**, completely FORGET Statement I.
+Mnemonic: **"Wash your brain between rooms."** Students unconsciously use Statement I's data while "testing" Statement II alone — and wrongly pick "Both together."
+
+---
+
+**Box 8 — The Redundancy Trap: "The Twin Statement"**
+If Statement II is just Statement I rewritten (e.g., "A is taller than B" vs "B is shorter than A"), then:
+- If I alone is insufficient → II alone is also insufficient → and **together they're still insufficient** (no new info!).
+Hook: **"Two copies of one key still open only one lock."**
+
+---
+
+**Box 9 — The "Hidden Data" Alert: "The Question Itself Speaks"**
+Sometimes the question stem hides facts: "Ram is 5 years older than Shyam" in the stem is USABLE data for both statements.
+Hook: **"Read the stem like a detective."** Many "insufficient" verdicts flip to "sufficient" once stem data is counted.
+
+---
+
+**Box 10 — The Geometry Trap: "Diagrams Lie"**
+In DS, never trust how a figure *looks*. An angle that looks like 90° isn't 90° unless stated.
+Mnemonic: **"Eyes deceive, data decides."**
+
+---
+
+**Box 11 — The "Both Sufficient" Signal: "E for Either, E for Equal Power"**
+If Statement I alone works AND Statement II alone works → answer is **"Either alone"**, NOT "Both together."
+Trap: "Both together" is only for when **neither works alone**. If each works solo, combining them is unnecessary.
+Hook: **"Two solo singers don't need a duet."**
+
+---
+
+**Box 12 — The 3-Question Drill (say it aloud before answering):**
+1. **"Can I answer with I alone?"** → Yes/No
+2. **"Can I answer with II alone?"** → Yes/No
+3. **"Do I need both — or is even both not enough?"**
+Mnemonic: **"One? Two? Both-or-Bust?"**
+
+---
+
+**Box 13 — The Number-Property Trap: "Zero, One, Negatives — the Usual Suspects"**
+Statements like "x² = 16" give x = ±4 → insufficient. "x is a positive integer, x² = 16" → x = 4 → sufficient.
+Hook: **"Squares have twins. Check the birth certificate (sign/integer condition)."**
+
+---
+
+## ⏭️ Skip Strategy — When to Skip a Data Sufficiency Question
+
+**Tip 1 — The 40-Second Rule:**
+If after 40 seconds you still can't decide whether Statement I alone works (e.g., a messy algebra or number-theory setup), **mark and skip**. DS questions are designed to look short but eat time. Return only if time remains.
+
+**Tip 2 — Skip "Both-Neither" Doubts:**
+If you've proven I alone fails and II alone fails, but combining them needs heavy calculation to confirm sufficiency — and you're not confident — **skip rather than gamble** between "Both" and "Neither." These two options carry the highest error rate.
+
+**Tip 3 — Skip Multi-Variable Puzzles Under Pressure:**
+DS questions with 3+ variables, inequalities, or coded relations (blood relations + data, ages + ratios) are time-sinks. If the sufficiency path isn't visible in the first read, **skip immediately** — attempt the direct reasoning questions first and come back with a fresh mind.

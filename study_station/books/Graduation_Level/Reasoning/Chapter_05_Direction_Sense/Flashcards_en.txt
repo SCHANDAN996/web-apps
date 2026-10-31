@@ -1,0 +1,79 @@
+Card 1
+Front: In coded directions like "A # B means A is to the North of B", what is the very first step before solving anything?
+Back: Decode the entire symbol table first and write a plain-language key (e.g., # = North, @ = South) above the question. Never decode mid-solution — that is where errors creep in.
+
+Card 2
+Front: What is the shortcut formula for the shortest distance when a person walks x km one way and y km perpendicular to it?
+Back: Use Pythagoras: distance = √(x² + y²). Common triplets to memorise: (3,4,5), (6,8,10), (5,12,13), (8,15,17), (9,12,15).
+
+Card 3
+Front: A man walks 3 km East, then 4 km North. How far is he from the start — and why do most students answer 7 km wrongly?
+Back: 5 km (√(3²+4²)). The trap: students add the legs (3+4=7), but "shortest distance from start" means the straight-line hypotenuse, not the path travelled.
+
+Card 4
+Front: What mnemonic helps you fix the four main directions on paper instantly?
+Back: "NEWS" — North up, East right, West left, South down (clockwise N→E→S→W). Draw the cross before reading the question.
+
+Card 5
+Front: Which mnemonic fixes the order of turns: "right turn from North faces where?"
+Back: Remember clockwise rotation: N → E → S → W → N. A right turn = move one step clockwise; a left turn = one step anti-clockwise. "Right is Clockwise" is the memory hook.
+
+Card 6
+Front: If a person faces North and turns 135° clockwise, which direction does he face now?
+Back: South-East. 135° = 90° (East) + 45° more = South-East. Convert degrees into 45° steps on the direction wheel.
+
+Card 7
+Front: In shadow problems, where does the shadow fall at sunrise and at sunset?
+Back: At sunrise, shadow falls to the West; at sunset, to the East. At noon (in India), the shadow is shortest and roughly under/toward North-South line — usually ignored in questions.
+
+Card 8
+Front: Examiner's trap: "Ravi's shadow falls exactly to his left at sunrise." Which way is Ravi facing?
+Back: North. At sunrise shadow points West; if West is on his left, he faces North. Trap: students assume shadow behind = facing East, ignoring the "left" condition.
+
+Card 9
+Front: What is the difference between "distance from starting point" and "total distance travelled"?
+Back: Distance from start = straight-line (displacement) between start and end points. Total distance = sum of all legs walked. Questions swap these two to trap you — underline which one is asked.
+
+Card 10
+Front: In coded-distance questions like "A is 5 m @ B, B is 3 m # C", how do you avoid mixing up the reference point?
+Back: Always plot each statement from the LAST named point, not from the start. "B is 3 m # C" means B is placed relative to C — read the sentence subject-to-object carefully before drawing.
+
+Card 11
+Front: A person walks 10 m, turns right, walks 10 m, turns right, walks 10 m. Where is he relative to start?
+Back: 10 m to the right (perpendicular) of the starting point — he has traced three sides of a square. Recognising square/rectangle loops saves drawing time.
+
+Card 12
+Front: Examiner's trap: a question says "he turned to his right" vs "he turned towards the East" — why does the difference matter?
+Back: "Right" is relative to his CURRENT facing direction, which changes after every turn; "East" is absolute. Recompute facing after every turn — never assume he still faces the original direction.
+
+Card 13
+Front: How do you handle a "back-and-forth" question (walks 6 km East, then 9 km West)?
+Back: Use signed numbers on one axis: East = +, West = −. Net = 6 − 9 = −3, i.e., 3 km West of start. Opposite-direction legs cancel; never add them for displacement.
+
+Card 14
+Front: What is the fastest way to find the final facing direction after a series of left/right turns?
+Back: Count net turns: each right = +90°, each left = −90°. Add them, reduce modulo 360°, then apply the net rotation once to the initial facing. No need to track every intermediate direction.
+
+Card 15
+Front: If two people start from the same point and walk in opposite directions, how is the distance between them found?
+Back: Add their distances (they separate along one line). Trap: students subtract, which is correct only when both walk in the SAME direction.
+
+Card 16
+Front: In a coded question, "P % Q means P is 4 km South-East of Q" — what must you check before applying it?
+Back: Check whether the code gives direction only or direction + fixed distance, and confirm the reference point is Q (the second letter). Misreading "P of Q" vs "Q of P" reverses the whole diagram.
+
+Card 17
+Front: What does "South-West of X" precisely mean in exam diagrams?
+Back: Exactly midway between South and West (225° clockwise from North), i.e., down-left at 45° on paper — not "somewhere between" South and West. Draw diagonals at 45°.
+
+Card 18
+Front: A clock-based twist: at 3:00, the hour hand points East. Where does the minute hand point?
+Back: North. Minute hand at 3:00 points to 12, which is 90° anti-clockwise from East = North. Clock-direction hybrids test whether you can rotate the whole frame.
+
+Card 19
+Front: When should you skip a direction question in the exam hall?
+Back: Skip (and return later) if it has 4+ coded symbols, mixed shadow + turn conditions, or asks for both distance AND direction with non-triplet numbers — these eat 2+ minutes. Solve direct 2–3 leg questions first.
+
+Card 20
+Front: One-line revision: what are the only three skills every direction question tests?
+Back: (1) Fixing the NEWS cross correctly, (2) updating facing direction after each turn, (3) computing straight-line distance via Pythagoras or axis cancellation. Master these three and every variant — coded, shadow, clock — is just decoration.

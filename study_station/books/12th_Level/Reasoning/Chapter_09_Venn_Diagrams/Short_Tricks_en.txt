@@ -1,0 +1,94 @@
+# 🪄 Short Tricks & Mnemonics — Venn Diagrams
+
+---
+
+**Box 1 — "CIRCLE = CROWD"**
+Every circle is a **crowd of people** who share ONE habit. Where crowds overlap, people have BOTH habits. Never read circles as "things" — read them as "people standing in groups."
+
+---
+
+**Box 2 — "Only = Lonely"**
+"Only A" means the **lonely part** of circle A — the slice that touches NO other circle. The moment you see "only," shade out every overlapping region first.
+
+---
+
+**Box 3 — "BOTH sits in the BOWL"**
+The overlap of two circles looks like a **bowl/lens** — and "both" always sits inside that lens. Two circles → one bowl. Three circles → three bowls plus one centre.
+
+---
+
+**Box 4 — "The Centre is the KING"**
+In a 3-circle diagram, the tiny central region (A ∩ B ∩ C) is the **king** — every "all three" question bows to it. Find the king FIRST, then work outward. Never start from the edges.
+
+---
+
+**Box 5 — "NONE lives OUTSIDE"**
+"Neither / None" people live **outside all circles but inside the rectangle**. Formula chant:
+**Total = Inside circles + Outside (none)**
+So: None = Total − (A + B − Both).
+
+---
+
+**Box 6 — "Add–Subtract–Add" (the 3-circle drumbeat)**
+For n(A∪B∪C), beat the drum:
+**ADD** singles → **SUBTRACT** pairs → **ADD** the centre back.
+*Add, subtract, add — or the centre gets counted to death!*
+
+---
+
+**Box 7 — "Exactly-2 wears a HELMET"**
+"Exactly two" = the three pair-overlaps **minus 3× the centre** (the centre was counted in all three pairs, so peel it off like a helmet):
+Exactly two = (pairs sum) − 3 × (all three).
+
+---
+
+**Box 8 — "At least One = Total − None"**
+Don't build "at least one" piece by piece. Just kick out the outsiders:
+**At least one = Total − None.** One subtraction beats three additions.
+
+---
+
+**Box 9 — "Rectangle is the VILLAGE"**
+The rectangle is the whole **village** (universal set). Circles are houses inside it. If a question gives a "total," draw the village boundary FIRST — many students forget it and lose the "none" region.
+
+---
+
+**Box 10 — "Words → Shapes" dictionary**
+Memorize this chant for logic-type Venn questions:
+- **All A are B** → A *inside* B (small circle in big circle)
+- **No A is B** → circles *apart* (two separate islands)
+- **Some A are B** → circles *kissing* (overlap)
+
+Chant: **"All = Inside, No = Apart, Some = Overlap."**
+
+---
+
+**Box 11 — "Doctor–Teacher–Singer TRAP"**
+Whenever three professions appear (Doctor, Teacher, Singer…), the examiner wants the classic 3-circle diagram. But if the words are **Mother, Woman, Doctor** — trap! Mother ⊂ Woman (all mothers are women), so it's NOT three equal circles. Chant: **"Check relations before you draw!"**
+
+---
+
+**Box 12 — "Penny-Paisa Check" (verification trick)**
+After filling all regions, add up **every single region** — the sum must equal the grand total. If it's off by even one, your centre value is wrong. *Count every penny before you submit.*
+
+---
+
+**Box 13 — "Start from the HEART"**
+Golden filling order for any 3-circle numeric problem:
+**Heart (all three) → Pairs (both) → Lonely parts (only) → Outside (none).**
+Reverse this order and you'll be solving equations forever.
+
+---
+
+**Box 14 — "Venn vs. Reality" warning**
+Diagram shows *set relations*, not real life. "All professors are men" + "some men are singers" does NOT prove any professor sings. Chant: **"If the circles don't force it, don't believe it."**
+
+---
+
+## ⏭️ Skip Strategy — When to Leave the Question
+
+1. **The 20-Second Rule:** If after 20 seconds you still can't decide whether the diagram is 2-circle, 3-circle, or nested — **mark and skip**. Relation-confusion questions eat 3+ minutes and are classic time-traps.
+
+2. **Missing Total = Missing Peace:** If a numeric question gives overlaps but no grand total (and no way to derive it), don't build equations with variables — **skip and return only if time remains**. Venn questions with clean totals are always waiting in the same paper.
+
+3. **"Exactly / At least / Only" triple combo:** When one question asks all three quantities with 4+ regions to compute, solve the **easiest sub-part only if options allow elimination**; otherwise skip. One correct Venn question solved calmly beats three half-solved ones.

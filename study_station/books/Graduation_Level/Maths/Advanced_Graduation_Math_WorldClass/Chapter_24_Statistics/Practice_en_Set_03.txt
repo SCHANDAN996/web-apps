@@ -1,0 +1,149 @@
+51. The mean of 10 observations is 15. If each observation is increased by 5, the new mean is
+(a) 20 (b) 15 (c) 25 (d) 10
+Answer: (a)
+Solution: The tempting wrong choice is 15, which ignores that adding a constant to every value shifts the mean by the same constant. New mean = 15 + 5 = 20, so the answer is 20.
+Source: NCERT Class 11 Statistics
+
+52. The median of the data 12, 7, 19, 4, 15, 9, 11 is
+(a) 11 (b) 9 (c) 12 (d) 15
+Answer: (a)
+Solution: Many students pick 12 by taking the middle value without sorting — that is the trap. Arranging in order: 4, 7, 9, 11, 12, 15, 19; the 4th value is the median, so the answer is 11.
+Source: NCERT Class 11 Statistics
+
+53. If the mode of the data 3, 5, 7, 5, 3, 5, x is 5, then x equals
+(a) 3 (b) 5 (c) 7 (d) 9
+Answer: (b)
+Solution: The trap is 3, because 3 currently appears twice like 5. For 5 to be the unique mode it must occur most often; with x = 5, the value 5 occurs three times while 3 occurs twice, so the answer is 5.
+Source: NCERT Class 10 Statistics
+
+54. The mean of first n natural numbers is 28. Then n equals
+(a) 54 (b) 56 (c) 55 (d) 57
+Answer: (c)
+Solution: Mean of first n natural numbers is (n+1)/2. The trap is 56, obtained by doubling 28 directly. Solving (n+1)/2 = 28 gives n+1 = 56, so n = 55, and the answer is 55.
+Source: NCERT Class 11 Statistics
+
+55. The variance of the data 2, 4, 6, 8, 10 is
+(a) 6 (b) 10 (c) 8 (d) 40
+Answer: (c)
+Solution: Mean = 6. Squared deviations are 16, 4, 0, 4, 16, summing to 40. The trap is 40, which is the sum before dividing by n. Variance = 40/5 = 8, so the answer is 8.
+Source: NCERT Class 11 Statistics
+
+56. If the standard deviation of a data set is 4, its variance is
+(a) 2 (b) 8 (c) 16 (d) 64
+Answer: (c)
+Solution: The trap is 2, obtained by taking the square root instead of squaring. Variance is the square of standard deviation: 4² = 16, so the answer is 16.
+Source: NCERT Class 11 Statistics
+
+57. The mean of 5 numbers is 18. If one number is excluded, the mean becomes 16. The excluded number is
+(a) 20 (b) 26 (c) 24 (d) 28
+Answer: (b)
+Solution: The trap is 20, from wrongly subtracting the means only. Total of 5 numbers = 90; total of remaining 4 = 64. Excluded number = 90 − 64 = 26, so the answer is 26.
+Source: PYQ-style
+
+58. For a moderately skewed distribution, if mean = 26 and mode = 20, the median is
+(a) 22 (b) 23 (c) 24 (d) 25
+Answer: (c)
+Solution: Use the empirical relation Mode = 3 Median − 2 Mean. The trap is 23, from averaging mean and mode directly. Here 20 = 3 Median − 52, so Median = 72/3 = 24, and the answer is 24.
+Source: NCERT Class 11 Statistics
+
+59. The coefficient of variation of a data set with mean 50 and standard deviation 10 is
+(a) 5% (b) 10% (c) 25% (d) 20%
+Answer: (d)
+Solution: The trap is 5%, from dividing mean by standard deviation. Coefficient of variation = (SD/Mean) × 100 = (10/50) × 100 = 20%, so the answer is 20%.
+Source: NCERT Class 11 Statistics
+
+60. The mean deviation about the mean for the data 4, 6, 8, 10, 12 is
+(a) 2 (b) 4 (c) 3 (d) 2.4
+Answer: (d)
+Solution: Mean = 8; absolute deviations are 4, 2, 0, 2, 4, summing to 12. The trap is 12, the raw sum. Mean deviation = 12/5 = 2.4, so the answer is 2.4.
+Source: NCERT Class 11 Statistics
+
+61. If each observation of a data set is multiplied by 3, the standard deviation becomes
+(a) unchanged (b) 3 times (c) 9 times (d) one-third
+Answer: (b)
+Solution: The trap is 9 times, which is what happens to variance, not standard deviation. Multiplying data by k multiplies the standard deviation by |k|, so the answer is 3 times.
+Source: NCERT Class 11 Statistics
+
+62. The median of first 10 prime numbers is
+(a) 11 (b) 13 (c) 12 (d) 15
+Answer: (c)
+Solution: First 10 primes: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29. The trap is 12.5 or picking 13 alone; for even count, median is the mean of the 5th and 6th values: (11+13)/2 = 12, so the answer is 12.
+Source: PYQ-style
+
+63. In a frequency distribution, the sum of frequencies is 100 and the mean of the distribution is 45. The sum of all observations is
+(a) 4500 (b) 450 (c) 145 (d) 5500
+Answer: (a)
+Solution: The trap is 145, from adding instead of multiplying. Sum of observations = mean × number of observations = 45 × 100 = 4500, so the answer is 4500.
+Source: NCERT Class 10 Statistics
+
+64. The range of the data 25, 18, 42, 7, 33, 15 is
+(a) 25 (b) 35 (c) 33 (d) 42
+Answer: (b)
+Solution: The trap is 42, the maximum value itself. Range = maximum − minimum = 42 − 7 = 35, so the answer is 35.
+Source: NCERT Class 11 Statistics
+
+65. If the mean of x, x+2, x+4, x+6, x+8 is 13, then x equals
+(a) 7 (b) 8 (c) 11 (d) 9
+Answer: (d)
+Solution: Sum = 5x + 20 = 65, giving 5x = 45. The trap is 11, from forgetting the added constants. Solving gives x = 9, so the answer is 9.
+Source: PYQ-style
+
+66. The mode of the data 2, 3, 4, 4, 5, 5, 5, 6, 6, 7 is
+(a) 5 (b) 4 (c) 6 (d) 4.5
+Answer: (a)
+Solution: The trap is 4.5, which is the mean, not the mode. The value 5 occurs three times, more than any other, so the answer is 5.
+Source: NCERT Class 10 Statistics
+
+67. The standard deviation of the data 5, 5, 5, 5, 5 is
+(a) 1 (b) 0 (c) 5 (d) 25
+Answer: (b)
+Solution: The trap is 5, confusing the constant value with spread. Since all values equal the mean, every deviation is zero, so the answer is 0.
+Source: NCERT Class 11 Statistics
+
+68. The mean of 20 numbers is 30. Later it was found that one number 36 was misread as 26. The correct mean is
+(a) 30.5 (b) 31 (c) 29.5 (d) 30.2
+Answer: (a)
+Solution: The trap is 31, from adding the full 10 to the mean. Corrected total = 600 + 10 = 610, so correct mean = 610/20 = 30.5, and the answer is 30.5.
+Source: PYQ-style
+
+69. For the data 1, 2, 3, 4, 5, the variance is
+(a) 10 (b) 2.5 (c) 3 (d) 2
+Answer: (d)
+Solution: Mean = 3; squared deviations are 4, 1, 0, 1, 4, summing to 10. The trap is 10, the undivided sum. Variance = 10/5 = 2, so the answer is 2.
+Source: NCERT Class 11 Statistics
+
+70. If the coefficient of variation of data A is 15% and of data B is 25%, then
+(a) B is more variable (b) A is more variable (c) both equally variable (d) variability cannot be compared
+Answer: (a)
+Solution: The trap is choosing A because its mean might be larger; coefficient of variation already removes the scale effect. Higher CV means greater relative variability, so the answer is that B is more variable.
+Source: NCERT Class 11 Statistics
+
+71. The median of the observations 11, 13, 15, 17, x, 21, 23 (arranged in ascending order) is 17. Then x is
+(a) 16 (b) 17 (c) 18 (d) 19
+Answer: (b)
+Solution: With 7 observations the median is the 4th value. The trap is 18, from averaging neighbours. Since the 4th value is x itself and the median is 17, x = 17, so the answer is 17.
+Source: PYQ-style
+
+72. The mean of squares of first 10 natural numbers is
+(a) 28.5 (b) 30.25 (c) 55 (d) 38.5
+Answer: (d)
+Solution: Sum of squares of first 10 natural numbers = 10×11×21/6 = 385. The trap is 30.25, which is the square of the mean (5.5²), not the mean of squares. Mean of squares = 385/10 = 38.5, so the answer is 38.5.
+Source: NCERT Class 11 Statistics
+
+73. In a class of 40 students, the average weight of boys is 60 kg and of girls is 50 kg. If there are 25 boys, the average weight of the class is
+(a) 56.25 kg (b) 55 kg (c) 57.5 kg (d) 54 kg
+Answer: (a)
+Solution: The trap is 55 kg, the plain average of 60 and 50, which ignores group sizes. Total weight = 25×60 + 15×50 = 1500 + 750 = 2250; average = 2250/40 = 56.25 kg, so the answer is 56.25 kg.
+Source: PYQ-style
+
+74. The quartile deviation of a data set with Q1 = 20 and Q3 = 40 is
+(a) 30 (b) 20 (c) 10 (d) 60
+Answer: (c)
+Solution: The trap is 20, which is the interquartile range, not the quartile deviation. Quartile deviation = (Q3 − Q1)/2 = (40 − 20)/2 = 10, so the answer is 10.
+Source: NCERT Class 11 Statistics
+
+75. If the sum of deviations of 8 observations from 10 is −16, the mean of the observations is
+(a) 10 (b) 9 (c) 12 (d) 8
+Answer: (d)
+Solution: Sum of deviations from an assumed mean A equals n(mean − A). The trap is 12, from adding 16/8 to 10 instead of subtracting. Here 8(mean − 10) = −16, so mean − 10 = −2 and mean = 8, so the answer is 8.
+Source: NCERT Class 11 Statistics

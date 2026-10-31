@@ -1,0 +1,152 @@
+# 🪄 Short Tricks & Mnemonics — Cubes & Dice
+
+---
+
+## 🧠 Mnemonic Box 1: The "6-8-12" Cube Family
+
+> **"6 Faces, 8 Corners, 12 Edges — a cube's whole family!"**
+
+Remember it as a phone number: **6-8-12**.
+- 6 Faces (like 6 working days)
+- 8 Corners/Vertices (like 8 hours of work)
+- 12 Edges (like 12 months)
+
+If a question asks "how many corners?", just dial **6-8-12** and pick the middle one!
+
+---
+
+## 🧠 Mnemonic Box 2: Opposite Faces of a Standard Dice
+
+> **"One-Six, Two-Five, Three-Four — pairs that always sum to SEVEN, that's the law!"**
+
+On a **standard dice**, opposite faces always add to **7**:
+- 1 ↔ 6
+- 2 ↔ 5
+- 3 ↔ 4
+
+**Trick:** If two faces are visible and sum to 7, they can NEVER be opposite — the examiner is bluffing!
+
+---
+
+## 🧠 Mnemonic Box 3: Two Dice, One Common Face
+
+> **"Common face? Twist and chase! The remaining two are opposite — case closed!"**
+
+When two views of the same dice show **one common number in the same position**, the other two visible numbers are opposite to each other.
+
+**Memory hook:** Imagine the common number as a "hinge" — rotate the dice on that hinge, and the two swinging faces land opposite each other.
+
+---
+
+## 🧠 Mnemonic Box 4: Two Common Faces Rule
+
+> **"Two faces same? The third pair plays the opposite game!"**
+
+If two views of a dice share **two common numbers**, then the two *uncommon* numbers are opposite to each other.
+
+**Hook:** "Two friends match, the leftovers clash!"
+
+---
+
+## 🧠 Mnemonic Box 5: Painted Cube — Corner Cubes
+
+> **"8 corners, 3 faces painted — no matter how big the cube, corners never change!"**
+
+In ANY painted cube cut into smaller cubes, exactly **8 small cubes have 3 faces painted** — always the 8 corners.
+
+**Hook:** "A cube has 8 corners whether it's a dice or a building — paint can't add corners!"
+
+---
+
+## 🧠 Mnemonic Box 6: Painted Cube Formulas — "The n-2 Magic"
+
+> **"Minus TWO, that's the clue — edges, faces, inside too!"**
+
+For a cube cut into n×n×n smaller cubes:
+- **2 faces painted:** 12(n − 2) → edge cubes (minus the 2 corners)
+- **1 face painted:** 6(n − 2)² → face-centre cubes
+- **0 faces painted:** (n − 2)³ → hidden inner cubes
+
+**Hook:** "Peel off the outer skin (2 layers), and everything inside follows n − 2!"
+
+---
+
+## 🧠 Mnemonic Box 7: 3-Face Painted = Always 8
+
+> **"Three-face cubes sit on the throne — EIGHT of them, carved in stone!"**
+
+No matter if n = 3, 4, 5 or 10, the count of 3-face-painted cubes is **always 8**. If an option says otherwise, eliminate it instantly.
+
+---
+
+## 🧠 Mnemonic Box 8: Unfolded Cube (Net) — Opposite Finder
+
+> **"In a straight line of four, alternate faces are opposite — skip one, find your mate!"**
+
+In a cube net, if four squares lie in a row: square 1 is opposite square 3, and square 2 is opposite square 4.
+
+**Hook:** "In a queue of four, friends stand with one person between them!"
+
+---
+
+## 🧠 Mnemonic Box 9: Standard vs Ordinary Dice
+
+> **"Sum to seven? Standard heaven! Otherwise, it's ordinary — no opposite guarantee!"**
+
+- **Standard dice:** opposite faces sum to 7.
+- **Ordinary (general) dice:** no such rule — you must derive opposites from the given views only.
+
+**Exam trap:** Never assume sum-to-7 unless the question says "standard dice" or the views confirm it.
+
+---
+
+## 🧠 Mnemonic Box 10: Counting Cubes in a Stack
+
+> **"Count column by column, top to bottom — hidden cubes carry the weight!"**
+
+In cube-counting figures, cubes you can't see still exist if they support visible ones.
+
+**Hook:** "No floating cubes in exam land — every cube stands on something!"
+
+---
+
+## 🧠 Mnemonic Box 11: Dice Rotation — Clockwise Triple
+
+> **"Same corner, three faces meet — rotate the order, the answer you'll greet!"**
+
+If two dice views show the same three numbers meeting at a corner but in rotated order, they are the SAME dice, not different ones.
+
+**Hook:** "Spinning a photo doesn't change the photo!"
+
+---
+
+## 🧠 Mnemonic Box 12: Painted Cube — Total Check
+
+> **"3-face + 2-face + 1-face + 0-face = n³ — if your total doesn't match, recalc, don't panic!"**
+
+Always verify: 8 + 12(n−2) + 6(n−2)² + (n−2)³ = n³. A 5-second sanity check that catches silly mistakes.
+
+---
+
+## 🧠 Mnemonic Box 13: The "Opposite Can Never Be Seen Together" Rule
+
+> **"Opposites are shy neighbours — they NEVER appear in the same selfie!"**
+
+If two numbers appear together in ANY view of a dice, they are **not** opposite. Use this to eliminate options fast.
+
+**Hook:** "North Pole and South Pole never show up in the same photo!"
+
+---
+
+# ⏭️ Skip Strategy — When to Skip a Cubes & Dice Question
+
+### 🚫 Skip Tip 1: The 15-Second Pattern Rule
+If you look at two/three dice views and **cannot spot a common face within 15 seconds**, mark it and move on. Dice questions with no common element require full elimination mapping — come back only if time remains.
+
+### 🚫 Skip Tip 2: Painted Cube with n ≥ 5 and Twisted Wording
+If the question mixes conditions like *"cubes with exactly two faces painted but not on the top layer"* or *"painted on two colours only"*, the formula won't directly apply. If the twist isn't clear in one reading, **skip it in the first pass** — these are designed to eat 2–3 minutes.
+
+### 🚫 Skip Tip 3: Net-Folding Questions with Symbols Instead of Numbers
+When a cube net has arrows, shaded triangles, or orientation-sensitive symbols (not just letters/numbers), mental folding errors are very common. Unless you are confident with nets, **attempt these last** — a wrong fold direction flips the answer.
+
+> ⏱️ **Golden Rule:** A straightforward dice-opposite or painted-cube formula question takes 20–30 seconds. If any cube/dice question crosses **45 seconds** with no clear path, skip it — the next question is almost always cheaper.

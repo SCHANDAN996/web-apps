@@ -1,0 +1,14 @@
+# /etc/logrotate.d/studystation-oauth-errors
+/var/log/studystation-nginx-errors.log {
+    daily
+    su syslog adm
+    rotate 14
+    missingok
+    notifempty
+    compress
+    delaycompress
+    create 0640 syslog adm
+    postrotate
+        /usr/bin/systemctl kill -s HUP --kill-who=main rsyslog.service >/dev/null 2>&1 || true
+    endscript
+}

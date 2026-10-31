@@ -1,0 +1,34 @@
+# Important Formulas — Probability
+
+| Formula Name | Formula | One-line Use-Hint |
+|---|---|---|
+| Classical Probability | P(E) = n(E) / n(S) | Favourable outcomes ÷ total outcomes (equally likely cases) |
+| Probability Range | 0 ≤ P(E) ≤ 1 | Probability can never be negative or exceed 1 |
+| Complement Rule | P(E′) = 1 − P(E) | Use when "at least one" appears — find P(none) and subtract from 1 |
+| Sure Event | P(S) = 1 | Probability of the sample space |
+| Impossible Event | P(∅) = 0 | Probability of an event that cannot occur |
+| Addition Rule (General) | P(A ∪ B) = P(A) + P(B) − P(A ∩ B) | For "A or B" when events may overlap |
+| Addition Rule (Mutually Exclusive) | P(A ∪ B) = P(A) + P(B) | When A and B cannot happen together (A ∩ B = ∅) |
+| Conditional Probability | P(A\|B) = P(A ∩ B) / P(B), P(B) > 0 | Probability of A given that B has already occurred |
+| Multiplication Rule (General) | P(A ∩ B) = P(A) · P(B\|A) = P(B) · P(A\|B) | For "A and B" in sequence (dependent events) |
+| Multiplication Rule (Independent) | P(A ∩ B) = P(A) · P(B) | When one event does not affect the other |
+| Independence Test | P(A\|B) = P(A) ⇔ A, B independent | Quick check whether two events are independent |
+| Total Probability Theorem | P(A) = Σ P(A\|Bᵢ) · P(Bᵢ) | When B₁, B₂, …, Bₙ partition the sample space |
+| Bayes' Theorem | P(Bᵢ\|A) = P(A\|Bᵢ)·P(Bᵢ) / Σ P(A\|Bⱼ)·P(Bⱼ) | Reverse conditional — "given result, find the cause" |
+| Odds in Favour | P(E) : P(E′) | Ratio of favourable to unfavourable probability |
+| Odds Against | P(E′) : P(E) | Ratio of unfavourable to favourable probability |
+| Probability from Odds | P(E) = a / (a + b) | If odds in favour are a : b |
+| At Least One (Independent) | P(at least one) = 1 − Π P(Eᵢ′) | 1 minus probability that none occur |
+| Exactly One of Two Events | P(A) + P(B) − 2P(A ∩ B) | A happens or B happens, but not both |
+| Cards — Total Outcomes | n(S) = 52 (one card), ⁵²C₂ (two cards) | Standard deck: 26 red, 26 black, 4 suits of 13 |
+| Dice — Total Outcomes | n(S) = 6 (one die), 36 (two dice), 216 (three dice) | Sum problems: count ordered pairs |
+| Coins — Total Outcomes | n(S) = 2ⁿ | n coins tossed (or one coin tossed n times) |
+| Balls Without Replacement | P = (favourable draws) / (total draws), using combinations | Denominator changes after each draw |
+| Balls With Replacement | P = product of individual probabilities | Denominator stays the same each draw |
+| Binomial Probability | P(X = r) = ⁿCᵣ · pʳ · qⁿ⁻ʳ, q = 1 − p | Exactly r successes in n independent trials |
+| Binomial Mean | E(X) = np | Expected number of successes |
+| Binomial Variance | Var(X) = npq | Spread of the binomial distribution |
+| Expectation (General) | E(X) = Σ xᵢ · P(xᵢ) | Weighted average of all outcomes |
+| Variance (General) | Var(X) = E(X²) − [E(X)]² | Easier computation form of variance |
+| Birthday Problem | P(match) = 1 − ³⁶⁵Pₙ / 365ⁿ | Probability that at least two share a birthday |
+| Geometric Probability | P = favourable measure / total measure | Length, area, or volume ratios for continuous cases |

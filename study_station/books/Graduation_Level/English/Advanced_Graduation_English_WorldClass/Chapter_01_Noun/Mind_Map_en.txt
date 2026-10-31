@@ -1,0 +1,50 @@
+```mermaid
+graph TD
+    A["NOUN<br>The Naming Word"] --> B["Types of Noun"]
+    A --> C["Number"]
+    A --> D["Gender"]
+    A --> E["Case"]
+    A --> F["6 Golden Rules"]
+    A --> G["Examiner's Traps"]
+    A --> H["Exam Strategy"]
+
+    B --> B1["Proper Noun<br>India, Ganga"]
+    B --> B2["Common Noun<br>boy, city"]
+    B --> B3["Collective Noun<br>team, jury, flock"]
+    B --> B4["Material Noun<br>gold, water"]
+    B --> B5["Abstract Noun<br>honesty, freedom"]
+
+    C --> C1["Singular → Plural Rules"]
+    C1 --> C2["-s / -es: boy→boys, box→boxes"]
+    C1 --> C3["-f/-fe → -ves: knife→knives"]
+    C1 --> C4["Irregular: man→men, child→children"]
+    C1 --> C5["Foreign: datum→data, criterion→criteria"]
+    C --> C6["Always Singular<br>news, physics, mathematics"]
+    C --> C7["Always Plural<br>scissors, trousers, cattle, police"]
+    C --> C8["Same Form Both<br>sheep, deer, species"]
+
+    D --> D1["Masculine / Feminine"]
+    D --> D2["Common Gender<br>teacher, doctor"]
+    D --> D3["Neuter Gender<br>table, book"]
+
+    E --> E1["Possessive Case"]
+    E1 --> E2["'s for living: Ram's book"]
+    E1 --> E3["of for non-living: leg of the table"]
+    E1 --> E4["Double Possessive: a friend of mine"]
+
+    F --> F1["Uncountable nouns take singular verb<br>advice, information, furniture, luggage"]
+    F --> F2["No 'a/an' before uncountables"]
+    F --> F3["Collective noun: singular when united<br>plural when divided"]
+    F --> F4["Scenery, poetry, machinery = singular only"]
+    F --> F5["'One of the' + plural noun + singular verb"]
+    F --> F6["Apostrophe: girls' school, not girls's"]
+
+    G --> G1["Intervening Phrase Trap<br>The quality of apples WAS good"]
+    G --> G2["Sound-Right Trap<br>informations ❌ / information ✅"]
+    G --> G3["Collective Noun Trap<br>The jury HAS vs HAVE"]
+    G --> G4["Over-thinking Trap<br>Don't fix what isn't broken"]
+
+    H --> H1["15-sec: Fact-based<br>plural forms, apostrophe, fixed rules"]
+    H --> H2["45-sec: Inference-based<br>error spotting with long intervening phrases"]
+    H --> H3["Skip Strategy<br>Mark & return if subject-verb unclear"]
+```

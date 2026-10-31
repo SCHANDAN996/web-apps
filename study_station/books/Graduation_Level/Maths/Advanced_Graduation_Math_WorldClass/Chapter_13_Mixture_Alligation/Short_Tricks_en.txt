@@ -1,0 +1,164 @@
+# 🪄 Short Tricks — Mixture & Alligation
+
+---
+
+**🎯 Trick 1 — "The Cross of Truth" (Alligation Rule)**
+
+> **"Cheap on the LEFT, Dear on the RIGHT, Mean sits in the MIDDLE — then CROSS-SUBTRACT!"**
+
+Draw the cross:
+```
+   Cheaper (c)          Dearer (d)
+        \                /
+         Mean Price (m)
+        /                \
+   (d − m)            (m − c)
+```
+Ratio of Cheaper : Dearer = **(d − m) : (m − c)**
+
+🧠 Memory hook: *"The dear one always gives to the cheap side — cross the road, never walk straight!"* Diagonal subtraction only. Straight subtraction = trap answer.
+
+---
+
+**🎯 Trick 2 — "Mean is the Magnet"**
+
+> The mean price **m** must always lie **between** c and d.
+
+If your calculated mean falls outside [c, d], you have swapped the values. Before solving any alligation, ask: *"Is my mean trapped between the two prices?"* If not — red flag, recheck!
+
+---
+
+**🎯 Trick 3 — "WINE DILUTION: The Power Play"**
+
+> When x litres are removed and replaced with water, **n times**, from a vessel of capacity V:
+
+**Pure liquid left = V × (1 − x/V)ⁿ**
+
+🧠 Mnemonic: **"Every replacement STEALS the same fraction — so the thief's power grows: n thefts = power n!"**
+
+Remember: the *fraction* stolen each time is constant (x/V), so it multiplies — that's why the exponent appears.
+
+---
+
+**🎯 Trick 4 — "Water is FREE — Price ZERO"**
+
+> In any milk–water mixture problem, **price of water = ₹0**.
+
+So mixing milk at ₹c/litre with water is just alligation between **c and 0**.
+Ratio Milk : Water = (m − 0) : (c − m) = **m : (c − m)**
+
+🧠 Hook: *"Water never pays the bill — put a big fat ZERO on its side of the cross!"*
+
+---
+
+**🎯 Trick 5 — "The Dishonest Milkman's Profit Mirror"**
+
+> A milkman mixes water (free) and sells at cost price of pure milk. If mixture has milk : water = k : 1, then:
+
+**Profit % = (1/k) × 100**
+
+🧠 Mnemonic: **"Every FREE glass of water is PURE profit — count the water, that's your gain!"**
+Example: 4:1 mixture → profit = 1/4 = 25%.
+
+---
+
+**🎯 Trick 6 — "Replacement Ratio Shortcut"**
+
+> From a mixture with ratio a : b, if x litres are removed and replaced with the second liquid, the removed liquid always leaves in the **same ratio a : b**.
+
+🧠 Hook: *"The spoon doesn't choose — it scoops the mixture exactly as it is!"* Whatever you pull out carries the current ratio with it. Never compute components separately — just scale the ratio.
+
+---
+
+**🎯 Trick 7 — "Two-Vessel Marriage Rule"**
+
+> Two vessels with milk : water ratios a₁:b₁ and a₂:b₂, mixed in quantities Q₁ : Q₂.
+
+Convert each ratio to a **common total** (LCM of (a₁+b₁) and (a₂+b₂)), scale by quantities, then **add milk to milk, water to water**.
+
+🧠 Mnemonic: **"Make the families EQUAL-SIZED before the wedding — then count the guests!"**
+
+---
+
+**🎯 Trick 8 — "Concentration = Shadow of the Mean"**
+
+> Alligation works for **any per-unit quantity**: price/litre, % alcohol, % marks, average age, speed.
+
+🧠 Hook: **"If it has a 'per' in it, the Cross can crack it!"**
+- Average of two groups → alligation on averages
+- % mixture problems → alligation on percentages
+- Speed (upstream/downstream average) → alligation on speeds
+
+One cross, five disguises. Learn the cross once, use it everywhere.
+
+---
+
+**🎯 Trick 9 — "The 1−x/V Reflex"**
+
+> For repeated replacement, never expand. Spot the numbers and fire:
+
+- V = 40, x = 8, n = 2 → (1 − 8/40)² = (4/5)² = 16/25 → pure left = 40 × 16/25 = **25.6 L**
+
+🧠 Mnemonic: **"Shrink the fraction, raise the power, multiply the vessel — DONE in 10 seconds!"**
+
+---
+
+**🎯 Trick 10 — "Ratio Flip Alarm"**
+
+> In alligation, the quantity ratio comes out **INVERTED** relative to the price differences:
+
+Quantity of Cheaper ∝ (d − m) — the **dearer's** gap!
+
+🧠 Hook: **"The rich man's distance decides the poor man's share — everything is CROSSED in the cross!"** If your answer has the ratio flipped, you forgot the cross.
+
+---
+
+**🎯 Trick 11 — "Adding Water? Milk Stands STILL"**
+
+> When only water is added to a mixture, the **quantity of milk never changes**. Use milk as your anchor:
+
+Milk before = Milk after → set up the equation from the milk fraction alone.
+
+🧠 Mnemonic: **"Water flows, milk stays — anchor your equation to the one that doesn't move!"**
+
+---
+
+**🎯 Trick 12 — "The Percentage-to-Ratio Instant Dial"**
+
+> Mixing two solutions of strengths p% and q% to get r%:
+
+Ratio = **(q − r) : (r − p)**  (first : second)
+
+🧠 Hook: **"Farther pulls harder — the solution FAR from the target gets the BIGGER share of the OTHER one!"**
+Example: 20% and 50% → 35%: ratio = (50−35):(35−20) = 15:15 = 1:1.
+
+---
+
+**🎯 Trick 13 — "Successive Mixture Chain: Multiply the Milk Fractions"**
+
+> If mixtures are repeatedly diluted, track only the **milk fraction** and multiply step by step:
+
+Final milk = Initial milk × f₁ × f₂ × f₃ …
+
+🧠 Mnemonic: **"Milk only SHRINKS, never grows — every dilution multiplies it by something less than 1!"** If your final milk exceeds initial milk, you multiplied upside down.
+
+---
+
+**🎯 Trick 14 — "The 15-Second Sanity Check"**
+
+> After every mixture answer, run three checks:
+> 1. **Betweenness**: final concentration between the two originals?
+> 2. **Conservation**: total liquid in = total liquid out (unless removed)?
+> 3. **Direction**: adding water must *decrease* concentration, adding milk must *increase* it.
+
+🧠 Hook: **"BCD — Between, Conserved, Direction. If any letter fails, the answer fails!"**
+
+---
+
+**🎯 Trick 15 — "Alligation = Weighted Average in Disguise"**
+
+> The mean m is just: m = (Q₁c + Q₂d)/(Q₁ + Q₂)
+
+So if alligation feels confusing, fall back to the weighted-average equation — they are the **same machine, two buttons**.
+
+🧠 Mnemonic: **"Cross is the shortcut, weighted average is the engine — when lost, open the bonnet!"**

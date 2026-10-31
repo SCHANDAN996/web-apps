@@ -1,3 +1,149 @@
-# Chapter: Geometry, Level: intermediate, Set: 6/6
+126. In a triangle ABC, the sides are 13 cm, 14 cm and 15 cm. What is the length of the altitude drawn to the side of 14 cm?
+(a) 10 cm (b) 13 cm (c) 11 cm (d) 12 cm
+Answer: (d)
+Solution: The tempting wrong option 10 cm comes from wrongly assuming the triangle is right-angled. Using Heron's formula, s = (13 + 14 + 15)/2 = 21, so area = √(21 × 8 × 7 × 6) = √7056 = 84 cm². Altitude to side 14 = (2 × 84)/14 = 12, so the answer is 12 cm.
+Source: NCERT Class 9 Mathematics (Heron's Formula)
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Geometry. This is Set 6 (total 6 sets, 150 questions). Questions must be numbered 126 to 150. All 25 questions should be Hard. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+127. Two circles of radii 5 cm and 3 cm touch each other externally. What is the length of their direct common tangent?
+(a) 8 cm (b) √34 cm (c) 4√15 cm (d) 2√15 cm
+Answer: (d)
+Solution: Many students wrongly pick 8 cm by simply adding the radii, which gives the distance between centres, not the tangent. Direct common tangent = √(d² − (r₁ − r₂)²) = √(64 − 4) = √60 = 2√15, so the answer is 2√15 cm.
+Source: NCERT Class 10 Mathematics (Circles)
+
+128. In a circle of radius 10 cm, a chord is at a distance of 6 cm from the centre. What is the length of the chord?
+(a) 16 cm (b) 12 cm (c) 8 cm (d) 14 cm
+Answer: (a)
+Solution: The trap option 8 cm is only half the chord, obtained by forgetting that the perpendicular from the centre bisects the chord. Half-chord = √(10² − 6²) = √64 = 8, so full chord = 2 × 8 = 16, so the answer is 16 cm.
+Source: NCERT Class 9 Mathematics (Circles)
+
+129. The angles of a triangle are in the ratio 2 : 3 : 7. What is the measure of the largest angle?
+(a) 90° (b) 100° (c) 120° (d) 105°
+Answer: (d)
+Solution: The tempting option 90° comes from wrongly treating the ratio parts as degrees or assuming a right triangle. Sum of parts = 12, so largest angle = (7/12) × 180° = 105°, so the answer is 105°.
+Source: NCERT Class 9 Mathematics (Triangles)
+
+130. In triangle ABC, D and E are points on AB and AC such that DE is parallel to BC. If AD = 4 cm, DB = 8 cm and AE = 6 cm, then EC equals:
+(a) 12 cm (b) 10 cm (c) 9 cm (d) 8 cm
+Answer: (a)
+Solution: The trap option 8 cm comes from wrongly setting EC = DB. By the Basic Proportionality Theorem, AD/DB = AE/EC, so 4/8 = 6/EC, giving EC = 12, so the answer is 12 cm.
+Source: NCERT Class 10 Mathematics (Triangles)
+
+131. A ladder 25 m long leans against a wall and reaches a window 24 m high. How far is the foot of the ladder from the wall?
+(a) 5 m (b) 6 m (c) 8 m (d) 7 m
+Answer: (d)
+Solution: The trap option 5 m comes from misremembering the 7-24-25 triplet as 5-24-25. Distance = √(25² − 24²) = √(625 − 576) = √49 = 7, so the answer is 7 m.
+Source: NCERT Class 10 Mathematics (Triangles)
+
+132. The diagonals of a rhombus are 24 cm and 10 cm. What is the length of each side of the rhombus?
+(a) 12 cm (b) 17 cm (c) 13 cm (d) 15 cm
+Answer: (c)
+Solution: The trap option 17 cm comes from adding the half-diagonals (12 + 5) instead of applying Pythagoras. Diagonals of a rhombus bisect at right angles, so side = √(12² + 5²) = √169 = 13, so the answer is 13 cm.
+Source: NCERT Class 9 Mathematics (Quadrilaterals)
+
+133. In a circle, two chords AB and CD intersect inside the circle at P. If AP = 6 cm, PB = 4 cm and CP = 3 cm, then PD equals:
+(a) 6 cm (b) 8 cm (c) 9 cm (d) 12 cm
+Answer: (b)
+Solution: The trap option 6 cm comes from wrongly assuming PD = AP by symmetry. For intersecting chords, AP × PB = CP × PD, so 6 × 4 = 3 × PD, giving PD = 8, so the answer is 8 cm.
+Source: NCERT Class 9 Mathematics (Circles)
+
+134. The area of an equilateral triangle is 16√3 cm². What is the length of its side?
+(a) 8 cm (b) 6 cm (c) 4 cm (d) 12 cm
+Answer: (a)
+Solution: The trap option 4 cm comes from forgetting to take the square root after dividing. Area = (√3/4)a² = 16√3, so a² = 64 and a = 8, so the answer is 8 cm.
+Source: NCERT Class 9 Mathematics (Heron's Formula)
+
+135. In triangle ABC, angle A = 90°, AB = 6 cm and AC = 8 cm. What is the length of the median from A to BC?
+(a) 4 cm (b) 5 cm (c) 6 cm (d) 7 cm
+Answer: (b)
+Solution: The trap option 4 cm comes from halving AC instead of the hypotenuse. BC = √(36 + 64) = 10 cm, and in a right triangle the median to the hypotenuse equals half the hypotenuse = 5, so the answer is 5 cm.
+Source: NCERT Class 10 Mathematics (Triangles)
+
+136. The angle subtended by an arc at the centre of a circle is 100°. What is the angle subtended by the same arc at any point on the remaining part of the circle?
+(a) 50° (b) 100° (c) 40° (d) 80°
+Answer: (a)
+Solution: The trap option 100° comes from forgetting the central angle theorem entirely. The angle at the circumference is half the angle at the centre = 100°/2 = 50°, so the answer is 50°.
+Source: NCERT Class 9 Mathematics (Circles)
+
+137. A regular polygon has each interior angle equal to 156°. How many sides does it have?
+(a) 12 (b) 18 (c) 15 (d) 20
+Answer: (c)
+Solution: The trap option 12 comes from using the interior angle 156° directly in 360/156-type wrong division. Exterior angle = 180° − 156° = 24°, so number of sides = 360/24 = 15, so the answer is 15.
+Source: NCERT Class 8 Mathematics (Understanding Quadrilaterals)
+
+138. In triangle PQR, PQ = 8 cm, QR = 6 cm and angle Q = 90°. A perpendicular from Q meets PR at S. What is the length of QS?
+(a) 4.8 cm (b) 5 cm (c) 4 cm (d) 5.2 cm
+Answer: (a)
+Solution: The trap option 5 cm comes from assuming the altitude equals half the hypotenuse, which is true only for the median. PR = 10 cm; using area, QS = (PQ × QR)/PR = (8 × 6)/10 = 4.8, so the answer is 4.8 cm.
+Source: NCERT Class 10 Mathematics (Triangles)
+
+139. The perimeter of a semicircular protractor is 36 cm. What is its diameter? (Take π = 22/7)
+(a) 10 cm (b) 12 cm (c) 14 cm (d) 7 cm
+Answer: (c)
+Solution: The trap option 12 cm comes from wrongly using only the curved part πr = 36. Perimeter of semicircle = πr + 2r = r(22/7 + 2) = 36r/7 = 36, so r = 7 and diameter = 14, so the answer is 14 cm.
+Source: NCERT Class 10 Mathematics (Areas Related to Circles)
+
+140. ABCD is a cyclic quadrilateral. If angle A = 75°, what is angle C?
+(a) 105° (b) 75° (c) 115° (d) 95°
+Answer: (a)
+Solution: The trap option 75° comes from wrongly applying the "opposite angles equal" rule of parallelograms. In a cyclic quadrilateral, opposite angles are supplementary, so angle C = 180° − 75° = 105°, so the answer is 105°.
+Source: NCERT Class 9 Mathematics (Circles)
+
+141. The sides of a triangle are 7 cm, 24 cm and 25 cm. What is the radius of its circumcircle?
+(a) 12 cm (b) 12.5 cm (c) 13 cm (d) 25 cm
+Answer: (b)
+Solution: The trap option 25 cm comes from taking the hypotenuse itself instead of half of it. Since 7² + 24² = 25², the triangle is right-angled, and the circumradius of a right triangle is half the hypotenuse = 25/2 = 12.5, so the answer is 12.5 cm.
+Source: NCERT Class 10 Mathematics (Triangles)
+
+142. From an external point P, two tangents PA and PB are drawn to a circle with centre O. If angle APB = 60°, what is angle AOB?
+(a) 60° (b) 90° (c) 120° (d) 150°
+Answer: (c)
+Solution: The trap option 60° comes from wrongly assuming the two angles are equal. Since radius is perpendicular to tangent, angles OAP and OBP are 90° each; in quadrilateral OAPB, angle AOB = 360° − 90° − 90° − 60° = 120°, so the answer is 120°.
+Source: NCERT Class 10 Mathematics (Circles)
+
+143. The area of a rhombus is 240 cm² and one of its diagonals is 16 cm. What is the length of the other diagonal?
+(a) 15 cm (b) 30 cm (c) 20 cm (d) 24 cm
+Answer: (b)
+Solution: The trap option 15 cm comes from forgetting the factor 1/2 in the area formula, i.e., computing 240/16. Area = (1/2)d₁d₂, so 240 = (1/2) × 16 × d₂, giving d₂ = 30, so the answer is 30 cm.
+Source: NCERT Class 8 Mathematics (Mensuration)
+
+144. In triangle ABC, the bisector of angle A meets BC at D. If AB = 10 cm, AC = 15 cm and BC = 20 cm, then BD equals:
+(a) 6 cm (b) 10 cm (c) 12 cm (d) 8 cm
+Answer: (d)
+Solution: The trap option 10 cm comes from wrongly halving BC. By the Angle Bisector Theorem, BD/DC = AB/AC = 10/15 = 2/3, so BD = (2/5) × 20 = 8, so the answer is 8 cm.
+Source: NCERT Class 10 Mathematics (Triangles)
+
+145. A chord of length 30 cm is drawn in a circle of radius 17 cm. What is the distance of the chord from the centre?
+(a) 9 cm (b) 8 cm (c) 10 cm (d) 12 cm
+Answer: (b)
+Solution: The trap option 9 cm comes from using the full chord length 30 instead of half in Pythagoras. Distance = √(17² − 15²) = √(289 − 225) = √64 = 8, so the answer is 8 cm.
+Source: NCERT Class 9 Mathematics (Circles)
+
+146. The sum of interior angles of a polygon is 1980°. How many sides does the polygon have?
+(a) 11 (b) 12 (c) 13 (d) 14
+Answer: (c)
+Solution: The trap option 11 comes from dividing 1980 by 180 and forgetting to add 2. Using (n − 2) × 180° = 1980°, we get n − 2 = 11, so n = 13, so the answer is 13.
+Source: NCERT Class 8 Mathematics (Understanding Quadrilaterals)
+
+147. In an isosceles triangle ABC with AB = AC, the altitude from A meets BC at D. If BC = 16 cm and the area of the triangle is 48 cm², then AB equals:
+(a) 10 cm (b) 12 cm (c) 8 cm (d) 14 cm
+Answer: (a)
+Solution: The trap option 8 cm is just half of BC, ignoring the altitude. Area = (1/2) × 16 × AD = 48 gives AD = 6 cm; then AB = √(8² + 6²) = √100 = 10, so the answer is 10 cm.
+Source: NCERT Class 9 Mathematics (Triangles)
+
+148. Two concentric circles have radii 13 cm and 5 cm. A chord of the larger circle touches the smaller circle. What is the length of the chord?
+(a) 12 cm (b) 20 cm (c) 24 cm (d) 26 cm
+Answer: (c)
+Solution: The trap option 12 cm is only half the chord, found by stopping after one Pythagoras step. The tangent chord is perpendicular to the inner radius at the contact point, so half-chord = √(13² − 5²) = 12, and full chord = 24, so the answer is 24 cm.
+Source: NCERT Class 10 Mathematics (Circles)
+
+149. In triangle ABC, D, E, F are midpoints of BC, CA, AB respectively. If the area of triangle ABC is 64 cm², what is the area of triangle DEF?
+(a) 32 cm² (b) 16 cm² (c) 8 cm² (d) 24 cm²
+Answer: (b)
+Solution: The trap option 32 cm² comes from assuming the medial triangle has half the area instead of one-fourth. The triangle formed by joining midpoints is similar with ratio 1:2, so its area is 64/4 = 16, so the answer is 16 cm².
+Source: NCERT Class 9 Mathematics (Triangles)
+
+150. A square is inscribed in a circle of radius 7 cm. What is the area of the square?
+(a) 49 cm² (b) 77 cm² (c) 196 cm² (d) 98 cm²
+Answer: (d)
+Solution: The trap option 196 cm² comes from taking the side as 14 cm, confusing the diagonal with the side. The diagonal of the square equals the diameter = 14 cm, so area = d²/2 = 196/2 = 98, so the answer is 98 cm².
+Source: NCERT Class 10 Mathematics (Areas Related to Circles)

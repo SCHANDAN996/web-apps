@@ -1,173 +1,152 @@
-📊 PYQ विश्लेषण: अनुपात और समानुपात
-स्तर: फाउंडेशन | भाषा: हिंदी
+Set 1: Ratio & Proportion Multiple Choice Questions (Easy to Medium)
+Questions 1–20: Easy | Questions 21–25: Medium
 
-पिछले 10 वर्षों का डेटा-संचालित विश्लेषण
+1. What is the simplest form of the ratio 24 : 36?
+(a) 2 : 3 (b) 3 : 2 (c) 4 : 6 (d) 1 : 2
+Answer: (a) 2 : 3
+Solution: Dividing both terms by their HCF, which is 12: 24 ÷ 12 = 2 and 36 ÷ 12 = 3. The simplest form is 2 : 3.
+Source: NCERT Class 6
 
-प्रतियोगी परीक्षाओं (SSC CGL, CHSL, बैंक PO, रेलवे) के अभिलेखों की व्यवस्थित समीक्षा से उभरे पैटर्न:
+2. What is the ratio of 75 paise to ₹3 in simplest form?
+(a) 1 : 3 (b) 1 : 4 (c) 1 : 5 (d) 25 : 1
+Answer: (b) 1 : 4
+Solution: Convert ₹3 to paise: ₹3 = 300 paise. The ratio is 75 : 300. Dividing both terms by 75 gives 1 : 4.
+Source: NCERT Class 6
 
-वर्ष	प्रति शिफ्ट प्रश्नों की औसत संख्या	प्रमुख उप-विषय	कठिनाई रुझान
-2016	3-4	बुनियादी अनुपात सरलीकरण	आसान-मध्यम
-2017	4-5	आय-व्यय-बचत और मिश्रण	मध्यम
-2018	4-5	अनुपातों का संयोजन और साझेदारी	मध्यम
-2019	5-6	आनुपातिक वितरण	मध्यम-कठिन
-2020	5-6	मिश्रण और एलिगेशन	कठिन
-2021	4-5	आयु और सिक्के के प्रश्न	मध्यम
-2022	4-5	संयुक्त अनुपात, राजस्व	मध्यम-कठिन
-2023	5-6	मिश्रण, आय-व्यय	कठिन
-2024	5-6	बहु-चर समानुपात	कठिन
+3. If A : B = 2 : 3 and B : C = 4 : 5, what is the combined ratio A : B : C?
+(a) 8 : 10 : 15 (b) 6 : 12 : 15 (c) 8 : 12 : 15 (d) 10 : 12 : 15
+Answer: (c) 8 : 12 : 15
+Solution: LCM of common term B (3 and 4) is 12. Multiply first ratio by 4 and second by 3: A : B = 8 : 12 and B : C = 12 : 15. Therefore, A : B : C = 8 : 12 : 15.
+Source: NCERT Class 7
 
-मुख्य अंतर्दृष्टि: 2019 के बाद से मिश्रण और आय-व्यय-बचत के प्रश्नों में तीव्र वृद्धि हुई है। दो या तीन अनुपातों को एक सूत्र में पिरोना हर वर्ष लगातार मौजूद रहा है।
+4. Find the missing value of x in the proportion 3 : 5 :: 12 : x.
+(a) 15 (b) 18 (c) 25 (d) 20
+Answer: (d) 20
+Solution: By cross-product rule: Product of extremes = Product of means. 3 × x = 5 × 12 => 3x = 60 => x = 20.
+Source: NCERT Class 7
 
-शीर्ष 10 हाई-यील्ड प्रश्न समाधान सहित
-प्रश्न 1: "तृतीय समानुपाती" का जाल
+5. Divide ₹720 between Ram and Shyam in the ratio 4 : 5. How much money does Ram receive?
+(a) ₹320 (b) ₹400 (c) ₹360 (d) ₹300
+Answer: (a) ₹320
+Solution: Total ratio parts = 4 + 5 = 9 parts = ₹720 => 1 part = ₹80. Ram's share = 4 × ₹80 = ₹320.
+Source: SSC MTS
 
-प्रश्न: 9 और 6 का तृतीय समानुपाती ज्ञात करें।
+6. What is the mean proportional between 9 and 16?
+(a) 10 (b) 12 (c) 14 (d) 16
+Answer: (b) 12
+Solution: Mean proportional between a and b is given by √(a × b) = √(9 × 16) = √144 = 12.
+Source: NCERT Class 7
 
-हल:
-माना तृतीय समानुपाती = x
-तब 9 : 6 : : 6 : x
-बाह्य-मध्य गुणनफल नियम से: 9 × x = 6 × 6
-9x = 36
-x = 4
+7. What is the third proportional to 4 and 8?
+(a) 12 (b) 14 (c) 16 (d) 20
+Answer: (c) 16
+Solution: Trap alert: Option (a) 12 incorrectly adds the arithmetic difference of 4! In proportion, the third proportional c satisfies 4 : 8 :: 8 : c. Product of extremes = Product of means => 4 × c = 8 × 8 = 64 => c = 64 ÷ 4 = 16.
+Source: SSC CGL
 
-मनोवैज्ञानिक जाल: छात्र अक्सर "तृतीय समानुपाती" को "चतुर्थ समानुपाती" समझने की गड़बड़ी कर बैठते हैं। यहाँ मध्य पद दोहराया गया है (a:b :: b:c)। रटे हुए सूत्र बिना संरचना समझे गलत टेम्पलेट लगा देते हैं। दोहराया गया "मध्य" पद ही यहाँ का चालाक ट्विस्ट है।
+8. What is the fourth proportional to 3, 7, and 9?
+(a) 18 (b) 19 (c) 20 (d) 21
+Answer: (d) 21
+Solution: In a : b :: c : d, product of extremes equals product of means: 3 : 7 :: 9 : d => 3 × d = 7 × 9 = 63 => d = 63 ÷ 3 = 21.
+Source: SSC CHSL
 
-प्रश्न 2: "LCM पुल" का जाल
+9. What is the duplicate ratio of 3 : 4?
+(a) 9 : 16 (b) 6 : 8 (c) 27 : 64 (d) √3 : 2
+Answer: (a) 9 : 16
+Solution: Duplicate ratio of a : b is a² : b². Here, 3² : 4² = 9 : 16.
+Source: NCERT Class 7
 
-प्रश्न: तीन संख्याओं का योग 171 है। पहली और दूसरी का अनुपात 3:5 तथा दूसरी और तीसरी का अनुपात 4:5 है। दूसरी संख्या ज्ञात करें।
+10. What is the sub-duplicate ratio of 25 : 36?
+(a) 6 : 5 (b) 5 : 6 (c) 125 : 216 (d) 50 : 72
+Answer: (b) 5 : 6
+Solution: Sub-duplicate ratio of a : b is √a : √b. Here, √25 : √36 = 5 : 6.
+Source: NCERT Class 7
 
-हल:
-A : B = 3 : 5
-B : C = 4 : 5
-B को बराबर करें: 5 और 4 का LCM = 20
-पहले अनुपात को 4 से गुणा करें: A : B = 12 : 20
-दूसरे अनुपात को 5 से गुणा करें: B : C = 20 : 25
-अतः A : B : C = 12 : 20 : 25
-कुल भाग = 12 + 20 + 25 = 57
-1 भाग का मान = 171 ÷ 57 = 3
-दूसरी संख्या (B) = 20 × 3 = 60
+11. What is the triplicate ratio of 2 : 3?
+(a) 4 : 9 (b) 6 : 9 (c) 8 : 27 (d) 16 : 81
+Answer: (c) 8 : 27
+Solution: Triplicate ratio of a : b is a³ : b³. Here, 2³ : 3³ = 8 : 27.
+Source: NCERT Class 7
 
-मनोवैज्ञानिक जाल: दिमाग दिख रही संख्याओं (171, 3:5, 4:5) को तुरंत जोड़ने या गुणा करने के लिए दौड़ता है। छिपी माँग — "पहले उभयनिष्ठ पद बराबर करो" — काउंटर-इंट्यूटिव है क्योंकि संख्याएँ तैयार दिखती हैं। यह सवाल जाँचता है कि आप पहले संरेखित करते हैं या तुरंत हिसाब पर कूदते हैं।
+12. What is the sub-triplicate ratio of 27 : 64?
+(a) 9 : 16 (b) 3 : 8 (c) 4 : 3 (d) 3 : 4
+Answer: (d) 3 : 4
+Solution: Sub-triplicate ratio of a : b is ∛a : ∛b. Here, ∛27 : ∛64 = 3 : 4.
+Source: NCERT Class 7
 
-प्रश्न 3: "इकाई बेमेल" का जाल
+13. Find the compound ratio of 2 : 3, 6 : 7, and 14 : 15.
+(a) 8 : 15 (b) 4 : 15 (c) 16 : 45 (d) 7 : 15
+Answer: (a) 8 : 15
+Solution: Compound ratio is the ratio of product of antecedents to product of consequents: (2 × 6 × 14) : (3 × 7 × 15) = 168 : 315. Dividing by 21 gives 8 : 15.
+Source: SSC GD
 
-प्रश्न: एक थैले में 50 पैसे, 25 पैसे और 20 पैसे के सिक्के बराबर संख्या में हैं। यदि कुल राशि ₹60 है, तो हर प्रकार के कितने सिक्के हैं?
+14. Divide ₹620 among A, B, and C in the ratio 1/2 : 1/3 : 1/5. What is the share of A?
+(a) ₹200 (b) ₹300 (c) ₹120 (d) ₹240
+Answer: (b) ₹300
+Solution: Trap alert: Option (a) incorrectly divides using the denominators 2 : 3 : 5 directly! To convert fractions into integers, multiply each term by the LCM of denominators (LCM of 2, 3, 5 is 30): (1/2 × 30) : (1/3 × 30) : (1/5 × 30) = 15 : 10 : 6. Total units = 15 + 10 + 6 = 31 units = ₹620 => 1 unit = ₹20. A's share = 15 × ₹20 = ₹300.
+Source: SSC CGL
 
-हल:
-माना हर प्रकार के सिक्कों की संख्या = x
-₹60 को पैसे में बदलने पर = 6000 पैसे
-अब मूल्य: 50x + 25x + 20x = 6000
-95x = 6000
-x = 6000 / 95 ≈ 63.15 — दशमलव आ रहा है, जो अव्यावहारिक है। मूल आँकड़ा ₹114 हो तो सही बैठता है। मानक उपागम: सबसे छोटी इकाई में बदलना अनिवार्य है। इकाई की बेमेलता ही जाल है।
+15. If 2A = 3B = 4C, what is the ratio A : B : C?
+(a) 2 : 3 : 4 (b) 4 : 3 : 2 (c) 6 : 4 : 3 (d) 3 : 4 : 6
+Answer: (c) 6 : 4 : 3
+Solution: Divide all coefficients by their LCM, which is 12: 2A/12 = 3B/12 = 4C/12 => A/6 = B/4 = C/3. Therefore, A : B : C = 6 : 4 : 3.
+Source: RRB Group D
 
-मनोवैज्ञानिक जाल: परीक्षक जान-बूझकर रुपये और पैसे मिलाते हैं। समय के दबाव में छात्र "50 + 25 + 20 = 95" लिखकर सीधे 60 के बराबर रख देते हैं और दशमलव जाल में फँस जाते हैं। दिमाग, गति चाहते हुए, इकाई बदलने का स्टेप छोड़ देता है।
+16. Two cyclists cover distances in the ratio 3 : 4 in times that are in the ratio 4 : 5. What is the ratio of their speeds?
+(a) 12 : 20 (b) 16 : 15 (c) 9 : 20 (d) 15 : 16
+Answer: (d) 15 : 16
+Solution: Speed = Distance ÷ Time. Speed ratio = (3/4) : (4/5) = (3 × 5) : (4 × 4) = 15 : 16.
+Source: SSC MTS
 
-प्रश्न 4: "पुराना अनुपात Vs नया अनुपात" का जाल
+17. The ratio of the present ages of A and B is 3 : 4. Five years hence, the ratio of their ages will become 4 : 5. What is A's present age?
+(a) 15 years (b) 20 years (c) 25 years (d) 18 years
+Answer: (a) 15 years
+Solution: Let present ages be 3x and 4x. Equation: (3x + 5) ÷ (4x + 5) = 4/5 => 5(3x + 5) = 4(4x + 5) => 15x + 25 = 16x + 20 => x = 5. A's present age = 3 × 5 = 15 years.
+Source: Delhi Police Constable
 
-प्रश्न: दो संख्याओं का अनुपात 11:7 है। यदि प्रत्येक संख्या में से 3 घटा दिया जाए, तो नया अनुपात 5:3 हो जाता है। संख्याएँ ज्ञात करें।
+18. A box contains ₹1, 50-paise, and 25-paise coins in the ratio 2 : 3 : 4. If the total value of the coins is ₹180, how many 50-paise coins are in the box?
+(a) 80 (b) 120 (c) 160 (d) 100
+Answer: (b) 120
+Solution: Let the number of coins be 2x, 3x, and 4x. Value in rupees: (2x × 1) + (3x × 0.50) + (4x × 0.25) = 2x + 1.5x + 1x = 4.5x. Given 4.5x = 180 => x = 40. Number of 50-paise coins = 3 × 40 = 120 coins.
+Source: SSC CGL
 
-हल:
-माना संख्याएँ 11x और 7x हैं।
-3 घटाने पर: (11x - 3) : (7x - 3) = 5 : 3
-बाह्य-मध्य गुणनफल: 3(11x - 3) = 5(7x - 3)
-33x - 9 = 35x - 15
--9 + 15 = 35x - 33x
-6 = 2x → x = 3
-संख्याएँ: 11 × 3 = 33, और 7 × 3 = 21
+19. The ratio of monthly income to expenditure of a family is 11 : 9. If the family saves ₹4,000 per month, what is their monthly income?
+(a) ₹18,000 (b) ₹20,000 (c) ₹22,000 (d) ₹24,000
+Answer: (c) ₹22,000
+Solution: Savings = Income - Expenditure = 11 units - 9 units = 2 units = ₹4,000 => 1 unit = ₹2,000. Monthly income = 11 × ₹2,000 = ₹22,000.
+Source: SSC CHSL
 
-मनोवैज्ञानिक जाल: यह भ्रम पाल लेना कि "3 घटाने" से अनुपात समानुपातिक रूप से बदलता है। ऐसा नहीं होता। घटाना दोनों मानों को समान मात्रा में विचलित करता है, जो सापेक्ष अनुपात को बिगाड़ देता है। जो छात्र 'अनुपात में घटाव' का कोई फॉर्मूला लगाने की कोशिश करते हैं, वे भटक जाते हैं। असली चाल नई शर्त पर समानुपात समीकरण खड़ा करना है।
+20. Two numbers are in the ratio 3 : 5. If 9 is subtracted from each, the ratio of the new numbers becomes 12 : 23. What is the smaller number?
+(a) 27 (b) 30 (c) 36 (d) 33
+Answer: (d) 33
+Solution: Let numbers be 3x and 5x. Equation: (3x - 9) ÷ (5x - 9) = 12/23 => 23(3x - 9) = 12(5x - 9) => 69x - 207 = 60x - 108 => 9x = 99 => x = 11. Smaller number = 3 × 11 = 33.
+Source: RRB NTPC
 
-प्रश्न 5: "आय-व्यय-बचत" का जाल
+21. The three interior angles of a triangle are in the ratio 2 : 3 : 4. What is the measure of the largest angle?
+(a) 80° (b) 60° (c) 75° (d) 90°
+Answer: (a) 80°
+Solution: Sum of angles in a triangle is 180°. Ratio units = 2 + 3 + 4 = 9 units = 180° => 1 unit = 20°. Largest angle = 4 × 20° = 80°.
+Source: NCERT Class 7
 
-प्रश्न: दो व्यक्तियों की आय का अनुपात 7:4 है और उनके व्यय का अनुपात 3:5 है। यदि वे क्रमशः ₹460 और ₹230 बचाते हैं, तो प्रत्येक की आय ज्ञात करें।
+22. A mixture contains milk and water in the ratio 7 : 2. When 5 liters of water is added to the mixture, the ratio of milk to water becomes 7 : 3. What is the quantity of milk in the mixture?
+(a) 30 liters (b) 35 liters (c) 40 liters (d) 45 liters
+Answer: (b) 35 liters
+Solution: Since only water is added, the milk quantity remains constant (7 units). Water increases from 2 units to 3 units, an increase of 1 unit = 5 liters. Milk quantity = 7 × 5 = 35 liters.
+Source: SSC MTS
 
-हल:
-आय अनुपात: 7 : 4 → आय क्रमशः 7x और 4x
-व्यय अनुपात: 3 : 5 → व्यय क्रमशः 3y और 5y
-बचत = आय - व्यय
-पहले व्यक्ति के लिए: 7x - 3y = 460
-दूसरे व्यक्ति के लिए: 4x - 5y = 230
-दो अज्ञात के लिए एक साथ हल करें:
-पहले समीकरण को 5 से गुणा करें: 35x - 15y = 2300
-दूसरे को 3 से गुणा करें: 12x - 15y = 690
-घटाने पर: 23x = 1610 → x = 70
-आय: 7 × 70 = ₹490; 4 × 70 = ₹280
+23. What number must be added to each of 6, 7, 15, and 17 so that the resulting numbers are in proportion?
+(a) 1 (b) 2 (c) 3 (d) 4
+Answer: (c) 3
+Solution: (6 + x)(17 + x) = (7 + x)(15 + x) => 102 + 23x + x² = 105 + 22x + x² => 23x - 22x = 105 - 102 => x = 3.
+Source: SSC CGL
 
-मनोवैज्ञानिक जाल: दो भिन्न अज्ञात गुणक (x आय के लिए, y व्यय के लिए) साथ-साथ चलते हैं। दिमाग एक ही चर का उपयोग करने की कोशिश करता है। "अनुपात" शब्द छात्र को यह सोचने पर मजबूर करता है कि सिर्फ एक गुणक काफी है, जबकि आय और व्यय के स्वतंत्र अनुपात हैं और दोनों को अलग-अलग स्केलिंग चाहिए।
+24. In a school, the ratio of boys to girls is 5 : 3. If there are 240 girls in the school, what is the total number of students in the school?
+(a) 400 (b) 560 (c) 600 (d) 640
+Answer: (d) 640
+Solution: Number of girls = 3 units = 240 => 1 unit = 80. Total students = 5 + 3 = 8 units = 8 × 80 = 640 students.
+Source: RRB Group D
 
-प्रश्न 6: "मिश्रणों का मिश्रण" का जाल
-
-प्रश्न: दो बर्तन A और B में एसिड और पानी का मिश्रण क्रमशः 4:5 और 5:1 के अनुपात में है। यदि दोनों बर्तनों को 5:2 के अनुपात में मिलाया जाए, तो नए मिश्रण में एसिड और पानी का अनुपात ज्ञात करें।
-
-हल:
-5 भाग बर्तन A में:
-एसिड = (4/9) × 5 = 20/9; पानी = (5/9) × 5 = 25/9
-2 भाग बर्तन B में:
-एसिड = (5/6) × 2 = 10/6 = 15/9; पानी = (1/6) × 2 = 2/6 = 3/9
-कुल एसिड = 20/9 + 15/9 = 35/9
-कुल पानी = 25/9 + 3/9 = 28/9
-अनुपात = 35 : 28 = 5 : 4
-
-मनोवैज्ञानिक जाल: यह अनुपातों की घोंसले जैसी संरचना है — अनुपात में अनुपात का अनुपात। छात्र को (1) हर बर्तन के अंदर घटक निकालने हैं, (2) मिश्रण अनुपात से स्केल करना है, (3) सही जोड़ना है। हर परत भूल की संभावना है। "मिश्रण का अनुपात" (5:2) छिपा हुआ छुरा है — कई छात्र इसे अनदेखा करके सीधे दोनों आंतरिक अनुपातों का औसत निकाल देते हैं।
-
-प्रश्न 7: "क्रमिक प्रतिस्थापन" का जाल
-
-प्रश्न: एक बर्तन में 80 लीटर दूध है। 8 लीटर दूध निकालकर पानी से बदल दिया जाता है। फिर 8 लीटर मिश्रण निकालकर पानी से बदल दिया जाता है। अंतिम मिश्रण में दूध की मात्रा ज्ञात करें।
-
-हल:
-सूत्र: अंतिम मात्रा = c (1 - x/c)^n
-जहाँ c = क्षमता, x = हर बार निकाली गई मात्रा, n = संक्रियाओं की संख्या
-अंतिम दूध = 80 (1 - 8/80)²
-= 80 × (9/10) × (9/10)
-= 80 × 81/100 = 64.8 लीटर
-
-मनोवैज्ञानिक जाल: दूसरी बार निकाला गया मिश्रण है, शुद्ध दूध नहीं। यही जाल है। जो छात्र दोनों निष्कासनों को शुद्ध दूध का मान लेते हैं, वे गलत उत्तर पाते हैं। घातीय कमी का सूत्र जटिल लगता है, लेकिन यह समझना कि (1 - भिन्न)² है, न कि (1 - 2×भिन्न), सब कुछ बदल देता है। "रेखीय पूर्वाग्रह" — दिमाग असर को जोड़ने वाला समझता है जबकि वह गुणात्मक है।
-
-प्रश्न 8: "उल्टे अनुपात" का जाल
-
-प्रश्न: एक स्कूल के मैदान की लंबाई और चौड़ाई का अनुपात 5:2 है। यदि चौड़ाई 40 मीटर है, तो लंबाई ज्ञात करें।
-
-हल:
-लंबाई : चौड़ाई = 5 : 2
-लंबाई : 40 = 5 : 2
-बाह्य-मध्य गुणनफल: लंबाई × 2 = 40 × 5
-2L = 200 → L = 100 मीटर
-
-मनोवैज्ञानिक जाल: जाल क्रम में है। अगर छात्र असावधानी में "40 : L = 5 : 2" लिख दे, तो उसे L = 16 मीटर मिलता है — बेतुका छोटा। ज्ञात राशि (चौड़ाई) का अनुपात स्थान (दूसरा पद) से सही सुमेल बनाए रखना सूक्ष्म संज्ञानात्मक बोझ है। क्रम उलटने की भूल सबसे सामान्य खामोश गलतियों में से है।
-
-प्रश्न 9: "भिन्नों से बराबर भाग" का जाल
-
-प्रश्न: ₹2160 को तीन भागों में इस तरह बाँटें कि पहले भाग का आधा, दूसरे भाग का एक-तिहाई और तीसरे भाग का एक-सप्तमांश बराबर हों।
-
-हल:
-माना बराबर मान = k
-पहला भाग = 2k, दूसरा = 3k, तीसरा = 7k
-अनुपात x : y : z = 2 : 3 : 7
-कुल भाग = 12
-1 भाग = 2160 ÷ 12 = 180
-x = 2 × 180 = ₹360; y = 3 × 180 = ₹540; z = 7 × 180 = ₹1260
-
-मनोवैज्ञानिक जाल: शब्दांकन जान-बूझकर उल्टा है। "पहले का आधा = दूसरे का एक-तिहाई" अनुपात उत्पन्न करता है, देता सीधे नहीं। जो छात्र ½x + ⅓y + ⅐z = 2160 लिखने की कोशिश करते हैं, वे तीन चर वाले ऐसे समीकरण में फँस जाते हैं जिसका अद्वितीय हल नहीं है। अंतर्दृष्टि — भिन्नों का व्युत्क्रम करके अनुपात पाना (यदि ½a = ⅓b तो a:b = 2:3) — समय के दबाव में स्पष्ट नहीं होती।
-
-प्रश्न 10: "सिक्का मूल्यवर्ग" का जाल
-
-प्रश्न: एक थैले में ₹1, 50 पैसे और 10 पैसे के सिक्के 3:4:10 के अनुपात में हैं। कुल राशि ₹114 है। 50 पैसे के सिक्कों की संख्या ज्ञात करें।
-
-हल:
-माना ₹1, 50 पैसे और 10 पैसे के सिक्कों की संख्या 3x, 4x और 10x है।
-कुल मूल्य: 1(3x) + 0.5(4x) + 0.1(10x) = 114
-3x + 2x + x = 114
-6x = 114 → x = 19
-50 पैसे के सिक्कों की संख्या = 4 × 19 = 76
-
-मनोवैज्ञानिक जाल: दिया गया अनुपात सिक्कों की संख्या का है, उनके मूल्य का नहीं। दिमाग "अनुपात" को "₹" के पास देखकर गलत रूप से जोड़ लेता है। अतिरिक्त कदम — हर सिक्के की गिनती को मूल्यवर्ग से गुणा करके असली कीमत में बदलना — पर जाल तड़कता है। कई छात्र सीधे अनुपात संख्याएँ जोड़कर (3+4+10=17) 114 को 17 से भाग देकर बकवास प्राप्त कर लेते हैं।
-
-सारांश: 4 सार्वभौमिक जाल
-जाल श्रेणी	कैसे काम करता है	प्रभावित प्रश्न
-इकाई बेमेल	₹ और पैसे, मी और सेमी मिलाना	प्र. 3, 8, 10
-क्रम उलटना	a:b की जगह b:a लिखना	प्र. 1, 8
-स्वतंत्र गुणक	दो स्वतंत्र अनुपातों के लिए एक ही चर मानना	प्र. 5
-रेखीय पूर्वाग्रह	क्रमिक % परिवर्तन को जोड़ समझना	प्र. 7
-छिपा अनुपात जनरेशन	भिन्नात्मक शर्तों को अनुपात में न पलटना	प्र. 9
-
-परीक्षा-दिवस मंत्र: जब भी कोई अनुपात प्रश्न देखो, ठीक 5 सेकंड रुको। पूछो: "क्या मेरी इकाइयाँ समान हैं? क्या मैंने क्रम सही रखा? क्या कोई छिपा अनुपात है जो मुझे पहले निकालना है?" यह सूक्ष्म-दिनचर्या, 100 बार अभ्यास करने पर, उन सभी जालों को नष्ट कर देती है जिनमें टॉपर भी फँसते हैं।
+25. If x : y = 3 : 4, what is the value of (5x - 2y) : (7x + 2y)?
+(a) 5 : 29 (b) 7 : 29 (c) 7 : 31 (d) 9 : 29
+Answer: (b) 7 : 29
+Solution: Substitute x = 3 and y = 4: (5 × 3 - 2 × 4) : (7 × 3 + 2 × 4) = (15 - 8) : (21 + 8) = 7 : 29.
+Source: SSC CHSL

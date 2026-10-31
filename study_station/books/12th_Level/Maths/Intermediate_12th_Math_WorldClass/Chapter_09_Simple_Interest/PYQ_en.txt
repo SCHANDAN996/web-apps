@@ -1,3 +1,115 @@
-# Chapter: Simple Interest, Level: intermediate
+# 📊 PYQ Analysis — Simple Interest (English)
 
-@pyq_agent lang=en level=intermediate 'Analyse PYQs of Simple Interest for last 10 years (SSC CGL Mains, IBPS PO, RRB NTPC, CAT etc.). Give top 10 high-yield questions with solutions. Also explain what psychological hook or trap each question uses.'
+## How Exams Test This Chapter
+
+Simple Interest appears in almost every SSC, Banking, Railway and CAT paper — usually as a quick, scoring question. The good news: the question types repeat. Master the patterns below and you can solve most SI questions in under 40 seconds.
+
+### The Recurring Patterns (What Examiners Love to Ask)
+
+1. **Direct formula application** — Given P, R, T, find SI or Amount. Pure formula work; the trap is forgetting to convert months into years.
+2. **Finding Rate or Time** — SI and Principal given, find R or T. The trap: students mix up the formula and divide by the wrong quantity.
+3. **"Becomes n times itself" questions** — "A sum doubles/triples in x years; find the rate" or "in how many years will it become 5 times?" The trap: confusing "becomes 3 times" (SI = 2P) with "SI is 3 times the principal."
+4. **Two different rates / two different times** — Same principal invested at different rates; difference of interests given. The trap: subtracting principals instead of interests.
+5. **Principal split into two parts** — A sum is divided into two parts lent at different rates; total interest given. Classic IBPS/SSC favourite.
+6. **SI vs CI comparison** — Difference between CI and SI for 2 years given; find rate or principal. The trap: using the 3-year difference formula for a 2-year case.
+7. **Rate changes midway / time changes** — "Had the rate been 2% more, interest would be ₹X more." The trap: applying the extra rate to the wrong time period.
+8. **Installments and repayment** — Borrowed amount repaid in equal annual installments with SI. Common in IBPS PO.
+9. **Amount-based reverse calculation** — Amount after T years given, find principal. Easy marks if you keep Amount = P + SI straight.
+10. **Statement-based (data sufficiency style)** — "Which statement is sufficient to find the principal?" Increasingly common in IBPS PO mains.
+
+### Examiner's Favourite Traps (Psychological Hooks)
+
+- **"Becomes 4 times" vs "earns interest equal to 4 times"** — the first means A = 4P (SI = 3P), the second means SI = 4P. One word changes the whole answer.
+- **Half-yearly or monthly time given** — the SI formula needs time in *years*. 8 months = 8/12 year, not 8 years.
+- **Rate given "per annum" but time in months** — same trap from the other side.
+- **Nearly-correct options** — options like ₹1,200 / ₹1,250 / ₹1,240 / ₹1,260 where a small arithmetic slip lands you on a wrong but "close" option.
+- **Mixing SI and CI formulas** — in comparison questions, students apply CI logic to an SI question and lose an easy mark.
+
+### Time Strategy
+
+- Direct formula questions: aim for **20–30 seconds**.
+- "n times" and two-part questions: **40–60 seconds** with the shortcut (see Short Tricks section).
+- If a question needs more than 90 seconds, mark it and move on — SI questions are meant to be fast scorers.
+
+---
+
+## Top 10 High-Yield Questions (With Solutions)
+
+**Q1.** A sum of ₹8,000 is invested at 9% per annum simple interest for 4 years. Find the simple interest.
+(a) ₹2,880 (b) ₹2,680 (c) ₹2,980 (d) ₹3,080
+**Answer: (a)**
+**Solution:** SI = P×R×T/100 = 8000×9×4/100 = ₹2,880.
+**Hook:** Pure formula question — the only trap is arithmetic haste. Options are spaced to catch calculation slips.
+**Source:** PYQ-style (SSC pattern)
+
+**Q2.** A sum becomes ₹6,500 in 2 years and ₹7,250 in 3 years at simple interest. Find the rate of interest.
+(a) 10% (b) 12% (c) 15% (d) 20%
+**Answer: (c)**
+**Solution:** 1 year's interest = 7,250 − 6,500 = ₹750. Principal = 6,500 − 2×750 = ₹5,000. R = (750×100)/(5000×1) = 15%.
+**Hook:** Students try to use the full formula with two unknowns; the trick is that the *difference* of amounts gives yearly interest directly.
+**Source:** PYQ-style (SSC CGL pattern)
+
+**Q3.** A sum of money doubles itself in 8 years at simple interest. In how many years will it become four times itself?
+(a) 16 years (b) 24 years (c) 32 years (d) 12 years
+**Answer: (b)**
+**Solution:** Doubling means SI = P in 8 years. To become 4 times, SI = 3P, which needs 3 × 8 = 24 years.
+**Hook:** The classic trap — students answer 4 × 8 = 32, forgetting that the principal itself is already counted once. "n times" needs (n−1) times the doubling period.
+**Source:** PYQ-style (RRB NTPC pattern)
+
+**Q4.** The simple interest on a sum for 5 years is two-fifths of the sum. Find the rate of interest per annum.
+(a) 6% (b) 8% (c) 10% (d) 12%
+**Answer: (b)**
+**Solution:** Let P = 5 units, then SI = 2 units. R = SI×100/(P×T) = 2×100/(5×5) = 8%.
+**Hook:** No actual amounts given — students panic. Taking P as a convenient number (5) makes it a 15-second question.
+**Source:** PYQ-style (SSC pattern)
+
+**Q5.** A sum of ₹1,550 is lent in two parts, one at 8% and the other at 6% per annum simple interest. If the total annual interest is ₹106, find the part lent at 8%.
+(a) ₹650 (b) ₹750 (c) ₹850 (d) ₹900
+**Answer: (a)**
+**Solution:** Let part at 8% = x. Then 8x/100 + 6(1550−x)/100 = 106 → 8x + 9300 − 6x = 10600 → 2x = 1300 → x = ₹650.
+**Hook:** Two-part questions look long but are one linear equation. Trap: swapping the rates between the parts.
+**Source:** PYQ-style (IBPS pattern)
+
+**Q6.** The difference between compound interest and simple interest on a sum for 2 years at 10% per annum is ₹50. Find the sum.
+(a) ₹4,000 (b) ₹5,000 (c) ₹6,000 (d) ₹4,500
+**Answer: (b)**
+**Solution:** For 2 years, CI − SI = P(R/100)² = P × (10/100)² = P/100. So P/100 = 50 → P = ₹5,000.
+**Hook:** Students compute full CI and SI separately and waste 2 minutes. The shortcut P(R/100)² does it in one line.
+**Source:** PYQ-style (SSC CGL pattern)
+
+**Q7.** A man borrowed ₹8,000 at simple interest. At the end of 3 years he repaid ₹10,400. What was the rate of interest?
+(a) 8% (b) 10% (c) 12% (d) 9%
+**Answer: (b)**
+**Solution:** SI = 10,400 − 8,000 = ₹2,400. R = 2400×100/(8000×3) = 10%.
+**Hook:** Amount is given instead of interest — the trap is using ₹10,400 as the principal in the formula.
+**Source:** PYQ-style (RRB pattern)
+
+**Q8.** If the simple interest on a sum at 5% per annum for 3 years is ₹1,200, what would be the simple interest on the same sum at 8% per annum for 2 years?
+(a) ₹1,280 (b) ₹1,440 (c) ₹1,600 (d) ₹1,200
+**Answer: (a)**
+**Solution:** P = 1200×100/(5×3) = ₹8,000. New SI = 8000×8×2/100 = ₹1,280.
+**Hook:** Two-step question — the first part only exists to extract the principal. Students who try to find a "ratio shortcut" without care often misapply it.
+**Source:** PYQ-style (SSC pattern)
+
+**Q9.** A sum was invested at simple interest at a certain rate for 2 years. Had it been invested at 3% higher rate, it would have fetched ₹300 more. Find the sum.
+(a) ₹4,000 (b) ₹5,000 (c) ₹6,000 (d) ₹7,500
+**Answer: (b)**
+**Solution:** Extra interest = P × 3 × 2/100 = 300 → P = 300×100/6 = ₹5,000.
+**Hook:** The original rate is never given — and isn't needed. Students stall waiting for data that the question deliberately hides.
+**Source:** PYQ-style (IBPS PO pattern)
+
+**Q10.** A sum of money amounts to ₹5,200 in 5 years and ₹5,680 in 7 years at simple interest. Find the principal.
+(a) ₹4,000 (b) ₹4,200 (c) ₹4,400 (d) ₹4,600
+**Answer: (a)**
+**Solution:** 2 years' interest = 5,680 − 5,200 = ₹480 → ₹240 per year. 5 years' interest = ₹1,200. Principal = 5,200 − 1,200 = ₹4,000.
+**Hook:** Same family as Q2 — the amount-difference trick. Examiners rotate this pattern with fresh numbers almost every year.
+**Source:** PYQ-style (SSC CGL pattern)
+
+---
+
+## Key Takeaways
+
+- **Amount-difference trick** (Q2, Q10) and **"n times" trick** (Q3) are the two most repeated patterns — master them first.
+- **CI − SI for 2 years = P(R/100)²** is a one-line answer to a question that looks like 3 minutes of work.
+- Always check units: time in **years**, rate **per annum**, and whether the question asks for **SI, Amount, or Principal**.
+- SI questions are speed questions — if your method takes more than a minute, you are missing the shortcut.

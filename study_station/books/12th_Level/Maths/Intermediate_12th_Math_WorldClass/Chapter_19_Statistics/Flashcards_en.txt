@@ -1,3 +1,79 @@
-# Chapter: Statistics, Level: intermediate
+Card 1
+Front: What is the mean of the first n natural numbers?
+Back: (n + 1)/2. Example: mean of 1 to 10 = 11/2 = 5.5.
 
-@content_agent lang=en level=intermediate 'Create 15-20 flashcards for Statistics. Each card: front a curiosity-invoking question, back concise answer. Include at least 2 cards that ask about a mnemonic trick.'
+Card 2
+Front: What is the mean of the first n even natural numbers?
+Back: n + 1. Example: first 5 even numbers (2,4,6,8,10) → mean = 6.
+
+Card 3
+Front: What is the mean of the first n odd natural numbers?
+Back: n. Example: first 7 odd numbers → mean = 7.
+
+Card 4
+Front: If every value in a dataset is increased by k, what happens to the mean, median and mode?
+Back: All three increase by k. (They shift with the data.)
+
+Card 5
+Front: If every value in a dataset is multiplied by k, what happens to the mean and standard deviation?
+Back: Both get multiplied by k. (Variance gets multiplied by k².)
+
+Card 6
+Front: Which measure of central tendency is NOT affected by extreme values (outliers)?
+Back: Median — it depends only on the middle position, not on actual values.
+
+Card 7
+Front: What is the empirical relationship between Mean, Median and Mode?
+Back: Mode = 3 Median − 2 Mean.
+
+Card 8
+Front: Mnemonic trick: how do you remember "Mode = 3 Median − 2 Mean"?
+Back: "Mo-3-Me-2-M" — Mode takes 3 Medians and pays back 2 Means. Picture Mode as a shopkeeper: takes 3, returns 2.
+
+Card 9
+Front: For a moderately skewed distribution, which lies between Mean and Mode?
+Back: Median always lies between Mean and Mode.
+
+Card 10
+Front: What is the median of n observations when n is odd?
+Back: The value of the ((n+1)/2)th observation after arranging in order.
+
+Card 11
+Front: What is the median of n observations when n is even?
+Back: The average of the (n/2)th and (n/2 + 1)th observations after arranging in order.
+
+Card 12
+Front: What is the formula for the median of grouped (continuous) data?
+Back: Median = l + [(N/2 − cf)/f] × h, where l = lower limit of median class, cf = cumulative frequency before it, f = its frequency, h = class width.
+
+Card 13
+Front: What is the formula for the mode of grouped data?
+Back: Mode = l + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] × h, where f₁ = frequency of modal class, f₀ and f₂ = frequencies of the classes before and after it.
+
+Card 14
+Front: What is the range of a dataset?
+Back: Range = Maximum value − Minimum value. It is the simplest measure of dispersion.
+
+Card 15
+Front: What is the relationship between variance and standard deviation?
+Back: Standard deviation = √Variance. Variance is the mean of squared deviations from the mean.
+
+Card 16
+Front: What is the coefficient of variation (CV) and when is it used?
+Back: CV = (Standard deviation / Mean) × 100%. Used to compare consistency of two datasets with different means or units — lower CV means more consistent.
+
+Card 17
+Front: Mnemonic trick: how do you remember which average is affected by outliers?
+Back: "Mean is MEAN to outliers" — the Mean gets dragged by extreme values, while Median and Mode stay calm in the middle.
+
+Card 18
+Front: If the sum of squares of deviations is taken from the mean versus any other number, which is smaller?
+Back: The sum of squared deviations is minimum when taken from the mean.
+
+Card 19
+Front: What is the combined mean of two groups with means x̄₁, x̄₂ and sizes n₁, n₂?
+Back: Combined mean = (n₁x̄₁ + n₂x̄₂)/(n₁ + n₂).
+
+Card 20
+Front: In a frequency distribution, what does the "modal class" mean?
+Back: The class interval with the highest frequency — the mode of grouped data is computed from this class.

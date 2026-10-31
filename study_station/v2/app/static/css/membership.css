@@ -1,0 +1,15 @@
+.membership-payment-form {display:grid;gap:var(--sp-4);margin-top:var(--sp-4)}
+.membership-payment-form label {display:grid;gap:var(--sp-2);font-weight:500}
+.membership-payment-form input:not([type="checkbox"]),.membership-payment-form select {
+  width:100%;box-sizing:border-box;min-height:44px;border:1px solid var(--border);
+  border-radius:var(--r-md);padding:var(--sp-3);background:var(--surface);color:var(--text);font:inherit;
+}
+.membership-payment-form input:focus-visible,.membership-payment-form select:focus-visible {outline:2px solid var(--brand);outline-offset:2px}
+.membership-payment-form .membership-consent {display:flex;align-items:flex-start;gap:var(--sp-2);font-weight:400}
+.membership-consent input {width:24px;height:24px;flex:0 0 24px;margin:0;accent-color:var(--brand)}
+.membership-payment-form [role="status"]:empty {display:none}
+.membership-payment-form button {justify-self:start;min-height:44px}
+.membership-direct-actions {display:grid;gap:var(--sp-3);margin-top:var(--sp-3)}
+.membership-direct-actions .btn {width:100%;min-height:44px;box-sizing:border-box}
+
+.account-hub{max-width:640px;margin:var(--sp-4) auto}.account-heading h1,.account-heading p{margin:0}.account-hub h2{font-size:var(--fs-lg);line-height:1.5}.account-access h2{margin:0}.account-access p{margin:0}.account-access [data-membership-status]{font-size:var(--fs-md);font-weight:600;line-height:1.6}.account-tools{margin-top:var(--sp-3)}.account-tools .icon{width:72px;height:72px;align-self:center;padding:var(--sp-3);color:var(--brand)}.account-details{margin-top:var(--sp-3);overflow-wrap:anywhere}.account-details summary{cursor:pointer;min-height:var(--tap);display:list-item;align-content:center;font-weight:600}.account-details p{font-size:var(--fs-sm);line-height:1.75}.account-links{display:flex;flex-wrap:wrap;gap:var(--sp-3)}.account-links a{display:flex;align-items:center;min-height:var(--tap)}.account-access [data-account-logout]{align-self:start;justify-self:start}

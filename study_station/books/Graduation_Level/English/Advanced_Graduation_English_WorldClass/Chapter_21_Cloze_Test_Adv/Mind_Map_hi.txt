@@ -1,0 +1,55 @@
+```mermaid
+graph TD
+    A["उन्नत क्लोज़ टेस्ट<br>Advanced Cloze Test"] --> B["पहला कदम: पूरा पैरा पढ़ें"]
+    A --> C["रिक्त स्थान के प्रकार"]
+    A --> D["रणनीतियाँ"]
+    A --> E["परीक्षक के जाल"]
+    A --> F["समय प्रबंधन"]
+
+    B --> B1["टोन पहचानें<br>सकारात्मक / नकारात्मक / तटस्थ"]
+    B --> B2["विषय और प्रवाह समझें<br>पहले बिना विकल्प देखे पढ़ें"]
+
+    C --> C1["व्याकरण रिक्ति<br>Grammar Blank"]
+    C --> C2["शब्दावली रिक्ति<br>Vocabulary Blank"]
+    C --> C3["कनेक्टर रिक्ति<br>Connector Blank"]
+    C --> C4["टोन/अनुमान रिक्ति<br>Inference Blank"]
+
+    C1 --> C1A["Subject-Verb Agreement"]
+    C1 --> C1B["Tense की एकरूपता"]
+    C1 --> C1C["Preposition + Article"]
+    C2 --> C2A["Collocation<br>जैसे: take a decision"]
+    C2 --> C2B["पर्यायवाची में सूक्ष्म अंतर"]
+    C3 --> C3A["हालांकि = however / although"]
+    C3 --> C3B["इसलिए = therefore / hence"]
+    C3 --> C3C["इसके विपरीत = whereas / unlike"]
+    C4 --> C4A["पहले-बाद के वाक्यों से संकेत"]
+    C4 --> C4B["Detective Approach<br>सुराग खोजो, अनुमान नहीं"]
+
+    D --> D1["Elimination Method<br>3 गलत हटाओ, 1 बचा"]
+    D --> D2["Fit Test<br>विकल्प रखकर पूरा वाक्य पढ़ें"]
+    D --> D3["आसान रिक्ति पहले<br>कठिन बाद में"]
+    D --> D4["15/45 सेकंड नियम"]
+
+    E --> E1["Sound-Right जाल<br>सुनने में सही, व्याकरण में गलत"]
+    E --> E2["Intervening Phrase<br>कर्ता और क्रिया के बीच लंबा वाक्यांश"]
+    E --> E3["Over-thinking<br>सरल उत्तर को छोड़ कठिन चुनना"]
+    E --> E4["मिलते-जुलते शब्द<br>affect/effect, rise/raise"]
+
+    F --> F1["तथ्यात्मक प्रश्न = 15 सेकंड<br>Grammar / Preposition"]
+    F --> F2["तार्किक प्रश्न = 45 सेकंड<br>Tone / Inference"]
+    F --> F3["2 मिनट से ज़्यादा = Skip करें"]
+
+    A --> G["12 स्वर्ण नियम"]
+    G --> G1["Agreement"]
+    G --> G2["Tense Consistency"]
+    G --> G3["Articles"]
+    G --> G4["Prepositions"]
+    G --> G5["Conjunctions"]
+    G --> G6["Parallel Structure"]
+    G --> G7["Modifiers"]
+    G --> G8["Pronoun Reference"]
+    G --> G9["Collocations"]
+    G --> G10["Active/Passive"]
+    G --> G11["Redundancy से बचें"]
+    G --> G12["Idioms सही रूप में"]
+```

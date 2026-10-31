@@ -1,0 +1,39 @@
+```mermaid
+graph TD
+    A["दिशा ज्ञान (कोडेड/दूरी)<br>Direction Sense (Coded/Distance)"] --> B["मूल अवधारणाएँ<br>Basic Concepts"]
+    A --> C["प्रश्नों के प्रकार<br>Types of Questions"]
+    A --> D["हल करने की रणनीति<br>Strategies"]
+    A --> E["समय प्रबंधन<br>Time Management"]
+    A --> F["परीक्षक के जाल<br>Common Traps"]
+
+    B --> B1["4 मुख्य दिशाएँ<br>4 Cardinal Directions<br>उत्तर N, दक्षिण S, पूर्व E, पश्चिम W"]
+    B --> B2["4 उप-दिशाएँ<br>4 Sub-directions<br>NE, NW, SE, SW"]
+    B --> B3["सूर्योदय = पूर्व<br>Sunrise = East<br>सूर्यास्त = पश्चिम"]
+    B --> B4["छाया नियम<br>Shadow Rule<br>सुबह छाया पश्चिम, शाम को पूर्व"]
+    B --> B5["दायाँ/बायाँ मोड़<br>Right/Left Turn<br>दिशा के अनुसार बदलता है"]
+
+    C --> C1["साधारण दूरी-दिशा<br>Simple Distance-Direction"]
+    C --> C2["कोडेड दिशाएँ<br>Coded Directions<br>जैसे P = उत्तर, Q = पूर्व"]
+    C --> C3["कोडेड मोड़<br>Coded Turns<br>जैसे @ = दायाँ, # = बायाँ"]
+    C --> C4["न्यूनतम दूरी<br>Shortest Distance<br>पाइथागोरस प्रमेय"]
+    C --> C5["छाया/सूर्य आधारित<br>Shadow/Sun Based"]
+    C --> C6["अंतिम दिशा<br>Final Direction Faced"]
+
+    D --> D1["चित्र बनाओ<br>Draw a Diagram<br>कागज़ पर N ऊपर, E दाईं ओर"]
+    D --> D2["कोड पहले डिकोड करो<br>Decode Codes First<br>तालिका/कुंजी अलग लिखो"]
+    D --> D3["X-Y अक्ष पर चलाओ<br>Track on X-Y Axes<br>E-W = X, N-S = Y"]
+    D --> D4["विपरीत दिशाएँ कटती हैं<br>Opposite Moves Cancel<br>N 5 km + S 3 km = N 2 km"]
+    D --> D5["कर्ण सूत्र<br>Hypotenuse Formula<br>√(x² + y²)"]
+
+    E --> E1["आसान प्रश्न: 30-40 सेकंड<br>Easy: 30-40 sec"]
+    E --> E2["कोडेड प्रश्न: 60-75 सेकंड<br>Coded: 60-75 sec"]
+    E --> E3["लंबी चाल वाला प्रश्न<br>Long Route Question<br>पहले skip, बाद में करो"]
+    E --> E4["चित्र बनाना = समय बचत<br>Diagram = Time Saved<br>मानसिक गणना से गलती ज़्यादा"]
+
+    F --> F1["मोड़ की दिशा उलटना<br>Reversing Turn Direction<br>दायाँ/बायाँ facing पर निर्भर"]
+    F --> F2["कोड गलत पढ़ना<br>Misreading Codes<br>कुंजी दोबारा जाँचो"]
+    F --> F3["छाया का समय भ्रम<br>Shadow Time Confusion<br>सुबह ↔ शाम उलट जाता है"]
+    F --> F4["कुल दूरी vs सीधी दूरी<br>Total vs Shortest Distance<br>दोनों अलग प्रश्न हैं"]
+    F --> F5["प्रारंभिक बिंदु भूलना<br>Forgetting Start Point<br>दिशा हमेशा start से मापो"]
+    F --> F6["NE को N समझना<br>Confusing NE with N<br>उप-दिशा 45° पर होती है"]
+```

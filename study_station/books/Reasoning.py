@@ -1,5 +1,22 @@
 import os
 
+# ---- Safety: this script only writes PROMPTS. Never overwrite finished book content (see BOOK_RULES.md).
+import builtins as _builtins
+_PROMPT_MARKS = ('# Chapter:', '@content_agent', '@mcq_generator', '@pyq_agent')
+
+
+def open(path, mode='r', *args, **kwargs):  # noqa: A001 — shadows builtins.open inside this module only
+    p = str(path)
+    if 'w' in mode and p.endswith('.txt') and os.path.exists(p) and 'Introduction' not in p and 'Intro_Prompt' not in p:
+        with _builtins.open(p, encoding='utf-8', errors='replace') as f:
+            head = f.read(800)
+        if not any(m in head for m in _PROMPT_MARKS):
+            print('skip (finished content, not a prompt):', p)
+            return _builtins.open(os.devnull, mode, *args, **kwargs)
+    return _builtins.open(path, mode, *args, **kwargs)
+
+
+
 # ============================================================
 #  स्टूडेंट स्टेशन - रीज़निंग (Reasoning) बुक जनरेशन स्क्रिप्ट
 #  संशोधित प्रॉम्प्ट्स (परीक्षक जाल, समय नियम, ब्लर्टिंग, स्किप स्ट्रैटेजी)
@@ -304,18 +321,18 @@ def create_prompts_pyq(topic_hi, topic_en, level, rtype):
     prompt_hi = (
         f"# Chapter: {topic_hi}, Level: {level}, Type: {rtype} Reasoning\n\n"
         f"@pyq_agent lang=hi level={level} "
-        f"'{topic_hi}' के पिछले 10 वर्षों के PYQ का विश्लेषण करो। "
-        "दो: वर्ष-वार आवृत्ति, उप-विषय भार, परीक्षा-वार वितरण, शीर्ष 10 हाई-यील्ड प्रश्न (समाधान सहित)। "
-        "प्रत्येक प्रश्न के लिए बताओ कि वह किस 'हुक' या 'ट्रैप' का उपयोग करता है। "
-        "कम से कम 2 प्रश्नों के लिए '15-सेकंड/45-सेकंड नियम' के अनुसार बताओ कि वह छोड़ने योग्य था या नहीं।"
+        f"'{topic_hi}' के लिए परीक्षा-पैटर्न विश्लेषण लिखो (BOOK_RULES.md §4): कौन-से उप-विषय बार-बार पूछे जाते हैं, प्रश्नों के प्रकार, "
+        "परीक्षक के जाल (लगभग सही कथन, कालानुक्रमिक भ्रम, समान नाम, नकारात्मक वाक्यांश) — शब्दों में; कोई वर्ष-वार गिनती या भार % नहीं। "
+        "फिर 10 प्रतिनिधि प्रश्न हल सहित; स्रोत में परीक्षा/वर्ष तभी जब official प्रश्नपत्र में मिला हो, वरना 'PYQ-style'। "
+        "कम से कम 2 प्रश्नों पर 15/45 सेकंड नियम लागू करो।"
     )
     prompt_en = (
         f"# Chapter: {topic_en}, Level: {level}, Type: {rtype} Reasoning\n\n"
         f"@pyq_agent lang=en level={level} "
-        f"'Analyze 10-year PYQs for {topic_en}. "
-        "Provide: yearly frequency, sub-topic weightage, exam-wise distribution, top 10 high-yield questions with solutions. "
-        "For each question, explain the psychological hook or trap used. "
-        "For at least 2 questions, indicate whether they should be skipped according to the 15-sec/45-sec rule."
+        f"'Write an exam-pattern analysis for {topic_en} (BOOK_RULES.md §4): recurring sub-topics, question types, examiner traps "
+        "(almost-correct statement, chronological confusion, similar names, negative phrasing) — in words; no year-wise counts or weightage %. "
+        "Then 10 representative questions with solutions; exam/year in Source only if found in an official paper, else PYQ-style. "
+        "Apply the 15/45-second rule on at least 2 questions.'"
     )
     return prompt_hi, prompt_en
 
@@ -367,7 +384,7 @@ def create_reasoning_book(level_key):
             "- इस नियम का पालन हर प्रतिक्रिया में सख्ती से करें।\n\n"
             "--------------------------------------------\n\n"
             f"👉 आज हम \"स्टूडेंट स्टेशन\" नाम की एक हिंदी-अंग्रेजी द्विभाषी पुस्तक शृंखला का {level_labels[level]} स्तर का अध्याय तैयार कर रहे हैं।\n"
-            "यह तर्कशक्ति (Reasoning) की पुस्तक है, जो SSC, Banking, Railway, UPSC जैसी प्रतियोगी परीक्षाओं के लिए है।\n"
+            "यह तर्कशक्ति (Reasoning) की पुस्तक है, जो SSC, Railway, Banking, राज्य स्तरीय (level के अनुसार — BOOK_RULES.md §2) जैसी प्रतियोगी परीक्षाओं के लिए है।\n"
             f"इस सत्र में अध्याय: **\"{topic_hi} / {topic_en}\"** ({rtype} Reasoning) ।\n\n"
             "अध्याय 8 खंडों में बनेगा:\n"
             "1. 📖 Content (मुख्य सामग्री + परीक्षक का जाल बॉक्स)\n"
@@ -443,7 +460,7 @@ def create_reasoning_book(level_key):
                 f"'{topic_hi}' के लिए 25 बहुविकल्पीय प्रश्न (MCQs) तैयार करो। "
                 f"यह सेट {set_num} है (कुल 6 सेट, 150 प्रश्न)। प्रश्न संख्या {start_q} से {end_q} तक। "
                 f"{diff_hi} "
-                "हर प्रश्न में 4 विकल्प, सही उत्तर, चरण-दर-चरण हल, और स्रोत (परीक्षा का नाम/वर्ष) ज़रूर दो। "
+                "हर प्रश्न में 4 विकल्प, सही उत्तर, चरण-दर-चरण हल, और स्रोत (NCERT/official किताब; परीक्षा/वर्ष केवल जाँचा हुआ — BOOK_RULES.md §4) ज़रूर दो। हिंदी और English सेट एक ही प्रश्न हों — वही क्रम, वही उत्तर। "
                 "कम से कम 2 प्रश्नों में 'परीक्षक का जाल' (जैसे दोहरे संबंध, भ्रामक विकल्प) शामिल करो।"
             )
             practice_en = (
@@ -452,7 +469,7 @@ def create_reasoning_book(level_key):
                 f"'Generate 25 MCQs for {topic_en}. "
                 f"This is Set {set_num} (total 6 sets, 150 questions). Questions numbered {start_q} to {end_q}. "
                 f"{diff_en} "
-                "Each with 4 options, correct answer, step-by-step solution, and source (exam name/year). "
+                "Each with 4 options, correct answer, step-by-step solution, and source (NCERT/official book; exam/year only if verified — BOOK_RULES.md §4). The hi and en sets must be the same questions in the same order with the same answers. "
                 "Include at least 2 questions with an examiner's trap (e.g., double relationship, misleading options).'"
             )
             with open(os.path.join(prompts_dir, f"Practice_hi_Set_{set_num:02d}.txt"), 'w', encoding='utf-8') as f:

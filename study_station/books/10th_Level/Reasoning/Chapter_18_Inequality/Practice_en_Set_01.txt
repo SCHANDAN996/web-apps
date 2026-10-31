@@ -1,122 +1,287 @@
-Set 1: Inequality MCQs (English)
-Questions 1–16: Easy | Questions 17–20: Medium
+📝 Practice Set 1 (Questions 1–25)
 
-Q1. If X > Y > Z, then which is true?
-(a) X > Z (b) Z > X (c) X = Z (d) Can't say
-Answer: (a) X > Z
-Solution: Same direction: X > Y > Z gives X > Z.
-Source: NCERT Reasoning
+Easy (1–20), Medium (21–25) | Total 25 MCQs
+Includes at least 2 Examiner's Trap questions (marked with ⚠️).
 
-Q2. If X < Y < Z, which is the largest?
-(a) X (b) Y (c) Z (d) Can't say
-Answer: (c) Z
-Solution: X < Y < Z, so Z is the largest.
-Source: SSC MTS
+Q1. (Easy) Statement: A > B > C
+Conclusions: I. A > C II. B < A
+(A) Both follow (B) Only II follows (C) Only I follows (D) None follows
 
-Q3. If A > B < C, what is the relation between A and C?
-(a) A > C (b) A < C (c) A = C (d) Can't say
-Answer: (d) Can't say
-Solution: The direction changes, so no definite relation.
+Answer: (A) Both follow
+
+Solution:
+From A > B > C, we get A > C (True). Also B < A (True). Hence both follow. Hence, the correct option is (A). Hence, the correct option is (A).
+
+Source: SSC CGL
+
+Q2. (Easy) ⚠️ ⚠️ Statement: P ≥ Q = R
+Conclusions: I. P > R II. P = R
+(A) Only I follows (B) Either I or II follows (C) Only II follows (D) Neither I nor II follows
+
+Answer: (B) Either I or II follows
+
+Solution:
+P ≥ Q = R ⇒ P ≥ R. This allows both P > R and P = R. Neither is individually definite, but together they cover all possibilities. Hence either I or II follows. Trap: Students often mark only I or only II, forgetting the double possibility hidden in ‘≥’. Hence, the correct option is (B). Hence, the correct option is (B).
+
 Source: SSC CHSL
 
-Q4. If A = B = C, what is the relation between A and C?
-(a) A > C (b) A < C (c) A = C (d) Can't say
-Answer: (c) A = C
-Solution: All are equal, so A = C.
+Q3. (Easy) Statement: M > N < O
+Conclusions: I. M > O II. M < O
+(A) Only I follows (B) Only II follows (C) Neither I nor II follows (D) Either I or II follows
+
+Answer: (C) Neither I nor II follows
+
+Solution:
+Opposite signs meeting at N — no definite relation between M and O. Both conclusions are false. Hence, the correct option is (C). Hence, the correct option is (C).
+
+Source: SSC MTS
+
+Q4. (Easy) Statements: S > T, T ≥ U
+Conclusions: I. S > U II. S = U
+(A) Neither I nor II follows (B) Only II follows (C) Either I or II follows (D) Only I follows
+
+Answer: (D) Only I follows
+
+Solution:
+Combining: S > T ≥ U ⇒ S > U (definite). S = U is not possible. Hence, the correct option is (D). Hence, the correct option is (D).
+
 Source: RRB NTPC
 
-Q5. If P > Q = R, then which is true?
-(a) P > R (b) P < R (c) P = R (d) Can't say
-Answer: (a) P > R
-Solution: P > Q and Q = R, so P > R.
-Source: NCERT Reasoning
+Q5. (Easy) (Coded) Symbols: ‘A @ B’ ⇒ A ≤ B, ‘A # B’ ⇒ A ≥ B, ‘A $ B’ ⇒ A < B, ‘A % B’ ⇒ A > B
+Statements: P @ Q, Q % R
+Conclusions:
+I. P $ R
+II. P % R
+(A) Neither I nor II follows (B) Only II follows (C) Either I or II follows (D) Only I follows
 
-Q6. What does '≤' mean?
-(a) greater than (b) less than or equal to (c) equal to (d) greater than or equal
-Answer: (b) less than or equal to
-Solution: ≤ means less than or equal.
-Source: NCERT Reasoning
+Answer: (A) Neither I nor II follows
 
-Q7. If A > B > C > D, is A > D?
-(a) True (b) False (c) Can't say (d) A = D
-Answer: (a) True
-Solution: Same direction throughout: A > D.
-Source: SSC MTS
+Solution:
+Decode: P @ Q ⇒ P ≤ Q; Q % R ⇒ Q > R. Combining: P ≤ Q > R. At Q, the signs point in opposite directions, so no definite relationship exists between P and R. Neither conclusion follows. Hence, the correct option is (A).
 
-Q8. If A < B > C, what is the relation between A and C?
-(a) A > C (b) A < C (c) A = C (d) Can't say
-Answer: (d) Can't say
-Solution: The direction changes, so no definite relation.
-Source: SSC CGL
-
-Q9. If M ≥ N > O, then which is true?
-(a) M > O (b) M < O (c) M = O (d) Can't say
-Answer: (a) M > O
-Solution: M ≥ N and N > O, so M > O.
-Source: Bank Clerk
-
-Q10. If A > B = C > D, is A > D?
-(a) True (b) False (c) Can't say (d) A = D
-Answer: (a) True
-Solution: A > B = C > D, all forward, so A > D.
-Source: SSC CGL
-
-Q11. What does the '>' sign mean?
-(a) less than (b) greater than (c) equal to (d) not equal
-Answer: (b) greater than
-Solution: > means greater than.
-Source: NCERT Reasoning
-
-Q12. If A < B = C, is A < C?
-(a) True (b) False (c) Can't say (d) A = C
-Answer: (a) True
-Solution: A < B and B = C, so A < C.
-Source: SSC MTS
-
-Q13. If A > B, B > C and C > D, is A > D?
-(a) True (b) False (c) Can't say (d) A = D
-Answer: (a) True
-Solution: Same direction throughout: A > D.
 Source: RRB Group D
 
-Q14. If X = Y and Y > Z, is X > Z?
-(a) True (b) False (c) Can't say (d) X = Z
-Answer: (a) True
-Solution: X = Y and Y > Z, so X > Z.
+Q6. (Easy) Statement: A < B ≤ C = D > E
+Conclusions: I. A < D II. C > E
+(A) Only I follows (B) Both follow (C) Only II follows (D) None follows
+
+Answer: (B) Both follow
+
+Solution:
+A < B ≤ C = D ⇒ A < D. C = D > E ⇒ C > E. Both are definite. Hence, the correct option is (B). Hence, the correct option is (B).
+
+Source: SSC CGL
+
+Q7. (Easy) ⚠️ ⚠️ Statement: X ≥ Y
+Conclusions: I. X > Y II. X < Y
+(A) Only I follows (B) Only II follows (C) Neither I nor II follows (D) Either I or II follows
+
+Answer: (C) Neither I nor II follows
+
+Solution:
+X ≥ Y means X is greater than or equal to Y. Neither X > Y nor X < Y is definite individually. Moreover, the pair (>, <) is not complementary because the equality possibility is missing. Hence neither follows. Trap: Many students mistake > and < for an Either–Or pair. A complementary pair must cover all possibilities (here = is not covered). Hence, the correct option is (C). Hence, the correct option is (C).
+
 Source: SSC CHSL
 
-Q15. If A ≤ B ≤ C, what is the relation between A and C?
-(a) A ≥ C (b) A ≤ C (c) A = C (d) Can't say
-Answer: (b) A ≤ C
-Solution: Same direction: A ≤ B ≤ C gives A ≤ C.
-Source: NCERT Reasoning
+Q8. (Easy) Statement: P = Q > R < S
+Conclusions: I. P > R II. Q < S
+(A) Neither I nor II follows (B) Only II follows (C) Both follow (D) Only I follows
 
-Q16. "Either A > C or A = C" is the same as:
-(a) A < C (b) A ≥ C (c) A ≤ C (d) A ≠ C
-Answer: (b) A ≥ C
-Solution: "> or =" together means ≥.
-Source: SSC CGL
+Answer: (D) Only I follows
 
-Q17. (Medium) If P < Q < R < S, which is the smallest?
-(a) P (b) Q (c) R (d) S
-Answer: (a) P
-Solution: P < Q < R < S, so P is the smallest.
-Source: SSC CGL
+Solution:
+P = Q > R ⇒ P > R (True). Q > R < S ⇒ no relation between Q and S (False). Hence, the correct option is (D). Hence, the correct option is (D).
 
-Q18. (Medium) If A > B < C > D, what is the relation between A and D?
-(a) A > D (b) A < D (c) A = D (d) Can't say
-Answer: (d) Can't say
-Solution: The direction changes, so no definite relation between A and D.
+Source: SSC MTS
+
+Q9. (Easy) Statement: M ≤ N ≤ O
+Conclusions: I. M < O II. M = O
+(A) Either I or II follows (B) Only II follows (C) Only I follows (D) Neither I nor II follows
+
+Answer: (A) Either I or II follows
+
+Solution:
+M ≤ N ≤ O ⇒ M ≤ O. The possibilities are M < O or M = O. Neither is certain alone, but together they form an Either–Or pair. Hence, the correct option is (A). Hence, the correct option is (A).
+
 Source: RRB NTPC
 
-Q19. (Medium) If A = B, B = C and C = D, what is the relation between A and D?
-(a) A > D (b) A < D (c) A = D (d) Can't say
-Answer: (c) A = D
-Solution: All equal, so A = D.
+Q10. (Easy) (Coded) Symbols: ‘A * B’ ⇒ A = B, ‘A @ B’ ⇒ A ≥ B, ‘A # B’ ⇒ A ≤ B, ‘A $ B’ ⇒ A > B, ‘A % B’ ⇒ A < B
+Statements: P * Q, Q @ R
+Conclusions: I. P @ R II. R # P
+(A) Only I follows (B) Both follow (C) Only II follows (D) Neither I nor II follows
+
+Answer: (B) Both follow
+
+Solution:
+P = Q, Q ≥ R ⇒ P = Q ≥ R. Hence P ≥ R (I true) and R ≤ P (II true). Both follow. Hence, the correct option is (B). Hence, the correct option is (B).
+
+Source: RRB Group D
+
+Q11. (Easy) Statements: D > E ≥ F = G
+Conclusions: I. D > G II. E ≥ G
+(A) Only I follows (B) Only II follows (C) Both follow (D) Neither I nor II follows
+
+Answer: (C) Both follow
+
+Solution:
+D > E ≥ F = G ⇒ D > G (True). E ≥ F = G ⇒ E ≥ G (True). Hence, the correct option is (C). Hence, the correct option is (C).
+
 Source: SSC CGL
 
-Q20. (Medium) If A ≥ B and B ≥ C, is A ≥ C?
-(a) True (b) False (c) Can't say (d) A < C
-Answer: (a) True
-Solution: Same direction with ≥: A ≥ C.
+Q12. (Easy) Statements: A < B, B > C
+Conclusions: I. A > C II. A < C
+(A) Only I follows (B) Only II follows (C) Either I or II follows (D) Neither I nor II follows
+
+Answer: (D) Neither I nor II follows
+
+Solution:
+A < B > C. Opposite signs meeting at B ⇒ no relation between A and C. Both conclusions false. Hence, the correct option is (D). Hence, the correct option is (D).
+
+Source: SSC CHSL
+
+Q13. (Easy) Statement: P ≤ Q < R
+Conclusions: I. P < R II. Q ≤ P
+(A) Only I follows (B) Only II follows (C) Both follow (D) Neither I nor II follows
+
+Answer: (A) Only I follows
+
+Solution:
+P ≤ Q < R ⇒ P < R (True). From P ≤ Q we cannot say Q ≤ P (False). Hence, the correct option is (A). Hence, the correct option is (A).
+
 Source: SSC MTS
+
+Q14. (Easy) Statements: M ≥ N > O; O < P ≤ Q
+Conclusions: I. M > O II. N < Q
+(A) Only II follows (B) Only I follows (C) Both follow (D) Neither I nor II follows
+
+Answer: (B) Only I follows
+
+Solution:
+M ≥ N > O ⇒ M > O (True). N > O < P ≤ Q ⇒ no definite relation between N and Q (False). Hence, the correct option is (B). Hence, the correct option is (B).
+
+Source: RRB NTPC
+
+Q15. (Easy) (Coded) Symbols: ‘A δ B’ ⇒ A ≥ B, ‘A φ B’ ⇒ A ≤ B, ‘A γ B’ ⇒ A > B, ‘A β B’ ⇒ A < B, ‘A θ B’ ⇒ A = B
+Statements: X δ Y, Y θ Z
+Conclusions: I. X γ Z II. X θ Z
+(A) Only I follows (B) Only II follows (C) Either I or II follows (D) Neither I nor II follows
+
+Answer: (C) Either I or II follows
+
+Solution:
+X δ Y ⇒ X ≥ Y, Y θ Z ⇒ Y = Z. So X ≥ Y = Z ⇒ X ≥ Z. Thus either X > Z or X = Z. Hence Either I or II follows. Hence, the correct option is (C). Hence, the correct option is (C).
+
+Source: RRB Group D
+
+Q16. (Easy) Statement: K > L ≥ M ≤ N
+Conclusions: I. K > M II. L ≤ N
+(A) Neither I nor II follows (B) Only II follows (C) Both follow (D) Only I follows
+
+Answer: (D) Only I follows
+
+Solution:
+K > L ≥ M ⇒ K > M (True). L ≥ M ≤ N gives no relation between L and N (False). Hence, the correct option is (D). Hence, the correct option is (D).
+
+Source: SSC CGL
+
+Q17. (Easy) Statement: A ≥ B > C < D
+Conclusions: I. A > C II. B > D
+(A) Only I follows (B) Only II follows (C) Both follow (D) Neither I nor II follows
+
+Answer: (A) Only I follows
+
+Solution:
+A ≥ B > C ⇒ A > C (True). B > C < D ⇒ no relation between B and D (False). Hence, the correct option is (A). Hence, the correct option is (A).
+
+Source: SSC CHSL
+
+Q18. (Easy) Statements: P = Q > R; S ≤ R
+Conclusions: I. P > S II. Q ≥ S
+(A) Only I follows (B) Both follow (C) Only II follows (D) Neither I nor II follows
+
+Answer: (B) Both follow
+
+Solution:
+Combine: P = Q > R ≥ S. So P > S (True). Q > R ≥ S ⇒ Q > S, hence Q ≥ S is also true. Both follow. Hence, the correct option is (B). Hence, the correct option is (B).
+
+Source: SSC MTS
+
+Q19. (Easy) (Coded) Symbols: ‘A + B’ ⇒ A ≥ B, ‘A - B’ ⇒ A ≤ B, ‘A × B’ ⇒ A < B, ‘A ÷ B’ ⇒ A > B, ‘A = B’ ⇒ A = B
+Statements: P - Q, Q + R
+Conclusions:
+I. P - R
+II. Q ÷ R
+(A) Only I follows (B) Only II follows (C) Neither I nor II follows (D) Both follow
+
+Answer: (C) Neither I nor II follows
+
+Solution:
+Decode: P - Q ⇒ P ≤ Q; Q + R ⇒ Q ≥ R. Combining: P ≤ Q ≥ R. The signs point in opposite directions at Q, so no definite relation exists between P and R (I false). For II: Q ÷ R means Q > R; from Q ≥ R, Q could equal R, so Q > R is not definite (II false). Neither follows. Hence, the correct option is (C).
+
+Source: RRB NTPC
+
+Q20. (Easy) Statement: E > F ≥ G = H ≤ I
+Conclusions: I. E > H II. F ≥ I
+(A) Neither I nor II follows (B) Only II follows (C) Both follow (D) Only I follows
+
+Answer: (D) Only I follows
+
+Solution:
+E > F ≥ G = H ⇒ E > H (True). F ≥ G = H ≤ I ⇒ no definite relation between F and I (False). Hence, the correct option is (D). Hence, the correct option is (D).
+
+Source: RRB Group D
+
+Q21. (Medium) ⚠️ ⚠️ (Coded) Symbols: ‘A @ B’ ⇒ A ≤ B, ‘A # B’ ⇒ A ≥ B, ‘A B’ ⇒ A > B, ‘A % B’ ⇒ A < B Statements: P # Q, Q % R, R S
+Conclusions: I. P $ R II. P % R
+(A) Neither I nor II follows (B) Only II follows (C) Either I or II follows (D) Only I follows
+
+Answer: (A) Neither I nor II follows
+
+Solution:
+Decode: P ≥ Q, Q < R, R > S. So P ≥ Q < R. The chain gives no relation between P and R. The conclusions P > R and P < R are both possible in different scenarios, but equality P = R is also possible. So neither is definite, and they do not form a valid Either–Or pair (missing =). Hence neither follows. Trap: The presence of > and < tempts students to apply Either–Or without checking the equality possibility. Hence, the correct option is (A). Hence, the correct option is (A).
+
+Source: SSC CGL
+
+Q22. (Medium) Which of the following expressions ensures ‘T ≤ W’ is definitely true?
+(A) T < U ≥ V = W (B) T ≤ U < V ≤ W (C) T ≥ U > V = W (D) T > U < V ≤ W
+
+Answer: (B) T ≤ U < V ≤ W
+
+Solution:
+In (B): T ≤ U < V ≤ W ⇒ T < W, which certainly satisfies T ≤ W. All other options do not guarantee T ≤ W. Hence, the correct option is (B). Hence, the correct option is (B).
+
+Source: SSC CHSL
+
+Q23. (Medium) Statements: M = N ≥ O < P; Q ≤ P > R
+Conclusions: I. M > O II. M = O
+(A) Only I follows (B) Only II follows (C) Either I or II follows (D) Neither I nor II follows
+
+Answer: (C) Either I or II follows
+
+Solution:
+M = N ≥ O ⇒ M ≥ O. Hence M > O or M = O are the only possibilities. Neither is definite alone, but they form a complementary pair. Hence, the correct option is (C). Hence, the correct option is (C).
+
+Source: SSC MTS
+
+Q24. (Medium) Statements: A ≥ B > C < D ≤ E; F > E ≥ G
+Conclusions: I. A > C II. F > C
+(A) Only I follows (B) Only II follows (C) Neither I nor II follows (D) Both follow
+
+Answer: (D) Both follow
+
+Solution:
+A ≥ B > C ⇒ A > C (True). C < D ≤ E < F ⇒ C < F, i.e. F > C (True). Hence, the correct option is (D). Hence, the correct option is (D).
+
+Source: RRB NTPC
+
+Q25. (Medium) (Coded) Symbols: ‘P % Q’ ⇒ P is not greater than Q (P ≤ Q), ‘P & Q’ ⇒ P is not less than Q (P ≥ Q), ‘P # Q’ ⇒ P is neither greater than nor equal to Q (P < Q), ‘P @ Q’ ⇒ P is neither less than nor equal to Q (P > Q), ‘P $ Q’ ⇒ P is neither greater than nor less than Q (P = Q)
+Statements: A % B, B & C, C # D, D @ E
+Conclusions: I. A # D II. A % C
+(A) Only I follows (B) Neither I nor II follows (C) Both follow (D) Only II follows
+
+Answer: (B) Neither I nor II follows
+
+Solution:
+Decode: A ≤ B, B ≥ C, C < D, D > E. Combine relevant parts: A ≤ B ≥ C < D. No definite relation between A and D (I false). A ≤ B ≥ C gives no definite relation between A and C (II false). Hence, the correct option is (B). Hence, the correct option is (B).
+
+Source: RRB Group D

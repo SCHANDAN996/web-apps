@@ -1,0 +1,36 @@
+```mermaid
+graph TD
+    A["Preposition<br>संबंधसूचक"] --> B["Types"]
+    A --> C["12 Golden Rules"]
+    A --> D["Examiner's Traps"]
+    A --> E["Strategies"]
+
+    B --> B1["Time<br>at 5 pm, on Monday, in 2024"]
+    B --> B2["Place<br>at the station, on the table, in Delhi"]
+    B --> B3["Direction / Movement<br>to, into, onto, towards, across"]
+    B --> B4["Agent / Instrument<br>by the teacher, with a pen"]
+    B --> B5["Phrasal / Fixed<br>depend on, consist of, look after"]
+
+    C --> C1["IN = months, years, large places<br>ON = days, dates, surfaces<br>AT = exact time, point places"]
+    C --> C2["SINCE = point of time<br>FOR = period of time"]
+    C --> C3["BETWEEN = two<br>AMONG = more than two"]
+    C --> C4["BESIDE = next to<br>BESIDES = in addition to"]
+    C --> C5["No preposition after<br>enter, reach, order, request, attack"]
+    C --> C6["No preposition before<br>home, here, there, today, tomorrow"]
+    C --> C7["Verbs + fixed prepositions<br>listen to, agree with, insist on"]
+    C --> C8["Adjectives + fixed prepositions<br>afraid of, good at, interested in"]
+    C --> C9["Different from (not 'than')<br>Prefer X to Y (not 'than')"]
+    C --> C10["Preposition + gerund (V-ing)<br>insist on going, tired of waiting"]
+    C --> C11["BY = deadline (by 5 pm)<br>UNTIL/TILL = duration (till 5 pm)"]
+    C --> C12["IN = inside / wearing<br>INTO = movement inside"]
+
+    D --> D1["Sound-Right Trap<br>'discuss about' ❌ → 'discuss' ✓"]
+    D --> D2["Intervening Phrase Trap<br>'married with' ❌ → 'married to' ✓"]
+    D --> D3["Over-thinking Trap<br>Don't add preposition after<br>enter / reach / resemble"]
+    D --> D4["Hindi Interference<br>'What you are doing?' ❌<br>'What are you doing?' ✓"]
+
+    E --> E1["15-Second Rule<br>Fixed phrases & time/place = recall, answer fast"]
+    E --> E2["45-Second Rule<br>Sentence-level errors = read full sentence,<br>check verb/adjective pairing"]
+    E --> E3["Skip Strategy<br>Two options both look right?<br>Mark, skip, return — don't guess blindly"]
+    E --> E4["Mnemonic<br>'AT a point, ON a line, IN a space'<br>for time & place"]
+```

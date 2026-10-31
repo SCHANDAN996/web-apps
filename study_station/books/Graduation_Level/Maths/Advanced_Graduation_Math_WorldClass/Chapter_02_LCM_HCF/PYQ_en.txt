@@ -1,0 +1,107 @@
+# 📊 PYQ Analysis — LCM & HCF (Advanced Level)
+
+## How Exams Test This Chapter
+
+LCM & HCF appears deceptively simple, yet it is one of the most reliable "trap chapters" in UPSC CSAT, SSC CGL Tier-II, IBPS PO Mains, CAT and State PCS papers. Examiners rarely ask "find the LCM of 12 and 18." Instead, they wrap the concept inside bells, runners, tiles, remainders and traffic lights — and the candidate who memorised only the definition freezes.
+
+### The recurring question patterns
+
+**1. Simultaneous-event problems (LCM in disguise)**
+Bells tolling together, runners meeting at the start point, traffic lights turning green simultaneously, planets aligning. The moment you read "together again," the answer is an LCM. The trap: the question gives *intervals* (every 12 min, every 18 min) but asks for *time of meeting* — candidates who add or average the intervals lose the mark.
+
+**2. Remainder problems (the real advanced battleground)**
+"Find the smallest number which when divided by 4, 6, 9 leaves remainder 3 in each case." The standard move: LCM + common remainder. The nastier variant: *different* remainders, where the difference (divisor − remainder) is constant — then the answer is LCM − difference. CSAT and CAT love this because it separates formula-memorisers from thinkers.
+
+**3. HCF as "greatest size/measure"**
+Largest square tile to pave a floor, greatest length of tape to measure several planks exactly, maximum number of identical gift packs. Keyword: "greatest/largest/maximum that divides exactly" → HCF. Trap: dimensions given in mixed units (metres and centimetres) — convert first or the HCF is meaningless.
+
+**4. Product relation: LCM × HCF = product of the two numbers**
+Directly tested in Tier-II and PO Mains, often with one element unknown. Trap: this identity holds for **two numbers only** — applying it to three numbers is a classic wrong-option generator.
+
+**5. Fractions of LCM/HCF**
+LCM of fractions = LCM of numerators / HCF of denominators; HCF of fractions = HCF of numerators / LCM of denominators. Appears in CAT and banking mains as a quick 30-second question — if you know the rule.
+
+**6. Co-prime and ratio-based questions**
+"Two numbers are in ratio 3:4 and their HCF is 5; find the numbers." The numbers are simply 3×5 and 4×5. Trap: the ratio must be in lowest terms; if it isn't, the HCF extraction fails.
+
+### The examiner's psychological traps
+
+- **LCM–HCF swap:** Under time pressure, candidates compute LCM where HCF is needed. The question's keyword ("together again" vs "greatest measure") is the only guard.
+- **The "at least/at most" twist:** "Smallest number greater than 1000 which..." — you must find the LCM first, then its smallest multiple above 1000. Stopping at the raw LCM is the planted error.
+- **Remainder sign confusion:** Adding when you should subtract (constant-difference type) and vice versa.
+- **Unit mismatch:** HCF of 1.2 m and 1.8 m computed as HCF of 1.2 and 1.8 instead of converting to 120 cm and 180 cm.
+- **Overgeneralising the product rule** to three numbers (see trap 4 above).
+
+---
+
+## Top 10 High-Yield Questions (with solutions)
+
+**Q1.** Six bells toll at intervals of 2, 4, 6, 8, 10 and 12 seconds respectively. If they toll together now, after how long will they toll together again?
+(a) 60 s (b) 120 s (c) 240 s (d) 30 s
+**Answer: (b)**
+**Solution:** "Together again" → LCM of 2, 4, 6, 8, 10, 12. Prime factors: highest powers are 2³ (from 8), 3 (from 6/12), 5 (from 10). LCM = 8 × 3 × 5 = 120 s. Trap: option (a) 60 is the LCM of only some of the numbers — a partial calculation.
+**Source: PYQ-style (CSAT pattern)**
+
+**Q2.** Find the smallest number which when divided by 5, 6, 7 and 8 leaves a remainder of 3 in each case.
+(a) 843 (b) 840 (c) 1683 (d) 423
+**Answer: (a)**
+**Solution:** LCM(5, 6, 7, 8) = 840. Same remainder in every case → add it: 840 + 3 = 843. Trap: option (b) is the bare LCM — the examiner knows many candidates stop one step early.
+**Source: PYQ-style (SSC CGL Tier-II pattern)**
+
+**Q3.** Find the smallest number which when divided by 12, 15, 20 and 54 leaves remainders 8, 11, 16 and 50 respectively.
+(a) 536 (b) 540 (c) 544 (d) 532
+**Answer: (a)**
+**Solution:** Check the differences: 12−8 = 4, 15−11 = 4, 20−16 = 4, 54−50 = 4. Constant difference → answer = LCM − 4. LCM(12, 15, 20, 54) = 540. So 540 − 4 = 536. Trap: option (c) 544 = 540 + 4 — the sign-error bait.
+**Source: PYQ-style (CAT/banking pattern)**
+
+**Q4.** A rectangular courtyard 4.55 m long and 5.25 m wide is to be paved exactly with square tiles of the same size. What is the largest size of the tile?
+(a) 25 cm (b) 35 cm (c) 30 cm (d) 21 cm
+**Answer: (b)**
+**Solution:** Convert to cm: 455 and 525. Largest exact square → HCF(455, 525). 525 = 455 × 1 + 70; 455 = 70 × 6 + 35; 70 = 35 × 2. HCF = 35 cm. Trap: skipping unit conversion and computing with decimals gives nonsense; option (a) 25 divides 525 but not 455.
+**Source: PYQ-style (CSAT pattern)**
+
+**Q5.** The HCF and LCM of two numbers are 13 and 1989. If one number is 117, find the other.
+(a) 221 (b) 169 (c) 234 (d) 247
+**Answer: (a)**
+**Solution:** Product of numbers = HCF × LCM = 13 × 1989. Other number = (13 × 1989)/117 = 1989/9 = 221. Trap: forgetting to verify that HCF divides both numbers — 13 | 117 ✓ and 13 | 221 ✓.
+**Source: PYQ-style (SSC pattern)**
+
+**Q6.** Find the LCM of 2/3, 4/9 and 5/6.
+(a) 20/3 (b) 20/9 (c) 10/3 (d) 40/3
+**Answer: (a)**
+**Solution:** LCM of fractions = LCM of numerators / HCF of denominators = LCM(2, 4, 5)/HCF(3, 9, 6) = 20/3. Trap: option (b) uses HCF of numerators over LCM of denominators — that's the *HCF* formula applied by mistake.
+**Source: PYQ-style (banking mains pattern)**
+
+**Q7.** Two numbers are in the ratio 5:7 and their HCF is 9. Find their LCM.
+(a) 315 (b) 63 (c) 405 (d) 285
+**Answer: (a)**
+**Solution:** Numbers are 5 × 9 = 45 and 7 × 9 = 63. LCM = 5 × 7 × 9 = 315 (since 5 and 7 are co-prime). Trap: option (b) 63 is just the larger number — candidates who confuse LCM with "the bigger number" fall here.
+**Source: PYQ-style (SSC/PCS pattern)**
+
+**Q8.** Find the greatest number of four digits which is divisible by 15, 25, 40 and 75.
+(a) 9600 (b) 9800 (c) 9000 (d) 9900
+**Answer: (a)**
+**Solution:** LCM(15, 25, 40, 75) = 600. Largest 4-digit multiple of 600: 9999 ÷ 600 = 16.66…, so 16 × 600 = 9600. Trap: option (d) 9900 "feels" like the biggest 4-digit round number but isn't divisible by 40.
+**Source: PYQ-style (CSAT pattern)**
+
+**Q9.** The LCM of two numbers is 48 and the numbers are in the ratio 2:3. Find the sum of the numbers.
+(a) 40 (b) 32 (c) 28 (d) 64
+**Answer: (a)**
+**Solution:** Let HCF = h; numbers are 2h and 3h. LCM = 2 × 3 × h = 6h = 48 → h = 8. Numbers: 16 and 24; sum = 40. Trap: taking the numbers as 2 and 3 themselves and reporting sum 5 (not listed) or forcing LCM 48 onto wrong multiples.
+**Source: PYQ-style (SSC pattern)**
+
+**Q10.** Three runners start together around a circular track and complete one lap in 18, 24 and 32 seconds. After how many seconds will all three be together at the starting point for the first time, and how many laps will the fastest runner have completed by then?
+(a) 288 s, 16 laps (b) 288 s, 12 laps (c) 144 s, 8 laps (d) 576 s, 32 laps
+**Answer: (a)**
+**Solution:** LCM(18, 24, 32) = 288 s. Fastest runner (18 s/lap) completes 288/18 = 16 laps. Trap: option (b) pairs the correct time with the *middle* runner's lap count (288/24 = 12) — a two-part question punishes half-finished work.
+**Source: PYQ-style (CAT/CSAT pattern)**
+
+---
+
+## Key Takeaways
+
+- Read the keyword first: "together again / simultaneous" → LCM; "greatest measure / largest tile / maximum packs" → HCF.
+- Remainder problems: same remainder → LCM + r; same difference (divisor − remainder) → LCM − d.
+- Convert units before any HCF of measurements.
+- LCM × HCF = product works for exactly two numbers — never three.
+- In two-part questions, finish both parts before looking at the options; examiners plant half-answers.
