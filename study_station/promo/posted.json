@@ -121,7 +121,12 @@
   "Graduation_Level/Reasoning/Chapter_16_Statement_Conclusion#Set02#Q34",
   "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_19_Trigonometry#Set06#Q149",
   "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_06_Adverb#Set03#Q65",
-  "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_09_Economy_Basic#Memory_Hooks_hi.txt#14"
+  "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_09_Economy_Basic#Memory_Hooks_hi.txt#14",
+  "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_26_Advanced_Polity#Set03#Q54",
+  "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_10_Compound_Interest#Set04#Q83",
+  "Graduation_Level/Reasoning/Chapter_19_Cubes_Dice#Set02#Q42",
+  "Graduation_Level/Reasoning/Chapter_20_Mirror_Water_Images#Set02#Q38",
+  "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_17_Spelling#Set03#Q65"
  ],
  "shorts": [
   "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_17_Culture_Art#Set01#Q8",
@@ -1418,6 +1423,58 @@
       "opt": "I saw him yesterday.",
       "exp": "उत्तर: I saw him yesterday. इसलिए \"I saw him yesterday.\" सही है।",
       "part": "am"
+     }
+    ],
+    [
+     {
+      "id": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_26_Advanced_Polity#Set03#Q54",
+      "msg": 144,
+      "chapter": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_26_Advanced_Polity",
+      "q": "अनुच्छेद 21 में 'विधि द्वारा स्थापित प्रक्रिया' (Procedure Established by Law) की अवधारणा किस देश के संविधान से ली गई है?",
+      "ans": 3,
+      "opt": "जापान",
+      "exp": "उत्तर: जापान। अनुच्छेद 21 में \"विधि द्वारा स्थापित प्रक्रिया\" की अभिव्यक्ति जापान के संविधान से ली गई है, इसलिए उत्तर जापान है।",
+      "part": "pm"
+     },
+     {
+      "id": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_10_Compound_Interest#Set04#Q83",
+      "msg": 145,
+      "chapter": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_10_Compound_Interest",
+      "q": "कोई राशि चक्रवृद्धि ब्याज पर 4 वर्ष में दोगुनी हो जाती है। कितने वर्षों में वह 8 गुनी हो जाएगी?",
+      "ans": 1,
+      "opt": "12 वर्ष",
+      "exp": "उत्तर: 12 वर्ष। 8 = 2³, अतः इसमें 3 दोगुने होने की अवधियाँ चाहिए = 3 × 4 = 12 वर्ष, इसलिए उत्तर 12 वर्ष है।",
+      "part": "pm"
+     },
+     {
+      "id": "Graduation_Level/Reasoning/Chapter_19_Cubes_Dice#Set02#Q42",
+      "msg": 146,
+      "chapter": "Graduation_Level/Reasoning/Chapter_19_Cubes_Dice",
+      "q": "एक पासे पर संख्याएँ 1 से 6 हैं। एक दृश्य में 2 ऊपर है और 3 आपकी ओर है। उसी पासे के दूसरे दृश्य में 5 ऊपर है और 3 फिर भी आपकी ओर है। 3 के विपरीत कौन-सी संख्या है?",
+      "ans": 2,
+      "opt": "6",
+      "exp": "उत्तर: 6। 3 के सटी न होने वाली एकमात्र संख्या 6 है, इसलिए उत्तर 6 है।",
+      "part": "pm"
+     },
+     {
+      "id": "Graduation_Level/Reasoning/Chapter_20_Mirror_Water_Images#Set02#Q38",
+      "msg": 147,
+      "chapter": "Graduation_Level/Reasoning/Chapter_20_Mirror_Water_Images",
+      "q": "इनमें से कौन सा शब्द अपने दाईं ओर रखे दर्पण में बिल्कुल वैसा ही पढ़ा जाएगा?",
+      "ans": 3,
+      "opt": "TOT",
+      "exp": "उत्तर: TOT। कोई शब्द पार्श्व दर्पण में तभी अपरिवर्तित रहता है जब वह विलोमपद हो और उसका हर अक्षर ऊर्ध्वाधर सममित हो; T, O और T तीनों योग्य हैं, इसलिए उत्तर TOT है।",
+      "part": "pm"
+     },
+     {
+      "id": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_17_Spelling#Set03#Q65",
+      "msg": 148,
+      "chapter": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_17_Spelling",
+      "q": "सही वर्तनी (spelling) वाला शब्द चुनिए।",
+      "ans": 0,
+      "opt": "Conscientious",
+      "exp": "उत्तर: Conscientious। \"Conscientious\" शब्द \"conscience\" + '-ious' से बना है; इसमें 'sci' समूह और 'ous' से पहले 'i' बना रहता है।",
+      "part": "pm"
      }
     ]
    ],
