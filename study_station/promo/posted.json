@@ -127,7 +127,12 @@
   "Graduation_Level/Reasoning/Chapter_19_Cubes_Dice#Set02#Q42",
   "Graduation_Level/Reasoning/Chapter_20_Mirror_Water_Images#Set02#Q38",
   "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_17_Spelling#Set03#Q65",
-  "revision#2026-10-31"
+  "revision#2026-10-31",
+  "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_24_RC_Basic#Set01#Q6",
+  "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_16_Books_Authors#Set02#Q37",
+  "12th_Level/Reasoning/Chapter_13_Dictionary_Order#Set05#Q124",
+  "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage#Set06#Q135",
+  "12th_Level/Reasoning/Chapter_09_Venn_Diagrams#Set01#Q23"
  ],
  "shorts": [
   "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_17_Culture_Art#Set01#Q8",
@@ -1492,6 +1497,62 @@
      {
       "id": "revision#2026-10-31",
       "msg": 149
+     }
+    ]
+   ]
+  },
+  "2026-11-01": {
+   "quiz": [
+    [
+     {
+      "id": "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_24_RC_Basic#Set01#Q6",
+      "msg": 151,
+      "chapter": "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_24_RC_Basic",
+      "q": "What does the honeybee collect from flowers?",
+      "ans": 0,
+      "opt": "Nectar",
+      "exp": "उत्तर: Nectar। पराग (pollen) अनजाने में ले जाया जाता है, भोजन के रूप में इकट्ठा नहीं किया जाता, इसलिए उत्तर है nectar।",
+      "part": "am"
+     },
+     {
+      "id": "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_16_Books_Authors#Set02#Q37",
+      "msg": 152,
+      "chapter": "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_16_Books_Authors",
+      "q": "\"माय एक्सपेरिमेंट्स विद ट्रुथ\" पुस्तक महात्मा गांधी ने मूल रूप से किस भाषा में लिखी?",
+      "ans": 1,
+      "opt": "गुजराती",
+      "exp": "उत्तर: गुजराती। कई लोग मानते हैं कि यह अंग्रेज़ी में लिखी गई क्योंकि वही संस्करण सबसे ज़्यादा पढ़ा जाता है, लेकिन गांधी ने अपनी आत्मकथा मूल रूप से गुजराती में (1927) लिखी, जिसका अंग्रेज़ी अनुवाद बाद…",
+      "part": "am"
+     },
+     {
+      "id": "12th_Level/Reasoning/Chapter_13_Dictionary_Order#Set05#Q124",
+      "msg": 153,
+      "chapter": "12th_Level/Reasoning/Chapter_13_Dictionary_Order",
+      "q": "शब्दकोश क्रम में कौन-सा शब्द सबसे पहले आएगा?",
+      "ans": 2,
+      "opt": "Transact",
+      "exp": "उत्तर: Transact। जाल Transfer है, जो सबसे परिचित शब्द है, लेकिन परिचितता शब्दकोश क्रम तय नहीं करती; 'a' सबसे पहले आता है, इसलिए उत्तर Transact है।",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage#Set06#Q135",
+      "msg": 154,
+      "chapter": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage",
+      "q": "जब किसी संख्या को 37.5% बढ़ाया जाता है, तो वह 440 हो जाती है। संख्या क्या है?",
+      "ans": 2,
+      "opt": "320",
+      "exp": "उत्तर: 320। संख्या = 440/1.375 = 320, इसलिए उत्तर 320 है।",
+      "part": "am"
+     },
+     {
+      "id": "12th_Level/Reasoning/Chapter_09_Venn_Diagrams#Set01#Q23",
+      "msg": 155,
+      "chapter": "12th_Level/Reasoning/Chapter_09_Venn_Diagrams",
+      "q": "छात्रों के एक समूह में 40% अंग्रेज़ी में, 30% हिंदी में, और 10% दोनों में उत्तीर्ण हुए। कितने प्रतिशत छात्र दोनों विषयों में अनुत्तीर्ण हुए?",
+      "ans": 1,
+      "opt": "40%",
+      "exp": "उत्तर: 40%। दोनों में अनुत्तीर्ण = 100 − 60 = 40%।",
+      "part": "am"
      }
     ]
    ]
