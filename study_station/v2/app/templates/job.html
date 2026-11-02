@@ -15,6 +15,7 @@
 {% endif %}
 {% endblock %}
 {% block main %}
+{% include '_government_notice.html' %}
 <p class="small crumb"><a class="tap-link" href="/jobs">{{ tr('nav_jobs') }}</a></p>
 <div class="jobs-portal"><div class="jobs-card-top"><span class="jobs-org-mark" aria-hidden="true">{{ (job.org or job.category or 'SS')[:2]|upper }}</span><div class="jobs-identity">{% if job.org %}<p class="jobs-org">{{ job.org }}</p>{% endif %}<span class="jobs-category">{{ tr('jobs_cat_' ~ job.category) if job.category in ['ssc', 'railway', 'banking', 'defence', 'psc', 'psu', 'teaching', 'govt'] else job.category|upper }}</span></div></div><h1 class="jobs-detail-title">{{ job.title }}</h1>
 <div class="row" style="flex-wrap:wrap;margin-bottom:var(--sp-4)">

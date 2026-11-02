@@ -28,7 +28,30 @@ Study Station is an independent educational app. It is not affiliated with or en
 Support: all.chandansingh@gmail.com
 Privacy: https://studystation.ebookcart.in/privacy
 
-New accounts can start a 3-day trial without payment. There is no automatic charge or renewal. After the trial, choose access for ₹9 per month or ₹51 per year. Offline study requires one internet access check each day.
+Eligible new and existing accounts receive a 3-month free trial. Sign in to see your trial end date. No payment is needed to start the trial, and there is no automatic charge or renewal. After the trial, choose access for ₹9 per month or ₹51 per year. Offline study requires one internet access check each day.
+
+Official sources for recruitment information and current affairs:
+SSC: https://ssc.gov.in/
+UPSC: https://upsc.gov.in/
+Railway Recruitment Board: https://www.rrbcdg.gov.in/
+Railway Board / DFCCIL notices: https://rb.indianrailways.gov.in/
+IBPS: https://www.ibps.in/
+SBI: https://sbi.bank.in/web/careers/current-openings
+ISRO: https://www.isro.gov.in/Careers.html
+LIC: https://www.licindia.in/careers
+UPPSC: https://uppsc.up.nic.in/
+BPSC: https://bpsc.bihar.gov.in/
+RPSC: https://rpsc.rajasthan.gov.in/
+MPPSC: https://mppsc.mp.gov.in/
+DSSSB: https://dsssb.delhi.gov.in/
+India Post: https://www.indiapost.gov.in/
+IIM Lucknow: https://www.iiml.ac.in/
+IIM Kozhikode: https://webapps.iimk.ac.in/jobportal/vacancy
+ICAR-IIMR: https://iimr.res.in/events/vacancy
+All India Radio: https://www.newsonair.gov.in/
+PIB: https://pib.gov.in/
+
+Recruitment details and current-affairs items link to their original notices or releases. These institutions do not sponsor or endorse Study Station.
 
 ## हिन्दी
 
@@ -56,7 +79,30 @@ Study Station एक स्वतंत्र शैक्षिक ऐप ह�
 सहायता: all.chandansingh@gmail.com
 गोपनीयता: https://studystation.ebookcart.in/privacy
 
-नए खाते के लिए 3 दिन का trial। Trial के लिए भुगतान ज़रूरी नहीं और अपने-आप पैसा नहीं कटता। उसके बाद ₹9 प्रति माह या ₹51 प्रति वर्ष का access plan चुनें। ऑफलाइन पढ़ाई के लिए रोज़ एक बार इंटरनेट पर access जाँच ज़रूरी है।
+पात्र नए और पुराने खातों के लिए 3 महीने का मुफ़्त trial। समाप्ति की तारीख साइन-इन करने पर देखें। Trial के लिए भुगतान ज़रूरी नहीं और अपने-आप पैसा नहीं कटता। उसके बाद ₹9 प्रति माह या ₹51 प्रति वर्ष का access plan चुनें। ऑफलाइन पढ़ाई के लिए रोज़ एक बार इंटरनेट पर access जाँच ज़रूरी है।
+
+भर्ती की जानकारी और करंट अफेयर्स के आधिकारिक स्रोत:
+SSC: https://ssc.gov.in/
+UPSC: https://upsc.gov.in/
+रेलवे भर्ती बोर्ड: https://www.rrbcdg.gov.in/
+रेलवे बोर्ड / DFCCIL सूचनाएँ: https://rb.indianrailways.gov.in/
+IBPS: https://www.ibps.in/
+SBI: https://sbi.bank.in/web/careers/current-openings
+ISRO: https://www.isro.gov.in/Careers.html
+LIC: https://www.licindia.in/careers
+UPPSC: https://uppsc.up.nic.in/
+BPSC: https://bpsc.bihar.gov.in/
+RPSC: https://rpsc.rajasthan.gov.in/
+MPPSC: https://mppsc.mp.gov.in/
+DSSSB: https://dsssb.delhi.gov.in/
+भारतीय डाक: https://www.indiapost.gov.in/
+IIM लखनऊ: https://www.iiml.ac.in/
+IIM कोझिकोड: https://webapps.iimk.ac.in/jobportal/vacancy
+ICAR-IIMR: https://iimr.res.in/events/vacancy
+आकाशवाणी: https://www.newsonair.gov.in/
+PIB: https://pib.gov.in/
+
+भर्ती के विवरण और करंट अफेयर्स की खबर में मूल सूचना का लिंक दिया जाता है। ये संस्थाएँ Study Station की प्रायोजक या समर्थक नहीं हैं।
 
 ## Claim exclusions and assets
 

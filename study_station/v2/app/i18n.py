@@ -1,5 +1,8 @@
 """UI strings. Hindi first — most of our learners study in Hindi."""
 STRINGS = {
+    'government_sources': ('आधिकारिक सूचना स्रोत', 'Official information sources'),
+    'government_disclaimer': ('Study Station स्वतंत्र शैक्षिक ऐप है; यह किसी सरकारी संस्था का प्रतिनिधि या आधिकारिक ऐप नहीं है।', 'Study Station is an independent educational app. It does not represent any government entity and is not an official government app.'),
+    'government_source_hint': ('भर्ती की तारीख और पात्रता के लिए नीचे आधिकारिक सूचना खोलें।', 'Open the official notice below to verify recruitment dates and eligibility.'),
     'brand': ('स्टडी स्टेशन', 'Study Station'),
     'tagline': ('सरकारी परीक्षा की मुफ़्त तैयारी — हिंदी और English में',
                 'Free government-exam prep — in Hindi and English'),

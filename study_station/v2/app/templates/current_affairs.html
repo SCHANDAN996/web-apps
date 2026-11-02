@@ -2,6 +2,7 @@
 {% block title %}{{ tr('ca_title') }} — {{ tr('brand') }}{% endblock %}
 {% block description %}{{ tr('ca_desc') }}{% endblock %}
 {% block main %}
+{% include '_government_notice.html' %}
 <h1>{{ tr('ca_title') }}</h1>
 <p class="muted small">{{ tr('ca_desc') }}</p>
 {% if topic and (q_counts.get('week') or q_counts.get('month')) %}
