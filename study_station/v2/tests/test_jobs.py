@@ -139,6 +139,9 @@ def clean_jobs(db):
         db.query(model).delete()
     db.commit()
     yield db
+    for model in (JobSource, SeenItem, SourceHealth, Job):
+        db.query(model).delete()
+    db.commit()
 
 
 def test_pipeline_merges_discovery_into_official_and_survives_broken_source(clean_jobs):
