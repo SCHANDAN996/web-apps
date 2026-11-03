@@ -1,0 +1,60 @@
+name: Study Station Hindi voice video sample
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'study_station/voice_demo.py'
+      - '.github/workflows/study-station-voice-sample.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  make-sample:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Hindi voice generator
+        run: python -m pip install 'edge-tts>=6.1,<8'
+      - name: Generate and verify Hindi narration
+        run: python study_station/voice_demo.py --output sample-voice.mp3
+      - name: Build vertical preview with synchronized duration
+        shell: bash
+        run: |
+          set -euo pipefail
+          duration=$(ffprobe -v error -show_entries format=duration -of default=nokey=1:noprint_wrappers=1 sample-voice.mp3)
+          ffmpeg -hide_banner -loglevel error -y \
+            -f lavfi -i "color=c=0x111827:s=720x1280:r=25:d=${duration}" \
+            -i sample-voice.mp3 \
+            -filter_complex "[0:v]drawtext=text='STUDY STATION':fontcolor=white:fontsize=54:x=(w-text_w)/2:y=340,drawtext=text='HINDI GK - VOICE SAMPLE':fontcolor=white:fontsize=29:x=(w-text_w)/2:y=440,drawtext=text='Listen to the question and answer':fontcolor=white:fontsize=26:x=(w-text_w)/2:y=550,format=yuv420p[v]" \
+            -map "[v]" -map 1:a:0 -c:v libx264 -preset veryfast -crf 25 \
+            -c:a aac -b:a 160k -shortest -movflags +faststart sample-video.mp4
+          ffprobe -v error -select_streams a:0 -show_entries stream=codec_name -of csv=p=0 sample-video.mp4 | grep -q aac
+          test -s sample-video.mp4
+      - name: Save sample video and audio as downloadable artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: study-station-hindi-voice-preview
+          path: |
+            sample-video.mp4
+            sample-voice.mp3
+          retention-days: 7
+      - name: Send sample to Telegram (only when configured)
+        if: ${{ env.TELEGRAM_BOT_TOKEN != '' && env.TELEGRAM_CHAT_ID != '' }}
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.STUDY_STATION_TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.STUDY_STATION_TELEGRAM_CHAT_ID }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail-with-body --retry 2 --max-time 120 \
+            -F "chat_id=${TELEGRAM_CHAT_ID}" \
+            -F "caption=Study Station automatic Hindi voice sample" \
+            -F "video=@sample-video.mp4" \
+            "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendVideo"
