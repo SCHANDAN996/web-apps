@@ -34,7 +34,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.event_name == 'workflow_dispatch' && github.ref_name || env.BOOKS_BRANCH }}
+          ref: ${{ github.event_name == 'workflow_dispatch' && github.ref_name != 'main' && github.ref_name || env.BOOKS_BRANCH }}
           fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
@@ -64,7 +64,7 @@ jobs:
           YOUTUBE_MADE_FOR_KIDS: ${{ vars.YOUTUBE_MADE_FOR_KIDS }}
           PROMO_YOUTUBE_POSTED: ${{ github.workspace }}/study_station/promo/youtube_uploads.json
           PROMO_YOUTUBE_GIT_CHECKPOINT: 'true'
-          PROMO_YOUTUBE_BRANCH: ${{ github.event_name == 'workflow_dispatch' && github.ref_name || env.BOOKS_BRANCH }}
+          PROMO_YOUTUBE_BRANCH: ${{ github.event_name == 'workflow_dispatch' && github.ref_name != 'main' && github.ref_name || env.BOOKS_BRANCH }}
         run: |
           git config user.name "study-station-promo"
           git config user.email "211449723+SCHANDAN996@users.noreply.github.com"
@@ -83,7 +83,7 @@ jobs:
       - name: Save the posted-log
         if: always()
         env:
-          PROMO_TARGET_BRANCH: ${{ github.event_name == 'workflow_dispatch' && github.ref_name || env.BOOKS_BRANCH }}
+          PROMO_TARGET_BRANCH: ${{ github.event_name == 'workflow_dispatch' && github.ref_name != 'main' && github.ref_name || env.BOOKS_BRANCH }}
         run: |
           git config user.name "study-station-promo"
           git config user.email "211449723+SCHANDAN996@users.noreply.github.com"
