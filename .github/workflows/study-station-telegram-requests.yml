@@ -10,6 +10,10 @@ on:
         default: '/telegram sample'
   issue_comment:
     types: [created]
+  push:
+    branches: [main]
+    paths:
+      - 'study_station/telegram_requests/*.txt'
 
 permissions:
   contents: read
@@ -23,6 +27,7 @@ jobs:
     # Issue commands only from repository owner on actual issues (never PR comments).
     if: >-
       github.event_name == 'workflow_dispatch' ||
+      github.event_name == 'push' ||
       (github.event_name == 'issue_comment' &&
        github.event.issue.pull_request == null &&
        github.event.comment.user.login == github.repository_owner &&
@@ -32,7 +37,7 @@ jobs:
     env:
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
-      REQUEST_TEXT: ${{ github.event_name == 'workflow_dispatch' && inputs.message || github.event.comment.body }}
+      REQUEST_TEXT: ${{ github.event_name == 'push' && '/telegram sample' || (github.event_name == 'workflow_dispatch' && inputs.message || github.event.comment.body) }}
     steps:
       - uses: actions/checkout@v4
         with:
