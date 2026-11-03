@@ -159,3 +159,18 @@ def test_seo_title_tags_and_thumbnail(tmp_path):
     assert len(tags) == len({t.lower() for t in tags})
     jpg = shorts.thumbnail(Q, tmp_path / 't.jpg')
     assert jpg.read_bytes()[:2] == b'\xff\xd8' and jpg.stat().st_size < 2 * 1024 * 1024
+
+
+def test_bgm_is_mixed_under_the_effects(monkeypatch, tmp_path):
+    music = tmp_path / 'bgm.m4a'
+    music.write_bytes(b'x')
+    monkeypatch.setenv('PROMO_BGM', str(music))
+    cmd = shorts.ffmpeg_cmd(tmp_path / 'list.txt', tmp_path / 'o.mp4')
+    assert str(music) in cmd and '-stream_loop' in cmd and '[a]' in cmd
+    assert 'amix=inputs=2' in cmd[cmd.index('-filter_complex') + 1]
+    monkeypatch.setenv('PROMO_BGM', '')
+    assert '-filter_complex' not in shorts.ffmpeg_cmd(tmp_path / 'list.txt', tmp_path / 'o.mp4')
+
+
+def test_bundled_bgm_exists():
+    assert shorts.BGM.is_file() and shorts.BGM.stat().st_size < 2_000_000

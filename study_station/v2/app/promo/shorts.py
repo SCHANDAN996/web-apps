@@ -22,6 +22,9 @@ from . import pick
 W, H = 1080, 1920
 LEFT, RIGHT, TOP, BOTTOM = 72, W - 72, 210, 1560     # YouTube/Instagram cover the bottom ~350 px and the top bar
 FONTS = Path(__file__).resolve().parents[3] / 'promo' / 'fonts'
+# Original background music made by promo/music/make_bgm.py (nothing licensed). PROMO_BGM='' turns it off.
+BGM = Path(__file__).resolve().parents[3] / 'promo' / 'music' / 'bgm.m4a'
+BGM_VOLUME = 0.35                          # under the chime, ticks and answer ding
 C = {'bg': '#F9F9FF', 'card': '#F3F3FA', 'card_hi': '#E8E7EE', 'text': '#1A1B20', 'muted': '#44474F',
      'primary': '#005BBF', 'on_primary': '#FFFFFF', 'primary_c': '#D8E2FF', 'on_primary_c': '#2A4678',
      'success': '#1B6B45', 'success_c': '#ABF9C8', 'on_success_c': '#003920', 'outline': '#C4C6D0'}
@@ -388,13 +391,26 @@ def sound_expr():
     return '+'.join(parts)
 
 
+def bgm_path():
+    p = os.environ.get('PROMO_BGM')
+    p = BGM if p is None else Path(p) if p.strip() else None
+    return p if p and p.is_file() else None
+
+
 def ffmpeg_cmd(listfile, out):
-    return ['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', str(listfile),
-            '-f', 'lavfi', '-i', f"aevalsrc='{sound_expr()}':s=44100:d={sum(secs for _, secs in SCENES)}",
-            '-ac', '2', '-shortest',
-            '-vf', 'fps=30,format=yuv420p', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '22',
-            '-c:a', 'aac', '-b:a', '64k', '-t', str(sum(secs for _, secs in SCENES)),
-            '-movflags', '+faststart', str(out)]
+    total = sum(secs for _, secs in SCENES)
+    cmd = ['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', str(listfile),
+           '-f', 'lavfi', '-i', f"aevalsrc='{sound_expr()}':s=44100:d={total}"]
+    music = bgm_path()
+    if music:
+        cmd += ['-stream_loop', '-1', '-i', str(music), '-filter_complex',
+                f'[2:a]volume={BGM_VOLUME},afade=t=out:st={total - 1.5}:d=1.5[m];'
+                f'[1:a]aformat=channel_layouts=stereo[s];[s][m]amix=inputs=2:duration=first:normalize=0[a]',
+                '-map', '0:v', '-map', '[a]']
+    return cmd + ['-ac', '2', '-shortest',
+                  '-vf', 'fps=30,format=yuv420p', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '22',
+                  '-c:a', 'aac', '-b:a', '96k' if music else '64k', '-t', str(total),
+                  '-movflags', '+faststart', str(out)]
 
 
 def render(q, out_mp4, workdir):
