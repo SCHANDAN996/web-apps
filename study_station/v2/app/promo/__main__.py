@@ -164,8 +164,11 @@ def run_shorts(a, day, data):
                 except Exception as e:
                     print(f"youtube: tags/thumbnail skipped ({type(e).__name__})")
                     extra = {}
+                extra['publish_at'] = youtube.publish_time(day, n - 1)
                 item['youtube_id'] = uploader.upload(q['id'], out / f'{n:02d}.mp4', shorts.caption(q), day, **extra)
-                print(f"YouTube: https://youtu.be/{item['youtube_id']}")
+                at = extra['publish_at'] if uploader.privacy == 'public' else None
+                when = at.astimezone(youtube.IST).strftime(' (public at %H:%M IST)') if at else ''
+                print(f"YouTube: https://youtu.be/{item['youtube_id']}{when}")
             except youtube.YouTubeError as e:
                 print(f'youtube: {e}')
                 error = True

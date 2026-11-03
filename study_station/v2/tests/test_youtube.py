@@ -172,3 +172,36 @@ def test_thumbnail_failure_keeps_upload(monkeypatch, tmp_path, capsys):
     out = capsys.readouterr().out
     assert 'thumbnail not set 403' in out and 'secret body' not in out
     assert json.loads((tmp_path / 'journal.json').read_text())['uploads']['UCexpected:q1']['status'] == 'uploaded'
+
+
+def test_publish_time_slots(monkeypatch):
+    from datetime import datetime, timezone
+    monkeypatch.delenv('YOUTUBE_PUBLISH_TIMES', raising=False)
+    day = date(2026, 11, 4)
+    early = datetime(2026, 11, 3, 23, 31, tzinfo=timezone.utc)          # 05:01 IST
+    got = [youtube.publish_time(day, i, early) for i in range(4)]
+    assert [g.strftime('%H:%M') for g in got[:3]] == ['03:30', '08:30', '13:30'] and got[3] is None
+    late = datetime(2026, 11, 4, 8, 20, tzinfo=timezone.utc)            # 13:50 IST: 14:00 too close
+    assert youtube.publish_time(day, 0, late) is None and youtube.publish_time(day, 1, late) is None
+    assert youtube.publish_time(day, 2, late).strftime('%H:%M') == '13:30'
+    monkeypatch.setenv('YOUTUBE_PUBLISH_TIMES', 'nine')
+    with pytest.raises(youtube.YouTubeError, match='PUBLISH_TIMES'):
+        youtube.publish_time(day, 0, early)
+
+
+def test_public_upload_is_scheduled(monkeypatch, tmp_path):
+    from datetime import datetime, timezone
+    seen = {}
+    def track(request):
+        if request.method == 'POST' and '/videos' in request.url.path:
+            seen['status'] = json.loads(request.content)['status']
+            return httpx.Response(200, headers={'Location': 'https://www.googleapis.com/upload/youtube/v3/videos?upload_id=x'})
+        return handler(request)
+    video = configured(monkeypatch, tmp_path, track)
+    monkeypatch.setenv('YOUTUBE_PRIVACY_STATUS', 'public')
+    at = datetime(2026, 11, 4, 3, 30, tzinfo=timezone.utc)
+    youtube.Uploader().upload('q1', video, 'Question #Shorts\n\nD', date(2026, 11, 4), publish_at=at)
+    assert seen['status'] == {'privacyStatus': 'private', 'publishAt': '2026-11-04T03:30:00Z',
+                              'selfDeclaredMadeForKids': False}
+    entry = json.loads((tmp_path / 'journal.json').read_text())['uploads']['UCexpected:q1']
+    assert entry['publish_at'] == '2026-11-04T03:30:00Z'

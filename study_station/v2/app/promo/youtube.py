@@ -8,6 +8,7 @@ import os
 import re
 import subprocess
 import tempfile
+from datetime import datetime, time, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -16,6 +17,26 @@ import httpx
 
 class YouTubeError(Exception):
     """Safe to show in logs; never include HTTP bodies, credentials or session URLs."""
+
+
+IST = timezone(timedelta(hours=5, minutes=30))
+DEFAULT_PUBLISH_TIMES = '09:00,14:00,19:00'      # IST; between the Telegram slots (07:30 · 12:30 · 18:00)
+
+
+def publish_time(day, index, now=None):
+    """When the index-th Short of `day` goes public (UTC), from YOUTUBE_PUBLISH_TIMES ('09:00,14:00,19:00', IST).
+    None = publish at once: no slot for this index, or the slot is under 15 minutes away (a late manual run)."""
+    raw = os.environ.get('YOUTUBE_PUBLISH_TIMES', DEFAULT_PUBLISH_TIMES).strip()
+    try:
+        slots = [time.fromisoformat(t.strip()) for t in raw.split(',') if t.strip()]
+    except ValueError:
+        raise YouTubeError('YOUTUBE_PUBLISH_TIMES must look like 09:00,14:00,19:00') from None
+    if index >= len(slots):
+        return None
+    at = datetime.combine(day, slots[index], IST)
+    if at < (now or datetime.now(timezone.utc)) + timedelta(minutes=15):
+        return None
+    return at.astimezone(timezone.utc)
 
 
 def client():
@@ -109,7 +130,7 @@ class Uploader:
     def headers(self):
         return {'Authorization': f'Bearer {self.token}'}
 
-    def upload(self, question_id, path, caption, day, tags=None, thumbnail=None):
+    def upload(self, question_id, path, caption, day, tags=None, thumbnail=None, publish_at=None):
         key = f'{self.channel}:{question_id}'
         previous = self.data['uploads'].get(key, {})
         if previous.get('status') == 'uploaded':
@@ -138,8 +159,7 @@ class Uploader:
                               json={'snippet': {'title': title, 'description': description.strip(),
                                                 'categoryId': '27', 'defaultLanguage': 'hi',
                                                 'defaultAudioLanguage': 'hi', 'tags': list(tags or [])},
-                                    'status': {'privacyStatus': self.privacy,
-                                               'selfDeclaredMadeForKids': self.kids}})
+                                    'status': self.status(publish_at)})
                 r.raise_for_status()
                 location = r.headers['Location']
                 url = urlparse(location)
@@ -155,10 +175,19 @@ class Uploader:
         except (httpx.HTTPError, ValueError, KeyError, TypeError, OSError):
             raise YouTubeError('YouTube upload failed or response was lost; pending journal retained. Check YouTube Studio before retrying') from None
         entry.update(status='uploaded', video_id=video_id, requested_privacy=self.privacy)
+        if publish_at and self.privacy == 'public':
+            entry['publish_at'] = publish_at.strftime('%Y-%m-%dT%H:%M:%SZ')
         save(self.path, self.data)
         if thumbnail:
             self.set_thumbnail(video_id, thumbnail)
         return video_id
+
+    def status(self, publish_at=None):
+        """A public Short with a slot is uploaded private and YouTube makes it public at publish_at."""
+        status = {'privacyStatus': self.privacy, 'selfDeclaredMadeForKids': self.kids}
+        if publish_at and self.privacy == 'public':
+            status.update(privacyStatus='private', publishAt=publish_at.strftime('%Y-%m-%dT%H:%M:%SZ'))
+        return status
 
     def set_thumbnail(self, video_id, path):
         """Best effort: needs a phone-verified channel; the video is already up, so a failure only logs."""
