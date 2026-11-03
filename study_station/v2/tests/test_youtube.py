@@ -109,7 +109,7 @@ def test_short_failure_keeps_render_and_successful_item_log(monkeypatch, tmp_pat
     monkeypatch.setattr(shorts, 'render', lambda q, path, work: path.write_bytes(b'video'))
     monkeypatch.setattr(shorts, 'caption', lambda q: 'Title\n\nDescription')
     class BrokenUploader:
-        def upload(self, *a):
+        def upload(self, *a, **kw):
             raise youtube.YouTubeError('Upload uncertain')
     monkeypatch.setattr(youtube, 'Uploader', BrokenUploader)
     monkeypatch.setattr(posted, 'POSTED', tmp_path / 'posted.json')
@@ -140,3 +140,35 @@ def test_maths_comparisons_are_valid_youtube_metadata(monkeypatch, tmp_path):
         return handler(request)
     video = configured(monkeypatch, tmp_path, comparison)
     assert youtube.Uploader().upload('q1', video, 'a < b #Shorts\n\nb > a', date(2026, 10, 24)) == 'video123'
+
+
+def test_upload_sends_tags_and_sets_thumbnail(monkeypatch, tmp_path):
+    seen = {}
+    def track(request):
+        if request.method == 'POST' and request.url.path.endswith('/thumbnails/set'):
+            seen['thumb'] = (request.url.params['videoId'], request.headers['Content-Type'], request.content)
+            return httpx.Response(200, json={})
+        if request.method == 'POST' and '/videos' in request.url.path:
+            seen['tags'] = json.loads(request.content)['snippet']['tags']
+        return handler(request)
+    video = configured(monkeypatch, tmp_path, track)
+    thumb = tmp_path / '01.jpg'
+    thumb.write_bytes(b'jpeg')
+    assert youtube.Uploader().upload('q1', video, 'Question #Shorts\n\nD', date(2026, 10, 24),
+                                     tags=['GK', 'SSC'], thumbnail=thumb) == 'video123'
+    assert seen['tags'] == ['GK', 'SSC'] and seen['thumb'] == ('video123', 'image/jpeg', b'jpeg')
+
+
+def test_thumbnail_failure_keeps_upload(monkeypatch, tmp_path, capsys):
+    def deny(request):
+        if request.url.path.endswith('/thumbnails/set'):
+            return httpx.Response(403, json={'error': 'secret body'})
+        return handler(request)
+    video = configured(monkeypatch, tmp_path, deny)
+    thumb = tmp_path / '01.jpg'
+    thumb.write_bytes(b'jpeg')
+    assert youtube.Uploader().upload('q1', video, 'Question #Shorts\n\nD', date(2026, 10, 24),
+                                     thumbnail=thumb) == 'video123'
+    out = capsys.readouterr().out
+    assert 'thumbnail not set 403' in out and 'secret body' not in out
+    assert json.loads((tmp_path / 'journal.json').read_text())['uploads']['UCexpected:q1']['status'] == 'uploaded'

@@ -159,7 +159,12 @@ def run_shorts(a, day, data):
                 error = True
         if uploader:
             try:
-                item['youtube_id'] = uploader.upload(q['id'], out / f'{n:02d}.mp4', shorts.caption(q), day)
+                try:      # SEO extras never block an upload
+                    extra = {'tags': shorts.tags(q), 'thumbnail': shorts.thumbnail(q, out / f'{n:02d}.jpg')}
+                except Exception as e:
+                    print(f"youtube: tags/thumbnail skipped ({type(e).__name__})")
+                    extra = {}
+                item['youtube_id'] = uploader.upload(q['id'], out / f'{n:02d}.mp4', shorts.caption(q), day, **extra)
                 print(f"YouTube: https://youtu.be/{item['youtube_id']}")
             except youtube.YouTubeError as e:
                 print(f'youtube: {e}')

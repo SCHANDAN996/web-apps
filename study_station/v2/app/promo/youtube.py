@@ -109,7 +109,7 @@ class Uploader:
     def headers(self):
         return {'Authorization': f'Bearer {self.token}'}
 
-    def upload(self, question_id, path, caption, day):
+    def upload(self, question_id, path, caption, day, tags=None, thumbnail=None):
         key = f'{self.channel}:{question_id}'
         previous = self.data['uploads'].get(key, {})
         if previous.get('status') == 'uploaded':
@@ -136,7 +136,8 @@ class Uploader:
                               headers={**self.headers, 'X-Upload-Content-Type': 'video/mp4',
                                        'X-Upload-Content-Length': str(path.stat().st_size)},
                               json={'snippet': {'title': title, 'description': description.strip(),
-                                                'categoryId': '27', 'defaultLanguage': 'hi'},
+                                                'categoryId': '27', 'defaultLanguage': 'hi',
+                                                'defaultAudioLanguage': 'hi', 'tags': list(tags or [])},
                                     'status': {'privacyStatus': self.privacy,
                                                'selfDeclaredMadeForKids': self.kids}})
                 r.raise_for_status()
@@ -155,4 +156,23 @@ class Uploader:
             raise YouTubeError('YouTube upload failed or response was lost; pending journal retained. Check YouTube Studio before retrying') from None
         entry.update(status='uploaded', video_id=video_id, requested_privacy=self.privacy)
         save(self.path, self.data)
+        if thumbnail:
+            self.set_thumbnail(video_id, thumbnail)
         return video_id
+
+    def set_thumbnail(self, video_id, path):
+        """Best effort: needs a phone-verified channel; the video is already up, so a failure only logs."""
+        try:
+            data = Path(path).read_bytes()
+            if not data or len(data) > 2 * 1024 * 1024:
+                raise ValueError()
+            with client() as http:
+                r = http.post('https://www.googleapis.com/upload/youtube/v3/thumbnails/set',
+                              params={'videoId': video_id},
+                              headers={**self.headers, 'Content-Type': 'image/jpeg'}, content=data)
+                r.raise_for_status()
+            return True
+        except (httpx.HTTPError, ValueError, OSError) as e:
+            status = getattr(getattr(e, 'response', None), 'status_code', '')
+            print(f'youtube: thumbnail not set {status} (verify the channel by phone to allow custom thumbnails)')
+            return False

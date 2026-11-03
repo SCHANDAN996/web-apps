@@ -414,18 +414,76 @@ def render(q, out_mp4, workdir):
         shutil.rmtree(workdir, ignore_errors=True)
 
 
+# Exams each book level prepares for: shown in the title, description and tags (search terms people type).
+EXAMS = {'10th_Level': ['SSC GD', 'SSC MTS', 'Railway Group D'],
+         '12th_Level': ['SSC CHSL', 'Railway NTPC', 'Police'],
+         'Graduation_Level': ['SSC CGL', 'Bank PO', 'UPSC Prelims']}
+SUBJECT_TAGS = {'GK': ['GK in Hindi', 'General Knowledge', 'GK Quiz', 'सामान्य ज्ञान'],
+                'Reasoning': ['Reasoning in Hindi', 'Reasoning Tricks', 'Logical Reasoning', 'रीज़निंग'],
+                'Maths': ['Maths Tricks', 'Maths in Hindi', 'Quantitative Aptitude', 'गणित'],
+                'English': ['English Grammar', 'English for SSC', 'Vocabulary', 'अंग्रेज़ी']}
+
+
+def topic(q):
+    """Chapter name for search: the Hindi title from chapter.json, else the folder name (Chapter_17_Culture_Art)."""
+    title = ''
+    try:
+        title = pick.chapter_title(pick.books_root() / q['chapter'])
+    except Exception:
+        pass
+    if not title:
+        name = q['chapter'].rstrip('/').split('/')[-1]
+        title = re.sub(r'^Chapter_\d+_', '', name).replace('_', ' ')
+    return title.strip()
+
+
+def exams(q):
+    return EXAMS.get(q.get('level'), ['SSC', 'Railway'])
+
+
 def caption(q):
+    """YouTube title + description. Title: the question first (what people search), then subject and exam."""
     subj = pick.SUBJECT_HI.get(q['subject'], q['subject'])
-    head = q['question'].split('\n')[0]
-    title = f'{subj} क्विज़: {head}'
-    title = title if len(title) <= 80 else title[:79].rstrip() + '…'
+    head = q['question'].split('\n')[0].strip()
+    tail = f' | {subj} क्विज़ {exams(q)[0]} #Shorts'
+    room = 90 - len(tail)
+    title = (head if len(head) <= room else head[:room - 1].rstrip() + '…') + tail
     link = channel_link()
-    body = [q['question'], ''] + [f"{'ABCD'[i]}. {o}" for i, o in enumerate(q['options'])] + [
-        '', 'उत्तर और पूरा हल वीडियो में 👆 — कमेंट में अपना उत्तर लिखें!', '']
+    level = pick.LEVEL_HI.get(q.get('level'), '')
+    name = topic(q)
+    body = [f"📚 {subj}" + (f' · {name}' if name else '') + (f' · {level}' if level else ''),
+            f"🎯 {', '.join(exams(q))} के लिए ज़रूरी सवाल", '',
+            q['question'], ''] + [f"{'ABCD'[i]}. {o}" for i, o in enumerate(q['options'])] + [
+        '', 'उत्तर और पूरा हल वीडियो में 👆 — कमेंट में अपना उत्तर लिखें!', '',
+        f"इस Short में: {name or subj} का एक महत्वपूर्ण प्रश्न, {', '.join(exams(q))} और सभी प्रतियोगी परीक्षाओं "
+        f"की तैयारी के लिए। रोज़ नए {subj} सवाल हिंदी में — चैनल सब्सक्राइब करें।", '']
     if link:
         body.append(f'मुफ़्त अभ्यास और हल: {link}')
-    body.append(' '.join([HASHTAG.get(q['subject'], '#GK'), '#SSC', '#RailwayExam', '#Shorts', '#StudyStation']))
-    return f"{title} #Shorts\n\n" + '\n'.join(body) + '\n'
+    body.append(' '.join(['#Shorts', HASHTAG.get(q['subject'], '#GK'), '#StudyStation', '#SSC', '#RailwayExam',
+                          '#' + re.sub(r'\W', '', exams(q)[0])]))
+    return title + '\n\n' + '\n'.join(body) + '\n'
+
+
+def tags(q):
+    """YouTube tags: subject, chapter, exams and level; the API allows 500 characters in total."""
+    out = SUBJECT_TAGS.get(q['subject'], []) + [topic(q)] + exams(q) + [
+        pick.LEVEL_HI.get(q.get('level'), ''), 'competitive exam', 'quiz in hindi', 'SSC', 'Railway',
+        'Study Station', 'shorts']
+    seen, total, result = set(), 0, []
+    for t in out:
+        t = re.sub(r'[<>,"]', ' ', t).strip()[:60]
+        if not t or t.lower() in seen or total + len(t) + 3 > 450:
+            continue
+        seen.add(t.lower())
+        total += len(t) + 3
+        result.append(t)
+    return result
+
+
+def thumbnail(q, out_jpg):
+    """The opening 'challenge' frame as a JPEG (under YouTube's 2 MB thumbnail limit)."""
+    frame_hook(q, layout(q)).convert('RGB').save(out_jpg, 'JPEG', quality=85, optimize=True)
+    return out_jpg
 
 
 def short_ok(q):

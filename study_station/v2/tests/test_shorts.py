@@ -149,3 +149,13 @@ def test_short_rejects_explanation_too_long_to_read_without_truncating():
     assert not shorts.short_ok(long)
     with pytest.raises(shorts.DoesNotFit, match='explanation'):
         shorts.layout(long)
+
+
+def test_seo_title_tags_and_thumbnail(tmp_path):
+    title = shorts.caption(Q).split('\n')[0]
+    assert len(title) <= 90 and title.endswith('#Shorts') and 'SSC CHSL' in title and 'अनुच्छेद' in title
+    tags = shorts.tags(Q)
+    assert 'GK in Hindi' in tags and 'SSC CHSL' in tags and sum(len(t) + 3 for t in tags) <= 500
+    assert len(tags) == len({t.lower() for t in tags})
+    jpg = shorts.thumbnail(Q, tmp_path / 't.jpg')
+    assert jpg.read_bytes()[:2] == b'\xff\xd8' and jpg.stat().st_size < 2 * 1024 * 1024
