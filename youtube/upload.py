@@ -62,19 +62,30 @@ def upload(yt, video: Path):
     return resp["id"]
 
 
+MAX_PER_RUN = int(os.environ.get("YT_MAX_PER_RUN", 5))  # daily API quota ~6 uploads
+
+
 def main():
     done = json.loads(LOG.read_text(encoding="utf-8")) if LOG.exists() else {}
     yt = youtube()
-    for arg in sys.argv[1:]:
+    count = 0
+    for arg in sorted(sys.argv[1:]):
         video = Path(arg)
         key = video.as_posix()
         if key in done or not video.exists():
             print(f"skip {key}")
             continue
+        if count >= MAX_PER_RUN:
+            print(f"quota limit: {key} agle run me upload hoga")
+            continue
         vid = upload(yt, video)
+        count += 1
         done[key] = vid
         print(f"OK {key} -> https://youtu.be/{vid}")
         LOG.write_text(json.dumps(done, indent=2, ensure_ascii=False), encoding="utf-8")
+        # Upload ho gaya: repo se video aur uski json hata do
+        video.unlink()
+        video.with_suffix(".json").unlink(missing_ok=True)
 
 
 if __name__ == "__main__":
