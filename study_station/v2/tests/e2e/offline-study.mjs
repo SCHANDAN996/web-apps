@@ -34,6 +34,11 @@ try {
  await p.locator('[data-intro-next]').click();
  await p.locator('[data-intro-next]').click();
  await p.reload();assert.equal(await p.locator('#studyIntro[open]').count(),0);
+ await go('mock');await p.locator('[data-mock-search]').fill('zzzz-missing-exam');
+ await p.locator('[data-mock-empty]:visible').waitFor();
+ assert.equal(await p.locator('[data-mock-card]:visible').count(),0);
+ await p.locator('[data-mock-search]').fill('');await p.locator('[data-mock-filter="IBPS"]').click();
+ assert.equal(await p.locator('[data-mock-card]:visible').count(),2);
  await go('home');await p.locator('.home-image-card').first().waitFor();assert.equal(await p.locator('.home-image-card').count(),12);if(process.env.QA_SCREENSHOT_DIR)for(const theme of ['light','dark','paper']){await p.evaluate(x=>SSTheme.set(x),theme);await p.waitForTimeout(350);await p.screenshot({path:path.join(process.env.QA_SCREENSHOT_DIR,'offline-home-hi-'+theme+'.png'),fullPage:true});}
  await go('books');await p.locator('.offline-list a').first().waitFor();if(process.env.QA_SCREENSHOT_DIR){await p.waitForTimeout(400);await p.evaluate(()=>scrollTo(0,0));await p.screenshot({path:path.join(process.env.QA_SCREENSHOT_DIR,'ui-library.png')});}await p.locator('.offline-list a').first().click();await p.locator('.offline-chapter-link').first().waitFor();if(process.env.QA_SCREENSHOT_DIR){await p.waitForTimeout(400);await p.evaluate(()=>scrollTo(0,0));await p.screenshot({path:path.join(process.env.QA_SCREENSHOT_DIR,'ui-chapters.png')});}await p.locator('.offline-list a').first().click();await p.locator('.offline-reader').waitFor();if(process.env.QA_SCREENSHOT_DIR){await p.waitForTimeout(400);await p.evaluate(()=>scrollTo(0,0));await p.screenshot({path:path.join(process.env.QA_SCREENSHOT_DIR,'ui-reader.png')});}assert.ok((await p.locator('.offline-reader').innerText()).length>100);
  await p.getByRole('button',{name:'पढ़ लिया चिह्नित करें'}).click();

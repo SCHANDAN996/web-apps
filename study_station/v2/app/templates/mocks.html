@@ -3,28 +3,38 @@
 {% block main %}
 <h1>{{ tr('mock_title') }}</h1>
 <p class="muted">{{ tr('mock_desc') }}</p>
+{% if resumable %}<a class="card card-link stack" href="/attempt/{{ resumable.id }}"><strong>{{ tr('mock_continue') }}</strong><span>{{ resumable.title }}</span></a>{% endif %}
+<div class="mock-discovery" data-mock-browser>
+<label class="search"><svg class="icon" aria-hidden="true"><use href="#i-search"/></svg><input type="search" data-mock-search placeholder="{{ tr('mock_search') }}" aria-label="{{ tr('mock_search') }}"></label>
+<div class="chips" role="group" aria-label="{{ tr('mock_filter') }}">{% for body in ['', 'SSC', 'RRB', 'IBPS'] %}<button type="button" class="chip" data-mock-filter="{{ body }}" aria-pressed="{{ 'true' if not body else 'false' }}">{{ body or tr('all') }}</button>{% endfor %}</div>
+</div>
+<p class="small muted">{{ tr('mock_practice_note') }}</p>
+<p data-mock-empty class="empty" role="status" hidden>{{ tr('mock_no_match') }}</p>
 {% for code, hi, en in [('10th', '10वीं स्तर', '10th level'), ('12th', '12वीं स्तर', '12th level'), ('graduate', 'स्नातक स्तर', 'Graduate level')] %}
-<section style="margin-top:var(--sp-5)">
+<section data-mock-group style="margin-top:var(--sp-5)">
   <h2>{{ L(hi, en) }}</h2>
   <div class="mock-card-grid">
     {% for e in exams if e.level == code %}
     {% set plan = plans[e.id] %}
     {% set ok = plan|selectattr('ok')|list|length %}
-    <article class="mock-exam-card" aria-labelledby="mock-title-{{ e.id }}">
+    {% set summary = summaries[e.id] %}
+    <article class="mock-exam-card" data-mock-card data-mock-body="{{ e.body }}" data-mock-name="{{ e.name_hi }} {{ e.name_en }} {{ e.stage_en }}" aria-labelledby="mock-title-{{ e.id }}">
       <div class="row-between"><span class="badge badge-brand">{{ e.body }}</span>
-        {% if ok == plan|length %}<span class="badge badge-ok">{{ L('पूरा मॉक', 'Full mock') }}</span>
-        {% elif ok %}<span class="badge badge-warn">{{ L('आंशिक', 'Partial') }}</span>
+        {% if summary.complete %}<span class="badge badge-ok">{{ tr('mock_full_set') }}</span>
+        {% elif ok %}<span class="badge badge-warn">{{ tr('mock_short_set') }}</span>
         {% else %}<span class="badge">{{ L('जल्द', 'Soon') }}</span>{% endif %}</div>
       <div class="mock-exam-identity"><div><span class="mock-exam-stage">{{ e.stage_en }}</span><h2 id="mock-title-{{ e.id }}">{{ L(e.name_hi, e.name_en) }}</h2></div></div>
       <dl class="mock-exam-metrics">
-        <div><dt>{{ tr('questions') }}</dt><dd>{{ e.sections|sum(attribute='questions') }}</dd></div>
-        <div><dt>{{ tr('minutes') }}</dt><dd>{{ e.duration_min }}</dd></div>
-        <div><dt>{{ tr('offline_mock_marks') }}</dt><dd>{% set ns = namespace(marks=0) %}{% for s in e.sections %}{% set ns.marks = ns.marks + s.questions * s.marks_per_q %}{% endfor %}{{ '%g'|format(ns.marks) }}</dd></div>
+        <div><dt>{{ tr('questions') }}</dt><dd>{{ summary.questions }}</dd></div>
+        <div><dt>{{ tr('minutes') }}</dt><dd>{{ '%g'|format(summary.duration_sec / 60) }}</dd></div>
+        <div><dt>{{ tr('offline_mock_marks') }}</dt><dd>{{ '%g'|format(summary.marks) }}</dd></div>
       </dl>
+      {% if ok and not summary.complete %}<p class="mock-exam-note">{{ tr('mock_question_gap') }}</p>{% endif %}
+      {% if e.slug in ['ibps-clerk','ibps-po','ssc-mts'] %}<p class="mock-exam-note">{{ tr('mock_rule_gap') }}</p>{% elif e.slug == 'ssc-gd' %}<p class="mock-exam-note">{{ tr('mock_language_gap') }}</p>{% endif %}
       <details class="mock-exam-details"><summary>{{ tr('offline_mock_sections') }}</summary><ul>
         {% for s in e.sections %}<li><strong>{{ L(s.subject.name_hi, s.subject.name_en) }}</strong><span>{{ s.questions }} {{ tr('questions') }} · {{ '%g'|format(s.marks_per_q) }} {{ tr('offline_mock_marks') }} {{ tr('offline_mock_each') }}</span><span class="mock-exam-penalty">{% if s.negative_per_q %}{{ tr('offline_mock_negative') }}: {{ '%.3g'|format(s.negative_per_q) }}{% else %}{{ tr('offline_mock_no_negative') }}{% endif %}</span></li>{% endfor %}
       </ul>{% if e.pattern_note_hi or e.pattern_note_en %}<p class="mock-exam-note">{{ L(e.pattern_note_hi, e.pattern_note_en) }}</p>{% endif %}</details>
-      <a class="btn btn-primary mock-exam-start" href="/mock/{{ e.slug }}" aria-label="{{ tr('offline_mock_start') }} · {{ L(e.name_hi, e.name_en) }}">{{ tr('offline_mock_start') }}</a>
+      <a class="btn btn-primary mock-exam-start" href="/mock/{{ e.slug }}" aria-label="{{ tr('mock_open_details') }} · {{ L(e.name_hi, e.name_en) }}">{{ tr('mock_open_details') }}</a>
     </article>
     {% endfor %}
   </div>

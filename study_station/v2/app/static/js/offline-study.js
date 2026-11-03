@@ -374,11 +374,16 @@
   function revision(){heading(t('revision'),'home');var wrong=Object.keys(state.answers).filter(function(id){return !state.answers[id].correct;});notice(t('revision_count')+' '+wrong.length);if(!wrong.length)return;root.appendChild(button(t('start'),function(){var ids=new Set(wrong.map(Number)),topicIds=Array.from(new Set(wrong.map(function(id){return state.answers[id].topic;}))),token=generation;Promise.all(topicIds.map(loadTopic)).then(function(groups){if(token===generation)begin(shuffle(groups.flat().filter(function(q){return ids.has(q.id);})).slice(0,50),'practice');}).catch(showError);},'btn-primary'));}
   function mocks(){
     heading(t('mock'),'home');
+    if(state.active&&state.active.mode==='mock'&&!state.active.finished&&state.active.deadline>Date.now())root.appendChild(h('a',{href:'#session',class:'btn btn-primary'},SS.t.mock_continue));
+    var discovery=h('div',{class:'mock-discovery','data-mock-browser':''},h('label',{class:'search'},h('input',{type:'search','data-mock-search':'',placeholder:SS.t.mock_search,'aria-label':SS.t.mock_search}))),filters=h('div',{class:'chips',role:'group','aria-label':SS.t.mock_filter});
+    ['', 'SSC', 'RRB', 'IBPS'].forEach(function(body){filters.appendChild(h('button',{type:'button',class:'chip','data-mock-filter':body,'aria-pressed':String(!body)},body||t('all')));});discovery.appendChild(filters);root.appendChild(discovery);
+    root.appendChild(h('p',{class:'small muted'},SS.t.mock_practice_note));
+    root.appendChild(h('p',{class:'empty',role:'status','data-mock-empty':'',hidden:true},SS.t.mock_no_match));
     root.appendChild(h('section',{class:'mock-screen-intro'},h('span',{class:'badge badge-brand'},t('mock_pattern')),h('h2',{},t('mock_choose')),h('p',{},t('mock_choose_hint'))));
     var grid=h('div',{class:'mock-card-grid'});root.appendChild(grid);
     (catalog.exams||[]).forEach(function(exam){
       var total=exam.sections.reduce(function(n,s){return n+s.questions;},0),marks=exam.sections.reduce(function(n,s){return n+s.questions*s.marks_per_q;},0);
-      var card=h('article',{class:'mock-exam-card'}),titleId='mock-title-'+exam.id;
+      var card=h('article',{class:'mock-exam-card','data-mock-card':'','data-mock-body':exam.body,'data-mock-name':exam.name_hi+' '+exam.name_en+' '+exam.stage_en}),titleId='mock-title-'+exam.id;
       card.setAttribute('aria-labelledby',titleId);
       card.appendChild(h('div',{class:'mock-exam-identity'},h('span',{class:'mock-exam-emblem','aria-hidden':'true'},exam.body),h('div',{},h('span',{class:'mock-exam-stage'},exam.stage_en),h('h2',{id:titleId},name(exam)))));
       var metrics=h('dl',{class:'mock-exam-metrics'});
@@ -386,6 +391,7 @@
       var details=h('details',{class:'mock-exam-details'},h('summary',{},t('mock_sections'))),sectionList=h('ul',{});
       exam.sections.forEach(function(section){var subject=subjects.find(function(s){return s.id===section.subject_id;});sectionList.appendChild(h('li',{},h('strong',{},subject?name(subject):t('subject')),h('span',{},section.questions+' '+t('questions')+' · '+section.marks_per_q+' '+t('mock_marks')+' '+t('mock_each')),h('span',{class:'mock-exam-penalty'},section.negative_per_q?t('mock_negative')+': '+Number(section.negative_per_q.toFixed(3)):t('mock_no_negative'))));});
       details.appendChild(sectionList);var patternNote=exam['pattern_note_'+SS.lang]||exam.pattern_note_hi||exam.pattern_note_en;if(patternNote)details.appendChild(h('p',{class:'mock-exam-note'},patternNote));card.appendChild(details);
+      if(['ibps-clerk','ibps-po','ssc-mts'].indexOf(exam.slug)>=0)card.appendChild(h('p',{class:'mock-exam-note'},SS.t.mock_rule_gap));else if(exam.slug==='ssc-gd')card.appendChild(h('p',{class:'mock-exam-note'},SS.t.mock_language_gap));
       var b=button(t('mock_start'),async function(){
         var token=generation;b.disabled=true;b.textContent=t('loading');b.setAttribute('aria-busy','true');
         try {
@@ -398,7 +404,8 @@
               if(token!==generation)return;
               var groups=await Promise.all(eligible.slice(ti,ti+4).map(function(top){return loadTopic(top.id);}));
               if(token!==generation)return;
-              groups.forEach(function(rows){rows.forEach(function(q){if(exam.level&&q.level!==exam.level)return;seen++;if(pool.length<section.questions)pool.push(q);else{var slot=Math.floor(Math.random()*seen);if(slot<section.questions)pool[slot]=q;}});});
+              var sectionSubject=subjects.find(function(s){return s.id===section.subject_id;});
+              groups.forEach(function(rows){rows.forEach(function(q){if(exam.level&&q.level!==exam.level)return;if(sectionSubject&&sectionSubject.slug==='english'&&!q.text_en)return;seen++;if(pool.length<section.questions)pool.push(q);else{var slot=Math.floor(Math.random()*seen);if(slot<section.questions)pool[slot]=q;}});});
             }
             if(pool.length!==section.questions)complete=false;
             pool.forEach(function(q){rules[q.id]={marks:section.marks_per_q,negative:section.negative_per_q};});picked=picked.concat(shuffle(pool));
@@ -409,6 +416,7 @@
       },'btn-primary mock-exam-start');b.setAttribute('aria-label',t('mock_start')+' · '+name(exam));card.appendChild(b);grid.appendChild(card);
     });
     notice(t('mock_note'));
+    if(window.SSMockBrowser)window.SSMockBrowser.init();
   }
   function progress(){heading(t('progress'),'home');var answers=Object.keys(state.answers),right=answers.filter(function(id){return state.answers[id].correct;}).length;root.appendChild(h('div',{class:'offline-card'},h('p',{},t('read_chapters')+': '+state.reading.length),h('p',{},t('answered')+': '+answers.length),h('p',{},t('correct')+': '+right),h('p',{},t('sessions')+': '+state.history.length)));root.appendChild(h('div',{class:'offline-list offline-history'},state.history.map(function(s){return h('div',{class:'offline-card'},h('strong',{},new Date(s.at).toLocaleString(SS.lang==='hi'?'hi-IN':'en-IN')),h('p',{},t(s.mode)+' · '+(s.score==null?s.correct:Number(s.score.toFixed(2)))+' / '+(s.maxScore==null?s.total:s.maxScore)));})));}
   function resetOptions(){var select=h('select',{'aria-label':t('reset_scope')},h('option',{value:'all'},t('reset_all')));subjects.forEach(function(s){select.appendChild(h('option',{value:'subject:'+s.id},t('subject')+': '+name(s)));});books.forEach(function(b){b.chapters.forEach(function(c){select.appendChild(h('option',{value:'chapter:'+b.slug+'/'+c.slug},name(b)+' / '+name(c)));});});return select;}

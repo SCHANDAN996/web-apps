@@ -62,6 +62,17 @@ await step('practice 10 questions', async () => {
   await shot('practice-result');
 });
 
+await step('mock search and authority filters', async () => {
+  await p.goto(B + '/mock');
+  await p.fill('[data-mock-search]', 'zzzz-missing-exam');
+  await p.waitForSelector('[data-mock-empty]:visible');
+  if (await p.locator('[data-mock-card]:visible').count()) throw Error('unmatched cards visible');
+  await p.fill('[data-mock-search]', '');
+  await p.click('[data-mock-filter="IBPS"]');
+  if (await p.locator('[data-mock-card]:visible').count() !== 2) throw Error('banking filter failed');
+  await shot('mock-browser');
+});
+
 await step('mock test with palette and submit', async () => {
   await p.goto(B + '/mock');
   await p.click('.mock-exam-start >> nth=0');

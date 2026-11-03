@@ -27,6 +27,10 @@
 {% set usable = plan|selectattr('ok')|list %}
 <section class="card" style="margin-top:var(--sp-4)">
   {% if usable %}
+    <h2>{{ tr('mock_actual_paper') }}</h2>
+    <p><strong>{{ summary.questions }} {{ tr('questions') }} · {{ '%g'|format(summary.duration_sec / 60) }} {{ tr('minutes') }} · {{ '%g'|format(summary.marks) }} {{ tr('marks') }}</strong></p>
+    <p class="small muted">{{ tr('mock_practice_note') }}</p>
+    {% if exam.slug in ['ibps-clerk','ibps-po','ssc-mts'] %}<p class="notice small">{{ tr('mock_rule_gap') }}</p>{% elif exam.slug == 'ssc-gd' %}<p class="notice small">{{ tr('mock_language_gap') }}</p>{% endif %}
     {% if missing %}
     <p class="small">{{ tr('partial_mock') }}</p>
     <div class="chips" style="margin-bottom:var(--sp-4)">{% for p in missing %}<span class="badge badge-warn">{{ L(p.section.subject.name_hi, p.section.subject.name_en) }}: {{ p.available }}/{{ p.section.questions }}</span>{% endfor %}</div>
@@ -36,7 +40,7 @@
       <li>{{ L('Question palette से किसी भी सवाल पर जाएँ; "रिव्यू के लिए मार्क" कर सकते हैं।', 'Jump to any question from the palette; you can mark questions for review.') }}</li>
       <li>{{ L('जवाब और हल टेस्ट जमा करने के बाद दिखेंगे।', 'Answers and solutions appear after you submit.') }}</li>
     </ul>
-    <button class="btn btn-primary btn-block" data-mock="{{ exam.slug }}">{{ tr('start_mock') }}</button>
+    <button class="btn btn-primary btn-block" data-mock="{{ exam.slug }}">{{ tr('mock_start_practice') }}</button>
   {% else %}
     <p class="muted" style="margin:0">{{ tr('mock_unavailable') }}</p>
   {% endif %}

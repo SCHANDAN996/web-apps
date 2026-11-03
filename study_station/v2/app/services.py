@@ -282,6 +282,17 @@ def mock_plan(db: Session, exam: Exam, counts=None):
     return plan
 
 
+def mock_summary(exam, plan):
+    """The actual paper start_mock can build, rather than the advertised full pattern."""
+    sections = [p['section'] for p in plan if p['ok']]
+    selected = sum(s.questions for s in sections)
+    required = sum(s.questions for s in exam.sections)
+    return {'questions': selected, 'required': required,
+            'duration_sec': round(exam.duration_min * 60 * selected / required) if required else 0,
+            'marks': sum(s.questions * s.marks_per_q for s in sections),
+            'complete': bool(required and selected == required)}
+
+
 def start_mock(db: Session, device: Device, exam_slug: str):
     exam = db.scalar(select(Exam).where(Exam.slug == exam_slug).options(
         selectinload(Exam.sections).joinedload(ExamSection.subject)))

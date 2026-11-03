@@ -1,5 +1,18 @@
 """UI strings. Hindi first — most of our learners study in Hindi."""
 STRINGS = {
+    'mock_search': ('अपनी परीक्षा खोजें', 'Find your exam'),
+    'mock_filter': ('परीक्षा संस्था', 'Exam authority'),
+    'mock_no_match': ('यह परीक्षा नहीं मिली। खोज या फ़िल्टर बदलें।', 'No matching exam. Change your search or filter.'),
+    'mock_full_set': ('पूरा प्रश्न सेट', 'Complete question set'),
+    'mock_short_set': ('छोटा अभ्यास', 'Short practice'),
+    'mock_question_gap': ('कुछ भागों में सवाल कम हैं; अभी उपलब्ध भागों से अभ्यास होगा।', 'Some sections need more questions. Practise the available sections for now.'),
+    'mock_practice_note': ('यह अभ्यास टेस्ट है। वास्तविक परीक्षा के नियम अलग हो सकते हैं।', 'This is a practice test. Rules in the real exam may differ.'),
+    'mock_rule_gap': ('इस अभ्यास में अलग section/session timer लागू नहीं है।', 'Separate section/session timers are not enforced in this practice.'),
+    'mock_language_gap': ('इस अभ्यास का भाषा भाग English है; हिंदी भाषा का अलग भाग अभी नहीं है।', 'The language section in this practice is English; a separate Hindi language section is not available yet.'),
+    'mock_actual_paper': ('आपका अभ्यास टेस्ट', 'Your practice paper'),
+    'mock_open_details': ('टेस्ट देखें', 'View test'),
+    'mock_continue': ('अधूरा टेस्ट जारी रखें', 'Continue your test'),
+    'mock_start_practice': ('अभ्यास टेस्ट शुरू करें', 'Start practice test'),
     'intro_skip': ('छोड़ें', 'Skip'),
     'intro_steps': ('समझो, परखो, सुधारो', 'Learn, test, improve'),
     'intro_page': ('परिचय पेज', 'Introduction page'),
@@ -146,9 +159,9 @@ STRINGS = {
     'medium': ('मध्यम', 'Medium'),
     'hard': ('कठिन', 'Hard'),
     'no_questions_yet': ('इस टॉपिक के सवाल जल्द आ रहे हैं।', 'Questions for this topic are coming soon.'),
-    'mock_title': ('असली परीक्षा जैसा मॉक टेस्ट', 'Real exam-style mock tests'),
-    'mock_desc': ('वही pattern, timer, negative marking और question palette जो CBT परीक्षा में मिलता है।',
-                  'Same pattern, timer, negative marking and question palette as the real CBT.'),
+    'mock_title': ('मॉक और परीक्षा अभ्यास', 'Mocks and exam practice'),
+    'mock_desc': ('परीक्षा चुनें। समयबद्ध अभ्यास करें और अपनी गलतियाँ समझें।',
+                  'Choose an exam. Practise with a timer and learn from your mistakes.'),
     'pattern': ('परीक्षा pattern', 'Exam pattern'),
     'section': ('भाग', 'Section'),
     'marks': ('अंक', 'Marks'),
@@ -720,7 +733,7 @@ def client_strings(lang):
             'revise_next', 'revise_next_1', 'revise_none', 'go_practice', 'offline_now', 'online_again', 'report_note',
             'retry', 'reset_progress_confirm', 'reset_progress_warning', 'reset_progress_action']
     keys += [k for k in STRINGS if k.startswith(('rough_', 'backup_', 'reset_', 'cache_', 'bank_', 'offline_', 'dialog_', 'question_', 'choice_', 'workspace_', 'classroom_', 'privacy_', 'deletion_', 'membership_', 'payu_', 'play_billing_', 'login_'))]
-    keys += [k for k in STRINGS if k.startswith('intro_')]
+    keys += [k for k in STRINGS if k.startswith(('intro_', 'mock_'))]
     out = {k: t(k, lang) for k in keys}
     out['errors'] = {k: (v[0] if lang == 'hi' else v[1]) for k, v in ERRORS.items()}
     return out

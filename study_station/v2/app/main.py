@@ -677,7 +677,16 @@ def page_mocks(request: Request, device: Device | None = Depends(current_device)
         selectinload(Exam.sections).joinedload(ExamSection.subject))))
     counts = services.recent_section_counts(db)
     plans = {e.id: services.mock_plan(db, e, counts) for e in exams}
-    return render('mocks.html', request, device, exams=exams, plans=plans, level_rank=LEVEL_RANK)
+    summaries = {e.id: services.mock_summary(e, plans[e.id]) for e in exams}
+    active = []
+    if device:
+        active = list(db.scalars(select(Attempt).where(Attempt.device_id == device.id,
+                           Attempt.mode == 'mock', Attempt.finished_at.is_(None))
+                           .order_by(Attempt.started_at.desc()).limit(10)))
+    resumable = next((a for a in active if a.duration_sec and
+                     (datetime.utcnow() - a.started_at).total_seconds() < a.duration_sec), None)
+    return render('mocks.html', request, device, exams=exams, plans=plans, summaries=summaries,
+                  resumable=resumable, level_rank=LEVEL_RANK)
 
 
 @app.get('/mock/{slug}', response_class=HTMLResponse)
@@ -687,7 +696,8 @@ def page_exam(slug: str, request: Request, device: Device | None = Depends(curre
     if exam is None:
         raise HTTPException(404)
     plan = services.mock_plan(db, exam, services.recent_section_counts(db))
-    return render('exam.html', request, device, exam=exam, plan=plan, pattern_checked=PATTERN_CHECKED)
+    return render('exam.html', request, device, exam=exam, plan=plan,
+                  summary=services.mock_summary(exam, plan), pattern_checked=PATTERN_CHECKED)
 
 
 @app.get('/attempt/{attempt_id}', response_class=HTMLResponse)
