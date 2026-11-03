@@ -1,0 +1,16 @@
+<dialog id="studyIntro" class="study-intro" aria-labelledby="introHeading">
+  <div class="intro-top"><span class="badge badge-brand">{{ tr('brand') }}</span><button type="button" class="btn btn-ghost" data-intro-lang aria-label="{{ tr('onb_lang') }}">{{ 'HI' if lang == 'en' else 'EN' }}</button><button type="button" class="btn btn-ghost" data-intro-close>{{ tr('intro_skip') }}</button></div>
+  <div class="intro-slides" tabindex="0" aria-label="{{ tr('intro_steps') }}">
+    {% for image, key in [('read', 'learn'), ('practice', 'test'), ('revise', 'improve')] %}
+    <section class="intro-slide" data-intro-slide {% if not loop.first %}hidden{% endif %}>
+      <img src="/static/illustrations/{{ image }}.svg?v={{ asset_v }}" width="280" height="210" alt="">
+      <span class="intro-step">{{ tr('intro_' ~ key) }}</span>
+      <h2 {% if loop.first %}id="introHeading"{% endif %}>{{ tr('intro_' ~ key ~ '_title') }}</h2>
+      <p>{{ tr('intro_' ~ key ~ '_body') }}</p>
+      {% if key == 'test' %}<p class="intro-count" data-intro-count hidden></p>{% endif %}
+    </section>
+    {% endfor %}
+  </div>
+  <footer class="intro-footer"><div class="intro-dots" role="group" aria-label="{{ tr('intro_steps') }}">{% for n in range(3) %}<button type="button" data-intro-dot="{{ n }}" aria-label="{{ tr('intro_page') }} {{ n + 1 }}" aria-pressed="{{ 'true' if n == 0 else 'false' }}"><span></span></button>{% endfor %}</div>
+  <div class="intro-buttons"><button type="button" class="btn btn-ghost" data-intro-prev>{{ tr('prev') }}</button><button type="button" class="btn btn-primary" data-intro-next>{{ tr('next') }}</button></div></footer>
+</dialog>

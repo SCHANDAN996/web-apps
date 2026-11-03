@@ -2,10 +2,7 @@
 {% block title %}{{ tr('settings') if settings_mode else tr('brand') + ' — ' + tr('tagline') }}{% endblock %}
 {% block main %}
 {% if not settings_mode %}
-<section class="hero enter">
-  <h1>{{ tr('tagline') }}</h1>
-  <p>{{ L('अभ्यास, असली परीक्षा जैसे मॉक, ग़लतियों की दोहराई और नौकरियों की जानकारी — एक जगह, मुफ़्त।', 'Practice, real exam-style mocks, mistake revision and job updates — in one place, free.') }}</p>
-</section>
+<div data-intro-auto></div>
 {% endif %}
 <form id="onboard" class="card stack enter" style="margin-top:var(--sp-4)">
   <h2>{{ tr('settings') if settings_mode else tr('onb_title') }}</h2>
@@ -110,6 +107,7 @@
   </form>
 </section>
 <section class="card settings-actions" style="margin-top:var(--sp-4)">
+<button class="btn btn-secondary" type="button" data-intro-open>{{ tr('intro_replay') }}</button>
 <a class="btn btn-secondary" href="/membership">{{ tr('membership_title') }}</a>
 <a class="btn btn-secondary" href="/privacy">{{ tr('privacy_title') }}</a>
 <a class="btn btn-ghost" href="/delete-account">{{ tr('deletion_title') }}</a>

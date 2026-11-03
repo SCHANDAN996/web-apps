@@ -1,0 +1,15 @@
+.study-intro{box-sizing:border-box;width:calc(100% - 24px);max-width:520px;max-height:calc(100dvh - 24px);padding:var(--sp-5);border:1px solid var(--border);border-radius:var(--r-xl);background:var(--surface-raised);color:var(--text);overflow:hidden;overscroll-behavior:contain;box-shadow:0 24px 80px #0005}
+.study-intro[open]{display:flex;flex-direction:column}.intro-top,.intro-footer{flex-shrink:0}
+.study-intro::backdrop{background:#101623b8;backdrop-filter:blur(6px)}
+.intro-top,.intro-footer,.intro-buttons{display:flex;align-items:center;justify-content:space-between;gap:var(--sp-3)}
+.intro-slides{touch-action:pan-y;margin:var(--sp-3) 0;outline-offset:4px;min-height:0;overflow-y:auto}
+.intro-slide{text-align:center;animation:intro-in var(--dur-3) var(--ease-out)}
+.intro-slide[hidden]{display:none}.intro-slide img{display:block;width:min(100%,280px);height:clamp(110px,25dvh,210px);object-fit:contain;margin:auto auto var(--sp-4)}
+.intro-step{display:block;color:var(--brand);font-weight:700;font-size:var(--fs-sm);margin-bottom:var(--sp-3)}
+.intro-slide h2{font-size:clamp(1.6rem,6vw,2rem);line-height:1.5;letter-spacing:-.025em;margin:0 0 var(--sp-3)}
+.intro-slide p{font-size:var(--fs-md);line-height:1.8;color:var(--text-2);margin:0 auto var(--sp-4);max-width:34ch}.intro-slide .intro-count{font-size:var(--fs-sm);color:var(--brand);font-weight:700}
+.intro-footer{flex-wrap:wrap;margin-top:var(--sp-5)}.intro-buttons{flex:1;justify-content:flex-end}.intro-dots{display:flex}.intro-dots button{display:grid;place-items:center;width:var(--tap);height:var(--tap);padding:0;border:0;background:transparent;cursor:pointer}.intro-dots span{width:8px;height:8px;border-radius:var(--r-pill);background:var(--border-strong)}.intro-dots [aria-pressed=true] span{width:22px;background:var(--brand)}
+@keyframes intro-in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:360px){.study-intro{padding:var(--sp-4)}.intro-footer{display:block}.intro-dots{justify-content:center}.intro-buttons{justify-content:space-between}}
+@media(max-height:650px){.intro-slide img{height:100px;margin-bottom:var(--sp-2)}.intro-slide h2{font-size:1.4rem}.intro-footer{margin-top:var(--sp-2)}.intro-step{margin-bottom:var(--sp-2)}}
+@media(prefers-reduced-motion:reduce){.intro-slide{animation:none}}

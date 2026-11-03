@@ -29,6 +29,13 @@ const shot = async n => { await p.waitForTimeout(500); await p.screenshot({ path
 
 await step('onboarding', async () => {
   await p.goto(B + '/');
+  await p.waitForSelector('#studyIntro[open]');
+  await p.click('[data-intro-next]');
+  await p.waitForSelector('[data-intro-slide]:not([hidden]) h2');
+  await p.click('[data-intro-next]');
+  await shot('intro-final');
+  await p.click('[data-intro-next]');
+  await p.waitForSelector('#studyIntro:not([open])', {state:'attached'});
   await p.click('label.chip:has-text("10")');
   await p.click('label.chip[data-level="10th"] >> nth=0');
   await p.click('#onboard button[type=submit]');

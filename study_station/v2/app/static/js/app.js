@@ -253,6 +253,7 @@
   });
 
   SS.initPage = function () {
+  if (window.SSIntro) window.SSIntro.init();
   if (window.SSMembershipInit) window.SSMembershipInit();
   if (window.SSLoginInit) window.SSLoginInit();
   if (window.SSClassroom) window.SSClassroom.init();

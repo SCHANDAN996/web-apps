@@ -590,6 +590,13 @@ def render(name, request, device, http_status=200, **extra):
     return templates.TemplateResponse(request, name, ctx(request, device, **extra), status_code=http_status)
 
 
+@app.get('/api/v1/intro-summary')
+def api_intro_summary(db: Session = Depends(get_db)):
+    # Count each usable question row once; translations are fields on the same row.
+    # Reuse the bounded shared aggregate rather than scanning for every slide.
+    return {'questions': sum(services.recent_topic_counts(db).values()), 'scope': 'online_bank'}
+
+
 @app.get('/', response_class=HTMLResponse)
 def page_home(request: Request, device: Device | None = Depends(current_device), db: Session = Depends(get_db)):
     if device is None or not device.level:

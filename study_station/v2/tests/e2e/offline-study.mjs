@@ -23,6 +23,17 @@ try {
  await context.route('**/offline-content/question-index.json',async route=>{if(hideQuestionIndex)return route.fulfill({status:404,contentType:'application/json',body:'{}'});return route.fallback();});
  p.on('request',request=>{if(new URL(request.url()).pathname.startsWith('/offline-content/questions/'))sharedTopicRequests.push(request.url());});
  const go=async hash=>{await p.goto('https://study-station.test/offline-study#'+hash);};
+ await go('home');
+ await p.locator('#studyIntro[open]').waitFor();
+ assert.equal(await p.locator('[data-intro-slide]').count(),3);
+ await p.locator('[data-intro-next]').click();
+ await p.locator('[data-intro-count]:visible').waitFor();
+ const packCatalog=JSON.parse(fs.readFileSync(path.join(assets,'study/catalog.json'),'utf8'));
+ const packCount=packCatalog.subjects.flatMap(s=>s.topics||[]).reduce((n,t)=>n+(t.question_count||0),0);
+ assert.ok((await p.locator('[data-intro-count]').innerText()).includes(packCount.toLocaleString('hi-IN')));
+ await p.locator('[data-intro-next]').click();
+ await p.locator('[data-intro-next]').click();
+ await p.reload();assert.equal(await p.locator('#studyIntro[open]').count(),0);
  await go('home');await p.locator('.home-image-card').first().waitFor();assert.equal(await p.locator('.home-image-card').count(),12);if(process.env.QA_SCREENSHOT_DIR)for(const theme of ['light','dark','paper']){await p.evaluate(x=>SSTheme.set(x),theme);await p.waitForTimeout(350);await p.screenshot({path:path.join(process.env.QA_SCREENSHOT_DIR,'offline-home-hi-'+theme+'.png'),fullPage:true});}
  await go('books');await p.locator('.offline-list a').first().waitFor();if(process.env.QA_SCREENSHOT_DIR){await p.waitForTimeout(400);await p.evaluate(()=>scrollTo(0,0));await p.screenshot({path:path.join(process.env.QA_SCREENSHOT_DIR,'ui-library.png')});}await p.locator('.offline-list a').first().click();await p.locator('.offline-chapter-link').first().waitFor();if(process.env.QA_SCREENSHOT_DIR){await p.waitForTimeout(400);await p.evaluate(()=>scrollTo(0,0));await p.screenshot({path:path.join(process.env.QA_SCREENSHOT_DIR,'ui-chapters.png')});}await p.locator('.offline-list a').first().click();await p.locator('.offline-reader').waitFor();if(process.env.QA_SCREENSHOT_DIR){await p.waitForTimeout(400);await p.evaluate(()=>scrollTo(0,0));await p.screenshot({path:path.join(process.env.QA_SCREENSHOT_DIR,'ui-reader.png')});}assert.ok((await p.locator('.offline-reader').innerText()).length>100);
  await p.getByRole('button',{name:'पढ़ लिया चिह्नित करें'}).click();

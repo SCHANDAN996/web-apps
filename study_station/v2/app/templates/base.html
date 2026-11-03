@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="/static/css/membership.css?v={{ asset_v }}">
   <link rel="stylesheet" href="/static/css/login.css?v={{ asset_v }}">
   <link rel="stylesheet" href="/static/css/classroom.css?v={{ asset_v }}">
+  <link rel="stylesheet" href="/static/css/intro.css?v={{ asset_v }}">
   {% block head %}{% endblock %}
 </head>
 <body class="{% block body_class %}{% endblock %}">
@@ -63,6 +64,8 @@
 {% endblock %}
 <main id="main" class="wrap">{% block main %}{% endblock %}</main>
 <script id="ss-boot" type="application/json">{{ {'lang': lang, 't': strings, 'ai': ai_enabled}|tojson }}</script>
+{% include '_intro.html' %}
+<script src="/static/js/intro.js?v={{ asset_v }}" defer></script>
 <script src="/static/js/dialogs.js?v={{ asset_v }}" defer></script>
 <script src="/static/js/question-actions.js?v={{ asset_v }}" defer></script>
 <script src="/static/js/choice-list.js?v={{ asset_v }}" defer></script>

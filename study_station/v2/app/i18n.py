@@ -1,5 +1,20 @@
 """UI strings. Hindi first — most of our learners study in Hindi."""
 STRINGS = {
+    'intro_skip': ('छोड़ें', 'Skip'),
+    'intro_steps': ('समझो, परखो, सुधारो', 'Learn, test, improve'),
+    'intro_page': ('परिचय पेज', 'Introduction page'),
+    'intro_learn': ('समझो', 'LEARN'),
+    'intro_learn_title': ('रटना कम। समझना ज़्यादा।', 'Less cramming. More understanding.'),
+    'intro_learn_body': ('विषयवार पढ़ाई, आसान समझ और सवालों के साथ तैयारी।', 'Build understanding with subject-wise reading and practice.'),
+    'intro_test': ('परखो', 'TEST'),
+    'intro_test_title': ('पढ़ा कितना नहीं—आया कितना?', 'You studied it. Can you solve it?'),
+    'intro_test_body': ('सवाल हल करो। मॉक दो। अपनी तैयारी पहचानो।', 'Solve questions. Take mocks. Know where you stand.'),
+    'intro_improve': ('सुधारो', 'IMPROVE'),
+    'intro_improve_title': ('गलती पकड़ो। तैयारी सुधारो।', 'Find the mistake. Make progress.'),
+    'intro_improve_body': ('गलत सवाल दोहराओ, रफ वर्क करो और अपनी प्रगति देखो।', 'Revisit mistakes, work things out and track your progress.'),
+    'intro_start': ('मेरी तैयारी शुरू करें', 'Start my preparation'),
+    'intro_questions': ('अभ्यास प्रश्न उपलब्ध', 'practice questions available'),
+    'intro_replay': ('ऐप का परिचय', 'Explore the app'),
     'government_sources': ('आधिकारिक सूचना स्रोत', 'Official information sources'),
     'government_disclaimer': ('Study Station स्वतंत्र शैक्षिक ऐप है; यह किसी सरकारी संस्था का प्रतिनिधि या आधिकारिक ऐप नहीं है।', 'Study Station is an independent educational app. It does not represent any government entity and is not an official government app.'),
     'government_source_hint': ('भर्ती की तारीख और पात्रता के लिए नीचे आधिकारिक सूचना खोलें।', 'Open the official notice below to verify recruitment dates and eligibility.'),
@@ -705,6 +720,7 @@ def client_strings(lang):
             'revise_next', 'revise_next_1', 'revise_none', 'go_practice', 'offline_now', 'online_again', 'report_note',
             'retry', 'reset_progress_confirm', 'reset_progress_warning', 'reset_progress_action']
     keys += [k for k in STRINGS if k.startswith(('rough_', 'backup_', 'reset_', 'cache_', 'bank_', 'offline_', 'dialog_', 'question_', 'choice_', 'workspace_', 'classroom_', 'privacy_', 'deletion_', 'membership_', 'payu_', 'play_billing_', 'login_'))]
+    keys += [k for k in STRINGS if k.startswith('intro_')]
     out = {k: t(k, lang) for k in keys}
     out['errors'] = {k: (v[0] if lang == 'hi' else v[1]) for k, v in ERRORS.items()}
     return out
