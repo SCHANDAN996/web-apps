@@ -1,0 +1,42 @@
+name: YouTube Upload
+
+on:
+  push:
+    branches: [main]
+    paths: ["youtube/videos/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install google-api-python-client google-auth
+
+      - name: Upload new videos
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: |
+          shopt -s nullglob
+          python youtube/upload.py youtube/videos/*.mp4
+
+      - name: Save upload log
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add youtube/uploaded.json || true
+          git diff --cached --quiet || git commit -m "YouTube upload log [skip ci]"
+          git push

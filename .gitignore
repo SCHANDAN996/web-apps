@@ -34,3 +34,7 @@ android/local.properties
 # OS junk
 Thumbs.db
 .DS_Store
+
+# YouTube OAuth secrets
+client_secret*.json
+youtube/token.json
