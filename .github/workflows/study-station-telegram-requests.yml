@@ -1,0 +1,50 @@
+name: Study Station Telegram Requests
+
+on:
+  workflow_dispatch:
+    inputs:
+      message:
+        description: 'Type: /telegram status | /telegram plan | /telegram sample'
+        required: true
+        type: string
+        default: '/telegram sample'
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: study-station-telegram-request
+  cancel-in-progress: false
+
+jobs:
+  deliver:
+    # Issue commands only from repository owner on actual issues (never PR comments).
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'issue_comment' &&
+       github.event.issue.pull_request == null &&
+       github.event.comment.user.login == github.repository_owner &&
+       startsWith(github.event.comment.body, '/telegram'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+      REQUEST_TEXT: ${{ github.event_name == 'workflow_dispatch' && inputs.message || github.event.comment.body }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install FFmpeg and voice dependency (sample only)
+        if: contains(env.REQUEST_TEXT, 'sample')
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install 'edge-tts>=6.1,<8'
+      - name: Deliver requested result to existing Telegram channel
+        run: python study_station/telegram_request.py --message "$REQUEST_TEXT"
