@@ -177,7 +177,12 @@
   "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_16_Books_Authors#Set02#Q29",
   "12th_Level/Reasoning/Chapter_14_Alphabet_Questions#Set04#Q88",
   "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_17_Spelling#Set04#Q96",
-  "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_17_Spelling#Short_Tricks_hi.txt#3"
+  "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_17_Spelling#Short_Tricks_hi.txt#3",
+  "12th_Level/Reasoning/Chapter_05_Direction_Sense#Set01#Q12",
+  "12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_17_Trigonometry#Set02#Q35",
+  "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_09_Economy_Basic#Set03#Q61",
+  "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_12_Sentence_Structure#Set01#Q22",
+  "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_22_Defence#Set04#Q76"
  ],
  "shorts": [
   "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_17_Culture_Art#Set01#Q8",
@@ -2050,6 +2055,58 @@
       "opt": "Idiosyncrasy",
       "exp": "उत्तर: Idiosyncrasy। \"democracy\" के समानता से -acy अंत का जाल है; यह Greek शब्द -synkrasis पर खत्म होता है, जिससे -sy बनता है।",
       "part": "am"
+     }
+    ],
+    [
+     {
+      "id": "12th_Level/Reasoning/Chapter_05_Direction_Sense#Set01#Q12",
+      "msg": 207,
+      "chapter": "12th_Level/Reasoning/Chapter_05_Direction_Sense",
+      "q": "एक कूट में, 'P ↑ Q' का अर्थ है 'P, Q के उत्तर में 6 मीटर है' और 'P → Q' का अर्थ है 'P, Q के पूर्व में 8 मीटर है'। यदि 'A ↑ B' और 'B → C' है, तो A और C के बीच न्यूनतम दूरी क्या है?",
+      "ans": 0,
+      "opt": "10 मीटर",
+      "exp": "उत्तर: 10 मीटर। दूरी = √(36 + 64) = √100 = 10 मीटर, इसलिए उत्तर 10 मीटर है।",
+      "part": "pm"
+     },
+     {
+      "id": "12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_17_Trigonometry#Set02#Q35",
+      "msg": 208,
+      "chapter": "12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_17_Trigonometry",
+      "q": "sin 45° · cos 45° का मान है",
+      "ans": 0,
+      "opt": "1/2",
+      "exp": "उत्तर: 1/2। sin 45° = cos 45° = 1/√2, अतः गुणनफल 1/2 है।",
+      "part": "pm"
+     },
+     {
+      "id": "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_09_Economy_Basic#Set03#Q61",
+      "msg": 209,
+      "chapter": "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_09_Economy_Basic",
+      "q": "भारतीय रिजर्व बैंक का राष्ट्रीयकरण किस वर्ष हुआ?",
+      "ans": 1,
+      "opt": "1949",
+      "exp": "उत्तर: 1949। इसका राष्ट्रीयकरण 1 जनवरी 1949 को हुआ, इसलिए उत्तर है 1949।",
+      "part": "pm"
+     },
+     {
+      "id": "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_12_Sentence_Structure#Set01#Q22",
+      "msg": 210,
+      "chapter": "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_12_Sentence_Structure",
+      "q": "किस वाक्य में relative clause है?",
+      "ans": 3,
+      "opt": "The man who lives next door is a doctor",
+      "exp": "उत्तर: The man who lives next door is a doctor। \"Who lives next door\" संज्ञा \"the man\" का वर्णन करता है, इसलिए उत्तर \"The man who lives next door is a doctor\" है।",
+      "part": "pm"
+     },
+     {
+      "id": "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_22_Defence#Set04#Q76",
+      "msg": 211,
+      "chapter": "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_22_Defence",
+      "q": "एकीकृत निर्देशित मिसाइल विकास कार्यक्रम (IGMDP) डॉ. ए.पी.जे. अब्दुल कलाम के नेतृत्व में किस वर्ष शुरू किया गया था?",
+      "ans": 3,
+      "opt": "1983",
+      "exp": "उत्तर: 1983। IGMDP 1983 में शुरू हुआ और इसके तहत पृथ्वी, अग्नि, आकाश, नाग और त्रिशूल मिसाइलें विकसित हुईं, इसलिए उत्तर 1983 है।",
+      "part": "pm"
      }
     ]
    ],
