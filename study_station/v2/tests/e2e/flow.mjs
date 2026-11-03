@@ -40,6 +40,8 @@ await step('onboarding', async () => {
   await p.click('label.chip[data-level="10th"] >> nth=0');
   await p.click('#onboard button[type=submit]');
   await p.waitForURL(B + '/');
+  // Onboarding and Home share '/', so URL alone does not mean the save/navigation finished.
+  await p.waitForSelector('.today-card');
   await shot('home');
 });
 
