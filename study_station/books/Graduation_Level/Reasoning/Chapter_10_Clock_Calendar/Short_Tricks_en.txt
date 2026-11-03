@@ -1,0 +1,165 @@
+# 🪄 Short Tricks & Mnemonics — Clock & Calendar
+
+---
+
+**Box 1 — The "11-Minute Rule" (Coincidence of Hands)**
+
+> 🗣️ *"Eleven friends share sixty minutes — each gets 5 and 5/11!"*
+
+The two hands coincide every **65 5/11 minutes**, not 60. Remember: **"65 and a bit, hands like to meet."**
+Between any two meetings, the minute hand must gain 60 minutes on the hour hand, and it gains 55 minutes per hour → 60/55 = 65 5/11 min.
+
+---
+
+**Box 2 — "22 Coincidences, 22 Opposites, 44 Right Angles"**
+
+> 🗣️ *"Double-double trouble: 22 hugs, 22 fights, 44 corners in a day!"*
+
+In 12 hours: hands coincide **11 times**, are opposite **11 times**, at right angle **22 times**.
+In 24 hours: **22, 22, 44**. Just double it — except the right angle, which quadruples the 11.
+
+---
+
+**Box 3 — The Mirror Formula: "11:60 minus the time"**
+
+> 🗣️ *"Look in the mirror at 11:60 — the clock's twin lives there!"*
+
+Mirror image of time T = **11:60 − T** (if minutes = 00, use 12:00 − T).
+Memory hook: *"Mirror, mirror on the wall, eleven-sixty catches all."*
+
+---
+
+**Box 4 — Water Image: "Flip top to bottom, not left to right"**
+
+> 🗣️ *"A water image flips the clock upside down — 12 and 6 swap places, left and right stay put!"*
+
+A water image is a **vertical reflection** (top ↔ bottom), unlike a mirror image (left ↔ right). So there is no single "subtract from a fixed time" shortcut that works for every clock position. The safe method:
+
+- The **12 goes to 6** and **6 goes to 12**; numbers on the left stay on the left, numbers on the right stay on the right.
+- For the **angle** each hand makes: if a hand is at angle θ (measured from 12 o'clock, clockwise), its water image is at **360° − θ** measured the same way — i.e., reflect the hand across the horizontal 3–9 line.
+- Quick check: a hand pointing at 2 o'clock appears at 4 o'clock in water; a hand at 10 appears at 8.
+
+Hook: *"Mirror swaps left-right, water swaps up-down — don't mix the twins!"*
+
+---
+
+**Box 5 — Angle Formula: "30H minus 5.5M — the Half-Past Monster"**
+
+> 🗣️ *"Hour hand eats 30 per hour, minute hand steals 5.5 per minute!"*
+
+Angle = **|30H − (11/2)M|**. If the answer exceeds 180°, subtract from 360°.
+Hook: *"The 5.5 monster chases the 30 giant — the gap between them is your angle."*
+
+---
+
+**Box 6 — "Minute hand is a Ferrari: 12× faster"**
+
+> 🗣️ *"The minute hand is a Ferrari, the hour hand is a bullock cart — 12 times slower!"*
+
+Minute hand speed = 6°/min; hour hand = 0.5°/min; relative speed = **5.5°/min**.
+Any "when will hands meet/be opposite" problem = distance ÷ 5.5.
+
+---
+
+**Box 7 — Odd Days Chant: "0-1-2-3-5"**
+
+> 🗣️ *"Ordinary is ONE, Leap is TWO, Century is ZERO unless it's a leap — then ONE more!"*
+
+- Ordinary year → **1** odd day
+- Leap year → **2** odd days
+- 100 years → **5** odd days
+- 200 years → **3** odd days
+- 300 years → **1** odd day
+- 400 years → **0** odd days
+
+Chant: **"5-3-1-0, centuries come and go!"**
+
+---
+
+**Box 8 — "400-Year Reset Button"**
+
+> 🗣️ *"Every 400 years, the calendar hits the reset button — same day, same dates!"*
+
+The Gregorian calendar repeats exactly every **400 years**. So 1 Jan 2000 and 1 Jan 2400 fall on the same weekday. Hook: *"Four centuries = one giant Groundhog Day."*
+
+---
+
+**Box 9 — Month Codes Rap: "033-614-625-035" (+ the Leap-Year Caveat)**
+
+> 🗣️ *"Zero-three-three, six-one-four, six-two-five, zero-three-five!"*
+
+Month codes (Jan→Dec): **0 3 3 6 1 4 6 2 5 0 3 5**
+Day = (Date + Month code + last two digits of Year + Year/4 + Century code) mod 7.
+
+⚠️ **Leap-year caveat:** if the year is a leap year **and** the month is **January or February**, subtract **1** from the total before taking mod 7 — because the extra leap day (29 Feb) has not yet occurred. This is the examiner's favourite trap in this formula!
+
+Sing the codes like a phone number — rhythm makes them stick.
+
+---
+
+**Box 10 — Day Codes: "Sunday is the Hero Zero"**
+
+> 🗣️ *"Sunday = 0, the hero who starts with nothing!"*
+
+Sun=0, Mon=1, Tue=2, Wed=3, Thu=4, Fri=5, Sat=6.
+Hook: *"Sunday rests (zero work!), Saturday parties hardest (six!)."*
+
+---
+
+**Box 11 — Leap Year Test: "Divisible by 4, but centuries need 400"**
+
+> 🗣️ *"Every 4 years a leap — but a century is a snob, it only leaps for 400!"*
+
+Year ÷ 4 → leap. But century years (1900, 2100) must be ÷ 400. So **1900 was NOT a leap year, 2000 WAS**. This is the examiner's favourite trap!
+
+---
+
+**Box 12 — Clock Gaining/Losing: "Compare with the honest clock"**
+
+> 🗣️ *"A lying clock always confesses after enough hours — find how much it lies per hour, then multiply!"*
+
+If a clock gains 5 min every hour, then when it shows 65 min, true time = 60 min. Set up the ratio: **(true time / faulty time) × elapsed faulty time**.
+
+---
+
+**Box 13 — "Same Calendar Year" Trick**
+
+> 🗣️ *"An ordinary year repeats after 6 or 11; a leap year usually waits 28 — unless a non-leap century crashes the party!"*
+
+- **Ordinary year** repeats after **6 or 11 years** (the total odd days in between must be 0 mod 7).
+- **Leap year** repeats after **28 years** — but only when no non-leap century year (like 1900 or 2100) falls in between. Across such a century the gap changes (it can be 12 or 40 years), because the missing leap day breaks the 28-year rhythm.
+- Safe exam rule: for years within the 1901–2099 window, the 6/11/28 pattern works directly; if the span crosses 1900 or 2100, verify by counting odd days instead of applying the shortcut blindly.
+
+Hook: *"Leap years are lazy — they nap for 28 years, but a non-leap century wakes them up early… or late!"*
+
+---
+
+**Box 14 — First & Last Day of a Year**
+
+> 🗣️ *"A year opens and closes on the SAME day — unless it's a leap year, which stays out one day later!"*
+
+Ordinary year: 1 Jan and 31 Dec fall on the **same weekday**. Leap year: 31 Dec is **one day ahead** of 1 Jan. (Because 365 = 1 odd day, 366 = 2.)
+
+---
+
+**Box 15 — Right-Angle Quick Count: "2 per hour, minus the greedy hours"**
+
+> 🗣️ *"Every hour promises two right angles, but 2–3 and 8–9 o'clock are greedy — they steal one each!"*
+
+That's why 12 hours give 22 right angles, not 24. The 2 o'clock and 8 o'clock slots merge two right angles into one.
+
+---
+
+## ⏭️ Skip Strategy — When to Leave the Question
+
+**Tip 1 — The 15-Second Pattern Rule:**
+If a calendar question asks for a day across **many centuries with odd year counts** (e.g., "day on 15 Aug 1947 if 26 Jan 1950 was…") and you cannot set up the odd-day chain within 15 seconds, **mark it and move on**. Return only if time remains — one wrong odd-day count ruins the whole chain anyway.
+
+**Tip 2 — Skip "Faulty Clock Over Multiple Days" Questions:**
+Questions like *"a clock gains 3 min per hour, set right at 6 AM Monday, what is the true time when it shows 5 PM Friday?"* involve long ratio chains. If the span exceeds 24 hours, the calculation cost is high and error-prone — **attempt only if you're confident with the ratio method; otherwise skip and bank the time for 2 easier questions.**
+
+**Tip 3 — Never Skip These (Free Marks):**
+- Mirror image with the 11:60 formula — **15 seconds flat.**
+- "How many times do hands coincide in a day?" — pure recall (22/44).
+- Leap year identification — one division.
+If you see these, **solve them first** — they are the cheapest marks in the reasoning section.

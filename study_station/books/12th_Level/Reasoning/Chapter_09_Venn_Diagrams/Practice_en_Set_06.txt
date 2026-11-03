@@ -1,0 +1,151 @@
+प्रश्न 126–145: आसान | प्रश्न 146–150: मध्यम
+
+126. In a class of 100 students, 60 play cricket, 50 play football and 30 play hockey. 20 play cricket and football, 15 play football and hockey, 10 play cricket and hockey, and 5 play all three games. How many students play at least one of the three games?
+(a) 95 (b) 90 (c) 100 (d) 105
+Answer: (c)
+Solution: By inclusion–exclusion, students playing at least one game = 60 + 50 + 30 − 20 − 15 − 10 + 5 = 100. The trap is to forget adding back the all-three group, which gives 95. Applying the formula fully, the answer is 100.
+Source: PYQ-style
+
+127. In a survey of 200 people, 120 read newspaper A, 100 read newspaper B and 80 read newspaper C. 50 read A and B, 40 read B and C, 30 read A and C, and 20 read all three. How many read exactly two newspapers?
+(a) 60 (b) 70 (c) 80 (d) 90
+Answer: (a)
+Solution: Exactly two = (50 − 20) + (40 − 20) + (30 − 20) = 30 + 20 + 10 = 60. The trap is to add the pairwise figures directly (50 + 40 + 30 = 120), which counts the all-three group three times. Subtracting the all-three group from each pairwise figure, the answer is 60.
+Source: PYQ-style
+
+128. In a group of students, 40% passed in Mathematics, 30% passed in English and 10% passed in both. What percentage of students failed in both subjects?
+(a) 50% (b) 30% (c) 40% (d) 60%
+Answer: (c)
+Solution: Passed in at least one subject = 40 + 30 − 10 = 60%, so failed in both = 100 − 60 = 40%. The trap is to compute 100 − 40 − 30 = 30% and forget to add back the overlap of 10%. Using the union formula, the answer is 40%.
+Source: PYQ-style
+
+129. In a class, 25 students play cricket, 20 play football and 10 play both. If every student plays at least one of the two games, how many students are in the class?
+(a) 45 (b) 35 (c) 55 (d) 30
+Answer: (b)
+Solution: Total = 25 + 20 − 10 = 35. The trap option 45 comes from simply adding 25 + 20 without subtracting the overlap of 10. Since every student plays at least one game, the class strength equals the union, so the answer is 35.
+Source: PYQ-style
+
+130. In an office, 60 employees know Hindi, 45 know English and 20 know both languages. If 15 employees know neither language, how many employees are there in the office?
+(a) 85 (b) 110 (c) 100 (d) 95
+Answer: (c)
+Solution: Employees knowing at least one language = 60 + 45 − 20 = 85, and adding those who know neither gives 85 + 15 = 100. The trap is to forget the 15 and answer 85. Including the neither group, the answer is 100.
+Source: PYQ-style
+
+131. Out of 80 students, 45 like tea, 35 like coffee and 10 like both. How many students like neither tea nor coffee?
+(a) 5 (b) 20 (c) 15 (d) 10
+Answer: (d)
+Solution: Like at least one = 45 + 35 − 10 = 70, so neither = 80 − 70 = 10. The trap is to compute 80 − 45 − 35 = 0, forgetting to add back the overlap. Correctly, the answer is 10.
+Source: PYQ-style
+
+132. In a survey, 70% of people like product X and 50% like product Y. If everyone likes at least one product, what percentage like both products?
+(a) 10% (b) 20% (c) 30% (d) 40%
+Answer: (b)
+Solution: Since the union is 100%, both = 70 + 50 − 100 = 20%. The trap is to answer 30% by subtracting 70 from 100, which ignores product Y entirely. Using the union formula, the answer is 20%.
+Source: PYQ-style
+
+133. In a school of 500 students, 300 play cricket, 250 play football and 100 play both. How many students play exactly one of the two games?
+(a) 300 (b) 250 (c) 400 (d) 350
+Answer: (d)
+Solution: Only cricket = 300 − 100 = 200 and only football = 250 − 100 = 150, so exactly one = 200 + 150 = 350. The trap option 300 comes from reporting the total cricket players instead of only-cricket. Adding the two only-groups, the answer is 350.
+Source: PYQ-style
+
+134. In a colony, 40 families have a car, 30 have a scooter and 15 have both. If 25 families have neither, what is the total number of families?
+(a) 80 (b) 70 (c) 90 (d) 100
+Answer: (a)
+Solution: At least one vehicle = 40 + 30 − 15 = 55, so total = 55 + 25 = 80. The trap is to add all four numbers (40 + 30 + 15 + 25 = 110), which double-counts the both group. Correctly, the answer is 80.
+Source: PYQ-style
+
+135. In a group of 120 people, 75 speak English, 60 speak Hindi and 45 speak both. How many speak only English?
+(a) 15 (b) 30 (c) 45 (d) 60
+Answer: (b)
+Solution: Only English = 75 − 45 = 30. The trap is to answer 75, the total English speakers, which includes the both group. Excluding the overlap, the answer is 30.
+Source: PYQ-style
+
+136. In a class of 60 students, 35 passed in Physics, 30 passed in Chemistry and 20 passed in both. How many students failed in both subjects?
+(a) 10 (b) 15 (c) 20 (d) 25
+Answer: (b)
+Solution: Passed in at least one = 35 + 30 − 20 = 45, so failed in both = 60 − 45 = 15. The trap is to compute 60 − 35 − 30 and get a meaningless negative number by ignoring the overlap. Using the union formula, the answer is 15.
+Source: PYQ-style
+
+137. Among 150 people, 90 like tea, 70 like coffee and 40 like both. How many like exactly one drink?
+(a) 90 (b) 70 (c) 80 (d) 100
+Answer: (c)
+Solution: Only tea = 90 − 40 = 50 and only coffee = 70 − 40 = 30, so exactly one = 50 + 30 = 80. The trap is to compute the union (90 + 70 − 40 = 120), which includes the both group. Excluding the both group, the answer is 80.
+Source: PYQ-style
+
+138. In a survey of 300 people, 180 watch cricket, 150 watch football and 120 watch both. How many watch neither game?
+(a) 60 (b) 120 (c) 90 (d) 30
+Answer: (c)
+Solution: At least one = 180 + 150 − 120 = 210, so neither = 300 − 210 = 90. The trap is to compute 300 − 180 − 150 = −30 by forgetting to add back the overlap. Correctly, the answer is 90.
+Source: PYQ-style
+
+139. In a group, 50 people like apples, 40 like bananas and 25 like both. If 15 like neither fruit, how many people are in the group?
+(a) 90 (b) 75 (c) 65 (d) 80
+Answer: (d)
+Solution: At least one fruit = 50 + 40 − 25 = 65, so total = 65 + 15 = 80. The trap is to answer 65 by forgetting the neither group. Including them, the answer is 80.
+Source: PYQ-style
+
+140. In a class, 60% of students play cricket and 40% play football. If 20% play both games, what percentage play neither game?
+(a) 20% (b) 30% (c) 10% (d) 40%
+Answer: (a)
+Solution: At least one = 60 + 40 − 20 = 80%, so neither = 100 − 80 = 20%. The trap is to compute 100 − 60 − 40 = 0%, ignoring the overlap. Using the union formula, the answer is 20%.
+Source: PYQ-style
+
+141. In a group of 90 students, 50 study Mathematics, 40 study Science and 20 study both. How many students study neither subject?
+(a) 20 (b) 40 (c) 30 (d) 10
+Answer: (a)
+Solution: At least one = 50 + 40 − 20 = 70, so neither = 90 − 70 = 20. The trap is to compute 90 − 50 − 40 = 0, forgetting to add back the overlap. Correctly, the answer is 20.
+Source: PYQ-style
+
+142. In a town, 65% of families own a TV, 45% own a fridge and 25% own both. What percentage of families own exactly one of the two items?
+(a) 40% (b) 50% (c) 60% (d) 70%
+Answer: (c)
+Solution: Only TV = 65 − 25 = 40% and only fridge = 45 − 25 = 20%, so exactly one = 40 + 20 = 60%. The trap is to report only the only-TV figure of 40%. Adding both only-groups, the answer is 60%.
+Source: PYQ-style
+
+143. In a batch of 200 candidates, 120 know typing, 90 know shorthand and 60 know both. How many know neither skill?
+(a) 50 (b) 40 (c) 60 (d) 70
+Answer: (a)
+Solution: At least one = 120 + 90 − 60 = 150, so neither = 200 − 150 = 50. The trap is to answer 60, which is the both figure, not the neither figure. Correctly, the answer is 50.
+Source: PYQ-style
+
+144. In a library survey, 80 members read novels, 60 read magazines and 30 read both. If 20 members read neither, how many members were surveyed?
+(a) 130 (b) 110 (c) 120 (d) 140
+Answer: (a)
+Solution: At least one = 80 + 60 − 30 = 110, so total = 110 + 20 = 130. The trap is to answer 110 by ignoring the neither group. Including the neither group, the answer is 130.
+Source: PYQ-style
+
+145. In a sports club of 250 members, 140 play badminton, 110 play tennis and 60 play both. How many members play exactly one of the two games?
+(a) 120 (b) 140 (c) 150 (d) 130
+Answer: (d)
+Solution: Only badminton = 140 − 60 = 80 and only tennis = 110 − 60 = 50, so exactly one = 80 + 50 = 130. The trap is to report the union (190), which includes the both group. Adding the two only-groups, the answer is 130.
+Source: PYQ-style
+
+146. In a class of 75 students, 45 like mathematics, 35 like science and 15 like both. How many students like neither subject?
+(a) 5 (b) 10 (c) 15 (d) 20
+Answer: (b)
+Solution: At least one = 45 + 35 − 15 = 65, so neither = 75 − 65 = 10. The trap is to answer 15, which is the both figure, not the neither figure. Correctly, the answer is 10.
+Source: PYQ-style
+
+147. In a survey, 55% of people read newspaper P, 35% read newspaper Q and 15% read both. What percentage of people read neither newspaper?
+(a) 15% (b) 20% (c) 30% (d) 25%
+Answer: (d)
+Solution: At least one = 55 + 35 − 15 = 75%, so neither = 100 − 75 = 25%. The trap is to compute 100 − 55 − 35 = 10%, forgetting the overlap. Using the union formula, the answer is 25%.
+Source: PYQ-style
+
+148. In a hostel of 160 students, 100 eat rice, 80 eat roti and 50 eat both. How many students eat exactly one of the two items?
+(a) 100 (b) 70 (c) 90 (d) 80
+Answer: (d)
+Solution: Only rice = 100 − 50 = 50 and only roti = 80 − 50 = 30, so exactly one = 50 + 30 = 80. The trap is to report the union (130), which includes the both group. Adding both only-groups, the answer is 80.
+Source: PYQ-style
+
+149. In a company, 70 employees know Python, 50 know Java and 30 know both. If 10 employees know neither language, how many employees are there in total?
+(a) 100 (b) 110 (c) 90 (d) 120
+Answer: (a)
+Solution: At least one = 70 + 50 − 30 = 90, so total = 90 + 10 = 100. The trap is to answer 90 by forgetting the neither group. Including the neither group, the answer is 100.
+Source: PYQ-style
+
+150. In a group of 500 people, 280 like classical music, 220 like folk music and 120 like both. How many people like neither type of music?
+(a) 100 (b) 120 (c) 140 (d) 160
+Answer: (b)
+Solution: At least one = 280 + 220 − 120 = 380, so neither = 500 − 380 = 120. The trap is to compute 500 − 280 − 220 = 0, ignoring the overlap. Correctly, the answer is 120.
+Source: PYQ-style

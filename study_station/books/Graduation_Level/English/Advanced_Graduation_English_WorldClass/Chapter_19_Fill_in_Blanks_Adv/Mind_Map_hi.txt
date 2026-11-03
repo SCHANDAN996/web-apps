@@ -1,0 +1,32 @@
+```mermaid
+graph TD
+    A["रिक्त स्थान भरें<br>(उन्नत)"] --> B["पहचानें: प्रश्न का प्रकार"]
+    A --> C["व्याकरण आधारित"]
+    A --> D["शब्दावली आधारित"]
+    A --> E["रणनीति"]
+
+    B --> B1["तथ्यात्मक<br>15 सेकंड नियम"]
+    B --> B2["तार्किक / अनुमान<br>45 सेकंड नियम"]
+
+    C --> C1["कर्ता-क्रिया सामंजस्य<br>Subject-Verb Agreement"]
+    C --> C2["काल का सामंजस्य<br>Tense Consistency"]
+    C --> C3["पूर्वसर्ग का योग<br>Preposition Collocation"]
+    C --> C4["संयोजक<br>Conjunctions"]
+    C --> C5["सर्वनाम संदर्भ<br>Pronoun Reference"]
+
+    C1 --> C1a["जाल: बीच का वाक्यांश<br>Intervening Phrase"]
+    C1 --> C1b["जाल: सामूहिक संज्ञा<br>Collective Noun"]
+
+    D --> D1["समानार्थी में सूक्ष्म अंतर<br>Near Synonyms"]
+    D --> D2["मुहावरे व वाक्यांश<br>Idioms & Phrasal Verbs"]
+    D --> D3["मूल शब्द विश्लेषण<br>Roots: dict, spect, port"]
+    D --> D4["टोन पहचान<br>सकारात्मक / नकारात्मक / तटस्थ"]
+
+    D1 --> D1a["जाल: ध्वनि-सही<br>Sound-Right Trap"]
+    D4 --> D4a["जाल: अति-विचार<br>Over-thinking"]
+
+    E --> E1["संकेत शब्द खोजें<br>but, although, because"]
+    E --> E2["पहले विकल्प हटाएँ<br>Elimination"]
+    E --> E3["पूरा वाक्य पढ़कर जाँचें<br>Read Back"]
+    E --> E4["Skip Strategy<br>2 मिनट से अधिक = छोड़ें"]
+```

@@ -1,0 +1,43 @@
+```mermaid
+graph TD
+    A["Voice (वाच्य)<br>Active vs Passive"] --> B["Active Voice<br>Subject performs action<br>S + V + O"]
+    A --> C["Passive Voice<br>Subject receives action<br>O + be + V3 + by + S"]
+
+    C --> D["Conversion Rules"]
+    D --> D1["Object becomes Subject"]
+    D --> D2["Verb → be + V3<br>(be matches tense)"]
+    D --> D3["Subject → by + Agent<br>(drop if obvious)"]
+
+    C --> E["Tense-wise Forms"]
+    E --> E1["Present Simple<br>is/am/are + V3"]
+    E --> E2["Past Simple<br>was/were + V3"]
+    E --> E3["Future Simple<br>will be + V3"]
+    E --> E4["Present Continuous<br>is/am/are being + V3"]
+    E --> E5["Past Continuous<br>was/were being + V3"]
+    E --> E6["Present Perfect<br>has/have been + V3"]
+    E --> E7["Past Perfect<br>had been + V3"]
+    E --> E8["Future Perfect<br>will have been + V3"]
+
+    C --> F["Special Cases"]
+    F --> F1["Modals<br>modal + be + V3"]
+    F --> F2["Imperatives<br>Let + object + be + V3"]
+    F --> F3["Infinitive<br>to be + V3"]
+    F --> F4["Two Objects<br>Either can become subject"]
+    F --> F5["Preposition Verbs<br>Keep preposition: was laughed at"]
+    F --> F6["Quasi-Passive<br>It is said that... / He is said to..."]
+
+    A --> G["No Passive Possible"]
+    G --> G1["Intransitive verbs<br>go, sleep, die, arrive"]
+    G --> G2["Stative verbs<br>know, believe, love, own"]
+
+    A --> H["Examiner's Traps"]
+    H --> H1["Wrong 'be' form<br>is being played ≠ is playing"]
+    H --> H2["V2 instead of V3<br>was wrote ❌ was written ✅"]
+    H --> H3["Continuous Perfect<br>No passive: has been doing"]
+    H --> H4["Prepositions other than 'by'<br>known to, surprised at, contained in"]
+
+    A --> I["Strategy"]
+    I --> I1["15-sec: Direct tense conversion"]
+    I --> I2["45-sec: Modals, imperatives,<br>two-object, quasi-passive"]
+    I --> I3["Check: tense match +<br>V3 + preposition retained"]
+```

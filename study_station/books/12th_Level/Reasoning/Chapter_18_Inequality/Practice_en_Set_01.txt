@@ -1,0 +1,151 @@
+Questions 1–20: Easy | Questions 21–25: Medium
+
+1. In the expression P > Q ≥ R = S, which of the following is definitely true?
+(a) P < S (b) P = S (c) P > S (d) P ≥ S
+Answer: (c)
+Solution: Since P > Q and Q ≥ R = S, we get P > Q ≥ S, so P is strictly greater than S. Option (d) is tempting but "≥" is weaker than what the chain guarantees. So the answer is P > S.
+Source: PYQ-style
+
+2. Given A ≥ B > C = D, which conclusion follows?
+(a) A < D (b) A = D (c) A > D (d) B = D
+Answer: (c)
+Solution: A ≥ B and B > C = D gives A ≥ B > D, hence A > D. Option (d) fails because B > C = D means B is strictly greater than D. So the answer is A > D.
+Source: PYQ-style
+
+3. If M < N ≤ O = P, which of the following is definitely true?
+(a) M = P (b) M < P (c) M > P (d) N > P
+Answer: (b)
+Solution: M < N ≤ O = P gives M < P. Option (d) is wrong because N ≤ P, not N > P. So the answer is M < P.
+Source: PYQ-style
+
+4. In X > Y = Z ≥ W, which conclusion is definitely true?
+(a) Y < W (b) X = W (c) X < W (d) X > W
+Answer: (d)
+Solution: X > Y = Z ≥ W means X > W. Option (a) is false since Y = Z ≥ W means Y ≥ W. So the answer is X > W.
+Source: PYQ-style
+
+5. Given statements: J > K, K ≥ L, L = M. Which is definitely true?
+(a) J = M (b) J > M (c) J < M (d) K = M
+Answer: (b)
+Solution: Combining: J > K ≥ L = M, so J > M. Option (d) fails because K ≥ M allows K > M. So the answer is J > M.
+Source: PYQ-style
+
+6. If R ≤ S < T = U, which of the following is definitely true?
+(a) S = U (b) R = U (c) R > U (d) R < U
+Answer: (d)
+Solution: R ≤ S < T = U gives R < U. Option (a) is wrong because S < U strictly. So the answer is R < U.
+Source: PYQ-style
+
+7. In the expression E ≥ F > G < H, which conclusion can be established?
+(a) E > H (b) F < H (c) E > G (d) G = H
+Answer: (c)
+Solution: E ≥ F > G gives E > G. Between F and H the sign changes (G < H breaks the chain), so option (b) cannot be established; similarly E and H cannot be compared. So the answer is E > G.
+Source: PYQ-style
+
+8. Given C > D ≥ E > F, which of the following is definitely false?
+(a) F > C (b) D > F (c) C > E (d) C > F
+Answer: (a)
+Solution: The chain gives C > D ≥ E > F, so C > F, D > F and C > E are all true. Option (a) claims F > C, which directly contradicts C > F. So the answer is F > C.
+Source: PYQ-style
+
+9. If P = Q ≥ R > S, which conclusion follows?
+(a) R = S (b) P = S (c) Q < S (d) P > S
+Answer: (d)
+Solution: P = Q ≥ R > S gives P > S. Option (c) is wrong since Q ≥ R > S means Q > S. So the answer is P > S.
+Source: PYQ-style
+
+10. In T > U ≥ V, V = W, which of the following is definitely true?
+(a) T > W (b) T = W (c) U = W (d) T < W
+Answer: (a)
+Solution: Substituting V = W: T > U ≥ W, so T > W. Option (c) is not definite because U ≥ W allows U > W. So the answer is T > W.
+Source: PYQ-style
+
+11. Given G < H ≤ I < J, which is definitely true?
+(a) G < J (b) G = J (c) H = J (d) G > I
+Answer: (a)
+Solution: G < H ≤ I < J gives G < J. Option (c) fails because H ≤ I < J means H < J. So the answer is G < J.
+Source: PYQ-style
+
+12. If K ≥ L = M > N, which conclusion is definitely true?
+(a) K = N (b) K > N (c) L < N (d) K < M
+Answer: (b)
+Solution: K ≥ L = M > N gives K > N. Option (c) is wrong since L = M > N means L > N. So the answer is K > N.
+Source: PYQ-style
+
+13. In the expression A > B, B = C, C ≥ D, which of the following is definitely true?
+(a) A < C (b) A = D (c) B < D (d) A > D
+Answer: (d)
+Solution: Combining: A > B = C ≥ D, so A > D. Option (c) is wrong because B = C ≥ D means B ≥ D. So the answer is A > D.
+Source: PYQ-style
+
+14. Given W > X ≥ Y = Z, which of the following is definitely false?
+(a) W > Z (b) X ≥ Z (c) W > Y (d) Z > W
+Answer: (d)
+Solution: The chain gives W > X ≥ Y = Z, so W > Z, X ≥ Z and W > Y are all true. Option (d) claims Z > W, contradicting W > Z. So the answer is Z > W.
+Source: PYQ-style
+
+15. If M ≥ N > O ≥ P, which conclusion follows?
+(a) M > P (b) M = P (c) N = P (d) M < P
+Answer: (a)
+Solution: M ≥ N > O ≥ P gives M > P. Option (c) fails because N > O ≥ P means N > P. So the answer is M > P.
+Source: PYQ-style
+
+16. In S > T = U ≥ V, which of the following is definitely true?
+(a) S = V (b) S > V (c) T < V (d) S < U
+Answer: (b)
+Solution: S > T = U ≥ V gives S > V. Option (c) is wrong since T = U ≥ V means T ≥ V. So the answer is S > V.
+Source: PYQ-style
+
+17. Given B < C ≤ D = E, which conclusion is definitely true?
+(a) C > E (b) B = E (c) B < E (d) B > D
+Answer: (c)
+Solution: B < C ≤ D = E gives B < E. Option (a) is wrong because C ≤ E. So the answer is B < E.
+Source: PYQ-style
+
+18. If F > G ≥ H, H = I, which of the following is definitely true?
+(a) G = I (b) F = I (c) F > I (d) F < I
+Answer: (c)
+Solution: Substituting H = I: F > G ≥ I, so F > I. Option (a) is not definite since G ≥ I allows G > I. So the answer is F > I.
+Source: PYQ-style
+
+19. In the expression L ≤ M < N = O, which is definitely true?
+(a) L = O (b) L < O (c) M = O (d) L > N
+Answer: (b)
+Solution: L ≤ M < N = O gives L < O. Option (c) is wrong because M < O strictly. So the answer is L < O.
+Source: PYQ-style
+
+20. Given Q > R = S ≥ T, which of the following is definitely false?
+(a) Q > T (b) R ≥ T (c) T > Q (d) Q > S
+Answer: (c)
+Solution: The chain gives Q > R = S ≥ T, so Q > T, R ≥ T and Q > S are all true. Option (c) claims T > Q, contradicting Q > T. So the answer is T > Q.
+Source: PYQ-style
+
+21. Statements: P ≥ Q = R, R < S, S ≤ T. Conclusions: I. P < T  II. Q < T. Which conclusion(s) follow(s)?
+(a) Only II follows (b) Only I follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (a)
+Solution: Combining: P ≥ Q = R < S ≤ T. For II: Q = R < S ≤ T gives Q < T, so II follows. For I: P ≥ Q but P's relation with T cannot be fixed — P could be greater than, equal to, or less than T — so I does not follow. Option (c) is the trap for those who assume P ≥ Q forces P < T. So the answer is Only II follows.
+Source: PYQ-style
+
+22. Statements: A > B ≥ C, C = D, D > E. Conclusions: I. A > E  II. B > D. Which conclusion(s) follow(s)?
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (a)
+Solution: Combining: A > B ≥ C = D > E. For I: A > B ≥ D > E gives A > E, so I follows. For II: B ≥ C = D means B ≥ D, not definitely B > D, so II does not follow. Option (c) is the trap — "≥" does not guarantee strict ">". So the answer is Only I follows.
+Source: PYQ-style
+
+23. Statements: M = N ≥ O, O > P, P = Q. Conclusions: I. M > Q  II. N = Q. Which conclusion(s) follow(s)?
+(a) Only II follows (b) Only I follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (b)
+Solution: Combining: M = N ≥ O > P = Q. For I: M ≥ O > Q gives M > Q, so I follows. For II: N ≥ O > Q means N > Q, so N = Q is false, and II does not follow. So the answer is Only I follows.
+Source: PYQ-style
+
+24. Statements: X ≥ Y > Z, Z = W, W < V. Conclusions: I. X > W  II. Y > V. Which conclusion(s) follow(s)?
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (a)
+Solution: Combining: X ≥ Y > Z = W < V. For I: X ≥ Y > W gives X > W, so I follows. For II: Y > W and W < V — the sign reverses between Y and V, so Y and V cannot be compared; II does not follow. Option (c) is the trap for those who chain through W ignoring the reversed sign. So the answer is Only I follows.
+Source: PYQ-style
+
+25. Statements: J > K ≥ L = M, M < N ≤ O. Conclusions: I. J > M  II. K < O. Which conclusion(s) follow(s)?
+(a) Neither I nor II follows (b) Only II follows (c) Both I and II follow (d) Only I follows
+Answer: (d)
+Solution: Combining: J > K ≥ L = M < N ≤ O. For I: J > K ≥ M gives J > M, so I follows. For II: K ≥ M and M < O — the sign reverses between K and O, so K and O cannot be compared; II does not follow. Option (c) is the trap for those who ignore the reversed inequality after M. So the answer is Only I follows.
+Source: PYQ-style

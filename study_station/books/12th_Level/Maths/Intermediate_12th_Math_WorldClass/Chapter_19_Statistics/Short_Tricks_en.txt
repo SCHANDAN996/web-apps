@@ -1,3 +1,196 @@
-# Chapter: Statistics, Level: intermediate
+# 🪄 Short Tricks — Statistics (Memory Tricks)
 
-@content_agent lang=en level=intermediate role='mnemonic specialist' 'Create 10-15 fun and outrageous memory tricks (Mnemonics) for all key formulas, rules and concepts of Statistics. Each trick should be unforgettable. Use Keyword Method, Loci, or Acronyms wherever possible. Present each trick in a separate box.'
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 1 — "Mean, Median, Mode" Order**     │
+│                                             │
+│ **"My Mom Makes"** → **M**ean, **M**edian,  │
+│ **M**ode — the three M's of averages!       │
+│                                             │
+│ Memory hook: Mean = add all, divide by n.   │
+│ Median = MIDDLE value. Mode = MOST frequent.│
+│ "Median is in the Middle of the road,       │
+│ Mode is the Most popular kid in school."    │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 2 — Empirical Relation**             │
+│                                             │
+│ **"3 Median = 2 Mean + Mode"**              │
+│                                             │
+│ Chant: *"Three Middles equal two Averages   │
+│ plus one Popular."*                         │
+│                                             │
+│ 3 Median = Mode + 2 Mean                    │
+│ (Median sits between Mean and Mode —        │
+│ it takes 2 parts of Mean, 1 part of Mode!)  │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 3 — Mean Deviation vs Std Deviation**│
+│                                             │
+│ **"MD is Modest, SD Squares"**              │
+│                                             │
+│ Mean Deviation uses |x − mean| (modest —    │
+│ just removes the minus sign).               │
+│ Standard Deviation SQUARES the deviations,  │
+│ then takes the ROOT at the end.             │
+│ "SD is dramatic: it squares first,          │
+│ apologises (root) later!"                   │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 4 — Variance = SD²**                 │
+│                                             │
+│ **"VAR is the SQUARE of the party"**        │
+│                                             │
+│ Variance = (Standard Deviation)²            │
+│ SD = √Variance                              │
+│                                             │
+│ Picture: VAR the villain squares everything;│
+│ SD the hero roots it back to normal.        │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 5 — Coefficient of Variation**       │
+│                                             │
+│ **"CV = SD over Mean, times 100"**          │
+│                                             │
+│ CV = (σ / x̄) × 100                          │
+│                                             │
+│ Keyword: **CV = "Compare Values"** —        │
+│ use it to compare consistency of two series.│
+│ **Lower CV → More Consistent!**             │
+│ "Low CV = Cool & Consistent player."        │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 6 — Median Formula (Grouped Data)**  │
+│                                             │
+│ **"L + (N/2 − C)/f × h"**                   │
+│                                             │
+│ Loci story: You enter the **L**ower gate of │
+│ the median class, climb halfway up the      │
+│ **N** stairs, subtract the **C**rowd already│
+│ inside (cumulative freq), divide by the     │
+│ **f**ans in that room, then multiply by the │
+│ **h**eight of each step (class width).      │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 7 — Mode Formula (Grouped Data)**    │
+│                                             │
+│ **"Mode = L + (f₁−f₀)/(2f₁−f₀−f₂) × h"**    │
+│                                             │
+│ Memory hook: **"The TALLEST bar borrows     │
+│ from its neighbours."**                     │
+│ f₁ = modal class (tallest bar),             │
+│ f₀ = neighbour before, f₂ = neighbour after.│
+│ "1 is the star, 0 and 2 are the sidekicks." │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 8 — Assumed Mean Shortcut**          │
+│                                             │
+│ **"Cheat with A, then ADD back"**           │
+│                                             │
+│ x̄ = A + (Σfᵢdᵢ / Σfᵢ), where dᵢ = xᵢ − A   │
+│                                             │
+│ Trick: Pretend the mean is A (a nice round  │
+│ number in the middle), compute the small    │
+│ deviations, then correct your "cheat" by    │
+│ adding the average deviation back.          │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 9 — Step Deviation (u-method)**      │
+│                                             │
+│ **"Shrink, Solve, Stretch"**                │
+│                                             │
+│ uᵢ = (xᵢ − A)/h → SHRINK the data by h.     │
+│ Find mean of u → SOLVE the tiny problem.    │
+│ x̄ = A + h·ū → STRETCH the answer back.      │
+│                                             │
+│ Like folding a map: fold it, walk, unfold!  │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 10 — Quartiles Order**               │
+│                                             │
+│ **"Q1, Q2, Q3 = 25, 50, 75"**               │
+│                                             │
+│ Q1 = 25% mark, Q2 = 50% = MEDIAN,           │
+│ Q3 = 75% mark.                              │
+│                                             │
+│ Acronym: **"Quarter 1, Quarter 2, Quarter 3"│**
+│ — the data is cut into 4 equal quarters.    │
+│ Q2 is always the Median — "2 = Middle!"     │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 11 — Range & Its Coefficient**       │
+│                                             │
+│ **"Range = Max − Min; Coeff = Diff/Sum"**   │
+│                                             │
+│ Range = L − S (Largest − Smallest)          │
+│ Coefficient = (L − S)/(L + S)               │
+│                                             │
+│ Hook: "The GAP divided by the TOTAL         │
+│ TOGETHERNESS."                              │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 12 — Combined Mean**                 │
+│                                             │
+│ **"Weighted Wedding"**                      │
+│                                             │
+│ x̄₁₂ = (n₁x̄₁ + n₂x̄₂)/(n₁ + n₂)             │
+│                                             │
+│ Two families marry: each brings its members │
+│ (n) and its average wealth (x̄). The new     │
+│ family's average = total wealth ÷ total     │
+│ people. Never just average the averages!    │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 13 — Effect of +, −, ×, ÷ on Mean**  │
+│                                             │
+│ **"Mean OBEYS every operation"**            │
+│                                             │
+│ Add k to every value → mean increases by k. │
+│ Multiply every value by k → mean × k.       │
+│                                             │
+│ But **SD ignores +/−, obeys only ×/÷**!     │
+│ "SD doesn't care where the data LIVES,      │
+│ only how SPREAD OUT it is."                 │
+│ (Adding a constant shifts everyone equally —│
+│ spread unchanged!)                          │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 14 — Ogive (Cumulative Frequency)**  │
+│                                             │
+│ **"Less than climbs UP, More than slides    │
+│ DOWN"**                                     │
+│                                             │
+│ Less-than ogive: rising curve ↗             │
+│ More-than ogive: falling curve ↘            │
+│ Where they CROSS = **MEDIAN**!              │
+│ "The X marks the Median treasure."          │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 15 — Which Average When?**           │
+│                                             │
+│ **Acronym: "M-M-M"**                        │
+│                                             │
+│ • **M**ean → when data has no extreme values│
+│ • **M**edian → when outliers exist (income!)│
+│ • **M**ode → for categorical/most popular   │
+│   (shoe sizes, favourite colour)            │
+│                                             │
+│ "Mean gets bullied by outliers; Median      │
+│ stands firm in the middle; Mode just counts │
+│ the crowd."                                 │
+└─────────────────────────────────────────────┘

@@ -1,0 +1,151 @@
+Questions 1–20: Easy | Questions 21–25: Medium
+
+1. In a row of students, Ravi is 7th from the left end and 12th from the right end. How many students are there in the row?
+(a) 17 (b) 20 (c) 18 (d) 19
+Answer: (c)
+Solution: The trap is simply adding 7 + 12 = 19, which counts Ravi twice. Total = position from left + position from right − 1 = 7 + 12 − 1 = 18, so the answer is 18.
+Source: PYQ-style
+
+2. In a class of 40 students, Mohan ranks 15th from the top. What is his rank from the bottom?
+(a) 26th (b) 25th (c) 24th (d) 27th
+Answer: (a)
+Solution: The trap is forgetting the "+1", which gives 25. Rank from bottom = Total − rank from top + 1 = 40 − 15 + 1 = 26, so the answer is 26th.
+Source: PYQ-style
+
+3. In a queue, Asha is 9th from the front and 14th from the back. How many people are in the queue?
+(a) 22 (b) 24 (c) 23 (d) 21
+Answer: (a)
+Solution: The trap is adding 9 + 14 = 23, which counts Asha twice. Total = 9 + 14 − 1 = 22, so the answer is 22.
+Source: PYQ-style
+
+4. Ram is taller than Shyam but shorter than Mohan. Sohan is taller than Mohan. Who is the tallest?
+(a) Ram (b) Sohan (c) Mohan (d) Shyam
+Answer: (b)
+Solution: The trap is picking Mohan because he is taller than two people, but Sohan is taller than Mohan. The order is Sohan > Mohan > Ram > Shyam, so the answer is Sohan.
+Source: PYQ-style
+
+5. In a row of boys, Suresh is 10th from the left and Ramesh is 8th from the right. If they interchange their positions, Suresh becomes 16th from the left. How many boys are in the row?
+(a) 22 (b) 23 (c) 24 (d) 25
+Answer: (b)
+Solution: The trap is using Suresh's original position 10 with 8, which gives 17 and is not even consistent. After interchange Suresh sits at Ramesh's place, which is 16th from the left and 8th from the right, so Total = 16 + 8 − 1 = 23, so the answer is 23.
+Source: PYQ-style
+
+6. Five friends P, Q, R, S, T are sitting in a row facing north. P is to the immediate right of Q. T is at the extreme right end. S is between R and T. Who is at the extreme left end?
+(a) P (b) Q (c) R (d) S
+Answer: (b)
+Solution: The trap is picking R because S sits between R and T, but R ends up in the middle. The arrangement from left to right is Q, P, R, S, T, so the answer is Q.
+Source: PYQ-style
+
+7. In a class, Neha's rank is 8th from the top and 33rd from the bottom. How many students are in the class?
+(a) 42 (b) 40 (c) 41 (d) 39
+Answer: (b)
+Solution: The trap is adding 8 + 33 = 41, which counts Neha twice. Total = 8 + 33 − 1 = 40, so the answer is 40.
+Source: PYQ-style
+
+8. A is heavier than B. C is lighter than B. D is heavier than A. Who is the lightest?
+(a) A (b) D (c) B (d) C
+Answer: (d)
+Solution: The trap is picking B because it appears in two comparisons, but C is lighter than B. The order is D > A > B > C, so the answer is C.
+Source: PYQ-style
+
+9. In a row of 30 students, Kiran is 12th from the left. What is his position from the right?
+(a) 19th (b) 18th (c) 17th (d) 20th
+Answer: (a)
+Solution: The trap is subtracting without adding 1, which gives 18. Position from right = 30 − 12 + 1 = 19, so the answer is 19th.
+Source: PYQ-style
+
+10. In a queue of boys facing north, Anil is 5th to the left of Sunil who is 10th from the right end. If Anil is 7th from the left end, how many boys are in the queue?
+(a) 23 (b) 20 (c) 22 (d) 21
+Answer: (d)
+Solution: The trap is combining Anil's 7 with Sunil's 10 directly, which mixes two different reference points. Sunil is 5 places to the right of Anil, so Sunil is 12th from the left; Total = 12 + 10 − 1 = 21, so the answer is 21.
+Source: PYQ-style
+
+11. Rohan scored more marks than Sohan. Mohan scored less than Sohan. Karan scored more than Rohan. Who scored the highest?
+(a) Rohan (b) Karan (c) Mohan (d) Sohan
+Answer: (b)
+Solution: The trap is picking Rohan since he beats two others, but Karan beats Rohan. The order is Karan > Rohan > Sohan > Mohan, so the answer is Karan.
+Source: PYQ-style
+
+12. In a row of girls, Priya is 11th from the left and 16th from the right. How many girls are in the row?
+(a) 26 (b) 27 (c) 25 (d) 28
+Answer: (a)
+Solution: The trap is adding 11 + 16 = 27, which counts Priya twice. Total = 11 + 16 − 1 = 26, so the answer is 26.
+Source: PYQ-style
+
+13. Five books are stacked. The Hindi book is above the English book. The Maths book is at the top. The Science book is below the English book. The GK book is at the bottom. Which book is second from the top?
+(a) English (b) Science (c) GK (d) Hindi
+Answer: (d)
+Solution: The trap is picking English because it sits between Hindi and Science, but it is third from the top. From top the order is Maths, Hindi, English, Science, GK, so the answer is Hindi.
+Source: PYQ-style
+
+14. In a class of 50 students, Vikram ranks 20th from the top. What is his rank from the bottom?
+(a) 31st (b) 32nd (c) 29th (d) 30th
+Answer: (a)
+Solution: The trap is forgetting the "+1", which gives 30. Rank from bottom = 50 − 20 + 1 = 31, so the answer is 31st.
+Source: PYQ-style
+
+15. X is taller than Y. Z is shorter than Y. W is taller than X. Who is the shortest?
+(a) Z (b) Y (c) X (d) W
+Answer: (a)
+Solution: The trap is picking Y because it appears in two comparisons, but Z is shorter than Y. The order is W > X > Y > Z, so the answer is Z.
+Source: PYQ-style
+
+16. In a row, Deepak is 15th from the left end and 20th from the right end. How many persons are in the row?
+(a) 33 (b) 36 (c) 35 (d) 34
+Answer: (d)
+Solution: The trap is adding 15 + 20 = 35, which counts Deepak twice. Total = 15 + 20 − 1 = 34, so the answer is 34.
+Source: PYQ-style
+
+17. In a row of 45 students, Seema is 18th from the right end. What is her position from the left end?
+(a) 28th (b) 26th (c) 27th (d) 29th
+Answer: (a)
+Solution: The trap is subtracting without adding 1, which gives 27. Position from left = 45 − 18 + 1 = 28, so the answer is 28th.
+Source: PYQ-style
+
+18. P is older than Q. R is younger than Q. S is older than P. Who is the youngest?
+(a) Q (b) R (c) P (d) S
+Answer: (b)
+Solution: The trap is picking Q because it appears in two comparisons, but R is younger than Q. The order is S > P > Q > R, so the answer is R.
+Source: PYQ-style
+
+19. In a row of boys facing north, A is 6th from the left and B is 9th from the right. There are 4 boys between A and B. What is the minimum number of boys in the row?
+(a) 20 (b) 18 (c) 19 (d) 17
+Answer: (c)
+Solution: The trap is ignoring the overlap case; when B is to the left of A the count becomes 6 + 9 − 4 − 2 = 9, which is impossible since A alone is 6th from the left with 4 boys between, so the valid arrangement has A left of B. Then total = 6 + 4 + 1 + 8 = 19, so the answer is 19.
+Source: PYQ-style
+
+20. In a row of 41 students, Gita's position from the left is the same as her position from the right. What is her position from the left?
+(a) 20th (b) 22nd (c) 19th (d) 21st
+Answer: (d)
+Solution: The trap is simply halving 41 and rounding, without checking. If both positions equal n, then 2n − 1 = 41, giving n = 21, and indeed 21 + 21 − 1 = 41, so the answer is 21st.
+Source: PYQ-style
+
+21. In a row of students, Amit is 13th from the left and Sumit is 17th from the right. When they interchange positions, Amit becomes 21st from the left. What is Sumit's new position from the right?
+(a) 24th (b) 26th (c) 25th (d) 23rd
+Answer: (c)
+Solution: The trap is assuming Sumit's right-side position shrinks by the 8 places Amit moved; in fact Sumit moves to Amit's old place, 13th from the left. Sumit's original place is 21st from the left and 17th from the right, so total = 21 + 17 − 1 = 37, and Sumit's new right position = 37 − 13 + 1 = 25, so the answer is 25th.
+Source: PYQ-style
+
+22. In a class, Rakesh's rank from the top is 12th and from the bottom is 28th. If 5 new students join the class, what will be Rakesh's new rank from the bottom?
+(a) 32nd (b) 31st (c) 33rd (d) 34th
+Answer: (c)
+Solution: The trap is adding 5 to the top rank instead of recomputing from the new total. Original total = 12 + 28 − 1 = 39; new total = 44, so new rank from bottom = 44 − 12 + 1 = 33, so the answer is 33rd.
+Source: PYQ-style
+
+23. Five persons A, B, C, D, E have different heights. A is taller than B but shorter than C. D is shorter than B. E is taller than C. Who is the second tallest?
+(a) A (b) B (c) C (d) E
+Answer: (c)
+Solution: The trap is picking A because it sits between C and B, but A is only third. The order is E > C > A > B > D, so the second tallest is C, so the answer is C.
+Source: PYQ-style
+
+24. In a row of 35 students, M is 9th from the left and N is 12th from the right. How many students are sitting between M and N?
+(a) 16 (b) 13 (c) 15 (d) 14
+Answer: (d)
+Solution: The trap is subtracting directly, 24 − 9 = 15, which counts one endpoint. N's position from the left = 35 − 12 + 1 = 24, and students between the 9th and 24th positions = 24 − 9 − 1 = 14, so the answer is 14.
+Source: PYQ-style
+
+25. In a row of boys, Harish is 10th from the left and Mahesh is 15th from the right. If there are 6 boys between them, which of the following can be the total number of boys in the row?
+(a) 30 (b) 29 (c) 31 (d) 32
+Answer: (c)
+Solution: The trap is the double-case nature of "between" questions; the overlap case gives 10 + 15 − 6 − 2 = 17, which is not among the options. With Harish left of Mahesh, total = 10 + 6 + 15 = 31, so the answer is 31.
+Source: PYQ-style

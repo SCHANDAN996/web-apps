@@ -1,0 +1,97 @@
+# Paper Folding & Cutting — Explained Like You're Teaching a Friend
+
+## The Birthday Card Story
+
+Meera wanted to make a birthday card for her grandmother. She took a square sheet of paper, folded it in half, folded it again, and cut a small triangle at one corner. When she opened it — surprise! — there were **four** identical triangular holes, arranged perfectly symmetrically.
+
+"How did one cut become four holes?" her little brother asked.
+
+That single question is the entire chapter. If you can answer it, you can solve every paper folding and cutting question in SSC, Railway, Bank and State exams. Let me explain it the way Meera explained it to her brother — so simply that you could teach it to a 12-year-old.
+
+## The One Big Idea
+
+**Every fold doubles the paper. Every cut is copied by every fold.**
+
+When you fold paper once, you stack 2 layers. A cut through 2 layers makes 2 holes when opened. Fold twice → 4 layers → 4 holes. Fold three times → 8 layers → 8 holes.
+
+So the golden rule is:
+
+> **Number of holes (or cut shapes) = number of cuts × number of layers at the point where the cut is made.**
+
+And the second rule, just as important:
+
+> **The holes are always mirror images of each other across every fold line.**
+
+That's it. The whole chapter is these two rules applied carefully, step by step.
+
+## How to Solve Any Question — The Unfolding Method
+
+Exam questions show you folded paper with cuts and ask: *"What will it look like when opened?"* Solve it **backwards** — unfold the paper one fold at a time, in reverse order.
+
+**Step 1 — Count the folds.** Note the direction of each fold (left-to-right, bottom-to-top, diagonal).
+
+**Step 2 — Unfold the LAST fold first.** Whatever cuts you see on the folded paper, draw their mirror image across that fold line.
+
+**Step 3 — Unfold the next fold.** Now mirror ALL the cuts (original + the ones you just drew) across the second fold line.
+
+**Step 4 — Repeat until fully opened.** The final picture is your answer.
+
+Think of it like a photocopier: each unfold "photocopies" every existing hole to the other side of the fold line, flipped like a mirror.
+
+## Worked Example 1 — One Fold, One Cut
+
+A square sheet is folded once along the vertical centre line (left half over right half). A circle is punched near the centre of the folded paper.
+
+- Layers = 2
+- Unfold: the circle gets a mirror-image partner on the left half.
+- **Answer: 2 circles, symmetrically placed about the vertical centre line.**
+
+Trap to avoid: the two circles are at equal distances from the fold line — not side by side in the middle.
+
+## Worked Example 2 — Two Folds, One Cut at the Corner
+
+A square is folded in half (bottom up), then in half again (left to right). A small cut is made at the corner where the two fold lines meet (the centre of the original sheet).
+
+- Layers = 4
+- The cut sits exactly on both fold lines, so its mirror images overlap and join.
+- **Answer: one single shape at the exact centre of the sheet** (if the cut was a half-diamond on the fold, it opens into a full diamond).
+
+Key insight: **a cut made exactly ON a fold line does not multiply into separate holes — it opens into one symmetric shape.**
+
+## Worked Example 3 — Cut at the Outer Corner
+
+Same two folds as above, but the cut is made at the corner that has NO fold lines (the free corner).
+
+- Layers = 4, and the cut is away from both fold lines.
+- Unfold once → 2 cuts; unfold again → 4 cuts.
+- **Answer: 4 identical holes, one in each quarter of the sheet, mirror-symmetric about both centre lines.**
+
+## The Three Positions to Memorise
+
+Where the cut falls decides everything:
+
+1. **Cut on a fold line** → opens into one symmetric shape on that line; count it once, not twice.
+2. **Cut at the meeting point of two folds (the centre)** → one shape at the centre of the sheet.
+3. **Cut away from all folds** → multiplies fully: cuts × layers.
+
+## Common Exam Traps
+
+- **Forgetting the mirror flip.** Holes are not just copied — they are flipped. An "L"-shaped cut becomes a backwards "L" across the fold.
+- **Miscounting layers.** A diagonal fold of a square gives 2 layers, but folding the resulting triangle again can give unequal layering — check which region the cut falls in.
+- **Assuming cuts on folds double.** They don't — they merge into one symmetric figure.
+- **Ignoring fold direction.** "Folded upward" vs "folded downward" doesn't change the final opened pattern, but the order of unfolding (last fold first) does matter for your working.
+
+## Quick Practice (Test Yourself)
+
+**Q1.** A sheet is folded once horizontally. Two holes are punched in the folded sheet, away from the fold. How many holes appear on opening?
+**Answer:** 4 (2 cuts × 2 layers).
+
+**Q2.** A square is folded along both diagonals (two folds). One cut is made away from the folds. How many cuts appear on opening?
+**Answer:** 4 (1 cut × 4 layers), arranged symmetrically about the centre.
+
+**Q3.** A sheet folded once has a semicircle cut exactly on the fold line. What appears on opening?
+**Answer:** One full circle on the fold line.
+
+## Teach-Back Check (The Feynman Test)
+
+Close this book and explain to a friend — out loud — why one cut became four holes in Meera's card, and why a cut on the fold line becomes only one shape. If you stumble on the mirror-image part, re-read the Unfolding Method. If you can teach it smoothly, you own this chapter.

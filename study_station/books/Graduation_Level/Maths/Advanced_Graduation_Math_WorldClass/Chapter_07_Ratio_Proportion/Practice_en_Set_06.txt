@@ -1,0 +1,151 @@
+प्रश्न 126–150: कठिन (Hard)
+
+126. If a : b = 2 : 3, b : c = 4 : 5 and c : d = 6 : 7, then a : d is
+(a) 16 : 21 (b) 16 : 35 (c) 35 : 16 (d) 12 : 35
+Answer: (b)
+Solution: The trap is to multiply only the first and last ratios, ignoring that b and c must be made common across all three. Combining: a : b : c = 8 : 12 : 15, and c : d = 6 : 7 = 15 : 17.5, so a : b : c : d = 16 : 24 : 30 : 35. Hence a : d = 16 : 35, so the answer is 16 : 35.
+Source: PYQ-style
+
+127. The incomes of A and B are in the ratio 3 : 2 and their expenditures are in the ratio 5 : 3. If each saves ₹1,000, then A's income is
+(a) ₹6,000 (b) ₹4,500 (c) ₹3,000 (d) ₹7,500
+Answer: (a)
+Solution: The tempting error is to set savings equal to the difference of the ratio terms directly. Let incomes be 3x and 2x, expenditures 5y and 3y. Then 3x − 5y = 1000 and 2x − 3y = 1000; solving gives y = 1000 and x = 2000. A's income = 3 × 2000 = ₹6,000, so the answer is ₹6,000.
+Source: PYQ-style
+
+128. A sum of ₹7,300 is divided among A, B and C such that if ₹200, ₹500 and ₹300 are deducted from their shares respectively, the remainders are in the ratio 3 : 4 : 5. B's share is
+(a) ₹2,500 (b) ₹2,600 (c) ₹3,300 (d) ₹2,900
+Answer: (b)
+Solution: The trap is to divide ₹7,300 directly in the ratio 3 : 4 : 5, forgetting the deductions. Total after deductions = 7300 − 1000 = 6300, so 3k + 4k + 5k = 6300 gives k = 525. B's remainder = 4 × 525 = 2100, so B's actual share = 2100 + 500 = ₹2,600, so the answer is ₹2,600.
+Source: PYQ-style
+
+129. If (3a + 5b) : (3a − 5b) = 5 : 1, then a : b is
+(a) 2 : 1 (b) 5 : 3 (c) 3 : 2 (d) 5 : 2
+Answer: (d)
+Solution: The trap is to invert the componendo-dividendo step. Cross-multiplying: 3a + 5b = 15a − 25b, so 30b = 12a and a/b = 30/12 = 5/2. Hence a : b = 5 : 2, so the answer is 5 : 2.
+Source: PYQ-style
+
+130. Three numbers are in the ratio 1/2 : 2/3 : 3/4. The difference between the greatest and the smallest is 36. The smallest number is
+(a) 144 (b) 108 (c) 72 (d) 96
+Answer: (c)
+Solution: The trap is to treat 1/2, 2/3, 3/4 as the ratio terms directly. Convert to integers using LCM 12: the ratio is 6 : 8 : 9. Difference between greatest and smallest = 9k − 6k = 3k = 36, so k = 12. Smallest = 6 × 12 = 72, so the answer is 72.
+Source: PYQ-style
+
+131. The ratio of the number of boys and girls in a school was 5 : 3. After 50 boys left and 50 girls joined, the ratio became 9 : 7. The original number of students was
+(a) 400 (b) 800 (c) 600 (d) 1,000
+Answer: (b)
+Solution: The trap is to rescale the ratios assuming the parts match, instead of setting up an equation. Let boys = 5x, girls = 3x. Then (5x − 50)/(3x + 50) = 9/7, so 35x − 350 = 27x + 450, giving 8x = 800 and x = 100. Original total = 8 × 100 = 800, so the answer is 800.
+Source: PYQ-style
+
+132. If x : y = 3 : 4, then (7x + 3y) : (7x − 3y) equals
+(a) 11 : 3 (b) 5 : 2 (c) 11 : 9 (d) 33 : 9
+Answer: (a)
+Solution: The trap is to miscompute 7x − 3y as 21 − 12 = 8 instead of 9. With x = 3k, y = 4k: 7x + 3y = 33k and 7x − 3y = 9k. Ratio = 33 : 9 = 11 : 3, so the answer is 11 : 3.
+Source: PYQ-style
+
+133. ₹1,210 is divided among A, B, C so that A : B = 5 : 4 and B : C = 9 : 10. C's share is
+(a) ₹440 (b) ₹360 (c) ₹400 (d) ₹450
+Answer: (c)
+Solution: The trap is to combine the ratios as 5 : 4 : 10 without making B common. Make B equal: A : B = 45 : 36 and B : C = 36 : 40, so A : B : C = 45 : 36 : 40. Total parts = 121, each part = 1210/121 = 10, so C's share = 40 × 10 = ₹400, so the answer is ₹400.
+Source: PYQ-style
+
+134. The third proportional to 0.36 and 0.48 is
+(a) 0.72 (b) 0.1728 (c) 0.60 (d) 0.64
+Answer: (d)
+Solution: The trap is to compute the mean proportional √(0.36 × 0.48) instead of the third proportional. Third proportional x satisfies 0.36 : 0.48 = 0.48 : x, so x = 0.48²/0.36 = 0.2304/0.36 = 0.64, so the answer is 0.64.
+Source: PYQ-style
+
+135. A bag contains ₹1, 50 paise and 25 paise coins in the ratio 3 : 4 : 12, amounting to ₹600. The number of 25 paise coins is
+(a) 600 (b) 900 (c) 1,200 (d) 300
+Answer: (b)
+Solution: The trap is to divide ₹600 in the ratio 3 : 4 : 12 directly, ignoring the coin denominations. Value ratio = 3×1 : 4×0.5 : 12×0.25 = 3 : 2 : 3, total 8 parts = ₹600, so 1 part = ₹75. Value of 25-paise coins = 3 × 75 = ₹225, number of coins = 225/0.25 = 900, so the answer is 900.
+Source: PYQ-style
+
+136. If a/b = c/d = e/f = 2/3, then (3a + 2c + 5e)/(3b + 2d + 5f) equals
+(a) 3/2 (b) 6/9 (c) 2/3 (d) 5/7
+Answer: (c)
+Solution: The trap is to combine the numerators and denominators in some other way and get a different fraction. Since each ratio equals 2/3, we have a = 2b/3, c = 2d/3, e = 2f/3, so the numerator = (2/3)(3b + 2d + 5f). The expression equals 2/3, so the answer is 2/3.
+Source: PYQ-style
+
+137. The prices of a scooter and a TV are in the ratio 7 : 5. If the scooter costs ₹8,000 more than the TV, the price of the TV is
+(a) ₹20,000 (b) ₹28,000 (c) ₹24,000 (d) ₹32,000
+Answer: (a)
+Solution: The trap is to take ₹8,000 as one part instead of the difference of parts. Difference = 7k − 5k = 2k = 8000, so k = 4000. TV price = 5 × 4000 = ₹20,000, so the answer is ₹20,000.
+Source: PYQ-style
+
+138. A and B started a business with capitals in the ratio 3 : 4. A invested for the whole year while B invested for only 8 months. The ratio of their profits at the end of the year is
+(a) 3 : 4 (b) 3 : 2 (c) 4 : 3 (d) 9 : 8
+Answer: (d)
+Solution: The trap is to use the simple capital ratio 3 : 4, ignoring the time for which each capital was invested. Profit ratio = (3 × 12) : (4 × 8) = 36 : 32 = 9 : 8, so the answer is 9 : 8.
+Source: PYQ-style
+
+139. The mean proportional between 0.08 and 0.18 is
+(a) 0.14 (b) 0.13 (c) 0.12 (d) 0.16
+Answer: (c)
+Solution: The trap is to take the arithmetic mean (0.08 + 0.18)/2 = 0.13 instead of the geometric mean. Mean proportional = √(0.08 × 0.18) = √0.0144 = 0.12, so the answer is 0.12.
+Source: PYQ-style
+
+140. In a mixture of 60 litres, the ratio of milk to water is 2 : 1. How much water must be added to make the ratio 1 : 2?
+(a) 40 litres (b) 45 litres (c) 60 litres (d) 50 litres
+Answer: (c)
+Solution: The trap is to add water only until it equals the milk, which gives 1 : 1, not 1 : 2. Milk = 40 L, water = 20 L. Let x litres of water be added: 40/(20 + x) = 1/2, so 20 + x = 80 and x = 60. Hence 60 litres of water must be added, so the answer is 60 litres.
+Source: PYQ-style
+
+141. If (a + b) : (b + c) : (c + a) = 6 : 7 : 8 and a + b + c = 21, then c equals
+(a) 9 (b) 11 (c) 8 (d) 7
+Answer: (a)
+Solution: The trap is to equate c directly with one of the ratio terms. The three ratio terms sum to 2(a + b + c) = 42, and 6 + 7 + 8 = 21 parts, so 1 part = 2. Then a + b = 12, so c = 21 − 12 = 9; check: b + c = 14 gives b = 5, and c + a = 16 gives a = 7, consistent. So the answer is 9.
+Source: PYQ-style
+
+142. The ratio of two numbers is 3 : 5. If 9 is subtracted from each, the ratio becomes 12 : 23. The smaller number is
+(a) 27 (b) 49 (c) 33 (d) 55
+Answer: (c)
+Solution: The trap is a sign error while cross-multiplying. Let the numbers be 3x and 5x. Then (3x − 9)/(5x − 9) = 12/23, so 69x − 207 = 60x − 108, giving 9x = 99 and x = 11. Smaller number = 3 × 11 = 33, so the answer is 33.
+Source: PYQ-style
+
+143. Seats for Mathematics, Physics and Biology in a school are in the ratio 5 : 7 : 8. If the seats are increased by 40%, 50% and 75% respectively, the new ratio is
+(a) 6 : 8 : 9 (b) 2 : 3 : 4 (c) 4 : 5 : 6 (d) 6 : 7 : 8
+Answer: (b)
+Solution: The trap is to add the percentage increases to the ratio terms directly. New seats: 5 × 1.4 = 7, 7 × 1.5 = 10.5, 8 × 1.75 = 14. Ratio 7 : 10.5 : 14 = 14 : 21 : 28 = 2 : 3 : 4, so the answer is 2 : 3 : 4.
+Source: PYQ-style
+
+144. If a : b = 2 : 3 and b : c = 4 : 5, then (a + b + c) : b is
+(a) 12 : 35 (b) 35 : 12 (c) 29 : 12 (d) 35 : 29
+Answer: (b)
+Solution: The trap is to combine the ratios as 2 : 3 : 5 without making b common. a : b = 2 : 3 = 8 : 12 and b : c = 4 : 5 = 12 : 15, so a : b : c = 8 : 12 : 15. Then (a + b + c) : b = 35 : 12, so the answer is 35 : 12.
+Source: PYQ-style
+
+145. A man spends 75% of his income. His income increases by 20% and his expenditure increases by 10%. The ratio of his new savings to his original savings is
+(a) 3 : 2 (b) 2 : 3 (c) 5 : 4 (d) 4 : 3
+Answer: (a)
+Solution: The trap is to apply the percentage changes to the savings directly. Let income = 100; expenditure = 75, savings = 25. New income = 120, new expenditure = 75 × 1.1 = 82.5, new savings = 37.5. Ratio = 37.5 : 25 = 3 : 2, so the answer is 3 : 2.
+Source: PYQ-style
+
+146. The fourth proportional to 5, 8 and 15 is
+(a) 24 (b) 18 (c) 20 (d) 21
+Answer: (a)
+Solution: The trap is to compute the third proportional 8²/5 = 12.8 or to pair the numbers wrongly. Fourth proportional x satisfies 5 : 8 = 15 : x, so x = (8 × 15)/5 = 24, so the answer is 24.
+Source: PYQ-style
+
+147. Two vessels contain milk and water in the ratios 5 : 3 and 2 : 3. In what ratio should the mixtures be combined so that the new mixture has equal milk and water?
+(a) 7 : 8 (b) 8 : 7 (c) 1 : 1 (d) 4 : 5
+Answer: (d)
+Solution: The trap is to average the two ratios or mix them equally. Milk fractions are 5/8 and 2/5; for a 1 : 1 result the milk fraction must be 1/2. By alligation, first : second = (1/2 − 2/5) : (5/8 − 1/2) = 1/10 : 1/8 = 4 : 5; check: 4 L of the first gives 2.5 L milk and 1.5 L water, 5 L of the second gives 2 L milk and 3 L water, totalling 4.5 L each. So the answer is 4 : 5.
+Source: PYQ-style
+
+148. If x/y = 4/5, then the value of (5x − 2y)/(5x + 2y) is
+(a) 2/3 (b) 5/3 (c) 3/5 (d) 1/3
+Answer: (d)
+Solution: The trap is to miscompute 5x − 2y as 20 − 10 = 12 instead of 10. With x = 4k, y = 5k: numerator = 20k − 10k = 10k, denominator = 20k + 10k = 30k. Value = 10/30 = 1/3, so the answer is 1/3.
+Source: PYQ-style
+
+149. ₹5,000 is divided among 5 men, 6 women and 8 boys such that the shares of a man, a woman and a boy are in the ratio 9 : 8 : 4. Each man's share is
+(a) ₹320 (b) ₹400 (c) ₹288 (d) ₹360
+Answer: (d)
+Solution: The trap is to divide ₹5,000 in the ratio 9 : 8 : 4 directly, ignoring the number of persons. Total ratio units = 5×9 + 6×8 + 8×4 = 45 + 48 + 32 = 125, so each unit = 5000/125 = 40. Each man's share = 9 × 40 = ₹360, so the answer is ₹360.
+Source: PYQ-style
+
+150. The ratio of the ages of a father and son is 7 : 2. After 10 years the ratio will be 9 : 4. The father's present age is
+(a) 35 years (b) 42 years (c) 49 years (d) 28 years
+Answer: (a)
+Solution: The trap is to assume the difference of ratio terms stays proportional without solving. Let ages be 7x and 2x. Then (7x + 10)/(2x + 10) = 9/4, so 28x + 40 = 18x + 90, giving 10x = 50 and x = 5. Father's present age = 7 × 5 = 35 years, so the answer is 35 years.
+Source: PYQ-style

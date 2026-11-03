@@ -1,0 +1,133 @@
+# 📋 Important Formulas — Calculus
+
+## 1. Limits
+
+| Formula Name | Formula | One-line Use-Hint |
+|---|---|---|
+| Standard limit (trig) | lim(x→0) sin x / x = 1 | Use for sin, tan, arcsin, arctan over x |
+| Standard limit (exponential) | lim(x→0) (eˣ − 1)/x = 1 | Base-e exponential near zero |
+| Standard limit (log) | lim(x→0) ln(1 + x)/x = 1 | Log near zero |
+| Standard limit (power) | lim(x→0) [(1 + x)ⁿ − 1]/x = n | Binomial-type near zero |
+| Number e | lim(x→0) (1 + x)^(1/x) = e; lim(x→∞) (1 + 1/x)ˣ = e | 1^∞ indeterminate form |
+| Rational limit | lim(x→∞) (a₀xᵐ + …)/(b₀xⁿ + …) = a₀/b₀ if m = n; 0 if m < n; ±∞ if m > n | Compare highest powers |
+| L'Hôpital's Rule | lim f/g = lim f′/g′ (for 0/0 or ∞/∞) | Differentiate top and bottom separately |
+| Sandwich (Squeeze) Theorem | If g ≤ f ≤ h and lim g = lim h = L, then lim f = L | For oscillating functions like x·sin(1/x) |
+| Continuity at a point | lim(x→a⁻) f = lim(x→a⁺) f = f(a) | All three must exist and be equal |
+
+## 2. Differentiation — Basics
+
+| Formula Name | Formula | One-line Use-Hint |
+|---|---|---|
+| First principle | f′(x) = lim(h→0) [f(x+h) − f(x)]/h | Definition-based questions |
+| Power rule | d/dx (xⁿ) = n·xⁿ⁻¹ | Polynomials, roots (rewrite √x = x^½) |
+| Constant multiple | d/dx [c·f(x)] = c·f′(x) | Pull constants out |
+| Sum/Difference rule | (u ± v)′ = u′ ± v′ | Term-by-term differentiation |
+| Product rule | (uv)′ = u′v + uv′ | "First·d(second) + second·d(first)" |
+| Quotient rule | (u/v)′ = (u′v − uv′)/v² | Numerator-derivative first, minus sign |
+| Chain rule | dy/dx = (dy/du)·(du/dx) | Composite functions f(g(x)) |
+| Inverse function | dx/dy = 1/(dy/dx) | When solving for x in terms of y is hard |
+| Parametric form | dy/dx = (dy/dt)/(dx/dt) | When x and y both depend on t |
+| Implicit differentiation | Differentiate both sides w.r.t. x, treat y as y(x) | For x² + y² = r² type relations |
+| Logarithmic differentiation | Take ln both sides, then differentiate | For y = xˣ, products/quotients of powers |
+
+## 3. Standard Derivatives
+
+| Formula Name | Formula | One-line Use-Hint |
+|---|---|---|
+| Exponential | d/dx (eˣ) = eˣ; d/dx (aˣ) = aˣ ln a | aˣ carries the ln a factor |
+| Logarithmic | d/dx (ln x) = 1/x; d/dx (logₐ x) = 1/(x ln a) | Only defined for x > 0 |
+| sin x | d/dx (sin x) = cos x | — |
+| cos x | d/dx (cos x) = −sin x | Negative sign — common trap |
+| tan x | d/dx (tan x) = sec²x | — |
+| cot x | d/dx (cot x) = −cosec²x | Negative sign |
+| sec x | d/dx (sec x) = sec x · tan x | — |
+| cosec x | d/dx (cosec x) = −cosec x · cot x | Negative sign |
+| arcsin x | d/dx (sin⁻¹x) = 1/√(1 − x²) | \|x\| < 1 |
+| arccos x | d/dx (cos⁻¹x) = −1/√(1 − x²) | Negative of arcsin derivative |
+| arctan x | d/dx (tan⁻¹x) = 1/(1 + x²) | No square root here |
+| arccot x | d/dx (cot⁻¹x) = −1/(1 + x²) | Negative of arctan derivative |
+| arcsec x | d/dx (sec⁻¹x) = 1/(\|x\|√(x² − 1)) | \|x\| > 1 |
+| arccosec x | d/dx (cosec⁻¹x) = −1/(\|x\|√(x² − 1)) | Negative of arcsec derivative |
+
+## 4. Applications of Derivatives
+
+| Formula Name | Formula | One-line Use-Hint |
+|---|---|---|
+| Slope of tangent | m = dy/dx at the point | Tangent slope = derivative value |
+| Equation of tangent | y − y₁ = f′(x₁)(x − x₁) | Point-slope form |
+| Equation of normal | y − y₁ = −[1/f′(x₁)](x − x₁) | Slope = negative reciprocal |
+| Increasing function | f′(x) > 0 on interval | Strictly increasing |
+| Decreasing function | f′(x) < 0 on interval | Strictly decreasing |
+| Critical point | f′(x) = 0 or f′(x) undefined | Candidates for maxima/minima |
+| First derivative test | f′ changes + to − → max; − to + → min | Sign change across critical point |
+| Second derivative test | f′(c) = 0 and f″(c) < 0 → max; f″(c) > 0 → min | Faster when f″ is easy |
+| Point of inflection | f″(x) = 0 with sign change of f″ | Concavity changes |
+| Rate of change | dy/dt = (dy/dx)·(dx/dt) | Related rates problems |
+| Approximation (differential) | Δy ≈ f′(x)·Δx | Small-change estimation |
+| Rolle's Theorem | f continuous on [a,b], differentiable on (a,b), f(a) = f(b) ⇒ ∃c: f′(c) = 0 | Check all three conditions |
+| Mean Value Theorem (Lagrange) | f′(c) = [f(b) − f(a)]/(b − a) | No f(a) = f(b) requirement |
+
+## 5. Indefinite Integration — Standard Forms
+
+| Formula Name | Formula | One-line Use-Hint |
+|---|---|---|
+| Power rule | ∫xⁿ dx = xⁿ⁺¹/(n+1) + C, n ≠ −1 | Add 1 to power, divide by new power |
+| Reciprocal | ∫(1/x) dx = ln\|x\| + C | The n = −1 exception |
+| Exponential | ∫eˣ dx = eˣ + C; ∫aˣ dx = aˣ/ln a + C | Divide by ln a for base a |
+| sin x | ∫sin x dx = −cos x + C | Negative sign — common trap |
+| cos x | ∫cos x dx = sin x + C | — |
+| sec²x | ∫sec²x dx = tan x + C | Reverse of tan derivative |
+| cosec²x | ∫cosec²x dx = −cot x + C | Negative sign |
+| sec x tan x | ∫sec x tan x dx = sec x + C | — |
+| cosec x cot x | ∫cosec x cot x dx = −cosec x + C | Negative sign |
+| 1/(1 + x²) | ∫dx/(1 + x²) = tan⁻¹x + C | — |
+| 1/√(1 − x²) | ∫dx/√(1 − x²) = sin⁻¹x + C | — |
+| 1/(a² + x²) | ∫dx/(a² + x²) = (1/a) tan⁻¹(x/a) + C | Don't forget the 1/a |
+| 1/√(a² − x²) | ∫dx/√(a² − x²) = sin⁻¹(x/a) + C | No 1/a here |
+| 1/(x² − a²) | ∫dx/(x² − a²) = (1/2a) ln\|(x − a)/(x + a)\| + C | Partial-fraction result |
+| 1/(a² − x²) | ∫dx/(a² − x²) = (1/2a) ln\|(a + x)/(a − x)\| + C | Order flips vs previous |
+| 1/√(x² + a²) | ∫dx/√(x² + a²) = ln\|x + √(x² + a²)\| + C | Log form |
+| 1/√(x² − a²) | ∫dx/√(x² − a²) = ln\|x + √(x² − a²)\| + C | Log form |
+| √(a² − x²) | ∫√(a² − x²) dx = (x/2)√(a² − x²) + (a²/2) sin⁻¹(x/a) + C | Circle-area type |
+| √(x² ± a²) | ∫√(x² ± a²) dx = (x/2)√(x² ± a²) ± (a²/2) ln\|x + √(x² ± a²)\| + C | Sign stays consistent |
+| tan x | ∫tan x dx = ln\|sec x\| + C | = −ln\|cos x\| + C |
+| cot x | ∫cot x dx = ln\|sin x\| + C | — |
+| sec x | ∫sec x dx = ln\|sec x + tan x\| + C | Classic tricky one |
+| cosec x | ∫cosec x dx = ln\|cosec x − cot x\| + C | — |
+
+## 6. Integration Techniques
+
+| Formula Name | Formula | One-line Use-Hint |
+|---|---|---|
+| Substitution | ∫f(g(x))g′(x) dx = ∫f(u) du, u = g(x) | Look for "function and its derivative" |
+| Integration by parts | ∫u dv = uv − ∫v du | Choose u by ILATE |
+| ILATE order | Inverse, Log, Algebraic, Trig, Exponential | Priority for choosing u |
+| Partial fractions | P(x)/Q(x) → sum of simpler fractions | Factor denominator first |
+| ∫[f′(x)/f(x)] dx | = ln\|f(x)\| + C | Numerator = derivative of denominator |
+| ∫f′(x)·[f(x)]ⁿ dx | = [f(x)]ⁿ⁺¹/(n+1) + C | Power-of-function pattern |
+| eˣ combo | ∫eˣ[f(x) + f′(x)] dx = eˣf(x) + C | Spot f + f′ pairs |
+
+## 7. Definite Integration
+
+| Formula Name | Formula | One-line Use-Hint |
+|---|---|---|
+| Fundamental Theorem (FTC) | ∫ₐᵇ f(x) dx = F(b) − F(a) | F is any antiderivative |
+| Property: swap limits | ∫ₐᵇ f dx = −∫ᵦₐ f dx | Swapping flips sign |
+| Property: split | ∫ₐᵇ f dx = ∫ₐᶜ f dx + ∫ᶜᵇ f dx | Useful for piecewise functions |
+| King property | ∫ₐᵇ f(x) dx = ∫ₐᵇ f(a + b − x) dx | Replace x by (a + b − x) |
+| Even function | ∫₋ₐᵃ f(x) dx = 2∫₀ᵃ f(x) dx | f(−x) = f(x) |
+| Odd function | ∫₋ₐᵃ f(x) dx = 0 | f(−x) = −f(x) — instant answer |
+| Wallis-type (0 to π/2) | ∫₀^(π/2) sinⁿx dx = ∫₀^(π/2) cosⁿx dx | Use King property |
+| Area under curve | A = ∫ₐᵇ \|f(x)\| dx | Take modulus if curve crosses x-axis |
+| Area between curves | A = ∫ₐᵇ [f(x) − g(x)] dx, f ≥ g | Upper minus lower |
+
+## 8. Differential Equations
+
+| Formula Name | Formula | One-line Use-Hint |
+|---|---|---|
+| Order | Highest derivative present | Count the primes |
+| Degree | Power of highest derivative (after clearing radicals/fractions) | Defined only for polynomial form |
+| Variable separable | ∫dy/g(y) = ∫f(x) dx + C | Separate x's and y's |
+| Linear ODE (1st order) | dy/dx + Py = Q; solution: y·(IF) = ∫Q·(IF) dx + C | IF = e^∫P dx |
+| Homogeneous ODE | dy/dx = f(y/x); substitute y = vx | Then variables separate |
+| General vs particular solution | General has arbitrary constants; particular fixes them | Number of constants = order of ODE |

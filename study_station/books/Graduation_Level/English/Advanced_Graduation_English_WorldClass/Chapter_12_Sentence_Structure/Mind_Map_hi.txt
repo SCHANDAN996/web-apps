@@ -1,0 +1,41 @@
+```mermaid
+graph TD
+    A["वाक्य संरचना<br>Sentence Structure"] --> B["वाक्य के अंग"]
+    A --> C["वाक्य के प्रकार"]
+    A --> D["6 स्वर्ण नियम"]
+    A --> E["परीक्षक के जाल"]
+    A --> F["रणनीति"]
+
+    B --> B1["Subject कर्ता<br>कौन / क्या"]
+    B --> B2["Predicate विधेय<br>क्रिया + शेष"]
+    B --> B3["Object कर्म"]
+    B --> B4["Complement पूरक"]
+
+    C --> C1["संरचना के आधार पर"]
+    C1 --> C1A["Simple<br>1 स्वतंत्र clause"]
+    C1 --> C1B["Compound<br>FANBOYS से जुड़े"]
+    C1 --> C1C["Complex<br>1 मुख्य + 1 आश्रित"]
+    C1 --> C1D["Compound-Complex"]
+    C --> C2["अर्थ के आधार पर"]
+    C2 --> C2A["Assertive कथन"]
+    C2 --> C2B["Interrogative प्रश्न"]
+    C2 --> C2C["Imperative आदेश"]
+    C2 --> C2D["Exclamatory विस्मय"]
+
+    D --> D1["Subject-Verb Agreement<br>कर्ता के अनुसार क्रिया"]
+    D --> D2["Intervening Phrase<br>के बीच का वाक्यांश नहीं"]
+    D --> D3["Each / Every / Neither<br>+ एकवचन क्रिया"]
+    D --> D4["Collective Noun<br>एक इकाई = एकवचन"]
+    D --> D5["Inversion<br>Hardly / No sooner"]
+    D --> D6["Parallel Structure<br>समान रूप"]
+
+    E --> E1["Intervening Phrase जाल<br>The quality of apples IS"]
+    E --> E2["Sound-Right जाल<br>सुनने में सही लगे"]
+    E --> E3["हिंदी अनुवाद जाल<br>What you are doing? ❌"]
+    E --> E4["Over-thinking जाल<br>सरल उत्तर पर संदेह"]
+
+    F --> F1["15 सेकंड नियम<br>तथ्यात्मक प्रश्न"]
+    F --> F2["45 सेकंड नियम<br>तार्किक / अनुमान प्रश्न"]
+    F --> F3["Skip Strategy<br>2 मिनट से अधिक = छोड़ो"]
+    F --> F4["Mnemonic<br>FANBOYS / SVA जाँच"]
+```

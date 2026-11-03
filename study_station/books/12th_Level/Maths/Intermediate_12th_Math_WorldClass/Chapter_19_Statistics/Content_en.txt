@@ -1,11 +1,205 @@
-# Chapter: Statistics, Level: intermediate
+# Statistics
 
-@content_agent lang=en level=intermediate role='experienced educator and cognitive psychologist' 'Write a chapter on Statistics that makes even complex 12th-grade concepts feel incredibly simple. Follow Chain-of-Thought:
-1. First, outline the chapter and learning goals.
-2. Start with a powerful hook (story, shocking fact, contradiction).
-3. Acknowledge the learner's common struggle with 'Statistics' and build empathy.
-4. Break content into small chunks (Segmenting Principle).
-5. After every 2-3 paragraphs, insert an Active Recall Prompt (🧠).
-6. Include at least one memory trick (mnemonic) that is weird or funny.
-7. End with a summary table and 'Review this after 2 days' prompt.
-Keep language extremely simple, conversational, and motivational, but depth at 12th grade level.
+## Chapter Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Understand what data is and how it is classified (raw, grouped, discrete, continuous).
+2. Calculate the three measures of central tendency — **Mean, Median, Mode** — for ungrouped and grouped data.
+3. Compute **quartiles, percentiles**, and understand cumulative frequency (ogives).
+4. Measure spread using **Range, Mean Deviation, Variance, and Standard Deviation**.
+5. Use the **Coefficient of Variation** to compare two datasets.
+6. Solve exam-style questions quickly and spot the traps examiners set.
+
+---
+
+## The Hook: The Average That Almost Killed the Air Force
+
+In the 1950s, the US Air Force designed cockpits based on the **average** dimensions of thousands of pilots — average height, average arm length, average leg length. The result? Not a single pilot actually fit the "average" cockpit. When researcher Gilbert Daniels measured 4,063 pilots on 10 dimensions, **zero** pilots were average on all ten.
+
+The lesson is powerful: **an average alone can lie to you.** You also need to know how spread out the data is. That single idea — central value *plus* spread — is the entire soul of this chapter, and of almost every Statistics question in SSC CGL, IBPS PO, and RRB NTPC.
+
+---
+
+## "Statistics Is Tough" — Let's Fix That First
+
+Most students fear Statistics for one reason: the formulas *look* scary. Σ symbols, subscripts, square roots. But here is the truth — every formula in this chapter is just **addition, division, and careful counting** dressed up in fancy clothes. If you can total your grocery bill and divide it among friends, you can do Statistics. We will go one small chunk at a time.
+
+---
+
+## 1. What Is Data?
+
+**Data** is a collection of facts — numbers, measurements, observations.
+
+- **Raw (ungrouped) data:** values listed as collected. Example: marks of 5 students — 45, 62, 58, 70, 62.
+- **Grouped data:** values organised into class intervals. Example: 0–10, 10–20, 20–30 with frequencies.
+- **Discrete data:** countable values (number of children: 0, 1, 2, 3…).
+- **Continuous data:** measurable values that can take any value in a range (height: 162.3 cm, 162.35 cm…).
+
+**Frequency** = how many times a value occurs. **Cumulative frequency (c.f.)** = running total of frequencies, built by adding each frequency to the sum of all previous ones.
+
+🧠 **Active Recall:** Without looking back — what is the difference between discrete and continuous data? Give one example of each. Say it out loud before reading on.
+
+---
+
+## 2. Central Tendency — The "Centre" of Data
+
+A measure of central tendency is a single value that represents the whole dataset. There are three heroes here: **Mean, Median, Mode.**
+
+### Mean (Arithmetic Average)
+
+**Mean = Sum of all observations ÷ Number of observations**
+
+x̄ = Σx / n
+
+Example: marks 45, 62, 58, 70, 62 → Sum = 297, n = 5 → Mean = 297/5 = **59.4**
+
+For grouped data (frequency distribution):
+
+x̄ = Σfᵢxᵢ / Σfᵢ
+
+where xᵢ is the value (or class mid-point) and fᵢ its frequency.
+
+**Shortcut — Assumed Mean method:** pick a convenient number *a* near the middle, compute deviations dᵢ = xᵢ − a, then:
+
+x̄ = a + (Σfᵢdᵢ / Σfᵢ)
+
+This keeps numbers small and saves precious exam seconds.
+
+### Median — The Middle Value
+
+Arrange data in **ascending order** first — this step is non-negotiable.
+
+- If n is **odd**: Median = value of the ((n+1)/2)th observation.
+- If n is **even**: Median = average of the (n/2)th and (n/2 + 1)th observations.
+
+Example: 12, 15, 18, 22, 30 → n = 5 (odd) → Median = 3rd value = **18**.
+Example: 12, 15, 18, 22 → n = 4 (even) → Median = (15 + 18)/2 = **16.5**.
+
+For grouped data: find the **median class** (where cumulative frequency first reaches or crosses N/2), then:
+
+Median = L + [(N/2 − C) / f] × h
+
+where L = lower limit of median class, N = total frequency, C = c.f. before the median class, f = frequency of median class, h = class width.
+
+### Mode — The Most Frequent Value
+
+**Mode = the value that appears most often.**
+
+Example: 45, 62, 58, 70, 62 → Mode = **62** (appears twice).
+
+For grouped data, the class with the highest frequency is the **modal class**, and:
+
+Mode = L + [(f₁ − f₀) / (2f₁ − f₀ − f₂)] × h
+
+where f₁ = frequency of modal class, f₀ = frequency of the class before it, f₂ = frequency of the class after it.
+
+🧠 **Active Recall:** A dataset has 8 values. Which two positions do you average to get the median? And what is the mode of 3, 7, 7, 9, 9, 9, 12? (Answers: 4th & 5th; mode = 9.)
+
+### The Golden Relationship
+
+For a moderately skewed distribution:
+
+**Mode = 3 Median − 2 Mean**
+
+This empirical relation is a favourite of SSC and Banking examiners — memorise it cold.
+
+**Memory Trick 🎪 — "The M³ Family":** Imagine three brothers at a dinner table. **MEAN** brother *shares everything equally* (total ÷ count). **MEDIAN** brother always sits in the *middle seat*. **MODE** brother is the *most popular* — everyone copies him. Mean = equal share, Median = middle, Mode = most. And the family formula: the popular one (Mode) = 3 × middle brother − 2 × sharing brother.
+
+---
+
+## 3. Quartiles and Percentiles
+
+Just as the median splits data into two halves, **quartiles** split it into four equal parts:
+
+- **Q₁ (first quartile):** 25% of data lies below it — the median of the lower half.
+- **Q₂:** the median itself.
+- **Q₃ (third quartile):** 75% of data lies below it — the median of the upper half.
+
+**Percentiles** divide data into 100 parts. The 90th percentile means 90% of values lie below it. Competitive exams mostly ask Q₁, Q₃, and the **interquartile range = Q₃ − Q₁**.
+
+🧠 **Active Recall:** If Q₃ = 80 and Q₁ = 50, what is the interquartile range? What does the 75th percentile mean in plain words?
+
+---
+
+## 4. Dispersion — How Spread Out Is the Data?
+
+Two classes can both have a mean of 60, yet in one class everyone scored 58–62, and in the other, scores range from 10 to 100. Same centre, totally different story. **Dispersion** measures that story.
+
+### Range
+
+**Range = Maximum value − Minimum value**
+
+Simple, but crude — it ignores everything in between.
+
+### Mean Deviation
+
+The average of the **absolute** distances of each value from the mean (or median):
+
+Mean Deviation = Σ|xᵢ − x̄| / n
+
+We use absolute values because negative and positive deviations would cancel out.
+
+### Variance and Standard Deviation — The Exam Royalty
+
+**Variance (σ²)** = average of the *squared* deviations from the mean:
+
+σ² = Σ(xᵢ − x̄)² / n
+
+**Standard Deviation (σ)** = √Variance
+
+Squaring does two jobs: it removes negative signs *and* punishes large deviations more heavily. Standard deviation brings the unit back to the original (from "marks²" back to "marks").
+
+**Handy computation formula:**
+
+σ² = (Σx² / n) − x̄²
+
+i.e., *mean of squares minus square of mean*. This avoids computing every deviation separately.
+
+### Coefficient of Variation (CV) — Comparing Apples with Oranges
+
+**CV = (σ / x̄) × 100%**
+
+Since CV is unit-free, it compares consistency across datasets. **Lower CV = more consistent.** If a batsman has a lower CV of scores than another, he is more consistent — even if his average is lower. This is a classic IBPS/SSC question.
+
+🧠 **Active Recall:** Write the formula for CV from memory. If Team A: mean 50, σ = 5 and Team B: mean 40, σ = 6 — which is more consistent? (CV_A = 10%, CV_B = 15% → Team A.)
+
+---
+
+## 5. Properties Examiners Love to Test
+
+1. **Adding a constant** to every value: mean, median, mode all increase by that constant; **σ and variance stay unchanged.**
+2. **Multiplying every value by k:** mean, median, mode multiply by k; **σ multiplies by |k|; variance multiplies by k².**
+3. If all values are equal, σ = 0.
+4. Mean is affected by **extreme values (outliers)**; median and mode are not. That's why "average income" reports often prefer the median.
+
+**Trap alert:** "Variance doubles when each observation is doubled" — FALSE. Variance becomes **4 times** (k² = 4). Examiners love this trap.
+
+🧠 **Active Recall:** Every student's marks are increased by 5 grace marks. What happens to the mean? To the standard deviation? (Mean +5; σ unchanged.)
+
+---
+
+## Summary Table
+
+| Concept | Formula / Rule | One-line use |
+|---|---|---|
+| Mean | x̄ = Σx/n (grouped: Σfx/Σf) | Overall average |
+| Assumed mean | x̄ = a + Σfd/Σf | Shortcut for big numbers |
+| Median (ungrouped) | Middle value after sorting; avg of two middles if n even | Robust centre |
+| Median (grouped) | L + [(N/2 − C)/f] × h | From cumulative frequency |
+| Mode (grouped) | L + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] × h | Most frequent class |
+| Relation | Mode = 3 Median − 2 Mean | Find one from two |
+| Range | Max − Min | Quick spread |
+| Mean deviation | Σ\|x − x̄\|/n | Average distance from mean |
+| Variance | σ² = Σ(x − x̄)²/n = Σx²/n − x̄² | Squared spread |
+| Std. deviation | σ = √Variance | Spread in original units |
+| CV | (σ/x̄) × 100% | Compare consistency |
+| Scaling | ×k → σ × \|k\|, variance × k² | Trap questions |
+
+---
+
+## Before You Close This Chapter
+
+Statistics is not about memorising symbols — it is about asking two questions of any data: **"Where is the centre?"** and **"How far does it spread?"** Master mean–median–mode for the first question and variance–SD–CV for the second, and 90% of exam questions fall into your lap.
+
+🔁 **Review this chapter after 2 days.** Cover the summary table with your hand and rewrite every formula from memory. Then attempt Practice Set 1. Spaced repetition is what moves this from "I read it" to "I own it."

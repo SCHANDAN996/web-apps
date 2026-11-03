@@ -43,6 +43,23 @@ function navigate(page) {
   if (page === 'pyq') renderPyq();
 }
 
+// ====== SAFE HTML HELPERS ======
+// Use for any text that came from outside our own code (scraped jobs, AI replies).
+function escapeHtml(value) {
+  return String(value == null ? '' : value)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+
+// Allow http(s) and relative links only — blocks javascript:/data: URLs.
+function safeUrl(value) {
+  var url = String(value == null ? '' : value).trim();
+  var probe = url.replace(/[\u0000-\u0020]/g, '').toLowerCase();
+  var scheme = probe.match(/^([a-z][a-z0-9+.-]*):/);
+  if (scheme && scheme[1] !== 'http' && scheme[1] !== 'https') return '';
+  return url;
+}
+
 // ====== TOAST ======
 function showToast(msg, type) {
   type = type || 'info';
@@ -50,7 +67,7 @@ function showToast(msg, type) {
   var t = document.createElement('div');
   t.className = 'toast toast--' + type;
   var icons = { success: 'checkmark-circle-sharp', error: 'close-circle-sharp', info: 'information-circle-sharp' };
-  t.innerHTML = '<ion-icon name="' + icons[type] + '"></ion-icon><span class="toast__msg">' + msg + '</span><button class="toast__close" onclick="this.parentElement.remove()"><ion-icon name="close-outline"></ion-icon></button>';
+  t.innerHTML = '<ion-icon name="' + icons[type] + '"></ion-icon><span class="toast__msg">' + escapeHtml(msg) + '</span><button class="toast__close" onclick="this.parentElement.remove()"><ion-icon name="close-outline"></ion-icon></button>';
   c.appendChild(t);
   setTimeout(function() { t.style.opacity = '0'; t.style.transform = 'translateX(100px)'; t.style.transition = 'all 0.3s ease'; setTimeout(function() { t.remove(); }, 300); }, 4000);
 }

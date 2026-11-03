@@ -1,0 +1,36 @@
+```mermaid
+graph TD
+    A["संख्या श्रेणी एवं तर्क<br>Number Series & Logic"] --> B["संख्या श्रेणी<br>Number Series"]
+    A --> C["तर्क / Logic"]
+    A --> D["पहचान रणनीति<br>Identification Strategy"]
+
+    B --> B1["अंकगणितीय श्रेणी<br>Arithmetic Series<br>(स्थिर अंतर / constant difference)"]
+    B --> B2["गुणोत्तर श्रेणी<br>Geometric Series<br>(स्थिर अनुपात / constant ratio)"]
+    B --> B3["वर्ग / घन श्रेणी<br>Square / Cube Series<br>(n², n³, n²±k)"]
+    B --> B4["मिश्रित श्रेणी<br>Mixed Series<br>(×2+1, ×3−2 आदि)"]
+    B --> B5["दो-स्तरीय अंतर<br>Two-Level Difference<br>(अंतरों का अंतर)"]
+    B --> B6["प्राइम / फिबोनाची<br>Prime / Fibonacci Series"]
+    B --> B7["वैकल्पिक श्रेणी<br>Alternating Series<br>(दो श्रेणियाँ एक साथ)"]
+    B --> B8["गलत पद ज्ञात करें<br>Wrong Number in Series"]
+
+    C --> C1["वर्णमाला श्रेणी<br>Alphabet Series<br>(A=1 … Z=26)"]
+    C --> C2["अक्षर-संख्या मिश्रण<br>Alpha-Numeric Series"]
+    C --> C3["कोडिंग-डिकोडिंग<br>Coding-Decoding"]
+    C --> C4["तार्किक क्रम<br>Logical Sequence<br>(कथन-निष्कर्ष आधार)"]
+    C --> C5["लुप्त पद / चित्र श्रेणी<br>Missing Term / Figure Series"]
+
+    B1 --> B1a["उदा: 3, 7, 11, 15, ?<br>(+4 प्रत्येक बार)"]
+    B2 --> B2a["उदा: 2, 6, 18, 54, ?<br>(×3 प्रत्येक बार)"]
+    B4 --> B4a["उदा: 5, 11, 23, 47, ?<br>(×2+1)"]
+    B5 --> B5a["उदा: 2, 3, 5, 8, 12, ?<br>(अंतर: 1,2,3,4,5)"]
+    B8 --> B8a["पैटर्न तोड़ने वाला पद खोजें<br>Find the term breaking the pattern"]
+
+    C1 --> C1a["उदा: B, E, H, K, ?<br>(+3 अक्षर)"]
+    C3 --> C3a["स्थान-मान ±k<br>Letter shift ±k"]
+
+    D --> D1["चरण 1: अंतर देखें<br>Step 1: Check differences"]
+    D --> D2["चरण 2: अनुपात देखें<br>Step 2: Check ratios"]
+    D --> D3["चरण 3: वर्ग/घन/प्राइम जाँचें<br>Step 3: Check squares/cubes/primes"]
+    D --> D4["चरण 4: वैकल्पिक/मिश्रित पैटर्न<br>Step 4: Check alternating/mixed pattern"]
+    D1 --> D5["पर्याप्त पद = कम से कम 4-5<br>Need at least 4-5 terms to confirm"]
+```

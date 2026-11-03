@@ -1,0 +1,151 @@
+Questions 126–145: Easy | Questions 146–150: Moderate
+
+126. Find the missing term: 2, 6, 12, 20, 30, ?, 56
+(a) 40 (b) 42 (c) 44 (d) 46
+Answer: (b)
+Solution: The tempting option 40 comes from wrongly adding a constant 10 to 30. The differences are 4, 6, 8, 10, so the next difference is 12, giving 30 + 12 = 42 (terms are n(n+1): 1×2, 2×3, …, 6×7 = 42), so the answer is 42.
+Source: PYQ-style
+
+127. Find the missing term: 3, 10, 29, 66, 127, ?
+(a) 216 (b) 224 (c) 220 (d) 218
+Answer: (d)
+Solution: The tempting option 216 is just 6³ and ignores the pattern. Each term is n³ + 2: 1³+2 = 3, 2³+2 = 10, 3³+2 = 29, 4³+2 = 66, 5³+2 = 127, 6³+2 = 218, so the answer is 218.
+Source: PYQ-style
+
+128. Find the wrong term in the series: 5, 11, 23, 47, 96, 191
+(a) 11 (b) 96 (c) 23 (d) 191
+Answer: (b)
+Solution: The tempting option 191 looks odd because it is large, but it fits the rule. The rule is ×2 + 1: 5×2+1 = 11, 11×2+1 = 23, 23×2+1 = 47, 47×2+1 = 95 (not 96), 95×2+1 = 191, so the wrong term is 96.
+Source: PYQ-style
+
+129. Find the missing term: 1, 4, 27, 256, ?
+(a) 3125 (b) 1024 (c) 625 (d) 1296
+Answer: (a)
+Solution: The tempting option 1024 comes from treating the terms as powers of 4. The pattern is nⁿ: 1¹ = 1, 2² = 4, 3³ = 27, 4⁴ = 256, 5⁵ = 3125, so the answer is 3125.
+Source: PYQ-style
+
+130. Find the missing term: 7, 26, 63, 124, 215, ?
+(a) 340 (b) 344 (c) 342 (d) 346
+Answer: (c)
+Solution: The tempting option 344 comes from adding 129 instead of 127 to 215. Each term is n³ − 1: 2³−1 = 7, 3³−1 = 26, 4³−1 = 63, 5³−1 = 124, 6³−1 = 215, 7³−1 = 342, so the answer is 342.
+Source: PYQ-style
+
+131. Find the missing term: 4, 18, 48, 100, 180, ?
+(a) 288 (b) 294 (c) 300 (d) 306
+Answer: (b)
+Solution: The tempting option 300 is a round-number guess with no basis. Each term is n²(n+1): 1²×2 = 4, 2²×3 = 18, 3²×4 = 48, 4²×5 = 100, 5²×6 = 180, 6²×7 = 294, so the answer is 294.
+Source: PYQ-style
+
+132. Find the missing letters: A, C, F, J, O, ?
+(a) U (b) T (c) S (d) V
+Answer: (a)
+Solution: The tempting option T comes from adding a constant 4 to O. The gaps increase by 1: A+2 = C, C+3 = F, F+4 = J, J+5 = O, O+6 = U, so the answer is U.
+Source: PYQ-style
+
+133. Find the missing letters: Z, W, S, N, ?
+(a) H (b) J (c) I (d) K
+Answer: (a)
+Solution: The tempting option I comes from assuming a constant gap of 4. The gaps increase: Z−3 = W, W−4 = S, S−5 = N, N−6 = H, so the answer is H.
+Source: PYQ-style
+
+134. Find the missing term: 2, 3, 5, 9, 17, 33, ?
+(a) 63 (b) 66 (c) 65 (d) 64
+Answer: (c)
+Solution: The tempting option 64 is 2⁶ and misleads those who see pure doubling. The rule is ×2 − 1: 2×2−1 = 3, 3×2−1 = 5, 5×2−1 = 9, 9×2−1 = 17, 17×2−1 = 33, 33×2−1 = 65, so the answer is 65.
+Source: PYQ-style
+
+135. Find the missing term: 6, 11, 21, 36, 56, ?
+(a) 91 (b) 76 (c) 86 (d) 81
+Answer: (d)
+Solution: The tempting option 76 comes from repeating the last difference of 20. The differences are 5, 10, 15, 20, so the next difference is 25, giving 56 + 25 = 81, so the answer is 81.
+Source: PYQ-style
+
+136. Find the wrong term in the series: 1, 8, 27, 64, 124, 216
+(a) 124 (b) 27 (c) 216 (d) 8
+Answer: (a)
+Solution: The tempting option 216 seems suspicious as a large number, but it is 6³ and correct. The series is cubes: 1³, 2³, 3³, 4³, 5³, 6³; 5³ = 125, not 124, so the wrong term is 124.
+Source: PYQ-style
+
+137. Find the missing term: 3, 7, 16, 35, 74, ?
+(a) 148 (b) 150 (c) 153 (d) 155
+Answer: (c)
+Solution: The tempting option 148 comes from simply doubling 74. The rule is ×2 + 1, ×2 + 2, ×2 + 3, …: 3×2+1 = 7, 7×2+2 = 16, 16×2+3 = 35, 35×2+4 = 74, 74×2+5 = 153, so the answer is 153.
+Source: PYQ-style
+
+138. Find the missing letters: B, E, H, K, N, ?
+(a) P (b) O (c) Q (d) R
+Answer: (c)
+Solution: The tempting option P comes from assuming a gap of 2 at the end. The gap is constant +3: B+3 = E, E+3 = H, H+3 = K, K+3 = N, N+3 = Q, so the answer is Q.
+Source: PYQ-style
+
+139. Find the missing term: 0, 6, 24, 60, 120, ?
+(a) 180 (b) 240 (c) 200 (d) 210
+Answer: (d)
+Solution: The tempting option 240 comes from doubling 120. Each term is n³ − n: 1³−1 = 0, 2³−2 = 6, 3³−3 = 24, 4³−4 = 60, 5³−5 = 120, 6³−6 = 210, so the answer is 210.
+Source: PYQ-style
+
+140. Find the missing term: 11, 13, 17, 19, 23, 29, ?
+(a) 31 (b) 33 (c) 35 (d) 37
+Answer: (a)
+Solution: The tempting option 33 comes from continuing differences of 2 and 4 mechanically. The series is consecutive prime numbers starting from 11: 11, 13, 17, 19, 23, 29, and the next prime is 31, so the answer is 31.
+Source: PYQ-style
+
+141. Find the missing term: 4, 9, 25, 49, 121, ?
+(a) 144 (b) 225 (c) 169 (d) 196
+Answer: (c)
+Solution: The tempting option 144 is 12², chosen by those who see only squares. The series is squares of consecutive primes: 2², 3², 5², 7², 11², and the next prime square is 13² = 169, so the answer is 169.
+Source: PYQ-style
+
+142. Find the missing letters: AZ, BY, CX, DW, ?
+(a) EV (b) EU (c) FV (d) EX
+Answer: (a)
+Solution: The tempting option EX keeps the second letter X by mistake. The first letters go A, B, C, D, E and the second letters go Z, Y, X, W, V, so the missing term is EV, so the answer is EV.
+Source: PYQ-style
+
+143. Find the missing term: 1, 2, 6, 24, 120, ?
+(a) 240 (b) 720 (c) 600 (d) 480
+Answer: (b)
+Solution: The tempting option 600 comes from multiplying 120 by 5, but the multiplier rises each step. The series is factorials: 1!, 2!, 3!, 4!, 5!, and 6! = 720, so the answer is 720.
+Source: PYQ-style
+
+144. Find the wrong term in the series: 2, 5, 10, 17, 26, 38, 50
+(a) 5 (b) 38 (c) 50 (d) 17
+Answer: (b)
+Solution: The tempting option 50 looks wrong as a round number, but 7²+1 = 50 is correct. The rule is n² + 1: 2, 5, 10, 17, 26, 37, 50; 6²+1 = 37, not 38, so the wrong term is 38.
+Source: PYQ-style
+
+145. Find the missing term: 8, 15, 28, 53, 102, ?
+(a) 197 (b) 204 (c) 201 (d) 199
+Answer: (d)
+Solution: The tempting option 204 comes from doubling 102. The rule is ×2 − 1, ×2 − 2, ×2 − 3, …: 8×2−1 = 15, 15×2−2 = 28, 28×2−3 = 53, 53×2−4 = 102, 102×2−5 = 199, so the answer is 199.
+Source: PYQ-style
+
+146. Find the missing letters: C, F, I, L, O, ?
+(a) Q (b) R (c) S (d) P
+Answer: (b)
+Solution: The tempting option Q comes from adding 2 instead of 3 to O. The gap is constant +3: C+3 = F, F+3 = I, I+3 = L, L+3 = O, O+3 = R, so the answer is R.
+Source: PYQ-style
+
+147. Find the missing term: 5, 6, 14, 45, 184, ?
+(a) 930 (b) 920 (c) 915 (d) 925
+Answer: (d)
+Solution: The tempting option 920 comes from multiplying 184 by 5 and forgetting the addition. The rule is ×1+1, ×2+2, ×3+3, ×4+4, ×5+5: 5×1+1 = 6, 6×2+2 = 14, 14×3+3 = 45, 45×4+4 = 184, 184×5+5 = 925, so the answer is 925.
+Source: PYQ-style
+
+148. Find the missing term: 17, 19, 23, 29, 31, 37, ?
+(a) 39 (b) 47 (c) 41 (d) 43
+Answer: (c)
+Solution: The tempting option 43 is a prime but skips the actual next prime. The series lists consecutive primes from 17: 17, 19, 23, 29, 31, 37, and the next prime after 37 is 41, so the answer is 41.
+Source: PYQ-style
+
+149. Find the missing letters: MN, LO, KP, JQ, ?
+(a) IR (b) IS (c) HR (d) IQ
+Answer: (a)
+Solution: The tempting option IS moves the second letter forward instead of backward. First letters decrease by 1: M, L, K, J, I; second letters increase by 1: N, O, P, Q, R; so the missing term is IR, so the answer is IR.
+Source: PYQ-style
+
+150. Find the missing term: 7, 15, 31, 63, 127, ?
+(a) 253 (b) 257 (c) 254 (d) 255
+Answer: (d)
+Solution: The tempting option 254 comes from simply doubling 127. The rule is ×2 + 1 (each term is 2ⁿ − 1: 2³−1 = 7 up to 2⁷−1 = 127): 7×2+1 = 15, 15×2+1 = 31, 31×2+1 = 63, 63×2+1 = 127, 127×2+1 = 255, so the answer is 255.
+Source: PYQ-style

@@ -1,0 +1,193 @@
+# 🪄 Short Tricks — Coordinate Geometry
+
+---
+
+**🎯 Trick 1 — The Distance Formula: "Square, Add, Root"**
+
+> **"D-SAR: Difference, Square, Add, Root"**
+
+Distance between (x₁, y₁) and (x₂, y₂):
+**d = √[(x₂−x₁)² + (y₂−y₁)²]**
+
+Memory hook: *"Take the DIFFERENCE, SQUARE it, ADD them, then ROOT it — D-SAR like a soldier marching between two points!"*
+
+⚡ Exam use: Never forget — differences FIRST, then squares. Squaring first is the classic trap.
+
+---
+
+**🎯 Trick 2 — Section Formula: "Cross-Multiply the Weights"**
+
+> **"Opposite weights attract!"**
+
+Point dividing A(x₁,y₁) and B(x₂,y₂) in ratio m:n (internally):
+
+**P = [(mx₂ + nx₁)/(m+n), (my₂ + ny₁)/(m+n)]**
+
+Memory hook: *"The m from the ratio jumps to the FAR point (x₂), and n jumps to the NEAR point (x₁) — weights cross over like arm-wrestlers!"*
+
+⚡ For EXTERNAL division, just flip the sign: **m − n** in the denominator. *"External = Ex-tract (subtract)!"*
+
+---
+
+**🎯 Trick 3 — Midpoint: "Just Average It!"**
+
+> **"Midpoint = Mean Point"**
+
+**M = [(x₁+x₂)/2, (y₁+y₂)/2]**
+
+Memory hook: *"The middle child gets the average of everything — add the parents, divide by 2!"*
+
+⚡ Shortcut: If midpoint is given and one endpoint is missing → **Missing = 2×Mid − Known**.
+
+---
+
+**🎯 Trick 4 — Slope: "Rise over Run — Climb Before You Crawl"**
+
+> **"m = RISE/RUN = (y₂−y₁)/(x₂−x₁)"**
+
+Memory hook: *"You can't RUN before you RISE out of bed! Vertical change on top, horizontal on the bottom."*
+
+⚡ Sign check: Line going UP left→right → positive slope. Going DOWN → negative. *"Uphill = Positive attitude!"*
+
+---
+
+**🎯 Trick 5 — Parallel & Perpendicular: "Same vs Flip-Negative"**
+
+> **"Parallel = Same slope. Perpendicular = Flip it AND Negative it."**
+
+- Parallel: **m₁ = m₂**
+- Perpendicular: **m₁ × m₂ = −1**
+
+Memory hook: *"Parallel lines are TWINS (identical slopes). Perpendicular lines are ENEMIES — they flip each other upside down AND turn negative!"*
+
+⚡ Quick trick: Perpendicular slope of 2/3 is **−3/2** (reciprocal + sign flip).
+
+---
+
+**🎯 Trick 6 — Collinearity: "Zero Area = Zero Height = One Line"**
+
+> **"Three points on a line make a FLAT triangle — area ZERO!"**
+
+Points A, B, C are collinear ⟺ **Area of ΔABC = 0** ⟺ slope AB = slope BC.
+
+Memory hook: *"If three friends stand in a straight line, you can't build a tent (triangle) over them — zero area!"*
+
+⚡ Fastest method in exams: compare two slopes — usually quicker than the determinant.
+
+---
+
+**🎯 Trick 7 — Area of Triangle: "The Shoelace March"**
+
+> **"Lace up your shoes: down-products minus up-products, halve it!"**
+
+**Area = ½ |x₁(y₂−y₃) + x₂(y₃−y₁) + x₃(y₁−y₂)|**
+
+Memory hook: *"Each x grabs the NEXT two y's in a circle — x₁ takes (y₂−y₃), and the circle keeps spinning. Then HALVE it, and stay POSITIVE (absolute value)!"*
+
+⚡ Trap: Forgetting the ½ or the absolute value — area can never be negative!
+
+---
+
+**🎯 Trick 8 — Line Equations: "The Three Costumes"**
+
+> **"Slope-Intercept is the STAR: y = mx + c"**
+
+| Form | Equation | When to use |
+|---|---|---|
+| Slope-intercept | y = mx + c | Slope + y-intercept given |
+| Point-slope | y − y₁ = m(x − x₁) | One point + slope |
+| Two-point | y − y₁ = [(y₂−y₁)/(x₂−x₁)](x − x₁) | Two points given |
+
+Memory hook: *"Every line wears a costume, but underneath they're ALL the same line. Pick the costume that matches your data!"*
+
+⚡ Default move: convert everything to **y = mx + c** to read slope instantly.
+
+---
+
+**🎯 Trick 9 — Distance from Point to Line: "Plug, Absolute, Root-Sum"**
+
+> **"PLUG the point in, take ABSOLUTE, divide by ROOT of squares."**
+
+Distance from (x₁, y₁) to ax + by + c = 0:
+
+**d = |ax₁ + by₁ + c| / √(a² + b²)**
+
+Memory hook: *"Shove the point INTO the line equation — it screams a number! Make it positive, then calm it down by dividing by √(a²+b²)."*
+
+⚡ Trap: Line MUST be in form ax + by + c = 0 first — move everything to one side!
+
+---
+
+**🎯 Trick 10 — Distance Between Parallel Lines: "Same Clothes, Different Tags"**
+
+> **"Match the a and b, then |c₁ − c₂| / √(a²+b²)"**
+
+For ax + by + c₁ = 0 and ax + by + c₂ = 0:
+
+**d = |c₁ − c₂| / √(a² + b²)**
+
+Memory hook: *"Parallel lines wear the SAME outfit (a, b identical) — only their price tags (c) differ. Subtract the tags, divide by the root!"*
+
+⚡ Trap: If a and b DON'T match, scale one equation first!
+
+---
+
+**🎯 Trick 11 — Quadrant Signs: "All Students Take Chemistry"**
+
+> **Wait — that's trigonometry! For coordinates, use: "Right-Up Positive"**
+
+- Q1: (+, +) — "Party zone, everything positive!"
+- Q2: (−, +)
+- Q3: (−, −)
+- Q4: (+, −)
+
+Memory hook: *"Start at the party (Q1, top-right) and go ANTI-clockwise: 1→2→3→4, like reading a clock backwards!"*
+
+⚡ Quick check: x = horizontal (right +, left −); y = vertical (up +, down −). *"X crosses the room, Y climbs the wall."*
+
+---
+
+**🎯 Trick 12 — Centroid, Circumcentre, Incentre: "The Triangle's Three Bosses"**
+
+> **"Centroid = Average. Circumcentre = Equal distance. Incentre = Weighted by sides."**
+
+- **Centroid G** = [(x₁+x₂+x₃)/3, (y₁+y₂+y₃)/3] — just average!
+- **Circumcentre** — equidistant from all vertices
+- **Incentre** = [(ax₁+bx₂+cx₃)/(a+b+c), ...] — weighted by side lengths
+
+Memory hook: *"The CENTROID is democratic — everyone's vote counts equally (simple average). The INCENTRE is plutocratic — bigger sides get bigger votes!"*
+
+⚡ SSC favourite: Centroid divides each median in **2:1** — *"The boss takes the bigger share: 2 parts toward the vertex!"*
+
+---
+
+**🎯 Trick 13 — Reflection Rules: "Mirror Flips"**
+
+> **"Mirror on x-axis → y flips. Mirror on y-axis → x flips. Mirror on origin → BOTH flip!"**
+
+- Reflect (x, y) over x-axis → **(x, −y)**
+- Reflect over y-axis → **(−x, y)**
+- Reflect over origin → **(−x, −y)**
+- Reflect over line y = x → **(y, x)** (swap!)
+
+Memory hook: *"The mirror only flips what it TOUCHES. X-axis touches y-values, so y flips. The line y=x is a diagonal mirror — coordinates SWAP places!"*
+
+---
+
+**🎯 Trick 14 — Angle Between Two Lines: "Tan Takes the Difference"**
+
+> **"tan θ = |(m₁ − m₂)/(1 + m₁m₂)| — Difference on top, Product below!"**
+
+Memory hook: *"Slopes fight on TOP (subtraction), shake hands BELOW (1 + product). Absolute value keeps the peace — acute angle only!"*
+
+⚡ Instant checks: If m₁m₂ = −1 → lines perpendicular (θ = 90°, formula breaks!). If m₁ = m₂ → parallel (θ = 0°).
+
+---
+
+**🎯 Trick 15 — The "Axes Rescue" Trick: "On an Axis? One Coordinate is ZERO!"**
+
+> **"On x-axis → y = 0. On y-axis → x = 0. Equidistant from axes → |x| = |y|."**
+
+Memory hook: *"Standing ON the x-axis means you've climbed ZERO height — y = 0! Standing on the y-axis means you've walked ZERO sideways — x = 0!"*
+
+⚡ Exam gold: "Point equidistant from both axes" → set |x| = |y|, i.e., x = ±y. This single trick solves a whole family of locus questions in seconds.

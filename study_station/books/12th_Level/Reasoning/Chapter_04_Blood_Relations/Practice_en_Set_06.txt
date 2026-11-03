@@ -1,0 +1,151 @@
+Questions 126–150: Hard
+
+126. If 'A + B' means 'A is the father of B', 'A − B' means 'A is the sister of B', and 'A × B' means 'A is the mother of B', then in the expression 'P × Q + R − S', how is P related to S?
+(a) Aunt (b) Mother (c) Grandmother (d) Grandfather
+Answer: (c)
+Solution: The tempting wrong answer is Mother, which ignores that the chain has two generations. P × Q means P is the mother of Q; Q + R means Q is the father of R; R − S means R is the sister of S, so R and S are children of Q. Hence P is the mother of S's father, so the answer is Grandmother.
+Source: PYQ-style
+
+127. In a code, 'M @ N' means 'M is the wife of N', 'M # N' means 'M is the son of N', and 'M $ N' means 'M is the brother of N'. Which expression shows that T is the paternal uncle of V?
+(a) T $ U @ V (b) T $ U # V (c) V # U $ T (d) T # U @ V
+Answer: (c)
+Solution: The trap is T $ U # V, where U # V makes U the son of V, so T ends up as the brother of V's son, not of V's father. In V # U $ T: V is the son of U, and U is the brother of T, so T is the brother of V's father, so the answer is V # U $ T.
+Source: PYQ-style
+
+128. 'P × Q' means 'P is the daughter of Q', 'P + Q' means 'P is the husband of Q', 'P ÷ Q' means 'P is the father of Q'. If 'A × B + C ÷ D', how is A related to D?
+(a) Daughter (b) Sister (c) Granddaughter (d) Niece
+Answer: (b)
+Solution: The trap is Daughter, which stops after reading only A × B. A is the daughter of B; B is the husband of C; C is the father of D. So B is the mother of D, and A, being B's daughter, is D's sister, so the answer is Sister.
+Source: PYQ-style
+
+129. 'X * Y' means 'X is the mother of Y', 'X % Y' means 'X is the brother of Y', 'X & Y' means 'X is the father of Y'. In 'A & B % C * D', how is A related to D?
+(a) Father (b) Grandfather (c) Uncle (d) Brother
+Answer: (b)
+Solution: The tempting wrong answer is Father, which collapses two generations into one. A & B: A is the father of B. B % C: B is the brother of C. C * D: C is the mother of D. So A is the father of B and C, and C is D's mother, hence A is the father of D's mother, so the answer is Grandfather.
+Source: PYQ-style
+
+130. 'A → B' means 'A is the son of B', 'A ← B' means 'A is the daughter of B', 'A ↑ B' means 'A is the husband of B'. Which expression means 'K is the mother-in-law of M'?
+(a) M ↑ L → K (b) K ← L ↑ M (c) K → L ↑ M (d) M → L ↑ K
+Answer: (a)
+Solution: The trap is K ← L ↑ M, which makes K the daughter of L and L the husband of M — that makes K the child of M's spouse, not the mother-in-law. In M ↑ L → K: M is the husband of L, and L is the son of K, so K is the mother of M's wife, so the answer is M ↑ L → K.
+Source: PYQ-style
+
+131. 'P ⊕ Q' means 'P is the sister of Q', 'P ⊗ Q' means 'P is the father of Q', 'P ⊖ Q' means 'P is the wife of Q'. If 'R ⊕ S ⊗ T ⊖ U', how is R related to T?
+(a) Mother (b) Sister (c) Aunt (d) Niece
+Answer: (c)
+Solution: The trap is Sister, which treats R and T as belonging to the same generation. R ⊕ S: R is the sister of S. S ⊗ T: S is the father of T. T ⊖ U: T is the wife of U. So R is the sister of T's father, so the answer is Aunt.
+Source: PYQ-style
+
+132. 'A # B' means 'A is the grandfather of B', 'A @ B' means 'A is the sister of B', 'A & B' means 'A is the son of B'. In 'P # Q @ R & S', how is S related to P?
+(a) Child (son or daughter) (b) Daughter (c) Son (d) Grandson
+Answer: (a)
+Solution: The trap is Son, which assumes a gender that is never given. P # Q: P is the grandfather of Q. Q @ R: Q is the sister of R. R & S: R is the son of S. So S is a parent of Q and R, and P is the grandfather of Q, making S a child of P whose gender is not fixed, so the answer is Child (son or daughter).
+Source: PYQ-style
+
+133. 'M + N' means 'M is the brother of N', 'M − N' means 'M is the mother of N', 'M × N' means 'M is the husband of N'. If 'A − B + C × D', how is A related to D?
+(a) Mother (b) Grandmother (c) Mother-in-law (d) Aunt
+Answer: (c)
+Solution: The trap is Mother, which ignores the marriage link at the end. A − B: A is the mother of B. B + C: B is the brother of C. C × D: C is the husband of D. So A is the mother of C, and C is D's husband, so the answer is Mother-in-law.
+Source: PYQ-style
+
+134. 'X ÷ Y' means 'X is the daughter of Y', 'X − Y' means 'X is the brother of Y', 'X + Y' means 'X is the father of Y'. Which expression shows that J is the niece of L?
+(a) L − K ÷ J (b) J ÷ K + L (c) J − K ÷ L (d) J ÷ K − L
+Answer: (d)
+Solution: The trap is J ÷ K + L, which makes K the father of L, so J (daughter of K) becomes the sister of L, not the niece. In J ÷ K − L: J is the daughter of K, and K is the brother of L, so J is the daughter of L's brother, so the answer is J ÷ K − L.
+Source: PYQ-style
+
+135. 'P * Q' means 'P is the wife of Q', 'P % Q' means 'P is the daughter of Q', 'P @ Q' means 'P is the brother of Q'. In 'A % B * C @ D', how is A related to D?
+(a) Cousin (b) Niece (c) Sister (d) Daughter
+Answer: (b)
+Solution: The trap is Daughter, which stops at A % B. A % B: A is the daughter of B. B * C: B is the wife of C. C @ D: C is the brother of D. So B and C are the parents of A, and C is D's brother, hence A is the daughter of D's brother, so the answer is Niece.
+Source: PYQ-style
+
+136. 'A □ B' means 'A is the father of B', 'A ○ B' means 'A is the sister of B', 'A △ B' means 'A is the husband of B'. If 'M □ N ○ K △ L', how is M related to L?
+(a) Father (b) Uncle (c) Father-in-law (d) Brother
+Answer: (c)
+Solution: The trap is Father, which ignores the marriage at the end. M □ N: M is the father of N. N ○ K: N is the sister of K. K △ L: K is the husband of L. So M is the father of K, and K is L's husband, so the answer is Father-in-law.
+Source: PYQ-style
+
+137. 'R $ S' means 'R is the son of S', 'R & S' means 'R is the mother of S', 'R # S' means 'R is the brother of S'. In 'E $ F & G # H', how is E related to H?
+(a) Cousin (b) Nephew (c) Son (d) Brother
+Answer: (d)
+Solution: The trap is Nephew, which inserts an extra generation that the symbols do not support. E $ F: E is the son of F. F & G: F is the mother of G, so E and G are siblings. G # H: G is the brother of H, so H is also a child of F and a sibling of E, so the answer is Brother.
+Source: PYQ-style
+
+138. 'K > L' means 'K is the daughter of L', 'K < L' means 'K is the father of L', 'K = L' means 'K is the wife of L'. If 'P > Q < R = S', how is P related to S?
+(a) Daughter (b) Sister-in-law (c) Daughter-in-law (d) Mother
+Answer: (b)
+Solution: The trap is Daughter-in-law, which misreads who marries whom. P > Q: P is the daughter of Q. Q < R: Q is the father of R. R = S: R is the wife of S. So P and R are both children of Q, hence sisters, and S is R's husband, making P the sister of S's wife, so the answer is Sister-in-law.
+Source: PYQ-style
+
+139. 'A α B' means 'A is the mother of B', 'A β B' means 'A is the son of B', 'A γ B' means 'A is the husband of B'. If 'X α Y β Z', how is X related to Z?
+(a) Wife (b) Mother (c) Sister (d) Mother-in-law
+Answer: (a)
+Solution: The trap is Mother, which stops after the first symbol. X α Y: X is the mother of Y. Y β Z: Y is the son of Z. So Z is the father of Y and X is the mother of Y, making X the wife of Z, so the answer is Wife.
+Source: PYQ-style
+
+140. 'T ∪ V' means 'T is the brother of V', 'T ∩ V' means 'T is the daughter of V', 'T ⊂ V' means 'T is the father of V'. In 'G ∩ H ∪ I ⊂ J', how is G related to J?
+(a) Sister (b) Niece (c) Aunt (d) Cousin
+Answer: (d)
+Solution: The trap is Sister, which assumes G and J share the same parents. G ∩ H: G is the daughter of H. H ∪ I: H is the brother of I. I ⊂ J: I is the father of J. So G is the child of H and J is the child of H's brother I, making them children of two brothers, so the answer is Cousin.
+Source: PYQ-style
+
+141. 'B × C' means 'B is the sister of C', 'B + C' means 'B is the father of C', 'B ÷ C' means 'B is the son of C'. If 'L ÷ M + N × O', how is L related to O?
+(a) Brother (b) Cousin (c) Nephew (d) Uncle
+Answer: (a)
+Solution: The trap is Nephew, which misplaces a generation. L ÷ M: L is the son of M. M + N: M is the father of N. N × O: N is the sister of O. So M is the father of L, N and O, hence L is the brother of O, so the answer is Brother.
+Source: PYQ-style
+
+142. 'D @ E' means 'D is the wife of E', 'D # E' means 'D is the daughter of E', 'D $ E' means 'D is the brother of E'. In 'P # Q @ R $ S', how is P related to S?
+(a) Niece (b) Daughter (c) Sister (d) Aunt
+Answer: (a)
+Solution: The trap is Daughter, which stops after the first two symbols. P # Q: P is the daughter of Q. Q @ R: Q is the wife of R. R $ S: R is the brother of S. So Q and R are the parents of P, and R is S's brother, hence P is the daughter of S's brother, so the answer is Niece.
+Source: PYQ-style
+
+143. 'F − G' means 'F is the mother of G', 'F + G' means 'F is the brother of G', 'F × G' means 'F is the husband of G'. If 'W × X − Y + Z', how is W related to Z?
+(a) Father (b) Uncle (c) Father-in-law (d) Brother
+Answer: (a)
+Solution: The trap is Uncle, which misreads the marriage symbol. W × X: W is the husband of X. X − Y: X is the mother of Y. Y + Z: Y is the brother of Z. So X is the mother of Y and Z, and W is X's husband, so the answer is Father.
+Source: PYQ-style
+
+144. 'H & I' means 'H is the son of I', 'H % I' means 'H is the sister of I', 'H @ I' means 'H is the father of I'. In 'C & D % E @ F', how is C related to F?
+(a) Nephew (b) Brother (c) Uncle (d) Cousin
+Answer: (d)
+Solution: The trap is Brother, which assumes C and F share parents. C & D: C is the son of D. D % E: D is the sister of E. E @ F: E is the father of F. So C is the child of D and F is the child of D's sibling E, so the answer is Cousin.
+Source: PYQ-style
+
+145. 'J * K' means 'J is the daughter of K', 'J / K' means 'J is the husband of K', 'J − K' means 'J is the brother of K'. Which expression shows that N is the son-in-law of Q?
+(a) N − O * Q (b) N / Q * O (c) Q * O / N (d) N / O * Q
+Answer: (d)
+Solution: The trap is N − O * Q, which makes N the brother of O and O the daughter of Q — that makes N the son of Q, not the son-in-law. In N / O * Q: N is the husband of O, and O is the daughter of Q, so N is the husband of Q's daughter, so the answer is N / O * Q.
+Source: PYQ-style
+
+146. 'U ⊕ V' means 'U is the father of V', 'U ⊖ V' means 'U is the sister of V', 'U ⊗ V' means 'U is the wife of V'. If 'A ⊕ B ⊖ C ⊗ D', how is A related to D?
+(a) Father (b) Grandfather (c) Father-in-law (d) Uncle
+Answer: (c)
+Solution: The trap is Father, which ignores the final marriage. A ⊕ B: A is the father of B. B ⊖ C: B is the sister of C. C ⊗ D: C is the wife of D. So A is the father of C, and C is D's wife, so the answer is Father-in-law.
+Source: PYQ-style
+
+147. 'G → H' means 'G is the mother of H', 'G ← H' means 'G is the brother of H', 'G ↑ H' means 'G is the son of H'. In 'S ↑ T → U ← V', how is S related to V?
+(a) Nephew (b) Uncle (c) Cousin (d) Brother
+Answer: (d)
+Solution: The trap is Cousin, which adds an unnecessary generation gap. S ↑ T: S is the son of T. T → U: T is the mother of U. U ← V: U is the brother of V, so V is also a child of T. Hence S and V are both children of T, so the answer is Brother.
+Source: PYQ-style
+
+148. 'Y # Z' means 'Y is the husband of Z', 'Y @ Z' means 'Y is the daughter of Z', 'Y $ Z' means 'Y is the brother of Z'. In 'M @ N # O $ P', how is M related to P?
+(a) Daughter (b) Niece (c) Sister (d) Mother
+Answer: (b)
+Solution: The trap is Daughter, which stops midway. M @ N: M is the daughter of N. N # O: N is the husband of O. O $ P: O is the brother of P. So N and O are the parents of M, and O is P's brother, hence M is the daughter of P's brother, so the answer is Niece.
+Source: PYQ-style
+
+149. 'C △ D' means 'C is the father of D', 'C □ D' means 'C is the sister of D', 'C ○ D' means 'C is the wife of D'. If 'K △ L □ M ○ N', how is K related to N?
+(a) Father (b) Father-in-law (c) Brother-in-law (d) Uncle
+Answer: (b)
+Solution: The trap is Father, which ignores the marriage link. K △ L: K is the father of L. L □ M: L is the sister of M. M ○ N: M is the wife of N. So K is the father of M, and M is N's wife, so the answer is Father-in-law.
+Source: PYQ-style
+
+150. 'E & F' means 'E is the daughter of F', 'E % F' means 'E is the husband of F', 'E # F' means 'E is the brother of F'. In 'R & S % T # U', how is R related to U?
+(a) Niece (b) Daughter (c) Sister (d) Cousin
+Answer: (a)
+Solution: The trap is Daughter, which stops after the first symbol. R & S: R is the daughter of S. S % T: S is the husband of T. T # U: T is the brother of U. So S and T are the parents of R, and T is U's brother, hence R is the daughter of U's brother, so the answer is Niece.
+Source: PYQ-style

@@ -1,0 +1,31 @@
+# Important Formulas — Profit & Loss
+
+| Formula Name | Formula | One-line Use-Hint |
+|---|---|---|
+| Profit | Profit = SP − CP | When selling price exceeds cost price |
+| Loss | Loss = CP − SP | When cost price exceeds selling price |
+| Profit % | Profit % = (Profit / CP) × 100 | Always calculated on CP unless stated |
+| Loss % | Loss % = (Loss / CP) × 100 | Always calculated on CP unless stated |
+| SP from Profit % | SP = CP × (100 + Profit%) / 100 | Direct SP when profit % given |
+| SP from Loss % | SP = CP × (100 − Loss%) / 100 | Direct SP when loss % given |
+| CP from SP (Profit) | CP = SP × 100 / (100 + Profit%) | Reverse-find cost price |
+| CP from SP (Loss) | CP = SP × 100 / (100 − Loss%) | Reverse-find cost price |
+| Marked Price relation | SP = MP × (100 − Discount%) / 100 | Link between MP, discount and SP |
+| Discount % | Discount % = (MP − SP) / MP × 100 | Discount is always on MP |
+| Profit % on MP basis | Profit % = [(MP × (100 − d%) / 100) − CP] / CP × 100 | When article marked up then discounted |
+| Mark-up % over CP | MP = CP × (100 + m%) / 100 | m% = percentage by which MP exceeds CP |
+| Profit % with mark-up & discount | Profit % = m − d − (m × d / 100) | Net effect of mark-up m% and discount d% |
+| Successive discounts (two) | Equivalent single discount = a + b − (ab/100) % | For two successive discounts a% and b% |
+| Successive discounts (three) | Net SP factor = (1−a/100)(1−b/100)(1−c/100) | Multiply factors for 3 discounts |
+| Same SP, one profit one loss (x% each) | Net Loss % = x² / 100 | Two articles sold at same SP, one at x% profit, other at x% loss |
+| CP of two articles (same SP case) | CP₁ = SP×100/(100+x); CP₂ = SP×100/(100−x) | Individual cost prices in equal-SP problems |
+| Dishonest dealer (false weights) | Profit % = [Error / (True weight − Error)] × 100 | Error = claimed weight − actual weight given |
+| Profit % on SP (given) → on CP | Profit % on CP = [p / (100 − p)] × 100 | Convert profit %-on-SP to profit %-on-CP |
+| Gain % when SP of n articles = CP of m articles | Gain % = [(m − n) / n] × 100 | Classic "SP of x pens equals CP of y pens" type |
+| Selling to gain after a loss | Required SP = CP × (100 + g) / 100 | Target SP for desired gain g% |
+| Two transactions combined | Net % = a + b + (ab/100) | Successive profit/loss of a% then b% (use − for loss) |
+| CP when profit = x% of SP | CP = SP × (100 − x) / 100 | Profit expressed as % of selling price |
+| Break-even SP | SP = CP | No profit, no loss point |
+| Cost of goods with overhead | Effective CP = Purchase price + Overheads (transport, repair, tax) | Add all extra costs before computing profit % |
+| Profit on goods sold in parts | Total Profit = Σ (SPᵢ − CPᵢ) for each part | When lot is split and sold at different rates |
+| Mixture/alligation for profit | CP of mixture = (n₁CP₁ + n₂CP₂) / (n₁ + n₂) | Blending two lots bought at different rates |

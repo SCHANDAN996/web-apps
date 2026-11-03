@@ -1,0 +1,151 @@
+Questions 101–120: Easy | Questions 121–125: Moderate
+
+101. In a class of 60 students, 35 play cricket, 28 play football and 12 play both. How many students play neither game?
+(a) 12 (b) 15 (c) 9 (d) 7
+Answer: (c)
+Solution: The tempting wrong answer 12 is the number playing both, not neither. Students playing at least one game = 35 + 28 − 12 = 51, so neither = 60 − 51 = 9, so the answer is 9.
+Source: PYQ-style
+
+102. In a survey, 50 people like tea, 40 like coffee and 20 like both. How many like only tea?
+(a) 20 (b) 50 (c) 40 (d) 30
+Answer: (d)
+Solution: The trap is to answer 50, which also counts those who like both. Only tea = 50 − 20 = 30, so the answer is 30.
+Source: PYQ-style
+
+103. Which Venn diagram best represents: Men, Fathers, Doctors?
+(a) One circle inside another (b) Three circles each intersecting the other two (c) Three mutually exclusive circles (d) Two intersecting circles with the third separate
+Answer: (b)
+Solution: The trap is separate circles, but some men are fathers, some men are doctors and some fathers are doctors, while no group fully contains another. Hence all three circles intersect pairwise, so the answer is three circles each intersecting the other two.
+Source: PYQ-style
+
+104. Which Venn diagram best represents: Women, Mothers, Sisters?
+(a) Mothers and Sisters circles inside the Women circle, intersecting each other (b) Women circle inside Mothers circle (c) Three separate circles (d) Three intersecting circles
+Answer: (a)
+Solution: The trap is three intersecting circles, which wrongly suggests some mothers are not women. All mothers and all sisters are women, and some mothers are also sisters, so the answer is two intersecting circles inside the Women circle.
+Source: PYQ-style
+
+105. In a group of 100 people, 60 speak Hindi, 45 speak English and 25 speak both. How many speak only English?
+(a) 20 (b) 25 (c) 35 (d) 45
+Answer: (a)
+Solution: The tempting answer 25 is the overlap, not the exclusive part. Only English = 45 − 25 = 20, so the answer is 20.
+Source: PYQ-style
+
+106. In a class, 40% of students passed in Maths, 50% passed in Science and 20% passed in both. What percentage failed in both subjects?
+(a) 35% (b) 25% (c) 20% (d) 30%
+Answer: (d)
+Solution: The trap is subtracting only one subject's percentage from 100. Passed in at least one = 40 + 50 − 20 = 70%, so failed in both = 100 − 70 = 30%, so the answer is 30%.
+Source: PYQ-style
+
+107. Which Venn diagram best represents: Apple, Fruit, Red things?
+(a) Three intersecting circles (b) Apple inside Red things inside Fruit (c) Apple inside Fruit, with Red things intersecting both (d) Three separate circles
+Answer: (c)
+Solution: The trap is placing Apple inside Red things, but not all apples are red. Every apple is a fruit, while some apples and some other fruits are red, so the answer is Apple inside Fruit with Red things intersecting both.
+Source: PYQ-style
+
+108. Out of 80 students, 50 like Maths, 40 like English and 20 like both. How many like exactly one subject?
+(a) 50 (b) 60 (c) 70 (d) 40
+Answer: (a)
+Solution: The trap is reporting 70, which is the union and still includes the both group. Only Maths = 50 − 20 = 30 and only English = 40 − 20 = 20, so exactly one = 30 + 20 = 50, so the answer is 50.
+Source: PYQ-style
+
+109. In a Venn diagram, the rectangle represents the universal set U with 200 elements. Set A has 90 elements, set B has 70 elements, and their intersection has 30 elements. How many elements lie outside both A and B?
+(a) 80 (b) 70 (c) 60 (d) 50
+Answer: (b)
+Solution: The tempting wrong answer 30 is the intersection, not the exterior. Union = 90 + 70 − 30 = 130, so outside both = 200 − 130 = 70, so the answer is 70.
+Source: PYQ-style
+
+110. Which Venn diagram best represents: Table, Chair, Furniture?
+(a) Table and Chair as separate circles inside Furniture (b) Three separate circles (c) Furniture inside Table (d) Three intersecting circles
+Answer: (a)
+Solution: The trap is three intersecting circles, which would mean some tables are chairs. All tables and all chairs are furniture but no table is a chair, so the answer is two separate circles inside the Furniture circle.
+Source: PYQ-style
+
+111. In an office, 25 employees know Hindi, 20 know English and 8 know both. If every employee knows at least one of the two languages, how many employees are there?
+(a) 33 (b) 37 (c) 45 (d) 41
+Answer: (b)
+Solution: The trap is adding 25 + 20 = 45 and forgetting the overlap is counted twice. Total = 25 + 20 − 8 = 37, so the answer is 37.
+Source: PYQ-style
+
+112. In a survey of 120 families, 85 read newspaper A, 65 read newspaper B and 45 read both. How many families read neither newspaper?
+(a) 10 (b) 20 (c) 25 (d) 15
+Answer: (d)
+Solution: The tempting answer 45 is the both group, not the neither group. Reading at least one = 85 + 65 − 45 = 105, so neither = 120 − 105 = 15, so the answer is 15.
+Source: PYQ-style
+
+113. Which Venn diagram best represents: Sparrow, Bird, Crow?
+(a) Bird inside Sparrow (b) Sparrow and Crow as separate circles inside Bird (c) Three intersecting circles (d) Sparrow inside Crow inside Bird
+Answer: (b)
+Solution: The trap is intersecting inner circles, which would mean some sparrows are crows. All sparrows and all crows are birds but no sparrow is a crow, so the answer is two separate circles inside the Bird circle.
+Source: PYQ-style
+
+114. In a class of 50, each student plays at least one of cricket or hockey. 30 play cricket and 35 play hockey. How many play both?
+(a) 10 (b) 25 (c) 20 (d) 15
+Answer: (d)
+Solution: The trap is reporting 30 or 35, the individual totals. Since the union equals the whole class, both = 30 + 35 − 50 = 15, so the answer is 15.
+Source: PYQ-style
+
+115. In a group, 40 people like tea, 30 like coffee, 10 like both and 5 like neither. What is the total number of people?
+(a) 70 (b) 60 (c) 65 (d) 75
+Answer: (c)
+Solution: The trap is forgetting the neither group and answering 60. At least one = 40 + 30 − 10 = 60, so total = 60 + 5 = 65, so the answer is 65.
+Source: PYQ-style
+
+116. Which Venn diagram best represents: Boys, Students, Girls?
+(a) Three intersecting circles (b) Boys and Girls as separate circles inside Students (c) Students inside Boys (d) Three separate circles
+Answer: (b)
+Solution: The trap is three intersecting circles, which would mean some boys are girls. All boys and all girls in a class are students, and no boy is a girl, so the answer is two separate circles inside the Students circle.
+Source: PYQ-style
+
+117. In a school, 60% of students play cricket, 50% play football and 30% play both. What percentage of students play only cricket?
+(a) 20% (b) 30% (c) 40% (d) 10%
+Answer: (b)
+Solution: The tempting answer 60% includes those who play both games. Only cricket = 60 − 30 = 30%, so the answer is 30%.
+Source: PYQ-style
+
+118. In a colony, 45 households have a TV, 35 have a fridge and 15 have both. If 20 households have neither, how many households are in the colony?
+(a) 85 (b) 80 (c) 90 (d) 75
+Answer: (a)
+Solution: The trap is ignoring the neither group and answering 65, or adding all four numbers. At least one appliance = 45 + 35 − 15 = 65, so total = 65 + 20 = 85, so the answer is 85.
+Source: PYQ-style
+
+119. Which Venn diagram best represents: Women, Mothers, Teachers?
+(a) Women inside Mothers (b) Three mutually exclusive circles (c) Mothers circle inside the Women circle, with Teachers intersecting both (d) Teachers inside Mothers inside Women
+Answer: (c)
+Solution: The trap is three separate circles, but all mothers are women while some women are teachers and some mothers are teachers. So the Mothers circle lies inside Women and the Teachers circle cuts across both, so the answer is Mothers inside Women with Teachers intersecting both.
+Source: PYQ-style
+
+120. In an exam, 70 students passed in English, 60 passed in Maths and 40 passed in both. How many students failed in Maths if the class has 100 students?
+(a) 30 (b) 45 (c) 35 (d) 40
+Answer: (d)
+Solution: The trap is computing the union 70 + 60 − 40 = 90 and subtracting from 100 to get 10, which gives those failing both subjects, not failing Maths. Failed in Maths = 100 − 60 = 40, so the answer is 40.
+Source: PYQ-style
+
+121. In a survey of 200 people, 120 like tea, 90 like coffee and 70 like milk. 50 like both tea and coffee, 40 like both coffee and milk, 30 like both tea and milk, and 20 like all three. How many like none of the three?
+(a) 40 (b) 30 (c) 20 (d) 10
+Answer: (c)
+Solution: The common trap is forgetting to add back the all-three group, giving a union of 160 and hence 40. At least one = 120 + 90 + 70 − 50 − 40 − 30 + 20 = 180, so none = 200 − 180 = 20, so the answer is 20.
+Source: PYQ-style
+
+122. In a class, 50 students like Physics, 40 like Chemistry and 35 like Biology. 20 like Physics and Chemistry, 15 like Chemistry and Biology, 18 like Physics and Biology, and 10 like all three. How many like exactly two subjects?
+(a) 23 (b) 33 (c) 25 (d) 43
+Answer: (a)
+Solution: The trap is subtracting 10 only once, giving 43, because each pairwise overlap already contains the all-three group. Exactly two = (20 − 10) + (15 − 10) + (18 − 10) = 10 + 5 + 8 = 23, so the answer is 23.
+Source: PYQ-style
+
+123. In a town, 65% of people read newspaper X, 40% read newspaper Y and 25% read both. What percentage of people read exactly one newspaper?
+(a) 55% (b) 40% (c) 50% (d) 45%
+Answer: (a)
+Solution: The trap is computing the union 65 + 40 − 25 = 80%, which still includes the both group. Only X = 65 − 25 = 40% and only Y = 40 − 25 = 15%, so exactly one = 55%, so the answer is 55%.
+Source: PYQ-style
+
+124. In a group of 90 people, each person can swim or cycle or both. 50 can swim and 60 can cycle. How many can do only one of the two activities?
+(a) 50 (b) 40 (c) 60 (d) 70
+Answer: (d)
+Solution: The trap is reporting 20, the both group, instead of the exclusive parts. Both = 50 + 60 − 90 = 20; only swim = 50 − 20 = 30 and only cycle = 60 − 20 = 40, so only one = 30 + 40 = 70, so the answer is 70.
+Source: PYQ-style
+
+125. In a college, 100 students study at least one of Hindi, English or Sanskrit. 60 study Hindi, 50 study English, 40 study Sanskrit, 25 study Hindi and English, 20 study English and Sanskrit, 15 study Hindi and Sanskrit. How many study all three languages?
+(a) 15 (b) 5 (c) 10 (d) 20
+Answer: (c)
+Solution: The trap is forgetting to add the all-three group back, which makes the data look inconsistent. Let x study all three; then 100 = 60 + 50 + 40 − 25 − 20 − 15 + x = 90 + x, giving x = 10, so the answer is 10.
+Source: PYQ-style

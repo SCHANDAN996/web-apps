@@ -1,179 +1,154 @@
-MCQ Set 4 (Medium) – Questions 76 to 100
+Set 4: LCM & HCF MCQs (English)
+Questions 76–100: All Medium
 
-76. Two numbers are in the ratio 3 : 5. If their LCM is 225, their HCF is:
-(A) 15 (B) 30 (C) 45 (D) 60
+Q76. Two numbers are in the ratio 3 : 5. If their LCM is 225, what is their HCF?
+(a) 15 (b) 30 (c) 45 (d) 60
+Answer: (a) 15
+Solution: Let the numbers be 3x and 5x. Because 3 and 5 are co-prime, their LCM is 3 × 5 × x = 15x. Given 15x = 225 ⇒ x = 15. The common factor x is the HCF = 15. Thus, their HCF is 15. Hence, the correct option is (a).
+Source: SSC CGL
 
-77. Find the greatest number that divides 47, 67, and 107, leaving a remainder of 7 in each case.
-(A) 10 (B) 20 (C) 15 (D) 25
+Q77. What is the greatest positive integer that divides 47, 67, and 107 leaving a remainder of 7 in each case?
+(a) 10 (b) 20 (c) 15 (d) 25
+Answer: (b) 20
+Solution: The required number must divide (47 – 7) = 40, (67 – 7) = 60, and (107 – 7) = 100 exactly. Factoring: 40 = 2³ × 5, 60 = 2² × 3 × 5, and 100 = 2² × 5². Common prime factors with lowest powers: 2² × 5¹ = 4 × 5 = 20. (Trap: Taking HCF of the original numbers misses the remainder subtraction step). Thus, the greatest number is 20. Hence, the correct option is (b).
+Source: SSC CHSL
 
-78. The LCM of
-2
-3
-,
-4
-9
-,
-and
-8
-27
-3
-2
-	​
+Q78. What is the LCM of the fractions 2/3, 4/9, and 8/27?
+(a) 2/27 (b) 4/3 (c) 8/3 (d) 16/9
+Answer: (c) 8/3
+Solution: LCM of fractions equals LCM of numerators divided by HCF of denominators. Numerators: 2, 4, 8 ⇒ LCM(2, 4, 8) = 8. Denominators: 3, 9, 27 ⇒ HCF(3, 9, 27) = 3. Therefore, the LCM is 8/3. Hence, the correct option is (c).
+Source: SSC MTS
 
-,
-9
-4
-	​
+Q79. The sum of two numbers is 132 and their HCF is 12. How many distinct pairs of such numbers exist?
+(a) 2 (b) 3 (c) 4 (d) 5
+Answer: (d) 5
+Solution: Let the numbers be 12a and 12b with gcd(a, b) = 1 and a < b. Their sum is 12(a + b) = 132 ⇒ a + b = 11. Since 11 is prime, all positive integer pairs (a, b) with a < b are co-prime: (1, 10), (2, 9), (3, 8), (4, 7), and (5, 6). Counting them gives exactly 5 pairs. Thus, there are 5 such pairs. Hence, the correct option is (d).
+Source: RRB NTPC
 
-,and
-27
-8
-	​
+Q80. What is the least perfect square positive integer that is completely divisible by 12, 15, and 20?
+(a) 900 (b) 3600 (c) 1800 (d) 2400
+Answer: (a) 900
+Solution: Prime factorizations: 12 = 2² × 3, 15 = 3 × 5, and 20 = 2² × 5. LCM(12, 15, 20) = 2² × 3¹ × 5¹ = 60. To make 60 a perfect square, each prime factor must have an even exponent. Multiplying by 3 × 5 = 15 gives: 60 × 15 = 900 = 30². Hence, the least perfect square is 900. Hence, the correct option is (a).
+Source: RRB Group D
 
- is:
-(A)
-8
-9
-9
-8
-	​
+Q81. What is the HCF of the decimal numbers 0.54, 1.8, and 7.2?
+(a) 0.09 (b) 0.18 (c) 0.36 (d) 1.8
+Answer: (b) 0.18
+Solution: Writing with two decimal places as fractions over 100: 54/100, 180/100, and 720/100. Finding HCF of the numerators: 54 = 2 × 3³, 180 = 2² × 3² × 5, and 720 = 2⁴ × 3² × 5. The common prime factors with lowest powers are 2¹ × 3² = 18. Dividing by 100 gives 18 / 100 = 0.18. Therefore, the HCF is 0.18. Hence, the correct option is (b).
+Source: SSC CGL
 
- (B)
-4
-3
-3
-4
-	​
+Q82. The LCM of two numbers is 336 and their HCF is 6. If one of the numbers is 48, what is the other number?
+(a) 36 (b) 40 (c) 42 (d) 44
+Answer: (c) 42
+Solution: Using the product formula: 48 × Other = LCM × HCF = 336 × 6 = 2016. Dividing by 48 gives: Other number = 2016 / 48 = 42. Thus, the other number is 42. Hence, the correct option is (c).
+Source: SSC CHSL
 
- (C)
-8
-3
-3
-8
-	​
+Q83. The ratio of two numbers is 4 : 7 and their LCM is 140. What is the sum of the two numbers?
+(a) 45 (b) 50 (c) 60 (d) 55
+Answer: (d) 55
+Solution: Let the numbers be 4k and 7k. Since 4 and 7 are co-prime, LCM = 4 × 7 × k = 28k. Given 28k = 140 ⇒ k = 5. The numbers are 4(5) = 20 and 7(5) = 35. Their sum is 20 + 35 = 55. Hence, the sum of the two numbers is 55. Hence, the correct option is (d).
+Source: SSC MTS
 
- (D)
-16
-27
-27
-16
-	​
+Q84. What is the greatest positive integer that divides 98, 138, and 178 leaving a remainder of 8 in each case?
+(a) 10 (b) 15 (c) 20 (d) 25
+Answer: (a) 10
+Solution: Subtracting 8 from each number gives 98 – 8 = 90, 138 – 8 = 130, and 178 – 8 = 170. Factoring: 90 = 2 × 3² × 5, 130 = 2 × 5 × 13, and 170 = 2 × 5 × 17. The common prime factors are 2¹ × 5¹ = 10. Thus, HCF(90, 130, 170) = 10. Therefore, the greatest number is 10. Hence, the correct option is (a).
+Source: RRB NTPC
 
-79. The sum of two numbers is 132, and their HCF is 12. How many such pairs of numbers exist?
-(A) 2 (B) 3 (C) 4 (D) 5
+Q85. Three bells toll at intervals of 9, 12, and 15 seconds respectively. If they toll together at 12:00:00 PM, at what time will they toll together next?
+(a) 12:02 PM (b) 12:03 PM (c) 12:05 PM (d) 12:06 PM
+Answer: (b) 12:03 PM
+Solution: Prime factorizations: 9 = 3², 12 = 2² × 3, and 15 = 3 × 5. LCM = 2² × 3² × 5 = 180 seconds. Converting to minutes: 180 seconds = 3 minutes. Adding 3 minutes to 12:00:00 PM gives 12:03 PM. Thus, they will toll together at 12:03 PM. Hence, the correct option is (b).
+Source: RRB Group D
 
-80. The least perfect square exactly divisible by 12, 15, and 20 is:
-(A) 900 (B) 1800 (C) 3600 (D) 600
+Q86. What is the smallest positive integer which when divided by 16, 20, 24, and 28 leaves a remainder of 5 in each case?
+(a) 1680 (b) 1675 (c) 1685 (d) 1690
+Answer: (c) 1685
+Solution: Prime factorizations: 16 = 2⁴, 20 = 2² × 5, 24 = 2³ × 3, and 28 = 2² × 7. LCM = 2⁴ × 3 × 5 × 7 = 16 × 105 = 1680. Adding the remainder 5 gives: 1680 + 5 = 1685. Hence, the smallest number is 1685. Hence, the correct option is (c).
+Source: SSC CGL
 
-81. The HCF of 0.54, 1.8, and 7.2 is:
-(A) 0.09 (B) 0.18 (C) 0.36 (D) 0.54
+Q87. The HCF of two numbers is 5 and their LCM is 360. If one of the numbers is 45, what is the other number?
+(a) 36 (b) 45 (c) 50 (d) 40
+Answer: (d) 40
+Solution: Using the product formula: 45 × Other = 5 × 360 = 1800. Dividing by 45: Other number = 1800 / 45 = 40. Therefore, the other number is 40. Hence, the correct option is (d).
+Source: SSC CHSL
 
-82. The LCM of two numbers is 336, and their HCF is 6. If one number is 48, the other is:
-(A) 36 (B) 42 (C) 45 (D) 54
+Q88. The sum of two positive numbers is 384 and their HCF is 48. How many distinct pairs of such numbers exist?
+(a) 2 (b) 1 (c) 3 (d) 4
+Answer: (a) 2
+Solution: Let the numbers be 48a and 48b with gcd(a, b) = 1 and a < b. Their sum is 48(a + b) = 384 ⇒ a + b = 384 / 48 = 8. Co-prime pairs (a, b) summing to 8 with a < b are: (1, 7) and (3, 5). (Pairs (2, 6) and (4, 4) have gcd > 1). Thus, there are exactly 2 pairs. Hence, the correct option is (a).
+Source: SSC MTS
 
-83. Two numbers are in the ratio 4 : 7, and their LCM is 140. Their sum is:
-(A) 50 (B) 55 (C) 60 (D) 65
+Q89. What is the HCF of the fractions 5/7, 10/21, and 15/28?
+(a) 5/42 (b) 5/84 (c) 15/84 (d) 5/28
+Answer: (b) 5/84
+Solution: HCF of fractions = HCF of numerators divided by LCM of denominators. Numerators: 5, 10, 15 ⇒ HCF(5, 10, 15) = 5. Denominators: 7 = 7, 21 = 3 × 7, 28 = 2² × 7 ⇒ LCM(7, 21, 28) = 2² × 3 × 7 = 84. Therefore, the HCF is 5/84. Hence, the correct option is (b).
+Source: RRB NTPC
 
-84. What is the largest number that divides 98, 138, and 178, leaving a remainder of 8 in each case?
-(A) 5 (B) 10 (C) 15 (D) 20
+Q90. What is the LCM of the decimal numbers 0.2, 0.25, and 0.4?
+(a) 1 (b) 4 (c) 2 (d) 0.5
+Answer: (c) 2
+Solution: Writing as fractions: 0.2 = 1/5, 0.25 = 1/4, 0.4 = 2/5. LCM of fractions = LCM of numerators (1, 1, 2) / HCF of denominators (5, 4, 5) = 2 / 1 = 2. Alternatively, multiplying by 100 gives 20, 25, 40: LCM(20, 25, 40) = 200, and dividing by 100 gives 200 / 100 = 2. Thus, the LCM is 2. Hence, the correct option is (c).
+Source: RRB Group D
 
-85. Three bells toll at intervals of 9 s, 12 s, and 15 s. If they toll together at 12:00 noon, when will they next toll together?
-(A) 12:03 PM (B) 12:04 PM (C) 12:05 PM (D) 12:06 PM
+Q91. Three runners complete one round of a circular track in 10 seconds, 12 seconds, and 15 seconds respectively. If they start together, after how many seconds will they next meet at the starting point?
+(a) 30 s (b) 45 s (c) 90 s (d) 60 s
+Answer: (d) 60 s
+Solution: The runners will meet at the starting point at an elapsed time equal to LCM(10, 12, 15). Prime factorizations: 10 = 2 × 5, 12 = 2² × 3, and 15 = 3 × 5. LCM = 2² × 3 × 5 = 60 seconds. Hence, they will meet after 60 s. Hence, the correct option is (d).
+Source: SSC CGL
 
-86. The smallest number that leaves a remainder of 5 when divided by 16, 20, 24, or 28 is:
-(A) 1680 (B) 1685 (C) 1675 (D) 1690
+Q92. What is the largest positive integer that divides 124, 187, and 250, leaving remainders of 4, 7, and 10 respectively?
+(a) 60 (b) 30 (c) 40 (d) 50
+Answer: (a) 60
+Solution: Subtracting the respective remainders: 124 – 4 = 120, 187 – 7 = 180, and 250 – 10 = 240. Finding HCF(120, 180, 240): 120 = 2³ × 3 × 5, 180 = 2² × 3² × 5, and 240 = 2⁴ × 3 × 5. Common prime factors with lowest powers: 2² × 3¹ × 5¹ = 4 × 3 × 5 = 60. Thus, the largest number is 60. Hence, the correct option is (a).
+Source: SSC CHSL
 
-87. The LCM of two numbers is 360, and their HCF is 5. If one number is 45, the other is:
-(A) 35 (B) 40 (C) 50 (D) 42
+Q93. The LCM of two numbers is 15 times their HCF. If the sum of their LCM and HCF is 256, what is the product of the two numbers?
+(a) 2048 (b) 3840 (c) 2560 (d) 4096
+Answer: (b) 3840
+Solution: Let HCF = h, then LCM = 15h. Sum = h + 15h = 16h = 256 ⇒ h = 16. Then LCM = 15 × 16 = 240. By the product rule: Product of numbers = LCM × HCF = 240 × 16 = 3840. Therefore, the product of the numbers is 3840. Hence, the correct option is (b).
+Source: SSC MTS
 
-88. The sum of two numbers is 384, and their HCF is 48. How many pairs of such numbers exist?
-(A) 1 (B) 2 (C) 3 (D) 4
+Q94. What is the smallest positive integer which, when increased by 5, is completely divisible by 8, 12, and 18?
+(a) 77 (b) 72 (c) 67 (d) 80
+Answer: (c) 67
+Solution: Let the number be N. Then N + 5 must be a multiple of LCM(8, 12, 18). Prime factorizations: 8 = 2³, 12 = 2² × 3, and 18 = 2 × 3². LCM = 2³ × 3² = 8 × 9 = 72. Setting N + 5 = 72 gives N = 72 – 5 = 67. (Trap: Adding 5 instead of subtracting gives 77, but 77 + 5 = 82 is not divisible by 8, 12, or 18). Thus, the smallest number is 67. Hence, the correct option is (c).
+Source: RRB NTPC
 
-89. The HCF of
-5
-7
-,
-10
-21
-,
-and
-15
-28
-7
-5
-	​
+Q95. The product of two co-prime numbers is 253. What is their LCM?
+(a) 11 (b) 23 (c) 276 (d) 253
+Answer: (d) 253
+Solution: By definition, the HCF of any two co-prime numbers is 1. Using LCM × HCF = Product of numbers ⇒ LCM × 1 = 253 ⇒ LCM = 253. Hence, their LCM is 253. Hence, the correct option is (d).
+Source: RRB Group D
 
-,
-21
-10
-	​
+Q96. Three traffic lights change after every 48 seconds, 72 seconds, and 108 seconds respectively. If they all change together at 8:00:00 AM, at what time will they next change together?
+(a) 8:07:12 AM (b) 8:06:48 AM (c) 8:08:24 AM (d) 8:09:00 AM
+Answer: (a) 8:07:12 AM
+Solution: Prime factorizations: 48 = 2⁴ × 3, 72 = 2³ × 3², and 108 = 2² × 3³. LCM(48, 72, 108) = 2⁴ × 3³ = 16 × 27 = 432 seconds. Converting to minutes: 432 seconds = 7 minutes and 12 seconds. Adding to 8:00:00 AM gives 8:07:12 AM. Thus, they will next change together at 8:07:12 AM. Hence, the correct option is (a).
+Source: SSC CGL
 
-,and
-28
-15
-	​
+Q97. What is the LCM of the decimal numbers 0.12, 0.18, and 0.24?
+(a) 0.36 (b) 0.72 (c) 0.48 (d) 1.44
+Answer: (b) 0.72
+Solution: Multiplying by 100 gives 12, 18, and 24. Prime factorizations: 12 = 2² × 3, 18 = 2 × 3², and 24 = 2³ × 3. LCM(12, 18, 24) = 2³ × 3² = 8 × 9 = 72. Dividing by 100 gives 72 / 100 = 0.72. Therefore, the LCM is 0.72. Hence, the correct option is (b).
+Source: SSC CHSL
 
- is:
-(A)
-5
-84
-84
-5
-	​
+Q98. Two numbers are in the ratio 5 : 6. If their HCF is 8, what is their LCM?
+(a) 120 (b) 180 (c) 240 (d) 360
+Answer: (c) 240
+Solution: Because 5 and 6 are co-prime, the numbers are 5 × 8 = 40 and 6 × 8 = 48. Their LCM is 5 × 6 × HCF = 30 × 8 = 240. Thus, their LCM is 240. Hence, the correct option is (c).
+Source: SSC MTS
 
- (B)
-5
-42
-42
-5
-	​
+Q99. What is the greatest four-digit number that is completely divisible by 15, 25, and 40?
+(a) 9800 (b) 9900 (c) 9950 (d) 9600
+Answer: (d) 9600
+Solution: Prime factorizations: 15 = 3 × 5, 25 = 5², and 40 = 2³ × 5. LCM(15, 25, 40) = 2³ × 3 × 5² = 8 × 3 × 25 = 600. The largest 4-digit number is 9999. Dividing 9999 by 600: 9999 = 600 × 16 + 399 (remainder = 399). Subtracting the remainder gives 9999 – 399 = 9600. Hence, the greatest four-digit number is 9600. Hence, the correct option is (d).
+Source: RRB NTPC
 
- (C)
-1
-84
-84
-1
-	​
+Q100. Two numbers are 28 and 42. If their LCM is 84, what is their HCF?
+(a) 7 (b) 14 (c) 21 (d) 6
+Answer: (b) 14
+Solution: Using the fundamental relationship: Product of numbers = LCM × HCF ⇒ 28 × 42 = 84 × HCF ⇒ 1176 = 84 × HCF. Dividing by 84 gives: HCF = 1176 / 84 = 14. Therefore, their HCF is 14. Hence, the correct option is (b).
+Source: RRB Group D
 
- (D)
-1
-42
-42
-1
-	​
-
-90. The LCM of 0.2, 0.25, and 0.4 is:
-(A) 1 (B) 2 (C) 0.5 (D) 4
-
-91. Three wheels make revolutions in 10, 12, and 15 seconds respectively. Starting together, after what time will they be together again?
-(A) 30 s (B) 48 s (C) 60 s (D) 120 s
-
-92. The largest number that divides 124, 187, and 250, leaving remainders 4, 7, and 10 respectively, is:
-(A) 30 (B) 40 (C) 50 (D) 60
-
-93. The LCM of two numbers is 15 times their HCF. If the sum of the LCM and HCF is 256, then the product of the numbers is:
-(A) 2048 (B) 2560 (C) 3840 (D) 4096
-
-94. The smallest number which, when increased by 5, is exactly divisible by 8, 12, and 18 is:
-(A) 67 (B) 72 (C) 77 (D) 80
-
-95. Two co‑prime numbers have a product of 253. Their LCM is:
-(A) 23 (B) 253 (C) 11 (D) 276
-
-96. Three traffic lights change every 48 s, 72 s, and 108 s. They change together at 8:00:00 AM. When will they next change together?
-(A) 8:06:48 AM (B) 8:07:12 AM (C) 8:08:24 AM (D) 8:09:00 AM
-
-97. The LCM of 0.12, 0.18, and 0.24 is:
-(A) 0.24 (B) 0.36 (C) 0.48 (D) 0.72
-
-98. Two numbers are in the ratio 5 : 6. If their HCF is 8, their LCM is:
-(A) 120 (B) 180 (C) 240 (D) 360
-
-99. The greatest 4‑digit number exactly divisible by 15, 25, and 40 is:
-(A) 9600 (B) 9800 (C) 9900 (D) 9950
-
-100. Two numbers are 28 and 42. If their LCM is 84, their HCF is:
-(A) 6 (B) 7 (C) 14 (D) 21
-
-📝 Answer Key with Step-by-Step Solutions
-<details> <summary><strong>76. Answer: (A) 15</strong></summary> Numbers = 3x, 5x. LCM = 15x = 225 ⇒ x = 15. HCF = x = 15.<br> <em>Source: SSC CGL / Bank Clerk Pattern</em> </details><details> <summary><strong>77. Answer: (B) 20</strong></summary> Numbers after subtracting 7: 40, 60, 100. HCF(40,60,100) = 20.<br> <em>Source: NCERT Class 6 / SSC MTS</em> </details><details> <summary><strong>78. Answer: (C) 8/3</strong></summary> LCM of fractions = LCM(2,4,8) / HCF(3,9,27) = 8 / 3.<br> <em>Source: SSC CGL Memory Based</em> </details><details> <summary><strong>79. Answer: (D) 5</strong></summary> Numbers = 12a, 12b, a+b = 11, a,b co-prime. Pairs: (1,10), (2,9), (3,8), (4,7), (5,6) → 5 pairs.<br> <em>Source: SSC CGL Tier‑I</em> </details><details> <summary><strong>80. Answer: (A) 900</strong></summary> LCM of 12,15,20 = 60. 60 = 2²×3×5, needs 3×5 to be square ⇒ 60×15 = 900 = 30².<br> <em>Source: SSC CGL Tier‑I</em> </details><details> <summary><strong>81. Answer: (B) 0.18</strong></summary> Multiply by 100: 54, 180, 720. HCF = 18. Divide by 100 → 0.18.<br> <em>Source: Banking Exam Pattern</em> </details><details> <summary><strong>82. Answer: (B) 42</strong></summary> Other number = (336 × 6) ÷ 48 = 2016 ÷ 48 = 42.<br> <em>Source: NCERT Class 10 / IBPS</em> </details><details> <summary><strong>83. Answer: (B) 55</strong></summary> Numbers = 4k, 7k. LCM = 28k = 140 ⇒ k = 5. Numbers: 20, 35; sum = 55.<br> <em>Source: SSC CHSL Pattern</em> </details><details> <summary><strong>84. Answer: (B) 10</strong></summary> Subtract 8: 90, 130, 170. HCF(90,130,170) = 10.<br> <em>Source: NCERT Class 6 / SSC</em> </details><details> <summary><strong>85. Answer: (A) 12:03 PM</strong></summary> LCM of 9,12,15 = 180 seconds = 3 minutes. Next toll: 12:00 + 3 min = 12:03 PM.<br> <em>Source: Railway RRB Group D</em> </details><details> <summary><strong>86. Answer: (B) 1685</strong></summary> LCM of 16,20,24,28 = 1680. Number = 1680 + 5 = 1685.<br> <em>Source: SSC CGL / Banking</em> </details><details> <summary><strong>87. Answer: (B) 40</strong></summary> Other = (360 × 5) ÷ 45 = 1800 ÷ 45 = 40.<br> <em>Source: SSC MTS Pattern</em> </details><details> <summary><strong>88. Answer: (B) 2</strong></summary> Numbers = 48a, 48b. a+b = 384÷48 = 8. Co‑prime pairs: (1,7), (3,5) → 2 pairs.<br> <em>Source: SSC CGL Tier‑I</em> </details><details> <summary><strong>89. Answer: (A) 5/84</strong></summary> HCF of fractions = HCF(5,10,15) / LCM(7,21,28) = 5 / 84.<br> <em>Source: SSC CGL Memory Based</em> </details><details> <summary><strong>90. Answer: (B) 2</strong></summary> Remove decimals (multiply by 100): 20, 25, 40. LCM = 200. Divide by 100 → 2.<br> Or: LCM(1/5,1/4,2/5) = LCM(1,1,2)/HCF(5,4,5) = 2/1 = 2.<br> <em>Source: Bank PO Pattern</em> </details><details> <summary><strong>91. Answer: (C) 60 s</strong></summary> LCM of 10,12,15 = 60 seconds.<br> <em>Source: SSC / RRB Pattern</em> </details><details> <summary><strong>92. Answer: (D) 60</strong></summary> Subtract remainders: 120, 180, 240. HCF(120,180,240) = 60.<br> <em>Source: NCERT Class 6 / SSC CGL</em> </details><details> <summary><strong>93. Answer: (C) 3840</strong></summary> HCF = h, LCM = 15h. Sum = 16h = 256 → h = 16, LCM = 240. Product = h×15h = 15×256 = 3840.<br> <em>Source: SSC CGL Tier‑II Pattern</em> </details><details> <summary><strong>94. Answer: (A) 67</strong></summary> LCM of 8,12,18 = 72. Number = 72 − 5 = 67.<br> <em>Source: NCERT Class 6 / Banking</em> </details><details> <summary><strong>95. Answer: (B) 253</strong></summary> For co‑prime numbers, LCM = product = 253.<br> <em>Source: SSC MTS / Bank Clerk</em> </details><details> <summary><strong>96. Answer: (B) 8:07:12 AM</strong></summary> LCM of 48,72,108 = 432 seconds = 7 min 12 sec. Next change: 8:00:00 + 7:12 = 8:07:12 AM.<br> <em>Source: SSC CGL / RRB NTPC</em> </details><details> <summary><strong>97. Answer: (D) 0.72</strong></summary> Multiply by 100: 12, 18, 24. LCM = 72. Divide by 100 → 0.72.<br> <em>Source: Banking Exam Pattern</em> </details><details> <summary><strong>98. Answer: (C) 240</strong></summary> Numbers = 5×8=40, 6×8=48. LCM(40,48) = 240.<br> <em>Source: SSC CHSL Pattern</em> </details><details> <summary><strong>99. Answer: (A) 9600</strong></summary> LCM of 15,25,40 = 600. Largest 4‑digit 9999. 9999 ÷ 600 gives remainder 399. Answer = 9999 − 399 = 9600.<br> <em>Source: SSC CGL Tier‑I</em> </details><details> <summary><strong>100. Answer: (C) 14</strong></summary> Product = 28×42 = 1176. HCF = Product ÷ LCM = 1176 ÷ 84 = 14.<br> <em>Source: NCERT Class 10</em> </details>
+End of Set 4.

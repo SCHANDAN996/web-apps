@@ -1,0 +1,52 @@
+```mermaid
+graph TD
+    A["सम्मिश्र संख्याएँ<br>Complex Numbers"] --> B["परिचय<br>Introduction"]
+    A --> C["बीजीय रूप<br>Algebraic Form"]
+    A --> D["ज्यामितीय निरूपण<br>Geometric Representation"]
+    A --> E["ध्रुवीय रूप<br>Polar Form"]
+    A --> F["संक्रियाएँ<br>Operations"]
+    A --> G["प्रमुख प्रमेय<br>Key Theorems"]
+    A --> H["अनुप्रयोग<br>Applications"]
+
+    B --> B1["काल्पनिक इकाई<br>Imaginary Unit i"]
+    B1 --> B1a["i² = −1"]
+    B1 --> B1b["i की घातें<br>Powers of i: i, −1, −i, 1"]
+    B --> B2["मानक रूप<br>Standard Form z = a + ib"]
+    B2 --> B2a["वास्तविक भाग<br>Real Part Re(z) = a"]
+    B2 --> B2b["काल्पनिक भाग<br>Imaginary Part Im(z) = b"]
+
+    C --> C1["युग्मित सम्मिश्र संख्या<br>Conjugate z̄ = a − ib"]
+    C --> C2["मापांक<br>Modulus |z| = √(a² + b²)"]
+    C --> C3["कोणांक<br>Argument: tan θ = b/a,<br>चतुर्थांश के अनुसार θ चुनें"]
+    C3 --> C3a["मुख्य कोणांक<br>Principal Argument (−π, π]"]
+    C --> C4["समानता<br>Equality: a = c, b = d"]
+
+    D --> D1["आरगंड तल<br>Argand Plane"]
+    D1 --> D1a["x-अक्ष = वास्तविक<br>x-axis = Real"]
+    D1 --> D1b["y-अक्ष = काल्पनिक<br>y-axis = Imaginary"]
+    D --> D2["सदिश निरूपण<br>Vector Representation"]
+    D --> D3["चतुर्थांश<br>Quadrants और arg(z)"]
+
+    E --> E1["z = r(cos θ + i sin θ)"]
+    E --> E2["ऑयलर सूत्र<br>Euler's Formula e^(iθ) = cos θ + i sin θ"]
+    E --> E3["घातांकीय रूप<br>Exponential Form z = re^(iθ)"]
+
+    F --> F1["योग और घटाव<br>Addition & Subtraction"]
+    F --> F2["गुणन<br>Multiplication"]
+    F2 --> F2a["मापांक गुणनफल<br>|z₁z₂| = |z₁||z₂|"]
+    F2 --> F2b["कोणांक योग<br>arg(z₁z₂) = arg z₁ + arg z₂"]
+    F --> F3["भाग<br>Division (युग्मित से गुणा)"]
+    F --> F4["घात और मूल<br>Powers & Roots"]
+    F4 --> F4a["इकाई के मूल<br>Roots of Unity"]
+    F4a --> F4b["1, ω, ω² ; 1 + ω + ω² = 0, ω³ = 1"]
+
+    G --> G1["डी मोवर का प्रमेय<br>De Moivre's Theorem"]
+    G1 --> G1a["(cos θ + i sin θ)ⁿ = cos nθ + i sin nθ"]
+    G --> G2["त्रिभुज असमिका<br>Triangle Inequality |z₁ + z₂| ≤ |z₁| + |z₂|"]
+    G --> G3["बीजगणित का आधारभूत प्रमेय<br>Fundamental Theorem of Algebra"]
+
+    H --> H1["द्विघात समीकरण<br>Quadratic Equations (D < 0)"]
+    H --> H2["ज्यामिति में बिंदुपथ<br>Locus: वृत्त, रेखा"]
+    H --> H3["घूर्णन<br>Rotation in Plane"]
+    H --> H4["त्रिकोणमिति सर्वसमिकाएँ<br>Trigonometric Identities"]
+```

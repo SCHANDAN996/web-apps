@@ -1,5 +1,22 @@
 import os
 
+# ---- Safety: this script only writes PROMPTS. Never overwrite finished book content (see BOOK_RULES.md).
+import builtins as _builtins
+_PROMPT_MARKS = ('# Chapter:', '@content_agent', '@mcq_generator', '@pyq_agent')
+
+
+def open(path, mode='r', *args, **kwargs):  # noqa: A001 — shadows builtins.open inside this module only
+    p = str(path)
+    if 'w' in mode and p.endswith('.txt') and os.path.exists(p) and 'Introduction' not in p and 'Intro_Prompt' not in p:
+        with _builtins.open(p, encoding='utf-8', errors='replace') as f:
+            head = f.read(800)
+        if not any(m in head for m in _PROMPT_MARKS):
+            print('skip (finished content, not a prompt):', p)
+            return _builtins.open(os.devnull, mode, *args, **kwargs)
+    return _builtins.open(path, mode, *args, **kwargs)
+
+
+
 # ------------------------------------------------------------------
 # 1. कॉन्फ़िगरेशन
 # ------------------------------------------------------------------
@@ -118,7 +135,7 @@ def create_chapter_structure(base_dir, chapter_list):
             "   - सामने प्रश्न, पीछे संक्षिप्त उत्तर\n"
             "   - कम से कम 2 कार्ड में म्नेमोनिक ट्रिक पूछना\n\n"
             "5. **📊 PYQ विश्लेषण** – हिंदी और अंग्रेजी में अलग-अलग।\n"
-            "   - पिछले 10 वर्षों के PYQ का डेटा-संचालित विश्लेषण\n"
+            "   - परीक्षा-पैटर्न विश्लेषण (कोई गढ़ी गिनती नहीं — BOOK_RULES.md §4)\n"
             "   - शीर्ष 10 हाई-यील्ड प्रश्न समाधान सहित\n"
             "   - प्रश्नों के \"हुक\" या \"ट्रैप\" की व्याख्या\n\n"
             "6. **🪄 Short Tricks** – हिंदी और अंग्रेजी में अलग-अलग।\n"
@@ -133,7 +150,8 @@ def create_chapter_structure(base_dir, chapter_list):
             "➡️ **मैं अब बारी-बारी से आपको प्रॉम्प्ट दूँगा, जैसे \"Content हिंदी बनाओ\", \"Feynman अंग्रेजी में दो\" आदि।**\n"
             "कृपया हर बार केवल वही खंड generate करें, और पूरी quality बनाए रखें।"
         )
-        with open(os.path.join(chapter_dir, "Chapter_Intro_Prompt.txt"), 'w', encoding='utf-8') as f:
+        os.makedirs(os.path.join(chapter_dir, "Prompts"), exist_ok=True)
+        with open(os.path.join(chapter_dir, "Prompts", "Chapter_Intro_Prompt.txt"), 'w', encoding='utf-8') as f:
             f.write(chapter_intro_prompt)
 
         # --- सामान्य सेक्शन फ़ाइलें ---
@@ -199,15 +217,18 @@ def create_chapter_structure(base_dir, chapter_list):
             f"PYQ_hi.txt": (
                 f"# Chapter: {topic_hi}, Level: {LEVEL}\n\n"
                 f"@pyq_agent lang=hi level={LEVEL} "
-                f"'{topic_hi}' के लिए पिछले 10 वर्षों के PYQ का विश्लेषण करो। "
-                "शीर्ष 10 हाई-यील्ड प्रश्नों को हल सहित दो। "
-                "यह भी बताओ कि ये प्रश्न किस 'हुक' या 'ट्रैप' का उपयोग करते हैं।"
+                f"'{topic_hi}' के लिए परीक्षा-पैटर्न विश्लेषण लिखो (BOOK_RULES.md §4): कौन-से उप-विषय बार-बार पूछे जाते हैं, प्रश्नों के प्रकार, "
+        "परीक्षक के जाल (लगभग सही कथन, कालानुक्रमिक भ्रम, समान नाम, नकारात्मक वाक्यांश) — शब्दों में; कोई वर्ष-वार गिनती या भार % नहीं। "
+        "फिर 10 प्रतिनिधि प्रश्न हल सहित; स्रोत में परीक्षा/वर्ष तभी जब official प्रश्नपत्र में मिला हो, वरना 'PYQ-style'। "
+        "कम से कम 2 प्रश्नों पर 15/45 सेकंड नियम लागू करो।"
             ),
             f"PYQ_en.txt": (
                 f"# Chapter: {topic_en}, Level: {LEVEL}\n\n"
                 f"@pyq_agent lang=en level={LEVEL} "
-                f"'Analyse PYQs of {topic_en} for last 10 years. Give top 10 high-yield questions with solutions. "
-                "Also explain what psychological hook or trap each question uses.'"
+                f"'Write an exam-pattern analysis for {topic_en} (BOOK_RULES.md §4): recurring sub-topics, question types, examiner traps "
+        "(almost-correct statement, chronological confusion, similar names, negative phrasing) — in words; no year-wise counts or weightage %. "
+        "Then 10 representative questions with solutions; exam/year in Source only if found in an official paper, else PYQ-style. "
+        "Apply the 15/45-second rule on at least 2 questions.'"
             ),
             f"Short_Tricks_hi.txt": (
                 f"# Chapter: {topic_hi}, Level: {LEVEL}\n\n"
@@ -248,12 +269,14 @@ def create_chapter_structure(base_dir, chapter_list):
                 f"This is Set {set_num} (total 6 sets, 150 questions). "
                 f"Questions must be numbered {start_q} to {end_q}. "
                 f"{diff_en} "
-                "Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'"
+                "Each with 4 options, correct answer, step-by-step solution, and source (NCERT/official book; exam/year only if verified — BOOK_RULES.md §4). The hi and en sets must be the same questions in the same order with the same answers.'"
             )
 
         # सभी फ़ाइलें बनाएँ
+        prompts_dir = os.path.join(chapter_dir, "Prompts")      # prompts only; finished content lives in chapter_dir
+        os.makedirs(prompts_dir, exist_ok=True)
         for file_name, content in files.items():
-            file_path = os.path.join(chapter_dir, file_name)
+            file_path = os.path.join(prompts_dir, file_name)
             with open(file_path, 'w', encoding='utf-8') as f:
                 f.write(content)
 

@@ -1,0 +1,19 @@
+# Important Formulas
+
+| Formula Name | Formula | One-line Use-Hint |
+|---|---|---|
+| Basic Average | Average = (Sum of values) / (Number of values) | Mean of a set of quantities. |
+| Average of first n natural numbers | Sum = n(n+1)/2, so Average = (n+1)/2 | Mean of 1, 2, 3, …, n. |
+| Average of first n even numbers | Average = n + 1 | Mean of 2, 4, 6, …, 2n. |
+| Average of first n odd numbers | Average = n | Mean of 1, 3, 5, …, (2n−1). |
+| Average of consecutive numbers | Average = (First term + Last term) / 2 | Works for any arithmetic sequence. |
+| Sum from Average | Sum = Average × Number of values | Use when total is asked from mean. |
+| New average after adding a value | New Sum = Old Sum + New value | Recompute mean with count + 1. |
+| New average after removing a value | New Sum = Old Sum − Removed value | Recompute mean with count − 1. |
+| Average when one value is misread | Correct Sum = Wrong Sum − Wrong value + Correct value | Fix the total, then divide by count. |
+| Combined average of two groups | Average = (n₁a₁ + n₂a₂) / (n₁ + n₂) | Weighted mean of two groups. |
+| Average speed (equal distances) | Average speed = 2xy / (x + y) | Same distance at speeds x and y. |
+| Average speed (equal times) | Average speed = (x + y) / 2 | Same time at speeds x and y. |
+| Effect of replacing a member | New member's value = Old value + (Change in average × Number of members) | Age/weight replacement problems. |
+| Average of squares of first n natural numbers | Average = (n+1)(2n+1) / 6 | Mean of 1², 2², …, n². |
+| Average of cubes of first n natural numbers | Average = n(n+1)² / 4 | Mean of 1³, 2³, …, n³. |

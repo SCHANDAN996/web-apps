@@ -1,0 +1,33 @@
+```mermaid
+graph TD
+    A["Sentence Structure"] --> B["Basic Elements"]
+    A --> C["Types of Sentences"]
+    A --> D["Subject-Verb Agreement"]
+    A --> E["Common Traps"]
+    A --> F["Exam Strategy"]
+
+    B --> B1["Subject + Verb<br>(minimum complete sentence)"]
+    B --> B2["Object / Complement"]
+    B --> B3["Phrase vs Clause<br>Clause = has Subject + Verb"]
+    B --> B4["SV / SVO / SVC / SVOC patterns"]
+
+    C --> C1["Simple<br>1 independent clause"]
+    C --> C2["Compound<br>2 clauses + FANBOYS"]
+    C --> C3["Complex<br>1 main + 1 subordinate clause"]
+    C --> C4["Compound-Complex<br>2 main + 1 subordinate"]
+
+    D --> D1["Verb agrees with Subject<br>not with nearby noun"]
+    D --> D2["Each / Every / Everyone → Singular"]
+    D --> D3["Neither...nor → verb agrees<br>with nearer subject"]
+    D --> D4["Collective nouns → usually singular"]
+
+    E --> E1["Intervening Phrase Trap<br>'The quality of apples IS good'"]
+    E --> E2["Sound-Right Trap<br>'What you are doing?' ❌<br>'What are you doing?' ✔"]
+    E --> E3["Over-thinking Trap<br>Simple rule, don't invent exceptions"]
+    E --> E4["Hindi-order Trap<br>Question word + helping verb first"]
+
+    F --> F1["Fact-based recall → 15 sec rule"]
+    F --> F2["Complex error / inference → 45 sec rule"]
+    F --> F3["Find Subject first,<br>then check Verb"]
+    F --> F4["Skip if 2 options look<br>equally correct — return later"]
+```

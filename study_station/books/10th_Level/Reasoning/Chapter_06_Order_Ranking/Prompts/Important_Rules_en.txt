@@ -1,33 +1,10 @@
-📋 Important Rules & Approaches
-1. Key Rules/Approaches
-Rule Name	Description	Example
-Total from Same Person's Ranks	If a person is L‑th from left and R‑th from right, total = L + R – 1.	L=15, R=9 → T=15+9–1=23
-Opposite End Rank	To find rank from the other end: Other rank = Total – Given rank + 1	T=40, left rank=13 → right=40–13+1=28
-Persons Between (Same End)	When both ranks are from the same end: Between =	Rank₁ – Rank₂	– 1	Left ranks 15 and 21 → (21–15)–1=5
-Persons Between (Opposite Ends)	First convert both to the same end, then use the same‑end formula.	A left=22, B right=32 in T=50 → B left=19; between=	22–19	–1=2
-Overlap Check	If L + R > T, the two persons overlap (cross each other).	T=20, A left=14, B right=11 → 14+11=25>20 → overlap
-Between in Overlap	Convert both to the same end; Between = (Rank far – Rank near) – 1	A left=14→right=7; B right=11; between=11–7–1=3
-Interchange – New Rank Equals Old Rank	When two persons swap, the new rank of one from an end equals the other's old rank from that same end.	P left=7, Q right=13; swap, P becomes left=15 → Q was left=15; T=15+13–1=27
-Minimum Possible Total	When only opposite‑end ranks given, min total = L + R – 1 (assume same person).	A left=6, B right=9 → min=6+9–1=14
-Maximum Possible Total	Max total = L + R (no overlap, both at extremes).	A left=6, B right=9 → max=6+9=15
-Cannot Be Determined	If relative order of two persons is not given, total is often not unique.	"A is 5th from left, B is 4th from right" – unknown order → multiple totals possible
-Position from Middle	If total T is odd, middle rank = (T+1)/2 from both ends.	T=21 → middle=11th from left and right
-Number of Persons to One Side	Persons to the right of a person = Total – Left rank; to left = Left rank – 1	T=40, left=18 → persons to right=40–18=22
-2. Time Management
-Rule	Description	Application
-15‑Second Rule	If the question gives a single person’s both‑end ranks (T = L + R – 1) or simple opposite‑end conversion, solve within 15 seconds. If it takes longer, mark for review and move on.	Direct formula application.
-45‑Second Rule	For interchange, overlap, or min‑max problems, set a 45‑second limit. If the approach isn’t clear by then, skip and return later. These questions often involve two‑step reasoning and can be time sinks.	Interchange, ambiguous totals.
-Skip Strategy	If a question uses dense language, double relationships, or “some persons between” without exact numbers, and you don’t see the pattern within 30 seconds, skip immediately. Accuracy in other areas is more valuable.	Complex or ambiguous wording.
-Priority Order	Attempt direct formula‑based questions first, then move to single‑conversion (opposite end), then overlap, finally interchange. Build confidence and secure easy marks before tackling harder variants.	Sequencing within the section.
-Rough Work	For all but the simplest questions, draw a small line with marks. Visualising prevents off‑by‑one errors. Allocate 5–10 seconds for the sketch.	Saves time on recalculations.
-3. Logical/Mathematical Formulas
-Formula	Explanation
-T = L + R – 1	Total persons when a person is L‑th from left and R‑th from right.
-Opposite Rank = T – Given Rank + 1	Gives rank from the other end.
-Persons Between = |Pos₁ – Pos₂| – 1	When both positions are from the same end.
-Overlap Condition: L + R > T	Determines if two persons are crossing.
-Between in Overlap = (L₁ + R₂) – T – 2	Direct formula when one left and one right rank are given. (Alternative: convert to same end first)
-Interchange Total: T = New Left of Swapped Person + Unchanged Right of Other – 1	Used after a swap when one person’s new rank from one end is known.
-Min Total = L + R – 1	When no order given, assume maximum overlap.
-Max Total = L + R	When no order given, assume no overlap.
-Middle Position (odd T) = (T+1)/2	Exact middle rank when total is odd.
+# Chapter: Order & Ranking, Level: foundation, Type: Verbal Reasoning
+
+@content_agent lang=en level=foundation 'List all important rules, approaches, time management tips, and logical formulas (if any) for Order & Ranking in a clean table.
+Instructions:
+- Table has three parts:
+  1. "Key Rules/Approaches" – Rule Name | Description | Example
+  2. "Time Management" – 15-second and 45-second rule (e.g., "If pattern not understood in 15 sec, skip").
+  3. "Logical/Mathematical Formulas" – if applicable; otherwise "No formulas for this chapter".
+- No explanation, just tabular data.
+- Keep language simple and precise.

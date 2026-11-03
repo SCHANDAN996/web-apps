@@ -1,3 +1,135 @@
-# Chapter: Percentage, Level: intermediate
+# 📊 PYQ Analysis — Percentage (English)
 
-@pyq_agent lang=en level=intermediate 'Analyse PYQs of Percentage for last 10 years (SSC CGL Mains, IBPS PO, RRB NTPC, CAT etc.). Give top 10 high-yield questions with solutions. Also explain what psychological hook or trap each question uses.'
+## How Exams Test This Chapter
+
+Percentage is one of the most dependable chapters in SSC CGL, IBPS PO, RRB NTPC and CAT. Examiners rarely ask "what is 20% of 500?" directly — they hide the percentage inside a story. Across recent papers, the same handful of patterns keep returning:
+
+- **Successive percentage change** — price rises, then falls (or population grows two years in a row). The trap: students add the percentages instead of using the net-change formula.
+- **Percentage increase/decrease reversed** — "A is 25% more than B; by what % is B less than A?" The trap: answering 25% instead of 20%.
+- **Exam marks & pass/fail** — a student scores x% and fails by n marks. The trap: mixing up the pass mark with the maximum mark.
+- **Election / voting problems** — winner gets p% of valid votes. The trap: forgetting that some votes are invalid.
+- **Income–expenditure–savings** — income rises, expenditure rises, what happens to savings? The trap: assuming savings rise by the same percentage.
+- **Mixture & price-consumption** — price of sugar rises 25%, by what % must consumption fall to keep expenditure same? The trap: answering 25% instead of 20%.
+- **Population / depreciation** — compound growth over 2–3 years. The trap: using simple multiplication.
+- **Percentage of a percentage** — "30% of 40% of a number". The trap: adding instead of multiplying.
+
+### The Examiner's Favourite Traps (in words)
+
+1. **Base confusion** — every percentage is "of" something. Changing the base (A vs B) changes the answer. Read "with respect to what?" before solving.
+2. **Add-instead-of-compound** — two successive 10% rises are NOT 20%; they are 21%.
+3. **Symmetric-looking options** — options like 20% and 25% placed together to catch students who reverse the fraction.
+4. **Invalid votes / absent students** — a hidden subtraction before the percentage is applied.
+5. **"More than" vs "less than"** — the same difference gives different percentages depending on the base.
+
+---
+
+## Top 10 High-Yield Questions (with Solutions)
+
+**Q1.** The price of an article is increased by 20% and then decreased by 20%. The net change in price is:
+(a) No change (b) 4% decrease (c) 4% increase (d) 2% decrease
+
+**Answer: (b)**
+**Solution:** Net change = a + b + ab/100 = 20 − 20 + (20)(−20)/100 = −4%. So the price falls by 4%.
+**Trap:** Option (a) lures students who think +20% and −20% cancel. They don't — the 20% decrease acts on the *increased* price, a bigger base.
+**Source:** PYQ-style (SSC pattern)
+
+---
+
+**Q2.** A's salary is 25% more than B's salary. By what percent is B's salary less than A's?
+(a) 25% (b) 20% (c) 30% (d) 15%
+
+**Answer: (b)**
+**Solution:** Let B = 100, so A = 125. B is less than A by 25, on base A: 25/125 × 100 = 20%.
+**Trap:** Option (a) 25% is the mirror-image answer. The base changes from B to A — that is the whole question.
+**Source:** PYQ-style (SSC/Bank pattern)
+
+---
+
+**Q3.** In an examination, a student must score 40% to pass. Ravi gets 178 marks and fails by 22 marks. The maximum marks are:
+(a) 500 (b) 400 (c) 600 (d) 450
+
+**Answer: (a)**
+**Solution:** Pass marks = 178 + 22 = 200. If 40% of maximum = 200, maximum = 200 × 100/40 = 500.
+**Trap:** Students often compute 40% of 178 or subtract 22 instead of adding. "Fails by 22" means he needs 22 *more*.
+**Source:** PYQ-style (SSC/RRB pattern)
+
+---
+
+**Q4.** The price of sugar rises by 25%. By what percent must a family reduce its consumption so that expenditure stays the same?
+(a) 25% (b) 20% (c) 22.5% (d) 15%
+
+**Answer: (b)**
+**Solution:** Reduction % = r/(100 + r) × 100 = 25/125 × 100 = 20%.
+**Trap:** Option (a) 25% looks symmetric and tempting. Price up 25% ≠ consumption down 25%, because the new price is the base.
+**Source:** PYQ-style (SSC CGL pattern)
+
+---
+
+**Q5.** In an election between two candidates, 10% of the votes were invalid. The winner got 60% of the valid votes and won by 3600 votes. The total number of votes polled was:
+(a) 20000 (b) 18000 (c) 24000 (d) 22000
+
+**Answer: (a)**
+**Solution:** Valid votes = 90% of polled. Winner 60%, loser 40% of valid → margin = 20% of valid = 0.20 × 0.90 × total = 0.18 × total. So total = 3600/0.18 = 20000.
+**Trap:** Forgetting the 10% invalid votes and dividing 3600 by 0.20 (getting 18000 — option b, planted deliberately).
+**Source:** PYQ-style (SSC/Bank pattern)
+
+---
+
+**Q6.** The population of a town increases by 10% in the first year and decreases by 10% in the second year. If the initial population was 50,000, the population after 2 years is:
+(a) 50,000 (b) 49,500 (c) 50,500 (d) 49,000
+
+**Answer: (b)**
+**Solution:** Net change = 10 − 10 − (10×10)/100 = −1%. Population = 50,000 × 0.99 = 49,500.
+**Trap:** Option (a) 50,000 for those who think +10% and −10% cancel. Same-base illusion again.
+**Source:** PYQ-style (RRB NTPC pattern)
+
+---
+
+**Q7.** A man spends 75% of his income. His income increases by 20% and his expenditure increases by 10%. His savings increase by:
+(a) 50% (b) 40% (c) 30% (d) 25%
+
+**Answer: (a)**
+**Solution:** Let income = 100 → expenditure = 75, savings = 25. New income = 120, new expenditure = 82.5, new savings = 37.5. Increase = 12.5/25 × 100 = 50%.
+**Trap:** Assuming savings rise by 20% (like income) or 10% (like expenditure). Savings is a *difference*, so it moves faster — this is the classic Bank-exam hook.
+**Source:** PYQ-style (IBPS pattern)
+
+---
+
+**Q8.** If 30% of a number is 45, then 60% of the same number is:
+(a) 60 (b) 90 (c) 75 (d) 120
+
+**Answer: (b)**
+**Solution:** 30% → 45, so 60% (double) → 90. No need to find the number (150) at all.
+**Trap:** This is the "easy" question where students waste 60 seconds computing the full number. The hook is *time*, not difficulty.
+**Source:** PYQ-style (SSC/RRB pattern)
+
+---
+
+**Q9.** A number is increased by 20% and the result is again increased by 30%. The single equivalent increase is:
+(a) 50% (b) 56% (c) 60% (d) 46%
+
+**Answer: (b)**
+**Solution:** Net = 20 + 30 + (20×30)/100 = 56%. (Check: 100 → 120 → 156.)
+**Trap:** Option (a) 50% for the adders. Successive changes compound — the second rise acts on 120, not 100.
+**Source:** PYQ-style (SSC CGL pattern)
+
+---
+
+**Q10.** In a class, 60% of the students are boys. If 25% of the boys and 40% of the girls play cricket, what percent of the whole class plays cricket?
+(a) 30% (b) 31% (c) 32% (d) 35%
+
+**Answer: (b)**
+**Solution:** Take 100 students: 60 boys, 40 girls. Cricketers = 25% of 60 + 40% of 40 = 15 + 16 = 31 → 31%.
+**Trap:** Averaging 25% and 40% to get 32.5% (near option c). Weighted average must use the group sizes — percentage of a percentage is the core skill here.
+**Source:** PYQ-style (CAT/Bank pattern)
+
+---
+
+## Key Takeaways for the Exam Hall
+
+- Always ask: **"Percentage of WHAT?"** — the base decides the answer.
+- Successive changes: use **a + b + ab/100**, never plain addition.
+- "A is x% more than B" ⇒ "B is x/(100+x) × 100% less than A" — memorise the flip.
+- Assume 100 (or 100x) as the base in almost every question; it kills fractions.
+- In election/marks questions, handle the *invalid/failed* part first, then apply percentages.
+- If options contain a "mirror" pair (20% & 25%, 50% & 56%), the trap is built in — double-check the base before marking.

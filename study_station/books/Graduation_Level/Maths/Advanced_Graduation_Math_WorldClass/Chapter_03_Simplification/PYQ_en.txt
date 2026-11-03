@@ -1,0 +1,98 @@
+# 📊 PYQ Analysis — Simplification & Approximation
+
+## How Exams Test This Chapter
+
+Simplification & Approximation is the **highest-frequency arithmetic topic** in banking exams (IBPS PO/Clerk, SBI PO, RBI) and a regular guest in SSC CGL, UPSC CSAT, and CAT. But each exam asks it differently:
+
+**1. IBPS/SBI PO & Clerk (Prelims + Mains)**
+- The heaviest load: long BODMAS chains with fractions, decimals, percentages, and squares packed into one line.
+- Prelims questions are solvable in 30–45 seconds **if** you spot the simplification (e.g., a fraction that reduces, a percentage that is a clean fraction like 37.5% = 3/8).
+- Mains twists: missing-number format (`?`), "approximately equal to" format, and comparison of two quantities (Quantity I vs Quantity II).
+
+**2. SSC CGL / CHSL**
+- Shorter expressions but with algebraic identities hidden inside: a² − b², (a+b)², surds like (√5 + √3)/(√5 − √3), and recurring decimals.
+- Trap: options placed very close together (e.g., 2.31, 2.13, 3.12, 1.32) to punish digit-swap errors.
+
+**3. UPSC CSAT**
+- Rarely a raw expression. Instead: unit-digit questions, remainder-style simplification, and "which of the following is the largest?" comparisons of fractions/surds.
+- Trap: questions that *look* like they need heavy calculation but collapse with one observation (e.g., comparing 5/9, 7/13, 11/19 — all near 1/2).
+
+**4. CAT**
+- Pure simplification is rare; it appears embedded in number system questions — last two digits, cyclicity of unit digits, and expression evaluation using identities.
+
+## The Examiner's Favourite Traps (in words, not numbers)
+
+- **The "almost right" option:** one option equals the value you get if you do addition before division (violating BODMAS). This is the single most common trap in banking prelims.
+- **The approximation that isn't:** "≈" questions where two options round to the same integer unless you keep one extra decimal place.
+- **Fraction-to-percentage disguise:** 12.5%, 16.66%, 37.5%, 62.5% — the question is trivial if you convert to 1/8, 1/6, 3/8, 5/8, painful if you don't.
+- **Unit-digit shortcut bait:** a huge power like 7^243 where the whole question is just cyclicity (7→9→3→1, cycle of 4).
+- **Negative-sign sandwich:** expressions like −(−a) − (−b) where sign errors, not arithmetic, cause the loss.
+- **Decimal shift:** 0.008 × 0.05 type products where the answer differs from a wrong option only by a factor of 10.
+
+## Top 10 High-Yield Questions (with Solutions)
+
+**Q1.** 45% of 640 + 64% of 450 = ?
+(a) 576 (b) 566 (c) 586 (d) 556
+**Answer: (a)**
+**Solution:** 45% of 640 = 288; 64% of 450 = 288. Sum = 576. **Hook:** the two parts are *equal* — the examiner expects you to compute both fully and make an arithmetic slip under time pressure. Recognising 64% of 450 = 45% of 640 (since 45×640 = 64×450 = 28800) halves the work.
+**Source: PYQ-style (IBPS Clerk pattern)**
+
+**Q2.** 3/8 of 4/9 of 390 + √? = 35% of 1000 − 75
+(a) 44100 (b) 48400 (c) 40000 (d) 52900
+**Answer: (a)**
+**Solution:** (3/8)×(4/9) = 1/6, so the fraction part = 390/6 = 65. RHS = 350 − 75 = 275. So √? = 275 − 65 = 210, giving ? = 210² = 44100. **Hook:** missing-number questions demand you isolate the unknown *first*; students who compute left-to-right drown in fractions. Also note the fraction collapses to 1/6 — always reduce before multiplying.
+**Source: PYQ-style (SBI PO pattern)**
+
+**Q3.** What is the unit digit of 7^243?
+(a) 7 (b) 9 (c) 3 (d) 1
+**Answer: (c)**
+**Solution:** Powers of 7 cycle: 7, 9, 3, 1 (period 4). 243 mod 4 = 3, so the unit digit is the 3rd in the cycle = 3. **Hook:** option (a) tempts students who assume "any power of 7 ends in 7."
+**Source: PYQ-style (UPSC CSAT pattern)**
+
+**Q4.** 0.008 × 0.05 × 25 = ?
+(a) 0.1 (b) 0.01 (c) 1.0 (d) 0.001
+**Answer: (b)**
+**Solution:** 0.008 × 0.05 = 0.0004; × 25 = 0.01. **Hook:** options differ only by powers of 10 — a pure decimal-placement trap. Count decimal places: 3 + 2 = 5 places before multiplying by 25.
+**Source: PYQ-style (SSC CGL pattern)**
+
+**Q5.** 12.5% of 16.66% of 1728 ≈ ? (take 16.66% = 1/6)
+(a) 36 (b) 24 (c) 48 (d) 30
+**Answer: (a)**
+**Solution:** 12.5% = 1/8, 16.66% = 1/6. (1/8)(1/6)(1728) = 1728/48 = 36. **Hook:** students who multiply decimals (0.125 × 0.1666 × 1728) waste 90 seconds; fraction conversion solves it in 10.
+**Source: PYQ-style (IBPS PO pattern)**
+
+**Q6.** (√7 + √5)/(√7 − √5) + (√7 − √5)/(√7 + √5) = ?
+(a) 12 (b) 6 (c) 24 (d) 2√35
+**Answer: (a)**
+**Solution:** Rationalise each: first term = (7 + 5 + 2√35)/2 = 6 + √35; second = 6 − √35. Sum = 12. **Hook:** option (d) is what you get if you add only the surd parts and forget they cancel. The identity (a+b)/(a−b) + (a−b)/(a+b) = 2(a²+b²)/(a²−b²) gives 2(12)/2 = 12 instantly.
+**Source: PYQ-style (SSC CGL pattern)**
+
+**Q7.** Which of the following fractions is the largest: 5/9, 7/13, 11/19, 3/5?
+(a) 5/9 (b) 7/13 (c) 11/19 (d) 3/5
+**Answer: (d)**
+**Solution:** Compare each to 1/2: 5/9 ≈ 0.556, 7/13 ≈ 0.538, 11/19 ≈ 0.579, 3/5 = 0.6. Largest = 3/5. **Hook:** all fractions are near 0.55, so gut feeling fails; cross-multiplication (3/5 vs 11/19: 57 vs 55) is the safe tool.
+**Source: PYQ-style (UPSC CSAT pattern)**
+
+**Q8.** 9999 × 9997 = ?
+(a) 99960003 (b) 99970003 (c) 99960013 (d) 99950003
+**Answer: (a)**
+**Solution:** (9998 + 1)(9998 − 1) = 9998² − 1 = 99960004 − 1 = 99960003. **Hook:** direct multiplication invites a carry error; a² − b² with a = 9998, b = 1 is a 5-second job. Options differ by single digits — pure carry-trap.
+**Source: PYQ-style (SSC/banking pattern)**
+
+**Q9.** 8.88 × 88.8 × 888 ≈ ?
+(a) 700,000 (b) 800,000 (c) 900,000 (d) 600,000
+**Answer: (a)**
+**Solution:** Approximate: 9 × 90 × 900 = 729,000; refine downward slightly (each factor was rounded up) → ≈ 700,000. Exact: 8.88 × 88.8 = 788.544; × 888 ≈ 700,227. **Hook:** in "≈" questions, round *all* factors in the same direction, then correct; rounding some up and some down lands you on a wrong option.
+**Source: PYQ-style (IBPS PO approximation pattern)**
+
+**Q10.** If x = 3 + 2√2, then √x + 1/√x = ?
+(a) 2√2 (b) 2 (c) 4 (d) √2
+**Answer: (a)**
+**Solution:** x = (√2 + 1)², so √x = √2 + 1 and 1/√x = √2 − 1. Sum = 2√2. **Hook:** the question looks like it needs heavy surd algebra, but recognising 3 + 2√2 as a perfect square collapses it. Option (c) tempts those who compute x + 1/x = 6 and stop halfway.
+**Source: PYQ-style (CAT/SSC CGL pattern)**
+
+## Time Strategy Advice
+
+- Banking prelims: target **30–40 seconds** per simplification question; if a clean fraction/identity isn't visible in 5 seconds, mark and move on.
+- Always scan options **before** computing — their spread tells you whether approximation is safe or exact calculation is forced.
+- In "approximately" questions, keep one extra significant digit until the final step.

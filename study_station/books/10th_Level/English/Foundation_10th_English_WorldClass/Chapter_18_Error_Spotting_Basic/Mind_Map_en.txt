@@ -1,0 +1,29 @@
+```mermaid
+graph TD
+    A["Error Spotting (Basic)<br>Find the wrong part of the sentence"] --> B["Step 1: Read the whole sentence"]
+    A --> C["Step 2: Check the 8 Golden Rules"]
+    A --> D["Step 3: Confirm with meaning"]
+
+    B --> B1["Locate Subject and Verb first"]
+    B --> B2["Ignore intervening phrases<br>('along with', 'as well as', 'of the boys')"]
+
+    C --> C1["Subject-Verb Agreement<br>He goes / They go"]
+    C --> C2["Tense Consistency<br>Since + point of time, For + period"]
+    C --> C3["Articles<br>a / an / the"]
+    C --> C4["Prepositions<br>married to, good at, consist of"]
+    C --> C5["Pronouns<br>he-him-his, one-one's"]
+    C --> C6["Noun Number<br>news, furniture, advice = uncountable"]
+    C --> C7["Adjective vs Adverb<br>He runs fast / She sings beautifully"]
+    C --> C8["Parallel Structure<br>likes reading, writing and swimming"]
+
+    C1 --> T1["Trap: Intervening Phrase<br>'The quality of apples WAS good'<br>(quality = subject, not apples)"]
+    C6 --> T2["Trap: Sound-Right Error<br>'He gave me many advices' ❌<br>'much advice' ✔"]
+    C2 --> T3["Trap: Over-thinking<br>Simple rule broken, not a hidden rule"]
+
+    D --> D1["15-Second Rule<br>Fact-based: agreement, article, preposition"]
+    D --> D2["45-Second Rule<br>Inference-based: tense logic, sentence meaning"]
+
+    A --> E["Skip Strategy"]
+    E --> E1["If no error found in 45 sec,<br>mark and move on"]
+    E --> E2["Check 'No error' option only<br>after testing all parts"]
+```

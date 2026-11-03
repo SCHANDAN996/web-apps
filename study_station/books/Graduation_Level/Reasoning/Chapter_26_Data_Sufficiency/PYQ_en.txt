@@ -1,0 +1,128 @@
+# 📊 PYQ Analysis — Data Sufficiency (Advanced Level)
+
+## 1. How Exams Test This Chapter
+
+Data Sufficiency (DS) is a **staple of Banking exams** (IBPS PO/Clerk, SBI PO, RBI Grade B) and appears regularly in **SSC CGL (Tier-II), CAT-style tests, and some State PCS** papers. Railway exams (NTPC) ask it occasionally in simpler form.
+
+**What examiners consistently test:**
+
+| Sub-topic | How it appears |
+|---|---|
+| Quantitative DS (equations, ages, speed, profit) | Most frequent — two statements, decide sufficiency |
+| Coding/Relation DS (blood relations, direction, ranking) | Very frequent in Banking |
+| Inequality/Comparison DS (who is tallest/heaviest/earns most) | Frequent |
+| Seating/Arrangement DS | Banking mains level |
+| Number system DS (divisibility, two-digit numbers) | SSC + Banking |
+
+**The standard answer pattern (memorize):**
+- (a) Statement I alone is sufficient, II alone is not
+- (b) Statement II alone is sufficient, I alone is not
+- (c) Either I alone OR II alone is sufficient
+- (d) Both together needed; neither alone suffices
+- (e) Both together are NOT sufficient
+
+⚠️ Some papers reorder these options — **always read the option definitions first**, never answer from memory of letter positions.
+
+## 2. Examiner's Traps (Psychological Hooks)
+
+1. **Solving instead of judging.** The question asks "is the data sufficient?" — not "what is the answer?" Students waste 90 seconds computing a value they never needed. The moment you know a unique answer *can* be found, stop.
+2. **Carrying information across statements.** When testing Statement II *alone*, students unconsciously use facts from Statement I. Each statement must be tested in isolation first.
+3. **"Both together" illusion.** Two statements that each *look* insufficient may still be insufficient together (e.g., both give the same equation in disguise). Option (e) exists and is used.
+4. **Unique vs. multiple answers.** A statement that yields two possible values (e.g., x² = 9 → x = ±3) is **not sufficient** if the question needs one value — unless the question's context (age, length) rules out the negative.
+5. **Near-identical statements.** Statement II is sometimes just a restatement of I (e.g., "x + y = 10" and "y = 10 − x"). Together they add nothing → answer (e), not (d).
+6. **Assuming unstated facts.** In "Who is tallest?" questions, students assume the persons mentioned are the only ones. Only use what is stated.
+
+## 3. Time Rule Review (15-sec / 45-sec)
+
+- **15-second scan:** Read the question stem only. Ask: "What single fact would answer this?" If the structure is familiar (linear equation, ranking of 3 people), commit to solving (~45 sec).
+- **Skip signals:** 3+ variables, seating arrangement with 6+ people, or statements that are themselves mini-puzzles. Mark and move on; return only if time remains.
+- **Never spend >75 seconds** on any DS question in prelims. DS questions are designed so that *judging* sufficiency is fast; if you're deep in calculation, you've fallen for Trap #1.
+
+## 4. Top 10 High-Yield PYQ-Style Questions
+
+**Q1.** What is the value of x?
+I. 2x + 6 = 20
+II. x² = 49
+
+(a) I alone sufficient (b) II alone sufficient (c) Either alone (d) Both needed (e) Both together not sufficient
+
+**Answer: (a)**
+**Solution:** I gives x = 7 uniquely → sufficient. II gives x = ±7 → two values → not sufficient. **Trap:** students see x² = 49 and write 7, forgetting −7.
+**Source:** PYQ-style (IBPS pattern)
+
+**Q2.** Is x > y?
+I. x² > y²
+II. x³ > y³
+
+**Answer: (b)**
+**Solution:** I fails: x = −3, y = 2 gives x² > y² but x < y. II works because cubing preserves order for all real numbers → x > y always. **Trap:** assuming squares preserve inequality like cubes do.
+**Source:** PYQ-style (SBI PO pattern)
+
+**Q3.** How is A related to B?
+I. A is the sister of C. II. C is the son of B.
+
+**Answer: (d)**
+**Solution:** Alone, neither connects A to B. Together: A is sister of C, C is son of B → A is daughter of B. **Trap:** answering (e) by forgetting gender comes from "sister."
+**Source:** PYQ-style (Banking)
+
+**Q4.** What is the two-digit number?
+I. The sum of its digits is 9. II. The number exceeds the number obtained by reversing its digits by 27.
+
+**Answer: (d)**
+**Solution:** I alone: 18, 27, 36… many options. II alone: 41, 52, 63… many. Together: only 63 fits (6+3=9, 63−36=27). **Trap:** thinking II alone is enough — it isn't (41−14=27 too).
+**Source:** PYQ-style (SSC/Banking)
+
+**Q5.** Among P, Q, R, S, who is the heaviest?
+I. P is heavier than Q and R. II. S is heavier than P.
+
+**Answer: (d)**
+**Solution:** I leaves S unplaced; II alone gives only S > P. Together: S > P > Q, R → S heaviest. **Trap:** answering (a) by ignoring S entirely (Trap #6).
+**Source:** PYQ-style
+
+**Q6.** What is the speed of the train?
+I. The train crosses a pole in 12 seconds. II. The train is 240 m long.
+
+**Answer: (d)**
+**Solution:** Speed = length/time; I gives time only, II gives length only; together 240/12 = 20 m/s. **Trap:** thinking crossing a pole gives speed directly — it needs length.
+**Source:** PYQ-style (SSC CGL)
+
+**Q7.** On which day of the week was 15 August 2020? *(skip-candidate style)*
+I. 1 January 2020 was a Wednesday. II. 2020 was a leap year.
+
+**Answer: (a)**
+**Solution:** I alone suffices — from a known reference day you can compute any date that year (leap status is determinable from the year itself). II alone gives no anchor day. **Trap:** thinking you need II — the year 2020 already tells you it's a leap year; II adds nothing. **Skip check:** calendar DS with odd-day counting often exceeds 45 sec — if your calendar basics are rusty, skip.
+**Source:** PYQ-style
+
+**Q8.** Is the integer n divisible by 6?
+I. n is divisible by 2. II. n is divisible by 3.
+
+**Answer: (d)**
+**Solution:** Divisible by 2 and 3 ⟺ divisible by 6 (since 2, 3 coprime). Each alone is insufficient. **Trap:** answering (e) by over-caution, or (c) by misreading.
+**Source:** PYQ-style
+
+**Q9.** What is the profit percentage?
+I. Cost price is ₹500. II. Selling price is ₹600.
+
+**Answer: (d)**
+**Solution:** Profit% needs both CP and SP: (100/500)×100 = 20%. Neither alone suffices. **Trap:** none major — a fast 30-second question; attempt these first.
+**Source:** PYQ-style
+
+**Q10.** In a row of students facing north, what is R's position from the left?
+I. R is 7th from the right. II. There are 15 students in the row.
+
+**Answer: (d)**
+**Solution:** Position from left = 15 − 7 + 1 = 9. Both needed. **Trap:** forgetting the +1 (off-by-one is the classic ranking trap).
+**Source:** PYQ-style (Banking/SSC)
+
+## 5. Skip-Rule Verdicts
+
+- **Skip (per 15-sec scan):** Q7-type calendar DS if your odd-days method isn't instant; any DS where each statement is itself a 3-line puzzle (seating, 6-person arrangement).
+- **Never skip:** Q6, Q9, Q10 types — formulaic, decidable in under 45 seconds, high accuracy.
+
+## 6. Key Takeaways
+
+1. Judge sufficiency; don't compute the answer unless needed to judge.
+2. Test I alone → II alone → both, in that strict order, with no information leakage.
+3. Watch for ± roots, restated equations, and missing persons in comparisons.
+4. Option (e) is a real answer — typically 1 in 5 DS questions in Banking mains.
+5. Read the option definitions every time; letter-to-meaning mapping varies by exam.

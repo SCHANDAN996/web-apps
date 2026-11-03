@@ -1,0 +1,111 @@
+# Missing Term (लुप्त पद)
+
+## Chapter Outline & Learning Goals
+
+In this chapter you will learn to:
+
+1. Understand what a "Missing Term" question really asks.
+2. Identify the hidden pattern in a series of numbers, letters, or mixed terms.
+3. Apply a step-by-step checking method instead of guessing.
+4. Spot the examiner's favourite traps before they trap you.
+5. Solve a standard question in 30–45 seconds.
+
+---
+
+## 1. The Hook: One Missing Piece, Whole Puzzle Broken
+
+Imagine a railway timetable board where one train's timing is blank. You can still guess it — because every other train follows a gap of 2 hours. That is exactly what a Missing Term question is: **a complete pattern with one piece removed, and your job is to put the piece back.**
+
+SSC, Banking and Railway exams love this chapter because it tests one pure skill — *can you see order where others see chaos?* The good news: every series follows a limited set of patterns, and you will learn all of them here.
+
+## 2. "I Just Can't See the Pattern!" — The Common Struggle
+
+Almost every student says this. The problem is not your brain — it is your *method*. Most students stare at the whole series and hope the answer "clicks". Toppers do the opposite: they **test one pattern at a time**, like a doctor checking symptoms one by one. Once you have a fixed checklist, the fear disappears.
+
+🧠 **Active Recall:** Before reading further, write down: what is the difference between an *arithmetic* series and a *geometric* series?
+
+## 3. Chunk 1 — Number Series: The Big Four Patterns
+
+**Pattern A — Addition/Subtraction (Arithmetic):**
+2, 5, 8, 11, ? → difference is +3 each time → **14**
+
+**Pattern B — Multiplication/Division (Geometric):**
+3, 6, 12, 24, ? → ×2 each time → **48**
+
+**Pattern C — Mixed (difference of differences):**
+2, 4, 8, 14, 22, ? → differences are +2, +4, +6, +8 → next +10 → **32**
+
+**Pattern D — Squares/Cubes:**
+1, 4, 9, 16, ? → 1², 2², 3², 4² → **25**
+Sometimes with a twist: 2, 5, 10, 17, ? → n² + 1 → **26**
+
+🧠 **Active Recall:** Solve without looking back: 5, 10, 20, 40, ? (Answer: 80 — ×2 pattern.)
+
+## 4. Chunk 2 — Letter Series: Convert to Numbers!
+
+Letters scare students. The fix is simple: **write A=1, B=2 … Z=26 above the question** and convert.
+
+A, C, E, G, ? → 1, 3, 5, 7 → +2 each time → **I**
+
+Z, X, V, T, ? → 26, 24, 22, 20 → −2 → **R**
+
+**Mnemonic Trick — "EJOTY":** Remember the 5th, 10th, 15th, 20th, 25th letters:
+**E** (5), **J** (10), **O** (15), **T** (20), **Y** (25).
+With these five anchors, you can count any letter's position in 2 seconds instead of counting from A.
+
+🧠 **Active Recall:** Using EJOTY, what is the position of M? (O is 15, so M = 13.)
+
+## 5. Chunk 3 — Mixed (Alpha-Numeric) Series
+
+Terms like A2, C4, E6, G8, ? — here **letters and numbers run on separate tracks**. Solve each track independently:
+- Letters: A, C, E, G → +2 → **I**
+- Numbers: 2, 4, 6, 8 → +2 → **10**
+- Answer: **I10**
+
+Golden rule: *Never try to find one combined rule. Split, solve, rejoin.*
+
+## 6. Chunk 4 — Wrong Number / Odd Term Variants
+
+Sometimes the exam asks: "Which term does NOT fit?" Method is the same — find the pattern, then check which term breaks it.
+
+3, 5, 7, 11, 13, 17, **19**, 23 → all primes… but if the series were 3, 5, 7, 9, 11, 13, then **9** is wrong (9 is not prime).
+
+🧠 **Active Recall:** In 1, 8, 27, 64, 100, 125 — which term is wrong? (100 — it is not a cube; the rest are 1³, 2³, 3³, 4³, 5³.)
+
+## 7. The 4-Step Checking Method (Your Fixed Checklist)
+
+When you see any series, check in this exact order:
+
+1. **Difference check** — subtract neighbours. Constant? Done.
+2. **Ratio check** — divide neighbours. Constant? Done.
+3. **Second difference** — subtract the differences. Constant? Done.
+4. **Special check** — squares, cubes, primes, alternate terms (split odd-position and even-position terms into two series).
+
+Most exam questions are solved by step 1 or 2. Never skip the order — jumping straight to "special check" wastes time.
+
+## 8. Summary Table
+
+| Series Type | First Check | Example | Answer |
+|---|---|---|---|
+| Arithmetic | Difference | 4, 9, 14, 19, ? | 24 (+5) |
+| Geometric | Ratio | 2, 6, 18, ? | 54 (×3) |
+| Mixed difference | 2nd difference | 1, 3, 7, 13, ? | 21 (+2,+4,+6,+8) |
+| Squares/Cubes | n² or n³ | 1, 8, 27, ? | 64 |
+| Letter series | Convert to numbers | B, E, H, ? | K (+3) |
+| Alpha-numeric | Split tracks | A1, B2, C3, ? | D4 |
+| Alternate series | Odd/even split | 2, 5, 4, 10, 6, ? | 15 (odd track 2, 4, 6 → +2; even track 5, 10, 15 → +5) |
+
+📌 **Review this chapter after 2 days.** Solve 10 fresh questions using only the 4-step checklist — no peeking at solutions.
+
+---
+
+## ⚠️ Caution: Examiner's Trap
+
+**Trap 1 — More than one possible relation in the options.**
+The examiner designs options so that two answers *seem* correct. Example: 2, 4, 8, ? — one student sees ×2 and picks 16; another sees +2, +4, +6 and picks 14. Both options will be present! Rule: prefer the **simplest consistent pattern** (multiplication over growing difference, unless more terms confirm otherwise). If only 3 terms are given, be extra careful.
+
+**Trap 2 — Confusing letter positions and difficult-looking terms.**
+Series like D, G, J, M, ? look hard only because you haven't converted to numbers (4, 7, 10, 13 → +3 → P). Examiners deliberately pick letters whose positions students miscount. Always write positions above letters — never count on fingers in your head.
+
+**Trap 3 — Double-relation (alternate) questions.**
+A series like 3, 10, 6, 20, 9, 30, ? has no single rule — odd positions go +3 (3, 6, 9) and even positions go +10 (10, 20, 30). Students who check only consecutive differences panic and guess. Whenever consecutive differences look irregular, **immediately split into odd and even positions**.

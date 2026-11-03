@@ -1,0 +1,149 @@
+126. At what time between 4 o'clock and 5 o'clock do the hands of a clock coincide?
+(a) 4:20 (b) 4:22 2/11 min (c) 4:21 9/11 min (d) 4:21 6/11 min
+Answer: (c)
+Solution: The tempting option 4:20 comes from wrongly assuming the hour hand stays fixed at 4; it actually moves ahead as the minute hand advances. Coincidence time = (4 × 5) × 12/11 minutes past 4 = 240/11 = 21 9/11 minutes, so the answer is 4:21 9/11 min.
+Source: PYQ-style
+
+127. At what time between 5 o'clock and 6 o'clock will the hands of a clock first be at right angles?
+(a) 5:15 min (b) 5:11 min (c) 5:43 7/11 min (d) 5:10 10/11 min
+Answer: (d)
+Solution: The option 5:43 7/11 min is the second right angle of the hour, a trap for those who forget the question asks for the first. For the first right angle, the minute hand is 15 minute-spaces behind the hour hand: (25 − 15) × 12/11 = 120/11 = 10 10/11 minutes, so the answer is 5:10 10/11 min.
+Source: PYQ-style
+
+128. What is the mirror image of the time 3:40 shown by a clock?
+(a) 8:20 (b) 9:20 (c) 8:40 (d) 7:20
+Answer: (a)
+Solution: The trap option 9:20 results from subtracting from 12:00 instead of 11:60, which mishandles the borrowing of minutes. Mirror image = 11:60 − 3:40 = 8:20, so the answer is 8:20.
+Source: PYQ-style
+
+129. A clock shows 9:30. What time will its mirror image show?
+(a) 2:30 (b) 3:30 (c) 2:00 (d) 3:00
+Answer: (a)
+Solution: The tempting option 3:30 comes from the wrong shortcut 12:00 − 9:30 without borrowing correctly. Mirror image = 11:60 − 9:30 = 2:30, so the answer is 2:30.
+Source: PYQ-style
+
+130. A clock gains 5 minutes every hour. It was set right at 8 a.m. What will it show when the correct time is 5 p.m. the same day?
+(a) 5:00 p.m. (b) 4:15 p.m. (c) 5:45 p.m. (d) 5:09 p.m.
+Answer: (c)
+Solution: The trap option 5:09 p.m. comes from dividing instead of multiplying the gain. From 8 a.m. to 5 p.m. is 9 true hours; gain = 9 × 5 = 45 minutes, so the fast clock shows 5:00 + 0:45, so the answer is 5:45 p.m.
+Source: PYQ-style
+
+131. What was the day of the week on 15 August 1947?
+(a) Saturday (b) Thursday (c) Friday (d) Wednesday
+Answer: (c)
+Solution: The tempting option Saturday comes from counting 1900 as a leap year, which it is not. Counting odd days: 1600 years = 0, 300 years = 1, 46 years = 11 leap + 35 ordinary = 57 days ≡ 1, and days up to 15 Aug 1947 = 227 ≡ 3; total 0 + 1 + 1 + 3 = 5, which corresponds to Friday, so the answer is Friday.
+Source: PYQ-style
+
+132. What was the day of the week on 26 January 1950?
+(a) Wednesday (b) Tuesday (c) Friday (d) Thursday
+Answer: (d)
+Solution: The trap option Friday arises if 1948's leap day is counted twice. Odd days: 1600 = 0, 300 = 1, 49 years = 12 leap + 37 ordinary = 61 ≡ 5, plus 26 days of January ≡ 5; total 0 + 1 + 5 + 5 = 11 ≡ 4, which is Thursday, so the answer is Thursday.
+Source: PYQ-style
+
+133. If 1 January 1900 was a Monday, what day of the week was 1 January 1901?
+(a) Sunday (b) Wednesday (c) Tuesday (d) Monday
+Answer: (c)
+Solution: The trap option Wednesday comes from treating 1900 as a leap year; a century year is leap only if divisible by 400, and 1900 is not. So 1900 has 365 days = 1 odd day, and Monday + 1 = Tuesday, so the answer is Tuesday.
+Source: PYQ-style
+
+134. The calendar of the year 2007 will be exactly repeated in which year?
+(a) 2017 (b) 2018 (c) 2016 (d) 2023
+Answer: (b)
+Solution: The tempting option 2017 ignores that the total odd days accumulated must be a multiple of 7. From 2007 to 2017 the odd days sum to 14 (including leap years 2008, 2012, 2016), which is divisible by 7, so the calendar repeats in 2018, so the answer is 2018.
+Source: PYQ-style
+
+135. How many odd days are there in 400 consecutive years?
+(a) 1 (b) 2 (c) 5 (d) 0
+Answer: (d)
+Solution: The trap option 1 comes from computing 100 years (5 odd days) and mishandling the multiplication. In 400 years there are 303 ordinary and 97 leap years: 303 + 194 = 497 days ≡ 0 (mod 7), so the answer is 0.
+Source: PYQ-style
+
+136. How many times do the hands of a clock coincide in 24 hours?
+(a) 22 (b) 24 (c) 23 (d) 21
+Answer: (a)
+Solution: The tempting option 24 assumes one coincidence per hour, but between 11 and 1 the hands coincide only once, at 12:00. In 12 hours they coincide 11 times, so in 24 hours they coincide 22 times, so the answer is 22.
+Source: PYQ-style
+
+137. How many times in 24 hours are the hands of a clock at right angles to each other?
+(a) 48 (b) 24 (c) 22 (d) 44
+Answer: (d)
+Solution: The trap option 48 assumes two right angles in every hour, but between 2–3, 3–4, 8–9 and 9–10 one right angle is "lost" at each boundary. In 12 hours there are 22 right angles, so in 24 hours there are 44, so the answer is 44.
+Source: PYQ-style
+
+138. How many times in 24 hours are the hands of a clock in a straight line but opposite to each other?
+(a) 24 (b) 11 (c) 44 (d) 22
+Answer: (d)
+Solution: The tempting option 24 assumes one opposition per hour, but between 5 and 7 the hands are opposite only once, at 6:00. In 12 hours they are opposite 11 times, so in 24 hours 22 times, so the answer is 22.
+Source: PYQ-style
+
+139. What is the angle between the two hands of a clock at 7:20?
+(a) 90° (b) 110° (c) 100° (d) 80°
+Answer: (c)
+Solution: The trap option 110° comes from using 30 × 7 − 6 × 20 and forgetting the hour hand's extra movement. Angle = |30 × 7 − 5.5 × 20| = |210 − 110| = 100°, so the answer is 100°.
+Source: PYQ-style
+
+140. At what time between 9 o'clock and 10 o'clock will the hands of a clock be exactly opposite (180° apart)?
+(a) 9:15 min (b) 9:16 4/11 min (c) 9:17 3/11 min (d) 9:15 9/11 min
+Answer: (b)
+Solution: The tempting option 9:15 assumes the hour hand stays at the 9 mark. The minute hand must be 30 minute-spaces behind the hour hand: (45 − 30) × 12/11 = 180/11 = 16 4/11 minutes, so the answer is 9:16 4/11 min.
+Source: PYQ-style
+
+141. A watch loses 16 minutes per day. It was set right at 6 a.m. on Sunday. What time will it show at 6 p.m. on the following Friday?
+(a) 4:32 p.m. (b) 4:44 p.m. (c) 5:28 p.m. (d) 4:16 p.m.
+Answer: (a)
+Solution: The trap option 4:44 p.m. comes from counting only 5 days instead of 5.5 days. From Sunday 6 a.m. to Friday 6 p.m. is 5.5 days; total loss = 5.5 × 16 = 88 minutes, so the watch shows 6:00 − 1:28 = 4:32 p.m., so the answer is 4:32 p.m.
+Source: PYQ-style
+
+142. If 1 January 2024 was a Monday, what day of the week was 1 January 2025?
+(a) Tuesday (b) Wednesday (c) Thursday (d) Monday
+Answer: (b)
+Solution: The tempting option Tuesday forgets that 2024 is a leap year with 366 days = 2 odd days. Monday + 2 = Wednesday, so the answer is Wednesday.
+Source: PYQ-style
+
+143. If 15 March 2023 was a Wednesday, what day of the week was 15 March 2024?
+(a) Friday (b) Saturday (c) Thursday (d) Wednesday
+Answer: (a)
+Solution: The trap option Thursday applies the ordinary-year shift of 1 day, but the interval 15 March 2023 to 15 March 2024 contains 29 February 2024, giving 366 days = 2 odd days. Wednesday + 2 = Friday, so the answer is Friday.
+Source: PYQ-style
+
+144. If the day after tomorrow is Friday, what was the day before yesterday?
+(a) Sunday (b) Monday (c) Tuesday (d) Wednesday
+Answer: (b)
+Solution: The tempting option Sunday results from shifting four days the wrong way. Day after tomorrow is Friday means today is Wednesday; the day before yesterday is then Monday, so the answer is Monday.
+Source: PYQ-style
+
+145. After how much time does the minute hand overtake the hour hand again?
+(a) 65 5/11 minutes (b) 65 minutes (c) 60 minutes (d) 64 6/11 minutes
+Answer: (a)
+Solution: The trap option 65 minutes ignores that the hour hand also moves during the chase. The minute hand gains 55 minute-spaces in 60 minutes, so it gains 60 spaces in 60 × 60/55 = 720/11 = 65 5/11 minutes, so the answer is 65 5/11 minutes.
+Source: PYQ-style
+
+146. At what time between 2 o'clock and 3 o'clock do the hands of a clock coincide?
+(a) 2:10 min (b) 2:12 min (c) 2:11 min (d) 2:10 10/11 min
+Answer: (d)
+Solution: The tempting option 2:10 assumes the hour hand remains fixed at 2. Coincidence time = (2 × 5) × 12/11 = 120/11 = 10 10/11 minutes past 2, so the answer is 2:10 10/11 min.
+Source: PYQ-style
+
+147. The calendar of the year 2016 will be repeated exactly in which year?
+(a) 2040 (b) 2044 (c) 2032 (d) 2038
+Answer: (b)
+Solution: The trap option 2040 uses a 24-year gap, but a leap-year calendar repeats after 28 years (when no century non-leap year intervenes). 2016 + 28 = 2044, and the accumulated odd days over this span are a multiple of 7, so the answer is 2044.
+Source: PYQ-style
+
+148. How many days are there from 26 January 2023 to 15 August 2023 (including 15 August but not 26 January)?
+(a) 200 (b) 201 (c) 202 (d) 199
+Answer: (b)
+Solution: The tempting option 202 comes from counting both end dates. Days: 5 (rest of January) + 28 + 31 + 30 + 31 + 30 + 31 + 15 = 201, so the answer is 201.
+Source: PYQ-style
+
+149. A clock shows 4:12. What time will appear in its mirror image?
+(a) 7:48 (b) 8:48 (c) 7:12 (d) 6:48
+Answer: (a)
+Solution: The trap option 8:48 comes from subtracting from 12:00, which double-counts an hour. Mirror image = 11:60 − 4:12 = 7:48, so the answer is 7:48.
+Source: PYQ-style
+
+150. At what time between 11 o'clock and 12 o'clock do the hands of a clock coincide?
+(a) 11:54 6/11 min (b) 11:59 min (c) 12:00 (d) 11:55 min
+Answer: (c)
+Solution: The tempting option 11:54 6/11 min comes from blindly applying the formula (11 × 5) × 12/11 = 60 minutes, which actually means 60 minutes past 11, i.e. 12:00. The hands do not coincide strictly between 11 and 12; they meet exactly at 12:00, so the answer is 12:00.
+Source: PYQ-style

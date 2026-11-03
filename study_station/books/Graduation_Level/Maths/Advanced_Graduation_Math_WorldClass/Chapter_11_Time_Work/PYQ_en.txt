@@ -1,0 +1,121 @@
+# 📊 PYQ Analysis — Time & Work (Advanced Level)
+
+## How Exams Test This Chapter
+
+Time & Work is one of the most reliable scoring areas in SSC CGL Tier-II, IBPS PO Mains, UPSC CSAT and State PCS papers. Examiners rarely ask a plain "A does a job in 10 days" question at this level. Instead, they wrap the same LCM logic inside traps. Based on the pattern of questions asked across these exams, the recurring themes are:
+
+**1. Efficiency-ratio questions (highest frequency)**
+"A is twice as efficient as B" or "A does in 6 days what B does in 9 days." The trap: students invert the ratio. If A is twice as efficient, A takes *half* the time — not double.
+
+**2. Alternating-day work**
+A works on day 1, B on day 2, and so on. The trap: computing full cycles but forgetting the leftover fraction of work, or assuming the job ends exactly at a cycle boundary.
+
+**3. Leaving / joining midway**
+"A starts, B joins after 3 days" or "A leaves 2 days before completion." The trap: subtracting days from the wrong side of the timeline.
+
+**4. Work-and-wages**
+Payment divided in the ratio of work done (efficiency × days), not in the ratio of days alone. The trap: splitting wages by time when efficiencies differ.
+
+**5. Pipes & cisterns (same chapter, negative work)**
+A leak or an outlet pipe works *against* the filling pipes. The trap: adding all rates instead of subtracting the outlet.
+
+**6. Men–Days–Hours chains (M₁D₁H₁/W₁ = M₂D₂H₂/W₂)**
+"10 men build a wall in 8 days working 6 hours a day…" The trap: forgetting that more hours/day means *fewer* days (inverse), while more work means *more* days (direct).
+
+**7. Negative work (destroyers)**
+"A builds a wall in 10 days, B demolishes it in 15 days." The trap: treating both rates as positive.
+
+**8. CSAT-style reasoning twists**
+UPSC CSAT loves questions where the arithmetic is trivial but the *reading* is hard — e.g., "A and B together finish in 12 days; A alone takes 20 days; how long for B?" with options designed to catch the student who subtracts days (20 − 12 = 8) instead of rates.
+
+**The examiner's favourite psychological hooks:**
+- **Near-correct options:** if the answer is 60/7 days, options include 8, 9, 60/7, and 7/60 — the reciprocal trap.
+- **Chronology confusion:** "leaves 3 days before completion" vs "leaves after 3 days."
+- **Similar-name confusion:** efficiency ratio given as time ratio and vice versa.
+- **Negative phrasing:** "which of the following will NOT complete the work in under 10 days?"
+
+---
+
+## Top 10 High-Yield Questions (with Solutions)
+
+**Q1.** A can do a piece of work in 12 days and B in 18 days. They work together for 4 days, then A leaves. In how many more days will B finish the remaining work?
+(a) 5 (b) 6 (c) 7 (d) 8
+**Answer: (d)**
+**Solution:** LCM(12, 18) = 36 units. A = 3 units/day, B = 2 units/day. Together in 4 days: 4 × 5 = 20 units. Remaining = 36 − 20 = 16 units. B alone: 16/2 = 8 days.
+**Hook:** The "leaves midway" framing pushes students to compute total time instead of *remaining* time — and to stop one step early.
+**Source:** PYQ-style (SSC CGL pattern)
+
+**Q2.** A is 50% more efficient than B. Together they finish a work in 12 days. In how many days can B alone finish it?
+(a) 24 (b) 30 (c) 36 (d) 20
+**Answer: (b)**
+**Solution:** Efficiency ratio A : B = 3 : 2. Combined = 5 units/day → total work = 5 × 12 = 60 units. B alone = 60/2 = 30 days.
+**Hook:** "50% more" is misread as "twice" or the ratio is inverted (2:3). Options 20 and 24 catch exactly those errors.
+**Source:** PYQ-style (IBPS PO pattern)
+
+**Q3.** A and B can do a work in 20 and 30 days. They work on alternate days, A starting. In how many days is the work completed?
+(a) 23 (b) 24 (c) 25 (d) 22
+**Answer: (b)**
+**Solution:** LCM = 60 units; A = 3/day, B = 2/day. Each 2-day cycle completes 5 units. After 11 cycles (22 days): 55 units. Day 23 is A's turn: 55 + 3 = 58. Day 24 is B's turn: 58 + 2 = 60. Done in 24 days.
+**Hook:** Students stop at "11 cycles + 2 days" without checking whether the work finishes *during* the last day — here it exactly does.
+**Source:** PYQ-style (SSC CGL Tier-II pattern)
+
+**Q4.** 12 men can build a wall in 10 days working 8 hours a day. How many hours a day must 16 men work to build the same wall in 6 days?
+(a) 8 (b) 9 (c) 10 (d) 12
+**Answer: (c)**
+**Solution:** Total man-hours = 12 × 10 × 8 = 960. Required: 960 = 16 × 6 × H → H = 10 hours/day.
+**Hook:** Students apply direct proportion to hours ("more men → more hours") instead of inverse.
+**Source:** PYQ-style (State PCS pattern)
+
+**Q5.** A pipe fills a tank in 6 hours, another in 8 hours, while a drain empties it in 12 hours. All three open together — in how long does the tank fill?
+(a) 4 h (b) 4.8 h (c) 5 h (d) 6 h
+**Answer: (b)**
+**Solution:** Net rate = 1/6 + 1/8 − 1/12 = (4 + 3 − 2)/24 = 5/24. Time = 24/5 = 4.8 hours.
+**Hook:** Adding the drain rate gives 1/6 + 1/8 + 1/12 = 9/24 → 24/9 ≈ 2.67 h — a tempting wrong path. Negative work must be subtracted.
+**Source:** PYQ-style (IBPS PO Mains pattern)
+
+**Q6.** A, B and C together finish a work in 8 days. A alone takes 24 days, B alone takes 36 days. C alone takes:
+(a) 18 (b) 24 (c) 36 (d) 72
+**Answer: (a)**
+**Solution:** 1/C = 1/8 − 1/24 − 1/36 = (9 − 3 − 2)/72 = 4/72 = 1/18. C = 18 days.
+**Hook:** Subtracting *days* (24 + 36 − 8 = 52) instead of *rates*. Rates subtract, days never do.
+**Source:** PYQ-style (UPSC CSAT pattern)
+
+**Q7.** A and B can do a work in 12 days, B and C in 15 days, A and C in 20 days. All three together take:
+(a) 8 (b) 9 (c) 10 (d) 12
+**Answer: (c)**
+**Solution:** Add the three pair-rates: 2(A+B+C) = 1/12 + 1/15 + 1/20 = (5+4+3)/60 = 12/60 = 1/5. So A+B+C = 1/10 → 10 days.
+**Hook:** Students average 12, 15, 20 (≈ 15.7) or halve the sum of *days* (47/2). The doubling of rates is the hidden step.
+**Source:** PYQ-style (CAT/SSC pattern)
+
+**Q8.** A works alone for 4 days on a job he can finish in 12 days, then B joins him. B alone could do the whole job in 18 days. Total time to finish the job:
+(a) 8.8 days (b) 9 days (c) 10 days (d) 8 days
+**Answer: (a)**
+**Solution:** In 4 days A completes 4/12 = 1/3. Remaining = 2/3. Combined rate = 1/12 + 1/18 = 5/36. Time for rest = (2/3)/(5/36) = 24/5 = 4.8 days. Total = 4 + 4.8 = 8.8 days.
+**Hook:** Marking 4.8 (forgetting the initial 4 days) — option design exploits exactly this.
+**Source:** PYQ-style (SSC CGL Tier-II pattern)
+
+**Q9.** 5 men or 8 women can finish a work in 24 days. In how many days will 10 men and 8 women finish it?
+(a) 8 (b) 10 (c) 12 (d) 6
+**Answer: (a)**
+**Solution:** "5 men or 8 women" means 5 men ≡ 8 women, so 10 men ≡ 16 women. Team = 16 + 8 = 24 women. Total work = 8 women × 24 days = 192 woman-days. Time = 192/24 = 8 days.
+**Hook:** The "or" in "5 men *or* 8 women" defines an equivalence, not a team. Students who add 5 + 8 = 13 workers fall straight into the trap.
+**Source:** PYQ-style (SSC/Bank pattern)
+
+**Q10.** A can do a work in 15 days. B is 25% more efficient than A. Working together, in how many days will they finish?
+(a) 20/3 (b) 7 (c) 60/9 (d) 6
+**Answer: (a)**
+**Solution:** B's efficiency = 1.25 × A → B's time = 15/1.25 = 12 days. Combined rate = 1/15 + 1/12 = (4+5)/60 = 9/60 = 3/20. Time = 20/3 days ≈ 6.67.
+**Hook:** Option (c) 60/9 is the same value written unreduced — and option (d) 6 catches students who average 15 and 12 wrongly. Also note: "25% more efficient" means time becomes 15/1.25, *not* 15 × 0.75 = 11.25.
+**Source:** PYQ-style (CAT/CSAT pattern)
+
+---
+
+## Key Takeaways for the Exam Hall
+
+1. **Convert everything to units of work (LCM method)** — it kills 90% of fraction errors.
+2. **Rates add and subtract; days never do.** If you find yourself adding "days," stop.
+3. **"X% more efficient" → divide time by (1 + X/100)**, never multiply time by (1 − X/100).
+4. In **alternate-day** problems, always check whether work ends mid-day-cycle.
+5. In **wages** problems, split money by work done (efficiency × days), not by days.
+6. In **pipes**, outlets and leaks are negative — write the minus sign first, then compute.
+7. When two options look equal (20/3 vs 60/9), pick the reduced standard form — and recompute once before marking.

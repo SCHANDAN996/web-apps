@@ -1,0 +1,233 @@
+# 🪄 Short Tricks — Trigonometry (Advanced)
+
+---
+
+## Trick 1: The SOH-CAH-TOA Chant
+```
+┌─────────────────────────────────────────────┐
+│  SOH  →  Sin = Opposite / Hypotenuse        │
+│  CAH  →  Cos = Adjacent / Hypotenuse        │
+│  TOA  →  Tan = Opposite / Adjacent          │
+│                                             │
+│  Chant: "Some Old Horses Chew Apples        │
+│  Happily Throughout Old Age"                │
+└─────────────────────────────────────────────┘
+```
+**Use:** Instantly recall the three basic ratios in any right-triangle problem.
+
+---
+
+## Trick 2: The "0, 1, 2, 3, 4" Table
+```
+┌─────────────────────────────────────────────┐
+│  Angle:   0°    30°    45°    60°    90°    │
+│  sin:     0     1/2    √2/2   √3/2   1      │
+│                                             │
+│  Method: write 0,1,2,3,4 → divide by 4 →    │
+│  take square root:                          │
+│  √0/2=0, √1/2=1/2, √2/2, √3/2, √4/2=1       │
+│  cos = same row READ BACKWARDS              │
+│  tan = sin ÷ cos                            │
+└─────────────────────────────────────────────┘
+```
+**Use:** Rebuild the entire standard-angle table in 10 seconds — never memorise it again.
+
+---
+
+## Trick 3: ASTC — "All Students Take Chemistry"
+```
+┌─────────────────────────────────────────────┐
+│  Quadrant I:   ALL positive                 │
+│  Quadrant II:  Sin positive                 │
+│  Quadrant III: Tan positive                 │
+│  Quadrant IV:  Cos positive                 │
+│                                             │
+│  Memory line: "All Students Take Chemistry" │
+│  (going anticlockwise from Q1)              │
+└─────────────────────────────────────────────┘
+```
+**Use:** Sign of any trig ratio in any quadrant — the #1 trap in exams.
+
+---
+
+## Trick 4: The Reciprocal "Upside-Down" Family
+```
+┌─────────────────────────────────────────────┐
+│  sin ↔ cosec   (the two 's/c' oddballs)     │
+│  cos ↔ sec     (both start with 'c'...      │
+│                  wait, cos pairs with SEC!) │
+│  tan ↔ cot     (tan pairs with CO-tan)      │
+│                                             │
+│  Rule: "Co goes with NON-co"                │
+│  sin↔cosec, cos↔sec — always the ODD pair!  │
+└─────────────────────────────────────────────┘
+```
+**Use:** Never mix up which reciprocal belongs to which ratio.
+
+---
+
+## Trick 5: Pythagorean Triple — "The 1 + tan² = sec² Ladder"
+```
+┌─────────────────────────────────────────────┐
+│  Start:  sin²θ + cos²θ = 1                  │
+│  ÷ cos²θ:  tan²θ + 1 = sec²θ                │
+│  ÷ sin²θ:  1 + cot²θ = cosec²θ              │
+│                                             │
+│  Trick: "Divide the MOTHER identity         │
+│  to birth the two DAUGHTERS"                │
+└─────────────────────────────────────────────┘
+```
+**Use:** Derive all three identities from one — zero memorisation.
+
+---
+
+## Trick 6: Complementary Angles — "Co means Complement"
+```
+┌─────────────────────────────────────────────┐
+│  sin(90° − θ) = cosθ                        │
+│  tan(90° − θ) = cotθ                        │
+│  sec(90° − θ) = cosecθ                      │
+│                                             │
+│  Trick: "At 90°, everything goes CO!"       │
+│  sin→cos, tan→cot, sec→cosec                │
+└─────────────────────────────────────────────┘
+```
+**Use:** Convert any complementary-angle expression in one step.
+
+---
+
+## Trick 7: Heights & Distances — "The 1 : √3 : 2 Shadow Ladder"
+```
+┌─────────────────────────────────────────────┐
+│  Angle of elevation 30°: height = dist/√3   │
+│  Angle of elevation 45°: height = distance  │
+│  Angle of elevation 60°: height = dist×√3   │
+│                                             │
+│  Trick: "30 divides, 45 equals,             │
+│  60 multiplies — all by √3"                 │
+└─────────────────────────────────────────────┘
+```
+**Use:** Solve most height-distance MCQs mentally, no diagram needed.
+
+---
+
+## Trick 8: Two Angles of Elevation — "The √3 Shortcut"
+```
+┌─────────────────────────────────────────────┐
+│  If angles from two points are 30° and 60°  │
+│  (same side), and distance between          │
+│  points = d:                                │
+│                                             │
+│  Height h = (√3 / 2) × d                    │
+│                                             │
+│  Trick: "30-60 pair? Root-three over two!"  │
+└─────────────────────────────────────────────┘
+```
+**Use:** The classic SSC/bank two-observer problem in 5 seconds.
+
+---
+
+## Trick 9: sin(A+B) — "Sine is a Mixer, Cosine is a Matcher"
+```
+┌─────────────────────────────────────────────┐
+│  sin(A+B) = sinA·cosB + cosA·sinB           │
+│  cos(A+B) = cosA·cosB − sinA·sinB           │
+│                                             │
+│  Trick: "SINE MIXES (sin-cos, cos-sin),     │
+│  COSINE MATCHES (cos-cos, sin-sin)          │
+│  — and cosine is MINUS-GRUMPY!"             │
+└─────────────────────────────────────────────┘
+```
+**Use:** Never flip the +/− sign in compound-angle formulas again.
+
+---
+
+## Trick 10: Double Angle — "cos2θ Has Three Faces"
+```
+┌─────────────────────────────────────────────┐
+│  cos2θ = cos²θ − sin²θ                      │
+│        = 2cos²θ − 1                         │
+│        = 1 − 2sin²θ                         │
+│                                             │
+│  Trick: "One formula, THREE disguises —     │
+│  pick the disguise that matches the data!"  │
+│  Given sin? Use 1−2sin²θ. Given cos? 2cos²−1│
+└─────────────────────────────────────────────┘
+```
+**Use:** Choose the fastest form for simplification questions.
+
+---
+
+## Trick 11: The "Allied Angle" Sign Machine
+```
+┌─────────────────────────────────────────────┐
+│  For (90° ± θ) or (270° ± θ):               │
+│      ratio CHANGES (sin↔cos, tan↔cot)       │
+│  For (180° ± θ) or (360° ± θ):              │
+│      ratio STAYS the same                   │
+│  Sign? → Use ASTC of the final quadrant!    │
+│                                             │
+│  Trick: "ODD multiples of 90° FLIP it,      │
+│  EVEN multiples KEEP it"                    │
+└─────────────────────────────────────────────┘
+```
+**Use:** Evaluate sin 120°, cos 210°, tan 315° etc. in seconds.
+
+---
+
+## Trick 12: Max/Min of a sinθ + b cosθ — "The √(a²+b²) Cage"
+```
+┌─────────────────────────────────────────────┐
+│  −√(a²+b²) ≤ a sinθ + b cosθ ≤ +√(a²+b²)    │
+│                                             │
+│  Trick: "The expression is CAGED between    │
+│  ±√(a²+b²) — it can never escape!"          │
+│  Example: 3sinθ + 4cosθ lives in [−5, 5]    │
+└─────────────────────────────────────────────┘
+```
+**Use:** Max-min questions in IBPS/CAT solved in one line.
+
+---
+
+## Trick 13: tan Addition — "The Fraction Sandwich"
+```
+┌─────────────────────────────────────────────┐
+│  tan(A+B) = (tanA + tanB) / (1 − tanA·tanB) │
+│                                             │
+│  Trick: "SUM on top, PRODUCT below,         │
+│  and the bottom always ARGUES (minus)!"     │
+│  For tan(A−B): flip both signs.             │
+└─────────────────────────────────────────────┘
+```
+**Use:** Compound-angle tangent without confusion.
+
+---
+
+## Trick 14: The "sinθ + cosecθ ≥ 2" AM-GM Snap
+```
+┌─────────────────────────────────────────────┐
+│  For 0° < θ < 90°:                          │
+│  sinθ + cosecθ ≥ 2                          │
+│  tanθ + cotθ ≥ 2                            │
+│  secθ + cosecθ ≥ 2√2                        │
+│                                             │
+│  Trick: "A ratio + its reciprocal           │
+│  can never dip below 2" (AM ≥ GM)           │
+└─────────────────────────────────────────────┘
+```
+**Use:** Minimum-value questions — a favourite trap in advanced papers.
+
+---
+
+## Trick 15: The "Complementary Pair Product" Bomb
+```
+┌─────────────────────────────────────────────┐
+│  tan1°·tan2°·tan3° … tan89° = 1             │
+│  Why? tanθ·tan(90°−θ) = tanθ·cotθ = 1       │
+│  Pairs cancel, tan45° = 1 sits in middle!   │
+│                                             │
+│  Trick: "Pair the ends, watch them          │
+│  self-destruct into 1"                      │
+└─────────────────────────────────────────────┘
+```
+**Use:** Long product series (tan, sin, cos chains) collapse instantly.

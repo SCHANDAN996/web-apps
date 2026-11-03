@@ -1,3 +1,39 @@
-# Chapter: Simple Interest, Level: intermediate
+```mermaid
+graph TD
+    A["साधारण ब्याज<br>Simple Interest"] --> B["मूल अवधारणाएँ<br>Basic Concepts"]
+    A --> C["मुख्य सूत्र<br>Main Formulas"]
+    A --> D["विशेष स्थितियाँ<br>Special Cases"]
+    A --> E["उन्नत प्रश्न-प्रकार<br>Advanced Question Types"]
+    A --> F["शॉर्ट ट्रिक्स<br>Short Tricks"]
 
-@content_agent 'Create a detailed mind map (Mermaid code) for the chapter "Simple Interest". Show main concepts, sub-concepts, and their interconnections clearly.'
+    B --> B1["मूलधन (P)<br>Principal"]
+    B --> B2["दर (R)<br>Rate % p.a."]
+    B --> B3["समय (T)<br>Time in years"]
+    B --> B4["ब्याज (SI)<br>Interest"]
+    B --> B5["मिश्रधन (A)<br>Amount = P + SI"]
+
+    C --> C1["SI = P × R × T / 100"]
+    C --> C2["P = SI × 100 / (R × T)"]
+    C --> C3["R = SI × 100 / (P × T)"]
+    C --> C4["T = SI × 100 / (P × R)"]
+    C --> C5["A = P + SI"]
+
+    D --> D1["महीने/दिन में समय<br>Time in months/days<br>T = months/12, days/365"]
+    D --> D2["दर बदलना<br>Rate changes midway<br>हर भाग अलग SI"]
+    D --> D3["मूलधन बदलना<br>Principal changes<br>हर भाग अलग SI"]
+    D --> D4["n गुना होना<br>Becomes n times<br>SI = (n−1)P"]
+
+    E --> E1["दो राशियों की तुलना<br>Two principals/rates"]
+    E --> E2["किस्त/ऋण प्रश्न<br>Installments & Loans"]
+    E --> E3["SI vs CI अंतर<br>SI-CI Difference<br>2 वर्ष: Diff = P(R/100)²"]
+    E --> E4["गलत दर/समय वाले प्रश्न<br>Wrong rate/time problems"]
+
+    F --> F1["दर × समय = ब्याज %<br>R × T = Interest %"]
+    F --> F2["n गुना: T = (n−1)×100/R"]
+    F --> F3["भिन्न विधि<br>Fraction method<br>जैसे 5% = 1/20"]
+    F --> F4["SI हर वर्ष समान<br>SI equal every year"]
+
+    C1 -.आधार.-> D1
+    C1 -.आधार.-> E1
+    B5 -.संबंध.-> C5
+```

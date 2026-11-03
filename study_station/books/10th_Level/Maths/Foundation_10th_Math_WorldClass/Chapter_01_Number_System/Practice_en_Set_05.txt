@@ -1,502 +1,154 @@
 Set 5: Number System MCQs (English)
-Questions 101–120: Medium | Questions 121–125: Hard
+Questions 101–125: Medium to Hard
 
-Q101. Which of the following numbers is divisible by 8?
-(a) 3124 (b) 5216 (c) 7138 (d) 9230
-Answer: (b) 5216
-Solution: Divisibility by 8: last three digits must be divisible by 8. 124÷8=15.5, 216÷8=27, 138÷8=17.25, 230÷8=28.75. So only 5216 works.
-Source: NCERT Class 6
+Q101. Which of the following four-digit numbers is completely divisible by 8?
+(a) 5216 (b) 3124 (c) 7138 (d) 9230
+Answer: (a) 5216
+Solution: By the divisibility rule for 8, a number is divisible by 8 if the number formed by its last three digits is divisible by 8. Testing the options: for 5216, the last three digits form 216, and 216 / 8 = 27 (divisible with remainder 0). For the others, 124, 138, and 230 are not divisible by 8. Therefore, the number divisible by 8 is 5216. Hence, the correct option is (a).
+Source: SSC CGL
 
-Q102. The LCM of 18, 24, and 32 is
-(a) 288 (b) 144 (c) 576 (d) 432
-Answer: (a) 288
-Solution: 18=2×3², 24=2³×3, 32=2⁵. LCM = 2⁵×3² = 32×9 = 288.
-Source: NCERT Class 6
+Q102. What is the Least Common Multiple (LCM) of 18, 24, and 32?
+(a) 144 (b) 288 (c) 432 (d) 576
+Answer: (b) 288
+Solution: Writing prime factorizations: 18 = 2¹ × 3², 24 = 2³ × 3¹, and 32 = 2⁵. To find the LCM, take the highest power of each prime factor occurring in the numbers: LCM = 2⁵ × 3² = 32 × 9 = 288. Thus, the LCM is 288. Hence, the correct option is (b).
+Source: SSC CHSL
 
-Q103. The unit digit of
-4
-257
-4
-257
- is
-(a) 4 (b) 6 (c) 2 (d) 8
+Q103. What is the unit digit of the exponential expression 4^257?
+(a) 2 (b) 6 (c) 4 (d) 8
+Answer: (c) 4
+Solution: The unit digit of powers of 4 follows a pattern of length 2: 4¹ = 4 (odd exponent) and 4² = 16 (even exponent ends in 6). Since the exponent 257 is an odd integer, the expression ends in 4. Hence, the unit digit is 4. Hence, the correct option is (c).
+Source: SSC MTS
+
+Q104. The value of the square root √50 lies between which two consecutive integers?
+(a) 5 and 6 (b) 6 and 7 (c) 4 and 5 (d) 7 and 8
+Answer: (d) 7 and 8
+Solution: Evaluating squares of consecutive integers: 7² = 49 and 8² = 64. Since 49 < 50 < 64, taking square roots gives 7 < √50 < 8. Therefore, √50 lies between 7 and 8. Hence, the correct option is (d).
+Source: RRB NTPC
+
+Q105. If a positive integer is completely divisible by both 4 and 6, then it must always be divisible by:
+(a) 8 (b) 24 (c) 10 (d) 12
+Answer: (d) 12
+Solution: A number divisible by two numbers must be divisible by their Least Common Multiple (LCM). Prime factors: 4 = 2² and 6 = 2 × 3, so LCM(4, 6) = 2² × 3 = 12. Thus, the number is always divisible by 12. (It is not necessarily divisible by 24, as 12 is divisible by both 4 and 6 but not by 24). Hence, it must be divisible by 12. Hence, the correct option is (d).
+Source: RRB Group D
+
+Q106. When the fraction 7 / 80 is converted to a terminating decimal, how many decimal places does it have?
+(a) 4 (b) 2 (c) 3 (d) 5
 Answer: (a) 4
-Solution: Cyclicity of 4: odd power → unit digit 4, even power → 6. 257 is odd → unit digit 4.
-Source: RRB NTPC
+Solution: The fraction 7 / 80 is in irreducible form. Factoring the denominator gives 80 = 2⁴ × 5¹. The number of decimal places of a terminating decimal equals the maximum of the exponents of 2 and 5 in the denominator: max(4, 1) = 4. Indeed, 7 / 80 = 0.0875, which has 4 decimal places. Thus, the number of decimal places is 4. Hence, the correct option is (a).
+Source: SSC CGL
 
-Q104. The number
-50
-50
-	​
-
- lies between which two consecutive integers?
-(a) 6 and 7 (b) 7 and 8 (c) 5 and 6 (d) 4 and 5
-Answer: (b) 7 and 8
-Solution:
-7
-2
-=
-49
-7
-2
-=49,
-8
-2
-=
-64
-8
-2
-=64. Since 49<50<64,
-50
-50
-	​
-
- lies between 7 and 8.
-Source: NCERT Class 9
-
-Q105. If a number is divisible by both 4 and 6, it must be divisible by
-(a) 8 (b) 12 (c) 24 (d) 10
-Answer: (b) 12
-Solution: LCM of 4 and 6 is 12. If divisible by 4 and 6, it's divisible by LCM 12. Not necessarily 24 (e.g., 12).
+Q107. The sum of three consecutive odd numbers is 51. What is the smallest of these three numbers?
+(a) 13 (b) 15 (c) 17 (d) 11
+Answer: (b) 15
+Solution: Let the three consecutive odd numbers be x, x + 2, and x + 4. Their sum is x + (x + 2) + (x + 4) = 3x + 6. Setting this equal to 51 gives 3x + 6 = 51 ⇒ 3x = 45 ⇒ x = 15. The three numbers are 15, 17, and 19. Therefore, the smallest of them is 15. Hence, the correct option is (b).
 Source: SSC CHSL
 
-Q106. The fraction
-7
-80
-80
-7
-	​
+Q108. What is the Highest Common Factor (HCF) of 84 and 126?
+(a) 21 (b) 14 (c) 42 (d) 28
+Answer: (c) 42
+Solution: Prime factorizations of both numbers: 84 = 2² × 3 × 7 and 126 = 2 × 3² × 7. Taking the lowest power of each common prime factor gives HCF = 2¹ × 3¹ × 7¹ = 42. Thus, the HCF is 42. Hence, the correct option is (c).
+Source: SSC MTS
 
- expressed as a terminating decimal has how many decimal places?
-(a) 2 (b) 3 (c) 4 (d) 5
-Answer: (c) 4
-Solution: 80 = 2⁴×5¹. max exponent = 4.
-7
-80
-=
-0.0875
-80
-7
-	​
+Q109. Which of the following numbers is a rational number lying strictly between 1/3 and 1/2?
+(a) 7/12 only (b) 3/5 (c) 1/6 (d) Both 2/5 and 5/12
+Answer: (d) Both 2/5 and 5/12
+Solution: In decimal form, 1/3 ≈ 0.333... and 1/2 = 0.500. Now test the values: 2/5 = 0.400, which lies between 0.333... and 0.500; and 5/12 ≈ 0.4167, which also lies between 0.333... and 0.500. Since both 2/5 and 5/12 lie within the given open interval, the correct choice is Both 2/5 and 5/12. Hence, the correct option is (d).
+Source: RRB NTPC
 
-=0.0875, 4 decimal places.
-Source: NCERT Class 10
-
-Q107. The sum of three consecutive odd numbers is 51. The smallest of them is
-(a) 15 (b) 13 (c) 17 (d) 11
-Answer: (a) 15
-Solution: Let numbers be x, x+2, x+4. Sum = 3x+6=51 → 3x=45 → x=15.
-Source: NCERT Class 8
-
-Q108. The HCF of 84 and 126 is
-(a) 42 (b) 21 (c) 14 (d) 28
-Answer: (a) 42
-Solution: 84=2²×3×7, 126=2×3²×7. HCF = 2×3×7 = 42.
-Source: NCERT Class 10
-
-Q109. A rational number between
-1
-3
-3
-1
-	​
-
- and
-1
-2
-2
-1
-	​
-
- is
-(a)
-2
-5
-5
-2
-	​
-
- (b)
-5
-12
-12
-5
-	​
-
- (c)
-7
-12
-12
-7
-	​
-
- (d) both (a) and (b)
-Answer: (d) both (a) and (b)
-Solution:
-1
-3
-=
-0.333...
-,
-1
-2
-=
-0.5
-3
-1
-	​
-
-=0.333...,
-2
-1
-	​
-
-=0.5.
-2
-5
-=
-0.4
-5
-2
-	​
-
-=0.4,
-5
-12
-≈
-0.4167
-12
-5
-	​
-
-≈0.4167, both lie between.
-7
-12
-≈
-0.5833
-12
-7
-	​
-
-≈0.5833 is greater than 0.5. So (a) and (b) valid.
-Source: NCERT Class 8
-
-Q110. The smallest 4-digit number exactly divisible by 18, 24, and 30 is
-(a) 1080 (b) 1020 (c) 1200 (d) 1100
+Q110. What is the smallest four-digit number that is exactly divisible by 18, 24, and 30?
+(a) 1080 (b) 1020 (c) 1100 (d) 1200
 Answer: (a) 1080
-Solution: LCM of 18,24,30 = 360. Smallest 4-digit multiple: 360×3=1080 (since 360×2=720).
+Solution: Prime factorizations: 18 = 2 × 3², 24 = 2³ × 3, 30 = 2 × 3 × 5. LCM(18, 24, 30) = 2³ × 3² × 5 = 8 × 9 × 5 = 360. We find the smallest four-digit multiple of 360: 360 × 2 = 720 (3 digits), while 360 × 3 = 1080 (4 digits). Hence, the smallest four-digit number divisible by all three numbers is 1080. Hence, the correct option is (a).
+Source: RRB Group D
+
+Q111. When the repeating decimal 0.444... is expressed as a rational fraction in simplest form, the result is:
+(a) 2/5 (b) 4/9 (c) 44/99 (d) 1/2
+Answer: (b) 4/9
+Solution: Let x = 0.444... Multiplying by 10 gives 10x = 4.444... Subtracting the first equation from the second yields 10x – x = 4.444... – 0.444... ⇒ 9x = 4 ⇒ x = 4/9. Thus, the simplest rational fraction is 4/9. Hence, the correct option is (b).
 Source: SSC CGL
 
-Q111. The number
-0.444...
-0.444... expressed as a fraction in simplest form is
-(a)
-4
-9
-9
-4
-	​
-
- (b)
-2
-5
-5
-2
-	​
-
- (c)
-44
-99
-99
-44
-	​
-
- (d)
-1
-2
-2
-1
-	​
-
-Answer: (a)
-4
-9
-9
-4
-	​
-
-Solution: Let x=0.444...; 10x=4.444...; subtract: 9x=4 → x=4/9.
-Source: NCERT Class 9
-
-Q112. The unit digit of
-13
-24
-×
-17
-36
-13
-24
-×17
-36
- is
-(a) 1 (b) 9 (c) 7 (d) 3
-Answer: (a) 1
-Solution: Unit digit of 13^24 depends on 3: cyclicity 3,9,7,1; 24 mod 4 = 0 → unit digit 1. 17^36 unit digit depends on 7: cyclicity 7,9,3,1; 36 mod 4 = 0 → unit digit 1. Product 1×1 = 1.
-Source: RRB NTPC
-
-Q113. The sum of two prime numbers is 30. How many such pairs are there?
-(a) 2 (b) 3 (c) 4 (d) 1
-Answer: (b) 3
-Solution: Pairs: (7,23), (11,19), (13,17). (2,28) no, (3,27) no, (5,25) no. So 3.
-Source: Bank PO
-
-Q114. The total number of factors of 198 is
-(a) 8 (b) 10 (c) 12 (d) 14
-Answer: (c) 12
-Solution: 198 = 2×3²×11. Factors = (1+1)(2+1)(1+1) = 2×3×2 = 12.
-Source: NCERT Class 8
-
-Q115. The least number which when divided by 8, 12, 16, and 24 leaves remainder 5 each time is
-(a) 53 (b) 49 (c) 101 (d) 77
-Answer: (a) 53
-Solution: LCM of 8,12,16,24 = 48. Number = 48k+5. Smallest positive = 53.
-Source: RRB NTPC
-
-Q116.
-27
-×
-3
-27
-	​
-
-×
-3
-	​
-
- equals
-(a) 3 (b) 9 (c) 27 (d)
-30
-30
-	​
-
-Answer: (b) 9
-Solution:
-27
-×
-3
-=
-81
-=
-9
-27×3
-	​
-
-=
-81
-	​
-
-=9.
-Source: NCERT Class 9
-
-Q117. If a 5-digit number 372x4 is divisible by 6, what is the smallest possible value of x?
-(a) 2 (b) 4 (c) 6 (d) 8
-Answer: (a) 2
-Solution: Divisible by 2 (last digit 4 is even, ok). Divisible by 3: sum = 3+7+2+x+4 = 16+x must be a multiple of 3. So x = 2, 5 or 8 all work — the smallest is x = 2.
+Q112. What is the unit digit of the product (13)^24 × (17)^36?
+(a) 3 (b) 7 (c) 1 (d) 9
+Answer: (c) 1
+Solution: For 13^24, the base ends in 3, whose powers have cyclicity 4 (3, 9, 7, 1). Since 24 mod 4 = 0, 13^24 ends in 1. For 17^36, the base ends in 7, whose powers also have cyclicity 4 (7, 9, 3, 1). Since 36 mod 4 = 0, 17^36 ends in 1. Multiplying unit digits: 1 × 1 = 1. Thus, the unit digit is 1. Hence, the correct option is (c).
 Source: SSC CHSL
 
-Q118. The product of two numbers is 4107. Their LCM is 111. Their HCF is
-(a) 37 (b) 111 (c) 27 (d) 39
+Q113. The sum of two positive prime numbers is 30. How many distinct pairs of such prime numbers exist?
+(a) 1 (b) 2 (c) 4 (d) 3
+Answer: (d) 3
+Solution: Testing pairs of prime numbers summing to 30: (7, 23), (11, 19), and (13, 17). Pairs like (3, 27) and (5, 25) do not qualify because 27 and 25 are composite. Thus, there are exactly 3 valid prime pairs. Hence, the correct option is (d).
+Source: SSC MTS
+
+Q114. What is the total number of positive factors (divisors) of 198?
+(a) 12 (b) 8 (c) 10 (d) 14
+Answer: (a) 12
+Solution: Prime factorization of 198: 198 = 2 × 99 = 2¹ × 3² × 11¹. The total number of positive factors is obtained by adding 1 to each exponent and multiplying: (1 + 1)(2 + 1)(1 + 1) = 2 × 3 × 2 = 12. Thus, the total number of factors is 12. Hence, the correct option is (a).
+Source: RRB NTPC
+
+Q115. What is the least positive integer which when divided by 8, 12, 16, and 24 leaves a remainder of 5 in each case?
+(a) 49 (b) 53 (c) 77 (d) 101
+Answer: (b) 53
+Solution: The required number is of the form LCM(8, 12, 16, 24) × k + 5. Prime factorizations: 8 = 2³, 12 = 2² × 3, 16 = 2⁴, 24 = 2³ × 3. LCM = 2⁴ × 3 = 16 × 3 = 48. For the smallest positive integer (k = 1), the number is 48 + 5 = 53. Hence, the least number is 53. Hence, the correct option is (b).
+Source: RRB Group D
+
+Q116. The product of the radicals √27 × √3 is equal to:
+(a) 3 (b) 27 (c) 9 (d) √30
+Answer: (c) 9
+Solution: Using the product property of radicals: √27 × √3 = √(27 × 3) = √81. Since 81 = 9², √81 = 9. Therefore, the product is 9. Hence, the correct option is (c).
+Source: SSC CGL
+
+Q117. If the five-digit number 372x4 is completely divisible by 6, what is the smallest possible value of digit x?
+(a) 4 (b) 6 (c) 8 (d) 2
+Answer: (d) 2
+Solution: A number is divisible by 6 if it is divisible by both 2 and 3. The last digit is 4 (even), so it is divisible by 2 for any digit x. For divisibility by 3, the sum of digits must be a multiple of 3: Sum = 3 + 7 + 2 + x + 4 = 16 + x. The smallest single digit x making 16 + x a multiple of 3 is x = 18 – 16 = 2. Thus, the smallest possible value of x is 2. Hence, the correct option is (d).
+Source: SSC CHSL
+
+Q118. The product of two positive numbers is 4107 and their LCM is 111. What is their HCF?
+(a) 37 (b) 27 (c) 39 (d) 111
 Answer: (a) 37
-Solution: HCF = Product / LCM = 4107 / 111 = 37.
-Source: NCERT Class 6
+Solution: Using the fundamental identity for any two numbers: Product of numbers = HCF × LCM. Substituting the given values gives 4107 = HCF × 111 ⇒ HCF = 4107 / 111 = 37. Therefore, the HCF is 37. Hence, the correct option is (a).
+Source: SSC MTS
 
-Q119. Which of the following is a pair of twin primes?
-(a) (11,13) (b) (17,19) (c) (41,43) (d) all of these
-Answer: (d) all of these
-Solution: Twin primes are primes differing by 2. All given pairs differ by 2 and are primes.
-Source: NCERT Class 6
+Q119. Which of the following pairs of numbers represents twin primes?
+(a) (17, 21) (b) (41, 43) (c) (23, 29) (d) (31, 37)
+Answer: (b) (41, 43)
+Solution: Twin primes are pairs of prime numbers that have a difference of exactly 2. Examining the pairs: 41 and 43 are both prime numbers, and 43 – 41 = 2. In contrast, 21 is composite in (17, 21), while 29 – 23 = 6 and 37 – 31 = 6. Thus, the only twin prime pair is (41, 43). Hence, the correct option is (b).
+Source: RRB NTPC
 
-Q120. The decimal expansion of
-31
-16
-16
-31
-	​
-
- terminates after how many decimal places?
-(a) 2 (b) 3 (c) 4 (d) 5
+Q120. After how many decimal places does the decimal expansion of 31 / 16 terminate?
+(a) 2 (b) 3 (c) 4 (d) 5
 Answer: (c) 4
-Solution: 16 = 2⁴.
-31
-16
-=
-1.9375
-16
-31
-	​
+Solution: The fraction 31 / 16 is in irreducible form. The denominator factorizes as 16 = 2⁴ = 2⁴ × 5⁰. The number of decimal places after which the decimal terminates equals max(4, 0) = 4. Indeed, 31 / 16 = 1.9375 (4 digits after the decimal point). Thus, it terminates after 4 decimal places. Hence, the correct option is (c).
+Source: RRB Group D
 
-=1.9375, 4 decimal places.
-Source: NCERT Class 10
+Q121. If n is a positive integer such that n² is completely divisible by 12, then which of the following statements must always be true?
+(a) n must be divisible by 12 (b) n must be divisible by 4 (c) n must be divisible by 9 (d) n must be divisible by 6
+Answer: (d) n must be divisible by 6
+Solution: Prime factorization of 12 is 2² × 3. If 12 divides n², then 2² divides n² (meaning 2 divides n) and 3 divides n² (meaning 3 divides n). Because 2 and 3 both divide n, their product 6 must divide n. However, n does not need to be divisible by 12 (for instance, if n = 6, n² = 36 is divisible by 12, but 6 is not divisible by 12). Hence, n must be divisible by 6. Hence, the correct option is (d).
+Source: SSC CGL
 
-Q121. (Hard) If
-𝑛
-n is an integer such that
-𝑛
-2
-n
-2
- is divisible by 12, then which of the following must be true?
-(a)
-𝑛
-n is divisible by 6 (b)
-𝑛
-n is divisible by 12 (c)
-𝑛
-n is divisible by 4 (d)
-𝑛
-n is divisible by 3
-Answer: (a)
-𝑛
-n is divisible by 6
-Solution: 12 = 2²×3. For
-𝑛
-2
-n
-2
- to be divisible by 2²×3,
-𝑛
-n must contain 2 and
-3
-3
-	​
-
-? Actually, if a prime p divides
-𝑛
-2
-n
-2
-, p must divide n. But here 12=4×3. For n^2 to be divisible by 4, n must be even. For n^2 to be divisible by 3, n must be divisible by 3 (since if 3|n^2, then 3|n). So n must be divisible by 2 and 3, i.e., 6. Not necessarily 12 (e.g., n=6, n^2=36, divisible by 12, but n not divisible by 12). So (a) is correct.
-Source: SSC CGL Tier 2
-
-Q122. (Hard) The remainder when
-7
-2024
-7
-2024
- is divided by 5 is
-(a) 1 (b) 2 (c) 3 (d) 4
+Q122. What is the remainder when 7^2024 is divided by 5?
+(a) 1 (b) 2 (c) 3 (d) 4
 Answer: (a) 1
-Solution: Use modulo 5. 7 ≡ 2 mod 5. So 7^2024 ≡ 2^2024 mod 5. Cyclicity of 2 mod 5: 2,4,3,1 (cycle of 4). 2024 is divisible by 4 (2024÷4=506 remainder 0). So 2^2024 ≡ 1 mod 5. Remainder 1.
-Source: SSC CGL
+Solution: Modulo 5 arithmetic: 7 ≡ 2 (mod 5), so 7^2024 ≡ 2^2024 (mod 5). The powers of 2 modulo 5 cycle with period 4: 2¹ ≡ 2, 2² ≡ 4, 2³ ≡ 3, 2⁴ ≡ 1 (mod 5). Since 2024 is divisible by 4 (2024 = 4 × 506), 2^2024 ≡ (2⁴)^506 ≡ 1^506 ≡ 1 (mod 5). Hence, the remainder is 1. Hence, the correct option is (a).
+Source: SSC CHSL
 
-Q123. (Hard) The number
-8
-+
-2
-15
-8+2
-15
-	​
+Q123. When simplified, the radical expression √(8 + 2√15) is equal to:
+(a) √6 + √2 (b) √5 + √3 (c) √5 + 1 (d) √7 + 1
+Answer: (b) √5 + √3
+Solution: Let √(8 + 2√15) = √a + √b. Squaring both sides: a + b + 2√(ab) = 8 + 2√15. Comparing rational and radical components: a + b = 8 and ab = 15. The numbers satisfying this system are 5 and 3. Therefore, √(8 + 2√15) = √5 + √3. Hence, the correct option is (b).
+Source: SSC MTS
 
-	​
+Q124. How many integers lying strictly between 100 and 500 are divisible by 7 but not by 21?
+(a) 34 (b) 40 (c) 38 (d) 42
+Answer: (c) 38
+Solution: First count multiples of 7 strictly between 100 and 500: smallest is 105 = 7 × 15, largest is 497 = 7 × 71. Total count of multiples of 7 = 71 – 15 + 1 = 57. Next count multiples of 21 (which are divisible by both 7 and 3): smallest is 105 = 21 × 5, largest is 483 = 21 × 23. Total count of multiples of 21 = 23 – 5 + 1 = 19. Subtracting: 57 – 19 = 38. Hence, there are exactly 38 such integers. Hence, the correct option is (c).
+Source: RRB NTPC
 
- simplifies to
-(a)
-5
-+
-3
-5
-	​
+Q125. The sum of the digits of a two-digit number is 9. If the number is divided by the positive difference of its digits, the quotient is 12 with no remainder. What is the two-digit number?
+(a) 54 (b) 36 (c) 45 (d) 63
+Answer: (b) 36
+Solution: Let the two-digit number be 10a + b with a + b = 9 (so b = 9 – a). The difference of the digits is |a – b| = |2a – 9|. Given (10a + b) / |2a – 9| = 12 ⇒ 9a + 9 = 12|2a – 9|. If 2a – 9 < 0 (i.e. a ≤ 4): 9a + 9 = 12(9 – 2a) = 108 – 24a ⇒ 33a = 99 ⇒ a = 3. Then b = 9 – 3 = 6. Checking: 36 / |3 – 6| = 36 / 3 = 12. Thus, the required two-digit number is 36. Hence, the correct option is (b).
+Source: RRB Group D
 
-+
-3
-	​
-
- (b)
-6
-+
-2
-6
-	​
-
-+
-2
-	​
-
- (c)
-5
-+
-1
-5
-	​
-
-+1 (d)
-3
-+
-7
-3
-	​
-
-+
-7
-	​
-
-Answer: (a)
-5
-+
-3
-5
-	​
-
-+
-3
-	​
-
-Solution: Let
-8
-+
-2
-15
-=
-𝑎
-+
-𝑏
-8+2
-15
-	​
-
-	​
-
-=
-a
-	​
-
-+
-b
-	​
-
-. Square: a+b+2√(ab) = 8+2√15. So a+b=8, ab=15. Solving, a=5, b=3 or vice versa. So
-5
-+
-3
-5
-	​
-
-+
-3
-	​
-
-.
-Source: SSC CGL Tier 2
-
-Q124. (Hard) How many numbers between 100 and 500 are divisible by 7 but not by 21?
-(a) 34 (b) 38 (c) 40 (d) 42
-Answer: (b) 38
-Solution: Count multiples of 7 between 100 and 500: smallest 105 (7×15), largest 497 (7×71). Count = 71-15+1 = 57. Multiples of 21 (LCM 21): from 105 (21×5) to 483 (21×23). Count = 23-5+1 = 19. So not by 21 = 57 - 19 = 38.
-Source: Bank PO
-
-Q125. (Hard) The sum of the digits of a two-digit number is 9. If the number is divided by the difference of its digits, the quotient is 12. Find the number.
-(a) 54 (b) 45 (c) 36 (d) 63
-Answer: (c) 36
-Solution: Let number = 10a+b, a+b=9. Difference = |a-b|. Quotient = 12. So (10a+b) / |a-b| = 12. Try a+b=9, number 10a+(9-a)=9a+9. Difference |a-(9-a)| = |2a-9|. Equation: (9a+9) / |2a-9| = 12 → 9a+9 = 12 |2a-9|. Test a from 1 to 8. a=3: 9(3)+9=36, |2*3-9|=3, 36/3=12 works. So number 36 (a=3,b=6).
-Source: SSC CGL
+End of Set 5.

@@ -1,0 +1,51 @@
+# Probability — Explained Like Feynman Would
+
+## The Birthday Party Mystery
+
+Imagine you're at a party with 23 people. Someone bets you: "I bet two people here share a birthday." Sounds crazy, right? 365 days, only 23 people — surely the chance is tiny. But mathematicians say the chance of a match is over 50%. Who's right?
+
+Spoiler: the mathematicians. And by the end of this page, you'll see why — and you'll never forget it.
+
+## The Hardest Idea in Probability: "At least one"
+
+The toughest concept in probability is **Complementary Probability** — the chance of "at least one" thing happening.
+
+Here's the trap: when you hear "at least one," your brain wants to add up probabilities. Don't. The smart move is to flip the question upside down.
+
+**The trick: P(at least one) = 1 − P(none).**
+
+Instead of asking "what's the chance of winning at least once in 3 tries," ask "what's the chance of losing ALL 3 times" — then subtract from 1.
+
+## The Story of the Birthday Bet
+
+Back to the party. With 23 people, what's the chance at least two share a birthday?
+
+The hard way: calculate 2 people matching, 3 people matching, 4 people... it's a nightmare.
+
+The smart way: ask the opposite — what's the chance NO two people share a birthday?
+
+- Person 1: any birthday works (365/365).
+- Person 2: must avoid person 1's birthday: 364/365.
+- Person 3: must avoid both: 363/365... and so on.
+
+Multiply these: 365/365 × 364/365 × 363/365 × ... (23 terms) ≈ 0.493. So P(no match) ≈ 49.3%, which means P(at least one match) ≈ 50.7%. The bet is a coin flip — and with 30 people it jumps to about 70%. With 50 people, about 97%!
+
+## The Unforgettable Trick: "AT LEAST = 1 − NONE"
+
+**Mnemonic: "When you see 'AT LEAST', think '1 minus NONE'."**
+
+Say it like a chant: *"At least one? One minus none!"* The moment a problem says "at least one," your hand should automatically write 1 − P(none).
+
+## Why It Works Everywhere
+
+- "At least one head in 4 coin tosses": P = 1 − (1/2)⁴ = 1 − 1/16 = 15/16.
+- "At least one six in 4 dice rolls": P = 1 − (5/6)⁴ ≈ 51.8%.
+- "At least one defective item": P = 1 − P(no defective).
+
+## Your Turn — Try This
+
+A shooter hits the target with probability 0.8 on each shot. He fires 3 shots. What is the probability that he hits the target **at least once**?
+
+*(Hint: Don't add. Flip it. P(at least one hit) = 1 − P(all 3 miss) = 1 − (0.2)³ = 1 − 0.008 = 0.992.)*
+
+Now you try: A machine fails with probability 0.1 each day. What's the chance it fails at least once in 5 days?

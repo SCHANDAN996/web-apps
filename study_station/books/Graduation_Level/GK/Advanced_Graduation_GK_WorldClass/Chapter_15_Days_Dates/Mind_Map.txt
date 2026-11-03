@@ -1,0 +1,43 @@
+```mermaid
+graph TD
+    A["महत्वपूर्ण दिवस और तिथियाँ<br>Important Days & Dates"] --> B["राष्ट्रीय दिवस<br>National Days"]
+    A --> C["अंतरराष्ट्रीय दिवस<br>International Days"]
+    A --> D["UN दिवस<br>UN Observances"]
+    A --> E["भारत-विशिष्ट दिवस<br>India-Specific Days"]
+    A --> F["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> G["रणनीति<br>Strategy"]
+
+    B --> B1["गणतंत्र दिवस – 26 जनवरी<br>Republic Day – 26 Jan"]
+    B --> B2["स्वतंत्रता दिवस – 15 अगस्त<br>Independence Day – 15 Aug"]
+    B --> B3["गांधी जयंती – 2 अक्टूबर<br>Gandhi Jayanti – 2 Oct"]
+    B --> B4["बाल दिवस – 14 नवंबर<br>Children's Day – 14 Nov"]
+    B --> B5["शिक्षक दिवस – 5 सितंबर<br>Teachers' Day – 5 Sep"]
+
+    C --> C1["महिला दिवस – 8 मार्च<br>Women's Day – 8 Mar"]
+    C --> C2["मजदूर दिवस – 1 मई<br>Labour Day – 1 May"]
+    C --> C3["मानवाधिकार दिवस – 10 दिसंबर<br>Human Rights Day – 10 Dec"]
+    C --> C4["योग दिवस – 21 जून<br>Yoga Day – 21 June"]
+    C --> C5["पर्यावरण दिवस – 5 जून<br>Environment Day – 5 June"]
+
+    D --> D1["संयुक्त राष्ट्र दिवस – 24 अक्टूबर<br>UN Day – 24 Oct"]
+    D --> D2["स्वास्थ्य दिवस – 7 अप्रैल<br>Health Day – 7 Apr"]
+    D --> D3["जल दिवस – 22 मार्च<br>Water Day – 22 Mar"]
+    D --> D4["शिक्षा दिवस – 24 जनवरी<br>Education Day – 24 Jan"]
+    D --> D5["ओजोन दिवस – 16 सितंबर<br>Ozone Day – 16 Sep"]
+
+    E --> E1["राष्ट्रीय मतदाता दिवस – 25 जनवरी<br>Voters' Day – 25 Jan"]
+    E --> E2["खेल दिवस – 29 अगस्त<br>Sports Day – 29 Aug"]
+    E --> E3["विज्ञान दिवस – 28 फरवरी<br>Science Day – 28 Feb"]
+    E --> E4["किसान दिवस – 23 दिसंबर<br>Farmers' Day – 23 Dec"]
+    E --> E5["सशस्त्र बल ध्वज दिवस – 7 दिसंबर<br>Armed Forces Flag Day – 7 Dec"]
+
+    F --> F1["मिलती-जुलती तिथियाँ<br>Similar Dates<br>जल 22 मार्च vs मौसम 23 मार्च"]
+    F --> F2["व्यक्ति-जयंती भ्रम<br>Personality Confusion<br>बाल दिवस vs शिक्षक दिवस"]
+    F --> F3["थीम वाले वर्ष<br>Year-wise Themes<br>केवल स्थिर तिथियाँ याद रखें"]
+    F --> F4["नकारात्मक प्रश्न<br>NOT-based Questions"]
+
+    G --> G1["माह-वार सूची बनाएँ<br>Month-wise List"]
+    G --> G2["स्मृति-सूत्र<br>Mnemonics"]
+    G --> G3["15/45 सेकंड नियम<br>15/45 Second Rule"]
+    G --> G4["थीम छोड़ें, तिथि पकड़ें<br>Skip Themes, Hold Dates"]
+```

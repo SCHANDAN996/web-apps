@@ -1,0 +1,79 @@
+Card 1
+Front: What is Linear Programming?
+Back: An optimization technique that maximizes or minimizes a linear objective function subject to linear constraints (inequalities/equations) with non-negative variables.
+
+Card 2
+Front: What are the three essential components of an LPP?
+Back: (1) Decision variables, (2) Objective function (to maximize/minimize), (3) Constraints plus non-negativity restrictions.
+
+Card 3
+Front: What is the feasible region?
+Back: The common region satisfying ALL constraints including x ≥ 0, y ≥ 0. Every point in it is a feasible solution.
+
+Card 4
+Front: State the Corner Point (Fundamental) Theorem of LPP.
+Back: If an optimal solution exists, it occurs at a corner point (vertex) of the feasible region. So we only need to check vertices.
+
+Card 5
+Front: What is an unbounded feasible region, and what does it imply?
+Back: A region extending infinitely in some direction. A maximum may not exist; a minimum may still exist — always check whether the objective line can move further.
+
+Card 6
+Front: What is the mnemonic to remember the steps of the graphical method?
+Back: "C-D-P-O": Constraints → Draw lines → Plot feasible region → Optimize at corners. ("Cows Drink Pure Orange-juice")
+
+Card 7
+Front: How do you graph the inequality ax + by ≤ c?
+Back: Draw the line ax + by = c, then test the origin (0,0): if it satisfies the inequality, shade the side containing the origin; otherwise shade the opposite side.
+
+Card 8
+Front: What does a redundant constraint mean?
+Back: A constraint that does not affect the feasible region — removing it changes nothing.
+
+Card 9
+Front: When does an LPP have infinitely many optimal solutions?
+Back: When the objective function line is parallel to a binding constraint edge — every point on that edge is optimal.
+
+Card 10
+Front: What is infeasibility in an LPP?
+Back: When no point satisfies all constraints simultaneously — the feasible region is empty, so no solution exists.
+
+Card 11
+Front: What is the mnemonic for remembering where the optimum lies?
+Back: "The answer hides in the CORNERS" — C-O-R-N-E-R = Check Only Region's Nodes, Evaluate Results.
+
+Card 12
+Front: In a diet problem, what is typically the objective?
+Back: Minimize cost (Z = c₁x + c₂y) subject to minimum nutritional requirements (≥ type constraints).
+
+Card 13
+Front: In a manufacturing problem, what is typically the objective?
+Back: Maximize profit (Z = p₁x + p₂y) subject to limited resources like labour hours and machine time (≤ type constraints).
+
+Card 14
+Front: What is the general shading rule for any inequality (≤ or ≥)?
+Back: The rule is the same for both: draw the boundary line, then test the origin (0,0). If the origin satisfies the inequality, shade the side containing the origin; if not, shade the opposite side. (For ax + by ≥ c with c > 0, the origin usually fails the test, so you shade away from it — but always verify with the test.)
+
+Card 15
+Front: Why must variables be non-negative (x, y ≥ 0) in LPP?
+Back: Real-world quantities like units produced or kg of food cannot be negative; this restricts the feasible region to the first quadrant.
+
+Card 16
+Front: What is the mnemonic "MAX-up, MIN-down" used for?
+Back: For maximization, move the objective line in the direction of increasing Z; for minimization, move it toward decreasing Z — the last corner touched is optimal.
+
+Card 17
+Front: How many variables can the graphical method handle?
+Back: Only two decision variables (three at most with difficulty). For more variables, the Simplex method is used.
+
+Card 18
+Front: What is an optimal solution?
+Back: A feasible point (corner) that gives the maximum or minimum value of the objective function.
+
+Card 19
+Front: If the feasible region is bounded and convex, what is guaranteed?
+Back: Both a maximum and a minimum of the objective function exist, each attained at a corner point.
+
+Card 20
+Front: Quick check: Z = 3x + 4y with corners (0,0), (4,0), (0,3), (2,2). Maximum value?
+Back: Z values: 0, 12, 12, 14 → Maximum = 14 at (2,2).

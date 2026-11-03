@@ -1,0 +1,56 @@
+```mermaid
+graph TD
+    A["महत्वपूर्ण दिवस और तिथियाँ<br>Important Days & Dates"]
+
+    A --> K["मास्टर चाबी<br>Master Key"]
+    A --> N["राष्ट्रीय पर्व<br>National Festivals"]
+    A --> P["व्यक्ति-दिवस<br>Person Days"]
+    A --> E["भारतीय घटना-दिवस<br>Indian Event Days"]
+    A --> D["रक्षा दिवस<br>Defence Days"]
+    A --> W["अंतरराष्ट्रीय दिवस<br>International Days"]
+    A --> T["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> S["रणनीति<br>Strategies"]
+
+    K --> K1["राष्ट्रीय दिवस = जयंती<br>National day = birthday"]
+    K --> K2["विश्व दिवस = संस्था की स्थापना<br>World day = founding of a body"]
+
+    N --> N1["26 जनवरी - संविधान लागू 1950<br>Republic Day"]
+    N --> N2["15 अगस्त - स्वतंत्रता 1947<br>Independence Day"]
+    N --> N3["2 अक्टूबर - गांधी जयंती<br>also Intl Day of Non-Violence"]
+    N --> N4["26 नवंबर - संविधान अपनाया 1949<br>Constitution Day since 2015"]
+
+    P --> P1["12 जनवरी विवेकानंद - युवा दिवस<br>23 जनवरी नेताजी - पराक्रम दिवस"]
+    P --> P2["5 सितंबर राधाकृष्णन - शिक्षक दिवस<br>29 अगस्त ध्यानचंद - खेल दिवस"]
+    P --> P3["31 अक्टूबर पटेल - एकता दिवस<br>11 नवंबर आज़ाद - शिक्षा दिवस"]
+    P --> P4["14 नवंबर नेहरू - बाल दिवस<br>22 दिसंबर रामानुजन - गणित दिवस"]
+    P --> P5["23 दिसंबर चरण सिंह - किसान दिवस<br>25 दिसंबर वाजपेयी - सुशासन दिवस"]
+
+    E --> E1["28 फ़रवरी - रमन प्रभाव 1928<br>National Science Day"]
+    E --> E2["11 मई - पोखरण 1998<br>National Technology Day"]
+    E --> E3["25 जनवरी - निर्वाचन आयोग 1950<br>National Voters' Day"]
+    E --> E4["24 अप्रैल - 73वाँ संशोधन 1993<br>Panchayati Raj Day"]
+    E --> E5["14 सितंबर - हिंदी राजभाषा 1949<br>Hindi Diwas"]
+    E --> E6["23 अगस्त - चंद्रयान-3 2023<br>National Space Day"]
+
+    D --> D1["15 जनवरी - थल सेना<br>Army Day, Cariappa 1949"]
+    D --> D2["8 अक्टूबर - वायु सेना<br>Air Force Day, 1932"]
+    D --> D3["4 दिसंबर - नौसेना<br>Navy Day, Op Trident 1971"]
+    D --> D4["26 जुलाई कारगिल 1999<br>16 दिसंबर विजय दिवस 1971"]
+
+    W --> W1["7 अप्रैल WHO 1948<br>World Health Day"]
+    W --> W2["5 जून - स्टॉकहोम 1972<br>World Environment Day"]
+    W --> W3["21 जून - योग दिवस<br>UN 2014, first 2015"]
+    W --> W4["16 अक्टूबर FAO, 24 अक्टूबर UN<br>Food Day, UN Day"]
+    W --> W5["10 दिसंबर - UDHR 1948<br>Human Rights Day"]
+    W --> W6["22, 23, 24 मार्च<br>Water, Meteorological, TB"]
+
+    T --> T1["समान नाम<br>Hindi 14 Sep vs World Hindi 10 Jan"]
+    T --> T2["समान नाम<br>Teachers 5 Sep vs World Teachers 5 Oct"]
+    T --> T3["कालानुक्रमिक भ्रम<br>Adopted 1949 vs in force 1950"]
+    T --> T4["लगभग सही कथन<br>Science Day is not Raman's birthday"]
+
+    S --> S1["पहले पूछें: जयंती या घटना?<br>Person day or event day?"]
+    S --> S2["'विश्व' शब्द देखें<br>Look for World or International"]
+    S --> S3["सीधी तारीख़: 15 सेकंड<br>Direct date: 15 sec"]
+    S --> S4["क्रम या कथन: 45 सेकंड<br>Order or statements: 45 sec"]
+```

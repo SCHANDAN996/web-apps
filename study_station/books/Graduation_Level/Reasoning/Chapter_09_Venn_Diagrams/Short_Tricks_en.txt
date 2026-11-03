@@ -1,0 +1,120 @@
+# 🪄 Short Tricks & Mnemonics — Venn Diagrams
+
+---
+
+## 🎯 Mnemonic 1: "C-S-T" — The Shape Code
+> **C**ircle = a **C**ommunity (people sharing one quality)
+> **S**quare = a **S**trict category (fixed group like "men", "doctors")
+> **T**riangle = a **T**alent (skill like "players", "singers")
+
+**Trick:** Before solving, whisper "C-S-T" and label every shape with its group name. 90% of errors happen because students forget which shape means what midway.
+
+---
+
+## 🎯 Mnemonic 2: "Only = Lonely Zone"
+> The word **"only"** means the **lonely zone** — the part of a shape that touches NO other shape.
+
+**Trick:** "Only doctors" = the part of the doctor circle that is single, unmarried to any other circle. Never include overlapping petals when you see "only".
+
+---
+
+## 🎯 Mnemonic 3: "AND means the Sandwich"
+> "Doctors **AND** players" = the **sandwich layer** where two shapes overlap.
+> Three groups AND = the **triple-decker sandwich** (common to all three).
+
+**Trick:** Every "and/both" in the question = hunt for an overlap. Every "but not" = overlap minus the third shape.
+
+---
+
+## 🎯 Mnemonic 4: "NOT = Knock it OUT"
+> "Players who are **NOT** doctors" → take the whole player shape, then **knock out** every part touching the doctor shape.
+
+**Trick:** Physically strike through the excluded region on your rough diagram. Crossed-out zones can't be counted by mistake.
+
+---
+
+## 🎯 Mnemonic 5: "Venn's Vow: Draw Before You Count"
+> **V**erify shapes → **E**nter numbers → **N**ever skip the centre → **N**ow answer.
+
+**Trick:** In number-based Venn questions, always fill the **innermost (all-three) region first**, then work outward. Going outside-in is the #1 cause of wrong answers.
+
+---
+
+## 🎯 Mnemonic 6: "The Centre is the King"
+> In a 3-set Venn, the central region (all three) is the **King** — every "both" calculation must pay tax to the King.
+
+**Trick:** When computing "exactly two", remember: (pairwise overlap) − (centre). The King is always subtracted. Forget the King, lose the mark.
+
+---
+
+## 🎯 Mnemonic 7: "n(A∪B) = A + B − Both" → "Add, Add, Subtract the Shared"
+> **"Two sets? Add both, kick out the common."**
+> Three sets: **"Add all three, remove the pairs, bring back the King."**
+
+**Trick:** Chant: *"Singles in, doubles out, triple back in."* This is the inclusion–exclusion formula in one line.
+
+---
+
+## 🎯 Mnemonic 8: "Exactly vs At Least — the Examiner's Twins"
+> **"Exactly two"** = only the petals, NOT the centre.
+> **"At least two"** = petals PLUS the centre.
+
+**Trick:** Remember: **"Exactly is stingy, At least is greedy."** Exactly keeps only its own; At least grabs everything including the centre.
+
+---
+
+## 🎯 Mnemonic 9: "None = The Outsider"
+> "How many like **none**?" = Total − (everyone inside any circle) = **the Outsider** standing outside all circles.
+
+**Trick:** Formula: None = Total − n(A∪B∪C). If the diagram has a rectangle, the Outsider lives between circles and rectangle.
+
+---
+
+## 🎯 Mnemonic 10: "Rectangle = The Universe"
+> The outer **rectangle** is the **Universe** — it holds everyone, including those in no circle.
+
+**Trick:** If a question gives "total students" but the circles don't add up to it, the missing people are in the Universe but outside all circles. Check the rectangle before panicking.
+
+---
+
+## 🎯 Mnemonic 11: "Family Relations? Draw Blood Lines, Not Circles"
+> When Venn questions mix relations ("all mothers are women"), remember: **"Mother is a subset, not a sister-set."**
+
+**Trick:** "All A are B" = circle A **inside** circle B. "Some A are B" = overlapping. "No A is B" = separate circles. Chant: **"All-Inside, Some-Overlap, No-Apart."**
+
+---
+
+## 🎯 Mnemonic 12: "The 3-Second Shape Check"
+> Before marking the answer, ask: **"Did I count a zone the question never asked for?"**
+
+**Trick:** Re-read the question's last 5 words ("...but not singers") and point at your diagram. 3 seconds of checking saves a negative mark.
+
+---
+
+## 🎯 Mnemonic 13: "Digits in Diagram = Label, Don't Assume"
+> When numbers are printed inside regions, **read the region, not the shape**.
+
+**Trick:** Students often add a whole circle when the question asks for one numbered zone. Rule: **"Question asks zone → add zones. Question asks group → add whole shape."**
+
+---
+
+## 🎯 Mnemonic 14: "Maximum-Minimum Overlap Trick"
+> For "maximum who like both" = smaller of the two groups.
+> For "minimum who like both" = (A + B) − Total.
+
+**Trick:** **"Max = the little one, Min = sum minus all."** Works instantly for 2-set overlap range questions.
+
+---
+
+# ⏭️ Skip Strategy — When to Skip a Venn Question
+
+### 🚫 Skip Signal 1: The 20-Second Rule
+If after 20 seconds you cannot identify **which regions the question is asking for** (too many shapes, confusing labels like "some but not all, except those who..."), **mark it and move on**. Venn questions are meant to be 30–45 second scorers — a confusing one is a trap, not a challenge.
+
+### 🚫 Skip Signal 2: Missing-Data Number Puzzles
+If a 3-set numerical Venn gives you fewer equations than unknowns (e.g., total and one overlap only, asking for the centre), and no "exactly/at least" clue appears — the question needs assumption-heavy algebra. **Skip unless you can set up the equations in one read.**
+
+### 🚫 Skip Signal 3: The Double-Negative Trap
+Questions like *"How many are not members of any group that does not include X?"* — double negatives under exam pressure cause sign errors even when you know the method. If the sentence needs a third reading, **skip it in round one**; return only if time remains after attempting all direct questions.
+
+**Golden Rule:** A Venn question you understand in one reading = attempt immediately. One that needs a second diagram = round two. One that needs algebra = last priority.

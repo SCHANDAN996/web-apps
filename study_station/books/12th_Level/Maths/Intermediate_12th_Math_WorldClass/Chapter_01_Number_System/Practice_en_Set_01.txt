@@ -1,3 +1,151 @@
-# Chapter: Number System (Advanced), Level: intermediate, Set: 1/6
+Questions 1–20: Easy | Questions 21–25: Medium
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Number System (Advanced). This is Set 1 (total 6 sets, 150 questions). Questions must be numbered 1 to 25. Questions 1 to 20 should be Easy, Questions 21 to 25 should be Medium. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+1. What is the unit digit of 7^95?
+(a) 7 (b) 9 (c) 1 (d) 3
+Answer: (d)
+Solution: The tempting trap is to compute 7^95 directly, which is impossible. Unit digits of powers of 7 cycle as 7, 9, 3, 1 with period 4. Since 95 = 4 × 23 + 3, the remainder is 3, so the unit digit matches the 3rd term of the cycle, so the answer is 3.
+Source: NCERT Class 8 Mathematics (Exponents)
+
+2. What is the remainder when 2^100 is divided by 3?
+(a) 0 (b) 1 (c) 2 (d) 100
+Answer: (b)
+Solution: The trap is to think a huge power leaves a huge remainder. Note 2 ≡ −1 (mod 3), so 2^100 ≡ (−1)^100 = 1 (mod 3). Since the exponent is even, the remainder is positive, so the answer is 1.
+Source: PYQ-style
+
+3. How many prime numbers are there between 1 and 50?
+(a) 14 (b) 15 (c) 16 (d) 17
+Answer: (b)
+Solution: The trap is forgetting that 1 is not prime or missing 47. The primes are 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47 — a total of 15, so the answer is 15.
+Source: NCERT Class 6 Mathematics (Playing with Numbers)
+
+4. The sum of the first 50 natural numbers is:
+(a) 1250 (b) 1275 (c) 1225 (d) 2550
+Answer: (b)
+Solution: The trap is using n(n+1) instead of n(n+1)/2, which gives 2550. Using the formula n(n+1)/2 = 50 × 51/2 = 1275, so the answer is 1275.
+Source: NCERT Class 8 Mathematics
+
+5. What is the HCF of 36 and 84?
+(a) 6 (b) 18 (c) 24 (d) 12
+Answer: (d)
+Solution: The trap is picking 6, which is only a common factor, not the highest. Prime factorisation: 36 = 2² × 3² and 84 = 2² × 3 × 7; common factors give 2² × 3 = 12, so the answer is 12.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+6. The LCM of 12, 15 and 20 is:
+(a) 240 (b) 120 (c) 180 (d) 60
+Answer: (d)
+Solution: The trap is multiplying all three numbers to get 3600 or doubling to 120. Prime factors: 12 = 2² × 3, 15 = 3 × 5, 20 = 2² × 5; LCM = 2² × 3 × 5 = 60, so the answer is 60.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+7. Which of the following numbers is divisible by 11?
+(a) 1234 (b) 4567 (c) 3456 (d) 2728
+Answer: (d)
+Solution: The trap is checking divisibility by actual division instead of the rule. For 2728: (sum of digits at odd places) − (sum at even places) = (2 + 2) − (7 + 8) = −11, which is a multiple of 11, so the answer is 2728.
+Source: NCERT Class 8 Mathematics (Playing with Numbers)
+
+8. The unit digit of (3^65 × 6^59 × 7^71) is:
+(a) 4 (b) 3 (c) 1 (d) 6
+Answer: (a)
+Solution: The trap is assuming the 6^59 factor forces unit digit 6 and stopping there. Unit digit of 3^65: 65 mod 4 = 1, so 3; unit digit of 6^59 is 6; unit digit of 7^71: 71 mod 4 = 3, so 3. Product: 3 × 6 = 18 (unit 8), then 8 × 3 = 24, whose unit digit is 4, so the answer is 4.
+Source: PYQ-style
+
+9. What is the smallest number which when divided by 4, 6 and 8 leaves remainder 2 in each case?
+(a) 24 (b) 26 (c) 48 (d) 50
+Answer: (b)
+Solution: The trap is answering 24, which is the LCM and leaves remainder 0, not 2. LCM of 4, 6, 8 = 24; adding the common remainder gives 24 + 2 = 26, so the answer is 26.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+10. How many zeros are at the end of 25!?
+(a) 4 (b) 5 (c) 7 (d) 6
+Answer: (d)
+Solution: The trap is counting only multiples of 5 (giving 5) and forgetting that 25 contributes an extra 5. Number of zeros = ⌊25/5⌋ + ⌊25/25⌋ = 5 + 1 = 6, so the answer is 6.
+Source: PYQ-style
+
+11. The sum of all even numbers from 2 to 100 is:
+(a) 2450 (b) 2500 (c) 2550 (d) 2600
+Answer: (c)
+Solution: The trap is using 100 × 101/2 = 5050, which sums all numbers, not just even ones. There are 50 even numbers; sum = 2(1 + 2 + … + 50) = 2 × 1275 = 2550, so the answer is 2550.
+Source: NCERT Class 8 Mathematics
+
+12. If a number is divisible by both 3 and 5, it must be divisible by:
+(a) 8 (b) 10 (c) 15 (d) 30
+Answer: (c)
+Solution: The trap is choosing 30, which also requires divisibility by 2. Since 3 and 5 are co-prime, divisibility by both means divisibility by 3 × 5 = 15, so the answer is 15.
+Source: NCERT Class 8 Mathematics (Playing with Numbers)
+
+13. The remainder when 17^23 is divided by 16 is:
+(a) 7 (b) 15 (c) 1 (d) 0
+Answer: (c)
+Solution: The trap is trying to expand the power. Since 17 ≡ 1 (mod 16), we get 17^23 ≡ 1^23 = 1 (mod 16), so the answer is 1.
+Source: PYQ-style
+
+14. Which of the following is a perfect square?
+(a) 1666 (b) 1444 (c) 1555 (d) 1777
+Answer: (b)
+Solution: The trap is guessing by the last digit alone. A perfect square ending in 4 must come from a root ending in 2 or 8; 38² = 1444, so the answer is 1444.
+Source: NCERT Class 8 Mathematics (Squares and Square Roots)
+
+15. The difference between the place value and face value of 7 in 3725 is:
+(a) 7 (b) 700 (c) 693 (d) 707
+Answer: (c)
+Solution: The trap is answering 700, which is only the place value. Place value of 7 = 700, face value = 7; difference = 700 − 7 = 693, so the answer is 693.
+Source: NCERT Class 6 Mathematics (Knowing Our Numbers)
+
+16. What is the least number that must be added to 1056 to make it divisible by 23?
+(a) 2 (b) 3 (c) 18 (d) 21
+Answer: (a)
+Solution: The trap is subtracting the remainder instead of finding what to add. 1056 ÷ 23 gives quotient 45 and remainder 21 (23 × 45 = 1035); to reach the next multiple, add 23 − 21 = 2, so the answer is 2.
+Source: PYQ-style
+
+17. The product of two numbers is 2028 and their HCF is 13. Their LCM is:
+(a) 196 (b) 169 (c) 156 (d) 182
+Answer: (c)
+Solution: The trap is dividing 2028 by 13² unnecessarily. Using HCF × LCM = product of numbers, LCM = 2028/13 = 156, so the answer is 156.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+18. The unit digit of 1! + 2! + 3! + … + 10! is:
+(a) 7 (b) 5 (c) 3 (d) 9
+Answer: (c)
+Solution: The trap is summing unit digits of all ten factorials. From 5! onwards every factorial ends in 0, so only 1! + 2! + 3! + 4! = 1 + 2 + 6 + 24 = 33 matters, whose unit digit is 3, so the answer is 3.
+Source: PYQ-style
+
+19. Which of the following fractions is the largest?
+(a) 11/12 (b) 3/4 (c) 7/8 (d) 5/6
+Answer: (a)
+Solution: The trap is picking 7/8 because 8 looks "big". Each fraction is 1 − 1/(denominator); the larger the denominator, the smaller the gap from 1, so 11/12 is closest to 1, so the answer is 11/12.
+Source: NCERT Class 7 Mathematics (Fractions)
+
+20. The number 2^6 × 5^5 ends with how many zeros?
+(a) 11 (b) 4 (c) 6 (d) 5
+Answer: (d)
+Solution: The trap is adding the exponents to get 11. Zeros come from pairs of 2 and 5; here there are six 2s and five 5s, giving only 5 complete pairs, so the answer is 5.
+Source: PYQ-style
+
+21. Find the remainder when 51^203 is divided by 7.
+(a) 4 (b) 2 (c) 6 (d) 1
+Answer: (a)
+Solution: The trap is computing 2^203 directly. Since 51 ≡ 2 (mod 7) and powers of 2 mod 7 cycle as 2, 4, 1 (period 3), and 203 = 3 × 67 + 2, the remainder equals the 2nd term of the cycle, so the answer is 4.
+Source: PYQ-style
+
+22. The HCF of two numbers is 11 and their LCM is 7700. If one number is 275, the other is:
+(a) 308 (b) 279 (c) 283 (d) 318
+Answer: (a)
+Solution: The trap is dividing 7700 by 275 and forgetting the HCF. Using product = HCF × LCM: other number = (11 × 7700)/275 = 84700/275 = 308, so the answer is 308.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+23. What is the largest 4-digit number exactly divisible by 88?
+(a) 9944 (b) 9966 (c) 9988 (d) 8888
+Answer: (a)
+Solution: The trap is picking 9988 because it looks close to 9999; but 9988 ÷ 88 = 113.5, not exact. Largest 4-digit number is 9999; 9999 ÷ 88 = 113 remainder 55, so subtract: 9999 − 55 = 9944, so the answer is 9944.
+Source: PYQ-style
+
+24. If x = 2^3 × 3^2 × 5 and y = 2^2 × 3^3 × 7, then HCF × LCM of x and y equals:
+(a) x × y (b) x/y (c) x − y (d) x + y
+Answer: (a)
+Solution: The trap is trying to compute HCF and LCM numerically and add them. For any two numbers, HCF × LCM = product of the numbers, so the answer is x × y.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+25. The remainder when (12^13 + 1) is divided by 13 is:
+(a) 2 (b) 0 (c) 1 (d) 12
+Answer: (b)
+Solution: The trap is thinking the "+1" simply leaves remainder 1. Since 12 ≡ −1 (mod 13) and 13 is odd, 12^13 ≡ −1 (mod 13), so 12^13 + 1 ≡ 0 (mod 13), meaning the number is exactly divisible by 13, so the answer is 0.
+Source: PYQ-style

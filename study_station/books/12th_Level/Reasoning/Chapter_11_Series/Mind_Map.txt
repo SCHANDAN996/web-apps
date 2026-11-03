@@ -1,0 +1,46 @@
+```mermaid
+graph TD
+    A["शृंखला / Series<br>Verbal Reasoning"] --> B["संख्या शृंखला<br>Number Series"]
+    A --> C["वर्ण शृंखला<br>Alphabet Series"]
+    A --> D["अल्फा-न्यूमेरिक<br>Alpha-Numeric Series"]
+    A --> E["शब्द/आकृति शृंखला<br>Word / Figure Series"]
+
+    B --> B1["समांतर श्रेणी<br>Arithmetic: +/− स्थिर अंतर"]
+    B --> B2["गुणोत्तर श्रेणी<br>Geometric: ×/÷ स्थिर गुणक"]
+    B --> B3["वर्ग / घन<br>Squares: 1,4,9,16… Cubes: 1,8,27…"]
+    B --> B4["बढ़ता अंतर<br>Difference Series: +2,+4,+6…"]
+    B --> B5["दोहरी शृंखला<br>Double/Alternate Series"]
+    B --> B6["मिश्रित<br>Mixed: ×2+1, ×3−2…"]
+    B --> B7["अभाज्य संख्याएँ<br>Prime: 2,3,5,7,11…"]
+    B --> B8["गलत पद खोजें<br>Wrong Number in Series"]
+
+    C --> C1["स्थान मान याद करें<br>A=1 … Z=26 (EJOTY)"]
+    C --> C2["स्थिर अंतर<br>Constant gap: +2,+2,+2…"]
+    C --> C3["बढ़ता/घटता अंतर<br>+1,+2,+3…"]
+    C --> C4["विपरीत अक्षर<br>Opposite Pairs: A-Z, B-Y… (योग=27)"]
+    C --> C5["समूह पैटर्न<br>Group Pattern: ABC, CDE, EFG…"]
+
+    D --> D1["अक्षर + संख्या मिश्रण<br>Letter + Number mix"]
+    D --> D2["अलग-अलग ट्रैक करें<br>Track letters & numbers separately"]
+
+    E --> E1["शब्दों का क्रम<br>Logical order of words"]
+    E --> E2["आकृति घूर्णन/परिवर्तन<br>Rotation / Element change"]
+
+    A --> F["रणनीति<br>Strategy"]
+    F --> F1["पहले अंतर देखें<br>Check differences first"]
+    F --> F2["फिर गुणक/वर्ग जाँचें<br>Then ratio / squares / cubes"]
+    F --> F3["Alternate पद अलग करें<br>Split alternate terms if stuck"]
+    F --> F4["विकल्पों से मिलान<br>Match with options"]
+
+    A --> G["समय प्रबंधन<br>Time Management"]
+    G --> G1["15 सेकंड: पैटर्न पहचानो<br>15 sec: spot the pattern"]
+    G --> G2["45 सेकंड में न बने तो skip<br>Skip if not solved in 45 sec"]
+    G --> G3["आसान पहले, कठिन बाद में<br>Easy first, hard later"]
+
+    A --> H["परीक्षक के जाल<br>Examiner Traps"]
+    H --> H1["लगभग-सही पैटर्न<br>Near-correct pattern (×2 vs ×2+1)"]
+    H --> H2["दोहरी शृंखला छिपी होती है<br>Hidden double series"]
+    H --> H3["विपरीत अक्षर भ्रम<br>Opposite-letter confusion (योग 27)"]
+    H --> H4["गलत पद प्रश्न में एक ही पद गलत<br>Only ONE term is wrong"]
+    H --> H5["नकारात्मक वाक्य<br>'कौन-सा नहीं' type wording"]
+```

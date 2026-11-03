@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block robots %}<meta http-equiv="Content-Security-Policy" content="{{ csp }}">{% endblock %}
+{% block title %}{{ tr('brand') }} · {{ tr('offline_ready') }}{% endblock %}
+{% block head %}<link rel="stylesheet" href="/static/css/offline-study.css?v={{ asset_v }}">{% endblock %}
+{% block main %}<section id="offlineStudy" aria-live="polite"><p class="muted">{{ tr('loading') }}</p></section>{% endblock %}
+{% block app_scripts %}<script src="/static/js/offline-study.js?v={{ asset_v }}" defer></script><script src="/static/js/whiteboard.js?v={{ asset_v }}" defer></script>{% endblock %}

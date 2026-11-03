@@ -1,0 +1,151 @@
+Questions 51–75: Medium
+
+51. In a figure series, a dot moves one corner clockwise in each step, while a small circle moves two corners anticlockwise in each step. If the dot is at the top-left corner and the circle is at the top-right corner in step 1, where will both be in step 5?
+(a) Dot at top-left, circle at top-right (b) Dot at top-right, circle at bottom-right (c) Dot at bottom-right, circle at bottom-left (d) Dot at bottom-left, circle at top-left
+Answer: (a)
+Solution: The tempting wrong answer assumes both elements end at different corners. The dot moves 1 corner clockwise per step, so after 4 steps it completes a full cycle and returns to top-left. The circle moves 2 corners anticlockwise per step, so after 4 steps it has moved 8 corners — two full cycles — and returns to top-right. Both are back at their starting corners, so the answer is dot at top-left, circle at top-right.
+Source: PYQ-style
+
+52. A series shows a square containing a triangle. In each successive figure, the triangle rotates 45° clockwise and alternates between shaded and unshaded. If figure 1 has an unshaded triangle pointing up, what does figure 5 show?
+(a) Shaded triangle pointing down (b) Unshaded triangle pointing up (c) Unshaded triangle pointing down (d) Shaded triangle pointing up
+Answer: (c)
+Solution: The trap is to track only the rotation and forget the shading alternation. After 4 rotations of 45°, the triangle has turned 180° and points down. The shading alternates each step — unshaded, shaded, unshaded, shaded, unshaded — so figure 5 is unshaded. The answer is unshaded triangle pointing down.
+Source: PYQ-style
+
+53. In a classification question, four figures each show a circle with lines inside. Figure 1 has 2 lines, figure 2 has 3 lines, figure 3 has 4 lines, figure 4 has 6 lines. Which figure is the odd one out if three of them have an even number of lines?
+(a) Figure with 2 lines (b) Figure with 3 lines (c) Figure with 4 lines (d) Figure with 6 lines
+Answer: (b)
+Solution: The trap is to pick the figure with the most lines. The figures with 2, 4, and 6 lines all have an even count, while only the figure with 3 lines has an odd count, so the answer is the figure with 3 lines.
+Source: PYQ-style
+
+54. A figure series shows arrows: up, right, down, left, up, … What is the 10th figure?
+(a) Left-pointing arrow (b) Up-pointing arrow (c) Right-pointing arrow (d) Down-pointing arrow
+Answer: (c)
+Solution: The trap is to count 10 rotation steps from the first figure instead of using the cycle. The pattern repeats every 4 figures: positions 1, 5, 9 point up and positions 2, 6, 10 point right. Since 10 = 4 × 2 + 2, the 10th figure matches position 2, so the answer is the right-pointing arrow.
+Source: PYQ-style
+
+55. In a series, the number of sides of the outer figure increases by 1 each step (triangle, square, pentagon, hexagon), while the number of inner dots decreases by 1 (6, 5, 4, 3). What is the next figure?
+(a) Heptagon with 3 dots (b) Hexagon with 2 dots (c) Heptagon with 2 dots (d) Octagon with 2 dots
+Answer: (c)
+Solution: The tempting wrong answer keeps the hexagon or forgets to reduce the dots. The outer figure goes 3, 4, 5, 6 sides, so next is 7 sides (heptagon). The dots go 6, 5, 4, 3, so next is 2 dots. Both patterns apply together, so the answer is heptagon with 2 dots.
+Source: PYQ-style
+
+56. Four figures show a star inside different shapes. In three figures, the number of points of the star equals the number of sides of the outer shape. In one, it does not. Which is the odd one out?
+(a) 5-pointed star inside a pentagon (b) 6-pointed star inside a pentagon (c) 4-pointed star inside a square (d) 3-pointed star inside a triangle
+Answer: (b)
+Solution: The trap is to match only the star points without checking the outer shape. In three figures the star points equal the outer sides (5 = 5, 4 = 4, 3 = 3). Only one figure has a mismatch of 6 points against 5 sides, so the answer is the 6-pointed star inside a pentagon.
+Source: PYQ-style
+
+57. A series shows a line segment rotating 90° anticlockwise each step. If figure 1 is a horizontal line, what is figure 4?
+(a) Vertical line (b) Line at 45° to horizontal (c) Horizontal line (d) Line at 30° to horizontal
+Answer: (a)
+Solution: The trap is to rotate clockwise or to count four rotations instead of three. Figure 1 is horizontal (0°), figure 2 is vertical (90°), figure 3 is horizontal (180°), and figure 4 is vertical again (270°). A line at 270° looks the same as one at 90°, so the answer is vertical line.
+Source: PYQ-style
+
+58. In a matrix-style series, each figure contains dots equal to the sum of dots in the previous two figures: 1, 1, 2, 3, 5. How many dots are in the next figure?
+(a) 7 (b) 9 (c) 6 (d) 8
+Answer: (d)
+Solution: The trap is to add 1 (simple counting) instead of recognising the Fibonacci pattern. Each term is the sum of the previous two: 3 + 5 = 8, so the answer is 8.
+Source: PYQ-style
+
+59. Four figures show a clock face with hands at: 3:00, 6:00, 9:00, 12:00. Which figure continues the series?
+(a) 3:00 (b) 1:00 (c) 4:00 (d) 2:00
+Answer: (a)
+Solution: The trap is to assume the hands move by 1 hour. The time advances by 3 hours each step: 3, 6, 9, 12, then 3 again (12 + 3 = 15, which is 3 on a 12-hour clock), so the answer is 3:00.
+Source: PYQ-style
+
+60. In a classification set, three figures have an inner shape that is the same type as the outer shape (circle in circle, square in square, triangle in triangle). The fourth has a square inside a circle. Which is the odd one out?
+(a) Triangle inside triangle (b) Square inside circle (c) Square inside square (d) Circle inside circle
+Answer: (b)
+Solution: The trap is to compare sizes or shading instead of shape identity. Three figures have matching inner and outer shapes; only one has different shapes, so the answer is square inside circle.
+Source: PYQ-style
+
+61. A series shows a black square moving along the 8-cell perimeter of a 3×3 grid, one cell clockwise per figure, while a white square moves one cell anticlockwise per figure from the corner exactly opposite (4 cells away along the perimeter). After how many moves will they first occupy the same cell?
+(a) 1 (b) 2 (c) 3 (d) 4
+Answer: (b)
+Solution: The trap is to assume they meet only after a full loop. They start 4 cells apart, and each move closes the gap by 2 cells (one from each side), so the gap becomes 0 after 2 moves. The answer is 2.
+Source: PYQ-style
+
+62. A figure series shows the letters of the word "EXAM" rotating 90° clockwise each step. In figure 3, which way does the word face?
+(a) Rotated 270° clockwise (b) Rotated 90° clockwise (c) Normal (upright) (d) Rotated 180°
+Answer: (d)
+Solution: The trap is to count figure 3 as three rotations. Figure 1 is upright (0°), figure 2 is 90°, and figure 3 is 180°, so the answer is rotated 180°.
+Source: PYQ-style
+
+63. In a series, a triangle alternates between pointing up and down, and its size doubles every two steps. If figure 1 is a small up-triangle and figure 2 is a small down-triangle, what is figure 5?
+(a) Large up-triangle (b) Large down-triangle (c) Small up-triangle (d) Medium up-triangle
+Answer: (a)
+Solution: The trap is to double the size every step. Size doubles every two steps: figures 1–2 small, figures 3–4 medium, figures 5–6 large. Direction alternates, and odd figures point up. Figure 5 is odd, so it points up and is large, so the answer is large up-triangle.
+Source: PYQ-style
+
+64. Four figures contain shapes drawn with the following total numbers of line segments: 5, 7, 9, 11. If the rule is "the number of segments is a prime number", which figure is the odd one out?
+(a) 5 segments (b) 7 segments (c) 11 segments (d) 9 segments
+Answer: (d)
+Solution: The trap is to pick the largest number or to treat 9 as prime because it is odd. The numbers 5, 7, and 11 are all prime, while 9 = 3 × 3 is composite, so it is the only figure breaking the prime rule. The answer is 9 segments.
+Source: PYQ-style
+
+65. A series shows a square divided into 4 smaller squares, with one small square shaded. The shaded square moves: top-left, top-right, bottom-right, bottom-left. Where is the shade in figure 6?
+(a) Top-right (b) Top-left (c) Bottom-right (d) Bottom-left
+Answer: (a)
+Solution: The trap is to stop the cycle at figure 4. The shade moves clockwise through the four positions with period 4: figure 5 returns to top-left and figure 6 is top-right, so the answer is top-right.
+Source: PYQ-style
+
+66. In a classification question, four figures show two overlapping shapes. In three, the overlapping region is shaded; in one, the non-overlapping region is shaded. Which is the odd one out?
+(a) Overlap of two circles shaded (b) Overlap of circle and square shaded (c) Non-overlap part of two triangles shaded (d) Overlap of two squares shaded
+Answer: (c)
+Solution: The trap is to focus on which shapes overlap rather than which region is shaded. Three figures shade the intersection; only one shades the non-overlapping part, so the answer is the figure with the non-overlap part of two triangles shaded.
+Source: PYQ-style
+
+67. A series shows a pentagon with one vertex marked. The mark moves 2 vertices clockwise each step. Starting at the top vertex in figure 1, where is the mark in figure 6?
+(a) Fourth vertex clockwise from top (b) Top vertex (c) Third vertex clockwise from top (d) Second vertex clockwise from top
+Answer: (b)
+Solution: The trap is to compute 6 × 2 = 12 moves. Figure 1 is the start (0 moves); figure 6 is after 5 moves of 2 vertices each, i.e. 10 vertex-steps. A pentagon has 5 vertices, so 10 steps is exactly 2 full cycles, returning to the top, so the answer is top vertex.
+Source: PYQ-style
+
+68. In a figure series, the number of circles doubles each step: 1, 2, 4, 8. Simultaneously, their arrangement alternates between a row and a column. If figure 1 is a row, what is figure 5?
+(a) 16 circles in a column (b) 8 circles in a column (c) 32 circles in a row (d) 16 circles in a row
+Answer: (d)
+Solution: The trap is to double one extra time, giving 32. Figure 5 has 2^4 = 16 circles. The arrangement alternates, and odd figures are rows, so figure 5 is a row. The answer is 16 circles in a row.
+Source: PYQ-style
+
+69. Four figures show a hand of a clock making angles of 30°, 60°, 90°, 45° with the vertical. Which is the odd one out?
+(a) 90° (b) 45° (c) 30° (d) 60°
+Answer: (b)
+Solution: The trap is to pick 90° as the "special" right angle. The angles 30°, 60°, and 90° are all multiples of 30, while 45° is not, so the answer is 45°.
+Source: PYQ-style
+
+70. A series shows a plus sign rotating 45° clockwise each step, alternating between bold and thin lines. Figure 1 is a bold upright plus. What is figure 9?
+(a) Bold upright plus (b) Thin upright plus (c) Thin plus rotated 45° (d) Bold plus rotated 45°
+Answer: (a)
+Solution: The trap is to count 9 rotations instead of 8. After 8 steps of 45°, the plus has rotated 360° and is upright again. Bold and thin alternate, and odd figures are bold, so figure 9 is bold. The answer is bold upright plus.
+Source: PYQ-style
+
+71. In a series, each figure adds one more side to a polygon and one more dot inside it: triangle with 1 dot, square with 2 dots, pentagon with 3 dots. What is figure 6?
+(a) Octagon with 5 dots (b) Heptagon with 5 dots (c) Octagon with 6 dots (d) Hexagon with 6 dots
+Answer: (c)
+Solution: The trap is to match the figure number directly to sides (figure 6 = hexagon). Figure n has n + 2 sides and n dots: figure 6 has 8 sides (octagon) and 6 dots, so the answer is octagon with 6 dots.
+Source: PYQ-style
+
+72. Four figures show arrows passing through circles. In three, the arrow passes through the centre of the circle; in one, it passes off-centre. Which is the odd one out?
+(a) Horizontal arrow through circle centre (b) Vertical arrow through circle centre (c) Diagonal arrow through circle centre (d) Horizontal arrow above circle centre
+Answer: (d)
+Solution: The trap is to classify by arrow direction. Direction varies among the matching figures; the real rule is whether the arrow passes through the centre. Only one arrow misses the centre, so the answer is horizontal arrow above circle centre.
+Source: PYQ-style
+
+73. A series shows a 2×2 grid where the number of shaded cells increases by one each figure, filled in reading order (left to right, top to bottom). Figure 1 has 1 shaded cell. Which cell is still unshaded in figure 3?
+(a) Top-left (b) Bottom-left (c) Bottom-right (d) Top-right
+Answer: (c)
+Solution: The trap is to assume figure 3 fills the whole grid. Figure n has n shaded cells, so figure 3 has 3 shaded cells: top-left, top-right, and bottom-left in reading order. The only cell left unshaded is bottom-right, so the answer is bottom-right.
+Source: PYQ-style
+
+74. In a classification set, four figures show shapes divided into enclosed regions: a circle divided into 2 regions, a triangle divided into 3 regions, a square divided into 4 regions, and a pentagon divided into 4 regions. If the rule is that the regions form the increasing sequence 2, 3, 4, 5, which figure breaks the sequence?
+(a) Square with 4 regions (b) Triangle with 3 regions (c) Circle with 2 regions (d) Pentagon with 4 regions
+Answer: (d)
+Solution: The trap is to count sides instead of regions. The sequence of regions should run 2, 3, 4, 5, but the pentagon figure has only 4 regions where 5 are expected. The pentagon figure breaks the pattern, so the answer is pentagon with 4 regions.
+Source: PYQ-style
+
+75. A series shows a semicircle rotating 90° clockwise each step while its diameter alternates between solid and dashed every step. Figure 1: flat side down, solid diameter. What is figure 5?
+(a) Flat side down, solid diameter (b) Flat side down, dashed diameter (c) Flat side up, solid diameter (d) Flat side right, solid diameter
+Answer: (a)
+Solution: The trap is to rotate anticlockwise or to mis-track the alternation. After 4 rotations of 90° clockwise, the semicircle completes a full turn, so figure 5 again has the flat side down. The diameter alternates every step — solid on odd figures, dashed on even — so figure 5 is solid. The answer is flat side down, solid diameter.
+Source: PYQ-style

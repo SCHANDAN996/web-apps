@@ -1,0 +1,214 @@
+# Coding-Decoding (Advanced)
+
+## 1. Outline & Learning Goals
+
+By the end of this chapter you will be able to:
+
+1. Identify the **type** of any coding question within 10 seconds (letter-shift, substitution, number, symbol, mixed, sentence coding, new-pattern).
+2. Apply the **EJOTY** position system to crack letter-shift codes without counting on fingers.
+3. Solve **matrix coding, symbol coding with conditions, and Chinese-style sentence coding** — the three formats that dominate SSC CGL, IBPS PO and RRB NTPC mains-level papers.
+4. Spot the examiner's favourite traps: multiple valid relations, reverse-order reading, and "cannot be determined" options.
+5. Decide in 5 seconds whether a question is worth attempting or skipping.
+
+---
+
+## 2. The Hook: Why This Chapter Decides Your Rank
+
+Coding-decoding appears regularly in SSC CGL and IBPS PO reasoning sections, and these are among the **fastest marks in the paper**. A trained student solves a coding question in 20–30 seconds; an untrained one burns 3 minutes and still picks the trap option. Over a full paper, saving even a minute on each such question frees up time for the questions that actually decide your score.
+
+The good news: coding-decoding is **100% pattern-based**. There is no luck, no general knowledge, no vocabulary. Once you can see the pattern, the answer is mechanical. This chapter trains your eyes to see it.
+
+---
+
+## 3. The Common Struggle (and Why It Happens)
+
+Most students fail here for one reason: **they start counting letters on their fingers.** A → B → C → D… By the time they reach the fourth letter, they have lost the thread.
+
+The fix is simple: **memorise letter positions once, forever.** Every advanced coding question is just arithmetic on positions 1–26. If you know that M = 13 and N = 14 instantly, half the battle is won before you read the options.
+
+The second struggle: students assume there is only one possible pattern. Advanced questions deliberately offer **two plausible patterns**, and the examiner puts the wrong one as option (a). We will train you to verify before you commit.
+
+---
+
+## 4. The Foundation: Letter Positions and EJOTY
+
+Learn the alphabet positions cold:
+
+**A1 B2 C3 D4 E5 F6 G7 H8 I9 J10 K11 L12 M13 N14 O15 P16 Q17 R18 S19 T20 U21 V22 W23 X24 Y25 Z26**
+
+**Mnemonic — EJOTY:** The letters at positions 5, 10, 15, 20, 25 spell **E-J-O-T-Y**. Remember it as *"EJOTY — Enjoy The Year."* From these five anchors, any letter is at most 2 steps away. Want R? O is 15, so R = 18. Want W? T is 20, Y is 25, so W = 23.
+
+**Opposite letters (position from the end = 27 − position):** Pairs that sum to 27 —
+**AZ, BY, CX, DW, EV, FU, GT, HS, IR, JQ, KP, LO, MN.**
+Mnemonic: *"A-Z, B-Y, C-X, D-W… the alphabet folds in half at M-N."* Advanced questions love opposite-letter coding (e.g., CAT → XZG).
+
+🧠 **Active Recall:** Without looking up — what is the position of K? What is the opposite of H? What letter is 7th from the end? (Answers: 11, S, T.)
+
+---
+
+## 5. Type 1: Letter-Shift Coding (Arithmetic on Positions)
+
+Each letter is shifted by a fixed or varying number.
+
+**Example:** If DOG is coded as FQI, how is CAT coded?
+- D(4)→F(6): +2; O(15)→Q(17): +2; G(7)→I(9): +2. Uniform shift of +2.
+- CAT → C+2=E, A+2=C, T+2=V → **ECV**.
+
+**Advanced variant — increasing shift:** +1, +2, +3…
+**Example:** If MAN → NCQ, find the rule.
+- M+1=N, A+2=C, N+3=Q → shift increases by 1 each letter: +1, +2, +3.
+
+**Rule:** A pattern must hold for **every** letter of the given example. If it fails even once, reject it.
+
+🧠 **Active Recall:** What is the first thing you do when shifts look inconsistent across letters? (Answer: check for reverse order, opposite letters, or a vowel/consonant split.)
+
+---
+
+## 6. Type 2: Reverse and Mixed-Order Coding
+
+The examiner's favourite upgrade: shift the letters **and** write the result in reverse.
+
+**Example:** If TABLE is coded as GZYOV, how is CHAIR coded?
+- T→G: T is 20, G is 7 → 20+7 = 27. Opposite letters! Check: A→Z (1+26=27 ✓), B→Y ✓, L→O ✓, E→V ✓.
+- So CHAIR → XSZRI (C→X, H→S, A→Z, I→R, R→I).
+
+**Mixed order:** Sometimes the word is reversed first, then shifted. The correct approach: test (a) plain shift, (b) shift + reverse, (c) reverse + shift, in that order. One of these three covers most exam questions.
+
+---
+
+## 7. Type 3: Number Coding
+
+Letters are replaced by numbers — usually their positions, sometimes with a twist.
+
+**Example:** If CAT = 3-1-20, then DOG = 4-15-7. (Direct positions.)
+
+**Advanced variants:**
+- **Sum coding:** CAT = 3+1+20 = **24**.
+- **Product or digit-sum:** CAT = 24 → 2+4 = **6**.
+- **Positional squares or multiples:** A=2, B=4, C=6… (position × 2).
+- **Reverse positions:** A=26, B=25 … Z=1.
+
+🧠 **Active Recall:** If SUN is coded by the sum of positions, what is the code? (S=19, U=21, N=14 → 54.) And if digit-summed once more? (5+4 = 9.)
+
+---
+
+## 8. Type 4: Symbol Coding with Conditions (Bank-Exam Favourite)
+
+A set of letters/digits is coded as symbols, **with conditions** that change the rule for specific cases. This is where IBPS and SBI PO separate toppers from the rest.
+
+**Model format:**
+Digits: 1 2 3 4 5 6 7 8 9
+Codes: @ # $ % & * ! ? ^
+
+**Conditions:**
+(i) If the first digit is odd and the last digit is even, both are coded as ©.
+(ii) If the first digit is even and the last digit is odd, swap the codes of the first and last digits.
+
+**Example:** Code for 3 5 2 8 4 → first digit 3 (odd), last digit 4 (even) → condition (i) applies → **© & # ? ©**.
+
+**Method:** (1) Write the plain code first. (2) Read conditions one by one. (3) Apply **only the first condition that matches** — conditions are usually mutually exclusive. (4) Never apply two conditions unless the question says so.
+
+**Trap:** Students apply the condition *and* forget it replaces the original code, or they apply condition (ii) after (i). Read "if… otherwise…" language very carefully.
+
+---
+
+## 9. Type 5: Sentence Coding ("Chinese Coding")
+
+Several sentences are given with their codes; you find the code of one word by **elimination**.
+
+**Example:**
+- "Ram is tall" → "ka ma ta"
+- "Shyam is short" → "ma pa ra"
+- "Ram is happy" → "ka ma na"
+
+Find the code for "tall":
+- "is" appears in all three → common code in all three = **ma** → is = ma.
+- "Ram" appears in sentences 1 and 3 → common code = **ka** → Ram = ka.
+- Therefore in sentence 1, "tall" = **ta**.
+
+**Method:** Pick the word asked. Find every sentence containing it. Intersect their codes. If exactly one code is common — done. If two remain, the answer is "either of these" or "cannot be determined" — and examiners **do** include that option deliberately.
+
+🧠 **Active Recall:** In the example above, what is the code for "happy"? (Sentence 3: ka=Ram, ma=is, so happy = na.)
+
+---
+
+## 10. Type 6: Substitution Coding (Direct Replacement)
+
+A word is simply renamed: "red is called blue, blue is called green, green is called white…"
+
+**Example:** If red is called blue, blue is called green, and green is called yellow, what is the colour of grass?
+- Grass is green → green is called **yellow**. Answer: yellow.
+
+**Trap:** Students answer "green" (the real colour) instead of following the chain. The question always asks what it is **called**, not what it is. Follow the chain exactly one step — or two, if the question nests the substitution ("what is the colour of the sky called in the new code?" — sky is blue, blue is called green → green).
+
+---
+
+## 11. Type 7: Matrix Coding
+
+Two matrices give row-column codes for each letter. A letter is identified by (row, column).
+
+**Model:** Matrix I rows/columns 0–4, Matrix II rows/columns 5–9. Letter A might be represented by 00, 14, 21, 33, 42 (any cell containing A).
+
+**Method:** For each letter of the word, list all its valid (row, column) pairs from the matrices. Then check which option gives a **valid pair for every letter**. Eliminate option by option — never try to build the code from scratch.
+
+**Trap:** An option where 3 of 4 letters are valid but one pair points to the wrong letter. Check **every** letter, especially the last one — examiners put the error there because tired students stop checking.
+
+---
+
+## 12. Type 8: New-Pattern / Conditional Letter Coding (Latest Trend)
+
+Recent SSC and bank papers use rules like: *"Each vowel is replaced by the next letter and each consonant by the previous letter."*
+
+**Example:** Code for BREAK: B→A (consonant, −1), R→Q, E→F (vowel, +1), A→B, K→J → **AQFBJ**.
+
+Other live patterns:
+- Vowels → their position number; consonants → next letter.
+- First half of word shifted +1, second half −1.
+- Letters at odd positions +2, even positions −2.
+
+**Method:** Split the word into the categories the rule names (vowel/consonant, odd/even position, first/second half), apply the rule category by category, then reassemble.
+
+🧠 **Active Recall:** Using "vowel +1, consonant −1", code the word CODE. (C→B, O→P, D→C, E→F → BPCF.)
+
+---
+
+## 13. The Universal 5-Step Solving Algorithm
+
+For **any** coding question, run this checklist in order:
+
+1. **Count letters** — same length in word and code? If not, it's sum/substitution type.
+2. **Check uniform shift** — is the gap identical for all letters?
+3. **Check varying shift** — +1/+2/+3, or odd/even position rules.
+4. **Check reverse/opposite** — do positions sum to 27? Is the code the word reversed?
+5. **Check split rules** — vowels vs consonants, halves, swaps.
+
+Most exam questions are cracked by step 4. If nothing fits by step 5, mark for review and move on — it's a deliberately hard question designed to eat your time.
+
+---
+
+## 14. Summary Table
+
+| Type | Signature | First Move | Time Target |
+|---|---|---|---|
+| Letter-shift | Same-length code, alphabet letters | Find gap of 1st letter | 20 sec |
+| Reverse/Opposite | Positions sum to 27, or mirrored | Test A↔Z pair | 25 sec |
+| Number coding | Code is digits | Check position / sum / digit-sum | 25 sec |
+| Symbol + conditions | Digits→symbols with "if" rules | Plain code first, then conditions | 60 sec |
+| Sentence coding | 3–4 coded sentences | Intersect common codes | 45 sec |
+| Substitution | "X is called Y" | Follow the chain, ignore reality | 15 sec |
+| Matrix | Two grids, row-column pairs | Eliminate options letter by letter | 60 sec |
+| New-pattern | Vowel/consonant or position rules | Split word into categories | 40 sec |
+
+---
+
+## ⚠️ Caution: Examiner's Trap
+
+**Trap 1 — Multiple plausible relations.** The example word may fit two patterns (e.g., +2 shift *and* opposite-letter with reversal). The examiner places the answer from the wrong pattern as option (a). **Defence:** verify your pattern on *every* letter of the example, and if two patterns fit, check which one's answer appears among the options — then re-verify that one.
+
+**Trap 2 — Intimidating vocabulary and long words.** Words like "PHILANTHROPY" or "ARCHITECTURE" are used to scare you into skipping. The pattern is never harder for a long word — it just takes 10 extra seconds. **Defence:** never skip a coding question because the word looks big; skip only if the *pattern* doesn't reveal itself in 30 seconds.
+
+**Trap 3 — Double-relation and "cannot be determined" questions.** In sentence coding, sometimes a word's code cannot be uniquely fixed (two codes remain possible), and "cannot be determined" is a genuine option — not a filler. In symbol coding, two conditions may *seem* to apply, but only the first matching one does. **Defence:** in sentence coding, if elimination leaves two candidates, choose "cannot be determined" confidently instead of guessing; in conditional coding, re-read whether conditions are exclusive ("if… otherwise") or cumulative.
+
+---
+
+**Review this chapter after 2 days** — redo every 🧠 Active Recall prompt from memory and re-solve one example of each type without looking at the solution. Patterns fade fast; two spaced revisions make them permanent.

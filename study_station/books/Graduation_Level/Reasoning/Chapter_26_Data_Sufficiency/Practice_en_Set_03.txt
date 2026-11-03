@@ -1,0 +1,201 @@
+Questions 51–75: Medium
+
+51. What is the value of the two-digit number?
+Statement I: The sum of its digits is 9.
+Statement II: The number obtained by reversing the digits exceeds the original number by 27.
+(a) Statement I alone is sufficient (b) Statement II alone is sufficient (c) Both statements together are not sufficient (d) Both statements together are sufficient
+Answer: (d)
+Solution: The trap is to pick Statement II alone, but y − x = 3 has many solutions (14, 25, 36, …), and Statement I alone also gives many numbers (18, 27, 36, …). Combining x + y = 9 and y − x = 3 gives x = 3, y = 6, so the number is 36. Hence both statements together are sufficient, so the answer is both together.
+Source: PYQ-style (SSC CGL pattern)
+
+52. Is x an even integer?
+Statement I: 3x is an even integer.
+Statement II: x/2 is an integer.
+(a) Statement II alone is sufficient (b) Either statement alone is sufficient (c) Statement I alone is sufficient (d) Neither statement alone nor together is sufficient
+Answer: (a)
+Solution: The trap is Statement I: 3x being even forces x to be even only if x is an integer, but x = 2/3 gives 3x = 2 (even) while x is not even, so Statement I is not sufficient. Statement II says x/2 is an integer, so x = 2k, which is definitely an even integer. Hence Statement II alone is sufficient, so the answer is Statement II alone.
+Source: PYQ-style (Banking exam pattern)
+
+53. Among A, B, C, D and E, who is the heaviest?
+Statement I: B is heavier than A and C but lighter than D.
+Statement II: E is lighter than D but heavier than B.
+(a) Both statements together are sufficient (b) Statement II alone is sufficient (c) Statement I alone is sufficient (d) Both statements together are not sufficient
+Answer: (a)
+Solution: Statement I alone gives D > B > A, C but says nothing about E; Statement II alone gives D > E > B but nothing about A and C, so neither alone works. Together: D > E > B > A and C, so D is the heaviest. Hence both statements together are sufficient, so the answer is both together.
+Source: PYQ-style (IBPS PO pattern)
+
+54. What is the code for "sky" in the given code language?
+Statement I: In that language, "blue sky high" is coded as "ta na ma" and "sky is blue" is coded as "na ta ra".
+Statement II: In that language, "sky falls down" is coded as "na pi qi".
+(a) Both statements together are sufficient (b) Statement II alone is sufficient (c) Statement I alone is sufficient (d) Both statements together are not sufficient
+Answer: (a)
+Solution: The trap is to assume Statement I alone fixes the code, but its two phrases share two words ("blue", "sky") and two codes ("ta", "na"), so "sky" could be either — not sufficient alone, and Statement II alone has no anchor at all. Together, the only word common to Statement II's phrase and Statement I's phrases is "sky", and the only common code is "na", so "sky" = "na". Hence both statements together are sufficient, so the answer is both together.
+Source: PYQ-style (SBI PO pattern)
+
+55. What is the average of five consecutive even numbers?
+Statement I: The smallest number is 12.
+Statement II: The largest number is 20.
+(a) Statement I alone is sufficient (b) Either statement alone is sufficient (c) Statement II alone is sufficient (d) Neither statement alone nor together is sufficient
+Answer: (b)
+Solution: The trap is to pick "both together", but five consecutive even numbers are fully fixed once any one of them is known. Statement I gives 12, 14, 16, 18, 20 (average 16); Statement II gives the same set from the top (average 16). Hence either statement alone is sufficient, so the answer is either alone.
+Source: PYQ-style (SSC CGL pattern)
+
+56. Is the integer n divisible by 6?
+Statement I: n is divisible by 2.
+Statement II: n is divisible by 3.
+(a) Both statements together are sufficient (b) Statement II alone is sufficient (c) Both statements together are not sufficient (d) Statement I alone is sufficient
+Answer: (a)
+Solution: Statement I alone fails since n = 4 is divisible by 2 but not by 6; Statement II alone fails since n = 9 is divisible by 3 but not by 6. Together, n is divisible by both 2 and 3, and since 2 and 3 are coprime, n is divisible by 6. Hence both statements together are sufficient, so the answer is both together.
+Source: PYQ-style (Banking exam pattern)
+
+57. In which direction is point P with respect to point Q?
+Statement I: R is to the north of Q, and P is to the east of R.
+Statement II: S is to the south of P, and Q is to the west of S.
+(a) Statement I alone is sufficient (b) Either statement alone is sufficient (c) Statement II alone is sufficient (d) Both statements together are not sufficient
+Answer: (b)
+Solution: The trap is to assume only one statement works. Statement I: R is north of Q and P is east of R, so P is north-east of Q — sufficient. Statement II: P is north of S and Q is west of S, so from Q, P lies to the north-east — also sufficient. Hence either statement alone is sufficient, so the answer is either alone.
+Source: PYQ-style (RRB NTPC pattern)
+
+58. What is the profit percentage earned by selling an article?
+Statement I: The article is sold for ₹720 after a discount of 10% on the marked price.
+Statement II: The cost price of the article is ₹600.
+(a) Both statements together are not sufficient (b) Statement II alone is sufficient (c) Statement I alone is sufficient (d) Both statements together are sufficient
+Answer: (d)
+Solution: Statement I alone gives the selling price ₹720 but no cost price; Statement II alone gives only the cost price, so neither alone works. Together, profit = 720 − 600 = ₹120, so profit % = 120/600 × 100 = 20%. Hence both statements together are sufficient, so the answer is both together.
+Source: PYQ-style (IBPS Clerk pattern)
+
+59. How is M related to N?
+Statement I: N is the son of P, who is the wife of M.
+Statement II: M is the father of N.
+(a) Either statement alone is sufficient (b) Statement I alone is sufficient (c) Statement II alone is sufficient (d) Neither statement alone nor together is sufficient
+Answer: (a)
+Solution: The trap is to think Statement I leaves gender ambiguity, but "wife of M" fixes M as the husband, so M is N's father — sufficient. Statement II directly says M is the father of N — sufficient. Hence either statement alone is sufficient, so the answer is either alone.
+Source: PYQ-style (SSC CHSL pattern)
+
+60. What is the rate of simple interest per annum?
+Statement I: A sum of ₹5,000 amounts to ₹6,200 in 4 years.
+Statement II: The same sum earns ₹1,200 as interest in 4 years.
+(a) Statement I alone is sufficient (b) Neither statement alone nor together is sufficient (c) Either statement alone is sufficient (d) Statement II alone is sufficient
+Answer: (c)
+Solution: Statement I: interest = 6200 − 5000 = ₹1,200 over 4 years on ₹5,000, so rate = 1200/(5000×4) × 100 = 6% — sufficient. Statement II directly gives interest ₹1,200 on the same ₹5,000 for 4 years, again giving 6% — sufficient. Hence either statement alone is sufficient, so the answer is either alone.
+Source: PYQ-style (Banking exam pattern)
+
+61. Five friends P, Q, R, S and T sit in a row facing north. Who sits in the middle?
+Statement I: P sits at the left end, and Q sits second to the right of P.
+Statement II: R sits to the immediate left of T, and S sits at the right end.
+(a) Both statements together are sufficient (b) Statement II alone is sufficient (c) Statement I alone is sufficient (d) Both statements together are not sufficient
+Answer: (c)
+Solution: The trap is to combine both statements, but Statement I alone already answers it: P at position 1 and Q second to his right means Q sits at position 3, which is exactly the middle of five seats. Statement II alone gives the adjacent pair R–T and S at the right end, but the middle seat could be Q, R or T, so it is not sufficient. Hence Statement I alone is sufficient, so the answer is Statement I alone.
+Source: PYQ-style (IBPS PO pattern)
+
+62. Is triangle ABC a right-angled triangle?
+Statement I: The sides are in the ratio 3 : 4 : 5.
+Statement II: The sum of two angles is 90°.
+(a) Either statement alone is sufficient (b) Statement II alone is sufficient (c) Statement I alone is sufficient (d) Neither statement alone nor together is sufficient
+Answer: (a)
+Solution: The trap is to think angle information is weaker than side information. Statement I: 3² + 4² = 5², so by the converse of Pythagoras the triangle is right-angled — sufficient. Statement II: if two angles sum to 90°, the third is 180° − 90° = 90° — sufficient. Hence either statement alone is sufficient, so the answer is either alone.
+Source: PYQ-style (SSC CGL pattern)
+
+63. What is the two-digit number?
+Statement I: The digit at the unit's place is twice the digit at the ten's place.
+Statement II: The sum of the digits is 9.
+(a) Statement I alone is sufficient (b) Statement II alone is sufficient (c) Both statements together are sufficient (d) Both statements together are not sufficient
+Answer: (c)
+Solution: The trap is to pick Statement I alone, but it allows 12, 24, 36 and 48 — four possibilities; Statement II alone allows 18, 27, 36, 45, … — also not sufficient. Together, only 36 satisfies both conditions (3 + 6 = 9 and 6 = 2×3). Hence both statements together are sufficient, so the answer is both together.
+Source: PYQ-style (RRB NTPC pattern)
+
+64. Did Ram score more than Shyam in the test?
+Statement I: Ram scored 20% more marks than Mohan.
+Statement II: Shyam scored 10% less marks than Mohan.
+(a) Statement I alone is sufficient (b) Statement II alone is sufficient (c) Both statements together are not sufficient (d) Both statements together are sufficient
+Answer: (d)
+Solution: Statement I compares Ram only with Mohan and Statement II compares Shyam only with Mohan, so neither alone answers the question. Together: Ram = 1.2M and Shyam = 0.9M, so Ram > Shyam, a definite yes. Hence both statements together are sufficient, so the answer is both together.
+Source: PYQ-style (Banking exam pattern)
+
+65. What is the speed of the train in km/h?
+Statement I: The train crosses a pole in 12 seconds.
+Statement II: The train is 240 metres long.
+(a) Both statements together are sufficient (b) Statement I alone is sufficient (c) Both statements together are not sufficient (d) Statement II alone is sufficient
+Answer: (a)
+Solution: Statement I alone gives time but no distance; Statement II alone gives length but no time, so neither alone works. Together: speed = 240/12 = 20 m/s = 72 km/h. Hence both statements together are sufficient, so the answer is both together.
+Source: PYQ-style (SSC CGL pattern)
+
+66. On which day of the week did Anil visit the museum?
+Statement I: Anil visited the museum two days after his birthday, which fell on a Wednesday.
+Statement II: Anil visited the museum on the last working day of that week.
+(a) Statement II alone is sufficient (b) Statement I alone is sufficient (c) Either statement alone is sufficient (d) Neither statement alone nor together is sufficient
+Answer: (b)
+Solution: The trap is Statement II: "last working day" is ambiguous (Friday or Saturday depending on the institution), so it is not sufficient. Statement I: Wednesday + 2 days = Friday — sufficient. Hence Statement I alone is sufficient, so the answer is Statement I alone.
+Source: PYQ-style (SSC CHSL pattern)
+
+67. Is x > y?
+Statement I: x² > y².
+Statement II: x and y are both positive, and x² > y².
+(a) Both statements together are not sufficient (b) Statement II alone is sufficient (c) Both statements together are sufficient (d) Statement I alone is sufficient
+Answer: (b)
+Solution: Statement I is the classic trap: x = −3, y = 2 gives x² = 9 > 4 = y² but x < y, so it is not sufficient. Statement II adds that both are positive, and for positive numbers x² > y² implies x > y — sufficient. Hence Statement II alone is sufficient, so the answer is Statement II alone.
+Source: PYQ-style (IBPS PO pattern)
+
+68. How many children are there in the class?
+Statement I: If 5 more children join, the number becomes a perfect square.
+Statement II: The number of children is between 40 and 50.
+(a) Statement I alone is sufficient (b) Statement II alone is sufficient (c) Both statements together are not sufficient (d) Both statements together are sufficient
+Answer: (d)
+Solution: Statement I alone fits many numbers (11, 20, 31, 44, …); Statement II alone gives only a range, so neither alone works. Together: between 40 and 50, only 44 works since 44 + 5 = 49 = 7². Hence both statements together are sufficient, so the answer is both together.
+Source: PYQ-style (RRB NTPC pattern)
+
+69. What is the area of the rectangle?
+Statement I: The perimeter of the rectangle is 40 cm.
+Statement II: The length is twice the breadth.
+(a) Statement I alone is sufficient (b) Both statements together are sufficient (c) Statement II alone is sufficient (d) Both statements together are not sufficient
+Answer: (b)
+Solution: Statement I alone gives l + b = 20 with infinitely many pairs; Statement II alone gives only a ratio with no actual size, so neither alone works. Together: 3b = 20, so b = 20/3, l = 40/3, and area = 800/9 cm² — a definite value. Hence both statements together are sufficient, so the answer is both together.
+Source: PYQ-style (SSC CGL pattern)
+
+70. Who among A, B, C and D got the highest marks?
+Statement I: A got more marks than B and C.
+Statement II: D got more marks than A.
+(a) Statement I alone is sufficient (b) Both statements together are sufficient (c) Statement II alone is sufficient (d) Both statements together are not sufficient
+Answer: (b)
+Solution: Statement I alone says nothing about D; Statement II alone says nothing about B and C, so neither alone works. Together: D > A > B and C, so D got the highest marks. Hence both statements together are sufficient, so the answer is both together.
+Source: PYQ-style (Banking exam pattern)
+
+71. Is the number N a prime number?
+Statement I: N is an odd number greater than 2.
+Statement II: N has exactly two factors.
+(a) Both statements together are not sufficient (b) Statement I alone is sufficient (c) Both statements together are sufficient (d) Statement II alone is sufficient
+Answer: (d)
+Solution: Statement I is the trap: 9 is odd and greater than 2 but not prime, so it is not sufficient. Statement II: a number with exactly two factors (1 and itself) is prime by definition — sufficient. Hence Statement II alone is sufficient, so the answer is Statement II alone.
+Source: PYQ-style (SSC CHSL pattern)
+
+72. In a row of students facing north, what is Ravi's position from the left?
+Statement I: Ravi is 10th from the right end.
+Statement II: There are 25 students in the row.
+(a) Statement I alone is sufficient (b) Statement II alone is sufficient (c) Both statements together are sufficient (d) Both statements together are not sufficient
+Answer: (c)
+Solution: Statement I alone gives only the right-end position; Statement II alone gives only the total, so neither alone works. Together: position from left = 25 − 10 + 1 = 16th. Hence both statements together are sufficient, so the answer is both together.
+Source: PYQ-style (RRB NTPC pattern)
+
+73. What is the value of x + y?
+Statement I: x² − y² = 45 and x − y = 5.
+Statement II: x = 7.
+(a) Both statements together are not sufficient (b) Both statements together are sufficient (c) Statement I alone is sufficient (d) Statement II alone is sufficient
+Answer: (c)
+Solution: The trap is to combine both statements, but Statement I alone already answers it: x² − y² = (x − y)(x + y) = 45 with x − y = 5 gives x + y = 45/5 = 9. Statement II alone gives only x and nothing about y, so it is not sufficient. Hence Statement I alone is sufficient, so the answer is Statement I alone.
+Source: PYQ-style (IBPS PO pattern)
+
+74. What is the average age of a family of four members?
+Statement I: The sum of the ages of the father and mother is 70 years.
+Statement II: The sum of the ages of the two children is 30 years.
+(a) Statement I alone is sufficient (b) Statement II alone is sufficient (c) Both statements together are sufficient (d) Both statements together are not sufficient
+Answer: (c)
+Solution: Statement I alone covers only the parents; Statement II alone covers only the children, so neither alone works. Together: total age = 70 + 30 = 100, so average = 100/4 = 25 years. Hence both statements together are sufficient, so the answer is both together.
+Source: PYQ-style (Banking exam pattern)
+
+75. A shopkeeper sells two items, X and Y. On which item does he earn a higher profit percentage?
+Statement I: Item X is bought for ₹400 and sold for ₹500.
+Statement II: Item Y is bought for ₹600 and sold for ₹690.
+(a) Statement I alone is sufficient (b) Both statements together are not sufficient (c) Statement II alone is sufficient (d) Both statements together are sufficient
+Answer: (d)
+Solution: Statement I alone gives only X's profit % (25%) with no data on Y; Statement II alone gives only Y's profit % (15%) with no data on X, so neither alone works. Together: X earns 25% and Y earns 15%, so X earns the higher profit percentage. Hence both statements together are sufficient, so the answer is both together.
+Source: PYQ-style (Banking exam pattern)

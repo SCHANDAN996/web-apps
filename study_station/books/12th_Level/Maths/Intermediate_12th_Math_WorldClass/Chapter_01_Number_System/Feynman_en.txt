@@ -1,3 +1,44 @@
-# Chapter: Number System (Advanced), Level: intermediate
+# The Hardest Idea in Number System — Explained Like You're 12
 
-@content_agent lang=en level=intermediate role='a teacher like Richard Feynman' 'Explain the hardest concept of Number System (Advanced) so simply that a 12-year-old can understand. Weave a fun real-life story. Give a trick that they will never forget. End with a question.
+## The Concept: Remainders and Cyclicity (Why 7¹⁰⁰ is not scary at all)
+
+Ask any exam student what scares them most in Number System, and they'll say: *"Find the remainder when 7¹⁰⁰ is divided by 5."* It looks impossible. 7¹⁰⁰ is a number with 85 digits! Nobody can multiply that out.
+
+But here's the secret: **you never need the actual number. You only need the leftover.**
+
+## The Story: Ravi and the Roti Basket
+
+Imagine Ravi works at a dhaba. Every day he bakes rotis and packs them into baskets of 5. The boss doesn't ask "how many rotis?" — he only asks, *"How many rotis are left over after filling the baskets?"*
+
+That leftover is the **remainder**. That's all division ever asks in these questions.
+
+Now here's the fun part. Ravi notices something magical about 7:
+
+- 7 rotis → 1 full basket of 5, **2 left over**
+- 7 × 7 = 49 rotis → 9 baskets, **4 left over**
+- 7 × 7 × 7 = 343 → **3 left over**
+- 7⁴ = 2401 → **1 left over**
+- 7⁵ → back to **2 left over**!
+
+The leftovers go **2, 4, 3, 1, 2, 4, 3, 1…** — like four friends taking turns in a game, forever. This repeating loop is called **cyclicity**. The cycle length here is 4.
+
+## So what's 7¹⁰⁰ ÷ 5?
+
+Just find where 100 lands in the cycle of 4:
+100 ÷ 4 = 25 exactly, remainder 0 → so it lands on the **last** position of the cycle → leftover = **1**.
+
+Done. No 85-digit monster. Just a merry-go-round of four numbers.
+
+## The Never-Forget Trick 🎡
+
+**"Powers are Ferris wheels — find the seat count, then count the rounds."**
+
+1. Find the cycle of remainders (usually 1 to 4 seats long).
+2. Divide the power by the cycle length.
+3. Remainder tells you the seat; remainder 0 means the last seat.
+
+Bonus shortcut: when dividing by 5, only the **unit digit** matters. Powers of 7 end in 7, 9, 3, 1, 7, 9, 3, 1… — same Ferris wheel, same answer!
+
+## Your Turn 🤔
+
+Using the Ferris wheel trick, can you find the remainder when **3²⁰²⁴ is divided by 5**? (Hint: powers of 3 end in 3, 9, 7, 1, then repeat…)

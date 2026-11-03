@@ -1,20 +1,19 @@
 ```mermaid
-graph TD
-    R["🏅 क्रम और रैंकिंग<br>Order & Ranking"]
-    R --> D["📖 अर्थ<br>पंक्ति में स्थिति"]
-    R --> M["🗝️ सूत्र<br>कुल = ऊपर + नीचे − 1"]
-    R --> T["📂 प्रकार<br>Types"]
-    R --> TR["⚠️ जाल<br>Traps"]
+flowchart TD
+    Root["Order & Ranking (क्रम और स्थान)"] --> B1["Basic Formulas (मूल सूत्र)"]
+    Root --> B2["Persons Between (मध्य में व्यक्ति)"]
+    Root --> B3["Position Interchange (स्थान परिवर्तन)"]
+    Root --> B4["Min & Max Concept (न्यूनतम व अधिकतम)"]
 
-    M --> M1["−1 क्यों? दोहरी गिनती"]
-    M --> M2["दूसरी रैंक = कुल − रैंक + 1"]
+    B1 --> B1A["Total: T = L + R - 1"]
+    B1 --> B1B["Rank from other end: R = T - L + 1"]
 
-    T --> T1["कुल संख्या ज्ञात करना"]
-    T --> T2["दूसरी ओर की रैंक"]
-    T --> T3["दो के बीच संख्या<br>बड़ी − छोटी − 1"]
-    T --> T4["स्थान बदलना<br>Interchange"]
+    B2 --> B2A["Non-Overlapping: Between = T - (L + R)"]
+    B2 --> B2B["Overlapping: Between = (L + R) - T - 2"]
 
-    TR --> TR1["−1 भूलना"]
-    TR --> TR2["बीच में बनाम तक"]
-    TR --> TR3["दिशा मिलाना"]
+    B3 --> B3A["Total = New Rank(A) + Old Rank(B) - 1"]
+    B3 --> B3B["Shift difference is constant for both"]
+
+    B4 --> B4A["Maximum = L + R + Between (No overlap)"]
+    B4 --> B4B["Minimum = (L + R) - Between - 2 (Overlap)"]
 ```

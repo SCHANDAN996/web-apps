@@ -1,0 +1,87 @@
+# 📊 PYQ Analysis — Spelling Check
+
+## How Exams Test Spelling (Pattern Analysis)
+
+Spelling questions appear in almost every SSC (CGL, CHSL, MTS, GD), Banking (IBPS, SBI), and Railway (NTPC, Group D) exam, usually as **"One word is misspelt — find it"** or **"Choose the correctly spelt word"**. Over the years, the pattern has stayed remarkably stable:
+
+- **Most-tested sub-topics:** double-letter confusions (accommodate, committee, embarrass), -able/-ible endings, -ance/-ence, -ent/-ant, ie/ei words (receive, believe, height), silent letters (psychology, pneumonia, honest), and British-style academic vocabulary (bureaucracy, questionnaire, maintenance).
+- **Difficulty trend:** SSC CGL and IBPS PO lean toward longer, less familiar words (idiosyncrasy, manoeuvre, liaison); SSC MTS/GD and Group D stick to everyday words with one tricky letter (separate, grammar, beginning).
+- **Format shift:** Older papers asked "find the misspelt word"; newer papers increasingly ask "find the correctly spelt word" — which is harder, because three wrong options all *look* plausible.
+
+## The Examiner's Traps (in words, not numbers)
+
+1. **Sound-Right Trap:** The wrong spelling *sounds* exactly like the right one — "seperate", "definately", "occurence". Your ear cannot save you; only visual memory can.
+2. **Double/Single Letter Swap:** One option doubles the wrong letter — "embarass" (missing one *r*), "comittee" (missing one *m*). Examiners know students guess randomly between single and double.
+3. **Near-Miss Distractors:** All four options differ by only one letter (recieve / receive / riceive / receeve). The correct one is rarely the first option your eye accepts.
+4. **Over-thinking Trap:** The simplest, most familiar spelling is correct, but under exam pressure students pick the "fancy-looking" wrong option — e.g., choosing "accomodate" over "accommodate" because the doubled letters look "too heavy", or "definately" over "definitely" because the correct one looks "too plain".
+5. **British vs American Mix:** Options like "colour/color" or "programme/program" — Indian exams follow British spelling conventions, so "colour" and "programme" are treated as correct and "color"/"program" may be marked wrong. The deeper trap is a *third* form like "programe" or "colur", which is wrong in every variety of English.
+
+## Top 10 High-Yield Questions (PYQ-style) with Solutions
+
+**Q1.** Choose the correctly spelt word.
+(a) Accomodate (b) Accommodate (c) Acommodate (d) Accomadate
+**Answer:** (b)
+**Solution:** "Accommodate" has double **c** and double **m** — remember: "It can accommodate **C**offee and **M**ilk" (CC + MM). Trap type: **Double/Single Letter Swap**.
+**Source:** PYQ-style (frequently asked in SSC exams)
+
+**Q2.** Choose the correctly spelt word.
+(a) Recieve (b) Receive (c) Riceive (d) Receeve
+**Answer:** (b)
+**Solution:** Rule: "**i** before **e**, except after **c**" — after *c*, it is **ei**: re**cei**ve. Trap type: **Near-Miss Distractors**.
+**Source:** NCERT Class 9–10 English (word list)
+
+**Q3.** Choose the correctly spelt word.
+(a) Embarass (b) Embaras (c) Embarrass (d) Emberrass
+**Answer:** (c)
+**Solution:** Double **r** and double **s** — mnemonic: "Really Red, Super Shy" (RR + SS). Trap type: **Double/Single Letter Swap**.
+**Source:** PYQ-style
+
+**Q4.** Choose the correctly spelt word.
+(a) Maintainance (b) Maintenance (c) Maintenence (d) Mentainance
+**Answer:** (b)
+**Solution:** From "main**tain**" + "-ance" → main**te**nance. The middle is "-ten-", not "-tain-". Trap type: **Sound-Right Trap** (pronunciation misleads).
+**Source:** PYQ-style
+
+**Q5.** Choose the correctly spelt word.
+(a) Occurence (b) Occurrence (c) Ocurrence (d) Occurrance
+**Answer:** (b)
+**Solution:** "Occur" doubles the **r** before "-ence" (stressed final syllable), and keeps double **c**: o-cc-u-rr-ence. Trap type: **Double/Single Letter Swap**.
+**Source:** PYQ-style
+
+**Q6.** Choose the correctly spelt word.
+(a) Questionaire (b) Questionnair (c) Questionnaire (d) Questionairre
+**Answer:** (c)
+**Solution:** Double **n** + "-aire": questio-nn-aire. A French loanword — French spellings keep their original form in English. Trap type: **Near-Miss Distractors**.
+**Source:** PYQ-style
+
+**Q7.** Choose the correctly spelt word.
+(a) Beleive (b) Belive (c) Believe (d) Beleeve
+**Answer:** (c)
+**Solution:** No *c* before it, so "**i** before **e**": be-lie-ve. Compare with Q2 (receive) — examiners love pairing these two. Trap type: **Sound-Right Trap**.
+**Source:** NCERT Class 9–10 English
+
+**Q8.** Choose the correctly spelt word.
+(a) Pshychology (b) Psychology (c) Sychology (d) Psycology
+**Answer:** (b)
+**Solution:** Silent **p** + Greek root *psych* (mind) + *-logy* (study). Both *p* and *h* must be present even though you don't hear them. Trap type: **Silent Letter Trap**.
+**Source:** PYQ-style
+
+**Q9.** Choose the correctly spelt word.
+(a) Burocracy (b) Bureaucracy (c) Bureacracy (d) Burocrassy
+**Answer:** (b)
+**Solution:** French word *bureau* + *-cracy* (rule). Keep the full "bureau" — b-u-r-e-a-u. Trap type: **Near-Miss Distractors** (vowel order).
+**Source:** PYQ-style
+
+**Q10.** Choose the correctly spelt word.
+(a) Grammer (b) Grammar (c) Gramar (d) Grammmer
+**Answer:** (b)
+**Solution:** Ends in **-ar**, not "-er" — ironic, since it's the word for language itself! Mnemonic: "A gramm**a**r has an **A** at the end." Trap type: **Over-thinking Trap** (students assume "-er" because most agent words end that way).
+**Source:** PYQ-style
+
+## Applying the 15/45-Second Rule
+
+**15-second question (Fact-based recall):** Q2 (receive). You either know "i before e except after c" or you don't. Scan, spot the rule, mark, move on. **Do not re-read the options** — re-reading invites the Over-thinking Trap. Target: 15 seconds.
+
+**45-second question (Careful comparison):** Q6 (questionnaire). All four options look French and plausible. Method: (1) break the word into chunks — question + n + aire; (2) recall the base word "question" keeps its spelling; (3) check the suffix "-aire" (like "millionaire"); (4) eliminate (a) single *n*, (b) missing *e*, (d) double *r*. This systematic elimination justifies 45 seconds — but never more.
+
+**Key takeaway:** Most spelling questions reward instant recall — you either know the word or you don't. Bank the time you save on those quick questions and spend it only on the rare question where all four options look nearly identical.

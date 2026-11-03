@@ -1,0 +1,98 @@
+# 📊 PYQ Analysis — Percentage (English)
+
+## How exams test Percentage
+
+Percentage is rarely asked as a plain "find x% of y" question at the advanced level. UPSC CSAT, CAT, and IBPS PO Mains use percentage as a *vehicle* — the arithmetic is easy; the trap lies in the setup: successive changes, base confusion, and percentage applied to profit-loss, population, and data interpretation.
+
+**The most frequently tested sub-topics (pattern analysis):**
+
+1. **Successive percentage change** — two or more changes applied one after another. Examiners love the trap of *adding* the percentages (10% up then 10% down ≠ net zero).
+2. **Percentage in Profit & Loss** — discount, marked price, and successive discounts. The classic trap: "discount of 20% + 10%" being read as 30%.
+3. **Population / depreciation** — population increasing or machine value decreasing annually.
+4. **Percentage in DI** — percentage change between two quantities, percentage point vs percentage.
+5. **Fraction-percentage conversion** — 1/8 = 12.5%, 1/6 = 16.66% type questions.
+6. **Percentage-based ratio and mixture** — "A is x% of B" type relational questions.
+7. **Pass marks / examination** — a student needs 40% to pass; questions where the base must be reconstructed from the margin of pass/fail.
+8. **Percentage in elections** — winner's margin as a percentage of votes.
+
+**The examiner's favourite traps:**
+- **Base confusion**: "A is 25% more than B" vs "B is 25% less than A" — students assume both are equivalent. If A = 125 and B = 100, A is 25% more than B, but B is only 20% less than A.
+- **Percentage point vs percentage**: a rise from 20% to 25% is a 5 percentage point rise but a 25% relative rise.
+- **Successive change**: 10% increase followed by 10% decrease = net 1% decrease, not zero.
+- **"At least / minimum" wording**: CSAT loves "at least" — the answer often requires careful reading, not calculation.
+- **Mixing percentage with fractions**: 12.5% = 1/8 — students who convert to fractions solve in seconds; others get stuck in decimals.
+
+---
+
+## Top 10 High-Yield Questions (with solutions)
+
+**Q1.** A number is increased by 20% and then decreased by 20%. The net change is:
+(a) 0% (b) 4% decrease (c) 4% increase (d) 2% decrease
+**Answer: (b)**
+**Solution:** Net change = 20 − 20 − (20×20)/100 = −4%. The hook: students assume +20% and −20% cancel out. They don't, because the second change applies to the increased value.
+**Trap:** "Equal and opposite changes cancel" intuition.
+
+**Q2.** If A is 25% more than B, then B is what percent less than A?
+(a) 20% (b) 25% (c) 16.66% (d) 33.33%
+**Answer: (a)**
+**Solution:** Let B = 100, so A = 125. B is less than A by 25, as a percentage of A: 25/125 = 20%.
+**Trap:** Students answer 25%, forgetting the base has shifted from B to A.
+
+**Q3.** The price of an article was increased by 10% and then decreased by 10%. If the final price is ₹99, the original price was:
+(a) ₹100 (b) ₹110 (c) ₹90 (d) ₹99
+**Answer: (a)**
+**Solution:** 0.9 × 1.1 = 0.99 of original. 99/0.99 = 100.
+**Trap:** Assuming the original price equals the final price.
+
+**Q4.** In an election, the winner got 60% of the votes and won by 400 votes. If only two candidates contested, the total votes were:
+(a) 1000 (b) 2000 (c) 200 (d) 4000
+**Answer: (b)**
+**Solution:** Winner 60%, loser 40%, margin 20% = 400 votes, so total = 2000.
+**Trap:** Taking 60% of 400 or 40% of 400.
+
+**Q5.** A student needs 40% to pass. He gets 180 marks and fails by 20 marks. The maximum marks are:
+(a) 400 (b) 500 (c) 450 (d) 600
+**Answer: (b)**
+**Solution:** Pass marks = 180 + 20 = 200 = 40% of maximum. Maximum = 200/0.4 = 500.
+**Trap:** Computing 40% of 180 or adding 20% of 180.
+
+**Q6.** The population of a town increases by 10% every year. If the population in 2020 was 10000, the population in 2022 is:
+(a) 12000 (b) 12100 (c) 11000 (d) 12200
+**Answer: (b)**
+**Solution:** 10000 × 1.1 × 1.1 = 12100.
+**Trap:** Adding 20% of 10000 = 2000 to get 12000.
+
+**Q7.** If 60% of A = 40% of B, then A : B = ?
+(a) 2 : 3 (b) 3 : 2 (c) 3 : 5 (d) 5 : 3
+**Answer: (a)**
+**Solution:** 0.6A = 0.4B ⇒ A/B = 0.4/0.6 = 2/3.
+**Trap:** Inverting the ratio to 3:2.
+
+**Q8.** A machine depreciates at 10% per annum. If its value is ₹8100, its value one year ago was:
+(a) ₹9000 (b) ₹8900 (c) ₹10000 (d) ₹8910
+**Answer: (a)**
+**Solution:** 8100/0.9 = 9000.
+**Trap:** Adding 10% of 8100 to 8100.
+
+**Q9.** If the numerator of a fraction is increased by 20% and the denominator by 25%, the fraction becomes 3/5 of the original. The original fraction is:
+(a) 5/8 (b) 3/4 (c) 2/3 (d) 4/5
+**Answer: (a)**
+**Solution:** (1.2N)/(1.25D) = (3/5)(N/D) ⇒ N/D = (3/5)×(1.25/1.2) = 5/8.
+**Trap:** Assuming the fraction remains unchanged.
+
+**Q10.** A man spends 75% of his income. His income is increased by 20% and expenditure by 10%. His savings increase by:
+(a) 20% (b) 30% (c) 40% (d) 50%
+**Answer: (d)**
+**Solution:** Let income = 100, expenditure = 75, savings = 25. New income = 120, new expenditure = 82.5, new savings = 37.5. Increase = 12.5/25 = 50%.
+**Trap:** Averaging 20% and 10% to get 30%.
+
+---
+
+## Pattern Summary
+
+- **CSAT** loves "at least", "minimum", and base-confusion questions.
+- **CAT** focuses on successive change and profit-loss integration.
+- **IBPS PO Mains** tests percentage within DI and data sufficiency.
+- **State PCS** frequently asks election and population questions.
+
+**Preparation advice:** Master fraction-percentage conversion (1/8 = 12.5%, 1/6 = 16.66%, 1/7 = 14.28%) — it converts 30-second questions into 5-second questions.

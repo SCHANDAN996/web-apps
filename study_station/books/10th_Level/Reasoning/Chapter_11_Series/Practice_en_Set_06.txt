@@ -1,0 +1,151 @@
+Questions 126–150: Hard
+
+126. 2, 6, 15, 31, 56, ?
+(a) 88 (b) 92 (c) 96 (d) 100
+Answer: (b)
+Solution: The differences are +4, +9, +16, +25, i.e. consecutive squares 2², 3², 4², 5². The next difference is 6² = 36, not 32, which is the trap behind 88. So the answer is 56 + 36 = 92.
+Source: PYQ-style
+
+127. 1, 3, 7, 15, 31, ?
+(a) 62 (b) 65 (c) 64 (d) 63
+Answer: (d)
+Solution: Each term is previous × 2 + 1: 1×2+1=3, 3×2+1=7, 7×2+1=15, 15×2+1=31. The trap is doubling only, which gives 62. So the answer is 31×2+1 = 63.
+Source: PYQ-style
+
+128. 5, 6, 14, 45, 184, ?
+(a) 920 (b) 930 (c) 925 (d) 935
+Answer: (c)
+Solution: The rule is ×1+1, ×2+2, ×3+3, ×4+4: 5×1+1=6, 6×2+2=14, 14×3+3=45, 45×4+4=184. The trap is multiplying by 5 without adding 5, giving 920. So the answer is 184×5+5 = 925.
+Source: PYQ-style
+
+129. 2, 5, 11, 23, 47, ?
+(a) 93 (b) 95 (c) 96 (d) 94
+Answer: (b)
+Solution: Each term is previous × 2 + 1: 2×2+1=5, 5×2+1=11, 11×2+1=23, 23×2+1=47. The trap is plain doubling, which gives 94. So the answer is 47×2+1 = 95.
+Source: PYQ-style
+
+130. Find the wrong term in the series: 6, 14, 30, 64, 126, 254
+(a) 14 (b) 64 (c) 30 (d) 126
+Answer: (b)
+Solution: The pattern is 2ⁿ−2: 2³−2=6, 2⁴−2=14, 2⁵−2=30, 2⁶−2=62, 2⁷−2=126, 2⁸−2=254. The fourth term should be 62, not 64; 64 looks tempting because it is a familiar power of 2. So the wrong term is 64.
+Source: PYQ-style
+
+131. 1, 4, 9, 16, 25, 36, 49, ?
+(a) 64 (b) 56 (c) 72 (d) 81
+Answer: (a)
+Solution: These are squares of natural numbers: 1², 2², 3², …, 7², so the next is 8². The trap is 81, which is 9² and skips a step. So the answer is 64.
+Source: NCERT Class 8 Mathematics
+
+132. Z, X, V, T, ?
+(a) R (b) S (c) P (d) Q
+Answer: (a)
+Solution: Letters move back by 2 each time: Z(26)→X(24)→V(22)→T(20)→R(18). The trap is S, which comes from moving back only 1 from T. So the answer is R.
+Source: PYQ-style
+
+133. 0, 3, 8, 15, 24, ?
+(a) 33 (b) 34 (c) 36 (d) 35
+Answer: (d)
+Solution: The pattern is n²−1: 1²−1=0, 2²−1=3, 3²−1=8, 4²−1=15, 5²−1=24. The trap is 36, which is 6² without subtracting 1. So the answer is 6²−1 = 35.
+Source: NCERT Class 8 Mathematics
+
+134. 7, 13, 25, 49, 97, ?
+(a) 190 (b) 193 (c) 191 (d) 192
+Answer: (b)
+Solution: Each term is previous × 2 − 1: 7×2−1=13, 13×2−1=25, 25×2−1=49, 49×2−1=97. The trap is 192, from adding 1 instead of subtracting. So the answer is 97×2−1 = 193.
+Source: PYQ-style
+
+135. 3, 6, 11, 18, 27, ?
+(a) 36 (b) 37 (c) 38 (d) 40
+Answer: (c)
+Solution: The differences are +3, +5, +7, +9, consecutive odd numbers, so the next difference is +11. The trap is 36, which comes from repeating +9. So the answer is 27+11 = 38.
+Source: PYQ-style
+
+136. 1, 2, 6, 21, 88, ?
+(a) 425 (b) 465 (c) 485 (d) 445
+Answer: (d)
+Solution: The rule is ×1+1, ×2+2, ×3+3, ×4+4: 1×1+1=2, 2×2+2=6, 6×3+3=21, 21×4+4=88. The trap is 465, from adding a wrong constant after ×5. So the answer is 88×5+5 = 445.
+Source: PYQ-style
+
+137. 3, 7, 16, 35, 74, ?
+(a) 151 (b) 152 (c) 153 (d) 154
+Answer: (c)
+Solution: The rule is ×2+1, ×2+2, ×2+3, ×2+4: 3×2+1=7, 7×2+2=16, 16×2+3=35, 35×2+4=74. The trap is 153's neighbour 151, from adding 3 instead of 5. So the answer is 74×2+5 = 153.
+Source: PYQ-style
+
+138. M, K, I, G, E, ?
+(a) C (b) D (c) B (d) A
+Answer: (a)
+Solution: Letters move back by 2: M(13)→K(11)→I(9)→G(7)→E(5)→C(3). The trap is D, from moving back only 1 from E. So the answer is C.
+Source: PYQ-style
+
+139. 4, 6, 12, 30, 90, ?
+(a) 270 (b) 300 (c) 315 (d) 330
+Answer: (c)
+Solution: Multipliers rise by 0.5: 4×1.5=6, 6×2=12, 12×2.5=30, 30×3=90. The trap is 270, from using ×3 again. So the answer is 90×3.5 = 315.
+Source: PYQ-style
+
+140. 1, 3, 8, 19, 42, ?
+(a) 87 (b) 91 (c) 89 (d) 93
+Answer: (c)
+Solution: The rule is ×2+1, ×2+2, ×2+3, ×2+4: 1×2+1=3, 3×2+2=8, 8×2+3=19, 19×2+4=42. The trap is 87, from adding 3 instead of 5. So the answer is 42×2+5 = 89.
+Source: PYQ-style
+
+141. B, G, L, Q, V, ?
+(a) B (b) A (c) Y (d) Z
+Answer: (b)
+Solution: Letters move forward by 5: B(2)→G(7)→L(12)→Q(17)→V(22)→27, and 27−26=1=A. The trap is Z, from stopping at 26 instead of wrapping around. So the answer is A.
+Source: PYQ-style
+
+142. 1, 2, 8, 48, 384, ?
+(a) 5040 (b) 4224 (c) 4608 (d) 3840
+Answer: (d)
+Solution: Multipliers are consecutive even numbers: 1×2=2, 2×4=8, 8×6=48, 48×8=384. The trap is 4608, from multiplying by 12 instead of 10. So the answer is 384×10 = 3840.
+Source: PYQ-style
+
+143. 2, 15, 4, 12, 6, 9, 8, ?
+(a) 5 (b) 4 (c) 6 (d) 3
+Answer: (c)
+Solution: This is a double series: odd positions 2, 4, 6, 8 increase by 2, while even positions 15, 12, 9 decrease by 3. The 8th term belongs to the even sub-series, and the trap is 5, from wrongly extending the odd sub-series. So the answer is 9−3 = 6.
+Source: PYQ-style
+
+144. 5, 7, 12, 19, 31, 50, ?
+(a) 81 (b) 80 (c) 79 (d) 82
+Answer: (a)
+Solution: Each term is the sum of the previous two: 5+7=12, 7+12=19, 12+19=31, 19+31=50. The trap is 81's neighbour 79, from an arithmetic slip in 31+50. So the answer is 31+50 = 81.
+Source: PYQ-style
+
+145. 1, 5, 21, 85, ?
+(a) 341 (b) 338 (c) 339 (d) 337
+Answer: (a)
+Solution: Each term is previous × 4 + 1: 1×4+1=5, 5×4+1=21, 21×4+1=85. The trap is 340+1 miscomputed as 339 or 337. So the answer is 85×4+1 = 341.
+Source: PYQ-style
+
+146. 3, 10, 29, 66, 127, ?
+(a) 210 (b) 218 (c) 216 (d) 220
+Answer: (b)
+Solution: The pattern is n³+2: 1³+2=3, 2³+2=10, 3³+2=29, 4³+2=66, 5³+2=127. The trap is 216, which is 6³ without adding 2. So the answer is 6³+2 = 218.
+Source: NCERT Class 8 Mathematics
+
+147. 2, 6, 14, 30, 62, ?
+(a) 126 (b) 122 (c) 124 (d) 128
+Answer: (a)
+Solution: Each term is previous × 2 + 2: 2×2+2=6, 6×2+2=14, 14×2+2=30, 30×2+2=62. The trap is 124, from plain doubling. So the answer is 62×2+2 = 126.
+Source: PYQ-style
+
+148. K, M, Q, W, ?
+(a) E (b) G (c) F (d) H
+Answer: (a)
+Solution: Gaps grow by 2: K(11)→M(13) is +2, M→Q(17) is +4, Q→W(23) is +6, so the next gap is +8: 23+8=31, and 31−26=5=E. The trap is G, from forgetting to wrap past Z. So the answer is E.
+Source: PYQ-style
+
+149. 4, 9, 19, 39, 79, ?
+(a) 158 (b) 157 (c) 160 (d) 159
+Answer: (d)
+Solution: Each term is previous × 2 + 1: 4×2+1=9, 9×2+1=19, 19×2+1=39, 39×2+1=79. The trap is 158, from plain doubling. So the answer is 79×2+1 = 159.
+Source: PYQ-style
+
+150. 4, 6, 10, 18, 34, ?
+(a) 64 (b) 68 (c) 67 (d) 66
+Answer: (d)
+Solution: Each term is previous × 2 − 2: 4×2−2=6, 6×2−2=10, 10×2−2=18, 18×2−2=34. The trap is 68, from plain doubling. So the answer is 34×2−2 = 66.
+Source: PYQ-style

@@ -1,3 +1,140 @@
-# Chapter: Algebra, Level: intermediate
+# 📊 PYQ Analysis — Algebra (SSC CGL Mains, IBPS PO, RRB NTPC, CAT)
 
-@pyq_agent lang=en level=intermediate 'Analyse PYQs of Algebra for last 10 years (SSC CGL Mains, IBPS PO, RRB NTPC, CAT etc.). Give top 10 high-yield questions with solutions. Also explain what psychological hook or trap each question uses.'
+## 1. How Examiners Test Algebra — Pattern Analysis
+
+Algebra is one of the most dependable scoring areas in quantitative aptitude. Across SSC CGL (Mains), IBPS PO, RRB NTPC and CAT, the questions repeat a small set of ideas again and again. If you master the patterns below, you can predict the question before you finish reading it.
+
+**The recurring sub-topics (in words, not numbers):**
+
+- **Identity-based evaluation** — Questions built directly on (a+b)², (a−b)², a²−b², a³+b³, a³−b³. The examiner gives x + 1/x = k and asks for x² + 1/x², x³ + 1/x³, or x⁴ + 1/x⁴. This is the single most repeated family in SSC and RRB exams.
+- **Remainder and factor theorems** — "Find the remainder when p(x) is divided by (x − a)" appears regularly in CGL Mains and CAT. The trap: students do long division instead of substituting x = a.
+- **Linear and simultaneous equations** — Age problems, digit problems, and "a fraction becomes…" problems. IBPS PO loves wrapping these in word form.
+- **Quadratic equations** — Nature of roots (discriminant), sum and product of roots, and forming an equation from given roots. CAT asks these with parameters; SSC asks them directly.
+- **Simplification with surds and exponents** — Laws of indices mixed with algebraic identities.
+- **Inequalities and modulus** — Mostly CAT and IBPS PO; sign errors are the intended trap.
+- **Polynomial factorisation** — Splitting the middle term, or using a³ ± b³ patterns in disguise.
+
+**The examiner's favourite traps:**
+
+1. **The almost-right statement** — "If x + 1/x = 2, then x³ + 1/x³ = 8." Looks plausible, actually equals 2. They test whether you *derive* or *guess*.
+2. **Sign confusion** — a³ − b³ vs a³ + b³ formulas differ only in signs; options are built from the wrong-sign version.
+3. **Order-of-operations bait** — In simplification questions, one option is exactly what you get if you add before multiplying.
+4. **Negative root blindness** — Quadratic questions where one option uses only the positive root while the question needs the negative one (or vice versa).
+5. **"Cannot be determined" phobia** — In IBPS PO, sometimes the data is genuinely insufficient; students waste minutes forcing an answer.
+6. **Disguised identities** — 999² or 1001 × 999 are really (1000−1)² and (1000+1)(1000−1). The examiner wants you to do long multiplication and lose time.
+
+**Time strategy:** Identity questions should take under 30 seconds with the chain rule (square → subtract 2 → cube → subtract 3k). If you are expanding brackets on paper, you are doing it the slow way.
+
+---
+
+## 2. Top 10 High-Yield Questions (with Solutions and Trap Analysis)
+
+**Q1.** If x + 1/x = 5, find x² + 1/x².
+(a) 23 (b) 25 (c) 27 (d) 21
+
+**Answer: (a) 23**
+**Solution:** Square both sides: (x + 1/x)² = x² + 1/x² + 2 → 25 = x² + 1/x² + 2 → x² + 1/x² = 23.
+**Trap:** Option (b) 25 is the raw square — the examiner bets you will forget to subtract 2. **Rule: square the sum, subtract 2.**
+**Source:** PYQ-style (recurring SSC CGL / RRB NTPC pattern)
+
+---
+
+**Q2.** If x + 1/x = 3, find x³ + 1/x³.
+(a) 27 (b) 18 (c) 9 (d) 24
+
+**Answer: (b) 18**
+**Solution:** Use a³ + b³ = (a+b)³ − 3ab(a+b). Here x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x) = 27 − 9 = 18.
+**Trap:** Option (a) 27 is the plain cube. **Rule: cube the sum, subtract 3 times the sum.**
+**Source:** PYQ-style (recurring SSC CGL pattern)
+
+---
+
+**Q3.** If a + b = 10 and ab = 21, find a² + b².
+(a) 58 (b) 79 (c) 100 (d) 42
+
+**Answer: (a) 58**
+**Solution:** a² + b² = (a+b)² − 2ab = 100 − 42 = 58.
+**Trap:** Option (b) 79 = 100 − 21 (subtracting ab only once). The identity needs **2ab**.
+**Source:** PYQ-style
+
+---
+
+**Q4.** Find the remainder when x³ − 2x² + 3x − 4 is divided by (x − 2).
+(a) 2 (b) 4 (c) −4 (d) 0
+
+**Answer: (a) 2**
+**Solution:** By the Remainder Theorem, substitute x = 2: 8 − 8 + 6 − 4 = 2.
+**Trap:** Students who do long division often make a sign slip and land on (c) −4. Substitution takes 15 seconds and is error-proof.
+**Source:** NCERT Class 9 Mathematics (Polynomials)
+
+---
+
+**Q5.** If x − 1/x = 4, find x² + 1/x².
+(a) 14 (b) 16 (c) 18 (d) 20
+
+**Answer: (c) 18**
+**Solution:** (x − 1/x)² = x² + 1/x² − 2 → 16 = x² + 1/x² − 2 → x² + 1/x² = 18.
+**Trap:** This is the **minus version** — here you **add** 2, not subtract. Options (a) 14 punishes those who apply the plus-version rule mechanically. **Hook: same numbers, opposite sign, opposite adjustment.**
+**Source:** PYQ-style (recurring SSC pattern)
+
+---
+
+**Q6.** The sum of the roots of 2x² − 8x + 6 = 0 is:
+(a) 4 (b) −4 (c) 3 (d) 8
+
+**Answer: (a) 4**
+**Solution:** Sum of roots = −b/a = −(−8)/2 = 4.
+**Trap:** Option (b) −4 = b/a without the minus sign. The formula is **−b/a**; the double negative is the hook. (Check: roots are 1 and 3, sum = 4.)
+**Source:** NCERT Class 10 Mathematics (Quadratic Equations)
+
+---
+
+**Q7.** If x = 3 + 2√2, find x + 1/x.
+(a) 6 (b) 2√2 (c) 4√2 (d) 3
+
+**Answer: (a) 6**
+**Solution:** 1/x = 1/(3 + 2√2) = (3 − 2√2)/(9 − 8) = 3 − 2√2. So x + 1/x = (3 + 2√2) + (3 − 2√2) = 6.
+**Trap:** The surd looks scary, so students guess (b) or (c). The rationalisation makes the surd **cancel completely** — that cancellation is the intended "aha". Remember: conjugate pairs of the form a ± b√c with a² − b²c = 1 always give x + 1/x = 2a.
+**Source:** PYQ-style (recurring SSC CGL pattern)
+
+---
+
+**Q8.** If a² + b² + c² = ab + bc + ca, then:
+(a) a = b = c (b) a + b + c = 0 (c) a = b ≠ c (d) a + b = c
+
+**Answer: (a) a = b = c**
+**Solution:** Multiply by 2 and rearrange: 2a² + 2b² + 2c² − 2ab − 2bc − 2ca = 0 → (a−b)² + (b−c)² + (c−a)² = 0. A sum of squares is zero only when each square is zero, so a = b = c.
+**Trap:** Option (b) is the condition for a³ + b³ + c³ = 3abc — a look-alike result from the same chapter. The examiner swaps the two famous conditions to catch rote learners.
+**Source:** PYQ-style (SSC CGL Mains pattern)
+
+---
+
+**Q9.** If x + y = 7 and xy = 12, find x³ + y³.
+(a) 91 (b) 343 (c) 259 (d) 217
+
+**Answer: (a) 91**
+**Solution:** x³ + y³ = (x+y)³ − 3xy(x+y) = 343 − 3(12)(7) = 343 − 252 = 91.
+**Trap:** Option (b) 343 is the bare cube; option (c) 259 comes from subtracting xy(x+y) only once instead of 3 times. **Rule: cube the sum, subtract 3·product·sum.**
+**Source:** PYQ-style
+
+---
+
+**Q10.** For what value of k does x² + kx + 9 = 0 have equal roots?
+(a) k = ±6 (b) k = 6 only (c) k = ±3 (d) k = 9
+
+**Answer: (a) k = ±6**
+**Solution:** Equal roots ⇒ discriminant = 0: k² − 4(1)(9) = 0 → k² = 36 → k = ±6.
+**Trap:** Option (b) catches students who forget the negative square root — the classic "negative root blindness". Option (c) comes from taking √9 = 3 and stopping. Whenever you solve k² = n, **both signs** must be checked against the options.
+**Source:** NCERT Class 10 Mathematics (Quadratic Equations)
+
+---
+
+## 3. Key Takeaways
+
+- The **x + 1/x family** (square → −2, cube → −3k, and the minus-version → +2) alone covers a large share of algebra questions in SSC and RRB exams. Memorise the chain, not the expansions.
+- **Remainder Theorem = substitution.** Never do long division in an exam.
+- For quadratics, anchor three facts: sum = −b/a, product = c/a, equal roots ⇒ b² = 4ac. Most questions are one of these three wearing a costume.
+- When an option equals the "raw" power (25, 27, 343), it is almost always the trap. The correct answer is the raw power **adjusted** by the identity.
+- Read the sign in the question twice: x − 1/x and x + 1/x demand opposite adjustments, and examiners place them side by side on purpose.
+
+*Revise this analysis again after 2 days, then re-attempt all 10 questions without looking at the solutions.*

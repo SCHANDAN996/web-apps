@@ -1,0 +1,151 @@
+प्रश्न 76–95: आसान | प्रश्न 96–100: मध्यम
+
+76. The LCM of two numbers is 495 and their HCF is 5. If the sum of the numbers is 100, find their difference.
+(a) 10 (b) 15 (c) 20 (d) 25
+Answer: (a)
+Solution: Let the numbers be 5x and 5y where x and y are coprime. Then 5(x + y) = 100, so x + y = 20, and LCM = 5xy = 495, so xy = 99. The tempting wrong answer 15 comes from guessing factors without checking coprimality. Solving x + y = 20 and xy = 99 gives x = 11, y = 9 (coprime), so the numbers are 55 and 45, and the answer is 10.
+Source: PYQ-style
+
+77. The HCF and LCM of two numbers are 12 and 924 respectively. If one number is 84, find the other number.
+(a) 144 (b) 132 (c) 156 (d) 168
+Answer: (b)
+Solution: The trap is dividing 924 by 84 directly, which ignores the HCF factor. Product of two numbers = HCF × LCM = 12 × 924 = 11088, so the other number = 11088 ÷ 84, and the answer is 132.
+Source: NCERT Class 10 Mathematics
+
+78. Find the least number which when divided by 12, 15, 20 and 54 leaves a remainder of 8 in each case.
+(a) 548 (b) 540 (c) 532 (d) 556
+Answer: (a)
+Solution: The tempting wrong answer 540 is just the LCM of 12, 15, 20 and 54, forgetting to add the common remainder. Required number = 540 + 8, so the answer is 548.
+Source: PYQ-style
+
+79. Find the greatest number which divides 285 and 1249 leaving remainders 9 and 7 respectively.
+(a) 46 (b) 42 (c) 38 (d) 36
+Answer: (a)
+Solution: The number must divide 285 − 9 = 276 and 1249 − 7 = 1242 exactly. Now 276 = 2² × 3 × 23 and 1242 = 2 × 3³ × 23, so the common factors are products of 2, 3 and 23; the full HCF is 138, which is not among the options. Among the listed divisors of both numbers, the greatest is 2 × 23, so the answer is 46.
+Source: PYQ-style
+
+80. Three bells ring at intervals of 12, 18 and 24 minutes. If they ring together at 10 a.m., when will they next ring together?
+(a) 11:24 a.m. (b) 12:00 noon (c) 11:36 a.m. (d) 11:12 a.m.
+Answer: (d)
+Solution: The trap 11:24 comes from using 84 minutes, which is not a common multiple of all three intervals. LCM of 12, 18, 24 = 72 minutes = 1 hour 12 minutes, so the next simultaneous ring is 10:00 + 1:12, and the answer is 11:12 a.m.
+Source: NCERT Class 6 Mathematics
+
+81. The ratio of two numbers is 3 : 4 and their HCF is 4. Find their LCM.
+(a) 12 (b) 48 (c) 36 (d) 24
+Answer: (b)
+Solution: The tempting wrong answer 12 is just the HCF times the smaller ratio term. The numbers are 3 × 4 = 12 and 4 × 4 = 16, and LCM of 12 and 16 = 48, so the answer is 48.
+Source: PYQ-style
+
+82. Find the smallest number which when increased by 5 is exactly divisible by 12, 18 and 24.
+(a) 355 (b) 360 (c) 365 (d) 350
+Answer: (a)
+Solution: The trap 360 is a multiple of the LCM itself, not reduced by 5. LCM of 12, 18, 24 = 72, so the number is of the form 72k − 5; the smallest value matching the options is 360 − 5, so the answer is 355.
+Source: PYQ-style
+
+83. The LCM of two numbers is 20 times their HCF. The sum of HCF and LCM is 2520. If one number is 480, find the other.
+(a) 660 (b) 620 (c) 600 (d) 640
+Answer: (c)
+Solution: The trap is taking HCF = 2520 ÷ 20 = 126, ignoring that the sum contains both terms. Let HCF = h, then LCM = 20h, so 21h = 2520, giving h = 120 and LCM = 2400; other number = (120 × 2400) ÷ 480, so the answer is 600.
+Source: PYQ-style
+
+84. Find the greatest number of four digits which is divisible by 15, 25, 40 and 75.
+(a) 9800 (b) 9000 (c) 9600 (d) 9900
+Answer: (c)
+Solution: The tempting wrong answer 9900 is not divisible by 40. LCM of 15, 25, 40, 75 = 600, and the greatest four-digit multiple of 600 is 16 × 600, so the answer is 9600.
+Source: PYQ-style
+
+85. The HCF of two numbers is 11 and their LCM is 7700. If one number is 275, the other number is:
+(a) 279 (b) 283 (c) 308 (d) 318
+Answer: (c)
+Solution: The trap is dividing 7700 by 275, which omits the HCF factor. Other number = (11 × 7700) ÷ 275 = 84700 ÷ 275, so the answer is 308.
+Source: NCERT Class 10 Mathematics
+
+86. Find the least number which when divided by 5, 6, 7 and 8 leaves remainder 3 in each case, but is divisible by 9.
+(a) 2007 (b) 2523 (c) 1683 (d) 3363
+Answer: (c)
+Solution: LCM of 5, 6, 7, 8 = 840, so the number is 840k + 3. Since 840 ≡ 3 (mod 9), we need 3k + 3 ≡ 0 (mod 9), and the smallest valid k is 2, giving 1683 = 9 × 187. The trap 2007 comes from a miscomputed multiple of 840, so the answer is 1683.
+Source: PYQ-style
+
+87. The product of two numbers is 2028 and their HCF is 13. How many such pairs of numbers exist?
+(a) 1 (b) 3 (c) 2 (d) 4
+Answer: (c)
+Solution: The trap is counting all factor pairs of 12, which gives 3. Let the numbers be 13a and 13b with a, b coprime; then 169ab = 2028, so ab = 12, and the coprime pairs are (1, 12) and (3, 4) only, so the answer is 2.
+Source: PYQ-style
+
+88. Find the HCF of 2³ × 3² × 5 × 7⁴, 2² × 3⁵ × 5² × 7³ and 2³ × 5³ × 7².
+(a) 2² × 5 × 7² (b) 2³ × 3² × 5 × 7⁴ (c) 2² × 3² × 5 × 7³ (d) 2 × 3 × 5 × 7
+Answer: (a)
+Solution: The trap is including 3², but 3 does not appear in the third number, so it cannot be in the HCF. Taking the minimum power of each common prime gives 2² × 5 × 7², so the answer is 2² × 5 × 7².
+Source: NCERT Class 10 Mathematics
+
+89. Six bells toll at intervals of 2, 4, 6, 8, 10 and 12 seconds. In 30 minutes, how many times do they toll together (including the start)?
+(a) 4 (b) 16 (c) 10 (d) 15
+Answer: (b)
+Solution: The trap 15 excludes the initial toll at the start. LCM of 2, 4, 6, 8, 10, 12 = 120 seconds = 2 minutes, so they toll together at 0, 2, 4, …, 30 minutes, which is 16 times, so the answer is 16.
+Source: PYQ-style
+
+90. The sum of two numbers is 216 and their HCF is 27. How many pairs of such numbers are possible?
+(a) 2 (b) 4 (c) 3 (d) 1
+Answer: (a)
+Solution: The trap is counting all pairs summing to 8 without the coprime condition. Let the numbers be 27a and 27b with a, b coprime; then a + b = 8, and the coprime pairs are (1, 7) and (3, 5) only, so the answer is 2.
+Source: PYQ-style
+
+91. Find the least perfect square number which is divisible by 16, 20 and 24.
+(a) 1600 (b) 6400 (c) 14400 (d) 3600
+Answer: (d)
+Solution: The trap 1600 is a perfect square but is not divisible by 24. LCM of 16, 20, 24 = 240 = 2⁴ × 3 × 5; multiplying by 3 × 5 makes every power even, giving 3600 = 60², so the answer is 3600.
+Source: PYQ-style
+
+92. The LCM of 2⁴ × 3² × 5³ × 7 and 2³ × 3³ × 5² × 7² is:
+(a) 2³ × 3³ × 5³ × 7² (b) 2³ × 3² × 5² × 7 (c) 2⁴ × 3² × 5³ × 7² (d) 2⁴ × 3³ × 5³ × 7²
+Answer: (d)
+Solution: The trap is taking minimum powers, which gives the HCF instead of the LCM. Taking the maximum power of each prime gives 2⁴ × 3³ × 5³ × 7², so the answer is 2⁴ × 3³ × 5³ × 7².
+Source: NCERT Class 10 Mathematics
+
+93. A merchant has 120 kg of wheat and 180 kg of rice. He wants to pack them in bags of equal maximum weight with no grain left over. How many bags are needed?
+(a) 60 (b) 5 (c) 10 (d) 6
+Answer: (b)
+Solution: The trap 60 is the weight of each bag, not the number of bags. Maximum bag weight = HCF of 120 and 180 = 60 kg, so bags needed = 120/60 + 180/60 = 2 + 3, and the answer is 5.
+Source: NCERT Class 6 Mathematics
+
+94. Find the greatest number which on dividing 1657 and 2037 leaves remainders 6 and 5 respectively.
+(a) 123 (b) 305 (c) 235 (d) 127
+Answer: (d)
+Solution: The trap 123 comes from faulty subtraction or division. The number divides 1657 − 6 = 1651 and 2037 − 5 = 2032 exactly; since 1651 = 13 × 127 and 2032 = 16 × 127, the HCF is 127, so the answer is 127.
+Source: PYQ-style
+
+95. The HCF of two numbers is 23 and the sum of the two numbers is 276. If the LCM of the numbers is 805, find the smaller number.
+(a) 92 (b) 161 (c) 184 (d) 115
+Answer: (d)
+Solution: The trap 161 is the larger of the two numbers. Product = HCF × LCM = 23 × 805 = 18515, so the numbers satisfy x² − 276x + 18515 = 0; the discriminant is 276² − 4 × 18515 = 2116 = 46², giving x = (276 ± 46)/2 = 161 or 115, so the answer is 115.
+Source: PYQ-style
+
+96. Find the least number of square tiles required to pave a floor 15 m 17 cm long and 9 m 2 cm wide.
+(a) 844 (b) 814 (c) 840 (d) 820
+Answer: (b)
+Solution: The trap is using LCM instead of HCF for the tile side. Dimensions are 1517 cm and 902 cm; tile side = HCF = 41 cm (1517 = 37 × 41, 902 = 22 × 41), so tiles needed = 37 × 22, and the answer is 814.
+Source: NCERT Class 6 Mathematics
+
+97. The product of the HCF and LCM of 18 and 15 is:
+(a) 90 (b) 180 (c) 360 (d) 270
+Answer: (d)
+Solution: The trap 90 is just the LCM of 18 and 15. HCF × LCM equals the product of the two numbers = 18 × 15, so the answer is 270.
+Source: NCERT Class 10 Mathematics
+
+98. Find the smallest number which leaves remainders 2, 3, 4, 5 and 6 when divided by 3, 4, 5, 6 and 7 respectively.
+(a) 420 (b) 419 (c) 421 (d) 839
+Answer: (b)
+Solution: The trap 420 is the LCM itself, which leaves remainder 0. In each case divisor − remainder = 1, so the number is 1 less than a common multiple; LCM of 3, 4, 5, 6, 7 = 420, so the answer is 419.
+Source: PYQ-style
+
+99. Three runners start together and run around a circular track in 60, 90 and 120 seconds per lap. After how many minutes will all three be together at the starting point for the first time?
+(a) 6 (b) 12 (c) 8 (d) 4
+Answer: (a)
+Solution: The trap 4 minutes (240 s) is a common multiple of 60 and 120 but not of 90. LCM of 60, 90, 120 = 360 seconds = 6 minutes, so the answer is 6.
+Source: NCERT Class 6 Mathematics
+
+100. If the HCF of 65 and 117 is expressible in the form 65m − 117, then the value of m is:
+(a) 1 (b) 3 (c) 2 (d) 4
+Answer: (c)
+Solution: The trap m = 1 gives 65 − 117 = −52, which is not the HCF. HCF of 65 and 117 = 13, so 65m − 117 = 13 gives 65m = 130, and the answer is 2.
+Source: NCERT Class 10 Mathematics

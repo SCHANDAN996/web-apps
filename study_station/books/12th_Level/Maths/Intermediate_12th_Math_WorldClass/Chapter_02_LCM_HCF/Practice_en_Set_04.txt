@@ -1,3 +1,151 @@
-# Chapter: LCM & HCF, Level: intermediate, Set: 4/6
+Questions 76–95: Easy | Questions 96–100: Moderate
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for LCM & HCF. This is Set 4 (total 6 sets, 150 questions). Questions must be numbered 76 to 100. All 25 questions should be Medium. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+76. The HCF of two numbers is 11 and their LCM is 693. If one of the numbers is 77, find the other number.
+(a) 108 (b) 121 (c) 89 (d) 99
+Answer: (d)
+Solution: Many students divide 693 by 77 and get 9, then stop — but 9 is only the co-factor, not the other number. Use the rule: product of two numbers = HCF × LCM. Other number = (11 × 693) ÷ 77 = 7623 ÷ 77 = 99, so the answer is 99.
+Source: NCERT Class 10 Mathematics
+
+77. Find the least number which when divided by 12, 15, 20 and 54 leaves a remainder of 8 in each case.
+(a) 548 (b) 540 (c) 1088 (d) 532
+Answer: (a)
+Solution: The tempting wrong choice is 540, which is just the LCM and leaves remainder 0, not 8. LCM of 12, 15, 20, 54 = 540. Required number = 540 + 8 = 548, so the answer is 548.
+Source: NCERT Class 10 Mathematics
+
+78. The LCM of two numbers is 48 and the numbers are in the ratio 2 : 3. Find the sum of the numbers.
+(a) 40 (b) 64 (c) 28 (d) 32
+Answer: (a)
+Solution: A common trap is taking the numbers as 2 and 3 directly, whose LCM is 6, not 48. Let the numbers be 2x and 3x; their LCM = 6x = 48, so x = 8. Numbers are 16 and 24; sum = 40, so the answer is 40.
+Source: NCERT Class 10 Mathematics
+
+79. Find the greatest number that will divide 43, 91 and 183 so as to leave the same remainder in each case.
+(a) 4 (b) 9 (c) 7 (d) 13
+Answer: (a)
+Solution: Many students take the HCF of the numbers themselves, which is 1, and get stuck. The required number is the HCF of the differences: 91 − 43 = 48, 183 − 91 = 92, 183 − 43 = 140. HCF of 48, 92, 140 = 4, so the answer is 4.
+Source: NCERT Class 10 Mathematics
+
+80. The HCF of two numbers is 23 and the other two factors of their LCM are 13 and 14. The larger of the two numbers is:
+(a) 276 (b) 322 (c) 299 (d) 345
+Answer: (b)
+Solution: The trap is multiplying all three numbers 23 × 13 × 14 = 4186, which is the LCM, not the larger number. The numbers are 23 × 13 = 299 and 23 × 14 = 322, so the answer is 322.
+Source: PYQ-style
+
+81. Find the least number which when divided by 5, 6, 7 and 8 leaves a remainder 3, but when divided by 9 leaves no remainder.
+(a) 2007 (b) 843 (c) 1683 (d) 3363
+Answer: (c)
+Solution: The trap is 843 = 840 + 3, which satisfies the remainder condition but 843 ÷ 9 leaves remainder 6, not 0. LCM of 5, 6, 7, 8 = 840; numbers of the form 840k + 3: for k = 1, 843 (not divisible by 9); for k = 2, 1683 = 9 × 187, so the answer is 1683.
+Source: NCERT Class 10 Mathematics
+
+82. Three numbers are in the ratio 3 : 4 : 5 and their LCM is 2400. Their HCF is:
+(a) 200 (b) 40 (c) 120 (d) 80
+Answer: (b)
+Solution: A common error is taking LCM of 3, 4, 5 = 60 and dividing 2400 by 60 to get 40, then doubting the step — but that is exactly right. Numbers are 3x, 4x, 5x; LCM = 60x = 2400, so x = 40, and HCF = x = 40, so the answer is 40.
+Source: NCERT Class 10 Mathematics
+
+83. The product of two numbers is 4107. If the HCF of these numbers is 37, then the greater number is:
+(a) 107 (b) 111 (c) 101 (d) 185
+Answer: (b)
+Solution: The trap is dividing 4107 by 37 to get 111 and assuming that is only the LCM — here the LCM and the greater number turn out to be the same. LCM = 4107 ÷ 37 = 111. Let numbers be 37a and 37b with ab = 3, so a = 1, b = 3. Greater number = 37 × 3 = 111, so the answer is 111.
+Source: PYQ-style
+
+84. Find the greatest number of four digits which is divisible by 15, 25, 40 and 75.
+(a) 9800 (b) 9000 (c) 9400 (d) 9600
+Answer: (d)
+Solution: The tempting wrong choices like 9800 and 9400 are not multiples of the LCM at all. LCM of 15, 25, 40, 75 = 600. Greatest four-digit multiple of 600: 9999 ÷ 600 = 16.66, so 600 × 16 = 9600, so the answer is 9600.
+Source: NCERT Class 10 Mathematics
+
+85. The LCM of two numbers is 495 and their HCF is 5. If the sum of the numbers is 100, then their difference is:
+(a) 46 (b) 10 (c) 70 (d) 90
+Answer: (b)
+Solution: Many students try to guess the numbers randomly instead of using the product rule. Product = 495 × 5 = 2475. Numbers with sum 100 and product 2475: solving x(100 − x) = 2475 gives x² − 100x + 2475 = 0, so x = 55 or 45. Difference = 55 − 45 = 10, so the answer is 10.
+Source: PYQ-style
+
+86. Six bells commence tolling together and toll at intervals of 2, 4, 6, 8, 10 and 12 seconds respectively. In 30 minutes, how many times do they toll together?
+(a) 16 (b) 4 (c) 15 (d) 10
+Answer: (a)
+Solution: The trap is 15, obtained by dividing 1800 by 120 and forgetting the toll at the start (time 0). LCM of 2, 4, 6, 8, 10, 12 = 120 seconds. In 30 minutes = 1800 seconds, they toll together 1800 ÷ 120 = 15 times after the start, plus the initial toll = 16 times, so the answer is 16.
+Source: NCERT Class 10 Mathematics
+
+87. Find the least number which when divided by 16, 18, 20 and 25 leaves 4 as remainder in each case, but when divided by 7 leaves no remainder.
+(a) 14404 (b) 7204 (c) 18004 (d) 17004
+Answer: (c)
+Solution: The trap is 7204 = 7200 + 4, which satisfies the remainder condition but 7204 ÷ 7 leaves remainder 1. LCM of 16, 18, 20, 25 = 3600; we need 3600k + 4 divisible by 7. Since 3600 ≡ 2 (mod 7), we need 2k + 4 ≡ 0 (mod 7), giving k = 5. Then 3600 × 5 + 4 = 18004 = 7 × 2572, so the answer is 18004.
+Source: PYQ-style
+
+88. The HCF and LCM of two numbers are 21 and 84 respectively. If the ratio of the two numbers is 1 : 4, then the larger of the two numbers is:
+(a) 84 (b) 48 (c) 12 (d) 108
+Answer: (a)
+Solution: The trap is 48, from wrongly splitting 84 in ratio 1 : 4. Numbers are x and 4x; HCF = x = 21, so the numbers are 21 and 84. Check: LCM of 21 and 84 = 84, so the answer is 84.
+Source: NCERT Class 10 Mathematics
+
+89. The greatest number which on dividing 1657 and 2037 leaves remainders 6 and 5 respectively is:
+(a) 123 (b) 235 (c) 127 (d) 305
+Answer: (c)
+Solution: Many students take HCF of 1657 and 2037 directly, ignoring the remainders. Subtract remainders first: 1657 − 6 = 1651 and 2037 − 5 = 2032. HCF of 1651 and 2032: 2032 − 1651 = 381; 1651 = 4 × 381 + 127; 381 = 3 × 127. HCF = 127, so the answer is 127.
+Source: NCERT Class 10 Mathematics
+
+90. The ratio of two numbers is 3 : 4 and their HCF is 4. Their LCM is:
+(a) 12 (b) 48 (c) 24 (d) 16
+Answer: (b)
+Solution: The trap is 12, the LCM of 3 and 4, forgetting the HCF multiplier. Numbers are 3 × 4 = 12 and 4 × 4 = 16. LCM of 12 and 16 = 48, so the answer is 48.
+Source: NCERT Class 10 Mathematics
+
+91. Find the least multiple of 7 which leaves a remainder of 4 when divided by 6, 9, 15 and 18.
+(a) 371 (b) 350 (c) 184 (d) 364
+Answer: (d)
+Solution: The trap is 184 = 180 + 4, which satisfies the remainder condition but is not a multiple of 7. LCM of 6, 9, 15, 18 = 90; numbers of the form 90k + 4: k = 1 gives 94, k = 2 gives 184, k = 3 gives 274, k = 4 gives 364 = 7 × 52, so the answer is 364.
+Source: PYQ-style
+
+92. The sum of two numbers is 216 and their HCF is 27. How many pairs of such numbers are possible?
+(a) 3 (b) 4 (c) 2 (d) 1
+Answer: (c)
+Solution: The trap is counting all factor pairs of 8 without checking co-primality. Let numbers be 27a and 27b with a + b = 8 and HCF(a, b) = 1. Pairs: (1, 7) and (3, 5) are co-prime; (2, 6) and (4, 4) are not. So 2 pairs are possible, and the answer is 2.
+Source: PYQ-style
+
+93. The LCM of three different numbers is 120. Which of the following cannot be their HCF?
+(a) 24 (b) 8 (c) 35 (d) 12
+Answer: (c)
+Solution: The trap is picking 24, thinking it is too large — but 24 divides 120, so it can be an HCF. The HCF must always divide the LCM. 8, 12 and 24 all divide 120, but 35 does not divide 120, so the answer is 35.
+Source: NCERT Class 10 Mathematics
+
+94. A, B and C start at the same time in the same direction to run around a circular stadium. A completes a round in 252 seconds, B in 308 seconds and C in 198 seconds. After what time will they meet again at the starting point?
+(a) 46 minutes 12 seconds (b) 26 minutes 18 seconds (c) 45 minutes (d) 42 minutes 36 seconds
+Answer: (a)
+Solution: The trap is taking the HCF instead of the LCM of the three times. LCM of 252, 308, 198: 252 = 2² × 3² × 7, 308 = 2² × 7 × 11, 198 = 2 × 3² × 11. LCM = 2² × 3² × 7 × 11 = 2772 seconds = 46 minutes 12 seconds, so the answer is 46 minutes 12 seconds.
+Source: NCERT Class 10 Mathematics
+
+95. The product of the LCM and HCF of two numbers is 24. The difference of the two numbers is 2. Find the numbers.
+(a) 2 and 4 (b) 8 and 10 (c) 8 and 6 (d) 6 and 4
+Answer: (d)
+Solution: The trap is 2 and 4, whose difference is 2 but whose LCM × HCF = 4 × 2 = 8, not 24. Product of numbers = LCM × HCF = 24. Numbers differing by 2 with product 24: 6 × 4 = 24 and 6 − 4 = 2, so the answer is 6 and 4.
+Source: NCERT Class 10 Mathematics
+
+96. Find the greatest number which will divide 25, 73 and 97 so as to leave the same remainder in each case.
+(a) 12 (b) 36 (c) 18 (d) 24
+Answer: (d)
+Solution: Many students compute the HCF of the numbers themselves, which is 1, and get confused. Take differences: 73 − 25 = 48, 97 − 73 = 24, 97 − 25 = 72. HCF of 48, 24, 72 = 24, so the answer is 24.
+Source: NCERT Class 10 Mathematics
+
+97. The HCF of two numbers is 8. Which one of the following can never be their LCM?
+(a) 60 (b) 56 (c) 24 (d) 48
+Answer: (a)
+Solution: The trap is 56, which looks odd but 56 = 8 × 7, so it is divisible by 8 and can be an LCM. The LCM must always be divisible by the HCF. 24, 48 and 56 are all divisible by 8, but 60 ÷ 8 = 7.5, so 60 can never be the LCM, and the answer is 60.
+Source: PYQ-style
+
+98. The least number which should be added to 2497 so that the sum is exactly divisible by 5, 6, 4 and 3 is:
+(a) 33 (b) 13 (c) 23 (d) 3
+Answer: (c)
+Solution: The trap is 3, obtained by a wrong subtraction: 2497 ÷ 60 gives remainder 37, and some students miscompute 60 − 37. LCM of 5, 6, 4, 3 = 60. 2497 = 60 × 41 + 37. Number to add = 60 − 37 = 23, so the answer is 23.
+Source: NCERT Class 10 Mathematics
+
+99. The LCM of two numbers is 1820 and their HCF is 26. If one number is 130, then the other number is:
+(a) 70 (b) 364 (c) 1264 (d) 1690
+Answer: (b)
+Solution: The trap is dividing 1820 by 130 to get 14 and reporting 14 as the other number — 14 is only the co-factor. Other number = (LCM × HCF) ÷ 130 = (1820 × 26) ÷ 130 = 14 × 26 = 364, so the answer is 364.
+Source: NCERT Class 10 Mathematics
+
+100. The traffic lights at three different road crossings change after every 48 seconds, 72 seconds and 108 seconds respectively. If they all change simultaneously at 8:20:00 hours, then they will again change simultaneously at:
+(a) 8:30:00 (b) 8:21:36 (c) 8:24:12 (d) 8:27:12
+Answer: (d)
+Solution: The trap is taking the HCF (12 seconds) instead of the LCM, which would give 8:20:12. LCM of 48, 72, 108: 48 = 2⁴ × 3, 72 = 2³ × 3², 108 = 2² × 3³. LCM = 2⁴ × 3³ = 432 seconds = 7 minutes 12 seconds. Next simultaneous change = 8:20:00 + 7:12 = 8:27:12, so the answer is 8:27:12.
+Source: NCERT Class 10 Mathematics

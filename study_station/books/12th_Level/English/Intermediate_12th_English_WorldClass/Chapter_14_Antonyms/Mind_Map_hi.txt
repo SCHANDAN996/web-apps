@@ -1,0 +1,32 @@
+```mermaid
+graph TD
+    A["विलोम शब्द<br>(Antonyms)"] --> B["अर्थ<br>उल्टा अर्थ वाले शब्द"]
+    A --> C["प्रकार"]
+    A --> D["उपसर्ग से विलोम बनाना"]
+    A --> E["परीक्षक के जाल"]
+    A --> F["रणनीति"]
+
+    C --> C1["Graded Antonyms<br>hot ↔ cold<br>(बीच के अर्थ संभव)"]
+    C --> C2["Complementary Antonyms<br>alive ↔ dead<br>(या तो यह या वह)"]
+    C --> C3["Relational Antonyms<br>buy ↔ sell<br>(एक दूसरे पर निर्भर)"]
+
+    D --> D1["un-<br>happy → unhappy"]
+    D --> D2["in-/im-/il-/ir-<br>possible → impossible<br>legal → illegal<br>regular → irregular"]
+    D --> D3["dis-<br>agree → disagree"]
+    D --> D4["non-<br>sense → nonsense"]
+    D --> D5["anti-<br>social → antisocial"]
+
+    D2 --> D6["नियम: im- (p, b, m से पहले)<br>il- (l से पहले)<br>ir- (r से पहले)"]
+
+    E --> E1["जाल 1: लगभग-सही विकल्प<br>synonym को antonym समझना"]
+    E --> E2["जाल 2: गलत उपसर्ग<br>unlegal ✗ → illegal ✓"]
+    E --> E3["जाल 3: नकारात्मक वाक्य<br>NOT / EXCEPT ध्यान से पढ़ें"]
+    E --> E4["जाल 4: संदर्भ भ्रम<br>शब्द का वाक्यानुसार अर्थ बदलता है"]
+
+    F --> F1["15 सेकंड नियम<br>सीधा शब्द-विलोम = तुरंत"]
+    F --> F2["45 सेकंड नियम<br>वाक्य-संदर्भ वाले प्रश्न"]
+    F --> F3["मूल शब्द (Root) से अनुमान<br>bene = अच्छा, mal = बुरा"]
+    F --> F4["विकल्प हटाओ विधि<br>समानार्थी पहले काटो"]
+
+    F3 --> G["महत्वपूर्ण Roots<br>bene/mal, chron, dict<br>port, spect, cred"]
+```

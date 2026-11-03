@@ -1,3 +1,151 @@
-# Chapter: Number System (Advanced), Level: intermediate, Set: 5/6
+Questions 101–120: Medium | Questions 121–125: Hard
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Number System (Advanced). This is Set 5 (total 6 sets, 150 questions). Questions must be numbered 101 to 125. Questions 101 to 120 should be Medium, Questions 121 to 125 should be Hard. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+101. What is the unit digit of 82^224?
+(a) 6 (b) 8 (c) 1 (d) 9
+Answer: (a)
+Solution: The unit digits of powers of 2 repeat in a cycle of 4: 2, 4, 8, 6. 224 leaves remainder 4 in this cycle, so the unit digit is 6. So the answer is 6.
+Source: PYQ-style
+
+102. How many zeros are there at the end of 30! (30 factorial)?
+(a) 7 (b) 8 (c) 9 (d) 6
+Answer: (a)
+Solution: Count the factors of 5: 30/5 + 30/25 + 30/125 + … (whole parts) = 7. There are always more 2s, so the number of trailing zeros is 7. So the answer is 7.
+Source: PYQ-style
+
+103. How many factors (divisors) does 25725 have?
+(a) 22 (b) 48 (c) 26 (d) 24
+Answer: (d)
+Solution: 25725 = 5^2 × 3 × 7^3. Number of factors = (2+1) × (1+1) × (3+1) = 24. So the answer is 24.
+Source: PYQ-style
+
+104. The HCF of two numbers is 6 and their LCM is 270. If one number is 54, what is the other number?
+(a) 36 (b) 30 (c) 45 (d) 5
+Answer: (b)
+Solution: HCF × LCM = product of the numbers, so the other number = 6 × 270 ÷ 54 = 30. So the answer is 30.
+Source: PYQ-style
+
+105. What is the remainder when 3^50 is divided by 11?
+(a) 4 (b) 5 (c) 1 (d) 10
+Answer: (c)
+Solution: Remainders of powers of 3 on division by 11 repeat: 3, 9, 5, 4, 1 (cycle of 5). 50 leaves remainder 5, so the remainder is 1. So the answer is 1.
+Source: PYQ-style
+
+106. What is the smallest digit that can replace * so that 7*213 is divisible by 11?
+(a) 0 (b) 3 (c) 2 (d) 1
+Answer: (a)
+Solution: A number is divisible by 11 when the difference between the sums of digits in odd and even places is 0 or a multiple of 11. Trying digits from 0 upwards, the smallest that works is 0. So the answer is 0.
+Source: PYQ-style
+
+107. What is the sum of the squares of the first 15 natural numbers?
+(a) 1465 (b) 14400 (c) 1225 (d) 1240
+Answer: (d)
+Solution: Sum = n(n + 1)(2n + 1)/6 = 15 × 16 × 31/6 = 1240. So the answer is 1240.
+Source: PYQ-style
+
+108. What is the unit digit of 44^225?
+(a) 9 (b) 4 (c) 5 (d) 1
+Answer: (b)
+Solution: The unit digits of powers of 4 repeat in a cycle of 2: 4, 6. 225 leaves remainder 1 in this cycle, so the unit digit is 4. So the answer is 4.
+Source: PYQ-style
+
+109. How many zeros are there at the end of 66! (66 factorial)?
+(a) 13 (b) 15 (c) 14 (d) 6
+Answer: (b)
+Solution: Count the factors of 5: 66/5 + 66/25 + 66/125 + … (whole parts) = 15. There are always more 2s, so the number of trailing zeros is 15. So the answer is 15.
+Source: PYQ-style
+
+110. How many factors (divisors) does 2904 have?
+(a) 23 (b) 26 (c) 24 (d) 48
+Answer: (c)
+Solution: 2904 = 11^2 × 2^3 × 3. Number of factors = (2+1) × (3+1) × (1+1) = 24. So the answer is 24.
+Source: PYQ-style
+
+111. What is the remainder when 3^67 is divided by 11?
+(a) 1 (b) 0 (c) 10 (d) 9
+Answer: (d)
+Solution: Remainders of powers of 3 on division by 11 repeat: 3, 9, 5, 4, 1 (cycle of 5). 67 leaves remainder 2, so the remainder is 9. So the answer is 9.
+Source: PYQ-style
+
+112. What is the smallest digit that can replace * so that 9*473 is divisible by 9?
+(a) 9 (b) 8 (c) 7 (d) 4
+Answer: (d)
+Solution: A number is divisible by 9 when the sum of its digits is divisible by 9. Trying digits from 0 upwards, the smallest that works is 4. So the answer is 4.
+Source: PYQ-style
+
+113. What is the sum of the first 100 odd natural numbers?
+(a) 10000 (b) 9900 (c) 5050 (d) 10100
+Answer: (a)
+Solution: The sum of the first n odd numbers is n² = 100² = 10000. So the answer is 10000.
+Source: PYQ-style
+
+114. What is the unit digit of 45^86?
+(a) 0 (b) 8 (c) 2 (d) 5
+Answer: (d)
+Solution: The unit digits of powers of 5 repeat in a cycle of 1: 5. 86 leaves remainder 1 in this cycle, so the unit digit is 5. So the answer is 5.
+Source: PYQ-style
+
+115. How many zeros are there at the end of 47! (47 factorial)?
+(a) 11 (b) 12 (c) 10 (d) 4
+Answer: (c)
+Solution: Count the factors of 5: 47/5 + 47/25 + 47/125 + … (whole parts) = 10. There are always more 2s, so the number of trailing zeros is 10. So the answer is 10.
+Source: PYQ-style
+
+116. How many factors (divisors) does 18634 have?
+(a) 32 (b) 6 (c) 16 (d) 15
+Answer: (c)
+Solution: 18634 = 2 × 7 × 11^3. Number of factors = (1+1) × (1+1) × (3+1) = 16. So the answer is 16.
+Source: PYQ-style
+
+117. What is the LCM of 77 and 44?
+(a) 308 (b) 3388 (c) 11 (d) 616
+Answer: (a)
+Solution: HCF of 77 and 44 is 11; LCM = 77 × 44 ÷ 11 = 308. So the answer is 308.
+Source: PYQ-style
+
+118. What is the remainder when 3^45 is divided by 7?
+(a) 3 (b) 6 (c) 1 (d) 0
+Answer: (b)
+Solution: Remainders of powers of 3 on division by 7 repeat: 3, 2, 6, 4, 5, 1 (cycle of 6). 45 leaves remainder 3, so the remainder is 6. So the answer is 6.
+Source: PYQ-style
+
+119. What is the smallest digit that can replace * so that 656*2 is divisible by 9?
+(a) 3 (b) 2 (c) 9 (d) 8
+Answer: (d)
+Solution: A number is divisible by 9 when the sum of its digits is divisible by 9. Trying digits from 0 upwards, the smallest that works is 8. So the answer is 8.
+Source: PYQ-style
+
+120. What is the unit digit of 34^217?
+(a) 7 (b) 4 (c) 5 (d) 6
+Answer: (b)
+Solution: The unit digits of powers of 4 repeat in a cycle of 2: 4, 6. 217 leaves remainder 1 in this cycle, so the unit digit is 4. So the answer is 4.
+Source: PYQ-style
+
+121. How many zeros are there at the end of 118! (118 factorial)?
+(a) 27 (b) 29 (c) 11 (d) 28
+Answer: (a)
+Solution: Count the factors of 5: 118/5 + 118/25 + 118/125 + … (whole parts) = 27. There are always more 2s, so the number of trailing zeros is 27. So the answer is 27.
+Source: PYQ-style
+
+122. How many factors (divisors) does 1369599 have?
+(a) 34 (b) 32 (c) 64 (d) 30
+Answer: (b)
+Solution: 1369599 = 7^3 × 3 × 11^3. Number of factors = (3+1) × (1+1) × (3+1) = 32. So the answer is 32.
+Source: PYQ-style
+
+123. What is the LCM of 132 and 72?
+(a) 396 (b) 12 (c) 792 (d) 804
+Answer: (c)
+Solution: HCF of 132 and 72 is 12; LCM = 132 × 72 ÷ 12 = 792. So the answer is 792.
+Source: PYQ-style
+
+124. What is the remainder when 6^111 is divided by 9?
+(a) 2 (b) 3 (c) 0 (d) 1
+Answer: (c)
+Solution: Remainders of powers of 6 on division by 9 repeat: 6, 0 (cycle of 2). 111 leaves remainder 1, so the remainder is 0. So the answer is 0.
+Source: PYQ-style
+
+125. What is the smallest digit that can replace * so that 647*5 is divisible by 11?
+(a) 3 (b) 4 (c) 6 (d) 5
+Answer: (a)
+Solution: A number is divisible by 11 when the difference between the sums of digits in odd and even places is 0 or a multiple of 11. Trying digits from 0 upwards, the smallest that works is 3. So the answer is 3.
+Source: PYQ-style

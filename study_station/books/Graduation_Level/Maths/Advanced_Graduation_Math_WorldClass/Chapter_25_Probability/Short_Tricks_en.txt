@@ -1,0 +1,142 @@
+# 🪄 Short Tricks — Probability (Mnemonic Boxes)
+
+---
+
+**🧩 Trick 1 — The 0-to-1 Fence**
+
+> **"Probability lives between ZERO and ONE — never outside the fence!"**
+
+P(E) can never be negative or more than 1. If your answer is 1.4 or −0.2, you have jumped the fence — recalculate instantly. This one check catches 50% of silly mistakes.
+
+---
+
+**🧩 Trick 2 — AND × OR + (The Marriage Rule)**
+
+> **"AND means MULTIPLY (couples stick together), OR means ADD (singles join the party)."**
+
+- P(A **and** B) → multiply (for independent events)
+- P(A **or** B) → add (for mutually exclusive events)
+
+Memory hook: *Marriage multiplies responsibilities; being single you just add friends.*
+
+---
+
+**🧩 Trick 3 — "At Least One" = 1 − None**
+
+> **"AT LEAST ONE? Subtract from ONE!"**
+
+Whenever you see "at least one", never compute cases 1, 2, 3… separately. Do:
+**P(at least one) = 1 − P(none)**
+
+Example: Probability of at least one six in 3 dice throws = 1 − (5/6)³.
+
+---
+
+**🧩 Trick 4 — Complement Couple**
+
+> **"E and E′ are a couple — together they make ONE whole."**
+
+P(E) + P(E′) = 1. If finding P(E) is hard, find its partner P(E′) and subtract from 1. The lazy-smart route!
+
+---
+
+**🧩 Trick 5 — MECE Check (Mutually Exclusive & Collectively Exhaustive)**
+
+> **"No overlap, no gap — that's the MECE map!"**
+
+Before adding probabilities, ask: Do events overlap? (If yes, subtract the intersection.) Do they cover everything? (If yes, total must be 1.) MECE = your sanity checklist.
+
+---
+
+**🧩 Trick 6 — The Birthday Paradox Shocker**
+
+> **"Just 23 people — and shared-birthday chance crosses 50%!"**
+
+P(no shared birthday among n people) = 365/365 × 364/365 × 363/365 × …
+Answer = 1 − that product. Exams love this because intuition screams "wrong!" — trust the math, not the gut.
+
+---
+
+**🧩 Trick 7 — Conditional = Shrink the World**
+
+> **"GIVEN that? Shrink your universe!"**
+
+P(A|B) = P(A∩B) / P(B). The moment you read "given that B happened", your sample space shrinks to B only. New world, new denominator. Forget the old total!
+
+---
+
+**🧩 Trick 8 — Independent = Unbothered Friends**
+
+> **"Independent events don't gossip — one doesn't care what the other did."**
+
+Test: P(A|B) = P(A)? If yes → independent → P(A∩B) = P(A)·P(B).
+⚠️ Trap: **Mutually exclusive ≠ Independent!** Exclusive events are actually *very dependent* (if one happens, the other definitely can't).
+
+---
+
+**🧩 Trick 9 — Bayes = Reverse the Question**
+
+> **"Bayes flips the GIVEN — cause from effect, that's the deal!"**
+
+Given P(effect|cause), Bayes finds P(cause|effect):
+**P(A|B) = P(B|A)·P(A) / P(B)**
+Memory hook: *"The detective works backwards — from the clue to the culprit."* Classic exam setup: disease test, defective item from a factory, ball from a bag.
+
+---
+
+**🧩 Trick 10 — Cards Cheat Sheet (52-Deck DNA)**
+
+> **"52 = 4 suits × 13 ranks. Half red, half black. 12 face cards, 4 aces, 4 kings."**
+
+- Suits: ♠ ♥ ♦ ♣ (13 each)
+- Face cards (J, Q, K): 12 total
+- P(king) = 4/52 = 1/13; P(red face card) = 6/52
+
+Memorize this DNA once — every card question becomes 10-second work.
+
+---
+
+**🧩 Trick 11 — Dice Doubles Table**
+
+> **"Two dice, 36 outcomes — sum 7 is the KING (6 ways)!"**
+
+Sum frequencies: 2→1, 3→2, 4→3, 5→4, 6→5, **7→6**, 8→5, 9→4, 10→3, 11→2, 12→1.
+Shape: a pyramid peaking at 7. Draw the pyramid once in the exam — every sum question is solved by counting blocks.
+
+---
+
+**🧩 Trick 12 — Coin Power Rule**
+
+> **"n coins → 2ⁿ outcomes. n dice → 6ⁿ outcomes."**
+
+3 coins = 8 outcomes; 2 dice = 36; 3 dice = 216. Fix the denominator FIRST, then count favourable cases. Most errors are denominator errors!
+
+---
+
+**🧩 Trick 13 — "Without Replacement" = Shrinking Denominator**
+
+> **"No putting back? The bag keeps getting lighter!"**
+
+Two balls drawn without replacement from 5 red + 3 blue:
+P(both red) = (5/8) × (4/7) — numerator AND denominator both drop by 1.
+With replacement: (5/8) × (5/8) — nothing changes. Read that one word twice!
+
+---
+
+**🧩 Trick 14 — Total Probability = Weighted Average of Roads**
+
+> **"Many roads lead to B — weigh each road by its traffic!"**
+
+P(B) = Σ P(B|Aᵢ)·P(Aᵢ). Picture factories A₁, A₂, A₃ supplying a market: total defect rate = weighted sum of each factory's defect rate. This is the denominator of Bayes — master this and Bayes is free.
+
+---
+
+**🧩 Trick 15 — The Examiner's Three Traps (E–E–E)**
+
+> **"Exclusive vs Exhaustive vs indEpendent — three E's, three traps!"**
+
+- **Exclusive**: can't happen together (P(A∩B) = 0)
+- **Exhaustive**: together cover everything (P(A∪B) = 1)
+- **Independent**: don't affect each other (P(A∩B) = P(A)P(B))
+
+Examiner swaps these words to trap you. Read the adjective before touching the formula!

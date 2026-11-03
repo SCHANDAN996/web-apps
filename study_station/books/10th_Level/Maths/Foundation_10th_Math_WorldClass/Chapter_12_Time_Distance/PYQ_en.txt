@@ -1,22 +1,22 @@
-📊 PYQ Analysis — Time & Distance (Last 10 Years)
-🔍 Data-Driven Pattern Discovery
+📊 PYQ Analysis — Time & Distance
 
-A systematic scan of SSC CGL, Bank PO, and Railway PYQs from 2015–2025 reveals a clear blueprint. Here is what the data screams:
+🔍 Pattern Discovery
 
-Concept Cluster	Approx. Weightage	Trap Frequency
-Train-Platform-Pole Problems	35%	Very High (length addition/subtraction)
-Relative Speed (Opposite/Same Direction)	25%	High (time gap, "after how much time")
-Average Speed (Equal/Unequal Distances)	15%	Medium (blind arithmetic mean)
-Unit Conversion (km/h ↔ m/s)	Embedded in 90% questions	High (forgetting × 5/18)
-Mixed Distance (Foot + Bicycle/Car)	10%	Medium (allegation vs. equation)
-Ratio-Based Speed-Time	10%	Low-Medium (inverse proportionality)
-Stoppage-Based Speed	5%	Low
+A study of SSC CGL, Bank PO, and Railway exams shows that Time & Distance questions revolve around a small set of recurring themes:
 
-Examiners repeatedly test the same handful of cognitive traps. Recognizing the trap is half the victory. The ten questions below are not just "important" — they are the distilled essence of what the data says you must master.
+- **Train–Platform–Pole problems** — the most frequently tested cluster; the trap is always length addition/subtraction.
+- **Relative speed (opposite/same direction)** — often combined with a time gap or "after how much time" phrasing.
+- **Average speed (equal/unequal distances)** — the trap is blindly taking the arithmetic mean.
+- **Unit conversion (km/h ↔ m/s)** — embedded in almost every question; forgetting × 5/18 is the classic error.
+- **Mixed distance (foot + bicycle/car)** — solvable by allegation or equation.
+- **Ratio-based speed–time** — tests inverse proportionality.
+- **Stoppage-based speed** — less frequent but conceptually tricky.
 
-🏆 Top 10 High-Yield PYQs (Solutions & Psychological Hooks)
+Examiners repeatedly test the same handful of cognitive traps. Recognizing the trap is half the victory. The ten questions below are the distilled essence of what you must master.
 
-Q1. SSC CGL 2020 (Shift 2) — The Deceptive Stoppage
+🏆 Top 10 High-Yield PYQ-Style Questions (Solutions & Psychological Hooks)
+
+Q1. PYQ-style — The Deceptive Stoppage
 *Two cyclists, X and Y, start together from A to B at 6 km/h and 8 km/h. Y stops for 15 minutes en route but still arrives 10 minutes before X. Find the distance AB.*
 Options: a) 6 km b) 16.5 km c) 10 km d) 8 km
 
@@ -32,10 +32,9 @@ X's actual time = 4t = 100 min = 100/60 hours.
 
 Distance = Speed × Time = 6 × (100/60) = 10 km. Answer: (c).
 
-🪤 Psychological Trap: Students mechanically set up a D/8 − D/6 equation with the time difference of 25 min, forgetting that Y's stoppage adds to its travel time. The trap is thinking "Y is faster, so Y's time must be subtracted from X's time." The exam tests whether you can handle two simultaneous modifications to a body's timeline. Use speed-ratio and time-ratio to bypass messy algebra — the ratio method is safer. -
-1
+🪤 Psychological Trap: Students mechanically set up a D/8 − D/6 equation with the time difference of 25 min, forgetting that Y's stoppage adds to its travel time. The trap is thinking "Y is faster, so Y's time must be subtracted from X's time." The exam tests whether you can handle two simultaneous modifications to a body's timeline. Use speed-ratio and time-ratio to bypass messy algebra — the ratio method is safer.
 
-Q2. SSC CGL 2020 (Shift 1) — The Head-Start Mirage
+Q2. PYQ-style — The Head-Start Mirage
 *Two cars A and B leave Delhi at 8:30 a.m. and 9:00 a.m. for Shimla at 40 km/h and 50 km/h respectively. How far from Delhi will they be together?*
 Options: a) 200 km b) 45 km c) 5 km d) 100 km
 
@@ -49,10 +48,9 @@ B must close a 20 km gap at 10 km/h → time to catch = 20/10 = 2 hours.
 
 In 2 hours, B travels 50 × 2 = 100 km from Delhi. Answer: (d).
 
-🪤 Psychological Trap: The trap is rushing to a "total relative speed" equation from the very start (9:00 a.m.) without adjusting for the head-start. Many students set up D/40 − D/50 = 1, which is conceptually flawed because they equate a time difference with a distance-equation time. The exam wants you to feel the physical gap before invoking relative speed. Always ask: "What is the separation when the chase begins?"-
-2
+🪤 Psychological Trap: The trap is rushing to a "total relative speed" equation from the very start (9:00 a.m.) without adjusting for the head-start. Many students set up D/40 − D/50 = 1, which is conceptually flawed because they equate a time difference with a distance-equation time. The exam wants you to feel the physical gap before invoking relative speed. Always ask: "What is the separation when the chase begins?"
 
-Q3. SSC CGL Tier 2 2018 — Speed Differential with Time Gap
+Q3. PYQ-style — Speed Differential with Time Gap
 *Two cars A and B travel the same distance at 60 km/h and 108 km/h. Car B takes 2 hours less than A. Find the distance.*
 Options: a) 240 km b) 270 km c) 300 km d) 330 km
 
@@ -66,10 +64,9 @@ D/60 − D/108 = 2 → D(1/60 − 1/108) = 2 → D(48/6480) = 2.
 
 D = 2 × (6480/48) = 2 × 135 = 270 km. Answer: (b).
 
-🪤 Psychological Trap: The numbers 60 and 108 are chosen to make LCM-based fraction solving messy under time pressure. Many aspirants fumble at the fraction subtraction. The deeper trap is not realizing that the time difference formula D/S₁ − D/S₂ = ΔT is the direct algebraic path — no need for ratio hunting or speed tables. Memorize the skeleton: D = (ΔT × S₁ × S₂) / (S₂ − S₁).-
-3
+🪤 Psychological Trap: The numbers 60 and 108 are chosen to make LCM-based fraction solving messy under time pressure. Many aspirants fumble at the fraction subtraction. The deeper trap is not realizing that the time difference formula D/S₁ − D/S₂ = ΔT is the direct algebraic path — no need for ratio hunting or speed tables. Memorize the skeleton: D = (ΔT × S₁ × S₂) / (S₂ − S₁).
 
-Q4. SSC CGL 2020 (Shift 2) — Two-Speed Mixed Journey (Allegation Method)
+Q4. PYQ-style — Two-Speed Mixed Journey (Allegation Method)
 *Amit travels 50 km in 9 hours, partly on foot at 5 km/h and partly on bicycle at 10 km/h. Find the bicycle distance.*
 Options: a) 11 km b) 13 km c) 10 km d) 12 km
 
@@ -85,10 +82,9 @@ Total time = 9 units. 1 unit = 1 hour. Bicycle time = 1 hour.
 
 Bicycle distance = 10 × 1 = 10 km. Answer: (c).
 
-🪤 Psychological Trap: The trap is defaulting to the "let x km on foot, (50−x) km on bicycle" equation, which yields x/5 + (50−x)/10 = 9, solved correctly as x = 40 km on foot → 10 km bicycle. But the allegation method is 3× faster. The psychological root is that students view allegation as a "profit-loss" tool and cannot mentally migrate it to time-speed problems. Cross-apply tools — allegation works wherever a weighted average exists.-
-6
+🪤 Psychological Trap: The trap is defaulting to the "let x km on foot, (50−x) km on bicycle" equation, which yields x/5 + (50−x)/10 = 9, solved correctly as x = 40 km on foot → 10 km bicycle. But the allegation method is 3× faster. The psychological root is that students view allegation as a "profit-loss" tool and cannot mentally migrate it to time-speed problems. Cross-apply tools — allegation works wherever a weighted average exists.
 
-Q5. Nainital Bank PO 2020 — Sequential Start, Opposite Direction
+Q5. PYQ-style — Sequential Start, Opposite Direction
 *Two cities 465 km apart. Car P starts from Bhilai at 10 a.m. at 65 km/h. Car Q starts from Manmad at 11 a.m. at 35 km/h towards each other. At what time do they meet?*
 Options: a) 3 p.m. b) 2 p.m. c) 4 p.m. d) 1 p.m.
 
@@ -102,11 +98,10 @@ Relative speed (opposite direction) = 65 + 35 = 100 km/h.
 
 Time to meet from 11 a.m. = 400/100 = 4 hours → 11 a.m. + 4 h = 3 p.m. Answer: (a).
 
-🪤 Psychological Trap: The sequence "one starts at 10, other at 11" creates a strong impulse to solve with a single equation: 65(t) + 35(t−1) = 465. While correct, it demands meticulous bracket handling. The "distance-left-after-first-leg" method is conceptually cleaner and reduces arithmetic errors. Examiners count on your equation-building anxiety. Break the journey into two frames: the solo phase and the joint phase.-
-15
+🪤 Psychological Trap: The sequence "one starts at 10, other at 11" creates a strong impulse to solve with a single equation: 65(t) + 35(t−1) = 465. While correct, it demands meticulous bracket handling. The "distance-left-after-first-leg" method is conceptually cleaner and reduces arithmetic errors. Examiners count on your equation-building anxiety. Break the journey into two frames: the solo phase and the joint phase.
 
-Q6. SSC CGL — Train Crosses Pole & Platform (Classic Duel)
-A 360 m long train crosses a man in 24 seconds and a platform in 55 seconds. Find the platform length.
+Q6. PYQ-style — Train Crosses Pole & Platform (Classic Duel)
+*A 360 m long train crosses a man in 24 seconds and a platform in 55 seconds. Find the platform length.*
 Options: a) 465 m b) 445 m c) 480 m d) 410 m
 
 Step-by-Step Solution:
@@ -117,10 +112,9 @@ Platform crossing: Total distance = Train + Platform = 15 × 55 = 825 m.
 
 Platform = 825 − 360 = 465 m. Answer: (a).
 
-🪤 Psychological Trap: This is the quintessential SSC "hook" — giving both pole time and platform time. Students often subtract times first (55−24=31 s) and multiply by speed to directly get platform length. That works and is faster. The trap is that some reverse the logic, subtracting distances or confusing which crossing uses which distance. The mental model: pole/man crossing = only train's own length; platform/tunnel crossing = train's length + object's length.-
-65
+🪤 Psychological Trap: This is the quintessential SSC "hook" — giving both pole time and platform time. Students often subtract times first (55−24=31 s) and multiply by speed to directly get platform length. That works and is faster. The trap is that some reverse the logic, subtracting distances or confusing which crossing uses which distance. The mental model: pole/man crossing = only train's own length; platform/tunnel crossing = train's length + object's length.
 
-Q7. SSC CGL — Two Platforms, One Train (Ratio Trap)
+Q7. PYQ-style — Two Platforms, One Train (Ratio Trap)
 *A train crosses platforms A and B (length ratio 2:3) in 27 s and 31.5 s. A person running at 20 km/h crosses platform A in 36 s. Find the train's length.*
 Options: a) Cannot be determined b) 400 m c) 350 m d) 500 m
 
@@ -138,10 +132,9 @@ Subtract (1) from (2): 100 = v × 4.5 → v = 200/9 m/s.
 
 From (1): L + 200 = (200/9) × 27 = 600 → L = 400 m. Answer: (b).
 
-🪤 Psychological Trap: This is a multi-layered snare. First, the person's running speed is given in km/h while platform crossing is in seconds — the unit-conversion landmine (×5/18). Second, the ratio 2:3 tempts students to work with variables "2a" and "3a" without first solving for "a" using the runner's data. The exam wants you to solve sequentially: first find the physical length of A, then B, then the train. Do not try to keep everything symbolic at once — anchor on the one numerical fact (the runner) and build outward.-
-60
+🪤 Psychological Trap: This is a multi-layered snare. First, the person's running speed is given in km/h while platform crossing is in seconds — the unit-conversion landmine (×5/18). Second, the ratio 2:3 tempts students to work with variables "2a" and "3a" without first solving for "a" using the runner's data. The exam wants you to solve sequentially: first find the physical length of A, then B, then the train. Do not try to keep everything symbolic at once — anchor on the one numerical fact (the runner) and build outward.
 
-Q8. SSC CGL 2023 (Shift 3) — Moving Train, Standing Train
+Q8. PYQ-style — Moving Train, Standing Train
 *Rajdhani Express (length 108 m, speed 128 km/h) crosses a standing train of length 148 m at a station. Find the crossing time.*
 Options: a) 8 s b) 7.5 s c) 9 s d) 7.2 s
 
@@ -153,10 +146,9 @@ Speed in m/s = 128 × (5/18) = 320/9 m/s.
 
 Time = Distance / Speed = 256 / (320/9) = (256 × 9) / 320 = 7.2 seconds. Answer: (d).
 
-🪤 Psychological Trap: The standing train is the psychological twist. When a train is stationary, the scenario reduces to a train crossing a pole of that train's length. But many students reflexively apply two-train opposite-direction relative speed, wasting time searching for the second speed. The trap is thinking "two trains" always means "relative speed formula." If one is standing, the relative speed is just the moving train's speed — the distance is the sum of their lengths. -
-25
+🪤 Psychological Trap: The standing train is the psychological twist. When a train is stationary, the scenario reduces to a train crossing a pole of that train's length. But many students reflexively apply two-train opposite-direction relative speed, wasting time searching for the second speed. The trap is thinking "two trains" always means "relative speed formula." If one is standing, the relative speed is just the moving train's speed — the distance is the sum of their lengths.
 
-Q9. SSC CGL — Train, Man, Platform: Speed Given, Find Platform
+Q9. PYQ-style — Train, Man, Platform: Speed Given, Find Platform
 *A train passes a man on the platform in 25 seconds and the entire platform in 42 seconds. Train speed = 72 km/h. Find platform length.*
 Options: a) 300 m b) 270 m c) 340 m d) 370 m
 
@@ -170,10 +162,9 @@ Platform crossing: L + Platform = Speed × Time = 20 × 42 = 840 m.
 
 Platform = 840 − 500 = 340 m. Answer: (c).
 
-🪤 Psychological Trap: The trap is the direct 42−25=17 seconds shortcut — the time difference method directly gives platform length: 20 × 17 = 340 m. While mathematically valid, students who do not understand why it works (the difference in distance covered is exactly the platform length) risk misapplying it when data changes (e.g., two trains crossing). The exam rewards those who treat "pole time" as the key that unlocks both train length and speed. Pole time is the fingerprint of the train.-
-65
+🪤 Psychological Trap: The trap is the direct 42−25=17 seconds shortcut — the time difference method directly gives platform length: 20 × 17 = 340 m. While mathematically valid, students who do not understand why it works (the difference in distance covered is exactly the platform length) risk misapplying it when data changes (e.g., two trains crossing). The exam rewards those who treat "pole time" as the key that unlocks both train length and speed. Pole time is the fingerprint of the train.
 
-Q10. RRB Officer Assistant 2015 — Two Trains Crossing (Opposite Direction)
+Q10. PYQ-style (RRB Office Assistant pattern) — Two Trains Crossing (Opposite Direction)
 *Train A (63 km/h) crosses a 199.5 m platform in 21 s. Train B (length 257 m, speed 54 km/h) approaches in the opposite direction. How much time from the moment they meet to completely cross each other?*
 Options: a) 16 s b) 18 s c) 12 s d) 13.07 s
 
@@ -189,12 +180,11 @@ Crossing: Total distance = 168 + 257 = 425 m. Relative speed = 17.5 + 15 = 32.5 
 
 Time = 425 / 32.5 = 13.076... ≈ 13.07 s. Answer: (d).
 
-🪤 Psychological Trap: This is a "two-in-one" trap. First, you must extract Train A's length from the platform data (a nested sub-problem). Then, you must correctly set up the two-train distance and relative speed. The 13.07 s, as opposed to a neat 13 s, is a deliberate confidence-shaker. The exam wants you to carry precision through both stages — the platform equation yields an exact half-metre, and the relative speed is a non-integer. Do not round prematurely; carry exact fractions until the final step.-
-23
+🪤 Psychological Trap: This is a "two-in-one" trap. First, you must extract Train A's length from the platform data (a nested sub-problem). Then, you must correctly set up the two-train distance and relative speed. The 13.07 s, as opposed to a neat 13 s, is a deliberate confidence-shaker. The exam wants you to carry precision through both stages — the platform equation yields an exact half-metre, and the relative speed is a non-integer. Do not round prematurely; carry exact fractions until the final step.
 
 🧠 Universal Psychological Hooks (The Trap Playbook)
 
-Every PYQ above uses one or more of these hooks:
+Every question above uses one or more of these hooks:
 
 Hook	How It Traps You	How to Escape
 Unit Mismatch	Speed in km/h, distance/metres, time/seconds. You forget ×5/18.	Write "×5/18" as the first line the moment you see km/h with metres or seconds.

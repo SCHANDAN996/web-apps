@@ -1,0 +1,65 @@
+// Runs against an isolated, seeded QA server; creates two disposable learners.
+import { createRequire } from 'node:module';
+import { readFileSync } from 'node:fs';
+import assert from 'node:assert/strict';
+const require = createRequire(import.meta.url);
+const { chromium } = require(process.env.PLAYWRIGHT_PATH || 'playwright');
+const B = process.env.BASE_URL || 'http://127.0.0.1:8011';
+if (!/^http:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/.test(B)) throw new Error('Use a local scratch server.');
+const browser = await chromium.launch({ channel: process.env.PLAYWRIGHT_CHANNEL || 'chrome' });
+const source = await browser.newContext({ viewport: { width: 360, height: 800 }, acceptDownloads: true });
+const p = await source.newPage(), errors = [];
+p.on('pageerror', e => errors.push(e.message));
+await p.goto(B + '/');
+const me = await p.request.post(B + '/api/v1/me', { data: { lang: 'hi', level: '10th', target_exams: [] } });
+assert.equal(me.ok(), true);
+await p.goto(B + '/practice');
+await p.locator('.list-item').first().click();
+await p.locator('#practiceForm button[type=submit]').click();
+await p.waitForURL(/\/attempt\/\d+/);
+await p.locator('.rough-toggle').click();
+const area = await p.locator('.rough-canvas').boundingBox();
+await p.mouse.move(area.x + 10, area.y + 10); await p.mouse.down();
+await p.mouse.move(area.x + 60, area.y + 60, { steps: 8 }); await p.mouse.up();
+if (process.env.QA_SCREENSHOT_DIR) {
+  for (const theme of ['light', 'dark']) {
+    await p.evaluate(theme => SSTheme.set(theme), theme);
+    await p.screenshot({ path: process.env.QA_SCREENSHOT_DIR + '/real-rough-work-hi-' + theme + '.png', fullPage: true });
+  }
+}
+await p.locator('.option').first().click();
+await p.locator('.action-bar .btn-primary').click();
+await p.locator('.feedback').waitFor();
+await p.evaluate(() => SS.go('/settings'));
+await p.locator('#backup').waitFor();
+if (process.env.QA_SCREENSHOT_DIR) await p.screenshot({ path: process.env.QA_SCREENSHOT_DIR + '/real-backup-settings-hi.png', fullPage: true });
+assert.equal(await p.locator('[data-drive-action]').first().isDisabled(), true);
+const download = p.waitForEvent('download');
+await p.locator('[data-backup-action="local-backup"]').click();
+const file = await download, bytes = readFileSync(await file.path());
+const data = JSON.parse(bytes.toString('utf8'));
+assert.equal(data.progress.attempts.length, 1);
+assert.equal(data.progress.attempts[0].answers.length, 1);
+assert.equal(Object.keys(data.local.whiteboards).length, 1);
+assert.equal(JSON.stringify(data).includes('answer_index'), false);
+assert.equal(JSON.stringify(data).includes('token'), false);
+const dest = await browser.newContext({ viewport: { width: 360, height: 800 } });
+const q = await dest.newPage(); q.on('pageerror', e => errors.push(e.message));
+await q.goto(B + '/settings');
+await q.locator('#backupFile').setInputFiles({ name: 'study-backup.json', mimeType: 'application/json', buffer: bytes });
+await q.locator('dialog .btn-secondary').click();
+assert.equal((await q.request.get(B + '/api/v1/backup/export')).status(), 404);
+await q.locator('#backupFile').setInputFiles({ name: 'study-backup.json', mimeType: 'application/json', buffer: bytes });
+await q.locator('dialog .btn-primary').click();
+await q.waitForFunction(() => !document.querySelector('dialog'));
+await q.waitForFunction(() => !!document.querySelector('#backup'));
+const restored = await (await q.request.get(B + '/api/v1/backup/export')).json();
+assert.equal(restored.attempts.length, 1);
+assert.equal(restored.attempts[0].answers.length, 1);
+assert.equal(await q.evaluate(() => Object.keys(SSWhiteboard.export()).length), 1);
+const duplicate = await q.request.post(B + '/api/v1/backup/restore', { data: { confirm: true, backup: data.progress } });
+assert.equal(duplicate.ok(), true); assert.equal((await duplicate.json()).skipped, 1);
+assert.equal(await p.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true);
+assert.deepEqual(errors, []);
+console.log('Real server drawing, download, cancelled restore, fresh-learner restore and idempotence passed.');
+await browser.close();

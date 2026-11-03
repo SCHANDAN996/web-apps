@@ -1,0 +1,54 @@
+# Important Rules & Approaches — Clock & Calendar
+
+## Part 1: Key Rules/Approaches
+
+| Rule Name | Description | Example |
+|---|---|---|
+| Clock Face Basics | Clock has 12 divisions = 360°, so each hour division = 30°; each minute division = 6°. | Angle between 12 and 3 = 3 × 30° = 90° |
+| Speed of Hands | Minute hand: 6°/min; Hour hand: 0.5°/min; Relative speed: 5.5°/min. | In 20 min, minute hand gains 20 × 5.5° = 110° over hour hand |
+| Angle Formula | Angle = \|30H − 5.5M\|, where H = hours, M = minutes. If result > 180°, subtract from 360°. | At 3:20 → \|90 − 110\| = 20° |
+| Hands Coincide | Hands overlap every 65 5/11 min (not 60 min); 11 times in 12 hours, 22 times in 24 hours. | Between 1 and 2, overlap at 1:05 5/11 |
+| Hands Opposite (180°) | Hands are opposite 11 times in 12 hours, 22 times in 24 hours. | Between 5 and 6, opposite at 5:27 3/11 (i.e., 27 3/11 min past 5) |
+| Hands at Right Angle (90°) | 22 times in 12 hours, 44 times in 24 hours. | At 3:00 and 9:00 exactly |
+| Time Gained/Lost by Clock | If a clock gains/loses x min per hour, compute total error over elapsed time, then correct. | Clock gains 5 min/hr; in 12 hrs it gains 60 min |
+| Mirror Image of Time | Mirror time = 11:60 − given time (or 12:00 − time if minutes = 00). | Mirror of 4:30 = 11:60 − 4:30 = 7:30 |
+| Water Image of Time | Water image = 18:30 − given time (subtract from 17:90 if needed). | Water image of 4:30 = 18:30 − 4:30 = 14:00 → 2:00 |
+| Odd Days Concept | Odd days = remainder when total days ÷ 7. Ordinary year = 1 odd day; Leap year = 2 odd days. | 365 ÷ 7 → remainder 1 |
+| Leap Year Rule | Divisible by 4; century years must be divisible by 400. | 2000 = leap; 1900 = not leap |
+| Odd Days in Centuries | 100 yrs = 5, 200 yrs = 3, 300 yrs = 1, 400 yrs = 0 odd days. Cycle repeats every 400 years. | Day on 1 Jan of year 1 assumed Monday for base calculations |
+| Day Calculation Method | Total odd days = (century odd days) + (year odd days) + (month odd days) + (date); mod 7 gives day. | 0=Sunday, 1=Monday, … 6=Saturday |
+| Month Codes (Odd Days) | Odd days contributed by each month: Jan 3, Feb 0 (ordinary) / 1 (leap), Mar 3, Apr 2, May 3, Jun 2, Jul 3, Aug 3, Sep 2, Oct 3, Nov 2, Dec 3. | February has 28 days → 28 mod 7 = 0 odd days |
+| Same Calendar Year | A year repeats its calendar after 6, 11, or 28 years depending on leap-year pattern. | An ordinary year immediately after a leap year repeats after 6 years; an ordinary year just before a leap year repeats after 11 years |
+| Zeller / Direct Formula (optional) | Day = (Date + Month code + Year + Year/4 + Century code) mod 7. | Use only if memorized; odd-days method is safer |
+
+## Part 2: Time Management
+
+| Situation | 15-Second Rule | 45-Second Rule |
+|---|---|---|
+| Angle between hands | If formula values not clear in 15 sec, mark and move on. | Apply \|30H − 5.5M\| directly; solve within 45 sec. |
+| Coincide/opposite/right-angle count | If question asks count in 12/24 hrs, answer from memory instantly (11/22, 11/22, 22/44). | If exact time asked, use 60/11 × H formula within 45 sec. |
+| Day of a given date | If century/year breakdown not recalled in 15 sec, skip and return later. | Complete odd-days calculation within 45 sec; double-check leap years. |
+| Mirror/water image | Recall 11:60 / 18:30 rule instantly. | If subtraction needs borrowing, finish within 45 sec carefully. |
+| Faulty clock (gain/loss) | If total time span is confusing, skip in 15 sec. | Set up proportion (error per hour × hours) and finish in 45 sec. |
+| Calendar repetition year | If pattern (6/11/28) not recalled, skip. | Verify leap-year positions before answering. |
+| General strategy | Never spend more than 45 sec on any single Clock/Calendar question in first pass. | Attempt all direct-formula questions first; revisit skipped ones in second pass. |
+
+## Part 3: Logical/Mathematical Formulas
+
+| Formula | Expression | Use |
+|---|---|---|
+| Angle between hands | θ = \|30H − (11/2)M\|; if θ > 180°, answer = 360° − θ | Angle at H:M |
+| Minute hand speed | 6° per minute | Hand movement |
+| Hour hand speed | 0.5° per minute | Hand movement |
+| Relative speed | 5.5° per minute | Gaps closing between hands |
+| Time of coincidence after H o'clock | M = (60/11) × H minutes past H | When hands overlap |
+| Time of opposite after H o'clock | M = (60/11) × (H ± 6) minutes past H | When hands are 180° apart |
+| Time of right angle after H o'clock | M = (60/11) × (H ± 3) minutes past H | When hands are 90° apart |
+| Mirror image | 11:60 − given time (12:00 − time if M = 00) | Mirror-based questions |
+| Water image | 18:30 − given time | Water-image questions |
+| Odd days | Total days mod 7 | Day-of-week calculation |
+| Ordinary year odd days | 1 | Calendar |
+| Leap year odd days | 2 | Calendar |
+| Century odd days | 100→5, 200→3, 300→1, 400→0 | Calendar base |
+| Day code | 0=Sun, 1=Mon, 2=Tue, 3=Wed, 4=Thu, 5=Fri, 6=Sat | Final day mapping |
+| Faulty clock | True time : Faulty time ratio; e.g., gains x min/hr → faulty shows (60+x) min per true 60 min | Gain/loss problems |

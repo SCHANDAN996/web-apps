@@ -1,0 +1,151 @@
+Questions 1–20: Easy | Questions 21–25: Medium
+
+1. Which letter is 7th to the right of the 10th letter from the left in the English alphabet?
+(a) S (b) P (c) R (d) Q
+Answer: (d)
+Solution: The tempting option P comes from counting the starting letter J itself as the first step, but "to the right of" excludes it. The 10th letter is J, and 7 steps further right gives the 17th letter, so the answer is Q.
+Source: PYQ-style
+
+2. What is the 15th letter from the right end of the English alphabet?
+(a) N (b) L (c) M (d) K
+Answer: (b)
+Solution: The trap K comes from wrongly using 26 − 15 = 11. Position n from the right equals position 27 − n from the left, so 27 − 15 = 12, and the 12th letter is L, so the answer is L.
+Source: PYQ-style
+
+3. How many letters are there between the 8th letter from the left and the 8th letter from the right in the English alphabet?
+(a) 9 (b) 10 (c) 12 (d) 11
+Answer: (b)
+Solution: The trap 11 comes from forgetting to subtract 1 for "between". The 8th letter from the left is H (position 8) and the 8th from the right is S (position 27 − 8 = 19), and letters strictly between them are 19 − 8 − 1 = 10, so the answer is 10.
+Source: PYQ-style
+
+4. If the alphabet is written in reverse order, which letter will be 5th to the left of the 12th letter from the right?
+(a) H (b) J (c) K (d) I
+Answer: (b)
+Solution: The trap H comes from moving toward A instead of toward Z. In the reversed alphabet the 12th letter from the right is O, and 5 positions to its left in the reversed order is position 17 of the reversed order, i.e. normal position 27 − 17 = 10, so the answer is J.
+Source: PYQ-style
+
+5. Which letter is exactly in the middle of the English alphabet?
+(a) N (b) M (c) L (d) There is no single middle letter
+Answer: (d)
+Solution: The trap M comes from halving 26 and picking the 13th letter. Since 26 is even, the middle falls between the 13th letter M and the 14th letter N, so the answer is "There is no single middle letter".
+Source: PYQ-style
+
+6. In the word "GREAT", how many pairs of letters have as many letters between them in the word as in the alphabet?
+(a) 1 (b) 3 (c) 2 (d) 0
+Answer: (a)
+Solution: The trap 2 comes from counting E and A, which are adjacent in the word but far apart in the alphabet. Only G and E match, with one letter between them in both the word and the alphabet, so the answer is 1.
+Source: PYQ-style
+
+7. If A = 1, B = 2, … Z = 26, what is the sum of the letter values of the word "CAB"?
+(a) 5 (b) 7 (c) 8 (d) 6
+Answer: (d)
+Solution: The trap 5 comes from misreading C as 2. Here C = 3, A = 1, B = 2, giving 3 + 1 + 2 = 6, so the answer is 6.
+Source: PYQ-style
+
+8. Which of the following words will come first in a dictionary?
+(a) Plaster (b) Planet (c) Placid (d) Plaque
+Answer: (c)
+Solution: The trap Plaque attracts students who compare the fifth letters instead of the fourth. All four words begin with "Pla", and among the fourth letters s, n, c, q the earliest is c, so the answer is Placid.
+Source: PYQ-style
+
+9. How many vowels in the English alphabet are immediately followed by another vowel when the alphabet is written normally?
+(a) 3 (b) 1 (c) 0 (d) 2
+Answer: (c)
+Solution: The trap 1 comes from assuming E or I must be near another vowel. The letters immediately after A, E, I, O, U are B, F, J, P, V — all consonants — so the answer is 0.
+Source: PYQ-style
+
+10. Which letter is 9th to the left of the 20th letter from the left?
+(a) K (b) M (c) L (d) J
+Answer: (a)
+Solution: The trap J comes from counting the 20th letter T itself as a step. Subtracting properly, 20 − 9 = 11, and the 11th letter is K, so the answer is K.
+Source: PYQ-style
+
+11. If the first half of the alphabet is reversed, which letter will be 10th from the left?
+(a) C (b) F (c) E (d) D
+Answer: (d)
+Solution: The trap C comes from reversing only A–L instead of A–M. Reversing A–M gives M L K J I H G F E D C B A followed by N–Z unchanged, and the 10th position is D, so the answer is D.
+Source: PYQ-style
+
+12. In the word "MACHINE", which letter is 3rd to the right of the 2nd letter from the left?
+(a) H (b) N (c) I (d) E
+Answer: (c)
+Solution: The trap H comes from counting only two steps. The 2nd letter from the left is A, and three steps right give C, H, I, so the answer is I.
+Source: PYQ-style
+
+13. What is the position of the letter S from the right end of the alphabet?
+(a) 8 (b) 7 (c) 10 (d) 9
+Answer: (a)
+Solution: The trap 7 comes from using 26 − 19 instead of 27 − 19. S is the 19th letter from the left, so from the right its position is 27 − 19 = 8, so the answer is 8.
+Source: PYQ-style
+
+14. If every alternate letter starting from A is removed from the alphabet, which letter will be 5th in the remaining sequence?
+(a) J (b) I (c) K (d) L
+Answer: (a)
+Solution: The trap I comes from removing letters starting from B instead of A. Removing A, C, E, G, … leaves B, D, F, H, J, L, …, and the 5th letter of this sequence is J, so the answer is J.
+Source: PYQ-style
+
+15. The letters of which word can be rearranged to form a meaningful English word: "RTEA"?
+(a) Both RATE and TEAR (b) TEAR (c) No meaningful word (d) RATE
+Answer: (a)
+Solution: The trap is picking the first word that comes to mind and ignoring the other. The letters R, T, E, A can be arranged as RATE and also as TEAR, both meaningful words, so the answer is "Both RATE and TEAR".
+Source: PYQ-style
+
+16. Which letter is midway between the 4th letter from the left and the 10th letter from the left?
+(a) F (b) H (c) G (d) I
+Answer: (c)
+Solution: The trap F comes from averaging wrongly as (4 + 9)/2. The midway position is (4 + 10)/2 = 7, and the 7th letter is G, so the answer is G.
+Source: PYQ-style
+
+17. How many letters of the word "BANKING" remain in the same position when the letters are arranged alphabetically?
+(a) 1 (b) 0 (c) 2 (d) 3
+Answer: (a)
+Solution: The trap 2 comes from assuming the repeated N must match twice. Original order is B A N K I N G and alphabetical order is A B G I K N N, and only the 6th position has N in both, so the answer is 1.
+Source: PYQ-style
+
+18. If Z = 1, Y = 2, … A = 26, what is the value of the letter M?
+(a) 13 (b) 14 (c) 15 (d) 16
+Answer: (b)
+Solution: The trap 13 comes from using the normal position of M directly. In reverse numbering, value = 27 − normal position, so 27 − 13 = 14, so the answer is 14.
+Source: PYQ-style
+
+19. Which group of letters is different from the others?
+(a) HKN (b) NQT (c) TWZ (d) BDF
+Answer: (d)
+Solution: The trap is checking only the first gap and assuming all groups match. In HKN, TWZ and NQT each letter is exactly 3 positions ahead of the previous one, while in BDF the gap is only 2, so the answer is BDF.
+Source: PYQ-style
+
+20. If the letters of the word "COMPUTER" are arranged in alphabetical order, which letter will be 3rd from the right?
+(a) U (b) R (c) T (d) P
+Answer: (b)
+Solution: The trap T comes from counting from the left instead of the right. Alphabetically the letters are C, E, M, O, P, R, T, U, and counting from the right gives U first, T second and R third, so the answer is R.
+Source: PYQ-style
+
+21. How many pairs of letters in the word "CREATIVE" have as many letters between them in the word (in both forward and backward direction) as in the English alphabet?
+(a) 3 (b) 2 (c) 1 (d) 4
+Answer: (a)
+Solution: The trap 2 comes from counting only forward pairs and missing the backward pair A–E. The matching pairs are C–E, T–V and A–E, each with the same gap in the word as in the alphabet, so the answer is 3.
+Source: PYQ-style
+
+22. If the letters of the word "JOURNAL" are arranged in alphabetical order, how many letters will remain in their original position?
+(a) 1 (b) 2 (c) 0 (d) 3
+Answer: (c)
+Solution: The trap 1 comes from assuming at least one middle letter must match. Original order is J O U R N A L and alphabetical order is A J L N O R U, and no letter stays in its original place, so the answer is 0.
+Source: PYQ-style
+
+23. In a certain code, the alphabet is reversed (A↔Z, B↔Y, …). Which letter will be opposite to the letter that is 4th to the right of K?
+(a) N (b) L (c) O (d) M
+Answer: (b)
+Solution: The trap M comes from moving only three steps from K before reversing. The 4th letter to the right of K is O, and opposite letters sum to 27, so O (15th) pairs with the 12th letter, so the answer is L.
+Source: PYQ-style
+
+24. If the first and second letters of "GRAPHITE" are interchanged, the third and fourth are interchanged, and so on, which letter will be 5th from the left?
+(a) H (b) T (c) P (d) I
+Answer: (d)
+Solution: The trap T comes from forgetting that the last pair also gets swapped. Pairwise swapping of G-R-A-P-H-I-T-E gives R G P A I H E T, and the 5th letter from the left is I, so the answer is I.
+Source: PYQ-style
+
+25. Which letter is 11th from the right end of the English alphabet?
+(a) O (b) N (c) P (d) Q
+Answer: (c)
+Solution: The trap O comes from using 26 − 11 = 15. Position from the left is 27 − 11 = 16, and the 16th letter is P, so the answer is P.
+Source: PYQ-style

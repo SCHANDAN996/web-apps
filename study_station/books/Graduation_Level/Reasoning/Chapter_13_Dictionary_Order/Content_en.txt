@@ -1,0 +1,210 @@
+# Dictionary Order (Alphabetical Order)
+
+## Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Arrange any set of words in dictionary (alphabetical) order — fast and without confusion.
+2. Find the position of a word among given words (1st, 2nd, 3rd… in a dictionary).
+3. Handle words that share the same first, second, or even third letter.
+4. Solve "letter position" questions (e.g., which letter is 5th to the left of the 12th letter).
+5. Spot and dodge the examiner's favourite traps in under 30 seconds per question.
+
+---
+
+## 1. The Hook: Why This Chapter Is Free Marks
+
+Imagine this. In the exam hall, the candidate next to you is sweating over a long puzzle. You glance at your paper — a Dictionary Order question. Four words. You smile, compare two letters, mark the answer, and move on. **Fifteen seconds. One sure mark.**
+
+That is exactly what Dictionary Order questions are: the fastest, most predictable marks in the entire Reasoning paper. SSC, Banking, Railway — every exam asks them, and every single one of them can be solved with one simple skill you already have: **you know the alphabet.**
+
+The only thing standing between you and these free marks is a handful of small traps. This chapter removes them, one by one.
+
+---
+
+## 2. The Common Struggle (And Why It Happens)
+
+Most students don't lose marks here because the topic is hard. They lose marks because of **haste and habit**:
+
+- They compare only the **first letter** and stop — even when two words start with the same letter.
+- They get confused when words match up to the **third or fourth letter** (like INTERVIEW vs INTERVAL).
+- They mix up "left" and "right" in letter-position questions.
+- They forget whether counting includes the given letter or starts after it.
+
+Sound familiar? Good. Every one of these has a mechanical fix, and you're about to learn each one.
+
+---
+
+## 3. The Foundation: How a Dictionary Actually Orders Words
+
+A dictionary follows one rule, applied again and again:
+
+> **Compare words letter by letter, from left to right. The moment two letters differ, the word with the earlier letter (closer to A) comes first.**
+
+That's it. Everything else is just this rule in different costumes.
+
+**Example:** Arrange — APPLE, APPLY, APART, APEX
+
+- All start with **A**. Move to letter 2.
+- Letter 2: P, P, P, P — all same. Move to letter 3.
+- Letter 3: **P** (APPLE), **P** (APPLY), **A** (APART), **E** (APEX).
+- A < E < P, so order so far: APART → APEX → {APPLE, APPLY}.
+- APPLE vs APPLY: letters 1–4 same (APPL), letter 5: **E** vs **Y**. E < Y.
+- **Final order: APART → APEX → APPLE → APPLY**
+
+🧠 **Active Recall:** Without looking above — when two words share the same first three letters, which letter do you compare next? Say it out loud before reading on.
+
+---
+
+## 4. The Golden Procedure: "Column by Column"
+
+Train yourself to see words as **columns of letters**, not as whole words:
+
+```
+A P A R T
+A P E X
+A P P L E
+A P P L Y
+```
+
+Scan column 1 → all same? Move right. Column 2 → all same? Move right. The **first column where letters differ** decides the order. Shorter words that end exactly where a longer word continues come **first** (e.g., CAT comes before CATALOGUE, because the dictionary treats "nothing" as smaller than any letter).
+
+**Rule of the shorter word:** If one word is completely contained in another (PEN inside PENCIL), the shorter word comes first.
+
+🧠 **Active Recall:** Which comes first in a dictionary — MARKET or MARK? Why?
+
+---
+
+## 5. Type 1: Arranging Words in Dictionary Order
+
+**Method (3 steps):**
+
+1. **Group by first letter.** Words starting with A, then B, then C…
+2. **Within each group, compare the second letter**, then the third, and so on.
+3. **Write the final sequence**, then answer whatever is asked (which word is 2nd? which is last?).
+
+**Example:** Which word comes THIRD in a dictionary?
+ORANGE, ORBIT, ORCHARD, ORDER, ORGAN
+
+- All start with O, then R. Compare letter 3: **A** (ORANGE), **B** (ORBIT), **C** (ORCHARD), **D** (ORDER), **G** (ORGAN).
+- Alphabetical: A < B < C < D < G
+- Order: ORANGE → ORBIT → **ORCHARD** → ORDER → ORGAN
+- **Answer: ORCHARD**
+
+Notice how mechanical that was. No thinking about meanings — meanings are irrelevant. The examiner will sometimes throw in difficult or emotional words to distract you. Ignore meanings completely.
+
+🧠 **Active Recall:** In the example above, why does ORBIT come before ORCHARD?
+
+---
+
+## 6. Type 2: Letter-Position Questions (The Number Line)
+
+These questions treat the alphabet as a number line:
+
+```
+A=1  B=2  C=3  D=4  E=5  F=6  G=7  H=8  I=9  J=10
+K=11 L=12 M=13 N=14 O=15 P=16 Q=17 R=18 S=19 T=20
+U=21 V=22 W=23 X=24 Y=25 Z=26
+```
+
+**Memorise these anchor letters** — they make every calculation instant:
+
+| Letter | Position | Memory hook |
+|---|---|---|
+| E | 5 | **E** has 5 in "fivE" |
+| J | 10 | **J** = 10 (J looks like a 1 with a hook → 10) |
+| M | 13 | **M**iddle of alphabet ≈ 13 |
+| T | 20 | **T**wenty = **T** |
+| Z | 26 | Last = 26 |
+
+**The two movement rules:**
+
+- **"To the right of"** = ADD (towards Z)
+- **"To the left of"** = SUBTRACT (towards A)
+
+**Example:** Which letter is 7th to the right of the 11th letter?
+- 11th letter = K. Right = add: 11 + 7 = 18 → **R**
+
+**Example:** Which letter is 4th to the left of the 15th letter?
+- 15th = O. Left = subtract: 15 − 4 = 11 → **K**
+
+**The combined trap:** "Which letter is 6th to the right of the letter which is 3rd to the left of T?"
+- Work from the inside out: T = 20 → 3rd left = 20 − 3 = 17 (Q) → 6th right = 17 + 6 = 23 → **W**
+
+🧠 **Active Recall:** Cover the rules. Is "left of" add or subtract? What is the 18th letter?
+
+---
+
+## 7. Type 3: The "Middle Letter" and "Exactly Between" Questions
+
+**Example:** Which letter is exactly midway between the 8th and 18th letters?
+- Midpoint = (8 + 18) ÷ 2 = 13 → **M**
+
+**Formula:** Middle position = (smaller position + larger position) ÷ 2. If the result is a fraction (e.g., 12.5), there is **no single middle letter** — watch for that trap in options.
+
+---
+
+## 8. Type 4: Words Formed / Not Formed from a Given Word
+
+A cousin of dictionary order: "How many meaningful words can be formed from the letters of TEACH using each letter once?" or "Which word CANNOT be formed from the letters of…?"
+
+**Method:** Check each option letter by letter against the source word. If an option uses a letter **not present** in the source, or uses a letter **more times** than it appears, that word cannot be formed.
+
+**Example:** Which word cannot be formed from "TEACHER"?
+(a) REACH (b) CHEAT (c) CHAIR (d) EARTH
+- CHAIR needs **I**, which is not in TEACHER. **Answer: (c)**
+
+🧠 **Active Recall:** What are the two ways a word can "fail" the formation test?
+
+---
+
+## 9. Mnemonic Tricks to Lock It In
+
+**Trick 1 — "Right is Rising":** Right → Rising numbers → ADD. Left → Less → SUBTRACT. (Both start with L: **L**eft = **L**ess.)
+
+**Trick 2 — "EJOTY":** The letters at positions 5, 10, 15, 20, 25 spell **E-J-O-T-Y**. Memorise this one nonsense word and you instantly know five anchor points of the alphabet. From any anchor, count forward or backward in 1–2 steps.
+
+**Trick 3 — "First Difference Decides":** Whisper this while solving arrangement questions. It stops you from over-comparing. The moment letters differ, the decision is made — never look further right for that pair.
+
+---
+
+## 10. Speed Drill: The 20-Second Routine
+
+For any arrangement question in the exam:
+
+1. **(5 sec)** Write the words in a column, aligned at the left.
+2. **(10 sec)** Scan columns left to right; mark the first differing column for each pair.
+3. **(5 sec)** Write the order, double-check the question ("2nd? last? 3rd from the end?"), mark, move on.
+
+Never re-read the meanings. Never second-guess a letter comparison. Trust the alphabet.
+
+---
+
+## 11. Summary Table
+
+| Question Type | Core Move | Watch Out For |
+|---|---|---|
+| Arrange words in dictionary order | Compare letter by letter; first difference decides | Words matching up to 3rd–4th letter |
+| Shorter word inside longer word | Shorter word comes first (PEN < PENCIL) | Assuming longer = first |
+| Letter position (left/right) | Right = add, Left = subtract | Combined two-step movements |
+| Middle letter | (a + b) ÷ 2 | Fractional midpoint = no middle letter |
+| Word formation | Match letters & their counts against source word | Letters repeated more times than available |
+| Position from the end | Position from Z = 27 − position from A | Off-by-one errors |
+
+**📌 Review this chapter after 2 days.** Redo one arrangement question and one letter-position question from memory. If both take under 30 seconds each, this chapter is permanently yours.
+
+---
+
+## ⚠️ Caution: Examiner's Trap
+
+**Trap 1 — The "Same Starting Letters" Illusion.**
+The examiner deliberately gives words that match up to the third or fourth letter (e.g., PRINCIPLE, PRINCIPAL, PRINT, PRIVATE). Students who compare only the first one or two letters mark the wrong order. **Defence:** Never stop comparing until you find a differing letter. "First Difference Decides."
+
+**Trap 2 — Difficult or Unfamiliar Words to Create Panic.**
+Options may contain long, intimidating words (e.g., QUINTESSENCE, JUXTAPOSITION) purely to shake your confidence. Their meaning is irrelevant — only spelling matters. **Defence:** Treat every word as a string of letters, never as a "word." A 13-letter word is ordered by the exact same rule as CAT.
+
+**Trap 3 — The Double-Movement Position Question.**
+"5th to the right of the letter which is 4th to the left of R" — students often add when they should subtract, or solve the steps in the wrong order. **Defence:** Always work from the inside out, one step at a time, and write the intermediate letter down. R(18) → 4 left = 14 (N) → 5 right = 19 (S). Writing the middle step costs 2 seconds and saves the mark.
+
+**Trap 4 — "From the Right End" Confusion.**
+Questions asking position "from the right end of the alphabet" tempt students to count backwards from Z manually — slow and error-prone. **Defence:** Use the formula: position from right = 27 − position from left. The 10th letter from the right = 27 − 10 = 17th from the left = Q.

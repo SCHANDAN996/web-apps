@@ -1,0 +1,151 @@
+Questions 101–120: Medium | Questions 121–125: Hard
+
+101. Statement: All pens are books. All books are chairs. Conclusion I: All pens are chairs. Conclusion II: Some chairs are pens.
+(a) Only II follows (b) Both I and II follow (c) Only I follows (d) Neither follows
+Answer: (b)
+Solution: The tempting error is to accept only Conclusion I and forget that "All pens are chairs" automatically guarantees "Some chairs are pens" by conversion. Since pens are inside books and books are inside chairs, pens are inside chairs, so the answer is that both I and II follow.
+Source: PYQ-style
+
+102. Statement: Some dogs are cats. No cat is a rat. Conclusion I: Some dogs are not rats. Conclusion II: No dog is a rat.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (a)
+Solution: The trap is Conclusion II — a universal negative cannot be drawn when only part of the dogs overlaps with cats. The dogs that are cats cannot be rats, so "Some dogs are not rats" is definite, while other dogs may be rats, so the answer is that only I follows.
+Source: PYQ-style
+
+103. Statement: No apple is a banana. All bananas are fruits. Conclusion I: Some fruits are not apples. Conclusion II: No fruit is an apple.
+(a) Neither follows (b) Only II follows (c) Both follow (d) Only I follows
+Answer: (d)
+Solution: The trap is Conclusion II — apples may still be fruits through a route other than bananas, so a total exclusion is not provable. Since all bananas are fruits and no banana is an apple, at least the banana-part of fruits is not apple, so the answer is that only I follows.
+Source: PYQ-style
+
+104. Statement: All teachers are graduates. Some graduates are poets. Conclusion I: Some teachers are poets. Conclusion II: Some poets are graduates.
+(a) Only I follows (b) Neither follows (c) Both follow (d) Only II follows
+Answer: (d)
+Solution: The trap is Conclusion I — the graduates who are poets need not be teachers, since the two groups may not overlap at all. But "Some graduates are poets" converts directly to "Some poets are graduates", so the answer is that only II follows.
+Source: PYQ-style
+
+105. Statement: Some chairs are tables. All tables are desks. Conclusion I: Some chairs are desks. Conclusion II: All desks are tables.
+(a) Both follow (b) Only II follows (c) Neither follows (d) Only I follows
+Answer: (d)
+Solution: The trap is Conclusion II — "All tables are desks" does not reverse, because desks may include many things beyond tables. The chairs that are tables must be desks, so the answer is that only I follows.
+Source: PYQ-style
+
+106. Statement: All flowers are beautiful. Some beautiful things are costly. Conclusion I: Some flowers are costly. Conclusion II: All flowers are beautiful.
+(a) Only II follows (b) Only I follows (c) Both follow (d) Neither follows
+Answer: (a)
+Solution: The trap is Conclusion I — the costly beautiful things may lie entirely outside flowers, so no link between flowers and costly is forced. Conclusion II merely restates the given premise, so the answer is that only II follows.
+Source: PYQ-style
+
+107. Statement: No boy is a girl. Some girls are students. Conclusion I: Some students are not boys. Conclusion II: Some boys are students.
+(a) Both follow (b) Only II follows (c) Only I follows (d) Neither follows
+Answer: (c)
+Solution: The trap is Conclusion II — nothing connects boys to students positively; they may or may not overlap. The girls who are students cannot be boys, so "Some students are not boys" is definite, and the answer is that only I follows.
+Source: PYQ-style
+
+108. Statement: All cars are vehicles. Some vehicles are buses. Conclusion I: Some cars are buses. Conclusion II: Some buses are vehicles.
+(a) Only I follows (b) Both follow (c) Only II follows (d) Neither follows
+Answer: (c)
+Solution: The trap is Conclusion I — the buses among vehicles may lie completely outside cars, so no car–bus overlap is guaranteed. "Some vehicles are buses" converts to "Some buses are vehicles", so the answer is that only II follows.
+Source: PYQ-style
+
+109. Statement: Some books are pens. Some pens are erasers. Conclusion I: Some books are erasers. Conclusion II: Some erasers are pens.
+(a) Only II follows (b) Only I follows (c) Both follow (d) Neither follows
+Answer: (a)
+Solution: The trap is Conclusion I — two "some" statements sharing the middle term "pens" do not force any overlap between books and erasers. "Some pens are erasers" converts validly to "Some erasers are pens", so the answer is that only II follows.
+Source: PYQ-style
+
+110. Statement: All mangoes are fruits. No fruit is a vegetable. Conclusion I: No mango is a vegetable. Conclusion II: Some vegetables are fruits.
+(a) Both follow (b) Only II follows (c) Neither follows (d) Only I follows
+Answer: (d)
+Solution: The trap is Conclusion II — "No fruit is a vegetable" means the two classes are completely separate, so claiming some vegetables are fruits directly contradicts the premise. Mangoes lie inside fruits, which exclude vegetables, so "No mango is a vegetable" holds and the answer is that only I follows.
+Source: PYQ-style
+
+111. Statement: Some players are singers. All singers are dancers. Conclusion I: Some players are dancers. Conclusion II: All dancers are singers.
+(a) Only II follows (b) Only I follows (c) Both follow (d) Neither follows
+Answer: (b)
+Solution: The trap is Conclusion II — reversing "All singers are dancers" is invalid because dancers can exist outside singers. The players who are singers must be dancers, so the answer is that only I follows.
+Source: PYQ-style
+
+112. Statement: No pen is a pencil. All pencils are rubbers. Conclusion I: No rubber is a pen. Conclusion II: Some rubbers are not pens.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (b)
+Solution: The trap is Conclusion I — pens may overlap with rubbers that are not pencils, so total exclusion is not provable. The rubbers that are pencils cannot be pens, giving "Some rubbers are not pens", so the answer is that only II follows.
+Source: PYQ-style
+
+113. Statement: All lions are animals. All animals are living beings. Conclusion I: All lions are living beings. Conclusion II: Some living beings are lions.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (c)
+Solution: The trap is to stop at Conclusion I and forget that universal inclusion implies a particular converse: if all lions are living beings, then some living beings are lions. The chain of two "all" statements places lions inside living beings, so the answer is that both follow.
+Source: PYQ-style
+
+114. Statement: Some houses are buildings. No building is a hut. Conclusion I: Some houses are not huts. Conclusion II: No house is a hut.
+(a) Only I follows (b) Only II follows (c) Both follow (d) Neither follows
+Answer: (a)
+Solution: The trap is Conclusion II — houses outside the building portion may still be huts, so a universal negative is not forced. The houses that are buildings cannot be huts, so "Some houses are not huts" is certain and the answer is that only I follows.
+Source: PYQ-style
+
+115. Statement: All cups are plates. Some plates are spoons. Conclusion I: Some cups are spoons. Conclusion II: Some spoons are plates.
+(a) Only I follows (b) Both follow (c) Only II follows (d) Neither follows
+Answer: (c)
+Solution: The trap is Conclusion I — the spoons among plates may lie entirely outside cups, so no cup–spoon link is guaranteed. "Some plates are spoons" converts to "Some spoons are plates", so the answer is that only II follows.
+Source: PYQ-style
+
+116. Statement: Some trees are green. All green things are natural. Conclusion I: Some trees are natural. Conclusion II: All natural things are green.
+(a) Neither follows (b) Only II follows (c) Only I follows (d) Both follow
+Answer: (c)
+Solution: The trap is Conclusion II — "All green things are natural" cannot be reversed, since natural things include far more than green ones. The trees that are green must be natural, so the answer is that only I follows.
+Source: PYQ-style
+
+117. Statement: No student is lazy. Some lazy people are rich. Conclusion I: Some rich people are not students. Conclusion II: Some students are rich.
+(a) Neither follows (b) Only II follows (c) Both follow (d) Only I follows
+Answer: (d)
+Solution: The trap is Conclusion II — nothing positively links students with rich people; they may or may not overlap. The rich people who are lazy cannot be students, so "Some rich people are not students" is definite, and the answer is that only I follows.
+Source: PYQ-style
+
+118. Statement: All rivers are streams. All streams are water bodies. Conclusion I: All rivers are water bodies. Conclusion II: Some water bodies are streams.
+(a) Only I follows (b) Both follow (c) Only II follows (d) Neither follows
+Answer: (b)
+Solution: The trap is to accept only Conclusion I and overlook that "All streams are water bodies" yields the particular converse "Some water bodies are streams". The double inclusion places rivers inside water bodies, so the answer is that both follow.
+Source: PYQ-style
+
+119. Statement: Some mobiles are laptops. No laptop is a tablet. Conclusion I: Some mobiles are not tablets. Conclusion II: No mobile is a tablet.
+(a) Both follow (b) Only I follows (c) Only II follows (d) Neither follows
+Answer: (b)
+Solution: The trap is Conclusion II — mobiles outside the laptop portion may still be tablets, so a universal negative is not provable. The mobiles that are laptops cannot be tablets, so "Some mobiles are not tablets" is certain and the answer is that only I follows.
+Source: PYQ-style
+
+120. Statement: All doctors are educated. Some educated people are rich. Conclusion I: Some doctors are rich. Conclusion II: Some rich people are educated.
+(a) Both follow (b) Only I follows (c) Only II follows (d) Neither follows
+Answer: (c)
+Solution: The trap is Conclusion I — the rich educated people may be entirely outside doctors, so no doctor–rich overlap is forced. "Some educated people are rich" converts to "Some rich people are educated", so the answer is that only II follows.
+Source: PYQ-style
+
+121. Statement: Some A are B. No B is C. All C are D. Conclusion I: Some A are not C. Conclusion II: Some D are not B. Conclusion III: Some A are D.
+(a) All follow (b) Only I and III follow (c) Only II and III follow (d) Only I and II follow
+Answer: (d)
+Solution: The trap is Conclusion III — A and D have no forced connection, since the A-portion outside B may or may not touch D. The A that are B cannot be C, giving Conclusion I; the D that are C cannot be B, giving Conclusion II, so the answer is that only I and II follow.
+Source: PYQ-style
+
+122. Statement: All X are Y. Some Y are Z. No Z is W. Conclusion I: Some X are Z. Conclusion II: Some Y are not W. Conclusion III: No X is W.
+(a) Only II follows (b) All follow (c) Only I and II follow (d) Only I follows
+Answer: (a)
+Solution: The trap is Conclusions I and III — the Z-portion of Y may lie outside X, so X and Z need not overlap, and X may still touch W through non-Z parts of Y. But the Y that are Z cannot be W, so "Some Y are not W" is definite and the answer is that only II follows.
+Source: PYQ-style
+
+123. Statement: Some P are Q. All Q are R. No R is S. Conclusion I: Some P are not S. Conclusion II: No Q is S. Conclusion III: Some R are P.
+(a) All follow (b) Only II and III follow (c) Only I and III follow (d) Only I and II follow
+Answer: (a)
+Solution: The trap is to drop Conclusion III, forgetting that "Some P are Q" combined with "All Q are R" gives "Some P are R", which converts to "Some R are P". P that are Q are R and hence not S, and all Q are R while no R is S, so no Q is S; therefore the answer is that all three follow.
+Source: PYQ-style
+
+124. Statement: No M is N. Some N are O. All O are P. Conclusion I: Some P are not M. Conclusion II: Some O are not M. Conclusion III: No P is M.
+(a) Only I and II follow (b) Only II and III follow (c) Only I follows (d) All follow
+Answer: (a)
+Solution: The trap is Conclusion III — P may include M through routes outside O, so total exclusion is not provable. The N that are O are not M, and since all O are P, those O (and hence some P) are not M, so the answer is that only I and II follow.
+Source: PYQ-style
+
+125. Statement: All E are F. Some F are G. Some G are H. No H is E. Conclusion I: Some G are not E. Conclusion II: Some F are E. Conclusion III: Some H are not F.
+(a) Only I and III follow (b) Only I and II follow (c) Only II follows (d) All follow
+Answer: (b)
+Solution: The trap is Conclusion III — the H-portion may lie entirely inside F or entirely outside it; nothing in the premises fixes H against F, so no definite "Some H are not F" arises. The G that are H cannot be E, giving Conclusion I, and "All E are F" converts to "Some F are E", giving Conclusion II, so the answer is that only I and II follow.
+Source: PYQ-style

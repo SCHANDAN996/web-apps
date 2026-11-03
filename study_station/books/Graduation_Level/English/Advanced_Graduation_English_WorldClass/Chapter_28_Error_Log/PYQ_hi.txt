@@ -1,0 +1,100 @@
+# 📊 PYQ विश्लेषण: त्रुटि लॉग टेम्पलेट (Error Log Template)
+
+## परीक्षाएँ इस अध्याय से कैसे सवाल पूछती हैं
+
+"त्रुटि लॉग" खुद एक परीक्षा-विषय नहीं, बल्कि **तैयारी का औज़ार** है — इसलिए परीक्षक सीधे "error log क्या है" नहीं पूछता। लेकिन जो त्रुटियाँ आप अपने लॉग में दर्ज करते हैं, वही परीक्षा के **Spotting the Error, Sentence Improvement और Fill in the Blanks** प्रश्नों में बार-बार लौटती हैं। SSC CGL, CHSL, IBPS PO/Clerk और राज्य PCS prelims में अंग्रेज़ी खंड का एक बड़ा हिस्सा इन्हीं दोहराती त्रुटि-पैटर्नों से बनता है।
+
+**बार-बार आने वाले उप-विषय (जिन्हें आपके लॉग के कॉलम बनने चाहिए):**
+
+- **Subject-Verb Agreement** — विशेषकर intervening phrase वाले वाक्य ("The quality of apples *was* good")।
+- **Tense Consistency** — reported speech और conditional sentences में काल का मेल।
+- **Articles** — "a/an/the" का प्रयोग, खासकर uncountable nouns के साथ।
+- **Prepositions** — स्थिर जोड़ियाँ (depend *on*, insist *on*, different *from*)।
+- **Pronoun Reference** — one/each/everyone के साथ singular pronoun।
+- **Parallelism** — श्रृंखला में समान रूप (to go, to see, to conquer)।
+
+## परीक्षक के जाल (Trap Types) — शब्दों में
+
+| जाल | पहचान | उदाहरण-रूप |
+|---|---|---|
+| **Intervening Phrase** | कर्ता और क्रिया के बीच लंबा वाक्यांश डालकर ध्यान भटकाना | "The box of chocolates *are*…" (गलत — कर्ता box है) |
+| **Collective Noun** | team/jury/committee को हमेशा plural मान लेना | "The jury *has* given its verdict" (सही, एक स्वर में) |
+| **Sound-Right** | बोलचाल में सही लगने वाला गलत रूप | "What you are doing?" → "What are you doing?" |
+| **Over-thinking** | सीधा-सादा सही वाक्य देखकर जबरन गलती ढूँढना | No-error विकल्प भी वैध उत्तर होता है |
+| **कालक्रम भ्रम** | since/for, already/yet के साथ गलत tense | "I *am living* here since 2015" → "have been living" |
+| **मिलते-जुलते नाम** | advice/advise, principal/principle, stationary/stationery | शब्द-जोड़ी की वर्तनी-अर्थ गड़बड़ी |
+
+> ⚠️ **नोट:** हम वर्ष-वार प्रश्न-संख्या या "भार %" नहीं देते — ऐसा विश्वसनीय आँकड़ा उपलब्ध नहीं है। ऊपर का विश्लेषण परीक्षा-पैटर्न के अध्ययन पर आधारित है, गिनती पर नहीं।
+
+## शीर्ष 10 हाई-यील्ड प्रश्न (समाधान सहित)
+
+**प्रश्न 1.** The quality of the mangoes (a)/ were not good (b)/ in the market. (c)/ No error (d)
+**उत्तर:** (b) — "was not good" होगा।
+**जाल-प्रकार:** Intervening Phrase — "of the mangoes" के कारण mangoes को कर्ता समझने की भूल; असली कर्ता *quality* (singular) है।
+**स्रोत:** PYQ-style
+
+**प्रश्न 2.** One of my friends (a)/ are going (b)/ to Delhi tomorrow. (c)/ No error (d)
+**उत्तर:** (b) — "is going" होगा। "One of + plural noun" के बाद क्रिया singular रहती है।
+**जाल-प्रकार:** Intervening Phrase।
+**स्रोत:** PYQ-style
+
+**प्रश्न 3.** The committee (a)/ have submitted (b)/ its report to the chairman. (c)/ No error (d)
+**उत्तर:** (b) — "has submitted"। Collective noun एक इकाई के रूप में कार्य करे तो singular क्रिया।
+**जाल-प्रकार:** Collective Noun।
+**स्रोत:** PYQ-style
+
+**प्रश्न 4.** He is living (a)/ in this city (b)/ since 2010. (c)/ No error (d)
+**उत्तर:** (a) — "has been living"। Since + समय-बिंदु के साथ present perfect (continuous) चाहिए।
+**जाल-प्रकार:** कालक्रम भ्रम।
+**स्रोत:** PYQ-style
+
+**प्रश्न 5.** What you are doing (a)/ in the library (b)/ at this hour? (c)/ No error (d)
+**उत्तर:** (a) — "What are you doing"। प्रश्न में helping verb subject से पहले आता है।
+**जाल-प्रकार:** Sound-Right (हिंदी-संरचना का प्रभाव)।
+**स्रोत:** PYQ-style
+
+**प्रश्न 6.** Neither of the two boys (a)/ have done (b)/ his homework. (c)/ No error (d)
+**उत्तर:** (b) — "has done"। Neither of + plural noun के बाद singular क्रिया।
+**जाल-प्रकार:** Intervening Phrase।
+**स्रोत:** PYQ-style
+
+**प्रश्न 7.** I prefer (a)/ tea more than (b)/ coffee in the morning. (c)/ No error (d)
+**उत्तर:** (b) — "tea to coffee"। Prefer के साथ "to" आता है, "more than" नहीं।
+**जाल-प्रकार:** Sound-Right (prefer…than बोलचाल में सुनने को मिलता है)।
+**स्रोत:** PYQ-style
+
+**प्रश्न 8.** Each of the students (a)/ were given (b)/ a certificate by the principal. (c)/ No error (d)
+**उत्तर:** (b) — "was given"। Each of के बाद singular क्रिया।
+**जाल-प्रकार:** Intervening Phrase।
+**स्रोत:** PYQ-style
+
+**प्रश्न 9.** The teacher asked the students (a)/ that why they (b)/ were late that day. (c)/ No error (d)
+**उत्तर:** (b) — "that" हटाएँ। Indirect question में "asked why they were late" — that और why साथ नहीं आते।
+**जाल-प्रकार:** Over-thinking का उल्टा रूप — दो connectors को सही समझ लेना।
+**स्रोत:** PYQ-style
+
+**प्रश्न 10.** He is one of the best players (a)/ that has ever played (b)/ for the country. (c)/ No error (d)
+**उत्तर:** (b) — "that have ever played"। "One of the + plural noun + who/that" के बाद relative clause की क्रिया plural होती है (players को संदर्भित)।
+**जाल-प्रकार:** Over-thinking — "one" देखकर singular लगाना स्वाभाविक लगता है, पर नियम उल्टा है।
+**स्रोत:** PYQ-style
+
+## 15/45-सेकंड नियम — दो प्रश्नों पर प्रयोग
+
+**⏱️ 15 सेकंड (तथ्यात्मक): प्रश्न 2** — "One of my friends are going…" देखते ही नियम याद आता है: *One of + plural noun + singular verb*। कोई संदर्भ-विश्लेषण नहीं, सीधा नियम-लागू। ऐसे प्रश्न 15 सेकंड में टिक करके आगे बढ़ें — यही बचा समय RC और inference प्रश्नों को दें।
+
+**⏱️ 45 सेकंड (तार्किक): प्रश्न 10** — "One of the best players that has/have…" में दो प्रतिस्पर्धी नियम हैं (one = singular? या players = plural?)। यहाँ रुककर सोचें: relative pronoun *that* किसे संदर्भित करता है — *players* को। अतः *have*। ऐसे प्रश्न पर 45 सेकंड खर्च करना उचित है; जल्दबाज़ी में यहीं गलती होती है — और यही प्रविष्टि आपके **त्रुटि लॉग** में जानी चाहिए।
+
+## अपने त्रुटि लॉग में कैसे दर्ज करें
+
+हर गलत प्रश्न के लिए ये कॉलम भरें:
+
+| कॉलम | उदाहरण (प्रश्न 10 से) |
+|---|---|
+| तिथि | आज की तिथि |
+| प्रश्न-स्रोत | Practice Set / Mock |
+| जाल-प्रकार | Over-thinking |
+| मैंने क्या गलत उत्तर चुना | "has" |
+| सही नियम (एक पंक्ति) | One of the + plural noun + that/who → plural verb |
+| 2 दिन बाद दोहराया? | ☐ |
+
+जब लॉग में एक ही जाल-प्रकार तीन बार दिखे, समझिए वही आपका **कमज़ोर बिंदु** है — उसी नियम को Important Rules खंड से दोबारा पढ़ें।

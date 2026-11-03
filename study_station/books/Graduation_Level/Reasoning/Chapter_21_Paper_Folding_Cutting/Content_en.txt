@@ -1,0 +1,153 @@
+# Paper Folding & Cutting
+
+## Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Understand what "paper folding" and "paper cutting/punching" questions actually test.
+2. Mentally **unfold** a paper step by step — the single most important skill here.
+3. Predict the number and position of holes/cuts after any sequence of folds.
+4. Handle diagonal folds, multiple punches, and mixed fold-cut questions.
+5. Spot and avoid the examiner's favourite traps.
+
+---
+
+## The Hook: One Snip, Eight Holes?
+
+Take a square sheet. Fold it in half. Fold it in half again. Now punch **one** hole with a pin. Unfold the paper. How many holes do you see?
+
+Most beginners say "two". The correct answer is **four** — and if the folds were diagonal, the holes land in positions you never imagined. This tiny surprise is the entire soul of this chapter. Every question in the exam is just this game, played a little faster and a little trickier.
+
+The good news: toppers don't have "better imagination" than you. They follow a **fixed mechanical method**. Learn that method, and these questions become free marks.
+
+---
+
+## Why Students Struggle (And Why You Won't)
+
+Paper folding questions feel hard because our brain tries to see the *final answer directly*. That is like trying to read the last page of a novel first. The brain is excellent at **reversing steps one at a time** — and that is exactly the trick we will use.
+
+> **Golden Principle:** Never try to imagine the folded paper. Always **unfold** it — step by step, in reverse order.
+
+🧠 **Active Recall:** Before reading further, answer this — if a paper is folded 3 times and 1 hole is punched, what is the *maximum* number of holes after unfolding? (Answer: 2³ = 8. Keep this formula in mind; we will use it soon.)
+
+---
+
+## Chunk 1: The Two Families of Questions
+
+**Family A — Paper Folding (shape-based):** A transparent or opaque sheet is folded along dotted lines, and you must choose what the folded (or unfolded) figure looks like. Sometimes a design is drawn on the sheet and you must find where it appears after folding.
+
+**Family B — Paper Folding & Punching/Cutting (hole-based):** The paper is folded one or more times, then holes are punched or a corner is cut. You must choose the pattern seen after complete unfolding. This is the family SSC, Banking and Railway exams love the most.
+
+The solving engine for both families is the same: **reverse unfolding**.
+
+---
+
+## Chunk 2: The Core Method — Unfold in Reverse
+
+**Step 1.** Read the folds in order: Fold 1, Fold 2, Fold 3… Note the **direction** of each fold (left→right, bottom→top, diagonal).
+
+**Step 2.** Look at the punched hole(s) on the final folded paper.
+
+**Step 3.** Now go **backwards**: undo the *last* fold first. Every hole gets a **mirror image** across that fold line.
+
+**Step 4.** Undo the second-last fold — again mirror **all** existing holes across that fold line.
+
+**Step 5.** Continue until the paper is fully open. The final pattern is your answer.
+
+> **Key rule:** Unfolding = **reflection**. Each unfold doubles the holes across that fold line (unless a hole lies exactly *on* the fold line — then it does not double).
+
+🧠 **Active Recall:** A hole lies exactly on a fold line. After unfolding, does it become 2 holes or stay 1? (It stays 1 — a point on the mirror line is its own reflection.)
+
+---
+
+## Chunk 3: The Counting Formula (Your Safety Net)
+
+If a paper is folded **n** times and **k** holes are punched on the final folded paper:
+
+**Maximum holes after unfolding = k × 2ⁿ**
+
+- 1 fold, 1 punch → 2 holes
+- 2 folds, 1 punch → 4 holes
+- 3 folds, 2 punches → 16 holes
+
+**When does the count fall below the maximum?**
+- A punch lies **on a fold line** → that hole doesn't double for that fold.
+- A punch lies on an **edge/corner** shared by folds → fewer reflections.
+- A **cut** (not a punch) on an edge → produces half-shapes or notches, not closed holes.
+
+Use this formula to **eliminate options instantly**. If the paper was folded twice and punched once, any option showing 3, 5 or 6 holes is wrong before you even look at positions.
+
+🧠 **Active Recall:** Folded 3 times, 1 punch, and the punch is on one fold line. How many holes? (1 × 2³ = 8 maximum, but one fold doesn't double it → 4 holes.)
+
+---
+
+## Chunk 4: Diagonal Folds — The Real Test
+
+Diagonal folds (along the corner-to-corner line) scare students because the mirror images land at "tilted" positions. Handle them the same way:
+
+1. The fold line is your **mirror**.
+2. Reflect each hole across that diagonal — distances stay equal, but on the other side.
+3. A square folded along its diagonal becomes a **triangle**; holes near the diagonal stay near it after reflection.
+
+**Mnemonic — "MIRROR":**
+- **M**ark the folds in order
+- **I**dentify the punches
+- **R**everse the order (last fold first)
+- **R**eflect across each fold line
+- **O**pen fully
+- **R**ead the final pattern
+
+Say "MIRROR the paper" before every question and the method will never leave you.
+
+---
+
+## Chunk 5: Cutting Questions — Small Twist, Same Engine
+
+When the paper is **cut** instead of punched:
+
+- A cut on a **folded edge** → opens into a symmetric shape **on** the fold line (e.g., a half-circle cut on the fold becomes a full circle on the crease).
+- A cut on a **free edge** → appears as notches on the outer boundary, mirrored by each unfold.
+- Cutting off a **corner of the folded paper** → if that corner was the centre of the original sheet, you get a hole in the middle; if it was an outer corner, you get a clipped corner.
+
+Ask yourself one question for every cut: *"Is this point on a fold, on a free edge, or inside?"* The answer decides the final shape.
+
+🧠 **Active Recall:** The folded corner that corresponds to the **centre** of the original sheet is snipped off. What appears on unfolding — a boundary notch or a central hole? (A central hole.)
+
+---
+
+## Chunk 6: Exam-Day Workflow (30-Second Routine)
+
+1. **Count folds** (n) and punches (k) → compute k × 2ⁿ → eliminate wrong-count options. *(10 sec)*
+2. **Undo the last fold** mentally → where do holes go? Eliminate again. *(10 sec)*
+3. **Undo remaining folds** → match the final pattern. *(10 sec)*
+
+If two options still look identical, check **distance from fold lines** — examiners hide the difference there.
+
+---
+
+## Summary Table
+
+| Situation | Result on Unfolding |
+|---|---|
+| n folds, k punches (general position) | k × 2ⁿ holes |
+| Punch on a fold line | Does not double for that fold |
+| Punch on shared corner/edge | Fewer than maximum holes |
+| Cut on folded edge | Symmetric shape on the crease |
+| Cut on free edge | Notches on outer boundary |
+| Corner cut at sheet's centre point | Central hole |
+| Corner cut at outer corner | Clipped corner |
+| Diagonal fold | Reflections across the diagonal mirror |
+
+---
+
+## ⚠️ Caution: Examiner's Trap
+
+**Trap 1 — Unclear figures on screen/paper.** In the exam, fold arrows and punch dots are printed small and faint. Students misread the **direction** of a fold (left-to-right vs right-to-left) and mirror the holes to the wrong side. *Defence:* before solving, spend 3 seconds confirming each arrow's direction. Direction decides everything.
+
+**Trap 2 — Differences hidden in look-alike options.** Two options often show the *same number* of holes, differing only in **distance from the centre or fold line**. Students who count holes but skip positions fall straight in. *Defence:* after counting, always verify the position of at least one outer hole and one inner hole.
+
+**Trap 3 — Small change in rotation/mirror.** When the question shows a design (arrow, dot, shaded triangle) on a folded transparent sheet, options differ by subtle rotation or left-right flip. A fold produces a **mirror image**, not a rotation — examiners swap the two. *Defence:* remember — unfolding = reflection only. If an option is a rotated (not mirrored) version, reject it.
+
+---
+
+📌 **Review this chapter after 2 days.** Redo the MIRROR method on 5 fresh questions without looking at the rules — if you can unfold backwards smoothly, this chapter is permanently yours.

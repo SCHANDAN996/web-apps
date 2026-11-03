@@ -1,0 +1,29 @@
+# Important Formulas — Simple Interest
+
+| Formula Name | Formula | One-line Use-Hint |
+|---|---|---|
+| Simple Interest | SI = (P × R × T) / 100 | Core formula; P = principal, R = rate % p.a., T = time in years |
+| Principal | P = (SI × 100) / (R × T) | When interest, rate and time are known |
+| Rate | R = (SI × 100) / (P × T) | When interest, principal and time are known |
+| Time | T = (SI × 100) / (P × R) | When interest, principal and rate are known |
+| Amount | A = P + SI = P(1 + RT/100) | Total money received/paid back |
+| Amount (direct) | A = P(100 + RT) / 100 | Skip computing SI separately |
+| Time in months | T = months / 12 | Convert before applying formula |
+| Time in days | T = days / 365 | Use 365 (or 366 for leap year) unless stated |
+| Rate per month ↔ per year | R(annual) = 12 × R(monthly) | Match units of R and T always |
+| Sum becomes n times | SI = (n − 1)P, so T = 100(n − 1)/R | "Doubles/triples" type questions |
+| Time to double | T = 100 / R | Special case of n = 2 |
+| Time to triple | T = 200 / R | Special case of n = 3 |
+| Rate to double in T years | R = 100 / T | Reverse of the doubling rule |
+| Two rates, same SI | P₁R₁T₁ = P₂R₂T₂ | Equate when interests are equal |
+| Principal split into parts | (P₁R₁T₁ + P₂R₂T₂)/100 = Total SI | Money lent in two parts |
+| SI difference (two rates) | ΔSI = P × ΔR × T / 100 | Same sum, different rates |
+| SI difference (two times) | ΔSI = P × R × ΔT / 100 | Same sum, different durations |
+| Annual instalment (to clear debt) | x = 100D / [100n + R·n(n−1)/2] | D = debt, n = number of equal yearly instalments, R = rate % p.a. |
+| SI as fraction of principal | SI/P = RT/100 | Quick ratio check |
+| Effective relation with CI (2 yrs) | CI − SI = P(R/100)² | Gap between CI and SI for 2 years |
+| CI − SI (3 years) | CI − SI = P(R/100)²(3 + R/100) | Gap for 3 years |
+| Principal from CI–SI gap (2 yrs) | P = (CI − SI) × (100/R)² | Find P when the 2-year gap is given |
+| Rate from SI & Amount | R = 100(A − P)/(P × T) | When amount instead of SI is given |
+| Changing rate over periods | SI = P(R₁T₁ + R₂T₂ + …)/100 | Rate varies year to year |
+| Borrowed & lent (net gain) | Net SI = (P₂R₂T₂ − P₁R₁T₁)/100 | Gain = interest earned − interest paid |

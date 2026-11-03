@@ -1,0 +1,33 @@
+```mermaid
+graph TD
+    A["Verb"] --> B["Kinds of Verbs"]
+    A --> C["Five Forms"]
+    A --> D["Signal Words"]
+    A --> E["Subject-Verb Agreement"]
+    A --> F["Transitive / Intransitive"]
+    A --> G["Examiner's Traps"]
+
+    B --> B1["Main verb: write, eat"]
+    B --> B2["Helping: is, has, did"]
+    B --> B3["Modal: can, must, will"]
+
+    C --> C1["base: go"]
+    C --> C2["-s: goes"]
+    C --> C3["past: went"]
+    C --> C4["past participle: gone"]
+    C --> C5["-ing: going"]
+
+    D --> D1["modal / do → base form"]
+    D --> D2["has / have / had → participle"]
+    D --> D3["is / are / was → -ing"]
+
+    E --> E1["he/she/it → -s"]
+    E --> E2["each, every, one of → singular"]
+    E --> E3["A and B → plural"]
+
+    F --> F1["Ask what? / whom?"]
+
+    G --> G1["has went"]
+    G --> G2["can sings"]
+    G --> G3["one of ... are"]
+```

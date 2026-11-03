@@ -1,20 +1,27 @@
 ```mermaid
-graph TD
-    R["💭 कथन और निष्कर्ष<br>Statement & Conclusion"]
-    R --> D["📖 अर्थ<br>कौन-सा निष्कर्ष निकलता है"]
-    R --> M["🗝️ नियम<br>केवल कथन मानो"]
-    R --> K["🔑 मुख्य विचार"]
-    R --> TR["⚠️ जाल<br>Traps"]
+flowchart TD
+    A[Statement & Conclusion] --> B[Core Principles]
+    A --> C[Basic Relation Types]
+    A --> D[Testing Strategy: T.E.A.]
+    A --> E[Examiner's Traps]
 
-    M --> M1["कथन को 100% सच मानो"]
-    M --> M2["बाहरी ज्ञान मत मिलाओ"]
+    B --> B1[Take Statement as 100% True]
+    B --> B2[Zero External Knowledge]
+    B --> B3[Robot Brain: Stick to Given Data]
 
-    K --> K1["सभी A,B → कुछ B,A"]
-    K --> K2["कोई A,B नहीं → कोई B,A नहीं"]
-    K --> K3["संभावना ≠ निष्कर्ष"]
-    K --> K4["या तो-या (Either-Or)"]
+    C --> C1["All A are B (Universal Affirmative)"]
+    C --> C2["Some A are B (Particular Affirmative)"]
+    C --> C3["No A is B (Universal Negative)"]
 
-    TR --> TR1["अपनी जानकारी मिलाना"]
-    TR --> TR2["कुछ को सभी समझना"]
-    TR --> TR3["संभावना को निष्कर्ष मानना"]
+    C1 --> C1a["Conversion: Some B are A"]
+    C2 --> C2a["Conversion: Some B are A"]
+    C3 --> C3a["Conversion: No B is A"]
+
+    D --> D1["T - True as per statement only"]
+    D --> D2["E - Eliminate outside knowledge"]
+    D --> D3["A - Avoid 'Some not' from 'Some'"]
+
+    E --> E1["Trap 1: 'Some A are B' does NOT mean 'Some A are not B'"]
+    E --> E2["Trap 2: Heavy Vocabulary & Complex Phrasing"]
+    E --> E3["Trap 3: Possibility vs Definite Certainty"]
 ```

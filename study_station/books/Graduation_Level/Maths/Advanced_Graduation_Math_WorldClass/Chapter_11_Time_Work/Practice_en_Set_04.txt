@@ -1,0 +1,151 @@
+Questions 76–100: Medium
+
+76. A can do a piece of work in 12 days and B can do it in 18 days. They work together for 4 days, after which A leaves. In how many more days will B finish the remaining work?
+(a) 6 days (b) 8 days (c) 7 days (d) 5 days
+Answer: (b)
+Solution: Combined rate = 1/12 + 1/18 = 5/36 per day, so in 4 days they complete 20/36 = 5/9, leaving 4/9. The trap is dividing the remaining work by the combined rate even though A has left. B alone works at 1/18 per day, so time = (4/9) × 18 = 8, so the answer is 8 days.
+Source: PYQ-style
+
+77. A is twice as efficient as B. Together they finish a work in 12 days. In how many days can A alone finish the work?
+(a) 20 days (b) 16 days (c) 18 days (d) 24 days
+Answer: (c)
+Solution: Let B's rate be x, then A's rate is 2x; combined 3x = 1/12, so x = 1/36 and A's rate = 1/18. The trap is doubling 12 to get 24, which gives B's time, not A's. A alone takes 18 days, so the answer is 18 days.
+Source: NCERT Class 8 Mathematics
+
+78. A and B can do a work in 20 and 30 days respectively. They start together, but A leaves 5 days before completion. In how many days is the work finished?
+(a) 15 days (b) 16 days (c) 14 days (d) 17 days
+Answer: (a)
+Solution: In the last 5 days B works alone, completing 5/30 = 1/6 of the work. The remaining 5/6 was done together at 1/20 + 1/30 = 1/12 per day, taking (5/6) × 12 = 10 days. The trap is subtracting 5 from the together-time of 12 days. Total time = 10 + 5 = 15, so the answer is 15 days.
+Source: PYQ-style
+
+79. 12 men can complete a work in 18 days. After working for 6 days, 4 more men join. In how many more days will the work be completed?
+(a) 9 days (b) 10 days (c) 11 days (d) 12 days
+Answer: (a)
+Solution: Total work = 12 × 18 = 216 man-days. In 6 days, 12 men do 72 man-days, leaving 144 man-days. The trap is forgetting that 4 men joined and dividing 144 by 12. With 16 men, time = 144/16 = 9, so the answer is 9 days.
+Source: NCERT Class 8 Mathematics
+
+80. A can do a work in 15 days, B in 20 days. They work on alternate days, starting with A. In how many days will the work be completed?
+(a) 17 days (b) 16 days (c) 17½ days (d) 18 days
+Answer: (a)
+Solution: In each 2-day cycle, work done = 1/15 + 1/20 = 7/60. After 8 cycles (16 days), 56/60 is done, leaving 4/60 = 1/15, which A completes exactly on day 17. The trap is adding a full extra day for the remainder. The work finishes exactly on day 17, so the answer is 17 days.
+Source: PYQ-style
+
+81. A pipe can fill a tank in 12 hours and another can empty it in 20 hours. If both are opened together, in how many hours will the tank be filled?
+(a) 32 hours (b) 28 hours (c) 24 hours (d) 30 hours
+Answer: (d)
+Solution: Net rate = 1/12 − 1/20 = (5 − 3)/60 = 1/30 per hour. The trap is adding the rates instead of subtracting the emptying pipe, which gives 7.5 hours. Time = 30 hours, so the answer is 30 hours.
+Source: NCERT Class 8 Mathematics
+
+82. A and B together can do a work in 8 days. A alone can do it in 12 days. They work together for 3 days, then A leaves. How long will B take to finish the rest?
+(a) 15 days (b) 20 days (c) 18 days (d) 12 days
+Answer: (a)
+Solution: B's rate = 1/8 − 1/12 = 1/24 per day. In 3 days together they finish 3/8, leaving 5/8. The trap is using A's rate 1/12 for the remaining work, giving 7.5 days. B needs (5/8) × 24 = 15, so the answer is 15 days.
+Source: PYQ-style
+
+83. 8 men or 12 women can do a work in 25 days. In how many days can 6 men and 11 women do the same work?
+(a) 20 days (b) 18 days (c) 22 days (d) 15 days
+Answer: (d)
+Solution: 8 men = 12 women, so 1 man = 1.5 women; hence 6 men = 9 women and the team equals 9 + 11 = 20 women. The trap is adding 6 + 11 = 17 workers directly without converting men into women. Work = 12 × 25 = 300 woman-days, so time = 300/20 = 15, so the answer is 15 days.
+Source: PYQ-style
+
+84. A takes 50% more time than B to do a work. If together they take 18 days, how long does B alone take?
+(a) 45 days (b) 27 days (c) 36 days (d) 30 days
+Answer: (d)
+Solution: A takes 1.5 times B's time, so B's rate is 1.5 times A's rate; take A's rate as 2x and B's as 3x. Combined 5x = 1/18, so x = 1/90 and B's rate = 3/90 = 1/30. The trap is computing 18 × 1.5 = 27 directly. B alone takes 30 days, so the answer is 30 days.
+Source: PYQ-style
+
+85. A can do a work in 18 days. He works alone for 6 days, then B joins and together they finish the work in 8 more days. In how many days can B alone do the work?
+(a) 24 days (b) 30 days (c) 36 days (d) 40 days
+Answer: (c)
+Solution: A works for all 14 days, completing 14/18 = 7/9, so B does 2/9 in 8 days. B's rate = (2/9)/8 = 1/36 per day. The trap is counting only 6 days of A's work instead of all 14. B alone takes 36 days, so the answer is 36 days.
+Source: PYQ-style
+
+86. Two pipes can fill a tank in 10 and 15 hours respectively. A third pipe empties it in 30 hours. If all three are opened, in how many hours will the tank fill?
+(a) 5 hours (b) 6 hours (c) 8 hours (d) 7.5 hours
+Answer: (d)
+Solution: Net rate = 1/10 + 1/15 − 1/30 = (3 + 2 − 1)/30 = 4/30 = 2/15 per hour. The trap is adding all three rates, which gives 1/5 per hour and 5 hours. Time = 15/2 = 7.5, so the answer is 7.5 hours.
+Source: NCERT Class 8 Mathematics
+
+87. A is 60% more efficient than B. If B can do a work in 32 days, in how many days will A do it?
+(a) 18 days (b) 22 days (c) 20 days (d) 24 days
+Answer: (c)
+Solution: A's rate = 1.6 × B's rate, so A's time = 32/1.6 = 20 days. The trap is reducing 32 by 60%, which wrongly gives about 13 days, because efficiency and time are inversely related. A takes 20 days, so the answer is 20 days.
+Source: PYQ-style
+
+88. A, B and C can do a work in 12, 15 and 20 days respectively. They work together for 2 days, then C leaves. In how many more days will A and B finish the work?
+(a) 5 days (b) 6 days (c) 4 days (d) 7 days
+Answer: (c)
+Solution: Combined rate of all three = 1/12 + 1/15 + 1/20 = 12/60 = 1/5, so in 2 days they finish 2/5, leaving 3/5. The trap is continuing with the three-person rate after C leaves. A and B together work at 1/12 + 1/15 = 3/20 per day, so time = (3/5) ÷ (3/20) = 4, so the answer is 4 days.
+Source: PYQ-style
+
+89. 15 men can complete a work in 20 days working 8 hours a day. In how many days can 10 men complete the same work working 10 hours a day?
+(a) 20 days (b) 25 days (c) 22 days (d) 24 days
+Answer: (d)
+Solution: Total work = 15 × 20 × 8 = 2400 man-hours. With 10 men at 10 hours/day, days = 2400/(10 × 10) = 24. The trap is ignoring hours and computing 15 × 20/10 = 30 days. The answer is 24 days.
+Source: NCERT Class 8 Mathematics
+
+90. A can do a work in 10 days, B in 15 days. They work together but A leaves after some days, and B completes the remaining work in 5 days. For how many days did they work together?
+(a) 4 days (b) 3 days (c) 5 days (d) 6 days
+Answer: (a)
+Solution: In the last 5 days alone B does 5/15 = 1/3 of the work, so together they did 2/3 at rate 1/10 + 1/15 = 1/6 per day, taking (2/3) × 6 = 4 days. The trap is assuming A left exactly after 5 days. They worked together for 4 days, so the answer is 4 days.
+Source: PYQ-style
+
+91. A and B can do a work in 12 days, B and C in 15 days, A and C in 20 days. In how many days can C alone do the work?
+(a) 40 days (b) 70 days (c) 50 days (d) 60 days
+Answer: (d)
+Solution: Adding the three pair rates: 2(A + B + C) = 1/12 + 1/15 + 1/20 = 1/5, so A + B + C = 1/10 per day. C's rate = 1/10 − 1/12 = 1/60. The trap is forgetting to halve the sum of the pair rates, which doubles every answer. C alone takes 60 days, so the answer is 60 days.
+Source: PYQ-style
+
+92. A tank has a leak that empties it in 8 hours. A tap fills it at 12 litres per minute. With the leak open, the tank fills in 24 hours. What is the capacity of the tank?
+(a) 2880 litres (b) 5760 litres (c) 4320 litres (d) 8640 litres
+Answer: (c)
+Solution: If the tap alone fills the tank in T hours, then 1/T − 1/8 = 1/24, so 1/T = 1/6 and T = 6 hours. The trap is multiplying the tap rate by 24 hours, which ignores the leak and gives 8640 litres. Capacity = 12 × 60 × 6 = 4320 litres, so the answer is 4320 litres.
+Source: PYQ-style
+
+93. A can do a work in 16 days and B can do it in 48 days. They work together for 4 days, then C joins and the work finishes in 4 more days. In how many days can C alone do the work?
+(a) 10 days (b) 12 days (c) 14 days (d) 16 days
+Answer: (b)
+Solution: A and B together work at 1/16 + 1/48 = 1/12 per day, so in 4 days they finish 1/3, leaving 2/3. All three finish this in 4 days, so their combined rate is 1/6 per day and C's rate = 1/6 − 1/12 = 1/12. The trap is crediting C with the whole remaining work instead of subtracting A and B's share. C alone takes 12 days, so the answer is 12 days.
+Source: PYQ-style
+
+94. A alone can finish a work in 18 days and B alone in 24 days. They work on alternate days starting with B. On which day will the work be completed?
+(a) 20⅔ day (b) 21st day (c) 21½ day (d) 20th day
+Answer: (a)
+Solution: Per 2-day cycle, work done = 1/18 + 1/24 = 7/72. After 10 cycles (20 days), 70/72 is done, leaving 2/72 = 1/36. Day 21 is B's turn and B works at 1/24 per day, needing (1/36)/(1/24) = 2/3 of a day. The trap is adding a full 21st day. The work ends on the 20⅔ day, so the answer is 20⅔ day.
+Source: PYQ-style
+
+95. 4 men and 6 women can complete a work in 8 days, while 3 men and 7 women can complete it in 10 days. In how many days will 10 women complete it?
+(a) 40 days (b) 50 days (c) 45 days (d) 35 days
+Answer: (a)
+Solution: Let a man's daily work be m and a woman's be w: 4m + 6w = 1/8 and 3m + 7w = 1/10. Eliminating m gives 10w = 4/10 − 3/8 = 1/40. The trap is solving for the man's rate when the question asks about women. Ten women do 1/40 per day, so the answer is 40 days.
+Source: PYQ-style
+
+96. A can do a work in 25 days. He works for 5 days and then B finishes the remaining work in 16 days. In how many days can A and B together do the whole work?
+(a) 10 days (b) 100/9 days (c) 200/9 days (d) 12 days
+Answer: (b)
+Solution: In 5 days A completes 5/25 = 1/5, leaving 4/5, which B does in 16 days, so B's rate = 1/20 per day. Combined rate = 1/25 + 1/20 = 9/100. The trap is averaging 25 and 20 instead of adding the rates. Together they take 100/9 days, so the answer is 100/9 days.
+Source: PYQ-style
+
+97. Pipe A fills a tank in 6 hours, pipe B in 8 hours. They are opened alternately for 1 hour each, starting with A. In how many hours will the tank be full?
+(a) 6½ hours (b) 6¾ hours (c) 7 hours (d) 7¼ hours
+Answer: (b)
+Solution: Per 2-hour cycle, 1/6 + 1/8 = 7/24 is filled. After 3 cycles (6 hours), 21/24 is filled, leaving 3/24 = 1/8. Hour 7 is A's turn, and A fills 1/6 per hour, needing (1/8)/(1/6) = 3/4 hour. The trap is giving the 7th hour to B. Total = 6¾ hours, so the answer is 6¾ hours.
+Source: PYQ-style
+
+98. A and B can do a work in 10 and 15 days respectively. They start together, but after some days A leaves and B completes the remaining work in 5 days. For how many days did A work?
+(a) 3 days (b) 4 days (c) 5 days (d) 6 days
+Answer: (b)
+Solution: In the final 5 days alone B does 5/15 = 1/3 of the work, so together they completed 2/3 at rate 1/10 + 1/15 = 1/6 per day, taking (2/3) × 6 = 4 days. The trap is assuming A worked for the same 5 days that B worked alone. A worked for 4 days, so the answer is 4 days.
+Source: PYQ-style
+
+99. A is thrice as good a workman as B and finishes a work 40 days earlier than B. In how many days can they finish the work together?
+(a) 12 days (b) 18 days (c) 15 days (d) 20 days
+Answer: (c)
+Solution: If A takes x days, B takes 3x days, and 3x − x = 40 gives x = 20, so A takes 20 days and B takes 60 days. Combined rate = 1/20 + 1/60 = 1/15. The trap is taking x = 40/3 by dividing the difference by the efficiency ratio. Together they take 15 days, so the answer is 15 days.
+Source: PYQ-style
+
+100. A, B and C can complete a work in 10, 12 and 15 days respectively. All start together, but A leaves after 2 days and B leaves 3 days before completion. In how many days is the work completed?
+(a) 6 days (b) 7 days (c) 8 days (d) 9 days
+Answer: (b)
+Solution: Let total time be T days; A works 2 days, B works (T − 3) days, C works all T days: 2/10 + (T − 3)/12 + T/15 = 1. Multiplying by 60: 12 + 5(T − 3) + 4T = 60, so 9T = 63 and T = 7. The trap is assuming all three work for the full T days. The work is completed in 7 days, so the answer is 7 days.
+Source: PYQ-style

@@ -1,0 +1,36 @@
+```mermaid
+graph TD
+    A["विलोम शब्द<br>(Antonyms)"] --> B["अर्थ<br>Definition"]
+    A --> C["बनावट की रणनीति<br>Word Formation"]
+    A --> D["परीक्षक के जाल<br>Traps"]
+    A --> E["हल करने की रणनीति<br>Strategy"]
+    A --> F["महत्वपूर्ण मूल शब्द<br>Roots"]
+
+    B --> B1["विपरीत अर्थ वाला शब्द<br>Opposite Meaning"]
+    B --> B2["उदाहरण: Happy ↔ Sad<br>Begin ↔ End"]
+
+    C --> C1["उपसर्ग से विलोम<br>Prefix Method"]
+    C1 --> C1a["un- : happy → unhappy"]
+    C1 --> C1b["in-/im-/il-/ir- :<br>possible → impossible"]
+    C1 --> C1c["dis- : agree → disagree"]
+    C1 --> C1d["anti- : social → antisocial"]
+    C --> C2["अलग मूल शब्द<br>Different Root Word"]
+    C2 --> C2a["Ancient ↔ Modern"]
+    C2 --> C2b["Victory ↔ Defeat"]
+
+    D --> D1["जाल 1: लगभग-सही विकल्प<br>Near-synonym as trap"]
+    D --> D2["जाल 2: समानार्थी को विलोम<br>समझ लेना"]
+    D --> D3["जाल 3: उपसर्ग जोड़ने पर<br>अर्थ न बदलना<br>जैसे flammable ↔ inflammable<br>(दोनों समान अर्थ!)"]
+
+    E --> E1["चरण 1: शब्द का अर्थ पहचानो"]
+    E --> E2["चरण 2: अपने शब्दों में<br>उल्टा सोचो"]
+    E --> E3["चरण 3: विकल्पों में मिलाओ"]
+    E --> E4["15 सेकंड नियम:<br>तथ्यात्मक विलोम तुरंत हल करो"]
+    E --> E5["अनजान शब्द हो तो<br>Skip Strategy अपनाओ"]
+
+    F --> F1["bene = अच्छा<br>benevolent ↔ malevolent"]
+    F --> F2["mal = बुरा<br>malice ↔ goodwill"]
+    F --> F3["anti = विरुद्ध<br>antonym, antibiotic"]
+    F --> F4["philo = प्रेम<br>philanthropy ↔ misanthropy"]
+    F --> F5["chrono = समय<br>chronic ↔ temporary"]
+```

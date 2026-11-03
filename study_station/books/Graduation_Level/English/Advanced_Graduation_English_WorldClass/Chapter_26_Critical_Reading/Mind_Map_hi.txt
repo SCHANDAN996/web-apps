@@ -1,0 +1,44 @@
+```mermaid
+graph TD
+    A["आलोचनात्मक पठन<br>Critical Reading"] --> B["पठन की 3 परतें"]
+    A --> C["प्रश्न-प्रकार"]
+    A --> D["टोन मैपिंग"]
+    A --> E["अनुमान रणनीति<br>Detective Approach"]
+    A --> F["परीक्षक के जाल"]
+    A --> G["समय प्रबंधन"]
+
+    B --> B1["शाब्दिक अर्थ<br>Literal"]
+    B --> B2["व्याख्यात्मक अर्थ<br>Interpretive"]
+    B --> B3["आलोचनात्मक मूल्यांकन<br>Evaluative"]
+
+    C --> C1["तथ्यात्मक प्रश्न<br>Fact-based"]
+    C --> C2["अनुमान प्रश्न<br>Inference"]
+    C --> C3["टोन/दृष्टिकोण प्रश्न"]
+    C --> C4["शीर्षक/मुख्य विचार"]
+    C --> C5["शब्दावली-संदर्भ प्रश्न"]
+
+    D --> D1["सकारात्मक<br>Optimistic / Appreciative"]
+    D --> D2["नकारात्मक<br>Critical / Pessimistic"]
+    D --> D3["तटस्थ<br>Neutral / Analytical"]
+    D --> D4["व्यंग्यात्मक<br>Sarcastic / Ironic"]
+
+    E --> E1["सुराग खोजो<br>Textual Clues"]
+    E --> E2["लेखक का उद्देश्य पहचानो"]
+    E --> E3["अपनी राय बाहर रखो"]
+    E --> E4["गद्यांश से बाहर का ज्ञान मना"]
+
+    F --> F1["लगभग-सही कथन<br>Half-true options"]
+    F --> F2["चरम शब्द<br>Always / Never / All"]
+    F --> F3["गद्यांश से बाहर का विकल्प"]
+    F --> F4["शब्द-बदलकर उल्टा अर्थ"]
+
+    G --> G1["तथ्यात्मक = 15 सेकंड"]
+    G --> G2["तार्किक/अनुमान = 45 सेकंड"]
+    G --> G3["कठिन प्रश्न Skip करो<br>बाद में लौटो"]
+
+    A --> H["शब्दावली जड़ें<br>Roots"]
+    H --> H1["cred = विश्वास<br>credible, incredible"]
+    H --> H2["dict = कहना<br>predict, contradict"]
+    H --> H3["spect = देखना<br>inspect, perspective"]
+    H --> H4["path = भावना<br>sympathy, apathy"]
+```

@@ -1,0 +1,108 @@
+# 📊 PYQ Analysis — Spelling Check
+
+## How Exams Test Spelling
+
+Spelling questions appear in almost every objective English paper — SSC CGL, CHSL, MTS, IBPS, RRB NTPC, and State exams. The format is remarkably stable: you are given **four words (or four sentences with one word highlighted)** and asked to pick the correctly or incorrectly spelt one. Occasionally, a sentence contains a misspelt word that you must identify.
+
+**What the pattern analysis shows (in words, not numbers):**
+
+- **Most frequently tested sub-topics:**
+  1. Double-letter confusion (occasion/ocassion, accommodate/accomodate, committee/comittee)
+  2. -ie- vs -ei- words (receive, believe, height, foreign)
+  3. Silent letters (psychology, honest, knife, subtle)
+  4. -able vs -ible endings (advisable, permissible, responsible)
+  5. -ance/-ence and -ant/-ent pairs (independent, attendance, persistent)
+  6. British vs American variants (colour/color, programme/program) — usually both accepted, but exams test the *British* form as standard
+  7. Commonly mispronounced words spelt by sound (February, Wednesday, government, environment)
+  8. Noun/verb pairs (advice/advise, practice/practise, licence/license)
+
+- **Difficulty trend:** Easier papers (MTS, Group D) test everyday words (beautiful, necessary, tomorrow). Harder papers (CGL, IBPS PO) test less common words (entrepreneur, manoeuvre, questionnaire, bureaucracy).
+
+- **One question per paper is typical** in SSC exams; banking exams sometimes fold spelling into "error spotting" where the error *is* a misspelling.
+
+---
+
+## Examiner's Trap Types in Spelling Questions
+
+| Trap Type | How It Works | Example |
+|---|---|---|
+| **Sound-Right Trap** | The wrong option *sounds* exactly like the right word when spoken | "tommorrow", "occured", "seperate" — all sound plausible |
+| **Double-Letter Swap** | Doubling the wrong letter or removing a needed double | "acommodate", "neccessary", "embarass" |
+| **Analogy Trap** | A spelling that follows a *false* pattern from another word | "maintainance" (by analogy with "attendance") — correct is **maintenance** |
+| **Over-thinking Trap** | The simple, familiar spelling is correct, but students pick an exotic-looking option | "questionnaire" looks wrong to some; they pick "questionaire" |
+
+---
+
+## Top 10 High-Yield PYQ-Style Questions with Solutions
+
+**Q1.** Choose the correctly spelt word.
+(a) Occassion (b) Ocasion (c) Occasion (d) Occasionn
+**Answer: (c)**
+**Solution:** "Occasion" has double **c**, single **s**. Trap type: *Double-Letter Swap* — option (a) doubles the wrong letter.
+**Source:** PYQ-style
+
+**Q2.** Choose the correctly spelt word.
+(a) Recieve (b) Receive (c) Riceive (d) Receeve
+**Answer: (b)**
+**Solution:** Rule: *i before e, except after c* — after "c" comes **ei**: re-CEI-ve. Trap type: *Sound-Right* — (a) is the single most common spelling error in English.
+**Source:** PYQ-style
+
+**Q3.** Choose the correctly spelt word.
+(a) Maintainance (b) Maintenence (c) Maintenance (d) Maintenanse
+**Answer: (c)**
+**Solution:** The verb is "maintain" but the noun drops to **-tenance**: maintenance. Trap type: *Analogy Trap* — students copy "attendance/attendance" pattern.
+**Source:** PYQ-style
+
+**Q4.** Choose the correctly spelt word.
+(a) Entreprenur (b) Entrepreneur (c) Entrapreneur (d) Entreprenure
+**Answer: (b)**
+**Solution:** French-origin word: entre-pre-neur. Break it into chunks to memorise. Trap type: *Sound-Right*.
+**Source:** PYQ-style
+
+**Q5.** Choose the incorrectly spelt word.
+(a) Committee (b) Millennium (c) Embarassment (d) Accommodation
+**Answer: (c)**
+**Solution:** Correct spelling is **embarrassment** — double r, double s. Mnemonic: "I'm so embarrassed I turned **R**ed **R**eally **S**trongly **S**hy." Trap type: *Double-Letter Swap*.
+**Source:** PYQ-style
+
+**Q6.** Choose the correctly spelt word.
+(a) Questionaire (b) Questionnair (c) Questionnaire (d) Questionairre
+**Answer: (c)**
+**Solution:** Double **n** + "-aire": question-n-aire. Trap type: *Over-thinking* — the correct form looks odd, so students pick the simpler (a).
+**Source:** PYQ-style
+
+**Q7.** Choose the correctly spelt word.
+(a) Goverment (b) Government (c) Governmant (d) Govarnment
+**Answer: (b)**
+**Solution:** The **n** before -ment is silent in speech but present in writing: gover**n**ment. Trap type: *Sound-Right* — we say "gover-ment".
+**Source:** PYQ-style
+
+**Q8.** Choose the incorrectly spelt word.
+(a) Necessary (b) Secretary (c) Febuary (d) Library
+**Answer: (c)**
+**Solution:** Correct spelling is **February** — the first **r** is silent but must be written. Trap type: *Sound-Right*.
+**Source:** PYQ-style
+
+**Q9.** Choose the correctly spelt word.
+(a) Permissable (b) Permisible (c) Permissible (d) Permisable
+**Answer: (c)**
+**Solution:** Words from verbs ending in "-mit/-ss" take **-ible**: permit → permissible. Compare: advisable (-able after a full word). Trap type: *-able/-ible confusion*.
+**Source:** PYQ-style
+
+**Q10.** Choose the correctly spelt word.
+(a) Manouvre (b) Maneuver (c) Manoeuvre (d) Manovre
+**Answer: (c)**
+**Solution:** British standard: **manoeuvre** (American: maneuver). SSC/banking keys accept the British form. Trap type: *Over-thinking* — students avoid the longest option, but here it is correct.
+**Source:** PYQ-style
+
+---
+
+## Applying the 15/45-Second Rule
+
+**15-Second (Fact-based) — Q2 (Receive):**
+You either know "i before e except after c" or you don't. Scan options → spot "Recieve" → eliminate → mark (b). **Do not re-read. Do not second-guess.** Target: 10–15 seconds.
+
+**45-Second (Careful-check) — Q5 (Embarrassment):**
+This is an "incorrectly spelt" question — you must verify **all four** options, not stop at the first plausible one. Committee ✓ (double m, double t, double e), Millennium ✓ (double l, double n), Embarassment ✗ (needs double r), Accommodation ✓. Underlining each double letter takes ~40 seconds. **Never rush "incorrectly spelt" questions** — they are the 45-second type.
+
+**Rule of thumb:** "Correctly spelt" with familiar words → 15 sec. "Incorrectly spelt" or unfamiliar/rare words → 45 sec. If still unsure at 45 seconds, mark your first instinct and move on — spelling has no partial logic to unlock with more time.

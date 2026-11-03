@@ -1,0 +1,45 @@
+# Sitting Arrangement (Intermediate) — Important Rules & Approaches
+
+## Part 1: Key Rules / Approaches
+
+| Rule Name | Description | Example |
+|---|---|---|
+| Fix the Reference Point First | Start from the most definite clue (fixed position, end, or centre) and build the diagram around it. | "A sits at the extreme left end" → place A first, then arrange others relative to A. |
+| Draw Before You Solve | Always make a rough diagram (line, circle, or rectangle) instead of solving mentally. | For 8 people in a row, draw 8 boxes and fill names step by step. |
+| Linear Arrangement — Direction Matters | In a row facing North, left/right is as you see it; facing South, left/right reverses. | Row facing South: "B is to the left of A" means B is on your right side of A in the diagram. |
+| Circular Arrangement — Facing Centre | When all face the centre, each person's left is your clockwise side, right is anti-clockwise. | "C is second to the left of D" (facing centre) → move 2 seats clockwise from D. |
+| Circular Arrangement — Facing Outside | When all face outward, left/right directions reverse compared to facing centre. | "C is second to the left of D" (facing outside) → move 2 seats anti-clockwise from D. |
+| Immediate Neighbour Rule | "Immediate left/right" means the very next seat — no gap. | "E is immediate right of F" → E and F are adjacent, E on F's right. |
+| "Between" Rule | "X sits between Y and Z" means Y–X–Z or Z–X–Y in consecutive seats. | "P sits between Q and R" → QPR or RQP block. |
+| "Second/Third to the Left" Rule | Count seats, not people, in the stated direction. | Third to the right of M = skip 2 seats, land on the 3rd seat. |
+| Opposite Pair Rule (Circle) | In a circle of 2n people, opposite seats are n positions apart. | In an 8-person circle, the person opposite seat 1 sits at seat 5. |
+| Rectangular/Square Table Rule | People at corners and at middle of sides are different categories; track both. | 8 people on a square table: 4 at corners, 4 at side-centres. |
+| Two-Row Facing Rule | In two parallel rows facing each other, "opposite" means the person directly across. | Row 1 faces South, Row 2 faces North: person opposite A sits directly in front of A. |
+| Negative Clue Rule | "X does not sit at the end" eliminates positions — use it to narrow options. | If neither B nor D can sit at ends, ends belong to remaining persons. |
+| Combine Clues into Blocks | Join clues sharing a common person to form a chain/block, then place the block. | "A right of B" + "C right of A" → block B–A–C. |
+| Case-Elimination Method | If a clue gives two possibilities, draw both cases and delete the one contradicted later. | "G is left of H" with two open spots → test both, keep the consistent one. |
+| Definite-before-Relative Rule | Use absolute clues (end, middle, exact seat) before relative clues (left of, near). | Place "M sits in the middle" before "N is left of M". |
+| Count-Check Rule | After arranging, verify every clue once and confirm total persons = total seats. | 7 clues given → tick off all 7 against the final diagram. |
+
+## Part 2: Time Management
+
+| Rule | Description | Action |
+|---|---|---|
+| 15-Second Rule | If within 15 seconds you cannot identify the type (linear/circular/two-row) and the first fixing clue, mark the question and move on. | Skip temporarily; return after finishing easier questions. |
+| 45-Second Rule | If the diagram is not complete (or clearly close to complete) within 45 seconds, stop and skip. | Do not erase and restart repeatedly — one restart maximum. |
+| Set-Based Advantage | One arrangement often serves 4–5 questions; invest up to 60–90 seconds in the diagram, then answer all sub-questions in 10–15 seconds each. | Solve the full set together; never solve sub-questions separately. |
+| Single-Question Limit | A standalone arrangement question (no set) should take at most 45 seconds; beyond that, skip. | Guess only if you can eliminate 2 options. |
+| Diagram Quality Check | Spend the first 10 seconds drawing a clean, labelled diagram — messy diagrams cause re-solving and waste more time than they save. | Use initials (A, B, C) and arrows for facing direction. |
+| Skip Signal | If after placing all definite clues, 3+ persons remain unfixed with only relative clues, the question is time-heavy — attempt last. | Mark for review; return only if time remains. |
+
+## Part 3: Logical / Mathematical Formulas
+
+| Formula | Description | Example |
+|---|---|---|
+| Opposite position in a circle (even n) | Person opposite seat k = seat (k + n/2), where n = total seats. | n = 10, seat 3 → opposite seat = 3 + 5 = 8. |
+| Number of persons between two people (row) | Persons between = (difference of positions) − 1. | A at position 2, B at position 6 → 6 − 2 − 1 = 3 persons between. |
+| Position from other end (row) | Position from right = (Total + 1) − Position from left. | 9 persons, 4th from left → 9 + 1 − 4 = 6th from right. |
+| Total persons from both-end ranks | Total = (Rank from left) + (Rank from right) − 1. | 5th from left and 7th from right → total = 5 + 7 − 1 = 11. |
+| "kth to the left/right" target seat | Target seat = Reference seat ± k (direction as per facing). | 2nd to the right of seat 5 (facing centre, circle) → seat 5 + 2 = 7. |
+
+*Note: Apart from these counting relations, there are no heavy formulas for this chapter — success depends on diagram accuracy and clue sequencing.*

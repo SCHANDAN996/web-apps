@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %}{{ tr('bank_all_questions') }} — {{ tr('brand') }}{% endblock %}
+{% block main %}
+<p class="small crumb"><a class="tap-link" href="/practice">{{ tr('nav_practice') }}</a></p>
+<h1>{{ tr('bank_all_questions') }}</h1>
+<p class="muted">{{ tr('bank_desc') }}</p>
+<form id="questionBankFilters" class="card stack bank-filters" action="/questions" method="get">
+  <input type="hidden" name="lang" value="{{ lang }}">
+  <label class="search"><svg class="icon" aria-hidden="true"><use href="#i-search"/></svg><input type="search" name="q" maxlength="120" value="{{ search }}" aria-label="{{ tr('bank_search') }}" placeholder="{{ tr('bank_search') }}"></label>
+  <details><summary>{{ tr('bank_filters') }}</summary><div class="stack">
+  <label>{{ tr('subjects') }}<select name="subject" class="in"><option value="">{{ tr('any') }}</option>{% for s in subjects %}<option value="{{ s.slug }}" {% if selected_subject == s.slug %}selected{% endif %}>{{ L(s.name_hi,s.name_en) }}</option>{% endfor %}</select></label>
+  <label>{{ tr('bank_topic') }}<select name="topic" class="in"><option value="">{{ tr('any') }}</option>{% for s in subjects %}<optgroup label="{{ L(s.name_hi,s.name_en) }}">{% for tp in s.topics %}<option value="{{ tp.id }}" {% if selected_topic == tp.id %}selected{% endif %}>{{ L(tp.name_hi,tp.name_en) }}</option>{% endfor %}</optgroup>{% endfor %}</select></label>
+  <label>{{ tr('bank_level') }}<select name="level" class="in"><option value="">{{ tr('any') }}</option>{% for value,key in [('10th','book_level_10th'),('12th','book_level_12th'),('graduate','book_level_graduate')] %}<option value="{{ value }}" {% if selected_level == value %}selected{% endif %}>{{ tr(key) }}</option>{% endfor %}</select></label>
+  <label>{{ tr('difficulty') }}<select name="difficulty" class="in"><option value="">{{ tr('any') }}</option>{% for d in ['easy','medium','hard'] %}<option value="{{ d }}" {% if selected_difficulty == d %}selected{% endif %}>{{ tr(d) }}</option>{% endfor %}</select></label>
+  </div></details>
+  <div class="row"><button class="btn btn-primary" type="submit">{{ tr('bank_filter') }}</button><a class="btn btn-ghost" href="/questions?lang={{ lang }}">{{ tr('bank_clear') }}</a></div>
+</form>
+<p class="small muted" role="status">{{ total }} {{ tr('questions') }} · {{ tr('bank_page') }} {{ page }} / {{ pages }}</p>
+<section class="card"><ul class="list">{% for q in questions %}<li><a class="list-item" href="/questions/{{ q.id }}?lang={{ lang }}"><div class="grow"><span class="xs muted">{{ L(q.topic.subject.name_hi,q.topic.subject.name_en) }} · {{ L(q.topic.name_hi,q.topic.name_en) }} · {{ tr(q.difficulty) }}</span><p class="small" style="overflow-wrap:anywhere">{{ ((q.text_hi or q.text_en) if lang == 'hi' else (q.text_en or q.text_hi))|truncate(240) }}</p></div><svg class="icon chev" aria-hidden="true"><use href="#i-chev"/></svg></a></li>{% else %}<li class="empty">{{ tr('bank_empty') }}</li>{% endfor %}</ul></section>
+<nav class="row" style="justify-content:space-between;margin-top:var(--sp-4)" aria-label="{{ tr('bank_page') }}">{% if previous %}<a class="btn btn-secondary" href="{{ previous }}">{{ tr('prev') }}</a>{% endif %}{% if following %}<a class="btn btn-primary" href="{{ following }}">{{ tr('next') }}</a>{% endif %}</nav>
+<p class="xs muted" style="margin-top:var(--sp-4)">{{ tr('bank_cache_note') }}</p>
+{% endblock %}

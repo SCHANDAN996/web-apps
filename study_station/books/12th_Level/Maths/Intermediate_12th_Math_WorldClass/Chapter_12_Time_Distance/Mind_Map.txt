@@ -1,3 +1,47 @@
-# Chapter: Time & Distance, Level: intermediate
+```mermaid
+graph TD
+    A["समय और दूरी<br>Time & Distance"] --> B["मूल सूत्र<br>Basic Formula"]
+    A --> C["चाल के प्रकार<br>Types of Speed"]
+    A --> D["ट्रेन समस्याएँ<br>Train Problems"]
+    A --> E["नाव और धारा<br>Boat & Stream"]
+    A --> F["दौड़ और खेल<br>Races & Games"]
+    A --> G["विशेष स्थितियाँ<br>Special Cases"]
 
-@content_agent 'Create a detailed mind map (Mermaid code) for the chapter "Time & Distance". Show main concepts, sub-concepts, and their interconnections clearly.'
+    B --> B1["चाल = दूरी ÷ समय<br>Speed = Distance ÷ Time"]
+    B --> B2["दूरी = चाल × समय<br>Distance = Speed × Time"]
+    B --> B3["समय = दूरी ÷ चाल<br>Time = Distance ÷ Speed"]
+    B --> B4["इकाई रूपांतरण<br>Unit Conversion"]
+    B4 --> B4a["km/h → m/s: × 5/18"]
+    B4 --> B4b["m/s → km/h: × 18/5"]
+
+    C --> C1["औसत चाल<br>Average Speed"]
+    C1 --> C1a["समान दूरी: 2xy/(x+y)<br>Equal Distance"]
+    C1 --> C1b["समान समय: (x+y)/2<br>Equal Time"]
+    C --> C2["सापेक्ष चाल<br>Relative Speed"]
+    C2 --> C2a["विपरीत दिशा: योग<br>Opposite: Add"]
+    C2 --> C2b["समान दिशा: अंतर<br>Same: Subtract"]
+
+    D --> D1["खंभा/व्यक्ति पार करना<br>Crossing Pole/Man"]
+    D1 --> D1a["दूरी = ट्रेन की लंबाई<br>Distance = Train Length"]
+    D --> D2["प्लेटफॉर्म/पुल पार करना<br>Crossing Platform/Bridge"]
+    D2 --> D2a["दूरी = ट्रेन + प्लेटफॉर्म<br>Distance = Train + Platform"]
+    D --> D3["दो ट्रेनें<br>Two Trains"]
+    D3 --> D3a["विपरीत: चालें जुड़ती हैं<br>Opposite: Speeds Add"]
+    D3 --> D3b["समान दिशा: चालें घटती हैं<br>Same: Speeds Subtract"]
+
+    E --> E1["धारा के साथ: नाव + धारा<br>Downstream: Boat + Stream"]
+    E --> E2["धारा के विपरीत: नाव − धारा<br>Upstream: Boat − Stream"]
+    E --> E3["नाव की चाल = (अनुप्रवाह + प्रतिप्रवाह)/2<br>Boat Speed = (D + U)/2"]
+    E --> E4["धारा की चाल = (अनुप्रवाह − प्रतिप्रवाह)/2<br>Stream Speed = (D − U)/2"]
+
+    F --> F1["दौड़ की अवधारणा<br>Race Concepts"]
+    F1 --> F1a["बीट्स बाय x मीटर<br>Beats by x metres"]
+    F1 --> F1b["बीट्स बाय t सेकंड<br>Beats by t seconds"]
+    F --> F2["हेडस्टार्ट<br>Head Start"]
+
+    G --> G1["स्थिर चाल, समय भिन्न<br>Constant Speed Cases"]
+    G --> G2["दूरी समान, चाल भिन्न<br>Same Distance, Different Speed"]
+    G --> G3["वृत्ताकार पथ<br>Circular Track"]
+    G3 --> G3a["पहली मुलाकात: L/सापेक्ष चाल<br>First Meeting: L/Relative Speed"]
+    G --> G4["शटल/आवागमन<br>To-and-Fro Movement"]
+```

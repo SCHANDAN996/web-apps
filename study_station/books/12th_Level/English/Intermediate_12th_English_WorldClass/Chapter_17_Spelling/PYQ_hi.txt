@@ -1,0 +1,111 @@
+# 📊 PYQ विश्लेषण — वर्तनी जाँच (Spelling Check)
+
+## परीक्षा में कैसे पूछा जाता है?
+
+SSC (CGL, CHSL, MTS, GD), RRB NTPC, IBPS और राज्य-स्तरीय परीक्षाओं में Spelling Check से जुड़े प्रश्न पूछे जाते हैं; इनकी संख्या परीक्षा और शिफ्ट के अनुसार बदलती रहती है। प्रश्न दो रूपों में आते हैं:
+
+1. **सही वर्तनी चुनें** — चार विकल्पों में से एक सही, तीन में सूक्ष्म गलती।
+2. **गलत वर्तनी पहचानें** — तीन सही शब्द, एक गलत (यह रूप थोड़ा कठिन होता है, क्योंकि तीनों सही शब्द भी पढ़ने पड़ते हैं)।
+
+## बार-बार पूछे जाने वाले उप-विषय (Pattern Analysis)
+
+- **Doubling of consonant**: accommodate, committee, embarrass, occasion, millennium — परीक्षक एक 'm' या 't' घटा-बढ़ा देता है।
+- **-ie- / -ei- भ्रम**: receive, believe, foreign, height, seize — "i before e" नियम के अपवादों पर ही सवाल बनता है।
+- **Silent letters**: psychology, pneumonia, knife, honour, doubt — जो अक्षर बोले नहीं जाते, वही गायब कर दिए जाते हैं।
+- **-able / -ible**: visible, possible, advisable, responsible — अंत का स्वर बदलकर जाल बनाया जाता है।
+- **-ance / -ence, -ant / -ent**: maintenance, independent, existence, permanent।
+- **British vs American**: colour/color, centre/center, programme/program — SSC आमतौर पर British वर्तनी मानता है।
+- **एक ही ध्वनि, अलग वर्तनी (homophone-जैसे जाल)**: principal/principle, stationary/stationery, advice/advise।
+
+## परीक्षक के जाल (Trap Types)
+
+| जाल | कैसे काम करता है | उदाहरण |
+|---|---|---|
+| **Sound-Right** | जैसा सुनाई देता है वैसा विकल्प | "Maintainance" (सही: Maintenance) |
+| **Double-Letter भ्रम** | एक अक्षर जोड़ना/घटाना | "Acomodation" (सही: Accommodation) |
+| **Over-thinking** | सही शब्द को गलत लगाने के लिए अजीब विकल्प | "Occurence" देखकर सही "Occurrence" पर शक |
+| **Intervening Pattern** | उपसर्ग/प्रत्यय के कारण मूल शब्द बिगाड़ना | "Dissappear" (सही: Disappear) |
+
+---
+
+## शीर्ष 10 हाई-यील्ड प्रश्न (हल सहित)
+
+**प्रश्न 1.** सही वर्तनी वाला शब्द चुनें:
+(a) Accomodation (b) Acommodation (c) Accommodation (d) Accomadation
+**उत्तर: (c)**
+**हल:** Accommodation में double 'c' और double 'm' दोनों होते हैं। याद रखें — "CC और MM, दोनों साथ रहते हैं"।
+**जाल-प्रकार:** Double-Letter भ्रम
+**स्रोत:** PYQ-style
+
+**प्रश्न 2.** सही वर्तनी चुनें:
+(a) Recieve (b) Receive (c) Riceive (d) Receeve
+**उत्तर: (b)**
+**हल:** नियम — "i before e, except after c"। 'c' के बाद 'ei' आता है: receive, deceive, perceive।
+**जाल-प्रकार:** Sound-Right (बोलने में 'रीसीव' लगता है, इसलिए 'ie' पहले लिखने का मन करता है)
+**स्रोत:** PYQ-style
+
+**प्रश्न 3.** गलत वर्तनी वाला शब्द पहचानें:
+(a) Committee (b) Millennium (c) Occurence (d) Embarrass
+**उत्तर: (c)**
+**हल:** सही रूप Occurrence है — double 'c' और double 'r'। बाकी तीनों सही हैं।
+**जाल-प्रकार:** Double-Letter भ्रम
+**स्रोत:** PYQ-style
+
+**प्रश्न 4.** सही वर्तनी चुनें:
+(a) Maintainance (b) Maintenence (c) Maintenance (d) Maintenanse
+**उत्तर: (c)**
+**हल:** 'Maintain' से बनता है, पर प्रत्यय जुड़ते ही 'maintenance' हो जाता है — यह अपवाद है, रटना होगा।
+**जाल-प्रकार:** Sound-Right
+**स्रोत:** PYQ-style
+
+**प्रश्न 5.** सही वर्तनी चुनें:
+(a) Pshychology (b) Psychology (c) Sychology (d) Psycology
+**उत्तर: (b)**
+**हल:** Greek मूल 'psyche' (मन) — 'p' silent है पर लिखा जाता है, और 'ch' भी आता है।
+**जाल-प्रकार:** Silent Letter
+**स्रोत:** PYQ-style
+
+**प्रश्न 6.** गलत वर्तनी पहचानें:
+(a) Bureaucracy (b) Beaureaucracy (c) Democracy (d) Autocracy
+**उत्तर: (b)**
+**हल:** सही रूप Bureaucracy है — 'bureau' में 'eau' क्रम याद रखें (फ्रांसीसी मूल)।
+**जाल-प्रकार:** Sound-Right
+**स्रोत:** PYQ-style
+
+**प्रश्न 7.** सही वर्तनी चुनें:
+(a) Independant (b) Independent (c) Independunt (d) Indipendent
+**उत्तर: (b)**
+**हल:** '-ent' से समाप्त होता है, '-ant' से नहीं। ट्रिक: "Independent में e ही e है"।
+**जाल-प्रकार:** -ant/-ent भ्रम
+**स्रोत:** PYQ-style
+
+**प्रश्न 8.** सही वर्तनी चुनें:
+(a) Questionaire (b) Questionnaire (c) Questionnair (d) Questionaire
+**उत्तर: (b)**
+**हल:** Double 'n' + 'aire' — Questionnaire। फ्रांसीसी मूल के शब्दों में अंत का '-aire' बरकरार रहता है।
+**जाल-प्रकार:** Double-Letter भ्रम
+**स्रोत:** PYQ-style
+
+**प्रश्न 9.** सही वर्तनी चुनें:
+(a) Existance (b) Existence (c) Existense (d) Exsistence
+**उत्तर: (b)**
+**हल:** '-ence' से समाप्त। ट्रिक: "Existence में e की जीत है"।
+**जाल-प्रकार:** -ance/-ence भ्रम
+**स्रोत:** PYQ-style
+
+**प्रश्न 10.** गलत वर्तनी पहचानें:
+(a) Privilege (b) Privelege (c) Discipline (d) Sacrifice
+**उत्तर: (b)**
+**हल:** सही रूप Privilege — बीच में 'e' नहीं आता। बोलने में 'प्रिविलेज' लगता है, इसलिए 'lege' लिखने की गलती आम है।
+**जाल-प्रकार:** Sound-Right
+**स्रोत:** PYQ-style
+
+---
+
+## ⏱️ 15/45 सेकंड नियम — Spelling पर लागू
+
+**तथ्यात्मक (15 सेकंड):** प्रश्न 1 (Accommodation) जैसे सवाल — या तो शब्द याद है या नहीं। चारों विकल्पों पर एक नज़र, double-letter जाँच, उत्तर। 15 सेकंड से ज़्यादा सोचना = Over-thinking जाल में फँसना।
+
+**तार्किक (45 सेकंड):** प्रश्न 3 जैसे "गलत वर्तनी पहचानें" सवाल — यहाँ तीनों सही शब्द भी verify करने पड़ते हैं। हर विकल्प को मूल शब्द + प्रत्यय में तोड़कर देखें। यहाँ 40–45 सेकंड देना उचित है।
+
+**सुनहरा सुझाव:** Spelling में पहली झलक में जो सही लगे, वही अक्सर सही होता है। बार-बार बदलना = अंक गँवाना।

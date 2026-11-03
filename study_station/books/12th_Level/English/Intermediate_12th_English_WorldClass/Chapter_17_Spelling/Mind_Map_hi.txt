@@ -1,0 +1,32 @@
+```mermaid
+graph TD
+    A["वर्तनी जाँच<br>Spelling Check"] --> B["मूल नियम"]
+    A --> C["आम गलतियाँ"]
+    A --> D["परीक्षक के जाल"]
+    A --> E["रणनीति"]
+
+    B --> B1["i before e<br>except after c<br>believe, receive"]
+    B --> B2["Silent Letters<br>knight, doubt, psychology"]
+    B --> B3["Double Letters<br>accommodate, committee"]
+    B --> B4["-ful में एक l<br>beautiful, grateful"]
+    B --> B5["y → i नियम<br>happy → happily"]
+
+    C --> C1["separate न कि seperate"]
+    C --> C2["definitely न कि definately"]
+    C --> C3["occurrence — दो c, दो r"]
+    C --> C4["embarrass — दो r, दो s"]
+    C --> C5["necessary — एक c, दो s"]
+
+    D --> D1["ध्वनि-समान शब्द<br>their / there / they're"]
+    D --> D2["लगभग-सही वर्तनी<br>एक अक्षर बदलकर"]
+    D --> D3["British vs American<br>colour / color"]
+    D --> D4["हिंदी उच्चारण का प्रभाव<br>govarnment ✗ → government ✓"]
+
+    E --> E1["15 सेकंड नियम<br>तथ्यात्मक वर्तनी प्रश्न"]
+    E --> E2["शब्द को टुकड़ों में तोड़ो<br>un + believe + able"]
+    E --> E3["मूल शब्द (Root) पहचानो<br>scrib, spect, port"]
+    E --> E4["संदेह हो तो Skip<br>नेगेटिव मार्किंग से बचो"]
+
+    B1 -.->|"म्नेमोनिक"| M1["i before e<br>except after c"]
+    C5 -.->|"म्नेमोनिक"| M2["1 Collar, 2 Sleeves<br>necessary"]
+```

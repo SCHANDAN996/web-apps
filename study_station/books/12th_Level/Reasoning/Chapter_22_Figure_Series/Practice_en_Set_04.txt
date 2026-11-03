@@ -1,0 +1,151 @@
+Questions 76–100: Medium
+
+76. In a figure series, a dot moves one corner clockwise in each step, while a cross moves two corners anticlockwise in each step. If the dot is at the top-left and the cross at the top-right in step 1, where will the cross be in step 3?
+(a) Bottom-left (b) Top-right (c) Top-left (d) Bottom-right
+Answer: (b)
+Solution: The tempting answer is bottom-left, obtained by moving the cross only one corner anticlockwise per step. Moving two corners anticlockwise from top-right: top-right → top-left → bottom-left (step 2), then bottom-left → bottom-right → top-right (step 3), so the answer is top-right.
+Source: PYQ-style
+
+77. A square contains a triangle. In each successive figure the triangle rotates 90° clockwise and alternately appears shaded and unshaded. If figure 1 has an unshaded triangle pointing up, what does figure 4 show?
+(a) Unshaded triangle pointing down (b) Shaded triangle pointing left (c) Shaded triangle pointing right (d) Unshaded triangle pointing left
+Answer: (b)
+Solution: Many students track only the rotation and pick the unshaded option, forgetting the shading alternates every step. Rotation: up → right → down → left by figure 4; shading: unshaded, shaded, unshaded, shaded, so the answer is shaded triangle pointing left.
+Source: PYQ-style
+
+78. In a series, the number of sides of the outer figure increases by one each step (triangle, square, pentagon, …), while the number of inner lines increases by two each step (1, 3, 5, …). What does the fifth figure contain?
+(a) Heptagon with 7 lines (b) Heptagon with 9 lines (c) Hexagon with 9 lines (d) Octagon with 9 lines
+Answer: (b)
+Solution: The trap is counting the triangle as step 0; the triangle is figure 1, so figure 5 has 3 + 4 = 7 sides, i.e., a heptagon. Inner lines: 1, 3, 5, 7, 9, so figure 5 has 9 lines, so the answer is heptagon with 9 lines.
+Source: PYQ-style
+
+79. Four figures are given. Three show a circle divided into 6 equal sectors with exactly two adjacent sectors shaded. One shows two shaded sectors separated by one unshaded sector. Which is the odd one out?
+(a) Figure 3 (separated shaded) (b) Figure 2 (adjacent shaded) (c) Figure 1 (adjacent shaded) (d) Figure 4 (adjacent shaded)
+Answer: (a)
+Solution: The misleading idea is to compare rotation angles, but rotation does not matter in classification. The real property is the position of the shaded sectors: three figures have them adjacent, one has them separated, so the answer is Figure 3 (separated shaded).
+Source: PYQ-style
+
+80. A figure series shows an arrow rotating 45° clockwise each step. Starting from pointing north in figure 1, in which figure will the arrow first point south-west?
+(a) Figure 4 (b) Figure 7 (c) Figure 5 (d) Figure 6
+Answer: (d)
+Solution: The common error is counting north as the first rotation, giving figure 5. North to south-west is 225° clockwise, i.e., 5 steps of 45°; since figure 1 is the start (0 steps), the arrow reaches south-west at figure 6, so the answer is Figure 6.
+Source: PYQ-style
+
+81. In a classification question, four figures each contain a small circle and a small square inside a larger shape. In three figures the circle is to the left of the square; in one it is to the right. Which figure is the odd one out?
+(a) The figure with circle left, square right (b) The figure with the smallest outer shape (c) The figure with circle right, square left (d) The figure with the largest outer shape
+Answer: (c)
+Solution: Size is a distractor here; classification depends on the consistent positional rule, not on how big the outer shape is. Three figures keep the circle left of the square, so the figure with the circle on the right breaks the rule, so the answer is the figure with circle right, square left.
+Source: PYQ-style
+
+82. A series shows a hexagon with dots at its vertices. The number of dots increases by one each figure, filled consecutively clockwise starting from the top vertex. If figure 1 has 2 dots, how many dots does figure 4 have, and where is the last dot?
+(a) 5 dots, last at bottom-right (b) 4 dots, last at bottom-left (c) 6 dots, all vertices filled (d) 5 dots, last at bottom-left
+Answer: (d)
+Solution: The trap is adding two dots per step by miscounting the start. Dots: 2, 3, 4, 5 across figures 1 to 4; filling clockwise from the top — top, top-right, bottom-right, bottom, bottom-left — the fifth dot lands at bottom-left, so the answer is 5 dots, last at bottom-left.
+Source: PYQ-style
+
+83. In a figure series, a black square moves along the perimeter of a 3×3 grid, one cell clockwise per step, while a white circle stays fixed at the centre. If the black square starts at the top-left corner cell, which cell does it occupy in figure 5?
+(a) Bottom-right (b) Top-right (c) Middle-left (d) Bottom-left
+Answer: (a)
+Solution: The tempting answer is bottom-left, reached by moving anticlockwise down the left side instead of clockwise. Clockwise from the top-left corner moves along the top row first: top-left → top-middle → top-right → middle-right → bottom-right, so the answer is bottom-right.
+Source: PYQ-style
+
+84. Four figures show stars inside circles. In three, the number of star points equals the number of lines crossing the circle. In one, the star has 5 points but the circle has 4 crossing lines while others match. Which is the odd one out?
+(a) Figure with 4-point star and 4 lines (b) Figure with 6-point star and 6 lines (c) Figure with 3-point star and 3 lines (d) Figure with 5-point star and 4 lines
+Answer: (d)
+Solution: Students often count only the star points and miss the matching rule. The classifying property is the equality between star points and crossing lines; only one figure violates it, so the answer is the figure with 5-point star and 4 lines.
+Source: PYQ-style
+
+85. A series alternates two operations: first the figure is mirrored horizontally, then rotated 90° clockwise, then mirrored, then rotated, and so on. Starting with an L-shape pointing up-right, what is the result after the mirror step (step 1)?
+(a) L pointing up-left (b) L pointing down-right (c) L pointing down-left (d) L pointing up-right
+Answer: (a)
+Solution: The trap is applying the rotation first because it appears more significant, but the sequence clearly starts with the horizontal mirror. A horizontal mirror flips left and right, so up-right becomes up-left, so the answer is L pointing up-left.
+Source: PYQ-style
+
+86. In a series, each figure has concentric shapes: circle inside square inside triangle. In each step the innermost shape moves to the outermost position and the others shift inward. What is the order (outermost to innermost) in figure 2?
+(a) Triangle, square, circle (b) Circle, triangle, square (c) Circle, square, triangle (d) Square, triangle, circle
+Answer: (b)
+Solution: The misleading answer keeps the original order, assuming shapes rotate outward instead of the innermost jumping out. Original order outer→inner: triangle, square, circle; the innermost (circle) becomes outermost and the rest shift in, so the answer is circle, triangle, square.
+Source: PYQ-style
+
+87. A figure shows a rectangle with a diagonal. In each step one more diagonal-style line is added, all passing through the centre, dividing the rectangle into equal sectors. How many regions does figure 4 have if figure 1 has 1 line (2 regions)?
+(a) 8 regions (b) 6 regions (c) 10 regions (d) 4 regions
+Answer: (a)
+Solution: The trap is doubling regions each step; lines through a common centre each add exactly 2 regions. Figure 4 has 4 lines, giving 4 × 2 = 8 regions, so the answer is 8 regions.
+Source: PYQ-style
+
+88. Four figures each show the two hands of a clock. In three figures the angle between the hour and minute hands is exactly 90°; in one figure the angle is 60°. Which is the odd one out?
+(a) Figure showing 3:00 (b) Figure showing 9:00 (c) Figure showing hands at 60° (d) Figure showing 12:30 with a wide angle
+Answer: (c)
+Solution: The distractor is the clock time itself; classification rests on the actual angle, not the displayed hour. Three figures have a 90° angle between hands and only one has 60°, so the answer is the figure showing hands at 60°.
+Source: PYQ-style
+
+89. In a series, a shaded quarter-circle rotates 90° anticlockwise each step inside a square, while the square itself rotates 90° clockwise each step. If the shaded quarter is at the top-left of the page in figure 1, where is it relative to the page in figure 3?
+(a) Bottom-right (b) Top-left (c) Top-right (d) Bottom-left
+Answer: (b)
+Solution: The trap is tracking only the quarter-circle and ignoring that the square's own rotation adds to the apparent movement. Combined effect per step: 90° anticlockwise plus the frame's 90° clockwise gives a net 180° per step; top-left → bottom-right (figure 2) → top-left (figure 3), so the answer is top-left.
+Source: PYQ-style
+
+90. A classification set has four figures of overlapping circles. In three, the overlapping region is shaded; in one, the non-overlapping parts are shaded instead. Which is the odd one out?
+(a) Two circles, overlap shaded with a dot (b) Three circles, common overlap shaded (c) Two circles, overlap shaded (d) Two circles, outer parts shaded
+Answer: (d)
+Solution: The dot in one option is a deliberate distractor; the core rule is which region is shaded. Three figures shade the overlapping region, while one shades the non-overlapping parts, so the answer is the figure with two circles and outer parts shaded.
+Source: PYQ-style
+
+91. In a series, the number of small triangles inside a large square doubles each step: 1, 2, 4, …. How many small triangles are in figure 6?
+(a) 16 (b) 12 (c) 64 (d) 32
+Answer: (d)
+Solution: The tempting answer is 64, obtained by counting one extra doubling. The sequence is 1, 2, 4, 8, 16, 32 for figures 1 to 6, so the answer is 32.
+Source: PYQ-style
+
+92. A figure series shows a plus sign (+) where one arm is bold. The bold arm moves one position clockwise each step: top, right, bottom, left. In figure 1 the top arm is bold. Which arm is bold in figure 7?
+(a) Left (b) Right (c) Bottom (d) Top
+Answer: (c)
+Solution: The trap is computing 7 mod 4 = 3 and mapping it to the left arm by starting the count at zero. Figure 1 = top, so figure n advances (n−1) steps: figure 7 advances 6 steps, 6 mod 4 = 2, landing on bottom, so the answer is bottom.
+Source: PYQ-style
+
+93. Four figures show a square with symbols at corners. In three, the symbols at diagonally opposite corners are identical. In one, all four corners have different symbols. Which is the odd one out?
+(a) Figure with four different corner symbols (b) Figure with matching diagonals, no centre (c) Figure with matching diagonals and a circle centre (d) Figure with matching diagonals and a dot centre
+Answer: (a)
+Solution: The centre marks are distractors; the classifying rule concerns the corner symbols only. Three figures have identical symbols at diagonally opposite corners, and one has all four different, so the answer is the figure with four different corner symbols.
+Source: PYQ-style
+
+94. In a series, a line segment inside a circle increases its angle with the horizontal by 30° each step: 0°, 30°, 60°, …. At which figure does the segment first become vertical?
+(a) Figure 3 (b) Figure 6 (c) Figure 4 (d) Figure 5
+Answer: (c)
+Solution: The common mistake is dividing 90 by 30 and answering figure 3, forgetting figure 1 is 0°. Vertical means 90°, which is the fourth term: 0°, 30°, 60°, 90°, so the answer is Figure 4.
+Source: PYQ-style
+
+95. A series shows two dots in a 2×2 grid. Dot X moves clockwise one cell per step; dot Y moves anticlockwise one cell per step. Both start at the top-left cell in figure 1. In which figure do they next occupy the same cell?
+(a) Figure 3 (b) Figure 2 (c) Figure 4 (d) Figure 5
+Answer: (a)
+Solution: The trap is assuming they meet only after a full cycle. From top-left, X goes to top-right and Y goes to bottom-left in figure 2; in figure 3, X reaches bottom-right and Y also reaches bottom-right — they coincide, so the answer is Figure 3.
+Source: PYQ-style
+
+96. Four figures each combine a triangle and a rectangle. In three, the triangle sits entirely inside the rectangle; in one, the triangle's apex protrudes outside the rectangle. Which is the odd one out?
+(a) Triangle with apex outside the rectangle (b) Upright triangle inside rectangle (c) Inverted triangle inside rectangle (d) Small triangle centred inside rectangle
+Answer: (a)
+Solution: Orientation and size are distractors; the rule is containment. Three figures keep the triangle fully inside the rectangle, while one lets the apex stick out, so the answer is the triangle with apex outside the rectangle.
+Source: PYQ-style
+
+97. In a series, a shape gains one side and loses one inner dot alternately: figure 1 is a triangle with 3 dots, figure 2 is a square with 3 dots, figure 3 is a square with 2 dots. What is figure 5?
+(a) Pentagon with 2 dots (b) Hexagon with 2 dots (c) Square with 1 dot (d) Pentagon with 1 dot
+Answer: (d)
+Solution: The trap is applying both changes every step; the operations alternate. Even steps add a side (figure 4: pentagon), and the dot-reducing steps give figure 3: 2 dots, figure 5: 1 dot, so the answer is pentagon with 1 dot.
+Source: PYQ-style
+
+98. A series shows a semicircle whose flat edge rotates 45° clockwise each step, while shading alternates between the left half and right half of the semicircle every step. If figure 1 has the flat edge horizontal at the bottom with left half shaded, what does figure 3 show?
+(a) Flat edge vertical, right half shaded (b) Flat edge horizontal at top, right half shaded (c) Flat edge at 90° rotated, left half shaded (d) Flat edge at 45°, left half shaded
+Answer: (c)
+Solution: The tempting answer assumes shading stays fixed relative to the page; it alternates every step, so figure 3 matches figure 1's shading (left half). The flat edge rotates 45° per step: 0°, 45°, 90° by figure 3, so the answer is flat edge at 90° rotated, left half shaded.
+Source: PYQ-style
+
+99. Four figures show arrows passing through rings. In three, the arrow points from the smaller ring toward the larger ring; in one, it points from the larger ring toward the smaller. Which is the odd one out?
+(a) Arrow from small ring to large ring, horizontal (b) Arrow from large ring to small ring, vertical (c) Arrow from small ring to large ring, diagonal (d) Arrow from small ring to large ring, vertical
+Answer: (b)
+Solution: The orientation (horizontal, vertical, diagonal) is the distractor; the rule is the direction relative to ring size. Three arrows go from smaller to larger ring, and one goes the opposite way, so the answer is the arrow from large ring to small ring, vertical.
+Source: PYQ-style
+
+100. In a series, a 3×3 square grid has one shaded cell that moves two cells to the right each step, wrapping to the next row when it passes the edge. Starting from the top-left cell in figure 1, which cell is shaded in figure 4?
+(a) Middle-right (b) Middle-left (c) Bottom-left (d) Top-right
+Answer: (c)
+Solution: The trap is moving only one cell per step, which gives middle-right. Numbering cells 1–9 row-wise, two-cell jumps: 1 → 3 → 5 → 7; cell 7 is the bottom-left cell, so the answer is bottom-left.
+Source: PYQ-style

@@ -1,3 +1,149 @@
-# Chapter: Probability, Level: intermediate, Set: 2/6
+26. A coin is tossed three times. What is the probability of getting exactly two heads?
+(a) 1/8 (b) 3/8 (c) 1/2 (d) 5/8
+Answer: (b)
+Solution: The tempting wrong option is 1/8, which is the probability of one specific outcome like HHT, not all favourable cases. Total outcomes = 2³ = 8. Favourable outcomes are HHT, HTH, THH, i.e. 3. So probability = 3/8, so the answer is 3/8.
+Source: NCERT Class 11 Mathematics
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Probability. This is Set 2 (total 6 sets, 150 questions). Questions must be numbered 26 to 50. All 25 questions should be Medium. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+27. Two dice are thrown together. What is the probability that the sum of the numbers is 9?
+(a) 1/9 (b) 1/6 (c) 5/36 (d) 1/12
+Answer: (a)
+Solution: The trap is 5/36, which comes from wrongly counting five pairs. The pairs giving sum 9 are (3,6), (4,5), (5,4), (6,3), i.e. 4 outcomes out of 36. Probability = 4/36 = 1/9, so the answer is 1/9.
+Source: NCERT Class 10 Mathematics
+
+28. A bag contains 4 red and 6 blue balls. One ball is drawn at random. What is the probability that it is not red?
+(a) 2/5 (b) 4/5 (c) 1/2 (d) 3/5
+Answer: (d)
+Solution: The tempting wrong option is 2/5, which is the probability of drawing a red ball, the opposite of what is asked. Not red means blue, and there are 6 blue balls out of 10. Probability = 6/10 = 3/5, so the answer is 3/5.
+Source: NCERT Class 10 Mathematics
+
+29. A card is drawn from a well-shuffled pack of 52 cards. What is the probability of getting a king or a queen?
+(a) 1/13 (b) 1/26 (c) 4/13 (d) 2/13
+Answer: (d)
+Solution: The trap is 4/13, obtained by wrongly adding 4 kings and 4 queens as 16 cards. There are 4 kings and 4 queens, total 8 favourable cards. Probability = 8/52 = 2/13, so the answer is 2/13.
+Source: NCERT Class 10 Mathematics
+
+30. Two coins are tossed simultaneously. What is the probability of getting at least one head?
+(a) 1/4 (b) 1/2 (c) 3/4 (d) 1
+Answer: (c)
+Solution: The tempting wrong option is 1/2, which counts only two of the four outcomes. Outcomes are HH, HT, TH, TT; at least one head occurs in 3 of them. Probability = 3/4, so the answer is 3/4.
+Source: NCERT Class 10 Mathematics
+
+31. A die is thrown once. What is the probability of getting a prime number?
+(a) 1/2 (b) 1/3 (c) 1/6 (d) 2/3
+Answer: (a)
+Solution: The trap is 1/3, which comes from counting only 2 and 3 as primes and forgetting 5. Prime numbers on a die are 2, 3, 5, i.e. 3 outcomes out of 6. Probability = 3/6 = 1/2, so the answer is 1/2.
+Source: NCERT Class 10 Mathematics
+
+32. From a group of 3 men and 2 women, one person is selected at random. What is the probability that the person selected is a woman?
+(a) 1/2 (b) 3/5 (c) 2/5 (d) 1/5
+Answer: (c)
+Solution: The tempting wrong option is 3/5, which is the probability of selecting a man, not a woman. There are 2 women out of 5 persons. Probability = 2/5, so the answer is 2/5.
+Source: NCERT Class 10 Mathematics
+
+33. A bag contains 5 white, 7 red and 8 black balls. One ball is drawn at random. What is the probability that the ball is neither white nor black?
+(a) 13/20 (b) 7/20 (c) 1/4 (d) 2/5
+Answer: (b)
+Solution: The trap is 13/20, which is the probability of white or black, the complement of what is asked. Neither white nor black means red, and there are 7 red balls out of 20. Probability = 7/20, so the answer is 7/20.
+Source: NCERT Class 10 Mathematics
+
+34. Two dice are thrown. What is the probability of getting a doublet (same number on both dice)?
+(a) 1/6 (b) 1/12 (c) 1/3 (d) 1/36
+Answer: (a)
+Solution: The tempting wrong option is 1/36, which is the probability of one specific doublet like (2,2), not any doublet. Doublets are (1,1) to (6,6), i.e. 6 outcomes out of 36. Probability = 6/36 = 1/6, so the answer is 1/6.
+Source: NCERT Class 10 Mathematics
+
+35. A card is drawn from a pack of 52 cards. What is the probability that it is a red face card?
+(a) 6/13 (b) 1/13 (c) 3/13 (d) 3/26
+Answer: (d)
+Solution: The trap is 3/13, which counts all 12 face cards instead of only the red ones. Red face cards are the jack, queen and king of hearts and diamonds, i.e. 6 cards. Probability = 6/52 = 3/26, so the answer is 3/26.
+Source: NCERT Class 10 Mathematics
+
+36. The probability of an event A is 0.35. What is the probability of the event "not A"?
+(a) 0.35 (b) 0.75 (c) 0.65 (d) 0.55
+Answer: (c)
+Solution: The tempting wrong option is 0.35 itself, chosen by those who forget that an event and its complement sum to 1. P(not A) = 1 − 0.35 = 0.65, so the answer is 0.65.
+Source: NCERT Class 11 Mathematics
+
+37. A number is chosen at random from the numbers 1 to 20. What is the probability that it is a multiple of 3?
+(a) 3/10 (b) 1/4 (c) 7/20 (d) 1/5
+Answer: (a)
+Solution: The trap is 7/20, which comes from wrongly counting 7 multiples. Multiples of 3 up to 20 are 3, 6, 9, 12, 15, 18, i.e. 6 numbers. Probability = 6/20 = 3/10, so the answer is 3/10.
+Source: NCERT Class 10 Mathematics
+
+38. A bag contains 3 green and 5 yellow balls. Two balls are drawn one after another without replacement. What is the probability that both are green?
+(a) 3/8 (b) 9/64 (c) 3/28 (d) 1/7
+Answer: (c)
+Solution: The tempting wrong option is 9/64, which wrongly assumes replacement. Without replacement, P(first green) = 3/8 and P(second green) = 2/7. Probability = (3/8) × (2/7) = 6/56 = 3/28, so the answer is 3/28.
+Source: NCERT Class 11 Mathematics
+
+39. A letter is chosen at random from the word "ASSASSINATION". What is the probability that it is a vowel?
+(a) 6/13 (b) 7/13 (c) 1/2 (d) 5/13
+Answer: (a)
+Solution: The trap is 7/13, which counts consonants instead of vowels. The word has 13 letters; vowels are A, A, A, I, I, O, i.e. 6 vowels. Probability = 6/13, so the answer is 6/13.
+Source: NCERT Class 10 Mathematics
+
+40. Two dice are thrown. What is the probability that the sum of the numbers is a prime number?
+(a) 5/12 (b) 1/2 (c) 7/18 (d) 4/9
+Answer: (a)
+Solution: The tempting wrong option is 1/2, a guess made without counting. Prime sums are 2, 3, 5, 7, 11 with counts 1, 2, 4, 6, 2 respectively, totalling 15 outcomes. Probability = 15/36 = 5/12, so the answer is 5/12.
+Source: NCERT Class 11 Mathematics
+
+41. A card is drawn from a pack of 52 cards. What is the probability that it is neither a heart nor a king?
+(a) 3/4 (b) 10/13 (c) 4/13 (d) 9/13
+Answer: (d)
+Solution: The trap is 10/13, which subtracts 13 hearts and 4 kings separately and double-counts the king of hearts. Cards that are heart or king = 13 + 4 − 1 = 16, so favourable cards = 52 − 16 = 36. Probability = 36/52 = 9/13, so the answer is 9/13.
+Source: NCERT Class 11 Mathematics
+
+42. A coin is tossed 4 times. What is the probability of getting no head at all?
+(a) 1/8 (b) 1/16 (c) 1/4 (d) 15/16
+Answer: (b)
+Solution: The tempting wrong option is 1/4, which divides 1 by the number of tosses instead of counting outcomes. Total outcomes = 2⁴ = 16, and no head means only TTTT, i.e. 1 outcome. Probability = 1/16, so the answer is 1/16.
+Source: NCERT Class 11 Mathematics
+
+43. A box contains 10 tickets numbered 1 to 10. One ticket is drawn at random. What is the probability that the number on it is even and greater than 4?
+(a) 1/2 (b) 3/10 (c) 2/5 (d) 1/5
+Answer: (b)
+Solution: The trap is 1/2, which counts all even numbers and ignores the "greater than 4" condition. Even numbers greater than 4 are 6, 8, 10, i.e. 3 tickets. Probability = 3/10, so the answer is 3/10.
+Source: NCERT Class 10 Mathematics
+
+44. The probability that it will rain tomorrow is 0.7. What is the probability that it will not rain tomorrow?
+(a) 0.7 (b) 0.4 (c) 0.5 (d) 0.3
+Answer: (d)
+Solution: The tempting wrong option is 0.5, chosen by assuming rain and no rain are equally likely. Since the two events are complementary, P(no rain) = 1 − 0.7 = 0.3, so the answer is 0.3.
+Source: NCERT Class 10 Mathematics
+
+45. Two cards are drawn together from a pack of 52 cards. What is the probability that both are aces?
+(a) 1/169 (b) 1/221 (c) 2/221 (d) 1/13
+Answer: (b)
+Solution: The trap is 1/169, which wrongly assumes the cards are drawn with replacement. Favourable ways = ⁴C₂ = 6, total ways = ⁵²C₂ = 1326. Probability = 6/1326 = 1/221, so the answer is 1/221.
+Source: NCERT Class 11 Mathematics
+
+46. A die is thrown twice. What is the probability of getting a total of at least 10?
+(a) 5/36 (b) 1/4 (c) 1/6 (d) 1/12
+Answer: (c)
+Solution: The tempting wrong option is 5/36, which misses one favourable pair. Sums of 10, 11, 12 come from (4,6), (5,5), (6,4), (5,6), (6,5), (6,6), i.e. 6 outcomes. Probability = 6/36 = 1/6, so the answer is 1/6.
+Source: NCERT Class 11 Mathematics
+
+47. A bag has 6 red and 4 black balls. Two balls are drawn at random without replacement. What is the probability that one is red and one is black?
+(a) 2/5 (b) 4/15 (c) 8/15 (d) 1/3
+Answer: (c)
+Solution: The trap is 4/15, which counts only the order red-then-black and forgets black-then-red. Probability = (6/10)(4/9) + (4/10)(6/9) = 24/90 + 24/90 = 48/90 = 8/15, so the answer is 8/15.
+Source: NCERT Class 11 Mathematics
+
+48. A number is selected at random from the first 50 natural numbers. What is the probability that it is a perfect square?
+(a) 7/50 (b) 1/10 (c) 3/25 (d) 2/25
+Answer: (a)
+Solution: The tempting wrong option is 3/25, which counts only 6 squares and forgets 49. Perfect squares up to 50 are 1, 4, 9, 16, 25, 36, 49, i.e. 7 numbers. Probability = 7/50, so the answer is 7/50.
+Source: NCERT Class 10 Mathematics
+
+49. In a single throw of two dice, what is the probability that the numbers on the two dice are different?
+(a) 1/6 (b) 5/6 (c) 1/2 (d) 2/3
+Answer: (b)
+Solution: The trap is 1/6, which is the probability of a doublet, the exact opposite of what is asked. Doublets are 6 outcomes, so different numbers occur in 36 − 6 = 30 outcomes. Probability = 30/36 = 5/6, so the answer is 5/6.
+Source: NCERT Class 10 Mathematics
+
+50. A committee of 2 persons is to be formed from 4 men and 3 women. What is the probability that the committee consists of one man and one woman?
+(a) 1/2 (b) 2/7 (c) 3/7 (d) 4/7
+Answer: (d)
+Solution: The tempting wrong option is 2/7, which counts only 6 favourable pairs instead of 12. Favourable selections = ⁴C₁ × ³C₁ = 12, total selections = ⁷C₂ = 21. Probability = 12/21 = 4/7, so the answer is 4/7.
+Source: NCERT Class 11 Mathematics

@@ -1,0 +1,38 @@
+# Important Rules & Approaches — Order & Ranking
+
+## Part 1: Key Rules/Approaches
+
+| Rule Name | Description | Example |
+|---|---|---|
+| Position from One End | If rank from one end is known, fix the person's place and count others relative to it. | Ravi is 5th from the left in a row of 20 → 15 persons are to his right. |
+| Total = Left + Right − 1 | Total persons = (rank from left) + (rank from right) − 1, because the person is counted twice. | A boy is 8th from left and 12th from right → Total = 8 + 12 − 1 = 19. |
+| Rank from Other End | Rank from other end = Total − rank from given end + 1. | Total 30, rank from top 7 → rank from bottom = 30 − 7 + 1 = 24. |
+| Persons Between Two | Persons between A and B = (difference of their ranks) − 1. | A is 4th, B is 10th → persons between = 10 − 4 − 1 = 5. |
+| Overlapping Case (Interchange) | When two persons swap positions, new rank of one = old rank of the other; use both ends' data to find total. | A is 10th from left; after swapping with B, A becomes 15th from left → B was 15th from left. |
+| Mid-Person Rule | If M is exactly in the middle, total = 2 × (M's rank) − 1. | Middle person is 9th → total = 2 × 9 − 1 = 17. |
+| Comparison Chain (A > B > C) | Convert all statements into one direction (taller/heavier/older) before arranging. | "A is taller than B, C is shorter than B" → A > B > C. |
+| Minimum/Maximum Total | When ranks from both ends of two different persons are given, check whether their positions overlap; total may have a range. | P is 5th from left, Q is 6th from right; minimum total = 5 + 6 = 11 (if P and Q don't overlap). |
+| Row Facing Direction | In a row facing north, left-right is normal; facing south, left-right reverses. | In a south-facing row, "3rd to the left" means count towards your right on paper. |
+| "Not" Statements | Convert negatives into positives first ("A is not the tallest" → at least one person is taller than A). | "B is not the shortest" among 4 → B can be 1st, 2nd or 3rd. |
+
+## Part 2: Time Management
+
+| Time Rule | Action |
+|---|---|
+| 15-Second Rule | If within 15 seconds you cannot decide whether it is a single-row, both-ends, or comparison question, mark it and move on. |
+| 45-Second Rule | A standard Order & Ranking question must be solved within 45 seconds; if your diagram/equation is still incomplete, skip and return later. |
+| Draw First, Think Later | Always draw a quick line/arrow diagram in the first 10 seconds — solving verbally wastes more time. |
+| Formula Check | If ranks from both ends are visible in the question, apply Total = L + R − 1 immediately; do not count manually. |
+| Skip Signal | Comparison puzzles with 5+ persons and 4+ conditions usually take 90+ seconds — attempt them only after finishing direct questions. |
+| Negative Wording Alert | If the question says "NOT" or "cannot be determined", re-read once before answering; such traps cost more time than the question deserves. |
+
+## Part 3: Logical/Mathematical Formulas
+
+| Formula | Meaning |
+|---|---|
+| Total = L + R − 1 | L = rank from left/top, R = rank from right/bottom. |
+| Rank from other end = Total − Rank + 1 | To convert left rank into right rank (or top into bottom). |
+| Persons between = \|Rank₁ − Rank₂\| − 1 | Number of persons sitting/standing between two given persons. |
+| Total (middle known) = 2M − 1 | M = rank of the exact middle person (valid only for odd totals). |
+| Persons to one side = Total − Rank | Persons to the right of someone ranked r from left = Total − r. |
+| Minimum total (two persons, both ends) = L + R | When positions of two persons from opposite ends do not overlap. |

@@ -1,407 +1,152 @@
 Set 3: Simplification MCQs (Medium)
-Questions 51–75: All Medium
+Questions 51–70: Medium | Questions 71–75: Medium to Hard
 
 51. Simplify: 36 ÷ 6 × 2 + 4 – 3
-(a) 13 (b) 11 (c) 17 (d) 9
+(a) 13 (b) 4 (c) 15 (d) 10
 Answer: (a) 13
-Solution:
-Division & multiplication left to right: 36 ÷ 6 = 6, then 6 × 2 = 12. Now 12 + 4 – 3 = 13.
-Source: NCERT Class 7
+Solution: Common Trap: Multiplying 6 × 2 = 12 first gives 36 ÷ 12 + 1 = 4 (incorrect). In BODMAS, division and multiplication have equal priority and are evaluated left to right: (36 ÷ 6) × 2 = 6 × 2 = 12, then 12 + 4 – 3 = 13.
+Source: SSC CGL Pattern
 
 52. Simplify: (15 – 3 of 4) × 2 + 1
-(a) 7 (b) 10 (c) 13 (d) 3
-Answer: (a) 7
-Solution:
-"Of" first: 3 of 4 = 12. Inside bracket: 15 – 12 = 3. Then 3 × 2 = 6, 6 + 1 = 7.
-Source: SSC CHSL Pattern
+(a) 5 (b) 7 (c) 9 (d) 11
+Answer: (b) 7
+Solution: "Of" first inside bracket: 3 of 4 = 12. Bracket evaluates to 15 – 12 = 3. Then multiply and add: 3 × 2 + 1 = 6 + 1 = 7.
+Source: NCERT Class 7
 
 53. Simplify: 1.5 + 2/5 × 10 – 1/2
-(a) 5 (b) 4.5 (c) 5.5 (d) 4
-Answer: (a) 5
-Solution:
-Multiplication first: 2/5 × 10 = 4. Then 1.5 + 4 – 0.5 = 5.
-Source: NCERT Class 7
+(a) 4.0 (b) 4.5 (c) 5.0 (d) 5.5
+Answer: (c) 5.0
+Solution: Multiplication first: 2/5 × 10 = 4. Convert 1/2 = 0.5. Expression: 1.5 + 4 – 0.5 = 5.5 – 0.5 = 5.0.
+Source: Banking Exam Pattern
 
 54. Simplify: 4/7 of 14 + 3/8 of 24 – 5
-(a) 15 (b) 12 (c) 14 (d) 13
-Answer: (c) 14
-Solution:
-4/7 × 14 = 8. 3/8 × 24 = 9. Then 8 + 9 – 5 = 12. Wait, 8+9=17, 17-5=12. So answer 12, but I set (c) 14. Let's adjust. Use 4/7 of 14 = 8, 5/8 of 24 = 15, sum 23 minus 5 = 18. Not good. Or 4/7 of 14 = 8, 3/4 of 8 = 6, sum 14. I'll change question to 4/7 of 14 + 3/4 of 8 – 2 = 8+6-2=12. But I want answer 14. Let's use 3/7 of 14 = 6, 5/8 of 24 = 15, sum 21 - 7 = 14. So 3/7 of 14 + 5/8 of 24 – 7. That's medium. I'll rewrite Q54.
-
-54. Simplify: 3/7 of 14 + 5/8 of 24 – 7
-(a) 14 (b) 12 (c) 16 (d) 10
-Answer: (a) 14
-Solution:
-3/7 × 14 = 6. 5/8 × 24 = 15. Then 6 + 15 – 7 = 14.
-Source: Banking Pattern
+(a) 10 (b) 14 (c) 16 (d) 12
+Answer: (d) 12
+Solution: "Of" first: 4/7 × 14 = 8 and 3/8 × 24 = 9. Expression: 8 + 9 – 5 = 17 – 5 = 12.
+Source: NCERT Class 7
 
 55. Simplify: [25 – {5 + (8 ÷ 2)}] × 3
-(a) 30 (b) 36 (c) 24 (d) 48
-Answer: (d) 48
-Solution:
-Innermost: 8 ÷ 2 = 4. Then 5 + 4 = 9. Next 25 – 9 = 16. Finally 16 × 3 = 48.
-Source: Railway (RRB) Pattern
+(a) 48 (b) 42 (c) 36 (d) 54
+Answer: (a) 48
+Solution: Innermost bracket: 8 ÷ 2 = 4. Curly bracket: {5 + 4} = 9. Square bracket: [25 – 9] = 16. Finally 16 × 3 = 48.
+Source: RRB Group D Pattern
 
 56. Simplify: (0.2)² + (0.3)³ ÷ 0.027
-(a) 1.4 (b) 1.04 (c) 0.14 (d) 1.004
+(a) 1.40 (b) 1.04 (c) 0.14 (d) 1.004
 Answer: (b) 1.04
-Solution:
-(0.2)² = 0.04. (0.3)³ = 0.027. Then 0.027 ÷ 0.027 = 1. Sum = 0.04 + 1 = 1.04.
-Source: NCERT Class 8
-
-57. Simplify: 125% of 48 + 0.5 of 64 – 20
-(a) 60 (b) 72 (c) 68 (d) 80
-Answer: (b) 72
-Solution:
-125% = 5/4, 5/4 × 48 = 60. 0.5 of 64 = 32. Then 60 + 32 – 20 = 72.
-Source: SSC CGL Pattern
-
-58. Simplify: 7/8 ÷ 3/4 × 1/2 of 16
-(a) 4 2/3 (b) 7 (c) 5 1/3 (d) 6
-Answer: (a) 4 2/3 (14/3)
-Solution:
-"Of" first: 1/2 of 16 = 8. Expression: 7/8 ÷ 3/4 × 8. Division left: 7/8 × 4/3 = 28/24 = 7/6. Then 7/6 × 8 = 56/6 = 28/3 = 9 1/3. Wait, that's 9.33, not 4 2/3. Let's recalc correctly: 7/8 ÷ 3/4 × 1/2 of 16. The expression is ambiguous: is it (7/8 ÷ 3/4) × (1/2 of 16)? Yes, by BODMAS, "of" binds stronger than ÷ and ×, so it's 7/8 ÷ 3/4 × (1/2 of 16). So 1/2 of 16 = 8. Then 7/8 ÷ 3/4 × 8. Division then multiplication left to right: 7/8 ÷ 3/4 = 7/8 × 4/3 = 7/6. Then 7/6 × 8 = 56/6 = 28/3 = 9 1/3. Not 4 2/3. So my answer was wrong. I'll adjust numbers to get a nice answer. Let's use 7/8 ÷ 3/4 × 1/7 of 21. That might work. 1/7 of 21 = 3. 7/8 ÷ 3/4 = 7/6. Then 7/6 × 3 = 21/6 = 3.5. Not 4 2/3. Better: 5/8 ÷ 5/6 × 2/3 of 9. 2/3 of 9=6. 5/8 ÷ 5/6 = 5/8 × 6/5 = 6/8 = 3/4. 3/4 × 6 = 18/4 = 4.5 = 4 1/2. That's close. Let's try 5/6 ÷ 3/4 × 2/5 of 10. 2/5 of 10 = 4. 5/6 ÷ 3/4 = 5/6 × 4/3 = 20/18 = 10/9. 10/9 × 4 = 40/9 = 4 4/9. Not nice. I'll aim for exact 4 2/3 = 14/3. We need a/b ÷ c/d × e/f of g = 14/3. Simpler: Use 7/8 ÷ 1/2 × 3/7 of 14. 3/7 of 14 = 6. 7/8 ÷ 1/2 = 7/8 × 2/1 = 7/4. 7/4 × 6 = 42/4 = 10.5. No. Let's step back: 14/3 is about 4.667. So we want final result 14/3. So (a/b ÷ c/d) × (e/f of g) = 14/3. Choose e/f of g = 2, then a/b ÷ c/d = 7/3, so we need 7/3 × 2 = 14/3. So we need 7/3 from division. Easy: 7/8 ÷ 3/8 = 7/8 × 8/3 = 7/3. Perfect. So expression: 7/8 ÷ 3/8 × 1/2 of 4? Because 1/2 of 4 = 2. Then 7/8 ÷ 3/8 × 2 = 7/8 × 8/3 = 7/3, then 7/3 × 2 = 14/3 = 4 2/3. But careful: The multiplication symbol after division with "of" next: The expression is 7/8 ÷ 3/8 × 1/2 of 4. "Of" binds first: 1/2 of 4 = 2. Then left to right: 7/8 ÷ 3/8 = 7/3, then 7/3 × 2 = 14/3. Works. So Q58 will be: Simplify: 7/8 ÷ 3/8 × 1/2 of 4. Answer 4 2/3. I'll rewrite.
-
-58. Simplify: 7/8 ÷ 3/8 × 1/2 of 4
-(a) 4 2/3 (b) 2 1/3 (c) 3 1/3 (d) 5 1/3
-Answer: (a) 4 2/3
-Solution:
-"Of" first: 1/2 of 4 = 2. Then 7/8 ÷ 3/8 = 7/8 × 8/3 = 7/3. Then 7/3 × 2 = 14/3 = 4 2/3.
-Source: SSC CGL Tier-II Pattern
-
-59. Simplify: 3 1/5 + 2 2/3 – 1 1/2
-(a) 4 11/30 (b) 4 7/30 (c) 4 1/6 (d) 3 19/30
-Answer: (a) 4 11/30
-Solution:
-Mixed to improper: 16/5 + 8/3 – 3/2. LCM 30: (96 + 80 – 45)/30 = (131)/30 = 4 11/30.
-Source: NCERT Class 8
-
-60. Simplify: (√81 – √16) × (√25 + √9)
-(a) 40 (b) 20 (c) 50 (d) 30
-Answer: (a) 40
-Solution:
-√81 = 9, √16 = 4, √25 = 5, √9 = 3. Then (9 – 4) × (5 + 3) = 5 × 8 = 40.
-Source: NCERT Class 9
-
-61. Simplify: 18 ÷ 3(2 + 1) of 1
-(a) 2 (b) 6 (c) 1 (d) 3
-Answer: (a) 2
-Solution:
-Bracket first: (2 + 1) = 3. Expression: 18 ÷ 3 × 3 of 1. "Of" binds: 3 of 1 = 3. So 18 ÷ 3 × 3. Left to right: 18 ÷ 3 = 6, 6 × 3 = 18. Wait, that gives 18, not 2. I mis-aimed. The question intended to have 18 ÷ 3(2+1) as 18 ÷ (3×(2+1)) but by strict BODMAS, implicit multiplication after bracket is multiplication, so it's 18 ÷ 3 × 3 = 18. Not a trap. I'll create a different question: 12 ÷ 4 of 2 × 3. That gives 12 ÷ 8 × 3 = 1.5 × 3 = 4.5. Not nice. Let's make 36 ÷ 6 of 3 × 2. 6 of 3 = 18, 36 ÷ 18 = 2, 2 × 2 = 4. So answer 4. I'll rewrite Q61.
-
-61. Simplify: 36 ÷ 6 of 3 × 2
-(a) 4 (b) 12 (c) 2 (d) 6
-Answer: (a) 4
-Solution:
-"Of" first: 6 of 3 = 18. Then 36 ÷ 18 = 2. Then 2 × 2 = 4.
+Solution: Powers: (0.2)² = 0.04 and (0.3)³ = 0.027. Division: 0.027 ÷ 0.027 = 1. Sum: 0.04 + 1 = 1.04.
 Source: SSC CHSL Pattern
 
-62. Simplify: (5/6 + 1/3) ÷ (1/2 of 1/4)
-(a) 7 (b) 14 (c) 28 (d) 21
-Answer: (b) 14
-Solution:
-Numerator: 5/6 + 1/3 = 5/6 + 2/6 = 7/6. Denominator: 1/2 of 1/4 = 1/8. So 7/6 ÷ 1/8 = 7/6 × 8/1 = 56/6 = 28/3 = 9 1/3. That's 9.33, not 14. I miscalculated. I need 14. So adjust: let denominator be 1/2 of 1/7? That's 1/14, then division 7/6 ÷ 1/14 = 7/6 × 14 = 98/6 = 49/3 ≈ 16.33. No. For 14, we want (sum) ÷ (something) = 14. If sum = 7/6, then something = 7/6 / 14 = 7/84 = 1/12. So denominator must be 1/12. So 1/2 of 1/6 = 1/12. Yes. So rewrite: (5/6 + 1/3) ÷ (1/2 of 1/6). That's the question. I'll do that.
+57. Simplify: 125% of 48 + 0.5 of 64 – 20
+(a) 68 (b) 76 (c) 72 (d) 80
+Answer: (c) 72
+Solution: 125% = 5/4, so 5/4 × 48 = 60. 0.5 of 64 = 32. Expression: 60 + 32 – 20 = 92 – 20 = 72.
+Source: Banking Exam Pattern
 
-62. Simplify: (5/6 + 1/3) ÷ (1/2 of 1/6)
-(a) 14 (b) 7 (c) 28 (d) 21
-Answer: (a) 14
-Solution:
-Numerator: 5/6 + 1/3 = 5/6 + 2/6 = 7/6. Denominator: 1/2 of 1/6 = 1/12. Then 7/6 ÷ 1/12 = 7/6 × 12/1 = 84/6 = 14.
-Source: Banking Pattern
+58. Simplify: 7/8 ÷ 3/4 × 1/4 of 16
+(a) 3 1/3 (b) 4 1/3 (c) 5 2/3 (d) 4 2/3
+Answer: (d) 4 2/3
+Solution: "Of" first: 1/4 of 16 = 4. Expression becomes 7/8 ÷ 3/4 × 4. Division left to right: 7/8 × 4/3 = 7/6. Finally 7/6 × 4 = 28/6 = 14/3 = 4 2/3.
+Source: NCERT Class 7
 
-63. Simplify: 15% of 320 + 25% of 480 – 10% of 750
-(a) 72 (b) 84 (c) 96 (d) 108
-Answer: (a) 72 (wait, compute: 15% of 320 = 48, 25% of 480 = 120, sum = 168, 10% of 750 = 75, 168 – 75 = 93. Not in options. So I'll change numbers to get 72. Let's aim for 72: maybe 20% of 400 = 80, 15% of 200 = 30, sum 110, minus 10% of 380 = 38, total 72. So question:20% of 400 + 15% of 200 – 10% of 380`. Compute: 80+30=110, minus 38=72. Perfect.
+59. Simplify: 3 1/5 + 2 2/3 – 1 1/2
+(a) 4 11/30 (b) 4 7/30 (c) 3 19/30 (d) 4 1/6
+Answer: (a) 4 11/30
+Solution: Improper fractions: 16/5 + 8/3 – 3/2. Common denominator 30: (96 + 80 – 45)/30 = 131/30 = 4 11/30.
+Source: SSC MTS Pattern
 
-63. Simplify: 20% of 400 + 15% of 200 – 10% of 380
-(a) 72 (b) 70 (c) 68 (d) 75
-Answer: (a) 72
-Solution:
-20% of 400 = 80, 15% of 200 = 30, 10% of 380 = 38. Then 80 + 30 – 38 = 72.
-Source: SSC CGL Pattern
-
-64. Simplify: 3.2 × 1.5 + 4.8 ÷ 0.6
-(a) 12.8 (b) 16.4 (c) 10.8 (d) 14.2
-Answer: (a) 12.8
-Solution:
-Multiplication/division left to right: 3.2 × 1.5 = 4.8, 4.8 ÷ 0.6 = 8. Then 4.8 + 8 = 12.8.
-Source: Railway Pattern
-
-65. Simplify: [{(8 ÷ 4) of 3} × 2] – 7
-(a) 5 (b) 7 (c) 3 (d) 9
-Answer: (a) 5
-Solution:
-Innermost: 8 ÷ 4 = 2. 2 of 3 = 6. Then 6 × 2 = 12. Finally 12 – 7 = 5.
-Source: SSC CGL Pattern
-
-66. Simplify: (2 1/4 – 1 1/6) ÷ 1 1/8
-(a) 26/27 (b) 1 (c) 27/26 (d) 1 1/27
-Answer: (a) 26/27
-Solution:
-2 1/4 = 9/4, 1 1/6 = 7/6, 1 1/8 = 9/8. Subtract: 9/4 – 7/6 = (27/12 – 14/12) = 13/12. Divide: 13/12 ÷ 9/8 = 13/12 × 8/9 = 104/108 = 26/27.
+60. Simplify: (√81 – √16) × (√25 + √9)
+(a) 35 (b) 40 (c) 45 (d) 50
+Answer: (b) 40
+Solution: Square roots: √81 = 9, √16 = 4, √25 = 5, √9 = 3. Expression: (9 – 4) × (5 + 3) = 5 × 8 = 40.
 Source: NCERT Class 8
 
+61. Simplify: 18 ÷ 3 of (1 + 2)
+(a) 18 (b) 6 (c) 2 (d) 1
+Answer: (c) 2
+Solution: Psychological Trap: Dividing first gives (18 ÷ 3) = 6, then 6 of 3 = 18 (incorrect). By BODMAS, bracket (1 + 2) = 3 is solved first, then "Of" precedes division: 3 of 3 = 9, so 18 ÷ 9 = 2.
+Source: SSC CGL Pattern
+
+62. Simplify: (5/6 + 1/3) ÷ (1/2 of 1/3)
+(a) 5 (b) 6 (c) 8 (d) 7
+Answer: (d) 7
+Solution: Numerator: 5/6 + 2/6 = 7/6. Denominator: 1/2 of 1/3 = 1/6. Expression: 7/6 ÷ 1/6 = 7/6 × 6 = 7.
+Source: NCERT Class 7
+
+63. Simplify: 20% of 400 + 15% of 200 – 10% of 380
+(a) 72 (b) 78 (c) 82 (d) 68
+Answer: (a) 72
+Solution: Calculate percentages: 20% of 400 = 80, 15% of 200 = 30, 10% of 380 = 38. Expression: 80 + 30 – 38 = 110 – 38 = 72.
+Source: Banking (IBPS) Pattern
+
+64. Simplify: 3.2 × 1.5 + 4.8 ÷ 0.6
+(a) 11.8 (b) 12.8 (c) 13.8 (d) 10.8
+Answer: (b) 12.8
+Solution: Multiplication and division first: 3.2 × 1.5 = 4.8 and 4.8 ÷ 0.6 = 8. Addition: 4.8 + 8 = 12.8.
+Source: SSC CGL Pattern
+
+65. Simplify: [{(8 ÷ 4) of 3} × 2] – 7
+(a) 3 (b) 4 (c) 5 (d) 6
+Answer: (c) 5
+Solution: Innermost: 8 ÷ 4 = 2. Then 2 of 3 = 6. Next 6 × 2 = 12. Finally 12 – 7 = 5.
+Source: Railway (RRB NTPC) Pattern
+
+66. Simplify: (2 1/4 – 1 1/6) ÷ 1 1/8
+(a) 1 (b) 27/26 (c) 25/27 (d) 26/27
+Answer: (d) 26/27
+Solution: Subtract inside bracket: 9/4 – 7/6 = 13/12. Divide by 1 1/8 = 9/8: (13/12) × (8/9) = (13 × 2)/(3 × 9) = 26/27.
+Source: NCERT Class 7
+
 67. Simplify: ∛27 + ∛64 – √25
-(a) 2 (b) 3 (c) 4 (d) 5
+(a) 2 (b) 3 (c) 4 (d) 1
 Answer: (a) 2
-Solution:
-∛27 = 3, ∛64 = 4, √25 = 5. Then 3 + 4 – 5 = 2.
-Source: NCERT Class 9
+Solution: Calculate roots: ∛27 = 3, ∛64 = 4, and √25 = 5. Expression: 3 + 4 – 5 = 2.
+Source: SSC MTS Pattern
 
 68. Simplify: 0.6 ÷ 0.2 × 0.5 + 1
-(a) 2.5 (b) 1.5 (c) 3.0 (d) 2.0
-Answer: (a) 2.5
-Solution:
-Left to right: 0.6 ÷ 0.2 = 3, 3 × 0.5 = 1.5, then 1.5 + 1 = 2.5.
+(a) 2.0 (b) 2.5 (c) 3.0 (d) 1.5
+Answer: (b) 2.5
+Solution: Division and multiplication left to right: 0.6 ÷ 0.2 = 3. Then 3 × 0.5 = 1.5. Finally 1.5 + 1 = 2.5.
 Source: NCERT Class 7
 
 69. Simplify: (5/8 of 4/5) × (3/7 of 14/9)
-(a) 1/3 (b) 2/3 (c) 1/2 (d) 1/4
-Answer: (a) 1/3
-Solution:
-5/8 × 4/5 = 20/40 = 1/2. 3/7 × 14/9 = 42/63 = 2/3. Then 1/2 × 2/3 = 1/3.
-Source: Banking Pattern
+(a) 1/2 (b) 1/4 (c) 1/3 (d) 2/3
+Answer: (c) 1/3
+Solution: First bracket: 5/8 × 4/5 = 1/2. Second bracket: 3/7 × 14/9 = 2/3. Multiplication: 1/2 × 2/3 = 1/3.
+Source: Banking Exam Pattern
 
 70. Simplify: [12 + (3 × 5 – 7) ÷ 2] × 2
-(a) 40 (b) 44 (c) 28 (d) 32
-Answer: (b) 44
-Solution:
-Inside bracket: 3 × 5 = 15, 15 – 7 = 8. Then 8 ÷ 2 = 4. So inner becomes 12 + 4 = 16. Then 16 × 2 = 32. Wait, that's 32, option (d). I'll check: [12 + (15-7) ÷ 2] × 2 = [12 + 8 ÷ 2] × 2 = [12 + 4] × 2 = 16 × 2 = 32. So answer 32. So I'll set answer as 32. But I wrote (b) 44. I'll correct: options: (a) 40 (b) 32 (c) 28 (d) 44. So answer (b) 32. Works.
+(a) 28 (b) 24 (c) 36 (d) 32
+Answer: (d) 32
+Solution: Innermost bracket: 3 × 5 – 7 = 15 – 7 = 8. Division: 8 ÷ 2 = 4. Square bracket: 12 + 4 = 16. Finally 16 × 2 = 32.
+Source: SSC CGL Pattern
 
-70. Simplify: [12 + (3 × 5 – 7) ÷ 2] × 2
-(a) 40 (b) 32 (c) 28 (d) 44
-Answer: (b) 32
-Solution:
-Bracket: 3 × 5 = 15, 15 – 7 = 8. Then 8 ÷ 2 = 4. Next 12 + 4 = 16. Finally 16 × 2 = 32.
-Source: SSC CHSL Pattern
-
-71. Simplify: (7/9) of 27 ÷ 3 + 2
-(a) 9 (b) 7 (c) 11 (d) 5
+71. Simplify: (7/9 of 27) ÷ 3 + 2
+(a) 9 (b) 7 (c) 8 (d) 10
 Answer: (a) 9
-Solution:
-7/9 × 27 = 21. Then 21 ÷ 3 = 7. Then 7 + 2 = 9.
+Solution: "Of" first inside bracket: 7/9 × 27 = 21. Division: 21 ÷ 3 = 7. Finally 7 + 2 = 9.
 Source: NCERT Class 7
 
-72. Simplify: 2² + 3² – (√49 – 1)²
-(a) 0 (b) 1 (c) 4 (d) 7
-Answer: (b) 1
-Solution:
-2² = 4, 3² = 9, √49 = 7, 7 – 1 = 6, 6² = 36. So 4 + 9 – 36 = 13 – 36 = –23. Not matching options. So I'll change to a nicer one: (√16)² + (√9)² – (5)² = 16+9-25=0. Not 1. Let's use 2³ – 3² + √36 = 8-9+6=5. Not. I want answer 1. Something like (√25 - √16)² + (√9 - √4)². Compute: (5-4)^2=1, (3-2)^2=1, sum=2. Too. Simple: 2^2 + 3^2 - (√49 - 2)^2 =4+9-(7-2)^2=13-25=-12. No. Let's use (√36 – √25) × (√49 – √16) - 2 = (6-5)*(7-4)-2 = 1*3-2=1. So question: (√36 – √25) × (√49 – √16) – 2. Compute: 1 × 3 – 2 = 1. Perfect.
+72. Simplify: 2² + 3² + (√49 – 1)²
+(a) 45 (b) 49 (c) 51 (d) 53
+Answer: (b) 49
+Solution: Powers and roots: 2² = 4, 3² = 9, and (√49 – 1)² = (7 – 1)² = 6² = 36. Sum: 4 + 9 + 36 = 49.
+Source: SSC CHSL Pattern
 
-72. Simplify: (√36 – √25) × (√49 – √16) – 2
-(a) 0 (b) 1 (c) 2 (d) 3
-Answer: (b) 1
-Solution:
-√36 = 6, √25 = 5, difference 1. √49 = 7, √16 = 4, difference 3. Multiply 1 × 3 = 3, then 3 – 2 = 1.
-Source: NCERT Class 9
-
-73. Simplify: (4/3 + 2/3) ÷ (1/2 of 3/4) × 5/8
-(a) 5 (b) 4 (c) 2.5 (d) 3.75
-Answer: (a) 5
-Solution:
-Sum: 4/3 + 2/3 = 6/3 = 2. "Of": 1/2 of 3/4 = 3/8. So 2 ÷ 3/8 × 5/8. Division then multiplication left to right: 2 × 8/3 = 16/3. Then 16/3 × 5/8 = (80)/(24) = 10/3 ≈ 3.33. Not 5. I'll adjust to get 5. Want final result 5. So (sum) ÷ (something) × (multiplier) = 5. Let sum = 6, something = 3/8, multiplier = 5/8: then 6 ÷ 3/8 = 6 × 8/3 = 16, 16 × 5/8 = 10. Not 5. For 5, we need (sum / something) = 8, then 8 × 5/8 = 5. So sum / something = 8. If sum = 6, something = 6/8 = 3/4. So something must be 3/4. So "1/2 of something" = 3/4, so that something = 3/2. So "1/2 of 3/2" = 3/4. Yes. So expression: (4/3 + 2/3) ÷ (1/2 of 3/2) × 5/8. Then sum=2, of = 3/4, division: 2 ÷ 3/4 = 2 × 4/3 = 8/3, then ×5/8 = (8/3)*(5/8)=5/3 ≈1.667, not 5. I miscalc: 2 ÷ 3/4 = 8/3, not 8. For 8, sum must be 6. So make sum = 6. Use (5/2 + 7/2) = 12/2 = 6. So sum of fractions = 6. Then we need (6) ÷ (1/2 of something) × 5/8 = 5. So 6 ÷ X = 8, X = 6/8 = 3/4. So X must be 3/4. Thus 1/2 of something = 3/4, so something = 3/2. So 1/2 of 3/2 = 3/4. Then the expression: (5/2 + 7/2) ÷ (1/2 of 3/2) × 5/8. Compute: 5/2+7/2=12/2=6, of=3/4, 6÷3/4=8, 8×5/8=5. Perfect.
-
-73. Simplify: (5/2 + 7/2) ÷ (1/2 of 3/2) × 5/8
-(a) 5 (b) 4 (c) 2.5 (d) 3.75
-Answer: (a) 5
-Solution:
-Sum: 5/2 + 7/2 = 12/2 = 6. "Of": 1/2 of 3/2 = 3/4. Then 6 ÷ 3/4 = 6 × 4/3 = 8. Finally 8 × 5/8 = 5.
-Source: IBPS PO Pattern
+73. Simplify: (4/3 + 2/3) ÷ 2 × 5/2
+(a) 2.0 (b) 3.0 (c) 2.5 (d) 3.5
+Answer: (c) 2.5
+Solution: Bracket sum: 4/3 + 2/3 = 6/3 = 2. Left to right: 2 ÷ 2 = 1, then 1 × 5/2 = 2.5.
+Source: Banking Exam Pattern
 
 74. Simplify: 12.5% of 1600 + 33 1/3% of 270 – 16 2/3% of 240
-(a) 200 (b) 180 (c) 220 (d) 240
-Answer: (a) 200
-Solution:
-12.5% = 1/8 → 1600/8=200. 33 1/3% = 1/3 → 270/3=90. 16 2/3% = 1/6 → 240/6=40. So 200 + 90 – 40 = 250. Wait, 250 not in options. Let's adjust to get 200. We want sum 200. So maybe change numbers: 12.5% of 800 = 100, 33 1/3% of 180 = 60, minus 16 2/3% of 120 = 20, total 140. Not. Better:10% of 1000 + 20% of 500 = 100+100=200. Simpler: 25% of 600 + 50% of 100 = 150+50=200. But I want to use fractional percentages. Let's aim for 200: use12.5% of 800 = 100, 33 1/3% of 150 = 50, 16 2/3% of 300 = 50, total 100. Not. Let's do: 12.5% of 1600 = 200, 33 1/3% of 0 = 0, minus 0 = 200, but too trivial. I'll use12.5% of 1600 = 200, + 33 1/3% of 90 = 30, - 16 2/3% of 180 = 30, total 200. So 12.5% of 1600 = 200, 33 1/3% of 90 = 30, sum 230, minus 16 2/3% of 180 = 30, gives 200. So question:12.5% of 1600 + 33 1/3% of 90 – 16 2/3% of 180`. Answer 200.
-
-74. Simplify: 12.5% of 1600 + 33 1/3% of 90 – 16 2/3% of 180
-(a) 200 (b) 210 (c) 190 (d) 220
-Answer: (a) 200
-Solution:
-12.5% = 1/8 → 1600/8 = 200. 33 1/3% = 1/3 → 90/3 = 30. 16 2/3% = 1/6 → 180/6 = 30. Then 200 + 30 – 30 = 200.
-Source: SSC CGL Pattern
+(a) 240 (b) 260 (c) 270 (d) 250
+Answer: (d) 250
+Solution: Fraction equivalents: 12.5% = 1/8 (1/8 × 1600 = 200), 33 1/3% = 1/3 (1/3 × 270 = 90), 16 2/3% = 1/6 (1/6 × 240 = 40). Expression: 200 + 90 – 40 = 250.
+Source: Railway (RRB NTPC) Pattern
 
 75. Simplify: (3.5 × 2.4 – 1.2) ÷ 1.5 + 6
-(a) 10.8 (b) 10.4 (c) 11.2 (d) 9.6
-Answer: (a) 10.8
-Solution:
-3.5 × 2.4 = 8.4. 8.4 – 1.2 = 7.2. Then 7.2 ÷ 1.5 = 4.8. Finally 4.8 + 6 = 10.8.
-Source: Railway Pattern
-
-I'll now output the set.Set 3: Simplification MCQs (Medium)
-Questions 51–75: All Medium
-
-51. Simplify: 36 ÷ 6 × 2 + 4 – 3
-(a) 13 (b) 11 (c) 17 (d) 9
-Answer: (a) 13
-Solution:
-Division & multiplication left to right: 36 ÷ 6 = 6, then 6 × 2 = 12. Then 12 + 4 – 3 = 13.
-Source: NCERT Class 7
-
-52. Simplify: (15 – 3 of 4) × 2 + 1
-(a) 7 (b) 10 (c) 13 (d) 3
-Answer: (a) 7
-Solution:
-"Of" first: 3 of 4 = 12. Inside bracket: 15 – 12 = 3. Then 3 × 2 = 6, 6 + 1 = 7.
-Source: SSC CHSL Pattern
-
-53. Simplify: 1.5 + 2/5 × 10 – 1/2
-(a) 5 (b) 4.5 (c) 5.5 (d) 4
-Answer: (a) 5
-Solution:
-Multiplication first: 2/5 × 10 = 4. Then 1.5 + 4 – 0.5 = 5.
-Source: NCERT Class 7
-
-54. Simplify: 3/7 of 14 + 5/8 of 24 – 7
-(a) 14 (b) 12 (c) 16 (d) 10
-Answer: (a) 14
-Solution:
-3/7 × 14 = 6. 5/8 × 24 = 15. Then 6 + 15 – 7 = 14.
-Source: Banking Pattern
-
-55. Simplify: [25 – {5 + (8 ÷ 2)}] × 3
-(a) 30 (b) 36 (c) 24 (d) 48
-Answer: (d) 48
-Solution:
-Innermost: 8 ÷ 2 = 4. Then 5 + 4 = 9. Next 25 – 9 = 16. Finally 16 × 3 = 48.
-Source: Railway (RRB) Pattern
-
-56. Simplify: (0.2)² + (0.3)³ ÷ 0.027
-(a) 1.4 (b) 1.04 (c) 0.14 (d) 1.004
-Answer: (b) 1.04
-Solution:
-(0.2)² = 0.04. (0.3)³ = 0.027. Then 0.027 ÷ 0.027 = 1. Sum = 0.04 + 1 = 1.04.
-Source: NCERT Class 8
-
-57. Simplify: 125% of 48 + 0.5 of 64 – 20
-(a) 60 (b) 72 (c) 68 (d) 80
-Answer: (b) 72
-Solution:
-125% = 5/4, 5/4 × 48 = 60. 0.5 of 64 = 32. Then 60 + 32 – 20 = 72.
+(a) 10.4 (b) 10.8 (c) 11.2 (d) 9.8
+Answer: (b) 10.8
+Solution: Bracket: 3.5 × 2.4 = 8.4, and 8.4 – 1.2 = 7.2. Division: 7.2 ÷ 1.5 = 4.8. Finally 4.8 + 6 = 10.8.
 Source: SSC CGL Pattern
-
-58. Simplify: 7/8 ÷ 3/8 × 1/2 of 4
-(a) 4 2/3 (b) 2 1/3 (c) 3 1/3 (d) 5 1/3
-Answer: (a) 4 2/3
-Solution:
-"Of" first: 1/2 of 4 = 2. Then 7/8 ÷ 3/8 = 7/8 × 8/3 = 7/3. Finally 7/3 × 2 = 14/3 = 4 2/3.
-Source: SSC CGL Tier-II Pattern
-
-59. Simplify: 3 1/5 + 2 2/3 – 1 1/2
-(a) 4 11/30 (b) 4 7/30 (c) 4 1/6 (d) 3 19/30
-Answer: (a) 4 11/30
-Solution:
-Mixed to improper: 16/5 + 8/3 – 3/2. LCM 30: (96 + 80 – 45)/30 = 131/30 = 4 11/30.
-Source: NCERT Class 8
-
-60. Simplify: (√81 – √16) × (√25 + √9)
-(a) 40 (b) 20 (c) 50 (d) 30
-Answer: (a) 40
-Solution:
-√81 = 9, √16 = 4, √25 = 5, √9 = 3. Then (9 – 4) × (5 + 3) = 5 × 8 = 40.
-Source: NCERT Class 9
-
-61. Simplify: 36 ÷ 6 of 3 × 2
-(a) 4 (b) 12 (c) 2 (d) 6
-Answer: (a) 4
-Solution:
-"Of" first: 6 of 3 = 18. Then 36 ÷ 18 = 2. Then 2 × 2 = 4.
-Source: SSC CHSL Pattern
-
-62. Simplify: (5/6 + 1/3) ÷ (1/2 of 1/6)
-(a) 14 (b) 7 (c) 28 (d) 21
-Answer: (a) 14
-Solution:
-Numerator: 5/6 + 1/3 = 5/6 + 2/6 = 7/6. Denominator: 1/2 of 1/6 = 1/12. Then 7/6 ÷ 1/12 = 7/6 × 12/1 = 84/6 = 14.
-Source: Banking Pattern
-
-63. Simplify: 20% of 400 + 15% of 200 – 10% of 380
-(a) 72 (b) 70 (c) 68 (d) 75
-Answer: (a) 72
-Solution:
-20% of 400 = 80, 15% of 200 = 30, 10% of 380 = 38. Then 80 + 30 – 38 = 72.
-Source: SSC CGL Pattern
-
-64. Simplify: 3.2 × 1.5 + 4.8 ÷ 0.6
-(a) 12.8 (b) 16.4 (c) 10.8 (d) 14.2
-Answer: (a) 12.8
-Solution:
-Multiplication/division left to right: 3.2 × 1.5 = 4.8, 4.8 ÷ 0.6 = 8. Then 4.8 + 8 = 12.8.
-Source: Railway Pattern
-
-65. Simplify: [{(8 ÷ 4) of 3} × 2] – 7
-(a) 5 (b) 7 (c) 3 (d) 9
-Answer: (a) 5
-Solution:
-Innermost: 8 ÷ 4 = 2. 2 of 3 = 6. Then 6 × 2 = 12. Finally 12 – 7 = 5.
-Source: SSC CGL Pattern
-
-66. Simplify: (2 1/4 – 1 1/6) ÷ 1 1/8
-(a) 26/27 (b) 1 (c) 27/26 (d) 1 1/27
-Answer: (a) 26/27
-Solution:
-2 1/4 = 9/4, 1 1/6 = 7/6, 1 1/8 = 9/8. Subtract: 9/4 – 7/6 = (27/12 – 14/12) = 13/12. Divide: 13/12 ÷ 9/8 = 13/12 × 8/9 = 104/108 = 26/27.
-Source: NCERT Class 8
-
-67. Simplify: ∛27 + ∛64 – √25
-(a) 2 (b) 3 (c) 4 (d) 5
-Answer: (a) 2
-Solution:
-∛27 = 3, ∛64 = 4, √25 = 5. Then 3 + 4 – 5 = 2.
-Source: NCERT Class 9
-
-68. Simplify: 0.6 ÷ 0.2 × 0.5 + 1
-(a) 2.5 (b) 1.5 (c) 3.0 (d) 2.0
-Answer: (a) 2.5
-Solution:
-Left to right: 0.6 ÷ 0.2 = 3, 3 × 0.5 = 1.5, then 1.5 + 1 = 2.5.
-Source: NCERT Class 7
-
-69. Simplify: (5/8 of 4/5) × (3/7 of 14/9)
-(a) 1/3 (b) 2/3 (c) 1/2 (d) 1/4
-Answer: (a) 1/3
-Solution:
-5/8 × 4/5 = 20/40 = 1/2. 3/7 × 14/9 = 42/63 = 2/3. Then 1/2 × 2/3 = 1/3.
-Source: Banking Pattern
-
-70. Simplify: [12 + (3 × 5 – 7) ÷ 2] × 2
-(a) 40 (b) 32 (c) 28 (d) 44
-Answer: (b) 32
-Solution:
-Inside bracket: 3 × 5 = 15, 15 – 7 = 8. Then 8 ÷ 2 = 4. Next 12 + 4 = 16. Finally 16 × 2 = 32.
-Source: SSC CHSL Pattern
-
-71. Simplify: (7/9) of 27 ÷ 3 + 2
-(a) 9 (b) 7 (c) 11 (d) 5
-Answer: (a) 9
-Solution:
-7/9 × 27 = 21. Then 21 ÷ 3 = 7. Then 7 + 2 = 9.
-Source: NCERT Class 7
-
-72. Simplify: (√36 – √25) × (√49 – √16) – 2
-(a) 0 (b) 1 (c) 2 (d) 3
-Answer: (b) 1
-Solution:
-√36 = 6, √25 = 5, difference 1. √49 = 7, √16 = 4, difference 3. Multiply 1 × 3 = 3, then 3 – 2 = 1.
-Source: NCERT Class 9
-
-73. Simplify: (5/2 + 7/2) ÷ (1/2 of 3/2) × 5/8
-(a) 5 (b) 4 (c) 2.5 (d) 3.75
-Answer: (a) 5
-Solution:
-Sum: 5/2 + 7/2 = 12/2 = 6. "Of": 1/2 of 3/2 = 3/4. Then 6 ÷ 3/4 = 6 × 4/3 = 8. Finally 8 × 5/8 = 5.
-Source: IBPS PO Pattern
-
-74. Simplify: 12.5% of 1600 + 33 1/3% of 90 – 16 2/3% of 180
-(a) 200 (b) 210 (c) 190 (d) 220
-Answer: (a) 200
-Solution:
-12.5% = 1/8 → 1600/8 = 200. 33 1/3% = 1/3 → 90/3 = 30. 16 2/3% = 1/6 → 180/6 = 30. Then 200 + 30 – 30 = 200.
-Source: SSC CGL Pattern
-
-75. Simplify: (3.5 × 2.4 – 1.2) ÷ 1.5 + 6
-(a) 10.8 (b) 10.4 (c) 11.2 (d) 9.6
-Answer: (a) 10.8
-Solution:
-3.5 × 2.4 = 8.4. 8.4 – 1.2 = 7.2. Then 7.2 ÷ 1.5 = 4.8. Finally 4.8 + 6 = 10.8.
-Source: Railway Pattern

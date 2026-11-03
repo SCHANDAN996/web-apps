@@ -1,0 +1,65 @@
+```mermaid
+graph TD
+    A["भारतीय राजनीतिक व्यवस्था<br>Indian Polity"] --> B["संविधान<br>Constitution"]
+    A --> C["संघीय ढाँचा<br>Federal Structure"]
+    A --> D["संघ सरकार<br>Union Government"]
+    A --> E["राज्य सरकार<br>State Government"]
+    A --> F["स्थानीय शासन<br>Local Governance"]
+    A --> G["संवैधानिक निकाय<br>Constitutional Bodies"]
+    A --> H["परीक्षक के जाल<br>Examiner's Traps"]
+
+    B --> B1["निर्माण: संविधान सभा 1946-49<br>Constituent Assembly"]
+    B --> B2["अंगीकृत: 26 नवंबर 1949<br>Adopted"]
+    B --> B3["लागू: 26 जनवरी 1950<br>Enforced"]
+    B --> B4["मूल: 395 अनुच्छेद, 22 भाग, 8 अनुसूचियाँ<br>Original: 395 Articles, 22 Parts, 8 Schedules"]
+    B --> B5["वर्तमान: 12 अनुसूचियाँ<br>Now 12 Schedules"]
+    B --> B6["स्रोत: GOI Act 1935, UK, USA, Ireland<br>Borrowed Features"]
+
+    C --> C1["7वीं अनुसूची: 3 सूचियाँ<br>7th Schedule: 3 Lists"]
+    C1 --> C2["संघ सूची: 100 विषय<br>Union List"]
+    C1 --> C3["राज्य सूची: 61 विषय<br>State List"]
+    C1 --> C4["समवर्ती सूची: 52 विषय<br>Concurrent List"]
+    C --> C5["अवशिष्ट शक्तियाँ: केंद्र को<br>Residuary Powers: Centre"]
+
+    D --> D1["राष्ट्रपति: अनुच्छेद 52<br>President: Art 52"]
+    D --> D2["उपराष्ट्रपति: अनुच्छेद 63<br>Vice-President: Art 63"]
+    D --> D3["प्रधानमंत्री: अनुच्छेद 74-75<br>PM: Art 74-75"]
+    D --> D4["संसद: लोकसभा + राज्यसभा<br>Parliament: LS + RS"]
+    D4 --> D5["लोकसभा: अधिकतम 552<br>Lok Sabha: max 552"]
+    D4 --> D6["राज्यसभा: अधिकतम 250<br>Rajya Sabha: max 250"]
+    D --> D7["सर्वोच्च न्यायालय: अनुच्छेद 124<br>Supreme Court: Art 124"]
+
+    E --> E1["राज्यपाल: अनुच्छेद 153<br>Governor: Art 153"]
+    E --> E2["मुख्यमंत्री: अनुच्छेद 164<br>CM: Art 164"]
+    E --> E3["उच्च न्यायालय: अनुच्छेद 214<br>High Court: Art 214"]
+
+    F --> F1["73वाँ संशोधन 1992: पंचायत<br>73rd Amendment: Panchayats"]
+    F --> F2["74वाँ संशोधन 1992: नगरपालिका<br>74th Amendment: Municipalities"]
+    F --> F3["11वीं अनुसूची: 29 विषय<br>11th Schedule: 29 items"]
+    F --> F4["12वीं अनुसूची: 18 विषय<br>12th Schedule: 18 items"]
+
+    G --> G1["चुनाव आयोग: अनुच्छेद 324<br>Election Commission: Art 324"]
+    G --> G2["UPSC: अनुच्छेद 315<br>UPSC: Art 315"]
+    G --> G3["CAG: अनुच्छेद 148<br>CAG: Art 148"]
+    G --> G4["अटॉर्नी जनरल: अनुच्छेद 76<br>Attorney General: Art 76"]
+
+    B --> I["मौलिक अधिकार<br>Fundamental Rights"]
+    I --> I1["अनुच्छेद 12-35<br>Articles 12-35"]
+    I --> I2["6 अधिकार<br>6 Rights"]
+    I --> I3["अनुच्छेद 32: संवैधानिक उपचार<br>Art 32: Remedies"]
+
+    B --> J["मौलिक कर्तव्य<br>Fundamental Duties"]
+    J --> J1["अनुच्छेद 51A<br>Article 51A"]
+    J --> J2["42वाँ संशोधन 1976: 10 कर्तव्य<br>42nd Amendment 1976"]
+    J --> J3["86वाँ संशोधन 2002: 11वाँ कर्तव्य<br>86th Amendment 2002"]
+
+    H --> H1["राष्ट्रपति vs राज्यपाल शक्तियाँ<br>President vs Governor"]
+    H --> H2["संशोधन वर्ष का भ्रम<br>Amendment Year Confusion"]
+    H --> H3["अनुच्छेद संख्या की अदला-बदली<br>Article Number Swap"]
+    H --> H4["लोकसभा vs राज्यसभा कार्य<br>LS vs RS Functions"]
+
+    A --> K["रणनीति<br>Strategy"]
+    K --> K1["अनुच्छेद + अनुसूची रटें<br>Memorize Articles + Schedules"]
+    K --> K2["संशोधन कालक्रम बनाएं<br>Amendment Timeline"]
+    K --> K3["तुलनात्मक तालिका<br>Comparative Tables"]
+```

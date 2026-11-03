@@ -1,8 +1,124 @@
-# Chapter: Trigonometry, Level: intermediate
+# 📋 Important Formulas — Trigonometry
 
-@content_agent lang=en level=intermediate 'List all important formulas, equations, and rules for Trigonometry.
-Instructions:
-- Only formulas and a one-line hint (when to use), no detailed explanation.
-- Present in a clean table: Formula Name | Formula | Use-Hint
-- Cover all formulas essential for solving exam questions.
-- Keep language simple and precise.'
+## 1. Basic Ratios (in a right-angled triangle)
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Sine | sin θ = Perpendicular / Hypotenuse | Ratio involving opposite side |
+| Cosine | cos θ = Base / Hypotenuse | Ratio involving adjacent side |
+| Tangent | tan θ = Perpendicular / Base = sin θ / cos θ | When hypotenuse is not given |
+| Cosecant | cosec θ = 1 / sin θ | Reciprocal of sine |
+| Secant | sec θ = 1 / cos θ | Reciprocal of cosine |
+| Cotangent | cot θ = 1 / tan θ = cos θ / sin θ | Reciprocal of tangent |
+
+## 2. Standard Values Table
+
+| θ | 0° | 30° | 45° | 60° | 90° |
+|---|---|---|---|---|---|
+| sin θ | 0 | 1/2 | 1/√2 | √3/2 | 1 |
+| cos θ | 1 | √3/2 | 1/√2 | 1/2 | 0 |
+| tan θ | 0 | 1/√3 | 1 | √3 | Not defined |
+| cot θ | Not defined | √3 | 1 | 1/√3 | 0 |
+| sec θ | 1 | 2/√3 | √2 | 2 | Not defined |
+| cosec θ | Not defined | 2 | √2 | 2/√3 | 1 |
+
+## 3. Fundamental Identities
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Pythagorean Identity 1 | sin²θ + cos²θ = 1 | Simplifying sin–cos expressions |
+| Pythagorean Identity 2 | 1 + tan²θ = sec²θ | Converting tan ↔ sec |
+| Pythagorean Identity 3 | 1 + cot²θ = cosec²θ | Converting cot ↔ cosec |
+| Derived form | sec²θ − tan²θ = 1 | Factor as (sec θ − tan θ)(sec θ + tan θ) |
+| Derived form | cosec²θ − cot²θ = 1 | Factor as (cosec θ − cot θ)(cosec θ + cot θ) |
+
+## 4. Complementary Angle Formulas
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Sine–Cosine | sin(90° − θ) = cos θ | Converting between sin and cos |
+| Cosine–Sine | cos(90° − θ) = sin θ | Converting between cos and sin |
+| Tangent–Cotangent | tan(90° − θ) = cot θ | Converting between tan and cot |
+| Cotangent–Tangent | cot(90° − θ) = tan θ | Converting between cot and tan |
+| Secant–Cosecant | sec(90° − θ) = cosec θ | Converting between sec and cosec |
+| Cosecant–Secant | cosec(90° − θ) = sec θ | Converting between cosec and sec |
+
+## 5. Signs in Quadrants (ASTC Rule)
+
+| Quadrant | Angles | Positive Ratios |
+|---|---|---|
+| I | 0°–90° | All (A) |
+| II | 90°–180° | Sin, Cosec (S) |
+| III | 180°–270° | Tan, Cot (T) |
+| IV | 270°–360° | Cos, Sec (C) |
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Negative angles | sin(−θ) = −sin θ; cos(−θ) = cos θ; tan(−θ) = −tan θ | Handling negative angles |
+| Supplementary | sin(180° − θ) = sin θ; cos(180° − θ) = −cos θ | Second quadrant values |
+| | tan(180° + θ) = tan θ; cos(180° + θ) = −cos θ | Third quadrant values |
+| | sin(360° − θ) = −sin θ; cos(360° − θ) = cos θ | Fourth quadrant values |
+
+## 6. Sum and Difference Formulas
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| sin(A + B) | sin A cos B + cos A sin B | Expanding compound angles |
+| sin(A − B) | sin A cos B − cos A sin B | Expanding compound angles |
+| cos(A + B) | cos A cos B − sin A sin B | Expanding compound angles |
+| cos(A − B) | cos A cos B + sin A sin B | Expanding compound angles |
+| tan(A + B) | (tan A + tan B) / (1 − tan A tan B) | Compound angle in tan |
+| tan(A − B) | (tan A − tan B) / (1 + tan A tan B) | Compound angle in tan |
+
+## 7. Double Angle Formulas
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| sin 2θ | 2 sin θ cos θ = 2 tan θ / (1 + tan²θ) | Doubling an angle |
+| cos 2θ | cos²θ − sin²θ = 2cos²θ − 1 = 1 − 2sin²θ | Choose form as per given data |
+| tan 2θ | 2 tan θ / (1 − tan²θ) | Doubling in tan |
+
+## 8. Triple Angle Formulas
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| sin 3θ | 3 sin θ − 4 sin³θ | Tripling an angle |
+| cos 3θ | 4 cos³θ − 3 cos θ | Tripling an angle |
+| tan 3θ | (3 tan θ − tan³θ) / (1 − 3 tan²θ) | Tripling in tan |
+
+## 9. Product-to-Sum Formulas
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| 2 sin A cos B | sin(A + B) + sin(A − B) | Product → sum conversion |
+| 2 cos A sin B | sin(A + B) − sin(A − B) | Product → sum conversion |
+| 2 cos A cos B | cos(A + B) + cos(A − B) | Product → sum conversion |
+| 2 sin A sin B | cos(A − B) − cos(A + B) | Product → sum conversion |
+
+## 10. Sum-to-Product Formulas
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| sin C + sin D | 2 sin((C+D)/2) cos((C−D)/2) | Sum → product conversion |
+| sin C − sin D | 2 cos((C+D)/2) sin((C−D)/2) | Difference → product |
+| cos C + cos D | 2 cos((C+D)/2) cos((C−D)/2) | Sum → product conversion |
+| cos C − cos D | −2 sin((C+D)/2) sin((C−D)/2) | Difference → product (note minus sign) |
+
+## 11. Heights and Distances
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Height from angle of elevation | h = d · tan θ | d = distance from foot of object |
+| Distance from angle of elevation | d = h / tan θ = h · cot θ | When height is known |
+| Two positions (same side) | h = d · tan α · tan β / (tan β − tan α) | Angles α < β from two points d apart |
+| Two positions (opposite sides) | h = d · tan α · tan β / (tan α + tan β) | Object between the two points |
+
+## 12. Radian–Degree Conversion
+
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Degree → Radian | θ° × (π/180) | Converting degrees to radians |
+| Radian → Degree | θ × (180/π) | Converting radians to degrees |
+| Key relation | π radians = 180° | Base conversion fact |
+
+**Memory Tip:** For standard values of sin θ, write 0, 1, 2, 3, 4 → divide each by 4 → take square root: √(0/4), √(1/4), √(2/4), √(3/4), √(4/4) = 0, 1/2, 1/√2, √3/2, 1. Cosine is the same row read backwards!

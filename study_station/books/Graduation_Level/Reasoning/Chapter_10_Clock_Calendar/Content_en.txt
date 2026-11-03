@@ -1,0 +1,172 @@
+# Clock & Calendar
+
+## Why This Chapter Can Win You the Exam
+
+Every year, lakhs of aspirants lose 2–3 marks in SSC CGL, IBPS PO, and RRB NTPC not because Clock & Calendar is hard — but because they *think* it is hard and skip it. Here is the truth: this chapter runs on barely **five formulas and two ideas**. Once those click, every question becomes a 30-second calculation. Toppers don't solve these questions faster because they are smarter — they solve them faster because they stopped memorising and started understanding *why* the formulas work. That is exactly what we will do here.
+
+## Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Find the angle between the hour and minute hands at any given time.
+2. Find the time when the two hands are together, opposite, or at a given angle.
+3. Solve "faulty clock" (gain/loss) problems.
+4. Find the day of the week for any date using odd days.
+5. Handle leap-year traps and century-year traps confidently.
+
+## The Common Struggle — Let's Name It
+
+Most students struggle here for three reasons:
+
+- They memorise the angle formula without knowing where it comes from, so a twisted question breaks them.
+- They count odd days wrongly around **century years** (Is 1900 a leap year? No! Is 2000? Yes!).
+- They panic when the question asks "when will the hands be at right angles **between** 4 and 5?" — because there are *two* answers, not one.
+
+We will fix all three, one chunk at a time.
+
+---
+
+## Part 1: The Clock — Speeds of the Hands
+
+Everything in clock problems comes from one fact: **the two hands move at different speeds.**
+
+- The **minute hand** covers 360° in 60 minutes → **6° per minute**.
+- The **hour hand** covers 360° in 12 hours (720 minutes) → **0.5° per minute**.
+
+So the minute hand gains on the hour hand at:
+
+**Relative speed = 6 − 0.5 = 5.5° per minute**
+
+This single number — 5.5°/min — is the engine of every clock question.
+
+🧠 **Active Recall:** Without looking up — how many degrees does the hour hand move in 20 minutes? And what is the relative speed of the two hands?
+
+## Part 2: The Angle Formula
+
+At time **H : M** (H hours, M minutes):
+
+- Minute hand position (from 12) = 6M degrees
+- Hour hand position (from 12) = 30H + 0.5M degrees
+
+**Angle between hands = |30H − 5.5M|**
+
+If this comes out more than 180°, subtract it from 360° (the angle between two hands is always taken as the smaller one).
+
+**Example:** Angle at 4:20?
+|30×4 − 5.5×20| = |120 − 110| = **10°**
+
+**Example:** Angle at 2:50?
+|60 − 275| = 215° → 360 − 215 = **145°**
+
+🧠 **Active Recall:** Find the angle at 7:15 before reading further. (Answer: |210 − 82.5| = 127.5°)
+
+## Part 3: When Are the Hands Together or Opposite?
+
+**Together (0° apart):** The hands coincide 11 times in 12 hours (not 12 — between 11 and 1 they meet only once, at 12:00). Gap between two coincidences = 12/11 hours = **65⁵⁄₁₁ minutes**.
+
+To find when hands coincide between H and H+1 o'clock:
+**Time = H : (60H/11) minutes** — e.g., between 4 and 5: 4 : 240/11 = 4 : 21⁹⁄₁₁.
+
+**Opposite (180° apart):** Also 11 times in 12 hours, gap of 65⁵⁄₁₁ minutes. The logic: the minute hand must be 30 minutes' worth (180°) ahead of the hour hand.
+
+- For H < 6: **Time = H : (60H + 360)/11 minutes** — e.g., between 4 and 5: 4 : 600/11 = 4 : 54⁶⁄₁₁.
+- For H > 6: **Time = H : (60H − 360)/11 minutes** — e.g., between 8 and 9: 8 : 120/11 = 8 : 10¹⁰⁄₁₁.
+
+**At right angles (90°):** This happens **22 times in 12 hours — twice every hour** (except the 2–3 and 8–9 windows, where it happens only once per gap, which is why 22 and not 24). This is the examiner's favourite trap.
+
+🧠 **Active Recall:** How many times in 24 hours do the hands (a) coincide, (b) stand opposite, (c) form a right angle? (Answers: 22, 22, 44.)
+
+## Part 4: Faulty Clocks (Gain & Loss)
+
+Idea: if a clock **gains** 5 minutes every hour, then when true time advances 60 minutes, this clock shows 65 minutes. Set up a proportion.
+
+**Example:** A clock gains 10 minutes every 24 hours. It is set right at 8 AM Monday. What will it show at 8 PM Tuesday (true time)?
+
+- True elapsed = 36 hours.
+- Clock shows 24h10m for every true 24h → in 36 true hours it shows 36 × (24⅙/24) = 36h 15m.
+- So it shows **8:15 PM**.
+
+**Mnemonic 🧠:** *"Gain goes ahead, Loss lags behind — proportion is the spine."* Whatever the fault, convert everything into "faulty-clock minutes per true minutes" and scale.
+
+## Part 5: The Calendar — Odd Days
+
+The whole calendar chapter is one question: **how many "extra" days beyond complete weeks?**
+
+- Ordinary year = 365 days = 52 weeks + **1 odd day**
+- Leap year = 366 days = 52 weeks + **2 odd days**
+
+**Leap year rule:** Divisible by 4 — **but** a century year (1700, 1800, 1900, 2100) is a leap year **only if divisible by 400**. So 2000 was a leap year; 1900 was not.
+
+**Odd days in centuries (memorise this table):**
+
+| Period | Odd days |
+|---|---|
+| 100 years | 5 |
+| 200 years | 3 |
+| 300 years | 1 |
+| 400 years | 0 |
+
+Why? 100 years = 76 ordinary + 24 leap = 76 + 48 = 124 odd days → 124 mod 7 = 5. The rest follow by addition mod 7.
+
+**Day codes:** Sunday = 0, Monday = 1, … Saturday = 6.
+
+**Month codes (odd days per month, cumulative):** Jan 3, Feb 0 (non-leap) / 1 (leap), Mar 3, Apr 2, May 3, Jun 2, Jul 3, Aug 3, Sep 2, Oct 3, Nov 2, Dec 3 — these are just each month's days mod 7, added up.
+
+🧠 **Active Recall:** How many odd days in 300 years? Is 2100 a leap year? (Answers: 1; No.)
+
+## Part 6: Finding the Day for Any Date
+
+**Method:** Odd days = (odd days in completed centuries) + (odd days in remaining years) + (odd days in months of current year) + (date). Take mod 7, map to day.
+
+**Example:** 15 August 1947.
+
+- 1600 years → 0 odd days
+- 300 years → 1
+- 46 years = 35 ordinary + 11 leap → 35 + 22 = 57 → 57 mod 7 = 1
+- Months Jan–Jul 1947 (1947 not leap): 3+0+3+2+3+2+3 = 16 → 2
+- Date 15 → 15 mod 7 = 1
+- Total = 0+1+1+2+1 = 5 → **Friday** ✓
+
+**Handy anchor:** 1 January 2000 was a **Saturday**. You can count forward/backward from it for nearby years.
+
+## Part 7: Calendar Short Facts
+
+- A calendar **repeats** when total odd days over the gap = 0 (mod 7) **and** leap-year pattern matches. Ordinary-year calendar repeats after 6 or 11 years; leap-year calendar after 28 years (within the same century pattern).
+- The first day of a century (1 Jan 2001, etc.) can only be **Monday, Tuesday, Thursday, or Saturday** — never Sunday, Wednesday, or Friday. Examiners love this.
+- The last day of a century cannot be Tuesday, Thursday, or Saturday.
+
+🧠 **Active Recall:** Can 1 January 2101 be a Sunday? Why not?
+
+---
+
+## ⚠️ Caution: Examiner's Trap
+
+**Trap 1 — "How many times at right angle?" with a twisted range.**
+The answer 22 times in 12 hours is famous, so examiners ask: *"How many times between 3 PM and 9 PM?"* Now you must actually count (right angles occur at ~3:00, ~3:33, ~4:05, ~4:38, ~5:11, ~5:43, ~6:16, ~6:49, ~7:22, ~7:54, ~8:25 → 11 times). Blindly halving 22 gives 11 here by luck — but between 2 PM and 4 PM the answer is 3, not 4. **Never apply the "22/44" shortcut to partial ranges.**
+
+**Trap 2 — The century-year leap trap dressed in difficult language.**
+Questions phrase it as: *"If 1 January 1900 was a Monday, what day was 1 January 2000?"* Students who treat 1900 as a leap year (it is NOT — not divisible by 400) get every odd-day count in between wrong. The examiner deliberately picks century boundaries. **Rule: check divisibility by 400 for any year ending in 00.**
+
+**Trap 3 — Double-relation / mirror-time questions.**
+*"At what time between 4 and 5 will the hands be at right angles?"* has **two** answers (4 : 60/11 ≈ 4:05⁵⁄₁₁ and 4 : 420/11 ≈ 4:38²⁄₁₁). Options often list only one correct value plus a plausible wrong one, or ask "which of the following times" with both listed separately. Similarly, mirror-image questions ("the mirror shows 3:40 — real time?") use **11:60 − mirror time** (or 12:00 − time if seconds are zero and you prefer), and students forget that 12:00 − 3:40 = 8:20 works only via 11:60. **Always compute both right-angle times and check which option is present.**
+
+---
+
+## Summary Table
+
+| Concept | Key Formula / Fact |
+|---|---|
+| Minute hand speed | 6°/min |
+| Hour hand speed | 0.5°/min |
+| Relative speed | 5.5°/min |
+| Angle at H:M | \|30H − 5.5M\| (take smaller angle) |
+| Hands coincide | 11 times / 12 h, every 65⁵⁄₁₁ min |
+| Hands opposite | 11 times / 12 h; H<6: H:(60H+360)/11, H>6: H:(60H−360)/11 |
+| Right angles | 22 times / 12 h (44 in 24 h) |
+| Odd days: ordinary / leap year | 1 / 2 |
+| Odd days: 100/200/300/400 yrs | 5 / 3 / 1 / 0 |
+| Century leap year | Divisible by 400 only |
+| First day of a century | Mon, Tue, Thu, or Sat only |
+| Mirror time | 11:60 − shown time |
+
+📌 **Review this chapter after 2 days.** Redo the 15 August 1947 example and the 4:20 angle example from memory — if both come out right without notes, this chapter is permanently yours.

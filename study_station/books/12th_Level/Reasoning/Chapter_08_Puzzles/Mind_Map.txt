@@ -1,0 +1,36 @@
+```mermaid
+graph TD
+    A["पहेलियाँ (मध्यम)<br>Puzzles (Intermediate)"] --> B["मुख्य प्रकार<br>Main Types"]
+    A --> C["समाधान रणनीति<br>Solving Strategy"]
+    A --> D["समय प्रबंधन<br>Time Management"]
+    A --> E["परीक्षक के जाल<br>Examiner Traps"]
+
+    B --> B1["बैठक व्यवस्था<br>Seating Arrangement"]
+    B --> B2["रक्त संबंध + व्यवस्था<br>Blood Relation + Arrangement"]
+    B --> B3["फ़्लोर/मंज़िल आधारित<br>Floor-based Puzzle"]
+    B --> B4["बॉक्स/स्टैक पहेली<br>Box/Stack Puzzle"]
+    B --> B5["दिन/महीना/वर्ष आधारित<br>Day/Month/Year Puzzle"]
+    B --> B6["तुलना/क्रम पहेली<br>Comparison/Ranking Puzzle"]
+    B --> B7["चयन/समूह बनाना<br>Selection/Grouping"]
+
+    B1 --> B1a["रैखिक (Linear)<br>एक/दो पंक्ति"]
+    B1 --> B1b["वृत्ताकार (Circular)<br>केन्द्र की ओर/बाहर"]
+    B1 --> B1c["आयताकार (Rectangular)<br>कोना + किनारा"]
+
+    C --> C1["निश्चित सूचना से शुरू<br>Start with Definite Info"]
+    C --> C2["तालिका/चित्र बनाएँ<br>Make Table/Diagram"]
+    C --> C3["नकारात्मक सूचना दर्ज करें<br>Note Negative Info (X नहीं)"]
+    C --> C4["संभावनाएँ सीमित करें<br>Eliminate Possibilities"]
+    C --> C5["अंतिम जाँच: सभी शर्तें<br>Final Check: All Conditions"]
+
+    D --> D1["पहले पूरी पहेली पढ़ें<br>Read Full Puzzle First"]
+    D --> D2["आसान पहेली पहले<br>Easy Puzzle First"]
+    D --> D3["अटकने पर छोड़ें<br>Skip if Stuck (2-3 मिनट)"]
+    D --> D4["एक पहेली = 4-5 प्रश्न<br>One Set = 4-5 Questions"]
+
+    E --> E1["बाएँ/दाएँ भ्रम<br>Left/Right Confusion"]
+    E --> E2["'के ठीक बगल' vs 'कहीं बगल'<br>Immediate vs Anywhere"]
+    E --> E3["वृत्त में दिशा उलटना<br>Facing Centre vs Outside"]
+    E --> E4["अधूरी शर्त मान लेना<br>Assuming Extra Condition"]
+    E --> E5["'कम से कम/अधिक से अधिक'<br>At least / At most Trap"]
+```

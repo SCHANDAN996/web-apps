@@ -1,0 +1,35 @@
+# Important Rules & Approaches — Dictionary Order
+
+## Part 1: Key Rules / Approaches
+
+| Rule Name | Description | Example |
+|---|---|---|
+| First-Letter Rule | Compare the first letter of each word; the word whose first letter comes earlier in the alphabet comes first. | "Apple" comes before "Banana" (A < B) |
+| Next-Letter Rule | If first letters are the same, compare the second letters; if those match too, move to the third, and so on. | "Mango" before "Mental" (a < e at 2nd letter) |
+| Shorter-Word Rule | If one word is a complete prefix of another, the shorter word comes first. | "Pen" before "Pencil" |
+| Ignore Case & Spaces | Capital/small letters and spaces do not affect order; compare letters only. | "New York" treated as "NEWYORK" |
+| Number the Letters | Write the position number (A=1 … Z=26) above each letter to compare quickly. | C(3) vs F(6) → C first |
+| Elimination Method | In "which word comes first/last" questions, eliminate options letter by letter instead of sorting all. | Drop all words not starting with the earliest letter |
+| Serial Number Questions | To find the position of a word in a dictionary, arrange all given words in order, then count. | Order: Bat, Cat, Rat → Cat is 2nd |
+| Letter-Change Questions | If a letter in a word is changed, re-check the order from that letter onward. | "Late" → "Mate": order shifts after L→M |
+| Reverse Dictionary Order | "Last word" = the word that would appear at the end; compare from the latest letter backward. | Among Cat, Cot, Cut → "Cut" is last |
+| Alphabet Split Trick | Split alphabet at M/N (13/14); instantly know if a letter is in the first or second half. | S is in 2nd half, so "Sun" likely comes late |
+
+## Part 2: Time Management
+
+| Rule | Description | Action |
+|---|---|---|
+| 15-Second Rule | If the comparison logic is not clear within 15 seconds, do not keep re-reading the words. | Mark the question and move on |
+| 45-Second Rule | A dictionary-order question should never take more than 45 seconds, even with 5–6 words. | If still unsolved at 45 sec, skip and return later |
+| First-Letter Scan (5 sec) | Spend the first 5 seconds only on first letters — often this alone eliminates 2–3 options. | Eliminate before deep comparison |
+| Don't Sort Everything | For "first/last word" questions, never arrange all words fully. | Compare only the leading candidates |
+| One-Pass Rule | Compare letter by letter in a single left-to-right pass; do not restart comparison repeatedly. | Trust the first mismatch found |
+| Easy-First Strategy | Attempt direct "which comes first" questions before serial-number or letter-change questions. | Secure quick marks first |
+
+## Part 3: Logical / Mathematical Formulas
+
+| Formula | Use | Example |
+|---|---|---|
+| Letter Position: A=1, B=2, … Z=26 | Convert letters to numbers for fast comparison; the smaller position comes first in dictionary order. | J = 10, K = 11, so "Join" comes before "King" (10 < 11) |
+| Reverse Position: 27 − n | Position of a letter from the end of the alphabet | C (3rd) is 27−3 = 24th from the end |
+| No other formulas for this chapter | Dictionary order is purely a comparison-based topic; speed comes from letter positions, not formulas. | — |

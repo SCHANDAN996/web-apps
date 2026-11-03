@@ -1,0 +1,205 @@
+# Probability
+
+## Chapter Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Define probability using the classical, empirical, and axiomatic approaches.
+2. Solve problems on coins, dice, cards, and balls with confidence.
+3. Apply the Addition and Multiplication theorems, including conditional probability.
+4. Use Bayes' Theorem and Total Probability — the heart of advanced exam questions.
+5. Handle permutations-and-combinations-based probability, expected value, and common distributions (Binomial).
+6. Spot the traps examiners set: "at least one", "without replacement", mutually exclusive vs independent.
+
+---
+
+## 1. The Hook: The Birthday Paradox
+
+**In a room of just 23 people, what is the chance that at least two share the same birthday?**
+
+Most people guess 5–6%. The real answer is **over 50%**. With 60 people, it crosses 99%.
+
+This is probability in a nutshell — our intuition is terrible at it, and examiners know it. Questions built exactly on this gap between "what feels right" and "what is mathematically true" are a favourite of SSC CGL Tier-II, IBPS PO Mains, and similar exams. Master this chapter, and you convert the examiner's favourite trap into your easiest marks.
+
+---
+
+## 2. "Probability Is Confusing" — Let's Fix That First
+
+If probability has ever felt slippery to you, the reason is almost always the same: students try to *feel* the answer instead of *counting* the answer. Probability is not about intuition. It is a counting machine:
+
+> **Probability = (Number of favourable outcomes) ÷ (Total number of equally likely outcomes)**
+
+Everything in this chapter — dice, cards, Bayes' theorem — is just a fancier way of counting the numerator and the denominator. Keep that one sentence in your head and nothing here will scare you.
+
+---
+
+## 3. The Basic Vocabulary (The Alphabet of Probability)
+
+- **Experiment:** An action with an uncertain result (tossing a coin).
+- **Sample Space (S):** The set of ALL possible outcomes. For one die: S = {1, 2, 3, 4, 5, 6}, so n(S) = 6.
+- **Event (E):** Any subset of the sample space. "Getting an even number" = {2, 4, 6}.
+- **Equally likely outcomes:** Each outcome has the same chance (a fair coin, a fair die).
+
+**Classical definition:** If an experiment has n equally likely outcomes and event E has m of them, then
+
+**P(E) = m/n**, and always **0 ≤ P(E) ≤ 1**.
+
+- P(E) = 0 → impossible event.
+- P(E) = 1 → certain event.
+- **Complement:** P(E′) = 1 − P(E). This tiny formula is the most-used trick in the entire chapter.
+
+🧠 **Active Recall:** A bag has 4 red and 6 blue balls. Without calculating anything fancy — what is n(S) for one draw? What is P(red)? What is P(not red)? *(Answer: 10, 4/10 = 2/5, 6/10 = 3/5.)*
+
+---
+
+## 4. The Three Standard Playgrounds
+
+### 4.1 Coins
+- 1 coin → 2 outcomes; 2 coins → 4; 3 coins → 8. For n coins, n(S) = **2ⁿ**.
+- Example: Tossing 3 coins, P(exactly 2 heads) = 3/8 (favourable: HHT, HTH, THH).
+
+### 4.2 Dice
+- One die: n(S) = 6. Two dice: n(S) = **36** (ordered pairs).
+- **Learn the sum table** — it is asked constantly:
+
+| Sum | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Ways | 1 | 2 | 3 | 4 | 5 | 6 | 5 | 4 | 3 | 2 | 1 |
+
+Notice the symmetry: it rises to 7 (the most likely sum) and falls back. P(sum = 7) = 6/36 = 1/6.
+
+### 4.3 Cards (a standard 52-card deck)
+- 4 suits: ♠ ♥ ♦ ♣ (13 cards each); 26 red, 26 black.
+- 12 face cards (J, Q, K of each suit); 4 Aces.
+- P(king) = 4/52 = 1/13. P(red queen) = 2/52 = 1/26.
+
+🧠 **Active Recall:** Two dice are thrown. What is P(sum = 10)? What is P(sum ≥ 10)? *(Answer: 3/36 = 1/12; sums 10, 11, 12 → 3+2+1 = 6 ways → 1/6.)*
+
+---
+
+## 5. The Addition Theorem — "OR" Questions
+
+For two events A and B:
+
+**P(A ∪ B) = P(A) + P(B) − P(A ∩ B)**
+
+We subtract the overlap because it was counted twice.
+
+- **Mutually exclusive events** (cannot happen together, e.g., "king" and "queen" in one draw): P(A ∩ B) = 0, so P(A ∪ B) = P(A) + P(B).
+- **Exam trap:** "Mutually exclusive" and "independent" are NOT the same. Mutually exclusive events (with non-zero probability) are actually *dependent* — if one happens, the other cannot.
+
+**Example:** One card is drawn. P(king or heart) = 4/52 + 13/52 − 1/52 = 16/52 = 4/13. (We subtract the king of hearts.)
+
+---
+
+## 6. The Multiplication Theorem — "AND" Questions
+
+**P(A ∩ B) = P(A) × P(B|A)**
+
+where P(B|A) is the **conditional probability** of B given that A has already happened:
+
+**P(B|A) = P(A ∩ B) / P(A)**
+
+- **Independent events:** A's outcome doesn't change B's chance → P(B|A) = P(B), so P(A ∩ B) = P(A)·P(B). (Tossing a coin twice; drawing *with replacement*.)
+- **Dependent events:** Drawing *without replacement* — the denominator shrinks each draw.
+
+**Example:** From a bag with 5 red, 3 blue balls, two are drawn without replacement. P(both red) = (5/8) × (4/7) = 20/56 = 5/14.
+
+🧠 **Active Recall:** In that example, why did the second probability become 4/7 and not 5/8? *(Because one red ball is gone — 4 red left out of 7 total.)*
+
+---
+
+## 7. The "At Least One" Superpower
+
+Questions saying "at least one" are among the most repeated patterns in exams. Direct counting is painful; the complement is one line:
+
+> **P(at least one) = 1 − P(none)**
+
+**Example:** A coin is tossed 4 times. P(at least one head) = 1 − P(all tails) = 1 − (1/2)⁴ = 1 − 1/16 = **15/16**.
+
+**Mnemonic 🪄 — "ALONE":** **A**t **L**east **O**ne = **N**ot **E**mpty → 1 − P(none). Whenever you read "at least one", your pen should automatically write "1 −".
+
+🧠 **Active Recall:** Two dice are thrown. P(at least one six)? *(1 − (5/6)² = 1 − 25/36 = 11/36.)*
+
+---
+
+## 8. Probability Meets Combinatorics
+
+When drawing groups of objects, counting uses combinations:
+
+**Example:** A bag has 4 white and 6 black balls. Three balls are drawn together. P(all white) = ⁴C₃ / ¹⁰C₃ = 4/120 = **1/30**.
+
+Key idea: when items are drawn **together (simultaneously)**, use combinations; when drawn **one by one in order**, you may use sequential multiplication — both give the same answer if done correctly.
+
+**Committee-type example:** From 5 men and 4 women, a committee of 3 is chosen. P(exactly 2 women) = (⁴C₂ × ⁵C₁) / ⁹C₃ = (6 × 5)/84 = 30/84 = **5/14**.
+
+---
+
+## 9. Total Probability and Bayes' Theorem (The Advanced Core)
+
+### 9.1 Total Probability
+If B₁, B₂, …, Bₙ partition the sample space (mutually exclusive, exhaustive), then for any event A:
+
+**P(A) = Σ P(Bᵢ) · P(A|Bᵢ)**
+
+Think: "Event A can happen through several routes; add up each route's contribution."
+
+### 9.2 Bayes' Theorem — Reverse the Question
+
+**P(Bₖ|A) = P(Bₖ) · P(A|Bₖ) / Σ P(Bᵢ) · P(A|Bᵢ)**
+
+Bayes answers: *"Given that A happened, what is the chance it came via route Bₖ?"* — a **posterior** probability.
+
+**Classic example:** Bag I has 3 red, 2 black; Bag II has 2 red, 3 black. A bag is chosen at random and a red ball is drawn. P(it came from Bag I)?
+
+- P(Bag I) = P(Bag II) = 1/2
+- P(red|Bag I) = 3/5; P(red|Bag II) = 2/5
+- P(Bag I | red) = (1/2 · 3/5) / (1/2 · 3/5 + 1/2 · 2/5) = (3/10)/(5/10) = **3/5**
+
+🧠 **Active Recall:** In Bayes problems, what goes in the denominator? *(The total probability of the observed event A — the sum of all routes.)*
+
+---
+
+## 10. Expected Value and Binomial Distribution (Graduation Extras)
+
+- **Expected value:** E(X) = Σ xᵢ·P(xᵢ). A fair game has E = 0. If you win ₹10 on a head and lose ₹8 on a tail, E = 10(1/2) − 8(1/2) = ₹1 per toss.
+- **Binomial distribution:** n independent trials, success probability p each time:
+
+**P(exactly r successes) = ⁿCᵣ · pʳ · (1−p)ⁿ⁻ʳ**
+
+Example: A die is thrown 4 times. P(exactly one six) = ⁴C₁ (1/6)¹ (5/6)³ = 4 × (1/6) × (125/216) = 500/1296 = **125/324**.
+
+---
+
+## 11. The Examiner's Five Favourite Traps
+
+1. **"At least one"** → use 1 − P(none), never direct counting.
+2. **With vs without replacement** → denominators change or stay; read twice.
+3. **Mutually exclusive ≠ independent** — a classic statement-based trap.
+4. **Two-dice ordered pairs** — (2,5) and (5,2) are different outcomes; n(S) = 36, not 21.
+5. **Bayes direction** — the question gives P(A|B) but asks P(B|A). Don't answer the forward probability.
+
+---
+
+## 12. Summary Table
+
+| Concept | Formula / Rule | Watch out for |
+|---|---|---|
+| Classical probability | P(E) = favourable / total | Outcomes must be equally likely |
+| Complement | P(E′) = 1 − P(E) | Basis of "at least one" |
+| Addition (OR) | P(A∪B) = P(A)+P(B)−P(A∩B) | Subtract the overlap |
+| Multiplication (AND) | P(A∩B) = P(A)·P(B\|A) | Independent ⇒ P(B\|A) = P(B) |
+| Conditional | P(A\|B) = P(A∩B)/P(B) | Denominator is the *given* event |
+| At least one | 1 − P(none) | Mnemonic: ALONE |
+| Two dice | n(S) = 36; sum table peaks at 7 | Ordered pairs |
+| Combinations | P = ⁿCᵣ style counting | Simultaneous draws |
+| Total probability | P(A) = Σ P(Bᵢ)P(A\|Bᵢ) | Routes must partition S |
+| Bayes | P(Bₖ\|A) = route / total | Reverses the condition |
+| Binomial | ⁿCᵣ pʳ qⁿ⁻ʳ | Independent repeated trials |
+| Expected value | E(X) = Σ xᵢP(xᵢ) | Fair game ⇒ E = 0 |
+
+---
+
+## 🔁 Review Reminder
+
+**Review this chapter after 2 days.** Redo the birthday paradox logic, the dice sum table, one Bayes problem, and one "at least one" problem from memory. Then review again after 7 days — spaced repetition is what moves these formulas from your notebook into your reflexes.

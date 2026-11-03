@@ -1,3 +1,79 @@
-# Chapter: Time & Distance, Level: intermediate
+Card 1
+Front: What is the golden formula that connects speed, time and distance?
+Back: Speed = Distance ÷ Time. From it: Distance = Speed × Time, and Time = Distance ÷ Speed.
 
-@content_agent lang=en level=intermediate 'Create 15-20 flashcards for Time & Distance. Each card: front a curiosity-invoking question, back concise answer. Include at least 2 cards that ask about a mnemonic trick.'
+Card 2
+Front: How do you convert km/h into m/s in one second?
+Back: Multiply by 5/18. Example: 36 km/h = 36 × 5/18 = 10 m/s.
+
+Card 3
+Front: How do you convert m/s back into km/h?
+Back: Multiply by 18/5. Example: 20 m/s = 20 × 18/5 = 72 km/h.
+
+Card 4
+Front: What is the mnemonic trick to remember the km/h ↔ m/s conversion?
+Back: "Small to Big, 18/5; Big to Small, 5/18" — km/h is the BIG unit, m/s is SMALL. Going big→small use 5/18, small→big use 18/5.
+
+Card 5
+Front: If a person covers the same distance at speeds a and b, what is the average speed for the whole journey?
+Back: Average speed = 2ab/(a + b) — the harmonic mean of the two speeds.
+
+Card 6
+Front: Why is average speed NOT just (a + b)/2 when distances are equal?
+Back: Because more time is spent at the slower speed, so the true average is pulled down — it is the harmonic mean 2ab/(a+b), not the arithmetic mean.
+
+Card 7
+Front: A train crosses a pole. What distance does it actually cover?
+Back: Only its own length. A pole has negligible width, so distance = length of the train.
+
+Card 8
+Front: A train crosses a platform or bridge. What distance does it cover?
+Back: Length of train + length of platform. The train must travel until its tail clears the platform.
+
+Card 9
+Front: Two trains move towards each other at speeds x and y. What is their relative speed?
+Back: x + y (speeds add when moving in opposite directions).
+
+Card 10
+Front: Two trains move in the same direction at speeds x and y (x > y). What is the relative speed?
+Back: x − y (speeds subtract when moving in the same direction).
+
+Card 11
+Front: What is the quick mnemonic for relative speed rules?
+Back: "Opposite ADD, Same SUBTRACT" — remember O-A-S-S: Opposite→Add, Same→Subtract.
+
+Card 12
+Front: A boat's speed in still water is B and stream speed is S. What are downstream and upstream speeds?
+Back: Downstream = B + S; Upstream = B − S.
+
+Card 13
+Front: If downstream speed is D and upstream speed is U, how do you find boat speed and stream speed?
+Back: Boat speed = (D + U)/2; Stream speed = (D − U)/2.
+
+Card 14
+Front: If speed becomes x times the original, what happens to the time taken for the same distance?
+Back: Time becomes 1/x of the original — speed and time are inversely proportional for a fixed distance.
+
+Card 15
+Front: Two people start from the same point in opposite directions at speeds a and b. How far apart are they after time t?
+Back: (a + b) × t apart — their separation grows at the sum of their speeds.
+
+Card 16
+Front: A man walks at 3/4 of his usual speed and is 20 minutes late. What is his usual time?
+Back: Usual time = 20 × 3 = 60 minutes. Rule: if speed = a/b of usual, extra time = (b−a)/a × usual time.
+
+Card 17
+Front: What is the "DST triangle" mnemonic used for?
+Back: Draw a triangle with D on top, S and T at the bottom. Cover what you want: D = S×T, S = D/T, T = D/S.
+
+Card 18
+Front: A train passes a man in 9 seconds and a 250 m platform in 25 seconds. What concept solves this fastest?
+Back: The train covers its own length in 9 s, so the platform (250 m) is covered in 25 − 9 = 16 s; speed = 250/16 = 15.625 m/s.
+
+Card 19
+Front: In a race, A beats B by 10 metres over 100 m. What does that really mean?
+Back: When A runs 100 m, B runs only 90 m — so their speed ratio is 10 : 9.
+
+Card 20
+Front: If two trains of lengths L₁ and L₂ cross each other (opposite direction) at speeds x and y, what is the crossing time?
+Back: Time = (L₁ + L₂) ÷ (x + y) — total length divided by relative speed.

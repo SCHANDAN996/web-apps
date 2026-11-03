@@ -1,0 +1,151 @@
+Questions 126–145: Easy | Questions 146–150: Medium
+
+126. If sin θ + cos θ = √2, then the value of sin⁶θ + cos⁶θ is
+(a) 1 (b) 1/4 (c) 3/4 (d) 1/2
+Answer: (b)
+Solution: The trap is computing the powers directly and guessing 1. Squaring the given equation: 1 + 2 sinθ cosθ = 2, so sinθ cosθ = 1/2. Then sin⁶θ + cos⁶θ = (sin²θ + cos²θ)³ − 3 sin²θ cos²θ(sin²θ + cos²θ) = 1 − 3(1/4)(1) = 1/4, so the answer is 1/4.
+Source: NCERT Class 11 Mathematics
+
+127. The value of tan 1° · tan 2° · tan 3° … tan 89° is
+(a) 0 (b) 1 (c) √3 (d) undefined
+Answer: (b)
+Solution: The tempting wrong idea is that the product grows large; actually pair terms: tan k° · tan(90° − k°) = tan k° · cot k° = 1. There are 44 such pairs and the middle term tan 45° = 1, so the answer is 1.
+Source: PYQ-style
+
+128. If A + B + C = π, then sin 2A + sin 2B + sin 2C equals
+(a) 2 sin A sin B sin C (b) 4 cos A cos B cos C (c) sin A + sin B + sin C (d) 4 sin A sin B sin C
+Answer: (d)
+Solution: The trap is choosing the cosine product, which belongs to a different identity. Here sin 2A + sin 2B = 2 sin(A+B) cos(A−B) = 2 sin C cos(A−B), and sin 2C = −2 sin C cos(A+B). Adding gives 2 sin C[cos(A−B) − cos(A+B)] = 4 sin A sin B sin C, so the answer is 4 sin A sin B sin C.
+Source: NCERT Class 11 Mathematics
+
+129. The maximum value of 3 sin θ + 4 cos θ + 5 is
+(a) 10 (b) 9 (c) 5 (d) 12
+Answer: (a)
+Solution: The trap is adding all coefficients to get 12. The maximum of a sin θ + b cos θ is √(a² + b²) = √(9 + 16) = 5, so the maximum of the expression is 5 + 5 = 10, so the answer is 10.
+Source: PYQ-style
+
+130. If tan θ = 1/2 and tan φ = 1/3, then θ + φ equals
+(a) π/3 (b) π/6 (c) π/2 (d) π/4
+Answer: (d)
+Solution: The trap is assuming the angles add to π/6 because the tangents are small. tan(θ + φ) = (1/2 + 1/3)/(1 − 1/6) = (5/6)/(5/6) = 1, and since both angles are acute, θ + φ = π/4, so the answer is π/4.
+Source: NCERT Class 11 Mathematics
+
+131. The value of cos 20° + cos 100° + cos 140° is
+(a) 1 (b) 1/2 (c) 0 (d) −1
+Answer: (c)
+Solution: The trap is pairing cos 20° with cos 140° incorrectly. cos 100° + cos 140° = 2 cos 120° cos 20° = 2(−1/2) cos 20° = −cos 20°, which cancels the first term, so the answer is 0.
+Source: PYQ-style
+
+132. If sin θ + sin²θ = 1, then the value of cos²θ + cos⁴θ is
+(a) 1 (b) 1/2 (c) 2 (d) 0
+Answer: (a)
+Solution: The trap is solving for θ explicitly. From the given, sin θ = 1 − sin²θ = cos²θ. Then cos²θ + cos⁴θ = cos²θ + (cos²θ)² = sin θ + sin²θ = 1, so the answer is 1.
+Source: PYQ-style
+
+133. The value of sin² 6° + sin² 12° + sin² 18° + … + sin² 84° + sin² 90° is
+(a) 7 (b) 8 (c) 17/2 (d) 15/2
+Answer: (b)
+Solution: The trap is counting 15 terms and guessing 15/2. Pair sin²θ with sin²(90° − θ) = cos²θ: the pairs (6°,84°), (12°,78°), …, (42°,48°) give 7 pairs each summing to 1, plus sin²90° = 1. Total = 7 + 1 = 8, so the answer is 8.
+Source: PYQ-style
+
+134. If cos A = 3/5 and cos B = 5/13, where A and B are acute, then cos(A + B) equals
+(a) 56/65 (b) 33/65 (c) −33/65 (d) −16/65
+Answer: (c)
+Solution: The trap is computing cos(A − B) = 56/65 instead. Here sin A = 4/5 and sin B = 12/13, so cos(A + B) = cos A cos B − sin A sin B = 15/65 − 48/65 = −33/65, so the answer is −33/65.
+Source: NCERT Class 11 Mathematics
+
+135. The number of solutions of sin θ = θ/10 (θ in radians) is
+(a) 3 (b) infinite (c) 5 (d) 7
+Answer: (d)
+Solution: The trap is saying infinite solutions, but the line y = θ/10 leaves the band [−1, 1] once |θ| > 10. Since 3π ≈ 9.42 < 10 < 7π/2 ≈ 11, the line meets the sine curve in 3 positive roots, 3 negative roots, and θ = 0, so the answer is 7.
+Source: PYQ-style
+
+136. If in a triangle ABC, tan A + tan B + tan C = 6 and tan A · tan B = 2, then tan C equals
+(a) 1 (b) 4 (c) 3 (d) 2
+Answer: (c)
+Solution: The trap is forgetting the triangle identity. In any triangle, tan A + tan B + tan C = tan A tan B tan C, so 6 = 2 tan C, giving tan C = 3, so the answer is 3.
+Source: NCERT Class 11 Mathematics
+
+137. The value of (1 + cos π/8)(1 + cos 3π/8)(1 + cos 5π/8)(1 + cos 7π/8) is
+(a) 1/2 (b) 1/4 (c) 1/8 (d) 1/16
+Answer: (c)
+Solution: The trap is dropping a factor of 2 and getting 1/16. Pair: (1 + cos π/8)(1 + cos 7π/8) = (1 + cos π/8)(1 − cos π/8) = sin²(π/8), and the other pair gives sin²(3π/8) = cos²(π/8). Product = sin²(π/8)cos²(π/8) = (1/4) sin²(π/4) = (1/4)(1/2) = 1/8, so the answer is 1/8.
+Source: PYQ-style
+
+138. If sin x + sin y = a and cos x + cos y = b, then cos(x − y) equals
+(a) (a² + b² − 2)/2 (b) (a² + b² + 2)/2 (c) (a² + b²)/2 (d) (2 − a² − b²)/2
+Answer: (a)
+Solution: The trap is writing (a² + b²)/2 and forgetting the constant. Squaring and adding: a² + b² = 2 + 2(cos x cos y + sin x sin y) = 2 + 2 cos(x − y). Hence cos(x − y) = (a² + b² − 2)/2, so the answer is (a² + b² − 2)/2.
+Source: NCERT Class 11 Mathematics
+
+139. The minimum value of 9 tan²θ + 4 cot²θ is
+(a) 13 (b) 6 (c) 36 (d) 12
+Answer: (d)
+Solution: The trap is adding 9 + 4 = 13. By AM–GM, 9 tan²θ + 4 cot²θ ≥ 2√(9 tan²θ · 4 cot²θ) = 2√36 = 12, with equality when 9 tan²θ = 4 cot²θ, so the answer is 12.
+Source: PYQ-style
+
+140. If θ lies in the second quadrant and sin θ = 3/5, then the value of (tan θ + sec θ) is
+(a) 2 (b) −2 (c) 1/2 (d) −1/2
+Answer: (b)
+Solution: The trap is taking cos θ = 4/5 positive, which gives 2. In the second quadrant cos θ = −4/5, so tan θ + sec θ = (sin θ + 1)/cos θ = (3/5 + 1)/(−4/5) = (8/5)/(−4/5) = −2, so the answer is −2.
+Source: NCERT Class 11 Mathematics
+
+141. The value of sin 10° sin 50° sin 70° is
+(a) 1/2 (b) √3/8 (c) 1/4 (d) 1/8
+Answer: (d)
+Solution: The trap is misusing the triple-angle product with √3. Use sin θ sin(60°−θ) sin(60°+θ) = (1/4) sin 3θ with θ = 10°: sin 10° sin 50° sin 70° = (1/4) sin 30° = 1/8, so the answer is 1/8.
+Source: PYQ-style
+
+142. If 3 sin θ + 5 cos θ = 5, then the value of 5 sin θ − 3 cos θ is
+(a) 0 (b) ±5 (c) ±3 (d) ±4
+Answer: (c)
+Solution: The trap is assuming a unique positive value. Let 5 sin θ − 3 cos θ = k. Squaring and adding both equations: 9 + 25 = 25 + k², so k² = 9 and k = ±3, so the answer is ±3.
+Source: PYQ-style
+
+143. In a triangle ABC, if sin²A + sin²B = sin²C, then the triangle is
+(a) obtuse-angled (b) isosceles (c) right-angled at C (d) equilateral
+Answer: (c)
+Solution: The trap is concluding isosceles. By the sine rule, sin A = a/2R etc., so a² + b² = c², the converse of Pythagoras, meaning the angle opposite side c is 90°, so the answer is right-angled at C.
+Source: NCERT Class 11 Mathematics
+
+144. The value of cos²(π/10) + cos²(2π/10) + cos²(3π/10) + cos²(4π/10) is
+(a) 2 (b) 3/2 (c) 1 (d) 5/2
+Answer: (a)
+Solution: The trap is assuming the sum is 5/2 by averaging. Note cos(3π/10) = sin(2π/10) and cos(4π/10) = sin(π/10), so the sum = [cos²(π/10) + sin²(π/10)] + [cos²(2π/10) + sin²(2π/10)] = 1 + 1 = 2, so the answer is 2.
+Source: PYQ-style
+
+145. If tan α and tan β are roots of x² − 6x + 4 = 0, then sin²(α + β) equals
+(a) 4/13 (b) 4/5 (c) 1/2 (d) 9/13
+Answer: (b)
+Solution: The trap is stopping at tan(α + β) and not converting to sin². From the quadratic, sum of roots = 6 and product = 4, so tan(α + β) = 6/(1 − 4) = −2. Then sin²(α + β) = tan²(α+β)/(1 + tan²(α+β)) = 4/5, so the answer is 4/5.
+Source: NCERT Class 11 Mathematics
+
+146. The value of tan 9° − tan 27° − tan 63° + tan 81° is
+(a) 4 (b) 2 (c) 1 (d) 0
+Answer: (a)
+Solution: The trap is pairing terms to get 0. Group: (tan 9° + tan 81°) − (tan 27° + tan 63°) = (tan 9° + cot 9°) − (tan 27° + cot 27°) = 2/sin 18° − 2/sin 54°. Using sin 18° = (√5−1)/4 and sin 54° = (√5+1)/4, this becomes 2(√5+1) − 2(√5−1) = 4, so the answer is 4.
+Source: PYQ-style
+
+147. If A = sin⁸θ + cos¹⁴θ, then for all real θ,
+(a) 0 < A ≤ 1 (b) A ≥ 1 (c) A ≥ 2 (d) A ≤ 0
+Answer: (a)
+Solution: The trap is thinking A ≥ 1 like sin²θ + cos²θ. Since |sin θ|, |cos θ| ≤ 1, higher even powers shrink: sin⁸θ ≤ sin²θ and cos¹⁴θ ≤ cos²θ, so A ≤ 1, and A > 0 since sin θ and cos θ never vanish together, so the answer is 0 < A ≤ 1.
+Source: PYQ-style
+
+148. The general solution of sin 3θ = sin θ is given by
+(a) θ = nπ/4 (b) θ = nπ or θ = (2n + 1)π/4 (c) θ = 2nπ ± π/4 (d) θ = nπ only
+Answer: (b)
+Solution: The trap is keeping only θ = nπ. sin 3θ − sin θ = 0 gives 2 cos 2θ sin θ = 0, so sin θ = 0 gives θ = nπ, and cos 2θ = 0 gives 2θ = (2n+1)π/2, i.e. θ = (2n+1)π/4, so the answer is θ = nπ or θ = (2n + 1)π/4.
+Source: NCERT Class 11 Mathematics
+
+149. If sec θ + tan θ = 5, then the value of sin θ is
+(a) 4/5 (b) 5/13 (c) 3/5 (d) 12/13
+Answer: (d)
+Solution: The trap is guessing 5/13 from the given 5. Since sec²θ − tan²θ = 1, we get sec θ − tan θ = 1/5; adding gives 2 sec θ = 26/5, so cos θ = 5/13 and sin θ = 12/13 (θ acute), so the answer is 12/13.
+Source: PYQ-style
+
+150. The value of cos 36° − cos 72° is
+(a) 1/2 (b) 1/4 (c) √5/4 (d) (√5 − 1)/4
+Answer: (a)
+Solution: The trap is quoting cos 36° = (√5+1)/4 and cos 72° = (√5−1)/4 but subtracting wrongly. cos 36° − cos 72° = (√5 + 1)/4 − (√5 − 1)/4 = 2/4 = 1/2, so the answer is 1/2.
+Source: NCERT Class 11 Mathematics

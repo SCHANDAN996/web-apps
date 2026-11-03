@@ -1,0 +1,151 @@
+Questions 126–145: Easy | Questions 146–150: Moderate
+
+126. A square sheet is folded along its vertical centre line, then along its horizontal centre line. A single circular punch is made exactly at the corner of the folded quarter that lies at the centre of the original sheet. How many holes appear when the sheet is unfolded?
+(a) 4 (b) 2 (c) 8 (d) 1
+Answer: (d)
+Solution: The tempting answer is 4, from blindly doubling once for each fold. But the punched corner is the exact centre of the original sheet, which lies on both fold lines, so every reflection maps it onto itself and all layers share that single point, so the answer is 1.
+Source: PYQ-style
+
+127. A rectangular sheet is folded once vertically (left half over right half) and then once horizontally (top over bottom). Two punches are made on the folded piece, both away from the fold edges. How many holes will the unfolded sheet show?
+(a) 4 (b) 6 (c) 8 (d) 2
+Answer: (c)
+Solution: The trap is to count only the visible 2 punches and answer 2, or to double only once and answer 4. Each of the two folds doubles every punch, so each punch produces 2 × 2 = 4 holes; two punches give 4 × 2 = 8 holes, so the answer is 8.
+Source: PYQ-style
+
+128. A square sheet is folded along both diagonals, one after the other, forming a small triangle. A punch is made exactly at the vertex of the triangle that corresponds to the centre of the original square. How many holes appear on unfolding?
+(a) 4 (b) 2 (c) 8 (d) 1
+Answer: (d)
+Solution: Many candidates multiply the layers and answer 4 or 8. But the punched vertex is the exact centre of the square, which lies on both diagonal fold lines, so all reflections coincide at that one point and only a single hole appears, so the answer is 1.
+Source: PYQ-style
+
+129. A sheet is folded into quarters by one vertical and one horizontal fold. A punch is made exactly on the vertical fold line of the folded piece (not at a corner). How many holes appear on unfolding?
+(a) 4 (b) 1 (c) 2 (d) 8
+Answer: (c)
+Solution: The tempting answer is 4, from blindly applying "two folds = four holes". But a punch lying on a fold line is mirrored onto itself across that fold, so the vertical fold produces no new hole; only the horizontal fold duplicates it, so the answer is 2.
+Source: PYQ-style
+
+130. A square sheet is folded along the vertical centre line, then along the horizontal centre line, and then along the diagonal of the small folded square. A single punch is made away from all edges of the folded triangle. How many holes appear on unfolding?
+(a) 16 (b) 6 (c) 4 (d) 8
+Answer: (d)
+Solution: The trap is to stop at 4, counting only the first two folds. Three folds create 2 × 2 × 2 = 8 layers, and since the punch is away from every fold line and edge, each layer yields a distinct hole, so the answer is 8.
+Source: PYQ-style
+
+131. A circular sheet is folded into a semicircle, then folded again into a quarter circle. A cut is made at the midpoint of the curved edge of the folded quarter. How many cuts appear on the unfolded circle?
+(a) 2 (b) 1 (c) 4 (d) 8
+Answer: (c)
+Solution: The tempting answer is 2, counting only the doubling from one fold. Two folds create 4 layers, and a cut on the curved edge away from the fold lines replicates into 4 symmetric notches on the circle's rim, so the answer is 4.
+Source: PYQ-style
+
+132. A square sheet is folded so that one corner meets the opposite corner (diagonal fold), then folded again along the other diagonal direction of the folded triangle. A punch is made at the corner of the folded figure which is the meeting point of all fold lines. How many holes appear on unfolding?
+(a) 1 (b) 4 (c) 8 (d) 2
+Answer: (a)
+Solution: The trap is to multiply layers and answer 8 or 4. The punch is at the exact centre of the original sheet where all fold lines intersect; every reflection maps this point onto itself, so the answer is 1.
+Source: PYQ-style
+
+133. A rectangular sheet is folded in half vertically, then the folded sheet is folded in half vertically again. A punch is made in the interior of the folded strip. How many holes appear on unfolding?
+(a) 4 (b) 2 (c) 8 (d) 6
+Answer: (a)
+Solution: The tempting answer is 8, from assuming three doublings, but there are only two folds here. Two folds in the same direction create 4 layers, and an interior punch replicates into 4 holes in a row, so the answer is 4.
+Source: PYQ-style
+
+134. A square sheet is folded along the horizontal centre line, then along the vertical centre line of the folded rectangle. Two punches are made: one on a fold edge and one in the interior. How many holes appear on unfolding?
+(a) 2 (b) 8 (c) 6 (d) 4
+Answer: (c)
+Solution: The trap is to compute 2 punches × 4 layers = 8. The interior punch gives 4 holes, but the punch on the fold edge is mirrored onto itself across that fold, giving only 2 holes; total 4 + 2 = 6, so the answer is 6.
+Source: PYQ-style
+
+135. A sheet is folded into quarters (one vertical, one horizontal fold). A triangular cut is made at the folded corner which corresponds to the centre of the original sheet. What shape appears at the centre of the unfolded sheet?
+(a) A triangle (b) A square/diamond (c) A circle (d) Two separate triangles
+Answer: (b)
+Solution: The tempting answer is a triangle, copying the shape of the cut. But the cut at the centre corner is mirrored across both fold lines, and four right-triangular cuts join base-to-base to form a single four-sided figure at the centre, so the answer is a square/diamond.
+Source: PYQ-style
+
+136. A square sheet is folded along a diagonal. A semicircular cut is made on the fold line. What shape appears when the sheet is unfolded?
+(a) A full circle (b) Two semicircles apart (c) An ellipse (d) A semicircle
+Answer: (a)
+Solution: The trap is to answer a semicircle, matching the visible cut. A cut made on a fold line is mirrored across that fold, so the two semicircular halves join into one complete circle on the diagonal, so the answer is a full circle.
+Source: PYQ-style
+
+137. A sheet is folded twice — first vertically, then horizontally. A punch is made at the corner of the folded piece that is formed only by free (unfolded) edges. Where do the holes lie in the unfolded sheet?
+(a) At the four corners (b) Randomly scattered (c) At midpoints of sides (d) At the centre
+Answer: (a)
+Solution: The tempting answer is the centre, confusing the free-edge corner with the folded corner. The corner made of free edges corresponds to the four outer corners of the original sheet stacked together, so the punch produces one hole at each corner, so the answer is the four corners.
+Source: PYQ-style
+
+138. A square sheet is folded along the vertical centre line and then along the horizontal centre line. Three punches are made in the interior of the folded quarter. How many holes appear on unfolding?
+(a) 6 (b) 12 (c) 9 (d) 3
+Answer: (b)
+Solution: The trap is to double only once and answer 6. Two perpendicular folds create 4 layers, so each interior punch yields 4 holes; three punches give 3 × 4 = 12 holes, so the answer is 12.
+Source: PYQ-style
+
+139. A rectangular sheet is folded in half along its length, then in half along its width, then once more along its length. A single interior punch is made. How many holes appear on unfolding?
+(a) 4 (b) 8 (c) 16 (d) 6
+Answer: (b)
+Solution: The tempting answer is 16, from over-counting the layers as two raised to the fourth power. There are exactly three folds, giving 2 × 2 × 2 = 8 layers, and an interior punch produces one hole per layer, so the answer is 8.
+Source: PYQ-style
+
+140. A square sheet is folded along one diagonal, and the resulting triangle is folded again along its line of symmetry. A punch is made in the interior of the folded triangle, away from every fold line. How many holes appear on unfolding?
+(a) 2 (b) 4 (c) 8 (d) 1
+Answer: (b)
+Solution: The trap is to answer 8, assuming three doublings, but only two folds are made. Two folds create 2 × 2 = 4 layers, and since the punch lies off every fold line, each layer gives a distinct hole, so the answer is 4.
+Source: PYQ-style
+
+141. A sheet is folded once vertically. Two punches are made: one on the fold line and one away from it. How many holes appear on unfolding?
+(a) 3 (b) 4 (c) 2 (d) 1
+Answer: (a)
+Solution: The tempting answer is 4, doubling both punches. The punch on the fold line mirrors onto itself and gives 1 hole, while the interior punch gives 2 holes; total 1 + 2 = 3, so the answer is 3.
+Source: PYQ-style
+
+142. A square sheet is folded into quarters by two perpendicular folds. A straight cut is made joining the midpoints of the two folded edges of the small square. What appears at the centre of the unfolded sheet?
+(a) A cross-shaped cut (b) A diagonal line only (c) A small square hole (d) Four separate slits
+Answer: (c)
+Solution: The trap is to imagine four separate slits, one per layer. The cut across the folded corner at the centre is mirrored across both fold lines, and the four mirrored segments join end to end to enclose a small square (diamond) hole, so the answer is a small square hole.
+Source: PYQ-style
+
+143. A circular sheet is folded into a semicircle and then into a quarter. A punch is made exactly at the centre of the original circle (the pointed corner of the quarter). How many holes appear on unfolding?
+(a) 2 (b) 1 (c) 4 (d) 8
+Answer: (b)
+Solution: The tempting answer is 4, multiplying by the layers. The pointed corner is the centre of the circle, which lies on every fold line; all reflections coincide at that single point, so the answer is 1.
+Source: PYQ-style
+
+144. A square sheet is folded along the vertical centre line, then along the horizontal centre line, then along the diagonal of the folded square. Two interior punches are made on the folded triangle. How many holes appear on unfolding?
+(a) 8 (b) 12 (c) 16 (d) 4
+Answer: (c)
+Solution: The trap is to count only two folds and answer 8. Three folds create 8 layers, so each interior punch yields 8 holes; two punches give 2 × 8 = 16 holes, so the answer is 16.
+Source: PYQ-style
+
+145. A sheet is folded in half horizontally. A V-shaped cut is made with its vertex touching the fold line. What appears on unfolding?
+(a) Two separate V shapes (b) A triangle (c) A single V shape (d) A diamond/rhombus-shaped hole
+Answer: (d)
+Solution: The tempting answer is two separate V shapes, one above and one below the fold. Since the vertex of the V touches the fold line, the mirrored V joins it exactly at the vertex, and the two V's together enclose a diamond (rhombus) shaped hole, so the answer is a diamond-shaped hole.
+Source: PYQ-style
+
+146. A square sheet is folded along one diagonal only. Three punches are made in the interior of the folded triangle, none on the fold line. How many holes appear on unfolding?
+(a) 3 (b) 12 (c) 9 (d) 6
+Answer: (d)
+Solution: The trap is to apply the familiar "quarter fold = 4 layers" logic and answer 12. Only one fold is made here, giving 2 layers, so each punch yields 2 holes; three punches give 3 × 2 = 6 holes, so the answer is 6.
+Source: PYQ-style
+
+147. A rectangular sheet is folded vertically in half, then the folded sheet is folded horizontally in half. A punch is made at the corner where one folded edge meets one free edge. How many holes appear on unfolding, and where?
+(a) 1 hole at a corner (b) 4 holes at the centre (c) 2 holes on the horizontal centre line (d) 2 holes on the vertical centre line
+Answer: (d)
+Solution: The tempting answer is 4 holes, applying the full doubling rule. The corner lies on one fold line (the vertical fold), so reflection across that fold coincides, while the horizontal fold duplicates it, so the answer is 2 holes on the vertical centre line.
+Source: PYQ-style
+
+148. A square sheet is folded along the horizontal centre line, then along the vertical centre line, then along the diagonal of the folded square. A punch is made exactly on the diagonal fold of the folded triangle (not at a vertex). How many holes appear on unfolding?
+(a) 4 (b) 2 (c) 8 (d) 16
+Answer: (a)
+Solution: The trap is to answer 8, multiplying by all three folds. A punch on the third (diagonal) fold line mirrors onto itself across that fold, so only the first two folds create distinct copies: 2 × 2 = 4 holes, so the answer is 4.
+Source: PYQ-style
+
+149. A sheet is folded into quarters by two perpendicular folds. A circular punch is made at the corner where the two folded edges meet, with the punch centred exactly on that corner. What appears on unfolding?
+(a) One full circle at the centre (b) Four separate quarter-circles at the corners (c) Two semicircles on the sides (d) Four full circles
+Answer: (a)
+Solution: The tempting answer is four full circles, one per layer. The meeting point of the two folded edges is the centre of the original sheet; the quarter-circle portions cut from each layer mirror across both folds and join into a single complete circle, so the answer is one full circle at the centre.
+Source: PYQ-style
+
+150. A square sheet is folded along the vertical centre line, then along the horizontal centre line, then along the diagonal of the folded square. One punch is made in the interior and one punch exactly at the centre corner (intersection of all folds). How many holes appear on unfolding?
+(a) 8 (b) 9 (c) 16 (d) 5
+Answer: (b)
+Solution: The trap is to compute 2 punches × 8 layers = 16. The interior punch gives 8 holes, but the punch at the centre corner lies on every fold line, so all its reflections coincide into 1 hole at the centre; total 8 + 1 = 9, so the answer is 9.
+Source: PYQ-style

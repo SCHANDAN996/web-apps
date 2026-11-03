@@ -1,0 +1,151 @@
+प्रश्न 26–45: आसान | प्रश्न 46–50: मध्यम
+
+26. What is the remainder when 7^84 is divided by 342?
+(a) 49 (b) 7 (c) 1 (d) 343
+Answer: (c)
+Solution: The tempting trap is to compute 7^3 = 343 and stop, picking 343, but 343 is not a valid remainder on division by 342. Since 7^3 = 343 ≡ 1 (mod 342), we get 7^84 = (7^3)^28 ≡ 1^28 = 1 (mod 342), so the answer is 1.
+Source: PYQ-style
+
+27. The number 2^32 − 1 is completely divisible by which of the following?
+(a) 2^16 + 1 (b) 2^10 + 1 (c) 2^32 + 1 (d) 2^6 + 1
+Answer: (a)
+Solution: The trap is picking 2^32 + 1 because it looks similar, but a number greater than half of 2^32 − 1 (other than itself) cannot divide it. Using a^2 − b^2 = (a + b)(a − b), we get 2^32 − 1 = (2^16 + 1)(2^16 − 1), so 2^16 + 1 is an exact factor, and direct checks show 2^10 + 1 and 2^6 + 1 leave remainders, so the answer is 2^16 + 1.
+Source: PYQ-style
+
+28. Find the unit digit of 1! + 2! + 3! + … + 100!.
+(a) 4 (b) 7 (c) 0 (d) 3
+Answer: (d)
+Solution: The trap is assuming the sum keeps changing forever and guessing 0, but from 5! onwards every factorial ends in 0, so they contribute nothing to the unit digit. Unit digits: 1! = 1, 2! = 2, 3! = 6, 4! = 24 → 4; sum of unit digits = 1 + 2 + 6 + 4 = 13, so the answer is 3.
+Source: NCERT Class 8 Mathematics (concept extended)
+
+29. How many zeros are there at the end of 125!?
+(a) 25 (b) 30 (c) 31 (d) 32
+Answer: (c)
+Solution: The trap is counting only multiples of 5, giving 25, but multiples of 25 and 125 contribute extra fives. Number of trailing zeros = ⌊125/5⌋ + ⌊125/25⌋ + ⌊125/125⌋ = 25 + 5 + 1 = 31, so the answer is 31.
+Source: PYQ-style
+
+30. What is the remainder when 2^1000 is divided by 7?
+(a) 6 (b) 1 (c) 4 (d) 2
+Answer: (d)
+Solution: The trap is using Fermat's little theorem with exponent 6 directly and concluding 1, forgetting that 1000 is not a multiple of 6. Powers of 2 mod 7 cycle as 2, 4, 1 with period 3; 1000 = 3 × 333 + 1, so 2^1000 ≡ 2^1 = 2 (mod 7), so the answer is 2.
+Source: PYQ-style
+
+31. The number N = 2^4 × 3^6 × 5^2. How many factors of N are perfect squares?
+(a) 24 (b) 12 (c) 36 (d) 48
+Answer: (a)
+Solution: The trap is computing the total number of factors (5 × 7 × 3 = 105) instead of only the square factors. For a perfect square factor each exponent must be even: exponent of 2 ∈ {0, 2, 4} (3 choices), of 3 ∈ {0, 2, 4, 6} (4 choices), of 5 ∈ {0, 2} (2 choices), giving 3 × 4 × 2 = 24, so the answer is 24.
+Source: PYQ-style
+
+32. What is the largest power of 3 that divides 100!?
+(a) 47 (b) 48 (c) 49 (d) 50
+Answer: (b)
+Solution: The trap is computing ⌊100/3⌋ + ⌊100/9⌋ + ⌊100/27⌋ = 33 + 11 + 3 = 47 and forgetting the power 81. Including ⌊100/81⌋ = 1, the total is 33 + 11 + 3 + 1 = 48, so the answer is 48.
+Source: PYQ-style
+
+33. If the number 517*324 is completely divisible by 3, then the smallest whole number in place of * will be:
+(a) 3 (b) 1 (c) 0 (d) 2
+Answer: (d)
+Solution: The trap is picking 0 because the digit sum "looks" divisible, but the sum of known digits is 5+1+7+3+2+4 = 22, and 22 is not divisible by 3. We need 22 + * divisible by 3; the smallest digit making this true is 2 (giving 24), so the answer is 2.
+Source: NCERT Class 8 Mathematics (divisibility rules)
+
+34. The remainder when 17^200 is divided by 18 is:
+(a) 0 (b) 1 (c) 2 (d) 17
+Answer: (b)
+Solution: The trap is writing 17^200 ≡ (−1)^200 and then misreading the sign as −1, i.e. 17. Since 17 ≡ −1 (mod 18), 17^200 ≡ (−1)^200 = 1 (mod 18) because 200 is even, so the answer is 1.
+Source: PYQ-style
+
+35. How many numbers between 1 and 1000 are divisible by neither 2 nor 5?
+(a) 400 (b) 399 (c) 401 (d) 500
+Answer: (a)
+Solution: The trap is subtracting only multiples of 2 and 5 separately (1000 − 500 − 200 = 300) and forgetting to add back multiples of 10. Numbers divisible by 2 or 5 = 500 + 200 − 100 = 600, so numbers divisible by neither = 1000 − 600 = 400, so the answer is 400.
+Source: PYQ-style
+
+36. What is the sum of all two-digit numbers which leave remainder 1 when divided by 4?
+(a) 1210 (b) 1209 (c) 1215 (d) 1188
+Answer: (a)
+Solution: The trap is starting the series at 12 instead of 13, which shifts every term. The numbers are 13, 17, …, 97: first term 13, last term 97, common difference 4, number of terms = (97 − 13)/4 + 1 = 22. Sum = 22/2 × (13 + 97) = 11 × 110 = 1210, so the answer is 1210.
+Source: PYQ-style
+
+37. The HCF of two numbers is 13 and their LCM is 780. If one number is 65, the other number is:
+(a) 169 (b) 156 (c) 104 (d) 52
+Answer: (b)
+Solution: The trap is dividing 780 by 65 to get 12 and reporting a multiple of it without using the HCF–LCM product rule. Product of numbers = HCF × LCM = 13 × 780 = 10140; other number = 10140 / 65 = 156, so the answer is 156.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+38. What is the remainder when (12^13 + 1) is divided by 13?
+(a) 12 (b) 1 (c) 0 (d) 11
+Answer: (c)
+Solution: The trap is applying Fermat's little theorem to get 12^13 ≡ 12 and answering 12, forgetting the "+1" in the question. Since 12 ≡ −1 (mod 13), 12^13 ≡ (−1)^13 = −1 (mod 13), so 12^13 + 1 ≡ 0 (mod 13), so the answer is 0.
+Source: PYQ-style
+
+39. A number when divided by 5 leaves remainder 3, and when divided by 7 leaves remainder 5. The smallest such number is:
+(a) 38 (b) 33 (c) 68 (d) 19
+Answer: (b)
+Solution: The trap is noticing both remainders are 2 less than the divisors but then computing 5 × 7 − 2 = 33 and rejecting it as "too small to check". Since the number is of the form 35k − 2, the smallest positive value is 35 − 2 = 33; check: 33 ÷ 5 gives remainder 3 and 33 ÷ 7 gives remainder 5, so the answer is 33.
+Source: PYQ-style
+
+40. The unit digit of (3^65 × 6^59 × 7^71) is:
+(a) 2 (b) 6 (c) 4 (d) 8
+Answer: (c)
+Solution: The trap is assuming 6^59 forces the whole product to end in 6, which fails because the other factors are odd and contain no factor of 2. Unit digit of 3^65: cycle 3, 9, 7, 1; 65 mod 4 = 1, so 3. Unit digit of 6^59 is 6. Unit digit of 7^71: cycle 7, 9, 3, 1; 71 mod 4 = 3, so 3. Product's unit digit = unit digit of 3 × 6 × 3 = 54, so the answer is 4.
+Source: PYQ-style
+
+41. If x = 2^3 × 3^2 × 5 and y = 2^2 × 3^3 × 7, then the LCM of x and y is:
+(a) 2^3 × 3^3 × 5 (b) 2^2 × 3^2 × 5 × 7 (c) 2^3 × 3^2 × 5 × 7 (d) 2^3 × 3^3 × 5 × 7
+Answer: (d)
+Solution: The trap is taking the minimum powers (which gives the HCF) and choosing 2^2 × 3^2 × 5 × 7. For the LCM take the highest power of each prime present in either number: 2^3, 3^3, 5^1, 7^1, so the answer is 2^3 × 3^3 × 5 × 7.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+42. What is the remainder when 1^5 + 2^5 + 3^5 + … + 100^5 is divided by 4?
+(a) 3 (b) 1 (c) 2 (d) 0
+Answer: (d)
+Solution: The trap is trying to use the formula for the sum of fifth powers, which is unnecessary and error-prone here. For odd powers, k^5 ≡ k (mod 4): each even k contributes 0, and among 1 to 100 there are 25 numbers ≡ 1 (mod 4) and 25 numbers ≡ 3 (mod 4). Sum ≡ 25 × 1 + 25 × 3 = 100 ≡ 0 (mod 4), so the answer is 0.
+Source: PYQ-style
+
+43. The number 10^25 − 7 is divisible by:
+(a) 3 (b) 2 (c) 5 (d) 7
+Answer: (a)
+Solution: The trap is checking divisibility by 7 because of the "−7" in the expression, but 10^25 − 7 = 999…93 (24 nines followed by 3), whose digit sum is 24 × 9 + 3 = 219, divisible by 3. It is odd (not divisible by 2) and does not end in 0 or 5, so the answer is 3.
+Source: PYQ-style
+
+44. How many integers from 1 to 300 are divisible by 3 or 4 but not by 5?
+(a) 118 (b) 120 (c) 125 (d) 130
+Answer: (b)
+Solution: The trap is computing only "divisible by 3 or 4" (= 100 + 75 − 25 = 150) and stopping there. Subtract those among them also divisible by 5, i.e. divisible by 15 or 20: ⌊300/15⌋ + ⌊300/20⌋ − ⌊300/60⌋ = 20 + 15 − 5 = 30. Required count = 150 − 30 = 120, so the answer is 120.
+Source: PYQ-style
+
+45. If n is a natural number, then 6^n − 5^n always ends with the digit:
+(a) 6 (b) 5 (c) 9 (d) 1
+Answer: (d)
+Solution: The trap is focusing on 6^n ending in 6 and answering 6, ignoring the subtraction. 6^n always ends in 6 and 5^n always ends in 5; since 6^n > 5^n, the unit digit of the difference is 6 − 5 = 1, so the answer is 1.
+Source: PYQ-style
+
+46. The smallest number which when increased by 7 is exactly divisible by 24, 32, 36 and 54 is:
+(a) 864 (b) 857 (c) 871 (d) 851
+Answer: (b)
+Solution: The trap is reporting the LCM itself (864) instead of subtracting 7. Prime factorisations: 24 = 2^3 × 3, 32 = 2^5, 36 = 2^2 × 3^2, 54 = 2 × 3^3; LCM = 2^5 × 3^3 = 32 × 27 = 864. Required number = 864 − 7 = 857, so the answer is 857.
+Source: PYQ-style
+
+47. What is the remainder when 5^99 is divided by 13?
+(a) 8 (b) 5 (c) 12 (d) 10
+Answer: (a)
+Solution: The trap is applying Fermat's little theorem as 5^12 ≡ 1 and computing 99 = 12 × 8 + 3 to get 5^3 = 125, then misreading 125 − 117 = 8 as 10. Indeed 5^99 = (5^12)^8 × 5^3 ≡ 1 × 125 ≡ 125 − 117 = 8 (mod 13), so the answer is 8.
+Source: PYQ-style
+
+48. The product of two consecutive even numbers is 168. The sum of the numbers is:
+(a) 26 (b) 24 (c) 28 (d) 30
+Answer: (a)
+Solution: The trap is solving n(n + 2) = 168 approximately and rounding to 14 × 16 = 224, then forcing a nearby pair. The correct pair is 12 × 14 = 168, and 12 + 14 = 26, so the answer is 26.
+Source: NCERT Class 10 Mathematics (Quadratic concept)
+
+49. How many prime numbers are there between 1 and 50?
+(a) 14 (b) 17 (c) 15 (d) 16
+Answer: (c)
+Solution: The trap is forgetting 2 (the only even prime) or wrongly including 1, both of which shift the count by one. The primes are 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47 — a total of 15, so the answer is 15.
+Source: NCERT Class 6 Mathematics (Playing with Numbers)
+
+50. If the eight-digit number 2578a39b is divisible by 72, then the value of (a + b) is:
+(a) 9 (b) 7 (c) 11 (d) 5
+Answer: (c)
+Solution: The trap is applying only the divisibility rule of 9 and ignoring that 72 = 8 × 9 requires both rules together. Divisibility by 8 needs the last three digits 39b divisible by 8: 392 ÷ 8 = 49, so b = 2. Divisibility by 9 needs 2+5+7+8+a+3+9+2 = 36 + a divisible by 9, so a = 9. Then a + b = 9 + 2 = 11, so the answer is 11.
+Source: PYQ-style

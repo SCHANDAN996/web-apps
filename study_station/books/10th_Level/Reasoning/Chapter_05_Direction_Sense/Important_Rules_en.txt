@@ -1,0 +1,40 @@
+Key Rules/Approaches
+Rule Name	Description	Example
+Golden Rule: Update Facing Direction	After every turn, pause and identify your current facing direction before moving.	Facing North, turn left → now West. Next, turn right → now North again.
+Nose Compass Trick	Physically (or mentally) turn your nose to match each directional change; the final nose direction is your answer.	Start facing East, right turn → nose South, left turn → nose East again.
+Left/Right Turn Mapping	Left = 90° anticlockwise from current facing. Right = 90° clockwise from current facing.	Facing South: left → East, right → West.
+About Turn = 180°	“Turned back” or “about turn” means facing the exact opposite direction.	Facing North, about turn → South.
+Shadow Direction (Time-Based)	Morning (Sun East) → shadow West. Evening (Sun West) → shadow East. Noon (Sun South, N hemisphere) → shadow North.	At 7 AM, shadow always falls West. If shadow is to your right, deduce face direction.
+Shortest Distance (Displacement)	If path ends at a right angle from start, use Pythagoras theorem for straight-line distance.	Walk 6 km East, 8 km North → displacement = √(6²+8²) = 10 km.
+Visual Path Drawing	Always draw arrows for each leg, labelling distances and updating orientation.	Drawing prevents mixing up left/right and helps calculate final position.
+Time Management
+Rule	Description
+15‑Second Skip Rule	If within 15 seconds you cannot identify the initial facing direction or the first turn, skip the question immediately.
+45‑Second Mark & Move Rule	If a question involves more than 4 consecutive turns, or complex shadow + time conditions, and you haven’t drawn a clear path within 45 seconds, mark it and move on. Return only if time permits.
+Quick Visual Check	For simple 2‑3 leg problems, you should solve in under 30 seconds by drawing a small diagram without overthinking.
+Avoid Double‑Reading	Do not re‑read the entire problem repeatedly; extract the sequence of moves once and work from your diagram.
+Logical/Mathematical Formulas
+Concept	Formula / Expression
+Shortest Distance (Right‑Angle Path)
+𝑑
+=
+(
+𝑎
+2
++
+𝑏
+2
+)
+d=
+(a
+2
++b
+2
+)
+	​
+
+Common Pythagorean Triples	(3,4,5), (5,12,13), (6,8,10), (8,15,17), (9,12,15), (12,16,20)
+Direction Angle Change (Left Turn)	Facing direction – 90° (anticlockwise)
+Direction Angle Change (Right Turn)	Facing direction + 90° (clockwise)
+Opposite Direction (About Turn)	Facing direction ± 180°
+Intercardinal Direction Shift (45°)	Half step between cardinals; e.g., North + 45° clockwise = North‑East

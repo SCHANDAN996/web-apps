@@ -58,7 +58,7 @@ Answer: (2) 240
 🧠 Psychological Trap — The "Together" Optical Illusion
 When you read "always together," your brain's first instinct is to shrink the problem — fewer items, easier calculation. But the trap is forgetting to multiply by the internal arrangements within the block. The immediate visual of a single "block" is so compelling that candidates stop after arranging the 5 units and select 120. The exam setter knows that in a high-speed exam, your working memory can only hold about three chunks at once; the "block times internal factorial" step is the first to be ejected. Surviving this question requires you to pause and ask: did I forget the people inside the block?
 
-Source: SSC CHSL 2024, RRB NTPC 2021
+Source: PYQ-style
 
 Q3. Letter Arrangement — Vowel Cohort
 
@@ -98,7 +98,7 @@ This question layers two traps. First, the classic "vowel cohort" treatment that
 4320
 6!×3!=4320 and happily choose option (1). The exam setter deliberately places "4320" as the first option, knowing that your brain, flush with the success of correctly identifying the vowel-block strategy, will skip the final verification step. The second trap is almost never detected under time pressure. Always scan for repeated letters after forming your counting units.
 
-Source: IBPS PO Pre 2021, SSC CHSL 2023
+Source: PYQ-style
 
 Q4. Committee Selection — "At Least" Condition
 
@@ -204,7 +204,7 @@ C
 
  = 24 + 90 + 80 + 15 = 209 — but the computation is heavy and error-prone under time constraints. The "complement method" (total minus forbidden) is far faster, but only if your brain first asks: can I count the opposite more easily? The trap is that the four-case enumeration feels more concrete and safer, luring you away from the shortcut. The exam setter exploits the fact that most aspirants have been trained to "build cases" mechanically, and they reward the flexible thinker who momentarily steps back and inquires about the complement.
 
-Source: Bank of Baroda PO 2016, SBI PO 2000 -
+Source: PYQ-style
 30
 
 Q5. Circular Permutation
@@ -234,7 +234,7 @@ n!. Even when the circularity is stated, the reflex to apply
 720
 6!=720 is powerful because 720 is almost always an option. The examiner places both 720 and 120 in the answer choices, betting that a significant number of candidates will not mentally "anchor one position to remove rotational duplicates." The key insight — that in a circle, rotations produce identical arrangements — is conceptually simple but perceptually elusive. Train yourself to pause whenever you see "circular table" or "roundtable" and write the anchor step explicitly.
 
-Source: SSC CPO 2022, RRB Group D 2019
+Source: PYQ-style
 
 Q6. Word Arrangement with Repeated Letters
 
@@ -278,7 +278,7 @@ This question administers two consecutive cognitive blows. First, you must detec
 1440
 6!×2!=1440 (a distractor not even listed, causing confusion), or (b) applying the block correctly but forgetting the internal B–T arrangement, yielding 360. The examiner hedged by placing 360 (block-only without B–T swap) and 720 (correct) as options, knowing that survival of the first trap does not guarantee survival of the second. The mental bandwidth required to track both conditions simultaneously pushes many aspirants past their working-memory limit.
 
-Source: SSC CGL 2020, IBPS Clerk Mains 2019
+Source: PYQ-style
 
 Q7. Handshake Problem (Combination in Disguise)
 
@@ -360,7 +360,7 @@ Answer: (1) 15
 🧠 Psychological Trap — The "Disguised Selection" Masquerade
 The word "handshake" triggers imagery of a social gesture rather than a mathematical operation, and many aspirants fail to translate it into a combination problem. The trap is a failure of semantic decoding — the ability to see that "every person shakes hands with every other person once" is identical to "select 2 people from n where order doesn't matter." Some candidates try to build permutations (imagining A shaking B's hand as different from B shaking A's) or attempt sequence-based approaches. The quadratic equation's result of 15 has an "obvious" feel when guessed, but the algebraic path to it tests whether you can strip away the narrative clothing and recognise the bare combination underneath.
 
-Source: SSC CGL 2018, UPSC CDS 2020 -
+Source: PYQ-style
 
 Q8. Committee with Exact Gender Composition
 
@@ -397,7 +397,7 @@ Answer: (1) 150
 🧠 Psychological Trap — The "Add vs. Multiply" Reflex
 This question targets the most fundamental binary in combinatorics: AND events multiply, OR events add. Under exam stress, some candidates add 10 + 15 = 25 (an option not listed, causing panic) or inadvertently attempt other operations. The "exact composition" structure — exactly 2 men AND exactly 2 women — requires multiplication, but the word "exactly" can trigger an additive reflex because your brain associates "exact conditions" with summing constraints. The remedy is to vocalise the connective silently: "I need 2 men and 2 women" → multiply. Every time you detect "and" between independent selections, force yourself to write a multiplication sign.
 
-Source: SBI Clerk Mains 2020, SSC MTS 2019
+Source: PYQ-style
 
 Q9. Arrangement with Vowel-First Constraint
 
@@ -418,7 +418,7 @@ Answer: (2) 240
 🧠 Psychological Trap — The "Positional Anchoring" Misstep
 The trap here is treating the vowel-first condition as a "vowel cohort" problem (all vowels together) and erroneously applying the block method. The question does NOT say "all vowels together" — it says "the first letter is a vowel." Many candidates overcomplicate: they try to select which vowel goes first, place the other vowel among the remaining letters, then arrange, leading to double-counting or incorrect formulas. The simplicity of the solution — just multiply the number of vowel choices for position 1 by the factorial of the rest — feels almost too easy, prompting second-guessing. The examiner relies on the fact that after several "vowels together" drill questions, your brain has been conditioned to see "vowel" and reflexively deploy the block technique, even when it's inappropriate.
 
-Source: IBPS PO Pre 2019, SSC CHSL 2021
+Source: PYQ-style
 
 Q10. Selection with Repetition Allowed (Code/Lock)
 
@@ -465,7 +465,7 @@ P
 
 =5040, which is conveniently listed as option (2). The examiner is testing your ability to read qualifiers with precision and to switch mental models between "decreasing factorial" (no repetition) and "constant multiplication" (repetition allowed). The critical skill is not the calculation — it's the detection of the single word that changes the entire formula.
 
-Source: RRB NTPC 2020, SSC MTS 2018
+Source: PYQ-style
 
 🔥 High-Yield Pattern Summary
 Pattern	Frequency	Distractor Profile	Psychological Mechanism

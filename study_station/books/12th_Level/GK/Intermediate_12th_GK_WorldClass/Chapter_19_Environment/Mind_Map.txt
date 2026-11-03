@@ -1,0 +1,54 @@
+```mermaid
+graph TD
+    A["पर्यावरण और पारिस्थितिकी<br>Environment & Ecology (Basic)"] --> B["पारिस्थितिकी की इकाइयाँ<br>Levels of Ecology"]
+    A --> C["पारिस्थितिक तंत्र<br>Ecosystem"]
+    A --> D["जैव-विविधता<br>Biodiversity"]
+    A --> E["प्रदूषण<br>Pollution"]
+    A --> F["संरक्षण व संस्थाएँ<br>Conservation & Bodies"]
+    A --> G["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> H["रणनीति<br>Strategy"]
+
+    B --> B1["जीव → समष्टि → समुदाय<br>Organism → Population → Community"]
+    B --> B2["पारिस्थितिक तंत्र → जीवमंडल<br>Ecosystem → Biosphere"]
+    B --> B3["आवास = पता, निच = पेशा<br>Habitat = Address, Niche = Profession"]
+
+    C --> C1["अजैविक घटक<br>Abiotic: प्रकाश, जल, तापमान"]
+    C --> C2["जैविक घटक<br>Biotic: उत्पादक, उपभोक्ता, अपघटक"]
+    C --> C3["उत्पादक = हरे पौधे<br>Producers = Green Plants"]
+    C --> C4["अपघटक = जीवाणु, कवक<br>Decomposers = Bacteria, Fungi"]
+    C --> C5["खाद्य श्रृंखला और जाल<br>Food Chain & Food Web"]
+    C --> C6["10% ऊर्जा नियम<br>10% Energy Law (Lindeman)"]
+    C --> C7["पारिस्थितिक पिरामिड<br>Ecological Pyramids"]
+    C --> C8["जैव-भू-रासायनिक चक्र<br>Biogeochemical Cycles: C, N, O, Water"]
+
+    D --> D1["स्तर: आनुवंशिक, जाति, पारिस्थितिक<br>Genetic, Species, Ecosystem"]
+    D --> D2["हॉटस्पॉट: 4 भारत में<br>Hotspots: 4 in India"]
+    D --> D3["हॉटस्पॉट नाम<br>Himalaya, Indo-Burma,<br>Western Ghats, Sundaland"]
+    D --> D4["रेड डेटा बुक = IUCN<br>Red Data Book = IUCN"]
+    D --> D5["संकटग्रस्त श्रेणियाँ<br>CR > EN > VU"]
+
+    E --> E1["वायु प्रदूषण<br>Air: CO, SO2, NOx, PM"]
+    E --> E2["जल प्रदूषण<br>Water: BOD, यूट्रोफिकेशन"]
+    E --> E3["मृदा व शोर<br>Soil & Noise Pollution"]
+    E --> E4["ग्रीनहाउस गैसें<br>GHG: CO2, CH4, N2O"]
+    E --> E5["अम्ल वर्षा = SO2 + NOx<br>Acid Rain pH < 5.6"]
+    E --> E6["ओज़ोन क्षरण = CFC<br>Ozone Depletion = CFC"]
+
+    F --> F1["राष्ट्रीय उद्यान vs अभयारण्य<br>National Park vs Sanctuary"]
+    F --> F2["बायोस्फियर रिज़र्व<br>Biosphere Reserves (UNESCO)"]
+    F --> F3["परियोजना बाघ 1973<br>Project Tiger 1973"]
+    F --> F4["परियोजना हाथी 1992<br>Project Elephant 1992"]
+    F --> F5["WPA 1972, EPA 1986<br>Wildlife & Environment Acts"]
+    F --> F6["CITES, रामसर, CBD<br>International Conventions"]
+
+    G --> G1["राष्ट्रीय उद्यान में मानव गतिविधि वर्जित<br>NP: No human activity"]
+    G --> G2["CO2 ग्रीनहाउस है, CO नहीं<br>CO2 is GHG, CO is not"]
+    G --> G3["ओज़ोन: समताप में अच्छी, क्षोभ में हानिकारक<br>Ozone: Good in stratosphere"]
+    G --> G4["BOD अधिक = प्रदूषण अधिक<br>High BOD = High pollution"]
+    G --> G5["संख्या पिरामिड उल्टा हो सकता है<br>Number pyramid can be inverted"]
+
+    H --> H1["पहले परिभाषाएँ, फिर उदाहरण<br>Definitions first, then examples"]
+    H --> H2["वर्ष + अधिनियम साथ रटें<br>Memorise Year + Act together"]
+    H --> H3["15/45 सेकंड नियम<br>15/45 Second Rule"]
+    H --> H4["नकारात्मक प्रश्नों में NOT घेरें<br>Circle NOT in negative questions"]
+```

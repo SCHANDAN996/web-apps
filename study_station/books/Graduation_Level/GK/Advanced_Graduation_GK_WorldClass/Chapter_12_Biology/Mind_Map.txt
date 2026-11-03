@@ -1,0 +1,47 @@
+```mermaid
+graph TD
+  A["मानव शरीर<br>Human Body"] --> B["पाचन तंत्र<br>Digestive System"]
+  A --> C["श्वसन तंत्र<br>Respiratory System"]
+  A --> D["परिसंचरण तंत्र<br>Circulatory System"]
+  A --> E["उत्सर्जन तंत्र<br>Excretory System"]
+  A --> F["पेशीय तंत्र<br>Muscular System"]
+  A --> G["तंत्रिका तंत्र<br>Nervous System"]
+  A --> H["कंकाल तंत्र<br>Skeletal System"]
+  A --> I["परीक्षक के जाल<br>Examiner's Traps"]
+  A --> J["रणनीति<br>Strategy"]
+
+  B --> B1["मुख → ग्रासनली → आमाशय<br>Mouth → Oesophagus → Stomach"]
+  B --> B2["छोटी आँत: पोषक अवशोषण<br>Small Intestine: Absorption"]
+  B --> B3["यकृत: पित्त रस<br>Liver: Bile Juice"]
+  B --> B4["अग्न्याशय: इंसुलिन + एंजाइम<br>Pancreas: Insulin + Enzymes"]
+
+  C --> C1["फेफड़े: गैस विनिमय<br>Lungs: Gas Exchange"]
+  C --> C2["वायुमार्ग: नाक → श्वासनली<br>Airway: Nose → Trachea"]
+  C --> C3["डायाफ्राम: श्वसन में सहायक<br>Diaphragm: Aids Breathing"]
+
+  D --> D1["हृदय: 4 कक्ष<br>Heart: 4 Chambers"]
+  D --> D2["रक्त: RBC, WBC, प्लेटलेट<br>Blood: RBC, WBC, Platelets"]
+  D --> D3["धमनी, शिरा, केशिका<br>Artery, Vein, Capillary"]
+  D --> D4["रक्त समूह: A, B, AB, O<br>Blood Groups: A, B, AB, O"]
+
+  E --> E1["वृक्क (किडनी): रक्त छानना<br>Kidneys: Filter Blood"]
+  E --> E2["नेफ्रॉन: कार्यात्मक इकाई<br>Nephron: Functional Unit"]
+  E --> E3["मूत्राशय: मूत्र संग्रह<br>Bladder: Stores Urine"]
+
+  F --> F1["कंकाली पेशियाँ: ऐच्छिक<br>Skeletal Muscles: Voluntary"]
+  F --> F2["हृदय पेशी: अनैच्छिक<br>Cardiac Muscle: Involuntary"]
+
+  G --> G1["मस्तिष्क: नियंत्रण केंद्र<br>Brain: Control Centre"]
+  G --> G2["मेरुरज्जु: संदेश पहुँचाना<br>Spinal Cord: Message Relay"]
+  G --> G3["न्यूरॉन: तंत्रिका कोशिका<br>Neuron: Nerve Cell"]
+
+  H --> H1["206 हड्डियाँ (वयस्क)<br>206 Bones (Adult)"]
+  H --> H2["फीमर: सबसे लंबी हड्डी<br>Femur: Longest Bone"]
+
+  I --> I1["धमनी बनाम शिरा भ्रम<br>Artery vs Vein Confusion"]
+  I --> I2["अग्न्याशय: दोहरा कार्य<br>Pancreas: Dual Function"]
+  I --> I3["RBC में नाभिक नहीं<br>RBC Has No Nucleus"]
+
+  J --> J1["अंग → कार्य युग्म याद करें<br>Learn Organ → Function Pairs"]
+  J --> J2["एंजाइम/हॉर्मोन सूची दोहराएँ<br>Revise Enzyme/Hormone List"]
+```

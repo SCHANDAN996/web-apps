@@ -1,0 +1,79 @@
+Card 1
+Front: What is the distance between points (x₁, y₁) and (x₂, y₂)?
+Back: √[(x₂ − x₁)² + (y₂ − y₁)²] — Pythagoras applied to the horizontal and vertical gaps.
+
+Card 2
+Front: What are the coordinates of the midpoint of the segment joining (x₁, y₁) and (x₂, y₂)?
+Back: ((x₁ + x₂)/2, (y₁ + y₂)/2) — just average the x's and average the y's.
+
+Card 3
+Front: State the section formula for a point dividing the segment in ratio m : n internally.
+Back: ((mx₂ + nx₁)/(m + n), (my₂ + ny₁)/(m + n)). Mnemonic: "Cross-multiply the ratio" — m pairs with x₂, n pairs with x₁.
+
+Card 4
+Front: What is the formula for the area of a triangle with vertices (x₁,y₁), (x₂,y₂), (x₃,y₃)?
+Back: ½ |x₁(y₂ − y₃) + x₂(y₃ − y₁) + x₃(y₁ − y₂)|. If area = 0, the three points are collinear.
+
+Card 5
+Front: What is the slope of a line through (x₁, y₁) and (x₂, y₂)?
+Back: m = (y₂ − y₁)/(x₂ − x₁) = "rise over run".
+
+Card 6
+Front: What are the signs of the coordinates (x, y) in the four quadrants?
+Back: Q1: (+, +), Q2: (−, +), Q3: (−, −), Q4: (+, −). Mnemonic: "Start all-positive, then go anticlockwise — x flips first, then both, then y." (Note: the ASTC mnemonic belongs to trigonometry — it tells which trig ratios are positive, not coordinate signs.)
+
+Card 7
+Front: When are two lines with slopes m₁ and m₂ parallel? When perpendicular?
+Back: Parallel: m₁ = m₂. Perpendicular: m₁ × m₂ = −1.
+
+Card 8
+Front: What is the angle θ between two lines with slopes m₁ and m₂?
+Back: tan θ = |(m₁ − m₂)/(1 + m₁m₂)|.
+
+Card 9
+Front: Write the slope-intercept form and the point-slope form of a line.
+Back: Slope-intercept: y = mx + c. Point-slope: y − y₁ = m(x − x₁).
+
+Card 10
+Front: What is the perpendicular distance from point (x₁, y₁) to the line ax + by + c = 0?
+Back: d = |ax₁ + by₁ + c| / √(a² + b²). Mnemonic: "Plug the point, divide by the Pythagorean root of coefficients."
+
+Card 11
+Front: What is the distance between the parallel lines ax + by + c₁ = 0 and ax + by + c₂ = 0?
+Back: d = |c₁ − c₂| / √(a² + b²).
+
+Card 12
+Front: What is the equation of a circle with centre (h, k) and radius r?
+Back: (x − h)² + (y − k)² = r². General form: x² + y² + 2gx + 2fy + c = 0, centre (−g, −f), radius √(g² + f² − c).
+
+Card 13
+Front: What is the centroid of a triangle with vertices (x₁,y₁), (x₂,y₂), (x₃,y₃)?
+Back: ((x₁ + x₂ + x₃)/3, (y₁ + y₂ + y₃)/3) — the average of all three vertices.
+
+Card 14
+Front: How do you find the locus of a point equidistant from two fixed points A and B?
+Back: It is the perpendicular bisector of segment AB. Set PA = PB, square both sides, and simplify.
+
+Card 15
+Front: What is the mnemonic for remembering the section formula's "cross" pairing?
+Back: "Opposite attracts": the ratio part near B multiplies the coordinates of A and vice versa — m (near A's side) pairs with x₂ (B's coordinate). Formula: (mx₂ + nx₁)/(m+n).
+
+Card 16
+Front: If a point lies on the x-axis, what is its coordinate form? On the y-axis?
+Back: x-axis: (x, 0). y-axis: (0, y). Origin: (0, 0).
+
+Card 17
+Front: What is the condition for three points to be collinear using slopes?
+Back: Slope of AB = slope of BC (equivalently, area of triangle = 0).
+
+Card 18
+Front: What does the equation x² + y² + 2gx + 2fy + c = 0 represent if g² + f² − c < 0?
+Back: No real circle (imaginary radius). If g² + f² − c = 0, it is a point circle; if > 0, a real circle.
+
+Card 19
+Front: What is the intercept form of a line cutting axes at (a, 0) and (0, b)?
+Back: x/a + y/b = 1. Mnemonic: "Each variable divided by its own intercept."
+
+Card 20
+Front: How do you quickly find the reflection of point (x, y) across the x-axis, y-axis, and origin?
+Back: x-axis: (x, −y); y-axis: (−x, y); origin: (−x, −y). Mnemonic: "Mirror flips only the coordinate perpendicular to it."

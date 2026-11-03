@@ -1,0 +1,60 @@
+```mermaid
+graph TD
+    A["भारत का भौतिक भूगोल<br>Physical Geography of India"]
+
+    A --> H["हिमालय<br>Himalayas"]
+    A --> N["उत्तरी मैदान<br>Northern Plains"]
+    A --> P["प्रायद्वीपीय पठार<br>Peninsular Plateau"]
+    A --> D["भारतीय मरुस्थल<br>Indian Desert"]
+    A --> C["तटीय मैदान<br>Coastal Plains"]
+    A --> I["द्वीप समूह<br>Islands"]
+    A --> R["अपवाह तंत्र<br>Drainage"]
+    A --> W["जलवायु और मृदा<br>Climate and Soils"]
+    A --> T["परीक्षक के जाल<br>Examiner's Traps"]
+
+    H --> H1["हिमाद्रि: सबसे उत्तरी, औसत 6000 मी, ग्रेनाइट क्रोड<br>Himadri: northernmost, granite core"]
+    H --> H2["हिमाचल: पीर पंजाल, धौलाधार<br>Lesser Himalaya: hill stations"]
+    H --> H3["शिवालिक: सबसे बाहरी, 900–1100 मी<br>Shiwaliks: outermost"]
+    H --> H4["दून: हिमाचल और शिवालिक के बीच<br>Duns: Dehra, Kotli, Patli"]
+    H --> H5["पंजाब, कुमाऊँ, नेपाल, असम हिमालय<br>West to east, by river valleys"]
+    H --> H6["पूर्वांचल: पटकाई, नागा, मणिपुर, मिज़ो<br>Purvachal: sandstone hills"]
+
+    N --> N1["भाबर: नदियाँ लुप्त<br>Bhabar: streams disappear"]
+    N --> N2["तराई: नदियाँ फिर प्रकट, दलदल<br>Terai: streams re-emerge"]
+    N --> N3["बांगर: पुराना जलोढ़, कंकड़<br>Bhangar: older alluvium"]
+    N --> N4["खादर: नया जलोढ़, हर वर्ष<br>Khadar: newer alluvium"]
+    N --> N5["पंजाब, गंगा, ब्रह्मपुत्र मैदान<br>Doabs, Majuli island"]
+
+    P --> P1["मध्य उच्चभूमि: नर्मदा के उत्तर<br>Central Highlands: Malwa, Bundelkhand"]
+    P --> P2["दक्कन पठार: नर्मदा के दक्षिण, त्रिभुजाकार<br>Deccan Plateau: slopes east"]
+    P --> P3["पश्चिमी घाट: सतत, अनाइमुडी 2695 मी<br>Western Ghats: Sahyadri"]
+    P --> P4["पूर्वी घाट: असतत, महेंद्रगिरि 1501 मी<br>Eastern Ghats"]
+    P --> P5["अरावली: प्राचीन, गुरुशिखर<br>Aravali: oldest, eroded"]
+    P --> P6["मेघालय: गारो, खासी, जयंतिया<br>Malda fault"]
+
+    D --> D1["अरावली के पश्चिम, वर्षा 150 मिमी से कम<br>West of Aravali"]
+    D --> D2["बरखान, लूनी नदी, कच्छ का रण<br>Barchans, Luni"]
+
+    C --> C1["पश्चिमी: संकरा, जलमग्न<br>Konkan, Kannad, Malabar"]
+    C --> C2["पूर्वी: चौड़ा, डेल्टा<br>Northern Circar, Coromandel"]
+    C --> C3["चिल्का: सबसे बड़ी खारी झील<br>Chilika, Odisha"]
+
+    I --> I1["अंडमान-निकोबार: समुद्री पर्वत<br>Barren Island volcano"]
+    I --> I2["लक्षद्वीप: प्रवाल, कवरत्ती<br>Coral islands"]
+    I --> I3["8°, 9°, 10° चैनल, डंकन पास<br>Channels"]
+
+    R --> R1["हिमालयी: बारहमासी, गॉर्ज, डेल्टा<br>Indus, Ganga, Brahmaputra"]
+    R --> R2["प्रायद्वीपीय: मौसमी, छोटे मार्ग<br>Peninsular rivers"]
+    R --> R3["पूर्ववाहिनी: डेल्टा<br>Mahanadi, Godavari, Krishna, Kaveri"]
+    R --> R4["पश्चिमवाहिनी: ज्वारनदमुख<br>Narmada, Tapi in rift valleys"]
+
+    W --> W1["मॉसिनराम: सबसे अधिक वर्षा<br>Mawsynram, Khasi Hills"]
+    W --> W2["आम्र वर्षा, काल बैसाखी, लू, महावट<br>Local weather terms"]
+    W --> W3["काली मृदा: बेसाल्ट, कपास<br>Black soil: regur"]
+    W --> W4["लैटेराइट: निक्षालन, चाय-कॉफ़ी<br>Laterite: later = brick"]
+
+    T --> T1["भाबर बनाम तराई की अदला-बदली<br>Bhabar–Terai swap"]
+    T --> T2["नर्मदा का डेल्टा नहीं<br>Narmada makes an estuary"]
+    T --> T3["चेरापूँजी नहीं, मॉसिनराम<br>Outdated rainfall fact"]
+    T --> T4["8°, 9°, 10° चैनल की अदला-बदली<br>Channel number swap"]
+```

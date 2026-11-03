@@ -1,0 +1,136 @@
+# 🪄 Short Tricks & Mnemonics — Series
+
+---
+
+## 🎯 Trick 1: "DIFF First, Always!"
+
+**Mnemonic:** *"When a series makes you STIFF, just take the DIFF!"*
+
+Before anything else, subtract consecutive terms. A large proportion of number series in SSC/Bank exams crack open with simple differences. If first differences are flat, take differences of differences (second level).
+
+---
+
+## 🎯 Trick 2: "Square-Cube Radar"
+
+**Mnemonic:** *"If numbers JUMP like a kangaroo, think SQUARE or CUBE — that's the clue!"*
+
+Big jumps (like 2, 4, 16, 256 or 1, 8, 27, 64) mean squares/cubes are hiding. Memorise squares to 30 and cubes to 15 — they pay rent in every exam.
+
+---
+
+## 🎯 Trick 3: "×2 + k Family"
+
+**Mnemonic:** *"Double the fun, then add or minus one!"*
+
+Series like 3, 7, 15, 31, 63 follow ×2 + 1. Whenever each term is roughly double the previous, test ×2 ± k immediately. Variants: ×2 + 1, ×2 − 1, ×2 + 2, ×2 − 2...
+
+---
+
+## 🎯 Trick 4: "Alternate Split — The Twins Trick"
+
+**Mnemonic:** *"Odd seats and even seats are TWO different families at one dinner table!"*
+
+If no pattern appears in the full series, split it: 1st, 3rd, 5th... terms form one series; 2nd, 4th, 6th... form another. Very common in SSC CHSL/CGL.
+
+---
+
+## 🎯 Trick 5: "Letter = Number (A1Z26)"
+
+**Mnemonic:** *"AJT is your lucky charm — A=1, J=10, T=20. Anchor and count!"*
+
+Convert letters to positions instantly using anchors: E=5, J=10, O=15, T=20, Z=26. Never count on fingers from A — anchor-jump instead.
+
+---
+
+## 🎯 Trick 6: "EJOTY — The Five Pillars"
+
+**Mnemonic:** *"EJOTY — Enjoy Every Exam!"*
+
+E(5) – J(10) – O(15) – T(20) – Y(25). These five letters divide the alphabet into 5 equal blocks. Any letter's position = nearest pillar ± small count. C = E−2 = 3. R = T−2 = 18.
+
+---
+
+## 🎯 Trick 7: "Opposite Pairs Sum to 27"
+
+**Mnemonic:** *"AZad Bharat — A-Z, B-Y, C-X... all couples dance at 27!"*
+
+Opposite letter pairs always add to 27: A+Z=27, B+Y=27, M+N=27. In letter series, if the pattern looks like "reverse alphabet," check for opposites.
+
+---
+
+## 🎯 Trick 8: "Prime Suspects"
+
+**Mnemonic:** *"2, 3, 5, 7, Eleven, Thirteen — primes are the examiners' favourite scene!"*
+
+If differences are irregular and no multiplication fits, check if the terms themselves are primes, or primes ± 1, or squares of primes. 2, 3, 5, 7, 11, 13 appears in disguise everywhere.
+
+---
+
+## 🎯 Trick 9: "Fibonacci Whisper"
+
+**Mnemonic:** *"Add the last two, get the next — the rabbit family grows!"*
+
+1, 1, 2, 3, 5, 8, 13... Each term = sum of previous two. Variants: sum of previous two ± 1, or a, b, a+b, a+2b... If differences themselves look like the original series, suspect Fibonacci.
+
+---
+
+## 🎯 Trick 10: "Gap Pattern in Letters"
+
+**Mnemonic:** *"Count the SKIPS, not the letters — +1, +2, +3 climbs the stairs!"*
+
+In letter series (A, C, F, J...), write the gaps above: +2, +3, +4. Gaps usually increase or decrease by 1, or alternate (+2, +3, +2, +3).
+
+---
+
+## 🎯 Trick 11: "Mixed Series — × and + Alternate"
+
+**Mnemonic:** *"Multiply, then add, multiply, then add — the exam's favourite dance step!"*
+
+Series like 2, 5, 11, 23, 47 → ×2+1 each time. But 3, 6, 8, 16, 18 → ×2, +2, ×2, +2 (alternating operations). If one operation fails, try two alternating.
+
+---
+
+## 🎯 Trick 12: "Wrong Number? Play Detective"
+
+**Mnemonic:** *"One term is the BLACK SHEEP — find the pattern in the rest, and the odd one bleats!"*
+
+For "find the wrong term" questions: build the pattern from the majority of terms, then check which single term breaks it. Never assume the first term is correct — verify with at least 3 terms.
+
+---
+
+## 🎯 Trick 13: "n² ± n Sweet Spot"
+
+**Mnemonic:** *"Square minus itself, square plus itself — 0, 2, 6, 12, 20 loves to visit!"*
+
+n² − n gives 0, 2, 6, 12, 20, 30; n² + n gives 2, 6, 12, 20, 30. If differences are 4, 6, 8, 10 (even, growing by 2), you're in n² ± n territory.
+
+---
+
+## 🎯 Trick 14: "Last-Term Check (10-Second Validator)"
+
+**Mnemonic:** *"Trust, but verify — run your rule to the LAST given term before answering!"*
+
+Half the traps in series are patterns that fit 3 terms but break at the 4th. Always confirm your rule works for every given term before marking the answer.
+
+---
+
+## 🎯 Trick 15: "Options Are Clues"
+
+**Mnemonic:** *"Stuck? Peek at the options — they whisper the pattern's language!"*
+
+If all options are perfect squares, think squares. If options jump hugely, think multiplication/cubes. If options are close together, think small differences. Options narrow your search space.
+
+---
+
+# ⏭️ Skip Strategy — When to Leave the Question
+
+### 🚫 Skip Rule 1: The 15-Second Alarm
+If after 15 seconds you cannot see ANY difference pattern, ratio pattern, or square/cube hint — **mark and skip**. Series questions are designed to be solved in 20–40 seconds; a pattern that hides beyond 15 seconds will eat 2 minutes and may still be wrong. Return only if time remains.
+
+### 🚫 Skip Rule 2: Two Patterns, One Answer? Danger!
+If you find a pattern but it matches **two different options** (or the series is too short — only 3 terms given), the question is ambiguous or has a hidden second layer. Don't gamble blindly — skip unless one option clearly fits a *simpler* rule.
+
+### 🚫 Skip Rule 3: Letter Series Without EJOTY Conversion
+If a letter series needs triple conversions (letters → numbers → pattern → back to letters) and you're slow at positions, it will cost 60+ seconds. **Attempt these last.** Do all number series first — they are faster and more certain.
+
+**Golden Rule:** In a 25-question reasoning section, skipping 2 stubborn series questions and solving 23 correctly beats attempting all 25 with 5 silly errors. *Series rewards the calm, not the stubborn!*

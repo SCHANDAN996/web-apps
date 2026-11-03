@@ -1,0 +1,51 @@
+# Important Formulas — Coordinate Geometry
+
+| Formula Name | Formula | One-line Use-Hint |
+|---|---|---|
+| Distance Formula | d = √[(x₂−x₁)² + (y₂−y₁)²] | Distance between two points |
+| Distance from Origin | d = √(x² + y²) | Point P(x, y) to (0, 0) |
+| Section Formula (Internal) | [(mx₂+nx₁)/(m+n), (my₂+ny₁)/(m+n)] | Point dividing AB in ratio m:n internally |
+| Section Formula (External) | [(mx₂−nx₁)/(m−n), (my₂−ny₁)/(m−n)] | Point dividing AB in ratio m:n externally |
+| Midpoint Formula | [(x₁+x₂)/2, (y₁+y₂)/2] | Special case of section formula, m = n = 1 |
+| Centroid of Triangle | [(x₁+x₂+x₃)/3, (y₁+y₂+y₃)/3] | Intersection of medians |
+| Incentre of Triangle | [(ax₁+bx₂+cx₃)/(a+b+c), (ay₁+by₂+cy₃)/(a+b+c)] | a, b, c = side lengths opposite vertices A, B, C |
+| Area of Triangle | ½\|x₁(y₂−y₃) + x₂(y₃−y₁) + x₃(y₁−y₂)\| | Given three vertices |
+| Collinearity Condition | Area of triangle = 0 | Test whether three points lie on one line |
+| Slope (Gradient) | m = (y₂−y₁)/(x₂−x₁) = tan θ | θ = angle line makes with +x-axis |
+| Parallel Lines | m₁ = m₂ | Condition for two lines to be parallel |
+| Perpendicular Lines | m₁·m₂ = −1 | Condition for two lines to be perpendicular |
+| Angle Between Two Lines | tan θ = \|(m₁−m₂)/(1+m₁m₂)\| | Acute angle between lines of slopes m₁, m₂ |
+| Slope-Intercept Form | y = mx + c | c = y-intercept |
+| Point-Slope Form | y − y₁ = m(x − x₁) | Line through (x₁, y₁) with slope m |
+| Two-Point Form | y − y₁ = [(y₂−y₁)/(x₂−x₁)](x − x₁) | Line through two given points |
+| Intercept Form | x/a + y/b = 1 | a = x-intercept, b = y-intercept |
+| Normal Form | x cos α + y sin α = p | p = perpendicular distance from origin |
+| General Form of Line | Ax + By + C = 0 | Slope = −A/B; y-intercept = −C/B |
+| Distance of Point from Line | \|Ax₁ + By₁ + C\| / √(A² + B²) | Perpendicular distance from (x₁, y₁) to Ax+By+C=0 |
+| Distance Between Parallel Lines | \|C₁ − C₂\| / √(A² + B²) | Lines Ax + By + C₁ = 0 and Ax + By + C₂ = 0 |
+| Point of Intersection of Two Lines | Solve A₁x+B₁y+C₁=0 and A₂x+B₂y+C₂=0 simultaneously | Unique solution ⇒ intersecting; no solution ⇒ parallel |
+| Concurrency Condition | \|a₁ b₁ c₁; a₂ b₂ c₂; a₃ b₃ c₃\| = 0 (determinant) | Three lines pass through one point |
+| Family of Lines | L₁ + λL₂ = 0 | Any line through intersection of L₁ = 0 and L₂ = 0 |
+| Circle — Standard Form | (x−h)² + (y−k)² = r² | Centre (h, k), radius r |
+| Circle — Centre at Origin | x² + y² = r² | Simplest circle equation |
+| Circle — General Form | x² + y² + 2gx + 2fy + c = 0 | Centre (−g, −f); radius = √(g²+f²−c) |
+| Circle — Diameter Form | (x−x₁)(x−x₂) + (y−y₁)(y−y₂) = 0 | (x₁,y₁), (x₂,y₂) are endpoints of diameter |
+| Position of Point w.r.t. Circle | S₁ = x₁²+y₁²+2gx₁+2fy₁+c | S₁>0 outside; S₁=0 on; S₁<0 inside |
+| Tangent to Circle (slope form) | y = mx ± r√(1+m²) | For circle x² + y² = r² |
+| Tangent at Point on Circle | xx₁ + yy₁ = r² | For x² + y² = r² at point (x₁, y₁) |
+| Length of Tangent from External Point | √(x₁² + y₁² + 2gx₁ + 2fy₁ + c) = √S₁ | From (x₁, y₁) to the circle |
+| Parabola — Standard Forms | y² = 4ax; y² = −4ax; x² = 4ay; x² = −4ay | Focus (±a, 0) or (0, ±a); directrix x = ∓a or y = ∓a |
+| Latus Rectum of Parabola | 4a | Length of chord through focus ⊥ to axis |
+| Ellipse — Standard Form | x²/a² + y²/b² = 1 (a > b) | Foci (±ae, 0); e = √(1 − b²/a²) |
+| Ellipse — Latus Rectum | 2b²/a | Chord through focus ⊥ to major axis |
+| Ellipse — Focal Distance Sum | PS + PS′ = 2a | Sum of distances from any point to foci is constant |
+| Hyperbola — Standard Form | x²/a² − y²/b² = 1 | Foci (±ae, 0); e = √(1 + b²/a²), e > 1 |
+| Hyperbola — Latus Rectum | 2b²/a | Same expression as ellipse |
+| Rectangular Hyperbola | xy = c² | Asymptotes are the coordinate axes; e = √2 |
+| Rotation of Axes | x = X cos θ − Y sin θ; y = X sin θ + Y cos θ | New coordinates after rotating axes by θ |
+| Translation of Axes | x = X + h; y = Y + k | Origin shifted to (h, k) |
+| Reflection of Point | x-axis: (x, −y); y-axis: (−x, y); origin: (−x, −y); line y = x: (y, x) | Image of point P(x, y) |
+| Area of Quadrilateral | ½\|(x₁y₂ + x₂y₃ + x₃y₄ + x₄y₁) − (x₂y₁ + x₃y₂ + x₄y₃ + x₁y₄)\| | Vertices taken in order (shoelace formula) |
+| Equation of Angle Bisectors | (A₁x+B₁y+C₁)/√(A₁²+B₁²) = ±(A₂x+B₂y+C₂)/√(A₂²+B₂²) | Bisectors of angles between two lines |
+| Pair of Straight Lines | ax² + 2hxy + by² + 2gx + 2fy + c = 0 | Represents two lines if abc + 2fgh − af² − bg² − ch² = 0 |
+| Angle Between Pair of Lines | tan θ = \|2√(h²−ab)/(a+b)\| | For ax² + 2hxy + by² = 0 |

@@ -1,0 +1,151 @@
+Questions 126–145: Easy | Questions 146–150: Moderate
+
+126. In a certain code, "MASTER" is written as "OCUVGT". How will "PLANET" be written in the same code?
+(a) RNCQGV (b) RNCPGV (c) QNCPGV (d) RNCPGU
+Answer: (b)
+Solution: The tempting wrong option RNCQGV comes from shifting only some letters by +2 and forgetting the rest. Each letter of MASTER moves +2: M→O, A→C, S→U, T→V, E→G, R→T. Applying +2 to PLANET: P→R, L→N, A→C, N→P, E→G, T→V, so the answer is RNCPGV.
+Source: PYQ-style
+
+127. In a code language, "TIGER" is coded as "20-9-7-5-18" and "LION" is coded as "12-9-15-14". How is "BEAR" coded?
+(a) 2-5-2-18 (b) 2-4-1-18 (c) 2-5-1-18 (d) 3-5-1-18
+Answer: (c)
+Solution: The trap option 2-4-1-18 uses A=0 style counting for E, but the given examples use positional values A=1 to Z=26 (T=20, I=9, and so on). So B=2, E=5, A=1, R=18, and the answer is 2-5-1-18.
+Source: PYQ-style
+
+128. If "DELHI" is coded as "73541" and "CALCUTTA" as "82589662", how will "CALICUT" be coded?
+(a) 8251896 (b) 8251946 (c) 8251894 (d) 8251986
+Answer: (a)
+Solution: The trap option 8251894 assigns T=4 by guessing, but from CALCUTTA, T=6 and U=9. Letter mapping: C=8, A=2, L=5, I=1 (from DELHI), U=9, T=6. So CALICUT = 8-2-5-1-8-9-6, and the answer is 8251896.
+Source: PYQ-style
+
+129. In a certain code, "FRIEND" is written as "HUMJTK". How is "CANDLE" written in that code?
+(a) ESJFME (b) EDRIRK (c) DCQHQK (d) EDRIRL
+Answer: (d)
+Solution: The trap option ESJFME uses a uniform +1 shift, but the pattern is +2, +3, +4, +5, +6, +7: F+2=H, R+3=U, I+4=M, E+5=J, N+6=T, D+7=K. For CANDLE: C+2=E, A+3=D, N+4=R, D+5=I, L+6=R, E+7=L, so the answer is EDRIRL.
+Source: PYQ-style
+
+130. In a code, "APPLE" is written as "ZKKOV". How will "GRAPE" be written?
+(a) TIZKV (b) TIZKW (c) SIZKV (d) TIZLV
+Answer: (a)
+Solution: The trap option TIZKW shifts the last letter wrongly; the code uses reverse alphabet (A↔Z, B↔Y, and so on). A→Z, P→K, P→K, L→O, E→V confirms it. For GRAPE: G→T, R→I, A→Z, P→K, E→V, so the answer is TIZKV.
+Source: PYQ-style
+
+131. If "MACHINE" is coded as "LBBIHOD", how will "DANGER" be coded?
+(a) CBMHFD (b) CBMHDS (c) CBMHFS (d) EZMFDS
+Answer: (b)
+Solution: The trap option CBMHFD applies −1 to every letter, ignoring the alternation. The rule is: letters at odd positions shift −1 and letters at even positions shift +1 (M→L, A→B, C→B, H→I, I→H, N→O, E→D). For DANGER: D→C, A→B, N→M, G→H, E→D, R→S, so the answer is CBMHDS.
+Source: PYQ-style
+
+132. In a certain code, "123" means "hot filtered coffee", "356" means "very hot day", and "589" means "day and night". Which digit stands for "very"?
+(a) 5 (b) 3 (c) 6 (d) 9
+Answer: (c)
+Solution: The trap option 3 is the code for "hot" (common to the first two sentences), not "very". "Day" is common to sentences two and three, so day=5. In sentence two, removing hot=3 and day=5 leaves very=6, so the answer is 6.
+Source: PYQ-style
+
+133. In a code language, "pit na som" means "bring me water", "na jo tod" means "water is life", and "tub od pit" means "give me toy". Which word means "water"?
+(a) pit (b) jo (c) som (d) na
+Answer: (d)
+Solution: The trap option pit belongs to the "me/bring" group (pit is common to sentences one and three), not "water". "Water" is the only word common to sentences one and two, and "na" is the only code common to both, so water=na, and the answer is na.
+Source: PYQ-style
+
+134. If "CAT" is coded as "24" and "DOG" is coded as "26", how will "FOX" be coded?
+(a) 45 (b) 44 (c) 46 (d) 43
+Answer: (a)
+Solution: The trap option 44 comes from an addition slip on the letter values. The rule is the sum of alphabetical positions: CAT = 3+1+20 = 24 and DOG = 4+15+7 = 26, both confirmed. For FOX: 6+15+24 = 45, so the answer is 45.
+Source: PYQ-style
+
+135. In a certain code, "MONKEY" is written as "XDJMNL". How will "TIGER" be written in that code?
+(a) SHFDQ (b) QDFSH (c) QDHFS (d) QDFHS
+Answer: (d)
+Solution: The trap option SHFDQ forgets to reverse at the end. Pattern: shift each letter −1 and write the result in reverse order: MONKEY → LNMJDX → reversed XDJMNL, confirmed. For TIGER: −1 each gives SHFDQ, reversed gives QDFHS, so the answer is QDFHS.
+Source: PYQ-style
+
+136. If "PAPER" is coded as "OZODQ", how will "PENCIL" be coded in the same code?
+(a) ODMBHK (b) ODMBJK (c) ODNBHK (d) ODMBHL
+Answer: (a)
+Solution: The trap option ODNBHK shifts N by +1 instead of −1. The rule is a uniform −1 shift: P→O, A→Z, P→O, E→D, R→Q, confirmed. For PENCIL: P→O, E→D, N→M, C→B, I→H, L→K, so the answer is ODMBHK.
+Source: PYQ-style
+
+137. In a code, "ROSE" is written as "6821", "CHAIR" is written as "73456", and "PREACH" is written as "961473". What is the code for "SEARCH"?
+(a) 216743 (b) 261473 (c) 214673 (d) 216473
+Answer: (c)
+Solution: The trap option 216473 swaps the digits for A and R. From the given words: S=2, E=1, A=4, R=6, C=7, H=3. So SEARCH = 2-1-4-6-7-3, and the answer is 214673.
+Source: PYQ-style
+
+138. In a certain code, "BRAIN" is written as "*%÷#×" and "TRAIN" is written as "₹%÷#×". How is "BRANT" written? (Note: symbols follow letter-to-symbol substitution.)
+(a) *%÷×₹ (b) *%×÷₹ (c) *%÷₹× (d) ₹%÷×*
+Answer: (a)
+Solution: The trap option *%÷₹× swaps the last two symbols. Mapping: B=*, R=%, A=÷, I=#, N=×, T=₹. So BRANT = * % ÷ × ₹, and the answer is *%÷×₹.
+Source: PYQ-style
+
+139. In a certain code, "SYSTEM" is coded as "SYSMET" and "NEARER" is coded as "AENRER". How will "FRACTION" be coded?
+(a) ARFCNOIT (b) FRACNOIT (c) NOITCARF (d) CARFNOIT
+Answer: (d)
+Solution: The trap option FRACNOIT reverses only the second half and leaves the first half untouched. The rule: split the word into two halves and reverse each half: SYSTEM → SYS|TEM → SYS|MET, and NEARER → NEA|RER → AEN|RER, both confirmed. For FRACTION: FRAC|TION → CARF|NOIT, so the answer is CARFNOIT.
+Source: PYQ-style
+
+140. If "CAT" is coded as "24" and "BAT" is coded as "23", how will "RAT" be coded?
+(a) 39 (b) 40 (c) 41 (d) 38
+Answer: (a)
+Solution: The trap option 40 comes from misreading R as 19 instead of 18. The rule is the sum of alphabetical positions: CAT = 3+1+20 = 24 and BAT = 2+1+20 = 23, both confirmed. For RAT: 18+1+20 = 39, so the answer is 39.
+Source: PYQ-style
+
+141. In a code language, "she is honest" is written as "ka ma la", "he is honest" is written as "sa ma la", and "she is intelligent" is written as "ka ma ta". What is the code for "intelligent"?
+(a) ka (b) ta (c) ma (d) la
+Answer: (b)
+Solution: The trap option ka means "she" (common to sentences one and three), not "intelligent". From sentences one and two, "is honest" = "ma la"; from one and three, "she is" = "ka ma". So in sentence three, intelligent=ta, and the answer is ta.
+Source: PYQ-style
+
+142. If "WATER" is coded as "XBUFS" and "MILK" is coded as "NJML", how will "JUICE" be coded?
+(a) KUJDF (b) KVJDF (c) KVJEF (d) KVJDG
+Answer: (b)
+Solution: The trap option KVJDG shifts the last letter by +2 instead of +1. Each letter shifts +1: W→X, A→B, T→U, E→F, R→S and M→N, I→J, L→M, K→L, both confirmed. For JUICE: J→K, U→V, I→J, C→D, E→F, so the answer is KVJDF.
+Source: PYQ-style
+
+143. In a certain code, "EXAMINATION" is written as "FYBNJOBUJPO". How will "QUESTION" be written?
+(a) RVFSUJPO (b) RUFTUJPO (c) RVFTUJPO (d) RVFTUJPN
+Answer: (c)
+Solution: The trap option RVFSUJPO shifts S wrongly to S instead of T. Every letter simply shifts +1: E→F, X→Y, A→B, M→N, and so on, confirmed. For QUESTION: Q→R, U→V, E→F, S→T, T→U, I→J, O→P, N→O, so the answer is RVFTUJPO.
+Source: PYQ-style
+
+144. If "CAMERA" is coded as "3135181" (A=1, B=2, …, concatenated), how will "LENS" be coded?
+(a) 1251418 (b) 1251419 (c) 1251519 (d) 1241419
+Answer: (b)
+Solution: The trap option 1251418 uses S=18, but S is the 19th letter. The code is each letter's position written in sequence: C=3, A=1, M=13, E=5, R=18, A=1 → 3135181, confirmed. For LENS: L=12, E=5, N=14, S=19, so the answer is 1251419.
+Source: PYQ-style
+
+145. In a certain code, "APPLE" = "50" and "MANGO" = "50". What will "GRAPES" be?
+(a) 64 (b) 66 (c) 65 (d) 67
+Answer: (b)
+Solution: The trap option 65 subtracts the letter count, but the examples need no subtraction: APPLE = 1+16+16+12+5 = 50 and MANGO = 13+1+14+7+15 = 50, both confirmed. So the rule is the plain sum of alphabetical positions: GRAPES = 7+18+1+16+5+19 = 66, so the answer is 66.
+Source: PYQ-style
+
+146. In a code, each letter of "TOP" is replaced by its immediate predecessor followed by its immediate successor, giving "SUNPOQ" (T→SU, O→NP, P→OQ). How will "DOG" be written in this code?
+(a) CENPFI (b) CENPGH (c) CDNPFH (d) CENPFH
+Answer: (d)
+Solution: The trap option CDNPFH writes D's neighbours in the wrong order (successor first). The rule is predecessor then successor: D→CE, O→NP, G→FH. Joining gives CENPFH, so the answer is CENPFH.
+Source: PYQ-style
+
+147. In a certain code, "247" means "spread red carpet", "235" means "dust one carpet", and "234" means "one red carpet". Which digit stands for "dust"?
+(a) 4 (b) 3 (c) 5 (d) 2
+Answer: (c)
+Solution: The trap option 3 is the code for "one", not "dust". "Carpet" is common to all three sentences and digit 2 is common to all, so carpet=2. Sentences one and three share "red" → red=4 and spread=7. Sentences two and three share "one" → one=3, leaving dust=5 in sentence two, so the answer is 5.
+Source: PYQ-style
+
+148. If "ORANGE" is coded as "LOXKDB", how will "BANANA" be coded in the same code?
+(a) YXKXKX (b) YXKXLX (c) ZXKXKX (d) YXKXKW
+Answer: (a)
+Solution: The trap option YXKXLX shifts the last A wrongly. Each letter shifts −3: O→L, R→O, A→X, N→K, G→D, E→B, confirmed. For BANANA: B→Y, A→X, N→K, A→X, N→K, A→X, so the answer is YXKXKX.
+Source: PYQ-style
+
+149. In a certain code, "CLOCK" is written as "KCOLC". How will "WATCH" be written?
+(a) HTCAW (b) HCTWA (c) HCTAW (d) HCAWT
+Answer: (c)
+Solution: The trap options HTCAW and HCAWT are near-reversals with two letters swapped, designed to catch hurried readers. The rule is a simple full reversal: CLOCK → KCOLC, confirmed. Reversing WATCH gives HCTAW, so the answer is HCTAW.
+Source: PYQ-style
+
+150. If "BOY" is coded as "42" and "GIRL" is coded as "46", how will "TOY" be coded?
+(a) 61 (b) 59 (c) 58 (d) 60
+Answer: (d)
+Solution: The trap option 59 comes from an addition slip on the letter values. The rule is the sum of alphabetical positions: BOY = 2+15+25 = 42 and GIRL = 7+9+18+12 = 46, both confirmed. For TOY: 20+15+25 = 60, so the answer is 60.
+Source: PYQ-style

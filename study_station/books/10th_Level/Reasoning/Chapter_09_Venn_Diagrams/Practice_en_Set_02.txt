@@ -1,0 +1,151 @@
+Questions 26–40: Medium | Questions 41–50: Hard
+
+26. Which of the following Venn diagrams best represents the relationship among: Cricket, Bat, Ball?
+(a) Three separate circles (b) One large circle containing two separate circles (c) Three overlapping circles (d) One circle inside another, third separate
+Answer: (a)
+Solution: The tempting option is the large circle containing two circles, but bat and ball are equipment, not types of cricket. None of the three is a subclass of another, so the answer is three separate circles.
+Source: PYQ-style
+
+27. Choose the Venn diagram that correctly depicts: Doctors, Stethoscope, Hospital.
+(a) Three overlapping circles (b) One circle inside another, both inside a third (c) One large circle containing one circle, third overlapping (d) Three separate circles
+Answer: (d)
+Solution: The trap is to overlap doctors with hospitals because doctors work there, but a workplace is not a class relationship. A stethoscope is a tool, a doctor is a person, a hospital is a place, so the answer is three separate circles.
+Source: PYQ-style
+
+28. Which Venn diagram best represents: Mothers, Women, Doctors?
+(a) Three overlapping circles (b) Mothers inside Women, Doctors separate (c) Mothers inside Women, Doctors overlapping Women (d) Women inside Mothers, Doctors overlapping Mothers
+Answer: (c)
+Solution: The trap is to keep Doctors separate, but some doctors are women, so the circles must intersect. All mothers are women, while doctors may or may not be women, so the answer is Mothers inside Women with Doctors overlapping Women.
+Source: PYQ-style
+
+29. Study the following figure: Triangle = Engineers, Square = Managers, Circle = MBAs. Numbers in regions: only Engineers=12, only Managers=10, only MBAs=15, Engineers & Managers (not MBAs)=6, Managers & MBAs (not Engineers)=8, Engineers & MBAs (not Managers)=7, all three=4. How many are exactly one of these?
+(a) 37 (b) 33 (c) 45 (d) 41
+Answer: (a)
+Solution: The trap is to add the pairwise regions too, but "exactly one" excludes every overlap. Exactly one = 12 + 10 + 15, so the answer is 37.
+Source: PYQ-style
+
+30. In a group of 150 people, 90 like tea, 70 like coffee, 50 like both. How many like neither?
+(a) 30 (b) 20 (c) 40 (d) 10
+Answer: (c)
+Solution: The trap is to subtract only the "both" figure from the total. People liking at least one = 90 + 70 − 50 = 110, so neither = 150 − 110, and the answer is 40.
+Source: PYQ-style
+
+31. In the given Venn diagram, circle A represents people who read English, circle B represents people who read Hindi, circle C represents people who read Sanskrit. Numbers: only A=25, only B=20, only C=18, A∩B only=12, B∩C only=9, A∩C only=6, A∩B∩C=5. How many read exactly two languages?
+(a) 32 (b) 27 (c) 22 (d) 30
+Answer: (b)
+Solution: The trap is to include the central region 5, but those people read all three languages, not exactly two. Exactly two = 12 + 9 + 6, so the answer is 27.
+Source: PYQ-style
+
+32. In a Venn diagram, region representing 'only Hindi' contains 15, Hindi and English but not Sanskrit contains 8, all three contains 3. If total who know Hindi is 40, how many know Hindi and Sanskrit but not English?
+(a) 14 (b) 17 (c) 11 (d) 12
+Answer: (a)
+Solution: The trap is to forget that total Hindi includes all four Hindi regions. Let the required region be x: 15 + 8 + x + 3 = 40 gives x = 14, so the answer is 14.
+Source: PYQ-style
+
+33. Statements: Some apples are oranges. All oranges are fruits. No fruit is a vegetable. Conclusions: I. Some apples are fruits. II. No apple is a vegetable.
+(a) Only II follows (b) Only I follows (c) Neither I nor II follows (d) Both I and II follow
+Answer: (b)
+Solution: The trap is II, which feels true in real life, but syllogisms use only the given statements; the apples that are not oranges could be anything. Some apples are oranges and all oranges are fruits, so some apples are fruits, and the answer is only I follows.
+Source: PYQ-style
+
+34. Statements: All phones are gadgets. Some gadgets are expensive. No expensive thing is cheap. Conclusions: I. Some phones are expensive. II. No phone is cheap.
+(a) Only I follows (b) Neither I nor II follows (c) Only II follows (d) Both I and II follow
+Answer: (b)
+Solution: The trap is I, because phones are gadgets and some gadgets are expensive, but the expensive gadgets need not include any phone. Phones could also lie outside both expensive and cheap categories, so the answer is neither follows.
+Source: PYQ-style
+
+35. Statements: No student is a teacher. All teachers are graduates. Some graduates are postgraduates. Conclusions: I. Some postgraduates are not students. II. No student is a graduate.
+(a) Only I follows (b) Both I and II follow (c) Only II follows (d) Neither I nor II follows
+Answer: (d)
+Solution: The trap is II, but the statements only separate students from teachers, not from graduates; students may overlap graduates freely. Since postgraduates may also all be students, the answer is neither follows.
+Source: PYQ-style
+
+36. Statements: All pens are pencils. No pencil is an eraser. Some erasers are sharpeners. Conclusions: I. Some sharpeners are not pencils. II. No pen is an eraser.
+(a) Only conclusion I follows (b) Only conclusion II follows (c) Neither conclusion follows (d) Both conclusions I and II follow
+Answer: (d)
+Solution: The trap is to doubt I, but the sharpeners that are erasers cannot be pencils since no pencil is an eraser. Pens sit inside pencils, which are disjoint from erasers, so the answer is both conclusions follow.
+Source: PYQ-style
+
+37. Which of the following diagrams represents the relationship among Car, Engine, Steering Wheel?
+(a) Engine inside Car, Steering Wheel separate (b) Three overlapping circles (c) Car inside Engine, Steering Wheel separate (d) Engine inside Car, Steering Wheel inside Car, no overlap between Engine and Steering Wheel
+Answer: (d)
+Solution: The trap is to keep the steering wheel separate, but it is a part of a car just like the engine. Both are distinct components, so the answer is Engine and Steering Wheel as disjoint circles inside Car.
+Source: PYQ-style
+
+38. In the given figure, triangle = Doctors, rectangle = Surgeons, circle = Females. Numbers: only Doctors=20, only Surgeons=15, only Females=18, Doctors & Surgeons (not Females)=8, Surgeons & Females (not Doctors)=6, Doctors & Females (not Surgeons)=10, all three=5. What is the number of female doctors who are not surgeons?
+(a) 18 (b) 15 (c) 10 (d) 8
+Answer: (c)
+Solution: The trap is to add the central region 5, but those female doctors are also surgeons. The required region is Doctors and Females but not Surgeons, so the answer is 10.
+Source: PYQ-style
+
+39. Statements: Some rivers are lakes. All lakes are ponds. No pond is an ocean. Conclusions: I. Some rivers are ponds. II. No river is an ocean.
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (a)
+Solution: The trap is II, but only the river portion that is lake is barred from being ocean; the rest of the rivers is unrestricted. Some rivers are lakes and all lakes are ponds, so some rivers are ponds, and the answer is only I follows.
+Source: PYQ-style
+
+40. Which Venn diagram best fits Crows, Birds, Mammals?
+(a) Crows inside Birds, Mammals overlapping Birds (b) Crows inside Birds, Mammals inside Birds (c) Crows inside Birds, Mammals overlapping Crows (d) Crows inside Birds, Mammals separate from Birds
+Answer: (d)
+Solution: The trap is to overlap Mammals with Birds, but biologically the two classes are disjoint. All crows are birds, so the answer is Crows inside Birds with Mammals completely separate.
+Source: PYQ-style
+
+41. In a class, 40% students play cricket, 30% play hockey, 20% play both. If total students are 200, how many play neither?
+(a) 50 (b) 100 (c) 80 (d) 60
+Answer: (b)
+Solution: The trap is to add 40% and 30% without removing the overlap. Playing at least one game = 40 + 30 − 20 = 50%, so neither = 50% of 200, and the answer is 100.
+Source: PYQ-style
+
+42. In the Venn diagram, triangle = Employees, square = Graduates, circle = Experienced. Numbers: only Employees=9, only Graduates=11, only Experienced=7, Employees & Graduates (not Experienced)=5, Graduates & Experienced (not Employees)=6, Employees & Experienced (not Graduates)=4, all three=3. How many are graduates but neither employees nor experienced?
+(a) 9 (b) 16 (c) 11 (d) 5
+Answer: (c)
+Solution: The trap is to add the graduate overlap regions, but those graduates are employees or experienced. The required region is only Graduates, so the answer is 11.
+Source: PYQ-style
+
+43. Statements: All fans are coolers. No cooler is a heater. Some heaters are blowers. Conclusions: I. Some blowers are not coolers. II. No fan is a heater.
+(a) Both I and II follow (b) Only I follows (c) Only II follows (d) Neither I nor II follows
+Answer: (a)
+Solution: The trap is to reject I, but the blowers that are heaters cannot be coolers since no cooler is a heater. Fans lie inside coolers, which are disjoint from heaters, so the answer is both follow.
+Source: PYQ-style
+
+44. Choose the diagram for Laptops, Computers, Tablets.
+(a) Laptops inside Computers, Tablets separate (b) Laptops inside Computers, Tablets inside Computers, no overlap (c) Three overlapping circles (d) Laptops inside Computers, Tablets overlapping Computers
+Answer: (b)
+Solution: The trap is to keep Tablets separate, but a tablet is also a type of computer. Laptops and tablets are distinct kinds, so the answer is both as disjoint circles inside Computers.
+Source: PYQ-style
+
+45. In a survey, 60% like milk, 50% like tea, 30% like both. What percentage like at most one?
+(a) 80% (b) 40% (c) 70% (d) 20%
+Answer: (c)
+Solution: The trap is to compute "exactly one" instead of "at most one"; at most one includes those who like neither. At most one = 100% − both = 100% − 30%, so the answer is 70%.
+Source: PYQ-style
+
+46. Statements: All grapes are fruits. Some fruits are sour. No sour thing is sweet. Conclusions: I. Some grapes are sour. II. No grape is sweet.
+(a) Both I and II follow (b) Only I follows (c) Only II follows (d) Neither I nor II follows
+Answer: (d)
+Solution: The trap is I, but the sour fruits need not include any grape. Grapes could also be sweet since nothing forbids non-sour fruits from being sweet, so the answer is neither follows.
+Source: PYQ-style
+
+47. In the Venn diagram, circle A represents those who own a car, circle B those who own a bike, circle C those who own a cycle. Numbers: only A=14, only B=12, only C=16, A∩B only=7, B∩C only=5, A∩C only=8, all three=2. How many own exactly one vehicle?
+(a) 42 (b) 40 (c) 38 (d) 44
+Answer: (a)
+Solution: The trap is to include the pairwise regions, but those people own two vehicles. Exactly one = 14 + 12 + 16, so the answer is 42.
+Source: PYQ-style
+
+48. Which Venn diagram shows Doctors, Engineers, Professionals?
+(a) Doctors and Engineers both inside Professionals, no overlap between Doctors and Engineers (b) All three overlapping (c) Doctors inside Professionals, Engineers separate (d) Professionals inside Doctors, Engineers inside Doctors
+Answer: (a)
+Solution: The trap is to overlap Doctors and Engineers, but as professions they are distinct categories. Both are kinds of professionals, so the answer is two disjoint circles inside Professionals.
+Source: PYQ-style
+
+49. Statements: Some shirts are pants. All pants are clothes. No cloth is a shoe. Conclusions: I. Some shirts are clothes. II. No pant is a shoe.
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (c)
+Solution: The trap is to doubt II, but all pants are clothes and no cloth is a shoe, so pants and shoes are fully disjoint. The shirts that are pants are clothes, so the answer is both follow.
+Source: PYQ-style
+
+50. Statements: All roses are flowers. No flower is a fruit. Some fruits are apples. Conclusions: I. No rose is a fruit. II. Some apples are not flowers.
+(a) Only I follows (b) Both I and II follow (c) Only II follows (d) Neither I nor II follows
+Answer: (b)
+Solution: The trap is to reject II, but the apples that are fruits cannot be flowers since flowers and fruits are disjoint. Roses lie inside flowers, so no rose is a fruit, and the answer is both follow.
+Source: PYQ-style

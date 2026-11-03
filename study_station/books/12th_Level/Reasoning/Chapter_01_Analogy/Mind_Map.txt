@@ -1,0 +1,47 @@
+```mermaid
+graph TD
+    A["सादृश्यता<br>Analogy"] --> B["मूल सिद्धांत<br>Basic Principle"]
+    A --> C["प्रकार<br>Types"]
+    A --> D["समाधान रणनीति<br>Strategy"]
+    A --> E["समय प्रबंधन<br>Time Management"]
+    A --> F["परीक्षक के जाल<br>Common Traps"]
+
+    B --> B1["A : B :: C : ?<br>पहले जोड़े का संबंध = दूसरे जोड़े का संबंध"]
+    B --> B2["संबंध पहचानो, फिर लागू करो<br>Identify relation, then apply"]
+    B --> B3["वाक्य बनाकर जाँचो<br>Test by making a sentence"]
+
+    C --> C1["शब्द सादृश्यता<br>Word Analogy"]
+    C --> C2["संख्या सादृश्यता<br>Number Analogy"]
+    C --> C3["अक्षर सादृश्यता<br>Letter Analogy"]
+    C --> C4["मिश्रित / चित्र आधारित<br>Mixed / Image based"]
+
+    C1 --> C1a["पर्यायवाची / विलोम<br>Synonym / Antonym"]
+    C1 --> C1b["अंश : समग्र<br>Part : Whole"]
+    C1 --> C1c["व्यक्ति : कार्य / उपकरण<br>Person : Work / Tool"]
+    C1 --> C1d["जानवर : बच्चा / आवाज़ / घर<br>Animal : Young one / Sound / Dwelling"]
+    C1 --> C1e["देश : राजधानी / मुद्रा<br>Country : Capital / Currency"]
+    C1 --> C1f["कारण : प्रभाव<br>Cause : Effect"]
+
+    C2 --> C2a["वर्ग / घन ± n<br>Square / Cube ± n"]
+    C2 --> C2b["गुणन / भाग पैटर्न<br>Multiply / Divide pattern"]
+    C2 --> C2c["अंकों का योग / व्युत्क्रम<br>Sum of digits / Reversal"]
+    C2 --> C2d["अभाज्य / सम-विषम श्रृंखला<br>Prime / Even-Odd series"]
+
+    C3 --> C3a["वर्णमाला स्थिति ± n<br>Alphabet position ± n"]
+    C3 --> C3b["विपरीत अक्षर (A-Z, B-Y)<br>Opposite letters"]
+    C3 --> C3c["अक्षरों का क्रम परिवर्तन<br>Letter rearrangement"]
+
+    D --> D1["चरण 1: पहले जोड़े का संबंध पक्का करो<br>Fix relation of first pair"]
+    D --> D2["चरण 2: वही संबंध विकल्पों में खोजो<br>Find same relation in options"]
+    D --> D3["चरण 3: दो विकल्प मिलें तो संबंध और सटीक करो<br>If two match, refine the relation"]
+    D --> D4["क्रम महत्वपूर्ण: A→B जैसा C→?<br>Order matters: A→B so C→?"]
+
+    E --> E1["आसान प्रश्न: 15-20 सेकंड<br>Easy: 15-20 sec"]
+    E --> E2["कठिन प्रश्न: अधिकतम 45 सेकंड<br>Hard: max 45 sec"]
+    E --> E3["संबंध न दिखे तो छोड़ो, बाद में आओ<br>Skip if relation not visible"]
+
+    F --> F1["उल्टा क्रम वाला विकल्प<br>Reversed order option<br>(घड़ी:समय vs समय:घड़ी)"]
+    F --> F2["लगभग-सही संबंध<br>Near-correct relation<br>(पर्याय vs समान श्रेणी)"]
+    F --> F3["आंशिक संबंध वाला विकल्प<br>Partial relation trap"]
+    F --> F4["संख्या में दो नियम मिलें तो<br>सरल नियम चुनो<br>Prefer simpler rule in numbers"]
+```

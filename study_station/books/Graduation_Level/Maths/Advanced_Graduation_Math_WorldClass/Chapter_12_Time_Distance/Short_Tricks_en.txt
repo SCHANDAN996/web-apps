@@ -1,0 +1,219 @@
+# 🪄 Short Tricks — Time & Distance
+
+---
+
+**Trick 1 — "DST: Daddy Sells Tea"**
+```
+┌─────────────────────────────────────────────┐
+│  D = S × T  →  Distance = Speed × Time      │
+│  Cover the one you want in the triangle:    │
+│        D                                    │
+│      -----                                  │
+│     S  ×  T                                 │
+│  Want Speed? Cover S → D/T.                 │
+│  Want Time? Cover T → D/S.                  │
+│  Memory hook: "Daddy Sells Tea" ☕          │
+└─────────────────────────────────────────────┘
+```
+
+---
+
+**Trick 2 — "18-5-18-5: The Conversion Twins"**
+```
+┌─────────────────────────────────────────────┐
+│  km/h → m/s : MULTIPLY by 5/18 (small→big   │
+│               number shrinks, so ×5/18)     │
+│  m/s → km/h : MULTIPLY by 18/5              │
+│  Hook: "Going DOWN to metres? Take the      │
+│  LOW road (5/18). Going UP to km? Take the  │
+│  HIGH road (18/5)." 🛣️                      │
+└─────────────────────────────────────────────┘
+```
+
+---
+
+**Trick 3 — "Same Distance? Flip the Ratio!"**
+```
+┌─────────────────────────────────────────────┐
+│  If distance is constant:                   │
+│  Speed ratio a:b  ⇒  Time ratio b:a         │
+│  Faster = Less time. They SWAP.             │
+│  Hook: "Speed and Time are jealous twins —  │
+│  whatever one gets, the other gets the      │
+│  opposite." 👯                              │
+└─────────────────────────────────────────────┘
+```
+
+---
+
+**Trick 4 — "Average Speed is NOT Average!"**
+```
+┌─────────────────────────────────────────────┐
+│  Equal distances at speeds x and y:         │
+│  Avg speed = 2xy/(x+y)  (Harmonic Mean)     │
+│  NEVER (x+y)/2 — that's the classic trap!   │
+│  Hook: "2xy over x+y — 'Two XYLophones      │
+│  over X+Y'." 🎵                             │
+│  Equal times instead? THEN simple (x+y)/2.  │
+└─────────────────────────────────────────────┘
+```
+
+---
+
+**Trick 5 — "Trains Eat Poles, Bridges, and Trains"**
+```
+┌─────────────────────────────────────────────┐
+│  Train crossing a POLE/man: distance =      │
+│      train's own length only                │
+│  Train crossing a BRIDGE/platform:          │
+│      distance = train length + bridge length│
+│  Train crossing another TRAIN:              │
+│      distance = L1 + L2                     │
+│  Hook: "A pole is a toothpick (just me),    │
+│  a bridge is a meal (me + it), a train is   │
+│  a feast (both of us)." 🍽️                  │
+└─────────────────────────────────────────────┘
+```
+
+---
+
+**Trick 6 — "Opposite ADD, Same SUBTRACT" (OASS)**
+```
+┌─────────────────────────────────────────────┐
+│  Relative speed:                            │
+│  Opposite directions → ADD speeds           │
+│  Same direction      → SUBTRACT speeds      │
+│  Hook: "OASS — Opposite Attracts, Same      │
+│  Separates." Magnets! 🧲                    │
+└─────────────────────────────────────────────┘
+```
+
+---
+
+**Trick 7 — "Boat: Down is a PLUS, Up is a MINUS"**
+```
+┌─────────────────────────────────────────────┐
+│  Downstream speed = boat + stream (b + s)   │
+│  Upstream speed   = boat − stream (b − s)   │
+│  Boat in still water = (Down + Up)/2        │
+│  Stream speed        = (Down − Up)/2        │
+│  Hook: "The river HELPS you down, FIGHTS    │
+│  you up. Boat is the AVERAGE of the two     │
+│  trips; stream is HALF the quarrel." 🚤     │
+└─────────────────────────────────────────────┘
+```
+
+---
+
+**Trick 8 — "Circular Track: LCM is the Meeting Bell"**
+```
+┌─────────────────────────────────────────────┐
+│  Two runners on a circular track meet at    │
+│  the STARTING POINT after:                  │
+│      LCM of their individual lap times      │
+│  Meet ANYWHERE on track (opposite dir):     │
+│      Track length ÷ (sum of speeds)         │
+│  Hook: "LCM rings the reunion bell at the   │
+│  start line." 🔔                            │
+└─────────────────────────────────────────────┘
+```
+
+---
+
+**Trick 9 — "Late-Early? Multiply and Divide by the Gap"**
+```
+┌─────────────────────────────────────────────┐
+│  At speed S1 he's LATE by t1; at S2 he's    │
+│  EARLY by t2. Distance to office:           │
+│      D = (S1 × S2)/(S2 − S1) × (t1 + t2)    │
+│  Hook: "Product over difference, times the  │
+│  TOTAL confusion (late + early)." ⏰        │
+└─────────────────────────────────────────────┘
+```
+
+---
+
+**Trick 10 — "Stoppage: The Lazy Hour"**
+```
+┌─────────────────────────────────────────────┐
+│  A train's speed with stoppages vs without: │
+│  Stoppage time per hour =                   │
+│   (Difference of speeds / Speed WITHOUT     │
+│    stoppage) × 60 minutes                   │
+│  Hook: "How much of each hour did the train │
+│  NAP? Gap ÷ Full speed × 60." 😴            │
+└─────────────────────────────────────────────┘
+```
+
+---
+
+**Trick 11 — "Escalator: Steps Are Distance"**
+```
+┌─────────────────────────────────────────────┐
+│  Treat visible steps as DISTANCE.           │
+│  Walking WITH moving escalator: speeds add  │
+│  Walking AGAINST it: speeds subtract        │
+│  (Exactly the boat-stream logic!)           │
+│  Hook: "Escalator = a river made of         │
+│  stairs." 🪜🌊                              │
+└─────────────────────────────────────────────┘
+```
+
+---
+
+**Trick 12 — "Two Trains, Two Times: Root of the Product"**
+```
+┌─────────────────────────────────────────────┐
+│  Two trains start towards each other from   │
+│  A and B; after meeting they take t1 and    │
+│  t2 hours to reach the opposite ends.       │
+│      Speed ratio = √t2 : √t1                │
+│  Hook: "After the handshake, speeds hide    │
+│  in SQUARE ROOTS — flipped!" 🤝√            │
+└─────────────────────────────────────────────┘
+```
+
+---
+
+**Trick 13 — "Races: Beats-by = Head-Start Math"**
+```
+┌─────────────────────────────────────────────┐
+│  "A beats B by x metres" means: when A      │
+│  finishes, B is x metres behind.            │
+│  Speed ratio A:B = L : (L − x)              │
+│  (L = race length)                          │
+│  Hook: "The loser's leftover metres are     │
+│  the KEY to both speeds." 🏁                │
+└─────────────────────────────────────────────┘
+```
+
+---
+
+**Trick 14 — "The 60-Second Unit Check"**
+```
+┌─────────────────────────────────────────────┐
+│  Before solving, chant:                     │
+│  "km with hours, metres with seconds!"      │
+│  Mixed units cause many silly errors.       │
+│  Convert FIRST, calculate SECOND.           │
+│  Hook: "Dress every number in matching      │
+│  clothes before the party." 👔              │
+└─────────────────────────────────────────────┘
+```
+
+---
+
+**Trick 15 — "MASTER Acronym: D-S-T-R-B-C"**
+```
+┌─────────────────────────────────────────────┐
+│  The whole chapter in one word — "DSTRBC":  │
+│  D = Distance basics (D = S×T)              │
+│  S = Speed conversion (5/18, 18/5)          │
+│  T = Trains (lengths add)                   │
+│  R = Relative speed (OASS)                  │
+│  B = Boats (down +, up −)                   │
+│  C = Circular tracks (LCM bell)             │
+│  Hook: "DiSTRiBution Centre delivers the    │
+│  whole chapter!" 📦                         │
+└─────────────────────────────────────────────┘
+```

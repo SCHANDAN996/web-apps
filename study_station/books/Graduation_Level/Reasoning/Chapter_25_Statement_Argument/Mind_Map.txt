@@ -1,0 +1,28 @@
+```mermaid
+graph TD
+    A["कथन और तर्क<br>Statement & Argument"] --> B["मज़बूत तर्क<br>Strong Argument"]
+    A --> C["कमज़ोर तर्क<br>Weak Argument"]
+    A --> D["विधि<br>3-Step Method"]
+    A --> E["सुझाया समय<br>Suggested: 15 s reading,<br>45 s solving"]
+    A --> F["जाल<br>Examiner's Traps"]
+
+    B --> B1["सीधा संबंध<br>Related"]
+    B --> B2["महत्वपूर्ण<br>Important"]
+    B --> B3["सामान्य सत्य<br>Generally True"]
+    B --> B4["तार्किक<br>Logical"]
+
+    C --> C1["अतिशयोक्ति: only, all<br>Superlative"]
+    C --> C2["असंबद्ध<br>Irrelevant"]
+    C --> C3["एक उदाहरण / परंपरा<br>Mere Example"]
+    C --> C4["व्यक्तिगत / तुच्छ<br>Personal"]
+    C --> C5["तर्क में कमी<br>Logic Gap"]
+    C --> C6["दोहराव<br>Tautology"]
+
+    D --> D1["कदम पढ़ें<br>Read the Step"]
+    D --> D2["चार जाँचें<br>Four Tests"]
+    D --> D3["SIMPLE-T शब्द देखें<br>Check Words"]
+
+    F --> F1["अपनी राय<br>Personal Opinion"]
+    F --> F2["भावनात्मक तर्क<br>Emotional Argument"]
+    F --> F3["दोनों मज़बूत छूट जाना<br>Both Strong Missed"]
+```

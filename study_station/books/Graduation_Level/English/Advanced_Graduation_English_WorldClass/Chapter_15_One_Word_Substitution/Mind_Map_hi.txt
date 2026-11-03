@@ -1,0 +1,43 @@
+```mermaid
+graph TD
+    A["एक शब्द प्रतिस्थापन<br>One-word Substitution"] --> B["मूल शब्द रणनीति<br>Root Strategy"]
+    A --> C["प्रमुख श्रेणियाँ<br>Categories"]
+    A --> D["परीक्षक के जाल<br>Examiner Traps"]
+    A --> E["परीक्षा रणनीति<br>Exam Strategy"]
+
+    B --> B1["ग्रीक/लैटिन मूल<br>Roots"]
+    B1 --> B1a["auto = स्वयं<br>Autobiography"]
+    B1 --> B1b["phobia = भय<br>Claustrophobia"]
+    B1 --> B1c["cide = हत्या<br>Homicide"]
+    B1 --> B1d["phile = प्रेमी<br>Bibliophile"]
+    B1 --> B1e["logy = विद्या<br>Biology"]
+    B1 --> B1f["cracy = शासन<br>Democracy"]
+
+    C --> C1["व्यक्ति/लोग<br>People"]
+    C1 --> C1a["Optimist = आशावादी"]
+    C1 --> C1b["Philanthropist = परोपकारी"]
+    C --> C2["भय/मनोविकार<br>Fears"]
+    C2 --> C2a["Hydrophobia = जल से भय"]
+    C --> C3["शासन/व्यवस्था<br>Government"]
+    C3 --> C3a["Monarchy = राजतंत्र"]
+    C3 --> C3b["Bureaucracy = नौकरशाही"]
+    C --> C4["हत्या/मृत्यु<br>Killing"]
+    C4 --> C4a["Regicide = राजा की हत्या"]
+    C4 --> C4b["Suicide = आत्महत्या"]
+    C --> C5["लेखन/भाषा<br>Writing"]
+    C5 --> C5a["Biography = जीवनी"]
+    C5 --> C5b["Epilogue = उपसंहार"]
+
+    D --> D1["मिलते-जुलते शब्द<br>Similar Words"]
+    D1 --> D1a["Biography vs Autobiography"]
+    D1 --> D1b["Optimist vs Pessimist"]
+    D --> D2["वर्तनी भ्रम<br>Spelling Confusion"]
+    D2 --> D2a["Entrepreneur की वर्तनी"]
+    D --> D3["अर्थ का सूक्ष्म अंतर<br>Subtle Meaning"]
+    D3 --> D3a["Amateur vs Novice"]
+
+    E --> E1["15 सेकंड नियम<br>तथ्यात्मक प्रश्न"]
+    E --> E2["45 सेकंड नियम<br>संदर्भ-आधारित प्रश्न"]
+    E --> E3["Skip Strategy<br>अनजान root दिखे तो छोड़ें"]
+    E --> E4["Elimination<br>गलत विकल्प हटाओ"]
+```

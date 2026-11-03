@@ -1,0 +1,34 @@
+```mermaid
+graph TD
+    A["क्रियाविशेषण (Adverb)"] --> B["परिभाषा<br>क्रिया, विशेषण या दूसरे<br>क्रियाविशेषण की विशेषता बताता है"]
+    A --> C["प्रकार"]
+    A --> D["महत्वपूर्ण नियम"]
+    A --> E["परीक्षक के जाल"]
+    A --> F["रणनीति"]
+
+    C --> C1["रीति (Manner)<br>slowly, well, fast"]
+    C --> C2["स्थान (Place)<br>here, there, everywhere"]
+    C --> C3["समय (Time)<br>now, yesterday, soon"]
+    C --> C4["आवृत्ति (Frequency)<br>always, often, seldom"]
+    C --> C5["मात्रा (Degree)<br>very, too, quite, almost"]
+    C --> C6["वाक्य-क्रियाविशेषण<br>(Sentence Adverb)<br>fortunately, obviously"]
+
+    D --> D1["क्रिया + क्रियाविशेषण<br>He sings well (✓)<br>He sings good (✗)"]
+    D --> D2["Linking Verb + विशेषण<br>She looks happy (✓)<br>She looks happily (✗)"]
+    D --> D3["Enough का स्थान<br>विशेषण/क्रियाविशेषण के बाद<br>good enough, fast enough"]
+    D --> D4["Hard ≠ Hardly<br>hard = कठिन परिश्रम<br>hardly = मुश्किल से"]
+    D --> D5["Late ≠ Lately<br>late = देर से<br>lately = हाल ही में"]
+    D --> D6["Only का स्थान<br>अर्थ बदलता है —<br>जिसे modify करे उसके पास रखें"]
+    D --> D7["आवृत्ति क्रियाविशेषण<br>मुख्य क्रिया से पहले<br>be-verb के बाद"]
+    D --> D8["Very vs Much<br>very + विशेषण<br>much + comparative/भूतकृदन्त"]
+
+    E --> E1["Sound-Right जाल<br>'He did good' सुनने में<br>ठीक लगता है, पर गलत"]
+    E --> E2["Fast/Fastly जाल<br>'fastly' शब्द ही नहीं है"]
+    E --> E3["Too का नकारात्मक अर्थ<br>'too hot to drink' =<br>पीने लायक नहीं"]
+    E --> E4["Double Negative जाल<br>'He hardly knows nothing' (✗)"]
+
+    F --> F1["15 सेकंड नियम<br>तथ्यात्मक: रूप पहचान<br>(hard/hardly, good/well)"]
+    F --> F2["45 सेकंड नियम<br>तार्किक: only का स्थान,<br>वाक्य में अर्थ-बदलाव"]
+    F --> F3["Skip Strategy<br>दो विकल्प लगभग समान हों<br>और समय कम हो तो छोड़ें"]
+    F --> F4["Mnemonic: MPTFD<br>Manner-Place-Time-<br>Frequency-Degree"]
+```

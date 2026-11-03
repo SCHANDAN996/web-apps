@@ -1,0 +1,134 @@
+# 📊 PYQ Analysis — Fractions & Decimals
+
+## How Exams Test This Chapter
+
+Fractions and decimals rarely appear as "pure" questions in advanced exams. Instead, they hide inside word problems, data interpretation, and approximation questions. Understanding the *pattern* of how examiners frame them is worth more than memorising formulas.
+
+### The recurring question types
+
+**1. Fraction-of-a-remainder chains (very frequent)**
+"A man spends 1/3 of his money on food, then 1/4 of the *remainder* on travel..." The trap: each fraction applies to what is *left*, not the original amount. UPSC CSAT and SSC CGL love this because candidates who rush apply every fraction to the starting value.
+
+**2. Comparing fractions quickly**
+"Which is the largest: 7/9, 11/13, 4/5, 13/17?" Tests cross-multiplication speed or decimal conversion. CAT and IBPS PO use this inside approximation sets.
+
+**3. Decimal place-value and operations**
+Questions on 0.1 + 0.01 + 0.001 type sums, or "by how much does X exceed Y" with decimals. The trap is misaligned place values — 0.5 − 0.05 is not 0.
+
+**4. Recurring decimals to fractions**
+Convert 0.363636... or 2.1̄6̄ to p/q form. Direct formula questions appear in SSC and banking exams regularly.
+
+**5. Fraction-based ratio and mixture problems**
+"If 2/5 of A equals 3/7 of B, find A : B." Cross-multiply and invert — a classic that feeds into ratio chapters.
+
+**6. "A fraction becomes..." algebra**
+"When the numerator of a fraction is increased by 2 and the denominator by 1, it becomes 1/2..." Set up two equations. The trap is swapping numerator/denominator conditions.
+
+**7. Approximation with decimal operations (IBPS PO / SBI PO)**
+"(24.98 × 4.03) ÷ 7.99 ≈ ?" Round to friendly numbers. Speed matters more than precision.
+
+**8. Unit-digit / last-digit of decimal expansions and powers**
+Less common, but appears in CAT-style number system questions.
+
+### The examiner's favourite traps
+
+- **"Of the remainder"** — the single most exploited phrase. Every fraction after the first applies to a shrinking base.
+- **Nearly-correct options** — if the answer is 5/12, expect 7/12 and 5/13 among the options. One arithmetic slip lands you on a wrong option that *looks* right.
+- **Order confusion** — "A is 2/3 of B" means A = (2/3)B, so A : B = 2 : 3. Candidates routinely invert this.
+- **Recurring decimal notation** — 0.2̄3̄ (both digits repeat) vs 0.23̄ (only 3 repeats) give different fractions: 23/99 vs 21/90.
+- **Negative phrasing** — "which is NOT the smallest" forces you to rank all options, not stop at the first.
+
+---
+
+## Top 10 High-Yield Questions (with Solutions)
+
+**Q1.** A man spends 1/3 of his salary on rent, 1/4 of the remainder on food, and 1/5 of what still remains on travel. He is left with ₹4,800. Find his salary.
+(a) ₹10,000 (b) ₹12,000 (c) ₹15,000 (d) ₹18,000
+
+**Answer: (b)**
+**Solution:** Remaining fraction = (2/3) × (3/4) × (4/5) = 24/60 = 2/5. So (2/5) × Salary = 4800 → Salary = 4800 × 5/2 = ₹12,000.
+**Trap:** Applying 1/4 and 1/5 to the original salary gives a wrong "nice" answer that is usually present in the options.
+**Source:** PYQ-style (SSC CGL pattern)
+
+**Q2.** Which of the following fractions is the largest?
+(a) 7/9 (b) 11/13 (c) 4/5 (d) 13/17
+
+**Answer: (b)**
+**Solution:** Convert: 7/9 ≈ 0.778, 11/13 ≈ 0.846, 4/5 = 0.800, 13/17 ≈ 0.765. Largest is 11/13.
+**Trap:** 4/5 looks big because of the small denominator; 13/17 looks big because of the large numerator. Neither wins.
+**Source:** PYQ-style (Banking exam pattern)
+
+**Q3.** Express 0.232323... as a fraction in lowest terms.
+(a) 23/99 (b) 23/100 (c) 21/90 (d) 23/90
+
+**Answer: (a)**
+**Solution:** Two digits repeat, so denominator = 99: 0.2323... = 23/99. It is already in lowest terms.
+**Trap:** Option (c) 21/90 is the answer for 0.23̄ (only 3 repeating) — a deliberate distractor.
+**Source:** NCERT Class 9 Mathematics (Number Systems)
+
+**Q4.** If 3/5 of a number exceeds its 2/7 by 44, find the number.
+(a) 70 (b) 105 (c) 140 (d) 210
+
+**Answer: (c)**
+**Solution:** (3/5 − 2/7) × N = 44 → (21 − 10)/35 × N = 44 → N = 44 × 35/11 = 140.
+**Trap:** Subtracting the fractions wrongly (3/5 − 2/7 = 1/2 is a common blunder) leads to 88 — often planted as an option.
+**Source:** PYQ-style (SSC pattern)
+
+**Q5.** The value of 0.2 + 0.22 + 0.222 is:
+(a) 0.642 (b) 0.622 (c) 0.644 (d) 0.624
+
+**Answer: (a)**
+**Solution:** Align place values: 0.200 + 0.220 + 0.222 = 0.642.
+**Trap:** Treating them as 2 + 22 + 222 = 246 and placing the decimal carelessly gives 0.246 or 2.46.
+**Source:** PYQ-style (SSC CHSL pattern)
+
+**Q6.** When the numerator of a fraction is increased by 2 and the denominator by 1, it becomes 1/2. When the numerator is decreased by 2 and the denominator increased by 1, it becomes 1/3. Find the original fraction.
+(a) 10/23 (b) 8/21 (c) 12/25 (d) 7/19
+
+**Answer: (a)**
+**Solution:** Let the fraction be x/y. (x+2)/(y+1) = 1/2 → 2x + 4 = y + 1 → y = 2x + 3. And (x−2)/(y+1) = 1/3 → 3x − 6 = y + 1 → y = 3x − 7. Setting equal: 2x + 3 = 3x − 7 → x = 10, y = 23. Fraction = 10/23. Check: (10+2)/(23+1) = 12/24 = 1/2 ✓; (10−2)/(23+1) = 8/24 = 1/3 ✓.
+**Trap:** Swapping the two conditions (applying the numerator change to the denominator equation) produces a consistent-looking but wrong pair of equations. When in doubt, substitute the options back — it is often faster than solving.
+**Source:** PYQ-style (classic fraction-algebra pattern)
+
+**Q7.** If 2/3 of A = 4/5 of B, then A : B is:
+(a) 5 : 6 (b) 6 : 5 (c) 3 : 5 (d) 5 : 3
+
+**Answer: (b)**
+**Solution:** (2/3)A = (4/5)B → A/B = (4/5) × (3/2) = 12/10 = 6/5. So A : B = 6 : 5.
+**Trap:** Writing A : B = 2/3 : 4/5 and then forgetting to invert — the most common error in this type.
+**Source:** PYQ-style (Banking/SSC pattern)
+
+**Q8.** The value of (0.75 × 0.75 − 0.25 × 0.25) / (0.75 − 0.25) is:
+(a) 0.5 (b) 1.0 (c) 0.25 (d) 1.5
+
+**Answer: (b)**
+**Solution:** Numerator is a² − b² = (a−b)(a+b). So the expression = a + b = 0.75 + 0.25 = 1.0.
+**Trap:** Computing 0.5625 − 0.0625 = 0.5 and forgetting to divide by 0.5 — option (a) is planted exactly for this.
+**Source:** PYQ-style (SSC CGL pattern)
+
+**Q9.** Approximate value: (15.96 × 4.04) ÷ 8.02 ≈ ?
+(a) 6 (b) 8 (c) 10 (d) 12
+
+**Answer: (b)**
+**Solution:** Round: 16 × 4 = 64; 64 ÷ 8 = 8.
+**Trap:** Rounding 15.96 down to 15 and 4.04 to 4 gives 60/8 = 7.5, tempting you toward a wrong nearest option. Round to the *nearest* friendly number, not always downward.
+**Source:** PYQ-style (IBPS PO approximation pattern)
+
+**Q10.** A student was asked to multiply a number by 3/5, but multiplied by 5/3 instead. The result was 640 more than the correct answer. Find the number.
+(a) 300 (b) 360 (c) 400 (d) 600
+
+**Answer: (d)**
+**Solution:** Error = (5/3 − 3/5) × N = (25 − 9)/15 × N = (16/15)N = 640 → N = 640 × 15/16 = 600.
+**Trap:** Taking the difference as 5/3 + 3/5, or computing 16/15 as 15/16 and inverting the final step.
+**Source:** PYQ-style (UPSC CSAT / SSC pattern)
+
+---
+
+## Key Takeaways for Exam Day
+
+1. **Chain problems:** multiply the *remaining* fractions — (1 − f₁)(1 − f₂)(1 − f₃) — never subtract from the original.
+2. **Comparing fractions:** cross-multiply the pair; the bigger product sits on the side of the bigger fraction.
+3. **Recurring decimals:** n repeating digits → denominator of n nines; mixed → nines followed by zeros.
+4. **"A is p/q of B":** write the equation first, ratio second. Inversion errors kill more marks than calculation errors.
+5. **Approximation:** round to the nearest friendly number, and only at the end — never mid-calculation.
+6. **Verify by substitution:** in "a fraction becomes..." problems, plug the options back — it is often faster than solving two equations.

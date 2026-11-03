@@ -1,0 +1,151 @@
+Questions 76–100: Medium
+
+76. If the letters of the English alphabet are written in reverse order, which letter will be 10th to the right of the letter that is 5th from the left end?
+(a) M (b) K (c) J (d) L
+Answer: (d)
+Solution: The trap is adding 10 + 5 = 15 and answering O, the 15th letter of the normal alphabet, forgetting the series is reversed. In the reversed series the 5th letter from the left is V, and 10 places further right is the 15th letter of the reversed series, i.e. the 27 − 15 = 12th letter of the normal alphabet, so the answer is L.
+Source: PYQ-style
+
+77. How many pairs of letters in the word "TEACHER" have as many letters between them in the word as in the English alphabet?
+(a) Three (b) Four (c) One (d) Two
+Answer: (a)
+Solution: The trap is checking pairs only in the forward direction and missing the pair formed by the second E. Checking every pair in both directions, the matching pairs are E–C (positions 2 and 4), E–H (positions 2 and 5) and C–E (positions 4 and 6), so the answer is Three.
+Source: PYQ-style
+
+78. Which letter is exactly midway between the 9th letter from the left and the 8th letter from the right in the English alphabet?
+(a) M (b) O (c) N (d) P
+Answer: (c)
+Solution: The trap is treating "8th from right" as position 8 from the left. The 9th letter from the left is I (position 9) and the 8th from the right is 27 − 8 = 19th from the left, i.e. S; midway between positions 9 and 19 is position 14, so the answer is N.
+Source: PYQ-style
+
+79. If the first half of the alphabet (A to M) is written in reverse order and the second half is kept unchanged, which letter will be 4th to the left of the 10th letter from the right end?
+(a) A (b) M (c) B (d) N
+Answer: (a)
+Solution: The trap is reversing the whole alphabet instead of only the first half. The new series is M L K J I H G F E D C B A N O P Q R S T U V W X Y Z; the 10th letter from the right is Q, and moving 4 places left gives P, O, N, A, so the answer is A.
+Source: PYQ-style
+
+80. In the word "KNOWLEDGE", how many letters remain in the same position when the letters are arranged in alphabetical order?
+(a) One (b) Two (c) None (d) Three
+Answer: (c)
+Solution: The trap is mis-sorting the repeated E and assuming a match. Alphabetical order of KNOWLEDGE is D, E, E, G, K, L, N, O, W, and comparing position by position with K, N, O, W, L, E, D, G, E, no letter stays in its original place, so the answer is None.
+Source: PYQ-style
+
+81. What is the 15th letter of the alphabet when counted from the right end?
+(a) N (b) K (c) M (d) L
+Answer: (d)
+Solution: The trap is counting Z as position 0 while counting backward, which lands on M. The 15th letter from the right is the 27 − 15 = 12th letter from the left, so the answer is L.
+Source: PYQ-style
+
+82. If A = 1, B = 2, … Z = 26, what is the sum of the letter values of the word "CAB"?
+(a) 6 (b) 7 (c) 5 (d) 8
+Answer: (a)
+Solution: The trap is misreading B's value as 3 and getting 7. C = 3, A = 1 and B = 2, so the sum is 3 + 1 + 2, and the answer is 6.
+Source: PYQ-style
+
+83. Which of the following words will come third in a dictionary?
+(a) Mango (b) Master (c) Magnet (d) Market
+Answer: (d)
+Solution: The trap is comparing only the first two letters, where all four words tie at "Ma". Comparing the third letters g, n, r, s, the dictionary order is Magnet, Mango, Market, Master, so the answer is Market.
+Source: PYQ-style
+
+84. How many meaningful English words can be formed using the letters E, A, T (each used once)?
+(a) Five (b) Three (c) Four (d) Two
+Answer: (b)
+Solution: The trap is counting arrangements like "TAE", which is not a standard English word. The meaningful words are EAT, TEA and ATE, so the answer is Three.
+Source: PYQ-style
+
+85. If every alternate letter starting from B is removed from the alphabet, which letter will be the 7th in the remaining series?
+(a) N (b) M (c) O (d) L
+Answer: (b)
+Solution: The trap is deleting A, C, E … instead, which starts the removal from the wrong letter and gives N. Removing B, D, F, H, J, L, N, P, R, T, V, X, Z leaves A, C, E, G, I, K, M, O, Q, S, U, W, Y, whose 7th letter is M, so the answer is M.
+Source: PYQ-style
+
+86. In a certain code, the alphabet is reversed (A↔Z, B↔Y, …). What is the code for the letter G?
+(a) S (b) V (c) T (d) U
+Answer: (c)
+Solution: The trap is subtracting from 26 instead of 27, which wrongly gives U. G is the 7th letter, and its reverse counterpart is the 27 − 7 = 20th letter, so the answer is T.
+Source: PYQ-style
+
+87. Find the missing letter in the series: C, F, I, L, ?
+(a) N (b) O (c) P (d) Q
+Answer: (b)
+Solution: The trap is assuming a +2 pattern from the consecutive-looking letters, which gives N. Each term advances by 3 positions: C(3), F(6), I(9), L(12), so the next is position 15, and the answer is O.
+Source: PYQ-style
+
+88. Find the missing letter in the series: Z, X, V, T, ?
+(a) Q (b) R (c) S (d) P
+Answer: (b)
+Solution: The trap is reducing the gap to 1 at the last step and answering S. The letters decrease by 2 each time: Z(26), X(24), V(22), T(20), so the next is position 18, and the answer is R.
+Source: PYQ-style
+
+89. Find the missing letter in the series: A, C, F, J, O, ?
+(a) U (b) V (c) T (d) S
+Answer: (a)
+Solution: The trap is keeping a constant +5 gap, which gives T. The gaps grow by 1 each time: +2, +3, +4, +5, so the next gap is +6 and O(15) + 6 = 21, making the answer U.
+Source: PYQ-style
+
+90. Find the missing letter in the series: B, E, H, K, N, ?
+(a) Q (b) P (c) R (d) O
+Answer: (a)
+Solution: The trap is adding only 2 at the last step and answering P. Each term advances by 3: B(2), E(5), H(8), K(11), N(14), so the next is position 17, and the answer is Q.
+Source: PYQ-style
+
+91. If the word "PLANT" is coded by shifting each letter 2 places forward, what is the code?
+(a) RNBOV (b) RNCPW (c) QNCPV (d) RNCPV
+Answer: (d)
+Solution: The trap is shifting the last letter by 3 (T+3 = W), which produces the tempting RNCPW. Shifting each letter by exactly 2 gives P→R, L→N, A→C, N→P, T→V, so the answer is RNCPV.
+Source: PYQ-style
+
+92. Which letter will be the 6th to the right of the 13th letter from the left in the English alphabet?
+(a) S (b) R (c) T (d) Q
+Answer: (a)
+Solution: The trap is counting M itself as the first step, which gives R. The 13th letter from the left is M, and 6 places to its right is position 13 + 6 = 19, so the answer is S.
+Source: PYQ-style
+
+93. How many vowels in the word "EDUCATION" are immediately followed by a consonant?
+(a) Four (b) Three (c) Five (d) Two
+Answer: (a)
+Solution: The trap is overlooking that I is followed by another vowel and counting all five vowels. E is followed by D, U by C, A by T and O by N — all consonants — while I is followed by O, so the answer is Four.
+Source: PYQ-style
+
+94. If the letters of the word "DANGER" are rearranged to form a meaningful word related to a place, which letter comes first in that word?
+(a) D (b) R (c) G (d) A
+Answer: (c)
+Solution: The trap is forming "RANGED", which is a verb, not a place. DANGER rearranged gives GARDEN, which is a place, so the answer is G.
+Source: PYQ-style
+
+95. In the series A, Z, B, Y, C, X, ?, what comes next?
+(a) C (b) W (c) V (d) D
+Answer: (d)
+Solution: The trap is continuing the reverse series and answering W, which would be the 8th term. Two interleaved series run together: A, B, C, D … forward and Z, Y, X, W … backward, and the 7th term belongs to the forward series, so the answer is D.
+Source: PYQ-style
+
+96. Which letter is 7th to the left of the 20th letter from the left end of the English alphabet?
+(a) N (b) O (c) M (d) L
+Answer: (c)
+Solution: The trap is counting T itself as the first step leftward, which gives N. The 20th letter from the left is T, and 7 places to its left is position 20 − 7 = 13, so the answer is M.
+Source: PYQ-style
+
+97. If the word "MIRROR" is written in reverse and then each letter is shifted one place forward, what is the result?
+(a) SPSSJM (b) SQSSJN (c) SPSSIN (d) SPSSJN
+Answer: (d)
+Solution: The trap is shifting before reversing, which scrambles the letter order. MIRROR reversed is RORRIM, and shifting each letter one place forward gives S, P, S, S, J, N, so the answer is SPSSJN.
+Source: PYQ-style
+
+98. Which group of letters is different from the others?
+(a) BDF (b) AEG (c) MOQ (d) GIK
+Answer: (b)
+Solution: The trap is checking only the gap pattern, which is +2, +2 in all four groups. BDF, GIK and MOQ contain no vowel, while AEG contains two vowels (A and E), so the answer is AEG.
+Source: PYQ-style
+
+99. If A is coded as Z, B as Y, and so on, how is "DOG" coded?
+(a) WLU (b) WLT (c) XLT (d) WMT
+Answer: (b)
+Solution: The trap is using 26 − n instead of 27 − n, which shifts every letter one place off. D is the 4th letter → 27 − 4 = 23 = W; O is 15th → 12 = L; G is 7th → 20 = T, so the answer is WLT.
+Source: PYQ-style
+
+100. Find the missing term in the series: AB, DE, GH, JK, ?
+(a) NO (b) LM (c) MN (d) KL
+Answer: (c)
+Solution: The trap is simply continuing with the next consecutive pair KL and ignoring the +3 jump between pairs. Each pair advances by 3 letters: AB (1,2), DE (4,5), GH (7,8), JK (10,11), so the next pair starts at 13 = M, and the answer is MN.
+Source: PYQ-style

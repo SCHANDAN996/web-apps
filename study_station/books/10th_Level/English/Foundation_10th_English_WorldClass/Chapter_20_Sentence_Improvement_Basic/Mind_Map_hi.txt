@@ -1,0 +1,39 @@
+```mermaid
+graph TD
+    A["वाक्य सुधार<br>Sentence Improvement"] --> B["मूल अवधारणा"]
+    A --> C["12 स्वर्ण नियम"]
+    A --> D["परीक्षक के जाल"]
+    A --> E["रणनीति"]
+    A --> F["हिंदी-अंग्रेज़ी पुल"]
+
+    B --> B1["गलत भाग पहचानो"]
+    B --> B2["सही विकल्प चुनो"]
+    B --> B3["No Improvement<br>भी उत्तर हो सकता है"]
+
+    C --> C1["Subject-Verb Agreement<br>कर्ता-क्रिया मेल"]
+    C --> C2["Tense की एकरूपता"]
+    C --> C3["Article: a/an/the"]
+    C --> C4["Preposition का सही प्रयोग"]
+    C --> C5["Pronoun का Case"]
+    C --> C6["Singular/Plural Noun"]
+    C --> C7["Comparative/Superlative<br>than, the"]
+    C --> C8["Parallel Structure<br>समानांतर रचना"]
+    C --> C9["Redundancy<br>दोहराव हटाओ"]
+    C --> C10["Question Word Order<br>Verb पहले"]
+    C --> C11["Since/For का फर्क"]
+    C --> C12["Gerund vs Infinitive"]
+
+    D --> D1["Intervening Phrase<br>कर्ता और क्रिया के बीच का वाक्यांश"]
+    D --> D2["Sound-Right जाल<br>सुनने में सही, नियम में गलत"]
+    D --> D3["Collective Noun<br>Team is / Team are"]
+    D --> D4["Over-thinking<br>सही वाक्य को बदल देना"]
+
+    E --> E1["15 सेकंड नियम<br>तथ्यात्मक प्रश्न"]
+    E --> E2["45 सेकंड नियम<br>तार्किक प्रश्न"]
+    E --> E3["पहले वाक्य पढ़ो<br>फिर विकल्प जाँचो"]
+    E --> E4["Skip Strategy<br>शक हो तो छोड़ो"]
+
+    F --> F1["हिंदी: तुम क्या कर रहे हो?<br>गलत: What you are doing?"]
+    F --> F2["सही: What are you doing?<br>प्रश्न में Verb पहले"]
+    F --> F3["हिंदी में लिंग-वचन<br>अंग्रेज़ी में He/She/It"]
+```

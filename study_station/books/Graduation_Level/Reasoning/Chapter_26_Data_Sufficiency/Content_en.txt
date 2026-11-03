@@ -1,0 +1,170 @@
+# Data Sufficiency — The Chapter That Tests Your Judgement, Not Your Calculation
+
+## 1. Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+- Understand what a Data Sufficiency (DS) question is really asking.
+- Master the standard 5-option answer framework used in Banking and SSC exams.
+- Decide **sufficiency without solving** — the single biggest time-saver in reasoning.
+- Spot the examiner's favourite traps: hidden assumptions, combined statements, and "looks sufficient but isn't" data.
+- Build a personal 30-second decision routine for every DS question.
+
+---
+
+## 2. The Hook: The Question That Doesn't Want an Answer
+
+Imagine a shopkeeper asks you: *"Do you have enough money to buy this pen?"*
+
+You check your pocket. You have ₹50. The pen costs ₹20.
+
+Now — did you need to **buy** the pen to answer his question? No. You only needed to know whether your money was **enough**.
+
+That is the entire soul of Data Sufficiency. The question never asks *"What is the answer?"* It asks: *"Can the answer be found from the given information?"* Students who start calculating have already lost 40 seconds. Students who only **check sufficiency** finish in 20.
+
+---
+
+## 3. The Common Struggle (And Why It's Normal)
+
+Almost every aspirant makes the same three mistakes on first contact with DS:
+
+1. **Solving the full problem** instead of stopping at "yes, it can be solved."
+2. **Assuming extra information** — e.g., assuming a number is positive, or a figure is drawn to scale.
+3. **Mixing the statements** before checking each one alone.
+
+If you've done any of these, congratulations — you're human. This chapter rewires exactly these three habits.
+
+---
+
+## 4. The Standard Format
+
+A DS question has three parts:
+
+- **The Question** — e.g., "What is the value of x?"
+- **Statement I** and **Statement II** — two pieces of information.
+- **The Options** — usually:
+
+> **(a)** Statement I alone is sufficient, but II alone is not.
+> **(b)** Statement II alone is sufficient, but I alone is not.
+> **(c)** Either statement alone is sufficient.
+> **(d)** Both statements together are needed (neither alone suffices).
+> **(e)** Even both together are not sufficient.
+
+🧠 **Active Recall:** Close the book. Write the five options from memory. Which option means "each statement works independently"? (Answer: (c).)
+
+---
+
+## 5. The Golden Rule: Sufficiency ≠ Solution
+
+Read this twice:
+
+> **A statement is "sufficient" if it leads to ONE unique answer — even if you never compute that answer.**
+
+**Example.** Question: *Is x > 0?*
+Statement I: x² = 9.
+
+Is Statement I sufficient? x could be +3 or −3. Two possibilities → **NOT sufficient.** Notice we never "solved" anything heavy; we only checked uniqueness.
+
+**Example.** Statement II: x³ = 27.
+Only x = 3 works → unique → **sufficient.** Answer: (b).
+
+🧠 **Active Recall:** In your own words, what makes a statement "sufficient"? (One unique answer — yes/no questions need a *definite* yes or a *definite* no.)
+
+---
+
+## 6. The Three-Step Decision Routine (30 Seconds)
+
+For every DS question, follow this order — never skip a step:
+
+**Step 1 — Statement I alone.** Cover Statement II with your hand. Can I alone give a unique answer? Note YES/NO.
+
+**Step 2 — Statement II alone.** Now cover Statement I. Can II alone give a unique answer? Note YES/NO.
+
+**Step 3 — Combine only if needed.** Only if BOTH were NO, merge them and check again.
+
+Then map to options:
+
+| Step 1 (I alone) | Step 2 (II alone) | Answer |
+|---|---|---|
+| YES | YES | (c) Either alone |
+| YES | NO | (a) I alone |
+| NO | YES | (b) II alone |
+| NO | NO → combined YES | (d) Both together |
+| NO | NO → combined NO | (e) Not sufficient |
+
+**Mnemonic — "I–II–Us":** *"First I, then II, then Us (together)."* If you remember the phrase **"I–II–Us"**, you will never combine statements prematurely — the #1 trap in DS.
+
+🧠 **Active Recall:** Why must you never combine statements before testing each alone? (Because if either alone works, the answer is (a), (b) or (c) — combining wastes time and can mislead you into picking (d).)
+
+---
+
+## 7. Worked Mini-Examples (Advanced Level)
+
+**Example 1 — Number puzzle.**
+Q: What is the two-digit number?
+I. The sum of its digits is 9.
+II. The number exceeds the number obtained by reversing its digits by 27.
+
+- I alone: 18, 27, 36, 45, 54, 63, 72, 81, 90 — many options → NO.
+- II alone: many pairs differ by 27 (e.g., 41−14, 52−25, 63−36…) → NO.
+- Together: digit sum 9 and difference 27 → only 63 fits (63 − 36 = 27, 6+3 = 9). Unique → **Answer (d).**
+
+**Example 2 — Blood relation.**
+Q: How is P related to Q?
+I. P is the son of Q's father.
+II. Q is the sister of R.
+
+- I alone: P is Q's brother — but wait, is P necessarily male? "Son" fixes gender → P is Q's brother. Unique relation → sufficient? Careful: "Q's father" — P is son of Q's father, so P is Q's brother (or Q himself? No — P and Q are distinct persons). Sufficient → **Answer (a)** (II alone says nothing about P).
+
+**Example 3 — The "yes/no" trap.**
+Q: Is A the tallest among A, B, C?
+I. B is taller than C.
+II. A is taller than B.
+
+- I alone: nothing about A → NO.
+- II alone: nothing about C → NO.
+- Together: A > B > C → definite YES → **Answer (d).** Note: a definite "yes" is just as sufficient as a definite "no."
+
+🧠 **Active Recall:** In a yes/no DS question, is "definitely NO" a sufficient answer? (Yes! Sufficiency means a *definite* answer, not a positive one.)
+
+---
+
+## 8. Advanced Pointers for Graduation-Level Exams
+
+- **Inequalities & coded relations:** Check whether the statement fixes the *direction* of the relation uniquely. "A > B" plus "B > C" fixes A > C — sufficient even without numbers.
+- **Syllogism-style DS:** Sometimes a statement gives a *possible* conclusion, not a *certain* one. Possibility ≠ sufficiency.
+- **Geometry DS:** Never trust the diagram. Only trust what is *stated*.
+- **Hidden assumptions:** "Average of 5 numbers is 20" tells you the sum (100) — but nothing about any individual number.
+- **Redundant data:** Sometimes both statements say the same thing in disguise. If I alone is sufficient and II merely repeats it, the answer is still (c) if II alone also works.
+
+---
+
+## 9. Summary Table
+
+| Concept | Rule |
+|---|---|
+| What DS asks | "Can it be answered?" — not "What is the answer?" |
+| Sufficient means | Exactly ONE unique answer (definite yes/no counts) |
+| Order of checking | I alone → II alone → Together (mnemonic: **I–II–Us**) |
+| Never do | Solve fully, assume unstated facts, trust diagrams |
+| Both alone work | Option (c) — either alone sufficient |
+| Neither alone, together works | Option (d) |
+| Nothing works | Option (e) — and that's a *valid* answer, not a failure |
+
+📌 **Review this chapter after 2 days.** Redo the three worked examples with a covered answer key, and recite the "I–II–Us" routine once before every practice set.
+
+---
+
+## ⚠️ Caution: Examiner's Trap
+
+**Trap 1 — "Looks sufficient, isn't."**
+The examiner designs Statement I to *feel* complete. Example: "x is a prime number less than 10." Feels precise — but x could be 2, 3, 5 or 7. Four possibilities → NOT sufficient. Always count the possible answers before declaring sufficiency.
+
+**Trap 2 — Confusing/complex wording to rattle you.**
+Statements like "P is the maternal uncle of the only daughter of Q's paternal grandfather" are deliberately tangled. Don't panic — convert the sentence into a small family tree on paper, step by step. The difficulty is in the *language*, not the logic. Examiners reward students who decode slowly and punish those who guess fast.
+
+**Trap 3 — Double-relation questions (two valid interpretations).**
+Example: "A is the brother of B." Is B male or female? Unknown! If a statement leaves gender, sign (±), or direction ambiguous, and the question depends on it, the statement is NOT sufficient — even though it *sounds* informative. Also beware: combining two statements can *still* leave the ambiguity alive, pushing the answer to (e) when you expected (d).
+
+**Bonus Trap — Combining too early.**
+If Statement I alone already answers the question, the examiner hopes you'll read Statement II, merge them mentally, and wrongly mark (d). Discipline yourself with "I–II–Us": test each statement in isolation first, every single time.

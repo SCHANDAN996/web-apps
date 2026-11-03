@@ -1,0 +1,180 @@
+# Average — The Chapter That Decides Your Rank
+
+## Learning Goals
+
+By the end of this chapter, you will be able to:
+
+- Compute averages of numbers, consecutive series, and weighted groups in seconds
+- Handle "replacement" problems (a person leaves, another joins) without equations
+- Solve average-speed, average-age, and average-marks problems that appear in SSC CGL Tier-II, IBPS PO Mains, CAT, and CSAT
+- Spot the traps examiners hide inside innocent-looking average questions
+
+---
+
+## The Hook: One Number That Fooled an Entire Country
+
+In 2017, a report claimed the "average" income of a small town had doubled in five years. Politicians celebrated. Then a journalist looked closer: one billionaire had moved into the town. Everyone else's income was *unchanged*. The average had doubled — and told the truth while lying completely.
+
+That is the power and the danger of the average. It is the most quoted statistic in the world, and the most abused. Examiners know this. Every year, in SSC CGL, IBPS PO, CAT, and CSAT papers, average questions look like free marks — and quietly eliminate lakhs of candidates who rush.
+
+You will not be one of them. Let's begin.
+
+---
+
+## 1. What an Average Really Is
+
+Forget the formula for a moment. An average is a **fair redistribution**.
+
+Imagine 5 friends carrying 2, 4, 6, 8, and 10 toffees. If they pool everything and share equally, each gets 6. That "equal share" — 6 — is the average. Nothing more, nothing less.
+
+$$\text{Average} = \frac{\text{Sum of all values}}{\text{Number of values}}$$
+
+This single idea — *pool and share equally* — solves every average problem ever set. Every formula in this chapter is just a shortcut for pooling and sharing.
+
+🧠 **Active Recall:** Without looking back — if 4 people have ₹10, ₹20, ₹30, ₹40, what does each get after fair redistribution? (Answer: ₹25. Did you compute the sum first, or notice the symmetry?)
+
+---
+
+## 2. The Two Muscles: Sum and Count
+
+Every average problem is won or lost on two quantities: the **total sum** and the **count**. Train yourself to convert instantly:
+
+- Average of 20 numbers is 15 → Sum = 300
+- Sum of 8 numbers is 96 → Average = 12
+- Average rises from 40 to 42 for 10 students → Total rises by 10 × 2 = 20
+
+That last move — **change in total = change in average × count** — is the single most tested idea at the Graduation level. Master it and half the chapter is done.
+
+🧠 **Active Recall:** The average of 12 numbers increases by 3. By how much does the total increase? (Answer: 36.)
+
+---
+
+## 3. Averages of Series — Where Shortcuts Live
+
+**Consecutive numbers:** The average of any arithmetic sequence is simply the middle term — or the mean of the first and last terms.
+
+- Average of 1 to 100 = (1 + 100)/2 = 50.5
+- Average of first *n* natural numbers = (n + 1)/2
+- Average of first *n* even numbers = n + 1
+- Average of first *n* odd numbers = n
+- Average of squares of first *n* natural numbers = (n + 1)(2n + 1)/6
+- Average of cubes of first *n* natural numbers = n(n + 1)²/4
+
+**Why the middle term works:** in an evenly spaced row, every number above the middle is balanced by one equally far below it. The deviations cancel. The middle *is* the fair share.
+
+🧠 **Active Recall:** What is the average of the first 50 odd numbers? (Answer: 50. And the first 50 even numbers? 51.)
+
+---
+
+## 4. The Deviation Method — Think Like a Topper
+
+Adding 15 numbers like 47, 52, 49, 51, 48… is slow. Instead, **assume** an average — say 50 — and record only deviations: −3, +2, −1, +1, −2…
+
+$$\text{True Average} = \text{Assumed Average} + \frac{\text{Sum of deviations}}{\text{Count}}$$
+
+If deviations sum to −15 over 15 numbers, the true average is 50 − 1 = 49. You did the whole problem with single-digit arithmetic.
+
+This method also explains *why* averages behave as they do: an average is the point where all deviations cancel out. Positive and negative deviations from the true average always sum to **zero**.
+
+🧠 **Active Recall:** Five numbers deviate from an assumed average of 60 by +4, −2, +6, −8, +5. True average? (Answer: 60 + 5/5 = 61.)
+
+---
+
+## 5. Weighted Average — When Groups Merge
+
+Two classes: Class A has 20 students averaging 60 marks; Class B has 30 students averaging 70. Combined average?
+
+The wrong answer — the trap — is 65 (the plain mean of 60 and 70). The right answer respects the **weights**:
+
+$$\bar{x} = \frac{20 \times 60 + 30 \times 70}{20 + 30} = \frac{3300}{50} = 66$$
+
+The combined average always lies **between** the two group averages, pulled toward the bigger group. Here 30 > 20, so 66 sits closer to 70 than to 60.
+
+**Alligation shortcut:** the distances split in the *inverse* ratio of weights. Weights 20 : 30 = 2 : 3, so the gap of 10 splits as 6 : 4 — giving 60 + 6 = 66. One line, no equation.
+
+🧠 **Active Recall:** 40 students average 50; 60 students average 60. Combined average — is it closer to 50 or 60? (Answer: closer to 60; exactly 56.)
+
+---
+
+## 6. Replacement Problems — The Examiner's Favourite
+
+*In a team of 11 players, the average age is 25. A player aged 28 is replaced by a new player, and the average drops to 24. Find the new player's age.*
+
+Don't rebuild the whole sum. Ask only: **what changed?**
+
+- Total age fell by 11 × (25 − 24) = 11 years.
+- The outgoing player took 28 years with him.
+- So the newcomer brought 28 − 11 = **17 years**.
+
+The rule: **New person's value = Old person's value ± (change in average × count)**. Subtract if the average fell, add if it rose. This one line replaces a page of algebra.
+
+🧠 **Active Recall:** In a group of 8, average weight rises by 2 kg when a 50 kg man is replaced. New man's weight? (Answer: 50 + 8 × 2 = 66 kg.)
+
+---
+
+## 7. Average Speed — The Classic Trap
+
+A car travels from A to B at 40 km/h and returns at 60 km/h. Average speed for the round trip?
+
+The trap answer is 50 km/h. Wrong — because the car spends **more time** at the slower speed. For equal distances, use the harmonic mean:
+
+$$\text{Average speed} = \frac{2xy}{x + y} = \frac{2 \times 40 \times 60}{100} = 48 \text{ km/h}$$
+
+Remember: average speed = total distance ÷ total **time**, never the mean of speeds. The mean of speeds is only correct when the *times* are equal, not the distances.
+
+🧠 **Active Recall:** Equal distances at 30 and 60 km/h — average speed? (Answer: 2×30×60/90 = 40 km/h, not 45.)
+
+---
+
+## 8. Inclusion, Exclusion, and "One Number Wrong" Problems
+
+- **A number is included:** New sum = old sum + new number. Work through totals, not averages.
+- **A number is excluded:** Subtract it from the total, divide by the reduced count.
+- **A number was misread:** Correct the total by the error first, then recompute. E.g., a number read as 36 instead of 63 inflates/deflates the sum by 27 — fix the sum, then divide.
+
+In every variant, the mantra is identical: **go to the total, adjust the total, come back to the average.**
+
+🧠 **Active Recall:** Average of 10 numbers is 15. One number, 40, is removed. New average? (Answer: (150 − 40)/9 = 110/9 ≈ 12.22.)
+
+---
+
+## 9. The Mnemonic: "SPA Rules the Pool"
+
+Remember the three moves that solve 90% of average problems:
+
+> **S**um first — **P**ool everything — **A**llot equally.
+
+**SPA**: whenever stuck, close your eyes and imagine everyone throwing their values into one pool, then drawing out equal shares. Sum → Pool → Allot. If a problem resists formulas, the pool always works.
+
+A second memory hook for weighted averages: **"The heavy group pulls the average toward itself"** — picture a tug-of-war where the bigger team drags the ribbon.
+
+---
+
+## 10. Where Advanced Exams Push This Further
+
+- **CAT / IBPS PO Mains:** averages blended with ratios, mixtures (alligation), and data interpretation — e.g., average salary of a department after a 10% hike for some employees.
+- **SSC CGL Tier-II:** multi-step replacement and misread-number problems with decimals.
+- **CSAT:** conceptual traps — "the average of two groups is 50; can both group averages be below 50?" (No — the combined average must lie between them.)
+
+The concepts never change. Only the costumes do.
+
+---
+
+## Summary Table
+
+| Concept | Core Rule | One-Line Memory |
+|---|---|---|
+| Basic average | Sum ÷ Count | Pool and share |
+| Change in total | ΔTotal = ΔAverage × Count | Small shift, big total |
+| Consecutive series | Middle term = (first + last)/2 | Ends meet in the middle |
+| First n naturals | (n + 1)/2 | — |
+| First n even / odd | n + 1 / n | Even is one ahead |
+| Deviation method | Assumed avg + mean deviation | Guess, then correct |
+| Weighted average | Σwx ÷ Σw | Heavy group pulls |
+| Replacement | New = Old ± (Δavg × n) | Only the change matters |
+| Average speed (equal distances) | 2xy/(x + y) | Harmonic, not arithmetic |
+| Misread number | Fix the total first | Total → adjust → divide |
+
+---
+
+📌 **Review this chapter after 2 days.** Redo the Active Recall prompts from memory before re-reading — the struggle to recall is what makes the learning permanent.

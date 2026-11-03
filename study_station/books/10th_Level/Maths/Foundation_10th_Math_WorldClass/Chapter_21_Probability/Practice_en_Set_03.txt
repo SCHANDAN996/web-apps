@@ -1,1062 +1,151 @@
+Questions 51–70: Easy | Questions 71–75: Medium
+
 51. Two coins are tossed simultaneously. What is the probability of getting no head?
-(A)
-1
-4
-4
-1
-	​
-
-  (B)
-1
-2
-2
-1
-	​
-
-  (C)
-3
-4
-4
-3
-	​
-
-  (D) 0
-Answer: (A)
-Solution: Total outcomes: 4 {HH, HT, TH, TT}. No head means both tails: TT → 1 outcome. Probability =
-1
-4
-4
-1
-	​
-
-.
-Source: NCERT Class 10, Ex 15.1 Q7.
+(a) 1/2 (b) 3/4 (c) 1/4 (d) 0
+Answer: (c)
+Solution: Total outcomes are 4: HH, HT, TH, TT. No head means TT only, which is 1 outcome, so the probability is 1/4. The trap is 1/2, chosen by treating "head" and "no head" as two equal cases and ignoring that the four outcomes are equally likely. So the answer is 1/4.
+Source: NCERT Class 10 Mathematics, Chapter Probability
 
 52. A die is thrown once. What is the probability of getting a number less than 3?
-(A)
-1
-6
-6
-1
-	​
-
-  (B)
-1
-3
-3
-1
-	​
-
-  (C)
-1
-2
-2
-1
-	​
-
-  (D)
-2
-3
-3
-2
-	​
-
-Answer: (B)
-Solution: Sample space: 6 outcomes. Numbers less than 3: 1, 2 → 2 outcomes. Probability =
-2
-6
-=
-1
-3
-6
-2
-	​
-
-=
-3
-1
-	​
-
-.
-Source: NCERT Class 10, Ex 15.1 Q2.
+(a) 1/6 (b) 1/3 (c) 1/2 (d) 2/3
+Answer: (b)
+Solution: Numbers less than 3 are 1 and 2, giving 2 favourable outcomes out of 6, so the probability is 2/6 = 1/3. The trap is 1/2, which wrongly counts 3 also as "less than 3". So the answer is 1/3.
+Source: NCERT Class 10 Mathematics, Chapter Probability
 
 53. A bag contains 4 red and 6 blue balls. One ball is drawn at random. Find the probability that it is either red or blue.
-(A)
-3
-5
-5
-3
-	​
-
-  (B) 1  (C)
-2
-5
-5
-2
-	​
-
-  (D)
-4
-5
-5
-4
-	​
-
-Answer: (B)
-Solution: The ball drawn will be either red or blue with certainty because no other colour exists. Probability = 1.
-Source: NCERT Class 10, Ex 15.1 Q5 (concept: sure event).
+(a) 3/5 (b) 4/5 (c) 2/5 (d) 1
+Answer: (d)
+Solution: Every ball in the bag is either red or blue, so this is a sure event with probability 1. The trap is 4/5, which adds the two separate probabilities without noticing the event covers all outcomes. So the answer is 1.
+Source: NCERT Class 10 Mathematics, Chapter Probability
 
 54. Two dice are thrown together. What is the probability that the sum of the numbers on the two faces is 10?
-(A)
-1
-12
-12
-1
-	​
-
-  (B)
-1
-18
-18
-1
-	​
-
-  (C)
-1
-36
-36
-1
-	​
-
-  (D)
-5
-36
-36
-5
-	​
-
-Answer: (A)
-Solution: Total outcomes = 36. Pairs summing to 10: (4,6), (5,5), (6,4) → 3 outcomes. Probability =
-3
-36
-=
-1
-12
-36
-3
-	​
-
-=
-12
-1
-	​
-
-.
-Source: NCERT Class 10, Ex 15.1 Q13.
+(a) 1/18 (b) 1/12 (c) 1/36 (d) 5/36
+Answer: (b)
+Solution: Total outcomes are 36. Pairs summing to 10 are (4,6), (5,5), (6,4), which is 3 outcomes, so the probability is 3/36 = 1/12. The trap is 1/18, which misses one ordered pair such as (6,4). So the answer is 1/12.
+Source: NCERT Class 10 Mathematics, Chapter Probability
 
 55. Three coins are tossed together. What is the probability of getting exactly one head?
-(A)
-1
-8
-8
-1
-	​
-
-  (B)
-3
-8
-8
-3
-	​
-
-  (C)
-1
-2
-2
-1
-	​
-
-  (D)
-5
-8
-8
-5
-	​
-
-Answer: (B)
-Solution: Total outcomes = 8. One head outcomes: HTT, THT, TTH → 3 ways. Probability =
-3
-8
-8
-3
-	​
-
-.
-Source: NCERT Class 10, Ex 15.1 Q7 (three coins).
+(a) 3/8 (b) 1/8 (c) 1/2 (d) 5/8
+Answer: (a)
+Solution: Total outcomes are 8. Exactly one head occurs in HTT, THT, TTH, which is 3 outcomes, so the probability is 3/8. The trap is 1/8, which counts only one arrangement and forgets the head can appear on any of the three coins. So the answer is 3/8.
+Source: NCERT Class 10 Mathematics, Chapter Probability
 
 56. One card is drawn from a well-shuffled deck of 52 cards. Find the probability that the card is a spade or an ace.
-(A)
-1
-13
-13
-1
-	​
+(a) 4/13 (b) 1/13 (c) 17/52 (d) 7/26
+Answer: (a)
+Solution: Spades are 13 and aces are 4, but the ace of spades is counted twice, so favourable cards are 13 + 4 − 1 = 16, giving 16/52 = 4/13. The trap is 17/52, which forgets to subtract the overlapping ace of spades. So the answer is 4/13.
+Source: NCERT Class 10 Mathematics, Chapter Probability
 
-  (B)
-4
-13
-13
-4
-	​
-
-  (C)
-17
-52
-52
-17
-	​
-
-  (D)
-7
-26
-26
-7
-	​
-
-Answer: (B)
-Solution: Spades = 13, Aces = 4. Overlap = Ace of spades = 1. Favourable = 13 + 4 – 1 = 16. Probability =
-16
-52
-=
-4
-13
-52
-16
-	​
-
-=
-13
-4
-	​
-
-.
-Source: NCERT Class 10, Ex 15.1 Q14 (concept).
-
-57. If the probability of an event happening is
-2
-7
-7
-2
-	​
-
-, what is the probability that the event does not happen?
-(A)
-2
-7
-7
-2
-	​
-
-  (B)
-5
-7
-7
-5
-	​
-
-  (C)
-3
-7
-7
-3
-	​
-
-  (D) 1
-Answer: (B)
-Solution: P(not E) = 1 – P(E) = 1 –
-2
-7
-=
-5
-7
-7
-2
-	​
-
-=
-7
-5
-	​
-
-.
-Source: NCERT Class 10, Ex 15.1 Q5 (complement).
+57. If the probability of an event happening is 2/7, what is the probability that the event does not happen?
+(a) 2/7 (b) 5/7 (c) 3/7 (d) 1
+Answer: (b)
+Solution: The probability of the complement is 1 − 2/7 = 5/7. The trap is 2/7 itself, chosen by those who forget that an event and its complement must add to 1. So the answer is 5/7.
+Source: NCERT Class 10 Mathematics, Chapter Probability
 
 58. A and B are mutually exclusive events with P(A) = 0.25 and P(B) = 0.35. Find P(A or B).
-(A) 0.1  (B) 0.6  (C) 0.0875  (D) 0.5
-Answer: (B)
-Solution: P(A ∪ B) = P(A) + P(B) = 0.25 + 0.35 = 0.60.
-Source: NCERT Class 11, Ex 14.2 (mutually exclusive).
+(a) 0.1 (b) 0.6 (c) 0.0875 (d) 0.5
+Answer: (b)
+Solution: For mutually exclusive events, P(A or B) = P(A) + P(B) = 0.25 + 0.35 = 0.60. The trap is 0.0875, which multiplies the probabilities, a rule meant for independent events occurring together. So the answer is 0.6.
+Source: NCERT Class 11 Mathematics, Chapter Probability
 
 59. Two dice are thrown. Find the probability that the product of the numbers is 12.
-(A)
-1
-12
-12
-1
-	​
-
-  (B)
-5
-36
-36
-5
-	​
-
-  (C)
-1
-9
-9
-1
-	​
-
-  (D)
-1
-6
-6
-1
-	​
-
-Answer: (C)
-Solution: Total outcomes = 36. Pairs with product 12: (2,6), (3,4), (4,3), (6,2) → 4 outcomes. Probability =
-4
-36
-=
-1
-9
-36
-4
-	​
-
-=
-9
-1
-	​
-
-.
-Source: SSC CGL Tier 1, 2019 (Memory Based).
+(a) 1/9 (b) 5/36 (c) 1/12 (d) 1/6
+Answer: (a)
+Solution: Pairs with product 12 are (2,6), (3,4), (4,3), (6,2), which is 4 outcomes out of 36, so the probability is 4/36 = 1/9. The trap is 1/12, which counts only 3 pairs and forgets one ordered pair. So the answer is 1/9.
+Source: PYQ-style
 
 60. A bag contains 10 white and 5 red balls. Two balls are drawn at random without replacement. What is the probability that both are white?
-(A)
-2
-7
-7
-2
-	​
-
-  (B)
-3
-7
-7
-3
-	​
-
-  (C)
-1
-3
-3
-1
-	​
-
-  (D)
-9
-35
-35
-9
-	​
-
-Answer: (B)
-Solution: Total balls = 15. Total ways =
-15
-𝐶
-2
-=
-105
-15
-C
-2
-	​
-
-=105. Ways to select 2 white from 10 =
-10
-𝐶
-2
-=
-45
-10
-C
-2
-	​
-
-=45. Probability =
-45
-105
-=
-3
-7
-105
-45
-	​
-
-=
-7
-3
-	​
-
-.
-Source: RRB Group D 2021 (Memory Based).
+(a) 2/7 (b) 1/3 (c) 3/7 (d) 9/35
+Answer: (c)
+Solution: Total ways to draw 2 balls from 15 are 105; ways to draw 2 white from 10 are 45, so the probability is 45/105 = 3/7. The trap is squaring 10/15 as if the draws were with replacement, which ignores that the first draw changes the bag. So the answer is 3/7.
+Source: PYQ-style
 
 61. A box contains 4 defective and 6 good bulbs. Two bulbs are drawn at random. What is the probability that exactly one is defective?
-(A)
-4
-15
-15
-4
-	​
-
-  (B)
-8
-15
-15
-8
-	​
-
-  (C)
-2
-15
-15
-2
-	​
-
-  (D)
-7
-15
-15
-7
-	​
-
-Answer: (B)
-Solution: Total ways =
-10
-𝐶
-2
-=
-45
-10
-C
-2
-	​
-
-=45. Exactly one defective: choose 1 defective from 4 and 1 good from 6 = 4 × 6 = 24. Probability =
-24
-45
-=
-8
-15
-45
-24
-	​
-
-=
-15
-8
-	​
-
-.
-Source: SSC GD 2022 (Memory Based).
+(a) 8/15 (b) 4/15 (c) 2/15 (d) 7/15
+Answer: (a)
+Solution: Total ways to choose 2 bulbs from 10 are 45. Exactly one defective means 1 from 4 defective and 1 from 6 good, giving 4 × 6 = 24 ways, so the probability is 24/45 = 8/15. The trap is 4/15, which counts only one order of defective and good. So the answer is 8/15.
+Source: PYQ-style
 
 62. What is the probability that a leap year selected at random will contain 53 Sundays?
-(A)
-1
-7
-7
-1
-	​
-
-  (B)
-2
-7
-7
-2
-	​
-
-  (C)
-3
-7
-7
-3
-	​
-
-  (D)
-5
-7
-7
-5
-	​
-
-Answer: (B)
-Solution: Leap year has 366 days = 52 weeks + 2 days. The 2 extra days can be (Sun,Mon), (Mon,Tue), (Tue,Wed), (Wed,Thu), (Thu,Fri), (Fri,Sat), (Sat,Sun) — 7 possibilities. 53 Sundays occur if one of the extra days is Sunday: (Sun,Mon) and (Sat,Sun) → 2 favourable. P = 2/7.
-Source: NCERT Class 10, Ex 15.1 Q13 (calendar type).
+(a) 1/7 (b) 2/7 (c) 3/7 (d) 5/7
+Answer: (b)
+Solution: A leap year has 52 weeks and 2 extra days, which can be 7 possible consecutive pairs. Sunday appears in 2 of these pairs: (Saturday, Sunday) and (Sunday, Monday), so the probability is 2/7. The trap is 1/7, which is the answer for a non-leap year, not a leap year. So the answer is 2/7.
+Source: NCERT Class 10 Mathematics, Chapter Probability
 
 63. In a non-leap year, the probability of getting 53 Fridays is:
-(A)
-1
-7
-7
-1
-	​
-
-  (B)
-2
-7
-7
-2
-	​
-
-  (C)
-3
-7
-7
-3
-	​
-
-  (D)
-5
-7
-7
-5
-	​
-
-Answer: (A)
-Solution: Non-leap year has 365 days = 52 weeks + 1 day. That extra day can be any of the 7 days. For 53 Fridays, the extra day must be Friday → 1 favourable. P = 1/7.
-Source: NCERT Class 10, Ex 15.1 Q13 (calendar type).
+(a) 5/7 (b) 2/7 (c) 3/7 (d) 1/7
+Answer: (d)
+Solution: A non-leap year has 52 weeks and 1 extra day, which can be any of the 7 days. For 53 Fridays, that extra day must be Friday, giving 1 favourable case out of 7. The trap is 2/7, which is the leap-year answer. So the answer is 1/7.
+Source: NCERT Class 10 Mathematics, Chapter Probability
 
 64. Two dice are rolled. Find the probability that the sum is a prime number.
-(A)
-5
-12
-12
-5
-	​
+(a) 5/12 (b) 1/2 (c) 7/12 (d) 1/3
+Answer: (a)
+Solution: Prime sums are 2, 3, 5, 7, 11 with 1, 2, 4, 6, 2 ways respectively, totalling 15 favourable outcomes out of 36, so the probability is 15/36 = 5/12. The trap is 7/12, which wrongly includes the sum 9 or treats 1 as prime. So the answer is 5/12.
+Source: PYQ-style
 
-  (B)
-1
-2
-2
-1
-	​
-
-  (C)
-7
-12
-12
-7
-	​
-
-  (D)
-1
-3
-3
-1
-	​
-
-Answer: (A)
-Solution: Prime sums: 2,3,5,7,11. Ways: 2→1, 3→2, 5→4, 7→6, 11→2. Total favourable = 1+2+4+6+2 = 15. P =
-15
-36
-=
-5
-12
-36
-15
-	​
-
-=
-12
-5
-	​
-
-.
-Source: SSC MTS 2020 (Memory Based).
-
-65. A card is drawn from a standard deck. Find the probability that it is a red face card.
-(A)
-3
-26
-26
-3
-	​
-
-  (B)
-1
-13
-13
-1
-	​
-
-  (C)
-3
-13
-13
-3
-	​
-
-  (D)
-2
-13
-13
-2
-	​
-
-Answer: (A)
-Solution: Face cards = 12. Red face cards = hearts face (3) + diamonds face (3) = 6. Probability =
-6
-52
-=
-3
-26
-52
-6
-	​
-
-=
-26
-3
-	​
-
-.
-Source: NCERT Class 10, Ex 15.1 Q14 (adapted).
+65. A card is drawn from a standard deck of 52 cards. Find the probability that it is a red face card.
+(a) 3/13 (b) 1/13 (c) 2/13 (d) 3/26
+Answer: (d)
+Solution: Face cards are jack, queen, king; red face cards are 3 in hearts and 3 in diamonds, totalling 6, so the probability is 6/52 = 3/26. The trap is 3/13, which counts all 12 face cards instead of only the red ones. So the answer is 3/26.
+Source: NCERT Class 10 Mathematics, Chapter Probability
 
 66. A bag contains 2 red, 3 green, and 4 blue balls. If two balls are drawn at random, what is the probability that they are of different colours?
-(A)
-13
-18
-18
-13
-	​
-
-  (B)
-5
-18
-18
-5
-	​
-
-  (C)
-4
-9
-9
-4
-	​
-
-  (D)
-5
-9
-9
-5
-	​
-
-Answer: (A)
-Solution: Total balls = 9. Total ways =
-9
-𝐶
-2
-=
-36
-9
-C
-2
-	​
-
-=36. P(same colour) = P(both red) + P(both green) + P(both blue).
-Both red:
-2
-𝐶
-2
-=
-1
-2
-C
-2
-	​
-
-=1. Both green:
-3
-𝐶
-2
-=
-3
-3
-C
-2
-	​
-
-=3. Both blue:
-4
-𝐶
-2
-=
-6
-4
-C
-2
-	​
-
-=6. Total same = 10. P(different) = 1 –
-10
-36
-=
-26
-36
-=
-13
-18
-36
-10
-	​
-
-=
-36
-26
-	​
-
-=
-18
-13
-	​
-
-.
-Source: Bank PO Mains 2019 (Memory Based).
+(a) 5/9 (b) 5/18 (c) 4/9 (d) 13/18
+Answer: (d)
+Solution: Total ways to draw 2 balls from 9 are 36. Same-colour pairs: both red = 1, both green = 3, both blue = 6, totalling 10, so different colours = 36 − 10 = 26, giving 26/36 = 13/18. The trap is 5/18, which is the probability of the same colour, the exact opposite of what is asked. So the answer is 13/18.
+Source: PYQ-style
 
 67. Three coins are tossed. What is the probability that at most one tail appears?
-(A)
-1
-2
-2
-1
-	​
+(a) 1/2 (b) 3/8 (c) 1/4 (d) 5/8
+Answer: (a)
+Solution: At most one tail means 0 tails (HHH) or 1 tail (THH, HTH, HHT), giving 4 favourable outcomes out of 8, so the probability is 4/8 = 1/2. The trap is 3/8, which counts only the one-tail cases and forgets the no-tail case HHH. So the answer is 1/2.
+Source: NCERT Class 10 Mathematics, Chapter Probability
 
-  (B)
-3
-8
-8
-3
-	​
-
-  (C)
-1
-4
-4
-1
-	​
-
-  (D)
-5
-8
-8
-5
-	​
-
-Answer: (A)
-Solution: Total outcomes = 8. At most one tail means 0 tails (HHH) or 1 tail (THH, HTH, HHT). Favourable = 1 + 3 = 4. P =
-4
-8
-=
-1
-2
-8
-4
-	​
-
-=
-2
-1
-	​
-
-.
-Source: NCERT Class 10, Ex 15.1 Q8 (adapted).
-
-68. A number is chosen at random from the numbers 1 to 50. Find the probability that the number is divisible by 5 or 7.
-(A)
-13
-50
-50
-13
-	​
-
-  (B)
-14
-50
-50
-14
-	​
-
-  (C)
-3
-25
-25
-3
-	​
-
-  (D)
-6
-25
-25
-6
-	​
-
-Answer: (B) (assuming B is 14/50 = 7/25, but listing check: 5-div: 5,10,...,50 → 10 numbers. 7-div: 7,14,21,28,35,42,49 → 7 numbers. Overlap (divisible by 35): 35 only → 1. Favorable = 10+7-1 = 16. So probability = 16/50 = 8/25. Not in options. Need to adjust: maybe B is 16/50? No, it's 14/50. I'll rework: maybe "divisible by 5 or 7" from 1-50: we counted 10,7,1 -> 16. 16/50 simplifies to 8/25. Options don't have 8/25 but 14/50 = 7/25, maybe they considered 7-div without 35? No. I'll adjust the question to "divisible by 4 or 7" to match 14/50? Or I'll change options. I'll just make correct answer 16/50 = 8/25 not listed. So I'll tweak question: "divisible by 3 or 5"? Let's do divisible by 3 or 4? Not. I'll change question to "divisible by 2 or 7"? That's messy. Instead, I'll keep question but adjust numbers: from 1 to 50, divisible by 5 or 8? Not. I can just compute correctly and if options don't match, I'll change them. Options: I'll set (B)
-16
-50
-50
-16
-	​
-
- which simplifies to
-8
-25
-25
-8
-	​
-
-. But the provided options were A 13/50, B 14/50, C 3/25 (6/50), D 6/25 (12/50). None 16/50. So I'll modify question: "divisible by 4 or 5"? 4: 12 numbers, 5: 10 numbers, overlap 20,40 -> 2, total 20. 20/50 = 2/5 not in options. Better to choose a different medium question: Probability of getting a multiple of 5 or 6 from 1-50. Multiples of 5:10; multiples of 6:8 (6,12,...,48); overlap multiple of 30: only 30 -> 1. Favorable = 17. 17/50. Not in options. I'll just use question: "divisible by 3 or 4" from 1 to 30. 3:10 numbers, 4:7 numbers, overlap 12,24 -> 2, total 15, P=15/30=1/2. But need 50. I'll keep from 1 to 30 and options accordingly. Not. Instead I'll scrap this and make question about die sum prime number again. Already did that. I'll just use "divisible by 2 or 3" from 1 to 20, etc. Let's just adjust the answer set: I'll recalculate: from 1 to 50, divisible by 6 or 8: 6:8 numbers (6,12,...,48), 8:6 numbers (8,16,...,48), overlap multiples of 24: 24,48 ->2. Total 8+6-2=12. P=12/50=6/25, option D. I'll choose "divisible by 6 or 8" to match D. That would be easy but it's medium. I'll use that: "A number is chosen at random from 1 to 50. Find the probability that it is divisible by 6 or 8." Then answer 12/50 = 6/25. Options: A 13/50, B 7/25, C 8/25, D 6/25. So I'll set: (D) 6/25. I'll modify accordingly.
-Question revised: “A number is chosen at random from the numbers 1 to 50. Find the probability that it is divisible by 6 or 8.”
-Multiples of 6: 6,12,18,24,30,36,42,48 → 8. Multiples of 8: 8,16,24,32,40,48 → 6. Overlap (24,48): 2. Favorable = 8+6-2 = 12. Probability = 12/50 = 6/25.
-Answer: (D) 6/25.
-Source: SSC CPO 2021 (Memory Based).
-I'll put that.
+68. A number is chosen at random from the numbers 1 to 50. Find the probability that it is divisible by 6 or 8.
+(a) 6/25 (b) 7/25 (c) 13/50 (d) 8/25
+Answer: (a)
+Solution: Multiples of 6 up to 50 are 8; multiples of 8 are 6; common multiples of 24 (24 and 48) are 2, so favourable numbers are 8 + 6 − 2 = 12, giving 12/50 = 6/25. The trap is 7/25, which adds 8 and 6 without subtracting the overlap of 24 and 48. So the answer is 6/25.
+Source: PYQ-style
 
 69. A box contains 5 red, 4 white, and 3 blue balls. If three balls are drawn without replacement, what is the probability that they are all red?
-(A)
-1
-22
-22
-1
-	​
-
-  (B)
-5
-33
-33
-5
-	​
-
-  (C)
-1
-11
-11
-1
-	​
-
-  (D)
-5
-44
-44
-5
-	​
-
-Answer: (A)
-Solution: Total balls = 12. Total ways =
-12
-𝐶
-3
-=
-220
-12
-C
-3
-	​
-
-=220. Red = 5, ways =
-5
-𝐶
-3
-=
-10
-5
-C
-3
-	​
-
-=10. Probability = 10/220 = 1/22.
-Source: RRB NTPC 2021 (Memory Based).
+(a) 1/11 (b) 5/33 (c) 1/22 (d) 5/44
+Answer: (c)
+Solution: Total ways to draw 3 balls from 12 are 220; ways to draw 3 red from 5 are 10, so the probability is 10/220 = 1/22. The trap is 5/44, which comes from cubing 5/12 as if the draws were with replacement. So the answer is 1/22.
+Source: PYQ-style
 
 70. Two dice are thrown. Find the probability that the absolute difference of the numbers is 2.
-(A)
-5
-36
-36
-5
-	​
-
-  (B)
-2
-9
-9
-2
-	​
-
-  (C)
-1
-6
-6
-1
-	​
-
-  (D)
-1
-9
-9
-1
-	​
-
-Answer: (B)
-Solution: Total outcomes = 36. Pairs with difference 2: (1,3),(2,4),(3,5),(4,6) and reverse (3,1),(4,2),(5,3),(6,4) → 8 outcomes. Probability = 8/36 = 2/9.
-Source: SSC CGL Tier 1, 2020 (Memory Based).
+(a) 5/36 (b) 1/9 (c) 1/6 (d) 2/9
+Answer: (d)
+Solution: Pairs with difference 2 are (1,3), (2,4), (3,5), (4,6) and their reverses, totalling 8 outcomes out of 36, so the probability is 8/36 = 2/9. The trap is 1/9, which counts only 4 pairs and forgets the reversed orders. So the answer is 2/9.
+Source: PYQ-style
 
 71. If P(A) = 0.6, P(B) = 0.5, and P(A ∪ B) = 0.8, find P(A ∩ B).
-(A) 0.1  (B) 0.2  (C) 0.3  (D) 0.4
-Answer: (C)
-Solution: P(A ∪ B) = P(A) + P(B) – P(A ∩ B) ⇒ 0.8 = 0.6 + 0.5 – P(A∩B) ⇒ P(A∩B) = 1.1 – 0.8 = 0.3.
-Source: NCERT Class 11, Ex 14.2.
+(a) 0.1 (b) 0.2 (c) 0.3 (d) 0.4
+Answer: (c)
+Solution: Using P(A ∪ B) = P(A) + P(B) − P(A ∩ B), we get 0.8 = 0.6 + 0.5 − P(A ∩ B), so P(A ∩ B) = 1.1 − 0.8 = 0.3. The trap is 0.1, obtained by carelessly computing 0.8 − 0.6 − 0.5 with a sign error. So the answer is 0.3.
+Source: NCERT Class 11 Mathematics, Chapter Probability
 
-72. A bag contains 3 red and 7 black balls. Two balls are drawn with replacement. What is the probability that one is red and the other black?
-(A)
-21
-100
-100
-21
-	​
-
-  (B)
-21
-50
-50
-21
-	​
-
-  (C)
-3
-10
-10
-3
-	​
-
-  (D)
-42
-100
-100
-42
-	​
-
-Answer: (B)
-Solution: With replacement, draws independent. P(one red, one black) = P(first red, second black) + P(first black, second red) = (3/10 × 7/10) + (7/10 × 3/10) = 21/100 + 21/100 = 42/100 = 21/50.
-Source: Bank Clerk Prelims 2019 (Memory Based).
+72. A bag contains 3 red and 7 black balls. Two balls are drawn with replacement. What is the probability that one is red and the other is black?
+(a) 21/100 (b) 3/10 (c) 21/50 (d) 9/50
+Answer: (c)
+Solution: With replacement, P(red then black) = (3/10) × (7/10) = 21/100 and P(black then red) = (7/10) × (3/10) = 21/100, so the total is 42/100 = 21/50. The trap is 21/100, which counts only one order of the two colours. So the answer is 21/50.
+Source: PYQ-style
 
 73. A die is thrown twice. What is the probability that at least one of the throws results in a number greater than 4?
-(A)
-5
-9
-9
-5
-	​
+(a) 1/3 (b) 5/9 (c) 4/9 (d) 2/9
+Answer: (b)
+Solution: P(not greater than 4 in one throw) = 4/6 = 2/3, so P(neither throw exceeds 4) = (2/3)² = 4/9, and P(at least one exceeds 4) = 1 − 4/9 = 5/9. The trap is 4/9, which is the probability of the complementary event, not the one asked. So the answer is 5/9.
+Source: NCERT Class 11 Mathematics, Chapter Probability
 
-  (B)
-4
-9
-9
-4
-	​
-
-  (C)
-1
-3
-3
-1
-	​
-
-  (D)
-2
-9
-9
-2
-	​
-
-Answer: (A)
-Solution: P(number > 4 in one throw) = 2/6 = 1/3. P(not >4) = 2/3. P(neither >4 in two throws) = (2/3)^2 = 4/9. P(at least one >4) = 1 – 4/9 = 5/9.
-Source: NCERT Class 11, Ex 14.2 (complement concept).
-
-74. A card is drawn from a well-shuffled deck of 52 cards. What is the probability that the card is a numbered card (2 to 10)?
-(A)
-9
-13
-13
-9
-	​
-
-  (B)
-4
-13
-13
-4
-	​
-
-  (C)
-36
-52
-52
-36
-	​
-
-  (D)
-10
-13
-13
-10
-	​
-
-Answer: (A)
-Solution: Numbered cards per suit: 2,3,4,5,6,7,8,9,10 → 9 cards. In 4 suits, total numbered cards = 9×4 = 36. Probability = 36/52 = 9/13.
-Source: NCERT Class 10, Ex 15.1 Q14 (adapted).
+74. A card is drawn from a well-shuffled deck of 52 cards. What is the probability that the card is a numbered card from 2 to 10?
+(a) 8/13 (b) 4/13 (c) 9/13 (d) 10/13
+Answer: (c)
+Solution: Each suit has 9 numbered cards (2 through 10), so 4 suits give 36 numbered cards, and the probability is 36/52 = 9/13. The trap is 10/13, which wrongly counts the ace as a numbered card. So the answer is 9/13.
+Source: NCERT Class 10 Mathematics, Chapter Probability
 
 75. Two dice are thrown. Find the probability that the sum is less than or equal to 4.
-(A)
-1
-12
-12
-1
-	​
-
-  (B)
-1
-9
-9
-1
-	​
-
-  (C)
-1
-6
-6
-1
-	​
-
-  (D)
-1
-3
-3
-1
-	​
-
-Answer: (C)
-Solution: Total outcomes = 36. Sum ≤ 4: 2,3,4. Ways: 2→1, 3→2, 4→3 → total 6. Probability = 6/36 = 1/6.
-Source: NCERT Class 10, Ex 15.1 Q13 (concept).
+(a) 1/12 (b) 1/9 (c) 1/3 (d) 1/6
+Answer: (d)
+Solution: Sums of 2, 3, 4 occur in 1, 2, 3 ways respectively, totalling 6 favourable outcomes out of 36, so the probability is 6/36 = 1/6. The trap is 1/12, which counts only 3 outcomes by treating each sum as one case instead of counting ordered pairs. So the answer is 1/6.
+Source: NCERT Class 10 Mathematics, Chapter Probability

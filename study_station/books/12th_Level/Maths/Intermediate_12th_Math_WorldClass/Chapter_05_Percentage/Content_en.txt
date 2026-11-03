@@ -1,11 +1,184 @@
-# Chapter: Percentage, Level: intermediate
+# Percentage — The One Chapter That Runs Half of Quant
 
-@content_agent lang=en level=intermediate role='experienced educator and cognitive psychologist' 'Write a chapter on Percentage that makes even complex 12th-grade concepts feel incredibly simple. Follow Chain-of-Thought:
-1. First, outline the chapter and learning goals.
-2. Start with a powerful hook (story, shocking fact, contradiction).
-3. Acknowledge the learner's common struggle with 'Percentage' and build empathy.
-4. Break content into small chunks (Segmenting Principle).
-5. After every 2-3 paragraphs, insert an Active Recall Prompt (🧠).
-6. Include at least one memory trick (mnemonic) that is weird or funny.
-7. End with a summary table and 'Review this after 2 days' prompt.
-Keep language extremely simple, conversational, and motivational, but depth at 12th grade level.
+## Chapter Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Convert between fractions, decimals, and percentages instantly.
+2. Solve percentage increase/decrease and successive change problems.
+3. Handle exam favourites: marks-based questions, population change, price-consumption, and election problems.
+4. Use fraction shortcuts (like 12.5% = 1/8) to solve questions in seconds.
+5. Spot the traps examiners set with "percentage of" vs "percentage more than".
+
+---
+
+## The Hook: A Shopkeeper Who Lost Money by Giving a Discount
+
+A shopkeeper bought a shirt for ₹400. He marked it at ₹600 and then, feeling generous during a sale, gave a 20% discount. "I still made a profit," he smiled.
+
+Did he? 20% of ₹600 is ₹120. Selling price = ₹480. Profit = ₹80. Yes, he did.
+
+But here's the twist: his friend marked the same shirt at ₹500 and gave only a 10% discount. Selling price = ₹450. Profit = ₹50.
+
+The first shopkeeper gave a **bigger discount** and still earned **more**. Why? Because percentages don't live alone — they live on a **base**. Change the base, and the same percentage tells a completely different story.
+
+That single idea — *percentage of what?* — is the heart of this chapter, and the heart of almost every trap SSC and Banking exams set for you.
+
+---
+
+## 1. What Is a Percentage, Really?
+
+**Percentage** means "per hundred" (from Latin *per centum*). When we say 40%, we simply mean 40 out of every 100.
+
+$$x\% = \frac{x}{100}$$
+
+So:
+- 25% = 25/100 = 1/4 = 0.25
+- 60% = 60/100 = 3/5 = 0.60
+- 7.5% = 7.5/100 = 3/40 = 0.075
+
+A percentage is not a new kind of number. It is just a **fraction wearing a uniform** — the uniform of 100. That's why percentages are so useful: they let us compare things fairly. Scoring 18 out of 25 in one test and 30 out of 40 in another — which is better? Convert both to percentages: 72% vs 75%. Now the comparison is instant.
+
+🧠 **Active Recall:** Without looking above — what does 12.5% equal as a fraction? And what is 3/8 as a percentage? (Answers: 1/8 and 37.5%. If you hesitated, memorise the table coming in Section 3.)
+
+---
+
+## 2. The Learner's Struggle (You're Not Alone)
+
+Most students don't fail percentage questions because they can't calculate. They fail because of three silent mistakes:
+
+1. **Wrong base:** "A is 25% more than B" does NOT mean "B is 25% less than A." (We'll prove this soon.)
+2. **Adding percentages blindly:** Two successive increases of 10% and 20% are NOT a 30% increase.
+3. **Percentage vs percentage points:** If interest rates rise from 4% to 6%, that's a rise of 2 *percentage points*, but a 50% *percentage increase*.
+
+Every formula in this chapter exists to kill one of these three mistakes. Keep them in mind as we go.
+
+---
+
+## 3. The Fraction–Percentage Bridge (Your Biggest Weapon)
+
+Toppers don't calculate 37.5% of 640 by multiplying 0.375 × 640. They see 37.5% and think **3/8**, then do 640 ÷ 8 × 3 = 240 in their heads.
+
+Memorise this bridge table — it pays off in every single Quant paper:
+
+| Percentage | Fraction | Percentage | Fraction |
+|---|---|---|---|
+| 50% | 1/2 | 12.5% | 1/8 |
+| 25% | 1/4 | 37.5% | 3/8 |
+| 75% | 3/4 | 62.5% | 5/8 |
+| 20% | 1/5 | 87.5% | 7/8 |
+| 10% | 1/10 | 16.66% | 1/6 |
+| 5% | 1/20 | 33.33% | 1/3 |
+| 8.33% | 1/12 | 66.66% | 2/3 |
+| 6.25% | 1/16 | 14.28% | 1/7 |
+| 11.11% | 1/9 | 9.09% | 1/11 |
+
+**Mnemonic (the weird one):** Imagine a pizza shop where the owner is a miser named **"Aath-ka-Pizza"** (Mr. Eighth). He cuts his pizza into 8 slices and prices them: 1 slice = ₹12.5, 3 slices = ₹37.5, 5 slices = ₹62.5, 7 slices = ₹87.5. The odd slices (1, 3, 5, 7) give the odd prices (12.5, 37.5, 62.5, 87.5). Remember the miser, and the whole 1/8 family is yours forever.
+
+🧠 **Active Recall:** Cover the table. What fraction is 62.5%? What percentage is 1/12? (Answers: 5/8 and 8.33%.)
+
+---
+
+## 4. The Core Formula: Finding Percentages and Values
+
+Everything in this chapter grows from one line:
+
+$$\text{Percentage} = \frac{\text{Part}}{\text{Whole}} \times 100$$
+
+From this, three question types are born:
+
+**Type 1 — Find the percentage:** What % of 80 is 56?
+→ (56/80) × 100 = 70%
+
+**Type 2 — Find the part:** What is 35% of 240?
+→ 240 × 35/100 = 84 (or smarter: 35% = 25% + 10% = 60 + 24 = 84)
+
+**Type 3 — Find the whole:** 45 is 15% of what number?
+→ Whole = 45 × 100/15 = 300
+
+🧠 **Active Recall:** 60 is 12% of which number? Try it before reading on. (Answer: 60 × 100/12 = 500.)
+
+---
+
+## 5. Percentage Increase and Decrease — and the Base Trap
+
+$$\text{\% Increase} = \frac{\text{Increase}}{\text{Original Value}} \times 100$$
+
+$$\text{\% Decrease} = \frac{\text{Decrease}}{\text{Original Value}} \times 100$$
+
+The denominator is **always the original (starting) value** — this is where the trap lives.
+
+**The classic trap:** If A's salary is 25% more than B's, by what % is B's salary less than A's?
+
+Let B = 100. Then A = 125.
+B is less than A by 25, but the base is now **A = 125**:
+→ (25/125) × 100 = **20%**, not 25%!
+
+**The golden rule:** If A is x% more than B, then B is $\frac{x}{100+x} \times 100$% less than A.
+If A is x% less than B, then B is $\frac{x}{100-x} \times 100$% more than A.
+
+🧠 **Active Recall:** A number is 20% less than 80. By what % is 80 more than that number? (Answer: number = 64; (16/64) × 100 = 25%.)
+
+---
+
+## 6. Successive Percentage Change
+
+Prices rise 10% this year and 20% next year. Total rise = 30%? **No.**
+
+Start with 100. After 10% rise → 110. After 20% rise on 110 → 132. Total rise = **32%**.
+
+**Formula:** For successive changes of a% and b%:
+
+$$\text{Net change} = a + b + \frac{ab}{100}\ \%$$
+
+(Use negative signs for decreases.)
+
+- 10% rise then 20% rise: 10 + 20 + (10×20)/100 = **+32%**
+- 20% rise then 20% fall: 20 − 20 + (20×−20)/100 = **−4%** (a net loss!)
+
+That last result shocks everyone: rise 20%, then fall 20%, and you're still 4% poorer. Why? The fall acts on a bigger base. This is exactly the kind of question examiners love.
+
+🧠 **Active Recall:** A price rises 25% and then falls 25%. Net change? (Answer: 25 − 25 − 625/100 = −6.25%.)
+
+---
+
+## 7. Exam Favourite Models
+
+**(a) Price–Consumption:** If the price of sugar rises by 25%, by how much % should consumption be cut so that expenditure stays the same?
+→ Reduction = $\frac{x}{100+x} \times 100 = \frac{25}{125} \times 100$ = **20%**
+
+**(b) Population:** A town's population is 80,000. It grows 5% every year. Population after 2 years?
+→ 80,000 × (1.05)² = 80,000 × 1.1025 = **88,200**
+
+**(c) Marks:** A student needs 40% to pass. He scores 180 marks and fails by 20 marks. Maximum marks?
+→ Pass marks = 180 + 20 = 200 = 40% of total → Total = 200 × 100/40 = **500**
+
+**(d) Elections:** In an election between two candidates, the winner got 62% of valid votes and won by 4,800 votes. Total valid votes?
+→ Margin = 62% − 38% = 24% → 24% of votes = 4,800 → Total = **20,000**
+
+🧠 **Active Recall:** In the election model, why do we subtract 62 − 38 instead of using 62 directly? (Because the *margin of victory* is the difference between the two candidates' shares.)
+
+---
+
+## 8. Summary Table
+
+| Concept | Key Result |
+|---|---|
+| Meaning of x% | x/100 |
+| Basic formula | % = (Part/Whole) × 100 |
+| % increase/decrease | (Change/Original) × 100 |
+| A is x% more than B ⇒ B is less than A by | [x/(100+x)] × 100 % |
+| Successive change (a%, b%) | a + b + ab/100 % |
+| Price rise x% ⇒ cut in consumption | [x/(100+x)] × 100 % |
+| Population after n years at r% growth | P × (1 + r/100)ⁿ |
+| Election margin | Winner% − Loser% = Margin% |
+
+**Master conversions:** 1/8 = 12.5%, 1/6 = 16.66%, 1/7 = 14.28%, 1/9 = 11.11%, 1/11 = 9.09%, 1/12 = 8.33%.
+
+---
+
+## 🔁 Review Reminder
+
+You have just built the foundation for Profit & Loss, Simple & Compound Interest, and Data Interpretation — all of them are percentage chapters in disguise.
+
+**Review this chapter after 2 days.** When you do, first try to write the fraction–percentage table and the successive-change formula from memory. If both come out clean, you're exam-ready. If not, re-read Sections 3 and 6 — they carry the most marks per minute of study.

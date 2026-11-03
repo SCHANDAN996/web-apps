@@ -1,0 +1,42 @@
+# 📋 Important Formulas — Complex Numbers
+
+| Formula Name | Formula | One-line Use-Hint |
+|---|---|---|
+| Imaginary unit | i² = −1, i³ = −i, i⁴ = 1 | Reduce any power of i by dividing exponent by 4 |
+| Powers of i (cycle) | iⁿ = i^(n mod 4) | Cycle repeats every 4: i, −1, −i, 1 |
+| Standard form | z = a + ib, a = Re(z), b = Im(z) | Identify real and imaginary parts first |
+| Conjugate | z̄ = a − ib | Flip sign of imaginary part; used for rationalising |
+| Modulus | \|z\| = √(a² + b²) | Distance of z from origin in Argand plane |
+| Key identity | z·z̄ = \|z\|² | Fastest way to remove denominator |
+| Addition | (a+ib) + (c+id) = (a+c) + i(b+d) | Add real to real, imaginary to imaginary |
+| Multiplication | (a+ib)(c+id) = (ac − bd) + i(ad + bc) | Expand like binomials, replace i² by −1 |
+| Division | z₁/z₂ = (z₁·z̄₂)/\|z₂\|² | Multiply numerator and denominator by conjugate of denominator |
+| Multiplicative inverse | z⁻¹ = z̄/\|z\|² | Inverse needs conjugate over modulus squared |
+| Argument | arg(z) = θ, tan θ = b/a | Fix quadrant before writing θ |
+| Principal argument | −π < Arg(z) ≤ π | Always report the principal value unless asked otherwise |
+| Polar form | z = r(cos θ + i sin θ), r = \|z\| | Convert a + ib → r cis θ for powers/roots |
+| Euler's form | z = re^(iθ) | Compact form; e^(iπ) + 1 = 0 |
+| De Moivre's theorem | (cos θ + i sin θ)ⁿ = cos nθ + i sin nθ | Powers and roots of complex numbers |
+| nth roots of z | z^(1/n) = r^(1/n)[cos((θ+2kπ)/n) + i sin((θ+2kπ)/n)], k = 0,1,…,n−1 | Exactly n roots, equally spaced on a circle |
+| Cube roots of unity | 1, ω, ω² where ω = (−1 + i√3)/2 | Use ω³ = 1 and 1 + ω + ω² = 0 |
+| Properties of ω | ω³ = 1; 1 + ω + ω² = 0; ω² = ω̄ | Collapse big powers of ω instantly |
+| Modulus laws | \|z₁z₂\| = \|z₁\|\|z₂\|; \|z₁/z₂\| = \|z₁\|/\|z₂\| | Split modulus over product/quotient |
+| Argument laws | arg(z₁z₂) = arg z₁ + arg z₂; arg(z₁/z₂) = arg z₁ − arg z₂ | Arguments add on multiplication (adjust to principal range) |
+| Conjugate laws | (z₁ ± z₂)̄ = z̄₁ ± z̄₂; (z₁z₂)̄ = z̄₁z̄₂; (z̄)̄ = z | Conjugate distributes over +, −, ×, ÷ |
+| Re(z), Im(z) via conjugate | Re(z) = (z + z̄)/2; Im(z) = (z − z̄)/(2i) | Handy in proof-type questions |
+| Triangle inequality | \|z₁ + z₂\| ≤ \|z₁\| + \|z₂\| | Bounds max/min of modulus expressions |
+| Reverse triangle inequality | \|\|z₁\| − \|z₂\|\| ≤ \|z₁ − z₂\| | Lower bound on distance between two points |
+| Distance between points | \|z₁ − z₂\| | Length of segment joining z₁ and z₂ |
+| Section formula | z = (mz₂ + nz₁)/(m + n) | Point dividing join of z₁, z₂ in ratio m:n |
+| Equation of a circle | \|z − z₀\| = r | Centre z₀, radius r |
+| Perpendicular bisector | \|z − z₁\| = \|z − z₂\| | Locus equidistant from two fixed points |
+| Straight line (general) | zᾱ + z̄α + c = 0 (c real) | Line in complex form |
+| Rotation of a vector | z′ = z·e^(iθ) | Rotate point about origin by angle θ |
+| Collinearity of 3 points | (z₃ − z₁)/(z₂ − z₁) is real | Ratio real ⇒ points lie on one line |
+| Perpendicularity | (z₃ − z₁)/(z₂ − z₁) is purely imaginary | Ratio purely imaginary ⇒ right angle at z₁ |
+| Concyclic / angle condition | arg((z₁−z₃)/(z₂−z₃)) = constant | Constant angle ⇒ locus is an arc of a circle |
+| Square root of a + ib | √(a+ib) = ±[√((\|z\|+a)/2) + i√((\|z\|−a)/2)] (sign of i-term = sign of b) | Direct formula; avoids squaring both sides |
+| Quadratic with real coefficients | x = (−b ± √(b²−4ac))/2a; if D < 0, roots are conjugates | Complex roots of real quadratics come in conjugate pairs |
+| Sum of nth roots of unity | 1 + α + α² + … + αⁿ⁻¹ = 0 | Roots of zⁿ = 1 always sum to zero |
+| Geometric series | 1 + z + z² + … + zⁿ⁻¹ = (zⁿ − 1)/(z − 1), z ≠ 1 | Combine with roots of unity for series questions |
+| cos θ, sin θ via z | cos θ = (z + z⁻¹)/2, sin θ = (z − z⁻¹)/(2i), where z = e^(iθ) | Converts trig sums into geometric series |

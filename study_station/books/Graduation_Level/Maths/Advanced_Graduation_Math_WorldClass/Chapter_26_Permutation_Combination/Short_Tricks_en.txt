@@ -1,0 +1,113 @@
+# 🪄 Short Tricks — Permutation & Combination
+
+---
+
+**🎯 TRICK 1: "P = Position, C = Committee"**
+> **P**ermutation = **P**osition matters (President, Vice-President — order counts!)
+> **C**ombination = **C**ommittee (a committee of 3 is the same no matter who sits where)
+> Ask yourself: "Am I making a POSITION or a COMMITTEE?" Position → P, Committee → C.
+
+---
+
+**🎯 TRICK 2: "Divide by the Duplicates"**
+> Arrangements of a word with repeated letters? **Divide by the duplicates!**
+> MISSISSIPPI → 11! / (4! × 4! × 2!) — divide by factorial of every repeated letter.
+> Memory hook: *"Twins get half the attention — divide them out!"*
+
+---
+
+**🎯 TRICK 3: "GAP the Enemies"**
+> "No two vowels together" or "no two boys together"?
+> **First seat the friendly ones, then GAP the enemies into the spaces.**
+> 5 consonants seated → 6 gaps (including ends) → choose gaps for vowels.
+> Hook: *Enemies never sit side by side — they hide in the GAPS.*
+
+---
+
+**🎯 TRICK 4: "GLUE the Friends"**
+> "All vowels together" or "these 3 people must sit together"?
+> **GLUE them into one super-item**, arrange, then multiply by internal arrangements.
+> Hook: *Best friends are glued together — treat them as ONE, then unglue inside.*
+
+---
+
+**🎯 TRICK 5: "Circle = Minus One"**
+> Circular arrangements of n people = **(n − 1)!**
+> Why? Fix one person as the "anchor" — the circle has no head seat.
+> Hook: *"In a round table, one person is the anchor — the rest dance around: (n−1)!"*
+> Necklace/garland (flippable): **(n−1)!/2** — *"A necklace can flip, so halve it!"*
+
+---
+
+**🎯 TRICK 6: "C is Cheaper (Smaller) than P"**
+> ⁿCᵣ = ⁿPᵣ / r! — Combination is always the **smaller** number.
+> Sanity check: if your C answer is bigger than your P answer, you flipped them!
+> Hook: *"Committees are Cheap — Positions are Pricey."*
+
+---
+
+**🎯 TRICK 7: "Pick or Skip = 2ⁿ"**
+> Number of subsets of an n-element set = **2ⁿ** (each element: pick or skip).
+> Non-empty subsets = 2ⁿ − 1. Proper subsets = 2ⁿ − 1 (or 2ⁿ − 2 for non-empty proper).
+> Hook: *"Every element flips a coin: IN or OUT — 2 choices, n times."*
+
+---
+
+**🎯 TRICK 8: "Stars and Bars = C(n+r−1, r−1)"**
+> Distributing n identical items among r people (zero allowed):
+> **ⁿ⁺ʳ⁻¹Cᵣ₋₁**
+> Hook: *"n stars, r−1 bars — count the ways to shuffle the fence posts!"*
+> If everyone must get at least one: give 1 each first, then use **ⁿ⁻¹Cᵣ₋₁**.
+
+---
+
+**🎯 TRICK 9: "At Least One = Total − None"**
+> "At least one" problems? Don't add cases — **subtract!**
+> Answer = Total − (cases with NONE).
+> Hook: *"At least one is lazy math: take everything, throw away the empty plate."*
+
+---
+
+**🎯 TRICK 10: "ⁿCᵣ = ⁿCₙ₋ᵣ — The Mirror Rule"**
+> Choosing 3 to take = choosing 7 to leave (out of 10).
+> Hook: *"Picking the team is the same as picking the bench."*
+> Use it to simplify: ¹⁰⁰C₉₈ = ¹⁰⁰C₂ = 4950. **Always mirror the big r!**
+
+---
+
+**🎯 TRICK 11: "Pascal's Hug: ⁿCᵣ + ⁿCᵣ₋₁ = ⁿ⁺¹Cᵣ"**
+> Two neighbours in Pascal's triangle **hug** to make the number below them.
+> Hook: *"Two friends hug, and a new number is born below."*
+> Great for identity-based questions in CGL Tier-II / CSAT.
+
+---
+
+**🎯 TRICK 12: "Dearrangement — The !n Panic"**
+> No object in its original place (derangement):
+> **!n = n! × (1 − 1/1! + 1/2! − 1/3! + … ± 1/n!)**
+> Quick values: !2 = 1, !3 = 2, !4 = 9, !5 = 44.
+> Hook: *"1, 2, 9, 44 — the letters panic and swap houses!"*
+> (Letters in wrong envelopes = classic exam trap.)
+
+---
+
+**🎯 TRICK 13: "Grid Paths: Down-Right = C(m+n, m)"**
+> Paths on an m × n grid moving only right/down = **ᵐ⁺ⁿCₘ**.
+> Hook: *"Every path is just a word made of R's and D's — arrange the letters!"*
+> m R's + n D's → (m+n)! / (m! n!).
+
+---
+
+**🎯 TRICK 14: "Handshakes = ⁿC₂"**
+> Handshakes among n people = **ⁿC₂** (every pair shakes once).
+> Same formula for: matches in a league (single round), lines through n points, diagonals base.
+> Diagonals of n-gon = ⁿC₂ − n = **n(n−3)/2**.
+> Hook: *"A handshake is just a committee of two!"*
+
+---
+
+**🎯 TRICK 15: "AND Multiply, OR Add"**
+> Task A **AND** Task B (both must happen) → **multiply** the ways.
+> Task A **OR** Task B (either one) → **add** the ways.
+> Hook: *"AND is a chain (links multiply); OR is a fork (paths add)."*
+> This one line solves half of all P&C word problems — read the question for "and/or" first!

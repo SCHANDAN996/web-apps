@@ -1,0 +1,43 @@
+```mermaid
+graph TD
+    A["घन-पासा<br>Cubes & Dice"] --> B["घन / Cube"]
+    A --> C["पासा / Dice"]
+    A --> D["परीक्षक के जाल<br>Examiner Traps"]
+    A --> E["समय प्रबंधन<br>Time Management"]
+
+    B --> B1["आधारभूत तथ्य<br>Basic Facts"]
+    B1 --> B1a["6 फलक, 12 किनारे, 8 शीर्ष<br>6 faces, 12 edges, 8 vertices"]
+    B1 --> B1b["प्रत्येक शीर्ष पर 3 फलक मिलते हैं<br>3 faces meet at each vertex"]
+
+    B --> B2["घन काटना<br>Cutting a Cube"]
+    B2 --> B2a["प्रत्येक किनारे पर n भाग → n³ छोटे घन<br>n divisions per edge → n³ small cubes"]
+    B2 --> B2b["3 फलक रंगीन = 8 (कोने)<br>3 painted faces = 8 (corners)"]
+    B2 --> B2c["2 फलक रंगीन = 12(n−2)<br>2 painted faces = 12(n−2)"]
+    B2 --> B2d["1 फलक रंगीन = 6(n−2)²<br>1 painted face = 6(n−2)²"]
+    B2 --> B2e["0 फलक रंगीन = (n−2)³<br>0 painted faces = (n−2)³"]
+
+    C --> C1["मानक पासा<br>Standard Dice"]
+    C1 --> C1a["सम्मुख फलकों का योग = 7<br>Opposite faces sum = 7"]
+    C1 --> C1b["1↔6, 2↔5, 3↔4"]
+
+    C --> C2["सामान्य पासा<br>Ordinary Dice"]
+    C2 --> C2a["सम्मुख फलकों का योग 7 नहीं<br>Opposite faces do NOT sum to 7"]
+
+    C --> C3["सम्मुख फलक ज्ञात करना<br>Finding Opposite Faces"]
+    C3 --> C3a["दो स्थितियाँ, एक उभयनिष्ठ फलक<br>Two views, one common face"]
+    C3 --> C3b["घड़ी की दिशा में क्रम से लिखें<br>Write clockwise from common face"]
+    C3 --> C3c["दो उभयनिष्ठ फलक → शेष दो सम्मुख<br>Two common faces → remaining two opposite"]
+
+    C --> C4["खुला पासा / जाल<br>Open Dice / Net"]
+    C4 --> C4a["11 प्रकार के जाल<br>11 types of nets"]
+    C4 --> C4b["वैकल्पिक फलक सम्मुख होते हैं<br>Alternate faces are opposite"]
+
+    D --> D1["मानक बनाम सामान्य पासा भ्रम<br>Standard vs Ordinary confusion"]
+    D --> D2["घड़ी/वामावर्त दिशा की गलती<br>Clockwise/Anticlockwise error"]
+    D --> D3["n=2 पर सूत्र का दुरुपयोग<br>Formula misuse at n=2"]
+    D --> D4["लगभग-सही कथन वाले विकल्प<br>Nearly-correct statement options"]
+
+    E --> E1["सीधा सूत्र वाला प्रश्न: 15 सेकंड<br>Direct formula question: 15 sec"]
+    E --> E2["दो-स्थिति पासा: 30-45 सेकंड<br>Two-view dice: 30-45 sec"]
+    E --> E3["जटिल कटिंग/जाल: 60 सेकंड से अधिक → छोड़ें<br>Complex cutting/net: skip if >60 sec"]
+```

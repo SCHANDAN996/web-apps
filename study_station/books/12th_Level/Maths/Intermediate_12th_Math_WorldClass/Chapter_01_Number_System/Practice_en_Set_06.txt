@@ -1,3 +1,151 @@
-# Chapter: Number System (Advanced), Level: intermediate, Set: 6/6
+Questions 126–150: Hard
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Number System (Advanced). This is Set 6 (total 6 sets, 150 questions). Questions must be numbered 126 to 150. All 25 questions should be Hard. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+126. What is the unit digit of 57^336?
+(a) 2 (b) 1 (c) 8 (d) 4
+Answer: (b)
+Solution: The unit digits of powers of 7 repeat in a cycle of 4: 7, 9, 3, 1. 336 leaves remainder 4 in this cycle, so the unit digit is 1. So the answer is 1.
+Source: PYQ-style
+
+127. How many zeros are there at the end of 596! (596 factorial)?
+(a) 145 (b) 59 (c) 146 (d) 148
+Answer: (c)
+Solution: Count the factors of 5: 596/5 + 596/25 + 596/125 + … (whole parts) = 146. There are always more 2s, so the number of trailing zeros is 146. So the answer is 146.
+Source: PYQ-style
+
+128. How many factors (divisors) does 198 have?
+(a) 24 (b) 14 (c) 5 (d) 12
+Answer: (d)
+Solution: 198 = 2 × 3^2 × 11. Number of factors = (1+1) × (2+1) × (1+1) = 12. So the answer is 12.
+Source: PYQ-style
+
+129. What is the remainder when 2^66 is divided by 9?
+(a) 1 (b) 8 (c) 3 (d) 5
+Answer: (a)
+Solution: Remainders of powers of 2 on division by 9 repeat: 2, 4, 8, 7, 5, 1 (cycle of 6). 66 leaves remainder 6, so the remainder is 1. So the answer is 1.
+Source: PYQ-style
+
+130. What is the smallest digit that can replace * so that 825*4 is divisible by 9?
+(a) 0 (b) 2 (c) 8 (d) 1
+Answer: (c)
+Solution: A number is divisible by 9 when the sum of its digits is divisible by 9. Trying digits from 0 upwards, the smallest that works is 8. So the answer is 8.
+Source: PYQ-style
+
+131. What is the sum of the first 20 odd natural numbers?
+(a) 380 (b) 420 (c) 210 (d) 400
+Answer: (d)
+Solution: The sum of the first n odd numbers is n² = 20² = 400. So the answer is 400.
+Source: PYQ-style
+
+132. What is the unit digit of 73^190?
+(a) 6 (b) 9 (c) 2 (d) 1
+Answer: (b)
+Solution: The unit digits of powers of 3 repeat in a cycle of 4: 3, 9, 7, 1. 190 leaves remainder 2 in this cycle, so the unit digit is 9. So the answer is 9.
+Source: PYQ-style
+
+133. How many zeros are there at the end of 101! (101 factorial)?
+(a) 25 (b) 20 (c) 24 (d) 10
+Answer: (c)
+Solution: Count the factors of 5: 101/5 + 101/25 + 101/125 + … (whole parts) = 24. There are always more 2s, so the number of trailing zeros is 24. So the answer is 24.
+Source: PYQ-style
+
+134. How many factors (divisors) does 4125 have?
+(a) 14 (b) 6 (c) 32 (d) 16
+Answer: (d)
+Solution: 4125 = 5^3 × 3 × 11. Number of factors = (3+1) × (1+1) × (1+1) = 16. So the answer is 16.
+Source: PYQ-style
+
+135. What is the remainder when 2^23 is divided by 13?
+(a) 8 (b) 7 (c) 11 (d) 9
+Answer: (b)
+Solution: Remainders of powers of 2 on division by 13 repeat: 2, 4, 8, 3, 6, 12, 11, 9, 5, 10, 7, 1 (cycle of 12). 23 leaves remainder 11, so the remainder is 7. So the answer is 7.
+Source: PYQ-style
+
+136. What is the smallest digit that can replace * so that 445*7 is divisible by 11?
+(a) 2 (b) 5 (c) 1 (d) 4
+Answer: (c)
+Solution: A number is divisible by 11 when the difference between the sums of digits in odd and even places is 0 or a multiple of 11. Trying digits from 0 upwards, the smallest that works is 1. So the answer is 1.
+Source: PYQ-style
+
+137. What is the sum of the squares of the first 12 natural numbers?
+(a) 6084 (b) 936 (c) 638 (d) 650
+Answer: (d)
+Solution: Sum = n(n + 1)(2n + 1)/6 = 12 × 13 × 25/6 = 650. So the answer is 650.
+Source: PYQ-style
+
+138. What is the unit digit of 86^354?
+(a) 9 (b) 6 (c) 1 (d) 8
+Answer: (b)
+Solution: The unit digits of powers of 6 repeat in a cycle of 1: 6. 354 leaves remainder 1 in this cycle, so the unit digit is 6. So the answer is 6.
+Source: PYQ-style
+
+139. How many zeros are there at the end of 260! (260 factorial)?
+(a) 26 (b) 64 (c) 66 (d) 65
+Answer: (b)
+Solution: Count the factors of 5: 260/5 + 260/25 + 260/125 + … (whole parts) = 64. There are always more 2s, so the number of trailing zeros is 64. So the answer is 64.
+Source: PYQ-style
+
+140. How many factors (divisors) does 385875 have?
+(a) 48 (b) 47 (c) 9 (d) 96
+Answer: (a)
+Solution: 385875 = 7^3 × 3^2 × 5^3. Number of factors = (3+1) × (2+1) × (3+1) = 48. So the answer is 48.
+Source: PYQ-style
+
+141. What is the LCM of 143 and 52?
+(a) 572 (b) 286 (c) 585 (d) 1144
+Answer: (a)
+Solution: HCF of 143 and 52 is 13; LCM = 143 × 52 ÷ 13 = 572. So the answer is 572.
+Source: PYQ-style
+
+142. What is the remainder when 5^26 is divided by 7?
+(a) 4 (b) 5 (c) 0 (d) 6
+Answer: (a)
+Solution: Remainders of powers of 5 on division by 7 repeat: 5, 4, 6, 2, 3, 1 (cycle of 6). 26 leaves remainder 2, so the remainder is 4. So the answer is 4.
+Source: PYQ-style
+
+143. What is the smallest digit that can replace * so that 688*2 is divisible by 11?
+(a) 8 (b) 9 (c) 0 (d) 3
+Answer: (a)
+Solution: A number is divisible by 11 when the difference between the sums of digits in odd and even places is 0 or a multiple of 11. Trying digits from 0 upwards, the smallest that works is 8. So the answer is 8.
+Source: PYQ-style
+
+144. What is the sum of the first 40 odd natural numbers?
+(a) 1640 (b) 820 (c) 1600 (d) 1560
+Answer: (c)
+Solution: The sum of the first n odd numbers is n² = 40² = 1600. So the answer is 1600.
+Source: PYQ-style
+
+145. What is the unit digit of 65^64?
+(a) 0 (b) 7 (c) 5 (d) 6
+Answer: (c)
+Solution: The unit digits of powers of 5 repeat in a cycle of 1: 5. 64 leaves remainder 1 in this cycle, so the unit digit is 5. So the answer is 5.
+Source: PYQ-style
+
+146. How many zeros are there at the end of 477! (477 factorial)?
+(a) 95 (b) 47 (c) 118 (d) 117
+Answer: (d)
+Solution: Count the factors of 5: 477/5 + 477/25 + 477/125 + … (whole parts) = 117. There are always more 2s, so the number of trailing zeros is 117. So the answer is 117.
+Source: PYQ-style
+
+147. How many factors (divisors) does 49000 have?
+(a) 96 (b) 48 (c) 50 (d) 46
+Answer: (b)
+Solution: 49000 = 2^3 × 5^3 × 7^2. Number of factors = (3+1) × (3+1) × (2+1) = 48. So the answer is 48.
+Source: PYQ-style
+
+148. What is the remainder when 4^43 is divided by 11?
+(a) 9 (b) 2 (c) 1 (d) 0
+Answer: (a)
+Solution: Remainders of powers of 4 on division by 11 repeat: 4, 5, 9, 3, 1 (cycle of 5). 43 leaves remainder 3, so the remainder is 9. So the answer is 9.
+Source: PYQ-style
+
+149. What is the smallest digit that can replace * so that 8428* is divisible by 11?
+(a) 4 (b) 5 (c) 7 (d) 2
+Answer: (d)
+Solution: A number is divisible by 11 when the difference between the sums of digits in odd and even places is 0 or a multiple of 11. Trying digits from 0 upwards, the smallest that works is 2. So the answer is 2.
+Source: PYQ-style
+
+150. What is the sum of the squares of the first 15 natural numbers?
+(a) 1240 (b) 14400 (c) 1465 (d) 1225
+Answer: (a)
+Solution: Sum = n(n + 1)(2n + 1)/6 = 15 × 16 × 31/6 = 1240. So the answer is 1240.
+Source: PYQ-style

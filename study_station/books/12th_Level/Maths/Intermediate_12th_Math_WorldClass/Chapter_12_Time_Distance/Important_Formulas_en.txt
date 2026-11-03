@@ -1,8 +1,37 @@
-# Chapter: Time & Distance, Level: intermediate
+# Important Formulas — Time & Distance
 
-@content_agent lang=en level=intermediate 'List all important formulas, equations, and rules for Time & Distance.
-Instructions:
-- Only formulas and a one-line hint (when to use), no detailed explanation.
-- Present in a clean table: Formula Name | Formula | Use-Hint
-- Cover all formulas essential for solving exam questions.
-- Keep language simple and precise.'
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Basic Relation | Speed = Distance ÷ Time | The master formula; all others come from it |
+| Distance | Distance = Speed × Time | When speed and time are given |
+| Time | Time = Distance ÷ Speed | When distance and speed are given |
+| km/h → m/s | m/s = km/h × 5/18 | Converting speed for train/second-based problems |
+| m/s → km/h | km/h = m/s × 18/5 | Converting back to km/h |
+| Average Speed (equal distances) | Avg Speed = 2xy ÷ (x + y) | Same distance covered at speeds x and y (harmonic mean) |
+| Average Speed (equal times) | Avg Speed = (x + y) ÷ 2 | Same time travelled at speeds x and y (arithmetic mean) |
+| Average Speed (general) | Avg Speed = Total Distance ÷ Total Time | When distances/times are unequal |
+| Relative Speed (same direction) | Relative Speed = x − y | Two objects moving the same way (x > y) |
+| Relative Speed (opposite direction) | Relative Speed = x + y | Two objects moving towards/away from each other |
+| Train crossing a pole/point | Time = Train Length ÷ Train Speed | Pole has zero length |
+| Train crossing a platform/bridge | Time = (Train Length + Platform Length) ÷ Train Speed | Add both lengths |
+| Train crossing a man in another train (opposite direction) | Time = L₁ ÷ (S₁ + S₂) | A man is a point object, so only the crossing train's length L₁ is covered |
+| Train crossing a man in another train (same direction) | Time = L₁ ÷ (S₁ − S₂) | Faster train overtaking; only L₁ is covered since the man is a point (S₁ > S₂) |
+| Two trains crossing each other (opposite direction) | Time = (L₁ + L₂) ÷ (S₁ + S₂) | Both full lengths must cross; use when both objects are trains |
+| Two trains crossing each other (same direction) | Time = (L₁ + L₂) ÷ (S₁ − S₂) | Faster train overtakes slower one (S₁ > S₂) |
+| Two trains starting towards each other | Meeting Time = Distance ÷ (S₁ + S₂) | Trains start from opposite ends simultaneously |
+| Distance covered before meeting | Distance by 1st = S₁ × Meeting Time | After finding meeting time |
+| Boat in still water & stream | Downstream Speed = B + S | B = boat speed in still water, S = stream speed |
+| Boat against stream | Upstream Speed = B − S | Boat moves slower against the current |
+| Boat speed in still water | B = (Downstream + Upstream) ÷ 2 | When both journey speeds are known |
+| Stream speed | S = (Downstream − Upstream) ÷ 2 | Half the difference of the two speeds |
+| Circular track — first meeting (opposite directions) | Time = Track Length ÷ (S₁ + S₂) | Two runners starting together, opposite ways |
+| Circular track — first meeting (same direction) | Time = Track Length ÷ (S₁ − S₂) | Faster runner laps the slower one |
+| Meeting at starting point | Time = LCM of individual lap times | When both must be together at the start point |
+| Speed ratio (same distance) | Speed₁ : Speed₂ = Time₂ : Time₁ | Speed and time are inversely proportional |
+| Speed ratio (same time) | Distance₁ : Distance₂ = Speed₁ : Speed₂ | Distance and speed are directly proportional |
+| Late/Early problem | Distance = (S₁ × S₂ × Time Difference) ÷ (S₁ − S₂) | Reaching late at one speed, early at another |
+| Walking part of journey | Use Avg Speed = Total Distance ÷ Total Time | Part on foot, part by vehicle |
+| Stoppage time per hour | Stoppage = (Difference of speeds ÷ Speed without stoppage) × 60 min | Train/bus with and without halts |
+| Escalator/moving walkway | Effective Speed = Person's Speed ± Escalator Speed | + if same direction, − if opposite |
+| Races — A beats B by x metres | In same time: A covers L, B covers (L − x) | L = race length; compare distances in equal time |
+| Races — head start | Speed ratio = Distances covered in same time | Convert "beats by x m or t seconds" into ratios |

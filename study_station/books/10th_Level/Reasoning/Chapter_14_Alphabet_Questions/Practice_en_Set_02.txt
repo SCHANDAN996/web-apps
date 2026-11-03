@@ -1,0 +1,151 @@
+📝 Practice Set 2 (Questions 26–50): Medium (26–45), Hard (46–50) | Total 25 MCQs
+
+26. Find the next term in the series: ABD, EFH, IJL, ?
+(a) MNS (b) MNO (c) MNP (d) MNR
+Answer: (c)
+Solution: Each of the three letters advances by +4: A→E→I→M, B→F→J→N, D→H→L→P. Choosing MNO breaks the third-letter pattern, so the answer is MNP.
+Source: PYQ-style
+
+27. Find the odd one out among the given letters: Q, S, W, Y
+(a) S (b) Q (c) Y (d) W
+Answer: (c)
+Solution: Positional values are Q=17, S=19, W=23, Y=25. Examiner's Trap: all four look like ordinary letters with no obvious gap pattern; the real key is that 17, 19 and 23 are prime numbers while 25 is not, so the answer is Y.
+Source: PYQ-style
+
+28. In a certain code, 'PART' is written as 'KZIG'. How will 'SAME' be written in that code?
+(a) HZNV (b) HZMV (c) HZNU (d) HZMU
+Answer: (a)
+Solution: Each letter is replaced by its opposite letter in the alphabet: P↔K, A↔Z, R↔I, T↔G. For SAME: S↔H, A↔Z, M↔N, E↔V. Writing HZNU confuses the opposite of E with U, so the answer is HZNV.
+Source: PYQ-style
+
+29. If 'BLUE' is coded as 'DPYG', then 'GREEN' is coded as:
+(a) IVHJQ (b) IVHIP (c) IUIIP (d) IVIIP
+Answer: (d)
+Solution: The pattern is +2, +4, +4, +2: B+2=D, L+4=P, U+4=Y, E+2=G. For GREEN: G+2=I, R+4=V, E+4=I, E+4=I, N+2=P. Applying a uniform +2 shift gives ITGGP, which is wrong; the varying shift gives IVIIP, so the answer is IVIIP.
+Source: PYQ-style
+
+30. Find the next letter in the series: B, E, I, N, ?
+(a) R (b) T (c) U (d) S
+Answer: (b)
+Solution: The gaps grow by one each time: B+3=E, E+4=I, I+5=N, so the next gap is +6: N(14)+6=20=T. Picking S assumes a +5 gap again, so the answer is T.
+Source: PYQ-style
+
+31. Complete the analogy: DFH : JLN :: PRT : ?
+(a) VXW (b) VXZ (c) VXY (d) WXZ
+Answer: (b)
+Solution: Every letter advances by +6: D+6=J, F+6=L, H+6=N. For PRT: P+6=V, R+6=X, T+6=Z. VXY wrongly adds only +5 to T, so the answer is VXZ.
+Source: PYQ-style
+
+32. Find the next letter in the decreasing sequence: Z, X, V, T, ?
+(a) R (b) Q (c) P (d) S
+Answer: (a)
+Solution: Each step moves back 2 positions: Z(26), X(24), V(22), T(20), so next is 18 = R. Choosing S means stepping back only 1, so the answer is R.
+Source: PYQ-style
+
+33. Find the next letter in the series: C, G, L, R, ?
+(a) X (b) Y (c) W (d) Z
+Answer: (b)
+Solution: The gaps grow by one each time: C+4=G, G+5=L, L+6=R, so the next gap is +7: R(18)+7=25=Y. Choosing X assumes the gap stays at +6, so the answer is Y.
+Source: PYQ-style
+
+34. If AB = 3 and CD = 7, then what is the value of EF?
+(a) 13 (b) 12 (c) 14 (d) 11
+Answer: (d)
+Solution: The rule is the sum of alphabetical positions: AB = 1+2 = 3 and CD = 3+4 = 7. So EF = 5+6 = 11; multiplying the positions would give 30, which is not the rule, so the answer is 11.
+Source: PYQ-style
+
+35. How many such pairs of letters are there in the word 'BAND' which have as many letters between them in the word as in the English alphabet?
+(a) 1 (b) 0 (c) 3 (d) 2
+Answer: (a)
+Solution: Only the pair B–A works: they are adjacent in both the word and the alphabet. Examiner's Trap: B–D looks tempting, but the word has two letters (A, N) between them while the alphabet has only one (C), so the answer is 1.
+Source: PYQ-style
+
+36. In a certain code, 'MONKEY' is written as 'LNMJDX'. How will 'TIGER' be written in that code?
+(a) SHEDQ (b) SHFDQ (c) SHFDP (d) SHFCP
+Answer: (b)
+Solution: Every letter shifts back by 1: M→L, O→N, N→M, K→J, E→D, Y→X. For TIGER: T→S, I→H, G→F, E→D, R→Q. SHFDP wrongly shifts the last letter forward, so the answer is SHFDQ.
+Source: PYQ-style
+
+37. If all the letters of the word 'BRIGHT' are arranged in alphabetical order, which letter will be 3rd from the left?
+(a) R (b) G (c) I (d) H
+Answer: (d)
+Solution: In alphabetical order the letters become B, G, H, I, R, T. Counting from the original word order gives G, but the 3rd letter in the sorted order is H, so the answer is H.
+Source: PYQ-style
+
+38. How many such pairs of letters are there in the word 'CREATION' each of which has as many letters between them in the word as in the English alphabet?
+(a) 2 (b) 1 (c) 3 (d) 4
+Answer: (a)
+Solution: The valid pairs are C–E (one letter between in both: R in the word, D in the alphabet) and N–O (adjacent in both). No other pair matches, so the answer is 2.
+Source: PYQ-style
+
+39. If 'MANGO' is coded as 'OCPIQ', then how will 'APPLE' be coded?
+(a) BRRNG (b) CRRNF (c) CQQNG (d) CRRNG
+Answer: (d)
+Solution: Every letter advances by +2: M→O, A→C, N→P, G→I, O→Q. For APPLE: A→C, P→R, P→R, L→N, E→G. CRRNF wrongly shifts the last letter by only +1, so the answer is CRRNG.
+Source: PYQ-style
+
+40. Find the next letter in the series: B, E, H, K, ?
+(a) O (b) N (c) M (d) L
+Answer: (b)
+Solution: Each letter advances by +3: B(2)→E(5)→H(8)→K(11), so next is 14 = N. Choosing O assumes a +4 step, so the answer is N.
+Source: PYQ-style
+
+41. If 'HONEY' is coded as 'IPOFZ', then how will 'SUGAR' be coded?
+(a) TVHBS (b) TVHBR (c) TVHBT (d) TVHCS
+Answer: (a)
+Solution: Every letter shifts forward by +1: H→I, O→P, N→O, E→F, Y→Z. For SUGAR: S→T, U→V, G→H, A→B, R→S. TVHBR wrongly leaves the last letter unchanged, so the answer is TVHBS.
+Source: PYQ-style
+
+42. How many letters are there between the 10th letter from the left and the 6th letter from the right in the English alphabet?
+(a) 8 (b) 9 (c) 10 (d) 11
+Answer: (c)
+Solution: The 10th letter from the left is J(10); the 6th from the right is the 21st letter, U(21). Letters between them are K to T, i.e. 10 letters; counting J or U themselves gives the tempting 11 or 12, so the answer is 10.
+Source: PYQ-style
+
+43. If 'TABLE' is coded as 'UBCMF', how will 'CHAIR' be coded?
+(a) DIBJS (b) DIBJT (c) DIBJR (d) DIBKS
+Answer: (a)
+Solution: Every letter advances by +1: T→U, A→B, B→C, L→M, E→F. For CHAIR: C→D, H→I, A→B, I→J, R→S. DIBJR wrongly keeps the last letter as R, so the answer is DIBJS.
+Source: PYQ-style
+
+44. Find the missing term in the sequence: AD, FI, KN, ?
+(a) PS (b) PR (c) PQ (d) PT
+Answer: (a)
+Solution: First letters advance by +5: A→F→K→P; second letters also advance by +5: D→I→N→S. Stopping the second letter at R breaks the +5 rhythm, so the answer is PS.
+Source: PYQ-style
+
+45. In a certain code, 'RAT' is written as 'IZG'. How will 'DOG' be written in that code?
+(a) XLT (b) WLS (c) WMT (d) WLT
+Answer: (d)
+Solution: Each letter is replaced by its opposite: R↔I, A↔Z, T↔G. For DOG: D↔W, O↔L, G↔T. Examiner's Trap: taking the opposite of G as S gives WLS, but G(7) pairs with T(20), so the answer is WLT.
+Source: PYQ-style
+
+46. If 'FISH' is coded as 'GJTI', then how will 'WAVE' be coded?
+(a) XBUF (b) XAWF (c) XBVF (d) XBWF
+Answer: (d)
+Solution: Every letter advances by +1: F→G, I→J, S→T, H→I. For WAVE: W→X, A→B, V→W, E→F. XBUF wrongly shifts the third letter back instead of forward, so the answer is XBWF.
+Source: PYQ-style
+
+47. If 'PENCIL' is coded as 'ODMBHK', then how will 'SHARP' be coded?
+(a) RGAQO (b) RGZPO (c) RGZQO (d) RIZQO
+Answer: (c)
+Solution: Every letter shifts back by 1: P→O, E→D, N→M, C→B, I→H, L→K. For SHARP: S→R, H→G, A→Z (wrapping around), R→Q, P→O. Forgetting the wrap-around of A gives RGAQO, so the answer is RGZQO.
+Source: PYQ-style
+
+48. Which letter is 8th to the left of the 12th letter from the right in the English alphabet?
+(a) F (b) G (c) H (d) I
+Answer: (b)
+Solution: The 12th letter from the right is the 15th from the left, O. Moving 8 places left: 15 − 8 = 7th letter, which is G. Counting O itself as the first step gives the tempting H, so the answer is G.
+Source: PYQ-style
+
+49. If 'MOBILE' is coded as 'NQDKNG', then how will 'LAPTOP' be coded?
+(a) MCRVQU (b) MCRVQS (c) MCRVQR (d) MCRVQT
+Answer: (c)
+Solution: The first letter shifts +1 and all following letters shift +2: M→N, O→Q, B→D, I→K, L→N, E→G. For LAPTOP: L→M, A→C, P→R, T→V, O→Q, P→R. Applying +1 to every letter breaks the pattern, so the answer is MCRVQR.
+Source: PYQ-style
+
+50. Find the odd one out among the given groups of letters: BDG, CEF, FHK, JLO
+(a) FHK (b) BDG (c) CEF (d) JLO
+Answer: (c)
+Solution: In BDG, FHK and JLO the gaps are +2 then +3 (B→D→G, F→H→K, J→L→O). In CEF the gaps are +2 then +1 (C→E→F). Examiner's Trap: every group starts with +2, which hides the broken second step, so the answer is CEF.
+Source: PYQ-style

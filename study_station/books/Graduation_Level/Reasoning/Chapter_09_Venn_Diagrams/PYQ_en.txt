@@ -1,0 +1,174 @@
+# 📊 PYQ Analysis — Venn Diagrams (Verbal Reasoning)
+
+## 1. How Exams Test This Chapter
+
+Venn Diagrams appear in almost every reasoning paper — SSC CGL/CHSL, IBPS PO/Clerk, RRB NTPC, and State PCS prelims. The questions are **concept-driven, not calculation-driven**: the examiner wants to know whether you can translate a real-world relationship between groups into the correct diagram or count.
+
+The chapter splits into two clear families:
+
+- **Family A — Diagram selection:** Given three (sometimes four) items, choose the Venn diagram that best represents their relationship. This is the most frequently asked form.
+- **Family B — Counting from a diagram:** A diagram with numbers in regions is given; you must find "how many belong to X but not Y", "exactly two", "at least one", etc.
+
+## 2. Sub-topics That Recur Most Often
+
+- **Three-item relationship diagrams** — the single most repeated pattern. Classic triples: *Women–Mothers–Doctors*, *Students–Players–Singers*, *Dogs–Animals–Pets*, *Apple–Fruit–Red things*.
+- **Universal-set counting** — "In a class of 60, 30 like tea, 25 like coffee, 10 like both…" using n(A∪B) = n(A) + n(B) − n(A∩B).
+- **Three-set counting** — newspaper/language problems with n(A∪B∪C); usually the longest questions in the set.
+- **"Exactly one / exactly two / none" regions** — the examiner's favourite twist on three-set problems.
+- **Odd-one relationships** — items where one set is completely disjoint (e.g., *Boys–Girls–Students* forces a specific structure).
+- **Subset traps** — *Doctors–Males–Fathers*: Fathers ⊂ Males, but Doctors overlap both. Recognising forced subset relations is repeatedly tested.
+
+## 3. Exam-wise Tendencies (in words)
+
+- **SSC (CGL/CHSL/MTS):** Mostly Family A — pick the correct diagram for three items. Quick, 15-second questions if the relationship is clear.
+- **Banking (IBPS/SBI):** Family B dominates — counting questions with two or three sets, often embedded in data-interpretation style language.
+- **Railway (NTPC/Group D):** Simple two-set counting and easy diagram selection; rarely three-set algebra.
+- **State PCS:** Mixed; occasionally asks "which region represents…" with a labelled diagram.
+
+## 4. The Examiner's Traps (Psychological Hooks)
+
+1. **The "almost-overlap" trap:** *Doctors–Engineers–Males*. Students assume all three mutually overlap, but the intended answer often treats the two professions as disjoint unless stated otherwise. The hook: real-world knowledge says a person can be both, but exam convention draws them separate.
+2. **The hidden subset:** *Fathers–Males–Doctors*. Fathers are necessarily males — a forced containment. Students who draw three overlapping circles fall for it.
+3. **The disjoint pair disguised as overlap:** *Cats–Dogs–Animals*. Cats and dogs never overlap, but both sit inside Animals. The trap is drawing a triple-overlap diagram.
+4. **"Exactly two" vs "at least two":** In counting questions, the region for "exactly two" excludes the central triple-overlap; "at least two" includes it. This single word flips the answer.
+5. **"Neither" region forgotten:** Students compute n(A∪B) and forget the question asks for those outside both sets: Total − n(A∪B).
+6. **Double-counting the intersection:** Adding n(A) + n(B) and forgetting to subtract n(A∩B) — the oldest trap in the chapter.
+
+## 5. Top 10 High-Yield Questions (with Solutions and Trap Analysis)
+
+---
+
+**Q1.** Which diagram best represents: *Women, Mothers, Doctors*?
+
+(a) Three mutually overlapping circles
+(b) One circle inside another, third overlapping
+(c) Three disjoint circles
+(d) Two overlapping circles inside a third
+
+**Answer: (b)**
+**Solution:** Every mother is necessarily a woman, so Mothers ⊂ Women — a forced containment. Doctors cut across both: some doctors are women (and some of those are mothers), and some doctors are men. Hence the Mothers circle sits inside the Women circle, with the Doctors circle overlapping both.
+**Trap:** Students who draw three mutually overlapping circles miss the forced subset — "mother" is a role that only a woman can hold, so the Mothers circle cannot extend outside Women. The hook is applying the "three overlapping circles" default without checking for containment.
+**Source:** PYQ-style
+
+---
+
+**Q2.** Which diagram best represents: *Dogs, Pets, Animals*?
+
+(a) Three mutually overlapping circles
+(b) Dogs circle inside Pets circle inside Animals circle
+(c) Dogs inside Animals, Pets overlapping both
+(d) Three disjoint circles
+
+**Answer: (c)**
+**Solution:** All dogs are animals (Dogs ⊂ Animals). Pets overlap dogs (some pets are dogs) and overlap animals generally, but not all pets are dogs and not all dogs are pets. So Dogs sits inside Animals, with Pets cutting across.
+**Trap:** Option (b) looks tempting ("all dogs are pets") — false; stray dogs are not pets. The hook is assuming everyday association equals logical containment.
+**Source:** PYQ-style
+
+---
+
+**Q3.** In a class of 50 students, 30 play cricket, 25 play football, and 10 play both. How many play neither?
+
+(a) 5 (b) 10 (c) 15 (d) 20
+
+**Answer: (a)**
+**Solution:** n(C∪F) = 30 + 25 − 10 = 45. Neither = 50 − 45 = 5.
+**Trap:** Forgetting to subtract the intersection gives 55 > 50, panicking students into wrong options; or computing 50 − 30 − 25 + 10 incorrectly. The hook is arithmetic haste.
+**Time rule:** 15-second question — never skip.
+**Source:** PYQ-style
+
+---
+
+**Q4.** Which diagram best represents: *Boys, Girls, Students*?
+
+(a) Three mutually overlapping circles
+(b) Two disjoint circles inside a third larger circle
+(c) One circle inside another, third disjoint
+(d) Three disjoint circles
+
+**Answer: (b)**
+**Solution:** Boys and Girls are disjoint; both are subsets of Students (in the exam's conventional framing). Two separate circles inside a big Students circle.
+**Trap:** Students who draw overlapping Boys/Girls circles fail; the hook is mechanically applying the "three overlapping circles" default.
+**Source:** PYQ-style
+
+---
+
+**Q5.** In a survey of 100 people, 60 read newspaper A, 40 read newspaper B, and 15 read both. How many read exactly one newspaper?
+
+(a) 55 (b) 60 (c) 70 (d) 75
+
+**Answer: (c)**
+**Solution:** Only A = 60 − 15 = 45; only B = 40 − 15 = 25. Exactly one = 45 + 25 = 70.
+**Trap:** Answering 85 (60+40−15 = n(A∪B)) confuses "at least one" with "exactly one". The hook is the single word "exactly".
+**Time rule:** 15-second question.
+**Source:** PYQ-style
+
+---
+
+**Q6.** Which diagram best represents: *Apple, Fruit, Red things*?
+
+(a) Three mutually overlapping circles
+(b) Apple inside Fruit, Red things overlapping both
+(c) Apple inside Red things inside Fruit
+(d) Three disjoint circles
+
+**Answer: (b)**
+**Solution:** All apples are fruits (Apple ⊂ Fruit). Red things cut across: some apples are red, some non-apple fruits are red, some red things are not fruits at all.
+**Trap:** Option (c) assumes all apples are red — green apples exist. The hook is stereotype-based reasoning.
+**Source:** PYQ-style
+
+---
+
+**Q7.** In a group, 40% speak Hindi, 50% speak English, and 20% speak both. What percentage speak neither?
+
+(a) 10% (b) 20% (c) 30% (d) 40%
+
+**Answer: (c)**
+**Solution:** n(H∪E) = 40 + 50 − 20 = 70%. Neither = 100 − 70 = 30%.
+**Trap:** Adding 40 + 50 = 90 and answering 10% (option a) — the classic double-count trap with percentages.
+**Time rule:** 15-second question.
+**Source:** PYQ-style
+
+---
+
+**Q8.** In a town, 65% watch TV, 40% read newspapers, and 25% do both. Find the percentage who watch TV but do not read newspapers.
+
+(a) 25% (b) 40% (c) 50% (d) 65%
+
+**Answer: (b)**
+**Solution:** TV only = 65 − 25 = 40%.
+**Trap:** Answering 65% (the whole TV circle) instead of subtracting the overlap. The hook: the question asks for a *region*, not a *set*.
+**Source:** PYQ-style
+
+---
+
+**Q9.** In a college of 120 students: 70 study Maths, 50 study Physics, 40 study Chemistry; 25 study Maths and Physics, 20 study Maths and Chemistry, 15 study Physics and Chemistry, and 10 study all three. How many study none of the three subjects?
+
+(a) 10 (b) 15 (c) 20 (d) 25
+
+**Answer: (a)**
+**Solution:** n(M∪P∪C) = 70 + 50 + 40 − 25 − 20 − 15 + 10 = 110. None = 120 − 110 = 10.
+**Trap:** Forgetting to **add back** the triple intersection (+10) after subtracting pairwise overlaps — the most common three-set error. The hook is formula misapplication under time pressure.
+**Time rule:** This is a **45-second question**. If your formula recall is shaky in the exam hall, mark it and return — do not burn 2 minutes here.
+**Source:** PYQ-style
+
+---
+
+**Q10.** In the above type of three-set problem, a question asks: "How many study **exactly two** subjects?" Given the same data as Q9, the answer is:
+
+(a) 30 (b) 40 (c) 50 (d) 60
+
+**Answer: (a)**
+**Solution:** Exactly two = (25−10) + (20−10) + (15−10) = 15 + 10 + 5 = 30.
+**Trap:** Answering 60 (25+20+15) counts the triple-overlap students three times — the "exactly vs at least" hook in its purest form.
+**Time rule:** **Skip candidate** under the 45-second rule if the diagram isn't already drawn — the region-by-region subtraction is error-prone under pressure. Attempt only after quicker questions are done.
+**Source:** PYQ-style
+
+---
+
+## 6. Time-Rule Review (15-sec / 45-sec)
+
+- **15-second questions (never skip):** Diagram selection for three items (Q1, Q2, Q4, Q6), two-set formula questions (Q3, Q5, Q7, Q8). These are pure pattern recognition — the answer should click the moment you classify the relationship.
+- **45-second questions (attempt with care):** Three-set counting with the full inclusion–exclusion formula (Q9). Doable, but only if the formula is automatic.
+- **Skip candidates (return later):** "Exactly two / exactly one" region problems in three sets (Q10) when no diagram is pre-drawn, and any question requiring you to derive region values from multiple overlapping conditions. The arithmetic is easy but the error rate under time pressure is high — a wrong answer costs more than a skipped one.
+
+**Bottom line:** In Venn Diagrams, the exam rewards *relationship classification speed* and punishes *region-counting haste*. Secure the diagram-selection and two-set questions instantly; treat three-set region questions as second-pass material.

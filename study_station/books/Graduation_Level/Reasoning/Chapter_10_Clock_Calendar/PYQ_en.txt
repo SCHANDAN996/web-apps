@@ -1,0 +1,160 @@
+# 📊 PYQ Analysis — Clock & Calendar (Advanced Level)
+
+## 1. How Exams Test This Chapter
+
+Clock & Calendar questions appear regularly in SSC CGL, SSC CHSL, IBPS PO/Clerk, RRB NTPC and State PCS prelims — usually as 1–2 questions per paper, sitting in the "quick marks" zone of the reasoning section. The examiner's intent is not calculation difficulty but **precision under time pressure**: every formula is simple, yet a majority of errors come from sign mistakes, wrong reference years, and misread question wording.
+
+## 2. Sub-topic Weightage (Pattern, in Words)
+
+**Clock questions** cluster around four recurring patterns:
+
+- **Angle between hands** — the single most frequent clock pattern. Exams favour "nice" times (3:15, 4:20, 8:30) where the answer is a multiple of 7.5° or 5.5°.
+- **Coincidence / opposite / right angle** — "how many times in 12 hours" (11, 11, 22) and "at what time between X and Y o'clock". The 65(5/11)-minute gap is the core fact tested.
+- **Gain/loss of time** — a watch gains or loses N seconds per hour; find when it shows correct time again, or the true time after N days. This is the most calculation-heavy clock pattern.
+- **Mirror image of clock** — subtract from 11:60 (or 12:00 when minutes are 00). Very frequent in SSC CHSL and Railway exams because it is a 10-second question.
+
+**Calendar questions** cluster around:
+
+- **Odd days → day of the week** for a given date (the dominant pattern).
+- **Leap year identification** — including the century trap (1900 not a leap year, 2000 a leap year).
+- **Same calendar year repetition** — "after how many years will the calendar of year X repeat".
+- **Day-shift across years** — "if 15 August 2019 was Thursday, what was 15 August 2022".
+- **Reference-date chains** — "if 26 January 1950 was Thursday, what day was 15 August 1947" (backward counting traps).
+
+## 3. Exam-wise Distribution (Qualitative)
+
+- **SSC CGL / CHSL:** Balanced mix; mirror-image and angle questions dominate clock; odd-day date questions dominate calendar.
+- **IBPS / SBI PO-Clerk:** Fewer but trickier — gain/loss problems and statement-based calendar questions ("which of the following can be the last day of a century").
+- **RRB NTPC / Group D:** Direct formula questions; leap-year and odd-day basics.
+- **State PCS prelims:** Occasionally assertion-reason or "which day can never be the last day of a century" style conceptual questions.
+
+## 4. Examiner's Traps (Psychological Hooks)
+
+1. **The century trap:** 1900 looks divisible by 4, so students mark it a leap year. It is not — century years need divisibility by 400.
+2. **The "12 hours vs 24 hours" trap:** Hands coincide 11 times in 12 hours but 22 times in 24 hours. Options always contain both 11 and 22.
+3. **The angle sign trap:** |30H − 5.5M| can exceed 180°; the question asks for the *smaller* angle, so subtract from 360°. The larger value is always planted as an option.
+4. **The mirror-image formula trap:** 11:60 works for most times, but when minutes = 00 you must use 12:00 − time. Students applying 11:60 to 3:00 get 8:60 and panic.
+5. **The reference-year trap:** Questions give a "known" day for a nearby date and ask you to count backward — students count forward by habit.
+6. **The "between 4 and 5 o'clock" trap:** Both coincidence and right-angle occur twice in some hour-windows; the question's wording ("first time" / "at what time") decides which.
+7. **The gain/loss direction trap:** "Gains 5 minutes every hour" vs "loses" — the correct-time-again answer differs (a fast clock must gain 12 hours to show correct time again).
+
+## 5. Top 10 High-Yield Questions (PYQ-style) with Solutions
+
+---
+
+**Q1.** What is the angle between the two hands of a clock at 4:20?
+(a) 0° (b) 10° (c) 15° (d) 20°
+
+**Answer:** (b)
+**Solution:** Angle = |30H − 5.5M| = |30×4 − 5.5×20| = |120 − 110| = 10°.
+**Trap:** Students compute 30×4 = 120 and forget the minute hand has also moved 20 minutes past 4, marking 20° (option d) — the minute-hand movement is the hook.
+**Source:** PYQ-style
+
+---
+
+**Q2.** At what time between 3 and 4 o'clock will the hands of a clock coincide?
+(a) 16(4/11) min past 3 (b) 15(4/11) min past 3 (c) 16(3/11) min past 3 (d) 15 min past 3
+
+**Answer:** (a)
+**Solution:** Coincidence time = (60/11) × H minutes past H = (60/11) × 3 = 180/11 = 16(4/11) min past 3.
+**Trap:** Option (d) "15 min past 3" lures students who assume hands meet at the quarter hour. The hour hand moves too, so the meeting is always slightly later.
+**Source:** PYQ-style
+
+---
+
+**Q3.** How many times in a day (24 hours) are the hands of a clock at right angles?
+(a) 22 (b) 24 (c) 44 (d) 48
+
+**Answer:** (c)
+**Solution:** Right angles occur 22 times in 12 hours, hence 44 times in 24 hours.
+**Trap:** Options 22 and 44 are both planted; students who memorise "22" without noting the 12-hour window mark (a). Also, 48 tempts those who reason "2 per hour × 24".
+**Source:** PYQ-style
+
+---
+
+**Q4.** A clock gains 5 minutes every hour. If it is set right at 6 AM on Monday, what time will it show when the actual time is 6 PM on Tuesday?
+(a) 9:00 PM (b) 9:05 PM (c) 8:55 PM (d) 9:10 PM
+
+**Answer:** (a)
+**Solution:** Actual elapsed time = 36 hours. Total gain = 36 × 5 = 180 minutes = 3 hours, so the clock shows 6 PM + 3 hours = 9:00 PM Tuesday. Equivalently, the faulty clock advances 65 minutes per actual hour: 36 × 65 = 2340 min = 39 hours ahead of 6 AM Monday = 9 PM Tuesday.
+**Trap:** The real trap appears in variants where the gain is stated per hour *of the faulty clock* — then the simple "elapsed × gain" shortcut fails and you must use the ratio method. Read the wording carefully before choosing your method.
+**Skip rule:** This is a **45-second question** — attempt only if you have practised the ratio method; otherwise mark and move on.
+**Source:** PYQ-style
+
+---
+
+**Q5.** The time in a mirror image of a clock shows 4:30. What is the actual time?
+(a) 7:30 (b) 8:30 (c) 7:00 (d) 6:30
+
+**Answer:** (a)
+**Solution:** Actual time = 11:60 − 4:30 = 7:30.
+**Trap:** Students subtract from 12:00 and get 7:30 here by coincidence — but the same habit fails at 4:00 (12:00 − 4:00 = 8:00, correct; 11:60 − 4:00 = 7:60 = 8:00, also correct). The genuine trap: for mirror time 3:00, using 11:60 gives 8:60 and students freeze. Remember: minutes 00 → subtract from 12:00.
+**Source:** PYQ-style
+
+---
+
+**Q6.** What day of the week was 15 August 1947?
+(a) Wednesday (b) Friday (c) Saturday (d) Thursday
+
+**Answer:** (b)
+**Solution:** Count odd days: 1600 years → 0; 300 years → 1; 46 years = 11 leap + 35 ordinary = 11×2 + 35 = 57 → 1 odd day; Jan 1 to Aug 15, 1947 = 31+28+31+30+31+30+31+15 = 227 days → 3 odd days. Total = 0+1+1+3 = 5 → Friday.
+**Trap:** The biggest trap is miscounting leap years between 1901–1946 (there are 11: 1904…1944; 1900 is NOT a leap year). Students counting 12 leap years land on Saturday (option c).
+**Source:** PYQ-style
+
+---
+
+**Q7.** Which of the following years is a leap year?
+(a) 1900 (b) 2100 (c) 2400 (d) 2200
+
+**Answer:** (c)
+**Solution:** Century years are leap years only if divisible by 400. 2400 ÷ 400 = 6 exactly; 1900, 2100, 2200 are not divisible by 400.
+**Trap:** The classic century trap — all four options are divisible by 4, so the "divide by 4" rule fails deliberately. This question tests whether you know the 400 exception.
+**Source:** PYQ-style
+
+---
+
+**Q8.** If 26 January 1950 was a Thursday, what day was 1 January 1950?
+(a) Sunday (b) Monday (c) Friday (d) Saturday
+
+**Answer:** (a)
+**Solution:** From 1 Jan to 26 Jan = 25 days = 3 weeks + 4 days. Counting **backward** 4 days from Thursday: Wednesday, Tuesday, Monday, Sunday → Sunday.
+**Trap:** The backward-counting hook — students add 4 days to Thursday and mark Monday (option b). Whenever the reference date is *later* than the target date, subtract.
+**Source:** PYQ-style
+
+---
+
+**Q9.** The calendar of which year will be the same as that of 2024?
+(a) 2052 (b) 2048 (c) 2050 (d) 2046
+
+**Answer:** (a)
+**Solution:** For a leap year, the calendar repeats after 28 years (within the same century pattern, no century-year interruption). 2024 + 28 = 2052.
+**Trap:** Students apply the ordinary-year rule (+6 or +11) and pick 2030/2035-type answers, or add 28 to a non-leap year in variants. Rule: leap year → +28; ordinary year → +6 or +11 depending on position relative to the next leap year.
+**Skip rule:** If you have not memorised the repetition rules, this is a **skip (15-second rule)** — deriving it live costs 2+ minutes.
+**Source:** PYQ-style
+
+---
+
+**Q10.** What is the angle between the hands of a clock at 9:45?
+(a) 22.5° (b) 7.5° (c) 0° (d) 15°
+
+**Answer:** (a)
+**Solution:** Angle = |30×9 − 5.5×45| = |270 − 247.5| = 22.5°.
+**Trap:** Students who place the hour hand exactly at 9 (ignoring its 45-minute drift toward 10) compute 45 × 6 − 270 = 0° and mark (c). The hour hand's continuous movement is the examiner's favourite hook in angle questions.
+**Source:** PYQ-style
+
+---
+
+## 6. Time Rules Review (15-sec / 45-sec Strategy)
+
+| Question type | Verdict |
+|---|---|
+| Mirror image (subtract from 11:60) | ✅ 15-sec — always attempt first |
+| Leap year check / odd days of a year | ✅ 15-sec — pure recall |
+| "How many times hands coincide/perpendicular" | ✅ 15-sec — memorised facts (11, 22, 22, 44) |
+| Angle between hands | ⚠️ 45-sec — one formula, but sign/360° check needed |
+| Day of week for a full date | ⚠️ 45-sec — attempt only with the odd-day table memorised |
+| Gain/loss of time | ⚠️ 45-sec — attempt only if ratio method is practised |
+| Calendar repetition year | ❌ Skip unless rules are memorised |
+| Backward reference-date chains | ❌ Skip in first pass; revisit if time remains |
+
+**Golden rule:** In a 25-question reasoning section, Clock & Calendar questions are your "bankers" — but only the recall-based ones. The moment a question demands a 3-step odd-day chain or a compounding gain/loss calculation, mark it and return after finishing the 15-second questions.

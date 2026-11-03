@@ -333,20 +333,20 @@ function renderJobs() {
 
     // Only show meta rows for data we actually have — never invent values
     var meta = '';
-    if (job.vacancies) meta += '<div class="job-meta"><ion-icon name="people-outline"></ion-icon> ' + job.vacancies + ' Vacancies</div>';
-    if (job.deadline) meta += '<div class="job-meta"><ion-icon name="calendar-outline"></ion-icon> Last Date: ' + job.deadline + '</div>';
-    if (job.eligibility) meta += '<div class="job-meta"><ion-icon name="school-outline"></ion-icon> ' + job.eligibility + '</div>';
+    if (job.vacancies) meta += '<div class="job-meta"><ion-icon name="people-outline"></ion-icon> ' + escapeHtml(job.vacancies) + ' Vacancies</div>';
+    if (job.deadline) meta += '<div class="job-meta"><ion-icon name="calendar-outline"></ion-icon> Last Date: ' + escapeHtml(job.deadline) + '</div>';
+    if (job.eligibility) meta += '<div class="job-meta"><ion-icon name="school-outline"></ion-icon> ' + escapeHtml(job.eligibility) + '</div>';
     if (!meta) meta = '<div class="job-meta"><ion-icon name="document-text-outline"></ion-icon> See official notification for details</div>';
 
     return '<div class="card job-card">' +
       '<div class="job-card__header"><div class="job-card__logo">' + getJobEmoji(job.category) + '</div>' +
-      '<div style="flex:1;"><div class="job-card__title">' + job.title + '</div>' + (job.org ? '<div class="job-card__org">' + job.org + '</div>' : '') + '</div>' +
+      '<div style="flex:1;"><div class="job-card__title">' + escapeHtml(job.title) + '</div>' + (job.org ? '<div class="job-card__org">' + escapeHtml(job.org) + '</div>' : '') + '</div>' +
       (job.isNew ? '<span class="badge badge--new">NEW</span>' : '') + '</div>' +
       '<div style="display:flex;gap:0.5rem;flex-wrap:wrap;">' + catBadge + typeBadge + daysLeftBadge(job.deadline) + '</div>' +
       '<div class="job-card__meta-grid">' + meta + '</div>' +
       '<div class="job-card__actions">' +
-      (job.url ? '<a class="btn btn--sm btn--primary" href="' + job.url + '"><ion-icon name="reader-outline"></ion-icon> Full Details</a>' : '') +
-      (job.official ? '<a class="btn btn--sm btn--secondary" href="' + job.official + '" target="_blank" rel="noopener nofollow"><ion-icon name="open-outline"></ion-icon> Official Link</a>' : '') +
+      (safeUrl(job.url) ? '<a class="btn btn--sm btn--primary" href="' + escapeHtml(safeUrl(job.url)) + '"><ion-icon name="reader-outline"></ion-icon> Full Details</a>' : '') +
+      (safeUrl(job.official) ? '<a class="btn btn--sm btn--secondary" href="' + escapeHtml(safeUrl(job.official)) + '" target="_blank" rel="noopener nofollow"><ion-icon name="open-outline"></ion-icon> Official Link</a>' : '') +
       '</div></div>';
   }).join('');
 }

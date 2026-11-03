@@ -1,3 +1,37 @@
-# Chapter: Percentage, Level: intermediate
+```mermaid
+graph TD
+    A["प्रतिशत / Percentage<br>(प्रति सौ / per hundred)"] --> B["मूल अवधारणा<br>Basic Concept"]
+    A --> C["रूपांतरण<br>Conversions"]
+    A --> D["प्रतिशत परिवर्तन<br>Percentage Change"]
+    A --> E["लाभ-हानि आधार<br>Profit-Loss Base"]
+    A --> F["अनुप्रयोग<br>Applications"]
+    A --> G["परीक्षा ट्रिक्स<br>Exam Tricks"]
 
-@content_agent 'Create a detailed mind map (Mermaid code) for the chapter "Percentage". Show main concepts, sub-concepts, and their interconnections clearly.'
+    B --> B1["x% = x/100"]
+    B --> B2["संख्या का x%<br>x% of a number<br>= (x/100) × N"]
+    B --> B3["a, b का कितना %?<br>a is what % of b?<br>= (a/b) × 100"]
+
+    C --> C1["भिन्न → प्रतिशत<br>Fraction → %<br>× 100"]
+    C --> C2["प्रतिशत → भिन्न<br>% → Fraction<br>÷ 100"]
+    C --> C3["महत्वपूर्ण भिन्न<br>Key Fractions<br>1/2=50%, 1/3=33.33%<br>1/4=25%, 1/5=20%<br>1/8=12.5%, 1/6=16.66%"]
+
+    D --> D1["% वृद्धि / % Increase<br>= (वृद्धि/मूल मान) × 100"]
+    D --> D2["% कमी / % Decrease<br>= (कमी/मूल मान) × 100"]
+    D --> D3["क्रमिक परिवर्तन<br>Successive Change<br>a + b + ab/100"]
+    D --> D4["A, B से x% अधिक<br>⇒ B, A से कम<br>= x/(100+x) × 100%"]
+
+    E --> E1["लाभ% / Profit%<br>= (लाभ/CP) × 100"]
+    E --> E2["हानि% / Loss%<br>= (हानि/CP) × 100"]
+    E --> E3["छूट / Discount<br>= (छूट/MP) × 100"]
+
+    F --> F1["चुनाव / Elections<br>मतों का %"]
+    F --> F2["जनसंख्या / Population<br>वृद्धि-कमी"]
+    F --> F3["परीक्षा अंक / Exam Marks<br>उत्तीर्ण %"]
+    F --> F4["आय-व्यय / Income-Expense<br>बचत %"]
+    F --> F5["मिश्रण / Mixture<br>घटकों का %"]
+
+    G --> G1["भिन्न-तालिका याद करें<br>Memorize fraction table"]
+    G --> G2["10%, 5%, 1% से तोड़ें<br>Break into 10%, 5%, 1%"]
+    G --> G3["क्रमिक: a+b+ab/100<br>Successive formula"]
+    G --> G4["मूल मान = 100 मानें<br>Assume base = 100"]
+```

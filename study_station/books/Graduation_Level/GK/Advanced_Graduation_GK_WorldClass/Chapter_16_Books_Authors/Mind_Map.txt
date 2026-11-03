@@ -1,0 +1,49 @@
+```mermaid
+graph TD
+    A["पुस्तकें और लेखक<br>Books & Authors"] --> B["प्राचीन ग्रंथ<br>Ancient Texts"]
+    A --> C["मध्यकालीन साहित्य<br>Medieval Literature"]
+    A --> D["आधुनिक भारतीय साहित्य<br>Modern Indian Literature"]
+    A --> E["विदेशी लेखक<br>Foreign Authors"]
+    A --> F["राजनीतिक / आत्मकथाएँ<br>Political / Autobiographies"]
+    A --> G["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> H["रणनीति<br>Strategy"]
+
+    B --> B1["ऋग्वेद — प्राचीनतम वेद<br>Rigveda — Oldest Veda"]
+    B --> B2["अर्थशास्त्र — कौटिल्य (चाणक्य)<br>Arthashastra — Kautilya"]
+    B --> B3["अभिज्ञान शाकुन्तलम् — कालिदास<br>Abhijnan Shakuntalam — Kalidasa"]
+    B --> B4["इंडिका — मेगास्थनीज<br>Indica — Megasthenes"]
+    B --> B5["महाभाष्य — पतंजलि<br>Mahabhashya — Patanjali"]
+
+    C --> C1["रामचरितमानस — तुलसीदास<br>Ramcharitmanas — Tulsidas"]
+    C --> C2["आईन-ए-अकबरी — अबुल फज़ल<br>Ain-i-Akbari — Abul Fazl"]
+    C --> C3["तुज़ुक-ए-जहाँगीरी — जहाँगीर<br>Tuzuk-i-Jahangiri — Jahangir"]
+    C --> C4["पद्मावत — मलिक मोहम्मद जायसी<br>Padmavat — Malik Muhammad Jayasi"]
+
+    D --> D1["गीतांजलि — रवीन्द्रनाथ टैगोर<br>Gitanjali — R.N. Tagore (Nobel 1913)"]
+    D --> D2["गोदान — प्रेमचंद<br>Godan — Premchand"]
+    D --> D3["अंधा युग — धर्मवीर भारती<br>Andha Yug — Dharamvir Bharati"]
+    D --> D4["दिस्कवरी ऑफ इंडिया — नेहरू<br>Discovery of India — Nehru"]
+    D --> D5["मिडनाइट्स चिल्ड्रन — सलमान रुश्दी<br>Midnight's Children — Salman Rushdie"]
+    D --> D6["द गॉड ऑफ स्मॉल थिंग्स — अरुंधति रॉय<br>The God of Small Things — Arundhati Roy (Booker 1997)"]
+
+    E --> E1["वॉर एंड पीस — लियो टॉल्स्टॉय<br>War and Peace — Leo Tolstoy"]
+    E --> E2["हैमलेट — शेक्सपियर<br>Hamlet — Shakespeare"]
+    E --> E3["द ओरिजिन ऑफ स्पीशीज — डार्विन<br>Origin of Species — Darwin"]
+    E --> E4["द कम्युनिस्ट मैनिफेस्टो — मार्क्स व एंगेल्स<br>Communist Manifesto — Marx & Engels"]
+    E --> E5["1984 — जॉर्ज ऑरवेल<br>1984 — George Orwell"]
+
+    F --> F1["माई एक्सपेरिमेंट्स विद ट्रुथ — गांधी<br>My Experiments with Truth — Gandhi"]
+    F --> F2["विंग्स ऑफ फायर — अब्दुल कलाम<br>Wings of Fire — A.P.J. Abdul Kalam"]
+    F --> F3["लॉन्ग वॉक टू फ्रीडम — मंडेला<br>Long Walk to Freedom — Mandela"]
+    F --> F4["द स्टोरी ऑफ माई लाइफ — हेलन केलर<br>Story of My Life — Helen Keller"]
+
+    G --> G1["मिलते नाम: टैगोर ≠ टॉल्स्टॉय<br>Similar names confusion"]
+    G --> G2["उपनाम: प्रेमचंद = धनपत राय<br>Pen names: Premchand = Dhanpat Rai"]
+    G --> G3["भाषा भ्रम: तुज़ुक-ए-बाबरी = तुर्की<br>Language trap: Baburnama in Turkish"]
+    G --> G4["पुरस्कार वर्ष का भ्रम<br>Award-year confusion (Nobel/Booker/Jnanpith)"]
+    G --> G5["नकारात्मक प्रश्न: 'किसने नहीं लिखी'<br>Negative questions: 'NOT written by'"]
+
+    H --> H1["15/45 सेकंड नियम<br>15/45 Second Rule"]
+    H --> H2["युग्म-सूची पहले याद करें<br>Memorise pair-lists first"]
+    H --> H3["अनिश्चित हो तो Skip<br>Skip if unsure — negative marking"]
+```

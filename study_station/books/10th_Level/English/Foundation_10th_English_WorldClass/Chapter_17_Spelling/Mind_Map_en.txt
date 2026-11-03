@@ -1,0 +1,28 @@
+```mermaid
+graph TD
+    A["Spelling Check<br>वर्तनी जाँच"] --> B["Core Rules"]
+    A --> C["Common Traps"]
+    A --> D["Word Roots"]
+    A --> E["Exam Strategy"]
+
+    B --> B1["i before e<br>except after c<br>believe, receive"]
+    B --> B2["Silent letters<br>knight, doubt, psychology"]
+    B --> B3["Double consonants<br>accommodate, committee"]
+    B --> B4["-ful has one l<br>beautiful, careful"]
+    B --> B5["Drop e before -ing<br>write → writing"]
+
+    C --> C1["Sound-alike trap<br>their / there / they're"]
+    C --> C2["One wrong letter<br>seperate ✗ → separate ✓"]
+    C --> C3["British vs American<br>colour / color<br>both may be correct"]
+    C --> C4["Over-thinking<br>first instinct often right"]
+
+    D --> D1["dict = say<br>dictate, predict"]
+    D --> D2["port = carry<br>transport, export"]
+    D --> D3["scrib = write<br>describe, script"]
+    D --> D4["spect = see<br>inspect, respect"]
+
+    E --> E1["15-second rule<br>spot the odd spelling fast"]
+    E --> E2["Read each option<br>letter by letter"]
+    E --> E3["Skip if confused<br>between two options"]
+    E --> E4["Revise error list<br>after 2 days"]
+```

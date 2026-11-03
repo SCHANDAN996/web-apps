@@ -1,11 +1,205 @@
-# Chapter: Probability, Level: intermediate
+# Probability
 
-@content_agent lang=en level=intermediate role='experienced educator and cognitive psychologist' 'Write a chapter on Probability that makes even complex 12th-grade concepts feel incredibly simple. Follow Chain-of-Thought:
-1. First, outline the chapter and learning goals.
-2. Start with a powerful hook (story, shocking fact, contradiction).
-3. Acknowledge the learner's common struggle with 'Probability' and build empathy.
-4. Break content into small chunks (Segmenting Principle).
-5. After every 2-3 paragraphs, insert an Active Recall Prompt (🧠).
-6. Include at least one memory trick (mnemonic) that is weird or funny.
-7. End with a summary table and 'Review this after 2 days' prompt.
-Keep language extremely simple, conversational, and motivational, but depth at 12th grade level.
+## Chapter Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Define random experiments, sample space, and events.
+2. Apply the classical definition of probability: P(E) = favourable outcomes / total outcomes.
+3. Use the addition rule for mutually exclusive and non-exclusive events.
+4. Use the multiplication rule for independent and dependent events.
+5. Solve problems on conditional probability and Bayes' theorem.
+6. Handle standard exam models: coins, dice, cards, balls from a bag, and selection problems.
+
+---
+
+## 1. The Hook: The Birthday Paradox
+
+A fact that shocks almost everyone who hears it for the first time:
+
+Take a room with just **23 random people**. What is the chance that at least two of them share the same birthday? Most people guess 5% or 10%. The real answer is **more than 50%**. With 50 people, it jumps to about 97%.
+
+How can that be? Because you are not matching birthdays with *one* person — you are comparing **every pair** in the room, and 23 people make 253 pairs. Your intuition counts people; probability counts *pairs*.
+
+That is the whole spirit of this chapter: **probability is the mathematics of counting what can happen.** Once you learn to count correctly, questions that look like magic become 30-second exam problems.
+
+---
+
+## 2. You Are Not Alone — Why Probability Feels Hard
+
+Almost every aspirant says the same thing: "I understood permutations, but probability questions still trick me." The reasons follow — and it is not your fault:
+
+- Probability questions **hide the counting** inside a story (a bag, a deck, a committee).
+- Two events can be *mutually exclusive*, *independent*, or *neither* — and the formulas differ for each.
+- Words like "at least one" tempt you to add probabilities when you should be subtracting from 1.
+
+The fix is a single habit: **before any formula, write down the total number of outcomes and the favourable number of outcomes.** Everything in this chapter hangs on that one habit.
+
+🧠 **Active Recall:** In the birthday paradox, why does the probability rise so fast? (Hint: what grows quickly as people are added — people, or pairs?)
+
+---
+
+## 3. The Basic Vocabulary
+
+**Random experiment:** An action whose result cannot be predicted with certainty, even though all possible results are known. Tossing a coin, rolling a die, drawing a card.
+
+**Sample space (S):** The set of *all* possible outcomes.
+- One coin: S = {H, T}, n(S) = 2
+- One die: S = {1, 2, 3, 4, 5, 6}, n(S) = 6
+- Two coins: S = {HH, HT, TH, TT}, n(S) = 4
+
+**Event (E):** Any subset of the sample space — the outcome(s) you care about. "Getting an even number on a die" is the event E = {2, 4, 6}.
+
+**Classical probability:**
+
+$$P(E) = \frac{\text{Number of favourable outcomes}}{\text{Total number of equally likely outcomes}} = \frac{n(E)}{n(S)}$$
+
+Key facts:
+- 0 ≤ P(E) ≤ 1, always.
+- P(sure event) = 1; P(impossible event) = 0.
+- P(E) + P(E′) = 1, where E′ is the **complement** (E does not happen).
+
+🧠 **Active Recall:** Two dice are thrown. What is n(S)? (Answer: 6 × 6 = 36 — ordered pairs, so (2,5) and (5,2) are different.)
+
+---
+
+## 4. The Golden Habit: Count First, Formula Later
+
+**Example:** A bag has 4 red and 6 blue balls. One ball is drawn. P(red)?
+
+- Total outcomes = 10, favourable = 4.
+- P(red) = 4/10 = **2/5**.
+
+**Example:** Two dice are thrown. P(sum = 8)?
+
+- Favourable pairs: (2,6), (3,5), (4,4), (5,3), (6,2) → 5 outcomes.
+- P = **5/36**.
+
+Notice what we did: no fancy formula, just careful counting. Many probability questions hinge on exactly this counting step.
+
+**The "at least one" weapon:** Whenever you see *at least one*, flip the question:
+
+$$P(\text{at least one}) = 1 - P(\text{none})$$
+
+**Example:** A coin is tossed 3 times. P(at least one head) = 1 − P(all tails) = 1 − 1/8 = **7/8**.
+
+🧠 **Active Recall:** Why is "at least one" easier through the complement? (Because "none" is a single case, while "at least one" is many cases added together.)
+
+---
+
+## 5. Memory Trick: The Jealous Coin 🪙
+
+A silly story that will save you marks:
+
+Imagine a **jealous coin**. It cannot stand sharing the spotlight.
+
+- **Mutually exclusive events** are like the jealous coin and the jealous note: if one shows up, the other *cannot*. Head and tail on one toss — never together. For these, you **ADD**: P(A or B) = P(A) + P(B).
+- **Independent events** don't care about each other at all: the coin's result doesn't change the die's mood. For these, you **MULTIPLY**: P(A and B) = P(A) × P(B).
+
+**Mnemonic: "Exclusive ADDs, Independent MULTIPLIES"** — or remember the jealous coin: *"Can't appear together? Add. Don't care about each other? Multiply."*
+
+---
+
+## 6. The Addition Rule (OR problems)
+
+**Mutually exclusive** (cannot happen together):
+
+$$P(A \cup B) = P(A) + P(B)$$
+
+**Not mutually exclusive** (can happen together — subtract the overlap):
+
+$$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
+
+**Example:** A card is drawn from 52 cards. P(king or heart)?
+
+- P(king) = 4/52, P(heart) = 13/52, but the king of hearts was counted twice: P(king ∩ heart) = 1/52.
+- P = 4/52 + 13/52 − 1/52 = 16/52 = **4/13**.
+
+The trap examiners love: forgetting the overlap. If events can happen together, the overlap *must* be subtracted.
+
+🧠 **Active Recall:** When do we subtract P(A ∩ B) in the addition rule? (Only when A and B can occur together.)
+
+---
+
+## 7. The Multiplication Rule (AND problems)
+
+**Independent events** (one doesn't affect the other):
+
+$$P(A \cap B) = P(A) \times P(B)$$
+
+**Example:** A coin is tossed and a die is rolled. P(head and 6) = 1/2 × 1/6 = **1/12**.
+
+**Dependent events** (the first changes the second — like drawing *without replacement*):
+
+$$P(A \cap B) = P(A) \times P(B \mid A)$$
+
+**Example:** A bag has 5 white and 3 black balls. Two balls are drawn **without replacement**. P(both white)?
+
+- First white: 5/8. Now only 4 white remain out of 7: second white = 4/7.
+- P = 5/8 × 4/7 = 20/56 = **5/14**.
+
+**Exam alarm bell:** the phrase *"without replacement"* means the denominator shrinks. *"With replacement"* means events stay independent.
+
+🧠 **Active Recall:** Two cards are drawn without replacement. Is the second draw independent of the first? (No — the deck has changed.)
+
+---
+
+## 8. Conditional Probability and Bayes' Theorem
+
+**Conditional probability** — the probability of A *given that B has already happened*:
+
+$$P(A \mid B) = \frac{P(A \cap B)}{P(B)}, \quad P(B) \neq 0$$
+
+Think of it as **shrinking the sample space**: once B is known, only B's outcomes remain possible.
+
+**Example:** A die shows an even number. What is the probability it is 2?
+- New sample space = {2, 4, 6}. Favourable = {2}. P = **1/3**.
+
+**Bayes' theorem** (reverse conditional probability — used in Graduation-level exams):
+
+$$P(A \mid B) = \frac{P(B \mid A)\,P(A)}{P(B)}$$
+
+**Classic setup:** A factory has two machines. Machine 1 makes 60% of items with 2% defective; Machine 2 makes 40% with 3% defective. An item is defective. Probability it came from Machine 1?
+
+- P(defective) = 0.6 × 0.02 + 0.4 × 0.03 = 0.012 + 0.012 = 0.024
+- P(Machine 1 | defective) = 0.012 / 0.024 = **1/2**
+
+🧠 **Active Recall:** In P(A | B), what happens to the sample space? (It shrinks to only the outcomes inside B.)
+
+---
+
+## 9. The Four Exam Models You Must Master
+
+| Model | Total outcomes n(S) | Typical question |
+|---|---|---|
+| One coin / n coins | 2ⁿ | Exactly k heads: C(n,k)/2ⁿ |
+| One die / two dice | 6 / 36 | Sum, difference, doubles |
+| 52 cards | 52, C(52,2)… | Suit, face card, king/heart overlap |
+| Balls in a bag | C(total, draws) | Colour combinations, with/without replacement |
+
+**Card facts to memorise cold:** 52 cards = 4 suits × 13 ranks; 26 red + 26 black; 12 face cards (J, Q, K); 4 aces; king is a face card, ace is **not**.
+
+**Dice sum table (two dice):** sums 2 and 12 → 1 way each; 3 and 11 → 2; 4 and 10 → 3; 5 and 9 → 4; 6 and 8 → 5; **7 → 6 ways** (the most likely sum).
+
+🧠 **Active Recall:** Why is 7 the most likely sum of two dice? (It has the most ordered pairs: 6.)
+
+---
+
+## 10. Summary Table
+
+| Concept | Rule / Formula | Watch out for |
+|---|---|---|
+| Basic probability | P(E) = n(E)/n(S) | Outcomes must be equally likely |
+| Complement | P(E′) = 1 − P(E) | "At least one" → use 1 − P(none) |
+| Mutually exclusive | P(A∪B) = P(A) + P(B) | Cannot happen together |
+| General addition | P(A∪B) = P(A)+P(B)−P(A∩B) | Subtract the overlap |
+| Independent | P(A∩B) = P(A)·P(B) | With replacement |
+| Dependent | P(A∩B) = P(A)·P(B\|A) | Without replacement |
+| Conditional | P(A\|B) = P(A∩B)/P(B) | Sample space shrinks |
+| Bayes' theorem | P(A\|B) = P(B\|A)P(A)/P(B) | Reverse the condition |
+
+**Mnemonic recap:** 🪙 *"Exclusive ADDs, Independent MULTIPLIES — and 'at least one' hides inside 1 minus none."*
+
+---
+
+📌 **Review this chapter after 2 days.** Redo the birthday paradox logic, the king-or-heart overlap, and the without-replacement bag problem from memory. If you can solve all three without looking, probability is officially yours.

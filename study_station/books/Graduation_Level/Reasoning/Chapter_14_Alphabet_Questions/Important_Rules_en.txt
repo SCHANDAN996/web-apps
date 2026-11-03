@@ -1,0 +1,41 @@
+# Important Rules & Approaches — Alphabet Questions
+
+## Part 1: Key Rules/Approaches
+
+| Rule Name | Description | Example |
+|---|---|---|
+| Alphabet Positions (EJOTY) | Memorise positions 1–26; use EJOTY (5, 10, 15, 20, 25) as anchor points for quick recall. | E=5, J=10, O=15, T=20, Y=25; so R = 15+3 = 18 |
+| Reverse Position Rule | Reverse position of a letter = 27 − normal position. | Reverse position of D (4) = 27 − 4 = 23 → W |
+| Opposite Letter Pairs | Pairs summing to 27: A–Z, B–Y, C–X, D–W, E–V, F–U, G–T, H–S, I–R, J–Q, K–P, L–O, M–N. | Opposite of H is S (8 + 19 = 27) |
+| Left–Right Conversion | For the same letter, position from left + position from right = 27 (in the standard A–Z series). | 7th from right = 27 − 7 = 20th from left = T |
+| Same-Direction Subtraction | When both positions are counted from the same end, subtract to find letters between them. | Letters between 5th and 12th from left = 12 − 5 − 1 = 6 |
+| Combined Left–Right Position | If a letter is the ath from the left and bth from the right of a given letter, use L + R = 27 to convert one side before combining; never add a left-rank and a right-rank directly. | 4th from left and 5th from right refer to the same letter only if 4 + 5 = 27 — here they do not, so convert first: 5th from right = 22nd from left |
+| Mid-Letter Rule | Middle letter between two positions = average of the two positions (only if the sum is even). | Middle of C (3) and K (11) = (3+11)/2 = 7 → G |
+| Vowel/Consonant Counting | Vowels: A, E, I, O, U (positions 1, 5, 9, 15, 21); all others are consonants. | In "EXAM", vowels = E, A → 2 vowels |
+| Pair Counting (Word-based) | Count letter pairs in a word that have the same number of letters between them as in the alphabet; check both forward and backward order. Adjacent letters (zero letters between) also count. | In "DEAR", D and E are adjacent in the word and adjacent in the alphabet → one valid pair |
+| Dictionary Order Rule | Arrange words by comparing letters left to right; the first differing letter decides the order. | CAT, CAN, CAR → CAN < CAR < CAT |
+| Letter Shifting (+n / −n) | Add or subtract a fixed number from each letter's position; wrap around using modulo 26. | D + 3 = G; B − 3 = Y (wraps around) |
+| Series Gap Pattern | In letter series, check gaps (+1, +2, +3…) or alternating patterns before answering. | A, C, F, J → gaps +2, +3, +4 → next O |
+| Interchanged-Letters Rule | When the alphabet is reversed or shifted, first rewrite the new series, then answer position questions. | In reversed alphabet, 5th letter = V |
+| "After Interchange" Trap | If two letters are interchanged in the alphabet, recompute affected positions before counting. | If B and D swap, 2nd letter becomes D |
+
+## Part 2: Time Management
+
+| Rule | Description | Action |
+|---|---|---|
+| 15-Second Rule | If the pattern or approach is not clear within 15 seconds, mark the question and move on. | Skip temporarily; return in the second round. |
+| 45-Second Rule | No alphabet question should take more than 45 seconds; position-based questions are usually solvable in 20–30 seconds. | If still stuck at 45 sec, make an educated guess or leave (as per negative marking). |
+| EJOTY Recall Check | If you are counting letters on fingers, you are too slow — revise EJOTY before the exam. | Practise positions daily until recall is instant. |
+| Pair-Counting Caution | Word-based pair questions take longer; attempt them after quick position questions. | Budget up to 45 sec; verify both directions. |
+| Negative Marking Check | If the exam has negative marking and you cannot eliminate at least 2 options, skip. | Blind guessing is costlier than skipping. |
+
+## Part 3: Logical/Mathematical Formulas
+
+| Formula | Meaning | Example |
+|---|---|---|
+| Reverse position = 27 − n | Position of a letter from the end of the alphabet. | 27 − 18 (R) = 9 → R is 9th from the end |
+| Opposite letter position = 27 − n | Letter paired opposite to the nth letter. | Opposite of F (6) = 27 − 6 = 21 → U |
+| Left position + Right position = 27 | For any letter, its ranks from the left and the right always add to 27. | 10th from left = 27 − 10 = 17th from right |
+| Letters between = \|a − b\| − 1 | Number of letters strictly between positions a and b. | Between E (5) and J (10): 10 − 5 − 1 = 4 |
+| Middle position = (a + b) / 2 | Mid-letter between positions a and b (valid when a + b is even). | Between D (4) and L (12): (4+12)/2 = 8 → H |
+| New position = (n ± k) mod 26 | Shift by k places with wrap-around (use 26 instead of 0). | X (24) + 5 = 29 → 29 − 26 = 3 → C |

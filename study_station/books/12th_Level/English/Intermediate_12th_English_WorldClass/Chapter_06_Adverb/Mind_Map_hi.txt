@@ -1,0 +1,34 @@
+```mermaid
+graph TD
+    A["क्रियाविशेषण (Adverb)"] --> B["परिभाषा<br>क्रिया, विशेषण या अन्य<br>क्रियाविशेषण की विशेषता"]
+    A --> C["प्रकार"]
+    A --> D["नियम"]
+    A --> E["परीक्षक के जाल"]
+    A --> F["रणनीति"]
+
+    C --> C1["रीति (Manner)<br>slowly, well, fast"]
+    C --> C2["स्थान (Place)<br>here, there, everywhere"]
+    C --> C3["समय (Time)<br>now, yesterday, soon"]
+    C --> C4["आवृत्ति (Frequency)<br>always, often, never"]
+    C --> C5["मात्रा (Degree)<br>very, too, quite, almost"]
+    C --> C6["वाक्य-क्रियाविशेषण<br>(Sentence Adverb)<br>fortunately, obviously"]
+
+    D --> D1["क्रिया + क्रियाविशेषण<br>He runs fast (✓)<br>He runs fastly (✗)"]
+    D --> D2["विशेषण + ly = क्रियाविशेषण<br>quick → quickly"]
+    D --> D3["अपवाद: fast, hard, late<br>में ly नहीं लगता"]
+    D --> D4["hardly = मुश्किल से<br>hardly ≠ कड़ी मेहनत से"]
+    D --> D5["too = अत्यधिक (नकारात्मक)<br>very = बहुत (सकारात्मक)"]
+    D --> D6["enough का स्थान<br>विशेषण/क्रियाविशेषण के बाद<br>संज्ञा के पहले"]
+    D --> D7["आवृत्ति क्रियाविशेषण<br>मुख्य क्रिया से पहले<br>be क्रिया के बाद"]
+
+    E --> E1["Sound-Right जाल<br>He did good (✗)<br>He did well (✓)"]
+    E --> E2["hardly/scarcely के साथ<br>when, no sooner के साथ than"]
+    E --> E3["दोहरी नकारात्मकता<br>He hardly does nothing (✗)"]
+    E --> E4["much vs very<br>much + comparative<br>very + positive"]
+    E --> E5["late vs lately<br>late = देर से<br>lately = हाल ही में"]
+
+    F --> F1["15 सेकंड नियम<br>तथ्यात्मक: ly प्रत्यय,<br>शब्द-पहचान प्रश्न"]
+    F --> F2["45 सेकंड नियम<br>तार्किक: त्रुटि-पहचान,<br>too/enough वाले वाक्य"]
+    F --> F3["Skip Strategy<br>दोनों विकल्प सही लगें<br>तो अंकित कर आगे बढ़ें"]
+    F --> F4["Mnemonic<br>MPTFD: Manner, Place,<br>Time, Frequency, Degree"]
+```

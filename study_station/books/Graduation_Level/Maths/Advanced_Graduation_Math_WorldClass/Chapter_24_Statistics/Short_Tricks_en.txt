@@ -1,0 +1,127 @@
+# 🪄 Short Tricks — Statistics (Advanced)
+
+---
+
+**🎯 TRICK 1: Mean, Median, Mode — "The 3 M's Walk in a Skew"**
+
+> In a **right-skewed** distribution, the three M's line up alphabetically in reverse:
+> **Mode < Median < Mean** (Mean gets dragged toward the long tail).
+> In a **left-skew**: **Mean < Median < Mode**.
+> Memory hook: *"The Mean is a greedy kid — it always runs toward the money (the tail)."*
+> And the golden relation: **Mode = 3 Median − 2 Mean** → chant: *"3 Minus 2, Mode comes through!"*
+
+---
+
+**🎯 TRICK 2: Empirical Relation — "M³M²M"**
+
+> **Mode = 3 Median − 2 Mean**
+> Write it as: **MO = 3ME − 2MA** → *"MO-ME-MA — the statistics family!"*
+> Works only for moderately skewed distributions — examiners love asking this directly.
+
+---
+
+**🎯 TRICK 3: Variance Shortcut — "Mean of Squares − Square of Mean"**
+
+> **σ² = E(X²) − [E(X)]²**
+> Mnemonic: *"Square the family first, then square the father — subtract father from family."*
+> Never compute deviations one by one in exams — this formula is 3× faster.
+
+---
+
+**🎯 TRICK 4: SD is Immune to Shifts — "SD Doesn't Care Where You Live"**
+
+> Adding/subtracting a constant to every data point → **SD unchanged**.
+> Multiplying by *k* → SD becomes **|k|·σ**.
+> Hook: *"SD measures spread, not address. Move the whole colony — the gaps stay the same."*
+> Trap alert: variance becomes **k²σ²**, not kσ²!
+
+---
+
+**🎯 TRICK 5: Coefficient of Variation — "CV = SD's Percentage Avatar"**
+
+> **CV = (σ / Mean) × 100**
+> Use it to compare consistency of two series with different units/means.
+> Mnemonic: *"Lower CV = More Consistent = More Credible."* → **"The 3 C's"**
+> Exam classic: "Which batsman is more consistent?" → always compare CV, never raw SD.
+
+---
+
+**🎯 TRICK 6: Combined Mean — "Weighted Wedding"**
+
+> **x̄₁₂ = (n₁x̄₁ + n₂x̄₂) / (n₁ + n₂)**
+> Mnemonic: *"When two families marry, the big family pulls the average toward itself."*
+> The combined mean always lies **between** the two means — use this to eliminate options instantly.
+
+---
+
+**🎯 TRICK 7: Quartiles — "Q1, Q2, Q3 = 25, 50, 75"**
+
+> Q1 = 25th percentile, Q2 = Median = 50th, Q3 = 75th.
+> Mnemonic: *"Quarters of a rupee: 25p, 50p, 75p."*
+> **IQR = Q3 − Q1** → *"InterQuartile Range = Rich (Q3) minus Poor (Q1)."*
+
+---
+
+**🎯 TRICK 8: Skewness Sign — "Tail Tells the Tale"**
+
+> Long tail on the **right** → **positive** skew. Long tail on the **left** → **negative** skew.
+> Mnemonic: *"The tail is the teller — wherever the tail points, that's the sign."*
+> Karl Pearson's coefficient: **Sk = (Mean − Mode)/σ** → if Mean > Mode, skew is positive.
+
+---
+
+**🎯 TRICK 9: Correlation r — "r Lives Between −1 and +1"**
+
+> **−1 ≤ r ≤ +1**, always.
+> Mnemonic: *"r is a disciplined soldier — never crosses the ±1 border."*
+> If your calculation gives r = 1.4, it's wrong — recheck! Examiners plant this as a distractor.
+> Also: r is **unit-free** and unaffected by change of origin AND scale.
+
+---
+
+**🎯 TRICK 10: Regression Lines — "bxy × byx = r²"**
+
+> **r = ±√(bxy · byx)** — take the **sign of the regression coefficients** (both always share r's sign).
+> Mnemonic: *"r is the geometric mean of the two b's — and it copies their mood (sign)."*
+> Trap: if bxy = 2 and byx = 0.5, then r = +1 ✓; if bxy = 4, byx = 1, r = 2 → **impossible**, reject!
+
+---
+
+**🎯 TRICK 11: AM ≥ GM ≥ HM — "A Gentleman is Humble"**
+
+> **A**M ≥ **G**M ≥ **H**M → **A–G–H**: *"A Gentleman is Humble."*
+> Equality holds only when all numbers are equal.
+> Bonus: **GM² = AM × HM** → *"G sits exactly in the middle of A and H — geometrically!"*
+
+---
+
+**🎯 TRICK 12: Standard Deviation of First n Natural Numbers — "The n²−1 Club"**
+
+> σ of first n natural numbers = **√((n² − 1)/12)**
+> Mnemonic: *"Nature's dozen: square n, drop 1, divide by 12, take the root."*
+> Direct one-liner for SSC/Bank exams — saves 2 full minutes.
+
+---
+
+**🎯 TRICK 13: Range & QD — "Quick and Dirty Spread"**
+
+> **Range = L − S** (Largest − Smallest)
+> **Quartile Deviation = (Q3 − Q1)/2** — half of IQR!
+> Mnemonic: *"QD is IQR's half-brother."*
+> Coefficient of QD = (Q3 − Q1)/(Q3 + Q1) → *"Difference over Sum — like a tug-of-war score."*
+
+---
+
+**🎯 TRICK 14: Probability Bounds — "P is a Percentage in Disguise"**
+
+> **0 ≤ P(E) ≤ 1**; P(sure) = 1, P(impossible) = 0.
+> **P(E) + P(E′) = 1** → *"Event and its twin always share one full cake."*
+> Addition rule: **P(A∪B) = P(A) + P(B) − P(A∩B)** → *"Add both, subtract the overlap — don't count the crowd twice!"*
+
+---
+
+**🎯 TRICK 15: Mean Deviation vs SD — "SD is the VIP"**
+
+> For the same data: **MD < SD** (SD squares deviations, so big errors get punished harder).
+> Mnemonic: *"SD is the strict teacher — big mistakes get squared punishments."*
+> For normal data: **MD ≈ (4/5)σ** and **QD ≈ (2/3)σ** → chant: *"Four-fifths Mean, two-thirds Quartile, one full Standard!"*

@@ -1,0 +1,126 @@
+Questions 26–45: Easy | Questions 46–50: Medium
+
+26. At sunrise, Riya starts walking facing the sun. She walks 10 m, then turns right and walks 15 m, then turns left and walks 5 m. In which direction is her shadow falling now?
+(a) East (b) West (c) North (d) South
+Answer: (b)
+Solution: At sunrise the sun is in the East, so Riya faces East; right turn takes her to South, then left turn brings her back to East. The tempting trap is to answer East, the direction she faces, but the shadow falls opposite the sun, so the answer is West.
+
+27. In a certain code, all directions are rotated 180°. If 'North' is coded as 'South' and 'East' as 'West', what will 'South-West' be coded as?
+(a) North-East (b) North-West (c) South-East (d) South-West
+Answer: (a)
+Solution: A 180° rotation reverses every direction, so South becomes North and West becomes East. The trap is to reverse only one component and pick North-West, but both components flip, so the answer is North-East.
+
+28. John walks 20 m North, then 20 m East, then 15 m South, then 8 m West. What is the shortest distance from his starting point?
+(a) 15 m (b) 13 m (c) 17 m (d) 12 m
+Answer: (b)
+Solution: Net North = 20 − 15 = 5 m and net East = 20 − 8 = 12 m. The trap is to add 5 and 12 to get 17, but displacement is the hypotenuse √(5² + 12²) = √169, so the answer is 13 m.
+
+29. A man is facing North. He turns left and walks 10 m, then turns about and walks 5 m, then turns right and walks 10 m. Which direction is he facing now?
+(a) North (b) South (c) East (d) West
+Answer: (b)
+Solution: Facing North, a left turn gives West; an about turn reverses him to East; from East a right turn gives South. The trap is to treat the about turn as another left turn and end at North, but an about turn is 180°, so the answer is South.
+
+30. At 4 p.m., a man walking towards a market sees his shadow exactly to his right. In which direction is he walking?
+(a) East (b) West (c) North (d) South
+Answer: (c)
+Solution: At 4 p.m. the sun is in the West, so shadows fall towards the East. If East is on his right, he must be facing North; the trap is to assume evening shadow falls West and answer South, so the answer is North.
+
+31. Six houses A, B, C, D, E, F are located as follows: A is north of B; C is east of B; D is north of C; E is east of D; F is south of E. Where is F with respect to A?
+(a) South-West (b) North-West (c) North-East (d) South-East
+Answer: (d)
+Solution: Taking B at the origin with equal steps: A is at (0,1), C at (1,0), D at (1,1), E at (2,1), F at (2,0). From A to F one moves east and south; the trap is to compare F with B instead of A and pick East, so the answer is South-East.
+
+32. A man is facing North-East. He turns 135° clockwise, then 90° anticlockwise, then 45° clockwise. Which direction is he facing now?
+(a) North-West (b) South-West (c) North-East (d) South-East
+Answer: (d)
+Solution: North-East is 45° (clockwise from North); +135° gives 180° (South), −90° gives 90° (East), +45° gives 135°. The trap is to add all turns as clockwise and land on North-West, so the answer is South-East.
+
+33. A woman walks 30 m South, turns left and walks 30 m, turns left and walks 10 m, turns right and walks 10 m, and finally turns right and walks 10 m. How far is she from the start?
+(a) 50 m (b) 40 m (c) 30 m (d) 60 m
+Answer: (a)
+Solution: Tracing: South 30; left to East 30; left to North 10 (net South 20); right to East 10 (net East 40); right to South 10 (net South 30). Distance = √(40² + 30²) = √2500; the trap is to add all legs and get 60, so the answer is 50 m.
+
+34. A girl is standing in front of a mirror and walking towards it. She sees her reflection walking towards the North. In which direction is the girl actually walking?
+(a) East (b) North (c) South (d) West
+Answer: (c)
+Solution: Along the line perpendicular to the mirror, the image moves opposite to the object, so if the reflection moves North, the girl moves South. The trap is to think a mirror only swaps left and right and answer North, so the answer is South.
+
+35. At sunrise, a boy stands facing the sun. He turns 90° anti-clockwise, walks 100 m, then turns 45° clockwise. In which direction is he now facing?
+(a) North-West (b) East (c) South-East (d) North-East
+Answer: (d)
+Solution: At sunrise he faces East; 90° anti-clockwise takes him to North, and 45° clockwise from North gives North-East. The trap is to turn 45° anti-clockwise as well and pick North-West, so the answer is North-East.
+
+36. In a code, all directions are rotated 45° clockwise, so that 'North' is coded as 'North-East'. What will 'East' be coded as?
+(a) South-East (b) South (c) North-East (d) North
+Answer: (a)
+Solution: Every direction shifts 45° clockwise, so East (90°) moves to 135°, which is South-East. The trap is to rotate anti-clockwise and pick North-East, so the answer is South-East.
+
+37. At noon, a man stands facing South. He turns left and walks 10 m, then turns right and walks 20 m. In which direction is his shadow falling now? (Northern hemisphere)
+(a) East (b) West (c) North (d) South
+Answer: (c)
+Solution: At noon the sun is in the South, so shadows fall towards the North regardless of how the man walks. The trap is to compute his final facing (South) and give that as the shadow direction, but shadow depends only on the sun, so the answer is North.
+
+38. Mohan is to the North of Rohan. Sohan is to the East of Mohan. Tohan is to the South of Sohan. In which direction is Tohan with respect to Rohan?
+(a) North (b) South-East (c) North-East (d) East
+Answer: (d)
+Solution: With equal steps, Rohan is at (0,0), Mohan at (0,1), Sohan at (1,1), and Tohan at (1,0), which is exactly east of Rohan. The trap is to stop at Sohan's position and answer North-East, so the answer is East.
+
+39. A man walks 14 m East, turns right and walks 48 m, turns right and walks 14 m, and turns right and walks 48 m. How far is he from his starting point?
+(a) 14 m (b) 0 m (c) 48 m (d) 50 m
+Answer: (b)
+Solution: The 14 m East and 14 m West cancel, and the 48 m South and 48 m North cancel, so he returns to the start. The trap is to compute √(14² + 48²) = 50 as if the legs did not cancel, so the answer is 0 m.
+
+40. One evening, a man returning from office finds his shadow falling exactly in front of him. In which direction is he walking?
+(a) East (b) West (c) North (d) South
+Answer: (a)
+Solution: In the evening the sun is in the West, so shadows fall towards the East; if the shadow is in front of him, he faces East. The trap is to answer West, the direction of the sun, so the answer is East.
+
+41. In a code, the word 'Left' means turn towards North, 'Right' means turn towards East, 'Forward' means turn towards South, and 'Backward' means turn towards West. A man is initially facing North. He executes: Left, Right, Forward. Which direction is he facing now?
+(a) East (b) West (c) North (d) South
+Answer: (d)
+Solution: Each command sets an absolute facing: Left sets North, Right sets East, Forward sets South. The trap is to treat the words as relative turns from the current facing, so the answer is South.
+
+42. A is 20 m South of B. C is 20 m East of B. D is 20 m North of C. E is 20 m West of D. F is 20 m South of E. Where is F with respect to A?
+(a) 20 m North (b) 20 m South (c) 20 m East (d) Same point as A
+Answer: (a)
+Solution: Taking B at (0,0): A is (0,−20), C is (20,0), D is (20,20), E is (0,20), F is (0,0), i.e., F coincides with B. Since A is 20 m south of B, F is 20 m north of A; the trap is to say F and A coincide, so the answer is 20 m North.
+
+43. One morning, A and B are standing facing each other. A's shadow is falling exactly to the left of B. In which direction is A facing?
+(a) West (b) North (c) East (d) South
+Answer: (d)
+Solution: In the morning shadows fall towards the West, so A's shadow points West; if West is on B's left, B must be facing North (a person facing North has West on the left). Since A faces B, A faces South; the trap is to mix up B's left with A's left and answer North, so the answer is South.
+
+44. A boy walks 4 km North, then 2 km West, then 4 km South, then 4 km East. In which direction is he from his starting point?
+(a) South-East (b) North-East (c) East (d) West
+Answer: (c)
+Solution: The 4 km North and 4 km South cancel; net east-west movement is 4 km East minus 2 km West = 2 km East. The trap is to ignore the cancellation and pick a diagonal like South-East, so the answer is East.
+
+45. A woman walks 5 m North, 12 m West, 9 m South, 4 m East. What is the shortest distance from the start? (in metres)
+(a) 8 (b) 4√5 (c) 10 (d) 5√3
+Answer: (b)
+Solution: Net north-south = 5 − 9 = 4 m South; net east-west = 12 − 4 = 8 m West. Displacement = √(4² + 8²) = √80; the trap is to add 4 and 8 to get 12 or miscompute as 10, so the answer is 4√5 m.
+
+46. A person is facing North. He turns 225° clockwise, then 90° anti-clockwise. In which direction is he facing now?
+(a) South-West (b) South-East (c) North-East (d) North-West
+Answer: (b)
+Solution: From North (0°), 225° clockwise gives 225° (South-West); then 90° anti-clockwise subtracts to 135° (South-East). The trap is to stop after the first turn and pick South-West, so the answer is South-East.
+
+47. A boy walks 20 m North, turns left and walks 10 m, turns left and walks 20 m, turns right and walks 5 m. How far and in which direction is he from the start?
+(a) 15 m East (b) 10 m West (c) 15 m West (d) 10 m East
+Answer: (c)
+Solution: North 20, left to West 10, left to South 20 (cancelling the northward leg), right to West 5. Total westward = 10 + 5 = 15 m; the trap is to forget the last 5 m and answer 10 m West, so the answer is 15 m West.
+
+48. In a code, the directions are rotated 90° clockwise. If 'North' becomes 'East', 'East' becomes 'South', etc., then what will 'South-West' become?
+(a) North-West (b) South-East (c) North-East (d) South-West
+Answer: (a)
+Solution: Rotating 90° clockwise, South (180°) becomes West (270°) and West (270°) becomes North (0°), so South-West becomes North-West. The trap is to rotate anti-clockwise and get South-East, so the answer is North-West.
+
+49. A man walks 15 m South, 20 m West, 15 m North, and 15 m East. How far is he from the start?
+(a) 5 m West (b) 5 m East (c) 10 m West (d) 0 m
+Answer: (a)
+Solution: South 15 and North 15 cancel; West 20 minus East 15 leaves 5 m West. The trap is to assume all legs cancel and answer 0 m, so the answer is 5 m West.
+
+50. If 'North' means 'South-West', then what does 'East' mean? (assuming a uniform rotation)
+(a) North-East (b) South-West (c) North-West (d) South-East
+Answer: (c)
+Solution: North (0°) becoming South-West (225°) is a uniform rotation of 225° clockwise; applying it to East (90°) gives 315°, which is North-West. The trap is to rotate East by only 135° or in the wrong sense and pick South-East, so the answer is North-West.

@@ -1,261 +1,231 @@
-Here is an analysis of the top 10 high-yield PYQs for Data Interpretation, along with detailed solutions and an explanation of the psychological hooks and traps used in each question.
+📊 Top 10 High-Yield Data Interpretation PYQ-Style Questions with Solutions & Psychological Traps
 
-📊 Top 10 High-Yield Data Interpretation PYQs with Solutions & Psychological Traps
+This section analyses the types of Data Interpretation (DI) questions that SSC, Railway, Bank and State exams ask again and again. Each question below is a PYQ-style example showing the trap the examiner sets and how to beat it.
+
 🔹 Question 1: The "Composition vs. Actual Number" Trap
 
-PYQ Source: CSAT 2011
+Source: PYQ-style (Bank/SSC pattern)
 
 Question:
-The following pie-charts show the break-up of disease categories recorded in the patients from two towns, Town A and Town B. Pie-charts plot the disease categories as percentage of the total number of patients. Based on these, answer the two items that follow the charts.
-Q. Which of the two towns has a higher number of persons with Diabetes?
+Two pie-charts show the break-up of disease categories recorded among patients from two towns, Town A and Town B, as a percentage of the total number of patients in each town.
+
+% of patients with Diabetes in Town A: 22%
+% of patients with Diabetes in Town B: 30%
+
+Which of the two towns has a higher number of persons with Diabetes?
 (a) Town A
 (b) Town B
 (c) Same in Town A and Town B
 (d) No inference can be drawn
 
-% of patients with Diabetes in Town A: 22%
-% of patients with Diabetes in Town B: 30%
-
 Solution:
-The correct answer is (d) No inference can be drawn. We are given the percentage of patients with Diabetes in each town, but not the total number of patients (the base). Without knowing the actual population of each town, it is impossible to determine which town has a higher number of diabetic persons. For example, if Town A has 1,000 patients, it would have 220 diabetic persons, while if Town B has only 500, it would have 150. The percentages alone are insufficient. -
-2
+The correct answer is (d). We are given the percentage of diabetic patients in each town, but not the total number of patients (the base). Without the actual totals, we cannot compare absolute numbers. For example, if Town A has 1,000 patients, it has 220 diabetic persons; if Town B has only 500 patients, it has 150 — even though 30% > 22%.
 
 Psychological Hook/Trap:
-This question exploits the "Percentage-Number Equivalence" cognitive bias. Our minds are naturally drawn to larger percentages and we often mistakenly equate them with larger absolute numbers. The examiner deliberately highlights the percentages to make you jump to a conclusion without considering the missing base value. This is one of the most common traps in Data Interpretation — always ask: "Percent of what?" The key lesson is to always check for the absolute base before comparing percentages.
+This question exploits the "Percentage-Number Equivalence" bias. Our minds are drawn to the larger percentage and we mistakenly equate it with a larger absolute number. The examiner highlights the percentages to make you jump to a conclusion without the base value. Always ask: "Percent of what?"
 
 🔹 Question 2: The "Overlapping Categories" Trap
 
-PYQ Source: CSAT 2011 (Follow-up to Question 1)
+Source: PYQ-style (follow-up to Question 1)
 
 Question:
-What can we say about persons with more than one disease from these graphs?
+From the same pie-charts: Town A's five disease categories sum to exactly 100% (13% + 18% + 22% + 34% + 13%), while Town B's categories sum to 121% (24% + 19% + 30% + 28% + 20%). What can we say about persons with more than one disease?
 (a) There are likely to be persons with more than one disease in Town A.
 (b) There are likely to be persons with more than one disease in Town B.
-(c) There are likely to be persons with more than one disease in both Towns A and B.
+(c) There are likely to be persons with more than one disease in both towns.
 (d) No inference can be drawn.
 
 Solution:
-The correct answer is (b). For Town A, the sum of all disease category percentages (13% + 18% + 22% + 34% + 13%) equals exactly 100%. This suggests that the categories are mutually exclusive; no person has more than one disease. However, for Town B, the sum (24% + 19% + 30% + 28% + 20%) equals 121%. Since the total exceeds 100%, it implies that there are likely persons who have multiple diseases in Town B. -
-2
+The correct answer is (b). For Town A, the percentages sum to exactly 100%, so the categories are mutually exclusive — no person is counted twice. For Town B, the sum is 121%, which exceeds 100%, so some persons must have been counted in more than one category — i.e., they have more than one disease.
 
 Psychological Hook/Trap:
-This question uses the "Hidden Mathematical Cue" trap. Students often focus solely on the visual pie chart and forget that a pie chart's percentages should sum to 100%. The examiner hides a crucial clue in the total percentage sum. Most candidates will try to make subjective judgments based on the size of the slices, rather than performing this simple mathematical check. The power of this trap lies in its subtlety — the data provided is sufficient, but only if you look at it in the right way. Always sum percentages in a pie chart; if they exceed 100%, there is an overlap.
+This is the "Hidden Mathematical Cue" trap. Students focus on the visual slices and forget that a pie chart's percentages should sum to 100%. The crucial clue is hidden in the total. Always sum the percentages in a pie chart; if they exceed 100%, there is overlap.
 
 🔹 Question 3: The "Multiple Data Sources" Trap
 
-PYQ Source: IBPS PO (Memory Based) / SATHEE Question 328
+Source: PYQ-style (Bank PO pattern)
 
 Question:
-Study the following graph and answer the questions. Company B's expenditure in the years 2009 and 2010 is 12 lakhs and 14.5 lakhs, respectively. What was the total income of Company B for the years 2009 and 2010 combined?
-(1) 39.75 lakhs
-(2) 37.95 lakhs
-(3) 38.75 lakhs
-(4) 38.55 lakhs
-(5) None of these
+A line graph shows the profit percentage of Company B: 35% in 2009 and 50% in 2010. Company B's expenditure in 2009 and 2010 is ₹12 lakh and ₹14.5 lakh respectively. What was the total income of Company B for 2009 and 2010 combined?
+(a) 39.75 lakh
+(b) 37.95 lakh
+(c) 38.75 lakh
+(d) 38.55 lakh
 
 Solution:
-Given Data from Graph: Profit % in 2009 = 35%, Profit % in 2010 = 50%. We know Profit % = (Income − Expenditure) / Expenditure × 100.
+Profit % = (Income − Expenditure) / Expenditure × 100.
 
-For 2009: 35 = (I₁ − 12)/12 × 100 → I₁ = 16.2 lakhs
+For 2009: 35 = (I₁ − 12)/12 × 100 → I₁ = 12 × 1.35 = ₹16.2 lakh
+For 2010: 50 = (I₂ − 14.5)/14.5 × 100 → I₂ = 14.5 × 1.5 = ₹21.75 lakh
 
-For 2010: 50 = (I₂ − 14.5)/14.5 × 100 → I₂ = 21.75 lakhs
-
-Total Income = 16.2 + 21.75 = 37.95 lakhs. Answer: (2) -
-11
+Total Income = 16.2 + 21.75 = ₹37.95 lakh. Answer: (b)
 
 Psychological Hook/Trap:
-This is a classic "Data Integration" trap, often called the cascading dependency problem. A single piece of data (expenditure) is provided in the text, while another piece of data (profit percentage) must be visually extracted from a graph. The psychological burden lies in the need to seamlessly integrate two different forms of representation. If a student misreads the graph for the profit percentage or takes the wrong bar/line, the entire calculation chain collapses. This question tests your ability to combine textual and visual data accurately under pressure.
+This is the "Data Integration" trap. One piece of data (expenditure) is given in the text, while another (profit %) must be read from the graph. If you misread the graph or pick the wrong year's value, the whole calculation collapses. Cross-verify every value before starting.
 
 🔹 Question 4: The "Percentage of a Percentage" Trap
 
-PYQ Source: SSC CGL / Bank Exams (Common Pattern)
+Source: PYQ-style (SSC/Bank pattern)
 
 Question:
 In a school, 60% of the students are boys. Among boys, 75% play cricket. Among girls, 40% play cricket. What is the total percentage of students who play cricket?
+(a) 57%
+(b) 61%
+(c) 65%
+(d) 55%
 
 Solution:
-
-Percentage of boys playing cricket = 75% of 60% = 0.75 × 0.60 = 0.45 = 45%.
-
-Percentage of girls = 100% - 60% = 40%.
-
-Percentage of girls playing cricket = 40% of 40% = 0.40 × 0.40 = 0.16 = 16%.
-
-Total percentage of cricket players = 45% + 16% = 61%. -
+Boys playing cricket = 75% of 60% = 0.75 × 60 = 45% of all students.
+Girls = 100% − 60% = 40% of students.
+Girls playing cricket = 40% of 40% = 0.40 × 40 = 16% of all students.
+Total cricket players = 45% + 16% = 61%. Answer: (b)
 
 Psychological Hook/Trap:
-This question exploits the "Sequential Percentage Reduction" trap. Because the first condition (60% boys) is a percentage of the whole, the second condition (75% of boys) is a percentage of a percentage. The brain often incorrectly treats this as 75% of the total students. The examiner preys on the common tendency to take percentages at face value without considering the layered context. This trap highlights the need to carefully identify the base for each percentage.
+This is the "Sequential Percentage Reduction" trap. The second condition (75% of boys) is a percentage of a percentage, but the brain often treats it as 75% of the total. Always identify the base for each percentage before multiplying.
 
 🔹 Question 5: The "Absolute vs. Relative Size" Trap
 
-PYQ Source: Bank PO Exams / CAT (Multi-Model DI Set)
+Source: PYQ-style (Bank PO pattern)
 
 Question:
-Study the following pie chart and table:
-
-Pie Chart: Distribution of a total of 500 employees among five departments (A, B, C, D, E).
-
-Table: Percentage of male employees in each department. (A: 60%, B: 70%, C: 50%, D: 80%, E: 40%)
-Question: Which department has the highest number of female employees?
+A pie chart distributes 500 employees among five departments: A: 20%, B: 10%, C: 30%, D: 25%, E: 15%. A table gives the percentage of male employees in each department: A: 60%, B: 70%, C: 50%, D: 80%, E: 40%. Which department has the highest number of female employees?
+(a) Department A
+(b) Department C
+(c) Department D
+(d) Department E
 
 Solution:
-Assume the pie chart gives the following distribution:
-
-A: 20% (100 employees) → Female % = 40% → Female count = 40
-
-B: 10% (50 employees) → Female % = 30% → Female count = 15
-
-C: 30% (150 employees) → Female % = 50% → Female count = 75 (Highest)
-
-D: 25% (125 employees) → Female % = 20% → Female count = 25
-
-E: 15% (75 employees) → Female % = 60% → Female count = 45
-Department C has the highest number of female employees (75). -
+A: 100 employees → 40% female → 40
+B: 50 employees → 30% female → 15
+C: 150 employees → 50% female → 75 (Highest)
+D: 125 employees → 20% female → 25
+E: 75 employees → 60% female → 45
+Answer: (b) Department C, with 75 female employees.
 
 Psychological Hook/Trap:
-This question uses the "Visual Misattribution" trap. Visually, in the pie chart, Department E might appear smaller, but its high female percentage could mislead you into thinking it has the most females without doing the calculation. Conversely, a larger slice with a lower female percentage might look like the obvious answer. The trap here is failing to integrate the visual data with the tabular data and relying on a quick visual judgment rather than a precise calculation. Always combine the proportional data with the absolute numbers.
+This is the "Visual Misattribution" trap. Department E has the highest female percentage (60%), which tempts you to pick it, but its total staff is small. A large slice with a moderate female percentage can win on absolute numbers. Never judge by slice size or percentage alone — do the multiplication.
 
 🔹 Question 6: The "Data Sufficiency Illusion" Trap
 
-PYQ Source: UPSC / Bank Exams
+Source: PYQ-style (Bank exam pattern)
 
 Question:
-Question: What is the profit earned by the company in 2015?
-Statement 1: The company's revenue in 2015 was Rs. 10 lakhs.
-Statement 2: The company's expenditure in 2015 was Rs. 8 lakhs.
-(a) Statement 1 alone is sufficient, but statement 2 alone is not.
-(b) Statement 2 alone is sufficient, but statement 1 alone is not.
+What is the profit earned by the company in 2015?
+Statement 1: The company's revenue in 2015 was ₹10 lakh.
+Statement 2: The company's expenditure in 2015 was ₹8 lakh.
+(a) Statement 1 alone is sufficient, but Statement 2 alone is not.
+(b) Statement 2 alone is sufficient, but Statement 1 alone is not.
 (c) Both statements together are sufficient, but neither alone is sufficient.
 (d) Each statement alone is sufficient.
 
 Solution:
-Profit = Revenue − Expenditure. Neither statement alone provides enough information. By combining both statements, we can calculate the profit (10 lakhs − 8 lakhs = 2 lakhs). Thus, the answer is (c). -
-21
+Profit = Revenue − Expenditure. Statement 1 alone gives only revenue; Statement 2 alone gives only expenditure. Neither alone can answer the question. Together: Profit = 10 − 8 = ₹2 lakh. Answer: (c)
 
 Psychological Hook/Trap:
-This is known as the "Almost There" trap in Data Sufficiency. Each statement provides a necessary piece of information, but neither is sufficient on its own. The trap baits students into thinking that a statement giving a direct number (like revenue) is enough, forgetting that profit requires both revenue and cost. This exploits a cognitive shortcut where we accept partial, concrete information as sufficient for a complete answer. The key is to always check if the exact question asked can be answered with the given data alone.
+This is the "Almost There" trap. A statement giving a concrete number (like revenue) feels sufficient, but profit needs both revenue and cost. Always check whether the exact question asked can be answered with each statement alone.
 
 🔹 Question 7: The "Trend ≠ Continuation" Trap
 
-PYQ Source: CSAT / CAT / Multiple Exams
+Source: PYQ-style (SSC/Bank reasoning-based DI)
 
 Question:
-The following line graph shows the sales of a company for 6 consecutive years. Sales increased every year from 2015 to 2020. Based on this, a student concluded that the sales will definitely increase in 2021 as well. Which of the following is the most logical assessment of the student's conclusion?
+A line graph shows that a company's sales increased every year from 2015 to 2020. A student concludes that sales will definitely increase in 2021 as well. Which is the most logical assessment?
 (a) The conclusion is valid because the trend is clear.
-(b) The conclusion is invalid because the data does not provide information about 2021.
+(b) The conclusion is invalid because the data gives no information about 2021.
 (c) The conclusion is valid because sales always follow trends.
-(d) The conclusion is invalid because the data is insufficient.
+(d) The conclusion is invalid because the data is insufficient for 2015–2020.
 
 Solution:
-The correct answer is (b). The data only provides information about past performance. A consistent upward trend in the past does not guarantee future results. External factors, market saturation, or a sudden downturn could cause sales to decrease in 2021. A trend describes what has happened, not what will happen. -
-2
+The correct answer is (b). The data describes only past performance. A consistent past trend does not guarantee future results — market changes, competition, or other factors could reverse it. A trend describes what has happened, not what will happen.
 
 Psychological Hook/Trap:
-This is the "Trend-Extrapolation" cognitive bias. Our brains are pattern-seeking machines. Once we identify a clear, consistent upward trend, we naturally project it into the future. The examiner uses this to test your understanding of logical inference versus prediction. This is a crucial skill in Data Interpretation: recognizing that trends are descriptive, not prescriptive. The most logical inference from data is always bounded by the time frame of the data itself.
+This is the "Trend-Extrapolation" bias. Our brains are pattern-seeking machines and naturally project a clear trend into the future. In DI, a valid inference is always bounded by the time frame of the given data.
 
 🔹 Question 8: The "Approximation" Trap
 
-PYQ Source: SSC CGL / CHSL / UPSC CSAT
+Source: PYQ-style (SSC CGL/CHSL pattern)
 
 Question:
-The following bar graph shows the production of wheat (in thousand tonnes) for the years 2011 to 2015. The production values are 43, 57, 68, 82, and 97. What is the approximate percentage increase in production from 2011 to 2015?
+A bar graph shows wheat production (in thousand tonnes) for 2011 to 2015: 43, 57, 68, 82, 97. What is the approximate percentage increase in production from 2011 to 2015?
 (a) 115%
 (b) 126%
 (c) 130%
 (d) 135%
 
 Solution:
-Increase = 97 - 43 = 54. Percentage Increase = (54/43) × 100.
+Increase = 97 − 43 = 54. Percentage increase = (54/43) × 100 ≈ 125.6% ≈ 126%. Answer: (b)
 
-First, approximate 43 to ~40 and 54 to ~55. (55/40) × 100 = ~137.5%.
-
-Or precisely calculate: 54/43 = 1.2558... × 100 = 125.58%.
-Looking at the answer choices, 126% is the closest approximation. The trap option would be a value around 137% if you rounded too aggressively. The correct answer is (b). -
-38
+Note the danger: rounding 43 down to 40 and 54 up to 55 gives (55/40) × 100 ≈ 137%, which pulls you toward option (d) — a deliberate trap.
 
 Psychological Hook/Trap:
-This question lures you into the "Aggressive Approximation" trap. The instruction to find an "approximate" value is a double-edged sword. While approximation is a powerful time-saving tool, doing it too aggressively by rounding 43 to 40 (a nearly 7% error) can lead you directly to a cleverly placed trap answer. The examiner tests your ability to judge the appropriate level of approximation relative to the gap between answer choices. The lesson: when options are close, approximate with care.
+This is the "Aggressive Approximation" trap. Approximation saves time, but rounding too aggressively when options are close together leads straight into a planted wrong answer. Judge the level of approximation by the gap between the options.
 
 🔹 Question 9: The "Sequential vs. Base Value" Trap
 
-PYQ Source: Bank Exams / CAT
+Source: PYQ-style (Bank/SSC pattern)
 
 Question:
-The price of a stock is Rs. 100. On Monday, it increased by 20%. On Tuesday, it decreased by 20%. What is the net percentage change from the original price?
+The price of a stock is ₹100. On Monday it increases by 20%. On Tuesday it decreases by 20%. What is the net percentage change from the original price?
 (a) 0%
 (b) +4%
-(c) -4%
-(d) -2%
+(c) −4%
+(d) −2%
 
 Solution:
-Day 1: Increase by 20% → New Price = 100 × 1.20 = Rs. 120.
-Day 2: Decrease by 20% → The decrease is 20% of the new price, 120. Reduction = 120 × 0.20 = 24. Final Price = 120 - 24 = Rs. 96.
-Net change from original = Rs. 96 - Rs. 100 = -Rs. 4, which is a -4% change. Answer: (c).
+Monday: 100 × 1.20 = ₹120.
+Tuesday: decrease of 20% of 120 = 24 → Final price = 120 − 24 = ₹96.
+Net change = 96 − 100 = −₹4, i.e., −4%. Answer: (c)
 
 Psychological Hook/Trap:
-This is the famous "Reversibility Fallacy" of percentages. A 20% increase followed by a 20% decrease does not bring you back to the original value because the base of the second calculation is larger (120 instead of 100). Our brain's fast, intuitive system wants to cancel out the two operations (20% up, 20% down → 0%), leading you straight to the most tempting trap option (a). This question forces you to engage your analytical brain and verify your intuition.
+This is the famous "Reversibility Fallacy". A 20% increase followed by a 20% decrease does not return to the original value, because the second percentage applies to the new, larger base (120). The intuitive answer (a) 0% is the trap. Remember: the base changes after the first step.
 
 🔹 Question 10: The "Hidden Condition" Trap
 
-PYQ Source: CSAT 2020
+Source: PYQ-style (SSC/Bank pattern)
 
 Question:
-Consider the following data:
-Year: Population (in millions)
-1911: 252
-1921: 251
-1931: 279
-1941: 318
-1951: 361
-1961: 439
-1971: 548
-1981: 683
+Population data (in millions):
+1911: 252 | 1921: 251 | 1931: 279 | 1941: 318 | 1951: 361 | 1961: 439 | 1971: 548 | 1981: 683
 
-For which period was the natural growth rate maximum?
+For which period was the absolute increase in population the maximum?
 (a) 1911–1921
 (b) 1941–1951
 (c) 1961–1971
 (d) 1971–1981
 
 Solution:
-The natural growth rate is the absolute increase in population between two consecutive decades.
-
-1911-1921: 252 to 251 → Decrease of 1 million (-0.4%)
-
-1941-1951: 318 to 361 → Increase of 43 million
-
-1961-1971: 439 to 548 → Increase of 109 million
-
-1971-1981: 548 to 683 → Increase of 135 million (Maximum)
-
-The period 1971-1981 shows the largest absolute increase. Answer: (d). -
-54
+1911–1921: 252 → 251 = decrease of 1 million
+1941–1951: 318 → 361 = increase of 43 million
+1961–1971: 439 → 548 = increase of 109 million
+1971–1981: 548 → 683 = increase of 135 million (Maximum)
+Answer: (d)
 
 Psychological Hook/Trap:
-This question uses the "Rate vs. Magnitude" distinction. The phrase "growth rate" might make a student instinctively calculate the percentage growth rate, which can be time-consuming and might lead to a different answer. The key here is to understand the specific definition expected: in demographic terms, "natural growth rate" often refers to the absolute increase for the given data, unless a rate per thousand is provided. The examiner uses ambiguous terminology to see if you'll jump to a complex calculation when a simpler one is required. The lesson: always clarify what the question defines as its "rate" or "growth" from the context of the given data.
+This is the "Rate vs. Magnitude" trap. The word "growth" can push students into calculating percentage growth for every period — slow and unnecessary here. Read the question carefully: if it asks for absolute increase, simple subtraction is enough. Clarify exactly what is being asked before calculating.
 
 📋 Summary of Psychological Traps in DI
-Trap Category	Key Question Pattern	Quick Check Strategy
-Percentage-Number Equivalence	% given, asking for absolute number	Pause and check: Do I have the base?
-Hidden Mathematical Cues	Pie chart with overlapping data	Always sum up the percentages in a pie chart.
-Data Integration	Two or more sources of data linked	Cross-verify all values before starting to solve.
-Percentage of a Percentage	Multi-layered percent conditions	Clearly identify the base for each percentage.
-Absolute vs. Relative Size	Pie chart + Table combo	Don't judge by slice size alone; do the math.
-Data Sufficiency Illusion	"Is the data enough?" type questions	Check if the exact question can be answered with only the given statement.
-Trend-Extrapolation	Conclusion about future from past data	Data tells about the past, not the future.
-Aggressive Approximation	"Approximately" with close options	Round numbers only to the extent that the difference in options permits.
-Reversibility Fallacy	Sequential % increase then decrease	Remember the base changes after the first step.
-Hidden Condition / Ambiguity	Unclear or contextual terms	Clarify definitions from the data context before solving.
+
+| Trap Category | Key Question Pattern | Quick Check Strategy |
+|---|---|---|
+| Percentage-Number Equivalence | % given, absolute number asked | Pause and check: Do I have the base? |
+| Hidden Mathematical Cues | Pie chart with overlapping data | Always sum the percentages in a pie chart. |
+| Data Integration | Two or more linked data sources | Cross-verify all values before solving. |
+| Percentage of a Percentage | Multi-layered percent conditions | Identify the base for each percentage. |
+| Absolute vs. Relative Size | Pie chart + table combo | Don't judge by slice size alone; do the math. |
+| Data Sufficiency Illusion | "Is the data enough?" questions | Check if the exact question is answerable with each statement alone. |
+| Trend-Extrapolation | Future conclusion from past data | Data tells about the past, not the future. |
+| Aggressive Approximation | "Approximately" with close options | Round only as much as the option gaps allow. |
+| Reversibility Fallacy | Sequential % increase then decrease | The base changes after the first step. |
+| Hidden Condition / Ambiguity | Unclear or contextual terms | Clarify what is asked before solving. |
+
 🧠 Master Mnemonic for DI Traps: "P.A.C.T."
 
 When you see a Data Interpretation problem, remember your P.A.C.T. with the examiner:
 
 P (Percentage): Always identify the base before comparing any percentages.
 
-A (Absolute): Don't let a relative value (like a percentage or ratio) fool you about absolute size.
+A (Absolute): Don't let a relative value (percentage or ratio) fool you about absolute size.
 
 C (Context): Check the source, the total, the units, and the definitions. Don't assume anything.
 
 T (Trend): A trend shows what happened, not what will happen.
-
-Keep this framework in mind, and you'll be able to spot almost any trap an examiner can throw at you. Good luck, data detective!

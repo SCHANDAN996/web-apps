@@ -1,0 +1,60 @@
+# 🧒 The Feynman Way: Understanding Series Like a 12-Year-Old
+
+## The Story of Ravi's Pocket Money
+
+Imagine a boy named Ravi. His father gives him pocket money every Sunday, but with a twist — he never tells Ravi the amount in advance. Instead, he follows a secret rule:
+
+- Week 1: ₹10
+- Week 2: ₹15
+- Week 3: ₹25
+- Week 4: ₹40
+- Week 5: ?
+
+Ravi wants to buy a cricket ball costing ₹60. Can he buy it in Week 5?
+
+Let's play detective. Look at the **gaps** between the amounts:
+
+- 10 → 15: gap of **5**
+- 15 → 25: gap of **10**
+- 25 → 40: gap of **15**
+
+Aha! The gaps themselves are growing: 5, 10, 15... so the next gap must be **20**. Week 5 = 40 + 20 = **₹60**. Ravi gets his ball! 🏏
+
+**That is ALL a series question ever is.** A row of numbers (or letters) following a hidden rule, and your job is to catch the rule. The exam paper is just Ravi's father in disguise.
+
+## The One Big Idea: Don't Stare at the Numbers, Stare at the GAPS
+
+The hardest part of Series is not maths — it's knowing **where to look**. Most students stare at 2, 6, 12, 20, 30 and panic. But a detective doesn't stare at the houses; he measures the **footsteps between them**.
+
+So the golden habit is:
+
+> **First, subtract. Then subtract again. Then try multiply/divide. Then try squares and cubes.**
+
+Watch it work on 2, 6, 12, 20, 30, ?
+
+- Gaps: 4, 6, 8, 10 → next gap 12 → answer **42**. Done in 10 seconds.
+
+And on 4, 9, 25, 49, 121, ? — gaps look messy (5, 16, 24, 72), so switch tools: these are **squares of primes** (2², 3², 5², 7², 11²) → next is 13² = **169**.
+
+## The Unforgettable Trick: "DAD-MSC" 🕵️
+
+Remember the detective **DAD-MSC**. He checks suspects in this fixed order:
+
+- **D** – **Difference** (subtract neighbours; if gaps are equal or form a pattern, you're done)
+- **A** – **Alternate** (check every 2nd term — two series hiding inside one, like two TV channels mixed together)
+- **D** – **Double difference** (subtract the gaps themselves — catches n²-type series)
+- **M** – **Multiply/Divide** (×2, ×3, ×1.5, ÷2... or growing multipliers like ×1, ×2, ×3)
+- **S** – **Squares & Cubes** (1, 4, 9, 16... and 1, 8, 27, 64... or n² ± something)
+- **C** – **Combine** (mixed rules like ×2 + 1, ×3 − 2 — the examiner's favourite trap)
+
+For **letter series**, add one more weapon: **write A=1 to Z=26 on your rough sheet instantly.** Letters are just numbers wearing costumes. "C, F, I, L, ?" is really "3, 6, 9, 12, ?" → 15 → **O**.
+
+## The Trap That Fools Everyone
+
+If you see **1, 2, 4, 8, ?** your brain screams "16" (doubling). Usually right! But if the options also contain 15, pause — the rule could be "+1, +2, +4, +8" (same answer here) or something sneakier. **Always verify your rule on at least 3 terms before answering.** A rule that fits only 2 terms is a guess, not a rule.
+
+## 📝 Blurting Sheet
+
+Now try to write down all key points of this chapter on a blank sheet without looking up. Write the DAD-MSC order, the gap method, the letter-to-number trick, the squares 1–15 and cubes 1–10 from memory, and the "verify on 3 terms" rule. Then open the chapter and check what you missed — that missing piece is exactly what you must revise tonight.
+
+**Question for you:** Ravi's father now starts a new rule — ₹5, ₹9, ₹17, ₹33, ? Can you find the rule (hint: it's a "Combine" type — multiply and add) before Week 5 arrives?

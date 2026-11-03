@@ -1,0 +1,45 @@
+```mermaid
+graph TD
+    A["लेख (Articles)"] --> B["प्रकार"]
+    A --> C["मुख्य नियम"]
+    A --> D["परीक्षक के जाल"]
+    A --> E["रणनीति"]
+
+    B --> B1["अनिश्चित: A / An"]
+    B --> B2["निश्चित: The"]
+    B --> B3["शून्य लेख (Zero Article)"]
+
+    B1 --> B1a["A = व्यंजन ध्वनि से पहले<br>a university, a one-rupee note"]
+    B1 --> B1b["An = स्वर ध्वनि से पहले<br>an hour, an honest man, an MBA"]
+    B1 --> B1c["⚠️ ध्वनि देखो, अक्षर नहीं"]
+
+    B2 --> B2a["दूसरी बार उल्लेख पर<br>I saw a dog. The dog was black."]
+    B2 --> B2b["अद्वितीय वस्तुएँ<br>the sun, the moon, the earth"]
+    B2 --> B2c["अधोत्तम (Superlative) से पहले<br>the best, the tallest"]
+    B2 --> B2d["नदी, सागर, पर्वतमाला, समूह<br>the Ganga, the Himalayas, the USA"]
+    B2 --> B2e["वाद्ययंत्र बजाने पर<br>play the guitar"]
+    B2 --> B2f["क्रमांक (Ordinal) से पहले<br>the first, the second"]
+
+    B3 --> B3a["देश (सामान्य)<br>India, Japan — पर the USA, the UK"]
+    B3 --> B3b["भाषा, विषय, खेल<br>Hindi, Physics, cricket"]
+    B3 --> B3c["भोजन<br>have lunch, at dinner"]
+    B3 --> B3d["अगणनीय/बहुवचन सामान्य अर्थ में<br>Water is life. Dogs are faithful."]
+    B3 --> B3e["by + वाहन<br>by bus, by train"]
+
+    C --> C1["नियम 1: ध्वनि-नियम<br>Sound, not Spelling"]
+    C --> C2["नियम 2: पहला उल्लेख a/an<br>दूसरा उल्लेख the"]
+    C --> C3["नियम 3: few/a few/the few<br>little/a little/the little"]
+    C --> C4["नियम 4: same से पहले सदैव the"]
+    C --> C5["नियम 5: सामान्य वर्ग = the + एकवचन<br>The tiger is a wild animal."]
+
+    D --> D1["जाल 1: an university ❌<br>a university ✅ (यू-ध्वनि)"]
+    D --> D2["जाल 2: a hour ❌<br>an hour ✅ (मौन h)"]
+    D --> D3["जाल 3: the gold is costly ❌<br>Gold is costly ✅ (सामान्य अर्थ)"]
+    D --> D4["जाल 4: the Mount Everest ❌<br>Mount Everest ✅ (पर्वत-शिखर पर the नहीं)"]
+    D --> D5["जाल 5: by the bus ❌<br>by bus ✅"]
+
+    E --> E1["15 सेकंड: तथ्यात्मक<br>ध्वनि-नियम, the + superlative"]
+    E --> E2["45 सेकंड: तार्किक<br>सामान्य बनाम विशेष अर्थ, शून्य लेख"]
+    E --> E3["म्नेमोनिक: MRS VAN<br>Mountains-Rivers-Seas = the"]
+    E --> E4["Skip: दोनों विकल्प सही लगें तो<br>अंधा अनुमान न लगाएँ"]
+```

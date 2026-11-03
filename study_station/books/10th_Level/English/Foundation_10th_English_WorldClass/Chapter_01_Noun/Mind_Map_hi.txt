@@ -1,0 +1,39 @@
+```mermaid
+graph TD
+    A["संज्ञा (Noun)<br>नाम देने वाला शब्द"] --> B["प्रकार"]
+    A --> C["संख्या (Number)"]
+    A --> D["लिंग (Gender)"]
+    A --> E["12 स्वर्ण नियम"]
+    A --> F["परीक्षक के जाल"]
+    A --> G["रणनीति"]
+
+    B --> B1["Proper Noun<br>व्यक्तिवाचक — Ram, Ganga"]
+    B --> B2["Common Noun<br>जातिवाचक — boy, city"]
+    B --> B3["Collective Noun<br>समूहवाचक — team, army"]
+    B --> B4["Material Noun<br>पदार्थवाचक — gold, water"]
+    B --> B5["Abstract Noun<br>भाववाचक — honesty, freedom"]
+
+    C --> C1["Countable<br>book → books"]
+    C --> C2["Uncountable<br>advice, furniture, news<br>❌ advices / furnitures"]
+    C --> C3["हमेशा Plural<br>scissors, trousers, glasses"]
+    C --> C4["Plural दिखे, Singular है<br>news, physics, measles"]
+
+    D --> D1["Masculine / Feminine"]
+    D --> D2["Common — teacher, student"]
+    D --> D3["Neuter — table, pen"]
+
+    E --> E1["Intervening Phrase<br>क्रिया मुख्य कर्ता से मेल खाए<br>The quality of apples WAS good"]
+    E --> E2["Collective Noun<br>एकता → Singular<br>मतभेद → Plural"]
+    E --> E3["One of + Plural Noun<br>One of the BOYS (❌ boy)"]
+    E --> E4["Apostrophe<br>boy's / boys' / children's"]
+
+    F --> F1["Sound-Right जाल<br>सुनने में सही, नियम में गलत"]
+    F --> F2["Intervening Phrase जाल<br>पास वाले noun से क्रिया मिलाना"]
+    F --> F3["Over-thinking<br>सरल नियम पर संदेह"]
+    F --> F4["Uncountable को गिनना<br>❌ many informations"]
+
+    G --> G1["15 सेकंड नियम<br>तथ्यात्मक प्रश्न — तुरंत"]
+    G --> G2["45 सेकंड नियम<br>तार्किक/त्रुटि प्रश्न — सोचकर"]
+    G --> G3["Skip Strategy<br>दो विकल्पों में उलझो तो छोड़ो"]
+    G --> G4["Mnemonic<br>SCISSORS हमेशा plural<br>(Scissors, Trousers, Glasses…)"]
+```

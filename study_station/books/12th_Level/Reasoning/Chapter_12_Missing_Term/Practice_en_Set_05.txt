@@ -1,0 +1,149 @@
+101. Find the missing term in the series: 3, 7, 15, 31, 63, ?
+(a) 127 (b) 111 (c) 95 (d) 131
+Answer: (a)
+Solution: Each term is obtained by doubling the previous term and adding 1: 3×2+1=7, 7×2+1=15, 15×2+1=31, 31×2+1=63, 63×2+1=127. The tempting option 131 comes from adding 64 instead of doubling, which is wrong. So the answer is 127.
+Source: PYQ-style
+
+102. Find the missing term: 2, 6, 12, 20, 30, ?
+(a) 36 (b) 40 (c) 44 (d) 42
+Answer: (d)
+Solution: The differences are 4, 6, 8, 10, so the next difference is 12, giving 30+12=42. Alternatively each term is n(n+1): 1×2, 2×3, 3×4, 4×5, 5×6, 6×7=42. The option 40 tempts those who add 10 again. So the answer is 42.
+Source: PYQ-style
+
+103. Find the missing term: 5, 11, 23, 47, 95, ?
+(a) 189 (b) 190 (c) 193 (d) 191
+Answer: (d)
+Solution: Each term = previous × 2 + 1: 5×2+1=11, 11×2+1=23, 23×2+1=47, 47×2+1=95, 95×2+1=191. So the answer is 191.
+Source: PYQ-style
+
+104. Find the missing term: 1, 4, 9, 16, 25, ?, 49
+(a) 30 (b) 32 (c) 40 (d) 36
+Answer: (d)
+Solution: The series is squares of natural numbers: 1², 2², 3², 4², 5², 6²=36, 7². So the answer is 36.
+Source: PYQ-style
+
+105. Find the missing term: 100, 96, 88, 76, 60, ?
+(a) 44 (b) 38 (c) 40 (d) 42
+Answer: (c)
+Solution: The differences are 4, 8, 12, 16 (increasing by 4), so the next difference is 20: 60−20=40. The option 44 tempts those who subtract 16 again. So the answer is 40.
+Source: PYQ-style
+
+106. Find the missing term: 7, 14, 28, 56, ?, 224
+(a) 96 (b) 112 (c) 108 (d) 118
+Answer: (b)
+Solution: Each term is double the previous: 7×2=14, 14×2=28, 28×2=56, 56×2=112, 112×2=224. So the answer is 112.
+Source: PYQ-style
+
+107. Find the missing term: 4, 9, 19, 39, 79, ?
+(a) 159 (b) 158 (c) 160 (d) 161
+Answer: (a)
+Solution: Each term = previous × 2 + 1: 4×2+1=9, 9×2+1=19, 19×2+1=39, 39×2+1=79, 79×2+1=159. So the answer is 159.
+Source: PYQ-style
+
+108. Find the missing term: 11, 13, 17, 19, 23, ?, 31
+(a) 29 (b) 28 (c) 27 (d) 30
+Answer: (a)
+Solution: The series lists consecutive prime numbers: 11, 13, 17, 19, 23, 29, 31. The option 27 tempts those who just add 4, but 27 is not prime. So the answer is 29.
+Source: PYQ-style
+
+109. Find the missing term: 8, 27, 64, 125, ?, 343
+(a) 216 (b) 200 (c) 225 (d) 250
+Answer: (a)
+Solution: The series is cubes: 2³, 3³, 4³, 5³, 6³=216, 7³. The option 225 is 15², a trap for those confusing squares with cubes. So the answer is 216.
+Source: PYQ-style
+
+110. Find the missing term: 2, 3, 5, 8, 13, 21, ?
+(a) 34 (b) 32 (c) 30 (d) 36
+Answer: (a)
+Solution: This is a Fibonacci-type series: each term is the sum of the previous two: 2+3=5, 3+5=8, 5+8=13, 8+13=21, 13+21=34. So the answer is 34.
+Source: PYQ-style
+
+111. Find the missing term: 6, 12, 21, 33, 48, ?
+(a) 63 (b) 66 (c) 64 (d) 69
+Answer: (b)
+Solution: The differences are 6, 9, 12, 15 (increasing by 3), so the next difference is 18: 48+18=66. So the answer is 66.
+Source: PYQ-style
+
+112. Find the missing term: 1, 8, 27, 64, ?, 216
+(a) 100 (b) 120 (c) 125 (d) 144
+Answer: (c)
+Solution: The series is cubes: 1³, 2³, 3³, 4³, 5³=125, 6³. So the answer is 125.
+Source: PYQ-style
+
+113. Find the missing term: 90, 80, 71, 63, 56, ?
+(a) 50 (b) 49 (c) 48 (d) 51
+Answer: (a)
+Solution: The differences are 10, 9, 8, 7 (decreasing by 1), so the next difference is 6: 56−6=50. So the answer is 50.
+Source: PYQ-style
+
+114. Find the missing term: 3, 6, 11, 18, 27, ?
+(a) 36 (b) 38 (c) 37 (d) 39
+Answer: (b)
+Solution: The differences are 3, 5, 7, 9 (consecutive odd numbers), so the next difference is 11: 27+11=38. So the answer is 38.
+Source: PYQ-style
+
+115. Find the missing term: 4, 12, 36, 108, ?, 972
+(a) 324 (b) 216 (c) 432 (d) 540
+Answer: (a)
+Solution: Each term is triple the previous: 4×3=12, 12×3=36, 36×3=108, 108×3=324, 324×3=972. So the answer is 324.
+Source: PYQ-style
+
+116. Find the missing term: 15, 21, 29, 39, 51, ?
+(a) 61 (b) 65 (c) 63 (d) 67
+Answer: (b)
+Solution: The differences are 6, 8, 10, 12 (increasing by 2), so the next difference is 14: 51+14=65. So the answer is 65.
+Source: PYQ-style
+
+117. Find the missing term: 2, 5, 10, 17, 26, ?
+(a) 35 (b) 36 (c) 37 (d) 38
+Answer: (c)
+Solution: Each term is n²+1: 1²+1=2, 2²+1=5, 3²+1=10, 4²+1=17, 5²+1=26, 6²+1=37. So the answer is 37.
+Source: PYQ-style
+
+118. Find the missing term: 48, 24, 12, 6, ?
+(a) 2 (b) 3 (c) 4 (d) 1
+Answer: (b)
+Solution: Each term is half the previous: 48÷2=24, 24÷2=12, 12÷2=6, 6÷2=3. So the answer is 3.
+Source: PYQ-style
+
+119. Find the missing term: 9, 18, 36, 72, ?, 288
+(a) 108 (b) 120 (c) 144 (d) 156
+Answer: (c)
+Solution: Each term is double the previous: 9×2=18, 18×2=36, 36×2=72, 72×2=144, 144×2=288. So the answer is 144.
+Source: PYQ-style
+
+120. Find the missing term: 5, 9, 17, 33, 65, ?
+(a) 127 (b) 131 (c) 130 (d) 129
+Answer: (d)
+Solution: Each term = previous × 2 − 1: 5×2−1=9, 9×2−1=17, 17×2−1=33, 33×2−1=65, 65×2−1=129. The option 131 tempts those who use ×2+1 instead of ×2−1. So the answer is 129.
+Source: PYQ-style
+
+121. Find the missing term: 2, 12, 36, 80, 150, ?
+(a) 240 (b) 272 (c) 260 (d) 252
+Answer: (d)
+Solution: Each term is n³+n²: 1+1=2, 8+4=12, 27+9=36, 64+16=80, 125+25=150, 216+36=252. The option 240 tempts those who add 90 (continuing the last difference pattern wrongly). So the answer is 252.
+Source: PYQ-style
+
+122. Find the missing term: 1, 2, 6, 15, 31, ?
+(a) 52 (b) 54 (c) 56 (d) 58
+Answer: (c)
+Solution: The differences are 1, 4, 9, 16 (squares of 1, 2, 3, 4), so the next difference is 25: 31+25=56. The option 52 tempts those who add 21 (continuing 1,4,9,16 as if the gap grew by 5). So the answer is 56.
+Source: PYQ-style
+
+123. Find the missing term: 3, 10, 29, 66, 127, ?
+(a) 214 (b) 216 (c) 220 (d) 218
+Answer: (d)
+Solution: Each term is n³+2: 1+2=3, 8+2=10, 27+2=29, 64+2=66, 125+2=127, 216+2=218. The option 216 tempts those who forget to add 2 to 6³. So the answer is 218.
+Source: PYQ-style
+
+124. Find the missing term: 4, 18, 48, 100, 180, ?
+(a) 288 (b) 290 (c) 294 (d) 300
+Answer: (c)
+Solution: Each term is n²×(n+1): 1×2=4? Check: 2²×1=4, 3²×2=18, 4²×3=48, 5²×4=100, 6²×5=180, 7²×6=294. The option 288 tempts those who compute 8×36 incorrectly as the pattern. So the answer is 294.
+Source: PYQ-style
+
+125. Find the missing term: 6, 13, 28, 59, 122, ?
+(a) 245 (b) 249 (c) 247 (d) 251
+Answer: (b)
+Solution: The pattern alternates ×2+1 and ×2+2: 6×2+1=13, 13×2+2=28, 28×2+3=59, 59×2+4=122, 122×2+5=249. The option 247 tempts those who apply ×2+3 again instead of increasing the added number. So the answer is 249.
+Source: PYQ-style

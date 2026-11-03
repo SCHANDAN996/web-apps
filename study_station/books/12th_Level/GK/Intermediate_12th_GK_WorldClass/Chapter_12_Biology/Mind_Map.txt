@@ -1,0 +1,61 @@
+```mermaid
+graph TD
+    A["मानव शरीर<br>Human Body"] --> B["पाचन तंत्र<br>Digestive System"]
+    A --> C["श्वसन तंत्र<br>Respiratory System"]
+    A --> D["परिसंचरण तंत्र<br>Circulatory System"]
+    A --> E["तंत्रिका तंत्र<br>Nervous System"]
+    A --> F["अंतःस्रावी तंत्र<br>Endocrine System"]
+    A --> G["कंकाल तंत्र<br>Skeletal System"]
+    A --> H["उत्सर्जन तंत्र<br>Excretory System"]
+    A --> I["रक्त<br>Blood"]
+
+    B --> B1["लार ग्रंथि → एमाइलेज<br>Saliva → Amylase"]
+    B --> B2["आमाशय → HCl + पेप्सिन<br>Stomach → HCl + Pepsin"]
+    B --> B3["छोटी आँत → पूर्ण पाचन<br>Small Intestine → Complete Digestion"]
+    B --> B4["यकृत → पित्त रस<br>Liver → Bile Juice"]
+    B --> B5["अग्न्याशय → इंसुलिन + एंजाइम<br>Pancreas → Insulin + Enzymes"]
+
+    C --> C1["फेफड़े → गैस विनिमय<br>Lungs → Gas Exchange"]
+    C --> C2["वायुकोश (Alveoli)<br>Air Sacs"]
+    C --> C3["स्वरयंत्र = कंठ (Larynx)<br>Voice Box = Larynx"]
+
+    D --> D1["हृदय → 4 कक्ष<br>Heart → 4 Chambers"]
+    D --> D2["धमनी → शुद्ध रक्त (फुफ्फुसीय छोड़कर)<br>Artery → Pure Blood (except Pulmonary)"]
+    D --> D3["शिरा → अशुद्ध रक्त (फुफ्फुसीय छोड़कर)<br>Vein → Impure Blood (except Pulmonary)"]
+    D --> D4["सामान्य BP = 120/80 mmHg<br>Normal BP = 120/80 mmHg"]
+
+    E --> E1["मस्तिष्क → सबसे बड़ा भाग: cerebrum<br>Brain → Largest: Cerebrum"]
+    E --> E2["अनुमस्तिष्क → संतुलन<br>Cerebellum → Balance"]
+    E --> E3["मेडुला → हृदयगति/श्वसन<br>Medulla → Heartbeat/Breathing"]
+    E --> E4["न्यूरॉन = तंत्रिका कोशिका<br>Neuron = Nerve Cell"]
+
+    F --> F1["पीयूष ग्रंथि → मास्टर ग्रंथि<br>Pituitary → Master Gland"]
+    F --> F2["थायरॉइड → आयोडीन + थायरॉक्सिन<br>Thyroid → Iodine + Thyroxine"]
+    F --> F3["अग्न्याशय → इंसुलिन (मधुमेह)<br>Pancreas → Insulin (Diabetes)"]
+    F --> F4["एड्रिनल → आपातकालीन हॉर्मोन<br>Adrenal → Emergency Hormone"]
+
+    G --> G1["कुल हड्डियाँ = 206<br>Total Bones = 206"]
+    G --> G2["सबसे लंबी = फीमर (जाँघ)<br>Longest = Femur (Thigh)"]
+    G --> G3["सबसे छोटी = स्टेपीज़ (कान)<br>Smallest = Stapes (Ear)"]
+
+    H --> H1["वृक्क → रक्त छानना<br>Kidney → Filters Blood"]
+    H --> H2["नेफ्रॉन = कार्यात्मक इकाई<br>Nephron = Functional Unit"]
+    H --> H3["यकृत = सबसे बड़ी ग्रंथि<br>Liver = Largest Gland"]
+
+    I --> I1["RBC → हीमोग्लोबिन → ऑक्सीजन<br>RBC → Haemoglobin → Oxygen"]
+    I --> I2["WBC → रोग प्रतिरोध<br>WBC → Immunity"]
+    I --> I3["प्लेटलेट्स → रक्त का थक्का<br>Platelets → Clotting"]
+    I --> I4["सार्वभौमिक दाता = O−<br>Universal Donor = O−"]
+    I --> I5["सार्वभौमिक ग्राही = AB+<br>Universal Acceptor = AB+"]
+
+    A --> J["परीक्षक के जाल<br>Examiner's Traps"]
+    J --> J1["धमनी ≠ हमेशा शुद्ध रक्त<br>Artery ≠ Always Pure Blood"]
+    J --> J2["पित्त रस यकृत बनाता है, पित्ताशय सिर्फ़ जमा करता है<br>Bile made by Liver, stored in Gall Bladder"]
+    J --> J3["सबसे बड़ी ग्रंथि = यकृत, सबसे बड़ी मिश्रित = अग्न्याशय<br>Largest Gland = Liver, Largest Mixed = Pancreas"]
+    J --> J4["पाचन मुख से शुरू, पूर्ण छोटी आँत में<br>Digestion starts in Mouth, completes in Small Intestine"]
+
+    A --> K["रणनीति<br>Strategy"]
+    K --> K1["आसान प्रश्न → 15 सेकंड<br>Easy Q → 15 seconds"]
+    K --> K2["कथन-आधारित → 45 सेकंड<br>Statement-based → 45 seconds"]
+    K --> K3["नकारात्मक वाक्य (नहीं/except) ध्यान से पढ़ें<br>Read negative words carefully"]
+```

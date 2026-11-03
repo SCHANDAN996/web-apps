@@ -1,0 +1,46 @@
+# Important Rules & Approaches — Order & Ranking
+
+## Part 1: Key Rules / Approaches
+
+| Rule Name | Description | Example |
+|---|---|---|
+| Position from One End | If a person is nth from one end in a row of N people, position from the other end = N − n + 1. | Ravi is 7th from left in a row of 20 → 20 − 7 + 1 = 14th from right. |
+| Total from Both Ends | Total persons = (position from left) + (position from right) − 1. | 8th from left, 12th from right → Total = 8 + 12 − 1 = 19. |
+| Persons Between Two | If positions from the same end are a and b (a > b), persons between = a − b − 1. | 5th and 11th from left → 11 − 5 − 1 = 5 persons between. |
+| Persons Between (Opposite Ends) | If A is a-th from left and B is b-th from right, persons between = Total − a − b (if they don't overlap). | Total 20; A 6th left, B 5th right → 20 − 6 − 5 = 9 between. |
+| Overlap Check | If (position from left of A) + (position from right of B) > Total, the two cross each other; between = a + b − Total − 2. | Total 15; A 9th left, B 8th right → 9 + 8 − 15 − 2 = 0 between (adjacent). |
+| Interchange of Positions | When two persons swap places, use new position of one to find total: Total = old position (one end) + new position (other end) − 1. | A was 10th from left; after swapping with B, A is 15th from right → Total = 10 + 15 − 1 = 24. |
+| Rank from Top/Bottom | Rank from bottom = Total − rank from top + 1. Same logic as rows. | 5th from top in class of 40 → 36th from bottom. |
+| Middle Person | In a row of N (odd), middle position = (N + 1)/2. For even N, two middle positions: N/2 and N/2 + 1. | N = 25 → middle is 13th. N = 20 → 10th and 11th. |
+| "Taller/Heavier Than" Chains | Convert every statement into one chain (A > B > C). Combine step by step; never assume unstated relations. | A > B, C > B, A > C → chain: A > C > B. |
+| Minimum/Maximum Total | When positions from both ends are given with "between" count: Total = a + b + between (no overlap) or a + b − between − 2 (overlap). Take the case the question demands. | 7th left, 9th right, 3 between → Total = 7 + 9 + 3 = 19. |
+| Circular Row Facing Centre | Left/right reverse when facing the centre; fix one person's position first, then place others clockwise/anti-clockwise. | "B is 3rd to the right of A" facing centre = 3 seats anti-clockwise. |
+| Double-Row (Facing Each Other) | Positions counted per row; "opposite" means same position number from the same reference end. | 5th from left in Row 1 faces 5th from left in Row 2 (if rows aligned). |
+| Exact vs. Possible Position | "Exactly between" fixes one position; "somewhere between" gives a range — answer only what is certain. | If B lies between A and C, B's exact rank is unknown unless more data. |
+| Cannot-Be-Determined Trap | If data gives only relative order without any anchor (total or fixed position), numerical answers are indeterminate. | "A is taller than B" alone → heights/ranks cannot be numbered. |
+| Negative Wording Check | Words like "not", "except", "cannot" flip the question — underline them before solving. | "Who is NOT taller than C?" ≠ "Who is shorter than C?" |
+
+## Part 2: Time Management
+
+| Situation | Time Rule | Action |
+|---|---|---|
+| Simple position/total question (one formula) | 15-second rule | Apply formula directly; if the setup isn't clear in 15 seconds, re-read once, then skip and mark for review. |
+| Two-person swap or between-count question | 30-second rule | Draw a quick line diagram with positions; solve within 30 seconds or skip. |
+| Chain/tallest-shortest puzzle (3+ statements) | 45-second rule | If the chain is not complete in 45 seconds, mark and move on — return only after finishing easy questions. |
+| Circular/double-row arrangement | 45–60-second rule | Attempt only if the seating fixes quickly; these consume the most time per mark. |
+| "Cannot be determined" options | 10-second check | Before computing, verify whether the data even anchors a number — saves a wasted minute. |
+| Exam strategy | — | Do all direct formula questions first (high accuracy, low time); keep arrangement puzzles for the second pass. |
+
+## Part 3: Logical / Mathematical Formulas
+
+| Formula | Meaning |
+|---|---|
+| Position from other end = N − n + 1 | n = position from known end, N = total persons |
+| Total N = L + R − 1 | L = position from left/top, R = position from right/bottom |
+| Persons between (same end) = \|a − b\| − 1 | a, b = positions of the two persons from the same end |
+| Persons between (opposite ends, no overlap) = N − a − b | a = from left, b = from right |
+| Persons between (overlap case) = a + b − N − 2 | Use when a + b > N |
+| Total (with between count) = a + b + m | m = persons between, positions from opposite ends, no overlap |
+| Middle position (odd N) = (N + 1)/2 | Exact middle person |
+| Middle positions (even N) = N/2 and N/2 + 1 | Two middle persons |
+| Rank from bottom = Total − Rank from top + 1 | Ranking version of the end-conversion rule |

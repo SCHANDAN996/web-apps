@@ -1,0 +1,151 @@
+Questions 126–145: Easy | Questions 146–150: Moderate
+
+126. If 'P' means '×', 'Q' means '÷', 'R' means '+' and 'S' means '−', then the value of 18 Q 3 P 2 R 5 S 4 is:
+(a) 11 (b) 17 (c) 13 (d) 15
+Answer: (c)
+Solution: The trap is solving strictly left to right and ignoring that × and ÷ come before + and −. Replace the symbols: 18 ÷ 3 × 2 + 5 − 4 = 6 × 2 + 5 − 4 = 12 + 5 − 4 = 13, so the answer is 13.
+Source: PYQ-style
+
+127. If '+' means '÷', '−' means '×', '÷' means '+' and '×' means '−', then 36 × 8 + 4 − 6 ÷ 3 = ?
+(a) 21 (b) 24 (c) 30 (d) 27
+Answer: (d)
+Solution: The trap is computing 36 − 8 first; after substitution BODMAS must be applied. Replace: 36 − 8 ÷ 4 × 6 + 3 = 36 − 12 + 3 = 27, so the answer is 27.
+Source: PYQ-style
+
+128. If 5 @ 3 = 34, 7 @ 2 = 53 and 6 @ 4 = 52, then 9 @ 5 = ?
+(a) 104 (b) 116 (c) 96 (d) 106
+Answer: (d)
+Solution: The trap is assuming (a + b)², which gives 64 for the first pair and fails. The rule is a² + b²: 25 + 9 = 34, 49 + 4 = 53, 36 + 16 = 52, all fit. So 81 + 25 = 106, so the answer is 106.
+Source: PYQ-style
+
+129. If 3 # 4 = 25, 5 # 6 = 61 and 2 # 7 = 53, then 6 # 8 = ?
+(a) 96 (b) 100 (c) 104 (d) 98
+Answer: (b)
+Solution: The trap is trying a × b + 1, which fits the first pair (13) only if misread; test a² + b²: 9 + 16 = 25, 25 + 36 = 61, 4 + 49 = 53, all fit. So 36 + 64 = 100, so the answer is 100.
+Source: PYQ-style
+
+130. If 'A' denotes '+', 'B' denotes '−', 'C' denotes '×' and 'D' denotes '÷', then which of the following is true?
+(a) 8 C 2 A 4 D 2 B 3 = 14 (b) 9 B 3 C 2 A 1 = 6 (c) 6 C 3 B 2 A 4 D 2 = 16 (d) 12 D 3 C 2 A 5 = 13
+Answer: (d)
+Solution: The trap is stopping after the first option without checking it properly: 8 × 2 + 4 ÷ 2 − 3 = 16 + 2 − 3 = 15, not 14. Checking the third: 12 ÷ 3 × 2 + 5 = 4 × 2 + 5 = 13, which is true, so the answer is 12 D 3 C 2 A 5 = 13.
+Source: PYQ-style
+
+131. If 2 $ 3 = 13, 3 $ 4 = 25, 4 $ 5 = 41, then 6 $ 7 = ?
+(a) 79 (b) 91 (c) 85 (d) 97
+Answer: (c)
+Solution: The trap is switching to (a + b)² after testing only one pair. The rule a² + b² fits all: 4 + 9 = 13, 9 + 16 = 25, 16 + 25 = 41. So 36 + 49 = 85, so the answer is 85.
+Source: PYQ-style
+
+132. In a code, '+' is written as '×', '−' as '+', '×' as '÷' and '÷' as '−'. Find the value of 20 − 5 × 4 + 8 ÷ 2.
+(a) 28 (b) 26 (c) 24 (d) 30
+Answer: (a)
+Solution: The trap is computing 20 + 5 first after substitution. Replace: 20 + 5 ÷ 4 × 8 − 2; by BODMAS, 5 ÷ 4 × 8 = 10, so 20 + 10 − 2 = 28, so the answer is 28.
+Source: PYQ-style
+
+133. If 9 * 4 = 97, 8 * 5 = 89, 7 * 6 = 85, then 10 * 3 = ?
+(a) 109 (b) 119 (c) 99 (d) 129
+Answer: (a)
+Solution: The trap is a × b + a, which gives 45 for the first pair and fails. The rule is a² + b²: 81 + 16 = 97, 64 + 25 = 89, 49 + 36 = 85. So 100 + 9 = 109, so the answer is 109.
+Source: PYQ-style
+
+134. Which interchange of signs makes the equation 5 + 3 × 8 − 12 ÷ 4 = 3 correct?
+(a) − and ÷ (b) + and − (c) × and ÷ (d) + and ÷
+Answer: (a)
+Solution: The trap is testing only one option quickly and guessing. Interchanging − and ÷ gives 5 + 3 × 8 ÷ 12 − 4 = 5 + 2 − 4 = 3, which holds; the other interchanges fail, so the answer is interchanging − and ÷.
+Source: PYQ-style
+
+135. If 12 (169) 5 and 15 (289) 8, then 9 (?) 7 = ?
+(a) 130 (b) 128 (c) 145 (d) 113
+Answer: (a)
+Solution: The trap is assuming (a + b)², which gives 289 for the first pair and fails. The rule is a² + b²: 144 + 25 = 169 and 225 + 64 = 289. So 81 + 49 = 130, so the answer is 130.
+Source: PYQ-style
+
+136. If '×' means '+', '÷' means '−', '+' means '×' and '−' means '÷', then 8 − 4 + 3 × 2 ÷ 6 = ?
+(a) 4 (b) 8 (c) 6 (d) 2
+Answer: (d)
+Solution: The trap is forgetting that '−' becomes '÷' and subtracting first. Replace: 8 ÷ 4 × 3 + 2 − 6 = 2 × 3 + 2 − 6 = 6 + 2 − 6 = 2, so the answer is 2.
+Source: PYQ-style
+
+137. If a * b = a² + ab + b², then the value of (2 * 1) * 3 is:
+(a) 73 (b) 91 (c) 79 (d) 85
+Answer: (c)
+Solution: The trap is computing 2 * 1 * 3 in one step instead of nesting. First 2 * 1 = 4 + 2 + 1 = 7; then 7 * 3 = 49 + 21 + 9 = 79, so the answer is 79.
+Source: PYQ-style
+
+138. Select the correct combination of mathematical signs to replace * in 18 * 6 * 3 * 2 * 4 = 24 so that the equation holds:
+(a) ÷, ×, −, + (b) −, ÷, +, × (c) +, −, ×, ÷ (d) ÷, +, −, ×
+Answer: (b)
+Solution: The trap is careless BODMAS making another option look right; test each strictly. With −, ÷, +, ×: 18 − 6 ÷ 3 + 2 × 4 = 18 − 2 + 8 = 24, which holds, so the answer is −, ÷, +, ×.
+Source: PYQ-style
+
+139. If 7 @ 4 = 28, 9 @ 6 = 54, 11 @ 3 = 33, then 15 @ 8 = ?
+(a) 120 (b) 112 (c) 128 (d) 96
+Answer: (a)
+Solution: The trap is over-thinking and hunting for a hidden square pattern. The rule is simply a × b: 7 × 4 = 28, 9 × 6 = 54, 11 × 3 = 33. So 15 × 8 = 120, so the answer is 120.
+Source: PYQ-style
+
+140. If '+' means '−', '−' means '×', '×' means '÷' and '÷' means '+', then 16 + 4 − 2 × 8 ÷ 4 = ?
+(a) 19 (b) 21 (c) 17 (d) 15
+Answer: (a)
+Solution: The trap is applying the original meanings to some signs by habit. Replace all: 16 − 4 × 2 ÷ 8 + 4 = 16 − 1 + 4 = 19, so the answer is 19.
+Source: PYQ-style
+
+141. If 4 Δ 2 = 6, 9 Δ 3 = 12, 16 Δ 4 = 20, then 25 Δ 5 = ?
+(a) 25 (b) 30 (c) 35 (d) 20
+Answer: (b)
+Solution: The trap is being pulled toward √a × b (2 × 2 = 4), which fails the first pair. Simple addition fits all: 4 + 2 = 6, 9 + 3 = 12, 16 + 4 = 20. So 25 + 5 = 30, so the answer is 30.
+Source: PYQ-style
+
+142. Which of the following equations becomes correct after interchanging the numbers 4 and 9 and the signs '+' and '×'?
+(a) 9 × 4 + 3 = 39 (b) 4 × 9 + 3 = 39 (c) 4 + 9 × 3 = 39 (d) 9 + 4 × 3 = 21
+Answer: (c)
+Solution: The trap is checking the equation before interchanging. After interchange, the last option becomes 9 × 4 + 3 = 36 + 3 = 39, which is true; the first option becomes 4 + 9 × 3 = 31, which fails, so the answer is 4 + 9 × 3 = 39.
+Source: PYQ-style
+
+143. If 3 % 5 = 34, 4 % 6 = 52, 5 % 7 = 74, then 8 % 9 = ?
+(a) 148 (b) 145 (c) 144 (d) 146
+Answer: (b)
+Solution: The trap is (a + b)², which gives 64 for the first pair and fails, but students testing only one pair of another wrong rule may err. The rule a² + b² fits all: 9 + 25 = 34, 16 + 36 = 52, 25 + 49 = 74. So 64 + 81 = 145, so the answer is 145.
+Source: PYQ-style
+
+144. If 'P' means '+', 'Q' means '−', 'R' means '×', 'S' means '÷', then 24 R 3 S 6 Q 8 P 4 = ?
+(a) 8 (b) 12 (c) 16 (d) 4
+Answer: (a)
+Solution: The trap is doing 3 ÷ 6 first or subtracting before dividing. Replace: 24 × 3 ÷ 6 − 8 + 4 = 72 ÷ 6 − 8 + 4 = 12 − 8 + 4 = 8, so the answer is 8.
+Source: PYQ-style
+
+145. If 5 # 2 = 29, 6 # 3 = 45, 7 # 4 = 65, then 9 # 6 = ?
+(a) 99 (b) 108 (c) 126 (d) 117
+Answer: (d)
+Solution: The trap is a × b + a², which gives 35 for the first pair and fails on full testing. The rule a² + b² fits all: 25 + 4 = 29, 36 + 9 = 45, 49 + 16 = 65. So 81 + 36 = 117, so the answer is 117.
+Source: PYQ-style
+
+146. If 2 & 3 & 4 = 24, 3 & 4 & 5 = 60, 4 & 5 & 6 = 120, then 5 & 6 & 7 = ?
+(a) 180 (b) 210 (c) 240 (d) 150
+Answer: (b)
+Solution: The trap is assuming an extra term beyond simple multiplication. The rule is a × b × c: 2 × 3 × 4 = 24, 3 × 4 × 5 = 60, 4 × 5 × 6 = 120. So 5 × 6 × 7 = 210, so the answer is 210.
+Source: PYQ-style
+
+147. If '×' is coded as '+', '+' as '−', '−' as '×' and '÷' remains unchanged, then 40 ÷ 5 − 3 × 2 + 8 = ?
+(a) 16 (b) 20 (c) 18 (d) 22
+Answer: (c)
+Solution: The trap is replacing '÷' as well even though it stays unchanged. Replace: 40 ÷ 5 × 3 + 2 − 8 = 8 × 3 + 2 − 8 = 24 + 2 − 8 = 18, so the answer is 18.
+Source: PYQ-style
+
+148. If 11 ⊕ 5 = 96, 13 ⊕ 7 = 120, 9 ⊕ 4 = 65, then 14 ⊕ 8 = ?
+(a) 144 (b) 120 (c) 132 (d) 112
+Answer: (c)
+Solution: The trap is a × b + a, which gives 66 for the first pair and fails. The rule a² − b² fits all: 121 − 25 = 96, 169 − 49 = 120, 81 − 16 = 65. So 196 − 64 = 132, so the answer is 132.
+Source: PYQ-style
+
+149. If 6 Ω 4 = 100, 8 Ω 5 = 169, 10 Ω 7 = 289, then 12 Ω 9 = ?
+(a) 400 (b) 441 (c) 484 (d) 361
+Answer: (b)
+Solution: The trap is a² + b², which gives 52 for the first pair and fails. The rule is (a + b)²: 10² = 100, 13² = 169, 17² = 289. So 21² = 441, so the answer is 441.
+Source: PYQ-style
+
+150. If 'A' means '×', 'B' means '+', 'C' means '−' and 'D' means '÷', then the value of 16 D 4 A 5 B 7 C 9 is:
+(a) 22 (b) 20 (c) 16 (d) 18
+Answer: (d)
+Solution: The trap is computing 16 ÷ (4 × 5) by grouping wrongly or adding 7 before multiplying. Replace: 16 ÷ 4 × 5 + 7 − 9 = 4 × 5 + 7 − 9 = 20 + 7 − 9 = 18, so the answer is 18.
+Source: PYQ-style

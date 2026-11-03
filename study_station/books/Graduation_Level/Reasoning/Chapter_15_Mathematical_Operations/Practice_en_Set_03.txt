@@ -1,0 +1,151 @@
+Questions 51–75: Medium
+
+51. If '+' means '÷', '−' means '+', '×' means '−' and '÷' means '×', then what is the value of 18 + 3 − 2 × 6 ÷ 3?
+(a) −10 (b) 10 (c) −6 (d) 6
+Answer: (a)
+Solution: Replacing the signs, the expression becomes 18 ÷ 3 + 2 − 6 × 3. The tempting wrong value 10 comes from solving left to right without BODMAS; by BODMAS, 6 + 2 − 18 = −10, so the answer is −10.
+Source: PYQ-style
+
+52. Which sequence of signs makes the equation 7 * 4 * 2 * 1 = 10 correct?
+(a) ×, −, + (b) +, −, + (c) +, ×, − (d) −, +, ×
+Answer: (b)
+Solution: Testing each: 7 × 4 − 2 + 1 = 27, 7 + 4 × 2 − 1 = 14 and 7 − 4 + 2 × 1 = 5, none of which equal 10. But 7 + 4 − 2 + 1 = 10, so the answer is +, −, +.
+Source: PYQ-style
+
+53. If A means '+', B means '−', C means '×' and D means '÷', then the value of 12 D 3 C 4 B 5 A 2 is:
+(a) 11 (b) 9 (c) 15 (d) 13
+Answer: (d)
+Solution: The expression becomes 12 ÷ 3 × 4 − 5 + 2. The trap is computing 12 ÷ (3 × 4) = 1, but division and multiplication have equal priority and run left to right: 4 × 4 − 5 + 2 = 13, so the answer is 13.
+Source: PYQ-style
+
+54. If the signs '+' and '×' are interchanged and the digits 2 and 4 are interchanged, then the value of 4 + 2 × 3 is:
+(a) 11 (b) 10 (c) 14 (d) 9
+Answer: (a)
+Solution: After both interchanges, 4 + 2 × 3 becomes 2 × 4 + 3. The wrong value 14 comes from interchanging only the signs and forgetting the digits; 2 × 4 + 3 = 8 + 3 = 11, so the answer is 11.
+Source: PYQ-style
+
+55. If the signs '÷' and '×' are interchanged, which of the following equations becomes correct?
+(a) 9 × 3 ÷ 3 = 9 (b) 8 ÷ 2 × 4 = 10 (c) 12 ÷ 4 × 2 = 8 (d) 6 × 3 ÷ 2 = 12
+Answer: (a)
+Solution: After interchanging, the second equation reads 9 ÷ 3 × 3 = 9, which is true since 3 × 3 = 9. The others give 8 × 2 ÷ 4 = 4, 12 × 4 ÷ 2 = 24 and 6 ÷ 3 × 2 = 4, all false, so the answer is 9 × 3 ÷ 3 = 9.
+Source: PYQ-style
+
+56. If '×' means '+', '+' means '−' and '−' means '×', then the value of 5 − 4 × 3 + 2 is:
+(a) 9 (b) 5 (c) 21 (d) 23
+Answer: (c)
+Solution: The expression becomes 5 × 4 + 3 − 2. The tempting wrong value 23 comes from adding 3 + 2 before subtracting; by BODMAS, 20 + 3 − 2 = 21, so the answer is 21.
+Source: PYQ-style
+
+57. Which sequence of signs makes the equation 24 * 6 * 3 * 2 = 6 correct?
+(a) ÷, ×, ÷ (b) ×, ÷, + (c) −, +, × (d) +, −, ÷
+Answer: (a)
+Solution: 24 ÷ 6 × 3 ÷ 2 = 4 × 3 ÷ 2 = 12 ÷ 2 = 6, which matches. The other sequences give 24 × 6 ÷ 3 + 2 = 50, 24 − 6 + 3 × 2 = 24 and 24 + 6 − 3 ÷ 2 = 28.5, so the answer is ÷, ×, ÷.
+Source: PYQ-style
+
+58. If a @ b = a × b − (a + b), and it is given that 5 @ 3 = 7, then the value of 7 @ 2 is:
+(a) 5 (b) 7 (c) 3 (d) 9
+Answer: (a)
+Solution: Check the rule: 5 × 3 − (5 + 3) = 15 − 8 = 7, confirming the pattern. The trap is to compute only 7 × 2 = 14 and forget the subtraction; 7 × 2 − (7 + 2) = 14 − 9 = 5, so the answer is 5.
+Source: PYQ-style
+
+59. If a * b = a² + b², then the value of (3 * 4) − (2 * 1) is:
+(a) 18 (b) 24 (c) 20 (d) 22
+Answer: (c)
+Solution: 3 * 4 = 9 + 16 = 25 and 2 * 1 = 4 + 1 = 5. The wrong value 24 comes from computing 3 × 4 + 2 × 1 + 10 by misreading the rule; 25 − 5 = 20, so the answer is 20.
+Source: PYQ-style
+
+60. Which of the following equations is arithmetically correct?
+(a) 5 + 4 × 2 = 18 (b) 7 + 3 ÷ 1 = 5 (c) 9 − 3 × 2 = 12 (d) 12 ÷ 4 + 2 = 5
+Answer: (d)
+Solution: The first equation is a classic trap: 5 + 4 × 2 = 13, not 18, because multiplication is done before addition. Checking the rest: 9 − 3 × 2 = 3 and 7 + 3 ÷ 1 = 10, while 12 ÷ 4 + 2 = 3 + 2 = 5, so the answer is 12 ÷ 4 + 2 = 5.
+Source: PYQ-style
+
+61. If P means '×', Q means '÷', R means '+' and S means '−', then the value of 18 Q 3 P 2 R 5 S 4 is:
+(a) 15 (b) 11 (c) 13 (d) 17
+Answer: (c)
+Solution: The expression becomes 18 ÷ 3 × 2 + 5 − 4. The wrong value 15 comes from doing 5 − 4 first and then misplacing the product; correctly, 6 × 2 + 5 − 4 = 12 + 1 = 13, so the answer is 13.
+Source: PYQ-style
+
+62. If 2 # 3 = 8 and 4 # 5 = 24, then the value of 6 # 7 is:
+(a) 49 (b) 42 (c) 48 (d) 13
+Answer: (c)
+Solution: The rule is a # b = a × b + a, since 2 × 3 + 2 = 8 and 4 × 5 + 4 = 24. The trap is 49, obtained by adding the second number instead of the first; 6 × 7 + 6 = 42 + 6 = 48, so the answer is 48.
+Source: PYQ-style
+
+63. If '+' means '×', '×' means '+', '−' means '÷' and '÷' means '−', then the value of 9 + 3 × 4 − 2 ÷ 1 is:
+(a) 26 (b) 28 (c) 30 (d) 24
+Answer: (b)
+Solution: The expression becomes 9 × 3 + 4 ÷ 2 − 1. The wrong value 30 comes from computing 27 + 4 − 1 by ignoring the division; correctly, 27 + 2 − 1 = 28, so the answer is 28.
+Source: PYQ-style
+
+64. Which sequence of signs makes the equation 15 * 3 * 5 * 4 = 17 correct?
+(a) ×, ÷, + (b) −, +, − (c) +, +, − (d) +, −, +
+Answer: (d)
+Solution: 15 + 3 − 5 + 4 = 17, which matches. The other sequences give 15 − 3 + 5 − 4 = 13, 15 + 3 + 5 − 4 = 19 and 15 × 3 ÷ 5 + 4 = 13, so the answer is +, −, +.
+Source: PYQ-style
+
+65. If a △ b = (a + b) ÷ (a − b), then the value of 5 △ 3 is:
+(a) 4 (b) 8 (c) 1 (d) 2
+Answer: (a)
+Solution: (5 + 3) ÷ (5 − 3) = 8 ÷ 2 = 4. The tempting wrong value 8 is just the numerator, obtained by forgetting to divide by the difference, so the answer is 4.
+Source: PYQ-style
+
+66. If 4 * 2 = 6, 7 * 3 = 10 and 9 * 5 = 14, then the value of (8 * 6) − (2 * 3) is:
+(a) 42 (b) 9 (c) 8 (d) 11
+Answer: (b)
+Solution: Here a * b simply means a + b, since 4 + 2 = 6, 7 + 3 = 10 and 9 + 5 = 14. The trap is reading '*' as multiplication and getting 48 − 6 = 42; correctly, (8 + 6) − (2 + 3) = 14 − 5 = 9, so the answer is 9.
+Source: PYQ-style
+
+67. The equation 7 + 8 ÷ 4 − 3 × 2 = 13 is incorrect. Interchanging which two signs will make it correct?
+(a) + and − (b) − and × (c) + and × (d) ÷ and ×
+Answer: (c)
+Solution: Interchanging '+' and '×' gives 7 × 8 ÷ 4 − 3 + 2 = 14 − 3 + 2 = 13, which is correct. The other interchanges give 7 − 8 ÷ 4 + 3 × 2 = 11 and 7 + 8 ÷ 4 × 3 − 2 = 11, so the answer is + and ×.
+Source: PYQ-style
+
+68. If A denotes '−', B denotes '+', C denotes '÷' and D denotes '×', then the value of 25 C 5 B 3 D 4 A 6 is:
+(a) 13 (b) 11 (c) 9 (d) 7
+Answer: (b)
+Solution: The expression becomes 25 ÷ 5 + 3 × 4 − 6. The wrong value 13 comes from adding 6 at the end instead of subtracting it; correctly, 5 + 12 − 6 = 11, so the answer is 11.
+Source: PYQ-style
+
+69. If '×' means '÷', '÷' means '−', '−' means '+' and '+' means '×', then the value of 24 × 6 − 3 ÷ 2 + 4 is:
+(a) 1 (b) −1 (c) 7 (d) −7
+Answer: (b)
+Solution: The expression becomes 24 ÷ 6 + 3 − 2 × 4. The tempting wrong value 1 comes from computing 4 + 3 − 8 as 4 + 3 − 8 = −1 but then taking the absolute value, or from misordering; correctly, 4 + 3 − 8 = −1, so the answer is −1.
+Source: PYQ-style
+
+70. If 3 @ 4 = 25 and 5 @ 12 = 169, then the value of 8 @ 6 is:
+(a) 100 (b) 64 (c) 14 (d) 48
+Answer: (a)
+Solution: The rule is a @ b = a² + b², since 9 + 16 = 25 and 25 + 144 = 169. The trap is 48, which is just the product 8 × 6; correctly, 64 + 36 = 100, so the answer is 100.
+Source: PYQ-style
+
+71. Which of the following equations is correct?
+(a) 6 × 4 ÷ 3 = 6 (b) 18 ÷ 3 − 2 × 2 = 2 (c) 9 + 3 × 2 = 24 (d) 15 − 5 ÷ 5 = 2
+Answer: (b)
+Solution: The last equation is a trap: 15 − 5 ÷ 5 = 15 − 1 = 14, not 2, because division precedes subtraction. Checking the rest: 6 × 4 ÷ 3 = 8 and 9 + 3 × 2 = 15, while 18 ÷ 3 − 2 × 2 = 6 − 4 = 2, so the answer is 18 ÷ 3 − 2 × 2 = 2.
+Source: PYQ-style
+
+72. If a ⊕ b = 2a + 3b, then the value of 4 ⊕ 5 is:
+(a) 20 (b) 17 (c) 26 (d) 23
+Answer: (d)
+Solution: 4 ⊕ 5 = 2 × 4 + 3 × 5 = 8 + 15 = 23. The wrong value 26 comes from swapping the coefficients and computing 3 × 4 + 2 × 5 = 22 or similar misreads; the correct computation gives 23, so the answer is 23.
+Source: PYQ-style
+
+73. If '−' means '×', '×' means '+', '+' means '−' and '÷' remains unchanged, then the value of 10 − 5 × 2 + 8 ÷ 4 is:
+(a) 52 (b) 48 (c) 46 (d) 50
+Answer: (d)
+Solution: The expression becomes 10 × 5 + 2 − 8 ÷ 4. The trap is 52, obtained by forgetting that '÷' stays unchanged and computing 50 + 2 = 52; correctly, 50 + 2 − 2 = 50, so the answer is 50.
+Source: PYQ-style
+
+74. Which sequence of signs makes the equation 6 * 3 * 2 = 4 correct?
+(a) +, − (b) ×, − (c) ÷, × (d) −, +
+Answer: (c)
+Solution: 6 ÷ 3 × 2 = 2 × 2 = 4, which matches. The other sequences give 6 × 3 − 2 = 16, 6 + 3 − 2 = 7 and 6 − 3 + 2 = 5, so the answer is ÷, ×.
+Source: PYQ-style
+
+75. If 7 * 4 = 11, 9 * 2 = 11 and 8 * 5 = 13, then the value of (6 * 3) + (4 * 4) is:
+(a) 26 (b) 20 (c) 15 (d) 17
+Answer: (d)
+Solution: The rule is a * b = a + b, since 7 + 4 = 11, 9 + 2 = 11 and 8 + 5 = 13. The trap is treating '*' as multiplication and getting 18 + 16 = 34 or mixing rules to get 26; correctly, (6 + 3) + (4 + 4) = 9 + 8 = 17, so the answer is 17.
+Source: PYQ-style

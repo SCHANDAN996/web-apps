@@ -1,0 +1,79 @@
+Card 1
+Front: What is the formula for classical probability?
+Back: P(E) = Number of favourable outcomes / Total number of equally likely outcomes.
+
+Card 2
+Front: What is the range of probability values?
+Back: 0 ≤ P(E) ≤ 1. P(impossible event) = 0; P(sure event) = 1.
+
+Card 3
+Front: What is the complement rule?
+Back: P(E′) = 1 − P(E). "At least one" problems are usually solved as 1 − P(none).
+
+Card 4
+Front: State the addition rule for mutually exclusive events.
+Back: P(A ∪ B) = P(A) + P(B), since P(A ∩ B) = 0.
+
+Card 5
+Front: State the general addition rule for any two events.
+Back: P(A ∪ B) = P(A) + P(B) − P(A ∩ B).
+
+Card 6
+Front: When are two events independent, and what is the multiplication rule then?
+Back: When one event's outcome doesn't affect the other: P(A ∩ B) = P(A) × P(B).
+
+Card 7
+Front: What is conditional probability P(A|B)?
+Back: P(A|B) = P(A ∩ B) / P(B), where P(B) > 0. It is the probability of A given that B has occurred.
+
+Card 8
+Front: What is the mnemonic to remember the complement trick for "at least one"?
+Back: "ALONE" — At Least One = 1 − None. Never add cases one by one; subtract the "none" case.
+
+Card 9
+Front: What mnemonic helps distinguish permutations from combinations?
+Back: "P = Position matters, C = Committee doesn't." Arrangement → nPr; Selection → nCr.
+
+Card 10
+Front: What is the probability of getting exactly r successes in n Bernoulli trials?
+Back: P(X = r) = nCr · p^r · (1−p)^(n−r), where p is the probability of success in one trial.
+
+Card 11
+Front: Two dice are thrown. What is the probability that the sum is 7?
+Back: 6/36 = 1/6. Favourable pairs: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1).
+
+Card 12
+Front: What is the probability of drawing two aces from a deck of 52 cards without replacement?
+Back: (4/52) × (3/51) = 12/2652 = 1/221.
+
+Card 13
+Front: State Bayes' theorem in words.
+Back: It reverses conditional probability: P(A|B) = P(B|A)·P(A) / P(B). Used when a cause must be inferred from an observed effect.
+
+Card 14
+Front: What is the birthday paradox result for 23 people?
+Back: The probability that at least two share a birthday exceeds 50%. Computed as 1 − P(all birthdays distinct).
+
+Card 15
+Front: What are mutually exclusive events? Give an example.
+Back: Events that cannot occur together (P(A ∩ B) = 0). Example: getting a head and getting a tail on a single coin toss.
+
+Card 16
+Front: Can independent events be mutually exclusive (with nonzero probabilities)?
+Back: No. If P(A), P(B) > 0 and they are mutually exclusive, then P(A ∩ B) = 0 ≠ P(A)·P(B), so they are dependent.
+
+Card 17
+Front: A bag has 4 red and 6 blue balls. Two balls are drawn with replacement. What is P(both red)?
+Back: (4/10) × (4/10) = 16/100 = 4/25. With replacement, draws are independent.
+
+Card 18
+Front: What is the expected value (mean) of a binomial distribution?
+Back: E(X) = np, where n = number of trials and p = probability of success.
+
+Card 19
+Front: What is the "AND ×, OR +" rule of thumb?
+Back: Multiply probabilities for events joined by "AND" (both must happen); add for "OR" (either can happen) — after checking independence/exclusivity.
+
+Card 20
+Front: Odds in favour of an event are 3:2. What is its probability?
+Back: P = 3/(3+2) = 3/5. Odds a:b in favour → probability = a/(a+b).

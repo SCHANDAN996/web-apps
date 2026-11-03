@@ -1,0 +1,41 @@
+```mermaid
+graph TD
+    A["One-word Substitution<br>एक शब्द प्रतिस्थापन"] --> B["Why It Matters"]
+    A --> C["Core Strategy"]
+    A --> D["Word Families"]
+    A --> E["Examiner's Traps"]
+    A --> F["Memory Tools"]
+
+    B --> B1["Direct recall question<br>15-second rule"]
+    B --> B2["High frequency in<br>SSC / Railway / Bank exams"]
+    B --> B3["Builds vocabulary for<br>Comprehension & Cloze Test"]
+
+    C --> C1["Break the word:<br>Root + Affix"]
+    C --> C2["Identify the 'doer' suffix:<br>-ist, -er, -or, -ian"]
+    C --> C3["Identify the 'fear/love' roots:<br>-phobia, -phile"]
+    C --> C4["Match the KEYWORD<br>in the sentence first"]
+
+    D --> D1["People & Professions"]
+    D --> D2["Fears & Loves"]
+    D --> D3["Killing & Death"]
+    D --> D4["Government & Power"]
+    D --> D5["Places & Things"]
+
+    D1 --> D1a["Dentist, Florist,<br>Novelist, Librarian"]
+    D2 --> D2a["Claustrophobia = fear of<br>closed spaces"]
+    D2 --> D2b["Bibliophile = lover<br>of books"]
+    D3 --> D3a["Homicide = killing<br>of a human"]
+    D3 --> D3b["Suicide = killing<br>of oneself"]
+    D4 --> D4a["Democracy = rule<br>by the people"]
+    D4 --> D4b["Autocracy = rule<br>by one person"]
+    D5 --> D5a["Sanatorium = place for<br>the sick to recover"]
+    D5 --> D5b["Archives = place where<br>records are kept"]
+
+    E --> E1["Opposite-meaning confusion:<br>Optimist vs Pessimist"]
+    E --> E2["Near-meaning trap:<br>Amateur vs Novice"]
+    E --> E3["Over-thinking:<br>pick the standard term,<br>not a fancy guess"]
+
+    F --> F1["Mnemonic: PHOBIA =<br>'Fear' — attach any root"]
+    F --> F2["Mnemonic: CIDE = 'kill'<br>HOMI-cide, SUI-cide"]
+    F --> F3["Flashcards +<br>2-day review cycle"]
+```

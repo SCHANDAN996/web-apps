@@ -1,0 +1,40 @@
+```mermaid
+graph TD
+    A["क्रमचय और संचय<br>Permutation & Combination"] --> B["गणना के मूल सिद्धांत<br>Fundamental Counting Principles"]
+    A --> C["क्रमचय<br>Permutation"]
+    A --> D["संचय<br>Combination"]
+    A --> E["विशेष प्रकार<br>Special Types"]
+    A --> F["उन्नत अनुप्रयोग<br>Advanced Applications"]
+
+    B --> B1["गुणन नियम<br>Multiplication Rule (AND)"]
+    B --> B2["योग नियम<br>Addition Rule (OR)"]
+    B --> B3["फैक्टोरियल n!<br>Factorial"]
+
+    C --> C1["सूत्र nPr = n!/(n-r)!<br>Formula nPr"]
+    C --> C2["पुनरावृत्ति सहित n^r<br>With Repetition"]
+    C --> C3["वृत्तीय क्रमचय (n-1)!<br>Circular Permutation"]
+    C --> C4["समान वस्तुएँ n!/p!q!r!<br>Identical Objects"]
+    C --> C5["शर्त वाले क्रमचय<br>Conditional Permutations"]
+
+    C5 --> C5a["हमेशा साथ<br>Always Together (Block Method)"]
+    C5 --> C5b["कभी साथ नहीं<br>Never Together (Gap Method)"]
+    C5 --> C5c["निश्चित स्थान<br>Fixed Positions"]
+
+    D --> D1["सूत्र nCr = n!/(r!(n-r)!)<br>Formula nCr"]
+    D --> D2["गुण nCr = nC(n-r)<br>Symmetry Property"]
+    D --> D3["nCr + nC(r-1) = (n+1)Cr<br>Pascal's Rule"]
+    D --> D4["शर्त वाले संचय<br>Conditional Combinations"]
+
+    D4 --> D4a["कम-से-कम / अधिक-से-अधिक<br>At Least / At Most"]
+    D4 --> D4b["समिति गठन<br>Committee Formation"]
+
+    E --> E1["शब्दों की व्यवस्था<br>Word Arrangements"]
+    E --> E2["अंकों से संख्याएँ<br>Number Formation"]
+    E --> E3["ज्यामितीय समस्या<br>Geometry: Lines/Triangles"]
+    E --> E4["डेरेंजमेंट !n<br>Derangement"]
+
+    F --> F1["विभाजन और वितरण<br>Division & Distribution"]
+    F --> F2["समीकरण x1+x2+...=n<br>Stars and Bars"]
+    F --> F3["द्विपद प्रमेय से संबंध<br>Link with Binomial Theorem"]
+    F --> F4["प्रायिकता की नींव<br>Foundation of Probability"]
+```

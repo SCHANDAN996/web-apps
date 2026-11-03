@@ -1,0 +1,53 @@
+# Sitting Arrangement (Complex) — Explained Like You're 12
+
+## The Birthday Party Problem
+
+Imagine it's your best friend's birthday party. Eight kids have to sit around a round table. Sounds simple? Now listen to the "rules" the birthday girl announces:
+
+- "Amit must sit next to me, but NOT on my left."
+- "Priya refuses to sit anywhere near Rohan — they fought yesterday!"
+- "The two twins, Sana and Sara, must sit together."
+- "Vikram wants to sit exactly opposite the cake... I mean, opposite Amit."
+
+Your head is spinning, right? Eight kids, and the number of ways they *could* sit is thousands! But only ONE arrangement follows all the rules. **That is exactly what a complex sitting arrangement question is** — a party where you are the manager, and you must seat everyone correctly using clues.
+
+## The One Big Secret: Clues Are Not Equal
+
+Here's what most students do wrong: they read clue 1, then clue 2, then clue 3... and try to use them in order. **Don't!**
+
+Think of clues like puzzle pieces. Some pieces are **anchors** — they fix something firmly ("A sits second to the left of B"). Others are **floaters** — they only tell you what is NOT possible ("C does not sit next to D").
+
+**The Feynman trick:** If you can't explain your seating plan to a friend in 30 seconds, you haven't really solved it — you've just guessed it.
+
+## The Story of the Two Circles (The Hardest Type)
+
+The toughest exam questions have people sitting in a circle where **some face the centre and some face away**. Why is this scary? Because "left" and "right" flip depending on which way you face!
+
+Here's how a 12-year-old can master it:
+
+**The Hand Trick (Unforgettable!):**
+- If a person **faces the centre**, raise your **right hand** — their right is YOUR right when you imagine standing in their shoes facing inward.
+- If a person **faces away from the centre**, everything **mirrors** — their right is on the opposite side.
+
+Better still: **draw arrows!** For every person, draw a small arrow showing which way they face. Then "left of X" literally means: stand where X stands, look where X looks, and point left. No memorisation needed — your body does the thinking.
+
+## Building the Solution — The Detective Method
+
+1. **Draw the frame first.** Circle with 8 seats? Draw 8 dots. Two parallel rows of 6? Draw two lines of 6 boxes. Never solve in your head.
+2. **Hunt for the anchor clue.** Look for words like "exactly opposite," "second to the right," "sits at the end." Place that person FIRST.
+3. **Chain the relatives.** Once one person is fixed, find every clue that mentions them. Each clue is a hook that hangs another person on the frame.
+4. **Park the floaters.** "P does not sit next to Q" — write it in the corner. Use it at the end to eliminate the last few seats.
+5. **Two possibilities? Make two diagrams.** When a clue gives an "either/or," draw both mini-diagrams and kill the one that breaks a later clue. This is normal — even toppers do it.
+
+## The Examiner's Trap (Read This Twice!)
+
+- **"A sits between B and C"** does NOT mean immediately between — unless it says "immediately."
+- **"Second to the left"** means one person in between — students routinely place them adjacent and lose the whole set.
+- In **two-row arrangements**, "faces" matters: a person in the north-facing row and one in the south-facing row look at each other — "opposite" means directly across, not diagonally.
+- **"At least two persons sit between X and Y"** — count carefully; "between" excludes X and Y themselves.
+
+## Your Blurting Sheet
+
+Now try to write down all key points of this chapter on a blank sheet without looking up. Write: the anchor-vs-floater idea, the hand/arrow trick for facing direction, the 5-step detective method, and at least three examiner traps. Check what you missed — that gap is exactly what to revise tonight.
+
+**Question for you:** If 6 people sit in a circle and every clue you have is a "floater" (only negative clues like "X is not next to Y"), what would you do first — and why?

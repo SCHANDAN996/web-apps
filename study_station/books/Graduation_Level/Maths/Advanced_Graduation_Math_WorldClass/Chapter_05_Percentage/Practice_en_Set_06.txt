@@ -1,0 +1,149 @@
+126. The population of a town increases by 20% in the first year, decreases by 20% in the second year and again increases by 10% in the third year. What is the net percentage change in the population over the three years?
+(a) 10% increase (b) 4% decrease (c) 8% increase (d) 5.6% increase
+Answer: (d)
+Solution: The tempting trap is adding the changes: 20 − 20 + 10 = 10%, which ignores the changing base. Multiply the factors: 1.20 × 0.80 × 1.10 = 1.056, i.e. a 5.6% net increase, so the answer is 5.6% increase.
+Source: PYQ-style
+
+127. A's salary is 25% more than B's salary. By what percentage is B's salary less than A's salary?
+(a) 20% (b) 25% (c) 22.5% (d) 16.67%
+Answer: (a)
+Solution: The trap is answering 25%, but the base changes. If B = 100, then A = 125; B is less than A by 25 on a base of 125, i.e. 25/125 × 100 = 20%, so the answer is 20%.
+Source: PYQ-style
+
+128. The price of an article is increased by 25%. By what percentage must a household reduce its consumption so that its expenditure increases by only 10%?
+(a) 12% (b) 15% (c) 10% (d) 13.5%
+Answer: (a)
+Solution: The trap is subtracting 25 − 10 = 15%. New expenditure factor = 1.10 and new price factor = 1.25, so new consumption factor = 1.10/1.25 = 0.88, a reduction of 12%, so the answer is 12%.
+Source: PYQ-style
+
+129. A shopkeeper offers two successive discounts of 20% and 25%. Another shopkeeper offers a single discount of 40%. Which offer gives the lower final price?
+(a) Both give the same price (b) Single discount of 40% (c) Successive discounts (d) Cannot be determined
+Answer: (a)
+Solution: The trap is assuming successive discounts of 20% and 25% total 45% and are better. Effective successive discount = 1 − (0.80 × 0.75) = 1 − 0.60 = 40%, exactly equal to the single discount, so the answer is both give the same price.
+Source: PYQ-style
+
+130. In an election, 10% of the voters did not cast their votes. The winner secured 60% of the votes polled and won by 720 votes. How many voters were on the electoral list?
+(a) 3600 (b) 4800 (c) 4500 (d) 4000
+Answer: (d)
+Solution: The trap is applying 60% to the total list instead of votes polled. Votes polled = 0.9T; winner got 0.54T and loser 0.36T, so margin = 0.18T = 720, giving T = 4000, so the answer is 4000.
+Source: PYQ-style
+
+131. If 40% of a number is 256, what is 75% of five-eighths of that number?
+(a) 240 (b) 320 (c) 300 (d) 360
+Answer: (c)
+Solution: The trap is taking 75% of the whole number instead of five-eighths of it. Number = 256/0.40 = 640; five-eighths of 640 = 400; 75% of 400 = 300, so the answer is 300.
+Source: PYQ-style
+
+132. A 40-litre mixture of milk and water contains milk and water in the ratio 3:1. How much water must be added so that the ratio becomes 3:2?
+(a) 8 litres (b) 12 litres (c) 10 litres (d) 15 litres
+Answer: (c)
+Solution: The trap is changing both quantities; only water is added, so milk stays fixed at 30 litres. For ratio 3:2, 30/(10 + x) = 3/2 gives 60 = 30 + 3x, so x = 10, and the answer is 10 litres.
+Source: PYQ-style
+
+133. Fresh fruit contains 68% water and dry fruit contains 20% water. How much dry fruit can be obtained from 100 kg of fresh fruit?
+(a) 32 kg (b) 40 kg (c) 45 kg (d) 48 kg
+Answer: (b)
+Solution: The trap is subtracting the water percentages directly. Pulp in fresh fruit = 32% of 100 = 32 kg; this pulp is 80% of dry fruit, so dry fruit = 32/0.80 = 40 kg, and the answer is 40 kg.
+Source: PYQ-style
+
+134. A man spends 65% of his monthly income and saves the rest. If his monthly saving is ₹5,250, what is his monthly income?
+(a) ₹14,000 (b) ₹15,000 (c) ₹16,500 (d) ₹17,500
+Answer: (b)
+Solution: The trap is computing 5,250 as 65% of income. Saving is 35% of income, so income = 5,250/0.35 = 15,000, and the answer is ₹15,000.
+Source: PYQ-style
+
+135. When a number is increased by 37.5%, it becomes 440. What is the number?
+(a) 300 (b) 340 (c) 320 (d) 360
+Answer: (c)
+Solution: The trap is reducing 440 by 37.5% of 440. The number = 440/1.375 = 320, so the answer is 320.
+Source: PYQ-style
+
+136. In an examination, a student who scored 30% marks failed by 15 marks, while another student who scored 40% marks passed by 35 marks. What are the passing marks?
+(a) 150 (b) 165 (c) 175 (d) 200
+Answer: (b)
+Solution: The trap is averaging the two percentages. The gap of 10% of maximum equals 15 + 35 = 50 marks, so maximum = 500; passing marks = 30% of 500 + 15 = 165, so the answer is 165.
+Source: PYQ-style
+
+137. The population of a village two years ago was 64,000. It increases at 5% per annum. What is the present population?
+(a) 70,560 (b) 70,400 (c) 71,000 (d) 72,050
+Answer: (a)
+Solution: The trap is adding 10% simple growth: 64,000 × 1.10 = 70,400. Growth is compounded: 64,000 × 1.05 × 1.05 = 64,000 × 1.1025 = 70,560, so the answer is 70,560.
+Source: PYQ-style
+
+138. A machine depreciates at 10% per annum. Its present value is ₹81,000. What was its value two years ago?
+(a) ₹95,000 (b) ₹98,000 (c) ₹1,02,000 (d) ₹1,00,000
+Answer: (d)
+Solution: The trap is adding back 20% of 81,000. Original value = 81,000/(0.9 × 0.9) = 81,000/0.81 = 1,00,000, so the answer is ₹1,00,000.
+Source: PYQ-style
+
+139. In an election between two candidates, 10% of the registered voters did not vote. The winner received 60% of the votes cast and won by 720 votes. How many voters were registered?
+(a) 3600 (b) 4200 (c) 4000 (d) 4500
+Answer: (c)
+Solution: The trap is taking the margin as 20% of registered voters. Votes cast = 0.9T; margin = (60 − 40)% of 0.9T = 0.18T = 720, so T = 4000, and the answer is 4000.
+Source: PYQ-style
+
+140. If the numerator of a fraction is increased by 20% and its denominator is decreased by 25%, by what percentage does the value of the fraction increase?
+(a) 45% (b) 55% (c) 66.67% (d) 60%
+Answer: (d)
+Solution: The trap is adding 20 + 25 = 45%. New value factor = 1.20/0.75 = 1.60, i.e. an increase of 60%, so the answer is 60%.
+Source: PYQ-style
+
+141. A man spends 80% of his income. His income increases by 20% and his expenditure increases by 25%. What is the percentage change in his savings?
+(a) 5% increase (b) No change (c) 10% increase (d) 5% decrease
+Answer: (b)
+Solution: The trap is assuming savings must rise because income rose. Take income 100: expenditure 80, savings 20. New income 120, new expenditure 80 × 1.25 = 100, new savings = 20, so the answer is no change.
+Source: PYQ-style
+
+142. The price of sugar rises by 25%. By what percentage should a family reduce consumption so that expenditure rises by only 15%?
+(a) 10% (b) 9% (c) 8% (d) 12%
+Answer: (c)
+Solution: The trap is subtracting 25 − 15 = 10%. Consumption factor = 1.15/1.25 = 0.92, i.e. a reduction of 8%, so the answer is 8%.
+Source: PYQ-style
+
+143. The length of a rectangle is increased by 25% and its breadth is decreased by 20%. What is the percentage change in its area?
+(a) 5% increase (b) 5% decrease (c) 2.5% increase (d) No change
+Answer: (d)
+Solution: The trap is subtracting 25 − 20 = 5% increase. Area factor = 1.25 × 0.80 = 1.00, so the area is unchanged, and the answer is no change.
+Source: PYQ-style
+
+144. What is 15% of 30% of 40% of 20,000?
+(a) 300 (b) 360 (c) 400 (d) 420
+Answer: (b)
+Solution: The trap is adding the percentages and taking 85% of 20,000. Multiply stepwise: 40% of 20,000 = 8,000; 30% of 8,000 = 2,400; 15% of 2,400 = 360, so the answer is 360.
+Source: PYQ-style
+
+145. In a class, 60% of the students are boys. If 30% of the boys and 20% of the girls play cricket, what percentage of the whole class plays cricket?
+(a) 26% (b) 25% (c) 28% (d) 30%
+Answer: (a)
+Solution: The trap is averaging 30% and 20% to get 25%. Players = 0.60 × 0.30 + 0.40 × 0.20 = 0.18 + 0.08 = 0.26, so the answer is 26%.
+Source: PYQ-style
+
+146. A number exceeds 25% of itself by 60. What is the number?
+(a) 75 (b) 100 (c) 90 (d) 80
+Answer: (d)
+Solution: The trap is computing 60 as 25% of the number. The excess is 75% of the number, so number = 60/0.75 = 80, and the answer is 80.
+Source: PYQ-style
+
+147. A man pays 10% of his gross income as income tax, and a surcharge of 10% on the tax. If his net income after both deductions is ₹89,000, what is his gross income?
+(a) ₹1,00,000 (b) ₹98,000 (c) ₹1,02,000 (d) ₹1,05,000
+Answer: (a)
+Solution: The trap is treating the total deduction as 20%. Effective deduction = 10% + 10% of 10% = 11%, so net = 89% of gross; gross = 89,000/0.89 = 1,00,000, and the answer is ₹1,00,000.
+Source: PYQ-style
+
+148. The area under wheat cultivation increases by 10% and the yield per hectare increases by 10%. What is the percentage increase in total wheat production?
+(a) 20% (b) 21% (c) 22% (d) 19%
+Answer: (b)
+Solution: The trap is adding 10 + 10 = 20%. Production factor = 1.10 × 1.10 = 1.21, i.e. a 21% increase, so the answer is 21%.
+Source: PYQ-style
+
+149. A is 20% less than B, and C is 20% more than B. By what percentage is A less than C?
+(a) 40% (b) 36% (c) 33.33% (d) 30%
+Answer: (c)
+Solution: The trap is answering 40%, the gap relative to B. Take B = 100: A = 80, C = 120; A is less than C by 40 on a base of 120, i.e. 40/120 = 33.33%, so the answer is 33.33%.
+Source: PYQ-style
+
+150. A 50-litre solution contains 20% alcohol. Five litres of the solution is drawn off and replaced with water, and this operation is repeated once more. What is the final percentage of alcohol in the solution?
+(a) 16.2% (b) 16% (c) 18% (d) 15.5%
+Answer: (a)
+Solution: The trap is subtracting 10% of alcohol per operation in absolute terms. Each replacement retains 45/50 = 0.9 of the alcohol: alcohol = 10 × 0.9 × 0.9 = 8.1 litres in 50 litres, i.e. 16.2%, so the answer is 16.2%.
+Source: PYQ-style

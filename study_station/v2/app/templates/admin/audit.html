@@ -1,0 +1,16 @@
+{% extends 'admin/base.html' %}
+{% block title %}Audit log{% endblock %}
+{% block main %}
+<h1>Audit log</h1>
+<p class="small muted">The last 200 changes made from this admin panel (newest first). Times are UTC.</p>
+<table class="tbl">
+  <thead><tr><th>When</th><th>Action</th><th>Target</th><th>Detail</th><th>Reason</th></tr></thead>
+  <tbody>
+  {% for a in rows %}
+    <tr><td class="xs">{{ a.at.strftime('%d-%m-%Y %H:%M') }}</td><td><b>{{ a.action }}</b></td>
+      <td class="xs">{% if a.target.startswith('question:') %}<a href="/admin/questions/{{ a.target.split(':')[1] }}">{{ a.target }}</a>{% elif a.target.startswith('job:') %}<a href="/admin/jobs/{{ a.target.split(':')[1] }}">{{ a.target }}</a>{% else %}{{ a.target }}{% endif %}</td>
+      <td class="xs muted">{{ a.detail or '' }}</td><td class="xs">{{ a.note or '' }}</td></tr>
+  {% else %}<tr><td colspan="5" class="muted">No admin changes recorded yet.</td></tr>{% endfor %}
+  </tbody>
+</table>
+{% endblock %}

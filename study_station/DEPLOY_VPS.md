@@ -47,6 +47,14 @@ nano .env      # असली values भरें (Telegram token, GEMINI_API_KE
 SITE_URL=https://studystation.in
 ```
 
+**Admin login (ज़रूरी):** `SECRET_KEY` और `ADMIN_PASSWORD` भरे बिना `/admin` बंद (locked) रहेगा:
+```
+SECRET_KEY=<python3 -c "import secrets; print(secrets.token_hex(32))" का output>
+ADMIN_PASSWORD=<मज़बूत password>
+TRUST_PROXY=1          # nginx के पीछे — rate limit को असली IP मिले
+```
+> ℹ️ AI chat पर rate limit (8/मिनट, 60/दिन प्रति IP) हर gunicorn worker में अलग गिना जाता है।
+
 > ⚠️ पुरानी hardcoded Gemini key अब env से आती है — पुरानी key को Google console में **rotate/delete** ज़रूर करें।
 
 ---

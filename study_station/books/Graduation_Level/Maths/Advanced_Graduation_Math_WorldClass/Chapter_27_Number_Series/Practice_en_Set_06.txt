@@ -1,0 +1,151 @@
+प्रश्न 126–145: आसान | प्रश्न 146–150: मध्यम
+
+126. Find the missing term: 3, 7, 16, 35, 74, ?
+(a) 151 (b) 148 (c) 149 (d) 153
+Answer: (d)
+Solution: The tempting trap is to look for a constant difference, but the differences are 4, 9, 19, 39 — not constant. The pattern is ×2 + 1, ×2 + 2, ×2 + 3, ×2 + 4, so next is ×2 + 5: 74 × 2 + 5 = 153. So the answer is 153.
+Source: PYQ-style
+
+127. Find the next term: 2, 3, 10, 39, 172, ?
+(a) 895 (b) 860 (c) 875 (d) 885
+Answer: (d)
+Solution: Many students try ×2 or ×3 with a constant addend and get stuck. The pattern is ×1 + 1, ×2 + 4, ×3 + 9, ×4 + 16 — the multiplier rises by 1 and the addend is a perfect square. Next: 172 × 5 + 25 = 885. So the answer is 885.
+Source: PYQ-style
+
+128. Find the wrong term in the series: 1, 2, 6, 15, 31, 57, 91
+(a) 57 (b) 15 (c) 31 (d) 6
+Answer: (a)
+Solution: The trap is checking only the first differences 1, 4, 9, 16 and assuming the rest follow. The differences should be perfect squares 1, 4, 9, 16, 25, 36, giving 1, 2, 6, 15, 31, 56, 91 — so 57 should be 56. So the answer is 57.
+Source: PYQ-style
+
+129. Find the next term: 1, 4, 27, 256, ?
+(a) 3125 (b) 1024 (c) 625 (d) 4096
+Answer: (a)
+Solution: The trap is treating these as powers of 4 or simple cubes. The terms are n^n: 1^1 = 1, 2^2 = 4, 3^3 = 27, 4^4 = 256, so the next term is 5^5 = 3125. So the answer is 3125.
+Source: PYQ-style
+
+130. Find the missing term: 8, 15, 28, 53, 102, ?
+(a) 203 (b) 201 (c) 199 (d) 197
+Answer: (c)
+Solution: The trap is doubling and subtracting a fixed constant, but the subtracted number itself rises: 8×2−1 = 15, 15×2−2 = 28, 28×2−3 = 53, 53×2−4 = 102. Next: 102 × 2 − 5 = 199. So the answer is 199.
+Source: PYQ-style
+
+131. Find the next term: 6, 20, 62, 188, 566, ?
+(a) 1698 (b) 1700 (c) 1702 (d) 1696
+Answer: (b)
+Solution: The trap is computing 566 × 3 = 1698 and stopping there, forgetting the addend. The rule ×3 + 2 holds throughout: 6×3+2 = 20, 20×3+2 = 62, and so on. Next: 566 × 3 + 2 = 1700. So the answer is 1700.
+Source: PYQ-style
+
+132. Find the wrong term: 3, 7, 15, 31, 63, 126, 255
+(a) 126 (b) 63 (c) 15 (d) 255
+Answer: (a)
+Solution: The trap is verifying the chain only up to 63 and stopping. The pattern is ×2 + 1 (equivalently 2^n − 1): 3, 7, 15, 31, 63, 127, 255 — so 126 should be 127. So the answer is 126.
+Source: PYQ-style
+
+133. Find the next term: 2, 12, 36, 80, 150, ?
+(a) 252 (b) 250 (c) 248 (d) 256
+Answer: (a)
+Solution: The trap is reading the differences 10, 24, 44, 70 and guessing linearly. The terms are n^3 + n^2: 1+1 = 2, 8+4 = 12, 27+9 = 36, 64+16 = 80, 125+25 = 150, so next is 216 + 36 = 252. So the answer is 252.
+Source: PYQ-style
+
+134. Find the next term: 31, 37, 41, 43, 47, ?
+(a) 51 (b) 53 (c) 49 (d) 57
+Answer: (b)
+Solution: The trap is adding 6, 4, 2, 4 and guessing the next gap mechanically, which can lead to 51 or 49 — both composite. The series is consecutive prime numbers, and the prime after 47 is 53. So the answer is 53.
+Source: NCERT Class 8 Mathematics
+
+135. Find the next term: 0, 6, 24, 60, 120, ?
+(a) 240 (b) 216 (c) 200 (d) 210
+Answer: (d)
+Solution: The trap is seeing multiples of 6 and extending the differences 6, 18, 36, 60 without a rule. The terms are n^3 − n: 1−1 = 0, 8−2 = 6, 27−3 = 24, 64−4 = 60, 125−5 = 120, so next is 216 − 6 = 210. So the answer is 210.
+Source: PYQ-style
+
+136. Find the wrong term: 3, 8, 15, 24, 34, 48, 63
+(a) 15 (b) 24 (c) 34 (d) 48
+Answer: (c)
+Solution: The trap is checking differences 5, 7, 9 and assuming they continue correctly. The terms should be n^2 − 1: 3, 8, 15, 24, 35, 48, 63 — the printed 34 should be 35. So the answer is 34.
+Source: PYQ-style
+
+137. Find the next term: 1, 2, 6, 21, 88, ?
+(a) 450 (b) 440 (c) 445 (d) 435
+Answer: (c)
+Solution: The trap is trying ×2, ×3, ×4 with constant addends, which fails at 21. The pattern is ×1 + 1, ×2 + 2, ×3 + 3, ×4 + 4: 1×1+1 = 2, 2×2+2 = 6, 6×3+3 = 21, 21×4+4 = 88, so next is 88 × 5 + 5 = 445. So the answer is 445.
+Source: PYQ-style
+
+138. Find the missing term: 7, 26, 63, 124, 215, ?
+(a) 340 (b) 344 (c) 342 (d) 336
+Answer: (c)
+Solution: The trap is forcing the differences 19, 37, 61, 91 into a second-order pattern and miscomputing. The terms are n^3 − 1 starting from n = 2: 8−1 = 7 up to 216−1 = 215, so next is 343 − 1 = 342. So the answer is 342.
+Source: PYQ-style
+
+139. Find the next term: 4, 18, 48, 100, 180, ?
+(a) 288 (b) 294 (c) 300 (d) 296
+Answer: (b)
+Solution: The trap is using differences 14, 30, 52, 80 and guessing from second differences. The terms are n^2 × (n−1) starting from n = 2: 4×1 = 4, 9×2 = 18, 16×3 = 48, 25×4 = 100, 36×5 = 180, so next is 49 × 6 = 294. So the answer is 294.
+Source: PYQ-style
+
+140. Find the wrong term: 2, 5, 11, 23, 47, 95, 192
+(a) 11 (b) 47 (c) 192 (d) 95
+Answer: (c)
+Solution: The trap is verifying the chain only up to 95 and stopping. The pattern is ×2 + 1: 2, 5, 11, 23, 47, 95, 191 — the last printed term 192 should be 191. So the answer is 192.
+Source: PYQ-style
+
+141. Find the next term: 13, 17, 23, 31, 41, ?
+(a) 51 (b) 53 (c) 47 (d) 49
+Answer: (b)
+Solution: The trap is extending the gaps 4, 6, 8, 10 carelessly and landing on a composite like 51. The gaps between consecutive terms grow by 2, so the next gap is 12: 41 + 12 = 53, which is also prime — both readings agree. So the answer is 53.
+Source: PYQ-style
+
+142. Find the missing term: 5, 9, 17, 33, 65, ?
+(a) 131 (b) 129 (c) 127 (d) 125
+Answer: (b)
+Solution: The trap is mixing up ×2 − 1 with ×2 + 1 and getting 131. The rule ×2 − 1 holds throughout: 5×2−1 = 9, 9×2−1 = 17, and so on. Next: 65 × 2 − 1 = 129. So the answer is 129.
+Source: PYQ-style
+
+143. Find the next term: 1, 8, 27, 64, 125, 216, ?
+(a) 512 (b) 336 (c) 349 (d) 343
+Answer: (d)
+Solution: The trap is overthinking a simple series and inventing a complex rule. These are perfect cubes 1^3 to 6^3, so the next term is 7^3 = 343; note that 512 is 8^3, a tempting pick for those who skip a step. So the answer is 343.
+Source: NCERT Class 8 Mathematics
+
+144. Find the wrong term: 5, 8, 16, 19, 38, 42, 82
+(a) 16 (b) 38 (c) 42 (d) 82
+Answer: (c)
+Solution: The trap is seeing the doublings 8→16 and 19→38 and assuming the whole series is correct. The pattern alternates +3, ×2: 5+3 = 8, 8×2 = 16, 16+3 = 19, 19×2 = 38, 38+3 = 41, 41×2 = 82 — so 42 should be 41. So the answer is 42.
+Source: PYQ-style
+
+145. Find the next term: 3, 10, 29, 66, 127, ?
+(a) 218 (b) 220 (c) 216 (d) 224
+Answer: (a)
+Solution: The trap is trying ×3 + 1, which fails after the first step. The terms are n^3 + 2: 1+2 = 3, 8+2 = 10, 27+2 = 29, 64+2 = 66, 125+2 = 127, so next is 216 + 2 = 218. So the answer is 218.
+Source: PYQ-style
+
+146. Find the missing term: 2, 6, 12, 20, 30, ?, 56
+(a) 42 (b) 40 (c) 44 (d) 38
+Answer: (a)
+Solution: The trap is extending the differences 4, 6, 8, 10 carelessly. The terms are n(n+1): 1×2, 2×3, 3×4, 4×5, 5×6, so the missing term is 6×7 = 42, confirmed by 7×8 = 56. So the answer is 42.
+Source: NCERT Class 8 Mathematics
+
+147. Find the next term: 11, 13, 17, 19, 23, 29, ?
+(a) 35 (b) 33 (c) 37 (d) 31
+Answer: (d)
+Solution: The trap is extending the gaps 2, 4, 2, 4, 6 mechanically and picking 37, or forgetting that 33 and 35 are composite. The series is simply consecutive prime numbers, and the prime after 29 is 31. So the answer is 31.
+Source: NCERT Class 8 Mathematics
+
+148. Find the wrong term: 1, 3, 7, 15, 31, 63, 127, 255, 512
+(a) 63 (b) 127 (c) 255 (d) 512
+Answer: (d)
+Solution: The trap is verifying the doubling-plus-one rule only up to 255 and stopping. The pattern is ×2 + 1 (equivalently 2^n − 1), so after 255 the next term should be 511, not 512. So the answer is 512.
+Source: PYQ-style
+
+149. Find the next term: 4, 9, 25, 49, 121, 169, ?
+(a) 289 (b) 225 (c) 256 (d) 196
+Answer: (a)
+Solution: The trap is seeing squares and picking the next ordinary square like 196 (14^2) or 225 (15^2). These are squares of consecutive primes: 2^2, 3^2, 5^2, 7^2, 11^2, 13^2, so the next term is 17^2 = 289. So the answer is 289.
+Source: PYQ-style
+
+150. Find the missing term: 6, 11, 21, 36, 56, ?
+(a) 83 (b) 81 (c) 79 (d) 77
+Answer: (b)
+Solution: The trap is reading the differences 5, 10, 15, 20 and repeating 20 to get 76-like guesses. The differences rise by 5 each time, so the next difference is 25: 56 + 25 = 81. So the answer is 81.
+Source: PYQ-style

@@ -1,44 +1,81 @@
-Front: What is the formula for the total number?
-Back: Total = (rank from top) + (rank from bottom) − 1.
+### 🃏 Flashcards – Order & Ranking
 
-Front: Why do we subtract 1 in the formula?
-Back: Because the person in question is included once in both counts (double counting).
+Card 1
+Front: What is the golden formula when the same person is counted from both ends?
+Back: Total = Left rank + Right rank – 1 (T = L + R – 1)
 
-Front: A is 7th from top and 18th from bottom — total?
-Back: 7 + 18 − 1 = 24.
+Card 2
+Front: In a row of 50, Priya is 22nd from the left. What is her rank from the right?
+Back: 50 – 22 + 1 = 29th from right. (Opposite rank = Total – Given rank + 1)
 
-Front: How do you find the rank from the other side?
-Back: (total − rank from one side) + 1.
+Card 3
+Front: Why do we subtract 1 in T = L + R – 1?
+Back: Because the person is counted twice — once from the left, once from the right. Subtracting 1 corrects the double-counting.
 
-Front: In a class of 40, A is 12th from top — position from bottom?
-Back: 40 − 12 + 1 = 29th.
+Card 4
+Front: Ravi is 11th from the front and 14th from the back. How many people are in the queue?
+Back: 11 + 14 – 1 = 24 people.
 
-Front: Formula for the number between two persons (same side)?
-Back: bigger rank − smaller rank − 1.
+Card 5
+Front: A is 15th from left, B is 12th from right, total strength is 30. Do they overlap?
+Back: No, because 15 + 12 = 27, which is less than 30. Overlap occurs only when the sum of the two ranks is greater than the total.
 
-Front: A is 5th and B is 9th (same side) — how many between?
-Back: 9 − 5 − 1 = 3 persons.
+Card 6
+Front: A is 10th from left, B is 8th from right. Total people = 18. How many persons are between them?
+Back: Convert B to left: 18 – 8 + 1 = 11th from left. Between = |10 – 11| – 1 = 0. They are adjacent.
 
-Front: If ranks are from different directions, number between?
-Back: total − rank₁ − rank₂.
+Card 7
+Front: In an interchange problem, how do you find the total strength?
+Back: After the swap, one person's new rank from one end equals the other person's old rank from that same end. So: Total = New rank of one person from one end + Old rank of the other person from the opposite end – 1.
 
-Front: Difference between "between" and "from ... to"?
-Back: "Between" = excluding both; "from ... to" = including both.
+Card 8
+Front: What mnemonic helps to instantly recall the total formula?
+Back: "Left plus Right, minus one — Total done, oh what fun!"
 
-Front: In a class of 30, B is 10th from top — from bottom?
-Back: 30 − 10 + 1 = 21st.
+Card 9
+Front: What simple trick helps avoid confusion in overlap cases?
+Back: Always convert both ranks to the same end (say left) first. Then use |L1 – L2| – 1 to find persons between. This eliminates the risk of mixing opposite ends.
 
-Front: In a line of 5, which position is the middle one from each side?
-Back: Third from each side (3 + 3 − 1 = 5, the formula holds).
+Card 10
+Front: A row has 40 students. Rohit is 18th from left. How many students are to his right?
+Back: Total – Left rank = 40 – 18 = 22 students to his right (not counting Rohit himself).
 
-Front: What is the most common trap?
-Back: Forgetting the "−1" when finding the total (the answer comes out 1 too high).
+Card 11
+Front: What is the minimum possible total when A is 6th from left and B is 9th from right, with no other information?
+Back: Minimum total = 6 + 9 – 1 = 14 (maximum overlap — A and B are the same person).
 
-Front: What is the best method when confused?
-Back: Draw small boxes on paper and fill in the numbers.
+Card 12
+Front: What is the maximum possible total when A is 6th from left and B is 9th from right, with no other information?
+Back: Maximum total = 6 + 9 = 15 (no overlap — they are at opposite extremes).
 
-Front: What to watch for in interchange problems?
-Back: Carefully recount the new rank of the swapped position.
+Card 13
+Front: Why might an examiner's trap answer be "cannot be determined" in an Order & Ranking question?
+Back: When the relative positions of two persons are not specified, multiple arrangements are possible. For example, "A is 5th from left, B is 4th from right" without saying whether A is left or right of B — the total cannot be uniquely fixed.
 
-Front: What is the mnemonic for the total?
-Back: "Add, subtract one".
+Card 14
+Front: What is the quick trick to find the number of persons between two people when both ranks are from the same end?
+Back: Difference of ranks minus 1. E.g., 15th and 21st from left → (21 – 15) – 1 = 5 persons between.
+
+Card 15
+Front: P is 7th from left, Q is 13th from right. They interchange places and P becomes 15th from left. Find the total.
+Back: P's new left rank (15) = Q's original left rank. Q's right rank stays 13. So total = 15 + 13 – 1 = 27.
+
+Card 16
+Front: In an overlapping case, A is 14th from left, B is 11th from right, total 20. How many are between them?
+Back: A's right rank = 20 – 14 + 1 = 7. B's right rank = 11. Between = 11 – 7 – 1 = 3.
+
+Card 17
+Front: What common mistake do students make when using T = L + R?
+Back: They forget to subtract 1, counting the person twice — an off-by-one error. Examiners often include both L+R and L+R–1 among the options.
+
+Card 18
+Front: What is the memory aid for converting opposite-end ranks?
+Back: "Total minus given plus one, runs the calculation just for fun." (Opposite rank = Total – Given rank + 1)
+
+Card 19
+Front: A is 9th from left, B is 9th from right. Can they be the same person?
+Back: Yes, if total = 9 + 9 – 1 = 17, they are exactly the same person.
+
+Card 20
+Front: What should you check when a question says "some persons are sitting between them" but gives no exact number?
+Back: The problem may allow multiple possibilities or a range of totals. Check whether the answer is "cannot be determined" or whether you must find the minimum/maximum. Never assume a fixed total.

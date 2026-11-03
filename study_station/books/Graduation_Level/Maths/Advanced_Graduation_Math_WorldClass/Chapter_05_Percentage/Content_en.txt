@@ -1,0 +1,144 @@
+# Percentage
+
+## Chapter Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Convert between percentages, fractions, and decimals instantly.
+2. Solve successive percentage change problems without confusion.
+3. Master percentage applications: profit-loss, population change, exam marks, and data interpretation.
+4. Spot and avoid the classic traps examiners set in SSC CGL Tier-II, IBPS PO Mains, CAT, and CSAT.
+5. Use fraction shortcuts to calculate in seconds instead of minutes.
+
+---
+
+## The Hook: The Discount That Wasn't a Discount
+
+A shopkeeper raises the price of a jacket by 25%, then announces a "25% discount" during a sale. Most people think the jacket is back to its original price. It isn't. If the original price was ₹800, after a 25% hike it becomes ₹1,000. A 25% discount on ₹1,000 is ₹250 off — final price ₹750. You just "saved" money and still paid ₹50 less than the original... wait, actually the shopkeeper *lost* ₹50? No — check again: the shopkeeper bought it cheaper. The point is this: **equal percentage up and down never cancels out**, and examiners build entire questions on this one illusion. Master this chapter, and these traps become free marks.
+
+---
+
+## 1. What Percentage Really Means
+
+"Per cent" comes from the Latin *per centum* — "per hundred." So 45% simply means 45 out of 100, or the fraction 45/100, or the decimal 0.45. That's it. Every percentage problem in every exam is, at its core, a fraction problem wearing a costume.
+
+**The three forms of the same value:**
+
+| Percentage | Fraction | Decimal |
+|---|---|---|
+| 25% | 1/4 | 0.25 |
+| 40% | 2/5 | 0.40 |
+| 75% | 3/4 | 0.75 |
+
+The single most important skill in this chapter is **fraction conversion**. If you see 12.5% and your brain instantly says "1/8," you will solve problems three times faster than the candidate next to you.
+
+🧠 **Active Recall:** Without looking above — what is 40% as a fraction? What fraction is 0.75? Write both down before reading on.
+
+---
+
+## 2. The Fraction Table You Must Memorise
+
+Advanced exams (CAT, PO Mains) reward speed, and speed comes from this table:
+
+| Percentage | Fraction | Percentage | Fraction |
+|---|---|---|---|
+| 50% | 1/2 | 12.5% | 1/8 |
+| 33.33% | 1/3 | 6.25% | 1/16 |
+| 66.66% | 2/3 | 11.11% | 1/9 |
+| 25% | 1/4 | 14.28% | 1/7 |
+| 20% | 1/5 | 8.33% | 1/12 |
+| 10% | 1/10 | 5% | 1/20 |
+| 16.66% | 1/6 | 4% | 1/25 |
+
+**Example:** What is 14.28% of 700? Don't multiply 0.1428 × 700. Just compute 700/7 = 100. Done in two seconds.
+
+🧠 **Active Recall:** Close the table. What is 37.5% as a fraction? (Hint: it's 3/8 — half of 75%.) What is 62.5%? (5/8.)
+
+---
+
+## 3. Percentage of a Number & Percentage Change
+
+**Basic formula:**
+
+$$\text{Percentage} = \frac{\text{Part}}{\text{Whole}} \times 100$$
+
+**Percentage change** is where exams live:
+
+$$\%\text{ change} = \frac{\text{New value} - \text{Old value}}{\text{Old value}} \times 100$$
+
+The denominator is **always the original (old) value** — this is the #1 trap. If a price rises from ₹80 to ₹100, the increase is 20/80 = 25%, not 20/100 = 20%.
+
+**Reverse question:** If a value increases by 25% to become 500, what was it originally? New value = 125% of old = 5/4 × old. So old = 500 × 4/5 = 400. Learn to move backwards fluently — Tier-II and PO Mains love reverse problems.
+
+🧠 **Active Recall:** A salary rises from ₹4,000 to ₹4,600. What is the percentage increase? (Answer: 600/4000 = 15%.)
+
+---
+
+## 4. Successive Percentage Change — The Heart of This Chapter
+
+When two changes a% and b% happen one after another, the net change is:
+
+$$\text{Net \%} = a + b + \frac{ab}{100}$$
+
+(Use negative signs for decreases.)
+
+**Example:** +20% then −10%: Net = 20 − 10 + (20 × −10)/100 = 10 − 2 = **+8%**.
+
+Notice: +20% then −20% gives 20 − 20 − 4 = **−4%**, not zero. This is the jacket illusion from the hook — equal up-and-down changes always end in a net *decrease* of (a²/100)%.
+
+**Fraction method (often faster):** +25% means multiply by 5/4; −20% means multiply by 4/5. Net multiplier = 5/4 × 4/5 = 1 → no change. Beautiful when fractions cancel.
+
+🧠 **Active Recall:** Population increases 10% in year 1 and 20% in year 2. Net change? (Answer: 10 + 20 + 2 = 32%.)
+
+---
+
+## 5. Key Application Areas
+
+**A. Population / Depreciation:** If a population grows r% per year, after n years: $P_n = P_0(1 + r/100)^n$. Depreciation uses $(1 - r/100)^n$. For 2 years, expand: 2 years at 10% growth → multiplier 1.1² = 1.21 → 21% total growth.
+
+**B. Exam marks:** If passing requires 40% and a student scores 180 but fails by 20 marks, the pass mark is 200, so maximum marks = 200 × 100/40 = 500.
+
+**C. Percentage points vs. percent:** If interest rates rise from 5% to 7%, that is a rise of **2 percentage points** but a **40% increase** (2/5). CSAT and CAT deliberately confuse these two phrases. Read the wording twice.
+
+**D. Data Interpretation:** "A is what percent more than B?" → (A − B)/B × 100. "B is what percent less than A?" → (A − B)/A × 100. Same numbers, different base, different answer. The base is whatever comes after "than."
+
+🧠 **Active Recall:** A = 120, B = 100. A is what % more than B? B is what % less than A? (Answers: 20% and 16.66% — different bases!)
+
+---
+
+## 6. Mnemonic: "BASE Follows THAN"
+
+> **"The BASE always follows THAN."**
+
+Whenever a question says "X is what percent more/less **than** Y," the value after *than* (Y) is your denominator. Tattoo this on your brain — it kills the most common error in percentage DI questions.
+
+Second mnemonic for successive change: **"SUM plus PRODUCT over hundred"** — a + b + ab/100. Say it as: *"Sum it, then tip it."*
+
+---
+
+## 7. Classic Examiner Traps
+
+1. **Up-down illusion:** +x% then −x% is never zero; it's −x²/100 %.
+2. **Wrong base:** Using the new value as denominator in percentage change.
+3. **Percentage points vs. percent:** 5% → 6% is +1 point, +20%.
+4. **"More than" vs. "less than":** different denominators (see mnemonic).
+5. **Mixing ratios:** If A:B = 3:4, then B is 33.33% more than A — not 25%. (Difference 1 over base 3.)
+
+---
+
+## Summary Table
+
+| Concept | Formula / Key Idea |
+|---|---|
+| Basic percentage | (Part/Whole) × 100 |
+| Percentage change | (New − Old)/Old × 100 |
+| Successive change | a + b + ab/100 |
+| Equal up & down (x%) | Net = −x²/100 % (always a decrease) |
+| Population after n years | P₀(1 ± r/100)ⁿ |
+| "More/less than" base | Denominator = value after "than" |
+| Percentage points | Simple subtraction of two percentages |
+| Speed key | Memorise fraction table (1/7, 1/8, 1/9, 1/12…) |
+
+---
+
+📌 **Review this chapter after 2 days.** Redo the fraction table from memory, solve one successive-change problem, and re-test yourself on the "more than / less than" base rule. Spaced repetition is what converts this chapter from "understood" to "unshakeable."

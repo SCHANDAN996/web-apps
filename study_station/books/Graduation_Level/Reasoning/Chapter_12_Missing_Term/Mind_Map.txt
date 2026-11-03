@@ -1,0 +1,34 @@
+```mermaid
+graph TD
+    A["लुप्त पद<br>Missing Term"] --> B["संख्या शृंखला<br>Number Series"]
+    A --> C["अक्षर शृंखला<br>Letter Series"]
+    A --> D["अक्षर-अंक शृंखला<br>Alphanumeric Series"]
+    A --> E["आकृति व ग्रिड<br>Figures & Grids"]
+    A --> F["गलत पद<br>Wrong Term"]
+
+    B --> B1["अंतर<br>Differences"]
+    B --> B2["अनुपात<br>Ratios"]
+    B --> B3["वर्ग/घन<br>Squares & Cubes"]
+    B --> B4["मिश्रित ×, ±<br>Mixed Operations"]
+    B --> B5["दो शृंखलाएँ<br>Alternate Series"]
+
+    C --> C1["A=1 … Z=26"]
+    C --> C2["EJOTY: 5,10,15,20,25"]
+    C --> C3["विपरीत अक्षर (योग 27)<br>Opposite Letters"]
+
+    D --> D1["अक्षर अलग हल करें<br>Solve Letters"]
+    D --> D2["अंक अलग हल करें<br>Solve Numbers"]
+
+    E --> E1["पहले पंक्तियाँ<br>Rows First"]
+    E --> E2["फिर स्तंभ<br>Then Columns"]
+    E --> E3["केंद्र = बाहरी अंकों से<br>Centre from Outer Numbers"]
+
+    A --> G["रणनीति D-R-P-M-A<br>Strategy"]
+    A --> H["समय प्रबंधन<br>Time Management"]
+    H --> H1["पहले आसान प्रश्न<br>Easy Questions First"]
+    H --> H2["अटके तो आगे बढ़ें<br>Skip If Stuck"]
+    A --> I["जाल<br>Examiner's Traps"]
+    I --> I1["दो नियम फिट<br>Two Rules Fit"]
+    I --> I2["अंतिम पद में नियम बदलना<br>Rule Changes Late"]
+    I --> I3["A=0 की गलती<br>Off-by-one Letter"]
+```

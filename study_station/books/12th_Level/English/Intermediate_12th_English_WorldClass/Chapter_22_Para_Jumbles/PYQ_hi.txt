@@ -1,0 +1,174 @@
+# 📊 PYQ विश्लेषण — पैरा जम्बल्स (Para Jumbles)
+
+## 1. परीक्षा-पैटर्न का सच (बिना गढ़े आँकड़ों के)
+
+पैरा जम्बल्स (Sentence Rearrangement / PQRS) लगभग हर सरकारी परीक्षा के English खंड का **नियमित हिस्सा** है — SSC CGL, CHSL, MTS, IBPS PO/Clerk, RRB NTPC, राज्य PCS। परीक्षाएँ इस अध्याय से दो रूपों में सवाल पूछती हैं:
+
+- **PQRS प्रारूप**: एक पहला वाक्य (P या S1) और अंतिम वाक्य (S6) दिया होता है; बीच के चार वाक्यों (P, Q, R, S) को क्रम में लगाना होता है।
+- **6 वाक्यों का पूरा क्रम**: कोई वाक्य पहले से निश्चित नहीं; सभी को क्रम में लगाकर सही sequence चुनना होता है।
+
+**बार-बार आने वाले उप-विषय:**
+1. संकेतक शब्दों (connectors) पर आधारित क्रम — *however, therefore, moreover, but, so*
+2. सर्वनाम-संदर्भ (pronoun reference) — *it, they, this, these* किसकी ओर इशारा कर रहे हैं
+3. समय-क्रम (chronology) — इतिहास, जीवनी, प्रक्रिया-वर्णन वाले अनुच्छेद
+4. सामान्य → विशेष (General to Specific) क्रम
+5. कारण → परिणाम (Cause → Effect) क्रम
+
+**परीक्षक के चार प्रमुख जाल:**
+
+| जाल | पहचान |
+|---|---|
+| **Intervening Phrase** | दो वाक्य जो साथ लगते हैं, उनके बीच एक अतिरिक्त वाक्य घुसा दिया जाता है |
+| **Sound-Right** | विकल्प पढ़ने में सहज लगता है, पर तार्किक कड़ी (link) टूटी होती है |
+| **Over-thinking** | सीधा connector-आधारित उत्तर स्पष्ट होता है, पर छात्र जटिल क्रम खोजने लगता है |
+| **Pronoun Confusion** | *this/they* वाला वाक्य उस संज्ञा से पहले रख दिया जाता है जिसकी ओर वह इशारा करता है |
+
+---
+
+## 2. शीर्ष 10 हाई-यील्ड प्रश्न (हल सहित)
+
+### प्रश्न 1 (Connector-आधारित)
+**S1:** रामू ने सुबह जल्दी उठने का निश्चय किया।
+**P:** He set his alarm for 5 a.m.
+**Q:** However, when the alarm rang, he switched it off.
+**R:** He wanted to go for a morning walk daily.
+**S:** As a result, he woke up at 9 a.m. as usual.
+**S6:** उसका संकल्प पहले ही दिन टूट गया।
+
+(a) PRQS (b) RPQS (c) PQRS (d) RQPS
+
+**उत्तर:** (b) RPQS
+**हल:** S1 के बाद कारण आता है — *why* उठना चाहता था → **R** (morning walk)। फिर तैयारी → **P** (alarm set)। *However* विरोध दिखाता है → **Q**। *As a result* परिणाम → **S**।
+**जाल-प्रकार:** Sound-Right — PQRS क्रम में पढ़ने पर भी लगभग ठीक लगता है, पर R बिना कारण के शुरू नहीं हो सकता।
+**स्रोत:** PYQ-style
+
+### प्रश्न 2 (Pronoun Reference)
+वाक्यों को सही क्रम में लगाएँ:
+**P:** It was built by Shah Jahan in memory of his wife.
+**Q:** The Taj Mahal is one of the most famous monuments in the world.
+**R:** Every year, millions of tourists visit it.
+**S:** It is located in Agra, on the banks of the Yamuna.
+
+(a) QSPR (b) PQSR (c) QPSR (d) SQPR
+
+**उत्तर:** (a) QSPR
+**हल:** सर्वनाम (*It*) वाले वाक्य कभी शुरुआत नहीं करते — पहले संज्ञा (Taj Mahal) आनी चाहिए → **Q** पहले। फिर स्थान **S**, निर्माण **P**, अंत में पर्यटक **R**।
+**जाल-प्रकार:** Pronoun Confusion — P को पहले रखने वाला विकल्प (b) इसी जाल में फँसाता है।
+**स्रोत:** PYQ-style
+
+### प्रश्न 3 (Chronology — जीवनी)
+**P:** He died in 1948, mourned by the entire nation.
+**Q:** Gandhi ji led the freedom struggle with non-violence.
+**R:** In 1915, he returned to India from South Africa.
+**S:** The Quit India Movement of 1942 was his last major campaign.
+
+(a) QRSP (b) RQSP (c) QSRP (d) RSPQ
+
+**उत्तर:** (b) RQSP
+**हल:** समय-क्रम पकड़ें: 1915 (R) → स्वतंत्रता संग्राम का नेतृत्व (Q) → 1942 (S) → 1948 (P)। तिथियाँ सबसे मज़बूत कड़ी हैं।
+**जाल-प्रकार:** Over-thinking — कुछ छात्र Q को पहले रखकर "सामान्य परिचय" सोचते हैं, पर 1915 की घटना ही वास्तविक शुरुआत है।
+**स्रोत:** PYQ-style
+
+### प्रश्न 4 (General → Specific)
+**P:** For example, the sparrow, once common in cities, is now rarely seen.
+**Q:** Many species are disappearing at an alarming rate.
+**R:** This decline is mainly due to habitat loss and pollution.
+**S:** Biodiversity is essential for the balance of nature.
+
+(a) SQPR (b) QSPR (c) SQRP (d) PQRS
+
+**उत्तर:** (a) SQPR
+**हल:** सामान्य कथन **S** (biodiversity) → समस्या **Q** (species disappearing) → उदाहरण **P** (*For example* = निश्चित कड़ी) → कारण **R** (*This decline* = sparrow की ओर इशारा)।
+**जाल-प्रकार:** Intervening Phrase — P और R को अलग करने वाले विकल्प गलत हैं; *This decline* को *sparrow* के तुरंत बाद आना ही होगा।
+**स्रोत:** PYQ-style
+
+### प्रश्न 5 (Cause → Effect)
+**P:** The roads were flooded within hours.
+**Q:** The city received record rainfall last night.
+**R:** Consequently, schools were closed for two days.
+**S:** Drains overflowed as they were choked with garbage.
+
+(a) QPSR (b) QSPR (c) SQPR (d) PQSR
+
+**उत्तर:** (b) QSPR
+**हल:** कारण शृंखला: बारिश (Q) → नालियाँ overflow (S) → सड़कें जलमग्न (P) → *Consequently* परिणाम (R)। तार्किक क्रम यह है कि पहले बारिश होती है, फिर चोकी हुई नालियाँ overflow करती हैं, जिससे सड़कें जलमग्न होती हैं, और अंत में *Consequently* (परिणामस्वरूप) स्कूल बंद होते हैं।
+**जाल-प्रकार:** Sound-Right — QPSR भी पढ़ने में ठीक लगता है, पर नालियों का overflow ही सड़कों के जलमग्न होने का कारण है, इसलिए S को P से पहले आना ही होगा।
+**स्रोत:** PYQ-style
+
+### प्रश्न 6 (Opening Sentence पहचान)
+कौन-सा वाक्य अनुच्छेद की **शुरुआत** करेगा?
+
+(a) Therefore, we must save water.
+(b) Water is the most precious natural resource.
+(c) This wastage leads to scarcity in summer.
+(d) It also affects agriculture badly.
+
+**उत्तर:** (b)
+**हल:** शुरुआती वाक्य में सर्वनाम (*This, It*) या निष्कर्ष-सूचक (*Therefore*) नहीं होता। केवल (b) एक स्वतंत्र, सामान्य परिचय-वाक्य है।
+**जाल-प्रकार:** Pronoun Confusion — (c) और (d) में *This/It* बिना पूर्व-संज्ञा के अधूरे हैं।
+**स्रोत:** PYQ-style
+
+### प्रश्न 7 (Mandatory Pair)
+**P:** The internet has changed the way we communicate.
+**Q:** Moreover, it has created new forms of employment.
+**R:** It has made information available instantly.
+**S:** Thus, its impact on society is deep and lasting.
+
+(a) PRQS (b) PQRS (c) RQPS (d) PSRQ
+
+**उत्तर:** (a) PRQS
+**हल:** **P** परिचय। *Moreover* (Q) किसी पहले बताए गए लाभ में जोड़ता है — वह लाभ **R** (instant information) है। अतः **RQ** एक अटूट जोड़ी (mandatory pair) है। *Thus* (S) हमेशा अंत में।
+**जाल-प्रकार:** Intervening Phrase — R और Q के बीच कुछ भी घुसाने वाला विकल्प गलत है।
+**स्रोत:** PYQ-style
+
+### प्रश्न 8 (Closing Sentence पहचान)
+कौन-सा वाक्य अनुच्छेद का **अंतिम** वाक्य होगा?
+
+(a) Pollution has become a serious problem in cities.
+(b) Vehicles emit harmful gases every day.
+(c) Hence, strict laws are needed to control pollution.
+(d) Factories also release smoke into the air.
+
+**उत्तर:** (c)
+**हल:** *Hence* (अतः) निष्कर्ष-सूचक है — यह सभी तथ्यों के बाद आता है। (a) परिचय है, (b) और (d) सहायक तथ्य हैं।
+**जाल-प्रकार:** Over-thinking — कुछ छात्र (a) को "सारांश" समझकर अंत में रख देते हैं; पर (a) तो विषय खोलता है, बंद नहीं करता।
+**स्रोत:** PYQ-style
+
+### प्रश्न 9 (15-सेकंड नियम — तथ्यात्मक)
+**P:** He was tired. **Q:** He had worked all day. **R:** So he went to bed early. **S:** He fell asleep immediately.
+
+(a) PQRS (b) QPRS (c) PRQS (d) QPSR
+
+**उत्तर:** (b) QPRS
+**हल (15 सेकंड में):** *So* (R) कारण माँगता है — कारण Q (all day work) + P (tired) है। *Immediately asleep* (S) स्वाभाविक अंत। केवल *So* और *immediately* दो संकेतक पकड़ो — पूरा पैरा पढ़ने की ज़रूरत नहीं।
+**⏱️ यह तथ्यात्मक प्रश्न है:** संकेतक शब्द (*So*) सीधे क्रम बता देता है — 15 सेकंड पर्याप्त।
+**स्रोत:** PYQ-style
+
+### प्रश्न 10 (45-सेकंड नियम — तार्किक)
+**P:** Despite these efforts, malnutrition remains widespread in rural areas.
+**Q:** The government has launched several nutrition programmes.
+**R:** Awareness campaigns alone cannot solve the problem.
+**S:** Poverty and lack of education are deeper causes.
+
+(a) QPRS (b) PQRS (c) QRSP (d) QPSR
+
+**उत्तर:** (d) QPSR
+**हल (45 सेकंड दें):** *Despite these efforts* (P) में *these* किसी पहले बताए प्रयास की ओर इशारा करता है → **Q** (programmes) पहले, फिर **P**। अब R और S में कौन पहले? *Awareness campaigns alone cannot...* (R) एक सामान्य निष्कर्ष है जो S (deeper causes) के बाद आकर अर्थ पूरा करता है — पहले गहरे कारण (S), फिर निष्कर्ष (R)। यह *these* जैसा सीधा संकेतक नहीं, **अर्थ-आधारित अनुमान** है।
+**⏱️ यह तार्किक प्रश्न है:** दो वाक्यों (R, S) का क्रम अर्थ से तय होता है — 45 सेकंड का समय देना उचित; जल्दबाज़ी में (a) चुनने की गलती होती है।
+**जाल-प्रकार:** Sound-Right — (a) में R और S उलटे हैं, पर पढ़ने में प्रवाह ठीक लगता है।
+**स्रोत:** PYQ-style
+
+---
+
+## 3. परीक्षा-वार धारणा (शब्दों में)
+
+- **SSC CGL / CHSL:** PQRS प्रारूप प्रमुख; connector और pronoun-reference पर ज़ोर।
+- **IBPS PO/Clerk:** 5–6 वाक्यों का पूरा rearrangement; अर्थ-आधारित (inference) प्रश्न अधिक, जिनमें 45-सेकंड नियम लागू होता है।
+- **RRB NTPC / Group D:** सीधे chronology और general-to-specific क्रम; 15-सेकंड नियम वाले तथ्यात्मक प्रश्न।
+- **राज्य PCS:** मिश्रित — कभी opening/closing sentence पहचान, कभी पूरा क्रम।
+
+## 4. तीन सुनहरे सबक (PYQ से)
+
+1. **पहले संकेतक खोजो, पैरा बाद में पढ़ो** — *However, Therefore, Moreover, For example, This/These* वाले वाक्य अपनी जगह खुद बता देते हैं।
+2. **सर्वनाम कभी शुरुआत नहीं करता** — *It, They, This* वाला वाक्य opening नहीं हो सकता; यही एक hint आधे विकल्प काट देता है।
+3. **Mandatory pair पकड़ो** — जो दो वाक्य तार्किक रूप से चिपके हैं (जैसे *problem → For example*), उन्हें अलग करने वाला हर विकल्प तुरंत हटाओ।

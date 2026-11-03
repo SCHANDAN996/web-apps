@@ -1,0 +1,41 @@
+# 📋 Important Formulas — Linear Programming
+
+| Formula Name | Formula | One-line Use-Hint |
+|---|---|---|
+| General LP Form | Max/Min Z = c₁x₁ + c₂x₂ subject to aᵢ₁x₁ + aᵢ₂x₂ (≤, =, ≥) bᵢ, x₁, x₂ ≥ 0 | Standard structure of every LPP |
+| Objective Function | Z = ax + by | The quantity to be maximised or minimised |
+| Non-negativity Constraints | x ≥ 0, y ≥ 0 | Restrict solution to the first quadrant |
+| Feasible Region | Common region satisfying all constraints + non-negativity | Solution must lie inside/on this region |
+| Corner Point Theorem | Optimal Z occurs at a vertex (corner point) of the feasible region | Evaluate Z only at corner points |
+| Optimal Value (Bounded Region) | Z_max or Z_min = max/min of Z over all corner points | Compare Z-values at each vertex |
+| Unbounded Region Test | If open half-plane ax + by > M (or < m) shares points with feasible region, no max (or min) exists | Draw the line Z = M and check overlap |
+| Slope of Objective Line | Slope = −a/b (for Z = ax + by) | Compare with constraint-line slopes to locate optimal vertex |
+| Constraint Boundary Line | aᵢ₁x₁ + aᵢ₂x₂ = bᵢ | Replace inequality by equality to draw the boundary |
+| Test-Point Method | Substitute (0,0) in the inequality; true → shade origin side | Quick way to shade the correct half-plane |
+| X-intercept of a Line | x = b/a₁ (set y = 0) | Plotting constraint lines quickly |
+| Y-intercept of a Line | y = b/a₂ (set x = 0) | Plotting constraint lines quickly |
+| Standard Form (Simplex) | Max Z = cᵀX, AX ≤ b, X ≥ 0 | Required before adding slack variables |
+| Slack Variable | a₁x₁ + a₂x₂ + s = b, s ≥ 0 (for ≤ constraint) | Converts ≤ inequality into equation |
+| Surplus Variable | a₁x₁ + a₂x₂ − s = b, s ≥ 0 (for ≥ constraint) | Converts ≥ inequality into equation |
+| Canonical Form | Max Z = cᵀX, AX ≤ b, X ≥ 0 (all constraints ≤, all variables ≥ 0) | Starting point of the simplex method |
+| Basic Feasible Solution | Solution with at most m positive variables (m = number of constraints) | Corresponds to a corner point |
+| Simplex Optimality Condition | All Cⱼ − Zⱼ ≤ 0 (maximisation) | Stop when no positive Cⱼ − Zⱼ remains |
+| Entering Variable | Column with most positive Cⱼ − Zⱼ | Which variable enters the basis |
+| Leaving Variable (Ratio Test) | Min ratio = min { bᵢ / aᵢₖ , aᵢₖ > 0 } | Which variable leaves the basis |
+| Pivot Element | Intersection of entering column and leaving row | Element around which row operations are done |
+| Dual of a Primal | Primal: Max cᵀX, AX ≤ b → Dual: Min bᵀY, AᵀY ≥ c, Y ≥ 0 | Every LPP has a paired dual problem |
+| Number of Dual Variables | = number of primal constraints | m primal constraints → m dual variables |
+| Weak Duality | cᵀX ≤ bᵀY (primal max, dual min) | Primal objective never exceeds dual objective |
+| Strong Duality | At optimality: Z_primal = Z_dual | Both optimal values are equal |
+| Complementary Slackness | xⱼ·(dual slack of j-th constraint) = 0; yᵢ·(primal slack of i-th constraint) = 0 | Links optimal primal and dual solutions |
+| Iso-profit / Iso-cost Line | ax + by = k (parallel lines for varying k) | Move the line outward to find optimum |
+| Redundant Constraint | Constraint whose removal does not change the feasible region | Identified graphically; skip in computation |
+| Infeasibility Condition | Feasible region = ∅ (empty) | Constraints contradict each other — no solution |
+| Multiple Optimal Solutions | Objective line parallel to a binding constraint edge | All points on that edge are optimal |
+| Degeneracy | A basic variable = 0 in a basic feasible solution | May cause cycling in simplex |
+| Big-M Method Objective | Min Z = cᵀX + M·(sum of artificial variables) | Penalise artificial variables heavily |
+| Diet Problem Form | Min Z = Σ cⱼxⱼ, Σ aᵢⱼxⱼ ≥ bᵢ, xⱼ ≥ 0 | Minimise cost meeting minimum nutrition |
+| Blending/Production Form | Max Z = Σ pⱼxⱼ, Σ aᵢⱼxⱼ ≤ bᵢ, xⱼ ≥ 0 | Maximise profit under resource limits |
+| Transportation Problem | Min Z = ΣΣ cᵢⱼxᵢⱼ, Σⱼ xᵢⱼ = aᵢ (supply), Σᵢ xᵢⱼ = bⱼ (demand) | Balanced when total supply = total demand |
+| Balanced Transportation Condition | Σ aᵢ = Σ bⱼ | Add dummy row/column if unbalanced |
+| Basic Cells in Transportation | m + n − 1 allocations (non-degenerate) | Check before applying MODI/u-v method |

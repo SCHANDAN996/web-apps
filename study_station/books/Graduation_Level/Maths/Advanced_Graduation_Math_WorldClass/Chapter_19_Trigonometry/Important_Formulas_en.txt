@@ -1,0 +1,109 @@
+# Important Formulas — Quick Revision Sheet
+
+## 1. Percentage
+
+- x% of a number N = (x/100) × N
+- Percentage change = (Change / Original value) × 100
+- If a value increases by x% and then decreases by x%, net change = −(x²/100)% (always a decrease)
+- If price rises by x%, consumption must fall by [x/(100+x)] × 100% to keep expenditure constant
+- If A is x% more than B, then B is [x/(100+x)] × 100% less than A
+
+## 2. Profit and Loss
+
+- Profit = SP − CP; Loss = CP − SP
+- Profit % = (Profit / CP) × 100; Loss % = (Loss / CP) × 100
+- SP = CP × (100 + Profit%)/100; SP = CP × (100 − Loss%)/100
+- Discount % = (Discount / Marked Price) × 100
+- SP = Marked Price × (100 − Discount%)/100
+- Two successive discounts of a% and b% give a single equivalent discount of (a + b − ab/100)%
+
+## 3. Simple and Compound Interest
+
+- Simple Interest: SI = (P × R × T)/100
+- Amount (SI) = P + SI
+- Compound Interest (annual): A = P(1 + R/100)^T
+- CI = A − P
+- Compounded half-yearly: A = P(1 + R/200)^(2T)
+- Compounded quarterly: A = P(1 + R/400)^(4T)
+- Difference between CI and SI for 2 years = P(R/100)²
+
+## 4. Time, Speed and Distance
+
+- Speed = Distance / Time
+- km/h to m/s: multiply by 5/18; m/s to km/h: multiply by 18/5
+- Average speed (equal distances at speeds a and b) = 2ab/(a + b)
+- Relative speed (same direction) = difference of speeds; (opposite direction) = sum of speeds
+- Train crossing a pole: time = train length / speed
+- Train crossing a platform: time = (train length + platform length) / speed
+- Boat downstream speed = boat + stream; upstream speed = boat − stream
+- Boat speed in still water = (downstream + upstream)/2; stream speed = (downstream − upstream)/2
+
+## 5. Time and Work
+
+- If A finishes work in x days, A's 1-day work = 1/x
+- A and B together: 1 day work = 1/x + 1/y; time = xy/(x + y)
+- Work = Efficiency × Time (efficiency and time are inversely proportional)
+- If M₁ persons do W₁ work in D₁ days and M₂ persons do W₂ work in D₂ days: M₁D₁/W₁ = M₂D₂/W₂
+
+## 6. Pipes and Cisterns
+
+- Pipe filling in x hours fills 1/x of the tank in 1 hour
+- Filling pipe (x h) and emptying pipe (y h, y > x) together: net 1-hour work = 1/x − 1/y
+
+## 7. Averages
+
+- Average = Sum of terms / Number of terms
+- Average of first n natural numbers = (n + 1)/2
+- Average of first n even numbers = n + 1
+- Average of first n odd numbers = n
+- If a person of weight w replaces one member in a group of n and the average rises by x, then w = old person's weight + nx
+
+## 8. Ratio and Proportion
+
+- If a : b = c : d, then ad = bc (product of extremes = product of means)
+- If a/b = c/d, then (a + b)/b = (c + d)/d (componendo) and (a − b)/b = (c − d)/d (dividendo)
+- Dividing ₹P in ratio a : b : c gives shares Pa/(a+b+c), Pb/(a+b+c), Pc/(a+b+c)
+
+## 9. Number System and Algebra
+
+- (a + b)² = a² + 2ab + b²
+- (a − b)² = a² − 2ab + b²
+- a² − b² = (a + b)(a − b)
+- (a + b)² + (a − b)² = 2(a² + b²)
+- (a + b)² − (a − b)² = 4ab
+- a³ + b³ = (a + b)(a² − ab + b²)
+- a³ − b³ = (a − b)(a² + ab + b²)
+- Sum of first n natural numbers = n(n + 1)/2
+- Sum of squares of first n natural numbers = n(n + 1)(2n + 1)/6
+- Sum of cubes of first n natural numbers = [n(n + 1)/2]²
+- HCF × LCM = Product of the two numbers
+
+## 10. Geometry and Mensuration
+
+- Triangle: area = (1/2) × base × height; Heron's formula: area = √[s(s−a)(s−b)(s−c)], where s = (a+b+c)/2
+- Equilateral triangle (side a): area = (√3/4)a²; height = (√3/2)a
+- Rectangle: area = l × b; perimeter = 2(l + b); diagonal = √(l² + b²)
+- Square (side a): area = a²; perimeter = 4a; diagonal = a√2
+- Circle (radius r): area = πr²; circumference = 2πr
+- Cube (side a): volume = a³; total surface area = 6a²; diagonal = a√3
+- Cuboid (l, b, h): volume = lbh; total surface area = 2(lb + bh + hl); diagonal = √(l² + b² + h²)
+- Cylinder (radius r, height h): volume = πr²h; curved surface area = 2πrh; total surface area = 2πr(r + h)
+- Cone: volume = (1/3)πr²h; curved surface area = πrl, where slant height l = √(r² + h²)
+- Sphere: volume = (4/3)πr³; surface area = 4πr²
+
+## 11. Surds, Indices and Logarithms
+
+- aᵐ × aⁿ = aᵐ⁺ⁿ; aᵐ / aⁿ = aᵐ⁻ⁿ; (aᵐ)ⁿ = aᵐⁿ
+- a⁰ = 1 (a ≠ 0); a⁻ⁿ = 1/aⁿ
+- log(MN) = log M + log N; log(M/N) = log M − log N; log Mⁿ = n log M
+
+## 12. Permutation, Combination and Probability
+
+- n! = n × (n−1) × … × 2 × 1; 0! = 1
+- ⁿPᵣ = n!/(n−r)!
+- ⁿCᵣ = n!/[r!(n−r)!]; ⁿCᵣ = ⁿCₙ₋ᵣ
+- Probability of an event = Favourable outcomes / Total outcomes; 0 ≤ P ≤ 1
+- P(event) + P(not event) = 1
+
+---
+*Revise these formulas daily. In the exam, most questions from these topics can be solved in under a minute if the formula is on your fingertips.*

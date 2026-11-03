@@ -1,0 +1,151 @@
+📝 Practice Set 3 (Questions 51–75) | Difficulty: All 25 Medium | Includes Examiner's Trap questions marked with ⚠️
+
+51. Two positions of a dice are given. Position 1: top 6, front 2, right 1. Position 2: top 6, front 3, right 4. Which number is opposite to 6?
+(a) 5 (b) 3 (c) 2 (d) 1
+Answer: (a)
+Solution: The tempting wrong options are 2 and 1, but they are seen adjacent to 6 in Position 1, so they cannot be opposite it. With 6 common on top, the four side faces are 2, 1, 3, 4, leaving only 5 as the face opposite 6, so the answer is 5.
+Source: PYQ-style
+
+52. ⚠️ In a standard dice, the top face is 4 and the front face is 1. Which number can be on the right face?
+(a) 2 (b) 5 (c) 2 or 5 (d) 6
+Answer: (c)
+Solution: The trap is picking only 2 or only 5, but the dice can be rotated around the 4–1 edge, so either is possible. Since 4 is opposite 3 and 1 is opposite 6, the faces adjacent to both 4 and 1 are 2 and 5, so the answer is 2 or 5.
+Source: PYQ-style
+
+53. Two views of a dice are given: View 1 has top 2, front 4, right 1. View 2 has top 2, front 1, right 3. Which number is opposite to 4?
+(a) 3 (b) 5 (c) 1 (d) 6
+Answer: (a)
+Solution: The trap is 1, but 1 is seen next to 4 in View 1, so it is adjacent, not opposite. With 2 fixed on top, rotating View 1 so that the right face 1 comes to the front makes the old back face the new right face, which View 2 shows as 3; hence the back face is 3, opposite the front face 4, so the answer is 3.
+Source: PYQ-style
+
+54. A cube of side 5 cm is painted on all faces and cut into 1 cm small cubes. How many small cubes have exactly two faces painted?
+(a) 60 (b) 48 (c) 36 (d) 54
+Answer: (c)
+Solution: The trap is 60, which wrongly uses 12 × n instead of 12 × (n − 2); edge cubes excluding corners are what have exactly two painted faces. For n = 5, two-face cubes = 12 × (5 − 2) = 36, so the answer is 36.
+Source: NCERT Class 8 Mathematics
+
+55. The top view of a solid is a 3×3 grid with column heights: Row 1: 1, 2, 1; Row 2: 2, 3, 2; Row 3: 1, 2, 1. How many cubes are there in total?
+(a) 16 (b) 15 (c) 13 (d) 14
+Answer: (b)
+Solution: The trap is counting only the 9 visible top squares, but each column hides a stack of cubes. Total = 1 + 2 + 1 + 2 + 3 + 2 + 1 + 2 + 1 = 15, so the answer is 15.
+Source: NCERT Class 8 Mathematics
+
+56. ⚠️ In a non-standard dice, opposite pairs are (1, 4), (2, 5), and (3, 6). If 2 is on top and 3 is in front, which number can be on the right face?
+(a) 1 (b) 6 (c) 4 (d) 1 or 4
+Answer: (d)
+Solution: The trap is 6, but 6 is opposite 3, so it can never sit next to the front face 3. The faces adjacent to both 2 and 3 are 1 and 4, and the dice can be turned so either is on the right, so the answer is 1 or 4.
+Source: PYQ-style
+
+57. An open dice cross net has top 2, middle row from left to right: 5, 3, 1, 4, and bottom 6. When folded, which number is opposite to 3?
+(a) 5 (b) 4 (c) 1 (d) 6
+Answer: (b)
+Solution: The trap is 1, which sits next to 3 in the row, but adjacent squares in a net fold to adjacent faces, not opposite ones. In the middle row alternate squares are opposite: 5 ↔ 1 and 3 ↔ 4, while 2 ↔ 6, so the answer is 4.
+Source: PYQ-style
+
+58. Two views of a dice: View 1 has top 3, front 1, right 6. View 2 has top 5, front 1, right 2. Which number is opposite to 1?
+(a) 5 (b) 2 (c) 3 (d) 4
+Answer: (d)
+Solution: The trap is 2 or 5, but both appear next to 1 in View 2, so they are adjacent to it. Face 1 is adjacent to 3, 6, 5 and 2, leaving only 4 as the opposite face, so the answer is 4.
+Source: PYQ-style
+
+59. ⚠️ A painted cube of side 4 cm is cut into 1 cm small cubes. How many small cubes have at least one face painted?
+(a) 48 (b) 56 (c) 32 (d) 64
+Answer: (b)
+Solution: The trap is 64, the total number of cubes, but the inner cubes are completely unpainted. Unpainted cubes = (4 − 2)³ = 8, so painted cubes = 64 − 8 = 56, so the answer is 56.
+Source: NCERT Class 8 Mathematics
+
+60. ⚠️ In a net, four squares are in a row from left to right: 1, 2, 3, 4. Square 5 is above square 1, and square 6 is below square 4. When folded, which number is opposite to 1?
+(a) 5 (b) 2 (c) 4 (d) 3
+Answer: (d)
+Solution: The trap is 2, which is next to 1 in the row and folds to an adjacent face. In a row of four, alternate squares are opposite: 1 ↔ 3 and 2 ↔ 4, with 5 ↔ 6, so the answer is 3.
+Source: PYQ-style
+
+61. A standard dice has top 2, front 4, right 1. It is rolled right once (right face becomes bottom), then rolled forward once (top face moves to front). What is the final top face?
+(a) 3 (b) 1 (c) 5 (d) 6
+Answer: (a)
+Solution: The trap is 6, which is the top after only the first roll; the second roll changes it again. After rolling right: top 6, front 4, back 3; after rolling forward the back face 3 comes to the top, so the answer is 3.
+Source: PYQ-style
+
+62. ⚠️ A 3×3×3 cube is painted and cut into 27 small cubes. If all 8 corner cubes are removed, how many of the remaining cubes have exactly one face painted?
+(a) 24 (b) 6 (c) 18 (d) 12
+Answer: (b)
+Solution: The trap is 12, which counts edge cubes, but edge cubes have two painted faces, not one. Exactly one-face cubes are the 6 face-centre cubes, and removing corners does not touch them, so the answer is 6.
+Source: NCERT Class 8 Mathematics
+
+63. Two views of a dice: View 1 has top 4, front 1, right 5. View 2 has top 4, front 2, right 6. Which number is opposite to 4?
+(a) 1 (b) 5 (c) 3 (d) 2
+Answer: (c)
+Solution: The trap is 1 or 5, but both are seen touching 4 in View 1, so they are adjacent to it. The four faces adjacent to 4 are 1, 5, 2, 6, leaving 3 as the opposite face, so the answer is 3.
+Source: PYQ-style
+
+64. The top view of a solid is a 3×2 grid with column heights: Row 1: 2, 1, 3; Row 2: 1, 2, 1. What is the total number of cubes?
+(a) 10 (b) 12 (c) 11 (d) 9
+Answer: (a)
+Solution: The trap is counting the 6 grid squares or only the tallest column 3, but every column contributes its full height. Total = 2 + 1 + 3 + 1 + 2 + 1 = 10, so the answer is 10.
+Source: NCERT Class 8 Mathematics
+
+65. In a standard dice, 6 is on top and 3 is in front. Which number is on the bottom face?
+(a) 4 (b) 5 (c) 2 (d) 1
+Answer: (d)
+Solution: The trap is 4, which is opposite the front face 3, not the top face. In a standard dice opposite faces sum to 7, so the bottom, opposite 6, is 7 − 6 = 1, so the answer is 1.
+Source: PYQ-style
+
+66. In a cross net, top is 5, middle row from left to right is 6, 1, 3, 2, and bottom is 4. When folded, which number is opposite to 1?
+(a) 3 (b) 2 (c) 6 (d) 5
+Answer: (b)
+Solution: The trap is 3, which sits beside 1 in the row and folds to an adjacent face. In the middle row alternate squares are opposite: 6 ↔ 3 and 1 ↔ 2, while 5 ↔ 4, so the answer is 2.
+Source: PYQ-style
+
+67. Two views of a dice: View 1 has top 1, front 3, right 4. View 2 has top 1, front 5, right 2. Which number is opposite to 3?
+(a) 4 (b) 6 (c) 2 (d) 5
+Answer: (d)
+Solution: The trap is 6, but 6 is opposite the common top face 1, not 3. With 1 fixed on top, the side ring runs 3, 4, 5, 2, giving opposite pairs 3 ↔ 5 and 4 ↔ 2, so the answer is 5.
+Source: PYQ-style
+
+68. ⚠️ A painted cube is cut into 64 small cubes. How many small cubes have at least two faces painted?
+(a) 32 (b) 24 (c) 48 (d) 40
+Answer: (a)
+Solution: The trap is 24, which counts only exactly-two-face cubes and forgets the corner cubes. For n = 4: two-face cubes = 12 × (4 − 2) = 24 and three-face corner cubes = 8, giving 24 + 8 = 32, so the answer is 32.
+Source: NCERT Class 8 Mathematics
+
+69. In a T-shaped open dice net: square 1 is above square 3; the middle row from left to right is 2, 3, 4; square 5 is below 2 and square 6 is below 3. When folded, which number is opposite to 1?
+(a) 3 (b) 4 (c) 6 (d) 5
+Answer: (c)
+Solution: The trap is 3, but 1 is attached directly to 3 in the net, so they fold to adjacent faces. Folding the net gives opposite pairs 1 ↔ 6, 2 ↔ 4 and 3 ↔ 5, so the answer is 6.
+Source: PYQ-style
+
+70. ⚠️ A standard dice (opposite pairs 1-6, 2-5, 3-4) has top 1, front 2, right 3. It is rolled forward once (top face moves to front), then rolled right once (right face becomes bottom). What is the final top face?
+(a) 4 (b) 5 (c) 1 (d) 3
+Answer: (a)
+Solution: The trap is 5, which is the top after only the first roll; the second roll brings the left face to the top. After the forward roll: top 5, front 1, bottom 2, back 6, left 4; after the right roll the left face 4 moves to the top, so the answer is 4.
+Source: PYQ-style
+
+71. ⚠️ The top view of a solid is a 2×2 grid: front row heights 3, 3; back row heights 2, 1. How many cubes are completely hidden when viewed directly from the front?
+(a) 2 (b) 1 (c) 4 (d) 3
+Answer: (d)
+Solution: The trap is 4, which counts all back-row cubes, but a back cube is hidden only up to the height of the front column in front of it. Left column hides 2 cubes (front 3, back 2) and right column hides 1 cube (front 3, back 1), giving 2 + 1 = 3, so the answer is 3.
+Source: NCERT Class 8 Mathematics
+
+72. In a non-standard dice with opposite pairs A-F, B-E, C-D, the visible faces are top B, front A, and right C. If the dice is rolled forward once (top face moves to front), what is the new front face?
+(a) B (b) A (c) F (d) D
+Answer: (a)
+Solution: The trap is F, which is opposite A, but rolling forward does not bring the back face to the front in one step. Rolling forward moves the top face B directly to the front, so the answer is B.
+Source: PYQ-style
+
+73. A painted cube of side 6 cm is cut into 1 cm small cubes. How many small cubes have exactly three faces painted?
+(a) 6 (b) 12 (c) 8 (d) 24
+Answer: (c)
+Solution: The trap is 24, which mixes up the edge formula, but three painted faces occur only at corners. A cube always has exactly 8 corners whatever its side length, so the answer is 8.
+Source: NCERT Class 8 Mathematics
+
+74. A cube of side 5 cm is painted on all faces and cut into 1 cm small cubes. How many small cubes have no face painted at all?
+(a) 8 (b) 27 (c) 36 (d) 64
+Answer: (b)
+Solution: The trap is 8, which is the corner count, but unpainted cubes lie fully inside the cube. Unpainted cubes = (5 − 2)³ = 3³ = 27, so the answer is 27.
+Source: NCERT Class 8 Mathematics
+
+75. Four views of a dice are given: View 1 shows 1, 2, 3; View 2 shows 2, 3, 4; View 3 shows 3, 4, 5; View 4 shows 4, 5, 6. Which number is opposite to 3?
+(a) 1 (b) 5 (c) 6 (d) 2
+Answer: (c)
+Solution: The trap is 5, but View 3 shows 5 together with 3, so they are adjacent. From the views, 3 is adjacent to 1, 2, 4 and 5, leaving only 6 as the opposite face, so the answer is 6.
+Source: PYQ-style

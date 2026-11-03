@@ -1,0 +1,31 @@
+```mermaid
+graph TD
+    A["मुहावरे एवं वाक्यांश<br>Idioms & Phrases"] --> B["मुहावरा क्या है?<br>शाब्दिक अर्थ नहीं,<br>रूढ़ अर्थ"]
+    A --> C["मुख्य श्रेणियाँ"]
+    A --> D["परीक्षक के जाल"]
+    A --> E["रणनीति"]
+    A --> F["मूल शब्द<br>Roots"]
+
+    B --> B1["To break the ice<br>= झिझक तोड़ना<br>(बर्फ़ तोड़ना नहीं!)"]
+    B --> B2["शब्द-दर-शब्द अनुवाद<br>से बचें"]
+
+    C --> C1["रंग-आधारित<br>Once in a blue moon<br>= कभी-कभार"]
+    C --> C2["शरीर-आधारित<br>By heart = कंठस्थ<br>Apple of one's eye<br>= आँखों का तारा"]
+    C --> C3["जानवर-आधारित<br>A black sheep<br>= कलंक/बदनाम सदस्य"]
+    C --> C4["क्रिया-वाक्यांश<br>Phrasal Verbs<br>put off, give up, look after"]
+    C --> C5["Prepositional Phrases<br>at stake, in vain,<br>on the verge of"]
+
+    D --> D1["जाल 1: शाब्दिक अर्थ वाला<br>लुभावना विकल्प"]
+    D --> D2["जाल 2: मिलते-जुलते मुहावरे<br>At sixes and sevens<br>vs At the eleventh hour"]
+    D --> D3["जाल 3: हिंदी मुहावरे का<br>सीधा अनुवाद<br>(नौ दो ग्यारह ≠ nine two eleven)"]
+
+    E --> E1["15 सेकंड: याद किया मुहावरा<br>तुरंत उत्तर"]
+    E --> E2["45 सेकंड: वाक्य-संदर्भ से<br>अर्थ का अनुमान"]
+    E --> E3["Skip: बिल्कुल अनजाना मुहावरा<br>+ कोई संदर्भ-सुराग नहीं"]
+    E --> E4["रोज़ 10 मुहावरे<br>+ 2 दिन बाद दोहराव"]
+
+    F --> F1["BENE = अच्छा<br>benefit, benevolent"]
+    F --> F2["MAL = बुरा<br>malice, malnutrition"]
+    F --> F3["CHRON = समय<br>chronology, chronic"]
+    F --> F4["PHIL = प्रेम<br>philanthropy, bibliophile"]
+```

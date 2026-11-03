@@ -1,0 +1,45 @@
+# Important Rules & Approaches — Mathematical Operations
+
+## Part 1: Key Rules / Approaches
+
+| Rule Name | Description | Example |
+|---|---|---|
+| BODMAS / PEMDAS | Always simplify in order: Brackets → Orders (powers/roots) → Division → Multiplication → Addition → Subtraction. Most errors come from ignoring this order. | 6 + 4 × 2 = 6 + 8 = 14 (not 20) |
+| Symbol Substitution | Replace each given symbol with its new meaning, rewrite the expression, then apply BODMAS. | If '+' means '×': 5 + 3 = 5 × 3 = 15 |
+| Symbol Interchange | Swap the two symbols mentioned in the question, keep all others unchanged, then solve by BODMAS. | Interchange '+' and '−': 8 + 4 − 2 → 8 − 4 + 2 = 6 |
+| Number Interchange | Swap the two digits/numbers mentioned, not the symbols; then solve. | Interchange 2 and 6: 12 + 6 → 16 + 2 = 18 |
+| Balancing the Equation | Test each option by substituting the suggested signs into the equation; the option that makes LHS = RHS is correct. | 8 * 4 * 2 = 16 → try ×, ÷: 8 × 4 ÷ 2 = 16 ✓ |
+| Option Elimination | Instead of solving fully, plug each option's signs/values into the equation and check equality — often faster. | Check (a): does 9 ÷ 3 + 2 = 5? Yes → answer |
+| Correct Equation Identification | Apply the given symbol changes to all four options; only one will be mathematically true. Verify all four before answering. | After swapping '+'↔'×', check each option for LHS = RHS |
+| LHS–RHS Splitting | Evaluate both sides of the equation separately after substitution; compare only at the end. | LHS: 12 ÷ 3 = 4; RHS: 2 + 2 = 4 → equal ✓ |
+| Fraction/Decimal Caution | If substitution produces a fraction where an integer is expected, that option is usually wrong — check next option. | 7 ÷ 2 = 3.5 → likely not the intended answer |
+| Digit Rearrangement | When digits within a number are interchanged, rewrite the full number first, then compute. | Interchange 1st & 3rd digit of 432 → 234 |
+| Statement-Based Operations | Convert words into symbols step by step ("A is added to B" → B + A; "A is subtracted from B" → B − A). Order matters in subtraction/division. | "5 is subtracted from 9" = 9 − 5 = 4 |
+| Sign Priority in Options | When testing options, try ÷ and × first (they change values most), then + and −. | Test 16 * 4 * 2 with ÷, × before +, − |
+| Negative Result Check | If an option gives a negative value but the other side is positive, reject immediately. | LHS = −3, RHS = 5 → reject |
+| One-Change-at-a-Time | In interchange questions, change only what the question says; never alter other symbols or numbers. | Only '+' and '−' swap; '×' stays as '×' |
+| Verification Habit | After finding a working option, quickly confirm no other option also works (rare but possible in poorly framed questions). | Re-test remaining options with same substitution |
+
+## Part 2: Time Management
+
+| Situation | Time Rule | Action |
+|---|---|---|
+| Symbol substitution (direct) | 15-second rule | If the new meanings are given and expression is short, solve immediately — these are scoring questions. |
+| Balancing equation with options | 30-second rule | Test options in order; if the first two options fail, still finish — usually the answer appears by the third option. |
+| Correct equation among four | 45-second rule | If no option balances within 45 seconds of checking, mark the most plausible one and move on; return later if time permits. |
+| Number/digit interchange | 15-second rule | Rewrite the expression once, carefully; if the rewrite itself confuses you, skip and revisit. |
+| Complex multi-symbol change | 45-second rule | If more than two symbol changes are involved and the pattern is not clear in 45 seconds, skip — error risk is high. |
+| Overall strategy | — | Attempt all direct substitution questions first (high accuracy), then balancing questions, then interchange questions last. |
+| Review rule | — | Never spend more than 60 seconds on any single question of this chapter in the first pass. |
+
+## Part 3: Logical / Mathematical Formulas
+
+| Formula | Meaning / Use |
+|---|---|
+| BODMAS order | B → O → D → M → A → S (the only "formula" this chapter needs) |
+| a + b = b + a; a × b = b × a | Commutative law — order does not matter for + and × |
+| a − b ≠ b − a; a ÷ b ≠ b ÷ a | Order matters for − and ÷ — key trap area |
+| a × (b + c) = a × b + a × c | Distributive law — useful when brackets appear after substitution |
+| a ÷ b = a × (1/b) | Division as reciprocal multiplication — speeds up fraction handling |
+| (a + b)² = a² + 2ab + b² | Occasionally needed when squares appear in expressions |
+| Note | Beyond these, no chapter-specific formulas exist — success depends on careful substitution and strict BODMAS. |

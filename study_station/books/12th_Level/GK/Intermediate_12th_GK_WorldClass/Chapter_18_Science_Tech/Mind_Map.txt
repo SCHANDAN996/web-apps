@@ -1,0 +1,51 @@
+```mermaid
+graph TD
+    A["विज्ञान और प्रौद्योगिकी (बुनियादी)<br>Science & Technology (Basic)"] --> B["भौतिक विज्ञान<br>Physics"]
+    A --> C["रसायन विज्ञान<br>Chemistry"]
+    A --> D["जीव विज्ञान<br>Biology"]
+    A --> E["अंतरिक्ष और रक्षा<br>Space & Defence"]
+    A --> F["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> G["रणनीति<br>Strategy"]
+
+    B --> B1["SI मात्रक<br>SI Units"]
+    B --> B2["न्यूटन के नियम<br>Newton's Laws"]
+    B --> B3["ऊर्जा के रूप<br>Forms of Energy"]
+    B --> B4["प्रकाश: परावर्तन/अपवर्तन<br>Light: Reflection/Refraction"]
+    B1 --> B1a["बल = न्यूटन, कार्य = जूल<br>Force = Newton, Work = Joule"]
+    B1 --> B1b["शक्ति = वाट, दाब = पास्कल<br>Power = Watt, Pressure = Pascal"]
+    B4 --> B4a["अवतल दर्पण: अभिसारी<br>Concave Mirror: Converging"]
+    B4 --> B4b["उत्तल लेंस: अभिसारी<br>Convex Lens: Converging"]
+
+    C --> C1["अम्ल, क्षार, लवण<br>Acids, Bases, Salts"]
+    C --> C2["धातु और अधातु<br>Metals & Non-metals"]
+    C --> C3["आवर्त सारणी<br>Periodic Table"]
+    C1 --> C1a["pH < 7 अम्ल, > 7 क्षार<br>pH < 7 Acid, > 7 Base"]
+    C1 --> C1b["सिरका = एसिटिक अम्ल<br>Vinegar = Acetic Acid"]
+    C3 --> C3a["मेंडलीव: आवर्त नियम<br>Mendeleev: Periodic Law"]
+
+    D --> D1["कोशिका<br>Cell"]
+    D --> D2["विटामिन<br>Vitamins"]
+    D --> D3["मानव तंत्र<br>Human Systems"]
+    D --> D4["रोग और जीवाणु<br>Diseases & Pathogens"]
+    D1 --> D1a["माइटोकॉन्ड्रिया = ऊर्जा गृह<br>Mitochondria = Powerhouse"]
+    D2 --> D2a["विटामिन C कमी = स्कर्वी<br>Vit C deficiency = Scurvy"]
+    D2 --> D2b["विटामिन D कमी = रिकेट्स<br>Vit D deficiency = Rickets"]
+    D4 --> D4a["मलेरिया = प्रोटोजोआ (प्लाज्मोडियम)<br>Malaria = Protozoa (Plasmodium)"]
+    D4 --> D4b["टीबी = जीवाणु<br>TB = Bacteria"]
+
+    E --> E1["ISRO मिशन<br>ISRO Missions"]
+    E --> E2["प्रमुख उपग्रह<br>Key Satellites"]
+    E1 --> E1a["आर्यभट 1975 = पहला उपग्रह<br>Aryabhata 1975 = First Satellite"]
+    E1 --> E1b["चंद्रयान-3 = दक्षिणी ध्रुव लैंडिंग<br>Chandrayaan-3 = South Pole Landing"]
+    E2 --> E2a["INSAT = संचार, IRS = सुदूर संवेदन<br>INSAT = Communication, IRS = Remote Sensing"]
+
+    F --> F1["मात्रक मिलान भ्रम<br>Unit-Matching Confusion"]
+    F --> F2["विटामिन-रोग उलटफेर<br>Vitamin-Disease Swap"]
+    F --> F3["वायरस बनाम जीवाणु रोग<br>Virus vs Bacteria Diseases"]
+    F --> F4["दर्पण/लेंस अभिसारी-अपसारी<br>Mirror/Lens Converge-Diverge"]
+    F --> F5["नकारात्मक वाक्य: 'नहीं/कौन सा नहीं'<br>Negative Stems: 'NOT/Except'"]
+
+    G --> G1["15/45 सेकंड नियम<br>15/45 Second Rule"]
+    G --> G2["पहले NCERT तथ्य, फिर जाल-जाँच<br>NCERT Facts First, Then Trap Check"]
+    G --> G3["अनिश्चित = छोड़ें (नेगेटिव मार्किंग)<br>Unsure = Skip (Negative Marking)"]
+```

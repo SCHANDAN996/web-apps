@@ -1,0 +1,45 @@
+```mermaid
+graph TD
+    A["VERB<br>The Action / Being Word"] --> B["Types of Verbs"]
+    A --> C["Subject-Verb Agreement"]
+    A --> D["Tenses"]
+    A --> E["Voice & Mood"]
+    A --> F["Non-Finites"]
+    A --> G["Examiner's Traps"]
+    A --> H["Strategies"]
+
+    B --> B1["Main Verb<br>shows action/state"]
+    B --> B2["Auxiliary / Helping Verb<br>be, do, have, modals"]
+    B --> B3["Transitive<br>needs an object"]
+    B --> B4["Intransitive<br>no object"]
+    B --> B5["Linking Verb<br>is, seem, become"]
+
+    C --> C1["Singular Subject → Singular Verb"]
+    C --> C2["Intervening Phrase Trap<br>'The quality of apples IS good'"]
+    C --> C3["Each / Every / Everyone → Singular"]
+    C --> C4["Collective Nouns<br>team, jury, committee"]
+    C --> C5["Neither...nor<br>verb agrees with nearer subject"]
+
+    D --> D1["Present / Past / Future"]
+    D --> D2["Simple, Continuous,<br>Perfect, Perfect Continuous"]
+    D --> D3["Sequence of Tenses<br>past main clause → past sub-clause"]
+    D --> D4["Since + point of time<br>For + period of time"]
+
+    E --> E1["Active → Passive<br>object becomes subject"]
+    E --> E2["Only Transitive verbs<br>can be passivised"]
+    E --> E3["Mood: Indicative,<br>Imperative, Subjunctive"]
+
+    F --> F1["Infinitive: to + V1"]
+    F --> F2["Gerund: V+ing as noun"]
+    F --> F3["Participle: V+ing / V3<br>as adjective"]
+
+    G --> G1["Sound-Right Trap<br>'He don't' sounds wrong but<br>'One of my friends have' sounds right — it is WRONG"]
+    G --> G2["Intervening Phrase Trap"]
+    G --> G3["Over-thinking Trap<br>simple rule, don't over-analyse"]
+    G --> G4["Hindi-English Bridge<br>'What you are doing?' ❌<br>'What are you doing?' ✔"]
+
+    H --> H1["15-Second Rule<br>Fact-based: agreement,<br>verb form spotting"]
+    H --> H2["45-Second Rule<br>Inference: tense sequence,<br>complex error spotting"]
+    H --> H3["Find the real SUBJECT first,<br>then check the verb"]
+    H --> H4["Skip Strategy<br>long sentence? locate subject-verb pair,<br>ignore middle phrases"]
+```

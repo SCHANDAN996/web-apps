@@ -1,0 +1,33 @@
+```mermaid
+graph TD
+    A["क्रिया<br>Verb"] --> B["क्रिया के प्रकार<br>Kinds of Verbs"]
+    A --> C["पाँच रूप<br>Five Forms"]
+    A --> D["संकेत शब्द<br>Signal Words"]
+    A --> E["कर्ता-क्रिया मेल<br>Subject-Verb Agreement"]
+    A --> F["सकर्मक / अकर्मक<br>Transitive / Intransitive"]
+    A --> G["परीक्षक के जाल<br>Examiner's Traps"]
+
+    B --> B1["मुख्य क्रिया: write, eat"]
+    B --> B2["सहायक: is, has, did"]
+    B --> B3["Modal: can, must, will"]
+
+    C --> C1["मूल रूप: go"]
+    C --> C2["-s रूप: goes"]
+    C --> C3["भूतकाल: went"]
+    C --> C4["तृतीय रूप: gone"]
+    C --> C5["-ing रूप: going"]
+
+    D --> D1["modal / do → मूल रूप"]
+    D --> D2["has / have / had → तृतीय रूप"]
+    D --> D3["is / are / was → -ing"]
+
+    E --> E1["he/she/it → -s"]
+    E --> E2["each, every, one of → एकवचन"]
+    E --> E3["A and B → बहुवचन"]
+
+    F --> F1["क्या? / किसे? पूछें"]
+
+    G --> G1["has went"]
+    G --> G2["can sings"]
+    G --> G3["one of ... are"]
+```

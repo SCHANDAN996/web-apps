@@ -1,3 +1,151 @@
-# Chapter: Algebra, Level: intermediate, Set: 6/6
+Questions 126–145: Easy | Questions 146–150: Moderate
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Algebra. This is Set 6 (total 6 sets, 150 questions). Questions must be numbered 126 to 150. All 25 questions should be Hard. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+126. If x + 1/x = 5, then the value of x³ + 1/x³ is:
+(a) 110 (b) 125 (c) 100 (d) 115
+Answer: (a)
+Solution: The trap is cubing 5 directly to get 125, which ignores the cross term. Use the identity x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x) = 125 − 15 = 110, so the answer is 110.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+127. If a + b + c = 0, then the value of (a²/bc + b²/ca + c²/ab) is:
+(a) 0 (b) 1 (c) 3 (d) −3
+Answer: (c)
+Solution: The tempting wrong choice is 0, assumed because a + b + c = 0. Combining terms gives (a³ + b³ + c³)/abc, and since a + b + c = 0 implies a³ + b³ + c³ = 3abc, the expression equals 3abc/abc = 3, so the answer is 3.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+128. If x² − 3x + 1 = 0, then the value of x³ + 1/x³ is:
+(a) 18 (b) 27 (c) 9 (d) 36
+Answer: (a)
+Solution: Dividing by x gives x + 1/x = 3, and the trap is answering 27 by cubing 3 directly. Then x³ + 1/x³ = 3³ − 3×3 = 27 − 9 = 18, so the answer is 18.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+129. If a² + b² + c² = ab + bc + ca, then which of the following is true?
+(a) a + b + c = 0 (b) a = b = c (c) a + b = c (d) a² = b² + c²
+Answer: (b)
+Solution: The trap is choosing a + b + c = 0, which is a different standard condition. Multiplying by 2 and rearranging gives (a−b)² + (b−c)² + (c−a)² = 0, and a sum of squares is zero only when each square is zero, so a = b = c, so the answer is a = b = c.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+130. If x = 2 + √3, then the value of x² + 1/x² is:
+(a) 14 (b) 12 (c) 16 (d) 10
+Answer: (a)
+Solution: The trap is squaring x alone and guessing 12. Rationalising gives 1/x = 2 − √3, so x + 1/x = 4, and x² + 1/x² = (x + 1/x)² − 2 = 16 − 2 = 14, so the answer is 14.
+Source: NCERT Class 9 Mathematics (Number Systems)
+
+131. If x + y = 7 and xy = 10, then the value of x³ + y³ is:
+(a) 133 (b) 343 (c) 210 (d) 91
+Answer: (a)
+Solution: The trap is cubing 7 to get 343, ignoring the product term. Use x³ + y³ = (x + y)³ − 3xy(x + y) = 343 − 3×10×7 = 343 − 210 = 133, so the answer is 133.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+132. If a + b + c = 6 and ab + bc + ca = 11, then the value of a³ + b³ + c³ − 3abc is:
+(a) 36 (b) 6 (c) 18 (d) 12
+Answer: (c)
+Solution: The trap is trying to find a, b, c individually, which is unnecessary. Use a³ + b³ + c³ − 3abc = (a + b + c)(a² + b² + c² − ab − bc − ca); now a² + b² + c² = 36 − 22 = 14, so the expression = 6 × (14 − 11) = 18, so the answer is 18.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+133. If x = 3 + 2√2, then the value of √x − 1/√x is:
+(a) 4 (b) 2√2 (c) 2 (d) √2
+Answer: (c)
+Solution: The trap is mishandling the square root of the surd; note x = (√2 + 1)², so √x = √2 + 1 and 1/√x = √2 − 1. Their difference is (√2 + 1) − (√2 − 1) = 2, so the answer is 2.
+Source: NCERT Class 9 Mathematics (Number Systems)
+
+134. If x² + 1/x² = 7, then the value of x − 1/x (x > 1) is:
+(a) 3 (b) √5 (c) √7 (d) 5
+Answer: (b)
+Solution: The trap is taking √7 directly, forgetting the −2 adjustment. Since (x − 1/x)² = x² + 1/x² − 2 = 7 − 2 = 5, and x > 1 makes it positive, x − 1/x = √5, so the answer is √5.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+135. The factors of x³ − 6x² + 11x − 6 are:
+(a) (x−1)(x−2)(x+3) (b) (x+1)(x−2)(x−3) (c) (x−1)(x+2)(x−3) (d) (x−1)(x−2)(x−3)
+Answer: (d)
+Solution: The trap is a sign error in one factor, which the wrong options exploit. Testing x = 1 gives 0, so (x−1) is a factor; dividing gives x² − 5x + 6 = (x−2)(x−3), so the answer is (x−1)(x−2)(x−3).
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+136. If 2ˣ = 3ʸ = 6⁻ᶻ, then the value of 1/x + 1/y + 1/z is:
+(a) 1 (b) 2 (c) −1 (d) 0
+Answer: (d)
+Solution: The trap is assuming the sum must be positive. Let 2ˣ = 3ʸ = 6⁻ᶻ = k; then 2 = k^(1/x), 3 = k^(1/y), 6 = k^(−1/z). Since 2 × 3 = 6, we get k^(1/x + 1/y) = k^(−1/z), so 1/x + 1/y + 1/z = 0, so the answer is 0.
+Source: NCERT Class 9 Mathematics (Number Systems)
+
+137. If x + 1/x = 2cosθ, then the value of x³ + 1/x³ is:
+(a) cos3θ (b) 2cos²θ (c) 8cos³θ (d) 2cos3θ
+Answer: (d)
+Solution: The trap is cubing to get 8cos³θ, ignoring the subtraction term. x³ + 1/x³ = (2cosθ)³ − 3(2cosθ) = 8cos³θ − 6cosθ = 2(4cos³θ − 3cosθ) = 2cos3θ, so the answer is 2cos3θ.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+138. If a/b + b/a = 2 (a, b > 0), then the value of a³ + b³ is:
+(a) 2a³ (b) 0 (c) a²b (d) 2ab
+Answer: (a)
+Solution: The trap is expanding without using the condition. From a/b + b/a = 2 we get a² + b² = 2ab, i.e. (a−b)² = 0, so a = b. Then a³ + b³ = 2a³, so the answer is 2a³.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+139. If x = √3 + √2 and y = √3 − √2, then the value of x³ − y³ is:
+(a) 24√2 (b) 22√2 (c) 20√2 (d) 18√2
+Answer: (b)
+Solution: The trap is cubing each surd separately and making sign errors. Here x − y = 2√2 and xy = 3 − 2 = 1, so x³ − y³ = (x−y)³ + 3xy(x−y) = 16√2 + 6√2 = 22√2, so the answer is 22√2.
+Source: NCERT Class 9 Mathematics (Number Systems)
+
+140. If x⁴ + 1/x⁴ = 47, then the value of x + 1/x (x > 0) is:
+(a) 3 (b) 7 (c) √47 (d) 5
+Answer: (a)
+Solution: The trap is taking the fourth root of 47 directly. First x² + 1/x² = √(47 + 2) = 7, then (x + 1/x)² = 7 + 2 = 9, giving x + 1/x = 3, so the answer is 3.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+141. If a + b + c = 9 and a² + b² + c² = 35, then the value of ab + bc + ca is:
+(a) 13 (b) 23 (c) 26 (d) 46
+Answer: (b)
+Solution: The trap is subtracting 35 from 81 and forgetting the factor of 2. Since (a + b + c)² = a² + b² + c² + 2(ab + bc + ca), we get 81 = 35 + 2(ab + bc + ca), so ab + bc + ca = 23, so the answer is 23.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+142. If x = 5 − 2√6, then the value of x² − 10x + 1 is:
+(a) 1 (b) 2 (c) −1 (d) 0
+Answer: (d)
+Solution: The trap is substituting and expanding fully, which invites arithmetic slips. Since x = 5 − 2√6, we have x − 5 = −2√6, so (x − 5)² = 24, i.e. x² − 10x + 25 = 24, giving x² − 10x + 1 = 0, so the answer is 0.
+Source: NCERT Class 9 Mathematics (Number Systems)
+
+143. If p + q + r = 0, then the value of p²/(p² − qr) + q²/(q² − rp) + r²/(r² − pq) is:
+(a) 0 (b) 1 (c) 2 (d) 3
+Answer: (c)
+Solution: The trap is guessing 0 because p + q + r = 0. Since p + q + r = 0, we get p² − qr = −(pq + qr + rp), so each term becomes −p²/(pq + qr + rp) and the sum is −(p² + q² + r²)/(pq + qr + rp). Using p² + q² + r² = −2(pq + qr + rp), the sum equals 2, so the answer is 2.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+144. If x² + y² + z² = xy + yz + zx and x = 1, then the value of (10x⁴ + 5y⁴ + 7z⁴)/(13x²y² + 6y²z² + 3z²x²) is:
+(a) 0 (b) 2 (c) 22/13 (d) 1
+Answer: (d)
+Solution: The trap is substituting x = 1 and trying random values for y and z. The condition forces x = y = z = 1, so the numerator is 10 + 5 + 7 = 22 and the denominator is 13 + 6 + 3 = 22, giving 1, so the answer is 1.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+145. If (x + 1/x)² = 3, then the value of x³ + 1/x³ is:
+(a) 0 (b) √3 (c) 3√3 (d) 1
+Answer: (a)
+Solution: The trap is computing x + 1/x = √3 and cubing to 3√3 without the correction term. x³ + 1/x³ = (√3)³ − 3√3 = 3√3 − 3√3 = 0, so the answer is 0.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+146. If a = 7 + 4√3, then the value of √a + 1/√a is:
+(a) 2√3 (b) 4 (c) 14 (d) 8
+Answer: (b)
+Solution: The trap is mishandling the surd; note a = (2 + √3)², so √a = 2 + √3 and 1/√a = 2 − √3. Their sum is 4, so the answer is 4.
+Source: NCERT Class 9 Mathematics (Number Systems)
+
+147. If x + y + z = 0, then the value of (x + y)²/xy + (y + z)²/yz + (z + x)²/zx is:
+(a) −6 (b) −3 (c) 6 (d) 3
+Answer: (d)
+Solution: The trap is assuming the sum must be negative because x + y + z = 0. Since x + y = −z, the first term is z²/xy = z³/(xyz), and similarly for the other two terms. The total is (x³ + y³ + z³)/(xyz) = 3xyz/(xyz) = 3, so the answer is 3.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+148. If x = 1 + √2 + √3, then the value of x² − 2x − 4 is:
+(a) √6 (b) 2√6 (c) 4√6 (d) 0
+Answer: (b)
+Solution: The trap is expanding x² fully with three surd terms and slipping on signs. Write x − 1 = √2 + √3, so (x − 1)² = 5 + 2√6, i.e. x² − 2x + 1 = 5 + 2√6, giving x² − 2x − 4 = 2√6, so the answer is 2√6.
+Source: NCERT Class 9 Mathematics (Number Systems)
+
+149. If a + 1/b = 1 and b + 1/c = 1, then the value of c + 1/a is:
+(a) −1 (b) 0 (c) 1 (d) 2
+Answer: (c)
+Solution: The trap is assuming symmetry gives 0. From the first equation a = (b − 1)/b, so 1/a = b/(b − 1); from the second, c = 1/(1 − b). Then c + 1/a = 1/(1 − b) + b/(b − 1) = (1 − b)/(1 − b) = 1, so the answer is 1.
+Source: NCERT Class 9 Mathematics (Polynomials)
+
+150. If x² − 4x + 1 = 0, then the value of x³ + 1/x³ is:
+(a) 64 (b) 48 (c) 52 (d) 56
+Answer: (c)
+Solution: The trap is cubing 4 to get 64 without the correction term. Dividing the equation by x gives x + 1/x = 4, so x³ + 1/x³ = 4³ − 3×4 = 64 − 12 = 52, so the answer is 52.
+Source: NCERT Class 9 Mathematics (Polynomials)

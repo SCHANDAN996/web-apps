@@ -1,0 +1,95 @@
+# 📊 PYQ Analysis — Coordinate Geometry (Advanced Level)
+
+## 1. How Examiners Use This Chapter
+
+Coordinate Geometry appears in UPSC CSAT, SSC CGL Tier-II, IBPS PO Mains, CAT and State PCS papers not as a memory test but as a **speed-and-setup test**. The examiner's real question is: *can you translate a geometric sentence into algebra within 30 seconds?* Almost every question reduces to one of five moves — distance formula, section formula, slope condition, area of a triangle, or the equation of a line/circle.
+
+Across these exams, the recurring sub-topics are:
+
+- **Section formula in disguise** — midpoints, centroids, points dividing a diagonal of a parallelogram.
+- **Collinearity traps** — three points given, asked to find a parameter; the intended tool is "area of triangle = 0", but many candidates waste time on slopes.
+- **Locus questions** — "a point moves so that…" — favourite of CAT and CGL Tier-II.
+- **Circle basics** — centre-radius form, diameter endpoints, point inside/outside/on the circle.
+- **Reflection and symmetry** — image of a point across the axes or the line y = x.
+- **Distance between parallel lines / point-to-line distance** — short formula questions in bank exams.
+
+## 2. The Examiner's Favourite Traps (Psychological Hooks)
+
+1. **The "almost right" sign trap.** Options include both (3, −2) and (−3, 2). The question hides a negative coordinate in the second quadrant. Candidates who rush the section formula flip a sign.
+2. **Ratio confusion: m:n vs n:m.** "Divides AB in the ratio 2:3" — the formula multiplies m with the *far* endpoint. Examiners place the swapped answer as option (a).
+3. **Internal vs external division.** The word "externally" changes the plus to minus. One missed word = one wrong answer.
+4. **Collinearity via slope vs area.** Both work, but slope fails silently when a line is vertical (undefined slope). The area method never fails — examiners know most students use slope.
+5. **The centroid–circumcentre mix-up.** Similar-sounding terms; questions describe one and ask about the other.
+6. **"Circle with diameter endpoints"** — students hunt for the general equation instead of using (x−x₁)(x−x₂) + (y−y₁)(y−y₂) = 0.
+7. **Negative wording.** "Which of the following is NOT collinear…" — under exam pressure the NOT is skipped.
+8. **Units bait.** Distance asked "in units" but coordinates given with a √2 built in; options include the unsimplified and simplified forms.
+
+## 3. Top 10 High-Yield Questions (with Solutions)
+
+**Q1.** The point dividing the segment joining A(2, −3) and B(6, 5) internally in the ratio 3:1 is:
+(a) (5, 3) (b) (4, 3) (c) (5, 2) (d) (4, 2)
+**Answer: (a)**
+**Solution:** x = (3·6 + 1·2)/4 = 20/4 = 5; y = (3·5 + 1·(−3))/4 = 12/4 = 3. **Hook:** Option (b) (4, 3) is what you get if you use the *midpoint* formula for x, (2+6)/2 = 4, but the section formula for y — a classic half-and-half slip under time pressure. Remember: multiply each ratio number with the *opposite* endpoint, for both coordinates.
+**Source:** PYQ-style
+
+**Q2.** If (a, 0), (0, b) and (1, 1) are collinear, then 1/a + 1/b equals:
+(a) 0 (b) 1 (c) −1 (d) 2
+**Answer: (b)**
+**Solution:** Area = 0 ⇒ a(b−1) + 0 + 1(0−b) = 0 ⇒ ab − a − b = 0 ⇒ divide by ab: 1 = 1/a + 1/b. **Hook:** Students try the two-point line equation and get lost in algebra; the area method is two lines long.
+**Source:** PYQ-style (classic CSAT/CAT pattern)
+
+**Q3.** The centroid of the triangle with vertices (2, 4), (−4, 2) and (5, −3) is:
+(a) (1, 1) (b) (1, −1) (c) (−1, 1) (d) (3, 3)
+**Answer: (a)**
+**Solution:** ((2−4+5)/3, (4+2−3)/3) = (3/3, 3/3) = (1, 1). **Hook:** Option (d) is the *sum*, not the average — the trap for those who forget to divide by 3.
+**Source:** PYQ-style
+
+**Q4.** The distance between the parallel lines 3x + 4y + 5 = 0 and 3x + 4y − 7 = 0 is:
+(a) 12/5 (b) 2/5 (c) 12 (d) 5/12
+**Answer: (a)**
+**Solution:** d = |c₁ − c₂|/√(a²+b²) = |5 − (−7)|/5 = 12/5. **Hook:** Option (b) uses |5−7| = 2, ignoring the sign of −7. The constants must be on the same side with the same sign convention first.
+**Source:** PYQ-style
+
+**Q5.** A point moves so that its distance from (2, 0) equals its distance from the y-axis. Its locus is:
+(a) a circle (b) a parabola (c) a straight line (d) an ellipse
+**Answer: (b)**
+**Solution:** √((x−2)² + y²) = |x| ⇒ (x−2)² + y² = x² ⇒ y² = 4x − 4 = 4(x−1) — a parabola (definition: equal distance from focus and directrix). **Hook:** "Distance from y-axis" is |x|, not |y| — a classic misread.
+**Source:** PYQ-style (CAT pattern)
+
+**Q6.** The image of the point (4, −3) in the line y = x is:
+(a) (−3, 4) (b) (3, −4) (c) (−4, 3) (d) (4, 3)
+**Answer: (a)**
+**Solution:** Reflection in y = x swaps the coordinates: (4, −3) → (−3, 4). **Hook:** The distractors are the other standard reflections placed side by side — option (b) (3, −4) is the reflection in the line y = −x, option (c) (−4, 3) is the reflection in the origin, and option (d) (4, 3) is the reflection in the x-axis. Know all four rules so you can pick the right one instantly.
+**Source:** PYQ-style
+
+**Q7.** The equation of the circle having (1, 2) and (5, −2) as endpoints of a diameter is:
+(a) x² + y² − 6x + 1 = 0 (b) x² + y² − 6x − 1 = 0 (c) x² + y² + 6x + 1 = 0 (d) x² + y² − 4x + 1 = 0
+**Answer: (a)**
+**Solution:** (x−1)(x−5) + (y−2)(y+2) = 0 ⇒ x² − 6x + 5 + y² − 4 = 0 ⇒ x² + y² − 6x + 1 = 0. **Hook:** Students who first find centre (3, 0) and radius √8 often mishandle the radius squaring and land on (b).
+**Source:** PYQ-style
+
+**Q8.** For what value of k are the points (k, 1), (2, 3) and (4, 5) collinear?
+(a) 0 (b) 1 (c) 2 (d) −1
+**Answer: (a)**
+**Solution:** Slope between (2,3) and (4,5) = 1. Line: y = x + 1. Substituting (k, 1): 1 = k + 1 ⇒ k = 0. **Hook:** The points (2,3), (4,5) look "arithmetic", tempting a pattern-guess — but candidates who guess (c) 2 fall for the "sequence" illusion. Verify, don't pattern-match.
+**Source:** PYQ-style
+
+**Q9.** The area of the triangle formed by the line 3x + 4y = 12 with the coordinate axes is:
+(a) 6 sq units (b) 12 sq units (c) 4 sq units (d) 3 sq units
+**Answer: (a)**
+**Solution:** Intercepts: x = 4, y = 3. Area = ½·4·3 = 6. **Hook:** Option (b) is the product 4×3 — forgetting the ½ is the most common error in this question type across bank exams.
+**Source:** PYQ-style
+
+**Q10.** If the distance of the point (3, k) from the origin is 5, then k equals:
+(a) ±4 (b) 4 only (c) ±3 (d) 16
+**Answer: (a)**
+**Solution:** 9 + k² = 25 ⇒ k² = 16 ⇒ k = ±4. **Hook:** Option (b) tempts those who forget the negative root; option (d) tempts those who forget to take the square root. "±" questions are a guaranteed trap carrier.
+**Source:** PYQ-style
+
+## 4. Strategy Takeaways
+
+- **Default toolkit:** distance, section, midpoint, slope, area = ½|Σx₁(y₂−y₃)|, and point-to-line distance. Master these six and most questions in these exams become mechanical.
+- **Collinearity → always use area = 0**, never slope (vertical-line blind spot).
+- **Read ratio questions twice** — mark "internal/external" and "m:n attached to which point" before computing.
+- **Time rule:** if a coordinate geometry question needs more than ~90 seconds, you are using the wrong tool — switch formulas, don't push harder.
+- **Verify by substitution** whenever the answer is a point or parameter — 10 seconds of checking kills every sign trap.

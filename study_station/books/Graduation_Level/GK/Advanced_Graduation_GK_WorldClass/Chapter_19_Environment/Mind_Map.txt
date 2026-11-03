@@ -1,0 +1,56 @@
+```mermaid
+graph TD
+    A["पर्यावरण और पारिस्थितिकी<br>Environment & Ecology (Basic)"] --> B["पारिस्थितिकी की इकाइयाँ<br>Levels of Organisation"]
+    A --> C["पारिस्थितिक तंत्र<br>Ecosystem"]
+    A --> D["ऊर्जा प्रवाह<br>Energy Flow"]
+    A --> E["जैव-भू-रासायनिक चक्र<br>Biogeochemical Cycles"]
+    A --> F["जैव विविधता<br>Biodiversity"]
+    A --> G["प्रदूषण<br>Pollution"]
+    A --> H["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> I["रणनीति<br>Strategy"]
+
+    B --> B1["जीव → समष्टि → समुदाय<br>Organism → Population → Community"]
+    B --> B2["पारिस्थितिक तंत्र → जीवमंडल<br>Ecosystem → Biosphere"]
+    B --> B3["आवास vs पारिस्थितिक निच<br>Habitat vs Niche"]
+
+    C --> C1["अजैविक घटक<br>Abiotic: सूर्य, जल, मिट्टी"]
+    C --> C2["जैविक घटक<br>Biotic"]
+    C2 --> C3["उत्पादक<br>Producers (Autotrophs)"]
+    C2 --> C4["उपभोक्ता<br>Consumers (Herbivore/Carnivore)"]
+    C2 --> C5["अपघटक<br>Decomposers: जीवाणु, कवक"]
+    C --> C6["स्थायी vs क्षणिक<br>Stable vs Transient Ecosystem"]
+
+    D --> D1["10% नियम (लिंडेमैन)<br>10% Law (Lindeman)"]
+    D --> D2["खाद्य शृंखला vs खाद्य जाल<br>Food Chain vs Food Web"]
+    D --> D3["पारिस्थितिक पिरामिड<br>Ecological Pyramids"]
+    D3 --> D4["ऊर्जा पिरामिड: सदैव सीधा<br>Energy: Always Upright"]
+    D3 --> D5["संख्या/जैवभार: उल्टा भी हो सकता<br>Number/Biomass: May Invert"]
+    D --> D6["पोषी स्तर<br>Trophic Levels"]
+
+    E --> E1["कार्बन चक्र<br>Carbon Cycle"]
+    E --> E2["नाइट्रोजन चक्र<br>Nitrogen Cycle"]
+    E2 --> E3["नाइट्रोजन स्थिरीकरण<br>Nitrogen Fixation: Rhizobium"]
+    E --> E4["जल चक्र<br>Water Cycle"]
+    E --> E5["फॉस्फोरस चक्र: वायुमंडलीय चरण नहीं<br>Phosphorus: No Gaseous Phase"]
+
+    F --> F1["स्तर: आनुवंशिक, जाति, पारिस्थितिक<br>Genetic, Species, Ecosystem"]
+    F --> F2["हॉटस्पॉट<br>Biodiversity Hotspots"]
+    F --> F3["लाल सूची (IUCN)<br>Red List (IUCN)"]
+    F --> F4["स्वदेशी vs विदेशी जाति<br>Endemic vs Exotic Species"]
+
+    G --> G1["वायु प्रदूषण<br>Air Pollution: CO, SO2, NOx, PM"]
+    G --> G2["जल प्रदूषण<br>Water: BOD, Eutrophication"]
+    G --> G3["मृदा/शोर प्रदूषण<br>Soil/Noise Pollution"]
+    G --> G4["ग्रीनहाउस गैसें<br>GHG: CO2, CH4, N2O, O3"]
+
+    H --> H1["जाल 1: ऊर्जा पिरामिड उल्टा?<br>Trap: Energy pyramid inverted? — कभी नहीं"]
+    H --> H2["जाल 2: 10% ऊर्जा हस्तांतरण<br>Trap: 10% transfer — 90% नहीं"]
+    H --> H3["जाल 3: अपघटक = उपभोक्ता?<br>Trap: Decomposer ≠ Consumer (वर्गीकरण भ्रम)"]
+    H --> H4["जाल 4: फॉस्फोरस में गैसीय चरण<br>Trap: Phosphorus gaseous phase — गलत"]
+    H --> H5["जाल 5: BOD अधिक = जल साफ़?<br>Trap: High BOD = polluted water"]
+
+    I --> I1["पहले आधारभूत परिभाषाएँ<br>Master definitions first"]
+    I --> I2["चक्रों की तुलना तालिका<br>Compare cycles in a table"]
+    I --> I3["15/45 सेकंड नियम<br>15/45 second rule"]
+    I --> I4["नकारात्मक वाक्य ध्यान से पढ़ें<br>Read negative statements carefully"]
+```

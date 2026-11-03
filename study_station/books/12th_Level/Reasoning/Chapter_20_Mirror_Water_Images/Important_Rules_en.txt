@@ -1,0 +1,39 @@
+# Important Rules & Approaches — Mirror & Water Images
+
+## Part 1: Key Rules / Approaches
+
+| Rule Name | Description | Example |
+|---|---|---|
+| Mirror Image = Lateral Inversion | In a mirror image, left and right sides interchange; top and bottom remain unchanged. | Letter **b** appears as **d** in a mirror. |
+| Water Image = Vertical Inversion | In a water image, top and bottom interchange; left and right remain unchanged. | Letter **M** appears as **W**-like (inverted M) in water. |
+| Mirror Placement Rule | Mirror is assumed to be placed on the **right side** of the object unless stated otherwise. If placed on the left, the image is the same lateral inversion, just on the other side. | Arrow pointing right (→) appears pointing left (←) in the mirror. |
+| Water Surface Placement Rule | Water surface is assumed to be **below** the object unless stated otherwise. | An upward arrow (↑) appears pointing downward (↓) in water. |
+| Symmetric Letters Rule | Letters with vertical symmetry look the same in a mirror; letters with horizontal symmetry look the same in water. | Mirror: A, H, I, M, O, T, U, V, W, X, Y unchanged. Water: B, C, D, E, H, I, K, O, X unchanged. |
+| Number Rule | Digits 0, 1, 8 look the same in a mirror (if written in simple form); 0 and 8 look the same in water. | Mirror image of 8 is 8; water image of 3 is not 3. |
+| Clock Rule (Mirror) | Mirror time = 11:60 − actual time (or 12:00 − actual time, adjusting minutes). | Actual 4:20 → Mirror 7:40. |
+| Clock Rule (Water) | Water time = 17:90 − actual time (subtract from 18:30 if minutes are zero, use 17:90 otherwise). | Actual 4:20 → Water 13:70 → 2:10. |
+| Order Reversal Rule | In a mirror image of a word/number, the order of characters reverses; in a water image, the order stays the same but each character flips vertically. | Mirror of "TAX" = X̲A̲T̲ reversed order; water of "TAX" keeps T-A-X order, each flipped. |
+| Elimination Approach | Check one distinctive part (an arrow, dot, or asymmetric letter) in all options first; eliminate options where that part is wrong. | If the dot is on the left in the question, it must be on the right in the mirror image — delete options with dot on left. |
+| Folding-the-Page Trick | Mentally fold the page along the mirror line (vertical) or water line (horizontal); the overlapping figure is the answer. | Useful for complex figures with multiple elements. |
+| Capital vs Small Letters | Small letters change more drastically than capitals; check each letter's shape carefully. | Small **p** in mirror looks like **q**; small **b** in water looks like **p**. |
+
+## Part 2: Time Management
+
+| Rule | Description |
+|---|---|
+| 15-Second Rule | If the type of inversion (mirror/water) and the key changing element are not identified within 15 seconds, mark the question and move on. |
+| 45-Second Rule | No mirror/water image question should take more than 45 seconds. If still unsolved, skip it — these questions are scoring only when solved fast. |
+| Option-Scan First | Spend the first 5 seconds scanning options; often 2 options can be eliminated instantly by checking one asymmetric element. |
+| Clock Questions Priority | Clock-based mirror/water questions are formula-based; solve them in under 20 seconds using the subtraction formulas. |
+| Don't Draw | Never redraw the full figure in the exam; check only 1–2 key elements (dots, arrows, asymmetric letters). |
+| Attempt Order | Attempt mirror/water image questions early in the reasoning section — they are quick, direct, and carry low error risk. |
+
+## Part 3: Logical / Mathematical Formulas
+
+| Formula | Application | Example |
+|---|---|---|
+| Mirror time = 11:60 − Actual time | Mirror image of a clock (when minutes ≠ 0) | 3:40 → 11:60 − 3:40 = 8:20 |
+| Mirror time = 12:00 − Actual time | Mirror image of a clock (when minutes = 0) | 5:00 → 12:00 − 5:00 = 7:00 |
+| Water time = 17:90 − Actual time | Water image of a clock (when minutes ≠ 0) | 4:20 → 17:90 − 4:20 = 13:70 = 2:10 |
+| Water time = 18:30 − Actual time | Water image of a clock (when minutes = 0) | 6:00 → 18:30 − 6:00 = 12:30 |
+| No other formulas | Figure-based mirror/water image questions have no formulas — they are solved by the inversion rules and elimination approach only. | — |

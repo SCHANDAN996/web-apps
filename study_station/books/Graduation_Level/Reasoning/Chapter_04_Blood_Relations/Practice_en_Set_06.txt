@@ -1,0 +1,151 @@
+Questions 126–145: Easy | Questions 146–150: Moderate
+
+126. In a certain code, 'A + B' means 'A is the father of B', 'A − B' means 'A is the sister of B', 'A × B' means 'A is the mother of B', and 'A ÷ B' means 'A is the brother of B'. Which expression means 'P is the maternal uncle of R'?
+(a) P ÷ Q + R (b) P × Q ÷ R (c) P ÷ Q × R (d) P + Q ÷ R
+Answer: (c)
+Solution: The tempting option P ÷ Q + R fails because '+' makes Q the father of R, so P would be the brother of R's father — a paternal uncle, not maternal. In P ÷ Q × R: P is the brother of Q, and Q is the mother of R, so P is the brother of R's mother, so the answer is P ÷ Q × R.
+Source: PYQ-style
+
+127. If 'M @ N' means 'M is the wife of N', 'M # N' means 'M is the son of N', and 'M $ N' means 'M is the daughter of N', then in 'K # L @ P $ Q', how is K related to Q?
+(a) Grandson (b) Son (c) Granddaughter (d) Cannot be determined
+Answer: (a)
+Solution: K # L means K is the son of L; L @ P means L is the wife of P; P $ Q means P is the daughter of Q. So K is the son of P, and P is Q's daughter, making K the son of Q's daughter; the trap is treating K as Q's son directly, skipping one generation. So the answer is Grandson.
+Source: PYQ-style
+
+128. Pointing to a photograph, a man said, "She is the daughter of the only son of my grandfather's only child." How is the woman in the photograph related to the man?
+(a) Cousin (b) Sister (c) Niece (d) Daughter
+Answer: (d)
+Solution: The trap is reading "grandfather's only child" as the man's uncle; but the grandfather's only child is the man's own father, and the father's only son is the man himself. So she is the daughter of the man himself, so the answer is Daughter.
+Source: PYQ-style
+
+129. In a family, A is the brother of B. C is the father of A. D is the brother of E, and E is the daughter of B. F is the wife of C. How is D related to F?
+(a) Son (b) Grandson (c) Nephew (d) Son-in-law
+Answer: (b)
+Solution: C and F are the parents of A and B. E is the daughter of B, and D is E's brother, so D is B's son; since B is F's child, D is F's grandchild. The trap is calling D F's nephew by skipping a generation, so the answer is Grandson.
+Source: PYQ-style
+
+130. If 'P × Q' means 'P is the husband of Q', 'P + Q' means 'P is the daughter of Q', and 'P − Q' means 'P is the son of Q', which of the following shows that 'T is the granddaughter of R'?
+(a) T + S × R (b) R × S + T (c) T − S + R (d) T + S, S + R
+Answer: (d)
+Solution: In T + S, S + R: T is the daughter of S, and S is the daughter of R, so T is the daughter of R's daughter — R's granddaughter. The tempting T + S × R makes S the husband of R, which breaks the blood line, so the answer is T + S, S + R.
+Source: PYQ-style
+
+131. A is the mother of B. B is the sister of C. C is the father of D. D is the brother of E. E is married to F. How is A related to F?
+(a) Mother (b) Grandmother (c) Mother-in-law of father (d) Grandmother of husband
+Answer: (d)
+Solution: A is the mother of B, and B is the sister of C, so A is also C's mother; C is the father of E, so A is E's grandmother. Since F is married to E, A is the grandmother of F's husband; the trap is calling A F's own grandmother, but F is related only through marriage. So the answer is Grandmother of husband.
+Source: PYQ-style
+
+132. If 'A @ B' means 'A is the father of B', 'A # B' means 'A is the sister of B', and 'A & B' means 'A is the mother of B', then in 'P @ Q # R & S', how is P related to S?
+(a) Grandfather (b) Brother (c) Father (d) Uncle
+Answer: (a)
+Solution: P @ Q means P is the father of Q; Q # R means Q is the sister of R, so P is also the father of R; R & S means R is the mother of S. Thus P is the father of S's mother, and the trap is stopping at "father of R" and choosing Father, so the answer is Grandfather.
+Source: PYQ-style
+
+133. Introducing a boy, a girl said, "He is the son of the daughter of the father of my uncle." How is the boy related to the girl?
+(a) Brother (b) Cousin (c) Nephew (d) Son
+Answer: (b)
+Solution: The father of the girl's uncle is her grandfather, and the daughter of the grandfather is the girl's aunt. The son of her aunt is her cousin; the trap is assuming the daughter is the girl's mother, which would make him her brother, but the mention of an uncle shows the grandfather has more than one child. So the answer is Cousin.
+Source: PYQ-style
+
+134. If 'A $ B' means 'A is the brother of B', 'A * B' means 'A is the mother of B', and 'A @ B' means 'A is the wife of B', then which expression shows that 'M is the mother-in-law of T'?
+(a) T @ R, M * R (b) M $ R @ T (c) T @ R, R * M (d) R @ T, M * T
+Answer: (a)
+Solution: In T @ R, M * R: T is the wife of R, and M is the mother of R, so M is the mother of T's husband — T's mother-in-law. The tempting T @ R, R * M reverses it, making R the mother of M, so the answer is T @ R, M * R.
+Source: PYQ-style
+
+135. P is the son of Q. Q is the daughter of R. R is the wife of S. T is the son of S. How is T related to P?
+(a) Father (b) Grandfather (c) Brother (d) Maternal uncle
+Answer: (d)
+Solution: R and S are a couple; Q is their daughter and T is their son, so T is Q's brother. P is Q's son, so T is the brother of P's mother; the trap is calling T P's father because T is male and one generation up. So the answer is Maternal uncle.
+Source: PYQ-style
+
+136. In a coded language, 'X → Y' means 'X is the daughter of Y', 'X ← Y' means 'X is the son of Y', and 'X = Y' means 'X is the wife of Y'. Given 'A = B', 'C ← B', 'D → C', how is D related to A?
+(a) Son (b) Daughter (c) Granddaughter (d) Grandson
+Answer: (c)
+Solution: A = B means A is the wife of B; C ← B means C is the son of B, hence also the son of A; D → C means D is the daughter of C. So D is the daughter of A's son, and the trap is stopping at "daughter of C" and choosing Daughter. So the answer is Granddaughter.
+Source: PYQ-style
+
+137. A family has six members: P, Q, R, S, T, U. There are two married couples. Q is a doctor and the father of T. U is the grandfather of R and is a teacher. S is the grandmother of T. P is the daughter of Q. How is R related to P?
+(a) Brother (b) Sister (c) Cannot be determined (d) Cousin
+Answer: (c)
+Solution: Q is the father of T and P, so P and T are siblings, and U is the grandfather of R. But R's parent is never identified — R could be the child of T or of another child of U — so R's exact relation to P cannot be fixed; the trap is assuming R is T's sibling and answering Brother. So the answer is Cannot be determined.
+Source: PYQ-style
+
+138. Pointing to a woman, Rohan said, "Her only brother is the father of my daughter's father." How is the woman related to Rohan?
+(a) Mother (b) Grandmother (c) Sister (d) Aunt
+Answer: (d)
+Solution: Rohan's daughter's father is Rohan himself, so the woman's only brother is the father of Rohan. That makes her the sister of Rohan's father; the trap is inserting an extra generation and choosing Grandmother. So the answer is Aunt.
+Source: PYQ-style
+
+139. If 'J + K' means 'J is the mother of K', 'J − K' means 'J is the father of K', and 'J × K' means 'J is the sister of K', which of the following means 'N is the aunt of O'?
+(a) N + M × O (b) N × M + O (c) N × M − O (d) O × M + N
+Answer: (b)
+Solution: In N × M + O: N is the sister of M, and M is the mother of O, so N is the sister of O's mother — O's aunt. The tempting N + M × O makes N the mother of M, which would make N a grandmother, not an aunt, so the answer is N × M + O.
+Source: PYQ-style
+
+140. A is B's sister. C is B's mother. D is C's father. E is D's mother. F is D's wife. How is A related to E?
+(a) Daughter (b) Granddaughter (c) Great-grandmother (d) Great-granddaughter
+Answer: (d)
+Solution: C is the mother of A, D is the father of C, and E is the mother of D, so the chain E → D → C → A spans three generations below E. The trap is counting only two steps and answering Granddaughter, so the answer is Great-granddaughter.
+Source: PYQ-style
+
+141. In a joint family, M is the father of N. N is the sister of O. O is the husband of P. P is the mother of Q. R is the brother of M. How is R related to Q?
+(a) Uncle (b) Grandfather (c) Paternal great-uncle (d) Father
+Answer: (c)
+Solution: O is the husband of P, and P is the mother of Q, so O is Q's father; M is the father of N and O, so M is Q's grandfather. R is M's brother, i.e., the brother of Q's grandfather; the trap is answering Grandfather, which is M, not R. So the answer is Paternal great-uncle.
+Source: PYQ-style
+
+142. Given: 'P # Q' means 'P is the son of Q', 'P & Q' means 'P is the daughter of Q', 'P % Q' means 'P is the husband of Q'. In 'A # B % C & D', how is A related to D?
+(a) Grandson (b) Son (c) Granddaughter (d) Brother
+Answer: (a)
+Solution: A # B means A is the son of B; B % C means B is the husband of C; C & D means C is the daughter of D. So A is the son of C, and C is D's daughter, making A the son of D's daughter; the trap is treating A as D's son directly. So the answer is Grandson.
+Source: PYQ-style
+
+143. Pointing to a man, a woman said, "He is the son of my mother's only daughter." How is the man related to the woman?
+(a) Son (b) Brother (c) Nephew (d) Cousin
+Answer: (a)
+Solution: The woman's mother's only daughter is the woman herself, so the man is her own son. The trap is reading "mother's daughter" as a sister and answering Nephew, but the word "only" rules out any sister, so the answer is Son.
+Source: PYQ-style
+
+144. P is the father of Q. Q is the sister of R. R is the mother of S. How is P related to S?
+(a) Grandfather (b) Uncle (c) Brother (d) Father
+Answer: (a)
+Solution: P is the father of Q, and Q is the sister of R, so P is also the father of R; R is the mother of S, so P is the father of S's mother. The trap is stopping one step early and answering Father, so the answer is Grandfather.
+Source: PYQ-style
+
+145. K is the daughter of L. L is the wife of M. M is the son of N. N is the wife of O. P is the brother of M. How is P related to K?
+(a) Father (b) Brother (c) Uncle (d) Grandfather
+Answer: (c)
+Solution: L and M are K's parents, and P is the brother of M, K's father, so P is K's paternal uncle. The trap is answering Father because P is male and belongs to the father's generation, so the answer is Uncle.
+Source: PYQ-style
+
+146. In a code, 'A > B' means 'A is the wife of B', 'A < B' means 'A is the husband of B', 'A = B' means 'A is the sibling of B'. Given 'T > S', 'S = R', 'R < Q', how is T related to Q?
+(a) Sister-in-law (b) Mother (c) Sister (d) Wife
+Answer: (a)
+Solution: T > S means T is the wife of S, so S is male; S = R means S and R are siblings; R < Q means R is the husband of Q. So T is the wife of the brother of Q's husband, making T Q's sister-in-law; the trap is treating T as Q's sister because of the sibling symbol. So the answer is Sister-in-law.
+Source: PYQ-style
+
+147. Pointing to a photograph, Sunita said, "He is the only grandson of my mother's father." How is the man in the photograph related to Sunita?
+(a) Brother (b) Cousin (c) Brother or cousin (d) Nephew
+Answer: (c)
+Solution: Sunita's mother's father is her maternal grandfather, and his grandson could be the son of Sunita's mother (her brother) or the son of the grandfather's other daughter (her cousin). Since the data does not fix which, the trap is jumping straight to Brother, so the answer is Brother or cousin.
+Source: PYQ-style
+
+148. If 'G + H' means 'G is the father of H', 'G − H' means 'G is the wife of H', and 'G × H' means 'G is the daughter of H', then which expression definitely shows that 'Z is the grandson of W'?
+(a) Z + Y − W (b) W + Y + Z (c) Z − Y + W (d) W × Y + Z
+Answer: (b)
+Solution: In W + Y + Z: W is the father of Y, and Y is the father of Z, so Z is the son of W's son — W's grandson. The tempting W × Y + Z makes W the daughter of Y, reversing the generations, so the answer is W + Y + Z.
+Source: PYQ-style
+
+149. A, B, C, D, E, F are members of a family. A is the son of B. B is the daughter of C. C is the wife of D. E is the husband of F. F is the sister of B. How is E related to A?
+(a) Uncle (b) Maternal uncle by marriage (c) Grandfather (d) Father
+Answer: (b)
+Solution: B is A's mother, and F is B's sister, so F is A's maternal aunt; E is F's husband, so E is related to A only through marriage. The trap is calling E a blood uncle, but he is the aunt's husband, so the answer is Maternal uncle by marriage.
+Source: PYQ-style
+
+150. A is the son of B. B is the sister of C. C is the husband of D. How is A related to D?
+(a) Son (b) Nephew (c) Brother (d) Uncle
+Answer: (b)
+Solution: B is the sister of C, and C is the husband of D, so B is D's sister-in-law; A is the son of B, making A the son of D's sister-in-law — D's nephew. The trap is answering Son because A belongs to the children's generation of the family, so the answer is Nephew.
+Source: PYQ-style

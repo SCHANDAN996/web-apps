@@ -1,0 +1,19 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+jinja2==3.1.5
+SQLAlchemy==2.0.36
+python-multipart==0.0.20
+itsdangerous==2.2.0
+google-auth[requests]>=2.40,<3
+cryptography>=46,<51
+# job aggregation
+httpx==0.28.1
+beautifulsoup4==4.12.3
+pypdf>=6.1.3,<7
+# promotion videos (app/promo/shorts.py)
+Pillow==13.0.0
+fonttools==4.67.0
+# AI tutor / question & current-affairs generation (optional; needs ANTHROPIC_API_KEY)
+anthropic>=1.11,<2
+# tests
+pytest==8.3.4

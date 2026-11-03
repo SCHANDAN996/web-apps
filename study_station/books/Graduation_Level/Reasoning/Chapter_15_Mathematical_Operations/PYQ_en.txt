@@ -1,0 +1,128 @@
+# 📊 PYQ Analysis — Mathematical Operations (Verbal Reasoning)
+
+## 1. How Exams Ask This Chapter
+
+Mathematical Operations is one of the most **reliably recurring** topics in the reasoning sections of SSC (CGL, CHSL, MTS, GD), Banking (IBPS PO/Clerk, SBI PO), Railway (NTPC, Group D) and State PCS prelims. Instead of inventing numbers, here is what the papers show **in pattern terms**:
+
+- **Every paper asks it.** In SSC CGL/CHSL Tier-I and IBPS prelims, questions from this chapter appear in almost every shift — usually 1–3 questions per paper. In RRB NTPC and Group D, the count is often higher because the difficulty is kept low.
+- **Difficulty is front-loaded with symbols, not arithmetic.** The calculation itself is rarely hard; the marks are lost in *decoding* the symbols and in *order of operations*.
+- **It is a "banker" topic:** high accuracy is achievable, so toppers treat it as guaranteed marks, while average candidates lose marks here through sign-substitution slips.
+
+## 2. Sub-topic Weightage (Pattern, Not Numbers)
+
+| Sub-topic | How often it appears | Typical exams |
+|---|---|---|
+| Symbol substitution (replace +, −, ×, ÷ with given meanings, then evaluate) | Most frequent — the backbone of the chapter | SSC all exams, IBPS, RRB |
+| Interchange of signs/numbers (which interchange makes the equation correct?) | Very frequent | SSC CGL/CHSL, RRB NTPC |
+| Correcting a false equation (choose the option that balances it) | Frequent | SSC, Banking |
+| Coded operations with words/letters (e.g., A means +, B means −) | Moderate | IBPS, SBI, State PCS |
+| BODMAS-based direct evaluation with altered precedence | Moderate | All exams |
+| Statement/inequality-based coded relations (P > Q type with symbols) | Rising trend in Banking | IBPS PO, SBI PO |
+
+**Trend note:** SSC and Railway keep the classic "interchange the signs" format alive; Banking exams increasingly wrap the same logic in coded-inequality language. Prepare both skins of the same animal.
+
+## 3. Exam-wise Distribution (Qualitative)
+
+- **SSC CGL / CHSL:** Symbol substitution + sign interchange dominate. Usually placed in the middle of the reasoning section; solvable in 30–45 seconds.
+- **SSC MTS / GD / RRB Group D:** Direct symbol decoding with small numbers. Pure speed questions — 15-second territory.
+- **RRB NTPC:** Mix of interchange questions and "which equation is correct" types.
+- **IBPS / SBI (PO & Clerk):** Coded operations with letters, sometimes chained with inequalities; slightly longer decoding step.
+- **State PCS prelims:** Occasional, but when asked, it is the classic substitution type — easy marks.
+
+## 4. Examiner's Traps — The Psychological Hooks
+
+1. **The "almost-right" option:** After decoding, two options differ only because one ignores BODMAS (left-to-right addition before division). The examiner *knows* you will rush the order of operations.
+2. **Trap of partial substitution:** The question changes the meaning of only two signs (say + and ÷), but candidates mentally swap all four. Options are designed around this exact slip.
+3. **Interchange confusion:** "Interchange × and +" vs "interchange the *numbers* 4 and 6" — two different instructions that look identical at a glance. Reading the stem twice is the only defence.
+4. **Division-by-zero / non-integer bait:** One option in "which interchange is correct" questions produces a fraction or division by zero. Candidates who don't check all options mark the first plausible one.
+5. **Negative marking psychology:** These questions *feel* easy, so candidates attempt them fast and carelessly. The examiner profits from overconfidence, not from difficulty.
+6. **Bracket blindness:** Decoded expressions with brackets are solved ignoring the bracket first — a classic error the options anticipate.
+
+## 5. Top 10 High-Yield PYQ-Style Questions (with Solutions & Trap Analysis)
+
+**Q1.** If '+' means '÷', '÷' means '×', '×' means '−' and '−' means '+', then 36 + 6 × 3 − 2 ÷ 7 = ?
+(a) 13 (b) 15 (c) 17 (d) 19
+**Answer: (c)**
+**Solution:** Decode using the table: '+' → ÷, '×' → −, '−' → +, '÷' → ×. The expression becomes 36 ÷ 6 − 3 + 2 × 7. Apply BODMAS: 36 ÷ 6 = 6 and 2 × 7 = 14, so 6 − 3 + 14 = 17.
+**Trap:** Partial substitution — swapping only two of the four signs yields a value that *is* planted among the options. Write the full decoded expression before computing.
+**Source:** PYQ-style
+
+**Q2.** Which interchange of signs makes the equation correct: 5 + 3 × 8 − 12 ÷ 4 = 3?
+(a) + and − (b) − and ÷ (c) + and ÷ (d) × and ÷
+**Answer: (b)**
+**Solution:** Interchanging − and ÷: 5 + 3 × 8 ÷ 12 − 4 = 5 + 2 − 4 = 3. ✔
+**Trap:** Option (a) gives a near-miss value if you forget that × binds before +.
+**Source:** PYQ-style
+
+**Q3.** If 'A' means '+', 'B' means '−', 'C' means '×', 'D' means '÷', then 18 D 3 A 2 B 5 C 2 = ?
+(a) −2 (b) 0 (c) 2 (d) 4
+**Answer: (a)**
+**Solution:** 18 ÷ 3 + 2 − 5 × 2 = 6 + 2 − 10 = −2.
+**Trap:** Candidates who compute 8 − 10 correctly get −2 but reject it, assuming answers must be positive — and pick (b). Negative answers are legitimate.
+**Source:** PYQ-style
+
+**Q4.** Select the correct equation after interchanging '×' and '+':
+(a) 2 + 3 × 4 = 14 (b) 3 × 4 + 2 = 11 (c) 4 + 2 × 3 = 24 (d) 2 × 3 + 4 = 10
+**Answer: (b)**
+**Solution:** Apply the interchange to each option. (a) → 2 × 3 + 4 = 10 ≠ 14. (b) → 3 + 4 × 2 = 3 + 8 = 11 ✔. (c) → 4 × 2 + 3 = 11 ≠ 24. (d) → 2 + 3 × 4 = 14 ≠ 10.
+**Trap:** Option (d) balances *before* the interchange (2 × 3 + 4 = 10) — it is planted to catch candidates who forget to transform the equation. Verify all four options after interchanging; never stop at the first close value.
+**Source:** PYQ-style
+
+**Q5.** If '×' means '+', '÷' means '−', '+' means '×' and '−' means '÷', then 8 × 4 ÷ 2 + 3 − 6 = ?
+(a) 9 (b) 10 (c) 11 (d) 12
+**Answer: (c)**
+**Solution:** Decode: 8 + 4 − 2 × 3 ÷ 6. Apply BODMAS: 2 × 3 = 6, then 6 ÷ 6 = 1, so 8 + 4 − 1 = 11.
+**Trap:** Sign-table misreading under time pressure — treating '÷' → '−' as '÷' → '+' gives 8 + 4 + 1 = 13, and candidates then force-fit the nearest option. Re-read the table once before computing.
+**Source:** PYQ-style
+
+**Q6.** If '÷' and '×' are interchanged, and the numbers 2 and 6 are also interchanged, then 12 + 6 ÷ 2 × 4 = ?
+(a) 9 (b) 12 (c) 15 (d) 18
+**Answer: (c)**
+**Solution:** Apply both interchanges: 6 → 2, 2 → 6, ÷ → ×, × → ÷. The expression becomes 12 + 2 × 6 ÷ 4 = 12 + 12 ÷ 4 = 12 + 3 = 15.
+**Trap:** Double interchange (signs AND numbers) — candidates apply only one of the two and land on a planted wrong option.
+**Skip verdict:** ⏭️ **Skip if not solved in 45 seconds** — double-interchange questions have the highest time-to-mark ratio in this chapter.
+**Source:** PYQ-style
+
+**Q7.** If 12 * 6 = 2, 8 * 4 = 2, 20 * 5 = 4, then 36 * 9 = ?
+(a) 2 (b) 3 (c) 4 (d) 6
+**Answer: (c)**
+**Solution:** '*' means division: 12 ÷ 6 = 2, 8 ÷ 4 = 2, 20 ÷ 5 = 4. So 36 ÷ 9 = 4.
+**Trap:** Option (d) 6 tempts those who compute 36 ÷ 6 by habit, carrying over the 6 from the first example.
+**Source:** PYQ-style
+
+**Q8.** Given: P means +, Q means −, R means ×, S means ÷. Find: 9 R 3 S 3 P 4 Q 2 = ?
+(a) 9 (b) 11 (c) 13 (d) 15
+**Answer: (b)**
+**Solution:** 9 × 3 ÷ 3 + 4 − 2 = 9 + 4 − 2 = 11.
+**Trap:** Many candidates compute 9 × 3 = 27, then 27 ÷ 3 = 9, then 9 + 4 = 13 — and *forget the final −2*, landing on (c) 13, which is planted precisely for that slip.
+**Source:** PYQ-style
+
+**Q9.** After interchanging '+' and '×', and the numbers 5 and 7, which equation is correct?
+(a) 5 + 7 × 2 = 24 (b) 7 × 5 + 2 = 18 (c) 5 × 2 + 7 = 16 (d) 7 + 2 × 5 = 17
+**Answer: (d)**
+**Solution:** Apply both interchanges to each option (5 ↔ 7, + ↔ ×). (a) → 7 × 2 + 5 = 19 ≠ 24. (b) → 5 + 7 × 2 = 19 ≠ 18. (c) → 7 + 2 × 5 = 17 ≠ 16. (d) → 5 × 2 + 7 = 10 + 7 = 17 ✔.
+**Trap:** Applying only one of the two interchanges (signs but not numbers, or vice versa) produces values that match the planted wrong options. Transform everything, then check.
+**Skip verdict:** ⏭️ **Borderline skip** — if checking all four options exceeds 45 seconds, mark and move on; return only if time remains.
+**Source:** PYQ-style
+
+**Q10.** If '−' means '×', '×' means '+', '+' means '÷' and '÷' means '−', then 8 − 2 × 8 + 1 ÷ 2 = ?
+(a) 20 (b) 22 (c) 24 (d) 26
+**Answer: (b)**
+**Solution:** Decode: 8 × 2 + 8 ÷ 1 − 2. Apply BODMAS: 8 × 2 = 16 and 8 ÷ 1 = 8, so 16 + 8 − 2 = 22.
+**Trap:** Examiners design clean integer answers. If your decoded expression yields an ugly fraction, treat it as an error alarm — re-read the symbol table instead of force-fitting the nearest option.
+**Source:** PYQ-style
+
+## 6. The 15-Second / 45-Second Rule — Reviewed for This Chapter
+
+- **15-second questions:** Direct symbol substitution with 3–4 terms and small numbers (Q1, Q3, Q7, Q8 pattern). Decode → BODMAS → mark. These are your *must-score* questions.
+- **45-second questions:** "Which interchange makes it correct" types (Q2, Q4, Q9 pattern). You may need to test 2–4 options. Budget 45 seconds; if the third option also fails, re-check arithmetic once, then decide.
+- **Skip candidates:** Double interchanges (signs + numbers together, Q6 pattern) and any question where your decoded value doesn't match any option after one re-check. In negative-marking exams, a skipped question costs 0; a rushed wrong one costs 0.25–0.5.
+- **Golden rule:** Never attempt these questions verbally in your head — write the decoded expression on the rough sheet. Most errors here are memory slips, not concept gaps.
+
+## 7. Key Takeaways
+
+1. Symbol substitution and sign interchange are the two formats that dominate every exam's paper.
+2. The arithmetic is easy; the **decoding discipline and BODMAS order** decide the mark.
+3. Options are engineered around predictable slips — partial substitution, forgotten last term, pre-interchange-correct equations.
+4. Treat single-interchange questions as 15-second bankers; treat double-interchange questions with the 45-second cap and a willingness to skip.
+5. Write, don't visualise. One line of rough work saves one negative mark.

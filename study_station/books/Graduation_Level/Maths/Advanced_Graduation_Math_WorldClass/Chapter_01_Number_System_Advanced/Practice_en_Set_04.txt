@@ -1,0 +1,151 @@
+प्रश्न 76–95: आसान | प्रश्न 96–100: मध्यम
+
+76. What is the remainder when 7^84 is divided by 342?
+(a) 49 (b) 1 (c) 7 (d) 343
+Answer: (b)
+Solution: Note that 7^3 = 343 ≡ 1 (mod 342). Since 84 = 3 × 28, we get 7^84 = (7^3)^28 ≡ 1^28 = 1 (mod 342). The tempting wrong option 7 comes from stopping at the first power instead of using the cube cycle, so the answer is 1.
+Source: PYQ-style
+
+77. The number 3^6 × 5^4 × 7^2 has how many factors that are perfect squares?
+(a) 48 (b) 36 (c) 24 (d) 12
+Answer: (c)
+Solution: A perfect-square factor needs even exponents: 3^6 allows 0, 2, 4, 6 (4 choices); 5^4 allows 0, 2, 4 (3 choices); 7^2 allows 0, 2 (2 choices). Total = 4 × 3 × 2 = 24. The trap option 12 comes from halving the exponents without adding 1, so the answer is 24.
+Source: NCERT Class 11 Mathematics
+
+78. Find the unit digit of 1! + 2! + 3! + … + 100!.
+(a) 3 (b) 4 (c) 7 (d) 9
+Answer: (a)
+Solution: From 5! onward every factorial ends in 0, so only 1! + 2! + 3! + 4! = 1 + 2 + 6 + 24 = 33 matters, giving unit digit 3. The trap option 4 comes from wrongly including the unit digit of 5!, so the answer is 3.
+Source: PYQ-style
+
+79. What is the largest power of 12 that divides 50!?
+(a) 24 (b) 48 (c) 47 (d) 22
+Answer: (d)
+Solution: 12 = 2^2 × 3. In 50!: power of 2 = 25 + 12 + 6 + 3 + 1 = 47, so power of 2^2 = ⌊47/2⌋ = 23; power of 3 = 16 + 5 + 1 = 22. The limiting factor is 3. The trap option 24 comes from using the 2^2 count and ignoring that 3 is scarcer, so the answer is 22.
+Source: PYQ-style
+
+80. If N = 2^4 × 3^3 × 5^2, how many factors of N are odd?
+(a) 8 (b) 20 (c) 16 (d) 12
+Answer: (d)
+Solution: Odd factors exclude the prime 2, so they come from 3^3 × 5^2: (3+1)(2+1) = 12. The trap option 20 comes from including the power of 2 in the count, so the answer is 12.
+Source: NCERT Class 11 Mathematics
+
+81. The HCF of two numbers is 13 and their LCM is 2730. If one number is 195, find the other.
+(a) 195 (b) 169 (c) 182 (d) 210
+Answer: (c)
+Solution: Product of numbers = HCF × LCM = 13 × 2730 = 35490. Other number = 35490 / 195 = 182. The trap option 169 = 13^2 looks neat but fails the product check, so the answer is 182.
+Source: NCERT Class 10 Mathematics
+
+82. What is the remainder when 2^1000 is divided by 7?
+(a) 1 (b) 6 (c) 2 (d) 4
+Answer: (c)
+Solution: Powers of 2 mod 7 cycle as 2, 4, 1 with period 3. Since 1000 = 3 × 333 + 1, 2^1000 ≡ 2^1 = 2 (mod 7). The trap option 1 comes from assuming 1000 is divisible by 3 (its digit sum is 1, so it is not), so the answer is 2.
+Source: PYQ-style
+
+83. A number when divided by 5 leaves remainder 3, and when divided by 7 leaves remainder 5. What is the smallest such positive number?
+(a) 18 (b) 33 (c) 38 (d) 68
+Answer: (b)
+Solution: Both conditions have divisor − remainder = 2, so N + 2 is divisible by both 5 and 7, i.e., by 35. Smallest N = 35 − 2 = 33. The trap option 38 comes from adding 3 instead of subtracting 2, so the answer is 33.
+Source: PYQ-style
+
+84. How many zeros are there at the end of 125!?
+(a) 25 (b) 32 (c) 30 (d) 31
+Answer: (d)
+Solution: Trailing zeros = ⌊125/5⌋ + ⌊125/25⌋ + ⌊125/125⌋ = 25 + 5 + 1 = 31. The trap option 30 forgets the extra factor contributed by 125 = 5^3, so the answer is 31.
+Source: PYQ-style
+
+85. If the number 4567x32 is divisible by 8, what is the sum of all possible values of x?
+(a) 10 (b) 15 (c) 20 (d) 25
+Answer: (c)
+Solution: Divisibility by 8 depends on the last three digits x32. Testing x = 0 to 9: 032, 232, 432, 632, 832 are divisible by 8, so x ∈ {0, 2, 4, 6, 8} and the sum is 20. The trap option 10 comes from taking only half the valid digits, so the answer is 20.
+Source: NCERT Class 8 Mathematics
+
+86. What is the remainder when (17^23 + 19^23) is divided by 36?
+(a) 12 (b) 18 (c) 0 (d) 24
+Answer: (c)
+Solution: For odd n, a^n + b^n is divisible by a + b. Here a + b = 17 + 19 = 36 and n = 23 is odd, so the sum is divisible by 36, leaving remainder 0. The trap option 18 comes from halving 36 without reason, so the answer is 0.
+Source: PYQ-style
+
+87. The sum of the digits of a two-digit number is 11. If the digits are reversed, the number increases by 27. Find the original number.
+(a) 47 (b) 56 (c) 65 (d) 74
+Answer: (a)
+Solution: Let the number be 10a + b with a + b = 11. Reversal adds 9(b − a) = 27, so b − a = 3. Solving, a = 4, b = 7, number = 47. The trap option 74 is the reversed number itself, so the answer is 47.
+Source: NCERT Class 10 Mathematics
+
+88. How many numbers between 100 and 1000 are divisible by both 6 and 9?
+(a) 50 (b) 51 (c) 49 (d) 100
+Answer: (a)
+Solution: A number divisible by both 6 and 9 is divisible by LCM(6, 9) = 18. Multiples of 18 from 108 to 990: count = (990 − 108)/18 + 1 = 50. The trap option 100 comes from dividing 900 by 9 instead of using the LCM, so the answer is 50.
+Source: NCERT Class 10 Mathematics
+
+89. What is the value of 1/(1×2) + 1/(2×3) + … + 1/(99×100)?
+(a) 99/100 (b) 98/99 (c) 1 (d) 100/99
+Answer: (a)
+Solution: Each term 1/(n(n+1)) = 1/n − 1/(n+1), so the series telescopes to 1 − 1/100 = 99/100. The trap option 1 comes from assuming the series sums to a whole, so the answer is 99/100.
+Source: NCERT Class 11 Mathematics
+
+90. The product of three consecutive positive integers is always divisible by which of the following?
+(a) 4 (b) 6 (c) 9 (d) 12
+Answer: (b)
+Solution: Among any three consecutive integers, one is divisible by 3 and at least one is even, so the product is divisible by 2 × 3 = 6. The trap option 12 fails (for example, 1×2×3 = 6 is not divisible by 12), so the answer is 6.
+Source: NCERT Class 10 Mathematics
+
+91. What is the smallest number which when increased by 7 becomes divisible by 12, 18 and 24?
+(a) 79 (b) 65 (c) 72 (d) 137
+Answer: (b)
+Solution: LCM(12, 18, 24) = 72. Required number = 72 − 7 = 65. The trap option 72 is the LCM itself, forgetting the "increased by 7" condition, so the answer is 65.
+Source: NCERT Class 10 Mathematics
+
+92. Find the last two digits of 7^86.
+(a) 01 (b) 49 (c) 43 (d) 07
+Answer: (b)
+Solution: Powers of 7 mod 100 cycle as 07, 49, 43, 01 with period 4. Since 86 = 4 × 21 + 2, 7^86 ends like 7^2 = 49. The trap option 01 comes from rounding 86 to the nearest multiple of 4, so the answer is 49.
+Source: PYQ-style
+
+93. A number N has exactly 15 factors. Which of the following can be its prime factorisation form (p, q distinct primes)?
+(a) p^15 (b) p q^7 (c) p^3 q^4 (d) p^4 q^2
+Answer: (d)
+Solution: The number of factors is the product of (exponent + 1) terms. For p^4 q^2 it is 5 × 3 = 15, which matches. The trap option p^15 gives 16 factors and p^3 q^4 gives 20, so the answer is p^4 q^2.
+Source: NCERT Class 11 Mathematics
+
+94. What is the remainder when 1^5 + 2^5 + 3^5 + … + 100^5 is divided by 4?
+(a) 3 (b) 1 (c) 2 (d) 0
+Answer: (d)
+Solution: Mod 4, even terms contribute 0 (since 2^5 = 32 ≡ 0), while odd terms give 1^5 ≡ 1 and 3^5 ≡ 3. Among 1 to 100 there are 25 odd numbers ≡ 1 and 25 ≡ 3 (mod 4), summing to 25(1 + 3) = 100 ≡ 0 (mod 4). The trap option 2 comes from miscounting the odd terms, so the answer is 0.
+Source: PYQ-style
+
+95. The LCM of two numbers is 495 and their HCF is 5. If the sum of the numbers is 100, find the difference of the numbers.
+(a) 10 (b) 20 (c) 30 (d) 40
+Answer: (a)
+Solution: Let the numbers be 5a and 5b with gcd(a, b) = 1. Then 5ab = 495 gives ab = 99, and 5(a + b) = 100 gives a + b = 20. The coprime pair is 9 and 11, so the numbers are 45 and 55. The trap option 20 misreads a + b as the difference, so the answer is 10.
+Source: NCERT Class 10 Mathematics
+
+96. How many integers from 1 to 300 are divisible by neither 3 nor 5?
+(a) 150 (b) 160 (c) 140 (d) 180
+Answer: (b)
+Solution: Divisible by 3: 100; by 5: 60; by 15: 20. Divisible by 3 or 5 = 100 + 60 − 20 = 140, so neither = 300 − 140 = 160. The trap option 140 is the count divisible by at least one of them, so the answer is 160.
+Source: NCERT Class 11 Mathematics
+
+97. If 2^(2x−1) = 8^(3−x), find x.
+(a) 2 (b) 3 (c) 4 (d) 5
+Answer: (a)
+Solution: 8^(3−x) = 2^(9−3x). Equating exponents: 2x − 1 = 9 − 3x, so 5x = 10 and x = 2. The trap option 5 comes from mishandling 5x = 10, so the answer is 2.
+Source: NCERT Class 9 Mathematics
+
+98. What is the greatest four-digit number which when divided by 15, 25, 40 and 75 leaves remainder 9 in each case?
+(a) 9609 (b) 9909 (c) 9999 (d) 9009
+Answer: (a)
+Solution: LCM(15, 25, 40, 75) = 600. The greatest four-digit multiple of 600 is 9600; adding the remainder gives 9600 + 9 = 9609. The trap option 9909 fails because 9900 is not a multiple of 600, so the answer is 9609.
+Source: NCERT Class 10 Mathematics
+
+99. The number 10^N − 1 (N digits, all 9s) is always divisible by which of the following for every positive integer N?
+(a) 7 (b) 11 (c) 9 (d) 13
+Answer: (c)
+Solution: 10^N − 1 = 999…9 = 9 × (111…1), so it is always divisible by 9. Divisibility by 11 holds only for even N, and by 7 or 13 only for specific N, so the answer is 9.
+Source: NCERT Class 9 Mathematics
+
+100. If a and b are positive integers such that a^2 − b^2 = 45, how many ordered pairs (a, b) are possible?
+(a) 5 (b) 2 (c) 4 (d) 3
+Answer: (d)
+Solution: (a − b)(a + b) = 45 with both factors odd, which works for all factor pairs of 45: (1, 45), (3, 15), (5, 9), giving (a, b) = (23, 22), (9, 6), (7, 2). The trap option 5 counts reversed factor pairs as separate solutions, so the answer is 3.
+Source: PYQ-style

@@ -1,0 +1,46 @@
+```mermaid
+graph TD
+    A["ज्यामिति<br>Geometry"] --> B["रेखाएँ और कोण<br>Lines & Angles"]
+    A --> C["त्रिभुज<br>Triangles"]
+    A --> D["चतुर्भुज<br>Quadrilaterals"]
+    A --> E["वृत्त<br>Circles"]
+    A --> F["बहुभुज<br>Polygons"]
+    A --> G["समरूपता और सर्वांगसमता<br>Similarity & Congruence"]
+    A --> H["निर्देशांक ज्यामिति<br>Coordinate Geometry"]
+    A --> I["क्षेत्रमिति<br>Mensuration"]
+
+    B --> B1["कोण के प्रकार<br>Types of Angles"]
+    B --> B2["समांतर रेखाएँ और तिर्यक रेखा<br>Parallel Lines & Transversal"]
+    B --> B3["रैखिक युग्म और शीर्षाभिमुख कोण<br>Linear Pair & Vertically Opposite"]
+
+    C --> C1["त्रिभुज के प्रकार<br>Types of Triangles"]
+    C --> C2["पाइथागोरस प्रमेय<br>Pythagoras Theorem"]
+    C --> C3["केंद्र: केन्द्रक, लम्बकेंद्र, परिकेंद्र, अन्तःकेंद्र<br>Centroid, Orthocentre, Circumcentre, Incentre"]
+    C --> C4["माध्यिका और कोण समद्विभाजक<br>Median & Angle Bisector"]
+    C --> C5["क्षेत्रफल सूत्र<br>Area Formulas"]
+
+    D --> D1["समांतर चतुर्भुज<br>Parallelogram"]
+    D --> D2["आयत और वर्ग<br>Rectangle & Square"]
+    D --> D3["समचतुर्भुज<br>Rhombus"]
+    D --> D4["समलंब चतुर्भुज<br>Trapezium"]
+
+    E --> E1["जीवा और स्पर्श रेखा<br>Chord & Tangent"]
+    E --> E2["केंद्रीय कोण और परिधि कोण<br>Central & Inscribed Angle"]
+    E --> E3["चक्रीय चतुर्भुज<br>Cyclic Quadrilateral"]
+    E --> E4["खंड और वृत्तखंड<br>Segment & Sector"]
+
+    F --> F1["आंतरिक और बाह्य कोण<br>Interior & Exterior Angles"]
+    F --> F2["विकर्णों की संख्या<br>Number of Diagonals"]
+
+    G --> G1["AAA, SSS, SAS कसौटियाँ<br>AAA, SSS, SAS Criteria"]
+    G --> G2["थेल्स प्रमेय / BPT<br>Thales Theorem / BPT"]
+    G --> G3["क्षेत्रफल अनुपात = भुजा² का अनुपात<br>Area Ratio = Square of Side Ratio"]
+
+    H --> H1["दूरी सूत्र<br>Distance Formula"]
+    H --> H2["विभाजन सूत्र<br>Section Formula"]
+    H --> H3["त्रिभुज का क्षेत्रफल<br>Area of Triangle"]
+    H --> H4["रेखा की प्रवणता<br>Slope of Line"]
+
+    I --> I1["2D: क्षेत्रफल और परिमाप<br>2D: Area & Perimeter"]
+    I --> I2["3D: आयतन और पृष्ठीय क्षेत्रफल<br>3D: Volume & Surface Area"]
+```

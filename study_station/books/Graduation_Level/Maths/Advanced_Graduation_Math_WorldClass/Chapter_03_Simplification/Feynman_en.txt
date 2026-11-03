@@ -1,0 +1,71 @@
+# BODMAS Explained Simply (Feynman Technique)
+
+The Feynman Technique means: if you can explain an idea in simple words, as if to a child, you truly understand it. Let's do that with BODMAS.
+
+## The Sweet Shop Problem
+
+Imagine you run a sweet shop. A customer gives you this instruction:
+
+"Take 2 boxes of laddoos, each box has 10 laddoos, and add 5 loose laddoos."
+
+You write it as a maths expression:
+
+**2 × 10 + 5**
+
+Now two shop assistants calculate it differently:
+
+- Assistant A goes left to right: 2 × 10 = 20, then 20 + 5 = **25** ✓
+- Assistant B adds first: 10 + 5 = 15, then 2 × 15 = **30** ✗
+
+Both used the same numbers but got different answers! A shop cannot run like this — maths must give **one correct answer every time**. That is why the world agreed on a fixed **order of operations**. In India we call it **BODMAS**.
+
+## What BODMAS Stands For
+
+| Letter | Meaning | Do it |
+|---|---|---|
+| **B** | Brackets ( ), { }, [ ] | First |
+| **O** | Orders (powers, roots, e.g. 5², √9) | Second |
+| **D** | Division (÷) | Third — left to right with M |
+| **M** | Multiplication (×) | Third — left to right with D |
+| **A** | Addition (+) | Last — left to right with S |
+| **S** | Subtraction (−) | Last — left to right with A |
+
+**Important:** D and M have equal rank — solve whichever comes first from the left. Same for A and S.
+
+## Example 1 (the shop problem)
+
+2 × 10 + 5
+= 20 + 5 (multiplication before addition)
+= **25**
+
+## Example 2 (with a bracket)
+
+2 × (10 + 5)
+= 2 × 15 (bracket first)
+= **30**
+
+See how the bracket changes the answer completely!
+
+## Example 3 (exam style)
+
+24 ÷ 4 × 2 + 6 − 3
+= 6 × 2 + 6 − 3 (division first, left to right)
+= 12 + 6 − 3 (then multiplication)
+= 18 − 3 (then addition)
+= **15**
+
+## The One-Line Memory Trick
+
+**"Brackets first, then powers, then × and ÷ left-to-right, then + and − left-to-right."**
+
+## Common Traps in Exams
+
+1. **Adding before multiplying:** In 3 + 4 × 2, the answer is 11, not 14.
+2. **Ignoring left-to-right:** In 20 ÷ 5 × 2, do division first (it comes first from the left): 4 × 2 = 8, not 20 ÷ 10 = 2.
+3. **Bar (vinculum):** In expressions like 5 + 3̅ (a bar over numbers), treat the bar as a bracket and solve it first.
+
+## Test Yourself (Explain It Back)
+
+Close this file and explain to a friend — or to yourself aloud — why 6 + 3 × 4 equals 18 and not 36. If you can do it in one simple sentence, you have mastered BODMAS the Feynman way.
+
+*Source: NCERT Class 6–7 Mathematics (Simplification of expressions)*

@@ -1,3 +1,149 @@
-# Chapter: Geometry, Level: intermediate
+# 🪄 Geometry — Short Tricks & Memory Aids
 
-@content_agent lang=en level=intermediate role='mnemonic specialist' 'Create 10-15 fun and outrageous memory tricks (Mnemonics) for all key formulas, rules and concepts of Geometry. Each trick should be unforgettable. Use Keyword Method, Loci, or Acronyms wherever possible. Present each trick in a separate box.'
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 1 — Angle Sum of Polygon: "Minus 2, Times 180"** │
+└─────────────────────────────────────────────┘
+**Memory Hook:** Imagine the polygon is a pizza. Cut off 2 slices for the "tax man" (−2), then each remaining slice is worth 180°.
+- Sum of interior angles = **(n − 2) × 180°**
+- Each interior angle of regular polygon = (n − 2) × 180° / n
+- **Keyword:** "TAX-2" → subtract 2, multiply by 180.
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 2 — Exterior Angles: "The 360 Walk"** │
+└─────────────────────────────────────────────┘
+**Loci Trick:** Picture yourself walking around any polygon. When you return to the start, you've turned one full circle — **360°**, always, no matter how many sides!
+- Sum of exterior angles = **360°** (any polygon)
+- Each exterior angle of regular polygon = 360°/n
+- Number of sides n = 360° ÷ (one exterior angle)
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 3 — Triangle Types by Angles: "ARO"** │
+└─────────────────────────────────────────────┘
+**Acronym: A-R-O** (like "arrow" without the second R)
+- **A**cute → **A**ll angles < 90°
+- **R**ight → **R**ight angle = 90°
+- **O**btuse → **O**ne angle > 90°
+**Memory line:** *"An ARROW flies Acute, lands Right, or falls Obtuse."*
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 4 — Pythagoras: "The Hungry Hypotenuse"** │
+└─────────────────────────────────────────────┘
+**Story:** The Hypotenuse is the longest, hungriest side — it eats the squares of BOTH other sides!
+- **H² = P² + B²** (Hypotenuse² = Perpendicular² + Base²)
+- **Keyword:** "H eats P and B" — H is always alone on one side.
+- Common triplets to memorize: **(3,4,5), (5,12,13), (8,15,17), (7,24,25)**
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 5 — Circle Formulas: "Pie Are Squared"** │
+└─────────────────────────────────────────────┘
+**Outrageous line:** *"Pie are not round — Pie are SQUARED!"* (π r²)
+- Area = **πr²** ("Pie are squared")
+- Circumference = **2πr** ("Two pies in a row" → 2-π-r)
+- Semicircle area = πr²/2; Perimeter of semicircle = πr + 2r (don't forget the diameter!)
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 6 — Cyclic Quadrilateral: "Opposite Couples Fight to 180"** │
+└─────────────────────────────────────────────┘
+**Story:** In a cyclic quadrilateral, opposite angles are like quarrelling couples — they always make up to **180°**.
+- ∠A + ∠C = 180°, ∠B + ∠D = 180°
+- **Keyword:** "CIRCLE = COUPLES = 180"
+- Bonus: Exterior angle of cyclic quad = interior opposite angle.
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 7 — Tangent & Radius: "The Polite 90° Handshake"** │
+└─────────────────────────────────────────────┘
+**Loci Trick:** Wherever a tangent touches a circle, the radius rushes out to shake hands — always at exactly **90°**.
+- Tangent ⊥ Radius at point of contact
+- Two tangents from an external point are **equal** ("Twins from the same house").
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 8 — Angle at Centre: "The Boss Sees Double"** │
+└─────────────────────────────────────────────┘
+**Story:** The centre is the BOSS of the circle. Whatever angle the circumference sees, the boss sees **DOUBLE**.
+- Angle at centre = **2 ×** angle at circumference (same arc)
+- Angle in a semicircle = **90°** (boss sees 180°, you see half!)
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 9 — Similar Triangles: "AAA — The Battery Test"** │
+└─────────────────────────────────────────────┘
+**Acronym:** Similarity tests = **AAA, SSS, SAS** — think of batteries (AAA) powering your proof!
+- **AAA** → all angles equal
+- **SSS** → sides proportional
+- **SAS** → two sides proportional + included angle equal
+- **Keyword:** "Similar = Same SHAPE, different SIZE."
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 10 — Congruence: "S-S-S-A Party, but No A-S-S!"** │
+└─────────────────────────────────────────────┘
+**Memory line:** Congruence tests are **SSS, SAS, ASA, AAS, RHS** — but **ASS/AAA is NOT allowed at the party!**
+- AAA only proves similarity, never congruence.
+- **RHS** = Right angle–Hypotenuse–Side (only for right triangles) — "Royal Highness Special" rule.
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 11 — Quadrilateral Areas: "Trap-ezoid = Average Couple × Height"** │
+└─────────────────────────────────────────────┘
+**Story:** A trapezium has two parallel sides (a couple). Their area = the couple's **average** × height.
+- Trapezium area = **½ × (sum of parallel sides) × height**
+- Parallelogram = base × height ("Just a rectangle that leaned over!")
+- Rhombus = **½ × d₁ × d₂** ("Diamonds are cut in half — twice!")
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 12 — Complementary vs Supplementary: "C comes before S, 90 before 180"** │
+└─────────────────────────────────────────────┘
+**Alphabet Trick:** In the dictionary, **C**omplementary comes before **S**upplementary — and **90** comes before **180**.
+- Complementary → sum = **90°** ("Corner" of a square = 90°)
+- Supplementary → sum = **180°** ("Straight" line = 180°)
+- **Keyword:** C-Corner-90, S-Straight-180.
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 13 — Triangle Inequality: "The Lazy Shortcut Rule"** │
+└─────────────────────────────────────────────┘
+**Story:** Two sides of a triangle together must beat the third — because going via two sides is the "long way round." A straight line (third side) is always the lazy shortcut!
+- Sum of any two sides **>** third side
+- Difference of any two sides **<** third side
+- **Quick check:** add the two smallest sides — must exceed the largest.
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 14 — Chord & Perpendicular: "The Fair Axe"** │
+└─────────────────────────────────────────────┘
+**Story:** A perpendicular dropped from the centre to a chord is a FAIR AXE — it splits the chord into two perfectly equal halves.
+- Perpendicular from centre **bisects** the chord.
+- Equal chords are **equidistant** from the centre ("Equal chords, equal respect!")
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 15 — Sector & Arc: "The Pizza Fraction"** │
+└─────────────────────────────────────────────┘
+**Loci Trick:** A sector is just a pizza slice — everything is the fraction **θ/360** of the whole circle!
+- Arc length = (θ/360) × 2πr
+- Sector area = (θ/360) × πr²
+- **Keyword:** "Whatever fraction of the pizza, that fraction of the formula."

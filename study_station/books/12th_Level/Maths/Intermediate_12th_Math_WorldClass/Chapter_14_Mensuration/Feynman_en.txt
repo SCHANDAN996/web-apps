@@ -1,3 +1,59 @@
-# Chapter: Mensuration, Level: intermediate
+# The Trickiest Idea in Mensuration — Explained Like You're 12
 
-@content_agent lang=en level=intermediate role='a teacher like Richard Feynman' 'Explain the hardest concept of Mensuration so simply that a 12-year-old can understand. Weave a fun real-life story. Give a trick that they will never forget. End with a question.
+## The Pizza Problem 🍕
+
+Meet Rohan. His mom orders two pizzas: one small (radius 7 cm) and one large (radius 14 cm). The large one costs double. Rohan says, "That's fair — double the size, double the price!"
+
+But wait. Is the large pizza really *double* the food?
+
+The radius doubled, yes. But the **area** of a circle is πr². That little "squared" is the villain of our story.
+
+- Small pizza: π × 7² = 49π ≈ 154 cm²
+- Large pizza: π × 14² = 196π ≈ 616 cm²
+
+The large pizza is **four times** the food, not two! Rohan's mom got a bargain, and Rohan learned the hardest lesson in mensuration:
+
+> **Length grows once. Area grows squared. Volume grows cubed.**
+
+## Why This Confuses Everyone
+
+Our brain loves straight lines. Double the side of a square, and we *feel* it should double everything. But:
+
+- Side doubled → perimeter doubles (×2)
+- Side doubled → area becomes 4 times (×2²)
+- Side doubled → volume becomes 8 times (×2³)
+
+This one idea hides inside almost every tough mensuration question: "If the radius is doubled, what happens to the volume of the cylinder?" Answer: ×4 (because volume has r² in it). "Radius tripled?" → ×9. The exam is really just testing whether you remember the pizza.
+
+## Surface Area vs Volume — The Chocolate Wrapper 🍫
+
+Second confusion: what's the difference between surface area and volume?
+
+Think of a chocolate bar:
+
+- **Volume** = how much chocolate is *inside* (the stuff you eat). Measured in cm³.
+- **Surface area** = how much *wrapper* you need to cover it. Measured in cm².
+
+You eat volume. You wrap surface area. That's it. Never mix them again.
+
+## The Never-Forget Trick 🧠
+
+**"The Square Follows the Shape."**
+
+Look at any area or volume formula and count how many lengths are multiplied:
+
+- Area of square = s × s → **two** lengths → unit cm²
+- Volume of cube = s × s × s → **three** lengths → unit cm³
+- Volume of cylinder = π × r × r × h → **three** lengths → cm³
+
+If your answer's unit doesn't match the count, you picked the wrong formula. Area answers can never be in cm³, and volume answers can never be in cm². The unit is your free error-checker on every single question.
+
+And for the scaling trick, remember the chant:
+
+> **"Double the size? Square for area, cube for volume — that's the prize!"**
+
+## Your Turn 🤔
+
+Rohan is back at the pizza shop. This time the shop offers a pizza with **triple** the radius of the small one, at triple the price.
+
+Is it a good deal — and exactly how many small pizzas' worth of food does he get?

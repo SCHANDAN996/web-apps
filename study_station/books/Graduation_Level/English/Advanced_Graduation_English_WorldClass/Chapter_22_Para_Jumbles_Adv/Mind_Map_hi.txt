@@ -1,0 +1,34 @@
+```mermaid
+graph TD
+    A["उन्नत पैरा जम्बल्स<br>Advanced Para Jumbles"] --> B["पहला वाक्य खोजें<br>Find the Opener"]
+    A --> C["ज़रूरी जोड़े बनाएँ<br>Mandatory Pairs"]
+    A --> D["विकल्पों का उपयोग<br>Use the Options"]
+    A --> E["प्रश्नों के प्रकार<br>Question Types"]
+    A --> F["समय प्रबंधन<br>Time Management"]
+    A --> G["परीक्षक के जाल<br>Examiner's Traps"]
+
+    B --> B1["विषय या पूरा नाम बताता है<br>Introduces the topic"]
+    B --> B2["शुरुआत में सर्वनाम या जोड़ने वाला शब्द नहीं<br>No pronoun or connector"]
+
+    C --> C1["संज्ञा के बाद सर्वनाम<br>Pronoun after noun"]
+    C --> C2["पहले A, फिर The"]
+    C --> C3["This / These पीछे की ओर इशारा<br>Point back"]
+    C --> C4["However, Therefore, Also"]
+    C --> C5["First → Then → Finally"]
+    C --> C6["कारण → परिणाम<br>Cause → Effect"]
+
+    D --> D1["पक्का जोड़ा तोड़ने वाले विकल्प हटाएँ<br>Strike out options"]
+    D --> D2["अंतिम क्रम एक बार पढ़ें<br>Read once"]
+
+    E --> E1["P, Q, R, S का क्रम<br>Arrange"]
+    E --> E2["S1 और S6 तय<br>Fixed Ends"]
+    E --> E3["पहला / अंतिम वाक्य<br>First / Last"]
+    E --> E4["बेमेल वाक्य<br>Odd One Out"]
+
+    F --> F1["15 सेकंड: पहला/अंतिम वाक्य"]
+    F --> F2["45 सेकंड: पूरा क्रम"]
+
+    G --> G1["This से शुरू झूठा पहला वाक्य<br>False Opener"]
+    G --> G2["सर्वनाम दो वाक्यों में फिट<br>Pronoun Fits Two"]
+    G --> G3["उदाहरण को निष्कर्ष समझना<br>Example as Conclusion"]
+```

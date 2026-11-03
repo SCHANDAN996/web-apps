@@ -1,0 +1,34 @@
+```mermaid
+graph TD
+    A["दर्पण/जल प्रतिबिंब<br>Mirror & Water Images"] --> B["दर्पण प्रतिबिंब<br>Mirror Image"]
+    A --> C["जल प्रतिबिंब<br>Water Image"]
+    A --> D["रणनीतियाँ<br>Strategies"]
+    A --> E["समय प्रबंधन<br>Time Management"]
+    A --> F["परीक्षक के जाल<br>Common Traps"]
+
+    B --> B1["दर्पण दाईं/बाईं ओर<br>Mirror on Right/Left"]
+    B --> B2["बायाँ ⇄ दायाँ उलटता है<br>Left ⇄ Right reverses"]
+    B --> B3["ऊपर-नीचे वही रहता है<br>Top-Bottom unchanged"]
+    B --> B4["अक्षर/अंक/घड़ी/आकृति<br>Letters, Numbers, Clock, Figures"]
+
+    C --> C1["पानी नीचे मानें<br>Water surface below"]
+    C --> C2["ऊपर ⇄ नीचे उलटता है<br>Top ⇄ Bottom reverses"]
+    C --> C3["बायाँ-दायाँ वही रहता है<br>Left-Right unchanged"]
+    C --> C4["घड़ी का जल प्रतिबिंब<br>Clock Water Image"]
+
+    D --> D1["विकल्पों से उलटा मिलान<br>Eliminate options first"]
+    D --> D2["कागज़ पर आकृति पलटकर देखें<br>Flip the paper mentally"]
+    D --> D3["घड़ी: 11:60 − समय (दर्पण)<br>Clock Mirror: 11:60 − time"]
+    D --> D4["घड़ी: 18:30 − समय (जल)<br>Clock Water: 18:30 − time"]
+    D --> D5["असममित अक्षर पहचानें<br>Spot asymmetric letters"]
+
+    E --> E1["सरल प्रश्न: 15 सेकंड<br>Easy: 15 seconds"]
+    E --> E2["जटिल आकृति: 45 सेकंड<br>Complex: 45 seconds"]
+    E --> E3["अटके तो छोड़ें, बाद में आएँ<br>Skip & return if stuck"]
+
+    F --> F1["दर्पण और जल में भ्रम<br>Confusing mirror vs water"]
+    F --> F2["सममित अक्षर (A, H, O) का भ्रम<br>Symmetric letters look same"]
+    F --> F3["घड़ी में 12:00 का विशेष मामला<br>Special case: 12:00"]
+    F --> F4["दर्पण ऊपर/नीचे रखा हो तो<br>Mirror placed top/bottom = water-like"]
+    F --> F5["लगभग-समान विकल्प<br>Near-identical options"]
+```

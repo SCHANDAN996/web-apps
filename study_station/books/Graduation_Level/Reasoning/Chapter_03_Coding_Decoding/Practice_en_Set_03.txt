@@ -1,0 +1,151 @@
+Questions 51–75: Medium
+
+51. In a certain code, "MASTER" is written as "NZHUVI". How is "DOCTOR" written in that code?
+(a) WKXGLI (b) WLXGRI (c) WLXHLI (d) WLXGLI
+Answer: (d)
+Solution: The trap is to shift letters by a fixed number; here each letter is replaced by its reverse-position letter (A↔Z, B↔Y, …). M→N, A→Z, S→H, T→G, E→V, R→I gives NZHUVI, and D→W, O→L, C→X, T→G, O→L, R→I, so the answer is WLXGLI.
+Source: PYQ-style
+
+52. In a code, "PENCIL" is written as "RGPENK". How will "ERASER" be written?
+(a) GTCVGT (b) GTCUGT (c) FTCUGT (d) GTCUGS
+Answer: (b)
+Solution: Each letter is shifted +2: P→R, E→G, N→P, C→E, I→K, L→N. The trap is shifting only some letters or using +1. For ERASER: E→G, R→T, A→C, S→U, E→G, R→T, so the answer is GTCUGT.
+Source: PYQ-style
+
+53. If "DELHI" is coded as "73541" and "CALCUTTA" as "82589662", how will "CALICUT" be coded?
+(a) 8251896 (b) 8251968 (c) 8258196 (d) 8521896
+Answer: (a)
+Solution: Map letters from CALCUTTA = 82589662: C=8, A=2, L=5, I=1, U=9, T=6. The trap is misreading the repeated C in the middle of CALICUT. CALICUT = C-A-L-I-C-U-T = 8-2-5-1-8-9-6, so the answer is 8251896.
+Source: PYQ-style
+
+54. In a certain code, "APPLE" is written as "CRRNG". How is "ORANGE" written in that code?
+(a) QTCPIG (b) QTBPIG (c) QUDPIG (d) QTCQIG
+Answer: (a)
+Solution: Each letter moves +2: A→C, P→R, P→R, L→N, E→G. The trap is applying +2 to only the first few letters. For ORANGE: O→Q, R→T, A→C, N→P, G→I, E→G, so the answer is QTCPIG.
+Source: PYQ-style
+
+55. In a code language, "TIGER" is written as "VKIGT". How will "LION" be written?
+(a) NKQP (b) NJQP (c) NKQO (d) NKPQ
+Answer: (a)
+Solution: Each letter moves +2: T→V, I→K, G→I, E→G, R→T. The trap is stopping the shift at the last letter. For LION: L→N, I→K, O→Q, N→P, so the answer is NKQP.
+Source: PYQ-style
+
+56. If "ROSE" is coded as "6821", "CHAIR" as "73456" and "PREACH" as "961473", what is the code for "SEARCH"?
+(a) 246173 (b) 216473 (c) 214763 (d) 214673
+Answer: (d)
+Solution: From ROSE: R=6, O=8, S=2, E=1; from CHAIR: C=7, H=3, A=4. The trap is swapping the digits of A and R. SEARCH = S-E-A-R-C-H = 2-1-4-6-7-3, so the answer is 214673.
+Source: PYQ-style
+
+57. In a certain code, "MONKEY" is written as "XDJMNL". How is "TIGER" written in that code?
+(a) SHFDQ (b) QDFHS (c) QDHFS (d) QFDHS
+Answer: (b)
+Solution: The word is reversed and each letter shifted −1: MONKEY reversed is YEKNOM, and Y−1=X, E−1=D, K−1=J, N−1=M, O−1=N, M−1=L. The trap is shifting without reversing. For TIGER reversed = REGIT: R−1=Q, E−1=D, G−1=F, I−1=H, T−1=S, so the answer is QDFHS.
+Source: PYQ-style
+
+58. If A = 1, B = 2, …, Z = 26, and the code of a word is the sum of its letters' values, what is the code of "CAB"?
+(a) 6 (b) 5 (c) 7 (d) 8
+Answer: (a)
+Solution: The trap is counting letters instead of adding values. C=3, A=1, B=2, and 3+1+2 = 6, so the answer is 6.
+Source: PYQ-style
+
+59. In a code, "MOTHER" is written as "NPUIFS". How will "FATHER" be written?
+(a) GBUJFS (b) GBUIFS (c) GBUIFR (d) GBVHFS
+Answer: (b)
+Solution: Each letter moves +1: M→N, O→P, T→U, H→I, E→F, R→S. The trap is shifting the last letter by +2 or leaving it unchanged. For FATHER: F→G, A→B, T→U, H→I, E→F, R→S, so the answer is GBUIFS.
+Source: PYQ-style
+
+60. In a certain code, "123" means "hot filtered coffee", "356" means "very hot day" and "589" means "day and night". Which digit stands for "very"?
+(a) 5 (b) 3 (c) 6 (d) 9
+Answer: (c)
+Solution: "hot" is common to the first two codes, so 3 = hot; "day" is common to the last two, so 5 = day. The trap is picking 5, which actually stands for "day". In "356" = "very hot day", removing 3 and 5 leaves 6, so the answer is 6.
+Source: PYQ-style
+
+61. In a code, "MANGO" is written as "NZOHP". How is "GRAPE" written?
+(a) HSAPF (b) HSBQG (c) HSBQF (d) HSBPF
+Answer: (c)
+Solution: Each letter moves +1 with wrap-around: M→N, A→Z, N→O, G→H, O→P. The trap is forgetting that A wraps to Z. For GRAPE: G→H, R→S, A→B, P→Q, E→F, so the answer is HSBQF.
+Source: PYQ-style
+
+62. If "WATER" is coded as "XBUFS", how is "EARTH" coded?
+(a) FBTUI (b) FBSVI (c) FBSUI (d) FASUI
+Answer: (c)
+Solution: Each letter moves +1: W→X, A→B, T→U, E→F, R→S. The trap is shifting R by +2. For EARTH: E→F, A→B, R→S, T→U, H→I, so the answer is FBSUI.
+Source: PYQ-style
+
+63. In a certain code, "BRAIN" is written as "DTCKP". How will "SMART" be written?
+(a) UOCSV (b) UNCTV (c) UOCTV (d) UOCTU
+Answer: (c)
+Solution: Each letter moves +2: B→D, R→T, A→C, I→K, N→P. The trap is using +2 for consonants but +1 for the last letter. For SMART: S→U, M→O, A→C, R→T, T→V, so the answer is UOCTV.
+Source: PYQ-style
+
+64. In a code language, "COLD" is written as "DPME". How is "WARM" written?
+(a) XBRN (b) XBSO (c) XASN (d) XBSN
+Answer: (d)
+Solution: Each letter moves +1: C→D, O→P, L→M, D→E. The trap is shifting the last letter by +2. For WARM: W→X, A→B, R→S, M→N, so the answer is XBSN.
+Source: PYQ-style
+
+65. If "TABLE" is coded as "GZYOV", how is "CHAIR" coded?
+(a) XSZQI (b) XSZRI (c) XSZRJ (d) XSZRH
+Answer: (b)
+Solution: Each letter is replaced by its reverse-alphabet counterpart: T→G, A→Z, B→Y, L→O, E→V. The trap is using a +1 shift instead of the mirror pattern. For CHAIR: C→X, H→S, A→Z, I→R, R→I, so the answer is XSZRI.
+Source: PYQ-style
+
+66. In a code, "BOOK" is written as "CPPL". How is "PEN" written?
+(a) QFO (b) QFN (c) PFO (d) QFP
+Answer: (a)
+Solution: Each letter moves +1: B→C, O→P, O→P, K→L. The trap is shifting only the first letter. For PEN: P→Q, E→F, N→O, so the answer is QFO.
+Source: PYQ-style
+
+67. In a code, "FISH" is written as "GJTI". How is "BIRD" written?
+(a) CJTE (b) CJSF (c) CITE (d) CJSE
+Answer: (d)
+Solution: Each letter moves +1: F→G, I→J, S→T, H→I. The trap is shifting the last letter by +2. For BIRD: B→C, I→J, R→S, D→E, so the answer is CJSE.
+Source: PYQ-style
+
+68. If "GOOD" is coded as "HQQF", how is "BEST" coded?
+(a) CGUV (b) CFUV (c) CGTU (d) CFTU
+Answer: (a)
+Solution: The first letter moves +1 and the remaining letters move +2: G→H, O→Q, O→Q, D→F. The trap is applying +1 to every letter, which gives CFTU. For BEST: B→C, E→G, S→U, T→V, so the answer is CGUV.
+Source: PYQ-style
+
+69. In a code, "FIVE" is written as "GJWF". How is "NINE" written?
+(a) OJPF (b) OJOG (c) OJOF (d) OIOF
+Answer: (c)
+Solution: Each letter moves +1: F→G, I→J, V→W, E→F. The trap is leaving the last letter unchanged. For NINE: N→O, I→J, N→O, E→F, so the answer is OJOF.
+Source: PYQ-style
+
+70. If "CHAIR" is coded as "DIBJS", how is "TABLE" coded?
+(a) UBCME (b) UCCMF (c) UABMF (d) UBCMF
+Answer: (d)
+Solution: Each letter moves +1: C→D, H→I, A→B, I→J, R→S. The trap is shifting the middle vowel by +2. For TABLE: T→U, A→B, B→C, L→M, E→F, so the answer is UBCMF.
+Source: PYQ-style
+
+71. In a code, "RED" is written as "SFE". How is "BLUE" written?
+(a) CMUF (b) CMVF (c) CNVF (d) BMVF
+Answer: (b)
+Solution: Each letter moves +1: R→S, E→F, D→E. The trap is shifting the vowels differently from the consonants. For BLUE: B→C, L→M, U→V, E→F, so the answer is CMVF.
+Source: PYQ-style
+
+72. If "MANGO" is coded as "OCPIQ", how is "APPLE" coded?
+(a) CRRNG (b) CQRNG (c) CRRNH (d) CRRNF
+Answer: (a)
+Solution: Each letter moves +2: M→O, A→C, N→P, G→I, O→Q. The trap is using +2 for consonants but +1 for the final vowel. For APPLE: A→C, P→R, P→R, L→N, E→G, so the answer is CRRNG.
+Source: PYQ-style
+
+73. In a certain code, "PLANT" is written as "QMBOU". How is "SEED" written?
+(a) TGFF (b) TGFE (c) TFFE (d) TFFF
+Answer: (c)
+Solution: Each letter moves +1: P→Q, L→M, A→B, N→O, T→U. The trap is shifting the two identical E's differently. For SEED: S→T, E→F, E→F, D→E, so the answer is TFFE.
+Source: PYQ-style
+
+74. If "ZEBRA" is coded as "YDAQY", how is "HORSE" coded?
+(a) GNQRC (b) GNPRD (c) GNQRE (d) GNQRD
+Answer: (d)
+Solution: Each letter moves −1: Z→Y, E→D, B→A, R→Q, A→Y (wrapping). The trap is using +1 instead of −1. For HORSE: H→G, O→N, R→Q, S→R, E→D, so the answer is GNQRD.
+Source: PYQ-style
+
+75. In a code, "TRAIN" is written as "USBJO". How will "COACH" be written?
+(a) DPBDJ (b) DPBDI (c) DPCDI (d) DPBCI
+Answer: (b)
+Solution: Each letter moves +1: T→U, R→S, A→B, I→J, N→O. The trap is shifting the repeated C only once. For COACH: C→D, O→P, A→B, C→D, H→I, so the answer is DPBDI.
+Source: PYQ-style

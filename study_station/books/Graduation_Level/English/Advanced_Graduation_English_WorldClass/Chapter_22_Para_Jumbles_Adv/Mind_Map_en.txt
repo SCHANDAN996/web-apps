@@ -1,0 +1,34 @@
+```mermaid
+graph TD
+    A["Advanced Para Jumbles"] --> B["Find the Opener"]
+    A --> C["Build Mandatory Pairs"]
+    A --> D["Use the Options"]
+    A --> E["Question Types"]
+    A --> F["Time Management"]
+    A --> G["Examiner's Traps"]
+
+    B --> B1["Introduces topic / full name"]
+    B --> B2["No pronoun or connector at start"]
+
+    C --> C1["Pronoun after noun"]
+    C --> C2["A ... then The"]
+    C --> C3["This / These / Such point back"]
+    C --> C4["However, Therefore, Also"]
+    C --> C5["First → Then → Finally"]
+    C --> C6["Cause → Effect"]
+
+    D --> D1["Strike options that break a sure pair"]
+    D --> D2["Read the final order once"]
+
+    E --> E1["Arrange P, Q, R, S"]
+    E --> E2["Fixed S1 and S6"]
+    E --> E3["First / last sentence"]
+    E --> E4["Odd sentence out"]
+
+    F --> F1["15 s: first/last sentence"]
+    F --> F2["45 s: full arrangement"]
+
+    G --> G1["False opener with This"]
+    G --> G2["Pronoun fits two sentences"]
+    G --> G3["Example posing as conclusion"]
+```

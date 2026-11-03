@@ -1,0 +1,45 @@
+```mermaid
+graph TD
+    A["बैठक व्यवस्था (मध्यम)<br>Sitting Arrangement (Intermediate)"] --> B["मुख्य प्रकार<br>Main Types"]
+    A --> C["समाधान रणनीति<br>Solution Strategy"]
+    A --> D["समय प्रबंधन<br>Time Management"]
+    A --> E["परीक्षक के जाल<br>Examiner's Traps"]
+
+    B --> B1["रेखीय व्यवस्था<br>Linear Arrangement"]
+    B --> B2["वृत्ताकार व्यवस्था<br>Circular Arrangement"]
+    B --> B3["आयताकार / वर्गाकार<br>Rectangular / Square"]
+    B --> B4["समानांतर पंक्तियाँ<br>Parallel Rows"]
+    B --> B5["मिश्रित जानकारी<br>Mixed / Puzzle Type"]
+
+    B1 --> B1a["एक पंक्ति — एक दिशा<br>Single row, one direction"]
+    B1 --> B1b["एक पंक्ति — उत्तर/दक्षिण मिश्रित<br>Row facing North/South mixed"]
+    B2 --> B2a["सब केंद्र की ओर<br>All facing centre"]
+    B2 --> B2b["सब बाहर की ओर<br>All facing outside"]
+    B2 --> B2c["मिश्रित दिशाएँ<br>Mixed facing"]
+    B3 --> B3a["कोने + भुजाएँ<br>Corners + sides"]
+    B4 --> B4a["आमने-सामने दो पंक्तियाँ<br>Two rows facing each other"]
+
+    C --> C1["निश्चित सूत्र पहले<br>Fix definite clues first"]
+    C --> C2["आरेख बनाएँ<br>Draw diagram"]
+    C --> C3["सापेक्ष सूत्र बाद में<br>Relative clues later"]
+    C --> C4["संभावनाएँ अलग रखें<br>Track possibilities separately"]
+    C --> C5["नकारात्मक सूत्र से काटें<br>Eliminate via negative clues"]
+
+    C1 --> C1a["'बैठता है' = निश्चित<br>'sits' = definite"]
+    C3 --> C3a["'बाईं ओर दूसरा'<br>'second to the left'"]
+    C3 --> C3b["'के बीच में'<br>'between'"]
+
+    D --> D1["पहले 30–40 सेकंड: पूरा पढ़ें<br>First 30–40 sec: read fully"]
+    D --> D2["2–3 मिनट में आरेख पूरा<br>Complete diagram in 2–3 min"]
+    D --> D3["एक आरेख से 4–5 प्रश्न<br>One diagram solves 4–5 questions"]
+    D --> D4["अटकने पर छोड़ें<br>Skip if stuck"]
+
+    E --> E1["बायाँ/दायाँ उलटना<br>Left/Right reversal"]
+    E --> E2["'ठीक बगल' बनाम 'कहीं बाईं ओर'<br>Immediate vs anywhere left"]
+    E --> E3["दिशा मान लेने की गलती<br>Assuming facing direction"]
+    E --> E4["'के बीच' में क्रम भ्रम<br>Order confusion in 'between'"]
+    E --> E5["अधूरा आरेख से उत्तर<br>Answering from incomplete diagram"]
+
+    E1 --> E1a["केंद्र की ओर: दायाँ = वामावर्त<br>Facing centre: right = anticlockwise"]
+    E1 --> E1b["बाहर की ओर: दायाँ = दक्षिणावर्त<br>Facing outside: right = clockwise"]
+```

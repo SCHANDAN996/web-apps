@@ -1,0 +1,35 @@
+```mermaid
+graph TD
+    A["Fill in the Blanks<br>(Basic)"] --> B["Step 1: Read the<br>Whole Sentence"]
+    A --> C["Step 2: Find<br>Grammar Clues"]
+    A --> D["Step 3: Eliminate<br>Wrong Options"]
+    A --> E["Step 4: Re-read with<br>Your Answer"]
+
+    C --> C1["Subject-Verb<br>Agreement"]
+    C --> C2["Tense Signal Words<br>yesterday, since, already"]
+    C --> C3["Article Clues<br>a / an / the"]
+    C --> C4["Preposition Partners<br>good at, depend on"]
+    C --> C5["Connector Logic<br>but, because, although"]
+
+    C1 --> T1["Trap: Intervening Phrase<br>'The box of apples IS...'"]
+    C2 --> T2["Trap: Sound-Right Error<br>'He don't' sounds fine in speech"]
+    C4 --> T3["Trap: Hindi-Style Preposition<br>'married with' is wrong"]
+
+    D --> D1["Remove Grammar-Breaking<br>Options First"]
+    D --> D2["Remove Meaning-Mismatch<br>Options Next"]
+    D --> D3["Last Two? Check<br>Collocation"]
+
+    A --> F["12 Golden Rules"]
+    F --> F1["Singular Subject =<br>Singular Verb"]
+    F --> F2["Since + Point of Time<br>For + Duration"]
+    F --> F3["An before Vowel Sound<br>an hour, an honest man"]
+    F --> F4["No Article before<br>Uncountable Nouns in general"]
+
+    A --> G["Time Strategy"]
+    G --> G1["Fact-Based Blank<br>15 Seconds"]
+    G --> G2["Inference / Tone Blank<br>45 Seconds"]
+    G --> G3["Skip & Return if<br>Two Options Both Look Right"]
+
+    A --> H["Mnemonic"]
+    H --> H1["S-T-A-R:<br>Scan, Test, Answer, Re-check"]
+```

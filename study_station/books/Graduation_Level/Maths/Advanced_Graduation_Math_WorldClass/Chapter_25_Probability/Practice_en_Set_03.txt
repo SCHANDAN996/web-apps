@@ -1,0 +1,151 @@
+Questions 51–70: Easy | Questions 71–75: Medium
+
+51. A bag contains 4 red and 6 blue balls. Two balls are drawn at random without replacement. What is the probability that both are red?
+(a) 2/15 (b) 4/25 (c) 1/5 (d) 3/10
+Answer: (a)
+Solution: The tempting wrong option 4/25 comes from assuming replacement, i.e. (4/10)². Without replacement, P = (4/10) × (3/9) = 12/90 = 2/15, so the answer is 2/15.
+Source: NCERT Class 11 Mathematics
+
+52. Two dice are thrown together. What is the probability that the sum of the numbers is 9?
+(a) 1/6 (b) 5/36 (c) 1/12 (d) 1/9
+Answer: (d)
+Solution: The trap is counting only (3,6) and (4,5), forgetting their reverses. Favourable outcomes are (3,6), (6,3), (4,5), (5,4) = 4 out of 36, giving 4/36 = 1/9, so the answer is 1/9.
+Source: NCERT Class 10 Mathematics
+
+53. A card is drawn from a well-shuffled deck of 52 cards. What is the probability that it is either a king or a heart?
+(a) 17/52 (b) 15/52 (c) 13/52 (d) 4/13
+Answer: (d)
+Solution: The trap is adding 4 kings + 13 hearts = 17, which double-counts the king of hearts. By inclusion-exclusion: 4 + 13 − 1 = 16 favourable cards, and 16/52 = 4/13, so the answer is 4/13.
+Source: NCERT Class 11 Mathematics
+
+54. The probability that A solves a problem is 1/2 and that B solves it is 1/3. If both try independently, what is the probability that the problem is solved?
+(a) 1/6 (b) 5/6 (c) 2/3 (d) 1/2
+Answer: (c)
+Solution: The tempting wrong option 5/6 comes from adding 1/2 + 1/3, which double-counts the overlap. P(solved) = 1 − P(neither solves) = 1 − (1/2)(2/3) = 1 − 1/3 = 2/3, so the answer is 2/3.
+Source: NCERT Class 12 Mathematics
+
+55. Three coins are tossed simultaneously. What is the probability of getting at least two heads?
+(a) 3/8 (b) 1/2 (c) 5/8 (d) 7/8
+Answer: (b)
+Solution: The trap is counting only exactly two heads (3 cases) and forgetting HHH. Favourable: HHT, HTH, THH, HHH = 4 out of 8, giving 1/2, so the answer is 1/2.
+Source: NCERT Class 10 Mathematics
+
+56. A number is chosen at random from the first 100 natural numbers. What is the probability that it is divisible by 4 or 6?
+(a) 8/25 (b) 33/100 (c) 37/100 (d) 41/100
+Answer: (b)
+Solution: The trap is adding 25 + 16 = 41, ignoring common multiples of 12. Multiples of 4: 25; of 6: 16; of 12: 8. Total = 25 + 16 − 8 = 33, so the answer is 33/100.
+Source: NCERT Class 11 Mathematics
+
+57. A speaks truth in 75% of cases and B in 80% of cases. In what percentage of cases are they likely to contradict each other in stating the same fact?
+(a) 45% (b) 30% (c) 40% (d) 35%
+Answer: (d)
+Solution: The trap is computing agreement instead of contradiction. Contradiction = A true and B false, or A false and B true = (3/4)(1/5) + (1/4)(4/5) = 3/20 + 4/20 = 7/20 = 35%, so the answer is 35%.
+Source: NCERT Class 12 Mathematics
+
+58. From a group of 5 men and 4 women, a committee of 3 is formed at random. What is the probability that the committee has exactly 2 men?
+(a) 20/63 (b) 10/21 (c) 5/14 (d) 1/3
+Answer: (b)
+Solution: The trap is multiplying fractions like (5/9)(4/8) while ignoring combinations. Favourable = C(5,2) × C(4,1) = 10 × 4 = 40; total = C(9,3) = 84. Probability = 40/84 = 10/21, so the answer is 10/21.
+Source: NCERT Class 11 Mathematics
+
+59. Two cards are drawn together from a pack of 52 cards. What is the probability that both are aces?
+(a) 1/26 (b) 1/169 (c) 4/663 (d) 1/221
+Answer: (d)
+Solution: The trap 1/169 = (1/13)² assumes replacement. Without replacement: (4/52) × (3/51) = 12/2652 = 1/221, so the answer is 1/221.
+Source: NCERT Class 11 Mathematics
+
+60. A die is thrown twice. What is the probability that the number obtained in the first throw is greater than that in the second?
+(a) 5/12 (b) 1/2 (c) 7/12 (d) 2/3
+Answer: (a)
+Solution: The tempting wrong option 1/2 ignores ties. Equal outcomes = 6; the remaining 30 split equally between first-greater and second-greater, giving 15/36 = 5/12, so the answer is 5/12.
+Source: NCERT Class 11 Mathematics
+
+61. The letters of the word "RANDOM" are arranged at random. What is the probability that the two vowels come together?
+(a) 1/3 (b) 2/3 (c) 1/6 (d) 5/6
+Answer: (a)
+Solution: The trap is treating the vowels as fixed in one position. Treat the two vowels (A, O) as one unit: 5! × 2! arrangements out of 6!, giving 240/720 = 1/3, so the answer is 1/3.
+Source: NCERT Class 11 Mathematics
+
+62. A box contains 10 bulbs, of which 3 are defective. Two bulbs are drawn at random without replacement. What is the probability that at least one is defective?
+(a) 7/15 (b) 3/10 (c) 8/15 (d) 2/5
+Answer: (c)
+Solution: The trap is adding P(first defective) + P(second defective), which double-counts. Use the complement: P(none defective) = (7/10)(6/9) = 42/90 = 7/15; required = 1 − 7/15 = 8/15, so the answer is 8/15.
+Source: NCERT Class 12 Mathematics
+
+63. If P(A) = 0.4, P(B) = 0.5 and P(A ∩ B) = 0.2, then P(A ∪ B) equals:
+(a) 0.9 (b) 0.7 (c) 0.8 (d) 0.6
+Answer: (b)
+Solution: The trap is adding 0.4 + 0.5 = 0.9, ignoring the overlap. P(A ∪ B) = 0.4 + 0.5 − 0.2 = 0.7, so the answer is 0.7.
+Source: NCERT Class 11 Mathematics
+
+64. A fair coin is tossed 5 times. What is the probability of getting exactly 3 heads?
+(a) 1/4 (b) 5/16 (c) 3/16 (d) 7/32
+Answer: (b)
+Solution: The trap is writing 3/32, forgetting the number of ways to choose which tosses are heads. P = C(5,3)/2⁵ = 10/32 = 5/16, so the answer is 5/16.
+Source: NCERT Class 12 Mathematics
+
+65. Two events A and B are independent with P(A) = 0.3 and P(B) = 0.4. What is P(A ∩ B)?
+(a) 0.7 (b) 0.12 (c) 0.1 (d) 0.24
+Answer: (b)
+Solution: The trap is adding the probabilities, which applies to mutually exclusive events, not independent ones. For independent events P(A ∩ B) = 0.3 × 0.4 = 0.12, so the answer is 0.12.
+Source: NCERT Class 12 Mathematics
+
+66. A bag has 5 white and 3 black balls. Two balls are drawn one after another with replacement. What is the probability that the first is white and the second is black?
+(a) 5/16 (b) 15/56 (c) 3/16 (d) 15/64
+Answer: (d)
+Solution: The trap 15/56 uses without-replacement denominators. With replacement: (5/8) × (3/8) = 15/64, so the answer is 15/64.
+Source: NCERT Class 12 Mathematics
+
+67. In a single throw of two dice, what is the probability of getting a doublet or a sum of 8?
+(a) 1/4 (b) 5/18 (c) 11/36 (d) 1/3
+Answer: (b)
+Solution: The trap is adding 6 doublets + 5 sum-8 outcomes = 11, but (4,4) is counted twice. Favourable = 6 + 5 − 1 = 10, giving 10/36 = 5/18, so the answer is 5/18.
+Source: NCERT Class 11 Mathematics
+
+68. The probability that it rains on a given day is 0.6. What is the probability that it rains on exactly one of two consecutive independent days?
+(a) 0.6 (b) 0.36 (c) 0.48 (d) 0.24
+Answer: (c)
+Solution: The trap 0.24 counts only rain-then-no-rain, forgetting the reverse order. P = 0.6 × 0.4 + 0.4 × 0.6 = 0.48, so the answer is 0.48.
+Source: NCERT Class 12 Mathematics
+
+69. From 8 boys and 4 girls, one child is chosen as monitor at random. What is the probability that the monitor is a girl?
+(a) 1/3 (b) 1/4 (c) 1/2 (d) 2/3
+Answer: (a)
+Solution: The trap 1/4 comes from confusing the count of girls with the probability. P = 4/12 = 1/3, so the answer is 1/3.
+Source: NCERT Class 10 Mathematics
+
+70. A and B throw a die alternately. The first to throw a 6 wins. If A starts, what is the probability that A wins?
+(a) 6/11 (b) 1/2 (c) 5/11 (d) 7/12
+Answer: (a)
+Solution: The trap 1/2 assumes equal chances, ignoring A's first-move advantage. P(A wins) = 1/6 + (5/6)(5/6)(1/6) + … = (1/6)/(1 − 25/36) = (1/6)/(11/36) = 6/11, so the answer is 6/11.
+Source: NCERT Class 12 Mathematics
+
+71. Three machines produce 50%, 30% and 20% of items with defect rates 2%, 3% and 5% respectively. An item is found defective. What is the probability it came from the first machine?
+(a) 2/29 (b) 1/2 (c) 5/29 (d) 10/29
+Answer: (d)
+Solution: The trap 1/2 assumes the largest producer is most likely, ignoring defect rates. By Bayes' theorem: (0.5 × 0.02)/(0.5 × 0.02 + 0.3 × 0.03 + 0.2 × 0.05) = 0.01/0.029 = 10/29, so the answer is 10/29.
+Source: NCERT Class 12 Mathematics
+
+72. A number x is chosen at random from {1, 2, …, 20}. What is the probability that x² leaves remainder 1 when divided by 4?
+(a) 1/4 (b) 3/5 (c) 1/2 (d) 2/5
+Answer: (c)
+Solution: The trap is checking only small numbers and guessing 1/4. x² ≡ 1 (mod 4) exactly when x is odd; there are 10 odd numbers in 1–20, giving 10/20 = 1/2, so the answer is 1/2.
+Source: NCERT Class 11 Mathematics
+
+73. Four persons are to be seated in a row at random. What is the probability that two particular persons sit together?
+(a) 1/2 (b) 1/3 (c) 1/4 (d) 2/3
+Answer: (a)
+Solution: The trap is counting only one order of the pair. Treat the pair as one unit: 3! × 2! = 12 arrangements out of 4! = 24, giving 1/2, so the answer is 1/2.
+Source: NCERT Class 11 Mathematics
+
+74. A bag contains 6 red, 4 white and 5 blue balls. Three balls are drawn at random. What is the probability that one ball of each colour is drawn?
+(a) 8/91 (b) 12/91 (c) 24/91 (d) 6/91
+Answer: (c)
+Solution: The trap is multiplying (6/15)(4/15)(5/15) without accounting for combinations. Favourable = 6 × 4 × 5 = 120; total = C(15,3) = 455; 120/455 = 24/91, so the answer is 24/91.
+Source: NCERT Class 11 Mathematics
+
+75. The odds in favour of an event are 3 : 2. What is the probability of the event?
+(a) 1/5 (b) 3/5 (c) 3/2 (d) 2/5
+Answer: (b)
+Solution: The trap 3/2 treats odds directly as probability, which can never exceed 1. Odds 3 : 2 in favour mean P = 3/(3 + 2) = 3/5, so the answer is 3/5.
+Source: NCERT Class 11 Mathematics

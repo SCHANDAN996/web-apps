@@ -1,0 +1,120 @@
+# 📊 PYQ Analysis — Alphabet Questions (Verbal Reasoning)
+
+## 1. How Exams Ask Questions from This Chapter
+
+Across SSC (CGL/CHSL/MTS), Banking (IBPS/SBI PO-Clerk), Railway (NTPC/Group D) and State PCS prelims, Alphabet Questions appear in **every cycle** as one of the most reliable scoring areas of Verbal Reasoning. The pattern analysis below is based on the recurring question styles seen in official papers — not on invented counts.
+
+**Recurring sub-topics, in order of how often they appear:**
+
+1. **Position-based questions** — "Which letter is 7th to the right of the 13th letter from the left?" The single most repeated format.
+2. **Reverse-order alphabet** — questions where the series is written in reverse and positions must be re-counted.
+3. **Letter-pair counting** — "How many pairs of letters in the word EXAMINATION have as many letters between them as in the English alphabet?"
+4. **Meaningful-word formation** — "How many meaningful words can be formed from the 2nd, 5th, 7th and 9th letters of…?"
+5. **Dictionary / alphabetical arrangement** — arranging words as in a dictionary, or finding the middle letter of a word.
+6. **Letter series completion** — A, C, F, J, ? (gap-pattern series).
+7. **Interchange / replacement questions** — "If every vowel is replaced by the next letter and every consonant by the previous letter…"
+8. **EJOTY-based quick position recall** — tested indirectly in almost every position question.
+
+**Exam-wise flavour:**
+- **SSC** loves direct position arithmetic and reverse-series questions — short, one-line questions.
+- **Banking** prefers letter-pair counting and word-based manipulation (longer, trap-heavy).
+- **Railway** mixes letter series with simple position questions — usually the easiest version.
+- **State PCS** occasionally asks dictionary arrangement and meaningful-word questions.
+
+---
+
+## 2. The Examiner's Traps (Psychological Hooks)
+
+- **Left–right confusion:** "7th to the right of the 13th from the **right**" — the double direction change is the #1 trap. Candidates add when they should subtract.
+- **Reverse-series illusion:** In a reversed alphabet, the 5th letter is V, not E. Candidates answer from the normal order.
+- **Pair-counting double count:** Pairs must be counted in **both directions** (forward and backward) unless the question says otherwise — most candidates count only forward.
+- **"Middle letter" of even-length words:** An 8-letter word has no single middle letter; the trap option assumes one.
+- **Near-correct series:** A, D, H, M, ? — gaps are +3, +4, +5, so the answer is S (+6); a tempting option is R (+5 repeated).
+- **Vowel/consonant replacement:** Candidates forget that after replacement, positions must be re-read from the **new** string, not the original.
+
+---
+
+## 3. Top 10 High-Yield Questions (with Solutions & Trap Analysis)
+
+**Q1.** Which letter is 9th to the right of the 12th letter from the left in the English alphabet?
+(a) S (b) T (c) U (d) V
+**Answer: (c)**
+**Solution:** Same direction → add: 12 + 9 = 21st letter = U.
+**Trap:** Option (b) T comes from 12 + 9 − 1 = 20, a common off-by-one error when candidates count the 12th letter itself.
+**Source:** PYQ-style
+
+**Q2.** If the alphabet is written in reverse order, which letter will be 8th to the left of the 10th letter from the right?
+(a) R (b) Q (c) I (d) H
+**Answer: (a)**
+**Solution:** In the reversed alphabet, "right" and "left" swap their normal meaning. The 10th letter from the right of the reversed series = the 10th letter from the left of the normal alphabet = J. "8th to the left" in the reversed series means moving 8 places toward the normal right: J(10) + 8 = 18th letter = R.
+**Trap:** The double reversal makes candidates mix directions; option (d) H comes from wrongly subtracting (10 − 8 = 2 → B, then mis-counted in reverse to H).
+**Source:** PYQ-style
+
+**Q3.** How many pairs of letters in the word "CREATIVE" have as many letters between them in the word as in the English alphabet?
+(a) 1 (b) 2 (c) 3 (d) 4
+**Answer: (c)**
+**Solution:** CREATIVE = C(1) R(2) E(3) A(4) T(5) I(6) V(7) E(8). Checking both directions, three pairs satisfy the condition: **C–E** (R between them in the word; D between them in the alphabet), **A–E** (T, I, V between them in the word; B, C, D between them in the alphabet), and **T–V** (I between them in the word; U between them in the alphabet).
+**Trap:** Candidates who count only forward pairs miss the backward pair A–E and answer (b) 2.
+**Source:** PYQ-style
+
+**Q4.** Find the missing term: B, E, I, N, ?
+(a) S (b) T (c) U (d) R
+**Answer: (b)**
+**Solution:** Gaps: +3, +4, +5, so next +6: N(14) + 6 = 20 = T.
+**Trap:** Option (a) S assumes the gap stays +5 — the "repeated gap" illusion.
+**Source:** PYQ-style
+
+**Q5.** If every alternate letter starting from B is removed from the alphabet, which letter will be the 10th from the left?
+(a) S (b) Q (c) T (d) R
+**Answer: (a)**
+**Solution:** Removing B, D, F, … leaves A, C, E, G, I, K, M, O, Q, S, U, W, Y — the 10th is S.
+**Trap:** Candidates remove A, C, E… instead (starting from the wrong letter) and get T.
+**Source:** PYQ-style
+
+**Q6.** Arrange as in a dictionary: 1. Parcel 2. Pardon 3. Parent 4. Parrot
+(a) 2, 1, 3, 4 (b) 2, 3, 1, 4 (c) 1, 2, 3, 4 (d) 2, 1, 4, 3
+**Answer: (c)**
+**Solution:** All four words begin with "Par", so compare the 4th letters: Parcel → c, Pardon → d, Parent → e, Parrot → r. Alphabetical order of c, d, e, r gives: Parcel, Pardon, Parent, Parrot = 1, 2, 3, 4.
+**Trap:** Candidates compare only the 3rd letter (all 'r') and stop, or misread the order of "Pardon" vs "Parent".
+**Source:** PYQ-style
+
+**Q7.** How many meaningful English words can be formed using the 1st, 4th, 7th and 8th letters of "SOLUTION", each used once?
+(a) None (b) One (c) Two (d) Three
+**Answer: (c)**
+**Solution:** SOLUTION = S(1) O(2) L(3) U(4) T(5) I(6) O(7) N(8). The required letters are S, U, O, N, which form two meaningful words: **ONUS** and **NOUS**.
+**Trap:** Candidates who mis-pick positions (e.g., taking the 7th letter as I) invent wrong letter sets, and those who check only common everyday words miss NOUS and answer (b).
+**Source:** PYQ-style
+
+**Q8.** In the word "CHAMPION", which letter is exactly in the middle?
+(a) M (b) P (c) No single middle letter (d) A
+**Answer: (c)**
+**Solution:** CHAMPION has 8 letters; the middle falls between the 4th (M) and 5th (P) letters — no single middle letter.
+**Trap:** Options (a) and (b) exploit the habit of picking ⌈n/2⌉ without checking parity.
+**Source:** PYQ-style
+
+**Q9.** If in the alphabet every vowel is replaced by the next letter and every consonant by the previous letter, which letter will be 5th from the left in the new arrangement?
+(a) D (b) E (c) F (d) C
+**Answer: (c)**
+**Solution:** New string: A→B, B→A, C→B, D→C, E→F → B, A, B, C, F, … The 5th letter = F.
+**Trap:** Option (b) E is the original 5th letter — candidates forget to re-read from the **new** string.
+**Source:** PYQ-style
+
+**Q10.** Which letter is 6th to the left of the letter which is 4th from the right end of the alphabet?
+(a) P (b) Q (c) R (d) S
+**Answer: (b)**
+**Solution:** 4th from the right = W (23rd from the left). 6th to its left = 23 − 6 = 17th letter = Q.
+**Trap:** Option (d) S comes from direction confusion — adding 6 instead of subtracting (23 + 6 = 29, wrapped/mis-counted). Remember: "left of a right-end position" means move toward A, i.e., subtract.
+**Source:** PYQ-style
+
+---
+
+## 4. The 15-Second / 45-Second Rule — Applied
+
+- **15-second questions (attempt instantly):** Q1, Q4, Q10-type single-step position arithmetic and simple gap series. If EJOTY (5, 10, 15, 20, 25 → E, J, O, T, Y) is memorised, these take under 15 seconds.
+- **45-second questions (attempt, but with a hard stop):** Q2, Q5, Q9 — multi-step transformations. If you cross 45 seconds, mark and move on.
+- **Skip candidates:**
+  - **Q3 (pair counting):** In Banking papers these can take 90+ seconds with high error risk. **Skip in the first pass**; return only if time remains.
+  - **Q7 (meaningful-word formation):** Depends on vocabulary luck, not method. If no word surfaces in 30 seconds, **skip** — never force an answer.
+  - **Ambiguous/misprint items:** If your computed letter is not among the options, do not burn time reconciling — re-check the direction rule once, then mark the nearest defensible option or skip.
+
+**Bottom line:** Alphabet questions are high-yield *only* when the position rules (same direction → add, opposite → subtract; reversed series → flip left/right) are automatic. Master EJOTY, and most of this chapter becomes a sub-15-second scoring zone.

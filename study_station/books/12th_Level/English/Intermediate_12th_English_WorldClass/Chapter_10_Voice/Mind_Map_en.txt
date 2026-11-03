@@ -1,0 +1,19 @@
+```mermaid
+graph TD
+    A["Voice (वाच्य)"] --> B["Active Voice<br>Subject does the action"]
+    A --> C["Passive Voice<br>Subject receives the action"]
+    B --> D["Form: Subject + Verb + Object<br>e.g. Ram eats an apple"]
+    B --> E["Verb form depends on tense<br>Simple Present: V1/V1+s<br>Simple Past: V2"]
+    C --> F["Form: Subject + be + V3 + by + Agent<br>e.g. An apple is eaten by Ram"]
+    C --> G["V3 = Past Participle (3rd form)<br>eat–ate–eaten, write–wrote–written"]
+    C --> H["'be' changes with tense<br>is/am/are, was/were, been, being"]
+    A --> I["Conversion Rules"]
+    I --> J["Object of Active becomes<br>Subject of Passive"]
+    I --> K["Main verb changes to V3<br>Add correct form of 'be'"]
+    I --> L["Subject of Active becomes agent<br>after 'by' (often dropped if unimportant)"]
+    A --> M["Common Traps"]
+    M --> N["'by' is used only in Passive,<br>never in Active"]
+    M --> O["Missing 'be' in Passive is wrong:<br>'The letter written' ✗<br>'The letter is written' ✓"]
+    M --> P["Only transitive verbs<br>(with object) can be made Passive"]
+    M --> Q["Tense must stay the same<br>in Active and Passive"]
+```

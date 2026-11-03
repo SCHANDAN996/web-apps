@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}{{ tr('deletion_title') }} — {{ tr('brand') }}{% endblock %}
+{% block main %}
+<section id="accountDeletion" class="card stack" style="max-width:760px;margin:auto;overflow-wrap:anywhere">
+<h1>{{ tr('deletion_title') }}</h1><p>{{ tr('deletion_intro') }}</p>
+<p class="muted">{{ tr('deletion_local') }}</p>
+<p id="deletionStatus" role="status" aria-live="polite">{{ tr('deletion_loading') }}</p>
+<div id="deletionContent" class="stack"></div>
+<a class="btn btn-ghost" href="/privacy">{{ tr('privacy_title') }}</a>
+</section>
+{% endblock %}
+{% block scripts %}<script src="/static/js/account-deletion.js?v={{ asset_v }}" defer></script>{% endblock %}

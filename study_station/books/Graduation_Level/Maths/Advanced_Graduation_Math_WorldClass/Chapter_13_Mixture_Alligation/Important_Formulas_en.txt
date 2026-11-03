@@ -1,0 +1,26 @@
+# Important Formulas — Mixture & Alligation
+
+| Formula Name | Formula | One-line Use-Hint |
+|---|---|---|
+| Alligation Rule (Cross Method) | Quantity of cheaper / Quantity of dearer = (d − m) / (m − c) | c = cheaper price, d = dearer price, m = mean price; ratio of quantities |
+| Mean Price | m = (c·Q₁ + d·Q₂) / (Q₁ + Q₂) | Weighted average of two mixed prices |
+| Mixture of Two Solutions (concentration) | C = (C₁V₁ + C₂V₂) / (V₁ + V₂) | Final concentration when two solutions are mixed |
+| Repeated Replacement | Final quantity of pure liquid = x(1 − y/x)ⁿ | x = initial volume, y = volume replaced each time, n = number of operations |
+| Concentration after n Replacements | Final concentration = C₀(1 − y/x)ⁿ | Same rule applied to strength/percentage |
+| Milk–Water Ratio after Replacement | Milk : Water = x(1 − y/x)ⁿ : [x − x(1 − y/x)ⁿ] | Use when pure milk is repeatedly drawn and replaced by water |
+| Profit on Adulteration | Profit % = (Quantity of water added / Quantity of pure milk) × 100 | When mixture is sold at pure milk's price |
+| Selling Price with Gain | SP of mixture = CP × (100 + g)/100 | First find CP of mixture via alligation, then apply gain % |
+| Mixing to Get a Given Price | Ratio = (d − m) : (m − c) | Direct alligation to find mixing ratio for target mean price |
+| Three-Ingredient Mixture | Apply alligation twice: mix two first, then result with third | Break multi-mixture problems into two steps |
+| Adding Water to Reduce Concentration | Water to add = V(C₁ − C₂)/C₂ | V = initial volume, C₁ = initial conc., C₂ = desired conc. |
+| Adding Pure Liquid to Raise Concentration | Pure liquid to add = V(C₂ − C₁)/(100 − C₂) | When strengthening a solution to C₂% |
+| Two Vessels Mixed Together (equal volumes) | Combined ratio = [A₁/(A₁+A₂) + B₁/(B₁+B₂)] : [A₂/(A₁+A₂) + B₂/(B₁+B₂)] | Convert each vessel's ratio to fractions of its own total, then add; simply adding ratio parts (A₁+B₁):(A₂+B₂) works only if both ratios have the same total parts |
+| Equal Quantities Mixed | Mean = (C₁ + C₂)/2 | Simple average when volumes are equal |
+| Alligation on Speed/Time/Average | Same cross rule applies to averages, speeds, interest rates | Alligation works for any weighted average, not just mixtures |
+| Removal & Equal Addition (single step) | New ratio of removed liquid = same as existing ratio | Removed mixture carries components in current ratio |
+| Quantity from Ratio | Component = (Ratio part / Total parts) × Total volume | Convert alligation ratio into actual quantities |
+| Cost of Mixture per Unit | CP = (c₁q₁ + c₂q₂) / (q₁ + q₂) | Weighted cost; base for profit/loss questions |
+| Dilution to Halve Strength | Water added = Original volume | Adding equal water halves the concentration |
+| Mixing Equal Quantities of n Alloys | Final ratio = sum of each component's fractions across alloys, scaled to a common base | First express each alloy's ratio with the same total parts (take LCM), then add corresponding parts |
+
+**Memory Hook:** "Cross subtract, flip the ratio" — in alligation, the difference (d − m) belongs to the *cheaper* quantity and (m − c) to the *dearer* one. The differences always sit diagonally opposite their owners.

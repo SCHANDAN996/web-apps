@@ -1,0 +1,40 @@
+```mermaid
+graph TD
+    A["सर्वनाम (Pronoun)<br>संज्ञा के स्थान पर प्रयुक्त शब्द"] --> B["प्रकार"]
+    A --> C["12 स्वर्ण नियम"]
+    A --> D["परीक्षक के जाल"]
+    A --> E["रणनीति"]
+
+    B --> B1["पुरुषवाचक सर्वनाम<br>I, We, You, He, She, It, They"]
+    B --> B2["स्वामिवाचक (Possessive)<br>mine, ours, yours, his, hers, theirs"]
+    B --> B3["निजवाचक / बलदायक (Reflexive)<br>myself, himself, themselves"]
+    B --> B4["संबंधसूचक (Relative)<br>who, whom, whose, which, that"]
+    B --> B5["संकेतवाचक (Demonstrative)<br>this, that, these, those"]
+    B --> B6["अनिश्चयवाचक (Indefinite)<br>each, everyone, somebody, none"]
+    B --> B7["पारस्परिक (Reciprocal)<br>each other (2), one another (2+)"]
+    B --> B8["प्रश्नवाचक (Interrogative)<br>who, whom, which, what"]
+
+    C --> C1["क्रम: 231 (अच्छा काम)<br>You, he and I"]
+    C --> C2["क्रम: 123 (बुरा काम/दोष)<br>I, you and he"]
+    C --> C3["क्रिया पूर्वपद (antecedent) के अनुसार<br>Each boy has his book"]
+    C --> C4["Everyone/Everybody/Somebody<br>+ एकवचन क्रिया + his"]
+    C --> C5["One → one/one's<br>One should do one's duty"]
+    C --> C6["who कर्ता (subject) के लिए<br>whom कर्म (object) के लिए"]
+    C --> C7["which → जीवहीन<br>who → व्यक्ति"]
+    C --> C8["that → superlative/only/all के बाद<br>All that glitters"]
+    C --> C9["Possessive के साथ apostrophe नहीं<br>yours, hers, its"]
+    C --> C10["it's = it is<br>its = उसका"]
+    C --> C11["Reflexive कर्म (object) का काम करता है<br>कर्ता (subject) नहीं बन सकता"]
+    C --> C12["than/as के बाद nominative<br>He is taller than I"]
+
+    D --> D1["मध्यवर्ती वाक्यांश का जाल<br>Each of the boys has (have नहीं)"]
+    D --> D2["सही-सुनने-वाला जाल<br>between you and I ❌ → between you and me"]
+    D --> D3["समूहवाचक संज्ञा का जाल<br>The jury has its / The jury are divided in their"]
+    D --> D4["अधिक सोचने का जाल<br>सरल नियम पर संदेह न करें"]
+    D --> D5["his/her का भ्रम<br>Everyone should do his duty"]
+
+    E --> E1["15 सेकंड: तथ्यात्मक<br>क्रम, case, one/one's"]
+    E --> E2["45 सेकंड: तार्किक<br>पूर्वपद खोजें, वाक्य संरचना देखें"]
+    E --> E3["छोड़ने की रणनीति<br>दोनों विकल्प सही लगें तो छोड़ें"]
+    E --> E4["स्मरण-सूत्र: YHI-231<br>अच्छे काम में You-He-I"]
+```

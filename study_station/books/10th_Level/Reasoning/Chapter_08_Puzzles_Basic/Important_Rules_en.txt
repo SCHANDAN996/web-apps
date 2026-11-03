@@ -1,0 +1,23 @@
+Key Rules/Approaches	Description	Example
+Identify Puzzle Type	Spot trigger words to classify as Arrangement, Comparison, Scheduling, or Floor.	"Left/right" → Arrangement; "taller/heavier" → Comparison; "Monday-Friday" → Scheduling.
+Definite Clues First	Place clues that fix a position or value directly before using relative clues.	"A lives on floor 3" → place A on floor 3 at once.
+Clean Diagram	Draw a simple diagram with one slot per entity; use clear labels and arrows.	Floor: 5 down to 1 vertical stack. Row: 1 to 5 horizontal slots with L/R.
+"Immediately" vs "Any"	The word "immediately/just" means zero gap; otherwise gaps are allowed.	"A lives above B" allows intermediate floors; "immediately above" means no gap.
+Build Cases (Max 2)	If a clue allows two possibilities, create Case 1 and Case 2. Eliminate with later clues.	Q at floor 2 or 4 → test Case 1: Q=2; Case 2: Q=4.
+Relative Positioning Care	Use relative clues like "two floors between A and B" to test valid pairs.	In a 5-floor building, |A - B| = 3 implies floors (1, 4) or (2, 5).
+No Assumptions	Never assume gender, exact order, or absence of gaps unless explicitly stated.	If not stated, do not assume two persons are on adjacent floors.
+Comparison Ladder	Draw a vertical ranking line with > symbols for height, weight, or marks.	A > B > C means A is highest, B middle, C lowest.
+Scheduling Grid	List days of the week in chronological order (Mon to Sun) as fixed column headers.	Assign events or people into day slots based on definite day clues first.
+Cross-Check Final Arrangement	Verify your completed arrangement against all original statements before answering.	Re-read each clue and confirm there is no contradiction.
+Skip Irrelevant Details	If a secondary attribute is not asked in the question stem, do not waste time resolving it.	If only floor number is asked, ignore unasked clothing color details.
+
+Time Management
+
+Rule	Time Limit	Action
+15-Second Rule	15 seconds	If puzzle type and starting clues are not identifiable within 15 seconds, mark and skip to the next question.
+45-Second Rule	45 seconds	If more than 2 cases remain open or no definite position is fixed after 45 seconds, skip immediately.
+2-Minute Set Drill	2 minutes per set	20 sec diagram + 20 sec definite clues + 30 sec relative cases + 30 sec eliminate + 20 sec answers.
+Overall Strategy	—	Solve simple, single-variable puzzles first. Leave multi-variable or branching puzzles for the end.
+
+Logical/Mathematical Formulas
+No mathematical formulas for this chapter. Puzzles rely entirely on systematic logical arrangement and case elimination.

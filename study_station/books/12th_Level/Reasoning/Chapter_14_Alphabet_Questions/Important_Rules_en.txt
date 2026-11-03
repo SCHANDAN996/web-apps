@@ -1,0 +1,39 @@
+# Important Rules & Approaches — Alphabet Questions
+
+## Part 1: Key Rules / Approaches
+
+| Rule Name | Description | Example |
+|---|---|---|
+| Alphabet Positions (A=1 to Z=26) | Memorize the position of every letter; it is the base of all alphabet questions. | A=1, J=10, M=13, T=20, Z=26 |
+| EJOTY Trick | Remember letters at positions 5, 10, 15, 20, 25 — E, J, O, T, Y — to find any letter's position quickly. | Position of R = 20 (T) − 2 = 18 |
+| Reverse Position (27 − n) | Position from the right end = 27 − position from the left. | D is 4th from left → 27 − 4 = 23rd from right |
+| Opposite Letter Pairs | Pairs whose positions add to 27: A–Z, B–Y, C–X, D–W, E–V, F–U, G–T, H–S, I–R, J–Q, K–P, L–O, M–N. | Opposite of F (6) = 27 − 6 = 21 = U |
+| Left–Right Position Rule | "mth from left + nth from right − 1" = total letters; use to find total or missing position. | 10th from left and 17th from right → total = 10 + 17 − 1 = 26 (the full alphabet) |
+| Middle Letter Rule | For an odd total of n letters, middle position = (n + 1)/2. | 25 letters → middle = (25 + 1)/2 = 13th letter = M |
+| Gap / Difference Method | In letter series, write positions and check the difference pattern (+2, +3, −1, etc.). | C, F, I, L → 3, 6, 9, 12 → difference +3 → next = 15 = O |
+| Pair Counting Rule | To count letter pairs (as in dictionary order), compare each letter with every letter after it; count both forward and backward pairs if asked. | In "CREAM": forward pairs like C–E, R–A (backward), etc., counted step by step |
+| Dictionary Order Rule | Arrange words by comparing letters left to right; the first differing letter decides the order. | APPLE < APPLY (E < Y at the 5th letter) |
+| Vowel/Consonant Position Rule | Vowels: A(1), E(5), I(9), O(15), U(21); use for questions on vowel positions or letter rearrangement. | 3rd vowel = I = 9th letter |
+| Word Formation Rule | Check whether the required letters exist in the given word; a letter cannot be used more times than it appears. | From "TEACHER", "REACH" is possible; "TEETH" is not (TEACHER has only one T) |
+| Reversal Rule | When the alphabet or a word is reversed, new position = (total + 1) − old position. | In reversed alphabet, position of C = 27 − 3 = 24th |
+
+## Part 2: Time Management
+
+| Rule | Description | Action |
+|---|---|---|
+| 15-Second Rule | If the pattern of a letter series is not clear within 15 seconds, do not keep staring at it. | Mark the question and move on; return later if time permits. |
+| 45-Second Rule | No alphabet question should take more than 45 seconds in the exam. | If it exceeds 45 seconds, make your best logical guess and skip. |
+| Position-First Rule | Convert letters to numbers immediately; patterns become visible faster in numbers. | Write 3, 6, 9, 12 instead of C, F, I, L. |
+| Easy-First Rule | Attempt direct position/opposite/dictionary questions before long pair-counting or word-formation questions. | Secure quick marks first; keep counting questions for the end. |
+| No-Blind-Guess Rule | In pair-counting questions, a wrong count costs negative marking; attempt only if you can verify. | Skip if the word is long and time is short. |
+
+## Part 3: Logical / Mathematical Formulas
+
+| Formula | Meaning | Example |
+|---|---|---|
+| Reverse position = 27 − n | Position of a letter from the right end of the alphabet. | G (7th) → 27 − 7 = 20th from right |
+| Opposite letter position = 27 − n | Letter opposite to the nth letter. | Opposite of H (8) = 27 − 8 = 19 = S |
+| Total letters = m + n − 1 | When a letter is mth from left and nth from right. | 10th from left, 17th from right → total = 26 |
+| Middle position = (n + 1)/2 | Middle letter of a sequence of n letters (n odd). | 25 letters → middle = 13th letter |
+| nth letter after X = position(X) + n | Move forward in the alphabet (subtract 26 if result > 26). | 5th letter after M (13) = 18 = R |
+| nth letter before X = position(X) − n | Move backward in the alphabet (add 26 if result < 1). | 4th letter before D (4) = 4 − 4 = 0 → 26 = Z |

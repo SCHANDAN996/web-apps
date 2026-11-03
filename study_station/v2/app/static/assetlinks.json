@@ -1,0 +1,21 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.studystation.app.debug",
+      "sha256_cert_fingerprints": ["19:33:D6:A2:D4:98:2B:08:6E:03:1A:C6:8A:A6:C8:F4:3D:F6:4A:7B:05:C2:BC:CE:99:5E:43:D9:53:47:67:C3"]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.studystation.app",
+      "sha256_cert_fingerprints": [
+        "95:5A:EB:76:AE:DE:50:C5:66:AC:E3:76:22:30:68:03:47:85:8D:5B:D4:99:B4:97:8A:EB:17:BC:BE:F1:7B:7E",
+        "04:17:40:8E:BC:59:90:62:12:FF:3F:47:78:13:65:59:10:0E:7A:B0:9C:06:83:1B:7E:5A:C1:1D:14:73:B7:B8"
+      ]
+    }
+  }
+]

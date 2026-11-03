@@ -1,3 +1,149 @@
-# Chapter: Geometry, Level: intermediate, Set: 2/6
+26. In a triangle, the three angles are in the ratio 2 : 3 : 4. The smallest angle is:
+(a) 30° (b) 45° (c) 40° (d) 60°
+Answer: (c)
+Solution: The tempting wrong option is 30°, which comes from wrongly dividing 180° by 6 instead of by the sum of ratio parts. Sum of parts = 2 + 3 + 4 = 9, so smallest angle = (2/9) × 180° = 40°, so the answer is 40°.
+Source: NCERT Class 9 Mathematics
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Geometry. This is Set 2 (total 6 sets, 150 questions). Questions must be numbered 26 to 50. All 25 questions should be Medium. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+27. In ΔABC, ∠A = 50° and ∠B = 60°. The exterior angle at C is:
+(a) 70° (b) 130° (c) 120° (d) 110°
+Answer: (d)
+Solution: Many students compute the interior angle ∠C = 180° − 110° = 70° and stop there, which is the trap. The exterior angle equals the sum of the two opposite interior angles = 50° + 60° = 110°, so the answer is 110°.
+Source: NCERT Class 9 Mathematics
+
+28. The angles of a quadrilateral are in the ratio 1 : 2 : 3 : 4. The largest angle is:
+(a) 108° (b) 144° (c) 120° (d) 150°
+Answer: (b)
+Solution: The trap is using 180° (triangle sum) instead of 360° for a quadrilateral, which gives 72°. Sum of parts = 10, so largest angle = (4/10) × 360° = 144°, so the answer is 144°.
+Source: NCERT Class 9 Mathematics
+
+29. Each interior angle of a regular polygon is 150°. The number of its sides is:
+(a) 10 (b) 15 (c) 12 (d) 18
+Answer: (c)
+Solution: The trap is applying the interior-angle formula with a sign error and getting 10. Exterior angle = 180° − 150° = 30°, and number of sides = 360°/30° = 12, so the answer is 12.
+Source: NCERT Class 9 Mathematics
+
+30. In a circle of radius 10 cm, a chord of length 16 cm is drawn. The distance of the chord from the centre is:
+(a) 4 cm (b) 5 cm (c) 8 cm (d) 6 cm
+Answer: (d)
+Solution: The tempting wrong option is 8 cm, which is just half the chord taken as the answer. The perpendicular from the centre bisects the chord, so half-chord = 8 cm; distance = √(10² − 8²) = √36 = 6 cm, so the answer is 6 cm.
+Source: NCERT Class 10 Mathematics
+
+31. In a circle, the angle subtended by an arc at the centre is 100°. The angle subtended by the same arc at any point on the remaining part of the circle is:
+(a) 40° (b) 100° (c) 80° (d) 50°
+Answer: (d)
+Solution: The trap is choosing 100°, forgetting that the angle at the circumference is half the central angle, not equal to it. Angle at circumference = 100°/2 = 50°, so the answer is 50°.
+Source: NCERT Class 9 Mathematics
+
+32. AB is a diameter of a circle and C is a point on the circle. Then ∠ACB equals:
+(a) 45° (b) 60° (c) 90° (d) 120°
+Answer: (c)
+Solution: The trap is assuming the angle depends on the position of C and picking 60°. The angle in a semicircle is always a right angle, regardless of where C lies, so the answer is 90°.
+Source: NCERT Class 9 Mathematics
+
+33. Two circles of radii 5 cm and 3 cm touch each other externally. The distance between their centres is:
+(a) 2 cm (b) 15 cm (c) 8 cm (d) 4 cm
+Answer: (c)
+Solution: The trap is subtracting the radii (5 − 3 = 2 cm), which applies to internal touching, not external. For external contact, distance = 5 + 3 = 8 cm, so the answer is 8 cm.
+Source: NCERT Class 10 Mathematics
+
+34. From an external point P, a tangent PA of length 12 cm is drawn to a circle of radius 5 cm with centre O. Then OP equals:
+(a) 13 cm (b) 17 cm (c) 7 cm (d) 11 cm
+Answer: (a)
+Solution: The trap is adding 12 + 5 = 17 cm, treating the three lengths as collinear. The radius is perpendicular to the tangent, so OP = √(12² + 5²) = √169 = 13 cm, so the answer is 13 cm.
+Source: NCERT Class 10 Mathematics
+
+35. The diagonals of a rhombus are 24 cm and 10 cm. Its side length is:
+(a) 13 cm (b) 12 cm (c) 17 cm (d) 26 cm
+Answer: (a)
+Solution: The trap is using the full diagonals in the Pythagoras theorem, giving 26 cm. Diagonals of a rhombus bisect each other at right angles, so side = √(12² + 5²) = 13 cm, so the answer is 13 cm.
+Source: NCERT Class 9 Mathematics
+
+36. In ΔABC, D and E are midpoints of AB and AC respectively. If BC = 14 cm, then DE equals:
+(a) 7 cm (b) 3.5 cm (c) 14 cm (d) 28 cm
+Answer: (a)
+Solution: The trap is dividing by 4 instead of 2, giving 3.5 cm. By the midpoint theorem, the segment joining the midpoints of two sides is half the third side: DE = 14/2 = 7 cm, so the answer is 7 cm.
+Source: NCERT Class 9 Mathematics
+
+37. The ratio of the areas of two similar triangles is 25 : 16. The ratio of their corresponding sides is:
+(a) 5 : 4 (b) 25 : 16 (c) 625 : 256 (d) 4 : 5
+Answer: (a)
+Solution: The trap is keeping the area ratio 25 : 16 as the side ratio. Sides are in the ratio of square roots: √25 : √16 = 5 : 4, so the answer is 5 : 4.
+Source: NCERT Class 10 Mathematics
+
+38. In ΔABC, DE ∥ BC with D on AB and E on AC. If AD = 3 cm, DB = 6 cm and AE = 4 cm, then EC equals:
+(a) 8 cm (b) 6 cm (c) 9 cm (d) 12 cm
+Answer: (a)
+Solution: The trap is doubling AE to get 8 cm by luck or wrongly using AD + DB. By the Basic Proportionality Theorem, AD/DB = AE/EC, so 3/6 = 4/EC, giving EC = 8 cm, so the answer is 8 cm.
+Source: NCERT Class 10 Mathematics
+
+39. A ladder 13 m long leans against a wall with its foot 5 m from the wall. The height reached on the wall is:
+(a) 8 m (b) 12 m (c) 10 m (d) 18 m
+Answer: (b)
+Solution: The trap is adding 13 + 5 = 18 m or subtracting to get 8 m. By Pythagoras, height = √(13² − 5²) = √144 = 12 m, so the answer is 12 m.
+Source: NCERT Class 10 Mathematics
+
+40. The area of an equilateral triangle of side 6 cm is:
+(a) 36√3 cm² (b) 12√3 cm² (c) 18 cm² (d) 9√3 cm²
+Answer: (d)
+Solution: The trap is using (√3/2) × 36 = 18√3, confusing the formula's denominator. Area = (√3/4) × 6² = (√3/4) × 36 = 9√3 cm², so the answer is 9√3 cm².
+Source: NCERT Class 9 Mathematics
+
+41. In a cyclic quadrilateral ABCD, ∠A = 75°. Then ∠C equals:
+(a) 75° (b) 95° (c) 105° (d) 115°
+Answer: (c)
+Solution: The trap is choosing 75°, assuming opposite angles are equal as in a parallelogram. In a cyclic quadrilateral, opposite angles are supplementary: ∠C = 180° − 75° = 105°, so the answer is 105°.
+Source: NCERT Class 9 Mathematics
+
+42. The sum of the interior angles of a polygon with 10 sides is:
+(a) 1260° (b) 1800° (c) 1620° (d) 1440°
+Answer: (d)
+Solution: The trap is using n × 180° = 1800° instead of (n − 2) × 180°. Sum = (10 − 2) × 180° = 1440°, so the answer is 1440°.
+Source: NCERT Class 8 Mathematics
+
+43. In ΔABC, AB = AC and ∠A = 40°. Then ∠B equals:
+(a) 40° (b) 100° (c) 80° (d) 70°
+Answer: (d)
+Solution: The trap is halving 40° or assuming ∠B = 80° by misplacing the vertex angle. Base angles are equal: ∠B = ∠C = (180° − 40°)/2 = 70°, so the answer is 70°.
+Source: NCERT Class 9 Mathematics
+
+44. Two parallel chords of lengths 6 cm and 8 cm lie on the same side of the centre of a circle of radius 5 cm. The distance between the chords is:
+(a) 2 cm (b) 1 cm (c) 3 cm (d) 7 cm
+Answer: (b)
+Solution: The trap is adding the two distances (4 + 3 = 7 cm), which applies when chords are on opposite sides. Distances from centre: √(25 − 9) = 4 cm and √(25 − 16) = 3 cm; same side, so gap = 4 − 3 = 1 cm, so the answer is 1 cm.
+Source: NCERT Class 9 Mathematics
+
+45. The perimeter of a semicircle of radius 7 cm is (take π = 22/7):
+(a) 22 cm (b) 36 cm (c) 44 cm (d) 58 cm
+Answer: (b)
+Solution: The trap is computing only the curved part πr = 22 cm and forgetting the diameter. Perimeter = πr + 2r = 22 + 14 = 36 cm, so the answer is 36 cm.
+Source: NCERT Class 10 Mathematics
+
+46. In a right-angled triangle, the hypotenuse is 25 cm and one leg is 7 cm. The other leg is:
+(a) 18 cm (b) 20 cm (c) 24 cm (d) 32 cm
+Answer: (c)
+Solution: The trap is subtracting 25 − 7 = 18 cm, treating it as a linear relation. Other leg = √(25² − 7²) = √(625 − 49) = √576 = 24 cm, so the answer is 24 cm.
+Source: NCERT Class 10 Mathematics
+
+47. The angle between the internal bisectors of two adjacent angles of a quadrilateral is 100°. The sum of the other two angles of the quadrilateral is:
+(a) 160° (b) 200° (c) 180° (d) 220°
+Answer: (b)
+Solution: The trap is doubling 100° to get 200° without justification, though here the result coincides; the correct reasoning is that the angle between the bisectors equals half the sum of the other two angles. Sum of other two angles = 2 × 100° = 200°, so the answer is 200°.
+Source: NCERT Class 9 Mathematics
+
+48. A chord of a circle is equal to its radius. The angle subtended by this chord at the centre is:
+(a) 60° (b) 45° (c) 30° (d) 90°
+Answer: (a)
+Solution: The trap is picking 90°, assuming a right angle without analysis. The chord and the two radii form an equilateral triangle, so each angle is 60°, so the answer is 60°.
+Source: NCERT Class 9 Mathematics
+
+49. The diagonals of a parallelogram are 16 cm and 12 cm, and they intersect at right angles. The side of the parallelogram is:
+(a) 10 cm (b) 14 cm (c) 20 cm (d) 28 cm
+Answer: (a)
+Solution: The trap is using full diagonals: √(16² + 12²) = 20 cm. A parallelogram with perpendicular diagonals is a rhombus; half-diagonals are 8 and 6, so side = √(8² + 6²) = 10 cm, so the answer is 10 cm.
+Source: NCERT Class 9 Mathematics
+
+50. In ΔABC, the bisector of ∠A meets BC at D. If AB = 6 cm, AC = 9 cm and BC = 10 cm, then BD equals:
+(a) 3 cm (b) 4 cm (c) 5 cm (d) 6 cm
+Answer: (b)
+Solution: The trap is bisecting BC equally and choosing 5 cm. By the angle bisector theorem, BD : DC = AB : AC = 6 : 9 = 2 : 3, so BD = (2/5) × 10 = 4 cm, so the answer is 4 cm.
+Source: NCERT Class 10 Mathematics

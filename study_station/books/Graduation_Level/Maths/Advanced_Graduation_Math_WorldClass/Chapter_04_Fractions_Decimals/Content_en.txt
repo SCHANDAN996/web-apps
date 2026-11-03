@@ -1,0 +1,159 @@
+# Fractions & Decimals
+
+## Chapter Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Classify fractions (proper, improper, mixed, equivalent, like/unlike) instantly.
+2. Compare and order fractions using cross-multiplication and decimal conversion.
+3. Master operations on fractions and decimals — including the traps examiners set.
+4. Convert between fractions, decimals, and percentages fluently.
+5. Handle recurring decimals and convert them to fractions.
+6. Apply fractions to real exam problems: successive changes, remainders, and approximation.
+
+---
+
+## The Hook: A Rupee That Broke a Bank Exam
+
+In a well-known banking exam, thousands of candidates lost a mark on this innocent-looking question: *"What is 0.999… (9 repeating forever) equal to?"* Most wrote "slightly less than 1." The correct answer? **Exactly 1.** If that surprises you, good — it means this chapter will change how you see numbers. Fractions and decimals are not "school maths." In SSC CGL Tier-II, IBPS PO Mains, and CSAT, they are the hidden engine inside percentages, ratios, profit-loss, and data interpretation. Master them here, and half of quantitative aptitude becomes faster.
+
+---
+
+## 1. What a Fraction Really Is
+
+A fraction **a/b** is simply a division waiting to happen: *a* divided by *b*. The numerator (a) tells you *how many parts* you have; the denominator (b) tells you *into how many equal parts* the whole was cut.
+
+- **Proper fraction:** numerator < denominator (3/5). Value is less than 1.
+- **Improper fraction:** numerator ≥ denominator (7/4). Value is 1 or more.
+- **Mixed fraction:** a whole number plus a proper fraction (1¾ = 7/4).
+- **Equivalent fractions:** same value, different look (2/3 = 4/6 = 10/15).
+
+🧠 **Active Recall:** Without looking back — is 9/9 proper or improper? Convert 17/5 into a mixed fraction.
+
+---
+
+## 2. Comparing Fractions — The Examiner's Favourite Trap
+
+Which is bigger: 7/11 or 5/8? Don't convert to decimals in the exam — **cross-multiply**:
+
+- 7 × 8 = 56 and 5 × 11 = 55. Since 56 > 55, **7/11 > 5/8**.
+
+Rule: for a/b vs c/d, compare **a×d** with **c×b**. The bigger product belongs to the bigger fraction.
+
+**Trick for close fractions:** If two fractions have the same *gap* between numerator and denominator (like 3/4 and 7/8, gap = 1), the one with the **larger numbers** is bigger. So 7/8 > 3/4. But if the gap is in the *numerator* direction for improper fractions, the rule flips — always verify with cross-multiplication when in doubt.
+
+🧠 **Active Recall:** Arrange in ascending order: 2/5, 3/7, 4/9. (Hint: cross-multiply pairs.)
+
+---
+
+## 3. Operations on Fractions
+
+**Addition/Subtraction:** You cannot add apples to oranges — make denominators equal first (LCM).
+
+- 2/3 + 3/4 = 8/12 + 9/12 = 17/12.
+
+**Multiplication:** Straight across. No LCM needed.
+- 2/3 × 3/4 = 6/12 = 1/2. **Cancel common factors *before* multiplying** — this is the single biggest time-saver in exams.
+
+**Division:** Multiply by the reciprocal ("Keep–Change–Flip").
+- 2/3 ÷ 3/4 = 2/3 × 4/3 = 8/9.
+
+**Memory trick (mnemonic):** *"Dividing fractions? Don't ask why — just flip the second and multiply!"* Remember **KCF: Keep, Change, Flip.**
+
+🧠 **Active Recall:** Compute 5/6 ÷ 10/9. What did you flip?
+
+---
+
+## 4. Decimals: Fractions Wearing a Suit
+
+Every decimal is a fraction whose denominator is a power of 10: 0.375 = 375/1000 = 3/8.
+
+**Key skills:**
+
+- **Addition/Subtraction:** Align the decimal points. 3.2 + 0.45 = 3.65 (write 3.20 first).
+- **Multiplication:** Multiply as whole numbers, then place the decimal point — total decimal places = sum of decimal places in both numbers. 0.4 × 0.25 → 4 × 25 = 100, three decimal places → **0.100 = 0.1**.
+- **Division:** Shift the decimal to make the divisor a whole number. 4.5 ÷ 0.15 = 450 ÷ 15 = 30.
+
+**Exam trap:** 0.1 × 0.1 = 0.01, *not* 0.1. Multiplying two numbers less than 1 gives a *smaller* number — the opposite of what intuition from whole numbers suggests.
+
+🧠 **Active Recall:** Is 0.9 × 0.9 greater or smaller than 0.9? Why?
+
+---
+
+## 5. Recurring Decimals → Fractions (Advanced Must-Know)
+
+A recurring decimal repeats forever: 0.333… = 0.3̄.
+
+**Conversion rules:**
+
+- Pure recurring: 0.7̄ = 7/9; 0.1̄6̄ = 16/99. (Repeating digits over as many 9s as there are repeating digits.)
+- Mixed recurring: 0.1666… = 0.16̄ = (16 − 1)/90 = 15/90 = 1/6. Formula: **(whole block − non-repeating part) / (9s for repeating digits followed by 0s for non-repeating digits).**
+
+And that hook from the start: 0.9̄ = 9/9 = **1**. Two different decimal representations, one number.
+
+🧠 **Active Recall:** Convert 0.272727… into a fraction. (Answer pattern: two repeating digits → denominator 99.)
+
+---
+
+## 6. The Fraction–Decimal–Percentage Triangle
+
+Advanced exams make you jump between all three forms. Memorise the high-frequency conversions:
+
+| Fraction | Decimal | Percentage |
+|---|---|---|
+| 1/2 | 0.5 | 50% |
+| 1/3 | 0.333… | 33.33% |
+| 1/4 | 0.25 | 25% |
+| 1/5 | 0.2 | 20% |
+| 1/6 | 0.1666… | 16.66% |
+| 1/8 | 0.125 | 12.5% |
+| 1/9 | 0.111… | 11.11% |
+| 1/11 | 0.0909… | 9.09% |
+| 1/12 | 0.0833… | 8.33% |
+| 3/8 | 0.375 | 37.5% |
+| 5/8 | 0.625 | 62.5% |
+| 7/8 | 0.875 | 87.5% |
+
+**Mnemonic for the eighths family:** *"Eighths climb by 125"* — 1/8 = 0.125, 2/8 = 0.250, 3/8 = 0.375, 4/8 = 0.500… each step adds 0.125.
+
+🧠 **Active Recall:** Close the table. What is 5/8 as a decimal? What fraction is 8.33%?
+
+---
+
+## 7. Advanced Applications
+
+**Successive fractions:** If a worker completes 1/3 of a job, then 1/4 of the *remaining*, what fraction is left? Remaining after step 1 = 2/3. Then 1/4 of 2/3 = 1/6 is done. Total done = 1/3 + 1/6 = 1/2. Left = **1/2**. Shortcut: multiply the "remainders": (1 − 1/3)(1 − 1/4) = 2/3 × 3/4 = 1/2.
+
+**Fraction of a number vs. fraction of a fraction:** "1/3 of 1/2" = 1/6 — the word *of* means multiply. This tiny word causes huge errors in DI questions.
+
+**Approximation (PO Mains favourite):** 0.498 × 2.003 ≈ 0.5 × 2 = 1. Learn to spot when options are far enough apart to approximate safely.
+
+🧠 **Active Recall:** A tank is 5/6 full. 1/5 of the water is drained. What fraction of the tank still has water?
+
+---
+
+## 8. Common Exam Traps — Memorise These
+
+1. **0.1 × 0.1 ≠ 0.1** (it's 0.01).
+2. Dividing by a proper fraction *increases* the number: 6 ÷ (1/2) = 12.
+3. 1/3 is **not** 0.33 exactly — it's 0.333…; using 0.33 in long calculations compounds error.
+4. "Of" = multiply; "out of" = divide.
+5. Comparing 5/9 and 6/11 by "both are a bit more than half" fails — cross-multiply (55 vs 54, so 5/9 > 6/11).
+
+---
+
+## Summary Table
+
+| Concept | Core Rule | One-line Memory Hook |
+|---|---|---|
+| Comparing fractions | Cross-multiply: a×d vs c×b | "Cross swords, bigger product wins" |
+| ÷ by a fraction | Keep–Change–Flip (KCF) | "Flip the second, multiply" |
+| × decimals | Count total decimal places | "Multiply blind, then place the point" |
+| Pure recurring decimal | Digits / 9, 99, 999… | "One 9 per repeating digit" |
+| Mixed recurring | (Block − non-repeat) / (9s then 0s) | "Nines chase, zeros trail" |
+| Successive remainders | Multiply (1 − fraction) terms | "What's left? Multiply the leftovers" |
+| 0.999… | Exactly equals 1 | "The decimal that fooled a bank exam" |
+
+---
+
+📌 **Review this chapter after 2 days.** Redo the Active Recall prompts from memory, rewrite the conversion table without looking, and re-derive 0.16̄ = 1/6. Spaced repetition is what moves these rules from "I read it" to "I can't forget it."

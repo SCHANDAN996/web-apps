@@ -1,0 +1,57 @@
+```mermaid
+graph TD
+    A["CONJUNCTIONS<br>Joining Words"] --> B["Coordinating<br>FANBOYS"]
+    A --> C["Subordinating"]
+    A --> D["Correlative<br>Pairs"]
+    A --> E["Conjunctive Adverbs"]
+
+    B --> B1["For, And, Nor,<br>But, Or, Yet, So"]
+    B --> B2["Join EQUAL elements<br>word=word, clause=clause"]
+    B --> B3["Trap: comma before 'and'<br>joining two clauses"]
+
+    C --> C1["Time: when, while, since,<br>until, before, after, as"]
+    C --> C2["Reason: because, since, as"]
+    C --> C3["Condition: if, unless,<br>provided that, in case"]
+    C --> C4["Concession: although,<br>though, even though, whereas"]
+    C --> C5["Purpose: so that, in order that,<br>lest"]
+    C --> C6["Rule: dependent clause +<br>independent clause"]
+    C --> C7["Trap: NO comma when<br>dependent clause comes second"]
+
+    D --> D1["both...and"]
+    D --> D2["either...or / neither...nor"]
+    D --> D3["not only...but also"]
+    D --> D4["no sooner...than /<br>hardly...when / scarcely...when"]
+    D --> D5["the more...the more"]
+    D --> D6["Rule: PARALLEL structure<br>after both parts"]
+    D --> D7["Trap: 'not only...and also' WRONG<br>'no sooner...when' WRONG"]
+
+    E --> E1["however, therefore,<br>moreover, nevertheless"]
+    E --> E2["Punctuation: semicolon before,<br>comma after"]
+
+    A --> F["12 GOLDEN RULES"]
+    F --> F1["'Until' = time, 'Unless' = condition"]
+    F --> F2["'Since' + point of time<br>'For' + period of time"]
+    F --> F3["'Because' and 'so' NEVER together"]
+    F --> F4["'Although' and 'but' NEVER together"]
+    F --> F5["'Lest' takes 'should' or bare verb,<br>NEVER 'not'"]
+    F --> F6["'Scarcely/Hardly...when'<br>'No sooner...than'"]
+    F --> F7["'That' after: said, told, think<br>(not after interrogatives)"]
+    F --> F8["'As if / As though' +<br>past tense for present unreal"]
+    F --> F9["'So...that' vs 'such...that'<br>for result clauses"]
+    F --> F10["'Whether...or' for alternatives<br>(indirect yes/no questions)"]
+    F --> F11["'Rather than' takes bare infinitive<br>(keep parallel with main verb)"]
+    F --> F12["'The reason is that...'<br>NOT 'the reason is because'"]
+
+    A --> G["EXAMINER'S TRAPS"]
+    G --> G1["Double conjunction:<br>'Although...but' = ERROR"]
+    G --> G2["Wrong pair: 'Neither...or'<br>should be 'Neither...nor'"]
+    G --> G3["'Unless you do not work'<br>double negative = ERROR"]
+    G --> G4["'No sooner...when'<br>should be 'than'"]
+    G --> G5["Sound-Right trap:<br>'Being rainy, match stopped'"]
+
+    A --> H["STRATEGY"]
+    H --> H1["15-sec: spot the pair<br>(correlative errors)"]
+    H --> H2["45-sec: meaning-based<br>(choose because/although/so)"]
+    H --> H3["Check parallelism first<br>in correlative questions"]
+    H --> H4["Read full sentence —<br>trap hides in second clause"]
+```

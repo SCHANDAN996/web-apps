@@ -1,0 +1,151 @@
+Questions 126–145: Easy | Questions 146–150: Moderate
+
+126. In a figure series, a square contains a dot and a cross. The dot moves one corner clockwise each step, while the cross moves two corners anticlockwise each step. If in the first figure the dot is at the top-left and the cross is at the top-right, where will both be in the fifth figure?
+(a) Dot at top-left, cross at top-right (b) Dot at bottom-left, cross at bottom-right (c) Dot at top-right, cross at bottom-left (d) Dot at top-left, cross at bottom-left
+Answer: (a)
+Solution: The tempting trap is to track only one element and assume the other stays put. The dot moves 1 corner clockwise per step: after 4 moves (figure 5) it returns to top-left. The cross moves 2 corners anticlockwise per step: after 4 moves it has moved 8 corners = 2 full rounds, so it is back at top-right. So the answer is dot at top-left, cross at top-right.
+Source: PYQ-style
+
+127. A series shows triangles with 1, 2, 4, 7, 11 inner line segments respectively. How many inner segments will the next figure have?
+(a) 14 (b) 15 (c) 17 (d) 16
+Answer: (d)
+Solution: The trap is to assume doubling (1, 2, 4, 8…) and pick a value near 15. Actually the differences are +1, +2, +3, +4, so the next difference is +5, giving 11 + 5 = 16. So the answer is 16.
+Source: PYQ-style
+
+128. In a classification question, four figures each show a circle with a line passing through it. In three figures the line divides the circle into two equal halves; in one it does not pass through the centre. Identify the odd one.
+(a) Figure with a chord not through the centre (b) Figure with vertical diameter (c) Figure with horizontal diameter (d) Figure with diagonal diameter
+Answer: (a)
+Solution: The trap is to classify by orientation (vertical/horizontal/diagonal), which is a misleading surface feature. Orientation is irrelevant; the real property is whether the line is a diameter. Only the chord fails to bisect the circle, so the answer is the figure with a chord not through the centre.
+Source: PYQ-style
+
+129. A figure series rotates an arrow 45° clockwise in step 1, 90° in step 2, 135° in step 3. If the arrow initially points up, where does it point after step 4 (rotation 180°)?
+(a) Down (b) Left (c) Up (d) Right
+Answer: (d)
+Solution: The trap is to assume a constant 45° rotation each step, which would wrongly suggest down. The rotations grow by 45° each time: +45°, +90°, +135°, +180°. Cumulative positions measured clockwise from up are 45°, 135°, 270°, and then 270° + 180° = 450° ≡ 90°, which points right. So the answer is right.
+Source: PYQ-style
+
+130. Five figures show a hexagon with shaded regions covering 1/6, 2/6, 3/6, 4/6 of the area. Which fraction comes next?
+(a) 5/6 (b) 6/6 (c) 2/3 (d) 1/2
+Answer: (a)
+Solution: The trap is to jump to 6/6 assuming the figure completes. The shading increases by exactly one-sixth each step, so after 4/6 comes 5/6, not a full hexagon. So the answer is 5/6.
+Source: PYQ-style
+
+131. In a series, the number of sides of the outer figure increases by 1 (triangle, square, pentagon, hexagon), while the number of inner dots decreases by 1 (6, 5, 4, 3). What does the next figure contain?
+(a) Octagon with 2 dots (b) Heptagon with 2 dots (c) Heptagon with 3 dots (d) Hexagon with 2 dots
+Answer: (b)
+Solution: The double-relationship trap is to extend only one pattern — picking an octagon (adding 2 sides) or keeping 3 dots. Outer sides: 3, 4, 5, 6 → 7 (heptagon); inner dots: 6, 5, 4, 3 → 2. Both patterns must be applied together, so the answer is heptagon with 2 dots.
+Source: PYQ-style
+
+132. Four figures show a triangle inside a circle, a square inside a circle, a pentagon inside a circle, and a circle inside a triangle. Which is the odd one out?
+(a) Circle inside triangle (b) Square inside circle (c) Pentagon inside circle (d) Triangle inside circle
+Answer: (a)
+Solution: The trap is to compare the shapes by name instead of checking which shape is the container. In three figures the circle is the outer container holding a polygon; only in one figure is the circle placed inside a polygon, reversing the relationship. So the answer is circle inside triangle.
+Source: PYQ-style
+
+133. A 3×3 matrix of figures has rows where the third figure is the superimposition (union) of the first two. Row 3 has a figure with a horizontal line and a figure with a vertical line. What is the missing figure?
+(a) An empty square (b) A cross tilted 45° (c) A single diagonal line (d) A plus sign
+Answer: (d)
+Solution: The trap is to think of cancellation (XOR) and choose an empty square, but the rule stated is union, not cancellation. Superimposing a horizontal and a vertical line gives a plus sign, so the answer is a plus sign.
+Source: PYQ-style
+
+134. In a series, a black sector of a circle covers 45°, then 90°, then 180°. What is the next coverage?
+(a) 360° (b) 270° (c) 225° (d) 315°
+Answer: (a)
+Solution: The trap is to add a constant 45° or 90° and pick 225° or 270°. The pattern is doubling: 45 → 90 → 180 → 360. So the next figure is a fully shaded circle, and the answer is 360°.
+Source: PYQ-style
+
+135. Four figures each contain four small shapes. In three, exactly two shapes are shaded; in one, three are shaded. Which is the odd one?
+(a) Figure with two shaded circles (b) Figure with two shaded squares (c) Figure with three shaded triangles (d) Figure with two shaded stars
+Answer: (c)
+Solution: The trap is to classify by shape type (circles vs squares vs triangles), which is a misleading surface feature. The invariant property is the count of shaded shapes: three figures have exactly two shaded, one has three. So the answer is the figure with three shaded triangles.
+Source: PYQ-style
+
+136. A figure series alternates: a letter-like symbol rotates 90° clockwise in odd steps and is mirror-imaged (flipped top-to-bottom) in even steps. Starting from a symbol facing right, after step 1 (rotate) and step 2 (mirror), what is the result of step 3 (rotate 90° clockwise again)?
+(a) Facing up (b) Facing down (c) Facing left (d) Same as the original
+Answer: (d)
+Solution: The trap is to ignore the mirror step and just add rotations, giving facing left. Step 1 rotates right → down. Step 2 flips top-to-bottom: down → up. Step 3 rotates 90° clockwise: up → right, matching the original orientation. So the answer is same as the original.
+Source: PYQ-style
+
+137. In a matrix, each row contains figures with 3, 5, 7 line endpoints respectively. The third row starts with figures having 4 and 6 endpoints. How many endpoints should the missing figure have?
+(a) 7 (b) 8 (c) 10 (d) 9
+Answer: (b)
+Solution: The trap is to copy the first row's odd-number pattern blindly and pick 7. Within each row the increase is +2: 4, 6, so the next is 8. So the answer is 8.
+Source: PYQ-style
+
+138. A series shows a square whose one corner is cut off, then two corners, then three. What comes next?
+(a) A square with one corner cut (b) A square with all four corners cut (c) A circle (d) A triangle
+Answer: (b)
+Solution: The trap is to assume the cycle resets to one corner. The pattern is a steady increase of one cut corner per step: 1, 2, 3, then 4 — an octagon-like figure with all four corners cut. So the answer is a square with all four corners cut.
+Source: PYQ-style
+
+139. Four figures show arrows: one points north with a tail line, one points east with a tail line, one points south without a tail, one points west with a tail line. Which is the odd one out?
+(a) East arrow (b) South arrow (c) North arrow (d) West arrow
+Answer: (b)
+Solution: The trap is to classify by direction, but all four directions are different, so direction cannot isolate one figure. The distinguishing property is the missing tail line, which only the south-pointing arrow lacks. So the answer is the south arrow.
+Source: PYQ-style
+
+140. In a series, the inner figure and outer figure swap positions every step, and the inner figure gains one side each time it appears inside. Step 1: triangle inside circle. Step 2: circle inside triangle. Step 3: square inside circle. What is step 4?
+(a) Circle inside triangle (b) Pentagon inside circle (c) Circle inside square (d) Triangle inside square
+Answer: (c)
+Solution: The double-relationship trap is to advance the sides (expecting a pentagon) while forgetting the swap, or to swap while forgetting the side increase. In step 3 the inner figure became a square (triangle gained a side). Step 4 swaps: the circle goes inside and the square goes outside — the side increase applies only when a polygon is inside, and here the polygon moves outside unchanged. So the answer is circle inside square.
+Source: PYQ-style
+
+141. A figure series shows dots arranged as 1, 4, 9, 16 in square formations. How many dots appear in the next figure?
+(a) 36 (b) 24 (c) 25 (d) 20
+Answer: (c)
+Solution: The trap is to add 8 (wrongly extending the last difference of 7) and pick 24. These are perfect squares: 1², 2², 3², 4², so next is 5² = 25. So the answer is 25.
+Source: PYQ-style
+
+142. In a classification set, three figures can be drawn in one stroke without lifting the pen, and one cannot. Which is the odd one?
+(a) A square with both diagonals (b) A pentagon (c) A rectangle (d) A triangle
+Answer: (a)
+Solution: The trap is to classify by number of sides. The real property is one-stroke drawability: a figure can be drawn in one stroke only if it has 0 or 2 odd-degree vertices. A square with both diagonals has 4 odd-degree vertices, so it cannot be drawn in one stroke; the plain polygons can. So the answer is a square with both diagonals.
+Source: PYQ-style
+
+143. A series shows a clock-like figure where the long hand moves 3 hours forward and the short hand moves 1 hour backward each step. Starting with the long hand at 12 and short hand at 6, where are they after 3 steps?
+(a) Long at 9, short at 9 (b) Long at 3, short at 9 (c) Long at 9, short at 3 (d) Long at 6, short at 3
+Answer: (c)
+Solution: The trap is to move both hands forward or to swap their movements. Long hand: 12 → 3 → 6 → 9. Short hand: 6 → 5 → 4 → 3. After 3 steps the long hand is at 9 and the short hand at 3, so the answer is long at 9, short at 3.
+Source: PYQ-style
+
+144. Four figures show circles divided into enclosed regions. Three figures have exactly 3 enclosed regions; one has 4. Which is the odd one?
+(a) Two concentric circles with a line through the centre (b) Two overlapping circles (c) A circle divided by two parallel chords (d) A circle with two chords meeting at a point on the circle
+Answer: (a)
+Solution: The trap is to count circles or lines instead of regions. Two overlapping circles make 3 regions, two parallel chords make 3 strips, and two chords meeting on the circle also make 3 regions. Two concentric circles with a diameter line create 4 regions (the inner disc split into 2 and the outer ring split into 2). So the answer is two concentric circles with a line through the centre.
+Source: PYQ-style
+
+145. In a series, a shaded triangle inside a square moves from corner to corner clockwise, and its orientation flips (pointing in vs out) every alternate step. In figure 1 it is at top-left pointing inward. Where is it and how oriented in figure 5?
+(a) Top-right, outward (b) Top-left, outward (c) Bottom-right, inward (d) Top-left, inward
+Answer: (d)
+Solution: The trap is to track position only and forget the flip, or vice versa. Position: 4 moves clockwise returns it to top-left. Orientation flips every step: inward → out → in → out → in, so in figure 5 it points inward. So the answer is top-left, inward.
+Source: PYQ-style
+
+146. A matrix row shows: a triangle with 1 dot, a square with 2 dots, a pentagon with 3 dots. The next row shows: a square with 2 dots, a pentagon with 3 dots. What completes the second row?
+(a) Pentagon with 4 dots (b) Hexagon with 3 dots (c) Hexagon with 4 dots (d) Triangle with 4 dots
+Answer: (c)
+Solution: The trap is to repeat the pentagon from the previous cell or to keep the dots at 3. In each row, sides increase by 1 and dots increase by 1 across columns; row 2 simply starts one step ahead of row 1 (square with 2 dots). So the third cell of row 2 is a hexagon with 4 dots, and the answer is hexagon with 4 dots.
+Source: PYQ-style
+
+147. A series shows figures made of matchsticks: 3 sticks (one triangle), 5 sticks (two triangles sharing a side), 7 sticks (three triangles in a row, each new one sharing a side). How many sticks form the next figure?
+(a) 11 (b) 9 (c) 10 (d) 8
+Answer: (b)
+Solution: The trap is to add 3 sticks (a full triangle) and pick 10. Each new triangle shares one side with the previous figure, so it adds only 2 sticks: 3, 5, 7, then 9. So the answer is 9.
+Source: PYQ-style
+
+148. Four figures each show a large shape containing a smaller shape. In three, the inner shape has fewer sides than the outer; in one, the inner has more sides. Which is the odd one?
+(a) Pentagon containing square (b) Triangle containing hexagon (c) Square containing triangle (d) Hexagon containing pentagon
+Answer: (b)
+Solution: The trap is to compare specific shape names rather than the side-count relationship. In three figures inner sides are fewer than outer sides (3<4, 4<5, 5<6); only the triangle containing a hexagon reverses this (3 outer, 6 inner). So the answer is triangle containing hexagon.
+Source: PYQ-style
+
+149. In a series, a symbol alternates between two forms A and B, while a surrounding ring of dots grows by 2 each step: 2, 4, 6 dots. If figure 1 is form A with 2 dots, what is figure 4?
+(a) Form A with 8 dots (b) Form B with 6 dots (c) Form B with 8 dots (d) Form A with 6 dots
+Answer: (c)
+Solution: The double-relationship trap is to get the dots right but the form wrong (or vice versa). Forms alternate A, B, A, B — figure 4 is form B. Dots: 2, 4, 6, 8 — figure 4 has 8 dots. So the answer is form B with 8 dots.
+Source: PYQ-style
+
+150. A complex series combines three rules: the outer figure rotates 90° clockwise each step; an inner dot moves one position anticlockwise each step; and shading toggles on/off every step. Figure 1: unshaded square (flat top), dot at top. What is figure 3?
+(a) Shaded square rotated 180°, dot at bottom (b) Shaded square rotated 90°, dot at left (c) Unshaded square rotated 90°, dot at right (d) Unshaded square rotated 180°, dot at bottom
+Answer: (d)
+Solution: The trap is to apply only one or two of the three rules — a classic triple-relationship question. Rotation: after 2 steps the square has turned 180°. Dot: 2 anticlockwise moves from top → left → bottom. Shading toggles each step: figure 1 unshaded, figure 2 shaded, figure 3 unshaded. All three rules together fix the choice, so the answer is unshaded square rotated 180°, dot at bottom.
+Source: PYQ-style

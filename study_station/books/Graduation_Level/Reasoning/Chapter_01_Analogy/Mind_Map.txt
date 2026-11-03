@@ -1,0 +1,46 @@
+```mermaid
+graph TD
+    A["सादृश्यता<br>Analogy"] --> B["मूल सिद्धांत<br>Core Principle"]
+    A --> C["प्रकार<br>Types"]
+    A --> D["रणनीति<br>Strategy"]
+    A --> E["समय प्रबंधन<br>Time Management"]
+    A --> F["परीक्षक के जाल<br>Examiner Traps"]
+
+    B --> B1["A : B :: C : ?<br>पहले जोड़े का संबंध = दूसरे जोड़े का संबंध<br>Same relation in both pairs"]
+    B --> B2["संबंध पहले पहचानो<br>Identify relation FIRST<br>फिर विकल्प जाँचो"]
+
+    C --> C1["शब्द सादृश्यता<br>Word Analogy"]
+    C --> C2["संख्या सादृश्यता<br>Number Analogy"]
+    C --> C3["अक्षर सादृश्यता<br>Letter Analogy"]
+    C --> C4["मिश्रित / चित्र<br>Mixed / Image"]
+
+    C1 --> C1a["पर्यायवाची / विलोम<br>Synonym / Antonym"]
+    C1 --> C1b["अंश : समग्र<br>Part : Whole"]
+    C1 --> C1c["उपकरण : कर्ता / कार्य<br>Tool : Worker / Function"]
+    C1 --> C1d["देश : राजधानी / मुद्रा<br>Country : Capital / Currency"]
+    C1 --> C1e["जानवर : बच्चा / आवाज़<br>Animal : Young one / Sound"]
+    C1 --> C1f["कारण : प्रभाव<br>Cause : Effect"]
+
+    C2 --> C2a["वर्ग / घन ± n<br>Square / Cube ± n"]
+    C2 --> C2b["गुणन / भाग पैटर्न<br>Multiply / Divide"]
+    C2 --> C2c["अंकों का योग / गुणनफल<br>Sum / Product of digits"]
+    C2 --> C2d["अभाज्य / सम-विषम<br>Prime / Even-Odd"]
+
+    C3 --> C3a["वर्णमाला स्थिति ± n<br>Position shift ± n"]
+    C3 --> C3b["विपरीत अक्षर<br>Opposite letters (A-Z, B-Y)"]
+    C3 --> C3c["क्रॉस / उलट क्रम<br>Reverse order"]
+
+    D --> D1["वाक्य बनाओ<br>Make a sentence<br>'चाकू काटता है' जैसे"]
+    D --> D2["संबंध का क्रम जाँचो<br>Check ORDER of relation<br>बड़ा:छोटा या छोटा:बड़ा"]
+    D --> D3["सबसे विशिष्ट संबंध चुनो<br>Choose MOST specific relation"]
+    D --> D4["विकल्प हटाओ<br>Eliminate options"]
+
+    E --> E1["आसान प्रश्न: 15-20 सेकंड<br>Easy: 15-20 sec"]
+    E --> E2["कठिन: अधिकतम 45 सेकंड<br>Hard: max 45 sec"]
+    E --> E3["न समझ आए तो छोड़ो<br>Skip if relation unclear<br>बाद में लौटो"]
+
+    F --> F1["क्रम उलटा जाल<br>Reversed order trap<br>(पेड़:फल ≠ फल:पेड़)"]
+    F --> F2["लगभग-सही विकल्प<br>Near-correct option<br>(समान श्रेणी, गलत संबंध)"]
+    F --> F3["दो संबंध संभव<br>Two relations possible<br>→ अधिक विशिष्ट चुनो"]
+    F --> F4["संख्या में कई पैटर्न<br>Multiple number patterns<br>→ दोनों जोड़ों में जाँचो"]
+```

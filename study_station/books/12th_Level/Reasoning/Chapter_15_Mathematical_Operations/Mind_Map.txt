@@ -1,0 +1,31 @@
+```mermaid
+graph TD
+    A["गणितीय संक्रियाएँ<br>Mathematical Operations"] --> B["प्रकार 1: चिन्ह बदलना<br>Symbol Substitution"]
+    A --> C["प्रकार 2: चिन्हों की अदला-बदली<br>Symbol Interchange"]
+    A --> D["प्रकार 3: संख्याओं की अदला-बदली<br>Number Interchange"]
+    A --> E["प्रकार 4: शब्दों को चिन्हों में<br>Word to Symbol (P means +)"]
+    A --> F["प्रकार 5: सही समीकरण चुनना<br>Choose Correct Equation"]
+
+    B --> B1["चिन्हों को नए अर्थ से बदलें<br>Replace signs, then solve"]
+    C --> C1["दो चिन्ह आपस में बदलें<br>Swap two signs, check options"]
+    D --> D1["जैसे 3↔5 बदलकर हल करें<br>e.g. interchange 3 and 5"]
+    E --> E1["P=+, Q=−, R=×, S=÷<br>Convert words to signs first"]
+    F --> F1["विकल्पों में चिन्ह भरकर जाँचें<br>Fill signs from options & verify"]
+
+    A --> G["मुख्य रणनीति<br>Key Strategy"]
+    G --> G1["BODMAS सख्ती से लागू<br>Apply BODMAS strictly"]
+    G --> G2["पहले चिन्ह बदलें, फिर हल करें<br>Substitute first, solve later"]
+    G --> G3["विकल्प-जाँच विधि<br>Option-testing method"]
+    G --> G4["÷ और × पहले, + और − बाद में<br>÷ × before + −"]
+
+    A --> H["समय प्रबंधन<br>Time Management"]
+    H --> H1["आसान प्रश्न: 20–30 सेकंड<br>Easy: 20–30 sec"]
+    H --> H2["अदला-बदली वाले: 45–60 सेकंड<br>Interchange type: 45–60 sec"]
+    H --> H3["लंबा समीकरण हो तो skip करें<br>Skip lengthy equations"]
+
+    A --> I["परीक्षक के जाल<br>Examiner Traps"]
+    I --> I1["BODMAS भूलकर बाएँ-से-दाएँ हल<br>Left-to-right instead of BODMAS"]
+    I --> I2["सभी चिन्ह न बदलना<br>Missing one substitution"]
+    I --> I3["= चिन्ह भी बदलना (गलत)<br>Changing '=' wrongly"]
+    I --> I4["ऋणात्मक/भिन्न उत्तर पर घबराना<br>Panicking at negative/fraction answers"]
+```

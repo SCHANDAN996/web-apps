@@ -1,0 +1,43 @@
+```mermaid
+graph TD
+    A["Preposition<br>संबंधसूचक"] --> B["What is it?<br>Word placed BEFORE a noun/pronoun<br>shows relation with other words"]
+    A --> C["Types"]
+    A --> D["8 Golden Rules"]
+    A --> E["Examiner's Traps"]
+    A --> F["Strategies"]
+
+    C --> C1["Preposition of TIME<br>at / on / in / since / for / by"]
+    C --> C2["Preposition of PLACE<br>at / on / in / between / among"]
+    C --> C3["Preposition of DIRECTION<br>to / into / towards / across"]
+    C --> C4["Fixed / Phrasal Prepositions<br>afraid of, good at, depend on"]
+
+    C1 --> C1a["AT = exact time<br>at 5 o'clock, at noon"]
+    C1 --> C1b["ON = day / date<br>on Monday, on 15 August"]
+    C1 --> C1c["IN = month / year / season<br>in July, in 2024"]
+    C1 --> C1d["SINCE = point of time<br>since 2010"]
+    C1 --> C1e["FOR = period of time<br>for two years"]
+
+    C2 --> C2a["AT = point<br>at the bus stop"]
+    C2 --> C2b["ON = surface<br>on the table"]
+    C2 --> C2c["IN = enclosed space<br>in the room, in India"]
+    C2 --> C2d["BETWEEN = two<br>AMONG = more than two"]
+
+    D --> D1["No preposition after<br>reach, enter, attack, resemble"]
+    D --> D2["No preposition before<br>home, yesterday, today, tomorrow"]
+    D --> D3["Different FROM<br>not different than"]
+    D --> D4["Married TO, angry WITH (person)<br>angry AT (thing)"]
+    D --> D5["Good AT, interested IN<br>afraid OF, depend ON"]
+    D --> D6["Senior/Junior/Superior + TO<br>not than"]
+    D --> D7["Preposition + V-ing<br>He insisted on going"]
+    D --> D8["Beside = next to<br>Besides = in addition to"]
+
+    E --> E1["Sound-Right Trap<br>'discuss about' ❌ → discuss ✓"]
+    E --> E2["Hindi Translation Trap<br>'What you are doing?' ❌<br>'What are you doing?' ✓"]
+    E --> E3["Intervening Phrase Trap<br>long phrase hides the real noun"]
+    E --> E4["Over-thinking Trap<br>simple fixed use made to look complex"]
+
+    F --> F1["15-Second Rule<br>Fixed prepositions = recall, answer fast"]
+    F --> F2["45-Second Rule<br>Error spotting = check each option"]
+    F --> F3["Mnemonic<br>'AT-ON-IN: small to big'<br>time & place both"]
+    F --> F4["Skip Strategy<br>Unknown fixed phrase? Mark & move on"]
+```

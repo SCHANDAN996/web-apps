@@ -1,0 +1,34 @@
+```mermaid
+graph TD
+    A["वाक्य सुधार (उन्नत)<br>Sentence Improvement"] --> B["मुख्य नियम"]
+    A --> C["परीक्षक के जाल"]
+    A --> D["रणनीति"]
+    A --> E["शब्द-निर्माण<br>(Morphology)"]
+
+    B --> B1["कर्ता-क्रिया सामंजस्य<br>Subject-Verb Agreement"]
+    B --> B2["काल की एकरूपता<br>Tense Consistency"]
+    B --> B3["समानांतर संरचना<br>Parallelism"]
+    B --> B4["संशोधक का सही स्थान<br>Modifier Placement"]
+    B --> B5["सर्वनाम का संदर्भ<br>Pronoun Reference"]
+    B --> B6["सही शब्द-चयन<br>Diction / Word Choice"]
+
+    B1 --> B1a["Intervening Phrase को नज़रअंदाज़ करो<br>The quality of apples IS good"]
+    B2 --> B2a["एक ही समय-रेखा में एक ही काल"]
+    B3 --> B3a["and / or / but से जुड़े भाग<br>एक ही रूप में हों"]
+
+    C --> C1["Intervening Phrase जाल<br>बीच का वाक्यांश ध्यान भटकाता है"]
+    C --> C2["Sound-Right जाल<br>कान को सही लगने वाला गलत विकल्प"]
+    C --> C3["Over-thinking जाल<br>सही वाक्य को बदलने की ज़रूरत नहीं<br>'No improvement' भी उत्तर हो सकता है"]
+    C --> C4["Collective Noun जाल<br>Team / Committee / Jury"]
+
+    D --> D1["15 सेकंड नियम<br>तथ्यात्मक प्रश्न: नियम पहचानो, उत्तर दो"]
+    D --> D2["45 सेकंड नियम<br>तार्किक प्रश्न: टोन, अनुमान, संदर्भ"]
+    D --> D3["Skip Strategy<br>दो विकल्प लगभग समान हों तो चिह्नित कर आगे बढ़ो"]
+    D --> D4["पहले underline वाला भाग पढ़ो<br>फिर पूरा वाक्य"]
+
+    E --> E1["Root: dict = बोलना<br>predict, dictate, verdict"]
+    E --> E2["Root: port = ले जाना<br>transport, export, portable"]
+    E --> E3["Root: spect = देखना<br>inspect, respect, spectator"]
+    E --> E4["Prefix: mis- = गलत<br>mislead, mismanage"]
+    E --> E5["Suffix: -tion = क्रिया से संज्ञा<br>improve → improvement"]
+```

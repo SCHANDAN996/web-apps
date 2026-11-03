@@ -1,0 +1,57 @@
+# 🧒 The Feynman Way — Puzzles (Complex)
+
+## The Hardest Idea, Explained Like You're 12
+
+Imagine you're the new class monitor, and your teacher gives you a note:
+
+*"Aman, Bina, Chintu, Diya and Eshan sit in a row. Aman is not at either end. Bina sits immediately right of Chintu. Diya is somewhere left of Aman. Eshan sits at the left end and is not next to Bina."*
+
+Your job: figure out where everyone sits. Sounds impossible? Here's the secret that toppers know:
+
+**A complex puzzle is not one big problem. It is five tiny problems wearing a trench coat, pretending to be one big problem.**
+
+The mistake everyone makes is trying to hold the whole puzzle in their head at once. Your brain is not a cupboard — it's a small desk. Put too many things on it and everything falls off. So we do something smarter: **we move the puzzle out of our head and onto paper.**
+
+## The Story of the Detective's Notebook
+
+Think of a detective solving a case. Does she just stare at the ceiling and think really hard? No! She pins photos on a board, draws arrows, crosses out wrong suspects. The board does the remembering, so her brain can do the *thinking*.
+
+That's exactly what you do with a complex puzzle:
+
+1. **Build the board first.** Five people in a row? Draw five empty boxes: `_ _ _ _ _`. Circular arrangement? Draw a circle with chairs. Floor puzzle? Draw floors 1 to 8 stacked up. Never start "solving" before the board exists.
+
+2. **Sort the clues into two piles.**
+   - **Fixed clues** — "Bina sits immediately right of Chintu." These are gold. They lock things in place. Use them FIRST.
+   - **Floating clues** — "Diya is somewhere left of Aman." These only limit possibilities. Park them. Use them LAST, to eliminate.
+
+   Beginners grab clues in the order they're written. Toppers grab them in the order of *usefulness*.
+
+3. **When stuck, make a brave guess — on a COPY.** If two cases are possible, draw both boards. Solve each. One will crash into a contradiction ("wait, Eshan can't go anywhere!"). Cross out that whole branch. This is called **case analysis**, and it is the single most powerful weapon in complex puzzles. It feels slow. It is actually fast, because guessing in your head and being wrong costs you the whole question.
+
+Let's finish our class-monitor puzzle:
+- Eshan sits at the left end → **seat 1 = Eshan.** Locked. (Fixed clue first!)
+- Bina is immediately right of Chintu → they travel as a pair: [Chintu-Bina].
+- Aman is not at an end → Aman is in seat 2, 3, or 4.
+- Diya is somewhere left of Aman → Aman can't be in seat 2, because the only seat left of it is seat 1 — and Eshan is already sitting there. So Aman is in seat 3 or 4.
+- **Fork into two cases on paper:**
+  - *Case 1: Aman in seat 4.* The [Chintu-Bina] pair needs two adjacent seats — only seats 2-3 remain. But then Diya must go in seat 5, which is NOT left of Aman. Contradiction — cross out this branch.
+  - *Case 2: Aman in seat 3.* Diya takes seat 2 (left of Aman ✓). The pair [Chintu-Bina] fits in seats 4-5. Check the last clue: Eshan (seat 1) is not next to Bina (seat 5) ✓.
+- Final row: **Eshan – Diya – Aman – Chintu – Bina.** One board, two tiny cases, one unique answer.
+
+Notice what happened: the "impossible" puzzle died the moment we fixed Eshan, parked Diya's clue, and forked Aman's two cases onto paper.
+
+## The Unforgettable Trick: **"Fix, Float, Fork"**
+
+Three F's. Say it like a mantra:
+
+- **FIX** the definite clues first (exact positions, "immediately next to").
+- **FLOAT** the vague clues aside (somewhere left, not adjacent, at least two between).
+- **FORK** into cases only when you must — and always on paper, never in your head.
+
+If you remember nothing else from this chapter, remember: *the pen solves the puzzle, not the brain.* The moment you catch yourself "just thinking," start drawing.
+
+## 📝 Blurting Sheet
+
+Now try to write down all key points of this chapter on a blank sheet without looking up. Write the three F's, the two types of clues, what case analysis means, and one seating-arrangement rule you remember. Then open the book and check what you missed — that gap is exactly what to revise.
+
+**Question for you:** In a puzzle with 8 people and 12 clues, which clue would you hunt for first — and why would you ignore the other eleven until later?

@@ -1,0 +1,151 @@
+Questions 51–70: Easy | Questions 71–75: Medium
+
+51. What is the remainder when 7^84 is divided by 342?
+(a) 1 (b) 7 (c) 49 (d) 341
+Answer: (a)
+Solution: Fermat's little theorem does not apply directly because 342 is not prime. Note 7^3 = 343 = 342 + 1, so 7^3 ≡ 1 (mod 342), and since 84 = 3 × 28, 7^84 = (7^3)^28 ≡ 1 (mod 342), so the answer is 1.
+Source: PYQ-style
+
+52. The number 4^61 + 4^62 + 4^63 + 4^64 is divisible by which of the following?
+(a) 23 (b) 17 (c) 19 (d) 29
+Answer: (b)
+Solution: The trap is checking divisibility by 4 only and missing the bracket factor. Factoring out 4^61 gives 4^61(1 + 4 + 16 + 64) = 4^61 × 85 = 4^61 × 5 × 17, so the number is divisible by 17, so the answer is 17.
+Source: PYQ-style
+
+53. How many zeros are there at the end of 100!?
+(a) 24 (b) 22 (c) 20 (d) 25
+Answer: (a)
+Solution: The trap is counting only multiples of 5 and getting 20, forgetting that 25, 50, 75 and 100 each contribute one extra 5. Count of 5s = ⌊100/5⌋ + ⌊100/25⌋ = 20 + 4 = 24, and 2s are more than enough, so the answer is 24.
+Source: NCERT Class 10 Mathematics
+
+54. What is the unit digit of 3^2023?
+(a) 7 (b) 3 (c) 1 (d) 9
+Answer: (a)
+Solution: Unit digits of powers of 3 cycle as 3, 9, 7, 1 with period 4. The trap is taking remainder 3 from 2023 ÷ 4 but mapping it to the wrong position; remainder 3 means the third entry of the cycle, which is 7, so the answer is 7.
+Source: PYQ-style
+
+55. If N = 2^4 × 3^5 × 5^2, how many factors of N are perfect squares?
+(a) 15 (b) 45 (c) 30 (d) 18
+Answer: (d)
+Solution: The trap is computing total factors (5 × 6 × 3 = 90) instead of square factors. A square factor needs even exponents: 0, 2, 4 for 2 (3 ways); 0, 2, 4 for 3 (3 ways); 0, 2 for 5 (2 ways), giving 3 × 3 × 2 = 18, so the answer is 18.
+Source: PYQ-style
+
+56. The LCM of two numbers is 495 and their HCF is 5. If one number is 45, what is the other number?
+(a) 60 (b) 50 (c) 55 (d) 65
+Answer: (c)
+Solution: The trap is dividing 495 by 45 to get 11 and ignoring the HCF. Product of the numbers = LCM × HCF = 495 × 5 = 2475, so the other number = 2475 ÷ 45 = 55, and indeed LCM(45, 55) = 495, so the answer is 55.
+Source: NCERT Class 10 Mathematics
+
+57. What is the remainder when 2^1000 is divided by 7?
+(a) 6 (b) 1 (c) 2 (d) 4
+Answer: (c)
+Solution: Powers of 2 mod 7 cycle as 2, 4, 1 with period 3. The trap is taking remainder 1 from 1000 ÷ 3 and answering 1, confusing the exponent's remainder with the value; remainder 1 means the first entry of the cycle, so 2^1000 ≡ 2 (mod 7), so the answer is 2.
+Source: PYQ-style
+
+58. A number when divided by 5 leaves remainder 3, and when divided by 7 leaves remainder 5. What is the smallest such number?
+(a) 28 (b) 33 (c) 38 (d) 23
+Answer: (b)
+Solution: In both cases the remainder is 2 less than the divisor, so the number is LCM(5, 7)k − 2 = 35k − 2. The trap is adding 2 instead of subtracting; at k = 1 the smallest value is 33, so the answer is 33.
+Source: PYQ-style
+
+59. How many numbers between 1 and 300 are divisible by neither 3 nor 5?
+(a) 140 (b) 160 (c) 150 (d) 120
+Answer: (b)
+Solution: Divisible by 3: 100; by 5: 60; by 15: 20, so divisible by 3 or 5 = 100 + 60 − 20 = 140. The trap is reporting 140, but the question asks for neither, so required = 300 − 140 = 160, so the answer is 160.
+Source: PYQ-style
+
+60. What is the largest two-digit number that divides both 247 and 323 leaving the same remainder in each case?
+(a) 19 (b) 38 (c) 13 (d) 76
+Answer: (d)
+Solution: If both divisions leave the same remainder, the divisor must divide the difference 323 − 247 = 76. The trap is taking the HCF of 247 and 323, which answers a different question; two-digit divisors of 76 are 19, 38 and 76, and 76 works (remainder 19 in both cases), so the answer is 76.
+Source: PYQ-style
+
+61. The sum of the digits of a two-digit number is 11. If the digits are reversed, the new number is 27 more than the original. What is the original number?
+(a) 29 (b) 56 (c) 38 (d) 47
+Answer: (d)
+Solution: Let the number be 10x + y with x + y = 11; reversed minus original gives 9(y − x) = 27, so y − x = 3, giving x = 4, y = 7. The trap is taking x − y = 3, which gives 74, but 74 reversed becomes smaller, not larger, so the answer is 47.
+Source: NCERT Class 10 Mathematics
+
+62. What is the remainder when 1! + 2! + 3! + … + 100! is divided by 15?
+(a) 6 (b) 9 (c) 3 (d) 12
+Answer: (c)
+Solution: From 5! onwards every factorial contains both 3 and 5, so it is divisible by 15. Only 1! + 2! + 3! + 4! = 1 + 2 + 6 + 24 = 33 matters, and 33 mod 15 = 3; the trap is assuming the whole sum is divisible by 15, so the answer is 3.
+Source: PYQ-style
+
+63. If 517*324 is completely divisible by 3, what is the smallest digit that can replace *?
+(a) 0 (b) 2 (c) 1 (d) 5
+Answer: (b)
+Solution: Sum of known digits = 5 + 1 + 7 + 3 + 2 + 4 = 22, so 22 + * must be divisible by 3. The trap is picking 0, but 22 + 0 = 22 is not divisible by 3; the next multiple of 3 after 22 is 24, so * = 2 works (and 5, 8 also work but are larger), so the answer is 2.
+Source: NCERT Class 8 Mathematics
+
+64. The product of two consecutive even numbers is 168. What is the smaller number?
+(a) 16 (b) 14 (c) 10 (d) 12
+Answer: (d)
+Solution: Let the numbers be n and n + 2, so n(n + 2) = 168, i.e. n² + 2n − 168 = 0, giving (n + 14)(n − 12) = 0, so n = 12. The trap is spotting 12 × 14 = 168 and reporting 14, but the question asks for the smaller number, so the answer is 12.
+Source: NCERT Class 10 Mathematics
+
+65. What is the HCF of 2^3 × 3^4 × 5^2 × 7 and 2^5 × 3^2 × 5^3 × 11?
+(a) 2^3 × 3^2 × 5^2 × 7 (b) 2^5 × 3^4 × 5^3 (c) 2^3 × 3^2 × 5^2 (d) 2^3 × 3^4 × 5^2
+Answer: (c)
+Solution: HCF takes the minimum power of each common prime: 2^3, 3^2, 5^2; 7 and 11 are not common to both. The trap is including 7 or 11, or taking maximum powers, which gives an LCM-style result, so the answer is 2^3 × 3^2 × 5^2.
+Source: NCERT Class 10 Mathematics
+
+66. How many prime numbers are there between 1 and 50?
+(a) 15 (b) 14 (c) 16 (d) 17
+Answer: (a)
+Solution: The primes are 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47 — fifteen in all. The trap is counting 1 as prime or missing 47, either of which shifts the count by one, so the answer is 15.
+Source: NCERT Class 8 Mathematics
+
+67. What is the smallest number which when increased by 7 is exactly divisible by 24, 36 and 54?
+(a) 223 (b) 216 (c) 201 (d) 209
+Answer: (d)
+Solution: LCM of 24, 36, 54 = 2^3 × 3^3 = 216, so the number is 216 − 7 = 209. The trap is adding 7 to get 223, but "increased by 7" means the number itself is 7 less than the multiple, so the answer is 209.
+Source: PYQ-style
+
+68. If a number is divided by 6, the remainder is 3. What will be the remainder when the square of the number is divided by 6?
+(a) 3 (b) 5 (c) 1 (d) 0
+Answer: (a)
+Solution: Let the number be 6k + 3; its square is 36k² + 36k + 9 = 6(6k² + 6k + 1) + 3. The trap is squaring the remainder to get 9 and reporting 9, forgetting that 9 mod 6 = 3, so the answer is 3.
+Source: PYQ-style
+
+69. The difference between a number and its three-fifths is 50. What is the number?
+(a) 125 (b) 175 (c) 150 (d) 100
+Answer: (a)
+Solution: Number − (3/5)(number) = (2/5)(number) = 50, so the number = 50 × 5/2 = 125. The trap is dividing 50 by 3/5, which misidentifies which fraction equals 50, so the answer is 125.
+Source: NCERT Class 8 Mathematics
+
+70. What is the remainder when 17^23 is divided by 16?
+(a) 15 (b) 1 (c) 0 (d) 8
+Answer: (b)
+Solution: 17 ≡ 1 (mod 16), so 17^23 ≡ 1^23 = 1 (mod 16). The trap is treating 17 as −1 mod 16, but 17 − 16 = 1, so the base reduces to +1 and every power is 1, so the answer is 1.
+Source: PYQ-style
+
+71. A number N has exactly 3 factors. Which of the following must be true about N?
+(a) N is a prime number (b) N is divisible by 3 (c) N is a perfect cube (d) N is the square of a prime
+Answer: (d)
+Solution: Number of factors = product of (exponent + 1), so exactly 3 factors forces N = p² for a prime p. The trap is choosing "N is a prime number", but a prime has exactly 2 factors, so the answer is that N is the square of a prime.
+Source: PYQ-style
+
+72. What is the value of (1 − 1/2)(1 − 1/3)(1 − 1/4)…(1 − 1/100)?
+(a) 99/100 (b) 1/50 (c) 1/100 (d) 1/99
+Answer: (c)
+Solution: Each term (1 − 1/k) = (k − 1)/k, so the product telescopes: (1/2)(2/3)(3/4)…(99/100) = 1/100. The trap is answering 99/100 by confusing the product with its last term; everything cancels except 1 on top and 100 below, so the answer is 1/100.
+Source: PYQ-style
+
+73. The sum of three consecutive odd numbers is 147. What is the largest of these numbers?
+(a) 47 (b) 51 (c) 49 (d) 53
+Answer: (b)
+Solution: Let the numbers be n, n + 2, n + 4; then 3n + 6 = 147, so n = 47 and the largest is 51. The trap is reporting 47 (the smallest) or 49 (the middle) instead of the largest as asked, so the answer is 51.
+Source: NCERT Class 8 Mathematics
+
+74. Which of the following numbers is divisible by 11?
+(a) 123456 (b) 271828 (c) 81785 (d) 314159
+Answer: (c)
+Solution: For 11, the difference of the sums of digits at alternate places must be 0 or a multiple of 11. For 81785: (8 + 7 + 5) − (1 + 8) = 20 − 9 = 11, which works; the other three give differences of −3, −18 and 1 respectively, and the trap is applying the digit-sum rule for 9 instead, so the answer is 81785.
+Source: PYQ-style
+
+75. If x = 3 + 2√2, what is the value of x + 1/x?
+(a) 6 (b) 4 (c) 2√2 (d) 8
+Answer: (a)
+Solution: 1/x = 1/(3 + 2√2) = (3 − 2√2)/(9 − 8) = 3 − 2√2, so x + 1/x = 6. The trap is rationalizing incorrectly and keeping the surd, which would double-count it; the surds cancel exactly, so the answer is 6.
+Source: NCERT Class 9 Mathematics

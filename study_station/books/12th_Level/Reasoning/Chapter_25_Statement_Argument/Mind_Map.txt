@@ -1,0 +1,47 @@
+```mermaid
+graph TD
+    A["कथन और तर्क<br>Statement & Argument"] --> B["मूल अवधारणा<br>Basic Concept"]
+    A --> C["तर्क के प्रकार<br>Types of Arguments"]
+    A --> D["मजबूत तर्क की पहचान<br>Identifying Strong Arguments"]
+    A --> E["कमजोर तर्क की पहचान<br>Identifying Weak Arguments"]
+    A --> F["प्रश्न के प्रारूप<br>Question Formats"]
+    A --> G["रणनीति और समय प्रबंधन<br>Strategy & Time Management"]
+    A --> H["परीक्षक के जाल<br>Examiner's Traps"]
+
+    B --> B1["कथन: कोई प्रस्ताव/कार्यवाही<br>Statement: Proposal/Action"]
+    B --> B2["तर्क: कथन के पक्ष/विपक्ष में कारण<br>Argument: Reason For/Against"]
+    B --> B3["लक्ष्य: तर्क मजबूत है या कमजोर<br>Goal: Strong or Weak?"]
+
+    C --> C1["पक्ष में तर्क<br>Argument in Favour (Yes)"]
+    C --> C2["विपक्ष में तर्क<br>Argument Against (No)"]
+    C --> C3["दोनों मजबूत हो सकते हैं<br>Both Can Be Strong"]
+
+    D --> D1["विषय से सीधे संबंधित<br>Directly Relevant"]
+    D --> D2["तथ्य/तर्क पर आधारित<br>Based on Facts/Logic"]
+    D --> D3["व्यापक हित/दीर्घकालिक लाभ<br>Public Interest/Long-term Benefit"]
+    D --> D4["व्यावहारिक और गहन<br>Practical & Deep"]
+
+    E --> E1["अस्पष्ट/सतही/भावनात्मक<br>Vague/Superficial/Emotional"]
+    E --> E2["विषय से असंबंधित<br>Irrelevant to Topic"]
+    E --> E3["केवल उदाहरण या अनुमान<br>Mere Example or Assumption"]
+    E --> E4["कथन को दोहराता है<br>Restates the Statement"]
+    E --> E5["अतिरंजित/सर्वव्यापी दावा<br>Exaggerated/Universal Claim"]
+
+    F --> F1["केवल तर्क I मजबूत<br>Only Argument I Strong"]
+    F --> F2["केवल तर्क II मजबूत<br>Only Argument II Strong"]
+    F --> F3["या तो I या II<br>Either I or II"]
+    F --> F4["दोनों मजबूत<br>Both Strong"]
+    F --> F5["कोई मजबूत नहीं<br>Neither Strong"]
+
+    G --> G1["पहले कथन का मूल मुद्दा समझें<br>First Grasp Core Issue"]
+    G --> G2["हर तर्क को अलग परखें<br>Test Each Argument Separately"]
+    G --> G3["व्यक्तिगत राय न चलाएँ<br>Keep Personal Opinion Aside"]
+    G --> G4["समय नियम: 30-40 सेकंड/प्रश्न<br>Time Rule: 30-40 sec/question"]
+    G --> G5["संदेह में Skip करें<br>Skip When in Doubt"]
+
+    H --> H1["भावनात्मक शब्द = कमजोर तर्क<br>Emotional Words = Weak"]
+    H --> H2["सही लगने वाला पर असंबंधित तर्क<br>Plausible but Irrelevant"]
+    H --> H3["दोनों तर्क सही दिशा में पर एक सतही<br>Both Seem Right, One Superficial"]
+    H --> H4["Either-Or का भ्रम<br>Either-Or Confusion"]
+    H --> H5["अपनी मान्यता को उत्तर मान लेना<br>Treating Own Belief as Answer"]
+```

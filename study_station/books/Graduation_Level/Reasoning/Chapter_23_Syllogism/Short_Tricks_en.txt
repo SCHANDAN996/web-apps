@@ -1,0 +1,124 @@
+# 🪄 Short Tricks & Mnemonics — Syllogism (Advanced)
+
+---
+
+**Box 1 — "A E I O, the Vowel Show"**
+Remember the four statement types by vowels:
+- **A** = **A**ll (Universal Positive)
+- **E** = **E**liminate / No (Universal Negative)
+- **I** = **I**nside some (Particular Positive)
+- **O** = **O**ut some are not (Particular Negative)
+*Chant: "A says ALL, E says EMPTY, I says INSIDE-some, O says OUT-some."*
+
+---
+
+**Box 2 — "Two Negatives = Dead on Arrival"**
+If **both premises are negative**, NO definite conclusion can ever follow.
+*Mnemonic: "Two NOs make a NO-GO."* The moment you see E+E, E+O, or O+O as premises, mark "no conclusion follows" and move on.
+
+---
+
+**Box 3 — "Two Somes = Zero Sums"**
+If **both premises are particular** (I+I, I+O, O+O), no definite conclusion follows.
+*Mnemonic: "Some + Some = None."* You need at least one "All/No" (universal) statement to build a bridge.
+
+---
+
+**Box 4 — "The Middle Man Must Shake Hands"**
+The **middle term** (the word common to both premises) must be **distributed** (cover its whole class) in at least ONE premise — otherwise no conclusion.
+*Mnemonic: "If the middleman doesn't know EVERYONE at one party, he can't introduce the two strangers."*
+Quick check: middle term is distributed if it follows "All/No" as subject, or follows "No/Some…not" as predicate.
+
+---
+
+**Box 5 — "Conclusion Can't Outrun the Premises"**
+A term that is **NOT distributed in the premise** can NEVER be distributed in the conclusion.
+*Mnemonic: "Don't promise in the conclusion what you didn't own in the premise."*
+Classic trap: "Some A are B" → conclusion "All B are A" — B was never fully covered, so it fails.
+
+---
+
+**Box 6 — "No is the Great Divider"**
+If **one premise is negative**, the conclusion (if any) MUST be negative.
+*Mnemonic: "One drop of poison poisons the whole well."* Positive conclusion + one negative premise = instantly wrong.
+
+---
+
+**Box 7 — "Some is Contagious"**
+If **one premise is particular (Some)**, the conclusion (if any) must be particular.
+*Mnemonic: "A little 'Some' leaks into every conclusion."* Never derive "All" when a premise only said "Some."
+
+---
+
+**Box 8 — "Venn First, Words Later"**
+For any syllogism, draw the **minimum Venn diagram** — the diagram that satisfies the premises with the least commitment.
+*Mnemonic: "Draw small, conclude small."* A conclusion is definite ONLY if it holds in EVERY possible diagram, not just the first one you drew.
+
+---
+
+**Box 9 — "Possibility = Escape Hatch"**
+A "possibility" conclusion (e.g., "Some A being B is a possibility") is TRUE unless the premises **directly forbid** it (a "No" relation between those exact terms).
+*Mnemonic: "Unless the door is locked (No), every possibility door is open."*
+Trap: possibility conclusions are FALSE only when a definite negative relation exists between the two terms.
+
+---
+
+**Box 10 — "Either-Or: The Twins Rule"**
+An either-or answer is correct only when ALL THREE hold:
+1. Both conclusions are individually **false** (neither follows definitely),
+2. Both have the **same subject and predicate**,
+3. The pair is **complementary** — one positive, one negative, such that exactly one of them must be true: **A + O** ("All A are B" / "Some A are not B") or **E + I** ("No A is B" / "Some A are B").
+*Mnemonic: "Twins must be born together, look alike, but wear opposite shirts."*
+⚠️ **Common mistake:** I + O ("Some A are B" / "Some A are not B") is NOT a valid either-or pair. I and O are subcontraries — both can be true at the same time, so they can never be "individually false together." If an option offers an I+O either-or, reject it.
+
+---
+
+**Box 11 — "All + No = The Sandwich Split"**
+Premises "All A are B" + "No B is C" → conclusion "No A is C" (and "Some A are not C").
+*Mnemonic: "If every apple sits in the basket, and the basket never touches the cat — no apple ever touches the cat."*
+
+---
+
+**Box 12 — "Reverse Gear Only for A and I (with a Downgrade)"**
+Conversion rules:
+- "All A are B" → only "Some B are A" (downgrade!)
+- "Some A are B" → "Some B are A" (free swap)
+- "No A is B" → "No B is A" (free swap)
+- "Some A are not B" → **cannot convert, ever**
+*Mnemonic: "O is a one-way street — no U-turns allowed."*
+
+---
+
+**Box 13 — "Circle Check in 10 Seconds"**
+Before solving, scan the premises:
+- Both negative? → Skip to "no conclusion."
+- Both particular? → Skip to "no conclusion."
+- Middle term undistributed? → Skip to "no conclusion."
+*Mnemonic: "NN, PP, UD — the three red flags."* (Negative-Negative, Particular-Particular, Undistributed middle.)
+
+---
+
+**Box 14 — "Only / Only a Few = Disguised Statements"**
+- "**Only** A are B" = "All B are A" (the terms FLIP!)
+- "**Only a few** A are B" = "Some A are B" AND "Some A are not B" (both together)
+*Mnemonic: "Only flips; Only-a-few splits."* This is the examiner's favourite disguise — unmask it before drawing anything.
+
+---
+
+**Box 15 — "At Least / At Most Translator"**
+- "At least some A are B" = "Some A are B"
+- "All A can never be B" = "No A is B"
+*Mnemonic: "Translate before you calculate."* Never draw a Venn diagram until every fancy phrase is converted into plain A/E/I/O form.
+
+---
+
+## ⏭️ Skip Strategy — When to Leave the Question
+
+**Tip 1 — The 20-Second Diagram Rule:**
+If after 20 seconds you cannot fix the middle term and place the first two circles, **skip and mark for review**. Syllogism questions are designed to be 30–45 second solvers; a confusing start usually means a multi-diagram trap that will eat 3+ minutes.
+
+**Tip 2 — Possibility + Either-Or Combo = Time Bomb:**
+If a question has 4+ conclusions mixing "possibility" cases AND an either-or pair, attempt it **last** in the reasoning section. These require checking multiple Venn diagrams. Solve the direct 2-premise questions first, bank those marks, then return.
+
+**Tip 3 — Three Premises, Three Unknowns:**
+If the question has 3 premises with 4+ terms and you cannot spot the middle-term chain in 15 seconds, **skip it permanently** unless you have spare time at the end. The marks-per-minute ratio is worse than any other reasoning question type — one skipped syllogism costs 1 mark, but the 3 minutes saved can earn 3–4 marks elsewhere.

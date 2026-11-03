@@ -1,0 +1,132 @@
+# Data Interpretation
+
+## The Big Picture
+
+Data Interpretation (DI) tests one skill: can you read numbers presented in tables, graphs, and charts, and answer questions about them quickly and accurately? In SSC, Banking, and Railway exams, DI questions rarely need advanced mathematics — they need careful reading, fast percentage and ratio calculations, and the discipline to avoid traps like misread axes or wrong base values.
+
+A typical DI set gives you one data presentation (a table, bar graph, pie chart, or line graph) followed by 4–5 questions. Master the four presentation types below and the core calculations, and every DI set becomes manageable.
+
+## Core Calculations You Must Be Fast At
+
+**1. Percentage**
+- Percentage = (Part / Whole) × 100
+- Percentage change = ((New − Old) / Old) × 100
+- If A is x% more than B, then B is (100x / (100 + x))% less than A — a favourite trap.
+
+**2. Ratio and share**
+- In a pie chart, share of a sector = (sector angle / 360°) × total value.
+- Conversely, angle of a sector = (value / total) × 360°.
+
+**3. Average**
+- Average = Sum of values / Number of values.
+- For "average of selected years", add only those years — a common error is dividing by the wrong count.
+
+**4. Approximation**
+- When options are far apart, round numbers (e.g., 4,987 ≈ 5,000) to save time. When options are close, calculate exactly.
+
+## Types of DI Sets
+
+### 1. Tables
+
+Rows and columns of numbers (e.g., production of five companies over four years). Questions ask for totals, averages, percentages, and highest/lowest values.
+
+**Solved example:**
+
+Production (in thousand tonnes) of three factories:
+
+| Year | A | B | C |
+|------|----|----|----|
+| 2021 | 40 | 55 | 65 |
+| 2022 | 50 | 60 | 70 |
+| 2023 | 60 | 65 | 75 |
+
+*Question: What is the percentage increase in factory A's production from 2021 to 2023?*
+
+Solution: Increase = 60 − 40 = 20. Percentage increase = (20 / 40) × 100 = **50%**.
+
+*Question: In which year was the total production of all three factories the highest?*
+
+Solution: Totals — 2021: 160; 2022: 180; 2023: 200. Highest in **2023**.
+
+### 2. Bar Graphs
+
+Bars represent values for different categories or years. Read the scale on the axis carefully — traps include bars starting from a non-zero base and two bars per category (e.g., production vs. sales).
+
+**Solved example:** A bar graph shows sales of a shop: Monday ₹4,000, Tuesday ₹6,000, Wednesday ₹5,000.
+
+*Question: Tuesday's sales are what percent more than Monday's?*
+
+Solution: (6,000 − 4,000) / 4,000 × 100 = **50%**.
+
+### 3. Pie Charts
+
+A circle divided into sectors, showing parts of a whole. Values are given as angles, percentages, or absolute numbers.
+
+**Solved example:** A pie chart shows a family's monthly expenditure of ₹36,000. Food has a sector angle of 120°.
+
+*Question: How much is spent on food?*
+
+Solution: (120 / 360) × 36,000 = **₹12,000**.
+
+*Question: If rent is 25% of expenditure, what is its sector angle?*
+
+Solution: 25% of 360° = **90°**.
+
+### 4. Line Graphs
+
+Points joined by lines, usually showing change over time. Best for questions on trends, maximum increase/decrease, and comparison of two series.
+
+**Solved example:** A line graph shows a city's temperature: 20°C, 24°C, 22°C, 28°C over four days.
+
+*Question: Between which two consecutive days was the rise the greatest?*
+
+Solution: Changes: +4, −2, +6. Greatest rise between **day 3 and day 4**.
+
+## Common Traps Set by Examiners
+
+- **Wrong base for percentage:** "A is what percent of B" uses B as the base, not A.
+- **"More than" vs "less than":** If A is 25% more than B, B is 20% less than A — not 25%.
+- **Misreading the scale:** Check whether the axis is in units, hundreds, thousands, or lakhs.
+- **Mixing data series:** In double bar/line graphs, confirm which colour or pattern the question refers to.
+- **Average of ratios:** The average of percentages is not the overall percentage; compute from actual totals.
+- **Negative statements:** "Which of the following is NOT true?" — verify every option before answering.
+
+## Strategy for the Exam
+
+1. Spend 20–30 seconds understanding the data before reading the questions: what do rows, columns, axes, and units represent?
+2. Read each question twice; underline what is asked (percentage, ratio, difference, average).
+3. Use approximation when options are widely spaced; calculate exactly when they are close.
+4. Do the easy questions of a set first; skip a heavy calculation and return if time permits.
+5. Memorise fraction–percentage equivalents: 1/2 = 50%, 1/3 ≈ 33.33%, 1/4 = 25%, 1/5 = 20%, 1/6 ≈ 16.67%, 1/8 = 12.5%.
+
+## Practice Questions
+
+**1.** A table shows marks of a student: English 70, Maths 80, Science 90. What is the average?
+(a) 75 (b) 80 (c) 85 (d) 90
+Answer: (b)
+Solution: (70 + 80 + 90) / 3 = 240 / 3 = 80.
+Source: PYQ-style
+
+**2.** In a pie chart, a sector of 60° represents what fraction of the whole?
+(a) 1/4 (b) 1/5 (c) 1/6 (d) 1/8
+Answer: (c)
+Solution: 60° / 360° = 1/6.
+Source: PYQ-style
+
+**3.** Production rose from 250 units to 300 units. The percentage increase is:
+(a) 15% (b) 20% (c) 25% (d) 50%
+Answer: (b)
+Solution: (300 − 250) / 250 × 100 = 50 / 250 × 100 = 20%.
+Source: PYQ-style
+
+**4.** If A's salary is 20% more than B's, then B's salary is what percent less than A's?
+(a) 20% (b) 16⅔% (c) 25% (d) 15%
+Answer: (b)
+Solution: Let B = 100, so A = 120. B is less than A by 20/120 × 100 = 16⅔%. Option (a) is the classic trap.
+Source: PYQ-style
+
+**5.** A bar graph shows exports (in ₹ crore): 2022 — 400, 2023 — 500. Exports in 2023 are what percent of exports in 2022?
+(a) 80% (b) 100% (c) 120% (d) 125%
+Answer: (d)
+Solution: 500 / 400 × 100 = 125%. The base is 2022 because the question says "of exports in 2022".
+Source: PYQ-style

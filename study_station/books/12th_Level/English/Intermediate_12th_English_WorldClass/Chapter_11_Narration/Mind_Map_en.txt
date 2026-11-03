@@ -1,0 +1,49 @@
+```mermaid
+graph TD
+    A["Direct & Indirect Speech<br>(Narration)"] --> B["Basic Terms"]
+    A --> C["Core Conversion Rules"]
+    A --> D["Tense Changes"]
+    A --> E["Sentence Types"]
+    A --> F["Examiner's Traps"]
+    A --> G["Exam Strategy"]
+
+    B --> B1["Reporting Verb<br>said, told, asked"]
+    B --> B2["Reported Speech<br>words inside quotes"]
+    B --> B3["Direct: He said, 'I am ill.'"]
+    B --> B4["Indirect: He said that<br>he was ill."]
+
+    C --> C1["Remove quotes,<br>add connector"]
+    C --> C2["Pronoun Change<br>S-O-N Rule"]
+    C --> C3["Time & Place Words<br>now-then, today-that day"]
+    C --> C4["this-that, these-those<br>here-there, ago-before"]
+
+    C2 --> C21["S = Subject: 1st person<br>follows Subject"]
+    C2 --> C22["O = Object: 2nd person<br>follows Object"]
+    C2 --> C23["N = No change:<br>3rd person stays same"]
+
+    D --> D1["Present Simple<br>to Past Simple"]
+    D --> D2["Present Continuous<br>to Past Continuous"]
+    D --> D3["Present Perfect<br>to Past Perfect"]
+    D --> D4["Past Simple<br>to Past Perfect"]
+    D --> D5["will-would, shall-should<br>can-could, may-might"]
+    D --> D6["NO CHANGE:<br>Universal Truth, Habit,<br>Proverb, Historical Fact"]
+
+    E --> E1["Statement: that<br>said to / told"]
+    E --> E2["Yes-No Question: if / whether<br>asked + assertive order"]
+    E --> E3["Wh-Question: keep Wh-word<br>asked + assertive order"]
+    E --> E4["Imperative: to / not to<br>ordered, requested, advised"]
+    E --> E5["Exclamatory: exclaimed<br>with joy / sorrow + that"]
+    E --> E6["Optative: wished / prayed<br>+ that"]
+
+    F --> F1["Trap 1: Question mark kept<br>in indirect speech"]
+    F --> F2["Trap 2: Question order kept<br>'he asked where was I' is WRONG"]
+    F --> F3["Trap 3: Universal truth<br>wrongly backshifted"]
+    F --> F4["Trap 4: 'said to me told'<br>missing object after told"]
+    F --> F5["Trap 5: 'that' used with<br>questions or imperatives"]
+
+    G --> G1["15-sec: tense & pronoun<br>recall questions"]
+    G --> G2["45-sec: mixed sentence types<br>and trap-spotting"]
+    G --> G3["Step 1: Identify sentence type"]
+    G --> G4["Step 2: Fix connector + verb"]
+    G --> G5["Step 3: Backshift tense,<br>change pronoun & time words"]
+```

@@ -1,0 +1,99 @@
+# 📊 PYQ Analysis — Simple Interest (Advanced Level)
+
+## How Exams Test This Chapter
+
+Simple Interest (SI) rarely appears as a plain "find the interest" question at the advanced level. UPSC CSAT, SSC CGL Tier-II, IBPS PO Mains, CAT and State PCS papers use SI as a **vehicle for testing reasoning under time pressure**. The recurring patterns are:
+
+**1. The "amount vs interest" trap.** The most common examiner trick: the question states the *amount* (Principal + Interest) but asks for the *interest*, or vice versa. Candidates who rush compute the wrong quantity and find a matching option waiting for them — that option was planted.
+
+**2. Rate or time hidden inside a ratio.** Instead of giving R and T directly, the question says "a sum doubles in 8 years" or "the interest is 2/5 of the principal." You must convert the verbal clue into R × T before touching the formula.
+
+**3. Two-scenario equations.** "A sum invested at x% for 3 years gives ₹600 more than the same sum at y% for 2 years." These questions test whether you can set up two SI expressions and subtract — pure algebra wearing an SI costume.
+
+**4. SI–CI comparison.** Advanced papers love asking for the *difference* between compound and simple interest for 2 or 3 years. The shortcut (Difference for 2 years = P(R/100)²) is expected knowledge; deriving it in the exam hall costs 3 minutes you don't have.
+
+**5. Changing rate mid-way.** "The rate is 5% for the first 2 years and 8% for the next 3 years." The trap is averaging the rates; the correct method is adding the two interests separately.
+
+**6. Installment / repayment framing.** IBPS and CSAT ask: "What sum lent at 10% will discharge a debt of ₹X due in 2 years?" This is present-value thinking inside SI — a conceptual leap most candidates skip.
+
+**7. Negative-wording traps.** "Which of the following is NOT true…" combined with four SI statements. Under pressure, candidates pick the first true statement instead of the false one.
+
+**Timing advice:** A direct SI question should take 30–45 seconds. If your calculation is stretching past 90 seconds, you have missed a shortcut — stop, re-read, and look for the ratio hidden in the wording.
+
+---
+
+## Top 10 High-Yield Questions (with Solutions)
+
+**Q1.** A sum of money doubles itself in 8 years at simple interest. In how many years will it become four times itself?
+(a) 16 years (b) 24 years (c) 32 years (d) 20 years
+Answer: (b)
+Solution: Doubling in 8 years means interest earned = P in 8 years, so R × T = 100 → R = 12.5%. To become 4 times, interest needed = 3P, so T = 300/12.5 = 24 years. **Trap:** Candidates assume "4 times = double of double = 16 years." SI grows linearly, not exponentially — that intuition belongs to compound interest.
+Source: PYQ-style (CSAT pattern)
+
+**Q2.** A sum of ₹12,000 is lent in two parts — one at 8% p.a. and the other at 10% p.a. The total interest after 2 years is ₹2,080. Find the part lent at 8%.
+(a) ₹8,000 (b) ₹6,000 (c) ₹4,000 (d) ₹7,000
+Answer: (a)
+Solution: Let part at 8% = x. Then (x×8×2)/100 + ((12000−x)×10×2)/100 = 2080 → 16x + 240000 − 20x = 208000 → 4x = 32000 → x = 8000. **Trap:** Splitting the sum equally (₹6,000) "feels" balanced and is planted as option (b).
+Source: PYQ-style (IBPS PO pattern)
+
+**Q3.** The simple interest on a sum for 3 years at 5% p.a. is ₹225 less than the interest on the same sum for 5 years at 6% p.a. Find the sum.
+(a) ₹1,500 (b) ₹2,000 (c) ₹1,800 (d) ₹1,200
+Answer: (a)
+Solution: SI₁ = P×5×3/100 = 0.15P; SI₂ = P×6×5/100 = 0.30P. Difference = 0.15P = 225 → P = ₹1,500. **Trap:** Subtracting the rates (6−5 = 1%) and times instead of computing each interest separately.
+Source: PYQ-style (SSC CGL Tier-II pattern)
+
+**Q4.** A man borrows ₹10,000 at 6% p.a. simple interest. He repays ₹4,000 at the end of the first year. How much must he pay at the end of the second year to clear the debt?
+(a) ₹7,120 (b) ₹6,960 (c) ₹7,000 (d) ₹6,720
+Answer: (b)
+Solution: Interest for year 1 = 10,000×6/100 = ₹600. After paying ₹4,000, outstanding = 10,000 + 600 − 4,000 = ₹6,600. Year 2 interest = 6,600×6/100 = ₹396. Final payment = 6,600 + 396 = ₹6,960. **Trap:** Computing interest on ₹10,000 for both years — after part-payment, the principal changes.
+Source: PYQ-style (Bank exam pattern)
+
+**Q5.** The difference between compound interest and simple interest on a sum at 10% p.a. for 2 years is ₹50. Find the sum.
+(a) ₹5,000 (b) ₹4,000 (c) ₹2,500 (d) ₹10,000
+Answer: (a)
+Solution: For 2 years, CI − SI = P(R/100)² = P×(0.1)² = 0.01P = 50 → P = ₹5,000. **Trap:** Using the 3-year difference formula, or computing full CI and SI separately and making an arithmetic slip under pressure.
+Source: PYQ-style (CAT/SSC pattern)
+
+**Q6.** A sum becomes ₹8,800 in 3 years and ₹10,400 in 5 years at simple interest. Find the rate of interest.
+(a) 10% (b) 12.5% (c) 8% (d) 15%
+Answer: (b)
+Solution: Interest for 2 years = 10,400 − 8,800 = ₹1,600 → ₹800 per year. Principal = 8,800 − (3×800) = ₹6,400. R = (800×100)/(6,400×1) = 12.5%. **Trap:** Dividing the total amount by time to get the rate — you must first strip out the interest to recover the principal.
+Source: PYQ-style (CSAT pattern)
+
+**Q7.** What sum of money will discharge a debt of ₹5,800 due in 3 years at 8% p.a. simple interest?
+(a) ₹4,500 (b) ₹5,000 (c) ₹4,677 (d) ₹4,200
+Answer: (c)
+Solution: Present worth P satisfies P + (P×8×3)/100 = 5,800 → 1.24P = 5,800 → P = ₹4,677.42 ≈ ₹4,677. **Trap:** Simply subtracting 24% of 5,800 (= ₹4,408) — the interest is calculated on the *present* sum, not on the future debt.
+Source: PYQ-style (IBPS pattern)
+
+**Q8.** A sum is invested at simple interest. Had the rate been 2% higher, the interest earned in 5 years would have been ₹900 more. Find the sum.
+(a) ₹9,000 (b) ₹7,500 (c) ₹10,000 (d) ₹8,000
+Answer: (a)
+Solution: Extra interest = P × 2 × 5/100 = 900 → P = 900 × 100/10 = ₹9,000. **Trap:** Using the original (unknown) rate in the equation; only the *difference* in rates matters here, so the original rate is irrelevant — a deliberate red herring.
+Source: PYQ-style (SSC CGL pattern)
+
+**Q9.** Equal sums are lent at 6% and 9% p.a. simple interest. The first is lent for 2 years more than the second, yet both earn equal interest. Find the time for which the second sum is lent.
+(a) 4 years (b) 6 years (c) 3 years (d) 5 years
+Answer: (a)
+Solution: Let second time = t; first = t + 2. Equal interest: 6(t+2) = 9t → 6t + 12 = 9t → t = 4 years. **Trap:** Assuming equal interest means equal rate × time products but assigning the extra 2 years to the wrong (higher-rate) sum.
+Source: PYQ-style (State PCS pattern)
+
+**Q10.** A person invests ₹25,000 partly at 4% and partly at 7% p.a. simple interest. After 3 years, the total interest is ₹4,350. How much was invested at 7%?
+(a) ₹10,000 (b) ₹15,000 (c) ₹12,000 (d) ₹5,000
+Answer: (b)
+Solution: Let x be invested at 7%. Then 21x/100 + 12(25,000−x)/100 = 4,350 → 21x + 300,000 − 12x = 435,000 → 9x = 135,000 → x = ₹15,000. **Faster route (alligation):** Average rate = 4,350×100/(25,000×3) = 5.8%; ratio of 4% part : 7% part = (7−5.8):(5.8−4) = 1.2:1.8 = 2:3 → 7% share = 3/5 × 25,000 = ₹15,000. Candidates who set up the full equation lose a minute.
+Source: PYQ-style (CAT pattern)
+
+---
+
+## Examiner's Playbook — Summary of Traps
+
+- **Amount vs Interest:** Always underline which one the question gives and which it asks.
+- **Linear vs exponential intuition:** "Doubles in T years" → triples in 2T, quadruples in 3T (SI only).
+- **Principal changes after part-payment:** Recompute the base for every new period.
+- **Rate difference questions:** The original rate is often a decoy; work only with the gap.
+- **Present-worth questions:** Interest is on the smaller (present) sum, never on the debt.
+- **Two-part investments:** Alligation beats simultaneous equations when only the split is asked.
+- **NOT/EXCEPT wording:** Read the stem twice before looking at the options.
+
+**Revision cue:** Re-attempt Q1, Q5 and Q7 after 2 days without looking at the solutions — these three carry the most transferable logic.

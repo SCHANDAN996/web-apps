@@ -1,0 +1,126 @@
+# 📊 PYQ Analysis — Physics in Everyday Life
+
+## 1. How Exams Ask Questions from This Chapter
+
+Questions on everyday physics appear across UPSC (Prelims GS), SSC (CGL/CHSL/GD), Banking (IBPS/SBI GA), Railway (NTPC/Group D) and State PCS exams. The pattern is remarkably consistent: examiners rarely ask derivations or numericals here — they test whether you can connect a **daily-life observation to the correct physical principle**, and whether you can resist a **plausible-sounding wrong principle**.
+
+The most repeatedly tested sub-topics, in words rather than numbers:
+
+- **Optics in daily life** — the single richest source: why the sky is blue, why the sun appears red at sunrise/sunset, mirage, twinkling of stars, rainbow formation, why a swimming pool looks shallower, diamond's sparkle, rear-view and side mirrors of vehicles.
+- **Surface tension, capillarity, viscosity** — spherical raindrops, soap cleaning, oil spreading on water, kerosene rising in a wick, blotting paper.
+- **Pressure and fluids** — why dams are thicker at the bottom, why a sharp knife cuts better, why it is easier to swim in sea water, hydraulic brakes/lifts, drinking through a straw.
+- **Heat and thermometry** — sea breeze/land breeze, why a metallic tile feels colder than a wooden one, thermos flask, pressure cooker, white clothes in summer.
+- **Sound** — echo, why we hear sound better at night (refraction of sound), ultrasound applications, why lightning is seen before thunder is heard.
+- **Electricity at home** — fuse wire, earthing, series vs parallel in domestic wiring, why birds on a wire are not electrocuted.
+- **Gravitation and motion** — feeling heavier/lighter in a lift, why a falling object and a horizontally thrown object hit the ground together, banking of roads, cream separation by centrifuge.
+
+## 2. Exam-wise Flavour (in words)
+
+- **UPSC / State PCS:** statement-based questions ("Consider the following statements…"), often mixing two correct principles with one subtly wrong one. Conceptual depth is higher; application to technology (RADAR, SONAR, optical fibre, MRI) is common.
+- **SSC (CGL/CHSL):** direct one-liners — "The blue colour of the sky is due to…", "Which mirror is used as a rear-view mirror?" Speed matters more than depth.
+- **Railway (NTPC/Group D):** very direct factual recall, frequently repeated across shifts — units, instruments, simple phenomena.
+- **Banking:** fewer questions, but when they appear they are usually instrument–principle matching (e.g., hydrometer — density of liquids) or simple everyday applications.
+
+## 3. The Examiner's Traps (Trap Types)
+
+1. **Almost-Correct Statement:** "The sky appears blue because of *reflection* of sunlight by dust particles." — The phenomenon is real, the mechanism is wrong (it is **scattering**, specifically Rayleigh scattering). This is the most common trap in this chapter.
+2. **Mirror/Lens Swap:** Convex vs concave confusion — rear-view mirror (convex, wider field), shaving mirror and dentist's mirror (concave, magnified image), street lights (convex). Examiners swap the two in options.
+3. **Chronological/Sequence Confusion:** "Thunder is heard before lightning is seen" — reversal of the actual order (light travels far faster than sound).
+4. **Negative Phrasing:** "Which of the following is **NOT** an application of total internal reflection?" — options include mirage, optical fibre, sparkling diamond, and the correct answer is something like "twinkling of stars" (which is refraction through turbulent atmosphere). Students misread NOT and pick a true application.
+5. **Similar-Name Confusion:** Scattering vs dispersion vs diffraction; conduction vs convection vs radiation; SONAR vs RADAR (sound vs radio waves).
+6. **Unit Trap:** Pressure asked in pascal but an option given in bar or atm; power in kW vs kWh (energy). kWh as a unit of *energy*, not power, is a classic.
+7. **Half-True Reasoning:** "A pressure cooker cooks faster because pressure inside is low" — the direction is reversed; pressure is *high*, raising the boiling point of water.
+
+## 4. High-Yield PYQ-Style Questions with Solutions
+
+**Q1.** The blue colour of the sky is due to —
+(a) Reflection of sunlight by clouds
+(b) Scattering of sunlight by air molecules
+(c) Dispersion of sunlight by water droplets
+(d) Absorption of blue light by the atmosphere
+**Answer: (b)**
+**Solution:** Air molecules scatter shorter (blue) wavelengths most strongly — Rayleigh scattering. Trap type: **Almost-Correct** — (a) and (c) name real optical phenomena but the wrong mechanism. Dispersion by droplets explains the rainbow, not the sky.
+*Source: NCERT Class 10 Science (Human Eye and the Colourful World)*
+
+**Q2.** Which of the following is NOT based on total internal reflection?
+(a) Sparkling of a diamond
+(b) Working of an optical fibre
+(c) Twinkling of stars
+(d) Mirage in a desert
+**Answer: (c)**
+**Solution:** Twinkling is caused by atmospheric **refraction** through layers of varying density. Diamond, optical fibre and mirage all involve total internal reflection. Trap type: **Negative Phrasing** — three options are true applications; misreading "NOT" costs the mark.
+*Source: NCERT Class 10/12 Physics*
+
+**Q3.** A pressure cooker cooks food faster because —
+(a) the pressure inside is low, so water boils at a lower temperature
+(b) the pressure inside is high, raising the boiling point of water
+(c) heat cannot escape from the cooker at all
+(d) steam absorbs all the heat from the flame
+**Answer: (b)**
+**Solution:** Higher pressure raises water's boiling point above 100°C, so food cooks at a higher temperature. Trap type: **Half-True Reasoning** — option (a) reverses the pressure direction; it describes what happens at high altitude, where cooking is *slower*.
+*Source: NCERT Class 11 Physics (Thermal Properties)*
+
+**Q4.** The side-view mirror of a car carries the warning "Objects in the mirror are closer than they appear" because it is a —
+(a) concave mirror (b) plane mirror (c) convex mirror (d) convex lens
+**Answer: (c)**
+**Solution:** A convex mirror gives a wider field of view but forms a diminished image, making objects look farther than they are. Trap type: **Mirror Swap** — concave mirrors magnify and are used for shaving/dental mirrors, not vehicle side mirrors.
+*Source: NCERT Class 10 Science (Light)*
+
+**Q5.** It is easier to swim in sea water than in river water because —
+(a) sea water is colder
+(b) sea water has waves that push the swimmer
+(c) the density of sea water is higher, giving greater upthrust
+(d) river water has more friction
+**Answer: (c)**
+**Solution:** Dissolved salts raise the density of sea water, so buoyant force (Archimedes' principle) is larger. Trap type: **Almost-Correct** — (b) sounds experientially true but is not the physics reason.
+*Source: NCERT Class 9 Science (Gravitation — Buoyancy)*
+
+**Q6.** Lightning is seen before thunder is heard because —
+(a) lightning occurs before thunder is produced
+(b) light travels much faster than sound
+(c) sound is absorbed by clouds
+(d) thunder is produced at a greater height
+**Answer: (b)**
+**Solution:** Both occur simultaneously; light (~3 × 10⁸ m/s) vastly outruns sound (~340 m/s in air). Trap type: **Chronological Confusion** — option (a) reverses cause and effect.
+*Source: NCERT Class 9 Science (Sound)*
+
+**Q7.** Which instrument works on Archimedes' principle?
+(a) Barometer (b) Hydrometer (c) Ammeter (d) Thermometer
+**Answer: (b)**
+**Solution:** A hydrometer floats higher or lower depending on liquid density — a direct application of buoyancy. Trap type: **Similar-Name Confusion** — barometer (atmospheric pressure) is the tempting wrong pick.
+*Source: PYQ-style*
+
+**Q8.** A bird sitting on a high-voltage bare wire is not electrocuted because —
+(a) its body is a perfect insulator
+(b) there is no potential difference between its two feet
+(c) the current chooses the ground instead
+(d) its feathers repel electricity
+**Answer: (b)**
+**Solution:** Current flows only across a potential difference; both feet are at nearly the same potential on the same wire. Trap type: **Almost-Correct** — (a) is false; the bird's body conducts, but no circuit to a different potential is completed.
+*Source: PYQ-style*
+
+**Q9.** In domestic wiring, appliances are connected in parallel because —
+(a) it saves wire
+(b) each appliance then gets the full mains voltage and works independently
+(c) it increases the total resistance
+(d) it reduces the current in the circuit to zero
+**Answer: (b)**
+**Solution:** Parallel connection gives every appliance 220 V and lets each be switched independently; a fault in one does not break the others. Trap type: **Half-True Reasoning** — parallel *decreases* equivalent resistance, so (c) is reversed.
+*Source: NCERT Class 10 Science (Electricity)*
+
+**Q10.** The kilowatt-hour (kWh) is a unit of —
+(a) power (b) electric current (c) electrical energy (d) potential difference
+**Answer: (c)**
+**Solution:** kWh = power × time = energy; 1 kWh = 3.6 × 10⁶ J, the "unit" on electricity bills. Trap type: **Unit Trap** — students see "kilowatt" and pick power.
+*Source: NCERT Class 10 Science (Electricity)*
+
+## 5. The 15/45-Second Rule Applied
+
+**15-second questions (instant recall — answer and move on):**
+- Q4 (convex side mirror), Q6 (light faster than sound), Q10 (kWh = energy). These are pure one-fact recalls. If you know it, mark it in under 15 seconds; if you don't, no amount of staring will help — flag and move.
+
+**45-second questions (need one reasoning step — worth the time):**
+- Q2 (NOT + total internal reflection): you must verify each of the four options against the principle — budget the full 45 seconds, and underline "NOT" before reading options.
+- Q8 (bird on wire): requires constructing the potential-difference argument; guessing between (a) and (b) is where most marks are lost, so spend the time.
+
+**Strategy:** In a mixed GK section, bank the 15-second optics/units questions first, then return to statement-based and negative-phrasing questions with the time saved. Never spend 45 seconds on a pure recall item you simply don't know — that is a skip, not a solve.

@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}{{ tr('revise_title') }} — {{ tr('brand') }}{% endblock %}
+{% block robots %}<meta name="robots" content="noindex">{% endblock %}
+{% block body_class %}player-open{% endblock %}
+{% block main %}
+<h1>{{ tr('revise_title') }}</h1>
+<p class="muted small">{{ tr('revise_desc') }}</p>
+{% if mistakes %}<button class="btn btn-secondary btn-block" type="button" data-mistakes id="mistakesBtn" style="margin-bottom:var(--sp-3);white-space:normal;height:auto;padding-block:var(--sp-2);text-align:center"><svg class="icon" aria-hidden="true"><use href="#i-repeat"/></svg><span>{{ tr('mistakes_btn').format(n=mistakes) }}</span></button>{% endif %}
+<div id="player" class="player" data-mode="revise"><div class="empty" aria-live="polite">…</div></div>
+{% endblock %}
+{% block scripts %}<script src="/static/js/player.js?v={{ asset_v }}" defer></script>{% endblock %}

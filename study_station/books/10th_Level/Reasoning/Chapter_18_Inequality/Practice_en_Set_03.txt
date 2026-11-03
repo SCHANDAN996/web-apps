@@ -1,0 +1,151 @@
+📝 Practice Set 3 (Questions 51–75) — Difficulty: Questions 51–75 Medium | Total 25 MCQs
+
+51. In a certain code: 'A @ B' means A ≤ B, 'A # B' means A ≥ B, 'A $ B' means A < B, 'A % B' means A > B, 'A * B' means A = B. Statements: X # Y, Y @ Z, Z $ A, A % B. Conclusions: I. X % A  II. X * A
+(a) Neither I nor II follows (b) Only II follows (c) Either I or II follows (d) Only I follows
+Answer: (a)
+Solution: Decoded: X ≥ Y, Y ≤ Z, Z < A, A > B. Between X and A the signs reverse at Y (≥ then ≤), so no definite relation exists; the tempting Either-Or fails because the two conclusions do not exhaust the possibilities here. So the answer is Neither I nor II follows.
+Source: PYQ-style
+
+52. Statements: A > B = C ≥ D < E; F ≤ D > G. Conclusions: I. A > F  II. B > G
+(a) Only I follows (b) Neither I nor II follows (c) Only II follows (d) Both follow
+Answer: (d)
+Solution: From A > B = C ≥ D ≥ F we get A > F, and from B = C ≥ D > G we get B > G; both are definite. The trap is to reject conclusion I because F is linked through D, but the chain is unbroken. So the answer is Both follow.
+Source: PYQ-style
+
+53. In a certain code: 'A α B' means A > B, 'A β B' means A < B, 'A γ B' means A = B, 'A δ B' means A ≥ B, 'A ε B' means A ≤ B. Statements: P α Q, Q β R, R γ S, S ε T. Conclusions: I. P β T  II. P α T
+(a) Only II follows (b) Neither I nor II follows (c) Either I or II follows (d) Only I follows
+Answer: (b)
+Solution: Decoded: P > Q < R = S ≤ T. The link between P and T breaks at Q due to opposite signs, so all of P > T, P < T and P = T are possible; since equality is missing from the conclusions, they are not a complementary pair. So the answer is Neither I nor II follows.
+Source: PYQ-style
+
+54. Which of the following expressions will make 'M ≤ N' definitely true?
+(a) M > O ≥ N (b) M ≥ O < N (c) M = O > N (d) M < O ≤ N
+Answer: (d)
+Solution: In M < O ≤ N we get M < N, which always satisfies M ≤ N. The other expressions either give M ≥ N or leave the relation undecided, so they cannot guarantee M ≤ N. So the answer is M < O ≤ N.
+Source: PYQ-style
+
+55. Statements: M ≥ N > O = P; Q ≤ P. Conclusions: I. M > O  II. M = O
+(a) Only I follows (b) Neither I nor II follows (c) Either I or II follows (d) Only II follows
+Answer: (a)
+Solution: M ≥ N > O forces M > O, so conclusion I is definite and II is false. The trap is reading M ≥ N > O as merely M ≥ O and picking Either-Or, but the strict '>' in the chain makes M = O impossible. So the answer is Only I follows.
+Source: PYQ-style
+
+56. In a certain code: 'A © B' means A ≤ B, 'A ® B' means A > B, 'A µ B' means A = B, 'A β B' means A ≥ B, 'A ∑ B' means A < B. Statements: P ® Q, Q µ R, R ∑ S, S © T. Conclusions: I. P ® T  II. P ∑ T
+(a) Either I or II follows (b) Neither I nor II follows (c) Only I follows (d) Only II follows
+Answer: (b)
+Solution: Decoded: P > Q = R < S ≤ T, giving P > R and R < T with no definite relation between P and T. The two conclusions omit equality, so they are not complementary and the Either-Or option is a trap. So the answer is Neither I nor II follows.
+Source: PYQ-style
+
+57. Statements: A = B > C ≥ D; E < D ≤ F; G > F. Conclusions: I. A > E  II. G > C  III. B ≥ F
+(a) I and II follow (b) Only I follows (c) II and III follow (d) I and III follow
+Answer: (b)
+Solution: A = B > C ≥ D > E gives A > E, so I is true. The chain between G and C breaks at D, and B versus F is undecided, so II and III fail despite looking connected through D. So the answer is Only I follows.
+Source: PYQ-style
+
+58. Statements: P ≥ Q = R; S ≤ R. Conclusions: I. P > S  II. P = S
+(a) Only I follows (b) Neither I nor II follows (c) Only II follows (d) Either I or II follows
+Answer: (d)
+Solution: Combining gives P ≥ Q = R ≥ S, so P ≥ S. Individually neither P > S nor P = S is certain, but together they exhaust all possibilities, forming a genuine complementary pair. So the answer is Either I or II follows.
+Source: PYQ-style
+
+59. In a certain code: 'A # B' means A ≥ B, 'A $ B' means A ≤ B, 'A @ B' means A < B, 'A % B' means A > B, 'A * B' means A = B. Statements: X $ Y, Y # Z, Z @ W, W % V. Conclusions: I. X @ V  II. Z * V
+(a) Neither I nor II follows (b) Either I or II follows (c) Only II follows (d) Only I follows
+Answer: (a)
+Solution: Decoded: X ≤ Y ≥ Z < W > V. The signs alternate between X and V and between Z and V, so no definite relation exists for either pair. So the answer is Neither I nor II follows.
+Source: PYQ-style
+
+60. Which set of symbols should replace the blanks in the expression 'A _ B _ C _ D' so that both 'A ≥ C' and 'B > D' definitely hold?
+(a) =, ≥, < (b) >, ≥, = (c) ≥, >, = (d) ≥, =, ≥
+Answer: (c)
+Solution: With ≥, >, = the expression is A ≥ B > C = D: A ≥ B > C gives A > C (hence A ≥ C), and B > C = D gives B > D. The set >, ≥, = is the trap — it gives B ≥ C = D, i.e. only B ≥ D, not the strict B > D. So the answer is ≥, >, =.
+Source: PYQ-style
+
+61. Which set of symbols should replace the blanks in 'M _ N _ O _ P' so that both 'M > O' and 'N ≤ P' definitely hold?
+(a) >, =, ≤ (b) ≥, <, ≤ (c) >, ≤, < (d) ≥, >, =
+Answer: (a)
+Solution: With >, =, ≤ the expression is M > N = O ≤ P: M > N = O gives M > O, and N = O ≤ P gives N ≤ P. The other sets break at least one required relation. So the answer is >, =, ≤.
+Source: PYQ-style
+
+62. Statements: P > Q ≥ R = S; T < S; U ≤ T. Conclusions: I. P > U  II. Q > T  III. R ≤ U
+(a) All follow (b) I and II follow (c) Only I follows (d) II and III follow
+Answer: (b)
+Solution: The chain is P > Q ≥ R = S > T ≥ U, giving P > U and Q > T. Since R = S > T ≥ U we actually get R > U, so R ≤ U is false — the trap is assuming U ≤ T reverses the chain. So the answer is I and II follow.
+Source: PYQ-style
+
+63. In a certain code: 'A △ B' means A ≤ B, 'A □ B' means A ≥ B, 'A ○ B' means A < B, 'A ◇ B' means A > B, 'A ☆ B' means A = B. Statements: X △ Y, Y □ Z, Z ○ W, W ◇ V. Conclusions: I. X ○ V  II. Z ☆ V
+(a) Only II follows (b) Neither I nor II follows (c) Both follow (d) Only I follows
+Answer: (b)
+Solution: Decoded: X ≤ Y ≥ Z < W > V. No definite relation exists between X and V or between Z and V because the signs keep reversing. So the answer is Neither I nor II follows.
+Source: PYQ-style
+
+64. Statements: A > B = C ≤ D < E; F = E > G; H < G. Conclusions: I. A > C  II. B < E  III. H < D
+(a) II and III follow (b) All follow (c) I and II follow (d) I and III follow
+Answer: (c)
+Solution: A > B = C gives A > C, and B = C ≤ D < E gives B < E. But H < G < E and D < E share only E, so H versus D is undecided — the trap is linking them through E. So the answer is I and II follow.
+Source: PYQ-style
+
+65. Statements: P = Q > R ≥ S; T < S; U ≥ T. Conclusions: I. Q > U  II. R > T  III. P ≥ S
+(a) Only II follows (b) I and II follow (c) All follow (d) II and III follow
+Answer: (d)
+Solution: R ≥ S > T gives R > T, and P = Q > R ≥ S gives P > S, hence P ≥ S. But U ≥ T with T < S leaves U free to exceed Q, so Q > U is not definite — the trap is assuming U is small. So the answer is II and III follow.
+Source: PYQ-style
+
+66. In a certain code: 'A @ B' means A ≥ B, 'A # B' means A < B, 'A $ B' means A = B, 'A % B' means A > B, 'A * B' means A ≤ B. Statements: M % N, N $ O, O * P, P # Q. Conclusions: I. M % Q  II. M $ Q
+(a) Either I or II follows (b) Only I follows (c) Neither I nor II follows (d) Only II follows
+Answer: (c)
+Solution: Decoded: M > N = O ≤ P < Q. Between M and Q the signs reverse at O, so no definite relation exists; since M < Q is also possible, the two conclusions are not complementary and the Either-Or option is a trap. So the answer is Neither I nor II follows.
+Source: PYQ-style
+
+67. Statements: A ≥ B = C > D; E < D; F = E. Conclusions: I. A > F  II. A = F
+(a) Only II follows (b) Neither I nor II follows (c) Only I follows (d) Either I or II follows
+Answer: (c)
+Solution: The chain A ≥ B = C > D > E = F forces A > F, so I is definite and II is false. The trap is the initial '≥' suggesting A ≥ F and luring students into Either-Or, but the strict '>' later in the chain rules out equality. So the answer is Only I follows.
+Source: PYQ-style
+
+68. In a certain code: 'P ↑ Q' means P ≤ Q, 'P ↓ Q' means P ≥ Q, 'P → Q' means P < Q, 'P ← Q' means P > Q, 'P ↔ Q' means P = Q. Statements: X ↑ Y, Y ↓ Z, Z → W, W ← V. Conclusions: I. X → V  II. X ← V  III. Z ↔ V
+(a) Either I or II follows (b) None follows (c) Only II follows (d) Only I follows
+Answer: (b)
+Solution: Decoded: X ≤ Y ≥ Z < W > V. No relation is fixed between X and V or between Z and V, and I with II omit equality so they are not complementary. So the answer is None follows.
+Source: PYQ-style
+
+69. Which set of symbols should replace the blanks in 'A _ B _ C _ D' so that 'A > C' and 'B ≤ D' definitely hold?
+(a) >, =, ≤ (b) >, ≥, < (c) ≥, >, = (d) =, ≤, >
+Answer: (a)
+Solution: With >, =, ≤ the expression is A > B = C ≤ D: A > B = C gives A > C, and B = C ≤ D gives B ≤ D. The other sets fail at least one condition. So the answer is >, =, ≤.
+Source: PYQ-style
+
+70. In a certain code: 'A @ B' means A ≥ B, 'A # B' means A ≤ B, 'A % B' means A > B, 'A $ B' means A < B, 'A * B' means A = B. Statements: P @ Q, Q * R, R $ S, S # T. Conclusions: I. P % T  II. P * T
+(a) Neither I nor II follows (b) Only II follows (c) Either I or II follows (d) Only I follows
+Answer: (a)
+Solution: Decoded: P ≥ Q = R < S ≤ T. The signs reverse at R, so P versus T is undecided; since equality is possible, the two conclusions are not complementary. So the answer is Neither I nor II follows.
+Source: PYQ-style
+
+71. Statements: M > N = O; P < O; Q ≤ P; R > Q. Conclusions: I. M > Q  II. N > R  III. O ≥ Q
+(a) All follow (b) I and II follow (c) II and III follow (d) I and III follow
+Answer: (d)
+Solution: M > N = O > P ≥ Q gives M > Q, and O > P ≥ Q gives O > Q, hence O ≥ Q. But R > Q says nothing about R versus N, so II is false — the trap is joining R to the main chain through Q. So the answer is I and III follow.
+Source: PYQ-style
+
+72. Statements: A < B ≤ C = D > E; F ≥ E < G; H = G. Conclusions: I. A < D  II. B > E  III. F < H
+(a) Only I follows (b) None follows (c) Only III follows (d) I and II follow
+Answer: (a)
+Solution: A < B ≤ C = D gives A < D, so I is true. B ≤ C = D > E leaves B versus E undecided, and F ≥ E < G = H leaves F versus H undecided, so II and III fail. So the answer is Only I follows.
+Source: PYQ-style
+
+73. In a certain code: 'A @ B' means A > B, 'A # B' means A < B, 'A $ B' means A = B, 'A % B' means A ≥ B, 'A * B' means A ≤ B. Statements: X % Y, Y $ Z, Z % W. Conclusions: I. X @ W  II. X $ W
+(a) Only I follows (b) Only II follows (c) Either I or II follows (d) Neither I nor II follows
+Answer: (c)
+Solution: Decoded: X ≥ Y = Z ≥ W, so X ≥ W. Either X > W or X = W must hold, and together the two conclusions cover every possibility, forming a complementary pair. So the answer is Either I or II follows.
+Source: PYQ-style
+
+74. Which symbols should replace the blanks in 'P _ Q _ R _ S' so that 'P > S' is definitely false and 'Q ≥ R' is definitely true?
+(a) >, =, ≥ (b) ≥, <, > (c) <, ≤, = (d) ≤, =, <
+Answer: (d)
+Solution: With ≤, =, < the expression is P ≤ Q = R < S: this gives P < S, so P > S is definitely false, and Q = R makes Q ≥ R definitely true. The set <, ≤, = is the trap — it gives Q ≤ R = S, i.e. only Q ≤ R, so Q ≥ R is not guaranteed. So the answer is ≤, =, <.
+Source: PYQ-style
+
+75. In a certain code: 'A α B' means A > B, 'A β B' means A < B, 'A γ B' means A = B, 'A δ B' means A ≥ B, 'A ε B' means A ≤ B. Statements: P δ Q, Q γ R, R δ S. Conclusions: I. P α S  II. P γ S
+(a) Only I follows (b) Only II follows (c) Either I or II follows (d) Neither I nor II follows
+Answer: (c)
+Solution: Decoded: P ≥ Q = R ≥ S, so P ≥ S. Individually neither P > S nor P = S is certain, but together they exhaust all cases, so they form a complementary pair. So the answer is Either I or II follows.
+Source: PYQ-style

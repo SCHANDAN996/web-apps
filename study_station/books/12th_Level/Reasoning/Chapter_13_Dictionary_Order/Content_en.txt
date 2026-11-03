@@ -1,0 +1,132 @@
+# Dictionary Order
+
+## Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Arrange any set of words in dictionary (alphabetical) order — quickly and without confusion.
+2. Find which word comes first, last, or at a given position in a dictionary.
+3. Handle tricky cases: words with common prefixes, repeated letters, and near-identical spellings.
+4. Solve "letter position" questions (e.g., which letter of a word falls at a certain place when arranged alphabetically).
+5. Spot and avoid the examiner's favourite traps.
+
+---
+
+## The Hook: You Already Know This — You Just Don't Know You Know It
+
+Think about the last time you searched for a name in your phone's contact list. Did you scroll randomly? No. Your thumb went straight to the right letter — "R" for Rahul, "S" for Sunita. That instinct, that silent alphabet running in your head, **is** dictionary order.
+
+The examiner is not testing anything new. He is testing whether you can do, under time pressure, what you already do casually every day. The only difference: in the exam, the words are chosen to *confuse* you. This chapter teaches you to stay calm and mechanical — because dictionary order questions are among the **easiest marks** in the entire reasoning paper, if you follow a fixed method.
+
+---
+
+## The Common Struggle (And Why It Happens)
+
+Most students lose marks here not because the question is hard, but because of three habits:
+
+- **Reading the whole word.** You don't need to. Only the first *differing* letter matters.
+- **Rushing past similar words.** Words like PRAISE, PRAIRIE, PRACTICE look alike, and the brain skips the detail that decides the answer.
+- **Forgetting the alphabet mid-way.** Under pressure, students genuinely hesitate: "Does M come before N?" (Yes, it does!)
+
+The fix for all three is one thing: **a step-by-step mechanical rule**. Let's build it.
+
+---
+
+## Chunk 1: The Golden Rule — Compare Letter by Letter
+
+**Rule:** To arrange words in dictionary order, compare the first letters of all words. The word whose first letter comes earliest in the alphabet comes first. If first letters are the same, compare the second letters. If those are also the same, compare the third — and so on, until you find a difference.
+
+**Example:** Arrange — APPLE, APRICOT, APPLY.
+
+- All start with A → look at 2nd letter: all have P → look at 3rd letter: P, R, P.
+- R comes after P, so APRICOT goes **last**.
+- Between APPLE and APPLY: 4th letters are L and L → 5th letters: E vs Y. E comes first.
+- **Order: APPLE → APPLY → APRICOT**
+
+🧠 **Active Recall:** Without looking above — what do you do when the first two letters of two words are identical? Say the rule out loud.
+
+---
+
+## Chunk 2: The Shorter-Word Rule
+
+What if one word is completely contained in another? Like CAT and CATALOGUE?
+
+**Rule:** If one word is a prefix of another (all its letters match the beginning of the longer word), the **shorter word comes first**.
+
+- CAT comes before CATALOGUE.
+- PEN comes before PENCIL, which comes before PENCILED.
+
+Think of it as: the shorter word "runs out of letters" first, so it finishes first in the race.
+
+🧠 **Active Recall:** Which comes first in a dictionary — MARK or MARKET? Why?
+
+---
+
+## Chunk 3: The Position-Finding Question
+
+A very common exam format: *"If the letters of the word MOTHER are arranged in alphabetical order, which letter will be in the middle?"*
+
+**Method:**
+1. Write the letters: M, O, T, H, E, R.
+2. Arrange alphabetically: E, H, M, O, R, T.
+3. Count to the required position. Middle of 6 letters = between 3rd and 4th (M and O). If asked for the 3rd letter → **M**.
+
+**Shortcut for "middle":** For a word with an odd number of letters, the middle position is (n+1)/2. For 5 letters → 3rd position. For 7 letters → 4th position.
+
+🧠 **Active Recall:** Take the word TRAIN. Arrange its letters alphabetically. What is the 2nd letter? (Answer: A, I, N, R, T → 2nd is **I**.)
+
+---
+
+## Chunk 4: The Alphabet Position Numbers — Your Secret Weapon
+
+Many toppers memorise letter positions so they never count on fingers:
+
+**A1 B2 C3 D4 E5 | F6 G7 H8 I9 J10 | K11 L12 M13 N14 O15 | P16 Q17 R18 S19 T20 | U21 V22 W23 X24 Y25 Z26**
+
+**Mnemonic to anchor the key checkpoints — "EJOTY":**
+**E**=5, **J**=10, **O**=15, **T**=20, **Y**=25. These five letters divide the first 25 letters of the alphabet into five equal blocks of five (Z is the 26th letter). Remember just EJOTY, and every other position is one or two steps away. (M? O is 15, so M is 13. R? T is 20, so R is 18.)
+
+🧠 **Active Recall:** Close your eyes. What is the position of J? Of T? Now — what is the position of S? (T is 20, so S is 19.)
+
+---
+
+## Chunk 5: Speed Method for "Which Word Comes First/Last?"
+
+When a question gives 4–5 words and asks which appears **first** (or **last**) in a dictionary:
+
+1. **Scan only the first letters.** Different first letters? Done — pick the earliest (or latest) alphabetically.
+2. **Same first letter?** Ignore all other words. Compare only the tied words, second letter onwards.
+3. **Never read the full word** unless forced to by identical prefixes.
+
+**Example:** Which comes first — QUALITY, QUANTITY, QUARREL, QUARTER?
+
+- All start QU → 3rd letters: A, A, A, A → 4th letters: L, N, R, R.
+- L is earliest → **QUALITY** comes first. (We never even looked at the 5th letters!)
+
+---
+
+## Summary Table
+
+| Situation | Rule |
+|---|---|
+| Different first letters | Earliest letter in alphabet comes first |
+| Same first letter(s) | Move to the next letter; compare until a difference appears |
+| One word inside another (CAT / CATALOGUE) | Shorter word comes first |
+| Finding middle letter after arranging | Odd n → position (n+1)/2; even n → two middle letters |
+| Remembering letter positions | EJOTY: E=5, J=10, O=15, T=20, Y=25 |
+| Speed strategy | Compare only the first *differing* letter; never read whole words |
+
+📌 **Review this chapter after 2 days.** Redo the Active Recall prompts from memory — if you can answer all of them without peeking, this topic is permanently yours.
+
+---
+
+## ⚠️ Caution: Examiner's Trap
+
+**Trap 1 — More than one plausible relationship shown in options.**
+In questions asking "which word comes first," the examiner includes two words that share a long common prefix (e.g., STATIONERY and STATIONARY). Both look correct at a glance, and students pick the one they "feel" is right. The difference hides deep inside the word (here, the 8th letter: E vs A). **Defence:** when two options look identical, slow down and compare letter by letter until you find the split. Never guess between look-alikes.
+
+**Trap 2 — Difficult or unfamiliar words used to intimidate you.**
+Words like XENOPHOBIA, XYLOPHONE, QUIXOTIC appear not to test vocabulary but to panic you into wasting time. **Defence:** meaning is irrelevant. Treat every word as a string of letters. A "hard" word follows exactly the same rule as CAT.
+
+**Trap 3 — Double-relationship questions (arrange, then find a position).**
+Example: "Arrange the letters of RANDOM alphabetically; which letter is 2nd from the right?" Students arrange correctly (A, D, M, N, O, R) but then count from the **left** out of habit, or forget the word "right." **Defence:** underline the direction word (left/right, first/last) in the question before solving. Half the errors in this chapter are reading errors, not reasoning errors.

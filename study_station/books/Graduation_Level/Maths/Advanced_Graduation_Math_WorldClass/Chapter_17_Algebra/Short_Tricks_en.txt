@@ -1,0 +1,175 @@
+# 🪄 Short Tricks — Algebra (Advanced Level)
+
+---
+
+## Trick 1: The "FOIL" Army
+```
+┌─────────────────────────────────────────────┐
+│ (a + b)(c + d) = ?                          │
+│ FOIL: First, Outer, Inner, Last             │
+│ First: a·c   Outer: a·d                     │
+│ Inner: b·c   Last: b·d                      │
+│ 🧠 Memory: A soldier marches F-O-I-L!       │
+└─────────────────────────────────────────────┘
+```
+
+## Trick 2: "Same Sign Sum, Different Sign Difference"
+```
+┌─────────────────────────────────────────────┐
+│ (a+b)² vs (a−b)² — which sign in middle?    │
+│ 🧠 "The middle term MARRIES the sign"       │
+│ (a+b)² = a² + 2ab + b²  → + marries +       │
+│ (a−b)² = a² − 2ab + b²  → − marries −       │
+│ Last term is ALWAYS positive (b² never lies)│
+└─────────────────────────────────────────────┘
+```
+
+## Trick 3: SOAP for Cubes
+```
+┌─────────────────────────────────────────────┐
+│ a³ + b³ = (a+b)(a² − ab + b²)               │
+│ a³ − b³ = (a−b)(a² + ab + b²)               │
+│ 🧠 SOAP: Same, Opposite, Always Positive    │
+│ First bracket: SAME sign as the cube        │
+│ Middle term: OPPOSITE sign                  │
+│ Last term: ALWAYS POSITIVE                  │
+└─────────────────────────────────────────────┘
+```
+
+## Trick 4: The Quadratic Formula Song
+```
+┌─────────────────────────────────────────────┐
+│ x = [−b ± √(b² − 4ac)] / 2a                 │
+│ 🧠 Sing to "Pop Goes the Weasel":           │
+│ "x equals negative b, plus or minus the     │
+│  square root, of b-squared minus 4ac,       │
+│  ALL over 2a!"                              │
+│ Sing it 3 times — you'll never forget it.   │
+└─────────────────────────────────────────────┘
+```
+
+## Trick 5: Discriminant = "The Fortune Teller"
+```
+┌─────────────────────────────────────────────┐
+│ D = b² − 4ac tells the FUTURE of roots:     │
+│ D > 0 → "Two real roots walk in"            │
+│ D = 0 → "Twins! Both roots identical"       │
+│ D < 0 → "Ghost roots — imaginary!"          │
+│ 🧠 Positive=Pair, Zero=Zameen (one),        │
+│    Negative=No real root                    │
+└─────────────────────────────────────────────┘
+```
+
+## Trick 6: Vieta's "SUM-PRODUCT Switch"
+```
+┌─────────────────────────────────────────────┐
+│ For ax² + bx + c = 0:                       │
+│ Sum of roots = −b/a  (sign FLIPS!)          │
+│ Product of roots = c/a (sign STAYS)         │
+│ 🧠 "SUM is SHY — it hides its sign.         │
+│     PRODUCT is PROUD — it shows its sign."  │
+└─────────────────────────────────────────────┘
+```
+
+## Trick 7: AM ≥ GM — "Arithmetic Always Wins"
+```
+┌─────────────────────────────────────────────┐
+│ (a+b)/2 ≥ √(ab)  for positive a, b          │
+│ 🧠 "The ARITHMETIC mean is ARROGANT —       │
+│     it never lets GEOMETRIC mean beat it."  │
+│ Equality only when a = b ("twins tie")      │
+│ Use: min/max problems in 10 seconds!        │
+└─────────────────────────────────────────────┘
+```
+
+## Trick 8: Log Laws — "Logs Love to Downgrade"
+```
+┌─────────────────────────────────────────────┐
+│ log(M·N) = log M + log N  (× becomes +)     │
+│ log(M/N) = log M − log N  (÷ becomes −)     │
+│ log(Mⁿ) = n·log M         (power falls down)│
+│ 🧠 "Logs are LAZY — they downgrade every    │
+│     operation: multiply→add, divide→minus,  │
+│     power→just a multiplier on the floor!"  │
+└─────────────────────────────────────────────┘
+```
+
+## Trick 9: AP-GP "Add vs Attack"
+```
+┌─────────────────────────────────────────────┐
+│ AP: a, a+d, a+2d…  → nth term = a+(n−1)d    │
+│ GP: a, ar, ar²…    → nth term = a·r^(n−1)   │
+│ 🧠 "AP ADDS politely (d walks step by step).│
+│     GP ATTACKS with power (r explodes!)."   │
+│ Both use (n−1), never n — "start counts 0"  │
+└─────────────────────────────────────────────┘
+```
+
+## Trick 10: Sum of First n Naturals — "Gauss's Pairing"
+```
+┌─────────────────────────────────────────────┐
+│ 1+2+…+n = n(n+1)/2                          │
+│ 🧠 Story: Little Gauss paired 1+100, 2+99…  │
+│     each pair = 101, and 50 pairs → 5050!   │
+│ "First + Last, times count, halve it."      │
+│ Also: Σn² = n(n+1)(2n+1)/6                  │
+│       Σn³ = [n(n+1)/2]²  (cube = square!)   │
+└─────────────────────────────────────────────┘
+```
+
+## Trick 11: Inequality Flip — "Negative is a Traitor"
+```
+┌─────────────────────────────────────────────┐
+│ If −2x > 6, then x < −3 (sign FLIPS!)       │
+│ 🧠 "Multiplying/dividing by a NEGATIVE      │
+│     number is a TRAITOR — it flips the      │
+│     inequality sign to the other side."     │
+│ Positive multiplier = loyal friend, no flip │
+└─────────────────────────────────────────────┘
+```
+
+## Trick 12: Remainder Theorem — "Plug the Killer"
+```
+┌─────────────────────────────────────────────┐
+│ Remainder when p(x) ÷ (x−a) = p(a)          │
+│ 🧠 "Find what KILLS the divisor (x−a=0 →    │
+│     x=a), then PLUG that killer into p(x).  │
+│     The corpse IS the remainder!"           │
+│ Factor check: p(a)=0 → (x−a) is a factor    │
+└─────────────────────────────────────────────┘
+```
+
+## Trick 13: (a+b)³ Expansion — "1-3-3-1 Pascal Power"
+```
+┌─────────────────────────────────────────────┐
+│ (a+b)³ = a³ + 3a²b + 3ab² + b³              │
+│ 🧠 Pascal's Triangle row: 1 3 3 1           │
+│ "Powers of a FALL (3,2,1,0),                │
+│  powers of b RISE (0,1,2,3),                │
+│  coefficients ride Pascal's elevator!"      │
+│ (a+b)⁴ → 1 4 6 4 1 — same game!             │
+└─────────────────────────────────────────────┘
+```
+
+## Trick 14: Modulus |x| — "The Distance Bouncer"
+```
+┌─────────────────────────────────────────────┐
+│ |x| < a  →  −a < x < a  (sandwich)          │
+│ |x| > a  →  x < −a OR x > a (run away)      │
+│ 🧠 "LESS than = LOCKED inside the sandwich. │
+│     GREATER than = GET OUT, run both ways!" │
+│ |x−3| < 2 means x stays within 2 of 3.      │
+└─────────────────────────────────────────────┘
+```
+
+## Trick 15: a² − b² — "The Difference Divorce"
+```
+┌─────────────────────────────────────────────┐
+│ a² − b² = (a+b)(a−b)                        │
+│ 🧠 "When squares DIVORCE (minus between     │
+│     them), they split into a PLUS couple    │
+│     and a MINUS couple."                    │
+│ Speed trick: 97 × 103 = (100−3)(100+3)      │
+│             = 100² − 3² = 9991 ✓            │
+└─────────────────────────────────────────────┘
+```

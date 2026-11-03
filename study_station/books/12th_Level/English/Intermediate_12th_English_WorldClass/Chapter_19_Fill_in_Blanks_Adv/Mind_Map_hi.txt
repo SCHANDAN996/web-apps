@@ -1,0 +1,34 @@
+```mermaid
+graph TD
+    A["रिक्त स्थान भरें (उन्नत)<br>Fill in the Blanks (Advanced)"] --> B["चरण 1: वाक्य का प्रकार पहचानो"]
+    A --> C["चरण 2: संकेत शब्द खोजो"]
+    A --> D["चरण 3: विकल्प परखो"]
+    A --> E["परीक्षक के जाल"]
+    A --> F["रणनीति"]
+
+    B --> B1["ग्रामर-आधारित<br>(Subject-Verb, Tense, Article)"]
+    B --> B2["वोकैबुलरी-आधारित<br>(Synonym, Collocation, Idiom)"]
+    B --> B3["प्रीपोज़िशन / कंजंक्शन आधारित"]
+
+    C --> C1["समय संकेत: since, ago, by the time<br>→ सही Tense चुनो"]
+    C --> C2["कंट्रास्ट संकेत: but, although, however<br>→ विपरीत अर्थ वाला शब्द"]
+    C --> C3["समानता संकेत: and, also, moreover<br>→ समान अर्थ वाला शब्द"]
+    C --> C4["कारण-परिणाम: because, so, hence"]
+
+    D --> D1["Elimination: पहले 2 गलत विकल्प हटाओ"]
+    D --> D2["वाक्य में विकल्प रखकर बोलकर देखो"]
+    D --> D3["Collocation जाँचो:<br>make a decision ✓ / do a decision ✗"]
+
+    E --> E1["Sound-Right जाल<br>कान को सही लगने वाला गलत विकल्प"]
+    E --> E2["Intervening Phrase जाल<br>कर्ता और क्रिया के बीच लंबा वाक्यांश"]
+    E --> E3["Over-thinking जाल<br>सरल उत्तर को छोड़कर कठिन शब्द चुनना"]
+    E --> E4["मिलते-जुलते शब्द<br>accept/except, affect/effect, advice/advise"]
+
+    F --> F1["15 सेकंड नियम<br>तथ्यात्मक प्रश्न (Grammar Rule)"]
+    F --> F2["45 सेकंड नियम<br>तार्किक प्रश्न (Context/Tone)"]
+    F --> F3["Skip Strategy<br>2 विकल्पों में उलझो तो छोड़ो, बाद में आओ"]
+    F --> F4["पहला अनुमान अक्सर सही<br>बार-बार उत्तर न बदलो"]
+
+    B1 --> G["12 स्वर्ण नियम<br>Subject-Verb Agreement, Tense,<br>Article, Preposition, Parallelism"]
+    B2 --> H["Root Words<br>spect = देखना, dict = कहना,<br>port = ले जाना, cred = विश्वास"]
+```

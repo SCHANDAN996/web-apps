@@ -1,0 +1,37 @@
+```mermaid
+graph TD
+    A["Synonyms<br>Words with Similar Meanings"] --> B["What is a Synonym?"]
+    A --> C["How to Learn"]
+    A --> D["Exam Strategy"]
+    A --> E["Examiner's Traps"]
+    A --> F["Word Roots"]
+
+    B --> B1["Same or nearly same meaning<br>happy - joyful - glad"]
+    B --> B2["Not always interchangeable<br>context matters"]
+    B --> B3["Question format:<br>Choose word closest in meaning"]
+
+    C --> C1["Learn in word families<br>big - large - huge - vast"]
+    C --> C2["Use Greek-Latin roots"]
+    C --> C3["Read words in sentences<br>not isolated lists"]
+    C --> C4["Revise after 2 days<br>then after 1 week"]
+
+    D --> D1["Fact-based recall<br>15-second rule"]
+    D --> D2["Unknown word?<br>Break into root + affix"]
+    D --> D3["Eliminate opposite<br>and unrelated options first"]
+    D --> D4["Skip if all options unknown<br>avoid negative marking"]
+
+    E --> E1["Trap 1: Near-synonym<br>slim vs skinny - connotation differs"]
+    E --> E2["Trap 2: Antonym planted<br>as a look-alike option"]
+    E --> E3["Trap 3: Sound-alike words<br>accept vs except"]
+    E --> E4["Trap 4: Over-thinking<br>first instinct often right"]
+
+    F --> F1["bene = good<br>benefit - benevolent"]
+    F --> F2["mal = bad<br>malice - malfunction"]
+    F --> F3["dict = say<br>predict - dictate"]
+    F --> F4["port = carry<br>transport - export"]
+    F --> F5["scrib = write<br>describe - script"]
+    F --> F6["spect = look<br>inspect - spectator"]
+
+    D --> G["Word Origin<br>syn = together, onyma = name<br>synonym = same name"]
+    C --> G
+```

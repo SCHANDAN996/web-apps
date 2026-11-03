@@ -1,0 +1,149 @@
+126. Two vessels contain milk and water in the ratios 5:2 and 7:6 respectively. Equal quantities are drawn from both vessels and mixed together. What is the ratio of milk to water in the new mixture?
+(a) 12:8 (b) 34:57 (c) 57:34 (d) 55:36
+Answer: (c)
+Solution: The trap is simply adding the ratios to get 12:8, which ignores that the vessels have different total parts (7 and 13). Take 91 litres (LCM of 7 and 13) from each: milk = 65 + 49 = 114, water = 26 + 42 = 68, giving 114:68 = 57:34, so the answer is 57:34.
+Source: PYQ-style
+
+127. A vessel contains 40 litres of pure milk. 4 litres are drawn out and replaced with water, and this operation is performed 4 times in total. How much milk remains in the vessel?
+(a) 24 litres (b) 28 litres (c) 26.244 litres (d) 25.6 litres
+Answer: (c)
+Solution: The tempting wrong approach is subtracting 4 × 4 = 16 litres to get 24 litres, but after each replacement the drawn liquid is a mixture, not pure milk. Milk left = 40 × (1 − 4/40)⁴ = 40 × (0.9)⁴ = 40 × 0.6561 = 26.244, so the answer is 26.244 litres.
+Source: PYQ-style
+
+128. Rice at ₹40 per kg is mixed with rice at ₹60 per kg. The mixture is sold at ₹55 per kg to earn a profit of 25%. In what ratio should the two varieties be mixed?
+(a) 1:4 (b) 3:2 (c) 2:3 (d) 4:1
+Answer: (d)
+Solution: The trap is applying alligation directly on ₹55, which ignores the profit margin. Cost price of the mixture = 55 × 100/125 = ₹44. By alligation, ratio = (60 − 44):(44 − 40) = 16:4 = 4:1, so the answer is 4:1.
+Source: PYQ-style
+
+129. A 30-litre mixture contains alcohol and water in the ratio 3:2. How much water must be added so that the ratio becomes 2:3?
+(a) 12 litres (b) 18 litres (c) 20 litres (d) 15 litres
+Answer: (d)
+Solution: The trap is changing both quantities, but only water is added, so alcohol stays fixed at 18 litres and water at 12 litres initially. Setting 18/(12 + x) = 2/3 gives 54 = 24 + 2x, so x = 15, so the answer is 15 litres.
+Source: PYQ-style
+
+130. Two alloys contain gold and copper in the ratios 7:2 and 7:11. If equal weights of both alloys are melted together, what is the ratio of gold to copper in the new alloy?
+(a) 7:5 (b) 5:7 (c) 14:13 (d) 2:1
+Answer: (a)
+Solution: The trap is adding the ratios directly to get 14:13, but the totals differ (9 and 18 parts). Take 18 units of each: gold = 14 + 7 = 21, copper = 4 + 11 = 15, giving 21:15 = 7:5, so the answer is 7:5.
+Source: PYQ-style
+
+131. A 60-litre mixture has milk and water in the ratio 2:1. How much water must be added to make the ratio 1:2?
+(a) 40 litres (b) 50 litres (c) 60 litres (d) 30 litres
+Answer: (c)
+Solution: The trap is assuming milk also changes, but only water is added. Milk = 40 litres, water = 20 litres; setting 40/(20 + x) = 1/2 gives 80 = 20 + x, so x = 60, so the answer is 60 litres.
+Source: PYQ-style
+
+132. A milkman mixes water (which costs nothing) with pure milk and sells the mixture at the cost price of pure milk, gaining 25%. What percentage of the mixture is water?
+(a) 20% (b) 25% (c) 15% (d) 33.33%
+Answer: (a)
+Solution: The trap is answering 25%, confusing profit percentage with water percentage. For every ₹100 of milk sold at ₹125 worth of mixture, water forms 25 out of 125 parts, i.e. 1/5 of the mixture, so the answer is 20%.
+Source: PYQ-style
+
+133. Three vessels of equal capacity contain milk and water in the ratios 3:2, 7:3 and 11:4 respectively. If all three are emptied into a single large vessel, what is the ratio of milk to water in it?
+(a) 29:61 (b) 61:29 (c) 21:19 (d) 3:2
+Answer: (b)
+Solution: The trap is averaging the ratios naively. Milk fractions are 3/5, 7/10 and 11/15; their sum = 18/30 + 21/30 + 22/30 = 61/30 out of a total of 3, so milk:water = 61:(90 − 61) = 61:29, so the answer is 61:29.
+Source: PYQ-style
+
+134. A vessel contains 80 litres of pure milk. 8 litres are drawn and replaced with water, and this is done once more. How much milk is left finally?
+(a) 64 litres (b) 65 litres (c) 62.4 litres (d) 64.8 litres
+Answer: (d)
+Solution: The trap is subtracting 16 litres to get 64 litres, ignoring that the second draw removes a mixture. Milk left = 80 × (72/80)² = 80 × 0.81 = 64.8, so the answer is 64.8 litres.
+Source: PYQ-style
+
+135. A grocer mixes tea costing ₹120 per kg with tea costing ₹180 per kg and sells the mixture at ₹165 per kg, earning 10% profit. In what ratio are the teas mixed?
+(a) 2:1 (b) 1:2 (c) 3:2 (d) 1:1
+Answer: (d)
+Solution: The trap is applying alligation on the selling price ₹165 instead of the cost price. Cost price of mixture = 165 × 100/110 = ₹150; ratio = (180 − 150):(150 − 120) = 30:30 = 1:1, so the answer is 1:1.
+Source: PYQ-style
+
+136. A vessel contains wine and water in the ratio 8:5. Nine litres of the mixture are drawn off and replaced with water, making the ratio 8:7. What was the capacity of the vessel?
+(a) 65 litres (b) 67.5 litres (c) 70 litres (d) 72 litres
+Answer: (b)
+Solution: The trap is treating the 9 litres drawn as pure wine. Let capacity be 13k; after removal wine = 8k − 72/13 and water = 5k − 45/13 + 9. Solving 7(8k − 72/13) = 8(5k − 45/13 + 9) gives 16k = 1080/13, so 13k = 67.5, so the answer is 67.5 litres.
+Source: PYQ-style
+
+137. From a cask containing 729 litres of pure spirit, a fixed quantity is drawn and replaced with water. After this is done three times, 512 litres of spirit remain. How much was drawn each time?
+(a) 72 litres (b) 81 litres (c) 90 litres (d) 64 litres
+Answer: (b)
+Solution: The trap is dividing the total loss 217 by 3, which ignores compounding. Using 512 = 729(1 − x/729)³, we get (1 − x/729)³ = 512/729 = (8/9)³, so 1 − x/729 = 8/9 and x = 81, so the answer is 81 litres.
+Source: PYQ-style
+
+138. Mixture A has milk and water in the ratio 5:3 and mixture B in the ratio 2:3. In what ratio should A and B be mixed to get a mixture with milk and water in equal proportions?
+(a) 5:4 (b) 1:1 (c) 4:5 (d) 3:2
+Answer: (c)
+Solution: The trap is mixing them equally, but the milk fractions differ: 5/8 and 2/5, with target 1/2. By alligation, ratio = (1/2 − 2/5):(5/8 − 1/2) = 1/10:1/8 = 4:5, so the answer is 4:5.
+Source: PYQ-style
+
+139. A dishonest milkman sells the mixture at the cost price of pure milk and makes a profit of 20%. What is the ratio of milk to water in the mixture?
+(a) 5:1 (b) 4:1 (c) 6:1 (d) 3:1
+Answer: (a)
+Solution: The trap is taking the ratio as 4:1 by misreading 20% as one-fourth. A 20% profit means 6 litres of mixture contain milk worth 5 litres' cost, so milk:water = 5:1, so the answer is 5:1.
+Source: PYQ-style
+
+140. Two alloys contain copper and zinc in the ratios 5:3 and 3:2 respectively. Equal weights of both are melted together. What is the ratio of copper to zinc in the resulting alloy?
+(a) 49:31 (b) 31:49 (c) 8:5 (d) 2:1
+Answer: (a)
+Solution: The trap is adding ratios to get 8:5, but the totals differ (8 and 5 parts). Copper fraction = (5/8 + 3/5)/2 = (25/40 + 24/40)/2 = 49/80, so copper:zinc = 49:31, so the answer is 49:31.
+Source: PYQ-style
+
+141. How much water must be added to 40 litres of a 30% milk solution to reduce it to a 20% milk solution?
+(a) 15 litres (b) 25 litres (c) 30 litres (d) 20 litres
+Answer: (d)
+Solution: The trap is scaling the whole 40 litres by the percentage change. Milk stays fixed at 12 litres; setting 12/(40 + x) = 0.20 gives 40 + x = 60, so x = 20, so the answer is 20 litres.
+Source: PYQ-style
+
+142. A 90-litre mixture contains milk and water in the ratio 7:2. Some quantity is removed and replaced with the same quantity of water, making the ratio 7:5. How much mixture was removed?
+(a) 20 litres (b) 25 litres (c) 22.5 litres (d) 27 litres
+Answer: (c)
+Solution: The trap is assuming the removed liquid is pure milk. Milk = 70, water = 20; removing x litres removes 7x/9 milk and 2x/9 water, then x water is added. Solving 5(70 − 7x/9) = 7(20 + 7x/9) gives 210 = 84x/9, so x = 22.5, so the answer is 22.5 litres.
+Source: PYQ-style
+
+143. A milkman buys milk at ₹50 per litre, adds water, and sells the mixture at ₹45 per litre, still gaining 20%. What percentage of the mixture is water?
+(a) 25% (b) 20% (c) 30% (d) 15%
+Answer: (a)
+Solution: The trap is computing profit on ₹50 directly. Effective cost price of the mixture = 45 × 100/120 = ₹37.50; by alligation, water fraction = (50 − 37.5)/50 = 0.25, so the answer is 25%.
+Source: PYQ-style
+
+144. A 20-litre container has milk and water in the ratio 3:1, and a 60-litre container has them in the ratio 2:3. If both are poured into a large vessel, what is the ratio of milk to water?
+(a) 1:1 (b) 41:39 (c) 39:41 (d) 5:4
+Answer: (c)
+Solution: The trap is averaging the ratios without weighting by volume. Milk = 15 + 24 = 39 litres, water = 5 + 36 = 41 litres, so the answer is 39:41.
+Source: PYQ-style
+
+145. A vessel has 100 litres of pure milk. First 10 litres are replaced with water, then 20 litres of the mixture are replaced with water. How much milk remains?
+(a) 72 litres (b) 70 litres (c) 74 litres (d) 68 litres
+Answer: (a)
+Solution: The trap is subtracting 30 litres to get 70 litres, ignoring that the second draw is a mixture. Milk left = 100 × (90/100) × (80/100) = 72, so the answer is 72 litres.
+Source: PYQ-style
+
+146. Mixture X contains 80% milk and mixture Y contains 60% milk. In what ratio should they be mixed to obtain a mixture containing 70% milk?
+(a) 2:1 (b) 1:2 (c) 3:2 (d) 1:1
+Answer: (d)
+Solution: The trap is assuming more of the richer mixture is needed. By alligation, ratio X:Y = (70 − 60):(80 − 70) = 10:10 = 1:1, so the answer is 1:1.
+Source: PYQ-style
+
+147. A can contains 25 litres of pure milk. Five litres are drawn and replaced with water, and this operation is repeated three times in all. How much milk remains in the can?
+(a) 10 litres (b) 12.8 litres (c) 12 litres (d) 13.5 litres
+Answer: (b)
+Solution: The trap is subtracting 15 litres to get 10 litres, but each draw after the first removes a mixture. Milk left = 25 × (20/25)³ = 25 × 0.512 = 12.8, so the answer is 12.8 litres.
+Source: PYQ-style
+
+148. Two solutions contain spirit and water in the ratios 1:2 and 2:3 respectively. They are mixed in the ratio 5:7. What is the ratio of spirit to water in the final mixture?
+(a) 113:67 (b) 67:113 (c) 3:5 (d) 7:8
+Answer: (b)
+Solution: The trap is adding the ratios without weighting by the 5:7 quantities. Spirit = 5 × (1/3) + 7 × (2/5) = 5/3 + 14/5 = 67/15 out of 12 parts, so water = 113/15, giving 67:113, so the answer is 67:113.
+Source: PYQ-style
+
+149. A milkman mixes water with milk and sells the mixture at the cost price of pure milk, earning a profit of 33⅓%. What is the ratio of milk to water in the mixture?
+(a) 2:1 (b) 3:1 (c) 4:1 (d) 5:2
+Answer: (b)
+Solution: The trap is taking the ratio as 2:1 by halving the profit figure. A profit of 33⅓% means 4 litres of mixture are sold for the cost of 4 litres of milk while only 3 litres of milk were used, so milk:water = 3:1, so the answer is 3:1.
+Source: PYQ-style
+
+150. Alloy A contains gold and silver in the ratio 5:8 and alloy B in the ratio 5:3. Equal weights of A and B are melted together. What is the ratio of gold to silver in the new alloy?
+(a) 105:103 (b) 103:105 (c) 10:11 (d) 1:1
+Answer: (a)
+Solution: The trap is adding the ratios to get 10:11, but the totals differ (13 and 8 parts). Gold fraction = (5/13 + 5/8)/2 = (40/104 + 65/104)/2 = 105/208, so gold:silver = 105:103, so the answer is 105:103.
+Source: PYQ-style

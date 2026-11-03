@@ -1,0 +1,186 @@
+# Coding-Decoding
+
+## Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Understand what coding-decoding questions actually test.
+2. Identify the 5 main types of coding patterns asked in SSC, Banking, Railway and other exams.
+3. Crack any letter-coding question in under 30 seconds using a fixed method.
+4. Spot and avoid the examiner's favourite traps.
+5. Build your own "code-breaking habit" through active recall.
+
+---
+
+## 1. The Hook: You Are Already a Code-Breaker
+
+Have you ever written "ILU" instead of "I Love You"? Or read a friend's message like "gr8" and instantly understood "great"?
+
+Congratulations — you have been doing coding-decoding your whole life. The examiner is not testing anything new. He is only testing whether you can find a **hidden rule** quickly and apply it **without panic**.
+
+That is the whole game: **Find the rule. Apply the rule. Move on.**
+
+---
+
+## 2. The Common Struggle (And Why It Happens)
+
+Most students open a coding-decoding question, stare at CAT = 3120 and think: *"Where do I even start?"*
+
+The struggle is real, and it has one root cause: **students try to guess the rule randomly instead of checking patterns in a fixed order.**
+
+Random guessing = wasted minutes.
+Fixed order = answer in seconds.
+
+This chapter gives you that fixed order.
+
+---
+
+## 3. What Is Coding-Decoding?
+
+- **Coding** = converting a word/message into another form using a rule (letters → letters, letters → numbers, words → words).
+- **Decoding** = reversing the process — reading the code and finding the original message or the rule.
+
+In exams, you are usually given one or two **examples** of coded words, and then asked to code (or decode) a **new word** using the same rule.
+
+> **Golden Line:** The rule used in the example is the rule for your answer. Your only job is to *discover* it.
+
+🧠 **Active Recall:** In your own words — what is the difference between coding and decoding? Say it aloud before reading further.
+
+---
+
+## 4. The Alphabet Numbers — Your Only Weapon
+
+Every coding question stands on one foundation: **letter positions**.
+
+A=1, B=2, C=3 … Z=26.
+
+### Mnemonic Trick: "EJOTY"
+
+Remember the positions of **E, J, O, T, Y** — they are multiples of 5:
+
+| Letter | E | J | O | T | Y |
+|---|---|---|---|---|---|
+| Position | 5 | 10 | 15 | 20 | 25 |
+
+Now any letter is just ±1, ±2 from these anchors. Want R? T is 20, so S=19, R=18. Done in 2 seconds — no counting from A.
+
+### Reverse Positions (Opposite Letters)
+
+Pairs that add to **27** are called opposite letters:
+A↔Z, B↔Y, C↔X, D↔W, E↔V, F↔U, G↔T, H↔S, I↔R, J↔Q, K↔P, L↔O, M↔N.
+
+**Mnemonic:** "AZad BoY CX DWar EVen FUll GT HS IRon JQ KP LOve MN" — or simply remember: *position + opposite position = 27.*
+
+🧠 **Active Recall:** Close the book. Write EJOTY with positions. Write the opposite of H, M, C. Check yourself. (Answers: H↔S, M↔N, C↔X.)
+
+---
+
+## 5. The Five Types of Coding (The Fixed Order)
+
+When you see a question, check these types **in this order**:
+
+### Type 1: Letter Shifting (+/− fixed number)
+
+Each letter moves forward or backward by a fixed number.
+
+**Example:** If CAT is coded as DBU, how is DOG coded?
+- C+1=D, A+1=B, T+1=U → rule is **+1**.
+- So DOG → EPH. ✅
+
+**Variation:** shifting increases: +1, +2, +3… (e.g., A→B, B→D, C→F).
+
+### Type 2: Letter-to-Number Coding
+
+Letters are replaced by their positions (or a twist on positions).
+
+**Example:** If CAT = 3-1-20, then DOG = 4-15-7.
+**Twist:** sometimes the code is the **sum** of positions: CAT = 3+1+20 = 24.
+**Another twist:** reverse positions (A=26 … Z=1).
+
+### Type 3: Opposite Letter Coding
+
+Each letter is replaced by its opposite (sum = 27).
+
+**Example:** If HIGH is coded as SRTS, check: H↔S, I↔R, G↔T, H↔S. ✅ Rule = opposite letters.
+
+### Type 4: Word Rearrangement / Jumbling
+
+Letters stay the same but change order — first↔last, or the word is written in reverse.
+
+**Example:** If TABLE is coded as ELBAT, the rule is **reverse the word**. So CHAIR → RIAHC.
+
+### Type 5: Substitution Coding (Word → Word)
+
+One word stands for another: "red is called blue, blue is called green…"
+
+**Example:** If "sky is called water", "water is called road", then where does a fish swim? In water — but water is called **road**. Answer: road.
+
+⚠️ In this type, the answer is always the **code name**, not the real thing.
+
+🧠 **Active Recall:** Name the 5 types in order without looking. Which type uses the number 27?
+
+---
+
+## 6. The 30-Second Solving Method (Step-by-Step)
+
+For every question, follow these 4 steps:
+
+**Step 1 — Write positions.** Put the alphabet number above each letter of the given word and its code.
+
+**Step 2 — Compare letter by letter.** Is it +1? −2? Opposite (sum 27)? Reversed?
+
+**Step 3 — Confirm with the second letter.** Never decide the rule from one letter alone — one letter can fit many rules by accident.
+
+**Step 4 — Apply to the new word** and match with the options.
+
+**Worked Example:** If PEN is coded as QFO, code for INK?
+- P(16)→Q(17): +1. E(5)→F(6): +1. N(14)→O(15): +1. Rule confirmed: **+1**.
+- I→J, N→O, K→L → **JOL**. ✅
+
+🧠 **Active Recall:** Why is Step 3 (confirming with a second letter) so important? Think of an example where +1 and "opposite" could look the same for one letter.
+
+---
+
+## 7. A Slightly Harder Pattern (Intermediate Level)
+
+**Increasing shift:** If MAN is coded as NDP, find the rule.
+- M(13)→N(14): +1. A(1)→D(4): +3? That looks odd — recheck. A→D is +3, but wait: the examiner often uses **+1, +2, +3**. Check again: M→N = +1, A→C would be +2, but the code has D. So compute each letter separately: M→N = +1, A→D = +3, N→P = +2. No clean pattern — which means we should suspect a different rule, such as reverse positions or rearrangement, before forcing a shift rule.
+
+The lesson: **always compute each letter separately and look for a clean pattern.** If the pattern looks messy, either you mis-added (recheck positions first) or the rule belongs to another type.
+
+**Clean example of increasing shift:** If CAT is coded as DCW — C+1=D, A+2=C? No: A+2=C, but the code's second letter is C only if… compute carefully: C(3)+1=D(4), A(1)+2=C(3), T(20)+3=W(23). So DCW fits **+1, +2, +3** perfectly. ✅
+
+**Number-sum twist:** If GO = 22 (G=7, O=15; 7+15=22), then DO = 4+15 = **19**.
+
+---
+
+## 8. Summary Table
+
+| Type | Rule | Quick Signal |
+|---|---|---|
+| Letter shifting | +n or −n for every letter | Code letters are "neighbours" of original |
+| Letter-to-number | Position value / sum of positions | Code is made of numbers |
+| Opposite letters | Position + code position = 27 | A↔Z, M↔N type pairs |
+| Rearrangement | Reverse or swap letters | Same letters, different order |
+| Substitution | One word "called" another | "is called / means" in the question |
+
+**Solving mantra:** Positions → Compare → Confirm → Apply.
+
+---
+
+## ⚠️ Caution: Examiner's Trap
+
+**Trap 1 — More than one possible rule in the options.**
+A word coded as +1 might *also* look like a reverse-position code for one letter. The examiner designs options so that a half-checked rule gives a wrong-but-tempting answer. **Defence:** always confirm the rule on at least two letters before touching the options.
+
+**Trap 2 — Difficult/unusual words to scare you.**
+Words like "ZEPHYR" or "OBTUSE" are used to create panic — but the rule is still just +1 or opposite letters. **Defence:** ignore the meaning of the word completely. It is only a packet of letters.
+
+**Trap 3 — Double-relationship questions.**
+In substitution chains ("A is called B, B is called C"), students answer B when the correct answer is C, because they stop one step early. **Defence:** read the question twice — *what is actually being asked*, and follow the chain to the **last** step.
+
+---
+
+## 📌 Review Reminder
+
+**Review this chapter after 2 days.** Redo the worked examples with a pen, recite EJOTY and the opposite-letter pairs from memory, and test yourself on the 5 types in order. Ten minutes of recall now will save you ten marks later.

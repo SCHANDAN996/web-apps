@@ -1,0 +1,43 @@
+```mermaid
+graph TD
+    A["सर्वनाम (Pronoun)"] --> B["परिभाषा<br>संज्ञा के स्थान पर प्रयुक्त शब्द"]
+    A --> C["प्रकार"]
+    A --> D["12 स्वर्ण नियम"]
+    A --> E["परीक्षक के जाल"]
+    A --> F["रणनीति"]
+
+    C --> C1["Personal<br>I, We, You, He, She, It, They"]
+    C --> C2["Possessive<br>Mine, Ours, Yours, His, Hers, Theirs"]
+    C --> C3["Reflexive<br>Myself, Yourself, Himself, Themselves"]
+    C --> C4["Relative<br>Who, Whom, Which, That, Whose"]
+    C --> C5["Demonstrative<br>This, That, These, Those"]
+    C --> C6["Indefinite<br>Each, Everyone, Somebody, None"]
+    C --> C7["Reciprocal<br>Each other (2), One another (2+)"]
+    C --> C8["Interrogative<br>Who, Whom, Whose, Which, What"]
+
+    D --> D1["नियम 1: क्रम 231<br>You, He, I (अच्छे काम में)<br>क्रम 123: I, You, He (बुरे काम में)"]
+    D --> D2["नियम 2: Each/Every/Everyone<br>+ एकवचन क्रिया"]
+    D --> D3["नियम 3: One → One's/Oneself<br>One should do one's duty"]
+    D --> D4["नियम 4: Who (कर्ता) vs Whom (कर्म)<br>Who came? / Whom did you call?"]
+    D --> D5["नियम 5: Enjoy/Avail/Adapt<br>+ Reflexive Pronoun"]
+    D --> D6["नियम 6: Between you and me<br>(Preposition के बाद Objective case)"]
+    D --> D7["नियम 7: It is I / It was he<br>(To be के बाद Subjective case)"]
+    D --> D8["नियम 8: Each other (दो)<br>One another (दो से अधिक)"]
+    D --> D9["नियम 9: Possessive के साथ<br>Apostrophe नहीं (it's ≠ its)"]
+    D --> D10["नियम 10: Relative That<br>Superlative/Only के बाद"]
+    D --> D11["नियम 11: Same के साथ That/As<br>Which नहीं"]
+    D --> D12["नियम 12: None of + बहुवचन<br>लेकिन ध्यान: None = Not one"]
+
+    E --> E1["जाल 1: Intervening Phrase<br>Each of the boys ___ (is, not are)"]
+    E --> E2["जाल 2: Sound-Right<br>Between you and I ❌ → me ✅"]
+    E --> E3["जाल 3: Over-thinking<br>सरल प्रश्न में जटिल उत्तर न खोजें"]
+
+    F --> F1["15 सेकंड: तथ्यात्मक<br>Case/Number पहचानो"]
+    F --> F2["45 सेकंड: तार्किक<br>वाक्य संरचना विश्लेषण"]
+    F --> F3["Skip Strategy<br>दोनों विकल्प सही लगें तो छोड़ो"]
+
+    C1 -.-> D1
+    C6 -.-> D2
+    C4 -.-> D4
+    C3 -.-> D5
+```

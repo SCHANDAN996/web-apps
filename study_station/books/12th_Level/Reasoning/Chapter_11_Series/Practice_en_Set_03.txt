@@ -1,0 +1,149 @@
+51. Find the missing term: 7, 12, 19, 28, 39, ?
+(a) 48 (b) 50 (c) 54 (d) 52
+Answer: (d)
+Solution: The differences are 5, 7, 9, 11 — consecutive odd numbers, so the next difference is 13, not 11 again (the tempting trap of repeating the last gap). Adding 13 to 39 gives 52, so the answer is 52.
+Source: PYQ-style
+
+52. Find the missing term: 3, 6, 18, 72, 360, ?
+(a) 1440 (b) 1800 (c) 2160 (d) 2520
+Answer: (c)
+Solution: The multipliers are ×2, ×3, ×4, ×5, so the next multiplier is ×6. A common trap is to square the last multiplier or use ×5 again, giving 1800. Multiplying 360 by 6 gives 2160, so the answer is 2160.
+Source: PYQ-style
+
+53. Find the missing term: 2, 5, 10, 17, 26, ?
+(a) 35 (b) 36 (c) 38 (d) 37
+Answer: (d)
+Solution: Each term is n² + 1 (1+1, 4+1, 9+1, 16+1, 25+1). The trap is to see differences 3, 5, 7, 9 and stop, forgetting the next odd difference is 11. Adding 11 to 26 gives 37, so the answer is 37.
+Source: NCERT Class 8 Mathematics (pattern recognition)
+
+54. Find the missing term: 11, 13, 17, 19, 23, 29, ?
+(a) 33 (b) 31 (c) 35 (d) 37
+Answer: (b)
+Solution: These are consecutive prime numbers starting from 11. The trap is to add 4 (the last gap) and get 33, but 33 is not prime. The next prime after 29 is 31, so the answer is 31.
+Source: PYQ-style
+
+55. Find the missing term: 4, 9, 25, 49, 121, ?
+(a) 144 (b) 169 (c) 196 (d) 225
+Answer: (b)
+Solution: These are squares of consecutive primes: 2², 3², 5², 7², 11². The trap is to take the next odd number's square, 13 is prime but 144 = 12² misleads those who continue odd numbers. The next prime is 13 and 13² = 169, so the answer is 169.
+Source: PYQ-style
+
+56. Find the missing term: 1, 4, 9, 16, 25, 36, ?
+(a) 42 (b) 45 (c) 50 (d) 49
+Answer: (d)
+Solution: These are perfect squares 1² to 6². The trap is to add the last difference 11 to get 47-like guesses or to add 14. The next square is 7² = 49, so the answer is 49.
+Source: NCERT Class 8 Mathematics
+
+57. Find the missing term: 5, 11, 23, 47, 95, ?
+(a) 189 (b) 190 (c) 191 (d) 192
+Answer: (c)
+Solution: Each term is double the previous plus 1: 5×2+1 = 11, 11×2+1 = 23, and so on. The trap is to simply double 95 and get 190, forgetting the +1. Doubling 95 and adding 1 gives 191, so the answer is 191.
+Source: PYQ-style
+
+58. Find the missing term: 8, 15, 28, 53, 102, ?
+(a) 195 (b) 199 (c) 197 (d) 201
+Answer: (b)
+Solution: The pattern is ×2 − 1: 8×2−1 = 15, 15×2−2 = 28 is wrong; instead check differences 7, 13, 25, 49 — each difference is double the previous minus 1, so next difference is 49×2−1 = 97. The trap is doubling 102 to get near 201. Adding 97 to 102 gives 199, so the answer is 199.
+Source: PYQ-style
+
+59. Find the missing term: 2, 3, 5, 7, 11, 13, 17, ?
+(a) 18 (b) 20 (c) 19 (d) 21
+Answer: (c)
+Solution: These are consecutive prime numbers. The trap is to add 4 (the last gap) and get 21, but 21 = 3×7 is not prime. The next prime after 17 is 19, so the answer is 19.
+Source: NCERT Class 6 Mathematics
+
+60. Find the missing term: 1, 1, 2, 3, 5, 8, 13, ?
+(a) 18 (b) 19 (c) 21 (d) 20
+Answer: (c)
+Solution: This is the Fibonacci series where each term is the sum of the previous two. The trap is to add the last difference 5 to 13 and get 18. Adding 8 and 13 gives 21, so the answer is 21.
+Source: PYQ-style
+
+61. Find the missing term: 6, 11, 21, 36, 56, ?
+(a) 81 (b) 80 (c) 78 (d) 83
+Answer: (a)
+Solution: The differences are 5, 10, 15, 20 — multiples of 5, so the next difference is 25. The trap is to add 20 again and get 76, which is not even listed, pushing students toward 78. Adding 25 to 56 gives 81, so the answer is 81.
+Source: PYQ-style
+
+62. Find the missing term: 3, 7, 16, 35, 74, ?
+(a) 148 (b) 153 (c) 152 (d) 155
+Answer: (b)
+Solution: The pattern is ×2 + 1, ×2 + 2, ×2 + 3, ×2 + 4, so next is ×2 + 5. The trap is to use ×2 + 4 again, giving 152. Multiplying 74 by 2 and adding 5 gives 153, so the answer is 153.
+Source: PYQ-style
+
+63. Find the missing term: 10, 22, 46, 94, 190, ?
+(a) 382 (b) 380 (c) 384 (d) 386
+Answer: (a)
+Solution: Each term is double the previous plus 2: 10×2+2 = 22, 22×2+2 = 46, and so on. The trap is to double 190 and stop at 380. Doubling 190 and adding 2 gives 382, so the answer is 382.
+Source: PYQ-style
+
+64. Find the missing term: 2, 6, 12, 20, 30, 42, ?
+(a) 52 (b) 54 (c) 56 (d) 58
+Answer: (c)
+Solution: Each term is n² + n (2, 6, 12, 20, 30, 42), with differences 4, 6, 8, 10, 12, so the next difference is 14. The trap is adding 12 again to get 54. Adding 14 to 42 gives 56, so the answer is 56.
+Source: NCERT Class 8 Mathematics (pattern recognition)
+
+65. Find the missing term: 1, 8, 27, 64, 125, ?
+(a) 196 (b) 256 (c) 225 (d) 216
+Answer: (d)
+Solution: These are perfect cubes 1³ to 5³. The trap is to confuse cubes with squares and pick 196 (14²) or 225 (15²). The next cube is 6³ = 216, so the answer is 216.
+Source: NCERT Class 8 Mathematics
+
+66. Find the missing term: 4, 6, 10, 18, 34, ?
+(a) 66 (b) 64 (c) 62 (d) 68
+Answer: (a)
+Solution: The differences are 2, 4, 8, 16 — doubling each time, so the next difference is 32. The trap is to double 34 and get 68, treating it as a doubling series. Adding 32 to 34 gives 66, so the answer is 66.
+Source: PYQ-style
+
+67. Find the missing term: 9, 27, 31, 93, 97, 291, ?
+(a) 295 (b) 297 (c) 582 (d) 873
+Answer: (a)
+Solution: The pattern alternates ×3, +4: 9×3 = 27, 27+4 = 31, 31×3 = 93, 93+4 = 97, 97×3 = 291. The trap is to multiply by 3 again and get 873. The next step is +4, giving 295, so the answer is 295.
+Source: PYQ-style
+
+68. Find the missing term: 13, 17, 23, 29, 31, 37, ?
+(a) 39 (b) 47 (c) 43 (d) 41
+Answer: (d)
+Solution: These are prime numbers in order from 13 onward (13, 17, 19 is skipped — actually the list is primes: 13, 17, 19… no, the given terms are 13, 17, 23, 29, 31, 37, which are primes with 19 omitted in the question's listing but all terms are prime). The trap is to add 6 (the last gap) and get 43 without checking, but the next prime after 37 is 41. So the answer is 41.
+Source: PYQ-style
+
+69. Find the missing term: 5, 9, 17, 29, 45, ?
+(a) 60 (b) 68 (c) 65 (d) 70
+Answer: (c)
+Solution: The differences are 4, 8, 12, 16 — multiples of 4, so the next difference is 20. The trap is to add 16 again and get 61, then pick the nearest option 60. Adding 20 to 45 gives 65, so the answer is 65.
+Source: PYQ-style
+
+70. Find the missing term: 3, 10, 29, 66, 127, ?
+(a) 216 (b) 218 (c) 220 (d) 224
+Answer: (b)
+Solution: Each term is n³ + 2: 1³+2 = 3, 2³+2 = 10, 3³+2 = 29, 4³+2 = 66, 5³+2 = 127. The trap is to take 6³ = 216 and forget the +2. Adding 2 to 216 gives 218, so the answer is 218.
+Source: PYQ-style
+
+71. Find the missing term: 2, 8, 18, 32, 50, ?
+(a) 72 (b) 70 (c) 68 (d) 76
+Answer: (a)
+Solution: Each term is 2n²: 2, 8, 18, 32, 50, with differences 6, 10, 14, 18, so the next difference is 22. The trap is to add 20 (a round guess) and get 70. Adding 22 to 50 gives 72, so the answer is 72.
+Source: PYQ-style
+
+72. Find the missing term: 7, 26, 63, 124, 215, ?
+(a) 342 (b) 340 (c) 344 (d) 346
+Answer: (a)
+Solution: Each term is n³ − 1: 2³−1 = 7, 3³−1 = 26, 4³−1 = 63, 5³−1 = 124, 6³−1 = 215. The trap is to compute 7³ = 343 and pick 344 by adding 1 instead of subtracting. Subtracting 1 from 343 gives 342, so the answer is 342.
+Source: PYQ-style
+
+73. Find the missing term: 11, 24, 50, 102, 206, ?
+(a) 410 (b) 414 (c) 412 (d) 416
+Answer: (b)
+Solution: The pattern is ×2 + 2: 11×2+2 = 24, 24×2+2 = 50, 50×2+2 = 102, 102×2+2 = 206. The trap is to double 206 and stop at 412. Doubling 206 and adding 2 gives 414, so the answer is 414.
+Source: PYQ-style
+
+74. Find the missing term: 1, 2, 6, 15, 31, ?
+(a) 54 (b) 60 (c) 58 (d) 56
+Answer: (d)
+Solution: The differences are 1, 4, 9, 16 — perfect squares, so the next difference is 25. The trap is to treat the differences as doubling (1, 4, 9, 16 look like ×4 at first) and pick a wrong value. Adding 25 to 31 gives 56, so the answer is 56.
+Source: PYQ-style
+
+75. Find the missing term: 17, 19, 23, 29, 31, 37, 41, ?
+(a) 43 (b) 42 (c) 45 (d) 47
+Answer: (a)
+Solution: These are consecutive prime numbers starting from 17. The trap is to add 4 (the last gap) and get 45, but 45 is divisible by 3 and 5, so it is not prime. The next prime after 41 is 43, so the answer is 43.
+Source: PYQ-style

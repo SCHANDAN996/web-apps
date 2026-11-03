@@ -1,0 +1,151 @@
+प्रश्न 26–45: आसान | प्रश्न 46–50: मध्यम
+
+26. A linear programming problem has the objective function Z = 3x + 4y. If the feasible region is bounded with corner points (0, 0), (4, 0), (2, 3) and (0, 5), the maximum value of Z is:
+(a) 12 (b) 18 (c) 24 (d) 20
+Answer: (d)
+Solution: The trap is stopping at (2, 3), where Z = 6 + 12 = 18 looks like the biggest balanced value. Evaluating all corners: (0, 0) gives 0, (4, 0) gives 12, (2, 3) gives 18, and (0, 5) gives 4 × 5 = 20, so the answer is 20.
+Source: NCERT Class 12 Mathematics, Chapter 12 (Linear Programming)
+
+27. In an LPP, the feasible region is the set of points satisfying:
+(a) Only the non-negativity restrictions (b) All the constraints including non-negativity restrictions (c) Only the objective function (d) Only the structural constraints
+Answer: (b)
+Solution: The trap is picking the option mentioning only structural constraints, forgetting that x ≥ 0 and y ≥ 0 are also constraints. The feasible region must satisfy every constraint together with the non-negativity restrictions, so the answer is all the constraints including non-negativity restrictions.
+Source: NCERT Class 12 Mathematics, Chapter 12 (Linear Programming)
+
+28. The corner points of a feasible region are A(0, 10), B(5, 5), C(15, 15) and D(0, 20). For Z = 3x − 4y + 24, the minimum value of Z is:
+(a) −46 (b) −56 (c) 4 (d) 24
+Answer: (b)
+Solution: The trap is choosing the value at A, namely 0 − 40 + 24 = −16, as the smallest by stopping early. Computing all: B gives 15 − 20 + 24 = 19, C gives 45 − 60 + 24 = 9, and D gives 0 − 80 + 24 = −56, so the answer is −56.
+Source: NCERT Class 12 Mathematics, Chapter 12 (Linear Programming)
+
+29. If the feasible region of an LPP is unbounded and the objective is to maximise Z = ax + by, then a finite maximum exists only if:
+(a) The open half-plane ax + by > M has no point in common with the feasible region, where M is the largest corner value (b) The region contains the origin (c) All constraints are equalities (d) The objective coefficients are negative
+Answer: (a)
+Solution: The trap is assuming an unbounded region always means no maximum, which is false. The standard test: find the largest corner value M, then check whether the half-plane ax + by > M shares any point with the feasible region; if it does not, M is the maximum, so the answer is the half-plane condition.
+Source: NCERT Class 12 Mathematics, Chapter 12 (Linear Programming)
+
+30. A firm makes tables and chairs. A table needs 2 hours of carpentry and 1 hour of polishing; a chair needs 1 hour of carpentry and 1 hour of polishing. At most 100 carpentry hours and 80 polishing hours are available. If x = tables and y = chairs, the correct constraint set is:
+(a) 2x + y ≤ 80, x + y ≤ 100, x ≥ 0, y ≥ 0 (b) 2x + y ≤ 100, x + y ≤ 80, x ≥ 0, y ≥ 0 (c) 2x + y ≥ 100, x + y ≥ 80 (d) x + 2y ≤ 100, x + y ≤ 80, x ≥ 0, y ≥ 0
+Answer: (b)
+Solution: The trap is swapping the resource limits: carpentry (2x + y) must be capped at 100, not 80. Carpentry hours used give 2x + y ≤ 100 and polishing hours give x + y ≤ 80, with non-negativity, so the answer is 2x + y ≤ 100, x + y ≤ 80, x ≥ 0, y ≥ 0.
+Source: NCERT Class 12 Mathematics, Chapter 12 (Linear Programming)
+
+31. The feasible region determined by x + y ≤ 4, x ≥ 0, y ≥ 0 is:
+(a) Unbounded (b) A square (c) A triangle with vertices (0,0), (4,0), (0,4) (d) Empty
+Answer: (c)
+Solution: The trap is calling the region unbounded because only one inequality is given; the non-negativity restrictions close it. The line x + y = 4 meets the axes at (4, 0) and (0, 4), and with the axes the region is a triangle, so the answer is a triangle with vertices (0,0), (4,0), (0,4).
+Source: NCERT Class 12 Mathematics, Chapter 12 (Linear Programming)
+
+32. For the constraints x + 2y ≥ 10, 3x + y ≥ 15, x ≥ 0, y ≥ 0, the minimum of Z = 2x + 3y occurs at:
+(a) (0, 15) (b) (4, 3) (c) (10, 0) (d) (0, 5)
+Answer: (b)
+Solution: The trap is (10, 0) with Z = 20, which looks small but is not the least. The corner points are (10, 0), (0, 15) and the intersection of the two lines, x = 4, y = 3; Z values are 20, 45 and 8 + 9 = 17, so the answer is (4, 3).
+Source: NCERT Class 12 Mathematics, Chapter 12 (Linear Programming)
+
+33. Which of the following is NOT a requirement of a linear programming problem?
+(a) Non-negative decision variables (b) Linear constraints (c) A quadratic objective function (d) A linear objective function
+Answer: (c)
+Solution: The trap is thinking any optimisation qualifies as LP. Linearity of both the objective and the constraints, plus non-negativity, defines LP; a quadratic objective makes it non-linear programming, so the answer is a quadratic objective function.
+Source: NCERT Class 12 Mathematics, Chapter 12 (Linear Programming)
+
+34. The maximum of Z = 5x + 3y subject to 3x + 5y ≤ 15, 5x + 2y ≤ 10, x ≥ 0, y ≥ 0 is:
+(a) 235/19 (b) 12 (c) 15 (d) 10
+Answer: (a)
+Solution: The trap is picking an axis-intercept value like 10 at (2, 0) or 9 at (0, 3). Solving 3x + 5y = 15 and 5x + 2y = 10 gives x = 20/19, y = 45/19, and Z = (100 + 135)/19 = 235/19 ≈ 12.37, which exceeds all intercept values, so the answer is 235/19.
+Source: NCERT Class 12 Mathematics, Chapter 12 (Linear Programming)
+
+35. In a diet problem, food F1 costs ₹50/kg and gives 4 units of protein; food F2 costs ₹80/kg and gives 6 units. At least 24 units of protein are needed. If x, y are kg of F1, F2, the problem is:
+(a) Maximise Z = 4x + 6y subject to 50x + 80y ≤ 24 (b) Maximise Z = 50x + 80y subject to 4x + 6y ≤ 24 (c) Minimise Z = 4x + 6y subject to 50x + 80y ≥ 24 (d) Minimise Z = 50x + 80y subject to 4x + 6y ≥ 24, x, y ≥ 0
+Answer: (d)
+Solution: The trap is reversing objective and constraint — cost is what we minimise, protein is the requirement. Cost Z = 50x + 80y is minimised subject to the protein requirement 4x + 6y ≥ 24 with x, y ≥ 0, so the answer is minimise Z = 50x + 80y subject to 4x + 6y ≥ 24, x, y ≥ 0.
+Source: NCERT Class 12 Mathematics, Chapter 12 (Linear Programming)
+
+36. The region common to x ≥ 0, y ≥ 0, x + y ≥ 1 is:
+(a) Unbounded (b) A single point (c) Empty (d) Bounded
+Answer: (a)
+Solution: The trap is assuming "≥" constraints with non-negativity give a bounded triangle — that happens with "≤". Here the region lies above the line x + y = 1 in the first quadrant and extends infinitely, so the answer is unbounded.
+Source: NCERT Class 12 Mathematics, Chapter 12 (Linear Programming)
+
+37. If an LPP has two optimal corner points, then:
+(a) Every point on the segment joining them is also optimal (b) The feasible region is empty (c) The problem has no solution (d) The objective function is constant everywhere
+Answer: (a)
+Solution: The trap is concluding the problem is defective. When two adjacent corners give the same optimal value, the objective line is parallel to the joining edge, so every point of that segment is optimal — infinitely many solutions. The answer is every point on the segment joining them is also optimal.
+Source: NCERT Class 12 Mathematics, Chapter 12 (Linear Programming)
+
+38. A manufacturer produces items A and B with profits ₹40 and ₹50 per unit. Machine time available is 1200 minutes; A needs 4 minutes, B needs 5 minutes. Market limits: A ≤ 200, B ≤ 250. The objective function is:
+(a) Z = 4x + 5y (b) Z = 200x + 250y (c) Z = 1200(x + y) (d) Z = 40x + 50y
+Answer: (d)
+Solution: The trap is using machine times 4 and 5 as objective coefficients — those belong to the time constraint. Profit per unit is what is maximised, so the answer is Z = 40x + 50y.
+Source: NCERT Class 12 Mathematics, Chapter 12 (Linear Programming)
+
+39. The corner point theorem states that for a bounded feasible region, the optimal value of the objective function:
+(a) Occurs at a corner point of the feasible region (b) Cannot be determined (c) Occurs at the midpoint of an edge (d) Always occurs at the origin
+Answer: (a)
+Solution: The trap is assuming the origin is always optimal because it is easy to test. The fundamental theorem of LP says an optimal value over a bounded feasible region is attained at a vertex, so the answer is that it occurs at a corner point of the feasible region.
+Source: NCERT Class 12 Mathematics, Chapter 12 (Linear Programming)
+
+40. Minimise Z = x + 2y subject to 2x + y ≥ 3, x + 2y ≥ 6, x ≥ 0, y ≥ 0. The minimum value is:
+(a) 4 (b) 3 (c) 6 (d) 0
+Answer: (c)
+Solution: The trap is testing the origin, which is infeasible since it violates both "≥" constraints. The feasible corner points are (6, 0) and (0, 3): at (6, 0), Z = 6; at (0, 3), Z = 6, so the answer is 6.
+Source: NCERT Class 12 Mathematics, Chapter 12 (Linear Programming)
+
+41. In the graphical method, the line ax + by = c drawn for the objective function Z = ax + by is called:
+(a) The feasible line (b) The constraint line (c) An iso-profit or iso-cost line (d) The boundary line
+Answer: (c)
+Solution: The trap is calling it a constraint line because it looks similar. Lines of constant Z are called iso-profit (maximisation) or iso-cost (minimisation) lines, and moving them parallel locates the optimum, so the answer is an iso-profit or iso-cost line.
+Source: NCERT Class 12 Mathematics, Chapter 12 (Linear Programming)
+
+42. A feasible region has corner points (0, 0), (0, 2), (4, 0) and (3, 2). For Z = 4x + y, the maximum value is:
+(a) 10 (b) 8 (c) 14 (d) 16
+Answer: (d)
+Solution: The trap is (3, 2) giving 12 + 2 = 14, which tempts because both coordinates are positive there. Evaluating all corners: (0, 0) gives 0, (0, 2) gives 2, (4, 0) gives 16, (3, 2) gives 14, so the answer is 16.
+Source: NCERT Class 12 Mathematics, Chapter 12 (Linear Programming)
+
+43. Which condition makes an LPP infeasible?
+(a) Constraints that contradict each other so no point satisfies all (b) Unbounded feasible region (c) More than two variables (d) A minimisation objective
+Answer: (a)
+Solution: The trap is confusing "unbounded" with "infeasible" — an unbounded region still contains feasible points. Infeasibility means the constraint set is empty, as with x + y ≤ 2 together with x + y ≥ 5, so the answer is constraints that contradict each other so no point satisfies all.
+Source: NCERT Class 12 Mathematics, Chapter 12 (Linear Programming)
+
+44. Maximise Z = 11x + 7y subject to 2x + y ≤ 6, x ≤ 2, x ≥ 0, y ≥ 0. The optimal solution is:
+(a) (2, 2) with Z = 36 (b) (3, 0) with Z = 33 (c) (0, 6) with Z = 42 (d) (2, 0) with Z = 22
+Answer: (c)
+Solution: The trap is (2, 2) with Z = 36, since it uses both constraints fully. Checking all corners: (0, 0) gives 0, (2, 0) gives 22, (2, 2) gives 36, and (0, 6) is feasible since 2(0) + 6 = 6 ≤ 6 and 0 ≤ 2, giving Z = 42, so the answer is (0, 6) with Z = 42.
+Source: NCERT Class 12 Mathematics, Chapter 12 (Linear Programming)
+
+45. The constraints x + y ≤ 8, x + y ≥ 12, x ≥ 0, y ≥ 0 define a feasible region that is:
+(a) A triangle (b) Empty (c) Unbounded (d) A parallelogram
+Answer: (b)
+Solution: The trap is sketching both lines and imagining a strip between them. No point can simultaneously have x + y at most 8 and at least 12, so the problem is infeasible and the answer is empty.
+Source: NCERT Class 12 Mathematics, Chapter 12 (Linear Programming)
+
+46. In a transportation-type LPP, a dealer has 6000 kg of grain at warehouse A and 4000 kg at B. Outlet P needs 5000 kg and Q needs 5000 kg. If x kg goes from A to P and y kg from A to Q, the amount from B to P is:
+(a) 5000 − y (b) 6000 − x (c) 5000 − x (d) x + y − 6000
+Answer: (c)
+Solution: The trap is using A's stock 6000 instead of P's demand. Outlet P needs exactly 5000 kg, of which x comes from A, so the rest must come from B, and the answer is 5000 − x.
+Source: NCERT Class 12 Mathematics, Chapter 12 (Linear Programming)
+
+47. For Z = 3x + 9y with feasible corner points (0, 0), (5, 0), (3, 4), (0, 5), the maximum value and the number of optimal solutions are:
+(a) 45, exactly one (b) 45, infinitely many (c) 51, exactly one (d) 15, infinitely many
+Answer: (b)
+Solution: The trap is reporting a single optimum at (0, 5). Z values are 0, 15, 9 + 36 = 45 and 45; since two corners (3, 4) and (0, 5) both give 45, every point on the segment joining them is optimal, so the answer is 45, infinitely many.
+Source: NCERT Class 12 Mathematics, Chapter 12 (Linear Programming)
+
+48. A toy company makes type A and type B toys. Each A needs 5 minutes of cutting and 10 minutes of assembly; each B needs 8 minutes of cutting and 8 minutes of assembly. Cutting allows 3 hours 20 minutes and assembly 4 hours daily. The constraints (x = number of A, y = number of B) are:
+(a) 5x + 8y ≤ 200, 10x + 8y ≤ 240, x, y ≥ 0 (b) 5x + 8y ≤ 240, 10x + 8y ≤ 200, x, y ≥ 0 (c) 5x + 10y ≤ 200, 8x + 8y ≤ 240, x, y ≥ 0 (d) 10x + 5y ≤ 200, 8x + 8y ≤ 240, x, y ≥ 0
+Answer: (a)
+Solution: The trap is swapping the time limits: 3 hours 20 minutes = 200 minutes is the cutting limit and 4 hours = 240 minutes is assembly. Cutting gives 5x + 8y ≤ 200 and assembly gives 10x + 8y ≤ 240, so the answer is 5x + 8y ≤ 200, 10x + 8y ≤ 240, x, y ≥ 0.
+Source: NCERT Class 12 Mathematics, Chapter 12 (Linear Programming)
+
+49. The half-plane represented by 2x + 3y > 6 (strict inequality) is shown graphically by:
+(a) A solid line with shading above it (b) Only the line itself (c) A dashed line with shading containing the origin (d) A dashed line with shading on the side not containing the origin
+Answer: (d)
+Solution: The trap is drawing a solid line out of habit. A strict inequality excludes the boundary, so the line is dashed; testing the origin, 0 > 6 is false, so shade the side away from the origin, and the answer is a dashed line with shading on the side not containing the origin.
+Source: NCERT Class 12 Mathematics, Chapter 12 (Linear Programming)
+
+50. A bounded feasible region has corner points (0, 0), (3, 0), (2, 2) and (0, 4). For the objective function Z = 2x + 5y, the maximum value of Z is:
+(a) 18 (b) 14 (c) 6 (d) 20
+Answer: (d)
+Solution: The trap is (2, 2) giving 4 + 10 = 14, which tempts because it is the "interior-looking" corner. Evaluating all corners: (0, 0) gives 0, (3, 0) gives 6, (2, 2) gives 14, and (0, 4) gives 20, so the answer is 20.
+Source: NCERT Class 12 Mathematics, Chapter 12 (Linear Programming)

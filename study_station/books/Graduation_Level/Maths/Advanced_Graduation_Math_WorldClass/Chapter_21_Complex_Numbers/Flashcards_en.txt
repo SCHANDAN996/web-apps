@@ -1,0 +1,79 @@
+Card 1
+Front: What is a complex number, and what is its standard form?
+Back: A number of the form z = a + ib, where a, b are real numbers and i = √−1. Here a = Re(z) (real part) and b = Im(z) (imaginary part).
+
+Card 2
+Front: What are the values of i², i³, i⁴ and i⁴ⁿ?
+Back: i² = −1, i³ = −i, i⁴ = 1, and i⁴ⁿ = 1 for any integer n. Powers of i repeat in a cycle of 4.
+
+Card 3
+Front: What is the conjugate of z = a + ib, and what is z·z̄?
+Back: The conjugate is z̄ = a − ib. Their product is z·z̄ = a² + b² = |z|², always a non-negative real number.
+
+Card 4
+Front: What is the modulus of z = a + ib?
+Back: |z| = √(a² + b²). It is the distance of the point (a, b) from the origin in the Argand plane.
+
+Card 5
+Front: How do you add and subtract complex numbers?
+Back: Add/subtract real and imaginary parts separately: (a + ib) ± (c + id) = (a ± c) + i(b ± d).
+
+Card 6
+Front: How do you multiply (a + ib)(c + id)?
+Back: (a + ib)(c + id) = (ac − bd) + i(ad + bc). Use i² = −1 while expanding.
+
+Card 7
+Front: How do you divide one complex number by another?
+Back: Multiply numerator and denominator by the conjugate of the denominator: (a + ib)/(c + id) = [(a + ib)(c − id)] / (c² + d²).
+
+Card 8
+Front: When are two complex numbers equal?
+Back: z₁ = a + ib and z₂ = c + id are equal if and only if a = c and b = d (real parts equal AND imaginary parts equal).
+
+Card 9
+Front: What is a purely real and a purely imaginary complex number?
+Back: z is purely real if Im(z) = 0 (z = a); z is purely imaginary if Re(z) = 0 and Im(z) ≠ 0 (z = ib, b ≠ 0).
+
+Card 10
+Front: What is the Argand plane?
+Back: A plane where the complex number z = a + ib is represented by the point (a, b): x-axis = real axis, y-axis = imaginary axis.
+
+Card 11
+Front: What is the argument (amplitude) of z = a + ib?
+Back: The angle θ that the line joining the origin to (a, b) makes with the positive real axis, where tan θ = b/a. Principal argument lies in (−π, π].
+
+Card 12
+Front: What is the polar form of a complex number?
+Back: z = r(cos θ + i sin θ), where r = |z| and θ = arg(z). Also written as r cis θ.
+
+Card 13
+Front: State Euler's formula.
+Back: e^(iθ) = cos θ + i sin θ. Hence z = re^(iθ) is the exponential form of a complex number.
+
+Card 14
+Front: State De Moivre's theorem.
+Back: (cos θ + i sin θ)ⁿ = cos nθ + i sin nθ, for any integer n. Used to find powers and roots of complex numbers.
+
+Card 15
+Front: What is the multiplicative inverse of z = a + ib (z ≠ 0)?
+Back: z⁻¹ = z̄/|z|² = (a − ib)/(a² + b²).
+
+Card 16
+Front: What is the triangle inequality for complex numbers?
+Back: |z₁ + z₂| ≤ |z₁| + |z₂|. Also useful: |z₁ − z₂| ≥ ||z₁| − |z₂||.
+
+Card 17
+Front: What does |z₁ − z₂| represent geometrically?
+Back: The distance between the points representing z₁ and z₂ in the Argand plane.
+
+Card 18
+Front: What are the properties of conjugates? (z̄ rules)
+Back: (z₁ + z₂)̄ = z̄₁ + z̄₂; (z₁z₂)̄ = z̄₁z̄₂; (z̄)̄ = z; z + z̄ = 2Re(z); z − z̄ = 2i·Im(z).
+
+Card 19
+Front: What are the cube roots of unity and their key properties?
+Back: 1, ω, ω² where ω = (−1 + i√3)/2. Properties: ω³ = 1 and 1 + ω + ω² = 0.
+
+Card 20
+Front: How many nth roots does a non-zero complex number have?
+Back: Exactly n distinct nth roots, given by De Moivre's theorem: r^(1/n)[cos((θ + 2kπ)/n) + i sin((θ + 2kπ)/n)], k = 0, 1, …, n−1.

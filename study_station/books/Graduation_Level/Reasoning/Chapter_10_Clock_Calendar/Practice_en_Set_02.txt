@@ -1,0 +1,149 @@
+26. What is the angle between the hour hand and the minute hand of a clock at 4:20?
+(a) 0° (b) 15° (c) 10° (d) 20°
+Answer: (c)
+Solution: The tempting answer is 0°, because at 4:20 the minute hand points at 4 and people assume the hour hand is also at 4. But the hour hand moves 0.5° per minute, so in 20 minutes it moves 10° past 4. Angle = |30×4 − 5.5×20| = |120 − 110| = 10°, so the answer is 10°.
+Source: PYQ-style
+
+27. At what time between 2 o'clock and 3 o'clock do the two hands of a clock coincide?
+(a) 10 minutes past 2 (b) 10 10/11 minutes past 2 (c) 11 minutes past 2 (d) 12 minutes past 2
+Answer: (b)
+Solution: The hands coincide at (60/11 × H) minutes past H o'clock. For H = 2, time = 120/11 = 10 10/11 minutes past 2. Choosing a round 10 minutes ignores the hour hand's movement, so the answer is 10 10/11 minutes past 2.
+Source: PYQ-style
+
+28. How many times are the hands of a clock at right angles in 12 hours?
+(a) 24 (b) 11 (c) 20 (d) 22
+Answer: (d)
+Solution: Many candidates double 11 and pick 24, but in 12 hours the hands form right angles 22 times, because between 2–3 and 8–9 only one right angle occurs each. In 24 hours it is 44 times, so the answer is 22.
+Source: PYQ-style
+
+29. What is the mirror image of the time 3:40 as seen in a plane mirror?
+(a) 9:20 (b) 8:20 (c) 8:40 (d) 7:20
+Answer: (b)
+Solution: Subtract the given time from 11:60. 11:60 − 3:40 = 8:20. A common slip is subtracting from 12:00, which gives 8:20 only by luck here but fails generally; the correct rule gives 8:20, so the answer is 8:20.
+Source: PYQ-style
+
+30. What was the day of the week on 15 August 1947?
+(a) Friday (b) Thursday (c) Saturday (d) Wednesday
+Answer: (a)
+Solution: Counting odd days: 1600 years = 0, 300 years = 1, 46 years = 11 leap + 35 ordinary = 57 days ≡ 1 odd day; days up to 15 Aug 1947 = 227 ≡ 3 odd days. Total = 0+1+1+3 = 5 odd days, which corresponds to Friday, so the answer is Friday.
+Source: PYQ-style
+
+31. What was the day of the week on 26 January 1950?
+(a) Thursday (b) Friday (c) Wednesday (d) Tuesday
+Answer: (a)
+Solution: Odd days: 1600 years = 0, 300 years = 1, 49 years = 12 leap + 37 ordinary = 61 ≡ 5 odd days; 26 days of January ≡ 5 odd days. Total = 0+1+5+5 = 11 ≡ 4 odd days, which is Thursday, so the answer is Thursday.
+Source: PYQ-style
+
+32. Which of the following years is a leap year?
+(a) 1900 (b) 2100 (c) 1800 (d) 2000
+Answer: (d)
+Solution: The trap is that 1900, 1800 and 2100 are all divisible by 4, yet they are not leap years because century years must be divisible by 400. Only 2000 is divisible by 400, so the answer is 2000.
+Source: PYQ-style
+
+33. How many odd days are there in 100 consecutive years?
+(a) 5 (b) 6 (c) 4 (d) 3
+Answer: (a)
+Solution: In 100 years there are 24 leap years and 76 ordinary years (the century year is not leap). Odd days = 24×2 + 76×1 = 124 ≡ 5 (mod 7). Picking 6 comes from wrongly counting 25 leap years, so the answer is 5.
+Source: PYQ-style
+
+34. If today is Wednesday, what day will it be after 61 days?
+(a) Sunday (b) Saturday (c) Tuesday (d) Monday
+Answer: (d)
+Solution: 61 ÷ 7 gives remainder 5. Wednesday + 5 days = Monday. A common error is adding the quotient instead of the remainder, so the answer is Monday.
+Source: PYQ-style
+
+35. The calendar of the year 2007 will be the same as which of the following years?
+(a) 2016 (b) 2017 (c) 2018 (d) 2015
+Answer: (c)
+Solution: For an ordinary year, the calendar repeats after 6 or 11 years depending on leap-year positions. From 2007, accumulated odd days reach a multiple of 7 in 2018 (11 years later), and 2018 is also an ordinary year, so the answer is 2018.
+Source: PYQ-style
+
+36. A watch gains 2 minutes every hour. It is set correctly at 6 a.m. What time will it show at 6 p.m. the same day?
+(a) 6:20 p.m. (b) 6:24 p.m. (c) 6:12 p.m. (d) 6:30 p.m.
+Answer: (b)
+Solution: From 6 a.m. to 6 p.m. is 12 hours, so the watch gains 12 × 2 = 24 minutes. It will show 6:24 p.m. The trap is computing the true time instead of the shown time, so the answer is 6:24 p.m.
+Source: PYQ-style
+
+37. At what time between 7 o'clock and 8 o'clock are the hands of a clock exactly opposite each other?
+(a) 5 minutes past 7 (b) 6 minutes past 7 (c) 5 5/11 minutes past 7 (d) 7 5/11 minutes past 7
+Answer: (c)
+Solution: For opposite hands, minutes = (30H − 180)/5.5. With H = 7: (210 − 180)/5.5 = 30/5.5 = 60/11 = 5 5/11 minutes past 7. Choosing 5 minutes flat ignores the hour hand's drift, so the answer is 5 5/11 minutes past 7.
+Source: PYQ-style
+
+38. What is the angle between the hands of a clock at 9:30?
+(a) 90° (b) 120° (c) 100° (d) 105°
+Answer: (d)
+Solution: The tempting answer is 90°, assuming the hour hand is exactly at 9. But at 9:30 the hour hand has moved 15° past 9. Angle = |30×9 − 5.5×30| = |270 − 165| = 105°, so the answer is 105°.
+Source: PYQ-style
+
+39. What is the reflex angle between the hands of a clock at 8:30?
+(a) 75° (b) 285° (c) 255° (d) 105°
+Answer: (b)
+Solution: First find the smaller angle: |30×8 − 5.5×30| = |240 − 165| = 75°. The trap is to stop here and pick 75°, but the question asks for the reflex angle: 360° − 75° = 285°, so the answer is 285°.
+Source: PYQ-style
+
+40. How many times do the hands of a clock coincide in 24 hours?
+(a) 24 (b) 21 (c) 23 (d) 22
+Answer: (d)
+Solution: The hands coincide 11 times in 12 hours (not 12, because between 11 and 1 they meet only once, at 12). Hence in 24 hours they coincide 22 times, so the answer is 22.
+Source: PYQ-style
+
+41. What was the day of the week on 1 January 2001?
+(a) Monday (b) Sunday (c) Tuesday (d) Saturday
+Answer: (a)
+Solution: Odd days up to 2000 years = 0 (2000 is divisible by 400). So 1 January 2001 has 0 accumulated odd days from the reference, giving Monday. The trap is adding an extra odd day for the year 2000, so the answer is Monday.
+Source: PYQ-style
+
+42. The last day of a century cannot be which of the following?
+(a) Monday (b) Wednesday (c) Friday (d) Saturday
+Answer: (d)
+Solution: Odd days in 100, 200, 300, 400 years are 5, 3, 1, 0, so the last day of a century can only be Friday, Wednesday, Monday or Sunday. It can never be Tuesday, Thursday or Saturday, so the answer is Saturday.
+Source: PYQ-style
+
+43. If 1 January 2004 was a Thursday, what was the day of the week on 1 January 2005?
+(a) Saturday (b) Friday (c) Sunday (d) Thursday
+Answer: (a)
+Solution: 2004 is a leap year, so it contributes 2 odd days. Thursday + 2 = Saturday. The trap is adding only 1 odd day as for an ordinary year, which gives Friday, so the answer is Saturday.
+Source: PYQ-style
+
+44. What is the mirror image of the time 11:15?
+(a) 12:15 (b) 11:45 (c) 12:45 (d) 1:45
+Answer: (c)
+Solution: Subtract from 11:60: 11:60 − 11:15 = 0:45, i.e. 12:45. The trap is subtracting from 12:00 mechanically and writing 12:45 by a wrong route, or picking 11:45 by only flipping the minute hand; the correct result is 12:45, so the answer is 12:45.
+Source: PYQ-style
+
+45. What is the angle between the hands of a clock at 3:15?
+(a) 7.5° (b) 0° (c) 15° (d) 5°
+Answer: (a)
+Solution: This is a classic examiner's trap: at 3:15 the minute hand is at 3, so most candidates pick 0°, forgetting the hour hand has moved ahead of 3. Angle = |30×3 − 5.5×15| = |90 − 82.5| = 7.5°, so the answer is 7.5°.
+Source: PYQ-style
+
+46. In a day, how many times do the hands of a clock form an angle of 0° (overlap)?
+(a) 24 (b) 22 (c) 12 (d) 11
+Answer: (b)
+Solution: Overlap means coincidence, which happens 11 times in 12 hours and hence 22 times in 24 hours. The trap is answering 24 by assuming once every hour, so the answer is 22.
+Source: PYQ-style
+
+47. In a leap year, February will have five Sundays only if 1 February falls on which day?
+(a) Sunday (b) Saturday (c) Monday (d) Friday
+Answer: (a)
+Solution: A leap-year February has 29 days = 4 weeks + 1 day. The extra day is the weekday of 1 February, so for five Sundays, 1 February must itself be Sunday. Choosing Saturday works only for a 30-day month, so the answer is Sunday.
+Source: PYQ-style
+
+48. How many odd days are there in 400 consecutive years?
+(a) 1 (b) 2 (c) 0 (d) 5
+Answer: (c)
+Solution: Odd days in 400 years = 5×4 + 1 (for the extra leap day of the 400th year) = 21 ≡ 0 (mod 7). That is why the Gregorian calendar repeats every 400 years, so the answer is 0.
+Source: PYQ-style
+
+49. What was the day of the week on 1 January 2025?
+(a) Tuesday (b) Wednesday (c) Thursday (d) Monday
+Answer: (b)
+Solution: 1 January 2001 was Monday. From 2001 to 2024 there are 6 leap years and 18 ordinary years, giving 6×2 + 18 = 30 ≡ 2 odd days. Monday + 2 = Wednesday, so the answer is Wednesday.
+Source: PYQ-style
+
+50. A clock strikes once at 1 o'clock, twice at 2 o'clock, and so on. How many times does it strike in 24 hours?
+(a) 78 (b) 144 (c) 156 (d) 132
+Answer: (c)
+Solution: In 12 hours the strikes total 1+2+…+12 = 12×13/2 = 78. The trap is stopping at 78, which covers only 12 hours. In 24 hours the clock strikes 78 × 2 = 156 times, so the answer is 156.
+Source: PYQ-style

@@ -1,0 +1,36 @@
+```mermaid
+graph TD
+    A["Revision Tracker<br>Master Your Memory Cycle"] --> B["Why Revise?"]
+    A --> C["The Revision Cycle"]
+    A --> D["Tracking Tools"]
+    A --> E["Common Traps"]
+    A --> F["Exam-Day Strategy"]
+
+    B --> B1["Forgetting Curve<br>Memory fades fast without recall"]
+    B --> B2["Active Recall beats<br>passive re-reading"]
+    B --> B3["Spaced Repetition<br>1 day - 3 days - 7 days - 21 days"]
+
+    C --> C1["Step 1: Learn<br>Understand the concept"]
+    C --> C2["Step 2: Blurt<br>Write all you remember"]
+    C --> C3["Step 3: Check<br>Find the gaps"]
+    C --> C4["Step 4: Re-test<br>Only the weak spots"]
+    C --> C5["Step 5: Log<br>Mark date + confidence level"]
+
+    D --> D1["Tracker Columns<br>Topic | Date | Score | Next Due"]
+    D --> D2["Colour Code<br>Red = Weak, Yellow = OK, Green = Mastered"]
+    D --> D3["Error Log<br>Record every mistake + its trap type"]
+    D --> D4["Formula & Rules Sheet<br>One page per subject"]
+
+    E --> E1["Trap: Re-reading feels<br>like learning - it is not"]
+    E --> E2["Trap: Revising only<br>favourite strong topics"]
+    E --> E3["Trap: No fixed schedule<br>revision becomes random"]
+    E --> E4["Trap: Ignoring the<br>Error Log after mock tests"]
+
+    F --> F1["Last 7 Days<br>Only Red + Yellow topics"]
+    F --> F2["Last 2 Days<br>Formulas, rules, mnemonics only"]
+    F --> F3["No new topic<br>in the final 48 hours"]
+    F --> F4["15/45-sec Rule<br>Fact Qs fast, Inference Qs slow"]
+
+    C3 --> G["Mnemonic: L-B-C-R-L<br>Learn, Blurt, Check, Re-test, Log"]
+    D2 --> H["Weekly Review<br>Every Sunday: update all colours"]
+```

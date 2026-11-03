@@ -1,0 +1,228 @@
+# 🪄 Short Tricks — Number System (Advanced)
+
+---
+
+**🎯 Trick 1: Divisibility by 11 — "The See-Saw Rule"**
+
+```
+┌─────────────────────────────────────────────┐
+│  DIVISIBILITY BY 11 = "SEE-SAW"             │
+│  Alternate digits go UP and DOWN.           │
+│  (Sum of odd places) − (Sum of even places) │
+│  = 0 or a multiple of 11 → divisible!       │
+│  Memory hook: "Eleven has TWO legs —        │
+│  it walks on alternate digits!"             │
+└─────────────────────────────────────────────┘
+```
+Example: 121 → (1+1) − 2 = 0 ✓
+
+---
+
+**🎯 Trick 2: Divisibility by 7, 11, 13 — "The 1001 Bomb"**
+
+```
+┌─────────────────────────────────────────────┐
+│  1001 = 7 × 11 × 13                         │
+│  Any 6-digit number of form ABCABC is       │
+│  ALWAYS divisible by 7, 11 AND 13!          │
+│  Because ABCABC = ABC × 1001.               │
+│  Memory hook: "1001 is the TRIPLE BOMB —    │
+│  it blasts 7, 11, 13 together!"             │
+└─────────────────────────────────────────────┘
+```
+Example: 456456 ÷ 7 = 65208 ✓
+
+---
+
+**🎯 Trick 3: Remainder of Large Powers — "Cyclicity Clock"**
+
+```
+┌─────────────────────────────────────────────┐
+│  Unit digits repeat in cycles of at most 4: │
+│  2 → 2,4,8,6 | 3 → 3,9,7,1 | 7 → 7,9,3,1   │
+│  8 → 8,4,2,6 | 4 → 4,6 | 9 → 9,1            │
+│  0,1,5,6 → always themselves!               │
+│  Memory hook: "0,1,5,6 are LAZY — they      │
+│  never move. Others dance in a 4-beat song!"│
+│  Divide power by 4; remainder tells the beat│
+│  (remainder 0 → take the 4th beat).         │
+└─────────────────────────────────────────────┘
+```
+Example: unit digit of 7^103 → 103 mod 4 = 3 → 3rd beat of 7,9,3,1 → **3**
+
+---
+
+**🎯 Trick 4: Number of Factors — "Add One & Multiply"**
+
+```
+┌─────────────────────────────────────────────┐
+│  N = a^p × b^q × c^r                        │
+│  Total factors = (p+1)(q+1)(r+1)            │
+│  Memory hook: "Every exponent gets a        │
+│  +1 BONUS, then they MULTIPLY at the party!"│
+│  Odd factors only → drop the power of 2.    │
+│  Even factors = Total − Odd.                │
+└─────────────────────────────────────────────┘
+```
+Example: 72 = 2³×3² → (3+1)(2+1) = 12 factors
+
+---
+
+**🎯 Trick 5: Perfect Square Test — "Odd Family Photo"**
+
+```
+┌─────────────────────────────────────────────┐
+│  A number is a PERFECT SQUARE only if its   │
+│  factor count is ODD.                       │
+│  Why? Factors pair up; only squares have    │
+│  one factor (√N) standing alone!            │
+│  Memory hook: "In the square family photo,  │
+│  the square root is the LONER — odd count!" │
+└─────────────────────────────────────────────┘
+```
+
+---
+
+**🎯 Trick 6: Sum of First n Naturals — "Gauss's Handshake"**
+
+```
+┌─────────────────────────────────────────────┐
+│  1+2+…+n = n(n+1)/2                         │
+│  Squares: n(n+1)(2n+1)/6                    │
+│  Cubes: [n(n+1)/2]²  ← square of the sum!   │
+│  Memory hook: "CUBES are SHOW-OFFS —        │
+│  they just SQUARE the simple sum!"          │
+└─────────────────────────────────────────────┘
+```
+Example: 1³+2³+…+10³ = (55)² = 3025
+
+---
+
+**🎯 Trick 7: Remainder Theorem — "Fermat's Little Shortcut"**
+
+```
+┌─────────────────────────────────────────────┐
+│  If p is prime and a is not a multiple of p:│
+│  a^(p−1) ÷ p leaves remainder 1.            │
+│  Memory hook: "FERMAT'S ELEVATOR: raise to  │
+│  (p−1), and you land on floor 1!"           │
+│  Euler: a^φ(n) ≡ 1 (mod n) when gcd(a,n)=1  │
+└─────────────────────────────────────────────┘
+```
+Example: 3^100 mod 101 → 101 is prime → remainder **1**
+
+---
+
+**🎯 Trick 8: HCF × LCM — "The Marriage Law"**
+
+```
+┌─────────────────────────────────────────────┐
+│  For TWO numbers: HCF × LCM = a × b         │
+│  Memory hook: "HCF and LCM are MARRIED —    │
+│  their product equals the couple's product!"│
+│  ⚠ WARNING: Works ONLY for two numbers,     │
+│  never for three!                           │
+└─────────────────────────────────────────────┘
+```
+
+---
+
+**🎯 Trick 9: Divisibility by 3 & 9 — "Digit Soup"**
+
+```
+┌─────────────────────────────────────────────┐
+│  Add ALL digits into a soup.                │
+│  Soup ÷ 3 works → number ÷ 3 works.         │
+│  Soup ÷ 9 works → number ÷ 9 works.         │
+│  Memory hook: "3 and 9 are SOUP TASTERS —   │
+│  they only taste the digit-sum!"            │
+│  Bonus: N − (digit sum) is always ÷ 9.      │
+└─────────────────────────────────────────────┘
+```
+
+---
+
+**🎯 Trick 10: Last Two Digits — "The 76 & 25 Twins"**
+
+```
+┌─────────────────────────────────────────────┐
+│  Numbers ending in 25 or 76: ANY power      │
+│  keeps the same last two digits!            │
+│  76² = 5776, 76³ = …76, 25ⁿ = …25           │
+│  Memory hook: "76 and 25 are BOOMERANGS —   │
+│  throw them to any power, they come back!"  │
+└─────────────────────────────────────────────┘
+```
+
+---
+
+**🎯 Trick 11: Trailing Zeros — "Count the 5s"**
+
+```
+┌─────────────────────────────────────────────┐
+│  Zeros in n! = ⌊n/5⌋ + ⌊n/25⌋ + ⌊n/125⌋ + … │
+│  Memory hook: "Zeros are born when 5 meets  │
+│  2. 2s are plenty — so just HUNT THE 5s!"   │
+│  Keep dividing by 5 until quotient is 0.    │
+└─────────────────────────────────────────────┘
+```
+Example: 100! → 20 + 4 = **24 zeros**
+
+---
+
+**🎯 Trick 12: aⁿ − bⁿ vs aⁿ + bⁿ — "Minus Always, Plus Odd"**
+
+```
+┌─────────────────────────────────────────────┐
+│  aⁿ − bⁿ is divisible by (a−b) for ALL n.   │
+│  aⁿ + bⁿ is divisible by (a+b) only for     │
+│  ODD n.                                     │
+│  Memory hook: "MINUS is GENEROUS — always   │
+│  divides. PLUS is PICKY — only odd powers!" │
+└─────────────────────────────────────────────┘
+```
+
+---
+
+**🎯 Trick 13: Remainder of a Product — "Break Before You Bake"**
+
+```
+┌─────────────────────────────────────────────┐
+│  To find (a × b × c) mod m:                 │
+│  reduce EACH factor mod m FIRST, then       │
+│  multiply, then reduce again.               │
+│  Memory hook: "Never bake the whole cake —  │
+│  SHRINK the ingredients first!"             │
+└─────────────────────────────────────────────┘
+```
+Example: (47 × 52) mod 7 → (5 × 3) mod 7 = 15 mod 7 = **1**
+
+---
+
+**🎯 Trick 14: Successive Division — "Reverse Ladder"**
+
+```
+┌─────────────────────────────────────────────┐
+│  A number divided by 4, 5, 6 leaves         │
+│  remainders 3, 4, 5 → note: divisor −       │
+│  remainder = 1 each time!                   │
+│  Answer = LCM(4,5,6) − 1 = 59               │
+│  Memory hook: "Same GAP? Take LCM and       │
+│  SUBTRACT the gap. Same remainder?          │
+│  LCM + remainder."                          │
+└─────────────────────────────────────────────┘
+```
+
+---
+
+**🎯 Trick 15: Base Conversion — "Divide & Read Backwards"**
+
+```
+┌─────────────────────────────────────────────┐
+│  Decimal → Base b: keep dividing by b,      │
+│  collect remainders, READ BOTTOM-TO-TOP.    │
+│  Memory hook: "Build the tower DOWN,        │
+│  read it UP — like an elevator report!"     │
+└─────────────────────────────────────────────┘
+```
+Example: 25 → base 2: remainders 1,0,0,1,1 → read up → **11001**

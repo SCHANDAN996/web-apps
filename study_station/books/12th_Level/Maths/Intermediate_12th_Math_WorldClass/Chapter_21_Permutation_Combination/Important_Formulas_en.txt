@@ -1,8 +1,33 @@
-# Chapter: Permutation & Combination, Level: intermediate
+# Important Formulas — Permutation & Combination
 
-@content_agent lang=en level=intermediate 'List all important formulas, equations, and rules for Permutation & Combination.
-Instructions:
-- Only formulas and a one-line hint (when to use), no detailed explanation.
-- Present in a clean table: Formula Name | Formula | Use-Hint
-- Cover all formulas essential for solving exam questions.
-- Keep language simple and precise.'
+| Formula Name | Formula | Use-Hint |
+|---|---|---|
+| Fundamental Principle (Multiplication) | Total ways = m × n | When tasks happen one after another (AND) |
+| Fundamental Principle (Addition) | Total ways = m + n | When only one of the tasks happens (OR) |
+| Factorial | n! = n × (n−1) × … × 2 × 1; 0! = 1 | Base of all P&C calculations |
+| Permutation (arrangement of r out of n) | ⁿPᵣ = n! / (n−r)! | Order matters, no repetition |
+| Permutation of all n (distinct) | n! | Arranging all n different objects |
+| Permutation with repetition allowed | nʳ | Each place can be filled by any of n (e.g., PIN codes) |
+| Permutation with identical items | n! / (p! × q! × r! …) | Words with repeated letters (e.g., BANANA) |
+| Combination (selection of r out of n) | ⁿCᵣ = n! / [r! × (n−r)!] | Order does not matter |
+| Key identity | ⁿCᵣ = ⁿCₙ₋ᵣ | Simplify: pick the smaller r |
+| Relation between P and C | ⁿPᵣ = ⁿCᵣ × r! | Selection first, then arrange |
+| Pascal's rule | ⁿCᵣ + ⁿCᵣ₋₁ = ⁿ⁺¹Cᵣ | Building combinations stepwise |
+| If ⁿCₐ = ⁿCᵦ | a = b or a + b = n | Solving combination equations |
+| Circular permutation (distinct) | (n−1)! | Round-table arrangements |
+| Circular permutation (necklace/garland) | (n−1)! / 2 | Clockwise = anticlockwise (flipping allowed) |
+| Selection of any number (zero or more) | 2ⁿ | From n distinct items, choose any subset |
+| Selection of at least one | 2ⁿ − 1 | Exclude the empty selection |
+| Selection from identical items | (p+1)(q+1)(r+1)… − 1 | At least one from p, q, r identical items |
+| Distributing n distinct items into r distinct boxes | rⁿ | Each item has r choices |
+| Number of diagonals in a polygon | ⁿC₂ − n = n(n−3)/2 | Lines minus the n sides |
+| Number of handshakes / matches | ⁿC₂ = n(n−1)/2 | Every pair meets once |
+| Straight lines from n points (no 3 collinear) | ⁿC₂ | Joining every pair of points |
+| Triangles from n points (no 3 collinear) | ⁿC₃ | Choosing any 3 points |
+| Committee with at least one of a type | Total − (none of that type) | Use complementary counting |
+| "Always include" a particular person | ⁿ⁻¹Cᵣ₋₁ | Fix that person, choose the rest |
+| "Never include" a particular person | ⁿ⁻¹Cᵣ | Remove that person, choose from rest |
+| Arrangement with two specific always together | (n−1)! × 2! | Tie them as one unit, then arrange inside |
+| Arrangement with two specific never together | Total − Together = n! − (n−1)! × 2! | Subtract the "together" case |
+| Vowels together / consonants together | Treat group as one unit × internal arrangements | Block method for word problems |
+| Rank/sum of numbers formed | Use place-value logic with ⁿPᵣ | Digit arrangement questions |

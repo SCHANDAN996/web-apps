@@ -1,0 +1,103 @@
+# PYQ Analysis — Paper Folding & Cutting
+
+## 1. How Exams Ask This Chapter (Pattern Analysis)
+
+Paper Folding & Cutting is a **regular but low-volume** chapter in non-verbal reasoning. It does not appear in every shift, but when it does, it usually comes as **1–2 questions per paper**, almost always in the non-verbal/figure section.
+
+**Exam-wise pattern (qualitative, based on recurring trends):**
+
+- **SSC (CGL, CHSL, MTS, GD):** The most frequent home of this chapter. SSC loves the classic format — a transparent/opaque sheet folded 2–3 times, then punched or cut, and you must pick the unfolded figure. Folding along dotted lines with a final punch is the signature SSC question.
+- **Railway (RRB NTPC, Group D):** Simpler versions — usually only 2 folds and 1 cut. Symmetry-based elimination works almost every time.
+- **Banking (IBPS, SBI):** Rare in prelims; occasionally appears in mains-level reasoning as part of figure series. When it appears, folds are diagonal, making it harder.
+- **State exams (Police, PCS prelims):** Straightforward NCERT-style folding questions; difficulty stays low.
+
+**Sub-topics that recur most:**
+1. Fold + single punch → choose unfolded pattern (most common).
+2. Fold + cut along a line/shape → choose unfolded figure.
+3. Reverse: given the unfolded punched paper, identify the folding sequence (less common, more time-consuming).
+4. Paper folding combined with **transparency** (sheet is transparent, so folds overlap visibly) — a rising trend in recent SSC papers.
+
+## 2. Examiner's Traps (परीक्षक के जाल)
+
+- **Mirror confusion:** Options include the correct figure and its mirror image. Students who track folds mentally but forget that unfolding creates a **reflection** pick the mirror.
+- **Count trap:** A punch through 2 folds creates 4 holes, not 2. Options with fewer holes lure students who forget each fold doubles the layers.
+- **Position trap:** Holes are correct in number but placed at wrong distances from the edge/centre. The punch near a fold line lands near the centre after unfolding; a punch near the open edge stays near the edge.
+- **Diagonal fold trap:** Diagonal folds rotate the reflection axis by 45°. Students apply horizontal/vertical reflection and get trapped.
+- **Cut-shape trap:** A half-shape cut on a fold becomes a full symmetric shape on unfolding (e.g., a semicircle cut on the fold becomes a full circle). Options showing two semicircles trap the careless.
+
+## 3. The 15-Second / 45-Second Rule — Review
+
+- **15-second questions:** 2 folds + 1 punch, folds only horizontal/vertical. Solve by symmetry instantly. **Never skip these.**
+- **45-second questions:** 3 folds, or a diagonal fold, or cut-shape questions. Worth attempting if you are comfortable; otherwise mark and return.
+- **Skip immediately:** Questions asking you to identify the **folding sequence from a punched paper** with 3+ folds, or transparent-paper questions with overlapping shaded regions — these eat 90+ seconds for 1 mark. Skip unless everything else is done.
+
+## 4. Ten High-Yield PYQ-Style Questions (with traps explained)
+
+**Q1.** A square sheet is folded along the vertical midline (right half behind left), then along the horizontal midline (top half behind bottom). A punch is made at the centre of the folded quarter. How many holes appear on unfolding?
+(a) 1 (b) 2 (c) 4 (d) 8
+**Answer:** (c)
+**Solution:** Two folds create 4 layers; one punch passes through all 4, giving 4 holes symmetric about both midlines. Trap: (b) lures those who count only one reflection.
+**Source:** PYQ-style (SSC pattern)
+**Rule:** 15-second question — attempt instantly.
+
+**Q2.** A sheet is folded once horizontally. A semicircle is cut on the fold line. What appears on unfolding?
+(a) Two semicircles (b) One full circle (c) Two circles (d) One semicircle
+**Answer:** (b)
+**Solution:** A cut on the fold mirrors into itself, completing the shape — semicircle + its reflection = full circle. Trap: (a) tempts those who think the cut duplicates like a punch.
+**Source:** PYQ-style
+
+**Q3.** A transparent sheet with a pattern is folded along a dotted vertical line. Which figure results?
+*(Standard transparency question.)*
+**Solution approach:** The folded part's pattern appears **mirror-reversed** on the other side and remains **visible** because the sheet is transparent. Trap: options showing the pattern shifted but not mirrored.
+**Source:** PYQ-style (recent SSC trend)
+
+**Q4.** A sheet is folded along both diagonals successively and punched once near the apex. How many holes on unfolding?
+(a) 2 (b) 4 (c) 6 (d) 8
+**Answer:** (b)
+**Solution:** Two diagonal folds give 4 layers → 4 holes arranged with 4-fold symmetry about the centre. Trap: (d) assumes 8 layers (confusing diagonal folds with three folds).
+**Source:** PYQ-style
+
+**Q5.** A rectangular sheet is folded in half, then in half again (both folds in the same direction). A punch near the open edge gives how many holes?
+(a) 2 (b) 4 (c) 8 (d) 16
+**Answer:** (b)
+**Solution:** Each fold doubles layers: 2 → 4. One punch = 4 holes in a row. Trap: (c) comes from multiplying 2×2×2 wrongly.
+**Source:** PYQ-style
+**Rule:** 15-second question.
+
+**Q6.** A sheet folded once vertically has a triangle cut at the fold. The unfolded shape is:
+(a) Two triangles (b) A diamond/kite shape (c) One triangle (d) A rectangle
+**Answer:** (b)
+**Solution:** The triangle mirrors across the fold, forming a symmetric diamond (two triangles base-to-base). Trap: (a) ignores that the cut lies *on* the fold, so the halves join.
+**Source:** PYQ-style
+
+**Q7.** Given a fully punched unfolded paper with 8 holes in a symmetric pattern, identify the correct fold-and-punch sequence from four options.
+**Solution approach:** Work backwards — check which option's folds produce the shown symmetry axes. Eliminate options whose fold lines don't match the hole symmetry.
+**Rule:** **Skip under the 45-second rule** — reverse questions with 3 folds routinely take 90+ seconds. Attempt only if time remains.
+**Source:** PYQ-style
+
+**Q8.** A sheet is folded along the horizontal midline, then the right quarter is folded behind along the vertical line. A punch is made through all layers at the corner. Holes on unfolding?
+(a) 2 (b) 4 (c) 6 (d) 8
+**Answer:** (b)
+**Solution:** After both folds the punched corner has 4 layers → 4 holes, symmetric about both midlines. Trap: (d) assumes the second fold doubles an already-doubled count twice.
+**Source:** PYQ-style
+
+**Q9.** A circular sheet is folded into a semicircle, then into a quarter. A small circle is punched at the folded corner (the centre of the original circle). On unfolding:
+(a) 4 separate holes (b) 1 hole at the centre (c) 2 holes (d) A ring of 8 holes
+**Answer:** (b)
+**Solution:** The folded corner is the **centre** of the original circle; all 4 layers share that exact point, so the punch makes a single central hole. Trap: (a) — the classic error; punches on fold *intersections* don't multiply.
+**Source:** PYQ-style
+**Psychological hook:** Students reflexively apply "folds double the holes" without checking whether the punch lies on the fold intersection.
+
+**Q10.** A sheet is folded diagonally, then punched twice — once on the fold line, once away from it. Total holes on unfolding?
+(a) 2 (b) 3 (c) 4 (d) 6
+**Answer:** (b)
+**Solution:** The punch on the fold line stays single (it mirrors onto itself); the punch away from the fold doubles. Total = 1 + 2 = 3. Trap: (c) doubles both punches; (a) counts neither reflection.
+**Source:** PYQ-style
+**Rule:** Borderline 45-second question — attempt if diagonal folds are comfortable, else mark for review.
+
+## 5. Key Takeaways
+
+- Master **reflection across the fold line** — every unfolding is a mirror operation.
+- Remember: **punch on a fold line does not multiply; punch on a fold intersection stays single.**
+- Cuts on folds complete symmetric shapes; cuts away from folds duplicate.
+- Attempt all 2-fold questions instantly; be selective with diagonal, transparency, and reverse-sequence questions.

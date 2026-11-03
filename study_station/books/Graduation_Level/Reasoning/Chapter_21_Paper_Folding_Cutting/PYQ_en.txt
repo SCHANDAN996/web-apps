@@ -1,0 +1,145 @@
+# 📊 PYQ Analysis — Paper Folding & Cutting
+
+*(Pattern analysis based on the recurring style of figure-based reasoning questions in SSC, Banking, Railway and State PCS exams. This section describes **what examiners ask and how they trap you** — not year-wise counts or weightage statistics.)*
+
+---
+
+## 1. How Exams Use This Chapter
+
+Paper Folding & Cutting is a **staple of non-verbal reasoning** in SSC (CGL, CHSL, MTS, Stenographer), Railway (NTPC, Group D) and Banking (IBPS, SBI) exams. It appears as a **figure-based question**: a sheet is shown being folded along dotted lines, then punched or cut, and you must pick the unfolded result from four options.
+
+It is a **high-accuracy, low-time** chapter — a well-prepared student converts it in under 30 seconds.
+
+---
+
+## 2. Sub-topics Commonly Seen (Qualitative)
+
+*(The table below is a subjective observation of question styles, not a measured frequency count.)*
+
+| Sub-topic | General observation | Difficulty |
+|---|---|---|
+| Paper folding + punching (holes) | The classic, most recognisable format | Easy–Medium |
+| Paper folding + cutting (shapes cut on folded edge) | Common | Medium |
+| Folding along diagonal / multiple folds (3–4 folds) | Seen increasingly in recent papers | Medium–Hard |
+| Folding + punching with **shaded/half-visible** regions | Occasional | Hard |
+| Transparent sheet folding (pattern superimposition) | Occasional | Medium |
+
+**Trend:** Older papers typically used 2 folds + 1 punch. Recent papers increasingly use **3 folds + 2–3 punches**, testing whether you track *every* fold's mirror effect.
+
+---
+
+## 3. Exam-wise Pattern (General Observation)
+
+*(These are broad observations, not verified statistics.)*
+
+- **SSC CGL / CHSL:** Frequently features this chapter; expect diagonal folds and punches near fold edges — the trap zone.
+- **SSC MTS / GD:** Usually simple 2-fold, 1-punch questions.
+- **RRB NTPC / Group D:** Straightforward folding-cutting; options often differ only slightly, so mirror-direction errors get punished.
+- **IBPS / SBI PO-Clerk:** When it appears, it is often the transparent-sheet folding type.
+- **State PCS prelims:** Occasionally one question, usually the simplest punch type.
+
+---
+
+## 4. Examiner's Traps (Psychological Hooks)
+
+1. **Mirror-direction confusion:** Options include the correct figure and its **left-right flip**. Students who unfold mentally but lose track of fold direction pick the mirror image.
+2. **Punch on the fold line:** A hole punched exactly on a fold produces **half-shapes that merge into one hole** on unfolding — options include a "two holes" decoy.
+3. **Count trap:** With 3 folds, one punch makes up to 8 holes — but if the punch lies on a fold or outside a folded layer, the count is less. Options include 8, 6, 4, 2 — the careless pick 8.
+4. **Order-of-unfolding trap:** Unfolding in the wrong sequence (last fold first is correct; students often reverse it) gives a rotated pattern that is present among the options.
+5. **Cut-shape distortion:** A cut made across a fold mirrors into a symmetric joined figure, not two separate pieces — the "two separate shapes" option is the bait.
+6. **Near-identical options:** All four options have the same holes; only **one hole's position** differs. Time pressure pushes students to mark the first plausible one.
+
+---
+
+## 5. Top 10 High-Yield Question Patterns (with Solutions & Traps)
+
+**Q1.** A square sheet is folded along the vertical midline (right half behind left), then along the horizontal midline. One hole is punched in the folded quarter. How many holes appear on unfolding?
+(a) 1 (b) 2 (c) 4 (d) 8
+**Answer: (c)**
+**Solution:** Two folds → 4 layers → each punch passes through 4 layers → 4 holes, mirror-symmetric about both midlines.
+**Trap:** (d) 8 tempts students who multiply 2×2×2 assuming three folds.
+**Source:** PYQ-style
+
+**Q2.** A sheet is folded once vertically; a punch is made **exactly on the fold line**. Holes on unfolding?
+(a) 2 (b) 1 (c) 4 (d) 3
+**Answer: (b)**
+**Solution:** A punch on the fold cuts a half-circle in each layer; on unfolding the two halves join into **one** hole on the crease.
+**Trap:** (a) 2 — the instinctive "one punch per layer" answer.
+**Source:** PYQ-style
+
+**Q3.** A square sheet is folded along the vertical midline, then the horizontal midline, then along a diagonal of the resulting quarter-square. One punch through all layers. Maximum holes possible?
+(a) 4 (b) 6 (c) 8 (d) 16
+**Answer: (c)**
+**Solution:** Three folds stack 2³ = 8 layers; a punch through all 8 gives 8 holes.
+**Trap:** (d) 16 — doubling once more "to be safe."
+**Source:** PYQ-style
+
+**Q4.** A square is folded into a triangle along its diagonal; a small triangle is cut from a **corner of the folded triangle that lies on the fold (the crease)**. On unfolding, the cut becomes:
+(a) Two separate triangles (b) A square/diamond symmetric about the diagonal (c) A circle (d) A single triangle at the corner
+**Answer: (b)**
+**Solution:** A cut made across the fold mirrors into a symmetric closed figure — the two mirrored right triangles join along the crease to form a square/diamond shape.
+**Trap:** (a) — students forget the two halves are joined along the crease, not separated.
+**Source:** PYQ-style
+
+**Q5.** A sheet is folded left-to-right, then top-to-bottom. A punch is made at the **free corner** (the corner with no folds). Where do the holes lie on unfolding?
+(a) All four corners (b) Centre only (c) Midpoints of sides (d) Two corners only
+**Answer: (a)**
+**Solution:** The free corner of the folded packet corresponds to all four outer corners of the original sheet stacked together; one punch → one hole at each corner.
+**Trap:** (b) — the folded corner (all creases) maps to the centre; confusing free corner with folded corner flips the answer.
+**Source:** PYQ-style
+
+**Q6.** In a 2-fold punch question, the unfolded options all show 4 holes; they differ only in whether the holes are closer to the centre or the edges. The punch was made **near the outer edge** of the folded quarter. Correct choice?
+(a) Holes near centre (b) Holes near edges (c) Mixed (d) Cannot be determined
+**Answer: (b)**
+**Solution:** Distance from the fold is preserved under mirroring; a punch far from both creases unfolds to holes far from both midlines — i.e., near the edges.
+**Trap:** (a) — students misjudge which folded edge is the crease.
+**Source:** PYQ-style
+
+**Q7.** A circular sheet is folded into a semicircle, then a quarter-circle. A hole is punched at the midpoint of the **curved arc** of the quarter. Holes on unfolding?
+(a) 2 (b) 4 (c) 8 (d) 1
+**Answer: (b)**
+**Solution:** Two folds → 4 layers; the arc midpoint is away from both creases, so 4 distinct holes appear symmetrically on the circle's rim zone.
+**Trap:** (c) 8 — assuming three folds because the figure "looks folded thrice."
+**Source:** PYQ-style
+
+**Q8.** A sheet folded thrice (vertical, vertical again, horizontal) is punched twice — one punch on a crease, one in open area. Total holes on unfolding?
+(a) 16 (b) 12 (c) 8 (d) 10
+**Answer: (b)**
+**Solution:** Three folds → 8 layers. Open-area punch → 8 holes. Crease punch → halves merge pairwise → 4 holes. Total 8 + 4 = 12.
+**Trap:** (a) 16 — ignoring the crease-merge effect. **Skip-candidate:** see §6.
+**Source:** PYQ-style
+
+**Q9.** A transparent sheet with a pattern on the left half is folded right-to-left along the vertical midline. The resulting visible pattern is:
+(a) Original pattern only (b) Mirror image of the pattern superimposed (c) Pattern rotated 180° (d) Pattern shifted upward
+**Answer: (b)**
+**Solution:** Folding a transparent sheet flips the moved half laterally; the pattern appears as its mirror image overlaid on the stationary half.
+**Trap:** (c) — rotation and reflection are confused under time pressure.
+**Source:** PYQ-style
+
+**Q10.** A square sheet is folded along one diagonal, then folded again along the line from the right-angle vertex to the midpoint of the hypotenuse (the median of the resulting triangle). A single cut removes the tip at the **apex where all folds meet**. On unfolding, the hole appears:
+(a) At one corner (b) At the exact centre (c) At two corners (d) At the midpoint of one side
+**Answer: (b)**
+**Solution:** The point where all creases intersect is the centre of the original square; cutting it opens a single hole at the centre.
+**Trap:** (a) — the apex "looks like" a corner of the folded figure, and students map it to a corner of the sheet.
+**Source:** PYQ-style
+
+---
+
+## 6. The 15-sec / 45-sec Rule — Applied
+
+- **15-second rule:** If the question has **≤2 folds and 1 punch**, you should be able to unfold mentally within 15 seconds. If the fold sequence isn't clear in 15 seconds, mark and move on — return later.
+- **45-second rule:** Even the hardest variant (3 folds, 2 punches, crease punches — like **Q8** above) must be capped at 45 seconds. Beyond that, the expected-mark-per-second ratio turns negative.
+- **Skip candidates among the Top 10:**
+  - **Q8 (3 folds + mixed crease/open punches):** The hole-count arithmetic (8 + 4) plus positional tracking makes this a classic time-sink. If options are close (10/12/14/16), **skip on first pass**.
+  - **Q9 (transparent-sheet superimposition):** If the printed pattern is intricate (multiple arrows/dots), mental mirroring is error-prone — **skip unless the pattern is simple**.
+- **Never skip:** Q1, Q2, Q5-type questions — single-fold or free-corner patterns are 15-second certainties.
+
+---
+
+## 7. Key Takeaways
+
+1. Always unfold in **reverse order** — last fold opened first.
+2. Count layers first: *n* folds → up to 2ⁿ holes per punch; reduce for crease punches.
+3. Distance from crease is preserved — use it to eliminate near-identical options.
+4. The mirror-image decoy is the examiner's favourite trap; fix one reference edge before unfolding.
+5. Treat 3-fold mixed-punch questions as second-pass material under the 45-second cap.

@@ -1,0 +1,42 @@
+# Coding-Decoding — Important Rules & Approaches
+
+## Part 1: Key Rules / Approaches
+
+| Rule Name | Description | Example |
+|---|---|---|
+| Letter Shifting (Shift Cipher) | Each letter is moved forward or backward by a fixed number of positions in the alphabet. | CAT → DBU (each letter +1) |
+| Position Value Rule | Memorise A=1 to Z=26; also reverse positions (A=26 … Z=1) for quick calculation. | M = 13, so reverse position of M = 27 − 13 = 14 |
+| Opposite Letter Rule | Pairs of letters whose positions add to 27 (A–Z, B–Y, C–X …). | If code of A is Z, code of D is W |
+| Reverse Order Coding | The word is written in reverse, sometimes combined with shifting. | PEN → NEP (simple reverse) |
+| Mixed Shifting | Different letters shift by different amounts (+1, +2, +3 … or vowels/consonants treated differently). | ABC → CFI (+2, +4, +6) |
+| Letter-to-Number Coding | Letters replaced by their position values, sum of digits, or position-based operations. | CAB → 3+1+2 = 6 |
+| Substitution Coding | A fixed code table: one word/letter always stands for another; decode by comparing common words across sentences. | "sky is blue" = "ka ma ta"; "sky is red" = "ka ma la" ⇒ blue = ta |
+| Common Word Elimination | In sentence coding, find words common to two sentences and match their common codes. | If "is" appears in both, its code appears in both |
+| Symbol Coding | Letters replaced by symbols based on given conditions; apply conditions in the given order only. | If letter is a vowel → @; else → # |
+| Number Coding (Digit Swap) | Digits rearranged or replaced by a fixed digit-letter map. | 1=A, 2=B … then 12 = AB |
+| Pattern-First Rule | Always check the simplest pattern first: shift → reverse → opposite → substitution, in that order. | Saves time; most exam questions use simple shifts |
+| Write-Positions Rule | Write position numbers above letters of both word and code; the difference reveals the pattern instantly. | D(4)→G(7): shift of +3 |
+| Consistency Check | The pattern must hold for ALL letters of the example, not just the first two. | +1 on first letter but +2 on third means mixed shifting |
+| New-Coding Rule | In "new pattern" questions, apply the rule exactly as defined, even if it differs from standard patterns. | "Each letter is replaced by the letter 2 places before it" |
+
+## Part 2: Time Management
+
+| Situation | Rule | Action |
+|---|---|---|
+| Pattern not clear in 15 seconds | 15-Second Rule | Mark the question and skip; return after completing the section. |
+| Pattern found within 15 seconds | Solve Immediately | Apply the pattern to all letters; answer within 45 seconds total. |
+| Question taking over 45 seconds | 45-Second Rule | Stop, make your best logical guess (eliminate 2 options), and move on. |
+| Sentence/substitution coding sets | 30-Second Scan | First scan all given sentences for common words before decoding anything. |
+| Letter-to-number questions | Direct Calculation | Use position values directly; do not write the full alphabet — recall from memory. |
+| Revision pass | Last 2 Minutes | Revisit only marked questions; never start a fresh hard question at the end. |
+
+## Part 3: Logical / Mathematical Formulas
+
+| Formula | Use | Example |
+|---|---|---|
+| Position of letter = its alphabet number (A=1 … Z=26) | Base of all letter coding | J = 10 |
+| Reverse position = 27 − position | Opposite-letter coding | Reverse of H(8) = 27 − 8 = 19 = S |
+| Opposite pair sum = 27 | Quick opposite-letter recall | C(3) ↔ X(24) |
+| New position = (position ± shift), wrapping 26→1 | Forward/backward shifting | Z + 2 = B (26 + 2 = 28; 28 − 26 = 2) |
+| Sum of letter positions | Letter-to-number coding | BAD = 2 + 1 + 4 = 7 |
+| EJOTY (E=5, J=10, O=15, T=20, Y=25) | Memory anchor for fast position recall | Letters near T: S=19, U=21 |

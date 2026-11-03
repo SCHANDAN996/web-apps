@@ -1,0 +1,20 @@
+[Unit]
+Description=Study Station PayU inquiry and refund reconciliation
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=studystation
+Group=studystation
+WorkingDirectory=/var/www/web-apps/study_station/v2
+EnvironmentFile=/var/www/web-apps/study_station/v2/.env
+ExecStart=/var/www/web-apps/study_station/v2/venv/bin/python -m app.payu_reconcile --apply --limit 50
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/studystation
+TimeoutStartSec=1800
+UMask=0077
+LogNamespace=studystation
+

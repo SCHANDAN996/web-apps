@@ -1,0 +1,51 @@
+```mermaid
+graph TD
+    A["विज्ञान और प्रौद्योगिकी<br>Science & Technology"]
+
+    A --> I["आविष्कार और खोजें<br>Inventions & Discoveries"]
+    A --> U["मात्रक<br>Units"]
+    A --> C["कंप्यूटर<br>Computer Basics"]
+    A --> S["अंतरिक्ष कार्यक्रम<br>Space Programme"]
+    A --> D["परमाणु और रक्षा<br>Nuclear & Defence"]
+    A --> N["संस्थान और दिवस<br>Institutions & Days"]
+    A --> T["परीक्षक के जाल<br>Examiner's Traps"]
+    A --> ST["रणनीति<br>Strategies"]
+
+    I --> I1["टेलीफ़ोन - ग्राहम बेल 1876<br>Bulb - Edison 1879"]
+    I --> I2["इलेक्ट्रॉन - टॉमसन, नाभिक - रदरफ़ोर्ड<br>Neutron - Chadwick"]
+    I --> I3["पेनिसिलिन - फ़्लेमिंग 1928<br>Smallpox vaccine - Jenner"]
+    I --> I4["रमन प्रभाव 1928, नोबेल 1930<br>National Science Day 28 Feb"]
+
+    U --> U1["7 SI मूल मात्रक<br>m, kg, s, A, K, mol, cd"]
+    U --> U2["न्यूटन, जूल, वाट, पास्कल<br>Derived units"]
+    U --> U3["प्रकाश वर्ष = दूरी<br>Light-year is distance"]
+
+    C --> C1["CPU = ALU + CU<br>Brain of computer"]
+    C --> C2["RAM अस्थायी, ROM स्थायी<br>Volatile vs non-volatile"]
+    C --> C3["8 बिट = 1 बाइट<br>1 KB = 1024 bytes"]
+    C --> C4["पीढ़ियाँ: ट्यूब, ट्रांज़िस्टर, IC, माइक्रोप्रोसेसर<br>Generations"]
+
+    S --> S1["INCOSPAR 1962, ISRO 1969<br>DOS 1972, HQ Bengaluru"]
+    S --> S2["आर्यभट 19 अप्रैल 1975<br>SLV-3 Rohini 1980"]
+    S --> S3["राकेश शर्मा 1984<br>First Indian in space"]
+    S --> S4["चंद्रयान-1 2008, मंगलयान 2013-14<br>Chandrayaan-2 2019"]
+    S --> S5["चंद्रयान-3 23 अगस्त 2023<br>Lunar south pole"]
+    S --> S6["आदित्य-L1 2023, L1 पर 2024<br>SpaDeX docking Jan 2025"]
+
+    D --> D1["अप्सरा 1956, BARC ट्रॉम्बे<br>Bhabha"]
+    D --> D2["पोखरण-I 1974<br>Pokhran-II 11 and 13 May 1998"]
+    D --> D3["DRDO 1958, IGMDP 1983<br>Prithvi, Agni, Akash, Trishul, Nag"]
+    D --> D4["INS विक्रांत 2022<br>First indigenous aircraft carrier"]
+
+    N --> N1["CDRI लखनऊ, CFTRI मैसूरु<br>CCMB Hyderabad, NIO Goa"]
+    N --> N2["11 मई प्रौद्योगिकी, 23 अगस्त अंतरिक्ष<br>22 Dec Mathematics Day"]
+
+    T --> T1["मेंडल बनाम मेंडलीफ़<br>Similar Name"]
+    T --> T2["आर्यभट भारतीय रॉकेट से नहीं<br>Almost True Statement"]
+    T --> T3["ISRO 1969, INCOSPAR 1962<br>Chronological Confusion"]
+    T --> T4["कौन-सा मूल मात्रक नहीं<br>Negative Phrasing"]
+
+    ST --> ST1["15 सेकंड: आविष्कारक, मात्रक, शहर<br>One-liners"]
+    ST --> ST2["45 सेकंड: क्रम, कथन<br>Arrange and statements"]
+    ST --> ST3["तिथि-सहित मिशन याद करें<br>Learn missions with dates"]
+```

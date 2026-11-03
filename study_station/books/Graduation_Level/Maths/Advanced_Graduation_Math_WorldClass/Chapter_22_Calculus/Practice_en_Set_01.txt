@@ -1,0 +1,149 @@
+1. What is the derivative of f(x) = x³ with respect to x?
+(a) 3x (b) x² (c) 3x² (d) x³/3
+Answer: (c)
+Solution: By the power rule, d/dx(xⁿ) = n·xⁿ⁻¹. Here n = 3, so the derivative is 3x². Option x³/3 is the trap — that is the integral of x², not the derivative of x³, so the answer is 3x².
+Source: NCERT Class 11 Mathematics (Limits and Derivatives)
+
+2. What is the derivative of a constant function f(x) = 7?
+(a) 7 (b) 1 (c) 0 (d) 7x
+Answer: (c)
+Solution: A constant does not change, so its rate of change is zero: d/dx(7) = 0. Option 7 is the trap — students confuse the value of the function with its derivative, so the answer is 0.
+Source: NCERT Class 11 Mathematics (Limits and Derivatives)
+
+3. What is ∫ 2x dx?
+(a) 2x² + C (b) x² + C (c) 2 + C (d) x²/2 + C
+Answer: (b)
+Solution: ∫ 2x dx = 2·(x²/2) + C = x² + C. Option 2 is the trap — that is the derivative of 2x, not its integral, so the answer is x² + C.
+Source: NCERT Class 12 Mathematics (Integrals)
+
+4. What is the derivative of sin x?
+(a) cos x (b) −cos x (c) −sin x (d) tan x
+Answer: (a)
+Solution: d/dx(sin x) = cos x, a standard result. Option −cos x is the trap — that is the derivative of cos x with a sign slip, so the answer is cos x.
+Source: NCERT Class 11 Mathematics (Limits and Derivatives)
+
+5. What is the derivative of cos x?
+(a) sin x (b) −sin x (c) cos x (d) −cos x
+Answer: (b)
+Solution: d/dx(cos x) = −sin x. Option sin x is the trap — it forgets the negative sign that appears when differentiating cosine, so the answer is −sin x.
+Source: NCERT Class 11 Mathematics (Limits and Derivatives)
+
+6. What is the derivative of eˣ?
+(a) x·eˣ⁻¹ (b) eˣ/x (c) ln x (d) eˣ
+Answer: (d)
+Solution: The exponential function eˣ is its own derivative: d/dx(eˣ) = eˣ. Option x·eˣ⁻¹ is the trap — it wrongly applies the power rule to an exponential function, so the answer is eˣ.
+Source: NCERT Class 12 Mathematics (Continuity and Differentiability)
+
+7. What is the derivative of ln x (x > 0)?
+(a) 1/x (b) x (c) ln x (d) eˣ
+Answer: (a)
+Solution: d/dx(ln x) = 1/x. Option ln x is the trap — it confuses the function with its derivative, so the answer is 1/x.
+Source: NCERT Class 12 Mathematics (Continuity and Differentiability)
+
+8. What is lim(x→0) (sin x)/x?
+(a) 1 (b) 0 (c) ∞ (d) Does not exist
+Answer: (a)
+Solution: This is the standard limit lim(x→0) (sin x)/x = 1 (x in radians). Option 0 is the trap — it comes from just substituting x = 0 in the numerator and ignoring that the denominator also tends to 0, so the answer is 1.
+Source: NCERT Class 11 Mathematics (Limits and Derivatives)
+
+9. What is ∫ (1/x) dx (x > 0)?
+(a) ln x + C (b) 1/x² + C (c) eˣ + C (d) x·ln x + C
+Answer: (a)
+Solution: Since d/dx(ln x) = 1/x, integration gives ∫ (1/x) dx = ln x + C. Option 1/x² + C is the trap — it comes from misusing the power rule on x⁻¹, so the answer is ln x + C.
+Source: NCERT Class 12 Mathematics (Integrals)
+
+10. What is the derivative of x²·sin x?
+(a) 2x·sin x + x²·cos x (b) 2x·cos x (c) x²·cos x (d) 2x·sin x
+Answer: (a)
+Solution: By the product rule, d/dx(uv) = u′v + uv′: derivative = 2x·sin x + x²·cos x. Option 2x·cos x is the trap — it differentiates both factors and multiplies, which is not the product rule, so the answer is 2x·sin x + x²·cos x.
+Source: NCERT Class 12 Mathematics (Continuity and Differentiability)
+
+11. What is ∫ xⁿ dx for n ≠ −1?
+(a) n·xⁿ⁻¹ + C (b) xⁿ⁺¹/(n+1) + C (c) xⁿ⁻¹ + C (d) (n+1)·xⁿ⁺¹ + C
+Answer: (b)
+Solution: The power rule for integration: ∫ xⁿ dx = xⁿ⁺¹/(n+1) + C, valid for n ≠ −1. Option n·xⁿ⁻¹ + C is the trap — that is the differentiation rule, not integration, so the answer is xⁿ⁺¹/(n+1) + C.
+Source: NCERT Class 12 Mathematics (Integrals)
+
+12. If f(x) = x², what is f′(3)?
+(a) 9 (b) 12 (c) 3 (d) 6
+Answer: (d)
+Solution: f′(x) = 2x, so f′(3) = 2 × 3 = 6. Option 9 is the trap — that is f(3), the value of the function, not its derivative, so the answer is 6.
+Source: NCERT Class 11 Mathematics (Limits and Derivatives)
+
+13. What is the derivative of tan x?
+(a) cot x (b) sec x·tan x (c) cosec²x (d) sec²x
+Answer: (d)
+Solution: d/dx(tan x) = sec²x. Option sec x·tan x is the trap — that is the derivative of sec x, not tan x, so the answer is sec²x.
+Source: NCERT Class 12 Mathematics (Continuity and Differentiability)
+
+14. What is ∫ eˣ dx?
+(a) x·eˣ⁻¹ + C (b) eˣ + C (c) eˣ/x + C (d) ln x + C
+Answer: (b)
+Solution: Since d/dx(eˣ) = eˣ, we get ∫ eˣ dx = eˣ + C. Option x·eˣ⁻¹ + C is the trap — it misapplies the power rule to an exponential, so the answer is eˣ + C.
+Source: NCERT Class 12 Mathematics (Integrals)
+
+15. What is lim(x→0) (eˣ − 1)/x?
+(a) 1 (b) e (c) 0 (d) ∞
+Answer: (a)
+Solution: This standard limit equals 1, since eˣ = 1 + x + x²/2! + …, so (eˣ − 1)/x → 1. Option e is the trap — students associate eˣ with the number e and pick it without expanding, so the answer is 1.
+Source: NCERT Class 11 Mathematics (Limits and Derivatives)
+
+16. What is the derivative of x⁵?
+(a) x⁴ (b) 4x⁵ (c) 5x⁴ (d) 5x⁵
+Answer: (c)
+Solution: By the power rule, d/dx(x⁵) = 5x⁴. Option x⁴ is the trap — it lowers the power but forgets to multiply by the exponent 5, so the answer is 5x⁴.
+Source: NCERT Class 11 Mathematics (Limits and Derivatives)
+
+17. What is ∫ cos x dx?
+(a) −sin x + C (b) tan x + C (c) −cos x + C (d) sin x + C
+Answer: (d)
+Solution: Since d/dx(sin x) = cos x, we get ∫ cos x dx = sin x + C. Option −sin x + C is the trap — it confuses this with the derivative of cos x, so the answer is sin x + C.
+Source: NCERT Class 12 Mathematics (Integrals)
+
+18. The derivative of a function at a point gives:
+(a) The area under the curve (b) The slope of the tangent at that point (c) The maximum value of the function (d) The length of the curve
+Answer: (b)
+Solution: Geometrically, f′(a) is the slope of the tangent line to the curve y = f(x) at x = a. Option "area under the curve" is the trap — that is what the definite integral gives, so the answer is the slope of the tangent at that point.
+Source: NCERT Class 12 Mathematics (Application of Derivatives)
+
+19. What is the derivative of (x² + 1)/(x) for x ≠ 0?
+(a) 2x (b) 1 + 1/x² (c) 1 − 1/x² (d) 1/x²
+Answer: (c)
+Solution: Simplify first: (x² + 1)/x = x + 1/x. Then d/dx = 1 − 1/x². Option 1 + 1/x² is the trap — it forgets that d/dx(1/x) = −1/x² carries a negative sign, so the answer is 1 − 1/x².
+Source: NCERT Class 12 Mathematics (Continuity and Differentiability)
+
+20. What is ∫₀¹ x dx?
+(a) 1 (b) 1/4 (c) 2 (d) 1/2
+Answer: (d)
+Solution: ∫₀¹ x dx = [x²/2]₀¹ = 1/2 − 0 = 1/2. Option 1 is the trap — it comes from evaluating x at x = 1 without integrating, so the answer is 1/2.
+Source: NCERT Class 12 Mathematics (Integrals)
+
+21. What is the derivative of sin(2x)?
+(a) cos(2x) (b) 2sin(2x) (c) 2cos(2x) (d) −2cos(2x)
+Answer: (c)
+Solution: By the chain rule, d/dx(sin(2x)) = cos(2x) × d/dx(2x) = 2cos(2x). Option cos(2x) is the trap — it forgets to multiply by the derivative of the inner function 2x, so the answer is 2cos(2x).
+Source: NCERT Class 12 Mathematics (Continuity and Differentiability)
+
+22. What is ∫ x·eˣ dx?
+(a) eˣ + C (b) eˣ(x + 1) + C (c) x·eˣ + C (d) eˣ(x − 1) + C
+Answer: (d)
+Solution: Integration by parts with u = x, dv = eˣdx: ∫ x·eˣ dx = x·eˣ − ∫ eˣ dx = x·eˣ − eˣ + C = eˣ(x − 1) + C. Option eˣ(x + 1) + C is the trap — it has the wrong sign from mishandling the second integral, so the answer is eˣ(x − 1) + C.
+Source: NCERT Class 12 Mathematics (Integrals)
+
+23. For f(x) = x³ − 3x, the local maximum occurs at:
+(a) x = −1 (b) x = 1 (c) x = 0 (d) x = 3
+Answer: (a)
+Solution: f′(x) = 3x² − 3 = 0 gives x = ±1. f″(x) = 6x: at x = −1, f″(−1) = −6 < 0, so x = −1 is a local maximum; at x = 1, f″(1) = 6 > 0, a minimum. Option x = 1 is the trap — it is the local minimum, not maximum, so the answer is x = −1.
+Source: NCERT Class 12 Mathematics (Application of Derivatives)
+
+24. What is lim(x→0) (1 − cos x)/x²?
+(a) 0 (b) 1/2 (c) 1 (d) 2
+Answer: (b)
+Solution: Using 1 − cos x = 2sin²(x/2), the limit becomes lim 2sin²(x/2)/x² = 2 × (1/2)² = 1/2. Option 0 is the trap — substituting x = 0 gives 0/0, and assuming the numerator dominates leads to the wrong guess, so the answer is 1/2.
+Source: NCERT Class 11 Mathematics (Limits and Derivatives)
+
+25. What is ∫₀^(π/2) sin x dx?
+(a) 0 (b) π/2 (c) 1 (d) −1
+Answer: (c)
+Solution: ∫ sin x dx = −cos x, so ∫₀^(π/2) sin x dx = [−cos x]₀^(π/2) = −cos(π/2) + cos(0) = 0 + 1 = 1. Option 0 is the trap — it comes from evaluating only cos(π/2) and forgetting the lower limit, so the answer is 1.
+Source: NCERT Class 12 Mathematics (Integrals)

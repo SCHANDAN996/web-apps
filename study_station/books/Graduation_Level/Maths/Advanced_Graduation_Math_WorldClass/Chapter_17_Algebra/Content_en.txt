@@ -1,0 +1,206 @@
+# Algebra — The Language of Unknowns
+
+## Learning Goals
+
+By the end of this chapter, you will be able to:
+
+- Master identities and factorisation without memorising blindly
+- Solve linear, quadratic and simultaneous equations with speed
+- Handle inequalities, modulus and surds confidently
+- Tackle polynomials, remainder/factor theorems and progressions (AP/GP)
+- Spot the traps examiners set in SSC CGL Tier-II, IBPS PO Mains, CAT and CSAT
+
+---
+
+## The Hook: The Number That Terrified a Civilisation
+
+Around 500 BCE, a Greek mathematician named Hippasus made a discovery so disturbing that, legend says, his own school — the Pythagoreans — drowned him at sea for it. His crime? He proved that some numbers cannot be written as a fraction. The square root of 2 was "irrational", and the world of neat, tidy numbers cracked open forever.
+
+Why start here? Because **Algebra is exactly this: the moment mathematics stops being about fixed numbers and starts being about the unknown.** The moment you write *x*, you are doing what terrified the ancients — admitting you don't know something, and then *systematically hunting it down*.
+
+Every competitive exam you will face — SSC CGL, IBPS PO, CAT, CSAT — is secretly testing one skill: **can you convert a messy word problem into a clean equation, and solve it fast?** This chapter gives you that weapon.
+
+---
+
+## "But I Hate Algebra…"
+
+Let's be honest. Most aspirants carry a school-time scar: pages full of *x* and *y*, a teacher saying "just transpose it", and no idea *why*. Here's the truth nobody told you:
+
+**Algebra is not about letters. It is about balance.**
+
+An equation is a weighing scale. Whatever you do to one side, you must do to the other. That's it. Every rule — transposition, cross-multiplication, elimination — is just a shortcut for keeping the scale balanced. Once you see this, the fear dissolves.
+
+🧠 **Active Recall:** Before reading further, close your eyes and answer — why are we allowed to "move" a term from LHS to RHS by changing its sign? (Hint: what are we *actually* doing to both sides?)
+
+---
+
+## Chunk 1: The Golden Identities
+
+Everything in advanced algebra stands on a handful of identities. Don't memorise them as symbols — memorise them as *patterns*.
+
+- (a + b)² = a² + 2ab + b²
+- (a − b)² = a² − 2ab + b²
+- a² − b² = (a + b)(a − b)
+- (a + b)³ = a³ + b³ + 3ab(a + b)
+- (a − b)³ = a³ − b³ − 3ab(a − b)
+- a³ + b³ = (a + b)(a² − ab + b²)
+- a³ − b³ = (a − b)(a² + ab + b²)
+- a³ + b³ + c³ − 3abc = (a + b + c)(a² + b² + c² − ab − bc − ca)
+
+**The exam favourite:** if a + b + c = 0, then **a³ + b³ + c³ = 3abc**. This single result cracks many "impossible-looking" questions in SSC and CAT.
+
+**The workhorse trick:** from (a + b)² and (a − b)², we get
+**(a + b)² − (a − b)² = 4ab** and **(a + b)² + (a − b)² = 2(a² + b²)**.
+
+So if x + 1/x = 5, then x² + 1/x² = 5² − 2 = 23, and x³ + 1/x³ = 5³ − 3×5 = 110. Notice the pattern: **square → subtract 2; cube → subtract 3 times the base.** This is one of the most repeated algebra patterns in SSC exams.
+
+🧠 **Active Recall:** If x − 1/x = 4, what is x² + 1/x²? (Careful — the sign flips the adjustment. Answer: 4² + 2 = 18.)
+
+---
+
+## Chunk 2: Linear Equations — One Unknown, One Truth
+
+A linear equation in one variable, ax + b = 0, has exactly one solution: x = −b/a. Simple. But exams rarely give you the equation — they give you a *story*: ages, work, money, mixtures.
+
+**The 3-step translation method:**
+1. **Name** the unknown (let the present age be x).
+2. **Translate** each sentence into an equation piece by piece.
+3. **Solve and verify** against the story, not just the algebra.
+
+For two variables, you need two independent equations. Solve by:
+- **Substitution** (express one variable, plug in)
+- **Elimination** (match coefficients, add/subtract)
+- **Cross-multiplication** for a₁x + b₁y + c₁ = 0 and a₂x + b₂y + c₂ = 0
+
+**Consistency check (a CSAT/CGL favourite):**
+- a₁/a₂ ≠ b₁/b₂ → unique solution
+- a₁/a₂ = b₁/b₂ = c₁/c₂ → infinitely many solutions
+- a₁/a₂ = b₁/b₂ ≠ c₁/c₂ → no solution
+
+🧠 **Active Recall:** Two equations represent two lines. What does "no solution" mean geometrically? (Parallel lines — they never meet.)
+
+---
+
+## Chunk 3: Quadratic Equations — Where the Real Game Begins
+
+ax² + bx + c = 0 (a ≠ 0). Three tools:
+
+1. **Factorisation** — fastest when roots are integers.
+2. **Quadratic formula:** x = [−b ± √(b² − 4ac)] / 2a
+3. **Discriminant analysis:** D = b² − 4ac
+   - D > 0 → two distinct real roots
+   - D = 0 → equal roots
+   - D < 0 → no real roots
+   - D a perfect square (with rational coefficients) → rational roots
+
+**Vieta's relations (memorise like your name):**
+- Sum of roots = −b/a
+- Product of roots = c/a
+
+These two lines solve many quadratic questions without ever finding the roots. "The sum of roots is 7 and product is 12" → roots are 3 and 4, equation is x² − 7x + 12 = 0. Done in seconds.
+
+**Sign tricks:** If both roots are positive → sum positive, product positive. If roots have opposite signs → product negative (c/a < 0). Examiners love asking about the *nature* of roots precisely because students ignore these shortcuts.
+
+🧠 **Active Recall:** Without solving, what is the sum of roots of 2x² − 9x + 4 = 0? (Answer: 9/2.) And what does D = 81 − 32 = 49 tell you? (Perfect square → rational roots.)
+
+---
+
+## Chunk 4: Polynomials, Remainder & Factor Theorems
+
+**Remainder Theorem:** When polynomial p(x) is divided by (x − a), the remainder is simply **p(a)**. No long division needed — just substitute.
+
+**Factor Theorem:** (x − a) is a factor of p(x) **if and only if p(a) = 0**.
+
+Example: Is (x − 2) a factor of x³ − 3x² + 4x − 4? Compute p(2) = 8 − 12 + 8 − 4 = 0. Yes, it is. Ten seconds, zero division.
+
+These two theorems convert terrifying cubic problems into one-line substitutions — a classic IBPS PO Mains and CAT pattern.
+
+🧠 **Active Recall:** What is the remainder when x²⁰²⁴ + 1 is divided by (x − 1)? (Just p(1) = 2.)
+
+---
+
+## Chunk 5: Inequalities and Modulus
+
+Inequalities follow equation rules **with one deadly exception**: multiplying or dividing by a **negative number flips the sign**. −2x > 6 → x < −3 (not x > −3). This single flip is the examiner's favourite trap.
+
+**Modulus basics:**
+- |x| < a → −a < x < a (a sandwich)
+- |x| > a → x < −a or x > a (two separate wings)
+
+**Mnemonic to remember forever — "LESS is a Sandwich, MORE is a War (two sides)":**
+Less-than squeezes x between two values; greater-than splits the answer into two opposite regions.
+
+For quadratic inequalities like x² − 5x + 6 < 0, factorise: (x − 2)(x − 3) < 0. The product is negative *between* the roots → 2 < x < 3. **Rule: "< 0 lives between the roots, > 0 lives outside them"** (when the coefficient of x² is positive).
+
+🧠 **Active Recall:** Solve |2x − 3| ≤ 5. (Sandwich: −5 ≤ 2x − 3 ≤ 5 → −1 ≤ x ≤ 4.)
+
+---
+
+## Chunk 6: Surds, Indices and Logarithms
+
+**Laws of indices** (the non-negotiables):
+- aᵐ × aⁿ = aᵐ⁺ⁿ ; aᵐ ÷ aⁿ = aᵐ⁻ⁿ ; (aᵐ)ⁿ = aᵐⁿ
+- a⁰ = 1 ; a⁻ⁿ = 1/aⁿ ; a^(m/n) = ⁿ√(aᵐ)
+
+**Logarithms** are just indices wearing a mask: logₐb = c means a^c = b.
+- log(MN) = log M + log N
+- log(M/N) = log M − log N
+- log Mⁿ = n log M
+- logₐb = log b / log a (change of base)
+
+**Mnemonic — "Logs turn shopping into addition":** multiplication becomes addition, division becomes subtraction, powers become multiples. Whenever you see a scary product of powers, take logs and watch it melt.
+
+🧠 **Active Recall:** If log₁₀2 ≈ 0.301, what is log₁₀8? (8 = 2³ → 3 × 0.301 = 0.903.)
+
+---
+
+## Chunk 7: Progressions — AP and GP
+
+**Arithmetic Progression (AP):** constant difference d.
+- nth term: aₙ = a + (n − 1)d
+- Sum of n terms: Sₙ = n/2 [2a + (n − 1)d] = n/2 (first + last)
+
+**Geometric Progression (GP):** constant ratio r.
+- nth term: aₙ = arⁿ⁻¹
+- Sum: Sₙ = a(rⁿ − 1)/(r − 1), r ≠ 1
+- Infinite GP (|r| < 1): S∞ = a/(1 − r)
+
+**Handy facts:** If a, b, c are in AP → 2b = a + c. If in GP → b² = ac. The arithmetic mean of two positive numbers is always ≥ their geometric mean (AM ≥ GM) — a result that powers an entire family of maxima-minima questions in CAT.
+
+🧠 **Active Recall:** The 10th term of an AP with a = 3, d = 4? (3 + 9×4 = 39.) And the sum of the infinite GP 1 + 1/2 + 1/4 + …? (1/(1 − 1/2) = 2.)
+
+---
+
+## The Examiner's Trap Box
+
+1. **Sign flip in inequalities** — dividing by a negative and forgetting to flip.
+2. **x + 1/x confusion** — squaring x − 1/x and subtracting 2 instead of adding.
+3. **D < 0 misread** — "no real roots" does not mean "no answer"; it may be exactly what the question asks.
+4. **|x| = 5 has two answers** — x = ±5. Never drop the negative case.
+5. **a⁰ trap** — any non-zero number to the power 0 is 1, but 0⁰ is undefined; exams exploit the edge.
+6. **AM ≥ GM equality** — holds only when all numbers are equal; questions hide maxima right there.
+
+---
+
+## Summary Table
+
+| Topic | Core Result | Speed Signal |
+|---|---|---|
+| Identities | (a+b)² − (a−b)² = 4ab | x + 1/x → square, minus 2 |
+| Zero-sum cubes | a+b+c = 0 ⇒ a³+b³+c³ = 3abc | Three cubes with zero sum |
+| Linear systems | Compare a₁/a₂, b₁/b₂, c₁/c₂ | Unique / infinite / none |
+| Quadratics | Sum = −b/a, Product = c/a | Never solve unless forced |
+| Discriminant | D = b² − 4ac | Nature of roots in seconds |
+| Remainder theorem | Remainder = p(a) | Substitute, don't divide |
+| Inequalities | Negative multiplier flips sign | "< 0" between roots |
+| Modulus | Less = sandwich, More = two wings | Draw the number line |
+| Logs | Product → sum, power → multiple | Scary products? Take log |
+| AP/GP | aₙ, Sₙ formulas; AM ≥ GM | b² = ac signals GP |
+
+---
+
+## Final Word
+
+Algebra rewards the calm, not the clever. Every "hard" question in your exam is one of the seven chunks above wearing a costume. Your job in the exam hall is not to be brilliant — it is to **recognise the costume in the first 15 seconds**.
+
+🔁 **Review this chapter after 2 days.** Re-attempt every Active Recall prompt without looking. Then revisit after 7 days. Spaced repetition is what converts this chapter from "read once" into "scored forever".

@@ -1,0 +1,149 @@
+1. In how many different ways can the letters of the word "CAT" be arranged?
+(a) 3 (b) 9 (c) 6 (d) 12
+Answer: (c)
+Solution: The tempting wrong option 3 comes from simply counting the letters instead of arranging them. The word has 3 distinct letters, so the number of arrangements is 3! = 3 × 2 × 1 = 6, so the answer is 6.
+Source: NCERT Class 11 Mathematics
+
+2. What is the value of 5! ?
+(a) 25 (b) 60 (c) 720 (d) 120
+Answer: (d)
+Solution: The tempting wrong option 25 comes from wrongly multiplying 5 by 5. By definition 5! = 5 × 4 × 3 × 2 × 1 = 120, so the answer is 120.
+Source: NCERT Class 11 Mathematics
+
+3. What is the value of ⁵P₂?
+(a) 10 (b) 60 (c) 25 (d) 20
+Answer: (d)
+Solution: The tempting wrong option 10 is the value of ⁵C₂, which ignores order. Since ⁵P₂ = 5 × 4 = 20, the answer is 20.
+Source: NCERT Class 11 Mathematics
+
+4. What is the value of ⁵C₂?
+(a) 30 (b) 20 (c) 25 (d) 10
+Answer: (d)
+Solution: The tempting wrong option 20 is ⁵P₂, which counts order twice. Since ⁵C₂ = (5 × 4)/(2 × 1) = 10, the answer is 10.
+Source: NCERT Class 11 Mathematics
+
+5. In how many ways can 4 different books be arranged on a shelf?
+(a) 12 (b) 16 (c) 48 (d) 24
+Answer: (d)
+Solution: The tempting wrong option 16 comes from computing 4 × 4 instead of the factorial. The number of arrangements of 4 distinct books is 4! = 24, so the answer is 24.
+Source: NCERT Class 11 Mathematics
+
+6. What is the value of ⁶C₀?
+(a) 1 (b) 0 (c) 6 (d) 60
+Answer: (a)
+Solution: The tempting wrong option 0 confuses choosing nothing with getting zero. There is exactly one way to choose nothing, so ⁶C₀ = 1, and the answer is 1.
+Source: NCERT Class 11 Mathematics
+
+7. What is the value of ⁷C₇?
+(a) 7 (b) 1 (c) 14 (d) 49
+Answer: (b)
+Solution: The tempting wrong option 7 confuses choosing all with choosing one. There is only one way to choose all 7 objects, so ⁷C₇ = 1, and the answer is 1.
+Source: NCERT Class 11 Mathematics
+
+8. How many 2-digit numbers can be formed using the digits 1, 2, 3, 4 without repetition?
+(a) 8 (b) 24 (c) 16 (d) 12
+Answer: (d)
+Solution: The tempting wrong option 16 allows repetition, which the question forbids. The tens place has 4 choices and the units place then has 3 choices, giving 4 × 3 = 12, so the answer is 12.
+Source: NCERT Class 11 Mathematics
+
+9. In how many ways can a committee of 2 members be chosen from 5 persons?
+(a) 5 (b) 10 (c) 20 (d) 25
+Answer: (b)
+Solution: The tempting wrong option 20 counts ordered pairs, but a committee is unordered. The number of committees is ⁵C₂ = 10, so the answer is 10.
+Source: NCERT Class 11 Mathematics
+
+10. What is the value of 0! ?
+(a) 1 (b) 0 (c) 2 (d) Not defined
+Answer: (a)
+Solution: The tempting wrong option 0 assumes an empty product is zero, but by convention an empty product equals one. By definition 0! = 1, so the answer is 1.
+Source: NCERT Class 11 Mathematics
+
+11. In how many ways can the letters of the word "PEN" be arranged?
+(a) 3 (b) 9 (c) 6 (d) 27
+Answer: (c)
+Solution: The tempting wrong option 27 treats each position as independently having 3 choices, ignoring that letters cannot repeat. With 3 distinct letters the arrangements are 3! = 6, so the answer is 6.
+Source: NCERT Class 11 Mathematics
+
+12. What is the value of ⁸C₁?
+(a) 1 (b) 8 (c) 7 (d) 56
+Answer: (b)
+Solution: The tempting wrong option 1 confuses choosing one object with choosing none. Choosing 1 object from 8 can be done in 8 ways, so ⁸C₁ = 8, and the answer is 8.
+Source: NCERT Class 11 Mathematics
+
+13. How many ways are there to arrange 5 people in a row for a photograph?
+(a) 120 (b) 60 (c) 25 (d) 720
+Answer: (a)
+Solution: The tempting wrong option 25 comes from multiplying 5 by 5 instead of using the factorial. The arrangements of 5 distinct people are 5! = 120, so the answer is 120.
+Source: NCERT Class 11 Mathematics
+
+14. What is the value of ⁶P₃?
+(a) 120 (b) 60 (c) 20 (d) 216
+Answer: (a)
+Solution: The tempting wrong option 20 is ⁶C₃, which ignores the order of selection. Since ⁶P₃ = 6 × 5 × 4 = 120, the answer is 120.
+Source: NCERT Class 11 Mathematics
+
+15. From 6 different flowers, in how many ways can 3 flowers be selected for a bouquet?
+(a) 18 (b) 120 (c) 20 (d) 216
+Answer: (c)
+Solution: The tempting wrong option 120 is ⁶P₃, which treats the order of picking as important, but a bouquet is unordered. The number of selections is ⁶C₃ = 20, so the answer is 20.
+Source: NCERT Class 11 Mathematics
+
+16. How many 3-digit numbers can be formed from the digits 1, 2, 3 if repetition of digits is allowed?
+(a) 27 (b) 9 (c) 6 (d) 81
+Answer: (a)
+Solution: The tempting wrong option 6 applies when repetition is not allowed. With repetition allowed, each of the 3 places has 3 choices, giving 3 × 3 × 3 = 27, so the answer is 27.
+Source: NCERT Class 11 Mathematics
+
+17. What is the value of ¹⁰C₁₀?
+(a) 100 (b) 10 (c) 1 (d) 0
+Answer: (c)
+Solution: The tempting wrong option 10 confuses choosing all with choosing one. There is exactly one way to select all 10 objects, so ¹⁰C₁₀ = 1, and the answer is 1.
+Source: NCERT Class 11 Mathematics
+
+18. In how many ways can 3 prizes (first, second, third) be awarded to 8 contestants if no contestant gets more than one prize?
+(a) 336 (b) 56 (c) 24 (d) 512
+Answer: (a)
+Solution: The tempting wrong option 56 is ⁸C₃, but prizes are ranked, so order matters. The number of ways is ⁸P₃ = 8 × 7 × 6 = 336, so the answer is 336.
+Source: NCERT Class 11 Mathematics
+
+19. What is the value of ⁹C₂?
+(a) 18 (b) 36 (c) 72 (d) 81
+Answer: (b)
+Solution: The tempting wrong option 72 forgets to divide by 2! and counts each pair twice. Since ⁹C₂ = (9 × 8)/2 = 36, the answer is 36.
+Source: NCERT Class 11 Mathematics
+
+20. A coin is tossed 4 times. How many different outcomes are possible?
+(a) 8 (b) 16 (c) 12 (d) 24
+Answer: (b)
+Solution: The tempting wrong option 8 comes from adding 2 four times instead of multiplying. Each toss has 2 outcomes, so total outcomes are 2⁴ = 16, and the answer is 16.
+Source: NCERT Class 11 Mathematics
+
+21. In how many ways can the letters of the word "APPLE" be arranged?
+(a) 24 (b) 120 (c) 60 (d) 30
+Answer: (c)
+Solution: The tempting wrong option 120 treats all 5 letters as distinct, ignoring the repeated P. Since P occurs twice, the arrangements are 5!/2! = 60, so the answer is 60.
+Source: NCERT Class 11 Mathematics
+
+22. How many 4-digit numbers can be formed using the digits 0, 1, 2, 3 without repetition?
+(a) 18 (b) 24 (c) 12 (d) 6
+Answer: (a)
+Solution: The tempting wrong option 24 uses 4! but wrongly allows 0 in the thousands place, which would not give a 4-digit number. The thousands place has 3 choices (1, 2, 3) and the remaining places have 3! = 6 arrangements, giving 3 × 6 = 18, so the answer is 18.
+Source: NCERT Class 11 Mathematics
+
+23. In how many ways can a committee of 3 men and 2 women be formed from 6 men and 5 women?
+(a) 150 (b) 200 (c) 100 (d) 60
+Answer: (b)
+Solution: The tempting wrong option 60 adds the selections instead of multiplying them. Men can be chosen in ⁶C₃ = 20 ways and women in ⁵C₂ = 10 ways, giving 20 × 10 = 200, so the answer is 200.
+Source: NCERT Class 11 Mathematics
+
+24. In how many ways can 6 people be seated around a circular table?
+(a) 720 (b) 36 (c) 60 (d) 120
+Answer: (d)
+Solution: The tempting wrong option 720 uses 6!, but in a circle rotations of the same arrangement are identical. Circular arrangements of 6 people are (6 − 1)! = 120, so the answer is 120.
+Source: NCERT Class 11 Mathematics
+
+25. How many words can be formed from the letters of the word "SCHOOL" if the two O's must always come together?
+(a) 60 (b) 240 (c) 120 (d) 720
+Answer: (c)
+Solution: The tempting wrong option 240 doubles the correct count by treating the two identical O's as distinguishable within their block. Treating OO as one unit gives 5 units (S, C, H, L, OO) arranged in 5! = 120 ways, and the identical O's add no extra factor, so the answer is 120.
+Source: NCERT Class 11 Mathematics

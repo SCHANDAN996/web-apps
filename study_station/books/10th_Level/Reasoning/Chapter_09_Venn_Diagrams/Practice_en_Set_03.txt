@@ -1,0 +1,151 @@
+Questions 51–65: Medium | Questions 66–75: Hard
+
+51. Which of the following Venn diagrams best represents the relationship among: Sun, Moon, Stars?
+(a) Sun inside Stars, Moon separate (b) Three separate circles (c) Three overlapping circles (d) Moon inside Stars, Sun separate
+Answer: (a)
+Solution: The tempting wrong choice is three separate circles, but the Sun is itself a star, so the Sun circle lies inside the Stars circle. The Moon is a natural satellite, not a star, so it stays separate. Hence the answer is Sun inside Stars with Moon separate.
+Source: PYQ-style
+
+52. Choose the Venn diagram for Mammals, Whales, Fishes.
+(a) Three overlapping circles (b) Whales inside Fishes, Mammals separate (c) Whales inside Mammals, Fishes overlapping Mammals (d) Whales inside Mammals, Fishes separate from Mammals
+Answer: (d)
+Solution: The trap is putting whales with fishes because whales live in water, but biologically all whales are mammals. Fishes form a separate class with no overlap with mammals. So the answer is Whales inside Mammals with Fishes separate.
+Source: NCERT Class 9 Science
+
+53. In a group of 200 people, 120 speak Hindi, 100 speak English, 60 speak both. How many speak neither?
+(a) 20 (b) 10 (c) 40 (d) 30
+Answer: (c)
+Solution: People speaking at least one language = 120 + 100 − 60 = 160. The trap is forgetting to subtract the overlap, which gives 220 and an absurd result. Neither = 200 − 160, so the answer is 40.
+Source: NCERT Class 11 Mathematics
+
+54. In a Venn diagram, circle A = Men, circle B = Players, circle C = Artists. Regions: only Men = 10, only Players = 8, only Artists = 12, Men and Players only = 5, Players and Artists only = 4, Men and Artists only = 6, all three = 3. How many are either men or players but not artists?
+(a) 21 (b) 28 (c) 25 (d) 23
+Answer: (d)
+Solution: The trap is adding the all-three region, but it lies inside Artists and must be excluded. Take regions inside Men or Players but outside Artists: 10 + 8 + 5. So the answer is 23.
+Source: PYQ-style
+
+55. Which Venn diagram best represents the relationship among Men, Fathers, Doctors?
+(a) Three overlapping circles (b) Three separate circles (c) Fathers inside Men, Doctors overlapping both (d) Men inside Fathers, Doctors separate
+Answer: (c)
+Solution: The trap is three overlapping circles, but every father is necessarily a man, so Fathers must sit fully inside Men. Doctors may be men, fathers, both or neither, so the Doctors circle overlaps both. Hence the answer is Fathers inside Men with Doctors overlapping both.
+Source: PYQ-style
+
+56. Statements: All pencils are pens. Some pens are erasers. No eraser is a sharpener. Conclusions: I. Some pencils are erasers. II. Some pens are not sharpeners.
+(a) Both I and II follow (b) Only II follows (c) Only I follows (d) Neither I nor II follows
+Answer: (b)
+Solution: The trap is assuming the pencil part of pens must touch the eraser part; it need not, so I fails. The pens that are erasers can never be sharpeners, so some pens are definitely not sharpeners. Hence only II follows.
+Source: PYQ-style
+
+57. In a Venn diagram with three sets A, B, C, it is given that only A = 8, only B = 6, only C = 10, A and B only = 4, B and C only = 5, A and C only = 3, all three = 2. How many elements are in at least two sets?
+(a) 10 (b) 14 (c) 12 (d) 16
+Answer: (b)
+Solution: The trap is forgetting the all-three region, which is also in at least two sets. At least two = (4 + 5 + 3) + 2. So the answer is 14.
+Source: NCERT Class 11 Mathematics
+
+58. Which option best represents Square, Rectangle, Polygon?
+(a) Square inside Rectangle, Rectangle inside Polygon (b) All three overlapping (c) Rectangle inside Square, Square inside Polygon (d) Square inside Polygon, Rectangle separate
+Answer: (a)
+Solution: The trap is reversing the nesting, but every square is a rectangle and every rectangle is a polygon, not the other way round. So the circles nest from smallest to largest. Hence the answer is Square inside Rectangle inside Polygon.
+Source: NCERT Class 9 Mathematics
+
+59. Statements: No river is an ocean. All oceans are water bodies. Some water bodies are lakes. Conclusions: I. Some water bodies are not rivers. II. No lake is a river.
+(a) Both I and II follow (b) Only I follows (c) Only II follows (d) Neither I nor II follows
+Answer: (b)
+Solution: Oceans are water bodies and no ocean is a river, so those water bodies are not rivers — I follows. The trap is II: nothing stops lakes and rivers from overlapping, so it is not definite. Hence only I follows.
+Source: PYQ-style
+
+60. Which Venn diagram best represents Engineer, Doctor, Women?
+(a) Three separate circles (b) Women inside Doctor, Engineer separate (c) Doctor inside Engineer, Women separate (d) Three overlapping circles
+Answer: (d)
+Solution: The trap is treating professions and gender as disjoint, but a woman can be an engineer, a doctor, or both, and men can also be engineers or doctors. Each pair can overlap with no subset relation. So the answer is three overlapping circles.
+Source: PYQ-style
+
+61. In a survey, 70% like cricket, 60% like football, 40% like both. What percentage like at most one?
+(a) 50% (b) 70% (c) 40% (d) 60%
+Answer: (d)
+Solution: The trap is computing 70 + 60 − 40 = 90%, which is at least one, not at most one. At most one = 100% − those who like both = 100% − 40%. So the answer is 60%.
+Source: NCERT Class 11 Mathematics
+
+62. Statements: All chairs are tables. Some tables are wooden. No wooden thing is plastic. Conclusions: I. Some chairs are wooden. II. Some tables are not plastic.
+(a) Only II follows (b) Only I follows (c) Neither I nor II follows (d) Both I and II follow
+Answer: (a)
+Solution: The trap is I: the wooden tables may lie entirely outside the chair portion, so I is not definite. The tables that are wooden cannot be plastic, so some tables are surely not plastic. Hence only II follows.
+Source: PYQ-style
+
+63. Choose the Venn diagram for Vegetable, Potato, Onion.
+(a) Potato inside Onion, both inside Vegetable (b) Three separate circles (c) Potato and Onion inside Vegetable, no overlap between them (d) Three overlapping circles
+Answer: (c)
+Solution: The trap is drawing three separate circles, but both potato and onion are vegetables, so both sit inside the Vegetable circle. A potato is never an onion, so the two inner circles do not overlap. Hence the answer is Potato and Onion as disjoint circles inside Vegetable.
+Source: PYQ-style
+
+64. In the given figure, triangle = Teachers, square = Post-graduates, circle = Rural. Numbers: only Teachers = 9, only Post-graduates = 7, only Rural = 11, Teachers and PG only = 4, PG and Rural only = 6, Teachers and Rural only = 5, all three = 3. How many are exactly two of these?
+(a) 18 (b) 15 (c) 14 (d) 12
+Answer: (b)
+Solution: The trap is adding the all-three region, but exactly two excludes those in all three. Exactly two = 4 + 6 + 5. So the answer is 15.
+Source: PYQ-style
+
+65. Statements: Some bags are wallets. All wallets are leather. No leather is cloth. Conclusions: I. Some bags are leather. II. No wallet is cloth.
+(a) Both I and II follow (b) Only II follows (c) Neither I nor II follows (d) Only I follows
+Answer: (a)
+Solution: The bags that are wallets are leather, so I follows. Since every wallet is leather and leather never touches cloth, no wallet is cloth, so II also follows. Hence both I and II follow.
+Source: PYQ-style
+
+66. Which Venn diagram best fits Fruit, Apple, Mango?
+(a) Apple and Mango inside Fruit, no overlap between them (b) Apple inside Mango, both inside Fruit (c) Three overlapping circles (d) Fruit inside Apple, Mango separate
+Answer: (a)
+Solution: The trap is overlapping Apple and Mango, but no fruit is both an apple and a mango at once; they are distinct kinds. Both are subsets of Fruit. So the answer is Apple and Mango as disjoint circles inside Fruit.
+Source: PYQ-style
+
+67. Which option correctly shows Teacher, Student, School?
+(a) Three separate circles (b) Student inside Teacher, School separate (c) Teacher inside School, Student overlapping Teacher (d) Teacher and Student inside School, no overlap
+Answer: (d)
+Solution: The trap is three separate circles, but in exam convention both teachers and students belong to the school as members. A teacher is not a student, so the two inner circles stay disjoint. Hence the answer is Teacher and Student as separate circles inside School.
+Source: PYQ-style
+
+68. In a Venn diagram, A = Doctors, B = Singers, C = Indians. Numbers: only A = 13, only B = 11, only C = 15, A and B only = 6, B and C only = 8, A and C only = 7, all three = 4. How many are exactly one of these?
+(a) 43 (b) 41 (c) 39 (d) 35
+Answer: (c)
+Solution: The trap is adding pairwise regions, but exactly one means only the single-set regions. Exactly one = 13 + 11 + 15. So the answer is 39.
+Source: PYQ-style
+
+69. Statements: Some mobiles are laptops. No laptop is a tablet. All tablets are gadgets. Conclusions: I. Some mobiles are not tablets. II. No laptop is a gadget.
+(a) Neither I nor II follows (b) Both I and II follow (c) Only II follows (d) Only I follows
+Answer: (d)
+Solution: The mobiles that are laptops cannot be tablets, so some mobiles are not tablets — I follows. The trap is II: nothing prevents laptops from being gadgets, so it fails. Hence only I follows.
+Source: PYQ-style
+
+70. Which Venn diagram represents Metals, Gold, Silver?
+(a) Three overlapping circles (b) Gold inside Silver, both inside Metals (c) Gold and Silver inside Metals, no overlap between Gold and Silver (d) Metals inside Gold, Silver inside Gold
+Answer: (c)
+Solution: The trap is overlapping Gold and Silver, but as elements they are distinct metals with no class overlap. Both are subsets of Metals. So the answer is Gold and Silver as disjoint circles inside Metals.
+Source: NCERT Class 10 Science
+
+71. Statements: Some roses are red. All red things are beautiful. Some beautiful things are flowers. Conclusions: I. Some roses are beautiful. II. Some flowers are red.
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (a)
+Solution: The roses that are red must be beautiful, so I follows. The trap is II: the flowers among beautiful things may all lie outside the red part, so it is not definite. Hence only I follows.
+Source: PYQ-style
+
+72. In a class, 80% passed in English, 70% in Maths, 60% in both. What percentage passed in exactly one subject?
+(a) 20% (b) 30% (c) 40% (d) 10%
+Answer: (b)
+Solution: Passed in at least one = 80 + 70 − 60 = 90%. The trap is stopping at 90%; exactly one removes the both group: 90% − 60%. So the answer is 30%.
+Source: NCERT Class 11 Mathematics
+
+73. Choose the Venn diagram for Bird, Ostrich, Sparrow.
+(a) Ostrich and Sparrow inside Bird, no overlap between them (b) Three overlapping circles (c) Three separate circles (d) Ostrich inside Sparrow, both inside Bird
+Answer: (a)
+Solution: The trap is separating the ostrich because it cannot fly, but flying is irrelevant — an ostrich is still a bird. Ostrich and sparrow are different species, so their circles do not overlap. Hence the answer is Ostrich and Sparrow as disjoint circles inside Bird.
+Source: NCERT Class 9 Science
+
+74. Statements: All dogs are animals. Some animals are wild. No wild creature is pet. Conclusions: I. Some dogs are wild. II. No dog is pet.
+(a) Only II follows (b) Both I and II follow (c) Neither I nor II follows (d) Only I follows
+Answer: (c)
+Solution: The trap is assuming dogs must touch the wild part of animals; they may lie entirely in the non-wild part, so I fails. Dogs may also be pets since nothing forbids it, so II fails too. Hence neither I nor II follows.
+Source: PYQ-style
+
+75. Which option correctly shows Players, Cricketers, Hockey players?
+(a) Three overlapping circles (b) Cricketers and Hockey players inside Players, no overlap between them (c) Cricketers inside Hockey players, both inside Players (d) Players inside Cricketers, Hockey players separate
+Answer: (b)
+Solution: The trap is reversing the nesting, but every cricketer and every hockey player is a player, so Players is the largest circle. In standard exam convention the two sports groups are treated as distinct, so their circles do not overlap. Hence the answer is Cricketers and Hockey players as disjoint circles inside Players.
+Source: PYQ-style

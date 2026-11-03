@@ -1,3 +1,143 @@
-# Chapter: Number Series, Level: intermediate
+# 📊 PYQ Analysis — Number Series
 
-@pyq_agent lang=en level=intermediate 'Analyse PYQs of Number Series for last 10 years (SSC CGL Mains, IBPS PO, RRB NTPC, CAT etc.). Give top 10 high-yield questions with solutions. Also explain what psychological hook or trap each question uses.'
+## How Exams Test This Chapter
+
+Number Series is one of the most reliable scoring areas in SSC CGL, IBPS PO, RRB NTPC and CAT-style aptitude papers. Across these exams, the questions fall into a handful of repeating patterns. If you master the patterns below, you can solve most series questions in 15–45 seconds.
+
+### The Patterns Examiners Love
+
+1. **Pure difference series** — differences are constant, or themselves form an AP (second-level differences constant). This is the single most common type.
+2. **Multiplication / mixed operation series** — ×2, ×2+1, ×3−2, etc. Very common in banking exams (IBPS PO).
+3. **Square and cube series** — n², n²±k, n³±n. SSC loves these.
+4. **Alternating / twin series** — two interleaved series in one. A classic trap: students try to fit one rule to all terms.
+5. **Prime number series** — primes, primes±k.
+6. **Fibonacci-type (sum of previous terms)** — each term = sum (or difference) of previous two.
+7. **Wrong-number-in-series** — instead of finding the next term, find the term that breaks the rule. Very frequent in IBPS PO.
+8. **Fraction / decimal series** — same rules applied to fractions; the trap is panic, not difficulty.
+
+### The Examiner's Traps (Read Twice!)
+
+- **The "almost fits" trap:** A series like 2, 4, 8, 16… looks like ×2, but the examiner extends it as 2, 4, 8, 14, 22 (differences 2, 4, 6, 8). Always check at least 3–4 terms before deciding the rule.
+- **The alternating trap:** 3, 6, 5, 10, 9, 18, ? — students hunt for one rule and waste time. Split odd and even positions: 3, 5, 9… and 6, 10, 18…
+- **The negative-statement trap:** "Which number does NOT fit?" — students find the next term out of habit and mark a wrong option.
+- **The look-alike trap:** Options like 63 and 65 when the answer is 64 (a cube or square near-miss). Examiners place "one-off" numbers deliberately.
+- **The operation-change trap:** The rule itself changes step by step: ×1+1, ×2+2, ×3+3… Check whether the multiplier/adder is also growing.
+
+### Time Strategy
+
+- First 15 seconds: check differences. If differences are clean → solve.
+- Next 15 seconds: check ratios (×2, ×3…). If ratios are clean → solve.
+- Next 15 seconds: check squares/cubes near the terms, then alternating split.
+- Beyond 45 seconds: mark and move on. Series questions are designed to be fast — if it's taking long, you're on the wrong pattern.
+
+---
+
+## Top 10 High-Yield Questions (with Solutions)
+
+**Q1.** Find the next term: 4, 9, 19, 39, 79, ?
+(a) 119 (b) 139 (c) 159 (d) 169
+
+**Answer: (c) 159**
+**Solution:** Rule: ×2 + 1 each time. 4×2+1 = 9; 9×2+1 = 19; 19×2+1 = 39; 39×2+1 = 79; 79×2+1 = **159**.
+**Hook/Trap:** Differences (5, 10, 20, 40) also double — both views work, but students who only check differences sometimes mis-add. Option (b) 139 catches those who compute 79×2 = 158 and add 1 wrongly… actually 158+1 = 159; the trap option 139 is for those who do 79+60. Verify by both methods.
+**Source:** PYQ-style (IBPS PO pattern)
+
+---
+
+**Q2.** Find the next term: 2, 6, 12, 20, 30, ?
+(a) 36 (b) 40 (c) 42 (d) 44
+
+**Answer: (c) 42**
+**Solution:** Differences: 4, 6, 8, 10 → next difference 12 → 30 + 12 = **42**. (Also: terms are n²+n: 1×2, 2×3, 3×4, 4×5, 5×6, 6×7 = 42.)
+**Hook/Trap:** Option (b) 40 tempts students who assume differences increase by 2 but stop at +10. The n(n+1) form is a famous SSC favourite.
+**Source:** PYQ-style (SSC CGL pattern)
+
+---
+
+**Q3.** Find the next term: 1, 4, 9, 16, 25, ?
+(a) 30 (b) 35 (c) 36 (d) 49
+
+**Answer: (c) 36**
+**Solution:** Perfect squares: 1², 2², 3², 4², 5² → next 6² = **36**.
+**Hook/Trap:** Option (d) 49 traps students who jump to 7² skipping 6². Simple series are placed to test speed, not difficulty — don't overthink.
+**Source:** NCERT Class 8 Mathematics (square numbers)
+
+---
+
+**Q4.** Find the next term: 3, 7, 16, 35, 74, ?
+(a) 148 (b) 153 (c) 163 (d) 173
+
+**Answer: (b) 153**
+**Solution:** Rule: ×2 + 1, ×2 + 2, ×2 + 3, ×2 + 4… → 3×2+1 = 7; 7×2+2 = 16; 16×2+3 = 35; 35×2+4 = 74; 74×2+5 = **153**.
+**Hook/Trap:** The adder itself increases (1, 2, 3, 4, 5). Students who fix on "×2 + something constant" get stuck. This "growing adder" is a classic IBPS PO hook.
+**Source:** PYQ-style (IBPS PO pattern)
+
+---
+
+**Q5.** Find the next term: 5, 11, 23, 47, 95, ?
+(a) 189 (b) 191 (c) 193 (d) 195
+
+**Answer: (b) 191**
+**Solution:** Rule: ×2 + 1. 5×2+1 = 11; 11×2+1 = 23; 23×2+1 = 47; 47×2+1 = 95; 95×2+1 = **191**.
+**Hook/Trap:** Option (a) 189 = 95×2 − 1, placed for sign-confusion. Option (c) 193 catches those who add 2 instead of 1. Near-miss options are deliberate.
+**Source:** PYQ-style (SSC CGL / RRB NTPC pattern)
+
+---
+
+**Q6.** Find the next term: 2, 3, 5, 7, 11, 13, ?
+(a) 15 (b) 16 (c) 17 (d) 19
+
+**Answer: (c) 17**
+**Solution:** These are consecutive prime numbers. After 13, the next prime is **17**.
+**Hook/Trap:** Option (a) 15 tempts students who see "odd numbers +2". The series breaks the odd-number rule at 9 (skipped) — always suspect primes when odd numbers skip values.
+**Source:** NCERT Class 6 Mathematics (prime numbers)
+
+---
+
+**Q7.** Find the next term: 1, 1, 2, 3, 5, 8, 13, ?
+(a) 18 (b) 20 (c) 21 (d) 24
+
+**Answer: (c) 21**
+**Solution:** Fibonacci-type: each term = sum of previous two. 8 + 13 = **21**.
+**Hook/Trap:** Students hunt for differences (0, 1, 1, 2, 3, 5) — which is itself the same series! Recognising Fibonacci instantly saves 30 seconds. Option (b) 20 catches those who compute 8+13−1.
+**Source:** PYQ-style (CAT / SSC pattern)
+
+---
+
+**Q8.** Find the next term: 4, 6, 10, 18, 34, ?
+(a) 50 (b) 62 (c) 66 (d) 68
+
+**Answer: (c) 66**
+**Solution:** Differences: 2, 4, 8, 16 → doubling → next difference 32 → 34 + 32 = **66**. (Equivalently: ×2 − 2 each time.)
+**Hook/Trap:** Two valid rules give the same answer — a well-designed question. Option (d) 68 = 34×2, for students who forget the −2. Option (a) 50 = 34 + 16, for those who repeat the last difference.
+**Source:** PYQ-style (RRB NTPC pattern)
+
+---
+
+**Q9.** Find the next term: 8, 27, 64, 125, ?
+(a) 196 (b) 216 (c) 225 (d) 256
+
+**Answer: (b) 216**
+**Solution:** Perfect cubes: 2³, 3³, 4³, 5³ → next 6³ = **216**.
+**Hook/Trap:** Option (a) 196 = 14² and (d) 256 = 16²/2⁸ — square-lovers get trapped. When terms grow fast (8→125), think cubes before squares.
+**Source:** NCERT Class 8 Mathematics (cube numbers)
+
+---
+
+**Q10.** Find the next term: 3, 6, 5, 10, 9, 18, 17, ?
+(a) 34 (b) 33 (c) 32 (d) 30
+
+**Answer: (a) 34**
+**Solution:** Alternating operations: ×2, −1, ×2, −1, ×2, −1… → 3×2 = 6; 6−1 = 5; 5×2 = 10; 10−1 = 9; 9×2 = 18; 18−1 = 17; 17×2 = **34**.
+**Hook/Trap:** This is the classic alternating trap — no single difference or ratio fits all terms. Students who split into two series (3, 5, 9, 17… and 6, 10, 18…) also reach 34 via the odd-position rule (differences 2, 4, 8 → +16 → 33? No — odd positions are 3, 5, 9, 17 with differences 2, 4, 8; the next odd term would be 33, but the required term is at an even position: 6, 10, 18, ? with differences 4, 8, 16 → 18+16 = 34). Option (b) 33 traps those who extend the wrong sub-series.
+**Source:** PYQ-style (SSC CGL Mains pattern)
+
+---
+
+## Key Takeaways
+
+- Check **differences first**, then **ratios**, then **squares/cubes**, then **alternating split** — in that order.
+- Verify your rule on **at least 3 consecutive steps** before answering.
+- In "wrong number" questions, re-read the question — don't find the next term by habit.
+- Options placed ±1 or ±2 from the answer are deliberate traps; recompute before marking.
+- Revise squares up to 25² and cubes up to 12³ — they appear constantly.

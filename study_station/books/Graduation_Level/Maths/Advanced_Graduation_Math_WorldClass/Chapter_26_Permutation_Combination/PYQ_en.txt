@@ -1,0 +1,100 @@
+# 📊 PYQ Analysis — Permutation & Combination (Advanced Level)
+
+## How Exams Test This Chapter
+
+Across UPSC CSAT, CAT, SSC CGL Tier-II, IBPS PO Mains and State PCS papers, Permutation & Combination questions follow a small set of recurring patterns. Master these patterns and most questions become 60–90 second jobs.
+
+**Recurring sub-topics (in rough order of frequency):**
+
+1. **Basic counting with restrictions** — "How many numbers/words/arrangements such that…" (digits with repetition allowed/not allowed, vowels together, particular positions fixed).
+2. **Committee / selection problems** — choosing r people from m men and n women with conditions ("at least one woman", "exactly two officers").
+3. **Circular permutations** — people around a round table, sometimes with two specific persons together or apart.
+4. **Identical objects** — arrangements of letters of words like MISSISSIPPI, ALLAHABAD, DISTRIBUTION (repeated letters).
+5. **Distribution problems** — distributing identical or distinct objects into groups; number of non-negative integer solutions (stars and bars).
+6. **Geometry-based counting** — number of triangles / diagonals / straight lines from n points.
+7. **Derangement-flavoured and rank-of-word questions** (mostly CAT).
+8. **Mixed with probability** — "two cards/persons chosen at random…" where P&C supplies numerator and denominator.
+
+**The examiner's favourite traps:**
+
+- **The "together vs. not together" trap:** "A and B never together" = Total − (together). Students who compute "not together" directly usually double-count.
+- **The repetition trap:** "digits may be repeated" vs. "without repetition" — one word changes the whole method (multiplication principle vs. permutation).
+- **The circular trap:** forgetting to divide by n (or fixing one person) when the table is round; also forgetting that a garland/necklace divides by 2n.
+- **The identical-letter trap:** forgetting to divide by the factorials of repeated letters.
+- **The "at least one" trap:** direct counting of "at least one" is messy; complement (Total − none) is the intended fast route.
+- **The order-confusion trap:** using ⁿPᵣ where selection (ⁿCᵣ) is needed, or vice versa. Ask: *does swapping two chosen items create a new case?*
+- **The leading-zero trap:** while forming numbers, 0 cannot occupy the leftmost place — handle that position separately.
+- **The double-count trap in geometry:** counting triangles from points where some points are collinear — subtract the collinear triples.
+
+---
+
+## Top 10 High-Yield Questions (with Solutions)
+
+**Q1.** How many 4-digit numbers can be formed using the digits 0, 1, 2, 3, 4, 5 without repetition?
+(a) 300 (b) 360 (c) 240 (d) 120
+**Answer: (a)**
+**Solution:** Thousands place: 5 choices (0 not allowed). Remaining three places: ⁵P₃ = 5×4×3 = 60. Total = 5 × 60 = 300.
+**Trap:** Using ⁶P₄ = 360 directly ignores that 0 cannot lead. *Source: PYQ-style (CSAT pattern)*
+
+**Q2.** In how many ways can the letters of the word MISSISSIPPI be arranged?
+(a) 34650 (b) 69300 (c) 39916800 (d) 17325
+**Answer: (a)**
+**Solution:** 11 letters with I×4, S×4, P×2: 11!/(4!·4!·2!) = 39916800/(24·24·2) = 34650.
+**Trap:** Option (c) is 11! — the bait for those who forget repeated letters. *Source: NCERT Class 11 Mathematics*
+
+**Q3.** A committee of 5 is to be formed from 6 men and 4 women, containing at least one woman. Number of ways?
+(a) 246 (b) 252 (c) 240 (d) 186
+**Answer: (a)**
+**Solution:** Total = ¹⁰C₅ = 252. All-men = ⁶C₅ = 6. Required = 252 − 6 = 246.
+**Trap:** Computing ⁴C₁ × ⁹C₄ = 504 double-counts committees with 2+ women. Complement is the clean route. *Source: PYQ-style (Bank PO pattern)*
+
+**Q4.** In how many ways can 8 people sit around a round table if two particular persons must sit together?
+(a) 1440 (b) 5040 (c) 720 (d) 10080
+**Answer: (a)**
+**Solution:** Treat the pair as one unit: 7 units in a circle → 6! = 720. Pair internally: 2! = 2. Total = 720 × 2 = 1440.
+**Trap:** Using 7! × 2 = 10080 (option d) forgets the circular division by n. *Source: PYQ-style (CAT pattern)*
+
+**Q5.** How many words can be formed from the letters of EXAMINATION such that all vowels are together?
+(a) 30240 (b) 64800 (c) 151200 (d) 75600
+**Answer: (b)**
+**Solution:** Vowels E, A, I, A, I, O (6 letters, with A×2 and I×2) are treated as one block. Together with consonants X, M, N, T, N we have 6 units, with N repeated twice: 6!/2! = 360 arrangements. Vowels arrange inside the block in 6!/(2!·2!) = 180 ways. Total = 360 × 180 = 64800.
+**Trap:** Forgetting the repeated N among the consonants or the repeated A and I among the vowels. *Source: PYQ-style*
+
+**Q6.** From 10 points in a plane, no three collinear, how many triangles can be formed? If 4 of the points are collinear, how many triangles?
+(a) 120, 116 (b) 120, 100 (c) 720, 716 (d) 120, 96
+**Answer: (a)**
+**Solution:** No-three-collinear: ¹⁰C₃ = 120. With 4 collinear: subtract ⁴C₃ = 4 → 120 − 4 = 116.
+**Trap:** Forgetting to subtract degenerate (straight-line) triples. *Source: NCERT Class 11 Mathematics*
+
+**Q7.** How many diagonals does a polygon of 10 sides have?
+(a) 35 (b) 45 (c) 40 (d) 50
+**Answer: (a)**
+**Solution:** ¹⁰C₂ − 10 = 45 − 10 = 35 (subtract the 10 sides).
+**Trap:** Answering 45 (option b) — that counts sides too. *Source: NCERT Class 11 Mathematics*
+
+**Q8.** In how many ways can 12 identical pens be distributed among 4 children so that each child gets at least one pen?
+(a) 165 (b) 455 (c) 330 (d) 220
+**Answer: (a)**
+**Solution:** Positive integer solutions of x₁+x₂+x₃+x₄ = 12: ¹¹C₃ = 165.
+**Trap:** Using ¹⁵C₃ = 455 — that's for "zero allowed" (non-negative solutions). Read "at least one" carefully. *Source: PYQ-style (CAT pattern)*
+
+**Q9.** How many 3-digit even numbers can be formed from digits 1, 2, 3, 4, 5 without repetition?
+(a) 24 (b) 60 (c) 12 (d) 36
+**Answer: (a)**
+**Solution:** Units place must be 2 or 4 → 2 choices. Remaining two places: ⁴P₂ = 12. Total = 2 × 12 = 24.
+**Trap:** Filling from the left first and then discovering the units-place constraint clashes — always fix the *restricted* position first. *Source: PYQ-style (CSAT pattern)*
+
+**Q10.** A box has 5 red and 4 blue balls. In how many ways can 4 balls be drawn such that exactly 2 are red?
+(a) 60 (b) 120 (c) 30 (d) 90
+**Answer: (a)**
+**Solution:** ⁵C₂ × ⁴C₂ = 10 × 6 = 60.
+**Trap:** Using ⁵P₂ × ⁴P₂ — drawing balls is selection, not arrangement. This same structure appears as the numerator in probability questions. *Source: PYQ-style (Bank PO pattern)*
+
+---
+
+## Strategy Notes
+
+- **CSAT** loves small-number arrangement puzzles solvable by pure logic + multiplication principle; heavy formulas are rarely needed.
+- **CAT** pushes identical-object arrangements, distributions, and rank-of-a-word; expect multi-step reasoning.
+- **Bank PO / SSC Tier-II** favour committee selections and "together/apart" seating — complement method wins time.
+- Universal habit: read the question twice, underline *repetition allowed?*, *order matters?*, *at least / exactly / at most?* — these three words decide the method.

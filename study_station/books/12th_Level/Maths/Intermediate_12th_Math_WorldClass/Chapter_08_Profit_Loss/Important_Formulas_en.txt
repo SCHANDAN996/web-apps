@@ -1,8 +1,34 @@
-# Chapter: Profit & Loss, Level: intermediate
+# 📋 Important Formulas — Profit & Loss
 
-@content_agent lang=en level=intermediate 'List all important formulas, equations, and rules for Profit & Loss.
-Instructions:
-- Only formulas and a one-line hint (when to use), no detailed explanation.
-- Present in a clean table: Formula Name | Formula | Use-Hint
-- Cover all formulas essential for solving exam questions.
-- Keep language simple and precise.'
+| # | Formula Name | Formula | Use-Hint |
+|---|---|---|---|
+| 1 | Profit | Profit = SP − CP | When selling price exceeds cost price |
+| 2 | Loss | Loss = CP − SP | When cost price exceeds selling price |
+| 3 | Profit % | Profit % = (Profit / CP) × 100 | Always calculate on CP unless stated |
+| 4 | Loss % | Loss % = (Loss / CP) × 100 | Always calculate on CP unless stated |
+| 5 | SP from Profit % | SP = CP × (100 + Profit%) / 100 | Direct SP when profit % is given |
+| 6 | SP from Loss % | SP = CP × (100 − Loss%) / 100 | Direct SP when loss % is given |
+| 7 | CP from SP (Profit) | CP = SP × 100 / (100 + Profit%) | Reverse: find CP from SP and profit % |
+| 8 | CP from SP (Loss) | CP = SP × 100 / (100 − Loss%) | Reverse: find CP from SP and loss % |
+| 9 | Discount | Discount = Marked Price − SP | Reduction given on marked price |
+| 10 | Discount % | Discount % = (Discount / MP) × 100 | Always calculated on marked price |
+| 11 | SP after Discount | SP = MP × (100 − Discount%) / 100 | Direct SP from MP and discount % |
+| 12 | MP from SP | MP = SP × 100 / (100 − Discount%) | Reverse: find MP from SP |
+| 13 | MP–CP–Profit relation | MP / CP = (100 + Profit%) / (100 − Discount%) | Links marked price, cost price, profit & discount |
+| 14 | Successive Discounts | Equivalent discount = a + b − (ab/100) | Two successive discounts a% and b% |
+| 15 | Effective SP (two discounts) | SP = MP × (100−a)/100 × (100−b)/100 | Chain multiplication for successive discounts |
+| 16 | Same SP, one profit one loss | Loss % = x² / 100 | Two items sold at same SP, x% profit on one, x% loss on other → always net loss |
+| 17 | Profit on SP instead of CP | True Profit % = [x / (100 − x)] × 100 | When profit x% is calculated on SP by mistake |
+| 18 | Dishonest dealer (false weights) | Profit % = [Error / (True weight − Error)] × 100 | Seller uses less weight than claimed |
+| 19 | Goods sold at CP but false weight | Profit % = [Error / (Weight given)] × 100 | "No profit" claim but cheats on weight |
+| 20 | Mark-up % | Mark-up % = [(MP − CP) / CP] × 100 | How much MP is raised above CP |
+| 21 | Profit after discount | Profit % = Mark-up% − Discount% − (Mark-up% × Discount%)/100 | Net result of marking up then discounting |
+| 22 | CP of two items (equal SP) | Total CP = SP₁×100/(100+p) + SP₂×100/(100−l) | Overall profit/loss when SPs are equal |
+| 23 | Selling at gain vs loss (same article) | CP = (SP₁ + SP₂) / 2 … when profit% = loss% | Article sold at x% profit and x% loss |
+| 24 | Price change to keep profit same | New SP = CP × (100 + p) / 100 | Recompute SP when CP changes |
+| 25 | Profit % on quantity basis | Profit % = (Extra quantity free / Quantity sold) × 100 | "Buy x get y free" type questions |
+
+**Quick Memory Keys:**
+- **% हमेशा CP पर** — Profit % and Loss % are always on CP; Discount % is always on MP.
+- **Same SP, ±x% → हमेशा हानि** — Equal SP with equal profit & loss % always gives net loss of x²/100.
+- **Successive discount ≠ addition** — 20% + 10% discount = 28%, not 30%.

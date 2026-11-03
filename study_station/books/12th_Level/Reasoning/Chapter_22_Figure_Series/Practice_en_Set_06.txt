@@ -1,0 +1,151 @@
+प्रश्न 126–145: आसान | प्रश्न 146–150: मध्यम
+
+126. In a figure series, a square contains a dot that moves one corner clockwise each step, while a cross moves one corner anti-clockwise each step. If in the first figure the dot is at the top-left and the cross at the top-right, where will both symbols be in the fifth figure?
+(a) Both at the same corner, bottom-right (b) Dot at top-left, cross at top-right (c) Dot at bottom-left, cross at bottom-right (d) Dot at top-right, cross at top-left
+Answer: (b)
+Solution: The tempting trap is to assume the symbols keep advancing to new corners in the fifth figure. But each symbol completes a full cycle of 4 corners in 4 steps, so after 4 moves (figure 5) both return to their starting positions. So the answer is dot at top-left, cross at top-right.
+Source: PYQ-style
+
+127. A series shows triangles with 1, 2, 4, 7, 11 inner lines respectively. How many inner lines will the sixth figure have?
+(a) 15 (b) 17 (c) 18 (d) 16
+Answer: (d)
+Solution: The trap is to assume doubling (1, 2, 4 → 8, 16 misread) and pick a wrong doubling value. Actually the differences are +1, +2, +3, +4, so the next difference is +5, giving 11 + 5 = 16. So the answer is 16.
+Source: PYQ-style
+
+128. In a series, a circle has 2, 4, 6, 8 radius lines in the first four figures, gaining two lines each step. How many radius lines will the sixth figure have?
+(a) 10 (b) 14 (c) 12 (d) 16
+Answer: (c)
+Solution: The trap is to stop at the fourth figure's 8 lines and add only one step, giving 10. The rule is +2 lines per step, so figure 5 has 10 and figure 6 has 12. So the answer is 12.
+Source: PYQ-style
+
+129. Four figures are given. Three show a hexagon with a shaded triangle pointing outward from one side; in one figure the shaded triangle points inward. Identify the odd figure.
+(a) Figure 1 — triangle points outward from the top side (b) Figure 2 — triangle points outward from the right side (c) Figure 4 — triangle points outward from the left side (d) Figure 3 — triangle points inward from the bottom side
+Answer: (d)
+Solution: The trap is to classify by the side position (top, right, bottom, left), which is just rotation and irrelevant. The real classification rule is direction of the triangle: three point outward, only Figure 3 points inward. So the answer is Figure 3.
+Source: PYQ-style
+
+130. In a series, the number of sides of the outer figure increases by 1 each step (3, 4, 5, 6), while the number of inner dots decreases by 1 (6, 5, 4, 3). What will the fifth figure contain?
+(a) Octagon with 2 dots (b) Heptagon with 2 dots (c) Heptagon with 3 dots (d) Hexagon with 3 dots
+Answer: (b)
+Solution: The trap is to stop the outer figure at hexagon, forgetting it also advances. Fifth figure: outer sides = 3 + 4 = 7 (heptagon), dots = 6 − 4 = 2. So the answer is heptagon with 2 dots.
+Source: PYQ-style
+
+131. A square is divided into 4 equal smaller squares. In each step, the shaded small square moves one position clockwise. Starting from the top-left in figure 1, where is the shaded square in the fourth figure?
+(a) Top-right (b) Top-left (c) Bottom-right (d) Bottom-left
+Answer: (d)
+Solution: The trap is to move two positions per step, which would give bottom-right. Moving one position clockwise each step: figure 1 top-left, figure 2 top-right, figure 3 bottom-right, figure 4 bottom-left. So the answer is bottom-left.
+Source: PYQ-style
+
+132. In a classification question, four figures each show a circle with lines inside. Figure P: 3 lines all parallel. Figure Q: 3 lines meeting at one point. Figure R: 3 lines all parallel. Figure S: 3 lines all parallel. Which is the odd one?
+(a) Figure Q (b) Figure P (c) Figure R (d) Figure S
+Answer: (a)
+Solution: The trap is to count lines (all have 3) and conclude no difference. The classification rule is the arrangement: in Figures P, R, S the lines are parallel; only in Figure Q they are concurrent (meet at one point). So the answer is Figure Q.
+Source: PYQ-style
+
+133. A series shows an arrow rotating 45° clockwise at every step. The first arrow points up (0°). Where does the arrow point in the fifth figure?
+(a) Right (90°) (b) Down (180°) (c) Down-left (225°) (d) Left (270°)
+Answer: (b)
+Solution: The trap is to count five rotations instead of four, giving 225°. From figure 1 to figure 5 there are only 4 steps: 4 × 45° = 180°, so the arrow points down. So the answer is down (180°).
+Source: PYQ-style
+
+134. In a series, a black dot inside a pentagon moves to the next vertex clockwise, while the pentagon itself rotates 72° anti-clockwise each step. After how many steps will the dot appear at the same relative position as in figure 1?
+(a) 3 (b) 5 (c) 6 (d) 4
+Answer: (b)
+Solution: The trap is to consider only the dot's movement or only the pentagon's rotation and miss that both cycles coincide. The dot cycles through 5 vertices, and 72° × 5 = 360°, so both return to start together after 5 steps. So the answer is 5.
+Source: PYQ-style
+
+135. Four figures show stars with 5, 6, 7, and 5 points respectively, each with a circle at the centre. Which figure is the odd one out?
+(a) First figure (5 points) (b) Third figure (7 points) (c) Fourth figure (5 points) (d) Second figure (6 points)
+Answer: (d)
+Solution: The trap is to hunt for a complicated hidden rule and ignore the simple parity rule. The first, third and fourth figures have an odd number of points (5, 7, 5), while only the second figure has an even number (6). So the answer is the second figure (6 points).
+Source: PYQ-style
+
+136. A shaded square moves along the four corners of a square, one corner clockwise per step, starting at the top-left in figure 1. In which corner is the shaded square in figure 10?
+(a) Bottom-left (b) Bottom-right (c) Top-right (d) Top-left
+Answer: (c)
+Solution: The trap is to divide 10 by 4 and use the quotient, or to count 10 moves instead of 9. From figure 1 to figure 10 there are 9 moves; 9 mod 4 = 1, so the shaded square is one step clockwise from top-left, which is top-right. So the answer is top-right.
+Source: PYQ-style
+
+137. In a series, each figure adds one more side to the inner shape while the outer shape loses one side: figure 1 has outer octagon and inner triangle. What does figure 4 show?
+(a) Outer pentagon, inner pentagon (b) Outer hexagon, inner pentagon (c) Outer pentagon, inner hexagon (d) Outer hexagon, inner hexagon
+Answer: (c)
+Solution: The trap is to move only one shape and keep the other fixed. Outer: 8, 7, 6, 5 → pentagon in figure 4. Inner: 3, 4, 5, 6 → hexagon in figure 4. So the answer is outer pentagon, inner hexagon.
+Source: PYQ-style
+
+138. Four figures show a rectangle divided into parts: P has 2 parts, Q has 4 parts, R has 6 parts, S has 5 parts. Which is the odd one out?
+(a) Figure Q (b) Figure R (c) Figure S (d) Figure P
+Answer: (c)
+Solution: The trap is to pick Figure P as "too few parts". The real rule: Figures P, Q, R have an even number of parts (2, 4, 6); only Figure S has an odd number (5). So the answer is Figure S.
+Source: PYQ-style
+
+139. A figure series shows a clock hand pointing at 12, 3, 6, 9, 12... and a second hand pointing at 6, 9, 12, 3... In which figure do both hands point at 3 simultaneously for the first time?
+(a) 4th (b) Never (c) 6th (d) 8th
+Answer: (b)
+Solution: The trap is to compute LCM-style and pick 8. The first hand points at 3 in figures 2, 6, 10..., the second hand in figures 4, 8, 12... These sequences never coincide (one is 2 mod 4, the other 0 mod 4). So the answer is never.
+Source: PYQ-style
+
+140. In a classification set, three figures show a triangle inside a circle inside a square (nested, not touching). One figure shows the triangle touching the circle. Which is the odd figure?
+(a) The figure where the triangle touches the circle (b) The figure where all shapes are separate and nested (c) The figure with the largest square (d) The figure with the smallest triangle
+Answer: (a)
+Solution: The trap is to classify by size, which varies randomly and is irrelevant. The structural rule is contact: in three figures no shapes touch; in one the triangle touches the circle. So the answer is the figure where the triangle touches the circle.
+Source: PYQ-style
+
+141. A series shows the number of dots doubling and the number of lines halving: figure 1 has 1 dot and 8 lines. What does figure 4 have?
+(a) 8 dots, 2 lines (b) 4 dots, 2 lines (c) 8 dots, 1 line (d) 16 dots, 1 line
+Answer: (c)
+Solution: The trap is to apply only one operation per step. Dots: 1, 2, 4, 8. Lines: 8, 4, 2, 1. Figure 4 has 8 dots and 1 line. So the answer is 8 dots, 1 line.
+Source: PYQ-style
+
+142. A series shows a shaded sector of a circle covering 90°, then 180°, then 270°, then 360°. What comes next?
+(a) The pattern restarts at 90° (b) 450° (overlapping shade) (c) 90° again, but on the opposite side (d) 0° (no shade)
+Answer: (a)
+Solution: The trap is 450°, which is impossible to depict as a simple sector and not how such series work. After completing the full circle at 360°, the standard series convention restarts the cycle at 90°. So the answer is the pattern restarts at 90°.
+Source: PYQ-style
+
+143. Four figures show arrows: P points north with 2 barbs, Q points east with 2 barbs, R points south with 3 barbs, S points west with 2 barbs. Which is the odd one?
+(a) Figure P (b) Figure S (c) Figure Q (d) Figure R
+Answer: (d)
+Solution: The trap is to classify by direction, but all four directions are different, so direction cannot isolate one figure. The distinguishing feature is the number of barbs: Figures P, Q, S have 2; only Figure R has 3. So the answer is Figure R.
+Source: PYQ-style
+
+144. A series alternates two operations: rotate the figure 90° clockwise, then mirror it horizontally. Starting with an "L" shape upright, what does the figure look like after 4 operations?
+(a) Original upright L (b) L rotated 180° (c) Mirror image of original L (d) L rotated 90° clockwise
+Answer: (a)
+Solution: The trap is to track only rotation and ignore the mirror. The pair (rotate 90° clockwise, then mirror) applied twice gives two mirrors that cancel and two 90° rotations whose combined effect with the mirrors returns the shape to its original orientation. So the answer is the original upright L.
+Source: PYQ-style
+
+145. In a matrix-style series, the top row figures have 2, 4, 8 elements and the bottom row figures have 3, 6, 12 elements. If a third row follows the same rule starting with 5, what is the third figure of the third row?
+(a) 20 (b) 15 (c) 25 (d) 10
+Answer: (a)
+Solution: The trap is to add a constant (5, 10, 15) by copying the visible increments superficially. The rule is doubling: each row multiplies by 2 across columns. Third row: 5, 10, 20. So the answer is 20.
+Source: PYQ-style
+
+146. A figure shows a square with both diagonals drawn, creating 4 segments from the centre to the corners. In each step, one segment is removed in clockwise order starting from the top segment. How many segments remain in figure 3?
+(a) 2 (b) 0 (c) 3 (d) 1
+Answer: (a)
+Solution: The trap is to count full diagonals (2) instead of segments (4). Figure 1 has 4 segments; each step removes one, so figure 2 has 3 and figure 3 has 2. So the answer is 2.
+Source: PYQ-style
+
+147. Four figures show circles with inscribed polygons: P has a square, Q has a hexagon, R has a pentagon, S has an octagon. If the rule for the group is "the polygon divides the circle into an even number of arcs", which figure is the odd one?
+(a) Figure P (b) Figure R (c) Figure Q (d) Figure S
+Answer: (b)
+Solution: The trap is to pick Figure P as the "simplest" figure. An inscribed polygon divides the circle into as many arcs as its sides: 4, 6, 5, 8. Only the pentagon gives an odd number of arcs (5). So the answer is Figure R.
+Source: PYQ-style
+
+148. In a series, a symbol moves through a 2×2 grid: top-left → top-right → bottom-right → bottom-left → top-left... Simultaneously it alternates shape: circle, square, circle, square... In figure 7, what and where is the symbol?
+(a) Circle at bottom-right (b) Circle at bottom-left (c) Square at bottom-left (d) Square at top-right
+Answer: (a)
+Solution: The trap is to compute position for 7 steps but shape for 6. Position cycle of 4: figure 7 → 7 mod 4 = 3 → bottom-right. Shape alternates: odd figures are circles, so figure 7 is a circle. So the answer is circle at bottom-right.
+Source: PYQ-style
+
+149. A series shows figures with line counts 12, 10, 8, 6, and figure 5 has 9 lines. From figure 5 onward the rule changes to "subtract 1, then add 3" alternately. How many lines does figure 8 have?
+(a) 12 (b) 13 (c) 10 (d) 11
+Answer: (c)
+Solution: The trap is to continue the old "subtract 2" rule or to apply the new operations in the wrong order. From figure 5 (9): figure 6 = 9 − 1 = 8, figure 7 = 8 + 3 = 11, figure 8 = 11 − 1 = 10. So the answer is 10.
+Source: PYQ-style
+
+150. In a classification question, four complex figures each combine a circle, a triangle, and a line. In three figures the line passes through both the circle and the triangle; in one figure the line passes through the circle only. Which is the odd figure?
+(a) The figure where the line passes through both shapes (b) The figure where the triangle is above the circle (c) The figure where the circle is shaded (d) The figure where the line passes through the circle only
+Answer: (d)
+Solution: The trap is to use position (above/below) or shading, which are decorative variations present across the group. The structural rule is intersection: three figures have the line crossing both shapes; only one has the line crossing the circle alone. So the answer is the figure where the line passes through the circle only.
+Source: PYQ-style

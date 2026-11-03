@@ -1,0 +1,45 @@
+```mermaid
+graph TD
+    A["संयोजक (Conjunction)<br>शब्दों/वाक्यों को जोड़ने वाले शब्द"] --> B["1. समानाधिकरण<br>Coordinating"]
+    A --> C["2. उपवाक्य संयोजक<br>Subordinating"]
+    A --> D["3. सहसंबंधी<br>Correlative"]
+
+    B --> B1["FANBOYS<br>For, And, Nor, But,<br>Or, Yet, So"]
+    B --> B2["समान पदार्थ जोड़ते हैं<br>Noun+Noun, Clause+Clause"]
+    B --> B3["जाल: 'and' के बाद<br>समान संरचना चाहिए<br>(Parallelism)"]
+
+    C --> C1["समय: when, while,<br>before, after, until, since"]
+    C --> C2["कारण: because, since, as"]
+    C --> C3["शर्त: if, unless, provided that"]
+    C --> C4["रियायत: although, though,<br>even though, whereas"]
+    C --> C5["उद्देश्य: so that, in order that"]
+    C --> C6["जाल: 'although' के साथ<br>'but' नहीं आता"]
+
+    D --> D1["Either...or / Neither...nor"]
+    D --> D2["Both...and / Not only...but also"]
+    D --> D3["Whether...or / No sooner...than"]
+    D --> D4["Hardly/Scarcely...when"]
+    D --> D5["जाल: जोड़े अपरिवर्तनीय<br>'Neither...or' गलत"]
+
+    A --> E["6 स्वर्ण नियम"]
+    E --> E1["Unless = if...not<br>(unless के साथ not नहीं)"]
+    E --> E2["Until = समय | Till = समय<br>(दोनों ठीक, 'until' औपचारिक)"]
+    E --> E3["No sooner के साथ 'than'<br>Hardly के साथ 'when'"]
+    E --> E4["Either...or में क्रिया<br>निकटवर्ती कर्ता के अनुसार"]
+    E --> E5["'Because' और 'so'<br>एक साथ नहीं"]
+    E --> E6["Lest...should<br>(lest के बाद should)"]
+
+    A --> F["परीक्षक के जाल"]
+    F --> F1["जाल 1: Although...but<br>(दोनों एक साथ = गलत)"]
+    F --> F2["जाल 2: Since vs For<br>Since + समय-बिंदु,<br>For + अवधि"]
+    F --> F3["जाल 3: Parallelism<br>'reading and to write' गलत"]
+
+    A --> G["रणनीति"]
+    G --> G1["15 सेकंड: जोड़े पहचानो<br>(Neither...nor आदि)"]
+    G --> G2["45 सेकंड: अर्थ-आधारित<br>शर्त/कारण चुनना"]
+    G --> G3["Skip: दो विकल्प लगभग<br>समान हों तो अंकित कर आगे बढ़ो"]
+
+    A --> H["Mnemonic"]
+    H --> H1["FANBOYS = 7 समानाधिकरण"]
+    H --> H2["'No sooner THAN,<br>Hardly WHEN' — जोड़ी याद रखो"]
+```

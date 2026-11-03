@@ -1,0 +1,47 @@
+# Important Rules & Approaches — Clock & Calendar
+
+## Part 1: Key Rules/Approaches
+
+| Rule Name | Description | Example |
+|---|---|---|
+| Minute Hand Speed | Minute hand covers 360° in 60 min = 6° per minute | In 20 min, minute hand moves 20 × 6° = 120° |
+| Hour Hand Speed | Hour hand covers 360° in 12 hrs = 0.5° per minute (30° per hour) | In 20 min, hour hand moves 20 × 0.5° = 10° |
+| Relative Speed | Minute hand gains 5.5° per minute over hour hand | Hands 60° apart → minute hand catches up in 60/5.5 = 120/11 min |
+| Angle Formula | Angle = \|30H − 5.5M\|; if > 180°, subtract from 360° | At 4:20 → \|120 − 110\| = 10° |
+| Hands Coincide | Hands overlap every 65 5/11 min (not 60 min); 11 times in 12 hrs, 22 times in 24 hrs | After 12:00, next overlap at 1:05 5/11 |
+| Hands Opposite (180°) | Occur 11 times in 12 hrs, 22 times in 24 hrs | Between 6 and 7, opposite at 6:00 exactly... next near 7:05 5/11 |
+| Hands at Right Angle | 90° occurs 22 times in 12 hrs, 44 times in 24 hrs | Between 3 and 4: at 3:16 4/11 and 3:49 1/11 |
+| Mirror Image of Time | Mirror time = 11:60 − given time (or 12:00 − time if minutes = 00) | Mirror of 3:40 → 11:60 − 3:40 = 8:20 |
+| Water Image of Time | Water image = 18:30 − given time (approx. convention) | Water image of 4:15 → 18:30 − 4:15 = 14:15 → 2:15 |
+| Slow/Fast Clock | If a clock gains/loses x min per hour, total error in n hours = n × x | Clock gains 5 min/hr → in 24 hrs gains 120 min |
+| Odd Days Concept | Odd days = remainder when total days ÷ 7 | 10 days → 10 mod 7 = 3 odd days |
+| Ordinary Year | 365 days = 1 odd day | Same date next year shifts by 1 day |
+| Leap Year | 366 days = 2 odd days; divisible by 4, but century years must be divisible by 400 | 2000 = leap year; 1900 = not a leap year |
+| Odd Days Memory | 0–Sunday, 1–Monday, 2–Tuesday, 3–Wednesday, 4–Thursday, 5–Friday, 6–Saturday | 5 odd days → Friday |
+| Century Odd Days | 100 yrs = 5 odd days; 200 yrs = 3; 300 yrs = 1; 400 yrs = 0 | 1600 years → 0 odd days |
+| Day Calculation Steps | Count odd days: completed centuries + completed years + months + days, then mod 7 | For 15 Aug 1947: compute stepwise → Friday |
+| Same Calendar Year | Calendar repeats when total odd days between years = 0 (mod 7) and leap status matches | 2023 calendar repeats in 2034 |
+| Month Codes (Zeller-type) | Fixed codes per month help quick day-finding (e.g., 0 3 3 6 1 4 6 2 5 0 3 5) | Use with year code to find any date's day |
+
+## Part 2: Time Management
+
+| Rule | Description | Application |
+|---|---|---|
+| 15-Second Rule | If the question type (angle / day-finding / mirror) is not identified within 15 seconds, mark and skip | Long day-of-week calculations with many steps should be flagged instantly |
+| 45-Second Rule | If calculation is not finished in 45 seconds, leave it and return later | Angle questions should finish in ~30 sec; calendar questions in ~45 sec |
+| Priority Order | Attempt mirror/water image and angle questions first (formula-based, fast); attempt calendar questions last (multi-step) | Mirror image: ~15 sec; odd-day counting: ~45 sec |
+| Approximation Check | Eliminate options by rough estimate before full calculation | At 4:20, hands are nearly together → only options near 0°–15° survive |
+| Skip Signal | Questions asking "which year has the same calendar" with 4 distant years — skip if options need individual checking | Verify only the closest option first |
+
+## Part 3: Logical/Mathematical Formulas
+
+| Formula | Meaning | Example |
+|---|---|---|
+| Angle = \|30H − (11/2)M\| | Angle between hands at H hours M minutes | 2:30 → \|60 − 165\| = 105° |
+| M = (2/11)(60H ± θ) | Minutes past H when the angle between the hands is θ (between H and H+1 o'clock) | 90° between 3 and 4: M = (2/11)(180 ± 90) = 16 4/11 or 49 1/11 |
+| Coincidence time after H o'clock | M = (60/11) × H minutes past H | After 4:00, overlap at M = 240/11 = 21 9/11 min |
+| Mirror time = 11:60 − T | Mirror image of clock time T | 9:25 → 11:60 − 9:25 = 2:35 |
+| Odd days in n ordinary years | = n mod 7 | 10 ordinary years → 3 odd days |
+| Leap year check | Year ÷ 4 (century: ÷ 400) | 2024 ÷ 4 = 506 → leap; 2100 ÷ 400 ≠ integer → not leap |
+| Day shift for same date next year | +1 day (ordinary) / +2 days (if Feb 29 falls in between) | 10 March 2023 (Fri) → 10 March 2024 (Sun, +2 since Feb 2024 is leap) |
+| Total odd days = (century odd days + year odd days + month days + date) mod 7 | Complete day-finding formula | Combine all components, take mod 7, map to day |

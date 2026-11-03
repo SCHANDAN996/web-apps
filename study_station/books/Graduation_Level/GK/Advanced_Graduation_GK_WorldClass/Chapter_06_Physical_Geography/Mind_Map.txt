@@ -1,0 +1,40 @@
+```mermaid
+graph TD
+    A["भारत का भौतिक भूगोल<br>Physical Geography of India"] --> B["हिमालय<br>The Himalayas"]
+    A --> C["प्रायद्वीपीय पठार<br>Peninsular Plateau"]
+    A --> D["उत्तर का मैदान<br>Northern Plains"]
+    A --> E["तटीय मैदान<br>Coastal Plains"]
+    A --> F["द्वीप समूह<br>Islands"]
+    A --> G["नदी तंत्र<br>River Systems"]
+    A --> H["परीक्षक के जाल<br>Examiner's Traps"]
+
+    B --> B1["ट्रांस हिमालय: काराकोरम, लद्दाख, ज़ास्कर<br>Trans-Himalaya: Karakoram, Ladakh, Zaskar"]
+    B --> B2["महान हिमालय (हिमाद्रि): Mt. Everest, Kanchenjunga<br>Great Himalaya (Himadri)"]
+    B --> B3["लघु हिमालय (हिमाचल): पीर पंजाल, धौलाधार<br>Lesser Himalaya (Himachal)"]
+    B --> B4["शिवालिक: बाह्यतम, दून घाटियाँ<br>Shiwalik: outermost, Dun valleys"]
+    B --> B5["K2 = गॉडविन ऑस्टेन, काराकोरम में<br>K2 = Godwin Austen, in Karakoram"]
+
+    C --> C1["दक्कन का पठार: पश्चिम से पूर्व ढलान<br>Deccan Plateau: west-to-east slope"]
+    C --> C2["पश्चिमी घाट: अनाई मुडी (2695 m) सर्वोच्च<br>Western Ghats: Anai Mudi highest"]
+    C --> C3["पूर्वी घाट: खंडित, महेंद्रगिरि<br>Eastern Ghats: discontinuous"]
+    C --> C4["अरावली: प्राचीनतम वलित पर्वत, गुरु शिखर (1722 m)<br>Aravalli: oldest fold mountain, Guru Shikhar"]
+    C --> C5["विंध्य-सतपुड़ा: नर्मदा रिफ्ट घाटी में<br>Vindhya-Satpura: Narmada in rift valley"]
+
+    D --> D1["भाबर, तराई, भांगड़, खादर<br>Bhabar, Terai, Bhangar, Khadar"]
+    D --> D2["खादर = नई जलोढ़ मिट्टी, सबसे उपजाऊ<br>Khadar = new alluvium, most fertile"]
+
+    E --> E1["पश्चिम तट: कोंकण, कनारा, मालाबार<br>West Coast: Konkan, Kanara, Malabar"]
+    E --> E2["पूर्व तट: उत्कल, कोरोमंडल<br>East Coast: Utkal, Coromandel"]
+
+    F --> F1["अंडमान-निकोबार: बंगाल की खाड़ी, इंदिरा प्वाइंट<br>Andaman-Nicobar: Bay of Bengal, Indira Point"]
+    F --> F2["लक्षद्वीप: अरब सागर, प्रवाल द्वीप<br>Lakshadweep: Arabian Sea, coral islands"]
+
+    G --> G1["हिमालयी नदियाँ: सिंधु, गंगा, ब्रह्मपुत्र (बारहमासी)<br>Himalayan rivers: perennial"]
+    G --> G2["प्रायद्वीपीय नदियाँ: नर्मदा, तापी पश्चिम की ओर<br>Peninsular: Narmada, Tapi flow west"]
+    G --> G3["गोदावरी = सबसे लंबी प्रायद्वीपीय नदी<br>Godavari = longest peninsular river"]
+
+    H --> H1["जाल: K2 हिमालय में नहीं, काराकोरम में<br>Trap: K2 is in Karakoram, not Himalaya"]
+    H --> H2["जाल: अरावली वलित, विंध्य ब्लॉक पर्वत<br>Trap: Aravalli fold vs Vindhya block"]
+    H --> H3["जाल: नर्मदा पूर्व नहीं, पश्चिम में बहती है<br>Trap: Narmada flows west, not east"]
+    H --> H4["रणनीति: मानचित्र-आधारित रिवीजन<br>Strategy: map-based revision"]
+```

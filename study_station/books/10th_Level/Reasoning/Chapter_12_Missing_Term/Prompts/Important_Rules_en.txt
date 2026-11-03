@@ -1,27 +1,10 @@
-📋 Important Rules & Approaches
-Rule / Approach	Description	Example
-Constant Difference Check	Pehle dekho kya lagataar antar (gap) same hai. Agar haan, to agla pad = antim pad + antar.	5, 9, 13, 17 → +4 → 21
-Second-Order Difference	Agar antar badal raha hai, to antar ka antar nikalo. Agar wo constant hai, to pattern wahi hai.	4, 6, 10, 16, 24 → antar +2,+4,+6,+8 → agla antar +10 → 34
-Multiplication / Division Pattern	Check karo kya har pad kisi fixed number se multiply/divide ho raha hai.	2, 6, 18, 54 → ×3 → 162
-Mixed Operation (×a ± b)	Kabhi-kabhi har pad ko multiply karke kuch joda/ghataya jaata hai. Isko bhi check karo.	3, 8, 23, 68 → ×3–1 → 203
-Squares / Cubes Series	Sankhyaayein agar 1,4,9,16,25 ya 1,8,27,64 jaisi lagein to n² ya n³ pattern ho sakta hai. n²±1 bhi common hai.	0,3,8,15,24 → n²–1 → 35
-Fibonacci / Sum of Previous	Har pad apne pichhle do pado ka yog ho.	1,1,2,3,5,8 → 13
-Prime Number Series	Har pad keval 1 aur swayam se vibhajya ho.	2,3,5,7,11 → 13
-Odd-Even Split (Double Series)	Agar koi ek pattern nahi milta, to odd aur even positions ko alag karke dekho.	3,21,5,18,7,15 → odd: 3,5,7→9; even: 21,18,15→12
-Alphabet Position Value	A=1, B=2,... Z=26. EJOTY anchor yaad rakho.	E=5, J=10, O=15, T=20, Y=25
-Opposite Letter Rule	Kisi bhi akshar aur uske opposite ka yog 27 hota hai.	H (8) → 27–8=19 = S
-Alphanumeric – Split First	Akshar aur sankhya ke bhaag alag karo, dono ke apne pattern dhundho.	A2, C4, E8, G16 → letters +2, numbers ×2 → I32
-Matrix – Row/Column Logic	3×3 matrix me pehle row-wise (+,×) dekho, fir column-wise, fir diagonal.	Row1: 5+7=12; Row2: ?+8=16 → ?=8
-Verify Full Series Rule	Jo bhi pattern pakdo, use kam se kam teen terms par test karo.	Keval pehle do terms se mat maano.
-Beware of Decoy Patterns	Kuch series me beech me pattern badalta dikhta hai – ho sakta hai do different operations alternate ho rahe hon.	Isliye odd-even split ya alag-alag block test karo.
-⏱️ Time Management Rules
-Situation	Time Rule	Action
-Pattern dikhte hi samajh aaya (simple addition/multiplication)	15-second rule	Turant solve karo, next question jump karo.
-Pattern thoda complex lage (difference of difference, ya double series jaisa)	45-second rule	45 second se zyada lag raha hai to question mark karke skip karo. Last mein time bache to return karo.
-Pattern bilkul nahi mil raha	15-second rule	15 second mein koi clue nahi milta to tukka lagao (agar negative marking nahi) ya skip karo. Reasoning me stuck hoke time waste mat karo.
-🧮 Logical / Mathematical Formulas
-Formula/Expression	Use Case
-No fixed formula for Missing Term.	Ye chapter pattern recognition par aadharit hai. Koi ek sutra nahi hai jo sabhi sawaalon par fit ho. Har prashn mein alag pattern hota hai.
-Basics used: Addition, Subtraction, Multiplication, Division, Squares (n²), Cubes (n³), Fibonacci recurrence, Prime numbers.	Sirf ye operations patterns me upayog hote hain.
-Arithmetic Progression (A.P.) ke liye term formula (background): aₙ = a + (n-1)d	Agar series lagataar constant difference se badh rahi ho, lekin generally Missing Term me direct A.P. use nahi karte, pattern dekhkar antar se agla pad nikalte hain.
-Sum of opposite letters = 27	Opposite letter nikalne ka rule.
+# Chapter: Missing Term, Level: foundation, Type: Verbal Reasoning
+
+@content_agent lang=en level=foundation 'List all important rules, approaches, time management tips, and logical formulas (if any) for Missing Term in a clean table.
+Instructions:
+- Table has three parts:
+  1. "Key Rules/Approaches" – Rule Name | Description | Example
+  2. "Time Management" – 15-second and 45-second rule (e.g., "If pattern not understood in 15 sec, skip").
+  3. "Logical/Mathematical Formulas" – if applicable; otherwise "No formulas for this chapter".
+- No explanation, just tabular data.
+- Keep language simple and precise.

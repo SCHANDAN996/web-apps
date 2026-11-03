@@ -1,0 +1,79 @@
+Card 1
+Front: How many degrees does the minute hand of a clock cover in one minute?
+Back: 6°. The minute hand completes 360° in 60 minutes, so 360 ÷ 60 = 6° per minute.
+
+Card 2
+Front: How many degrees does the hour hand move in one minute?
+Back: 0.5°. The hour hand covers 30° in 60 minutes (one hour), so 30 ÷ 60 = 0.5° per minute.
+
+Card 3
+Front: What is the relative speed of the minute hand with respect to the hour hand?
+Back: 5.5° per minute (6° − 0.5°). This value is the backbone of almost every clock-angle problem.
+
+Card 4
+Front: What is the master formula for the angle between the two hands at H hours M minutes?
+Back: Angle = |30H − (11/2)M|. If the result exceeds 180°, subtract it from 360° to get the smaller angle.
+
+Card 5
+Front: In 12 hours, how many times do the two hands of a clock coincide (overlap)?
+Back: 11 times — not 12. Between 11 and 1 o'clock they overlap only once (at 12:00), so one overlap is "lost" in every 12-hour cycle.
+
+Card 6
+Front: In 12 hours, how many times are the two hands exactly opposite each other (180° apart)?
+Back: 11 times. Between 5 and 7 o'clock only one opposition occurs (at 6:00), reducing the count from 12 to 11.
+
+Card 7
+Front: In 12 hours, how many times do the hands form a right angle (90°)?
+Back: 22 times — twice in most hours, but between 2–4 and 8–10 o'clock only 3 right angles occur in each pair of hours instead of 4.
+
+Card 8
+Front: A clock gains 5 minutes every hour. If set right at 6 a.m., what time will it show when the true time is 6 p.m.?
+Back: 7 p.m. In 12 true hours it gains 12 × 5 = 60 minutes, so it shows 6:00 + 1:00 = 7:00.
+
+Card 9
+Front: Mnemonic trick: how can you instantly recall the hands' speeds without memorising?
+Back: Remember "Minute hand is 12 times faster": 6° vs 0.5° per minute. Just recall 6 and divide by 12 to get 0.5 — the pair "6 and a half" (6°, 0.5°, gap 5.5°) unlocks every clock formula.
+
+Card 10
+Front: Mnemonic trick: how do you quickly find the day of the week using odd days?
+Back: Memorise the century codes 0-5-3-1 for century years 1600/1700/1800/1900 (odd days 0, 5, 3, 1 — decreasing by 2 each century, mod 7), and month codes 033-614-625-035 (Jan–Dec). Add date + month code + year odd days, then take mod 7.
+
+Card 11
+Front: How many odd days does an ordinary year have, and how many does a leap year have?
+Back: Ordinary year: 1 odd day (365 = 52 weeks + 1). Leap year: 2 odd days (366 = 52 weeks + 2).
+
+Card 12
+Front: What is the full rule for deciding whether a century year is a leap year?
+Back: A year is a leap year if divisible by 4, but a century year (like 1900, 2000) is a leap year only if divisible by 400. So 2000 was a leap year, but 1900 was not.
+
+Card 13
+Front: Examiner's trap: "The year 2100 will be a leap year because it is divisible by 4." What is wrong with this statement?
+Back: 2100 is a century year, so the ÷400 rule applies. 2100 ÷ 400 is not exact, so 2100 is NOT a leap year. Examiners exploit the habit of applying only the ÷4 rule.
+
+Card 14
+Front: Examiner's trap: in a mirror-image clock question, what formula do you use, and what is the common mistake?
+Back: Mirror time = 11:60 − given time (use 12:00 − time when the given minutes are 00). Example: for 4:30, 11:60 − 4:30 = 7:30. The trap is faulty borrowing: students subtract 30 minutes from 11:60 and write 7:70 or 8:30. Always borrow 1 hour as 60 minutes first — that is why the base is written as 11:60.
+
+Card 15
+Front: How many odd days are there in 100 years, and why is it not simply 100?
+Back: 5 odd days. 100 years contain 76 ordinary + 24 leap years = 76 + 48 = 124 odd days; 124 mod 7 = 5. (The 100th year is not a leap year.)
+
+Card 16
+Front: After how many years does the calendar of an ordinary year repeat?
+Back: It depends on the odd-day accumulation: an ordinary year repeats after 6 or 11 years (whichever first makes the cumulative odd days a multiple of 7, with leap-year positions matching). A leap year's calendar repeats after 28 years.
+
+Card 17
+Front: If today is Monday, what day will it be after 61 days?
+Back: Saturday. 61 mod 7 = 5; Monday + 5 days = Saturday.
+
+Card 18
+Front: What is the angle between the clock hands at 3:15 — and why is the common answer "0°" wrong?
+Back: 7.5°. At 3:15 the minute hand is at 90°, but the hour hand has moved 15 × 0.5° = 7.5° past 3. The trap is assuming the hour hand stays exactly at 3.
+
+Card 19
+Front: Between 2 and 3 o'clock, at what time are the hands together?
+Back: At 2:10 10/11 (i.e., 120/11 minutes past 2). Formula: M = (60/11) × H for overlap after H o'clock → 120/11 ≈ 10.9 minutes.
+
+Card 20
+Front: Which day of the week can never be the last day of a century (e.g., 31 Dec 1900, 2000, 2100)?
+Back: A century can end only on Monday, Wednesday, Friday, or Sunday — never on Tuesday, Thursday, or Saturday, because century odd days cycle through 5, 3, 1, 0 only.

@@ -1,0 +1,44 @@
+```mermaid
+graph TD
+    A["Antonyms<br>Words with Opposite Meanings"] --> B["Types of Antonyms"]
+    A --> C["Word-Building Strategy"]
+    A --> D["Exam Strategy"]
+    A --> E["Examiner's Traps"]
+
+    B --> B1["Gradable<br>hot ↔ cold<br>(degrees exist)"]
+    B --> B2["Complementary<br>alive ↔ dead<br>(no middle)"]
+    B --> B3["Relational / Converse<br>buy ↔ sell, teacher ↔ student"]
+
+    C --> C1["Negative Prefixes"]
+    C --> C2["Greek & Latin Roots"]
+    C --> C3["Suffix Changes Meaning"]
+
+    C1 --> C1a["un- : happy → unhappy"]
+    C1 --> C1b["in-/im-/il-/ir- :<br>possible → impossible<br>legal → illegal<br>regular → irregular"]
+    C1 --> C1c["dis- : agree → disagree"]
+    C1 --> C1d["non- : sense → nonsense"]
+    C1 --> C1e["anti- : social → antisocial"]
+
+    C2 --> C2a["bene = good → benefit<br>male = bad → malice"]
+    C2 --> C2b["philo = love → philanthropist<br>miso = hate → misogynist"]
+    C2 --> C2c["auto = self → autocrat<br>hetero = other → heterogeneous"]
+    C2 --> C2d["dict = say → predict<br>contra = against → contradict"]
+
+    D --> D1["15-Second Rule<br>Direct word-pair recall<br>common words"]
+    D --> D2["45-Second Rule<br>Word in sentence context<br>or unfamiliar word"]
+    D --> D3["Elimination Method<br>Remove synonyms first<br>then pick the opposite"]
+    D --> D4["Check Word Class<br>Answer must match<br>part of speech"]
+
+    E --> E1["Trap 1: Partial Opposite<br>'ancient' → 'old-looking'<br>Correct: modern/new"]
+    E --> E2["Trap 2: Synonym Distractor<br>Options include a synonym<br>Read the instruction again"]
+    E --> E3["Trap 3: Prefix ≠ Antonym<br>'unhappy' is opposite of happy<br>but 'disloyal' not 'unloyal'"]
+    E --> E4["Trap 4: Context Flip<br>Word meaning changes<br>in the given sentence"]
+
+    D3 --> F["High-Yield Pairs"]
+    C2 --> F
+    F --> F1["abundant ↔ scarce"]
+    F --> F2["expand ↔ contract"]
+    F --> F3["transparent ↔ opaque"]
+    F --> F4["courage ↔ cowardice"]
+    F --> F5["optimistic ↔ pessimistic"]
+```

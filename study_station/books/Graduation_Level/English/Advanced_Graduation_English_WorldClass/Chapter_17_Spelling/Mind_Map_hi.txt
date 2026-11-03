@@ -1,0 +1,31 @@
+```mermaid
+graph TD
+    A["वर्तनी जाँच<br>Spelling Check"] --> B["मूल नियम"]
+    A --> C["परीक्षक के जाल"]
+    A --> D["रणनीति"]
+    A --> E["मूल शब्द<br>Roots"]
+
+    B --> B1["I before E<br>except after C<br>believe / receive"]
+    B --> B2["Silent E हटाना<br>hope → hoping<br>लेकिन agree → agreement"]
+    B --> B3["अंतिम व्यंजन दोहराना<br>run → running<br>begin → beginning"]
+    B --> B4["-ful में एक L<br>beautiful / grateful"]
+    B --> B5["-ceed / -cede / -sede<br>succeed / precede / supersede"]
+
+    C --> C1["ध्वनि-समान जाल<br>principle / principal"]
+    C --> C2["लगभग-सही वर्तनी<br>occurence ❌ occurrence ✅"]
+    C --> C3["Double letter भ्रम<br>accommodate / committee"]
+    C --> C4["-able / -ible उलझन<br>advisable / permissible"]
+
+    D --> D1["15 सेकंड नियम<br>तथ्यात्मक वर्तनी प्रश्न"]
+    D --> D2["45 सेकंड नियम<br>संदर्भ/शब्द-भेद प्रश्न"]
+    D --> D3["Skip Strategy<br>अनदेखा शब्द = छोड़ो<br>अंदाज़ा नहीं"]
+    D --> D4["Root से अनुमान<br>Detective Approach"]
+
+    E --> E1["scrib/script = लिखना<br>describe / manuscript"]
+    E --> E2["dict = बोलना<br>predict / dictionary"]
+    E --> E3["port = ले जाना<br>transport / portable"]
+    E --> E4["spect = देखना<br>inspect / spectator"]
+    E --> E5["cred = विश्वास<br>credible / incredible"]
+
+    B1 -.->|"म्नेमोनिक"| F["I before E<br>जब ध्वनि /iː/ हो<br>पर C के बाद E पहले"]
+```

@@ -1,0 +1,41 @@
+```mermaid
+graph TD
+    A["कागज़ मोड़ना-काटना<br>Paper Folding & Cutting"] --> B["मूल सिद्धांत<br>Core Principle"]
+    A --> C["प्रश्नों के प्रकार<br>Types of Questions"]
+    A --> D["हल करने की रणनीति<br>Solving Strategy"]
+    A --> E["समय प्रबंधन<br>Time Management"]
+    A --> F["परीक्षक के जाल<br>Examiner Traps"]
+
+    B --> B1["हर मोड़ = सममिति का अक्ष<br>Each fold = axis of symmetry"]
+    B --> B2["कट/पंच का प्रतिबिंब हर मोड़ पर<br>Cut mirrors across every fold"]
+    B --> B3["मोड़ों की संख्या N → परतें 2^N<br>N folds → 2^N layers"]
+    B --> B4["खोलने का क्रम = मोड़ने का उल्टा<br>Unfold in reverse order"]
+
+    C --> C1["मोड़ + पंच/छेद<br>Fold + Punch/Hole"]
+    C --> C2["मोड़ + कट (कैंची)<br>Fold + Cut (scissors)"]
+    C --> C3["कट के बाद आकृति पहचान<br>Identify shape after cutting"]
+    C --> C4["कोने/किनारे पर कट<br>Cut at corner/edge"]
+    C --> C5["आधा/चौथाई/तिरछा मोड़<br>Half/Quarter/Diagonal fold"]
+
+    C1 --> C1A["एक पंच → 2^N छेद<br>One punch → 2^N holes"]
+    C2 --> C2A["कट की आकृति दर्पण-प्रतिबिंब में दोहराती है<br>Cut shape repeats as mirror images"]
+
+    D --> D1["चरण 1: मोड़ों की संख्या और दिशा गिनें<br>Count folds & directions"]
+    D --> D2["चरण 2: अंतिम मोड़ से उल्टा खोलें<br>Unfold from last fold backwards"]
+    D --> D3["चरण 3: हर खुलने पर कट को दर्पण-प्रतिबिंबित करें<br>Mirror the cut at each unfolding"]
+    D --> D4["चरण 4: विकल्पों से मिलान करें<br>Match with options"]
+    D --> D5["शॉर्टकट: कुल छेद = पंच × परतें<br>Shortcut: total holes = punches × layers"]
+    D --> D6["मोड़ की क्रीज़ पर पंच → छेद आधा/कम<br>Punch on crease → fewer holes"]
+
+    E --> E1["आसान (1-2 मोड़): 20-30 सेकंड<br>Easy: 20-30 sec"]
+    E --> E2["मध्यम (3 मोड़): 40-50 सेकंड<br>Moderate: 40-50 sec"]
+    E --> E3["कठिन (4+ मोड़/तिरछा): 60-75 सेकंड, अंत में<br>Hard: 60-75 sec, attempt last"]
+    E --> E4["उल्टा खोलने की आदत = गति<br>Reverse-unfold habit = speed"]
+
+    F --> F1["मोड़ की दिशा उलट देना<br>Reversing fold direction"]
+    F --> F2["क्रीज़ पर पंच को दो गिनना<br>Counting crease-punch twice"]
+    F --> F3["तिरछे मोड़ को सीधा मानना<br>Treating diagonal fold as straight"]
+    F --> F4["छेदों की संख्या सही, स्थिति गलत विकल्प<br>Right count, wrong position option"]
+    F --> F5["कट की आकृति घुमाकर देना<br>Rotating the cut shape in options"]
+    F --> F6["किनारे का कट → खुला किनारा, छेद नहीं<br>Edge cut → open edge, not a hole"]
+```

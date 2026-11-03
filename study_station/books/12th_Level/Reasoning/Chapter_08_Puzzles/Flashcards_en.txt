@@ -1,0 +1,79 @@
+Card 1
+Front: What is the very first step when solving any seating arrangement puzzle?
+Back: Fix the most definite clue first — a statement like "A sits at the extreme left end" or "B faces the centre" — and build every other position relative to it. Never start with a vague or negative clue.
+
+Card 2
+Front: In a circular arrangement, why does it not matter where you place the first person?
+Back: A circle has no fixed ends, so the first person's seat is arbitrary. Only relative positions matter. But in a row, ends are fixed, so the first placement must respect "left end / right end" clues.
+
+Card 3
+Front: What does "A sits second to the right of B" mean if B faces the centre of a circle?
+Back: Move two seats in B's right-hand direction. For a person facing the centre, their right is the anti-clockwise direction on the diagram; for one facing outward, their right is clockwise.
+
+Card 4
+Front: Memory trick: how do you instantly recall right/left directions in a circle?
+Back: Mnemonic — "In-Right-Clock? No! In-Right-ANTI." Facing IN (centre): right = anti-clockwise. Facing OUT: right = clockwise. Say "IN-ANTI, OUT-CLOCK" three times before the exam.
+
+Card 5
+Front: In a floor-based puzzle (8 floors, ground = 1), what does "two persons live between A and B" actually mean?
+Back: Exactly two floors separate them — so the gap between A's and B's floor numbers is 3 (e.g., floors 2 and 5). A common trap is counting the gap as 2 floors apart.
+
+Card 6
+Front: Examiner's trap: "A lives immediately above B" — what mistake do students make?
+Back: They place A on B's floor or one below. "Immediately above" means A's floor number = B's floor number + 1, with no floor in between. "Above" alone (without "immediately") only means somewhere higher.
+
+Card 7
+Front: What is a "case-split" and when should you use it in puzzles?
+Back: When a clue allows two possible positions, draw both cases in parallel and continue. The case that later contradicts a clue is discarded. Use it whenever a clue is ambiguous — never guess one case mentally.
+
+Card 8
+Front: In a box/stack puzzle, what does "only one box is kept between X and Y" tell you?
+Back: X and Y are exactly 2 positions apart in the stack (one box strictly between them). It does NOT say which of X or Y is higher — keep both orders open until another clue fixes it.
+
+Card 9
+Front: What is the fastest way to handle a scheduling puzzle (7 people, 7 days, Monday–Sunday)?
+Back: Make a vertical day table, fix definite days first, then place "before/after" clues as chains (e.g., A before C before F). Treat "not on Monday/Tuesday" clues as elimination marks in the table.
+
+Card 10
+Front: Memory trick: how do you remember to handle "A is taller than B but shorter than C"?
+Back: Mnemonic — "Chain it, don't place it." Convert every comparison into a chain: C > A > B. Chains from all clues merge into one master order; only then assign exact positions.
+
+Card 11
+Front: Examiner's trap: in "who sits opposite whom" questions, what is the classic error in a circle of 8?
+Back: Students count 3 seats away instead of 4. In a circle of 2n people, the person opposite is exactly n seats away in either direction — for 8 people, 4 seats away.
+
+Card 12
+Front: In a row where some people face North and some face South, what changes for "left/right" clues?
+Back: For North-facing people, left = your left on the diagram; for South-facing people, left and right are reversed on the diagram. Always mark each person's facing direction before applying any left/right clue.
+
+Card 13
+Front: What should you do with negative clues like "P is not an immediate neighbour of Q"?
+Back: Note them beside the diagram (e.g., "P ≠ next to Q") and apply them at the end to eliminate cases. Negative clues rarely fix positions early but are decisive in the final check.
+
+Card 14
+Front: In a puzzle with two attributes (person + city + profession), what tool keeps you error-free?
+Back: A grid/table: rows = persons, columns = attributes. Fill confirmed pairs directly, mark impossible cells with ✗. Each new clue should either fill a cell or eliminate one — if it does neither, park it and return later.
+
+Card 15
+Front: How many people sit between two persons who are "third to the left" and "second to the right" of the same reference person in a row?
+Back: Count the positions: reference at position R, others at R−3 and R+2 — the gap is 5 positions, so 4 people sit between them. Trap: adding 3+2 = 5 and answering 5 instead of 5−1 = 4.
+
+Card 16
+Front: What is the "definite-first, variable-later" rule of puzzle solving?
+Back: Order of attack: (1) definite positions, (2) relative pairs/chains, (3) negative clues, (4) ambiguous clues via case-split. Solving in this order minimises the number of cases you must draw.
+
+Card 17
+Front: In a month/date puzzle (e.g., events in March, June, August on dates 12th and 25th), what is the safest representation?
+Back: A 2-row table: months in one column, with two date slots (12, 25) against each. Fix clues that mention both month and date first; treat "same date" or "same month" clues as linking clues.
+
+Card 18
+Front: Memory trick: how do you remember the difference between "between" and "immediate between"?
+Back: Mnemonic — "Between = anywhere in the middle; Immediate between = glued in the middle." "C sits between A and B" only means C is somewhere in the A–B range; "immediately between" means the three are consecutive with C in the centre.
+
+Card 19
+Front: When should you skip a puzzle set in the exam hall?
+Back: Skip (and return later) if after reading all clues you cannot fix a single definite position, or if the set needs 3+ parallel cases. One stuck puzzle set can eat the time of 8–10 easy questions.
+
+Card 20
+Front: What is the final 10-second check before marking answers in any puzzle?
+Back: Re-read the two strongest clues (definite position + immediate neighbour) and verify your final arrangement against them. Most puzzle errors come from one early misplacement that cascades — this check catches it.

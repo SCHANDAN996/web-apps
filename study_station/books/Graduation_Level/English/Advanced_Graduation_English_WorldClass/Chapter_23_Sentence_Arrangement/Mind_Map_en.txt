@@ -1,0 +1,29 @@
+```mermaid
+graph TD
+    A["Sentence Arrangement<br>(Para Jumbles)"] --> B["Step 1: Find the Opener"]
+    A --> C["Step 2: Build Pairs"]
+    A --> D["Step 3: Sequence & Verify"]
+    A --> E["Examiner's Traps"]
+    A --> F["Time Strategy"]
+
+    B --> B1["Independent sentence:<br>no pronoun, no connector,<br>introduces the topic"]
+    B --> B2["Full noun before pronoun:<br>'Ravi' comes before 'he'"]
+    B --> B3["General statement<br>before specific example"]
+
+    C --> C1["Pronoun links:<br>it / they / this / such →<br>find the noun it points to"]
+    C --> C2["Connector links:<br>but, however, therefore,<br>moreover, although"]
+    C --> C3["Article clue:<br>'a/an' first mention,<br>'the' second mention"]
+    C --> C4["Chronology & logic:<br>cause → effect,<br>problem → solution"]
+    C --> C5["Mandatory Pair =<br>two sentences that MUST<br>stay together"]
+
+    D --> D1["Use options:<br>eliminate choices that<br>break a mandatory pair"]
+    D --> D2["Read the final order aloud<br>in your head — does it flow?"]
+
+    E --> E1["Trap 1: Sentence starting with<br>'But/And/This' looks tempting<br>as opener — it never is"]
+    E --> E2["Trap 2: Two correct-looking pairs —<br>check which pair comes FIRST"]
+    E --> E3["Trap 3: Over-thinking —<br>don't rearrange a pair that<br>already reads logically"]
+
+    F --> F1["Fact-based (15 sec):<br>spot opener via pronoun/<br>connector clue"]
+    F --> F2["Inference-based (45 sec):<br>full sequence with<br>tone & logic flow"]
+    F --> F3["Skip Strategy: if no pair<br>emerges in 60 sec,<br>mark & move on"]
+```

@@ -1,0 +1,33 @@
+```mermaid
+graph TD
+    A["विलोम शब्द<br>(Antonyms)"] --> B["अवधारणा"]
+    A --> C["शब्द-निर्माण से पहचान"]
+    A --> D["परीक्षक के जाल"]
+    A --> E["रणनीति"]
+    A --> F["महत्वपूर्ण मूल शब्द<br>(Roots)"]
+
+    B --> B1["विपरीत अर्थ वाले शब्द<br>जैसे: Ancient ↔ Modern"]
+    B --> B2["सटीक विलोम चुनें<br>केवल 'अलग' नहीं, 'उल्टा'"]
+    B --> B3["शब्द-वर्ग (POS) समान रहे<br>संज्ञा का विलोम संज्ञा ही"]
+
+    C --> C1["उपसर्ग: un-, in-, dis-<br>Happy → Unhappy"]
+    C --> C2["उपसर्ग: anti-, contra-<br>Clockwise → Anticlockwise"]
+    C --> C3["उपसर्ग: mal-, mis-<br>Function → Malfunction"]
+    C --> C4["सावधानी: flammable =<br>inflammable (विलोम नहीं!)"]
+
+    D --> D1["जाल 1: समानार्थी विकल्प<br>विलोम के रूप में"]
+    D --> D2["जाल 2: आंशिक विलोम<br>पूर्ण विपरीत नहीं"]
+    D --> D3["जाल 3: Sound-Right<br>सुनने में सही, अर्थ में गलत"]
+    D --> D4["जाल 4: शब्द-वर्ग बदलना<br>Brave (वि.) ↔ Cowardice (सं.)"]
+
+    E --> E1["15 सेकंड नियम<br>सीधे याद वाले शब्द"]
+    E --> E2["45 सेकंड नियम<br>वाक्य-संदर्भ वाले प्रश्न"]
+    E --> E3["Elimination: पहले समानार्थी<br>विकल्प काटें"]
+    E --> E4["Skip Strategy: अपरिचित शब्द<br>+ कोई clue नहीं = छोड़ें"]
+
+    F --> F1["bene = अच्छा<br>Benevolent ↔ Malevolent"]
+    F --> F2["mal = बुरा<br>Malign ↔ Benign"]
+    F --> F3["chron = समय<br>Synchronous ↔ Asynchronous"]
+    F --> F4["phil = प्रेम / mis = घृणा<br>Philanthropy ↔ Misanthropy"]
+    F --> F5["omni = सब<br>Omnipotent ↔ Impotent"]
+```

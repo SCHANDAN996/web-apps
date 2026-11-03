@@ -1,0 +1,190 @@
+# Time & Work
+
+## Chapter Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Convert any "days to finish" statement into a **work rate** instantly.
+2. Solve combined-work, alternate-day, and efficiency-ratio problems without equations.
+3. Handle pipes & cisterns as a special case of Time & Work.
+4. Tackle wages, men-days (M₁D₁H₁ = M₂D₂H₂), and "work left incomplete" traps.
+5. Spot the examiner's favourite traps before they trap you.
+
+---
+
+## The Hook: Two Men, One Wall, and a Question That Fools 80% of Aspirants
+
+A can build a wall in 10 days. B can build it in 15 days. Working together, how long will they take?
+
+If your instinct whispered "12.5 days" (the average), congratulations — you just fell into the most common trap in all of quantitative aptitude. The correct answer is **6 days**. Not 12.5. Not even close.
+
+Why? Because work doesn't add the way time does. **Rates add. Times don't.** That single sentence is the entire soul of this chapter. Master it, and 90% of Time & Work problems collapse into 10-second arithmetic.
+
+---
+
+## Why This Chapter Feels Hard (And Why It Actually Isn't)
+
+Let's be honest about the struggle. Time & Work frustrates students for three reasons:
+
+- **It feels backwards.** "A finishes in 10 days" — so A's speed is... 1/10? Our brains resist fractions as speeds.
+- **Problems disguise themselves.** Pipes, wages, alternate days, efficiency ratios — they look like five different chapters. They're one.
+- **The arithmetic gets ugly.** LCMs of 12, 15, 20... unless you use the LCM method (coming soon), which makes them beautiful.
+
+Every one of these problems dissolves once you stop thinking in *days* and start thinking in *units of work per day*.
+
+---
+
+## Chunk 1: The Fundamental Conversion — Rate, Not Time
+
+**Core idea:** If a person completes a job in *n* days, their **one-day work (rate)** is **1/n** of the job.
+
+- A finishes in 10 days → A does 1/10 of the work each day.
+- B finishes in 15 days → B does 1/15 of the work each day.
+- Together in one day: 1/10 + 1/15 = 3/30 + 2/30 = 5/30 = **1/6** of the work.
+
+If 1/6 of the work is done per day, the whole work takes **6 days**. Done. No averaging, no guessing.
+
+**The golden rule:** When people work together, **add their rates, never their times.**
+
+🧠 **Active Recall:** C finishes a job in 8 days, D in 24 days. What fraction of the job do they complete together in one day? How many days to finish together? *(Answer: 1/8 + 1/24 = 4/24 = 1/6 → 6 days.)*
+
+---
+
+## Chunk 2: The LCM Method — Your New Best Friend
+
+Fractions like 1/10 + 1/15 are fine, but examiners love 12, 15, and 18 together. Here's the trick that toppers use:
+
+**Assume the total work = LCM of the given days.** Then every rate becomes a clean whole number.
+
+**Example:** A does a job in 12 days, B in 18 days. Together?
+
+- Total work = LCM(12, 18) = **36 units**.
+- A's rate = 36/12 = **3 units/day**. B's rate = 36/18 = **2 units/day**.
+- Together = 5 units/day → Time = 36/5 = **7.2 days**.
+
+No fractions, no common denominators, no errors. This one method handles combined work, pipes, and alternate days alike.
+
+🧠 **Active Recall:** Using the LCM method: A in 20 days, B in 30 days. Total work? Rates? Time together? *(60 units; 3 and 2 units/day; 12 days.)*
+
+---
+
+## Chunk 3: Efficiency and Ratios
+
+Sometimes the exam doesn't give days — it gives **efficiency comparisons**.
+
+> "B is 50% more efficient than A."
+
+This means if A's rate is 2 units/day, B's is 3 units/day (ratio 2:3). Now the key insight:
+
+**Efficiency and time are inversely proportional.** If efficiency ratio is 2:3, the time ratio is **3:2**.
+
+So if A takes 15 days, B takes 15 × (2/3) = **10 days**.
+
+**Chain rule for ratios:** If A:B efficiency = 2:3 and B:C = 4:5, first make B common: A:B:C = 8:12:15. Times are then in ratio 1/8 : 1/12 : 1/15.
+
+🧠 **Active Recall:** X is twice as efficient as Y. Y takes 24 days alone. How long does X take? How long together? *(12 days; together: LCM 24 → rates 2+1 = 3 → 8 days.)*
+
+---
+
+## Chunk 4: The Work-Left and Joining/Leaving Traps
+
+This is where Graduation-level papers (SSC CGL Tier-II, IBPS PO Mains) earn their reputation.
+
+**Type 1 — Someone leaves midway:**
+> A and B can finish a job in 12 and 18 days. They work together for 4 days, then A leaves. How long does B take to finish the rest?
+
+- Total work = 36 units. Rates: A = 3, B = 2.
+- In 4 days together: 4 × 5 = 20 units done. Remaining = 16.
+- B alone: 16/2 = **8 more days**.
+
+**Type 2 — Someone joins late:** Same logic. Compute work done before the change, then recompute with the new team.
+
+**The trap:** Examiners ask "in how many days was the work completed?" — meaning *total* time (4 + 8 = 12 days), not the remaining time (8 days). Read the question twice.
+
+🧠 **Active Recall:** In the example above, what is the total time from start to finish? *(12 days — don't answer 8!)*
+
+---
+
+## Chunk 5: Alternate Days
+
+> A (12 days) and B (18 days) work on alternate days, A starting. When is the work done?
+
+- Work = 36 units. A does 3, B does 2 per day.
+- Every 2-day cycle: 5 units. After 7 cycles (14 days): 35 units. 1 unit left.
+- Day 15 is A's turn; A does 3/day, so needs 1/3 of a day.
+- **Total = 14⅓ days.**
+
+**Trap alert:** Who starts matters. If B starts, the answer changes. Always track whose turn the leftover work falls on.
+
+---
+
+## Chunk 6: Pipes & Cisterns — Time & Work in Disguise
+
+A filling pipe is a worker. An emptying pipe is a **negative worker** — a saboteur on the team.
+
+> Pipe A fills a tank in 6 hours, pipe B empties it in 12 hours. Both open: when is the tank full?
+
+- Capacity = LCM(6, 12) = 12 units. A = +2/hr, B = −1/hr. Net = +1/hr → **12 hours**.
+
+**Mnemonic 🧠:** *"Fillers add, leakers subtract — treat the leak like a lazy worker who un-does work."* Think of the drain as an employee who spends all day deleting the team's files.
+
+---
+
+## Chunk 7: Men, Days, Hours — The M₁D₁H₁ Formula
+
+When the *amount of work* changes too (more men, more walls, more hours):
+
+$$\frac{M_1 D_1 H_1}{W_1} = \frac{M_2 D_2 H_2}{W_2}$$
+
+> 10 men build a wall in 8 days working 6 hours/day. How many days for 12 men working 5 hours/day to build the same wall?
+
+- 10 × 8 × 6 = 12 × D₂ × 5 → D₂ = 480/60 = **8 days**.
+
+Include efficiency (E) if workers differ: M₁D₁H₁E₁/W₁ = M₂D₂H₂E₂/W₂.
+
+🧠 **Active Recall:** If the second wall were *twice as big* in the example above, what would D₂ be? *(16 days — W₂ doubles, so days double.)*
+
+---
+
+## Chunk 8: Wages — Work Done = Money Earned
+
+Wages are divided in the ratio of **work contributed**, which for equal time means the ratio of **efficiencies**.
+
+> A (10 days) and B (15 days) finish a job together and earn ₹600. Who gets what?
+
+- Efficiency ratio = 1/10 : 1/15 = 3:2.
+- A gets 3/5 × 600 = **₹360**; B gets **₹240**.
+
+If people work for different durations, wages ∝ rate × days worked.
+
+---
+
+## The Memory Hook: "RAT"
+
+Remember the whole chapter with **RAT**:
+
+- **R** — Rates add, times don't.
+- **A** — Assume total work = LCM.
+- **T** — Track who leaves, joins, or leaks.
+
+If a problem feels hard, ask: *"Have I RAT-ted it yet?"*
+
+---
+
+## Summary Table
+
+| Concept | Key Rule | Quick Formula |
+|---|---|---|
+| One-day work | Rate = 1/days | A in n days → 1/n per day |
+| Combined work | Add rates, never times | T = (xy)/(x+y) for two workers |
+| LCM method | Work = LCM of days | Rates become whole numbers |
+| Efficiency ∝ 1/Time | Inverse ratio | Eff. a:b → Time b:a |
+| Leaving/joining | Split the timeline | Work done + work left |
+| Alternate days | Count 2-day cycles | Watch who starts |
+| Pipes | Leak = negative worker | Net rate = fill − drain |
+| Men-Days-Hours | Work conserved | M₁D₁H₁/W₁ = M₂D₂H₂/W₂ |
+| Wages | Pay ∝ work done | Split by efficiency ratio |
+
+---
+
+📌 **Review this chapter after 2 days.** Redo the hook problem (10 & 15 days) and one leaving-midway problem from memory — if both take under 60 seconds each, this chapter is yours for life.

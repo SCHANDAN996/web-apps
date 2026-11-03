@@ -1,156 +1,19 @@
-📚 Chapter 3: Inequality — Crack the Code of Relationships
-
-In this chapter, you will learn:
-
-What inequality symbols really mean (like a secret language).
-
-How to combine statements to unlock hidden relationships between variables.
-
-The golden rules of “Either-Or” cases.
-
-How to decode coded inequalities without fear.
-
-The traps examiners set and how to dodge them like a pro.
-
-Learning Goals:
-By the end of this chapter, you will be able to look at any set of statements and tell instantly which conclusion is definitely true, which is definitely false, and when it is impossible to decide. You will solve a full inequality question in under 30 seconds.
-
-🎯 The Hook: A Detective Story
-
-Imagine you are a detective. You have three clues written on scraps of paper:
-
-The thief is taller than the driver.
-
-The driver is taller than the cook.
-
-The cook is taller than the watchman.
-
-Now the inspector asks you: “Is the thief taller than the watchman?” You don’t need to see them. You just connect the clues: Thief > Driver > Cook > Watchman. So yes, the thief is definitely taller. Congratulations — you just solved an inequality. Every reasoning inequality problem is a tiny detective case where you connect clues to find the truth. And just like a detective, you must never guess; you only believe what is proved.
-
-The Struggle is Real – and Normal
-
-You are not alone if you feel confused when you see statements like P ≥ Q = R < S ≤ T followed by three conclusions. Many students think, “This looks like math, I’ll mess up.” But here’s the secret: there is zero calculation involved. No addition, no multiplication. All you need is to understand direction and possibility. Once you see the logic visually, you will actually start enjoying these questions. This chapter will turn that confusion into crystal-clear confidence.
-
-🧠 Active Recall Prompt: Before reading further, close your eyes and say aloud: “What do these symbols mean — >, <, ≥, ≤?” If you hesitated even a little, read the next section carefully.
-
-Building Block 1: The Five Magic Symbols
-
-Think of these symbols as showing the strength or position of one person compared to another.
-
-Symbol	Meaning in English	Simple Hindi
->	Greater than	से बड़ा
-<	Less than	से छोटा
-≥	Greater than or equal to	बड़ा या बराबर
-≤	Less than or equal to	छोटा या बराबर
-=	Equal to	बराबर
-
-The two trickiest are ≥ and ≤. They are like a person standing with one leg on a step and the other on the ground — they could be higher, or they could be equal. That’s why they are called “double possibility” symbols. Never assume ≥ means only greater than. It might be equal.
-
-🧠 Active Recall Prompt: Think: If A ≥ B is given, what are the two possibilities? (Answer: A > B or A = B). If you thought only “A is greater”, correct yourself now.
-
-Building Block 2: The Only Way to Combine Clues
-
-Combining inequalities is like joining train coaches. They must face the same direction. Look at this:
-
-A > B > C → You can directly conclude A > C.
-A ≥ B ≥ C → Direct conclusion A ≥ C.
-A > B ≥ C → Here A is greater than B, and B is greater than or equal to C. So A will definitely be greater than C. Conclusion: A > C.
-A ≥ B > C → Same logic: A is at least B, and B is greater than C. So A is definitely greater than C. Conclusion: A > C.
-
-But if the arrows point in opposite directions:
-A > B < C — now A is greater than B, but C is also greater than B. We don’t know who is taller between A and C. They could be related through B but no direct comparison. So no definite relationship. This is where many students fall into the examiner’s trap, assuming A and C can be compared. Whenever you see a “<” and “>” meeting at the same variable, stop — you cannot cross that bridge.
-
-🧠 Active Recall Prompt: In your notebook, write one example of opposite-direction statements and mark it as “No relation”. This will save you marks in the exam.
-
-Building Block 3: The Super-Secret “Either-Or” Rule
-
-Sometimes two conclusions look false when seen alone, but together they cover all possibilities. That’s “Either-Or”. Let’s crack it.
-
-Conditions for Either-Or:
-
-The subject and object of both conclusions must be exactly the same variables. (Like A and B, not A and C.)
-
-The two conclusions must form a complementary pair: one uses > and the other = (or < and =). Some exams also treat ≥ and ≤ as complementary when all three possibilities (>, <, =) are not settled.
-
-Individually, neither conclusion is definitely true based on the statements.
-
-Example:
-Statement: X ≥ Y
-Conclusion I: X > Y
-Conclusion II: X = Y
-
-Now, from X ≥ Y, we know X could be greater or equal, but we don’t know which. So I alone is not definitely true. II alone is not definitely true. But one of them must be true because the statement says X is either greater than or equal to Y — that’s exactly what I and II together say. So here “Either I or II follows” is the correct answer.
-
-If the conclusions were X > Y and X < Y, that is not complementary because the possibility X = Y is missing. Then Either-Or won’t apply.
-
-🧠 Mnemonic Trick: To remember complementary pairs, use the silly sentence:
-“Big or Equal; Small or Equal — but never mix with the opposite.”
-So > and = are friends, < and = are friends. Don’t put > and < together expecting Either-Or.
-
-Building Block 4: Coded Inequalities — Decode Before You Jump
-
-Examiners love to dress up symbols with codes like @, #, $, %, *. Don’t panic. It’s just a translation game.
-
-Step-by-step method:
-
-Read the code meaning carefully. Often: “A @ B means A is not greater than B.” Translate “not greater than” → A ≤ B.
-
-Write the actual meaning of each symbol on your rough sheet. Keep it handy.
-
-Replace the symbols in the statements with real inequality signs.
-
-Now you have a normal inequality question. Solve it exactly as before.
-
-Common translation phrases:
-
-“is not greater than” → ≤
-
-“is not less than” → ≥
-
-“is neither greater than nor equal to” → <
-
-“is neither less than nor equal to” → >
-
-“is neither greater than nor less than” → =
-
-Practice these five sentences a few times, and you’ll never make a decoding error.
-
-🧠 Active Recall Prompt: Cover the translation phrases and quiz yourself: “Not greater than means?” (≤) “Neither greater nor equal means?” (<) If you got both, high-five yourself.
-
-Building Block 5: The Step-by-Step Detective Method
-
-Follow this 3-step sequence for every question, and you’ll never go wrong:
-
-Combine all statements into a single chain wherever possible. Write it like a number line: P ≥ Q = R > S.
-
-Now check each conclusion against this combined string. Ask: Is this 100% true? If there’s even a single possibility where it can be false, mark it false.
-
-Look for Either-Or cases among those false conclusions. If two false conclusions satisfy all conditions, they form the Either-Or pair.
-
-This method turns chaos into a clean, visual check. No guesswork.
-
-🧠 Active Recall Prompt: What is the one question you must ask yourself while checking a conclusion? (Answer: “Is it definitely true in all possible scenarios?”)
-
-Summary Table — Your Quick Revision Card
-Situation	What You Must Remember
-Same direction chain (e.g., A > B > C)	Combine directly; A > C is true.
-Opposite direction meeting (A > B < C)	No definite relation between A and C.
-Symbol ≥ or ≤ present	Always remember two possibilities. Check for definite truth.
-Complementary conclusions (>, =) present and both individually false	Apply Either-Or rule.
-Coded inequalities	Decode first, then solve like normal inequality.
-Conclusion with ≠	True if no possibility of equality exists.
-
-✍️ Review this after 2 days: Re-read the Chain of combining rules and the Either-Or conditions. Solve 5 coded inequality questions without looking at the translation list. That’s your self-check.
-
-⚠️ Caution: Examiner's Trap
-
-Trap 1: The “Opposite Arrow” Illusion
-Examiners give A > B < C and then a conclusion A > C or A < C. They know your brain tries to connect them through B. But mathematically there is no bridge. Tip: Whenever you see a < followed by a > (or vice versa) with the same middle variable, immediately mark “No relation”.
-
-Trap 2: The Sneaky “Equal to” Assumption
-Given M ≥ N, they offer conclusion M > N. Many students mark it true because they read ≥ as strictly greater. Never forget: equality is a real possibility. Unless the chain forces >, never pick a pure > conclusion from a ≥ statement alone.
-
-Trap 3: Coded Confusion
-In coded inequalities, they mix up “not greater than” and “not less than”. If you decode them wrong, all answers collapse. The trick: write the meaning on the question paper immediately. Practice 10 coded inequalities as a warm-up before the exam to set your translation speed.
-
-Remember, a calm detective who follows the rules will crack every case. You are that detective now. Go rock your inequality questions!
+# Chapter: Inequality, Level: foundation, Type: Verbal Reasoning
+
+@content_agent lang=en level=foundation role='experienced reasoning teacher and cognitive psychologist' 'Write a chapter on Inequality that becomes unputdownable. Follow Chain-of-Thought:
+1. Outline and learning goals.
+2. Start with a powerful hook.
+3. Acknowledge common struggle with 'Inequality'.
+4. Break content into small chunks.
+5. Insert Active Recall Prompt (🧠) every 2-3 paragraphs.
+6. Include at least one mnemonic trick.
+7. End with summary table and 'Review this after 2 days'.
+
+⚠️ Examiner's Trap (Examiner's Trap):
+- इस अध्याय के अंत में एक अलग बॉक्स बनाओ जिसका शीर्षक हो "⚠️ Caution: Examiner's Trap"।
+- इसमें इस अध्याय के 2-3 सबसे आम जाल बताओ, जैसे:
+  * "असमानता में विकल्पों में एक से अधिक संभावित संबंध दिखाना"
+  * "कठिन शब्दों का प्रयोग करके छात्र को भ्रमित करना"
+  * "दोहरे संबंध वाले प्रश्न"
+
+Keep language extremely simple, conversational, and motivational.

@@ -1,0 +1,123 @@
+# 📊 PYQ Analysis — Figure Series / Classification (Non-Verbal Reasoning)
+
+> **Note:** This analysis is based on the recurring pattern of questions asked in SSC (CGL, CHSL, MTS, GD), RRB (NTPC, Group D), and Banking (IBPS, SBI) exams. Instead of invented year-wise counts, we describe *what* is asked and *how* the examiner traps you.
+
+---
+
+## 1. How Often Does This Chapter Appear?
+
+Figure Series and Figure Classification are **permanent fixtures** of the non-verbal reasoning section. In almost every shift of SSC CGL/CHSL and RRB NTPC, you can expect a small but guaranteed presence of these questions — typically 1–3 questions per paper from series, analogy, or odd-figure-out combined. Banking prelims use them less, but IBPS RRB and some state-level exams include them regularly.
+
+**Key takeaway:** This is a *low-volume, high-certainty* chapter. You will not see 10 questions, but the 1–3 that appear are highly predictable in style — making them ideal "quick marks."
+
+---
+
+## 2. Sub-Topic Weightage (in Words, Not Numbers)
+
+| Sub-topic | How often it appears | Difficulty trend |
+|---|---|---|
+| **Figure Series** (what comes next) | Most frequent | Rotation + addition/deletion of elements dominates |
+| **Odd Figure Out / Classification** | Very frequent | Usually one property breaks the pattern (sides, shading, position) |
+| **Figure Analogy** (A:B :: C:?) | Moderate | Mirror/rotation-based analogies are favourites |
+| **Embedded / Completion figures** | Occasional | More common in SSC MTS/GD level |
+
+**Recurring micro-patterns examiners love:**
+- An element rotating 45°/90°/135° clockwise or anti-clockwise.
+- Number of sides/lines/dots increasing or decreasing by one each step.
+- Shading moving one corner at a time.
+- Two elements moving in *opposite* directions simultaneously.
+- In classification: four figures share a property (e.g., arrow points to the longer side); one violates it.
+
+---
+
+## 3. Exam-Wise Distribution (Pattern Description)
+
+- **SSC CGL / CHSL:** Series questions with 2 simultaneous changes (rotation + element count). Classification questions based on geometric properties (number of sides vs. number of internal lines).
+- **SSC MTS / GD:** Simpler single-rule series; odd-figure-out based on shading or direction.
+- **RRB NTPC / Group D:** Series with dot/symbol movement along corners; analogy with mirror images.
+- **Banking (IBPS/SBI):** Rare, but when present, uses 5-figure series with alternating rules.
+
+---
+
+## 4. The Examiner's Traps (Psychological Hooks)
+
+1. **Two-rule camouflage:** The obvious rule (rotation) hides the real rule (element count). You pick the option matching rotation but wrong count.
+2. **Decoy option:** One option continues the *previous* step's change instead of the *next* step's — it looks right if you only compare the last two figures.
+3. **Alternating rules:** Odd positions follow one rule, even positions another. Students apply a single rule and get trapped.
+4. **Classification red herring:** Three figures share *two* properties; the odd one shares the obvious property but breaks the subtle one (e.g., all have a dot inside the *smaller* enclosed region).
+5. **Direction confusion:** Clockwise vs. anti-clockwise movement — the correct option differs from the decoy only in direction of an arrowhead.
+
+---
+
+## 5. Top 10 High-Yield PYQ-Style Questions (with Solutions & Trap Analysis)
+
+**Q1.** A square contains a dot. In successive figures the dot moves one corner clockwise, while a small line segment is added alternately to the top and right side. What is the 5th figure?
+**Answer:** Dot at top-left corner; two line segments (top and right).
+**Solution:** Track each element separately. Dot: moving clockwise from TL goes TL→TR→BR→BL→TL, so the 5th figure has the dot back at TL. Lines: added alternately, so by figure 5 both top and right segments exist.
+**Trap:** Options include dot at BL (the 4th position) — a decoy for those who miscount steps.
+*Source: PYQ-style (SSC CGL pattern)*
+
+**Q2.** Series: triangle (3 sides), square (4), pentagon (5), hexagon (6) — next?
+**Answer:** Heptagon (7 sides).
+**Solution:** Sides increase by one each step.
+**Trap:** An option shows a hexagon rotated — rotation is irrelevant; count is the rule.
+*Source: PYQ-style*
+
+**Q3.** Classification: Four figures show a circle with a line through it; in three, the line passes through the centre; in one, it is off-centre. Odd one?
+**Answer:** The off-centre figure.
+**Solution:** Classification hinges on one geometric property — here, diameter vs. chord.
+**Trap:** Students compare line *angles* (a shared variable) instead of position.
+*Source: PYQ-style (SSC CHSL pattern)*
+
+**Q4.** An arrow rotates 90° anti-clockwise each step: ↑, ←, ↓, →, ?
+**Answer:** ↑
+**Solution:** After four 90° rotations the arrow returns to the start.
+**Trap:** Option ← tempts those who rotate clockwise by mistake.
+*Source: PYQ-style*
+
+**Q5.** Series: a square with 1 dot inside, then 2 dots, then 3, then 4 — but dots alternate between corners and centre. 5th figure?
+**Answer:** 5 dots (4 corners + centre).
+**Solution:** Count increases by one; positions fill corners first, then centre.
+**Trap:** An option with 5 dots all at corners — position rule violated.
+*Source: PYQ-style (RRB NTPC pattern)*
+
+**Q6.** Classification: Figures A–D are polygons with internal lines. In A, B, D the number of internal lines equals the number of sides minus 2; in C it does not. Odd one?
+**Answer:** C.
+**Solution:** Verify the numerical relationship for each figure, not just appearance.
+**Trap:** C looks visually similar; only counting reveals the break.
+*Source: PYQ-style*
+
+**Q7.** Analogy: Figure I → Figure II is a horizontal mirror flip. Apply the same to Figure III.
+**Answer:** The horizontally flipped version of Figure III.
+**Solution:** Identify the transformation (mirror, not rotation) before applying.
+**Trap:** A 180° rotation option is offered — rotation ≠ mirror for asymmetric figures.
+*Source: PYQ-style (SSC CGL pattern)*
+
+**Q8.** Series with two elements: a star moves clockwise one corner per step; a circle moves anti-clockwise two corners per step. Given 4 figures, find the 5th.
+**Answer:** Compute both movements independently and pick the option matching both.
+**Solution:** Never track only the "salient" element (star); the circle's double-step eliminates two options.
+**Trap:** Two options match the star's position but differ in the circle's.
+*Source: PYQ-style*
+⏭️ **Skip-rule verdict:** If both movements are not clear within 15 seconds, mark and skip — return with fresh eyes; dual-rule questions reward a second look.
+
+**Q9.** Classification: Four figures each contain two shapes, one inside the other. In three, the inner shape has fewer sides than the outer; in one, inner has more. Odd one?
+**Answer:** The figure where the inner shape has more sides.
+**Solution:** Count sides of inner and outer shapes separately.
+**Trap:** Shading differences distract from the side-count rule.
+*Source: PYQ-style*
+
+**Q10.** A 5-figure series where figures 1, 3, 5 follow one rule (element added) and figures 2, 4 follow another (element rotated). Find figure 6.
+**Answer:** Apply the *even-position* rule (rotation) to figure 5.
+**Solution:** Split the series into odd and even positions before concluding.
+**Trap:** Applying the addition rule (odd positions) to figure 6 gives the decoy option.
+*Source: PYQ-style (Banking pattern)*
+⏭️ **Skip-rule verdict:** Alternating-rule series are the most time-consuming type here. If the alternating structure isn't visible in 15 seconds, skip immediately — guessing between two plausible options is a negative-marking risk.
+
+---
+
+## 6. The 15-Second / 45-Second Rule — Reviewed for This Chapter
+
+- **15-second check:** Can you state the rule in one sentence ("dot moves clockwise one corner")? If yes, solve within 45 seconds total.
+- **Skip signals:** (a) two simultaneous rules not separable quickly, (b) alternating odd/even rules, (c) classification where no property difference is visible after scanning all figures once.
+- **Never skip:** single-rule rotation, side-count series, and shading-movement questions — these are the fastest marks in the whole reasoning paper.
+- **Negative-marking caution:** In classification, if you narrow to two options, re-check *one specific property* (sides, position, direction) rather than guessing on "overall look."

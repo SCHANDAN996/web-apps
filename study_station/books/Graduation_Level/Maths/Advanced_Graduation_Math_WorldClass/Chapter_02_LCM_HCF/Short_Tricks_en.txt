@@ -1,0 +1,130 @@
+# 🪄 Short Tricks — LCM & HCF (Mnemonic Toolbox)
+
+---
+
+**🧰 TRICK 1 — "HCF is the Humble one, LCM is the Large one"**
+
+> **H**CF = **H**ighest but **Humble** (it DIVIDES the numbers, so it's smaller).
+> **L**CM = **L**owest but **Large** (the numbers divide IT, so it's bigger).
+> Memory hook: *"HCF Hides inside the numbers; LCM Looms over them."*
+> Instant check: HCF ≤ smallest number ≤ largest number ≤ LCM. If your answer violates this, it's wrong.
+
+---
+
+**🧰 TRICK 2 — The GOLDEN PRODUCT Rule**
+
+> **LCM × HCF = Product of the two numbers**
+> Mnemonic: **"Love × Hate = Product of the Pair"** — works ONLY for TWO numbers (a couple!). Three numbers? The formula breaks up — never apply it to 3+ numbers.
+> Quick use: given any three of {a, b, LCM, HCF}, find the fourth in 5 seconds.
+
+---
+
+**🧰 TRICK 3 — "MAX takes MIN, MIN takes MAX" (Prime Power Rule)**
+
+> For **HCF**: take **common primes only**, with the **MINIMUM** power.
+> For **LCM**: take **ALL primes**, with the **MAXIMUM** power.
+> Mnemonic: *"HCF is a Minimalist — only common stuff, smallest pack. LCM is a Maximalist — everything, biggest pack."*
+> Example: 12 = 2²·3, 18 = 2·3² → HCF = 2¹·3¹ = 6; LCM = 2²·3² = 36.
+
+---
+
+**🧰 TRICK 4 — "Fractions Flip the Formula"**
+
+> LCM of fractions = **LCM of numerators / HCF of denominators**
+> HCF of fractions = **HCF of numerators / LCM of denominators**
+> Mnemonic: **"Same name on TOP, Opposite at the BOTTOM."**
+> Want LCM? LCM sits on top. Want HCF? HCF sits on top. The other one goes below — always flipped!
+
+---
+
+**🧰 TRICK 5 — The "Remainder Riddle" Decoder**
+
+> "Greatest number that divides a, b, c leaving the **SAME remainder r**":
+> → **HCF of (a−r, b−r, c−r)**
+> "Greatest number dividing a, b, c leaving remainders p, q, s":
+> → **HCF of (a−p, b−q, c−s)**
+> Mnemonic: *"Kill the remainder first — subtract, then HCF."* The remainder is a distraction; remove it and the problem becomes plain HCF.
+
+---
+
+**🧰 TRICK 6 — "Bell-Toll Together" (LCM of Time)**
+
+> Bells toll at 12, 15, 20 min — when together again? **LCM of the intervals.**
+> Mnemonic: **"Meeting again? LCM is your friend."**
+> Applies to: bells, traffic lights, runners on a circular track, blinking bulbs, planets aligning. Keyword in question: *"together again / simultaneously / meet"* → straight to LCM.
+
+---
+
+**🧰 TRICK 7 — "Cut it Equal? HCF is the Deal"**
+
+> Largest square tiles to pave a floor, longest tape to measure planks exactly, biggest equal groups, maximum pieces with no leftover → **HCF of the dimensions.**
+> Mnemonic: **"Divide without waste — HCF is your mate."**
+> Keywords: *"greatest/largest that divides exactly, maximum equal pieces"* → HCF.
+
+---
+
+**🧰 TRICK 8 — The "Smallest Number with Leftover" Trick**
+
+> "Smallest number which when divided by a, b, c leaves remainder r each time":
+> → **LCM(a, b, c) + r**
+> "Leaves remainders such that (divisor − remainder) is the SAME k for all":
+> → **LCM(a, b, c) − k**
+> Mnemonic: **"Same leftover? ADD it. Same shortfall? SUBTRACT it."**
+> (Leftover = extra → plus. Shortfall = deficit → minus.)
+
+---
+
+**🧰 TRICK 9 — "Co-prime? Just Multiply!"**
+
+> If two numbers are co-prime (HCF = 1), then **LCM = a × b**. No working needed.
+> Mnemonic: *"Strangers don't share — so multiply the pair."*
+> Example: LCM(8, 15) = 120 instantly, since HCF(8, 15) = 1.
+> Bonus: consecutive numbers (n, n+1) are ALWAYS co-prime → LCM = n(n+1).
+
+---
+
+**🧰 TRICK 10 — The "Ratio Rebuild" Trick**
+
+> If two numbers are in ratio **x : y** (x, y co-prime) with HCF = h, the numbers are **hx and hy**, and **LCM = hxy**.
+> Mnemonic: **"Ratio × HCF = Reality."**
+> Example: ratio 3:4, HCF 5 → numbers 15, 20; LCM = 3×4×5 = 60. One line, done.
+
+---
+
+**🧰 TRICK 11 — "HCF Divides the LCM" Sanity Check**
+
+> The HCF of two numbers always **divides** their LCM exactly.
+> Mnemonic: *"The small boss fits inside the big boss."*
+> Use it to eliminate options: if HCF = 12 and an option says LCM = 50, reject instantly (12 ∤ 50).
+
+---
+
+**🧰 TRICK 12 — "Euclid's Echo" (Lightning HCF)**
+
+> HCF by division: divide the larger by the smaller, then divide the divisor by the remainder, repeat till remainder = 0. **Last non-zero divisor = HCF.**
+> Mnemonic: **"Divide, Slide, Divide — till nothing survives."**
+> For big numbers (e.g., 1071 and 462), this beats prime factorisation every time.
+
+---
+
+**🧰 TRICK 13 — "LCM of the First n Naturals" Power Shortcut**
+
+> LCM(1…n): take every prime ≤ n, raise it to the **highest power still ≤ n**, multiply.
+> Example: LCM(1–10) = 2³ × 3² × 5 × 7 = **2520**.
+> Mnemonic: **"Primes climb as high as they can, but never cross the fence (n)."**
+> Remember 2520 — it's a celebrity number, divisible by everything from 1 to 10.
+
+---
+
+**🧰 TRICK 14 — "Difference is Divisible" Trap-Breaker**
+
+> If HCF of two numbers is h, then h divides their **sum, difference, and any combination** of them.
+> Mnemonic: *"Whatever the numbers do together, HCF watches over it."*
+> Exam trap: "HCF of two numbers is 13; which can be their difference?" — only the option divisible by 13 survives.
+
+---
+
+**🧰 TRICK 15 — The One-Line Master Chant**
+
+> **"Divide? HCF. Multiply-meet? LCM. Two numbers? Product rule. Fractions? Flip. Remainders? Subtract first."**
+> Recite this before the exam — it classifies 90% of LCM–HCF questions in under 3 seconds.

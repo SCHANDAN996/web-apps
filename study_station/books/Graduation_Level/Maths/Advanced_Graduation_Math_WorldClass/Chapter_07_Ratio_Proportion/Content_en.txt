@@ -1,0 +1,240 @@
+# Ratio & Proportion
+
+## Learning Goals
+
+By the end of this chapter, you will be able to:
+
+- Understand what a ratio really means (and what it does NOT mean)
+- Simplify, compare, and combine ratios with confidence
+- Master proportion, continued proportion, and the componendo–dividendo family of rules
+- Solve partnership, mixture, and income–expenditure problems using ratios
+- Spot the traps examiners set in SSC CGL Tier-II, IBPS PO Mains, CAT, and CSAT
+
+---
+
+## The Hook: Two Cups of Tea
+
+Imagine two cups of tea. Cup A has 2 spoons of sugar in 100 ml of tea. Cup B has 3 spoons of sugar in 150 ml of tea. Which one is sweeter?
+
+Most people instantly say "Cup B — it has more sugar!" But wait. Cup B also has more water. When you compare 2/100 and 3/150, both simplify to 1/50. **Both cups are equally sweet.**
+
+That tiny moment of confusion you just felt? That is exactly where examiners make their money. Ratio questions are rarely hard to calculate — they are hard to *interpret*. This chapter trains you to never fall for the "more sugar" trap again.
+
+---
+
+## 1. What Is a Ratio, Really?
+
+A **ratio** is a comparison of two quantities of the **same kind**, expressed as a fraction. If a class has 40 boys and 60 girls, the ratio of boys to girls is:
+
+$$40 : 60 = \frac{40}{60} = \frac{2}{3} = 2 : 3$$
+
+Three golden rules:
+
+1. **Same units only.** You cannot compare 2 kg with 500 grams until you convert: 2000 g : 500 g = 4 : 1.
+2. **A ratio has no units.** It is a pure number — 2:3, not "2:3 kg".
+3. **Order matters.** Boys : Girls = 2:3 is different from Girls : Boys = 3:2.
+
+In the ratio a : b, **a is the antecedent** (first term) and **b is the consequent** (second term).
+
+🧠 **Active Recall:** Without looking back — can a ratio compare 5 metres with 3 kilograms? Why or why not? What are the two terms of a ratio called?
+
+---
+
+## 2. Types of Ratios
+
+Examiners love testing these definitions directly:
+
+| Type | Condition | Example |
+|---|---|---|
+| Ratio of greater inequality | a : b where a > b | 5 : 3 |
+| Ratio of lesser inequality | a : b where a < b | 3 : 5 |
+| Ratio of equality | a : b where a = b | 4 : 4 |
+| **Duplicate ratio** | a² : b² | Duplicate of 2:3 is 4:9 |
+| **Triplicate ratio** | a³ : b³ | Triplicate of 2:3 is 8:27 |
+| **Sub-duplicate ratio** | √a : √b | Sub-duplicate of 4:9 is 2:3 |
+| **Sub-triplicate ratio** | ∛a : ∛b | Sub-triplicate of 8:27 is 2:3 |
+| **Inverse (reciprocal) ratio** | b : a | Inverse of 2:3 is 3:2 |
+
+**Mnemonic 🧠 — "Du-Tri-Sub squares it":** *Du*plicate **squares**, *Tri*plicate **cubes**, and *Sub* just **undoes** them (root). Think: "The Duke squares, the Tribes cube, the Sub dives to the root."
+
+🧠 **Active Recall:** What is the duplicate ratio of 3:4? What is the sub-triplicate ratio of 64:125?
+
+---
+
+## 3. Comparing Ratios
+
+Which is bigger: 3:5 or 4:7? Convert to fractions and cross-multiply:
+
+$$\frac{3}{5} \text{ vs } \frac{4}{7} \Rightarrow 3 \times 7 = 21 \text{ vs } 4 \times 5 = 20$$
+
+Since 21 > 20, **3:5 is greater**. Cross-multiplication is your fastest comparison tool — no LCM needed.
+
+🧠 **Active Recall:** Compare 5:8 and 7:11 using cross-multiplication. Which is larger?
+
+---
+
+## 4. Proportion: When Two Ratios Shake Hands
+
+Four quantities a, b, c, d are in **proportion** if:
+
+$$a : b = c : d \quad \Longleftrightarrow \quad \frac{a}{b} = \frac{c}{d} \quad \Longleftrightarrow \quad ad = bc$$
+
+Written as a : b :: c : d. Here:
+
+- a and d are the **extremes** (outer terms)
+- b and c are the **means** (inner terms)
+- **Product of extremes = Product of means** (ad = bc)
+- d is called the **fourth proportional** to a, b, c
+
+**Continued proportion:** a : b = b : c means b² = ac. Here b is the **mean proportional** between a and c, and c is the **third proportional** to a and b.
+
+**Example:** Find the mean proportional between 4 and 25.
+b² = 4 × 25 = 100, so b = 10. ✔
+
+🧠 **Active Recall:** In a : b :: c : d, which terms are the extremes? If 2, 6, x are in continued proportion, find x.
+
+---
+
+## 5. The Componendo–Dividendo Family
+
+This is the Advanced-level heart of the chapter. If a/b = c/d, then:
+
+| Rule | Result |
+|---|---|
+| **Invertendo** | b/a = d/c |
+| **Alternendo** | a/c = b/d |
+| **Componendo** | (a+b)/b = (c+d)/d |
+| **Dividendo** | (a−b)/b = (c−d)/d |
+| **Componendo–Dividendo** | (a+b)/(a−b) = (c+d)/(c−d) |
+
+**Why it matters:** Questions like "If (3x + 2y)/(3x − 2y) = 5/3, find x : y" collapse in seconds:
+
+Apply C–D in reverse: 3x/2y = (5+3)/(5−3) = 8/2 = 4, so x/y = 8/3. Done.
+
+**Mnemonic 🧠 — "C adds, D subtracts, CD does both":** **C**omponendo **a**dds, **D**ividendo **s**ubtracts, and Componendo-Dividendo puts the sum on top and the difference below.
+
+🧠 **Active Recall:** If a/b = c/d, what does alternendo give? What sits in the numerator and denominator after componendo-dividendo?
+
+---
+
+## 6. The Equal-Ratios Power Tool
+
+If a/b = c/d = e/f = k, then each ratio also equals:
+
+$$\frac{a + c + e}{b + d + f} = k$$
+
+More generally, any linear combination works: (pa + qc + re)/(pb + qd + rf) = k.
+
+**Example:** If x/2 = y/3 = z/5 and x + y + z = 40, then x = 2k, y = 3k, z = 5k, so 10k = 40, k = 4. Hence x = 8, y = 12, z = 20.
+
+This "let each ratio equal k" trick solves the large majority of proportion problems in exams. Make it your default move.
+
+🧠 **Active Recall:** If a/3 = b/4 = c/5 and a + b + c = 60, what is b?
+
+---
+
+## 7. Dividing an Amount in a Given Ratio
+
+To divide ₹N in the ratio a : b : c:
+
+- Total parts = a + b + c
+- Shares = (a/(a+b+c)) × N, (b/(a+b+c)) × N, (c/(a+b+c)) × N
+
+**Example:** Divide ₹1,260 among A, B, C in the ratio 2 : 3 : 4.
+Total parts = 9. A gets 2/9 × 1260 = ₹280, B gets ₹420, C gets ₹560.
+
+**Trap alert 🪤:** If the ratio is given as fractions like 1/2 : 1/3 : 1/4, first clear denominators by multiplying by the LCM (12): you get 6 : 4 : 3. Never divide directly by fractions.
+
+🧠 **Active Recall:** Divide ₹900 in the ratio 1/2 : 1/3 : 1/6. What is the largest share?
+
+---
+
+## 8. Combining Ratios: The A:B and B:C Bridge
+
+If A : B = 2 : 3 and B : C = 4 : 5, find A : B : C.
+
+B is the bridge — make its value equal in both ratios. LCM of 3 and 4 is 12:
+
+- A : B = 2 : 3 = 8 : 12
+- B : C = 4 : 5 = 12 : 15
+
+So **A : B : C = 8 : 12 : 15**.
+
+This bridging technique powers partnership problems, chain ratios (A:B, B:C, C:D), and mixture questions across every exam.
+
+🧠 **Active Recall:** If P : Q = 3 : 4 and Q : R = 2 : 5, find P : Q : R.
+
+---
+
+## 9. Income, Expenditure and the "Don't Assume the Salary" Trap
+
+Classic exam question: "The incomes of A and B are in the ratio 3:2 and their expenditures in the ratio 5:3. Each saves ₹1,000. Find their incomes."
+
+Let incomes be 3x and 2x; expenditures be 5y and 3y.
+
+- 3x − 5y = 1000
+- 2x − 3y = 1000
+
+Solving: multiply the first equation by 2 and the second by 3 → 6x − 10y = 2000 and 6x − 9y = 3000. Subtracting the first from the second: y = 1000. Substituting back: 2x − 3000 = 1000, so x = 2000.
+
+**Incomes: A = 3x = ₹6,000, B = 2x = ₹4,000.**
+
+Check: A spends 5y = ₹5,000 and saves ₹1,000 ✔; B spends 3y = ₹3,000 and saves ₹1,000 ✔.
+
+**Trap alert 🪤:** The income ratio and expenditure ratio use *different* unknowns (x and y). Never use the same variable for both — that is the single most common error in this chapter.
+
+🧠 **Active Recall:** Why can't we take income as 3x, 2x and expenditure as 5x, 3x in the same problem?
+
+---
+
+## 10. Coins, Mixtures and Partnerships
+
+**Coins:** A bag has 50p, 25p and 10p coins in the ratio 5 : 9 : 4, totalling ₹2,060. Value per "ratio unit" = 5(0.50) + 9(0.25) + 4(0.10) = 2.5 + 2.25 + 0.4 = ₹5.15. Number of units = 2060/5.15 = 400. So 50p coins = 2000, 25p coins = 3600, 10p coins = 1600.
+
+**Partnership:** Profit is divided in the ratio of (investment × time). If A invests ₹5,000 for 12 months and B invests ₹8,000 for 6 months, the profit ratio is (5000×12) : (8000×6) = 60000 : 48000 = 5 : 4.
+
+**Mixtures:** If two mixtures with milk:water ratios 2:1 and 4:1 are mixed equally, convert to a common total (3 and 5 → LCM 15): first gives 10:5, second gives 12:3. Combined milk : water = 22 : 8 = 11 : 4.
+
+🧠 **Active Recall:** In partnership, profit is shared in the ratio of what two factors multiplied together?
+
+---
+
+## 11. Variation: Direct and Inverse
+
+- **Direct variation:** y ∝ x means y = kx. More workers → more work done.
+- **Inverse variation:** y ∝ 1/x means xy = k. More workers → less time.
+
+**Example:** If 12 men build a wall in 10 days, how long for 15 men? (Inverse) 12 × 10 = 15 × d, so d = 8 days.
+
+🧠 **Active Recall:** Speed and time for a fixed distance — direct or inverse variation?
+
+---
+
+## Summary Table
+
+| Concept | Key Result |
+|---|---|
+| Ratio a : b | Comparison of same-kind quantities; no units |
+| Duplicate / Triplicate | a²:b² / a³:b³ |
+| Sub-duplicate / Sub-triplicate | √a:√b / ∛a:∛b |
+| Proportion a:b :: c:d | ad = bc (extremes = means) |
+| Mean proportional of a, c | b = √(ac) |
+| Componendo–Dividendo | (a+b)/(a−b) = (c+d)/(c−d) |
+| Equal ratios | a/b = c/d = e/f = (a+c+e)/(b+d+f) |
+| Dividing N in a:b:c | Each share = (part/total parts) × N |
+| Combining A:B, B:C | Equalise B using LCM |
+| Partnership profit ratio | Investment × Time |
+| Direct / Inverse variation | y = kx / xy = k |
+
+---
+
+## 🔁 Review This After 2 Days
+
+Close the book and answer from memory:
+
+1. What is the componendo-dividendo rule?
+2. How do you combine A:B = 2:3 and B:C = 4:5?
+3. In the income–expenditure problem, why do we need two different variables?
+4. What is the mean proportional between 9 and 16?
+
+If any answer hesitates, re-read only that section — not the whole chapter. Then revise again after 7 days. Spaced repetition is what moves ratios from "I studied this" to "I can't get this wrong."

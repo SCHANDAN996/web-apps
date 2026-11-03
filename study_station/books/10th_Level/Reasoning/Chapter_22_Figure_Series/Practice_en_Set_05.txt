@@ -1,0 +1,414 @@
+Q101. (Medium) Figure Series (Alternating Shape and Dot Position):
+Problem Figures:
+(i) Circle with a central black dot.
+(ii) Square with a black dot at top-left corner.
+(iii) Circle with a central black dot.
+(iv) Square with a black dot at top-right corner.
+(v) ?
+(A) Circle with a central black dot (B) Square with a black dot at bottom-right corner (C) Circle with a black dot at top-left corner (D) Square with a central black dot
+
+Answer: (A) Circle with a central black dot
+
+Solution:
+Odd steps (1, 3, 5) consistently display a circle with the black dot positioned at its centre. Even steps (2, 4) show a square with the dot advancing clockwise along its vertices. Step (v) is odd, requiring a circle with a central black dot. Hence, the correct option is (A).
+
+Source: SSC CGL
+
+Q102. (Medium) (⚠️ Examiner's Trap) Figure Series (Alternating Arrow Reflection with Shifting Triangle):
+Problem Figures:
+(i) Arrow pointing right (→); small white triangle at tail (left end).
+(ii) Arrow pointing left (←); triangle at arrowhead (left end).
+(iii) Arrow pointing down (↓); triangle at tail (top end).
+(iv) Arrow pointing up (↑); triangle at arrowhead (bottom end).
+(v) ?
+(A) Arrow pointing right with triangle at its tail (B) Arrow pointing left with triangle at its tail (C) Arrow pointing down with triangle at its arrowhead (D) Arrow pointing up with triangle at its tail
+
+Answer: (B) Arrow pointing left with triangle at its tail
+
+Solution:
+Odd steps rotate 90° clockwise: right → down → left, with the triangle positioned at the tail. Even steps are horizontal/vertical mirror reflections of preceding odd figures with the triangle shifting to the arrowhead. Step (v) is odd, requiring an arrow pointing left with the triangle at its tail. Hence, the correct option is (B).
+
+Source: SSC CHSL
+
+Q103. (Medium) Classification (Odd One Out):
+Problem Figures:
+Five umbrella figures each consisting of a semi-circular canopy and a straight vertical handle.
+(1) Umbrella canopy and handle completely connected, fully closed.
+(2) Fully closed umbrella figure.
+(3) Fully closed umbrella figure.
+(4) Umbrella with a microscopic 0.5 mm open gap separating handle from canopy.
+(5) Fully closed umbrella figure.
+(A) Figure 1 (B) Figure 2 (C) Figure 4 (D) Figure 3
+
+Answer: (C) Figure 4
+
+Solution:
+All figures except Figure 4 are completely joined, closed continuous figures. Figure 4 has a minute disconnect making it an open geometric figure, making Figure 4 the odd one out. Hence, the correct option is (C).
+
+Source: SSC MTS
+
+Q104. (Medium) Figure Series (Clockwise Sector Pair Shading Shift):
+Problem Figures:
+A circle divided into 8 equal 45° sectors numbered 1 to 8 like a clock.
+(i) Sectors 12 and 1 are shaded black.
+(ii) Sectors 1 and 2 are shaded black.
+(iii) Sectors 2 and 3 are shaded black.
+(iv) Sectors 3 and 4 are shaded black.
+(v) ?
+(A) Sectors 12 and 1 shaded black (B) Sectors 5 and 6 shaded black (C) Sectors 1 and 2 shaded black (D) Sectors 4 and 5 shaded black
+
+Answer: (D) Sectors 4 and 5 shaded black
+
+Solution:
+The adjacent pair of black-shaded sectors shifts clockwise by exactly one sector (+45°) at each step: (12,1) → (1,2) → (2,3) → (3,4) → (4,5). Step (v) shades sectors 4 and 5. Hence, the correct option is (D).
+
+Source: RRB NTPC
+
+Q105. (Medium) Figure Series (Parallel Line Decrement):
+Problem Figures:
+(i) Five vertical parallel line segments.
+(ii) Four vertical parallel line segments (rightmost removed).
+(iii) Three vertical parallel line segments.
+(iv) Two vertical parallel line segments.
+(v) ?
+(A) One vertical line segment (B) Two vertical line segments (C) Three vertical line segments (D) Four vertical line segments
+
+Answer: (A) One vertical line segment
+
+Solution:
+The number of parallel vertical line segments decreases by 1 at each step: 5 → 4 → 3 → 2 → 1. Step (v) leaves exactly one vertical line segment. Hence, the correct option is (A).
+
+Source: RRB Group D
+
+Q106. (Medium) Figure Series (Outer Polygon and Inner Symbol Progression):
+Problem Figures:
+(i) Circle containing a central dot (•).
+(ii) Circle containing a central cross (×).
+(iii) Square containing a central dot (•).
+(iv) Square containing a central cross (×).
+(v) ?
+(A) Triangle containing a central cross (×) (B) Triangle containing a central dot (•) (C) Square containing a central dot (•) (D) Circle containing a central cross (×)
+
+Answer: (B) Triangle containing a central dot (•)
+
+Solution:
+The outer shape changes every two steps: circle (steps 1-2) → square (steps 3-4) → triangle (steps 5-6). The internal symbol strictly alternates: dot (odd steps) and cross (even steps). Step (v) is odd, requiring a triangle with an internal dot (•). Hence, the correct option is (B).
+
+Source: SSC CGL
+
+Q107. (Medium) Classification (Odd One Out):
+Problem Figures:
+(1) A square with a vertical line of symmetry.
+(2) A rectangle with a horizontal line of symmetry.
+(3) An equilateral triangle with a median line of symmetry.
+(4) A general non-rhombic parallelogram with a diagonal line drawn.
+(5) An isosceles triangle with an altitude line of symmetry.
+(A) Figure 1 (B) Figure 2 (C) Figure 4 (D) Figure 3
+
+Answer: (C) Figure 4
+
+Solution:
+In all figures except Figure 4, the drawn internal segment is a valid axis of reflectional symmetry. A diagonal of a general non-rhombic parallelogram does not constitute a line of symmetry, making Figure 4 the odd one out. Hence, the correct option is (C).
+
+Source: SSC CHSL
+
+Q108. (Medium) Figure Series (Arrow Rotation + Dot Fill Alternation):
+Problem Figures:
+An arrow containing a dot at its center.
+(i) Arrow pointing up; dot is black.
+(ii) Arrow pointing right; dot is white.
+(iii) Arrow pointing down; dot is black.
+(iv) Arrow pointing left; dot is white.
+(v) ?
+(A) Arrow pointing up; dot is white (B) Arrow pointing right; dot is white (C) Arrow pointing down; dot is black (D) Arrow pointing up; dot is black
+
+Answer: (D) Arrow pointing up; dot is black
+
+Solution:
+The arrow rotates 90° clockwise per step: up → right → down → left → up. Concurrently, the central dot fill alternates: black (odd steps) and white (even steps). Step (v) is odd, requiring an arrow pointing up with a black dot. Hence, the correct option is (D).
+
+Source: SSC MTS
+
+Q109. (Medium) (⚠️ Examiner's Trap) Figure Series (Element Appearing Exclusively on Even Steps):
+Problem Figures:
+A 2×2 grid square containing a black dot (●) and a white triangle (△).
+(i) ● at top-left; △ is absent.
+(ii) ● at top-right; △ appears at bottom-left.
+(iii) ● at bottom-right; △ is absent.
+(iv) ● at bottom-left; △ appears at top-right.
+(v) ?
+(A) ● at top-left; △ is absent (B) ● at top-left; △ at bottom-right (C) ● at top-right; △ is absent (D) ● at bottom-right; △ is absent
+
+Answer: (A) ● at top-left; △ is absent
+
+Solution:
+The black dot (●) traverses the grid clockwise: top-left → top-right → bottom-right → bottom-left → top-left. The white triangle (△) appears strictly on even steps (2, 4) in the diagonally opposite cell and vanishes on odd steps. Step (v) is odd, so △ is absent and ● is at top-left. Hence, the correct option is (A).
+
+Source: RRB NTPC
+
+Q110. (Medium) Figure Series (Clockwise Rotation of Flag on Pole):
+Problem Figures:
+A triangular pennant flag attached to a flagpole.
+(i) Pole vertical on left side; flag points right.
+(ii) Pole horizontal on top side; flag points down (90° clockwise).
+(iii) Pole vertical on right side; flag points left.
+(iv) Pole horizontal on bottom side; flag points up.
+(v) ?
+(A) Pole horizontal on top side; flag points down (B) Pole vertical on left side; flag points right (C) Pole vertical on right side; flag points left (D) Pole horizontal on bottom side; flag points up
+
+Answer: (B) Pole vertical on left side; flag points right
+
+Solution:
+The entire flagpole and flag structure rotates 90° clockwise at each step. A full 360° rotation across 4 steps restores the initial state at step 5: pole vertical on the left with flag pointing right. Hence, the correct option is (B).
+
+Source: RRB Group D
+
+Q111. (Medium) Classification (Odd One Out):
+Problem Figures:
+(1) Two lines intersecting at 1 point (X shape).
+(2) Three lines intersecting concurrently at 1 point.
+(3) Two perpendicular lines intersecting at 1 point (+ shape).
+(4) Two parallel lines that never intersect (0 points of intersection).
+(5) Two lines intersecting at 1 point forming a 45° angle.
+(A) Figure 1 (B) Figure 2 (C) Figure 4 (D) Figure 3
+
+Answer: (C) Figure 4
+
+Solution:
+In all figures except Figure 4, the straight lines intersect each other at a common point. In Figure 4, the lines are strictly parallel with zero points of intersection, making Figure 4 the odd one out. Hence, the correct option is (C).
+
+Source: SSC CGL
+
+Q112. (Medium) Figure Series (Diameter Line Rotation with Semicircle Shading):
+Problem Figures:
+A circle divided into two halves by a diameter line; one semicircle is black, the other white.
+(i) Diameter line vertical; black half on the right.
+(ii) Diameter line horizontal; black half on the bottom.
+(iii) Diameter line vertical; black half on the left.
+(iv) Diameter line horizontal; black half on the top.
+(v) ?
+(A) Diameter line horizontal; black half on the top (B) Diameter line horizontal; black half on the bottom (C) Diameter line vertical; black half on the left (D) Diameter line vertical; black half on the right
+
+Answer: (D) Diameter line vertical; black half on the right
+
+Solution:
+The dividing diameter line and shaded semicircle rotate together 90° clockwise per step: right → bottom → left → top → right. At step 5, the figure returns to its initial configuration with a vertical diameter and black half on the right. Hence, the correct option is (D).
+
+Source: SSC CHSL
+
+Q113. (Medium) Figure Series (Clockwise Spiral Path in 3×3 Grid):
+Problem Figures:
+A 3×3 grid of cells numbered 1 to 9 (row-wise from top-left). A black dot moves along the outer perimeter spiral.
+(i) Dot in cell 1 (top-left).
+(ii) Dot in cell 2 (top-middle).
+(iii) Dot in cell 3 (top-right).
+(iv) Dot in cell 6 (middle-right).
+(v) ?
+(A) Dot in cell 9 (bottom-right) (B) Dot in cell 8 (bottom-middle) (C) Dot in cell 7 (bottom-left) (D) Dot in cell 5 (centre)
+
+Answer: (A) Dot in cell 9 (bottom-right)
+
+Solution:
+The dot follows the outer clockwise spiral sequence: cell 1 → cell 2 → cell 3 → cell 6 → cell 9 → cell 8 → cell 7 → cell 4 → cell 5. After cell 6, step (v) places the dot in cell 9 (bottom-right). Hence, the correct option is (A).
+
+Source: SSC MTS
+
+Q114. (Medium) Classification (Odd One Out):
+Problem Figures:
+Five smiley faces each featuring a circular face, two eye dots, and an arc mouth.
+(1) Smiling face (mouth curved upwards).
+(2) Smiling face (mouth curved upwards).
+(3) Sad/frowning face (mouth curved downwards).
+(4) Smiling face (mouth curved upwards).
+(5) Smiling face (mouth curved upwards).
+(A) Figure 1 (B) Figure 3 (C) Figure 2 (D) Figure 4
+
+Answer: (B) Figure 3
+
+Solution:
+In all figures except Figure 3, the mouth arc is concave upwards denoting a smile. In Figure 3, the mouth arc curves downwards to indicate a frown, making Figure 3 the odd one out. Hence, the correct option is (B).
+
+Source: RRB NTPC
+
+Q115. (Medium) Figure Series (Concentric Square Growth):
+Problem Figures:
+(i) 1 single square.
+(ii) 2 nested concentric squares.
+(iii) 3 nested concentric squares.
+(iv) 4 nested concentric squares.
+(v) ?
+(A) 6 nested concentric squares (B) 4 nested concentric squares (C) 5 nested concentric squares (D) 1 square with an internal dot
+
+Answer: (C) 5 nested concentric squares
+
+Solution:
+The number of nested concentric squares increases linearly by 1 at each step: 1 → 2 → 3 → 4 → 5. Step (v) must contain 5 nested concentric squares. Hence, the correct option is (C).
+
+Source: RRB Group D
+
+Q116. (Medium) Figure Series (Equidistant Dot Motion Along Line Segment):
+Problem Figures:
+A fixed horizontal line segment with a black dot positioned along its length.
+(i) Dot at the extreme left end (0% distance).
+(ii) Dot at one-quarter position from left (25% distance).
+(iii) Dot exactly at the midpoint (50% distance).
+(iv) Dot at three-quarters position (75% distance).
+(v) ?
+(A) Dot at three-quarters position (75% distance) (B) Dot at the midpoint (50% distance) (C) Dot at the extreme left end (0% distance) (D) Dot at the extreme right end (100% distance)
+
+Answer: (D) Dot at the extreme right end (100% distance)
+
+Solution:
+The dot advances eastward by a uniform step of 25% along the segment: 0% → 25% → 50% → 75% → 100%. Step (v) places the dot at the extreme right end of the line segment. Hence, the correct option is (D).
+
+Source: SSC CGL
+
+Q117. (Medium) Figure Series (Alternating Closed and Open Figures):
+Problem Figures:
+(i) Fully closed circle.
+(ii) Open circle with a top gap (C-shape).
+(iii) Fully closed square.
+(iv) Open square missing one side.
+(v) ?
+(A) Fully closed triangle (B) Open triangle with one side missing (C) Closed rectangle (D) Open circle
+
+Answer: (A) Fully closed triangle
+
+Solution:
+The polygon sequence proceeds: circle (steps 1-2) → square (steps 3-4) → triangle (steps 5-6). The status alternates between fully closed on odd steps and open on even steps. Step (v) is odd, requiring a fully closed triangle. Hence, the correct option is (A).
+
+Source: SSC CHSL
+
+Q118. (Medium) Classification (Odd One Out):
+Problem Figures:
+(1) A square (rotational symmetry of order 4, 90°).
+(2) An equilateral triangle (rotational symmetry of order 3, 120°).
+(3) A regular pentagon (rotational symmetry of order 5, 72°).
+(4) A scalene triangle (no rotational symmetry except 360°).
+(5) A regular hexagon (rotational symmetry of order 6, 60°).
+(A) Figure 1 (B) Figure 4 (C) Figure 3 (D) Figure 2
+
+Answer: (B) Figure 4
+
+Solution:
+All figures except Figure 4 exhibit non-trivial rotational symmetry capable of mapping onto themselves at rotations less than 360°. The scalene triangle has order 1 rotational symmetry, making Figure 4 the odd one out. Hence, the correct option is (B).
+
+Source: SSC MTS
+
+Q119. (Medium) (⚠️ Examiner's Trap) Figure Series (Triangular Number Increment of Dots):
+Problem Figures:
+A cluster of scattered black dots.
+(i) 1 dot.
+(ii) 3 dots (+2 dots).
+(iii) 6 dots (+3 dots).
+(iv) 10 dots (+4 dots).
+(v) ?
+(A) 14 dots (B) 12 dots (C) 15 dots (D) 16 dots
+
+Answer: (C) 15 dots
+
+Solution:
+The dot count follows the classic triangular number sequence where the increment increases by 1 each step: +2, +3, +4, +5. Adding 5 to 10 yields 15 dots at step (v). Hence, the correct option is (C).
+
+Source: RRB NTPC
+
+Q120. (Medium) Figure Series (Four-Orientation Cyclic Hatching in Pentagon):
+Problem Figures:
+A regular pentagon filled with parallel hatching stripes.
+(i) Stripes are horizontal (—).
+(ii) Stripes are vertical (|).
+(iii) Stripes are diagonal down-right (\).
+(iv) Stripes are diagonal up-right (/).
+(v) ?
+(A) Stripes are diagonal (/) (B) Stripes are vertical (|) (C) Stripes are diagonal (\) (D) Stripes are horizontal (—)
+
+Answer: (D) Stripes are horizontal (—)
+
+Solution:
+The hatching stripe orientation rotates cyclically through 4 states: horizontal → vertical → diagonal (\) → diagonal (/) → horizontal. Step (v) returns the hatching to horizontal (—). Hence, the correct option is (D).
+
+Source: RRB Group D
+
+Q121. (Hard) (⚠️ Examiner's Trap) Figure Series (Dual Orbiting Elements with Freezing Element):
+Problem Figures:
+A circular dial with 8 clock positions (12, 1:30, 3, 4:30, 6, 7:30, 9, 10:30). Two markers: dot (●) and triangle (△).
+(i) ● at 12 o'clock; △ at 6 o'clock.
+(ii) ● at 3 o'clock (90° clockwise); △ at 9 o'clock (90° clockwise).
+(iii) ● at 6 o'clock; △ at 12 o'clock.
+(iv) ● at 9 o'clock; △ remains frozen at 12 o'clock.
+(v) ?
+(A) ● at 12 o'clock; △ at 12 o'clock (both at 12 o'clock) (B) ● at 12 o'clock; △ at 3 o'clock (C) ● at 9 o'clock; △ at 12 o'clock (D) ● at 6 o'clock; △ at 6 o'clock
+
+Answer: (A) ● at 12 o'clock; △ at 12 o'clock (both at 12 o'clock)
+
+Solution:
+Dot (●) advances 90° clockwise at every step: 12 → 3 → 6 → 9 → 12. Triangle (△) moved 90° clockwise initially, but froze permanently at 12 o'clock at step 4. At step 5, ● reaches 12 o'clock while △ remains at 12 o'clock, so both elements coincide at 12 o'clock. Hence, the correct option is (A).
+
+Source: SSC CGL
+
+Q122. (Hard) Figure Series (Accelerating Angular Rotation of Arrow):
+Problem Figures:
+A single arrow on a circular compass.
+(i) Arrow pointing right (0°).
+(ii) Arrow rotated +45° clockwise, pointing down-right (45°).
+(iii) Arrow rotated +90° further clockwise, pointing down-left (135°).
+(iv) Arrow rotated +135° further clockwise, pointing left (270°).
+(v) ?
+(A) Arrow pointing straight right (B) Arrow pointing straight up (90° / 450° clockwise) (C) Arrow pointing straight down (D) Arrow pointing straight left
+
+Answer: (B) Arrow pointing straight up (90° / 450° clockwise)
+
+Solution:
+The incremental clockwise rotation increases by +45° at each successive step: +45°, +90°, +135°, +180°. Adding 180° to 270° gives a total angle of 450° (which is equivalent to 90° clockwise from origin), pointing straight up. Hence, the correct option is (B).
+
+Source: SSC CHSL
+
+Q123. (Hard) Classification (Odd One Out):
+Problem Figures:
+Five stick figures each drawn with a head, torso, two arms, and two legs.
+(1) Both arms are completely equal in length.
+(2) Both arms are completely equal in length.
+(3) Left arm is slightly shorter than right arm by an almost imperceptible 1 mm.
+(4) Both arms are completely equal in length.
+(5) Both arms are completely equal in length.
+(A) Figure 1 (B) Figure 2 (C) Figure 3 (D) Figure 4
+
+Answer: (C) Figure 3
+
+Solution:
+In all figures except Figure 3, the stick figure exhibits bilateral symmetry with arms of identical length. Figure 3 contains an asymmetry in arm lengths, making Figure 3 the odd one out. Hence, the correct option is (C).
+
+Source: SSC MTS
+
+Q124. (Hard) Figure Series (Outer Polygon and Contrasting Inner Dot):
+Problem Figures:
+(i) Black circle with an internal white dot.
+(ii) White square with an internal black dot.
+(iii) Black triangle with an internal white dot.
+(iv) White pentagon with an internal black dot.
+(v) ?
+(A) White triangle with a black dot (B) White hexagon with an internal black dot (C) Black circle with a white dot (D) Black hexagon with an internal white dot
+
+Answer: (D) Black hexagon with an internal white dot
+
+Solution:
+The outer polygon side count increases: circle → square (4) → triangle (3) → pentagon (5) → hexagon (6). Outer fill alternates black (odd steps) and white (even steps), with the internal dot always taking the opposite contrasting color. Step (v) is odd, requiring a black hexagon with an internal white dot. Hence, the correct option is (D).
+
+Source: RRB NTPC
+
+Q125. (Hard) Figure Series (Single Symbol Replacement in 2×2 Grid):
+Problem Figures:
+A 2×2 grid where exactly one distinct symbol appears in one cell while other cells remain empty.
+(i) Black dot (●) in cell 1 (top-left).
+(ii) ● disappears; hollow square (□) in cell 2 (top-right).
+(iii) □ disappears; black triangle (▲) in cell 3 (bottom-right).
+(iv) ▲ disappears; white star (★) in cell 4 (bottom-left).
+(v) ?
+(A) Black dot (●) in cell 1; star (★) remains in cell 4 (B) ★ disappears; black dot (●) reappears in cell 1 (top-left) (C) All four cells empty (D) Star (★) moves to cell 1
+
+Answer: (B) ★ disappears; black dot (●) reappears in cell 1 (top-left)
+
+Solution:
+The single symbol cycle runs across 4 steps: ● in cell 1 → □ in cell 2 → ▲ in cell 3 → ★ in cell 4. At step 5, the entire cycle resets: the star disappears and the black dot (●) reappears alone in cell 1 (top-left). Hence, the correct option is (B).
+
+Source: RRB Group D

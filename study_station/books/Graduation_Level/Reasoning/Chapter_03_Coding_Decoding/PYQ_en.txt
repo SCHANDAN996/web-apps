@@ -1,0 +1,121 @@
+# 📊 PYQ Analysis — Coding-Decoding (Advanced)
+
+## 1. How Exams Test This Chapter
+
+Coding-Decoding is one of the most reliable scoring areas in SSC CGL, CHSL, IBPS PO/Clerk, SBI PO, and RRB NTPC. Across these exams, the chapter appears in almost every reasoning paper, usually as a small but consistent block of questions. The advanced level is defined not by new concepts but by **layered patterns**: multiple operations in one code, sentence-coding with elimination, and symbol-based conditional coding (especially in Banking exams).
+
+**Exam-wise flavour (qualitative):**
+
+- **SSC (CGL/CHSL/MTS):** Letter-shifting with a twist — reverse alphabet positions, vowel/consonant differential shifts, and "letter + digit" mixed codes. Questions are short; speed matters more than depth.
+- **Banking (IBPS/SBI PO & Clerk):** Sentence coding ("ram is good" = "ta na pa" type) and **conditional symbol coding** (a word is coded as @, #, $ etc. depending on first/last letter conditions). These are longer and dominate the reasoning section.
+- **Railway (NTPC/Group D):** Direct letter-shift and number coding; rarely more than one operation.
+- **UPSC CSAT:** Occasional, usually a single elegant substitution puzzle.
+
+## 2. Sub-topics That Recur Most Often
+
+1. **Sentence/group coding with common-word elimination** — the single most repeated advanced pattern in Banking exams.
+2. **Differential shifting** — vowels shift one way, consonants another; or odd-position letters +2, even-position −2.
+3. **Reverse-position (opposite letter) coding** — A↔Z, B↔Y style, often combined with a shift.
+4. **Letter-to-number coding** — positional value, sum of positions, or position × constant.
+5. **Conditional symbol coding** — Banking favourite; the code depends on rules about the word's first/last letter.
+6. **New-symbol language** ("A @ B means A is the father of B" style bleeds into blood relations, but pure symbol-substitution for arithmetic/operators also appears).
+
+## 3. The Examiner's Traps (Psychological Hooks)
+
+- **The "almost-pattern" hook:** The first two letters follow +1, +2, tempting you to extrapolate — but the third letter breaks it because the real rule is vowel/consonant-based. Always verify the rule on **every** letter of the example.
+- **Reversal hidden inside a shift:** The word is reversed *and then* shifted (or shifted and then reversed). When the shift is position-dependent (e.g., alternating +1/−1), the two orders give different answers, and both appear among the options.
+- **Common-word elimination with a decoy:** In sentence coding, a word appears in two sentences but its code is *not* the common code — because two words are common. Students lock in the wrong pairing and get 3–4 follow-up questions wrong.
+- **Position-sum vs. position-product confusion:** When letters map to numbers, options include both the sum and the product of positions.
+- **Opposite-letter trap:** A↔Z coding looks like a large irregular shift; students who check just one letter waste time hunting for a shift rule.
+- **Condition-overlap in symbol coding:** Two conditions both apply to a word; the rule says "if both, use condition (iii)". Students apply the first matching condition and stop.
+
+## 4. High-Yield PYQ-Style Questions with Solutions
+
+**Q1.** In a certain code, "MANGO" is written as "NZOFP". How is "APPLE" written?
+(a) BQQMF (b) BOQKF (c) ZOOKD (d) BORKF
+**Answer: (b)**
+**Solution:** Verify the rule on every letter of the example: M+1=N, A−1=Z, N+1=O, G−1=F, O+1=P — the rule is **alternating +1, −1** starting with +1. Apply to APPLE: A+1=B, P−1=O, P+1=Q, L−1=K, E+1=F → **BOQKF**.
+**Trap:** Students check only M→N, assume "+1 throughout", and pick (a) BQQMF. The second letter of the example (A→Z) already kills that theory — check all five letters.
+**Source:** PYQ-style
+
+**Q2.** In a code, "he is good" = "pa ta na", "is she fine" = "ta ra sa", "good boy" = "pa ma". What is the code for "good"?
+(a) ta (b) pa (c) na (d) ma
+**Answer: (b)**
+**Solution:** "good" appears in sentences 1 and 3; the common code is "pa". ("is" is common to sentences 1 and 2 → "ta".) Decoy: "na" sits in sentence 1 only, tempting students who match positions instead of eliminating.
+**Trap:** Position-matching (first word = first code) gives "na" — wrong.
+**Source:** PYQ-style
+
+**Q3.** If A = 1, B = 2, …, Z = 26, and "CAT" is coded as 24, how is "DOG" coded?
+(a) 26 (b) 24 (c) 41 (d) 28
+**Answer: (a)**
+**Solution:** CAT = 3+1+20 = 24 (sum of positions). DOG = 4+15+7 = 26. Option (b) 24 traps students who assume "same-length word, same code".
+**Trap:** Assuming equal word length means equal code.
+**Source:** PYQ-style
+
+**Q4.** In a certain code, "WATER" is written as "DZGVI". How is "FIRE" written?
+(a) URIV (b) UIRV (c) UREV (d) VIRU
+**Answer: (a)**
+**Solution:** This is opposite-letter (Atbash) coding — each letter is replaced by the letter at the same position from the other end (positions sum to 27): W↔D, A↔Z, T↔G, E↔V, R↔I. So F→U, I→R, R→I, E→V = **URIV**.
+**Trap:** W→D looks like a large irregular shift; students hunt for a shift rule and waste 40+ seconds. Recognise Atbash instantly: original position + code position = 27.
+**Source:** PYQ-style
+
+**Q5.** If "DELHI" is coded as "73541" and "CALCUTTA" as "82589662", how is "CALICUT" coded?
+(a) 8251896 (b) 8258196 (c) 8521896 (d) 8251986
+**Answer: (a)**
+**Solution:** Direct letter→digit mapping built from the two examples: C=8, A=2, L=5, I=1, U=9, T=6. So CALICUT = C-A-L-I-C-U-T = **8251896**.
+**Trap:** Students try to derive a mathematical rule (position sums) instead of simple substitution, burning time. When two long words share letters, it's substitution — build the mapping table.
+**Source:** PYQ-style
+
+**Q6.** In a code, vowels are shifted +3 and consonants −2. How is "EXAM" written?
+(a) HVDK (b) HAYK (c) GVDK (d) HVDJ
+**Answer: (a)**
+**Solution:** E is a vowel: E+3=H. X is a consonant: X−2=V. A is a vowel: A+3=D. M is a consonant: M−2=K. Code = **HVDK**.
+**Trap:** Applying −2 to vowels too, or +3 to everything; also misclassifying A as a consonant under time pressure. Write V/C above each letter before shifting.
+**Source:** PYQ-style
+
+**Q7.** Conditional coding: a word is coded "#" if it starts with a vowel, "@" if it ends with a consonant, and "%" if both conditions hold. How is "APPLE" coded?
+(a) # (b) @ (c) % (d) None of these
+**Answer: (a)**
+**Solution:** APPLE starts with vowel A (condition 1 ✓) but ends with E, a vowel (condition 2 ✗). Only condition 1 applies → #.
+**Trap:** Students see "starts with vowel" and hastily apply "%" (both), misreading the final E as a consonant. In Banking papers, 3–5 questions ride on one such rule set — one misread condition costs the whole block.
+**Source:** PYQ-style
+
+**Q8.** In a certain code, "MASTER" is written as "SDURBL". How is "DOCTOR" written?
+(a) SNUBPC (b) QPSDNE (c) SNUBQC (d) SNUPBC
+**Answer: (a)**
+**Solution:** Two operations are involved. Test the order on the example: reverse MASTER → RETSAM, then apply alternating +1, −1: R+1=S, E−1=D, T+1=U, S−1=R, A+1=B, M−1=L → **SDURBL** ✓. So the rule is *reverse first, then alternate +1/−1*. Apply to DOCTOR: reverse → ROTCOD; R+1=S, O−1=N, T+1=U, C−1=B, O+1=P, D−1=C → **SNUBPC**.
+**Trap:** Option (b) QPSDNE is what you get by shifting first and reversing afterwards — with a position-dependent shift the two orders differ, and the examiner puts both results in the options. Always determine the order from the example before touching the target.
+**Source:** PYQ-style
+
+**Q9.** In a code, a word is coded as the sum of the alphabet positions of its letters. If "PEN" = 35, how is "INK" written?
+(a) 34 (b) 32 (c) 35 (d) 29
+**Answer: (a)**
+**Solution:** Verify the rule: P+E+N = 16+5+14 = 35 ✓ (plain sum of positions). Then I+N+K = 9+14+11 = **34**.
+**Trap:** Switching to product or average because the answer "looks wrong", or misreading I as the 10th letter (I is 9th, J is 10th). Write the position above each letter before adding.
+**Source:** PYQ-style
+
+**Q10.** If "rose is red" = "ki mi ni" and "sky is blue" = "mi ti si", what is the code for "is"?
+(a) ki (b) mi (c) ni (d) si
+**Answer: (b)**
+**Solution:** "is" is the only word common to both sentences; "mi" is the only code common to both code strings. Hence "is" = "mi".
+**Trap:** Both sentences share structure, luring students into position-matching ("is" is the 2nd word, so take the 2nd code of the other sentence).
+**Source:** PYQ-style
+
+## 5. The 15-Second / 45-Second Rule — Applied
+
+- **15-second rule (attempt immediately):** Direct substitution (Q5 type), common-word elimination with only 2–3 sentences (Q2, Q10), and single-shift letter coding. If the pattern isn't visible in 15 seconds, mark and move.
+- **45-second ceiling:** Differential shifting (Q6), reverse+shift combos (Q8), and position-sum coding (Q3, Q9). If the rule isn't confirmed on all letters within 45 seconds, take the best-matching option and leave.
+- **SKIP candidates:**
+  - **Q8-type (double operation, order unknown):** If after testing one order the example's code doesn't reproduce, skip rather than test the second order under time pressure — the second test plus target application typically exceeds 90 seconds. **Skip unless it's your strong suit.**
+  - **Q7-type conditional symbol blocks:** The rule set has 4–5 conditions with an overlap clause. If the overlap clause confuses you on the first word, **skip the entire block** — errors cascade across all 3–5 questions of the set.
+- **Never skip:** Q2/Q10-type elimination and Q5-type substitution — these are the highest accuracy-per-second questions in the whole reasoning section.
+
+## 6. Key Takeaways
+
+1. Verify the rule on **every** letter of the given example — the first two letters always lie.
+2. In sentence coding, eliminate by common words, never by position.
+3. Recognise Atbash (opposite letters) instantly: positions sum to 27.
+4. Two long words sharing letters → build a substitution table, don't hunt for a formula.
+5. Double-operation codes: determine the order from the example before touching the target; with position-dependent shifts, both orders give different (and listed) answers.
+6. Conditional symbol coding: read the overlap ("if both conditions…") clause first.
+7. If your derived answer isn't among the options, recompute each letter once — the slip is almost always in your arithmetic or letter classification, not in the rule.

@@ -1,0 +1,54 @@
+```mermaid
+graph TD
+    A["रैखिक प्रोग्रामिंग<br>Linear Programming"] --> B["मूल अवधारणाएँ<br>Basic Concepts"]
+    A --> C["समस्या निर्माण<br>Formulation"]
+    A --> D["हल की विधियाँ<br>Methods of Solution"]
+    A --> E["हल के प्रकार<br>Types of Solutions"]
+    A --> F["विशेष प्रकार<br>Special Types"]
+    A --> G["अनुप्रयोग<br>Applications"]
+
+    B --> B1["उद्देश्य फलन<br>Objective Function<br>Z = ax + by"]
+    B --> B2["प्रतिबंध<br>Constraints<br>रैखिक असमिकाएँ"]
+    B --> B3["अ-ऋणात्मक प्रतिबंध<br>Non-negativity<br>x ≥ 0, y ≥ 0"]
+    B --> B4["निर्णय चर<br>Decision Variables"]
+    B --> B5["सुसंगत क्षेत्र<br>Feasible Region"]
+    B --> B6["कोनीय बिंदु<br>Corner Points<br>(Extreme Points)"]
+
+    C --> C1["चर पहचानें<br>Identify Variables"]
+    C --> C2["उद्देश्य फलन लिखें<br>Write Objective<br>(Maximize/Minimize)"]
+    C --> C3["प्रतिबंध लिखें<br>Write Constraints"]
+    C --> C4["शब्द-समस्या → गणित<br>Word Problem → Math Model"]
+
+    D --> D1["आलेखीय विधि<br>Graphical Method"]
+    D --> D2["सिम्प्लेक्स विधि<br>Simplex Method"]
+    D1 --> D1a["असमिकाओं का आलेख<br>Graph Inequalities"]
+    D1 --> D1b["सुसंगत क्षेत्र खोजें<br>Find Feasible Region"]
+    D1 --> D1c["कोनीय बिंदु परीक्षण<br>Corner Point Test"]
+    D1 --> D1d["Z का मान तुलना<br>Compare Z Values"]
+    D2 --> D2a["मानक रूप<br>Standard Form"]
+    D2 --> D2b["स्लैक/सरप्लस चर<br>Slack/Surplus Variables"]
+    D2 --> D2c["सिम्प्लेक्स तालिका<br>Simplex Tableau"]
+    D2 --> D2d["पिवट संक्रिया<br>Pivot Operation"]
+
+    E --> E1["अद्वितीय हल<br>Unique Optimal Solution"]
+    E --> E2["अनेक हल<br>Multiple/Alternate Solutions<br>(उद्देश्य रेखा ∥ सीमा रेखा)"]
+    E --> E3["असीमित हल<br>Unbounded Solution"]
+    E --> E4["असुसंगत<br>Infeasible<br>(कोई सुसंगत क्षेत्र नहीं)"]
+
+    F --> F1["परिवहन समस्या<br>Transportation Problem"]
+    F --> F2["आवंटन समस्या<br>Assignment Problem"]
+    F --> F3["आहार समस्या<br>Diet Problem"]
+    F --> F4["विनिर्माण समस्या<br>Manufacturing Problem"]
+    F1 --> F1a["NW कोना विधि<br>North-West Corner"]
+    F1 --> F1b["न्यूनतम लागत विधि<br>Least Cost Method"]
+    F1 --> F1c["VAM<br>Vogel's Approximation"]
+    F2 --> F2a["हंगेरियन विधि<br>Hungarian Method"]
+
+    G --> G1["लाभ अधिकतम<br>Profit Maximization"]
+    G --> G2["लागत न्यूनतम<br>Cost Minimization"]
+    G --> G3["संसाधन आवंटन<br>Resource Allocation"]
+    G --> G4["उत्पादन योजना<br>Production Planning"]
+
+    B5 -.->|"सीमा = प्रतिबंध रेखाएँ"| D1b
+    B6 -.->|"इष्टतम हल हमेशा कोने पर"| E1
+```

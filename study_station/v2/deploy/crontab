@@ -1,0 +1,7 @@
+# crontab -u studystation deploy/crontab    (times are server time; set the server to Asia/Kolkata)
+SS=/var/www/study_station/v2
+17 */3 * * *  $SS/deploy/run.sh python -m app.jobs run                      >> /var/log/studystation/jobs.log 2>&1
+40 6,13,19 * * * $SS/deploy/run.sh python -m app.current_affairs run --max 15 >> /var/log/studystation/ca.log 2>&1
+30 3 * * *    $SS/deploy/run.sh python -m app.jobs cleanup                  >> /var/log/studystation/jobs.log 2>&1
+0 8,18 * * *  $SS/deploy/run.sh python -m app.jobs digest --telegram --mark-sent >> /var/log/studystation/alerts.log 2>&1
+45 2 * * *    $SS/deploy/backup.sh                                          >> /var/log/studystation/backup.log 2>&1

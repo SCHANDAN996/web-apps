@@ -1,3 +1,60 @@
-# Chapter: Number System (Advanced), Level: intermediate
+```mermaid
+graph TD
+    A["संख्या प्रणाली (उन्नत)<br>Number System (Advanced)"]
 
-@content_agent 'Create a detailed mind map (Mermaid code) for the chapter "Number System (Advanced)". Show main concepts, sub-concepts, and their interconnections clearly.'
+    A --> B["संख्याओं के प्रकार<br>Types of Numbers"]
+    B --> B1["प्राकृत संख्याएँ N<br>Natural Numbers"]
+    B --> B2["पूर्ण संख्याएँ W<br>Whole Numbers"]
+    B --> B3["पूर्णांक Z<br>Integers"]
+    B --> B4["परिमेय संख्याएँ Q<br>Rational Numbers"]
+    B --> B5["अपरिमेय संख्याएँ<br>Irrational Numbers"]
+    B --> B6["वास्तविक संख्याएँ R<br>Real Numbers"]
+    B --> B7["अभाज्य / भाज्य<br>Prime / Composite"]
+    B --> B8["सह-अभाज्य<br>Co-prime"]
+
+    A --> C["विभाज्यता नियम<br>Divisibility Rules"]
+    C --> C1["2, 4, 8, 16<br>अंतिम अंक / अंक-समूह"]
+    C --> C2["3 और 9<br>अंकों का योग"]
+    C --> C3["11<br>वैकल्पिक अंतर"]
+    C --> C4["7, 13, 17, 19<br>विशेष नियम"]
+    C --> C5["संयुक्त नियम<br>6, 12, 15, 18, 72"]
+
+    A --> D["शेषफल प्रमेय<br>Remainder Theorem"]
+    D --> D1["विभाजन एल्गोरिथ्म<br>Dividend = Divisor×Q + R"]
+    D --> D2["ऋणात्मक शेषफल<br>Negative Remainder"]
+    D --> D3["घातों का शेषफल<br>Remainder of Powers"]
+    D --> D4["फर्मा का लघु प्रमेय<br>Fermat's Little Theorem"]
+    D --> D5["विल्सन प्रमेय<br>Wilson's Theorem"]
+    D --> D6["चीनी शेषफल प्रमेय<br>Chinese Remainder Theorem"]
+
+    A --> E["इकाई अंक<br>Unit Digit"]
+    E --> E1["चक्रीयता (Cyclicity)<br>0,1,5,6 → 1 | 4,9 → 2 | 2,3,7,8 → 4"]
+    E --> E2["घात ÷ चक्रीयता<br>Power mod Cyclicity"]
+
+    A --> F["अंकों की संख्या / अंक-योग<br>Number of Digits / Digit Sum"]
+    F --> F1["n! में शून्य<br>Trailing Zeroes in n!"]
+    F --> F2["n! में अभाज्य की घात<br>Power of Prime in n!"]
+    F --> F3["1 से N तक अंकों की गिनती<br>Digit Counting"]
+
+    A --> G["गुणनखंड<br>Factors"]
+    G --> G1["गुणनखंडों की संख्या<br>Number of Factors"]
+    G --> G2["गुणनखंडों का योग / गुणनफल<br>Sum / Product of Factors"]
+    G --> G3["सम / विषम / पूर्ण वर्ग गुणनखंड<br>Even / Odd / Perfect Square Factors"]
+
+    A --> H["HCF और LCM"]
+    H --> H1["HCF × LCM = संख्याओं का गुणनफल<br>(दो संख्याओं के लिए)"]
+    H --> H2["भिन्नों का HCF/LCM<br>HCF/LCM of Fractions"]
+    H --> H3["शेषफल-आधारित प्रश्न<br>Remainder-based Problems"]
+
+    A --> I["आधार प्रणाली<br>Base System"]
+    I --> I1["द्विआधारी / अष्टाधारी / षोडशआधारी<br>Binary / Octal / Hexadecimal"]
+    I --> I2["रूपांतरण<br>Conversions"]
+
+    A --> J["अपरिमेयता प्रमाण<br>Irrationality Proofs"]
+    J --> J1["√2, √3, √5 अपरिमेय<br>√2, √3, √5 are Irrational"]
+
+    D4 -.-> D3
+    G1 -.-> H
+    C -.-> D
+    E1 -.-> D3
+```

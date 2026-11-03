@@ -1,0 +1,42 @@
+```mermaid
+graph TD
+    A["तार्किक सुसंगति<br>Logical Consistency"] --> B["मूल अवधारणा<br>Core Concept"]
+    A --> C["प्रमुख प्रकार<br>Main Types"]
+    A --> D["हल करने की रणनीति<br>Solving Strategy"]
+    A --> E["समय प्रबंधन<br>Time Management"]
+    A --> F["परीक्षक के जाल<br>Examiner's Traps"]
+
+    B --> B1["सभी कथन एक साथ सत्य हों<br>All statements true together"]
+    B --> B2["कोई आंतरिक विरोध नहीं<br>No internal contradiction"]
+    B --> B3["निष्कर्ष ≠ सत्यता<br>Validity ≠ Truth"]
+    B --> B4["केवल दी गई जानकारी पर निर्णय<br>Judge only on given info"]
+
+    C --> C1["संगत / असंगत कथन-समूह<br>Consistent / Inconsistent Sets"]
+    C --> C2["कथन-निष्कर्ष<br>Statement-Conclusion"]
+    C --> C3["न्याय-वाक्य / सिलॉजिज्म<br>Syllogism"]
+    C --> C4["तर्क-मूल्यांकन<br>Argument Evaluation"]
+    C --> C5["विरोधाभास / Paradox<br>पैराडॉक्स"]
+
+    C1 --> C1a["जोड़ी-जाँच विधि<br>Pairwise checking"]
+    C2 --> C2a["निश्चित निष्कर्ष ही मान्य<br>Only definite conclusions"]
+    C3 --> C3a["वेन आरेख<br>Venn Diagram"]
+    C4 --> C4a["मजबूत बनाम कमजोर तर्क<br>Strong vs Weak argument"]
+
+    D --> D1["पहले सभी कथन पढ़ें<br>Read all statements first"]
+    D --> D2["विरोधी जोड़े खोजें<br>Spot contradictory pairs"]
+    D --> D3["विकल्प हटाओ विधि<br>Elimination method"]
+    D --> D4["कथन को सत्य मानें<br>Assume statements true"]
+    D --> D5["चरम शब्दों से सावधान<br>Beware extreme words"]
+
+    E --> E1["आसान प्रश्न: 30-40 सेकंड<br>Easy: 30-40 sec"]
+    E --> E2["कठिन सेट: 60-90 सेकंड<br>Hard set: 60-90 sec"]
+    E --> E3["2 मिनट से अधिक = छोड़ें<br>Over 2 min = Skip"]
+    E --> E4["पहले सीधे प्रश्न हल करें<br>Direct questions first"]
+
+    F --> F1["वास्तविक ज्ञान लगाने का जाल<br>Trap: using real-world knowledge"]
+    F --> F2["लगभग-सही निष्कर्ष<br>Almost-correct conclusion"]
+    F --> F3["कुछ/सभी का भ्रम<br>Some vs All confusion"]
+    F --> F4["नकारात्मक वाक्य<br>Negative wording traps"]
+    F --> F5["संभावना को निश्चितता मानना<br>Possibility treated as certainty"]
+    F --> F6["मिलते-जुलते नाम/शब्द<br>Similar-looking terms"]
+```

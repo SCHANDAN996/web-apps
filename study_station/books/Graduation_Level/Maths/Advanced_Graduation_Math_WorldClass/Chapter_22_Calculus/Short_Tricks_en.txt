@@ -1,0 +1,137 @@
+# 🪄 Short Tricks — Calculus (Memory Hacks)
+
+---
+
+**🎯 Trick 1 — "SUVAT for Calculus": Power Rule in One Breath**
+
+> **"Multiply the power down, then take one away."**
+
+d/dx (xⁿ) = n·xⁿ⁻¹
+
+Say it like a chant: *"Down it comes, one it loses!"* — the exponent jumps in front as a multiplier, then shrinks by 1. Works for x⁵ → 5x⁴, x⁻³ → −3x⁻⁴, even √x = x^½ → ½x^(−½).
+
+---
+
+**🎯 Trick 2 — "Lo-D-Hi minus Hi-D-Lo, over Lo-Lo" (Quotient Rule)**
+
+d/dx (u/v) = **(v·u′ − u·v′) / v²**
+
+Sing it: *"Low-D-High minus High-D-Low, square the bottom, away we go!"*
+- Lo = denominator (v), Hi = numerator (u), D = differentiate.
+- ⚠️ Trap: the **minus sign** means order matters — Lo-D-Hi comes FIRST. Reverse it and your answer flips sign.
+
+---
+
+**🎯 Trick 3 — Product Rule: "First D-Second plus Second D-First"**
+
+d/dx (u·v) = **u·v′ + v·u′**
+
+Memory hook: *"Each partner takes a turn to dance (differentiate) while the other stands still."* Two terms, always a PLUS between them — unlike the quotient rule's minus.
+
+---
+
+**🎯 Trick 4 — Chain Rule: "Peel the Onion, Layer by Layer"**
+
+d/dx f(g(x)) = **f′(g(x)) · g′(x)**
+
+*Outer derivative × Inner derivative.* Imagine an onion: differentiate the outer skin first (keep the inside untouched!), then multiply by the derivative of the next layer. For sin(x³): outer = cos(x³), inner = 3x² → **3x²·cos(x³)**.
+
+---
+
+**🎯 Trick 5 — "SILK" for Standard Derivatives**
+
+- **S**in → **C**os
+- **C**os → **−Sin** (Cos is *negative-minded* — it brings a minus!)
+- **T**an → **Sec²**
+- **S**ec → **Sec·Tan**
+
+Mnemonic: *"Sine is positive, Cosine is jealous (adds minus), Tan squares up with Sec."*
+Bonus: cot → −cosec², cosec → −cosec·cot. **All the "co-" functions carry the minus sign!**
+
+---
+
+**🎯 Trick 6 — "LIATE" — Choosing 'u' in Integration by Parts**
+
+∫u dv = uv − ∫v du — but WHICH function is u?
+
+**L**ogarithmic → **I**nverse trig → **A**lgebraic → **T**rigonometric → **E**xponential
+
+Pick as 'u' whichever comes FIRST in LIATE. Example: ∫x·eˣ dx → Algebraic before Exponential, so u = x.
+Memory line: *"**L**azy **I**ndians **A**lways **T**ake **E**xams."*
+
+---
+
+**🎯 Trick 7 — "eˣ is the Lazy Function"**
+
+d/dx (eˣ) = eˣ and ∫eˣ dx = eˣ.
+
+*eˣ never changes — it's the couch potato of calculus.* Differentiate it, integrate it, it just lies there. (Only the chain rule can wake it up: d/dx e^(3x) = 3e^(3x).)
+
+---
+
+**🎯 Trick 8 — "ln x: The Reciprocal Machine"**
+
+d/dx (ln x) = **1/x**, and ∫(1/x) dx = **ln|x| + C**.
+
+Hook: *"Log and reciprocal are mirror twins."* If you see f′(x)/f(x) anywhere in an integral, the answer is instantly **ln|f(x)| + C** — no work needed. Spot the "derivative on top" pattern and write the log!
+
+---
+
+**🎯 Trick 9 — "PLUS C — The Forgotten Baby"**
+
+Every indefinite integral needs **+ C**.
+
+Outrageous image: *"Integration is a mother who always brings her baby '+C' along. Forget the baby, lose the marks!"* In definite integrals the baby stays home (C cancels out) — so no +C between limits a to b.
+
+---
+
+**🎯 Trick 10 — Maxima/Minima: "First Find, Second Decide"**
+
+1. **First** derivative = 0 → find critical points (f′(x) = 0).
+2. **Second** derivative decides:
+   - f″(x) > 0 → **Minimum** (smiling cup ∪ — positive = happy = holds water)
+   - f″(x) < 0 → **Maximum** (frowning cap ∩ — negative = sad = spills water)
+
+Hook: *"Positive second derivative = positive mood = valley (minimum)."*
+
+---
+
+**🎯 Trick 11 — "AREA = Integral with Clothes On (Limits)"**
+
+Area under curve from a to b = ∫ₐᵇ f(x) dx = F(b) − F(a).
+
+Memory: *"**F**inish **B**ig, **F**orget **A**lways subtracts"* → **F(b) − F(a)**, top limit first. And if the curve dips below the x-axis, area comes out negative — take the modulus for "actual area" questions. That's the classic exam trap!
+
+---
+
+**🎯 Trick 12 — L'Hôpital's Rule: "0/0 or ∞/∞? Differentiate Top AND Bottom Separately!"**
+
+If lim f(x)/g(x) gives 0/0 or ∞/∞ → lim f′(x)/g′(x).
+
+⚠️ Trap alert: it is NOT the quotient rule — you differentiate numerator and denominator **independently**. And it works ONLY for 0/0 or ∞/∞. For 0×∞ or ∞−∞, first rearrange into a fraction.
+Hook: *"Hospital rule (L'Hôpital) treats only two patients: Zero-over-Zero and Infinity-over-Infinity."*
+
+---
+
+**🎯 Trick 13 — "D-I-S-T-A-N-C-E": Derivative = Slope, Integral = Area**
+
+- **D**erivative → **S**lope (rate of change, tangent)
+- **I**ntegral → **A**rea (accumulation)
+
+One-line summary of ALL calculus: *"D goes down to slope, I goes up to area — they are inverse operations (Fundamental Theorem of Calculus)."* Differentiation undoes integration, and vice versa.
+
+---
+
+**🎯 Trick 14 — Point of Inflection: "Second Derivative Changes Its Mind"**
+
+f″(x) = 0 **AND sign change** of f″ across the point → inflection point.
+
+Trap: f″(x) = 0 alone is NOT enough (check x⁴ at x = 0 — f″ = 0 but no inflection!). Hook: *"Zero is just a candidate; the sign must actually flip sides for the curve to change its bend."*
+
+---
+
+**🎯 Trick 15 — Exam Speed Hack: "Differentiate Your Answer to Check Integration"**
+
+Solved ∫f(x)dx = F(x) + C? Verify in 5 seconds: **F′(x) must equal f(x).**
+
+*Integration's answer key is built into differentiation.* In MCQ exams, instead of integrating, differentiate the four options — the one that returns the question's integrand is your answer. Often 3× faster!

@@ -1,0 +1,79 @@
+Card 1
+Front: What does "logical consistency" of a set of statements mean?
+Back: A set of statements is logically consistent if all of them can be true at the same time — there exists at least one possible situation (or Venn diagram) in which every statement holds together.
+
+Card 2
+Front: If two statements contradict each other, can the set containing both ever be consistent?
+Back: No. A direct contradiction (e.g., "All A are B" and "Some A are not B") makes the set inconsistent — no possible world satisfies both.
+
+Card 3
+Front: What is the quickest test to check consistency of statements?
+Back: Draw one Venn diagram (or imagine one scenario) in which ALL statements are true simultaneously. If even one such diagram exists → consistent; if every attempt forces a violation → inconsistent.
+
+Card 4
+Front: "Some A are B" and "No A is B" — consistent or inconsistent, and why?
+Back: Inconsistent. "No A is B" means zero overlap; "Some A are B" demands at least one common element. Both cannot hold in any single diagram.
+
+Card 5
+Front: Does "Some A are not B" contradict "All A are B"?
+Back: Yes. "All A are B" leaves no A outside B, while "Some A are not B" requires at least one A outside B — a direct contradiction.
+
+Card 6
+Front: Which pairs of statements are CONSISTENT even though they look opposed: "All A are B" with "Some A are B"?
+Back: They are consistent. "All A are B" automatically guarantees "Some A are B" (in exam logic, "all" implies "some"), so one diagram satisfies both.
+
+Card 7
+Front: Mnemonic trick: how do you remember the two classic contradictory pairs?
+Back: Remember "A–O and E–I fight": All (A-type) contradicts Some-not (O-type); No (E-type) contradicts Some (I-type). Same-letter pairs never fight.
+
+Card 8
+Front: Mnemonic trick: how to recall which conclusion follows from "All A are B"?
+Back: Use "ALL gives SOME, but SOME gives NOTHING": from "All A are B" you may infer "Some A are B" and "Some B are A", but from "Some A are B" alone no definite universal conclusion follows.
+
+Card 9
+Front: Examiner's trap: "No A is B" is given, and an option says "No B is A". Is the trap in treating it as wrong?
+Back: The trap is rejecting it. "No A is B" is fully reversible — if no A is B, then no B is A. Both are consistent and equivalent. Examiners count on students thinking conversion is invalid.
+
+Card 10
+Front: Examiner's trap: a question gives "All A are B" and asks which option is consistent; one option is "All B are A". Why do many students pick it wrongly?
+Back: Students assume "All A are B" means A = B. But A may be a small circle inside B. "All B are A" is NOT guaranteed — it is only possible, not definite. Consistency questions demand what CAN be true together, not what MUST be true.
+
+Card 11
+Front: In consistency questions, what is the difference between "must be true" and "can be true"?
+Back: "Must be true" = holds in EVERY diagram satisfying the premises (definite conclusion). "Can be true" = holds in AT LEAST ONE diagram (possibility). Consistency checks only need "can be true together".
+
+Card 12
+Front: Three statements are given and you must find the inconsistent set. What is the fastest elimination move?
+Back: Scan for a contradictory pair first (A–O or E–I on the same terms). Any set containing a contradictory pair is inconsistent immediately — no need to test the third statement.
+
+Card 13
+Front: Can three statements be pairwise consistent but jointly inconsistent?
+Back: Yes. Example: "All A are B", "All B are C", "Some A are not C" — each pair can hold separately, but together the first two force "All A are C", which clashes with the third. Always test the whole set in one diagram.
+
+Card 14
+Front: What role do "possibility" words like "may be", "possibly" play in consistency questions?
+Back: They weaken the claim. "Some A may be B" is consistent with almost anything, including "No A is B", because possibility only needs one imaginable case. Such statements rarely create inconsistency.
+
+Card 15
+Front: Is "Only A are B" the same as "All B are A"? Why does this matter for consistency?
+Back: Yes — "Only A are B" converts to "All B are A". Misreading it as "All A are B" reverses the relation and makes students wrongly judge consistency with other statements.
+
+Card 16
+Front: If a statement set is consistent, does that mean each statement is true in reality?
+Back: No. Consistency is about logical possibility, not factual truth. "All cats can fly" and "Some cats are pilots" are mutually consistent even though factually false.
+
+Card 17
+Front: How many Venn diagrams do you need to prove a set INCONSISTENT?
+Back: One diagram is never enough to prove inconsistency — you must show that EVERY possible arrangement fails. Practically: find the contradictory pair or forced relation; that proves it without drawing all cases.
+
+Card 18
+Front: In "statement–conclusion" consistency hybrids, what does "conclusion does not follow" actually mean?
+Back: It means the negation of the conclusion is consistent with the premises — i.e., there exists a diagram where premises are true but the conclusion is false.
+
+Card 19
+Front: Quick check: "Some A are B", "Some B are C" — is "Some A are C" consistent with these?
+Back: Yes, it is consistent (one diagram can show overlap of A and C), but it does NOT follow necessarily — the two "some" links may involve different B's. Consistent ≠ definite conclusion.
+
+Card 20
+Front: What is the 20-second rule of thumb for consistency MCQs in the exam?
+Back: (1) Hunt for a contradictory pair (A–O, E–I). (2) If none, try one combined Venn diagram making all statements true. (3) Found one? Mark "consistent" and move on — never draw more than two diagrams.

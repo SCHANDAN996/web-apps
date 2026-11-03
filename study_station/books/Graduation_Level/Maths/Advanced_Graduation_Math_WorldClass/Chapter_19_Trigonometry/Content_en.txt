@@ -1,0 +1,189 @@
+# Trigonometry
+
+## Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Define all six trigonometric ratios and move fluently between them.
+2. Use standard angle values (0°, 30°, 45°, 60°, 90°) without hesitation.
+3. Apply the three fundamental identities to simplify and prove expressions.
+4. Handle complementary angles, compound angles, and multiple-angle formulas.
+5. Solve heights-and-distances problems — the single most exam-favourite application.
+6. Find maximum/minimum values of expressions like a·sin θ + b·cos θ — a classic Advanced-level trap zone.
+
+---
+
+## The Hook: Measuring the Unmeasurable
+
+In 1856, surveyors of the Great Trigonometrical Survey of India stood hundreds of kilometres away from a distant Himalayan peak. They never climbed it. They never touched it. Using only angles measured from the ground and the mathematics you are about to learn, they calculated its height — and declared it the tallest mountain on Earth. We now call it Mount Everest.
+
+That is the power of trigonometry: **it converts angles into distances.** No ladder, no rope, no rocket — just a triangle and a few ratios. And that is exactly why examiners love it. One small formula, endless disguises.
+
+---
+
+## "But Trigonometry Feels Like Memorising a Phone Directory…"
+
+If that's you, you're not alone. Most aspirants struggle with trigonometry for one reason: they try to **memorise** it instead of **seeing** it. Every formula in this chapter is just a sentence about a right-angled triangle, translated into symbols. Once you see the triangle, the formula writes itself.
+
+So let's rebuild trigonometry from one picture — a right-angled triangle with angle θ.
+
+---
+
+## Chunk 1: The Six Ratios — One Triangle, Six Stories
+
+In a right-angled triangle, for angle θ:
+
+- **Perpendicular (P)** = side opposite to θ
+- **Base (B)** = side adjacent to θ
+- **Hypotenuse (H)** = side opposite the right angle (always the longest)
+
+The six ratios:
+
+| Ratio | Definition | Reciprocal of |
+|---|---|---|
+| sin θ | P / H | cosec θ |
+| cos θ | B / H | sec θ |
+| tan θ | P / B | cot θ |
+
+**Only three are fundamental.** The other three (cosec, sec, cot) are just reciprocals. If you know sin, cos, tan — you know everything.
+
+🧠 **Active Recall:** Close the book. Write the definitions of sin θ, cos θ, tan θ from memory. Now write sec θ in terms of cos θ. Check yourself.
+
+---
+
+## Chunk 2: The Standard Angle Table — Derive, Don't Memorise
+
+The famous table (0°, 30°, 45°, 60°, 90°) terrifies students. Here's the secret: **you only need to memorise the sin row.**
+
+**The Trick — "Square Root Ladder":**
+Write 0, 1, 2, 3, 4 under the five angles. Divide each by 4. Take the square root. Done.
+
+- sin 0° = √(0/4) = 0
+- sin 30° = √(1/4) = 1/2
+- sin 45° = √(2/4) = 1/√2
+- sin 60° = √(3/4) = √3/2
+- sin 90° = √(4/4) = 1
+
+Now:
+- **cos row** = sin row written in **reverse order**.
+- **tan row** = sin ÷ cos.
+
+Three rows from one ladder. That's it.
+
+🧠 **Active Recall:** Using the ladder, find sin 60°, cos 30°, and tan 45°. Notice anything about the first two?
+
+---
+
+## Chunk 3: The Three Identities — The Constitution of Trigonometry
+
+Everything in advanced trigonometry rests on one fact: **Pythagoras' theorem**, P² + B² = H². Divide this equation by H², B², and P² respectively, and you get the three fundamental identities:
+
+1. **sin²θ + cos²θ = 1**
+2. **1 + tan²θ = sec²θ**
+3. **1 + cot²θ = cosec²θ**
+
+**Mnemonic — "Some Children Take Sweets":**
+- **S**in² + **C**os² = 1 (the parent identity)
+- **T**an goes with **S**ec (T–S pair)
+- Cot goes with Cosec (the remaining pair)
+
+**Advanced application:** Examiners rarely ask these directly. They hide them. Example: simplify (sin θ)/(1 + cos θ) + (1 + cos θ)/(sin θ). Take the LCM — the numerator becomes sin²θ + (1 + cos θ)² = sin²θ + 1 + 2cos θ + cos²θ = 2 + 2cos θ = 2(1 + cos θ). The answer collapses to **2/sin θ = 2 cosec θ**. The identity did all the work.
+
+🧠 **Active Recall:** From identity 1, derive identity 2 by dividing by cos²θ. Do it on paper now.
+
+---
+
+## Chunk 4: Complementary Angles — The 90° Shortcut
+
+When two angles add to 90°, their ratios swap partners:
+
+- sin(90° − θ) = cos θ
+- tan(90° − θ) = cot θ
+- sec(90° − θ) = cosec θ
+
+**Memory hook:** "Co" means "complement." Sine's complement is **co**sine. Tangent's is **co**tangent. Secant's is **co**secant.
+
+**Classic exam pattern:** "If sin 3A = cos(A − 26°), find A." Since sin x = cos(90° − x), we get 3A + (A − 26°) = 90°, so 4A = 116°, **A = 29°**. One identity, ten seconds.
+
+🧠 **Active Recall:** What is tan 1° · tan 2° · tan 3° … tan 89°? (Hint: pair tan 1° with tan 89° = cot 1°.)
+
+---
+
+## Chunk 5: Compound & Multiple Angles — The Advanced Arsenal
+
+These formulas power the toughest questions in SSC CGL Tier-II and IBPS PO Mains:
+
+**Compound angles:**
+- sin(A + B) = sin A cos B + cos A sin B
+- cos(A + B) = cos A cos B − sin A sin B
+- tan(A + B) = (tan A + tan B) / (1 − tan A tan B)
+
+**Double angles (put B = A above):**
+- sin 2A = 2 sin A cos A
+- cos 2A = cos²A − sin²A = 2cos²A − 1 = 1 − 2sin²A
+- tan 2A = 2 tan A / (1 − tan²A)
+
+**The examiner's favourite — the max-min rule:**
+For any expression **a sin θ + b cos θ**, the value always lies between **−√(a² + b²) and +√(a² + b²)**.
+
+Example: maximum value of 3 sin θ + 4 cos θ? Answer: √(9 + 16) = **5**. (Recognise the 3-4-5 triangle? That's no coincidence.)
+
+🧠 **Active Recall:** What is the minimum value of 5 sin θ + 12 cos θ? And what is sin 2A when sin A = 3/5, cos A = 4/5?
+
+---
+
+## Chunk 6: Heights & Distances — Where Trigonometry Earns Its Salary
+
+This is the most frequently tested application. The whole game is three steps:
+
+1. **Draw the picture.** Observer, object, ground — a right triangle is always hiding there.
+2. **Identify the angle.** Angle of **elevation** (looking up) or **depression** (looking down — equal to the elevation from the other side, by alternate angles).
+3. **Pick the ratio.** Almost always **tan θ = height / distance**, because height and ground distance are the two sides you deal with.
+
+**The two golden values:**
+- tan 45° = 1 → height = distance
+- tan 30° = 1/√3 and tan 60° = √3 → these two angles appear in the majority of problems, often in the same question (a tower viewed from two points).
+
+**Classic pattern:** From a point, the angle of elevation of a tower's top is 30°. Walking 20 m closer, it becomes 60°. Height? Set up h = d·tan 60° and h = (d + 20)·tan 30°. Solving gives h = **10√3 m**. Learn this template — it repeats endlessly.
+
+🧠 **Active Recall:** The shadow of a pole equals its height. What is the sun's angle of elevation? (No calculator needed.)
+
+---
+
+## Chunk 7: Signs in the Four Quadrants (Advanced Extension)
+
+For angles beyond 90°, use the unit circle. The sign rule:
+
+**"All Silver Tea Cups"** (or "Add Sugar To Coffee") — going anticlockwise from the first quadrant:
+
+| Quadrant | Positive ratios |
+|---|---|
+| I (0°–90°) | **All** |
+| II (90°–180°) | **S**in (and cosec) |
+| III (180°–270°) | **T**an (and cot) |
+| IV (270°–360°) | **C**os (and sec) |
+
+So sin 150° = sin(180° − 30°) = +sin 30° = 1/2, but cos 150° = −√3/2.
+
+🧠 **Active Recall:** Is tan 225° positive or negative? What is its value?
+
+---
+
+## Summary Table
+
+| Concept | Core Result | Exam Use |
+|---|---|---|
+| Six ratios | sin = P/H, cos = B/H, tan = P/B; rest are reciprocals | Foundation of everything |
+| Standard angles | Square-root ladder: √(0/4)…√(4/4) | Direct value questions |
+| Identities | sin²+cos²=1; 1+tan²=sec²; 1+cot²=cosec² | Simplification, proofs |
+| Complementary | sin(90°−θ) = cos θ | Equation-solving traps |
+| Double angle | sin 2A = 2 sin A cos A | Tier-II / Mains level |
+| Max–Min | a sin θ + b cos θ ∈ [−√(a²+b²), +√(a²+b²)] | One-line answers |
+| Heights & Distances | tan θ = height / distance | The most repeated application |
+| Quadrants | All Silver Tea Cups | Angles beyond 90° |
+
+---
+
+## 🔁 Review This After 2 Days
+
+Don't re-read passively. Instead, take a blank page and reconstruct from memory: (1) the standard angle table using the ladder, (2) the three identities, (3) the max-min rule, and (4) one heights-and-distances template. Whatever you can't reproduce — that's your revision list. Trigonometry is not memorised; it is **rebuilt**, and every rebuild makes it faster.

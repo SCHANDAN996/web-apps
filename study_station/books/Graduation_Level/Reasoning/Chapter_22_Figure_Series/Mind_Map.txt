@@ -1,0 +1,29 @@
+```mermaid
+graph TD
+    A["आकृति शृंखला / वर्गीकरण<br>Figure Series / Classification"] --> B["आकृति शृंखला<br>Figure Series"]
+    A --> C["आकृति वर्गीकरण<br>Figure Classification"]
+    A --> D["समय प्रबंधन<br>Time Management"]
+    A --> E["परीक्षक के जाल<br>Examiner's Traps"]
+
+    B --> B1["घूर्णन<br>Rotation<br>45° / 90° / 135° / 180°"]
+    B --> B2["गति / स्थान परिवर्तन<br>Movement<br>घड़ी की दिशा / विपरीत"]
+    B --> B3["तत्वों की संख्या<br>Number of Elements<br>+1, −1, दोगुना"]
+    B --> B4["जोड़ / हटाना<br>Addition / Deletion<br>भुजा, रेखा, बिंदु"]
+    B --> B5["दर्पण / जल प्रतिबिंब<br>Mirror / Water Image"]
+    B --> B6["रंग / छाया परिवर्तन<br>Shading Change<br>काला ↔ सफेद"]
+    B --> B7["वैकल्पिक शृंखला<br>Alternate Pattern<br>1-3-5, 2-4-6 अलग देखें"]
+
+    C --> C1["भिन्न आकृति चुनें<br>Odd One Out"]
+    C --> C2["समानता का आधार<br>Basis of Similarity<br>भुजाएँ, सममिति, बंद/खुली आकृति"]
+    C --> C3["समूह बनाना<br>Group Formation<br>तीन-तीन के समूह"]
+    C --> C4["समानुपात / सादृश्य<br>Analogy<br>A : B :: C : ?"]
+
+    D --> D1["पहले 15 सेकंड में<br>पैटर्न पहचानें"]
+    D --> D2["न मिले तो छोड़ें<br>Skip if stuck<br>बाद में लौटें"]
+    D --> D3["विकल्पों से उल्टा हल<br>Eliminate Options First"]
+
+    E --> E1["घूर्णन दिशा का भ्रम<br>Clockwise vs Anti-clockwise"]
+    E --> E2["दो पैटर्न एक साथ<br>Two Patterns Mixed<br>घूर्णन + संख्या"]
+    E --> E3["लगभग-समान विकल्प<br>Look-alike Options<br>छोटा अंतर ध्यान से देखें"]
+    E --> E4["वर्गीकरण में<br>एक से अधिक आधार<br>सबसे मजबूत आधार चुनें"]
+```

@@ -1,0 +1,38 @@
+```mermaid
+graph TD
+    A["वेन आरेख<br>Venn Diagrams"] --> B["मूल अवधारणा<br>Basic Concept"]
+    A --> C["संबंधों के प्रकार<br>Types of Relations"]
+    A --> D["प्रश्नों के प्रकार<br>Question Types"]
+    A --> E["हल करने की रणनीति<br>Solving Strategy"]
+    A --> F["समय प्रबंधन<br>Time Management"]
+    A --> G["परीक्षक के जाल<br>Examiner Traps"]
+
+    B --> B1["वृत्त = वर्ग/समूह<br>Circle = Class/Group"]
+    B --> B2["ओवरलैप = उभयनिष्ठ भाग<br>Overlap = Common Part"]
+    B --> B3["आयत = सार्वभौमिक समुच्चय<br>Rectangle = Universal Set"]
+
+    C --> C1["पूर्ण समावेश<br>Complete Inclusion<br>सभी A, B हैं"]
+    C --> C2["आंशिक समावेश<br>Partial Overlap<br>कुछ A, B हैं"]
+    C --> C3["पूर्ण विभिन्नता<br>Disjoint<br>कोई A, B नहीं"]
+    C --> C4["तीन वर्गों के संयोजन<br>Three-Set Combinations"]
+
+    D --> D1["सही आरेख चुनना<br>Choose Correct Diagram"]
+    D --> D2["आरेख से निष्कर्ष<br>Inference from Diagram"]
+    D --> D3["संख्यात्मक प्रश्न<br>Numerical Questions<br>n(A∪B) = n(A)+n(B)−n(A∩B)"]
+    D --> D4["वर्गीकरण प्रश्न<br>Classification Questions"]
+
+    E --> E1["पहले संबंध पहचानें<br>Identify Relation First"]
+    E --> E2["व्यापक → विशिष्ट क्रम<br>General → Specific Order"]
+    E --> E3["विकल्पों से मिलान<br>Match with Options"]
+    E --> E4["उदाहरण से जाँच<br>Verify with Example"]
+
+    F --> F1["आसान प्रश्न: 15-20 सेकंड<br>Easy: 15-20 sec"]
+    F --> F2["तीन-वृत्त प्रश्न: 30-40 सेकंड<br>Three-circle: 30-40 sec"]
+    F --> F3["संख्यात्मक: सूत्र लिखकर हल<br>Numerical: Write Formula First"]
+
+    G --> G1["'कुछ' ≠ 'सभी'<br>Some ≠ All"]
+    G --> G2["वास्तविक ज्ञान vs तार्किक संबंध<br>Real Knowledge vs Logic"]
+    G --> G3["मिलते-जुलते नाम<br>Similar Names<br>डॉक्टर/पुरुष/व्यक्ति"]
+    G --> G4["उल्टा समावेश<br>Reversed Inclusion<br>कौन किसमें आता है"]
+    G --> G5["नकारात्मक वाक्य<br>Negative Statements"]
+```

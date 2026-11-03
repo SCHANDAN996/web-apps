@@ -1,0 +1,62 @@
+```mermaid
+graph TD
+    ROOT["भारतीय अर्थव्यवस्था (बुनियादी)<br>Indian Economy (Basic)"]
+
+    ROOT --> SEC["क्षेत्रक<br>Sectors"]
+    SEC --> SEC1["प्राथमिक: कृषि, मत्स्य, वानिकी<br>Primary: agriculture, fishing, forestry"]
+    SEC --> SEC2["द्वितीयक: विनिर्माण, निर्माण<br>Secondary: manufacturing, construction"]
+    SEC --> SEC3["तृतीयक: बैंकिंग, परिवहन, व्यापार<br>Tertiary: banking, transport, trade"]
+    SEC --> SECT["जाल: GDP में सबसे बड़ा तृतीयक, रोज़गार में प्राथमिक<br>Trap: largest in GDP vs largest employer"]
+
+    ROOT --> NI["राष्ट्रीय आय<br>National Income"]
+    NI --> NI1["GNP = GDP + NFIA"]
+    NI --> NI2["NDP = GDP − मूल्यह्रास<br>NDP = GDP − Depreciation"]
+    NI --> NI3["राष्ट्रीय आय = साधन लागत पर NNP<br>National Income = NNP at factor cost"]
+    NI --> NI4["NSO, MoSPI मापता है<br>Measured by NSO, MoSPI"]
+    NI --> NI5["HDI: UNDP, 1990<br>HDI by UNDP, first report 1990"]
+
+    ROOT --> RBI["RBI और मुद्रा<br>RBI and Money"]
+    RBI --> RBI1["स्थापना 1 अप्रैल 1935<br>Set up 1 April 1935"]
+    RBI --> RBI2["राष्ट्रीयकरण 1 जनवरी 1949<br>Nationalised 1 January 1949"]
+    RBI --> RBI3["₹1 नोट: भारत सरकार, वित्त सचिव<br>₹1 note: Govt of India, Finance Secretary"]
+    RBI --> RBI4["बैंक राष्ट्रीयकरण 1969: 14, 1980: 6<br>Bank nationalisation 1969: 14, 1980: 6"]
+    RBI --> RBIT["जाल: RBI 1949, बैंक 1969<br>Trap: RBI 1949 vs banks 1969"]
+
+    ROOT --> MP["मौद्रिक नीति<br>Monetary Policy"]
+    MP --> MP1["रेपो ↑ = महँगाई ↓<br>Repo up = inflation down"]
+    MP --> MP2["CRR: RBI के पास, SLR: बैंक के पास<br>CRR with RBI, SLR with bank"]
+    MP --> MP3["MPC: 6 सदस्य, 2016<br>MPC: 6 members, 2016"]
+    MP --> MP4["लक्ष्य CPI 4%, सीमा 2–6%<br>Target CPI 4%, band 2–6%"]
+
+    ROOT --> INF["मुद्रास्फीति<br>Inflation"]
+    INF --> INF1["माँग-जनित, लागत-जनित<br>Demand-pull, Cost-push"]
+    INF --> INF2["अपस्फीति ≠ अवस्फीति<br>Deflation ≠ Disinflation"]
+    INF --> INF3["WPI: DPIIT, CPI: NSO"]
+
+    ROOT --> PL["योजना<br>Planning"]
+    PL --> PL1["योजना आयोग 15 मार्च 1950<br>Planning Commission 15 March 1950"]
+    PL --> PL2["पहली: कृषि, दूसरी: भारी उद्योग<br>1st: agriculture, 2nd: heavy industry"]
+    PL --> PL3["योजना अवकाश 1966–69<br>Plan Holiday 1966–69"]
+    PL --> PL4["नीति आयोग 1 जनवरी 2015<br>NITI Aayog 1 January 2015"]
+
+    ROOT --> BUD["बजट और कर<br>Budget and Taxes"]
+    BUD --> BUD1["बजट अनु. 112, वित्त आयोग अनु. 280<br>Budget Art. 112, Finance Commission Art. 280"]
+    BUD --> BUD2["प्राथमिक घाटा = राजकोषीय घाटा − ब्याज<br>Primary deficit = Fiscal deficit − Interest"]
+    BUD --> BUD3["GST: 101वाँ संशोधन, 1 जुलाई 2017<br>GST: 101st Amendment, 1 July 2017"]
+    BUD --> BUD4["GST परिषद अनु. 279A<br>GST Council Art. 279A"]
+
+    ROOT --> REF["1991 सुधार और विश्व<br>1991 Reforms and World"]
+    REF --> REF1["LPG: उदारीकरण, निजीकरण, वैश्वीकरण<br>Liberalisation, Privatisation, Globalisation"]
+    REF --> REF2["FEMA 1999 ने FERA 1973 की जगह ली<br>FEMA 1999 replaced FERA 1973"]
+    REF --> REF3["WTO 1995 जिनेवा, IMF-विश्व बैंक वाशिंगटन<br>WTO 1995 Geneva, IMF-World Bank Washington"]
+
+    ROOT --> POV["गरीबी और बेरोज़गारी<br>Poverty and Unemployment"]
+    POV --> POV1["कैलोरी: ग्रामीण 2400, शहरी 2100<br>Calories: rural 2400, urban 2100"]
+    POV --> POV2["प्रच्छन्न बेरोज़गारी: कृषि<br>Disguised unemployment: agriculture"]
+    POV --> POV3["मनरेगा 2005: 100 दिन<br>MGNREGA 2005: 100 days"]
+
+    ROOT --> STR["रणनीति<br>Strategy"]
+    STR --> STR1["15 से.: तिथियाँ, मुख्यालय<br>15 sec: dates, headquarters"]
+    STR --> STR2["45 से.: सूत्र, कारण-परिणाम<br>45 sec: formulas, cause-effect"]
+    STR --> STR3["'सभी/हर' दिखे तो ₹1 नोट याद करें<br>See 'all/every'? Recall the ₹1 note"]
+```

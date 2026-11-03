@@ -1,0 +1,44 @@
+```mermaid
+graph TD
+    A["विशेषण (Adjective)<br>संज्ञा/सर्वनाम की विशेषता बताने वाला शब्द"] --> B["प्रकार (Types)"]
+    A --> C["Degrees of Comparison<br>तुलना की अवस्थाएँ"]
+    A --> D["स्थिति (Position)"]
+    A --> E["8 स्वर्ण नियम"]
+    A --> F["परीक्षक के जाल"]
+
+    B --> B1["Quality<br>गुणवाचक: honest, tall"]
+    B --> B2["Quantity<br>परिमाणवाचक: some, much"]
+    B --> B3["Number<br>संख्यावाचक: five, many"]
+    B --> B4["Demonstrative<br>संकेतवाचक: this, those"]
+    B --> B5["Interrogative<br>प्रश्नवाचक: which, what"]
+    B --> B6["Possessive<br>स्वत्ववाचक: my, their"]
+
+    C --> C1["Positive<br>मूल: tall"]
+    C --> C2["Comparative<br>दो के बीच: taller than"]
+    C --> C3["Superlative<br>सबसे: the tallest"]
+    C1 -.->|"than नहीं"| C2
+    C2 -.->|"the + est"| C3
+
+    D --> D1["Attributive<br>संज्ञा से पहले: a red car"]
+    D --> D2["Predicative<br>क्रिया के बाद: The car is red"]
+    D --> D3["क्रम: OSASCOMP<br>Opinion-Size-Age-Shape-Colour-Origin-Material-Purpose"]
+
+    E --> E1["much → अगणनीय<br>many → गणनीय"]
+    E --> E2["few/a few/the few<br>little/a little/the little"]
+    E --> E3["elder/older<br>elder के साथ than नहीं"]
+    E --> E4["later/latter<br>latest/last"]
+    E --> E5["each → दो या अधिक<br>every → तीन या अधिक"]
+    E --> E6["less → अगणनीय<br>fewer → गणनीय"]
+    E --> E7["superior/inferior/junior/senior<br>के साथ 'to', 'than' नहीं"]
+    E --> E8["double comparison मना<br>❌ more taller"]
+
+    F --> F1["Sound-Right जाल<br>❌ He is more wiser"]
+    F --> F2["Intervening Phrase<br>❌ one of the best boy<br>✔ one of the best boys"]
+    F --> F3["Over-thinking<br>सरल नियम पर संदेह न करें"]
+    F --> F4["the + adjective = वर्ग<br>the rich = अमीर लोग"]
+
+    A --> G["रणनीति"]
+    G --> G1["15 सेकंड: तथ्यात्मक<br>degree, much/many, elder/older"]
+    G --> G2["45 सेकंड: तार्किक<br>वाक्य में त्रुटि पहचान"]
+    G --> G3["Skip: दो विकल्प लगभग-सही लगें<br>तो चिह्नित कर आगे बढ़ें"]
+```

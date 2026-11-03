@@ -1,0 +1,151 @@
+Questions 126–145: Easy | Questions 146–150: Medium
+
+126. If α and β are the roots of x² − 6x + 4 = 0, then the value of α³ + β³ is:
+(a) 160 (b) 152 (c) 144 (d) 168
+Answer: (c)
+Solution: The tempting wrong option 160 comes from mishandling the identity and subtracting the wrong multiple of αβ(α+β). Correctly: α+β = 6, αβ = 4, so α³+β³ = (α+β)³ − 3αβ(α+β) = 216 − 72 = 144, so the answer is 144.
+Source: NCERT Class 10 Mathematics
+
+127. If the roots of x² − 8x + k = 0 differ by 2, then the value of k is:
+(a) 12 (b) 16 (c) 15 (d) 18
+Answer: (c)
+Solution: The trap option 16 comes from setting the discriminant to zero, which gives equal roots, not roots differing by 2. Let the roots be m+1 and m−1: sum 2m = 8 gives m = 4, so the roots are 5 and 3, and k = 5 × 3 = 15, so the answer is 15.
+Source: NCERT Class 10 Mathematics
+
+128. If the sum of the roots of ax² + bx + c = 0 is equal to the sum of the squares of their reciprocals, then bc², ca², ab² are in:
+(a) AP (b) GP (c) HP (d) Neither AP, GP nor HP
+Answer: (a)
+Solution: The trap is to assume GP because products appear. Sum of roots = −b/a, and 1/α² + 1/β² = (b² − 2ac)/c². Setting them equal gives −bc²/a = b² − 2ac, i.e. 2ca² = ab² + bc², so ca² is the arithmetic mean of ab² and bc², so the answer is AP.
+Source: PYQ-style
+
+129. The number of real solutions of the equation |x² − 5x + 6| = −(x² − 5x + 6) is:
+(a) 0 (b) 1 (c) 2 (d) Infinitely many
+Answer: (d)
+Solution: The tempting answer 2 comes from solving x² − 5x + 6 = 0 and getting x = 2, 3. But |f(x)| = −f(x) holds whenever f(x) ≤ 0, i.e. (x−2)(x−3) ≤ 0, so every x in [2, 3] satisfies it, so the answer is infinitely many.
+Source: PYQ-style
+
+130. If α, β are roots of x² + px + q = 0 and γ, δ are roots of x² + px + r = 0, then (α − γ)(α − δ)/(β − γ)(β − δ) equals:
+(a) 1 (b) q/r (c) r/q (d) (q+r)/(p+q)
+Answer: (a)
+Solution: The trap option q/r assumes the ratio depends on the constants. Since γ+δ = −p and γδ = r, we get (α − γ)(α − δ) = α² + pα + r = −q + r = r − q, and similarly (β − γ)(β − δ) = r − q, so the answer is 1.
+Source: PYQ-style
+
+131. The sum of the first n terms of a series is 3n² + 5n. The 10th term of the series is:
+(a) 350 (b) 65 (c) 68 (d) 62
+Answer: (d)
+Solution: The trap option 350 is S₁₀ computed directly, but the question asks for the term, not the sum. T₁₀ = S₁₀ − S₉ = 350 − 288 = 62, so the answer is 62.
+Source: NCERT Class 11 Mathematics
+
+132. If the roots of x² − bx + c = 0 are two consecutive integers, then b² − 4c equals:
+(a) 1 (b) 2 (c) 0 (d) 4
+Answer: (a)
+Solution: The trap option 0 comes from assuming equal roots. Let the roots be n and n+1: b = 2n+1, c = n(n+1), so b² − 4c = (2n+1)² − 4n(n+1) = 1, so the answer is 1.
+Source: PYQ-style
+
+133. The equation x² − 3|x| + 2 = 0 has how many real roots?
+(a) 2 (b) 3 (c) 4 (d) 1
+Answer: (c)
+Solution: The trap answer 2 comes from treating it as an ordinary quadratic in x. Put |x| = t: t² − 3t + 2 = 0 gives t = 1 or t = 2, both non-negative, so x = ±1 and x = ±2, so the answer is 4.
+Source: PYQ-style
+
+134. If the ratio of the roots of ax² + bx + c = 0 is 2:3, then 6b² equals:
+(a) 24ac (b) 25ac (c) 12ac (d) 5ac
+Answer: (b)
+Solution: The trap option 24ac comes from a slip while squaring. Let the roots be 2k, 3k: sum 5k = −b/a and product 6k² = c/a. Eliminating k gives 6b²/(25a²) = c/a, so the answer is 25ac.
+Source: PYQ-style
+
+135. If α and β are the roots of x² − 5x + 6 = 0, then the value of α/β + β/α is:
+(a) 11/6 (b) 6/13 (c) 25/6 (d) 13/6
+Answer: (d)
+Solution: The trap option 25/6 forgets to subtract 2αβ when computing α² + β². Here α+β = 5, αβ = 6, so α²+β² = 25 − 12 = 13, and α/β + β/α = (α²+β²)/αβ = 13/6, so the answer is 13/6.
+Source: NCERT Class 10 Mathematics
+
+136. If one root of x² + px + 12 = 0 is 4, and the equation x² + px + q = 0 has equal roots, then q equals:
+(a) 4 (b) 49/4 (c) 4/49 (d) 12
+Answer: (b)
+Solution: The trap option 4 comes from assuming equal roots means q = 4. Since 4 is a root: 16 + 4p + 12 = 0 gives p = −7. Equal roots need p² − 4q = 0, so q = 49/4, so the answer is 49/4.
+Source: NCERT Class 10 Mathematics
+
+137. The sum of the first 20 terms of the AP 5, 8, 11, … is:
+(a) 640 (b) 730 (c) 700 (d) 670
+Answer: (d)
+Solution: The trap option 640 uses the first term instead of the last term in the formula S = n(first + last)/2. Here a = 5, d = 3, so S₂₀ = (20/2)[2×5 + 19×3] = 10 × 67 = 670, so the answer is 670.
+Source: NCERT Class 10 Mathematics
+
+138. If α, β are roots of 2x² − 3x − 6 = 0, the equation whose roots are α² + 2 and β² + 2 is:
+(a) x² − 49x + 118 = 0 (b) 4x² − 49x + 118 = 0 (c) 4x² − 49x − 118 = 0 (d) 4x² + 49x + 118 = 0
+Answer: (b)
+Solution: The trap option with +49x ignores that the new sum is positive, requiring −(sum)x. α+β = 3/2, αβ = −3, so α²+β² = 33/4; new sum = 49/4 and new product = 9 + 33/2 + 4 = 59/2, giving 4x² − 49x + 118 = 0, so the answer is 4x² − 49x + 118 = 0.
+Source: PYQ-style
+
+139. The minimum value of 2x² − 8x + 17 is:
+(a) 7 (b) 17 (c) 9 (d) 11
+Answer: (c)
+Solution: The trap option 17 is just the constant term, which is the value at x = 0, not the minimum. Completing the square: 2(x − 2)² + 9, so the minimum is 9 at x = 2, so the answer is 9.
+Source: NCERT Class 11 Mathematics
+
+140. If the sum of the first p terms of an AP equals the sum of the first q terms (p ≠ q), then the sum of the first (p + q) terms is:
+(a) p + q (b) 0 (c) pq (d) p − q
+Answer: (b)
+Solution: The trap option p + q assumes the sum just adds up. S_p = S_q gives (p−q)[2a + (p+q−1)d] = 0, so 2a + (p+q−1)d = 0, and then S_{p+q} = ((p+q)/2)[2a + (p+q−1)d] = 0, so the answer is 0.
+Source: NCERT Class 10 Mathematics
+
+141. The number of terms of the AP 17, 15, 13, … that must be taken so that the sum is 72 is:
+(a) 6 or 12 (b) 12 only (c) 6 only (d) 9
+Answer: (a)
+Solution: The trap is to reject one of the two mathematical answers. Sₙ = (n/2)[34 + (n−1)(−2)] = 18n − n² = 72 gives n² − 18n + 72 = 0, so n = 6 or n = 12; both are valid since later terms turn negative and cancel, so the answer is 6 or 12.
+Source: NCERT Class 10 Mathematics
+
+142. If x² − 11x + a = 0 and x² − 14x + 2a = 0 have a common root, then the values of a are:
+(a) 0, 12 (b) 0, 24 (c) 12, 24 (d) 24, 48
+Answer: (b)
+Solution: The trap option 12, 24 drops the trivial case a = 0. Subtracting the equations gives 3x − a = 0, so the common root is x = a/3; substituting gives a² − 24a = 0, hence a = 0 or a = 24, so the answer is 0, 24.
+Source: PYQ-style
+
+143. The sum to infinity of the series 1 + 2/3 + 3/9 + 4/27 + … is:
+(a) 9/4 (b) 3/2 (c) 2 (d) 5/2
+Answer: (a)
+Solution: The trap option 3/2 treats it as a pure GP ignoring the rising numerator. This is an arithmetico-geometric series: S = 1/(1−1/3) + (1/3)/(1−1/3)² = 3/2 + 3/4 = 9/4, so the answer is 9/4.
+Source: NCERT Class 11 Mathematics
+
+144. If the roots of x² + bx + c = 0 are real and differ by at most 4, then the range of b² − 4c is:
+(a) [4, 16] (b) [0, 4] (c) [0, 16] (d) (0, 16)
+Answer: (c)
+Solution: The trap option [0, 4] forgets that the difference of roots is √(b²−4c), not (b²−4c) itself. |α − β| = √(b² − 4c) ≤ 4 and real roots need b² − 4c ≥ 0, so 0 ≤ b² − 4c ≤ 16, so the answer is [0, 16].
+Source: PYQ-style
+
+145. Three numbers are in GP with sum 14 and the sum of their squares is 84. The numbers are:
+(a) 2, 4, 8 (b) 1, 3, 9 (c) 2, 6, 6 (d) 4, 6, 4
+Answer: (a)
+Solution: The trap option 1, 3, 9 is a GP but sums to 13, not 14 — a near-miss. Testing 2, 4, 8: sum = 14 ✓ and 4 + 16 + 64 = 84 ✓, so the answer is 2, 4, 8.
+Source: NCERT Class 11 Mathematics
+
+146. If α and β are roots of x² − x − 1 = 0, then the value of α⁴ + β⁴ is:
+(a) 7 (b) 5 (c) 9 (d) 11
+Answer: (a)
+Solution: The trap option 9 comes from squaring α²+β² = 3 and writing 9 directly, forgetting the cross term. α+β = 1, αβ = −1, so α²+β² = 3 and α⁴+β⁴ = 9 − 2(1) = 7, so the answer is 7.
+Source: PYQ-style
+
+147. The sum of the series 1·2 + 2·3 + 3·4 + … to n terms is:
+(a) n(n+1)(2n+1)/6 (b) n(n+1)(n+2)/3 (c) n(n+1)/2 (d) n(n+1)(n+2)/6
+Answer: (b)
+Solution: The trap option n(n+1)(2n+1)/6 is the formula for Σn², a look-alike. Σk(k+1) = Σk² + Σk = n(n+1)(2n+1)/6 + n(n+1)/2 = n(n+1)(n+2)/3, so the answer is n(n+1)(n+2)/3.
+Source: NCERT Class 11 Mathematics
+
+148. For what value of k does the equation (k − 2)x² + 2(k − 2)x + 4 = 0 have equal roots, given k ≠ 2?
+(a) 4 (b) 0 (c) −2 (d) 6
+Answer: (d)
+Solution: The trap option 4 comes from setting the discriminant to zero but solving only partially. D = 4(k−2)² − 16(k−2) = 4(k−2)(k−6) = 0; since k ≠ 2 (else it is not quadratic), k = 6, so the answer is 6.
+Source: NCERT Class 10 Mathematics
+
+149. If the AM of two positive numbers is 13 and their GM is 12, the numbers are:
+(a) 6 and 20 (b) 9 and 16 (c) 10 and 16 (d) 8 and 18
+Answer: (d)
+Solution: The trap option 9 and 16 has GM = 12 but AM = 12.5, not 13. Sum = 26 and product = 144, so the numbers are roots of t² − 26t + 144 = 0, giving t = 18 or 8, so the answer is 8 and 18.
+Source: NCERT Class 11 Mathematics
+
+150. The value of √(6 + √(6 + √(6 + … to infinity))) is:
+(a) 2 (b) 4 (c) 3 (d) 6
+Answer: (c)
+Solution: The trap option 6 picks the number inside the root. Let x = √(6 + x): then x² − x − 6 = 0 gives (x−3)(x+2) = 0, and since x > 0, x = 3, so the answer is 3.
+Source: PYQ-style

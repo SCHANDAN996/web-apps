@@ -1,3 +1,149 @@
-# Chapter: LCM & HCF, Level: intermediate, Set: 5/6
+101. Find the LCM of 12, 18 and 24.
+(a) 72 (b) 36 (c) 108 (d) 144
+Answer: (a)
+Solution: Prime factors: 12 = 2² × 3, 18 = 2 × 3², 24 = 2³ × 3. Taking the highest powers, LCM = 2³ × 3² = 8 × 9 = 72. The option 36 tempts because it is a common multiple of 12 and 18, but 36 is not divisible by 24, so the answer is 72.
+Source: NCERT Class 10 Mathematics (Real Numbers)
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for LCM & HCF. This is Set 5 (total 6 sets, 150 questions). Questions must be numbered 101 to 125. Questions 101 to 120 should be Medium, Questions 121 to 125 should be Hard. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+102. Find the HCF of 36 and 84.
+(a) 12 (b) 6 (c) 18 (d) 24
+Answer: (a)
+Solution: 36 = 2² × 3² and 84 = 2² × 3 × 7. Common factors with lowest powers: 2² × 3 = 12. The option 6 tempts because 6 divides both numbers, but it is not the greatest common divisor, so the answer is 12.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+103. The product of two numbers is 216 and their HCF is 6. Find their LCM.
+(a) 36 (b) 42 (c) 48 (d) 72
+Answer: (a)
+Solution: Product of two numbers = HCF × LCM, so LCM = 216 ÷ 6 = 36. The option 72 tempts if one multiplies 216 by 6 and then halves wrongly, but the rule is direct division, so the answer is 36.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+104. Find the LCM of 2/3, 3/4 and 4/5.
+(a) 24 (b) 1/60 (c) 12 (d) 2/15
+Answer: (c)
+Solution: LCM of fractions = LCM of numerators ÷ HCF of denominators = LCM(2, 3, 4) ÷ HCF(3, 4, 5) = 12 ÷ 1 = 12. The option 1/60 tempts because it is the HCF formula applied by mistake, so the answer is 12.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+105. Find the HCF of 3/4, 6/7 and 9/8.
+(a) 3/28 (b) 18/56 (c) 3/56 (d) 9/56
+Answer: (c)
+Solution: HCF of fractions = HCF of numerators ÷ LCM of denominators = HCF(3, 6, 9) ÷ LCM(4, 7, 8) = 3 ÷ 56 = 3/56. The option 18/56 tempts if one takes LCM of numerators instead of HCF, so the answer is 3/56.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+106. Two numbers are in the ratio 3 : 4 and their HCF is 5. Find their LCM.
+(a) 30 (b) 45 (c) 90 (d) 60
+Answer: (d)
+Solution: The numbers are 3 × 5 = 15 and 4 × 5 = 20. LCM = (15 × 20) ÷ 5 = 60. The option 30 tempts if one forgets that the ratio parts 3 and 4 are coprime and halves the product wrongly, so the answer is 60.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+107. Three bells toll at intervals of 12, 15 and 20 seconds. After how many seconds will they toll together?
+(a) 45 (b) 120 (c) 90 (d) 60
+Answer: (d)
+Solution: They toll together at the LCM of 12, 15 and 20. LCM = 2² × 3 × 5 = 60 seconds. The option 120 tempts as it is also a common multiple, but the first simultaneous toll is at the least common multiple, so the answer is 60.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+108. Find the smallest number which when divided by 12, 15 and 20 leaves a remainder of 5 in each case.
+(a) 60 (b) 305 (c) 125 (d) 65
+Answer: (d)
+Solution: LCM of 12, 15 and 20 = 60. Required number = 60 + 5 = 65. The option 60 tempts because it is the LCM itself, but the remainder 5 must be added, so the answer is 65.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+109. Find the greatest four-digit number exactly divisible by 12, 18 and 24.
+(a) 9936 (b) 9960 (c) 9972 (d) 9984
+Answer: (a)
+Solution: LCM of 12, 18 and 24 = 72. Dividing 9999 by 72 gives quotient 138 with remainder 63, so the required number = 9999 − 63 = 9936. The option 9972 tempts as it is divisible by 12 but not by 72, so the answer is 9936.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+110. Find the HCF of 96, 144 and 192.
+(a) 24 (b) 48 (c) 36 (d) 96
+Answer: (b)
+Solution: 96 = 2⁵ × 3, 144 = 2⁴ × 3², 192 = 2⁶ × 3. Common lowest powers: 2⁴ × 3 = 48. The option 24 tempts as it divides all three, but it is not the greatest, so the answer is 48.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+111. The LCM of two numbers is 495 and their HCF is 5. If one number is 45, find the other.
+(a) 65 (b) 60 (c) 55 (d) 75
+Answer: (c)
+Solution: Other number = (HCF × LCM) ÷ given number = (5 × 495) ÷ 45 = 2475 ÷ 45 = 55. The option 75 tempts if one divides 495 by 45 and multiplies wrongly, so the answer is 55.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+112. The sum of two numbers is 45 and their HCF is 5. If their LCM is 100, find the numbers.
+(a) 15 and 30 (b) 20 and 25 (c) 10 and 35 (d) 5 and 40
+Answer: (b)
+Solution: Let the numbers be 5x and 5y with x, y coprime. Then 5(x + y) = 45, so x + y = 9, and LCM = 5xy = 100, so xy = 20. Coprime pair with sum 9 and product 20 is 4 and 5, giving 20 and 25. The pair 15 and 30 tempts as its sum is 45, but its HCF is 15, not 5, so the answer is 20 and 25.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+113. Find the smallest number which when divided by 8, 12 and 15 leaves a remainder of 3 in each case.
+(a) 120 (b) 363 (c) 243 (d) 123
+Answer: (d)
+Solution: LCM of 8, 12 and 15 = 2³ × 3 × 5 = 120. Required number = 120 + 3 = 123. The option 120 tempts as the LCM, but the remainder 3 must be added, so the answer is 123.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+114. Three traffic lights change at intervals of 48, 72 and 108 seconds. If they change together at 9 a.m., after how many seconds will they next change together?
+(a) 216 (b) 432 (c) 648 (d) 864
+Answer: (b)
+Solution: 48 = 2⁴ × 3, 72 = 2³ × 3², 108 = 2² × 3³. LCM = 2⁴ × 3³ = 16 × 27 = 432 seconds. The option 216 tempts as it is a common multiple of 72 and 108 but not of 48, so the answer is 432.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+115. Find the HCF of 2³ × 3² × 5 and 2² × 3³ × 5².
+(a) 90 (b) 360 (c) 180 (d) 60
+Answer: (c)
+Solution: HCF takes the lowest power of each common prime: 2² × 3² × 5 = 4 × 9 × 5 = 180. The option 360 tempts if one takes the highest powers (which gives the LCM direction), so the answer is 180.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+116. Two numbers are in the ratio 5 : 6 and their LCM is 210. Find the sum of the numbers.
+(a) 66 (b) 77 (c) 88 (d) 99
+Answer: (b)
+Solution: Let the numbers be 5x and 6x. Since 5 and 6 are coprime, LCM = 30x = 210, so x = 7. Numbers are 35 and 42, sum = 77. The option 66 tempts if one takes x = 6 by dividing 210 by 35 wrongly, so the answer is 77.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+117. Find the greatest number which on dividing 1657 and 2037 leaves remainders 6 and 5 respectively.
+(a) 127 (b) 131 (c) 137 (d) 141
+Answer: (a)
+Solution: Subtract the remainders: 1657 − 6 = 1651 and 2037 − 5 = 2032. HCF of 1651 (= 13 × 127) and 2032 (= 16 × 127) is 127. The option 131 tempts as a nearby prime, but it does not divide both numbers, so the answer is 127.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+118. Find the LCM of 16, 24, 36 and 54.
+(a) 216 (b) 864 (c) 648 (d) 432
+Answer: (d)
+Solution: 16 = 2⁴, 24 = 2³ × 3, 36 = 2² × 3², 54 = 2 × 3³. LCM = 2⁴ × 3³ = 16 × 27 = 432. The option 216 tempts as it covers 24, 36 and 54 but not 16, so the answer is 432.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+119. How many pairs of numbers have HCF 12 and sum 84?
+(a) 2 (b) 3 (c) 4 (d) 5
+Answer: (b)
+Solution: Let the numbers be 12a and 12b with a, b coprime. Then 12(a + b) = 84, so a + b = 7. Coprime pairs (a, b) with sum 7 are (1, 6), (2, 5) and (3, 4), giving 3 pairs. The option 4 tempts if one counts (7, 0) or forgets the coprime condition, so the answer is 3.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+120. Find the HCF of 9/10, 12/25 and 18/35.
+(a) 3/175 (b) 3/350 (c) 9/350 (d) 6/175
+Answer: (b)
+Solution: HCF of fractions = HCF(9, 12, 18) ÷ LCM(10, 25, 35) = 3 ÷ 350 = 3/350. The option 9/350 tempts if one takes HCF of numerators as 9 wrongly, but HCF of 9, 12, 18 is 3, so the answer is 3/350.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+121. Find the smallest number which when divided by 5, 6, 7 and 8 leaves remainder 3 in each case, but is exactly divisible by 9.
+(a) 843 (b) 3363 (c) 2523 (d) 1683
+Answer: (d)
+Solution: LCM of 5, 6, 7, 8 = 840, so the number is of the form 840k + 3. For divisibility by 9: 840k + 3 ≡ 3k + 3 (mod 9), which is 0 when k = 2, giving 840 × 2 + 3 = 1683. The option 843 tempts as the smallest number with remainder 3, but 843 ÷ 9 leaves remainder 6, so the answer is 1683.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+122. Find the greatest number which on dividing 110, 170 and 230 leaves the same remainder in each case.
+(a) 30 (b) 45 (c) 60 (d) 90
+Answer: (c)
+Solution: The required number is the HCF of the differences: 170 − 110 = 60, 230 − 170 = 60, 230 − 110 = 120. HCF(60, 60, 120) = 60. The option 30 tempts as it also divides all differences, but it is not the greatest, so the answer is 60.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+123. The LCM of two numbers is 12 times their HCF, and the sum of the LCM and HCF is 403. If one number is 93, find the other number.
+(a) 144 (b) 132 (c) 124 (d) 155
+Answer: (c)
+Solution: Let HCF = x, so LCM = 12x. Then x + 12x = 403, giving x = 31 and LCM = 372. Other number = (31 × 372) ÷ 93 = 11532 ÷ 93 = 124. The option 132 tempts if one divides 372 by 93 and multiplies by 33 wrongly, so the answer is 124.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+124. Six bells toll at intervals of 2, 4, 6, 8, 10 and 12 seconds. If they toll together now, how many times will they toll together in the next 30 minutes?
+(a) 16 (b) 15 (c) 18 (d) 30
+Answer: (a)
+Solution: LCM of 2, 4, 6, 8, 10, 12 = 2³ × 3 × 5 = 120 seconds = 2 minutes. In 30 minutes they toll together at 2, 4, …, 30 minutes, i.e. 15 times, plus the toll at the start (now) counted in the span gives 30 ÷ 2 + 1 = 16 times. The option 15 tempts if one forgets to count the initial simultaneous toll, so the answer is 16.
+Source: NCERT Class 10 Mathematics (Real Numbers)
+
+125. The product of three numbers is 8100, their HCF is 3 and their LCM is 900. Find the sum of the three numbers.
+(a) 96 (b) 90 (c) 102 (d) 108
+Answer: (a)
+Solution: Let the numbers be 3a, 3b, 3c. Then 27abc = 8100, so abc = 300, and LCM = 3 × lcm(a, b, c) = 900, so lcm(a, b, c) = 300. Since abc = lcm(a, b, c) = 300, the numbers a, b, c are pairwise coprime; 300 = 4 × 3 × 25, so a, b, c = 3, 4, 25. The numbers are 9, 12 and 75, sum = 96. The option 90 tempts from a wrong split like 5, 6, 10 which are not pairwise coprime, so the answer is 96.
+Source: NCERT Class 10 Mathematics (Real Numbers)

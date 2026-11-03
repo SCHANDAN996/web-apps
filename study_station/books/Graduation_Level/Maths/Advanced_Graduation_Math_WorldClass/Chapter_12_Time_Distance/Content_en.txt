@@ -1,0 +1,166 @@
+# Time & Distance
+
+## Chapter Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Convert speeds between km/h and m/s in under 3 seconds.
+2. Solve problems on trains, boats & streams, and races without writing long equations.
+3. Handle relative speed, average speed, and circular track questions confidently.
+4. Spot the traps examiners set in SSC CGL Tier-II, IBPS PO Mains, CAT, and CSAT papers.
+
+---
+
+## The Hook: A Train, A Pole, and 9 Seconds
+
+A 180-metre-long train crosses a pole in 9 seconds. That's it — that's the whole question. And from this one line, the examiner expects you to find the train's speed in km/h.
+
+Most students freeze. Not because the maths is hard, but because nobody told them the secret: **when a train crosses a pole, it travels a distance equal to its own length.** That's all. 180 metres in 9 seconds = 20 m/s = 72 km/h. Done in 10 seconds flat.
+
+Time & Distance is not a chapter of formulas. It is a chapter of *one* formula wearing a hundred disguises. Once you see through the disguises, this becomes the highest-scoring topic in your quant paper.
+
+---
+
+## Why This Chapter Feels Hard (And Why It Isn't)
+
+Let's be honest. You've probably memorised "Speed = Distance/Time" a dozen times, and still blanked out in the exam hall when the question said *"a man covers two-thirds of the journey at 4 km/h and the rest at 5 km/h..."*
+
+The struggle is real, and here's why: school taught you the formula, but exams test the **relationships** — what happens to time when speed doubles, what "relative" really means when two objects move, why average speed is *not* the average of speeds. This chapter fixes exactly that.
+
+---
+
+## Chunk 1: The One Formula and Its Three Faces
+
+Everything in this chapter comes from:
+
+**Speed = Distance ÷ Time**
+
+Rearranged: **Distance = Speed × Time** and **Time = Distance ÷ Speed**
+
+But the real power lies in the proportions:
+
+- **Speed constant** → Distance ∝ Time (double the time, double the distance)
+- **Time constant** → Distance ∝ Speed
+- **Distance constant** → Speed ∝ 1/Time (double the speed, *half* the time)
+
+That last one is the examiner's favourite. If a man increases his speed in the ratio 5:6, his time ratio becomes 6:5. No calculation needed — just flip the ratio.
+
+🧠 **Active Recall:** A car covers a fixed distance. If its speed becomes 3/4 of the original, what happens to the time taken? *(Answer: time becomes 4/3 of the original — flip the ratio.)*
+
+---
+
+## Chunk 2: Unit Conversion — The 5/18 Reflex
+
+Examiners love mixing km/h and m/s. Make this conversion a reflex:
+
+- **km/h → m/s: multiply by 5/18**
+- **m/s → km/h: multiply by 18/5**
+
+Why 5/18? Because 1 km = 1000 m and 1 hour = 3600 s, so 1 km/h = 1000/3600 = 5/18 m/s.
+
+Quick anchors to memorise: 36 km/h = 10 m/s, 54 km/h = 15 m/s, 72 km/h = 20 m/s, 90 km/h = 25 m/s. Most train problems use exactly these numbers.
+
+🧠 **Active Recall:** Convert 45 km/h to m/s without a pen. *(45 × 5/18 = 12.5 m/s.)*
+
+---
+
+## Chunk 3: Average Speed — The Trap Everyone Falls Into
+
+**Average speed is NOT the average of the two speeds.** Repeat that aloud.
+
+If a man travels equal distances at speeds *a* and *b*:
+
+**Average Speed = 2ab / (a + b)**  (the harmonic mean)
+
+Example: 60 km at 30 km/h, then 60 km at 60 km/h. Average = (2 × 30 × 60)/(30 + 60) = 3600/90 = **40 km/h** — not 45!
+
+If he travels for equal *times* instead, then average speed is simply (a + b)/2. The examiner's trap: mixing up "equal distance" with "equal time." Read the question twice.
+
+For three equal distances at speeds a, b, c: **Average Speed = 3abc / (ab + bc + ca)**
+
+🧠 **Active Recall:** A cyclist goes to market at 10 km/h and returns the same way at 15 km/h. Average speed? *(2×10×15/25 = 12 km/h.)*
+
+---
+
+## Chunk 4: Trains — Length Is Everything
+
+Train problems have one golden rule: **identify what distance the train actually covers.**
+
+| Crossing object | Distance covered |
+|---|---|
+| A pole / a standing man | Train's own length (L) |
+| A platform / bridge of length P | L + P |
+| Another train (length M), opposite direction | L + M, at relative speed (sum) |
+| Another train, same direction | L + M, at relative speed (difference) |
+
+**Relative speed:** opposite directions → add speeds; same direction → subtract.
+
+Example: Two trains of 120 m and 180 m move towards each other at 40 km/h and 50 km/h. Time to cross each other = (120 + 180) / [(40 + 50) × 5/18] = 300 / 25 = **12 seconds**.
+
+🧠 **Active Recall:** A 250 m train crosses a 150 m platform in 20 s. Speed in km/h? *(Distance = 400 m; speed = 20 m/s = 72 km/h.)*
+
+---
+
+## Chunk 5: Boats & Streams — The River Helps or Fights
+
+- **Downstream speed** (with the current) = boat speed + stream speed = **B + S**
+- **Upstream speed** (against the current) = **B − S**
+
+From these two, everything follows:
+
+- **B = (Downstream + Upstream) / 2**
+- **S = (Downstream − Upstream) / 2**
+
+Example: A boat goes 30 km downstream in 2 h and the same distance upstream in 3 h. Downstream = 15 km/h, upstream = 10 km/h. So B = 12.5 km/h, S = 2.5 km/h.
+
+🧠 **Active Recall:** If downstream speed is 18 km/h and the stream is 3 km/h, what is the upstream speed? *(B = 15, so upstream = 12 km/h.)*
+
+---
+
+## Chunk 6: Races & Circular Tracks
+
+**Race language decoded:**
+
+- "A beats B by 20 m in a 100 m race" → when A runs 100 m, B runs 80 m. Their speed ratio is 100:80 = 5:4.
+- "A gives B a start of 10 m" → B starts 10 m ahead, so B runs only 90 m.
+
+**Circular tracks:** Two runners on a circular track of length L:
+
+- Same direction: they meet every **L / (difference of speeds)**
+- Opposite directions: they meet every **L / (sum of speeds)**
+- Time to meet at the **starting point** = LCM of their individual lap times
+
+🧠 **Active Recall:** In a 500 m race, A beats B by 50 m. If A's speed is 10 m/s, what is B's speed? *(Ratio 500:450 = 10:9, so B = 9 m/s.)*
+
+---
+
+## 🎯 Mnemonic: "DST — Don't Stop Thinking"
+
+Remember the formula triangle **D-S-T**: cover the one you want.
+
+- Cover D → **D = S × T**
+- Cover S → **S = D / T**
+- Cover T → **T = D / S**
+
+And for unit conversion, remember **"5/18 is small, 18/5 is tall"** — going from big units (km/h) to small (m/s), multiply by the small fraction 5/18; going the other way, multiply by the tall one, 18/5.
+
+---
+
+## Summary Table
+
+| Concept | Key Result |
+|---|---|
+| Basic relation | Speed = Distance / Time |
+| Distance constant | Speed ∝ 1/Time (flip the ratio) |
+| km/h ↔ m/s | × 5/18 and × 18/5 |
+| Average speed (equal distances) | 2ab / (a + b) |
+| Train crossing pole | Distance = train's length |
+| Train crossing platform | Distance = L + P |
+| Relative speed | Opposite: add; Same: subtract |
+| Boat downstream / upstream | B + S / B − S |
+| Race "beats by x m" | Speed ratio = full distance : (full − x) |
+| Circular track meeting | L / (speed difference or sum) |
+
+---
+
+📌 **Review this chapter after 2 days.** Redo the Active Recall prompts without looking at the answers, and re-derive the average speed formula once from scratch. Spaced repetition is what moves this chapter from "I read it" to "I own it."

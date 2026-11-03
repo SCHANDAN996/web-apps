@@ -1,0 +1,34 @@
+```mermaid
+graph TD
+    A["शब्दकोश क्रम<br>Dictionary Order"] --> B["मूल अवधारणा<br>Core Concept"]
+    A --> C["प्रश्नों के प्रकार<br>Types of Questions"]
+    A --> D["रणनीतियाँ<br>Strategies"]
+    A --> E["समय प्रबंधन<br>Time Management"]
+    A --> F["परीक्षक के जाल<br>Common Traps"]
+
+    B --> B1["अंग्रेजी वर्णमाला क्रम<br>A→Z (1→26)"]
+    B --> B2["पहला अक्षर समान → दूसरा अक्षर देखें<br>Same 1st letter → check 2nd"]
+    B --> B3["छोटा शब्द पहले<br>Shorter word comes first<br>(CAT < CATCH)"]
+    B --> B4["अक्षरों का स्थान मान याद रखें<br>Letter positions: EJOTY<br>(5,10,15,20,25)"]
+
+    C --> C1["शब्दों को शब्दकोश क्रम में लगाना<br>Arrange words in dictionary order"]
+    C --> C2["कौन-सा शब्द पहले/बाद में आएगा<br>Which word comes first/last"]
+    C --> C3["क्रम संख्या बताना<br>Find position (3rd, 4th word)"]
+    C --> C4["वर्णमाला के अक्षरों से शब्द बनाना<br>Meaningful word from letters"]
+    C --> C5["अक्षरों को वर्णमाला क्रम में लगाना<br>Arrange letters alphabetically"]
+
+    D --> D1["पहले अक्षर से समूह बनाएँ<br>Group by first letter"]
+    D --> D2["समान अक्षरों वाले समूह में<br>अगला अक्षर तुलना करें<br>Compare next letter within group"]
+    D --> D3["विकल्पों से उल्टा हल करें<br>Eliminate via options"]
+    D --> D4["स्थान मान लिखकर तुलना<br>Write position values to compare"]
+
+    E --> E1["सरल क्रम प्रश्न: 20–30 सेकंड<br>Simple ordering: 20–30 sec"]
+    E --> E2["5+ शब्द / जटिल तुलना: 45–60 सेकंड<br>Complex: 45–60 sec"]
+    E --> E3["60 सेकंड से अधिक → छोड़ें<br>Skip if over 60 sec"]
+
+    F --> F1["बीच के अक्षर भूलना<br>Ignoring middle letters<br>(MANGO vs MANOR)"]
+    F --> F2["छोटे/लंबे शब्द का भ्रम<br>Prefix trap: PEN < PENCIL"]
+    F --> F3["उल्टा क्रम पूछना<br>Reverse order asked<br>(last first)"]
+    F --> F4["मिलते-जुलते अक्षर युग्म<br>Confusing pairs: b/d, p/q, m/n"]
+    F --> F5["स्थान मान गलत गिनना<br>Miscounting letter positions"]
+```

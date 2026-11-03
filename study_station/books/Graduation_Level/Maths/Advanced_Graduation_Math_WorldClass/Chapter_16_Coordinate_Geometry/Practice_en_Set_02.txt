@@ -1,0 +1,151 @@
+Questions 26–45: Easy | Questions 46–50: Medium
+
+26. The distance between the points (3, –2) and (–1, 1) is
+(a) 4 (b) 5 (c) √13 (d) 7
+Answer: (b)
+Solution: The tempting wrong option is √13, which comes from subtracting the coordinates wrongly as (3–1) and (–2–1). Correctly, Δx = 3–(–1) = 4 and Δy = –2–1 = –3, so distance = √(16+9) = √25 = 5, so the answer is 5.
+Source: NCERT Class 10 Mathematics
+
+27. The midpoint of the segment joining (–4, 6) and (8, –2) is
+(a) (2, 2) (b) (4, 4) (c) (6, 2) (d) (2, 4)
+Answer: (a)
+Solution: The trap option (6, 2) comes from adding 8 and –4 wrongly as 12. Midpoint = ((–4+8)/2, (6–2)/2) = (4/2, 4/2) = (2, 2), so the answer is (2, 2).
+Source: NCERT Class 10 Mathematics
+
+28. The point dividing the segment joining (2, 3) and (6, 11) internally in the ratio 1 : 3 is
+(a) (4, 7) (b) (3, 6) (c) (5, 9) (d) (3, 5)
+Answer: (d)
+Solution: The trap option (4, 7) is the midpoint, which applies only for ratio 1 : 1. Using the section formula: x = (1·6 + 3·2)/(1+3) = 12/4 = 3, y = (1·11 + 3·3)/4 = 20/4 = 5, so the answer is (3, 5).
+Source: NCERT Class 10 Mathematics
+
+29. The area of the triangle with vertices (0, 0), (6, 0) and (0, 8) is
+(a) 24 sq units (b) 12 sq units (c) 14 sq units (d) 48 sq units
+Answer: (a)
+Solution: The trap option 48 forgets the factor 1/2 in the area formula. Area = ½|x₁(y₂–y₃) + x₂(y₃–y₁) + x₃(y₁–y₂)| = ½|0 + 6·8 + 0| = 24, so the answer is 24 sq units.
+Source: NCERT Class 10 Mathematics
+
+30. If the points (2, 1), (4, k) and (6, 5) are collinear, then k equals
+(a) 4 (b) 2 (c) 3 (d) 6
+Answer: (c)
+Solution: The trap option 4 comes from guessing a middle value instead of applying the collinearity condition. Collinearity means area = 0: 2(k–5) + 4(5–1) + 6(1–k) = 0 → 2k – 10 + 16 + 6 – 6k = 0 → –4k + 12 = 0 → k = 3, so the answer is 3.
+Source: NCERT Class 10 Mathematics
+
+31. The slope of the line passing through (–2, 5) and (4, –1) is
+(a) 1 (b) 2 (c) –1 (d) –2
+Answer: (c)
+Solution: The trap option 1 ignores the sign of the change in y. Slope = (–1–5)/(4–(–2)) = –6/6 = –1, so the answer is –1.
+Source: NCERT Class 11 Mathematics
+
+32. The equation of the line with slope 2 passing through (1, 3) is
+(a) y = 2x + 1 (b) y = 2x + 3 (c) y = 2x – 1 (d) y = 3x + 2
+Answer: (a)
+Solution: The trap option y = 2x + 3 wrongly uses the y-coordinate of the point as the intercept. Using point-slope form: y – 3 = 2(x – 1) → y = 2x + 1, so the answer is y = 2x + 1.
+Source: NCERT Class 11 Mathematics
+
+33. The distance of the point (3, 4) from the line 3x + 4y – 10 = 0 is
+(a) 2 (b) 3 (c) 5 (d) 15
+Answer: (b)
+Solution: The trap option 15 is just the numerator |9 + 16 – 10| without dividing by √(9+16) = 5. Distance = |3·3 + 4·4 – 10|/5 = 15/5 = 3, so the answer is 3.
+Source: NCERT Class 11 Mathematics
+
+34. The lines 2x + 3y = 5 and 4x + 6y = 7 are
+(a) intersecting (b) parallel and distinct (c) coincident (d) perpendicular
+Answer: (b)
+Solution: The trap option "coincident" comes from noticing 4x + 6y is double 2x + 3y but ignoring the constants. Since 2/4 = 3/6 ≠ 5/7, the lines are parallel and distinct, so the answer is parallel and distinct.
+Source: NCERT Class 11 Mathematics
+
+35. The angle between the lines y = x and y = √3 x is
+(a) 30° (b) 15° (c) 45° (d) 60°
+Answer: (b)
+Solution: The trap option 45° comes from confusing the slopes with the angles directly. Slopes are 1 and √3, i.e. inclinations 45° and 60°, so the angle between them is 60° – 45° = 15°, so the answer is 15°.
+Source: NCERT Class 11 Mathematics
+
+36. The coordinates of the centroid of the triangle with vertices (1, 2), (3, 4) and (5, 6) are
+(a) (3, 4) (b) (2, 3) (c) (4, 5) (d) (9, 12)
+Answer: (a)
+Solution: The trap option (9, 12) forgets to divide by 3. Centroid = ((1+3+5)/3, (2+4+6)/3) = (9/3, 12/3) = (3, 4), so the answer is (3, 4).
+Source: NCERT Class 10 Mathematics
+
+37. The equation of a circle with centre (2, –3) and radius 5 is
+(a) (x–2)² + (y+3)² = 25 (b) (x+2)² + (y–3)² = 25 (c) (x–2)² + (y+3)² = 5 (d) (x–2)² + (y–3)² = 25
+Answer: (a)
+Solution: The trap option with (y–3)² ignores that the centre's y-coordinate is negative, giving y+3 inside the bracket. Standard form: (x–2)² + (y–(–3))² = 5², so the answer is (x–2)² + (y+3)² = 25.
+Source: NCERT Class 11 Mathematics
+
+38. The centre and radius of the circle x² + y² – 6x + 4y – 12 = 0 are
+(a) (3, –2), 25 (b) (–3, 2), 5 (c) (3, –2), 5 (d) (6, –4), 5
+Answer: (c)
+Solution: The trap option (–3, 2) takes the coefficients with wrong signs; centre = (–g, –f) = (3, –2). Radius = √(g² + f² – c) = √(9 + 4 + 12) = √25 = 5, so the answer is (3, –2), 5.
+Source: NCERT Class 11 Mathematics
+
+39. The point (5, 12) lies at what distance from the origin?
+(a) 12 (b) √119 (c) 17 (d) 13
+Answer: (d)
+Solution: The trap option 17 simply adds 5 and 12 instead of applying Pythagoras. Distance = √(25 + 144) = √169 = 13, so the answer is 13.
+Source: NCERT Class 10 Mathematics
+
+40. If the line 3x + 4y = 12 meets the axes at A and B, then the length AB is
+(a) 25 (b) 7 (c) 12 (d) 5
+Answer: (d)
+Solution: The trap option 7 adds the intercepts 4 and 3 instead of finding the distance. A = (4, 0), B = (0, 3), so AB = √(16 + 9) = 5, so the answer is 5.
+Source: NCERT Class 11 Mathematics
+
+41. The value of k for which the lines 2x + ky = 3 and 4x + 6y = 9 are parallel is
+(a) 3 (b) 4 (c) 2 (d) 6
+Answer: (a)
+Solution: The trap option 6 matches the second line's coefficient without using the proportionality condition. Parallel requires 2/4 = k/6, giving k = 3, so the answer is 3.
+Source: NCERT Class 11 Mathematics
+
+42. The reflection of the point (3, –5) in the x-axis is
+(a) (–3, –5) (b) (3, 5) (c) (–3, 5) (d) (5, 3)
+Answer: (b)
+Solution: The trap option (–3, –5) reflects in the y-axis instead of the x-axis. Reflection in the x-axis changes only the sign of y, giving (3, 5), so the answer is (3, 5).
+Source: NCERT Class 11 Mathematics
+
+43. The equation of the line passing through (2, 3) and perpendicular to x – 2y + 5 = 0 is
+(a) x – 2y + 4 = 0 (b) 2x – y – 1 = 0 (c) 2x + y – 7 = 0 (d) x + 2y – 8 = 0
+Answer: (c)
+Solution: The trap option x – 2y + 4 = 0 is parallel, not perpendicular, to the given line. Slope of given line is 1/2, so perpendicular slope is –2; line: y – 3 = –2(x – 2) → 2x + y – 7 = 0, so the answer is 2x + y – 7 = 0.
+Source: NCERT Class 11 Mathematics
+
+44. The distance between the parallel lines 3x + 4y + 5 = 0 and 3x + 4y + 15 = 0 is
+(a) 5 (b) 4 (c) 10 (d) 2
+Answer: (d)
+Solution: The trap option 10 is just the difference of constants without dividing by √(9+16) = 5. Distance = |15 – 5|/5 = 10/5 = 2, so the answer is 2.
+Source: NCERT Class 11 Mathematics
+
+45. If the vertices of a triangle are (0, 0), (3, 0) and (0, 4), its circumradius is
+(a) 2 (b) 5 (c) 2.5 (d) 3.5
+Answer: (c)
+Solution: The trap option 5 takes the hypotenuse itself as the circumradius. For a right triangle the circumradius is half the hypotenuse: hypotenuse = √(9+16) = 5, so R = 2.5, so the answer is 2.5.
+Source: NCERT Class 10 Mathematics
+
+46. The locus of a point equidistant from (1, 0) and (–1, 0) is
+(a) x = 1 (b) y = 0 (c) x = 0 (d) y = x
+Answer: (c)
+Solution: The trap option y = 0 is the line joining the two points, not the perpendicular bisector. Setting (x–1)² + y² = (x+1)² + y² gives –2x = 2x, i.e. x = 0, so the answer is x = 0.
+Source: NCERT Class 11 Mathematics
+
+47. The slope of a line making an angle of 135° with the positive x-axis is
+(a) –1 (b) √3 (c) 1 (d) –√3
+Answer: (a)
+Solution: The trap option 1 ignores that the angle is obtuse, where the tangent is negative. Slope = tan 135° = –1, so the answer is –1.
+Source: NCERT Class 11 Mathematics
+
+48. The area of the quadrilateral with vertices (1, 1), (3, 1), (3, 3) and (1, 3) taken in order is
+(a) 2 sq units (b) 8 sq units (c) 6 sq units (d) 4 sq units
+Answer: (d)
+Solution: The trap option 2 halves the correct area by misapplying the triangle formula to a quadrilateral. The figure is a square of side 2, so area = 4 sq units, so the answer is 4 sq units.
+Source: NCERT Class 10 Mathematics
+
+49. The point on the x-axis equidistant from (2, 3) and (4, 1) is
+(a) (5, 0) (b) (4, 0) (c) (3, 0) (d) (1, 0)
+Answer: (d)
+Solution: The trap option (3, 0) is the midpoint's x-coordinate, but the midpoint is not on the x-axis here. Let the point be (x, 0): (x–2)² + 9 = (x–4)² + 1 → –4x + 13 = –8x + 17 → 4x = 4 → x = 1, so the answer is (1, 0).
+Source: NCERT Class 10 Mathematics
+
+50. The equation of the perpendicular bisector of the segment joining (2, 4) and (6, 8) is
+(a) 2x + y = 14 (b) x + y = 10 (c) x + y = 12 (d) x – y = –2
+Answer: (b)
+Solution: The trap option x + y = 12 uses a wrong midpoint. Midpoint is (4, 6); slope of segment = 1, so bisector slope = –1; equation: y – 6 = –(x – 4) → x + y = 10, so the answer is x + y = 10.
+Source: NCERT Class 11 Mathematics

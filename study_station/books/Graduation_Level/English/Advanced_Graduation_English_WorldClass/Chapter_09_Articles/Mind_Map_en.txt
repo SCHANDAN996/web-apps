@@ -1,0 +1,33 @@
+```mermaid
+graph TD
+    A["Articles<br>a / an / the / zero"] --> B["Indefinite: A / AN"]
+    A --> C["Definite: THE"]
+    A --> D["Zero Article<br>(no article)"]
+
+    B --> B1["A + consonant sound<br>a boy, a university, a one-rupee note"]
+    B --> B2["AN + vowel sound<br>an apple, an hour, an MBA, an honest man"]
+    B --> B3["Use: first mention, singular countable,<br>professions (He is a doctor)"]
+
+    C --> C1["Second mention / specific noun<br>I saw a dog. The dog was black."]
+    C --> C2["Unique things: the sun, the moon,<br>the earth, the internet"]
+    C --> C3["Superlatives & ordinals:<br>the best, the first, the only"]
+    C --> C4["Rivers, oceans, mountain ranges:<br>the Ganga, the Pacific, the Himalayas"]
+    C --> C5["Holy/famous books & newspapers:<br>the Ramayana, the Times of India"]
+    C --> C6["The + adjective = class of people:<br>the rich, the poor, the blind"]
+
+    D --> D1["Plural/uncountable general:<br>Dogs are loyal. Water is life."]
+    D --> D2["Proper nouns: India, Ram,<br>Mount Everest, London"]
+    D --> D3["Languages, subjects, games, meals:<br>Hindi, Physics, cricket, lunch"]
+    D --> D4["Fixed phrases: at home, by bus,<br>go to school (as a student), at night"]
+
+    A --> E["Examiner's Traps"]
+    E --> E1["Sound, not spelling:<br>an hour, a European, an FIR"]
+    E --> E2["School/hospital/church:<br>with the = building, without = purpose"]
+    E --> E3["The + country only if plural/Republic:<br>the USA, the UK, but India"]
+    E --> E4["Comparatives: NO the<br>(the taller of the two = exception)"]
+
+    A --> F["Strategy"]
+    F --> F1["15-sec: sound rule, fixed phrases,<br>unique things"]
+    F --> F2["45-sec: countable/uncountable check,<br>specific vs general, idiom traps"]
+    F --> F3["Mnemonic: 'AN before Vowel SOUND,<br>THE when THEy know which one'"]
+```

@@ -1,0 +1,41 @@
+```mermaid
+graph TD
+    A["सर्वनाम (Pronoun)<br>संज्ञा के स्थान पर प्रयुक्त शब्द"] --> B["प्रकार (Types)"]
+    A --> C["12 स्वर्ण नियम"]
+    A --> D["परीक्षक के जाल"]
+    A --> E["रणनीति (Strategy)"]
+
+    B --> B1["Personal Pronoun<br>I, We, You, He, She, It, They"]
+    B --> B2["Possessive<br>mine, ours, yours, his, hers, theirs"]
+    B --> B3["Reflexive<br>myself, himself, themselves"]
+    B --> B4["Demonstrative<br>this, that, these, those"]
+    B --> B5["Indefinite<br>someone, anybody, none, each"]
+    B --> B6["Relative<br>who, whom, whose, which, that"]
+    B --> B7["Interrogative<br>who, what, which"]
+    B --> B8["Reciprocal<br>each other, one another"]
+
+    B1 --> B1a["Case: Subject / Object<br>I→me, He→him, They→them"]
+
+    C --> C1["नियम 1: क्रम 231<br>You, He, I (अच्छे काम में)<br>123 = I, You, He (बुरे काम में)"]
+    C --> C2["नियम 2: Each / Either / Neither<br>= एकवचन क्रिया"]
+    C --> C3["नियम 3: Everyone / Somebody<br>= एकवचन + his/her (या their)"]
+    C --> C4["नियम 4: Let + Object Case<br>Let him go"]
+    C --> C5["नियम 5: Than / As के बाद<br>Subject case (औपचारिक)"]
+    C --> C6["नियम 6: It is I / It was he<br>be के बाद Subject case"]
+    C --> C7["नियम 7: Who vs Whom<br>कर्ता = who, कर्म = whom"]
+    C --> C8["नियम 8: One के साथ one's<br>One should do one's duty"]
+    C --> C9["नियम 9: Reflexive कर्म (object)<br>के रूप में आता है<br>He enjoyed himself"]
+    C --> C10["नियम 10: Each other (2)<br>One another (2 से अधिक)"]
+    C --> C11["नियम 11: Collective Noun<br>एकता = it, विभाजन = they"]
+    C --> C12["नियम 12: Possessive के साथ<br>अपोस्ट्रॉफी नहीं: yours, hers, its"]
+
+    D --> D1["जाल 1: Intervening Phrase<br>Each of the boys ___ (is, not are)"]
+    D --> D2["जाल 2: Sound-Right<br>Between you and I ❌<br>Between you and me ✅"]
+    D --> D3["जाल 3: it's vs its<br>it's = it is, its = possessive"]
+    D --> D4["जाल 4: Over-thinking<br>सरल नियम पर संदेह न करें"]
+
+    E --> E1["15 सेकंड: तथ्यात्मक<br>Case, Number, Reflexive पहचानो"]
+    E --> E2["45 सेकंड: तार्किक<br>Who/Whom, Error Spotting"]
+    E --> E3["Skip Strategy<br>दोनों विकल्प सही लगें तो<br>छोड़ें, बाद में आएँ"]
+    E --> E4["Mnemonic: 231-123<br>प्रशंसा में 231, दोष में 123"]
+```

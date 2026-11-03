@@ -1,0 +1,156 @@
+# Inequality (असमानता)
+
+## Outline & Learning Goals
+
+By the end of this chapter, you will be able to:
+
+1. Read and interpret all inequality symbols instantly (>, <, ≥, ≤, =, ≠).
+2. Convert coded statements into standard inequality form.
+3. Combine two or more statements to find a definite relationship.
+4. Decide between "definitely true", "definitely false", and "either-or" conclusions.
+5. Solve an inequality question in under 30 seconds.
+
+---
+
+## The Hook: One Symbol, One Mark, Ten Seconds
+
+Inequality is a regular feature of the reasoning sections of banking exams (IBPS PO/Clerk, SBI PO) and also appears in SSC and other government exams. Each question takes a trained student barely 15–30 seconds — while an untrained student burns 2 minutes and still picks the wrong option. The difference is not intelligence. It is one small skill: **knowing when a conclusion is *definitely* true and when it is only *maybe* true.** Master that one idea, and these become some of the fastest marks in your reasoning section.
+
+## The Common Struggle (You Are Not Alone)
+
+Most students stumble on Inequality for three reasons:
+
+- They try to "feel" the answer instead of chaining the symbols logically.
+- They forget that **≥ means "greater OR equal"** — so "A > B" is NOT guaranteed by "A ≥ B".
+- They panic when the symbols are coded (like `A ★ B` meaning `A > B`).
+
+Every one of these is fixable in the next 20 minutes. Let's go chunk by chunk.
+
+---
+
+## Chunk 1: The Six Symbols — Your Alphabet
+
+| Symbol | Meaning | Memory cue |
+|---|---|---|
+| > | Greater than | The open mouth eats the bigger number |
+| < | Less than | Same mouth, other side |
+| ≥ | Greater than **or equal to** | "At least" |
+| ≤ | Less than **or equal to** | "At most" |
+| = | Equal to | — |
+| ≠ | Not equal to | — |
+
+**Golden rule of reading:** The symbol always opens toward the bigger quantity. `A > B` means A is bigger.
+
+🧠 **Active Recall:** Without looking up — what does `P ≤ Q` mean in words? Say it aloud: "P is less than or equal to Q." Now write the symbol for "X is at least Y". (Answer: X ≥ Y.)
+
+---
+
+## Chunk 2: Combining Statements — The Chain Rule
+
+Examiners give you statements like:
+
+> A > B, B ≥ C, C = D
+
+and ask whether a conclusion like `A > D` follows.
+
+**The method: build one chain.**
+
+A > B ≥ C = D
+
+Now compare A and D by travelling along the chain. The rule:
+
+- If the path from A to D contains **only >, ≥, =** (all "forward-friendly"), then A > D holds **only if at least one strict `>` exists** on the path. Here A > B is strict, so **A > D is definitely true.**
+- If the path contains **both > and < facing each other** (e.g., A > B < C), the chain **breaks** — no definite relation between A and C.
+
+**The Gate Rule (mnemonic):** Think of `>` and `<` as gates.
+- Gates opening the **same way** (>, ≥, =) → you can walk through; strict gate (>) anywhere means strict result.
+- Gates **clashing** (A > B < C) → the door slams shut. Relation: **cannot be determined.**
+
+🧠 **Active Recall:** Statements: M ≥ N, N > O. Does M > O follow? (Yes — same-direction gates, and N > O is strict.) Does M = O follow? (No — M is strictly greater.)
+
+---
+
+## Chunk 3: The Three Verdicts
+
+Every conclusion gets exactly one of three verdicts:
+
+1. **Definitely True** — follows in every possible case.
+2. **Definitely False** — contradicted in every possible case.
+3. **Cannot Be Determined (CBD)** — true in some cases, false in others.
+
+The trap is verdict 3 disguised as verdict 1. Example:
+
+> Statement: A ≥ B. Conclusion: A > B.
+
+Many students mark "true". Wrong! A could equal B. Since A > B is not true in *every* case, the verdict is **CBD** (as a standalone conclusion, it does not follow).
+
+**Mantra:** *"≥ gives you 'at least', never 'strictly more'."*
+
+🧠 **Active Recall:** Statement: X ≤ Y. Conclusion: X < Y. Follows? (No — X could equal Y.)
+
+---
+
+## Chunk 4: Either-Or (Complementary Pair)
+
+Sometimes neither conclusion follows alone, but **together they cover all possibilities**. Then the answer is "either I or II follows".
+
+Conditions for either-or:
+1. Both conclusions have the **same two elements**.
+2. Both are **individually not definite**.
+3. Together they are **exhaustive** (e.g., A > B and A ≤ B cover everything).
+
+Example:
+
+> Statements: P ≥ Q, Q = R. Conclusions: I. P > R  II. P = R
+
+P ≥ R is definite, but P > R alone isn't, and P = R alone isn't. Together they exhaust all cases → **Either I or II follows.**
+
+---
+
+## Chunk 5: Coded Inequalities
+
+Banking exams love codes:
+
+> 'A @ B' means A > B; 'A # B' means A < B; 'A $ B' means A = B; 'A % B' means A ≥ B; 'A & B' means A ≤ B.
+
+**Strategy:** Before touching the conclusions, **decode every statement into plain symbols** on your rough sheet. Never solve in coded form — that's where silly errors breed.
+
+🧠 **Active Recall:** If 'A % B' means A ≥ B and 'A @ B' means A > B, decode: "P % Q, Q @ R". (P ≥ Q, Q > R → so P > R follows.)
+
+---
+
+## Chunk 6: The 30-Second Solving Ritual
+
+1. **Decode** (if coded) — write plain symbols.
+2. **Chain** — merge statements into one line.
+3. **Check each conclusion** — same-direction gates? Strict gate present?
+4. **Check either-or** — same elements, both indefinite, exhaustive?
+5. **Mark and move** — never re-read.
+
+---
+
+## ⚠️ Caution: Examiner's Trap
+
+**Trap 1 — Multiple possible relations shown in options.**
+The examiner writes a conclusion like "A ≥ B" when the chain only proves "A > B". Students think "greater means greater-or-equal is also satisfied" and mark it true. Technically A > B does imply A ≥ B is true — but the reverse trap is deadlier: chain proves A ≥ B, option says A > B. That does NOT follow. Always check the *direction* of the implication.
+
+**Trap 2 — Confusing coded language.**
+Codes like '@', '#', '$' are deliberately chosen to look alike, and the meanings are scrambled across questions in the same paper. Decoding mentally (instead of on paper) causes sign-flips. Write the decoded chain every single time — it costs 5 seconds and saves the mark.
+
+**Trap 3 — Double-relation (either-or) questions.**
+The examiner gives two conclusions that *look* like they both fail, pushing you toward "neither follows". But if the pair is complementary (A > B / A ≤ B, or A ≥ B / A < B), the correct answer is "either-or". Before marking "neither", always run the 3-condition either-or check.
+
+---
+
+## Summary Table
+
+| Concept | Rule |
+|---|---|
+| Chain same direction (>, ≥, =) | Relation exists; strict if any `>` present |
+| Chain clashing (> … <) | Cannot be determined |
+| ≥ or ≤ in statement | Never proves a strict (> or <) conclusion |
+| Conclusion verdicts | Definitely true / definitely false / CBD |
+| Either-or | Same elements + both indefinite + exhaustive |
+| Coded symbols | Decode on paper first, always |
+
+📌 **Review this chapter after 2 days.** Redo the Active Recall prompts from memory — if you can answer all of them cold, Inequality is permanently yours.

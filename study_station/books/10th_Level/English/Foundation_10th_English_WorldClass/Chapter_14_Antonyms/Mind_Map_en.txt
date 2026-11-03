@@ -1,0 +1,32 @@
+```mermaid
+graph TD
+    A["Antonyms<br>Words with Opposite Meanings"] --> B["What is an Antonym?"]
+    A --> C["Word-Building Strategy"]
+    A --> D["Common Traps"]
+    A --> E["Exam Strategy"]
+
+    B --> B1["Gradable Antonyms<br>hot - cold (degrees exist)"]
+    B --> B2["Complementary Antonyms<br>alive - dead (no middle)"]
+    B --> B3["Relational Antonyms<br>buy - sell (two sides)"]
+
+    C --> C1["Negative Prefixes"]
+    C1 --> C1a["un- : happy - unhappy"]
+    C1 --> C1b["in-/im-/il-/ir- :<br>active-inactive, possible-impossible,<br>legal-illegal, regular-irregular"]
+    C1 --> C1c["dis- : agree - disagree"]
+    C1 --> C1d["non- : sense - nonsense"]
+    C --> C2["Greek & Latin Roots"]
+    C2 --> C2a["bene (good) vs mal (bad)<br>benefit - malice"]
+    C2 --> C2b["anti (against) vs pro (for)<br>antibody - promote"]
+    C2 --> C2c["micro (small) vs macro (large)"]
+    C --> C3["Suffix Change<br>hopeful - hopeless"]
+
+    D --> D1["Trap 1: Partial Opposite<br>'happy' opposite is 'sad',<br>not 'angry'"]
+    D --> D2["Trap 2: Synonym Distractor<br>options include a similar-meaning word<br>to confuse you"]
+    D --> D3["Trap 3: Wrong Prefix<br>'unpossible' is wrong;<br>correct is 'impossible'"]
+    D --> D4["Trap 4: Context Ignored<br>'light' = not heavy OR not dark"]
+
+    E --> E1["15-Second Rule<br>Direct recall pairs:<br>ancient-modern, brave-coward"]
+    E --> E2["45-Second Rule<br>Unfamiliar word: break into<br>root + prefix, then eliminate"]
+    E --> E3["Elimination Method<br>Remove synonyms first,<br>then pick the true opposite"]
+    E --> E4["Skip Strategy<br>Unknown word + no root clue:<br>mark and move on"]
+```

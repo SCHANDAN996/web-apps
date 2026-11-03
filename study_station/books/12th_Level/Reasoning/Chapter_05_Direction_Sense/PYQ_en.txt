@@ -1,0 +1,117 @@
+# 📊 PYQ Analysis — Direction Sense (Coded)
+
+## 1. How Exams Ask This Chapter
+
+Direction Sense (Coded) is a **permanent fixture** of the reasoning section in SSC (CGL, CHSL, MTS, GD), Banking (IBPS PO/Clerk, SBI), and Railway (NTPC, Group D) exams. Almost every reasoning paper carries at least one question where directions are hidden inside symbols, codes, or a chain of instructions. The chapter never disappears — only its *packaging* changes.
+
+**The three standard packagings, in order of frequency:**
+
+1. **Symbol-coded turns** — "A @ B means A turns left and walks…", "@ means right, # means left, $ means U-turn". The candidate must decode each symbol and track the final direction or displacement.
+2. **Coded direction words** — "If North is called East, East is called South…" — the whole compass is renamed, and the answer must be given in the *coded* language.
+3. **Instruction-chain movement** — "Walk 5 m, then turn in the direction opposite to the one coded as 'P'…" — a hybrid of coding and classic direction sense.
+
+**Sub-topics that repeat most often:**
+
+- Final direction faced after a coded sequence of turns (most common).
+- Shortest distance / displacement from the starting point after coded moves.
+- Renamed compass questions ("North is called West…").
+- Shadow-based questions with a coded twist (morning/evening sun).
+- Clockwise/anticlockwise degree turns (45°, 90°, 135°, 180°) expressed through codes.
+
+## 2. Exam-wise Tendencies (Qualitative)
+
+- **SSC CGL / CHSL:** Prefers short symbol codes (2–3 symbols) with 3–4 movements. Usually asks only the *final direction*, keeping calculation light but decoding tricky.
+- **Banking (IBPS/SBI):** Longer chains (5–7 steps), often asking *distance* from start, sometimes combining two people moving with different codes.
+- **Railway NTPC / Group D:** Simplest codes — often just "left/right replaced by symbols" — but wrapped in wordy sentences to consume reading time.
+- **State exams:** Renamed-compass type ("East is called North…") appears frequently.
+
+## 3. The Examiner's Traps (Psychological Hooks)
+
+1. **Decode-then-forget trap:** The candidate decodes "@ = left" correctly, but by the third step starts applying the *real* meaning of a symbol from habit. The trap is not the code — it is your own memory.
+2. **Cumulative turn confusion:** Turns are relative to the *current* facing direction, not the original one. Examiners place a 90° turn right after a U-turn precisely so that candidates apply it to the starting direction.
+3. **Renamed compass answer trap:** The question asks "in the language of the code, which direction is he facing?" Candidates compute correctly in real directions but forget to *re-encode* the answer.
+4. **Distance vs. displacement swap:** Options contain both the total path length and the straight-line displacement. Under time pressure, candidates pick the total distance.
+5. **Shadow direction reversal:** Morning shadow falls West, evening shadow East. Examiners mix the time of day with a code so candidates apply the wrong shadow rule.
+6. **Near-correct options:** If the answer is North-East, options will include North, East, and South-East — every "one-step-away" error is represented.
+
+## 4. Top 10 High-Yield PYQ-Style Questions (with Solutions & Trap Analysis)
+
+**Q1.** In a code, '@' means turn right, '#' means turn left. A man facing North walks 3 m, then @, walks 4 m, then #, walks 5 m. Which direction is he facing now?
+(a) North (b) South (c) East (d) West
+**Answer: (a) North**
+**Solution:** Facing North → @ (right) → East → # (left) → North. Distances are irrelevant to the facing direction.
+**Trap:** Candidates waste time adding distances; the question only asks direction. The 4 m and 5 m are pure distractors.
+**Source:** PYQ-style (SSC pattern)
+
+**Q2.** If North is called East, East is called South, South is called West, and West is called North, then in the coded language, which direction is the South-West called?
+(a) North-East (b) South-East (c) North-West (d) South-West
+**Answer: (c) North-West**
+**Solution:** Real South → coded West; real West → coded North. So real South-West → coded North-West.
+**Trap:** Applying the shift to only one component (South→West) and answering "West-North" style confusion, or shifting in the wrong direction of renaming.
+**Source:** PYQ-style (State exam pattern)
+
+**Q3.** 'P $ Q' means P turns 180°, 'P & Q' means P turns 90° clockwise. Ravi facing East does: &, then $, then &. Final direction?
+(a) West (b) East (c) North (d) South
+**Answer: (b) East**
+**Solution:** East → 90° CW → South → 180° → North → 90° CW → East.
+**Trap:** Treating the second & as relative to the *original* East instead of the current North — that gives South, which sits in the options.
+**Source:** PYQ-style (Banking pattern)
+
+**Q4.** A man walks 6 m North, turns right and walks 8 m, then turns right again and walks 6 m. How far is he from the start?
+(a) 14 m (b) 8 m (c) 10 m (d) 20 m
+**Answer: (b) 8 m**
+**Solution:** 6 N, 8 E, 6 S — the North and South legs cancel; net displacement = 8 m East.
+**Trap:** Option (d) 20 m is the *total distance walked*; option (c) 10 m tempts those who wrongly apply Pythagoras. The classic distance-vs-displacement swap.
+**Source:** PYQ-style (SSC pattern)
+
+**Q5.** In a code, 'A' means turn left, 'B' means turn right, 'C' means turn about (180°). Seema facing South performs: A, B, C. Which direction now?
+(a) North (b) South (c) East (d) West
+**Answer: (a) North**
+**Solution:** South → A (left) → East → B (right) → South → C (180°) → North.
+**Trap:** For South-facing, "left" means East — many candidates reflexively take left = West (true only when facing North). This is the most exploited error in the whole chapter.
+**Source:** PYQ-style (Railway pattern)
+
+**Q6.** One morning, coded instructions say: "Stand so that your shadow is on your right." If the code says shadow-side is called 'X', which real direction does the person face?
+(a) North (b) South (c) East (d) West
+**Answer: (b) South**
+**Solution:** Morning sun is in the East, so the shadow falls West. Shadow on the right ⇒ right hand points West ⇒ facing South.
+**Trap:** Using the evening shadow rule (shadow East) gives North — placed as option (a). The time of day is the hidden key.
+**Source:** PYQ-style (SSC pattern)
+
+**Q7.** Directions are coded: '↑' = move 5 m North, '→' = move 5 m East, '↓' = move 5 m South, '←' = move 5 m West. Sequence: ↑, →, →, ↓, ←. Final position relative to start?
+(a) 5 m East (b) 5 m West (c) 10 m East (d) At the start
+**Answer: (a) 5 m East**
+**Solution:** N and S cancel; E moves: 2, W moves: 1 → net 5 m East.
+**Trap:** Counting symbols instead of distances, or misreading '→, →' as one step. Option (d) tempts those who think all moves cancel.
+**Source:** PYQ-style (Banking pattern)
+
+**Q8.** If South-East is called North, and North-West is called South, then what is real East called? (Rotation is uniform.)
+(a) North-East (b) North-West (c) South-West (d) South-East
+**Answer: (b) North-West**
+**Solution:** Real SE is called N — and N lies 135° anticlockwise from SE. So the rule is: each real direction receives the name of the direction 135° anticlockwise from it. Verify with the second pair: 135° anticlockwise from NW is S, so NW → S ✓. Apply the same shift to real East: 135° anticlockwise from East is North-West, so real East is called North-West.
+**Trap:** Assuming a simple 90° rotation because most such questions use 90°. Here the shift is 135°, and both given pairs must be verified — candidates who check only one pair, or rotate clockwise instead of anticlockwise, land on South-West, which sits in the options.
+**Skip verdict:** ⏭️ **SKIP under the 45-second rule** — two-condition rotation problems need careful verification; attempt only if time remains.
+**Source:** PYQ-style (Banking pattern)
+
+**Q9.** A coded instruction sheet says: "M means turn 45° clockwise, N means turn 90° anticlockwise." Facing North-East, a man performs M, N, M. Final direction?
+(a) North (b) East (c) North-East (d) South-East
+**Answer: (c) North-East**
+**Solution:** NE → M (45° CW) → East → N (90° ACW) → North → M (45° CW) → North-East.
+**Trap:** Mixing clockwise and anticlockwise mid-chain; also forgetting that NE itself is 45°, not 0°. Examiners start from a diagonal direction precisely to break the "North = start" habit.
+**Source:** PYQ-style (SSC CGL pattern)
+
+**Q10.** Two friends start from the same point. Code: 'R' = right turn, 'L' = left turn. Amit faces North, walks 4 m, does R, walks 3 m. Bina faces South, walks 4 m, does L, walks 3 m. In which direction is Bina from Amit's final point?
+(a) East (b) West (c) South (d) They are at the same point
+**Answer: (c) South**
+**Solution:** Amit: 4 m North, then R (right, facing North → East), 3 m East → ends at (3 m E, 4 m N). Bina: 4 m South, then L (facing South, left = East), 3 m East → ends at (3 m E, 4 m S). Same East-West position; Bina is 8 m directly South of Amit.
+**Trap:** The whole question hinges on "facing South, left = East". Candidates who take Bina's left as West conclude she ends 6 m West of Amit and pick (b). Two-person problems double the tracking load — draw both paths on one sketch.
+**Skip verdict:** ⏭️ **SKIP under the 45-second rule** if your diagram habit is weak — two-person coded movement with relative-position output is the most time-hungry format in this chapter; mark and return.
+**Source:** PYQ-style (Banking pattern)
+
+## 5. The 15-Second / 45-Second Rule — Reviewed for This Chapter
+
+- **15-second questions:** Single-code, single-person, "final direction only" questions (like Q1, Q5). Decode, turn mentally, answer. These are *must-attempt* — they are the cheapest marks in the reasoning section.
+- **45-second questions:** Displacement questions needing a small diagram (Q4, Q7) and renamed-compass questions (Q2). Attempt in the first pass if your diagram habit is strong.
+- **Skip-and-return:** Two-condition rotation codes (Q8), two-person relative position (Q10), and any question where the code has 4+ symbols. These regularly consume 90+ seconds — exactly the questions the examiner places to break your time budget.
+
+**Golden rule from PYQ patterns:** In this chapter, the *difficulty is in the decoding, not the logic*. If you have decoded the symbols correctly onto a rough compass sketch, the answer follows mechanically. Never solve coded direction questions purely in your head — the examiners' traps (cumulative turns, South-facing left/right) are all designed to punish mental-only solving.

@@ -1,0 +1,176 @@
+Questions 126–150: Hard
+
+126. Statements: P ≥ Q = R > S; T < S ≤ U
+Conclusions: I. P > T  II. R > U
+(a) Neither I nor II follows (b) Only II follows (c) Both I and II follow (d) Only I follows
+Answer: (d)
+Solution: The tempting trap is conclusion II: since S ≤ U and R > S, many assume R > U, but U could be much larger than R (e.g., S = 2, U = 10, R = 3), so II does not follow. For I, P ≥ Q = R > S > T gives P > T definitely. So the answer is: only I follows.
+Source: PYQ-style
+
+127. Statements: A < B ≤ C = D > E ≥ F
+Conclusions: I. C > F  II. A < D
+(a) Only I follows (b) Both I and II follow (c) Only II follows (d) Neither I nor II follows
+Answer: (b)
+Solution: C = D > E ≥ F gives C > F, so I follows. A < B ≤ C = D gives A < D, so II follows. Both conclusions are established by direct chains, so the answer is: both I and II follow.
+Source: PYQ-style
+
+128. Statements: M > N ≥ O = P < Q ≤ R
+Conclusions: I. M > P  II. O < R
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (c)
+Solution: M > N ≥ O = P gives M > P, so I follows. O = P < Q ≤ R gives O < R, so II follows. Hence the answer is: both I and II follow.
+Source: PYQ-style
+
+129. Statements: K ≤ L < M = N ≥ O > P
+Conclusions: I. K < N  II. M > P
+(a) Only I follows (b) Both I and II follow (c) Neither I nor II follows (d) Only II follows
+Answer: (b)
+Solution: K ≤ L < M = N gives K < N, so I follows. M = N ≥ O > P gives M > P, so II follows. The answer is: both I and II follow.
+Source: PYQ-style
+
+130. Statements: X ≥ Y > Z = W < V ≤ U
+Conclusions: I. X > W  II. Y > V
+(a) Only II follows (b) Neither I nor II follows (c) Both I and II follow (d) Only I follows
+Answer: (d)
+Solution: The trap is conclusion II: Y > Z = W < V means V's relation to Y is unknown — V may be greater or smaller than Y, so II fails. For I, X ≥ Y > Z = W gives X > W. So the answer is: only I follows.
+Source: PYQ-style
+
+131. Statements: B > C ≥ D; D = E < F ≤ G
+Conclusions: I. B > E  II. C < G
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (a)
+Solution: The trap is II: C ≥ D = E < F ≤ G does not fix C against G — C could exceed G, so II does not follow. B > C ≥ D = E gives B > E, so I follows. The answer is: only I follows.
+Source: PYQ-style
+
+132. Statements: S = T ≥ U > V; V < W ≥ X
+Conclusions: I. S > V  II. T > X
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (a)
+Solution: S = T ≥ U > V gives S > V, so I follows. For II, T > V < W ≥ X — the chain breaks at V < W, so T and X cannot be compared; II fails. The answer is: only I follows.
+Source: PYQ-style
+
+133. Statements: G < H ≤ I = J; J > K ≥ L
+Conclusions: I. H < J  II. I > L
+(a) Only I follows (b) Neither I nor II follows (c) Only II follows (d) Both I and II follow
+Answer: (c)
+Solution: The trap is conclusion I: H ≤ I = J gives only H ≤ J, and H could equal J (when H = I = J), so the strict relation H < J is not guaranteed and I fails. For II, I = J > K ≥ L gives I > L, so II follows. The answer is: only II follows.
+Source: PYQ-style
+
+134. Statements: P > Q ≥ R = S; S < T ≤ U < V
+Conclusions: I. P > S  II. R < V
+(a) Both I and II follow (b) Only II follows (c) Only I follows (d) Neither I nor II follows
+Answer: (a)
+Solution: P > Q ≥ R = S gives P > S, so I follows. R = S < T ≤ U < V gives R < V, so II follows. The answer is: both I and II follow.
+Source: PYQ-style
+
+135. Statements: D ≥ E > F; F = G < H; H > I ≥ J
+Conclusions: I. D > G  II. E > H
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (a)
+Solution: The trap is II: E > F = G < H breaks the chain, so E versus H is unknown and II fails. D ≥ E > F = G gives D > G, so I follows. The answer is: only I follows.
+Source: PYQ-style
+
+136. Statements: L ≤ M < N; N = O ≥ P > Q
+Conclusions: I. L < O  II. M > Q
+(a) Both I and II follow (b) Only II follows (c) Only I follows (d) Neither I nor II follows
+Answer: (c)
+Solution: L ≤ M < N = O gives L < O, so I follows. For II, M < N = O ≥ P > Q — the chain reverses at O ≥ P, so M and Q cannot be compared; II fails. The answer is: only I follows.
+Source: PYQ-style
+
+137. Statements: R > S = T ≥ U; U < V ≤ W = X
+Conclusions: I. R > U  II. T < X
+(a) Neither I nor II follows (b) Only II follows (c) Both I and II follow (d) Only I follows
+Answer: (d)
+Solution: R > S = T ≥ U gives R > U, so I follows. For II, T ≥ U < V ≤ W = X — T could be larger or smaller than X, so II does not follow. The answer is: only I follows.
+Source: PYQ-style
+
+138. Statements: A = B > C ≥ D; D < E ≤ F < G
+Conclusions: I. B > D  II. A > G
+(a) Both I and II follow (b) Only I follows (c) Only II follows (d) Neither I nor II follows
+Answer: (b)
+Solution: The trap is II: A = B > C ≥ D < E ≤ F < G — the chain breaks at D < E, so A versus G is unknown; II fails. B > C ≥ D gives B > D, so I follows. The answer is: only I follows.
+Source: PYQ-style
+
+139. Statements: H ≥ I > J = K; K ≤ L < M ≤ N
+Conclusions: I. H > K  II. J < N
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (c)
+Solution: H ≥ I > J = K gives H > K, so I follows. J = K ≤ L < M ≤ N gives J < N, so II follows. The answer is: both I and II follow.
+Source: PYQ-style
+
+140. Statements: T < U ≤ V = W; W ≥ X > Y ≥ Z
+Conclusions: I. V ≥ X  II. T < W
+(a) Neither I nor II follows (b) Only II follows (c) Only I follows (d) Both I and II follow
+Answer: (d)
+Solution: V = W ≥ X gives V ≥ X, so I follows. T < U ≤ V = W gives T < W, so II follows. The answer is: both I and II follow.
+Source: PYQ-style
+
+141. Statements: C > D ≥ E; E < F = G ≤ H; H > I
+Conclusions: I. C > E  II. D > G
+(a) Only II follows (b) Neither I nor II follows (c) Both I and II follow (d) Only I follows
+Answer: (d)
+Solution: The trap is II: D ≥ E < F = G breaks the chain, so D versus G is unknown; II fails. C > D ≥ E gives C > E, so I follows. The answer is: only I follows.
+Source: PYQ-style
+
+142. Statements: M ≤ N < O = P; P > Q ≥ R = S
+Conclusions: I. N < P  II. O > S
+(a) Both I and II follow (b) Only II follows (c) Neither I nor II follows (d) Only I follows
+Answer: (a)
+Solution: N < O = P gives N < P, so I follows. O = P > Q ≥ R = S gives O > S, so II follows. The answer is: both I and II follow.
+Source: PYQ-style
+
+143. Statements: W ≥ X > Y; Y = Z < A ≤ B; B < C
+Conclusions: I. W > Z  II. X > A
+(a) Both I and II follow (b) Only I follows (c) Only II follows (d) Neither I nor II follows
+Answer: (b)
+Solution: W ≥ X > Y = Z gives W > Z, so I follows. For II, X > Y = Z < A — the chain breaks at Z < A, so X versus A is unknown; II fails. The answer is: only I follows.
+Source: PYQ-style
+
+144. Statements: E < F ≤ G; G = H > I ≥ J; J < K
+Conclusions: I. F < H  II. E < G
+(a) Both I and II follow (b) Only I follows (c) Only II follows (d) Neither I nor II follows
+Answer: (c)
+Solution: The trap is I: F ≤ G = H means F ≤ H, not strictly F < H — F could equal H, so I does not follow. E < F ≤ G gives E < G strictly, so II follows. The answer is: only II follows.
+Source: PYQ-style
+
+145. Statements: Q ≥ R = S > T; T ≤ U < V = W
+Conclusions: I. Q > T  II. S > W
+(a) Only II follows (b) Only I follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (b)
+Solution: Q ≥ R = S > T gives Q > T, so I follows. For II, S > T ≤ U < V = W — S and W cannot be compared since the chain reverses, so II fails. The answer is: only I follows.
+Source: PYQ-style
+
+146. Statements: J > K ≥ L = M; M < N ≤ O; O ≥ P
+Conclusions: I. J > M  II. K < O
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (a)
+Solution: The trap is II: K ≥ L = M < N ≤ O — the chain breaks at M < N, so K versus O is unknown; II fails. J > K ≥ L = M gives J > M, so I follows. The answer is: only I follows.
+Source: PYQ-style
+
+147. Statements: U = V ≥ W > X; X < Y ≤ Z < A
+Conclusions: I. U > X  II. V > A
+(a) Only II follows (b) Neither I nor II follows (c) Both I and II follow (d) Only I follows
+Answer: (d)
+Solution: U = V ≥ W > X gives U > X, so I follows. For II, V ≥ W > X < Y ≤ Z < A — the chain breaks at X < Y, so V versus A is unknown; II fails. The answer is: only I follows.
+Source: PYQ-style
+
+148. Statements: B ≤ C < D = E; E ≥ F > G = H
+Conclusions: I. C < E  II. D > H
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (c)
+Solution: C < D = E gives C < E, so I follows. D = E ≥ F > G = H gives D > H, so II follows. The answer is: both I and II follow.
+Source: PYQ-style
+
+149. Statements: N > O ≥ P; P = Q < R; R ≤ S = T
+Conclusions: I. N > Q  II. O > S
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (a)
+Solution: The trap is II: O ≥ P = Q < R ≤ S — the chain breaks at Q < R, so O versus S is unknown; II fails. N > O ≥ P = Q gives N > Q, so I follows. The answer is: only I follows.
+Source: PYQ-style
+
+150. Statements: F ≥ G > H = I; I ≤ J < K ≤ L; L > M
+Conclusions: I. F > I  II. G > K
+(a) Neither I nor II follows (b) Only I follows (c) Both I and II follow (d) Only II follows
+Answer: (b)
+Solution: F ≥ G > H = I gives F > I, so I follows. For II, G > H = I ≤ J < K — the chain breaks at I ≤ J, so G versus K is unknown; II fails. The answer is: only I follows.
+Source: PYQ-style

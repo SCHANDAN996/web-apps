@@ -1,3 +1,232 @@
-# Chapter: Probability, Level: intermediate
+# 🪄 Short Tricks & Mnemonics — Probability
 
-@content_agent lang=en level=intermediate role='mnemonic specialist' 'Create 10-15 fun and outrageous memory tricks (Mnemonics) for all key formulas, rules and concepts of Probability. Each trick should be unforgettable. Use Keyword Method, Loci, or Acronyms wherever possible. Present each trick in a separate box.'
+---
+
+┌─────────────────────────────────────────────┐
+│ 🎯 TRICK 1: The "PE-NUT" Formula            │
+├─────────────────────────────────────────────┤
+│ P(E) = Favourable / Total                   │
+│                                             │
+│ Mnemonic: "Probability Eats NUTs"           │
+│ N = Number of favourable outcomes           │
+│ U = Upon (divided by)                       │
+│ T = Total outcomes                          │
+│                                             │
+│ Picture a squirrel (probability) eating a   │
+│ nut — top half is what you WANT, bottom     │
+│ half is EVERYTHING.                         │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ 🎯 TRICK 2: The 0-to-1 Slider               │
+├─────────────────────────────────────────────┤
+│ 0 ≤ P(E) ≤ 1                                │
+│                                             │
+│ Memory image: A TV volume slider stuck      │
+│ between 0 (mute = impossible) and 1         │
+│ (full blast = certain). Probability can     │
+│ NEVER go below mute or above full blast!    │
+│                                             │
+│ If your answer is 1.5 or −0.2 → you made    │
+│ a mistake. Recheck!                         │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ 🎯 TRICK 3: "HIT the Complement"            │
+├─────────────────────────────────────────────┤
+│ P(E) + P(E′) = 1                            │
+│                                             │
+│ Acronym: HIT = "Happening + Isn't = Total"  │
+│                                             │
+│ Trick: When the question says "at least     │
+│ one", flip it! Find P(none) and subtract    │
+│ from 1. "At least" = "1 − None".            │
+│ Remember: "AT LEAST? Attack from the back!" │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ 🎯 TRICK 4: "OR means MORE, AND means       │
+│ MULTIPLY"                                   │
+├─────────────────────────────────────────────┤
+│ P(A or B) → ADD                             │
+│ P(A and B) → MULTIPLY                       │
+│                                             │
+│ Mnemonic: "OR opens MORE doors (add them),  │
+│ AND is a strict AND-rew — he multiplies     │
+│ your conditions!"                           │
+│                                             │
+│ Caution: For OR, subtract the overlap:      │
+│ P(A∪B) = P(A) + P(B) − P(A∩B)               │
+│ "Don't count the common room twice!"        │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ 🎯 TRICK 5: The Coin-Dice Memory Palace     │
+├─────────────────────────────────────────────┤
+│ Total outcomes (LOCI method — walk through  │
+│ your house):                                │
+│                                             │
+│ 🚪 Door: 1 coin = 2 (door has 2 sides)      │
+│ 🛋️ Sofa: 2 coins = 4 (sofa has 4 legs)      │
+│ 🎲 Table: 1 die = 6 (cube has 6 faces)      │
+│ 🎲🎲 TV: 2 dice = 36 (6×6, big screen!)     │
+│ 🃏 Shelf: 52 cards (52 weeks in a year)     │
+│                                             │
+│ Walk the house once — never forget totals!  │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ 🎯 TRICK 6: "nCr = Choose, nPr = Podium"    │
+├─────────────────────────────────────────────┤
+│ Combination (nCr): order does NOT matter    │
+│ Permutation (nPr): order MATTERS            │
+│                                             │
+│ Mnemonic: "C = Committee (any order),       │
+│ P = Podium (1st, 2nd, 3rd — order rules!)"  │
+│                                             │
+│ Quick check: Podium > Committee in size,    │
+│ so nPr ≥ nCr. If not, you flipped them!     │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ 🎯 TRICK 7: The Card Deck Song — "13-4-2"   │
+├─────────────────────────────────────────────┤
+│ 13 cards per suit, 4 suits, 2 colours       │
+│                                             │
+│ Sing it: "Thir-teen, Four, Two — a deck     │
+│ for me and you!"                            │
+│                                             │
+│ • 26 red ♥♦, 26 black ♠♣                    │
+│ • 12 face cards (J,Q,K × 4)                 │
+│ • 4 Aces, 4 Kings                           │
+│                                             │
+│ Trap alert: Ace is NOT a face card!         │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ 🎯 TRICK 8: "Mutually Exclusive = No        │
+│ Handshake"                                  │
+├─────────────────────────────────────────────┤
+│ Mutually exclusive events: P(A∩B) = 0       │
+│                                             │
+│ Image: Two strangers who NEVER shake hands  │
+│ — no overlap, no intersection.              │
+│                                             │
+│ For them: P(A∪B) = P(A) + P(B)              │
+│ (No overlap to subtract — clean addition!)  │
+│                                             │
+│ Example: Rolling a 2 OR a 5 on one die.     │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ 🎯 TRICK 9: "Independent = Two Separate     │
+│ Rooms"                                      │
+├─────────────────────────────────────────────┤
+│ Independent events: P(A∩B) = P(A) × P(B)    │
+│                                             │
+│ Image: Two people tossing coins in separate │
+│ rooms — neither can hear or affect the      │
+│ other. Multiply their chances!              │
+│                                             │
+│ Trap: Independent ≠ Mutually exclusive!     │
+│ Independent events CAN happen together;     │
+│ exclusive ones CANNOT.                      │
+│ Remember: "Free friends meet; rivals don't."│
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ 🎯 TRICK 10: Dice Sum Pyramid — "7 is       │
+│ Heaven"                                     │
+├─────────────────────────────────────────────┤
+│ Two dice sums — number of ways:             │
+│ Sum:  2  3  4  5  6  7  8  9 10 11 12       │
+│ Ways: 1  2  3  4  5  6  5  4  3  2  1       │
+│                                             │
+│ Mnemonic: "Climb the pyramid to 7 —         │
+│ 7 is HEAVEN (6 ways, the peak!), then       │
+│ climb down the other side."                 │
+│                                             │
+│ P(sum = 7) = 6/36 = 1/6 — the most likely!  │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ 🎯 TRICK 11: "At Least One = 1 − Zero"      │
+│ (The Ninja Flip)                            │
+├─────────────────────────────────────────────┤
+│ Question: "At least one head in 3 tosses?"  │
+│                                             │
+│ Ninja move: Don't count 7 cases!            │
+│ P(at least 1) = 1 − P(zero heads)           │
+│             = 1 − (1/2)³ = 1 − 1/8 = 7/8    │
+│                                             │
+│ Keyword trigger: See "at least one" →       │
+│ immediately think "1 − none".               │
+│ Saves 90% of your time in exams!            │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ 🎯 TRICK 12: Balls Without Replacement —    │
+│ "The Shrinking Bag"                         │
+├─────────────────────────────────────────────┤
+│ Drawing balls WITHOUT replacement:          │
+│ denominators SHRINK each draw.              │
+│                                             │
+│ Image: A bag that shrinks every time you    │
+│ pull a ball out — 10 → 9 → 8 …              │
+│                                             │
+│ Example: 2 red from 5 red + 5 blue:         │
+│ P = (5/10) × (4/9) = 2/9                    │
+│                                             │
+│ WITH replacement? Bag stays fat — same      │
+│ denominator every time!                     │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ 🎯 TRICK 13: Factorial Countdown — "The     │
+│ Rocket Launch"                              │
+├─────────────────────────────────────────────┤
+│ n! = n × (n−1) × (n−2) × … × 1              │
+│                                             │
+│ Image: A rocket countdown!                  │
+│ 5! = 5-4-3-2-1 … BLAST OFF = 120            │
+│                                             │
+│ Special memory hooks:                       │
+│ 0! = 1 ("Empty rocket still counts as 1     │
+│ launch plan!")                              │
+│ 3! = 6, 4! = 24, 5! = 120, 6! = 720         │
+│                                             │
+│ Chant: "6, 24, 120, 720 — factorials fly!"  │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ 🎯 TRICK 14: "Both / Neither / Only" —      │
+│ The Venn Chant                              │
+├─────────────────────────────────────────────┤
+│ For two events A and B:                     │
+│ • Both = A∩B (the overlap)                  │
+│ • Neither = 1 − P(A∪B) (outside both)       │
+│ • Exactly one = P(A) + P(B) − 2P(A∩B)       │
+│                                             │
+│ Chant: "Both is the bridge, Neither is      │
+│ outside, Exactly-one walks one side only!"  │
+│                                             │
+│ Draw the two circles — the picture solves   │
+│ half the question.                          │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ 🎯 TRICK 15: The Exam Hall 15-Second Rule   │
+├─────────────────────────────────────────────┤
+│ Before marking any probability answer:      │
+│                                             │
+│ ✅ CHECK 1: Is it between 0 and 1?          │
+│ ✅ CHECK 2: Numerator ≤ Denominator?        │
+│ ✅ CHECK 3: "At least" → did you flip?      │
+│ ✅ CHECK 4: With/without replacement?       │
+│                                             │
+│ Mnemonic: "ZOOM before you mark!"           │
+│ Z = Zero-to-One range                       │
+│ O = Overlap subtracted?                     │
+│ O = Order matters? (P or C)                 │
+│ M = Missing replacement check?              │
+└─────────────────────────────────────────────┘

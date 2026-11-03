@@ -1,0 +1,151 @@
+Questions 1–20: Easy | Questions 21–25: Medium
+
+1. Find the next term: 3, 7, 15, 31, 63, ?
+(a) 129 (b) 95 (c) 111 (d) 127
+Answer: (d)
+Solution: Each term is double the previous term plus 1: 3×2+1=7, 7×2+1=15, and so on up to 63, so 63×2+1=127. The tempting option 129 comes from adding 64 instead of doubling and adding 1, so the answer is 127.
+Source: PYQ-style
+
+2. Find the missing term: 5, 11, 23, 47, ?, 191
+(a) 94 (b) 95 (c) 96 (d) 97
+Answer: (b)
+Solution: The rule is ×2+1: 5×2+1=11, 11×2+1=23, 23×2+1=47, 47×2+1=95, and check 95×2+1=191. Option 94 tempts those who only double, so the answer is 95.
+Source: PYQ-style
+
+3. Find the next term: 2, 6, 12, 20, 30, ?
+(a) 40 (b) 44 (c) 36 (d) 42
+Answer: (d)
+Solution: Differences are 4, 6, 8, 10, so the next difference is 12, giving 30+12=42. Equivalently the terms are n(n+1): 1×2, 2×3, …, 6×7=42. Option 40 tempts those who add 10 again, so the answer is 42.
+Source: PYQ-style
+
+4. Find the next term: 1, 4, 9, 16, 25, ?
+(a) 30 (b) 35 (c) 36 (d) 49
+Answer: (c)
+Solution: These are perfect squares: 1², 2², 3², 4², 5², so the next is 6²=36. Option 49 is the square after that and tempts those who skip a step, so the answer is 36.
+Source: PYQ-style
+
+5. Find the missing term: 7, 12, 19, 28, 39, ?
+(a) 50 (b) 52 (c) 54 (d) 51
+Answer: (b)
+Solution: Differences are 5, 7, 9, 11, increasing by 2, so the next difference is 13, giving 39+13=52. Option 50 tempts those who repeat the difference 11, so the answer is 52.
+Source: PYQ-style
+
+6. Find the next term: 4, 9, 19, 39, 79, ?
+(a) 158 (b) 160 (c) 159 (d) 149
+Answer: (c)
+Solution: The rule is ×2+1: 4×2+1=9, 9×2+1=19, 19×2+1=39, 39×2+1=79, so 79×2+1=159. Option 158 tempts those who only double, so the answer is 159.
+Source: PYQ-style
+
+7. Find the next term: 100, 90, 81, 73, 66, ?
+(a) 59 (b) 60 (c) 61 (d) 58
+Answer: (b)
+Solution: Differences are −10, −9, −8, −7, so the next difference is −6, giving 66−6=60. Option 59 tempts those who subtract 7 again, so the answer is 60.
+Source: PYQ-style
+
+8. Find the missing term: 2, 3, 5, 7, 11, ?, 17
+(a) 13 (b) 15 (c) 14 (d) 12
+Answer: (a)
+Solution: The series lists consecutive prime numbers: 2, 3, 5, 7, 11, 13, 17. Option 12 tempts those who treat it as an odd-number pattern, so the answer is 13.
+Source: PYQ-style
+
+9. Find the next term: 1, 1, 2, 3, 5, 8, 13, ?
+(a) 21 (b) 22 (c) 20 (d) 18
+Answer: (a)
+Solution: This is the Fibonacci pattern where each term is the sum of the previous two: 8+13=21. Option 20 tempts those who add 7 by mistake, so the answer is 21.
+Source: PYQ-style
+
+10. Find the next term: 6, 11, 21, 36, 56, ?
+(a) 81 (b) 76 (c) 80 (d) 86
+Answer: (a)
+Solution: Differences are 5, 10, 15, 20, increasing by 5, so the next difference is 25, giving 56+25=81. Option 76 tempts those who add 20 again, so the answer is 81.
+Source: PYQ-style
+
+11. Find the next term: 8, 27, 64, 125, ?
+(a) 216 (b) 196 (c) 225 (d) 256
+Answer: (a)
+Solution: These are cubes: 2³, 3³, 4³, 5³, so the next is 6³=216. Option 196 tempts those who confuse cubes with squares (14²), so the answer is 216.
+Source: PYQ-style
+
+12. Find the next term: 2, 4, 8, 16, 32, ?
+(a) 48 (b) 40 (c) 64 (d) 36
+Answer: (c)
+Solution: Each term is double the previous one (powers of 2): 2, 4, 8, 16, 32, so the next term is 32×2=64. Option 48 tempts those who switch to adding 16, so the answer is 64.
+Source: PYQ-style
+
+13. Find the next term: 3, 6, 18, 72, 360, ?
+(a) 2160 (b) 1800 (c) 1440 (d) 720
+Answer: (a)
+Solution: Multiply by increasing integers: ×2, ×3, ×4, ×5, so the next is ×6: 360×6=2160. Option 1800 tempts those who multiply by 5 again, so the answer is 2160.
+Source: PYQ-style
+
+14. Find the next term: 2, 5, 10, 17, 26, ?
+(a) 35 (b) 36 (c) 37 (d) 38
+Answer: (c)
+Solution: Each term is n²+1: 1²+1=2, 2²+1=5, 3²+1=10, 4²+1=17, 5²+1=26, so 6²+1=37. Option 36 tempts those who forget the +1, so the answer is 37.
+Source: PYQ-style
+
+15. Find the missing term: 45, 41, 38, 36, ?, 35
+(a) 35 (b) 34 (c) 36 (d) 33
+Answer: (a)
+Solution: Differences are −4, −3, −2, −1, 0, so 36−1=35 and 35−0=35. Option 34 tempts those who continue subtracting 1, so the answer is 35.
+Source: PYQ-style
+
+16. Find the next term: 1, 8, 27, 64, 125, ?
+(a) 225 (b) 200 (c) 216 (d) 256
+Answer: (c)
+Solution: These are cubes of natural numbers: 1³, 2³, 3³, 4³, 5³, so the next is 6³=216. Option 225 tempts those who switch to squares (15²), so the answer is 216.
+Source: PYQ-style
+
+17. Find the next term: 12, 6, 6, 9, 18, ?
+(a) 36 (b) 54 (c) 45 (d) 27
+Answer: (c)
+Solution: Multiply by 0.5, 1, 1.5, 2, so the next multiplier is 2.5: 18×2.5=45. Option 36 tempts those who multiply by 2 again, so the answer is 45.
+Source: PYQ-style
+
+18. Find the missing term: 9, 16, 25, 36, ?, 64
+(a) 42 (b) 50 (c) 45 (d) 49
+Answer: (d)
+Solution: These are squares: 3², 4², 5², 6², 7², 8², so the missing term is 7²=49. Option 50 tempts those who add 14 instead of 13, so the answer is 49.
+Source: PYQ-style
+
+19. Find the next term: 5, 9, 17, 29, 45, ?
+(a) 60 (b) 70 (c) 61 (d) 65
+Answer: (d)
+Solution: Differences are 4, 8, 12, 16, increasing by 4, so the next difference is 20, giving 45+20=65. Option 61 tempts those who add 16 again, so the answer is 65.
+Source: PYQ-style
+
+20. Find the next term: 240, 120, 40, 10, ?
+(a) 2 (b) 5 (c) 2.5 (d) 1
+Answer: (a)
+Solution: Divide by 2, 3, 4, so the next divisor is 5: 10÷5=2. Option 2.5 tempts those who divide by 4 again, so the answer is 2.
+Source: PYQ-style
+
+21. Find the next term: 4, 18, 48, 100, 180, ?
+(a) 288 (b) 294 (c) 300 (d) 252
+Answer: (b)
+Solution: The terms follow n(n+1)²: 1×4=4, 2×9=18, 3×16=48, 4×25=100, 5×36=180, so the next is 6×49=294. Option 288 tempts those who compute 6×48 by mixing up the square, so the answer is 294.
+Source: PYQ-style
+
+22. Find the wrong term in the series: 2, 6, 12, 20, 32, 42, 56
+(a) 42 (b) 12 (c) 6 (d) 32
+Answer: (d)
+Solution: The correct pattern is n(n+1): 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, 6×7=42, 7×8=56. The term 32 should be 30, while 42 and 56 fit perfectly and tempt the solver to doubt them, so the wrong term is 32.
+Source: PYQ-style
+
+23. Find the next term: 1, 2, 6, 15, 31, ?
+(a) 55 (b) 62 (c) 46 (d) 56
+Answer: (d)
+Solution: Differences are 1, 4, 9, 16 — perfect squares — so the next difference is 25, giving 31+25=56. Option 55 tempts those who add 24 by an arithmetic slip, so the answer is 56.
+Source: PYQ-style
+
+24. Find the missing term: 3, 10, 29, 66, ?, 218
+(a) 132 (b) 127 (c) 125 (d) 130
+Answer: (b)
+Solution: Each term is n³+2: 1³+2=3, 2³+2=10, 3³+2=29, 4³+2=66, 5³+2=127, and check 6³+2=218. Option 125 tempts those who forget the +2 (5³=125), so the answer is 127.
+Source: PYQ-style
+
+25. Find the next term: 8, 15, 28, 53, 102, ?
+(a) 204 (b) 199 (c) 197 (d) 200
+Answer: (b)
+Solution: The rule is ×2 minus a growing number: 8×2−1=15, 15×2−2=28, 28×2−3=53, 53×2−4=102, so 102×2−5=199. Option 204 tempts those who only double, so the answer is 199.
+Source: PYQ-style

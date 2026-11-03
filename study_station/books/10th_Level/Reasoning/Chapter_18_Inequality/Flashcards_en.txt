@@ -1,44 +1,121 @@
-Front: If A > B and B > C, what is the relation between A and C?
-Back: A > C (the chain joins in the same direction).
+🃏 Flashcards (15-20, परीक्षक के जाल वाले प्रश्न सहित)
 
-Front: What are the five inequality signs and their meanings?
-Back: > greater, < less, = equal, ≥ greater or equal, ≤ less or equal.
+Card 1
 
-Front: What follows from A > B = C?
-Back: A > C (equality in between still works).
+Front: What are the five magic symbols of inequality, and which two are the “double possibility” tricksters?
 
-Front: In A > B < C, what is the relation between A and C?
-Back: No definite relation (the direction changed).
+Back: > (greater than), < (less than), ≥ (greater than or equal to), ≤ (less than or equal to), = (equal to). The two double-possibility symbols are ≥ and ≤ — each hides two scenarios.
 
-Front: When does the chain join?
-Back: When all signs are in the same direction.
+Card 2
 
-Front: What does '≥' mean?
-Back: Greater than or equal (> or =).
+Front: You see A ≥ B. Can you definitely say A > B? Why or why not?
 
-Front: What does '≤' mean?
-Back: Less than or equal (< or =).
+Back: No, you cannot definitely say A > B, because A = B is also possible. ≥ means "greater than OR equal to," so without further information, neither > nor = is certain.
 
-Front: When does the Either-Or rule apply?
-Back: When one conclusion has > and the other = on the same pair, and neither is correct alone.
+Card 3
 
-Front: What is the "either-or" form of A ≥ C?
-Back: "A > C or A = C" — together correct.
+Front: When can you directly combine A > B and B > C? And what conclusion do you get?
 
-Front: What follows from A ≥ B and B > C?
-Back: A > C.
+Back: Combine when arrows face the same direction. From A > B > C, you get A > C definitely.
 
-Front: What to conclude immediately when the direction changes?
-Back: "No definite relation" between the ends.
+Card 4
 
-Front: In A < B < C, which is the greatest?
-Back: C.
+Front: Look at A > B < C. Can you decide if A is greater than C? What’s the trap?
 
-Front: What is the diagram method to check a conclusion?
-Back: Draw a number line/arrows — all arrows one way means joined.
+Back: No. The arrows meet opposite at B. It’s an "opposite arrow" trap — no definite relation between A and C can be established.
 
-Front: What is the most common trap?
-Back: Drawing a direct conclusion even when the direction changes.
+Card 5
 
-Front: What is the inequality mnemonic?
-Back: "Same direction joins, changed direction breaks".
+Front: What are the three conditions that must be true for an “Either-Or” case to apply?
+
+Back: 1) Both conclusions have exactly the same variables. 2) Individually, neither conclusion is definitely true. 3) The two conclusions form a complementary pair — typically (>, =) or (<, =) — covering all possibilities from the statement.
+
+Card 6
+
+Front: Statement: P ≥ Q. Conclusion I: P > Q. Conclusion II: P = Q. Do we have an Either-Or case? What’s the answer?
+
+Back: Yes. I alone is not definite; II alone is not definite. But together they cover both possibilities of P ≥ Q. So Either I or II follows.
+
+Card 7
+
+Front: What is the examiner’s “Opposite Arrow Illusion” trap? Give an example.
+
+Back: Giving A > B < C and then offering A > C or A < C. Students incorrectly combine them. Because the arrows meet opposite at B, there is no relation; mark “no relation.”
+
+Card 8
+
+Front: How does the “Sneaky Equal to” trap work?
+
+Back: From a statement like M ≥ N, the examiner offers M > N as a conclusion. Many mark it true, forgetting that M = N is equally possible. A single > conclusion from ≥ without forcing is a trap.
+
+Card 9
+
+Front: In coded inequalities, what does the phrase “is not greater than” really mean?
+
+Back: It means ≤ (less than or equal to). It’s a common decoding error to think it means < (strictly less than).
+
+Card 10
+
+Front: Translate these coded phrases quickly: “is neither greater than nor equal to”, “is neither less than nor equal to”.
+
+Back: “neither greater than nor equal to” → < (strictly less than). “neither less than nor equal to” → > (strictly greater than).
+
+Card 11
+
+Front: What is the mnemonic to remember complementary pairs for Either-Or?
+
+Back: “Big or Equal; Small or Equal — but never mix with the opposite.” So > & = are a pair, < & = are a pair; > & < together are not complementary.
+
+Card 12
+
+Front: What is the “smudged line” trick for A ≥ B?
+
+Back: Imagine the symbol between A and B is a smudged line — you cannot tell if it’s > or =. If conclusions propose A > B and A = B, both could be hidden by the smudge, so they form an Either-Or pair. The smudge covers both possibilities.
+
+Card 13
+
+Front: How do you handle a coded inequality step by step?
+
+Back: 1) Write down the real meaning of each code symbol. 2) Replace all codes in the statements with actual inequality signs. 3) Now you have a normal inequality — combine and check conclusions as usual.
+
+Card 14
+
+Front: If you see A ≤ B and a conclusion says A < B, is it definitely true?
+
+Back: Not definitely. A ≤ B allows A < B or A = B. Without forcing, A < B is only a possibility.
+
+Card 15
+
+Front: Statement: X > Y = Z ≥ W. Conclusion I: X > Z. Conclusion II: Y ≥ W. Which conclusions follow?
+
+Back: From X > Y = Z we get X > Z → I follows. From Y = Z ≥ W we get Y ≥ W → II follows. So both follow.
+
+Card 16
+
+Front: What’s the one question you must ask when checking any conclusion?
+
+Back: “Is this conclusion definitely true in every possible scenario allowed by the statements?” If a single counterexample exists, the conclusion does not follow.
+
+Card 17
+
+Front: How do you spot a non-complementary pair that looks like Either-Or but isn’t?
+
+Back: If the pair is A > B and A < B, it misses the A = B possibility. So unless the statement rules out equality, this pair is not complementary and Either-Or cannot apply.
+
+Card 18
+
+Front: In a coded inequality, you decode P @ Q as P ≤ Q. But later you see Q @ R. How should you write the chain?
+
+Back: Replace consistently: P ≤ Q and Q ≤ R combine to P ≤ Q ≤ R, yielding P ≤ R definitely.
+
+Card 19
+
+Front: What is the examiner’s “Coded Confusion” trap?
+
+Back: Mixing up “not greater than” (≤) with “not less than” (≥) or assigning wrong meanings under time pressure. Always write the decoded meanings on the question paper immediately to avoid this.
+
+Card 20
+
+Front: After studying this chapter, what active recall habit should you use to lock in the concepts?
+
+Back: Use the Blurting Sheet: take a blank page and write down everything you remember — symbols, rules, either-or conditions, traps, and tricks — without looking. Then fill in gaps with a different color. It strengthens memory far more than re-reading.

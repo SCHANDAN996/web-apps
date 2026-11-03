@@ -1,0 +1,202 @@
+# 🪄 Short Tricks — Simplification & Approximation
+
+---
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 1 — "BODMAS the Bus Driver"**        │
+│                                              │
+│ Imagine a bus driver who stops in this order:│
+│ **B**racket → **O**f → **D**ivide →          │
+│ **M**ultiply → **A**dd → **S**ubtract        │
+│                                              │
+│ Memory hook: *"Big Orange Dragons Make       │
+│ Angry Snakes"* — never let the snake         │
+│ (subtraction) bite before the dragon         │
+│ (division) eats!                             │
+│                                              │
+│ Use: Order of operations in every problem.   │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 2 — "VINCULUM is the VIP Bar"**      │
+│                                              │
+│ The bar (—) over numbers is a VIP lounge:    │
+│ it gets solved BEFORE even brackets.         │
+│                                              │
+│ Hook: *"The Bar enters before the Bracket"*  │
+│ — B-bar beats B-bracket!                     │
+│                                              │
+│ Order: Bar → ( ) → { } → [ ] → Of → ÷ × + −  │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 3 — "OF means MULTIPLY, not Order"** │
+│                                              │
+│ Trap alert! In BODMAS, 'O' = Of = ×.         │
+│ 4 of 5 = 20, and 'of' is solved BEFORE ÷.    │
+│                                              │
+│ Hook: *"OF is a disguised Multiply wearing   │
+│ an Order costume."*                          │
+│                                              │
+│ Example: 12 ÷ 2 of 3 = 12 ÷ 6 = 2 (not 18!)  │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 4 — "Squares 1–30: The Elevator"**   │
+│                                              │
+│ Ride the elevator: 1²=1 … 15²=225 …          │
+│ 20²=400 … 25²=625 … 30²=900.                 │
+│                                              │
+│ Anchor floors: 15→225, 20→400, 25→625.       │
+│ Any square near an anchor:                   │
+│ (a±b)² = a² ± 2ab + b²                       │
+│                                              │
+│ Example: 19² = 400 − 40 + 1 = **361**        │
+│ Hook: *"Step off at floor 20, walk back 1."* │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 5 — "Numbers ending in 5: The        │
+│ 5-Second Square"**                           │
+│                                              │
+│ (N5)² = N × (N+1), then stick 25 at the end. │
+│                                              │
+│ 65² → 6×7 = 42 → **4225**                    │
+│ 115² → 11×12 = 132 → **13225**               │
+│                                              │
+│ Hook: *"Five at the end? Climb one stair,    │
+│ multiply, and marry 25."*                    │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 6 — "×5, ×25, ×125: The Halving      │
+│ Family"**                                    │
+│                                              │
+│ ×5 = ×10 ÷ 2        (half of ten)            │
+│ ×25 = ×100 ÷ 4      (quarter of hundred)     │
+│ ×125 = ×1000 ÷ 8    (eighth of thousand)     │
+│                                              │
+│ Example: 248 × 25 = 24800 ÷ 4 = **6200**     │
+│                                              │
+│ Hook: *"5-25-125 are just 10-100-1000        │
+│ on a diet — divide by 2-4-8."*               │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 7 — "a² − b²: The Difference         │
+│ Twins"**                                     │
+│                                              │
+│ a² − b² = (a+b)(a−b)                         │
+│                                              │
+│ 98² − 2² = (100)(96) = **9600**              │
+│ 57² − 43² = (100)(14) = **1400**             │
+│                                              │
+│ Hook: *"When squares fight, call the twins — │
+│ Sum and Difference settle it in one line."*  │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 8 — "Approximation: The 1% Rule"**   │
+│                                              │
+│ If answer options differ by MORE than ~5%,   │
+│ round brutally. If they differ by less than  │
+│ 1%, calculate exactly.                       │
+│                                              │
+│ Hook: *"Far options = fast rounding;         │
+│ Close options = careful counting."*          │
+│                                              │
+│ Example: 49.97 × 20.03 ≈ 50 × 20 = 1000      │
+│ (safe if options are 800/1000/1200/1500)     │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 9 — "Fraction–Percent Twins Table"** │
+│                                              │
+│ 1/2=50%  1/3=33.33%  1/4=25%  1/5=20%        │
+│ 1/6=16.66%  1/8=12.5%  1/9=11.11%            │
+│ 1/11=9.09%  1/12=8.33%                       │
+│                                              │
+│ Hook: *"Six is sixteen, Eight is twelve-and- │
+│ a-half, Eleven is nine-oh-nine."*            │
+│                                              │
+│ Use: 37.5% of 640 = 3/8 × 640 = **240**      │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 10 — "Digit Sum Detective (÷9        │
+│ check)"**                                    │
+│                                              │
+│ Add digits repeatedly → digit sum.           │
+│ If digit sums don't match, answer is WRONG.  │
+│                                              │
+│ Check: 47 × 38 = 1786?                       │
+│ 47→2, 38→2, 2×2=4; 1786→1+7+8+6=22→4 ✔       │
+│                                              │
+│ Hook: *"Nine is the lie detector of          │
+│ multiplication."*                            │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 11 — "Surds: Break the Perfect       │
+│ Square Out of Jail"**                        │
+│                                              │
+│ √72 = √(36×2) = 6√2                          │
+│ Always hunt the biggest perfect square       │
+│ hiding inside.                               │
+│                                              │
+│ Hook: *"Every surd hides a prisoner square — │
+│ free it first!"*                             │
+│                                              │
+│ Use: √200 + √50 = 10√2 + 5√2 = **15√2**      │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 12 — "×11: The Sandwich Trick"**     │
+│                                              │
+│ 34 × 11: spread 3 _ 4, fill with 3+4=7       │
+│ → **374**                                    │
+│ 78 × 11: 7 _ 8, 7+8=15 → carry 1 → **858**   │
+│                                              │
+│ Hook: *"Eleven makes a sandwich — digits are │
+│ the bread, their sum is the filling."*       │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 13 — "Cubes 1–15: The Ice-Cube       │
+│ Tray"**                                      │
+│                                              │
+│ 1,8,27,64,125,216,343,512,729,1000,          │
+│ 1331,1728,2197,2744,3375                     │
+│                                              │
+│ Anchors: 7³=343, 9³=729, 12³=1728, 15³=3375  │
+│                                              │
+│ Hook: *"Lucky 7 owns 343; dozen eggs cost    │
+│ 1728."* — cube roots in exams become instant.│
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 14 — "Reciprocals of 7, 13, 17:      │
+│ The Repeating Ghosts"**                      │
+│                                              │
+│ 1/7 = 0.142857 142857… (6-digit ghost loop)  │
+│ 1/13 ≈ 0.0769, 1/17 ≈ 0.0588                 │
+│                                              │
+│ Hook: *"Seven haunts with 142857 — the ghost │
+│ that never dies, just rotates."*             │
+│                                              │
+│ Use: 3/7 ≈ 0.428571 — same digits, rotated!  │
+└─────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────┐
+│ **TRICK 15 — "Last Digit Power Cycle"**      │
+│                                              │
+│ Unit digits of powers cycle every 4:         │
+│ 2: 2,4,8,6 | 3: 3,9,7,1 | 7: 7,9,3,1         │
+│ 4: 4,6 | 9: 9,1 | 0,1,5,6: never change      │
+│                                              │
+│ Find unit digit of 7⁹⁵: 95 ÷ 4 → remainder 3 │
+│ → 3rd in cycle = **3**                       │
+│                                              │
+│ Hook: *"Powers are Ferris wheels — divide    │
+│ by 4 to find your seat."*                    │
+└─────────────────────────────────────────────┘

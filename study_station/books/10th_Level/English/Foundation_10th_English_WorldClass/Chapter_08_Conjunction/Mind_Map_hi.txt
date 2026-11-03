@@ -1,0 +1,44 @@
+```mermaid
+graph TD
+    A["संयोजक (Conjunction)<br>शब्दों/वाक्यों को जोड़ने वाला शब्द"] --> B["1. समुच्चयबोधक<br>Coordinating"]
+    A --> C["2. पराधीन<br>Subordinating"]
+    A --> D["3. सहसंबंधी<br>Correlative"]
+
+    B --> B1["FANBOYS<br>For, And, Nor, But,<br>Or, Yet, So"]
+    B --> B2["समान पद जोड़ता है<br>Tea or coffee"]
+    B --> B3["दो स्वतंत्र उपवाक्य<br>He came, but she left"]
+
+    C --> C1["समय: when, while,<br>before, after, until, since"]
+    C --> C2["कारण: because, since, as"]
+    C --> C3["शर्त: if, unless, provided that"]
+    C --> C4["उद्देश्य: so that, in order that"]
+    C --> C5["विरोध: although, though,<br>even though, whereas"]
+    C --> C6["परिणाम: so...that, such...that"]
+
+    D --> D1["Either...or"]
+    D --> D2["Neither...nor"]
+    D --> D3["Not only...but also"]
+    D --> D4["Both...and"]
+    D --> D5["No sooner...than<br>Hardly/Scarcely...when"]
+    D --> D6["Whether...or"]
+
+    A --> E["स्वर्ण नियम"]
+    E --> E1["Either...or / Neither...nor<br>क्रिया निकटवर्ती कर्ता के अनुसार"]
+    E --> E2["No sooner के साथ than<br>Hardly के साथ when"]
+    E --> E3["Unless = if not<br>साथ में not नहीं"]
+    E --> E4["Although के साथ but नहीं<br>लेकिन yet चल सकता है"]
+    E --> E5["Because के साथ so नहीं"]
+    E --> E6["Since = समय (Perfect Tense)<br>For = अवधि"]
+
+    A --> F["परीक्षक के जाल"]
+    F --> F1["जाल 1: No sooner...when ❌<br>सही: No sooner...than"]
+    F --> F2["जाल 2: Although...but ❌<br>दोनों एक साथ नहीं"]
+    F --> F3["जाल 3: Unless you do not ❌<br>Unless में पहले से नकार छिपा है"]
+    F --> F4["जाल 4: Scarcely...than ❌<br>सही: Scarcely...when"]
+
+    A --> G["रणनीति"]
+    G --> G1["15 सेकंड: जोड़ा पहचानो<br>either-or, neither-nor"]
+    G --> G2["45 सेकंड: अर्थ देखो<br>कारण/शर्त/विरोध"]
+    G --> G3["म्नेमोनिक: FANBOYS<br>समुच्चयबोधक याद रखें"]
+    G --> G4["Skip: दोनों विकल्प सही लगें<br>तो अर्थ पर लौटें"]
+```

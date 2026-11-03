@@ -1,0 +1,46 @@
+```mermaid
+graph TD
+    A["प्लेसमेंट टेस्ट<br>Placement Test"] --> B["उद्देश्य"]
+    A --> C["मुख्य खंड"]
+    A --> D["रणनीति"]
+    A --> E["परीक्षक के जाल"]
+
+    B --> B1["सही स्तर की पहचान"]
+    B --> B2["कमजोर क्षेत्रों का निदान"]
+    B --> B3["आगे की पढ़ाई की योजना"]
+
+    C --> C1["व्याकरण<br>Grammar"]
+    C --> C2["शब्दावली<br>Vocabulary"]
+    C --> C3["पठन बोध<br>Reading Comprehension"]
+    C --> C4["वाक्य-विन्यास<br>Sentence Arrangement"]
+
+    C1 --> C1a["Subject-Verb Agreement"]
+    C1 --> C1b["Tenses"]
+    C1 --> C1c["Articles & Prepositions"]
+    C1 --> C1d["Error Spotting"]
+
+    C2 --> C2a["Synonyms-Antonyms"]
+    C2 --> C2b["One Word Substitution"]
+    C2 --> C2c["Idioms & Phrases"]
+    C2 --> C2d["Root Words<br>Greek-Latin मूल"]
+
+    C3 --> C3a["मुख्य विचार<br>Main Idea"]
+    C3 --> C3b["अनुमान<br>Inference"]
+    C3 --> C3c["टोन पहचान<br>Tone Mapping"]
+
+    D --> D1["15/45 सेकंड नियम"]
+    D --> D2["पहले आसान प्रश्न"]
+    D --> D3["Skip Strategy"]
+    D --> D4["Elimination Method"]
+
+    D1 --> D1a["तथ्यात्मक प्रश्न<br>15 सेकंड"]
+    D1 --> D1b["तार्किक प्रश्न<br>45 सेकंड"]
+
+    D3 --> D3a["अनिश्चित उत्तर पर छोड़ें"]
+    D3 --> D3b["लंबे RC अंत में"]
+
+    E --> E1["Intervening Phrase<br>बीच का वाक्यांश"]
+    E --> E2["Sound-Right Trap<br>सुनने में सही"]
+    E --> E3["Over-thinking<br>अधिक सोचना"]
+    E --> E4["मिलते-जुलते शब्द"]
+```

@@ -1,0 +1,79 @@
+Card 1
+Front: What is the very first thing you should check when you see a number series?
+Back: The difference between consecutive terms. If differences are constant → arithmetic series; if differences themselves form a pattern → multi-level series.
+
+Card 2
+Front: A series increases very fast (e.g., 3, 6, 12, 24…). Which pattern should you suspect first?
+Back: Multiplication — a geometric series with a constant ratio (here ×2). Rapid growth almost always means multiplication or powers, not addition.
+
+Card 3
+Front: What is the mnemonic "D-M-S-P" used for in missing term questions?
+Back: The checking order: Difference → Multiplication (ratio) → Squares/Cubes → Prime/Position. Check in this order before trying complex patterns.
+
+Card 4
+Front: How do you quickly recognize a square-based series like 2, 5, 10, 17, 26?
+Back: Check if terms are near perfect squares: 1²+1, 2²+1, 3²+1, 4²+1, 5²+1. So next term = 6²+1 = 37.
+
+Card 5
+Front: In the series 4, 9, 25, 49, 121, ?, what is the hidden pattern?
+Back: Squares of prime numbers: 2², 3², 5², 7², 11², so next = 13² = 169.
+
+Card 6
+Front: What is an "alternating series" and how do you crack it?
+Back: Two independent series interleaved at odd and even positions. Split the terms into two separate series and solve each — e.g., 1, 10, 3, 20, 5, 30 → odd: 1,3,5; even: 10,20,30.
+
+Card 7
+Front: In letter series, what must you do before anything else?
+Back: Convert letters to their alphabet positions (A=1, B=2 … Z=26). Letter series are just number series in disguise.
+
+Card 8
+Front: What is the trick to remember letter positions quickly (mnemonic)?
+Back: Use "EJOTY" — E=5, J=10, O=15, T=20, Y=25. From these anchor points you can count any letter's position in seconds.
+
+Card 9
+Front: Series: Z, X, V, T, ? — what comes next and why?
+Back: R. Letters decrease by 2 positions: Z(26), X(24), V(22), T(20), R(18).
+
+Card 10
+Front: Examiner's trap: In 2, 4, 8, 16, ?, a student writes 24. What went wrong?
+Back: The student added the last difference (+8) instead of noticing the doubling pattern (×2). Correct answer is 32. Trap: assuming arithmetic when the series is geometric.
+
+Card 11
+Front: Examiner's trap: In 1, 4, 9, 16, 25, ?, why is 36 sometimes wrong in exams?
+Back: It isn't wrong for a pure square series — but if the series is 1, 4, 9, 16, 25 with a twist like "squares of numbers, skipping one," always verify with at least 3 terms before locking the pattern. Trap: confirming a pattern from only 2 terms.
+
+Card 12
+Front: What is a Fibonacci-type series and how do you spot it?
+Back: Each term is the sum of the previous two: 1, 1, 2, 3, 5, 8, 13… Spot it when neither differences nor ratios are constant but growth is moderate.
+
+Card 13
+Front: Series: 3, 7, 16, 35, 74, ? — what mixed pattern is at work?
+Back: ×2 + 1, ×2 + 2, ×2 + 3, ×2 + 4… So next = 74×2 + 5 = 153. Watch for "multiply plus increasing constant" patterns.
+
+Card 14
+Front: In a mixed alpha-numeric series like A1, C4, F9, J16, ?, how do you solve it?
+Back: Split into parts: letters A(1), C(3), F(6), J(10) → gaps +2, +3, +4, so next letter O(15); numbers 1, 4, 9, 16 are squares, so next 25. Answer: O25.
+
+Card 15
+Front: What should you do when the missing term is in the middle of the series, not at the end?
+Back: Solve the pattern from both sides — forward from the start and backward from the end. The pattern must satisfy terms on both sides of the gap.
+
+Card 16
+Front: Series: 2, 3, 5, 7, 11, 13, ? — what type is this and what's next?
+Back: Prime number series. Next prime after 13 is 17. Trap: don't look for differences — primes have no arithmetic pattern.
+
+Card 17
+Front: What is the "double difference" (second-level difference) method?
+Back: If first differences aren't constant, take differences of the differences. If those are constant, the series follows a quadratic pattern — e.g., 2, 6, 12, 20, 30 → first diff 4,6,8,10; second diff 2,2,2.
+
+Card 18
+Front: In letter series like AZ, BY, CX, DW, ?, what is the pattern?
+Back: First letters increase by 1 (A,B,C,D,E) and second letters decrease by 1 (Z,Y,X,W,V). Answer: EV.
+
+Card 19
+Front: How much time should you spend on one missing-term question before skipping?
+Back: About 30–40 seconds. If no pattern emerges after checking Difference–Multiplication–Squares–Primes, mark it and move on; return later with fresh eyes.
+
+Card 20
+Front: Series: 1, 8, 27, 64, ? — identify the pattern and the next term.
+Back: Cubes: 1³, 2³, 3³, 4³, so next = 5³ = 125. Remember cubes up to 10³ = 1000 by heart for instant recognition.

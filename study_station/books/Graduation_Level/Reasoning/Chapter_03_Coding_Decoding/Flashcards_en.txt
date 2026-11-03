@@ -1,0 +1,79 @@
+Card 1
+Front: In letter-shifting codes, what is the very first thing you should check before hunting for a pattern?
+Back: Write the alphabet positions (A=1 … Z=26) above both the word and its code, then compare letter-by-letter. Most advanced codes reveal themselves only through position numbers, not the letters themselves.
+
+Card 2
+Front: If CAT is coded as 3120, what type of coding is this and how do you decode it?
+Back: This is position-based coding: C=3, A=1, T=20. The code is simply the concatenation of alphabet positions. Always test this first when a word becomes a pure number.
+
+Card 3
+Front: What is the "opposite letter" trick, and which pair sums to 27?
+Back: Opposite letters are pairs whose positions add to 27: A–Z, B–Y, C–X, D–W, E–V, F–U, G–T, H–S, I–R, J–Q, K–P, L–O, M–N. If every letter of the word maps to its opposite, the code is a reverse-alphabet substitution.
+
+Card 4
+Front: Give a mnemonic to remember all 13 opposite-letter pairs instantly.
+Back: Remember the word-pairs: AZad, BoY, CruX, DeW, EVen, FUll, GT (road), High School, Indian Railway, JQ, Keep, LOve, MaN — or simply recall "AZ BY CX DW EV FU GT HS IR JQ KP LO MN" as a chant.
+
+Card 5
+Front: In a mixed-letter code, DOG = 26 and CAT = 24. What rule is likely operating?
+Back: Sum of alphabet positions: D+O+G = 4+15+7 = 26; C+A+T = 3+1+20 = 24. When codes are two-digit numbers, test "sum of positions" before anything else.
+
+Card 6
+Front: What is a "letter + number" hybrid code, and how do you spot it?
+Back: Each letter is replaced by a letter AND a number derived from it (e.g., opposite letter + position). Spot it when the code has alternating letters and digits of equal length to the word.
+
+Card 7
+Front: In sentence coding ("sky is blue" = "ka la ta"), what is the only reliable way to find the code of one word?
+Back: Find common words across two sentences and common code-words across their codes. The intersection gives the exact mapping. Never assume word order matches code order — that is the examiner's favourite trap.
+
+Card 8
+Front: Examiner's trap: In "sky is blue" = "ka la ta" and "sky is red" = "ka la ma", can you say "sky" = "ka"?
+Back: No! Common words are "sky, is" and common codes are "ka, la" — you only know {sky, is} = {ka, la} as a set, not which is which. Marking "sky = ka" without a third sentence is the classic trap.
+
+Card 9
+Front: What is a "shifting with increasing steps" code?
+Back: Each letter shifts by a growing amount: +1, +2, +3… (e.g., ABC → BDF). Detect it when the position differences between word and code are not constant but form an arithmetic pattern.
+
+Card 10
+Front: If MANGO is coded as NZOHQ, what pattern is used?
+Back: Alternating +1, −1: M+1=N, A−1=Z, N+1=O, G−1=F… wait — check: M→N (+1), A→Z (−1), N→O (+1), G→H (+1)? No: G→H is +1, O→Q is +2. The real pattern: +1, −1, +1, +1, +2 — always verify each letter; never assume alternation from two letters. (Lesson: confirm the pattern on ALL letters.)
+
+Card 11
+Front: What is "reversal coding" and how is it usually combined with other rules?
+Back: The word (or its shifted code) is written in reverse order, e.g., RATE → ETAR, or shifted then reversed. If no shift pattern fits, try reversing the word or the code before concluding.
+
+Card 12
+Front: In symbol coding (A = @, B = # …) with conditions like "if the first letter is a vowel…", what must you do first?
+Back: Read ALL conditions before coding anything. Conditional symbol coding questions are lost by applying the base table and ignoring the exception rules — the exceptions are where the marks are.
+
+Card 13
+Front: What is the quickest way to handle "number coding with conditions" (e.g., digits to letters, but if number is even…)?
+Back: Make a small table of the given digit-letter mapping, then scan the target number for condition triggers (first/last digit, even/odd, repeated digits) and apply exceptions before the base rule.
+
+Card 14
+Front: Mnemonic: how do you recall alphabet positions of "landmark" letters quickly?
+Back: Remember E=5, J=10, O=15, T=20, Y=25 — the multiples of 5 (EJOTY). Any other letter's position is found by counting ±1 or ±2 from the nearest EJOTY landmark.
+
+Card 15
+Front: What is the EJOTY trick used for in coding-decoding?
+Back: EJOTY (5,10,15,20,25) gives instant anchor positions, so you can compute any letter's position in 2 seconds instead of counting from A — critical for sum-based and shift-based codes under time pressure.
+
+Card 16
+Front: Examiner's trap: A code uses "+2 shift" for four letters but one letter breaks it. What should you suspect?
+Back: A mixed pattern (e.g., vowels +2, consonants −1) or an increasing-step shift. Examiners deliberately make 3–4 letters fit a simple rule so you stop checking — always verify the last letter.
+
+Card 17
+Front: In "word → number" codes like PEN = 35, what are the three most common operations to test, in order?
+Back: (1) Sum of positions: P+E+N = 16+5+14 = 35 ✓. If that fails: (2) sum × number of letters, (3) sum of positions with vowels/consonants weighted differently. Test in this order to save time.
+
+Card 18
+Front: What is "substitution coding" (direct letter coding) and its one weakness you can exploit?
+Back: Each letter has a fixed replacement (given in a table or example). Exploit: you never need the logic — just map letters mechanically. But watch for letters in the question that never appeared in the example; their code must be inferred from the pattern, not guessed.
+
+Card 19
+Front: In Chinese/artificial language coding, a question gives 4 sentences and asks the code for "red". What is the minimum needed to answer?
+Back: "Red" must appear in at least two sentences whose codes share exactly one common code-word. If it appears in only one sentence, the answer is "cannot be determined" — a legitimate option you must not shy away from.
+
+Card 20
+Front: What is the 30-second decision rule for a coding question you cannot crack?
+Back: Spend up to 30 seconds testing: (1) constant shift, (2) opposite letters, (3) position sum, (4) reversal. If none fits, mark and skip — advanced papers hide one deliberately time-eating code per set; returning later with fresh eyes beats burning 3 minutes.

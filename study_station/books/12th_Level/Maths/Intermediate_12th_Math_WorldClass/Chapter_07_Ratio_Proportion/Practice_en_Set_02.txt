@@ -1,3 +1,151 @@
-# Chapter: Ratio & Proportion, Level: intermediate, Set: 2/6
+प्रश्न 26–45: आसान | प्रश्न 46–50: मध्यम
 
-@content_agent +mcq_generator_bilingual lang=en level=intermediate 'Generate 25 MCQs for Ratio & Proportion. This is Set 2 (total 6 sets, 150 questions). Questions must be numbered 26 to 50. All 25 questions should be Medium. Each with 4 options, correct answer, step-by-step solution, and source (NCERT/exam name).'
+26. If A : B = 3 : 4 and B : C = 5 : 6, then A : C is equal to
+(a) 5 : 6 (b) 3 : 6 (c) 15 : 24 (d) 5 : 8
+Answer: (d)
+Solution: The trap is writing A : C = 3 : 6 directly by ignoring B's different values. Make B common: A : B = 3 : 4 = 15 : 20 and B : C = 5 : 6 = 20 : 24, so A : B : C = 15 : 20 : 24. Hence A : C = 15 : 24 = 5 : 8, so the answer is 5 : 8.
+Source: NCERT Class 8 Mathematics
+
+27. Two numbers are in the ratio 7 : 11. If 7 is added to each, the ratio becomes 2 : 3. The smaller number is
+(a) 42 (b) 35 (c) 49 (d) 56
+Answer: (c)
+Solution: The trap is setting up (7x + 7)/(11x + 7) = 3/2 by inverting the new ratio. Correctly, (7x + 7)/(11x + 7) = 2/3 gives 21x + 21 = 22x + 14, so x = 7. The smaller number is 7 × 7 = 49, so the answer is 49.
+Source: PYQ-style
+
+28. The ratio of incomes of A and B is 5 : 4 and the ratio of their expenditures is 3 : 2. If each saves ₹1600, the income of A is
+(a) ₹4000 (b) ₹6000 (c) ₹8000 (d) ₹5000
+Answer: (a)
+Solution: The trap is assuming savings are in the same ratio as incomes. Let incomes be 5x and 4x, expenditures 3y and 2y. Then 5x − 3y = 1600 and 4x − 2y = 1600; multiplying the second by 3 and the first by 2 gives 10x − 6y = 3200 and 12x − 6y = 4800, so 2x = 1600 and x = 800. A's income = 5 × 800 = ₹4000, so the answer is ₹4000.
+Source: PYQ-style
+
+29. If x : y = 2 : 3, then (5x + 2y) : (3x − y) is
+(a) 4 : 3 (b) 8 : 3 (c) 16 : 3 (d) 16 : 9
+Answer: (c)
+Solution: The trap is mishandling the negative term in the denominator. Taking x = 2, y = 3: numerator = 5(2) + 2(3) = 16, denominator = 3(2) − 3 = 3. So the ratio is 16 : 3, so the answer is 16 : 3.
+Source: NCERT Class 8 Mathematics
+
+30. ₹782 is divided among A, B and C in the ratio 1/2 : 2/3 : 3/4. The share of B is
+(a) ₹204 (b) ₹306 (c) ₹272 (d) ₹196
+Answer: (c)
+Solution: The trap is using 1/2, 2/3, 3/4 as if they were whole-number ratios. Multiply by LCM 12: the ratio becomes 6 : 8 : 9, sum = 23. B's share = (8/23) × 782 = ₹272, so the answer is ₹272.
+Source: PYQ-style
+
+31. The third proportional to 9 and 12 is
+(a) 10.5 (b) 18 (c) 16 (d) 21
+Answer: (c)
+Solution: The trap is computing the mean proportional √(9 × 12) instead of the third proportional. For third proportional, 9 : 12 :: 12 : x, so x = 12 × 12 / 9 = 16, so the answer is 16.
+Source: NCERT Class 8 Mathematics
+
+32. The mean proportional between 0.08 and 0.18 is
+(a) 0.13 (b) 0.14 (c) 0.16 (d) 0.12
+Answer: (d)
+Solution: The trap is taking the arithmetic mean (0.08 + 0.18)/2 = 0.13 instead of the geometric mean. Mean proportional = √(0.08 × 0.18) = √0.0144 = 0.12, so the answer is 0.12.
+Source: PYQ-style
+
+33. If a : b = 2 : 3 and b : c = 4 : 5, then (a + b) : (b + c) is
+(a) 20 : 27 (b) 5 : 9 (c) 8 : 15 (d) 2 : 3
+Answer: (a)
+Solution: The trap is adding the ratio terms directly, giving 5 : 9, without making b common. Make b = 12: a : b = 8 : 12 and b : c = 12 : 15, so a : b : c = 8 : 12 : 15. Then (a + b) : (b + c) = 20 : 27, so the answer is 20 : 27.
+Source: PYQ-style
+
+34. A bag contains 25 paise, 50 paise and ₹1 coins in the ratio 3 : 4 : 5. If the total value is ₹155, the number of 50 paise coins is
+(a) 80 (b) 100 (c) 120 (d) 60
+Answer: (a)
+Solution: The trap is treating the coin-count ratio 3 : 4 : 5 as the value ratio. Let the counts be 3x, 4x, 5x; total value = 0.25(3x) + 0.50(4x) + 1(5x) = 7.75x = 155, so x = 20. Number of 50 paise coins = 4 × 20 = 80, so the answer is 80.
+Source: PYQ-style
+
+35. If (3a + 5b) : (3a − 5b) = 5 : 1, then a : b is
+(a) 5 : 3 (b) 5 : 2 (c) 3 : 2 (d) 2 : 1
+Answer: (b)
+Solution: The trap is cross-multiplying incorrectly and losing the sign of 25b. 3a + 5b = 5(3a − 5b) gives 3a + 5b = 15a − 25b, so 30b = 12a. Hence a : b = 30 : 12 = 5 : 2, so the answer is 5 : 2.
+Source: NCERT Class 8 Mathematics
+
+36. The ratio of boys to girls in a school is 4 : 5. If 50 boys join and 50 girls leave, the ratio becomes 6 : 5. The original number of girls was
+(a) 200 (b) 275 (c) 300 (d) 250
+Answer: (b)
+Solution: The trap is applying the changes to the ratio terms 4 and 5 directly instead of to 4x and 5x. (4x + 50)/(5x − 50) = 6/5 gives 20x + 250 = 30x − 300, so 10x = 550 and x = 55. Check: boys 220 + 50 = 270, girls 275 − 50 = 225, and 270 : 225 = 6 : 5. Original girls = 5 × 55 = 275, so the answer is 275.
+Source: PYQ-style
+
+37. If a/b = 3/4, then the value of (2a + 3b)/(4a + b) is
+(a) 9/4 (b) 9/8 (c) 3/2 (d) 6/7
+Answer: (b)
+Solution: The trap is substituting a = 3, b = 4 into the wrong positions. With a = 3, b = 4: numerator = 6 + 12 = 18, denominator = 12 + 4 = 16, so the value is 18/16 = 9/8, so the answer is 9/8.
+Source: NCERT Class 8 Mathematics
+
+38. Three numbers are in the ratio 2 : 3 : 5 and the sum of their squares is 608. The largest number is
+(a) 20 (b) 30 (c) 25 (d) 15
+Answer: (a)
+Solution: The trap is taking the sum of the numbers, not their squares, equal to 608. Let the numbers be 2x, 3x, 5x: 4x² + 9x² + 25x² = 38x² = 608, so x² = 16 and x = 4. Largest = 5 × 4 = 20, so the answer is 20.
+Source: PYQ-style
+
+39. If x/2 = y/3 = z/5 and x + y + z = 100, then the value of y is
+(a) 30 (b) 20 (c) 40 (d) 50
+Answer: (a)
+Solution: The trap is assuming x = 2, y = 3, z = 5 exactly instead of multiples of a common factor. Let each ratio equal k: x = 2k, y = 3k, z = 5k, so 10k = 100 and k = 10. Then y = 3 × 10 = 30, so the answer is 30.
+Source: NCERT Class 8 Mathematics
+
+40. The fourth proportional to 5, 8 and 15 is
+(a) 20 (b) 24 (c) 18 (d) 30
+Answer: (b)
+Solution: The trap is computing 5 × 8 / 15, which mixes up the order of the terms. For fourth proportional, 5 : 8 :: 15 : x, so x = 8 × 15 / 5 = 24, so the answer is 24.
+Source: NCERT Class 8 Mathematics
+
+41. A sum of money is divided between A and B in the ratio 5 : 7. If B gets ₹840 more than A, the total sum is
+(a) ₹4200 (b) ₹5880 (c) ₹3360 (d) ₹5040
+Answer: (d)
+Solution: The trap is equating ₹840 to the whole sum instead of the difference of the shares. Difference of ratio parts = 7 − 5 = 2 parts = ₹840, so 1 part = ₹420. Total = 12 × 420 = ₹5040, so the answer is ₹5040.
+Source: PYQ-style
+
+42. If a : b : c = 2 : 3 : 4, then the value of (a + b + c)/c is
+(a) 9/4 (b) 2 (c) 5/2 (d) 7/4
+Answer: (a)
+Solution: The trap is computing (a + b)/c = 5/4 by dropping one term. Taking a = 2, b = 3, c = 4: (2 + 3 + 4)/4 = 9/4, so the answer is 9/4.
+Source: NCERT Class 8 Mathematics
+
+43. The ratio of the ages of a father and son is 7 : 2. After 10 years the ratio will be 9 : 4. The present age of the father is
+(a) 35 years (b) 42 years (c) 49 years (d) 56 years
+Answer: (a)
+Solution: The trap is adding 10 to the ratio terms 7 and 9 directly. Let the ages be 7x and 2x: (7x + 10)/(2x + 10) = 9/4 gives 28x + 40 = 18x + 90, so 10x = 50 and x = 5. Father's age = 7 × 5 = 35 years, so the answer is 35 years.
+Source: PYQ-style
+
+44. If 2A = 3B = 4C, then A : B : C is
+(a) 3 : 4 : 6 (b) 4 : 3 : 2 (c) 6 : 4 : 3 (d) 2 : 3 : 4
+Answer: (c)
+Solution: The trap is writing 2 : 3 : 4 directly from the coefficients. Let 2A = 3B = 4C = k; then A = k/2, B = k/3, C = k/4. Multiplying by 12: A : B : C = 6 : 4 : 3, so the answer is 6 : 4 : 3.
+Source: NCERT Class 8 Mathematics
+
+45. In a mixture of 60 litres, the ratio of milk to water is 2 : 1. How much water must be added to make the ratio 1 : 2?
+(a) 30 litres (b) 60 litres (c) 40 litres (d) 50 litres
+Answer: (b)
+Solution: The trap is thinking that doubling the existing 20 litres of water is enough. Milk = 40 litres, water = 20 litres; milk stays fixed. For ratio 1 : 2, water must be 80 litres, so water to add = 80 − 20 = 60 litres, so the answer is 60 litres.
+Source: PYQ-style
+
+46. If (a + b) : (a − b) = 7 : 3, then a² : b² is
+(a) 5 : 2 (b) 49 : 9 (c) 25 : 4 (d) 25 : 16
+Answer: (c)
+Solution: The trap is squaring 7 and 3 directly to get 49 : 9. By componendo-dividendo, a/b = (7 + 3)/(7 − 3) = 10/4 = 5/2. Hence a² : b² = 25 : 4, so the answer is 25 : 4.
+Source: NCERT Class 8 Mathematics
+
+47. ₹1200 is divided among P, Q and R such that P gets half of what Q gets, and Q gets twice what R gets. The share of Q is
+(a) ₹400 (b) ₹300 (c) ₹480 (d) ₹600
+Answer: (d)
+Solution: The trap is taking the ratio as 1 : 2 : 4 by misreading the chain of relations. Let R = x; then Q = 2x and P = Q/2 = x, so P : Q : R = 1 : 2 : 1 and total 4x = 1200, giving x = 300. Q's share = 2 × 300 = ₹600, so the answer is ₹600.
+Source: PYQ-style
+
+48. The ratio of two numbers is 3 : 5. If each is decreased by 10, the ratio becomes 1 : 2. The sum of the numbers is
+(a) 40 (b) 60 (c) 100 (d) 80
+Answer: (d)
+Solution: The trap is subtracting 10 from the ratio terms 3 and 5 directly. Let the numbers be 3x and 5x: (3x − 10)/(5x − 10) = 1/2 gives 6x − 20 = 5x − 10, so x = 10. Sum = 8 × 10 = 80, so the answer is 80.
+Source: PYQ-style
+
+49. If a : b = 3 : 4, b : c = 6 : 7 and c : d = 14 : 15, then a : d is
+(a) 1 : 2 (b) 2 : 5 (c) 3 : 7 (d) 3 : 5
+Answer: (d)
+Solution: The trap is multiplying only the first and last terms of the chain. a/d = (a/b)(b/c)(c/d) = (3/4)(6/7)(14/15) = 252/420 = 3/5. So a : d = 3 : 5, so the answer is 3 : 5.
+Source: PYQ-style
+
+50. A certain amount was divided between X and Y in the ratio 4 : 5. If X had received ₹120 more, the ratio would have been 7 : 5. The amount received by Y is
+(a) ₹240 (b) ₹200 (c) ₹160 (d) ₹280
+Answer: (b)
+Solution: The trap is changing both shares when only X's share increases. Let the shares be 4x and 5x: (4x + 120)/5x = 7/5 gives 20x + 600 = 35x, so 15x = 600 and x = 40. Y's share = 5 × 40 = ₹200, so the answer is ₹200.
+Source: PYQ-style

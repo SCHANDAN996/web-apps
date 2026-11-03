@@ -1,0 +1,151 @@
+Questions 101–115: Medium | Questions 116–125: Hard
+
+101. Which Venn diagram best represents the relationship among: Women, Mothers, Doctors?
+(a) Women inside Mothers, Doctors separate (b) Mothers inside Women, Doctors completely separate (c) Three separate circles (d) Mothers inside Women, Doctors overlapping Women
+Answer: (d)
+Solution: Every mother is a woman, so Mothers lies inside Women. Some women are doctors and some are not, so Doctors overlaps Women. The trap is keeping Doctors fully separate, ignoring that many doctors are women. So the answer is Mothers inside Women with Doctors overlapping Women.
+Source: PYQ-style
+
+102. Choose the Venn diagram for Tiger, Carnivore, Herbivore.
+(a) Three separate circles (b) Tiger inside Carnivore, Herbivore inside Carnivore (c) Tiger inside Carnivore and Herbivore overlapping (d) Tiger inside Carnivore, Carnivore and Herbivore separate
+Answer: (d)
+Solution: Every tiger is a carnivore, so Tiger lies inside Carnivore. Carnivores and herbivores are disjoint diet-based classes, so their circles stay separate. The trap is overlapping Carnivore and Herbivore because some animals eat both, but as class labels they are treated as disjoint. So the answer is Tiger inside Carnivore with Herbivore separate.
+Source: PYQ-style
+
+103. In a group of 300 people, 180 know Hindi, 140 know English, 80 know both. How many know neither language?
+(a) 60 (b) 40 (c) 50 (d) 70
+Answer: (a)
+Solution: People knowing at least one language = 180 + 140 − 80 = 240. Neither = 300 − 240 = 60. The trap is forgetting to subtract the overlap, which gives 320 and an impossible result. So the answer is 60.
+Source: PYQ-style
+
+104. In a Venn diagram, triangle = Engineers, square = MBAs, circle = Experienced. Regions: only Engineers = 15, only MBAs = 12, only Experienced = 18, Engineers and MBAs only = 7, MBAs and Experienced only = 6, Engineers and Experienced only = 9, all three = 5. How many are engineers or experienced but not MBAs?
+(a) 47 (b) 42 (c) 45 (d) 39
+Answer: (b)
+Solution: Required regions = only Engineers (15) + only Experienced (18) + Engineers and Experienced only (9) = 42. The trap is adding the all-three region 5, but that region contains MBAs and must be excluded. So the answer is 42.
+Source: PYQ-style
+
+105. [Trap] Which Venn diagram represents Cat, Dog, Animal?
+(a) Animal inside Cat, Dog separate (b) Cat and Dog overlapping, both inside Animal (c) Cat inside Dog, Dog inside Animal (d) Cat and Dog as separate circles inside Animal
+Answer: (d)
+Solution: Every cat and every dog is an animal, so both circles lie inside Animal. Cats and dogs are distinct species, so their circles do not overlap. The trap is overlapping Cat and Dog because both are common pets, but no animal is both a cat and a dog. So the answer is Cat and Dog as separate circles inside Animal.
+Source: PYQ-style
+
+106. Statements: Some flowers are red. All red things are coloured. No coloured thing is invisible. Conclusions: I. Some flowers are coloured. II. No red thing is invisible.
+(a) Only I follows (b) Neither I nor II follows (c) Both I and II follow (d) Only II follows
+Answer: (c)
+Solution: The red flowers are coloured, so I follows. Since all red things are coloured and nothing coloured is invisible, no red thing is invisible, so II follows. The trap is thinking a negative statement cannot combine with a positive one. So the answer is that both conclusions follow.
+Source: PYQ-style
+
+107. In a Venn diagram, circle X = Smokers, circle Y = Drinkers, circle Z = Overweight. Regions: only X = 9, only Y = 11, only Z = 14, X and Y only = 5, Y and Z only = 7, X and Z only = 4, all three = 3. How many people have exactly two of these traits?
+(a) 12 (b) 16 (c) 15 (d) 19
+Answer: (b)
+Solution: Exactly two = 5 + 7 + 4 = 16. The trap is adding the all-three region 3, which gives 19, but those people have three traits, not exactly two. So the answer is 16.
+Source: PYQ-style
+
+108. Which option correctly shows Carrot, Vegetable, Orange?
+(a) Carrot and Orange both inside Vegetable (b) Carrot inside Vegetable, Orange separate (c) Orange inside Vegetable, Carrot separate (d) Carrot inside Vegetable, Orange overlapping Vegetable
+Answer: (b)
+Solution: A carrot is a vegetable, so Carrot lies inside Vegetable. An orange is a fruit, not a vegetable, so Orange stays separate. The trap is putting Orange inside Vegetable just because both are eaten as plant foods. So the answer is Carrot inside Vegetable with Orange separate.
+Source: PYQ-style
+
+109. Statements: All cats are mammals. Some mammals are pets. No pet is wild. Conclusions: I. Some cats are pets. II. Some mammals are not wild.
+(a) Only I follows (b) Both I and II follow (c) Only II follows (d) Neither I nor II follows
+Answer: (c)
+Solution: Cats may lie entirely outside the pet portion of mammals, so I is not definite. The mammals that are pets are not wild, so some mammals are not wild and II follows. The trap is assuming the pet mammals must include cats. So the answer is that only II follows.
+Source: PYQ-style
+
+110. In a survey, 75% of people like coffee, 65% like tea, and 50% like both. What percentage like neither?
+(a) 15% (b) 5% (c) 10% (d) 20%
+Answer: (c)
+Solution: Liking at least one = 75 + 65 − 50 = 90%. Neither = 100 − 90 = 10%. The trap is adding 75 and 65 and subtracting 100 directly, which ignores the overlap rule. So the answer is 10%.
+Source: PYQ-style
+
+111. Statements: All pens are red. All red things are bright. Conclusions: I. All pens are bright. II. All bright things are pens.
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (a)
+Solution: Chaining the two universal statements, all pens are bright, so I follows. But bright things may include many items that are not pens, so II does not follow. The trap is reversing a universal statement as if "all A are B" meant "all B are A". So the answer is that only I follows.
+Source: PYQ-style
+
+112. Which Venn diagram best fits Police, Thief, Criminal?
+(a) Thief inside Criminal, Police separate (b) Police inside Criminal, Thief separate (c) Thief inside Police, Criminal separate (d) Thief inside Criminal, Police overlapping Criminal
+Answer: (a)
+Solution: Every thief is a criminal, so Thief lies inside Criminal. Police are law enforcers, a separate class from criminals. The trap is overlapping Police with Criminal because "some policemen are corrupt" — class logic ignores such real-world exceptions. So the answer is Thief inside Criminal with Police separate.
+Source: PYQ-style
+
+113. In a figure, triangle = Males, square = Players, circle = Coaches. Regions: only Males = 22, only Players = 16, only Coaches = 14, Males and Players only = 9, Players and Coaches only = 6, Males and Coaches only = 8, all three = 4. How many are not players?
+(a) 44 (b) 40 (c) 48 (d) 36
+Answer: (a)
+Solution: Not players = regions outside the square = only Males (22) + only Coaches (14) + Males and Coaches only (8) = 44. The trap is subtracting only the "only Players" region from the total instead of excluding every region touching the square. So the answer is 44.
+Source: PYQ-style
+
+114. Statements: All chairs are furniture. Some furniture is wooden. No wooden thing is plastic. Conclusions: I. Some chairs are wooden. II. Some furniture is not plastic.
+(a) Only II follows (b) Both I and II follow (c) Only I follows (d) Neither I nor II follows
+Answer: (a)
+Solution: Chairs may lie entirely outside the wooden part of furniture, so I is not definite. The wooden furniture is not plastic, so some furniture is not plastic and II follows. The trap is forcing the wooden furniture to be chairs. So the answer is that only II follows.
+Source: PYQ-style
+
+115. In a class of 150 students, 90 passed in English, 80 passed in Hindi, and 70 passed in both. How many failed in both subjects?
+(a) 60 (b) 50 (c) 40 (d) 30
+Answer: (b)
+Solution: Passed in at least one subject = 90 + 80 − 70 = 100. Failed in both = 150 − 100 = 50. The trap is adding 90 + 80 = 170 and subtracting from 150 directly, ignoring the overlap. So the answer is 50.
+Source: PYQ-style
+
+116. [Trap] Which Venn diagram represents Males, Fathers, Doctors?
+(a) Fathers inside Males, Doctors separate (b) Three separate circles (c) Males inside Fathers, Doctors separate (d) Fathers inside Males, Doctors overlapping Males
+Answer: (d)
+Solution: Every father is male, so Fathers lies inside Males. Some males are doctors and some doctors are not male, so Doctors overlaps Males. The trap is keeping Doctors fully separate, ignoring that many males are doctors. So the answer is Fathers inside Males with Doctors overlapping Males.
+Source: PYQ-style
+
+117. Statements: Some dogs are friendly. All friendly animals are pets. No pet is dangerous. Conclusions: I. Some dogs are pets. II. Some friendly animals are not dangerous.
+(a) Only I follows (b) Only II follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (c)
+Solution: The friendly dogs are pets, so I follows. All friendly animals are pets and no pet is dangerous, so friendly animals are not dangerous and II follows. The trap is rejecting II because it is a negative conclusion drawn from a negative statement. So the answer is that both conclusions follow.
+Source: PYQ-style
+
+118. Choose the diagram for Eye, Nose, Face.
+(a) Eye inside Nose, Nose inside Face (b) Eye and Nose overlapping inside Face (c) Eye and Nose inside Face, separate (d) Face inside Eye, Nose separate
+Answer: (c)
+Solution: Both the eye and the nose are parts of the face, so both lie inside Face. They are distinct organs, so their circles do not overlap. The trap is overlapping them because they are close together on the face. So the answer is Eye and Nose as separate circles inside Face.
+Source: PYQ-style
+
+119. Statements: No river is a lake. All lakes are water bodies. Conclusions: I. Some water bodies are not rivers. II. No river is a water body.
+(a) Neither I nor II follows (b) Only I follows (c) Only II follows (d) Both I and II follow
+Answer: (b)
+Solution: Lakes are water bodies and no lake is a river, so those water bodies are not rivers and I follows. But rivers may well be water bodies too — nothing forbids it — so II does not follow. The trap is extending "no river is a lake" to "no river is a water body", which overreaches the statements. So the answer is that only I follows.
+Source: PYQ-style
+
+120. In a Venn diagram, circle A = Singers, circle B = Dancers, circle C = Actors. Regions: only A = 10, only B = 12, only C = 14, A and B only = 5, B and C only = 7, A and C only = 8, all three = 3. What is the total number of people?
+(a) 59 (b) 54 (c) 62 (d) 56
+Answer: (a)
+Solution: Total = 10 + 12 + 14 + 5 + 7 + 8 + 3 = 59. The trap is adding the pairwise regions twice or forgetting the central region 3. So the answer is 59.
+Source: PYQ-style
+
+121. [Hard] Statements: All books are papers. Some papers are white. No white thing is black. Conclusions: I. Some books are white. II. Some papers are not black.
+(a) Only I follows (b) Both I and II follow (c) Only II follows (d) Neither I nor II follows
+Answer: (c)
+Solution: Books may lie entirely outside the white portion of papers, so I is not definite. The white papers are not black, so some papers are not black and II follows. The trap is assuming the white papers must include books. So the answer is that only II follows.
+Source: PYQ-style
+
+122. [Hard + Trap] Which Venn diagram best represents Singers, Dancers, Actors?
+(a) Three separate circles (b) Singers and Dancers inside Actors (c) Singers inside Dancers, Actors separate (d) Three circles each overlapping the other two
+Answer: (d)
+Solution: A person can be a singer, a dancer and an actor in any combination, so each circle overlaps the other two, including a common central region. The trap is drawing three separate circles because the professions are distinct — but the same person can belong to all three classes. So the answer is three mutually overlapping circles.
+Source: PYQ-style
+
+123. [Hard] Statements: All pens are books. Some books are chairs. Conclusions: I. Some pens are chairs. II. Some chairs are pens.
+(a) Only II follows (b) Only I follows (c) Both I and II follow (d) Neither I nor II follows
+Answer: (d)
+Solution: The chairs among books may lie entirely outside the pens, so I is not definite; and if no pen is a chair, II fails too. The trap is chaining "all" with "some" to force a connection between pens and chairs, which is never guaranteed. So the answer is that neither conclusion follows.
+Source: PYQ-style
+
+124. [Hard] In a housing society of 500 families, each family owns at most one type of vehicle among car, bike and cycle. The number of families owning a car is 180, a bike is 210, and a cycle is 110. How many families own exactly one vehicle?
+(a) 400 (b) 500 (c) 250 (d) 300
+Answer: (b)
+Solution: "At most one" means the three sets are disjoint, so total owners = 180 + 210 + 110 = 500, which equals all families. Hence every family owns exactly one vehicle. The trap is hunting for an overlap to subtract when the condition forbids any overlap. So the answer is 500.
+Source: PYQ-style
+
+125. [Hard] Statements: Some A are B. All B are C. No C is D. Conclusions: I. Some A are C. II. Some A are not D. III. Some B are D.
+(a) Both I and II follow (b) Only I follows (c) All three follow (d) Only II follows
+Answer: (a)
+Solution: The A that are B are also C, so some A are C and I follows. Those same A are C, and no C is D, so some A are not D and II follows; but all B are C and no C is D, so no B is D and III fails. The trap is accepting III by ignoring the universal negative between C and D. So the answer is that both I and II follow.
+Source: PYQ-style

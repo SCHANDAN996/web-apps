@@ -1,0 +1,33 @@
+```mermaid
+graph TD
+    A["ल.स.प. और म.स.प.<br>LCM & HCF"] --> B["म.स.प. / HCF<br>(GCD)"]
+    A --> C["ल.स.प. / LCM"]
+    A --> D["संबंध / Relations"]
+    A --> E["भिन्न / Fractions"]
+    A --> F["अनुप्रयोग / Applications"]
+
+    B --> B1["परिभाषा: सबसे बड़ा उभयनिष्ठ गुणनखंड<br>Definition: Greatest Common Divisor"]
+    B --> B2["विधियाँ / Methods"]
+    B2 --> B2a["अभाज्य गुणनखंडन<br>Prime Factorization"]
+    B2 --> B2b["भाग विधि (यूक्लिड)<br>Division Method (Euclid)"]
+    B --> B3["शेषफल आधारित HCF<br>HCF with Remainders"]
+
+    C --> C1["परिभाषा: सबसे छोटा उभयनिष्ठ गुणनखंड<br>Definition: Least Common Multiple"]
+    C --> C2["विधियाँ / Methods"]
+    C2 --> C2a["अभाज्य गुणनखंडन<br>Prime Factorization"]
+    C2 --> C2b["भाग विधि<br>Division Method"]
+    C --> C3["शेषफल आधारित LCM<br>LCM with Remainders"]
+
+    D --> D1["LCM × HCF = दोनों संख्याओं का गुणनफल<br>LCM × HCF = Product of two numbers"]
+    D --> D2["सह-अभाज्य संख्याएँ: HCF = 1<br>Co-prime numbers: HCF = 1"]
+    D --> D3["LCM हमेशा HCF का गुणज<br>LCM is always a multiple of HCF"]
+
+    E --> E1["भिन्नों का HCF = अंशों का HCF / हरों का LCM<br>HCF of fractions = HCF of numerators / LCM of denominators"]
+    E --> E2["भिन्नों का LCM = अंशों का LCM / हरों का HCF<br>LCM of fractions = LCM of numerators / HCF of denominators"]
+
+    F --> F1["घंटियाँ / अलार्म एक साथ<br>Bells ringing together → LCM"]
+    F --> F2["बराबर बाँटना / सबसे बड़ा माप<br>Equal distribution / Largest measure → HCF"]
+    F --> F3["शेषफल समान / भिन्न<br>Same / Different remainders"]
+    F --> F4["वृत्ताकार पथ पर मिलन<br>Circular track meetings → LCM"]
+    F --> F5["टाइल / कमरा मापना<br>Tiling problems → HCF"]
+```

@@ -1,0 +1,38 @@
+```mermaid
+graph TD
+    A["Fill in the Blanks<br>(Advanced)"] --> B["Step 1: Read<br>the Whole Sentence"]
+    A --> C["Step 2: Predict<br>Your Own Word"]
+    A --> D["Step 3: Match<br>with Options"]
+    A --> E["Step 4: Re-read<br>to Confirm"]
+
+    B --> F["Clue Words"]
+    F --> F1["Contrast: but, although,<br>however, despite"]
+    F --> F2["Cause-Effect: because,<br>hence, therefore"]
+    F --> F3["Continuation: and,<br>moreover, similarly"]
+
+    C --> G["Grammar Check"]
+    G --> G1["Subject-Verb<br>Agreement"]
+    G --> G2["Tense Consistency"]
+    G --> G3["Article &<br>Preposition Fit"]
+    G --> G4["Collocation:<br>words that go together"]
+
+    D --> H["Vocabulary Power"]
+    H --> H1["Greek/Latin Roots:<br>bene, mal, dict, cred"]
+    H --> H2["Prefixes &<br>Suffixes"]
+    H --> H3["Synonyms vs<br>Exact Fit"]
+
+    E --> I["Double-Blank<br>Strategy"]
+    I --> I1["Solve the easier<br>blank first"]
+    I --> I2["Eliminate pairs<br>that fail one blank"]
+
+    A --> J["Examiner's Traps"]
+    J --> J1["Sound-Right Trap:<br>familiar but wrong word"]
+    J --> J2["Intervening Phrase<br>hides the real subject"]
+    J --> J3["Over-thinking:<br>simple answer rejected"]
+    J --> J4["Near-synonym pair:<br>only one collocates"]
+
+    A --> K["Time Strategy"]
+    K --> K1["Fact/Grammar-based:<br>15 seconds"]
+    K --> K2["Inference/Tone-based:<br>45 seconds"]
+    K --> K3["Skip if both blanks<br>look alien — return later"]
+```

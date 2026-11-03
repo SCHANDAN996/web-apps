@@ -1,0 +1,101 @@
+# PYQ Analysis — Mirror & Water Images (English)
+
+## 1. What examiners actually ask
+
+Mirror and water image questions are a permanent fixture of SSC (CGL, CHSL, MTS, GD), RRB (NTPC, Group D), and bank clerk-level exams. The pattern across exams is remarkably stable: usually one question per paper, drawn from the same small set of sub-topics.
+
+**Sub-topics that recur (qualitative):**
+- Mirror image of letters/words — the most frequent type. The mirror is placed on the right (or left) and you must pick the correct lateral inversion.
+- Water image of letters/words — vertical inversion (top-bottom flip).
+- Mirror image of numbers and alphanumeric codes.
+- Mirror image of figures (arrows, arrows with letters, geometrical shapes).
+- Mirror + water image of the same word — "which option is the mirror image and which is the water image" — a favourite of SSC CGL.
+- Mirror image of a clock — mirror-time questions (11:60 − actual time).
+- Mirror image of a figure embedded in options — the mirror is placed below the figure (water image) or on the side (mirror image), and the options contain near-identical figures.
+
+**Exam-wise tendency (qualitative):**
+- SSC CGL/CHSL: mirror image of words and figures, moderate difficulty.
+- SSC MTS/GD: mirror image of letters and numbers, usually easy.
+- RRB NTPC: mirror image of alphanumeric codes, sometimes with a clock-mirror twist.
+- IBPS/SBI Clerk: mirror image of words, sometimes paired with the water image of the same word.
+
+**The examiner's traps (in words, not numbers):**
+- Near-correct options: options differ only in one letter's orientation (e.g., 'b' vs 'd' in a mirror image).
+- Confusion between mirror and water image: the question asks for the water image, but one option is the mirror image — students who read fast pick the mirror image.
+- Symmetric words: a word like 'MOM' looks unchanged in a mirror, so students doubt the correct option and switch to a wrong one.
+- Clock mirror time: students use 12:00 − time instead of 11:60 − time, or forget to borrow 60 minutes when the minutes digit is 00.
+- Mirror image of a figure with an arrow: the arrow direction flips left↔right, but the rest of the figure stays the same — options often flip everything or nothing.
+
+**The 15-sec/45-sec rule:** A simple letter/number mirror image should be solved within 15 seconds. A figure with multiple elements (arrow + letter + number) may take up to 45 seconds. Beyond 45 seconds, skip it — the cost-benefit turns negative.
+
+## 2. Top 10 High-Yield Questions (with solutions and traps)
+
+**Q1.** A mirror is placed on the right side of the word 'MOM'. Which of the following is its mirror image?
+(a) MOM (b) WOW (c) MOW (d) WOM
+**Answer:** (a)
+**Solution:** In a mirror image the order of letters reverses and each letter is laterally inverted. 'MOM' reversed is still 'MOM', and M and O are vertically symmetric letters (they look the same when flipped left-right). So the mirror image is 'MOM'.
+**Trap:** Because the answer looks identical to the question, students assume it cannot be right and pick a changed option. A palindrome of vertically symmetric letters is its own mirror image.
+
+**Q2.** A mirror is placed on the right side of the word 'FISH'. Which of the following is its mirror image?
+(a) HSIF with each letter laterally inverted (b) FISH (c) HSIF in normal letters (d) FISH written upside down
+**Answer:** (a)
+**Solution:** A mirror image reverses the order of letters (FISH → HSIF) **and** flips each letter left-right. Option (c) reverses the order but leaves the letters unflipped — that is only half the job.
+**Trap:** Option (b) is the original word (no change), and option (c) is a plain reversal. The correct mirror image needs both: reversed order **and** laterally inverted letters.
+
+**Q3.** A clock shows 3:00. What time will its image in a plane mirror show?
+(a) 9:00 (b) 3:00 (c) 8:00 (d) 6:00
+**Answer:** (a)
+**Solution:** For a clock seen in a vertical plane mirror (placed on either side of the clock), mirror time = 11:60 − actual time. Here, 11:60 − 3:00 = 8:60 = 9:00. The formula is the same whether the mirror is on the left or the right, because both produce the same left-right inversion of the dial.
+**Trap:** Students compute 12:00 − 3:00 = 9:00 and get lucky here, but the same shortcut fails for times with non-zero minutes (e.g., 2:30 → 11:60 − 2:30 = 9:30, not 10:30). Always use 11:60 − time.
+
+**Q4.** A mirror is placed horizontally below the word 'CODE'. Which of the following is its water image?
+(a) CODE (b) EDOC (c) CODE written upside down (rotated 180°) (d) EDOƆ
+**Answer:** (a)
+**Solution:** A water image flips the word top-to-bottom but keeps the left-to-right order unchanged. C, O, D, and E are all horizontally symmetric letters (their top and bottom halves are mirror halves), so each letter looks the same after the flip. The water image of 'CODE' is 'CODE'.
+**Trap:** Option (b) reverses the letter order — that is what a *mirror* (vertical) image does, not a water image. Option (c) is a 180° rotation, which changes both order and orientation; a water image is a flip, not a rotation.
+
+**Q5.** A mirror is placed on the right side of the number '1234'. Which of the following is its mirror image?
+(a) 4321 with each digit laterally inverted (b) 1234 (c) 4321 in normal digits (d) 2143
+**Answer:** (a)
+**Solution:** A mirror image reverses the order of digits (1234 → 4321) **and** flips each digit left-right. Option (c) reverses the order but leaves the digits unflipped, so it is incomplete.
+**Trap:** Option (d) swaps adjacent pairs — a distractor for students who reverse "partially". The mirror reverses the whole sequence, not pairs.
+
+**Q6.** A mirror is placed on the right side of the figure '→A'. Which of the following is its mirror image?
+(a) A← (b) →A (c) ←A (d) A→
+**Answer:** (a)
+**Solution:** In a mirror image, the element on the left (the arrow) moves to the right of 'A', and the arrow itself flips direction: → becomes ←. So '→A' becomes 'A←'.
+**Trap:** Option (c) flips the arrow but forgets to swap the positions of the arrow and the letter. Option (d) swaps positions but forgets to flip the arrow. Both changes happen together.
+
+**Q7.** A mirror is placed on the right side of the word 'WOW'. Which of the following is its mirror image?
+(a) WOW (b) MOM (c) WOM (d) OWW
+**Answer:** (a)
+**Solution:** 'WOW' reversed is 'WOW', and W and O are vertically symmetric letters, so each letter looks the same after lateral inversion. The mirror image of 'WOW' is 'WOW'.
+**Trap:** As with Q1, the correct answer looking identical to the question makes students switch to a wrong option. Check symmetry first, then trust it.
+
+**Q8.** A mirror is placed horizontally below the word 'BOX'. Which of the following is its water image?
+(a) BOX (b) XOB (c) BOX rotated 180° (d) XOᗺ
+**Answer:** (a)
+**Solution:** A water image flips top-to-bottom and keeps the left-to-right order. B, O, and X are horizontally symmetric letters, so each looks the same after the flip. The water image of 'BOX' is 'BOX'.
+**Trap:** Option (b) reverses the letter order — that belongs to a vertical mirror image, not a water image. Remember: water image = top-bottom flip only; order stays.
+
+**Q9.** A mirror is placed on the right side of the word 'BAD'. Which of the following is its mirror image?
+(a) DAB with each letter laterally inverted (b) BAD (c) DAB in normal letters (d) BDA
+**Answer:** (a)
+**Solution:** The order reverses (BAD → DAB) and each letter flips left-right. Note that 'B' and 'D' are not vertically symmetric — a flipped B looks like a backward B — which is exactly what a true mirror image shows.
+**Trap:** Option (c) reverses the order but keeps normal letters. Examiners count on students treating "mirror image" as mere reversal; the letter flip is the step most often missed.
+
+**Q10.** A clock shows 2:30. What time will its image in a plane mirror show?
+(a) 9:30 (b) 10:30 (c) 9:00 (d) 10:00
+**Answer:** (a)
+**Solution:** Mirror time = 11:60 − actual time = 11:60 − 2:30 = 9:30. The formula holds for a vertical mirror on either side of the clock.
+**Trap:** Option (b) comes from the wrong shortcut 12:00 − 2:30 = 9:30 miscomputed as 10:30, or from 12:30 − 2:00. Only 11:60 − time works reliably for all times.
+
+## 3. Skip Strategy (15-sec/45-sec rule)
+
+- **Attempt immediately (≤15 sec):** single-word or single-number mirror/water images where you can check symmetry at a glance (Q1, Q4, Q5, Q7, Q8 type).
+- **Attempt with care (≤45 sec):** figures combining an arrow/shape with letters (Q6 type) and clock-mirror questions (Q3, Q10 type) — write down 11:60 − time rather than doing it mentally.
+- **Skip:** a complex multi-element figure whose options differ only in tiny details, if you cannot resolve it within 45 seconds. One mark is not worth three minutes.
+
+## 4. Summary
+
+Mirror and water image questions appear reliably in SSC, RRB, and bank clerk-level exams, usually one per paper, from a small set of sub-topics. Master three ideas and most questions fall: (1) mirror image = reversed order + laterally flipped letters; (2) water image = top-bottom flip, order unchanged; (3) clock mirror time = 11:60 − actual time for a vertical mirror on either side. The examiner's traps are near-identical options, mirror-vs-water confusion, and half-done reversals. Use the 15-sec/45-sec rule to decide whether to attempt or skip.

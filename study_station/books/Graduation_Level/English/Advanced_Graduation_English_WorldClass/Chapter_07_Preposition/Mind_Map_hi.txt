@@ -1,0 +1,34 @@
+```mermaid
+graph TD
+    A["संबंधसूचक<br>(Preposition)"] --> B["प्रकार"]
+    A --> C["स्वर्ण नियम"]
+    A --> D["परीक्षक के जाल"]
+    A --> E["रणनीति"]
+
+    B --> B1["समय सूचक<br>at / on / in"]
+    B --> B2["स्थान सूचक<br>at / on / in / under"]
+    B --> B3["दिशा सूचक<br>to / into / towards"]
+    B --> B4["Fixed Prepositions<br>depend on, consist of"]
+    B --> B5["Phrasal Prepositions<br>in spite of, on behalf of"]
+
+    B1 --> B1a["at = सटीक समय<br>at 5 pm"]
+    B1 --> B1b["on = दिन/तारीख<br>on Monday"]
+    B1 --> B1c["in = माह/वर्ष/युग<br>in July, in 2024"]
+
+    C --> C1["since + समय-बिंदु<br>for + अवधि"]
+    C --> C2["between = दो<br>among = दो से अधिक"]
+    C --> C3["beside = पास में<br>besides = अतिरिक्त"]
+    C --> C4["in = अंदर (स्थिर)<br>into = अंदर (गति)"]
+    C --> C5["वाक्य के अंत में<br>preposition ठीक है<br>What are you looking at?"]
+    C --> C6["Verb + fixed preposition<br>listen to, insist on"]
+
+    D --> D1["Sound-Right जाल<br>discuss about ❌<br>discuss ✔"]
+    D --> D2["हिंदी अनुवाद जाल<br>married with ❌<br>married to ✔"]
+    D --> D3["Intervening Phrase<br>लंबा वाक्य छिपाता है<br>fixed preposition"]
+    D --> D4["Over-thinking<br>सरल नियम पर<br>संदेह न करें"]
+
+    E --> E1["15 सेकंड<br>तथ्यात्मक प्रश्न<br>at/on/in, fixed pairs"]
+    E --> E2["45 सेकंड<br>तार्किक प्रश्न<br>संदर्भ-आधारित त्रुटि"]
+    E --> E3["Skip Strategy<br>दो विकल्प लगभग समान हों<br>तो चिह्नित कर आगे बढ़ें"]
+    E --> E4["Mnemonic<br>ATI = At-Time, In-Month<br>समय का सूत्र"]
+```

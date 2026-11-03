@@ -1,0 +1,151 @@
+Questions 126–145: Easy | Questions 146–150: Moderate
+
+126. A square sheet is folded along one diagonal, and then the resulting triangle is folded along the other diagonal's direction (its axis of symmetry). A single circular hole is punched through all layers at a point not on any fold line. When unfolded, how many holes appear on the sheet?
+(a) 8 (b) 2 (c) 4 (d) 6
+Answer: (c)
+Solution: The tempting answer is 8, obtained by doubling one time too many. There are only two folds, so the paper has 2 × 2 = 4 layers, and a punch away from the creases makes one hole per layer, so the answer is 4.
+Source: PYQ-style
+
+127. A rectangular sheet is folded in half along its length, then folded in half along its width, and a triangular cut is made at the corner where the two fold edges meet. On unfolding, the cut produces:
+(a) 4 separate triangles (b) 4 diamond-shaped holes (c) 2 triangles (d) 1 diamond-shaped hole at the centre
+Answer: (d)
+Solution: The trap is choosing 4 separate triangles by counting layers only. The cut is made exactly where both fold lines meet, which is the centre of the original sheet, and reflections of the triangle across the two perpendicular folds join into a single diamond-shaped hole, so the answer is 1 diamond-shaped hole at the centre.
+Source: PYQ-style
+
+128. A square paper is folded along the vertical centre line, then along the horizontal centre line. A semicircular cut is made on the edge formed by the vertical fold only (not at the corner). After unfolding, how many circular holes appear?
+(a) 2 (b) 1 (c) 8 (d) 4
+Answer: (a)
+Solution: The tempting answer is 4, assuming every cut multiplies by all folds. The semicircle lies on the vertical fold edge, so unfolding across that fold completes it into one full circle; that circle is off the horizontal fold, which mirrors it once, so the answer is 2.
+Source: PYQ-style
+
+129. A sheet is folded into quarters (half, then half again). A hole is punched exactly at the intersection point of the two fold lines (the folded corner). On unfolding, the number of holes is:
+(a) 1 (b) 4 (c) 2 (d) 3
+Answer: (a)
+Solution: The trap is answering 4 by simply multiplying layers. A punch exactly on a fold line is shared by the layers on both sides of that fold, and being on both fold lines all four layer-positions coincide at one point on the opened sheet, so the answer is 1.
+Source: PYQ-style
+
+130. A square sheet is folded along one diagonal and a cut is made parallel to the fold, near the middle of the folded triangle but not touching the fold. When unfolded, the cut appears as:
+(a) One slit away from the diagonal (b) One slit on the diagonal (c) Two separate slits symmetric about the diagonal (d) Four slits
+Answer: (c)
+Solution: The trap is thinking a cut near the fold merges into one slit. Since the cut is parallel to but away from the fold line, it does not touch the crease, and unfolding mirrors it across the diagonal, so the answer is two separate slits symmetric about the diagonal.
+Source: PYQ-style
+
+131. A paper is folded in half vertically, then the folded sheet is folded in half horizontally, then once more vertically. A single punch is made through all layers at a point not on any fold edge. How many holes appear on unfolding?
+(a) 8 (b) 6 (c) 16 (d) 4
+Answer: (a)
+Solution: The tempting answer is 16 from doubling wrongly. Each fold doubles the layers: 2, then 4, then 8, and a punch through 8 layers at a general position creates one hole per layer, so the answer is 8.
+Source: PYQ-style
+
+132. A circular sheet is folded into a semicircle, then into a quarter circle. A small notch is cut on the curved (arc) edge of the quarter. On unfolding, how many notches appear on the boundary of the circle?
+(a) 1 (b) 2 (c) 4 (d) 8
+Answer: (c)
+Solution: The trap is answering 8 by counting layers. The notch is on the arc, which is the outer boundary, not on a fold edge; the two folds stack 4 layers of arc and each unfolds to a distinct boundary position, so the answer is 4.
+Source: PYQ-style
+
+133. A square sheet is folded along the horizontal centre line, then along the vertical centre line of the folded rectangle. A hole is punched on the horizontal fold edge but away from the vertical fold. Number of holes after unfolding:
+(a) 3 (b) 1 (c) 4 (d) 2
+Answer: (d)
+Solution: The tempting answer is 4 from layer counting. A punch on a fold edge is mirrored onto itself across that fold, so the horizontal fold contributes no doubling and only the vertical fold doubles it, so the answer is 2.
+Source: PYQ-style
+
+134. A sheet is folded twice (in half, then in half again, both folds parallel to each other). A punch is made through all layers away from the folds. On unfolding, the holes are arranged:
+(a) In two rows of 2 (b) In a 2 × 2 square pattern (c) In a single row of 4 holes (d) Randomly
+Answer: (c)
+Solution: The trap is assuming a 2 × 2 pattern as with perpendicular folds. Parallel folds reflect the hole repeatedly along one direction only, so all four images lie in one line, so the answer is a single row of 4 holes.
+Source: PYQ-style
+
+135. A square paper is folded along a diagonal, then the resulting triangle is folded again along its axis of symmetry. A punch is made at the apex of the final folded shape, which corresponds to the centre of the original square. Holes on unfolding:
+(a) 4 (b) 2 (c) 8 (d) 1
+Answer: (d)
+Solution: The tempting answer is 4 by multiplying the two folds. The apex is the centre of the original sheet, a fixed point of both reflections, so all layer positions map to the same central point, so the answer is 1.
+Source: PYQ-style
+
+136. A rectangular sheet is folded in half along its width, and then a quarter of the folded sheet is cut off from the open corner (the corner opposite the fold edge). After unfolding, the sheet has:
+(a) Two adjacent corners missing (b) One corner missing (c) All four corners missing (d) Two diagonally opposite corners missing
+Answer: (a)
+Solution: The trap is picking two diagonally opposite corners, but reflection across a single fold maps a corner to the corner directly across that fold line, which is an adjacent corner sharing the same side. With one fold there are only 2 layers, and the open corner stacks two adjacent corners of the original, so the answer is two adjacent corners missing.
+Source: PYQ-style
+
+137. A square sheet is folded in half vertically, then horizontally. A straight cut connects the midpoints of the two folded edges of the small folded square. On unfolding, the hole formed is:
+(a) A cross shape (b) A circle at the centre (c) Four triangles at corners (d) A square at the centre
+Answer: (d)
+Solution: The trap is expecting four separate triangles. The cut joins points on both fold edges, so on unfolding the segment reflects across both folds and closes into a single four-sided figure at the centre, so the answer is a square at the centre.
+Source: PYQ-style
+
+138. A paper is folded three times, each time in half, with folds alternating in direction (vertical, horizontal, vertical). A punch away from all fold edges produces how many holes?
+(a) 12 (b) 8 (c) 6 (d) 4
+Answer: (b)
+Solution: The tempting answer is 6, adding folds instead of multiplying. Each fold doubles the layers regardless of direction: 2 × 2 × 2 = 8 layers, and a general-position punch yields one hole per layer, so the answer is 8.
+Source: PYQ-style
+
+139. A square sheet is folded along one diagonal, then the folded triangle is folded along the other diagonal's direction. A cut is made on the second fold edge, away from the centre. After unfolding, the number of cut marks is:
+(a) 4 (b) 2 (c) 6 (d) 8
+Answer: (b)
+Solution: The trap is answering 4 by doubling for both folds. The cut lies exactly on the second fold line, so reflection across that fold maps it onto itself and adds nothing; only the first fold mirrors it to a second position, so the answer is 2.
+Source: PYQ-style
+
+140. A sheet is folded in half, and a semicircular cut is made with its diameter along the fold. On unfolding, the cut becomes:
+(a) One semicircle (b) Two semicircles (c) One full circle (d) An ellipse
+Answer: (c)
+Solution: The tempting answer is two semicircles, counting the layers. Because the diameter lies exactly on the fold, the two mirrored semicircles share the diameter and join into a single full circle, so the answer is one full circle.
+Source: PYQ-style
+
+141. A square paper is folded in half vertically, then in half horizontally, and a punch is made at the corner of the folded square where one edge is a fold and the other edge is open. Holes after unfolding:
+(a) 4 (b) 2 (c) 1 (d) 3
+Answer: (b)
+Solution: The trap is answering 4 by counting all layers. The punch lies on one fold edge, which fixes it under that reflection, but it is off the other fold, so only one reflection doubles it, so the answer is 2.
+Source: PYQ-style
+
+142. A rectangular sheet is folded into thirds by two parallel folds (letter fold), and a hole is punched through all layers away from the folds. Number of holes on unfolding:
+(a) 3 (b) 2 (c) 6 (d) 9
+Answer: (a)
+Solution: The tempting answer is 6, doubling per fold. Folding into thirds creates 3 layers, not 4, because each fold is a third-fold, not a half-fold, and a general punch gives one hole per layer, so the answer is 3.
+Source: PYQ-style
+
+143. A square sheet is folded along the vertical centre line, and then along a diagonal of the folded rectangle. A punch is made away from all fold edges. The maximum number of holes on unfolding is:
+(a) 2 (b) 8 (c) 6 (d) 4
+Answer: (d)
+Solution: The trap is answering 8 by tripling doublings. There are only two folds, so at most 2 × 2 = 4 layers cover any point, and a general punch yields one hole per layer, so the answer is 4.
+Source: PYQ-style
+
+144. A circular sheet is folded along a diameter, then the semicircle is folded along its radius of symmetry. A notch is cut at the midpoint of the folded radius edge (a fold edge). On unfolding, the notches on the sheet are:
+(a) 4 boundary notches (b) 2 interior holes (c) 2 boundary notches (d) 1 interior hole at centre
+Answer: (b)
+Solution: The tempting answer is 4 boundary notches, treating the edge as the outer arc. The cut is on a fold edge (the radius), not the boundary; unfolding across that fold closes each notch into an interior hole, and the first fold mirrors it once, so the answer is 2 interior holes.
+Source: PYQ-style
+
+145. A square sheet is folded in half horizontally, then the folded strip is folded in half vertically. A V-shaped cut is made at the corner where the two folds meet. On unfolding, the pattern at the centre is:
+(a) A single X-shaped or four-pointed star hole (b) A square hole (c) Two V shapes (d) Four separate V shapes
+Answer: (a)
+Solution: The trap is choosing four separate V shapes by counting layers. Since the cut is at the meeting point of both folds, which is the centre of the sheet, all four reflections share that point and join into one symmetric four-pointed figure, so the answer is a single X-shaped or four-pointed star hole.
+Source: PYQ-style
+
+146. A sheet is folded in half vertically, then in half horizontally, then in half vertically again. A punch is made on the last fold's edge but off the other folds. Holes on unfolding:
+(a) 2 (b) 4 (c) 8 (d) 6
+Answer: (b)
+Solution: The tempting answer is 8, multiplying all three folds. The punch lies on one fold edge, which contributes no doubling, while the other two folds each double the image: 2 × 2 = 4, so the answer is 4.
+Source: PYQ-style
+
+147. A square paper is folded along one diagonal only, and two punches are made on the folded triangle, both away from the fold. Total holes after unfolding:
+(a) 2 (b) 4 (c) 3 (d) 8
+Answer: (b)
+Solution: The trap is answering 2, forgetting that each punch goes through 2 layers. Each punch mirrors across the diagonal to give 2 holes, so two punches give 2 × 2 = 4 holes, so the answer is 4.
+Source: PYQ-style
+
+148. A rectangular sheet is folded in half along its length, then a straight cut is made from a point on the fold edge to a point on the open edge, removing a triangular piece. On unfolding, the sheet shows:
+(a) One triangular notch on one edge (b) Two separate triangular notches on opposite edges (c) One diamond-shaped notch on the fold line (d) A hole in the interior
+Answer: (c)
+Solution: The tempting answer is two separate notches, one per layer. Because one endpoint of the cut lies on the fold, the mirrored triangles share that base line and join into a single diamond-shaped notch centred on the fold line, so the answer is one diamond-shaped notch on the fold line.
+Source: PYQ-style
+
+149. A square sheet is folded in half vertically, then horizontally, then a punch is made at the corner of the folded square that is fully open (no fold edges). Holes after unfolding:
+(a) 4 (b) 2 (c) 1 (d) 8
+Answer: (a)
+Solution: The trap is answering 1, thinking a corner punch stays single. The fully open corner corresponds to the four outer corners of the original sheet stacked together, and the punch makes one hole at each corner, so the answer is 4.
+Source: PYQ-style
+
+150. A square sheet is folded along the vertical centre line, then along the horizontal centre line, then along the diagonal of the resulting small square. A punch is made away from all fold edges. The number of holes on unfolding is:
+(a) 16 (b) 4 (c) 6 (d) 8
+Answer: (d)
+Solution: The tempting answer is 16, doubling four times for three folds. Three folds give 2 × 2 × 2 = 8 layers at a general point, and the punch produces one hole per layer, so the answer is 8.
+Source: PYQ-style
