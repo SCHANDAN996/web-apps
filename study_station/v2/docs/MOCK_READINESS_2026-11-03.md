@@ -15,7 +15,7 @@ Live server के question bank पर नए read-only `app.mock_audit` से
 
 ## साझा कमियाँ और अगला क्रम
 
-1. Online selection पूरे subject से होती है; APK exact exam level भी लगाता है। Exact-level pool में संख्या अभी पर्याप्त मिली, पर online/offline selection नीति समान करना बाकी है। Difficulty को exam suitability का पर्याप्त प्रमाण न मानें।
+1. जाँच में Online selection पूरे subject से होती मिली; APK exact exam level लगाता था। इसी चरण में online availability और नए test selection में भी exact exam level लागू किया गया है। पुराने attempts की question IDs नहीं बदलतीं। Difficulty को exam suitability का पर्याप्त प्रमाण न मानें।
 2. Online attempts के marking rules exam catalog से पढ़े जाते हैं। पुराने attempt के लिए rules और pattern version freeze करने होंगे; वर्तमान attempts सुरक्षित migrate हों।
 3. Topic quotas, linked passages/DI/puzzles और language-specific पर्याप्तता को वास्तविक exam coverage से जोड़ना बाकी है। Audit में language, level, topic, difficulty और review status की गिनती मिलती है।
 4. हर परीक्षा के लिए मूल official notification URL/year/check date और versioned pattern जाँचना बाकी है। पुराने global checked-month को नई आधिकारिक पुष्टि नहीं माना गया।
@@ -28,6 +28,7 @@ Live server के question bank पर नए read-only `app.mock_audit` से
 - Online छोटे अभ्यास के card/detail में वही वास्तविक सवाल, समय और maximum marks जो start करते समय मिलेंगे। पूरा प्रश्न सेट और छोटा अभ्यास अलग labels।
 - कठिन नियमों वाले presets पर timer/session सीमाएँ स्पष्ट। पूरे pattern के समान होने वाला पुराना blanket दावा हटाया।
 - Offline English section में English text के बिना सवाल नहीं चुने जाएँगे।
+- Online/offline दोनों में नए mock के लिए exam level लागू; learner की qualification दूसरे level के सवाल मिलाने का कारण नहीं बनेगी।
 
 ## चलाना
 

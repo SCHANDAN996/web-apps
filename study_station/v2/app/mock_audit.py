@@ -33,14 +33,15 @@ def audit(db):
         for section in exam.sections:
             pool = [r for r in usable if r[0] == section.subject_id]
             english = section.subject.slug == 'english'
-            online = sum(r[4] if english else r[2] for r in pool)
             level_pool = [r for r in pool if r[1] == exam.level]
+            online = sum(r[4] if english else r[2] for r in level_pool)
             sections.append({'subject': section.subject.slug, 'required': section.questions,
                              'online_pool': online,
+                             'all_level_subject_pool': sum(r[4] if english else r[2] for r in pool),
                              'exact_level_pool': sum(r[4] if english else r[2] for r in level_pool),
                              'hindi_at_level': sum(r[3] for r in level_pool),
                              'english_at_level': sum(r[4] for r in level_pool)})
-        gaps = ['online_level_filter_missing', 'attempt_rules_not_snapshotted']
+        gaps = ['attempt_rules_not_snapshotted']
         if exam.slug in ('ibps-clerk', 'ibps-po'):
             gaps.append('sectional_timer_not_enforced')
         if exam.slug == 'ssc-mts':

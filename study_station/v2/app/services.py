@@ -187,20 +187,23 @@ def start_retry_wrong(db: Session, device: Device, attempt_id: int):
 
 
 # ---------------------------------------------------------------- mock
-def section_pool_filter(subject_slug, subject_id):
+def section_pool_filter(subject_slug, subject_id, level=None):
     # topic_id IN (…) uses ix_question_topic_status; a per-row EXISTS on topic does not.
     f = and_(Question.topic_id.in_(select(Topic.id).where(Topic.subject_id == subject_id)), USABLE)
+    if level:
+        f = and_(f, Question.level == level)
     if subject_slug == 'english':
         f = and_(f, Question.text_en.is_not(None))   # English section must be in English
     return f
 
 
 def section_counts(db: Session):
-    """Usable questions per subject as {subject_id: (all, with English text)} — one query serves every
+    """Usable questions per subject/level as {(subject_id, level): (all, with English text)} — one query serves every
     section of every exam (the mock list shows them all)."""
-    rows = db.execute(select(Topic.subject_id, func.count(Question.id), func.count(Question.text_en))
-                      .join(Topic, Question.topic_id == Topic.id).where(USABLE).group_by(Topic.subject_id))
-    return {sid: (n, n_en) for sid, n, n_en in rows}
+    rows = db.execute(select(Topic.subject_id, Question.level, func.count(Question.id), func.count(Question.text_en))
+                      .join(Topic, Question.topic_id == Topic.id).where(USABLE)
+                      .group_by(Topic.subject_id, Question.level))
+    return {(sid, level): (n, n_en) for sid, level, n, n_en in rows}
 
 
 _counts = {'at': 0.0, 'value': None, 'bind': None}
@@ -276,7 +279,7 @@ def mock_plan(db: Session, exam: Exam, counts=None):
     counts = section_counts(db) if counts is None else counts
     plan = []
     for sec in exam.sections:
-        n, n_en = counts.get(sec.subject_id, (0, 0))
+        n, n_en = counts.get((sec.subject_id, exam.level), (0, 0))
         available = n_en if sec.subject.slug == 'english' else n
         plan.append({'section': sec, 'available': available, 'ok': available >= sec.questions})
     return plan
@@ -301,7 +304,7 @@ def start_mock(db: Session, device: Device, exam_slug: str):
     seen = seen_question_ids(db, device)
     ids, used_q, total_q = [], 0, sum(s.questions for s in exam.sections)
     for sec in exam.sections:
-        own, other = _pool(db, section_pool_filter(sec.subject.slug, sec.subject_id), device.lang)
+        own, other = _pool(db, section_pool_filter(sec.subject.slug, sec.subject_id, exam.level), device.lang)
         if len(own) + len(other) < sec.questions:
             continue                      # same rule as mock_plan: only sections we can fill honestly
         ids += _choose(own, other, sec.questions, seen)
