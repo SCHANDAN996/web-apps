@@ -125,6 +125,9 @@ def run(slot, day, data, part=None):
 
 
 def run_shorts(a, day, data):
+    if getattr(a, 'once', False) and plog.batches(data, day.isoformat(), 'shorts'):
+        print(f'shorts: already made for {day} — nothing to do')
+        return 0
     from . import shorts
     qs = shorts.pick_shorts(day, a.count, data['shorts'], a.level)
     if a.dry_run:
@@ -229,6 +232,8 @@ def main(argv=None):
     sh.add_argument('--date', help='YYYY-MM-DD (default: today in IST)')
     sh.add_argument('--youtube', action='store_true', help='also upload to the authorized YouTube channel')
     sh.add_argument('--telegram', action='store_true', help='also post each video to the Telegram channel')
+    sh.add_argument('--once', action='store_true',
+                    help="skip if today's videos were already made (the workflow retries every 30 minutes)")
     a = ap.parse_args(argv)
     day = date.fromisoformat(a.date) if a.date else datetime.now(IST).date()
     data = plog.load()

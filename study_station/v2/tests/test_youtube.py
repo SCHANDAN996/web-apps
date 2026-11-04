@@ -205,3 +205,11 @@ def test_public_upload_is_scheduled(monkeypatch, tmp_path):
                               'selfDeclaredMadeForKids': False}
     entry = json.loads((tmp_path / 'journal.json').read_text())['uploads']['UCexpected:q1']
     assert entry['publish_at'] == '2026-11-04T03:30:00Z'
+
+
+def test_once_skips_when_today_is_done(monkeypatch, tmp_path):
+    from app.promo import shorts
+    monkeypatch.setattr(shorts, 'pick_shorts', lambda *a: pytest.fail('picked again'))
+    data = {'shorts': ['q1'], 'telegram': [], 'days': {'2026-11-04': {'shorts': [[{'id': 'q1'}]]}}}
+    a = SimpleNamespace(count=3, level=None, dry_run=False, youtube=True, telegram=False, out=str(tmp_path), once=True)
+    assert cli.run_shorts(a, date(2026, 11, 4), data) == 0
