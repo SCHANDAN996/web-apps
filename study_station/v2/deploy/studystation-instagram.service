@@ -1,0 +1,26 @@
+# EXAMPLE ONLY: do not start before manual account/UI verification.
+# The display must already be private, persistent and accessible to this OS user.
+[Unit]
+Description=StudyStation Instagram approval companion
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=studystation-instagram
+WorkingDirectory=/opt/studystation-instagram/study_station/v2
+EnvironmentFile=/etc/studystation-instagram.env
+Environment=GH_CONFIG_DIR=/var/lib/studystation-instagram/gh
+Environment=PLAYWRIGHT_BROWSERS_PATH=/var/lib/studystation-instagram/browsers
+Environment=TMPDIR=/var/lib/studystation-instagram/tmp
+ExecStart=/opt/studystation-instagram/study_station/v2/.venv/bin/python -m app.promo.instagram_worker --state-dir /var/lib/studystation-instagram --account ${IG_ACCOUNT} --enable-publish
+# Intentional: stop on errors; never restart a failed/ambiguous public Share blindly.
+Restart=no
+UMask=0077
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/studystation-instagram
+
+[Install]
+WantedBy=multi-user.target
