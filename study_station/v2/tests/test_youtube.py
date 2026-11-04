@@ -178,11 +178,11 @@ def test_publish_time_slots(monkeypatch):
     from datetime import datetime, timezone
     monkeypatch.delenv('YOUTUBE_PUBLISH_TIMES', raising=False)
     day = date(2026, 11, 4)
-    early = datetime(2026, 11, 3, 23, 31, tzinfo=timezone.utc)          # 05:01 IST
+    early = datetime(2026, 11, 3, 19, 31, tzinfo=timezone.utc)          # 01:01 IST
     got = [youtube.publish_time(day, i, early) for i in range(4)]
-    assert [g.strftime('%H:%M') for g in got[:3]] == ['03:30', '08:30', '13:30'] and got[3] is None
+    assert [g.strftime('%H:%M') for g in got[:3]] == ['00:30', '08:30', '13:30'] and got[3] is None
     late = datetime(2026, 11, 4, 8, 20, tzinfo=timezone.utc)            # 13:50 IST: 14:00 too close
-    assert youtube.publish_time(day, 0, late) is None and youtube.publish_time(day, 1, late) is None
+    assert youtube.publish_time(day, 0, late) is None and youtube.publish_time(day, 1, late) is None  # 06:00 gone, 14:00 too close
     assert youtube.publish_time(day, 2, late).strftime('%H:%M') == '13:30'
     monkeypatch.setenv('YOUTUBE_PUBLISH_TIMES', 'nine')
     with pytest.raises(youtube.YouTubeError, match='PUBLISH_TIMES'):

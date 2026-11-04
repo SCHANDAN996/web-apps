@@ -20,13 +20,13 @@ class YouTubeError(Exception):
 
 
 IST = timezone(timedelta(hours=5, minutes=30))
-DEFAULT_PUBLISH_TIMES = '09:00,14:00,19:00'      # IST; between the Telegram slots (07:30 · 12:30 · 18:00)
+DEFAULT_PUBLISH_TIMES = '06:00,14:00,19:00'      # IST; around the Telegram slots (07:30 · 12:30 · 18:00)
 
 
 def publish_time(day, index, now=None):
-    """When the index-th Short of `day` goes public (UTC), from YOUTUBE_PUBLISH_TIMES ('09:00,14:00,19:00', IST).
+    """When the index-th Short of `day` goes public (UTC), from YOUTUBE_PUBLISH_TIMES ('06:00,14:00,19:00', IST).
     None = publish at once: no slot for this index, or the slot is under 15 minutes away (a late manual run)."""
-    raw = os.environ.get('YOUTUBE_PUBLISH_TIMES', DEFAULT_PUBLISH_TIMES).strip()
+    raw = os.environ.get('YOUTUBE_PUBLISH_TIMES', '').strip() or DEFAULT_PUBLISH_TIMES   # unset repo variable = ''
     try:
         slots = [time.fromisoformat(t.strip()) for t in raw.split(',') if t.strip()]
     except ValueError:
