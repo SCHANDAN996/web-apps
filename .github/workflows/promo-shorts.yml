@@ -1,4 +1,4 @@
-# Study Station promotion — 3 vertical quiz videos (Shorts/Reels) every morning, made from the book files.
+# Study Station promotion — 3 vertical quiz videos (Shorts/Reels) every night (1 AM IST), public through the day, made from the book files.
 # YouTube uploads are enabled with YOUTUBE_AUTO_UPLOAD=true after one-time OAuth setup (promo/YOUTUBE.md).
 # Artifacts remain available for Instagram/manual use.
 # Optional repository variable PROMO_TELEGRAM (e.g. t.me/yourchannel) is shown at the end of every video.
@@ -7,8 +7,8 @@ name: Promo Shorts
 
 on:
   schedule:
-    - cron: '31 23 * * *'      # 05:01 IST
-    - cron: '1,31 0-2 * * *'   # GitHub often delays/drops schedules: retry until 08:31 IST (--once = one batch a day)
+    - cron: '31 19 * * *'      # 01:01 IST; videos go public at 06:00, 14:00, 19:00 IST (YOUTUBE_PUBLISH_TIMES)
+    - cron: '1,31 20-23 * * *' # GitHub often delays/drops schedules: retry until 05:31 IST (--once = one batch a day)
   workflow_dispatch:
     inputs:
       count:
@@ -63,6 +63,7 @@ jobs:
           YOUTUBE_CHANNEL_ID: ${{ vars.YOUTUBE_CHANNEL_ID }}
           YOUTUBE_PRIVACY_STATUS: ${{ vars.YOUTUBE_PRIVACY_STATUS || 'private' }}
           YOUTUBE_MADE_FOR_KIDS: ${{ vars.YOUTUBE_MADE_FOR_KIDS }}
+          YOUTUBE_PUBLISH_TIMES: ${{ vars.YOUTUBE_PUBLISH_TIMES }}
           PROMO_YOUTUBE_POSTED: ${{ github.workspace }}/study_station/promo/youtube_uploads.json
           PROMO_YOUTUBE_GIT_CHECKPOINT: 'true'
           PROMO_YOUTUBE_BRANCH: ${{ github.event_name == 'workflow_dispatch' && github.ref_name != 'main' && github.ref_name || env.BOOKS_BRANCH }}
