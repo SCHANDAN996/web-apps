@@ -153,6 +153,8 @@ def run_shorts(a, day, data):
             print(f"skip {q['id']}: {e}")
             continue
         (out / f'{n:02d}.txt').write_text(shorts.caption(q), encoding='utf-8')
+        from . import instagram
+        instagram.enqueue(q['id'], out / f'{n:02d}.mp4', shorts.caption(q), day.isoformat())
         item = {'id': q['id'], 'file': f'{n:02d}.mp4'}
         if a.telegram:
             try:

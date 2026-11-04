@@ -1,0 +1,22 @@
+[Unit]
+Description=Publish existing StudyStation Shorts to Instagram (browser companion)
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=studystation-ig
+Group=studystation-ig
+WorkingDirectory=/opt/studystation-instagram/source/study_station/v2
+Environment=HOME=/var/lib/studystation-instagram
+Environment=PLAYWRIGHT_BROWSERS_PATH=/opt/studystation-instagram/browsers
+EnvironmentFile=/etc/studystation-instagram.conf
+UMask=0077
+ExecStart=/bin/bash /opt/studystation-instagram/source/study_station/v2/deploy/instagram-run.sh
+TimeoutStartSec=30min
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/studystation-instagram
+# No automatic Restart: interrupted/uncertain Share needs operator reconciliation.

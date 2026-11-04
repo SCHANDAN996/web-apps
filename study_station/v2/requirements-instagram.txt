@@ -1,0 +1,3 @@
+# Optional; installed only on the dedicated persistent desktop/server publisher.
+# The GitHub render workflow does not need a browser or this dependency.
+playwright>=1.51,<2
