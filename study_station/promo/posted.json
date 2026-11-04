@@ -11,7 +11,12 @@
   "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_09_Economy_Basic#Set05#Q107",
   "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_04_Constitution_Basic#Set04#Q83",
   "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_10_Voice#Set03#Q75",
-  "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_21_International_Orgs#Memory_Hooks_hi.txt#13"
+  "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_21_International_Orgs#Memory_Hooks_hi.txt#13",
+  "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_18_Science_Tech#Set05#Q117",
+  "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_09_Simple_Interest#Set05#Q112",
+  "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_04_Verb#Set01#Q10",
+  "Graduation_Level/Reasoning/Chapter_22_Figure_Series#Set02#Q32",
+  "Graduation_Level/Reasoning/Chapter_04_Blood_Relations#Set02#Q47"
  ],
  "shorts": [],
  "days": {
@@ -131,6 +136,58 @@
       "opt": "He was found guilty by the jury.",
       "exp": "उत्तर: He was found guilty by the jury. Simple past से \"was found\" बनता है।",
       "part": "am"
+     }
+    ],
+    [
+     {
+      "id": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_18_Science_Tech#Set05#Q117",
+      "msg": 233,
+      "chapter": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_18_Science_Tech",
+      "q": "निम्नलिखित में से कौन-सी धातु कमरे के तापमान पर द्रव होती है?",
+      "ans": 3,
+      "opt": "पारा (मरकरी)",
+      "exp": "उत्तर: पारा (मरकरी)। पारा ही एकमात्र धातु है जो सामान्य परिस्थितियों में कमरे के तापमान पर द्रव होती है, इसलिए उत्तर पारा है।",
+      "part": "pm"
+     },
+     {
+      "id": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_09_Simple_Interest#Set05#Q112",
+      "msg": 234,
+      "chapter": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_09_Simple_Interest",
+      "q": "₹5,000 दो भागों में उधार दिए गए, एक 4% और दूसरा 6% वार्षिक साधारण ब्याज पर। 2 वर्ष बाद कुल ब्याज ₹520 है। 4% पर कितनी राशि दी गई?",
+      "ans": 1,
+      "opt": "₹2,000",
+      "exp": "उत्तर: ₹2,000। माना 4% पर x दिया गया: [4x + 6(5000 − x)] × 2/100 = 520, अतः 30000 − 2x = 26000, जिससे x = 2000, इसलिए उत्तर ₹2,000 है।",
+      "part": "pm"
+     },
+     {
+      "id": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_04_Verb#Set01#Q10",
+      "msg": 235,
+      "chapter": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_04_Verb",
+      "q": "क्रिया का प्रकार पहचानें: The baby slept soundly.",
+      "ans": 2,
+      "opt": "intransitive (अकर्मक)",
+      "exp": "उत्तर: intransitive (अकर्मक)। \"Slept\" कर्म नहीं लेती — क्रिया किसी वस्तु पर नहीं जाती — इसलिए यह अकर्मक (intransitive) है।",
+      "part": "pm"
+     },
+     {
+      "id": "Graduation_Level/Reasoning/Chapter_22_Figure_Series#Set02#Q32",
+      "msg": 236,
+      "chapter": "Graduation_Level/Reasoning/Chapter_22_Figure_Series",
+      "q": "एक श्रृंखला में एक तीर चरण 1–2 में 45° दक्षिणावर्त, चरण 2–3 में 90°, चरण 3–4 में 135° घूमता है। आगे उसे कितना घूमना चाहिए?",
+      "ans": 0,
+      "opt": "180°",
+      "exp": "उत्तर: 180°। वृद्धियाँ स्वयं 45° से बढ़ती हैं: 45, 90, 135, इसलिए अगली वृद्धि 180° है।",
+      "part": "pm"
+     },
+     {
+      "id": "Graduation_Level/Reasoning/Chapter_04_Blood_Relations#Set02#Q47",
+      "msg": 237,
+      "chapter": "Graduation_Level/Reasoning/Chapter_04_Blood_Relations",
+      "q": "R, Q की बेटी है। M, B की बहन है, जो Q का बेटा है। M, R से किस प्रकार संबंधित है?",
+      "ans": 3,
+      "opt": "बहन",
+      "exp": "उत्तर: बहन। B, Q का बेटा है और R, Q की बेटी है, अतः B और R भाई-बहन हैं; M, B की बहन है, इसलिए वह भी Q की संतान है, इसलिए उत्तर बहन है।",
+      "part": "pm"
      }
     ]
    ],
