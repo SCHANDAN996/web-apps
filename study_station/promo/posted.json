@@ -17,7 +17,13 @@
   "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_04_Verb#Set01#Q10",
   "Graduation_Level/Reasoning/Chapter_22_Figure_Series#Set02#Q32",
   "Graduation_Level/Reasoning/Chapter_04_Blood_Relations#Set02#Q47",
-  "revision#2026-11-04"
+  "revision#2026-11-04",
+  "10th_Level/Reasoning/Chapter_06_Order_Ranking#Set01#Q7",
+  "10th_Level/English/Foundation_10th_English_WorldClass/Chapter_08_Conjunction#Set05#Q108",
+  "10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_04_Constitution_Basic#Set03#Q53",
+  "10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_20_Number_Series#Set06#Q129",
+  "10th_Level/Reasoning/Chapter_18_Inequality#Set05#Q125",
+  "10th_Level/Reasoning/Chapter_12_Missing_Term#Short_Tricks_hi.txt#9"
  ],
  "shorts": [],
  "days": {
@@ -205,6 +211,70 @@
      {
       "id": "revision#2026-11-04",
       "msg": 238
+     }
+    ]
+   ]
+  },
+  "2026-11-05": {
+   "quiz": [
+    [
+     {
+      "id": "10th_Level/Reasoning/Chapter_06_Order_Ranking#Set01#Q7",
+      "msg": 240,
+      "chapter": "10th_Level/Reasoning/Chapter_06_Order_Ranking",
+      "q": "एक पंक्ति में 3रे और 8वें व्यक्ति के बीच (एक ही छोर से) कितने व्यक्ति हैं?",
+      "ans": 2,
+      "opt": "4",
+      "exp": "उत्तर: 4। बीच में = 8 − 3 − 1 = 4।",
+      "part": "am"
+     },
+     {
+      "id": "10th_Level/English/Foundation_10th_English_WorldClass/Chapter_08_Conjunction#Set05#Q108",
+      "msg": 241,
+      "chapter": "10th_Level/English/Foundation_10th_English_WorldClass/Chapter_08_Conjunction",
+      "q": "सही conjunction चुनें: \"______ it was raining heavily, the match continued.\"",
+      "ans": 0,
+      "opt": "Although",
+      "exp": "उत्तर: Although। Concession के लिए \"although\" चाहिए, इसलिए उत्तर \"Although\" है।",
+      "part": "am"
+     },
+     {
+      "id": "10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_04_Constitution_Basic#Set03#Q53",
+      "msg": 242,
+      "chapter": "10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_04_Constitution_Basic",
+      "q": "किस संविधान संशोधन अधिनियम द्वारा उद्देशिका में 'समाजवादी', 'धर्मनिरपेक्ष' और 'अखंडता' शब्द जोड़े गए थे?",
+      "ans": 1,
+      "opt": "42वाँ संशोधन अधिनियम, 1976",
+      "exp": "उत्तर: 42वाँ संशोधन अधिनियम, 1976। उद्देशिका में अब तक केवल एक बार 42वें संशोधन अधिनियम (1976) द्वारा संशोधन कर 'समाजवादी', 'धर्मनिरपेक्ष' और 'अखंडता' शब्द जोड़े गए।",
+      "part": "am"
+     },
+     {
+      "id": "10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_20_Number_Series#Set06#Q129",
+      "msg": 243,
+      "chapter": "10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_20_Number_Series",
+      "q": "अगला पद: 2, 3, 6, 15, 45, ?",
+      "ans": 2,
+      "opt": "157.5",
+      "exp": "उत्तर: 157.5। जाल वाला 150, ×3.33 या कोई पूर्णांक मानता है; 45 × 3.5 = 157.5, इसलिए उत्तर 157.5 है।",
+      "part": "am"
+     },
+     {
+      "id": "10th_Level/Reasoning/Chapter_18_Inequality#Set05#Q125",
+      "msg": 244,
+      "chapter": "10th_Level/Reasoning/Chapter_18_Inequality",
+      "q": "⚠️ एक निश्चित कोड में: 'A α B' का अर्थ A > B, 'A β B' का अर्थ A < B, 'A γ B' का अर्थ A = B, 'A δ B' का अर्थ A ≥ B, 'A ε B' का अर्थ A ≤ B\nकथन: M δ N, N α O, O γ P, P β Q, Q δ R, R ε S\nनिष्कर्ष: I. M α Q II. O β R III. N γ P IV. M δ S",
+      "ans": 2,
+      "opt": "कोई भी अनुसरण नहीं करता",
+      "exp": "उत्तर: कोई भी अनुसरण नहीं करता। जाल N > P को N = P के अनुरूप मानना है, इसलिए उत्तर है कि कोई भी अनुसरण नहीं करता।",
+      "part": "am"
+     }
+    ]
+   ],
+   "trick": [
+    [
+     {
+      "id": "10th_Level/Reasoning/Chapter_12_Missing_Term#Short_Tricks_hi.txt#9",
+      "msg": 245
      }
     ]
    ]

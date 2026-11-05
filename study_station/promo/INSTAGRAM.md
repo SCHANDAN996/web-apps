@@ -8,6 +8,10 @@ The existing **Promo Shorts** workflow still generates the videos once. Each art
 `01.instagram.json` etc.: question ID, video filename, SHA-256 checksum and caption. No passwords,
 cookies or profile data are included. Nothing is automatically posted to Instagram by that workflow.
 
+YouTube TXT, metadata JSON and uploader share one `shorts.metadata(q)` payload. Instagram formats
+that same payload's bilingual topic, honest practice context and subject hashtags into its own caption
+(maximum 2200 characters), without copying the YouTube title/description or exposing the answer.
+
 ## Persistent PC / server
 
 Use a dedicated account on an always-on machine with a graphical desktop (or a privately accessible

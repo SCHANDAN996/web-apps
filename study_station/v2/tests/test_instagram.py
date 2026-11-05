@@ -123,13 +123,53 @@ def test_shorts_render_exports_instagram_queue(monkeypatch, tmp_path):
     from app.promo import __main__ as cli, shorts
     monkeypatch.setattr(shorts, 'pick_shorts', lambda *_: [{'id': 'question1'}])
     monkeypatch.setattr(shorts, 'render', lambda q, path, frames: path.write_bytes(b'rendered'))
-    monkeypatch.setattr(shorts, 'caption', lambda q: 'Ready caption')
+    calls = []
+    payload = {'title': 'SEO title', 'description': 'SEO description\n\n#Shorts #GK #StudyStation',
+               'tags': ['GK'], 'topic_hi': 'संविधान', 'topic_en': 'Constitution', 'exams': ['SSC CHSL']}
+    def metadata(q):
+        calls.append(q['id'])
+        return payload
+    monkeypatch.setattr(shorts, 'metadata', metadata)
     monkeypatch.setattr(cli.plog, 'save', lambda data: None)
     args = SimpleNamespace(count=1, level=None, dry_run=False, out=str(tmp_path), telegram=False)
     data = {'shorts': [], 'days': {}, 'telegram': []}
     assert cli.run_shorts(args, date(2026, 11, 5), data) == 0
     item = ig.load_queue(tmp_path)[0]
-    assert item['id'] == 'question1' and item['caption'] == 'Ready caption'
+    assert item['id'] == 'question1' and item['caption'] == ig.caption(payload)
+    assert calls == ['question1']
+    assert json.loads((tmp_path / '01.metadata.json').read_text(encoding='utf-8')) == payload
+    assert (tmp_path / '01.txt').read_text(encoding='utf-8') == payload['title'] + '\n\n' + payload['description'] + '\n'
+    assert 'SEO title' not in item['caption'] and 'SEO description' not in item['caption']
+
+
+def test_instagram_caption_reuses_verified_topic_without_solution(monkeypatch):
+    from app.promo import metadata
+    monkeypatch.setattr(metadata, 'chapter_topics', lambda q: ('संविधान ' * 2000, 'Constitution ' * 2000))
+    payload = metadata.build({'subject': 'GK', 'level': '12th_Level', 'question': '#ANSWER_SECRET actual question?',
+                              'options': ['one', 'two'], 'answer': 1, 'explanation': 'SOLUTION_SECRET'})
+    value = ig.caption(payload)
+    assert len(value) <= 2200 and 'Constitution' in value and 'संविधान' in value
+    assert '#GK' in value and '#StudyStation' in value and '#Shorts' not in value
+    assert 'SSC CHSL' in value and 'SOLUTION_SECRET' not in value and '#ANSWER_SECRET' not in value
+
+
+def test_overlong_caption_is_rejected_before_manifest_write(tmp_path):
+    video = tmp_path / '01.mp4'
+    video.write_bytes(b'video')
+    with pytest.raises(ig.InstagramError, match='2200'):
+        ig.enqueue('q1', video, 'x' * 2201, '2026-11-05')
+    assert not video.with_suffix('.instagram.json').exists()
+
+
+@pytest.mark.parametrize('caption', ['', '   ', 'x' * 2201])
+def test_queue_rejects_invalid_caption(tmp_path, caption):
+    queue = bundle(tmp_path)
+    path = queue / '01.instagram.json'
+    item = json.loads(path.read_text(encoding='utf-8'))
+    item['caption'] = caption
+    ig.atomic_json(path, item)
+    with pytest.raises(ig.InstagramError, match='caption'):
+        ig.load_queue(queue)
 
 
 def test_state_rejects_another_git_checkout_and_worktree(tmp_path):

@@ -51,7 +51,34 @@ def atomic_json(path, value):
             os.unlink(name)
 
 
+def caption(metadata):
+    """Instagram copy from the same verified topic payload used by YouTube.
+
+    No question/answer reconstruction or YouTube title/description duplication.
+    Topic lengths are bounded by the metadata generator; retain a final guard.
+    """
+    from .metadata import clean, whole_prefix
+    hi = whole_prefix(metadata['topic_hi'], 100)
+    en = whole_prefix(metadata['topic_en'], 100)
+    lines = [f'{hi} | {en}', 'एक सवाल, छोटी practice — पहले अपना विकल्प चुनें।',
+             'उत्तर और हल वीडियो में देखें। Save करें और अपनी practice जारी रखें।']
+    exams = [whole_prefix(value, 60) for value in metadata.get('exams', [])]
+    if exams:
+        lines.append('अभ्यास संदर्भ / Practice for: ' + ', '.join(exams))
+    lines += ['Hindi-first quiz practice • StudyStation',
+              'GK, Maths, Reasoning और English', 'https://t.me/studystation_hindi']
+    # Reuse only the generator's explicit, relevant hashtags; omit YouTube's Shorts tag.
+    hashtags = re.findall(r'(?<!\w)#[A-Za-z][A-Za-z0-9_]*', metadata['description'].splitlines()[-1])
+    hashtags = list(dict.fromkeys(tag for tag in hashtags if tag != '#Shorts'))
+    result = '\n\n'.join(lines) + '\n\n' + ' '.join(hashtags)
+    if not clean(hi) or len(result) > 2200:
+        raise InstagramError('invalid Instagram caption metadata')
+    return result
+
+
 def enqueue(question_id, video, caption, day):
+    if not isinstance(caption, str) or not caption.strip() or len(caption) > 2200:
+        raise InstagramError('invalid caption or caption exceeds 2200 characters')
     video = Path(video)
     revision = subprocess.run(['git', '-C', str(REPO), 'rev-parse', 'HEAD'],
                               capture_output=True, text=True, timeout=10, check=True).stdout.strip()
@@ -82,7 +109,7 @@ def load_queue(folder):
                 raise InstagramError('invalid queue version or question id')
             if item['id'] in seen:
                 raise InstagramError('duplicate question in queue')
-            if not isinstance(item['caption'], str) or len(item['caption']) > 2200:
+            if not isinstance(item['caption'], str) or not item['caption'].strip() or len(item['caption']) > 2200:
                 raise InstagramError('invalid caption or caption exceeds 2200 characters')
             if hashlib.sha256(video.read_bytes()).hexdigest() != item['sha256']:
                 raise InstagramError('video checksum mismatch')

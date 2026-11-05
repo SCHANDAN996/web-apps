@@ -11,6 +11,8 @@ SHA-256 and the rendered source ref/SHA. A separate server companion polls succe
 runs in SCHANDAN996/web-apps. It accepts the actual main scheduler and canonical manual runs, then
 requires manifests to identify the canonical rendered source. Successful --once no-output retries
 are skipped. It never changes YouTube/Telegram schedules or generates a second batch.
+The worker verifies every distinct rendered SHA is an ancestor of the current canonical branch
+through GitHub compare; source ref and SHA are included in the private batch digest used on resume.
 
 Only runs created after init and within GitHub's 14-day artifact retention are discovered. Do not
 backfill historical videos automatically. Private browser profile and journals remain on the same

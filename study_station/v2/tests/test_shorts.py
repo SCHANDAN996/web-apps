@@ -59,7 +59,7 @@ def test_caption(monkeypatch):
     text = shorts.caption(Q)
     title = text.split('\n')[0]
     assert len(title) <= 90 and title.endswith('#Shorts')
-    assert 't.me/ss_test' in text and text.count('#') >= 5 and 'अनुच्छेद 17' in text
+    assert 't.me/ss_test' in text and text.count('#') == 4 and 'अनुच्छेद 17' in text
 
 
 def test_pick_shorts():
@@ -153,7 +153,7 @@ def test_short_rejects_explanation_too_long_to_read_without_truncating():
 
 def test_seo_title_tags_and_thumbnail(tmp_path):
     title = shorts.caption(Q).split('\n')[0]
-    assert len(title) <= 90 and title.endswith('#Shorts') and 'SSC CHSL' in title and 'अनुच्छेद' in title
+    assert len(title) <= 90 and title.endswith('#Shorts') and 'GK Quiz Hindi' in title
     tags = shorts.tags(Q)
     assert 'GK in Hindi' in tags and 'SSC CHSL' in tags and sum(len(t) + 3 for t in tags) <= 500
     assert len(tags) == len({t.lower() for t in tags})

@@ -82,6 +82,37 @@ def test_digest_binds_caption(tmp_path):
         worker.cycle(tmp_path, data, lambda *_: pytest.fail('publish'))
 
 
+@pytest.mark.parametrize('field,value', [('source_ref', 'untrusted'), ('source_sha', 'a' * 40)])
+def test_digest_binds_source_provenance(tmp_path, field, value):
+    data = state(tmp_path)
+    meta = tmp_path / 'queue' / '42' / '01.instagram.json'
+    item = json.loads(meta.read_text())
+    item[field] = value
+    ig.atomic_json(meta, item)
+    with pytest.raises(ig.InstagramError, match='changed'):
+        worker.cycle(tmp_path, data, lambda *_: pytest.fail('publish'))
+
+
+@pytest.mark.parametrize('status,valid', [('ahead', True), ('identical', True), ('diverged', False), ('behind', False)])
+def test_manifest_revision_must_belong_to_canonical_history(tmp_path, monkeypatch, status, valid):
+    queue(tmp_path / 'queue')
+    meta = tmp_path / 'queue' / '01.instagram.json'
+    item = json.loads(meta.read_text())
+    item.update(source_ref=worker.BRANCH, source_sha='a' * 40)
+    ig.atomic_json(meta, item)
+    calls = []
+    def api(endpoint):
+        calls.append(endpoint)
+        return {'status': status}
+    monkeypatch.setattr(worker, 'gh_json', api)
+    if valid:
+        worker.validate_source(tmp_path / 'queue')
+    else:
+        with pytest.raises(ig.InstagramError, match='canonical'):
+            worker.validate_source(tmp_path / 'queue')
+    assert calls == [f'repos/{worker.REPOSITORY}/compare/{"a" * 40}...{worker.BRANCH}']
+
+
 def test_checkpoint_and_skip_done(tmp_path):
     data = state(tmp_path)
     calls = []

@@ -88,6 +88,25 @@ def unpack(archive_path, folder):
         raise
 
 
+def validate_source(folder):
+    """Require each rendered revision to belong to the current canonical history.
+
+    A main-scheduled run's head SHA describes the workflow, not checked-out code.
+    YouTube's durable checkpoints may advance HEAD between videos, so validate
+    each distinct manifest SHA rather than assuming one SHA for the whole run.
+    """
+    checked = set()
+    for item in ig.load_queue(folder):
+        revision = item.get('source_sha')
+        if item.get('source_ref') != BRANCH or not isinstance(revision, str) or not re.fullmatch('[a-f0-9]{40}', revision):
+            raise ig.InstagramError('artifact was not rendered from the expected source ref/revision')
+        if revision not in checked:
+            result = gh_json(f'repos/{REPOSITORY}/compare/{revision}...{BRANCH}')
+            if result.get('status') not in ('ahead', 'identical'):
+                raise ig.InstagramError('rendered revision is not in canonical source history')
+            checked.add(revision)
+
+
 def download(run, folder):
     artifacts = gh_json(f'repos/{REPOSITORY}/actions/runs/{int(run["id"])}/artifacts')['artifacts']
     expected = f'shorts-{int(run["run_number"])}'
@@ -122,16 +141,17 @@ def download(run, folder):
                 proc.wait()
                 proc.stdout.close()
         unpack(archive, folder)
-        for item in ig.load_queue(folder):
-            if item.get('source_ref') != BRANCH or not re.fullmatch('[a-f0-9]{40}', item.get('source_sha', '')):
-                shutil.rmtree(folder)
-                raise ig.InstagramError('artifact was not rendered from the expected source ref/revision')
+        try:
+            validate_source(folder)
+        except Exception:
+            shutil.rmtree(folder)
+            raise
     return True
 
 
 def digest(folder):
     items = ig.load_queue(folder)
-    value = [{k: item[k] for k in ('id', 'sha256', 'caption', 'video')} for item in items]
+    value = [{k: item.get(k) for k in ('id', 'sha256', 'caption', 'video', 'source_ref', 'source_sha')} for item in items]
     return hashlib.sha256(json.dumps(value, ensure_ascii=False, sort_keys=True).encode()).hexdigest()
 
 
