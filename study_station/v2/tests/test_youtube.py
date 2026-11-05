@@ -26,6 +26,8 @@ def handler(request):
         return httpx.Response(200, json={'access_token': 'access-secret'})
     if request.url.path.endswith('/channels'):
         return httpx.Response(200, json={'items': [{'id': 'UCexpected'}]})
+    if request.url.path.endswith('/videos') and request.method == 'GET':
+        return httpx.Response(200, json={'items': [{'processingDetails': {'processingStatus': 'succeeded'}}]})
     if request.method == 'POST':
         body = json.loads(request.content)
         assert body['status'] == {'privacyStatus': 'private', 'selfDeclaredMadeForKids': False}
@@ -108,6 +110,7 @@ def test_short_failure_keeps_render_and_successful_item_log(monkeypatch, tmp_pat
     monkeypatch.setattr(shorts, 'pick_shorts', lambda *a: [q])
     monkeypatch.setattr(shorts, 'render', lambda q, path, work: path.write_bytes(b'video'))
     monkeypatch.setattr(shorts, 'caption', lambda q: 'Title\n\nDescription')
+    monkeypatch.setattr(shorts, 'metadata', lambda q: {'title': 'Title', 'description': 'Description', 'tags': []})
     class BrokenUploader:
         def upload(self, *a, **kw):
             raise youtube.YouTubeError('Upload uncertain')
@@ -213,3 +216,83 @@ def test_once_skips_when_today_is_done(monkeypatch, tmp_path):
     data = {'shorts': ['q1'], 'telegram': [], 'days': {'2026-11-04': {'shorts': [[{'id': 'q1'}]]}}}
     a = SimpleNamespace(count=3, level=None, dry_run=False, youtube=True, telegram=False, out=str(tmp_path), once=True)
     assert cli.run_shorts(a, date(2026, 11, 4), data) == 0
+
+
+def test_thumbnail_waits_for_processing_before_setting(monkeypatch, tmp_path):
+    events = []
+    states = iter(['processing', 'succeeded'])
+    def track(request):
+        if request.method == 'GET' and request.url.path.endswith('/videos'):
+            events.append('processing')
+            return httpx.Response(200, json={'items': [{'processingDetails': {'processingStatus': next(states)}}]})
+        if request.url.path.endswith('/thumbnails/set'):
+            events.append('thumbnail')
+            return httpx.Response(200, json={})
+        return handler(request)
+    video = configured(monkeypatch, tmp_path, track)
+    monkeypatch.setattr(youtube.clock, 'sleep', lambda seconds: events.append('wait'))
+    thumb = tmp_path / 'cover.jpg'
+    thumb.write_bytes(b'jpeg')
+    youtube.Uploader().upload('q1', video, 'Question #Shorts\n\nD', date(2026, 11, 5), thumbnail=thumb)
+    assert events == ['processing', 'wait', 'processing', 'thumbnail']
+    entry = json.loads((tmp_path / 'journal.json').read_text())['uploads']['UCexpected:q1']
+    assert entry['thumbnail_status'] == 'accepted' and entry['status'] == 'uploaded'
+
+
+@pytest.mark.parametrize('state', ['processing', 'failed', None])
+def test_thumbnail_processing_failure_is_bounded_and_keeps_video(monkeypatch, tmp_path, state):
+    seen = []
+    def track(request):
+        if request.method == 'GET' and request.url.path.endswith('/videos'):
+            seen.append('processing')
+            return httpx.Response(200, json={'items': [{'processingDetails': {'processingStatus': state}}]})
+        if request.url.path.endswith('/thumbnails/set'):
+            pytest.fail('thumbnail attempted before processing succeeded')
+        return handler(request)
+    video = configured(monkeypatch, tmp_path, track)
+    monkeypatch.setattr(youtube.clock, 'sleep', lambda seconds: None)
+    thumb = tmp_path / 'cover.jpg'
+    thumb.write_bytes(b'jpeg')
+    assert youtube.Uploader().upload('q1', video, 'Question #Shorts\n\nD', date(2026, 11, 5), thumbnail=thumb) == 'video123'
+    assert len(seen) == (12 if state == 'processing' else 1)
+    entry = json.loads((tmp_path / 'journal.json').read_text())['uploads']['UCexpected:q1']
+    assert entry['thumbnail_status'] == 'not_set' and entry['status'] == 'uploaded'
+
+
+@pytest.mark.parametrize('payload', [[], {'items': [None]}, {'items': [{'processingDetails': None}]}])
+def test_malformed_processing_response_is_nonfatal(monkeypatch, tmp_path, payload):
+    def track(request):
+        if request.method == 'GET' and request.url.path.endswith('/videos'):
+            return httpx.Response(200, json=payload)
+        return handler(request)
+    configured(monkeypatch, tmp_path, track)
+    thumb = tmp_path / 'cover.jpg'
+    thumb.write_bytes(b'jpeg')
+    assert youtube.Uploader().set_thumbnail('video123', thumb) is False
+
+
+def test_cli_exports_and_uploads_same_metadata_even_if_cover_fails(monkeypatch, tmp_path):
+    from app.promo import shorts, posted
+    q = {'id': 'test#q1', 'question': '20 का 10 प्रतिशत कितना है?', 'subject': 'Maths',
+         'level': '10th_Level', 'chapter': '10th_Level/Maths/Test/Chapter_01_Percentage',
+         'options': ['1', '2', '3', '4'], 'answer': 1, 'explanation': 'SECRET_SOLUTION'}
+    monkeypatch.setattr(shorts, 'pick_shorts', lambda *a: [q])
+    monkeypatch.setattr(shorts, 'render', lambda q, path, work: path.write_bytes(b'video'))
+    def no_cover(*args):
+        raise shorts.DoesNotFit('cover failed')
+    monkeypatch.setattr(shorts, 'thumbnail', no_cover)
+    monkeypatch.setattr(posted, 'POSTED', tmp_path / 'posted.json')
+    captured = {}
+    class FakeUploader:
+        privacy = 'private'
+        def upload(self, qid, path, caption, day, **extra):
+            captured.update(caption=caption, tags=extra['tags'])
+            assert 'thumbnail' not in extra
+            return 'video123'
+    monkeypatch.setattr(youtube, 'Uploader', FakeUploader)
+    a = SimpleNamespace(count=1, level=None, dry_run=False, youtube=True, telegram=False, out=str(tmp_path))
+    assert cli.run_shorts(a, date(2026, 11, 5), {'shorts': [], 'telegram': [], 'days': {}}) == 0
+    meta = json.loads((tmp_path / '01.metadata.json').read_text())
+    assert captured['caption'] == (tmp_path / '01.txt').read_text()
+    assert captured['caption'].startswith(meta['title'] + '\n\n') and captured['tags'] == meta['tags']
+    assert 'SECRET_SOLUTION' not in captured['caption']
