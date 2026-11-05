@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (lane-1)
 
-**आख़िरी update:** 05-11-2026 07:54 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 05-11 07:53 AM
+**आख़िरी update:** 05-11-2026 04:20 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 05-11 04:19 PM
 
 > NVIDIA (GLM-5.3) लिखता है → दूसरा model हर सवाल ख़ुद हल करके उत्तर जाँचता है → `bookcheck` → reviewer model हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -35,9 +35,8 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-05-11 07:53:48 autopilot start: 3 workers, reverse=True
-05-11 07:53:53 worker 0: nothing left
-05-11 07:53:58 worker 1: nothing left
-05-11 07:54:03 worker 2: nothing left
-05-11 07:54:53 autopilot end: done 0, failed 0
+05-11 16:19:34 autopilot start: 3 workers, reverse=True
+05-11 16:19:40 worker 0: nothing left
+05-11 16:19:45 worker 1: nothing left
+05-11 16:19:50 worker 2: nothing left
 ```
