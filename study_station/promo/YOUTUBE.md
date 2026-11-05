@@ -1,6 +1,6 @@
 # Study Station → YouTube Shorts
 
-The existing 05:01 IST workflow renders three quiz videos. Setting `YOUTUBE_AUTO_UPLOAD=true`
+The default-branch workflow requests a 01:01 IST run, with retries through 05:31 IST, and renders one batch of three quiz videos per day. Setting `YOUTUBE_AUTO_UPLOAD=true`
 adds upload to the selected channel with the generated title and description. Telegram and MP4/caption
 artifacts remain available. No additional server cron or ChatGPT scheduled task is needed.
 
@@ -50,8 +50,9 @@ The canonical app/book branch is `claude/elegant-rubin-sgov1q`, while the defaul
 Merge the implementation into the canonical branch and copy this updated `.github/workflows/promo-shorts.yml`
 to `main` as well. The scheduled workflow checks out the canonical branch for code/books and saves logs there.
 Manual dispatch checks out its selected branch so a test cannot silently execute old canonical code.
-Keep only this existing workflow as the daily scheduler. GitHub schedules can be delayed; 05:01 IST is the
-requested time, not an exact delivery guarantee.
+Keep only this existing default-branch workflow as the scheduler. GitHub starts can be delayed.
+Public uploads default to slots at 06:00, 14:00 and 19:00 IST (YOUTUBE_PUBLISH_TIMES can override them).
+The canonical copy of the workflow is not the effective scheduled copy; schedules run from main.
 
 ## Failure handling
 
@@ -69,3 +70,8 @@ an ambiguous video insertion. Successful uploads do not repeat that question for
 - [Google desktop OAuth](https://developers.google.com/identity/protocols/oauth2/native-app)
 - [Refresh token expiration](https://developers.google.com/identity/protocols/oauth2#expiration)
 - [GitHub scheduled events](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)
+
+## Automatic metadata and thumbnails
+
+See [SEO.md](SEO.md) for the per-video bilingual metadata generator, audit artifacts and
+processing-aware Shorts thumbnail handling. No additional AI credentials or scheduler are required.

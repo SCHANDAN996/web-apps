@@ -6,6 +6,7 @@ Slots (IST): 07:30 quiz · 12:30 trick · 18:00 quiz · 20:30 revision · Sun 10
 """
 import argparse
 import html
+import json
 import os
 import sys
 from datetime import date, datetime, time, timedelta, timezone
@@ -152,7 +153,11 @@ def run_shorts(a, day, data):
         except shorts.DoesNotFit as e:
             print(f"skip {q['id']}: {e}")
             continue
-        (out / f'{n:02d}.txt').write_text(shorts.caption(q), encoding='utf-8')
+        meta = shorts.metadata(q)
+        caption = meta['title'] + '\n\n' + meta['description'] + '\n'
+        (out / f'{n:02d}.txt').write_text(caption, encoding='utf-8')
+        (out / f'{n:02d}.metadata.json').write_text(
+            json.dumps(meta, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
         item = {'id': q['id'], 'file': f'{n:02d}.mp4'}
         if a.telegram:
             try:
@@ -162,13 +167,13 @@ def run_shorts(a, day, data):
                 error = True
         if uploader:
             try:
-                try:      # SEO extras never block an upload
-                    extra = {'tags': shorts.tags(q), 'thumbnail': shorts.thumbnail(q, out / f'{n:02d}.jpg')}
+                extra = {'tags': meta['tags']}
+                try:      # An optional cover failure must not discard valid SEO tags.
+                    extra['thumbnail'] = shorts.thumbnail(q, out / f'{n:02d}.jpg')
                 except Exception as e:
-                    print(f"youtube: tags/thumbnail skipped ({type(e).__name__})")
-                    extra = {}
+                    print(f"youtube: thumbnail skipped ({type(e).__name__})")
                 extra['publish_at'] = youtube.publish_time(day, n - 1)
-                item['youtube_id'] = uploader.upload(q['id'], out / f'{n:02d}.mp4', shorts.caption(q), day, **extra)
+                item['youtube_id'] = uploader.upload(q['id'], out / f'{n:02d}.mp4', caption, day, **extra)
                 at = extra['publish_at'] if uploader.privacy == 'public' else None
                 when = at.astimezone(youtube.IST).strftime(' (public at %H:%M IST)') if at else ''
                 print(f"YouTube: https://youtu.be/{item['youtube_id']}{when}")

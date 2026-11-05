@@ -8,6 +8,7 @@ import os
 import re
 import subprocess
 import tempfile
+import time as clock
 from datetime import datetime, time, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urlparse
@@ -179,7 +180,8 @@ class Uploader:
             entry['publish_at'] = publish_at.strftime('%Y-%m-%dT%H:%M:%SZ')
         save(self.path, self.data)
         if thumbnail:
-            self.set_thumbnail(video_id, thumbnail)
+            entry['thumbnail_status'] = 'accepted' if self.set_thumbnail(video_id, thumbnail) else 'not_set'
+            save(self.path, self.data)
         return video_id
 
     def status(self, publish_at=None):
@@ -190,18 +192,42 @@ class Uploader:
         return status
 
     def set_thumbnail(self, video_id, path):
-        """Best effort: needs a phone-verified channel; the video is already up, so a failure only logs."""
+        """Best effort after processing: failure never reinserts or unschedules the video.
+
+        Shorts thumbnail support depends on channel eligibility/rollout. Poll with
+        a 60-second processing budget and 15-second HTTP timeouts.
+        """
         try:
             data = Path(path).read_bytes()
             if not data or len(data) > 2 * 1024 * 1024:
                 raise ValueError()
             with client() as http:
+                deadline = clock.monotonic() + 60
+                for attempt in range(12):
+                    if clock.monotonic() >= deadline:
+                        print('youtube: thumbnail not set (processing wait budget reached)')
+                        return False
+                    r = http.get('https://www.googleapis.com/youtube/v3/videos',
+                                 params={'id': video_id, 'part': 'processingDetails'},
+                                 headers=self.headers, timeout=15)
+                    r.raise_for_status()
+                    items = r.json().get('items', [])
+                    state = items[0].get('processingDetails', {}).get('processingStatus') if items else None
+                    if state == 'succeeded':
+                        break
+                    if state != 'processing':
+                        print('youtube: thumbnail not set (processing status unavailable or unsuccessful)')
+                        return False
+                    if attempt == 11:
+                        print('youtube: thumbnail not set (video still processing; video upload remains recorded)')
+                        return False
+                    clock.sleep(5)
                 r = http.post('https://www.googleapis.com/upload/youtube/v3/thumbnails/set',
                               params={'videoId': video_id},
-                              headers={**self.headers, 'Content-Type': 'image/jpeg'}, content=data)
+                              headers={**self.headers, 'Content-Type': 'image/jpeg'}, content=data, timeout=15)
                 r.raise_for_status()
             return True
-        except (httpx.HTTPError, ValueError, OSError) as e:
+        except (httpx.HTTPError, ValueError, OSError, KeyError, TypeError, AttributeError) as e:
             status = getattr(getattr(e, 'response', None), 'status_code', '')
-            print(f'youtube: thumbnail not set {status} (verify the channel by phone to allow custom thumbnails)')
+            print(f'youtube: thumbnail not set {status} (check channel eligibility/permissions; video upload remains recorded)')
             return False
