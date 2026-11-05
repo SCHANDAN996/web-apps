@@ -158,6 +158,8 @@ def run_shorts(a, day, data):
         (out / f'{n:02d}.txt').write_text(caption, encoding='utf-8')
         (out / f'{n:02d}.metadata.json').write_text(
             json.dumps(meta, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        from . import instagram
+        instagram.enqueue(q['id'], out / f'{n:02d}.mp4', instagram.caption(meta), day.isoformat())
         item = {'id': q['id'], 'file': f'{n:02d}.mp4'}
         if a.telegram:
             try:

@@ -110,7 +110,8 @@ def test_short_failure_keeps_render_and_successful_item_log(monkeypatch, tmp_pat
     monkeypatch.setattr(shorts, 'pick_shorts', lambda *a: [q])
     monkeypatch.setattr(shorts, 'render', lambda q, path, work: path.write_bytes(b'video'))
     monkeypatch.setattr(shorts, 'caption', lambda q: 'Title\n\nDescription')
-    monkeypatch.setattr(shorts, 'metadata', lambda q: {'title': 'Title', 'description': 'Description', 'tags': []})
+    monkeypatch.setattr(shorts, 'metadata', lambda q: {'title': 'Title', 'description': 'Description', 'tags': [],
+                                                       'topic_hi': 'अभ्यास', 'topic_en': 'Quiz', 'exams': []})
     class BrokenUploader:
         def upload(self, *a, **kw):
             raise youtube.YouTubeError('Upload uncertain')
