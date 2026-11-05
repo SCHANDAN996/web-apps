@@ -117,6 +117,27 @@ def test_browser_rejects_wrong_account():
         publisher.verify_account()
 
 
+@pytest.mark.parametrize('status', [200, 429])
+def test_login_uses_homepage_and_stops_on_rate_limit(monkeypatch, status):
+    from types import SimpleNamespace
+    visits, prompts, checks = [], [], []
+    class Page:
+        def goto(self, url, **kwargs):
+            visits.append((url, kwargs))
+            return SimpleNamespace(status=status)
+    publisher = ig.BrowserPublisher(SimpleNamespace(pages=[Page()]), 'studystation')
+    monkeypatch.setattr('builtins.input', lambda prompt: prompts.append(prompt))
+    monkeypatch.setattr(publisher, 'verify_account', lambda: checks.append('verified'))
+    if status == 429:
+        with pytest.raises(ig.InstagramError, match='HTTP 429.*no automatic retry'):
+            publisher.login()
+        assert prompts == [] and checks == []
+    else:
+        publisher.login()
+        assert len(prompts) == 1 and checks == ['verified']
+    assert visits == [('https://www.instagram.com/', {'wait_until': 'domcontentloaded'})]
+
+
 def test_shorts_render_exports_instagram_queue(monkeypatch, tmp_path):
     from datetime import date
     from types import SimpleNamespace

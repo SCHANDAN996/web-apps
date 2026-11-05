@@ -212,6 +212,17 @@ class BrowserPublisher:
         self.context, self.account = context, account
         self.page = context.pages[0] if context.pages else context.new_page()
 
+    def open_home(self):
+        response = self.page.goto('https://www.instagram.com/', wait_until='domcontentloaded')
+        if response is not None and response.status == 429:
+            raise InstagramError('Instagram returned HTTP 429; stopped with no automatic retry. '
+                                 'Wait and inspect the account before a later manual attempt.')
+
+    def login(self):
+        self.open_home()
+        input('Complete login/OTP yourself in the browser, then press Enter here: ')
+        self.verify_account()
+
     def verify_account(self):
         # A logged-in navigation link to the expected profile must be visible.
         # No fallback to the username supplied by an artifact or hidden page state.
@@ -224,7 +235,7 @@ class BrowserPublisher:
 
     def share(self, item, checkpoint):
         page = self.page
-        page.goto('https://www.instagram.com/', wait_until='domcontentloaded')
+        self.open_home()
         self.verify_account()
         page.get_by_role('link', name='New post', exact=True).click(timeout=15000)
         page.locator('input[type="file"]').set_input_files(str(item['path']), timeout=15000)
@@ -282,9 +293,7 @@ def main(argv=None):
                 with pw.chromium.launch_persistent_context(str(state / 'profile'), headless=args.headless, locale='en-US') as context:
                     publisher = BrowserPublisher(context, account)
                     if args.command == 'login':
-                        publisher.page.goto('https://www.instagram.com/accounts/login/', wait_until='domcontentloaded')
-                        input('Complete login/OTP yourself in the browser, then press Enter here: ')
-                        publisher.verify_account()
+                        publisher.login()
                         print('Expected account verified; local profile saved.')
                     else:
                         count = process(args.queue, journal, account, publisher.share)
