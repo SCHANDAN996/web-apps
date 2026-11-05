@@ -23,7 +23,12 @@
   "10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_04_Constitution_Basic#Set03#Q53",
   "10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_20_Number_Series#Set06#Q129",
   "10th_Level/Reasoning/Chapter_18_Inequality#Set05#Q125",
-  "10th_Level/Reasoning/Chapter_12_Missing_Term#Short_Tricks_hi.txt#9"
+  "10th_Level/Reasoning/Chapter_12_Missing_Term#Short_Tricks_hi.txt#9",
+  "10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_14_Sports#Set01#Q18",
+  "10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_22_Permutation_Combination#Set04#Q80",
+  "10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective#Set05#Q106",
+  "10th_Level/Reasoning/Chapter_13_Dictionary_Order#Set02#Q38",
+  "10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_03_Simplification#Set04#Q76"
  ],
  "shorts": [],
  "days": {
@@ -267,6 +272,58 @@
       "opt": "कोई भी अनुसरण नहीं करता",
       "exp": "उत्तर: कोई भी अनुसरण नहीं करता। जाल N > P को N = P के अनुरूप मानना है, इसलिए उत्तर है कि कोई भी अनुसरण नहीं करता।",
       "part": "am"
+     }
+    ],
+    [
+     {
+      "id": "10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_14_Sports#Set01#Q18",
+      "msg": 247,
+      "chapter": "10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_14_Sports",
+      "q": "भारत ने पहली बार क्रिकेट विश्व कप (ODI) किस वर्ष जीता?",
+      "ans": 2,
+      "opt": "1983",
+      "exp": "उत्तर: 1983। कपिल देव की कप्तानी में भारत ने लॉर्ड्स में वेस्टइंडीज़ को हराकर 1983 में पहला विश्व कप जीता।",
+      "part": "pm"
+     },
+     {
+      "id": "10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_22_Permutation_Combination#Set04#Q80",
+      "msg": 248,
+      "chapter": "10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_22_Permutation_Combination",
+      "q": "अंकों 1, 2, 3, 4, 5, 6 से, बिना पुनरावृत्ति के, 2 से विभाज्य कितनी 4-अंकीय संख्याएँ बनाई जा सकती हैं?",
+      "ans": 1,
+      "opt": "180",
+      "exp": "उत्तर: 180। कुल = 3 × 60 = 180, इसलिए उत्तर 180 है।",
+      "part": "pm"
+     },
+     {
+      "id": "10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective#Set05#Q106",
+      "msg": 249,
+      "chapter": "10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective",
+      "q": "विशेषणों का सही क्रम चुनिए: \"She bought a ______ bag.\"",
+      "ans": 3,
+      "opt": "beautiful black leather",
+      "exp": "उत्तर: beautiful black leather। \"Beautiful\" (राय) \"black\" (रंग) और \"leather\" (पदार्थ) से पहले आता है।",
+      "part": "pm"
+     },
+     {
+      "id": "10th_Level/Reasoning/Chapter_13_Dictionary_Order#Set02#Q38",
+      "msg": 250,
+      "chapter": "10th_Level/Reasoning/Chapter_13_Dictionary_Order",
+      "q": "यदि निम्नलिखित शब्दों को शब्दकोश क्रम में व्यवस्थित किया जाए, तो कौन-सा शब्द पहले आएगा?\nशब्द: Plant, Plastic, Play, Planet, Plate",
+      "ans": 3,
+      "opt": "Planet",
+      "exp": "उत्तर: Planet। जाल Plant है, जो केवल कुछ अक्षरों के बाद भिन्न होता है; पहले स्थान पर आने वाला शब्द Planet है, इसलिए उत्तर Planet है।",
+      "part": "pm"
+     },
+     {
+      "id": "10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_03_Simplification#Set04#Q76",
+      "msg": 251,
+      "chapter": "10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_03_Simplification",
+      "q": "सरल करें: 45 ÷ 9 × 3 + 2 – 5",
+      "ans": 0,
+      "opt": "12",
+      "exp": "उत्तर: 12। BODMAS में भाग और गुणा बाएँ से दाएँ हल होते हैं: (45 ÷ 9) × 3 = 5 × 3 = 15, फिर 15 + 2 – 5 = 12।",
+      "part": "pm"
      }
     ]
    ],
