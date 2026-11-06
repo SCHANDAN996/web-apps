@@ -316,7 +316,7 @@ async def question_save(qid: int, request: Request, _: bool = Depends(require_ad
 
 
 # ------------------------------------------------------------------ jobs
-@router.get('/jobs', response_class=HTMLResponse)
+@router.get('/jobs', response_class=HTMLResponse, include_in_schema=False)
 def jobs(request: Request, status: str = 'pending', _: bool = Depends(require_admin), db: Session = Depends(get_db)):
     q = select(Job)
     if status in ('pending', 'verified', 'legacy'):
@@ -327,7 +327,7 @@ def jobs(request: Request, status: str = 'pending', _: bool = Depends(require_ad
     return page(request, 'jobs.html', rows=rows, status=status)
 
 
-@router.get('/jobs/{jid}', response_class=HTMLResponse)
+@router.get('/jobs/{jid}', response_class=HTMLResponse, include_in_schema=False)
 def job_edit(jid: int, request: Request, _: bool = Depends(require_admin), db: Session = Depends(get_db)):
     job = db.get(Job, jid)
     if job is None:
@@ -340,7 +340,7 @@ def _date(v):
     return date.fromisoformat(v) if v else None
 
 
-@router.post('/jobs/{jid}')
+@router.post('/jobs/{jid}', include_in_schema=False)
 async def job_save(jid: int, request: Request, _: bool = Depends(require_admin), db: Session = Depends(get_db)):
     if not config.JOBS_ENABLED:
         raise HTTPException(410, 'jobs_retired')
@@ -404,6 +404,8 @@ def recent_runs(n=6):
 
 @router.post('/run/{what}')
 def run(what: str, _: bool = Depends(require_admin), db: Session = Depends(get_db)):
+    if not config.JOBS_ENABLED:
+        raise HTTPException(410, 'jobs_retired')
     if what not in RUNS:
         raise HTTPException(404)
     audit(db, f'run.{what}', 'job-engine')
