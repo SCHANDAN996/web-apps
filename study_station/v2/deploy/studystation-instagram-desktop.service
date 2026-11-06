@@ -1,0 +1,18 @@
+[Unit]
+Description=Temporary private StudyStation Instagram login desktop
+After=network.target
+
+[Service]
+Type=simple
+User=studystation-ig
+Group=studystation-ig
+WorkingDirectory=/var/lib/studystation-instagram
+Environment=HOME=/var/lib/studystation-instagram
+UMask=0077
+ExecStart=/usr/bin/python3 /opt/studystation-instagram/source/study_station/v2/deploy/instagram-desktop.py
+NoNewPrivileges=true
+PrivateTmp=false
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/studystation-instagram /tmp
+# Intentionally no Install section: start only for manual login and stop afterwards.

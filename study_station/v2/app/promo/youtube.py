@@ -8,6 +8,8 @@ import os
 import re
 import subprocess
 import tempfile
+import time as clock
+from datetime import datetime, time, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -16,6 +18,26 @@ import httpx
 
 class YouTubeError(Exception):
     """Safe to show in logs; never include HTTP bodies, credentials or session URLs."""
+
+
+IST = timezone(timedelta(hours=5, minutes=30))
+DEFAULT_PUBLISH_TIMES = '06:00,14:00,19:00'      # IST; around the Telegram slots (07:30 · 12:30 · 18:00)
+
+
+def publish_time(day, index, now=None):
+    """When the index-th Short of `day` goes public (UTC), from YOUTUBE_PUBLISH_TIMES ('06:00,14:00,19:00', IST).
+    None = publish at once: no slot for this index, or the slot is under 15 minutes away (a late manual run)."""
+    raw = os.environ.get('YOUTUBE_PUBLISH_TIMES', '').strip() or DEFAULT_PUBLISH_TIMES   # unset repo variable = ''
+    try:
+        slots = [time.fromisoformat(t.strip()) for t in raw.split(',') if t.strip()]
+    except ValueError:
+        raise YouTubeError('YOUTUBE_PUBLISH_TIMES must look like 09:00,14:00,19:00') from None
+    if index >= len(slots):
+        return None
+    at = datetime.combine(day, slots[index], IST)
+    if at < (now or datetime.now(timezone.utc)) + timedelta(minutes=15):
+        return None
+    return at.astimezone(timezone.utc)
 
 
 def client():
@@ -109,7 +131,7 @@ class Uploader:
     def headers(self):
         return {'Authorization': f'Bearer {self.token}'}
 
-    def upload(self, question_id, path, caption, day):
+    def upload(self, question_id, path, caption, day, tags=None, thumbnail=None, publish_at=None):
         key = f'{self.channel}:{question_id}'
         previous = self.data['uploads'].get(key, {})
         if previous.get('status') == 'uploaded':
@@ -136,9 +158,9 @@ class Uploader:
                               headers={**self.headers, 'X-Upload-Content-Type': 'video/mp4',
                                        'X-Upload-Content-Length': str(path.stat().st_size)},
                               json={'snippet': {'title': title, 'description': description.strip(),
-                                                'categoryId': '27', 'defaultLanguage': 'hi'},
-                                    'status': {'privacyStatus': self.privacy,
-                                               'selfDeclaredMadeForKids': self.kids}})
+                                                'categoryId': '27', 'defaultLanguage': 'hi',
+                                                'defaultAudioLanguage': 'hi', 'tags': list(tags or [])},
+                                    'status': self.status(publish_at)})
                 r.raise_for_status()
                 location = r.headers['Location']
                 url = urlparse(location)
@@ -154,5 +176,58 @@ class Uploader:
         except (httpx.HTTPError, ValueError, KeyError, TypeError, OSError):
             raise YouTubeError('YouTube upload failed or response was lost; pending journal retained. Check YouTube Studio before retrying') from None
         entry.update(status='uploaded', video_id=video_id, requested_privacy=self.privacy)
+        if publish_at and self.privacy == 'public':
+            entry['publish_at'] = publish_at.strftime('%Y-%m-%dT%H:%M:%SZ')
         save(self.path, self.data)
+        if thumbnail:
+            entry['thumbnail_status'] = 'accepted' if self.set_thumbnail(video_id, thumbnail) else 'not_set'
+            save(self.path, self.data)
         return video_id
+
+    def status(self, publish_at=None):
+        """A public Short with a slot is uploaded private and YouTube makes it public at publish_at."""
+        status = {'privacyStatus': self.privacy, 'selfDeclaredMadeForKids': self.kids}
+        if publish_at and self.privacy == 'public':
+            status.update(privacyStatus='private', publishAt=publish_at.strftime('%Y-%m-%dT%H:%M:%SZ'))
+        return status
+
+    def set_thumbnail(self, video_id, path):
+        """Best effort after processing: failure never reinserts or unschedules the video.
+
+        Shorts thumbnail support depends on channel eligibility/rollout. Poll with
+        a 60-second processing budget and 15-second HTTP timeouts.
+        """
+        try:
+            data = Path(path).read_bytes()
+            if not data or len(data) > 2 * 1024 * 1024:
+                raise ValueError()
+            with client() as http:
+                deadline = clock.monotonic() + 60
+                for attempt in range(12):
+                    if clock.monotonic() >= deadline:
+                        print('youtube: thumbnail not set (processing wait budget reached)')
+                        return False
+                    r = http.get('https://www.googleapis.com/youtube/v3/videos',
+                                 params={'id': video_id, 'part': 'processingDetails'},
+                                 headers=self.headers, timeout=15)
+                    r.raise_for_status()
+                    items = r.json().get('items', [])
+                    state = items[0].get('processingDetails', {}).get('processingStatus') if items else None
+                    if state == 'succeeded':
+                        break
+                    if state != 'processing':
+                        print('youtube: thumbnail not set (processing status unavailable or unsuccessful)')
+                        return False
+                    if attempt == 11:
+                        print('youtube: thumbnail not set (video still processing; video upload remains recorded)')
+                        return False
+                    clock.sleep(5)
+                r = http.post('https://www.googleapis.com/upload/youtube/v3/thumbnails/set',
+                              params={'videoId': video_id},
+                              headers={**self.headers, 'Content-Type': 'image/jpeg'}, content=data, timeout=15)
+                r.raise_for_status()
+            return True
+        except (httpx.HTTPError, ValueError, OSError, KeyError, TypeError, AttributeError) as e:
+            status = getattr(getattr(e, 'response', None), 'status_code', '')
+            print(f'youtube: thumbnail not set {status} (check channel eligibility/permissions; video upload remains recorded)')
+            return False

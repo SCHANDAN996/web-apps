@@ -1,0 +1,10 @@
+[Unit]
+Description=Check for existing StudyStation Shorts artifacts every 15 minutes
+
+[Timer]
+OnBootSec=5min
+OnUnitInactiveSec=15min
+Unit=studystation-instagram.service
+
+[Install]
+WantedBy=timers.target

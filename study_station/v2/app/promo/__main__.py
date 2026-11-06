@@ -6,6 +6,7 @@ Slots (IST): 07:30 quiz · 12:30 trick · 18:00 quiz · 20:30 revision · Sun 10
 """
 import argparse
 import html
+import json
 import os
 import sys
 from datetime import date, datetime, time, timedelta, timezone
@@ -125,6 +126,9 @@ def run(slot, day, data, part=None):
 
 
 def run_shorts(a, day, data):
+    if getattr(a, 'once', False) and plog.batches(data, day.isoformat(), 'shorts'):
+        print(f'shorts: already made for {day} — nothing to do')
+        return 0
     from . import shorts
     qs = shorts.pick_shorts(day, a.count, data['shorts'], a.level)
     if a.dry_run:
@@ -149,7 +153,13 @@ def run_shorts(a, day, data):
         except shorts.DoesNotFit as e:
             print(f"skip {q['id']}: {e}")
             continue
-        (out / f'{n:02d}.txt').write_text(shorts.caption(q), encoding='utf-8')
+        meta = shorts.metadata(q)
+        caption = meta['title'] + '\n\n' + meta['description'] + '\n'
+        (out / f'{n:02d}.txt').write_text(caption, encoding='utf-8')
+        (out / f'{n:02d}.metadata.json').write_text(
+            json.dumps(meta, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        from . import instagram
+        instagram.enqueue(q['id'], out / f'{n:02d}.mp4', instagram.caption(meta), day.isoformat())
         item = {'id': q['id'], 'file': f'{n:02d}.mp4'}
         if a.telegram:
             try:
@@ -159,8 +169,16 @@ def run_shorts(a, day, data):
                 error = True
         if uploader:
             try:
-                item['youtube_id'] = uploader.upload(q['id'], out / f'{n:02d}.mp4', shorts.caption(q), day)
-                print(f"YouTube: https://youtu.be/{item['youtube_id']}")
+                extra = {'tags': meta['tags']}
+                try:      # An optional cover failure must not discard valid SEO tags.
+                    extra['thumbnail'] = shorts.thumbnail(q, out / f'{n:02d}.jpg')
+                except Exception as e:
+                    print(f"youtube: thumbnail skipped ({type(e).__name__})")
+                extra['publish_at'] = youtube.publish_time(day, n - 1)
+                item['youtube_id'] = uploader.upload(q['id'], out / f'{n:02d}.mp4', caption, day, **extra)
+                at = extra['publish_at'] if uploader.privacy == 'public' else None
+                when = at.astimezone(youtube.IST).strftime(' (public at %H:%M IST)') if at else ''
+                print(f"YouTube: https://youtu.be/{item['youtube_id']}{when}")
             except youtube.YouTubeError as e:
                 print(f'youtube: {e}')
                 error = True
@@ -221,6 +239,8 @@ def main(argv=None):
     sh.add_argument('--date', help='YYYY-MM-DD (default: today in IST)')
     sh.add_argument('--youtube', action='store_true', help='also upload to the authorized YouTube channel')
     sh.add_argument('--telegram', action='store_true', help='also post each video to the Telegram channel')
+    sh.add_argument('--once', action='store_true',
+                    help="skip if today's videos were already made (the workflow retries every 30 minutes)")
     a = ap.parse_args(argv)
     day = date.fromisoformat(a.date) if a.date else datetime.now(IST).date()
     data = plog.load()
