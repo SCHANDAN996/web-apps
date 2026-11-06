@@ -41,6 +41,7 @@
 .offline-heading .btn { flex-shrink:0; }
 .offline-hero { display:grid; grid-template-columns:minmax(0,1fr) auto; gap:var(--sp-3); padding:var(--sp-4); border-radius:var(--r-xl); background:linear-gradient(135deg,var(--brand-soft),var(--surface-2)); border:1px solid var(--border); }
 .offline-hero-copy { min-width:0; }
+#offlineStudy[data-screen="home"] > .home-card-grid + .offline-hero { margin-top:var(--sp-4); }
 .offline-hero h2 { font-size:var(--fs-lg); line-height:1.5; margin:var(--sp-2) 0; }
 .offline-hero p { color:var(--text-2); font-size:var(--fs-sm); margin:0 0 var(--sp-3); line-height:1.7; }
 .offline-hero-art { align-self:center; max-width:22vw; height:auto; }
