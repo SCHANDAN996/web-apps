@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% set ename = L(exam.name_hi, exam.name_en) %}
-{% block title %}{{ ename }} {{ exam.stage_en }} — {{ L('परीक्षा pattern और फ्री मॉक टेस्ट', 'exam pattern & free mock test') }} | {{ tr('brand') }}{% endblock %}
-{% block description %}{{ ename }} {{ exam.stage_en }}: {{ exam.sections|sum(attribute='questions') }} {{ L('सवाल', 'questions') }}, {{ exam.duration_min }} {{ tr('minutes') }}. {{ L('Section-wise pattern, negative marking और मुफ़्त CBT मॉक टेस्ट।', 'Section-wise pattern, negative marking and a free CBT mock test.') }}{% endblock %}
+{% block title %}{{ ename }} {{ exam.stage_en }} — {{ tr('practice_pattern') }} | {{ tr('brand') }}{% endblock %}
+{% block description %}{{ ename }} {{ exam.stage_en }}: {{ exam.sections|sum(attribute='questions') }} {{ L('अभ्यास सवाल', 'practice questions') }}, {{ exam.duration_min }} {{ tr('minutes') }}. {{ L('स्वतंत्र तैयारी का CBT अभ्यास; वास्तविक परीक्षा के नियम आधिकारिक सूचना से जाँचें।', 'Independent CBT preparation exercise; check official notices for actual exam rules.') }}{% endblock %}
 {% block main %}
 <p class="small crumb"><a class="tap-link" href="/mock">{{ tr('nav_mock') }}</a> › {{ exam.body }}</p>
 <h1>{{ ename }} <span class="muted" style="font-weight:600">{{ exam.stage_en }}</span></h1>
