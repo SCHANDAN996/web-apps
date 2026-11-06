@@ -555,9 +555,11 @@ def job_dict(j: Job):
             'verified_at': j.verified_at.isoformat() if j.verified_at else None}
 
 
-@app.get('/api/v1/jobs')
+@app.get('/api/v1/jobs', include_in_schema=False)
 def api_jobs(qualification: str | None = None, category: str | None = None,
              status: Literal['active', 'upcoming', 'closed', 'undated', 'updates'] = 'active', db: Session = Depends(get_db)):
+    if not config.JOBS_ENABLED:
+        raise HTTPException(410, 'jobs_retired')
     q = services.jobs_query(qualification, category, status).limit(100)
     return {'jobs': [job_dict(j) for j in db.scalars(q)]}
 
@@ -605,7 +607,6 @@ def page_home(request: Request, device: Device | None = Depends(current_device),
     stats = services.device_stats(db, device)
     exams = list(db.scalars(select(Exam).where(Exam.slug.in_(device.target_exams or [])))) or \
         list(db.scalars(select(Exam).where(Exam.level == device.level)))
-    jobs = list(db.scalars(services.jobs_query(device.level, None, 'active').limit(3)))
     counts = services.recent_topic_counts(db)
     quick_ids = sorted(counts, key=lambda tid: (-counts[tid], tid))[:6]
     topics = {tp.id: tp for tp in db.scalars(select(Topic).where(Topic.id.in_(quick_ids))
@@ -615,7 +616,7 @@ def page_home(request: Request, device: Device | None = Depends(current_device),
     today_topic = stats['weak_topics'][0]['id'] if stats['weak_topics'] else (quick[0][0].id if quick else None)
     hour = (datetime.utcnow() + services.IST).hour
     greet = 'greet_morning' if 4 <= hour < 12 else 'greet_day' if hour < 17 else 'greet_evening'
-    return render('home.html', request, device, stats=stats, exams=exams, jobs=jobs, quick=quick, greet=greet,
+    return render('home.html', request, device, stats=stats, exams=exams, quick=quick, greet=greet,
                   today_topic=today_topic, ca_recent=has_recent_ca(db), has_books=has_books())
 
 
@@ -751,10 +752,12 @@ def page_current_affairs(request: Request, category: str | None = None, device: 
 JOB_TABS = ('active', 'upcoming', 'updates', 'closed', 'undated')
 
 
-@app.get('/jobs', response_class=HTMLResponse)
+@app.get('/jobs', response_class=HTMLResponse, include_in_schema=False)
 def page_jobs(request: Request, status: Literal['active', 'upcoming', 'closed', 'undated', 'updates'] | None = None,
               qualification: str | None = None, category: str | None = None,
               device: Device | None = Depends(current_device), db: Session = Depends(get_db)):
+    if not config.JOBS_ENABLED:
+        return render('jobs_retired.html', request, device, http_status=410)
     if qualification is None and device and device.level:
         qualification = device.level
     if qualification == 'all':
@@ -774,8 +777,10 @@ def page_jobs(request: Request, status: Literal['active', 'upcoming', 'closed', 
                   today=services.today_ist(), suggest=suggest)
 
 
-@app.get('/jobs/{slug}', response_class=HTMLResponse)
+@app.get('/jobs/{slug}', response_class=HTMLResponse, include_in_schema=False)
 def page_job(slug: str, request: Request, device: Device | None = Depends(current_device), db: Session = Depends(get_db)):
+    if not config.JOBS_ENABLED:
+        return render('jobs_retired.html', request, device, http_status=410)
     job = db.scalar(select(Job).where(Job.slug == slug, Job.status.in_(('verified', 'legacy'))))
     if job is None:
         raise HTTPException(404)
@@ -875,10 +880,9 @@ def robots():
 @app.get('/sitemap.xml')
 def sitemap(db: Session = Depends(get_db)):
     base = SITE_URL or ''
-    urls = ['/', '/practice', '/mock', '/jobs', '/current-affairs', '/books']
+    urls = ['/', '/practice', '/mock', '/current-affairs', '/books']
     urls += [f'/practice/{tp.subject.slug}/{tp.slug}' for tp in db.scalars(select(Topic))]
     urls += [f'/mock/{e.slug}' for e in db.scalars(select(Exam))]
-    urls += [f'/jobs/{j.slug}' for j in db.scalars(services.jobs_query(status='active'))]
     from . import books
     for b in books.readable_books():
         urls += [f'/books/{b.slug}'] + [f'/books/{b.slug}/{c.slug}' for c in b.readable_chapters]

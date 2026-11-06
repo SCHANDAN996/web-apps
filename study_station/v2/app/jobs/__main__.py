@@ -51,6 +51,9 @@ def main(argv=None):
     d.add_argument('--telegram', action='store_true')
     d.add_argument('--mark-sent', action='store_true', help='do not repeat these items next time')
     args = p.parse_args(argv)
+    from .. import config
+    if not config.JOBS_ENABLED and args.cmd not in ('health', 'summary'):
+        p.error('Recruitment updates are retired. Existing data is retained read-only.')
     logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
     ensure_schema(engine)
 

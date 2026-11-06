@@ -64,7 +64,7 @@ def test_fetcher_blocks_private_hosts_and_redirects_to_them(monkeypatch):
         f.get('https://good.gov.in/notice', retries=0)
 
 
-def test_job_page_never_renders_script_links(client, db):
+def test_job_page_never_renders_script_links(client, db, legacy_jobs_enabled):
     db.add(Job(slug='xss-job', title='T', status='verified', job_type='latest',
                official_url='javascript://ssc.gov.in/%0aalert(1)', notification_url='http://ssc.nic.in:@evil.com/a.pdf'))
     db.commit()

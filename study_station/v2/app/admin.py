@@ -342,6 +342,8 @@ def _date(v):
 
 @router.post('/jobs/{jid}')
 async def job_save(jid: int, request: Request, _: bool = Depends(require_admin), db: Session = Depends(get_db)):
+    if not config.JOBS_ENABLED:
+        raise HTTPException(410, 'jobs_retired')
     from .jobs.sources import is_official
     job = db.get(Job, jid)
     if job is None:

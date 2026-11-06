@@ -139,7 +139,7 @@ def test_report_question(client, db):
     assert client.post('/api/v1/questions/1/report', json={'reason': 'nonsense'}).status_code == 422
 
 
-def test_jobs_filter_and_escaping(client, db):
+def test_jobs_filter_and_escaping(client, db, legacy_jobs_enabled):
     today = services.today_ist()
     db.add_all([
         Job(slug='open-10th', status='verified', title='<script>alert(1)</script> GD', min_qualification='10th', last_date=today + timedelta(days=3), official_url='https://ssc.gov.in'),
@@ -161,7 +161,7 @@ def test_pages_render(client, db):
     assert 'चलिए शुरू करते हैं' in client.get('/').text
     onboard(client)
     for path in ['/', '/practice', '/practice/quant/percentage', '/mock', '/mock/ssc-gd', '/revise',
-                 '/progress', '/jobs', '/settings', '/sitemap.xml', '/robots.txt', '/offline']:
+                 '/progress', '/questions', '/settings', '/sitemap.xml', '/robots.txt', '/offline']:
         r = client.get(path)
         assert r.status_code == 200, path
     assert client.get('/practice/quant/nope').status_code == 404

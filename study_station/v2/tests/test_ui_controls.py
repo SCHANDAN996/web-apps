@@ -8,7 +8,7 @@ from app import services
 from app.models import Job
 
 
-def test_job_filters_preserve_category_and_hide_other_results(client, db):
+def test_job_filters_preserve_category_and_hide_other_results(client, db, legacy_jobs_enabled):
     deadline = services.today_ist() + timedelta(days=10)
     db.add_all([
         Job(slug='ui-railway', title='Complete official railway recruitment title', org='RRB',

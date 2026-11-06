@@ -1,5 +1,7 @@
 # 🤖 Study Station — Agent टीम
 
+6 November 2026: Recruitment is retired. Do not dispatch jobs research, scraping, cleanup or job notifications. The jobs entries below are historical roles only; learning/current-affairs/promo agents continue normally. Follow the product decision in CLAUDE.md.
+
 Project का हर काम एक तय agent करता है। Agents `.claude/agents/` (repo root) में हैं, और slash commands
 `.claude/commands/` में। Claude Code में repo खोलें — agents अपने-आप मिल जाते हैं; किसी और AI में उस
 agent की `.md` file पढ़ाकर वही निर्देश दें। सभी agents `study_station/v2/CLAUDE.md` के नियम मानते हैं।
@@ -95,7 +97,7 @@ cd study_station/v2 && python -m app.bookcheck ../books/10th_Level/GK/Foundation
 
 | कब | क्या |
 |---|---|
-| हर 3 घंटे (cron, बिना AI) | jobs sweep · दिन में 3 बार current affairs · रात में cleanup + backup |
+| निर्धारित समय (cron, बिना AI) | दिन में 3 बार current affairs · रात में backup; recruitment jobs retired |
 | रोज़ सुबह | `/observe` |
 | हफ़्ते में 2–3 बार | `/job` (गहरी research) · `/review-questions` |
 | हफ़्ते में एक बार | `/improve` · `/content` (AI key हो तो) |

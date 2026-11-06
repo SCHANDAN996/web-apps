@@ -13,7 +13,7 @@ from pathlib import Path
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from . import books, catalog
+from . import books, catalog, config
 from .db import Base, SessionLocal, engine, ensure_schema
 from .importers import (discover_practice_files, is_translation_pair, parse_jobs_js,
                         parse_mcq_text, quality_problem)
@@ -249,7 +249,10 @@ def main():
         # The old website feed (website/js/jobs_data.js) is no longer imported: its titles were copied
         # from aggregator sites (CLAUDE.md rule 1). Jobs come only from the official job engine now.
         from .jobs.manage import drop_legacy
-        print('legacy jobs removed:', drop_legacy(db))
+        if config.JOBS_ENABLED:
+            print('legacy jobs removed:', drop_legacy(db))
+        else:
+            print('Recruitment retired; historical job records retained.')
 
 
 if __name__ == '__main__':

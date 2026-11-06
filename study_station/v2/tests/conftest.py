@@ -52,6 +52,13 @@ def client():
 
 
 @pytest.fixture
+def legacy_jobs_enabled(monkeypatch):
+    """Exercise retained legacy validators/renderers only; shipped product stays retired."""
+    from app import config
+    monkeypatch.setattr(config, 'JOBS_ENABLED', True)
+
+
+@pytest.fixture
 def db():
     with SessionLocal() as s:
         yield s

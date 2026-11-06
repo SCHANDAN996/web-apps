@@ -4,7 +4,7 @@ from app import observe, review
 from app.models import Question, QuestionReport
 
 
-def test_observe_reports_and_alerts(db):
+def test_observe_reports_and_alerts(db, legacy_jobs_enabled):
     r = observe.collect(db)
     assert set(r) >= {'learners', 'content', 'jobs', 'current_affairs', 'ai', 'alerts'}
     msgs = ' '.join(a['msg'] for a in r['alerts'])

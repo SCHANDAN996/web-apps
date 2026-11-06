@@ -1,5 +1,9 @@
 # Study Station v2 — notes for AI agents
 
+## Product decision — 6 November 2026
+
+Study Station is a learning app. Recruitment listings and alerts are permanently retired from the current product for all users. Do not run job sweeps, publish job notices or send job digests. Public `/jobs` and `/api/v1/jobs` return 410; Jobs navigation and cron tasks are removed. Keep historical database records intact. Legacy parsers/security tests are retained for archival validation, not as a remotely enabled app feature. Current-affairs learning and AIR/PIB sources remain. Do not reintroduce recruitment without a new explicit owner decision and an honest new release.
+
 Government-exam prep (SSC, Railway, Bank) for Hindi-first learners on cheap Android phones.
 Why it is built this way: `BLUEPRINT.md`. Agent roster and which one to use: `AGENTS.md`.
 

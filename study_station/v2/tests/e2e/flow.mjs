@@ -102,7 +102,7 @@ await step('mock test with palette and submit', async () => {
   await shot('mock-result');
 });
 
-for (const [name, path] of [['revise', '/revise'], ['progress', '/progress'], ['jobs', '/jobs?qualification=all'],
+for (const [name, path] of [['revise', '/revise'], ['progress', '/progress'], ['questions', '/questions'],
                             ['current affairs', '/current-affairs'], ['settings', '/settings']]) {
   await step('page ' + name, async () => {
     const r = await p.goto(B + path);
@@ -162,7 +162,7 @@ await step('no horizontal scroll on phone (hi + en)', async () => {
   // A too-wide element makes a phone zoom the whole page out: then innerWidth itself grows past the
   // device width, so compare against the viewport we asked for, not against innerWidth.
   const device = p.viewportSize().width;
-  const paths = ['/', '/practice', '/jobs', '/current-affairs', '/books', '/progress', '/settings', '/revise'];
+  const paths = ['/', '/practice', '/questions', '/current-affairs', '/books', '/progress', '/settings', '/revise'];
   if (mockResult) paths.push(mockResult);
   for (const lang of ['hi', 'en']) {
     await p.evaluate((l) => fetch('/api/v1/me', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ lang: l }) }), lang);

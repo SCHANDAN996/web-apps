@@ -95,12 +95,12 @@ def collect(db, url=None):
         alerts.append({'level': level, 'msg': msg})
     if web and not web['ok']:
         alert('critical', 'website /healthz is failing')
-    if not last_ok or now - last_ok > timedelta(hours=12):
+    if config.JOBS_ENABLED and (not last_ok or now - last_ok > timedelta(hours=12)):
         alert('critical', 'no successful job sweep in 12h — check cron / sources')
     broken = [h['source'] for h in health if h['failures'] >= 3]
-    if broken:
+    if config.JOBS_ENABLED and broken:
         alert('warning', f'job sources failing ≥3 runs: {", ".join(broken)}')
-    if jobs['open_verified'] == 0:
+    if config.JOBS_ENABLED and jobs['open_verified'] == 0:
         alert('warning', 'no open verified jobs on the site')
     if content['open_reports'] >= 10:
         alert('warning', f'{content["open_reports"]} student reports waiting in /admin')

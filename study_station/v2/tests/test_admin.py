@@ -68,7 +68,7 @@ def test_review_reported_question(client, admin_on, db):
     assert client.post(f'/admin/questions/{q.id}', data=form, headers=H).status_code == 400
 
 
-def test_publish_pending_job_needs_official_url(client, admin_on, db):
+def test_publish_pending_job_needs_official_url(client, admin_on, db, legacy_jobs_enabled):
     job = Job(slug='pending-x', title='XYZ Clerk Recruitment 2026', status='pending', job_type='latest')
     db.add(job)
     db.commit()

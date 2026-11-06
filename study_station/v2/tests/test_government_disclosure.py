@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from app.models import Job
 
 
-def test_public_information_discloses_identity_and_original_source(client, db):
+def test_public_information_discloses_identity_and_original_source(client, db, legacy_jobs_enabled):
     row = Job(slug='disclosure-notice', title='Official notice', status='verified',
               category='ssc', official_url='https://ssc.gov.in/',
               notification_url='https://ssc.gov.in/notice.pdf')

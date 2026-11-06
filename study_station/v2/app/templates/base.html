@@ -15,7 +15,6 @@
   <script src="/static/js/theme.js?v={{ asset_v }}"></script>
   <link rel="stylesheet" href="/static/css/app.css?v={{ asset_v }}">
   <link rel="stylesheet" href="/static/css/dialogs.css?v={{ asset_v }}">
-  <link rel="stylesheet" href="/static/css/jobs-ui.css?v={{ asset_v }}">
   <link rel="stylesheet" href="/static/css/mock-cards.css?v={{ asset_v }}">
   <link rel="stylesheet" href="/static/css/question-actions.css?v={{ asset_v }}">
   <link rel="stylesheet" href="/static/css/practice-setup.css?v={{ asset_v }}">
@@ -54,7 +53,7 @@
 </header>
 {% block nav %}
 <nav class="tabbar" aria-label="Main">
-  {% set tabs = [('/', 'i-home', 'nav_home'), ('/practice', 'i-book', 'nav_practice'), ('/mock', 'i-timer', 'nav_mock'), ('/revise', 'i-repeat', 'nav_revise'), ('/jobs', 'i-briefcase', 'nav_jobs')] %}
+  {% set tabs = [('/', 'i-home', 'nav_home'), ('/practice', 'i-book', 'nav_practice'), ('/mock', 'i-timer', 'nav_mock'), ('/revise', 'i-repeat', 'nav_revise'), ('/settings', 'i-gear', 'settings')] %}
   {% for href, icon, key in tabs %}
   <a class="tab" href="{{ href }}" {% if (href == '/' and path == '/') or (href != '/' and path.startswith(href)) %}aria-current="page"{% endif %}>
     <svg class="icon"><use href="#{{ icon }}"/></svg>{{ tr(key) }}

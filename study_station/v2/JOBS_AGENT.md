@@ -1,3 +1,7 @@
+# RETIRED — owner decision, 6 November 2026
+
+Do not execute this runbook. Recruitment listings, collection and notifications are retired from Study Station. Keep existing records; do not fetch or publish new notices. The instructions below are historical reference only. Current-affairs learning and quiz/Shorts promotion are separate and continue normally.
+
 # 🤖 JOBS_AGENT — "job" लिखते ही पूरा नौकरी-अपडेट
 
 यह file किसी भी AI agent (Claude Code, Cursor, Codex, Gemini CLI …) के लिए पूरा निर्देश है।

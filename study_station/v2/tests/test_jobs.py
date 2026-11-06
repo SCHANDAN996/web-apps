@@ -144,6 +144,11 @@ def clean_jobs(db):
     db.commit()
 
 
+@pytest.fixture(autouse=True)
+def legacy_job_engine(legacy_jobs_enabled):
+    pass
+
+
 def test_pipeline_merges_discovery_into_official_and_survives_broken_source(clean_jobs):
     db = clean_jobs
     notice = 'https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/chsl.pdf'

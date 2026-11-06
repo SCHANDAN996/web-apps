@@ -1,4 +1,5 @@
 import os
+JOBS_ENABLED = False  # Retired from the learning product; retained records are not public.
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent

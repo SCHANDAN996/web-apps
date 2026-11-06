@@ -1,111 +1,87 @@
-# Store listing draft
+# Learning-only store listing
 
-Prepared for the next verified release. Paste only after checking the feature claims against its signed bundle and live service. No fixed content counts, job freshness guarantees or exam-success promises.
+Prepared 6 November 2026 for the matching learning-only Play bundle. Recruitment listings and alerts are retired.
 
 ## English
 
 **App name:** Study Station
 
-**Short description:** Books, practice, mock tests and a drawing workspace for exam preparation.
+**Short description:** Read, practise, take mocks and learn from mistakes in Hindi and English.
 
 **Full description:**
 
-Build a study routine with Study Station. Read study material, practise questions, take mock tests and keep your rough work in one place.
+Understand. Practise. Improve.
 
-• Study in Hindi or English and switch between light, dark and paper themes.
-• Read bundled study content and practise with offline study features.
-• Use mock tests and revision to identify topics that need more work.
-• Save favourite questions and share question links.
-• Work through a problem on a drawing workspace, with pen colours, stroke widths and zoom controls. Save separate notebooks for different topics.
-• Sign in to use classroom groups, shared workspaces and assignments. Share deliberately: private notebooks are not automatically published.
-• Find recruitment information and follow links to the relevant official sources. Online updates and classroom features require internet.
-• Use settings to manage study progress, export supported data and access account deletion.
+Study Station brings reading, question practice, timed preparation tests and rough work together for learners preparing for exams.
 
-Offline availability depends on the bundled content and feature. Recruitment dates and eligibility can change: always check the recruiting authority's official notice before applying.
+• Read subject-wise study material in Hindi or English.
+• Practise questions, save favourites and revisit mistakes with explanations.
+• Search exam practice tests and continue an unfinished test while time remains.
+• Use a drawing workspace for rough work. Save separate notebooks for different topics.
+• Track reading and practice progress. Manage supported backups and reset selected study data in Settings.
+• Sign in for classroom groups, shared workspaces and assignments. Private notebooks are not automatically published.
+• Read current-affairs study updates with links to original AIR/PIB reports.
+• Choose light, dark or paper themes.
 
-Study Station is an independent educational app. It is not affiliated with or endorsed by a government department or recruitment authority. Study material may contain errors; report an issue when you find one.
+Bundled reading and practice features can work offline. Online updates, account and classroom features need internet. Offline access depends on the included content and requires a daily internet access check when membership is enabled.
+
+Timed tests are preparation exercises. Question availability does not certify full syllabus coverage or every rule of an official exam. Check the relevant official notification for the current pattern.
+
+Eligible new and existing accounts receive a 3-month free trial. Sign in to see your trial end date. Starting the trial does not require payment and does not trigger automatic charges. Paid access is required after the trial; access plans are ₹9 per month or ₹51 per year.
+
+Study Station is an independent educational app. It does not represent any government entity and is not affiliated with or endorsed by any government department or examination authority. It does not provide recruitment listings, application services or guaranteed selection. Study material may contain errors; report an issue when you find one.
+
+Official information sources:
+All India Radio (current affairs): https://www.newsonair.gov.in/
+Press Information Bureau (current affairs): https://pib.gov.in/
+SSC (official exam information): https://ssc.gov.in/
+Railway Recruitment Board (official exam information): https://www.rrbcdg.gov.in/
+IBPS (official exam information): https://www.ibps.in/
+UPSC (official exam information): https://upsc.gov.in/
 
 Support: all.chandansingh@gmail.com
 Privacy: https://studystation.ebookcart.in/privacy
-
-Eligible new and existing accounts receive a 3-month free trial. Sign in to see your trial end date. No payment is needed to start the trial, and there is no automatic charge or renewal. After the trial, choose access for ₹9 per month or ₹51 per year. Offline study requires one internet access check each day.
-
-Official sources for recruitment information and current affairs:
-SSC: https://ssc.gov.in/
-UPSC: https://upsc.gov.in/
-Railway Recruitment Board: https://www.rrbcdg.gov.in/
-Railway Board / DFCCIL notices: https://rb.indianrailways.gov.in/
-IBPS: https://www.ibps.in/
-SBI: https://sbi.bank.in/web/careers/current-openings
-ISRO: https://www.isro.gov.in/Careers.html
-LIC: https://www.licindia.in/careers
-UPPSC: https://uppsc.up.nic.in/
-BPSC: https://bpsc.bihar.gov.in/
-RPSC: https://rpsc.rajasthan.gov.in/
-MPPSC: https://mppsc.mp.gov.in/
-DSSSB: https://dsssb.delhi.gov.in/
-India Post: https://www.indiapost.gov.in/
-IIM Lucknow: https://www.iiml.ac.in/
-IIM Kozhikode: https://webapps.iimk.ac.in/jobportal/vacancy
-ICAR-IIMR: https://iimr.res.in/events/vacancy
-All India Radio: https://www.newsonair.gov.in/
-PIB: https://pib.gov.in/
-
-Recruitment details and current-affairs items link to their original notices or releases. These institutions do not sponsor or endorse Study Station.
 
 ## हिन्दी
 
 **ऐप का नाम:** Study Station
 
-**छोटा विवरण:** परीक्षा की तैयारी के लिए किताबें, अभ्यास, मॉक टेस्ट और रफ वर्क।
+**छोटा विवरण:** पढ़ें, सवाल हल करें, मॉक दें और गलतियों से सीखें—हिंदी और English में।
 
 **पूरा विवरण:**
 
-Study Station के साथ पढ़ाई का क्रम बनाएँ। किताबें पढ़ें, सवालों का अभ्यास करें, मॉक टेस्ट दें और रफ वर्क को एक जगह रखें।
+समझो। परखो। सुधारो।
 
-• हिंदी या English में पढ़ें और लाइट, डार्क व कागज़ जैसी थीम चुनें।
-• ऐप में शामिल सामग्री और ऑफलाइन पढ़ाई की सुविधाओं से अभ्यास करें।
-• मॉक टेस्ट और रिविज़न से समझें कि किन विषयों में और मेहनत चाहिए।
-• पसंदीदा सवाल सहेजें और सवाल का लिंक साझा करें।
-• ड्रॉइंग वर्कस्पेस में रंग, पेन की मोटाई और ज़ूम के साथ सवाल हल करें। अलग विषयों के लिए अलग कॉपियाँ सहेजें।
-• साइन-इन करके कक्षा के समूह, साझा वर्कस्पेस और दिए गए काम इस्तेमाल करें। निजी कॉपियाँ अपने आप सार्वजनिक नहीं होतीं।
-• भर्ती की जानकारी देखें और संबंधित आधिकारिक स्रोत खोलें। ऑनलाइन अपडेट और कक्षा की सुविधाओं के लिए इंटरनेट चाहिए।
-• सेटिंग्स में पढ़ाई की प्रगति, समर्थित डेटा का निर्यात और अकाउंट हटाने के विकल्प पाएँ।
+Study Station में परीक्षा की तैयारी के लिए पढ़ाई, सवालों का अभ्यास, समयबद्ध अभ्यास टेस्ट और रफ वर्क एक जगह मिलते हैं।
 
-कौन-सी सुविधा ऑफलाइन चलेगी, यह ऐप में शामिल सामग्री और उस सुविधा पर निर्भर है। भर्ती की तारीख और पात्रता बदल सकती है; आवेदन से पहले संबंधित संस्था की आधिकारिक सूचना अवश्य जाँचें।
+• हिंदी या English में विषयवार सामग्री पढ़ें।
+• सवाल हल करें, पसंदीदा सवाल सहेजें और हल के साथ गलतियाँ दोहराएँ।
+• परीक्षा का अभ्यास टेस्ट खोजें। समय बचा हो तो अधूरा टेस्ट जारी रखें।
+• ड्रॉइंग वर्कस्पेस में रफ वर्क करें और अलग विषयों की अलग कॉपियाँ सहेजें।
+• पढ़ाई और अभ्यास की प्रगति देखें। Settings से समर्थित backup और चुने हुए पढ़ाई के डेटा को reset करने के विकल्प पाएँ।
+• साइन-इन करके कक्षा के समूह, साझा वर्कस्पेस और assignments इस्तेमाल करें। निजी कॉपियाँ अपने-आप सार्वजनिक नहीं होतीं।
+• करंट अफेयर्स पढ़ें और AIR/PIB की मूल खबर का स्रोत खोलें।
+• लाइट, डार्क और कागज़ जैसी थीम चुनें।
 
-Study Station एक स्वतंत्र शैक्षिक ऐप है। यह किसी सरकारी विभाग या भर्ती संस्था का आधिकारिक ऐप नहीं है और उनका समर्थन प्राप्त होने का दावा नहीं करता। सामग्री में गलती मिल सकती है; दिखने पर उसकी रिपोर्ट करें।
+ऐप में शामिल पढ़ाई और अभ्यास की कुछ सुविधाएँ offline चल सकती हैं। ऑनलाइन अपडेट, अकाउंट और कक्षा के लिए इंटरनेट चाहिए। Offline उपलब्धता शामिल सामग्री पर निर्भर है; membership सक्रिय होने पर रोज़ एक बार इंटरनेट से access जाँच ज़रूरी है।
+
+समयबद्ध टेस्ट तैयारी के अभ्यास हैं। सवालों की संख्या पूरे syllabus या वास्तविक परीक्षा के हर नियम की पुष्टि नहीं करती। नवीनतम pattern संबंधित संस्था की आधिकारिक सूचना से जाँचें।
+
+पात्र नए और पुराने खातों के लिए 3 महीने का मुफ़्त trial है। समाप्ति की तारीख साइन-इन करके देखें। Trial शुरू करने के लिए भुगतान ज़रूरी नहीं और अपने-आप पैसा नहीं कटता। इसके बाद paid access चाहिए; plan ₹9 प्रति माह या ₹51 प्रति वर्ष है।
+
+Study Station एक स्वतंत्र शैक्षिक ऐप है। यह किसी सरकारी संस्था का प्रतिनिधि या आधिकारिक ऐप नहीं है और किसी सरकारी विभाग या परीक्षा संस्था से संबद्ध अथवा समर्थित नहीं है। यह भर्ती की सूची, आवेदन सेवा या चयन की गारंटी नहीं देता। सामग्री में गलती मिले तो उसकी रिपोर्ट करें।
+
+आधिकारिक सूचना स्रोत:
+आकाशवाणी—करंट अफेयर्स: https://www.newsonair.gov.in/
+पत्र सूचना कार्यालय—करंट अफेयर्स: https://pib.gov.in/
+SSC—आधिकारिक परीक्षा जानकारी: https://ssc.gov.in/
+रेलवे भर्ती बोर्ड—आधिकारिक परीक्षा जानकारी: https://www.rrbcdg.gov.in/
+IBPS—आधिकारिक परीक्षा जानकारी: https://www.ibps.in/
+UPSC—आधिकारिक परीक्षा जानकारी: https://upsc.gov.in/
 
 सहायता: all.chandansingh@gmail.com
 गोपनीयता: https://studystation.ebookcart.in/privacy
 
-पात्र नए और पुराने खातों के लिए 3 महीने का मुफ़्त trial। समाप्ति की तारीख साइन-इन करने पर देखें। Trial के लिए भुगतान ज़रूरी नहीं और अपने-आप पैसा नहीं कटता। उसके बाद ₹9 प्रति माह या ₹51 प्रति वर्ष का access plan चुनें। ऑफलाइन पढ़ाई के लिए रोज़ एक बार इंटरनेट पर access जाँच ज़रूरी है।
-
-भर्ती की जानकारी और करंट अफेयर्स के आधिकारिक स्रोत:
-SSC: https://ssc.gov.in/
-UPSC: https://upsc.gov.in/
-रेलवे भर्ती बोर्ड: https://www.rrbcdg.gov.in/
-रेलवे बोर्ड / DFCCIL सूचनाएँ: https://rb.indianrailways.gov.in/
-IBPS: https://www.ibps.in/
-SBI: https://sbi.bank.in/web/careers/current-openings
-ISRO: https://www.isro.gov.in/Careers.html
-LIC: https://www.licindia.in/careers
-UPPSC: https://uppsc.up.nic.in/
-BPSC: https://bpsc.bihar.gov.in/
-RPSC: https://rpsc.rajasthan.gov.in/
-MPPSC: https://mppsc.mp.gov.in/
-DSSSB: https://dsssb.delhi.gov.in/
-भारतीय डाक: https://www.indiapost.gov.in/
-IIM लखनऊ: https://www.iiml.ac.in/
-IIM कोझिकोड: https://webapps.iimk.ac.in/jobportal/vacancy
-ICAR-IIMR: https://iimr.res.in/events/vacancy
-आकाशवाणी: https://www.newsonair.gov.in/
-PIB: https://pib.gov.in/
-
-भर्ती के विवरण और करंट अफेयर्स की खबर में मूल सूचना का लिंक दिया जाता है। ये संस्थाएँ Study Station की प्रायोजक या समर्थक नहीं हैं।
-
 ## Claim exclusions and assets
 
-Do not add “Google Drive backup”, “live teaching”, guaranteed jobs, universal offline access, verified-all-questions, voice/video classes or instant cross-device recovery unless that exact path is enabled and accepted on the release artifact. Google sign-in can be added as an explicit listing claim after its real production-certificate acceptance test.
-
-Suggested screenshot sequence: study-first Home; book reader; practice with favourites; mock screen; drawing workspace; signed-in class with clearly disposable sample work. Use the latest real UI, readable Hindi/English text and no personal records. Avoid decorative phone frames that obscure the actual screen.
+Use the English copy for en-US and en-IN. Replace screenshots containing the retired Jobs tab/cards. Do not promote recruitment updates, government affiliation, guaranteed results, universal offline use, verified-all questions or features absent from the uploaded bundle. Keep sources and the non-government disclaimer in every translation. Use the normal signed release AAB for Play; the direct PayU APK is not a Play bundle.

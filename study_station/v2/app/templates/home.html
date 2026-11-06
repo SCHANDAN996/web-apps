@@ -73,7 +73,7 @@
   <section class="enter" aria-labelledby="home-explore-h">
     <h2 id="home-explore-h">{{ tr('home_explore_title') }}</h2>
     <div class="home-card-grid home-explore-grid">
-      {% for target, image, title, description in [('/mock', 'mock', 'home_mock_title', 'home_mock_desc'), ('/questions?lang=' ~ lang, 'questions', 'home_bank_title', 'home_bank_desc'), ('/jobs', 'jobs', 'nav_jobs', 'home_jobs_desc'), ('/progress', 'progress', 'progress', 'home_progress_desc')] %}
+      {% for target, image, title, description in [('/mock', 'mock', 'home_mock_title', 'home_mock_desc'), ('/questions?lang=' ~ lang, 'questions', 'home_bank_title', 'home_bank_desc'), ('/revise', 'revise', 'nav_revise', 'home_revision_desc'), ('/progress', 'progress', 'progress', 'home_progress_desc')] %}
       <a class="home-image-card" href="{{ target }}">
         <img src="/static/illustrations/{{ image }}.svg?v={{ asset_v }}" width="96" height="72" alt="" loading="lazy" decoding="async">
         <b>{{ tr(title) }}</b><span class="xs muted">{{ tr(description) }}</span>
@@ -121,12 +121,6 @@
     </div>
   </section>
 
-  {% if jobs %}
-  <section class="card enter">
-    <div class="row-between"><h2>{{ tr('nav_jobs') }}</h2><a class="small tap-link" href="/jobs">{{ tr('all') }}</a></div>
-    <ul class="list">{% for j in jobs %}<li><a class="list-item" href="/jobs/{{ j.slug }}"><span class="grow">{{ j.title }}</span><svg class="icon chev"><use href="#i-chev"/></svg></a></li>{% endfor %}</ul>
-  </section>
-  {% endif %}
 
   <a class="btn btn-secondary btn-block home-settings-link" href="/settings"><svg class="icon" aria-hidden="true"><use href="#i-gear"/></svg><span>{{ tr("settings") }}</span></a>
 </div>

@@ -1,5 +1,10 @@
 """UI strings. Hindi first — most of our learners study in Hindi."""
 STRINGS = {
+    'practice_pattern': ('अभ्यास टेस्ट का ढाँचा', 'Practice test format'),
+    'exam_official_info': ('आधिकारिक परीक्षा सूचना संस्था की वेबसाइट पर देखें', 'Check official exam information on the authority website'),
+    'home_revision_desc': ('गलत सवाल फिर समझें', 'Learn from your mistakes'),
+    'learning_focus_title': ('पढ़ाई पर आगे बढ़ें', 'Continue learning'),
+    'learning_focus_body': ('भर्ती की सुविधा बंद कर दी गई है। किताबें, अभ्यास और मॉक टेस्ट होम पर मिलेंगे।', 'Recruitment updates have been retired. Find books, practice and mock tests on Home.'),
     'mock_search': ('अपनी परीक्षा खोजें', 'Find your exam'),
     'mock_filter': ('परीक्षा संस्था', 'Exam authority'),
     'mock_no_match': ('यह परीक्षा नहीं मिली। खोज या फ़िल्टर बदलें।', 'No matching exam. Change your search or filter.'),
