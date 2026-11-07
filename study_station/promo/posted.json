@@ -41,7 +41,12 @@
   "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_21_International_Orgs#Set03#Q70",
   "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_05_Tense#Set05#Q121",
   "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_15_One_Word_Substitution#Set04#Q81",
-  "revision#2026-11-06"
+  "revision#2026-11-06",
+  "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability#Set04#Q79",
+  "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_04_Verb#Set01#Q16",
+  "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_02_Medieval_History#Set03#Q75",
+  "Graduation_Level/Reasoning/Chapter_21_Paper_Folding_Cutting#Set04#Q86",
+  "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_16_Idioms_Phrases#Set06#Q150"
  ],
  "shorts": [],
  "days": {
@@ -477,6 +482,62 @@
      {
       "id": "revision#2026-11-06",
       "msg": 266
+     }
+    ]
+   ]
+  },
+  "2026-11-07": {
+   "quiz": [
+    [
+     {
+      "id": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability#Set04#Q79",
+      "msg": 268,
+      "chapter": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability",
+      "q": "A द्वारा एक प्रश्न हल करने की प्रायिकता 1/2 है और B द्वारा 1/3 है। यदि दोनों स्वतंत्र रूप से प्रयास करें, तो प्रश्न हल होने की प्रायिकता क्या है?",
+      "ans": 2,
+      "opt": "2/3",
+      "exp": "उत्तर: 2/3। P(हल हुआ) = 1 − P(कोई भी हल न करे) = 1 − (1/2)(2/3) = 1 − 1/3 = 2/3, इसलिए उत्तर 2/3 है।",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_04_Verb#Set01#Q16",
+      "msg": 269,
+      "chapter": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_04_Verb",
+      "q": "रिक्त स्थान भरें: I _____ Delhi last year.",
+      "ans": 0,
+      "opt": "visited",
+      "exp": "उत्तर: visited। \"Visited\" सही है।",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_02_Medieval_History#Set03#Q75",
+      "msg": 270,
+      "chapter": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_02_Medieval_History",
+      "q": "'अष्टप्रधान' आठ मंत्रियों की परिषद किससे जुड़ी थी?",
+      "ans": 0,
+      "opt": "शिवाजी",
+      "exp": "उत्तर: शिवाजी। कृष्णदेवराय लुभाने वाला विकल्प है क्योंकि विजयनगर में भी मजबूत मंत्री-प्रणाली थी, लेकिन पेशवा की अगुवाई वाली अष्टप्रधान मंडल मराठा शासक शिवाजी की प्रशासनिक परिषद थी।",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/Reasoning/Chapter_21_Paper_Folding_Cutting#Set04#Q86",
+      "msg": 271,
+      "chapter": "Graduation_Level/Reasoning/Chapter_21_Paper_Folding_Cutting",
+      "q": "एक कागज़ को एक बार विकर्णतः मोड़ा जाता है और मोड़ किनारे के पास, मोड़ के समांतर एक कट लगाया जाता है। खोलने पर दोनों कट रेखाएँ:",
+      "ans": 0,
+      "opt": "एक-दूसरे के समांतर",
+      "exp": "उत्तर: एक-दूसरे के समांतर। जाल \"लंबवत\" प्रतिबिंब को घूर्णन से भ्रमित करता है, इसलिए उत्तर एक-दूसरे के समांतर है।",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_16_Idioms_Phrases#Set06#Q150",
+      "msg": 272,
+      "chapter": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_16_Idioms_Phrases",
+      "q": "सही अर्थ चुनें: \"To put all one's eggs in one basket\"",
+      "ans": 1,
+      "opt": "To risk everything on a single plan",
+      "exp": "उत्तर: To risk everything on a single plan। विकल्प (d) उल्टी सलाह है — एक जाल।",
+      "part": "am"
      }
     ]
    ]
