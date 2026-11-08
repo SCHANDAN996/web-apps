@@ -53,7 +53,12 @@
   "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_23_Economic_Terms#Set03#Q57",
   "Graduation_Level/Reasoning/Chapter_19_Cubes_Dice#Set01#Q24",
   "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_03_Adjective#Set04#Q92",
-  "revision#2026-11-07"
+  "revision#2026-11-07",
+  "Graduation_Level/Reasoning/Chapter_16_Statement_Conclusion#Set05#Q108",
+  "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_20_Heights_Distances#Set04#Q76",
+  "10th_Level/English/Foundation_10th_English_WorldClass/Chapter_20_Sentence_Improvement_Basic#Set01#Q6",
+  "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_26_Advanced_Polity#Set01#Q22",
+  "10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_12_Biology#Set04#Q99"
  ],
  "shorts": [],
  "days": {
@@ -613,6 +618,62 @@
      {
       "id": "revision#2026-11-07",
       "msg": 280
+     }
+    ]
+   ]
+  },
+  "2026-11-08": {
+   "quiz": [
+    [
+     {
+      "id": "Graduation_Level/Reasoning/Chapter_16_Statement_Conclusion#Set05#Q108",
+      "msg": 282,
+      "chapter": "Graduation_Level/Reasoning/Chapter_16_Statement_Conclusion",
+      "q": "कथन: \"रेल मंत्रालय ने प्रमुख मार्गों पर हाई-स्पीड ट्रेनें शुरू करने की घोषणा की है।\"\nनिष्कर्ष:\nI. प्रमुख मार्गों पर यात्रा का समय कम होगा।\nII. रेल मंत्रालय यात्री सेवाओं में सुधार करना चाहता है।",
+      "ans": 2,
+      "opt": "I और II दोनों अनुसरण करते हैं",
+      "exp": "उत्तर: I और II दोनों अनुसरण करते हैं। हाई-स्पीड ट्रेनें परिभाषा अनुसार यात्रा समय कम करती हैं, इसलिए I अनुसरण करता है; तेज़ ट्रेनें शुरू करना यात्री सेवा में सुधार है, इसलिए II भी अनुसरण करता है।",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_20_Heights_Distances#Set04#Q76",
+      "msg": 283,
+      "chapter": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_20_Heights_Distances",
+      "q": "धरातल पर किसी बिंदु से एक मीनार के शिखर का उन्नयन कोण 30° है। मीनार की ओर 40 मी चलने पर कोण 60° हो जाता है। मीनार की ऊँचाई है:",
+      "ans": 2,
+      "opt": "20√3 मी",
+      "exp": "उत्तर: 20√3 मी। h cot 30° − h cot 60° = 40 से h(√3 − 1/√3) = 40, अर्थात् h·(2/√3) = 40 और h = 20√3 मी।",
+      "part": "am"
+     },
+     {
+      "id": "10th_Level/English/Foundation_10th_English_WorldClass/Chapter_20_Sentence_Improvement_Basic#Set01#Q6",
+      "msg": 284,
+      "chapter": "10th_Level/English/Foundation_10th_English_WorldClass/Chapter_20_Sentence_Improvement_Basic",
+      "q": "सही सुधार चुनें: One of my friend lives in Delhi.",
+      "ans": 0,
+      "opt": "One of my friends lives in Delhi.",
+      "exp": "उत्तर: One of my friends lives in Delhi. \"Friends live\" वाला विकल्प noun ठीक करता है पर verb बिगाड़ देता है, इसलिए उत्तर है \"One of my friends lives in Delhi.\"",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_26_Advanced_Polity#Set01#Q22",
+      "msg": 285,
+      "chapter": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_26_Advanced_Polity",
+      "q": "निम्नलिखित में से कौन-सा युग्म सही सुमेलित है?",
+      "ans": 3,
+      "opt": "समवर्ती सूची — सातवीं अनुसूची",
+      "exp": "उत्तर: समवर्ती सूची — सातवीं अनुसूची। समवर्ती सूची वास्तव में सातवीं अनुसूची में है, इसलिए उत्तर समवर्ती सूची — सातवीं अनुसूची है।",
+      "part": "am"
+     },
+     {
+      "id": "10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_12_Biology#Set04#Q99",
+      "msg": 286,
+      "chapter": "10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_12_Biology",
+      "q": "मनुष्य में संतान का लिंग किससे निर्धारित होता है?",
+      "ans": 3,
+      "opt": "पिता के शुक्राणु के प्रकार से",
+      "exp": "उत्तर: पिता के शुक्राणु के प्रकार से। पिता से Y पाने वाली संतान लड़का होती है, इसलिए पिता का शुक्राणु लिंग तय करता है।",
+      "part": "am"
      }
     ]
    ]
