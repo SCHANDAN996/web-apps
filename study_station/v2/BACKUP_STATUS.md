@@ -44,11 +44,19 @@ successfully on 17 October; QA forwarding and the local server were stopped.
 Native restore remains pending; foreground app access is needed for that check.
 Production progress was not reset.
 
-The owner subsequently selected 3D logo option 5: pearl/cream, burgundy SS and gold
+The owner's former selection was 3D logo option 5: pearl/cream, burgundy SS and gold
 book details. Website/PWA icons, compact topbar image, Android launcher/offline
 artwork and generated shells share resized exports of the selected source in
 `design/branding/`. Mobile light/dark inspection passed. Further APK builds and
 installation are deferred at the owner's request; these changes are local.
+
+Superseded on 11 November 2026: the owner selected the multicolor tree-and-book
+StudyStation logo (option 08). Current web/PWA, Android launcher/offline and promo
+source assets now use exact exports of that approved original; the old 3D master
+is retained only in Git history. See `design/branding/README.md` for active paths
+and `docs/PLAY_STORE_BRANDING_HANDOFF.md` for the existing Play release chat.
+Source changes alone do not update an installed APK, Play listing or public social
+profile; those separate deployments/uploads require their own verification.
 
 ## Question access and speed update
 
