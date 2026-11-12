@@ -121,7 +121,12 @@
   "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability#Set01#Q6",
   "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_29_Placement_Test#Set02#Q27",
   "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_20_Current_Affairs_6M#Set02#Q41",
-  "revision#2026-11-11"
+  "revision#2026-11-11",
+  "10th_Level/Reasoning/Chapter_05_Direction_Sense#Set03#Q59",
+  "10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_01_Ancient_History#Set05#Q120",
+  "10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_15_Geometry#Set01#Q24",
+  "10th_Level/English/Foundation_10th_English_WorldClass/Chapter_02_Pronoun#Set02#Q47",
+  "10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_19_Environment#Set05#Q116"
  ],
  "shorts": [],
  "days": {
@@ -1381,6 +1386,62 @@
      {
       "id": "revision#2026-11-11",
       "msg": 357
+     }
+    ]
+   ]
+  },
+  "2026-11-12": {
+   "quiz": [
+    [
+     {
+      "id": "10th_Level/Reasoning/Chapter_05_Direction_Sense#Set03#Q59",
+      "msg": 359,
+      "chapter": "10th_Level/Reasoning/Chapter_05_Direction_Sense",
+      "q": "सूर्यास्त से पहले शाम के समय, रेखा और हेमा आमने-सामने बात कर रही थीं। यदि हेमा की परछाई ठीक रेखा के दाईं ओर थी, तो रेखा का मुख किस दिशा में था?",
+      "ans": 3,
+      "opt": "उत्तर",
+      "exp": "उत्तर: उत्तर। रेखा का दायाँ पक्ष पूर्व है, जिसका अर्थ है कि उसका मुख उत्तर दिशा में था।",
+      "part": "am"
+     },
+     {
+      "id": "10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_01_Ancient_History#Set05#Q120",
+      "msg": 360,
+      "chapter": "10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_01_Ancient_History",
+      "q": "शुंग वंश का संस्थापक कौन था?",
+      "ans": 3,
+      "opt": "पुष्यमित्र शुंग",
+      "exp": "उत्तर: पुष्यमित्र शुंग। अंतिम मौर्य शासक बृहद्रथ के सेनापति पुष्यमित्र शुंग ने उसकी हत्या कर शुंग वंश की स्थापना की, इसलिए उत्तर पुष्यमित्र शुंग है।",
+      "part": "am"
+     },
+     {
+      "id": "10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_15_Geometry#Set01#Q24",
+      "msg": 361,
+      "chapter": "10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_15_Geometry",
+      "q": "10 सेमी भुजा वाले वर्ग का विकर्ण है:",
+      "ans": 3,
+      "opt": "10√2 सेमी",
+      "exp": "उत्तर: 10√2 सेमी। वर्ग का विकर्ण = भुजा × √2 = 10√2 सेमी, दो आसन्न भुजाओं पर पाइथागोरस प्रमेय से।",
+      "part": "am"
+     },
+     {
+      "id": "10th_Level/English/Foundation_10th_English_WorldClass/Chapter_02_Pronoun#Set02#Q47",
+      "msg": 362,
+      "chapter": "10th_Level/English/Foundation_10th_English_WorldClass/Chapter_02_Pronoun",
+      "q": "त्रुटि पहचानें: \"The Ganges is (P) / one of the longest rivers (Q) / which flows through India. (R) / No error (S)\"",
+      "ans": 2,
+      "opt": "भाग R",
+      "exp": "उत्तर: भाग R। त्रुटि भाग R में है: \"one of the + बहुवचन संज्ञा\" के बाद relative pronoun बहुवचन \"rivers\" को दर्शाता है, इसलिए क्रिया बहुवचन होनी चाहिए — \"flows\" नहीं, \"flow\"।",
+      "part": "am"
+     },
+     {
+      "id": "10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_19_Environment#Set05#Q116",
+      "msg": 363,
+      "chapter": "10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_19_Environment",
+      "q": "स्वच्छ और अप्रदूषित वर्षा जल का पीएच (pH) मान प्राकृतिक रूप से लगभग 5.6 (हल्का अम्लीय) किस गैस के घुलने के कारण होता है?",
+      "ans": 2,
+      "opt": "कार्बन डाइऑक्साइड (CO2)",
+      "exp": "उत्तर: कार्बन डाइऑक्साइड (CO2)। वायुमंडल में मौजूद कार्बन डाइऑक्साइड बारिश की बूंदों में घुलकर दुर्बल कार्बोनिक अम्ल (H2CO3) बनाती है, जिससे अप्रदूषित वर्षा का सामान्य पीएच भी 5.6 के आसपास होता है।",
+      "part": "am"
      }
     ]
    ]
