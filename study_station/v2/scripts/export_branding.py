@@ -8,6 +8,7 @@ import base64
 import hashlib
 import io
 import json
+import re
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont, ImageOps
@@ -61,6 +62,20 @@ def panel(master, size, logo_box, text_origin, text_size):
     return canvas
 
 
+def version_manifest_icons():
+    """Change only icon src values, preserving unrelated manifest fields/formatting."""
+    path = STATIC / 'manifest.webmanifest'
+    text = path.read_text(encoding='utf-8')
+    for size in (192, 512):
+        filename = f'icon-{size}.png'
+        version = hashlib.sha256((STATIC / filename).read_bytes()).hexdigest()[:12]
+        pattern = r'("src"\s*:\s*")/static/' + re.escape(filename) + r'(?:\?v=[a-f0-9]+)?(")'
+        text, count = re.subn(pattern, lambda match: match[1] + f'/static/{filename}?v={version}' + match[2], text)
+        if count != 1:
+            raise ValueError(f'Expected exactly one manifest source for {filename}')
+    path.write_text(text, encoding='utf-8', newline='\n')
+
+
 def main():
     OUTPUTS.clear()
     master = Image.open(MASTER).convert('RGBA')
@@ -71,6 +86,7 @@ def main():
     # Preserve exact artwork on its white background: no tracing or background removal.
     for size, name in ((192, 'icon-192.png'), (512, 'icon-512.png')):
         save(fitted(emblem, (size, size), round(size * .12), background='white'), STATIC / name)
+    version_manifest_icons()
     save(fitted(emblem, (96, 96), 4), STATIC / 'brand-mark.webp')
     save(fitted(emblem, (64, 64), 3), STATIC / 'favicon.png')
     # The legacy SVG URL is still accepted by the APK's bundled-asset router.

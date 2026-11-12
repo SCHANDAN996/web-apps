@@ -20,6 +20,9 @@ python -m app.shell --check
 `exports.json` records SHA-256 for both sources and every exported asset. Web asset versions and
 Android's bundled asset version derive automatically from static bytes. No manual version string,
 service-worker implementation, Android package, billing or signing setting changes are required.
+The exporter also gives each PWA manifest icon a URL version derived from that icon's SHA-256,
+so long-lived static caches cannot reuse the previous icon URL after the manifest updates.
+Installed PWA icon refresh remains browser/OS controlled and may take time after deployment.
 
 | Surface | Active file / behavior |
 |---|---|
