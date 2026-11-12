@@ -3,6 +3,7 @@ import hashlib
 import json
 import math
 from pathlib import Path
+from urllib.parse import parse_qs, urlsplit
 
 from PIL import Image
 
@@ -40,3 +41,16 @@ def test_android_emblem_fits_adaptive_icon_safe_circle():
         radii = [math.hypot(x - 255.5, y - 255.5) * 72 / 512
                  for y in range(512) for x in range(512) if min(rgb.getpixel((x, y))) < 230]
         assert radii and max(radii) <= 33
+
+
+def test_pwa_icon_sources_change_with_icon_bytes_without_changing_identity():
+    static = V2 / 'app' / 'static'
+    manifest = json.loads((static / 'manifest.webmanifest').read_text(encoding='utf-8'))
+    assert manifest['start_url'] == '/' and manifest['scope'] == '/'
+    assert len(manifest['icons']) == 2
+    for icon, size in zip(manifest['icons'], (192, 512)):
+        source = urlsplit(icon['src'])
+        assert source.path == f'/static/icon-{size}.png'
+        assert icon['sizes'] == f'{size}x{size}' and icon['type'] == 'image/png' and icon['purpose'] == 'any'
+        expected = hashlib.sha256((static / f'icon-{size}.png').read_bytes()).hexdigest()[:12]
+        assert parse_qs(source.query) == {'v': [expected]}
