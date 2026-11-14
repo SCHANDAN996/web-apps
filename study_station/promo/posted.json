@@ -149,7 +149,12 @@
   "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability#Set05#Q111",
   "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_12_Time_Distance#Set01#Q15",
   "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_23_Sentence_Arrangement#Set04#Q97",
-  "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_16_Coordinate_Geometry#Short_Tricks_hi.txt#0"
+  "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_16_Coordinate_Geometry#Short_Tricks_hi.txt#0",
+  "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_04_Fractions_Decimals#Set03#Q69",
+  "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_18_Error_Spotting_Adv#Set05#Q102",
+  "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_19_Environment#Set02#Q48",
+  "Graduation_Level/Reasoning/Chapter_08_Puzzles#Set02#Q31",
+  "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_06_Adverb#Set06#Q130"
  ],
  "shorts": [],
  "days": {
@@ -1693,6 +1698,58 @@
       "opt": "PQRS",
       "exp": "उत्तर: PQRS। \"Not until\" को आगे लाने पर मुख्य उपवाक्य में व्युत्क्रम आवश्यक है: \"Not until the results were declared did the students breathe a sigh of relief.\" इसलिए उत्तर PQRS है।",
       "part": "am"
+     }
+    ],
+    [
+     {
+      "id": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_04_Fractions_Decimals#Set03#Q69",
+      "msg": 392,
+      "chapter": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_04_Fractions_Decimals",
+      "q": "निम्नलिखित में से कौन-सा आरोही क्रम (ascending order) में है?",
+      "ans": 0,
+      "opt": "3/7 < 4/9 < 5/11 < 6/13",
+      "exp": "उत्तर: 3/7 < 4/9 < 5/11 < 6/13। दशमलव में: 3/7 ≈ 0.4286, 4/9 ≈ 0.4444, 5/11 ≈ 0.4545, 6/13 ≈ 0.4615 — ये पहले से ही आरोही क्रम में हैं, इसलिए उत्तर 3/7 < 4/9 < 5/11 < 6/13 है।",
+      "part": "pm"
+     },
+     {
+      "id": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_18_Error_Spotting_Adv#Set05#Q102",
+      "msg": 393,
+      "chapter": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_18_Error_Spotting_Adv",
+      "q": "वाक्य के उस भाग को पहचानिए जिसमें त्रुटि है।\nभाग P: The committee, along with its advisors,\nभाग Q: were unanimous\nभाग R: in rejecting\nभाग S: the proposal.",
+      "ans": 1,
+      "opt": "भाग Q",
+      "exp": "उत्तर: भाग Q। \"along with\" के साथ क्रिया पहले कर्ता \"the committee\" (एकवचन) के अनुसार आती है, इसलिए भाग Q में \"was unanimous\" होना चाहिए।",
+      "part": "pm"
+     },
+     {
+      "id": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_19_Environment#Set02#Q48",
+      "msg": 394,
+      "chapter": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_19_Environment",
+      "q": "झील में 'शैवाल-प्रस्फुटन' (algal bloom) की घटना से क्या होता है?",
+      "ans": 2,
+      "opt": "घुलित ऑक्सीजन में कमी",
+      "exp": "उत्तर: घुलित ऑक्सीजन में कमी। पर जब शैवाल मर जाते हैं, तो अपघटक जीवाणु बड़ी मात्रा में ऑक्सीजन खर्च करते हैं, जिससे घुलित ऑक्सीजन तेज़ी से घटती है और मछलियाँ मर जाती हैं, इसलिए उत्तर घुलित ऑक्सीजन मे…",
+      "part": "pm"
+     },
+     {
+      "id": "Graduation_Level/Reasoning/Chapter_08_Puzzles#Set02#Q31",
+      "msg": 395,
+      "chapter": "Graduation_Level/Reasoning/Chapter_08_Puzzles",
+      "q": "सात व्यक्ति A, B, C, D, E, F और G एक पंक्ति में उत्तर की ओर मुख करके बैठे हैं। C, A के ठीक दाएँ बैठा है। A बाएँ छोर से तीसरे स्थान पर बैठा है। B, F के बाएँ दूसरे स्थान पर बैठा है। E, D के ठीक बाएँ बैठा है। D के ठीक दाएँ कौन बैठा है?",
+      "ans": 2,
+      "opt": "A",
+      "exp": "उत्तर: A। बाएँ से दाएँ: E, D, A, C, B, G, F।",
+      "part": "pm"
+     },
+     {
+      "id": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_06_Adverb#Set06#Q130",
+      "msg": 396,
+      "chapter": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_06_Adverb",
+      "q": "वह वाक्य चुनिए जिसमें \"hardly\" का सही प्रयोग हुआ है।",
+      "ans": 2,
+      "opt": "Hardly had he reached the station when the train left.",
+      "exp": "उत्तर: Hardly had he reached the station when the train left. ध्यान दें — \"hardly…when\", \"hardly…than\" नहीं।",
+      "part": "pm"
      }
     ]
    ],
