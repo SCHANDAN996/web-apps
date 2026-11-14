@@ -143,7 +143,12 @@
   "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_05_Polity#Set01#Q11",
   "12th_Level/Reasoning/Chapter_02_Classification#Set03#Q68",
   "12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_03_Simplification#Set03#Q63",
-  "revision#2026-11-13"
+  "revision#2026-11-13",
+  "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_24_Reports_Indices#Set03#Q59",
+  "Graduation_Level/Reasoning/Chapter_29_Logical_Consistency#Set06#Q141",
+  "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability#Set05#Q111",
+  "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_12_Time_Distance#Set01#Q15",
+  "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_23_Sentence_Arrangement#Set04#Q97"
  ],
  "shorts": [],
  "days": {
@@ -1631,6 +1636,62 @@
      {
       "id": "revision#2026-11-13",
       "msg": 383
+     }
+    ]
+   ]
+  },
+  "2026-11-14": {
+   "quiz": [
+    [
+     {
+      "id": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_24_Reports_Indices#Set03#Q59",
+      "msg": 385,
+      "chapter": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_24_Reports_Indices",
+      "q": "ग्लोबल पीस इंडेक्स (वैश्विक शांति सूचकांक) किस संगठन द्वारा प्रकाशित किया जाता है?",
+      "ans": 3,
+      "opt": "इंस्टीट्यूट फॉर इकोनॉमिक्स एंड पीस",
+      "exp": "उत्तर: इंस्टीट्यूट फॉर इकोनॉमिक्स एंड पीस। GPI सिडनी स्थित इंस्टीट्यूट फॉर इकोनॉमिक्स एंड पीस द्वारा तैयार किया जाता है, इसलिए उत्तर इंस्टीट्यूट फॉर इकोनॉमिक्स एंड पीस है।",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/Reasoning/Chapter_29_Logical_Consistency#Set06#Q141",
+      "msg": 386,
+      "chapter": "Graduation_Level/Reasoning/Chapter_29_Logical_Consistency",
+      "q": "कथन: सभी कप प्लेटें हैं। कुछ प्लेटें चम्मच हैं। कोई चम्मच काँटा नहीं है।\nनिष्कर्ष: I. कुछ प्लेटें काँटे नहीं हैं। II. कुछ कप चम्मच हैं।",
+      "ans": 0,
+      "opt": "केवल I निकलता है",
+      "exp": "उत्तर: केवल I निकलता है। निष्कर्ष I निश्चित है क्योंकि जो प्लेटें चम्मच हैं वे काँटे नहीं हो सकतीं।",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability#Set05#Q111",
+      "msg": 387,
+      "chapter": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability",
+      "q": "यदि A और B स्वतंत्र घटनाएँ हैं जिनमें P(A) = 0.3 और P(B) = 0.6 है, तो P(A ∩ B) है:",
+      "ans": 1,
+      "opt": "0.18",
+      "exp": "उत्तर: 0.18। जाल 0.9 प्रायिकताओं को जोड़ने से आता है, जो सर्वनिष्ठ के लिए गलत है, अतः उत्तर 0.18 है।",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_12_Time_Distance#Set01#Q15",
+      "msg": 388,
+      "chapter": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_12_Time_Distance",
+      "q": "एक आदमी 240 किमी की यात्रा करता है। वह आधी दूरी 40 किमी/घंटा और शेष आधी दूरी 60 किमी/घंटा की चाल से तय करता है। उसकी औसत चाल क्या है?",
+      "ans": 3,
+      "opt": "48 किमी/घंटा",
+      "exp": "उत्तर: 48 किमी/घंटा। समान दूरियों के लिए औसत चाल = 2xy/(x+y) = 2×40×60/(40+60) = 4800/100 = 48 किमी/घंटा।",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_23_Sentence_Arrangement#Set04#Q97",
+      "msg": 389,
+      "chapter": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_23_Sentence_Arrangement",
+      "q": "भागों को व्यवस्थित करके एक सुसंगत वाक्य बनाइए।\nP: not until the results\nQ: were declared\nR: did the students\nS: breathe a sigh of relief",
+      "ans": 1,
+      "opt": "PQRS",
+      "exp": "उत्तर: PQRS। \"Not until\" को आगे लाने पर मुख्य उपवाक्य में व्युत्क्रम आवश्यक है: \"Not until the results were declared did the students breathe a sigh of relief.\" इसलिए उत्तर PQRS है।",
+      "part": "am"
      }
     ]
    ]
