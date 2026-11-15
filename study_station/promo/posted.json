@@ -155,7 +155,12 @@
   "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_19_Environment#Set02#Q48",
   "Graduation_Level/Reasoning/Chapter_08_Puzzles#Set02#Q31",
   "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_06_Adverb#Set06#Q130",
-  "revision#2026-11-14"
+  "revision#2026-11-14",
+  "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_23_Economic_Terms#Set03#Q67",
+  "Graduation_Level/Reasoning/Chapter_03_Coding_Decoding#Set06#Q148",
+  "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_14_Mensuration#Set03#Q74",
+  "10th_Level/English/Foundation_10th_English_WorldClass/Chapter_14_Antonyms#Set05#Q121",
+  "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_19_Fill_in_Blanks_Adv#Set04#Q93"
  ],
  "shorts": [],
  "days": {
@@ -1767,6 +1772,62 @@
      {
       "id": "revision#2026-11-14",
       "msg": 397
+     }
+    ]
+   ]
+  },
+  "2026-11-15": {
+   "quiz": [
+    [
+     {
+      "id": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_23_Economic_Terms#Set03#Q67",
+      "msg": 399,
+      "chapter": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_23_Economic_Terms",
+      "q": "'कुज़नेट्स वक्र' (Kuznets curve) की परिकल्पना है कि जैसे-जैसे अर्थव्यवस्था विकसित होती है:",
+      "ans": 3,
+      "opt": "असमानता पहले बढ़ती है और फिर घटती है",
+      "exp": "उत्तर: असमानता पहले बढ़ती है और फिर घटती है। कुज़नेट्स ने विकास और असमानता के बीच उल्टे-U संबंध का प्रस्ताव दिया, इसलिए उत्तर है असमानता पहले बढ़ती है और फिर घटती है।",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/Reasoning/Chapter_03_Coding_Decoding#Set06#Q148",
+      "msg": 400,
+      "chapter": "Graduation_Level/Reasoning/Chapter_03_Coding_Decoding",
+      "q": "यदि \"ORANGE\" को \"LOXKDB\" लिखा जाता है, तो उसी कोड में \"BANANA\" को कैसे कोड किया जाएगा?",
+      "ans": 0,
+      "opt": "YXKXKX",
+      "exp": "उत्तर: YXKXKX। BANANA के लिए: B→Y, A→X, N→K, A→X, N→K, A→X, इसलिए उत्तर YXKXKX है।",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_14_Mensuration#Set03#Q74",
+      "msg": 401,
+      "chapter": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_14_Mensuration",
+      "q": "20 मी भुजा वाले एक वर्गाकार बगीचे के बाहर चारों ओर 2 मी चौड़ा रास्ता है। रास्ते का क्षेत्रफल है:",
+      "ans": 1,
+      "opt": "176 मी²",
+      "exp": "उत्तर: 176 मी²। बाहरी भुजा = 24 मी, अतः रास्ते का क्षेत्रफल = 24² − 20² = 576 − 400 = 176 मी²।",
+      "part": "am"
+     },
+     {
+      "id": "10th_Level/English/Foundation_10th_English_WorldClass/Chapter_14_Antonyms#Set05#Q121",
+      "msg": 402,
+      "chapter": "10th_Level/English/Foundation_10th_English_WorldClass/Chapter_14_Antonyms",
+      "q": "दिए गए शब्द का अर्थ में सबसे अधिक विपरीत (OPPOSITE) शब्द चुनें: OSTENTATIOUS",
+      "ans": 1,
+      "opt": "Modest",
+      "exp": "उत्तर: Modest। \"Modest\" इसका विलोम है, इसलिए उत्तर Modest है।",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_19_Fill_in_Blanks_Adv#Set04#Q93",
+      "msg": 403,
+      "chapter": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_19_Fill_in_Blanks_Adv",
+      "q": "The accused was ______ of all charges by the court.",
+      "ans": 3,
+      "opt": "acquitted",
+      "exp": "उत्तर: acquitted। \"Acquitted of\" का अर्थ है दोषमुक्त घोषित करना, और यह \"of\" के साथ प्रयुक्त होता है।",
+      "part": "am"
      }
     ]
    ]
