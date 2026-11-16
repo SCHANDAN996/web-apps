@@ -9,7 +9,9 @@ def test_active_workflow_excludes_disabled_secret_refs():
     assert 'secrets.NVIDIA_API_KEY }}' not in workflow
     assert 'secrets.NVIDIA_API_KEY_2' not in workflow
     assert 'NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY_3 }},${{ secrets.NVIDIA_API_KEY_4 }}' in workflow
-    assert '--workers 3' in workflow
+    assert '--workers 2' in workflow
+    assert 'matrix' not in workflow
+    assert 'NVIDIA_MIN_INTERVAL_SECONDS' in workflow
 
 
 def test_worker_pool_uses_only_supplied_active_keys(monkeypatch):

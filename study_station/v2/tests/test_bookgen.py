@@ -66,7 +66,7 @@ def test_bookgen_writes_root_keeps_prompts_and_translates(chapter, fake_ai, db, 
     # hi practice set = translation of exactly the English set that was just written
     translate = [u for _, u in fake_ai if 'Translate exactly these questions' in u]
     assert len(translate) == 1 and mcq_set('en').strip() in translate[0]
-    assert len(fake_ai) == 4 and bookgen.used_today(db) == 5          # + 1 independent re-solve of the new set
+    assert len(fake_ai) == 4 and bookgen.used_today(db) == 6          # + two blind re-solves of the new set
     assert '--- bookcheck\nOK   Chapter_07_States_Rivers' in out and code == 0
     # Second run: nothing left in these files, finished sections are never overwritten
     fake_ai.clear()
@@ -224,7 +224,7 @@ def fake_repair(monkeypatch, checker):
         assert '<current_set name="Practice_en_Set_01.txt">' in user and 'numbered 1 to 25' in user
         return mcq_set('en')
     monkeypatch.setattr(bookgen, '_ask', ask)
-    monkeypatch.setattr(bookgen, '_ask_check', lambda db, user: checker(user))
+    monkeypatch.setattr(bookgen, '_ask_check', lambda db, user, **kw: checker(user))
     monkeypatch.setattr(bookgen, 'balance_answers', lambda text: text)
 
 
@@ -262,7 +262,7 @@ def test_review_fixes_only_sections_the_reviewer_flags(broken_chapter, db, monke
 
     def reviewer(db, user):
         reviewed.append(user)
-        return '- "Ganga rises in Kerala" → it rises at Gangotri' if 'file="Content_en.txt"' in user else 'OK'
+        return '- "Ganga rises in Kerala" → it rises at Gangotri' if ('file="Content_en.txt"' in user and 'Corrected chapter text' not in user) else 'OK'
 
     def ask(db, user):
         rewritten.append(user)
@@ -272,7 +272,7 @@ def test_review_fixes_only_sections_the_reviewer_flags(broken_chapter, db, monke
     monkeypatch.setattr(bookgen, '_ask', ask)
     fixed, failed = bookgen.review(db, ch, out=lambda *a: None)
     assert fixed == ['Content_en.txt'] and failed == [] and len(rewritten) == 1
-    assert not any('Practice_' in u for u in reviewed) and len(reviewed) == 11      # 10 sections + mind map
+    assert not any('Practice_' in u for u in reviewed) and len(reviewed) == 12      # 10 sections + mind map + corrected section re-review
     assert (ch / 'Content_en.txt').read_text().startswith('Corrected chapter text')
     assert bookcheck.check_chapter(ch) == ([], [])
 
@@ -310,6 +310,8 @@ def test_review_failure_is_reported_not_swallowed(broken_chapter, db, monkeypatc
 def test_checker_falls_back_to_another_model(monkeypatch):
     from app import nvidia
     tried = []
+    monkeypatch.setattr(config, 'NVIDIA_CHECK_MODEL', 'test/checker')
+    monkeypatch.setattr(config, 'NVIDIA_FALLBACK_MODELS', ['test/fallback'])
 
     def call(system, user, *, model=None, **k):
         tried.append(model)
@@ -350,7 +352,7 @@ def test_review_fix_in_the_wrong_language_is_retried(broken_chapter, db, monkeyp
     ch = broken_chapter
     (ch / 'Prompts' / 'PYQ_en.txt').write_text('Exam pattern notes. ' * 30)
     monkeypatch.setattr(bookgen, '_ask_review',
-                        lambda db, user: '- wrong fact → fix' if 'file="Content_hi.txt"' in user else 'OK')
+                        lambda db, user: '- wrong fact → fix' if ('file="Content_hi.txt"' in user and 'सुधरा हुआ पाठ' not in user) else 'OK')
     answers = iter(['Only English text about states and rivers. ' * 20,
                     'राज्य और नदियों के बारे में सुधरा हुआ पाठ। ' * 20])
     monkeypatch.setattr(bookgen, '_ask', lambda db, user: next(answers))
@@ -389,22 +391,90 @@ def test_puzzle_chapters_also_run_the_solver(db, monkeypatch):
         agree if system is None else '[{"q": 2, "layout": "row", "n": 3, "people": ["A", "B", "C"], '
         '"clues": [["left_end", "A"], ["right_end", "A"]], "ask": ["who_middle"], '
         '"options": {"a": "A", "b": "B", "c": "C", "d": "cannot be determined"}}]'))
-    assert bookgen._key_problem(db, text, puzzles=False) == '' and asked == [None]
+    assert bookgen._key_problem(db, text, puzzles=False) == '' and asked == [None, None]
     assert bookgen._key_problem(db, text, puzzles=True) == 'Q2: clues contradict each other — no arrangement fits all of them'
     assert bookgen.PUZZLE_CHAPTER.search('Chapter_07_Sitting_Arrangement')
     assert not bookgen.PUZZLE_CHAPTER.search('Chapter_23_Sentence_Arrangement')      # English para-jumbles
 
 
-def test_strict_audit_asks_a_second_model(db, monkeypatch):
+def test_new_and_audit_sets_both_require_two_blind_resolves(db, monkeypatch):
     agree = '\n'.join(f'{i}: {"abcd"[i % 4]}' for i in range(1, 26))
-    models = []
+    calls = []
     monkeypatch.setattr(config, 'NVIDIA_API_KEY', 'k')
     monkeypatch.setattr(config, 'BOOKGEN_PROVIDER', 'nvidia')
-    monkeypatch.setattr(bookgen, '_ask_check', lambda db, user, system=None, model=None: models.append(model) or (
-        agree.replace('\n5: b', '\n5: c') if model else agree))
-    assert bookgen._key_problem(db, mcq_set('en')) == '' and models == [None]
-    assert bookgen._key_problem(db, mcq_set('en'), strict=True) == 'Q5 key b vs re-solve c'
-    assert models[1:] == [None, config.NVIDIA_MODEL]
+
+    def check(db, user, system=None, model=None):
+        calls.append((model, user))
+        assert 'Answer:' not in user and 'Solution:' not in user and 'Source:' not in user
+        return agree.replace('\n5: b', '\n5: c') if model else agree
+
+    monkeypatch.setattr(bookgen, '_ask_check', check)
+    for strict in (False, True):
+        calls.clear()
+        assert bookgen._key_problem(db, mcq_set('en'), strict=strict) == 'Q5 key b vs re-solve c'
+        assert [model for model, _ in calls] == [None, config.NVIDIA_MODEL]
+        assert calls[0][1] == calls[1][1]           # separate solves, neither answer leaks to the other
+
+
+def test_new_set_is_rejected_when_only_second_checker_disagrees(chapter, db, monkeypatch):
+    usage_reset(db)
+    monkeypatch.setattr(bookgen, 'balance_answers', lambda text: text)
+    monkeypatch.setattr(bookgen, '_ask', lambda db, user: mcq_set('en'))
+    agree = '\n'.join(f'{i}: {"abcd"[i % 4]}' for i in range(1, 26))
+    calls = []
+
+    def check(db, user, **kwargs):
+        calls.append(user)
+        return agree if len(calls) % 2 else agree.replace('\n5: b', '\n5: c')
+
+    monkeypatch.setattr(bookgen, '_ask_check', check)
+    written, failed = bookgen.run(db, chapter, ['Practice_en_Set_01.txt'], out=lambda *a: None)
+    assert written == [] and failed == ['Practice_en_Set_01.txt']
+    assert len(calls) == 2 * bookgen.MAX_REPAIR_TRIES
+    assert not (chapter / 'Practice_en_Set_01.txt').exists()
+
+
+@pytest.mark.parametrize('followup', ['- still wrong → another correction', 'OK but I am not sure', ''])
+def test_review_rejects_correction_until_reviewer_explicitly_accepts(broken_chapter, db, monkeypatch, tmp_path, followup):
+    import json
+    ch = broken_chapter
+    (ch / 'Prompts' / 'PYQ_en.txt').write_text('Exam pattern notes. ' * 30)
+    before = (ch / 'Prompts' / 'Content_hi.txt').read_text()
+    replacement = 'राज्य और नदियों के बारे में सुधरा हुआ पाठ। ' * 20
+    cache = tmp_path / 'reviewed.json'
+    monkeypatch.setenv('BOOKGEN_REVIEW_CACHE', str(cache))
+
+    def reviewer(db, user):
+        if 'file="Content_hi.txt"' not in user:
+            return 'OK'
+        return followup if replacement.strip() in user else '- wrong fact → fix'
+
+    monkeypatch.setattr(bookgen, '_ask_review', reviewer)
+    monkeypatch.setattr(bookgen, '_ask', lambda db, user: replacement)
+    fixed, failed = bookgen.review(db, ch, out=lambda *a: None)
+    assert fixed == [] and failed == ['Content_hi.txt']
+    assert not (ch / 'Content_hi.txt').exists()
+    assert (ch / 'Prompts' / 'Content_hi.txt').read_text() == before
+    import hashlib
+    assert hashlib.sha256((replacement.strip() + '\n').encode()).hexdigest() not in json.loads(cache.read_text())
+
+
+def test_review_checker_failure_does_not_write_or_cache_correction(broken_chapter, db, monkeypatch):
+    ch = broken_chapter
+    (ch / 'Prompts' / 'PYQ_en.txt').write_text('Exam pattern notes. ' * 30)
+    replacement = 'राज्य और नदियों के बारे में सुधरा हुआ पाठ। ' * 20
+
+    def reviewer(db, user):
+        if 'file="Content_hi.txt"' not in user:
+            return 'OK'
+        if replacement.strip() in user:
+            raise ai.AIUnavailable('network')
+        return '- wrong fact → fix'
+
+    monkeypatch.setattr(bookgen, '_ask_review', reviewer)
+    monkeypatch.setattr(bookgen, '_ask', lambda db, user: replacement)
+    assert bookgen.review(db, ch, out=lambda *a: None) == ([], ['Content_hi.txt'])
+    assert not (ch / 'Content_hi.txt').exists()
 
 
 def test_repair_translates_a_gutted_hindi_section_from_english(chapter, db, monkeypatch):
@@ -420,3 +490,47 @@ def test_repair_translates_a_gutted_hindi_section_from_english(chapter, db, monk
     assert written == ['Flashcards_hi.txt'] and failed == []
     assert '<section file="Flashcards_en.txt">' in asked[0] and english.strip() in asked[0]
     assert 'translate the whole section above into natural, simple Hindi' in asked[0]
+
+
+def test_hindi_subject_prompts_preserve_tested_hindi(tmp_path):
+    chapter = tmp_path / '10th_Level' / 'Hindi' / 'Chapter_01_Grammar'
+    assert bookgen.is_hindi_book(chapter)
+    request = bookgen.translation_request('Practice_en_Set_01.txt', 'Which is correct?',
+                                          'Practice_hi_Set_01.txt', hindi_book=True)
+    assert 'NEVER translate or transliterate a tested Hindi word' in request
+    assert 'Keep every answer option exactly identical' in request
+    lesson = bookgen.section_translation_request('Content_en.txt', 'Grammar lesson',
+                                                 'Content_hi.txt', hindi_book=True)
+    assert bookgen.HINDI_BOOK_TRANSLATION in lesson
+
+
+def test_hindi_subject_translation_rejects_changed_targets_and_options(db, monkeypatch):
+    options_en = '(a) Ganga (b) Yamuna (c) Kaveri (d) Narmada'
+    options_hi = '(a) "गंगा" (b) "यमुना" (c) "कावेरी" (d) "नर्मदा"'
+    english = mcq_set('en').replace(options_en, options_hi).replace('Question about rivers', 'Identify the word "गंगा" in question')
+    hindi = mcq_set('hi').replace('(a) गंगा (b) यमुना (c) कावेरी (d) नर्मदा', options_hi).replace('नदी के बारे में प्रश्न', '"गंगा" शब्द का प्रश्न')
+    asks = []
+    monkeypatch.setattr(bookgen, '_ask', lambda db, request: asks.append(request) or hindi.replace('"कावेरी"', '"नदी"'))
+    assert bookgen.translate_set(db, 'Practice_en_Set_01.txt', english, 'Practice_hi_Set_01.txt',
+                                 1, out=lambda *a: None, hindi_book=True) is None
+    assert len(asks) == bookgen.MAX_REPAIR_TRIES
+    monkeypatch.setattr(bookgen, '_ask', lambda db, request: hindi)
+    assert bookgen.translate_set(db, 'Practice_en_Set_01.txt', english, 'Practice_hi_Set_01.txt',
+                                 1, out=lambda *a: None, hindi_book=True) == hindi.strip() + '\n'
+
+
+def test_repair_rejects_pair_when_only_second_checker_disagrees(broken_chapter, db, monkeypatch):
+    agree = '\n'.join(f'{i}: {"abcd"[i % 4]}' for i in range(1, 26))
+    calls = []
+
+    def checker(user):
+        calls.append(user)
+        return agree if len(calls) % 2 else agree.replace('\n5: b', '\n5: c')
+
+    fake_repair(monkeypatch, checker)
+    original = (broken_chapter / 'Prompts' / 'Practice_en_Set_01.txt').read_text()
+    assert not bookgen.repair_set(db, broken_chapter, 1, [], out=lambda *a: None)
+    assert len(calls) == 2 * bookgen.MAX_REPAIR_TRIES
+    assert (broken_chapter / 'Prompts' / 'Practice_en_Set_01.txt').read_text() == original
+    assert not (broken_chapter / 'Practice_en_Set_01.txt').exists()
+    assert not (broken_chapter / 'Practice_hi_Set_01.txt').exists()

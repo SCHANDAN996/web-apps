@@ -108,7 +108,7 @@ class Pilot:
         """Changed on the remote recently by a commit that is not ours → another writer owns it."""
         rel = ch.relative_to(REPO)
         r = self.git('log', f'--since={SKIP_HOURS} hours ago', '--format=%B%x00', '--', str(rel), check=False)
-        return any(msg.strip() and 'bookgen autopilot' not in msg for msg in r.stdout.split('\x00'))
+        return any(msg.strip() and 'bookgen autopilot' not in msg and 'Books bootstrap:' not in msg for msg in r.stdout.split('\x00'))
 
     def uncommitted(self, ch):
         return bool(self.git('status', '--porcelain', '--', str(ch.relative_to(REPO)), check=False).stdout.strip())
@@ -159,7 +159,15 @@ class Pilot:
             books = [b for b in books if any(o in str(b) for o in self.args.only)]
         if self.args.exclude:
             books = [b for b in books if not any(o in str(b) for o in self.args.exclude)]
-        for book in books:
+        # Alternate priority new books so Hindi and Computer start together.
+        priority = [b for b in books if '/Hindi/' in b.as_posix() or '/Computer/' in b.as_posix()]
+        remainder = [b for b in books if b not in priority]
+        from itertools import zip_longest
+        for row in zip_longest(*(sorted(b.glob('Chapter_*')) for b in priority)):
+            for ch in row:
+                if ch is not None and ch.is_dir() and not bookcheck.is_dynamic(ch):
+                    yield ch
+        for book in remainder:
             for ch in sorted(book.glob('Chapter_*')):
                 if ch.is_dir() and not bookcheck.is_dynamic(ch):
                     yield ch
@@ -420,7 +428,7 @@ class Pilot:
 
 def main():
     p = argparse.ArgumentParser(description=__doc__.split('\n\n')[0])
-    p.add_argument('--workers', type=int, default=3)
+    p.add_argument('--workers', type=int, default=2)
     p.add_argument('--reverse', action='store_true', help='last book in QUEUE.txt first')
     p.add_argument('--only', nargs='*', help='only books whose path contains one of these strings')
     p.add_argument('--exclude', nargs='*', help='skip books whose path contains one of these strings')

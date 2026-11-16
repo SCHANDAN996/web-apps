@@ -33,10 +33,10 @@ log = logging.getLogger('books')
 
 LEVEL_DIRS = {'10th_Level': '10th', '12th_Level': '12th', 'Graduation_Level': 'graduate'}
 LEVEL_ORDER = ['10th', '12th', 'graduate']
-SUBJECT_DIRS = {'Maths': 'quant', 'Reasoning': 'reasoning', 'GK': 'ga', 'English': 'english'}
-SUBJECT_GUESS = (('Math', 'quant'), ('Reasoning', 'reasoning'), ('GK', 'ga'), ('English', 'english'))
-SUBJECT_ORDER = ['quant', 'reasoning', 'ga', 'english']
-SUBJECT_WORD = {'quant': 'maths', 'reasoning': 'reasoning', 'ga': 'gk', 'english': 'english'}
+SUBJECT_DIRS = {'Maths': 'quant', 'Reasoning': 'reasoning', 'GK': 'ga', 'English': 'english', 'Hindi': 'hindi', 'Computer': 'computer'}
+SUBJECT_GUESS = (('Math', 'quant'), ('Reasoning', 'reasoning'), ('GK', 'ga'), ('English', 'english'), ('Hindi', 'hindi'), ('Computer', 'computer'))
+SUBJECT_ORDER = ['quant', 'reasoning', 'ga', 'english', 'hindi', 'computer']
+SUBJECT_WORD = {'quant': 'maths', 'reasoning': 'reasoning', 'ga': 'gk', 'english': 'english', 'hindi': 'hindi', 'computer': 'computer'}
 
 # (file-name key, url slug) in reading order. Mind_Map is one file for both languages.
 SECTIONS = [('Content', 'content'), ('Key_Facts', 'key-facts'), ('Feynman', 'feynman'), ('Mind_Map', 'mind-map'),

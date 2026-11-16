@@ -74,12 +74,27 @@ def section_files(chapter):
             for name, paths in sorted(found.items())}
 
 
-def language_problem(name, text, english_book=False):
+# Hindi subject examples remain Hindi even when the surrounding explanation is English.
+# Only explicitly quoted target-language spans are exempt; other books keep the strict rule.
+HINDI_TARGET = re.compile(r'«([^»]+)»|“([^”]+)”|"([^"\n]+)"')
+
+
+def hindi_targets(text):
+    return [' '.join(next(g for g in m.groups() if g is not None).split())
+            for m in HINDI_TARGET.finditer(text) if DEVANAGARI.search(m.group(0))]
+
+
+def language_problem(name, text, english_book=False, hindi_book=False):
     """A *_hi file must be mostly Devanagari, an *_en file mostly Latin letters. In English-language books the
     Hindi files explain English examples, so they need only a real share of Hindi."""
     m = re.search(r'_(hi|en)(?:_Set_\d+)?\.txt$', name)
     if not m:
         return None
+    if hindi_book and m.group(1) == 'en':
+        # Do not permit an all-Hindi file masquerading as an English wrapper.
+        text = HINDI_TARGET.sub(lambda match: '' if DEVANAGARI.search(match.group(0)) else match.group(0), text)
+        if len(LATIN.findall(text)) < 20:
+            return f'{name}: Hindi subject English wrapper needs English instructions or explanations'
     dev, lat = len(DEVANAGARI.findall(text)), len(LATIN.findall(text))
     if m.group(1) == 'hi' and dev < lat * (0.15 if english_book else 0.5):
         return f'{name}: Hindi file is mostly not in Hindi'
@@ -115,7 +130,27 @@ def translated_english(en_qs, hi_qs):
     return bad
 
 
-def check_practice_pair(en_path, hi_path, english_book=False):
+def hindi_pair_problems(en_qs, hi_qs):
+    """The tested Hindi must survive translation; changing it changes the question."""
+    problems = []
+    for en, hi in zip(en_qs, hi_qs):
+        if [' '.join(o.split()) for o in en.options] != [' '.join(o.split()) for o in hi.options]:
+            problems.append(f'Q{en.number}: Hindi subject options changed between languages')
+        targets = hindi_targets(en.text)
+        if DEVANAGARI.search(en.text) and not targets:
+            problems.append(f'Q{en.number}: tested Hindi text must be explicitly quoted')
+        hi_text = ' '.join(hi.text.split())
+        cursor = 0
+        for target in targets:
+            at = hi_text.find(target, cursor)
+            if at < 0:
+                problems.append(f'Q{en.number}: tested Hindi text changed between languages')
+                break
+            cursor = at + len(target)
+    return problems
+
+
+def check_practice_pair(en_path, hi_path, english_book=False, hindi_book=False):
     problems = []
     sets = {}
     for lang, p in (('en', en_path), ('hi', hi_path)):
@@ -143,13 +178,15 @@ def check_practice_pair(en_path, hi_path, english_book=False):
             problems.append(f'{lang}: answers not spread (one letter is correct in >15 of 25)')
         if '\ufffd' in text:
             problems.append(f'{lang}: corrupted characters (\ufffd)')
-        if (lp := language_problem(p.name, text, '/English/' in Path(p).as_posix())):
+        if (lp := language_problem(p.name, text, '/English/' in Path(p).as_posix(), hindi_book=hindi_book)):
             problems.append(lp)
         problems += source_problems(p.name, text)
     if len(sets) == 2 and len(sets['en']) == len(sets['hi']):
         diff = [q.number for q, h in zip(sets['en'], sets['hi']) if q.answer_index != h.answer_index]
         if diff:
             problems.append(f'hi/en answer mismatch at Q{diff[:5]}')
+        if hindi_book:
+            problems += hindi_pair_problems(sets['en'], sets['hi'])
         if english_book and (tr := translated_english(sets['en'], sets['hi'])):
             problems.append(f'hi: English sentence translated (keep it in English) at Q{tr[:5]}')
     return problems
@@ -210,7 +247,8 @@ def check_chapter(chapter):
             problems.append(f'{name}: unsourced claim "{m.group(0)}"')
         if name.startswith('Mind_Map') and not re.search(r'```mermaid\s*\n\s*(?:graph|flowchart|mindmap)', text):
             problems.append(f'{name}: no ```mermaid graph block')
-        if (lp := language_problem(name, text, '/English/' in Path(chapter).as_posix())):
+        if (lp := language_problem(name, text, '/English/' in Path(chapter).as_posix(),
+                                   hindi_book='/Hindi/' in Path(chapter).as_posix())):
             problems.append(lp)
         problems += source_problems(name, text)
         if '10th_Level' in str(chapter) and re.search(r'\bUPSC\b', text):
@@ -230,7 +268,8 @@ def check_chapter(chapter):
             if n == 1:
                 todo.append('Practice sets')
             break
-        for pr in check_practice_pair(en, hi, '/English/' in Path(chapter).as_posix()):
+        for pr in check_practice_pair(en, hi, '/English/' in Path(chapter).as_posix(),
+                                      hindi_book='/Hindi/' in Path(chapter).as_posix()):
             (todo if pr.endswith('todo') or pr.endswith('missing') else problems).append(f'Set {n:02d} {pr}')
     problems += meta_problems(chapter)
     links = [p.name for d in (Path(chapter), Path(chapter) / 'Prompts') if d.is_dir() for p in d.iterdir() if p.is_symlink()]

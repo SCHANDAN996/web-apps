@@ -17,7 +17,7 @@ overwritten. Ends with bookcheck.
 
 --repair: every section bookcheck reports a problem for is rewritten from its current text (keep what is good,
 fix what is flagged). A practice set is repaired in English, its answers are re-solved independently by a
-second model (NVIDIA_CHECK_MODEL / a separate Claude call) and the set is retried when they disagree; the Hindi
+two separate blind checker calls and the set is retried if either disagrees; the Hindi
 set is then the translation of exactly that set. Nothing is written unless the result passes the same checks.
 
 Budget: every AI call counts against AI_DAILY_BOOK_SECTIONS (all chapters, per IST day, AiUsage row
@@ -243,6 +243,8 @@ def section_request(chapter, name):
     target = LANG_NAME[lang] if lang else 'Hindi and English (bilingual labels)'
     if PRACTICE.match(name):
         parts.append(PRACTICE_FORMAT)
+    if is_hindi_book(chapter):
+        parts.append(HINDI_BOOK_TRANSLATION)
     parts.append(f'Write the finished file {name} now, in {target}. Output only the file content.')
     return '\n\n'.join(parts)
 
@@ -257,10 +259,26 @@ def is_english_book(chapter):
     return '/English/' in Path(chapter).resolve().as_posix()
 
 
-def section_translation_request(src_name, src_text, dst_name, english_book=False):
+HINDI_BOOK_TRANSLATION = (
+    'This is a Hindi-language subject book: questions test Hindi grammar, vocabulary and comprehension. '
+    'NEVER translate or transliterate a tested Hindi word, sentence, passage, blank or answer option into '
+    'English. Keep these targets in Devanagari, explicitly enclosed in double quotes (or «…»), in BOTH '
+    'language versions. Keep every answer option exactly identical, including quotes, in both versions. '
+    'Translate only explanatory instructions, headings and solutions; English-wrapper files must use '
+    'English prose outside the quoted Hindi targets. A Hindi practice stem must retain the exact same '
+    'quoted target spans in the same order as its English counterpart.')
+
+
+def is_hindi_book(chapter):
+    return '/Hindi/' in Path(chapter).resolve().as_posix()
+
+
+def section_translation_request(src_name, src_text, dst_name, english_book=False, hindi_book=False):
     """A whole book section in Hindi, translated from the finished English one (same headings, same content)."""
     keep = (' This is an English-language book: keep every English example sentence, word and option as it is.'
             if english_book else '')
+    if hindi_book:
+        keep += ' ' + HINDI_BOOK_TRANSLATION
     return (f'<section file="{src_name}">\n{src_text.strip()}\n</section>\n\n'
             f'Write {dst_name}: translate the whole section above into natural, simple Hindi (Devanagari) for '
             f'Hindi-medium students. Keep every heading, point, table, card, example and number — leave nothing out '
@@ -268,7 +286,7 @@ def section_translation_request(src_name, src_text, dst_name, english_book=False
             f'"क्रमचय (Permutation)".{keep} Output only the file content.')
 
 
-def translation_request(src_name, src_text, dst_name, english_book=False):
+def translation_request(src_name, src_text, dst_name, english_book=False, hindi_book=False):
     src, dst = _lang_of(src_name), _lang_of(dst_name)
     words = ('उत्तर:, हल:, स्रोत:' if dst == 'hi' else 'Answer:, Solution:, Source:')
     return (f'<practice_set file="{src_name}">\n{src_text.strip()}\n</practice_set>\n\n'
@@ -277,6 +295,7 @@ def translation_request(src_name, src_text, dst_name, english_book=False):
             f'same header line (translated). Use the labels {words}. Do not add, drop, fix or reorder anything. '
             f'Keep each solution ending on the sentence that states the correct answer. '
             + (ENGLISH_BOOK_TRANSLATION + ' ' if english_book and dst == 'hi' else '')
+            + (HINDI_BOOK_TRANSLATION + ' ' if hindi_book else '')
             + 'Output only the file content.')
 
 
@@ -366,13 +385,17 @@ def _resolve_mismatch(db, text, model=None):
         f' (+{len(diff) - 10} more)' if len(diff) > 10 else '')
 
 
-def _key_problem(db, text, puzzles=False, strict=False):
-    """'' when the key survives the checks: an independent re-solve, and for seating/ordering chapters the puzzle
-    solver (a model only translates the clues; a program tries every arrangement). strict (audits of old
-    chapters): a second re-solve by another model as well, so a wrong key one checker accepts is still caught."""
+def _key_problem(db, text, puzzles=False, strict=True):
+    """Require two separate blind re-solves for new, repaired and audited sets.
+
+    Both checker calls receive questions without the supplied keys or solutions. They may use the same
+    model, but never share their answers. ``strict`` is retained for callers; False cannot weaken this gate.
+    Seating/ordering chapters additionally use the programmatic puzzle solver.
+    """
     if mismatch := _resolve_mismatch(db, text):
         return mismatch
-    if strict and provider() == 'nvidia' and (mismatch := _resolve_mismatch(db, text, config.NVIDIA_MODEL)):
+    second_model = config.NVIDIA_MODEL if provider() == 'nvidia' else None
+    if mismatch := _resolve_mismatch(db, text, second_model):
         return mismatch
     if not puzzles:
         return ''
@@ -431,13 +454,19 @@ def _keep_reject(name, text, why):
             pass
 
 
-def translate_set(db, en_name, en_text, hi_name, n, out=print, english_book=False):
+def translate_set(db, en_name, en_text, hi_name, n, out=print, english_book=False, hindi_book=False):
     """Translate a checked English set; keep it only when it parses to the same 25 questions and answers."""
     en_key = [q.answer_index for q in parse_mcq_text(en_text)]
     for attempt in range(1, MAX_REPAIR_TRIES + 1):
-        hi = _clean_output(_ask(db, translation_request(en_name, en_text, hi_name, english_book)), hi_name)
+        hi = _clean_output(_ask(db, translation_request(en_name, en_text, hi_name, english_book, hindi_book)), hi_name)
         why = _set_problem(hi, n, spread=False) or (
             None if [q.answer_index for q in parse_mcq_text(hi)] == en_key else 'answer letters differ from English')
+        if not why and hindi_book:
+            en_qs, hi_qs = parse_mcq_text(en_text), parse_mcq_text(hi)
+            if _lang_of(en_name) == 'hi':
+                en_qs, hi_qs = hi_qs, en_qs
+            parity = bookcheck.hindi_pair_problems(en_qs, hi_qs)
+            why = '; '.join(parity) if parity else None
         if not why:
             return hi
         _keep_reject(hi_name, hi, why)
@@ -501,7 +530,7 @@ def _keep_for_arbiter(name, n, text, mismatch, out=print):
     out(f'  {name}: kept for the arbiter ({p.name})')
 
 
-def repair_set(db, chapter, n, problems, out=print, strict=False):
+def repair_set(db, chapter, n, problems, out=print, strict=True):
     """Repair one en/hi practice pair. Returns True when both files were written."""
     files = section_files(chapter)
     en_name, hi_name = f'Practice_en_Set_{n:02d}.txt', f'Practice_hi_Set_{n:02d}.txt'
@@ -525,7 +554,7 @@ def repair_set(db, chapter, n, problems, out=print, strict=False):
     if text is None:
         out(f'FAILED set {n:02d}: no version passed the checks — files left as they were')
         return False
-    hi = translate_set(db, en_name, text, hi_name, n, out, is_english_book(chapter))
+    hi = translate_set(db, en_name, text, hi_name, n, out, is_english_book(chapter), is_hindi_book(chapter))
     if hi is None:
         out(f'FAILED set {n:02d}: Hindi translation rejected — files left as they were')
         return False
@@ -540,7 +569,7 @@ def retranslate_set(db, chapter, n, out=print):
     files = section_files(chapter)
     en_name, hi_name = f'Practice_en_Set_{n:02d}.txt', f'Practice_hi_Set_{n:02d}.txt'
     en = files[en_name].read_text(encoding='utf-8', errors='replace')
-    hi = translate_set(db, en_name, en, hi_name, n, out, is_english_book(chapter))
+    hi = translate_set(db, en_name, en, hi_name, n, out, is_english_book(chapter), is_hindi_book(chapter))
     if hi is None or bookcheck.translated_english(parse_mcq_text(en), parse_mcq_text(hi)):
         out(f'FAILED set {n:02d}: re-translation still changes English sentences — left as it was')
         return False
@@ -571,7 +600,7 @@ def repair(db, chapter, dry_run=False, out=print):
         try:
             if any('much shorter than' in p for p in mine) and en_path:     # gutted Hindi: translate the English one
                 user = section_translation_request(en_name, en_path.read_text(encoding='utf-8', errors='replace'),
-                                                   name, is_english_book(chapter))
+                                                   name, is_english_book(chapter), is_hindi_book(chapter))
             elif rewrite and prompt_file(chapter, name):     # wrong or gutted section: write it again from its prompt
                 user = section_request(chapter, name)
             else:
@@ -607,7 +636,7 @@ def repair(db, chapter, dry_run=False, out=print):
 
 
 def audit(db, chapter, out=print):
-    """Re-check the answer key of every finished practice set (two independent re-solves by different models;
+    """Re-check the answer key of every finished practice set (two separate blind re-solves;
     seating/ordering chapters also the puzzle solver) and repair each set that fails. For chapters published before these checks existed.
     Returns (written, failed)."""
     chapter = Path(chapter)
@@ -653,7 +682,7 @@ def _review_issues(answer):
     lines = [l.strip() for l in answer.splitlines() if l.strip().startswith(('-', '*', '•'))]
     if not lines and answer.strip().rstrip('.').upper() == 'OK':
         return []
-    return lines or ([] if answer.strip().upper().startswith('OK') else [answer.strip()[:500]])
+    return lines or [answer.strip()[:500] or 'empty review response']
 
 
 def _ask_review(db, user):
@@ -680,7 +709,7 @@ def _review_cache():
 
 
 def review(db, chapter, out=print):
-    """An independent model reviews every finished non-practice section; flagged ones are rewritten once.
+    """A separate reviewer call checks every finished non-practice section and re-checks corrections.
     Returns (fixed, failed). Practice sets are not reviewed here — their keys were re-solved when written."""
     chapter = Path(chapter)
     fixed, failed = [], []
@@ -705,7 +734,7 @@ def review(db, chapter, out=print):
             ask = repair_request(name, text, issues)
             for attempt in range(2):                      # the fix must still be the same language and topic
                 new = _clean_output(_ask(db, ask), name)
-                lang = bookcheck.language_problem(name, new, is_english_book(chapter)) or \
+                lang = bookcheck.language_problem(name, new, is_english_book(chapter), hindi_book=is_hindi_book(chapter)) or \
                     bookcheck.off_topic(chapter, name, new)
                 if not lang:
                     break
@@ -723,8 +752,18 @@ def review(db, chapter, out=print):
             out(f'REJECTED review fix {name}: {why}')
             failed.append(name)
             continue
+        try:
+            remaining = _review_issues(_ask_review(db, review_request(name, new)))
+        except ai.AIUnavailable as e:
+            out(f'FAILED review fix {name}: {e} — corrected text remains unapproved')
+            failed.append(name)
+            continue
+        if remaining:
+            out(f'REJECTED review fix {name}: reviewer still reports {remaining[0][:120]}')
+            failed.append(name)
+            continue
         write_section(chapter, name, new)
-        remember(new)                       # a corrected section counts as reviewed
+        remember(new)                       # only cache a correction after the reviewer accepts it
         fixed.append(name)
     out(f'review: {len(fixed)} section(s) corrected, {len(failed)} failed')
     return fixed, failed
@@ -760,7 +799,7 @@ def run(db, chapter, wanted=None, dry_run=False, out=print):
             failed.append(name)
             continue
         if source is not None:
-            how, user = f'translate from {other}', translation_request(other, source, name, is_english_book(chapter))
+            how, user = f'translate from {other}', translation_request(other, source, name, is_english_book(chapter), is_hindi_book(chapter))
         elif prompt_file(chapter, name) is None:
             out(f'skip {name}: no prompt file found')
             failed.append(name)
@@ -777,7 +816,7 @@ def run(db, chapter, wanted=None, dry_run=False, out=print):
                 n = int(m.group(2))
                 text = (write_verified_set(db, user, name, n, out, bool(PUZZLE_CHAPTER.search(chapter.name)))
                         if how == 'write'
-                        else translate_set(db, other, source, name, n, out, is_english_book(chapter)))
+                        else translate_set(db, other, source, name, n, out, is_english_book(chapter), is_hindi_book(chapter)))
                 if text is None:
                     failed.append(name)
                     continue

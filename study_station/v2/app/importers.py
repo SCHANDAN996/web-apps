@@ -150,7 +150,7 @@ def parse_mcq_text(text):
 
 
 PATH_RE = re.compile(r'(10th|12th|Graduation)_Level/(\w+?)/(?:.*/)?Chapter_(\d+)_([A-Za-z_]+)/(?:Prompts/)?Practice_(en|hi)_Set_(\d+)\.txt$')
-SUBJECT_DIRS = {'Maths': 'quant', 'Reasoning': 'reasoning', 'GK': 'ga', 'English': 'english'}
+SUBJECT_DIRS = {'Maths': 'quant', 'Reasoning': 'reasoning', 'GK': 'ga', 'English': 'english', 'Hindi': 'hindi', 'Computer': 'computer'}
 LEVELS = {'10th': '10th', '12th': '12th', 'Graduation': 'graduate'}
 
 

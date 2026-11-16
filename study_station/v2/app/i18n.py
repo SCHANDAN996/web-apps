@@ -328,6 +328,8 @@ STRINGS = {
     'book_subject_reasoning': ('तर्कशक्ति', 'Reasoning'),
     'book_subject_ga': ('सामान्य ज्ञान', 'General Knowledge'),
     'book_subject_english': ('अंग्रेज़ी', 'English'),
+    'book_subject_hindi': ('सामान्य हिंदी', 'General Hindi'),
+    'book_subject_computer': ('कंप्यूटर ज्ञान', 'Computer Knowledge'),
     'chapters_ready': ('{done}/{total} अध्याय तैयार', '{done}/{total} chapters ready'),
     'chapter_n': ('अध्याय {n}', 'Chapter {n}'),
     'coming_soon': ('जल्द आ रहा है', 'Coming soon'),
