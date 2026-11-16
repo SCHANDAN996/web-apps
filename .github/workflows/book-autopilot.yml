@@ -88,6 +88,9 @@ jobs:
           # Only keys 3 and 4 are active. Keep worker count and rate handling unchanged.
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY_3 }},${{ secrets.NVIDIA_API_KEY_4 }}
           BOOKGEN_REJECT_DIR: ${{ runner.temp }}/rejects
+          NVIDIA_MODEL: nvidia/nemotron-3-ultra-550b-a55b
+          NVIDIA_CHECK_MODEL: nvidia/nemotron-3-ultra-550b-a55b
+          NVIDIA_FALLBACK_MODELS: nvidia/nemotron-3-ultra-550b-a55b
           PYTHONUNBUFFERED: '1'
         run: |
           git config user.name "study-station-book-autopilot"
