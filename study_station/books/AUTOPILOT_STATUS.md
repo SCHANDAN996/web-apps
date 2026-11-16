@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (three-chapters)
 
-**आख़िरी update:** 16-11-2026 10:32 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 08:13 PM
+**आख़िरी update:** 16-11-2026 10:48 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 08:13 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 138 मिनट |
-| W2 | Chapter 02 shabd bhed (10th Hindi) | ✍️ लिख रहा है | 1 मिनट |
-| W3 | Chapter 02 input output ports (12th Computer) | 🔎 review हो रहा है | 12 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 154 मिनट |
+| W2 | Chapter 02 shabd bhed (10th Hindi) | ✍️ लिख रहा है | 16 मिनट |
+| W3 | Chapter 02 input output ports (12th Computer) | 🔎 review हो रहा है | 28 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -45,24 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-16-11 22:11:00   [input_output_ports] Practice_en_Set_06.txt try 1: re-solve disagrees (Q128 key a vs re-solve c, Q129 key d vs re-solve a, Q146 key c vs re-solve b)
-16-11 22:11:20   [shabd_bhed] Practice_hi_Set_06.txt try 4: rejected (parsed 0 questions, numbers -…-)
-16-11 22:11:20   [shabd_bhed] REJECTED Practice_hi_Set_06.txt: no translation passed the checks — not written
-16-11 22:11:20   [shabd_bhed] written 20, failed 5; AI calls today 166/100000
-16-11 22:11:20 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_02_shabd_bhed after 118 min: todo ['Set 02 hi: todo', 'Set 03 hi: todo', 'Set 04 hi: todo', 'Set 05 hi: todo'] problems ['Content_en.txt: English file contains a lot of Hindi', 'Flashcards_en.txt: English file contains a lot of Hindi', 'Important_Rules_en.txt: English file contains a lot of Hindi', 'Important_Rules_hi.txt: much shorter than the English sectio']
-16-11 22:11:20 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_02_shabd_bhed (TODO: todo 5, problems 9)
-16-11 22:12:29   [shabd_bhed] Practice_hi_Set_02.txt try 1: rejected (parsed 24 questions, numbers 26…50)
-16-11 22:13:31   [shabd_bhed] Practice_hi_Set_02.txt try 2: rejected (Q27: tested Hindi text changed between languages; Q29: tested Hindi text changed between languages; Q30: teste
-16-11 22:13:46   [varn_vartani] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-16-11 22:14:30   [shabd_bhed] Practice_hi_Set_02.txt try 3: rejected (Q26: Hindi subject options changed between languages; Q27: Hindi subject options changed between languages; Q2
-16-11 22:15:29   [varn_vartani] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-16-11 22:15:41   [shabd_bhed] Practice_hi_Set_02.txt try 4: rejected (Q26: Hindi subject options changed between languages; Q27: Hindi subject options changed between languages; Q2
-16-11 22:15:41   [shabd_bhed] REJECTED Practice_hi_Set_02.txt: no translation passed the checks — not written
-16-11 22:16:03   [input_output_ports] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-16-11 22:16:41   [shabd_bhed] Practice_hi_Set_03.txt try 1: rejected (Q63: tested Hindi text changed between languages; Q64: tested Hindi text changed between languages; Q66: teste
-16-11 22:17:09   [varn_vartani] Practice_en_Set_05.txt try 1: rejected (Q108:leaked_reasoning,Q111:leaked_reasoning,Q121:leaked_reasoning,Q110:duplicate_options,Q113:duplicate_option
-16-11 22:17:46   [shabd_bhed] Practice_hi_Set_03.txt try 2: rejected (Q63: tested Hindi text changed between languages; Q64: tested Hindi text changed between languages; Q66: teste
-16-11 22:18:53   [shabd_bhed] Practice_hi_Set_03.txt try 3: rejected (Q63: tested Hindi text changed between languages; Q64: tested Hindi text changed between languages; Q66: teste
 16-11 22:19:47   [input_output_ports] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 16-11 22:19:47   [input_output_ports] written 25, failed 0; AI calls today 181/100000
 16-11 22:19:59   [shabd_bhed] Practice_hi_Set_03.txt try 4: rejected (Q63: tested Hindi text changed between languages; Q64: tested Hindi text changed between languages; Q66: teste
@@ -85,4 +67,22 @@
 16-11 22:31:30 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_02_shabd_bhed after 20 min: todo ['Set 02 hi: todo', 'Set 03 hi: todo', 'Set 04 hi: todo', 'Set 06 hi: todo'] problems ['Content_en.txt: English file contains a lot of Hindi', 'Flashcards_en.txt: English file contains a lot of Hindi', 'Important_Rules_en.txt: English file contains a lot of Hindi', 'Important_Rules_hi.txt: much shorter than the English sectio']
 16-11 22:31:30 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_02_shabd_bhed (TODO: todo 4, problems 9)
 16-11 22:31:47   [input_output_ports] REJECTED review fix Content_en.txt: reviewer still reports - Example 4 solution incorrectly states "PC front panel uses separate TRS jacks (CTIA wirin
+16-11 22:33:38   [shabd_bhed] Practice_hi_Set_02.txt try 1: rejected (Q26: Hindi subject options changed between languages; Q27: Hindi subject options changed between languages; Q2
+16-11 22:34:50   [shabd_bhed] Practice_hi_Set_02.txt try 2: rejected (Q26: Hindi subject options changed between languages; Q27: Hindi subject options changed between languages; Q2
+16-11 22:36:03   [shabd_bhed] Practice_hi_Set_02.txt try 3: rejected (Q26: Hindi subject options changed between languages; Q27: Hindi subject options changed between languages; Q2
+16-11 22:38:25   [shabd_bhed] Practice_hi_Set_02.txt try 4: rejected (Q27: tested Hindi text changed between languages; Q29: tested Hindi text changed between languages; Q30: teste
+16-11 22:38:25   [shabd_bhed] REJECTED Practice_hi_Set_02.txt: no translation passed the checks — not written
+16-11 22:39:44   [shabd_bhed] Practice_hi_Set_03.txt try 1: rejected (Q63: tested Hindi text changed between languages; Q64: tested Hindi text changed between languages; Q66: teste
+16-11 22:40:50   [varn_vartani] Practice_en_Set_05.txt try 4: re-solve disagrees (Q106 key c vs re-solve ?, Q111 key c vs re-solve b, Q114 key d vs re-solve ?, Q119 key b vs re-solve
+16-11 22:40:50   [varn_vartani] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
+16-11 22:40:50   [varn_vartani] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
+16-11 22:41:07   [shabd_bhed] Practice_hi_Set_03.txt try 2: rejected (Q63: tested Hindi text changed between languages; Q64: tested Hindi text changed between languages; Q66: teste
+16-11 22:41:46   [input_output_ports] review Content_hi.txt: 1 issue(s): - Section 4.3 (नेटवर्क पोर्ट) में Wi-Fi मानकों की मैपिंग गलत है: "IEEE 802.11n/ac/ax (Wi-Fi 4/5/6/6E/7)" → 802.11ax
+16-11 22:42:51   [varn_vartani] Practice_en_Set_06.txt try 1: rejected (Q126:duplicate_options,Q131:duplicate_options,Q133:duplicate_options,Q134:duplicate_options,Q137:duplicate_opt
+16-11 22:43:06   [shabd_bhed] Practice_hi_Set_03.txt try 3: rejected (Q63: tested Hindi text changed between languages; Q64: tested Hindi text changed between languages; Q66: teste
+16-11 22:44:10   [shabd_bhed] Practice_hi_Set_03.txt try 4: rejected (Q63: tested Hindi text changed between languages; Q64: tested Hindi text changed between languages; Q66: teste
+16-11 22:44:10   [shabd_bhed] REJECTED Practice_hi_Set_03.txt: no translation passed the checks — not written
+16-11 22:45:53   [shabd_bhed] Practice_hi_Set_04.txt try 1: rejected (Q77: tested Hindi text must be explicitly quoted; Q82: tested Hindi text must be explicitly quoted; Q84: teste
+16-11 22:45:57   [varn_vartani] Practice_en_Set_06.txt try 2: rejected (Q131:duplicate_options,Q133:duplicate_options,Q134:duplicate_options,Q137:duplicate_options,Q138:duplicate_opt
+16-11 22:47:11   [shabd_bhed] Practice_hi_Set_04.txt try 2: rejected (Q77: tested Hindi text must be explicitly quoted; Q82: tested Hindi text must be explicitly quoted; Q84: teste
 ```
