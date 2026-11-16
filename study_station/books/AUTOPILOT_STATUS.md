@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (two-chapters)
 
-**आख़िरी update:** 16-11-2026 03:44 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 02:49 PM
+**आख़िरी update:** 16-11-2026 03:51 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 02:49 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 55 मिनट |
-| W2 | Chapter 01 organization cpu (12th Computer) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 62 मिनट |
+| W2 | Chapter 02 shabd bhed (10th Hindi) | ✍️ लिख रहा है | 5 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -37,23 +37,9 @@
 
 - 16-11 15:44 — 12th Computer · Chapter 01 organization cpu
 
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 01 organization cpu (Computer) — 1 बार
-
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-16-11 15:16:11   [varn_vartani] Practice_en_Set_02.txt try 1: rejected (Q28:duplicate_options,Q29:duplicate_options,Q30:duplicate_options,Q31:duplicate_options,Q32:duplicate_options)
-16-11 15:17:00   [varn_vartani] Practice_en_Set_02.txt try 2: rejected (Q28:duplicate_options,Q29:duplicate_options,Q30:duplicate_options,Q31:duplicate_options,Q32:duplicate_options)
-16-11 15:17:04   [organization_cpu] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-16-11 15:17:39   [varn_vartani] Practice_en_Set_02.txt try 3: rejected (Q28:duplicate_options,Q29:duplicate_options,Q30:duplicate_options,Q31:duplicate_options,Q32:duplicate_options)
-16-11 15:18:27   [varn_vartani] Practice_en_Set_02.txt try 4: rejected (Q28:duplicate_options,Q29:duplicate_options,Q30:duplicate_options,Q31:duplicate_options,Q32:duplicate_options)
-16-11 15:18:27   [varn_vartani] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
-16-11 15:18:27   [varn_vartani] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-16-11 15:19:38   [organization_cpu] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-16-11 15:20:20   [organization_cpu] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-16-11 15:22:37   [organization_cpu] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 16-11 15:23:20   [organization_cpu] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 16-11 15:23:54   [varn_vartani] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 16-11 15:24:44   [organization_cpu] Practice_en_Set_06.txt try 1: re-solve disagrees (Q147 key a vs re-solve c)
@@ -84,4 +70,14 @@
 16-11 15:43:52   [organization_cpu] review Important_Rules_en.txt: 2 issue(s): - Rule 5: "x86 `MOV` can move memory-to-memory via microcode" is false; x86 MOV does not support memory-to-
 16-11 15:44:55   [organization_cpu] review: 2 section(s) corrected, 0 failed
 16-11 15:44:55   [organization_cpu] written 2, failed 0; AI calls today 112/100000
+16-11 15:45:18 DONE 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_01_organization_cpu in 15 min → 4463456f
+16-11 15:45:18 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_02_shabd_bhed (TODO: todo 25, problems 0)
+16-11 15:46:19   [shabd_bhed] wrote Content_en.txt (9788 chars)
+16-11 15:47:26   [shabd_bhed] wrote Content_hi.txt (7967 chars)
+16-11 15:48:22   [shabd_bhed] wrote Key_Facts_en.txt (7181 chars)
+16-11 15:49:40   [shabd_bhed] wrote Key_Facts_hi.txt (5856 chars)
+16-11 15:50:17   [shabd_bhed] wrote Feynman_en.txt (4495 chars)
+16-11 15:50:49   [shabd_bhed] wrote Feynman_hi.txt (4006 chars)
+16-11 15:50:55   [varn_vartani] Practice_en_Set_05.txt try 3: re-solve disagrees (Q123 key d vs re-solve ?, Q125 key a vs re-solve ?)
+16-11 15:50:55   [shabd_bhed] wrote Mind_Map.txt (1027 chars)
 ```
