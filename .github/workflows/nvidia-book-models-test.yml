@@ -1,0 +1,120 @@
+name: NVIDIA book-writing model check
+on:
+  push:
+    branches: ['codex/nvidia-book-models-20261116']
+permissions:
+  contents: read
+  statuses: write
+jobs:
+  sample:
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        candidate:
+          - {label: ultra, model: nvidia/nemotron-3-ultra-550b-a55b}
+          - {label: gpt20, model: openai/gpt-oss-20b}
+          - {label: mistral4, model: mistralai/mistral-large-4-1t-a52b}
+        key:
+          - {label: key3, secret: NVIDIA_API_KEY_3}
+          - {label: key4, secret: NVIDIA_API_KEY_4}
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Generate small Hindi lesson and verify one factual MCQ
+        id: sample
+        env:
+          API_KEY: ${{ secrets[matrix.key.secret] }}
+          MODEL: ${{ matrix.candidate.model }}
+          MODEL_LABEL: ${{ matrix.candidate.label }}
+        shell: python
+        run: |
+          import json, os, re, signal, time, urllib.request, urllib.error
+          def expired(signum, frame):
+              raise TimeoutError()
+          signal.signal(signal.SIGALRM, expired)
+          key, model = os.environ.get('API_KEY', '').strip(), os.environ['MODEL']
+          result, sample = 'secret_missing', None
+          started = time.monotonic()
+          if key:
+              prompt = ('Write a tiny Hindi schoolbook sample. Output only JSON, no markdown or reasoning. '
+                        'Use exactly these fields: text_hi, question_hi, options_hi, answer_index, solution_hi. '
+                        'text_hi must be 3 short factual Hindi sentences about water, under 80 words. '
+                        'question_hi asks the chemical formula of pure water in Hindi. '
+                        'options_hi must be exactly ["H2O","CO2","O2","NaCl"], answer_index must be 0. '
+                        'solution_hi must explain that H2O has two hydrogen atoms and one oxygen atom, in Hindi.')
+              payload = {'model': model, 'messages': [{'role':'user','content':prompt}],
+                         'max_tokens':1200, 'temperature':0.2, 'stream':True}
+              if os.environ['MODEL_LABEL'] == 'ultra':
+                  payload['chat_template_kwargs'] = {'enable_thinking':False}
+              else:
+                  payload['reasoning_effort'] = 'low'
+              request = urllib.request.Request('https://integrate.api.nvidia.com/v1/chat/completions',
+                  json.dumps(payload).encode(), {'Authorization':'Bearer '+key, 'Content-Type':'application/json',
+                                                'Accept':'text/event-stream'})
+              signal.alarm(65)
+              try:
+                  parts, total, finish = [], 0, None
+                  with urllib.request.urlopen(request,timeout=45) as response:
+                      for raw in response:
+                          total += len(raw)
+                          if total > 262144:
+                              raise ValueError()
+                          line = raw.decode('utf-8','replace').strip()
+                          if not line.startswith('data:'):
+                              continue
+                          data = line[5:].strip()
+                          if data == '[DONE]':
+                              break
+                          choices = json.loads(data).get('choices',[])
+                          if choices:
+                              parts.append((choices[0].get('delta') or {}).get('content') or '')
+                              finish = choices[0].get('finish_reason') or finish
+                  text = ''.join(parts).strip()
+                  if not text:
+                      result = 'http200_no_final_text'
+                  elif finish == 'length':
+                      result = 'output_token_limit'
+                  else:
+                      try:
+                          clean = re.sub(r'^\x60\x60\x60(?:json)?\s*|\s*\x60\x60\x60$', '', text)
+                          obj = json.loads(clean)
+                          valid = (isinstance(obj,dict) and isinstance(obj.get('text_hi'),str)
+                              and len(re.findall('[\\u0900-\\u097f]',obj['text_hi'])) >= 10
+                              and isinstance(obj.get('question_hi'),str)
+                              and obj.get('options_hi') == ['H2O','CO2','O2','NaCl']
+                              and type(obj.get('answer_index')) is int and obj['answer_index'] == 0
+                              and isinstance(obj.get('solution_hi'),str) and bool(obj['solution_hi'].strip()))
+                          result = 'sample_pass' if valid else 'sample_check_failed'
+                          if valid:
+                              sample = obj
+                      except (ValueError,TypeError,KeyError):
+                          result = 'text_received_invalid_json'
+              except urllib.error.HTTPError as error:
+                  result = 'http_'+str(error.code)
+              except (urllib.error.URLError,TimeoutError,OSError):
+                  result = 'network_or_timeout'
+              except Exception:
+                  result = 'invalid_response'
+              finally:
+                  signal.alarm(0)
+          elapsed = round(time.monotonic()-started,1)
+          print('RESULT='+result+'; seconds='+str(elapsed),flush=True)
+          if sample:
+              print('SAMPLE_JSON='+json.dumps(sample,ensure_ascii=False),flush=True)
+          with open(os.environ['GITHUB_OUTPUT'],'a') as output:
+              output.write('result='+result+'\nstate='+('success' if result=='sample_pass' else 'failure')+'\n')
+      - name: Record safe model result
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RESULT_STATE: ${{ steps.sample.outputs.state }}
+          RESULT: ${{ steps.sample.outputs.result }}
+          MODEL_LABEL: ${{ matrix.candidate.label }}
+          KEY_LABEL: ${{ matrix.key.label }}
+        run: |
+          gh api --silent --method POST "repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA" \
+            -f state="${RESULT_STATE:-error}" -f context="nvidia-book-$MODEL_LABEL-$KEY_LABEL" \
+            -f description="${RESULT:-incomplete}" \
+            -f target_url="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          test "$RESULT_STATE" = success
