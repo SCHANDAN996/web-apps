@@ -1,5 +1,5 @@
 # Study Station book autopilot — writes/repairs book chapters with the NVIDIA API around the clock.
-# Each run works ~5 hours on the books branch: bookgen writes, an independent model re-solves every
+# Each run works ~5 hours on the books branch: bookgen writes, two blind Ultra requests re-solve every
 # practice set and reviews every section, and a chapter is pushed only when bookcheck is OK.
 # Live progress: study_station/books/AUTOPILOT_STATUS.md on the books branch.
 # Active pool: NVIDIA_API_KEY_3 and NVIDIA_API_KEY_4 only; keys 1 and 2 are temporarily disabled.
@@ -9,6 +9,9 @@ on:
   schedule:
     - cron: '17 * * * *'           # hourly: a lane still running keeps going, the next run waits in line (per-lane concurrency), so no lane sits idle
   workflow_dispatch: {}
+  push:
+    branches: ['claude/elegant-rubin-sgov1q']
+    paths: ['.github/workflows/book-autopilot.yml']
 
 permissions:
   contents: write
@@ -16,32 +19,9 @@ permissions:
 
 jobs:
   write-books:
-    # Six lanes run side by side on different books (no two lanes touch the same chapter);
-    # each lane keeps its own status page so their pushes never conflict.
-    strategy:
-      fail-fast: false
-      matrix:
-        include:
-          - lane: lane-1
-            books: Graduation_Level/English Graduation_Level/Reasoning
-            status: AUTOPILOT_STATUS.md
-          - lane: lane-2
-            books: Graduation_Level/GK Graduation_Level/Maths
-            status: autopilot/lane-2.md
-          - lane: lane-3
-            books: 12th_Level/English 12th_Level/Reasoning
-            status: autopilot/lane-3.md
-          - lane: lane-4
-            books: 12th_Level/GK 12th_Level/Maths
-            status: autopilot/lane-4.md
-          - lane: lane-5
-            books: 10th_Level/English 10th_Level/Maths
-            status: autopilot/lane-5.md
-          - lane: lane-6                 # finished books: only re-checks the chapters in books/autopilot/AUDIT.txt
-            books: 10th_Level/GK 10th_Level/Reasoning
-            status: autopilot/lane-6.md
+    # One run owns the queue; exactly two chapters run through all stages.
     concurrency:
-      group: book-autopilot-${{ matrix.lane }}
+      group: book-autopilot-two-chapters
       cancel-in-progress: false
     runs-on: ubuntu-latest
     timeout-minutes: 350
@@ -64,8 +44,8 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: ${{ runner.temp }}/wip.tar.gz
-          key: wip-${{ matrix.lane }}-${{ github.run_id }}
-          restore-keys: wip-${{ matrix.lane }}-
+          key: wip-two-chapters-${{ github.run_id }}
+          restore-keys: wip-two-chapters-
       - name: Unpack unfinished work
         run: |
           if [ -f "$RUNNER_TEMP/wip.tar.gz" ]; then
@@ -81,23 +61,25 @@ jobs:
           names = ('NVIDIA_API_KEY_3', 'NVIDIA_API_KEY_4')
           if not any(os.environ.get(name, '').strip() for name in names):
               raise SystemExit('Configure NVIDIA_API_KEY_3 or NVIDIA_API_KEY_4; keys 1 and 2 are disabled.')
-      - name: Write books (${{ matrix.lane }})
+      - name: Write books (two-chapters)
         working-directory: study_station/v2
         timeout-minutes: 325           # step limit (not the job's) so the unfinished work is still packed
         env:
-          # Only keys 3 and 4 are active. Keep worker count and rate handling unchanged.
+          # Only keys 3 and 4; all roles Ultra, two chapter workers, per-key throttling.
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY_3 }},${{ secrets.NVIDIA_API_KEY_4 }}
           BOOKGEN_REJECT_DIR: ${{ runner.temp }}/rejects
           NVIDIA_MODEL: nvidia/nemotron-3-ultra-550b-a55b
           NVIDIA_CHECK_MODEL: nvidia/nemotron-3-ultra-550b-a55b
           NVIDIA_FALLBACK_MODELS: nvidia/nemotron-3-ultra-550b-a55b
+          BOOKGEN_RATE_STATE_DIR: ${{ runner.temp }}/autopilot/rate
+          NVIDIA_MIN_INTERVAL_SECONDS: '15'
           PYTHONUNBUFFERED: '1'
         run: |
           git config user.name "study-station-book-autopilot"
           git config user.email "211449723+SCHANDAN996@users.noreply.github.com"
           mkdir -p ../books/autopilot
-          python tools/book_autopilot.py --workers 3 --max-fails 4 --reverse --only ${{ matrix.books }} \
-            --name "${{ matrix.lane }}" --status-file "${{ matrix.status }}" \
+          python tools/book_autopilot.py --workers 2 --max-fails 4 \
+            --name "two-chapters" --status-file "AUTOPILOT_STATUS.md" \
             --branch "$BOOKS_BRANCH" --state-dir "$RUNNER_TEMP/autopilot" --stop-new-after 240
       - name: Pack unfinished work
         if: always()
@@ -109,12 +91,12 @@ jobs:
         uses: actions/cache/save@v4
         with:
           path: ${{ runner.temp }}/wip.tar.gz
-          key: wip-${{ matrix.lane }}-${{ github.run_id }}
+          key: wip-two-chapters-${{ github.run_id }}
       - name: Keep the log and rejected outputs for diagnosis
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: autopilot-${{ matrix.lane }}-${{ github.run_id }}
+          name: autopilot-two-chapters-${{ github.run_id }}
           path: |
             ${{ runner.temp }}/autopilot/log.txt
             ${{ runner.temp }}/rejects
