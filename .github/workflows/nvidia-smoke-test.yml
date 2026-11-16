@@ -1,4 +1,4 @@
-name: NVIDIA API smoke test
+name: NVIDIA API fallback smoke test
 on:
   push:
     branches: ['codex/nvidia-smoke-20261116-check']
@@ -25,9 +25,10 @@ jobs:
                   results.append((label, 'not_configured'))
                   continue
               payload = {
-                  'model': 'z-ai/glm-5.3',
+                  'model': 'z-ai/glm-5.3-flash',
                   'messages': [{'role': 'user', 'content': 'Reply with exactly OK. Do not explain.'}],
                   'max_tokens': 256, 'temperature': 0, 'stream': False,
+                  'reasoning_effort': 'low',
               }
               request = urllib.request.Request(
                   'https://integrate.api.nvidia.com/v1/chat/completions',
@@ -43,8 +44,14 @@ jobs:
                       content = message.get('content')
                       result = 'ok' if isinstance(content, str) and content.strip() else 'http200_no_final_text'
               except urllib.error.HTTPError as exc:
-                  result = {401: 'auth_failed_401', 403: 'forbidden_403', 404: 'model_or_endpoint_404',
-                            429: 'rate_limited_429'}.get(exc.code, 'http_' + str(exc.code))
+                  detail = ''
+                  try:
+                      error = json.loads(exc.read(16384))
+                      detail = str(error.get('detail', '')).lower()
+                  except Exception:
+                      pass
+                  category = 'model_retired' if 'end of life' in detail or 'deprecated' in detail else 'unspecified'
+                  result = 'http_' + str(exc.code) + '_' + category
               except (urllib.error.URLError, TimeoutError, OSError):
                   result = 'network_or_timeout'
               except Exception:
