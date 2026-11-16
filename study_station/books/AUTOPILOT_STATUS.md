@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (two-chapters)
 
-**आख़िरी update:** 16-11-2026 04:52 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 02:49 PM
+**आख़िरी update:** 16-11-2026 05:08 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 02:49 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 9 मिनट |
-| W2 | Chapter 02 shabd bhed (10th Hindi) | ✍️ लिख रहा है | 67 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 24 मिनट |
+| W2 | Chapter 02 shabd bhed (10th Hindi) | ✍️ लिख रहा है | 82 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -44,26 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-16-11 16:25:38   [varn_vartani] Practice_hi_Set_03.txt try 4: rejected (Q53: tested Hindi text must be explicitly quoted; Q54: tested Hindi text must be explicitly quoted; Q56: teste
-16-11 16:25:38   [varn_vartani] REJECTED Practice_hi_Set_03.txt: no translation passed the checks — not written
-16-11 16:26:12   [shabd_bhed] Practice_en_Set_03.txt try 1: re-solve disagrees (Q73 key a vs re-solve c)
-16-11 16:26:44   [varn_vartani] Practice_en_Set_04.txt try 1: rejected (Q95:leaked_reasoning,Q89:duplicate_options,Q91:duplicate_options,Q96:duplicate_options,Q99:duplicate_options)
-16-11 16:28:38   [varn_vartani] Practice_en_Set_04.txt try 2: rejected (Q96:duplicate_options)
-16-11 16:29:06   [shabd_bhed] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-16-11 16:29:59   [shabd_bhed] Practice_hi_Set_03.txt try 1: rejected (parsed 24 questions, numbers 51…75)
-16-11 16:30:59   [shabd_bhed] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-16-11 16:31:04   [varn_vartani] Practice_en_Set_04.txt try 3: rejected (Q96:duplicate_options)
-16-11 16:33:25   [varn_vartani] Practice_en_Set_04.txt try 4: rejected (Q96:duplicate_options)
-16-11 16:33:25   [varn_vartani] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
-16-11 16:33:25   [varn_vartani] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
-16-11 16:34:26   [varn_vartani] Practice_hi_Set_05.txt try 1: rejected (Q103: tested Hindi text must be explicitly quoted; Q104: tested Hindi text must be explicitly quoted; Q106: te
-16-11 16:35:19   [varn_vartani] Practice_hi_Set_05.txt try 2: rejected (Q103: tested Hindi text must be explicitly quoted; Q104: tested Hindi text must be explicitly quoted; Q106: te
-16-11 16:36:31   [varn_vartani] Practice_hi_Set_05.txt try 3: rejected (Q103: tested Hindi text must be explicitly quoted; Q104: tested Hindi text must be explicitly quoted; Q106: te
-16-11 16:37:07   [shabd_bhed] Practice_en_Set_04.txt try 1: re-solve disagrees (Q78 key a vs re-solve c, Q87 key d vs re-solve a, Q98 key c vs re-solve ?)
-16-11 16:37:30   [varn_vartani] Practice_hi_Set_05.txt try 4: rejected (Q103: tested Hindi text must be explicitly quoted; Q104: tested Hindi text must be explicitly quoted; Q106: te
-16-11 16:37:30   [varn_vartani] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
-16-11 16:39:12   [varn_vartani] Practice_hi_Set_06.txt try 1: rejected (Q126: Hindi subject options changed between languages; Q127: Hindi subject options changed between languages; 
-16-11 16:40:40   [shabd_bhed] Practice_en_Set_04.txt try 2: re-solve disagrees (Q85 key d vs re-solve c, Q98 key d vs re-solve ?)
 16-11 16:40:46   [varn_vartani] Practice_hi_Set_06.txt try 2: rejected (parsed 11 questions, numbers 126…136)
 16-11 16:42:06   [varn_vartani] Practice_hi_Set_06.txt try 3: rejected (parsed 11 questions, numbers 126…136)
 16-11 16:43:15   [varn_vartani] Practice_hi_Set_06.txt try 4: rejected (Q126: Hindi subject options changed between languages; Q127: Hindi subject options changed between languages; 
@@ -84,4 +64,24 @@
 16-11 16:51:04   [shabd_bhed] Practice_hi_Set_04.txt try 3: rejected (parsed 24 questions, numbers 76…100)
 16-11 16:51:52   [shabd_bhed] Practice_hi_Set_04.txt try 4: rejected (Q76: tested Hindi text changed between languages; Q80: tested Hindi text changed between languages; Q82: teste
 16-11 16:51:52   [shabd_bhed] REJECTED Practice_hi_Set_04.txt: no translation passed the checks — not written
+16-11 16:53:14   [shabd_bhed] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+16-11 16:54:00   [shabd_bhed] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+16-11 16:55:45   [varn_vartani] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+16-11 16:56:15   [shabd_bhed] Practice_en_Set_06.txt try 1: re-solve disagrees (Q138 key c vs re-solve d, Q148 key c vs re-solve b)
+16-11 16:56:29   [varn_vartani] Practice_hi_Set_02.txt try 1: rejected (Q26: tested Hindi text must be explicitly quoted; Q27: tested Hindi text must be explicitly quoted; Q30: teste
+16-11 16:57:20   [varn_vartani] Practice_hi_Set_02.txt try 2: rejected (parsed 24 questions, numbers 26…50)
+16-11 16:58:08   [varn_vartani] Practice_hi_Set_02.txt try 3: rejected (Q26: tested Hindi text must be explicitly quoted; Q27: tested Hindi text must be explicitly quoted; Q30: teste
+16-11 16:59:01   [varn_vartani] Practice_hi_Set_02.txt try 4: rejected (Q26: tested Hindi text must be explicitly quoted; Q27: tested Hindi text must be explicitly quoted; Q30: teste
+16-11 16:59:01   [varn_vartani] REJECTED Practice_hi_Set_02.txt: no translation passed the checks — not written
+16-11 16:59:50   [varn_vartani] Practice_hi_Set_03.txt try 1: rejected (Q53: tested Hindi text must be explicitly quoted; Q54: tested Hindi text must be explicitly quoted; Q56: teste
+16-11 17:00:39   [shabd_bhed] Practice_en_Set_06.txt try 2: re-solve disagrees (Q140 key c vs re-solve ?)
+16-11 17:00:47   [varn_vartani] Practice_hi_Set_03.txt try 2: rejected (Q53: tested Hindi text must be explicitly quoted; Q54: tested Hindi text must be explicitly quoted; Q56: teste
+16-11 17:01:57   [varn_vartani] Practice_hi_Set_03.txt try 3: rejected (Q53: tested Hindi text must be explicitly quoted; Q54: tested Hindi text must be explicitly quoted; Q56: teste
+16-11 17:03:13   [varn_vartani] Practice_hi_Set_03.txt try 4: rejected (Q53: tested Hindi text must be explicitly quoted; Q54: tested Hindi text must be explicitly quoted; Q56: teste
+16-11 17:03:13   [varn_vartani] REJECTED Practice_hi_Set_03.txt: no translation passed the checks — not written
+16-11 17:03:41   [shabd_bhed] Practice_en_Set_06.txt try 3: re-solve disagrees (Q148 key d vs re-solve c)
+16-11 17:04:02   [varn_vartani] Practice_en_Set_04.txt try 1: rejected (Q77:duplicate_options,Q80:duplicate_options,Q82:duplicate_options,Q83:duplicate_options,Q84:duplicate_options)
+16-11 17:06:19   [varn_vartani] Practice_en_Set_04.txt try 2: rejected (Q80:duplicate_options,Q82:duplicate_options,Q83:duplicate_options,Q84:duplicate_options,Q85:duplicate_options)
+16-11 17:06:48   [shabd_bhed] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+16-11 17:07:40   [varn_vartani] Practice_en_Set_04.txt try 3: rejected (Q87:duplicate_options,Q95:duplicate_options)
 ```
