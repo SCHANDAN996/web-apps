@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (three-chapters)
 
-**आख़िरी update:** 16-11-2026 11:34 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 08:13 PM
+**आख़िरी update:** 16-11-2026 11:49 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 08:13 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 37 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 17 मिनट |
-| W3 | Chapter 02 input output ports (12th Computer) | 🔎 review हो रहा है | 74 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 52 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 33 मिनट |
+| W3 | Chapter 02 input output ports (12th Computer) | 🔎 review हो रहा है | 89 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -46,7 +46,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-16-11 23:08:58   [varn_vartani] Practice_hi_Set_02.txt try 2: rejected (Q31: tested Hindi text must be explicitly quoted; Q32: tested Hindi text must be explicitly quoted; Q33: teste
 16-11 23:09:21   [input_output_ports] review Flashcards_en.txt: 1 issue(s): - Card 9 includes VGA as a port for digital video signal, but VGA carries analog signal only → Remove VGA from t
 16-11 23:09:33   [shabd_bhed] Practice_hi_Set_04.txt try 2: rejected (Q77: tested Hindi text must be explicitly quoted; Q82: tested Hindi text must be explicitly quoted; Q84: teste
 16-11 23:10:29   [varn_vartani] Practice_hi_Set_02.txt try 3: rejected (Q26: Hindi subject options changed between languages; Q27: Hindi subject options changed between languages; Q2
@@ -86,4 +85,5 @@
 16-11 23:27:50   [sangya_sarvanam] wrote Important_Rules_en.txt (8469 chars)
 16-11 23:27:58   [input_output_ports] review Important_Rules_en.txt: 1 issue(s): - Rule 9 exception: “Professional 6.35 mm (¼″) TRS/TRS balanced lines” is a typo → Professional 6.35 mm (¼″
 16-11 23:29:31   [sangya_sarvanam] wrote Important_Rules_hi.txt (9884 chars)
+16-11 23:49:15   [input_output_ports] REJECTED review fix Important_Rules_en.txt: reviewer still reports - Rule 11 claims all Thunderbolt 3/4 ports are USB4 compliant → Only Thunderbolt 4 
 ```
