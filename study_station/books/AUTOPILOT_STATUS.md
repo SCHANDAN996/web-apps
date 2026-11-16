@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (two-chapters)
 
-**आख़िरी update:** 16-11-2026 06:09 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 02:49 PM
+**आख़िरी update:** 16-11-2026 06:24 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 02:49 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 input output ports (12th Computer) | ✍️ लिख रहा है | 14 मिनट |
-| W2 | Chapter 02 shabd bhed (10th Hindi) | ✍️ लिख रहा है | 7 मिनट |
+| W1 | Chapter 02 input output ports (12th Computer) | ✍️ लिख रहा है | 29 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 4 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -40,37 +40,11 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 01 varn vartani (Hindi) — 4 बार
-- Chapter 02 shabd bhed (Hindi) — 3 बार
+- Chapter 02 shabd bhed (Hindi) — 4 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-16-11 17:51:04   [shabd_bhed] Practice_hi_Set_04.txt try 2: rejected (Q76: tested Hindi text changed between languages; Q80: tested Hindi text changed between languages; Q82: teste
-16-11 17:52:24   [varn_vartani] Practice_hi_Set_06.txt try 1: rejected (Q133: Hindi subject options changed between languages; Q134: Hindi subject options changed between languages; 
-16-11 17:53:13   [shabd_bhed] Practice_hi_Set_04.txt try 3: rejected (Q76: tested Hindi text changed between languages; Q80: tested Hindi text changed between languages; Q82: teste
-16-11 17:53:28   [varn_vartani] Practice_hi_Set_06.txt try 2: rejected (Q133: Hindi subject options changed between languages; Q134: Hindi subject options changed between languages; 
-16-11 17:54:17   [varn_vartani] Practice_hi_Set_06.txt try 3: rejected (Q133: Hindi subject options changed between languages; Q134: Hindi subject options changed between languages; 
-16-11 17:55:18   [varn_vartani] Practice_hi_Set_06.txt try 4: rejected (Q126: Hindi subject options changed between languages; Q127: Hindi subject options changed between languages; 
-16-11 17:55:18   [varn_vartani] REJECTED Practice_hi_Set_06.txt: no translation passed the checks — not written
-16-11 17:55:18   [varn_vartani] written 1, failed 6; AI calls today 309/100000
-16-11 17:55:18 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 34 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 04 hi: todo'] problems []
-16-11 17:55:19 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_02_input_output_ports (TODO: todo 25, problems 0)
-16-11 17:55:25   [shabd_bhed] Practice_hi_Set_04.txt try 4: rejected (Q76: tested Hindi text changed between languages; Q80: tested Hindi text changed between languages; Q82: teste
-16-11 17:55:25   [shabd_bhed] REJECTED Practice_hi_Set_04.txt: no translation passed the checks — not written
-16-11 17:57:01   [input_output_ports] wrote Content_en.txt (13378 chars)
-16-11 17:57:05   [shabd_bhed] Practice_hi_Set_06.txt try 1: rejected (Q129: tested Hindi text changed between languages; Q132: tested Hindi text changed between languages; Q136: te
-16-11 17:58:00   [shabd_bhed] Practice_hi_Set_06.txt try 2: rejected (Q129: tested Hindi text changed between languages; Q132: tested Hindi text changed between languages; Q136: te
-16-11 17:58:29   [input_output_ports] wrote Content_hi.txt (12391 chars)
-16-11 17:58:39   [shabd_bhed] Practice_hi_Set_06.txt try 3: rejected (Q129: tested Hindi text changed between languages; Q132: tested Hindi text changed between languages; Q136: te
-16-11 17:58:52   [input_output_ports] wrote Key_Facts_en.txt (4577 chars)
-16-11 17:59:48   [input_output_ports] wrote Key_Facts_hi.txt (4211 chars)
-16-11 18:00:24   [input_output_ports] wrote Feynman_en.txt (4754 chars)
-16-11 18:01:12   [input_output_ports] wrote Feynman_hi.txt (3677 chars)
-16-11 18:01:24   [input_output_ports] wrote Mind_Map.txt (824 chars)
-16-11 18:01:50   [input_output_ports] wrote Flashcards_en.txt (3947 chars)
-16-11 18:01:51   [shabd_bhed] Practice_hi_Set_06.txt try 4: rejected (Q129: tested Hindi text changed between languages; Q132: tested Hindi text changed between languages; Q136: te
-16-11 18:01:51   [shabd_bhed] REJECTED Practice_hi_Set_06.txt: no translation passed the checks — not written
-16-11 18:01:51   [shabd_bhed] written 0, failed 4; AI calls today 322/100000
 16-11 18:01:52 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_02_shabd_bhed after 27 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 04 hi: todo', 'Set 06 hi: todo'] problems ['Important_Rules_hi.txt: much shorter than the English sectio', 'Key_Facts_en.txt: English file contains a lot of Hindi', 'Set 01 Practice_en_Set_01.txt: English file contains a lot o', 'Set 02 Practice_en_Set_02.txt: English file contains a lot o']
 16-11 18:01:52 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_02_shabd_bhed (TODO: todo 4, problems 7)
 16-11 18:02:26   [input_output_ports] wrote Flashcards_hi.txt (3740 chars)
@@ -85,4 +59,30 @@
 16-11 18:06:41   [shabd_bhed] REJECTED Practice_hi_Set_01.txt: no translation passed the checks — not written
 16-11 18:07:39   [shabd_bhed] Practice_hi_Set_02.txt try 1: rejected (Q26: tested Hindi text changed between languages; Q28: tested Hindi text changed between languages; Q30: teste
 16-11 18:09:51   [input_output_ports] Practice_en_Set_01.txt try 1: re-solve disagrees (Q6 key d vs re-solve c)
+16-11 18:10:25   [shabd_bhed] Practice_hi_Set_02.txt try 2: rejected (Q26: tested Hindi text changed between languages; Q28: tested Hindi text changed between languages; Q30: teste
+16-11 18:11:12   [shabd_bhed] Practice_hi_Set_02.txt try 3: rejected (Q26: tested Hindi text changed between languages; Q28: tested Hindi text changed between languages; Q30: teste
+16-11 18:12:00   [shabd_bhed] Practice_hi_Set_02.txt try 4: rejected (Q26: tested Hindi text changed between languages; Q28: tested Hindi text changed between languages; Q30: teste
+16-11 18:12:00   [shabd_bhed] REJECTED Practice_hi_Set_02.txt: no translation passed the checks — not written
+16-11 18:12:23   [input_output_ports] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+16-11 18:13:07   [shabd_bhed] Practice_hi_Set_04.txt try 1: rejected (Q76: tested Hindi text changed between languages; Q80: tested Hindi text changed between languages; Q82: teste
+16-11 18:13:39   [input_output_ports] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+16-11 18:14:32   [shabd_bhed] Practice_hi_Set_04.txt try 2: rejected (Q76: tested Hindi text changed between languages; Q80: tested Hindi text changed between languages; Q82: teste
+16-11 18:15:39   [shabd_bhed] Practice_hi_Set_04.txt try 3: rejected (Q76: tested Hindi text changed between languages; Q80: tested Hindi text changed between languages; Q82: teste
+16-11 18:16:35   [shabd_bhed] Practice_hi_Set_04.txt try 4: rejected (Q76: tested Hindi text changed between languages; Q80: tested Hindi text changed between languages; Q82: teste
+16-11 18:16:35   [shabd_bhed] REJECTED Practice_hi_Set_04.txt: no translation passed the checks — not written
+16-11 18:16:35   [input_output_ports] Practice_en_Set_02.txt try 1: re-solve disagrees (Q48 key d vs re-solve a)
+16-11 18:17:21   [shabd_bhed] Practice_hi_Set_06.txt try 1: rejected (parsed 24 questions, numbers 126…150)
+16-11 18:18:23   [shabd_bhed] Practice_hi_Set_06.txt try 2: rejected (Q129: tested Hindi text changed between languages; Q132: tested Hindi text changed between languages; Q136: te
+16-11 18:19:14   [shabd_bhed] Practice_hi_Set_06.txt try 3: rejected (parsed 24 questions, numbers 126…150)
+16-11 18:20:52   [shabd_bhed] Practice_hi_Set_06.txt try 4: rejected (Q129: tested Hindi text changed between languages; Q132: tested Hindi text changed between languages; Q136: te
+16-11 18:20:52   [shabd_bhed] REJECTED Practice_hi_Set_06.txt: no translation passed the checks — not written
+16-11 18:20:52   [shabd_bhed] written 0, failed 4; AI calls today 354/100000
+16-11 18:20:52 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_02_shabd_bhed after 19 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 04 hi: todo', 'Set 06 hi: todo'] problems ['Important_Rules_hi.txt: much shorter than the English sectio', 'Key_Facts_en.txt: English file contains a lot of Hindi', 'Set 01 Practice_en_Set_01.txt: English file contains a lot o', 'Set 02 Practice_en_Set_02.txt: English file contains a lot o']
+16-11 18:20:53 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (TODO: todo 25, problems 0)
+16-11 18:22:05   [sangya_sarvanam] wrote Content_en.txt (9679 chars)
+16-11 18:22:05   [input_output_ports] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+16-11 18:23:06   [input_output_ports] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+16-11 18:23:31   [sangya_sarvanam] wrote Content_hi.txt (9742 chars)
+16-11 18:24:06   [sangya_sarvanam] wrote Key_Facts_en.txt (3857 chars)
+16-11 18:25:02   [sangya_sarvanam] wrote Key_Facts_hi.txt (5559 chars)
 ```
