@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (three-chapters)
 
-**आख़िरी update:** 16-11-2026 08:45 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 08:13 PM
+**आख़िरी update:** 16-11-2026 09:00 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 08:13 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
-| W2 | Chapter 02 shabd bhed (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
-| W3 | Chapter 02 input output ports (12th Computer) | ✍️ लिख रहा है | 31 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 46 मिनट |
+| W2 | Chapter 02 shabd bhed (10th Hindi) | ✍️ लिख रहा है | 46 मिनट |
+| W3 | Chapter 02 input output ports (12th Computer) | ✍️ लिख रहा है | 46 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -41,15 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-16-11 20:19:32   [shabd_bhed] wrote Feynman_en.txt (4939 chars)
-16-11 20:19:57   [varn_vartani] Content_hi.txt try 1: rejected (corrupted characters)
-16-11 20:20:05   [shabd_bhed] wrote Feynman_hi.txt (3526 chars)
-16-11 20:20:17   [shabd_bhed] wrote Mind_Map.txt (969 chars)
-16-11 20:21:02   [shabd_bhed] wrote Flashcards_en.txt (2942 chars)
-16-11 20:21:43   [input_output_ports] wrote Content_hi.txt (9589 chars)
-16-11 20:22:08   [shabd_bhed] wrote Flashcards_hi.txt (5966 chars)
-16-11 20:23:29   [shabd_bhed] wrote PYQ_en.txt (6743 chars)
-16-11 20:23:59   [varn_vartani] wrote Content_hi.txt (10753 chars)
 16-11 20:24:31   [shabd_bhed] wrote PYQ_hi.txt (4758 chars)
 16-11 20:24:41   [input_output_ports] wrote Key_Facts_en.txt (2704 chars)
 16-11 20:25:56   [varn_vartani] wrote Key_Facts_en.txt (5202 chars)
@@ -81,4 +72,13 @@
 16-11 20:43:33   [shabd_bhed] Practice_hi_Set_01.txt try 2: rejected (Q1: tested Hindi text changed between languages; Q4: tested Hindi text changed between languages; Q6: tested H
 16-11 20:44:12   [varn_vartani] wrote Important_Rules_hi.txt (6328 chars)
 16-11 20:44:29   [shabd_bhed] Practice_hi_Set_01.txt try 3: rejected (Q1: tested Hindi text changed between languages; Q4: tested Hindi text changed between languages; Q6: tested H
+16-11 20:46:30   [shabd_bhed] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+16-11 20:46:47   [varn_vartani] Practice_en_Set_01.txt try 1: rejected (Q24:leaked_reasoning,Q10:duplicate_options,Q14:duplicate_options)
+16-11 20:50:37   [shabd_bhed] Practice_en_Set_02.txt try 1: re-solve disagrees (Q33 key c vs re-solve b, Q47 key c vs re-solve d, Q48 key a vs re-solve b)
+16-11 20:55:24   [shabd_bhed] Practice_en_Set_02.txt try 2: re-solve disagrees (Q49 key d vs re-solve c)
+16-11 20:55:25   [input_output_ports] Practice_en_Set_01.txt try 1: re-solve disagrees (Q21 key d vs re-solve c)
+16-11 20:57:52   [shabd_bhed] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+16-11 20:58:44   [shabd_bhed] Practice_hi_Set_02.txt try 1: rejected (Q26: Hindi subject options changed between languages; Q27: Hindi subject options changed between languages; Q2
+16-11 20:59:35   [varn_vartani] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+16-11 20:59:44   [shabd_bhed] Practice_hi_Set_02.txt try 2: rejected (Q26: Hindi subject options changed between languages; Q27: Hindi subject options changed between languages; Q2
 ```
