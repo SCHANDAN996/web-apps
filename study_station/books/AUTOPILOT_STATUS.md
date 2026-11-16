@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (three-chapters)
 
-**आख़िरी update:** 17-11-2026 02:55 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 01:22 AM
+**आख़िरी update:** 17-11-2026 03:09 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 01:22 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 48 मिनट |
-| W2 | Chapter 03 memory storage backup (12th Computer) | 🔎 review हो रहा है | 0 मिनट |
-| W3 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 51 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 62 मिनट |
+| W2 | Chapter 03 memory storage backup (12th Computer) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 65 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -36,42 +36,18 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 17-11 03:09 — 12th Computer · Chapter 03 memory storage backup
 - 17-11 02:03 — 12th Computer · Chapter 02 input output ports
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 02 shabd bhed (Hindi) — 4 बार
 - Chapter 01 varn vartani (Hindi) — 1 बार
-- Chapter 03 memory storage backup (Computer) — 1 बार
+- Chapter 03 memory storage backup (Computer) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 02:33:14   [memory_storage_backup] Practice_en_Set_03.txt try 4: re-solve disagrees (Q69 key c vs re-solve d)
-17-11 02:33:14   [memory_storage_backup] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
-17-11 02:33:14   [memory_storage_backup] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
-17-11 02:33:15   [varn_vartani] Practice_hi_Set_03.txt try 2: rejected (Q52: tested Hindi text must be explicitly quoted)
-17-11 02:35:36   [varn_vartani] Practice_hi_Set_03.txt try 3: rejected (Q52: tested Hindi text must be explicitly quoted)
-17-11 02:36:14   [memory_storage_backup] Practice_en_Set_04.txt try 1: re-solve disagrees (Q83 key b vs re-solve a)
-17-11 02:38:25   [sangya_sarvanam] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-17-11 02:38:39   [memory_storage_backup] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-17-11 02:39:05   [varn_vartani] Practice_hi_Set_03.txt try 4: rejected (Q52: tested Hindi text must be explicitly quoted)
-17-11 02:39:05   [varn_vartani] REJECTED Practice_hi_Set_03.txt: no translation passed the checks — not written
-17-11 02:39:36   [memory_storage_backup] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-17-11 02:39:55   [sangya_sarvanam] Practice_hi_Set_03.txt try 1: rejected (Q62: tested Hindi text changed between languages; Q66: tested Hindi text changed between languages; Q69: teste
-17-11 02:40:20   [memory_storage_backup] Practice_en_Set_05.txt try 1: rejected (Q106:answer_solution_conflict)
-17-11 02:41:34   [sangya_sarvanam] Practice_hi_Set_03.txt try 2: rejected (Q62: tested Hindi text changed between languages; Q66: tested Hindi text changed between languages; Q69: teste
-17-11 02:42:20   [memory_storage_backup] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-17-11 02:43:08   [memory_storage_backup] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-17-11 02:43:09   [varn_vartani] Practice_en_Set_05.txt try 1: re-solve disagrees (Q125 key b vs re-solve a)
-17-11 02:43:42   [memory_storage_backup] Practice_en_Set_06.txt try 1: rejected (Q127:leaked_reasoning)
-17-11 02:44:00   [sangya_sarvanam] Practice_hi_Set_03.txt try 3: rejected (Q62: tested Hindi text changed between languages; Q66: tested Hindi text changed between languages; Q69: teste
-17-11 02:45:10   [memory_storage_backup] Practice_en_Set_06.txt try 2: rejected (Q127:leaked_reasoning)
-17-11 02:45:45   [memory_storage_backup] Practice_en_Set_06.txt try 3: rejected (Q127:leaked_reasoning)
-17-11 02:46:30   [sangya_sarvanam] Practice_hi_Set_03.txt try 4: rejected (Q62: tested Hindi text changed between languages; Q66: tested Hindi text changed between languages; Q69: teste
-17-11 02:46:30   [sangya_sarvanam] REJECTED Practice_hi_Set_03.txt: no translation passed the checks — not written
-17-11 02:47:05   [memory_storage_backup] Practice_en_Set_06.txt try 4: rejected (Q127:leaked_reasoning)
-17-11 02:47:05   [memory_storage_backup] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
 17-11 02:47:05   [memory_storage_backup] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
 17-11 02:47:05   [memory_storage_backup] written 21, failed 4; AI calls today 179/100000
 17-11 02:47:05 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_03_memory_storage_backup after 36 min: todo ['Set 03 en: todo', 'Set 03 hi: todo', 'Set 06 en: todo', 'Set 06 hi: todo'] problems []
@@ -87,4 +63,29 @@
 17-11 02:54:36   [memory_storage_backup] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 17-11 02:54:36   [memory_storage_backup] written 4, failed 0; AI calls today 195/100000
 17-11 02:55:34   [memory_storage_backup] review Content_en.txt: 1 issue(s): - Common Errors #7 incorrectly states PCIe 3.0 uses 8b/10b encoding → PCIe 3.0 uses 128b/130b encoding; 8b/10b is u
+17-11 02:56:21   [varn_vartani] Practice_en_Set_05.txt try 3: re-solve disagrees (Q118 key d vs re-solve b)
+17-11 02:57:52   [sangya_sarvanam] Practice_hi_Set_05.txt try 1: rejected (Q102: tested Hindi text must be explicitly quoted; Q103: tested Hindi text must be explicitly quoted; Q106: te
+17-11 02:58:09   [memory_storage_backup] review Content_hi.txt: 3 issue(s): - Example 4 restore set count: 4 incrementals (Tue–Fri) + 1 full = 5 sets, but solution states 6 sets → 5 sets (1 f
+17-11 03:00:33   [sangya_sarvanam] Practice_hi_Set_05.txt try 2: rejected (Q102: tested Hindi text must be explicitly quoted; Q103: tested Hindi text must be explicitly quoted; Q106: te
+17-11 03:02:04   [varn_vartani] Practice_en_Set_05.txt try 4: re-solve disagrees (Q125 key b vs re-solve a)
+17-11 03:02:04   [varn_vartani] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
+17-11 03:02:04   [varn_vartani] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
+17-11 03:02:41   [sangya_sarvanam] Practice_hi_Set_05.txt try 3: rejected (Q102: tested Hindi text must be explicitly quoted; Q103: tested Hindi text must be explicitly quoted; Q106: te
+17-11 03:02:54   [memory_storage_backup] review PYQ_hi.txt: 1 issue(s): - उदाहरण 4 की व्याख्या में ब्राउज़र शॉर्टकट के बारे में टिप्पणी गलत है: "(ब्राउज़र में Ctrl+L/एफ4 पता बार पर जाते हैं, 
+17-11 03:03:29   [varn_vartani] Practice_en_Set_06.txt try 1: rejected (Q134:duplicate_options)
+17-11 03:04:03   [sangya_sarvanam] Practice_hi_Set_05.txt try 4: rejected (Q102: tested Hindi text must be explicitly quoted; Q103: tested Hindi text must be explicitly quoted; Q106: te
+17-11 03:04:03   [sangya_sarvanam] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
+17-11 03:04:32   [memory_storage_backup] REJECTED review fix PYQ_hi.txt: reviewer still reports - हल-रणनीति बिंदु 4 में रिस्टोर क्रम "फुल → डिफरेंशियल → इन्क्रीमेंटल" गलत है → डिफरेंशियल बैकअ
+17-11 03:05:26   [memory_storage_backup] review Important_Rules_en.txt: 1 issue(s): - Rule 13 states "USB flash drives and SD cards have no wear-leveling controller" → Most modern USB flash d
+17-11 03:06:10   [sangya_sarvanam] Practice_hi_Set_06.txt try 1: rejected (Q126: Hindi subject options changed between languages; Q127: Hindi subject options changed between languages; 
+17-11 03:07:13   [memory_storage_backup] review: 3 section(s) corrected, 1 failed
+17-11 03:07:13   [memory_storage_backup] written 3, failed 1; AI calls today 227/100000
+17-11 03:07:13 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_03_memory_storage_backup after 20 min: todo [] problems []
+17-11 03:07:14 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_03_memory_storage_backup (OK: todo 0, problems 0)
+17-11 03:07:32   [sangya_sarvanam] Practice_hi_Set_06.txt try 2: rejected (parsed 24 questions, numbers 126…150)
+17-11 03:07:46   [memory_storage_backup] review PYQ_hi.txt: 1 issue(s): - उदाहरण 4 की व्याख्या में ब्राउज़र शॉर्टकट के बारे में गलत तथ्य: "(ब्राउज़र में Ctrl+L/एफ4 पता बार पर जाते हैं, Alt+D 
+17-11 03:08:25   [varn_vartani] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+17-11 03:09:16   [memory_storage_backup] review: 1 section(s) corrected, 0 failed
+17-11 03:09:16   [memory_storage_backup] written 1, failed 0; AI calls today 232/100000
+17-11 03:09:22   [sangya_sarvanam] Practice_hi_Set_06.txt try 3: rejected (parsed 24 questions, numbers 126…150)
 ```

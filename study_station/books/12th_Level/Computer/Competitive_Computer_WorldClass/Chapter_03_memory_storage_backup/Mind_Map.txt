@@ -1,0 +1,33 @@
+```mermaid
+graph TD
+    A["मेमोरी स्टोरेज और बैकअप<br>Memory Storage & Backup"]
+    B["प्राथमिक मेमोरी<br>Primary Memory"]
+    C["द्वितीयक मेमोरी<br>Secondary Memory"]
+    D["RAM<br>Random Access Memory"]
+    E["ROM<br>Read Only Memory"]
+    F["HDD<br>Hard Disk Drive"]
+    G["SSD<br>Solid State Drive"]
+    H["ऑप्टिकल डिस्क<br>Optical Disc"]
+    I["USB फ्लैश ड्राइव<br>USB Flash Drive"]
+    J["क्लाउड स्टोरेज<br>Cloud Storage"]
+    K["बैकअप प्रकार<br>Backup Types"]
+    L["फुल बैकअप<br>Full Backup"]
+    M["इन्क्रीमेंटल बैकअप<br>Incremental Backup"]
+    N["डिफरेंशियल बैकअप<br>Differential Backup"]
+    O["RAID<br>Redundant Array of Independent Disks"]
+
+    A --> B
+    A --> C
+    A --> J
+    A --> K
+    B --> D
+    B --> E
+    C --> F
+    C --> G
+    C --> H
+    C --> I
+    K --> L
+    K --> M
+    K --> N
+    C --> O
+```

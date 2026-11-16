@@ -1,0 +1,151 @@
+Questions 1–20: Easy | Questions 21–25: Medium
+
+1. Which type of memory loses its contents when the power is turned off?
+(a) ROM (b) BIOS (c) Cache (d) RAM
+Answer: (d)
+Solution: ROM retains data without power, while RAM is volatile and requires continuous power to hold data; cache is a small high-speed RAM, and BIOS is firmware stored in ROM, so the answer is RAM.
+Source: NCERT Class 9 Computer Science
+
+2. What is the primary function of cache memory in a computer system?
+(a) Permanent data storage (b) Speed up CPU access to frequently used data (c) Backup of hard disk (d) Store operating system files
+Answer: (b)
+Solution: Cache is a small, fast memory placed between CPU and main memory to reduce access latency; it is not for permanent storage, backup, or OS files, so the answer is speed up CPU access to frequently used data.
+Source: NCERT Class 11 Computer Science
+
+3. Which storage device uses magnetic platters and a moving read/write head?
+(a) SSD (b) HDD (c) USB flash drive (d) SD card
+Answer: (b)
+Solution: HDD (Hard Disk Drive) uses rotating magnetic platters and mechanical heads; SSD uses flash memory with no moving parts, while USB flash drives and SD cards are also solid-state, so the answer is HDD.
+Source: NCERT Class 10 Information Technology
+
+4. What does the acronym SSD stand for?
+(a) Super Speed Disk (b) Secure Data Drive (c) System Storage Device (d) Solid State Drive
+Answer: (d)
+Solution: SSD stands for Solid State Drive, which uses NAND flash memory; the other expansions are invented terms, so the answer is Solid State Drive.
+Source: Microsoft Learn — Storage technologies
+
+5. Which RAID level provides mirroring without parity or striping?
+(a) RAID 0 (b) RAID 1 (c) RAID 5 (d) RAID 6
+Answer: (b)
+Solution: RAID 1 mirrors data across two disks for redundancy; RAID 0 stripes without redundancy, RAID 5 uses distributed parity, and RAID 6 uses double parity, so the answer is RAID 1.
+Source: CERT-In Security Guidelines — Data Backup
+
+6. A full backup copies all selected data every time it runs. What is the main disadvantage compared to incremental backup?
+(a) Slower restore (b) Only works on tape drives (c) Requires more storage space and time (d) Cannot restore individual files
+Answer: (c)
+Solution: Full backups consume more storage and take longer because they duplicate unchanged data each run; restore is actually faster, individual files can be restored, and they work on any media, so the answer is requires more storage space and time.
+Source: RBI Cyber Security Framework — Backup Practices
+
+7. Which backup type copies only the data that has changed since the last backup of any type?
+(a) Full backup (b) Differential backup (c) Incremental backup (d) Mirror backup
+Answer: (c)
+Solution: Incremental backup captures changes since the last backup (full or incremental); differential captures changes since the last full backup, full copies everything, and mirror is a real-time replica, so the answer is incremental backup.
+Source: Microsoft Support — Backup types
+
+8. What is the typical data transfer interface for modern internal SSDs in laptops?
+(a) SATA only (b) USB 2.0 (c) NVMe over PCIe (d) IDE
+Answer: (c)
+Solution: Modern laptops use NVMe SSDs connected via PCIe lanes for high throughput; SATA is older, IDE is obsolete, and USB 2.0 is external and slow, so the answer is NVMe over PCIe.
+Source: Microsoft Learn — NVMe overview
+
+9. Which file system is natively supported by Windows, macOS (read-only), and Linux for large USB flash drives?
+(a) NTFS (b) exFAT (c) FAT32 (d) ext4
+Answer: (a)
+Solution: NTFS is natively read/write on Windows, read-only on macOS, and read/write on Linux via NTFS-3G; exFAT is read/write on all three, FAT32 has a 4 GB file limit, and ext4 is Linux-native, so the answer is NTFS.
+Source: Microsoft Support — File system comparison
+
+10. What does the term "hot swap" mean for storage devices?
+(a) Replacing a drive while the system is powered off (b) Replacing a drive without shutting down the system (c) Encrypting a drive on the fly (d) Formatting a drive at high temperature
+Answer: (b)
+Solution: Hot swap allows drive replacement while the server or PC is running; the other options describe cold swap, encryption, and a nonsensical phrase, so the answer is replacing a drive without shutting down the system.
+Source: CERT-In Hardware Security Guidelines
+
+11. Which cloud storage model provides raw storage capacity over the internet without pre-installed applications?
+(a) SaaS (b) PaaS (c) IaaS (d) FaaS
+Answer: (c)
+Solution: IaaS (Infrastructure as a Service) offers virtualized compute, storage, and network; SaaS delivers applications, PaaS provides development platforms, and FaaS runs functions, so the answer is IaaS.
+Source: Microsoft Learn — Cloud service models
+
+12. What is the maximum file size supported by FAT32?
+(a) 2 GB (b) 16 GB (c) 4 GB (d) 8 GB
+Answer: (c)
+Solution: FAT32 uses a 32-bit file allocation table limiting individual files to 4 GB minus 1 byte; the other values are incorrect limits, so the answer is 4 GB.
+Source: Microsoft Support — FAT32 specification
+
+13. Which backup strategy requires the least time to perform a restore?
+(a) Full + differential (b) Full + incremental (c) Incremental only (d) Full backup only
+Answer: (d)
+Solution: Restoring from a single full backup is fastest because no subsequent backup sets need to be applied; incremental and differential require chaining multiple sets, so the answer is full backup only.
+Source: RBI Data Backup Policy Guidelines
+
+14. What is the primary purpose of a parity bit in RAID 5?
+(a) Encrypt data (b) Detect and recover from a single drive failure (c) Increase read speed (d) Compress data
+Answer: (b)
+Solution: Parity in RAID 5 enables reconstruction of data from a failed drive using XOR calculations; it does not encrypt, directly increase read speed, or compress, so the answer is detect and recover from a single drive failure.
+Source: NCERT Class 12 Computer Science — RAID
+
+15. Which of the following is a non-volatile memory technology used in USB flash drives?
+(a) DRAM (b) Magnetic core (c) SRAM (d) NAND flash
+Answer: (d)
+Solution: NAND flash retains data without power and is used in USB drives, SSDs, and SD cards; DRAM and SRAM are volatile, and magnetic core is obsolete, so the answer is NAND flash.
+Source: Microsoft Learn — Flash memory basics
+
+16. What does the "3-2-1 backup rule" recommend?
+(a) 3 copies, 2 media types, 1 offsite (b) 3 backups daily, 2 weekly, 1 monthly (c) 3 drives in RAID, 2 spares, 1 cold spare (d) 3 full, 2 differential, 1 incremental
+Answer: (a)
+Solution: The 3-2-1 rule means keep three copies of data on two different media with one copy stored offsite; the other options confuse frequency, RAID, or backup types, so the answer is 3 copies, 2 media types, 1 offsite.
+Source: CERT-In Advisory — Data Backup Best Practices
+
+17. Which interface is commonly used for connecting external hard drives to a laptop with high throughput?
+(a) USB 2.0 (b) eSATA only (c) FireWire 400 (d) USB 3.2 Gen 2
+Answer: (d)
+Solution: USB 3.2 Gen 2 offers up to 10 Gbps and is widely available on modern laptops; USB 2.0 is slow, FireWire is legacy, and eSATA is rare on laptops, so the answer is USB 3.2 Gen 2.
+Source: Microsoft Support — USB versions
+
+18. What is the main advantage of a differential backup over an incremental backup?
+(a) Does not need a full backup as base (b) Faster backup creation (c) Uses less storage space (d) Faster restore requiring only the last full and last differential
+Answer: (d)
+Solution: Differential backup grows larger over time but restore needs only the last full and the latest differential; incremental restore requires the full plus every incremental since, so the answer is faster restore requiring only the last full and last differential.
+Source: Microsoft Learn — Backup strategies
+
+19. Which memory type is used for the BIOS/UEFI firmware on a motherboard?
+(a) NVRAM (b) DRAM (c) SRAM (d) VRAM
+Answer: (a)
+Solution: NVRAM (Non-Volatile RAM) such as SPI flash stores firmware that persists without power; DRAM and SRAM are volatile, VRAM is for graphics, so the answer is NVRAM.
+Source: NCERT Class 11 Computer Science — Memory hierarchy
+
+20. What does the term "MTBF" stand for in storage device specifications?
+(a) Mean Time Between Failures (b) Maximum Transfer Bandwidth Frequency (c) Minimum Terabytes Before Failure (d) Mega Transactions Per Buffer
+Answer: (a)
+Solution: MTBF is Mean Time Between Failures, a reliability metric; the other expansions are fabricated, so the answer is Mean Time Between Failures.
+Source: CERT-In Hardware Reliability Guidelines
+
+21. A company wants to implement a backup solution that allows recovery to any point in the last 24 hours with minimal storage overhead. Which combination is most suitable?
+(a) Daily full + hourly incremental (b) Continuous data protection (CDP) with journaling (c) Weekly full + daily differential (d) Monthly full + weekly incremental
+Answer: (b)
+Solution: CDP with journaling captures every write, enabling point-in-time recovery with low overhead compared to frequent full/incremental chains; the other options have larger recovery point objectives or higher storage, so the answer is continuous data protection (CDP) with journaling.
+Source: RBI Cyber Resilience Framework — Backup Technologies
+
+22. Which RAID level can survive the simultaneous failure of any two drives without data loss?
+(a) RAID 6 (b) RAID 5 (c) RAID 1 (d) RAID 10
+Answer: (a)
+Solution: RAID 6 uses double distributed parity, tolerating any two drive failures; RAID 1 survives one drive loss per mirror, RAID 5 survives one, RAID 10 survives one per mirror pair but not two in the same pair, so the answer is RAID 6.
+Source: NCERT Class 12 Computer Science — Advanced RAID
+
+23. What is the primary difference between TRIM command for SSDs and defragmentation for HDDs?
+(a) TRIM erases blocks proactively; defragmentation rearranges files contiguously (b) TRIM defragments; defragmentation erases (c) Both do the same thing (d) TRIM is for HDDs; defragmentation is for SSDs
+Answer: (a)
+Solution: TRIM tells the SSD controller which blocks are free for garbage collection, while defragmentation physically reorders file fragments on spinning platters; they serve different media and purposes, so the answer is TRIM erases blocks proactively; defragmentation rearranges files contiguously.
+Source: Microsoft Support — SSD optimization
+
+24. In a backup rotation scheme, what does "Grandfather-Father-Son" refer to?
+(a) Three generations of backup media: monthly, weekly, daily (b) Three family members managing backups (c) Three encryption keys hierarchy (d) Three cloud regions for replication
+Answer: (a)
+Solution: GFS rotation uses monthly (grandfather), weekly (father), and daily (son) backup sets for long-term retention; the other options are unrelated, so the answer is three generations of backup media: monthly, weekly, daily.
+Source: CERT-In Backup Rotation Policies
+
+25. A system administrator notices that an SSD's write performance degrades over time. Which feature should be enabled in the OS to maintain performance?
+(a) Disk quotas (b) BitLocker encryption (c) TRIM support (d) NTFS compression
+Answer: (c)
+Solution: TRIM allows the OS to inform the SSD which blocks are no longer used, enabling efficient garbage collection; quotas, encryption, and compression do not address write degradation, so the answer is TRIM support.
+Source: Microsoft Learn — SSD maintenance

@@ -1,0 +1,104 @@
+**15 Important Rules — Memory Storage & Backup**
+
+**Rule 1 — Volatility distinguishes primary from secondary storage**  
+Primary memory (RAM) loses data when power is cut; secondary storage (HDD, SSD, USB, optical) retains data without power.  
+*Example:* A document open in Notepad resides in RAM — unsaved changes vanish on shutdown. The saved `.txt` file on the SSD remains.  
+*Exception:* Non-volatile RAM (NVRAM, Intel Optane) blurs the line but is rare in consumer PCs.  
+*Source:* Microsoft Learn – "Memory architecture"
+
+**Rule 2 — RAM type and speed must match motherboard specifications**  
+DDR4 modules cannot fit DDR5 slots; mixing speeds forces all modules to run at the slowest speed.  
+*Example:* Installing a 3200 MHz DDR4 stick alongside a 2666 MHz stick makes both run at 2666 MHz.  
+*Exception:* Some server/workstation boards support mixed capacities per channel if timing rules are met.  
+*Source:* Motherboard QVL (Qualified Vendor List) documents
+
+**Rule 3 — Cache hierarchy reduces average memory access time**  
+L1 (per core, ~64 KB) → L2 (per core, ~256 KB–2 MB) → L3 (shared, ~8–64 MB) → RAM. Each level is larger but slower.  
+*Example:* A CPU core fetches hot loop variables from L1 in ~1 ns (typical); a miss goes to L2 (~4 ns), then L3 (~12 ns), then RAM (~60 ns). Actual latencies vary by microarchitecture and frequency.  
+*Exception:* Some low-power cores (e.g., ARM Cortex-A53) lack L3 cache.  
+*Source:* Intel/AMD microarchitecture guides
+
+**Rule 4 — Storage capacity is marketed in decimal (base-10) but OS reports binary (base-2)**  
+1 TB (10¹² bytes) ≈ 931 GiB (2³⁰ bytes) in Windows Explorer. The "missing" space is a unit difference, not a defect.  
+*Example:* A 512 GB SSD shows ~476 GiB usable.  
+*Exception:* macOS and some Linux tools display decimal GB by default.  
+*Source:* NIST SP 800-107, Microsoft Support – "Hard drive capacity"
+
+**Rule 5 — SSDs use wear-leveling and TRIM to extend lifespan**  
+NAND flash cells endure limited program/erase cycles (SLC ~100k, MLC ~3k–10k, TLC ~1k–3k, QLC ~100–1k). The controller spreads writes evenly; TRIM (OS command) marks deleted blocks for garbage collection.  
+*Example:* Windows 10/11 enables TRIM by default for NTFS/ReFS on SSDs.  
+*Exception:* TRIM may not work on RAID arrays without driver support or on external USB enclosures that don't pass UNMAP/SCSI UNMAP.  
+*Source:* Microsoft Learn – "TRIM support", JEDEC JESD218/219
+
+**Rule 6 — HDDs are sensitive to vibration and magnetic fields; SSDs are not**  
+Mechanical heads float nanometers above platters. Shock during operation causes head crashes. Strong magnets corrupt data.  
+*Example:* Dropping a running laptop often kills the HDD; an SSD survives.  
+*Exception:* Enterprise HDDs (e.g., helium-filled) have higher shock ratings (300–400 G operating).  
+*Source:* Seagate/WD product manuals, CERT-In advisory on physical security
+
+**Rule 7 — The 3-2-1 backup rule: 3 copies, 2 media types, 1 off-site**  
+Primary data + two backups; at least one backup on different media (e.g., external HDD + cloud); at least one copy geographically separate.  
+*Example:* Work files on laptop (copy 1), File History to external SSD (copy 2), OneDrive/Google Drive sync (copy 3, off-site).  
+*Exception:* For non-critical data, 2-1-1 (two copies, one off-site) may suffice.  
+*Source:* CERT-In "Data Backup Guidelines", US-CERT/NIST SP 800-53
+
+**Rule 8 — Backup types: Full, Incremental, Differential — trade-off between speed and restore complexity**  
+Full = all data; Incremental = changes since last backup (any type); Differential = changes since last full.  
+*Example:* Sunday full, Mon–Sat incremental → restore needs Sunday + 6 incrementals. Differential → restore needs Sunday + latest differential only.  
+*Exception:* Synthetic full (built from incrementals on backup server) reduces client load.  
+*Source:* Microsoft Learn – "Backup types", Veeam/Veritas documentation
+
+**Rule 9 — File system choice affects max file size, volume size, and compatibility**  
+FAT32: 4 GB file limit, 2 TB volume limit, universal. exFAT: no practical file/volume limits, wide OS support. NTFS: ACLs, encryption, compression, Windows-native.  
+*Example:* A 10 GB video file cannot be copied to a FAT32 USB stick; reformat to exFAT or NTFS.  
+*Exception:* macOS reads NTFS read-only by default; write needs third-party driver.  
+*Source:* Microsoft Learn – "File system comparison", Apple Support
+
+**Rule 10 — RAID is not a backup; it protects against drive failure, not data corruption or deletion**  
+RAID 1 (mirror) / RAID 5/6 (parity) survive a disk loss. They instantly replicate corruption, ransomware encryption, or accidental delete.  
+*Example:* Deleting a folder on RAID 1 deletes it on both mirrors instantly.  
+*Exception:* RAID with snapshot/versioning (e.g., ZFS, Btrfs, Windows Storage Spaces with VSS) adds point-in-time recovery.  
+*Source:* NIST SP 800-34, Microsoft Learn – "Storage Spaces"
+
+**Rule 11 — Cloud backup/shared folders (OneDrive, Google Drive, Dropbox) sync deletions by default**  
+If a file is deleted locally, the cloud copy is deleted after the recycle-bin retention period (typically 30 days).  
+*Example:* Ransomware encrypts local files → encrypted versions sync to cloud. Version history allows rollback within retention window.  
+*Exception:* "Backup" plans (e.g., OneDrive "Backup" for Desktop/Documents/Pictures) keep version history; "Sync" folders behave as above.  
+*Source:* Microsoft Support – "Restore files from OneDrive", Google Workspace Admin Help
+
+**Rule 12 — BitLocker (Windows Pro/Enterprise) encrypts volumes; recovery key must be backed up separately**  
+Without the recovery key (or TPM + PIN), data is unrecoverable after motherboard change, BIOS update, or boot corruption.  
+*Example:* Save the 48-digit key to Microsoft account, print it, or store in Azure AD.  
+*Exception:* Windows Home edition offers "Device Encryption" (BitLocker subset) only on Modern Standby hardware with TPM 2.0.  
+*Source:* Microsoft Learn – "BitLocker recovery"
+
+**Rule 13 — USB flash drives and SD cards vary in controller quality; cheap media may lack wear-leveling**  
+Modern USB flash drives and SD cards include a controller with basic wear-leveling. Low-cost or counterfeit media may use raw NAND with minimal FTL, leading to low write endurance and sudden failure (appearing as "file system raw" or missing files).  
+*Example:* Using a cheap USB stick as primary boot drive for Linux/Windows To Go often kills it in weeks.  
+*Exception:* Industrial/High-Endurance SD (e.g., SanDisk Industrial, Samsung PRO Endurance) include better controllers and higher endurance ratings.  
+*Source:* SD Association specs, CERT-In removable media advisory
+
+**Rule 14 — Verify backups with test restores; an untested backup is a wish, not a plan**  
+Schedule quarterly test restores of critical files/folders to a separate location. Check integrity (hash, open files).  
+*Example:* Restore last month's accounting `.xlsx` from external HDD and verify formulas open correctly.  
+*Exception:* Automated backup software (Veeam, Acronis, Windows Server Backup) can run "SureBackup" / "Verified Recovery" jobs.  
+*Source:* NIST SP 800-34 Rev. 1, CERT-In "Backup Verification"
+
+**Rule 15 — Common shortcut keys for file operations (Windows Explorer / File Explorer)**  
+| Action | Shortcut | Scope |
+|---|---|---|
+| Copy | `Ctrl + C` | Windows / Office / Browser |
+| Cut | `Ctrl + X` | Windows / Office / Browser |
+| Paste | `Ctrl + V` | Windows / Office / Browser |
+| Undo | `Ctrl + Z` | Windows / Office / Browser |
+| Redo | `Ctrl + Y` | Windows / Office |
+| Select All | `Ctrl + A` | Windows / Office / Browser |
+| New Folder | `Ctrl + Shift + N` | File Explorer only |
+| Rename | `F2` | File Explorer / Office |
+| Delete (to Recycle Bin) | `Del` | File Explorer |
+| Permanent Delete | `Shift + Del` | File Explorer |
+| Properties | `Alt + Enter` | File Explorer |
+| Search | `Ctrl + F` / `F3` | File Explorer / Browser |
+
+*Browser note:* In Chrome/Edge, `Ctrl + Shift + N` opens Incognito/InPrivate window — not a new folder.  
+*Source:* Microsoft Support – "Keyboard shortcuts in Windows", Chrome/Edge help

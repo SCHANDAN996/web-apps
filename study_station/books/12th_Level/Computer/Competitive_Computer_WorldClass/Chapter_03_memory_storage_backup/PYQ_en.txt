@@ -1,0 +1,109 @@
+PYQ Pattern Analysis — Memory Storage and Backup
+
+Examiners test this topic through concept-check questions rather than deep technical detail. The following patterns appear repeatedly across SSC CHSL, CGL Tier-1, and similar exams.
+
+1. Unit Conversion Traps
+   Questions often ask to convert between bits, bytes, KB, MB, GB, TB using both decimal (1000-based) and binary (1024-based) systems.
+   Trap: Options mix the two systems. Example: "1 GB = ? MB" with options 1000, 1024, 1000000, 1048576. The exam usually expects the binary value (1024) for RAM/storage context, but sometimes the decimal value for bandwidth/marketing context. Read the wording: "memory" or "RAM" → binary; "data transfer" or "manufacturer specification" → decimal.
+
+2. Volatile vs Non-Volatile Classification
+   Statements like "RAM is non-volatile" or "ROM loses data when power is off" appear as true/false or "which is incorrect" items.
+   Trap: Cache memory, registers, and CMOS are also volatile but less commonly named. Flash memory, EEPROM, SSD, HDD, optical media are non-volatile. Questions may list four devices and ask "which is volatile?" — only one correct answer.
+
+3. Primary vs Secondary vs Tertiary Storage
+   Hierarchy questions: "Arrange in increasing order of access speed" or "Which is secondary storage?"
+   Trap: Register → Cache → RAM → SSD/HDD → Optical → Tape. Examiners may insert "Virtual Memory" or "Cloud Storage" as distractors. Virtual memory is a technique using secondary storage, not a separate level. Cloud storage is remote secondary/tertiary.
+
+4. RAID Levels
+   Basic RAID 0 (striping), RAID 1 (mirroring), RAID 5 (striping with parity), RAID 10 (1+0) are tested.
+   Trap: "RAID 5 requires minimum 2 drives" (false, needs 3). "RAID 1 provides best performance" (false, RAID 0 does). "RAID 5 can survive two drive failures" (false, only one unless RAID 6).
+
+5. Backup Types
+   Full, Incremental, Differential — definitions and restore-time comparisons.
+   Trap: "Incremental backup takes longest to restore" (true, needs full + all incrementals). "Differential backup size grows each day" (true). "Incremental backup copies only files changed since last full backup" (false — that is differential; incremental copies since last backup of any type).
+
+6. Backup Media Characteristics
+   Tape: sequential access, high capacity, low cost per GB, slow restore.
+   Disk (HDD/SSD): random access, faster restore, higher cost.
+   Optical: write-once (CD-R/DVD-R) vs rewritable (RW), limited capacity.
+   Cloud: off-site, subscription cost, bandwidth-dependent.
+   Trap: "Tape is best for frequent random access" (false). "Optical media is ideal for large server backups" (false).
+
+7. File System Limits
+   FAT32: 4 GB max file size, 2 TB max volume (Windows).
+   NTFS: practically unlimited for exam purposes (16 EB theoretical).
+   exFAT: large files, cross-platform.
+   Trap: "FAT32 supports files larger than 4 GB" (false). "NTFS cannot be read on macOS without third-party software" (true for write, false for read — macOS reads NTFS natively).
+
+8. Cloud Backup / Sync Confusion
+   Questions distinguish backup (point-in-time recovery, versioning, retention) from sync (real-time mirror, deletion propagates).
+   Trap: "OneDrive/Google Drive sync is a backup solution" (false — ransomware or accidental deletion syncs immediately). "Version history in cloud sync replaces backup" (partially true but retention is limited).
+
+9. Shortcut Keys (Windows/File Explorer)
+   Common: Ctrl+C (copy), Ctrl+V (paste), Ctrl+X (cut), Ctrl+Z (undo), Ctrl+Y (redo), F2 (rename), Delete (to Recycle Bin), Shift+Delete (permanent delete), Ctrl+A (select all), Alt+Enter (properties).
+   Trap: Browser shortcuts (Ctrl+T, Ctrl+W, Ctrl+Shift+T) mixed with File Explorer shortcuts. The question will specify "in Windows File Explorer" or "in a browser".
+
+10. PYQ-Style Original Examples
+
+Example 1
+Which of the following storage devices is volatile?
+(a) SSD
+(b) HDD
+(c) DDR4 RAM
+(d) USB Flash Drive
+Answer: (c)
+Solution: DDR4 RAM loses data when power is removed; SSD, HDD, and USB flash drives are non-volatile.
+Source: PYQ-style
+
+Example 2
+A user wants to back up 200 GB of data daily with minimum storage space and fastest backup time. Which backup type is most suitable?
+(a) Full backup daily
+(b) Incremental backup daily
+(c) Differential backup daily
+(d) Mirror backup daily
+Answer: (b)
+Solution: Incremental backs up only changes since the last backup (of any type), so it is smallest and fastest to create. Restore is slower, but the question asks for backup time and storage.
+Source: PYQ-style
+
+Example 3
+Which RAID level provides redundancy with minimum storage overhead and can survive a single drive failure?
+(a) RAID 0
+(b) RAID 1
+(c) RAID 5
+(d) RAID 10
+Answer: (c)
+Solution: RAID 5 uses distributed parity (overhead = 1 drive) and tolerates one drive failure. RAID 1 overhead is 50%; RAID 10 overhead is 50%; RAID 0 has no redundancy.
+Source: PYQ-style
+
+Example 4
+What is the maximum file size supported by FAT32 file system?
+(a) 2 GB
+(b) 4 GB
+(c) 8 GB
+(d) 16 GB
+Answer: (b)
+Solution: FAT32 limits a single file to 4 GB (4,294,967,295 bytes). NTFS and exFAT support much larger files.
+Source: PYQ-style
+
+Example 5
+Statement I: Incremental backup copies all files changed since the last full backup.
+Statement II: Differential backup copies all files changed since the last incremental backup.
+Which is correct?
+(a) Only I
+(b) Only II
+(c) Both I and II
+(d) Neither I nor II
+Answer: (d)
+Solution: I describes differential backup. II is incorrect — differential copies since last full backup; incremental copies since last backup of any type.
+Source: PYQ-style
+
+Common Examiner Traps (Summary)
+- Mixing decimal and binary prefixes without context.
+- Calling cache or registers "non-volatile".
+- Treating virtual memory or cloud as a separate storage tier in the hierarchy.
+- Confusing incremental vs differential backup definitions and restore sequences.
+- Attributing RAID 1 performance or RAID 5 double-failure tolerance incorrectly.
+- Presenting sync services as backup without versioning/retention caveats.
+- Using browser shortcuts in a Windows File Explorer question.
+
+Time Tip: Unit conversion and RAID questions — 15 seconds. Backup type comparison — 30 seconds. Read "volatile/non-volatile" and "primary/secondary" keywords first; they often give away the answer.

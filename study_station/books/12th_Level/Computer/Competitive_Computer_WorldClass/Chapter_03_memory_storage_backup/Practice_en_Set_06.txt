@@ -1,0 +1,151 @@
+Questions 1–20: Easy | Questions 21–25: Medium
+
+126. Which type of memory is volatile and serves as the main system memory?
+(a) ROM (b) Flash memory (c) RAM (d) Hard Disk
+Answer: (c)
+Solution: ROM, flash memory, and hard disks retain data without power, making them non-volatile; RAM requires continuous power to hold data and is the primary volatile memory used for main system storage, so the answer is RAM.
+Source: NCERT Class 11 Computer Science
+
+127. What is the primary function of cache memory in a computer system?
+(a) Permanent data storage (b) Reduce CPU-memory speed gap (c) Backup of hard disk (d) Store operating system files
+Answer: (b)
+Solution: Cache memory is a small, fast memory placed between the CPU and main memory to bridge the speed difference; it is not used for permanent storage, backup, or OS files, so the answer is Reduce CPU-memory speed gap.
+Source: PYQ-style
+
+128. Which of the following is a non-volatile memory technology?
+(a) DRAM (b) Cache memory (c) SRAM (d) Flash memory
+Answer: (d)
+Solution: DRAM, SRAM, and cache memory are all volatile and lose data when power is removed; flash memory retains data without power, making it non-volatile, so the answer is Flash memory.
+Source: NCERT Class 11 Computer Science
+
+129. In the context of hard disk drives, what does RPM stand for?
+(a) Rotations Per Minute (b) Read Processes per Minute (c) Random Access Memory (d) Read/Write Per Millisecond
+Answer: (a)
+Solution: RPM measures how many complete revolutions the platters make per minute, directly affecting data transfer speed; the other options are incorrect expansions, so the answer is Rotations Per Minute.
+Source: PYQ-style
+
+130. Which RAID level provides mirroring without parity or striping?
+(a) RAID 0 (b) RAID 1 (c) RAID 5 (d) RAID 6
+Answer: (b)
+Solution: RAID 1 duplicates data across two or more drives for redundancy; RAID 0 stripes without redundancy, RAID 5 uses distributed parity, and RAID 6 uses double parity, so the answer is RAID 1.
+Source: PYQ-style
+
+131. What is the main advantage of an SSD over a traditional HDD?
+(a) Lower cost per GB (b) Higher storage capacity (c) Faster access times and no moving parts (d) Better for long-term archival
+Answer: (c)
+Solution: SSDs use flash memory with no mechanical components, giving much lower latency and higher durability; they are typically more expensive per GB and not inherently better for archival, so the answer is Faster access times and no moving parts.
+Source: PYQ-style
+
+132. Which backup method copies only the files that have changed since the last backup of any type?
+(a) Full backup (b) Incremental backup (c) Differential backup (d) Mirror backup
+Answer: (b)
+Solution: Incremental backup clears the archive bit and backs up only files changed since the last backup (full or incremental); differential backs up changes since the last full backup, and full backs up everything, so the answer is Incremental backup.
+Source: PYQ-style
+
+133. What does the term "virtual memory" refer to in operating systems?
+(a) Memory stored in cloud (b) ROM shadowing (c) Cache memory allocation (d) Using disk space as an extension of RAM
+Answer: (d)
+Solution: Virtual memory allows the OS to use a portion of the hard disk as if it were additional RAM, swapping pages between disk and physical memory; it is not cloud memory, cache, or ROM shadowing, so the answer is Using disk space as an extension of RAM.
+Source: NCERT Class 11 Computer Science
+
+134. Which file system is the default for modern Windows operating systems?
+(a) FAT32 (b) exFAT (c) NTFS (d) ext4
+Answer: (c)
+Solution: NTFS (New Technology File System) has been the default Windows file system since Windows NT, supporting permissions, encryption, and large volumes; FAT32 and exFAT are older or for removable media, ext4 is Linux-native, so the answer is NTFS.
+Source: Microsoft Learn
+
+135. What is the typical data transfer interface for modern internal SSDs in laptops?
+(a) SATA (b) IDE (c) NVMe over PCIe (d) USB
+Answer: (c)
+Solution: NVMe (Non-Volatile Memory Express) over PCIe provides much higher throughput and lower latency than SATA; IDE is obsolete, and USB is external, so the answer is NVMe over PCIe.
+Source: PYQ-style
+
+136. Which optical disc format uses a 405 nm blue-violet laser and became the de facto standard for high-definition video?
+(a) Blu-ray (b) DVD (c) CD (d) Holographic storage
+Answer: (a)
+Solution: Blu-ray discs use a 405 nm blue-violet laser, allowing smaller pits and higher density than the red laser used in CDs and DVDs; holographic storage is a different technology, so the answer is Blu-ray.
+Source: PYQ-style
+
+137. In a 3-2-1 backup strategy, what does the "1" represent?
+(a) One off-site copy (b) One backup copy (c) One backup per day (d) One type of media
+Answer: (a)
+Solution: The 3-2-1 rule means three copies of data, on two different media types, with one copy stored off-site for disaster recovery; it does not mean one backup copy, daily backup, or single media type, so the answer is One off-site copy.
+Source: CERT-In Guidelines
+
+138. What is the primary purpose of ECC (Error-Correcting Code) memory?
+(a) Reduce power consumption (b) Increase clock speed (c) Detect and correct single-bit errors (d) Enable overclocking
+Answer: (c)
+Solution: ECC memory adds parity bits to detect and automatically correct single-bit data corruption, critical for servers; it does not increase speed, reduce power, or enable overclocking, so the answer is Detect and correct single-bit errors.
+Source: PYQ-style
+
+139. Which memory technology is commonly used for BIOS/UEFI firmware storage?
+(a) DRAM (b) SRAM (c) SDRAM (d) SPI Flash
+Answer: (d)
+Solution: Modern motherboards store firmware in SPI (Serial Peripheral Interface) flash memory, which is non-volatile and rewritable; DRAM, SRAM, and SDRAM are volatile, so the answer is SPI Flash.
+Source: PYQ-style
+
+140. What does the term "IOPS" measure in storage devices?
+(a) I/O Operations Per Second (b) Internal Operations Per Sector (c) Input Operations Per Second (d) Information Output Per Sector
+Answer: (a)
+Solution: IOPS stands for Input/Output Operations Per Second, a key performance metric for random read/write workloads; the other expansions are incorrect, so the answer is I/O Operations Per Second.
+Source: PYQ-style
+
+141. Which backup type requires the least time to create but the most time to restore?
+(a) Incremental backup (b) Snapshot backup (c) Differential backup (d) Full backup
+Answer: (a)
+Solution: Incremental backup only copies changes since the last backup, making it fastest to create, but restoration requires the full backup plus every subsequent incremental in sequence; full backup is slowest to create but fastest to restore, differential is in between, so the answer is Incremental backup.
+Source: PYQ-style
+
+142. What is the maximum file size supported by FAT32 file system?
+(a) 2 GB (b) 4 GB (c) 8 GB (d) 16 GB
+Answer: (b)
+Solution: FAT32 uses a 32-bit file allocation table but limits individual file size to 4 GB (2^32 bytes); this is a common trap when copying large video files to USB drives formatted as FAT32, so the answer is 4 GB.
+Source: Microsoft Learn
+
+143. Which of the following is a characteristic of SRAM compared to DRAM?
+(a) No refresh cycles needed (b) Lower cost per bit (c) Used as main system memory (d) Higher density
+Answer: (a)
+Solution: SRAM uses flip-flops that hold data without refresh, making it faster but less dense and more expensive than DRAM; DRAM requires periodic refresh and is used for main memory, so the answer is No refresh cycles needed.
+Source: NCERT Class 11 Computer Science
+
+144. In cloud storage, what does "cold storage" typically refer to?
+(a) Storage kept at low temperature (b) Encrypted storage (c) Temporary cache storage (d) Infrequently accessed archival data
+Answer: (d)
+Solution: Cold storage tiers (like AWS Glacier, Azure Archive) are designed for rarely accessed data with lower cost but higher retrieval latency; it has nothing to do with physical temperature, encryption, or cache, so the answer is Infrequently accessed archival data.
+Source: PYQ-style
+
+145. What is the function of a memory controller in a modern CPU?
+(a) Manage cache replacement policies (b) Execute floating-point operations (c) Interface CPU with RAM modules (d) Handle interrupt requests
+Answer: (c)
+Solution: The integrated memory controller (IMC) directly manages communication between CPU cores and DRAM, including timing, refresh, and address mapping; cache policies are handled by cache controller, FPU handles math, interrupt controller handles IRQs, so the answer is Interface CPU with RAM modules.
+Source: PYQ-style
+
+146. Which RAID level can survive the failure of two drives simultaneously?
+(a) RAID 1 (b) RAID 6 (c) RAID 5 (d) RAID 10
+Answer: (b)
+Solution: RAID 6 uses dual distributed parity, allowing recovery from any two drive failures; RAID 1 survives one drive failure per mirror pair, RAID 5 survives one, RAID 10 survives one per mirror but not two in same mirror, so the answer is RAID 6.
+Source: PYQ-style
+
+147. What does the "wear leveling" algorithm do in flash memory controllers?
+(a) Distribute writes evenly across cells (b) Increase write speed (c) Compress data before writing (d) Encrypt data at rest
+Answer: (a)
+Solution: Flash cells have limited program/erase cycles; wear leveling moves data to ensure all cells wear out at similar rates, extending drive life; it does not increase speed, compress, or encrypt, so the answer is Distribute writes evenly across cells.
+Source: PYQ-style
+
+148. In Windows, which command-line tool checks file system integrity and fixes logical errors?
+(a) dism (b) sfc (c) diskpart (d) chkdsk
+Answer: (d)
+Solution: chkdsk (Check Disk) scans the file system for logical errors and bad sectors; sfc checks system files, dism services Windows images, diskpart manages partitions, so the answer is chkdsk.
+Source: Microsoft Learn
+
+149. What is the primary difference between a differential backup and an incremental backup?
+(a) Differential cannot be automated (b) Differential is faster to create (c) Incremental requires more storage (d) Differential backs up changes since last full; incremental since last backup of any type
+Answer: (d)
+Solution: Differential accumulates all changes since the last full backup, growing larger each time; incremental only captures changes since the last incremental, staying smaller but requiring a longer restore chain; differential is slower to create, uses more storage, and both can be automated, so the answer is Differential backs up changes since last full; incremental since last backup of any type.
+Source: PYQ-style
+
+150. Which memory technology uses a floating-gate transistor to store charge?
+(a) DRAM (b) Flash memory (c) SRAM (d) MRAM
+Answer: (b)
+Solution: Flash memory (both NAND and NOR) stores data by trapping electrons on a floating gate, which is non-volatile; DRAM uses capacitors, SRAM uses flip-flops, MRAM uses magnetic tunnel junctions, so the answer is Flash memory.
+Source: PYQ-style

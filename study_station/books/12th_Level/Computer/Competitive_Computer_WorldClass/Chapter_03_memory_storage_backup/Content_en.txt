@@ -1,0 +1,156 @@
+Memory Storage and Backup
+
+Introduction
+Computer memory and storage form the backbone of data processing. For competitive exams like SSC CHSL and CGL, you need clear concepts, not marketing jargon. This chapter covers the hierarchy of memory, common storage devices, backup strategies, and the mistakes candidates often make in objective questions.
+
+1. Memory Hierarchy
+The CPU accesses data in a strict speed–capacity–cost trade-off. From fastest to slowest:
+
+Registers → Cache (L1, L2, L3) → Main Memory (RAM) → Secondary Storage (HDD, SSD, USB, Optical) → Tertiary/Offline (Tape, Cloud cold storage)
+
+Registers and cache are inside the CPU package. RAM is volatile — power off, data gone. Secondary storage is non-volatile — retains data without power.
+
+2. Primary Memory (RAM)
+Random Access Memory allows read/write at any address in roughly equal time.
+- DRAM (Dynamic RAM): Capacitor + transistor per bit; needs periodic refresh. Used as main system memory (DDR4, DDR5).
+- SRAM (Static RAM): Flip-flop per bit; no refresh, faster, costlier. Used for CPU cache.
+- Virtual Memory: OS uses a portion of the hard disk as an extension of RAM (page file / swap space). It prevents "out of memory" crashes but is orders of magnitude slower than physical RAM.
+
+Key point for exams: Increasing virtual memory does not increase processing speed; it only allows more programs to run simultaneously at the cost of disk thrashing.
+
+3. Read-Only Memory (ROM)
+Non-volatile, factory-programmed or field-programmable.
+- PROM: Programmable once.
+- EPROM: Erasable by UV light.
+- EEPROM: Electrically erasable; byte-level rewrite.
+- Flash Memory: Block-level erase; basis of USB drives, SSDs, BIOS/UEFI chips.
+
+4. Cache Memory
+Small, ultra-fast SRAM between CPU and RAM.
+- L1 Cache: Inside each core, split into instruction cache (L1i) and data cache (L1d). Typical 32–64 KB per core.
+- L2 Cache: Per core or shared, 256 KB – 2 MB.
+- L3 Cache: Shared across all cores, 4–64 MB.
+Cache hit = data found in cache (fast). Cache miss = fetch from RAM (slow). Hit ratio is a performance metric, not a user-configurable setting.
+
+5. Secondary Storage Devices
+5.1 Hard Disk Drive (HDD)
+Magnetic platters, moving read/write head. Metrics: RPM (5400, 7200), seek time, sustained transfer rate (~150 MB/s). Cheap per GB, fragile, noisy.
+
+5.2 Solid State Drive (SSD)
+NAND flash, no moving parts. Interfaces: SATA (AHCI, ~550 MB/s), NVMe over PCIe (3,500–14,000 MB/s). Form factors: 2.5", M.2, U.2. Endurance rated in TBW (Terabytes Written) or DWPD (Drive Writes Per Day).
+
+5.3 USB Flash Drives
+USB 2.0 (480 Mbps), USB 3.2 Gen 1 (5 Gbps), Gen 2 (10 Gbps), Gen 2×2 (20 Gbps). Actual speed limited by flash controller and port.
+
+5.4 Optical Media
+CD (700 MB), DVD (4.7 / 8.5 GB), Blu-ray (25 / 50 / 100 GB). Write-once (R) or rewritable (RW). Longevity varies; not recommended for primary backup.
+
+5.5 Memory Cards
+SD, microSD, CFexpress. Speed classes: Class 10, UHS-I (U1/U3), UHS-II, Video Speed Class (V30, V60, V90). Match card speed to device (4K video needs V30+).
+
+6. Cloud and Network Storage
+- NAS (Network Attached Storage): File-level access over LAN (SMB/NFS).
+- SAN (Storage Area Network): Block-level access over Fibre Channel / iSCSI.
+- Cloud Storage: Object storage (AWS S3, Azure Blob, Google Cloud Storage) with redundancy across zones. Access via API/HTTPS.
+- Sync vs Backup: Sync (OneDrive, Google Drive) mirrors changes instantly — ransomware encrypts local files → cloud copies encrypted too. Backup keeps version history and point-in-time recovery.
+
+7. Backup Concepts
+7.1 Backup Types
+- Full Backup: Complete copy. Slowest backup, fastest restore.
+- Incremental Backup: Only changes since last backup (any type). Fastest backup, slowest restore (chain of increments).
+- Differential Backup: Changes since last full backup. Medium backup speed, medium restore (full + latest differential).
+- Mirror / Clone: Exact replica, no compression, no versioning.
+
+7.2 Backup Strategies
+- 3-2-1 Rule: 3 copies of data, on 2 different media, 1 off-site (cloud or rotated drive).
+- Grandfather-Father-Son (GFS): Monthly (grandfather), weekly (father), daily (son) retention.
+- Immutable Backup: Write-once-read-many (WORM) storage; prevents ransomware encryption.
+
+7.3 Windows Built-in Tools
+- File History (Windows 10/11): Incremental file-level backup to external drive or network location. Versioning per file.
+- Backup and Restore (Windows 7 legacy): System image + file backup. Still present in Control Panel.
+- System Image: Block-level clone of OS partitions; restores bare metal.
+- OneDrive Folder Protection: Syncs Desktop, Documents, Pictures to cloud — not a backup substitute.
+
+7.4 Linux / Server Tools
+- rsync: Incremental file sync, preserves permissions, hard links for snapshots.
+- tar + gzip/xz: Full archive.
+- Timeshift: Btrfs/ext4 snapshots for system rollback.
+- Amanda, Bacula, Veeam Agent: Enterprise schedulers.
+
+8. Worked Examples
+
+Example 1: Identify the volatile memory
+Question: Which of the following loses its content when power is switched off?
+(a) ROM (b) RAM (c) SSD (d) HDD
+Solution: RAM (Random Access Memory) is volatile. ROM, SSD, and HDD are non-volatile. Answer: (b)
+
+Example 2: Cache level closest to CPU
+Question: L1 cache is typically:
+(a) Shared across all cores (b) Per core, split into instruction and data (c) Larger than L3 (d) Located on the motherboard
+Solution: L1 cache resides inside each CPU core and is split into L1i (instruction) and L1d (data). L3 is shared and larger. Answer: (b)
+
+Example 3: Virtual memory function
+Question: Increasing the paging file size on a fixed RAM system will:
+(a) Increase CPU clock speed (b) Allow more applications to run simultaneously (c) Reduce cache misses (d) Make the SSD faster
+Solution: Virtual memory (page file) extends the addressable memory space using disk. It lets more processes stay resident but causes disk thrashing if overused. It does not change CPU speed or cache behavior. Answer: (b)
+
+Example 4: Backup type for fastest restore
+Question: An organization needs the fastest possible restore time. Which backup type should they use as the primary restore source?
+(a) Incremental (b) Differential (c) Full (d) Mirror
+Solution: A full backup contains all data in one set — no chain to replay. Incremental requires full + every increment; differential requires full + latest differential. Mirror is a replica but lacks versioning. Answer: (c)
+
+Example 5: 3-2-1 rule application
+Question: A user keeps one copy on laptop SSD, one on an external HDD, and one on Google Drive. Does this satisfy the 3-2-1 rule?
+(a) Yes (b) No — only one media type (c) No — off-site missing (d) No — only two copies
+Solution: Three copies ✓. Two media types: SSD (solid state) and HDD (magnetic) ✓. One off-site: Google Drive ✓. All conditions met. Answer: (a)
+
+Example 6: SSD interface speed ceiling
+Question: A SATA SSD is connected to a SATA 3.0 (6 Gbps) port. What is the maximum theoretical throughput in MB/s?
+(a) 600 (b) 750 (c) 550 (d) 480
+Solution: 6 Gbps = 6000 Mbps. 8b/10b encoding overhead → 6000 × 8/10 = 4800 Mbps = 600 MB/s. Real-world SATA SSDs saturate at ~550 MB/s due to controller limits, but the theoretical link ceiling is 600 MB/s. Answer: (a)
+
+9. Common Errors in Exams
+1. Confusing "memory" (RAM) with "storage" (HDD/SSD). Questions often say "memory" but mean secondary storage. Read carefully.
+2. Assuming higher RPM HDD always outperforms SSD. Any SSD beats any HDD in random I/O and latency.
+3. Thinking virtual memory speeds up the computer. It prevents crashes but adds latency.
+4. Believing RAID is a backup. RAID 1/5/6 protects against drive failure, not deletion, corruption, or ransomware.
+5. Treating sync (OneDrive, Dropbox) as backup. Sync propagates errors instantly; backup provides point-in-time recovery.
+6. Mixing up incremental vs differential. Incremental = since last backup (any type). Differential = since last full backup.
+7. Overlooking encoding overhead in interface speeds (8b/10b for SATA and PCIe 1.0/2.0; 128b/130b for PCIe 3.0 and later).
+8. Assuming "Flash memory" means only USB drives. BIOS/UEFI, SSD, SD cards, eMMC — all are flash.
+9. Confusing cache hit ratio with cache size. Larger cache generally improves hit ratio, but workload matters.
+10. Ignoring TBW/DWPD when comparing SSD endurance for write-heavy workloads (databases, logging).
+
+10. Quick Reference Table
+
+| Concept | Key Fact |
+|---|---|
+| Volatile | RAM (DRAM, SRAM) |
+| Non-volatile | ROM, Flash, HDD, SSD, Optical, Tape |
+| Fastest CPU memory | Registers → L1 → L2 → L3 → RAM |
+| Virtual memory | Disk-backed address space extension (pagefile.sys / swap partition) |
+| Full backup | Slow backup, fast restore |
+| Incremental | Fast backup, slow restore (chain) |
+| Differential | Medium backup, medium restore (full + latest diff) |
+| 3-2-1 rule | 3 copies, 2 media, 1 off-site |
+| SATA 3.0 max | 600 MB/s theoretical |
+| NVMe PCIe 3.0 x4 | ~3,500 MB/s |
+| NVMe PCIe 4.0 x4 | ~7,000 MB/s |
+| Windows File History | Incremental file versioning |
+| Windows System Image | Bare-metal partition clone |
+
+11. Shortcuts (Windows Scope)
+- Win + E: Open File Explorer
+- Win + I: Settings
+- Win + Pause/Break: System properties (shows RAM, OS type)
+- Ctrl + Shift + Esc: Task Manager (Performance tab → Memory, Disk)
+- Win + X → Disk Management: Partition view
+- Win + R → diskmgmt.msc: Same
+- Win + R → msinfo32: System Information (includes BIOS mode, installed RAM)
+- Ctrl + C / Ctrl + V / Ctrl + X: Copy / Paste / Cut (universal, not browser-specific)
+- Ctrl + Z / Ctrl + Y: Undo / Redo
+
+Browser shortcuts (Chrome/Edge/Firefox) are different: Ctrl + T (new tab), Ctrl + W (close tab), Ctrl + Shift + T (reopen closed tab), Ctrl + L (address bar). Do not confuse them with OS-level shortcuts.
+
+End of Chapter

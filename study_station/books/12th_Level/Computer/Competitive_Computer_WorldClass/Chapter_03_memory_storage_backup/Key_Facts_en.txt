@@ -1,0 +1,58 @@
+**Key Facts — Memory Storage and Backup**
+
+1. **Primary vs Secondary Memory** — Primary memory (RAM, ROM, cache) is directly accessible by the CPU; secondary memory (HDD, SSD, USB, optical) stores data permanently but requires I/O controllers for CPU access.
+
+2. **RAM (Random Access Memory)** — Volatile; loses data when power is off. Two main types: DRAM (Dynamic RAM, needs periodic refresh, used as main memory) and SRAM (Static RAM, faster, no refresh, used for cache).
+
+3. **ROM (Read-Only Memory)** — Non-volatile; retains data without power. Types: PROM (programmable once), EPROM (erasable with UV), EEPROM (electrically erasable), and modern flash memory (a type of EEPROM).
+
+4. **Cache Memory** — Small, high-speed SRAM between CPU and main RAM. Levels: L1 (inside CPU core, smallest, fastest), L2 (per core or shared), L3 (shared across cores). Reduces average memory access time.
+
+5. **Virtual Memory** — OS technique using a portion of secondary storage (page file / swap space) as an extension of RAM. Allows running larger processes than physical RAM; managed via paging (fixed-size pages) or segmentation.
+
+6. **Hard Disk Drive (HDD)** — Magnetic spinning platters; sequential access faster than random. Mechanical parts make it slower, noisier, and more fragile than SSD. Common interfaces: SATA, SAS.
+
+7. **Solid State Drive (SSD)** — NAND flash memory, no moving parts. Faster read/write, lower latency, shock-resistant. Types: SATA SSD, NVMe SSD (PCIe interface, much higher throughput).
+
+8. **USB Flash Drives & Memory Cards** — Portable NAND flash storage. USB 2.0/3.0/3.1/3.2/4 determine speed. SD/microSD cards have speed classes (Class 10, UHS-I/II/III, V30/V60/V90) for video recording.
+
+9. **Optical Storage** — CD (700 MB), DVD (4.7/8.5 GB), Blu-ray (25/50/100 GB). Read-only (ROM), write-once (R), rewritable (RW/RE). Largely replaced by flash and cloud for data transfer.
+
+10. **Cloud Storage** — Remote servers accessed via internet (OneDrive, Google Drive, AWS S3, Azure Blob). Provides redundancy, accessibility, and collaboration; requires bandwidth and trust in provider security.
+
+11. **Backup Types** — Full (complete copy), Incremental (only changes since last backup of any type), Differential (changes since last full backup). Incremental saves space but restore is slower; differential balances speed and space.
+
+12. **3-2-1 Backup Rule** — Keep 3 copies of data, on 2 different media types, with 1 copy off-site (e.g., cloud or physically separate location). Mitigates hardware failure, theft, fire, ransomware.
+
+13. **RAID (Redundant Array of Independent Disks)** — Common levels: RAID 0 (striping, speed, no redundancy), RAID 1 (mirroring, redundancy), RAID 5 (striping with distributed parity, 1 drive failure tolerance), RAID 6 (dual parity, 2 drive tolerance), RAID 10 (mirrored stripes).
+
+14. **File Systems** — NTFS (Windows default, supports large files, permissions, encryption), FAT32 (legacy, 4 GB file limit, wide compatibility), exFAT (flash drives, large files, cross-platform), ext4 (Linux), APFS (macOS).
+
+15. **Memory Hierarchy** — Registers → Cache (L1/L2/L3) → Main RAM → Virtual Memory (SSD/HDD) → Archive (tape, cold cloud). Each level trades speed for capacity and cost.
+
+16. **Volatile vs Non-Volatile** — Volatile: RAM, cache, registers (need power). Non-volatile: ROM, flash, HDD, SSD, optical, tape (retain without power). NVRAM (battery-backed SRAM) bridges both.
+
+17. **Memory Addressing** — 32-bit CPU addresses up to 4 GB (2^32 bytes); 64-bit CPU theoretically addresses 16 EB (2^64 bytes). Physical Address Extension (PAE) allows 32-bit OS to use >4 GB RAM with hardware support.
+
+18. **BIOS/UEFI & Memory** — BIOS (legacy, 16-bit, MBR partitioning) vs UEFI (modern, 64-bit, GPT partitioning, secure boot, faster POST). UEFI supports >2 TB boot drives and memory initialization before OS load.
+
+19. **Windows Backup Tools** — File History (user files, incremental), Backup and Restore (Windows 7) (system image, scheduled), OneDrive folder sync, WBAdmin (command-line), VSS (Volume Shadow Copy Service) for consistent snapshots.
+
+20. **CERT-In Guidelines (India)** — Advises regular offline backups, testing restore procedures, encryption of backup media, and isolation of backup networks from production to prevent ransomware propagation.
+
+21. **RBI Guidelines for Financial Sector** — Mandates daily backups for critical systems, off-site storage with encryption, defined RPO (Recovery Point Objective) and RTO (Recovery Time Objective), and periodic disaster recovery drills.
+
+22. **Storage Interfaces** — SATA III (6 Gbps, AHCI protocol), NVMe (PCIe 3.0/4.0/5.0, up to 14+ GB/s, low latency, parallel queues), USB 3.2 Gen 2×2 (20 Gbps), Thunderbolt 3/4 (40 Gbps, PCIe + DisplayPort).
+
+23. **Memory Modules** — DIMM (desktop/server), SODIMM (laptop/small form factor). DDR generations: DDR3, DDR4, DDR5 (higher bandwidth, lower voltage, on-die ECC). Not interchangeable across generations.
+
+24. **ECC Memory (Error-Correcting Code)** — Detects and corrects single-bit errors, detects double-bit errors. Used in servers/workstations; requires motherboard/CPU support. Consumer CPUs (Core i5/i7, Ryzen 5/7) typically lack ECC support.
+
+25. **Storage Capacity Units** — Decimal (SI): KB=10^3, MB=10^6, GB=10^9, TB=10^12 (used by drive makers). Binary (IEC): KiB=2^10, MiB=2^20, GiB=2^30, TiB=2^40 (used by OS). 1 TB drive ≈ 931 GiB in Windows.
+
+**Common Mistakes to Avoid**
+- Confusing MB (megabyte) with Mb (megabit); 1 byte = 8 bits.
+- Assuming RAID replaces backup — RAID protects against drive failure, not deletion, corruption, or ransomware.
+- Treating cloud sync (OneDrive, Google Drive) as backup — sync propagates deletions/corruption instantly; version history helps but is not a full backup strategy.
+- Ignoring restore testing — an untested backup may be corrupt or incomplete.
+- Mixing up incremental and differential backup restore steps; differential needs only last full + last differential, incremental needs full + every incremental since.

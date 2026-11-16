@@ -1,0 +1,71 @@
+Card 1
+Front: What is the primary difference between primary memory and secondary memory?
+Back: Primary memory (RAM, ROM) is directly accessible by CPU, volatile (except ROM), fast, and limited in capacity. Secondary memory (HDD, SSD, USB) is non-volatile, larger capacity, slower, and accessed via I/O channels.
+
+Card 2
+Front: Name the two main types of RAM and their key characteristics.
+Back: SRAM (Static RAM) — faster, no refresh needed, expensive, used for cache. DRAM (Dynamic RAM) — slower, needs periodic refresh, cheaper, used for main system memory.
+
+Card 3
+Front: List the common types of ROM in order of erasability.
+Back: ROM (mask-programmed, not erasable) → PROM (programmable once) → EPROM (erasable by UV light) → EEPROM (electrically erasable) → Flash memory (block-wise electrically erasable, widely used in SSDs/USB drives).
+
+Card 4
+Front: What is cache memory and why is it used?
+Back: Small, high-speed SRAM placed between CPU and main memory. Stores frequently accessed data/instructions to reduce average memory access time. Levels: L1 (inside CPU core), L2 (per core or shared), L3 (shared across cores).
+
+Card 5
+Front: Compare HDD and SSD on speed, durability, and cost per GB.
+Back: HDD: mechanical spinning platters, slower (80–160 MB/s), fragile moving parts, lower cost/GB. SSD: NAND flash, no moving parts, faster (500–7000 MB/s), more durable, higher cost/GB (gap narrowing).
+
+Card 6
+Front: What are the main types of NAND flash used in SSDs?
+Back: SLC (1 bit/cell) — fastest, most durable, expensive. MLC (2 bits/cell) — balanced. TLC (3 bits/cell) — common in consumer SSDs. QLC (4 bits/cell) — highest density, lowest endurance, cheapest. 3D NAND stacks cells vertically for density.
+
+Card 7
+Front: Name common optical storage media and their typical capacities.
+Back: CD-ROM (700 MB), DVD-ROM (4.7 GB single-layer, 8.5 GB dual-layer), Blu-ray (25 GB single-layer, 50 GB dual-layer). Recordable variants: CD-R, DVD±R, BD-R (write-once); CD-RW, DVD±RW, BD-RE (rewritable).
+
+Card 8
+Front: What is the 3-2-1 backup rule?
+Back: Keep 3 copies of data (1 primary + 2 backups), on 2 different media types (e.g., local drive + cloud), with 1 copy stored off-site (protects against fire, theft, ransomware).
+
+Card 9
+Front: Differentiate full, incremental, and differential backup.
+Back: Full — copies all selected data; slowest backup, fastest restore. Incremental — copies only changes since last backup (any type); fastest backup, slowest restore (needs full + all incrementals). Differential — copies changes since last full backup; moderate backup/restore speed.
+
+Card 10
+Front: What are the common RAID levels and their purpose?
+Back: RAID 0 (striping) — performance, no redundancy. RAID 1 (mirroring) — redundancy, 50% usable capacity. RAID 5 (striping + distributed parity) — balance, survives 1 drive failure. RAID 6 (double parity) — survives 2 failures. RAID 10 (1+0) — mirroring + striping, high performance + redundancy.
+
+Card 11
+Front: Compare NTFS, FAT32, and exFAT file systems.
+Back: NTFS — Windows default, supports large files/volumes, permissions, encryption, journaling. FAT32 — legacy, 4 GB file limit, 32 GB volume limit (Windows), wide compatibility. exFAT — no 4 GB file limit, lightweight, good for flash drives/external drives across OSes.
+
+Card 12
+Front: What is virtual memory and how does it work?
+Back: Technique using disk space (page file / swap) as extension of RAM. OS moves inactive pages from RAM to disk (paging out) and brings them back when needed (paging in). Allows running larger processes than physical RAM; excessive paging causes thrashing.
+
+Card 13
+Front: Draw the memory hierarchy from fastest/smallest to slowest/largest.
+Back: CPU Registers → L1/L2/L3 Cache → Main Memory (RAM) → Secondary Storage (SSD/HDD) → Tertiary/Offline (Tape, Optical, Cloud). Each level: larger capacity, higher latency, lower cost per bit.
+
+Card 14
+Front: What is the purpose of TRIM command in SSDs?
+Back: Informs SSD controller which data blocks are no longer in use (deleted files). Allows controller to erase those blocks proactively, maintaining write performance and extending drive lifespan. Supported by modern OSes (Windows 7+, Linux, macOS).
+
+Card 15
+Front: Define IOPS, throughput, and latency in storage context.
+Back: IOPS (Input/Output Operations Per Second) — number of read/write ops per second (random workloads). Throughput (bandwidth) — data transfer rate in MB/s or GB/s (sequential workloads). Latency — time to complete one I/O request (ms or µs); lower is better.
+
+Card 16
+Front: What are common storage interfaces and their typical speeds?
+Back: SATA III — 6 Gbps (~550 MB/s), AHCI protocol. NVMe (PCIe 3.0 x4) — up to 32 Gbps (~3.5 GB/s); PCIe 4.0 x4 — ~7 GB/s; PCIe 5.0 x4 — ~14 GB/s. USB 3.2 Gen 2 — 10 Gbps; USB4 / Thunderbolt 3/4 — 40 Gbps.
+
+Card 17
+Front: What is BitLocker and what does it protect?
+Back: Windows full-volume encryption (AES-128/256). Protects data at rest on fixed/removable drives. Requires TPM 1.2+ for transparent unlock; can use PIN/password/USB key. Does not protect data while system is running and unlocked.
+
+Card 18
+Front: List standard storage capacity units (decimal vs binary).
+Back: Decimal (SI, used by drive makers): KB=10³, MB=10⁶, GB=10⁹, TB=10¹². Binary (used by OS): KiB=2¹⁰, MiB=2²⁰, GiB=2³⁰, TiB=2⁴⁰. 1 TB (decimal) ≈ 931 GiB (binary) — why OS shows less capacity than labeled.

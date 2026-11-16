@@ -1,0 +1,151 @@
+Questions 101–120: Easy | Questions 121–125: Medium
+
+101. Which type of memory loses its stored data when the power supply is turned off?
+(a) ROM (b) EPROM (c) RAM (d) PROM
+Answer: (c)
+Solution: ROM, PROM, and EPROM are non-volatile and retain data without power, while RAM is volatile and requires continuous power to maintain stored data, so the answer is RAM.
+Source: NCERT Class 11 Computer Science
+
+102. What is the primary function of cache memory in a computer system?
+(a) Reduce CPU-memory speed gap (b) Permanent data storage (c) Backup of hard disk data (d) Store operating system files
+Answer: (a)
+Solution: Cache memory is a small, fast memory placed between CPU and main memory to bridge the speed difference, not for permanent storage or backup, so the answer is Reduce CPU-memory speed gap.
+Source: PYQ-style
+
+103. Which storage device uses magnetic platters and read/write heads to store data?
+(a) SSD (b) HDD (c) USB flash drive (d) SD card
+Answer: (b)
+Solution: HDD (Hard Disk Drive) uses rotating magnetic platters and mechanical read/write heads, while SSD and flash drives use solid-state memory with no moving parts, so the answer is HDD.
+Source: NCERT Class 9 Information Technology
+
+104. What does the acronym SSD stand for in computer storage?
+(a) Solid State Drive (b) Super Speed Disk (c) System Storage Device (d) Secure Storage Drive
+Answer: (a)
+Solution: SSD stands for Solid State Drive, which uses NAND flash memory with no moving parts, unlike traditional magnetic hard drives, so the answer is Solid State Drive.
+Source: Microsoft Learn documentation
+
+105. Which RAID level provides mirroring without parity or striping?
+(a) RAID 6 (b) RAID 0 (c) RAID 5 (d) RAID 1
+Answer: (d)
+Solution: RAID 1 mirrors data across two or more drives for redundancy, while RAID 0 stripes without redundancy, RAID 5 uses distributed parity, and RAID 6 uses double parity, so the answer is RAID 1.
+Source: PYQ-style
+
+106. A full backup performed on Sunday followed by incremental backups on Monday through Saturday — how many backup sets are needed to restore data on Wednesday?
+(a) 1 (b) 2 (c) 4 (d) 3
+Answer: (c)
+Solution: Incremental backups only store changes since the last backup of any type; restoring Wednesday requires the Sunday full backup plus Monday, Tuesday, and Wednesday incrementals, totalling four backup sets, so the answer is 4.
+Source: CERT-In backup guidelines
+
+107. Which memory type requires UV light to erase its contents before reprogramming?
+(a) PROM (b) EEPROM (c) EPROM (d) Flash memory
+Answer: (c)
+Solution: EPROM (Erasable Programmable Read-Only Memory) is erased by ultraviolet light exposure through a quartz window, while EEPROM and flash memory are electrically erasable, so the answer is EPROM.
+Source: NCERT Class 12 Computer Science
+
+108. What is the typical data transfer interface for modern internal SSDs in laptops?
+(a) SATA only (b) SCSI (c) IDE (d) NVMe over PCIe
+Answer: (d)
+Solution: Modern laptops use NVMe (Non-Volatile Memory Express) over PCIe for high-speed SSD communication, while SATA is older and slower, and IDE/SCSI are legacy interfaces, so the answer is NVMe over PCIe.
+Source: Microsoft Learn documentation
+
+109. Which backup type copies only files that have changed since the last full backup?
+(a) Incremental (b) Differential (c) Mirror (d) Snapshot
+Answer: (b)
+Solution: Differential backup copies all changes since the last full backup, growing larger each day; incremental copies changes since the last backup of any type, so the answer is Differential.
+Source: PYQ-style
+
+110. What is the storage capacity of a standard single-layer DVD-R?
+(a) 700 MB (b) 4.7 GB (c) 8.5 GB (d) 25 GB
+Answer: (b)
+Solution: A standard single-layer DVD-R holds 4.7 GB; 700 MB is CD-R capacity, 8.5 GB is dual-layer DVD, and 25 GB is single-layer Blu-ray, so the answer is 4.7 GB.
+Source: NCERT Class 10 Information Technology
+
+111. Which file system is natively supported by both Windows and macOS for read/write without third-party software?
+(a) NTFS (b) APFS (c) exFAT (d) ext4
+Answer: (c)
+Solution: exFAT is designed for flash drives and is natively read/write compatible with both Windows and macOS; NTFS is read-only on macOS, APFS is macOS-only, and ext4 is Linux-native, so the answer is exFAT.
+Source: Microsoft Support documentation
+
+112. In a 3-2-1 backup strategy, what does the "1" represent?
+(a) One backup per day (b) One off-site copy (c) One full backup weekly (d) One incremental backup
+Answer: (b)
+Solution: The 3-2-1 rule means 3 copies of data, on 2 different media types, with 1 copy stored off-site for disaster recovery, so the answer is One off-site copy.
+Source: CERT-In advisory
+
+113. What is the primary advantage of SRAM over DRAM?
+(a) Higher density (b) Lower cost per bit (c) Faster access speed (d) Non-volatility
+Answer: (c)
+Solution: SRAM (Static RAM) uses flip-flops and does not need refreshing, making it faster than DRAM, but it is less dense, more expensive, and still volatile, so the answer is Faster access speed.
+Source: NCERT Class 11 Computer Science
+
+114. Which cloud storage model provides raw storage capacity over the network for customers to manage their own file systems?
+(a) IaaS (b) PaaS (c) FaaS (d) SaaS
+Answer: (a)
+Solution: IaaS (Infrastructure as a Service) provides virtualized computing resources including raw block storage; SaaS delivers applications, PaaS provides development platforms, and FaaS is function-based serverless computing, so the answer is IaaS.
+Source: PYQ-style
+
+115. What does the term "hot swap" mean in storage systems?
+(a) Replacing a drive while the system is running (b) Quick formatting a drive (c) Encrypting data on the fly (d) Moving data between SSDs
+Answer: (a)
+Solution: Hot swap allows removing and inserting storage drives without powering down the system, enabled by RAID controllers and appropriate drive bays; it does not refer to formatting or encryption, so the answer is Replacing a drive while the system is running.
+Source: Microsoft Learn documentation
+
+116. Which memory technology is used in USB flash drives and memory cards?
+(a) SRAM (b) NAND flash (c) DRAM (d) NOR flash
+Answer: (b)
+Solution: NAND flash memory provides high density and non-volatile storage suitable for USB drives and SD cards; NOR flash is used for code execution in embedded systems, while DRAM and SRAM are volatile, so the answer is NAND flash.
+Source: NCERT Class 12 Computer Science
+
+117. A differential backup on Thursday captures changes since which backup?
+(a) Last differential backup (b) Last incremental backup (c) Last full backup (d) System installation
+Answer: (c)
+Solution: Differential backup always references the last full backup as its base, accumulating all changes since that full backup; it does not depend on incremental or previous differential backups, so the answer is Last full backup.
+Source: PYQ-style
+
+118. What is the maximum theoretical throughput of a SATA III (6 Gbps) interface in bytes per second?
+(a) 600 MB/s (b) 750 MB/s (c) 6 Gb/s (d) 75 MB/s
+Answer: (a)
+Solution: SATA III 6 Gbps (gigabits per second) divided by 8 bits per byte with 8b/10b encoding overhead yields approximately 600 MB/s practical maximum; 750 MB/s ignores encoding, 6 Gb/s is bits not bytes, and 75 MB/s is SATA I speed, so the answer is 600 MB/s.
+Source: Microsoft Learn documentation
+
+119. Which backup method creates an exact replica of the source data at a specific point in time?
+(a) Incremental (b) Snapshot (c) Differential (d) Mirror
+Answer: (b)
+Solution: A snapshot captures the state of a file system or volume at a precise moment, often using copy-on-write; mirror is a continuous real-time replica, while incremental and differential are change-based backups, so the answer is Snapshot.
+Source: CERT-In guidelines
+
+120. What is the primary purpose of ECC (Error Correcting Code) memory?
+(a) Detect and correct single-bit errors (b) Reduce power consumption (c) Increase storage capacity (d) Improve read speed
+Answer: (a)
+Solution: ECC memory adds parity bits to detect and correct single-bit memory errors automatically, critical for servers and workstations; it does not increase capacity, reduce power, or improve speed, so the answer is Detect and correct single-bit errors.
+Source: NCERT Class 11 Computer Science
+
+121. In a RAID 5 array with 5 disks of 1 TB each, what is the usable storage capacity?
+(a) 1 TB (b) 2 TB (c) 3 TB (d) 4 TB
+Answer: (d)
+Solution: RAID 5 uses distributed parity equivalent to one disk's capacity; with 5 disks of 1 TB, one disk worth (1 TB) is used for parity, leaving 4 TB usable; RAID 0 would give 5 TB, RAID 1 would give 2.5 TB, so the answer is 4 TB.
+Source: PYQ-style
+
+122. Which storage class in Amazon S3 is designed for long-term archival with retrieval times of hours?
+(a) S3 Glacier (b) S3 Standard (c) S3 Intelligent-Tiering (d) S3 One Zone-IA
+Answer: (a)
+Solution: S3 Glacier is designed for archival storage with retrieval times ranging from minutes to hours; S3 Standard is for frequent access, Intelligent-Tiering auto-moves between tiers, and One Zone-IA is for infrequent access in a single AZ, so the answer is S3 Glacier.
+Source: Microsoft Learn documentation
+
+123. What is the key difference between TRIM and garbage collection in SSDs?
+(a) TRIM is for HDDs, garbage collection for SSDs (b) No difference, they are the same process (c) TRIM increases write speed, garbage collection reduces it (d) TRIM is OS-initiated, garbage collection is controller-initiated
+Answer: (d)
+Solution: TRIM is an OS command that informs the SSD controller which blocks are no longer in use, while garbage collection is the controller's internal process of reclaiming free blocks; both work together but are initiated by different components, so the answer is TRIM is OS-initiated, garbage collection is controller-initiated.
+Source: Microsoft Support documentation
+
+124. A company requires RPO of 1 hour and RTO of 4 hours. Which backup strategy best meets these requirements?
+(a) Daily full backup at midnight (b) Weekly full + daily differential (c) Monthly full backup to tape (d) Hourly incremental backups with off-site replication
+Answer: (d)
+Solution: RPO (Recovery Point Objective) of 1 hour means maximum 1 hour of data loss, requiring at least hourly backups; RTO (Recovery Time Objective) of 4 hours requires fast restore capability, which off-site replication provides; daily/weekly/monthly backups exceed the 1-hour RPO, so the answer is Hourly incremental backups with off-site replication.
+Source: CERT-In business continuity guidelines
+
+125. Which interface protocol is specifically designed for non-volatile memory and uses a streamlined command set with low latency?
+(a) AHCI (b) ATA (c) SCSI (d) NVMe
+Answer: (d)
+Solution: NVMe (Non-Volatile Memory Express) is designed from the ground up for SSDs with a simplified command set, deep queues, and low latency; AHCI was designed for spinning disks, SCSI and ATA are older block protocols, so the answer is NVMe.
+Source: Microsoft Learn documentation

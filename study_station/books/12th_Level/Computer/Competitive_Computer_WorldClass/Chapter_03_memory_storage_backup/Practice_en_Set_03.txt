@@ -1,0 +1,149 @@
+51. Which type of memory retains data without power and is used to store the BIOS firmware on a motherboard?
+(a) RAM (b) Virtual Memory (c) Cache (d) ROM
+Answer: (d)
+Solution: RAM loses data when power is off, making it unsuitable for permanent firmware storage; ROM is non-volatile and designed for this purpose, so the answer is ROM.
+Source: NCERT Class 11 Computer Science
+
+52. What is the primary difference between SRAM and DRAM?
+(a) SRAM uses capacitors, DRAM uses flip-flops (b) SRAM is slower but cheaper (c) DRAM does not need refreshing (d) SRAM uses flip-flops, DRAM uses capacitors
+Answer: (d)
+Solution: A common trap is reversing the technologies — DRAM uses capacitors that leak charge and need refreshing, while SRAM uses flip-flops that hold state without refresh, so the answer is SRAM uses flip-flops, DRAM uses capacitors.
+Source: NCERT Class 12 Computer Science
+
+53. Which DDR generation doubled the data transfer rate of DDR3 by using a lower voltage (1.2 V) and higher clock speeds?
+(a) DDR4 (b) DDR2 (c) DDR5 (d) LPDDR3
+Answer: (a)
+Solution: DDR2 is older and slower; DDR4 introduced 1.2 V operation and higher speeds over DDR3, while DDR5 came later, so the answer is DDR4.
+Source: Official Microsoft Learn documentation
+
+54. In a computer, which memory sits between the CPU and main RAM to reduce access latency?
+(a) Virtual Memory (b) Hard Disk (c) ROM (d) Cache Memory
+Answer: (d)
+Solution: Virtual memory uses disk space and is slower; cache memory is a small, fast SRAM buffer between CPU and RAM, so the answer is Cache Memory.
+Source: NCERT Class 11 Computer Science
+
+55. What does the "Flash" in Flash memory refer to?
+(a) The speed of erasing entire blocks at once (b) A camera flash used in manufacturing (c) The flashing LED on USB drives (d) A type of NOR gate
+Answer: (a)
+Solution: The name comes from the ability to erase large blocks in a "flash" (quickly), not from LEDs or cameras, so the answer is the speed of erasing entire blocks at once.
+Source: CERT-In Security Guidelines
+
+56. Which storage device has no moving parts and uses NAND flash memory?
+(a) HDD (b) DVD-RW (c) SSD (d) Floppy Disk
+Answer: (c)
+Solution: HDDs have spinning platters and read/write heads; SSDs use NAND flash with no mechanical parts, so the answer is SSD.
+Source: Official Microsoft Support
+
+57. What is the maximum file size supported by the FAT32 file system?
+(a) 2 GB (b) 4 GB (c) 8 GB (d) 16 GB
+Answer: (b)
+Solution: FAT32 uses a 32-bit file allocation table limiting individual files to 4 GB minus 1 byte; exFAT and NTFS support larger files, so the answer is 4 GB.
+Source: Official Microsoft Learn documentation
+
+58. Which backup type copies only the data that has changed since the last backup of any type?
+(a) Full Backup (b) Incremental Backup (c) Differential Backup (d) Mirror Backup
+Answer: (b)
+Solution: Differential copies changes since the last full backup; incremental copies changes since the last backup (full or incremental), making it smaller but slower to restore, so the answer is Incremental Backup.
+Source: RBI Cyber Security Framework
+
+59. RAID 1 provides redundancy by:
+(a) Striping data across disks (b) Mirroring data on two disks (c) Using parity blocks (d) Combining striping and parity
+Answer: (b)
+Solution: RAID 0 stripes; RAID 5 uses parity; RAID 1 duplicates (mirrors) data on two drives for fault tolerance, so the answer is Mirroring data on two disks.
+Source: NCERT Class 12 Computer Science
+
+60. What is the purpose of virtual memory in an operating system?
+(a) To use disk space as an extension of RAM (b) To increase CPU clock speed (c) To encrypt data in RAM (d) To compress files automatically
+Answer: (a)
+Solution: Virtual memory swaps less-used RAM pages to a page file on disk, effectively extending usable memory; it does not speed up the CPU, so the answer is to use disk space as an extension of RAM.
+Source: Official Microsoft Support
+
+61. Which interface connects an NVMe SSD directly to the PCIe bus for highest throughput?
+(a) SATA (b) USB 3.0 (c) M.2 with NVMe protocol (d) IDE
+Answer: (c)
+Solution: SATA and USB are slower bottlenecks; NVMe over PCIe via M.2 slot bypasses the SATA controller for maximum speed, so the answer is M.2 with NVMe protocol.
+Source: Official Microsoft Learn documentation
+
+62. The term "MTBF" in storage specifications stands for:
+(a) Maximum Transfer Bandwidth Frequency (b) Minimum Terabytes Before Failure (c) Mean Time Between Failures (d) Mega Transfers Per Bus Cycle
+Answer: (c)
+Solution: MTBF is a reliability metric (Mean Time Between Failures), not a speed or capacity measure, so the answer is Mean Time Between Failures.
+Source: CERT-In Security Guidelines
+
+63. Which cloud storage model provides raw storage capacity over the internet, managed by the provider?
+(a) SaaS (b) PaaS (c) FaaS (d) IaaS
+Answer: (d)
+Solution: IaaS (Infrastructure as a Service) offers virtualized compute, storage, and networking; SaaS delivers applications, PaaS provides development platforms, so the answer is IaaS.
+Source: RBI Cloud Computing Guidelines
+
+64. What is the main advantage of a differential backup over an incremental backup?
+(a) Faster restore time (b) Faster backup time (c) Uses less storage space (d) No need for a full backup
+Answer: (a)
+Solution: Differential backups grow larger but only need the last full and latest differential to restore; incremental requires the full plus every incremental since, so the answer is Faster restore time.
+Source: RBI Cyber Security Framework
+
+65. Which file system is the default for modern Windows installations and supports file permissions, encryption, and large volumes?
+(a) FAT32 (b) exFAT (c) NTFS (d) ReFS
+Answer: (c)
+Solution: NTFS has been the default since Windows NT, supporting ACLs, EFS, and volumes up to 256 TB; ReFS is for servers, FAT32/exFAT lack permissions, so the answer is NTFS.
+Source: Official Microsoft Support
+
+66. In the context of SSDs, "TRIM" command helps to:
+(a) Defragment the drive (b) Inform the controller which blocks are no longer in use (c) Encrypt data at rest (d) Increase write speed by compression
+Answer: (b)
+Solution: TRIM lets the OS tell the SSD which logical blocks are deleted, allowing garbage collection to free pages proactively; SSDs should not be defragmented, so the answer is Inform the controller which blocks are no longer in use.
+Source: Official Microsoft Learn documentation
+
+67. What does "cold backup" mean in database administration?
+(a) Backup taken at low temperature (b) Backup taken while the database is shut down (c) Backup stored on offline tape (d) Backup of only archived data
+Answer: (b)
+Solution: Cold backup requires the database to be offline for a consistent snapshot; hot backup runs while online, so the answer is Backup taken while the database is shut down.
+Source: RBI Cyber Security Framework
+
+68. Which optical media standard uses a blue-violet laser (405 nm) to achieve higher capacity than DVD?
+(a) Blu-ray (b) CD-R (c) HD-DVD (d) DVD-RAM
+Answer: (a)
+Solution: Blu-ray's shorter wavelength laser allows smaller pits and higher density (25 GB/layer); HD-DVD also used blue laser but lost the format war, so the answer is Blu-ray.
+Source: NCERT Class 12 Computer Science
+
+69. The "3-2-1 backup rule" recommends:
+(a) 3 backups daily, 2 weekly, 1 monthly (b) 3 copies, 2 media types, 1 offsite (c) 3 TB primary, 2 TB secondary, 1 TB cloud (d) 3 full, 2 differential, 1 incremental
+Answer: (b)
+Solution: The rule is a mnemonic for redundancy: keep 3 copies of data on 2 different media types with 1 copy offsite, so the answer is 3 copies, 2 media types, 1 offsite.
+Source: CERT-In Security Guidelines
+
+70. What is the function of a memory controller in a modern CPU?
+(a) Handles communication between CPU and RAM (b) Manages cache replacement policies (c) Controls virtual memory paging (d) Executes floating-point operations
+Answer: (a)
+Solution: The integrated memory controller (IMC) directly manages DRAM timing, channels, and refresh; cache and paging are handled by other units, so the answer is Handles communication between CPU and RAM.
+Source: Official Microsoft Learn documentation
+
+71. Which of the following is a non-volatile memory technology that can be byte-addressable and persists data without power, often used as a storage-class memory?
+(a) DDR5 SDRAM (b) NAND Flash (c) Intel Optane (3D XPoint) (d) SRAM
+Answer: (c)
+Solution: NAND flash is block-addressable; DDR5 and SRAM are volatile; 3D XPoint (Optane) is byte-addressable persistent memory, so the answer is Intel Optane (3D XPoint).
+Source: Official Microsoft Learn documentation
+
+72. In a RAID 5 array with 5 disks of equal size, what percentage of total raw capacity is usable for data?
+(a) 100% (b) 50% (c) 66% (d) 80%
+Answer: (d)
+Solution: RAID 5 uses one disk's worth of capacity for distributed parity; with 5 disks, 4/5 = 80% is usable, so the answer is 80%.
+Source: NCERT Class 12 Computer Science
+
+73. What is the primary purpose of wear leveling in SSDs?
+(a) To increase read speed (b) To compress data before writing (c) To distribute write/erase cycles evenly across cells (d) To encrypt data at the controller level
+Answer: (c)
+Solution: NAND cells wear out after limited program/erase cycles; wear leveling spreads writes to prevent premature failure of specific blocks, so the answer is To distribute write/erase cycles evenly across cells.
+Source: CERT-In Security Guidelines
+
+74. Which backup strategy creates a complete copy of selected data at a specific point in time, independent of previous backups?
+(a) Incremental (b) Differential (c) Synthetic Full (d) Full
+Answer: (d)
+Solution: Full backup is self-contained; incremental and differential depend on a prior full; synthetic full is constructed from earlier backups, so the answer is Full.
+Source: RBI Cyber Security Framework
+
+75. A system uses a 64-bit OS with 16 GB physical RAM. The page file is set to "System managed size" on an NVMe SSD. Which statement is correct?
+(a) The page file allows committing more memory than physical RAM (b) Virtual memory is limited to 16 GB (c) Disabling the page file improves performance (d) The page file must be on the same drive as the OS
+Answer: (a)
+Solution: The page file extends the commit limit beyond physical RAM; disabling it risks OOM crashes; it can reside on any drive, so the answer is The page file allows committing more memory than physical RAM.
+Source: Official Microsoft Support

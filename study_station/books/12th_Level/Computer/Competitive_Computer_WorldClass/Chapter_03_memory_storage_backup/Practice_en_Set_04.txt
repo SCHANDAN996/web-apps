@@ -1,0 +1,151 @@
+Questions 76–95: Easy | Questions 96–100: Medium
+
+76. Which type of memory retains data without power and is commonly used for BIOS firmware in modern computers?
+(a) DRAM (b) SRAM (c) Flash memory (d) Magnetic tape
+Answer: (c)
+Solution: DRAM and SRAM are volatile and lose data when power is removed; magnetic tape is sequential access storage, not used for BIOS. Flash memory is non-volatile and rewritable, making it ideal for UEFI/BIOS firmware, so the answer is Flash memory.
+Source: NCERT Class 11 Computer Science
+
+77. What is the primary difference between DDR4 and DDR5 RAM at the architectural level?
+(a) DDR5 has two 32-bit sub-channels per DIMM instead of one 64-bit channel (b) DDR5 uses lower voltage only (c) DDR5 doubles the pin count (d) DDR5 eliminates the need for a memory controller
+Answer: (a)
+Solution: DDR5 splits the 64-bit data bus into two independent 32-bit sub-channels, improving parallelism; voltage reduction and pin changes are secondary. The memory controller remains essential, so the answer is two 32-bit sub-channels per DIMM.
+Source: Microsoft Learn — DDR5 memory architecture
+
+78. Which RAID level provides mirroring without parity or striping?
+(a) RAID 1 (b) RAID 0 (c) RAID 5 (d) RAID 6
+Answer: (a)
+Solution: RAID 0 stripes without redundancy; RAID 5 and 6 use distributed parity with striping. RAID 1 creates an exact copy (mirror) of data on two or more drives, so the answer is RAID 1.
+Source: NCERT Class 12 Computer Science
+
+79. In the memory hierarchy, which level is typically the smallest and fastest?
+(a) Main memory (RAM) (b) L1 cache (c) L2 cache (d) Solid State Drive
+Answer: (b)
+Solution: L2 cache is larger but slower than L1; RAM and SSD are progressively larger and slower. L1 cache is built into the CPU core and runs at core clock speed, so the answer is L1 cache.
+Source: NCERT Class 11 Computer Science
+
+80. What does the "N" in NVMe stand for?
+(a) NAND (b) Network (c) New (d) Non-volatile
+Answer: (d)
+Solution: NVMe stands for Non-Volatile Memory Express; it is a protocol for accessing non-volatile storage (like NAND flash) over PCIe. The other options confuse the acronym with related terms, so the answer is Non-volatile.
+Source: Microsoft Learn — NVMe overview
+
+81. Which backup type copies only files that have changed since the last backup of any type and clears the archive bit?
+(a) Full backup (b) Differential backup (c) Incremental backup (d) Mirror backup
+Answer: (c)
+Solution: Differential backup copies changes since the last full backup but does not clear the archive bit; full backup copies everything. Incremental backup copies changes since the last backup (full or incremental) and clears the archive bit, so the answer is Incremental backup.
+Source: CERT-In Data Backup Guidelines
+
+82. What is the typical storage capacity of a standard single-layer Blu-ray disc?
+(a) 4.7 GB (b) 25 GB (c) 50 GB (d) 100 GB
+Answer: (b)
+Solution: 4.7 GB is a single-layer DVD; 50 GB is a dual-layer Blu-ray; 100 GB is a triple-layer BDXL. A standard single-layer Blu-ray holds 25 GB, so the answer is 25 GB.
+Source: Official Blu-ray Disc Association specifications
+
+83. Which file system is natively supported for read-write on Windows, macOS, and Linux, making it ideal for large removable drives?
+(a) NTFS (b) FAT32 (c) exFAT (d) ext4
+Answer: (c)
+Solution: NTFS is read-only on macOS without third-party software; FAT32 has a 4 GB file size limit; ext4 requires third-party drivers on Windows and macOS. exFAT supports large files and is natively read-write on all three major OSes, so the answer is exFAT.
+Source: Microsoft Support — exFAT file system
+
+84. What is the function of the Memory Management Unit (MMU) in a computer system?
+(a) Translates virtual addresses to physical addresses (b) Manages cache replacement policies (c) Controls DDR memory timing parameters (d) Handles interrupt requests from I/O devices
+Answer: (a)
+Solution: Cache replacement is handled by the cache controller; DDR timing is managed by the memory controller; interrupts go to the interrupt controller. The MMU specifically performs virtual-to-physical address translation for memory protection and paging, so the answer is Translates virtual addresses to physical addresses.
+Source: NCERT Class 12 Computer Science
+
+85. Which type of ROM can be erased and reprogrammed electrically at the byte level?
+(a) PROM (b) EPROM (c) EEPROM (d) Mask ROM
+Answer: (c)
+Solution: PROM is one-time programmable; EPROM requires UV light for erasure; Mask ROM is factory-programmed. EEPROM (Electrically Erasable Programmable Read-Only Memory) allows byte-level electrical erasure and reprogramming, so the answer is EEPROM.
+Source: NCERT Class 11 Computer Science
+
+86. In a typical DDR4 DIMM, what is the standard operating voltage?
+(a) 1.2 V (b) 1.35 V (c) 1.5 V (d) 1.1 V
+Answer: (a)
+Solution: 1.5 V is DDR3 standard; 1.35 V is DDR3L low voltage; 1.1 V is DDR5. DDR4 operates at 1.2 V by specification, so the answer is 1.2 V.
+Source: JEDEC DDR4 Standard (JESD79-4)
+
+87. What is the main advantage of a solid-state drive (SSD) over a hard disk drive (HDD)?
+(a) Longer data retention without power (b) Higher maximum capacity (c) Lower cost per gigabyte (d) No moving parts, resulting in faster access and better shock resistance
+Answer: (d)
+Solution: HDDs generally offer lower cost per GB and higher maximum capacities; data retention without power is comparable. SSDs use flash memory with no mechanical components, giving faster random access and physical durability, so the answer is No moving parts, resulting in faster access and better shock resistance.
+Source: NCERT Class 12 Computer Science
+
+88. Which RAID level uses block-level striping with distributed parity and requires a minimum of three drives?
+(a) RAID 0 (b) RAID 5 (c) RAID 1 (d) RAID 10
+Answer: (b)
+Solution: RAID 0 has no parity; RAID 1 mirrors without striping; RAID 10 combines mirroring and striping but needs four drives minimum. RAID 5 stripes data and parity across at least three drives, so the answer is RAID 5.
+Source: Microsoft Learn — RAID levels
+
+89. What does the term "wear leveling" refer to in the context of flash memory?
+(a) Balancing read operations across cells (b) Distributing write/erase cycles evenly across memory blocks (c) Reducing voltage to extend cell life (d) Compressing data to reduce writes
+Answer: (b)
+Solution: Wear leveling does not balance reads, reduce voltage, or compress data. Flash cells endure limited program/erase cycles; wear leveling algorithms spread writes across all blocks to prevent premature failure of heavily used blocks, so the answer is Distributing write/erase cycles evenly across memory blocks.
+Source: Microsoft Learn — SSD wear leveling
+
+90. Which backup strategy creates an exact replica of the source data at a specific point in time without compression or proprietary format?
+(a) Full backup (b) Incremental backup (c) Mirror backup (d) Snapshot backup
+Answer: (c)
+Solution: Full backup includes all data but often uses proprietary formats; incremental captures changes; snapshot is a point-in-time view but may be virtual. Mirror backup produces a direct, uncompressed copy identical to the source, so the answer is Mirror backup.
+Source: CERT-In Data Backup Guidelines
+
+91. What is the maximum theoretical throughput of a PCIe 4.0 x4 connection used by NVMe SSDs?
+(a) 8 GB/s (b) 32 GB/s (c) 16 GB/s (d) 4 GB/s
+Answer: (a)
+Solution: PCIe 3.0 x4 ≈ 4 GB/s; PCIe 5.0 x4 ≈ 16 GB/s; 32 GB/s would be PCIe 6.0 x4. PCIe 4.0 doubles 3.0's rate, giving ~8 GB/s raw bandwidth for x4 lanes, so the answer is 8 GB/s.
+Source: PCI-SIG PCIe 4.0 specification
+
+92. In virtual memory systems, what is a "page fault"?
+(a) An error when a page is corrupted (b) A mismatch between virtual and physical address sizes (c) A failure to write a page to disk (d) An interrupt when a requested page is not in physical memory
+Answer: (d)
+Solution: Page corruption triggers ECC errors, not page faults; write failures are I/O errors; address size mismatch is architectural. A page fault occurs when the CPU accesses a valid virtual page that is currently swapped out, prompting the OS to load it from disk, so the answer is An interrupt when a requested page is not in physical memory.
+Source: NCERT Class 12 Computer Science
+
+93. Which memory technology uses a transistor and capacitor pair for each bit, requiring periodic refresh?
+(a) SRAM (b) DRAM (c) Flash memory (d) MRAM
+Answer: (b)
+Solution: SRAM uses 6 transistors per bit, no refresh; Flash uses floating-gate transistors; MRAM uses magnetic tunnel junctions. DRAM stores charge on a capacitor that leaks, needing refresh every few milliseconds, so the answer is DRAM.
+Source: NCERT Class 11 Computer Science
+
+94. What is the purpose of the TRIM command in SSDs?
+(a) To inform the controller which blocks are no longer in use (b) To defragment the drive (c) To encrypt deleted data (d) To reduce write amplification by compressing data
+Answer: (a)
+Solution: SSDs do not need defragmentation; TRIM does not encrypt or compress. TRIM lets the OS tell the SSD which logical blocks are deleted, allowing the controller to erase them proactively and maintain write performance, so the answer is To inform the controller which blocks are no longer in use.
+Source: Microsoft Support — TRIM command
+
+95. Which optical storage technology uses a blue-violet laser (405 nm) to achieve higher density than DVD?
+(a) Blu-ray (b) CD-RW (c) HD-DVD (d) Holographic storage
+Answer: (a)
+Solution: CD-RW uses 780 nm infrared; HD-DVD also used 405 nm but lost the format war; holographic storage is experimental. Blu-ray's 405 nm laser enables smaller pits and higher capacity, so the answer is Blu-ray.
+Source: Official Blu-ray Disc Association specifications
+
+96. A system has 8 GB of physical RAM and a 16 GB page file. What is the maximum virtual address space available to a 64-bit process on Windows?
+(a) 8 GB (b) 128 TB (implementation-dependent limit) (c) 16 GB (d) 24 GB
+Answer: (b)
+Solution: Physical RAM + page file limits committed memory, not virtual address space. 64-bit Windows currently limits user-mode virtual address space to 128 TB (2^47 bytes), far larger than the backing store, so the answer is 128 TB (implementation-dependent limit).
+Source: Microsoft Learn — Memory limits for Windows
+
+97. In a backup rotation scheme, what is the "Grandfather-Father-Son" (GFS) strategy?
+(a) Cloud, local, and offsite copies simultaneously (b) Three full backups rotated daily (c) Mirror copies on three different media types (d) Daily incremental, weekly full, monthly full backups with retention tiers
+Answer: (d)
+Solution: GFS is not three daily fulls, three media types, or simultaneous copies. It defines retention tiers: daily (son), weekly (father), monthly (grandfather) backups, typically with incrementals daily and fulls weekly/monthly, so the answer is Daily incremental, weekly full, monthly full backups with retention tiers.
+Source: CERT-In Data Backup Guidelines
+
+98. What is the key characteristic of 3D NAND flash compared to planar (2D) NAND?
+(a) Eliminates the need for error correction codes (b) Replaces floating gate with charge trap technology only (c) Operates at half the voltage (d) Uses vertical stacking of memory cells to increase density
+Answer: (d)
+Solution: Charge trap (CTF) is used in some 3D NAND but not the defining feature; voltage and ECC requirements remain. 3D NAND stacks cells vertically in multiple layers, overcoming planar scaling limits, so the answer is Uses vertical stacking of memory cells to increase density.
+Source: Microsoft Learn — 3D NAND technology
+
+99. Which Windows built-in tool creates a system image backup (block-level copy of system volumes)?
+(a) File History (b) Storage Spaces (c) Backup and Restore (Windows 7) (d) OneDrive sync
+Answer: (c)
+Solution: File History backs up user files only; OneDrive syncs files to cloud; Storage Spaces manages drive pools. "Backup and Restore (Windows 7)" creates a block-level system image of OS volumes for bare-metal recovery, so the answer is Backup and Restore (Windows 7).
+Source: Microsoft Support — Create a system image backup
+
+100. A company requires recovery point objective (RPO) of 1 hour and recovery time objective (RTO) of 4 hours for a critical database. Which backup approach best meets these requirements?
+(a) Real-time replication to a hot standby site (b) Weekly full backup with daily differentials (c) Monthly full backup with weekly incrementals (d) Daily full backup with hourly transaction log backups
+Answer: (d)
+Solution: Weekly/monthly fulls exceed 1-hour RPO; real-time replication achieves near-zero RPO/RTO but is costlier than required. Hourly transaction log backups limit data loss to ≤1 hour (RPO), and restoring daily full + logs fits within 4-hour RTO, so the answer is Daily full backup with hourly transaction log backups.
+Source: CERT-In Data Backup Guidelines

@@ -1,0 +1,149 @@
+26. Which type of memory retains data without power and stores the BIOS/UEFI firmware?
+(a) RAM (b) ROM (c) Cache (d) Virtual Memory
+Answer: (b)
+Solution: RAM loses data when power is off, making it a common trap for those confusing volatile and non-volatile memory; ROM is non-volatile and permanently stores firmware like BIOS/UEFI, so the answer is ROM.
+Source: NCERT Class 11 Computer Science
+
+27. What is the primary function of cache memory in a computer system?
+(a) Permanent data storage (b) Backup of hard disk (c) Store operating system files (d) Reduce CPU-memory speed gap
+Answer: (d)
+Solution: Cache is often mistaken for permanent storage, but it is a small, fast volatile memory that bridges the speed gap between CPU and main RAM, so the answer is Reduce CPU-memory speed gap.
+Source: Microsoft Learn - Memory hierarchy
+
+28. Which storage device uses magnetic platters and read/write heads for data access?
+(a) SSD (b) HDD (c) USB Flash Drive (d) Optical Disc
+Answer: (b)
+Solution: SSDs use flash memory with no moving parts, a frequent confusion point; HDDs specifically use spinning magnetic platters and mechanical heads, so the answer is HDD.
+Source: NCERT Class 9 Information Technology
+
+29. In the memory hierarchy, which level is closest to the CPU and fastest?
+(a) Main Memory (RAM) (b) Secondary Storage (c) Virtual Memory (d) Cache Memory
+Answer: (d)
+Solution: RAM is larger but slower than cache; cache sits directly on or near the CPU die for fastest access, so the answer is Cache Memory.
+Source: Microsoft Learn - Computer architecture
+
+30. What does SSD stand for in storage technology?
+(a) System Storage Device (b) Super Speed Disk (c) Solid State Drive (d) Secure Storage Drive
+Answer: (c)
+Solution: "Super Speed Disk" sounds plausible but is not the standard expansion; SSD correctly expands to Solid State Drive, so the answer is Solid State Drive.
+Source: CERT-In Security Guidelines
+
+31. Which backup method copies only files that have changed since the last backup of any type?
+(a) Full Backup (b) Differential Backup (c) Incremental Backup (d) Mirror Backup
+Answer: (c)
+Solution: Differential backup copies changes since the last full backup, a common mix-up; incremental backup copies changes since the last backup of any type, so the answer is Incremental Backup.
+Source: Microsoft Support - Backup types
+
+32. What is the main advantage of RAID 1 (mirroring) over RAID 0 (striping)?
+(a) Higher performance (b) Larger capacity (c) Lower cost (d) Data redundancy
+Answer: (d)
+Solution: RAID 0 offers higher performance and capacity but no redundancy; RAID 1 provides fault tolerance through mirroring, so the answer is Data redundancy.
+Source: NCERT Class 12 Computer Science
+
+33. Which file system is natively supported by Windows for large partitions and includes features like encryption and compression?
+(a) FAT32 (b) exFAT (c) ext4 (d) NTFS
+Answer: (d)
+Solution: FAT32 has file size limits and lacks advanced features; NTFS supports large volumes, encryption (EFS), and compression, so the answer is NTFS.
+Source: Microsoft Learn - File systems
+
+34. What is virtual memory in an operating system?
+(a) Physical RAM expansion (b) Hard disk space used as RAM extension (c) Cache memory allocation (d) ROM shadowing
+Answer: (b)
+Solution: Virtual memory is often confused with physical RAM upgrade; it actually uses disk space (page file) to extend apparent memory, so the answer is Hard disk space used as RAM extension.
+Source: Microsoft Support - Virtual memory
+
+35. Which optical storage medium typically holds 4.7 GB of data on a single layer?
+(a) CD-ROM (b) DVD-R (c) Blu-ray (d) HD-DVD
+Answer: (b)
+Solution: CD-ROM holds only 700 MB; single-layer DVD-R holds 4.7 GB, while Blu-ray holds 25 GB, so the answer is DVD-R.
+Source: NCERT Class 10 Information Technology
+
+36. What does the term "hot swap" refer to in storage devices?
+(a) Replacing a drive without shutting down (b) Replacing a drive while system is powered off (c) Fast data transfer mode (d) Encrypted drive replacement
+Answer: (a)
+Solution: "Hot" might suggest high speed, but it actually means the system stays running during drive replacement, so the answer is Replacing a drive without shutting down.
+Source: Microsoft Learn - Hot swapping
+
+37. Which RAID level combines striping with distributed parity and requires at least three drives?
+(a) RAID 0 (b) RAID 1 (c) RAID 5 (d) RAID 10
+Answer: (c)
+Solution: RAID 0 has no parity, RAID 1 is mirroring; RAID 5 stripes data with distributed parity across minimum three drives, so the answer is RAID 5.
+Source: NCERT Class 12 Computer Science
+
+38. What is the purpose of the Master Boot Record (MBR) on a storage device?
+(a) Store user files (b) Hold partition table and bootloader (c) Manage file permissions (d) Cache frequently used data
+Answer: (b)
+Solution: MBR is often confused with file system structures; it specifically contains the partition table and initial bootloader code, so the answer is Hold partition table and bootloader.
+Source: Microsoft Learn - Disk partitioning
+
+39. Which interface standard is commonly used for connecting modern SSDs directly to the PCIe bus?
+(a) SATA (b) IDE (c) NVMe (d) SCSI
+Answer: (c)
+Solution: SATA is older and slower; NVMe (Non-Volatile Memory Express) is designed for PCIe-based SSDs, so the answer is NVMe.
+Source: Microsoft Learn - NVMe
+
+40. In backup terminology, what does RPO stand for?
+(a) Recovery Point Objective (b) Recovery Process Operation (c) Restore Point Option (d) Redundancy Protocol Objective
+Answer: (a)
+Solution: The acronym is often misremembered; RPO correctly means Recovery Point Objective (maximum acceptable data loss), so the answer is Recovery Point Objective.
+Source: CERT-In Disaster Recovery Guidelines
+
+41. What is the maximum file size supported by FAT32 file system?
+(a) 4 GB (b) 2 GB (c) 8 GB (d) 16 GB
+Answer: (a)
+Solution: 2 GB is a common misconception from older limits; FAT32 actually supports maximum 4 GB file size, so the answer is 4 GB.
+Source: Microsoft Support - FAT32 limitations
+
+42. Which memory type requires periodic refreshing to maintain stored data?
+(a) SRAM (b) Flash Memory (c) ROM (d) DRAM
+Answer: (d)
+Solution: SRAM uses flip-flops and doesn't need refresh; DRAM stores charge in capacitors that leak, requiring periodic refresh, so the answer is DRAM.
+Source: NCERT Class 11 Computer Science
+
+43. What is the primary difference between differential and incremental backup?
+(a) Incremental requires full backup first (b) Incremental is faster than differential (c) Differential uses more tape (d) Differential backs up since last full; incremental since last backup of any type
+Answer: (d)
+Solution: The key distinction is the reference point: differential uses last full backup, incremental uses last backup of any type, so the answer is Differential backs up since last full; incremental since last backup of any type.
+Source: Microsoft Support - Backup types
+
+44. Which cloud storage model provides raw storage capacity over the network (e.g., Amazon S3)?
+(a) SaaS (b) IaaS (c) PaaS (d) DaaS
+Answer: (b)
+Solution: SaaS provides applications, PaaS provides platform; IaaS provides infrastructure including raw storage, so the answer is IaaS.
+Source: Microsoft Learn - Cloud service models
+
+45. What does the TRIM command do for an SSD?
+(a) Informs controller which blocks are unused (b) Defragments the drive (c) Encrypts free space (d) Compresses data
+Answer: (a)
+Solution: Defragmentation is for HDDs and harms SSDs; TRIM tells the SSD controller which blocks can be erased, maintaining performance, so the answer is Informs controller which blocks are unused.
+Source: Microsoft Support - SSD optimization
+
+46. In a 3-2-1 backup strategy, what does the "1" represent?
+(a) One offsite copy (b) One backup copy (c) One cloud provider (d) One backup per day
+Answer: (a)
+Solution: The numbers are often misordered; 3-2-1 means 3 copies, 2 different media, 1 offsite, so the answer is One offsite copy.
+Source: CERT-In Data Backup Guidelines
+
+47. Which BIOS/UEFI setting controls the order in which devices are checked for bootable media?
+(a) Secure Boot (b) Fast Boot (c) Boot Priority (d) CSM
+Answer: (c)
+Solution: Secure Boot verifies signatures, Fast Boot skips checks; Boot Priority (or Boot Order) specifically sets device check sequence, so the answer is Boot Priority.
+Source: Microsoft Learn - UEFI firmware settings
+
+48. What is the typical block size used by NTFS for volumes larger than 2 TB?
+(a) 4 KB (b) 1 KB (c) 512 bytes (d) 64 KB
+Answer: (a)
+Solution: 512 bytes is sector size; NTFS default cluster (allocation unit) size is 4 KB for most volumes, so the answer is 4 KB.
+Source: Microsoft Support - NTFS cluster size
+
+49. Which memory technology is used for the firmware chip on a motherboard that stores BIOS/UEFI settings?
+(a) NOR Flash (b) NAND Flash (c) DRAM (d) SRAM
+Answer: (a)
+Solution: NAND Flash is for bulk storage (SSDs, USB); NOR Flash allows random access and execute-in-place, ideal for firmware, so the answer is NOR Flash.
+Source: Microsoft Learn - Firmware storage
+
+50. A system has 8 GB RAM and 16 GB page file. What is the maximum virtual address space available to a 64-bit process on Windows?
+(a) 8 GB (b) 16 GB (c) 8 TB (or 128 TB depending on Windows version) (d) 24 GB
+Answer: (c)
+Solution: Physical RAM + page file limits committed memory, not virtual address space; 64-bit Windows provides 8 TB (or 128 TB) user-mode virtual address space per process, so the answer is 8 TB (or 128 TB depending on Windows version).
+Source: Microsoft Learn - Memory limits
