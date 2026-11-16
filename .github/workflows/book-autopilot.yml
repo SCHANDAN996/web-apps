@@ -2,7 +2,7 @@
 # Each run works ~5 hours on the books branch: bookgen writes, an independent model re-solves every
 # practice set and reviews every section, and a chapter is pushed only when bookcheck is OK.
 # Live progress: study_station/books/AUTOPILOT_STATUS.md on the books branch.
-# Needs the repository secret NVIDIA_API_KEY (Settings → Secrets and variables → Actions).
+# Active pool: NVIDIA_API_KEY_3 and NVIDIA_API_KEY_4 only; keys 1 and 2 are temporarily disabled.
 name: Book autopilot
 
 on:
@@ -71,21 +71,22 @@ jobs:
           if [ -f "$RUNNER_TEMP/wip.tar.gz" ]; then
             tar -xzf "$RUNNER_TEMP/wip.tar.gz" --skip-old-files && echo "restored $(tar -tzf "$RUNNER_TEMP/wip.tar.gz" | wc -l) files"
           fi
-      - name: Check the key is set
+      - name: Check active keys are set
         env:
-          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          NVIDIA_API_KEY_3: ${{ secrets.NVIDIA_API_KEY_3 }}
+          NVIDIA_API_KEY_4: ${{ secrets.NVIDIA_API_KEY_4 }}
+        shell: python
         run: |
-          if [ -z "$NVIDIA_API_KEY" ]; then
-            echo "::error::Repository secret NVIDIA_API_KEY is missing (Settings → Secrets and variables → Actions)."
-            exit 1
-          fi
+          import os
+          names = ('NVIDIA_API_KEY_3', 'NVIDIA_API_KEY_4')
+          if not any(os.environ.get(name, '').strip() for name in names):
+              raise SystemExit('Configure NVIDIA_API_KEY_3 or NVIDIA_API_KEY_4; keys 1 and 2 are disabled.')
       - name: Write books (${{ matrix.lane }})
         working-directory: study_station/v2
         timeout-minutes: 325           # step limit (not the job's) so the unfinished work is still packed
         env:
-          # a second key (optional secret NVIDIA_API_KEY_2) is shared out over the workers; 3 workers per lane keep
-          # the free NVIDIA API under its rate limit (8 got mostly rate_limited/network/empty answers)
-          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }},${{ secrets.NVIDIA_API_KEY_2 }}
+          # Only keys 3 and 4 are active. Keep worker count and rate handling unchanged.
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY_3 }},${{ secrets.NVIDIA_API_KEY_4 }}
           BOOKGEN_REJECT_DIR: ${{ runner.temp }}/rejects
           PYTHONUNBUFFERED: '1'
         run: |
