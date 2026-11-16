@@ -1,12 +1,16 @@
-# 📚 Book Autopilot — लाइव स्थिति (two-chapters)
+# 📚 Book Autopilot — लाइव स्थिति (three-chapters)
 
-**आख़िरी update:** 16-11-2026 08:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 02:49 PM
+**आख़िरी update:** 16-11-2026 08:14 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 08:13 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
+| worker | अध्याय | काम | कब से |
+|---|---|---|---|
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
+| W2 | Chapter 02 shabd bhed (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
+| W3 | Chapter 02 input output ports (12th Computer) | ✍️ लिख रहा है | 0 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -15,7 +19,7 @@
 | किताब | ✅ पूरे | 🔧 सुधार बाकी | 📝 लिखना बाकी |
 |---|---|---|---|
 | 10th Hindi | 0 | 0 | 17 |
-| 12th Computer | 2 | 0 | 12 |
+| 12th Computer | 1 | 0 | 13 |
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 22 | 0 | 0 |
@@ -28,60 +32,18 @@
 | Graduation GK | 28 | 0 | 0 |
 | Graduation Reasoning | 30 | 0 | 0 |
 | Graduation English | 30 | 0 | 0 |
-| **कुल** | **298** | **0** | **29** |
+| **कुल** | **297** | **0** | **30** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- 16-11 15:44 — 12th Computer · Chapter 01 organization cpu
-
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 01 varn vartani (Hindi) — 4 बार
-- Chapter 02 shabd bhed (Hindi) — 4 बार
-- Chapter 02 input output ports (Computer) — 1 बार
-- Chapter 03 sangya sarvanam (Hindi) — 1 बार
+- अभी कोई नहीं
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-16-11 19:01:27   [input_output_ports] REJECTED review fix Key_Facts_en.txt: reviewer still reports - Cat7/8 speed claim (25/40 Gbps) is inaccurate for Cat7 → Cat7 supports 10 Gbps (Cat7a u
-16-11 19:01:33   [sangya_sarvanam] Practice_hi_Set_02.txt try 1: rejected (Q38: tested Hindi text changed between languages; Q45: tested Hindi text changed between languages; Q50: teste
-16-11 19:02:15   [input_output_ports] review Key_Facts_hi.txt: 2 issue(s): - "वर्तमान मानक" without a year in the USB Type‑C description (point 16) → add a year or remove the phrase, e.g.,
-16-11 19:02:29   [sangya_sarvanam] Practice_hi_Set_02.txt try 2: rejected (Q38: tested Hindi text changed between languages; Q45: tested Hindi text changed between languages; Q50: teste
-16-11 19:03:17   [sangya_sarvanam] Practice_hi_Set_02.txt try 3: rejected (Q38: tested Hindi text changed between languages; Q45: tested Hindi text changed between languages; Q50: teste
-16-11 19:04:01   [sangya_sarvanam] Practice_hi_Set_02.txt try 4: rejected (Q38: tested Hindi text changed between languages; Q45: tested Hindi text changed between languages; Q50: teste
-16-11 19:04:01   [sangya_sarvanam] REJECTED Practice_hi_Set_02.txt: no translation passed the checks — not written
-16-11 19:05:35   [input_output_ports] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 1 lists OCR and MICR as input devices; they are recognition technologies, not dev
-16-11 19:06:26   [input_output_ports] review Feynman_en.txt: 1 issue(s): - The worked example claims DisplayPort Alt Mode 1.2 limits 4K to 30 Hz → DisplayPort 1.2 supports 4K@60 Hz; the 30
-16-11 19:07:59   [input_output_ports] review Feynman_hi.txt: 1 issue(s): - USB पोर्ट के रंग कोड को आधिकारिक मानक बताना गलत है → USB पोर्ट के रंग का कोई आधिकारिक मानक नहीं है; यह केवल निर्म
-16-11 19:09:15   [sangya_sarvanam] Practice_en_Set_03.txt try 1: re-solve disagrees (Q65 key b vs re-solve d)
-16-11 19:11:50   [input_output_ports] review PYQ_hi.txt: 1 issue(s): - Section 3 के PYQ-style उदाहरण में दो विकल्प सही हैं: (b) SATA III — 6 Gbps और (c) PCIe 3.0 x1 ≈ 8 Gbps, लेकिन उत्तर क
-16-11 19:13:05   [sangya_sarvanam] Practice_en_Set_03.txt try 2: re-solve disagrees (Q65 key b vs re-solve d)
-16-11 19:15:36   [input_output_ports] review Important_Rules_en.txt: 1 issue(s): - Rule 6: "Amber/Orange steady: 10 Mbps link" is incorrect; typically Amber/Orange indicates 100 Mbps, whil
-16-11 19:16:55   [sangya_sarvanam] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-16-11 19:17:39   [input_output_ports] review: 6 section(s) corrected, 2 failed
-16-11 19:17:39   [input_output_ports] written 6, failed 2; AI calls today 446/100000
-16-11 19:17:39 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_02_input_output_ports after 82 min: todo [] problems []
-16-11 19:17:39 worker 0: nothing left
-16-11 19:18:04   [sangya_sarvanam] Practice_hi_Set_03.txt try 1: rejected (Q58: tested Hindi text changed between languages; Q65: Hindi subject options changed between languages; Q66: t
-16-11 19:18:58   [sangya_sarvanam] Practice_hi_Set_03.txt try 2: rejected (Q58: tested Hindi text changed between languages; Q65: Hindi subject options changed between languages; Q66: t
-16-11 19:20:06   [sangya_sarvanam] Practice_hi_Set_03.txt try 3: rejected (Q58: tested Hindi text changed between languages; Q65: Hindi subject options changed between languages; Q66: t
-16-11 19:21:15   [sangya_sarvanam] Practice_hi_Set_03.txt try 4: rejected (Q58: tested Hindi text changed between languages; Q65: Hindi subject options changed between languages; Q66: t
-16-11 19:21:15   [sangya_sarvanam] REJECTED Practice_hi_Set_03.txt: no translation passed the checks — not written
-16-11 19:24:43   [sangya_sarvanam] Practice_en_Set_04.txt try 1: re-solve disagrees (Q82 key a vs re-solve ?, Q86 key d vs re-solve ?, Q91 key c vs re-solve ?, Q92 key d vs re-solve ?, 
-16-11 19:28:23   [sangya_sarvanam] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-16-11 19:29:14   [sangya_sarvanam] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-16-11 19:33:51   [sangya_sarvanam] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-16-11 19:35:33   [sangya_sarvanam] Practice_hi_Set_05.txt try 1: rejected (Q118: tested Hindi text changed between languages; Q119: tested Hindi text changed between languages; Q120: te
-16-11 19:53:18   [sangya_sarvanam] FAILED Practice_hi_Set_05.txt: too_long
-16-11 19:56:56   [sangya_sarvanam] Practice_en_Set_06.txt try 1: re-solve disagrees (Q136 key c vs re-solve a)
-16-11 20:01:13   [sangya_sarvanam] Practice_en_Set_06.txt try 2: re-solve disagrees (Q127 key b vs re-solve a)
-16-11 20:04:52   [sangya_sarvanam] Practice_en_Set_06.txt try 3: re-solve disagrees (Q127 key c vs re-solve b)
-16-11 20:08:42   [sangya_sarvanam] Practice_en_Set_06.txt try 4: re-solve disagrees (Q127 key c vs re-solve b)
-16-11 20:08:42   [sangya_sarvanam] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
-16-11 20:08:42   [sangya_sarvanam] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-16-11 20:08:42   [sangya_sarvanam] written 18, failed 7; AI calls today 468/100000
-16-11 20:08:42 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 108 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo'] problems ['Content_en.txt: English file contains a lot of Hindi', 'Key_Facts_en.txt: English file contains a lot of Hindi', 'Set 03 Practice_en_Set_03.txt: English file contains a lot o', 'Set 05 Practice_en_Set_05.txt: English file contains a lot o']
-16-11 20:08:42 worker 1: nothing left
-16-11 20:12:54 autopilot end: done 1, failed 4
+16-11 20:13:44 autopilot start: 3 workers, reverse=False
+16-11 20:13:44 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (TODO: todo 25, problems 0)
+16-11 20:13:50 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_02_shabd_bhed (TODO: todo 25, problems 0)
+16-11 20:13:54 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_02_input_output_ports (TODO: todo 25, problems 0)
+16-11 20:14:41   [shabd_bhed] wrote Content_en.txt (6806 chars)
 ```
