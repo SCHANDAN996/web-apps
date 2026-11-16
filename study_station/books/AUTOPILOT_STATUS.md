@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (three-chapters)
 
-**आख़िरी update:** 17-11-2026 01:23 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 01:22 AM
+**आख़िरी update:** 17-11-2026 01:38 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 01:22 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
-| W2 | Chapter 02 shabd bhed (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
-| W3 | Chapter 02 input output ports (12th Computer) | 🔎 review हो रहा है | 0 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 15 मिनट |
+| W2 | Chapter 02 shabd bhed (10th Hindi) | ✍️ लिख रहा है | 15 मिनट |
+| W3 | Chapter 02 input output ports (12th Computer) | 🔎 review हो रहा है | 15 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -45,4 +45,35 @@
 17-11 01:22:56 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (TODO: todo 7, problems 0)
 17-11 01:23:01 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_02_shabd_bhed (TODO: todo 4, problems 9)
 17-11 01:23:06 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_02_input_output_ports (OK: todo 0, problems 0)
+17-11 01:23:55   [shabd_bhed] Practice_hi_Set_02.txt try 1: rejected (Q26: Hindi subject options changed between languages; Q27: Hindi subject options changed between languages; Q2
+17-11 01:24:07   [varn_vartani] Practice_hi_Set_01.txt try 1: rejected (Q3: tested Hindi text must be explicitly quoted; Q21: Hindi subject options changed between languages; Q22: Hi
+17-11 01:24:36   [shabd_bhed] Practice_hi_Set_02.txt try 2: rejected (Q26: Hindi subject options changed between languages; Q27: Hindi subject options changed between languages; Q2
+17-11 01:25:14   [shabd_bhed] Practice_hi_Set_02.txt try 3: rejected (Q26: Hindi subject options changed between languages; Q27: Hindi subject options changed between languages; Q2
+17-11 01:26:03   [shabd_bhed] Practice_hi_Set_02.txt try 4: rejected (Q26: Hindi subject options changed between languages; Q27: Hindi subject options changed between languages; Q2
+17-11 01:26:03   [shabd_bhed] REJECTED Practice_hi_Set_02.txt: no translation passed the checks — not written
+17-11 01:26:28   [input_output_ports] review Content_en.txt: 2 issue(s): - "Windows Hello requires IR camera or fingerprint sensor + TPM 2.0" (Input Devices table, Biometric row) → Windows
+17-11 01:26:43   [shabd_bhed] Practice_hi_Set_03.txt try 1: rejected (Q63: tested Hindi text changed between languages; Q64: tested Hindi text changed between languages; Q66: teste
+17-11 01:27:09   [varn_vartani] Practice_hi_Set_01.txt try 2: rejected (Q3: tested Hindi text must be explicitly quoted; Q21: Hindi subject options changed between languages; Q22: Hi
+17-11 01:27:29   [shabd_bhed] Practice_hi_Set_03.txt try 2: rejected (parsed 24 questions, numbers 51…75)
+17-11 01:28:05   [shabd_bhed] Practice_hi_Set_03.txt try 3: rejected (parsed 24 questions, numbers 51…75)
+17-11 01:28:40   [varn_vartani] Practice_hi_Set_01.txt try 3: rejected (Q1: Hindi subject options changed between languages; Q2: Hindi subject options changed between languages; Q3: 
+17-11 01:28:43   [shabd_bhed] Practice_hi_Set_03.txt try 4: rejected (Q63: tested Hindi text changed between languages; Q64: tested Hindi text changed between languages; Q66: teste
+17-11 01:28:43   [shabd_bhed] REJECTED Practice_hi_Set_03.txt: no translation passed the checks — not written
+17-11 01:29:25   [shabd_bhed] Practice_hi_Set_04.txt try 1: rejected (Q77: tested Hindi text must be explicitly quoted; Q82: tested Hindi text must be explicitly quoted; Q84: teste
+17-11 01:30:37   [shabd_bhed] Practice_hi_Set_04.txt try 2: rejected (Q77: tested Hindi text must be explicitly quoted; Q82: tested Hindi text must be explicitly quoted; Q84: teste
+17-11 01:30:51   [varn_vartani] Practice_hi_Set_01.txt try 4: rejected (Q3: tested Hindi text must be explicitly quoted; Q21: Hindi subject options changed between languages; Q22: Hi
+17-11 01:30:51   [varn_vartani] REJECTED Practice_hi_Set_01.txt: no translation passed the checks — not written
+17-11 01:31:42   [shabd_bhed] Practice_hi_Set_04.txt try 3: rejected (Q77: tested Hindi text must be explicitly quoted; Q82: tested Hindi text must be explicitly quoted; Q84: teste
+17-11 01:32:42   [varn_vartani] Practice_hi_Set_02.txt try 1: rejected (Q31: tested Hindi text must be explicitly quoted; Q32: tested Hindi text must be explicitly quoted; Q33: teste
+17-11 01:33:07   [shabd_bhed] Practice_hi_Set_04.txt try 4: rejected (Q77: tested Hindi text must be explicitly quoted; Q82: tested Hindi text must be explicitly quoted; Q84: teste
+17-11 01:33:07   [shabd_bhed] REJECTED Practice_hi_Set_04.txt: no translation passed the checks — not written
+17-11 01:33:36   [varn_vartani] Practice_hi_Set_02.txt try 2: rejected (Q31: tested Hindi text must be explicitly quoted; Q32: tested Hindi text must be explicitly quoted; Q33: teste
+17-11 01:34:58   [shabd_bhed] Practice_hi_Set_06.txt try 1: rejected (Q129: tested Hindi text changed between languages; Q130: tested Hindi text changed between languages; Q132: te
+17-11 01:35:07   [input_output_ports] review Key_Facts_hi.txt: 1 issue(s): - 'डॉट्स पर इंच' (Hindi translation of DPI in point 6) → 'डॉट्स प्रति इंच'
+17-11 01:35:41   [varn_vartani] Practice_hi_Set_02.txt try 3: rejected (Q31: tested Hindi text must be explicitly quoted; Q32: tested Hindi text must be explicitly quoted; Q33: teste
+17-11 01:36:34   [shabd_bhed] Practice_hi_Set_06.txt try 2: rejected (Q126: tested Hindi text changed between languages; Q129: tested Hindi text changed between languages; Q130: te
+17-11 01:37:46   [varn_vartani] Practice_hi_Set_02.txt try 4: rejected (Q31: tested Hindi text must be explicitly quoted; Q32: tested Hindi text must be explicitly quoted; Q33: teste
+17-11 01:37:46   [varn_vartani] REJECTED Practice_hi_Set_02.txt: no translation passed the checks — not written
+17-11 01:38:30   [shabd_bhed] Practice_hi_Set_06.txt try 3: rejected (parsed 0 questions, numbers -…-)
+17-11 01:39:07   [varn_vartani] Practice_hi_Set_03.txt try 1: rejected (Q52: tested Hindi text must be explicitly quoted)
 ```
