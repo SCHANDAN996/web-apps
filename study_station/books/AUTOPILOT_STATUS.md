@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (three-chapters)
 
-**आख़िरी update:** 17-11-2026 03:09 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 01:22 AM
+**आख़िरी update:** 17-11-2026 03:10 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 01:22 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 62 मिनट |
-| W2 | Chapter 03 memory storage backup (12th Computer) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 65 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 63 मिनट |
+| W2 | Chapter 04 visheshan kriya (10th Hindi) | ✍️ लिख रहा है | 1 मिनट |
+| W3 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 67 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -43,16 +43,10 @@
 
 - Chapter 02 shabd bhed (Hindi) — 4 बार
 - Chapter 01 varn vartani (Hindi) — 1 बार
-- Chapter 03 memory storage backup (Computer) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 02:47:05   [memory_storage_backup] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-17-11 02:47:05   [memory_storage_backup] written 21, failed 4; AI calls today 179/100000
-17-11 02:47:05 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_03_memory_storage_backup after 36 min: todo ['Set 03 en: todo', 'Set 03 hi: todo', 'Set 06 en: todo', 'Set 06 hi: todo'] problems []
-17-11 02:47:05 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_03_memory_storage_backup (TODO: todo 4, problems 0)
-17-11 02:48:24   [memory_storage_backup] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 17-11 02:49:02   [sangya_sarvanam] Practice_hi_Set_04.txt try 1: rejected (Q76: Hindi subject options changed between languages; Q77: Hindi subject options changed between languages; Q7
 17-11 02:49:25   [memory_storage_backup] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 17-11 02:50:24   [varn_vartani] Practice_en_Set_05.txt try 2: re-solve disagrees (Q118 key d vs re-solve b)
@@ -88,4 +82,9 @@
 17-11 03:09:16   [memory_storage_backup] review: 1 section(s) corrected, 0 failed
 17-11 03:09:16   [memory_storage_backup] written 1, failed 0; AI calls today 232/100000
 17-11 03:09:22   [sangya_sarvanam] Practice_hi_Set_06.txt try 3: rejected (parsed 24 questions, numbers 126…150)
+17-11 03:09:37 DONE 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_03_memory_storage_backup in 2 min → 735d7ede
+17-11 03:09:37 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya (TODO: todo 25, problems 0)
+17-11 03:10:09   [varn_vartani] Practice_hi_Set_06.txt try 1: rejected (Q128: tested Hindi text changed between languages; Q129: tested Hindi text changed between languages; Q135: te
+17-11 03:10:12   [visheshan_kriya] wrote Content_en.txt (7717 chars)
+17-11 03:11:06   [visheshan_kriya] wrote Content_hi.txt (9657 chars)
 ```
