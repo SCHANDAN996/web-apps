@@ -19,7 +19,8 @@ permissions:
 
 jobs:
   write-books:
-    # One run owns the queue; exactly two chapters run through all stages.
+    # One run owns the queue; up to three chapters run through all stages.
+    # Keep the existing concurrency group so old and new runs never overlap.
     concurrency:
       group: book-autopilot-two-chapters
       cancel-in-progress: false
@@ -61,11 +62,11 @@ jobs:
           names = ('NVIDIA_API_KEY_3', 'NVIDIA_API_KEY_4')
           if not any(os.environ.get(name, '').strip() for name in names):
               raise SystemExit('Configure NVIDIA_API_KEY_3 or NVIDIA_API_KEY_4; keys 1 and 2 are disabled.')
-      - name: Write books (two-chapters)
+      - name: Write books (three-chapters)
         working-directory: study_station/v2
         timeout-minutes: 325           # step limit (not the job's) so the unfinished work is still packed
         env:
-          # Only keys 3 and 4; all roles Ultra, two chapter workers, per-key throttling.
+          # Only keys 3 and 4; all roles Ultra, three chapter workers, per-key throttling.
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY_3 }},${{ secrets.NVIDIA_API_KEY_4 }}
           BOOKGEN_REJECT_DIR: ${{ runner.temp }}/rejects
           NVIDIA_MODEL: nvidia/nemotron-3-ultra-550b-a55b
@@ -78,8 +79,8 @@ jobs:
           git config user.name "study-station-book-autopilot"
           git config user.email "211449723+SCHANDAN996@users.noreply.github.com"
           mkdir -p ../books/autopilot
-          python tools/book_autopilot.py --workers 2 --max-fails 4 \
-            --name "two-chapters" --status-file "AUTOPILOT_STATUS.md" \
+          python tools/book_autopilot.py --workers 3 --max-fails 4 \
+            --name "three-chapters" --status-file "AUTOPILOT_STATUS.md" \
             --branch "$BOOKS_BRANCH" --state-dir "$RUNNER_TEMP/autopilot" --stop-new-after 240
       - name: Pack unfinished work
         if: always()
@@ -96,7 +97,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: autopilot-two-chapters-${{ github.run_id }}
+          name: autopilot-three-chapters-${{ github.run_id }}
           path: |
             ${{ runner.temp }}/autopilot/log.txt
             ${{ runner.temp }}/rejects
