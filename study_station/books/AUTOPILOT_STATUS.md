@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (two-chapters)
 
-**आख़िरी update:** 16-11-2026 06:40 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 02:49 PM
+**आख़िरी update:** 16-11-2026 06:55 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 02:49 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 input output ports (12th Computer) | ✍️ लिख रहा है | 44 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 19 मिनट |
+| W1 | Chapter 02 input output ports (12th Computer) | 🔎 review हो रहा है | 3 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 34 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -18,7 +18,7 @@
 | किताब | ✅ पूरे | 🔧 सुधार बाकी | 📝 लिखना बाकी |
 |---|---|---|---|
 | 10th Hindi | 0 | 0 | 17 |
-| 12th Computer | 1 | 0 | 13 |
+| 12th Computer | 2 | 0 | 12 |
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 22 | 0 | 0 |
@@ -31,7 +31,7 @@
 | Graduation GK | 28 | 0 | 0 |
 | Graduation Reasoning | 30 | 0 | 0 |
 | Graduation English | 30 | 0 | 0 |
-| **कुल** | **297** | **0** | **30** |
+| **कुल** | **298** | **0** | **29** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -45,18 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-16-11 18:12:00   [shabd_bhed] REJECTED Practice_hi_Set_02.txt: no translation passed the checks — not written
-16-11 18:12:23   [input_output_ports] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-16-11 18:13:07   [shabd_bhed] Practice_hi_Set_04.txt try 1: rejected (Q76: tested Hindi text changed between languages; Q80: tested Hindi text changed between languages; Q82: teste
-16-11 18:13:39   [input_output_ports] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-16-11 18:14:32   [shabd_bhed] Practice_hi_Set_04.txt try 2: rejected (Q76: tested Hindi text changed between languages; Q80: tested Hindi text changed between languages; Q82: teste
-16-11 18:15:39   [shabd_bhed] Practice_hi_Set_04.txt try 3: rejected (Q76: tested Hindi text changed between languages; Q80: tested Hindi text changed between languages; Q82: teste
-16-11 18:16:35   [shabd_bhed] Practice_hi_Set_04.txt try 4: rejected (Q76: tested Hindi text changed between languages; Q80: tested Hindi text changed between languages; Q82: teste
-16-11 18:16:35   [shabd_bhed] REJECTED Practice_hi_Set_04.txt: no translation passed the checks — not written
-16-11 18:16:35   [input_output_ports] Practice_en_Set_02.txt try 1: re-solve disagrees (Q48 key d vs re-solve a)
-16-11 18:17:21   [shabd_bhed] Practice_hi_Set_06.txt try 1: rejected (parsed 24 questions, numbers 126…150)
-16-11 18:18:23   [shabd_bhed] Practice_hi_Set_06.txt try 2: rejected (Q129: tested Hindi text changed between languages; Q132: tested Hindi text changed between languages; Q136: te
-16-11 18:19:14   [shabd_bhed] Practice_hi_Set_06.txt try 3: rejected (parsed 24 questions, numbers 126…150)
 16-11 18:20:52   [shabd_bhed] Practice_hi_Set_06.txt try 4: rejected (Q129: tested Hindi text changed between languages; Q132: tested Hindi text changed between languages; Q136: te
 16-11 18:20:52   [shabd_bhed] REJECTED Practice_hi_Set_06.txt: no translation passed the checks — not written
 16-11 18:20:52   [shabd_bhed] written 0, failed 4; AI calls today 354/100000
@@ -85,4 +73,16 @@
 16-11 18:36:29   [sangya_sarvanam] Practice_en_Set_01.txt try 2: re-solve disagrees (Q18 key d vs re-solve b)
 16-11 18:37:34   [input_output_ports] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 16-11 18:38:31   [sangya_sarvanam] Practice_en_Set_01.txt try 3: re-solve disagrees (Q18 key a vs re-solve d)
+16-11 18:40:50   [input_output_ports] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+16-11 18:41:59   [sangya_sarvanam] Practice_en_Set_01.txt try 4: re-solve disagrees (Q18 key a vs re-solve d)
+16-11 18:41:59   [sangya_sarvanam] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
+16-11 18:41:59   [sangya_sarvanam] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+16-11 18:43:11   [input_output_ports] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+16-11 18:44:48   [input_output_ports] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+16-11 18:46:49   [input_output_ports] Practice_en_Set_06.txt try 1: re-solve disagrees (Q150 key c vs re-solve a)
+16-11 18:50:59   [input_output_ports] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+16-11 18:52:19   [input_output_ports] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+16-11 18:52:19   [input_output_ports] written 25, failed 0; AI calls today 399/100000
+16-11 18:52:29   [sangya_sarvanam] Practice_en_Set_02.txt try 1: re-solve disagrees (Q26 key b vs re-solve ?, Q33 key b vs re-solve ?, Q40 key a vs re-solve ?, Q48 key d vs re-solve b)
+16-11 18:53:25   [input_output_ports] review Content_en.txt: 1 issue(s): - Example 6 claims HDMI 2.1 can carry 8K 60 Hz 4:4:4 10-bit without compression (DSC), but HDMI 2.1's 48 Gbps bandw
 ```
