@@ -1,0 +1,78 @@
+**PYQ Pattern Analysis — Input Output and Ports**
+
+**1. Recurring Sub-topics**  
+Examiners repeatedly test:  
+- Classification of devices (input vs. output vs. input/output)  
+- Port types and their typical uses (USB versions, HDMI, VGA, DisplayPort, Ethernet, audio jacks, PS/2, serial/parallel legacy ports)  
+- Connector shapes and pin counts (e.g., USB-A vs. USB-C, DB-9 vs. DB-25, RJ-45 vs. RJ-11)  
+- Data transfer direction (simplex, half-duplex, full-duplex)  
+- Wireless interfaces (Bluetooth, Wi-Fi, Infrared, NFC) as logical ports  
+- Device driver concept — what happens when a new device is plugged in  
+- Shortcut keys for common I/O actions (Print Screen, Win+P, Ctrl+P, eject media)
+
+**2. Common Question Patterns**  
+- **Match the following**: Port name ↔ Connector shape / Maximum speed / Typical device  
+- **Odd one out**: Three input devices and one output device (or vice versa)  
+- **Statement-based**: “Which of the following is NOT an input device?” / “Identify the correct statement about USB 3.0”  
+- **Assertion–Reason**: Assertion about port speed; Reason about backward compatibility  
+- **Sequencing**: Arrange ports in increasing order of data transfer rate (e.g., USB 1.1 → USB 2.0 → USB 3.0 → USB 3.1 Gen 2)  
+- **Scenario**: “A user connects a monitor but gets no display. Which port/cable combination is most likely at fault?”
+
+**3. Examiner Traps**  
+- **Nearly-correct speed claims**: “USB 3.0 offers 10 Gbps” (actually 5 Gbps; 10 Gbps is USB 3.1 Gen 2 / USB 3.2 Gen 2)  
+- **Connector vs. protocol confusion**: USB-C is a connector shape; it can carry USB 2.0, 3.x, Thunderbolt, DisplayPort Alt Mode — questions often treat them as synonymous  
+- **Legacy port names**: “COM port” = serial (DB-9/DB-25); “LPT port” = parallel (DB-25) — swapped in options  
+- **Direction confusion**: Keyboard = input only; Modem = input/output; Touchscreen = input/output  
+- **Wireless as “port”**: Bluetooth/Wi-Fi are logical interfaces, not physical ports — options may list them under “physical ports”  
+- **Negative phrasing**: “Which of the following is NOT a video output port?” (includes HDMI, VGA, DisplayPort, USB-A)  
+- **Version-specific claims without context**: “Supports 4K @ 60 Hz” — true for HDMI 2.0 / DisplayPort 1.2+, false for HDMI 1.4 — version must be stated
+
+**4. PYQ-style Examples**  
+
+*Example 1*  
+Which of the following connectors is used for an Ethernet (wired LAN) connection?  
+(a) RJ-11  (b) RJ-45  (c) DB-9  (d) USB-A  
+Answer: (b)  
+Solution: RJ-45 is the 8-pin connector for twisted-pair Ethernet; RJ-11 is 4/6-pin for telephone.  
+Source: PYQ-style  
+
+*Example 2*  
+Identify the incorrect statement about USB standards.  
+(a) USB 2.0 maximum speed is 480 Mbps  
+(b) USB 3.0 is backward compatible with USB 2.0 ports  
+(c) USB-C connector guarantees USB 3.1 Gen 2 (10 Gbps) speed  
+(d) USB 3.1 Gen 1 is the same specification as USB 3.0  
+Answer: (c)  
+Solution: USB-C is only a connector form factor; it can implement USB 2.0, 3.x, or Thunderbolt. Speed depends on the underlying protocol, not the connector alone.  
+Source: PYQ-style  
+
+*Example 3*  
+A user presses Win + P on a Windows laptop. What is the most likely outcome?  
+(a) Opens Print dialog  
+(b) Switches display projection mode (PC screen only, Duplicate, Extend, Second screen only)  
+(c) Opens Power Options  
+(d) Takes a screenshot  
+Answer: (b)  
+Solution: Win+P is the Windows shortcut for display projection; Ctrl+P prints, Win+PrintScreen captures screenshot.  
+Source: PYQ-style  
+
+*Example 4*  
+Arrange the following video interfaces in increasing order of maximum supported bandwidth (typical consumer versions):  
+VGA, HDMI 1.4, DisplayPort 1.2, DVI-D Single Link  
+Answer: VGA (analog, no fixed digital bandwidth) < DVI-D Single Link (3.96 Gbps) < HDMI 1.4 (10.2 Gbps) < DisplayPort 1.2 (17.28 Gbps)  
+Source: PYQ-style  
+
+*Example 5*  
+Which device functions as both input and output?  
+(a) Scanner  (b) Plotter  (c) Modem  (d) Microphone  
+Answer: (c)  
+Solution: Modem modulates (output) and demodulates (input) signals; scanner and microphone are input-only, plotter is output-only.  
+Source: PYQ-style  
+
+**5. Preparation Tips**  
+- Memorise port shapes with pin counts (DB-9, DB-25, RJ-45, RJ-11, USB-A/B/Micro/C, HDMI, DisplayPort, VGA)  
+- Know one key speed per major USB/HDMI/DP version (e.g., USB 2.0 = 480 Mbps, USB 3.0 = 5 Gbps, HDMI 2.0 = 18 Gbps)  
+- Distinguish physical connector from protocol (USB-C ≠ USB 3.x)  
+- Practice negative questions (“NOT an input device”, “NOT a video port”)  
+- Learn Win+P, Ctrl+P, Print Screen, Win+PrintScreen, Ctrl+Shift+Esc (Task Manager) — frequently asked shortcuts  
+- Treat wireless interfaces as logical ports, not physical ones

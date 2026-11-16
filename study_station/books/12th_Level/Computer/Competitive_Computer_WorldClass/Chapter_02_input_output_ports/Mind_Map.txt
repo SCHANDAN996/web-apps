@@ -1,0 +1,38 @@
+```mermaid
+graph TD
+    A["इनपुट आउटपुट और पोर्ट<br>Input Output and Ports"]
+    B["इनपुट उपकरण<br>Input Devices"]
+    C["आउटपुट उपकरण<br>Output Devices"]
+    D["पोर्ट्स<br>Ports"]
+    E["कीबोर्ड<br>Keyboard"]
+    F["माउस<br>Mouse"]
+    G["स्कैनर<br>Scanner"]
+    H["माइक्रोफोन<br>Microphone"]
+    I["वेबकैम<br>Webcam"]
+    J["मॉनिटर<br>Monitor"]
+    K["प्रिंटर<br>Printer"]
+    L["स्पीकर<br>Speaker"]
+    M["प्रोजेक्टर<br>Projector"]
+    N["USB पोर्ट<br>USB Port"]
+    O["HDMI पोर्ट<br>HDMI Port"]
+    P["VGA पोर्ट<br>VGA Port"]
+    Q["ईथरनेट पोर्ट<br>Ethernet Port"]
+    R["ऑडियो जैक<br>Audio Jack"]
+    A --> B
+    A --> C
+    A --> D
+    B --> E
+    B --> F
+    B --> G
+    B --> H
+    B --> I
+    C --> J
+    C --> K
+    C --> L
+    C --> M
+    D --> N
+    D --> O
+    D --> P
+    D --> Q
+    D --> R
+```

@@ -1,0 +1,25 @@
+1. Input Device — Any hardware that sends data to the computer (keyboard, mouse, scanner, microphone).  
+2. Output Device — Any hardware that receives data from the computer (monitor, printer, speaker, projector).  
+3. Keyboard — Primary text-input device; uses scan codes sent to the keyboard controller.  
+4. Mouse — Pointing device; optical/laser sensors track movement and send relative coordinates.  
+5. Scanner — Converts physical documents/images into digital form using CCD or CIS sensors.  
+6. Microphone — Captures analog sound waves; sound card converts them to digital via ADC.  
+7. Monitor — Visual output; LCD/LED panels use pixels (RGB sub-pixels) driven by GPU.  
+8. Printer — Produces hard copy; common types: inkjet (nozzles), laser (toner + drum), thermal.  
+9. Speaker — Converts digital audio (DAC output) back to analog sound waves.  
+10. Port — Physical interface on the system unit for connecting peripherals.  
+11. USB (Universal Serial Bus) — Industry standard for data + power; versions: USB 2.0 (480 Mbps), USB 3.0/3.1 Gen 1 (5 Gbps), USB 3.1 Gen 2 (10 Gbps), USB 3.2 (20 Gbps), USB4 (40 Gbps).  
+12. USB Connector Types — Type-A (host), Type-B (device), Micro-B, Mini-B, Type-C (reversible, supports USB4/Thunderbolt 3/4).  
+13. HDMI (High-Definition Multimedia Interface) — Carries uncompressed video + audio; versions up to HDMI 2.1 (48 Gbps, 8K@60 Hz).  
+14. DisplayPort — Digital display interface; DP 1.4 supports 8K@60 Hz / 4K@144 Hz; DP 2.0 up to 80 Gbps.  
+15. VGA (Video Graphics Array) — Analog video only; 15-pin D-sub; legacy, max ~2048×1536 @85 Hz.  
+16. DVI (Digital Visual Interface) — DVI-D (digital only), DVI-A (analog only), DVI-I (both); single/dual link.  
+17. Audio Ports — 3.5 mm TRS (stereo out), TRRS (headset with mic), RCA (coaxial), S/PDIF (optical/coaxial digital).  
+18. Ethernet (RJ-45) — Wired LAN; Cat5e (1 Gbps), Cat6/6a (10 Gbps up to 55/100 m).  
+19. Thunderbolt 3/4 — Uses USB-C connector; 40 Gbps; carries PCIe, DisplayPort, USB, power (up to 100 W).  
+20. PS/2 — Legacy 6-pin mini-DIN for keyboard (purple) and mouse (green); not hot-pluggable.  
+21. Serial Port (DB-9/DB-25, RS-232) — Legacy asynchronous communication; used in industrial/embedded gear.  
+22. Parallel Port (DB-25, IEEE 1284) — Legacy printer interface; 8-bit parallel data; obsolete.  
+23. Hot-Plug / Hot-Swap — Device can be connected/disconnected without powering off the system (USB, HDMI, Thunderbolt).  
+24. Driver — OS software that translates generic commands into device-specific operations; required for most non-HID devices.  
+25. Common Mistake — Confusing port version with connector shape (e.g., USB-C ≠ USB 3.1; a USB-C port may run at USB 2.0 speeds).

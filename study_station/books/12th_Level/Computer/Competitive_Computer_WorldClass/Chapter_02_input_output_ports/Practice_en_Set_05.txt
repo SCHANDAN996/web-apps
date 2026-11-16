@@ -1,0 +1,149 @@
+101. Which of the following is an example of an input device?
+(a) Keyboard (b) Printer (c) Monitor (d) Speaker
+Answer: (a)
+Solution: Monitor, printer, and speaker are output devices that present information to the user; the keyboard sends data into the computer, so the answer is Keyboard.
+Source: NCERT Class 9 Computer Science
+
+102. The port commonly used to connect a modern mouse or keyboard to a computer is:
+(a) PS/2 (b) HDMI (c) VGA (d) USB
+Answer: (d)
+Solution: PS/2 is a legacy round connector, while VGA and HDMI are video ports; USB is the standard universal port for mice and keyboards today, so the answer is USB.
+Source: Microsoft Support — USB devices
+
+103. Which port transmits both high-definition video and audio through a single cable?
+(a) DVI (b) VGA (c) HDMI (d) DisplayPort
+Answer: (c)
+Solution: DVI and VGA carry only video; DisplayPort can carry audio but HDMI is the most common single-cable solution for both HD video and audio on consumer devices, so the answer is HDMI.
+Source: Official HDMI Licensing Administrator specification
+
+104. A scanner is classified as which type of device?
+(a) Output (b) Input (c) Storage (d) Processing
+Answer: (b)
+Solution: A scanner digitizes physical documents and sends the data into the computer, making it an input device; output devices receive data from the computer, so the answer is Input.
+Source: NCERT Class 10 Computer Applications
+
+105. The standard port for connecting a wired Ethernet network cable is:
+(a) RJ-45 (b) RJ-11 (c) USB-C (d) Thunderbolt
+Answer: (a)
+Solution: RJ-11 is used for telephone lines; USB-C and Thunderbolt are multipurpose but not the dedicated Ethernet port; RJ-45 is the 8-pin connector for twisted-pair Ethernet, so the answer is RJ-45.
+Source: CERT-In Network Security Guidelines
+
+106. Which of the following is a characteristic of a parallel port (LPT)?
+(a) Transmits data one bit at a time (b) Hot-pluggable by default (c) Used primarily for monitors (d) Transmits multiple bits simultaneously
+Answer: (d)
+Solution: Serial ports send one bit at a time; parallel ports send multiple bits (usually 8) simultaneously over separate wires; they were used for printers, not monitors, and are not hot-pluggable, so the answer is Transmits multiple bits simultaneously.
+Source: Microsoft Learn — Legacy Ports
+
+107. A microphone functions as which type of device?
+(a) Input (b) Output (c) Storage (d) Network
+Answer: (a)
+Solution: A microphone captures sound waves and converts them into digital signals for the computer, which is an input function; speakers perform the opposite output role, so the answer is Input.
+Source: NCERT Class 9 Computer Science
+
+108. The USB version that first introduced a reversible connector shape is:
+(a) USB 2.0 (b) USB 3.0 (c) USB Type-C (d) USB 3.1 Gen 2
+Answer: (c)
+Solution: USB 2.0 and 3.0 use rectangular Type-A or micro-B connectors; USB 3.1 Gen 2 is a speed specification; the reversible physical connector is defined by the USB Type-C form factor, so the answer is USB Type-C.
+Source: USB Implementers Forum Specification
+
+109. Which port is typically used to connect an external monitor to a laptop?
+(a) USB-A (b) Audio jack (c) RJ-45 (d) HDMI
+Answer: (d)
+Solution: USB-A is for data/peripherals, RJ-45 for wired network, audio jack for headphones; HDMI is the standard video-out port on most laptops for external displays, so the answer is HDMI.
+Source: Microsoft Support — Connect a monitor
+
+110. A barcode reader at a supermarket checkout is an example of:
+(a) Input device (b) Output device (c) Storage device (d) Communication device
+Answer: (a)
+Solution: The reader scans the barcode and sends the product code into the POS system; it does not display, store, or communicate independently, so the answer is Input device.
+Source: NCERT Class 10 Computer Applications
+
+111. The maximum theoretical speed of USB 3.0 (SuperSpeed USB) is:
+(a) 480 Mbps (b) 20 Gbps (c) 10 Gbps (d) 5 Gbps
+Answer: (d)
+Solution: 480 Mbps is USB 2.0 High Speed; 10 Gbps is USB 3.1 Gen 2; 20 Gbps is USB 3.2 Gen 2×2; USB 3.0 is defined at 5 Gbps, so the answer is 5 Gbps.
+Source: USB-IF USB 3.0 Specification
+
+112. Which of the following is NOT a video port?
+(a) VGA (b) DVI (c) S/PDIF (d) DisplayPort
+Answer: (c)
+Solution: VGA, DVI, and DisplayPort all carry video signals; S/PDIF (Sony/Philips Digital Interface) carries digital audio only, so the answer is S/PDIF.
+Source: Microsoft Learn — Audio Ports
+
+113. A touchscreen on a smartphone acts as both an input and an output device.
+(a) False (b) True (c) Only input (d) Only output
+Answer: (b)
+Solution: The display shows output, while the touch layer detects finger input; together they perform both functions, so the answer is True.
+Source: NCERT Class 9 Computer Science
+
+114. The port used for connecting older dot-matrix printers is commonly called:
+(a) COM port (b) PS/2 port (c) LPT port (d) Game port
+Answer: (c)
+Solution: COM is serial (mouse/modem), PS/2 is keyboard/mouse, Game port is joystick; LPT (Line Print Terminal) is the parallel printer port, so the answer is LPT port.
+Source: Microsoft Learn — Legacy Ports
+
+115. Which device converts digital signals from a computer into analog signals for a telephone line?
+(a) Modem (b) Router (c) Switch (d) NIC
+Answer: (a)
+Solution: A modulator-demodulator (modem) performs digital-to-analog conversion for telephone lines; routers direct packets, switches connect LAN devices, NIC provides network interface, so the answer is Modem.
+Source: CERT-In Network Security Guidelines
+
+116. The standard color code for a 3.5 mm microphone jack on a PC sound card is:
+(a) Green (b) Pink (c) Blue (d) Black
+Answer: (b)
+Solution: Green is line-out/headphones, blue is line-in, black is rear surround; pink is designated for microphone input, so the answer is Pink.
+Source: Microsoft Support — Audio connectors
+
+117. A webcam is categorized as which type of device?
+(a) Output (b) Processing (c) Storage (d) Input
+Answer: (d)
+Solution: A webcam captures video and sends it into the computer for conferencing or recording; it does not display or store data independently, so the answer is Input.
+Source: NCERT Class 10 Computer Applications
+
+118. Which USB version is backward compatible with USB 2.0 ports?
+(a) USB 3.0 (b) All of the above (c) USB 3.2 (d) USB 3.1
+Answer: (b)
+Solution: Every USB 3.x generation is designed to work in USB 2.0 ports at 2.0 speeds; the physical Type-A connector remains compatible, so the answer is All of the above.
+Source: USB-IF Compatibility Specification
+
+119. The primary function of a graphics tablet (digitizer) is:
+(a) Capture hand-drawn input (b) Print high-quality images (c) Store graphic files (d) Display 3D models
+Answer: (a)
+Solution: A graphics tablet lets artists draw with a stylus, sending coordinates to the computer; it does not print, store, or display, so the answer is Capture hand-drawn input.
+Source: NCERT Class 9 Computer Science
+
+120. Which port on a modern laptop can support power delivery, video output, and data transfer simultaneously?
+(a) USB-A 3.0 (b) HDMI 2.0 (c) USB Type-C with Thunderbolt 3/4 (d) RJ-45
+Answer: (c)
+Solution: USB-A and HDMI cannot deliver power to the laptop; RJ-45 is only network; USB-C with Thunderbolt 3 or 4 supports PD, DisplayPort Alt Mode, and high-speed data together, so the answer is USB Type-C with Thunderbolt 3/4.
+Source: Intel Thunderbolt Technology Brief
+
+121. A KVM switch allows a user to:
+(a) Connect multiple keyboards to one PC (b) Convert VGA to HDMI (c) Switch between USB and PS/2 devices (d) Control multiple PCs with one keyboard, video, mouse set
+Answer: (d)
+Solution: KVM stands for Keyboard, Video, Mouse; the switch lets one console control several computers, not the other options, so the answer is Control multiple PCs with one keyboard, video, mouse set.
+Source: Microsoft Learn — KVM Switches
+
+122. The maximum cable length for USB 2.0 High Speed (480 Mbps) without a hub or repeater is:
+(a) 3 meters (b) 10 meters (c) 5 meters (d) 15 meters
+Answer: (c)
+Solution: USB 2.0 spec limits high-speed cables to 5 m due to signal timing; longer runs require active cables or hubs, so the answer is 5 meters.
+Source: USB 2.0 Specification Section 7.1.19
+
+123. Which statement about DisplayPort and HDMI is correct?
+(a) DisplayPort cannot carry audio (b) DisplayPort 1.4 supports 8K at 60 Hz with DSC (c) HDMI supports daisy-chaining monitors natively (d) HDMI 2.0 has higher bandwidth than DisplayPort 1.4
+Answer: (b)
+Solution: DisplayPort carries audio; HDMI does not natively daisy-chain (requires MST hub); DP 1.4 with DSC does 8K60; DP 1.4 (32.4 Gbps) exceeds HDMI 2.0 (18 Gbps), so the answer is DisplayPort 1.4 supports 8K at 60 Hz with DSC.
+Source: VESA DisplayPort 1.4a Standard
+
+124. In a BIOS/UEFI setting, "Legacy USB Support" enables:
+(a) USB keyboard/mouse during POST and in DOS (b) USB 3.0 speed in OS (c) Charging phones while PC is off (d) Thunderbolt security
+Answer: (a)
+Solution: Legacy USB Support lets the firmware recognize USB input devices before the OS loads; it does not affect OS driver speed, charging, or Thunderbolt, so the answer is USB keyboard/mouse during POST and in DOS.
+Source: Microsoft Learn — BIOS USB Settings
+
+125. A user connects a USB 3.0 flash drive to a USB 2.0 port. The drive will:
+(a) Not work at all (b) Work at USB 2.0 speed (480 Mbps max) (c) Work at USB 3.0 speed (5 Gbps) (d) Damage the port
+Answer: (b)
+Solution: USB is backward compatible; the drive negotiates the highest common speed, which is USB 2.0 High Speed; it will not run at 3.0 speed nor cause damage, so the answer is Work at USB 2.0 speed (480 Mbps max).
+Source: USB-IF Compatibility Specification

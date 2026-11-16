@@ -1,0 +1,151 @@
+Questions 1–20: Easy | Questions 21–25: Medium
+
+76. Which of the following is an example of an input device?
+(a) Monitor (b) Speaker (c) Printer (d) Keyboard
+Answer: (d)
+Solution: A monitor, printer, and speaker all present information to the user, making them output devices; a keyboard is used to enter data into the computer, so the answer is (d).
+Source: NCERT Class 9 Computer Science
+
+77. The USB specification that defines a maximum data transfer rate of 5 Gbps is:
+(a) USB 2.0 (b) USB 3.0 (c) USB 1.1 (d) USB 3.1 Gen 2
+Answer: (b)
+Solution: USB 2.0 tops at 480 Mbps, USB 1.1 at 12 Mbps, and USB 3.1 Gen 2 reaches 10 Gbps; only USB 3.0 specifies the 5 Gbps rate, so the answer is (b).
+Source: USB‑IF – USB 3.0 specification
+
+78. Which port is commonly used for connecting a wired network cable to a computer?
+(a) RJ‑45 (b) VGA (c) USB‑C (d) HDMI
+Answer: (a)
+Solution: HDMI and VGA carry video, USB‑C can carry Ethernet only with an adapter; the dedicated Ethernet connector is the RJ‑45 port, so the answer is (a).
+Source: CERT‑In – Network hardware basics
+
+79. In a typical desktop computer, the audio output jack is usually color‑coded:
+(a) Blue (b) Black (c) Pink (d) Green
+Answer: (d)
+Solution: Blue is line‑in, pink is microphone, black is rear‑speaker surround; the standard front‑panel headphone/line‑out jack is green, so the answer is (d).
+Source: PC System Design Guide (Intel/Microsoft)
+
+80. Which of the following is a characteristic of a parallel port (LPT) compared to a serial port (COM)?
+(a) Transmits data one bit at a time (b) Uses a 25‑pin D‑sub connector (c) Supports hot‑plugging (d) Higher maximum cable length
+Answer: (b)
+Solution: Serial ports send one bit at a time, hot‑plugging is a USB feature, and parallel cables are shorter; the classic parallel port uses a 25‑pin D‑sub connector, so the answer is (b).
+Source: Microsoft Learn – Legacy ports
+
+81. The shortcut key combination to open the Task Manager directly in Windows 10/11 is:
+(a) Win + X (b) Ctrl + Alt + Del (c) Ctrl + Shift + Esc (d) Alt + Tab
+Answer: (c)
+Solution: Ctrl+Alt+Del opens a security screen, Win+X opens the Quick Link menu, Alt+Tab switches apps; the direct Task Manager shortcut is Ctrl+Shift+Esc, so the answer is (c).
+Source: Microsoft Support – Windows keyboard shortcuts
+
+82. Which video interface can carry both digital video and audio signals over a single cable?
+(a) HDMI (b) DVI‑D (c) VGA (d) DisplayPort (only video)
+Answer: (a)
+Solution: DVI‑D and VGA carry video only, and the option explicitly says DisplayPort carries only video; HDMI is designed for combined digital video and audio, so the answer is (a).
+Source: HDMI Licensing Administrator – Specification overview
+
+83. A computer’s PS/2 port is typically used for:
+(a) Connecting a printer (b) Connecting a keyboard or mouse (c) Connecting an external hard drive (d) Connecting a monitor
+Answer: (b)
+Solution: Printers use parallel/USB, external drives use USB/eSATA, monitors use VGA/HDMI/DP; the PS/2 mini‑DIN connector was standard for keyboards and mice, so the answer is (b).
+Source: PC System Design Guide – Legacy I/O
+
+84. Which of the following statements about Bluetooth is correct?
+(a) It operates in the 2.4 GHz ISM band (b) Its maximum range is 100 meters for all classes (c) It requires line‑of‑sight between devices (d) It uses infrared light for communication
+Answer: (a)
+Solution: Line‑of‑sight and infrared describe IrDA; only Class 1 devices reach 100 m; Bluetooth uses radio waves in the 2.4 GHz ISM band, so the answer is (a).
+Source: Bluetooth SIG – Core specification basics
+
+85. The maximum theoretical speed of USB 2.0 High‑Speed mode is:
+(a) 12 Mbps (b) 480 Mbps (c) 5 Gbps (d) 10 Gbps
+Answer: (b)
+Solution: 12 Mbps is Full‑Speed, 5 Gbps is USB 3.0, 10 Gbps is USB 3.1 Gen 2; USB 2.0 High‑Speed defines 480 Mbps, so the answer is (b).
+Source: USB‑IF – USB 2.0 specification
+
+86. Which port type is most likely to be found on a modern laptop for charging and video output simultaneously?
+(a) USB‑A (b) HDMI (c) USB‑C with Power Delivery (d) RJ‑45
+Answer: (c)
+Solution: USB‑A cannot deliver laptop‑level power, HDMI carries only video, RJ‑45 is for networking; USB‑C with Power Delivery supports both charging and video, so the answer is (c).
+Source: USB‑IF – USB Type‑C and Power Delivery
+
+87. In the context of computer ports, “hot‑plugging” means:
+(a) Connecting a device while the system is powered off (b) Plugging a device into a port that is physically hot (c) Connecting or disconnecting a device without restarting the computer (d) Using a port that supplies high voltage
+Answer: (c)
+Solution: The first option describes cold‑plugging, the second and third are literal misreadings; hot‑plugging allows device attachment without a reboot, so the answer is (c).
+Source: Microsoft Learn – Plug and Play
+
+88. Which of the following is an example of an output device that produces hard copy?
+(a) Speaker (b) Monitor (c) Plotter (d) Microphone
+Answer: (c)
+Solution: Speakers and monitors give soft output, a microphone is an input device; a plotter draws graphics on paper, creating hard copy, so the answer is (c).
+Source: NCERT Class 10 Computer Science
+
+89. The IEEE 1394 interface is commonly known by which brand name?
+(a) eSATA (b) Thunderbolt (c) USB (d) FireWire
+Answer: (d)
+Solution: Thunderbolt, USB, and eSATA are separate standards; IEEE 1394 was marketed as FireWire, so the answer is (d).
+Source: IEEE 1394 – Historical overview
+
+90. Which key combination locks the workstation in Windows 10/11?
+(a) Win + L (b) Ctrl + Alt + Del (c) Win + D (d) Alt + F4
+Answer: (a)
+Solution: Ctrl+Alt+Del opens the security screen, Win+D shows the desktop, Alt+F4 closes the active window; the direct lock shortcut is Win+L, so the answer is (a).
+Source: Microsoft Support – Windows shortcuts
+
+91. A “COM port” on a PC traditionally refers to:
+(a) A parallel communication port (b) A USB communication port (c) A network communication port (d) A serial communication port
+Answer: (d)
+Solution: Parallel ports are LPT, USB is a bus, network ports are Ethernet; COM stands for Communication port and denotes a serial RS‑232 interface, so the answer is (d).
+Source: Microsoft Learn – Serial ports
+
+92. Which of the following connectors is used for analog video only?
+(a) DVI‑I (b) VGA (c) HDMI (d) DisplayPort
+Answer: (b)
+Solution: DVI‑I can carry analog and digital, HDMI and DisplayPort are digital‑only; VGA transmits analog RGB signals, so the answer is (b).
+Source: PC System Design Guide – Video connectors
+
+93. The term “Plug and Play” (PnP) primarily refers to:
+(a) Automatic driver installation and resource configuration for new hardware (b) A game controller standard (c) A power‑saving mode for USB devices (d) A network protocol for device discovery
+Answer: (a)
+Solution: Game controllers, USB selective suspend, and UPnP are unrelated; PnP enables the OS to detect and configure hardware without manual setup, so the answer is (a).
+Source: Microsoft Learn – Plug and Play architecture
+
+94. Which port is typically used for connecting a digital camera to a computer for image transfer?
+(a) PS/2 (b) RJ‑45 (c) Parallel (LPT) (d) FireWire (IEEE 1394)
+Answer: (d)
+Solution: PS/2 is for keyboard/mouse, RJ‑45 for networking, parallel for printers; many digital cameras historically used IEEE 1394 (FireWire) for fast transfer, so the answer is (d).
+Source: IEEE 1394 – Consumer device usage
+
+95. In Windows, the “Device Manager” can be opened quickly by pressing:
+(a) Win + X then M (b) Win + R, type devmgmt.msc (c) Ctrl + Shift + Esc (d) Alt + F2
+Answer: (a)
+Solution: The Run command works but requires typing, Ctrl+Shift+Esc opens Task Manager, Alt+F2 has no standard function; the Quick Link menu (Win+X) followed by M launches Device Manager directly, so the answer is (a).
+Source: Microsoft Support – Windows Quick Link menu
+
+96. Which of the following is a characteristic of a “touchscreen” used as an input device?
+(a) It only works with a stylus (b) It detects touch through pressure or capacitance (c) It requires a separate mouse for navigation (d) It cannot be used for drawing
+Answer: (b)
+Solution: Many touchscreens support finger input, they replace the mouse, and drawing is a common use; touchscreens sense contact via resistive pressure or capacitive fields, so the answer is (b).
+Source: NCERT Class 9 Computer Science – Input devices
+
+97. The maximum cable length for a USB 2.0 high‑speed connection without a hub is:
+(a) 5 meters (b) 10 meters (c) 3 meters (d) 15 meters
+Answer: (a)
+Solution: 3 m is the low‑speed limit, 10 m and 15 m exceed the specification; USB 2.0 high‑speed cables are limited to 5 meters, so the answer is (a).
+Source: USB‑IF – USB 2.0 cable length guidelines
+
+98. Which of the following is NOT a function of a computer’s “sound card”?
+(a) Digital‑to‑analog conversion for audio output (b) Analog‑to‑digital conversion for microphone input (c) Processing 3D graphics rendering (d) Providing MIDI synthesis
+Answer: (c)
+Solution: The first three are core audio functions of a sound card; 3D graphics rendering is handled by the GPU, not the sound card, so the answer is (c).
+Source: PC System Design Guide – Audio subsystem
+
+99. The “Windows Key + Print Screen” shortcut in Windows 10/11:
+(a) Opens the Snipping Tool (b) Opens the Game Bar (c) Captures the entire screen and saves it to the Pictures\Screenshots folder (d) Copies the active window to the clipboard
+Answer: (c)
+Solution: Win+Shift+S opens Snipping Tool, Alt+Print Screen copies the active window, Win+G opens Game Bar; Win+Print Screen automatically saves a full‑screen capture, so the answer is (c).
+Source: Microsoft Support – Windows screenshot shortcuts
+
+100. Which port standard defines a 24‑pin connector that can carry video, audio, data, and power simultaneously?
+(a) Thunderbolt 3 (b) DisplayPort (c) HDMI (d) USB‑C
+Answer: (d)
+Solution: DisplayPort and HDMI are primarily video/audio, Thunderbolt 3 uses the USB‑C physical connector but is a separate protocol; USB‑C’s 24‑pin design supports video, audio, data, and power delivery, so the answer is (d).
+Source: USB‑IF – USB Type‑C specification

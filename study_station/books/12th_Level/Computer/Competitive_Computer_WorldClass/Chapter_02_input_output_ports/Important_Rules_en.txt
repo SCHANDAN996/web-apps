@@ -1,0 +1,76 @@
+**Important Rules — Input Output and Ports**
+
+**Rule 1 — Input devices send data to the computer; output devices receive data from it**  
+A keyboard, mouse, scanner, microphone, or barcode reader is an input device. A monitor, printer, speaker, or projector is an output device. Some devices (touchscreen, multifunction printer, headset with microphone) perform both roles.  
+*Example:* Scanning a document uses the scanner (input); printing the scan uses the printer (output).  
+*Exception:* A touchscreen registers touch (input) and displays graphics (output) simultaneously.
+
+**Rule 2 — Keyboards use scan codes, not ASCII, to communicate with the OS**  
+Each key press and release generates a hardware scan code. The OS keyboard driver translates scan codes into characters or control actions based on the active layout (QWERTY, DVORAK, Indic, etc.).  
+*Example:* Pressing “A” on a US layout sends scan code 0x1E; the driver produces ‘a’ or ‘A’ depending on Shift/CapsLock.  
+*Exception:* Some gaming keyboards send macros as pre-defined scan-code sequences.
+
+**Rule 3 — Mice report relative movement (Δx, Δy) by default; absolute pointing devices report coordinates**  
+A standard mouse sends relative displacement. A graphics tablet or touchscreen sends absolute coordinates within its active area.  
+*Example:* Moving a mouse 5 cm right sends +500 counts; lifting and replacing it does not reset the pointer.  
+*Exception:* “Absolute mode” mice (rare) emulate tablet behaviour for specialised CAD use.
+
+**Rule 4 — Monitors are characterised by resolution, refresh rate, panel type, and colour gamut**  
+Resolution (e.g., 1920×1080) is pixel count. Refresh rate (Hz) is how often the image updates. Panel types (TN, IPS, VA, OLED) affect viewing angles, response time, and contrast. Colour gamut (sRGB, DCI-P3, Adobe RGB) defines reproducible colours.  
+*Example:* A 60 Hz IPS panel at 100 % sRGB suits office work; a 144 Hz VA panel with 90 % DCI-P3 suits gaming.  
+*Exception:* High-DPI (“Retina”) displays scale UI elements; effective resolution ≠ native pixel count.
+
+**Rule 5 — Printers are classified by technology: impact (dot-matrix) vs. non-impact (inkjet, laser, thermal)**  
+Impact printers strike an inked ribbon; they can print multipart forms. Non-impact printers form images without mechanical impact. Laser printers use electrophotography; inkjets eject droplets; thermal printers heat coated paper.  
+*Example:* Railway ticket counters use thermal printers; offices use laser printers for volume.  
+*Exception:* Solid-ink and dye-sublimation are niche non-impact technologies.
+
+**Rule 6 — USB (Universal Serial Bus) uses a tiered-star topology with host-initiated transactions**  
+The host (PC) polls devices; devices cannot initiate transfers. USB 2.0 = 480 Mbps (High-Speed), USB 3.2 Gen 1 = 5 Gbps (SuperSpeed), USB 3.2 Gen 2 = 10 Gbps, USB4 = 20/40 Gbps. Connectors: Type-A, Type-B, Micro-B, Type-C. Type-C is reversible and supports Alternate Modes (DisplayPort, Thunderbolt).  
+*Example:* A USB 3.0 flash drive in a USB 2.0 port runs at 480 Mbps.  
+*Exception:* USB On-The-Go (OTG) lets a phone act as host for a flash drive.
+
+**Rule 7 — USB Power Delivery (PD) negotiates voltage/current over Configuration Channel (CC) pins**  
+Standard USB 2.0/3.0 ports supply 5 V / 0.5 A or 0.9 A. USB PD allows 5 V, 9 V, 15 V, 20 V up to 5 A (100 W) or 28 V / 36 V / 48 V up to 5 A (240 W) with Extended Power Range (EPR). Both ends must support PD.  
+*Example:* A 65 W laptop charger negotiates 20 V / 3.25 A via Type-C.  
+*Exception:* Proprietary fast-charge protocols (Qualcomm Quick Charge, VOOC) are not USB PD.
+
+**Rule 8 — HDMI, DisplayPort, DVI, VGA are video interfaces; only HDMI and DisplayPort carry audio natively**  
+VGA (DE-15) is analogue RGB. DVI-D is digital only; DVI-I carries both. HDMI (Type-A common) and DisplayPort (standard, Mini) are packet-based digital interfaces supporting audio, HDCP, HDR, and high refresh rates.  
+*Example:* Connecting a monitor via HDMI carries 4K@60 Hz + 8-channel audio in one cable.  
+*Exception:* DVI-to-HDMI adapters pass video only; audio requires separate path.
+
+**Rule 9 — Audio jacks follow TRS/TRRS wiring: Tip-Ring-Sleeve (stereo out) or Tip-Ring-Ring-Sleeve (stereo out + mic in)**  
+3.5 mm TRS = stereo output (green jack). TRRS = headset with mic (CTIA standard: Left, Right, Ground, Mic). OMTP standard swaps Ground and Mic rings.  
+*Example:* Smartphone headset (CTIA) works on laptop combo jack; OMTP headset needs adapter.  
+*Exception:* Professional 6.35 mm (¼″) TRS/TRS balanced lines used in studios.
+
+**Rule 10 — Ethernet (IEEE 802.3) uses RJ-45 connectors and twisted-pair categories (Cat5e, Cat6, Cat6a, Cat7, Cat8)**  
+Cat5e = 1 Gbps @ 100 m. Cat6 = 1 Gbps @ 100 m, 10 Gbps @ 55 m. Cat6a = 10 Gbps @ 100 m. Cat8 = 25/40 Gbps @ 30 m. Shielding: UTP (unshielded), FTP/STP (foil/shielded). Auto-MDIX removes crossover-cable need.  
+*Example:* Office LAN uses Cat6 UTP for 1 Gbps to desktop.  
+*Exception:* Power over Ethernet (PoE, 802.3af/at/bt) delivers DC power over same pairs.
+
+**Rule 11 — Thunderbolt 3/4 uses USB Type-C connector but is a separate protocol (PCIe + DisplayPort tunnelling)**  
+Thunderbolt 3 = 40 Gbps, supports two 4K or one 5K display, PCIe 3.0 x4. Thunderbolt 4 mandates 40 Gbps, four-lane PCIe 3.0, dual 4K, and wake-from-sleep. All Thunderbolt 3/4 ports are USB4 compliant; not all USB4 ports are Thunderbolt.  
+*Example:* eGPU enclosure connects via Thunderbolt 3 for near-desktop GPU performance.  
+*Exception:* Passive Thunderbolt 3 cables > 0.5 m drop to 20 Gbps; active cables needed for full speed at length.
+
+**Rule 12 — SD cards use SPI or SD bus; speed classes define minimum sustained write speed**  
+Class 2/4/6/10 = 2/4/6/10 MB/s. UHS Speed Class U1/U3 = 10/30 MB/s. Video Speed Class V6/V10/V30/V60/V90 = 6–90 MB/s. Application Performance Class A1/A2 adds random IOPS. Capacity standards: SDSC (≤2 GB), SDHC (≤32 GB), SDXC (≤2 TB), SDUC (≤128 TB).  
+*Example:* 4K video needs V30 or U3 card.  
+*Exception:* Host device must support UHS-I/II/III bus to realise card speed.
+
+**Rule 13 — BIOS/UEFI firmware initialises hardware before OS boot; UEFI replaces BIOS with GPT, secure boot, and larger partition support**  
+BIOS uses MBR (max 2 TB, 4 primary partitions). UEFI uses GPT (128 partitions, 9.4 ZB), runs in 32/64-bit mode, supports Secure Boot (verifies bootloader signatures), and provides graphical setup. CSM (Compatibility Support Module) allows legacy BIOS boot.  
+*Example:* Windows 11 requires UEFI + Secure Boot + TPM 2.0.  
+*Exception:* Some industrial boards still ship BIOS-only for legacy OS compatibility.
+
+**Rule 14 — Device Manager (Windows) / lsusb, lspci, dmesg (Linux) show enumerated hardware and driver binding**  
+Yellow bang in Device Manager = driver issue. “Unknown device” = missing INF. Linux `lsusb -t` shows USB tree and driver per interface. `dmesg -T` timestamps kernel messages for hot-plug events.  
+*Example:* Plugging a USB-to-serial adapter creates COM3 (Windows) or /dev/ttyUSB0 (Linux) after driver loads.  
+*Exception:* Kernel-built-in drivers load before rootfs; `dmesg` shows them without user-space tools.
+
+**Rule 15 — Accessibility APIs (UI Automation, MSAA, IAccessible2, AT-SPI) let assistive tech interact with UI elements**  
+Screen readers (NVDA, JAWS, Orca), magnifiers, and voice control rely on standardised accessibility trees. Applications must expose name, role, value, state, and relationships. Web uses ARIA attributes mapped to platform APIs.  
+*Example:* A custom button without `role="button"` or `AccessibleName` is invisible to screen readers.  
+*Exception:* Legacy Win32 apps without UIA provider fall back to MSAA; limited property set.

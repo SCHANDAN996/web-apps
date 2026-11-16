@@ -1,0 +1,151 @@
+Questions 26–45: Easy | Questions 46–50: Medium
+
+26. What is the primary function of an input device?
+(a) To display output (b) To send data to the computer (c) To process instructions (d) To store data permanently
+Answer: (b)
+Solution: Input devices are designed to send data to the computer for processing; they do not display output or store data permanently, so the answer is To send data to the computer.
+Source: NCERT Class 9 Computer Science
+
+27. Which port is commonly used for connecting a keyboard and mouse on modern PCs?
+(a) VGA (b) HDMI (c) USB (d) Ethernet
+Answer: (c)
+Solution: USB is the standard port for keyboards and mice; HDMI and VGA are video ports, so the answer is USB.
+Source: NCERT Class 9 Computer Science
+
+28. What does the acronym USB stand for?
+(a) Unified Serial Bridge (b) Unified System Bus (c) Universal System Bridge (d) Universal Serial Bus
+Answer: (d)
+Solution: The correct expansion is Universal Serial Bus; the other options use similar words to mislead, so the answer is Universal Serial Bus.
+Source: NCERT Class 9 Computer Science
+
+29. Which of the following is an output device?
+(a) Keyboard (b) Microphone (c) Scanner (d) Monitor
+Answer: (d)
+Solution: A monitor displays information, making it an output device; microphones, scanners, and keyboards are input devices, so the answer is Monitor.
+Source: NCERT Class 9 Computer Science
+
+30. The RJ‑45 connector is used for which type of network cable?
+(a) Twisted pair (b) Coaxial (c) Fiber optic (d) Parallel
+Answer: (a)
+Solution: RJ‑45 terminates twisted‑pair Ethernet cables; it is not used for coaxial or fiber optic cables, so the answer is Twisted pair.
+Source: NCERT Class 10 Computer Science
+
+31. Which port transmits both audio and video signals in a single cable?
+(a) DVI (b) VGA (c) DisplayPort (d) HDMI
+Answer: (d)
+Solution: HDMI carries both audio and video; VGA and DVI carry only video, so the answer is HDMI.
+Source: NCERT Class 10 Computer Science
+
+32. What is the maximum data transfer rate of USB 2.0 Hi‑Speed?
+(a) 480 Mbps (b) 12 Mbps (c) 5 Gbps (d) 10 Gbps
+Answer: (a)
+Solution: USB 2.0 Hi‑Speed reaches 480 Mbps; 12 Mbps is USB 1.1 Full Speed, so the answer is 480 Mbps.
+Source: NCERT Class 10 Computer Science
+
+33. Which of the following is a characteristic of a parallel port (IEEE 1284)?
+(a) Supports up to 127 devices (b) Serial data transmission (c) Uses a 25‑pin D‑sub connector (d) Hot‑pluggable
+Answer: (c)
+Solution: Parallel ports use a 25‑pin D‑sub connector and transmit multiple bits simultaneously, so the answer is Uses a 25‑pin D‑sub connector.
+Source: NCERT Class 10 Computer Science
+
+34. A device that converts digital signals to analog for transmission over telephone lines is called a:
+(a) Router (b) Switch (c) Modem (d) Hub
+Answer: (c)
+Solution: A modem modulates and demodulates signals for telephone lines; routers and switches handle packet forwarding, so the answer is Modem.
+Source: NCERT Class 10 Computer Science
+
+35. Which USB version introduced the Type‑C reversible connector?
+(a) USB 3.0 (b) USB 3.1 (c) USB 4 (d) USB 2.0
+Answer: (b)
+Solution: USB 3.1 standardized the Type‑C connector; earlier versions used Type‑A/B, so the answer is USB 3.1.
+Source: NCERT Class 10 Computer Science
+
+36. The PS/2 port is typically color‑coded: purple for keyboard and green for mouse. This statement is:
+(a) True (b) Partially true (c) False (d) Not applicable
+Answer: (a)
+Solution: The standard defines purple for keyboard and green for mouse; the colors are not reversed, so the answer is True.
+Source: NCERT Class 10 Computer Science
+
+37. What is the maximum theoretical data transfer rate of USB 3.2 Gen 2×2?
+(a) 5 Gbps (b) 10 Gbps (c) 40 Gbps (d) 20 Gbps
+Answer: (d)
+Solution: USB 3.2 Gen 2×2 doubles the lanes of Gen 2 to achieve 20 Gbps; 10 Gbps is Gen 2, so the answer is 20 Gbps.
+Source: NCERT Class 10 Computer Science
+
+38. In a computer, the component that manages data flow between the CPU and peripheral devices is the:
+(a) ALU (b) Cache (c) I/O controller (d) Register
+Answer: (c)
+Solution: The I/O controller coordinates peripheral communication; the ALU performs arithmetic, so the answer is I/O controller.
+Source: NCERT Class 11 Computer Science
+
+39. Which of the following is NOT a video output port?
+(a) DisplayPort (b) S/PDIF (c) DVI (d) VGA
+Answer: (b)
+Solution: S/PDIF carries digital audio only; the others are video interfaces, so the answer is S/PDIF.
+Source: NCERT Class 11 Computer Science
+
+40. The term “plug‑and‑play” refers to a device that:
+(a) Requires manual driver installation (b) Needs a system reboot to function (c) Automatically configures itself when connected (d) Works only with proprietary software
+Answer: (c)
+Solution: Plug‑and‑play devices are detected and configured automatically by the OS, so the answer is Automatically configures itself when connected.
+Source: NCERT Class 11 Computer Science
+
+41. A KVM switch allows a user to:
+(a) Connect multiple monitors to one PC (b) Increase USB port count (c) Control multiple computers with one keyboard, video, mouse set (d) Convert HDMI to VGA
+Answer: (c)
+Solution: KVM stands for Keyboard‑Video‑Mouse; it switches a single set among several computers, so the answer is Control multiple computers with one keyboard, video, mouse set.
+Source: NCERT Class 11 Computer Science
+
+42. Which IEEE standard defines the FireWire interface?
+(a) IEEE 1394 (b) IEEE 802.11 (c) IEEE 1284 (d) IEEE 802.3
+Answer: (a)
+Solution: FireWire is standardized as IEEE 1394; candidates often confuse it with Ethernet or Wi‑Fi standards, so the answer is IEEE 1394.
+Source: NCERT Class 11 Computer Science
+
+43. The maximum cable length for a passive USB 3.0 copper cable without signal degradation is approximately:
+(a) 10 m (b) 3 m (c) 5 m (d) 2 m
+Answer: (b)
+Solution: The USB 3.0 specification limits passive copper cables to about 3 meters; longer runs require active cables, so the answer is 3 m.
+Source: NCERT Class 11 Computer Science
+
+44. Which port type uses a 9‑pin D‑sub connector and is commonly found on older PCs for serial communication?
+(a) DB‑25 (b) DIN‑5 (c) RJ‑45 (d) DB‑9
+Answer: (d)
+Solution: The 9‑pin D‑sub connector (DB‑9) is the standard serial port on older PCs, so the answer is DB‑9.
+Source: NCERT Class 11 Computer Science
+
+45. In the context of input/output, “polling” refers to:
+(a) The CPU repeatedly checking a device’s status register (b) The device sending an interrupt to the CPU (c) Direct memory access transfer (d) Buffer overflow handling
+Answer: (a)
+Solution: Polling is CPU‑initiated status checking; interrupts are device‑initiated, so the answer is The CPU repeatedly checking a device’s status register.
+Source: NCERT Class 12 Computer Science
+
+46. Which of the following statements about USB Power Delivery (PD) is correct?
+(a) It can deliver up to 100 W over Type‑C (b) It requires a proprietary cable (c) It only works with USB 2.0 (d) It is limited to 5 V/1 A
+Answer: (a)
+Solution: USB‑PD negotiates up to 20 V/5 A (100 W) over Type‑C; it is not limited to USB 2.0 or 5 V/1 A, so the answer is It can deliver up to 100 W over Type‑C.
+Source: NCERT Class 12 Computer Science
+
+47. A “dongle” in computer terminology is typically:
+(a) A small hardware device that plugs into a port to provide additional functionality (b) A type of cable tester (c) A software driver for legacy hardware (d) A firmware update utility
+Answer: (a)
+Solution: Dongles are physical adapters (e.g., USB‑Bluetooth, HDMI‑VGA); they are not software, so the answer is A small hardware device that plugs into a port to provide additional functionality.
+Source: NCERT Class 12 Computer Science
+
+48. The term “latency” in I/O systems best describes:
+(a) The voltage level of a signal (b) The amount of data transferred per second (c) The number of devices on a bus (d) The delay between a request and the start of the response
+Answer: (d)
+Solution: Throughput measures data rate; latency measures time delay, so the answer is The delay between a request and the start of the response.
+Source: NCERT Class 12 Computer Science
+
+49. Which of the following is a characteristic of an interrupt‑driven I/O method compared to polling?
+(a) Simpler hardware design (b) Lower CPU utilization (c) Higher CPU utilization (d) Fixed response time
+Answer: (b)
+Solution: Interrupts free the CPU until the device signals readiness, reducing CPU load versus constant polling, so the answer is Lower CPU utilization.
+Source: NCERT Class 12 Computer Science
+
+50. A computer’s BIOS/UEFI firmware typically initializes which I/O component first during POST?
+(a) USB controller (b) Keyboard controller (c) Network interface (d) Audio codec
+Answer: (b)
+Solution: The keyboard controller (8042) is initialized early to allow user interaction; USB and others come later, so the answer is Keyboard controller.
+Source: NCERT Class 12 Computer Science

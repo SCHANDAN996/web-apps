@@ -1,0 +1,198 @@
+# Input Output and Ports
+
+## 1. Introduction
+
+A computer system communicates with the outside world through **input devices**, **output devices**, and **ports** (interfaces). Understanding these components is essential for SSC CHSL, CGL, and other government exams where computer awareness is tested. This chapter covers the standard classification, common connectors, and practical troubleshooting points — all based on stable, vendor-neutral specifications (USB Implementers Forum, VESA, HDMI Licensing, Microsoft Windows documentation).
+
+---
+
+## 2. Input Devices
+
+**Definition**: Hardware that sends data or instructions *into* the computer.
+
+| Category | Typical Examples | Exam-Relevant Points |
+|---|---|---|
+| **Pointing** | Mouse (optical, laser, trackball), Touchpad, TrackPoint, Graphics tablet | DPI (dots per inch) indicates sensitivity; higher DPI = finer control. |
+| **Keyboard** | Standard 104-key, Multimedia, Mechanical (Cherry MX switches), Virtual/On-screen | Key rollover (NKRO) matters for gaming; not tested in clerical exams. |
+| **Scanning** | Flatbed, Sheet-fed, Handheld, Barcode/QR scanner, OMR, OCR, MICR | OCR converts printed text to editable text; MICR reads magnetic ink (cheques). |
+| **Imaging** | Webcam, Digital camera, Smartphone (via USB/PTP) | UVC (USB Video Class) devices work driver-less on modern Windows. |
+| **Audio** | Microphone (analog 3.5 mm, USB, Bluetooth) | Sampling rate (44.1 kHz, 48 kHz) and bit depth (16-bit, 24-bit) define quality. |
+| **Biometric** | Fingerprint reader, Iris scanner, Face recognition (Windows Hello) | Windows Hello requires IR camera or fingerprint sensor; TPM 2.0 is mandatory only for Windows Hello for Business. |
+| **Specialised** | Joystick, Gamepad, Steering wheel, Light pen, Magnetic stripe reader | Mostly niche; know the category, not every model. |
+
+**Key Concept**: *Plug and Play (PnP)* — Windows automatically detects and installs class drivers for HID (Human Interface Device), UVC, and USB Audio class devices.
+
+---
+
+## 3. Output Devices
+
+**Definition**: Hardware that presents processed data *from* the computer to the user.
+
+| Category | Typical Examples | Exam-Relevant Points |
+|---|---|---|
+| **Display** | LCD/LED monitor, OLED, Projector, Interactive flat panel | Resolution (1920×1080 = Full HD, 3840×2160 = 4K UHD), Refresh rate (60 Hz, 144 Hz), Aspect ratio (16:9, 16:10, 21:9). |
+| **Printer** | Inkjet, Laser (mono/colour), Thermal (receipt), Dot-matrix (multipart forms), 3D printer | **Laser**: toner, drum, fuser. **Inkjet**: printhead, cartridges. **Dot-matrix**: impact, carbon copies. |
+| **Audio** | Speakers (2.0, 2.1, 5.1), Headphones/Headset (analog, USB, Bluetooth) | Impedance (Ω), Sensitivity (dB), Frequency response (20 Hz–20 kHz). |
+| **Other** | Plotter (CAD), Braille display, Haptic feedback devices | Plotter uses vector graphics (HP-GL/2); Braille uses piezoelectric cells. |
+
+**Multi-monitor terms**: *Extend* (separate desktops), *Duplicate* (mirror), *Second screen only*. Shortcut: **Win + P** (Windows).
+
+---
+
+## 4. Ports and Interfaces
+
+A **port** is a physical socket and its signalling protocol. Modern PCs use a handful of standard ports; legacy ports (PS/2, Serial DB-9, Parallel DB-25, VGA, DVI) appear only in older hardware questions.
+
+### 4.1 USB (Universal Serial Bus) — Most Important
+
+| Standard | Marketing Name | Max Data Rate | Power Delivery (max) | Connector Shapes |
+|---|---|---|---|---|
+| USB 2.0 | Hi-Speed USB | 480 Mbps | 5 V / 0.5 A (2.5 W) | Type-A, Type-B, Micro-B, Mini-B |
+| USB 3.2 Gen 1 | SuperSpeed USB 5 Gbps | 5 Gbps | 5 V / 0.9 A (4.5 W) | Type-A, Type-B, Micro-B, Type-C |
+| USB 3.2 Gen 2 | SuperSpeed USB 10 Gbps | 10 Gbps | 5 V / 1.5 A (7.5 W) | Type-C (also Type-A rare) |
+| USB 3.2 Gen 2×2 | SuperSpeed USB 20 Gbps | 20 Gbps | 5 V / 1.5 A (7.5 W) | Type-C only |
+| USB4 Gen 2×2 / Gen 3×2 | USB4 20 Gbps / 40 Gbps | 20 / 40 Gbps | Up to 100 W (PD 3.0) | Type-C only |
+
+**Exam Tips**:
+- **Backward compatible**: USB 3.x port works with USB 2.0 device at 2.0 speed.
+- **Type-C ≠ USB 3.x**: A Type-C port can be USB 2.0 only (check spec sheet).
+- **Power Delivery (PD)**: Negotiates 5 V / 9 V / 15 V / 20 V up to 5 A (100 W). Requires PD-capable host, cable, and device.
+- **USB On-The-Go (OTG)**: Allows phone to act as host for flash drive/keyboard.
+
+### 4.2 Video Ports
+
+| Port | Max Resolution @ Refresh (typical) | Audio | Notes |
+|---|---|---|---|
+| **HDMI 1.4** | 4K @ 30 Hz | Yes (ARC) | Common on budget laptops/TVs |
+| **HDMI 2.0** | 4K @ 60 Hz | Yes (ARC) | Standard for 4K TVs |
+| **HDMI 2.1** | 8K @ 60 Hz / 4K @ 120 Hz | Yes (eARC) | VRR, ALLM for gaming |
+| **DisplayPort 1.2** | 4K @ 60 Hz | Yes | Daisy-chain (MST) support |
+| **DisplayPort 1.4** | 8K @ 60 Hz / 4K @ 144 Hz | Yes | DSC compression |
+| **VGA (D-Sub 15)** | 1920×1080 @ 60 Hz | No | Analog, legacy only |
+| **DVI-D (Dual Link)** | 2560×1600 @ 60 Hz | No | Digital only, legacy |
+| **USB-C (DP Alt Mode)** | Depends on DP version | Yes | Carries DisplayPort over USB-C |
+
+**Key distinction**: HDMI carries audio by default; DisplayPort also carries audio; VGA/DVI do not.
+
+### 4.3 Audio Ports
+
+| Connector | Use | Channels |
+|---|---|---|
+| 3.5 mm TRS (Tip-Ring-Sleeve) | Stereo headphone / Line-out | 2 |
+| 3.5 mm TRRS (Tip-Ring-Ring-Sleeve) | Headset (stereo + mic) | 2 + mic |
+| 3.5 mm jacks (color-coded) | Line-in (Blue), Line-out (Green), Mic (Pink), Rear/Surround (Black/Orange) | Up to 7.1 |
+| S/PDIF (TOSLINK optical / RCA coaxial) | Digital stereo / 5.1 compressed | 2 / 5.1 (Dolby/DTS) |
+| HDMI / DisplayPort / USB-C | Multi-channel digital audio | Up to 32 ch (HDMI 2.1) |
+
+### 4.4 Network & Data Ports
+
+| Port | Standard | Speed | Cable | Exam Note |
+|---|---|---|---|---|
+| **RJ-45 (Ethernet)** | IEEE 802.3 | 10/100/1000 Mbps (Cat5e), 2.5/5/10 Gbps (Cat6/6a) | UTP Cat5e/6/6a | Auto-negotiation; PoE (802.3af/at/bt) delivers power. |
+| **Thunderbolt 3/4 (USB-C)** | Intel/USB4 | 40 Gbps | USB-C active cable | Daisy-chain 6 devices; carries DP 1.4, PCIe, USB, PD. |
+| **SD Card Slot** | SD Association | UHS-I (104 MB/s), UHS-II (312 MB/s), UHS-III (624 MB/s), SD Express (985 MB/s) | SD/microSD | Speed class: Class 10, U1/U3, V30/V60/V90, A1/A2. |
+
+### 4.5 Legacy Ports (Recognition Only)
+
+| Port | Connector | Typical Use | Status |
+|---|---|---|---|
+| PS/2 (Mini-DIN 6) | Purple (keyboard), Green (mouse) | Keyboard / Mouse | Obsolete; not hot-pluggable |
+| Serial (DB-9 / DE-9) | 9-pin D-sub | Modems, industrial, POS | Replaced by USB-Serial adapters |
+| Parallel (DB-25) | 25-pin D-sub | Old printers | Obsolete |
+| VGA (DE-15) | 15-pin D-sub | Analog monitor | Legacy projectors only |
+| DVI-I / DVI-D | DVI connector | Digital/Analog monitor | Legacy |
+
+---
+
+## 5. Worked Examples
+
+### Example 1: Identifying USB Version from Port Colour
+**Question**: A laptop has a blue USB Type-A port and a black USB Type-A port. Which USB standards do they *most likely* represent?
+**Solution**: Blue insert → USB 3.2 Gen 1 (5 Gbps, formerly USB 3.0). Black insert → USB 2.0 (480 Mbps). Colour coding is a common convention, not a strict standard; always verify in Device Manager → Universal Serial Bus controllers.
+**Answer**: Blue = USB 3.x (SuperSpeed), Black = USB 2.0 (Hi-Speed).
+
+### Example 2: Choosing Cable for 4K @ 60 Hz Monitor
+**Question**: You have a monitor with HDMI 2.0 and DisplayPort 1.2 inputs. Your laptop has HDMI 1.4 and USB-C (DP 1.4 Alt Mode). Which single cable gives 4K @ 60 Hz?
+**Solution**: HDMI 1.4 maxes at 4K @ 30 Hz. USB-C with DP 1.4 Alt Mode supports 4K @ 60 Hz (and higher). Use a USB-C → DisplayPort cable (or USB-C → USB-C if monitor has USB-C input with DP Alt Mode).
+**Answer**: USB-C to DisplayPort cable (DP Alt Mode).
+
+### Example 3: Printer Not Printing After Paper Jam
+**Question**: A laser printer shows "Paper Jam" error. User clears visible paper but error persists. What is the *first* troubleshooting step?
+**Solution**: Laser printers have multiple sensors (registration, fuser, output). Small torn pieces often remain. **Step 1**: Power off, open *all* access doors (toner, rear, duplex), remove toner cartridge, inspect with flashlight. Do not use sharp tools.
+**Answer**: Power off, open all doors, remove toner, check for torn fragments.
+
+### Example 4: Microphone Not Detected on 3.5 mm Headset
+**Question**: A TRRS headset (single 3.5 mm plug) works on phone but microphone is not detected on PC front panel. PC has separate pink (mic) and green (headphone) jacks.
+**Solution**: PC front panel uses separate TRS jacks (CTIA wiring). The TRRS plug shorts mic and ground contacts incorrectly. Use a **TRRS-to-dual-TRS splitter** (female TRRS → male pink + male green).
+**Answer**: Use a TRRS splitter cable matching CTIA standard.
+
+### Example 5: Ethernet Link Light Amber vs Green
+**Question**: RJ-45 port shows solid amber LED. What does it typically indicate?
+**Solution**: Most NICs: Green = 1 Gbps, Amber/Orange = 100 Mbps, Off = 10 Mbps or no link. Blinking = activity. Check cable (Cat5e minimum for 1 Gbps), switch port speed, and driver settings (Speed & Duplex → Auto Negotiation).
+**Answer**: 100 Mbps link speed (check cable/switch).
+
+### Example 6: External SSD Slow on USB Port
+**Question**: A USB 3.2 Gen 2×2 (20 Gbps) external SSD copies at 350 MB/s on a laptop's USB-C port rated "USB 3.2 Gen 1 (5 Gbps)". Why?
+**Solution**: The port limits speed to 5 Gbps (≈ 400–450 MB/s real-world). The SSD is faster but bottlenecked by the host port. Marketing "20 Gbps" requires host, cable, and device all supporting USB 3.2 Gen 2×2 or USB4.
+**Answer**: Host port is USB 3.2 Gen 1 (5 Gbps); throughput limited to ~450 MB/s.
+
+---
+
+## 6. Common Errors & Misconceptions
+
+| # | Misconception | Correct Fact |
+|---|---|---|
+| 1 | "USB-C means USB 3.1/3.2/4 speed." | USB-C is *only* a connector shape. Speed depends on the controller (USB 2.0, 3.2 Gen 1, Gen 2, Gen 2×2, USB4, Thunderbolt 3/4). |
+| 2 | "HDMI and DisplayPort cables are interchangeable." | Different signalling. Passive adapters work *only* DP→HDMI (DP++ Dual-Mode). HDMI→DP requires active converter. |
+| 3 | "VGA to HDMI cable converts digital to analog." | Passive VGA→HDMI cable *cannot* convert analog VGA to digital HDMI. Needs active converter (VGA→HDMI scaler). |
+| 4 | "More DPI on mouse = better accuracy always." | High DPI with low in-game sensitivity provides finer granularity. Pixel skipping is caused by low DPI with high sensitivity. Use native DPI steps (400, 800, 1600) and adjust sensitivity in OS/game. |
+| 5 | "Laser printer toner is ink." | Toner is fine plastic powder fused by heat. Inkjet uses liquid ink. Toner does not dry out; ink can clog nozzles. |
+| 6 | "3.5 mm headset works on all 3.5 mm jacks." | Wiring standards differ: **CTIA** (Left, Right, Ground, Mic) — smartphones, laptops. **OMTP** (Left, Right, Mic, Ground) — older Nokia/Sony. Mismatch = no mic or shorted audio. |
+| 7 | "Ethernet cable category printed on jacket = guaranteed speed." | Cable must be *terminated correctly* (T568A/B), undamaged, and within 100 m. Poor crimping degrades to 100 Mbps. |
+| 8 | "Windows shortcut Win+P works in all apps." | Win+P is a **Windows shell** shortcut (projection mode). It works globally, not inside a specific application. Browser full-screen is F11 (Windows/Linux) or Ctrl+Cmd+F (Mac). |
+| 9 | "USB 3.0 cable works for USB 3.2 Gen 2×2 20 Gbps." | USB 3.2 Gen 2×2 and USB4 20/40 Gbps require **USB-C to USB-C cables rated for 20/40 Gbps** (e-marked). USB 3.0/3.1 Gen 1 cables lack extra high-speed lanes. |
+| 10 | "Monitor 'HDMI 2.1' label means full 48 Gbps bandwidth." | Many monitors implement only subset (e.g., 4K @ 120 Hz but no 8K, no VRR). Check EDID / manufacturer spec sheet for exact features. |
+
+---
+
+## 7. Quick Reference: Windows Shortcuts (Input/Output Related)
+
+| Shortcut | Scope | Action |
+|---|---|---|
+| **Win + P** | Windows | Project / Multi-monitor mode (PC screen only, Duplicate, Extend, Second screen only) |
+| **Win + Ctrl + D** | Windows | Create virtual desktop |
+| **Win + Ctrl + Left/Right** | Windows | Switch virtual desktops |
+| **Win + Shift + S** | Windows | Snip & Sketch (screenshot region) |
+| **Win + . (period)** | Windows | Emoji / Kaomoji / Symbols panel |
+| **Ctrl + P** | Universal (Apps) | Print dialog |
+| **F11** | Browsers / File Explorer | Toggle full-screen |
+| **Alt + Tab** | Windows | Switch apps |
+| **Win + Tab** | Windows | Task View (timeline + virtual desktops) |
+
+> **Note**: Browser shortcuts (F11, Ctrl+P) work inside the browser process. Windows shortcuts (Win+P, Win+Tab) are handled by the OS shell and work globally.
+
+---
+
+## 8. Summary for Revision
+
+- **Input** → Data *into* PC: Keyboard, Mouse, Scanner, Mic, Camera, Biometric.
+- **Output** → Data *out of* PC: Monitor, Printer, Speaker, Plotter, Braille.
+- **Port** → Physical + Protocol: USB (Type-A/C, 2.0–USB4), Video (HDMI, DP, VGA legacy), Audio (3.5 mm, S/PDIF), Network (RJ-45), Thunderbolt/USB4.
+- **USB-C ≠ Speed** — check Gen 1 / Gen 2 / Gen 2×2 / USB4 / TB3 / TB4.
+- **HDMI/DP carry audio**; VGA/DVI do not.
+- **Laser = Toner + Heat**; Inkjet = Liquid ink; Dot-matrix = Impact.
+- **Troubleshooting**: Check cable, port version, driver, power, and physical debris first.
+- **Shortcuts**: Win+P (project), F11 (browser full-screen), Ctrl+P (print).
+
+---
+
+## 9. Sources (for further reading)
+
+- USB Implementers Forum — *USB Specifications* (usb.org)
+- VESA — *DisplayPort Standard* (vesa.org)
+- HDMI Licensing Administrator — *HDMI Specification* (hdmi.org)
+- Microsoft Learn — *Windows keyboard shortcuts*, *Device Manager*, *Printer troubleshooting*
+- CERT-In — *Advisories on peripheral security* (cert-in.org.in)
+- RBI — *Guidelines on MICR cheque processing* (rbi.org.in)
+
+*End of Chapter*
