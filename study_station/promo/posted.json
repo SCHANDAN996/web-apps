@@ -187,7 +187,12 @@
   "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_18_Science_Tech#Set01#Q3",
   "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_10_Physics_Daily#Set04#Q79",
   "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_28_Error_Log#Set05#Q121",
-  "revision#2026-11-15"
+  "revision#2026-11-15",
+  "10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_13_Awards#Set01#Q6",
+  "10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_11_Time_Work#Set02#Q44",
+  "10th_Level/Reasoning/Chapter_08_Puzzles_Basic#Set01#Q23",
+  "10th_Level/English/Foundation_10th_English_WorldClass/Chapter_11_Narration#Set01#Q25",
+  "10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_18_Science_Tech#Set05#Q118"
  ],
  "shorts": [],
  "days": {
@@ -2127,6 +2132,62 @@
      {
       "id": "revision#2026-11-15",
       "msg": 432
+     }
+    ]
+   ]
+  },
+  "2026-11-16": {
+   "quiz": [
+    [
+     {
+      "id": "10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_13_Awards#Set01#Q6",
+      "msg": 434,
+      "chapter": "10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_13_Awards",
+      "q": "ज्ञानपीठ पुरस्कार किस क्षेत्र में उत्कृष्ट योगदान के लिए दिया जाता है?",
+      "ans": 3,
+      "opt": "साहित्य",
+      "exp": "उत्तर: साहित्य। ज्ञानपीठ पुरस्कार भारत का सर्वोच्च साहित्यिक पुरस्कार है, जिसे भारतीय ज्ञानपीठ देता है।",
+      "part": "am"
+     },
+     {
+      "id": "10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_11_Time_Work#Set02#Q44",
+      "msg": 435,
+      "chapter": "10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_11_Time_Work",
+      "q": "6 आदमी और 8 औरतें एक काम 10 दिनों में पूरा कर सकते हैं, जबकि 26 आदमी और 48 औरतें वही काम 2 दिनों में पूरा कर सकते हैं। एक आदमी और एक औरत की कार्यक्षमता का अनुपात ज्ञात कीजिए।",
+      "ans": 0,
+      "opt": "2 : 1",
+      "exp": "उत्तर: 2 : 1। काम बराबर करने पर, 10(6M + 8W) = 2(26M + 48W) से 60M + 80W = 52M + 96W मिलता है, अतः 8M = 16W और M : W = 2 : 1।",
+      "part": "am"
+     },
+     {
+      "id": "10th_Level/Reasoning/Chapter_08_Puzzles_Basic#Set01#Q23",
+      "msg": 436,
+      "chapter": "10th_Level/Reasoning/Chapter_08_Puzzles_Basic",
+      "q": "पाँच डिब्बे K, L, M, N, O एक के ऊपर एक रखे हैं। K, L के ठीक ऊपर है। M, L के ठीक नीचे है। N, O के ऊपर है। यदि M सबसे नीचे है, तो नीचे से दूसरा डिब्बा कौन-सा है?",
+      "ans": 2,
+      "opt": "L",
+      "exp": "उत्तर: L। M के ठीक ऊपर L (2) और L के ठीक ऊपर K (3) है।",
+      "part": "am"
+     },
+     {
+      "id": "10th_Level/English/Foundation_10th_English_WorldClass/Chapter_11_Narration#Set01#Q25",
+      "msg": 437,
+      "chapter": "10th_Level/English/Foundation_10th_English_WorldClass/Chapter_11_Narration",
+      "q": "He said, \"I must leave now.\"\nसही परोक्ष वाक्य (indirect speech) चुनें।",
+      "ans": 1,
+      "opt": "He said that he had to leave then.",
+      "exp": "उत्तर: He said that he had to leave then. विकल्प (a) \"must\" को अपरिवर्तित रखता है, जो जाल है, इसलिए उत्तर है \"He said that he had to leave then.\"",
+      "part": "am"
+     },
+     {
+      "id": "10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_18_Science_Tech#Set05#Q118",
+      "msg": 438,
+      "chapter": "10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_18_Science_Tech",
+      "q": "डिजिटल इलेक्ट्रॉनिक्स में कौन-सा लॉजिक गेट केवल तभी 1 आउटपुट देता है जब उसके सभी इनपुट 1 हों?",
+      "ans": 2,
+      "opt": "AND गेट",
+      "exp": "उत्तर: AND गेट। AND गेट तार्किक संयोजन करता है: इसका आउटपुट तभी 1 होता है जब दोनों इनपुट 1 हों।",
+      "part": "am"
      }
     ]
    ]
