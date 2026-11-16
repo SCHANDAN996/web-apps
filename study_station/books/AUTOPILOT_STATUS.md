@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (two-chapters)
 
-**आख़िरी update:** 16-11-2026 03:05 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 02:49 PM
+**आख़िरी update:** 16-11-2026 03:20 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 02:49 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 15 मिनट |
-| W2 | Chapter 01 organization cpu (12th Computer) | ✍️ लिख रहा है | 15 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
+| W2 | Chapter 01 organization cpu (12th Computer) | ✍️ लिख रहा है | 31 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -40,24 +40,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-16-11 14:49:07 autopilot start: 2 workers, reverse=False
-16-11 14:49:07 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (TODO: todo 25, problems 0)
-16-11 14:49:12 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_01_organization_cpu (TODO: todo 25, problems 0)
-16-11 14:50:36   [organization_cpu] wrote Content_en.txt (10656 chars)
-16-11 14:51:04   [varn_vartani] wrote Content_en.txt (12051 chars)
-16-11 14:51:53   [organization_cpu] wrote Content_hi.txt (8284 chars)
-16-11 14:52:32   [varn_vartani] wrote Content_hi.txt (12453 chars)
-16-11 14:52:34   [organization_cpu] wrote Key_Facts_en.txt (5584 chars)
-16-11 14:53:17   [organization_cpu] wrote Key_Facts_hi.txt (4151 chars)
-16-11 14:53:32   [varn_vartani] wrote Key_Facts_en.txt (5162 chars)
-16-11 14:53:41   [organization_cpu] wrote Feynman_en.txt (3891 chars)
-16-11 14:54:02   [varn_vartani] wrote Key_Facts_hi.txt (2559 chars)
-16-11 14:54:19   [organization_cpu] wrote Feynman_hi.txt (4494 chars)
-16-11 14:54:31   [organization_cpu] wrote Mind_Map.txt (1419 chars)
-16-11 14:54:48   [varn_vartani] wrote Feynman_en.txt (5219 chars)
-16-11 14:54:55   [organization_cpu] wrote Flashcards_en.txt (4807 chars)
-16-11 14:55:28   [varn_vartani] wrote Feynman_hi.txt (3094 chars)
-16-11 14:55:34   [varn_vartani] wrote Mind_Map.txt (732 chars)
 16-11 14:55:35   [organization_cpu] wrote Flashcards_hi.txt (6471 chars)
 16-11 14:56:12   [organization_cpu] wrote PYQ_en.txt (5878 chars)
 16-11 14:56:16   [varn_vartani] wrote Flashcards_en.txt (4068 chars)
@@ -75,4 +57,27 @@
 16-11 15:03:19   [organization_cpu] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 16-11 15:04:20   [organization_cpu] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 16-11 15:05:21   [organization_cpu] Practice_en_Set_02.txt try 1: rejected (Q50:leaked_reasoning)
+16-11 15:05:46   [varn_vartani] Practice_en_Set_01.txt try 2: rejected (Q4:duplicate_options,Q6:duplicate_options,Q23:duplicate_options)
+16-11 15:06:22   [organization_cpu] Practice_en_Set_02.txt try 2: rejected (Q50:leaked_reasoning)
+16-11 15:07:07   [varn_vartani] Practice_en_Set_01.txt try 3: rejected (Q4:duplicate_options)
+16-11 15:08:37   [organization_cpu] Practice_en_Set_02.txt try 3: rejected (Q50:leaked_reasoning)
+16-11 15:10:57   [varn_vartani] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+16-11 15:11:58   [varn_vartani] Practice_hi_Set_01.txt try 1: rejected (Q7: tested Hindi text changed between languages; Q8: tested Hindi text changed between languages; Q20: Hindi s
+16-11 15:12:40   [varn_vartani] Practice_hi_Set_01.txt try 2: rejected (Q7: tested Hindi text changed between languages; Q8: tested Hindi text changed between languages; Q20: Hindi s
+16-11 15:13:34   [varn_vartani] Practice_hi_Set_01.txt try 3: rejected (Q20: Hindi subject options changed between languages; Q20: tested Hindi text must be explicitly quoted)
+16-11 15:14:04   [organization_cpu] Practice_en_Set_02.txt try 4: re-solve disagrees (Q49 key b vs re-solve a)
+16-11 15:14:04   [organization_cpu] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
+16-11 15:14:04   [organization_cpu] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+16-11 15:14:12   [varn_vartani] Practice_hi_Set_01.txt try 4: rejected (Q7: tested Hindi text changed between languages; Q8: tested Hindi text changed between languages; Q20: Hindi s
+16-11 15:14:12   [varn_vartani] REJECTED Practice_hi_Set_01.txt: no translation passed the checks — not written
+16-11 15:16:02   [organization_cpu] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+16-11 15:16:11   [varn_vartani] Practice_en_Set_02.txt try 1: rejected (Q28:duplicate_options,Q29:duplicate_options,Q30:duplicate_options,Q31:duplicate_options,Q32:duplicate_options)
+16-11 15:17:00   [varn_vartani] Practice_en_Set_02.txt try 2: rejected (Q28:duplicate_options,Q29:duplicate_options,Q30:duplicate_options,Q31:duplicate_options,Q32:duplicate_options)
+16-11 15:17:04   [organization_cpu] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+16-11 15:17:39   [varn_vartani] Practice_en_Set_02.txt try 3: rejected (Q28:duplicate_options,Q29:duplicate_options,Q30:duplicate_options,Q31:duplicate_options,Q32:duplicate_options)
+16-11 15:18:27   [varn_vartani] Practice_en_Set_02.txt try 4: rejected (Q28:duplicate_options,Q29:duplicate_options,Q30:duplicate_options,Q31:duplicate_options,Q32:duplicate_options)
+16-11 15:18:27   [varn_vartani] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
+16-11 15:18:27   [varn_vartani] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+16-11 15:19:38   [organization_cpu] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+16-11 15:20:20   [organization_cpu] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 ```
