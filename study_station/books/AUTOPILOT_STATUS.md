@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (three-chapters)
 
-**आख़िरी update:** 17-11-2026 01:06 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 08:13 PM
+**आख़िरी update:** 17-11-2026 01:21 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 08:13 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 110 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -41,17 +39,11 @@
 - Chapter 02 shabd bhed (Hindi) — 4 बार
 - Chapter 01 varn vartani (Hindi) — 2 बार
 - Chapter 02 input output ports (Computer) — 2 बार
+- Chapter 03 sangya sarvanam (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 00:21:35   [sangya_sarvanam] REJECTED Practice_hi_Set_02.txt: no translation passed the checks — not written
-17-11 00:22:54   [sangya_sarvanam] Practice_en_Set_03.txt try 1: rejected (Q57:duplicate_options,Q73:duplicate_options)
-17-11 00:24:07   [sangya_sarvanam] Practice_en_Set_03.txt try 2: rejected (Q57:duplicate_options)
-17-11 00:24:12   [varn_vartani] Practice_en_Set_06.txt try 4: re-solve disagrees (Q134 key c vs re-solve b, Q139 key c vs re-solve ?, Q143 key d vs re-solve a, Q145 key d vs re-solve
-17-11 00:24:12   [varn_vartani] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
-17-11 00:24:12   [varn_vartani] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-17-11 00:24:12   [varn_vartani] written 0, failed 7; AI calls today 27/100000
 17-11 00:24:12 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 87 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 05 en: todo'] problems []
 17-11 00:24:12 worker 0: nothing left
 17-11 00:25:25   [sangya_sarvanam] Practice_en_Set_03.txt try 3: rejected (parsed 24 questions, numbers 51…75)
@@ -85,4 +77,11 @@
 17-11 01:01:23   [sangya_sarvanam] Practice_en_Set_06.txt try 1: rejected (Q139:duplicate_options)
 17-11 01:05:53   [sangya_sarvanam] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 17-11 01:06:41   [sangya_sarvanam] Practice_hi_Set_06.txt try 1: rejected (Q136: tested Hindi text must be explicitly quoted; Q137: tested Hindi text must be explicitly quoted; Q138: te
+17-11 01:07:49   [sangya_sarvanam] Practice_hi_Set_06.txt try 2: rejected (Q136: tested Hindi text must be explicitly quoted; Q137: tested Hindi text must be explicitly quoted; Q138: te
+17-11 01:08:47   [sangya_sarvanam] Practice_hi_Set_06.txt try 3: rejected (Q136: tested Hindi text must be explicitly quoted; Q137: tested Hindi text must be explicitly quoted; Q138: te
+17-11 01:09:33   [sangya_sarvanam] Practice_hi_Set_06.txt try 4: rejected (parsed 24 questions, numbers 126…150)
+17-11 01:09:33   [sangya_sarvanam] REJECTED Practice_hi_Set_06.txt: no translation passed the checks — not written
+17-11 01:09:33   [sangya_sarvanam] written 18, failed 7; AI calls today 63/100000
+17-11 01:09:33 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 113 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 en: todo', 'Set 03 hi: todo'] problems []
+17-11 01:09:33 worker 1: nothing left
 ```
