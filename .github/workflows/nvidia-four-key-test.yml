@@ -1,0 +1,93 @@
+name: NVIDIA four-key live check
+on:
+  push:
+    branches: ['codex/nvidia-four-keys-20261116']
+permissions:
+  contents: read
+  statuses: write
+jobs:
+  probe:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - label: key1
+            secret: NVIDIA_API_KEY
+          - label: key2
+            secret: NVIDIA_API_KEY_2
+          - label: key3
+            secret: NVIDIA_API_KEY_3
+          - label: key4
+            secret: NVIDIA_API_KEY_4
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Small live inference test
+        id: probe
+        env:
+          API_KEY: ${{ secrets[matrix.secret] }}
+        shell: python
+        run: |
+          import json, os, signal, time, urllib.error, urllib.request
+          def timeout(signum, frame):
+              raise TimeoutError()
+          signal.signal(signal.SIGALRM, timeout)
+          key = os.environ.get('API_KEY', '').strip()
+          results = []
+          if not key:
+              results = [('secret', 'missing')]
+          else:
+              for label, model in [('writer', 'z-ai/glm-5.3'), ('flash', 'z-ai/glm-5.3-flash')]:
+                  payload = {'model': model, 'messages': [{'role': 'user', 'content': 'Reply with exactly OK, no explanation.'}],
+                             'max_tokens': 512, 'temperature': 0, 'stream': True}
+                  request = urllib.request.Request('https://integrate.api.nvidia.com/v1/chat/completions',
+                      json.dumps(payload).encode(), {'Authorization': 'Bearer ' + key, 'Content-Type': 'application/json',
+                                                    'Accept': 'text/event-stream'})
+                  start = time.monotonic()
+                  signal.alarm(50)
+                  try:
+                      text, size = [], 0
+                      with urllib.request.urlopen(request, timeout=40) as response:
+                          for raw in response:
+                              size += len(raw)
+                              if size > 262144:
+                                  break
+                              line = raw.decode('utf-8', 'replace').strip()
+                              if not line.startswith('data:'):
+                                  continue
+                              data = line[5:].strip()
+                              if data == '[DONE]':
+                                  break
+                              obj = json.loads(data)
+                              choices = obj.get('choices', [])
+                              if choices:
+                                  text.append((choices[0].get('delta') or {}).get('content') or '')
+                      result = 'ok' if ''.join(text).strip() else 'http200_no_final_text'
+                  except urllib.error.HTTPError as exc:
+                      result = 'http_' + str(exc.code)
+                  except (urllib.error.URLError, TimeoutError, OSError):
+                      result = 'network_or_timeout'
+                  except Exception:
+                      result = 'invalid_response'
+                  finally:
+                      signal.alarm(0)
+                  print(label + ': ' + result + ' (' + str(round(time.monotonic()-start,1)) + 's)', flush=True)
+                  results.append((label, result))
+          summary = '; '.join(k + '=' + v for k,v in results)
+          state = 'success' if any(v == 'ok' for k,v in results) else 'failure'
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write('summary=' + summary + '\nstate=' + state + '\n')
+      - name: Record safe result
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RESULT_STATE: ${{ steps.probe.outputs.state }}
+          RESULT_SUMMARY: ${{ steps.probe.outputs.summary }}
+          KEY_LABEL: ${{ matrix.label }}
+        run: |
+          gh api --silent --method POST "repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA" \
+            -f state="${RESULT_STATE:-error}" -f context="nvidia-four-key-$KEY_LABEL" \
+            -f description="${RESULT_SUMMARY:-Test did not complete}" \
+            -f target_url="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          echo "$KEY_LABEL: ${RESULT_SUMMARY:-Test did not complete}"
+          test "$RESULT_STATE" = success
