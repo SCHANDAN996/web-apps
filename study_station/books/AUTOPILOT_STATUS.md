@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (two-chapters)
 
-**आख़िरी update:** 16-11-2026 07:11 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 02:49 PM
+**आख़िरी update:** 16-11-2026 07:26 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 02:49 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 input output ports (12th Computer) | 🔎 review हो रहा है | 18 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 50 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 65 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -41,24 +40,11 @@
 
 - Chapter 01 varn vartani (Hindi) — 4 बार
 - Chapter 02 shabd bhed (Hindi) — 4 बार
+- Chapter 02 input output ports (Computer) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-16-11 18:26:47   [sangya_sarvanam] wrote Flashcards_en.txt (3883 chars)
-16-11 18:27:11   [sangya_sarvanam] wrote Flashcards_hi.txt (3008 chars)
-16-11 18:28:12   [sangya_sarvanam] wrote PYQ_en.txt (7864 chars)
-16-11 18:28:52   [input_output_ports] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-16-11 18:29:10   [sangya_sarvanam] wrote PYQ_hi.txt (7137 chars)
-16-11 18:29:51   [input_output_ports] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-16-11 18:30:29   [sangya_sarvanam] wrote Important_Rules_en.txt (11912 chars)
-16-11 18:32:28   [sangya_sarvanam] wrote Important_Rules_hi.txt (10302 chars)
-16-11 18:33:21   [sangya_sarvanam] Practice_en_Set_01.txt try 1: rejected (Q16:duplicate_options)
-16-11 18:34:36   [input_output_ports] Practice_en_Set_04.txt try 1: re-solve disagrees (Q100 key b vs re-solve a)
-16-11 18:36:29   [sangya_sarvanam] Practice_en_Set_01.txt try 2: re-solve disagrees (Q18 key d vs re-solve b)
-16-11 18:37:34   [input_output_ports] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-16-11 18:38:31   [sangya_sarvanam] Practice_en_Set_01.txt try 3: re-solve disagrees (Q18 key a vs re-solve d)
-16-11 18:40:50   [input_output_ports] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 16-11 18:41:59   [sangya_sarvanam] Practice_en_Set_01.txt try 4: re-solve disagrees (Q18 key a vs re-solve d)
 16-11 18:41:59   [sangya_sarvanam] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
 16-11 18:41:59   [sangya_sarvanam] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
@@ -85,4 +71,18 @@
 16-11 19:06:26   [input_output_ports] review Feynman_en.txt: 1 issue(s): - The worked example claims DisplayPort Alt Mode 1.2 limits 4K to 30 Hz → DisplayPort 1.2 supports 4K@60 Hz; the 30
 16-11 19:07:59   [input_output_ports] review Feynman_hi.txt: 1 issue(s): - USB पोर्ट के रंग कोड को आधिकारिक मानक बताना गलत है → USB पोर्ट के रंग का कोई आधिकारिक मानक नहीं है; यह केवल निर्म
 16-11 19:09:15   [sangya_sarvanam] Practice_en_Set_03.txt try 1: re-solve disagrees (Q65 key b vs re-solve d)
+16-11 19:11:50   [input_output_ports] review PYQ_hi.txt: 1 issue(s): - Section 3 के PYQ-style उदाहरण में दो विकल्प सही हैं: (b) SATA III — 6 Gbps और (c) PCIe 3.0 x1 ≈ 8 Gbps, लेकिन उत्तर क
+16-11 19:13:05   [sangya_sarvanam] Practice_en_Set_03.txt try 2: re-solve disagrees (Q65 key b vs re-solve d)
+16-11 19:15:36   [input_output_ports] review Important_Rules_en.txt: 1 issue(s): - Rule 6: "Amber/Orange steady: 10 Mbps link" is incorrect; typically Amber/Orange indicates 100 Mbps, whil
+16-11 19:16:55   [sangya_sarvanam] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+16-11 19:17:39   [input_output_ports] review: 6 section(s) corrected, 2 failed
+16-11 19:17:39   [input_output_ports] written 6, failed 2; AI calls today 446/100000
+16-11 19:17:39 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_02_input_output_ports after 82 min: todo [] problems []
+16-11 19:17:39 worker 0: nothing left
+16-11 19:18:04   [sangya_sarvanam] Practice_hi_Set_03.txt try 1: rejected (Q58: tested Hindi text changed between languages; Q65: Hindi subject options changed between languages; Q66: t
+16-11 19:18:58   [sangya_sarvanam] Practice_hi_Set_03.txt try 2: rejected (Q58: tested Hindi text changed between languages; Q65: Hindi subject options changed between languages; Q66: t
+16-11 19:20:06   [sangya_sarvanam] Practice_hi_Set_03.txt try 3: rejected (Q58: tested Hindi text changed between languages; Q65: Hindi subject options changed between languages; Q66: t
+16-11 19:21:15   [sangya_sarvanam] Practice_hi_Set_03.txt try 4: rejected (Q58: tested Hindi text changed between languages; Q65: Hindi subject options changed between languages; Q66: t
+16-11 19:21:15   [sangya_sarvanam] REJECTED Practice_hi_Set_03.txt: no translation passed the checks — not written
+16-11 19:24:43   [sangya_sarvanam] Practice_en_Set_04.txt try 1: re-solve disagrees (Q82 key a vs re-solve ?, Q86 key d vs re-solve ?, Q91 key c vs re-solve ?, Q92 key d vs re-solve ?, 
 ```
