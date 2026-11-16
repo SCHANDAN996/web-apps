@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (two-chapters)
 
-**आख़िरी update:** 16-11-2026 03:51 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 02:49 PM
+**आख़िरी update:** 16-11-2026 04:06 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 02:49 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 62 मिनट |
-| W2 | Chapter 02 shabd bhed (10th Hindi) | ✍️ लिख रहा है | 5 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 77 मिनट |
+| W2 | Chapter 02 shabd bhed (10th Hindi) | ✍️ लिख रहा है | 21 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -40,24 +40,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-16-11 15:23:20   [organization_cpu] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-16-11 15:23:54   [varn_vartani] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-16-11 15:24:44   [organization_cpu] Practice_en_Set_06.txt try 1: re-solve disagrees (Q147 key a vs re-solve c)
-16-11 15:25:07   [varn_vartani] Practice_hi_Set_03.txt try 1: rejected (parsed 24 questions, numbers 51…75)
-16-11 15:25:59   [varn_vartani] Practice_hi_Set_03.txt try 2: rejected (Q53: tested Hindi text must be explicitly quoted; Q54: tested Hindi text must be explicitly quoted; Q56: teste
-16-11 15:26:50   [varn_vartani] Practice_hi_Set_03.txt try 3: rejected (Q53: tested Hindi text must be explicitly quoted; Q54: tested Hindi text must be explicitly quoted; Q56: teste
-16-11 15:27:22   [organization_cpu] Practice_en_Set_06.txt try 2: re-solve disagrees (Q129 key a vs re-solve ?)
-16-11 15:27:46   [varn_vartani] Practice_hi_Set_03.txt try 4: rejected (parsed 24 questions, numbers 51…75)
-16-11 15:27:46   [varn_vartani] REJECTED Practice_hi_Set_03.txt: no translation passed the checks — not written
-16-11 15:28:31   [varn_vartani] Practice_en_Set_04.txt try 1: rejected (Q77:duplicate_options,Q86:duplicate_options,Q87:duplicate_options,Q94:duplicate_options)
-16-11 15:29:22   [organization_cpu] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-16-11 15:30:07   [organization_cpu] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-16-11 15:30:07   [organization_cpu] written 23, failed 2; AI calls today 80/100000
-16-11 15:30:07 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_01_organization_cpu after 41 min: todo ['Set 02 en: todo', 'Set 02 hi: todo'] problems []
-16-11 15:30:07 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_01_organization_cpu (TODO: todo 2, problems 0)
-16-11 15:31:53   [varn_vartani] Practice_en_Set_04.txt try 2: rejected (Q77:duplicate_options,Q86:duplicate_options,Q87:duplicate_options,Q94:duplicate_options)
-16-11 15:33:34   [organization_cpu] Practice_en_Set_02.txt try 1: re-solve disagrees (Q45 key b vs re-solve c)
-16-11 15:33:42   [varn_vartani] Practice_en_Set_04.txt try 3: rejected (Q77:duplicate_options)
 16-11 15:36:26   [organization_cpu] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 16-11 15:37:18   [organization_cpu] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 16-11 15:37:18   [organization_cpu] written 2, failed 0; AI calls today 90/100000
@@ -80,4 +62,22 @@
 16-11 15:50:49   [shabd_bhed] wrote Feynman_hi.txt (4006 chars)
 16-11 15:50:55   [varn_vartani] Practice_en_Set_05.txt try 3: re-solve disagrees (Q123 key d vs re-solve ?, Q125 key a vs re-solve ?)
 16-11 15:50:55   [shabd_bhed] wrote Mind_Map.txt (1027 chars)
+16-11 15:51:39   [shabd_bhed] wrote Flashcards_en.txt (4158 chars)
+16-11 15:52:13   [shabd_bhed] wrote Flashcards_hi.txt (4357 chars)
+16-11 15:53:06   [shabd_bhed] wrote PYQ_en.txt (7571 chars)
+16-11 15:53:59   [shabd_bhed] wrote PYQ_hi.txt (6516 chars)
+16-11 15:55:27   [varn_vartani] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+16-11 15:55:32   [shabd_bhed] wrote Important_Rules_en.txt (18169 chars)
+16-11 15:56:15   [shabd_bhed] wrote Important_Rules_hi.txt (5997 chars)
+16-11 15:56:17   [varn_vartani] Practice_hi_Set_05.txt try 1: rejected (Q103: tested Hindi text must be explicitly quoted; Q104: tested Hindi text must be explicitly quoted; Q106: te
+16-11 15:57:07   [varn_vartani] Practice_hi_Set_05.txt try 2: rejected (Q103: tested Hindi text must be explicitly quoted; Q104: tested Hindi text must be explicitly quoted; Q106: te
+16-11 15:57:19   [shabd_bhed] Practice_en_Set_01.txt try 1: rejected (Q15:leaked_reasoning)
+16-11 15:57:46   [varn_vartani] Practice_hi_Set_05.txt try 3: rejected (Q103: tested Hindi text must be explicitly quoted; Q104: tested Hindi text must be explicitly quoted; Q106: te
+16-11 15:58:22   [varn_vartani] Practice_hi_Set_05.txt try 4: rejected (Q103: tested Hindi text must be explicitly quoted; Q104: tested Hindi text must be explicitly quoted; Q106: te
+16-11 15:58:22   [varn_vartani] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
+16-11 15:59:22   [varn_vartani] Practice_en_Set_06.txt try 1: rejected (Q148:leaked_reasoning,Q149:leaked_reasoning,Q150:leaked_reasoning,Q129:duplicate_options,Q133:duplicate_option
+16-11 16:01:39   [varn_vartani] Practice_en_Set_06.txt try 2: rejected (Q136:duplicate_options,Q139:duplicate_options)
+16-11 16:01:41   [shabd_bhed] Practice_en_Set_01.txt try 2: re-solve disagrees (Q1 key c vs re-solve ?, Q14 key d vs re-solve ?)
+16-11 16:03:51   [varn_vartani] Practice_en_Set_06.txt try 3: re-solve disagrees (Q149 key d vs re-solve ?)
+16-11 16:06:31   [shabd_bhed] Practice_en_Set_01.txt try 3: re-solve disagrees (Q11 key c vs re-solve b, Q22 key a vs re-solve b)
 ```
