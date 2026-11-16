@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (two-chapters)
 
-**आख़िरी update:** 16-11-2026 06:55 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 02:49 PM
+**आख़िरी update:** 16-11-2026 07:11 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 02:49 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 02 input output ports (12th Computer) | 🔎 review हो रहा है | 3 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 34 मिनट |
+| W1 | Chapter 02 input output ports (12th Computer) | 🔎 review हो रहा है | 18 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 50 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -45,21 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-16-11 18:20:52   [shabd_bhed] Practice_hi_Set_06.txt try 4: rejected (Q129: tested Hindi text changed between languages; Q132: tested Hindi text changed between languages; Q136: te
-16-11 18:20:52   [shabd_bhed] REJECTED Practice_hi_Set_06.txt: no translation passed the checks — not written
-16-11 18:20:52   [shabd_bhed] written 0, failed 4; AI calls today 354/100000
-16-11 18:20:52 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_02_shabd_bhed after 19 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 04 hi: todo', 'Set 06 hi: todo'] problems ['Important_Rules_hi.txt: much shorter than the English sectio', 'Key_Facts_en.txt: English file contains a lot of Hindi', 'Set 01 Practice_en_Set_01.txt: English file contains a lot o', 'Set 02 Practice_en_Set_02.txt: English file contains a lot o']
-16-11 18:20:53 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (TODO: todo 25, problems 0)
-16-11 18:22:05   [sangya_sarvanam] wrote Content_en.txt (9679 chars)
-16-11 18:22:05   [input_output_ports] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-16-11 18:23:06   [input_output_ports] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-16-11 18:23:31   [sangya_sarvanam] wrote Content_hi.txt (9742 chars)
-16-11 18:24:06   [sangya_sarvanam] wrote Key_Facts_en.txt (3857 chars)
-16-11 18:25:02   [sangya_sarvanam] wrote Key_Facts_hi.txt (5559 chars)
-16-11 18:25:30   [sangya_sarvanam] wrote Feynman_en.txt (3328 chars)
-16-11 18:25:46   [input_output_ports] Practice_en_Set_03.txt try 1: re-solve disagrees (Q66 key d vs re-solve a, Q72 key d vs re-solve c)
-16-11 18:26:07   [sangya_sarvanam] wrote Feynman_hi.txt (4242 chars)
-16-11 18:26:27   [sangya_sarvanam] wrote Mind_Map.txt (1150 chars)
 16-11 18:26:47   [sangya_sarvanam] wrote Flashcards_en.txt (3883 chars)
 16-11 18:27:11   [sangya_sarvanam] wrote Flashcards_hi.txt (3008 chars)
 16-11 18:28:12   [sangya_sarvanam] wrote PYQ_en.txt (7864 chars)
@@ -85,4 +70,19 @@
 16-11 18:52:19   [input_output_ports] written 25, failed 0; AI calls today 399/100000
 16-11 18:52:29   [sangya_sarvanam] Practice_en_Set_02.txt try 1: re-solve disagrees (Q26 key b vs re-solve ?, Q33 key b vs re-solve ?, Q40 key a vs re-solve ?, Q48 key d vs re-solve b)
 16-11 18:53:25   [input_output_ports] review Content_en.txt: 1 issue(s): - Example 6 claims HDMI 2.1 can carry 8K 60 Hz 4:4:4 10-bit without compression (DSC), but HDMI 2.1's 48 Gbps bandw
+16-11 18:56:58   [input_output_ports] review Content_hi.txt: 1 issue(s): - HDMI 2.0 के लिए eARC सूचीबद्ध है → HDMI 2.0 में ARC होता है; eARC HDMI 2.1 से शुरू हुआ
+16-11 18:57:11   [sangya_sarvanam] Practice_en_Set_02.txt try 2: re-solve disagrees (Q48 key a vs re-solve b)
+16-11 19:00:08   [input_output_ports] review Key_Facts_en.txt: 1 issue(s): - Point 7: RS-232 maximum standard speed is 20 kbps per the TIA‑232 specification, not 115.2 kbps → Correct to “M
+16-11 19:00:38   [sangya_sarvanam] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+16-11 19:01:27   [input_output_ports] REJECTED review fix Key_Facts_en.txt: reviewer still reports - Cat7/8 speed claim (25/40 Gbps) is inaccurate for Cat7 → Cat7 supports 10 Gbps (Cat7a u
+16-11 19:01:33   [sangya_sarvanam] Practice_hi_Set_02.txt try 1: rejected (Q38: tested Hindi text changed between languages; Q45: tested Hindi text changed between languages; Q50: teste
+16-11 19:02:15   [input_output_ports] review Key_Facts_hi.txt: 2 issue(s): - "वर्तमान मानक" without a year in the USB Type‑C description (point 16) → add a year or remove the phrase, e.g.,
+16-11 19:02:29   [sangya_sarvanam] Practice_hi_Set_02.txt try 2: rejected (Q38: tested Hindi text changed between languages; Q45: tested Hindi text changed between languages; Q50: teste
+16-11 19:03:17   [sangya_sarvanam] Practice_hi_Set_02.txt try 3: rejected (Q38: tested Hindi text changed between languages; Q45: tested Hindi text changed between languages; Q50: teste
+16-11 19:04:01   [sangya_sarvanam] Practice_hi_Set_02.txt try 4: rejected (Q38: tested Hindi text changed between languages; Q45: tested Hindi text changed between languages; Q50: teste
+16-11 19:04:01   [sangya_sarvanam] REJECTED Practice_hi_Set_02.txt: no translation passed the checks — not written
+16-11 19:05:35   [input_output_ports] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 1 lists OCR and MICR as input devices; they are recognition technologies, not dev
+16-11 19:06:26   [input_output_ports] review Feynman_en.txt: 1 issue(s): - The worked example claims DisplayPort Alt Mode 1.2 limits 4K to 30 Hz → DisplayPort 1.2 supports 4K@60 Hz; the 30
+16-11 19:07:59   [input_output_ports] review Feynman_hi.txt: 1 issue(s): - USB पोर्ट के रंग कोड को आधिकारिक मानक बताना गलत है → USB पोर्ट के रंग का कोई आधिकारिक मानक नहीं है; यह केवल निर्म
+16-11 19:09:15   [sangya_sarvanam] Practice_en_Set_03.txt try 1: re-solve disagrees (Q65 key b vs re-solve d)
 ```
