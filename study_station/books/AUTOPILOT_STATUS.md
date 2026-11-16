@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (three-chapters)
 
-**आख़िरी update:** 17-11-2026 01:21 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 08:13 PM
+**आख़िरी update:** 17-11-2026 01:22 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 08:13 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -44,7 +44,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 00:24:12 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 87 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 05 en: todo'] problems []
 17-11 00:24:12 worker 0: nothing left
 17-11 00:25:25   [sangya_sarvanam] Practice_en_Set_03.txt try 3: rejected (parsed 24 questions, numbers 51…75)
 17-11 00:25:40   [input_output_ports] review PYQ_hi.txt: 2 issue(s): - Example 1 (पहचान-आधारित) का प्रश्न एक पोर्ट का वर्णन करता है जिसमें '19 पिन, तीन पंक्तियाँ, एनालॉग वीडियो' है, लेकिन 
@@ -84,4 +83,5 @@
 17-11 01:09:33   [sangya_sarvanam] written 18, failed 7; AI calls today 63/100000
 17-11 01:09:33 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 113 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 en: todo', 'Set 03 hi: todo'] problems []
 17-11 01:09:33 worker 1: nothing left
+17-11 01:22:08 autopilot end: done 0, failed 4
 ```
