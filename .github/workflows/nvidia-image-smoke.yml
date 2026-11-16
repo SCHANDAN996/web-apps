@@ -1,0 +1,65 @@
+name: NVIDIA image smoke test
+on:
+  push:
+    branches: ['codex/nvidia-image-smoke-20261116']
+    paths: ['.github/workflows/nvidia-image-smoke.yml']
+permissions:
+  contents: read
+jobs:
+  image:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    strategy:
+      fail-fast: false
+      matrix:
+        model: [flux, sd3]
+        key: ['3', '4']
+    env:
+      TEST_MODEL: ${{ matrix.model }}
+      KEY_SLOT: ${{ matrix.key }}
+      TEST_KEY: ${{ matrix.key == '3' && secrets.NVIDIA_API_KEY_3 || secrets.NVIDIA_API_KEY_4 }}
+    steps:
+      - name: Test documented image endpoint
+        shell: python
+        run: |
+          import os,json,time,urllib.request,urllib.error,base64,pathlib
+          prompt='Create a clean educational book cover illustration for Hindi-speaking competitive exam learners: an Indian student at a desk with books and a small plant, navy and gold palette, crisp professional editorial style. At the top write exactly the Hindi title "सामान्य हिंदी" and below it "अभ्यास पुस्तक". Square composition, no watermark.'
+          key=os.environ['TEST_KEY'].strip()
+          name=os.environ['TEST_MODEL']
+          out=pathlib.Path('image-test');out.mkdir(exist_ok=True)
+          if name=='flux':
+              endpoint='black-forest-labs/flux.1-schnell'
+              payload=dict(prompt=prompt,width=1024,height=1024,steps=4,seed=42)
+          else:
+              endpoint='stabilityai/stable-diffusion-3-medium'
+              payload=dict(prompt=prompt,aspect_ratio='1:1',mode='text-to-image',model='sd3',output_format='jpeg',steps=30,seed=42)
+          result=dict(model=endpoint,key_slot=os.environ['KEY_SLOT'],prompt=prompt)
+          start=time.monotonic()
+          try:
+              req=urllib.request.Request('https://ai.api.nvidia.com/v1/genai/'+endpoint,data=json.dumps(payload).encode(),headers={'Authorization':'Bearer '+key,'Content-Type':'application/json','Accept':'application/json'})
+              with urllib.request.urlopen(req,timeout=100) as response:
+                  result['http']=response.status
+                  data=json.load(response)
+              imgs=data.get('artifacts',data.get('data',[]))
+              count=0
+              for item in imgs:
+                  encoded=item.get('base64') or item.get('b64_json')
+                  if encoded:
+                      raw=base64.b64decode(encoded,validate=True)
+                      if raw.startswith(b'\x89PNG') or raw.startswith(b'\xff\xd8'):
+                          (out/('sample-'+str(count)+'.jpg')).write_bytes(raw);count+=1
+              result['valid_images']=count
+              result['status']='image_received' if count else 'no_decodable_image'
+          except urllib.error.HTTPError as e:
+              result.update(http=e.code,status='http_error')
+          except Exception as e:
+              result.update(status=type(e).__name__)
+          result['seconds']=round(time.monotonic()-start,2)
+          (out/'result.json').write_text(json.dumps(result,ensure_ascii=False,indent=2))
+          print(json.dumps(result,ensure_ascii=False))
+          
+      - uses: actions/upload-artifact@v4
+        with:
+          name: image-${{ matrix.model }}-key${{ matrix.key }}
+          path: image-test/
+          retention-days: 7
