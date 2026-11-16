@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (two-chapters)
 
-**आख़िरी update:** 16-11-2026 03:20 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 02:49 PM
+**आख़िरी update:** 16-11-2026 03:35 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 02:49 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
-| W2 | Chapter 01 organization cpu (12th Computer) | ✍️ लिख रहा है | 31 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 46 मिनट |
+| W2 | Chapter 01 organization cpu (12th Computer) | ✍️ लिख रहा है | 5 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -37,28 +37,13 @@
 
 - अभी कोई नहीं
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 01 organization cpu (Computer) — 1 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-16-11 14:55:35   [organization_cpu] wrote Flashcards_hi.txt (6471 chars)
-16-11 14:56:12   [organization_cpu] wrote PYQ_en.txt (5878 chars)
-16-11 14:56:16   [varn_vartani] wrote Flashcards_en.txt (4068 chars)
-16-11 14:56:53   [varn_vartani] wrote Flashcards_hi.txt (3520 chars)
-16-11 14:57:27   [varn_vartani] wrote PYQ_en.txt (5660 chars)
-16-11 14:57:31   [organization_cpu] wrote PYQ_hi.txt (7712 chars)
-16-11 14:58:22   [organization_cpu] wrote Important_Rules_en.txt (8707 chars)
-16-11 14:58:34   [varn_vartani] wrote PYQ_hi.txt (6737 chars)
-16-11 14:59:10   [organization_cpu] wrote Important_Rules_hi.txt (5522 chars)
-16-11 14:59:18   [varn_vartani] wrote Important_Rules_en.txt (7388 chars)
-16-11 15:00:06   [varn_vartani] wrote Important_Rules_hi.txt (4238 chars)
-16-11 15:00:15   [organization_cpu] Practice_en_Set_01.txt try 1: rejected (Q21:answer_solution_conflict,Q23:leaked_reasoning)
-16-11 15:01:02   [organization_cpu] Practice_en_Set_01.txt try 2: rejected (Q21:answer_solution_conflict,Q23:answer_solution_conflict)
-16-11 15:01:46   [varn_vartani] Practice_en_Set_01.txt try 1: rejected (Q3:duplicate_options,Q4:duplicate_options,Q6:duplicate_options,Q8:duplicate_options,Q9:duplicate_options)
-16-11 15:03:19   [organization_cpu] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-16-11 15:04:20   [organization_cpu] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-16-11 15:05:21   [organization_cpu] Practice_en_Set_02.txt try 1: rejected (Q50:leaked_reasoning)
-16-11 15:05:46   [varn_vartani] Practice_en_Set_01.txt try 2: rejected (Q4:duplicate_options,Q6:duplicate_options,Q23:duplicate_options)
-16-11 15:06:22   [organization_cpu] Practice_en_Set_02.txt try 2: rejected (Q50:leaked_reasoning)
 16-11 15:07:07   [varn_vartani] Practice_en_Set_01.txt try 3: rejected (Q4:duplicate_options)
 16-11 15:08:37   [organization_cpu] Practice_en_Set_02.txt try 3: rejected (Q50:leaked_reasoning)
 16-11 15:10:57   [varn_vartani] wrote Practice_en_Set_01.txt (write, 25 MCQs)
@@ -80,4 +65,23 @@
 16-11 15:18:27   [varn_vartani] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
 16-11 15:19:38   [organization_cpu] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 16-11 15:20:20   [organization_cpu] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+16-11 15:22:37   [organization_cpu] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+16-11 15:23:20   [organization_cpu] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+16-11 15:23:54   [varn_vartani] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+16-11 15:24:44   [organization_cpu] Practice_en_Set_06.txt try 1: re-solve disagrees (Q147 key a vs re-solve c)
+16-11 15:25:07   [varn_vartani] Practice_hi_Set_03.txt try 1: rejected (parsed 24 questions, numbers 51…75)
+16-11 15:25:59   [varn_vartani] Practice_hi_Set_03.txt try 2: rejected (Q53: tested Hindi text must be explicitly quoted; Q54: tested Hindi text must be explicitly quoted; Q56: teste
+16-11 15:26:50   [varn_vartani] Practice_hi_Set_03.txt try 3: rejected (Q53: tested Hindi text must be explicitly quoted; Q54: tested Hindi text must be explicitly quoted; Q56: teste
+16-11 15:27:22   [organization_cpu] Practice_en_Set_06.txt try 2: re-solve disagrees (Q129 key a vs re-solve ?)
+16-11 15:27:46   [varn_vartani] Practice_hi_Set_03.txt try 4: rejected (parsed 24 questions, numbers 51…75)
+16-11 15:27:46   [varn_vartani] REJECTED Practice_hi_Set_03.txt: no translation passed the checks — not written
+16-11 15:28:31   [varn_vartani] Practice_en_Set_04.txt try 1: rejected (Q77:duplicate_options,Q86:duplicate_options,Q87:duplicate_options,Q94:duplicate_options)
+16-11 15:29:22   [organization_cpu] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+16-11 15:30:07   [organization_cpu] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+16-11 15:30:07   [organization_cpu] written 23, failed 2; AI calls today 80/100000
+16-11 15:30:07 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_01_organization_cpu after 41 min: todo ['Set 02 en: todo', 'Set 02 hi: todo'] problems []
+16-11 15:30:07 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_01_organization_cpu (TODO: todo 2, problems 0)
+16-11 15:31:53   [varn_vartani] Practice_en_Set_04.txt try 2: rejected (Q77:duplicate_options,Q86:duplicate_options,Q87:duplicate_options,Q94:duplicate_options)
+16-11 15:33:34   [organization_cpu] Practice_en_Set_02.txt try 1: re-solve disagrees (Q45 key b vs re-solve c)
+16-11 15:33:42   [varn_vartani] Practice_en_Set_04.txt try 3: rejected (Q77:duplicate_options)
 ```
