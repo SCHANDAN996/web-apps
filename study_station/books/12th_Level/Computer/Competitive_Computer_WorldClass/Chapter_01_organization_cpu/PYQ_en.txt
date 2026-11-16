@@ -1,0 +1,104 @@
+**PYQ Pattern Analysis — Computer Organization and CPU**
+
+**1. Core Sub-topics That Recur**
+Examiners consistently draw questions from these areas:
+- CPU internal structure: ALU, Control Unit, Registers (PC, IR, MAR, MDR, Accumulator, Flag Register)
+- Instruction cycle: Fetch → Decode → Execute (and interrupt check)
+- Memory hierarchy: Registers → Cache (L1/L2/L3) → RAM → Secondary storage; volatile vs non-volatile
+- Addressing modes: Immediate, Direct, Indirect, Register, Register-Indirect, Indexed, Base-Relative
+- Number systems & data representation: Binary, Octal, Hexadecimal conversions; 1’s/2’s complement; ASCII/Unicode
+- Boolean algebra & logic gates: AND, OR, NOT, NAND, NOR, XOR, XNOR; truth tables; simplification (De Morgan’s laws)
+- I/O organisation: Programmed I/O, Interrupt-driven I/O, DMA; interrupt types (maskable, non-maskable, software)
+- Pipelining basics: Stages, speedup, hazards (structural, data, control)
+- Computer classification: By size (micro, mini, mainframe, super), by generation (1st–5th), by purpose (general, special)
+
+**2. Common Question Patterns**
+
+| Pattern | Description |
+|---------|-------------|
+| **Identify the component** | “Which register holds the address of the next instruction?” (PC) / “Which register holds the current instruction?” (IR) |
+| **Sequence ordering** | “Arrange the steps of the instruction cycle in correct order.” |
+| **True/False statement** | “Cache memory is slower than main memory.” (False — cache is faster) |
+| **Negative phrasing** | “Which of the following is NOT a function of the ALU?” / “Which is NOT a volatile memory?” |
+| **Matching** | Match addressing mode with its description / Match register with its function |
+| **Calculation** | “If a memory has 2¹⁴ address lines and 16-bit data bus, what is its capacity?” (2¹⁴ × 16 bits = 2¹⁵ bytes = 32 KB) |
+| **Logic gate output** | “Output of XOR gate when inputs are 1 and 0?” (1) |
+| **Conversion** | “Binary equivalent of (4A)₁₆?” / “2’s complement of 1011?” |
+| **Generational feature** | “ICs were introduced in which generation?” (3rd) / “VLSI in which generation?” (4th) |
+
+**3. Examiner Traps (Frequent Distractors)**
+
+- **Near-correct reversals**: “L2 cache is faster than L1” (L1 is fastest); “MAR holds data” (MAR holds address, MDR holds data); “PC holds current instruction” (PC holds next instruction address, IR holds current instruction).
+- **Terminology confusion**: “Virtual memory” ≠ “Cache memory”; “Interrupt” ≠ “Exception” (though related); “Throughput” ≠ “Latency”.
+- **Similar names**: MAR (Memory Address Register) vs MDR (Memory Data Register); PC (Program Counter) vs IR (Instruction Register); SRAM vs DRAM (SRAM faster, no refresh, costlier).
+- **Over-generalisation**: “All ROMs are non-volatile” (True) but “All non-volatile memories are ROM” (False — Flash, EEPROM are non-volatile but erasable).
+- **Hidden negatives**: “Which of the following is NOT an addressing mode?” — options include valid modes plus one invalid term like “Sequential addressing”.
+- **Unit traps**: Capacity asked in KB but options in MB/bytes; frequency in MHz vs GHz; bandwidth in bits vs bytes.
+
+**4. Worked PYQ-style Examples**
+
+**Example 1**  
+*Question:* Which register holds the address of the next instruction to be fetched?  
+(a) Instruction Register (IR)  
+(b) Program Counter (PC)  
+(c) Memory Address Register (MAR)  
+(d) Accumulator  
+*Answer:* (b)  
+*Solution:* PC stores the address of the next instruction. IR holds the current instruction; MAR holds the address for the current memory access; Accumulator holds arithmetic results.  
+*Source:* PYQ-style
+
+**Example 2**  
+*Question:* The correct sequence of the instruction cycle is:  
+(a) Fetch → Execute → Decode  
+(b) Decode → Fetch → Execute  
+(c) Fetch → Decode → Execute  
+(d) Execute → Fetch → Decode  
+*Answer:* (c)  
+*Solution:* Standard cycle: Fetch instruction from memory → Decode opcode → Execute operation. Interrupt check follows Execute.  
+*Source:* PYQ-style
+
+**Example 3**  
+*Question:* Which of the following is NOT a characteristic of RISC architecture?  
+(a) Fixed-length instructions  
+(b) Large number of addressing modes  
+(c) Load/Store architecture  
+(d) Hardwired control unit  
+*Answer:* (b)  
+*Solution:* RISC uses few, simple addressing modes. CISC has many addressing modes. Fixed-length instructions, load/store design, and hardwired control are RISC traits.  
+*Source:* PYQ-style
+
+**Example 4**  
+*Question:* 2’s complement of binary number 10110 is:  
+(a) 01010  
+(b) 01001  
+(c) 01011  
+(d) 01100  
+*Answer:* (a)  
+*Solution:* 1’s complement = 01001; add 1 → 01010.  
+*Source:* PYQ-style
+
+**Example 5**  
+*Question:* A CPU has 16 address lines and 8-bit data bus. Maximum addressable memory is:  
+(a) 64 KB  
+(b) 128 KB  
+(c) 32 KB  
+(d) 256 KB  
+*Answer:* (a)  
+*Solution:* 2¹⁶ addresses × 8 bits = 65,536 bytes = 64 KB.  
+*Source:* PYQ-style
+
+**5. Preparation Tips**
+- Memorise register functions (PC, IR, MAR, MDR, Accumulator, Flag) — one-liner each.
+- Draw the instruction cycle flowchart once; recall order under pressure.
+- Practise 10–15 conversions daily (binary↔hex, 1’s/2’s complement).
+- Learn logic gate truth tables by heart; NAND/NOR as universal gates.
+- Distinguish SRAM vs DRAM, ROM types (PROM, EPROM, EEPROM, Flash), Cache levels.
+- For addressing modes, write one example instruction per mode.
+- Revise generation features: 1st (vacuum tubes), 2nd (transistors), 3rd (ICs), 4th (VLSI/microprocessor), 5th (AI/parallel).
+- In the exam, read “NOT/EXCEPT” twice; eliminate obviously wrong options first.
+
+**6. Reliable Concept Sources**
+- NCERT Class 11 Computer Science (Computer System Organisation)
+- NCERT Class 12 Computer Science (Boolean Algebra, Memory)
+- NIELIT ‘O’ Level / ‘A’ Level syllabus (Computer Organisation)
+- Standard textbooks: Morris Mano (Computer System Architecture), Stallings (Computer Organization)

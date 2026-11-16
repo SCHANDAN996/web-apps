@@ -1,0 +1,149 @@
+51. Which component of the CPU performs arithmetic and logical operations?
+(a) Arithmetic Logic Unit (b) Control Unit (c) Register Array (d) System Bus
+Answer: (a)
+Solution: The Control Unit directs operations but does not execute calculations; the Arithmetic Logic Unit (ALU) is specifically designed for arithmetic and logical tasks, so the answer is Arithmetic Logic Unit.
+Source: NCERT Class 11 Computer Science
+
+52. What is the primary function of the Program Counter (PC) register?
+(a) Store the current instruction being executed (b) Manage interrupt priorities (c) Store the result of the last ALU operation (d) Hold the address of the next instruction to be fetched
+Answer: (d)
+Solution: The Instruction Register holds the current instruction; the Program Counter holds the address of the next instruction to maintain sequential execution, so the answer is Hold the address of the next instruction to be fetched.
+Source: PYQ-style
+
+53. In the fetch-decode-execute cycle, which step retrieves the instruction from memory?
+(a) Decode (b) Fetch (c) Execute (d) Write-back
+Answer: (b)
+Solution: Decode interprets the instruction and Execute carries it out; Fetch is the dedicated step that reads the instruction from memory using the Program Counter, so the answer is Fetch.
+Source: NCERT Class 11 Computer Science
+
+54. Which memory type is volatile and loses its contents when power is turned off?
+(a) RAM (b) Cache (c) ROM (d) Hard Disk
+Answer: (a)
+Solution: ROM and Hard Disk are non-volatile; Cache is also volatile but RAM is the main system memory that is volatile, so the answer is RAM.
+Source: PYQ-style
+
+55. What does the Memory Address Register (MAR) hold?
+(a) The data being read from or written to memory (b) The opcode of the current instruction (c) The address of the memory location to be accessed (d) The status flags of the last operation
+Answer: (c)
+Solution: The Memory Data Register (MDR) holds the data; MAR specifically holds the address for memory access, so the answer is The address of the memory location to be accessed.
+Source: PYQ-style
+
+56. Which addressing mode uses the register content as the effective address of the operand?
+(a) Immediate addressing (b) Register indirect addressing (c) Direct addressing (d) Indexed addressing
+Answer: (b)
+Solution: Immediate addressing includes the operand in the instruction; Direct addressing gives the address directly; Register indirect addressing uses a register to hold the operand address, so the answer is Register indirect addressing.
+Source: NCERT Class 12 Computer Science
+
+57. What is the main advantage of pipelining in a processor?
+(a) Reduces the clock cycle time (b) Eliminates data hazards (c) Simplifies the control unit design (d) Increases instruction throughput
+Answer: (d)
+Solution: Pipelining does not reduce clock cycle time or simplify control; it overlaps instruction stages to increase throughput, though hazards still occur, so the answer is Increases instruction throughput.
+Source: PYQ-style
+
+58. Which of the following is a characteristic of RISC architecture?
+(a) Large number of complex instructions (b) Variable-length instruction format (c) Load/store architecture with fixed-length instructions (d) Microprogrammed control unit
+Answer: (c)
+Solution: CISC has complex instructions and variable length; RISC uses load/store architecture with fixed-length instructions for simpler pipelining, so the answer is Load/store architecture with fixed-length instructions.
+Source: NCERT Class 12 Computer Science
+
+59. What is the purpose of the Stack Pointer (SP) register?
+(a) Point to the top of the stack in memory (b) Store the return address of a subroutine (c) Hold the base address of the data segment (d) Count the number of instructions executed
+Answer: (a)
+Solution: The Program Counter or Link Register may hold return addresses; the Stack Pointer specifically tracks the top of the stack for push/pop operations, so the answer is Point to the top of the stack in memory.
+Source: PYQ-style
+
+60. Which bus carries the memory address from the CPU to memory?
+(a) Data bus (b) Control bus (c) Address bus (d) System bus
+Answer: (c)
+Solution: The Data bus carries data; the Control bus carries signals; the Address bus is unidirectional and carries addresses from CPU to memory, so the answer is Address bus.
+Source: NCERT Class 11 Computer Science
+
+61. What happens during the "decode" phase of the instruction cycle?
+(a) The instruction is fetched from memory (b) The result is written back to a register (c) The ALU performs the calculation (d) The opcode is interpreted to determine the operation
+Answer: (d)
+Solution: Fetch retrieves the instruction; Execute performs the operation; Decode interprets the opcode to identify the operation and operands, so the answer is The opcode is interpreted to determine the operation.
+Source: PYQ-style
+
+62. Which register holds the instruction currently being executed?
+(a) Program Counter (b) Instruction Register (c) Memory Address Register (d) Accumulator
+Answer: (b)
+Solution: The Program Counter holds the next instruction address; the Instruction Register holds the current instruction after fetch, so the answer is Instruction Register.
+Source: NCERT Class 11 Computer Science
+
+63. What is the function of the Control Unit in the CPU?
+(a) Perform arithmetic calculations (b) Store temporary data (c) Generate control signals to coordinate CPU operations (d) Manage the system clock
+Answer: (c)
+Solution: The ALU performs calculations; registers store data; the Control Unit generates timing and control signals to orchestrate fetch, decode, execute, so the answer is Generate control signals to coordinate CPU operations.
+Source: PYQ-style
+
+64. Which of the following is NOT a type of CPU register?
+(a) Accumulator (b) Flag register (c) Index register (d) Cache memory
+Answer: (d)
+Solution: Accumulator, Flag register, and Index register are CPU registers; Cache memory is a separate high-speed memory unit, not a register, so the answer is Cache memory.
+Source: NCERT Class 11 Computer Science
+
+65. In immediate addressing mode, where is the operand located?
+(a) In a register (b) Within the instruction itself (c) In memory at a given address (d) At the top of the stack
+Answer: (b)
+Solution: Register addressing uses registers; direct addressing uses memory address; immediate addressing embeds the operand directly in the instruction, so the answer is Within the instruction itself.
+Source: PYQ-style
+
+66. What is the primary purpose of cache memory?
+(a) Reduce the average memory access time (b) Provide permanent storage for the operating system (c) Increase the capacity of main memory (d) Manage virtual memory paging
+Answer: (a)
+Solution: ROM provides permanent storage; cache is smaller than main memory; its purpose is to bridge the speed gap between CPU and RAM by reducing average access time, so the answer is Reduce the average memory access time.
+Source: NCERT Class 12 Computer Science
+
+67. Which interrupt has the highest priority in most microprocessor systems?
+(a) Maskable interrupt (b) Software interrupt (c) Non-maskable interrupt (NMI) (d) Timer interrupt
+Answer: (c)
+Solution: Maskable interrupts can be disabled; software interrupts are program-generated; Non-maskable interrupt (NMI) cannot be disabled and handles critical events like power failure, so the answer is Non-maskable interrupt (NMI).
+Source: PYQ-style
+
+68. What does the term "word size" refer to in computer architecture?
+(a) The number of bits in a memory address (b) The length of a machine instruction (c) The size of the instruction cache (d) The number of bits processed by the CPU in one operation
+Answer: (d)
+Solution: Address size may differ from word size; word size is the natural data unit the CPU processes (e.g., 32-bit, 64-bit), so the answer is The number of bits processed by the CPU in one operation.
+Source: NCERT Class 11 Computer Science
+
+69. Which component generates the system clock signal that synchronizes CPU operations?
+(a) Clock generator (b) Control Unit (c) ALU (d) System timer
+Answer: (a)
+Solution: The Control Unit uses the clock; the ALU executes operations; a dedicated clock generator (often a crystal oscillator circuit) produces the timing signal, so the answer is Clock generator.
+Source: PYQ-style
+
+70. In a von Neumann architecture, what is shared between instructions and data?
+(a) Cache memory only (b) The same memory space and bus (c) Separate memory but shared bus (d) Only the ALU
+Answer: (b)
+Solution: Harvard architecture uses separate memories; von Neumann uses a single memory space and bus for both instructions and data, so the answer is The same memory space and bus.
+Source: NCERT Class 11 Computer Science
+
+71. What is the effect of increasing the number of pipeline stages on clock frequency and latency per instruction?
+(a) Increases both clock frequency and latency (b) Increases clock frequency but may increase latency per instruction (c) Decreases clock frequency and decreases latency (d) No effect on either
+Answer: (b)
+Solution: More stages allow higher clock frequency (shorter stages) but each instruction passes through more stages, potentially increasing latency; hazards can also increase effective latency, so the answer is Increases clock frequency but may increase latency per instruction.
+Source: PYQ-style
+
+72. Which addressing mode is most suitable for implementing arrays or loops?
+(a) Indexed addressing (b) Direct addressing (c) Immediate addressing (d) Implied addressing
+Answer: (a)
+Solution: Immediate and direct addressing use fixed values; indexed addressing adds an index register to a base address, ideal for array traversal and loops, so the answer is Indexed addressing.
+Source: NCERT Class 12 Computer Science
+
+73. What is the role of the Memory Data Register (MDR)?
+(a) Hold the address of the memory location (b) Keep track of memory access permissions (c) Store the instruction opcode (d) Hold the data being transferred to or from memory
+Answer: (d)
+Solution: MAR holds the address; MDR is the buffer register that holds the actual data during memory read/write operations, so the answer is Hold the data being transferred to or from memory.
+Source: PYQ-style
+
+74. Which of the following best describes a superscalar processor?
+(a) Executes one instruction per clock cycle (b) Uses only a single pipeline stage (c) Can issue multiple instructions per clock cycle to multiple execution units (d) Relies solely on software for instruction scheduling
+Answer: (c)
+Solution: Scalar processors issue one instruction; superscalar processors have multiple pipelines/execution units to issue and execute multiple instructions simultaneously per cycle, so the answer is Can issue multiple instructions per clock cycle to multiple execution units.
+Source: PYQ-style
+
+75. In a memory hierarchy, which level is typically the smallest, fastest, and most expensive per bit?
+(a) Registers (b) Secondary storage (HDD/SSD) (c) Cache memory (L1/L2) (d) Main memory (RAM)
+Answer: (a)
+Solution: Cache is faster than RAM but slower than registers; registers are the smallest, fastest, and most expensive storage directly inside the CPU, so the answer is Registers.
+Source: NCERT Class 11 Computer Science

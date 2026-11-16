@@ -1,0 +1,46 @@
+```mermaid
+graph TD
+    A["कंप्यूटर संगठन / Computer Organization"] --> B["CPU / सीपीयू"]
+    A --> C["मेमोरी / Memory"]
+    A --> D["I/O सिस्टम / I/O System"]
+    A --> E["बस सिस्टम / Bus System"]
+    
+    B --> B1["नियंत्रण इकाई / Control Unit"]
+    B --> B2["अंकगणित तर्क इकाई / ALU"]
+    B --> B3["रजिस्टर / Registers"]
+    B --> B4["क्लॉक / Clock"]
+    
+    B1 --> B1a["निर्देश लाना / Fetch"]
+    B1 --> B1b["डिकोड करना / Decode"]
+    B1 --> B1c["निष्पादित करना / Execute"]
+    
+    B2 --> B2a["अंकगणित संक्रियाएं / Arithmetic Ops"]
+    B2 --> B2b["तर्क संक्रियाएं / Logical Ops"]
+    B2 --> B2c["शिफ्ट/रोटेट / Shift/Rotate"]
+    
+    B3 --> B3a["संचायक / Accumulator"]
+    B3 --> B3b["निर्देश रजिस्टर / IR"]
+    B3 --> B3c["प्रोग्राम काउंटर / PC"]
+    B3 --> B3d["स्टैक पॉइंटर / SP"]
+    
+    C --> C1["प्राथमिक मेमोरी / Primary Memory"]
+    C --> C2["द्वितीयक मेमोरी / Secondary Memory"]
+    C --> C3["कैश मेमोरी / Cache Memory"]
+    
+    C1 --> C1a["RAM / रैम"]
+    C1 --> C1b["ROM / रॉम"]
+    
+    C3 --> C3a["L1 कैश / L1 Cache"]
+    C3 --> C3b["L2 कैश / L2 Cache"]
+    C3 --> C3c["L3 कैश / L3 Cache"]
+    
+    D --> D1["इनपुट उपकरण / Input Devices"]
+    D --> D2["आउटपुट उपकरण / Output Devices"]
+    
+    E --> E1["डेटा बस / Data Bus"]
+    E --> E2["पता बस / Address Bus"]
+    E --> E3["नियंत्रण बस / Control Bus"]
+    
+    B4 --> B4a["क्लॉक गति / Clock Speed"]
+    B4 --> B4b["क्लॉक चक्र / Clock Cycle"]
+```

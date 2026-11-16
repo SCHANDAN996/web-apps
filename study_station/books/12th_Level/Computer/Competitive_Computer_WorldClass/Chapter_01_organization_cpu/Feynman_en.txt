@@ -1,0 +1,64 @@
+# Computer Organization and CPU — Feynman-Style Explanation
+
+## The Big Picture: A Kitchen Analogy
+
+Imagine a restaurant kitchen. The **CPU (Central Processing Unit)** is the head chef — it does the actual cooking (processing). The **RAM (Random Access Memory)** is the prep counter — ingredients (data) sit here for quick access while the chef works. The **Hard Disk/SSD** is the walk-in freezer — vast storage, but slower to fetch from. The **Bus** is the conveyor belt moving ingredients between freezer, counter, and chef. The **Control Unit** is the recipe card telling the chef what step comes next. The **ALU (Arithmetic Logic Unit)** is the chef's knife and stove — it chops (arithmetic) and decides (logic).
+
+## Core Components
+
+**CPU = Control Unit + ALU + Registers**  
+- **Control Unit**: Fetches instructions from memory, decodes them, directs other parts.  
+- **ALU**: Performs math (+, −, ×, ÷) and logic (AND, OR, NOT, comparisons).  
+- **Registers**: Tiny, ultra-fast storage inside the CPU for the current instruction and data (like the chef's hand holding a spice pinch).
+
+**Memory Hierarchy (fast → slow, small → large)**  
+Registers → Cache (L1, L2, L3) → RAM → SSD/HDD.  
+Cache sits between CPU and RAM; it holds recently used data so the chef doesn't walk to the counter every time.
+
+**Instruction Cycle (Fetch–Decode–Execute)**  
+1. **Fetch**: Control Unit grabs instruction from RAM (address in Program Counter).  
+2. **Decode**: Figures out what the instruction means (add? jump? load?).  
+3. **Execute**: ALU does the work; result goes to register or memory.  
+Repeat billions of times per second (clock speed).
+
+**Clock Speed & Cores**  
+Clock speed (GHz) = how many cycles per second. Higher ≠ always faster — architecture matters.  
+Multi-core = multiple chefs; parallel work on independent tasks. Not all software uses all cores.
+
+**Von Neumann vs. Harvard Architecture**  
+Von Neumann: single memory for instructions + data (most PCs).  
+Harvard: separate memories (many microcontrollers, DSPs).
+
+---
+
+## 5 Recall Questions
+
+**Q1. Which component performs arithmetic and logical operations inside the CPU?**  
+**Answer:** ALU (Arithmetic Logic Unit).  
+**Why:** The Control Unit directs traffic; registers hold data; only the ALU actually computes.
+
+**Q2. In the fetch–decode–execute cycle, what happens during "Decode"?**  
+**Answer:** The Control Unit interprets the fetched instruction to determine the operation and operands.  
+**Why:** Fetch gets the bits; Decode understands them; Execute acts on them.
+
+**Q3. Why is cache memory placed between the CPU and RAM?**  
+**Answer:** To reduce the average time to access data by keeping frequently used instructions/data closer to the CPU.  
+**Why:** RAM is slower than CPU; cache bridges the speed gap.
+
+**Q4. What is the key difference between Von Neumann and Harvard architecture?**  
+**Answer:** Von Neumann uses one shared memory for instructions and data; Harvard uses separate memories.  
+**Why:** Shared memory simplifies design but can cause bottlenecks; separate paths allow simultaneous fetch.
+
+**Q5. If a CPU has 4 cores and a clock speed of 3.0 GHz, how many cycles per second can it theoretically perform across all cores?**  
+**Answer:** 12 billion cycles per second (4 × 3.0 GHz).  
+**Why:** Each core runs at the rated clock; total throughput scales with core count for parallelizable work.
+
+---
+
+## Common Mistakes to Avoid
+
+- Confusing **clock speed** with **performance** — IPC (instructions per cycle) and architecture matter equally.  
+- Thinking **more cores always means faster** — single-threaded tasks use only one core.  
+- Mixing up **RAM** (volatile, fast) with **storage** (non-volatile, slower).  
+- Assuming **cache** is user-controllable — it's managed by hardware.  
+- Forgetting that the **Program Counter** holds the address of the *next* instruction, not the current one.

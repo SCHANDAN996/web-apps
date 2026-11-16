@@ -1,0 +1,151 @@
+Questions 126-145: Easy | Questions 146-150: Medium
+
+126. Which component of the CPU performs arithmetic and logical operations?
+(a) Register Array (b) Control Unit (c) Arithmetic Logic Unit (d) System Bus
+Answer: (c)
+Solution: The Control Unit directs operations but does not execute calculations; the Arithmetic Logic Unit (ALU) is specifically designed for arithmetic and logical tasks, so the answer is Arithmetic Logic Unit.
+Source: NCERT Class 11 Computer Science
+
+127. The register that holds the address of the next instruction to be fetched is called the:
+(a) Memory Address Register (b) Memory Data Register (c) Program Counter (d) Instruction Register
+Answer: (c)
+Solution: The Memory Address Register holds the current memory address being accessed, while the Program Counter specifically tracks the next instruction address, so the answer is Program Counter.
+Source: PYQ-style
+
+128. In the fetch-decode-execute cycle, the step where the CPU determines what operation to perform is:
+(a) Fetch (b) Writeback (c) Decode (d) Execute
+Answer: (c)
+Solution: Fetch retrieves the instruction, but Decode interprets the opcode to determine the operation, so the answer is Decode.
+Source: NCERT Class 11 Computer Science
+
+129. Which of the following is a volatile memory?
+(a) ROM (b) RAM (c) Hard Disk (d) SSD
+Answer: (b)
+Solution: ROM, Hard Disk, and SSD are non-volatile; RAM loses its content when power is turned off, so the answer is RAM.
+Source: NCERT Class 11 Computer Science
+
+130. The smallest unit of data in a computer is:
+(a) Word (b) Bit (c) Nibble (d) Byte
+Answer: (b)
+Solution: A Byte consists of 8 bits; a Bit (binary digit) is the fundamental unit representing 0 or 1, so the answer is Bit.
+Source: NCERT Class 9 Information Technology
+
+131. Which addressing mode uses the register content as the effective address of the operand?
+(a) Indexed (b) Direct (c) Immediate (d) Register Indirect
+Answer: (d)
+Solution: Immediate mode includes the operand in the instruction; Register Indirect uses the register to hold the address of the operand, so the answer is Register Indirect.
+Source: PYQ-style
+
+132. A CPU with a single instruction pipeline processes instructions:
+(a) In parallel (b) With branch prediction (c) Sequentially (d) Out of order
+Answer: (c)
+Solution: Pipelining allows overlap; a single pipeline without superscalar design processes instructions sequentially, so the answer is Sequentially.
+Source: NCERT Class 12 Computer Science
+
+133. The primary purpose of cache memory is to:
+(a) Store BIOS (b) Increase storage capacity (c) Replace RAM (d) Reduce access time to frequently used data
+Answer: (d)
+Solution: Cache is smaller and faster than RAM, placed between CPU and RAM to reduce average access time, so the answer is Reduce access time to frequently used data.
+Source: PYQ-style
+
+134. Which of the following is a characteristic of RISC architecture?
+(a) Complex instructions (b) Variable instruction length (c) Microcode-heavy control unit (d) Large number of registers
+Answer: (d)
+Solution: CISC uses complex instructions and microcode; RISC emphasizes a large register set and simple fixed-length instructions, so the answer is Large number of registers.
+Source: NCERT Class 12 Computer Science
+
+135. The bus that carries data between the CPU and memory is called the:
+(a) Data Bus (b) Control Bus (c) System Bus (d) Address Bus
+Answer: (a)
+Solution: Address Bus carries memory addresses; Data Bus carries the actual data being transferred, so the answer is Data Bus.
+Source: PYQ-style
+
+136. An interrupt that can be disabled by the programmer is known as:
+(a) Non-maskable interrupt (b) Maskable interrupt (c) Software interrupt (d) Hardware interrupt
+Answer: (b)
+Solution: Non-maskable interrupts cannot be disabled; Maskable interrupts can be enabled/disabled via software, so the answer is Maskable interrupt.
+Source: NCERT Class 11 Computer Science
+
+137. The process of translating assembly language into machine code is performed by:
+(a) Compiler (b) Interpreter (c) Assembler (d) Linker
+Answer: (c)
+Solution: Compiler translates high-level language; Assembler specifically translates assembly language mnemonics to machine code, so the answer is Assembler.
+Source: PYQ-style
+
+138. Which register holds the current instruction being executed?
+(a) Program Counter (b) Instruction Register (c) Accumulator (d) Stack Pointer
+Answer: (b)
+Solution: Program Counter holds the next instruction address; Instruction Register holds the current instruction after fetch, so the answer is Instruction Register.
+Source: NCERT Class 11 Computer Science
+
+139. In a memory hierarchy, which level is closest to the CPU?
+(a) Registers (b) Main Memory (c) Cache Memory (d) Secondary Storage
+Answer: (a)
+Solution: Cache is between CPU and RAM; Registers are inside the CPU and fastest, so the answer is Registers.
+Source: PYQ-style
+
+140. The technique of overlapping instruction execution stages to improve throughput is called:
+(a) Pipelining (b) Multiprocessing (c) Multithreading (d) Parallel Processing
+Answer: (a)
+Solution: Multiprocessing uses multiple CPUs; Pipelining overlaps fetch, decode, execute stages within a single CPU, so the answer is Pipelining.
+Source: NCERT Class 12 Computer Science
+
+141. Which of the following is NOT a type of ROM?
+(a) EPROM (b) DRAM (c) EEPROM (d) PROM
+Answer: (b)
+Solution: PROM, EPROM, EEPROM are programmable read-only memories; DRAM is Dynamic Random Access Memory (volatile RAM), so the answer is DRAM.
+Source: PYQ-style
+
+142. The control unit generates timing and control signals for:
+(a) All CPU components (b) ALU only (c) Memory only (d) I/O devices only
+Answer: (a)
+Solution: The Control Unit coordinates the entire CPU — ALU, registers, buses, and external interfaces, so the answer is All CPU components.
+Source: NCERT Class 11 Computer Science
+
+143. A stack pointer register is used to:
+(a) Store the result of arithmetic operations (b) Count loop iterations (c) Hold the base address of a program (d) Point to the top of the stack in memory
+Answer: (d)
+Solution: Accumulator stores arithmetic results; Stack Pointer specifically tracks the top of the stack for push/pop operations, so the answer is Point to the top of the stack in memory.
+Source: PYQ-style
+
+144. Which addressing mode is used when the operand is part of the instruction itself?
+(a) Immediate (b) Direct (c) Indirect (d) Relative
+Answer: (a)
+Solution: Direct addressing includes the address in the instruction; Immediate addressing includes the actual operand value, so the answer is Immediate.
+Source: NCERT Class 11 Computer Science
+
+145. The number of bits transferred simultaneously on a data bus is called the:
+(a) Bus Cycle (b) Bus Speed (c) Bus Arbitration (d) Bus Width
+Answer: (d)
+Solution: Bus Speed refers to frequency; Bus Width defines the number of parallel lines (bits) transferred at once, so the answer is Bus Width.
+Source: PYQ-style
+
+146. In a von Neumann architecture, instructions and data share the same:
+(a) Cache (b) Memory Space (c) Registers (d) ALU
+Answer: (b)
+Solution: Harvard architecture separates instruction and data memory; von Neumann uses a unified memory space for both, so the answer is Memory Space.
+Source: NCERT Class 12 Computer Science
+
+147. Which component prioritizes and manages interrupt requests from multiple peripheral devices before sending them to the CPU?
+(a) DMA Controller (b) Cache Controller (c) Control Unit (d) Interrupt Controller
+Answer: (d)
+Solution: The DMA Controller handles data transfer; the Interrupt Controller specifically handles prioritizing and signaling interrupt requests from peripherals, so the answer is Interrupt Controller.
+Source: NCERT Class 11 Computer Science
+
+148. The time taken to fetch an instruction from memory and decode it is part of the:
+(a) Instruction Cycle (b) Machine Cycle (c) Clock Cycle (d) Bus Cycle
+Answer: (a)
+Solution: Machine Cycle is a broader term; Instruction Cycle specifically includes fetch, decode, execute phases for one instruction, so the answer is Instruction Cycle.
+Source: NCERT Class 11 Computer Science
+
+149. A processor that executes multiple instructions per clock cycle by dispatching them to multiple execution units is called:
+(a) Superscalar (b) Scalar (c) Pipelined (d) Vector
+Answer: (a)
+Solution: Pipelined processors overlap stages but may still issue one instruction per cycle; Superscalar issues multiple instructions simultaneously to multiple units, so the answer is Superscalar.
+Source: PYQ-style
+
+150. Which of the following best describes the function of a Memory Management Unit (MMU)?
+(a) Controls DMA transfers (b) Manages cache replacement policies (c) Translates virtual addresses to physical addresses (d) Handles interrupt prioritization
+Answer: (c)
+Solution: Cache controller manages replacement; MMU specifically handles virtual-to-physical address translation for memory protection and paging, so the answer is Translates virtual addresses to physical addresses.
+Source: NCERT Class 12 Computer Science

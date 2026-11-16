@@ -1,0 +1,76 @@
+**Key Facts — Computer Organization and CPU**
+
+1. **Von Neumann Architecture** — The stored-program concept where instructions and data share the same memory and bus. Used in almost all modern general-purpose computers.  
+   *Source: NCERT Class 11 Computer Science*
+
+2. **Harvard Architecture** — Separate memory and buses for instructions and data. Common in microcontrollers (e.g., Arduino, PIC) and DSPs.  
+   *Source: NCERT Class 11 Computer Science*
+
+3. **CPU Components** — Control Unit (CU), Arithmetic Logic Unit (ALU), and Registers. CU fetches/decodes; ALU computes; registers hold operands and results.  
+   *Source: NCERT Class 11 Computer Science*
+
+4. **Instruction Cycle** — Fetch → Decode → Execute → (optional) Write-back. One machine cycle may take multiple clock cycles.  
+   *Source: NCERT Class 11 Computer Science*
+
+5. **Clock Speed** — Measured in Hz (MHz/GHz). Higher clock = more cycles per second, but performance also depends on IPC (instructions per cycle), cache, and architecture.  
+   *Source: NCERT Class 11 Computer Science*
+
+6. **Registers** — Fastest storage inside CPU. Key registers: Program Counter (PC), Instruction Register (IR), Accumulator (ACC), Memory Address Register (MAR), Memory Data Register (MDR), Stack Pointer (SP), Flag/Status Register.  
+   *Source: NCERT Class 11 Computer Science*
+
+7. **Address Bus, Data Bus, Control Bus** — Address bus carries memory addresses (width determines max addressable memory); data bus carries data (width = word size); control bus carries read/write/interrupt signals.  
+   *Source: NCERT Class 11 Computer Science*
+
+8. **Word Size** — Number of bits CPU processes at once (e.g., 32-bit, 64-bit). Determines register width, address bus width (often), and max integer size.  
+   *Source: NCERT Class 11 Computer Science*
+
+9. **Cache Memory (L1, L2, L3)** — Small, fast SRAM between CPU and RAM. L1 is per-core, smallest, fastest; L2 larger; L3 shared across cores. Reduces average memory access time.  
+   *Source: NCERT Class 11 Computer Science*
+
+10. **RAM vs ROM** — RAM (volatile): DRAM (main memory), SRAM (cache). ROM (non-volatile): BIOS/UEFI firmware, bootloader. Types: PROM, EPROM, EEPROM, Flash.  
+    *Source: NCERT Class 11 Computer Science*
+
+11. **Virtual Memory** — Uses disk (page file/swap) as extension of RAM. Managed by OS via paging. Page fault occurs when needed page not in RAM.  
+    *Source: NCERT Class 12 Computer Science*
+
+12. **Interrupts** — Signals to CPU requesting attention. Hardware interrupts (I/O devices), software interrupts (system calls), exceptions (divide-by-zero). ISR (Interrupt Service Routine) handles them.  
+    *Source: NCERT Class 11 Computer Science*
+
+13. **DMA (Direct Memory Access)** — Allows I/O devices to transfer data to/from RAM without CPU involvement. CPU initiates, then DMA controller manages transfer.  
+    *Source: NCERT Class 11 Computer Science*
+
+14. **Instruction Set Architecture (ISA)** — CISC (Complex, e.g., x86): many instructions, variable length. RISC (Reduced, e.g., ARM, MIPS): fewer, fixed-length, load/store architecture.  
+    *Source: NCERT Class 11 Computer Science*
+
+15. **Pipelining** — Overlapping fetch/decode/execute of multiple instructions. Increases throughput. Hazards: data, control, structural.  
+    *Source: NCERT Class 12 Computer Science*
+
+16. **Superscalar & Out-of-Order Execution** — Superscalar: multiple execution units, issue >1 instruction/cycle. Out-of-order: execute instructions as operands ready, retire in order.  
+    *Source: Standard computer architecture texts*
+
+17. **Branch Prediction** — Guesses branch direction to keep pipeline full. Misprediction flushes pipeline (penalty). Modern CPUs use dynamic predictors (history tables).  
+    *Source: Standard computer architecture texts*
+
+18. **Multi-core & Hyper-threading (SMT)** — Multi-core: multiple physical cores on one die. SMT (Simultaneous Multi-threading): one core runs two logical threads, sharing execution units.  
+    *Source: Intel/AMD official documentation*
+
+19. **Instruction Formats** — Zero-address (stack), one-address (accumulator), two-address, three-address (register-register). RISC typically uses three-address.  
+    *Source: NCERT Class 11 Computer Science*
+
+20. **Addressing Modes** — Immediate, Direct, Indirect, Register, Register Indirect, Indexed, Base+Offset, PC-relative. Determines how operand address is calculated.  
+    *Source: NCERT Class 11 Computer Science*
+
+21. **ALU Operations** — Arithmetic (add, subtract, multiply, divide), Logical (AND, OR, XOR, NOT), Shift/Rotate, Comparison (sets flags: zero, carry, sign, overflow).  
+    *Source: NCERT Class 11 Computer Science*
+
+22. **Flags/Status Register** — Common flags: Zero (Z), Carry (C), Sign (S), Overflow (V), Parity (P), Auxiliary Carry (AC). Used for conditional branching.  
+    *Source: NCERT Class 11 Computer Science*
+
+23. **Stack** — LIFO structure in memory. SP points to top. Used for function calls (return address, local variables), interrupts, expression evaluation. Push decrements SP (typically), pop increments.  
+    *Source: NCERT Class 11 Computer Science*
+
+24. **I/O Methods** — Programmed I/O (CPU polls), Interrupt-driven I/O (device signals ready), DMA (controller transfers blocks). DMA most efficient for bulk data.  
+    *Source: NCERT Class 11 Computer Science*
+
+25. **Performance Metrics** — Clock rate, CPI (cycles per instruction), MIPS (million instructions/sec), FLOPS (floating-point ops/sec), IPC. Amdahl’s Law: speedup limited by serial portion.  
+    *Source: Standard computer architecture texts*

@@ -1,0 +1,153 @@
+Questions 1–20: Easy | Questions 21–25: Medium
+
+1. Which component of the CPU performs arithmetic and logical operations?  
+(a) Control Unit (b) Bus Interface Unit (c) Arithmetic Logic Unit (d) Register File
+Answer: (c)  
+Solution: The Control Unit directs operations, the Register File stores data temporarily, and the Bus Interface Unit handles data transfer; the Arithmetic Logic Unit is specifically designed for arithmetic and logical calculations, so the answer is (c).  
+Source: PYQ-style  
+
+2. What is the primary function of the Program Counter (PC) register?  
+(a) Holds the current instruction (b) Keeps the status flags (c) Stores the result of the last ALU operation (d) Contains the address of the next instruction to fetch
+Answer: (d)  
+Solution: The PC does not hold the instruction itself nor the ALU result; it points to the memory address of the next instruction to be fetched, so the answer is (d).  
+Source: PYQ-style  
+
+3. In the fetch‑decode‑execute cycle, which step occurs immediately after the instruction is fetched?  
+(a) Execute (b) Write‑back (c) Decode (d) Interrupt handling
+Answer: (c)  
+Solution: After fetching, the processor decodes the instruction before execution; write‑back and interrupt handling occur later, so the answer is (c).  
+Source: PYQ-style  
+
+4. Which bus carries the memory address from the CPU to main memory?  
+(a) Data bus (b) Control bus (c) Power bus (d) Address bus
+Answer: (d)  
+Solution: The data bus transfers actual data, the control bus carries control signals, and the power bus supplies electricity; only the address bus transports memory addresses, so the answer is (d).  
+Source: PYQ-style  
+
+5. What does the term “word size” refer to in a processor architecture?  
+(a) Number of bits processed in one ALU operation (b) Clock frequency (c) Number of general‑purpose registers (d) Size of the instruction cache
+Answer: (a)  
+Solution: Word size is the width of data the ALU can handle at once; it is not cache size, register count, or clock speed, so the answer is (a).  
+Source: PYQ-style  
+
+6. Which addressing mode uses the content of a register as the effective address of the operand?  
+(a) Register indirect (b) Direct (c) Immediate (d) Indexed
+Answer: (a)  
+Solution: Immediate provides the operand itself, direct gives the address in the instruction, indexed adds an offset; register indirect uses a register to hold the address, so the answer is (a).  
+Source: PYQ-style  
+
+7. The status register (flags) typically does NOT contain which flag?  
+(a) Zero (b) Carry (c) Overflow (d) Interrupt enable
+Answer: (d)  
+Solution: Zero, Carry, and Overflow are arithmetic flags; Interrupt enable is a control flag usually kept in a separate control register, so the answer is (d).  
+Source: PYQ-style  
+
+8. What is the main purpose of a cache memory?  
+(a) Provide non‑volatile storage (b) Increase storage capacity (c) Reduce average memory access time (d) Manage I/O devices
+Answer: (c)  
+Solution: Cache is a small, fast memory that stores frequently used data to lower average access latency; it does not increase total capacity, is volatile, and does not manage I/O, so the answer is (c).  
+Source: PYQ-style  
+
+9. In a pipelined processor, which hazard occurs when an instruction depends on the result of a previous instruction still in the pipeline?  
+(a) Structural hazard (b) Data hazard (c) Control hazard (d) Resource hazard
+Answer: (b)  
+Solution: Structural hazards involve hardware conflicts, control hazards arise from branches, and resource hazard is not a standard term; data hazard describes dependency on unfinished results, so the answer is (b).  
+Source: PYQ-style  
+
+10. Which register holds the instruction currently being executed?  
+(a) Instruction Register (IR) (b) Memory Data Register (MDR) (c) Memory Address Register (MAR) (d) Accumulator
+Answer: (a)  
+Solution: MAR holds the address for memory access, MDR holds data being transferred, and the accumulator is a general‑purpose register; the IR specifically stores the current instruction, so the answer is (a).  
+Source: PYQ-style  
+
+11. What is the effect of a “branch taken” on the pipeline?  
+(a) Pipeline flush and fetch from new address (b) Pipeline continues without delay (c) Only the decode stage stalls (d) No effect on pipeline
+Answer: (a)  
+Solution: A taken branch invalidates the pre‑fetched instructions, causing a pipeline flush and restart at the target address; it does not continue smoothly or stall only decode, so the answer is (a).  
+Source: PYQ-style  
+
+12. Which of the following is a characteristic of RISC architecture?  
+(a) Fixed‑length instructions and load/store architecture (b) Large number of addressing modes (c) Variable‑length instructions (d) Microcoded complex instructions
+Answer: (a)  
+Solution: RISC uses fixed‑length instructions, a reduced set of addressing modes, and a load/store model; variable length, many modes, and microcode are CISC traits, so the answer is (a).  
+Source: PYQ-style  
+
+13. The “stack pointer” register is used primarily for:  
+(a) Holding the base address of the code segment (b) Managing subroutine calls and local variables (c) Storing the current interrupt vector (d) Counting loop iterations
+Answer: (b)  
+Solution: The stack pointer tracks the top of the call stack for return addresses and local storage; it is not for code segment base, interrupt vectors, or loop counters, so the answer is (b).  
+Source: PYQ-style  
+
+14. In a memory‑mapped I/O system, how are I/O devices accessed?  
+(a) By polling a status register only (b) Using the same address space as memory (c) Via a dedicated I/O bus separate from memory bus (d) Through special I/O instructions only
+Answer: (b)  
+Solution: Memory‑mapped I/O assigns device registers addresses within the normal memory address space, allowing ordinary load/store instructions; it does not require special I/O instructions or a separate bus, so the answer is (b).  
+Source: PYQ-style  
+
+15. Which component generates the control signals that orchestrate the CPU’s micro‑operations?  
+(a) ALU (b) Clock generator (c) Control Unit (d) Register File
+Answer: (c)  
+Solution: The ALU performs calculations, the register file stores data, and the clock generator provides timing; the Control Unit decodes instructions and emits control signals, so the answer is (c).  
+Source: PYQ-style  
+
+16. What does the term “interrupt latency” refer to?  
+(a) Time between interrupt request and start of ISR (b) Time to execute the entire ISR (c) Time between two consecutive interrupts (d) Time to save context only
+Answer: (a)  
+Solution: Interrupt latency is the delay from the interrupt signal to the first instruction of the Interrupt Service Routine; it is not the full ISR execution time, inter‑interrupt gap, or just context saving, so the answer is (a).  
+Source: PYQ-style  
+
+17. Which of the following best describes “direct memory access (DMA)”?  
+(a) Peripheral transfers data directly to/from memory without CPU intervention (b) CPU polls the device continuously (c) CPU transfers data byte by byte (d) Memory accesses are cached
+Answer: (a)  
+Solution: DMA allows a device to move blocks of data to/from memory while the CPU is free; it is not CPU‑driven byte transfers, caching, or polling, so the answer is (a).  
+Source: PYQ-style  
+
+18. The “zero flag” is set when:  
+(a) An arithmetic result is negative (b) A carry out occurs from the MSB (c) An overflow occurs (d) An arithmetic result is zero
+Answer: (d)  
+Solution: The zero flag reflects a zero result; negative sets the sign flag, carry sets the carry flag, overflow sets the overflow flag, so the answer is (d).  
+Source: PYQ-style  
+
+19. In a superscalar processor, multiple instructions can be:  
+(a) Fetched but not decoded simultaneously (b) Issued and executed in parallel in the same cycle (c) Only executed sequentially (d) Decoded but not issued together
+Answer: (b)  
+Solution: Superscalar designs issue and execute several independent instructions per cycle; they do not limit to fetch or decode only, nor enforce strict sequential execution, so the answer is (b).  
+Source: PYQ-style  
+
+20. Which register is typically used to hold the return address during a subroutine call?  
+(a) Program Counter (b) Instruction Register (c) Stack Pointer (d) Link Register
+Answer: (d)  
+Solution: The link register (or return address register) stores the address to return to; the PC holds the next instruction address, SP points to stack top, IR holds current instruction, so the answer is (d).  
+Source: PYQ-style  
+
+21. A 32‑bit processor with a 4‑stage pipeline (fetch, decode, execute, write‑back) runs at 2 GHz. Assuming ideal conditions and no stalls, what is the maximum instruction throughput in instructions per second?  
+(a) 1 × 10⁹ (b) 2 × 10⁹ (c) 0.5 × 10⁹ (d) 8 × 10⁹
+Answer: (b)  
+Solution: With a 4‑stage pipeline, one instruction completes each clock cycle after the pipeline is full; at 2 GHz the throughput equals the clock frequency, 2 × 10⁹ instructions/s. A common mistake is to multiply by the number of stages, but the correct throughput is the clock frequency, so the answer is (b).  
+Source: PYQ-style  
+
+22. Which cache mapping technique allows any block of main memory to be placed in any cache line?  
+(a) Set associative (b) Fully associative (c) Direct mapped (d) Segmented
+Answer: (b)  
+Solution: Direct mapped restricts each block to one line; set associative limits to a set; fully associative permits any line, so the answer is (b).  
+Source: PYQ-style  
+
+23. In a two‑level cache hierarchy (L1 and L2), the average memory access time (AMAT) is calculated as:  
+AMAT = L1 hit time + L1 miss rate × (L2 hit time + L2 miss rate × Memory access time).  
+If L1 hit time = 1 ns, L1 miss rate = 5 %, L2 hit time = 21 ns, L2 miss rate = 10 %, and main memory access time = 100 ns, what is the AMAT?  
+(a) 1.55 ns (b) 2.05 ns (c) 2.55 ns (d) 3.05 ns
+Answer: (c)  
+Solution: L2 miss penalty = 0.10 × 100 = 10 ns; L2 access on L1 miss = 21 + 10 = 31 ns; L1 miss penalty = 0.05 × 31 = 1.55 ns; AMAT = 1 + 1.55 = 2.55 ns. A common error is to omit the L2 hit time, leading to 1.55 ns, but the correct AMAT is 2.55 ns, so the answer is (c).  
+Source: PYQ-style  
+
+24. Which instruction‑level parallelism technique dynamically reorders instructions at runtime to avoid stalls?  
+(a) Branch prediction (b) Static scheduling (c) Loop unrolling (d) Out‑of‑order execution
+Answer: (d)  
+Solution: Static scheduling and loop unrolling are compile‑time techniques; branch prediction deals with control flow, not instruction reordering. Out‑of‑order execution hardware rearranges ready instructions dynamically, so the answer is (d).  
+Source: PYQ-style  
+
+25. A processor implements a 64‑bit virtual address space with a 4 KB page size. How many bits are used for the page offset?  
+(a) 16 (b) 10 (c) 12 (d) 14
+Answer: (c)  
+Solution: Page size 4 KB = 2¹² bytes, so the offset requires 12 bits; the remaining bits form the virtual page number. Confusing 4 KB with 2¹⁰ or 2¹⁴ leads to wrong choices, so the answer is (c).  
+Source: PYQ-style

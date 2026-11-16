@@ -1,0 +1,149 @@
+76. Which component of the CPU performs arithmetic and logical operations?
+(a) Control Unit (CU) (b) Arithmetic Logic Unit (ALU) (c) Register File (d) Cache Memory
+Answer: (b)
+Solution: Many candidates think the Control Unit performs calculations, but the ALU is the unit that actually carries out arithmetic and logical operations, so the answer is Arithmetic Logic Unit (ALU).
+Source: PYQ-style
+
+77. The Control Unit directs the operation of the processor by generating which signals?
+(a) Data signals (b) Address signals (c) Control signals (d) Clock signals
+Answer: (c)
+Solution: A common mistake is to confuse data signals with the signals that coordinate processor activity; the Control Unit emits control signals to manage execution, so the answer is Control signals.
+Source: PYQ-style
+
+78. Which register holds the address of the next instruction to be fetched?
+(a) Accumulator (b) Stack Pointer (c) Instruction Register (d) Program Counter
+Answer: (d)
+Solution: The Instruction Register holds the current instruction, not the next one; the Program Counter stores the address of the next instruction to fetch, so the answer is Program Counter.
+Source: PYQ-style
+
+79. In the fetch-decode-execute cycle, the step where the instruction is interpreted is called:
+(a) Fetch (b) Writeback (c) Execute (d) Decode
+Answer: (d)
+Solution: Some learners think interpretation happens during execute, but decoding is the distinct phase where the instruction is interpreted, so the answer is Decode.
+Source: PYQ-style
+
+80. Which bus carries the memory address from the CPU to memory?
+(a) Address bus (b) Data bus (c) Control bus (d) Power bus
+Answer: (a)
+Solution: The data bus transfers actual data, while the address bus specifically carries memory addresses, so the answer is Address bus.
+Source: PYQ-style
+
+81. What is the primary purpose of cache memory?
+(a) To store permanent data (b) To reduce the average memory access time (c) To increase the size of main memory (d) To manage I/O devices
+Answer: (b)
+Solution: Cache does not enlarge main memory; it stores frequently used data to lower average access latency, so the answer is To reduce the average memory access time.
+Source: PYQ-style
+
+82. Which addressing mode uses the content of a register as the effective address?
+(a) Register indirect addressing (b) Direct addressing (c) Immediate addressing (d) Indexed addressing
+Answer: (a)
+Solution: Direct addressing uses an address field in the instruction, whereas register indirect addressing takes the address from a register, so the answer is Register indirect addressing.
+Source: PYQ-style
+
+83. A pipeline hazard that occurs when an instruction depends on the result of a previous instruction still in the pipeline is called:
+(a) Structural hazard (b) Resource hazard (c) Control hazard (d) Data hazard
+Answer: (d)
+Solution: Control hazards arise from branch decisions, but dependence on a prior result is a data hazard, so the answer is Data hazard.
+Source: PYQ-style
+
+84. Which of the following is a characteristic of RISC architecture?
+(a) Fixed-length instructions and load/store architecture (b) Large instruction set with complex instructions (c) Variable-length instructions (d) Microcode-heavy implementation
+Answer: (a)
+Solution: RISC is defined by a small, fixed-length instruction set and a load/store model, not by complex instructions, so the answer is Fixed-length instructions and load/store architecture.
+Source: PYQ-style
+
+85. The term 'word size' in a processor refers to:
+(a) The number of bits processed in one operation (b) The size of the instruction cache (c) The number of registers (d) The clock frequency
+Answer: (a)
+Solution: Word size describes the data width the CPU handles per cycle, not cache size or clock speed, so the answer is The number of bits processed in one operation.
+Source: PYQ-style
+
+86. Which register is used to store the status flags such as zero, carry, and overflow?
+(a) Program Counter (b) Stack Pointer (c) Status Register (d) Instruction Register
+Answer: (c)
+Solution: The Program Counter tracks instruction addresses, while the Status Register holds condition flags, so the answer is Status Register.
+Source: PYQ-style
+
+87. In a memory hierarchy, which level is closest to the CPU?
+(a) Main memory (RAM) (b) Registers (c) Cache memory (d) Secondary storage
+Answer: (b)
+Solution: Cache is faster than RAM but registers reside inside the CPU core itself, making them the closest level, so the answer is Registers.
+Source: PYQ-style
+
+88. What does the term 'interrupt' mean in CPU operation?
+(a) A command to stop the CPU permanently (b) A signal that pauses the current process to handle an event (c) A type of instruction that performs I/O (d) A method to increase clock speed
+Answer: (b)
+Solution: An interrupt temporarily suspends the current task to service an event; it does not halt the CPU permanently, so the answer is A signal that pauses the current process to handle an event.
+Source: PYQ-style
+
+89. Which of the following is NOT a type of CPU register?
+(a) Accumulator (b) Instruction Register (c) Hard Disk Register (d) Memory Buffer Register
+Answer: (c)
+Solution: Hard Disk Register is not a CPU register; the others are standard CPU registers, so the answer is Hard Disk Register.
+Source: PYQ-style
+
+90. The instruction set architecture (ISA) defines:
+(a) The physical layout of the chip (b) The manufacturing process (c) The set of instructions, registers, and addressing modes available to the programmer (d) The power consumption
+Answer: (c)
+Solution: ISA is a logical specification of instructions and programmer-visible resources, not the physical chip layout, so the answer is The set of instructions, registers, and addressing modes available to the programmer.
+Source: PYQ-style
+
+91. Which component translates virtual addresses to physical addresses?
+(a) Arithmetic Logic Unit (ALU) (b) Memory Management Unit (MMU) (c) Control Unit (CU) (d) Cache Controller
+Answer: (b)
+Solution: The ALU performs arithmetic, while address translation is the role of the Memory Management Unit, so the answer is Memory Management Unit (MMU).
+Source: PYQ-style
+
+92. A superscalar processor can:
+(a) Execute only one instruction per clock cycle (b) Operate without a cache (c) Only execute vector instructions (d) Execute multiple instructions per clock cycle by having multiple pipelines
+Answer: (d)
+Solution: Superscalar designs issue several instructions simultaneously using multiple pipelines, unlike scalar processors, so the answer is Execute multiple instructions per clock cycle by having multiple pipelines.
+Source: PYQ-style
+
+93. Which of the following best describes 'branch prediction'?
+(a) Estimating the number of branches in a program (b) Predicting the next memory address to fetch (c) Guessing the outcome of a conditional branch to keep the pipeline full (d) A technique to reduce cache misses
+Answer: (c)
+Solution: Branch prediction speculatively guesses branch direction to avoid pipeline stalls, not to predict memory addresses, so the answer is Guessing the outcome of a conditional branch to keep the pipeline full.
+Source: PYQ-style
+
+94. The 'stack pointer' register points to:
+(a) The top of the stack in memory (b) The base address of the program (c) The current instruction (d) The heap area
+Answer: (a)
+Solution: The stack pointer tracks the top of the call stack, not the program base or heap, so the answer is The top of the stack in memory.
+Source: PYQ-style
+
+95. Which memory technology is typically used for cache memory?
+(a) SRAM (b) DRAM (c) Flash memory (d) Magnetic disk
+Answer: (a)
+Solution: DRAM is used for main memory; cache requires faster SRAM, so the answer is SRAM.
+Source: PYQ-style
+
+96. In a computer system, the 'bus width' determines:
+(a) The size of the hard disk (b) The clock speed of the CPU (c) The number of bits transferred simultaneously (d) The amount of virtual memory
+Answer: (c)
+Solution: Bus width defines how many bits move in parallel per cycle, not CPU clock or storage size, so the answer is The number of bits transferred simultaneously.
+Source: PYQ-style
+
+97. What is the function of the 'Instruction Register' (IR)?
+(a) Holds the address of the next instruction (b) Points to the top of the stack (c) Stores the result of the ALU operation (d) Holds the current instruction being executed
+Answer: (d)
+Solution: The Program Counter holds the next address; the Instruction Register stores the fetched instruction for decoding, so the answer is Holds the current instruction being executed.
+Source: PYQ-style
+
+98. Which of the following is a characteristic of CISC architecture?
+(a) Large, variable-length instruction set with complex instructions (b) Small, fixed-length instruction set (c) Load/store architecture only (d) No microcode
+Answer: (a)
+Solution: CISC features a rich, variable-length instruction set often implemented via microcode, unlike RISC, so the answer is Large, variable-length instruction set with complex instructions.
+Source: PYQ-style
+
+99. The 'Program Counter' is incremented:
+(a) By the ALU (b) Only when a branch occurs (c) During the execute phase (d) After each instruction fetch
+Answer: (d)
+Solution: The PC normally advances sequentially after fetching each instruction; branches modify it specially, so the answer is After each instruction fetch.
+Source: PYQ-style
+
+100. Which of the following best defines 'pipelining' in CPU design?
+(a) Executing one instruction completely before starting the next (b) Overlapping the execution of multiple instructions by dividing the process into stages (c) Using multiple cores to run threads (d) Storing instructions in a queue
+Answer: (b)
+Solution: Pipelining splits instruction processing into stages so several instructions are in different stages simultaneously, not sequential completion, so the answer is Overlapping the execution of multiple instructions by dividing the process into stages.
+Source: PYQ-style

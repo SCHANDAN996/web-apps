@@ -1,0 +1,71 @@
+Card 1
+Front: What are the four basic functions of a computer system?
+Back: Input, Processing, Output, and Storage (IPOS). The CPU handles processing; memory and storage handle storage; peripherals handle input/output.
+
+Card 2
+Front: Name the three main components of the CPU.
+Back: Arithmetic Logic Unit (ALU), Control Unit (CU), and Registers. The ALU performs arithmetic/logic operations; the CU directs operations; registers hold data temporarily.
+
+Card 3
+Front: What is the function of the Control Unit (CU)?
+Back: The CU fetches instructions from memory, decodes them, and generates control signals to coordinate the ALU, registers, and other components. It does not execute instructions itself.
+
+Card 4
+Front: What does the Arithmetic Logic Unit (ALU) do?
+Back: Performs arithmetic operations (add, subtract, multiply, divide) and logical operations (AND, OR, NOT, XOR, comparisons). It operates on data from registers.
+
+Card 5
+Front: Define 'register' in CPU context.
+Back: A small, high-speed storage location inside the CPU used to hold data, instructions, or addresses temporarily during execution. Examples: Accumulator, Program Counter, Instruction Register.
+
+Card 6
+Front: What is the Program Counter (PC) register?
+Back: Holds the memory address of the next instruction to be fetched. It increments automatically after each fetch (unless a jump/branch instruction modifies it).
+
+Card 7
+Front: What is the Instruction Register (IR)?
+Back: Holds the current instruction being executed. It contains the opcode (operation code) and operand(s) or address field. The CU reads the opcode from IR to decode the instruction.
+
+Card 8
+Front: Explain the Fetch-Decode-Execute cycle.
+Back: 1) Fetch: PC → MAR → Memory → IR, PC increments. 2) Decode: CU reads opcode from IR, determines operation. 3) Execute: CU sends control signals; ALU operates on data; results stored in registers/memory. Repeat.
+
+Card 9
+Front: What is a system bus? Name its three types.
+Back: A communication pathway connecting CPU, memory, and I/O devices. Three types: Data Bus (carries data), Address Bus (carries memory addresses), Control Bus (carries control signals like read/write).
+
+Card 10
+Front: Difference between Address Bus and Data Bus.
+Back: Address Bus is unidirectional (CPU → memory/devices), width determines max addressable memory (e.g., 32-bit = 4 GB). Data Bus is bidirectional, width determines word size (data transferred per cycle).
+
+Card 11
+Front: What is 'word size' in computer architecture?
+Back: The number of bits the CPU can process at once (e.g., 8-bit, 16-bit, 32-bit, 64-bit). It typically matches the data bus width, register size, and ALU width. Larger word size = more data per instruction.
+
+Card 12
+Front: Define 'clock speed' and its unit.
+Back: The frequency at which the CPU's clock generator produces pulses, synchronizing operations. Measured in Hertz (Hz); modern CPUs in GHz (10⁹ cycles/second). Higher clock speed ≠ always better performance (IPC matters).
+
+Card 13
+Front: What is the difference between CISC and RISC architectures?
+Back: CISC (Complex Instruction Set Computer): many instructions, variable length, microcode, fewer registers (e.g., x86). RISC (Reduced Instruction Set Computer): few simple instructions, fixed length, hardwired control, more registers (e.g., ARM, MIPS).
+
+Card 14
+Front: What is pipelining in CPU?
+Back: Overlapping the fetch, decode, execute stages of multiple instructions. While one instruction executes, the next is decoded, and the next is fetched. Increases throughput (instructions per cycle) but not latency of a single instruction.
+
+Card 15
+Front: What is cache memory? Why is it needed?
+Back: Small, fast SRAM between CPU and main RAM. Stores frequently used data/instructions to reduce average memory access time. Levels: L1 (smallest, fastest, inside core), L2 (larger, per core or shared), L3 (largest, shared across cores).
+
+Card 16
+Front: Difference between Von Neumann and Harvard architecture.
+Back: Von Neumann: single memory for instructions and data, shared bus (bottleneck). Harvard: separate memories and buses for instructions and data (simultaneous fetch). Most modern CPUs use modified Harvard (split caches, unified main memory).
+
+Card 17
+Front: What is an interrupt? Give one example.
+Back: A signal to the CPU from hardware or software requesting immediate attention. CPU suspends current task, saves state, runs Interrupt Service Routine (ISR), then resumes. Example: keyboard press, timer tick, divide-by-zero exception.
+
+Card 18
+Front: What is the role of the Memory Address Register (MAR) and Memory Data Register (MDR)?
+Back: MAR holds the memory address to be accessed (read/write). MDR holds the data being written to or read from that address. Both interface directly with the system bus during memory operations.

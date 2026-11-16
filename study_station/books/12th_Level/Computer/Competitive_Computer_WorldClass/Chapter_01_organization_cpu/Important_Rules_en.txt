@@ -1,0 +1,76 @@
+15 Important Rules of Computer Organization and CPU
+
+Rule 1 — Von Neumann Architecture
+The stored-program concept: instructions and data share the same memory space and bus. The CPU fetches instructions sequentially unless a control-flow instruction changes the sequence.
+Example: Almost every general-purpose computer (PCs, smartphones, servers) follows this model.
+Exception: Harvard architecture (used in many microcontrollers like AVR, PIC, ARM Cortex-M) keeps instruction and data memories physically separate with separate buses, allowing simultaneous fetch.
+
+Rule 2 — Fetch–Decode–Execute Cycle
+Every instruction passes through three fundamental steps: fetch the instruction from memory, decode it to determine the operation, execute it (ALU operation, memory access, or control transfer). The Program Counter (PC) holds the address of the next instruction.
+Example: ADD R1, R2 → fetch opcode, decode as register-add, execute ALU addition, write result to R1.
+Exception: Pipelined CPUs overlap these stages for different instructions; superscalar CPUs fetch/decode/execute multiple instructions per cycle.
+
+Rule 3 — CPU Core Components
+A CPU core contains three essential units: the Arithmetic Logic Unit (ALU) for arithmetic/logic, the Control Unit (CU) for sequencing and control signals, and a Register File for fast operand storage. General-purpose registers (e.g., RAX, RBX in x86-64; X0–X30 in ARM64) hold data; special registers (PC, SP, FLAGS/PSR) hold control state.
+Example: x86-64 has 16 general-purpose 64-bit registers; ARM64 has 31 general-purpose 64-bit registers plus SP/PC.
+Exception: Some embedded cores (e.g., 8051) have very few registers and rely heavily on memory; stack machines use an implicit stack instead of general registers.
+
+Rule 4 — Memory Hierarchy
+Speed, cost, and capacity trade-offs create a hierarchy: Registers (fastest, smallest, costliest) → L1/L2/L3 Cache (SRAM) → Main Memory / RAM (DRAM) → Secondary Storage (SSD/HDD). Data moves between adjacent levels in blocks (cache lines, pages).
+Example: Typical L1 cache line = 64 bytes; typical OS page = 4 KiB.
+Exception: Non-Uniform Memory Access (NUMA) systems have multiple memory controllers; access latency depends on which CPU socket requests the data.
+
+Rule 5 — Instruction Set Architecture (ISA) Types
+CISC (Complex Instruction Set Computer): variable-length instructions, many addressing modes, microcoded complex instructions (e.g., x86). RISC (Reduced Instruction Set Computer): fixed-length instructions, load/store architecture, large register file, simple decoding (e.g., ARM, RISC-V, MIPS).
+Example: x86 `MOV` allows only one memory operand; memory-to-memory moves require a register intermediate or string instructions (e.g., `MOVSB`). ARM/RISC-V require explicit `LDR`/`STR` for memory access.
+Exception: Modern x86 CPUs translate CISC instructions into RISC-like micro-ops internally; the distinction blurs at microarchitecture level.
+
+Rule 6 — Pipelining
+Divide instruction processing into stages (e.g., 5-stage: IF, ID, EX, MEM, WB) so multiple instructions occupy different stages simultaneously. Ideal throughput = 1 instruction per cycle after pipeline fills.
+Example: 5-stage pipeline executing 100 instructions takes ~104 cycles instead of 500.
+Exception: Hazards reduce throughput — data hazards (RAW, WAR, WAW), control hazards (branches), structural hazards (resource conflicts). Forwarding, stalling, branch prediction mitigate them.
+
+Rule 7 — Branch Prediction
+Control hazards from branches are resolved by predicting direction (taken/not taken) and target. Static prediction: backward taken, forward not taken. Dynamic prediction: history-based (2-bit saturating counters, global/local history, tournament predictors).
+Example: A loop branch (backward) is predicted taken; misprediction penalty = pipeline depth (10–20 cycles on modern CPUs).
+Exception: Indirect branches (function pointers, virtual calls) need specialized predictors (Return Address Stack, Indirect Branch Predictor); Spectre/Meltdown exploits speculative execution side-effects.
+
+Rule 8 — Superscalar and Out-of-Order Execution
+Superscalar: fetch/decode/issue multiple instructions per cycle. Out-of-Order (OoO): instructions execute as operands become ready, not in program order; results retired in order. Requires register renaming, reservation stations, reorder buffer (ROB).
+Example: Intel Skylake: 4-wide decode, 6 execution ports, 224-entry ROB.
+Exception: In-order cores (Cortex-A53, Atom, many embedded) save power/area; they rely on compiler scheduling and simpler pipelines.
+
+Rule 9 — Clock Frequency vs. Performance
+Execution Time = Instructions × CPI / Clock Rate. Performance = 1 / Execution Time = Clock Rate / (Instructions × CPI). Increasing clock rate alone hits power/thermal walls (P ∝ f × V²). Modern CPUs use turbo boost (temporary high frequency) and dynamic voltage/frequency scaling (DVFS).
+Example: A 3.0 GHz CPU with CPI 1.0 outperforms a 4.0 GHz CPU with CPI 2.0 for the same code.
+Exception: Single-threaded legacy code benefits from high single-core turbo; throughput workloads (servers) prefer more cores at lower frequency.
+
+Rule 10 — Bus System
+Three logical buses connect CPU, memory, and I/O: Data Bus (bidirectional, width = word size, e.g., 64-bit), Address Bus (unidirectional, width determines max addressable memory, e.g., 48-bit → 256 TiB), Control Bus (read/write, interrupt, clock, reset). Modern systems use point-to-point interconnects (PCIe, HyperTransport, Infinity Fabric, CXL) instead of shared parallel buses.
+Example: DDR5 memory: 64-bit data bus per channel (2×32-bit sub-channels), burst length 16.
+Exception: SoCs integrate memory controller on-die; external bus is only for expansion (PCIe, USB).
+
+Rule 11 — Interrupts and Exceptions
+Asynchronous interrupts (hardware: timer, NIC, keyboard) and synchronous exceptions (traps: syscall, faults: page fault, divide-by-zero, aborts: machine check) transfer control to handler via Interrupt Vector Table (IVT) or Interrupt Descriptor Table (IDT). Priority levels (IRQ priority, CPU exception priority) determine nesting.
+Example: x86-64 IDT has 256 entries; Linux uses entry 0x80 (legacy) or `syscall` instruction for system calls.
+Exception: Non-Maskable Interrupt (NMI) cannot be disabled by `cli`/`sti`; used for hardware errors (ECC memory failure, watchdog).
+
+Rule 12 — Memory Addressing Modes
+Common modes: Immediate (operand in instruction), Register (operand in register), Direct/Absolute (address in instruction), Register Indirect (address in register), Base+Offset (base register + displacement), Indexed (base + index×scale), PC-Relative (PC + offset). RISC ISAs typically support only a few; CISC supports many.
+Example: x86 `MOV EAX, [RBX + RCX*4 + 0x10]` (base + scaled index + displacement); ARM64 `LDR X0, [X1, X2, LSL #2]`.
+Exception: Position-Independent Code (PIC) relies heavily on PC-relative addressing; absolute addressing breaks ASLR.
+
+Rule 13 — Stack Organization
+Stack grows downward (high address → low address) on x86, ARM, RISC-V. Stack Pointer (SP/RSP/X31) points to top. Call pushes return address; ret pops it. Frame Pointer (BP/RBP/X29) optionally anchors stack frame for debugging/unwinding. Red zone (128 bytes below SP on x86-64 System V ABI) allows leaf functions to skip stack adjustment.
+Example: Function prologue: `push rbp; mov rbp, rsp; sub rsp, 32`; epilogue: `leave; ret`.
+Exception: Some ABIs (Windows x64) require 32-byte shadow space for register parameters; no red zone.
+
+Rule 14 — I/O Organization
+Memory-Mapped I/O: device registers appear in physical address space; same load/store instructions access memory and devices (ARM, RISC-V, x86-64). Port-Mapped I/O: separate I/O address space with dedicated `IN`/`OUT` instructions (x86 legacy). DMA (Direct Memory Access) lets devices transfer data to/from RAM without CPU involvement; CPU programs DMA controller, gets interrupt on completion.
+Example: PCIe device BARs (Base Address Registers) mapped into physical memory; driver uses `mmap`/`ioremap`.
+Exception: Programmed I/O (PIO) still used for small control registers; DMA setup overhead not worth it for tiny transfers.
+
+Rule 15 — Virtual Memory and TLBs
+Virtual addresses translated to physical via page tables (multi-level: x86-64 4-level, ARM64 3–4-level). Page size typically 4 KiB; huge pages 2 MiB / 1 GiB reduce page-table depth. Translation Lookaside Buffer (TLB) caches recent translations (L1 TLB: 64–128 entries, L2 TLB: 1024+ entries). TLB miss → page-table walk (hardware or software-managed).
+Example: 4 KiB pages, 48-bit VA → 4-level page table (PML4, PDPT, PD, PT); each level 512 entries (9 bits).
+Exception: TLB shootdown required on multi-core when page mappings change; involves inter-processor interrupts (IPIs). Huge pages reduce TLB pressure for large contiguous allocations (databases, HPC).

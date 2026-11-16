@@ -1,0 +1,151 @@
+Questions 26–40: Easy | Questions 41–50: Medium
+
+26. What is the primary function of the ALU in CPU?
+(a) Control clock speed (b) Store instructions (c) Manage I/O devices (d) Perform arithmetic and logical operations
+Answer: (d)
+Solution: Many candidates confuse the ALU with the control unit, but the ALU specifically performs arithmetic and logical operations, while the control unit generates control signals. So the answer is (d).
+Source: PYQ-style
+
+27. Which register holds the address of the next instruction to be fetched?
+(a) Program Counter (b) Accumulator (c) Instruction Register (d) Stack Pointer
+Answer: (a)
+Solution: The Instruction Register holds the current instruction, not the next address; the Program Counter stores the address of the next instruction to be fetched. So the answer is (a).
+Source: PYQ-style
+
+28. In a typical von Neumann architecture, which bus carries data between CPU and memory?
+(a) Data bus (b) Control bus (c) Address bus (d) Expansion bus
+Answer: (a)
+Solution: The address bus carries memory addresses, the control bus carries control signals, and the data bus carries the actual data between CPU and memory. So the answer is (a).
+Source: PYQ-style
+
+29. What is the purpose of the instruction decode stage in the fetch-decode-execute cycle?
+(a) Retrieve instruction from memory (b) Update program counter (c) Write result to register (d) Determine operation and operands
+Answer: (d)
+Solution: The fetch stage retrieves the instruction; the decode stage interprets the opcode and identifies operands. So the answer is (d).
+Source: PYQ-style
+
+30. Which component of CPU generates control signals for instruction execution?
+(a) ALU (b) Registers (c) Control Unit (d) Cache
+Answer: (c)
+Solution: The ALU performs arithmetic/logic, while the Control Unit generates the necessary control signals for each instruction. So the answer is (c).
+Source: PYQ-style
+
+31. What is the size of a typical word in a 32-bit processor?
+(a) 32 bits (b) 16 bits (c) 8 bits (d) 64 bits
+Answer: (a)
+Solution: Word size matches the processor's bit width; a 32-bit processor uses 32-bit words. So the answer is (a).
+Source: PYQ-style
+
+32. Which memory is fastest and closest to CPU?
+(a) RAM (b) ROM (c) Cache (d) Hard Disk
+Answer: (c)
+Solution: Cache memory is the fastest and sits closest to the CPU, ahead of RAM and ROM. So the answer is (c).
+Source: PYQ-style
+
+33. In pipelining, what is a hazard?
+(a) A delay caused by instruction dependency (b) A type of cache miss (c) An error in ALU (d) A power failure
+Answer: (a)
+Solution: A pipeline hazard arises when an instruction depends on the result of a previous instruction that has not yet completed. So the answer is (a).
+Source: PYQ-style
+
+34. The stack pointer register is used to:
+(a) Hold the result of ALU (b) Store the current instruction (c) Point to top of stack in memory (d) Count clock cycles
+Answer: (c)
+Solution: The stack pointer always points to the top of the stack in memory, not to instructions or ALU results. So the answer is (c).
+Source: PYQ-style
+
+35. Which of the following is a characteristic of RISC architecture?
+(a) Large instruction set with complex instructions (b) Microcode-heavy control unit (c) Variable-length instructions (d) Fixed-length instructions and load/store architecture
+Answer: (d)
+Solution: RISC uses fixed-length instructions and a load/store model, unlike CISC which has variable-length and complex instructions. So the answer is (d).
+Source: PYQ-style
+
+36. What does the term "clock cycle" refer to?
+(a) Period of the CPU clock signal (b) Time taken to execute one instruction (c) Number of instructions per second (d) Duration of a pipeline stage
+Answer: (a)
+Solution: Clock cycle is the period of the CPU's clock signal; instruction execution may take multiple cycles. So the answer is (a).
+Source: PYQ-style
+
+37. In a CPU, the status register (flags) typically contains:
+(a) Instruction opcodes (b) Memory addresses (c) Condition codes like zero, carry, sign (d) I/O port numbers
+Answer: (c)
+Solution: The status register holds condition codes such as zero, carry, sign, and overflow flags. So the answer is (c).
+Source: PYQ-style
+
+38. Which bus is unidirectional?
+(a) Data bus (b) All are bidirectional (c) Control bus (d) Address bus
+Answer: (d)
+Solution: The address bus carries addresses only from CPU to memory, making it unidirectional, while data and control buses are bidirectional. So the answer is (d).
+Source: PYQ-style
+
+39. The term "throughput" in CPU performance refers to:
+(a) Cache size (b) Number of instructions executed per unit time (c) Clock frequency (d) Power consumption
+Answer: (b)
+Solution: Throughput measures how many instructions the CPU completes per unit time, not just clock speed. So the answer is (b).
+Source: PYQ-style
+
+40. Which of the following is not a type of CPU register?
+(a) General-purpose register (b) Instruction register (c) Memory address register (d) Disk buffer register
+Answer: (d)
+Solution: Disk buffer register is part of I/O controllers, not a CPU register. So the answer is (d).
+Source: PYQ-style
+
+41. In a superscalar processor, multiple instructions can be:
+(a) Fetched per cycle (b) Stored in cache simultaneously (c) Decoded per cycle (d) Issued and executed simultaneously
+Answer: (d)
+Solution: Superscalar processors issue and execute multiple instructions in the same cycle. So the answer is (d).
+Source: PYQ-style
+
+42. What is the function of the Memory Address Register (MAR)?
+(a) Holds data being read/written (b) Holds address of memory location to access (c) Holds current instruction (d) Holds program counter value
+Answer: (b)
+Solution: MAR stores the memory address for the next read or write operation. So the answer is (b).
+Source: PYQ-style
+
+43. Which of the following best describes "branch prediction"?
+(a) Guessing the outcome of a conditional branch to keep pipeline full (b) Predicting memory address of next instruction (c) Estimating cache hit rate (d) Forecasting power usage
+Answer: (a)
+Solution: Branch prediction speculatively guesses branch direction to avoid pipeline stalls. So the answer is (a).
+Source: PYQ-style
+
+44. The "fetch" stage of instruction cycle does:
+(a) Decode opcode (b) Retrieve instruction from memory using PC (c) Execute the instruction (d) Update flags
+Answer: (b)
+Solution: Fetch uses the program counter to retrieve the next instruction from memory. So the answer is (b).
+Source: PYQ-style
+
+45. Which unit of the CPU coordinates the response to an interrupt signal?
+(a) ALU (b) Control Unit (c) Interrupt Controller (d) Program Counter
+Answer: (b)
+Solution: The interrupt controller prioritizes requests, but the CPU's Control Unit coordinates the actual response by saving state and jumping to the interrupt handler. So the answer is (b).
+Source: PYQ-style
+
+46. In a 5-stage pipeline (IF, ID, EX, MEM, WB), a data hazard occurs when:
+(a) Two instructions need same functional unit (b) An instruction depends on result of previous instruction not yet written back (c) Branch instruction changes PC (d) Cache miss stalls fetch
+Answer: (b)
+Solution: A data hazard is a dependency on a result that has not yet been written back to the register file. So the answer is (b).
+Source: PYQ-style
+
+47. The "write-back" stage writes result to:
+(a) Memory (b) Cache (c) Register file (d) I/O device
+Answer: (c)
+Solution: Write-back stores the computed result into the register file. So the answer is (c).
+Source: PYQ-style
+
+48. Which of the following is a characteristic of CISC architecture?
+(a) Large variety of addressing modes (b) Simple decoding (c) Load/store only (d) Fixed-length instructions
+Answer: (a)
+Solution: CISC provides many addressing modes and variable-length instructions. So the answer is (a).
+Source: PYQ-style
+
+49. In virtual memory, the page table maps:
+(a) Registers to cache lines (b) Virtual addresses to physical addresses (c) Physical addresses to disk blocks (d) Instructions to microcode
+Answer: (b)
+Solution: The page table translates virtual page numbers to physical frame numbers. So the answer is (b).
+Source: PYQ-style
+
+50. The "clock speed" of a CPU is measured in:
+(a) Volts (b) Instructions per second (c) Hertz (Hz) (d) Bytes per second
+Answer: (c)
+Solution: Clock speed is the frequency of the CPU clock, measured in hertz. So the answer is (c).
+Source: PYQ-style

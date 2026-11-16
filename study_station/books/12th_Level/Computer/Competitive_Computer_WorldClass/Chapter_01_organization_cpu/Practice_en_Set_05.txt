@@ -1,0 +1,149 @@
+101. Which component of the CPU performs arithmetic and logical operations?
+(a) Control Unit (b) System Bus (c) Register Array (d) Arithmetic Logic Unit
+Answer: (d)
+Solution: The Control Unit directs operations but does not compute; the ALU is the circuit that actually carries out addition, subtraction, AND, OR, etc., so the answer is Arithmetic Logic Unit.
+Source: NCERT Class 11 Computer Science
+
+102. The Control Unit in a CPU is primarily responsible for:
+(a) Performing calculations (b) Storing intermediate results (c) Directing the operation of the processor (d) Managing cache memory
+Answer: (c)
+Solution: The ALU performs calculations, registers store intermediate results, and cache is managed by memory controller; the Control Unit generates timing and control signals to coordinate all parts, so the answer is Directing the operation of the processor.
+Source: NCERT Class 11 Computer Science
+
+103. Which register holds the address of the next instruction to be fetched?
+(a) Accumulator (b) Program Counter (c) Instruction Register (d) Memory Address Register
+Answer: (b)
+Solution: The Accumulator holds data for ALU operations, the Instruction Register holds the current instruction, and the Memory Address Register holds the address of the memory location being accessed; the Program Counter specifically tracks the next instruction address, so the answer is Program Counter.
+Source: NCERT Class 11 Computer Science
+
+104. A register that temporarily holds data being transferred to or from memory is called:
+(a) Memory Address Register (b) Memory Data Register (c) Program Counter (d) Stack Pointer
+Answer: (b)
+Solution: The Memory Address Register holds the address, not the data; the Program Counter and Stack Pointer have specialized roles; the Memory Data Register (or Memory Buffer Register) holds the actual data word during transfer, so the answer is Memory Data Register.
+Source: NCERT Class 11 Computer Science
+
+105. In the memory hierarchy, which level is closest to the CPU and has the highest speed?
+(a) Registers (b) Main Memory (RAM) (c) Cache Memory (d) Hard Disk
+Answer: (a)
+Solution: Cache is faster than RAM but slower than registers; registers are inside the CPU and operate at clock speed, making them the fastest and closest level, so the answer is Registers.
+Source: NCERT Class 11 Computer Science
+
+106. Cache memory is used to:
+(a) Reduce the average memory access time (b) Increase the capacity of main memory (c) Store the operating system permanently (d) Replace the need for RAM
+Answer: (a)
+Solution: Cache does not increase capacity, store OS permanently, or replace RAM; it holds frequently accessed data to bridge the speed gap between CPU and RAM, thereby reducing average access time, so the answer is Reduce the average memory access time.
+Source: NCERT Class 11 Computer Science
+
+107. Which type of memory retains its contents when power is turned off?
+(a) ROM (b) SRAM (c) DRAM (d) Cache
+Answer: (a)
+Solution: DRAM, SRAM, and cache are volatile and lose data without power; ROM (Read-Only Memory) is non-volatile and retains contents permanently, so the answer is ROM.
+Source: NCERT Class 11 Computer Science
+
+108. The sequence of steps that a CPU follows to process an instruction is called the:
+(a) Instruction Cycle (b) Instruction Set (c) Clock Cycle (d) Machine Cycle
+Answer: (a)
+Solution: Instruction Set is the collection of commands; Clock Cycle is the timing pulse; Machine Cycle is a broader term for fetch/execute phases; the specific step-by-step sequence for one instruction is the Instruction Cycle, so the answer is Instruction Cycle.
+Source: NCERT Class 11 Computer Science
+
+109. The first step in the instruction cycle is:
+(a) Fetch (b) Decode (c) Execute (d) Store
+Answer: (a)
+Solution: Decode and Execute come after the instruction is retrieved; Store is for results; the CPU must first Fetch the instruction from memory using the Program Counter, so the answer is Fetch.
+Source: NCERT Class 11 Computer Science
+
+110. In immediate addressing mode, the operand is:
+(a) In a register (b) In memory at a given address (c) Part of the instruction itself (d) In the accumulator
+Answer: (c)
+Solution: Register addressing uses a register; direct addressing uses a memory address; accumulator is a specific register; immediate mode embeds the constant value directly in the instruction, so the answer is Part of the instruction itself.
+Source: NCERT Class 11 Computer Science
+
+111. Direct addressing mode specifies:
+(a) The operand value (b) The register containing the operand (c) The memory address of the operand (d) The address of the address of the operand
+Answer: (c)
+Solution: Immediate mode gives the value; register addressing names a register; indirect addressing gives the address of the address; direct addressing provides the effective address of the operand in the instruction, so the answer is The memory address of the operand.
+Source: NCERT Class 11 Computer Science
+
+112. Which addressing mode uses a register to hold the effective address of the operand?
+(a) Immediate (b) Direct (c) Indexed (d) Register Indirect
+Answer: (d)
+Solution: Immediate and direct do not use a register for the address; indexed adds an offset to a base register; register indirect specifically uses a register that contains the operand's address, so the answer is Register Indirect.
+Source: NCERT Class 11 Computer Science
+
+113. Pipelining improves CPU performance by:
+(a) Increasing the clock speed (b) Allowing multiple instructions to overlap in execution (c) Reducing the number of instructions (d) Eliminating the need for cache
+Answer: (b)
+Solution: Pipelining does not directly increase clock speed, reduce instruction count, or remove cache; it divides instruction processing into stages so that while one instruction executes, the next can be decoded and another fetched, overlapping their execution, so the answer is Allowing multiple instructions to overlap in execution.
+Source: NCERT Class 11 Computer Science
+
+114. A key characteristic of RISC architecture compared to CISC is:
+(a) Large number of complex instructions (b) Variable-length instruction format (c) More addressing modes (d) Fixed-length instructions and simpler instruction set
+Answer: (d)
+Solution: CISC has many complex instructions, variable length, and many addressing modes; RISC deliberately uses a reduced, simpler set with fixed-length instructions for faster decoding and pipelining, so the answer is Fixed-length instructions and simpler instruction set.
+Source: NCERT Class 11 Computer Science
+
+115. An interrupt that can be temporarily ignored by the CPU is called:
+(a) Non-maskable interrupt (b) Maskable interrupt (c) Software interrupt (d) Hardware interrupt
+Answer: (b)
+Solution: Non-maskable interrupts cannot be ignored; software and hardware describe the source, not the maskability; a maskable interrupt can be disabled by the CPU via the interrupt flag, so the answer is Maskable interrupt.
+Source: NCERT Class 11 Computer Science
+
+116. The system bus consists of three main buses. Which of the following is NOT one of them?
+(a) Data Bus (b) Address Bus (c) Control Bus (d) Power Bus
+Answer: (d)
+Solution: Data, Address, and Control buses are the three standard system buses; power is supplied separately and is not considered a system bus for information transfer, so the answer is Power Bus.
+Source: NCERT Class 11 Computer Science
+
+117. The width of the address bus determines:
+(a) The speed of the CPU (b) The maximum number of addressable memory locations (c) The size of the data word (d) The number of interrupt lines
+Answer: (b)
+Solution: Data bus width determines word size; control bus handles interrupts and signals; clock determines speed; an n-bit address bus can address 2^n unique locations, so the answer is The maximum number of addressable memory locations.
+Source: NCERT Class 11 Computer Science
+
+118. In programmed I/O, the CPU:
+(a) Transfers data directly between I/O device and memory without CPU intervention (b) Is interrupted only at the end of transfer (c) Uses a separate controller to manage the transfer (d) Checks the status of the I/O device repeatedly and transfers data itself
+Answer: (d)
+Solution: DMA transfers without CPU; interrupt-driven I/O uses interrupts; programmed I/O has the CPU actively poll the device status register and move data under program control, so the answer is Checks the status of the I/O device repeatedly and transfers data itself.
+Source: NCERT Class 11 Computer Science
+
+119. Direct Memory Access (DMA) is used to:
+(a) Increase the clock speed of the CPU (b) Allow the CPU to execute other programs while I/O occurs (c) Reduce the size of the instruction set (d) Eliminate the need for an operating system
+Answer: (b)
+Solution: DMA does not affect clock speed, instruction set, or OS; it offloads bulk data transfer between I/O and memory to a DMA controller, freeing the CPU for other work, so the answer is Allow the CPU to execute other programs while I/O occurs.
+Source: NCERT Class 11 Computer Science
+
+120. The clock speed of a CPU is measured in:
+(a) Instructions per second (b) Bytes per second (c) Hertz (d) Milliseconds
+Answer: (c)
+Solution: Instructions per second is throughput (MIPS); bytes per second is bandwidth; milliseconds is time; clock speed is the frequency of the oscillator driving the CPU, measured in Hertz (cycles per second), so the answer is Hertz.
+Source: NCERT Class 11 Computer Science
+
+121. Which pipeline hazard occurs when an instruction depends on the result of a previous instruction still in the pipeline?
+(a) Structural hazard (b) Control hazard (c) Data hazard (d) Resource hazard
+Answer: (c)
+Solution: Structural hazards arise from hardware resource conflicts; control hazards come from branches; resource hazard is another name for structural; data hazard specifically refers to dependence on a result not yet written back, so the answer is Data hazard.
+Source: NCERT Class 11 Computer Science
+
+122. In a direct-mapped cache, each block of main memory maps to:
+(a) Exactly one specific cache line (b) Any cache line (c) A set of cache lines (d) The same line as all other blocks
+Answer: (a)
+Solution: Fully associative allows any line; set-associative maps to a set; direct-mapped uses a fixed modulo function so each block has exactly one possible line, so the answer is Exactly one specific cache line.
+Source: NCERT Class 11 Computer Science
+
+123. Virtual memory allows a program to:
+(a) Use more memory than physically available (b) Run faster than physical memory permits (c) Eliminate the need for secondary storage (d) Access cache directly
+Answer: (a)
+Solution: Virtual memory does not speed up execution, remove secondary storage (it uses it), or give direct cache access; it uses disk as extension of RAM so programs can have larger address spaces than physical memory, so the answer is Use more memory than physically available.
+Source: NCERT Class 11 Computer Science
+
+124. A superscalar processor can:
+(a) Execute only one instruction per clock cycle (b) Only process scalar data types (c) Execute multiple instructions per clock cycle by using multiple pipelines (d) Operate without a control unit
+Answer: (c)
+Solution: Scalar processors do one instruction per cycle; superscalar duplicates pipeline stages to fetch, decode, and execute several instructions simultaneously, so the answer is Execute multiple instructions per clock cycle by using multiple pipelines.
+Source: NCERT Class 11 Computer Science
+
+125. In a multicore processor, each core typically has its own:
+(a) Hard disk (b) Main memory (c) System bus (d) L1 cache
+Answer: (d)
+Solution: Main memory, system bus, and storage are shared; each core usually has private L1 (and often L2) cache for low-latency access, while L3 may be shared, so the answer is L1 cache.
+Source: NCERT Class 11 Computer Science
