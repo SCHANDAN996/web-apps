@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (two-chapters)
 
-**आख़िरी update:** 16-11-2026 05:38 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 02:49 PM
+**आख़िरी update:** 16-11-2026 05:54 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 02:49 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,8 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 17 मिनट |
-| W2 | Chapter 02 shabd bhed (10th Hindi) | ✍️ लिख रहा है | 3 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 32 मिनट |
+| W2 | Chapter 02 shabd bhed (10th Hindi) | ✍️ लिख रहा है | 18 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -45,30 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-16-11 17:21:27   [varn_vartani] REJECTED Practice_hi_Set_06.txt: no translation passed the checks — not written
-16-11 17:21:28   [varn_vartani] written 1, failed 7; AI calls today 259/100000
-16-11 17:21:28 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 38 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 04 en: todo'] problems []
-16-11 17:21:28 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (TODO: todo 7, problems 0)
-16-11 17:22:16   [shabd_bhed] Practice_hi_Set_02.txt try 2: rejected (Q26: tested Hindi text changed between languages; Q28: tested Hindi text changed between languages; Q30: teste
-16-11 17:22:18   [varn_vartani] Practice_hi_Set_01.txt try 1: rejected (Q20: Hindi subject options changed between languages; Q20: tested Hindi text must be explicitly quoted)
-16-11 17:23:20   [shabd_bhed] Practice_hi_Set_02.txt try 3: rejected (Q26: tested Hindi text changed between languages; Q28: tested Hindi text changed between languages; Q30: teste
-16-11 17:23:22   [varn_vartani] Practice_hi_Set_01.txt try 2: rejected (Q20: Hindi subject options changed between languages; Q20: tested Hindi text must be explicitly quoted)
-16-11 17:24:28   [varn_vartani] Practice_hi_Set_01.txt try 3: rejected (Q20: Hindi subject options changed between languages; Q20: tested Hindi text must be explicitly quoted)
-16-11 17:25:21   [varn_vartani] Practice_hi_Set_01.txt try 4: rejected (Q20: Hindi subject options changed between languages; Q20: tested Hindi text must be explicitly quoted)
-16-11 17:25:21   [varn_vartani] REJECTED Practice_hi_Set_01.txt: no translation passed the checks — not written
-16-11 17:25:25   [shabd_bhed] Practice_hi_Set_02.txt try 4: rejected (Q26: tested Hindi text changed between languages; Q28: tested Hindi text changed between languages; Q30: teste
-16-11 17:25:25   [shabd_bhed] REJECTED Practice_hi_Set_02.txt: no translation passed the checks — not written
-16-11 17:26:32   [shabd_bhed] Practice_hi_Set_04.txt try 1: rejected (Q76: tested Hindi text changed between languages; Q80: tested Hindi text changed between languages; Q82: teste
-16-11 17:27:44   [shabd_bhed] Practice_hi_Set_04.txt try 2: rejected (Q76: tested Hindi text changed between languages; Q80: tested Hindi text changed between languages; Q82: teste
-16-11 17:28:27   [varn_vartani] Practice_hi_Set_02.txt try 1: rejected (Q26: tested Hindi text must be explicitly quoted; Q27: tested Hindi text must be explicitly quoted; Q30: teste
-16-11 17:29:08   [shabd_bhed] Practice_hi_Set_04.txt try 3: rejected (Q76: tested Hindi text changed between languages; Q80: tested Hindi text changed between languages; Q82: teste
-16-11 17:29:33   [varn_vartani] Practice_hi_Set_02.txt try 2: rejected (Q26: tested Hindi text must be explicitly quoted; Q27: tested Hindi text must be explicitly quoted; Q30: teste
-16-11 17:30:14   [shabd_bhed] Practice_hi_Set_04.txt try 4: rejected (parsed 0 questions, numbers -…-)
-16-11 17:30:14   [shabd_bhed] REJECTED Practice_hi_Set_04.txt: no translation passed the checks — not written
-16-11 17:30:28   [varn_vartani] Practice_hi_Set_02.txt try 3: rejected (Q26: tested Hindi text must be explicitly quoted; Q27: tested Hindi text must be explicitly quoted; Q30: teste
-16-11 17:31:26   [shabd_bhed] Practice_hi_Set_06.txt try 1: rejected (parsed 24 questions, numbers 126…150)
-16-11 17:31:43   [varn_vartani] Practice_hi_Set_02.txt try 4: rejected (Q26: tested Hindi text must be explicitly quoted; Q27: tested Hindi text must be explicitly quoted; Q30: teste
-16-11 17:31:43   [varn_vartani] REJECTED Practice_hi_Set_02.txt: no translation passed the checks — not written
 16-11 17:32:34   [varn_vartani] Practice_hi_Set_03.txt try 1: rejected (Q53: tested Hindi text must be explicitly quoted; Q54: tested Hindi text must be explicitly quoted; Q56: teste
 16-11 17:32:42   [shabd_bhed] Practice_hi_Set_06.txt try 2: rejected (Q129: tested Hindi text changed between languages; Q132: tested Hindi text changed between languages; Q136: te
 16-11 17:33:18   [varn_vartani] Practice_hi_Set_03.txt try 2: rejected (Q53: tested Hindi text must be explicitly quoted; Q54: tested Hindi text must be explicitly quoted; Q56: teste
@@ -85,4 +61,28 @@
 16-11 17:37:23   [varn_vartani] Practice_en_Set_04.txt try 1: rejected (Q79:duplicate_options,Q89:duplicate_options)
 16-11 17:37:36   [shabd_bhed] Practice_hi_Set_01.txt try 2: rejected (Q3: tested Hindi text changed between languages; Q6: tested Hindi text changed between languages; Q9: tested H
 16-11 17:38:42   [shabd_bhed] Practice_hi_Set_01.txt try 3: rejected (Q3: tested Hindi text changed between languages; Q6: tested Hindi text changed between languages; Q9: tested H
+16-11 17:41:36   [shabd_bhed] Practice_hi_Set_01.txt try 4: rejected (Q3: tested Hindi text changed between languages; Q6: tested Hindi text changed between languages; Q9: tested H
+16-11 17:41:36   [shabd_bhed] REJECTED Practice_hi_Set_01.txt: no translation passed the checks — not written
+16-11 17:42:41   [shabd_bhed] Practice_hi_Set_02.txt try 1: rejected (parsed 0 questions, numbers -…-)
+16-11 17:43:05   [varn_vartani] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+16-11 17:43:53   [varn_vartani] Practice_hi_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
+16-11 17:44:31   [shabd_bhed] Practice_hi_Set_02.txt try 2: rejected (Q26: tested Hindi text changed between languages; Q28: tested Hindi text changed between languages; Q30: teste
+16-11 17:45:38   [varn_vartani] Practice_hi_Set_04.txt try 2: rejected (Q76: tested Hindi text must be explicitly quoted; Q77: tested Hindi text must be explicitly quoted; Q78: teste
+16-11 17:46:31   [varn_vartani] Practice_hi_Set_04.txt try 3: rejected (parsed 0 questions, numbers -…-)
+16-11 17:46:42   [shabd_bhed] Practice_hi_Set_02.txt try 3: rejected (Q26: tested Hindi text changed between languages; Q28: tested Hindi text changed between languages; Q30: teste
+16-11 17:47:23   [varn_vartani] Practice_hi_Set_04.txt try 4: rejected (Q76: tested Hindi text must be explicitly quoted; Q77: tested Hindi text must be explicitly quoted; Q78: teste
+16-11 17:47:23   [varn_vartani] REJECTED Practice_hi_Set_04.txt: no translation passed the checks — not written
+16-11 17:47:35   [shabd_bhed] Practice_hi_Set_02.txt try 4: rejected (Q28: tested Hindi text changed between languages; Q30: tested Hindi text changed between languages; Q32: teste
+16-11 17:47:35   [shabd_bhed] REJECTED Practice_hi_Set_02.txt: no translation passed the checks — not written
+16-11 17:48:20   [varn_vartani] Practice_hi_Set_05.txt try 1: rejected (Q103: tested Hindi text must be explicitly quoted; Q104: tested Hindi text must be explicitly quoted; Q106: te
+16-11 17:49:18   [varn_vartani] Practice_hi_Set_05.txt try 2: rejected (parsed 24 questions, numbers 101…125)
+16-11 17:50:01   [varn_vartani] Practice_hi_Set_05.txt try 3: rejected (Q103: tested Hindi text must be explicitly quoted; Q104: tested Hindi text must be explicitly quoted; Q106: te
+16-11 17:50:05   [shabd_bhed] Practice_hi_Set_04.txt try 1: rejected (Q76: tested Hindi text changed between languages; Q80: tested Hindi text changed between languages; Q82: teste
+16-11 17:50:55   [varn_vartani] Practice_hi_Set_05.txt try 4: rejected (Q103: tested Hindi text must be explicitly quoted; Q104: tested Hindi text must be explicitly quoted; Q106: te
+16-11 17:50:55   [varn_vartani] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
+16-11 17:51:04   [shabd_bhed] Practice_hi_Set_04.txt try 2: rejected (Q76: tested Hindi text changed between languages; Q80: tested Hindi text changed between languages; Q82: teste
+16-11 17:52:24   [varn_vartani] Practice_hi_Set_06.txt try 1: rejected (Q133: Hindi subject options changed between languages; Q134: Hindi subject options changed between languages; 
+16-11 17:53:13   [shabd_bhed] Practice_hi_Set_04.txt try 3: rejected (Q76: tested Hindi text changed between languages; Q80: tested Hindi text changed between languages; Q82: teste
+16-11 17:53:28   [varn_vartani] Practice_hi_Set_06.txt try 2: rejected (Q133: Hindi subject options changed between languages; Q134: Hindi subject options changed between languages; 
+16-11 17:54:17   [varn_vartani] Practice_hi_Set_06.txt try 3: rejected (Q133: Hindi subject options changed between languages; Q134: Hindi subject options changed between languages; 
 ```
