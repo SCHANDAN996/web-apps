@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (three-chapters)
 
-**आख़िरी update:** 16-11-2026 09:15 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 08:13 PM
+**आख़िरी update:** 16-11-2026 09:31 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 08:13 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 62 मिनट |
-| W2 | Chapter 02 shabd bhed (10th Hindi) | ✍️ लिख रहा है | 62 मिनट |
-| W3 | Chapter 02 input output ports (12th Computer) | ✍️ लिख रहा है | 61 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 77 मिनट |
+| W2 | Chapter 02 shabd bhed (10th Hindi) | ✍️ लिख रहा है | 77 मिनट |
+| W3 | Chapter 02 input output ports (12th Computer) | ✍️ लिख रहा है | 77 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -41,17 +41,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-16-11 20:31:38   [input_output_ports] wrote Flashcards_en.txt (2925 chars)
-16-11 20:32:42   [varn_vartani] wrote Flashcards_en.txt (3358 chars)
-16-11 20:33:11   [input_output_ports] wrote Flashcards_hi.txt (3786 chars)
-16-11 20:34:07   [varn_vartani] wrote Flashcards_hi.txt (4438 chars)
-16-11 20:34:48   [input_output_ports] wrote PYQ_en.txt (4723 chars)
-16-11 20:35:30   [shabd_bhed] Practice_en_Set_01.txt try 2: re-solve disagrees (Q24 key c vs re-solve a)
-16-11 20:35:52   [varn_vartani] wrote PYQ_en.txt (5880 chars)
-16-11 20:37:03   [input_output_ports] wrote PYQ_hi.txt (7632 chars)
-16-11 20:38:16   [varn_vartani] wrote PYQ_hi.txt (5576 chars)
-16-11 20:39:30   [input_output_ports] wrote Important_Rules_en.txt (7736 chars)
-16-11 20:41:28   [shabd_bhed] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 16-11 20:41:30   [varn_vartani] wrote Important_Rules_en.txt (16376 chars)
 16-11 20:42:18   [shabd_bhed] Practice_hi_Set_01.txt try 1: rejected (parsed 0 questions, numbers -…-)
 16-11 20:43:15   [input_output_ports] wrote Important_Rules_hi.txt (6558 chars)
@@ -81,4 +70,15 @@
 16-11 21:09:45   [varn_vartani] REJECTED Practice_hi_Set_01.txt: no translation passed the checks — not written
 16-11 21:11:26   [input_output_ports] Practice_en_Set_02.txt try 2: rejected (Q32:answer_solution_conflict)
 16-11 21:14:08   [shabd_bhed] Practice_en_Set_03.txt try 2: re-solve disagrees (Q58 key b vs re-solve ?)
+16-11 21:17:08   [shabd_bhed] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+16-11 21:18:27   [shabd_bhed] Practice_hi_Set_03.txt try 1: rejected (Q63: tested Hindi text changed between languages; Q64: tested Hindi text changed between languages; Q66: teste
+16-11 21:20:11   [shabd_bhed] Practice_hi_Set_03.txt try 2: rejected (Q63: tested Hindi text changed between languages; Q64: tested Hindi text changed between languages; Q66: teste
+16-11 21:21:34   [shabd_bhed] Practice_hi_Set_03.txt try 3: rejected (Q63: tested Hindi text changed between languages; Q64: tested Hindi text changed between languages; Q66: teste
+16-11 21:21:38   [varn_vartani] Practice_en_Set_02.txt try 1: re-solve disagrees (Q30 key d vs re-solve c, Q32 key a vs re-solve ?, Q47 key a vs re-solve ?)
+16-11 21:23:04   [shabd_bhed] Practice_hi_Set_03.txt try 4: rejected (Q63: tested Hindi text changed between languages; Q64: tested Hindi text changed between languages; Q66: teste
+16-11 21:23:04   [shabd_bhed] REJECTED Practice_hi_Set_03.txt: no translation passed the checks — not written
+16-11 21:25:00   [input_output_ports] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+16-11 21:27:45   [shabd_bhed] Practice_en_Set_04.txt try 1: re-solve disagrees (Q82 key c vs re-solve ?, Q86 key b vs re-solve d)
+16-11 21:27:54   [varn_vartani] Practice_en_Set_02.txt try 2: re-solve disagrees (Q39 key a vs re-solve c)
+16-11 21:28:50   [input_output_ports] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 ```
