@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (two-chapters)
 
-**आख़िरी update:** 16-11-2026 07:41 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 02:49 PM
+**आख़िरी update:** 16-11-2026 07:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 02:49 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 80 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 96 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -45,8 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-16-11 18:44:48   [input_output_ports] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-16-11 18:46:49   [input_output_ports] Practice_en_Set_06.txt try 1: re-solve disagrees (Q150 key c vs re-solve a)
 16-11 18:50:59   [input_output_ports] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 16-11 18:52:19   [input_output_ports] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
 16-11 18:52:19   [input_output_ports] written 25, failed 0; AI calls today 399/100000
@@ -85,4 +83,6 @@
 16-11 19:29:14   [sangya_sarvanam] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 16-11 19:33:51   [sangya_sarvanam] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 16-11 19:35:33   [sangya_sarvanam] Practice_hi_Set_05.txt try 1: rejected (Q118: tested Hindi text changed between languages; Q119: tested Hindi text changed between languages; Q120: te
+16-11 19:53:18   [sangya_sarvanam] FAILED Practice_hi_Set_05.txt: too_long
+16-11 19:56:56   [sangya_sarvanam] Practice_en_Set_06.txt try 1: re-solve disagrees (Q136 key c vs re-solve a)
 ```
