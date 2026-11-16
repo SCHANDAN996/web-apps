@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (three-chapters)
 
-**आख़िरी update:** 17-11-2026 12:35 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 08:13 PM
+**आख़िरी update:** 17-11-2026 12:51 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 08:13 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 79 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 94 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -45,13 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 00:02:42   [input_output_ports] written 2, failed 5; AI calls today 3/100000
-17-11 00:02:42 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_02_input_output_ports after 229 min: todo [] problems []
-17-11 00:02:42 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_02_input_output_ports (OK: todo 0, problems 0)
-17-11 00:03:59   [varn_vartani] Practice_en_Set_06.txt try 1: rejected (parsed 23 questions, numbers 126…150)
-17-11 00:05:11   [sangya_sarvanam] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-17-11 00:05:24   [input_output_ports] review Content_en.txt: 2 issue(s): - In Video Ports table, HDMI 2.0 row lists audio as "Yes (eARC)" → HDMI 2.0 supports ARC (Audio Return Channel); eA
-17-11 00:07:25   [sangya_sarvanam] Practice_hi_Set_01.txt try 1: rejected (parsed 8 questions, numbers 1…8)
 17-11 00:09:10   [varn_vartani] Practice_en_Set_06.txt try 2: rejected (Q145:duplicate_options)
 17-11 00:09:33   [sangya_sarvanam] Practice_hi_Set_01.txt try 2: rejected (Q2: tested Hindi text must be explicitly quoted; Q3: tested Hindi text must be explicitly quoted; Q5: tested H
 17-11 00:11:07   [sangya_sarvanam] Practice_hi_Set_01.txt try 3: rejected (Q2: tested Hindi text must be explicitly quoted; Q3: tested Hindi text must be explicitly quoted; Q4: tested H
@@ -85,4 +78,11 @@
 17-11 00:31:49 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_02_input_output_ports after 29 min: todo [] problems []
 17-11 00:31:49 worker 2: nothing left
 17-11 00:32:04   [sangya_sarvanam] Practice_en_Set_04.txt try 3: re-solve disagrees (Q95 key a vs re-solve b, Q99 key d vs re-solve a)
+17-11 00:42:29   [sangya_sarvanam] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+17-11 00:45:05   [sangya_sarvanam] Practice_hi_Set_04.txt try 1: rejected (Q90: tested Hindi text changed between languages; Q91: tested Hindi text changed between languages; Q92: Hindi
+17-11 00:47:15   [sangya_sarvanam] Practice_hi_Set_04.txt try 2: rejected (Q90: tested Hindi text changed between languages; Q91: tested Hindi text changed between languages; Q92: Hindi
+17-11 00:48:34   [sangya_sarvanam] Practice_hi_Set_04.txt try 3: rejected (Q90: tested Hindi text changed between languages; Q91: tested Hindi text changed between languages; Q92: Hindi
+17-11 00:50:12   [sangya_sarvanam] Practice_hi_Set_04.txt try 4: rejected (Q90: tested Hindi text changed between languages; Q91: tested Hindi text changed between languages; Q92: Hindi
+17-11 00:50:12   [sangya_sarvanam] REJECTED Practice_hi_Set_04.txt: no translation passed the checks — not written
+17-11 00:50:56   [sangya_sarvanam] Practice_en_Set_05.txt try 1: rejected (Q124:duplicate_options)
 ```
