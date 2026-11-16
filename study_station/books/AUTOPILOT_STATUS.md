@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (two-chapters)
 
-**आख़िरी update:** 16-11-2026 07:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 02:49 PM
+**आख़िरी update:** 16-11-2026 08:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 02:49 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 96 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -41,18 +39,11 @@
 - Chapter 01 varn vartani (Hindi) — 4 बार
 - Chapter 02 shabd bhed (Hindi) — 4 बार
 - Chapter 02 input output ports (Computer) — 1 बार
+- Chapter 03 sangya sarvanam (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-16-11 18:50:59   [input_output_ports] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-16-11 18:52:19   [input_output_ports] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-16-11 18:52:19   [input_output_ports] written 25, failed 0; AI calls today 399/100000
-16-11 18:52:29   [sangya_sarvanam] Practice_en_Set_02.txt try 1: re-solve disagrees (Q26 key b vs re-solve ?, Q33 key b vs re-solve ?, Q40 key a vs re-solve ?, Q48 key d vs re-solve b)
-16-11 18:53:25   [input_output_ports] review Content_en.txt: 1 issue(s): - Example 6 claims HDMI 2.1 can carry 8K 60 Hz 4:4:4 10-bit without compression (DSC), but HDMI 2.1's 48 Gbps bandw
-16-11 18:56:58   [input_output_ports] review Content_hi.txt: 1 issue(s): - HDMI 2.0 के लिए eARC सूचीबद्ध है → HDMI 2.0 में ARC होता है; eARC HDMI 2.1 से शुरू हुआ
-16-11 18:57:11   [sangya_sarvanam] Practice_en_Set_02.txt try 2: re-solve disagrees (Q48 key a vs re-solve b)
-16-11 19:00:08   [input_output_ports] review Key_Facts_en.txt: 1 issue(s): - Point 7: RS-232 maximum standard speed is 20 kbps per the TIA‑232 specification, not 115.2 kbps → Correct to “M
 16-11 19:00:38   [sangya_sarvanam] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 16-11 19:01:27   [input_output_ports] REJECTED review fix Key_Facts_en.txt: reviewer still reports - Cat7/8 speed claim (25/40 Gbps) is inaccurate for Cat7 → Cat7 supports 10 Gbps (Cat7a u
 16-11 19:01:33   [sangya_sarvanam] Practice_hi_Set_02.txt try 1: rejected (Q38: tested Hindi text changed between languages; Q45: tested Hindi text changed between languages; Q50: teste
@@ -85,4 +76,12 @@
 16-11 19:35:33   [sangya_sarvanam] Practice_hi_Set_05.txt try 1: rejected (Q118: tested Hindi text changed between languages; Q119: tested Hindi text changed between languages; Q120: te
 16-11 19:53:18   [sangya_sarvanam] FAILED Practice_hi_Set_05.txt: too_long
 16-11 19:56:56   [sangya_sarvanam] Practice_en_Set_06.txt try 1: re-solve disagrees (Q136 key c vs re-solve a)
+16-11 20:01:13   [sangya_sarvanam] Practice_en_Set_06.txt try 2: re-solve disagrees (Q127 key b vs re-solve a)
+16-11 20:04:52   [sangya_sarvanam] Practice_en_Set_06.txt try 3: re-solve disagrees (Q127 key c vs re-solve b)
+16-11 20:08:42   [sangya_sarvanam] Practice_en_Set_06.txt try 4: re-solve disagrees (Q127 key c vs re-solve b)
+16-11 20:08:42   [sangya_sarvanam] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+16-11 20:08:42   [sangya_sarvanam] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+16-11 20:08:42   [sangya_sarvanam] written 18, failed 7; AI calls today 468/100000
+16-11 20:08:42 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 108 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo'] problems ['Content_en.txt: English file contains a lot of Hindi', 'Key_Facts_en.txt: English file contains a lot of Hindi', 'Set 03 Practice_en_Set_03.txt: English file contains a lot o', 'Set 05 Practice_en_Set_05.txt: English file contains a lot o']
+16-11 20:08:42 worker 1: nothing left
 ```
