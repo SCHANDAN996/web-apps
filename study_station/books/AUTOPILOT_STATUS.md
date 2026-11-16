@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (three-chapters)
 
-**आख़िरी update:** 17-11-2026 12:51 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 08:13 PM
+**आख़िरी update:** 17-11-2026 01:06 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 08:13 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 94 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 110 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -45,17 +45,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 00:09:10   [varn_vartani] Practice_en_Set_06.txt try 2: rejected (Q145:duplicate_options)
-17-11 00:09:33   [sangya_sarvanam] Practice_hi_Set_01.txt try 2: rejected (Q2: tested Hindi text must be explicitly quoted; Q3: tested Hindi text must be explicitly quoted; Q5: tested H
-17-11 00:11:07   [sangya_sarvanam] Practice_hi_Set_01.txt try 3: rejected (Q2: tested Hindi text must be explicitly quoted; Q3: tested Hindi text must be explicitly quoted; Q4: tested H
-17-11 00:12:44   [sangya_sarvanam] Practice_hi_Set_01.txt try 4: rejected (Q2: tested Hindi text must be explicitly quoted; Q3: tested Hindi text must be explicitly quoted; Q4: tested H
-17-11 00:12:44   [sangya_sarvanam] REJECTED Practice_hi_Set_01.txt: no translation passed the checks — not written
-17-11 00:12:53   [varn_vartani] Practice_en_Set_06.txt try 3: rejected (Q145:duplicate_options)
-17-11 00:17:46   [sangya_sarvanam] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-17-11 00:18:45   [sangya_sarvanam] Practice_hi_Set_02.txt try 1: rejected (Q32: tested Hindi text changed between languages; Q48: tested Hindi text changed between languages)
-17-11 00:19:25   [sangya_sarvanam] Practice_hi_Set_02.txt try 2: rejected (Q32: tested Hindi text changed between languages; Q48: tested Hindi text changed between languages)
-17-11 00:20:28   [sangya_sarvanam] Practice_hi_Set_02.txt try 3: rejected (Q32: tested Hindi text changed between languages; Q48: tested Hindi text changed between languages)
-17-11 00:21:35   [sangya_sarvanam] Practice_hi_Set_02.txt try 4: rejected (Q32: tested Hindi text changed between languages; Q48: tested Hindi text changed between languages)
 17-11 00:21:35   [sangya_sarvanam] REJECTED Practice_hi_Set_02.txt: no translation passed the checks — not written
 17-11 00:22:54   [sangya_sarvanam] Practice_en_Set_03.txt try 1: rejected (Q57:duplicate_options,Q73:duplicate_options)
 17-11 00:24:07   [sangya_sarvanam] Practice_en_Set_03.txt try 2: rejected (Q57:duplicate_options)
@@ -85,4 +74,15 @@
 17-11 00:50:12   [sangya_sarvanam] Practice_hi_Set_04.txt try 4: rejected (Q90: tested Hindi text changed between languages; Q91: tested Hindi text changed between languages; Q92: Hindi
 17-11 00:50:12   [sangya_sarvanam] REJECTED Practice_hi_Set_04.txt: no translation passed the checks — not written
 17-11 00:50:56   [sangya_sarvanam] Practice_en_Set_05.txt try 1: rejected (Q124:duplicate_options)
+17-11 00:52:38   [sangya_sarvanam] Practice_en_Set_05.txt try 2: re-solve disagrees (Q107 key a vs re-solve b, Q119 key b vs re-solve c)
+17-11 00:54:35   [sangya_sarvanam] Practice_en_Set_05.txt try 3: re-solve disagrees (Q107 key d vs re-solve b)
+17-11 00:57:22   [sangya_sarvanam] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+17-11 00:57:52   [sangya_sarvanam] Practice_hi_Set_05.txt try 1: rejected (Q101: Hindi subject options changed between languages; Q102: tested Hindi text must be explicitly quoted; Q103
+17-11 00:58:18   [sangya_sarvanam] Practice_hi_Set_05.txt try 2: rejected (answer letters differ from English)
+17-11 00:58:49   [sangya_sarvanam] Practice_hi_Set_05.txt try 3: rejected (Q102: tested Hindi text must be explicitly quoted; Q103: tested Hindi text must be explicitly quoted; Q106: te
+17-11 01:00:18   [sangya_sarvanam] Practice_hi_Set_05.txt try 4: rejected (Q101: Hindi subject options changed between languages; Q102: tested Hindi text must be explicitly quoted; Q103
+17-11 01:00:18   [sangya_sarvanam] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
+17-11 01:01:23   [sangya_sarvanam] Practice_en_Set_06.txt try 1: rejected (Q139:duplicate_options)
+17-11 01:05:53   [sangya_sarvanam] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+17-11 01:06:41   [sangya_sarvanam] Practice_hi_Set_06.txt try 1: rejected (Q136: tested Hindi text must be explicitly quoted; Q137: tested Hindi text must be explicitly quoted; Q138: te
 ```
