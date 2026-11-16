@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (three-chapters)
 
-**आख़िरी update:** 17-11-2026 12:20 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 08:13 PM
+**आख़िरी update:** 17-11-2026 12:35 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 16-11 08:13 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 83 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 64 मिनट |
-| W3 | Chapter 02 input output ports (12th Computer) | 🔎 review हो रहा है | 17 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 79 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -41,35 +39,12 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 02 shabd bhed (Hindi) — 4 बार
-- Chapter 01 varn vartani (Hindi) — 1 बार
-- Chapter 02 input output ports (Computer) — 1 बार
+- Chapter 01 varn vartani (Hindi) — 2 बार
+- Chapter 02 input output ports (Computer) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-16-11 23:21:23   [varn_vartani] Practice_en_Set_05.txt try 1: rejected (Q105:duplicate_options,Q115:duplicate_options,Q118:duplicate_options,Q120:duplicate_options,Q124:duplicate_opt
-16-11 23:21:42   [sangya_sarvanam] wrote Feynman_en.txt (4668 chars)
-16-11 23:22:15   [sangya_sarvanam] wrote Feynman_hi.txt (4360 chars)
-16-11 23:22:32   [sangya_sarvanam] wrote Mind_Map.txt (1319 chars)
-16-11 23:22:52   [input_output_ports] REJECTED review fix PYQ_hi.txt: reviewer still reports - उदाहरण 1 की व्याख्या में "HDMI में 19 पिन होते हैं लेकिन एक पंक्ति में" गलत है → HDMI टाइप-A 
-16-11 23:23:07   [sangya_sarvanam] wrote Flashcards_en.txt (4799 chars)
-16-11 23:23:36   [sangya_sarvanam] wrote Flashcards_hi.txt (2817 chars)
-16-11 23:24:37   [sangya_sarvanam] wrote PYQ_en.txt (6308 chars)
-16-11 23:26:06   [sangya_sarvanam] wrote PYQ_hi.txt (6701 chars)
-16-11 23:26:09   [varn_vartani] Practice_en_Set_05.txt try 2: rejected (Q115:duplicate_options)
-16-11 23:27:50   [sangya_sarvanam] wrote Important_Rules_en.txt (8469 chars)
-16-11 23:27:58   [input_output_ports] review Important_Rules_en.txt: 1 issue(s): - Rule 9 exception: “Professional 6.35 mm (¼″) TRS/TRS balanced lines” is a typo → Professional 6.35 mm (¼″
-16-11 23:29:31   [sangya_sarvanam] wrote Important_Rules_hi.txt (9884 chars)
-16-11 23:49:15   [input_output_ports] REJECTED review fix Important_Rules_en.txt: reviewer still reports - Rule 11 claims all Thunderbolt 3/4 ports are USB4 compliant → Only Thunderbolt 4 
-16-11 23:54:14   [sangya_sarvanam] Practice_en_Set_01.txt try 1: re-solve disagrees (Q23 key a vs re-solve ?)
-16-11 23:54:33   [varn_vartani] Practice_en_Set_05.txt try 3: re-solve disagrees (Q114 key a vs re-solve b, Q124 key d vs re-solve a)
-16-11 23:55:52   [input_output_ports] review Important_Rules_hi.txt: 1 issue(s): - नियम 12: थंडरबोल्ट 3/4 केबल के लिए "0.8 मीटर से अधिक लंबाई पर सक्रिय केबल" कहा गया है, लेकिन थंडरबोल्ट 3 
-17-11 00:00:10   [sangya_sarvanam] Practice_en_Set_01.txt try 2: re-solve disagrees (Q23 key d vs re-solve c)
-17-11 00:00:27   [varn_vartani] Practice_en_Set_05.txt try 4: re-solve disagrees (Q114 key c vs re-solve b, Q124 key b vs re-solve d)
-17-11 00:00:27   [varn_vartani] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
-17-11 00:00:27   [varn_vartani] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
-17-11 00:02:42   [input_output_ports] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम 4: USB संस्करण गति सूची में "USB 3.2/4 (20–40 Gbps)" भ्रामक है क्योंकि USB 3
-17-11 00:02:42   [input_output_ports] review: 2 section(s) corrected, 5 failed
 17-11 00:02:42   [input_output_ports] written 2, failed 5; AI calls today 3/100000
 17-11 00:02:42 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_02_input_output_ports after 229 min: todo [] problems []
 17-11 00:02:42 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_02_input_output_ports (OK: todo 0, problems 0)
@@ -87,4 +62,27 @@
 17-11 00:18:45   [sangya_sarvanam] Practice_hi_Set_02.txt try 1: rejected (Q32: tested Hindi text changed between languages; Q48: tested Hindi text changed between languages)
 17-11 00:19:25   [sangya_sarvanam] Practice_hi_Set_02.txt try 2: rejected (Q32: tested Hindi text changed between languages; Q48: tested Hindi text changed between languages)
 17-11 00:20:28   [sangya_sarvanam] Practice_hi_Set_02.txt try 3: rejected (Q32: tested Hindi text changed between languages; Q48: tested Hindi text changed between languages)
+17-11 00:21:35   [sangya_sarvanam] Practice_hi_Set_02.txt try 4: rejected (Q32: tested Hindi text changed between languages; Q48: tested Hindi text changed between languages)
+17-11 00:21:35   [sangya_sarvanam] REJECTED Practice_hi_Set_02.txt: no translation passed the checks — not written
+17-11 00:22:54   [sangya_sarvanam] Practice_en_Set_03.txt try 1: rejected (Q57:duplicate_options,Q73:duplicate_options)
+17-11 00:24:07   [sangya_sarvanam] Practice_en_Set_03.txt try 2: rejected (Q57:duplicate_options)
+17-11 00:24:12   [varn_vartani] Practice_en_Set_06.txt try 4: re-solve disagrees (Q134 key c vs re-solve b, Q139 key c vs re-solve ?, Q143 key d vs re-solve a, Q145 key d vs re-solve
+17-11 00:24:12   [varn_vartani] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+17-11 00:24:12   [varn_vartani] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+17-11 00:24:12   [varn_vartani] written 0, failed 7; AI calls today 27/100000
+17-11 00:24:12 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 87 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 05 en: todo'] problems []
+17-11 00:24:12 worker 0: nothing left
+17-11 00:25:25   [sangya_sarvanam] Practice_en_Set_03.txt try 3: rejected (parsed 24 questions, numbers 51…75)
+17-11 00:25:40   [input_output_ports] review PYQ_hi.txt: 2 issue(s): - Example 1 (पहचान-आधारित) का प्रश्न एक पोर्ट का वर्णन करता है जिसमें '19 पिन, तीन पंक्तियाँ, एनालॉग वीडियो' है, लेकिन 
+17-11 00:27:01   [sangya_sarvanam] Practice_en_Set_03.txt try 4: rejected (Q64:leaked_reasoning)
+17-11 00:27:01   [sangya_sarvanam] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
+17-11 00:27:01   [sangya_sarvanam] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+17-11 00:27:53   [sangya_sarvanam] Practice_en_Set_04.txt try 1: rejected (Q91:duplicate_options,Q95:duplicate_options)
+17-11 00:28:34   [sangya_sarvanam] Practice_en_Set_04.txt try 2: rejected (Q91:duplicate_options,Q95:duplicate_options)
+17-11 00:29:24   [input_output_ports] REJECTED review fix PYQ_hi.txt: reviewer still reports - In Example 1 explanation, "DVI-D में 24+1 पिन" is incorrect for single-link DVI-D (which has 
+17-11 00:31:49   [input_output_ports] review: 1 section(s) corrected, 1 failed
+17-11 00:31:49   [input_output_ports] written 1, failed 1; AI calls today 36/100000
+17-11 00:31:49 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_02_input_output_ports after 29 min: todo [] problems []
+17-11 00:31:49 worker 2: nothing left
+17-11 00:32:04   [sangya_sarvanam] Practice_en_Set_04.txt try 3: re-solve disagrees (Q95 key a vs re-solve b, Q99 key d vs re-solve a)
 ```
