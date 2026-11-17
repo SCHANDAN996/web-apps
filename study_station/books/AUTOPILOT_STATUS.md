@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 01:34 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 11:58 PM
+**आख़िरी update:** 18-11-2026 01:46 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 11:58 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 41 मिनट |
-| W2 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 16 मिनट |
-| W3 | Chapter 05 windows files (12th Computer) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 06 keyboard shortcuts (12th Computer) | ✍️ लिख रहा है | 12 मिनट |
+| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 53 मिनट |
+| W2 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 27 मिनट |
+| W3 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 11 मिनट |
+| W4 | Chapter 06 keyboard shortcuts (12th Computer) | ✍️ लिख रहा है | 24 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 51 |
-| key 4 | 70 |
+| key 3 | 57 |
+| key 4 | 75 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -54,17 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 00:54:58   [software_os] REJECTED review fix Feynman_en.txt: reviewer still reports - Windows boot process missing winload.efi between Windows Boot Manager and ntoskrnl.exe → 
-18-11 00:55:58   [sangya_sarvanam] review Flashcards_hi.txt: 1 issue(s): - कार्ड 18: "ने" को प्रथमा/कर्तृ कारक का चिह्न बताना गलत है → "ने" कर्तृ कारक (कर्ता कारक) का चिह्न है जो केवल स
-18-11 00:58:24   [visheshan_kriya] review Flashcards_hi.txt: 3 issue(s): - Card 11: The rule “क्रिया मूल + ‘गा/गे/गी’” does not produce the example “जाएगा” (from “जाना”); “जाना” is irre
-18-11 00:59:38   [ling_vachan_karak] review Content_hi.txt: 7 issue(s): - In the लिंग table, "कमरा" and "पत्तल" are incorrectly listed as नपुंसकलिंग examples → "कमरा" is पुल्लिंग (आ कारां
-18-11 00:59:48   [visheshan_kriya] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 11: "देगा" is listed as an irregular verb with vowel change, but "देना → देगा" is
-18-11 01:01:08   [software_os] review PYQ_en.txt: 2 issue(s): - Example 4 (Round Robin scheduling): The answer key states (b) 3.33, but the correct average waiting time is 5.33 (16/
-18-11 01:03:55   [software_os] REJECTED review fix PYQ_en.txt: reviewer still reports - Example 4 (Round Robin numerical): The solution's Gantt chart shows P3 running at 6-7 while P
-18-11 01:04:48   [visheshan_kriya] review PYQ_hi.txt: 2 issue(s): - "समान उच्चारण, भिन्न अर्थ" जाल में उदाहरण: दोनों शब्द *"करना"* लिखे हैं, दूसरा "कर ना" होना चाहिए → दूसरा शब्द "कर ना
-18-11 01:06:10   [software_os] review Important_Rules_en.txt: 2 issue(s): - Rule 4 example incorrectly states that 8 GB RAM + 12 GB page file equals 20 GB virtual address space per 
-18-11 01:06:44   [visheshan_kriya] REJECTED review fix PYQ_hi.txt: reviewer still reports - "कई" classified as परिमाणवाचक विशेषण in the table → "कई" is a संख्यावाचक विशेषण (अनिश्चयवाचक)
-18-11 01:07:57   [visheshan_kriya] review Important_Rules_hi.txt: 1 issue(s): - Rule 14: Causative formation rule says add 'वाँ/आँ' to root, but examples show different suffixes (वाना, 
 18-11 01:08:05   [sangya_sarvanam] review PYQ_hi.txt: 4 issue(s): - Section 5 trap "कारक चिह्न लोप" incorrectly labels "राम घर गया" as incorrect → "राम घर गया" is correct; "घर" function
 18-11 01:10:43   [visheshan_kriya] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 12: The example "वह जोरदार बोला" incorrectly uses "जोरदार" as an adverb (क्र
 18-11 01:10:43   [visheshan_kriya] review: 3 section(s) corrected, 4 failed
@@ -94,4 +83,15 @@
 18-11 01:30:44   [kaal_vachya] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q99 key b vs re-solve d)
 18-11 01:34:56   [windows_files] review: 2 section(s) corrected, 0 failed
 18-11 01:34:56   [windows_files] written 2, failed 0; AI calls today 118/100000
+18-11 01:35:14 DONE 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_05_windows_files in 24 min → 8a51c079
+18-11 01:35:15 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (TODO: todo 1, problems 0)
+18-11 01:35:15   [varn_vartani] Hindi-only writer: direct Hindi content; English generation and translation disabled
+18-11 01:35:29   [kaal_vachya] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q91 key b vs re-solve a)
+18-11 01:37:23   [ling_vachan_karak] review PYQ_hi.txt: 3 issue(s): - "SSC GD में इस अध्याय से 3–5 प्रश्न आते हैं" → invented exam statistic (no source, specific number claimed)
+18-11 01:39:30   [varn_vartani] Practice_hi_Set_03.txt try 1: rejected (parsed 24 questions, numbers 51…75)
+18-11 01:40:33   [kaal_vachya] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q91 key a vs re-solve b)
+18-11 01:40:57   [varn_vartani] Practice_hi_Set_03.txt try 2: rejected (Q59:duplicate_options,Q62:duplicate_options)
+18-11 01:44:52   [kaal_vachya] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q91 key c vs re-solve b)
+18-11 01:44:52   [kaal_vachya] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
+18-11 01:46:25   [kaal_vachya] Practice_hi_Set_05.txt try 1: rejected (Q114:duplicate_options,Q122:duplicate_options)
 ```
