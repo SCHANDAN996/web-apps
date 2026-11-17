@@ -1,0 +1,151 @@
+Questions 76–95: Easy | Questions 96–100: Medium
+
+76. Which file system is the default for modern Windows installations and supports file-level permissions, encryption, and disk quotas?
+(a) FAT32 (b) NTFS (c) ReFS (d) exFAT
+Answer: (b)
+Solution: FAT32 and exFAT lack built-in file-level security features such as ACLs and EFS; ReFS is designed for server resilience, not default client installs. NTFS provides all listed features and is the default for Windows system volumes, so the answer is NTFS.
+Source: Microsoft Learn – NTFS overview
+
+77. A user copies a file from an NTFS volume to a FAT32 USB drive. Which NTFS-specific attribute is lost during the copy?
+(a) File name (b) File size (c) Alternate data streams (d) Creation timestamp
+Answer: (c)
+Solution: File name, size, and basic timestamps are preserved on FAT32; alternate data streams (ADS) are an NTFS-only feature and cannot be stored on FAT32, so the answer is Alternate data streams.
+Source: Microsoft Learn – Alternate Data Streams
+
+78. In File Explorer, which keyboard shortcut permanently deletes a selected file without sending it to the Recycle Bin?
+(a) Ctrl + Delete (b) Delete (c) Shift + Delete (d) Alt + Delete
+Answer: (c)
+Solution: Delete moves to Recycle Bin; Ctrl+Delete and Alt+Delete have no standard delete function in Explorer. Shift+Delete bypasses the Recycle Bin for immediate permanent deletion, so the answer is Shift + Delete.
+Source: Microsoft Support – Keyboard shortcuts in Windows
+
+79. What is the maximum individual file size supported on a FAT32 volume?
+(a) 2 GB (b) 4 GB (c) 8 GB (d) 16 GB
+Answer: (b)
+Solution: FAT32 uses a 32-bit file allocation table with a 4-byte file size field, limiting a single file to 4,294,967,295 bytes (4 GB minus 1 byte). exFAT and NTFS support much larger files, so the answer is 4 GB.
+Source: Microsoft Learn – FAT32 specification
+
+80. Which command displays the full directory tree structure starting from the current folder in Command Prompt?
+(a) dir /s (b) tree (c) dir /a (d) ls -R
+Answer: (b)
+Solution: dir /s lists files recursively but not as a tree; dir /a shows hidden files; ls -R is a Linux command. The tree command renders a graphical directory tree, so the answer is tree.
+Source: Microsoft Learn – tree command
+
+81. A file has the Read-only and Hidden attributes set. Which attrib command removes both attributes in one step?
+(a) attrib -r -h filename (b) attrib +r +h filename (c) attrib -r +h filename (d) attrib +r -h filename
+Answer: (a)
+Solution: Plus signs add attributes; minus signs remove them. To clear both Read-only (r) and Hidden (h), both must be preceded by minus, so the answer is attrib -r -h filename.
+Source: Microsoft Learn – attrib command
+
+82. Which Windows feature allows a folder to appear in multiple locations in the navigation pane without duplicating files?
+(a) Library (b) Symbolic link (c) Shortcut (d) Junction point
+Answer: (a)
+Solution: A shortcut is a .lnk file; symbolic links and junction points are NTFS reparse points for folders. Libraries aggregate folders from different paths into a single virtual view without moving files, so the answer is Library.
+Source: Microsoft Learn – Windows Libraries
+
+83. When a file is compressed using NTFS compression, what happens to its file size on disk compared to its actual size?
+(a) Size on disk becomes larger (b) Size on disk becomes zero (c) Size on disk becomes smaller (d) Both remain identical
+Answer: (c)
+Solution: NTFS compression reduces the allocated clusters for the file, so Size on disk (allocated space) is smaller than the logical file size. The file content is transparently decompressed on read, so the answer is Size on disk becomes smaller.
+Source: Microsoft Learn – NTFS compression
+
+84. Which environment variable holds the path to the current user's profile folder (e.g., C:\Users\Name)?
+(a) %HOMEPATH% (b) %SYSTEMROOT% (c) %APPDATA% (d) %USERPROFILE%
+Answer: (d)
+Solution: %HOMEPATH% is the relative path under the profiles directory; %APPDATA% points to Roaming AppData; %SYSTEMROOT% is the Windows directory. %USERPROFILE% expands to the full user profile path, so the answer is %USERPROFILE%.
+Source: Microsoft Learn – Environment variables
+
+85. A user cannot modify a file on a network share despite having Full Control NTFS permission on the file. What is the most likely cause?
+(a) Share permission is Read (b) File is encrypted (c) File is compressed (d) File is offline
+Answer: (a)
+Solution: Effective permission is the most restrictive of NTFS and share permissions. Full Control NTFS with Read share results in Read effective access. Encryption, compression, or offline status do not override share permissions, so the answer is Share permission is Read.
+Source: Microsoft Learn – Share and NTFS permissions
+
+86. Which wildcard represents exactly one character in a Windows command-line pattern?
+(a) # (b) * (c) ? (d) .
+Answer: (c)
+Solution: Asterisk (*) matches zero or more characters; hash (#) and dot (.) are literals in patterns. Question mark (?) matches exactly one character, so the answer is ?.
+Source: Microsoft Learn – Wildcards in commands
+
+87. What is the default location of the Recycle Bin for each volume?
+(a) C:\Recycle.Bin (b) \Recycler (c) \Recycled (d) \Recycle.Bin
+Answer: (d)
+Solution: Modern Windows uses a hidden system folder named $Recycle.Bin at the root of each volume (displayed as Recycle.Bin). Recycler and Recycled are legacy names from Windows 9x/2000, so the answer is \Recycle.Bin.
+Source: Microsoft Learn – Recycle Bin internals
+
+88. Which tool creates a sector-by-sector copy of an entire drive or partition to an image file?
+(a) xcopy (b) robocopy (c) wbadmin (d) dism
+Answer: (c)
+Solution: xcopy and robocopy copy files and folders, not raw sectors. dism manages Windows images. wbadmin (Windows Backup) can create bare-metal recovery images including sector-level data, so the answer is wbadmin.
+Source: Microsoft Learn – wbadmin start backup
+
+89. A file appears as "report.docx" in File Explorer with "Hide extensions for known file types" enabled. The actual file name on disk could be:
+(a) report (b) report.doc (c) report.docx (d) report.docx.exe
+Answer: (d)
+Solution: With "Hide extensions for known file types" enabled, a known extension like .exe is hidden. A file named "report.docx.exe" would display as "report.docx" because the .exe part is hidden, while the .docx part remains visible. This is a common trick used by malware to disguise executable files. The other options would not display as "report.docx" under this setting, so the answer is report.docx.exe.
+Source: Microsoft Support – Show or hide file extensions
+
+90. Which command copies all files and subdirectories, including empty ones, from source to destination?
+(a) copy *.* dest (b) xcopy source dest /s (c) robocopy source dest /mir (d) xcopy source dest /e
+Answer: (d)
+Solution: copy does not recurse; xcopy /s excludes empty directories; robocopy /mir mirrors (deletes extra destination files). xcopy /e copies all subdirectories including empty ones, so the answer is xcopy source dest /e.
+Source: Microsoft Learn – xcopy command
+
+91. What does the "Archive" attribute (A) indicate when set on a file?
+(a) File is compressed (b) File is read-only (c) File has changed since last backup (d) File is a system file
+Answer: (c)
+Solution: The Archive bit is set by the OS when a file is created or modified; backup software clears it after backup. It does not indicate compression, read-only, or system status, so the answer is File has changed since last backup.
+Source: Microsoft Learn – File attribute constants
+
+92. Which path format is a valid UNC (Universal Naming Convention) path to a shared folder?
+(a) /Server/Share/Folder (b) C:\Share\Folder (c) \\Server\Share\Folder (d) file://Server/Share/Folder
+Answer: (c)
+Solution: UNC paths start with two backslashes followed by server name and share name. Drive-letter paths, forward-slash paths, and file:// URLs are not UNC, so the answer is \\Server\Share\Folder.
+Source: Microsoft Learn – UNC paths
+
+93. A user creates a shortcut to a program. The shortcut file extension is:
+(a) .exe (b) .lnk (c) .url (d) .scf
+Answer: (b)
+Solution: .exe is an executable; .url is an Internet shortcut; .scf is a Windows Explorer command file. Standard Windows shortcuts use .lnk extension, so the answer is .lnk.
+Source: Microsoft Learn – Shell links
+
+94. Which File Explorer view shows file details such as Size, Type, and Date Modified in columns?
+(a) Details (b) List (c) Icons (d) Tiles
+Answer: (a)
+Solution: Icons and Tiles show thumbnails with minimal info; List shows names only in columns. Details view presents a tabular layout with configurable columns, so the answer is Details.
+Source: Microsoft Support – Change the view in File Explorer
+
+95. What happens when you drag a file from one folder to another on the same NTFS volume while holding the Ctrl key?
+(a) File is moved (b) File is copied (c) Shortcut is created (d) Nothing happens
+Answer: (b)
+Solution: Default drag on same volume moves; Ctrl forces copy; Alt creates shortcut; Shift forces move. Holding Ctrl overrides the default move to perform a copy, so the answer is File is copied.
+Source: Microsoft Support – Drag and drop behavior
+
+96. Which command securely deletes free space on a volume to prevent file recovery?
+(a) format X: /q (b) chkdsk X: /r (c) defrag X: /f (d) cipher /w:X:
+Answer: (d)
+Solution: format /q only clears the file table; defrag reorganizes files; chkdsk /r repairs sectors. cipher /w overwrites all free space with zeros, ones, and random data, so the answer is cipher /w:X:.
+Source: Microsoft Learn – cipher command
+
+97. A folder has "Read" share permission and "Modify" NTFS permission for a user accessing it over the network. The effective permission is:
+(a) Write (b) Modify (c) Full Control (d) Read
+Answer: (d)
+Solution: Effective network permission = most restrictive of share and NTFS. Read share + Modify NTFS = Read effective. The user cannot write or modify over the network, so the answer is Read.
+Source: Microsoft Learn – Effective permissions
+
+98. Which feature allows mounting a volume as a folder on an existing NTFS volume instead of assigning a drive letter?
+(a) Junction point (b) Volume mount point (c) Symbolic link (d) Hard link
+Answer: (b)
+Solution: Junction points link directories on same volume; symbolic links can cross volumes but are file/folder level; hard links are for files only. Volume mount points assign a volume to an empty NTFS folder, so the answer is Volume mount point.
+Source: Microsoft Learn – Volume mount points
+
+99. In a batch file, which variable represents the full path of the batch script itself?
+(a) %~dp0 (b) %1 (c) %* (d) %0
+Answer: (a)
+Solution: %0 is the script name as invoked; %1 is first argument; %* is all arguments. %~dp0 expands to the drive and path of the script (directory only), so the answer is %~dp0.
+Source: Microsoft Learn – Batch file parameters
+
+100. A user enables "Compact OS" on Windows 10. What is the primary effect?
+(a) Compresses system files to save disk space (b) Compresses user documents (c) Enables NTFS compression on C: (d) Reduces RAM usage
+Answer: (a)
+Solution: Compact OS stores Windows system files in a compressed state (similar to WIMBoot) to reduce footprint on small drives. It does not compress user data, enable full-volume NTFS compression, or affect RAM, so the answer is Compresses system files to save disk space.
+Source: Microsoft Learn – Compact OS

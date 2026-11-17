@@ -1,0 +1,149 @@
+101. Which keyboard shortcut opens File Explorer in Windows?
+(a) Ctrl + E (b) Shift + E (c) Alt + E (d) Win + E
+Answer: (d)
+Solution: Many users confuse Ctrl+E (which focuses the search/address bar inside an already-open Explorer) with the global shortcut; the Windows-key combination Win+E launches a new File Explorer window directly, so the answer is Win + E.
+Source: Microsoft Learn – Windows keyboard shortcuts
+
+102. What happens when you press Delete on a file in File Explorer?
+(a) The file is permanently erased immediately (b) The file is moved to the Recycle Bin (c) The file is compressed into a ZIP archive (d) The file is renamed automatically
+Answer: (b)
+Solution: A common trap is thinking Delete removes the file forever; by default Windows sends the file to the Recycle Bin so it can be restored, so the answer is moved to the Recycle Bin.
+Source: Microsoft Support – Delete files or folders in File Explorer
+
+103. Which key combination permanently deletes a selected file bypassing the Recycle Bin?
+(a) Alt + Delete (b) Ctrl + Delete (c) Shift + Delete (d) Win + Delete
+Answer: (c)
+Solution: Users often try Ctrl+Delete (which does nothing special) or Alt+Delete; the documented shortcut that skips the Recycle Bin is Shift+Delete, so the answer is Shift + Delete.
+Source: Microsoft Learn – Keyboard shortcuts in Windows
+
+104. In File Explorer, which view shows file names with small icons and details like size and date modified?
+(a) Details (b) List (c) Tiles (d) Content
+Answer: (a)
+Solution: The Details view is specifically designed to display columns such as Name, Date modified, Type, and Size; List and Tiles show less metadata, so the answer is Details.
+Source: Microsoft Support – Change the view of a folder in File Explorer
+
+105. What is the default location of the Quick Access toolbar in File Explorer?
+(a) Bottom-left corner (b) Right side of the address bar (c) Top-left corner above the ribbon (d) Inside the navigation pane
+Answer: (c)
+Solution: Some candidates confuse the Quick Access *folder* in the navigation pane with the Quick Access *toolbar* that holds pinned commands; the toolbar sits above the ribbon by default, so the answer is Top-left corner above the ribbon.
+Source: Microsoft Learn – Customize the Quick Access Toolbar
+
+106. Which file attribute indicates that a file should be backed up by backup software?
+(a) Read-only (b) Hidden (c) System (d) Archive
+Answer: (d)
+Solution: The Archive attribute is set automatically when a file changes and cleared by backup programs after copying; Read-only and Hidden serve different purposes, so the answer is Archive.
+Source: Microsoft Learn – File attribute constants
+
+107. How do you select multiple non-adjacent files in File Explorer?
+(a) Hold Ctrl and click each file (b) Hold Shift and click each file (c) Hold Alt and click each file (d) Drag a rectangle around them
+Answer: (a)
+Solution: Shift+click selects a contiguous range; Ctrl+click toggles individual files without affecting others, making it the correct method for non-adjacent selection, so the answer is Hold Ctrl and click each file.
+Source: Microsoft Support – Select multiple files or folders
+
+108. What does the "Extract All" command do when you right-click a ZIP file?
+(a) Creates a folder with the same name and copies the contents there (b) Deletes the ZIP file after copying contents (c) Compresses the ZIP file further (d) Moves the ZIP file to the Recycle Bin
+Answer: (a)
+Solution: A tempting wrong choice is that it deletes the archive; Windows actually creates a new folder (usually named after the ZIP) and places the extracted files inside, leaving the original ZIP intact, so the answer is Creates a folder with the same name and copies the contents there.
+Source: Microsoft Support – Zip and unzip files
+
+109. Which path format is a valid absolute path in Windows?
+(a) Documents\Report.docx (b) ..\Report.docx (c) C:\Users\Name\Documents\Report.docx (d) ~\Report.docx
+Answer: (c)
+Solution: Relative paths like Documents\Report.docx or ..\Report.docx depend on the current directory; only a path starting with a drive letter and root backslash is absolute, so the answer is C:\Users\Name\Documents\Report.docx.
+Source: Microsoft Learn – File path formats on Windows systems
+
+110. What is the function of the "Libraries" feature in File Explorer?
+(a) Encrypts files automatically (b) Compresses folders to save space (c) Groups folders from different locations into a single view (d) Creates shortcuts on the desktop
+Answer: (c)
+Solution: Libraries do not move or compress files; they provide a virtual aggregated view of included folders (e.g., Documents, Pictures) regardless of physical location, so the answer is Groups folders from different locations into a single view.
+Source: Microsoft Support – Include folders in a library
+
+111. Which keyboard shortcut renames the selected file or folder in File Explorer?
+(a) F6 (b) F3 (c) F5 (d) F2
+Answer: (d)
+Solution: F3 opens search, F5 refreshes, F6 cycles UI elements; F2 is the standard rename shortcut across Windows, so the answer is F2.
+Source: Microsoft Learn – Keyboard shortcuts in File Explorer
+
+112. When you drag a file from one drive to another (e.g., C: to D:), what is the default action?
+(a) Copy (b) Move (c) Create shortcut (d) Prompt for choice
+Answer: (a)
+Solution: Within the same drive the default is Move; across drives Windows defaults to Copy to avoid data loss if the operation is interrupted, so the answer is Copy.
+Source: Microsoft Support – Copy or move files and folders
+
+113. How can you make file extensions visible in File Explorer?
+(a) View tab → File name extensions checkbox (b) Right-click a file → Properties → Show extension (c) Tools → Folder Options → Hide extensions for known file types (d) Press Ctrl+Shift+E
+Answer: (a)
+Solution: The modern ribbon places the toggle directly on the View tab; the older Folder Options dialog hides the setting under "Hide extensions for known file types" (which must be unchecked), so the answer is View tab → File name extensions checkbox.
+Source: Microsoft Support – Show file extensions in Windows
+
+114. What does the "Previous Versions" tab in a file's Properties show?
+(a) The file's edit history in Notepad (b) Older copies from File History or restore points (c) Versions uploaded to OneDrive only (d) A list of users who opened the file
+Answer: (b)
+Solution: Previous Versions relies on System Protection (restore points) or File History backups, not application-level history or cloud sync alone, so the answer is Older copies from File History or restore points.
+Source: Microsoft Support – Restore previous versions of files
+
+115. Which command creates a shortcut to a file or folder in the same location?
+(a) Right-click → Send to → Desktop (create shortcut) (b) Right-click → Create shortcut (c) Right-click → New → Shortcut (d) Ctrl+Shift while dragging
+Answer: (b)
+Solution: "Create shortcut" appears in the context menu and places a .lnk file in the current folder; "Send to Desktop" puts it on the Desktop, and "New → Shortcut" starts a wizard, so the answer is Right-click → Create shortcut.
+Source: Microsoft Support – Create a shortcut
+
+116. What is the maximum length of a traditional Windows file path (MAX_PATH)?
+(a) 128 characters (b) 512 characters (c) 260 characters (d) 1024 characters
+Answer: (c)
+Solution: The classic MAX_PATH limit is 260 characters (drive letter, colon, backslash, 256 chars for path, and null terminator); long-path support can be enabled via Group Policy, but the default remains 260, so the answer is 260 characters.
+Source: Microsoft Learn – Naming files, paths, and namespaces
+
+117. Which wildcard represents exactly one character in a File Explorer search?
+(a) * (b) # (c) ? (d) @
+Answer: (c)
+Solution: The asterisk (*) matches zero or more characters; the question mark (?) matches exactly one character, making it the correct wildcard for single-character substitution, so the answer is ?.
+Source: Microsoft Support – Use wildcards in File Explorer search
+
+118. What happens when you enable "Hidden items" on the View tab in File Explorer?
+(a) System files become read-only (b) The navigation pane collapses (c) File extensions are shown for all files (d) Files with the Hidden attribute become visible
+Answer: (d)
+Solution: The toggle only affects the Hidden attribute; it does not change read-only status, extensions, or the navigation pane, so the answer is Files with the Hidden attribute become visible.
+Source: Microsoft Support – Show hidden files
+
+119. Which keyboard shortcut opens the Properties dialog for the selected item?
+(a) Win + Enter (b) Ctrl + Enter (c) Shift + Enter (d) Alt + Enter
+Answer: (d)
+Solution: Alt+Enter is the long-standing shortcut for Properties; Ctrl+Enter and Shift+Enter have other uses (e.g., open in new window), and Win+Enter launches Narrator, so the answer is Alt + Enter.
+Source: Microsoft Learn – Keyboard shortcuts in File Explorer
+
+120. What is the purpose of the "Disk Cleanup" utility?
+(a) Removes temporary and unnecessary system files (b) Defragments the hard drive (c) Repairs corrupted system files (d) Backs up user data to an external drive
+Answer: (a)
+Solution: Disk Cleanup targets temporary files, Recycle Bin contents, thumbnails, and other non-essential data; defragmentation, system file repair, and backup are separate tools, so the answer is Removes temporary and unnecessary system files.
+Source: Microsoft Support – Disk Cleanup in Windows
+
+121. In a multi-user Windows environment, which folder stores per-user application data that roams with the user profile?
+(a) C:\ProgramData (b) %APPDATA% (c) %LOCALAPPDATA% (d) C:\Users\Public
+Answer: (b)
+Solution: %APPDATA% (typically C:\Users\Name\AppData\Roaming) holds roaming data; %LOCALAPPDATA% stays on the local machine, ProgramData is machine-wide, and Public is shared, so the answer is %APPDATA%.
+Source: Microsoft Learn – Roaming application data
+
+122. Which NTFS permission allows a user to traverse a folder to reach files and subfolders but not list the folder's contents?
+(a) Traverse folder / execute file (b) List folder contents (c) Read (d) Read & execute
+Answer: (a)
+Solution: "List folder contents" permits seeing names; "Traverse folder / execute file" only allows passing through the folder to access permitted child objects without listing the parent, so the answer is Traverse folder / execute file.
+Source: Microsoft Learn – NTFS permissions reference
+
+123. What does the "Compact OS" feature do in Windows 10 and later?
+(a) Compresses the entire drive with NTFS compression (b) Stores system files in a compressed state to save disk space (c) Creates a compact virtual hard disk for the OS (d) Removes unused Windows components automatically
+Answer: (b)
+Solution: Compact OS compresses individual system files (not the whole volume) and keeps them usable without a separate WIMBoot container; it does not remove components, so the answer is Stores system files in a compressed state to save disk space.
+Source: Microsoft Learn – Compact OS
+
+124. Which command-line tool repairs Windows system files by replacing corrupted versions with cached copies?
+(a) chkdsk (b) sfc /scannow (c) dism /online /cleanup-image /restorehealth (d) diskpart
+Answer: (b)
+Solution: chkdsk checks the filesystem, DISM repairs the component store, and diskpart manages partitions; sfc /scannow specifically scans and replaces protected system files from the local cache, so the answer is sfc /scannow.
+Source: Microsoft Support – Use the System File Checker tool
+
+125. When using Robocopy, which switch mirrors a source directory to a destination (including deleting extra files in destination)?
+(a) /E (b) /Z (c) /COPYALL (d) /MIR
+Answer: (d)
+Solution: /E copies subdirectories including empty ones but does not purge destination extras; /MIR implies /E plus /PURGE, making the destination an exact mirror, so the answer is /MIR.
+Source: Microsoft Learn – Robocopy syntax and switches

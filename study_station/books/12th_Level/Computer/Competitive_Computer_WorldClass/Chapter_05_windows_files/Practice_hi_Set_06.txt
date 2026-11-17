@@ -1,0 +1,151 @@
+प्रश्न 1–20: आसान | प्रश्न 21–25: मध्यम
+
+126. Windows 10 और Windows 11 में File Explorer खोलने के लिए कौन सा कीबोर्ड शॉर्टकट है?
+(a) Ctrl + E (b) Shift + E (c) Alt + E (d) Win + E
+उत्तर: (d)
+हल: Ctrl + E पहले से खुले Explorer विंडो के अंदर सर्च/एड्रेस बार पर फोकस करता है, जबकि Win + E Windows में कहीं से भी एक नया File Explorer विंडो लॉन्च करता है। इसलिए सही शॉर्टकट Win + E है।
+स्रोत: Microsoft Learn — Windows keyboard shortcuts
+
+127. File Explorer में, कौन सा व्यू लेआउट बड़े आइकन दिखाता है जिनके नीचे फाइल नाम होते हैं और जो फोटो प्रीव्यू के लिए सबसे अच्छा है?
+(a) Large icons (b) List (c) Details (d) Content
+उत्तर: (a)
+हल: Details व्यू कॉलम दिखाता है (Name, Date, Size); List व्यू छोटे आइकन कॉलम में दिखाता है; Content व्यू मीडियम आइकन के साथ मेटाडेटा का स्निपेट दिखाता है। Large icons बड़े थंबनेल दिखाता है जो फोटो के लिए आदर्श है। इसलिए उत्तर Large icons है।
+स्रोत: Microsoft Support — Change the view of files in File Explorer
+
+128. जब आप Windows में आंतरिक NTFS ड्राइव पर संग्रहीत फाइल पर Delete दबाते हैं तो क्या होता है?
+(a) फाइल Recycle Bin में चली जाती है (b) फाइल तुरंत स्थायी रूप से मिट जाती है (c) फाइल कंप्रेस होकर छिप जाती है (d) फाइल एक अस्थायी फोल्डर में चली जाती है
+उत्तर: (a)
+हल: कई उपयोगकर्ता सोचते हैं कि Delete स्थायी रूप से मिटा देता है, लेकिन आंतरिक NTFS वॉल्यूम पर Windows फाइल को Recycle Bin में भेजता है जब तक कि Shift + Delete उपयोग न किया जाए। इसलिए फाइल Recycle Bin में चली जाती है।
+स्रोत: Microsoft Support — Recycle Bin in Windows
+
+129. कौन सा की कॉम्बिनेशन चयनित फाइल को Recycle Bin को बाईपास करके स्थायी रूप से डिलीट करता है?
+(a) Shift + Delete (b) Alt + Delete (c) Ctrl + Delete (d) Win + Delete
+उत्तर: (a)
+हल: Ctrl + Delete और Alt + Delete के अन्य सिस्टम कार्य हैं; Shift + Delete फाइल को Recycle Bin में रखे बिना तुरंत डिलीट करने का दस्तावेज़ीकृत शॉर्टकट है। इसलिए कॉम्बिनेशन Shift + Delete है।
+स्रोत: Microsoft Learn — Windows keyboard shortcuts
+
+130. File Explorer में एक फाइल का नाम बदलने के लिए, चयन के बाद मानक कीबोर्ड शॉर्टकट कौन सा है?
+(a) Enter (b) F3 (c) F5 (d) F2
+उत्तर: (d)
+हल: F3 सर्च खोलता है, F5 व्यू रीफ्रेश करता है, और Enter फाइल खोलता है। F2 Windows Explorer में समर्पित रीनेम शॉर्टकट है। इसलिए शॉर्टकट F2 है।
+स्रोत: Microsoft Learn — File Explorer keyboard shortcuts
+
+131. कौन सा फाइल एट्रिब्यूट, जब सेट किया जाता है, तो फाइल को आकस्मिक संशोधन या डिलीट से बचाता है लेकिन पढ़ने की अनुमति देता है?
+(a) Hidden (b) System (c) Archive (d) Read-only
+उत्तर: (d)
+हल: Hidden और System एट्रिब्यूट मुख्य रूप से दृश्यता प्रभावित करते हैं; Archive बैकअप सॉफ्टवेयर द्वारा उपयोग किया जाता है। Read-only एप्लिकेशन को स्पष्ट रूप से फाइल में लिखने से रोकता है। इसलिए एट्रिब्यूट Read-only है।
+स्रोत: Microsoft Learn — File attributes
+
+132. Windows में, .zip एक्सटेंशन वाली फाइल डिफ़ॉल्ट रूप से किस बिल्ट-इन फीचर से जुड़ी होती है?
+(a) Windows Media Player (b) Compressed Folder Tools (c) Notepad (d) Paint
+उत्तर: (b)
+हल: .zip फाइलें बिल्ट-इन Compressed Folder Tools का उपयोग करके कंप्रेस्ड फोल्डर के रूप में खुलती हैं; वे डिफ़ॉल्ट रूप से मीडिया, टेक्स्ट, या इमेज फाइल नहीं हैं। इसलिए एसोसिएशन Compressed Folder Tools है।
+स्रोत: Microsoft Support — Zip and unzip files
+
+133. जब आप Ctrl की दबाकर एक फाइल को एक ही NTFS ड्राइव पर एक फोल्डर से दूसरे फोल्डर में ड्रैग करते हैं, तो कौन सा ऑपरेशन होता है?
+(a) Move (b) Create shortcut (c) Copy (d) Delete
+उत्तर: (c)
+हल: मॉडिफायर के बिना, एक ही ड्राइव पर ड्रैग-एंड-ड्रॉप फाइल को मूव करता है; Ctrl दबाने पर कॉपी बाध्य होती है। कई उपयोगकर्ता मॉडिफायर भूल जाते हैं और अनजाने में फाइल मूव कर देते हैं। इसलिए ऑपरेशन Copy है।
+स्रोत: Microsoft Support — Copy or move files and folders
+
+134. कौन सा कीबोर्ड शॉर्टकट वर्तमान File Explorer विंडो में सभी आइटम चुनता है?
+(a) Ctrl + S (b) Ctrl + A (c) Ctrl + C (d) Ctrl + V
+उत्तर: (b)
+हल: Ctrl + S एप्लिकेशन में सेव करता है, Ctrl + C कॉपी करता है, Ctrl + V पेस्ट करता है। Ctrl + A Windows Explorer में यूनिवर्सल Select All शॉर्टकट है। इसलिए शॉर्टकट Ctrl + A है।
+स्रोत: Microsoft Learn — Windows keyboard shortcuts
+
+135. File Explorer में Quick Access क्षेत्र मुख्य रूप से किन दो प्रकार के आइटम दिखाता है?
+(a) इंस्टॉल्ड ऐप्स और सेटिंग्स (b) सिस्टम फाइलें और छिपे फोल्डर (c) नेटवर्क ड्राइव और प्रिंटर (d) हाल की फाइलें और बार-बार उपयोग होने वाले फोल्डर
+उत्तर: (d)
+हल: Quick Access उत्पादकता के लिए डिज़ाइन किया गया है, बार-बार उपयोग होने वाले फोल्डर पिन करता है और हाल की फाइलें सूचीबद्ध करता है; यह डिफ़ॉल्ट रूप से सिस्टम इंटर्नल, नेटवर्क डिवाइस, या ऐप्स नहीं दिखाता। इसलिए यह हाल की फाइलें और बार-बार उपयोग होने वाले फोल्डर दिखाता है।
+स्रोत: Microsoft Support — Quick Access in File Explorer
+
+136. केवल कीबोर्ड का उपयोग करके वर्तमान File Explorer स्थान में नया फोल्डर बनाने के लिए कौन सा शॉर्टकट उपयोग किया जाता है?
+(a) Ctrl + Shift + N (b) Ctrl + N (c) Alt + N (d) Shift + N
+उत्तर: (a)
+हल: Ctrl + N नया Explorer विंडो खोलता है; Ctrl + Shift + N वर्तमान विंडो के अंदर नया फोल्डर बनाता है। इसलिए शॉर्टकट Ctrl + Shift + N है।
+स्रोत: Microsoft Learn — File Explorer keyboard shortcuts
+
+137. File Explorer में कौन सा व्यू फाइल मेटाडेटा जैसे Date modified, Type, और Size को कॉलम में दिखाता है?
+(a) Details (b) Tiles (c) Content (d) Medium icons
+उत्तर: (a)
+हल: Tiles और Medium icons सीमित जानकारी के साथ आइकन दिखाते हैं; Content एक कॉलम में कुछ मेटाडेटा दिखाता है। Details व्यू पूर्ण सारणीबद्ध लेआउट प्रस्तुत करता है जिसमें सॉर्टेबल कॉलम होते हैं। इसलिए व्यू Details है।
+स्रोत: Microsoft Support — Change the view of files in File Explorer
+
+138. Windows 10/11 में मानक उपयोगकर्ता खाते के लिए Downloads फोल्डर का डिफ़ॉल्ट स्थान क्या है?
+(a) C:\Users\Public\Downloads (b) C:\Downloads (c) C:\Users\<username>\Downloads (d) C:\Windows\Downloads
+उत्तर: (c)
+हल: प्रत्येक उपयोगकर्ता प्रोफाइल का अपना Downloads फोल्डर उपयोगकर्ता प्रोफाइल डायरेक्टरी के अंतर्गत होता है; Public और रूट स्थान डिफ़ॉल्ट प्रति-उपयोगकर्ता पथ नहीं हैं। इसलिए स्थान C:\Users\<username>\Downloads है।
+स्रोत: Microsoft Learn — User profile folders
+
+139. कौन सी फाइल सिस्टम फीचर एक फाइल को एक ही NTFS वॉल्यूम पर डेटा डुप्लिकेट किए बिना एकाधिक डायरेक्ट्री एंट्री (नाम) रखने की अनुमति देती है?
+(a) Shortcut (.lnk) (b) Hard link (c) Symbolic link (d) Junction
+उत्तर: (b)
+हल: शॉर्टकट शेल ऑब्जेक्ट हैं, फाइलसिस्टम लिंक नहीं; सिम्बोलिक लिंक और जंक्शन पथ को इंगित करते हैं और वॉल्यूम पार कर सकते हैं। हार्ड लिंक एक ही NTFS वॉल्यूम पर समान फाइल डेटा के लिए अतिरिक्त डायरेक्ट्री एंट्री है। इसलिए फीचर Hard link है।
+स्रोत: Microsoft Learn — Hard links and junctions
+
+140. File Explorer सर्च बॉक्स में "kind:document" टाइप करने पर परिणाम किस प्रकार के आइटम दिखाने के लिए फ़िल्टर होते हैं?
+(a) फोल्डर (b) एप्लिकेशन (c) इमेज (d) डॉक्यूमेंट
+उत्तर: (d)
+हल: kind: फ़िल्टर Windows Search प्रॉपर्टी का उपयोग करता है; kind:document उन फाइलों से मेल खाता है जिन्हें डॉक्यूमेंट के रूप में वर्गीकृत किया गया है (Word, PDF, टेक्स्ट, आदि)। यह फोल्डर, इमेज, या एक्जीक्यूटेबल से मेल नहीं खाता। इसलिए फ़िल्टर डॉक्यूमेंट दिखाता है।
+स्रोत: Microsoft Support — Advanced Query Syntax
+
+141. जब आप किसी फाइल को राइट-ड्रैग करके एक ही ड्राइव पर दूसरे फोल्डर में ले जाते हैं और छोड़ते हैं, तो कौन सा मेनू प्रकट होता है?
+(a) Open, Edit, Print, Delete (b) Copy here, Move here, Create shortcuts here, Cancel (c) Send to, Share, Properties (d) Cut, Copy, Paste, Undo
+उत्तर: (b)
+हल: राइट-ड्रैग एक संदर्भ मेनू प्रदर्शित करता है जो Copy here, Move here, Create shortcuts here, और Cancel की पेशकश करता है, जिससे उपयोगकर्ता ऑपरेशन को स्पष्ट रूप से चुन सकता है। इसलिए मेनू Copy here, Move here, Create shortcuts here, Cancel दिखाता है।
+स्रोत: Microsoft Support — Right-drag behavior
+
+142. File Explorer में चयनित फाइल या फोल्डर के लिए Properties डायलॉग खोलने वाला कीबोर्ड शॉर्टकट कौन सा है?
+(a) Alt + Enter (b) Ctrl + Enter (c) Shift + Enter (d) Win + Enter
+उत्तर: (a)
+हल: चयन पर Ctrl + Enter और Shift + Enter का कोई मानक कार्य नहीं है; Win + Enter Narrator खोलता है। Alt + Enter Properties के लिए लंबे समय से चला आ रहा शॉर्टकट है। इसलिए शॉर्टकट Alt + Enter है।
+स्रोत: Microsoft Learn — File Explorer keyboard shortcuts
+
+143. फोल्डर के Properties डायलॉग में "Previous Versions" टैब फाइलों की पुरानी कॉपी रिस्टोर करने के लिए किस Windows फीचर पर निर्भर करता है?
+(a) System Restore (b) File History (c) Volume Shadow Copy Service (d) Backup and Restore (Windows 7)
+उत्तर: (c)
+हल: System Restore सिस्टम फाइलों की रक्षा करता है, File History और Backup उपयोगकर्ता-कॉन्फ़िगर बैकअप समाधान हैं। Previous Versions टैब Volume Shadow Copy Service (VSS) द्वारा बनाए गए स्नैपशॉट पढ़ता है। इसलिए अंतर्निहित फीचर Volume Shadow Copy Service है।
+स्रोत: Microsoft Learn — Volume Shadow Copy Service
+
+144. Command Prompt (cmd.exe) में कौन सी कमांड वर्तमान पथ में "Data" नाम का नया डायरेक्ट्री बनाती है?
+(a) rd Data (b) cd Data (c) md Data (d) dir Data
+उत्तर: (c)
+हल: cd डायरेक्ट्री बदलता है, rd डायरेक्ट्री हटाता है, dir सामग्री सूचीबद्ध करता है। md (या mkdir) नया डायरेक्ट्री बनाता है। इसलिए कमांड md Data है।
+स्रोत: Microsoft Learn — Windows commands: mkdir
+
+145. Windows 10/11 में, कौन सी सेटिंग नियंत्रित करती है कि File Explorer में फाइल एक्सटेंशन दिखाए जाएं या नहीं?
+(a) View → Preview pane (b) View → Details pane (c) View → Options → View → Hide extensions for known file types (d) View → Navigation pane
+उत्तर: (c)
+हल: "Hide extensions for known file types" चेकबॉक्स Folder Options → View टैब के अंतर्गत एक्सटेंशन दृश्यता को टॉगल करता है; अन्य पेन मेटाडेटा प्रीव्यू या नेविगेशन ट्री को नियंत्रित करते हैं। इसलिए सेटिंग Hide extensions for known file types है।
+स्रोत: Microsoft Support — Show or hide file name extensions
+
+146. एक उपयोगकर्ता 4 GB फोल्डर को कंप्रेस करना चाहता है ताकि यह FAT32 USB ड्राइव (अधिकतम फाइल आकार 4 GB) पर फिट हो जाए। कौन सी बिल्ट-इन Windows विधि आर्काइव को स्वचालित रूप से कई भागों में विभाजित कर सकती है?
+(a) Send to → Compressed (zipped) folder (b) Right-click → 7-Zip → Add to archive (c) None of the above (d) Compact OS
+उत्तर: (c)
+हल: बिल्ट-इन ज़िप टूल एक सिंगल .zip फाइल बनाता है और आर्काइव को विभाजित नहीं कर सकता; 7-Zip थर्ड-पार्टी है; Compact OS सिस्टम फाइलों को कंप्रेस करता है। Windows में कोई नेटिव मल्टी-पार्ट आर्काइव क्रिएटर नहीं है। इसलिए उपरोक्त में से कोई भी बिल्ट-इन विधि यह नहीं कर सकती।
+स्रोत: Microsoft Support — Zip and unzip files
+
+147. Windows 10/11 में File Explorer रिबन का कौन सा टैब "Select all", "Invert selection", और "Select none" कमांड रखता है?
+(a) Home (b) Share (c) View (d) File
+उत्तर: (a)
+हल: Home टैब क्लिपबोर्ड, ऑर्गनाइज़, न्यू, और सिलेक्शन कमांड को समूहित करता है; Share टैब शेयरिंग संभालता है; View टैब लेआउट नियंत्रित करता है; File मेनू विकल्प खोलता है। इसलिए टैब Home है।
+स्रोत: Microsoft Support — File Explorer ribbon
+
+148. जब किसी फाइल को NTFS ड्राइव से FAT32 USB ड्राइव पर ड्रैग किया जाता है, तो डिफ़ॉल्ट रूप से कौन सा ऑपरेशन होता है?
+(a) Move (b) Copy (c) Create shortcut (d) Link
+उत्तर: (b)
+हल: अलग-अलग वॉल्यूम के बीच ड्रैग-एंड-ड्रॉप डिफ़ॉल्ट रूप से हमेशा कॉपी करता है; उपयोगकर्ता को मूव करने के लिए Shift दबाए रखना होगा। कई उपयोगकर्ता मूव की उम्मीद करते हैं और आश्चर्यचकित होते हैं कि मूल फाइल बनी रहती है। इसलिए डिफ़ॉल्ट ऑपरेशन Copy है।
+स्रोत: Microsoft Support — Copy or move files and folders
+
+149. Windows 10/11 में "Compact OS" फीचर किसके लिए डिज़ाइन किया गया है:
+(a) उपयोगकर्ता दस्तावेज़ कंप्रेस करके स्पेस बचाना (b) पूरे ड्राइव पर NTFS कंप्रेशन सक्षम करना (c) चयनित फोल्डर के कंप्रेस्ड आर्काइव बनाना (d) सिस्टम फाइलों और Windows Store ऐप्स को कंप्रेस करके फुटप्रिंट कम करना
+उत्तर: (d)
+हल: Compact OS OS बाइनरी और मॉडर्न ऐप्स को लक्षित करता है, उपयोगकर्ता डेटा को नहीं; यह फोल्डर आर्काइवर नहीं है और न ही फुल-ड्राइव NTFS कंप्रेशन टॉगल है। इसलिए यह सिस्टम फाइलों और Windows Store ऐप्स को कंप्रेस करता है।
+स्रोत: Microsoft Learn — Compact OS
+
+150. एक उपयोगकर्ता Network and Sharing Center में "File and printer sharing" सक्षम करता है लेकिन दूसरे PC से शेयर्ड फोल्डर एक्सेस नहीं कर पाता। SMB ट्रैफिक के लिए Windows Defender Firewall के माध्यम से कौन सा अतिरिक्त Windows कंपोनेंट अनुमति दी जानी चाहिए?
+(a) Network Discovery (b) File and Printer Sharing (SMB-In) (c) Remote Desktop (d) Windows Management Instrumentation (WMI-In)
+उत्तर: (b)
+हल: Network Discovery डिवाइस खोजने में मदद करता है लेकिन SMB पोर्ट नहीं खोलता; Remote Desktop RDP उपयोग करता है; WMI प्रबंधन के लिए है। फायरवॉल नियम "File and Printer Sharing (SMB-In)" स्पष्ट रूप से इनबाउंड SMB/TCP 445 की अनुमति देता है। इसलिए नियम File and Printer Sharing (SMB-In) है।
+स्रोत: Microsoft Learn — File and printer sharing firewall rules

@@ -1,0 +1,151 @@
+Questions 26–45: Easy | Questions 46–50: Medium
+
+26. Which file system is the default for modern Windows installations on internal drives?
+(a) FAT32 (b) exFAT (c) ReFS (d) NTFS
+Answer: (d)
+Solution: FAT32 is limited to 4 GB maximum file size and lacks modern security features, making it unsuitable as a default system drive format; NTFS supports large volumes, file-level permissions, encryption, and journaling, so the answer is NTFS.
+Source: Microsoft Learn – File Systems Overview
+
+27. What is the maximum individual file size supported by FAT32?
+(a) 4 GB (b) 2 GB (c) 8 GB (d) 16 GB
+Answer: (a)
+Solution: The 4 GB limit comes from the 32-bit file length field in the FAT32 directory entry; exFAT and NTFS remove this restriction, so the answer is 4 GB.
+Source: Microsoft Support – FAT32 Specification
+
+28. Which attribute prevents a file from being displayed in a normal directory listing unless "Hidden items" is enabled?
+(a) Hidden (b) System (c) Read-only (d) Archive
+Answer: (a)
+Solution: The Read-only attribute only blocks writes; the Hidden attribute specifically controls visibility in Explorer and dir command without /a:h, so the answer is Hidden.
+Source: Microsoft Learn – File Attributes
+
+29. When you drag a file from one NTFS volume to another NTFS volume, what operation occurs by default?
+(a) Move (b) Prompt for choice (c) Create shortcut (d) Copy
+Answer: (d)
+Solution: Dragging within the same volume moves the file; dragging across volumes copies it — a common trap is assuming move everywhere, so the answer is Copy.
+Source: Microsoft Support – Drag-and-Drop Behavior
+
+30. Which keyboard shortcut opens File Explorer in Windows?
+(a) Ctrl+E (b) Shift+E (c) Alt+E (d) Win+E
+Answer: (d)
+Solution: Ctrl+E focuses the search/address bar in many apps including browsers; Win+E is the system-wide shortcut for File Explorer, so the answer is Win+E.
+Source: Microsoft Support – Windows Keyboard Shortcuts
+
+31. What does the "Archive" attribute indicate when set on a file?
+(a) File has been modified since last backup (b) File is read-only (c) File is encrypted (d) File is compressed
+Answer: (a)
+Solution: Backup software traditionally clears the Archive attribute after backing up; it is set automatically when the file changes, not by compression or encryption, so the answer is File has been modified since last backup.
+Source: Microsoft Learn – File Attribute Constants
+
+32. Which command in Command Prompt displays the full directory tree of a drive?
+(a) dir /s (b) dir /tree (c) tree (d) list
+Answer: (c)
+Solution: dir /s lists files recursively but not in a tree diagram; the tree command draws the hierarchical structure using line characters, so the answer is tree.
+Source: Microsoft Learn – Tree Command
+
+33. In NTFS, which permission allows a user to traverse a folder to reach files in subfolders without listing the folder's contents?
+(a) Read (b) Traverse folder / Execute file (c) List folder contents (d) Read & execute
+Answer: (b)
+Solution: "List folder contents" shows names; "Traverse folder / Execute file" specifically permits passing through the folder to access deeper objects without seeing the parent's listing, so the answer is Traverse folder / Execute file.
+Source: Microsoft Learn – NTFS Permissions
+
+34. What is the effect of enabling NTFS compression on a folder?
+(a) Only new files are compressed (b) Existing files are compressed; new files inherit compression (c) Folder becomes read-only (d) Folder is encrypted
+Answer: (b)
+Solution: NTFS compression applies to existing files and sets the compression attribute on the folder so newly created files are also compressed; it does not encrypt or make read-only, so the answer is Existing files are compressed; new files inherit compression.
+Source: Microsoft Learn – NTFS Compression
+
+35. Which file extension is used for a Windows shortcut (link) file?
+(a) .shortcut (b) .url (c) .lnk (d) .link
+Answer: (c)
+Solution: .url files are Internet shortcuts; .lnk is the standard shell link format used for local file/folder shortcuts, so the answer is .lnk.
+Source: Microsoft Learn – Shell Links
+
+36. What happens when you delete a file from an NTFS volume using Shift+Delete?
+(a) Moves to Recycle Bin (b) Compresses the file (c) Creates a backup copy (d) Permanently deletes bypassing Recycle Bin
+Answer: (d)
+Solution: Normal Delete sends to Recycle Bin; Shift+Delete removes the file entry immediately without Recycle Bin involvement, so the answer is Permanently deletes bypassing Recycle Bin.
+Source: Microsoft Support – Delete Files Permanently
+
+37. Which tool in Windows creates and manages disk partitions?
+(a) Disk Cleanup (b) Disk Management (c) Disk Defragmenter (d) Storage Sense
+Answer: (b)
+Solution: Disk Cleanup frees space; Defragmenter optimizes layout; Storage Sense automates cleanup; only Disk Management (diskmgmt.msc) creates, deletes, formats, and resizes partitions, so the answer is Disk Management.
+Source: Microsoft Learn – Disk Management
+
+38. What is the purpose of the pagefile.sys file on the system drive?
+(a) Acts as virtual memory when RAM is full (b) Holds Windows update files (c) Stores user documents (d) Contains boot configuration
+Answer: (a)
+Solution: pagefile.sys is the paging file used as virtual memory; it is not for documents, updates, or boot config (which is BCD), so the answer is Acts as virtual memory when RAM is full.
+Source: Microsoft Learn – Virtual Memory
+
+39. Which environment variable holds the path to the current user's profile folder?
+(a) %HOMEPATH% (b) %USERPROFILE% (c) %APPDATA% (d) %TEMP%
+Answer: (b)
+Solution: %HOMEPATH% is the relative path under %HOMEDRIVE%; %APPDATA% and %TEMP% point to specific subfolders; %USERPROFILE% expands to the full profile root (e.g., C:\Users\Name), so the answer is %USERPROFILE%.
+Source: Microsoft Learn – Environment Variables
+
+40. In File Explorer, which view shows file details such as Size, Type, and Date modified in columns?
+(a) Icons (b) Details (c) List (d) Tiles
+Answer: (b)
+Solution: Icons and Tiles show thumbnails; List shows names only; Details view presents columns for Size, Type, Date modified, etc., so the answer is Details.
+Source: Microsoft Support – Change View in File Explorer
+
+41. What does the "Read-only" attribute on a folder actually do in Windows?
+(a) Prevents the folder from being renamed (b) Marks the folder as a system folder (c) Prevents any file inside from being modified (d) Is ignored by Windows for folders; only applies to files
+Answer: (d)
+Solution: Windows does not enforce read-only on folders; it uses the attribute only for files and for customizing folder icons via desktop.ini; the trap is assuming it protects folder contents, so the answer is Is ignored by Windows for folders; only applies to files.
+Source: Microsoft Learn – File and Folder Attributes
+
+42. Which command creates a compressed (zipped) folder from the command line in modern Windows?
+(a) zip (b) compress (c) tar (d) PowerShell Compress-Archive
+Answer: (d)
+Solution: zip and tar are not built-in CMD commands; compress.exe is legacy cabinet maker; PowerShell's Compress-Archive cmdlet is the native way to create .zip archives, so the answer is PowerShell Compress-Archive.
+Source: Microsoft Learn – Compress-Archive
+
+43. What is the default location of the "Public" user profile folder in Windows?
+(a) C:\Users\Default\Public (b) C:\Public (c) C:\Users\Public (d) C:\ProgramData\Public
+Answer: (c)
+Solution: C:\Users\Public is the shared profile accessible to all local users; C:\ProgramData is for application data, not user profiles, so the answer is C:\Users\Public.
+Source: Microsoft Learn – User Profiles
+
+44. Which key combination opens the "Run" dialog box in Windows?
+(a) Alt+R (b) Ctrl+R (c) Win+R (d) Shift+R
+Answer: (c)
+Solution: Ctrl+R refreshes in browsers and Explorer; Win+R is the system shortcut for the Run dialog, so the answer is Win+R.
+Source: Microsoft Support – Windows Keyboard Shortcuts
+
+45. What happens when you right-drag a file and choose "Create shortcuts here"?
+(a) Moves the file (b) Copies the file (c) Creates a .lnk file pointing to the original (d) Creates a hard link
+Answer: (c)
+Solution: Right-drag menu offers Move, Copy, Create shortcuts; the shortcut is a .lnk shell link, not a hard link (which requires mklink /H), so the answer is Creates a .lnk file pointing to the original.
+Source: Microsoft Support – Create a Shortcut
+
+46. In NTFS, which basic permission allows a user to create files in a folder but not delete files created by others?
+(a) Write (b) Read & execute (c) Modify (d) Full control
+Answer: (a)
+Solution: Modify and Full control include Delete; Read & execute does not allow creating files; Write allows creating files and writing data but not deleting, so the answer is Write.
+Source: Microsoft Learn – NTFS Permissions
+
+47. Which command in PowerShell lists all environment variables and their values?
+(a) Get-ChildItem Env: (b) List-Env (c) Get-Env (d) Get-Environment
+Answer: (a)
+Solution: Get-ChildItem Env: enumerates the Environment provider drive; Get-Env, List-Env, and Get-Environment are not valid cmdlets, so the answer is Get-ChildItem Env:.
+Source: Microsoft Learn – PowerShell Environment Provider
+
+48. What is the maximum path length (MAX_PATH) traditionally enforced by the Windows API for ANSI paths?
+(a) 128 characters (b) 1024 characters (c) 260 characters (d) 512 characters
+Answer: (c)
+Solution: The classic MAX_PATH constant is 260 characters (drive letter, colon, backslash, 256 chars, null terminator); long-path support via \\?\ prefix or Group Policy can exceed this, so the answer is 260 characters.
+Source: Microsoft Learn – Naming Files, Paths, and Namespaces
+
+49. Which feature allows mounting a folder as a drive letter without creating a new partition?
+(a) Subst (b) Diskpart (c) Mountvol (d) Junction
+Answer: (a)
+Solution: subst maps a path to a drive letter; mountvol manages volume mount points; junction creates a directory junction (reparse point); diskpart manages partitions, so the answer is Subst.
+Source: Microsoft Learn – Subst Command
+
+50. In a batch file, which variable holds the full path of the batch script itself?
+(a) %0 (b) %~dp0 (c) %* (d) %1
+Answer: (b)
+Solution: %0 is the script name as invoked; %~dp0 expands to the drive and path of the script (directory only); %1 is first argument; %* is all arguments, so the answer is %~dp0.
+Source: Microsoft Learn – Batch File Parameters

@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 01:31 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 11:58 PM
+**आख़िरी update:** 18-11-2026 01:34 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 11:58 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 38 मिनट |
-| W2 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 12 मिनट |
-| W3 | Chapter 05 windows files (12th Computer) | 🔎 review हो रहा है | 20 मिनट |
-| W4 | Chapter 06 keyboard shortcuts (12th Computer) | ✍️ लिख रहा है | 9 मिनट |
+| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 41 मिनट |
+| W2 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 16 मिनट |
+| W3 | Chapter 05 windows files (12th Computer) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 06 keyboard shortcuts (12th Computer) | ✍️ लिख रहा है | 12 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 50 |
-| key 4 | 66 |
+| key 3 | 51 |
+| key 4 | 70 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -42,7 +42,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 18-11 01:34 — 12th Computer · Chapter 05 windows files
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
@@ -54,8 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 00:53:00 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (OK: todo 0, problems 0)
-18-11 00:53:44   [sangya_sarvanam] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 22: The rule states that reflexive pronoun "अपना" agrees with the subject (कर्ता)
 18-11 00:54:58   [software_os] REJECTED review fix Feynman_en.txt: reviewer still reports - Windows boot process missing winload.efi between Windows Boot Manager and ntoskrnl.exe → 
 18-11 00:55:58   [sangya_sarvanam] review Flashcards_hi.txt: 1 issue(s): - कार्ड 18: "ने" को प्रथमा/कर्तृ कारक का चिह्न बताना गलत है → "ने" कर्तृ कारक (कर्ता कारक) का चिह्न है जो केवल स
 18-11 00:58:24   [visheshan_kriya] review Flashcards_hi.txt: 3 issue(s): - Card 11: The rule “क्रिया मूल + ‘गा/गे/गी’” does not produce the example “जाएगा” (from “जाना”); “जाना” is irre
@@ -94,4 +92,6 @@
 18-11 01:25:20   [ling_vachan_karak] review Feynman_hi.txt: 6 issue(s): - "पुस्तक" को पुल्लिंग तालिका में "अपवाद" बताना गलत है → "पुस्तक" स्त्रीलिंग है, इसे स्त्रीलिंग सूची में रखें या पु
 18-11 01:27:29   [ling_vachan_karak] REJECTED review fix Feynman_hi.txt: reviewer still reports - लिंग section: The exception list includes "कहानी" (which follows the rule ई → स्त्रीलिंग)
 18-11 01:30:44   [kaal_vachya] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q99 key b vs re-solve d)
+18-11 01:34:56   [windows_files] review: 2 section(s) corrected, 0 failed
+18-11 01:34:56   [windows_files] written 2, failed 0; AI calls today 118/100000
 ```

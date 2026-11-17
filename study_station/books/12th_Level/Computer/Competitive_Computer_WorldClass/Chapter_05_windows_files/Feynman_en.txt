@@ -1,0 +1,60 @@
+Windows and File Management — Feynman Explanation
+
+Think of your computer as a large office building. Windows is the building manager that keeps everything running — lights, security, elevators. Files are paper documents. Folders (directories) are filing cabinets. The desktop is the reception desk where you keep today's active papers. The Recycle Bin is a shredder with an "undo" button — nothing is gone until you empty it.
+
+**File System Basics**  
+Every file has a name and an extension (the part after the dot). The extension tells Windows which program opens it: `.docx` → Word, `.xlsx` → Excel, `.pdf` → Reader, `.jpg` → Photos. Windows hides known extensions by default; turn on "File name extensions" in File Explorer → View to see them — this prevents accidentally running `invoice.exe` thinking it's `invoice.pdf`.
+
+**Paths and Navigation**  
+A path is the address of a file. `C:\Users\Ravi\Documents\Budget.xlsx` reads: drive C → Users folder → Ravi → Documents → Budget.xlsx. The backslash `\` separates levels. `C:\` is the root. Relative paths (`..\..\Pictures`) go up levels; absolute paths start from the drive letter. File Explorer's address bar lets you type or paste a path directly.
+
+**Common Operations**  
+- **Copy** (Ctrl+C) duplicates; **Cut** (Ctrl+X) moves; **Paste** (Ctrl+V) places.  
+- **Drag-drop** within the same drive = move; across drives = copy. Hold Ctrl while dragging to force copy, Shift to force move.  
+- **Rename**: select file, press F2, type new name, Enter.  
+- **Delete**: Del → Recycle Bin; Shift+Del → permanent delete (no Bin).  
+- **Select multiple**: Ctrl+click (non-adjacent), Shift+click (range), Ctrl+A (all).
+
+**Shortcuts (Windows scope, not browser)**  
+Win+E → File Explorer. Win+D → show Desktop. Win+L → lock. Alt+Tab → switch apps. Alt+F4 → close window. Ctrl+Shift+Esc → Task Manager. Win+I → Settings. Win+S → search. Ctrl+N → new window (Explorer/Office). Ctrl+W → close tab/window.
+
+**File Properties & Permissions**  
+Right-click → Properties shows size, location, created/modified dates, and the **Security** tab (NTFS permissions: Read, Write, Modify, Full Control). On shared drives, "Share" tab controls network access. Hidden files (marked with the Hidden attribute) are invisible unless View → Hidden items is checked.
+
+**Search & Organization**  
+Search box (top-right in Explorer) supports filters: `name:budget`, `type:pdf`, `date:last week`, `size:>10MB`. Libraries (Documents, Pictures, Music, Videos) aggregate folders from multiple locations — useful but optional. Quick Access pins frequent folders.
+
+**Common Mistakes**  
+1. Saving to "Downloads" then losing the file — choose a meaningful folder.  
+2. Editing a file inside a zipped folder without extracting — changes won't save.  
+3. Assuming USB drive letter stays same — it can change; use label or path.  
+4. Deleting a shortcut thinking it deletes the program — shortcuts have a small arrow overlay.  
+5. Ignoring "File in use" errors — close the program first.
+
+---
+
+**Recall Questions**
+
+1. **What does the file extension indicate?**  
+   It tells Windows which application should open the file (e.g., `.xlsx` → Excel).  
+   *Why not the others:* The extension does not determine file size, creation date, or folder location.
+
+2. **Pressing Shift+Del on a file does what?**  
+   Permanently deletes the file without sending it to the Recycle Bin.  
+   *Why not the others:* Del alone sends to Recycle Bin; Ctrl+Del is not a standard shortcut; Alt+Del does nothing special.
+
+3. **Which keyboard shortcut opens File Explorer directly?**  
+   Win+E.  
+   *Why not the others:* Win+D shows Desktop; Win+L locks; Win+I opens Settings.
+
+4. **Dragging a file from C: to D: while holding Ctrl results in:**  
+   A copy on D: (original stays on C:).  
+   *Why not the others:* Without Ctrl, cross-drive drag defaults to copy; Shift forces move; Alt creates shortcut.
+
+5. **Where can you view NTFS permissions for a file?**  
+   Right-click file → Properties → Security tab.  
+   *Why not the others:* General tab shows size/dates; Sharing tab controls network share; Details tab shows metadata.
+
+---
+
+**Source:** Microsoft Learn — File Explorer, NTFS permissions, keyboard shortcuts (official documentation).

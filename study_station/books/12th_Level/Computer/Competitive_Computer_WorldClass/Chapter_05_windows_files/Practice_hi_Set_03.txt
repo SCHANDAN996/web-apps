@@ -1,0 +1,154 @@
+प्रश्न 1–20: आसान | प्रश्न 21–25: मध्यम
+
+51. Windows 10 और Windows 11 में File Explorer खोलने के लिए कौन सा कीबोर्ड शॉर्टकट है?
+(a) Windows + E (b) Ctrl + E (c) Alt + E (d) Shift + E
+उत्तर: (a)
+हल: कई उम्मीदवार Ctrl + E (जो पहले से खुले File Explorer में सर्च/एड्रेस बार पर फोकस करता है) को उस ग्लोबल शॉर्टकट समझ लेते हैं जो कहीं से भी File Explorer लॉन्च करता है; सही ग्लोबल शॉर्टकट Windows + E है, इसलिए उत्तर Windows + E है।
+स्रोत: Microsoft Support - Windows keyboard shortcuts
+
+52. File Explorer में कौन सा व्यू लेआउट बड़े आइकन दिखाता है जिनके नीचे फाइल नाम होते हैं और जो फोटो प्रीव्यू के लिए सबसे अच्छा है?
+(a) Details (b) List (c) Content (d) Large icons
+उत्तर: (d)
+हल: Details व्यू कॉलम (Name, Date, Size) दिखाता है और अक्सर फोटो ब्राउज़िंग के लिए गलती से चुना जाता है; Large icons बड़े थंबनेल दिखाता है जो इमेज के लिए आदर्श हैं, इसलिए उत्तर Large icons है।
+स्रोत: Microsoft Learn - File Explorer views
+
+53. Windows 10/11 में आंतरिक NTFS ड्राइव पर संग्रहीत फाइल पर Delete दबाने पर क्या होता है?
+(a) फाइल तुरंत स्थायी रूप से मिट जाती है (b) फाइल एक छिपे सिस्टम फोल्डर में चली जाती है (c) फाइल कंप्रेस होकर आर्काइव हो जाती है (d) फाइल Recycle Bin में चली जाती है
+उत्तर: (d)
+हल: एक आम जाल यह सोचना है कि Delete फाइल को स्थायी रूप से हटा देता है (Shift + Delete ऐसा करता है); मानक Delete कुंजी फाइल को रिकवरी के लिए Recycle Bin में भेजती है, इसलिए उत्तर The file is moved to the Recycle Bin है।
+स्रोत: Microsoft Support - Recycle Bin behavior
+
+54. कौन सा की कॉम्बिनेशन चयनित फाइल को Recycle Bin को बायपास करके स्थायी रूप से डिलीट करता है?
+(a) Shift + Delete (b) Alt + Delete (c) Ctrl + Delete (d) Windows + Delete
+उत्तर: (a)
+हल: उम्मीदवार अक्सर Ctrl + Delete (जो कुछ खास नहीं करता) या Alt + Delete आज़माते हैं; Shift + Delete स्थायी डिलीशन के लिए दस्तावेज़ीकृत शॉर्टकट है, इसलिए उत्तर Shift + Delete है।
+स्रोत: Microsoft Support - Keyboard shortcuts for File Explorer
+
+55. जब आप एक फाइल को एक ही NTFS ड्राइव पर एक फोल्डर से दूसरे फोल्डर में ड्रैग करते हैं, तो डिफ़ॉल्ट क्रिया क्या होती है?
+(a) Move (b) Copy (c) Create shortcut (d) Prompt for choice
+उत्तर: (a)
+हल: एक आम गलती यह मानना है कि ड्रैग-एंड-ड्रॉप हमेशा कॉपी करता है; एक ही ड्राइव पर Windows डिफ़ॉल्ट रूप से फाइल को मूव करता है (Ctrl दबाए रखने पर कॉपी होता है), इसलिए उत्तर Move है।
+स्रोत: Microsoft Learn - File operations in File Explorer
+
+56. File Explorer में चयनित फाइल या फोल्डर का नाम बदलने के लिए कौन सा कीबोर्ड शॉर्टकट है?
+(a) F3 (b) F2 (c) F5 (d) F6
+उत्तर: (b)
+हल: F3 सर्च खोलता है, F5 रीफ्रेश करता है, F6 UI एलिमेंट्स के बीच साइकिल करता है; F2 Windows में मानक रीनेम शॉर्टकट है, इसलिए उत्तर F2 है।
+स्रोत: Microsoft Support - File Explorer keyboard shortcuts
+
+57. File Explorer के View टैब पर "Hidden items" चेकबॉक्स क्या करता है?
+(a) छिपी फाइलों को डिलीट करता है (b) छिपी फाइलों को कंप्रेस करके स्पेस बचाता है (c) चयनित फाइलों को एन्क्रिप्ट करता है (d) Hidden एट्रिब्यूट वाली फाइलों/फोल्डरों को दिखाता या छिपाता है
+उत्तर: (d)
+हल: कुछ सोचते हैं कि यह छिपी फाइलों को डिलीट या एन्क्रिप्ट करता है; यह केवल Hidden एट्रिब्यूट से मार्क की गई आइटम्स की विजिबिलिटी टॉगल करता है, इसलिए उत्तर Shows or hides files/folders with the Hidden attribute है।
+स्रोत: Microsoft Support - Show hidden files
+
+58. कौन सा फाइल एट्रिब्यूट, जब सेट हो, फाइल को मॉडिफाई होने से रोकता है लेकिन पढ़ने की अनुमति देता है?
+(a) Hidden (b) System (c) Archive (d) Read-only
+उत्तर: (d)
+हल: Archive एट्रिब्यूट बैकअप सॉफ्टवेयर के लिए है, Hidden और System विजिबिलिटी प्रभावित करते हैं; Read-only विशेष रूप से लिखने को ब्लॉक करता है जबकि पढ़ने की अनुमति देता है, इसलिए उत्तर Read-only है।
+स्रोत: Microsoft Learn - File attributes
+
+59. Windows 10/11 में कौन सी सुविधा अस्थायी फाइलों और एक निर्धारित अवधि से पुरानी Recycle Bin आइटम्स को डिलीट करके स्वचालित रूप से स्पेस खाली करती है?
+(a) Disk Cleanup (b) Storage Sense (c) Optimize Drives (d) File History
+उत्तर: (b)
+हल: Disk Cleanup एक मैनुअल टूल है; Storage Sense वह स्वचालित बैकग्राउंड सर्विस है जो शेड्यूल पर अस्थायी फाइलों और पुरानी Recycle Bin आइटम्स को साफ करती है, इसलिए उत्तर Storage Sense है।
+स्रोत: Microsoft Support - Storage Sense
+
+60. Windows 10/11 में "Student" नाम के यूजर के लिए Downloads फोल्डर की डिफ़ॉल्ट लोकेशन क्या है?
+(a) C:\Users\Student\Documents\Downloads (b) C:\Users\Student\Downloads (c) C:\Downloads (d) C:\Users\Public\Downloads
+उत्तर: (b)
+हल: कई लोग इसे Documents के अंदर होने की उम्मीद करते हैं; डिफ़ॉल्ट यूजर प्रोफाइल Downloads को सीधे यूजर फोल्डर के तहत रखता है, इसलिए उत्तर C:\Users\Student\Downloads है।
+स्रोत: Microsoft Learn - User profile folders
+
+61. कौन सा पथ प्रारूप "FileSrv" सर्वर पर "Data" नामक नेटवर्क शेयर पर "Report.docx" नामक फाइल को सही ढंग से संदर्भित करता है?
+(a) file://FileSrv/Data/Report.docx (b) //FileSrv/Data/Report.docx (c) \FileSrv\Data\Report.docx (d) \\FileSrv\Data\Report.docx
+उत्तर: (d)
+हल: फॉरवर्ड स्लैश (b) URLs के लिए हैं, सिंगल बैकस्लैश (c) अमान्य UNC है, file:// (a) एक URI स्कीम है; Windows UNC पथ डबल बैकस्लैश का उपयोग करते हैं, इसलिए उत्तर \\FileSrv\Data\Report.docx है।
+स्रोत: Microsoft Learn - UNC paths
+
+62. फोल्डर के Properties > Advanced में "Compress contents to save disk space" विकल्प क्या करता है?
+(a) फोल्डर का ZIP आर्काइव बनाता है (b) उस फोल्डर में फाइलों पर NTFS कंप्रेशन लागू करता है (c) फोल्डर को EFS से एन्क्रिप्ट करता है (d) फोल्डर को कंप्रेस्ड ड्राइव पर ले जाता है
+उत्तर: (b)
+हल: उम्मीदवार अक्सर इसे .zip फाइल बनाने (जो अलग "Send to > Compressed folder" क्रिया है) से भ्रमित करते हैं; यह चेकबॉक्स पारदर्शी NTFS कंप्रेशन सक्षम करता है, इसलिए उत्तर Applies NTFS compression to files in that folder है।
+स्रोत: Microsoft Support - NTFS compression
+
+63. वर्तमान File Explorer विंडो में सभी आइटम्स को चुनने के लिए कौन सा कीबोर्ड शॉर्टकट है?
+(a) Ctrl + A (b) Ctrl + S (c) Ctrl + Shift + A (d) Alt + A
+उत्तर: (a)
+हल: Ctrl + S ऐप्स में सेव करता है, Ctrl + Shift + A मानक नहीं है, Alt + A का कोई ग्लोबल सेलेक्ट-ऑल फंक्शन नहीं है; Ctrl + A यूनिवर्सल सेलेक्ट-ऑल शॉर्टकट है, इसलिए उत्तर Ctrl + A है।
+स्रोत: Microsoft Support - Keyboard shortcuts
+
+64. File Explorer के एड्रेस बार में "shell:RecycleBinFolder" टाइप करके Enter दबाने पर क्या खुलता है?
+(a) तारीख के अनुसार सॉर्ट की गई डिलीटेड फाइलों की सूची (b) Recycle Bin सेटिंग्स (c) Recycle Bin (d) Recycle Bin प्रॉपर्टीज डायलॉग
+उत्तर: (c)
+हल: कुछ सोचते हैं कि यह सेटिंग्स या प्रॉपर्टीज खोलता है; shell:RecycleBinFolder कैनोनिकल शेल कमांड है जो Recycle Bin फोल्डर को ही खोलता है, इसलिए उत्तर The Recycle Bin है।
+स्रोत: Microsoft Learn - Shell commands
+
+65. File Explorer में View टैब पर "File name extensions" चेक करने का क्या प्रभाव होता है?
+(a) ज्ञात फाइल टाइप्स के एक्सटेंशन छिपाता है (b) प्रत्येक एक्सटेंशन के लिए डिफ़ॉल्ट प्रोग्राम बदलता है (c) सभी फाइलों के एक्सटेंशन दिखाता है (d) एक्सटेंशन को रीनेम होने से लॉक करता है
+उत्तर: (c)
+हल: डिफ़ॉल्ट व्यवहार ज्ञात टाइप्स के एक्सटेंशन छिपाता है; इस बॉक्स को चेक करने पर हर फाइल के लिए वे प्रकट होते हैं, इसलिए उत्तर Shows extensions for all files है।
+स्रोत: Microsoft Support - File name extensions
+
+66. Command Prompt में कौन सी कमांड सबडायरेक्टरीज और खाली फोल्डर्स सहित डायरेक्टरी ट्री को कॉपी करती है?
+(a) copy (b) robocopy /mir (c) xcopy /e (d) move
+उत्तर: (c)
+हल: copy केवल फाइल्स कॉपी करता है, फोल्डर्स नहीं; robocopy /mir मिरर करता है (अतिरिक्त डेस्टिनेशन फाइल्स डिलीट करता है); xcopy /e डायरेक्टरीज और सबडायरेक्टरीज को खाली वालों सहित कॉपी करता है, इसलिए उत्तर xcopy /e है।
+स्रोत: Microsoft Learn - xcopy command
+
+67. PowerShell में, कौन सा cmdlet C:\Source\File.txt से D:\Dest\File.txt में फाइल को मूव करता है?
+(a) Copy-Item (b) Set-Item (c) Rename-Item (d) Move-Item
+उत्तर: (d)
+हल: Copy-Item डुप्लिकेट करता है, Rename-Item उसी लोकेशन में नाम बदलता है, Set-Item प्रॉपर्टीज मॉडिफाई करता है; Move-Item फाइल को रीलोकेट करता है, इसलिए उत्तर Move-Item है।
+स्रोत: Microsoft Learn - Move-Item cmdlet
+
+68. फोल्डर के Properties में "Previous Versions" टैब क्या दिखाता है?
+(a) Office ऐप्स द्वारा सेव किए गए डॉक्यूमेंट्स के पुराने ड्राफ्ट (b) OneDrive सिंक से बैकअप कॉपीज (c) System Protection या File History द्वारा बनाई गई शैडो कॉपीज (d) रिकवर की जा सकने वाली अस्थायी फाइलें
+उत्तर: (c)
+हल: कई मानते हैं कि यह Office AutoRecover वर्जन या OneDrive हिस्ट्री दिखाता है; यह वास्तव में System Protection/File History से वॉल्यूम शैडो कॉपीज सूचीबद्ध करता है, इसलिए उत्तर Shadow copies created by System Protection or File History है।
+स्रोत: Microsoft Support - Previous Versions
+
+69. File Explorer रिबन का कौन सा टैब "Select all", "Select none", और "Invert selection" कमांड्स रखता है?
+(a) Home (b) Share (c) View (d) File
+उत्तर: (a)
+हल: View टैब लेआउट कंट्रोल करता है, Share टैब शेयरिंग संभालता है; सेलेक्शन कमांड्स Home टैब पर Select ग्रुप में हैं, इसलिए उत्तर Home है।
+स्रोत: Microsoft Learn - File Explorer ribbon
+
+70. जब आप किसी फाइल को राइट-ड्रैग करके उसी ड्राइव पर दूसरे फोल्डर में ले जाते हैं और छोड़ते हैं, तो कौन सा मेनू प्रकट होता है?
+(a) Send to, Share, Properties, Cancel (b) Open, Edit, Print, Cancel (c) Copy here, Move here, Create shortcuts here, Cancel (d) Cut, Copy, Paste, Cancel
+उत्तर: (c)
+हल: लेफ्ट-ड्रैग डिफ़ॉल्ट रूप से मूव करता है; राइट-ड्रैग हमेशा Copy here, Move here, Create shortcuts here, Cancel के साथ कॉन्टेक्स्ट मेनू दिखाता है, इसलिए उत्तर Copy here, Move here, Create shortcuts here, Cancel है।
+स्रोत: Microsoft Support - Drag and drop behavior
+
+71. एक यूजर यह सुनिश्चित करना चाहता है कि D: ड्राइव पर "Projects" नामक फोल्डर हमेशा तेज़ खोज के लिए इंडेक्स्ड रहे। उन्हें कौन सी सेटिंग वेरिफाई करनी चाहिए?
+(a) Folder Properties > General > "Allow files to have contents indexed" (b) Indexing Options > Modify > include D:\Projects (c) Folder Properties > Advanced > "Allow files to have contents indexed" (d) File Explorer > View > Options > Search > "Always search file names and contents"
+उत्तर: (b)
+हल: फोल्डर-लेवल "Allow indexing" चेकबॉक्स (c) केवल उस फोल्डर के लिए कंटेंट इंडेक्सिंग प्रभावित करता है; लोकेशन को क्रॉल किए जाने की गारंटी के लिए, फोल्डर को Indexing Options > Modify में शामिल किया जाना चाहिए, इसलिए उत्तर Indexing Options > Modify > include D:\Projects है।
+स्रोत: Microsoft Learn - Windows Search indexing
+
+72. बैच स्क्रिप्ट में, कौन सी कमांड "Backup_2024" नामक डायरेक्टरी तभी बनाती है जब वह पहले से मौजूद न हो, बिना एरर के?
+(a) mkdir Backup_2024
+(b) md Backup_2024 2>nul
+(c) if not exist Backup_2024 md Backup_2024
+(d) Both (b) and (c) work
+उत्तर: (d)
+हल: विकल्प (a) फोल्डर मौजूद होने पर एरर देता है; (b) रीडायरेक्शन से एरर दबा देता है; (c) स्पष्ट रूप से मौजूदगी जांचता है; (b) और (c) दोनों बिना एरर के लक्ष्य प्राप्त करते हैं, इसलिए उत्तर Both (b) and (c) work है।
+स्रोत: Microsoft Learn - Batch file commands
+
+73. कौन सा NTFS परमिशन कॉम्बिनेशन यूजर को फोल्डर में फाइलें बनाने की अनुमति देता है लेकिन दूसरों द्वारा बनाई गई फाइलों को डिलीट करने की नहीं?
+(a) Create files/write data + Create folders/append data (बिना Delete subfolders and files) (b) Write + Modify (c) Write + Read (d) Full Control
+उत्तर: (a)
+हल: Modify में Delete शामिल है; Write अकेला मानक NTFS ग्रैनुलर परमिशन नहीं है; विशिष्ट एडवांस्ड परमिशन "Create files/write data" और "Create folders/append data" बिना "Delete" के इसे प्राप्त करते हैं, इसलिए उत्तर Create files/write data + Create folders/append data (without Delete subfolders and files) है।
+स्रोत: Microsoft Learn - NTFS permissions
+
+74. "Data.txt" नामक फाइल में Hidden और System दोनों एट्रिब्यूट सेट हैं। File Explorer में "Hidden items" चेक्ड होने पर लेकिन "Hide protected operating system files" अभी भी इनेबल होने पर, फाइल:
+(a) छिपी है (b) विजिबल है (c) शॉर्टकट के रूप में दिखाई देती है (d) केवल Command Prompt में दिखती है
+उत्तर: (a)
+हल: "Hidden items" केवल Hidden एट्रिब्यूट वाली फाइलें दिखाता है; System फाइलें तब तक छिपी रहती हैं जब तक "Hide protected operating system files" अनचेक न किया जाए, इसलिए उत्तर Is hidden है।
+स्रोत: Microsoft Support - Hidden and system files
+
+75. Windows 11 में, कौन सी सुविधा पूर्ण सिस्टम इमेज बनाने के लिए क्लासिक "Backup and Restore (Windows 7)" को प्रतिस्थापित करती है?
+(a) File History (b) System Image Backup (अभी भी Control Panel के माध्यम से उपलब्ध) (c) OneDrive folder backup (d) Reset this PC
+उत्तर: (b)
+हल: File History केवल यूजर लाइब्रेरी का बैकअप लेता है; OneDrive फोल्डर सिंक करता है; Reset Windows को रीइंस्टॉल करता है। लिगेसी System Image Backup टूल Windows 11 में Control Panel > Backup and Restore (Windows 7) के माध्यम से अभी भी सुलभ है, इसलिए उत्तर System Image Backup (still available via Control Panel) है।
+स्रोत: Microsoft Support - System image backup

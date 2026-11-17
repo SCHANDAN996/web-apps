@@ -1,0 +1,115 @@
+# विंडोज और फाइल प्रबंधन — 15 महत्वपूर्ण नियम
+
+## नियम 1: फाइल नामकरण के मानक नियम
+**नियम:** विंडोज में फाइल/फोल्डर नाम 255 वर्ण तक हो सकते हैं। इन वर्णों का प्रयोग **नहीं** करें: `\ / : * ? " < > |`  
+**उदाहरण:** `Report_Final_v2.docx` ✅ | `Report:Final?.docx` ❌  
+**अपवाद:** NTFS पर यूनिकोड वर्ण (हिंदी, चीनी आदि) मान्य हैं; FAT32 पर सीमित समर्थन।  
+**स्रोत:** Microsoft Learn — "Naming Files, Paths, and Namespaces"
+
+## नियम 2: पथ (Path) की अधिकतम लंबाई
+**नियम:** पूर्ण पथ (ड्राइव + फोल्डर + फाइल) पारंपरिक Win32 API में **260 वर्ण** (MAX_PATH) तक सीमित।  
+**उदाहरण:** `C:\Users\Name\Documents\Project\Data\File.txt`  
+**अपवाद:** विंडोज 10 (संस्करण 1607+) में रजिस्ट्री सेटिंग `LongPathsEnabled` से 32,767 वर्ण तक संभव; परन्तु कई पुराने प्रोग्राम अब भी 260 वर्ण मानते हैं।  
+**स्रोत:** Microsoft Learn — "Maximum Path Length Limitation"
+
+## नियम 3: एक्सटेंशन छिपाना/दिखाना
+**नियम:** डिफ़ॉल्ट रूप से विंडोज "ज्ञात फाइल प्रकारों के एक्सटेंशन छिपाता है"। इसे बंद करें: *File Explorer → View → File name extensions*।  
+**उदाहरण:** `invoice.pdf.exe` दिखेगा `invoice.pdf` यदि एक्सटेंशन छिपा हो — सुरक्षा जोखिम।  
+**स्रोत:** Microsoft Support — "Show file extensions"
+
+## नियम 4: लाइब्रेरी vs फोल्डर
+**नियम:** लाइब्रेरी (Documents, Pictures, Music, Videos) **वर्चुअल संग्रह** हैं; ये कई भौतिक फोल्डरों को एक साथ दिखाती हैं। फोल्डर वास्तविक निर्देशिका है।  
+**उदाहरण:** Documents लाइब्रेरी में `C:\Users\Name\Documents` और `D:\Work\Docs` दोनों शामिल हो सकते हैं।  
+**स्रोत:** Microsoft Learn — "Windows Libraries"
+
+## नियम 5: क्विक एक्सेस और पिन करना
+**नियम:** फाइल एक्सप्लोरर का **Quick Access** हालिया/पिन किए गए फोल्डर दिखाता है। पिन करने के लिए: फोल्डर पर राइट-क्लिक → *Pin to Quick access*।  
+**उदाहरण:** दैनिक उपयोग का `D:\Current_Project` पिन करें; काम पूरा होने पर *Unpin* करें।  
+**स्रोत:** Microsoft Support — "Quick access in File Explorer"
+
+## नियम 6: फाइल चयन के कीबोर्ड शॉर्टकट (विंडोज स्कोप)
+| क्रिया | शॉर्टकट |
+|---|---|
+| सभी चुनें | `Ctrl + A` |
+| सन्निकट चुनें | `Shift + ↑/↓/←/→` |
+| असन्निकट चुनें | `Ctrl + क्लिक` |
+| चयन रद्द करें | `Ctrl + Space` (फोकस रखते हुए) |
+**नोट:** ब्राउज़र में `Ctrl + A` पेज का टेक्स्ट चुनता है, फाइल नहीं।  
+**स्रोत:** Microsoft Support — "Keyboard shortcuts in File Explorer"
+
+## नियम 7: कॉपी/मूव/शॉर्टकट बनाने के ड्रैग-ड्रॉप नियम
+**नियम:**  
+- **समान ड्राइव:** ड्रैग = **मूव**  
+- **अलग ड्राइव:** ड्रैग = **कॉपी**  
+- `Ctrl + ड्रैग` = **कॉपी** (बलपूर्वक)  
+- `Shift + ड्रैग` = **मूव** (बलपूर्वक)  
+- `Alt + ड्रैग` (या राइट-क्लिक ड्रैग → *Create shortcut*) = **शॉर्टकट**  
+**उदाहरण:** `C:\Data` से `D:\Backup` ड्रैग करने पर कॉपी बनेगा; `C:\Data` से `C:\Archive` पर मूव होगा।  
+**स्रोत:** Microsoft Learn — "Drag-and-drop behavior"
+
+## नियम 8: रिसाइकल बिन — प्रति-ड्राइव कोटा
+**नियम:** प्रत्येक NTFS ड्राइव का अपना `$Recycle.Bin` फोल्डर और **अलग कोटा** होता है (डिफ़ॉल्ट: ड्राइव आकार का ~5–10%)।  
+**उदाहरण:** `C:` पर 50 GB कोटा, `D:` पर 20 GB कोटा। `Shift + Delete` रिसाइकल बिन बायपास करता है।  
+**स्रोत:** Microsoft Learn — "Recycle Bin configuration"
+
+## नियम 9: फाइल गुण — "सामान्य" vs "सुरक्षा" टैब
+**नियम:**  
+- **General टैब:** आकार, बनावट तिथि, विशेषता (Read-only, Hidden) — FAT32/NTFS दोनों पर।  
+- **Security टैब:** ACL (Access Control List) — **केवल NTFS** पर; FAT32/exFAT पर नहीं दिखता।  
+**उदाहरण:** USB स्टिक (exFAT) पर Security टैब अनुपस्थित होगा।  
+**स्रोत:** Microsoft Learn — "File and Folder Permissions (NTFS)"
+
+## नियम 10: संपीड़न (NTFS Compression) और एन्क्रिप्शन (EFS)
+**नियम:** NTFS पर फोल्डर राइट-क्लिक → *Properties → Advanced* →  
+- **Compress contents to save disk space** — पारदर्शी संपीड़न; कॉपी करने पर गंतव्य पर असंपीड़ित होता है।  
+- **Encrypt contents to secure data (EFS)** — प्रमाणपत्र-आधारित; केवल वही उपयोगकर्ता खोल सकता है जिसने एन्क्रिप्ट किया (या रिकवरी एजेंट)।  
+**अपवाद:** दोनों विकल्प **एक साथ सक्षम नहीं** हो सकते। संपीड़ित फाइल को एन्क्रिप्ट करने पर संपीड़न हट जाता है।  
+**स्रोत:** Microsoft Learn — "NTFS Compression" / "Encrypting File System (EFS)"
+
+## नियम 11: डिस्क क्लीनअप और स्टोरेज सेंस
+**नियम:**  
+- **Disk Cleanup (`cleanmgr`)** — मैन्युअल; सिस्टम फाइलें (Windows Update क्लीनअप, पूर्व विंडोज इंस्टॉलेशन) हटाता है।  
+- **Storage Sense** — स्वचालित; *Settings → System → Storage* → चालू करें; अस्थायी फाइलें, रिसाइकल बिन (30/60 दिन), डाउनलोड फोल्डर (वैकल्पिक) साफ करता है।  
+**उदाहरण:** SSD पर Storage Sense सक्षम रखें; `cleanmgr /sageset:1` से प्रीसेट बनाएं।  
+**स्रोत:** Microsoft Support — "Disk Cleanup" / "Storage Sense"
+
+## नियम 12: फाइल एक्सप्लोरर खोज सिंटैक्स (AQS — Advanced Query Syntax)
+**नियम:** खोज बॉक्स में प्रयोग करें:  
+- `name:report` — नाम में "report"  
+- `type:document` / `kind:picture` — प्रकार/प्रकार  
+- `date:>01/01/2024` — तिथि सीमा  
+- `size:>10MB` — आकार  
+- `*.pdf` — वाइल्डकार्ड  
+**उदाहरण:** `name:invoice type:document date:last week size:<5MB`  
+**स्रोत:** Microsoft Learn — "Advanced Query Syntax"
+
+## नियम 13: कमांड लाइन से फाइल प्रबंधन (मूल कमांड)
+| कमांड | कार्य | मुख्य स्विच |
+|---|---|---|
+| `dir` | सूची | `/s` (सबफोल्डर), `/b` (बेयर), `/a:h` (छिपी) |
+| `copy` | कॉपी | `/y` (बिना पूछे ओवरराइट), `/v` (सत्यापन) |
+| `xcopy` | ट्री कॉपी | `/e` (खाली सहित), `/h` (छिपी/सिस्टम), `/k` (विशेषता रखें) |
+| `robocopy` | मजबूत कॉपी | `/mir` (मिरर), `/z` (रिस्टार्टेबल), `/r:3 /w:5` (पुनर्प्रयास) |
+| `move` | मूव/रीनेम | `/y` |
+| `del` / `erase` | हटाएं | `/f` (रिड-ओनली बाध्य), `/s` (सबफोल्डर), `/q` (क्वाइट) |
+| `attrib` | विशेषता | `+h -r +s` |
+**नोट:** `robocopy` बैकअप/माइग्रेशन के लिए मानक; `xcopy` विरासत।  
+**स्रोत:** Microsoft Learn — "Command-line reference"
+
+## नियम 14: शॉर्टकट (.lnk) vs सिम्बोलिक लिंक vs हार्ड लिंक
+| प्रकार | कमांड | लक्ष्य हटने पर | क्रॉस-ड्राइव | प्रशासनिक अधिकार |
+|---|---|---|---|---|
+| शॉर्टकट (.lnk) | GUI / `mklink` नहीं | टूटा लिंक | ✅ | ❌ |
+| सिम्बोलिक लिंक | `mklink /d` (फोल्डर) / `mklink` (फाइल) | टूटा लिंक | ✅ | ✅ (डिफ़ॉल्ट) |
+| हार्ड लिंक | `mklink /h` | डेटा रहता है (लिंक काउंट घटता है) | ❌ (समान वॉल्यूम) | ❌ |
+| जंक्शन | `mklink /j` | टूटा लिंक | ❌ (समान वॉल्यूम) | ✅ |
+**उदाहरण:** `mklink /h C:\Link\File.txt D:\Original\File.txt` — त्रुटि देगा (अलग वॉल्यूम)।  
+**स्रोत:** Microsoft Learn — "Hard Links and Junctions"
+
+## नियम 15: फाइल एसोसिएशन और "Open with" प्राथमिकता
+**नियम:**  
+- *Settings → Apps → Default apps* → फाइल प्रकार/लिंक प्रकार के अनुसार डिफ़ॉल्ट सेट करें।  
+- राइट-क्लिक → *Open with → Choose another app* → ☑ *Always use this app* — प्रति-उपयोगकर्ता रजिस्ट्री (`HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts`) में लिखता है।  
+- सिस्टम-वाइड बदलाव के लिए: *Default Programs → Set Associations* (प्रशासनिक)।  
+**उदाहरण:** `.pdf` को Edge के बजाय Adobe Reader से खोलने के लिए दोनों जगह सेट करें।  
+**स्रोत:** Microsoft Support — "Change default programs in Windows"

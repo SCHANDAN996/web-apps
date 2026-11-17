@@ -1,0 +1,51 @@
+**Key Facts — Windows and File Management (Revision Points)**
+
+1. **Windows Editions for Exams** — SSC syllabus expects familiarity with Windows 10/11 Home, Pro, Enterprise, and Education editions; core file-management features are identical across editions.
+
+2. **Desktop Components** — Desktop holds shortcuts (arrow overlay), the Taskbar (Start button, pinned apps, system tray), and the Start Menu (pinned apps grid / apps list, power options, settings). Windows 10 Start Menu uses tiles; Windows 11 uses a grid of pinned apps and a Recommended section.
+
+3. **File Systems** — NTFS is the default for internal drives (supports permissions, encryption, compression, large files). FAT32/exFAT are used for removable media; FAT32 limits single file to 4 GB.
+
+4. **Drive Letters & Paths** — Windows assigns letters (C:, D:, …) to volumes. An absolute path starts from the root (e.g., `C:\Users\Amit\Documents\Report.docx`); a relative path starts from the current folder.
+
+5. **File Extensions & Associations** — The suffix after the last dot (`.docx`, `.pdf`, `.exe`) tells Windows which program opens the file. Extensions are hidden by default; enable “File name extensions” in File Explorer → View.
+
+6. **Creating Files/Folders** — Right‑click → New → Folder / Text Document, or `Ctrl+Shift+N` for a new folder. Naming rules: no `\ / : * ? " < > |`; max 255 characters for a single file/folder name; total path up to 260 characters (or 32,767 with long‑path support enabled).
+
+7. **Copy vs. Move** — **Copy** (`Ctrl+C` → `Ctrl+V`) duplicates; **Move** (`Ctrl+X` → `Ctrl+V`) relocates. Drag‑and‑drop on the same drive = move; across drives = copy. Hold `Ctrl` while dragging to force copy, `Shift` to force move.
+
+8. **Shortcuts vs. Originals** — A shortcut (`.lnk`) is a pointer (small arrow icon). Deleting a shortcut does not delete the target file. Right‑click → “Open file location” jumps to the original.
+
+9. **File Attributes** — Four common attributes: **Read‑only** (prevents accidental change), **Hidden** (hidden from normal view), **System** (used by OS), **Archive** (flag for backup software). View/change via Properties → General → Attributes.
+
+10. **Recycle Bin** — Deleted files go here (per‑drive hidden folder `$Recycle.Bin`). Restore with right‑click → Restore. `Shift+Delete` bypasses Recycle Bin permanently. Bin size is configurable per drive.
+
+11. **Search & Indexing** — Windows Search uses an index (controlled in Indexing Options). Rebuild index if results are missing. File Explorer search box supports filters: `name:`, `type:`, `date:`, `size:`.
+
+12. **Compressed (Zipped) Folders** — Right‑click → Send to → Compressed (zipped) folder creates a `.zip` archive. Windows can open/extract `.zip` natively; other formats (`.rar`, `.7z`) need third‑party tools.
+
+13. **Disk Management** — `diskmgmt.msc` shows partitions, drive letters, file systems. Basic tasks: shrink/extend volumes, assign/change letters, format (quick vs. full). Requires Administrator rights.
+
+14. **User Account Control (UAC)** — Prompts for consent when a task needs admin rights. Standard users see credential prompt; admins see consent prompt. Do not disable UAC for security.
+
+15. **NTFS Permissions (Basic)** — Permissions: Full Control, Modify, Read & Execute, List Folder Contents, Read, Write. Inherited from parent folder by default. Effective access = combination of explicit + inherited – denied.
+
+16. **Sharing Folders** — Right‑click folder → Properties → Sharing → Share… sets network access (Read/Read‑Write). Underlying NTFS permissions still apply; the more restrictive of share vs. NTFS wins.
+
+17. **File History & System Restore** — File History backs up user libraries to external drive. In Windows 10: Settings → Update & Security → Backup; in Windows 11: Control Panel → File History or Settings → System → Storage → Advanced storage settings → Backup. System Restore creates restore points for system files/registry; does not affect personal files.
+
+18. **Windows Update** — In Windows 10: Settings → Update & Security → Windows Update; in Windows 11: Settings → Windows Update. Feature updates (annual) and quality updates (monthly). Pause up to 35 days; active hours prevent restarts during work.
+
+19. **Task Manager** — `Ctrl+Shift+Esc` opens it. Tabs: Processes (resource usage), Performance (CPU/RAM/Disk/Net graphs), Startup (disable unwanted apps), Users, Details, Services.
+
+20. **Control Panel vs. Settings App** — Settings (modern, touch‑friendly) covers most daily options; Control Panel (`control`) retains advanced applets (Programs and Features, Power Options, Administrative Tools).
+
+21. **Command Prompt & PowerShell** — `cmd` (legacy) and `powershell` (object‑oriented, scripting). Common file commands: `dir`, `copy`, `move`, `del`, `ren`, `mkdir`, `rmdir`, `type`, `attrib`. Run as Administrator for system tasks.
+
+22. **Essential Keyboard Shortcuts (Windows Scope)** — `Win+E` (File Explorer), `Win+D` (show desktop), `Win+L` (lock), `Win+Tab` (Task View), `Win+Arrow` (snap), `Alt+Tab` (switch apps), `Ctrl+Shift+N` (new folder), `F2` (rename), `F3` (search), `Alt+Enter` (properties). Browser shortcuts (e.g., `Ctrl+T`) are not Windows shortcuts.
+
+23. **Virtual Desktops** — `Win+Tab` → New Desktop. Each desktop has its own window set; apps can be moved between desktops via Task View. Useful for separating exam prep from personal work.
+
+24. **Safe Mode** — Boots with minimal drivers/services. Access: Settings → Recovery → Advanced startup → Restart now → Troubleshoot → Advanced options → Startup Settings → Restart → press 4 or F4. Use for malware removal, driver rollback.
+
+25. **Basic System Repair Commands** — Run in Admin Command Prompt/PowerShell: `sfc /scannow` (repairs system files), `DISM /Online /Cleanup-Image /RestoreHealth` (repairs component store), `chkdsk C: /f /r` (fixes disk errors, requires reboot).

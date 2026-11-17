@@ -1,0 +1,152 @@
+51. Which keyboard shortcut opens File Explorer in Windows 10 and Windows 11?
+(a) Windows + E (b) Ctrl + E (c) Alt + E (d) Shift + E
+Answer: (a)
+Solution: Many candidates confuse Ctrl + E (which focuses the search/address bar inside an already-open File Explorer) with the global shortcut that launches File Explorer from anywhere; the correct global shortcut is Windows + E, so the answer is Windows + E.
+Source: Microsoft Support - Windows keyboard shortcuts
+
+52. In File Explorer, which view layout shows large icons with file names below them and is best for previewing photos?
+(a) Details (b) List (c) Content (d) Large icons
+Answer: (d)
+Solution: The Details view shows columns (Name, Date, Size) and is often mistakenly chosen for photo browsing; Large icons displays big thumbnails ideal for images, so the answer is Large icons.
+Source: Microsoft Learn - File Explorer views
+
+53. What happens when you press Delete on a file stored on an internal NTFS drive in Windows 10/11?
+(a) The file is permanently erased immediately (b) The file is moved to a hidden system folder (c) The file is compressed and archived (d) The file is moved to the Recycle Bin
+Answer: (d)
+Solution: A common trap is thinking Delete permanently removes the file (Shift + Delete does that); the standard Delete key sends the file to the Recycle Bin for recovery, so the answer is The file is moved to the Recycle Bin.
+Source: Microsoft Support - Recycle Bin behavior
+
+54. Which key combination permanently deletes a selected file bypassing the Recycle Bin?
+(a) Shift + Delete (b) Alt + Delete (c) Ctrl + Delete (d) Windows + Delete
+Answer: (a)
+Solution: Candidates often try Ctrl + Delete (which does nothing special) or Alt + Delete; Shift + Delete is the documented shortcut for permanent deletion, so the answer is Shift + Delete.
+Source: Microsoft Support - Keyboard shortcuts for File Explorer
+
+55. When you drag a file from one folder to another on the same NTFS drive, what is the default action?
+(a) Move (b) Copy (c) Create shortcut (d) Prompt for choice
+Answer: (a)
+Solution: A frequent mistake is assuming drag-and-drop always copies; on the same drive Windows moves the file by default (holding Ctrl forces copy), so the answer is Move.
+Source: Microsoft Learn - File operations in File Explorer
+
+56. Which keyboard shortcut renames the selected file or folder in File Explorer?
+(a) F3 (b) F2 (c) F5 (d) F6
+Answer: (b)
+Solution: F3 opens search, F5 refreshes, F6 cycles UI elements; F2 is the standard rename shortcut across Windows, so the answer is F2.
+Source: Microsoft Support - File Explorer keyboard shortcuts
+
+57. What does the "Hidden items" checkbox on the View tab of File Explorer do?
+(a) Deletes hidden files (b) Compresses hidden files to save space (c) Encrypts selected files (d) Shows or hides files/folders with the Hidden attribute
+Answer: (d)
+Solution: Some think it deletes or encrypts hidden files; it merely toggles visibility of items marked with the Hidden attribute, so the answer is Shows or hides files/folders with the Hidden attribute.
+Source: Microsoft Support - Show hidden files
+
+58. Which file attribute, when set, prevents a file from being modified but allows reading?
+(a) Hidden (b) System (c) Archive (d) Read-only
+Answer: (d)
+Solution: The Archive attribute is for backup software, Hidden and System affect visibility; Read-only specifically blocks writes while permitting reads, so the answer is Read-only.
+Source: Microsoft Learn - File attributes
+
+59. In Windows 10/11, which feature automatically frees up space by deleting temporary files and Recycle Bin items older than a set period?
+(a) Disk Cleanup (b) Storage Sense (c) Optimize Drives (d) File History
+Answer: (b)
+Solution: Disk Cleanup is a manual tool; Storage Sense is the automated background service that cleans temp files and old Recycle Bin items on a schedule, so the answer is Storage Sense.
+Source: Microsoft Support - Storage Sense
+
+60. What is the default location of the Downloads folder for a user named "Student" in Windows 10/11?
+(a) C:\Users\Student\Documents\Downloads (b) C:\Users\Student\Downloads (c) C:\Downloads (d) C:\Users\Public\Downloads
+Answer: (b)
+Solution: Many expect it inside Documents; the default user profile places Downloads directly under the user folder, so the answer is C:\Users\Student\Downloads.
+Source: Microsoft Learn - User profile folders
+
+61. Which path format correctly references a file named "Report.docx" on a network share called "Data" on server "FileSrv"?
+(a) file://FileSrv/Data/Report.docx (b) //FileSrv/Data/Report.docx (c) \FileSrv\Data\Report.docx (d) \\FileSrv\Data\Report.docx
+Answer: (d)
+Solution: Forward slashes (b) are for URLs, single backslash (c) is invalid UNC, file:// (a) is a URI scheme; Windows UNC paths use double backslashes, so the answer is \\FileSrv\Data\Report.docx.
+Source: Microsoft Learn - UNC paths
+
+62. What does the "Compress contents to save disk space" option in a folder's Properties > Advanced do?
+(a) Creates a ZIP archive of the folder (b) Applies NTFS compression to files in that folder (c) Encrypts the folder with EFS (d) Moves the folder to a compressed drive
+Answer: (b)
+Solution: Candidates often confuse this with creating a .zip file (which is a separate "Send to > Compressed folder" action); this checkbox enables transparent NTFS compression, so the answer is Applies NTFS compression to files in that folder.
+Source: Microsoft Support - NTFS compression
+
+63. Which keyboard shortcut selects all items in the current File Explorer window?
+(a) Ctrl + A (b) Ctrl + S (c) Ctrl + Shift + A (d) Alt + A
+Answer: (a)
+Solution: Ctrl + S saves in apps, Ctrl + Shift + A is not standard, Alt + A has no global select-all function; Ctrl + A is the universal select-all shortcut, so the answer is Ctrl + A.
+Source: Microsoft Support - Keyboard shortcuts
+
+64. In File Explorer's address bar, typing "shell:RecycleBinFolder" and pressing Enter opens:
+(a) A list of deleted files sorted by date (b) The Recycle Bin settings (c) The Recycle Bin (d) The Recycle Bin properties dialog
+Answer: (c)
+Solution: Some think it opens settings or properties; shell:RecycleBinFolder is the canonical shell command that opens the Recycle Bin folder itself, so the answer is The Recycle Bin.
+Source: Microsoft Learn - Shell commands
+
+65. What is the effect of checking "File name extensions" on the View tab in File Explorer?
+(a) Hides extensions for known file types (b) Changes the default program for each extension (c) Shows extensions for all files (d) Locks extensions from being renamed
+Answer: (c)
+Solution: The default behavior hides extensions for known types; checking this box reveals them for every file, so the answer is Shows extensions for all files.
+Source: Microsoft Support - File name extensions
+
+66. Which command in Command Prompt copies a directory tree including subdirectories and empty folders?
+(a) copy (b) robocopy /mir (c) xcopy /e (d) move
+Answer: (c)
+Solution: copy only copies files, not folders; robocopy /mir mirrors (deletes extra destination files); xcopy /e copies directories and subdirectories including empty ones, so the answer is xcopy /e.
+Source: Microsoft Learn - xcopy command
+
+67. In PowerShell, which cmdlet moves a file from C:\Source\File.txt to D:\Dest\File.txt?
+(a) Copy-Item (b) Set-Item (c) Rename-Item (d) Move-Item
+Answer: (d)
+Solution: Copy-Item duplicates, Rename-Item changes name in same location, Set-Item modifies properties; Move-Item relocates the file, so the answer is Move-Item.
+Source: Microsoft Learn - Move-Item cmdlet
+
+68. What does the "Previous Versions" tab in a folder's Properties show?
+(a) Earlier drafts of documents saved by Office apps (b) Backup copies from OneDrive sync (c) Shadow copies created by System Protection or File History (d) Temporary files that can be recovered
+Answer: (c)
+Solution: Many assume it shows Office AutoRecover versions or OneDrive history; it actually lists volume shadow copies from System Protection/File History, so the answer is Shadow copies created by System Protection or File History.
+Source: Microsoft Support - Previous Versions
+
+69. Which File Explorer ribbon tab contains the "Select all", "Select none", and "Invert selection" commands?
+(a) Home (b) Share (c) View (d) File
+Answer: (a)
+Solution: The View tab controls layout, Share tab handles sharing; selection commands are on the Home tab in the Select group, so the answer is Home.
+Source: Microsoft Learn - File Explorer ribbon
+
+70. When you right-drag a file to another folder on the same drive and release, what menu appears?
+(a) Send to, Share, Properties, Cancel (b) Open, Edit, Print, Cancel (c) Copy here, Move here, Create shortcuts here, Cancel (d) Cut, Copy, Paste, Cancel
+Answer: (c)
+Solution: Left-drag defaults to move; right-drag always shows the context menu with Copy here, Move here, Create shortcuts here, Cancel, so the answer is Copy here, Move here, Create shortcuts here, Cancel.
+Source: Microsoft Support - Drag and drop behavior
+
+71. A user wants to ensure a folder named "Projects" on drive D: is always indexed for fast search. Which setting should they verify?
+(a) Folder Properties > General > "Allow files to have contents indexed" (b) Indexing Options > Modify > include D:\Projects (c) Folder Properties > Advanced > "Allow files to have contents indexed" (d) File Explorer > View > Options > Search > "Always search file names and contents"
+Answer: (b)
+Solution: The folder-level "Allow indexing" checkbox (c) only affects content indexing for that folder; to guarantee the location is crawled, the folder must be included in Indexing Options > Modify, so the answer is Indexing Options > Modify > include D:\Projects.
+Source: Microsoft Learn - Windows Search indexing
+
+72. In a batch script, which command creates a directory named "Backup_2024" only if it does not already exist, without error?
+(a) mkdir Backup_2024
+(b) md Backup_2024 2>nul
+(c) if not exist Backup_2024 md Backup_2024
+(d) Both (b) and (c) work
+Answer: (d)
+Solution: Option (a) errors if folder exists; (b) suppresses error via redirection; (c) explicitly checks existence; both (b) and (c) achieve the goal without error, so the answer is Both (b) and (c) work.
+Source: Microsoft Learn - Batch file commands
+
+73. Which NTFS permission combination allows a user to create files in a folder but not delete files created by others?
+(a) Create files/write data + Create folders/append data (without Delete subfolders and files) (b) Write + Modify (c) Write + Read (d) Full Control
+Answer: (a)
+Solution: Modify includes Delete; Write alone is not a standard NTFS granular permission; the specific advanced permissions "Create files/write data" and "Create folders/append data" without "Delete" achieve this, so the answer is Create files/write data + Create folders/append data (without Delete subfolders and files).
+Source: Microsoft Learn - NTFS permissions
+
+74. A file named "Data.txt" has both the Hidden and System attributes set. In File Explorer with "Hidden items" checked but "Hide protected operating system files" still enabled, the file:
+(a) Is hidden (b) Is visible (c) Appears as a shortcut (d) Shows only in Command Prompt
+Answer: (a)
+Solution: "Hidden items" shows files with only the Hidden attribute; System files remain hidden until "Hide protected operating system files" is unchecked, so the answer is Is hidden.
+Source: Microsoft Support - Hidden and system files
+
+75. In Windows 11, which feature replaces the classic "Backup and Restore (Windows 7)" for creating a full system image?
+(a) File History (b) System Image Backup (still available via Control Panel) (c) OneDrive folder backup (d) Reset this PC
+Answer: (b)
+Solution: File History only backs up user libraries; OneDrive syncs folders; Reset reinstalls Windows. The legacy System Image Backup tool remains accessible via Control Panel > Backup and Restore (Windows 7) in Windows 11, so the answer is System Image Backup (still available via Control Panel).
+Source: Microsoft Support - System image backup

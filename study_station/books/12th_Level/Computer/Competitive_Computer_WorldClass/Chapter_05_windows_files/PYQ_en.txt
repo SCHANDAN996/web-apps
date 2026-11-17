@@ -1,0 +1,172 @@
+**PYQ Pattern Analysis — Windows & File Management**
+
+**1. Core Concept Clusters That Appear Repeatedly**
+- File/folder operations: create, rename, copy, move, delete, restore from Recycle Bin, permanent deletion (Shift+Delete).
+- Path concepts: absolute vs. relative path, root directory, drive letters, UNC paths (`\\Server\Share`).
+- File attributes: Read-only, Hidden, System, Archive; `attrib` command basics.
+- File extensions & associations: default programs, “Open with”, “Always use this app”.
+- Search & indexing: Indexing Options, search filters (`name:`, `type:`, `date:`, `size:`), wildcard usage (`*`, `?`).
+- Shortcuts vs. actual files: `.lnk` files, target path, “Open file location”.
+- Compression: ZIP folders (native), password protection not native in Windows ZIP.
+- Permissions basics: NTFS permissions (Full Control, Modify, Read & Execute, List Folder Contents, Read, Write), inheritance, effective access.
+- Disk management: drive letters, volumes, partitions, formatting (NTFS, FAT32, exFAT), BitLocker awareness (availability by edition).
+- Command-line tools: `dir`, `copy`, `xcopy`, `robocopy`, `move`, `del`, `md`/`mkdir`, `rd`/`rmdir`, `tree`, `attrib`, `type`, `more`, `find`, `findstr`.
+- PowerShell vs. CMD: object pipeline, `Get-ChildItem`, `Copy-Item`, `Remove-Item`, `New-Item`, `Set-Location`.
+- Run dialog shortcuts: `control`, `msconfig`, `regedit`, `services.msc`, `compmgmt.msc`, `diskmgmt.msc`, `eventvwr`, `cmd`, `powershell`, `winver`.
+- Keyboard shortcuts (Windows scope): Win+E (File Explorer), Win+R (Run), Win+D (Show Desktop), Win+L (Lock), Ctrl+Shift+Esc (Task Manager), Alt+Tab, Alt+F4, Ctrl+C/V/X/Z, Ctrl+A, F2 (Rename), F3 (Search), F5 (Refresh), Shift+Delete (Permanent delete), Ctrl+Shift+N (New folder).
+- Browser shortcuts (distinct): Ctrl+T (New tab), Ctrl+W (Close tab), Ctrl+Shift+T (Reopen closed tab), Ctrl+Tab (Next tab), F5/Ctrl+R (Reload), Ctrl+L (Address bar).
+
+**2. Typical Question Stems & Traps**
+- “Which shortcut opens File Explorer?” — Distractor: Ctrl+E (browser search), Win+F (Feedback Hub in newer builds).
+- “Permanent deletion bypasses Recycle Bin” — Correct key: Shift+Delete; trap: Ctrl+Delete (no standard effect).
+- “Wildcard for exactly one character” — `?` not `*`.
+- “Command to copy directory tree with permissions” — `robocopy /COPYALL` or `xcopy /E /H /K /O`; `copy` does not copy folders.
+- “File attribute that marks file for backup” — Archive (`A`); trap: “Backup” attribute does not exist.
+- “Default file system for Windows system drive” — NTFS; trap: FAT32 (size limit 4 GB), exFAT (external drives).
+- “Extension of a shortcut file” — `.lnk` (hidden by default); trap: `.url` (Internet shortcut), `.exe` (executable).
+- “Which tool shows effective NTFS permissions?” — Effective Access tab in Advanced Security Settings; trap: `icacls` shows ACLs but not computed effective access for a user.
+- “Run command for Disk Management” — `diskmgmt.msc`; trap: `diskpart` (CLI), `devmgmt.msc` (Device Manager).
+- “Maximum path length in traditional Win32 API” — 260 characters (MAX_PATH); trap: 255, 512, unlimited (long paths enabled via Group Policy/registry in Windows 10 1607+).
+- “Native ZIP password protection” — Not supported; trap: “Yes, via right-click → Properties → Advanced”.
+- “Command to create nested directories in one step” — `mkdir a\b\c` or `md a\b\c`; trap: `mkdir a/b/c` (forward slash works in PowerShell, not CMD).
+- “Difference between `move` and `cut+paste`” — `move` moves files across volumes; it fails for directories across volumes (requires copy+delete).
+- “Search filter for files modified last week” — `datemodified:last week` or `modified:>7/1/2024`; trap: `date:last week` (ambiguous).
+- “Hidden system files visibility” — Folder Options → View → “Show hidden files, folders, and drives” + uncheck “Hide protected operating system files”; trap: only first checkbox.
+
+**3. Statement-Based Question Patterns (True/False, Select Correct/Incorrect)**
+- “NTFS supports file-level encryption (EFS) and compression simultaneously on the same file.” — False (mutually exclusive).
+- “FAT32 supports individual files larger than 4 GB.” — False.
+- “`robocopy` by default copies only changed or new files (skips identical files); options `/XO`, `/XC`, `/XN` exclude older, changed, or newer files respectively, and `/MIR` mirrors the destination (deletes extra files).” — True.
+- “A shortcut (.lnk) stores the absolute path of the target and breaks if target moves.” — True (unless target on same volume and tracked by Distributed Link Tracking service).
+- “Windows Search Indexer runs as `SearchIndexer.exe` and can be paused via Indexing Options.” — True.
+- “`attrib +h +s file.txt` makes file hidden and system; it disappears even when ‘Show hidden files’ is on.” — True (requires unchecking ‘Hide protected operating system files’).
+- “`xcopy /D` copies only files changed on or after specified date.” — True.
+- “BitLocker Drive Encryption is available in Windows 10 Home edition.” — False (Pro/Enterprise/Education only).
+- “`Ctrl+Shift+N` creates a new folder in File Explorer and on Desktop.” — True.
+- “`Win+Pause` opens System Properties (About page in Settings).” — True (legacy Control Panel System in older builds; now Settings → System → About).
+
+**4. Match-the-Following / Column Questions**
+- Match Run commands to tools: `msconfig`→System Configuration, `regedit`→Registry Editor, `services.msc`→Services, `compmgmt.msc`→Computer Management, `diskmgmt.msc`→Disk Management, `eventvwr`→Event Viewer.
+- Match file attributes to letters: Read-only→R, Hidden→H, System→S, Archive→A.
+- Match shortcut keys to actions: Win+E→File Explorer, Win+R→Run, Win+L→Lock, Ctrl+Shift+Esc→Task Manager, Alt+Tab→Switch apps.
+- Match commands to purpose: `dir`→List, `copy`→Copy files, `xcopy`→Copy directories, `robocopy`→Robust copy, `move`→Move/rename, `del`→Delete files, `md`→Make directory, `rd`→Remove directory.
+
+**5. Scenario-Based Traps**
+- “User cannot delete a file; ‘Access denied’. File is not open. Most likely cause?” — NTFS permissions (no Write/Modify), or file/folder owned by another user, or file has Read-only attribute + inheritance.
+- “Copying 5 GB file to 16 GB USB stick formatted FAT32 fails.” — Cause: FAT32 4 GB file size limit; fix: reformat to exFAT or NTFS.
+- “Shortcut shows ‘Item not found’ after target moved to another drive.” — Shortcut stores absolute path; Distributed Link Tracking works only on same NTFS volume.
+- “`dir /s /b` output used in `for` loop fails on paths with spaces.” — Fix: use `dir /s /b` with `usebackq` and quotes, or PowerShell `Get-ChildItem -Recurse -Name`.
+- “Search does not find files inside a specific folder.” — Folder not indexed; add to Indexing Options or enable “Always search file names and contents” in Folder Options → Search.
+
+**6. Version-Agnostic Stable Facts Only**
+- No version-specific UI paths (e.g., “Settings → System → Storage” vs. “Control Panel → System”); use generic “System Properties” or “Disk Management”.
+- No feature-deprecation claims (e.g., “Control Panel removed”) — both coexist.
+- No edition-specific feature lists beyond BitLocker (Pro+/Enterprise/Education) as per Microsoft public documentation.
+
+**7. PYQ-Style Original Examples**
+
+**Example 1**  
+Which keyboard shortcut opens the Run dialog in Windows?  
+(a) Win+E  (b) Win+R  (c) Ctrl+R  (d) Alt+R  
+Answer: (b)  
+Solution: Win+R opens Run; Win+E opens File Explorer; Ctrl+R refreshes browser; Alt+R has no standard Windows function.  
+Source: PYQ-style
+
+**Example 2**  
+A file has attributes Hidden (H) and System (S). In Folder Options, “Show hidden files, folders, and drives” is selected, but “Hide protected operating system files (Recommended)” remains checked. The file will be:  
+(a) Visible  (b) Invisible  (c) Visible only in CMD  (d) Visible only in PowerShell  
+Answer: (b)  
+Solution: System files are hidden by the second checkbox; both must be unchecked to see H+S files.  
+Source: PYQ-style
+
+**Example 3**  
+Which command copies a directory tree including empty subdirectories and preserves file attributes?  
+(a) copy /E  (b) xcopy /E /H /K  (c) move /S  (d) robocopy /MIR  
+Answer: (b)  
+Solution: `xcopy /E /H /K` copies directories, hidden/system files, and attributes. `copy` does not copy directories. `robocopy /MIR` mirrors (deletes extra destination files) — not asked.  
+Source: PYQ-style
+
+**Example 4**  
+Maximum size of a single file on a FAT32 volume is:  
+(a) 2 GB  (b) 4 GB  (c) 8 GB  (d) 16 TB  
+Answer: (b)  
+Solution: FAT32 file size limit is 4 GB (4,294,967,295 bytes). NTFS/exFAT support larger files.  
+Source: PYQ-style
+
+**Example 5**  
+Which Run command opens Disk Management?  
+(a) `diskpart`  (b) `devmgmt.msc`  (c) `diskmgmt.msc`  (d) `compmgmt.msc`  
+Answer: (c)  
+Solution: `diskmgmt.msc` → Disk Management; `diskpart` is CLI; `devmgmt.msc` → Device Manager; `compmgmt.msc` → Computer Management (includes Disk Management as snap-in).  
+Source: PYQ-style
+
+**Example 6**  
+Statement: “Windows native ZIP (Compressed Folder) supports password protection.”  
+(a) True  (b) False  
+Answer: (b)  
+Solution: Native ZIP in Windows does not support password protection; third-party tools (7-Zip, WinRAR) required.  
+Source: PYQ-style
+
+**Example 7**  
+Wildcard `?` in Windows search or command line matches:  
+(a) Zero or more characters  (b) Exactly one character  (c) Any digit  (d) Any letter  
+Answer: (b)  
+Solution: `?` = single character; `*` = zero or more characters.  
+Source: PYQ-style
+
+**Example 8**  
+Effective NTFS permissions for a user are determined by:  
+(a) Only explicit Allow entries  (b) Only inherited Allow entries  (c) Combination of explicit and inherited Allow, minus any Deny  (d) Only the first ACE in ACL  
+Answer: (c)  
+Solution: Effective access = cumulative Allow (explicit + inherited) minus any Deny (Deny overrides Allow).  
+Source: PYQ-style
+
+**Example 9**  
+Which shortcut creates a new folder in File Explorer?  
+(a) Ctrl+N  (b) Ctrl+Shift+N  (c) Alt+N  (d) Win+N  
+Answer: (b)  
+Solution: Ctrl+Shift+N creates new folder; Ctrl+N opens new window (Explorer) or new file (apps); Win+N opens Notification Center.  
+Source: PYQ-style
+
+**Example 10**  
+Command `attrib -r -h -s file.txt` will:  
+(a) Set Read-only, Hidden, System  (b) Remove Read-only, Hidden, System  (c) Display attributes  (d) Delete file  
+Answer: (b)  
+Solution: Minus (`-`) clears attributes; plus (`+`) sets them.  
+Source: PYQ-style
+
+**8. Common Distractor Themes to Recognise**
+- Confusing browser shortcuts with Windows shortcuts (Ctrl+T, Ctrl+W, Ctrl+Shift+T).
+- Mixing `copy` (files only) with `xcopy`/`robocopy` (directories).
+- Assuming FAT32 supports >4 GB files.
+- Thinking `.lnk` files are the actual target.
+- Believing native ZIP has encryption/password.
+- Overlooking that Deny ACE overrides Allow.
+- Missing that `Shift+Delete` bypasses Recycle Bin permanently.
+- Forgetting that `mkdir`/`md` creates intermediate folders in one command.
+- Confusing `diskpart` (CLI) with `diskmgmt.msc` (GUI).
+- Assuming “Hide protected operating system files” only affects system files, not hidden+system combo.
+
+**9. Preparation Focus**
+- Memorise the 15–20 most common Run commands (`msconfig`, `regedit`, `services.msc`, `compmgmt.msc`, `diskmgmt.msc`, `eventvwr`, `control`, `cmd`, `powershell`, `winver`, `appwiz.cpl`, `ncpa.cpl`, `firewall.cpl`, `sysdm.cpl`, `gpedit.msc` — Pro+ only).
+- Practise attribute toggling with `attrib` and Folder Options.
+- Understand NTFS permission inheritance and Effective Access tab.
+- Distinguish CMD vs. PowerShell syntax for same task (`dir` vs. `Get-ChildItem`, `copy` vs. `Copy-Item`).
+- Know wildcard behaviour in search box and command line.
+- Recognise file-system limits (FAT32 4 GB file, 32 GB volume practical limit in Windows formatter; NTFS huge limits).
+- Identify BitLocker edition availability (Pro/Enterprise/Education).
+- Separate Windows shortcuts from browser shortcuts cleanly.
+
+**10. Final Checklist Before Exam**
+- [ ] 15 Run commands + target tool
+- [ ] 10 Windows keyboard shortcuts (scope: OS, not browser)
+- [ ] 5 file attributes + letters + `attrib` syntax
+- [ ] 3 file systems + key limits (FAT32, NTFS, exFAT)
+- [ ] `copy` vs `xcopy` vs `robocopy` vs `move` vs `del` vs `md` vs `rd`
+- [ ] NTFS permission types + inheritance + Deny precedence
+- [ ] Search wildcards (`*`, `?`) and filters (`name:`, `type:`, `date:`, `size:`)
+- [ ] Shortcut (.lnk) behaviour + Distributed Link Tracking scope
+- [ ] Native ZIP capabilities (no password, no encryption)
+- [ ] BitLocker edition availability
+
+Source: PYQ-style (pattern analysis based on stable Microsoft documentation and common exam frameworks)

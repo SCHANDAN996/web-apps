@@ -1,0 +1,151 @@
+Questions 1–20: Easy | Questions 21–25: Medium
+
+1. What is the primary function of the Taskbar in Windows?
+(a) Displays the list of installed applications only (b) Shows running programs, Start button, system tray, and time (c) Manages file permissions and security settings (d) Controls the computer's hardware drivers
+Answer: (b)
+Solution: The Taskbar is often confused with the Start Menu or a simple app launcher, but it persistently shows running programs, the Start button, system tray icons, and the clock, so the answer is shows running programs, Start button, system tray, and time.
+Source: Microsoft Learn – Windows fundamentals
+
+2. Which keyboard shortcut opens the Run dialog box in Windows?
+(a) Ctrl + Shift + Esc (b) Windows key + E (c) Windows key + R (d) Windows key + D
+Answer: (c)
+Solution: Windows key + E opens File Explorer, Windows key + D shows the desktop, and Ctrl + Shift + Esc opens Task Manager; the Run dialog is specifically opened with Windows key + R, so the answer is Windows key + R.
+Source: Microsoft Support – Keyboard shortcuts in Windows
+
+3. In File Explorer, what does the "Quick Access" section display?
+(a) Only system files and folders (b) All drives and network locations (c) Files deleted from the Recycle Bin (d) Frequently used folders and recently accessed files
+Answer: (d)
+Solution: Quick Access is sometimes mistaken for "This PC" or the Recycle Bin, but it dynamically pins frequently used folders and recently opened files for quick navigation, so the answer is frequently used folders and recently accessed files.
+Source: Microsoft Learn – File Explorer overview
+
+4. What happens when you press the Delete key on a selected file in File Explorer (default behavior)?
+(a) The file is permanently erased immediately (b) The file is moved to the Recycle Bin (c) The file is compressed into a ZIP archive (d) The file is copied to the clipboard
+Answer: (b)
+Solution: Many users think Delete permanently removes a file, but by default it sends the file to the Recycle Bin for recovery; permanent deletion requires Shift + Delete, so the answer is the file is moved to the Recycle Bin.
+Source: Microsoft Support – Delete files or folders
+
+5. Which file attribute prevents a file from being modified or deleted accidentally?
+(a) Hidden (b) System (c) Read-only (d) Archive
+Answer: (c)
+Solution: The Hidden attribute only conceals the file in normal view, while Read-only specifically blocks write operations; System marks OS files, and Archive is used for backup, so the answer is Read-only.
+Source: Microsoft Learn – File attributes
+
+6. What is the purpose of a shortcut (".lnk" file) in Windows?
+(a) Provides a pointer to the original file or program location (b) Encrypts the original file for security (c) Compresses the original file to save space (d) Creates a duplicate copy of the original file
+Answer: (a)
+Solution: A shortcut is often confused with a copy or a compressed version, but it is merely a small pointer file that redirects to the target without duplicating data, so the answer is provides a pointer to the original file or program location.
+Source: Microsoft Learn – Create a shortcut
+
+7. Which keyboard shortcut opens File Explorer directly?
+(a) Ctrl + E (b) Windows key + F (c) Windows key + X (d) Windows key + E
+Answer: (d)
+Solution: Windows key + F opens search (or Feedback Hub), Windows key + X opens the Power User menu, and Ctrl + E focuses the search box in browsers; File Explorer is uniquely launched with Windows key + E, so the answer is Windows key + E.
+Source: Microsoft Support – Keyboard shortcuts in Windows
+
+8. What does the "Recycle Bin" store?
+(a) Compressed system backups (b) Deleted files and folders until emptied (c) Temporary internet files (d) Installed application installers
+Answer: (b)
+Solution: The Recycle Bin is not a backup or cache folder; it holds user-deleted items temporarily, allowing restoration until the bin is emptied, so the answer is deleted files and folders until emptied.
+Source: Microsoft Support – Recycle Bin
+
+9. Which view in File Explorer shows file details such as size, type, and date modified in columns?
+(a) Icons view (b) List view (c) Details view (d) Tiles view
+Answer: (c)
+Solution: Icons and Tiles show thumbnails or large icons with limited metadata, List shows only names; Details view presents a tabular layout with columns for size, type, date, etc., so the answer is Details view.
+Source: Microsoft Learn – Change the view in File Explorer
+
+10. What is the default location for user documents in modern Windows versions?
+(a) C:\Users\<username>\Documents (b) C:\Windows\Documents (c) C:\Program Files\Documents (d) C:\Documents and Settings\Documents
+Answer: (a)
+Solution: Older versions used "Documents and Settings", but since Windows Vista the standard profile path is C:\Users\<username>\Documents; system folders like Windows and Program Files are for OS and apps, so the answer is C:\Users\<username>\Documents.
+Source: Microsoft Learn – User profile folders
+
+11. Which keyboard shortcut permanently deletes a selected file bypassing the Recycle Bin?
+(a) Windows key + Delete (b) Ctrl + Delete (c) Alt + Delete (d) Shift + Delete
+Answer: (d)
+Solution: Ctrl + Delete has no standard delete function, Alt + Delete is not used, and Windows key + Delete is not a default shortcut; Shift + Delete is the documented combination for permanent deletion, so the answer is Shift + Delete.
+Source: Microsoft Support – Keyboard shortcuts in Windows
+
+12. What does the "Library" feature in Windows do?
+(a) Aggregates folders from different locations into a single view (b) Encrypts files for security (c) Compresses folders to save disk space (d) Creates backup copies of important files
+Answer: (a)
+Solution: Libraries are often mistaken for backup or compression tools, but they are virtual collections that display contents of multiple physical folders (e.g., Documents, Pictures) in one window without moving files, so the answer is aggregates folders from different locations into a single view.
+Source: Microsoft Learn – Libraries
+
+13. Which key combination opens the Task Manager directly?
+(a) Ctrl + Alt + Delete (b) Ctrl + Shift + Esc (c) Windows key + X (d) Ctrl + Esc
+Answer: (b)
+Solution: Ctrl + Alt + Delete opens a security screen with Task Manager as one option, Windows key + X opens the Power User menu, and Ctrl + Esc opens the Start menu; Ctrl + Shift + Esc launches Task Manager immediately, so the answer is Ctrl + Shift + Esc.
+Source: Microsoft Support – Keyboard shortcuts in Windows
+
+14. What is the function of the "Snap" feature in Windows?
+(a) Locks the computer screen (b) Takes a screenshot of the screen (c) Automatically arranges windows side by side when dragged to screen edges (d) Creates a restore point
+Answer: (c)
+Solution: Snap is confused with screenshot (Win+Shift+S) or lock (Win+L), but it specifically resizes and positions windows to halves or quarters of the screen when dragged to edges or corners, so the answer is automatically arranges windows side by side when dragged to screen edges.
+Source: Microsoft Learn – Snap windows
+
+15. Which file extension indicates a compressed (zipped) folder natively supported by Windows?
+(a) .rar (b) .tar (c) .7z (d) .zip
+Answer: (d)
+Solution: Windows natively supports .zip as "Compressed (zipped) folder"; .rar, .7z, and .tar require third-party tools, so the answer is .zip.
+Source: Microsoft Support – Zip and unzip files
+
+16. What does the "Hidden" attribute do when applied to a file or folder?
+(a) Prevents the file from appearing in normal directory listings (b) Marks the file for backup (c) Encrypts the file contents (d) Deletes the file after a set time
+Answer: (a)
+Solution: Hidden does not delete, encrypt, or schedule backup; it simply tells File Explorer not to show the item unless "Hidden items" is enabled in the View tab, so the answer is prevents the file from appearing in normal directory listings.
+Source: Microsoft Learn – File attributes
+
+17. Which Settings page manages user accounts and sign-in options in Windows 10/11?
+(a) Accounts (b) Network & Internet (c) System (d) Devices
+Answer: (a)
+Solution: System handles hardware/OS info, Network & Internet manages connections, Devices handles peripherals; Accounts is specifically for user profiles, passwords, and sign-in options, so the answer is Accounts.
+Source: Microsoft Learn – Manage user accounts
+
+18. What is the purpose of the "Run" command (Win+R)?
+(a) Starts a new user session (b) Runs a system diagnostic scan (c) Executes a specific command, opens a folder, or launches a program by name (d) Compiles source code
+Answer: (c)
+Solution: Run is not a diagnostic, session, or compiler tool; it accepts executable names, paths, or shell commands (e.g., "cmd", "control", "shell:startup") to launch them directly, so the answer is executes a specific command, opens a folder, or launches a program by name.
+Source: Microsoft Support – Run command
+
+19. Which keyboard shortcut minimizes all open windows and shows the desktop (toggle)?
+(a) Windows key + M (b) Windows key + Down arrow (c) Windows key + Home (d) Windows key + D
+Answer: (d)
+Solution: Win+M minimizes all windows but does not toggle; Win+Home minimizes all except the active window; Win+Down arrow minimizes the active window only; Win+D toggles show desktop, so the answer is Windows key + D.
+Source: Microsoft Support – Keyboard shortcuts in Windows
+
+20. What does the File Explorer address bar display when you click an empty area of it?
+(a) The full path in editable text format (b) A list of recent files (c) The file properties dialog (d) The search box
+Answer: (a)
+Solution: Clicking the address bar converts the breadcrumb path into an editable text path (e.g., "C:\Users\Name\Documents") for quick copying or typing; it does not show recent files, properties, or search, so the answer is the full path in editable text format.
+Source: Microsoft Learn – File Explorer address bar
+
+21. A user wants to copy a file from a USB drive to the Documents folder while keeping the original on the USB. Which drag-and-drop action achieves this by default between different drives?
+(a) Hold Ctrl while dragging with left mouse button (b) Drag with left mouse button (c) Drag with right mouse button and choose "Copy here" (d) Hold Shift while dragging with left mouse button
+Answer: (b)
+Solution: Between different drives, left-drag defaults to Copy; Ctrl+drag forces Copy even on the same drive, Shift+drag forces Move, and right-drag shows a menu; the question asks for the default behavior, so the answer is drag with left mouse button.
+Source: Microsoft Support – Copy or move files and folders
+
+22. Which of the following statements about NTFS file permissions is correct?
+(a) "Read" permission allows a user to modify file contents (b) "Write" permission allows a user to delete the file (c) "Modify" permission includes Read, Write, and Delete (d) "Full Control" only allows changing permissions
+Answer: (c)
+Solution: Read does not allow modification; Write alone does not grant Delete; Full Control includes permission changes but also all other actions; Modify is the standard level that bundles Read, Write, and Delete without permission-changing rights, so the answer is Modify permission includes Read, Write, and Delete.
+Source: Microsoft Learn – NTFS permissions
+
+23. What is the effect of enabling "File name extensions" in the View tab of File Explorer?
+(a) Hides extensions for known file types (b) Encrypts file names (c) Changes the default program for opening files (d) Shows the extension (e.g., .txt, .pdf) for all files
+Answer: (d)
+Solution: The option is often misread as hiding extensions, but enabling it reveals extensions; it does not change associations or encrypt names, so the answer is shows the extension (e.g., .txt, .pdf) for all files.
+Source: Microsoft Support – Show file extensions
+
+24. A user presses Windows key + L. What happens?
+(a) Opens the Lock screen / locks the computer (b) Opens the Settings app (c) Opens the Run dialog (d) Minimizes all windows
+Answer: (a)
+Solution: Win+L is the dedicated lock shortcut; Win+I opens Settings, Win+R opens Run, Win+D minimizes; so the answer is opens the Lock screen / locks the computer.
+Source: Microsoft Support – Keyboard shortcuts in Windows
+
+25. Which environment variable refers to the per-user "AppData\Roaming" folder?
+(a) %LOCALAPPDATA% (b) %APPDATA% (c) %USERPROFILE%\AppData\Local (d) %SYSTEMROOT%\AppData
+Answer: (b)
+Solution: %LOCALAPPDATA% points to AppData\Local; %USERPROFILE%\AppData\Local is the expanded form of Local; %SYSTEMROOT% is the Windows directory; %APPDATA% specifically expands to the Roaming folder, so the answer is %APPDATA%.
+Source: Microsoft Learn – Environment variables

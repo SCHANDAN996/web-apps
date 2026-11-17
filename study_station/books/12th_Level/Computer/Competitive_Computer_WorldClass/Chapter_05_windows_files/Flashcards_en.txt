@@ -1,0 +1,75 @@
+Card 1
+Front: What is the primary function of an operating system like Windows?
+Back: An operating system manages hardware resources (CPU, memory, storage, devices), provides a user interface, and runs applications. It acts as an intermediary between software and hardware.
+
+Card 2
+Front: Difference between a file and a folder (directory) in Windows.
+Back: A file stores data (document, image, program). A folder is a container that organises files and other folders hierarchically. Folders have no data content of their own.
+
+Card 3
+Front: What is the full path of a file and its components?
+Back: Example: C:\Users\Ravi\Documents\Report.docx
+Drive letter (C:), root (\), folders (Users, Ravi, Documents), file name (Report), extension (.docx). Path separator is backslash (\).
+
+Card 4
+Front: What does a file extension indicate? Give three examples.
+Back: Extension (characters after the last dot) tells Windows which program should open the file. Examples: .txt (Notepad), .xlsx (Excel), .pdf (Adobe Reader / browser).
+
+Card 5
+Front: How to show hidden file extensions in File Explorer (Windows 10/11)?
+Back: Windows 10: File Explorer → View tab → Options → View tab → uncheck "Hide extensions for known file types" → OK.  
+Windows 11: File Explorer → ⋯ (See more) → Options → View tab → uncheck "Hide extensions for known file types" → OK.  
+This prevents malware disguised as "invoice.pdf.exe" from appearing as "invoice.pdf".
+
+Card 6
+Front: Keyboard shortcut to open File Explorer.
+Back: Win + E (Windows key + E). Works across all supported Windows versions.
+
+Card 7
+Front: Shortcut to create a new folder in File Explorer.
+Back: Ctrl + Shift + N. Creates "New folder" in the current directory with the name ready for typing.
+
+Card 8
+Front: Shortcut to permanently delete a file (bypass Recycle Bin).
+Back: Shift + Delete. Confirms once; file is not moved to Recycle Bin and cannot be restored from there.
+
+Card 9
+Front: What is the Recycle Bin and its storage behaviour?
+Back: Temporary holding area for deleted files. Each drive has its own hidden $Recycle.Bin folder. Total size is configurable per drive; oldest files are auto-purged when limit is reached.
+
+Card 10
+Front: Difference between Copy (Ctrl+C) and Cut (Ctrl+X) operations.
+Back: Copy duplicates the item to clipboard; original remains. Cut marks original for move; it disappears from source only after Paste (Ctrl+V) completes successfully.
+
+Card 11
+Front: How to select multiple non-adjacent files in File Explorer?
+Back: Hold Ctrl and click each file. For adjacent range: click first, hold Shift, click last. Ctrl+A selects all in the folder.
+
+Card 12
+Front: What is a shortcut (.lnk file) and how to identify it?
+Back: A pointer to the original file/folder/program. Deleting a shortcut does not delete the target. Icon has a small curved arrow overlay. Right-click → Properties shows "Target" path.
+
+Card 13
+Front: Purpose of the %TEMP% environment variable.
+Back: Points to the current user's temporary folder (e.g., C:\Users\Name\AppData\Local\Temp). Stores transient files from apps and Windows Update. Safe to clear periodically (Win+R → %temp% → Ctrl+A → Delete).
+
+Card 14
+Front: What is File Explorer's "Quick Access" and how to pin a folder?
+Back: Quick Access shows frequent folders and recent files. Right-click any folder → "Pin to Quick access". Pinned folders stay at top; unpin via right-click → "Unpin from Quick access".
+
+Card 15
+Front: Difference between NTFS and FAT32 file systems (exam-relevant points).
+Back: NTFS: supports files >4 GB, permissions, encryption, compression, journaling, large volumes.  
+FAT32: max file size 4 GB; Windows format limit 32 GB; theoretical maximum volume 8 TB (with 32 KB clusters, the largest cluster size Microsoft allows for FAT32); no native permissions; wider device compatibility (USB drives, cameras).
+
+Card 16
+Front: What is BitLocker and which Windows editions include it?
+Back: Full-disk encryption for fixed and removable drives. Included in Windows Pro, Enterprise, Education editions. Not in Home edition. Requires TPM 1.2+ or password/USB startup key.
+
+Card 17
+Front: How to check disk errors using GUI and command line.
+Back: GUI: Right-click drive → Properties → Tools → Check. CLI (Admin): chkdsk C: /f /r (fixes file-system errors and scans bad sectors; may require reboot for system drive).
+
+Card 18
+Front: What is the purpose of the Windows Registry?
+Back: Hierarchical database storing low-level settings for OS, hardware, user preferences, and installed applications. Edited via regedit.exe. Incorrect changes can prevent boot; always export a backup before modifying.

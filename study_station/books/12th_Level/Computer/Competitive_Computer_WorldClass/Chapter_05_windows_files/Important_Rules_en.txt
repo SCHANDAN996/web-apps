@@ -1,0 +1,46 @@
+Important Rules — Windows and File Management
+
+Rule 1: File extensions determine default programs
+Windows uses the extension (the part after the last dot) to decide which application opens a file. Example: report.docx opens in Word; data.csv opens in Excel. Exception: if no extension exists or the association is changed, Windows prompts "How do you want to open this file?" Common mistake: renaming "photo.jpg" to "photo.pdf" does not convert the format — it only confuses the opener.
+
+Rule 2: Path length limit (MAX_PATH) is 260 characters in classic Win32 APIs
+The full path including drive letter, colon, backslashes, folder names, file name, and terminating null must not exceed 260 characters. Example: C:\Users\Name\Documents\Project\Phase1\Reports\Final\Summary_Q4_2024_v2_revised.xlsx may exceed the limit. Workaround: enable "Long Paths" via Group Policy (Computer Configuration → Administrative Templates → System → Filesystem → Enable Win32 long paths) or use \\?\ prefix in scripts. Common mistake: copying deep folder trees fails silently with "File name too long" error.
+
+Rule 3: Hidden and system files are not shown by default
+File Explorer hides files with Hidden (H) or System (S) attributes to prevent accidental deletion. To view: View tab → Options → View → "Show hidden files, folders, and drives" and uncheck "Hide protected operating system files". Example: desktop.ini, pagefile.sys, hiberfil.sys. Common mistake: deleting a hidden system file (e.g., bootmgr) makes Windows unbootable.
+
+Rule 4: NTFS permissions combine Allow and Deny — Deny overrides Allow
+Effective permission = (Allow from groups + user) minus (Deny from groups + user). Example: User A belongs to Group X (Allow Read) and Group Y (Deny Write). Result: Read allowed, Write denied. Exception: Full Control on a folder includes Delete Subfolders and Files; denying only Write does not prevent deletion. Common mistake: assuming Deny on a parent folder is blocked by Allow on child — Deny propagates unless inheritance is broken.
+
+Rule 5: Share permissions apply only over network; NTFS permissions apply locally and over network
+When accessing a shared folder remotely, both share and NTFS permissions are evaluated; the most restrictive wins. Example: Share = Everyone Read; NTFS = User A Write. Remote result: Read only. Local logon: Write allowed. Best practice: set Share = Everyone Full Control, restrict via NTFS. Common mistake: setting Share = Read and wondering why admins cannot write remotely.
+
+Rule 6: File compression (NTFS) and encryption (EFS) are mutually exclusive on the same file
+A file cannot be both NTFS-compressed and EFS-encrypted simultaneously. Enabling one disables the other. Example: Right-click file → Properties → Advanced → check "Compress contents to save disk space" OR "Encrypt contents to secure data". Exception: a folder can contain both compressed and encrypted files. Common mistake: compressing an encrypted file decrypts it first, exposing plaintext temporarily.
+
+Rule 7: Libraries are virtual collections; they do not move files
+A Library (Documents, Pictures, Music, Videos) aggregates folders from multiple locations. Adding a folder to a Library creates a pointer, not a copy. Example: D:\Work\Docs and C:\Users\Name\Documents both appear under Documents Library. Deleting a file inside the Library deletes the original file. Common mistake: removing a folder from Library thinking it deletes the data — it only removes the link.
+
+Rule 8: Quick Access shows frequently used folders and pinned items; it is per-user
+Quick Access (File Explorer home) stores its database in %AppData%\Microsoft\Windows\Recent\CustomDestinations. Pinning a folder adds a shortcut there. Example: Pin "D:\Projects\Current" → appears at top. Unpin removes the shortcut only. Common mistake: expecting Quick Access pins to roam across computers — they do not unless Enterprise State Roaming is configured.
+
+Rule 9: File History backs up only libraries, desktop, contacts, and favorites by default
+File History (Control Panel → File History) versions files in those locations to an external drive. It does not back up system files, apps, or arbitrary folders unless added manually. Example: In File History (Control Panel), after selecting a backup drive, click "Add a folder" in the main window; or use Settings → Update & Security → Backup → More options → Add a folder. Common mistake: assuming File History is a full system image — it is not; use "Backup and Restore (Windows 7)" for system image.
+
+Rule 10: BitLocker encrypts entire volumes; it requires TPM 1.2+ or startup key/password
+BitLocker Drive Encryption (Pro/Enterprise/Education editions) protects data at rest. Without TPM, use "Require additional authentication at startup" (Group Policy) to allow USB startup key or password. Example: Turn on BitLocker for C: → save recovery key to Microsoft account / USB / print. Common mistake: losing recovery key after motherboard replacement — TPM validation fails, key required.
+
+Rule 11: Shortcuts (.lnk) store target path, arguments, start-in folder, and icon
+A shortcut is a pointer file. Properties → Target: "C:\Program Files\App\app.exe" -arg1; Start in: "C:\Data". Deleting the shortcut does not delete the target. Common mistake: copying a shortcut to another PC expecting the app to work — the target path must exist on that PC.
+
+Rule 12: Environment variables control system and user paths; PATH order matters
+System variables apply to all users; User variables apply to current user. When resolving commands, Windows searches PATH left to right. Example: User PATH has "C:\Python311"; System PATH has "C:\Python39". Running "python" uses 3.11. Common mistake: installing new Python but old version runs — restart shell or move entry higher.
+
+Rule 13: Disk Cleanup (cleanmgr) and Storage Sense remove temporary files safely
+Disk Cleanup: cleanmgr /sageset:1 → select categories → cleanmgr /sagerun:1. Storage Sense (Settings → System → Storage) automates cleanup of Recycle Bin, Downloads, temporary files. Exception: "Previous Windows installations" appears only after major upgrade. Common mistake: deleting "Windows ESD installation files" — blocks "Reset this PC" feature.
+
+Rule 14: Task Manager (Ctrl+Shift+Esc) shows real-time resource usage; Resource Monitor (resmon) gives deeper detail
+Task Manager: Processes, Performance, App history, Startup, Users, Details, Services. Resource Monitor: per-process disk, network, memory, CPU with handles/modules. Example: find which process locks a file → Resource Monitor → CPU → Associated Handles → search filename. Common mistake: ending "System" or "csrss.exe" — causes immediate crash.
+
+Rule 15: Windows keyboard shortcuts (OS scope) vs. Browser shortcuts (app scope)
+OS shortcuts work globally: Win+E (File Explorer), Win+D (Show desktop), Win+L (Lock), Alt+Tab (Switch apps), Ctrl+Shift+Esc (Task Manager), Win+V (Clipboard history), Win+Shift+S (Snip). Browser shortcuts work only inside browser: Ctrl+T (New tab), Ctrl+W (Close tab), Ctrl+Shift+T (Reopen closed), Ctrl+Tab (Next tab), F5 (Refresh). Office shortcuts: Ctrl+S (Save), Ctrl+Z (Undo), Ctrl+Y (Redo), Alt+F4 (Close app). Common mistake: pressing Ctrl+W on desktop expecting to close a folder — it does nothing; use Alt+F4 or Ctrl+W only inside apps that support it.

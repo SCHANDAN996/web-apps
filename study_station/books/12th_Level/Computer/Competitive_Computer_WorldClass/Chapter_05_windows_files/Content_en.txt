@@ -1,0 +1,247 @@
+# Windows and File Management
+
+## 1. Introduction
+
+Microsoft Windows is a family of graphical operating systems that manages computer hardware and provides a platform for running applications. For competitive exams (SSC CHSL, CGL, Railway, Bank), the focus is on **stable, version-agnostic concepts** — file systems, navigation, permissions, shortcuts, and basic troubleshooting — rather than features specific to a particular Windows version.
+
+**Key exam-relevant areas:**
+- File system hierarchy (drives, folders, files, paths)
+- File attributes, extensions, and associations
+- Basic operations: create, copy, move, rename, delete, restore
+- Shortcuts (keyboard and UI) — distinguish Windows/Office scope from browser shortcuts
+- Permissions and sharing basics
+- Search, indexing, and common troubleshooting steps
+
+---
+
+## 2. Core Definitions
+
+| Term | Definition |
+|------|------------|
+| **Operating System (OS)** | System software that manages hardware resources and provides services for application software. |
+| **File** | A named collection of data stored on a storage device. Identified by a **filename** and an **extension** (e.g., `report.docx`). |
+| **Folder (Directory)** | A container that organises files and other folders in a hierarchical tree. |
+| **Drive** | A logical storage unit assigned a letter (C:, D:, …). `C:` is typically the system drive. |
+| **Path** | The unique address of a file/folder. **Absolute path** starts from root (e.g., `C:\Users\Amit\Documents\budget.xlsx`). **Relative path** starts from the current folder (e.g., `..\budget.xlsx`). |
+| **File Extension** | Suffix after the last dot indicating file type/format (`.exe`, `.pdf`, `.jpg`). Windows hides known extensions by default — enable "File name extensions" in File Explorer → View. |
+| **File Association** | Mapping between an extension and the default application that opens it. Managed via Settings → Apps → Default apps. |
+| **Shortcut (`.lnk`)** | A pointer file that references another file/folder/application. Deleting a shortcut does **not** delete the target. |
+| **Recycle Bin** | Temporary holding area for deleted files (per drive). Files can be restored until the Bin is emptied or exceeds its size limit. |
+| **File Attributes** | Metadata flags: **Read-only**, **Hidden**, **System**, **Archive**. View/change via Properties → General → Attributes. |
+| **Permissions (NTFS)** | Access control on NTFS volumes: **Full control**, **Modify**, **Read & execute**, **List folder contents**, **Read**, **Write**. Inherited from parent folder unless explicitly changed. |
+| **Share Permissions** | Network-level access (Read/Change/Full Control) applied when a folder is shared. Effective permission = most restrictive of NTFS + Share. |
+| **Environment Variables** | Dynamic values (`%USERPROFILE%`, `%TEMP%`, `%PATH%`) used by the OS and apps. View via `sysdm.cpl` → Advanced → Environment Variables. |
+| **Command Prompt (`cmd.exe`)** | Text-based interpreter for executing commands and scripts. |
+| **PowerShell** | Advanced task-automation shell (cmdlets, pipeline, objects). Built on .NET. |
+| **Run Dialog (`Win+R`)** | Quick launcher for commands (`cmd`, `msconfig`, `control`, `appwiz.cpl`, `cleanmgr`, etc.). |
+
+---
+
+## 3. File System Hierarchy (Typical Windows Layout)
+
+```
+C:\
+├── Windows\              ← OS system files (protected)
+├── Program Files\        ← 64-bit installed applications
+├── Program Files (x86)\  ← 32-bit applications on 64-bit Windows
+├── Users\                ← User profiles
+│   ├── Public\           ← Shared across all users
+│   └── <username>\
+│       ├── Desktop\
+│       ├── Documents\
+│       ├── Downloads\
+│       ├── Pictures\
+│       ├── Videos\
+│       ├── Music\
+│       ├── AppData\      ← Hidden; per-user app data
+│       │   ├── Local\    ← Machine-specific data
+│       │   ├── LocalLow\ ← Low-integrity data
+│       │   └── Roaming\  ← Syncs across domain-joined PCs
+│       └── OneDrive\     ← If configured
+└── PerfLogs\             ← Performance logs
+```
+
+**Exam tip:** Know the default user folders and the purpose of `AppData` subfolders. Questions often ask where application settings are stored (`AppData\Roaming`) or where temporary files go (`%TEMP%` → `C:\Users\<user>\AppData\Local\Temp`).
+
+---
+
+## 4. Essential Keyboard Shortcuts (Windows Scope)
+
+| Shortcut | Action | Scope |
+|----------|--------|-------|
+| `Win` | Open/close Start menu | Windows |
+| `Win + E` | Open File Explorer | Windows |
+| `Win + R` | Open Run dialog | Windows |
+| `Win + D` | Show/hide Desktop (toggle) | Windows |
+| `Win + L` | Lock computer | Windows |
+| `Win + Tab` | Task View (virtual desktops) | Windows |
+| `Win + Ctrl + D` | New virtual desktop | Windows |
+| `Win + Ctrl + F4` | Close current virtual desktop | Windows |
+| `Win + Left/Right` | Snap window to left/right half | Windows |
+| `Win + Up/Down` | Maximize/minimize/restore | Windows |
+| `Win + Shift + S` | Snip & Sketch / Snipping Tool (screenshot region) | Windows |
+| `Win + Pause` | Open Settings → System → About | Windows |
+| `Win + X` | Quick Link menu (Power User menu) | Windows |
+| `Alt + Tab` | Switch between open apps | Windows |
+| `Alt + F4` | Close active window / Shutdown dialog | Windows |
+| `Ctrl + Shift + Esc` | Open Task Manager directly | Windows |
+| `Ctrl + C / X / V` | Copy / Cut / Paste | Universal (Windows + Office + Browser) |
+| `Ctrl + Z / Y` | Undo / Redo | Universal |
+| `Ctrl + A` | Select all | Universal |
+| `Ctrl + S` | Save | Office + many apps |
+| `Ctrl + P` | Print | Universal |
+| `F2` | Rename selected item | File Explorer |
+| `F3` | Search in File Explorer | File Explorer |
+| `F5` | Refresh | File Explorer / Browser |
+| `Ctrl + N` | New window (Explorer) / New document (Office) | Context-dependent |
+| `Ctrl + W` | Close tab (Browser) / Close document (Office) | Context-dependent |
+| `Ctrl + T` | New tab (Browser) | Browser only |
+| `Ctrl + Shift + T` | Reopen closed tab (Browser) | Browser only |
+
+**Distinguish clearly in exams:**
+- `Ctrl + T` / `Ctrl + Shift + T` / `Ctrl + W` → **Browser** (Chrome, Edge, Firefox)
+- `Ctrl + N` → New **File Explorer window** OR New **Office document** (context decides)
+- `Win + E` / `Win + R` / `Win + L` → **Windows OS only**
+
+---
+
+## 5. Worked Examples
+
+### Example 1: Constructing and Interpreting Paths
+**Question:** A user is in `C:\Users\Ravi\Documents\Projects`. What is the relative path to `C:\Users\Ravi\Pictures\photo.jpg`?
+
+**Solution:**  
+From `Projects`, go up two levels to `Ravi` (`..\..`), then down into `Pictures\photo.jpg`.  
+**Relative path:** `..\..\Pictures\photo.jpg`
+
+**Why other options fail:**  
+- `..\Pictures\photo.jpg` → looks inside `Documents\Pictures` (wrong).  
+- `C:\Users\Ravi\Pictures\photo.jpg` → absolute path, not relative.
+
+---
+
+### Example 2: File Extension Visibility
+**Question:** A file appears as `invoice.pdf` in File Explorer (known extension shown). The user renames it to `invoice.pdf`, thinking the file has no extension. Later, the file cannot be opened by Adobe Reader. What is the most likely cause?
+
+**Solution:**  
+"Hide extensions for known file types" was enabled. The original file was actually `invoice.pdf.pdf` (double extension). Because `.pdf` is a known extension, File Explorer displayed it as `invoice.pdf` (hiding the final `.pdf`). When the user renamed it to `invoice.pdf`, the name became `invoice.pdf.pdf` — still a double extension.  
+**Fix:** Enable "File name extensions" in View tab, then rename correctly to `invoice.pdf` (removing the extra `.pdf`).
+
+**Exam trap:** Questions often test whether you know extensions are hidden by default and that renaming without seeing the true extension can create double extensions.
+
+---
+
+### Example 3: Effective Permissions (NTFS + Share)
+**Question:** A folder `Data` on an NTFS volume is shared as `Data$` (hidden share) with **Share Permission: Everyone – Change**. The NTFS permissions for group `Staff` are **Modify**. User `Anita` is a member of `Staff`. What is Anita's effective permission when accessing `\\Server\Data$`?
+
+**Solution:**  
+Effective permission = most restrictive of Share + NTFS.  
+- Share: Change (allows Read, Write, Execute, Delete)  
+- NTFS: Modify (allows Read, Write, Execute, Delete, but not Change Permissions/Take Ownership)  
+**Result:** **Modify** (NTFS is equally or more restrictive here).
+
+**Key rule:** Always compute both; the stricter wins. If Share = Read and NTFS = Modify → effective = Read.
+
+---
+
+### Example 4: Environment Variable Expansion
+**Question:** What does `%USERPROFILE%\AppData\Local\Temp` typically expand to for a user named `Priya` on drive `C:`?
+
+**Solution:**  
+`%USERPROFILE%` → `C:\Users\Priya`  
+Full expansion: `C:\Users\Priya\AppData\Local\Temp`
+
+**Exam use:** Questions ask for the default location of temporary files, or which variable points to the current user's profile (`%USERPROFILE%`), or the system root (`%SYSTEMROOT%` → `C:\Windows`).
+
+---
+
+### Example 5: Recycle Bin Behaviour Across Drives
+**Question:** User deletes a 2 GB file from `D:\Projects\archive.zip`. `D:` is a separate physical drive. The Recycle Bin on `D:` is configured with a maximum size of 1 GB. What happens?
+
+**Solution:**  
+Each drive has its own hidden `$Recycle.Bin` folder. The file is moved to `D:\$Recycle.Bin\<SID>\...`. Since the file (2 GB) exceeds the Bin's max size (1 GB), Windows **prompts for permanent deletion** (bypassing Recycle Bin). If the user confirms, the file is permanently deleted — not stored in Recycle Bin.
+
+**Common mistake:** Assuming Recycle Bin is a single global folder with one size limit. It is per-drive.
+
+---
+
+### Example 6: Command-Line File Operations
+**Question:** Which command copies all `.txt` files from `C:\Source` to `D:\Backup` preserving directory structure, including subfolders, and shows progress?
+
+**Solution:**  
+`robocopy C:\Source D:\Backup *.txt /S /E /ETA`  
+- `/S` = copy subdirectories (non-empty)  
+- `/E` = copy subdirectories including empty ones  
+- `/ETA` = show estimated time of arrival (progress)
+
+**Why not `xcopy`?** `robocopy` is more robust (retry on failure, resume, multi-threaded with `/MT`). `copy` and `xcopy` are legacy; `robocopy` is the recommended tool (built-in since Windows Vista/Server 2008).
+
+---
+
+## 6. Common Errors & Exam Traps
+
+| # | Error / Misconception | Correct Understanding |
+|---|------------------------|------------------------|
+| 1 | "Deleting a shortcut deletes the original file." | Shortcut (`.lnk`) is only a pointer. Target remains untouched. |
+| 2 | "File extension determines file content." | Extension is a hint; actual format is defined by file header/magic bytes. Renaming `.exe` to `.jpg` does not make it an image. |
+| 3 | "Hidden files are protected from deletion." | Hidden (`+H`) attribute only hides from default view. They can be deleted like any file if permissions allow. |
+| 4 | "Read-only attribute on a folder prevents file creation inside." | On folders, Read-only is ignored by Windows Explorer for file creation; it only affects customisation (icon, etc.). Use NTFS permissions to restrict writes. |
+| 5 | "Share permissions apply to local users." | Share permissions **only** apply over the network. Local logons use NTFS permissions exclusively. |
+| 6 | "`Ctrl + C` / `Ctrl + V` works the same in Command Prompt." | In `cmd.exe` (default), `Ctrl + C` = cancel command, `Ctrl + V` = paste only if "Enable Ctrl key shortcuts" is ON (Properties → Options). In PowerShell / Windows Terminal, they work as copy/paste. |
+| 7 | "`%TEMP%` and `%TMP%` always point to the same folder." | Usually yes, but they are separate variables; some apps use one, some the other. Both expand to per-user temp folder. |
+| 8 | "Quick Access in File Explorer is a physical folder." | Quick Access is a **virtual view** (pinned + frequent folders). Pinning does not move or copy the folder. |
+| 9 | "OneDrive files are always stored locally." | With "Files On-Demand" (default), files show in Explorer but are **cloud-only** (cloud icon) until opened. Right-click → "Always keep on this device" downloads them. |
+| 10 | "System Restore backs up personal files." | System Restore only affects **system files, registry, installed programs**. Personal files (Documents, Pictures) are **not** touched. Use File History or Backup for personal data. |
+
+---
+
+## 7. Quick Reference: Run Commands (Win+R)
+
+| Command | Opens |
+|---------|-------|
+| `cmd` | Command Prompt |
+| `powershell` | PowerShell |
+| `control` | Control Panel |
+| `appwiz.cpl` | Programs and Features (Uninstall) |
+| `sysdm.cpl` | System Properties (Advanced → Environment Variables) |
+| `cleanmgr` | Disk Cleanup |
+| `diskmgmt.msc` | Disk Management |
+| `compmgmt.msc` | Computer Management |
+| `eventvwr.msc` | Event Viewer |
+| `services.msc` | Services |
+| `msconfig` | System Configuration |
+| `regedit` | Registry Editor (⚠️ caution) |
+| `gpedit.msc` | Local Group Policy Editor (Pro/Enterprise only) |
+| `lusrmgr.msc` | Local Users and Groups |
+| `firewall.cpl` | Windows Defender Firewall |
+| `ncpa.cpl` | Network Connections |
+| `inetcpl.cpl` | Internet Options |
+| `main.cpl` | Mouse Properties |
+| `desk.cpl` | Display Settings (Screen Resolution) |
+| `timedate.cpl` | Date and Time |
+| `intl.cpl` | Region / Language |
+| `mstsc` | Remote Desktop Connection |
+| `snippingtool` | Snipping Tool |
+| `notepad` | Notepad |
+| `calc` | Calculator |
+| `explorer` | File Explorer (same as `Win+E`) |
+
+---
+
+## 8. Summary Checklist for Revision
+
+- [ ] Drive letters, root, absolute vs relative paths
+- [ ] File extensions: hidden by default, double-extension trap
+- [ ] User profile folders (`Desktop`, `Documents`, `AppData\Local\Roaming\LocalLow`)
+- [ ] NTFS vs Share permissions — effective = most restrictive
+- [ ] Recycle Bin is per-drive; size limit triggers permanent-delete prompt
+- [ ] Shortcuts (`.lnk`) vs original files
+- [ ] Keyboard shortcuts: **Windows scope** (`Win+E`, `Win+R`, `Win+L`) vs **Browser scope** (`Ctrl+T`, `Ctrl+Shift+T`)
+- [ ] Environment variables: `%USERPROFILE%`, `%TEMP%`, `%SYSTEMROOT%`, `%PATH%`
+- [ ] `robocopy` for robust copying; `xcopy`/`copy` are legacy
+- [ ] System Restore ≠ personal file backup
+- [ ] Run commands (`Win+R`) for quick access to admin tools
+
+---
+
+**Sources:** Microsoft Learn (Windows fundamentals, File Explorer, NTFS permissions, Robocopy, Environment variables), CERT-In advisories (safe file handling), RBI cyber-security guidelines (basic OS hygiene). All concepts are version-stable and applicable to modern Windows client and server editions.

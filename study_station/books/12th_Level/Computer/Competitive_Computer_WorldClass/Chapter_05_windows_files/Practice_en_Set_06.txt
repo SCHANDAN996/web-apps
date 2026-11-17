@@ -1,0 +1,149 @@
+126. Which keyboard shortcut opens File Explorer in Windows 10 and Windows 11?
+(a) Ctrl + E (b) Shift + E (c) Alt + E (d) Win + E
+Answer: (d)
+Solution: Ctrl + E focuses the search/address bar inside an already-open Explorer window, while Win + E launches a new File Explorer window from anywhere in Windows. So the correct shortcut is Win + E.
+Source: Microsoft Learn — Windows keyboard shortcuts
+
+127. In File Explorer, which view layout shows large icons with file names below each icon and is best for previewing photos?
+(a) Large icons (b) List (c) Details (d) Content
+Answer: (a)
+Solution: Details view shows columns (Name, Date, Size); List view shows small icons in columns; Content view shows a medium icon with a snippet of metadata. Large icons displays big thumbnails ideal for photos. So the answer is Large icons.
+Source: Microsoft Support — Change the view of files in File Explorer
+
+128. What happens when you press Delete on a file stored on an internal NTFS drive in Windows?
+(a) The file moves to the Recycle Bin (b) The file is permanently erased immediately (c) The file is compressed and hidden (d) The file is moved to a temporary folder
+Answer: (a)
+Solution: Many users think Delete erases permanently, but on internal NTFS volumes Windows sends the file to the Recycle Bin unless Shift + Delete is used. So the file moves to the Recycle Bin.
+Source: Microsoft Support — Recycle Bin in Windows
+
+129. Which key combination permanently deletes a selected file bypassing the Recycle Bin?
+(a) Shift + Delete (b) Alt + Delete (c) Ctrl + Delete (d) Win + Delete
+Answer: (a)
+Solution: Ctrl + Delete and Alt + Delete have other system functions; Shift + Delete is the documented shortcut to delete immediately without placing the file in the Recycle Bin. So the combination is Shift + Delete.
+Source: Microsoft Learn — Windows keyboard shortcuts
+
+130. To rename a single file in File Explorer, which method is the standard keyboard shortcut after selecting the file?
+(a) Enter (b) F3 (c) F5 (d) F2
+Answer: (d)
+Solution: F3 opens search, F5 refreshes the view, and Enter opens the file. F2 is the dedicated rename shortcut in Windows Explorer. So the shortcut is F2.
+Source: Microsoft Learn — File Explorer keyboard shortcuts
+
+131. Which file attribute, when set, prevents a file from being modified or deleted accidentally but still allows reading?
+(a) Hidden (b) System (c) Archive (d) Read-only
+Answer: (d)
+Solution: Hidden and System attributes mainly affect visibility; Archive is used by backup software. Read-only explicitly tells applications not to write to the file. So the attribute is Read-only.
+Source: Microsoft Learn — File attributes
+
+132. In Windows, a file with the extension .zip is by default associated with which built-in feature?
+(a) Windows Media Player (b) Compressed Folder Tools (c) Notepad (d) Paint
+Answer: (b)
+Solution: .zip files open as compressed folders using the built-in Compressed Folder Tools; they are not media, text, or image files by default. So the association is Compressed Folder Tools.
+Source: Microsoft Support — Zip and unzip files
+
+133. When you drag a file from one folder to another on the same NTFS drive while holding the Ctrl key, what operation occurs?
+(a) Move (b) Create shortcut (c) Copy (d) Delete
+Answer: (c)
+Solution: Without a modifier, drag-and-drop on the same drive moves the file; holding Ctrl forces a copy. Many users forget the modifier and unintentionally move the file. So the operation is Copy.
+Source: Microsoft Support — Copy or move files and folders
+
+134. Which keyboard shortcut selects all items in the current File Explorer window?
+(a) Ctrl + S (b) Ctrl + A (c) Ctrl + C (d) Ctrl + V
+Answer: (b)
+Solution: Ctrl + S saves in applications, Ctrl + C copies, Ctrl + V pastes. Ctrl + A is the universal Select All shortcut in Windows Explorer. So the shortcut is Ctrl + A.
+Source: Microsoft Learn — Windows keyboard shortcuts
+
+135. The Quick Access area in File Explorer primarily shows which two types of items?
+(a) Installed apps and settings (b) System files and hidden folders (c) Network drives and printers (d) Recent files and frequent folders
+Answer: (d)
+Solution: Quick Access is designed for productivity, pinning frequent folders and listing recent files; it does not show system internals, network devices, or apps by default. So it shows recent files and frequent folders.
+Source: Microsoft Support — Quick Access in File Explorer
+
+136. To create a new folder in the current File Explorer location using only the keyboard, which shortcut is used?
+(a) Ctrl + Shift + N (b) Ctrl + N (c) Alt + N (d) Shift + N
+Answer: (a)
+Solution: Ctrl + N opens a new Explorer window; Ctrl + Shift + N creates a new folder inside the current window. So the shortcut is Ctrl + Shift + N.
+Source: Microsoft Learn — File Explorer keyboard shortcuts
+
+137. Which view in File Explorer displays file metadata such as Date modified, Type, and Size in columns?
+(a) Details (b) Tiles (c) Content (d) Medium icons
+Answer: (a)
+Solution: Tiles and Medium icons show icons with limited info; Content shows a single column with some metadata. Details view presents a full tabular layout with sortable columns. So the view is Details.
+Source: Microsoft Support — Change the view of files in File Explorer
+
+138. What is the default location of the Downloads folder for a standard user account in Windows 10/11?
+(a) C:\Users\Public\Downloads (b) C:\Downloads (c) C:\Users\<username>\Downloads (d) C:\Windows\Downloads
+Answer: (c)
+Solution: Each user profile has its own Downloads folder under the user profile directory; Public and root locations are not the default per-user path. So the location is C:\Users\<username>\Downloads.
+Source: Microsoft Learn — User profile folders
+
+139. Which file system feature allows a single file to have multiple directory entries (names) on the same NTFS volume without duplicating data?
+(a) Shortcut (.lnk) (b) Hard link (c) Symbolic link (d) Junction
+Answer: (b)
+Solution: Shortcuts are shell objects, not filesystem links; symbolic links and junctions point to paths and can cross volumes. A hard link is an additional directory entry for the same file data on the same NTFS volume. So the feature is Hard link.
+Source: Microsoft Learn — Hard links and junctions
+
+140. In File Explorer search box, typing "kind:document" filters results to show only which type of items?
+(a) Folders (b) Applications (c) Images (d) Documents
+Answer: (d)
+Solution: The kind: filter uses Windows Search properties; kind:document matches files classified as documents (Word, PDF, text, etc.). It does not match folders, images, or executables. So the filter shows Documents.
+Source: Microsoft Support — Advanced Query Syntax
+
+141. When you right-drag a file to another folder on the same drive and release, what menu appears?
+(a) Open, Edit, Print, Delete (b) Copy here, Move here, Create shortcuts here, Cancel (c) Send to, Share, Properties (d) Cut, Copy, Paste, Undo
+Answer: (b)
+Solution: Right-drag displays a context menu offering Copy here, Move here, Create shortcuts here, and Cancel, letting the user choose the operation explicitly. So the menu shows Copy here, Move here, Create shortcuts here, Cancel.
+Source: Microsoft Support — Right-drag behavior
+
+142. Which keyboard shortcut opens the Properties dialog for a selected file or folder in File Explorer?
+(a) Alt + Enter (b) Ctrl + Enter (c) Shift + Enter (d) Win + Enter
+Answer: (a)
+Solution: Ctrl + Enter and Shift + Enter have no standard function on a selection; Win + Enter opens Narrator. Alt + Enter is the long-standing shortcut for Properties. So the shortcut is Alt + Enter.
+Source: Microsoft Learn — File Explorer keyboard shortcuts
+
+143. The "Previous Versions" tab in a folder's Properties dialog relies on which Windows feature to restore older copies of files?
+(a) System Restore (b) File History (c) Volume Shadow Copy Service (d) Backup and Restore (Windows 7)
+Answer: (c)
+Solution: System Restore protects system files, File History and Backup are user-configured backup solutions. The Previous Versions tab reads snapshots created by Volume Shadow Copy Service (VSS). So the underlying feature is Volume Shadow Copy Service.
+Source: Microsoft Learn — Volume Shadow Copy Service
+
+144. Which command in Command Prompt (cmd.exe) creates a new directory named "Data" in the current path?
+(a) rd Data (b) cd Data (c) md Data (d) dir Data
+Answer: (c)
+Solution: cd changes directory, rd removes directory, dir lists contents. md (or mkdir) makes a new directory. So the command is md Data.
+Source: Microsoft Learn — Windows commands: mkdir
+
+145. In Windows 10/11, which setting controls whether file extensions are shown in File Explorer?
+(a) View → Preview pane (b) View → Details pane (c) View → Options → View → Hide extensions for known file types (d) View → Navigation pane
+Answer: (c)
+Solution: The checkbox "Hide extensions for known file types" under Folder Options → View tab toggles extension visibility; the other panes control metadata preview or navigation tree. So the setting is Hide extensions for known file types.
+Source: Microsoft Support — Show or hide file name extensions
+
+146. A user wants to compress a 4 GB folder to fit on a FAT32 USB drive (max file size 4 GB). Which built-in Windows method can split the archive into multiple parts automatically?
+(a) Send to → Compressed (zipped) folder (b) Right-click → 7-Zip → Add to archive (c) None of the above (d) Compact OS
+Answer: (c)
+Solution: The built-in zip tool creates a single .zip file and cannot split archives; 7-Zip is third-party; Compact OS compresses system files. Windows has no native multi-part archive creator. So none of the above built-in methods can do this.
+Source: Microsoft Support — Zip and unzip files
+
+147. Which File Explorer ribbon tab contains the "Select all", "Invert selection", and "Select none" commands in Windows 10/11?
+(a) Home (b) Share (c) View (d) File
+Answer: (a)
+Solution: The Home tab groups clipboard, organize, new, and selection commands; Share tab handles sharing; View tab controls layout; File menu opens options. So the tab is Home.
+Source: Microsoft Support — File Explorer ribbon
+
+148. When a file is dragged from an NTFS drive to a FAT32 USB drive, what operation occurs by default?
+(a) Move (b) Copy (c) Create shortcut (d) Link
+Answer: (b)
+Solution: Drag-and-drop between different volumes always copies by default; the user must hold Shift to move. Many users expect a move and are surprised the original remains. So the default operation is Copy.
+Source: Microsoft Support — Copy or move files and folders
+
+149. The "Compact OS" feature in Windows 10/11 is designed to:
+(a) Compress user documents to save space (b) Enable NTFS compression on the entire drive (c) Create compressed archives of selected folders (d) Compress system files and Windows Store apps to reduce footprint
+Answer: (d)
+Solution: Compact OS targets OS binaries and modern apps, not user data; it is not a folder archiver nor a full-drive NTFS compression toggle. So it compresses system files and Windows Store apps.
+Source: Microsoft Learn — Compact OS
+
+150. A user enables "File and printer sharing" in Network and Sharing Center but cannot access a shared folder from another PC. Which additional Windows component must be allowed through Windows Defender Firewall for SMB traffic?
+(a) Network Discovery (b) File and Printer Sharing (SMB-In) (c) Remote Desktop (d) Windows Management Instrumentation (WMI-In)
+Answer: (b)
+Solution: Network Discovery helps find devices but does not open the SMB ports; Remote Desktop uses RDP; WMI is for management. The firewall rule "File and Printer Sharing (SMB-In)" explicitly allows inbound SMB/TCP 445. So the rule is File and Printer Sharing (SMB-In).
+Source: Microsoft Learn — File and printer sharing firewall rules
