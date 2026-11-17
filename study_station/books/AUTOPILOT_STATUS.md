@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 17-11-2026 06:49 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:33 PM
+**आख़िरी update:** 17-11-2026 07:04 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:33 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 16 मिनट |
-| W2 | Chapter 02 shabd bhed (10th Hindi) | 🔎 review हो रहा है | 15 मिनट |
-| W3 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 15 मिनट |
-| W4 | Chapter 04 visheshan kriya (10th Hindi) | ✍️ लिख रहा है | 15 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
+| W2 | Chapter 02 shabd bhed (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
+| W3 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
+| W4 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 1 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 11 |
-| key 4 | 9 |
+| key 3 | 17 |
+| key 4 | 19 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -44,6 +44,10 @@
 
 - अभी कोई नहीं
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 04 visheshan kriya (Hindi) — 1 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
@@ -65,4 +69,17 @@
 17-11 18:42:23   [varn_vartani] Practice_hi_Set_01.txt try 2: rejected (Q17:duplicate_options,Q22:duplicate_options,Q23:duplicate_options)
 17-11 18:43:03   [visheshan_kriya] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q46 key c vs re-solve b)
 17-11 18:43:56   [shabd_bhed] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 18: 'आम्र' is incorrectly listed as a feminine (स्त्रीलिंग) noun; 'आम्र' is a San
+17-11 18:51:17   [visheshan_kriya] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q48 key c vs re-solve d)
+17-11 18:51:17   [visheshan_kriya] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
+17-11 18:53:24   [visheshan_kriya] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q93 key a vs re-solve d, Q94 key c vs re-solve d)
+17-11 18:57:28   [varn_vartani] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q2 key b vs re-solve ?, Q10 key b vs re-solve a, Q11 key a vs re-solve b, Q18 key d vs re-solve c)
+17-11 18:58:23   [visheshan_kriya] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q91 key d vs re-solve c)
+17-11 19:00:35   [visheshan_kriya] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q91 key d vs re-solve a)
+17-11 19:01:04   [shabd_bhed] review Flashcards_hi.txt: 5 issue(s): - Card 8: Feminine examples 'पेड़ी' and 'कमरी' are not standard Hindi feminine forms → Use correct feminine noun
+17-11 19:02:00   [sangya_sarvanam] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q8 key c vs re-solve d)
+17-11 19:03:05   [visheshan_kriya] wrote Practice_hi_Set_04.txt (write, 25 MCQs)
+17-11 19:03:05   [visheshan_kriya] written 1, failed 1; AI calls today 36/100000
+17-11 19:03:06 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 30 min: todo ['Set 02 hi: todo'] problems []
+17-11 19:03:06 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os (OK: todo 0, problems 0)
+17-11 19:04:43   [sangya_sarvanam] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q8 key a vs re-solve d)
 ```
