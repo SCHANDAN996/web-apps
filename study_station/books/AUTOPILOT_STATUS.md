@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (three-chapters)
 
-**आख़िरी update:** 17-11-2026 08:19 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:31 AM
+**आख़िरी update:** 17-11-2026 08:34 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:31 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 14 मिनट |
-| W2 | Chapter 04 visheshan kriya (10th Hindi) | ✍️ लिख रहा है | 16 मिनट |
-| W3 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 27 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 30 मिनट |
+| W2 | Chapter 04 visheshan kriya (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
+| W3 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 9 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -42,26 +42,12 @@
 
 - Chapter 02 shabd bhed (Hindi) — 4 बार
 - Chapter 01 varn vartani (Hindi) — 3 बार
-- Chapter 03 sangya sarvanam (Hindi) — 2 बार
+- Chapter 03 sangya sarvanam (Hindi) — 3 बार
 - Chapter 04 visheshan kriya (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 08:02:39 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 51 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo'] problems []
-17-11 08:02:40 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya (TODO: todo 6, problems 0)
-17-11 08:02:50   [varn_vartani] Practice_hi_Set_05.txt try 3: rejected (Q101: tested Hindi text must be explicitly quoted; Q104: tested Hindi text must be explicitly quoted; Q105: te
-17-11 08:03:22   [visheshan_kriya] Practice_en_Set_01.txt try 1: rejected (Q22:duplicate_options)
-17-11 08:03:43   [sangya_sarvanam] Practice_hi_Set_02.txt try 3: rejected (Q32: tested Hindi text changed between languages; Q48: tested Hindi text changed between languages)
-17-11 08:04:12   [varn_vartani] Practice_hi_Set_05.txt try 4: rejected (parsed 0 questions, numbers -…-)
-17-11 08:04:12   [varn_vartani] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
-17-11 08:04:12   [varn_vartani] written 0, failed 4; AI calls today 175/100000
-17-11 08:04:12 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 31 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo'] problems []
-17-11 08:04:13 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (TODO: todo 4, problems 0)
-17-11 08:04:56   [sangya_sarvanam] Practice_hi_Set_02.txt try 4: rejected (Q32: tested Hindi text changed between languages; Q48: tested Hindi text changed between languages)
-17-11 08:04:56   [sangya_sarvanam] REJECTED Practice_hi_Set_02.txt: no translation passed the checks — not written
-17-11 08:05:41   [varn_vartani] Practice_hi_Set_01.txt try 1: rejected (Q3: tested Hindi text must be explicitly quoted)
-17-11 08:06:08   [visheshan_kriya] Practice_en_Set_01.txt try 2: re-solve disagrees (Q7 key d vs re-solve c)
 17-11 08:06:40   [varn_vartani] Practice_hi_Set_01.txt try 2: rejected (Q3: tested Hindi text must be explicitly quoted; Q21: Hindi subject options changed between languages; Q22: Hi
 17-11 08:07:44   [varn_vartani] Practice_hi_Set_01.txt try 3: rejected (Q3: tested Hindi text must be explicitly quoted; Q21: Hindi subject options changed between languages; Q22: Hi
 17-11 08:09:11   [sangya_sarvanam] Practice_hi_Set_05.txt try 1: rejected (Q102: tested Hindi text must be explicitly quoted; Q103: tested Hindi text must be explicitly quoted; Q109: te
@@ -88,4 +74,18 @@
 17-11 08:19:14   [varn_vartani] Practice_hi_Set_03.txt try 1: rejected (Q52: tested Hindi text must be explicitly quoted)
 17-11 08:19:22   [visheshan_kriya] Practice_hi_Set_02.txt try 4: rejected (Q27: tested Hindi text must be explicitly quoted; Q30: tested Hindi text must be explicitly quoted; Q36: teste
 17-11 08:19:22   [visheshan_kriya] REJECTED Practice_hi_Set_02.txt: no translation passed the checks — not written
+17-11 08:20:34   [visheshan_kriya] Practice_hi_Set_03.txt try 1: rejected (Q54: Hindi subject options changed between languages; Q55: Hindi subject options changed between languages; Q5
+17-11 08:21:42   [visheshan_kriya] Practice_hi_Set_03.txt try 2: rejected (Q54: Hindi subject options changed between languages; Q55: Hindi subject options changed between languages; Q5
+17-11 08:21:47   [sangya_sarvanam] Practice_hi_Set_06.txt try 3: rejected (Q136: tested Hindi text must be explicitly quoted; Q137: tested Hindi text must be explicitly quoted; Q138: te
+17-11 08:22:13   [visheshan_kriya] Practice_hi_Set_03.txt try 3: rejected (Q54: Hindi subject options changed between languages; Q55: Hindi subject options changed between languages; Q5
+17-11 08:22:54   [varn_vartani] Practice_hi_Set_03.txt try 2: rejected (Q52: tested Hindi text must be explicitly quoted)
+17-11 08:23:19   [visheshan_kriya] Practice_hi_Set_03.txt try 4: rejected (Q53: tested Hindi text changed between languages; Q56: tested Hindi text changed between languages; Q65: teste
+17-11 08:23:19   [visheshan_kriya] REJECTED Practice_hi_Set_03.txt: no translation passed the checks — not written
+17-11 08:23:44   [visheshan_kriya] Practice_hi_Set_04.txt try 1: rejected (Q80: Hindi subject options changed between languages; Q84: Hindi subject options changed between languages; Q8
+17-11 08:24:14   [visheshan_kriya] Practice_hi_Set_04.txt try 2: rejected (Q80: Hindi subject options changed between languages; Q84: Hindi subject options changed between languages; Q8
+17-11 08:25:12   [sangya_sarvanam] Practice_hi_Set_06.txt try 4: rejected (Q136: tested Hindi text must be explicitly quoted; Q137: tested Hindi text must be explicitly quoted; Q138: te
+17-11 08:25:12   [sangya_sarvanam] REJECTED Practice_hi_Set_06.txt: no translation passed the checks — not written
+17-11 08:25:12   [sangya_sarvanam] written 0, failed 4; AI calls today 211/100000
+17-11 08:25:12 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 34 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 05 hi: todo', 'Set 06 hi: todo'] problems []
+17-11 08:25:12 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (TODO: todo 4, problems 0)
 ```
