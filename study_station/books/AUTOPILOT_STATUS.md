@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (three-chapters)
 
-**आख़िरी update:** 17-11-2026 11:38 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:31 AM
+**आख़िरी update:** 17-11-2026 11:53 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:31 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W2 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 115 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -45,21 +43,11 @@
 - Chapter 04 software os (Computer) — 4 बार
 - Chapter 05 ling vachan karak (Hindi) — 1 बार
 - Chapter 05 windows files (Computer) — 1 बार
+- Chapter 06 kaal vachya (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 10:39:36 worker 2: nothing left
-17-11 10:40:43   [windows_files] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-17-11 10:41:34   [windows_files] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-17-11 10:43:18   [windows_files] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-17-11 10:43:57   [windows_files] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-17-11 10:43:57   [windows_files] written 25, failed 0; AI calls today 419/100000
-17-11 10:44:54   [kaal_vachya] Practice_en_Set_03.txt try 2: re-solve disagrees (Q58 key b vs re-solve c, Q73 key a vs re-solve c, Q74 key d vs re-solve b)
-17-11 10:46:06   [windows_files] review Content_hi.txt: 2 issue(s): - Section 2.3 lists "मैनेज टैब" as a permanent ribbon tab → "Manage" is a contextual tab (appears only for specific
-17-11 10:47:26   [windows_files] REJECTED review fix Content_hi.txt: reviewer still reports - परिचय में दावा है कि अध्याय किसी विशेष संस्करण (Windows 10/11) के फीचर नहीं कवर करता, लेक
-17-11 10:48:09   [windows_files] review Key_Facts_en.txt: 3 issue(s): - Point 6: "max 255 characters (path + name)" is incorrect; the maximum length for a single file/folder name is 2
-17-11 10:49:43   [windows_files] review Feynman_en.txt: 1 issue(s): - Hidden files (starting with `.` or marked Hidden attribute) is incorrect for Windows → Windows does not hide file
 17-11 10:50:51   [kaal_vachya] Practice_en_Set_03.txt try 3: re-solve disagrees (Q61 key a vs re-solve ?, Q64 key d vs re-solve c, Q73 key b vs re-solve c, Q74 key c vs re-solve a)
 17-11 10:51:29   [windows_files] REJECTED review fix Feynman_en.txt: reviewer still reports - The search filter example 'type:pdf' is incorrect; Windows Search uses 'ext:pdf' or 'file
 17-11 10:52:21   [windows_files] review Flashcards_en.txt: 1 issue(s): - Card 15: FAT32 max volume listed as 2 TB (Windows format limit) → Windows format limit for FAT32 is 32 GB; the
@@ -89,4 +77,15 @@
 17-11 11:28:54   [kaal_vachya] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
 17-11 11:28:54   [kaal_vachya] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
 17-11 11:35:09   [kaal_vachya] Practice_en_Set_06.txt try 1: re-solve disagrees (Q132 key b vs re-solve d, Q136 key a vs re-solve ?, Q137 key b vs re-solve a, Q140 key b vs re-solve
+17-11 11:40:43   [kaal_vachya] Practice_en_Set_06.txt try 2: re-solve disagrees (Q147 key c vs re-solve a)
+17-11 11:42:59   [kaal_vachya] Practice_en_Set_06.txt try 3: re-solve disagrees (Q147 key c vs re-solve a)
+17-11 11:47:25   [kaal_vachya] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+17-11 11:48:14   [kaal_vachya] Practice_hi_Set_06.txt try 1: rejected (Q126: Hindi subject options changed between languages; Q127: tested Hindi text must be explicitly quoted; Q128
+17-11 11:49:11   [kaal_vachya] Practice_hi_Set_06.txt try 2: rejected (Q126: Hindi subject options changed between languages; Q127: tested Hindi text must be explicitly quoted; Q128
+17-11 11:49:56   [kaal_vachya] Practice_hi_Set_06.txt try 3: rejected (Q127: tested Hindi text must be explicitly quoted; Q130: tested Hindi text must be explicitly quoted; Q133: te
+17-11 11:50:53   [kaal_vachya] Practice_hi_Set_06.txt try 4: rejected (Q127: tested Hindi text must be explicitly quoted; Q130: tested Hindi text must be explicitly quoted; Q131: te
+17-11 11:50:53   [kaal_vachya] REJECTED Practice_hi_Set_06.txt: no translation passed the checks — not written
+17-11 11:50:53   [kaal_vachya] written 15, failed 10; AI calls today 478/100000
+17-11 11:50:54 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya after 128 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 02 en: todo', 'Set 02 hi: todo'] problems []
+17-11 11:50:54 worker 1: nothing left
 ```
