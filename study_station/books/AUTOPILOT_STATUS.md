@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 17-11-2026 11:24 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:33 PM
+**आख़िरी update:** 17-11-2026 11:40 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:33 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 115 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 79 मिनट |
-| W3 | Chapter 06 keyboard shortcuts (12th Computer) | ✍️ लिख रहा है | 136 मिनट |
-| W4 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 141 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 130 मिनट |
+| W3 | Chapter 06 keyboard shortcuts (12th Computer) | ✍️ लिख रहा है | 151 मिनट |
+| W4 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 156 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 120 |
-| key 4 | 161 |
+| key 3 | 122 |
+| key 4 | 171 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -47,7 +46,7 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 04 visheshan kriya (Hindi) — 2 बार
-- Chapter 03 sangya sarvanam (Hindi) — 2 बार
+- Chapter 03 sangya sarvanam (Hindi) — 3 बार
 - Chapter 04 software os (Computer) — 2 बार
 - Chapter 05 windows files (Computer) — 2 बार
 - Chapter 05 ling vachan karak (Hindi) — 1 बार
@@ -56,16 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 21:43:08   [windows_files] REJECTED review fix PYQ_en.txt: reviewer still reports - In "Typical Question Stems & Traps", the claim that `move` fails for directories across volum
-17-11 21:44:40   [windows_files] review PYQ_hi.txt: 2 issue(s): - "स्कोप भ्रम" trap example states "फाइल एक्सप्लोरर में Ctrl+T कुछ नहीं करता" → In Windows 11, File Explorer supports t
-17-11 21:48:50   [windows_files] REJECTED review fix PYQ_hi.txt: reviewer still reports - PYQ-style 10 option (c) shows Windows 10 path (Win+I → Update & Security → Windows Update) bu
-17-11 21:50:38   [windows_files] review Important_Rules_en.txt: 1 issue(s): - Rule 9 example for adding a folder to File History is incorrect → The correct method: In File History (Co
-17-11 21:52:53   [windows_files] review: 2 section(s) corrected, 4 failed
-17-11 21:52:53   [windows_files] written 2, failed 4; AI calls today 236/100000
-17-11 21:52:53 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_05_windows_files after 53 min: todo [] problems []
-17-11 21:52:53 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_02_shabd_bhed (OK: todo 0, problems 0)
-17-11 21:54:34   [kaal_vachya] wrote Practice_hi_Set_03.txt (write, 25 MCQs)
-17-11 21:54:50   [varn_vartani] Practice_hi_Set_01.txt try 1: rejected (parsed 24 questions, numbers 1…25)
 17-11 21:55:57   [keyboard_shortcuts] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 17-11 21:56:38   [varn_vartani] Practice_hi_Set_01.txt try 2: rejected (parsed 24 questions, numbers 1…25)
 17-11 21:58:20   [shabd_bhed] review Flashcards_hi.txt: 1 issue(s): - Card 9: The rule “आकारांत स्त्रीलिंग में ‘एँ’ जुड़ता है” is illustrated with “लड़की → लड़कियाँ”, but “लड़की” e
@@ -96,4 +85,14 @@
 17-11 22:40:00   [kaal_vachya] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q103 key d vs re-solve c, Q112 key c vs re-solve b, Q114 key b vs re-solve d, Q117 key b vs re-solve
 17-11 22:46:37   [varn_vartani] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q52 key d vs re-solve c, Q62 key b vs re-solve d, Q69 key d vs re-solve a, Q72 key b vs re-solve d, 
 17-11 23:21:40   [kaal_vachya] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q103 key d vs re-solve c, Q117 key c vs re-solve b, Q119 key a vs re-solve c, Q121 key b vs re-solve
+17-11 23:27:50   [sangya_sarvanam] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q13 key c vs re-solve a)
+17-11 23:27:50   [sangya_sarvanam] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
+17-11 23:27:50   [sangya_sarvanam] written 0, failed 1; AI calls today 285/100000
+17-11 23:27:50 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 82 min: todo ['Set 01 hi: todo'] problems []
+17-11 23:27:50 worker 1: nothing left
+17-11 23:31:55   [keyboard_shortcuts] Practice_en_Set_04.txt try 1: re-solve disagrees (Q85 key b vs re-solve ?, Q88 key c vs re-solve ?, Q95 key a vs re-solve ?, Q96 key d vs re-solve ?)
+17-11 23:34:07   [keyboard_shortcuts] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+17-11 23:35:37   [keyboard_shortcuts] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+17-11 23:38:13   [keyboard_shortcuts] Practice_en_Set_05.txt try 1: rejected (parsed 24 questions, numbers 101…124)
+17-11 23:38:41   [kaal_vachya] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q113 key c vs re-solve a, Q115 key a vs re-solve c, Q117 key a vs re-solve b)
 ```
