@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 17-11-2026 11:09 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:33 PM
+**आख़िरी update:** 17-11-2026 11:24 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:33 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 99 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 63 मिनट |
-| W3 | Chapter 06 keyboard shortcuts (12th Computer) | ✍️ लिख रहा है | 121 मिनट |
-| W4 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 125 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 115 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 79 मिनट |
+| W3 | Chapter 06 keyboard shortcuts (12th Computer) | ✍️ लिख रहा है | 136 मिनट |
+| W4 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 141 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 119 |
-| key 4 | 160 |
+| key 3 | 120 |
+| key 4 | 161 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -56,7 +56,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 21:42:29   [keyboard_shortcuts] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 17-11 21:43:08   [windows_files] REJECTED review fix PYQ_en.txt: reviewer still reports - In "Typical Question Stems & Traps", the claim that `move` fails for directories across volum
 17-11 21:44:40   [windows_files] review PYQ_hi.txt: 2 issue(s): - "स्कोप भ्रम" trap example states "फाइल एक्सप्लोरर में Ctrl+T कुछ नहीं करता" → In Windows 11, File Explorer supports t
 17-11 21:48:50   [windows_files] REJECTED review fix PYQ_hi.txt: reviewer still reports - PYQ-style 10 option (c) shows Windows 10 path (Win+I → Update & Security → Windows Update) bu
@@ -96,4 +95,5 @@
 17-11 22:35:30   [varn_vartani] Practice_hi_Set_03.txt try 1: rejected (Q51:duplicate_options,Q65:duplicate_options,Q74:duplicate_options)
 17-11 22:40:00   [kaal_vachya] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q103 key d vs re-solve c, Q112 key c vs re-solve b, Q114 key b vs re-solve d, Q117 key b vs re-solve
 17-11 22:46:37   [varn_vartani] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q52 key d vs re-solve c, Q62 key b vs re-solve d, Q69 key d vs re-solve a, Q72 key b vs re-solve d, 
+17-11 23:21:40   [kaal_vachya] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q103 key d vs re-solve c, Q117 key c vs re-solve b, Q119 key a vs re-solve c, Q121 key b vs re-solve
 ```
