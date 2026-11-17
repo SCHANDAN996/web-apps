@@ -8,6 +8,28 @@ INTRO = 'You are writing the chapter "States & Rivers" for 10th-level learners.'
 BODY = 'राज्य और नदियों (States & Rivers) का पूरा पाठ। ' * 40
 
 
+def test_legacy_autopilot_rollover_preserves_work_and_ignores_new_or_manual_runs(tmp_path, monkeypatch):
+    state = tmp_path / 'autopilot'
+    state.mkdir()
+    (state / 'state.json').write_text('{}')
+    source = state / 'unfinished.txt'
+    source.write_text('saved Hindi work')
+    monkeypatch.setenv('BOOKGEN_REVIEW_CACHE', str(state / 'reviewed.json'))
+    monkeypatch.setenv('RUNNER_TEMP', str(tmp_path))
+    monkeypatch.setenv('GITHUB_REF_NAME', 'main')
+    monkeypatch.delenv('BOOKGEN_HINDI_ONLY', raising=False)
+    monkeypatch.delenv('GITHUB_ACTIONS', raising=False)
+    bookgen.request_legacy_autopilot_rollover(lambda *a: None)
+    assert not (state / 'STOP').exists()
+    monkeypatch.setenv('GITHUB_ACTIONS', 'true')
+    bookgen.request_legacy_autopilot_rollover(lambda *a: None)
+    assert (state / 'STOP').exists() and source.read_text() == 'saved Hindi work'
+    (state / 'STOP').unlink()
+    monkeypatch.setenv('BOOKGEN_HINDI_ONLY', '1')
+    bookgen.request_legacy_autopilot_rollover(lambda *a: None)
+    assert not (state / 'STOP').exists()
+
+
 @pytest.fixture
 def chapter(tmp_path, monkeypatch):
     root = tmp_path / 'books'
@@ -534,3 +556,86 @@ def test_repair_rejects_pair_when_only_second_checker_disagrees(broken_chapter, 
     assert (broken_chapter / 'Prompts' / 'Practice_en_Set_01.txt').read_text() == original
     assert not (broken_chapter / 'Practice_en_Set_01.txt').exists()
     assert not (broken_chapter / 'Practice_hi_Set_01.txt').exists()
+
+
+@pytest.fixture
+def hindi_chapter(chapter):
+    import shutil
+    native = chapter.parents[2] / 'Hindi' / chapter.parent.name / chapter.name
+    native.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copytree(chapter, native)
+    return native
+
+
+def test_hindi_book_writes_only_native_hindi_and_never_uses_old_english(hindi_chapter, db, monkeypatch):
+    old_english = (hindi_chapter / 'Content_en.txt').read_text()
+    write(hindi_chapter / 'Practice_en_Set_01.txt', mcq_set('en'))
+    asks, checks = [], []
+    agree = '\n'.join(f'{i}: {"abcd"[i % 4]}' for i in range(1, 26))
+    monkeypatch.setattr(bookgen, 'balance_answers', lambda text: text)
+    monkeypatch.setattr(bookgen, '_ask_check', lambda db, user, **kw: checks.append(user) or agree)
+
+    def ask(db, user):
+        asks.append(user)
+        assert bookgen.HINDI_WRITER in user
+        assert 'Translate exactly these questions' not in user
+        assert 'Finished English lesson' not in user
+        return mcq_set('hi') if 'Practice_hi_Set_01.txt' in user else BODY
+
+    monkeypatch.setattr(bookgen, '_ask', ask)
+    written, failed = bookgen.run(db, hindi_chapter, ['Content_hi', 'Content_en', 'Practice_hi_Set_01', 'Practice_en_Set_01'], out=lambda *a: None)
+    assert written == ['Content_hi.txt', 'Practice_hi_Set_01.txt'] and failed == []
+    assert len(asks) == 2 and len(checks) == 2
+    assert all('उत्तर:' not in c and 'हल:' not in c for c in checks)
+    assert (hindi_chapter / 'Content_en.txt').read_text() == old_english
+    assert (hindi_chapter / 'Practice_en_Set_01.txt').read_text() == mcq_set('en')
+    asks.clear()
+    assert bookgen.run(db, hindi_chapter, ['Content_hi', 'Practice_hi_Set_01'], out=lambda *a: None) == ([], [])
+    assert asks == []  # native results survive chapter retries without new authoring calls
+
+
+def test_hindi_repair_set_is_native_and_requires_two_blind_checks(hindi_chapter, db, monkeypatch):
+    asks, checks = [], []
+    agree = '\n'.join(f'{i}: {"abcd"[i % 4]}' for i in range(1, 26))
+    monkeypatch.setattr(bookgen, 'balance_answers', lambda text: text)
+    monkeypatch.setattr(bookgen, '_ask_check', lambda db, user, **kw: checks.append(user) or agree)
+    monkeypatch.setattr(bookgen, '_ask', lambda db, user: asks.append(user) or mcq_set('hi'))
+    assert bookgen.repair_set(db, hindi_chapter, 1, ['Set 01 hi: wrong answer'], out=lambda *a: None)
+    assert len(checks) == 2 and len(asks) == 1 and bookgen.HINDI_WRITER in asks[0]
+    assert (hindi_chapter / 'Practice_hi_Set_01.txt').read_text() == mcq_set('hi').strip() + '\n'
+    assert not (hindi_chapter / 'Practice_en_Set_01.txt').exists()
+
+
+def test_hindi_review_and_repair_ignore_english_files(hindi_chapter, db, monkeypatch):
+    write(hindi_chapter / 'Content_hi.txt', BODY)
+    seen = []
+    monkeypatch.setattr(bookgen, '_ask_review', lambda db, user: seen.append(user) or 'OK')
+    assert bookgen.review(db, hindi_chapter, out=lambda *a: None) == ([], [])
+    assert len(seen) == 1 and 'file="Content_hi.txt"' in seen[0]
+    monkeypatch.setattr(bookgen, 'repair_targets', lambda ch: (['Content_hi.txt', 'Content_en.txt'], [], ['Content_hi.txt: wrong fact']))
+    asks = []
+    monkeypatch.setattr(bookgen, '_ask', lambda db, user: asks.append(user) or BODY)
+    assert bookgen.repair(db, hindi_chapter, out=lambda *a: None) == (['Content_hi.txt'], [])
+    assert len(asks) == 1 and bookgen.HINDI_WRITER in asks[0]
+
+
+def test_hindi_audit_uses_hindi_without_english_dependency(hindi_chapter, db, monkeypatch):
+    write(hindi_chapter / 'Practice_hi_Set_01.txt', mcq_set('hi'))
+    write(hindi_chapter / 'Practice_en_Set_01.txt', mcq_set('en'))
+    asks = []
+    agree = '\n'.join(f'{i}: {"abcd"[i % 4]}' for i in range(1, 26))
+    monkeypatch.setattr(bookgen, '_ask_check', lambda db, user, **kw: asks.append(user) or agree)
+    assert bookgen.audit(db, hindi_chapter, out=lambda *a: None) == ([], [])
+    assert len(asks) == 2 and all('नदी के बारे में प्रश्न' in user and 'Question about rivers' not in user for user in asks)
+
+
+def test_hindi_native_system_overrides_generic_bilingual_rules(hindi_chapter, db, monkeypatch):
+    from app import nvidia
+    monkeypatch.setattr(config, 'NVIDIA_API_KEY', 'test-key')
+    monkeypatch.setattr(config, 'BOOKGEN_PROVIDER', 'nvidia')
+    seen = []
+    monkeypatch.setattr(nvidia, 'call', lambda system, user, **kw: seen.append((system, user)) or BODY)
+    assert bookgen.run(db, hindi_chapter, ['Content_hi'], out=lambda *a: None) == (['Content_hi.txt'], [])
+    assert bookgen.HINDI_ONLY_POLICY in seen[0][0] and bookgen.HINDI_WRITER in seen[0][1]
+    mindmap = bookgen.section_request(hindi_chapter, 'Mind_Map.txt')
+    assert 'only Hindi labels' in mindmap and 'Hindi (Devanagari) only' in mindmap

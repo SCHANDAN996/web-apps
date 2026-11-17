@@ -184,6 +184,8 @@ class Pilot:
                     continue                                 # handled by hand (books/autopilot/MANUAL.txt)
                 if key in self.claimed or self.state['failed'].get(key, 0) >= self.args.max_fails:
                     continue
+                if time.time() < self.state.get('retry_after', {}).get(key, 0):
+                    continue                                 # do not spend another full pass on the same failure
                 if bookcheck.chapter_status(ch)[0] == 'OK' and not self.uncommitted(ch) and key not in audit:
                     continue                                 # done and published (OK + changes → review, commit)
                 if self.taken_by_other(ch):
@@ -228,6 +230,7 @@ class Pilot:
     def bookgen(self, ch, *extra):
         cmd = [sys.executable, '-m', 'app.bookgen', '--chapter', str(ch), *extra]
         env = {**os.environ, 'NVIDIA_API_KEY': self.key_for_worker(), 'BOOKGEN_REVIEW_CACHE': str(self.state_dir / 'reviewed.json'),
+               'BOOKGEN_HINDI_ONLY': '1',  # this parent has the Hindi-only completion checker loaded
                'AI_DAILY_BOOK_SECTIONS': os.environ.get('AI_DAILY_BOOK_SECTIONS', '100000'),
                'AI_DAILY_LIMIT_TOTAL': os.environ.get('AI_DAILY_LIMIT_TOTAL', '1000000')}
         short = ch.name.split('_', 2)[-1] if '_' in ch.name else ch.name
@@ -251,6 +254,13 @@ class Pilot:
         with self.lock:
             self.current[threading.current_thread().name] = {'key': key, 'step': step, 'since': datetime.now(IST)}
 
+    def record_failure(self, key):
+        with self.lock:
+            self.state['failed'][key] = self.state['failed'].get(key, 0) + 1
+            delay = getattr(self.args, 'retry_delay', 30)
+            self.state.setdefault('retry_after', {})[key] = time.time() + delay * 60
+            self.save()
+
     def work(self, ch, key):
         t0 = time.time()
         status, todo, problems = bookcheck.chapter_status(ch)
@@ -262,9 +272,7 @@ class Pilot:
             self.step(key, 'audit')
             _, bad = self.bookgen(ch, '--audit')
             if bad:
-                with self.lock:
-                    self.state['failed'][key] = self.state['failed'].get(key, 0) + 1
-                    self.save()
+                self.record_failure(key)
                 self.log(f'AUDIT NOT DONE {key}: {bad[:2]}')
                 return
         if todo:
@@ -298,12 +306,11 @@ class Pilot:
             sha = self.commit(ch, summary, audited)
             with self.lock:
                 self.state['failed'].pop(key, None)
+                self.state.setdefault('retry_after', {}).pop(key, None)
                 self.save()
             self.log(f'DONE {key} in {mins:.0f} min → {sha}')
         else:
-            with self.lock:
-                self.state['failed'][key] = self.state['failed'].get(key, 0) + 1
-                self.save()
+            self.record_failure(key)
             self.log(f'NOT OK {key} after {mins:.0f} min: todo {todo[:4]} problems {[p[:60] for p in problems[:4]]}')
 
     def worker(self, n):
@@ -317,6 +324,7 @@ class Pilot:
             try:
                 self.work(ch, key)
             except Exception as e:                                   # keep the other chapters going
+                self.record_failure(key)
                 self.log(f'ERROR {key}: {type(e).__name__}: {str(e)[:200]}')
             finally:
                 with self.lock:
@@ -440,6 +448,8 @@ def main():
     p.add_argument('--stop-new-after', type=int, default=0,
                    help='minutes after which no new chapter is started (for time-limited runs, e.g. CI)')
     p.add_argument('--max-fails', type=int, default=2, help='give a chapter up after this many failed passes')
+    p.add_argument('--retry-delay', type=int, default=30,
+                   help='wait this many minutes before retrying a failed chapter; other chapters can continue')
     p.add_argument('--dry-run', action='store_true')
     return Pilot(p.parse_args()).run()
 

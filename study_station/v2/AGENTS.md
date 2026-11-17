@@ -37,6 +37,7 @@ claude --agent ss-boss # पूरा session boss mode में
 | **ss-content-generator** | कमज़ोर topics में नए सवाल (`app.generate`) | ✅ CLI से data | observe "thin topics" बताए |
 | **ss-current-affairs** | AIR/PIB pipeline, सार और MCQ की spot-check | ✅ CLI से data | रोज़ |
 | **ss-book-writer** | किताब का एक अध्याय लिखना/सुधारना (prompts → हिंदी+English content, 6×25 MCQ), `app.bookcheck` से जाँच | ✅ `books/` files | `/book` — हर अध्याय के लिए एक, parallel |
+| **ss-hindi-book-writer** | हिंदी किताब केवल हिंदी में लिखना, कोई अंग्रेज़ी अनुवाद नहीं; Ultra के दो blind answer checks और editorial review | ✅ `books/` files | हिंदी विषय के अध्याय; `app.bookgen` अपने-आप केवल हिंदी चुनता है |
 
 ## Slash commands (Claude Code)
 

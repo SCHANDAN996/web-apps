@@ -20,6 +20,11 @@ You are completing a bilingual (Hindi + English) exam-prep book series for India
 (SSC GD/MTS/CHSL/CGL, Railway, Bank, State exams). Students will trust every line. **Accuracy beats length.
 A missing fact is fine; a wrong fact is not.** Work one chapter at a time. Never skip the checks.
 
+**Hindi-subject exception (owner decision, 17 November 2026):** Books under `/Hindi/` are Hindi-only.
+Use `ss-hindi-book-writer`: author every lesson, aid and all six practice sets directly in Hindi. Do not
+generate, translate, repair or review English counterparts. Ignore legacy `_en` prompts/content for
+completion. The bilingual ordering below applies only to other subjects; all accuracy/review gates remain.
+
 The command you received is one of:
 - `book` → loop: do the next chapter, check, commit, repeat until you have done **3 chapters** or the context is
   getting long, then report and stop.
