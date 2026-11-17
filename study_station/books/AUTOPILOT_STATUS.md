@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 01:00 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 11:58 PM
+**आख़िरी update:** 18-11-2026 01:16 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 11:58 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 7 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 47 मिनट |
-| W3 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 21 मिनट |
-| W4 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 61 मिनट |
+| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 23 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 62 मिनट |
+| W3 | Chapter 05 windows files (12th Computer) | 🔎 review हो रहा है | 5 मिनट |
+| W4 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 77 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 25 |
-| key 4 | 43 |
+| key 3 | 36 |
+| key 4 | 55 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -47,27 +47,11 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 01 varn vartani (Hindi) — 1 बार
+- Chapter 04 visheshan kriya (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 23:58:56   [sangya_sarvanam] Hindi-only writer: direct Hindi content; English generation and translation disabled
-17-11 23:59:01 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya (TODO: todo 1, problems 0)
-17-11 23:59:01   [visheshan_kriya] Hindi-only writer: direct Hindi content; English generation and translation disabled
-17-11 23:59:06 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os (OK: todo 0, problems 0)
-18-11 00:00:23   [varn_vartani] Practice_hi_Set_01.txt try 1: rejected (Q18:duplicate_options)
-18-11 00:02:17   [sangya_sarvanam] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q5 key a vs re-solve b, Q12 key d vs re-solve c, Q25 key a vs re-solve b)
-18-11 00:05:43   [sangya_sarvanam] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q5 key a vs re-solve b, Q25 key a vs re-solve b)
-18-11 00:09:28   [sangya_sarvanam] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q5 key d vs re-solve b)
-18-11 00:12:13   [varn_vartani] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q8 key d vs re-solve b, Q10 key a vs re-solve ?, Q13 key a vs re-solve b, Q24 key d vs re-solve c)
-18-11 00:13:39   [sangya_sarvanam] wrote Practice_hi_Set_01.txt (write, 25 MCQs)
-18-11 00:13:39   [sangya_sarvanam] written 1, failed 0; AI calls today 11/100000
-18-11 00:20:41   [varn_vartani] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q4 key a vs re-solve b, Q13 key c vs re-solve b)
-18-11 00:20:46   [visheshan_kriya] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q46 key d vs re-solve ?, Q47 key d vs re-solve ?, Q50 key c vs re-solve b)
-18-11 00:22:52   [sangya_sarvanam] review Content_hi.txt: 5 issue(s): - "परीक्षा उपयोगी सूत्र" बॉक्स में लिखा है "व्यक्तिवाचक → विशेष नाम (पहला अक्षर बड़ा)" और "जातिवाचक → सामान्य नाम (
-18-11 00:26:20   [sangya_sarvanam] REJECTED review fix Content_hi.txt: reviewer still reports - "औरत" को बहुवचन में रूप न बदलने वाले शब्दों की सूची (उदाहरण 6 और त्वरित पुनरावृत्ति बिंदु
-18-11 00:27:52   [sangya_sarvanam] review Key_Facts_hi.txt: 4 issue(s): - Point 4: Wrong plural forms "फलें" and "घरें" for consonant-ending nouns → Correct oblique plurals: "फलों" and 
-18-11 00:32:20   [software_os] review Content_hi.txt: 2 issue(s): - "बड़ी फ़ाइलें अनुमत करता है" (उदाहरण 1 में) → "बड़ी फ़ाइलों का समर्थन करता है" या "बड़ी फ़ाइलों को अनुमति देता है
 18-11 00:38:29   [varn_vartani] wrote Practice_hi_Set_01.txt (write, 25 MCQs)
 18-11 00:39:28   [visheshan_kriya] wrote Practice_hi_Set_02.txt (write, 25 MCQs)
 18-11 00:39:28   [visheshan_kriya] written 1, failed 0; AI calls today 31/100000
@@ -91,4 +75,21 @@
 18-11 00:58:24   [visheshan_kriya] review Flashcards_hi.txt: 3 issue(s): - Card 11: The rule “क्रिया मूल + ‘गा/गे/गी’” does not produce the example “जाएगा” (from “जाना”); “जाना” is irre
 18-11 00:59:38   [ling_vachan_karak] review Content_hi.txt: 7 issue(s): - In the लिंग table, "कमरा" and "पत्तल" are incorrectly listed as नपुंसकलिंग examples → "कमरा" is पुल्लिंग (आ कारां
 18-11 00:59:48   [visheshan_kriya] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 11: "देगा" is listed as an irregular verb with vowel change, but "देना → देगा" is
+18-11 01:01:08   [software_os] review PYQ_en.txt: 2 issue(s): - Example 4 (Round Robin scheduling): The answer key states (b) 3.33, but the correct average waiting time is 5.33 (16/
+18-11 01:03:55   [software_os] REJECTED review fix PYQ_en.txt: reviewer still reports - Example 4 (Round Robin numerical): The solution's Gantt chart shows P3 running at 6-7 while P
+18-11 01:04:48   [visheshan_kriya] review PYQ_hi.txt: 2 issue(s): - "समान उच्चारण, भिन्न अर्थ" जाल में उदाहरण: दोनों शब्द *"करना"* लिखे हैं, दूसरा "कर ना" होना चाहिए → दूसरा शब्द "कर ना
+18-11 01:06:10   [software_os] review Important_Rules_en.txt: 2 issue(s): - Rule 4 example incorrectly states that 8 GB RAM + 12 GB page file equals 20 GB virtual address space per 
+18-11 01:06:44   [visheshan_kriya] REJECTED review fix PYQ_hi.txt: reviewer still reports - "कई" classified as परिमाणवाचक विशेषण in the table → "कई" is a संख्यावाचक विशेषण (अनिश्चयवाचक)
+18-11 01:07:57   [visheshan_kriya] review Important_Rules_hi.txt: 1 issue(s): - Rule 14: Causative formation rule says add 'वाँ/आँ' to root, but examples show different suffixes (वाना, 
+18-11 01:08:05   [sangya_sarvanam] review PYQ_hi.txt: 4 issue(s): - Section 5 trap "कारक चिह्न लोप" incorrectly labels "राम घर गया" as incorrect → "राम घर गया" is correct; "घर" function
+18-11 01:10:43   [visheshan_kriya] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 12: The example "वह जोरदार बोला" incorrectly uses "जोरदार" as an adverb (क्र
+18-11 01:10:43   [visheshan_kriya] review: 3 section(s) corrected, 4 failed
+18-11 01:10:43   [visheshan_kriya] written 3, failed 4; AI calls today 81/100000
+18-11 01:10:43 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 72 min: todo [] problems []
+18-11 01:10:44 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_05_windows_files (OK: todo 0, problems 0)
+18-11 01:12:05   [ling_vachan_karak] REJECTED review fix Content_hi.txt: reviewer still reports - लिंग-परिवर्तन नियम 2 में "आ → इन" का उदाहरण "सेठ → सेठानी" गलत है क्योंकि "सेठ" "आ" कारां
+18-11 01:13:05   [sangya_sarvanam] REJECTED review fix PYQ_hi.txt: reviewer still reports - In Section 1, the explanation incorrectly labels "माँ" as व्यक्तिवाचक संज्ञा → "माँ" is जातिव
+18-11 01:13:22   [ling_vachan_karak] review Key_Facts_hi.txt: 5 issue(s): - Point 7: The rule for ईकारांत पुल्लिंग gives the example “सेठ → सेठानी”, but “सेठ” does not end in ई (it is a c
+18-11 01:14:33   [windows_files] review Content_en.txt: 1 issue(s): - Example 2: The question states the file appears as "invoice" (no extension shown), but the explanation says the o
+18-11 01:14:55   [sangya_sarvanam] review Important_Rules_hi.txt: 5 issue(s): - Rule 2 incorrectly lists "पुत्री" and "नौकरानी" as examples of masculine "ई" कारांत nouns; they are femin
 ```
