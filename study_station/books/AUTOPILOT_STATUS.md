@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 02:17 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 11:58 PM
+**आख़िरी update:** 18-11-2026 02:32 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 11:58 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 84 मिनट |
-| W2 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 58 मिनट |
-| W3 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 17 मिनट |
-| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 7 मिनट |
+| W1 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 9 मिनट |
+| W2 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 73 मिनट |
+| W3 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 32 मिनट |
+| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 22 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 66 |
-| key 4 | 88 |
+| key 3 | 68 |
+| key 4 | 91 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -50,17 +50,11 @@
 - Chapter 04 visheshan kriya (Hindi) — 1 बार
 - Chapter 03 sangya sarvanam (Hindi) — 1 बार
 - Chapter 04 software os (Computer) — 1 बार
+- Chapter 05 ling vachan karak (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 01:21:48   [software_os] REJECTED review fix Important_Rules_en.txt: reviewer still reports - Rule 12: “LTSC 2021 (21H2) receives no new features until 2027” is incorrect → LT
-18-11 01:22:03   [software_os] review: 1 section(s) corrected, 3 failed
-18-11 01:22:03   [software_os] written 1, failed 3; AI calls today 103/100000
-18-11 01:22:03 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os after 83 min: todo [] problems []
-18-11 01:22:03 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_06_keyboard_shortcuts (TODO: todo 2, problems 0)
-18-11 01:23:10   [ling_vachan_karak] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 4 claims Hindi has a neuter gender (नपुंसकलिंग) for inanimate objects → Hindi has
-18-11 01:24:39   [windows_files] review PYQ_en.txt: 1 issue(s): - Section 3, third statement: “`robocopy` by default copies all files; it copies only changed files when options like `
 18-11 01:25:20   [ling_vachan_karak] review Feynman_hi.txt: 6 issue(s): - "पुस्तक" को पुल्लिंग तालिका में "अपवाद" बताना गलत है → "पुस्तक" स्त्रीलिंग है, इसे स्त्रीलिंग सूची में रखें या पु
 18-11 01:27:29   [ling_vachan_karak] REJECTED review fix Feynman_hi.txt: reviewer still reports - लिंग section: The exception list includes "कहानी" (which follows the rule ई → स्त्रीलिंग)
 18-11 01:30:44   [kaal_vachya] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q99 key b vs re-solve d)
@@ -94,4 +88,11 @@
 18-11 02:12:53   [ling_vachan_karak] REJECTED review fix PYQ_hi.txt: reviewer still reports - In the 15-second heuristics for gender, the listed exceptions "दादा", "नाना" (masculine) and 
 18-11 02:14:25   [kaal_vachya] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q127 key c vs re-solve a, Q136 key a vs re-solve c, Q138 key d vs re-solve b, Q144 key b vs re-solve
 18-11 02:15:28   [keyboard_shortcuts] review Content_en.txt: 1 issue(s): - PowerPoint shortcut Ctrl+Shift+D listed as "Duplicate slide (alternative)" → Ctrl+Shift+D is not a standard Power
+18-11 02:18:42   [ling_vachan_karak] review Important_Rules_hi.txt: 6 issue(s): - Rule 1 exception cites “शिक्षक/शिक्षिका” as a word used for both genders, but they are separate gendered 
+18-11 02:20:03   [kaal_vachya] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q138 key a vs re-solve b)
+18-11 02:23:25   [ling_vachan_karak] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 2 exception incorrectly includes "किरण" as a feminine noun ending in इ/आ; "क
+18-11 02:23:25   [ling_vachan_karak] review: 0 section(s) corrected, 5 failed
+18-11 02:23:25   [ling_vachan_karak] written 0, failed 5; AI calls today 156/100000
+18-11 02:23:25 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 90 min: todo [] problems []
+18-11 02:23:25 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya (OK: todo 0, problems 0)
 ```
