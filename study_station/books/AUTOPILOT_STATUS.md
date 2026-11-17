@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (three-chapters)
 
-**आख़िरी update:** 17-11-2026 11:23 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:31 AM
+**आख़िरी update:** 17-11-2026 11:38 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:31 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 99 मिनट |
+| W2 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 115 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -49,11 +49,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 10:39:06   [kaal_vachya] Practice_en_Set_03.txt try 1: rejected (Q71:leaked_reasoning,Q75:leaked_reasoning)
-17-11 10:39:36   [ling_vachan_karak] Practice_hi_Set_06.txt try 4: rejected (Q132: tested Hindi text must be explicitly quoted; Q135: tested Hindi text must be explicitly quoted; Q139: te
-17-11 10:39:36   [ling_vachan_karak] REJECTED Practice_hi_Set_06.txt: no translation passed the checks — not written
-17-11 10:39:36   [ling_vachan_karak] written 1, failed 10; AI calls today 412/100000
-17-11 10:39:36 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 84 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 02 en: todo', 'Set 02 hi: todo'] problems ['Feynman_en.txt: English file contains a lot of Hindi', 'Set 05 Practice_en_Set_05.txt: English file contains a lot o', 'Set 06 Practice_en_Set_06.txt: English file contains a lot o']
 17-11 10:39:36 worker 2: nothing left
 17-11 10:40:43   [windows_files] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 17-11 10:41:34   [windows_files] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
@@ -89,4 +84,9 @@
 17-11 11:10:00   [kaal_vachya] REJECTED Practice_hi_Set_04.txt: no translation passed the checks — not written
 17-11 11:11:15   [kaal_vachya] Practice_en_Set_05.txt try 1: rejected (Q125:leaked_reasoning)
 17-11 11:18:00   [kaal_vachya] Practice_en_Set_05.txt try 2: re-solve disagrees (Q102 key a vs re-solve ?, Q108 key c vs re-solve d, Q113 key b vs re-solve c, Q118 key b vs re-solve
+17-11 11:24:58   [kaal_vachya] Practice_en_Set_05.txt try 3: re-solve disagrees (Q125 key b vs re-solve d)
+17-11 11:28:54   [kaal_vachya] Practice_en_Set_05.txt try 4: re-solve disagrees (Q102 key a vs re-solve ?)
+17-11 11:28:54   [kaal_vachya] REJECTED Practice_en_Set_05.txt: no version passed the checks — not written
+17-11 11:28:54   [kaal_vachya] skip Practice_hi_Set_05.txt: its pair Practice_en_Set_05.txt was not written
+17-11 11:35:09   [kaal_vachya] Practice_en_Set_06.txt try 1: re-solve disagrees (Q132 key b vs re-solve d, Q136 key a vs re-solve ?, Q137 key b vs re-solve a, Q140 key b vs re-solve
 ```
