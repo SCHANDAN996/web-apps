@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 17-11-2026 11:55 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:33 PM
+**आख़िरी update:** 17-11-2026 11:59 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 11:58 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,13 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 06 keyboard shortcuts (12th Computer) | ✍️ लिख रहा है | 167 मिनट |
-| W4 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 171 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
+| W3 | Chapter 04 visheshan kriya (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
+| W4 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 0 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 126 |
-| key 4 | 177 |
+| key 3 | 1 |
+| key 4 | 1 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -40,58 +42,18 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- 17-11 22:05 — 10th Hindi · Chapter 02 shabd bhed
-
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 04 visheshan kriya (Hindi) — 2 बार
-- Chapter 03 sangya sarvanam (Hindi) — 3 बार
-- Chapter 04 software os (Computer) — 2 बार
-- Chapter 05 windows files (Computer) — 2 बार
-- Chapter 05 ling vachan karak (Hindi) — 1 बार
-- Chapter 01 varn vartani (Hindi) — 2 बार
+- अभी कोई नहीं
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 22:05:45 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (TODO: todo 1, problems 0)
-17-11 22:05:45   [sangya_sarvanam] Hindi-only writer: direct Hindi content; English generation and translation disabled
-17-11 22:07:12   [varn_vartani] Practice_hi_Set_01.txt try 3: rejected (Q17:duplicate_options,Q21:duplicate_options)
-17-11 22:07:57   [kaal_vachya] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q86 key b vs re-solve c, Q91 key c vs re-solve a, Q95 key c vs re-solve a)
-17-11 22:13:31   [keyboard_shortcuts] Practice_en_Set_03.txt try 1: re-solve disagrees (Q65 key b vs re-solve ?, Q66 key b vs re-solve c, Q70 key a vs re-solve ?, Q71 key b vs re-solve ?)
-17-11 22:17:59   [kaal_vachya] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q84 key b vs re-solve c, Q100 key a vs re-solve d)
-17-11 22:19:11   [keyboard_shortcuts] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-17-11 22:20:28   [keyboard_shortcuts] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-17-11 22:21:27   [sangya_sarvanam] Practice_hi_Set_01.txt try 1: rejected (Q15:duplicate_options)
-17-11 22:23:30   [kaal_vachya] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q86 key a vs re-solve c)
-17-11 22:24:27   [sangya_sarvanam] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q5 key c vs re-solve b, Q13 key d vs re-solve b)
-17-11 22:26:17   [sangya_sarvanam] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q5 key d vs re-solve b)
-17-11 22:32:38   [kaal_vachya] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q100 key c vs re-solve b)
-17-11 22:32:38   [kaal_vachya] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
-17-11 22:33:20   [varn_vartani] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q10 key a vs re-solve ?, Q15 key d vs re-solve ?, Q19 key a vs re-solve ?, Q23 key c vs re-solve ?)
-17-11 22:33:20   [varn_vartani] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
-17-11 22:35:30   [varn_vartani] Practice_hi_Set_03.txt try 1: rejected (Q51:duplicate_options,Q65:duplicate_options,Q74:duplicate_options)
-17-11 22:40:00   [kaal_vachya] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q103 key d vs re-solve c, Q112 key c vs re-solve b, Q114 key b vs re-solve d, Q117 key b vs re-solve
-17-11 22:46:37   [varn_vartani] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q52 key d vs re-solve c, Q62 key b vs re-solve d, Q69 key d vs re-solve a, Q72 key b vs re-solve d, 
-17-11 23:21:40   [kaal_vachya] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q103 key d vs re-solve c, Q117 key c vs re-solve b, Q119 key a vs re-solve c, Q121 key b vs re-solve
-17-11 23:27:50   [sangya_sarvanam] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q13 key c vs re-solve a)
-17-11 23:27:50   [sangya_sarvanam] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
-17-11 23:27:50   [sangya_sarvanam] written 0, failed 1; AI calls today 285/100000
-17-11 23:27:50 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 82 min: todo ['Set 01 hi: todo'] problems []
-17-11 23:27:50 worker 1: nothing left
-17-11 23:31:55   [keyboard_shortcuts] Practice_en_Set_04.txt try 1: re-solve disagrees (Q85 key b vs re-solve ?, Q88 key c vs re-solve ?, Q95 key a vs re-solve ?, Q96 key d vs re-solve ?)
-17-11 23:34:07   [keyboard_shortcuts] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-17-11 23:35:37   [keyboard_shortcuts] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-17-11 23:38:13   [keyboard_shortcuts] Practice_en_Set_05.txt try 1: rejected (parsed 24 questions, numbers 101…124)
-17-11 23:38:41   [kaal_vachya] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q113 key c vs re-solve a, Q115 key a vs re-solve c, Q117 key a vs re-solve b)
-17-11 23:43:06   [varn_vartani] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q69 key d vs re-solve c)
-17-11 23:48:57   [kaal_vachya] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q121 key d vs re-solve c)
-17-11 23:48:57   [kaal_vachya] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
-17-11 23:51:09   [varn_vartani] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q69 key d vs re-solve c, Q73 key c vs re-solve ?)
-17-11 23:51:09   [varn_vartani] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
-17-11 23:51:09   [varn_vartani] written 0, failed 2; AI calls today 299/100000
-17-11 23:51:09 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 142 min: todo ['Set 01 hi: todo', 'Set 03 hi: todo'] problems []
-17-11 23:51:09 worker 0: nothing left
-17-11 23:52:45   [keyboard_shortcuts] Practice_en_Set_05.txt try 2: re-solve disagrees (Q120 key b vs re-solve ?, Q124 key a vs re-solve ?, Q125 key a vs re-solve ?)
-17-11 23:54:52   [kaal_vachya] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q143 key d vs re-solve a, Q146 key a vs re-solve ?)
+17-11 23:58:51 autopilot start: 4 workers, reverse=False
+17-11 23:58:51 API policy: account start interval=20s; key start interval=15s; in-flight per key=1
+17-11 23:58:51 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (TODO: todo 2, problems 0)
+17-11 23:58:51   [varn_vartani] Hindi-only writer: direct Hindi content; English generation and translation disabled
+17-11 23:58:56 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (TODO: todo 1, problems 0)
+17-11 23:58:56   [sangya_sarvanam] Hindi-only writer: direct Hindi content; English generation and translation disabled
+17-11 23:59:01 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya (TODO: todo 1, problems 0)
+17-11 23:59:01   [visheshan_kriya] Hindi-only writer: direct Hindi content; English generation and translation disabled
+17-11 23:59:06 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os (OK: todo 0, problems 0)
 ```
