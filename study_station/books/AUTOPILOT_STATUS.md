@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (three-chapters)
 
-**आख़िरी update:** 17-11-2026 05:59 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 01:22 AM
+**आख़िरी update:** 17-11-2026 06:14 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 01:22 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 05 ling vachan karak (10th Hindi) | ✍️ लिख रहा है | 68 मिनट |
+| W3 | Chapter 05 ling vachan karak (10th Hindi) | ✍️ लिख रहा है | 83 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -48,14 +48,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 05:25:21   [software_os] Practice_en_Set_01.txt try 2: rejected (Q11:leaked_reasoning)
-17-11 05:25:41   [visheshan_kriya] Practice_en_Set_04.txt try 4: re-solve disagrees (Q90 key a vs re-solve b)
-17-11 05:25:41   [visheshan_kriya] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
-17-11 05:25:41   [visheshan_kriya] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
-17-11 05:26:05   [visheshan_kriya] Practice_hi_Set_05.txt try 1: rejected (Q115: tested Hindi text must be explicitly quoted; Q122: tested Hindi text must be explicitly quoted; Q124: te
-17-11 05:26:27   [visheshan_kriya] Practice_hi_Set_05.txt try 2: rejected (Q115: tested Hindi text must be explicitly quoted; Q122: tested Hindi text must be explicitly quoted; Q124: te
-17-11 05:26:41   [software_os] Practice_en_Set_01.txt try 3: rejected (Q11:leaked_reasoning)
-17-11 05:27:02   [visheshan_kriya] Practice_hi_Set_05.txt try 3: rejected (Q115: tested Hindi text must be explicitly quoted; Q122: tested Hindi text must be explicitly quoted; Q124: te
 17-11 05:27:18   [ling_vachan_karak] Practice_en_Set_02.txt try 2: re-solve disagrees (Q41 key d vs re-solve c)
 17-11 05:27:31   [visheshan_kriya] Practice_hi_Set_05.txt try 4: rejected (Q115: tested Hindi text must be explicitly quoted; Q122: tested Hindi text must be explicitly quoted; Q124: te
 17-11 05:27:31   [visheshan_kriya] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
@@ -88,4 +80,12 @@
 17-11 05:54:52   [ling_vachan_karak] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
 17-11 05:54:52   [ling_vachan_karak] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
 17-11 05:57:08   [ling_vachan_karak] Practice_en_Set_05.txt try 1: re-solve disagrees (Q124 key a vs re-solve ?)
+17-11 06:00:32   [ling_vachan_karak] Practice_en_Set_05.txt try 2: re-solve disagrees (Q124 key a vs re-solve ?)
+17-11 06:04:29   [ling_vachan_karak] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+17-11 06:05:07   [ling_vachan_karak] Practice_hi_Set_05.txt try 1: rejected (Q106: tested Hindi text changed between languages; Q116: Hindi subject options changed between languages; Q120
+17-11 06:06:59   [ling_vachan_karak] Practice_hi_Set_05.txt try 2: rejected (Q106: tested Hindi text changed between languages; Q120: tested Hindi text must be explicitly quoted; Q122: te
+17-11 06:08:09   [ling_vachan_karak] Practice_hi_Set_05.txt try 3: rejected (Q106: tested Hindi text changed between languages; Q120: tested Hindi text must be explicitly quoted; Q122: te
+17-11 06:08:56   [ling_vachan_karak] Practice_hi_Set_05.txt try 4: rejected (Q106: tested Hindi text changed between languages; Q116: Hindi subject options changed between languages; Q120
+17-11 06:08:56   [ling_vachan_karak] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
+17-11 06:10:15   [ling_vachan_karak] Practice_en_Set_06.txt try 1: rejected (Q132:duplicate_options,Q139:duplicate_options,Q142:duplicate_options,Q145:duplicate_options,Q147:duplicate_opt
 ```
