@@ -926,17 +926,20 @@ def request_legacy_autopilot_rollover(out=print):
     cache = os.environ.get('BOOKGEN_REVIEW_CACHE')
     current = os.environ.get('BOOKGEN_HINDI_ONLY') == '1' and os.environ.get('BOOKGEN_RATE_POLICY') == 'parallel-v1'
     if os.environ.get('GITHUB_ACTIONS') != 'true' or current or not cache:
-        return
+        return False
     path = Path(cache)
     runner_temp = os.environ.get('RUNNER_TEMP')
     if not runner_temp or os.environ.get('GITHUB_REF_NAME') != 'main':
-        return
+        return False
     state = path.parent / 'state.json'
     stop = path.parent / 'STOP'
     if (path.name == 'reviewed.json' and path.parent.resolve() == (Path(runner_temp) / 'autopilot').resolve()
-            and state.is_file() and not state.is_symlink() and not stop.exists()):
-        stop.touch()
-        out('Book autopilot upgrade: finishing current work, then saving unfinished files for the new worker/rate policy')
+            and state.is_file() and not state.is_symlink()):
+        if not stop.exists():
+            stop.touch()
+            out('Book autopilot upgrade: draining existing work and saving unfinished files for the new worker/rate policy')
+        return True
+    return False
 
 
 def main(argv=None):
@@ -957,8 +960,9 @@ def main(argv=None):
         return 2
     if args.provider:
         config.BOOKGEN_PROVIDER = args.provider
-    if not args.dry_run:
-        request_legacy_autopilot_rollover()
+    if not args.dry_run and request_legacy_autopilot_rollover():
+        print('stopping: new worker/rate policy queued; no new API work started in the older runner')
+        return 1
     key = 'NVIDIA_API_KEY' if provider() == 'nvidia' else 'ANTHROPIC_API_KEY'
     if not args.dry_run and not getattr(config, key):
         print(f'{key} is not set — bookgen needs an AI API to write sections. '

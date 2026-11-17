@@ -35,6 +35,21 @@ def test_legacy_autopilot_rollover_preserves_work_and_ignores_new_or_manual_runs
     assert not (state / 'STOP').exists()
 
 
+def test_older_runner_drains_without_starting_more_api_work(chapter, fake_ai, tmp_path, monkeypatch):
+    state = tmp_path / 'autopilot'
+    state.mkdir()
+    (state / 'state.json').write_text('{}')
+    monkeypatch.setenv('GITHUB_ACTIONS', 'true')
+    monkeypatch.setenv('GITHUB_REF_NAME', 'main')
+    monkeypatch.setenv('RUNNER_TEMP', str(tmp_path))
+    monkeypatch.setenv('BOOKGEN_REVIEW_CACHE', str(state / 'reviewed.json'))
+    monkeypatch.setenv('BOOKGEN_HINDI_ONLY', '1')
+    monkeypatch.delenv('BOOKGEN_RATE_POLICY', raising=False)
+    assert bookgen.main(['--chapter', str(chapter)]) == 1
+    assert (state / 'STOP').exists()
+    assert not fake_ai
+
+
 @pytest.fixture
 def chapter(tmp_path, monkeypatch):
     root = tmp_path / 'books'
