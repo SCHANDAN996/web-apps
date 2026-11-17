@@ -1,6 +1,7 @@
 from pathlib import Path
 from types import SimpleNamespace
 import threading
+import json
 
 from tools import book_autopilot as pilot
 
@@ -10,23 +11,40 @@ def test_active_workflow_excludes_disabled_secret_refs():
     assert 'secrets.NVIDIA_API_KEY }}' not in workflow
     assert 'secrets.NVIDIA_API_KEY_2' not in workflow
     assert 'NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY_3 }},${{ secrets.NVIDIA_API_KEY_4 }}' in workflow
-    assert '--workers 3' in workflow
+    assert '--workers 6' in workflow
+    assert "NVIDIA_ACCOUNT_MIN_INTERVAL_SECONDS: '10'" in workflow
+    assert "NVIDIA_MAX_INFLIGHT_PER_KEY: '2'" in workflow
+    assert 'BOOKGEN_RATE_POLICY: parallel-v1' in workflow
     assert 'matrix' not in workflow
     assert 'NVIDIA_MIN_INTERVAL_SECONDS' in workflow
     assert "if: github.ref == 'refs/heads/main'" in workflow
     assert 'if [ "$GITHUB_REF_NAME" != main ]; then' in workflow
 
 
-def test_worker_pool_uses_only_supplied_active_keys(monkeypatch):
+def test_every_worker_receives_both_active_keys_for_dynamic_request_routing(tmp_path, monkeypatch):
     monkeypatch.setenv('NVIDIA_API_KEY', 'active-three,active-four')
     monkeypatch.setenv('NVIDIA_API_KEY_2', 'disabled-two')
     monkeypatch.setenv('NVIDIA_API_KEY_3', 'active-three')
     monkeypatch.setenv('NVIDIA_API_KEY_4', 'active-four')
-    selected = []
-    for n in (1, 2, 3):
+    received = []
+    class Process:
+        returncode = 0
+        stdout = ['2026 WARNING NVIDIA rate_limited — retrying in 60s']
+        def __init__(self, *args, **kwargs):
+            received.append(kwargs['env']['NVIDIA_API_KEY'])
+        def __enter__(self):
+            return self
+        def __exit__(self, *args):
+            pass
+    monkeypatch.setattr(pilot.subprocess, 'Popen', Process)
+    p = pilot.Pilot.__new__(pilot.Pilot)
+    p.state_dir = tmp_path
+    p.log = lambda *a: None
+    for n in (1, 2, 3, 4, 5, 6):
         monkeypatch.setattr(pilot.threading, 'current_thread', lambda n=n: SimpleNamespace(name=f'W{n}'))
-        selected.append(pilot.Pilot.__new__(pilot.Pilot).key_for_worker())
-    assert selected == ['active-three', 'active-four', 'active-three']
+        lines, bad = p.bookgen(tmp_path / 'Chapter_01_topic')
+        assert 'rate_limited' in lines[0] and not bad
+    assert received == ['active-three,active-four'] * 6
 
 
 def test_failed_chapter_waits_while_other_chapters_continue(tmp_path, monkeypatch):
@@ -69,3 +87,18 @@ def test_worker_exception_counts_toward_failure_budget(monkeypatch):
     p.worker(1)
     assert failures == ['broken']
     assert not p.claimed
+
+
+def test_pool_usage_labels_survive_an_empty_key_without_exposing_keys(tmp_path, monkeypatch):
+    monkeypatch.setenv('BOOKGEN_RATE_STATE_DIR', str(tmp_path))
+    monkeypatch.setenv('NVIDIA_API_KEY_LABELS', '3,4')
+    monkeypatch.setenv('NVIDIA_API_KEY', 'private-three,private-four')
+    path = tmp_path / 'pool.json'
+    path.write_text(json.dumps({'starts_by_index': [7, 6]}))
+    p = pilot.Pilot.__new__(pilot.Pilot)
+    assert p.api_pool_usage() == [('3', 7), ('4', 6)]
+    monkeypatch.setenv('NVIDIA_API_KEY', ',private-four')
+    path.write_text(json.dumps({'starts_by_index': [8]}))
+    assert p.api_pool_usage() == [('4', 8)]
+    path.write_text('partial write')
+    assert p.api_pool_usage() == []

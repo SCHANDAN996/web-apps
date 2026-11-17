@@ -3,8 +3,8 @@ Book autopilot — writes/repairs book chapters one after another with bookgen (
 each chapter that passes bookcheck. Runs until every chapter is done or it is stopped.
 
     cd study_station/v2
-    NVIDIA_API_KEY=… python tools/book_autopilot.py --workers 3 [--reverse] [--dry-run]
-    NVIDIA_API_KEY=key1,key2 … --workers 8      # several keys: shared out over the workers
+    NVIDIA_API_KEY=… python tools/book_autopilot.py --workers 6 [--reverse] [--dry-run]
+    NVIDIA_API_KEY=active-key-three,active-key-four … --workers 6
 
 Order: the books in books/QUEUE.txt (--reverse = last book first, so it never meets a writer working from the
 front), chapters 01 → last inside a book. Several workers run on different chapters; git is serialized by a lock.
@@ -217,19 +217,10 @@ class Pilot:
             return set()
         return {l.split('#')[0].strip().rstrip('/') for l in lines if l.split('#')[0].strip()}
 
-    def key_for_worker(self):
-        """Several NVIDIA keys (comma-separated in NVIDIA_API_KEY) are shared out over the workers, so each key
-        carries only its share of the requests."""
-        keys = [k.strip() for k in os.environ.get('NVIDIA_API_KEY', '').split(',') if k.strip()]
-        if len(keys) <= 1:
-            return keys[0] if keys else ''
-        name = threading.current_thread().name
-        n = int(name[1:]) - 1 if name[:1] == 'W' and name[1:].isdigit() else 0
-        return keys[n % len(keys)]
-
     def bookgen(self, ch, *extra):
         cmd = [sys.executable, '-m', 'app.bookgen', '--chapter', str(ch), *extra]
-        env = {**os.environ, 'NVIDIA_API_KEY': self.key_for_worker(), 'BOOKGEN_REVIEW_CACHE': str(self.state_dir / 'reviewed.json'),
+        # Every worker gets the full active pool; NVIDIA selects a free key for each request.
+        env = {**os.environ, 'BOOKGEN_REVIEW_CACHE': str(self.state_dir / 'reviewed.json'),
                'BOOKGEN_HINDI_ONLY': '1',  # this parent has the Hindi-only completion checker loaded
                'AI_DAILY_BOOK_SECTIONS': os.environ.get('AI_DAILY_BOOK_SECTIONS', '100000'),
                'AI_DAILY_LIMIT_TOTAL': os.environ.get('AI_DAILY_LIMIT_TOTAL', '1000000')}
@@ -239,7 +230,9 @@ class Pilot:
                               env={**env, 'PYTHONUNBUFFERED': '1'}) as proc:
             for line in proc.stdout:
                 line = line.rstrip()
-                if not line or ' INFO ' in line or ' WARNING ' in line or line.startswith(('---', 'TODO ', 'FIX ', 'OK ')):
+                if not line or ' INFO ' in line or line.startswith(('---', 'TODO ', 'FIX ', 'OK ')):
+                    continue
+                if ' WARNING ' in line and 'NVIDIA rate_limited ' not in line:
                     continue
                 if line.lstrip().startswith(('todo ', 'problem ')):
                     continue
@@ -340,6 +333,9 @@ class Pilot:
         self.stop_file.unlink(missing_ok=True)
         self.pull()
         self.log(f'autopilot start: {self.args.workers} workers, reverse={self.args.reverse}')
+        self.log('API policy: account start interval=' + os.environ.get('NVIDIA_ACCOUNT_MIN_INTERVAL_SECONDS', '0')
+                 + 's; key start interval=' + os.environ.get('NVIDIA_MIN_INTERVAL_SECONDS', '15')
+                 + 's; in-flight per key=' + os.environ.get('NVIDIA_MAX_INFLIGHT_PER_KEY', '1'))
         threads = [threading.Thread(target=self.worker, args=(i,), daemon=True, name=f'W{i + 1}')
                    for i in range(self.args.workers)]
         for i, t in enumerate(threads):
@@ -359,6 +355,26 @@ class Pilot:
         return 0
 
     # ------------------------------------------------------------ live status page
+    def api_pool_usage(self):
+        """Read non-secret request-start counters; labels match the configured pool order."""
+        root = os.environ.get('BOOKGEN_RATE_STATE_DIR')
+        if not root:
+            return []
+        try:
+            counts = json.loads((Path(root) / 'pool.json').read_text())['starts_by_index']
+            labels, seen = [], set()
+            for label, key in zip(os.environ.get('NVIDIA_API_KEY_LABELS', '').split(','),
+                                  os.environ.get('NVIDIA_API_KEY', '').split(',')):
+                key = key.strip()
+                if key and key not in seen:
+                    labels.append(label.strip())
+                    seen.add(key)
+            if len(labels) != len(counts):
+                return []
+            return [(label, max(0, int(count))) for label, count in zip(labels, counts)]
+        except (OSError, ValueError, KeyError, TypeError):
+            return []
+
     def write_status(self):
         now = datetime.now(IST)
         with self.lock:
@@ -381,6 +397,10 @@ class Pilot:
                            f"{STEP_HI.get(c['step'], c['step'])} | {mins} मिनट |")
         else:
             out.append('⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।')
+        usage = self.api_pool_usage()
+        if usage:
+            out += ['', '| सक्रिय API key | इस रन में शुरू हुई requests |', '|---|---|']
+            out += [f'| key {label} | {count} |' for label, count in usage]
         lanes = sorted((bookcheck.BOOKS_ROOT / 'autopilot').glob('*.md'))
         if self.status_file == STATUS_FILE and lanes:
             out += ['', '**बाकी साथ चल रहे runs:** ' + ' · '.join(f'[{l.stem}](autopilot/{l.name})' for l in lanes)]
