@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 02:32 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 11:58 PM
+**आख़िरी update:** 18-11-2026 02:48 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 11:58 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 9 मिनट |
-| W2 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 73 मिनट |
-| W3 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 32 मिनट |
-| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 22 मिनट |
+| W1 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 24 मिनट |
+| W2 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 89 मिनट |
+| W3 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 48 मिनट |
+| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 37 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
 | key 3 | 68 |
-| key 4 | 91 |
+| key 4 | 92 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -55,7 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 01:25:20   [ling_vachan_karak] review Feynman_hi.txt: 6 issue(s): - "पुस्तक" को पुल्लिंग तालिका में "अपवाद" बताना गलत है → "पुस्तक" स्त्रीलिंग है, इसे स्त्रीलिंग सूची में रखें या पु
 18-11 01:27:29   [ling_vachan_karak] REJECTED review fix Feynman_hi.txt: reviewer still reports - लिंग section: The exception list includes "कहानी" (which follows the rule ई → स्त्रीलिंग)
 18-11 01:30:44   [kaal_vachya] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q99 key b vs re-solve d)
 18-11 01:34:56   [windows_files] review: 2 section(s) corrected, 0 failed
@@ -95,4 +94,5 @@
 18-11 02:23:25   [ling_vachan_karak] written 0, failed 5; AI calls today 156/100000
 18-11 02:23:25 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 90 min: todo [] problems []
 18-11 02:23:25 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya (OK: todo 0, problems 0)
+18-11 02:39:37   [sangya_sarvanam] review Content_hi.txt: 2 issue(s): - "बच्चा (बच्चे)" को उन शब्दों की सूची में शामिल किया गया है जिनका बहुवचन एकवचन जैसा ही रहता है, जबकि "बच्चा" का बह
 ```
