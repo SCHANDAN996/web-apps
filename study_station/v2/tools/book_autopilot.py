@@ -401,7 +401,7 @@ class Pilot:
         if usage:
             out += ['', '| सक्रिय API key | इस रन में शुरू हुई requests |', '|---|---|']
             out += [f'| key {label} | {count} |' for label, count in usage]
-        lanes = sorted((bookcheck.BOOKS_ROOT / 'autopilot').glob('*.md'))
+        lanes = sorted((bookcheck.BOOKS_ROOT / 'autopilot').glob('lane-*.md'))
         if self.status_file == STATUS_FILE and lanes:
             out += ['', '**बाकी साथ चल रहे runs:** ' + ' · '.join(f'[{l.stem}](autopilot/{l.name})' for l in lanes)]
         out += ['', '## 📊 हर किताब की प्रगति', '', '| किताब | ✅ पूरे | 🔧 सुधार बाकी | 📝 लिखना बाकी |', '|---|---|---|---|']
