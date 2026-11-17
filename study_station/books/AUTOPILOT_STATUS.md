@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 17-11-2026 09:53 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:33 PM
+**आख़िरी update:** 17-11-2026 10:05 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:33 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 23 मिनट |
-| W2 | Chapter 02 shabd bhed (10th Hindi) | 🔎 review हो रहा है | 0 मिनट |
-| W3 | Chapter 06 keyboard shortcuts (12th Computer) | ✍️ लिख रहा है | 44 मिनट |
-| W4 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 49 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 35 मिनट |
+| W2 | Chapter 02 shabd bhed (10th Hindi) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 06 keyboard shortcuts (12th Computer) | ✍️ लिख रहा है | 56 मिनट |
+| W4 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 61 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 104 |
-| key 4 | 131 |
+| key 3 | 109 |
+| key 4 | 143 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -42,7 +42,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 17-11 22:05 — 10th Hindi · Chapter 02 shabd bhed
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
@@ -57,17 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 21:08:48   [windows_files] REJECTED review fix Content_en.txt: reviewer still reports - Example 3: Effective permission incorrectly stated as Modify; Share Change is more restri
-17-11 21:10:56   [keyboard_shortcuts] wrote Content_en.txt (19957 chars)
-17-11 21:11:56   [windows_files] review Key_Facts_en.txt: 1 issue(s): - The claim that SSC syllabus expects familiarity with Windows 10/11 Home, Pro, Enterprise, and Education edition
-17-11 21:15:00   [windows_files] REJECTED review fix Key_Facts_en.txt: reviewer still reports - Safe Mode access path "Settings → Recovery → Advanced startup" is incorrect → In Window
-17-11 21:18:15   [keyboard_shortcuts] wrote Content_hi.txt (17438 chars)
-17-11 21:18:45   [keyboard_shortcuts] wrote Key_Facts_en.txt (4116 chars)
-17-11 21:19:27   [keyboard_shortcuts] wrote Key_Facts_hi.txt (2717 chars)
-17-11 21:19:54   [keyboard_shortcuts] wrote Feynman_en.txt (3558 chars)
-17-11 21:20:15   [kaal_vachya] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q57 key a vs re-solve c, Q58 key b vs re-solve a, Q73 key c vs re-solve d, Q74 key b vs re-solve ?)
-17-11 21:20:45   [keyboard_shortcuts] wrote Feynman_hi.txt (3983 chars)
-17-11 21:21:01   [keyboard_shortcuts] wrote Mind_Map.txt (2015 chars)
 17-11 21:22:55   [windows_files] review Mind_Map.txt: 1 issue(s): - Q["Shortcuts / शॉर्टकट"] → T["Keyboard Shortcuts / कीबोर्ड शॉर्टकट"] → In File Explorer's Ribbon, "Shortcuts" means
 17-11 21:24:04   [software_os] review PYQ_en.txt: 2 issue(s): - Example 4 (Round Robin numerical): The calculated average waiting time is 5.33, but none of the given options (3.0, 3
 17-11 21:26:15   [software_os] REJECTED review fix PYQ_en.txt: reviewer still reports - The "Common Examiner Traps" section states that "Ctrl+T opens a new tab in File Explorer" is 
@@ -97,4 +86,15 @@
 17-11 21:52:53   [windows_files] written 2, failed 4; AI calls today 236/100000
 17-11 21:52:53 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_05_windows_files after 53 min: todo [] problems []
 17-11 21:52:53 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_02_shabd_bhed (OK: todo 0, problems 0)
+17-11 21:54:34   [kaal_vachya] wrote Practice_hi_Set_03.txt (write, 25 MCQs)
+17-11 21:54:50   [varn_vartani] Practice_hi_Set_01.txt try 1: rejected (parsed 24 questions, numbers 1…25)
+17-11 21:55:57   [keyboard_shortcuts] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+17-11 21:56:38   [varn_vartani] Practice_hi_Set_01.txt try 2: rejected (parsed 24 questions, numbers 1…25)
+17-11 21:58:20   [shabd_bhed] review Flashcards_hi.txt: 1 issue(s): - Card 9: The rule “आकारांत स्त्रीलिंग में ‘एँ’ जुड़ता है” is illustrated with “लड़की → लड़कियाँ”, but “लड़की” e
+17-11 21:58:55   [keyboard_shortcuts] Practice_en_Set_02.txt try 1: re-solve disagrees (Q30 key a vs re-solve ?, Q41 key b vs re-solve ?, Q50 key b vs re-solve ?)
+17-11 22:02:10   [shabd_bhed] review Important_Rules_hi.txt: 2 issue(s): - नियम १० में स्त्रीलिंग संकेत के लिए "अकारांत" शब्द गलत है — "भाषा", "माता" जैसे शब्द **आकारांत** स्त्रीलि
+17-11 22:03:37   [keyboard_shortcuts] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+17-11 22:04:29   [keyboard_shortcuts] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+17-11 22:05:26   [shabd_bhed] review: 2 section(s) corrected, 0 failed
+17-11 22:05:26   [shabd_bhed] written 2, failed 0; AI calls today 253/100000
 ```

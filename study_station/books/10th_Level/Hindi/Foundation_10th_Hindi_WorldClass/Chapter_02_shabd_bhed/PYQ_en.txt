@@ -1,0 +1,122 @@
+**PYQ Pattern Analysis — शब्द भेद (Word Classes)**
+
+**1. Core Question Patterns**
+
+| Pattern | What is Tested | Typical Wording |
+|---------|----------------|-----------------|
+| **Identify the Part of Speech** | Recognise the class of a highlighted word in a sentence. | “In the sentence “राम पढ़ता है”, the word “पढ़ता” is a …” |
+| **Classify the Sub-type** | Pick the correct sub-category (e.g., proper noun, personal pronoun, qualitative adjective). | ““गंगा” किस प्रकार की संज्ञा है?” |
+| **Spot the Error** | One word is mis-classified in a set of four. | “निम्न में से कौन-सा युग्म गलत है?” |
+| **Fill in the Blank with Correct Class** | Choose the word that fits the required part of speech. | “रिक्त स्थान में उपयुक्त क्रिया चुनिए: “वह ______ खाता है।”” |
+| **Match the Columns** | Column A has words; Column B has classes/sub-classes. | “सही सुमेलन कीजिए।” |
+| **Sentence-based Identification** | A full sentence is given; identify the class of two or three underlined words. | “वाक्य “सीता सुंदर गाती है” में “सुंदर” ______ है।” |
+
+**2. Frequent Traps (Examiner’s Tricks)**
+
+| Trap | Description | Example |
+|------|-------------|---------|
+| **Same Word, Different Class** | A word functions as different parts of speech in different sentences. | “काम” → Noun in “काम कठिन है”, Verb in “वह काम करता है”. |
+| **Pronoun vs Adjective** | Demonstrative/possessive words look alike. | “यह” → Pronoun in “यह पुस्तक है”, Adjective in “यह पुस्तक अच्छी है”. |
+| **Postposition Masquerading as Adverb** | Words like “ऊपर”, “नीचे”, “अंदर” are postpositions when governing a noun, adverbs otherwise. | “मेज़ “ऊपर” रखो” (postposition) vs “वह “ऊपर” गया” (adverb). |
+| **Conjunction vs Relative Adverb** | “जब”, “जहाँ”, “जैसे” can be conjunctions or relative adverbs. | ““जब” वह आया, मैं सो रहा था” (conjunction) vs ““जब” वह आया तब मैं सो रहा था” (relative adverb). |
+| **Interjection Confused with Noun/Verb** | Exclamatory words like “हाय”, “अरे”, “वाह” are always interjections. | ““वाह”! सुंदर दृश्य है” — “वाह” is विस्मयादिबोधक, not adjective. |
+| **Compound Verb Split** | In “पढ़ लिया”, “पढ़” is main verb, “लिया” is auxiliary; both together form one क्रिया. | Do not mark “लिया” as separate main verb. |
+| **Number/Gender Agreement as Distractor** | Options may differ only in gender/number suffix; the class remains same. | “लड़का/लड़की” — both संज्ञा, only gender differs. |
+
+**3. High-Yield Sub-topics (SSC GD / MTS / Group D Focus)**
+
+1. **संज्ञा के भेद** — व्यक्तिवाचक, जातिवाचक, समूहवाचक, द्रव्यवाचक, भाववाचक.  
+   *PYQ-style:* ““भीड़” किस प्रकार की संज्ञा है?” → समूहवाचक.
+
+2. **सर्वनाम के भेद** — पुरुषवाचक, निश्चयवाचक, अनिश्चयवाचक, संबंधवाचक, प्रश्नवाचक.  
+   *PYQ-style:* ““कोई” किस प्रकार का सर्वनाम है?” → अनिश्चयवाचक.
+
+3. **विशेषण के भेद** — गुणवाचक, संख्यावाचक, परिमाणवाचक, सार्वनामिक.  
+   *PYQ-style:* ““कुछ” विशेषण है या सर्वनाम?” → सार्वनामिक विशेषण when qualifying noun (“कुछ लोग”), अनिश्चयवाचक सर्वनाम when standing alone (“कुछ खाओ”).
+
+4. **क्रिया के भेद** — सकर्मक/अकर्मक, साधारण/संयुक्त, काल के अनुसार (वर्तमान, भूत, भविष्यत्).  
+   *PYQ-style:* ““सोना” अकर्मक क्रिया है — सत्य/असत्य?” → सत्य.
+
+5. **क्रिया विशेषण के भेद** — काल, स्थान, परिमाण, प्रकार, कारण, उद्देश्य, अस्वीकृति.  
+   *PYQ-style:* ““धीरे-धीरे” किस प्रकार का क्रिया विशेषण है?” → प्रकारवाचक.
+
+6. **संबंधबोधक (Postpositions)** — “का”, “के”, “की”, “को”, “से”, “में”, “पर”, “तक”, “के लिए”, “के साथ”.  
+   *PYQ-style:* ““राम “के” लिए” में “के” संबंधबोधक है।”
+
+7. **समुच्चयबोधक** — “और”, “या”, “लेकिन”, “किंतु”, “परंतु”, “इसलिए”, “क्योंकि”.  
+   *PYQ-style:* ““वह आया “और” चला गया” — “और” संयोजक समुच्चयबोधक है।”
+
+8. **विस्मयादिबोधक** — “अरे”, “हाय”, “वाह”, “आह”, “ओह”, “बाप रे”.  
+   *PYQ-style:* ““हाय! मैं मर गया” में “हाय” विस्मयादिबोधक है।”
+
+**4. Worked PYQ-style Examples**
+
+> **Example 1**  
+> **Question:** In the sentence ““बच्चे खेल रहे हैं””, the word ““खेल”” is a —  
+> (a) संज्ञा  
+> (b) क्रिया  
+> (c) विशेषण  
+> (d) क्रिया विशेषण  
+> **Answer:** (b)  
+> **Solution:** ““खेल”” is the main verb root (क्रिया मूल) forming the compound verb ““खेल रहे हैं””. It denotes action → क्रिया.  
+> **Source:** NCERT Class 6 Hindi Grammar
+
+> **Example 2**  
+> **Question:** Which pair is **incorrectly** matched?  
+> (a) ““गंगा”” — व्यक्तिवाचक संज्ञा  
+> (b) ““भीड़”” — द्रव्यवाचक संज्ञा  
+> (c) ““दया”” — भाववाचक संज्ञा  
+> (d) ““सेना”” — समूहवाचक संज्ञा  
+> **Answer:** (b)  
+> **Solution:** ““भीड़”” denotes a collection of persons → समूहवाचक संज्ञा, not द्रव्यवाचक.  
+> **Source:** NCERT Class 9 Hindi Grammar
+
+> **Example 3**  
+> **Question:** Identify the part of speech of ““अपना”” in ““यह “अपना” घर है””.  
+> (a) पुरुषवाचक सर्वनाम  
+> (b) निश्चयवाचक सर्वनाम  
+> (c) सार्वनामिक विशेषण  
+> (d) अनिश्चयवाचक सर्वनाम  
+> **Answer:** (c)  
+> **Solution:** ““अपना”” qualifies the noun ““घर”” → सार्वनामिक विशेषण (possessive adjective).  
+> **Source:** NCERT Class 10 Hindi Grammar
+
+> **Example 4**  
+> **Question:** ““ऊपर”” in ““छत “ऊपर” चढ़ो”” functions as —  
+> (a) क्रिया विशेषण  
+> (b) संबंधबोधक  
+> (c) समुच्चयबोधक  
+> (d) विस्मयादिबोधक  
+> **Answer:** (b)  
+> **Solution:** ““ऊपर”” governs the noun ““छत”” (implied “छत के ऊपर”) → संबंधबोधक. In ““वह “ऊपर” गया”” it would be क्रिया विशेषण.  
+> **Source:** NCERT Class 8 Hindi Grammar
+
+> **Example 5**  
+> **Question:** Choose the sentence where ““जब”” is a **relative adverb** (संबंधवाचक क्रिया विशेषण), not a conjunction.  
+> (a) ““जब” वह आए तब बताना”  
+> (b) ““जब” वह आया मैं सो रहा था”  
+> (c) ““जब” तक वह न आए रुको”  
+> (d) ““जब” वह बोले सुनना”  
+> **Answer:** (a)  
+> **Solution:** In (a) ““जब”” correlates with ““तब”” → relative adverb of time. In (b) & (d) it joins two clauses → conjunction.  
+> **Source:** NCERT Class 9 Hindi Grammar
+
+**5. Quick Revision Checklist (Mind Map Nodes)**
+
+- संज्ञा → 5 भेद (व्यक्तिवाचक, जातिवाचक, समूहवाचक, द्रव्यवाचक, भाववाचक)  
+- सर्वनाम → 5 भेद (पुरुषवाचक, निश्चयवाचक, अनिश्चयवाचक, संबंधवाचक, प्रश्नवाचक)  
+- विशेषण → 4 भेद (गुणवाचक, संख्यावाचक, परिमाणवाचक, सार्वनामिक)  
+- क्रिया → सकर्मक/अकर्मक, साधारण/संयुक्त, 3 काल  
+- क्रिया विशेषण → 7 भेद (काल, स्थान, परिमाण, प्रकार, कारण, उद्देश्य, अस्वीकृति)  
+- संबंधबोधक → अव्यय, संज्ञा/सर्वनाम के बाद प्रयुक्त  
+- समुच्चयबोधक → संयोजक/व्यावृत्तिक/अन्य  
+- विस्मयादिबोधक → स्वतंत्र, वाक्य के आरंभ में, विराम चिह्न के साथ
+
+**6. Time-Management Tip**
+
+- **Identification questions** (15–20 sec): Spot the word → recall class → match option.  
+- **Sub-type questions** (25–30 sec): Eliminate obvious wrong sub-types first.  
+- **Error-spotting / Match** (35–45 sec): Check each pair; trust first instinct on clear mismatches.  
+- **Flag** only if two options look equally plausible; revisit in last 5 minutes.
+
+**Source for all patterns & examples:** NCERT Hindi Grammar (Classes 6–10) + PYQ-style original items.
