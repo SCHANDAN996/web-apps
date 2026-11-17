@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 12:45 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 11:58 PM
+**आख़िरी update:** 18-11-2026 01:00 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 11:58 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 46 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
-| W3 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 6 मिनट |
-| W4 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 46 मिनट |
+| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 7 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 47 मिनट |
+| W3 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 21 मिनट |
+| W4 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 61 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 13 |
-| key 4 | 28 |
+| key 3 | 25 |
+| key 4 | 43 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -44,14 +44,13 @@
 
 - अभी कोई नहीं
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 01 varn vartani (Hindi) — 1 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 23:58:51 autopilot start: 4 workers, reverse=False
-17-11 23:58:51 API policy: account start interval=20s; key start interval=15s; in-flight per key=1
-17-11 23:58:51 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (TODO: todo 2, problems 0)
-17-11 23:58:51   [varn_vartani] Hindi-only writer: direct Hindi content; English generation and translation disabled
-17-11 23:58:56 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (TODO: todo 1, problems 0)
 17-11 23:58:56   [sangya_sarvanam] Hindi-only writer: direct Hindi content; English generation and translation disabled
 17-11 23:59:01 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya (TODO: todo 1, problems 0)
 17-11 23:59:01   [visheshan_kriya] Hindi-only writer: direct Hindi content; English generation and translation disabled
@@ -76,4 +75,20 @@
 18-11 00:41:17   [software_os] review Feynman_en.txt: 4 issue(s): - "Application software are" (grammar: software is singular) → "Application software is"
 18-11 00:42:04   [visheshan_kriya] review Content_hi.txt: 1 issue(s): - In the table "विशेषण के रूप-परिवर्तन (लिंग-वचन-कारक अनुसार)", the adjectives **"नीला"** and **"मीठा"** are incorr
 18-11 00:42:40   [varn_vartani] Practice_hi_Set_03.txt try 2: rejected (Q59:duplicate_options,Q64:duplicate_options,Q75:duplicate_options)
+18-11 00:45:58   [visheshan_kriya] REJECTED review fix Content_hi.txt: reviewer still reports - Example 1 and Example 5 misclassify 'बहुत' as a संख्यावाचक विशेषण when it modifies an adj
+18-11 00:47:11   [visheshan_kriya] review Key_Facts_hi.txt: 2 issue(s): - Point 12 example "राम खाता है रोटी" uses incorrect word order (SVO) → Correct example: "राम रोटी खाता है" (SOV)
+18-11 00:49:09   [varn_vartani] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q52 key a vs re-solve b, Q56 key d vs re-solve ?, Q64 key d vs re-solve b)
+18-11 00:49:55   [visheshan_kriya] review Feynman_hi.txt: 3 issue(s): - The rule "विशेषण हमेशा संज्ञा के लिंग, वचन, कारक के अनुसार बदलता है" is false because some adjectives are invaria
+18-11 00:52:18   [visheshan_kriya] review Mind_Map.txt: 3 issue(s): - "क्रिया विशेषण / Adverb" shown as a subtype of "क्रिया / Verb" → Adverb (क्रिया विशेषण) is a separate part of speec
+18-11 00:53:00   [varn_vartani] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q72 key d vs re-solve c)
+18-11 00:53:00   [varn_vartani] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+18-11 00:53:00   [varn_vartani] written 1, failed 1; AI calls today 49/100000
+18-11 00:53:00 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 54 min: todo ['Set 03 hi: todo'] problems []
+18-11 00:53:00 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (OK: todo 0, problems 0)
+18-11 00:53:44   [sangya_sarvanam] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 22: The rule states that reflexive pronoun "अपना" agrees with the subject (कर्ता)
+18-11 00:54:58   [software_os] REJECTED review fix Feynman_en.txt: reviewer still reports - Windows boot process missing winload.efi between Windows Boot Manager and ntoskrnl.exe → 
+18-11 00:55:58   [sangya_sarvanam] review Flashcards_hi.txt: 1 issue(s): - कार्ड 18: "ने" को प्रथमा/कर्तृ कारक का चिह्न बताना गलत है → "ने" कर्तृ कारक (कर्ता कारक) का चिह्न है जो केवल स
+18-11 00:58:24   [visheshan_kriya] review Flashcards_hi.txt: 3 issue(s): - Card 11: The rule “क्रिया मूल + ‘गा/गे/गी’” does not produce the example “जाएगा” (from “जाना”); “जाना” is irre
+18-11 00:59:38   [ling_vachan_karak] review Content_hi.txt: 7 issue(s): - In the लिंग table, "कमरा" and "पत्तल" are incorrectly listed as नपुंसकलिंग examples → "कमरा" is पुल्लिंग (आ कारां
+18-11 00:59:48   [visheshan_kriya] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 11: "देगा" is listed as an irregular verb with vowel change, but "देना → देगा" is
 ```
