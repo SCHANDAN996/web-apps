@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 01:46 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 11:58 PM
+**आख़िरी update:** 18-11-2026 02:02 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 11:58 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 53 मिनट |
-| W2 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 27 मिनट |
-| W3 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 11 मिनट |
-| W4 | Chapter 06 keyboard shortcuts (12th Computer) | ✍️ लिख रहा है | 24 मिनट |
+| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 69 मिनट |
+| W2 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 43 मिनट |
+| W3 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 2 मिनट |
+| W4 | Chapter 06 keyboard shortcuts (12th Computer) | ✍️ लिख रहा है | 40 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 57 |
-| key 4 | 75 |
+| key 3 | 60 |
+| key 4 | 79 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -46,7 +46,7 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 01 varn vartani (Hindi) — 1 बार
+- Chapter 01 varn vartani (Hindi) — 2 बार
 - Chapter 04 visheshan kriya (Hindi) — 1 बार
 - Chapter 03 sangya sarvanam (Hindi) — 1 बार
 - Chapter 04 software os (Computer) — 1 बार
@@ -54,13 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 01:08:05   [sangya_sarvanam] review PYQ_hi.txt: 4 issue(s): - Section 5 trap "कारक चिह्न लोप" incorrectly labels "राम घर गया" as incorrect → "राम घर गया" is correct; "घर" function
-18-11 01:10:43   [visheshan_kriya] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 12: The example "वह जोरदार बोला" incorrectly uses "जोरदार" as an adverb (क्र
-18-11 01:10:43   [visheshan_kriya] review: 3 section(s) corrected, 4 failed
-18-11 01:10:43   [visheshan_kriya] written 3, failed 4; AI calls today 81/100000
-18-11 01:10:43 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 72 min: todo [] problems []
-18-11 01:10:44 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_05_windows_files (OK: todo 0, problems 0)
-18-11 01:12:05   [ling_vachan_karak] REJECTED review fix Content_hi.txt: reviewer still reports - लिंग-परिवर्तन नियम 2 में "आ → इन" का उदाहरण "सेठ → सेठानी" गलत है क्योंकि "सेठ" "आ" कारां
 18-11 01:13:05   [sangya_sarvanam] REJECTED review fix PYQ_hi.txt: reviewer still reports - In Section 1, the explanation incorrectly labels "माँ" as व्यक्तिवाचक संज्ञा → "माँ" is जातिव
 18-11 01:13:22   [ling_vachan_karak] review Key_Facts_hi.txt: 5 issue(s): - Point 7: The rule for ईकारांत पुल्लिंग gives the example “सेठ → सेठानी”, but “सेठ” does not end in ई (it is a c
 18-11 01:14:33   [windows_files] review Content_en.txt: 1 issue(s): - Example 2: The question states the file appears as "invoice" (no extension shown), but the explanation says the o
@@ -94,4 +87,11 @@
 18-11 01:44:52   [kaal_vachya] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q91 key c vs re-solve b)
 18-11 01:44:52   [kaal_vachya] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
 18-11 01:46:25   [kaal_vachya] Practice_hi_Set_05.txt try 1: rejected (Q114:duplicate_options,Q122:duplicate_options)
+18-11 01:53:46   [varn_vartani] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q75 key a vs re-solve d)
+18-11 01:56:22   [kaal_vachya] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q117 key b vs re-solve d, Q119 key a vs re-solve b, Q125 key c vs re-solve a)
+18-11 01:59:52   [varn_vartani] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q75 key a vs re-solve d)
+18-11 01:59:52   [varn_vartani] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+18-11 01:59:52   [varn_vartani] written 0, failed 1; AI calls today 136/100000
+18-11 01:59:52 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 25 min: todo ['Set 03 hi: todo'] problems []
+18-11 01:59:52 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
 ```
