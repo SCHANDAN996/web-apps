@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 04:19 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 11:58 PM
+**आख़िरी update:** 18-11-2026 04:35 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 11:58 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,13 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 22 मिनट |
-| W2 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 46 मिनट |
-| W3 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 140 मिनट |
-| W4 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 24 मिनट |
+| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 37 मिनट |
+| W2 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 61 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 103 |
-| key 4 | 125 |
+| key 3 | 104 |
+| key 4 | 133 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -48,8 +46,8 @@
 
 - Chapter 01 varn vartani (Hindi) — 2 बार
 - Chapter 04 visheshan kriya (Hindi) — 2 बार
-- Chapter 03 sangya sarvanam (Hindi) — 1 बार
-- Chapter 04 software os (Computer) — 1 बार
+- Chapter 03 sangya sarvanam (Hindi) — 2 बार
+- Chapter 04 software os (Computer) — 2 बार
 - Chapter 05 ling vachan karak (Hindi) — 1 बार
 - Chapter 06 kaal vachya (Hindi) — 1 बार
 - Chapter 06 keyboard shortcuts (Computer) — 1 बार
@@ -57,20 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 03:12:20   [keyboard_shortcuts] REJECTED review fix Content_en.txt: reviewer still reports - The claim that Ctrl+Shift+V pastes values only in some versions of Excel is incorrect; no
-18-11 03:20:21   [sangya_sarvanam] REJECTED review fix Content_hi.txt: reviewer still reports - "परीक्षा उपयोगी सूत्र" में व्यक्तिवाचक/जातिवाचक के लिए "पहला अक्षर बड़ा/छोटे अक्षर" का नि
-18-11 03:21:06   [keyboard_shortcuts] review Content_hi.txt: 2 issue(s): - In Section 6 (Browser shortcuts table), the row for "पीछे जाएँ" lists `Backspace` as a shortcut, but in current C
-18-11 03:21:57   [sangya_sarvanam] review Key_Facts_hi.txt: 6 issue(s): - Point 6: 'ने' described as only for plural/past (बहुवचन/भूतकाल में) → 'ने' is the ergative marker used in perfe
-18-11 03:25:36   [keyboard_shortcuts] REJECTED review fix Content_hi.txt: reviewer still reports - In section 4.1 (Excel workbook and sheet shortcuts), the old menu path for renaming a she
-18-11 03:25:50   [sangya_sarvanam] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Under point 6, the example "लड़कोंने खेला" for plural subject with 'ने' is grammaticall
-18-11 03:27:58   [keyboard_shortcuts] review Feynman_en.txt: 1 issue(s): - Office shortcuts list: example "Alt, H, V, P for Paste Special" is incorrect; the correct KeyTip sequence for Pas
-18-11 03:33:25   [kaal_vachya] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q138 key d vs re-solve b)
-18-11 03:33:25   [kaal_vachya] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
-18-11 03:33:25   [kaal_vachya] written 0, failed 3; AI calls today 179/100000
-18-11 03:33:25 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya after 135 min: todo ['Set 04 hi: todo', 'Set 05 hi: todo', 'Set 06 hi: todo'] problems ['Mind_Map.txt: Hindi file is mostly not in Hindi']
-18-11 03:33:25 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (TODO: todo 1, problems 0)
-18-11 03:33:26   [varn_vartani] Hindi-only writer: direct Hindi content; English generation and translation disabled
-18-11 03:34:26   [visheshan_kriya] review Content_hi.txt: 2 issue(s): - In section 1.1, the rule "विशेषण हमेशा संज्ञा/सर्वनाम के लिंग, वचन, कारक के अनुसार बदलता है" is incorrect because
 18-11 03:36:35   [keyboard_shortcuts] review PYQ_en.txt: 2 issue(s): - In section 2, the trap description states “both open Task Manager but via different paths” for Ctrl+Shift+Esc and Ctr
 18-11 03:37:15   [visheshan_kriya] REJECTED review fix Content_hi.txt: reviewer still reports - In worked example 1, "बहुत" is misclassified as संख्यावाचक विशेषण; it modifies the adject
 18-11 03:40:00   [visheshan_kriya] review Feynman_hi.txt: 2 issue(s): - Future tense example "वह जायेगा" is misspelled → Correct example: "वह जाएगा।"
@@ -97,4 +81,18 @@
 18-11 03:57:29 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (OK: todo 0, problems 0)
 18-11 04:07:56   [ling_vachan_karak] review Content_hi.txt: 3 issue(s): - In the कारक table, the कर्म example incorrectly adds को to inanimate "सेब" and labels it सजीव कर्म → The example 
 18-11 04:09:03   [software_os] review PYQ_en.txt: 2 issue(s): - Example 4 (Round Robin numerical): The correct average waiting time is 16/3 ≈ 5.33, but the provided options (3.0, 3.
+18-11 04:25:58   [software_os] REJECTED review fix PYQ_en.txt: reviewer still reports - The examiner trap "Ctrl+T opens a new tab in File Explorer (false — browser only)" is incorre
+18-11 04:28:14   [software_os] review Important_Rules_en.txt: 3 issue(s): - Rule 4 example incorrectly states that 8 GB RAM + 12 GB page file equals 20 GB virtual address space per 
+18-11 04:29:23   [sangya_sarvanam] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम २ में "अकारांत शब्द दोनों लिंग के हो सकते हैं" के उदाहरणों में "कमला" (आ कार
+18-11 04:29:23   [sangya_sarvanam] review: 0 section(s) corrected, 4 failed
+18-11 04:29:23   [sangya_sarvanam] written 0, failed 4; AI calls today 228/100000
+18-11 04:29:23 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 150 min: todo [] problems []
+18-11 04:29:23 worker 2: nothing left
+18-11 04:30:39   [software_os] REJECTED review fix Important_Rules_en.txt: reviewer still reports - Rule 4 incorrectly states that each 64-bit process has a user-mode virtual addres
+18-11 04:31:04   [software_os] review: 1 section(s) corrected, 2 failed
+18-11 04:31:04   [software_os] written 1, failed 2; AI calls today 229/100000
+18-11 04:31:04 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os after 36 min: todo [] problems []
+18-11 04:31:04 worker 3: nothing left
+18-11 04:33:21   [ling_vachan_karak] REJECTED review fix Content_hi.txt: reviewer still reports - In Section 1, rule 2 "आ → इन" lists "सेठ → सेठानी" as an example, but "सेठ" does not end 
+18-11 04:34:42   [ling_vachan_karak] review Key_Facts_hi.txt: 5 issue(s): - Point 4 claims Hindi has a neuter gender (नपुंसकलिंग) with examples किताब, मेज, पानी, आकाश; modern Hindi has on
 ```
