@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 17-11-2026 10:08 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:33 PM
+**आख़िरी update:** 17-11-2026 10:23 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:33 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 38 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 2 मिनट |
-| W3 | Chapter 06 keyboard shortcuts (12th Computer) | ✍️ लिख रहा है | 59 मिनट |
-| W4 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 64 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 54 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 17 मिनट |
+| W3 | Chapter 06 keyboard shortcuts (12th Computer) | ✍️ लिख रहा है | 75 मिनट |
+| W4 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 79 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 110 |
-| key 4 | 144 |
+| key 3 | 114 |
+| key 4 | 153 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -56,12 +56,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 21:29:38   [software_os] REJECTED review fix Important_Rules_en.txt: reviewer still reports - Rule 4: Claims 64-bit Windows user-mode processes have 8 TB virtual address space
-17-11 21:29:38   [software_os] review: 0 section(s) corrected, 2 failed
-17-11 21:29:38   [software_os] written 0, failed 2; AI calls today 209/100000
-17-11 21:29:38 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os after 30 min: todo [] problems []
-17-11 21:29:39 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (TODO: todo 2, problems 0)
-17-11 21:29:39   [varn_vartani] Hindi-only writer: direct Hindi content; English generation and translation disabled
 17-11 21:30:55   [keyboard_shortcuts] wrote Flashcards_en.txt (2954 chars)
 17-11 21:31:32   [keyboard_shortcuts] wrote Flashcards_hi.txt (3491 chars)
 17-11 21:32:58   [keyboard_shortcuts] wrote PYQ_en.txt (11056 chars)
@@ -96,4 +90,10 @@
 17-11 22:05:45   [sangya_sarvanam] Hindi-only writer: direct Hindi content; English generation and translation disabled
 17-11 22:07:12   [varn_vartani] Practice_hi_Set_01.txt try 3: rejected (Q17:duplicate_options,Q21:duplicate_options)
 17-11 22:07:57   [kaal_vachya] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q86 key b vs re-solve c, Q91 key c vs re-solve a, Q95 key c vs re-solve a)
+17-11 22:13:31   [keyboard_shortcuts] Practice_en_Set_03.txt try 1: re-solve disagrees (Q65 key b vs re-solve ?, Q66 key b vs re-solve c, Q70 key a vs re-solve ?, Q71 key b vs re-solve ?)
+17-11 22:17:59   [kaal_vachya] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q84 key b vs re-solve c, Q100 key a vs re-solve d)
+17-11 22:19:11   [keyboard_shortcuts] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+17-11 22:20:28   [keyboard_shortcuts] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+17-11 22:21:27   [sangya_sarvanam] Practice_hi_Set_01.txt try 1: rejected (Q15:duplicate_options)
+17-11 22:23:30   [kaal_vachya] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q86 key a vs re-solve c)
 ```
