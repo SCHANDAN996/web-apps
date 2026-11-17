@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 17-11-2026 11:59 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 11:58 PM
+**आख़िरी update:** 18-11-2026 12:14 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 11:58 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
-| W3 | Chapter 04 visheshan kriya (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
-| W4 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 0 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 16 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 1 मिनट |
+| W3 | Chapter 04 visheshan kriya (10th Hindi) | ✍️ लिख रहा है | 15 मिनट |
+| W4 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 15 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 1 |
-| key 4 | 1 |
+| key 3 | 5 |
+| key 4 | 10 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -24,7 +24,7 @@
 
 | किताब | ✅ पूरे | 🔧 सुधार बाकी | 📝 लिखना बाकी |
 |---|---|---|---|
-| 10th Hindi | 2 | 0 | 15 |
+| 10th Hindi | 3 | 0 | 14 |
 | 12th Computer | 5 | 0 | 9 |
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
@@ -38,7 +38,7 @@
 | Graduation GK | 28 | 0 | 0 |
 | Graduation Reasoning | 30 | 0 | 0 |
 | Graduation English | 30 | 0 | 0 |
-| **कुल** | **303** | **0** | **24** |
+| **कुल** | **304** | **0** | **23** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -56,4 +56,11 @@
 17-11 23:59:01 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya (TODO: todo 1, problems 0)
 17-11 23:59:01   [visheshan_kriya] Hindi-only writer: direct Hindi content; English generation and translation disabled
 17-11 23:59:06 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os (OK: todo 0, problems 0)
+18-11 00:00:23   [varn_vartani] Practice_hi_Set_01.txt try 1: rejected (Q18:duplicate_options)
+18-11 00:02:17   [sangya_sarvanam] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q5 key a vs re-solve b, Q12 key d vs re-solve c, Q25 key a vs re-solve b)
+18-11 00:05:43   [sangya_sarvanam] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q5 key a vs re-solve b, Q25 key a vs re-solve b)
+18-11 00:09:28   [sangya_sarvanam] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q5 key d vs re-solve b)
+18-11 00:12:13   [varn_vartani] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q8 key d vs re-solve b, Q10 key a vs re-solve ?, Q13 key a vs re-solve b, Q24 key d vs re-solve c)
+18-11 00:13:39   [sangya_sarvanam] wrote Practice_hi_Set_01.txt (write, 25 MCQs)
+18-11 00:13:39   [sangya_sarvanam] written 1, failed 0; AI calls today 11/100000
 ```
