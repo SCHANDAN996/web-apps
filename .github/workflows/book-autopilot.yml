@@ -21,7 +21,7 @@ jobs:
   write-books:
     # All writer runs share the default-branch cache scope, including canonical push triggers.
     if: github.ref == 'refs/heads/main'
-    # One run owns the queue; six chapters share four in-flight API slots and one account throttle.
+    # One run owns the queue; four chapters share two in-flight API slots and one account throttle.
     # Keep the existing concurrency group so old and new runs never overlap.
     concurrency:
       group: book-autopilot-two-chapters
@@ -64,12 +64,12 @@ jobs:
           names = ('NVIDIA_API_KEY_3', 'NVIDIA_API_KEY_4')
           if not any(os.environ.get(name, '').strip() for name in names):
               raise SystemExit('Configure NVIDIA_API_KEY_3 or NVIDIA_API_KEY_4; keys 1 and 2 are disabled.')
-      - name: Write books (six-chapters)
+      - name: Write books (four-chapters)
         working-directory: study_station/v2
         timeout-minutes: 325           # step limit (not the job's) so the unfinished work is still packed
         env:
           # Hindi subject: Hindi-only writer/checkers/reviewer; no English translation.
-          # Only keys 3 and 4; all roles Ultra, six chapter workers, bounded account/key throttling.
+          # Only keys 3 and 4; all roles Ultra, four chapter workers, bounded account/key throttling.
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY_3 }},${{ secrets.NVIDIA_API_KEY_4 }}
           NVIDIA_API_KEY_LABELS: '3,4'
           BOOKGEN_REJECT_DIR: ${{ runner.temp }}/rejects
@@ -78,16 +78,16 @@ jobs:
           NVIDIA_FALLBACK_MODELS: nvidia/nemotron-3-ultra-550b-a55b
           BOOKGEN_RATE_STATE_DIR: ${{ runner.temp }}/autopilot/rate
           NVIDIA_MIN_INTERVAL_SECONDS: '15'
-          NVIDIA_ACCOUNT_MIN_INTERVAL_SECONDS: '10'
-          NVIDIA_MAX_INFLIGHT_PER_KEY: '2'
-          BOOKGEN_RATE_POLICY: parallel-v1
+          NVIDIA_ACCOUNT_MIN_INTERVAL_SECONDS: '20'
+          NVIDIA_MAX_INFLIGHT_PER_KEY: '1'
+          BOOKGEN_RATE_POLICY: parallel-v2
           PYTHONUNBUFFERED: '1'
         run: |
           git config user.name "study-station-book-autopilot"
           git config user.email "211449723+SCHANDAN996@users.noreply.github.com"
           mkdir -p ../books/autopilot
-          python tools/book_autopilot.py --workers 6 --max-fails 4 \
-            --name "six-chapters" --status-file "AUTOPILOT_STATUS.md" \
+          python tools/book_autopilot.py --workers 4 --max-fails 4 \
+            --name "four-chapters" --status-file "AUTOPILOT_STATUS.md" \
             --branch "$BOOKS_BRANCH" --state-dir "$RUNNER_TEMP/autopilot" --stop-new-after 240
       - name: Pack unfinished work
         if: always()
@@ -104,7 +104,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: autopilot-six-chapters-${{ github.run_id }}
+          name: autopilot-four-chapters-${{ github.run_id }}
           path: |
             ${{ runner.temp }}/autopilot/log.txt
             ${{ runner.temp }}/rejects
