@@ -11,10 +11,10 @@ def test_active_workflow_excludes_disabled_secret_refs():
     assert 'secrets.NVIDIA_API_KEY }}' not in workflow
     assert 'secrets.NVIDIA_API_KEY_2' not in workflow
     assert 'NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY_3 }},${{ secrets.NVIDIA_API_KEY_4 }}' in workflow
-    assert '--workers 6' in workflow
-    assert "NVIDIA_ACCOUNT_MIN_INTERVAL_SECONDS: '10'" in workflow
-    assert "NVIDIA_MAX_INFLIGHT_PER_KEY: '2'" in workflow
-    assert 'BOOKGEN_RATE_POLICY: parallel-v1' in workflow
+    assert '--workers 4' in workflow
+    assert "NVIDIA_ACCOUNT_MIN_INTERVAL_SECONDS: '20'" in workflow
+    assert "NVIDIA_MAX_INFLIGHT_PER_KEY: '1'" in workflow
+    assert 'BOOKGEN_RATE_POLICY: parallel-v2' in workflow
     assert 'matrix' not in workflow
     assert 'NVIDIA_MIN_INTERVAL_SECONDS' in workflow
     assert "if: github.ref == 'refs/heads/main'" in workflow
@@ -40,11 +40,11 @@ def test_every_worker_receives_both_active_keys_for_dynamic_request_routing(tmp_
     p = pilot.Pilot.__new__(pilot.Pilot)
     p.state_dir = tmp_path
     p.log = lambda *a: None
-    for n in (1, 2, 3, 4, 5, 6):
+    for n in (1, 2, 3, 4):
         monkeypatch.setattr(pilot.threading, 'current_thread', lambda n=n: SimpleNamespace(name=f'W{n}'))
         lines, bad = p.bookgen(tmp_path / 'Chapter_01_topic')
         assert 'rate_limited' in lines[0] and not bad
-    assert received == ['active-three,active-four'] * 6
+    assert received == ['active-three,active-four'] * 4
 
 
 def test_failed_chapter_waits_while_other_chapters_continue(tmp_path, monkeypatch):
