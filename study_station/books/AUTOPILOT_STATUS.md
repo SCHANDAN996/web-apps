@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 17-11-2026 07:35 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:33 PM
+**आख़िरी update:** 17-11-2026 07:50 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:33 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 62 मिनट |
-| W2 | Chapter 05 ling vachan karak (10th Hindi) | ✍️ लिख रहा है | 21 मिनट |
-| W3 | Chapter 05 windows files (12th Computer) | 🔎 review हो रहा है | 11 मिनट |
-| W4 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 32 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 77 मिनट |
+| W2 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 6 मिनट |
+| W3 | Chapter 05 windows files (12th Computer) | 🔎 review हो रहा है | 26 मिनट |
+| W4 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 47 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 36 |
-| key 4 | 45 |
+| key 3 | 55 |
+| key 4 | 47 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -24,7 +24,7 @@
 
 | किताब | ✅ पूरे | 🔧 सुधार बाकी | 📝 लिखना बाकी |
 |---|---|---|---|
-| 10th Hindi | 1 | 0 | 16 |
+| 10th Hindi | 2 | 0 | 15 |
 | 12th Computer | 5 | 0 | 9 |
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
@@ -38,7 +38,7 @@
 | Graduation GK | 28 | 0 | 0 |
 | Graduation Reasoning | 30 | 0 | 0 |
 | Graduation English | 30 | 0 | 0 |
-| **कुल** | **302** | **0** | **25** |
+| **कुल** | **303** | **0** | **24** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -53,13 +53,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 18:51:17   [visheshan_kriya] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
-17-11 18:53:24   [visheshan_kriya] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q93 key a vs re-solve d, Q94 key c vs re-solve d)
-17-11 18:57:28   [varn_vartani] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q2 key b vs re-solve ?, Q10 key b vs re-solve a, Q11 key a vs re-solve b, Q18 key d vs re-solve c)
-17-11 18:58:23   [visheshan_kriya] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q91 key d vs re-solve c)
-17-11 19:00:35   [visheshan_kriya] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q91 key d vs re-solve a)
-17-11 19:01:04   [shabd_bhed] review Flashcards_hi.txt: 5 issue(s): - Card 8: Feminine examples 'पेड़ी' and 'कमरी' are not standard Hindi feminine forms → Use correct feminine noun
-17-11 19:02:00   [sangya_sarvanam] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q8 key c vs re-solve d)
 17-11 19:03:05   [visheshan_kriya] wrote Practice_hi_Set_04.txt (write, 25 MCQs)
 17-11 19:03:05   [visheshan_kriya] written 1, failed 1; AI calls today 36/100000
 17-11 19:03:06 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 30 min: todo ['Set 02 hi: todo'] problems []
@@ -93,4 +86,11 @@
 17-11 19:29:33   [varn_vartani] Practice_hi_Set_03.txt try 1: rejected (Q51:duplicate_options,Q52:duplicate_options,Q60:duplicate_options,Q68:duplicate_options,Q72:duplicate_options)
 17-11 19:29:45   [ling_vachan_karak] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q66 key b vs re-solve c)
 17-11 19:33:21   [varn_vartani] Practice_hi_Set_03.txt try 2: rejected (Q52:duplicate_options)
+17-11 19:35:55   [software_os] REJECTED review fix Mind_Map.txt: reviewer still reports - Batch OS examples are wrong: Windows, Linux, macOS, Android, iOS are not batch operating sy
+17-11 19:37:09   [windows_files] review Feynman_en.txt: 1 issue(s): - The claim that files starting with '.' are hidden in Windows → In Windows, hidden files are determined by the Hid
+17-11 19:38:55   [windows_files] review Feynman_hi.txt: 1 issue(s): - Search Box example `name:.pdf` → केवल PDF फाइलें` is wrong because `name:.pdf` matches any filename containing ".
+17-11 19:43:34   [ling_vachan_karak] wrote Practice_hi_Set_03.txt (write, 25 MCQs)
+17-11 19:43:34   [ling_vachan_karak] written 2, failed 0; AI calls today 96/100000
+17-11 19:47:12   [windows_files] review PYQ_hi.txt: 1 issue(s): - In "तैयारी के लिए सुझाव" tip #9, the line "Win+Shift+S — आयताकार, फ्रीफॉर्म, विंडो, फुलस्क्रीन स्निप। विलंब स्निप (3/
+17-11 19:47:54   [varn_vartani] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q53 key b vs re-solve a, Q58 key a vs re-solve d, Q62 key a vs re-solve c, Q75 key b vs re-solve c)
 ```
