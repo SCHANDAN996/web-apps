@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 01:16 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 11:58 PM
+**आख़िरी update:** 18-11-2026 01:31 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 11:58 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 23 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 62 मिनट |
-| W3 | Chapter 05 windows files (12th Computer) | 🔎 review हो रहा है | 5 मिनट |
-| W4 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 77 मिनट |
+| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 38 मिनट |
+| W2 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 12 मिनट |
+| W3 | Chapter 05 windows files (12th Computer) | 🔎 review हो रहा है | 20 मिनट |
+| W4 | Chapter 06 keyboard shortcuts (12th Computer) | ✍️ लिख रहा है | 9 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 36 |
-| key 4 | 55 |
+| key 3 | 50 |
+| key 4 | 66 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -48,26 +48,12 @@
 
 - Chapter 01 varn vartani (Hindi) — 1 बार
 - Chapter 04 visheshan kriya (Hindi) — 1 बार
+- Chapter 03 sangya sarvanam (Hindi) — 1 बार
+- Chapter 04 software os (Computer) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 00:38:29   [varn_vartani] wrote Practice_hi_Set_01.txt (write, 25 MCQs)
-18-11 00:39:28   [visheshan_kriya] wrote Practice_hi_Set_02.txt (write, 25 MCQs)
-18-11 00:39:28   [visheshan_kriya] written 1, failed 0; AI calls today 31/100000
-18-11 00:41:08   [varn_vartani] Practice_hi_Set_03.txt try 1: rejected (parsed 0 questions, numbers -…-)
-18-11 00:41:17   [software_os] review Feynman_en.txt: 4 issue(s): - "Application software are" (grammar: software is singular) → "Application software is"
-18-11 00:42:04   [visheshan_kriya] review Content_hi.txt: 1 issue(s): - In the table "विशेषण के रूप-परिवर्तन (लिंग-वचन-कारक अनुसार)", the adjectives **"नीला"** and **"मीठा"** are incorr
-18-11 00:42:40   [varn_vartani] Practice_hi_Set_03.txt try 2: rejected (Q59:duplicate_options,Q64:duplicate_options,Q75:duplicate_options)
-18-11 00:45:58   [visheshan_kriya] REJECTED review fix Content_hi.txt: reviewer still reports - Example 1 and Example 5 misclassify 'बहुत' as a संख्यावाचक विशेषण when it modifies an adj
-18-11 00:47:11   [visheshan_kriya] review Key_Facts_hi.txt: 2 issue(s): - Point 12 example "राम खाता है रोटी" uses incorrect word order (SVO) → Correct example: "राम रोटी खाता है" (SOV)
-18-11 00:49:09   [varn_vartani] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q52 key a vs re-solve b, Q56 key d vs re-solve ?, Q64 key d vs re-solve b)
-18-11 00:49:55   [visheshan_kriya] review Feynman_hi.txt: 3 issue(s): - The rule "विशेषण हमेशा संज्ञा के लिंग, वचन, कारक के अनुसार बदलता है" is false because some adjectives are invaria
-18-11 00:52:18   [visheshan_kriya] review Mind_Map.txt: 3 issue(s): - "क्रिया विशेषण / Adverb" shown as a subtype of "क्रिया / Verb" → Adverb (क्रिया विशेषण) is a separate part of speec
-18-11 00:53:00   [varn_vartani] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q72 key d vs re-solve c)
-18-11 00:53:00   [varn_vartani] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
-18-11 00:53:00   [varn_vartani] written 1, failed 1; AI calls today 49/100000
-18-11 00:53:00 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 54 min: todo ['Set 03 hi: todo'] problems []
 18-11 00:53:00 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (OK: todo 0, problems 0)
 18-11 00:53:44   [sangya_sarvanam] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 22: The rule states that reflexive pronoun "अपना" agrees with the subject (कर्ता)
 18-11 00:54:58   [software_os] REJECTED review fix Feynman_en.txt: reviewer still reports - Windows boot process missing winload.efi between Windows Boot Manager and ntoskrnl.exe → 
@@ -92,4 +78,20 @@
 18-11 01:13:22   [ling_vachan_karak] review Key_Facts_hi.txt: 5 issue(s): - Point 7: The rule for ईकारांत पुल्लिंग gives the example “सेठ → सेठानी”, but “सेठ” does not end in ई (it is a c
 18-11 01:14:33   [windows_files] review Content_en.txt: 1 issue(s): - Example 2: The question states the file appears as "invoice" (no extension shown), but the explanation says the o
 18-11 01:14:55   [sangya_sarvanam] review Important_Rules_hi.txt: 5 issue(s): - Rule 2 incorrectly lists "पुत्री" and "नौकरानी" as examples of masculine "ई" कारांत nouns; they are femin
+18-11 01:18:47   [sangya_sarvanam] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 2: Example "कमरी" is not a valid Hindi word → replace with a valid feminine 
+18-11 01:18:47   [sangya_sarvanam] review: 1 section(s) corrected, 4 failed
+18-11 01:18:47   [sangya_sarvanam] written 1, failed 4; AI calls today 94/100000
+18-11 01:18:47 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 80 min: todo [] problems []
+18-11 01:18:47 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya (TODO: todo 3, problems 1)
+18-11 01:18:47   [kaal_vachya] Hindi-only writer: direct Hindi content; English generation and translation disabled
+18-11 01:21:48   [software_os] REJECTED review fix Important_Rules_en.txt: reviewer still reports - Rule 12: “LTSC 2021 (21H2) receives no new features until 2027” is incorrect → LT
+18-11 01:22:03   [software_os] review: 1 section(s) corrected, 3 failed
+18-11 01:22:03   [software_os] written 1, failed 3; AI calls today 103/100000
+18-11 01:22:03 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os after 83 min: todo [] problems []
+18-11 01:22:03 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_06_keyboard_shortcuts (TODO: todo 2, problems 0)
+18-11 01:23:10   [ling_vachan_karak] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 4 claims Hindi has a neuter gender (नपुंसकलिंग) for inanimate objects → Hindi has
+18-11 01:24:39   [windows_files] review PYQ_en.txt: 1 issue(s): - Section 3, third statement: “`robocopy` by default copies all files; it copies only changed files when options like `
+18-11 01:25:20   [ling_vachan_karak] review Feynman_hi.txt: 6 issue(s): - "पुस्तक" को पुल्लिंग तालिका में "अपवाद" बताना गलत है → "पुस्तक" स्त्रीलिंग है, इसे स्त्रीलिंग सूची में रखें या पु
+18-11 01:27:29   [ling_vachan_karak] REJECTED review fix Feynman_hi.txt: reviewer still reports - लिंग section: The exception list includes "कहानी" (which follows the rule ई → स्त्रीलिंग)
+18-11 01:30:44   [kaal_vachya] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q99 key b vs re-solve d)
 ```
