@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (three-chapters)
 
-**आख़िरी update:** 17-11-2026 11:53 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:31 AM
+**आख़िरी update:** 17-11-2026 11:54 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:31 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -48,7 +48,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 10:50:51   [kaal_vachya] Practice_en_Set_03.txt try 3: re-solve disagrees (Q61 key a vs re-solve ?, Q64 key d vs re-solve c, Q73 key b vs re-solve c, Q74 key c vs re-solve a)
 17-11 10:51:29   [windows_files] REJECTED review fix Feynman_en.txt: reviewer still reports - The search filter example 'type:pdf' is incorrect; Windows Search uses 'ext:pdf' or 'file
 17-11 10:52:21   [windows_files] review Flashcards_en.txt: 1 issue(s): - Card 15: FAT32 max volume listed as 2 TB (Windows format limit) → Windows format limit for FAT32 is 32 GB; the
 17-11 10:54:40   [windows_files] review PYQ_en.txt: 1 issue(s): - In "Typical Question Stems & Traps", the bullet for "Difference between `move` and `cut+paste`" states "`move` works 
@@ -88,4 +87,5 @@
 17-11 11:50:53   [kaal_vachya] written 15, failed 10; AI calls today 478/100000
 17-11 11:50:54 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya after 128 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 02 en: todo', 'Set 02 hi: todo'] problems []
 17-11 11:50:54 worker 1: nothing left
+17-11 11:54:00 autopilot end: done 0, failed 8
 ```
