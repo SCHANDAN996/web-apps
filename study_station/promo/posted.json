@@ -205,7 +205,12 @@
   "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_02_Pronoun#Set02#Q42",
   "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_18_Science_Tech#Set03#Q60",
   "12th_Level/Reasoning/Chapter_14_Alphabet_Questions#Set04#Q78",
-  "12th_Level/Reasoning/Chapter_21_Paper_Folding_Cutting#Short_Tricks_hi.txt#0"
+  "12th_Level/Reasoning/Chapter_21_Paper_Folding_Cutting#Short_Tricks_hi.txt#0",
+  "12th_Level/Reasoning/Chapter_01_Analogy#Set01#Q7",
+  "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_18_Error_Spotting_Adv#Set06#Q144",
+  "12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation#Set01#Q12",
+  "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_13_Awards#Set02#Q42",
+  "12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_12_Time_Distance#Set03#Q75"
  ],
  "shorts": [],
  "days": {
@@ -2261,6 +2266,58 @@
       "opt": "N",
       "exp": "उत्तर: N। बाएँ से 9वाँ अक्षर I (स्थिति 9) है और दाएँ से 8वाँ अक्षर बाएँ से 27 − 8 = 19वाँ अक्षर है, अर्थात् S; स्थिति 9 और 19 के बीच स्थिति 14 आती है, इसलिए उत्तर N है।",
       "part": "am"
+     }
+    ],
+    [
+     {
+      "id": "12th_Level/Reasoning/Chapter_01_Analogy#Set01#Q7",
+      "msg": 455,
+      "chapter": "12th_Level/Reasoning/Chapter_01_Analogy",
+      "q": "गाय : बछड़ा :: कुत्ता : ?",
+      "ans": 2,
+      "opt": "पिल्ला",
+      "exp": "उत्तर: पिल्ला। बिल्ली का बच्चा बिलौता (kitten) कहलाता है, इसलिए उत्तर पिल्ला है।",
+      "part": "pm"
+     },
+     {
+      "id": "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_18_Error_Spotting_Adv#Set06#Q144",
+      "msg": 456,
+      "chapter": "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_18_Error_Spotting_Adv",
+      "q": "त्रुटि पहचानें: Neither of the two (P)/ candidates have (Q)/ submitted (R)/ the required documents. (S)",
+      "ans": 1,
+      "opt": "भाग Q",
+      "exp": "उत्तर: भाग Q। त्रुटि भाग Q में है।",
+      "part": "pm"
+     },
+     {
+      "id": "12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation#Set01#Q12",
+      "msg": 457,
+      "chapter": "12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation",
+      "q": "एक बर्तन में 80 लीटर दूध है। 10 लीटर निकालकर उसके स्थान पर पानी भरा जाता है। यह क्रिया कुल 2 बार की जाती है। बर्तन में कितना दूध शेष रहेगा?",
+      "ans": 0,
+      "opt": "61.25 लीटर",
+      "exp": "उत्तर: 61.25 लीटर। शेष दूध = 80 × (1 − 10/80)^2 = 61.25 लीटर।",
+      "part": "pm"
+     },
+     {
+      "id": "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_13_Awards#Set02#Q42",
+      "msg": 458,
+      "chapter": "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_13_Awards",
+      "q": "पुलित्ज़र पुरस्कार किस देश से जुड़ा है?",
+      "ans": 2,
+      "opt": "संयुक्त राज्य अमेरिका",
+      "exp": "उत्तर: संयुक्त राज्य अमेरिका। यूनाइटेड किंगडम बुकर पुरस्कार के कारण एक जाल है, लेकिन पत्रकारिता, साहित्य और संगीत के लिए दिया जाने वाला पुलित्ज़र पुरस्कार एक अमेरिकी पुरस्कार है जिसे कोलंबिया विश्ववि…",
+      "part": "pm"
+     },
+     {
+      "id": "12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_12_Time_Distance#Set03#Q75",
+      "msg": 459,
+      "chapter": "12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_12_Time_Distance",
+      "q": "एक आदमी A से B तक 20 किमी/घंटा की गति से जाता है और 30 किमी/घंटा की गति से लौटता है। यदि पूरी यात्रा में 5 घंटे लगते हैं, तो A और B के बीच की दूरी क्या है?",
+      "ans": 1,
+      "opt": "60 किमी",
+      "exp": "उत्तर: 60 किमी। जाल यह है कि औसत गति 25 किमी/घंटा × 5 घंटे = 125 किमी को एक तरफ़ की दूरी मान लें, इसलिए उत्तर 60 किमी है।",
+      "part": "pm"
      }
     ]
    ],
