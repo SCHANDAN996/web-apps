@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (three-chapters)
 
-**आख़िरी update:** 17-11-2026 11:07 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:31 AM
+**आख़िरी update:** 17-11-2026 11:23 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:31 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 84 मिनट |
+| W2 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 99 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -49,12 +49,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 10:36:15   [ling_vachan_karak] Practice_hi_Set_06.txt try 1: rejected (Q132: tested Hindi text must be explicitly quoted; Q135: tested Hindi text must be explicitly quoted; Q139: te
-17-11 10:37:15   [ling_vachan_karak] Practice_hi_Set_06.txt try 2: rejected (Q132: tested Hindi text must be explicitly quoted; Q135: tested Hindi text must be explicitly quoted; Q139: te
-17-11 10:38:17   [kaal_vachya] Practice_en_Set_02.txt try 4: re-solve disagrees (Q32 key c vs re-solve b)
-17-11 10:38:17   [kaal_vachya] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
-17-11 10:38:17   [kaal_vachya] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-17-11 10:38:39   [ling_vachan_karak] Practice_hi_Set_06.txt try 3: rejected (Q132: tested Hindi text must be explicitly quoted; Q135: tested Hindi text must be explicitly quoted; Q139: te
 17-11 10:39:06   [kaal_vachya] Practice_en_Set_03.txt try 1: rejected (Q71:leaked_reasoning,Q75:leaked_reasoning)
 17-11 10:39:36   [ling_vachan_karak] Practice_hi_Set_06.txt try 4: rejected (Q132: tested Hindi text must be explicitly quoted; Q135: tested Hindi text must be explicitly quoted; Q139: te
 17-11 10:39:36   [ling_vachan_karak] REJECTED Practice_hi_Set_06.txt: no translation passed the checks — not written
@@ -89,4 +83,10 @@
 17-11 11:02:36 worker 0: nothing left
 17-11 11:07:16   [kaal_vachya] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 17-11 11:07:55   [kaal_vachya] Practice_hi_Set_04.txt try 1: rejected (Q76: Hindi subject options changed between languages; Q77: Hindi subject options changed between languages; Q7
+17-11 11:08:32   [kaal_vachya] Practice_hi_Set_04.txt try 2: rejected (Q76: Hindi subject options changed between languages; Q77: Hindi subject options changed between languages; Q7
+17-11 11:09:15   [kaal_vachya] Practice_hi_Set_04.txt try 3: rejected (Q76: Hindi subject options changed between languages; Q77: Hindi subject options changed between languages; Q7
+17-11 11:10:00   [kaal_vachya] Practice_hi_Set_04.txt try 4: rejected (Q78: Hindi subject options changed between languages; Q85: Hindi subject options changed between languages; Q9
+17-11 11:10:00   [kaal_vachya] REJECTED Practice_hi_Set_04.txt: no translation passed the checks — not written
+17-11 11:11:15   [kaal_vachya] Practice_en_Set_05.txt try 1: rejected (Q125:leaked_reasoning)
+17-11 11:18:00   [kaal_vachya] Practice_en_Set_05.txt try 2: re-solve disagrees (Q102 key a vs re-solve ?, Q108 key c vs re-solve d, Q113 key b vs re-solve c, Q118 key b vs re-solve
 ```
