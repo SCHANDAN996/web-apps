@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 17-11-2026 08:05 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:33 PM
+**आख़िरी update:** 17-11-2026 08:21 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:33 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 92 मिनट |
-| W2 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 22 मिनट |
-| W3 | Chapter 05 windows files (12th Computer) | 🔎 review हो रहा है | 42 मिनट |
-| W4 | Chapter 02 shabd bhed (10th Hindi) | 🔎 review हो रहा है | 1 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 107 मिनट |
+| W2 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 37 मिनट |
+| W3 | Chapter 05 windows files (12th Computer) | 🔎 review हो रहा है | 57 मिनट |
+| W4 | Chapter 02 shabd bhed (10th Hindi) | 🔎 review हो रहा है | 16 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 67 |
-| key 4 | 53 |
+| key 3 | 70 |
+| key 4 | 66 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -54,14 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 19:15:30   [software_os] review Content_hi.txt: 2 issue(s): - In Example 1, the Korean word "허용" appears in the Hindi sentence "बड़ी फ़ाइलें 허용 करता है" → Replace "허용" with Hi
-17-11 19:15:42   [sangya_sarvanam] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q8 key d vs re-solve a)
-17-11 19:15:42   [sangya_sarvanam] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
-17-11 19:16:34   [ling_vachan_karak] Practice_hi_Set_01.txt try 1: rejected (Q9:duplicate_options)
-17-11 19:17:13   [software_os] REJECTED review fix Content_hi.txt: reviewer still reports - उदाहरण 4 का प्रश्न "कौन सा शॉर्टकट **केवल** ब्राउज़र में काम करता है, Word में नहीं?" गलत
-17-11 19:20:27   [ling_vachan_karak] wrote Practice_hi_Set_01.txt (write, 25 MCQs)
-17-11 19:21:27   [software_os] review Feynman_en.txt: 2 issue(s): - "Application software are the recipes you actually want" → "Application software is the recipes you actually want
-17-11 19:22:20   [varn_vartani] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q46 key c vs re-solve d, Q50 key a vs re-solve ?)
 17-11 19:22:58   [software_os] REJECTED review fix Feynman_en.txt: reviewer still reports - Windows boot process sequence omits the Windows OS loader (winload.efi) and incorrectly s
 17-11 19:23:48   [sangya_sarvanam] wrote Practice_hi_Set_05.txt (write, 25 MCQs)
 17-11 19:23:48   [sangya_sarvanam] written 1, failed 1; AI calls today 67/100000
@@ -94,4 +86,12 @@
 17-11 20:04:21   [software_os] written 1, failed 5; AI calls today 121/100000
 17-11 20:04:21 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os after 61 min: todo [] problems []
 17-11 20:04:21 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_02_shabd_bhed (OK: todo 0, problems 0)
+17-11 20:08:13   [ling_vachan_karak] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 4: The examples given for नपुंसकलिंग (बच्चा, फल, पत्र) are incorrect — these word
+17-11 20:09:27   [ling_vachan_karak] review Feynman_hi.txt: 5 issue(s): - Gender table lists 'पुस्तक' as पुल्लिंग (अपवाद) → 'पुस्तक' is स्त्रीलिंग; move to स्त्रीलिंग column and remove अप
+17-11 20:12:37   [ling_vachan_karak] REJECTED review fix Feynman_hi.txt: reviewer still reports - लिंग तालिका में 'कहानी' को पुल्लिंग स्तंभ में दिखाया गया है जबकि यह स्त्रीलिंग है → 'कहान
+17-11 20:14:03   [ling_vachan_karak] review Flashcards_hi.txt: 4 issue(s): - Card 4: The rule is for “ई” कारांत feminine nouns, but the examples “बहन → भाई” and “सास → ससुर” are not “ई” क
+17-11 20:16:59   [ling_vachan_karak] review PYQ_hi.txt: 4 issue(s): - In "15-सेकंड नियम → वचन", the rule "आकारान्त → एँ" is incorrect for direct plural; it should be "आकारान्त → ए" (e.g.,
+17-11 20:18:21   [varn_vartani] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q107 key d vs re-solve ?, Q116 key d vs re-solve b, Q124 key a vs re-solve c)
+17-11 20:19:02   [ling_vachan_karak] REJECTED review fix PYQ_hi.txt: reviewer still reports - The grammar rule for "ने" (ergative marker) in sections 3, 6, and 7 incorrectly states it app
+17-11 20:20:27   [ling_vachan_karak] review Important_Rules_hi.txt: 5 issue(s): - Rule 4 (ख) uses “लड़की” (ईकारांत) as an example for आकारांत स्त्रीलिंग; the example should be an आकारांत 
 ```
