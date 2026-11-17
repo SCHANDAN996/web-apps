@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 17-11-2026 06:33 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:33 PM
+**आख़िरी update:** 17-11-2026 06:49 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:33 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
-| W2 | Chapter 02 shabd bhed (10th Hindi) | 🔎 review हो रहा है | 0 मिनट |
-| W3 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
-| W4 | Chapter 04 visheshan kriya (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 16 मिनट |
+| W2 | Chapter 02 shabd bhed (10th Hindi) | 🔎 review हो रहा है | 15 मिनट |
+| W3 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 15 मिनट |
+| W4 | Chapter 04 visheshan kriya (10th Hindi) | ✍️ लिख रहा है | 15 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 1 |
-| key 4 | 1 |
+| key 3 | 11 |
+| key 4 | 9 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -56,4 +56,13 @@
 17-11 18:33:21   [sangya_sarvanam] Hindi-only writer: direct Hindi content; English generation and translation disabled
 17-11 18:33:26 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya (TODO: todo 2, problems 0)
 17-11 18:33:26   [visheshan_kriya] Hindi-only writer: direct Hindi content; English generation and translation disabled
+17-11 18:34:55   [visheshan_kriya] Practice_hi_Set_02.txt try 1: rejected (Q42:duplicate_options)
+17-11 18:34:55   [varn_vartani] Practice_hi_Set_01.txt try 1: rejected (parsed 24 questions, numbers 1…25)
+17-11 18:36:54   [shabd_bhed] review Content_hi.txt: 1 issue(s): - Common error 8 wrongly states that "वह आया लेकिन रुका" is a sentence fragment because "लेकिन" requires a negative
+17-11 18:39:20   [visheshan_kriya] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q46 key d vs re-solve b, Q47 key a vs re-solve b)
+17-11 18:39:43   [shabd_bhed] REJECTED review fix Content_hi.txt: reviewer still reports - समुच्चयबोधक के भेद में 'इसलिए' को कारणवाचक बताया गया है, जबकि यह परिणामवाचक है → 'इसलिए' 
+17-11 18:40:44   [shabd_bhed] review Key_Facts_hi.txt: 1 issue(s): - Point 18 incorrectly states that some words are considered neuter (नपुंसकलिंग) in Hindi grammar; Hindi recogniz
+17-11 18:42:23   [varn_vartani] Practice_hi_Set_01.txt try 2: rejected (Q17:duplicate_options,Q22:duplicate_options,Q23:duplicate_options)
+17-11 18:43:03   [visheshan_kriya] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q46 key c vs re-solve b)
+17-11 18:43:56   [shabd_bhed] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 18: 'आम्र' is incorrectly listed as a feminine (स्त्रीलिंग) noun; 'आम्र' is a San
 ```
