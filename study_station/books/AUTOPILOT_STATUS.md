@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 17-11-2026 08:21 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:33 PM
+**आख़िरी update:** 17-11-2026 08:36 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:33 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 107 मिनट |
-| W2 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 37 मिनट |
-| W3 | Chapter 05 windows files (12th Computer) | 🔎 review हो रहा है | 57 मिनट |
-| W4 | Chapter 02 shabd bhed (10th Hindi) | 🔎 review हो रहा है | 16 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 123 मिनट |
+| W2 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 52 मिनट |
+| W3 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 6 मिनट |
+| W4 | Chapter 02 shabd bhed (10th Hindi) | 🔎 review हो रहा है | 32 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 70 |
-| key 4 | 66 |
+| key 3 | 73 |
+| key 4 | 77 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -50,21 +50,11 @@
 - Chapter 02 shabd bhed (Hindi) — 1 बार
 - Chapter 03 sangya sarvanam (Hindi) — 1 बार
 - Chapter 04 software os (Computer) — 1 बार
+- Chapter 05 windows files (Computer) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 19:22:58   [software_os] REJECTED review fix Feynman_en.txt: reviewer still reports - Windows boot process sequence omits the Windows OS loader (winload.efi) and incorrectly s
-17-11 19:23:48   [sangya_sarvanam] wrote Practice_hi_Set_05.txt (write, 25 MCQs)
-17-11 19:23:48   [sangya_sarvanam] written 1, failed 1; AI calls today 67/100000
-17-11 19:23:48 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 50 min: todo ['Set 01 hi: todo'] problems []
-17-11 19:23:48 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_05_windows_files (OK: todo 0, problems 0)
-17-11 19:26:39   [ling_vachan_karak] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q71 key c vs re-solve ?)
-17-11 19:27:33   [varn_vartani] wrote Practice_hi_Set_02.txt (write, 25 MCQs)
-17-11 19:28:18   [software_os] review Mind_Map.txt: 1 issue(s): - "Types of OS" lists specific OS families (Windows, Linux) and a category (Mobile OS) as types → Types of OS should 
-17-11 19:29:33   [varn_vartani] Practice_hi_Set_03.txt try 1: rejected (Q51:duplicate_options,Q52:duplicate_options,Q60:duplicate_options,Q68:duplicate_options,Q72:duplicate_options)
-17-11 19:29:45   [ling_vachan_karak] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q66 key b vs re-solve c)
-17-11 19:33:21   [varn_vartani] Practice_hi_Set_03.txt try 2: rejected (Q52:duplicate_options)
 17-11 19:35:55   [software_os] REJECTED review fix Mind_Map.txt: reviewer still reports - Batch OS examples are wrong: Windows, Linux, macOS, Android, iOS are not batch operating sy
 17-11 19:37:09   [windows_files] review Feynman_en.txt: 1 issue(s): - The claim that files starting with '.' are hidden in Windows → In Windows, hidden files are determined by the Hid
 17-11 19:38:55   [windows_files] review Feynman_hi.txt: 1 issue(s): - Search Box example `name:.pdf` → केवल PDF फाइलें` is wrong because `name:.pdf` matches any filename containing ".
@@ -94,4 +84,15 @@
 17-11 20:18:21   [varn_vartani] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q107 key d vs re-solve ?, Q116 key d vs re-solve b, Q124 key a vs re-solve c)
 17-11 20:19:02   [ling_vachan_karak] REJECTED review fix PYQ_hi.txt: reviewer still reports - The grammar rule for "ने" (ergative marker) in sections 3, 6, and 7 incorrectly states it app
 17-11 20:20:27   [ling_vachan_karak] review Important_Rules_hi.txt: 5 issue(s): - Rule 4 (ख) uses “लड़की” (ईकारांत) as an example for आकारांत स्त्रीलिंग; the example should be an आकारांत 
+17-11 20:24:44   [windows_files] review Important_Rules_en.txt: 2 issue(s): - Rule 8: "Pinning a folder adds a shortcut there" is incorrect; the CustomDestinations folder contains str
+17-11 20:27:05   [windows_files] REJECTED review fix Important_Rules_en.txt: reviewer still reports - Rule 8 states Quick Access stores its data in %AppData%\Microsoft\Windows\Recent\
+17-11 20:28:17   [windows_files] review Important_Rules_hi.txt: 1 issue(s): - नियम 14: हार्ड लिंक के लिए "प्रशासनिक अधिकार ✅" गलत है → हार्ड लिंक (mklink /h) बनाने के लिए प्रशासनिक अध
+17-11 20:29:38   [windows_files] review: 4 section(s) corrected, 1 failed
+17-11 20:29:38   [windows_files] written 4, failed 1; AI calls today 143/100000
+17-11 20:29:38 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_05_windows_files after 66 min: todo [] problems []
+17-11 20:29:39 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (TODO: todo 1, problems 0)
+17-11 20:29:39   [sangya_sarvanam] Hindi-only writer: direct Hindi content; English generation and translation disabled
+17-11 20:31:21   [varn_vartani] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q105 key a vs re-solve b, Q116 key d vs re-solve b)
+17-11 20:32:00   [shabd_bhed] review Key_Facts_hi.txt: 2 issue(s): - Item 18 incorrectly states that some Hindi words are considered neuter (नपुंसकलिंग) and gives examples फल, पत्त
+17-11 20:35:12   [shabd_bhed] review Flashcards_hi.txt: 1 issue(s): - Card 9: Wrong plural formation rule for feminine nouns; “लड़की” is ईकारांत, not आकारांत, and its plural suffix
 ```
