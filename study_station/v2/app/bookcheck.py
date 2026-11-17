@@ -95,6 +95,8 @@ def language_problem(name, text, english_book=False, hindi_book=False):
     Hindi files explain English examples, so they need only a real share of Hindi."""
     m = re.search(r'_(hi|en)(?:_Set_\d+)?\.txt$', name)
     if not m:
+        if hindi_book and len(DEVANAGARI.findall(text)) < len(LATIN.findall(text)) * 0.5:
+            return f'{name}: Hindi file is mostly not in Hindi'
         return None
     if hindi_book and m.group(1) == 'en':
         # Do not permit an all-Hindi file masquerading as an English wrapper.
@@ -254,8 +256,7 @@ def check_chapter(chapter):
             problems.append(f'{name}: unsourced claim "{m.group(0)}"')
         if name.startswith('Mind_Map') and not re.search(r'```mermaid\s*\n\s*(?:graph|flowchart|mindmap)', text):
             problems.append(f'{name}: no ```mermaid graph block')
-        language_name = name if re.search(r'_(hi|en)\.txt$', name) or not is_hindi_subject(chapter) else name[:-4] + '_hi.txt'
-        if (lp := language_problem(language_name, text, '/English/' in Path(chapter).as_posix(),
+        if (lp := language_problem(name, text, '/English/' in Path(chapter).as_posix(),
                                    hindi_book=is_hindi_subject(chapter))):
             problems.append(lp)
         problems += source_problems(name, text)

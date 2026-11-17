@@ -26,7 +26,7 @@ from pathlib import Path
 from markupsafe import Markup, escape
 
 from . import catalog, config
-from .bookcheck import JUNK, is_prompt, section_files
+from .bookcheck import JUNK, is_prompt, section_files, is_hindi_subject
 from .i18n import t
 
 log = logging.getLogger('books')
@@ -374,7 +374,7 @@ def fill_meta(chapter_dir):
     hi, en = _titles(chapter_dir, name, {})
     if not meta.get('title_hi'):
         meta['title_hi'] = hi; changed.append('title_hi')
-    if not meta.get('title_en'):
+    if not is_hindi_subject(chapter_dir) and not meta.get('title_en'):
         meta['title_en'] = en; changed.append('title_en')
     if meta.get('type') not in META_TYPES:
         meta['type'] = 'dynamic' if 'Current_Affairs' in chapter_dir.name else 'static'; changed.append('type')

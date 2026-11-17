@@ -71,7 +71,7 @@ def test_hindi_practice_translation_keeps_options_and_tested_text():
     assert 'options changed' in ' '.join(hindi_pair_problems(en, reordered))
 
 
-def test_hindi_file_pair_uses_target_preservation_policy(tmp_path):
+def test_hindi_book_checks_hindi_without_english_dependency(tmp_path):
     en_path, hi_path = [tmp_path / f'Practice_{lang}_Set_01.txt' for lang in ('en', 'hi')]
     en, hi = [], []
     for n in range(1, 26):
@@ -83,4 +83,8 @@ def test_hindi_file_pair_uses_target_preservation_policy(tmp_path):
     hi_path.write_text('\n'.join(hi))
     assert check_practice_pair(en_path, hi_path, hindi_book=True) == []
     hi_path.write_text('\n'.join(hi).replace('«पानी»', '«आग»', 1))
-    assert 'tested Hindi text changed' in ' '.join(check_practice_pair(en_path, hi_path, hindi_book=True))
+    assert check_practice_pair(en_path, hi_path, hindi_book=True) == []
+    en_path.unlink()
+    assert check_practice_pair(None, hi_path, hindi_book=True) == []
+    hi_path.write_text('\n'.join(hi).replace('(b) «अग्नि»', '(b) «जल»', 1))
+    assert 'duplicate_options' in ' '.join(check_practice_pair(None, hi_path, hindi_book=True))

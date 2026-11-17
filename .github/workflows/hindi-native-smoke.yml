@@ -28,7 +28,8 @@ jobs:
           PYTHONUNBUFFERED: '1'
         shell: python
         run: |
-          import json, shutil, tempfile
+          import json, shutil, tempfile, os, sys
+          sys.path.insert(0, os.getcwd())
           from pathlib import Path
           from app import bookgen, bookcheck
           from app.db import SessionLocal, ensure_schema

@@ -67,6 +67,20 @@ def test_hindi_only_book_keeps_language_and_question_quality_checks(tmp_path):
     assert 'answers not spread' in problems
 
 
+def test_hindi_book_does_not_require_or_generate_english_metadata(tmp_path):
+    import json
+    from app import books, bookcheck
+    ch = write_chapter(tmp_path / 'Hindi')
+    path = ch / 'chapter.json'
+    meta = json.loads(path.read_text())
+    del meta['title_en']
+    path.write_text(json.dumps(meta))
+    assert not bookcheck.meta_problems(ch)
+    assert 'title_en' not in books.fill_meta(ch)
+    assert 'title_en' not in json.loads(path.read_text())
+    assert bookcheck.language_problem('Mind_Map.txt', 'English labels only ' * 25, hindi_book=True)
+
+
 def test_prompt_files_are_todo(tmp_path):
     prompt = "# Chapter: नदियाँ, Level: foundation\n\n@content_agent lang=hi 'नदियाँ' पर अध्याय लिखो"
     assert is_prompt(prompt)

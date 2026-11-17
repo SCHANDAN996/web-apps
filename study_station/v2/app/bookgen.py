@@ -830,6 +830,8 @@ def run(db, chapter, wanted=None, dry_run=False, out=print):
         return [], []
     todo = todo_sections(chapter)
     hindi_book = is_hindi_book(chapter)
+    if hindi_book:
+        out('Hindi-only writer: direct Hindi content; English generation and translation disabled')
     if wanted:
         wanted = {w if w.endswith('.txt') else w + '.txt' for w in wanted}
         for w in sorted(wanted - set(todo)):
