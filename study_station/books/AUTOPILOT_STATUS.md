@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (six-chapters)
 
-**आख़िरी update:** 17-11-2026 04:16 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 03:45 PM
+**आख़िरी update:** 17-11-2026 04:31 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 03:45 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,17 +8,17 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
-| W2 | Chapter 05 windows files (12th Computer) | 🔎 review हो रहा है | 8 मिनट |
-| W3 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
-| W4 | Chapter 04 visheshan kriya (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
-| W5 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 23 मिनट |
-| W6 | Chapter 05 ling vachan karak (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 46 मिनट |
+| W2 | Chapter 05 windows files (12th Computer) | 🔎 review हो रहा है | 24 मिनट |
+| W3 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 15 मिनट |
+| W4 | Chapter 04 visheshan kriya (10th Hindi) | ✍️ लिख रहा है | 46 मिनट |
+| W5 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 38 मिनट |
+| W6 | Chapter 05 ling vachan karak (10th Hindi) | ✍️ लिख रहा है | 46 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 55 |
-| key 4 | 27 |
+| key 3 | 78 |
+| key 4 | 48 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -54,27 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 15:51:42   [visheshan_kriya] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q13 key a vs re-solve c, Q23 key d vs re-solve b)
-17-11 15:52:19   [sangya_sarvanam] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q5 key c vs re-solve b, Q20 key c vs re-solve a)
-17-11 15:52:19   [software_os] Practice_hi_Set_01.txt try 1: rejected (parsed 25 questions, numbers 51…75)
-17-11 15:53:21   [software_os] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-17-11 15:53:22   [software_os] written 2, failed 0; AI calls today 27/100000
-17-11 15:53:22   [visheshan_kriya] 2026-11-17 10:23:22,173 WARNING NVIDIA rate_limited — retrying in 20s
-17-11 15:53:49   [ling_vachan_karak] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q4 key d vs re-solve a, Q12 key c vs re-solve d, Q19 key c vs re-solve a, Q25 key b vs re-solve d)
-17-11 15:55:21   [sangya_sarvanam] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q5 key c vs re-solve b)
-17-11 15:55:22   [software_os] review Content_en.txt: 1 issue(s): - Distributed OS examples (Google Borg, Kubernetes) are incorrect; they are cluster manager and container orchestra
-17-11 15:55:36   [software_os] 2026-11-17 10:25:36,322 WARNING NVIDIA rate_limited — retrying in 20s
-17-11 15:57:22   [sangya_sarvanam] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q5 key c vs re-solve b)
-17-11 15:57:22   [sangya_sarvanam] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
-17-11 15:58:20   [sangya_sarvanam] Practice_hi_Set_05.txt try 1: rejected (Q111:duplicate_options,Q114:duplicate_options,Q125:duplicate_options)
-17-11 15:58:36   [shabd_bhed] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 5 incorrectly lists “सार्वनामिक विशेषण” as a sub‑type of सर्वनाम; it is a sub‑typ
-17-11 15:58:53   [visheshan_kriya] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q13 key a vs re-solve c, Q23 key d vs re-solve b)
-17-11 16:02:05   [shabd_bhed] review Flashcards_hi.txt: 6 issue(s): - Card 1: "संज्ञा वाक्य में विशेषण का काम करती है" गलत है → संज्ञा वाक्य में कर्ता, कर्म आदि कारकों का काम करती 
-17-11 16:02:10   [sangya_sarvanam] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q112 key d vs re-solve c, Q114 key b vs re-solve a, Q115 key a vs re-solve b, Q116 key a vs re-solve
-17-11 16:02:29   [varn_vartani] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q27 key a vs re-solve c, Q32 key a vs re-solve ?, Q37 key b vs re-solve ?, Q38 key b vs re-solve ?, 
-17-11 16:03:23   [visheshan_kriya] 2026-11-17 10:33:23,225 WARNING NVIDIA rate_limited — retrying in 20s
-17-11 16:04:48   [shabd_bhed] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 9: “कमरा” is wrongly given as an example of अकारांत पुल्लिंग that remains unchang
-17-11 16:04:55   [software_os] review Key_Facts_hi.txt: 1 issue(s): - Point 3 lists “Windows NT कर्नेल” under मोनोलिथिक kernels; the Windows NT kernel is actually a hybrid kernel. →
 17-11 16:05:56   [sangya_sarvanam] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q112 key a vs re-solve c, Q115 key d vs re-solve c)
 17-11 16:06:33   [shabd_bhed] review Important_Rules_hi.txt: 1 issue(s): - नियम ७ का शीर्षक "संबंधबोधक (पूर्वसर्ग) की पहचान" गलत है → हिंदी में संबंधबोधक **पश्चसर्ग** (postposition
 17-11 16:07:54   [shabd_bhed] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम १० में पुल्लिंग संकेत "इकारांत" देकर उदाहरण "पानी", "हाथी" दिए गए हैं → ये श
@@ -94,4 +73,25 @@
 17-11 16:16:22 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 31 min: todo ['Set 01 hi: todo', 'Set 05 hi: todo'] problems []
 17-11 16:16:22 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya (TODO: todo 6, problems 1)
 17-11 16:16:22   [kaal_vachya] Hindi-only writer: direct Hindi content; English generation and translation disabled
+17-11 16:17:15   [windows_files] review Feynman_en.txt: 1 issue(s): - The claim that hidden files start with '.' in Windows → Hidden files in Windows are marked with the Hidden attrib
+17-11 16:17:29   [varn_vartani] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q29 key a vs re-solve d)
+17-11 16:17:29   [varn_vartani] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
+17-11 16:17:32   [software_os] review Feynman_en.txt: 1 issue(s): - The boot process description "BIOS/UEFI → bootloader (GRUB, Windows Boot Manager) → kernel → init/systemd → login
+17-11 16:18:20   [visheshan_kriya] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q48 key b vs re-solve c, Q50 key b vs re-solve a)
+17-11 16:18:29   [varn_vartani] Practice_hi_Set_03.txt try 1: rejected (Q52:duplicate_options)
+17-11 16:18:39   [visheshan_kriya] 2026-11-17 10:48:39,790 WARNING NVIDIA rate_limited — retrying in 20s
+17-11 16:18:46   [ling_vachan_karak] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q14 key c vs re-solve d, Q17 key a vs re-solve b)
+17-11 16:18:46   [ling_vachan_karak] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
+17-11 16:21:01   [kaal_vachya] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q9 key d vs re-solve c, Q25 key c vs re-solve ?)
+17-11 16:21:12   [windows_files] REJECTED review fix Feynman_en.txt: reviewer still reports - 'Share' tab → 'Sharing' tab
+17-11 16:21:43   [windows_files] review Mind_Map.txt: 2 issue(s): - Control Panel / कंट्रोल पैनल → Settings / सेटिंग्स (Settings is a separate modern app in Windows 10/11, not a Contr
+17-11 16:23:31   [varn_vartani] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q61 key c vs re-solve b)
+17-11 16:24:00   [software_os] review Mind_Map.txt: 1 issue(s): - Windows OS, Linux OS, Mobile OS are shown as sub-components of Operating System (alongside Kernel, Process Manageme
+17-11 16:26:00   [ling_vachan_karak] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q27 key a vs re-solve ?)
+17-11 16:26:15   [windows_files] review Flashcards_en.txt: 2 issue(s): - Card 5: The steps to show hidden file extensions describe the Windows 10 interface (View tab → Options) but ar
+17-11 16:26:26   [visheshan_kriya] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q48 key b vs re-solve c, Q50 key a vs re-solve c)
+17-11 16:28:32   [windows_files] 2026-11-17 10:58:32,158 WARNING NVIDIA rate_limited — retrying in 20s
+17-11 16:30:22   [windows_files] review PYQ_en.txt: 2 issue(s): - In "Typical Question Stems & Traps", the claim "`move` works across volumes only in same drive letter context" is wro
+17-11 16:31:07   [kaal_vachya] wrote Practice_hi_Set_01.txt (write, 25 MCQs)
+17-11 16:32:10   [ling_vachan_karak] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q31 key b vs re-solve c, Q32 key d vs re-solve c, Q34 key b vs re-solve c)
 ```
