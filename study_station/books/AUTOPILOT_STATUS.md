@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (three-chapters)
 
-**आख़िरी update:** 17-11-2026 10:37 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:31 AM
+**आख़िरी update:** 17-11-2026 10:52 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:31 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,8 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 05 windows files (12th Computer) | ✍️ लिख रहा है | 72 मिनट |
-| W2 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 53 मिनट |
-| W3 | Chapter 05 ling vachan karak (10th Hindi) | ✍️ लिख रहा है | 81 मिनट |
+| W1 | Chapter 05 windows files (12th Computer) | 🔎 review हो रहा है | 8 मिनट |
+| W2 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 69 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -19,7 +18,7 @@
 | किताब | ✅ पूरे | 🔧 सुधार बाकी | 📝 लिखना बाकी |
 |---|---|---|---|
 | 10th Hindi | 0 | 0 | 17 |
-| 12th Computer | 3 | 0 | 11 |
+| 12th Computer | 4 | 0 | 10 |
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 22 | 0 | 0 |
@@ -32,7 +31,7 @@
 | Graduation GK | 28 | 0 | 0 |
 | Graduation Reasoning | 30 | 0 | 0 |
 | Graduation English | 30 | 0 | 0 |
-| **कुल** | **299** | **0** | **28** |
+| **कुल** | **300** | **0** | **27** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -45,33 +44,11 @@
 - Chapter 03 sangya sarvanam (Hindi) — 4 बार
 - Chapter 04 visheshan kriya (Hindi) — 4 बार
 - Chapter 04 software os (Computer) — 4 बार
+- Chapter 05 ling vachan karak (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 09:57:55   [windows_files] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-17-11 09:59:12   [windows_files] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-17-11 10:00:02   [kaal_vachya] PYQ_hi.txt try 1: answer too long — asking for a tighter version
-17-11 10:00:48   [kaal_vachya] wrote PYQ_hi.txt (7394 chars)
-17-11 10:01:44   [ling_vachan_karak] Practice_en_Set_04.txt try 1: re-solve disagrees (Q91 key a vs re-solve b, Q96 key d vs re-solve c)
-17-11 10:01:44   [kaal_vachya] wrote Important_Rules_en.txt (9256 chars)
-17-11 10:02:07   [windows_files] Practice_en_Set_02.txt try 1: rejected (parsed 24 questions, numbers 26…49)
-17-11 10:02:52   [kaal_vachya] wrote Important_Rules_hi.txt (8174 chars)
-17-11 10:03:58   [ling_vachan_karak] Practice_en_Set_04.txt try 2: re-solve disagrees (Q97 key d vs re-solve c)
-17-11 10:04:11   [kaal_vachya] Practice_en_Set_01.txt try 1: rejected (Q20:leaked_reasoning)
-17-11 10:06:48   [windows_files] Practice_en_Set_02.txt try 2: re-solve disagrees (Q46 key a vs re-solve c)
-17-11 10:06:52   [kaal_vachya] Practice_en_Set_01.txt try 2: re-solve disagrees (Q18 key b vs re-solve d, Q21 key c vs re-solve a, Q25 key d vs re-solve b)
-17-11 10:10:34   [ling_vachan_karak] Practice_en_Set_04.txt try 3: re-solve disagrees (Q97 key a vs re-solve d)
-17-11 10:14:04   [ling_vachan_karak] Practice_en_Set_04.txt try 4: re-solve disagrees (Q97 key c vs re-solve b)
-17-11 10:14:04   [ling_vachan_karak] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
-17-11 10:14:04   [ling_vachan_karak] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
-17-11 10:14:48   [kaal_vachya] Practice_en_Set_01.txt try 3: re-solve disagrees (Q11 key c vs re-solve b, Q17 key a vs re-solve b, Q21 key b vs re-solve d, Q25 key a vs re-solve d)
-17-11 10:15:38   [windows_files] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-17-11 10:16:06   [ling_vachan_karak] Practice_hi_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
-17-11 10:17:08   [windows_files] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-17-11 10:17:36   [ling_vachan_karak] Practice_hi_Set_05.txt try 2: rejected (Q106: tested Hindi text changed between languages; Q116: Hindi subject options changed between languages; Q120
-17-11 10:19:26   [ling_vachan_karak] Practice_hi_Set_05.txt try 3: rejected (parsed 24 questions, numbers 101…125)
-17-11 10:19:37   [kaal_vachya] Practice_en_Set_01.txt try 4: re-solve disagrees (Q11 key a vs re-solve c, Q18 key b vs re-solve ?, Q21 key d vs re-solve b, Q25 key b vs re-solve d)
 17-11 10:19:37   [kaal_vachya] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
 17-11 10:19:37   [kaal_vachya] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
 17-11 10:20:21   [windows_files] wrote Practice_en_Set_03.txt (write, 25 MCQs)
@@ -89,4 +66,27 @@
 17-11 10:35:38   [windows_files] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 17-11 10:36:15   [ling_vachan_karak] Practice_hi_Set_06.txt try 1: rejected (Q132: tested Hindi text must be explicitly quoted; Q135: tested Hindi text must be explicitly quoted; Q139: te
 17-11 10:37:15   [ling_vachan_karak] Practice_hi_Set_06.txt try 2: rejected (Q132: tested Hindi text must be explicitly quoted; Q135: tested Hindi text must be explicitly quoted; Q139: te
+17-11 10:38:17   [kaal_vachya] Practice_en_Set_02.txt try 4: re-solve disagrees (Q32 key c vs re-solve b)
+17-11 10:38:17   [kaal_vachya] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
+17-11 10:38:17   [kaal_vachya] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
+17-11 10:38:39   [ling_vachan_karak] Practice_hi_Set_06.txt try 3: rejected (Q132: tested Hindi text must be explicitly quoted; Q135: tested Hindi text must be explicitly quoted; Q139: te
+17-11 10:39:06   [kaal_vachya] Practice_en_Set_03.txt try 1: rejected (Q71:leaked_reasoning,Q75:leaked_reasoning)
+17-11 10:39:36   [ling_vachan_karak] Practice_hi_Set_06.txt try 4: rejected (Q132: tested Hindi text must be explicitly quoted; Q135: tested Hindi text must be explicitly quoted; Q139: te
+17-11 10:39:36   [ling_vachan_karak] REJECTED Practice_hi_Set_06.txt: no translation passed the checks — not written
+17-11 10:39:36   [ling_vachan_karak] written 1, failed 10; AI calls today 412/100000
+17-11 10:39:36 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 84 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 02 en: todo', 'Set 02 hi: todo'] problems ['Feynman_en.txt: English file contains a lot of Hindi', 'Set 05 Practice_en_Set_05.txt: English file contains a lot o', 'Set 06 Practice_en_Set_06.txt: English file contains a lot o']
+17-11 10:39:36 worker 2: nothing left
+17-11 10:40:43   [windows_files] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+17-11 10:41:34   [windows_files] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+17-11 10:43:18   [windows_files] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+17-11 10:43:57   [windows_files] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+17-11 10:43:57   [windows_files] written 25, failed 0; AI calls today 419/100000
+17-11 10:44:54   [kaal_vachya] Practice_en_Set_03.txt try 2: re-solve disagrees (Q58 key b vs re-solve c, Q73 key a vs re-solve c, Q74 key d vs re-solve b)
+17-11 10:46:06   [windows_files] review Content_hi.txt: 2 issue(s): - Section 2.3 lists "मैनेज टैब" as a permanent ribbon tab → "Manage" is a contextual tab (appears only for specific
+17-11 10:47:26   [windows_files] REJECTED review fix Content_hi.txt: reviewer still reports - परिचय में दावा है कि अध्याय किसी विशेष संस्करण (Windows 10/11) के फीचर नहीं कवर करता, लेक
+17-11 10:48:09   [windows_files] review Key_Facts_en.txt: 3 issue(s): - Point 6: "max 255 characters (path + name)" is incorrect; the maximum length for a single file/folder name is 2
+17-11 10:49:43   [windows_files] review Feynman_en.txt: 1 issue(s): - Hidden files (starting with `.` or marked Hidden attribute) is incorrect for Windows → Windows does not hide file
+17-11 10:50:51   [kaal_vachya] Practice_en_Set_03.txt try 3: re-solve disagrees (Q61 key a vs re-solve ?, Q64 key d vs re-solve c, Q73 key b vs re-solve c, Q74 key c vs re-solve a)
+17-11 10:51:29   [windows_files] REJECTED review fix Feynman_en.txt: reviewer still reports - The search filter example 'type:pdf' is incorrect; Windows Search uses 'ext:pdf' or 'file
+17-11 10:52:21   [windows_files] review Flashcards_en.txt: 1 issue(s): - Card 15: FAT32 max volume listed as 2 TB (Windows format limit) → Windows format limit for FAT32 is 32 GB; the
 ```
