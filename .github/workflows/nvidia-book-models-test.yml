@@ -1,7 +1,7 @@
-name: NVIDIA book-writing model check
+name: Hindi direct-writing model comparison
 on:
   push:
-    branches: ['codex/nvidia-book-models-20261116']
+    branches: ['codex/hindi-direct-compare-20261117']
 permissions:
   contents: read
   statuses: write
@@ -13,13 +13,12 @@ jobs:
       matrix:
         candidate:
           - {label: ultra, model: nvidia/nemotron-3-ultra-550b-a55b}
-          - {label: gpt20, model: openai/gpt-oss-20b}
-          - {label: mistral4, model: mistralai/mistral-large-4-1t-a52b}
+          - {label: deepseek, model: deepseek-ai/deepseek-v4.1-flash}
         key:
           - {label: key3, secret: NVIDIA_API_KEY_3}
           - {label: key4, secret: NVIDIA_API_KEY_4}
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 5
     steps:
       - name: Generate small Hindi lesson and verify one factual MCQ
         id: sample
@@ -37,14 +36,9 @@ jobs:
           result, sample = 'secret_missing', None
           started = time.monotonic()
           if key:
-              prompt = ('Write a tiny Hindi schoolbook sample. Output only JSON, no markdown or reasoning. '
-                        'Use exactly these fields: text_hi, question_hi, options_hi, answer_index, solution_hi. '
-                        'text_hi must be 3 short factual Hindi sentences about water, under 80 words. '
-                        'question_hi asks the chemical formula of pure water in Hindi. '
-                        'options_hi must be exactly ["H2O","CO2","O2","NaCl"], answer_index must be 0. '
-                        'solution_hi must explain that H2O has two hydrogen atoms and one oxygen atom, in Hindi.')
+              prompt = "प्रतियोगी परीक्षा की हिंदी पुस्तक के लेखक की तरह सीधे सहज देवनागरी हिंदी में लिखें। अंग्रेज़ी से अनुवाद नहीं। केवल वैध JSON दें: lesson_hi (संज्ञा और सर्वनाम का 180–250 शब्दों का मौलिक पाठ: परिभाषा, भेद, उदाहरण और परीक्षा की सामान्य भूल), questions (ठीक छह MCQ), memory_tip_hi (संक्षिप्त स्मरण सूत्र)। प्रत्येक MCQ में id (1–6), target, question_hi, options_hi (चार अलग विकल्प), answer_index (0–3), solution_hi (सही उत्तर और एक गलत विकल्प का कारण) हों। क्रमशः इन शब्दों का व्याकरणिक वर्ग पूछें: 1 राम, 2 वह, 3 सुंदरता, 4 गंगा, 5 हम, 6 मिठास। वर्गों में व्यक्तिवाचक संज्ञा, भाववाचक संज्ञा, जातिवाचक संज्ञा और सर्वनाम का सही उपयोग करें। लक्ष्य शब्द और मात्राएँ जस की तस रखें। उत्तरों की स्थितियाँ मिलाएँ। PYQ या परीक्षा-वर्ष का दावा न करें। प्रश्न पाठ से मेल खाएँ।"
               payload = {'model': model, 'messages': [{'role':'user','content':prompt}],
-                         'max_tokens':1200, 'temperature':0.2, 'stream':True}
+                         'max_tokens':4000, 'temperature':0.2, 'stream':True}
               if os.environ['MODEL_LABEL'] == 'ultra':
                   payload['chat_template_kwargs'] = {'enable_thinking':False}
               else:
@@ -52,10 +46,10 @@ jobs:
               request = urllib.request.Request('https://integrate.api.nvidia.com/v1/chat/completions',
                   json.dumps(payload).encode(), {'Authorization':'Bearer '+key, 'Content-Type':'application/json',
                                                 'Accept':'text/event-stream'})
-              signal.alarm(65)
+              signal.alarm(120)
               try:
                   parts, total, finish = [], 0, None
-                  with urllib.request.urlopen(request,timeout=45) as response:
+                  with urllib.request.urlopen(request,timeout=90) as response:
                       for raw in response:
                           total += len(raw)
                           if total > 262144:
@@ -79,12 +73,22 @@ jobs:
                       try:
                           clean = re.sub(r'^\x60\x60\x60(?:json)?\s*|\s*\x60\x60\x60$', '', text)
                           obj = json.loads(clean)
-                          valid = (isinstance(obj,dict) and isinstance(obj.get('text_hi'),str)
-                              and len(re.findall('[\\u0900-\\u097f]',obj['text_hi'])) >= 10
-                              and isinstance(obj.get('question_hi'),str)
-                              and obj.get('options_hi') == ['H2O','CO2','O2','NaCl']
-                              and type(obj.get('answer_index')) is int and obj['answer_index'] == 0
-                              and isinstance(obj.get('solution_hi'),str) and bool(obj['solution_hi'].strip()))
+                          expected = ['व्यक्तिवाचक संज्ञा','सर्वनाम','भाववाचक संज्ञा','व्यक्तिवाचक संज्ञा','सर्वनाम','भाववाचक संज्ञा']
+                          targets = ['राम','वह','सुंदरता','गंगा','हम','मिठास']
+                          qs = obj.get('questions', [])
+                          checks = []
+                          for i, q in enumerate(qs):
+                              opts = q.get('options_hi', [])
+                              a = q.get('answer_index')
+                              checks.append(i < 6 and q.get('id') == i+1 and q.get('target') == targets[i]
+                                  and len(opts) == 4 and len(set(opts)) == 4 and type(a) is int and 0 <= a < 4
+                                  and opts[a].strip() == expected[i] and targets[i] in q.get('question_hi','')
+                                  and bool(q.get('solution_hi','').strip()))
+                          valid = (isinstance(obj,dict) and isinstance(obj.get('lesson_hi'),str)
+                              and len(obj['lesson_hi'].split()) >= 140 and len(qs) == 6 and all(checks)
+                              and bool(obj.get('memory_tip_hi','').strip()))
+                          print('CHECKS_JSON='+json.dumps({'mcq_checks':checks,'lesson_words':len(obj.get('lesson_hi','').split()),'finish':finish}),flush=True)
+                          sample = obj
                           result = 'sample_pass' if valid else 'sample_check_failed'
                           if valid:
                               sample = obj
@@ -114,7 +118,7 @@ jobs:
           KEY_LABEL: ${{ matrix.key.label }}
         run: |
           gh api --silent --method POST "repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA" \
-            -f state="${RESULT_STATE:-error}" -f context="nvidia-book-$MODEL_LABEL-$KEY_LABEL" \
+            -f state="${RESULT_STATE:-error}" -f context="hindi-pilot-$MODEL_LABEL-$KEY_LABEL" \
             -f description="${RESULT:-incomplete}" \
             -f target_url="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
           test "$RESULT_STATE" = success
