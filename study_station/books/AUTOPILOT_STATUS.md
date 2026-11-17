@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 17-11-2026 10:23 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:33 PM
+**आख़िरी update:** 17-11-2026 10:39 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:33 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 54 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 17 मिनट |
-| W3 | Chapter 06 keyboard shortcuts (12th Computer) | ✍️ लिख रहा है | 75 मिनट |
-| W4 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 79 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 69 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 33 मिनट |
+| W3 | Chapter 06 keyboard shortcuts (12th Computer) | ✍️ लिख रहा है | 90 मिनट |
+| W4 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 95 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 114 |
-| key 4 | 153 |
+| key 3 | 117 |
+| key 4 | 159 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -56,13 +56,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 21:30:55   [keyboard_shortcuts] wrote Flashcards_en.txt (2954 chars)
-17-11 21:31:32   [keyboard_shortcuts] wrote Flashcards_hi.txt (3491 chars)
-17-11 21:32:58   [keyboard_shortcuts] wrote PYQ_en.txt (11056 chars)
-17-11 21:34:17   [keyboard_shortcuts] wrote PYQ_hi.txt (5826 chars)
-17-11 21:35:10   [keyboard_shortcuts] wrote Important_Rules_en.txt (7680 chars)
-17-11 21:36:15   [keyboard_shortcuts] wrote Important_Rules_hi.txt (5441 chars)
-17-11 21:36:28   [kaal_vachya] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q61 key c vs re-solve d, Q74 key b vs re-solve d)
 17-11 21:37:58   [keyboard_shortcuts] Practice_en_Set_01.txt try 1: re-solve disagrees (Q11 key b vs re-solve a)
 17-11 21:40:55   [windows_files] review PYQ_en.txt: 1 issue(s): - In Statement-Based Question Patterns, the third statement claims "`robocopy` by default copies all files; it copies o
 17-11 21:42:29   [keyboard_shortcuts] wrote Practice_en_Set_01.txt (write, 25 MCQs)
@@ -96,4 +89,11 @@
 17-11 22:20:28   [keyboard_shortcuts] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 17-11 22:21:27   [sangya_sarvanam] Practice_hi_Set_01.txt try 1: rejected (Q15:duplicate_options)
 17-11 22:23:30   [kaal_vachya] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q86 key a vs re-solve c)
+17-11 22:24:27   [sangya_sarvanam] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q5 key c vs re-solve b, Q13 key d vs re-solve b)
+17-11 22:26:17   [sangya_sarvanam] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q5 key d vs re-solve b)
+17-11 22:32:38   [kaal_vachya] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q100 key c vs re-solve b)
+17-11 22:32:38   [kaal_vachya] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
+17-11 22:33:20   [varn_vartani] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q10 key a vs re-solve ?, Q15 key d vs re-solve ?, Q19 key a vs re-solve ?, Q23 key c vs re-solve ?)
+17-11 22:33:20   [varn_vartani] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
+17-11 22:35:30   [varn_vartani] Practice_hi_Set_03.txt try 1: rejected (Q51:duplicate_options,Q65:duplicate_options,Q74:duplicate_options)
 ```
