@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 17-11-2026 10:39 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:33 PM
+**आख़िरी update:** 17-11-2026 10:54 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:33 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 69 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 33 मिनट |
-| W3 | Chapter 06 keyboard shortcuts (12th Computer) | ✍️ लिख रहा है | 90 मिनट |
-| W4 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 95 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 84 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 48 मिनट |
+| W3 | Chapter 06 keyboard shortcuts (12th Computer) | ✍️ लिख रहा है | 105 मिनट |
+| W4 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 110 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 117 |
-| key 4 | 159 |
+| key 3 | 119 |
+| key 4 | 160 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -56,8 +56,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 21:37:58   [keyboard_shortcuts] Practice_en_Set_01.txt try 1: re-solve disagrees (Q11 key b vs re-solve a)
-17-11 21:40:55   [windows_files] review PYQ_en.txt: 1 issue(s): - In Statement-Based Question Patterns, the third statement claims "`robocopy` by default copies all files; it copies o
 17-11 21:42:29   [keyboard_shortcuts] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 17-11 21:43:08   [windows_files] REJECTED review fix PYQ_en.txt: reviewer still reports - In "Typical Question Stems & Traps", the claim that `move` fails for directories across volum
 17-11 21:44:40   [windows_files] review PYQ_hi.txt: 2 issue(s): - "स्कोप भ्रम" trap example states "फाइल एक्सप्लोरर में Ctrl+T कुछ नहीं करता" → In Windows 11, File Explorer supports t
@@ -96,4 +94,6 @@
 17-11 22:33:20   [varn_vartani] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q10 key a vs re-solve ?, Q15 key d vs re-solve ?, Q19 key a vs re-solve ?, Q23 key c vs re-solve ?)
 17-11 22:33:20   [varn_vartani] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
 17-11 22:35:30   [varn_vartani] Practice_hi_Set_03.txt try 1: rejected (Q51:duplicate_options,Q65:duplicate_options,Q74:duplicate_options)
+17-11 22:40:00   [kaal_vachya] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q103 key d vs re-solve c, Q112 key c vs re-solve b, Q114 key b vs re-solve d, Q117 key b vs re-solve
+17-11 22:46:37   [varn_vartani] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q52 key d vs re-solve c, Q62 key b vs re-solve d, Q69 key d vs re-solve a, Q72 key b vs re-solve d, 
 ```
