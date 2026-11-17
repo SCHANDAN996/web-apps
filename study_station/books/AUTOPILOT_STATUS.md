@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 04:04 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 11:58 PM
+**आख़िरी update:** 18-11-2026 04:19 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 11:58 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 7 मिनट |
-| W2 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
-| W3 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 124 मिनट |
-| W4 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 9 मिनट |
+| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 22 मिनट |
+| W2 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 46 मिनट |
+| W3 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 140 मिनट |
+| W4 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 24 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 100 |
-| key 4 | 124 |
+| key 3 | 103 |
+| key 4 | 125 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -57,8 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 02:39:37   [sangya_sarvanam] review Content_hi.txt: 2 issue(s): - "बच्चा (बच्चे)" को उन शब्दों की सूची में शामिल किया गया है जिनका बहुवचन एकवचन जैसा ही रहता है, जबकि "बच्चा" का बह
-18-11 02:48:48   [kaal_vachya] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q136 key b vs re-solve a, Q138 key a vs re-solve b, Q144 key c vs re-solve a, Q147 key d vs re-solve
 18-11 03:12:20   [keyboard_shortcuts] REJECTED review fix Content_en.txt: reviewer still reports - The claim that Ctrl+Shift+V pastes values only in some versions of Excel is incorrect; no
 18-11 03:20:21   [sangya_sarvanam] REJECTED review fix Content_hi.txt: reviewer still reports - "परीक्षा उपयोगी सूत्र" में व्यक्तिवाचक/जातिवाचक के लिए "पहला अक्षर बड़ा/छोटे अक्षर" का नि
 18-11 03:21:06   [keyboard_shortcuts] review Content_hi.txt: 2 issue(s): - In Section 6 (Browser shortcuts table), the row for "पीछे जाएँ" lists `Backspace` as a shortcut, but in current C
@@ -97,4 +95,6 @@
 18-11 03:57:29   [visheshan_kriya] written 3, failed 2; AI calls today 218/100000
 18-11 03:57:29 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 94 min: todo [] problems []
 18-11 03:57:29 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (OK: todo 0, problems 0)
+18-11 04:07:56   [ling_vachan_karak] review Content_hi.txt: 3 issue(s): - In the कारक table, the कर्म example incorrectly adds को to inanimate "सेब" and labels it सजीव कर्म → The example 
+18-11 04:09:03   [software_os] review PYQ_en.txt: 2 issue(s): - Example 4 (Round Robin numerical): The correct average waiting time is 16/3 ≈ 5.33, but the provided options (3.0, 3.
 ```
