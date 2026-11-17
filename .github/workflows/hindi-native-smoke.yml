@@ -1,0 +1,50 @@
+name: Hindi native pipeline smoke
+on:
+  push:
+    branches: ['codex/hindi-native-smoke-20261117']
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r study_station/v2/requirements.txt
+      - name: Test Hindi-only lesson and practice set
+        working-directory: study_station/v2
+        env:
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY_3 }}
+          NVIDIA_MODEL: nvidia/nemotron-3-ultra-550b-a55b
+          NVIDIA_CHECK_MODEL: nvidia/nemotron-3-ultra-550b-a55b
+          NVIDIA_FALLBACK_MODELS: nvidia/nemotron-3-ultra-550b-a55b
+          NVIDIA_MIN_INTERVAL_SECONDS: '15'
+          BOOKGEN_RATE_STATE_DIR: ${{ runner.temp }}/rate
+          BOOKGEN_PROVIDER: nvidia
+          DATABASE_URL: sqlite:////tmp/hindi-smoke.db
+          PYTHONUNBUFFERED: '1'
+        shell: python
+        run: |
+          import json, shutil, tempfile
+          from pathlib import Path
+          from app import bookgen, bookcheck
+          from app.db import SessionLocal, ensure_schema
+          source = Path('../books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani')
+          chapter = Path(tempfile.mkdtemp()) / 'Hindi' / source.name
+          chapter.mkdir(parents=True)
+          shutil.copytree(source / 'Prompts', chapter / 'Prompts')
+          ensure_schema()
+          bookgen.MAX_REPAIR_TRIES = 2
+          with SessionLocal() as db:
+              written, failed = bookgen.run(db, chapter, wanted=['Content_hi', 'Practice_hi_Set_01'])
+          print('SMOKE_RESULT='+json.dumps({'written':written,'failed':failed},ensure_ascii=False),flush=True)
+          assert not failed and len(written) == 2
+          hi = chapter / 'Practice_hi_Set_01.txt'
+          problems = bookcheck.check_practice_pair(None, hi, hindi_book=True)
+          print('PAIR_PROBLEMS='+json.dumps(problems,ensure_ascii=False),flush=True)
+          assert not problems
+          assert not list(chapter.glob('*_en*.txt'))
+          print('NATIVE_HINDI_PIPELINE_OK: Hindi lesson and 25 MCQs, two blind Ultra checks, no English output.',flush=True)

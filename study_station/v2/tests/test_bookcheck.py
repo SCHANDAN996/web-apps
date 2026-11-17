@@ -40,6 +40,33 @@ def test_complete_chapter_passes(tmp_path):
     assert main([str(ch)]) == 0
 
 
+def test_hindi_book_needs_only_hindi_and_ignores_legacy_english(tmp_path):
+    from app.bookcheck import section_files
+    ch = write_chapter(tmp_path / 'Hindi')
+    # Missing, prompt and broken English sections cannot block a Hindi-only book.
+    for path in (ch / 'Prompts').glob('*_en*.txt'):
+        path.unlink()
+    (ch / 'Content_en.txt').write_text('Broken legacy English file')
+    (ch / 'Prompts' / 'Mind_Map.txt').write_text(
+        '```mermaid\ngraph TD\n' + ''.join(f'  A["राज्य"] --> N{i}["नदियाँ और उद्गम"]\n' for i in range(15)) + '```')
+    assert not any('_en' in name for name in section_files(ch))
+    assert check_chapter(ch) == ([], [])
+    # English content does not count toward the required six Hindi sets.
+    (ch / 'Prompts' / 'Practice_hi_Set_06.txt').unlink()
+    (ch / 'Practice_en_Set_06.txt').write_text(mcq_set('en', 126))
+    assert 'Set 06 hi: missing' in check_chapter(ch)[0]
+
+
+def test_hindi_only_book_keeps_language_and_question_quality_checks(tmp_path):
+    ch = write_chapter(tmp_path / 'Hindi', **{
+        'Content_hi.txt': 'English prose incorrectly put in Hindi book. ' * 25,
+        'Practice_hi_Set_02.txt': mcq_set('hi', 26, answers='a'),
+    })
+    problems = ' '.join(check_chapter(ch)[1])
+    assert 'Hindi file is mostly not in Hindi' in problems
+    assert 'answers not spread' in problems
+
+
 def test_prompt_files_are_todo(tmp_path):
     prompt = "# Chapter: नदियाँ, Level: foundation\n\n@content_agent lang=hi 'नदियाँ' पर अध्याय लिखो"
     assert is_prompt(prompt)

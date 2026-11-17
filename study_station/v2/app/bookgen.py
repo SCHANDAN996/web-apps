@@ -11,7 +11,8 @@ Write a book chapter's unfinished ("todo") sections with an AI API (Claude or NV
 For each todo section it sends Chapter_Intro_Prompt.txt (+ Master_Prompt_<lang>.txt if the book has one) and
 the section's own prompt; the system prompt is books/BOOK_RULES.md (fallback: the "Hard rules" of the
 ss-book-writer agent). Output goes to the chapter ROOT — prompts in Prompts/ are never overwritten (a prompt
-sitting in the root is first moved to Prompts/). Practice sets: English first, then the Hindi translation of
+sitting in the root is first moved to Prompts/). Hindi-subject books use only native Hindi content and
+ignore historical English files. Other practice sets: English first, then the Hindi translation of
 exactly those questions (or the other way round when only the Hindi set exists). Finished sections are never
 overwritten. Ends with bookcheck.
 
@@ -109,7 +110,8 @@ def _order(name):
 def todo_sections(chapter):
     """File names (e.g. 'Content_hi.txt') still holding a prompt, in writing order."""
     files = section_files(chapter)
-    return sorted((n for n, p in files.items() if not _finished(p)), key=_order)
+    return sorted((n for n, p in files.items() if not _finished(p)
+                   and not (is_hindi_book(chapter) and _lang_of(n) == 'en')), key=_order)
 
 
 def prompt_file(chapter, name):
@@ -150,8 +152,10 @@ def _ask(db, user):
         raise ai.AIUnavailable('daily_limit')
     try:
         if provider() == 'nvidia':
-            return nvidia.call(system_prompt(), user, max_tokens=NVIDIA_MAX_TOKENS)
-        return ai.call(system_prompt(), user, effort='high', max_tokens=MAX_TOKENS)
+            system = system_prompt() + ('\n\n' + HINDI_ONLY_POLICY if HINDI_WRITER in user else '')
+            return nvidia.call(system, user, max_tokens=NVIDIA_MAX_TOKENS)
+        system = system_prompt() + ('\n\n' + HINDI_ONLY_POLICY if HINDI_WRITER in user else '')
+        return ai.call(system, user, effort='high', max_tokens=MAX_TOKENS)
     except ai.AIUnavailable:
         ai.record_use(db, BOOK_USAGE_ID, -1)
         raise
@@ -244,7 +248,10 @@ def section_request(chapter, name):
     if PRACTICE.match(name):
         parts.append(PRACTICE_FORMAT)
     if is_hindi_book(chapter):
-        parts.append(HINDI_BOOK_TRANSLATION)
+        parts.append(HINDI_WRITER)
+        target = 'Hindi (Devanagari) only'
+        if name.startswith('Mind_Map'):
+            parts.append('Use only Hindi labels in the Mermaid graph; graph syntax stays unchanged.')
     parts.append(f'Write the finished file {name} now, in {target}. Output only the file content.')
     return '\n\n'.join(parts)
 
@@ -267,6 +274,21 @@ HINDI_BOOK_TRANSLATION = (
     'Translate only explanatory instructions, headings and solutions; English-wrapper files must use '
     'English prose outside the quoted Hindi targets. A Hindi practice stem must retain the exact same '
     'quoted target spans in the same order as its English counterpart.')
+
+
+HINDI_ONLY_POLICY = (
+    'HINDI-SUBJECT OVERRIDE: This is a dedicated Hindi-language book, not a bilingual book. '
+    'Write the actual lesson, headings, definitions, examples, questions, options and explanations only in '
+    'natural Devanagari Hindi. Do not author, translate, request or depend on an English counterpart. '
+    'This subject-specific rule overrides generic bilingual/English instructions in the book rules and prompts. '
+    'Keep machine syntax such as Mermaid and option letters when the parser requires it.')
+
+HINDI_WRITER = (
+    'आप हिंदी विषय की पुस्तक के समर्पित हिंदी शिक्षक और लेखक हैं। पाठ और प्रश्न सीधे स्वाभाविक '
+    'देवनागरी हिंदी में रचें; अंग्रेज़ी पाठ बनाकर उसका अनुवाद न करें। अंग्रेज़ी संस्करण नहीं चाहिए। '
+    'शीर्षक, पाठ, परिभाषा, उदाहरण, प्रश्न, विकल्प, हल और स्मरण सूत्र केवल हिंदी में दें। '
+    'नियम और उदाहरण पाठ्यपुस्तक-संगत हों। सर्वनाम को संज्ञा का भेद न कहें; संदर्भ के बिना अस्पष्ट '
+    'वर्गीकरण न पूछें। गलत विकल्प का कारण पहले, सही उत्तर का निष्कर्ष अंत में दें।')
 
 
 def is_hindi_book(chapter):
@@ -493,23 +515,24 @@ def question_fixes(why):
     return [f'Q{n}: {QUESTION_PROBLEM_HELP.get(k, k)}' for n, k in items]
 
 
-def write_verified_set(db, user, name, n, out=print, puzzles=False):
+def write_verified_set(db, user, name, n, out=print, puzzles=False, hindi_book=False):
     """Write a new practice set; keep it only once it passes the checks and an independent re-solve."""
     ask, last_disputed = user, None
     for attempt in range(1, MAX_REPAIR_TRIES + 1):
         text = balance_answers(_clean_output(_ask(db, ask), name))
-        if (why := _set_problem(text, n)):
+        if (why := _set_problem(text, n) or (bookcheck.language_problem(name, text, hindi_book=True)
+                                          if hindi_book else None)):
             _keep_reject(name, text, why)
             out(f'  {name} try {attempt}: rejected ({why})')
             if (fixes := question_fixes(why)):        # a few bad questions: fix those, keep the rest
-                ask = practice_repair_request(name, text, n, fixes)
+                ask = practice_repair_request(name, text, n, fixes) + ('\n\n' + HINDI_WRITER if hindi_book else '')
             else:
                 ask = user + f'\n\nYour previous attempt was rejected: {why}. Follow the exact format and rules.'
             continue
         if not (mismatch := _key_problem(db, text, puzzles)):
             return text
         out(f'  {name} try {attempt}: re-solve disagrees ({mismatch[:120]})')
-        ask = practice_repair_request(name, text, n, [], mismatch)
+        ask = practice_repair_request(name, text, n, [], mismatch) + ('\n\n' + HINDI_WRITER if hindi_book else '')
         last_disputed = (text, mismatch)
     if last_disputed:
         _keep_for_arbiter(name, n, *last_disputed, out)
@@ -532,6 +555,8 @@ def _keep_for_arbiter(name, n, text, mismatch, out=print):
 
 def repair_set(db, chapter, n, problems, out=print, strict=True):
     """Repair one en/hi practice pair. Returns True when both files were written."""
+    if is_hindi_book(chapter):
+        return _repair_hindi_set(db, chapter, n, problems, out, strict)
     files = section_files(chapter)
     en_name, hi_name = f'Practice_en_Set_{n:02d}.txt', f'Practice_hi_Set_{n:02d}.txt'
     src_name = en_name if files.get(en_name) else hi_name
@@ -564,6 +589,28 @@ def repair_set(db, chapter, n, problems, out=print, strict=True):
     return True
 
 
+def _repair_hindi_set(db, chapter, n, problems, out=print, strict=True):
+    """Repair only the native Hindi set; historical English files are never read or rewritten."""
+    chapter = Path(chapter)
+    name = f'Practice_hi_Set_{n:02d}.txt'
+    path = section_files(chapter).get(name)
+    source = path.read_text(encoding='utf-8', errors='replace') if path and _finished(path) else None
+    if source:
+        user = practice_repair_request(name, source, n, problems) + '\n\n' + HINDI_WRITER
+    elif prompt_file(chapter, name):
+        user = section_request(chapter, name)
+    else:
+        out(f'FAILED set {n:02d}: no native Hindi prompt or source')
+        return False
+    text = write_verified_set(db, user, name, n, out,
+                              bool(PUZZLE_CHAPTER.search(chapter.name)), hindi_book=True)
+    if text is None:
+        return False
+    write_section(chapter, name, text)
+    out(f'repaired set {n:02d} (Hindi only, two blind re-solves)')
+    return True
+
+
 def retranslate_set(db, chapter, n, out=print):
     """The English set is fine; only its Hindi translation is redone."""
     files = section_files(chapter)
@@ -584,6 +631,8 @@ def repair(db, chapter, dry_run=False, out=print):
     if not dry_run and (fields := books.fill_meta(chapter)):      # e.g. a topic that is now in the catalog
         out(f'chapter.json: set {", ".join(fields)}')
     names, sets, problems = repair_targets(chapter)
+    if is_hindi_book(chapter):
+        names = [name for name in names if _lang_of(name) != 'en']
     if not names and not sets:
         out('nothing to repair')
         return [], []
@@ -598,19 +647,22 @@ def repair(db, chapter, dry_run=False, out=print):
         en_name = name.replace('_hi.txt', '_en.txt')
         en_path = section_files(chapter).get(en_name) if name.endswith('_hi.txt') else None
         try:
-            if any('much shorter than' in p for p in mine) and en_path:     # gutted Hindi: translate the English one
+            if any('much shorter than' in p for p in mine) and en_path and not is_hindi_book(chapter):     # gutted Hindi: translate the English one
                 user = section_translation_request(en_name, en_path.read_text(encoding='utf-8', errors='replace'),
                                                    name, is_english_book(chapter), is_hindi_book(chapter))
             elif rewrite and prompt_file(chapter, name):     # wrong or gutted section: write it again from its prompt
                 user = section_request(chapter, name)
             else:
                 user = repair_request(name, path.read_text(encoding='utf-8', errors='replace'), mine)
+            if is_hindi_book(chapter):
+                user += '\n\n' + HINDI_WRITER
             text = _clean_output(_ask(db, user), name)
         except ai.AIUnavailable as e:
             out(f'FAILED {name}: {e}')
             failed.append(name)
             continue
-        if (why := _problem(text, name)):
+        if (why := _problem(text, name) or bookcheck.language_problem(
+                name, text, is_english_book(chapter), hindi_book=is_hindi_book(chapter))):
             out(f'REJECTED {name}: {why} — not written')
             failed.append(name)
             continue
@@ -619,7 +671,7 @@ def repair(db, chapter, dry_run=False, out=print):
         written.append(name)
     for n in sets:
         mine = [p for p in problems if p.startswith(f'Set {n:02d} ')]
-        only_hi = mine and all('English sentence translated' in p for p in mine)
+        only_hi = not is_hindi_book(chapter) and mine and all('English sentence translated' in p for p in mine)
         if dry_run:
             out(f'would {"re-translate" if only_hi else "repair"} practice set {n:02d}')
             continue
@@ -644,7 +696,7 @@ def audit(db, chapter, out=print):
     files = section_files(chapter)
     written, failed = [], []
     for n in range(1, bookcheck.SETS_PER_LANG + 1):
-        name = next((f'Practice_{lang}_Set_{n:02d}.txt' for lang in ('en', 'hi')
+        name = next((f'Practice_{lang}_Set_{n:02d}.txt' for lang in (('hi',) if is_hindi_book(chapter) else ('en', 'hi'))
                      if f'Practice_{lang}_Set_{n:02d}.txt' in files), None)
         if not name:
             continue
@@ -720,7 +772,7 @@ def review(db, chapter, out=print):
             passed.add(hashlib.sha256(text.encode()).hexdigest())
             books.atomic_write(cache_path, json.dumps(sorted(passed)))
     for name, path in sorted(section_files(chapter).items(), key=lambda kv: _order(kv[0])):
-        if PRACTICE.match(name) or not _finished(path):
+        if PRACTICE.match(name) or not _finished(path) or (is_hindi_book(chapter) and _lang_of(name) == 'en'):
             continue
         text = path.read_text(encoding='utf-8', errors='replace')
         if hashlib.sha256(text.encode()).hexdigest() in passed:
@@ -731,7 +783,8 @@ def review(db, chapter, out=print):
                 remember(text)
                 continue
             out(f'  review {name}: {len(issues)} issue(s): {issues[0][:120]}')
-            ask = repair_request(name, text, issues)
+            hint = '\n\n' + HINDI_WRITER if is_hindi_book(chapter) else ''
+            ask = repair_request(name, text, issues) + hint
             for attempt in range(2):                      # the fix must still be the same language and topic
                 new = _clean_output(_ask(db, ask), name)
                 lang = bookcheck.language_problem(name, new, is_english_book(chapter), hindi_book=is_hindi_book(chapter)) or \
@@ -739,7 +792,7 @@ def review(db, chapter, out=print):
                 if not lang:
                     break
                 ask = repair_request(name, text, issues) + (
-                    f'\n\nYour previous rewrite was rejected: {lang}. Keep the language of the original file.')
+                    f'\n\nYour previous rewrite was rejected: {lang}. Keep the language of the original file.') + hint
             if lang:
                 out(f'REJECTED review fix {name}: {lang}')
                 failed.append(name)
@@ -776,6 +829,7 @@ def run(db, chapter, wanted=None, dry_run=False, out=print):
         out('dynamic chapter (current affairs) — nothing to write')
         return [], []
     todo = todo_sections(chapter)
+    hindi_book = is_hindi_book(chapter)
     if wanted:
         wanted = {w if w.endswith('.txt') else w + '.txt' for w in wanted}
         for w in sorted(wanted - set(todo)):
@@ -793,7 +847,9 @@ def run(db, chapter, wanted=None, dry_run=False, out=print):
     for name in todo:
         m = PRACTICE.match(name)
         other = f'Practice_{"hi" if m.group(1) == "en" else "en"}_Set_{m.group(2)}.txt' if m else None
-        source = practice_text(other) if m else None
+        if hindi_book:
+            other = None  # Hindi books have no English counterpart or translation dependency
+        source = practice_text(other) if other else None
         if m and source is None and other in failed:
             out(f'skip {name}: its pair {other} was not written')
             failed.append(name)
@@ -814,7 +870,7 @@ def run(db, chapter, wanted=None, dry_run=False, out=print):
         try:
             if m:
                 n = int(m.group(2))
-                text = (write_verified_set(db, user, name, n, out, bool(PUZZLE_CHAPTER.search(chapter.name)))
+                text = (write_verified_set(db, user, name, n, out, bool(PUZZLE_CHAPTER.search(chapter.name)), hindi_book=hindi_book)
                         if how == 'write'
                         else translate_set(db, other, source, name, n, out, is_english_book(chapter), is_hindi_book(chapter)))
                 if text is None:
@@ -842,7 +898,8 @@ def run(db, chapter, wanted=None, dry_run=False, out=print):
                 out(f'stopping: {e} (used today: {used_today(db)}/{config.AI_DAILY_BOOK_SECTIONS})')
                 break
             continue
-        if (why := _problem(text, name)):
+        if (why := _problem(text, name) or (bookcheck.language_problem(name, text, hindi_book=True)
+                                            if hindi_book else None)):
             out(f'REJECTED {name}: {why} — not written')
             failed.append(name)
             continue

@@ -19,6 +19,8 @@ permissions:
 
 jobs:
   write-books:
+    # All writer runs share the default-branch cache scope, including canonical push triggers.
+    if: github.ref == 'refs/heads/main'
     # One run owns the queue; up to three chapters run through all stages.
     # Keep the existing concurrency group so old and new runs never overlap.
     concurrency:
@@ -66,6 +68,7 @@ jobs:
         working-directory: study_station/v2
         timeout-minutes: 325           # step limit (not the job's) so the unfinished work is still packed
         env:
+          # Hindi subject: Hindi-only writer/checkers/reviewer; no English translation.
           # Only keys 3 and 4; all roles Ultra, three chapter workers, per-key throttling.
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY_3 }},${{ secrets.NVIDIA_API_KEY_4 }}
           BOOKGEN_REJECT_DIR: ${{ runner.temp }}/rejects
@@ -116,6 +119,10 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
         run: |
+          if [ "$GITHUB_REF_NAME" != main ]; then
+            gh workflow run book-autopilot.yml --repo "$REPO" --ref main
+            exit 0
+          fi
           started=$(gh run view "${{ github.run_id }}" --repo "$REPO" --json startedAt -q .startedAt)
           minutes=$(( ( $(date +%s) - $(date -d "$started" +%s) ) / 60 ))
           echo "this run took $minutes minutes"

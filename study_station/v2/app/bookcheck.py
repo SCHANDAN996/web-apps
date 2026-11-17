@@ -57,6 +57,10 @@ def _head(path, n=2000):        # enough for the marker and the stub-length test
         return f.read(n)
 
 
+def is_hindi_subject(chapter):
+    return '/Hindi/' in Path(chapter).resolve().as_posix()
+
+
 def section_files(chapter):
     """Section files of a chapter. Finished content lives in the chapter root; Prompts/ holds the
     generator prompts (older chapters still keep their content there). Per section: the root file
@@ -66,6 +70,8 @@ def section_files(chapter):
     for d in (chapter, chapter / 'Prompts'):
         if d.is_dir():
             for p in sorted(d.glob('*.txt')):
+                if is_hindi_subject(chapter) and re.search(r'_en(?:_Set_\d+)?\.txt$', p.name):
+                    continue                       # Hindi books have no English edition or translation dependency
                 if p.is_symlink():                       # never read through links (see check_chapter)
                     continue
                 if p.name != 'Chapter_Intro_Prompt.txt' and not p.name.startswith('Master_Prompt'):
@@ -153,7 +159,8 @@ def hindi_pair_problems(en_qs, hi_qs):
 def check_practice_pair(en_path, hi_path, english_book=False, hindi_book=False):
     problems = []
     sets = {}
-    for lang, p in (('en', en_path), ('hi', hi_path)):
+    variants = (('hi', hi_path),) if hindi_book else (('en', en_path), ('hi', hi_path))
+    for lang, p in variants:
         if p is None:
             problems.append(f'{lang}: missing')
             continue
@@ -247,8 +254,9 @@ def check_chapter(chapter):
             problems.append(f'{name}: unsourced claim "{m.group(0)}"')
         if name.startswith('Mind_Map') and not re.search(r'```mermaid\s*\n\s*(?:graph|flowchart|mindmap)', text):
             problems.append(f'{name}: no ```mermaid graph block')
-        if (lp := language_problem(name, text, '/English/' in Path(chapter).as_posix(),
-                                   hindi_book='/Hindi/' in Path(chapter).as_posix())):
+        language_name = name if re.search(r'_(hi|en)\.txt$', name) or not is_hindi_subject(chapter) else name[:-4] + '_hi.txt'
+        if (lp := language_problem(language_name, text, '/English/' in Path(chapter).as_posix(),
+                                   hindi_book=is_hindi_subject(chapter))):
             problems.append(lp)
         problems += source_problems(name, text)
         if '10th_Level' in str(chapter) and re.search(r'\bUPSC\b', text):
@@ -264,6 +272,9 @@ def check_chapter(chapter):
                 problems.append(f'{name}: much shorter than the English section ({len(text.strip())} vs {en_len} chars)')
     for n in range(1, SETS_PER_LANG + 1):
         en, hi = files.get(f'Practice_en_Set_{n:02d}.txt'), files.get(f'Practice_hi_Set_{n:02d}.txt')
+        if is_hindi_subject(chapter) and hi is None:
+            todo.append(f'Set {n:02d} hi: missing')
+            continue
         if en is None and hi is None:
             if n == 1:
                 todo.append('Practice sets')
@@ -287,7 +298,9 @@ def meta_problems(chapter):
     except ValueError:
         return ['chapter.json is not valid JSON']
     out = []
-    if not (meta.get('title_hi') and meta.get('title_en')):
+    if is_hindi_subject(chapter) and not meta.get('title_hi'):
+        out.append('chapter.json: title_hi missing')
+    elif not is_hindi_subject(chapter) and not (meta.get('title_hi') and meta.get('title_en')):
         out.append('chapter.json: title_hi/title_en missing')
     if meta.get('type') not in ('static', 'dynamic'):
         out.append('chapter.json: type must be "static" or "dynamic"')
