@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 17-11-2026 10:05 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:33 PM
+**आख़िरी update:** 17-11-2026 10:08 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:33 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 35 मिनट |
-| W2 | Chapter 02 shabd bhed (10th Hindi) | 📤 push हो रहा है | 0 मिनट |
-| W3 | Chapter 06 keyboard shortcuts (12th Computer) | ✍️ लिख रहा है | 56 मिनट |
-| W4 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 61 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 38 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 2 मिनट |
+| W3 | Chapter 06 keyboard shortcuts (12th Computer) | ✍️ लिख रहा है | 59 मिनट |
+| W4 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 64 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 109 |
-| key 4 | 143 |
+| key 3 | 110 |
+| key 4 | 144 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -47,7 +47,6 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 04 visheshan kriya (Hindi) — 2 बार
-- Chapter 02 shabd bhed (Hindi) — 2 बार
 - Chapter 03 sangya sarvanam (Hindi) — 2 बार
 - Chapter 04 software os (Computer) — 2 बार
 - Chapter 05 windows files (Computer) — 2 बार
@@ -57,11 +56,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 21:22:55   [windows_files] review Mind_Map.txt: 1 issue(s): - Q["Shortcuts / शॉर्टकट"] → T["Keyboard Shortcuts / कीबोर्ड शॉर्टकट"] → In File Explorer's Ribbon, "Shortcuts" means
-17-11 21:24:04   [software_os] review PYQ_en.txt: 2 issue(s): - Example 4 (Round Robin numerical): The calculated average waiting time is 5.33, but none of the given options (3.0, 3
-17-11 21:26:15   [software_os] REJECTED review fix PYQ_en.txt: reviewer still reports - The "Common Examiner Traps" section states that "Ctrl+T opens a new tab in File Explorer" is 
-17-11 21:27:21   [software_os] review Important_Rules_en.txt: 2 issue(s): - Rule 4 example: "8 GB RAM + 12 GB page file = 20 GB virtual address space per process (on 64-bit Windows)
-17-11 21:27:23   [kaal_vachya] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q67 key a vs re-solve b, Q74 key a vs re-solve ?)
 17-11 21:29:38   [software_os] REJECTED review fix Important_Rules_en.txt: reviewer still reports - Rule 4: Claims 64-bit Windows user-mode processes have 8 TB virtual address space
 17-11 21:29:38   [software_os] review: 0 section(s) corrected, 2 failed
 17-11 21:29:38   [software_os] written 0, failed 2; AI calls today 209/100000
@@ -97,4 +91,9 @@
 17-11 22:04:29   [keyboard_shortcuts] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 17-11 22:05:26   [shabd_bhed] review: 2 section(s) corrected, 0 failed
 17-11 22:05:26   [shabd_bhed] written 2, failed 0; AI calls today 253/100000
+17-11 22:05:44 DONE 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_02_shabd_bhed in 13 min → ce8bbb55
+17-11 22:05:45 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (TODO: todo 1, problems 0)
+17-11 22:05:45   [sangya_sarvanam] Hindi-only writer: direct Hindi content; English generation and translation disabled
+17-11 22:07:12   [varn_vartani] Practice_hi_Set_01.txt try 3: rejected (Q17:duplicate_options,Q21:duplicate_options)
+17-11 22:07:57   [kaal_vachya] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q86 key b vs re-solve c, Q91 key c vs re-solve a, Q95 key c vs re-solve a)
 ```
