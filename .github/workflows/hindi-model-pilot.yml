@@ -1,0 +1,31 @@
+name: Hindi model pilot
+on:
+  push:
+    branches: ['codex/hindi-model-pilot-20261117']
+    paths: ['.github/workflows/hindi-model-pilot.yml', 'study_station/v2/tools/hindi_model_pilot.py']
+permissions:
+  contents: read
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate pilot syntax
+        run: python -m py_compile study_station/v2/tools/hindi_model_pilot.py
+      - name: Compare Hindi-only writing and question accuracy
+        env:
+          NVIDIA_API_KEY_3: ${{ secrets.NVIDIA_API_KEY_3 }}
+          NVIDIA_API_KEY_4: ${{ secrets.NVIDIA_API_KEY_4 }}
+          PYTHONUNBUFFERED: '1'
+        run: python study_station/v2/tools/hindi_model_pilot.py
+      - name: Keep pilot outputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: hindi-model-pilot
+          path: pilot-results/
+          retention-days: 7
