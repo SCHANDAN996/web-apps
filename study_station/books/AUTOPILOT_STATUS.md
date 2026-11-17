@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (three-chapters)
 
-**आख़िरी update:** 17-11-2026 09:20 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:31 AM
+**आख़िरी update:** 17-11-2026 09:35 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:31 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 software os (12th Computer) | ✍️ लिख रहा है | 3 मिनट |
-| W2 | Chapter 04 visheshan kriya (10th Hindi) | ✍️ लिख रहा है | 2 मिनट |
-| W3 | Chapter 05 ling vachan karak (10th Hindi) | ✍️ लिख रहा है | 4 मिनट |
+| W1 | Chapter 05 windows files (12th Computer) | ✍️ लिख रहा है | 11 मिनट |
+| W2 | Chapter 04 visheshan kriya (10th Hindi) | ✍️ लिख रहा है | 18 मिनट |
+| W3 | Chapter 05 ling vachan karak (10th Hindi) | ✍️ लिख रहा है | 20 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -44,37 +44,11 @@
 - Chapter 01 varn vartani (Hindi) — 4 बार
 - Chapter 03 sangya sarvanam (Hindi) — 4 बार
 - Chapter 04 visheshan kriya (Hindi) — 3 बार
-- Chapter 04 software os (Computer) — 3 बार
+- Chapter 04 software os (Computer) — 4 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 09:10:20   [software_os] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
-17-11 09:10:20   [software_os] written 0, failed 2; AI calls today 257/100000
-17-11 09:10:20 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os after 6 min: todo ['Set 01 en: todo', 'Set 01 hi: todo'] problems []
-17-11 09:10:20 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os (TODO: todo 2, problems 0)
-17-11 09:11:20   [visheshan_kriya] Practice_hi_Set_03.txt try 3: rejected (Q54: Hindi subject options changed between languages; Q55: Hindi subject options changed between languages; Q5
-17-11 09:11:44   [sangya_sarvanam] Practice_hi_Set_06.txt try 2: rejected (Q136: tested Hindi text must be explicitly quoted; Q137: tested Hindi text must be explicitly quoted; Q138: te
-17-11 09:11:54   [visheshan_kriya] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-17-11 09:12:21   [visheshan_kriya] Practice_hi_Set_04.txt try 1: rejected (Q80: Hindi subject options changed between languages; Q84: Hindi subject options changed between languages; Q8
-17-11 09:13:07   [software_os] Practice_en_Set_01.txt try 1: rejected (Q21:leaked_reasoning,Q23:leaked_reasoning)
-17-11 09:13:24   [visheshan_kriya] Practice_hi_Set_04.txt try 2: rejected (Q80: Hindi subject options changed between languages; Q84: Hindi subject options changed between languages; Q8
-17-11 09:13:59   [sangya_sarvanam] Practice_hi_Set_06.txt try 3: rejected (Q126: Hindi subject options changed between languages; Q127: Hindi subject options changed between languages; 
-17-11 09:14:32   [visheshan_kriya] Practice_hi_Set_04.txt try 3: rejected (Q80: Hindi subject options changed between languages; Q84: Hindi subject options changed between languages; Q8
-17-11 09:14:35   [software_os] Practice_en_Set_01.txt try 2: rejected (Q21:leaked_reasoning,Q23:leaked_reasoning)
-17-11 09:15:08   [visheshan_kriya] Practice_hi_Set_04.txt try 4: rejected (Q80: Hindi subject options changed between languages; Q84: Hindi subject options changed between languages; Q8
-17-11 09:15:08   [visheshan_kriya] REJECTED Practice_hi_Set_04.txt: no translation passed the checks — not written
-17-11 09:15:31   [sangya_sarvanam] Practice_hi_Set_06.txt try 4: rejected (Q136: tested Hindi text must be explicitly quoted; Q137: tested Hindi text must be explicitly quoted; Q138: te
-17-11 09:15:31   [sangya_sarvanam] REJECTED Practice_hi_Set_06.txt: no translation passed the checks — not written
-17-11 09:15:31   [sangya_sarvanam] written 0, failed 4; AI calls today 268/100000
-17-11 09:15:31 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 50 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 05 hi: todo', 'Set 06 hi: todo'] problems []
-17-11 09:15:31 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (TODO: todo 11, problems 2)
-17-11 09:15:43   [visheshan_kriya] Practice_hi_Set_05.txt try 1: rejected (Q115: tested Hindi text must be explicitly quoted; Q122: tested Hindi text must be explicitly quoted; Q124: te
-17-11 09:15:58   [software_os] Practice_en_Set_01.txt try 3: rejected (Q21:leaked_reasoning,Q23:leaked_reasoning)
-17-11 09:16:10   [visheshan_kriya] Practice_hi_Set_05.txt try 2: rejected (Q115: tested Hindi text must be explicitly quoted; Q122: tested Hindi text must be explicitly quoted; Q124: te
-17-11 09:16:36   [ling_vachan_karak] Practice_en_Set_01.txt try 1: rejected (Q20:duplicate_options)
-17-11 09:16:43   [visheshan_kriya] Practice_hi_Set_05.txt try 3: rejected (Q115: tested Hindi text must be explicitly quoted; Q122: tested Hindi text must be explicitly quoted; Q124: te
-17-11 09:17:06   [software_os] Practice_en_Set_01.txt try 4: rejected (Q21:leaked_reasoning,Q23:leaked_reasoning)
 17-11 09:17:06   [software_os] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
 17-11 09:17:06   [software_os] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
 17-11 09:17:06   [software_os] written 0, failed 2; AI calls today 274/100000
@@ -89,4 +63,30 @@
 17-11 09:18:55   [software_os] Practice_en_Set_01.txt try 1: rejected (Q21:leaked_reasoning)
 17-11 09:20:00   [ling_vachan_karak] Practice_en_Set_01.txt try 2: re-solve disagrees (Q10 key c vs re-solve d, Q20 key a vs re-solve b)
 17-11 09:20:29   [software_os] Practice_en_Set_01.txt try 2: rejected (Q21:leaked_reasoning)
+17-11 09:22:44   [visheshan_kriya] Practice_en_Set_01.txt try 2: re-solve disagrees (Q2 key a vs re-solve c)
+17-11 09:23:02   [software_os] Practice_en_Set_01.txt try 3: rejected (Q21:leaked_reasoning)
+17-11 09:24:27   [software_os] Practice_en_Set_01.txt try 4: rejected (Q21:leaked_reasoning)
+17-11 09:24:27   [software_os] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
+17-11 09:24:27   [software_os] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+17-11 09:24:27   [software_os] written 0, failed 2; AI calls today 288/100000
+17-11 09:24:27 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os after 7 min: todo ['Set 01 en: todo', 'Set 01 hi: todo'] problems []
+17-11 09:24:27 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_05_windows_files (TODO: todo 25, problems 0)
+17-11 09:26:12   [visheshan_kriya] Practice_en_Set_01.txt try 3: re-solve disagrees (Q10 key a vs re-solve ?, Q19 key d vs re-solve c)
+17-11 09:26:17   [ling_vachan_karak] Practice_en_Set_01.txt try 3: re-solve disagrees (Q10 key a vs re-solve d)
+17-11 09:27:06   [windows_files] wrote Content_en.txt (14337 chars)
+17-11 09:28:47   [windows_files] wrote Content_hi.txt (14463 chars)
+17-11 09:29:16   [visheshan_kriya] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+17-11 09:30:03   [visheshan_kriya] Practice_hi_Set_01.txt try 1: rejected (Q5: tested Hindi text must be explicitly quoted; Q6: tested Hindi text changed between languages; Q10: tested 
+17-11 09:30:08   [windows_files] wrote Key_Facts_en.txt (5486 chars)
+17-11 09:31:26   [visheshan_kriya] Practice_hi_Set_01.txt try 2: rejected (parsed 1 questions, numbers 1…1)
+17-11 09:32:25   [visheshan_kriya] Practice_hi_Set_01.txt try 3: rejected (Q5: tested Hindi text must be explicitly quoted; Q6: tested Hindi text changed between languages; Q10: tested 
+17-11 09:32:40   [ling_vachan_karak] Practice_en_Set_01.txt try 4: re-solve disagrees (Q10 key a vs re-solve d, Q25 key d vs re-solve b)
+17-11 09:32:40   [ling_vachan_karak] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
+17-11 09:32:40   [ling_vachan_karak] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+17-11 09:33:20   [windows_files] wrote Key_Facts_hi.txt (6503 chars)
+17-11 09:33:21   [visheshan_kriya] Practice_hi_Set_01.txt try 4: rejected (Q5: tested Hindi text must be explicitly quoted; Q6: tested Hindi text changed between languages; Q10: tested 
+17-11 09:33:21   [visheshan_kriya] REJECTED Practice_hi_Set_01.txt: no translation passed the checks — not written
+17-11 09:34:11   [ling_vachan_karak] Practice_en_Set_02.txt try 1: rejected (Q50:duplicate_options)
+17-11 09:34:35   [windows_files] wrote Feynman_en.txt (4252 chars)
+17-11 09:35:02   [visheshan_kriya] Practice_hi_Set_02.txt try 1: rejected (Q27: tested Hindi text must be explicitly quoted; Q30: tested Hindi text must be explicitly quoted; Q36: teste
 ```
