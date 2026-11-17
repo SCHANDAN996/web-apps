@@ -52,7 +52,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 03:57:16   [software_os] review Feynman_en.txt: 1 issue(s): - "Application software are the recipes" → "Application software is the recipes"
 18-11 03:57:29   [visheshan_kriya] review: 3 section(s) corrected, 2 failed
 18-11 03:57:29   [visheshan_kriya] written 3, failed 2; AI calls today 218/100000
 18-11 03:57:29 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 94 min: todo [] problems []
@@ -92,4 +91,5 @@
 18-11 04:48:44   [ling_vachan_karak] written 1, failed 5; AI calls today 249/100000
 18-11 04:48:44 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 51 min: todo [] problems []
 18-11 04:48:44 worker 0: nothing left
+18-11 04:50:51 autopilot end: done 1, failed 7
 ```
