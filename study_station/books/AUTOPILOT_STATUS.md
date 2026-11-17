@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 03:49 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 11:58 PM
+**आख़िरी update:** 18-11-2026 04:04 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 11:58 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 85 मिनट |
-| W2 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 15 मिनट |
-| W3 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 109 मिनट |
-| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 99 मिनट |
+| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 7 मिनट |
+| W2 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
+| W3 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 124 मिनट |
+| W4 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 9 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 90 |
-| key 4 | 117 |
+| key 3 | 100 |
+| key 4 | 124 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -47,30 +47,16 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 01 varn vartani (Hindi) — 2 बार
-- Chapter 04 visheshan kriya (Hindi) — 1 बार
+- Chapter 04 visheshan kriya (Hindi) — 2 बार
 - Chapter 03 sangya sarvanam (Hindi) — 1 बार
 - Chapter 04 software os (Computer) — 1 बार
 - Chapter 05 ling vachan karak (Hindi) — 1 बार
 - Chapter 06 kaal vachya (Hindi) — 1 बार
+- Chapter 06 keyboard shortcuts (Computer) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 02:08:24   [keyboard_shortcuts] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-18-11 02:10:02   [keyboard_shortcuts] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-18-11 02:10:02   [keyboard_shortcuts] written 2, failed 0; AI calls today 143/100000
-18-11 02:10:14   [kaal_vachya] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q108 key c vs re-solve a, Q117 key b vs re-solve c, Q120 key b vs re-solve a)
-18-11 02:10:14   [kaal_vachya] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
-18-11 02:12:53   [ling_vachan_karak] REJECTED review fix PYQ_hi.txt: reviewer still reports - In the 15-second heuristics for gender, the listed exceptions "दादा", "नाना" (masculine) and 
-18-11 02:14:25   [kaal_vachya] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q127 key c vs re-solve a, Q136 key a vs re-solve c, Q138 key d vs re-solve b, Q144 key b vs re-solve
-18-11 02:15:28   [keyboard_shortcuts] review Content_en.txt: 1 issue(s): - PowerPoint shortcut Ctrl+Shift+D listed as "Duplicate slide (alternative)" → Ctrl+Shift+D is not a standard Power
-18-11 02:18:42   [ling_vachan_karak] review Important_Rules_hi.txt: 6 issue(s): - Rule 1 exception cites “शिक्षक/शिक्षिका” as a word used for both genders, but they are separate gendered 
-18-11 02:20:03   [kaal_vachya] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q138 key a vs re-solve b)
-18-11 02:23:25   [ling_vachan_karak] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 2 exception incorrectly includes "किरण" as a feminine noun ending in इ/आ; "क
-18-11 02:23:25   [ling_vachan_karak] review: 0 section(s) corrected, 5 failed
-18-11 02:23:25   [ling_vachan_karak] written 0, failed 5; AI calls today 156/100000
-18-11 02:23:25 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 90 min: todo [] problems []
-18-11 02:23:25 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya (OK: todo 0, problems 0)
 18-11 02:39:37   [sangya_sarvanam] review Content_hi.txt: 2 issue(s): - "बच्चा (बच्चे)" को उन शब्दों की सूची में शामिल किया गया है जिनका बहुवचन एकवचन जैसा ही रहता है, जबकि "बच्चा" का बह
 18-11 02:48:48   [kaal_vachya] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q136 key b vs re-solve a, Q138 key a vs re-solve b, Q144 key c vs re-solve a, Q147 key d vs re-solve
 18-11 03:12:20   [keyboard_shortcuts] REJECTED review fix Content_en.txt: reviewer still reports - The claim that Ctrl+Shift+V pastes values only in some versions of Excel is incorrect; no
@@ -96,4 +82,19 @@
 18-11 03:46:52   [sangya_sarvanam] review PYQ_hi.txt: 6 issue(s): - Section 1 explanation misclassifies "माँ" as व्यक्तिवाचक संज्ञा → "माँ" is जातिवाचक संज्ञा (common noun) in this cont
 18-11 03:47:17   [visheshan_kriya] review Flashcards_hi.txt: 3 issue(s): - Card 9 says “तीन उदाहरण” but lists five → change to “पाँच उदाहरण” (or “कुछ उदाहरण”)
 18-11 03:49:16   [keyboard_shortcuts] review Important_Rules_en.txt: 1 issue(s): - Rule 5 example: “Alt → H → F → S opens the Font dialog” is incorrect → The correct KeyTip sequence for th
+18-11 03:50:36   [keyboard_shortcuts] review Important_Rules_hi.txt: 1 issue(s): - नियम 12: `Ctrl + Shift + N` को सभी ब्राउज़र (क्रोम/एज/फायरफॉक्स) में नई निजी/इनकॉग्निटो विंडो खोलने वाला 
+18-11 03:51:35   [varn_vartani] Practice_hi_Set_03.txt try 1: rejected (Q54:duplicate_options,Q58:duplicate_options,Q60:duplicate_options,Q72:duplicate_options)
+18-11 03:51:41   [visheshan_kriya] review PYQ_hi.txt: 4 issue(s): - In 'क्रिया-विशेषण अदला-बदली' trap, the rule states "तेज विशेषण नहीं, क्रिया विशेषण है" → Correction: 'तेज' is an adje
+18-11 03:53:29   [sangya_sarvanam] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 2, trap "कारक चिह्न भ्रम": claims "ने" is only for third person (अन्य पुरुष) in past 
+18-11 03:55:01   [sangya_sarvanam] review Important_Rules_hi.txt: 6 issue(s): - Rule 2: The list of “आ कारांत स्त्रीलिंग” includes words that do not end in आ (बहन, चिड़िया, सास, नानी) →
+18-11 03:55:09   [keyboard_shortcuts] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम 14 में दावा किया गया है कि `Ctrl + M` कमांड प्रॉम्प्ट, पावरशेल और विंडोज़ टर
+18-11 03:55:09   [keyboard_shortcuts] review: 4 section(s) corrected, 3 failed
+18-11 03:55:09   [keyboard_shortcuts] written 4, failed 3; AI calls today 213/100000
+18-11 03:55:09 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_06_keyboard_shortcuts after 153 min: todo [] problems []
+18-11 03:55:09 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os (OK: todo 0, problems 0)
+18-11 03:57:16   [software_os] review Feynman_en.txt: 1 issue(s): - "Application software are the recipes" → "Application software is the recipes"
+18-11 03:57:29   [visheshan_kriya] review: 3 section(s) corrected, 2 failed
+18-11 03:57:29   [visheshan_kriya] written 3, failed 2; AI calls today 218/100000
+18-11 03:57:29 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 94 min: todo [] problems []
+18-11 03:57:29 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (OK: todo 0, problems 0)
 ```
