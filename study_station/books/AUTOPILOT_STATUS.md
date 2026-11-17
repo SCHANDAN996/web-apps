@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (three-chapters)
 
-**आख़िरी update:** 17-11-2026 05:44 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 01:22 AM
+**आख़िरी update:** 17-11-2026 05:59 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 01:22 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,7 +8,7 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 05 ling vachan karak (10th Hindi) | ✍️ लिख रहा है | 52 मिनट |
+| W3 | Chapter 05 ling vachan karak (10th Hindi) | ✍️ लिख रहा है | 68 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -48,16 +48,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 05:20:12   [ling_vachan_karak] Practice_en_Set_01.txt try 4: re-solve disagrees (Q7 key a vs re-solve b, Q17 key c vs re-solve a)
-17-11 05:20:12   [ling_vachan_karak] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
-17-11 05:20:12   [ling_vachan_karak] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
-17-11 05:21:03   [software_os] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-17-11 05:21:03   [software_os] written 21, failed 4; AI calls today 492/100000
-17-11 05:21:03 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os after 54 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 04 en: todo', 'Set 04 hi: todo'] problems []
-17-11 05:21:03 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os (TODO: todo 4, problems 0)
-17-11 05:22:20   [software_os] Practice_en_Set_01.txt try 1: rejected (Q11:leaked_reasoning)
-17-11 05:23:04   [ling_vachan_karak] Practice_en_Set_02.txt try 1: re-solve disagrees (Q28 key d vs re-solve a, Q37 key d vs re-solve a, Q41 key c vs re-solve b, Q49 key c vs re-solve a)
-17-11 05:23:20   [visheshan_kriya] Practice_en_Set_04.txt try 3: re-solve disagrees (Q78 key b vs re-solve ?, Q90 key a vs re-solve b)
 17-11 05:25:21   [software_os] Practice_en_Set_01.txt try 2: rejected (Q11:leaked_reasoning)
 17-11 05:25:41   [visheshan_kriya] Practice_en_Set_04.txt try 4: re-solve disagrees (Q90 key a vs re-solve b)
 17-11 05:25:41   [visheshan_kriya] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
@@ -88,4 +78,14 @@
 17-11 05:36:50 worker 0: nothing left
 17-11 05:39:14   [ling_vachan_karak] Practice_en_Set_03.txt try 2: re-solve disagrees (Q73 key c vs re-solve b)
 17-11 05:41:56   [ling_vachan_karak] Practice_en_Set_03.txt try 3: re-solve disagrees (Q73 key d vs re-solve a, Q74 key a vs re-solve b)
+17-11 05:44:52   [ling_vachan_karak] Practice_en_Set_03.txt try 4: re-solve disagrees (Q73 key d vs re-solve a, Q74 key a vs re-solve b)
+17-11 05:44:52   [ling_vachan_karak] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
+17-11 05:44:52   [ling_vachan_karak] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+17-11 05:45:26   [ling_vachan_karak] Practice_en_Set_04.txt try 1: rejected (Q81:duplicate_options,Q94:duplicate_options)
+17-11 05:49:10   [ling_vachan_karak] Practice_en_Set_04.txt try 2: re-solve disagrees (Q92 key a vs re-solve c, Q97 key a vs re-solve d, Q99 key b vs re-solve c)
+17-11 05:52:08   [ling_vachan_karak] Practice_en_Set_04.txt try 3: re-solve disagrees (Q92 key b vs re-solve c)
+17-11 05:54:52   [ling_vachan_karak] Practice_en_Set_04.txt try 4: re-solve disagrees (Q91 key d vs re-solve c, Q92 key b vs re-solve c)
+17-11 05:54:52   [ling_vachan_karak] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
+17-11 05:54:52   [ling_vachan_karak] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+17-11 05:57:08   [ling_vachan_karak] Practice_en_Set_05.txt try 1: re-solve disagrees (Q124 key a vs re-solve ?)
 ```
