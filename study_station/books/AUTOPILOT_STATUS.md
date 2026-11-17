@@ -47,7 +47,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 05:27:57   [software_os] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
 17-11 05:31:38   [ling_vachan_karak] Practice_en_Set_02.txt try 3: re-solve disagrees (Q41 key d vs re-solve c)
 17-11 05:33:34   [software_os] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 17-11 05:34:08   [ling_vachan_karak] Practice_en_Set_02.txt try 4: re-solve disagrees (Q41 key d vs re-solve c)
@@ -87,4 +86,5 @@
 17-11 06:23:58   [ling_vachan_karak] written 14, failed 11; AI calls today 548/100000
 17-11 06:23:58 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 93 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 02 en: todo', 'Set 02 hi: todo'] problems ['Feynman_en.txt: English file contains a lot of Hindi', 'Set 05 Practice_en_Set_05.txt: English file contains a lot o']
 17-11 06:23:58 worker 2: nothing left
+17-11 06:30:30 autopilot end: done 2, failed 6
 ```
