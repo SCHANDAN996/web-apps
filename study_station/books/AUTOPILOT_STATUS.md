@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 03:03 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 11:58 PM
+**आख़िरी update:** 18-11-2026 03:18 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 11:58 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 39 मिनट |
-| W2 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 104 मिनट |
-| W3 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 63 मिनट |
-| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 53 मिनट |
+| W1 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 55 मिनट |
+| W2 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 119 मिनट |
+| W3 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 78 मिनट |
+| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 68 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 70 |
-| key 4 | 92 |
+| key 3 | 71 |
+| key 4 | 93 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -55,7 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 01:30:44   [kaal_vachya] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q99 key b vs re-solve d)
 18-11 01:34:56   [windows_files] review: 2 section(s) corrected, 0 failed
 18-11 01:34:56   [windows_files] written 2, failed 0; AI calls today 118/100000
 18-11 01:35:14 DONE 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_05_windows_files in 24 min → 8a51c079
@@ -95,4 +94,5 @@
 18-11 02:23:25 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya (OK: todo 0, problems 0)
 18-11 02:39:37   [sangya_sarvanam] review Content_hi.txt: 2 issue(s): - "बच्चा (बच्चे)" को उन शब्दों की सूची में शामिल किया गया है जिनका बहुवचन एकवचन जैसा ही रहता है, जबकि "बच्चा" का बह
 18-11 02:48:48   [kaal_vachya] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q136 key b vs re-solve a, Q138 key a vs re-solve b, Q144 key c vs re-solve a, Q147 key d vs re-solve
+18-11 03:12:20   [keyboard_shortcuts] REJECTED review fix Content_en.txt: reviewer still reports - The claim that Ctrl+Shift+V pastes values only in some versions of Excel is incorrect; no
 ```
