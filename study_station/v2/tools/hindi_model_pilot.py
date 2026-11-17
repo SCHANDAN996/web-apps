@@ -26,6 +26,20 @@ key = next((os.environ.get(n,"").strip() for n in ("NVIDIA_API_KEY_3","NVIDIA_AP
 if not key:
     raise SystemExit("Missing active NVIDIA key (3 or 4); no requests made")
 summaries = []
+try:
+    req = urllib.request.Request("https://integrate.api.nvidia.com/v1/models", headers={"Authorization":"Bearer "+key})
+    with urllib.request.urlopen(req,timeout=40) as response: catalog=json.load(response)
+    available=[x["id"] for x in catalog.get("data",[]) if "deepseek" in x.get("id","").lower()]
+    print("AVAILABLE_DEEPSEEK_MODELS: "+json.dumps(available),flush=True)
+    preferred=["deepseek-ai/deepseek-v3.2","deepseek-ai/deepseek-v3.1","deepseek-ai/deepseek-v3","deepseek-ai/deepseek-r1"]
+    candidates=[m for m in preferred if m in available]
+    candidates += [m for m in available if m not in candidates and m != "deepseek-ai/deepseek-v4.1-flash"]
+    MODELS=candidates[:1]
+    if not MODELS: print("NO_ALTERNATIVE_DEEPSEEK_MODEL_IN_AUTHENTICATED_CATALOG",flush=True)
+except Exception as e:
+    print("CATALOG_ERROR: "+type(e).__name__,flush=True)
+    MODELS=[]
+
 for index, model in enumerate(MODELS):
     if index: time.sleep(20)
     started = time.monotonic()
