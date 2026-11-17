@@ -230,6 +230,7 @@ class Pilot:
     def bookgen(self, ch, *extra):
         cmd = [sys.executable, '-m', 'app.bookgen', '--chapter', str(ch), *extra]
         env = {**os.environ, 'NVIDIA_API_KEY': self.key_for_worker(), 'BOOKGEN_REVIEW_CACHE': str(self.state_dir / 'reviewed.json'),
+               'BOOKGEN_HINDI_ONLY': '1',  # this parent has the Hindi-only completion checker loaded
                'AI_DAILY_BOOK_SECTIONS': os.environ.get('AI_DAILY_BOOK_SECTIONS', '100000'),
                'AI_DAILY_LIMIT_TOTAL': os.environ.get('AI_DAILY_LIMIT_TOTAL', '1000000')}
         short = ch.name.split('_', 2)[-1] if '_' in ch.name else ch.name

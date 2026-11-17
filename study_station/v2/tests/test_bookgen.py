@@ -8,6 +8,28 @@ INTRO = 'You are writing the chapter "States & Rivers" for 10th-level learners.'
 BODY = 'राज्य और नदियों (States & Rivers) का पूरा पाठ। ' * 40
 
 
+def test_legacy_autopilot_rollover_preserves_work_and_ignores_new_or_manual_runs(tmp_path, monkeypatch):
+    state = tmp_path / 'autopilot'
+    state.mkdir()
+    (state / 'state.json').write_text('{}')
+    source = state / 'unfinished.txt'
+    source.write_text('saved Hindi work')
+    monkeypatch.setenv('BOOKGEN_REVIEW_CACHE', str(state / 'reviewed.json'))
+    monkeypatch.setenv('RUNNER_TEMP', str(tmp_path))
+    monkeypatch.setenv('GITHUB_REF_NAME', 'main')
+    monkeypatch.delenv('BOOKGEN_HINDI_ONLY', raising=False)
+    monkeypatch.delenv('GITHUB_ACTIONS', raising=False)
+    bookgen.request_legacy_autopilot_rollover(lambda *a: None)
+    assert not (state / 'STOP').exists()
+    monkeypatch.setenv('GITHUB_ACTIONS', 'true')
+    bookgen.request_legacy_autopilot_rollover(lambda *a: None)
+    assert (state / 'STOP').exists() and source.read_text() == 'saved Hindi work'
+    (state / 'STOP').unlink()
+    monkeypatch.setenv('BOOKGEN_HINDI_ONLY', '1')
+    bookgen.request_legacy_autopilot_rollover(lambda *a: None)
+    assert not (state / 'STOP').exists()
+
+
 @pytest.fixture
 def chapter(tmp_path, monkeypatch):
     root = tmp_path / 'books'

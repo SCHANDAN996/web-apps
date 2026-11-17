@@ -917,6 +917,27 @@ def run(db, chapter, wanted=None, dry_run=False, out=print):
     return written, failed
 
 
+def request_legacy_autopilot_rollover(out=print):
+    """Let the pre-Hindi-only runner finish its work and cache it before restarting.
+
+    A running Pilot retains its old imported bookcheck even after git pull updates its children.
+    Only the known legacy Actions state directory is signalled; new and manual runs are unaffected.
+    """
+    cache = os.environ.get('BOOKGEN_REVIEW_CACHE')
+    if os.environ.get('GITHUB_ACTIONS') != 'true' or os.environ.get('BOOKGEN_HINDI_ONLY') == '1' or not cache:
+        return
+    path = Path(cache)
+    runner_temp = os.environ.get('RUNNER_TEMP')
+    if not runner_temp or os.environ.get('GITHUB_REF_NAME') != 'main':
+        return
+    state = path.parent / 'state.json'
+    stop = path.parent / 'STOP'
+    if (path.name == 'reviewed.json' and path.parent.resolve() == (Path(runner_temp) / 'autopilot').resolve()
+            and state.is_file() and not state.is_symlink() and not stop.exists()):
+        stop.touch()
+        out('Hindi-only upgrade: finishing current work, then saving unfinished files for the new autopilot')
+
+
 def main(argv=None):
     p = argparse.ArgumentParser(prog='python -m app.bookgen', description=__doc__.split('\n\n')[0])
     p.add_argument('--chapter', required=True, help='chapter directory (…/Chapter_NN_Name)')
@@ -935,6 +956,8 @@ def main(argv=None):
         return 2
     if args.provider:
         config.BOOKGEN_PROVIDER = args.provider
+    if not args.dry_run:
+        request_legacy_autopilot_rollover()
     key = 'NVIDIA_API_KEY' if provider() == 'nvidia' else 'ANTHROPIC_API_KEY'
     if not args.dry_run and not getattr(config, key):
         print(f'{key} is not set — bookgen needs an AI API to write sections. '
