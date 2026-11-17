@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (three-chapters)
 
-**आख़िरी update:** 17-11-2026 06:14 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 01:22 AM
+**आख़िरी update:** 17-11-2026 06:30 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 01:22 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W3 | Chapter 05 ling vachan karak (10th Hindi) | ✍️ लिख रहा है | 83 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -44,18 +42,11 @@
 - Chapter 03 sangya sarvanam (Hindi) — 4 बार
 - Chapter 04 visheshan kriya (Hindi) — 2 बार
 - Chapter 04 software os (Computer) — 2 बार
+- Chapter 05 ling vachan karak (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 05:27:18   [ling_vachan_karak] Practice_en_Set_02.txt try 2: re-solve disagrees (Q41 key d vs re-solve c)
-17-11 05:27:31   [visheshan_kriya] Practice_hi_Set_05.txt try 4: rejected (Q115: tested Hindi text must be explicitly quoted; Q122: tested Hindi text must be explicitly quoted; Q124: te
-17-11 05:27:31   [visheshan_kriya] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
-17-11 05:27:31   [visheshan_kriya] written 1, failed 7; AI calls today 508/100000
-17-11 05:27:31 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 44 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo'] problems []
-17-11 05:27:31 worker 1: nothing left
-17-11 05:27:57   [software_os] Practice_en_Set_01.txt try 4: rejected (Q11:leaked_reasoning)
-17-11 05:27:57   [software_os] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
 17-11 05:27:57   [software_os] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
 17-11 05:31:38   [ling_vachan_karak] Practice_en_Set_02.txt try 3: re-solve disagrees (Q41 key d vs re-solve c)
 17-11 05:33:34   [software_os] wrote Practice_en_Set_04.txt (write, 25 MCQs)
@@ -88,4 +79,12 @@
 17-11 06:08:56   [ling_vachan_karak] Practice_hi_Set_05.txt try 4: rejected (Q106: tested Hindi text changed between languages; Q116: Hindi subject options changed between languages; Q120
 17-11 06:08:56   [ling_vachan_karak] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
 17-11 06:10:15   [ling_vachan_karak] Practice_en_Set_06.txt try 1: rejected (Q132:duplicate_options,Q139:duplicate_options,Q142:duplicate_options,Q145:duplicate_options,Q147:duplicate_opt
+17-11 06:15:55   [ling_vachan_karak] Practice_en_Set_06.txt try 2: re-solve disagrees (Q133 key b vs re-solve d, Q139 key d vs re-solve c, Q140 key c vs re-solve ?, Q145 key b vs re-solve
+17-11 06:18:45   [ling_vachan_karak] Practice_en_Set_06.txt try 3: re-solve disagrees (Q139 key d vs re-solve c, Q148 key d vs re-solve b)
+17-11 06:23:58   [ling_vachan_karak] Practice_en_Set_06.txt try 4: re-solve disagrees (Q139 key b vs re-solve d, Q141 key d vs re-solve b, Q143 key c vs re-solve ?, Q146 key b vs re-solve
+17-11 06:23:58   [ling_vachan_karak] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+17-11 06:23:58   [ling_vachan_karak] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+17-11 06:23:58   [ling_vachan_karak] written 14, failed 11; AI calls today 548/100000
+17-11 06:23:58 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 93 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 02 en: todo', 'Set 02 hi: todo'] problems ['Feynman_en.txt: English file contains a lot of Hindi', 'Set 05 Practice_en_Set_05.txt: English file contains a lot o']
+17-11 06:23:58 worker 2: nothing left
 ```
