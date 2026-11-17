@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (three-chapters)
 
-**आख़िरी update:** 17-11-2026 10:06 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:31 AM
+**आख़िरी update:** 17-11-2026 10:21 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:31 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,9 +8,9 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 05 windows files (12th Computer) | ✍️ लिख रहा है | 41 मिनट |
-| W2 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 23 मिनट |
-| W3 | Chapter 05 ling vachan karak (10th Hindi) | ✍️ लिख रहा है | 50 मिनट |
+| W1 | Chapter 05 windows files (12th Computer) | ✍️ लिख रहा है | 57 मिनट |
+| W2 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 38 मिनट |
+| W3 | Chapter 05 ling vachan karak (10th Hindi) | ✍️ लिख रहा है | 66 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -49,26 +49,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 09:42:59   [windows_files] wrote Flashcards_hi.txt (5790 chars)
-17-11 09:43:14   [visheshan_kriya] Practice_hi_Set_05.txt try 4: rejected (Q115: tested Hindi text must be explicitly quoted; Q122: tested Hindi text must be explicitly quoted; Q124: te
-17-11 09:43:14   [visheshan_kriya] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
-17-11 09:43:14   [visheshan_kriya] written 1, failed 4; AI calls today 325/100000
-17-11 09:43:14 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 26 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 04 hi: todo', 'Set 05 hi: todo'] problems []
-17-11 09:43:14 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya (TODO: todo 25, problems 0)
-17-11 09:43:46   [kaal_vachya] wrote Content_en.txt (7310 chars)
-17-11 09:44:00   [windows_files] wrote PYQ_en.txt (12557 chars)
-17-11 09:44:48   [kaal_vachya] wrote Content_hi.txt (7498 chars)
-17-11 09:45:10   [kaal_vachya] wrote Key_Facts_en.txt (4648 chars)
-17-11 09:45:42   [kaal_vachya] wrote Key_Facts_hi.txt (5202 chars)
-17-11 09:46:04   [kaal_vachya] wrote Feynman_en.txt (3669 chars)
-17-11 09:46:43   [kaal_vachya] wrote Feynman_hi.txt (2998 chars)
-17-11 09:46:45   [windows_files] wrote PYQ_hi.txt (14723 chars)
-17-11 09:46:48   [kaal_vachya] wrote Mind_Map.txt (834 chars)
-17-11 09:47:21   [kaal_vachya] wrote Flashcards_en.txt (3112 chars)
-17-11 09:47:40   [kaal_vachya] wrote Flashcards_hi.txt (3286 chars)
-17-11 09:47:56   [ling_vachan_karak] Practice_en_Set_02.txt try 4: re-solve disagrees (Q42 key c vs re-solve b, Q43 key c vs re-solve d)
-17-11 09:47:56   [ling_vachan_karak] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
-17-11 09:47:56   [ling_vachan_karak] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
 17-11 09:48:17   [windows_files] wrote Important_Rules_en.txt (7219 chars)
 17-11 09:48:51   [ling_vachan_karak] Practice_en_Set_03.txt try 1: rejected (Q71:leaked_reasoning,Q56:duplicate_options,Q70:duplicate_options)
 17-11 09:49:24   [windows_files] wrote Important_Rules_hi.txt (6687 chars)
@@ -89,4 +69,24 @@
 17-11 10:02:52   [kaal_vachya] wrote Important_Rules_hi.txt (8174 chars)
 17-11 10:03:58   [ling_vachan_karak] Practice_en_Set_04.txt try 2: re-solve disagrees (Q97 key d vs re-solve c)
 17-11 10:04:11   [kaal_vachya] Practice_en_Set_01.txt try 1: rejected (Q20:leaked_reasoning)
+17-11 10:06:48   [windows_files] Practice_en_Set_02.txt try 2: re-solve disagrees (Q46 key a vs re-solve c)
+17-11 10:06:52   [kaal_vachya] Practice_en_Set_01.txt try 2: re-solve disagrees (Q18 key b vs re-solve d, Q21 key c vs re-solve a, Q25 key d vs re-solve b)
+17-11 10:10:34   [ling_vachan_karak] Practice_en_Set_04.txt try 3: re-solve disagrees (Q97 key a vs re-solve d)
+17-11 10:14:04   [ling_vachan_karak] Practice_en_Set_04.txt try 4: re-solve disagrees (Q97 key c vs re-solve b)
+17-11 10:14:04   [ling_vachan_karak] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
+17-11 10:14:04   [ling_vachan_karak] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
+17-11 10:14:48   [kaal_vachya] Practice_en_Set_01.txt try 3: re-solve disagrees (Q11 key c vs re-solve b, Q17 key a vs re-solve b, Q21 key b vs re-solve d, Q25 key a vs re-solve d)
+17-11 10:15:38   [windows_files] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+17-11 10:16:06   [ling_vachan_karak] Practice_hi_Set_05.txt try 1: rejected (parsed 0 questions, numbers -…-)
+17-11 10:17:08   [windows_files] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+17-11 10:17:36   [ling_vachan_karak] Practice_hi_Set_05.txt try 2: rejected (Q106: tested Hindi text changed between languages; Q116: Hindi subject options changed between languages; Q120
+17-11 10:19:26   [ling_vachan_karak] Practice_hi_Set_05.txt try 3: rejected (parsed 24 questions, numbers 101…125)
+17-11 10:19:37   [kaal_vachya] Practice_en_Set_01.txt try 4: re-solve disagrees (Q11 key a vs re-solve c, Q18 key b vs re-solve ?, Q21 key d vs re-solve b, Q25 key b vs re-solve d)
+17-11 10:19:37   [kaal_vachya] REJECTED Practice_en_Set_01.txt: no version passed the checks — not written
+17-11 10:19:37   [kaal_vachya] skip Practice_hi_Set_01.txt: its pair Practice_en_Set_01.txt was not written
+17-11 10:20:21   [windows_files] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+17-11 10:20:22   [kaal_vachya] Practice_en_Set_02.txt try 1: rejected (Q33:leaked_reasoning)
+17-11 10:20:58   [ling_vachan_karak] Practice_hi_Set_05.txt try 4: rejected (Q106: tested Hindi text changed between languages; Q116: Hindi subject options changed between languages; Q120
+17-11 10:20:58   [ling_vachan_karak] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
+17-11 10:21:53   [windows_files] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 ```
