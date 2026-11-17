@@ -1,12 +1,16 @@
 # 📚 Book Autopilot — लाइव स्थिति (three-chapters)
 
-**आख़िरी update:** 17-11-2026 06:30 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 01:22 AM
+**आख़िरी update:** 17-11-2026 06:31 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:31 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
+| worker | अध्याय | काम | कब से |
+|---|---|---|---|
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
+| W2 | Chapter 02 shabd bhed (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
+| W3 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -32,59 +36,14 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- 17-11 03:09 — 12th Computer · Chapter 03 memory storage backup
-- 17-11 02:03 — 12th Computer · Chapter 02 input output ports
-
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 02 shabd bhed (Hindi) — 4 बार
-- Chapter 01 varn vartani (Hindi) — 4 बार
-- Chapter 03 sangya sarvanam (Hindi) — 4 बार
-- Chapter 04 visheshan kriya (Hindi) — 2 बार
-- Chapter 04 software os (Computer) — 2 बार
-- Chapter 05 ling vachan karak (Hindi) — 1 बार
+- अभी कोई नहीं
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 05:31:38   [ling_vachan_karak] Practice_en_Set_02.txt try 3: re-solve disagrees (Q41 key d vs re-solve c)
-17-11 05:33:34   [software_os] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-17-11 05:34:08   [ling_vachan_karak] Practice_en_Set_02.txt try 4: re-solve disagrees (Q41 key d vs re-solve c)
-17-11 05:34:08   [ling_vachan_karak] REJECTED Practice_en_Set_02.txt: no version passed the checks — not written
-17-11 05:34:08   [ling_vachan_karak] skip Practice_hi_Set_02.txt: its pair Practice_en_Set_02.txt was not written
-17-11 05:35:02   [software_os] Practice_hi_Set_04.txt try 1: rejected (parsed 0 questions, numbers -…-)
-17-11 05:35:50   [ling_vachan_karak] Practice_en_Set_03.txt try 1: rejected (Q66:duplicate_options)
-17-11 05:36:49   [software_os] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-17-11 05:36:49   [software_os] written 2, failed 2; AI calls today 518/100000
-17-11 05:36:50 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os after 16 min: todo ['Set 01 en: todo', 'Set 01 hi: todo'] problems []
-17-11 05:36:50 worker 0: nothing left
-17-11 05:39:14   [ling_vachan_karak] Practice_en_Set_03.txt try 2: re-solve disagrees (Q73 key c vs re-solve b)
-17-11 05:41:56   [ling_vachan_karak] Practice_en_Set_03.txt try 3: re-solve disagrees (Q73 key d vs re-solve a, Q74 key a vs re-solve b)
-17-11 05:44:52   [ling_vachan_karak] Practice_en_Set_03.txt try 4: re-solve disagrees (Q73 key d vs re-solve a, Q74 key a vs re-solve b)
-17-11 05:44:52   [ling_vachan_karak] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
-17-11 05:44:52   [ling_vachan_karak] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
-17-11 05:45:26   [ling_vachan_karak] Practice_en_Set_04.txt try 1: rejected (Q81:duplicate_options,Q94:duplicate_options)
-17-11 05:49:10   [ling_vachan_karak] Practice_en_Set_04.txt try 2: re-solve disagrees (Q92 key a vs re-solve c, Q97 key a vs re-solve d, Q99 key b vs re-solve c)
-17-11 05:52:08   [ling_vachan_karak] Practice_en_Set_04.txt try 3: re-solve disagrees (Q92 key b vs re-solve c)
-17-11 05:54:52   [ling_vachan_karak] Practice_en_Set_04.txt try 4: re-solve disagrees (Q91 key d vs re-solve c, Q92 key b vs re-solve c)
-17-11 05:54:52   [ling_vachan_karak] REJECTED Practice_en_Set_04.txt: no version passed the checks — not written
-17-11 05:54:52   [ling_vachan_karak] skip Practice_hi_Set_04.txt: its pair Practice_en_Set_04.txt was not written
-17-11 05:57:08   [ling_vachan_karak] Practice_en_Set_05.txt try 1: re-solve disagrees (Q124 key a vs re-solve ?)
-17-11 06:00:32   [ling_vachan_karak] Practice_en_Set_05.txt try 2: re-solve disagrees (Q124 key a vs re-solve ?)
-17-11 06:04:29   [ling_vachan_karak] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-17-11 06:05:07   [ling_vachan_karak] Practice_hi_Set_05.txt try 1: rejected (Q106: tested Hindi text changed between languages; Q116: Hindi subject options changed between languages; Q120
-17-11 06:06:59   [ling_vachan_karak] Practice_hi_Set_05.txt try 2: rejected (Q106: tested Hindi text changed between languages; Q120: tested Hindi text must be explicitly quoted; Q122: te
-17-11 06:08:09   [ling_vachan_karak] Practice_hi_Set_05.txt try 3: rejected (Q106: tested Hindi text changed between languages; Q120: tested Hindi text must be explicitly quoted; Q122: te
-17-11 06:08:56   [ling_vachan_karak] Practice_hi_Set_05.txt try 4: rejected (Q106: tested Hindi text changed between languages; Q116: Hindi subject options changed between languages; Q120
-17-11 06:08:56   [ling_vachan_karak] REJECTED Practice_hi_Set_05.txt: no translation passed the checks — not written
-17-11 06:10:15   [ling_vachan_karak] Practice_en_Set_06.txt try 1: rejected (Q132:duplicate_options,Q139:duplicate_options,Q142:duplicate_options,Q145:duplicate_options,Q147:duplicate_opt
-17-11 06:15:55   [ling_vachan_karak] Practice_en_Set_06.txt try 2: re-solve disagrees (Q133 key b vs re-solve d, Q139 key d vs re-solve c, Q140 key c vs re-solve ?, Q145 key b vs re-solve
-17-11 06:18:45   [ling_vachan_karak] Practice_en_Set_06.txt try 3: re-solve disagrees (Q139 key d vs re-solve c, Q148 key d vs re-solve b)
-17-11 06:23:58   [ling_vachan_karak] Practice_en_Set_06.txt try 4: re-solve disagrees (Q139 key b vs re-solve d, Q141 key d vs re-solve b, Q143 key c vs re-solve ?, Q146 key b vs re-solve
-17-11 06:23:58   [ling_vachan_karak] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
-17-11 06:23:58   [ling_vachan_karak] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-17-11 06:23:58   [ling_vachan_karak] written 14, failed 11; AI calls today 548/100000
-17-11 06:23:58 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 93 min: todo ['Set 01 en: todo', 'Set 01 hi: todo', 'Set 02 en: todo', 'Set 02 hi: todo'] problems ['Feynman_en.txt: English file contains a lot of Hindi', 'Set 05 Practice_en_Set_05.txt: English file contains a lot o']
-17-11 06:23:58 worker 2: nothing left
-17-11 06:30:30 autopilot end: done 2, failed 6
+17-11 06:31:16 autopilot start: 3 workers, reverse=False
+17-11 06:31:16 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (TODO: todo 4, problems 0)
+17-11 06:31:22 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_02_shabd_bhed (TODO: todo 3, problems 9)
+17-11 06:31:26 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (TODO: todo 5, problems 0)
+17-11 06:32:03   [varn_vartani] Practice_hi_Set_01.txt try 1: rejected (Q3: tested Hindi text must be explicitly quoted; Q21: Hindi subject options changed between languages; Q22: Hi
 ```
