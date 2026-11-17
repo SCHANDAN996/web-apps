@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 17-11-2026 09:07 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:33 PM
+**आख़िरी update:** 17-11-2026 09:22 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:33 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 7 मिनट |
-| W2 | Chapter 05 windows files (12th Computer) | 🔎 review हो रहा है | 7 मिनट |
-| W3 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 37 मिनट |
-| W4 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 3 मिनट |
+| W1 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 23 मिनट |
+| W2 | Chapter 05 windows files (12th Computer) | 🔎 review हो रहा है | 22 मिनट |
+| W3 | Chapter 06 keyboard shortcuts (12th Computer) | ✍️ लिख रहा है | 13 मिनट |
+| W4 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 18 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 83 |
-| key 4 | 93 |
+| key 3 | 89 |
+| key 4 | 108 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -48,7 +48,7 @@
 
 - Chapter 04 visheshan kriya (Hindi) — 2 बार
 - Chapter 02 shabd bhed (Hindi) — 2 बार
-- Chapter 03 sangya sarvanam (Hindi) — 1 बार
+- Chapter 03 sangya sarvanam (Hindi) — 2 बार
 - Chapter 04 software os (Computer) — 1 बार
 - Chapter 05 windows files (Computer) — 1 बार
 - Chapter 05 ling vachan karak (Hindi) — 1 बार
@@ -57,22 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 20:28:17   [windows_files] review Important_Rules_hi.txt: 1 issue(s): - नियम 14: हार्ड लिंक के लिए "प्रशासनिक अधिकार ✅" गलत है → हार्ड लिंक (mklink /h) बनाने के लिए प्रशासनिक अध
-17-11 20:29:38   [windows_files] review: 4 section(s) corrected, 1 failed
-17-11 20:29:38   [windows_files] written 4, failed 1; AI calls today 143/100000
-17-11 20:29:38 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_05_windows_files after 66 min: todo [] problems []
-17-11 20:29:39 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (TODO: todo 1, problems 0)
-17-11 20:29:39   [sangya_sarvanam] Hindi-only writer: direct Hindi content; English generation and translation disabled
-17-11 20:31:21   [varn_vartani] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q105 key a vs re-solve b, Q116 key d vs re-solve b)
-17-11 20:32:00   [shabd_bhed] review Key_Facts_hi.txt: 2 issue(s): - Item 18 incorrectly states that some Hindi words are considered neuter (नपुंसकलिंग) and gives examples फल, पत्त
-17-11 20:35:12   [shabd_bhed] review Flashcards_hi.txt: 1 issue(s): - Card 9: Wrong plural formation rule for feminine nouns; “लड़की” is ईकारांत, not आकारांत, and its plural suffix
-17-11 20:39:23   [shabd_bhed] REJECTED review fix Flashcards_hi.txt: reviewer still reports - कार्ड 1: "संज्ञा वाक्य में कर्ता, कर्म या विशेषण का काम करती है" → संज्ञा वाक्य में कर
-17-11 20:42:33   [ling_vachan_karak] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 3: feminine noun endings listed as आ, इ, ई, उ, ऊ, ए but example “बहन” ends i
-17-11 20:42:33   [ling_vachan_karak] review: 1 section(s) corrected, 5 failed
-17-11 20:42:33   [ling_vachan_karak] written 1, failed 5; AI calls today 153/100000
-17-11 20:42:33 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 89 min: todo [] problems []
-17-11 20:42:34 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya (TODO: todo 1, problems 0)
-17-11 20:42:34   [visheshan_kriya] Hindi-only writer: direct Hindi content; English generation and translation disabled
 17-11 20:43:46   [varn_vartani] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q106 key a vs re-solve c)
 17-11 20:46:59   [visheshan_kriya] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q39 key c vs re-solve a, Q49 key d vs re-solve a)
 17-11 20:51:07   [visheshan_kriya] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q32 key c vs re-solve b)
@@ -97,4 +81,20 @@
 17-11 21:03:42   [kaal_vachya] Hindi-only writer: direct Hindi content; English generation and translation disabled
 17-11 21:04:34   [sangya_sarvanam] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q6 key c vs re-solve a, Q15 key a vs re-solve b)
 17-11 21:06:26   [windows_files] review Content_en.txt: 1 issue(s): - Example 2 states the original file was `invoice.pdf.pdf` (double extension) but it appears as `invoice` (no exten
+17-11 21:08:30   [sangya_sarvanam] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q15 key a vs re-solve b)
+17-11 21:08:30   [sangya_sarvanam] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
+17-11 21:08:30   [sangya_sarvanam] written 0, failed 1; AI calls today 179/100000
+17-11 21:08:30 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 39 min: todo ['Set 01 hi: todo'] problems []
+17-11 21:08:30 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_06_keyboard_shortcuts (TODO: todo 25, problems 0)
+17-11 21:08:48   [windows_files] REJECTED review fix Content_en.txt: reviewer still reports - Example 3: Effective permission incorrectly stated as Modify; Share Change is more restri
+17-11 21:10:56   [keyboard_shortcuts] wrote Content_en.txt (19957 chars)
+17-11 21:11:56   [windows_files] review Key_Facts_en.txt: 1 issue(s): - The claim that SSC syllabus expects familiarity with Windows 10/11 Home, Pro, Enterprise, and Education edition
+17-11 21:15:00   [windows_files] REJECTED review fix Key_Facts_en.txt: reviewer still reports - Safe Mode access path "Settings → Recovery → Advanced startup" is incorrect → In Window
+17-11 21:18:15   [keyboard_shortcuts] wrote Content_hi.txt (17438 chars)
+17-11 21:18:45   [keyboard_shortcuts] wrote Key_Facts_en.txt (4116 chars)
+17-11 21:19:27   [keyboard_shortcuts] wrote Key_Facts_hi.txt (2717 chars)
+17-11 21:19:54   [keyboard_shortcuts] wrote Feynman_en.txt (3558 chars)
+17-11 21:20:15   [kaal_vachya] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q57 key a vs re-solve c, Q58 key b vs re-solve a, Q73 key c vs re-solve d, Q74 key b vs re-solve ?)
+17-11 21:20:45   [keyboard_shortcuts] wrote Feynman_hi.txt (3983 chars)
+17-11 21:21:01   [keyboard_shortcuts] wrote Mind_Map.txt (2015 chars)
 ```
