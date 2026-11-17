@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 03:18 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 11:58 PM
+**आख़िरी update:** 18-11-2026 03:33 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 11:58 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 55 मिनट |
-| W2 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 119 मिनट |
-| W3 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 78 मिनट |
-| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 68 मिनट |
+| W1 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 70 मिनट |
+| W2 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
+| W3 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 94 मिनट |
+| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 83 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 71 |
-| key 4 | 93 |
+| key 3 | 78 |
+| key 4 | 105 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -51,22 +51,11 @@
 - Chapter 03 sangya sarvanam (Hindi) — 1 बार
 - Chapter 04 software os (Computer) — 1 बार
 - Chapter 05 ling vachan karak (Hindi) — 1 बार
+- Chapter 06 kaal vachya (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 01:34:56   [windows_files] review: 2 section(s) corrected, 0 failed
-18-11 01:34:56   [windows_files] written 2, failed 0; AI calls today 118/100000
-18-11 01:35:14 DONE 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_05_windows_files in 24 min → 8a51c079
-18-11 01:35:15 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (TODO: todo 1, problems 0)
-18-11 01:35:15   [varn_vartani] Hindi-only writer: direct Hindi content; English generation and translation disabled
-18-11 01:35:29   [kaal_vachya] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q91 key b vs re-solve a)
-18-11 01:37:23   [ling_vachan_karak] review PYQ_hi.txt: 3 issue(s): - "SSC GD में इस अध्याय से 3–5 प्रश्न आते हैं" → invented exam statistic (no source, specific number claimed)
-18-11 01:39:30   [varn_vartani] Practice_hi_Set_03.txt try 1: rejected (parsed 24 questions, numbers 51…75)
-18-11 01:40:33   [kaal_vachya] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q91 key a vs re-solve b)
-18-11 01:40:57   [varn_vartani] Practice_hi_Set_03.txt try 2: rejected (Q59:duplicate_options,Q62:duplicate_options)
-18-11 01:44:52   [kaal_vachya] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q91 key c vs re-solve b)
-18-11 01:44:52   [kaal_vachya] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
 18-11 01:46:25   [kaal_vachya] Practice_hi_Set_05.txt try 1: rejected (Q114:duplicate_options,Q122:duplicate_options)
 18-11 01:53:46   [varn_vartani] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q75 key a vs re-solve d)
 18-11 01:56:22   [kaal_vachya] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q117 key b vs re-solve d, Q119 key a vs re-solve b, Q125 key c vs re-solve a)
@@ -95,4 +84,16 @@
 18-11 02:39:37   [sangya_sarvanam] review Content_hi.txt: 2 issue(s): - "बच्चा (बच्चे)" को उन शब्दों की सूची में शामिल किया गया है जिनका बहुवचन एकवचन जैसा ही रहता है, जबकि "बच्चा" का बह
 18-11 02:48:48   [kaal_vachya] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q136 key b vs re-solve a, Q138 key a vs re-solve b, Q144 key c vs re-solve a, Q147 key d vs re-solve
 18-11 03:12:20   [keyboard_shortcuts] REJECTED review fix Content_en.txt: reviewer still reports - The claim that Ctrl+Shift+V pastes values only in some versions of Excel is incorrect; no
+18-11 03:20:21   [sangya_sarvanam] REJECTED review fix Content_hi.txt: reviewer still reports - "परीक्षा उपयोगी सूत्र" में व्यक्तिवाचक/जातिवाचक के लिए "पहला अक्षर बड़ा/छोटे अक्षर" का नि
+18-11 03:21:06   [keyboard_shortcuts] review Content_hi.txt: 2 issue(s): - In Section 6 (Browser shortcuts table), the row for "पीछे जाएँ" lists `Backspace` as a shortcut, but in current C
+18-11 03:21:57   [sangya_sarvanam] review Key_Facts_hi.txt: 6 issue(s): - Point 6: 'ने' described as only for plural/past (बहुवचन/भूतकाल में) → 'ने' is the ergative marker used in perfe
+18-11 03:25:36   [keyboard_shortcuts] REJECTED review fix Content_hi.txt: reviewer still reports - In section 4.1 (Excel workbook and sheet shortcuts), the old menu path for renaming a she
+18-11 03:25:50   [sangya_sarvanam] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Under point 6, the example "लड़कोंने खेला" for plural subject with 'ने' is grammaticall
+18-11 03:27:58   [keyboard_shortcuts] review Feynman_en.txt: 1 issue(s): - Office shortcuts list: example "Alt, H, V, P for Paste Special" is incorrect; the correct KeyTip sequence for Pas
+18-11 03:33:25   [kaal_vachya] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q138 key d vs re-solve b)
+18-11 03:33:25   [kaal_vachya] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
+18-11 03:33:25   [kaal_vachya] written 0, failed 3; AI calls today 179/100000
+18-11 03:33:25 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya after 135 min: todo ['Set 04 hi: todo', 'Set 05 hi: todo', 'Set 06 hi: todo'] problems ['Mind_Map.txt: Hindi file is mostly not in Hindi']
+18-11 03:33:25 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (TODO: todo 1, problems 0)
+18-11 03:33:26   [varn_vartani] Hindi-only writer: direct Hindi content; English generation and translation disabled
 ```
