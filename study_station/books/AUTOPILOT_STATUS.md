@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 17-11-2026 08:36 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:33 PM
+**आख़िरी update:** 17-11-2026 08:51 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 17-11 06:33 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 123 मिनट |
-| W2 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 52 मिनट |
-| W3 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 6 मिनट |
-| W4 | Chapter 02 shabd bhed (10th Hindi) | 🔎 review हो रहा है | 32 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 138 मिनट |
+| W2 | Chapter 04 visheshan kriya (10th Hindi) | ✍️ लिख रहा है | 9 मिनट |
+| W3 | Chapter 03 sangya sarvanam (10th Hindi) | ✍️ लिख रहा है | 22 मिनट |
+| W4 | Chapter 02 shabd bhed (10th Hindi) | 🔎 review हो रहा है | 47 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 73 |
-| key 4 | 77 |
+| key 3 | 75 |
+| key 4 | 84 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -51,20 +51,11 @@
 - Chapter 03 sangya sarvanam (Hindi) — 1 बार
 - Chapter 04 software os (Computer) — 1 बार
 - Chapter 05 windows files (Computer) — 1 बार
+- Chapter 05 ling vachan karak (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-17-11 19:35:55   [software_os] REJECTED review fix Mind_Map.txt: reviewer still reports - Batch OS examples are wrong: Windows, Linux, macOS, Android, iOS are not batch operating sy
-17-11 19:37:09   [windows_files] review Feynman_en.txt: 1 issue(s): - The claim that files starting with '.' are hidden in Windows → In Windows, hidden files are determined by the Hid
-17-11 19:38:55   [windows_files] review Feynman_hi.txt: 1 issue(s): - Search Box example `name:.pdf` → केवल PDF फाइलें` is wrong because `name:.pdf` matches any filename containing ".
-17-11 19:43:34   [ling_vachan_karak] wrote Practice_hi_Set_03.txt (write, 25 MCQs)
-17-11 19:43:34   [ling_vachan_karak] written 2, failed 0; AI calls today 96/100000
-17-11 19:47:12   [windows_files] review PYQ_hi.txt: 1 issue(s): - In "तैयारी के लिए सुझाव" tip #9, the line "Win+Shift+S — आयताकार, फ्रीफॉर्म, विंडो, फुलस्क्रीन स्निप। विलंब स्निप (3/
-17-11 19:47:54   [varn_vartani] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q53 key b vs re-solve a, Q58 key a vs re-solve d, Q62 key a vs re-solve c, Q75 key b vs re-solve c)
-17-11 19:52:29   [ling_vachan_karak] review Content_hi.txt: 9 issue(s): - Section 3 Karma Karak example incorrectly adds 'को' to inanimate 'सेब' and labels it as animate → Use animate obj
-17-11 19:55:34   [software_os] review PYQ_en.txt: 2 issue(s): - Example 4 answer is incorrect: the average waiting time for the given Round Robin scheduling problem is 5.33, not 3.3
-17-11 19:56:07   [ling_vachan_karak] REJECTED review fix Content_hi.txt: reviewer still reports - Example 1: Answer given as (d) "हाथी — हथिनी" but explanation states all pairs are correc
 17-11 19:57:07   [ling_vachan_karak] review Key_Facts_hi.txt: 8 issue(s): - Point 2: Example “पेड़ा” is not a standard masculine noun ending in आ → use “पेड़” as typical example.
 17-11 19:57:46   [software_os] REJECTED review fix PYQ_en.txt: reviewer still reports - The examiner trap states "Ctrl+T opens a new tab in File Explorer (false — browser only)" but
 17-11 20:00:57   [software_os] review Important_Rules_en.txt: 2 issue(s): - Rule 4 example incorrectly states that 8 GB RAM + 12 GB page file = 20 GB virtual address space per proce
@@ -95,4 +86,14 @@
 17-11 20:31:21   [varn_vartani] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q105 key a vs re-solve b, Q116 key d vs re-solve b)
 17-11 20:32:00   [shabd_bhed] review Key_Facts_hi.txt: 2 issue(s): - Item 18 incorrectly states that some Hindi words are considered neuter (नपुंसकलिंग) and gives examples फल, पत्त
 17-11 20:35:12   [shabd_bhed] review Flashcards_hi.txt: 1 issue(s): - Card 9: Wrong plural formation rule for feminine nouns; “लड़की” is ईकारांत, not आकारांत, and its plural suffix
+17-11 20:39:23   [shabd_bhed] REJECTED review fix Flashcards_hi.txt: reviewer still reports - कार्ड 1: "संज्ञा वाक्य में कर्ता, कर्म या विशेषण का काम करती है" → संज्ञा वाक्य में कर
+17-11 20:42:33   [ling_vachan_karak] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 3: feminine noun endings listed as आ, इ, ई, उ, ऊ, ए but example “बहन” ends i
+17-11 20:42:33   [ling_vachan_karak] review: 1 section(s) corrected, 5 failed
+17-11 20:42:33   [ling_vachan_karak] written 1, failed 5; AI calls today 153/100000
+17-11 20:42:33 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 89 min: todo [] problems []
+17-11 20:42:34 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya (TODO: todo 1, problems 0)
+17-11 20:42:34   [visheshan_kriya] Hindi-only writer: direct Hindi content; English generation and translation disabled
+17-11 20:43:46   [varn_vartani] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q106 key a vs re-solve c)
+17-11 20:46:59   [visheshan_kriya] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q39 key c vs re-solve a, Q49 key d vs re-solve a)
+17-11 20:51:07   [visheshan_kriya] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q32 key c vs re-solve b)
 ```
