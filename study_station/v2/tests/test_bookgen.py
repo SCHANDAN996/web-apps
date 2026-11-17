@@ -18,6 +18,7 @@ def test_legacy_autopilot_rollover_preserves_work_and_ignores_new_or_manual_runs
     monkeypatch.setenv('RUNNER_TEMP', str(tmp_path))
     monkeypatch.setenv('GITHUB_REF_NAME', 'main')
     monkeypatch.delenv('BOOKGEN_HINDI_ONLY', raising=False)
+    monkeypatch.delenv('BOOKGEN_RATE_POLICY', raising=False)
     monkeypatch.delenv('GITHUB_ACTIONS', raising=False)
     bookgen.request_legacy_autopilot_rollover(lambda *a: None)
     assert not (state / 'STOP').exists()
@@ -26,6 +27,10 @@ def test_legacy_autopilot_rollover_preserves_work_and_ignores_new_or_manual_runs
     assert (state / 'STOP').exists() and source.read_text() == 'saved Hindi work'
     (state / 'STOP').unlink()
     monkeypatch.setenv('BOOKGEN_HINDI_ONLY', '1')
+    bookgen.request_legacy_autopilot_rollover(lambda *a: None)
+    assert (state / 'STOP').exists()    # Hindi-only runner also needs to adopt the bounded parallel policy.
+    (state / 'STOP').unlink()
+    monkeypatch.setenv('BOOKGEN_RATE_POLICY', 'parallel-v1')
     bookgen.request_legacy_autopilot_rollover(lambda *a: None)
     assert not (state / 'STOP').exists()
 
