@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 03:04 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 01:32 AM
+**आख़िरी update:** 19-11-2026 03:20 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 01:32 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 47 मिनट |
-| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 67 मिनट |
-| W3 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 49 मिनट |
-| W4 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 36 मिनट |
+| W1 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 62 मिनट |
+| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 82 मिनट |
+| W3 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 64 मिनट |
+| W4 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 13 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 92 |
-| key 4 | 50 |
+| key 3 | 105 |
+| key 4 | 52 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -47,7 +47,7 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 04 visheshan kriya (Hindi) — 1 बार
-- Chapter 03 sangya sarvanam (Hindi) — 1 बार
+- Chapter 03 sangya sarvanam (Hindi) — 2 बार
 - Chapter 06 kaal vachya (Hindi) — 1 बार
 - Chapter 01 varn vartani (Hindi) — 1 बार
 - Chapter 05 ling vachan karak (Hindi) — 1 बार
@@ -55,18 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 02:17:53 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 46 min: todo [] problems []
-19-11 02:17:54 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas (TODO: todo 5, problems 0)
-19-11 02:17:54   [samas] Hindi-only writer: direct Hindi content; English generation and translation disabled
-19-11 02:18:35   [word] review Content_en.txt: 4 issue(s): - The shortcut `Ctrl+Shift+V` is listed as "Paste Special → Keep Text Only" but this is not a default shortcut in W
-19-11 02:20:22   [word] REJECTED review fix Content_en.txt: reviewer still reports - In section 5.1, the Change Case (Shift+F3) description incorrectly includes 'tOGGLE cASE'
-19-11 02:21:19   [word] review Content_hi.txt: 2 issue(s): - शॉर्टकट तालिका में "फिर से करें" के लिए Ctrl+Shift+Z सूचीबद्ध है → Word में Redo का मानक शॉर्टकट केवल Ctrl+Y है; 
-19-11 02:23:59   [sandhi] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q15 key c vs re-solve a, Q24 key d vs re-solve a)
-19-11 02:23:59   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
-19-11 02:24:18   [samas] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q5 key b vs re-solve c, Q8 key b vs re-solve a, Q9 key d vs re-solve a, Q13 key b vs re-solve a, Q19
-19-11 02:26:48   [samas] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q5 key a vs re-solve c, Q6 key b vs re-solve d, Q8 key c vs re-solve b, Q9 key c vs re-solve d, Q13 
-19-11 02:28:08   [ling_vachan_karak] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 11: अधिकरण कारक के चिह्न केवल 'में/पर' बताए गए हैं, लेकिन उदाहरण 'रात को' मे
-19-11 02:28:08   [ling_vachan_karak] review: 1 section(s) corrected, 5 failed
 19-11 02:28:08   [ling_vachan_karak] written 1, failed 5; AI calls today 100/100000
 19-11 02:28:08 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 56 min: todo [] problems []
 19-11 02:28:09 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
@@ -95,4 +83,16 @@
 19-11 03:00:02   [samas] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
 19-11 03:03:08   [sangya_sarvanam] review PYQ_hi.txt: 2 issue(s): - Section 1 example explanation incorrectly labels 'माँ' as व्यक्तिवाचक संज्ञा → 'माँ' is जातिवाचक संज्ञा (common noun)
 19-11 03:04:33   [sangya_sarvanam] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 2, trap "कारक चिह्न भ्रम": "'ने' कर्ता (अन्य पुरुष, भूतकाल)" is incorrect; 'ने' marks
+19-11 03:05:24   [sangya_sarvanam] review Important_Rules_hi.txt: 4 issue(s): - Rule 2: The list for 'आ कारांत स्त्रीलिंग' incorrectly includes 'बहन', 'चिड़िया', 'नानी' (not ending in '
+19-11 03:06:55   [sangya_sarvanam] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 3 (वचन) table incorrectly lists "पानी" and "आदमी" as examples of अकारांत पुल
+19-11 03:06:55   [sangya_sarvanam] review: 1 section(s) corrected, 3 failed
+19-11 03:06:55   [sangya_sarvanam] written 1, failed 3; AI calls today 146/100000
+19-11 03:06:56 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 39 min: todo [] problems []
+19-11 03:06:56 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (OK: todo 0, problems 0)
+19-11 03:09:40   [samas] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q85 key d vs re-solve a, Q86 key a vs re-solve d, Q92 key a vs re-solve b)
+19-11 03:11:33   [sandhi] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q51 key a vs re-solve d, Q53 key d vs re-solve b, Q57 key b vs re-solve d, Q59 key b vs re-solve a, 
+19-11 03:12:10   [samas] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q88 key b vs re-solve c)
+19-11 03:15:17   [samas] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q92 key c vs re-solve ?)
+19-11 03:18:15   [samas] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q79 key b vs re-solve a, Q88 key d vs re-solve c)
+19-11 03:18:15   [samas] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
 ```
