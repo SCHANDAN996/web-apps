@@ -1,17 +1,22 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 01:31 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 09:08 PM
+**आख़िरी update:** 19-11-2026 01:33 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 01:32 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
+| worker | अध्याय | काम | कब से |
+|---|---|---|---|
+| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 0 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 0 मिनट |
+| W3 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 0 मिनट |
+| W4 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 0 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 173 |
-| key 4 | 153 |
+| key 3 | 1 |
+| key 4 | 1 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -37,59 +42,15 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- 19-11 01:28 — 12th Computer · Chapter 06 keyboard shortcuts
-- 19-11 01:22 — 12th Computer · Chapter 04 software os
-
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 04 visheshan kriya (Hindi) — 4 बार
-- Chapter 03 sangya sarvanam (Hindi) — 3 बार
-- Chapter 01 varn vartani (Hindi) — 3 बार
-- Chapter 05 ling vachan karak (Hindi) — 3 बार
-- Chapter 06 kaal vachya (Hindi) — 3 बार
-- Chapter 07 sandhi (Hindi) — 1 बार
+- अभी कोई नहीं
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 01:01:16 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya (OK: todo 0, problems 0)
-19-11 01:02:19   [sandhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q128 key b vs re-solve d, Q129 key b vs re-solve a, Q131 key b vs re-solve a, Q135 key d vs re-solve
-19-11 01:03:05   [ling_vachan_karak] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 5 trap 'सम्बन्ध कारक असंगति' gives wrong correction: "लड़की की भाई" → should be "लड़क
-19-11 01:04:17   [ling_vachan_karak] review Important_Rules_hi.txt: 2 issue(s): - नियम ४(घ) में कहा गया है कि इ/ई/उ/ऊ/ए/ओकारांत संज्ञाएँ प्रायः बहुवचन में अपरिवर्तित रहती हैं, लेकिन स्त्र
-19-11 01:04:50   [kaal_vachya] review Content_hi.txt: 3 issue(s): - Introduction claims "प्रतिवर्ष 3–5 प्रश्न पूछे जाते हैं" without citing a specific exam/year → remove or provide 
-19-11 01:06:05   [ling_vachan_karak] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम ६ में "पूर्णकालिक" (फुल-टाइम) लिखा है, व्याकरणिक पद "पूर्णकालिक" (परफेक्टिव)
-19-11 01:06:05   [ling_vachan_karak] review: 1 section(s) corrected, 4 failed
-19-11 01:06:05   [ling_vachan_karak] written 1, failed 4; AI calls today 75/100000
-19-11 01:06:05 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 44 min: todo [] problems []
-19-11 01:06:06 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_06_keyboard_shortcuts (OK: todo 0, problems 0)
-19-11 01:07:00   [kaal_vachya] REJECTED review fix Content_hi.txt: reviewer still reports - In the table for वर्तमान काल, the structure for पूर्ण सतत incorrectly includes 'को' along
-19-11 01:08:04   [kaal_vachya] review Key_Facts_hi.txt: 3 issue(s): - "संदिग्ध वर्तमान" और "संदिग्ध भूत" को काल के अलग-अलग भेद के रूप में सूचीबद्ध किया गया है; ये काल के भेद न होकर 
-19-11 01:09:34   [kaal_vachya] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 17 incorrectly states that “द्वारा” is only appropriate for inanimate/abstract ag
-19-11 01:12:06   [sandhi] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q129 key a vs re-solve b, Q130 key c vs re-solve d, Q131 key a vs re-solve b, Q135 key c vs re-solve
-19-11 01:12:30   [kaal_vachya] review PYQ_hi.txt: 2 issue(s): - In section 2.1 rule 2, the passive formation rule is written as “क्रिया → *जा/ई/ए* + मूल क्रिया का भूतकालिक कृदंत” wh
-19-11 01:14:29   [kaal_vachya] REJECTED review fix PYQ_hi.txt: reviewer still reports - Checklist point 4 states 'काल परिवर्तन में → केवल सहायक क्रिया बदलें, मूल क्रिया का कृदंत वही
-19-11 01:15:12   [kaal_vachya] review Important_Rules_hi.txt: 3 issue(s): - Rule 2 exception incorrectly claims that “होना”, “रहना”, “जाना” lack continuous forms and gives a garbled
-19-11 01:17:05   [keyboard_shortcuts] review Content_hi.txt: 1 issue(s): - Win + A का कार्य "त्वरित कार्रवाई केंद्र (Action Center) खोलें" Windows 11 के लिए गलत है → Windows 11 में Win + A
-19-11 01:17:11   [sandhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q129 key b vs re-solve a, Q130 key c vs re-solve d, Q131 key c vs re-solve b, Q134 key a vs re-solve
-19-11 01:17:11   [sandhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
-19-11 01:17:11   [sandhi] written 0, failed 5; AI calls today 92/100000
-19-11 01:17:11 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi after 184 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo'] problems []
-19-11 01:17:11 worker 2: nothing left
-19-11 01:19:30   [kaal_vachya] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम ८ के उदाहरण में काल असंगति: सकर्मक भूतकाल वाक्य "राम ने पत्र लिखा" का भाव वा
-19-11 01:19:30   [kaal_vachya] review: 0 section(s) corrected, 4 failed
-19-11 01:19:30   [kaal_vachya] written 0, failed 4; AI calls today 94/100000
-19-11 01:19:30 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya after 18 min: todo [] problems []
-19-11 01:19:30 worker 3: nothing left
-19-11 01:20:12   [software_os] review Important_Rules_en.txt: 3 issue(s): - Rule 4 example incorrectly states that 8 GB RAM + 12 GB page file equals 20 GB virtual address space per 
-19-11 01:21:13   [keyboard_shortcuts] review Key_Facts_en.txt: 1 issue(s): - Item 19: Ctrl+Shift+N does not create a new folder on the Desktop background; it works only inside File Explore
-19-11 01:22:02   [software_os] review: 1 section(s) corrected, 0 failed
-19-11 01:22:02   [software_os] written 1, failed 0; AI calls today 100/100000
-19-11 01:22:25 DONE 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os in 27 min → 79203ef9
-19-11 01:22:25 worker 1: nothing left
-19-11 01:27:12   [keyboard_shortcuts] review Important_Rules_hi.txt: 1 issue(s): - नियम 14 में "Ctrl + M → मार्क मोड" गलत है; कमांड प्रॉम्प्ट/पावरशेल में मार्क मोड के लिए कोई डिफ़ॉल्ट Ctrl
-19-11 01:28:10   [keyboard_shortcuts] review: 3 section(s) corrected, 0 failed
-19-11 01:28:10   [keyboard_shortcuts] written 3, failed 0; AI calls today 111/100000
-19-11 01:28:34 DONE 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_06_keyboard_shortcuts in 22 min → 89a7a5d1
-19-11 01:28:34 worker 0: nothing left
-19-11 01:31:29 autopilot end: done 2, failed 6
+19-11 01:32:18 autopilot start: 4 workers, reverse=False
+19-11 01:32:18 API policy: account start interval=20s; key start interval=15s; in-flight per key=1
+19-11 01:32:18 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (OK: todo 0, problems 0)
+19-11 01:32:23 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
+19-11 01:32:28 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya (OK: todo 0, problems 0)
+19-11 01:32:33 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (OK: todo 0, problems 0)
 ```
