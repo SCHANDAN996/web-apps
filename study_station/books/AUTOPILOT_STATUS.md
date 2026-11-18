@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 02:52 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
+**आख़िरी update:** 18-11-2026 03:07 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,13 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 205 मिनट |
-| W3 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 50 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 220 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 108 |
-| key 4 | 153 |
+| key 3 | 109 |
+| key 4 | 158 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -49,20 +48,12 @@
 - Chapter 04 visheshan kriya (Hindi) — 2 बार
 - Chapter 04 software os (Computer) — 2 बार
 - Chapter 01 varn vartani (Hindi) — 3 बार
-- Chapter 06 kaal vachya (Hindi) — 1 बार
+- Chapter 06 kaal vachya (Hindi) — 2 बार
 - Chapter 06 keyboard shortcuts (Computer) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 14:01:07   [sangya_sarvanam] written 1, failed 4; AI calls today 222/100000
-18-11 14:01:07 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 95 min: todo [] problems []
-18-11 14:01:07 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (OK: todo 0, problems 0)
-18-11 14:01:22   [kaal_vachya] repaired Mind_Map.txt (613 chars)
-18-11 14:01:22   [kaal_vachya] written 1, failed 0; AI calls today 223/100000
-18-11 14:01:26   [sandhi] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q53 key c vs re-solve b, Q56 key b vs re-solve a, Q57 key a vs re-solve c, Q60 key a vs re-solve c, 
-18-11 14:01:26   [sandhi] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
-18-11 14:03:08   [sandhi] Practice_hi_Set_04.txt try 1: rejected (Q78:duplicate_options,Q79:duplicate_options,Q81:duplicate_options,Q90:duplicate_options,Q93:duplicate_options)
 18-11 14:03:20   [ling_vachan_karak] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 8, Question 4: The sentence "गंगा नदी में बहती है" is grammatically correct (locative
 18-11 14:05:50   [varn_vartani] review Content_hi.txt: 4 issue(s): - हिंदी वर्णमाला में 39 व्यंजन और कुल 52 वर्ण बताना गलत है → मानक हिंदी में 13 स्वर और 33 व्यंजन (कुल 46) होते हैं;
 18-11 14:06:54   [sandhi] Practice_hi_Set_04.txt try 2: rejected (Q99:duplicate_options)
@@ -95,4 +86,12 @@
 18-11 14:48:37   [sandhi] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q106 key c vs re-solve b, Q108 key a vs re-solve ?, Q110 key a vs re-solve c, Q115 key b vs re-solve
 18-11 14:49:28   [kaal_vachya] review Flashcards_hi.txt: 5 issue(s): - Card 3: वर्तमान काल के भेदों की संख्या गलत है (चार बताए गए हैं, वास्तव में तीन हैं: सामान्य, अपूर्ण, पूर्ण) → 
 18-11 14:51:38   [kaal_vachya] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 11 (back): The rule "भूत काल अपूर्ण में 'थी' → 'जाता था'" misstates passive forma
+18-11 14:53:12   [kaal_vachya] review PYQ_hi.txt: 1 issue(s): - Question 3 explanation mislabels 'मुझे' as कर्म (direct object) → 'मुझे' is सम्बन्ध कारक (dative), not कर्म.
+18-11 14:56:06   [kaal_vachya] REJECTED review fix PYQ_hi.txt: reviewer still reports - In the 'Common Distractors' table, the correct rule for 'ने' incorrectly includes 'अपूर्ण भूत
+18-11 14:58:33   [kaal_vachya] review Important_Rules_hi.txt: 5 issue(s): - Rule 2 exception: garbled duplicate phrase “वह जा रहा है” and incorrect claim that continuous forms are r
+18-11 15:02:06   [kaal_vachya] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम ७ की कर्म वाच्य सारणी में सतत भविष्यत और पूर्ण भविष्यत की पंक्तियाँ नहीं हैं
+18-11 15:02:06   [kaal_vachya] review: 0 section(s) corrected, 5 failed
+18-11 15:02:06   [kaal_vachya] written 0, failed 5; AI calls today 267/100000
+18-11 15:02:06 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya after 128 min: todo [] problems []
+18-11 15:02:06 worker 2: nothing left
 ```
