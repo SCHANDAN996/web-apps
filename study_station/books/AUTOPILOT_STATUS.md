@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 07:03 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 03:42 PM
+**आख़िरी update:** 18-11-2026 07:19 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 03:42 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 8 मिनट |
-| W2 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 32 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 109 मिनट |
-| W4 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 64 मिनट |
+| W1 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 23 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 0 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 124 मिनट |
+| W4 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 80 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 154 |
-| key 4 | 94 |
+| key 3 | 167 |
+| key 4 | 95 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -47,7 +47,7 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 03 sangya sarvanam (Hindi) — 3 बार
-- Chapter 01 varn vartani (Hindi) — 2 बार
+- Chapter 01 varn vartani (Hindi) — 3 बार
 - Chapter 04 software os (Computer) — 2 बार
 - Chapter 04 visheshan kriya (Hindi) — 3 बार
 - Chapter 05 ling vachan karak (Hindi) — 1 बार
@@ -57,17 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 18:11:27   [kaal_vachya] REJECTED review fix Content_hi.txt: reviewer still reports - वर्तमान काल की सारणी में "पूर्ण सतत" की संरचना "मूल क्रिया + रहा/रहे/रही + है/हैं/हूँ + स
-18-11 18:12:26   [kaal_vachya] review Key_Facts_hi.txt: 8 issue(s): - Fact 2 lists “संदिग्ध वर्तमान” as a present‑tense form and gives “राम पढ़ता होगा” as its example → “संदिग्ध वर्
-18-11 18:14:21   [kaal_vachya] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - बिंदु #10 का उदाहरण "गीत सीता **द्वारा** गाया जाता है" नियम #17 का उल्लंघन करता है जो स
-18-11 18:18:14   [kaal_vachya] review Flashcards_hi.txt: 2 issue(s): - Card 9: Wrong rule for forming passive (adding जा, ई, ए, इ directly to the verb) → Passive is formed by using 
-18-11 18:19:59   [sandhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q26 key d vs re-solve b, Q29 key c vs re-solve a, Q32 key b vs re-solve d, Q33 key d vs re-solve b, 
-18-11 18:22:59   [kaal_vachya] review PYQ_hi.txt: 1 issue(s): - Rule claims 'ने' is used in all three past tenses including अपूर्ण भूत (imperfect past) → 'ने' is used only in perfec
-18-11 18:23:55   [sangya_sarvanam] review PYQ_hi.txt: 4 issue(s): - In Section 5 (Error Detection traps), the claim that "राम घर गया" is अशुद्ध is incorrect → "राम घर गया" is grammatica
-18-11 18:25:41   [sangya_sarvanam] REJECTED review fix PYQ_hi.txt: reviewer still reports - "यहाँ/वहाँ" को सर्वनाम (अन्य पुरुष) की सूची में शामिल करना गलत है → "यहाँ/वहाँ" स्थानवाचक क्र
-18-11 18:27:03   [kaal_vachya] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 2.1 rule 2 incorrectly states passive verb formation as 'जा/ई/ए + मूल क्रिया का भूतका
-18-11 18:27:50   [sangya_sarvanam] review Important_Rules_hi.txt: 5 issue(s): - Rule 2: The list of "आ कारांत स्त्रीलिंग" includes words not ending in "आ" (बहन, चिड़िया, सास, नानी) and 
-18-11 18:30:44   [kaal_vachya] review Important_Rules_hi.txt: 6 issue(s): - Rule 2 exception text is garbled and contains a nonsensical phrase (“नहीं कहते — 'वह जा रहा है' के स्थान 
 18-11 18:31:26   [sangya_sarvanam] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 15 common errors table: the row for “कौन सी किताब?” lists the same sentence 
 18-11 18:31:26   [sangya_sarvanam] review: 0 section(s) corrected, 4 failed
 18-11 18:31:26   [sangya_sarvanam] written 0, failed 4; AI calls today 220/100000
@@ -97,4 +86,15 @@
 18-11 18:55:26 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os (OK: todo 0, problems 0)
 18-11 18:57:16   [ling_vachan_karak] review PYQ_hi.txt: 3 issue(s): - Section 8, Question 2 has duplicate options (ग) and (घ) both "पत्तों" → Options must be distinct; e.g., change (घ) to
 18-11 19:02:56   [varn_vartani] REJECTED review fix Content_hi.txt: reviewer still reports - In the Matra table, for मात्रा 'इ' (चिह्न ि), the examples "सीता" and "नील" are incorrect
+18-11 19:04:17   [varn_vartani] review Key_Facts_hi.txt: 2 issue(s): - Point 18 example "मँहगा" is misspelled → correct spelling "महँगा".
+18-11 19:06:53   [varn_vartani] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - The breakdown “33 मूल व्यंजन + 4 संयुक्त व्यंजन + 2 द्वित्व व्यंजन + 2 नुक्ता-युक्त व्य
+18-11 19:08:55   [varn_vartani] review Feynman_hi.txt: 4 issue(s): - Section 3 table: The chandrabindu rule example "गँगा" is incorrect because 'ग' is not in the list (ह, य, र, व, ल,
+18-11 19:13:54   [varn_vartani] REJECTED review fix Feynman_hi.txt: reviewer still reports - Section 1: The consonant list includes 36 items (क्ष, त्र, ज्ञ) but the text claims 33 co
+18-11 19:15:25   [sandhi] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q51 key c vs re-solve b, Q53 key a vs re-solve ?, Q59 key a vs re-solve c, Q62 key c vs re-solve b, 
+18-11 19:16:17   [varn_vartani] review Important_Rules_hi.txt: 9 issue(s): - Point 5: Rule states long vowels take only anusvara (बिन्दु) but example "हाँसी" is given as correct with
+18-11 19:18:49   [varn_vartani] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 1 claims 45 मूल वर्ण (11 स्वर + 34 व्यंजन) but the consonant list contains 3
+18-11 19:18:49   [varn_vartani] review: 0 section(s) corrected, 4 failed
+18-11 19:18:49   [varn_vartani] written 0, failed 4; AI calls today 261/100000
+18-11 19:18:49 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 47 min: todo [] problems []
+18-11 19:18:49 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
 ```
