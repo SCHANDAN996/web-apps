@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 08:41 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 04:51 AM
+**आख़िरी update:** 18-11-2026 08:57 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 04:51 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 word (12th Computer) | ✍️ लिख रहा है | 32 मिनट |
-| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 198 मिनट |
-| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 22 मिनट |
-| W4 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 36 मिनट |
+| W1 | Chapter 07 word (12th Computer) | ✍️ लिख रहा है | 47 मिनट |
+| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 37 मिनट |
+| W4 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 6 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 157 |
-| key 4 | 129 |
+| key 3 | 169 |
+| key 4 | 134 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -51,31 +50,13 @@
 - Chapter 04 software os (Computer) — 3 बार
 - Chapter 03 sangya sarvanam (Hindi) — 3 बार
 - Chapter 05 ling vachan karak (Hindi) — 2 बार
-- Chapter 06 kaal vachya (Hindi) — 2 बार
+- Chapter 06 kaal vachya (Hindi) — 3 बार
 - Chapter 06 keyboard shortcuts (Computer) — 2 बार
+- Chapter 07 sandhi (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 08:06:55   [visheshan_kriya] written 1, failed 3; AI calls today 248/100000
-18-11 08:06:55 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 75 min: todo [] problems []
-18-11 08:06:56 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_06_keyboard_shortcuts (OK: todo 0, problems 0)
-18-11 08:08:18   [software_os] REJECTED review fix PYQ_en.txt: reviewer still reports - Common Examiner Traps: "Ctrl+T opens a new tab in File Explorer" is marked false (browser onl
-18-11 08:08:50   [software_os] review Important_Rules_en.txt: 2 issue(s): - Rule 4 example incorrectly states that 8 GB RAM + 12 GB page file = 20 GB virtual address space per proce
-18-11 08:09:48   [software_os] REJECTED review fix Important_Rules_en.txt: reviewer still reports - Rule 4: "On 64-bit Windows, each process has a user-mode virtual address space of
-18-11 08:09:48   [software_os] review: 0 section(s) corrected, 2 failed
-18-11 08:09:48   [software_os] written 0, failed 2; AI calls today 252/100000
-18-11 08:09:48 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os after 13 min: todo [] problems []
-18-11 08:09:48 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word (TODO: todo 25, problems 0)
-18-11 08:11:04   [keyboard_shortcuts] review Content_hi.txt: 2 issue(s): - अनुभाग 6.2 की तालिका में `Backspace` को "पीछे जाएँ" शॉर्टकट के रूप में सूचीबद्ध किया गया है, लेकिन Chrome/Edge मे
-18-11 08:13:58   [keyboard_shortcuts] REJECTED review fix Content_hi.txt: reviewer still reports - The table entry for `Win + A` claims it opens Action Center in both Windows 10 and 11, bu
-18-11 08:17:44   [keyboard_shortcuts] review Important_Rules_hi.txt: 2 issue(s): - Rule 3 example: “Alt → H → F → S” for the font size dropdown in Word is incorrect → The correct key‑tip s
-18-11 08:19:11   [sandhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q128 key b vs re-solve d, Q131 key b vs re-solve a, Q132 key b vs re-solve c, Q138 key c vs re-solve
-18-11 08:19:47   [keyboard_shortcuts] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम 12 में Ctrl+Shift+N को सभी ब्राउज़र (क्रोम/एज/फायरफॉक्स) के लिए नई निजी/इनकॉ
-18-11 08:19:47   [keyboard_shortcuts] review: 0 section(s) corrected, 2 failed
-18-11 08:19:47   [keyboard_shortcuts] written 0, failed 2; AI calls today 263/100000
-18-11 08:19:47 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_06_keyboard_shortcuts after 13 min: todo [] problems []
-18-11 08:19:47 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas (TODO: todo 13, problems 0)
 18-11 08:19:48   [samas] Hindi-only writer: direct Hindi content; English generation and translation disabled
 18-11 08:21:52   [word] wrote Content_en.txt (20974 chars)
 18-11 08:23:29   [word] wrote Content_hi.txt (13359 chars)
@@ -97,4 +78,23 @@
 18-11 08:36:47   [kaal_vachya] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q115 key d vs re-solve a)
 18-11 08:37:16   [word] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 18-11 08:42:15   [kaal_vachya] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q108 key d vs re-solve b, Q121 key d vs re-solve b)
+18-11 08:44:00   [samas] wrote Mind_Map.txt (999 chars)
+18-11 08:47:59   [kaal_vachya] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q116 key d vs re-solve c, Q117 key b vs re-solve a)
+18-11 08:50:44   [kaal_vachya] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q114 key a vs re-solve c)
+18-11 08:50:44   [kaal_vachya] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
+18-11 08:50:44   [kaal_vachya] written 0, failed 1; AI calls today 295/100000
+18-11 08:50:44 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya after 45 min: todo ['Set 05 hi: todo'] problems ['Mind_Map.txt: Hindi file is mostly not in Hindi']
+18-11 08:50:44 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (TODO: todo 1, problems 0)
+18-11 08:50:44   [varn_vartani] Hindi-only writer: direct Hindi content; English generation and translation disabled
+18-11 08:51:30   [samas] wrote Flashcards_hi.txt (3234 chars)
+18-11 08:52:13   [samas] wrote PYQ_hi.txt (6569 chars)
+18-11 08:53:33   [samas] wrote Important_Rules_hi.txt (6954 chars)
+18-11 08:53:37   [sandhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q127 key c vs re-solve d, Q141 key a vs re-solve c, Q142 key b vs re-solve a, Q143 key b vs re-solve
+18-11 08:53:37   [sandhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
+18-11 08:53:37   [sandhi] written 7, failed 6; AI calls today 299/100000
+18-11 08:53:38 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi after 211 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 04 hi: todo'] problems []
+18-11 08:53:38 worker 1: nothing left
+18-11 08:54:35   [samas] Practice_hi_Set_01.txt try 1: rejected (parsed 24 questions, numbers 1…25)
+18-11 08:54:38   [word] Practice_hi_Set_01.txt try 1: rejected (parsed 25 questions, numbers 51…75)
+18-11 08:55:43   [varn_vartani] Practice_hi_Set_03.txt try 1: rejected (parsed 24 questions, numbers 51…75)
 ```
