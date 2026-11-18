@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 01:20 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
+**आख़िरी update:** 18-11-2026 01:36 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 113 मिनट |
-| W2 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 48 मिनट |
-| W3 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 27 मिनट |
-| W4 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 55 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 128 मिनट |
+| W2 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 63 मिनट |
+| W3 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 42 मिनट |
+| W4 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 70 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 93 |
-| key 4 | 104 |
+| key 3 | 97 |
+| key 4 | 111 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -57,14 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 12:19:12   [varn_vartani] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 19: Visarga sandhi rule incorrectly states visarga changes to half-forms of follo
-18-11 12:21:23   [varn_vartani] review Feynman_hi.txt: 6 issue(s): - Section 1 claims 33 consonants but lists 36 (including क्ष, त्र, ज्ञ) → Either correct the count to 36 or list on
-18-11 12:23:38   [software_os] review Important_Rules_en.txt: 4 issue(s): - Rule 4 example: "8 GB RAM + 12 GB page file = 20 GB virtual address space per process" → "8 GB RAM + 12 G
-18-11 12:25:44   [software_os] REJECTED review fix Important_Rules_en.txt: reviewer still reports - Rule 4: Virtual address space per process on 64-bit Windows is stated as 8 TB → S
-18-11 12:25:44   [software_os] review: 0 section(s) corrected, 1 failed
-18-11 12:25:44   [software_os] written 0, failed 1; AI calls today 155/100000
-18-11 12:25:44 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os after 21 min: todo [] problems []
-18-11 12:25:44 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
 18-11 12:27:30   [visheshan_kriya] review Feynman_hi.txt: 1 issue(s): - Question 1 answer key lists only (ख) as correct, but (घ) "सुन्दर बनो" also uses "सुन्दर" as a predicative adjecti
 18-11 12:32:47   [visheshan_kriya] review: 1 section(s) corrected, 1 failed
 18-11 12:32:47   [visheshan_kriya] written 1, failed 1; AI calls today 160/100000
@@ -97,4 +89,12 @@
 18-11 13:07:43   [sangya_sarvanam] review Content_hi.txt: 1 issue(s): - The list of nouns with unchanged plural forms (in Example 6 and Quick Revision) incorrectly includes "बच्चा" (plu
 18-11 13:13:55   [sangya_sarvanam] review Key_Facts_hi.txt: 2 issue(s): - In point 4, the plural examples for consonant-ending nouns incorrectly include the singular form: "फल → फल/फलें
 18-11 13:16:27   [sangya_sarvanam] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 16, first bullet: suffix listed as “ता/ती” but examples “सच्चाई” (uses “ई”) and “
+18-11 13:21:16   [ling_vachan_karak] review PYQ_hi.txt: 3 issue(s): - Invented exam statistic in final paragraph: "SSC GD में इस अध्याय से 3–5 प्रश्न आते हैं" → remove specific number (e.
+18-11 13:22:54   [sangya_sarvanam] review Flashcards_hi.txt: 1 issue(s): - Card 10: "वह, यह" को पुरुषवाचक सर्वनाम (अन्य पुरुष) बताना गलत है → पुरुषवाचक सर्वनाम में केवल उत्तम पुरुष (मैं
+18-11 13:24:55   [sangya_sarvanam] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 10: पुरुषवाचक सर्वनाम के केवल दो भेद (उत्तम, मध्यम) बताए गए हैं और 'वह, यह' को नि
+18-11 13:26:17   [sandhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q32 key c vs re-solve ?, Q33 key c vs re-solve a, Q39 key d vs re-solve a, Q42 key a vs re-solve c, 
+18-11 13:26:17   [sandhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
+18-11 13:26:24   [sangya_sarvanam] review PYQ_hi.txt: 6 issue(s): - Section 3, trap "पुरुष भ्रम": includes "यहाँ/वहाँ" as third person pronouns → "यहाँ/वहाँ" are adverbs of place, not p
+18-11 13:27:22   [sandhi] Practice_hi_Set_03.txt try 1: rejected (Q59:duplicate_options,Q61:duplicate_options,Q65:duplicate_options,Q69:duplicate_options)
+18-11 13:28:45   [sandhi] Practice_hi_Set_03.txt try 2: rejected (Q59:duplicate_options,Q61:duplicate_options,Q65:duplicate_options,Q69:duplicate_options)
 ```
