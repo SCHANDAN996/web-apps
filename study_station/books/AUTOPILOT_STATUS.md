@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 09:24 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 09:08 PM
+**आख़िरी update:** 18-11-2026 09:40 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 09:08 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 16 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 16 मिनट |
-| W3 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 1 मिनट |
-| W4 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 15 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
+| W3 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 17 मिनट |
+| W4 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 31 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 12 |
-| key 4 | 12 |
+| key 3 | 22 |
+| key 4 | 23 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -70,4 +70,13 @@
 18-11 21:22:52 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (OK: todo 0, problems 0)
 18-11 21:24:08   [ling_vachan_karak] review Content_hi.txt: 5 issue(s): - Section 1 gender table misclassifies "कमरा" (masculine), "पत्तल" (feminine), "फल" (masculine), "ज्ञान" (masculine
 18-11 21:24:40   [varn_vartani] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 19: Visarga sandhi rule misstated — visarga before क/ख does not become क्/ख्, and
+18-11 21:27:02   [varn_vartani] review Feynman_hi.txt: 5 issue(s): - Section 1 claims 33 consonants but lists 36 items (including क्ष, त्र, ज्ञ) → Change count to 36 or list only the
+18-11 21:28:49   [ling_vachan_karak] REJECTED review fix Content_hi.txt: reviewer still reports - The 'बहुवचन नियम' table's row for 'आ (स्त्रीलिंग)' gives examples 'लड़की → लड़कियाँ' and 
+18-11 21:30:49   [ling_vachan_karak] review Key_Facts_hi.txt: 6 issue(s): - Point 4: Neuter gender examples (किताब, मेज, पानी, आकाश) are factually wrong; these nouns are masculine/feminin
+18-11 21:33:53   [sangya_sarvanam] review Key_Facts_hi.txt: 4 issue(s): - Section 6 (कारक चिह्न): Example "लड़कोंने खेला" for "ने" is wrong because "खेलना" is intransitive; "ने" require
+18-11 21:34:31   [ling_vachan_karak] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 6: Example शेर→शेरनी given for अकारांत पुल्लिंग feminine formation, but शेर is co
+18-11 21:36:19   [ling_vachan_karak] review Feynman_hi.txt: 5 issue(s): - In the लिंग table, "पुस्तक" is incorrectly listed as पुल्लिंग (marked अपवाद); "पुस्तक" is स्त्रीलिंग → Move "पुस्
+18-11 21:36:46   [sangya_sarvanam] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 4: The plural examples for consonant‑ending nouns incorrectly list the singular f
+18-11 21:39:00   [ling_vachan_karak] REJECTED review fix Feynman_hi.txt: reviewer still reports - लिंग तालिका में "कहानी" को पुल्लिंग दिखाया गया है → "कहानी" स्त्रीलिंग है
+18-11 21:40:22   [software_os] review Mind_Map.txt: 1 issue(s): - "Types of OS" placed as a child component of "Operating System" (alongside Kernel, Memory Management) → Move "Types
 ```
