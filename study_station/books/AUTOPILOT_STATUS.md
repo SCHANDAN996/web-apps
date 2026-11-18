@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 03:20 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 01:32 AM
+**आख़िरी update:** 19-11-2026 03:35 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 01:32 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 62 मिनट |
-| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 82 मिनट |
-| W3 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 64 मिनट |
-| W4 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 13 मिनट |
+| W1 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 77 मिनट |
+| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 98 मिनट |
+| W3 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 79 मिनट |
+| W4 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 28 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 105 |
-| key 4 | 52 |
+| key 3 | 120 |
+| key 4 | 54 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -55,15 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 02:28:08   [ling_vachan_karak] written 1, failed 5; AI calls today 100/100000
-19-11 02:28:08 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 56 min: todo [] problems []
-19-11 02:28:09 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
-19-11 02:29:30   [word] REJECTED review fix Content_hi.txt: reviewer still reports - शॉर्टकट तालिका में Ctrl+N की नोट "ब्राउज़र में नया टैब खोलता है" गलत है → ब्राउज़र में Ct
-19-11 02:30:18   [word] review Key_Facts_en.txt: 2 issue(s): - Item 19: Wildcard example `<[A-Z]{1,}>` claimed to find capitalized words → The pattern `<[A-Z]{1,}>` finds all
-19-11 02:32:12   [sangya_sarvanam] review Content_hi.txt: 1 issue(s): - The exception list for nouns with unchanged plural forms incorrectly includes 'पैर' (singular 'पैर' becomes plura
-19-11 02:32:55   [sandhi] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q26 key b vs re-solve a, Q27 key d vs re-solve b, Q28 key d vs re-solve c, Q29 key a vs re-solve b, 
-19-11 02:34:49   [sangya_sarvanam] review Key_Facts_hi.txt: 1 issue(s): - In point 16, the suffix “आई/ई” is wrongly illustrated with “दयालु → दयालुता”; the correct suffix for “दयालुता” 
-19-11 02:36:49   [word] REJECTED review fix Key_Facts_en.txt: reviewer still reports - Point 6 incorrectly states that Shift+arrow keys extend selection by word, line, and pa
 19-11 02:38:00   [word] review Key_Facts_hi.txt: 1 issue(s): - Item 20: Cross-reference shortcut written as `Alt+N, RF` → correct shortcut is `Alt+N, R`
 19-11 02:39:23   [sandhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q29 key a vs re-solve b, Q30 key c vs re-solve a, Q31 key b vs re-solve c, Q36 key a vs re-solve b, 
 19-11 02:39:35   [sangya_sarvanam] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - In point 6, the example "लड़कोंने खेला" for the ergative marker "ने" is incorrect becau
@@ -95,4 +86,13 @@
 19-11 03:15:17   [samas] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q92 key c vs re-solve ?)
 19-11 03:18:15   [samas] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q79 key b vs re-solve a, Q88 key d vs re-solve c)
 19-11 03:18:15   [samas] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
+19-11 03:21:55   [samas] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q107 key b vs re-solve a, Q125 key a vs re-solve b)
+19-11 03:24:46   [samas] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q122 key b vs re-solve a, Q125 key b vs re-solve ?)
+19-11 03:25:32   [sandhi] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q51 key d vs re-solve b, Q54 key d vs re-solve c, Q55 key b vs re-solve a, Q57 key c vs re-solve a, 
+19-11 03:27:22   [samas] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q123 key c vs re-solve b)
+19-11 03:31:33   [samas] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q107 key d vs re-solve a, Q122 key a vs re-solve b, Q123 key c vs re-solve b)
+19-11 03:31:33   [samas] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
+19-11 03:32:27   [samas] Practice_hi_Set_06.txt try 1: rejected (parsed 24 questions, numbers 126…150)
+19-11 03:33:21   [word] review Flashcards_hi.txt: 2 issue(s): - कार्ड 3: "Ctrl + Shift + S भी काम करता है (Word 2016+ में)" गलत है → Word में "Save As" का डिफ़ॉल्ट शॉर्टकट F1
+19-11 03:35:23   [word] review PYQ_en.txt: 2 issue(s): - In Example 1 solution, "Ctrl + Shift + F opens the Font dialog with focus on the Font list (legacy behavior)" is inco
 ```
