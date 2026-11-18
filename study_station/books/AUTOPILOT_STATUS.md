@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 08:36 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 03:42 PM
+**आख़िरी update:** 18-11-2026 08:51 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 03:42 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 201 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 217 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 201 |
-| key 4 | 104 |
+| key 3 | 203 |
+| key 4 | 106 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -54,10 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 19:18:49   [varn_vartani] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 1 claims 45 मूल वर्ण (11 स्वर + 34 व्यंजन) but the consonant list contains 3
-18-11 19:18:49   [varn_vartani] review: 0 section(s) corrected, 4 failed
-18-11 19:18:49   [varn_vartani] written 0, failed 4; AI calls today 261/100000
-18-11 19:18:49 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 47 min: todo [] problems []
 18-11 19:18:49 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
 18-11 19:22:29   [sangya_sarvanam] review Content_hi.txt: 1 issue(s): - Incorrect suffixes 'आइ' and 'हट' listed for abstract noun formation in Example 2 → Standard Hindi suffixes for भा
 18-11 19:24:58   [sangya_sarvanam] REJECTED review fix Content_hi.txt: reviewer still reports - In the table under "3. लिंग, वचन और कारक", the case-marker examples (कारक चिह्न) given fo
@@ -94,4 +90,8 @@
 18-11 20:25:05   [sandhi] wrote Practice_hi_Set_04.txt (write, 25 MCQs)
 18-11 20:27:27   [sandhi] Practice_hi_Set_05.txt try 1: rejected (parsed 24 questions, numbers 101…125)
 18-11 20:29:12   [sandhi] Practice_hi_Set_05.txt try 2: rejected (Q101:duplicate_options,Q102:duplicate_options,Q103:duplicate_options,Q104:duplicate_options,Q105:duplicate_opt
+18-11 20:42:58   [sandhi] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q102 key b vs re-solve a, Q104 key c vs re-solve a, Q105 key a vs re-solve ?, Q107 key a vs re-solve
+18-11 20:43:58   [sandhi] Practice_hi_Set_05.txt try 4: rejected (parsed 24 questions, numbers 101…125)
+18-11 20:43:58   [sandhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
+18-11 20:45:17   [sandhi] Practice_hi_Set_06.txt try 1: rejected (Q127:duplicate_options,Q130:duplicate_options,Q131:duplicate_options,Q133:duplicate_options,Q134:duplicate_opt
 ```
