@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 02:06 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
+**आख़िरी update:** 18-11-2026 02:21 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 159 मिनट |
-| W2 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 93 मिनट |
-| W3 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 5 मिनट |
-| W4 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 5 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 174 मिनट |
+| W2 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 109 मिनट |
+| W3 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 20 मिनट |
+| W4 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 20 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 101 |
-| key 4 | 125 |
+| key 3 | 104 |
+| key 4 | 133 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -57,13 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 12:53:41 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya (TODO: todo 1, problems 1)
-18-11 12:53:41   [kaal_vachya] Hindi-only writer: direct Hindi content; English generation and translation disabled
-18-11 12:54:09   [sandhi] Practice_hi_Set_02.txt try 2: rejected (Q31:duplicate_options,Q35:duplicate_options,Q44:duplicate_options,Q48:duplicate_options,Q49:duplicate_options)
-18-11 12:55:12   [ling_vachan_karak] review Content_hi.txt: 5 issue(s): - Section 1 लिंग table: 'कमरा' and 'पत्तल' are misclassified as नपुंसकलिंग → 'कमरा' is पुल्लिंग, 'पत्तल' is स्त्रील
-18-11 12:58:30   [ling_vachan_karak] REJECTED review fix Content_hi.txt: reviewer still reports - In 'बहुवचन बनाने के नियम' table, row 'आ (स्त्रीलिंग)' shows rule 'आ → एँ' but example 'लड
-18-11 12:59:51   [ling_vachan_karak] review Key_Facts_hi.txt: 5 issue(s): - Point 4 claims Hindi has a neuter gender (नपुंसकलिंग) and lists किताब, मेज, पानी, आकाश as neuter; Hindi nouns a
-18-11 13:02:55   [ling_vachan_karak] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 7: The rule for “ईकारांत पुल्लिंग” incorrectly includes “सेठ → सेठानी” as an exam
 18-11 13:04:39   [ling_vachan_karak] review Feynman_hi.txt: 4 issue(s): - लिंग तालिका में 'पुस्तक' को पुल्लिंग (अपवाद) बताया गया है → 'पुस्तक' स्त्रीलिंग है, इसे स्त्रीलिंग कॉलम में रखें
 18-11 13:06:27   [ling_vachan_karak] REJECTED review fix Feynman_hi.txt: reviewer still reports - Gender table lists "कहानी" under पुल्लिंग; "कहानी" is स्त्रीलिंग.
 18-11 13:07:02   [sandhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q26 key b vs re-solve a, Q28 key d vs re-solve a, Q30 key a vs re-solve d, Q32 key b vs re-solve ?, 
@@ -97,4 +90,11 @@
 18-11 14:03:08   [sandhi] Practice_hi_Set_04.txt try 1: rejected (Q78:duplicate_options,Q79:duplicate_options,Q81:duplicate_options,Q90:duplicate_options,Q93:duplicate_options)
 18-11 14:03:20   [ling_vachan_karak] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 8, Question 4: The sentence "गंगा नदी में बहती है" is grammatically correct (locative
 18-11 14:05:50   [varn_vartani] review Content_hi.txt: 4 issue(s): - हिंदी वर्णमाला में 39 व्यंजन और कुल 52 वर्ण बताना गलत है → मानक हिंदी में 13 स्वर और 33 व्यंजन (कुल 46) होते हैं;
+18-11 14:06:54   [sandhi] Practice_hi_Set_04.txt try 2: rejected (Q99:duplicate_options)
+18-11 14:09:42   [varn_vartani] REJECTED review fix Content_hi.txt: reviewer still reports - In section 3.1 (मात्रा-नियम table), the examples for मात्रा 'इ' and 'उ' incorrectly list 
+18-11 14:09:59   [sandhi] Practice_hi_Set_04.txt try 3: rejected (Q94:duplicate_options,Q97:duplicate_options,Q98:duplicate_options)
+18-11 14:12:17   [varn_vartani] review Feynman_hi.txt: 4 issue(s): - Consonant list includes 36 items (क्ष, त्र, ज्ञ) but claims 33 consonants → List only the 33 basic consonants (क 
+18-11 14:16:25   [varn_vartani] REJECTED review fix Feynman_hi.txt: reviewer still reports - Section 3 table, first row: “अनुनासिक (ँ)” is wrong terminology for the diacritic; it sho
+18-11 14:19:08   [varn_vartani] review Flashcards_hi.txt: 10 issue(s): - Card 1: हिंदी वर्णमाला में कुल 52 वर्ण (11 स्वर + 41 व्यंजन) बताया गया है → हिंदी वर्णमाला में कुल 44 वर्ण हो
+18-11 14:21:43   [varn_vartani] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 11: The example for रेफ (superscript र) is given as “र्क (कर्ता)”, but कर्ता cont
 ```
