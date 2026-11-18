@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 05:16 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 03:42 PM
+**आख़िरी update:** 18-11-2026 05:31 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 03:42 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 14 मिनट |
-| W2 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 16 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 1 मिनट |
-| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 52 मिनट |
+| W1 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 29 मिनट |
+| W2 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 16 मिनट |
+| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 67 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 82 |
+| key 3 | 101 |
 | key 4 | 55 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
@@ -56,10 +56,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 16:46:52   [kaal_vachya] REJECTED review fix PYQ_hi.txt: reviewer still reports - PYQ-style उदाहरण 3 (द्विकर्मक क्रिया) का उत्तर (a) गलत है; सही उत्तर (d) 'विद्या गुरु द्वारा 
-18-11 16:47:37   [ling_vachan_karak] REJECTED review fix Feynman_hi.txt: reviewer still reports - Section 1 table lists "पुस्तक" under पुल्लिंग; "पुस्तक" is स्त्रीलिंग → Move "पुस्तक" to 
-18-11 16:49:04   [kaal_vachya] review Important_Rules_hi.txt: 3 issue(s): - नियम २ के अपवाद में उदाहरण गड़बड़ है: "नहीं कहते — 'वह जा रहा है' के स्थान पर 'वह जा रहा है' मान्य है" → 
-18-11 16:51:24   [visheshan_kriya] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 5: द्विकर्मक क्रिया example uses noun 'पढ़ाई' as verb → Correct verb is 'पढ़
 18-11 16:51:24   [visheshan_kriya] review: 1 section(s) corrected, 2 failed
 18-11 16:51:24   [visheshan_kriya] written 1, failed 2; AI calls today 102/100000
 18-11 16:51:24 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 68 min: todo [] problems []
@@ -96,4 +92,8 @@
 18-11 17:14:33 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi (TODO: todo 6, problems 0)
 18-11 17:14:33   [sandhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
 18-11 17:15:19   [varn_vartani] review Feynman_hi.txt: 3 issue(s): - "व्यंजन (33)" सूची में 36 आइटम हैं (क्ष, त्र, ज्ञ सहित) → मूल व्यंजन 33 हैं (क से ह तक); क्ष, त्र, ज्ञ संयुक्त व्
+18-11 17:18:16   [software_os] review Content_hi.txt: 1 issue(s): - सॉफ्टवेयर को तीन मुख्य श्रेणियों (सिस्टम, एप्लिकेशन, यूटिलिटी) में बाँटना गलत है → यूटिलिटी सॉफ्टवेयर सिस्टम सॉफ्
+18-11 17:19:49   [varn_vartani] REJECTED review fix Feynman_hi.txt: reviewer still reports - Section 3 table: The examples "सँभाल" and "पँख" are incorrectly given as correct spelling
+18-11 17:24:37   [software_os] review Feynman_hi.txt: 1 issue(s): - Common mistakes point 5 uses Korean word "실행" in Hindi explanation → replace with Hindi "निष्पादन" or "कार्यान्वय
+18-11 17:29:31   [software_os] review PYQ_en.txt: 1 issue(s): - Example 9 solution: "UEFI firmware → Boot Manager (from ESP) → Windows Boot Manager" incorrectly implies two distinct
 ```
