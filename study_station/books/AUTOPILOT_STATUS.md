@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 05:07 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 01:32 AM
+**आख़िरी update:** 19-11-2026 05:22 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 01:32 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 excel (12th Computer) | ✍️ लिख रहा है | 48 मिनट |
-| W2 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 15 मिनट |
-| W3 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 18 मिनट |
-| W4 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 44 मिनट |
+| W1 | Chapter 08 excel (12th Computer) | ✍️ लिख रहा है | 63 मिनट |
+| W2 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 13 मिनट |
+| W3 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 33 मिनट |
+| W4 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 59 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 200 |
-| key 4 | 131 |
+| key 3 | 213 |
+| key 4 | 145 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -48,7 +48,7 @@
 
 - Chapter 04 visheshan kriya (Hindi) — 3 बार
 - Chapter 03 sangya sarvanam (Hindi) — 4 बार
-- Chapter 06 kaal vachya (Hindi) — 2 बार
+- Chapter 06 kaal vachya (Hindi) — 3 बार
 - Chapter 01 varn vartani (Hindi) — 2 बार
 - Chapter 05 ling vachan karak (Hindi) — 2 बार
 - Chapter 08 samas (Hindi) — 1 बार
@@ -58,29 +58,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 04:43:13   [ling_vachan_karak] review Important_Rules_hi.txt: 2 issue(s): - नियम ४ (घ) में कहा गया है कि इ/ई/उ/ऊ/ए/ओकारांत संज्ञाएँ बहुवचन में प्रायः अपरिवर्तित रहती हैं, लेकिन उदाह
-19-11 04:44:06   [excel] wrote Important_Rules_en.txt (5992 chars)
-19-11 04:45:15   [excel] wrote Important_Rules_hi.txt (9161 chars)
-19-11 04:47:46   [sangya_sarvanam] review PYQ_hi.txt: 2 issue(s): - Section 4 PYQ-style example explanation incorrectly states that reflexive pronoun 'अपना' agrees with subject 'सीता' i
-19-11 04:48:44   [ling_vachan_karak] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 1 exception incorrectly cites "शिक्षक/शिक्षिका" as a word used for both gend
-19-11 04:48:44   [ling_vachan_karak] review: 0 section(s) corrected, 5 failed
-19-11 04:48:44   [ling_vachan_karak] written 0, failed 5; AI calls today 288/100000
-19-11 04:48:44 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 46 min: todo [] problems []
-19-11 04:48:45 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word (OK: todo 0, problems 0)
-19-11 04:49:13   [samas] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q4 key d vs re-solve c, Q12 key c vs re-solve a)
-19-11 04:50:11   [word] review Content_en.txt: 3 issue(s): - In section 16 (Keyboard Shortcuts), `Ctrl+Shift+V` is listed as "Paste Special → Keep Text Only" → `Ctrl+Shift+V`
-19-11 04:51:10   [sangya_sarvanam] review Important_Rules_hi.txt: 7 issue(s): - Rule 2: "आ कारांत स्त्रीलिंग" list includes words not ending in आ (बहन, चिड़िया, सास, नानी) → Only माता e
-19-11 04:52:04   [excel] Practice_en_Set_01.txt try 1: re-solve disagrees (Q25 key d vs re-solve ?)
-19-11 04:52:21   [sangya_sarvanam] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - In Rule 2, "दादा (संबोधन में), नाना (संबोधन में)" are listed as feminine nouns en
-19-11 04:52:21   [sangya_sarvanam] review: 2 section(s) corrected, 1 failed
-19-11 04:52:21   [sangya_sarvanam] written 2, failed 1; AI calls today 297/100000
-19-11 04:52:21 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 11 min: todo [] problems []
-19-11 04:52:22 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya (OK: todo 0, problems 0)
-19-11 04:53:28   [excel] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-19-11 04:53:38   [word] REJECTED review fix Content_en.txt: reviewer still reports - In section 5.1, the Change Case (`Shift+F3`) description lists four toggle states includi
-19-11 04:54:18   [kaal_vachya] review Content_hi.txt: 4 issue(s): - Invented exam statistic: "प्रतिवर्ष 3–5 प्रश्न पूछे जाते हैं" → Remove the specific number claim or replace with 
-19-11 04:54:23   [excel] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-19-11 04:56:02   [kaal_vachya] REJECTED review fix Content_hi.txt: reviewer still reports - In भविष्यत काल table, the structure for सतत is given as 'मूल क्रिया + रहा/रहे/रही + गा/गे
 19-11 04:56:38   [kaal_vachya] review Key_Facts_hi.txt: 2 issue(s): - Fact 18 mislabels “पढ़ा जाएगा” as past tense in the wrong example; “पढ़ा जाएगा” is future passive, while the pa
 19-11 04:57:12   [excel] wrote Practice_en_Set_02.txt (write, 25 MCQs)
 19-11 04:58:26   [kaal_vachya] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 9 incorrectly states that the passive verb is formed by adding ‘जा/जाता/जाती/जाते
@@ -98,4 +75,27 @@
 19-11 05:05:42   [excel] Practice_en_Set_03.txt try 1: rejected (Q53:leaked_reasoning,Q67:leaked_reasoning)
 19-11 05:06:26   [excel] Practice_en_Set_03.txt try 2: rejected (Q53:leaked_reasoning,Q67:leaked_reasoning)
 19-11 05:06:59   [samas] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q63 key b vs re-solve c)
+19-11 05:07:45   [excel] Practice_en_Set_03.txt try 3: rejected (Q53:leaked_reasoning,Q67:leaked_reasoning)
+19-11 05:08:17   [excel] Practice_en_Set_03.txt try 4: rejected (Q53:leaked_reasoning,Q67:leaked_reasoning)
+19-11 05:08:17   [excel] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
+19-11 05:08:17   [excel] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
+19-11 05:08:49   [kaal_vachya] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम ६ में कर्म वाच्य क्रिया निर्माण का नियम गलत है: 'मूल क्रिया + "जाना"' → 'कर्
+19-11 05:08:49   [kaal_vachya] review: 0 section(s) corrected, 4 failed
+19-11 05:08:49   [kaal_vachya] written 0, failed 4; AI calls today 335/100000
+19-11 05:08:49 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya after 16 min: todo [] problems []
+19-11 05:08:49 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (OK: todo 0, problems 0)
+19-11 05:09:34   [excel] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+19-11 05:10:29   [excel] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+19-11 05:11:26   [samas] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q57 key c vs re-solve b, Q63 key b vs re-solve c)
+19-11 05:12:46   [excel] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+19-11 05:12:58   [samas] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q57 key c vs re-solve b, Q63 key b vs re-solve c, Q69 key c vs re-solve b)
+19-11 05:12:58   [samas] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+19-11 05:13:49   [excel] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+19-11 05:14:22   [word] review PYQ_en.txt: 2 issue(s): - In Example 1 solution, the claim "Ctrl + Shift + F opens the Font dialog with focus on the Font list (legacy behavior
+19-11 05:17:22   [samas] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q82 key b vs re-solve a, Q86 key a vs re-solve b, Q93 key d vs re-solve b, Q94 key d vs re-solve b, 
+19-11 05:18:06   [varn_vartani] review Content_hi.txt: 2 issue(s): - मात्रा-नियम table: examples for 'इ' matra show incorrect forms (marked अशुद्ध) instead of correct usage → replace
+19-11 05:20:42   [varn_vartani] REJECTED review fix Content_hi.txt: reviewer still reports - In the "सामान्य त्रुटियाँ और उनके सुधार" table, the row for "सँभव" → "संभव" lists "त्रुटि
+19-11 05:21:03   [samas] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q80 key a vs re-solve b, Q82 key b vs re-solve a, Q86 key b vs re-solve a, Q92 key a vs re-solve b, 
+19-11 05:21:30   [varn_vartani] review Key_Facts_hi.txt: 2 issue(s): - बिंदु 6 में नुक्ता-युक्त व्यंजन के रूप में ऩ और ऱ दिए गए हैं → हिंदी में मानक नुक्ता-युक्त व्यंजन क़, ख़, ग़, ज
+19-11 05:22:20   [varn_vartani] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 1 states there are 2 nukta-युक्त व्यंजन, but point 6 lists 5; the correct count i
 ```
