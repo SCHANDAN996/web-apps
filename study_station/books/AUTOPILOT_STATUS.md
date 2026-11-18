@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 02:37 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
+**आख़िरी update:** 18-11-2026 02:52 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,13 +8,13 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 189 मिनट |
-| W3 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 35 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 205 मिनट |
+| W3 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 50 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 106 |
-| key 4 | 142 |
+| key 3 | 108 |
+| key 4 | 153 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -55,13 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 13:47:51   [kaal_vachya] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q113 key c vs re-solve b)
-18-11 13:53:48   [kaal_vachya] wrote Practice_hi_Set_05.txt (write, 25 MCQs)
-18-11 13:53:48   [kaal_vachya] written 1, failed 0; AI calls today 217/100000
-18-11 13:56:17   [sangya_sarvanam] REJECTED review fix PYQ_hi.txt: reviewer still reports - खंड 4 के जाल "आप" का प्रयोग में गलत नियम: "सर्वनाम 'आपका/आपकी' एकवचन रूप में" लिखा है → "आप" 
-18-11 13:57:41   [sangya_sarvanam] review Important_Rules_hi.txt: 5 issue(s): - Rule 2: The list under "आ कारांत स्त्रीलिंग" includes words not ending in आ (बहन, चिड़िया, सास, नानी) → O
-18-11 14:01:07   [sangya_sarvanam] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 3 table misclassifies noun endings (e.g., 'रास्ता' under अकारांत, 'आदमी/पानी
-18-11 14:01:07   [sangya_sarvanam] review: 1 section(s) corrected, 4 failed
 18-11 14:01:07   [sangya_sarvanam] written 1, failed 4; AI calls today 222/100000
 18-11 14:01:07 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 95 min: todo [] problems []
 18-11 14:01:07 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (OK: todo 0, problems 0)
@@ -95,4 +88,11 @@
 18-11 14:37:00   [ling_vachan_karak] written 1, failed 4; AI calls today 248/100000
 18-11 14:37:00 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 124 min: todo [] problems []
 18-11 14:37:00 worker 1: nothing left
+18-11 14:39:10   [kaal_vachya] review Content_hi.txt: 3 issue(s): - Invented exam statistic: "SSC GD, MTS, RRB Group D जैसी परीक्षाओं में इनसे प्रतिवर्ष 3–5 प्रश्न पूछे जाते हैं" wi
+18-11 14:43:29   [kaal_vachya] REJECTED review fix Content_hi.txt: reviewer still reports - भूतकाल सामान्य की संरचना "मूल क्रिया + ा/ए/ई + था/थे/थी" दी गई है लेकिन उदाहरण "राम पढ़ता
+18-11 14:44:23   [kaal_vachya] review Key_Facts_hi.txt: 4 issue(s): - Point 2: “संदिग्ध वर्तमान” is not a recognized present‑tense aspect; the example “राम पढ़ता होगा” expresses fut
+18-11 14:46:17   [kaal_vachya] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - बिंदु 9 में कर्मवाच्य क्रिया-निर्माण का नियम गलत दिया गया है: "मूल क्रिया + 'जा/जाता/जा
+18-11 14:48:37   [sandhi] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q106 key c vs re-solve b, Q108 key a vs re-solve ?, Q110 key a vs re-solve c, Q115 key b vs re-solve
+18-11 14:49:28   [kaal_vachya] review Flashcards_hi.txt: 5 issue(s): - Card 3: वर्तमान काल के भेदों की संख्या गलत है (चार बताए गए हैं, वास्तव में तीन हैं: सामान्य, अपूर्ण, पूर्ण) → 
+18-11 14:51:38   [kaal_vachya] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 11 (back): The rule "भूत काल अपूर्ण में 'थी' → 'जाता था'" misstates passive forma
 ```
