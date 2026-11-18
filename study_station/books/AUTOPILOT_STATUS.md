@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 07:19 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 03:42 PM
+**आख़िरी update:** 18-11-2026 07:34 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 03:42 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 23 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 0 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 124 मिनट |
-| W4 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 80 मिनट |
+| W1 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 39 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 15 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 140 मिनट |
+| W4 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 95 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 167 |
-| key 4 | 95 |
+| key 3 | 176 |
+| key 4 | 96 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -57,12 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 18:31:26   [sangya_sarvanam] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 15 common errors table: the row for “कौन सी किताब?” lists the same sentence 
-18-11 18:31:26   [sangya_sarvanam] review: 0 section(s) corrected, 4 failed
-18-11 18:31:26   [sangya_sarvanam] written 0, failed 4; AI calls today 220/100000
-18-11 18:31:26 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 33 min: todo [] problems []
-18-11 18:31:26 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (OK: todo 0, problems 0)
-18-11 18:34:52   [ling_vachan_karak] REJECTED review fix Content_hi.txt: reviewer still reports - Gender table: 'पत्तल' listed as नपुंसकलिंग → 'पत्तल' is स्त्रीलिंग (पत्तलें)
 18-11 18:36:55   [ling_vachan_karak] review Key_Facts_hi.txt: 6 issue(s): - Point 3: Example 'कमरी' is not a standard Hindi feminine noun → replace with a valid ईकारांत feminine noun like
 18-11 18:39:31   [ling_vachan_karak] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 6 rule “अकारांत पुल्लिंग में आ जोड़कर स्त्रीलिंग बनता है” is wrong; the feminine 
 18-11 18:41:02   [ling_vachan_karak] review Feynman_hi.txt: 5 issue(s): - "पुस्तक" को पुल्लिंग (अपवाद) बताया गया है → "पुस्तक" स्त्रीलिंग है
@@ -97,4 +91,10 @@
 18-11 19:18:49   [varn_vartani] written 0, failed 4; AI calls today 261/100000
 18-11 19:18:49 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 47 min: todo [] problems []
 18-11 19:18:49 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
+18-11 19:22:29   [sangya_sarvanam] review Content_hi.txt: 1 issue(s): - Incorrect suffixes 'आइ' and 'हट' listed for abstract noun formation in Example 2 → Standard Hindi suffixes for भा
+18-11 19:24:58   [sangya_sarvanam] REJECTED review fix Content_hi.txt: reviewer still reports - In the table under "3. लिंग, वचन और कारक", the case-marker examples (कारक चिह्न) given fo
+18-11 19:26:09   [sangya_sarvanam] review Key_Facts_hi.txt: 2 issue(s): - बिंदु 4 में व्यंजनांत संज्ञाओं के बहुवचन उदाहरण गलत हैं: "फल → फल/फलें, घर → घर/घरें" → सही बहुवचन रूप "फल/फलों
+18-11 19:28:24   [sangya_sarvanam] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 4 incorrectly lists 'फल', 'घर', 'पानी' as invariant nouns → 'फल' and 'घर' have pl
+18-11 19:31:23   [sangya_sarvanam] review PYQ_hi.txt: 2 issue(s): - In the first PYQ-style example (भाववाचक संज्ञा), the explanation incorrectly labels "माँ" as व्यक्तिवाचक संज्ञा. → "म
+18-11 19:34:00   [sangya_sarvanam] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 3 trap "पुरुष भ्रम" lists "यहाँ/वहाँ" as pronouns → "यहाँ/वहाँ" are adverbs (क्रियावि
 ```
