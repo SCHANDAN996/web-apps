@@ -1,0 +1,60 @@
+Keyboard Shortcuts — Feynman Explanation
+
+Think of a keyboard shortcut as a secret handshake between you and the computer. Instead of walking through three menus (File → Save → OK), you press Ctrl + S once and the job is done. The computer recognises the combination instantly, just like a bouncer who knows the VIP code.
+
+Core idea: every shortcut is a chord — two or more keys pressed together. The modifier keys (Ctrl, Alt, Shift, Win) act like shift levers on a typewriter; they change what the next key does. Memorise the modifier, and the letter key usually hints at the action: C = Copy, V = Paste (looks like an insertion mark), X = Cut (scissors), Z = Undo (last step back), Y = Redo (step forward).
+
+Windows system shortcuts (work everywhere in Windows 10/11):
+- Win + D — show Desktop (minimise all windows)
+- Win + E — open File Explorer
+- Win + L — lock the PC
+- Win + I — open Settings
+- Alt + Tab — switch between open apps (hold Alt, tap Tab)
+- Ctrl + Shift + Esc — open Task Manager directly
+
+Office / document shortcuts (Word, Excel, PowerPoint, Outlook — consistent across recent versions):
+- Ctrl + N — new file
+- Ctrl + O — open file
+- Ctrl + S — save
+- Ctrl + P — print
+- Ctrl + F — find
+- Ctrl + H — replace
+- Ctrl + B / I / U — bold, italic, underline
+- Ctrl + K — insert hyperlink
+- F4 — repeat last action (powerful in Excel formatting)
+- Alt → release → letter — ribbon keyboard access (e.g., Alt, H, V, S for Paste Special)
+
+Browser shortcuts (Chrome, Edge, Firefox — nearly identical):
+- Ctrl + T — new tab
+- Ctrl + W — close tab
+- Ctrl + Shift + T — reopen last closed tab
+- Ctrl + Tab / Ctrl + Shift + Tab — next / previous tab
+- Ctrl + L or F6 — jump to address bar
+- Ctrl + D — bookmark current page
+- Ctrl + + / Ctrl + - / Ctrl + 0 — zoom in / out / reset
+
+Common mistakes
+1. Pressing keys sequentially instead of together — hold the modifier, tap the letter, release both.
+2. Confusing Ctrl (Windows/Linux) with Cmd (Mac). In this book we cover Windows scope only.
+3. Assuming every shortcut works in every app — some are app-specific (e.g., Ctrl + Shift + L filters data in Excel but does nothing in Notepad).
+4. Forgetting that Fn on laptops can swap F-keys; check Fn Lock if F4 doesn't repeat.
+5. Overloading memory — learn 5 daily, use them, then add 5 more.
+
+Recall Questions
+
+1. Which shortcut minimises all windows and shows the desktop instantly?
+   Answer: Win + D. Win + M also minimises but Win + D toggles — press again to restore.
+
+2. You want to reopen the browser tab you closed by mistake. Which chord works in Chrome, Edge, and Firefox?
+   Answer: Ctrl + Shift + T. Each press restores the next most-recently closed tab.
+
+3. In Excel, you applied a yellow fill to a cell and want to repeat that exact formatting on five other cells without using the ribbon. Press?
+   Answer: F4. It repeats the last action, including formatting, insertion, deletion.
+
+4. What does Alt + Tab do, and how is it different from Win + Tab?
+   Answer: Alt + Tab shows a quick horizontal switcher for open windows; Win + Tab opens Task View with timeline and virtual desktops.
+
+5. You are in Word and need the "Paste Special" dialog (keep text only, merge formatting, etc.). Ribbon path is Home → Paste → Paste Special. Keyboard-only sequence?
+   Answer: Alt, H, V, S (release Alt after pressing it, then type H, V, S in order). This uses KeyTips — every ribbon tab and button gets a letter badge when Alt is pressed.
+
+Source: Microsoft Support / Microsoft Learn official documentation for Windows and Office keyboard shortcuts.

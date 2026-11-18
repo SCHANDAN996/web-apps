@@ -1,0 +1,387 @@
+# Keyboard Shortcuts
+
+## Introduction
+
+Keyboard shortcuts are combinations of keys that perform tasks faster than using a mouse. In competitive examinations like SSC CHSL, SSC CGL, and banking exams, questions on keyboard shortcuts appear regularly in the Computer Awareness section. This chapter covers the most frequently tested shortcuts for Windows operating system, Microsoft Office applications, and web browsers.
+
+Understanding the scope of each shortcut is essential: some work globally across Windows, some are specific to Microsoft Office applications (Word, Excel, PowerPoint), and others function only inside web browsers. Examination questions often test this distinction.
+
+---
+
+## 1. Windows System Shortcuts (Global)
+
+These shortcuts work on the Windows desktop, File Explorer, and most applications unless overridden by the application itself.
+
+| Shortcut | Action | Notes |
+|----------|--------|-------|
+| **Win** | Open/Close Start Menu | Windows key alone |
+| **Win + D** | Show Desktop (minimize all) | Toggle: press again to restore |
+| **Win + E** | Open File Explorer | Quick access to drives and folders |
+| **Win + L** | Lock Computer | Security best practice |
+| **Win + R** | Open Run Dialog | Type commands like `cmd`, `msconfig` |
+| **Win + Tab** | Task View (virtual desktops) | Visual switcher |
+| **Alt + Tab** | Switch between open apps | Hold Alt, tap Tab |
+| **Alt + F4** | Close active window / Shutdown dialog | On desktop, opens shutdown menu |
+| **Ctrl + Shift + Esc** | Open Task Manager directly | Bypasses Ctrl+Alt+Del screen |
+| **Win + Pause/Break** | Open System Properties | Shows PC name, edition, RAM |
+| **Win + I** | Open Settings (Windows 10/11) | Modern control panel |
+| **Win + S** | Open Search | Type to find apps, files, settings |
+| **Win + PrtScn** | Screenshot saved to Pictures\Screenshots | Full screen capture |
+| **Alt + PrtScn** | Screenshot of active window to clipboard | Paste into Paint/Word |
+| **Win + Shift + S** | Snipping Tool (rectangular/freeform/window/full) | Copies to clipboard |
+| **Ctrl + C / Ctrl + X / Ctrl + V** | Copy / Cut / Paste | Universal |
+| **Ctrl + Z / Ctrl + Y** | Undo / Redo | Universal |
+| **Ctrl + A** | Select All | Universal |
+| **Ctrl + S** | Save | Universal |
+| **Ctrl + P** | Print | Universal |
+| **Ctrl + F** | Find | Universal |
+| **Ctrl + N** | New window/document | Universal |
+| **Ctrl + O** | Open file | Universal |
+| **Ctrl + W** | Close tab/window | Universal |
+
+**Common Mistake:** Confusing **Win + D** (Show Desktop) with **Win + M** (Minimize all windows). Win + D is a toggle; Win + M only minimizes. To restore after Win + M, use **Win + Shift + M**.
+
+---
+
+## 2. Microsoft Word Shortcuts
+
+These shortcuts apply specifically to Microsoft Word. Many also work in Outlook's message editor.
+
+### Formatting
+| Shortcut | Action |
+|----------|--------|
+| **Ctrl + B** | Bold |
+| **Ctrl + I** | Italic |
+| **Ctrl + U** | Underline |
+| **Ctrl + Shift + >** | Increase font size |
+| **Ctrl + Shift + <** | Decrease font size |
+| **Ctrl + ]** | Increase font size by 1 pt |
+| **Ctrl + [** | Decrease font size by 1 pt |
+| **Ctrl + Spacebar** | Clear manual formatting (reset to style) |
+| **Ctrl + Shift + C / Ctrl + Shift + V** | Copy / Paste formatting only |
+
+### Paragraph Alignment
+| Shortcut | Action |
+|----------|--------|
+| **Ctrl + L** | Align Left |
+| **Ctrl + E** | Center |
+| **Ctrl + R** | Align Right |
+| **Ctrl + J** | Justify |
+| **Ctrl + 1** | Single line spacing |
+| **Ctrl + 2** | Double line spacing |
+| **Ctrl + 5** | 1.5 line spacing |
+| **Ctrl + 0** | Add/remove 12 pt space before paragraph |
+
+### Navigation & Selection
+| Shortcut | Action |
+|----------|--------|
+| **Ctrl + Home** | Go to beginning of document |
+| **Ctrl + End** | Go to end of document |
+| **Ctrl + ← / →** | Move one word left/right |
+| **Ctrl + ↑ / ↓** | Move one paragraph up/down |
+| **Shift + ← / →** | Select character by character |
+| **Ctrl + Shift + ← / →** | Select word by word |
+| **Shift + Home / End** | Select to start/end of line |
+| **Ctrl + Shift + Home / End** | Select to start/end of document |
+| **Ctrl + Click** | Select entire sentence |
+| **Triple-click** | Select entire paragraph |
+
+### Editing & Tools
+| Shortcut | Action |
+|----------|--------|
+| **Ctrl + F** | Find (Navigation pane) |
+| **Ctrl + H** | Find and Replace |
+| **Ctrl + G** | Go To (page, section, line) |
+| **F7** | Spelling & Grammar check |
+| **Shift + F7** | Thesaurus |
+| **Ctrl + K** | Insert Hyperlink |
+| **Ctrl + Enter** | Insert Page Break |
+| **Ctrl + Shift + Enter** | Insert Column Break |
+| **Alt + Ctrl + S** | Split/Remove split window view |
+
+**Common Mistake:** **Ctrl + Shift + C** copies formatting; **Ctrl + Shift + V** pastes formatting. Candidates often confuse these with regular Copy/Paste (Ctrl+C / Ctrl+V).
+
+---
+
+## 3. Microsoft Excel Shortcuts
+
+Excel has the largest set of exam-relevant shortcuts. Focus on navigation, selection, editing, and formula-related keys.
+
+### Navigation & Selection
+| Shortcut | Action |
+|----------|--------|
+| **Ctrl + Home** | Go to cell A1 |
+| **Ctrl + End** | Go to last used cell (bottom-right of data) |
+| **Ctrl + Arrow Keys** | Jump to edge of current data region |
+| **Ctrl + Shift + Arrow Keys** | Select to edge of data region |
+| **Shift + Spacebar** | Select entire row |
+| **Ctrl + Spacebar** | Select entire column |
+| **Ctrl + A** | Select current region (press again for entire sheet) |
+| **Ctrl + Page Up / Page Down** | Switch between worksheet tabs |
+| **Alt + Page Up / Page Down** | Move one screen left/right |
+
+### Editing & Data Entry
+| Shortcut | Action |
+|----------|--------|
+| **F2** | Edit active cell (cursor inside cell) |
+| **Ctrl + Enter** | Fill selected cells with same entry |
+| **Ctrl + D** | Fill Down (copy from cell above) |
+| **Ctrl + R** | Fill Right (copy from cell left) |
+| **Ctrl + ;** | Insert current date |
+| **Ctrl + Shift + ;** | Insert current time |
+| **Ctrl + `** (backtick) | Toggle formula view (show formulas) |
+| **Alt + =** | AutoSum (inserts SUM function) |
+| **F4** | Repeat last action / Toggle absolute/relative references in formula |
+| **Ctrl + Z** | Undo |
+| **Ctrl + Y** | Redo |
+
+### Formatting
+| Shortcut | Action |
+|----------|--------|
+| **Ctrl + 1** | Format Cells dialog |
+| **Ctrl + B / I / U** | Bold / Italic / Underline |
+| **Ctrl + 5** | Strikethrough |
+| **Ctrl + Shift + $** | Currency format (2 decimals) |
+| **Ctrl + Shift + %** | Percentage format (0 decimals) |
+| **Ctrl + Shift + #** | Date format (dd-mmm-yy) |
+| **Ctrl + Shift + @** | Time format (h:mm AM/PM) |
+| **Ctrl + Shift + !** | Number format (2 decimals, thousands separator) |
+| **Ctrl + Shift + ^** | Scientific format |
+
+### Rows, Columns, Sheets
+| Shortcut | Action |
+|----------|--------|
+| **Ctrl + Shift + +** (plus) | Insert cells/rows/columns dialog |
+| **Ctrl + -** (minus) | Delete cells/rows/columns dialog |
+| **Ctrl + 9** | Hide selected rows |
+| **Ctrl + 0** (zero) | Hide selected columns |
+| **Ctrl + Shift + 9** | Unhide rows |
+| **Ctrl + Shift + 0** | Unhide columns |
+| **Shift + F11** | Insert new worksheet |
+| **Alt + H + O + R** | Rename worksheet (sequential keys) |
+
+**Common Mistake:** **Ctrl + 0** hides columns; **Ctrl + 9** hides rows. Candidates often swap them. Remember: **0** looks like a column (vertical), **9** looks like a row (horizontal loop).
+
+**Common Mistake:** **F4** in Excel has two distinct behaviors: (1) When not editing a formula, it repeats the last action (e.g., apply same formatting). (2) When editing a formula, it cycles through reference types: A1 → $A$1 → A$1 → $A1 → A1. Examination questions often test the formula-reference behavior.
+
+---
+
+## 4. Microsoft PowerPoint Shortcuts
+
+### During Editing
+| Shortcut | Action |
+|----------|--------|
+| **Ctrl + M** | Insert new slide |
+| **Ctrl + D** | Duplicate selected slide/object |
+| **Ctrl + G** | Group selected objects |
+| **Ctrl + Shift + G** | Ungroup |
+| **Ctrl + K** | Insert Hyperlink |
+| **Ctrl + Shift + C / V** | Copy / Paste formatting (Animation Painter alternative) |
+
+### During Slide Show (Presentation Mode)
+| Shortcut | Action |
+|----------|--------|
+| **F5** | Start from beginning |
+| **Shift + F5** | Start from current slide |
+| **N / Enter / Space / → / ↓ / Page Down** | Next slide/animation |
+| **P / Backspace / ← / ↑ / Page Up** | Previous slide/animation |
+| **Number + Enter** | Jump to slide number |
+| **B / .** | Black screen (toggle) |
+| **W / ,** | White screen (toggle) |
+| **Ctrl + P** | Pen tool (annotate) |
+| **Ctrl + E** | Eraser |
+| **Esc / Hyphen** | End show |
+
+**Common Mistake:** **Ctrl + M** inserts a new slide; **Ctrl + N** creates a new presentation file. In Word/Excel, Ctrl+N creates a new document/workbook. In PowerPoint, Ctrl+N creates a new .pptx file.
+
+---
+
+## 5. Web Browser Shortcuts (Chrome, Edge, Firefox)
+
+These work in all major Chromium-based browsers (Chrome, Edge, Brave) and most in Firefox. Firefox-specific differences are noted.
+
+| Shortcut | Action | Notes |
+|----------|--------|-------|
+| **Ctrl + T** | New tab | Universal |
+| **Ctrl + N** | New window | Universal |
+| **Ctrl + Shift + N** | New Incognito/Private window | Chromium-based (Chrome, Edge, Brave); Firefox uses **Ctrl + Shift + P** |
+| **Ctrl + W / Ctrl + F4** | Close current tab | Universal |
+| **Ctrl + Shift + T** | Reopen last closed tab (repeat for more) | Universal |
+| **Ctrl + Tab / Ctrl + Page Down** | Next tab | Universal |
+| **Ctrl + Shift + Tab / Ctrl + Page Up** | Previous tab | Universal |
+| **Ctrl + 1–8** | Switch to specific tab (1–8) | Universal |
+| **Ctrl + 9** | Switch to last tab | Universal |
+| **Ctrl + L / Alt + D / F6** | Focus address bar (select URL) | Universal |
+| **Ctrl + Enter** | Add `www.` + `.com` to text in address bar | Universal |
+| **Ctrl + D** | Bookmark current page | Universal |
+| **Ctrl + Shift + D** | Bookmark all open tabs | Universal |
+| **Ctrl + H** | History | Universal |
+| **Ctrl + J** | Downloads | Universal |
+| **Ctrl + F** | Find on page | Universal |
+| **Ctrl + + / Ctrl + -** | Zoom in / out | Universal |
+| **Ctrl + 0** | Reset zoom to 100% | Universal |
+| **F5 / Ctrl + R** | Reload page | Universal |
+| **Ctrl + Shift + R / Ctrl + F5** | Hard reload (bypass cache) | Universal |
+| **Alt + ← / →** | Back / Forward | Universal |
+| **Space / Shift + Space** | Scroll down / up one screen | Universal |
+| **Home / End** | Top / Bottom of page | Universal |
+
+**Common Mistake:** **Ctrl + Shift + T** reopens closed tabs in reverse order of closing. Candidates often think it opens a new tab (that's Ctrl+T). Also, **Ctrl + 9** always goes to the *last* tab, not the 9th tab.
+
+---
+
+## 6. Accessibility & System Shortcuts (Exam-Relevant)
+
+| Shortcut | Action | Context |
+|----------|--------|---------|
+| **Win + U** | Open Ease of Access Center | Accessibility |
+| **Win + Ctrl + Enter** | Toggle Narrator | Screen reader |
+| **Win + + / Win + -** | Magnifier zoom in/out | Low vision |
+| **Win + Esc** | Exit Magnifier | |
+| **Left Alt + Left Shift + Print Screen** | Toggle High Contrast | |
+| **Left Alt + Left Shift + Num Lock** | Toggle Mouse Keys | |
+| **Shift (5 times)** | Toggle Sticky Keys | |
+| **Right Shift (8 sec)** | Toggle Filter Keys | |
+| **Num Lock (5 sec)** | Toggle Toggle Keys | |
+
+These are occasionally asked in SSC/railway exams under "Accessibility features."
+
+---
+
+## Worked Examples
+
+### Example 1: Excel Navigation
+**Question:** You are in cell D10 of a large dataset. You want to jump instantly to the last cell of the contiguous data block in the same column. Which shortcut do you use?
+
+**Solution:** **Ctrl + ↓** (Ctrl + Down Arrow). This moves the active cell to the last non-empty cell in the current column before a blank row. If there are no blank cells, it goes to the last row of the worksheet (row 1,048,576).
+
+**Why not others:** Ctrl+End goes to the last used cell of the entire sheet (bottom-right). Ctrl+Home goes to A1. End key alone followed by Down Arrow does the same as Ctrl+↓ but requires two keystrokes.
+
+---
+
+### Example 2: Word Formatting Reset
+**Question:** A paragraph has manual formatting (bold, red font, 14 pt) applied on top of the "Normal" style (Calibri 11 pt, black). You want to revert it to the Normal style instantly. Which shortcut?
+
+**Solution:** **Ctrl + Spacebar**. This removes manual character formatting (font, size, color, bold, italic) and resets to the underlying paragraph style. It does not change paragraph-level formatting like alignment or spacing.
+
+**Why not others:** Ctrl+Q resets paragraph formatting (alignment, indentation, spacing) but keeps character formatting. Ctrl+Shift+N applies the Normal style but may not clear all manual overrides in older versions. Ctrl+Spacebar is the direct "clear character formatting" command.
+
+---
+
+### Example 3: Excel Formula Reference Toggle
+**Question:** While editing a formula in cell B5, you have typed `=A1*2`. You want to make the reference to A1 absolute (both column and row fixed) so it becomes `=$A$1*2`. Which key do you press while the cursor is on `A1`?
+
+**Solution:** **F4**. Pressing F4 once while the cursor is on or next to a cell reference cycles it to absolute (`$A$1`). Pressing again makes it mixed row-absolute (`A$1`), then mixed column-absolute (`$A1`), then relative again (`A1`).
+
+**Common Trap:** If you press F4 when *not* editing a formula, it repeats the last action (e.g., formatting). The formula-reference toggle only works in formula edit mode (F2 or double-click cell).
+
+---
+
+### Example 4: Browser Tab Recovery
+**Question:** You accidentally closed a tab containing an important government portal. You need to reopen it immediately. Which shortcut restores the most recently closed tab?
+
+**Solution:** **Ctrl + Shift + T**. Each press reopens the next most recently closed tab in reverse chronological order. Works across browser sessions if "Continue where you left off" is enabled.
+
+**Why not others:** Ctrl+T opens a *new* blank tab. Ctrl+Shift+N opens an Incognito window. History (Ctrl+H) requires manual search.
+
+---
+
+### Example 5: PowerPoint Slide Show Jump
+**Question:** During a presentation, you are on slide 5 and need to jump directly to slide 12 without showing intermediate slides. What is the fastest keyboard method?
+
+**Solution:** Type **12** then press **Enter**. In Slide Show mode, typing a slide number followed by Enter jumps directly to that slide. This works in PowerPoint 2010 and later.
+
+**Alternative:** Right-click → See All Slides → click slide 12 (mouse). The keyboard method is faster and examiner-preferred.
+
+---
+
+### Example 6: Windows Lock vs. Sign Out
+**Question:** You step away from your desk in a shared office. You want to secure your session without closing applications. Which shortcut locks the computer instantly?
+
+**Solution:** **Win + L**. This locks the workstation, requiring password/PIN to resume. Applications keep running.
+
+**Why not others:** Ctrl+Alt+Del → Lock works but takes two steps. Alt+F4 on desktop opens shutdown dialog (sign out, sleep, shutdown, restart). Win+L is the single-step secure lock.
+
+---
+
+## Common Errors & Traps in Examinations
+
+1. **Scope Confusion:** Assuming a Word shortcut works in Excel or a browser shortcut works in File Explorer. Example: Ctrl+B bolds in Word/Excel/PowerPoint/Outlook, but in Chrome it opens Bookmarks bar (toggle). In File Explorer, Ctrl+B does nothing.
+
+2. **F4 Dual Behavior in Excel:** As shown in Example 3, F4 repeats last action *outside* formula edit mode, but toggles references *inside* formula edit mode. Questions often specify "while editing a formula" to test this.
+
+3. **Ctrl+0 vs Ctrl+9 in Excel:** Ctrl+0 hides columns; Ctrl+9 hides rows. Mnemonic: 0 = vertical (column), 9 = horizontal loop (row).
+
+4. **Ctrl+Shift+T vs Ctrl+T in Browsers:** Shift key reverses the action — reopen closed tab vs. open new tab. Same pattern: Ctrl+N (new window) vs Ctrl+Shift+N (incognito window).
+
+5. **Win+D vs Win+M:** Win+D toggles Show Desktop; Win+M only minimizes. To restore after Win+M, you need Win+Shift+M. Win+D restores with the same key.
+
+6. **Alt+F4 Context Dependence:** On an open application, Alt+F4 closes that window. On the desktop (no window focused), it opens the Windows shutdown dialog. Candidates often forget the desktop context.
+
+7. **Ctrl+Enter in Excel vs Word:** In Excel, Ctrl+Enter fills the selected range with the typed entry. In Word, Ctrl+Enter inserts a page break. In browsers, Ctrl+Enter adds www. + .com to address bar text.
+
+8. **Function Key Defaults:** On many laptops, F1–F12 require the Fn key to act as function keys (e.g., F7 for Spell Check). Without Fn, they control brightness, volume, etc. Examination questions assume standard desktop keyboard behavior (Fn not needed).
+
+9. **Ctrl+Shift+C/V in Word vs Excel:** In Word, these copy/paste *formatting only*. In Excel, Ctrl+Shift+C does nothing by default; Ctrl+Shift+V pastes *values only* (Paste Special → Values) in some versions, but this is not a universal standard shortcut. The Format Painter (Ctrl+Shift+C/V) is a Word/PowerPoint feature.
+
+10. **Browser Zoom Reset:** Ctrl+0 resets zoom to 100%. Candidates often try Ctrl+Shift+0 (which does nothing in Chrome/Edge) or Ctrl+Minus repeatedly.
+
+---
+
+## Quick Reference Table (Top 30 for Revision)
+
+| # | Shortcut | Application | Action |
+|---|----------|-------------|--------|
+| 1 | Win + D | Windows | Show Desktop (toggle) |
+| 2 | Win + E | Windows | Open File Explorer |
+| 3 | Win + L | Windows | Lock Computer |
+| 4 | Alt + Tab | Windows | Switch Apps |
+| 5 | Ctrl + Shift + Esc | Windows | Task Manager |
+| 6 | Ctrl + C / V / X | Universal | Copy / Paste / Cut |
+| 7 | Ctrl + Z / Y | Universal | Undo / Redo |
+| 8 | Ctrl + A | Universal | Select All |
+| 9 | Ctrl + S | Universal | Save |
+| 10 | Ctrl + P | Universal | Print |
+| 11 | Ctrl + F | Universal | Find |
+| 12 | Ctrl + Home | Word/Excel | Go to Start (A1 / Top) |
+| 13 | Ctrl + End | Word/Excel | Go to End (Last cell / Bottom) |
+| 14 | Ctrl + B / I / U | Office | Bold / Italic / Underline |
+| 15 | Ctrl + L / E / R / J | Word | Align Left / Center / Right / Justify |
+| 16 | Ctrl + 1 / 2 / 5 | Word | Line Spacing: Single / Double / 1.5 |
+| 17 | F2 | Excel | Edit Cell |
+| 18 | Ctrl + ; | Excel | Current Date |
+| 19 | Ctrl + Shift + ; | Excel | Current Time |
+| 20 | Alt + = | Excel | AutoSum |
+| 21 | F4 | Excel (formula) | Toggle Absolute Reference |
+| 22 | Ctrl + D / R | Excel | Fill Down / Fill Right |
+| 23 | Ctrl + Shift + + / - | Excel | Insert / Delete Cells Dialog |
+| 24 | Ctrl + M | PowerPoint | New Slide |
+| 25 | F5 / Shift+F5 | PowerPoint | Start Show / From Current |
+| 26 | Number + Enter | PowerPoint (Show) | Jump to Slide |
+| 27 | Ctrl + T / W | Browser | New Tab / Close Tab |
+| 28 | Ctrl + Shift + T | Browser | Reopen Closed Tab |
+| 29 | Ctrl + L | Browser | Focus Address Bar |
+| 30 | Ctrl + 0 | Browser | Reset Zoom |
+
+---
+
+## Study Tips
+
+- **Group by Application:** Learn Windows, Word, Excel, PowerPoint, Browser as separate sets. Mixing them causes confusion.
+- **Practice Physically:** Muscle memory is faster than recall. Open each application and drill the top 10 shortcuts daily.
+- **Watch for "While Editing" Qualifiers:** In Excel questions, "while editing a formula" changes the meaning of F4, Esc, Enter, etc.
+- **Distinguish Toggle vs. One-Way:** Win+D (toggle), Win+M (one-way minimize), Ctrl+Shift+T (stack of closed tabs).
+- **Read the Question's Context:** "In Microsoft Word..." "In Excel..." "In Chrome..." — the application name dictates the correct shortcut set.
+
+---
+
+## Sources
+
+- Microsoft Support: "Keyboard shortcuts in Windows" (support.microsoft.com)
+- Microsoft Support: "Keyboard shortcuts in Word/Excel/PowerPoint" (support.microsoft.com)
+- Microsoft Learn: "Windows keyboard shortcuts for accessibility" (learn.microsoft.com)
+- Chromium Documentation: "Chrome keyboard shortcuts" (chromium.org)
+- Mozilla Support: "Firefox keyboard shortcuts" (support.mozilla.org)
+- CERT-In Advisory: "Secure Workstation Practices" (cert-in.org.in) — references Win+L for locking
+
+*Note: Shortcuts are based on standard Windows 10/11 and Microsoft 365 (Office 2016+) behavior. Minor variations may exist in older versions or customized enterprise environments. Examination questions follow the standard defaults described above.*

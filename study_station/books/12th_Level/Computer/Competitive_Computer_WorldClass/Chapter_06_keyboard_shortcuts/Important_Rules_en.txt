@@ -1,0 +1,78 @@
+Important Rules — Keyboard Shortcuts
+
+Rule 1 — Modifier keys combine with letter or function keys
+A shortcut is formed by holding one or more modifier keys (Ctrl, Alt, Shift, Win) and then pressing a character or function key. The modifier must be held down before the second key is pressed and released after.
+Example: Ctrl + C (copy) — hold Ctrl, press C, release both.
+Exception: Sticky Keys (accessibility feature) allows pressing modifiers sequentially instead of simultaneously.
+
+Rule 2 — Case of the letter key does not matter
+Shortcuts that use a letter key are case-insensitive; Ctrl + c and Ctrl + C perform the same action. The Shift key is only required when the shortcut explicitly includes Shift (e.g., Ctrl + Shift + C).
+Example: In Word, Ctrl + B toggles bold regardless of whether B is typed as uppercase or lowercase.
+Exception: Some application-specific shortcuts distinguish case when the letter is typed without a modifier (e.g., typing “c” vs “C” in a command palette), but standard OS/Office shortcuts do not.
+
+Rule 3 — Win key shortcuts belong to the Windows shell, not to applications
+Shortcuts that start with the Windows logo key (Win) are handled by the OS shell (Explorer, Task View, Settings, etc.). They work globally, even when no application has focus.
+Example: Win + E opens File Explorer; Win + D shows/hides the desktop.
+Exception: A few Win-key combinations are reserved by specific apps if they register a global hotkey, but this is rare and version-dependent — do not rely on it for exams.
+
+Rule 4 — Ctrl + letter shortcuts are widely shared across Windows apps
+Common editing shortcuts (Ctrl + C, Ctrl + X, Ctrl + V, Ctrl + Z, Ctrl + Y, Ctrl + A, Ctrl + S, Ctrl + P, Ctrl + F, Ctrl + H) behave identically in Notepad, Word, Excel, browsers, and most standard Windows applications.
+Example: Ctrl + Z undoes the last action in Word, Excel, and Chrome address bar.
+Exception: In terminal / command prompt, Ctrl + C sends a break signal (SIGINT) instead of copying; Ctrl + V may not paste unless “Use Ctrl+Shift+C/V as Copy/Paste” is enabled in Terminal settings.
+
+Rule 5 — Alt key opens menu bars and ribbon accelerators
+Pressing and releasing Alt alone reveals keyboard access keys (KeyTips) on the ribbon (Office) or menu bar (legacy apps). Then press the shown letter to activate that tab or command.
+Example: In Word, Alt → H → F → D opens the Font dialog (Home tab → Font group → dialog launcher).
+Exception: In browsers, Alt + letter often triggers the browser’s own menu (e.g., Alt + F opens the Firefox/Chrome menu), not the page’s access keys.
+
+Rule 6 — Function keys (F1–F12) have dual roles: default and Fn-modified
+On most laptops, F1–F12 default to hardware actions (volume, brightness, media). Holding the Fn key swaps them to standard F-key functions (F1 = Help, F2 = Rename, F5 = Refresh, F12 = Save As / DevTools).
+Example: Pressing F5 refreshes a browser page; pressing Fn + F5 may lower screen brightness.
+Exception: The Fn-lock key (often Esc or a dedicated key) toggles the default behaviour permanently. Exam questions usually assume standard F-key behaviour unless “laptop keyboard” is specified.
+
+Rule 7 — Ctrl + Shift + Esc opens Task Manager directly
+This shortcut bypasses the Ctrl + Alt + Del security screen and launches Task Manager immediately. It works on all supported Windows versions.
+Example: Press Ctrl + Shift + Esc → Task Manager appears.
+Exception: If the shell (explorer.exe) has crashed, the shortcut may not respond; Ctrl + Alt + Del is more reliable because it is handled at a lower system level.
+
+Rule 8 — Win + Tab opens Task View; Alt + Tab switches windows
+Win + Tab shows the Task View timeline (virtual desktops + recent windows) and stays open until a selection is made. Alt + Tab displays a quick-switch overlay and cycles on repeated Tab presses while Alt is held.
+Example: Use Alt + Tab for fast two-window toggling; use Win + Tab to move a window to another virtual desktop.
+Exception: In Remote Desktop or VM sessions, Alt + Tab may be captured by the host OS unless the connection is in full-screen mode with “Apply Windows key combinations” set to “On the remote computer”.
+
+Rule 9 — Browser shortcuts are distinct from Windows/Office shortcuts
+Common browser shortcuts: Ctrl + T (new tab), Ctrl + W (close tab), Ctrl + Shift + T (reopen closed tab), Ctrl + Tab / Ctrl + Shift + Tab (cycle tabs), Ctrl + L / F6 / Alt + D (focus address bar), Ctrl + R / F5 (reload), Ctrl + Shift + R (hard reload), Ctrl + + / - / 0 (zoom).
+Example: Ctrl + Shift + T restores the last closed tab in Chrome, Edge, Firefox.
+Exception: Some browser shortcuts conflict with OS shortcuts (e.g., Ctrl + Shift + N opens incognito in Chrome but creates a new folder in File Explorer). Context determines behaviour.
+
+Rule 10 — Office ribbon accelerators use Alt + KeyTip sequence, not chorded keys
+Unlike Ctrl shortcuts, ribbon accelerators are pressed sequentially: release Alt after pressing it, then type the letters shown in KeyTips.
+Example: Alt → N → P inserts a picture in Word (Insert tab → Pictures).
+Exception: Legacy Alt + menu-letter shortcuts (e.g., Alt + F for File menu) still work in Office for backward compatibility but are not shown in KeyTips.
+
+Rule 11 — Text navigation shortcuts use Ctrl + Arrow keys
+Ctrl + Left/Right moves the cursor one word at a time; Ctrl + Up/Down moves by paragraph. Adding Shift selects the traversed text.
+Example: Ctrl + Shift + Right selects the next word; repeat to extend selection.
+Exception: In some code editors (VS Code, Notepad++), Ctrl + Left/Right may stop at sub-word boundaries (camelCase, snake_case) depending on settings.
+
+Rule 12 — Shift + Delete bypasses the Recycle Bin
+Deleting a file with Shift + Delete permanently removes it without moving it to the Recycle Bin. The action cannot be undone with Ctrl + Z in Explorer.
+Example: Select file → Shift + Delete → confirmation dialog → file is gone.
+Exception: On network shares or removable drives, the Recycle Bin may not exist; Delete alone may already be permanent. Shift + Delete is still explicit.
+
+Rule 13 — Win + Pause/Break opens System Properties (About)
+This shortcut opens the Settings → System → About page (Windows 10/11) or the classic System Control Panel applet (older versions). It is the fastest way to view PC name, edition, version, and installed RAM.
+Example: Press Win + Pause → About page appears.
+Exception: On compact keyboards without a dedicated Pause/Break key, the combination may be mapped to Fn + another key (e.g., Fn + B on some Lenovo laptops).
+
+Rule 14 — Accessibility shortcuts are reserved and consistent
+Win + U opens Accessibility Settings. Win + Ctrl + Enter toggles Narrator. Win + + (plus) / - (minus) zooms Magnifier. Win + Esc closes Magnifier. Left Alt + Left Shift + Print Screen toggles High Contrast. Left Alt + Left Shift + Num Lock toggles Mouse Keys.
+Example: Win + Ctrl + Enter starts/stops Narrator instantly.
+Exception: Some OEM utilities may remap these combinations; the defaults above are defined by Windows.
+
+Rule 15 — Shortcut scope determines where it works: Global vs. Application vs. Context
+Global (OS): Win + E, Win + L, Ctrl + Shift + Esc, Win + Pause.
+Application-wide: Ctrl + S, Ctrl + P, Ctrl + F (work inside the focused app).
+Context-sensitive: Ctrl + B (bold) only works when the cursor is in an editable rich-text area; in a plain text box it may do nothing.
+Example: Pressing Ctrl + B in Notepad does nothing; in Word it toggles bold.
+Exception: Some apps (e.g., VS Code, browsers with extensions) allow users to rebind or override almost any shortcut, so “standard” behaviour is not guaranteed in customized environments.

@@ -1,0 +1,46 @@
+```mermaid
+graph TD
+    A["कीबोर्ड शॉर्टकट / Keyboard Shortcuts"] --> B["विंडोज़ शॉर्टकट / Windows Shortcuts"]
+    A --> C["एमएस ऑफिस शॉर्टकट / MS Office Shortcuts"]
+    A --> D["ब्राउज़र शॉर्टकट / Browser Shortcuts"]
+    A --> E["सामान्य संपादन / General Editing"]
+    A --> F["एक्सेसिबिलिटी / Accessibility"]
+    
+    B --> B1["Win + E: फाइल एक्सप्लोरर / File Explorer"]
+    B --> B2["Win + D: डेस्कटॉप दिखाएँ / Show Desktop"]
+    B --> B3["Win + L: लॉक / Lock PC"]
+    B --> B4["Alt + Tab: ऐप स्विच / Switch Apps"]
+    B --> B5["Win + I: सेटिंग्स / Settings"]
+    B --> B6["Win + R: रन डायलॉग / Run Dialog"]
+    B --> B7["Win + S: खोज / Search"]
+    B --> B8["Ctrl + Shift + Esc: टास्क मैनेजर / Task Manager"]
+    
+    C --> C1["Ctrl + C / V / X: कॉपी/पेस्ट/कट / Copy/Paste/Cut"]
+    C --> C2["Ctrl + Z / Y: पूर्ववत/फिर करें / Undo/Redo"]
+    C --> C3["Ctrl + S: सहेजें / Save"]
+    C --> C4["Ctrl + P: प्रिंट / Print"]
+    C --> C5["Ctrl + F: खोजें / Find"]
+    C --> C6["Ctrl + A: सभी चुनें / Select All"]
+    C --> C7["F7: वर्तनी जाँच / Spell Check"]
+    C --> C8["Alt + F4: बंद करें / Close App"]
+    
+    D --> D1["Ctrl + T: नया टैब / New Tab"]
+    D --> D2["Ctrl + W: टैब बंद / Close Tab"]
+    D --> D3["Ctrl + Shift + T: टैब पुनर्स्थापित / Reopen Tab"]
+    D --> D4["Ctrl + Tab: अगला टैब / Next Tab"]
+    D --> D5["F5 / Ctrl + R: रीफ्रेश / Refresh"]
+    D --> D6["Ctrl + D: बुकमार्क / Bookmark"]
+    D --> D7["Ctrl + H: इतिहास / History"]
+    D --> D8["Ctrl + J: डाउनलोड / Downloads"]
+    
+    E --> E1["Home / End: पंक्ति आरंभ/अंत / Line Start/End"]
+    E --> E2["Ctrl + Home/End: दस्तावेज़ आरंभ/अंत / Doc Start/End"]
+    E --> E3["Shift + Arrow: चयन / Select Text"]
+    E --> E4["Ctrl + Arrow: शब्द दर शब्द / Word by Word"]
+    E --> E5["Delete / Backspace: हटाएँ / Delete"]
+    
+    F --> F1["Win + U: एक्सेसिबिलिटी सेंटर / Ease of Access"]
+    F --> F2["Win + Plus: मैग्नीफायर / Magnifier"]
+    F --> F3["Win + Ctrl + Enter: नैरेटर / Narrator"]
+    F --> F4["Shift 5x: स्टिकी कीज़ / Sticky Keys"]
+```

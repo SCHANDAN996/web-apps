@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 01:22 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 09:08 PM
+**आख़िरी update:** 19-11-2026 01:28 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 09:08 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,13 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 15 मिनट |
-| W2 | Chapter 04 software os (12th Computer) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 06 keyboard shortcuts (12th Computer) | 📤 push हो रहा है | 0 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 167 |
-| key 4 | 147 |
+| key 3 | 173 |
+| key 4 | 153 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -40,12 +39,12 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 19-11 01:28 — 12th Computer · Chapter 06 keyboard shortcuts
 - 19-11 01:22 — 12th Computer · Chapter 04 software os
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 04 visheshan kriya (Hindi) — 4 बार
-- Chapter 04 software os (Computer) — 3 बार
 - Chapter 03 sangya sarvanam (Hindi) — 3 बार
 - Chapter 01 varn vartani (Hindi) — 3 बार
 - Chapter 05 ling vachan karak (Hindi) — 3 बार
@@ -56,11 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 00:55:25   [varn_vartani] written 2, failed 3; AI calls today 61/100000
-19-11 00:55:25 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 56 min: todo [] problems []
-19-11 00:55:26 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os (OK: todo 0, problems 0)
-19-11 00:58:21   [sangya_sarvanam] review Important_Rules_hi.txt: 5 issue(s): - Rule 2 incorrectly lists feminine nouns 'पुत्री' and 'नौकरानी' as examples of 'ई' कारांत पुल्लिंग → Chang
-19-11 01:01:15   [sangya_sarvanam] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 2 incorrectly lists "हाथी" as an example of उकारांत/ऊकारांत पुल्लिंग; "हाथी"
 19-11 01:01:15   [sangya_sarvanam] review: 1 section(s) corrected, 2 failed
 19-11 01:01:15   [sangya_sarvanam] written 1, failed 2; AI calls today 67/100000
 19-11 01:01:15 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 20 min: todo [] problems []
@@ -96,4 +90,9 @@
 19-11 01:21:13   [keyboard_shortcuts] review Key_Facts_en.txt: 1 issue(s): - Item 19: Ctrl+Shift+N does not create a new folder on the Desktop background; it works only inside File Explore
 19-11 01:22:02   [software_os] review: 1 section(s) corrected, 0 failed
 19-11 01:22:02   [software_os] written 1, failed 0; AI calls today 100/100000
+19-11 01:22:25 DONE 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os in 27 min → 79203ef9
+19-11 01:22:25 worker 1: nothing left
+19-11 01:27:12   [keyboard_shortcuts] review Important_Rules_hi.txt: 1 issue(s): - नियम 14 में "Ctrl + M → मार्क मोड" गलत है; कमांड प्रॉम्प्ट/पावरशेल में मार्क मोड के लिए कोई डिफ़ॉल्ट Ctrl
+19-11 01:28:10   [keyboard_shortcuts] review: 3 section(s) corrected, 0 failed
+19-11 01:28:10   [keyboard_shortcuts] written 3, failed 0; AI calls today 111/100000
 ```

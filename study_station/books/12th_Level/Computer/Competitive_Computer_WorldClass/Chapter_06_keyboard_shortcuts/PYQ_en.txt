@@ -1,0 +1,174 @@
+PYQ Pattern Analysis — Keyboard Shortcuts
+
+This section describes the recurring question patterns, examiner traps, and high-yield sub-topics observed in SSC (CHSL, CGL, MTS, GD), Railway (NTPC, Group D), and Banking (IBPS PO/Clerk, SBI) computer-knowledge papers. No year-wise frequency tables or invented statistics are given — only pattern observations.
+
+---
+
+1. Direct Single-Shortcut Recall
+Pattern: "Which shortcut key is used to …?" or "The shortcut for … is:"
+- Tests one-to-one mapping: action ↔ key combination.
+- High-yield actions: Save (Ctrl+S), Print (Ctrl+P), Copy (Ctrl+C), Paste (Ctrl+V), Cut (Ctrl+X), Undo (Ctrl+Z), Redo (Ctrl+Y), Find (Ctrl+F), Replace (Ctrl+H), Select All (Ctrl+A), New (Ctrl+N), Open (Ctrl+O), Close window (Ctrl+W / Alt+F4), Switch apps (Alt+Tab), Lock PC (Win+L), Show Desktop (Win+D), Run dialog (Win+R), Search (Win+Q / Win+S), Task Manager (Ctrl+Shift+Esc), Screenshot (Win+Shift+S / PrtScn).
+- Trap: Near-miss options such as Ctrl+Shift+S (Save As in some apps) vs Ctrl+S (Save); Ctrl+Shift+P (Print in some browsers) vs Ctrl+P.
+
+PYQ-style Example:
+Q. The keyboard shortcut to open the Find dialog in most Windows applications is:
+(a) Ctrl+F  (b) Ctrl+G  (c) Ctrl+H  (d) Ctrl+R
+Answer: (a)
+Solution: Ctrl+F opens Find; Ctrl+H opens Replace; Ctrl+G is often "Go To"; Ctrl+R refreshes in browsers.
+Source: PYQ-style
+
+---
+
+2. Modifier-Key Combination Identification
+Pattern: "Which of the following shortcuts uses the Windows key?" or "Identify the shortcut that does NOT use the Ctrl key."
+- Requires recognising which modifier (Ctrl, Alt, Shift, Win) belongs to which family of shortcuts.
+- Common Win-key shortcuts: Win+D, Win+E, Win+L, Win+R, Win+I, Win+X, Win+Tab, Win+Arrow keys.
+- Common Alt-key shortcuts: Alt+Tab, Alt+F4, Alt+Space, Alt+Enter (properties), Alt+F (file menu).
+- Trap: Ctrl+Shift+Esc opens Task Manager directly; Ctrl+Alt+Del opens the security screen from which Task Manager must be selected — they are not equivalent paths.
+
+PYQ-style Example:
+Q. Which shortcut does NOT involve the Windows key?
+(a) Win+D  (b) Win+L  (c) Alt+Tab  (d) Win+E
+Answer: (c)
+Solution: Alt+Tab uses Alt; the other three use the Windows key.
+Source: PYQ-style
+
+---
+
+3. Application-Specific vs Universal Shortcuts
+Pattern: "In Microsoft Word, the shortcut for … is:" or "Which shortcut works in File Explorer but not in Word?"
+- Examiners test whether the candidate knows universal Windows shortcuts (work everywhere) vs app-specific ones (Word, Excel, PowerPoint, browsers).
+- Universal: Ctrl+C/V/X/Z/Y/A/S/P/N/O/F/H, Win+D/E/L/R, Alt+Tab/F4.
+- Word-specific: Ctrl+B/I/U (bold/italic/underline), Ctrl+L/E/R/J (alignment), Ctrl+1/2/5 (line spacing), Ctrl+Shift+> / < (font size), F7 (spelling), Shift+F3 (case toggle).
+- Excel-specific: Ctrl+; (current date), Ctrl+Shift+: (current time), F2 (edit cell), Ctrl+Arrow (jump to edge), Ctrl+Shift+L (filter), Alt+= (AutoSum).
+- Browser-specific: Ctrl+T (new tab), Ctrl+W (close tab), Ctrl+Shift+T (reopen closed tab), Ctrl+Tab / Ctrl+Shift+Tab (cycle tabs), F5 / Ctrl+R (reload), Ctrl+L / F6 (address bar), Ctrl+D (bookmark).
+- Trap: Options include a universal shortcut that also works in the named app — the question asks for the app-specific one.
+
+PYQ-style Example:
+Q. In Microsoft Excel, which shortcut enters the current date in the active cell?
+(a) Ctrl+;  (b) Ctrl+Shift+;  (c) Ctrl+D  (d) Ctrl+T
+Answer: (a)
+Solution: Ctrl+; inserts current date; Ctrl+Shift+; inserts current time; Ctrl+D fills down; Ctrl+T creates a table.
+Source: PYQ-style
+
+---
+
+4. "Odd One Out" / Negative Phrasing
+Pattern: "Which of the following is NOT a valid shortcut for …?" or "Select the incorrect pair."
+- Tests precise knowledge; one option is a plausible but wrong combination.
+- Common distractors: Ctrl+Shift+S (Save As in some apps, but not universal), Ctrl+Alt+Del (security screen, not Task Manager direct), Ctrl+Esc (opens Start menu, often confused with Win key), Alt+F4 (closes app, not just window).
+- Trap: "None of the above" is never used in these exams (per BOOK_RULES); four concrete options only.
+
+PYQ-style Example:
+Q. Which of the following does NOT open Task Manager directly?
+(a) Ctrl+Shift+Esc  (b) Ctrl+Alt+Del  (c) Win+X then T  (d) Right-click taskbar → Task Manager
+Answer: (b)
+Solution: Ctrl+Alt+Del opens the security screen; Task Manager is one further click. The others open Task Manager directly.
+Source: PYQ-style
+
+---
+
+5. Sequence / Multi-Step Shortcuts
+Pattern: "What is the result of pressing Win+X followed by U then S?" or "The shortcut sequence to shut down Windows 10/11 without using the mouse is:"
+- Tests knowledge of Win+X (Power User menu) accelerator keys: U (Shut down or sign out) → S (Shut down), R (Restart), I (Sign out).
+- Also Alt+F4 on desktop → Shut Down dialog → Enter.
+- Trap: Confusing Win+X, U, S with Alt+F4, Enter (both work but are different sequences).
+
+PYQ-style Example:
+Q. The keyboard-only sequence to shut down Windows 10/11 via the Power User menu is:
+(a) Win+X, U, S  (b) Win+X, S, U  (c) Alt+F4, S  (d) Ctrl+Alt+Del, S
+Answer: (a)
+Solution: Win+X opens Power User menu; U selects "Shut down or sign out"; S selects "Shut down".
+Source: PYQ-style
+
+---
+
+6. Accessibility / Ease of Access Shortcuts
+Pattern: "Which shortcut turns on High Contrast mode?" or "The shortcut to open Magnifier is:"
+- Sticky Keys (Shift ×5), Filter Keys (Right Shift held 8 sec), Toggle Keys (Num Lock held 5 sec), High Contrast (Left Alt+Left Shift+Print Screen), Magnifier (Win+Plus / Win+Minus), Narrator (Win+Ctrl+Enter).
+- Trap: Confusing Left Alt+Left Shift+Print Screen with Win+Print Screen (screenshot).
+
+PYQ-style Example:
+Q. The shortcut to toggle High Contrast mode on/off is:
+(a) Win+Plus  (b) Left Alt+Left Shift+Print Screen  (c) Win+Ctrl+Enter  (d) Shift five times
+Answer: (b)
+Solution: Left Alt+Left Shift+PrtScn toggles High Contrast; Win+Plus opens Magnifier; Win+Ctrl+Enter starts Narrator; Shift×5 toggles Sticky Keys.
+Source: PYQ-style
+
+---
+
+7. Virtual Desktop & Window Management (Win+Tab, Win+Ctrl+D, Win+Ctrl+Left/Right)
+Pattern: "Which shortcut creates a new virtual desktop?" or "Win+Ctrl+Left Arrow performs which action?"
+- Win+Tab opens Task View; Win+Ctrl+D creates new virtual desktop; Win+Ctrl+F4 closes current virtual desktop; Win+Ctrl+Left/Right switches between virtual desktops.
+- Win+Left/Right snaps current window; Win+Up/Down maximizes/minimizes or snaps to quadrant.
+- Trap: Confusing virtual desktop shortcuts (Win+Ctrl+) with window snapping shortcuts (Win+ only).
+
+PYQ-style Example:
+Q. Win+Ctrl+D is used to:
+(a) Snap window left  (b) Create a new virtual desktop  (c) Open Task View  (d) Close current virtual desktop
+Answer: (b)
+Solution: Win+Ctrl+D creates a new virtual desktop; Win+Ctrl+F4 closes it; Win+Tab opens Task View; Win+Left/Right snaps windows.
+Source: PYQ-style
+
+---
+
+8. Browser-Specific Shortcuts (often asked under "Internet" or "Computer Awareness")
+Pattern: "In a web browser, Ctrl+Shift+T does what?" or "Shortcut to reopen the last closed tab:"
+- Ctrl+T (new tab), Ctrl+W / Ctrl+F4 (close tab), Ctrl+Shift+T (reopen last closed tab), Ctrl+Tab / Ctrl+PgDn (next tab), Ctrl+Shift+Tab / Ctrl+PgUp (previous tab), Ctrl+1–8 (specific tab), Ctrl+9 (last tab), Ctrl+L / F6 / Alt+D (address bar), Ctrl+D (bookmark), Ctrl+J (downloads), Ctrl+H (history), F5 / Ctrl+R (reload), Ctrl+Shift+R (hard reload), Ctrl++ / Ctrl+- / Ctrl+0 (zoom).
+- Trap: Ctrl+Shift+T vs Ctrl+T (new tab); Ctrl+Shift+N (incognito/private window in Chrome/Edge) vs Ctrl+N (new window).
+
+PYQ-style Example:
+Q. Which shortcut reopens the most recently closed tab in Chrome/Edge/Firefox?
+(a) Ctrl+T  (b) Ctrl+Shift+T  (c) Ctrl+Shift+N  (d) Ctrl+Y
+Answer: (b)
+Solution: Ctrl+Shift+T reopens closed tabs in reverse order; Ctrl+T opens a new tab; Ctrl+Shift+N opens incognito/private window; Ctrl+Y is Redo in most apps.
+Source: PYQ-style
+
+---
+
+9. Dialog-Box Navigation Shortcuts
+Pattern: "In a dialog box, which key moves focus to the next control?" or "Alt+underlined letter activates which element?"
+- Tab / Shift+Tab (next/previous control), Enter (default button), Esc (Cancel), Space (toggle checkbox / press button), Alt+underlined letter (jump to that control), Arrow keys (within groups / dropdowns).
+- Trap: Enter vs Space on a button (Enter activates default button; Space activates focused button).
+
+PYQ-style Example:
+Q. In a standard Windows dialog box, pressing Alt plus the underlined letter of a control:
+(a) Closes the dialog  (b) Moves focus to that control  (c) Selects the default button  (d) Opens Help
+Answer: (b)
+Solution: Alt+underlined letter is the access-key (mnemonic) to jump directly to that control.
+Source: PYQ-style
+
+---
+
+10. Function-Key (F1–F12) Roles Across Contexts
+Pattern: "F7 in Microsoft Word is used for:" or "F5 in a browser does what?"
+- F1 (Help), F2 (Rename / Edit cell), F3 (Search), F4 (Address bar in Explorer / Repeat last action in Word), F5 (Refresh / Go To), F6 (Cycle panes / Address bar), F7 (Spelling & Grammar), F8 (Extend selection / Safe Mode at boot), F9 (Refresh fields / Send/Receive in Outlook), F10 (Menu bar / App context menu with Shift), F11 (Full screen), F12 (Save As / Developer tools in browser).
+- Trap: Same key, different app — options mix contexts (e.g., F5 in browser = Refresh; in Word = Go To; in PowerPoint = Start slideshow).
+
+PYQ-style Example:
+Q. In Microsoft Word, the F7 key launches:
+(a) Thesaurus  (b) Spelling & Grammar check  (c) Word Count  (d) Find and Replace
+Answer: (b)
+Solution: F7 runs Spelling & Grammar; Shift+F7 opens Thesaurus; Ctrl+Shift+G shows Word Count; Ctrl+H opens Find & Replace.
+Source: PYQ-style
+
+---
+
+Common Examiner Traps — Summary
+1. Near-miss modifier: Ctrl+Shift+S vs Ctrl+S; Ctrl+Alt+Del vs Ctrl+Shift+Esc.
+2. Universal vs app-specific: offering a universal shortcut when the question asks for app-specific (or vice versa).
+3. Negative phrasing: "Which is NOT …" — read carefully.
+4. Sequence order: Win+X, U, S vs Win+X, S, U.
+5. Context switching: same key (F5, F11, Ctrl+P) behaves differently in Word, Excel, Browser, PowerPoint.
+6. Browser vs OS shortcuts: Ctrl+Tab (browser tabs) vs Alt+Tab (apps); Ctrl+W (close tab) vs Ctrl+F4 (close doc/window) vs Alt+F4 (close app).
+7. Accessibility shortcuts: Sticky/Filter/Toggle/High Contrast keys are easily confused — memorise exact combinations.
+8. Version assumptions: many Win-key shortcuts (Win+X, Win+I, Win+Tab, Win+Shift+S) were introduced in Windows 8 or later; do not assume all shortcuts have existed since Windows 7.
+
+---
+
+Study Tips (not statistics)
+- Group shortcuts by modifier family (Ctrl, Win, Alt, Function keys) and by context (Universal, Word, Excel, Browser, OS).
+- Practice writing the top 30 shortcuts from memory daily; muscle memory beats rote recall.
+- In the exam, eliminate two obviously wrong options first — usually one distractor uses the wrong modifier, another uses the wrong letter.
+- For negative questions, tick the three correct statements mentally; the remaining one is the answer.
+- 15-second rule: if the shortcut is not instantly recalled, flag and return — do not guess blindly.
