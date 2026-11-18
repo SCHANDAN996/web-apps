@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 12:50 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
+**आख़िरी update:** 18-11-2026 01:05 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 83 मिनट |
-| W2 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 17 मिनट |
-| W3 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 48 मिनट |
-| W4 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 24 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 98 मिनट |
+| W2 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 32 मिनट |
+| W3 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 11 मिनट |
+| W4 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 39 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 88 |
-| key 4 | 83 |
+| key 3 | 91 |
+| key 4 | 93 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -50,26 +50,13 @@
 - Chapter 05 ling vachan karak (Hindi) — 1 बार
 - Chapter 04 visheshan kriya (Hindi) — 2 बार
 - Chapter 04 software os (Computer) — 2 बार
-- Chapter 01 varn vartani (Hindi) — 1 बार
+- Chapter 01 varn vartani (Hindi) — 2 बार
 - Chapter 06 kaal vachya (Hindi) — 1 बार
 - Chapter 06 keyboard shortcuts (Computer) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 11:52:04 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya (OK: todo 0, problems 0)
-18-11 11:52:57   [visheshan_kriya] review Content_hi.txt: 1 issue(s): - In section 1.3 table, "नीला" and "मीठा" are incorrectly listed as अरूपांतरित विशेषण (invariable adjectives); they
-18-11 11:55:34   [kaal_vachya] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q118 key c vs re-solve a, Q123 key d vs re-solve c)
-18-11 11:55:43   [visheshan_kriya] REJECTED review fix Content_hi.txt: reviewer still reports - Section 1.1 नियम "विशेषण हमेशा संज्ञा/सर्वनाम के लिंग, वचन, कारक के अनुसार बदलता है" गलत 
-18-11 12:01:28   [kaal_vachya] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q114 key c vs re-solve b, Q117 key c vs re-solve b, Q121 key b vs re-solve d, Q123 key c vs re-solve
-18-11 12:01:28   [kaal_vachya] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
-18-11 12:01:28   [kaal_vachya] written 0, failed 1; AI calls today 138/100000
-18-11 12:01:28 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya after 42 min: todo ['Set 05 hi: todo'] problems ['Mind_Map.txt: Hindi file is mostly not in Hindi']
-18-11 12:01:28 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (OK: todo 0, problems 0)
-18-11 12:01:42   [keyboard_shortcuts] review Important_Rules_hi.txt: 1 issue(s): - नियम 12 में दावा कि `Ctrl + Shift + N` फ़ायरफ़ॉक्स में नई निजी/इनकॉग्निटो विंडो खोलता है गलत है → फ़ायरफ़
-18-11 12:05:10   [keyboard_shortcuts] review: 2 section(s) corrected, 1 failed
-18-11 12:05:10   [keyboard_shortcuts] written 2, failed 1; AI calls today 141/100000
-18-11 12:05:10 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_06_keyboard_shortcuts after 44 min: todo [] problems []
 18-11 12:05:11 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os (OK: todo 0, problems 0)
 18-11 12:08:47   [varn_vartani] review Content_hi.txt: 7 issue(s): - Consonant count given as 39 but breakdown (25 vargiya + 8 avargiya + 4 conjuncts) totals 37, omitting ड़ and ढ़ →
 18-11 12:11:06   [varn_vartani] REJECTED review fix Content_hi.txt: reviewer still reports - In the table for 'ड़' and 'ढ़' (section 3.4), the pronunciation place is incorrectly give
@@ -97,4 +84,17 @@
 18-11 12:49:38   [sandhi] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q1 key c vs re-solve b, Q5 key d vs re-solve a, Q7 key d vs re-solve b, Q14 key c vs re-solve d, Q15
 18-11 12:49:38   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
 18-11 12:50:14   [varn_vartani] review Important_Rules_hi.txt: 6 issue(s): - Point 5: Rule states long vowels and ऋ take only bindu (ं) for nasalization; example 'हाँसी' uses chandra
+18-11 12:51:37   [sandhi] Practice_hi_Set_02.txt try 1: rejected (Q29:duplicate_options,Q31:duplicate_options,Q35:duplicate_options,Q40:duplicate_options,Q41:duplicate_options)
+18-11 12:53:40   [varn_vartani] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Section 1 states "३४ व्यंजन" but the list contains 33 consonants → correct to "३३
+18-11 12:53:40   [varn_vartani] review: 0 section(s) corrected, 6 failed
+18-11 12:53:40   [varn_vartani] written 0, failed 6; AI calls today 175/100000
+18-11 12:53:41 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 52 min: todo [] problems []
+18-11 12:53:41 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya (TODO: todo 1, problems 1)
+18-11 12:53:41   [kaal_vachya] Hindi-only writer: direct Hindi content; English generation and translation disabled
+18-11 12:54:09   [sandhi] Practice_hi_Set_02.txt try 2: rejected (Q31:duplicate_options,Q35:duplicate_options,Q44:duplicate_options,Q48:duplicate_options,Q49:duplicate_options)
+18-11 12:55:12   [ling_vachan_karak] review Content_hi.txt: 5 issue(s): - Section 1 लिंग table: 'कमरा' and 'पत्तल' are misclassified as नपुंसकलिंग → 'कमरा' is पुल्लिंग, 'पत्तल' is स्त्रील
+18-11 12:58:30   [ling_vachan_karak] REJECTED review fix Content_hi.txt: reviewer still reports - In 'बहुवचन बनाने के नियम' table, row 'आ (स्त्रीलिंग)' shows rule 'आ → एँ' but example 'लड
+18-11 12:59:51   [ling_vachan_karak] review Key_Facts_hi.txt: 5 issue(s): - Point 4 claims Hindi has a neuter gender (नपुंसकलिंग) and lists किताब, मेज, पानी, आकाश as neuter; Hindi nouns a
+18-11 13:02:55   [ling_vachan_karak] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 7: The rule for “ईकारांत पुल्लिंग” incorrectly includes “सेठ → सेठानी” as an exam
+18-11 13:04:39   [ling_vachan_karak] review Feynman_hi.txt: 4 issue(s): - लिंग तालिका में 'पुस्तक' को पुल्लिंग (अपवाद) बताया गया है → 'पुस्तक' स्त्रीलिंग है, इसे स्त्रीलिंग कॉलम में रखें
 ```
