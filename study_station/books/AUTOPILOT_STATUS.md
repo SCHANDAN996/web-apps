@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 01:36 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
+**आख़िरी update:** 18-11-2026 01:51 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 128 मिनट |
-| W2 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 63 मिनट |
-| W3 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 42 मिनट |
-| W4 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 70 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 144 मिनट |
+| W2 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 78 मिनट |
+| W3 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 57 मिनट |
+| W4 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 85 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 97 |
-| key 4 | 111 |
+| key 3 | 99 |
+| key 4 | 116 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -57,9 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 12:27:30   [visheshan_kriya] review Feynman_hi.txt: 1 issue(s): - Question 1 answer key lists only (ख) as correct, but (घ) "सुन्दर बनो" also uses "सुन्दर" as a predicative adjecti
-18-11 12:32:47   [visheshan_kriya] review: 1 section(s) corrected, 1 failed
-18-11 12:32:47   [visheshan_kriya] written 1, failed 1; AI calls today 160/100000
 18-11 12:32:47 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 41 min: todo [] problems []
 18-11 12:32:47 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (OK: todo 0, problems 0)
 18-11 12:34:13   [sandhi] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q1 key b vs re-solve c, Q5 key a vs re-solve d, Q7 key a vs re-solve b, Q14 key a vs re-solve d, Q15
@@ -97,4 +94,7 @@
 18-11 13:26:24   [sangya_sarvanam] review PYQ_hi.txt: 6 issue(s): - Section 3, trap "पुरुष भ्रम": includes "यहाँ/वहाँ" as third person pronouns → "यहाँ/वहाँ" are adverbs of place, not p
 18-11 13:27:22   [sandhi] Practice_hi_Set_03.txt try 1: rejected (Q59:duplicate_options,Q61:duplicate_options,Q65:duplicate_options,Q69:duplicate_options)
 18-11 13:28:45   [sandhi] Practice_hi_Set_03.txt try 2: rejected (Q59:duplicate_options,Q61:duplicate_options,Q65:duplicate_options,Q69:duplicate_options)
+18-11 13:38:19   [kaal_vachya] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q102 key a vs re-solve c, Q107 key d vs re-solve a, Q123 key b vs re-solve d, Q124 key b vs re-solve
+18-11 13:45:31   [sandhi] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q53 key c vs re-solve b, Q55 key c vs re-solve a, Q56 key a vs re-solve c, Q60 key b vs re-solve c, 
+18-11 13:47:51   [kaal_vachya] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q113 key c vs re-solve b)
 ```
