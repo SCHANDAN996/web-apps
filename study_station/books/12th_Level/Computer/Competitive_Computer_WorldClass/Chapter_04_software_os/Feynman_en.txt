@@ -1,0 +1,60 @@
+Software and Operating Systems — Feynman-Style Explanation
+
+Think of a computer as a kitchen. The hardware — CPU, RAM, hard disk, keyboard, monitor — is the stove, utensils, pantry, and counter space. Without a recipe and a cook, the kitchen does nothing. Software is the collection of recipes (programs) and the head chef (operating system) that decides which recipe runs, when, and with which ingredients.
+
+Software Types
+System software manages the kitchen itself. The operating system (OS) is the head chef: it allocates CPU time (stove burners), memory (counter space), and I/O devices (fridge, sink) to each application. Device drivers are specialist sous-chefs who know exactly how to talk to a specific appliance — printer, graphics card, Wi-Fi adapter. Utility programs (disk cleanup, antivirus, backup tools) are the cleaning crew that keep the kitchen hygienic.
+
+Application software consists of the recipes you actually want: word processors, spreadsheets, browsers, accounting packages, games. They ask the OS for resources; they never touch hardware directly.
+
+Operating System Core Jobs
+1. Process management — decides which program gets the CPU and for how long (time-slicing).
+2. Memory management — gives each process its own address space, uses virtual memory (swap file on disk) when RAM is full.
+3. File-system management — organises data into files and folders (NTFS, FAT32, ext4) and handles read/write permissions.
+4. Device management — provides a uniform interface (drivers) so applications don't need to know hardware details.
+5. Security & access control — user accounts, passwords, privileges (Administrator vs Standard user), encryption (BitLocker), and audit logs.
+
+Common Desktop OS Families
+Windows (Microsoft) — dominant in offices; GUI-driven, registry-based configuration, NTFS file system, regular feature updates via Windows Update.
+macOS (Apple) — Unix-based (Darwin kernel), APFS file system, tight hardware integration.
+Linux distributions (Ubuntu, Fedora, Debian, etc.) — open-source kernel, many desktop environments (GNOME, KDE), package managers (apt, dnf), widely used on servers and embedded devices.
+Mobile OS — Android (Linux kernel + Google services) and iOS (Darwin kernel + Apple services) are specialised for touch, battery life, and app sandboxing.
+
+Key Concepts for Exams
+- Kernel vs User mode: Kernel mode has full hardware access; user mode runs applications. System calls (APIs) let user programs request kernel services.
+- Multitasking: Pre-emptive (OS forces context switch) vs Cooperative (program yields control). Modern OSs are pre-emptive.
+- Virtual memory: Pages (usually 4 KB) swapped between RAM and disk; page fault = needed page not in RAM.
+- File systems: NTFS (Windows), APFS (macOS), ext4 (Linux). Know basics: journaling, permissions, max file size.
+- Boot process: 
+  - Windows: UEFI → Windows Boot Manager → winload.exe → ntoskrnl.exe → Session Manager (smss.exe) → wininit.exe → services → logon screen.
+  - Linux: UEFI → GRUB → kernel → init/systemd → login screen.
+  - macOS: UEFI → boot.efi → XNU kernel → launchd → login window.
+- Patch management: Regular updates fix vulnerabilities (CERT-In advisories); enable automatic updates.
+
+Worked Example
+Question: A user cannot save a file to C:\Program Files. Why?
+Explanation: C:\Program Files is owned by TrustedInstaller; Standard users have Read & Execute only. The OS enforces ACLs (Access Control Lists). Solution: Save to Documents folder or run the application as Administrator (UAC prompt).
+
+Common Mistakes
+1. Confusing firmware (BIOS/UEFI) with OS — firmware starts before OS loads.
+2. Thinking "Linux is an OS" — Linux is a kernel; distributions (Ubuntu, RHEL) are complete OSs.
+3. Believing 64-bit OS cannot run 32-bit apps — Windows has WoW64 subsystem; Linux has multiarch.
+4. Assuming antivirus replaces OS updates — patches fix holes; antivirus catches malware that exploits unpatched holes.
+5. Mixing up CLI shells (cmd, PowerShell, Bash) with the kernel — shells are user-mode programs.
+
+Recall Questions
+
+1. What is the primary role of the kernel in an operating system?
+Answer: The kernel manages CPU scheduling, memory allocation, device access, and system calls — it runs in privileged mode and is the only component that directly controls hardware.
+
+2. How does virtual memory allow a system to run programs larger than physical RAM?
+Answer: The OS divides memory into fixed-size pages. Only active pages stay in RAM; inactive pages are swapped to a page file on disk. When a needed page is missing (page fault), the OS loads it from disk.
+
+3. Why does a standard user get "Access Denied" when trying to write to C:\Windows\System32?
+Answer: Windows uses ACLs. System folders are owned by TrustedInstaller/System; standard accounts have Read & Execute access. Writing requires Administrator elevation (UAC).
+
+4. What is the difference between a monolithic kernel and a microkernel?
+Answer: Monolithic kernel (Linux) runs all core services (drivers, file system, networking) in kernel space for speed. Microkernel (MINIX, QNX) keeps only IPC, scheduling, and memory management in kernel space; drivers run as user processes for reliability. Windows NT uses a hybrid kernel design.
+
+5. Which component translates high-level language code into machine code before the OS loads the program?
+Answer: The compiler (and linker) produces an executable file (PE/ELF). The OS loader then maps this file into memory and starts execution — the OS itself does not compile code.

@@ -1,0 +1,149 @@
+51. Which of the following is an example of system software?
+(a) Microsoft Word (b) Google Chrome (c) Windows 10 (d) Adobe Photoshop
+Answer: (c)
+Solution: Option (a) is tempting because Word is widely used, but it is application software for document creation; Windows 10 is the operating system that manages hardware and provides a platform for applications, so the answer is (c).
+Source: NCERT Class 11 Computer Science
+
+52. What is the primary function of an operating system's kernel?
+(a) Manage hardware resources and system calls (b) Provide a graphical user interface (c) Run user applications directly (d) Store user files permanently
+Answer: (a)
+Solution: Option (b) describes the shell or GUI layer, not the kernel; the kernel is the core component that handles process scheduling, memory management, and device interaction, so the answer is (a).
+Source: NCERT Class 12 Computer Science
+
+53. In Linux, which command lists all files including hidden ones in the current directory?
+(a) ls (b) ls -a (c) ls -l (d) ls -h
+Answer: (b)
+Solution: Option (a) shows only non-hidden files; the -a flag includes entries starting with a dot, which are hidden files, so the answer is (b).
+Source: Linux man pages (PYQ-style)
+
+54. Which statement correctly distinguishes GUI from CLI?
+(a) GUI uses visual elements; CLI uses typed commands (b) GUI is faster for scripting; CLI is better for beginners (c) GUI uses text commands; CLI uses icons and menus (d) GUI requires no memory; CLI requires high memory
+Answer: (a)
+Solution: Option (c) reverses the definitions; GUI (Graphical User Interface) relies on windows, icons, and menus, while CLI (Command Line Interface) operates via typed commands, so the answer is (a).
+Source: NCERT Class 11 Computer Science
+
+55. The default file system used by modern Windows versions (Windows 10/11) for the system drive is:
+(a) FAT32 (b) NTFS (c) exFAT (d) ext4
+Answer: (b)
+Solution: Option (a) is an older file system with size limits; NTFS supports large volumes, permissions, encryption, and is the standard for Windows system drives, so the answer is (b).
+Source: Microsoft Learn documentation
+
+56. What does the term "open source software" mean?
+(a) Software that is free of cost only (b) Software that runs only on Linux (c) Software whose source code is available for modification and redistribution (d) Software with no license restrictions at all
+Answer: (c)
+Solution: Option (a) confuses "free as in price" with "free as in freedom"; open source specifically grants rights to view, modify, and distribute the source code under licenses like GPL or MIT, so the answer is (c).
+Source: Open Source Initiative definition (PYQ-style)
+
+57. Virtual memory allows a computer to:
+(a) Increase physical RAM capacity (b) Run multiple operating systems simultaneously (c) Use part of the hard disk as an extension of RAM (d) Speed up CPU processing
+Answer: (c)
+Solution: Option (a) is a common misconception; virtual memory does not add physical RAM but uses disk space (page file/swap) to hold inactive memory pages, so the answer is (c).
+Source: NCERT Class 12 Computer Science
+
+58. A device driver is:
+(a) A hardware component that connects peripherals (b) A software program that enables the OS to communicate with a hardware device (c) A type of application software for gaming (d) A utility for disk cleanup
+Answer: (b)
+Solution: Option (a) describes the physical interface or controller; a driver is software that translates OS commands into device-specific operations, so the answer is (b).
+Source: Microsoft Learn documentation
+
+59. In Windows, the keyboard shortcut to copy selected items is:
+(a) Ctrl + X (b) Ctrl + Z (c) Ctrl + V (d) Ctrl + C
+Answer: (d)
+Solution: Option (a) is Cut (removes original), option (c) is Paste, and option (b) is Undo; Ctrl + C copies without removing, so the answer is (d).
+Source: Microsoft Support (Windows keyboard shortcuts)
+
+60. Which tool in Windows provides detailed information about running processes, performance, and startup programs?
+(a) Control Panel (b) Task Manager (c) File Explorer (d) Settings
+Answer: (b)
+Solution: Option (a) is for system configuration; Task Manager (accessible via Ctrl+Shift+Esc) shows real-time process, performance, and startup details, so the answer is (b).
+Source: Microsoft Support
+
+61. The typical file extension for an executable program in Windows is:
+(a) .txt (b) .pdf (c) .docx (d) .exe
+Answer: (d)
+Solution: Option (a) is plain text, (b) is Portable Document Format, (c) is Word document; .exe denotes an executable binary, so the answer is (d).
+Source: Microsoft Learn documentation
+
+62. What is the primary role of BIOS/UEFI during system boot?
+(a) Load the operating system kernel directly (b) Provide a graphical desktop environment (c) Manage user login credentials (d) Initialize hardware and load the bootloader
+Answer: (d)
+Solution: Option (a) is done by the bootloader; BIOS/UEFI performs POST, initializes hardware, and hands control to the bootloader, so the answer is (d).
+Source: NCERT Class 11 Computer Science
+
+63. Multitasking on a single-core CPU is achieved by:
+(a) Rapidly switching the CPU between processes (b) Running multiple CPUs in parallel (c) Using virtual memory only (d) Disabling interrupts
+Answer: (a)
+Solution: Option (b) describes multiprocessing; a single core uses time-slicing (context switching) to give the illusion of simultaneous execution, so the answer is (a).
+Source: NCERT Class 12 Computer Science
+
+64. Android OS is based on which kernel?
+(a) Linux kernel (b) Windows NT kernel (c) macOS XNU kernel (d) FreeBSD kernel
+Answer: (a)
+Solution: Option (b) is for Windows; Android uses a modified Linux kernel for its core services, so the answer is (a).
+Source: Android Open Source Project documentation (PYQ-style)
+
+65. Which cloud service model provides ready-to-use applications over the internet (e.g., Gmail, Google Docs)?
+(a) IaaS (b) SaaS (c) PaaS (d) FaaS
+Answer: (b)
+Solution: Option (a) provides virtualized hardware, (c) provides a development platform; SaaS delivers complete applications managed by the provider, so the answer is (b).
+Source: NIST SP 800-145 (PYQ-style)
+
+66. A firewall's main purpose is to:
+(a) Remove viruses from infected files (b) Speed up internet connection (c) Monitor and control incoming/outgoing network traffic based on rules (d) Backup data automatically
+Answer: (c)
+Solution: Option (a) describes antivirus software; a firewall filters network packets according to security policies, so the answer is (c).
+Source: CERT-In guidelines (PYQ-style)
+
+67. Windows Update primarily ensures:
+(a) Security patches, bug fixes, and feature updates are applied (b) New games are installed (c) Hardware drivers are uninstalled (d) User files are encrypted
+Answer: (a)
+Solution: Option (b) is unrelated; Windows Update delivers critical security patches, bug fixes, and occasional feature improvements, so the answer is (a).
+Source: Microsoft Support
+
+68. In a web browser (Chrome, Edge, Firefox), the shortcut to open a new tab is:
+(a) Ctrl + N (b) Ctrl + W (c) Ctrl + T (d) Ctrl + Shift + T
+Answer: (c)
+Solution: Option (a) opens a new window, (b) closes the current tab, (d) reopens the last closed tab; Ctrl + T opens a new tab in the same window, so the answer is (c).
+Source: Browser documentation (PYQ-style)
+
+69. Safe Mode in Windows starts the system with:
+(a) All drivers and startup programs loaded (b) Only essential drivers and services (c) No graphical interface (d) A different operating system
+Answer: (b)
+Solution: Option (a) describes normal mode; Safe Mode loads a minimal set of drivers/services to troubleshoot issues, so the answer is (b).
+Source: Microsoft Support
+
+70. Which scheduling algorithm assigns the CPU to the process with the smallest next CPU burst?
+(a) Shortest Job Next (SJN) (b) Round Robin (RR) (c) First-Come, First-Served (FCFS) (d) Priority Scheduling
+Answer: (a)
+Solution: Option (c) uses arrival order, (b) uses time slices, (d) uses priority values; SJN (or SJF) selects the process with the shortest estimated burst time, so the answer is (a).
+Source: NCERT Class 12 Computer Science
+
+71. Which of the following is NOT a necessary condition for deadlock?
+(a) Mutual Exclusion (b) Hold and Wait (c) Circular Wait (d) Preemption
+Answer: (d)
+Solution: Option (d) is the opposite; deadlock requires No Preemption (resources cannot be forcibly taken), so Preemption prevents deadlock rather than causing it, so the answer is (d).
+Source: NCERT Class 12 Computer Science
+
+72. In Linux, the permission string `-rw-r--r--` for a file means:
+(a) Owner: read/write; Group: read; Others: read (b) Owner: read/write/execute; Group: read; Others: read (c) Owner: read; Group: write; Others: read (d) Owner: read/write; Group: write; Others: read
+Answer: (a)
+Solution: Option (b) incorrectly adds execute for owner; the string shows owner rw-, group r--, others r--, so the answer is (a).
+Source: Linux documentation (PYQ-style)
+
+73. The Windows Registry is:
+(a) A log file for system errors (b) A backup utility for user profiles (c) A folder for temporary internet files (d) A hierarchical database storing configuration settings
+Answer: (d)
+Solution: Option (a) describes Event Viewer logs; the Registry holds keys and values for OS, hardware, and application settings, so the answer is (d).
+Source: Microsoft Learn documentation
+
+74. A key difference between containers (e.g., Docker) and virtual machines is that containers:
+(a) Require a separate guest OS for each instance (b) Provide stronger hardware-level isolation (c) Share the host OS kernel and are more lightweight (d) Cannot run on Linux hosts
+Answer: (c)
+Solution: Option (a) describes VMs; containers share the host kernel and use namespaces/cgroups for isolation, making them faster and lighter, so the answer is (c).
+Source: Docker documentation (PYQ-style)
+
+75. Which of the following best describes "middleware" in software architecture?
+(a) Software that sits between the OS and hardware (b) The middle layer of a three-tier database (c) A type of malicious software (d) Software that connects different applications or components
+Answer: (d)
+Solution: Option (a) describes device drivers or HAL; middleware (e.g., message queues, API gateways) enables communication between distributed components, so the answer is (d).
+Source: NCERT Class 12 Computer Science

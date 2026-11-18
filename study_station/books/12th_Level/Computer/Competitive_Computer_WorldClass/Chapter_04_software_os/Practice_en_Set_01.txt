@@ -1,0 +1,149 @@
+1. Which of the following is an example of system software?
+(a) Microsoft Word (b) Google Chrome (c) Adobe Photoshop (d) Windows 10
+Answer: (d)
+Solution: Microsoft Word, Adobe Photoshop, and Google Chrome are application software designed for specific user tasks, while Windows 10 is an operating system that manages hardware and provides a platform for applications, so the answer is Windows 10.
+Source: NCERT Class 11 Computer Science
+
+2. The primary function of an operating system is to:
+(a) Create documents (b) Edit images (c) Browse the internet (d) Manage hardware resources
+Answer: (d)
+Solution: Creating documents, browsing the internet, and editing images are tasks performed by application software, whereas the OS acts as an intermediary between user applications and computer hardware, so the answer is Manage hardware resources.
+Source: NCERT Class 11 Computer Science
+
+3. Which component of the OS is responsible for managing the CPU's time among processes?
+(a) Process Scheduler (b) File Manager (c) Memory Manager (d) Device Driver
+Answer: (a)
+Solution: Memory Manager handles RAM allocation, File Manager handles storage, and Device Drivers communicate with hardware, but the Process Scheduler (or CPU Scheduler) decides which process runs on the CPU and for how long, so the answer is Process Scheduler.
+Source: NCERT Class 12 Computer Science
+
+4. In Windows, which file system is the default for modern versions (Windows 10/11)?
+(a) FAT32 (b) NTFS (c) exFAT (d) EXT4
+Answer: (b)
+Solution: FAT32 is older with file size limits, exFAT is for flash drives, EXT4 is for Linux, while NTFS (New Technology File System) supports large files, permissions, encryption, and is the default for Windows system drives, so the answer is NTFS.
+Source: Microsoft Learn - File Systems
+
+5. What does GUI stand for in the context of operating systems?
+(a) General User Interface (b) Global User Interaction (c) Graphical User Interface (d) Guided User Instruction
+Answer: (c)
+Solution: The other options are plausible-sounding but incorrect expansions; GUI specifically means Graphical User Interface, which uses windows, icons, and menus instead of text commands, so the answer is Graphical User Interface.
+Source: NCERT Class 11 Computer Science
+
+6. Which of the following is NOT a function of the kernel?
+(a) Process management (b) User interface design (c) Memory management (d) Device management
+Answer: (b)
+Solution: The kernel handles core tasks like process, memory, and device management, while user interface design (shell, desktop environment) runs in user space above the kernel, so the answer is User interface design.
+Source: NCERT Class 12 Computer Science
+
+7. Virtual memory allows a computer to:
+(a) Increase physical RAM (b) Speed up the CPU (c) Run without any RAM (d) Use hard disk space as temporary RAM
+Answer: (d)
+Solution: Virtual memory does not increase physical RAM, cannot run without RAM, and does not speed up the CPU; it uses a portion of the hard disk (page file) to extend the logical address space when RAM is full, so the answer is Use hard disk space as temporary RAM.
+Source: NCERT Class 12 Computer Science
+
+8. In Windows, the shortcut Ctrl + Shift + Esc opens:
+(a) Task Manager (b) File Explorer (c) Settings (d) Run dialog
+Answer: (a)
+Solution: Ctrl+Shift+Esc directly opens Task Manager; Win+E opens File Explorer, Win+I opens Settings, and Win+R opens Run dialog, so the answer is Task Manager.
+Source: Microsoft Support - Windows Keyboard Shortcuts
+
+9. Which of the following is a utility software?
+(a) Operating system (b) Antivirus program (c) Web browser (d) Programming language
+Answer: (b)
+Solution: OS is system software, web browser is application software, programming language is a development tool; antivirus is a utility program that maintains and protects the system, so the answer is Antivirus program.
+Source: NCERT Class 11 Computer Science
+
+10. The process of loading the operating system into memory when the computer starts is called:
+(a) Compiling (b) Installing (c) Booting (d) Formatting
+Answer: (c)
+Solution: Compiling translates source code, installing adds software, formatting prepares a disk; booting is the startup sequence that loads the OS kernel into RAM, so the answer is Booting.
+Source: NCERT Class 11 Computer Science
+
+11. Which Windows tool is used to check and repair file system errors on a disk?
+(a) CHKDSK (b) Disk Defragmenter (c) Disk Cleanup (d) Task Manager
+Answer: (a)
+Solution: Disk Cleanup frees space, Disk Defragmenter reorganizes files for speed, Task Manager shows processes; CHKDSK (Check Disk) scans and fixes file system errors and bad sectors, so the answer is CHKDSK.
+Source: Microsoft Learn - CHKDSK
+
+12. In a multitasking OS, switching the CPU between processes so quickly that they appear to run simultaneously is called:
+(a) Time-sharing (b) Multiprocessing (c) Multithreading (d) Batch processing
+Answer: (a)
+Solution: Multiprocessing uses multiple CPUs, multithreading is within a process, batch processing runs jobs sequentially; time-sharing (or timeslicing) gives each process a small CPU time slice, so the answer is Time-sharing.
+Source: NCERT Class 12 Computer Science
+
+13. Which of the following is a valid Windows environment variable for the user's profile folder?
+(a) %HOME% (b) %USERPROFILE% (c) %MYDOCS% (d) %PROFILE%
+Answer: (b)
+Solution: %HOME% is used in Unix-like systems, %MYDOCS% and %PROFILE% are not standard Windows variables; %USERPROFILE% expands to C:\Users\<username> in Windows, so the answer is %USERPROFILE%.
+Source: Microsoft Learn - Environment Variables
+
+14. The Windows Registry is a:
+(a) File system (b) Backup utility (c) Hierarchical database (d) Network protocol
+Answer: (c)
+Solution: It is not a file system, backup tool, or network protocol; the Registry stores configuration settings in a hierarchical tree of keys and values for OS, hardware, and applications, so the answer is Hierarchical database.
+Source: Microsoft Learn - Windows Registry
+
+15. Which command in Command Prompt displays the current directory path?
+(a) dir (b) pwd (c) cd (d) path
+Answer: (c)
+Solution: dir lists contents, pwd is Linux/Unix, path shows environment variable; cd without arguments displays the current directory in Windows (cd alone changes to home in Linux), so the answer is cd.
+Source: Microsoft Learn - Windows Commands
+
+16. What is the purpose of a device driver?
+(a) To manage user accounts (b) To encrypt files (c) To translate OS commands for specific hardware (d) To schedule processes
+Answer: (c)
+Solution: User accounts, encryption, and scheduling are OS kernel functions; a device driver is a specialized program that lets the OS communicate with a particular hardware device, so the answer is To translate OS commands for specific hardware.
+Source: NCERT Class 11 Computer Science
+
+17. In Windows, which key combination locks the computer instantly?
+(a) Ctrl + Alt + Del (b) Alt + F4 (c) Ctrl + L (d) Win + L
+Answer: (d)
+Solution: Ctrl+Alt+Del opens security screen, Ctrl+L is not a standard lock shortcut, Alt+F4 closes active window; Win+L immediately locks the session, so the answer is Win + L.
+Source: Microsoft Support - Windows Keyboard Shortcuts
+
+18. Which of the following is an open-source operating system?
+(a) Windows 11 (b) Linux (c) macOS (d) iOS
+Answer: (b)
+Solution: Windows, macOS, and iOS are proprietary; Linux kernel and most distributions are open-source under GPL, so the answer is Linux.
+Source: NCERT Class 11 Computer Science
+
+19. The file extension .exe in Windows indicates:
+(a) An executable program (b) A text file (c) A compressed archive (d) A system configuration file
+Answer: (a)
+Solution: .txt is text, .zip/.rar are archives, .ini/.cfg are config; .exe (executable) contains machine code that the OS can load and run directly, so the answer is An executable program.
+Source: Microsoft Learn - File Extensions
+
+20. What does the acronym BIOS stand for?
+(a) Binary Integrated Operating System (b) Basic Input Output System (c) Built-in Operating Software (d) Basic Internet Operating Service
+Answer: (b)
+Solution: The other options are invented expansions; BIOS (Basic Input/Output System) is firmware that initializes hardware during boot before the OS loads, so the answer is Basic Input Output System.
+Source: NCERT Class 11 Computer Science
+
+21. In Windows memory management, the paging file (pagefile.sys) is used to:
+(a) Store temporary internet files (b) Store system logs (c) Cache frequently used applications (d) Hold memory pages swapped out from RAM
+Answer: (d)
+Solution: Temporary internet files go to browser cache, application caching uses RAM/SuperFetch, logs go to Event Viewer; the paging file stores memory pages moved out of physical RAM when it is full, so the answer is Hold memory pages swapped out from RAM.
+Source: Microsoft Learn - Virtual Memory
+
+22. Which Windows feature uses a hidden system file (hiberfil.sys) to save the session to disk and power off?
+(a) Hibernate (b) Sleep (c) Fast Startup (d) Shutdown
+Answer: (a)
+Solution: Sleep keeps session in RAM, Fast Startup saves only kernel session, Shutdown closes everything; Hibernate writes the full memory state to hiberfil.sys and powers off, so the answer is Hibernate.
+Source: Microsoft Learn - Sleep and Hibernate
+
+23. In NTFS, which feature allows setting permissions on individual files and folders for specific users?
+(a) Compression (b) Encryption (c) Access Control Lists (ACLs) (d) Disk Quotas
+Answer: (c)
+Solution: Compression reduces size, Encryption (EFS) scrambles data, Quotas limit disk usage; ACLs (Access Control Lists) contain Access Control Entries that define permissions per user/group per object, so the answer is Access Control Lists (ACLs).
+Source: Microsoft Learn - NTFS Permissions
+
+24. The Windows command `sfc /scannow` is used to:
+(a) Scan for viruses (b) Check disk for bad sectors (c) Defragment the hard drive (d) Verify and repair protected system files
+Answer: (d)
+Solution: Virus scan uses Windows Defender, bad sectors use CHKDSK, defragmentation uses Optimize Drives; System File Checker (sfc) verifies integrity of protected system files and replaces corrupted ones, so the answer is Verify and repair protected system files.
+Source: Microsoft Learn - System File Checker
+
+25. In a preemptive multitasking OS, the scheduler can forcibly take the CPU from a running process. This is different from cooperative multitasking where:
+(a) Processes voluntarily yield the CPU (b) Only one process runs at a time (c) The OS has no scheduler (d) All processes have equal priority
+Answer: (a)
+Solution: Cooperative multitasking (used in old Windows 3.x, Mac OS 9) relies on processes calling yield() or waiting for I/O; the OS cannot force a context switch, so a misbehaving process can freeze the system, so the answer is Processes voluntarily yield the CPU.
+Source: NCERT Class 12 Computer Science

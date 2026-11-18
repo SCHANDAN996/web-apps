@@ -1,0 +1,169 @@
+PYQ Pattern Analysis — Software and Operating Systems
+
+This section describes the recurring question patterns, examiner traps, and high-yield sub-topics observed in SSC CHSL, SSC CGL (Tier-I), RRB NTPC, and similar computer-knowledge papers. No year-wise frequency tables or invented statistics are given — only pattern insights.
+
+1. Core Sub-topics That Appear Repeatedly
+- Types of software: system software vs. application software; firmware, middleware, utility software.
+- Operating system functions: process management, memory management, file management, device management, user interface.
+- OS classifications: single-user vs. multi-user, single-tasking vs. multi-tasking, real-time, distributed, mobile OS.
+- Popular OS families: Windows (core concepts, not version-specific UI), Linux (kernel, shell, distros, basic commands), macOS (basics), Android/iOS (mobile OS fundamentals).
+- Boot process: POST, BIOS/UEFI, bootloader, kernel loading, init/systemd.
+- File systems: FAT32, NTFS, ext4, APFS — features, limits, permissions.
+- Virtual memory, paging, segmentation, thrashing.
+- Deadlock: conditions, prevention, avoidance, detection.
+- Scheduling algorithms: FCFS, SJF, Round Robin, Priority — simple numerical problems (waiting time, turnaround time).
+- System calls vs. library functions; kernel mode vs. user mode.
+- Windows Registry, Services, Task Manager, Control Panel / Settings, Command Prompt / PowerShell basics.
+- Linux directory hierarchy (FHS), basic commands (ls, cd, cp, mv, rm, mkdir, rmdir, cat, grep, chmod, chown, ps, top, df, du, tar, gzip).
+- Software licensing: proprietary, open source (GPL, MIT, Apache), freeware, shareware, trialware.
+- Malware types: virus, worm, trojan, ransomware, spyware, adware, rootkit; antivirus working principles.
+- Updates/patches: hotfix, service pack, cumulative update, zero-day vulnerability.
+
+2. Common Examiner Traps
+- Near-correct statements: "Linux kernel is monolithic" (true) vs. "Linux kernel is microkernel" (false — though modules exist).
+- Chronological confusion: "Windows 95 introduced NTFS" (false — NTFS came with Windows NT 3.1); "Android is based on Linux kernel" (true).
+- Similar-name confusion: "BIOS and UEFI are the same" (false); "Shell and Kernel are the same" (false); "CLI and GUI are mutually exclusive" (false — both can coexist).
+- Negative phrasing: "Which of the following is NOT a function of the OS?" — tests precise exclusion knowledge.
+- Scope confusion: "Ctrl+C copies text in Windows Command Prompt" (false — it terminates the current command; copy is Ctrl+Shift+C or right-click → Mark).
+- Browser vs. OS shortcuts: "Ctrl+T opens a new tab in File Explorer" (true in Windows 11); "Win+E opens File Explorer" (true — Windows OS scope).
+- Version-specific claims avoided: Questions rarely ask exact version numbers (e.g., "Windows 10 build 19045") — they test concepts stable across versions.
+
+3. Question Formats
+- Single-statement MCQ: Direct concept check.
+- Assertion–Reason (A–R): Assertion states a fact; Reason explains it. Options: Both true & R explains A; Both true but R does not explain A; A true R false; A false R true.
+- Match the Following: OS terms ↔ functions / commands ↔ effects / file systems ↔ features.
+- Statement-based (2–3 statements): "Select the correct code: (a) 1 only (b) 2 only (c) Both 1 and 2 (d) Neither 1 nor 2".
+- Simple numerical: Given burst times, compute average waiting time under Round Robin (time quantum given).
+
+4. PYQ-style Original Examples
+(Labelled PYQ-style — not from any real paper)
+
+Example 1 (Assertion–Reason)
+Assertion (A): In a multi-programming OS, the CPU switches between processes to maximize utilization.
+Reason (R): Context switching saves the state of the current process and loads the state of the next process.
+Options:
+(a) Both A and R are true and R correctly explains A
+(b) Both A and R are true but R does not explain A
+(c) A is true but R is false
+(d) A is false but R is true
+Answer: (a)
+Solution: Multi-programming keeps multiple processes in memory; the CPU switches via context switching, which indeed saves/restores process state. R directly explains the mechanism enabling A.
+Source: NCERT Class 11 Computer Science / OS textbooks
+
+Example 2 (Negative phrasing)
+Which of the following is NOT a function of an Operating System?
+(a) Process scheduling
+(b) Memory allocation
+(c) Compiling high-level language code
+(d) Device driver management
+Answer: (c)
+Solution: Compilation is performed by a compiler (application software), not the OS kernel. The OS provides the environment but does not compile code.
+Source: Standard OS textbooks
+
+Example 3 (Match the Following)
+Match the file system with its characteristic:
+1. FAT32          A. Default for modern Windows system drives
+2. NTFS           B. Maximum file size 4 GB
+3. ext4           C. Journaling, default for many Linux distros
+4. APFS           D. Optimized for flash/SSD, Apple devices
+Options:
+(a) 1–B, 2–A, 3–C, 4–D
+(b) 1–A, 2–B, 3–C, 4–D
+(c) 1–B, 2–C, 3–A, 4–D
+(d) 1–C, 2–A, 3–B, 4–D
+Answer: (a)
+Solution: FAT32 has 4 GB file-size limit; NTFS is Windows default with journaling/permissions; ext4 is Linux default with journaling; APFS is Apple's flash-optimized FS.
+Source: Microsoft Learn (NTFS/FAT32), Linux kernel docs (ext4), Apple Developer (APFS)
+
+Example 4 (Simple numerical — Round Robin)
+Three processes arrive at time 0 with burst times: P1=3, P2=4, P3=2. Time quantum = 2. What is the average waiting time?
+(a) 3.0   (b) 3.33   (c) 4.0   (d) 4.33
+Answer: (d)
+Solution: Gantt: P1(0-2), P2(2-4), P3(4-6), P1(6-7), P2(7-9). Completion: P1=7, P2=9, P3=6. Turnaround = completion (arrival=0). Waiting = Turnaround − Burst. P1: 7−3=4; P2: 9−4=5; P3: 6−2=4. Average = (4+5+4)/3 = 13/3 ≈ 4.33.
+Source: Standard OS scheduling problems
+
+Example 5 (Shortcut scope — Windows 11)
+Which shortcut opens a new tab in Windows File Explorer?
+(a) Ctrl+T
+(b) Ctrl+N
+(c) Win+E
+(d) Ctrl+Shift+N
+Answer: (a)
+Solution: In Windows 11, Ctrl+T opens a new tab in File Explorer. Ctrl+N opens a new File Explorer window. Win+E launches File Explorer. Ctrl+Shift+N creates a new folder.
+Source: Microsoft Support (Windows keyboard shortcuts)
+
+Example 6 (Linux command effect)
+What does the command `chmod 754 file.txt` do?
+(a) Gives owner read/write/execute, group read/execute, others read only
+(b) Gives owner read/write/execute, group read/write, others read only
+(c) Gives owner read/write, group read/execute, others read only
+(d) Gives owner read/write/execute, group read only, others read/execute
+Answer: (a)
+Solution: 7=4+2+1 (rwx), 5=4+1 (rx), 4=4 (r). Owner rwx, group rx, others r.
+Source: Linux man pages (chmod)
+
+Example 7 (Malware classification)
+A program that replicates itself by attaching to executable files and spreads when the infected file is run is called a:
+(a) Worm
+(b) Virus
+(c) Trojan
+(d) Ransomware
+Answer: (b)
+Solution: Virus requires a host file and user execution to spread. Worm self-propagates over networks without a host file. Trojan disguises as legitimate software. Ransomware encrypts data for ransom.
+Source: CERT-In advisories / standard cybersecurity texts
+
+Example 8 (Software licensing)
+Which license requires derivative works to be distributed under the same license?
+(a) MIT
+(b) Apache 2.0
+(c) GPL (General Public License)
+(d) BSD 3-Clause
+Answer: (c)
+Solution: GPL is copyleft — derivatives must carry the same license. MIT, Apache, BSD are permissive (allow proprietary derivatives with attribution).
+Source: OSI (Open Source Initiative) license texts
+
+Example 9 (Boot sequence)
+The correct order of steps in a typical UEFI boot on Windows is:
+1. UEFI firmware initializes hardware
+2. UEFI firmware loads Windows Boot Manager (bootmgfw.efi) from the EFI System Partition
+3. Windows Boot Manager loads winload.efi
+4. Kernel (ntoskrnl.exe) initializes
+5. Session Manager (smss.exe) starts user-mode processes
+Options:
+(a) 1-2-3-4-5
+(b) 1-3-2-4-5
+(c) 2-1-3-4-5
+(d) 1-2-4-3-5
+Answer: (a)
+Solution: UEFI firmware initializes hardware, then loads Windows Boot Manager from the ESP; Windows Boot Manager loads winload.efi, which loads the kernel (ntoskrnl.exe); the kernel starts the Session Manager (smss.exe) to begin user-mode processes.
+Source: Microsoft Learn (Windows boot process)
+
+Example 10 (Virtual memory)
+Thrashing occurs when:
+(a) Page fault rate is very low
+(b) CPU spends more time paging than executing
+(c) Physical memory is larger than virtual memory
+(d) All processes fit in RAM
+Answer: (b)
+Solution: Thrashing = excessive paging due to insufficient frames for working sets, causing CPU utilization to drop.
+Source: OS textbooks (Silberschatz, Galvin, Gagne)
+
+5. Preparation Tips (Advisory, Not Statistics)
+- Master definitions: system call, kernel, shell, process, thread, deadlock, virtual memory, file system.
+- Practice 2–3 numerical scheduling problems (FCFS, SJF, RR) — they are quick marks if formula is clear.
+- Memorize Linux permission numbers (4/2/1) and common commands (ls, cp, mv, chmod, chown, ps, top, df, du, tar, grep).
+- Distinguish Windows OS shortcuts (Win+E, Win+R, Win+L, Alt+Tab, Ctrl+Shift+Esc, Ctrl+T for File Explorer tab) from browser shortcuts (Ctrl+T, Ctrl+W, Ctrl+Tab, F5).
+- Read CERT-In advisories for current malware/ransomware trends — concepts are stable, examples update.
+- For licensing, remember: GPL = copyleft; MIT/Apache/BSD = permissive.
+- Avoid memorizing version-specific UI paths (e.g., "Control Panel → System → Advanced" changes across Windows versions); focus on what the tool does (Task Manager, Services, Registry, Disk Management).
+- In Assertion–Reason, first judge truth of each statement independently, then check if Reason explains Assertion.
+
+Source references used for concept verification (not exhaustive):
+- NCERT Class 11/12 Computer Science textbooks
+- Microsoft Learn / Microsoft Support (Windows architecture, shortcuts, boot, file systems)
+- Linux kernel documentation / man pages (commands, permissions, FHS)
+- CERT-In security advisories (malware types, best practices)
+- OSI license list (GPL, MIT, Apache, BSD)
+- Standard OS textbooks (Silberschatz-Galvin-Gagne, Tanenbaum, Stallings)
+
+End of PYQ Pattern Analysis.

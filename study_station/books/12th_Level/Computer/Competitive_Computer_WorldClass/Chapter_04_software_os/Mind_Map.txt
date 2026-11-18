@@ -1,0 +1,19 @@
+```mermaid
+graph TD
+    A["Software / सॉफ्टवेयर"] --> B["System Software / सिस्टम सॉफ्टवेयर"]
+    A --> C["Application Software / एप्लिकेशन सॉफ्टवेयर"]
+    B --> D["Operating System / ऑपरेटिंग सिस्टम"]
+    B --> E["Device Drivers / डिवाइस ड्राइवर"]
+    B --> F["Utility Programs / उपयोगिता प्रोग्राम"]
+    D --> G["Kernel / कर्नेल"]
+    D --> H["Process Management / प्रक्रिया प्रबंधन"]
+    D --> I["Memory Management / मेमोरी प्रबंधन"]
+    D --> J["File System / फाइल सिस्टम"]
+    D --> K["User Interface / यूजर इंटरफेस"]
+    K --> L["CLI / सीएलआई"]
+    K --> M["GUI / जीयूआई"]
+    D --> N["Types of OS / ऑपरेटिंग सिस्टम के प्रकार"]
+    N --> O["Windows OS / विंडोज ओएस"]
+    N --> P["Linux OS / लिनक्स ओएस"]
+    N --> Q["Mobile OS / मोबाइल ओएस"]
+```

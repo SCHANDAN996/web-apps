@@ -1,0 +1,71 @@
+Card 1
+Front: What is the primary difference between system software and application software?
+Back: System software manages hardware resources and provides a platform for application software (e.g., OS, drivers, utilities). Application software performs specific user tasks (e.g., word processors, browsers, spreadsheets).
+
+Card 2
+Front: List the five core functions of an operating system.
+Back: 1) Process management 2) Memory management 3) File system management 4) Device management (I/O) 5) Security and access control.
+
+Card 3
+Front: Distinguish between monolithic kernel and microkernel architecture.
+Back: Monolithic kernel runs all OS services (scheduler, file system, drivers) in kernel space — faster but less modular. Microkernel runs only essential services (IPC, basic scheduling) in kernel space; other services run in user space — more modular, stable, but slower due to context switches.
+
+Card 4
+Front: What is the key difference between a process and a thread?
+Back: A process is an independent program in execution with its own memory space, resources, and PCB. A thread is a lightweight unit of execution within a process, sharing the process's memory and resources but having its own stack, registers, and program counter.
+
+Card 5
+Front: Explain the concept of virtual memory.
+Back: Virtual memory allows a program to use more memory than physically available by using disk (swap/page file) as an extension of RAM. The OS maps virtual addresses to physical frames via page tables, swapping pages in/out as needed.
+
+Card 6
+Front: Name three common file systems and their typical OS association.
+Back: NTFS — Windows; ext4 — Linux; APFS — macOS. FAT32 lacks large file support (max 4 GB) and advanced features; exFAT supports large files but lacks permissions and journaling.
+
+Card 7
+Front: What is a device driver and why is it necessary?
+Back: A device driver is a specialized system software that translates OS-level I/O requests into hardware-specific commands. It allows the OS to communicate with diverse hardware without knowing device-specific details.
+
+Card 8
+Front: Compare CLI, GUI, and touch-based interfaces in OS context.
+Back: CLI (Command Line Interface) — text-based, scriptable, low resource use. GUI (Graphical User Interface) — windows, icons, menus, pointer; user-friendly, higher resource use. Touch UI — optimized for direct manipulation, gestures, on-screen keyboards; common in mobile/tablet OS.
+
+Card 9
+Front: How does the Windows Registry differ from Linux configuration approach?
+Back: Windows Registry is a centralized hierarchical database storing system and application settings. Linux uses decentralized plain-text configuration files (typically under /etc) — human-readable, version-controllable, no single point of failure.
+
+Card 10
+Front: Outline the boot sequence of a modern PC (UEFI/GPT).
+Back: 1) Firmware (UEFI) initializes hardware, runs POST. 2) UEFI reads boot entries from NVRAM, loads bootloader (e.g., Windows Boot Manager, GRUB) from EFI System Partition. 3) Bootloader loads OS kernel. 4) Kernel initializes drivers, mounts root filesystem, starts init/systemd. 5) User-space services and login prompt appear.
+
+Card 11
+Front: Define paging and segmentation in memory management.
+Back: Paging divides virtual memory into fixed-size pages and physical memory into frames — eliminates external fragmentation. Segmentation divides memory into variable-sized logical segments (code, data, stack) — matches program structure but causes external fragmentation. Modern OSs use paging (often with segmentation disabled in x86-64 long mode).
+
+Card 12
+Front: Name three CPU scheduling algorithms and their typical use case.
+Back: FCFS (First-Come-First-Served) — simple, batch systems; Round Robin — time-sharing, fixed time quantum; Shortest Job First (SJF) — optimal for minimizing average waiting time, used in batch where burst times are known.
+
+Card 13
+Front: What are the four necessary conditions for deadlock (Coffman conditions)?
+Back: 1) Mutual Exclusion 2) Hold and Wait 3) No Preemption 4) Circular Wait. All four must hold simultaneously for deadlock to occur.
+
+Card 14
+Front: What is a system call? Give three examples.
+Back: A system call is the programmatic interface by which a user-space process requests a service from the kernel (mode switch from user to kernel). Examples: open(), read(), write(), fork(), exec(), exit().
+
+Card 15
+Front: Differentiate open-source software from proprietary software.
+Back: Open-source software grants users freedom to use, study, modify, and distribute the source code (e.g., Linux, LibreOffice). Proprietary software restricts these activities; source code is usually closed, license limits usage (e.g., Windows, MS Office).
+
+Card 16
+Front: What is utility software? Give four examples relevant to OS maintenance.
+Back: Utility software performs system maintenance and optimization tasks. Examples: Disk Defragmenter, Disk Cleanup, Antivirus/anti-malware, Backup tools.
+
+Card 17
+Front: How does firmware differ from regular software?
+Back: Firmware is low-level software embedded in hardware non-volatile memory (ROM, flash) that controls the device's basic operation. It persists across power cycles, is hardware-specific, and updated less frequently (flashing). Regular software runs on general-purpose CPU, stored on rewritable media, easily replaced.
+
+Card 18
+Front: List three fundamental OS security principles.
+Back: 1) Least Privilege — processes/users get only minimum necessary permissions. 2) Defense in Depth — multiple overlapping security layers (firewall, ACLs, encryption, auditing). 3) Secure Defaults — system ships with safe configurations (disabled unnecessary services, strong password policy, auto-updates enabled).

@@ -1,0 +1,76 @@
+Key Facts — Software and Operating Systems
+
+1. **Software Definition** — Software is a set of instructions, data, or programs used to operate computers and execute specific tasks. It is intangible, unlike hardware.  
+   *Source: NCERT Class 11 Computer Science*
+
+2. **System Software vs Application Software** — System software manages hardware and provides a platform for application software (e.g., OS, drivers, utilities). Application software performs user-oriented tasks (e.g., word processors, browsers, spreadsheets).  
+   *Source: NCERT Class 11 Computer Science*
+
+3. **Operating System (OS) Role** — An OS acts as an intermediary between users/applications and computer hardware. Core functions: process management, memory management, file system management, device management, and security.  
+   *Source: NCERT Class 11 Computer Science; Microsoft Learn – Operating System Fundamentals*
+
+4. **Kernel** — The kernel is the core component of an OS that has complete control over the system. It manages CPU scheduling, memory allocation, and hardware communication. Types: monolithic (Linux), microkernel (MINIX), hybrid (Windows NT kernel).  
+   *Source: Microsoft Learn – Windows Architecture; Linux Kernel Documentation*
+
+5. **Process vs Thread** — A process is an executing program with its own memory space. A thread is the smallest unit of execution within a process; threads of the same process share memory. Multithreading improves responsiveness and resource sharing.  
+   *Source: NCERT Class 12 Computer Science; Microsoft Learn – Processes and Threads*
+
+6. **Process States** — Typical states: New, Ready, Running, Waiting (Blocked), Terminated. The OS scheduler moves processes between states.  
+   *Source: NCERT Class 12 Computer Science*
+
+7. **Scheduling Algorithms** — Common CPU scheduling: First-Come-First-Served (FCFS), Shortest Job First (SJF), Round Robin (RR), Priority Scheduling. RR with time quantum is widely used in time-sharing systems.  
+   *Source: NCERT Class 12 Computer Science*
+
+8. **Deadlock** — A situation where two or more processes wait indefinitely for resources held by each other. Necessary conditions (Coffman): Mutual Exclusion, Hold and Wait, No Preemption, Circular Wait. Prevention, avoidance (Banker's algorithm), detection, and recovery are strategies.  
+   *Source: NCERT Class 12 Computer Science*
+
+9. **Memory Management — Paging** — Physical memory divided into frames; logical memory into pages of equal size. Page table maps pages to frames. Eliminates external fragmentation; internal fragmentation possible.  
+   *Source: NCERT Class 12 Computer Science; Microsoft Learn – Memory Management*
+
+10. **Virtual Memory** — Allows execution of processes larger than physical RAM by swapping pages between RAM and disk (page file / swap space). Demand paging loads pages only when needed. Thrashing occurs when excessive paging degrades performance.  
+    *Source: NCERT Class 12 Computer Science; Microsoft Learn – Virtual Memory*
+
+11. **File System** — Organizes data on storage devices. Common file systems: NTFS (Windows), ext4 (Linux), FAT32/exFAT (removable media), APFS (macOS). NTFS supports permissions, encryption, compression, journaling.  
+    *Source: Microsoft Learn – NTFS Overview; Linux Documentation – ext4*
+
+12. **Device Drivers** — Specialized programs that allow the OS to communicate with hardware devices (printers, GPUs, network cards). Drivers run in kernel mode (mostly) for performance.  
+    *Source: Microsoft Learn – Driver Development*
+
+13. **User Mode vs Kernel Mode** — User mode restricts direct hardware access; applications run here. Kernel mode has full hardware access; OS core runs here. Mode switch occurs via system calls (e.g., file read, process creation).  
+    *Source: NCERT Class 12 Computer Science; Microsoft Learn – User/Kernel Mode*
+
+14. **System Calls** — Interface between user programs and OS kernel. Categories: process control (fork, exit), file management (open, read, write), device management, information maintenance, communication.  
+    *Source: NCERT Class 12 Computer Science; Linux man pages – syscalls(2)*
+
+15. **Interrupts** — Signals to the CPU from hardware or software indicating an event needing immediate attention. Hardware interrupts (I/O completion), software interrupts (system calls, exceptions). Interrupt handler (ISR) processes them.  
+    *Source: NCERT Class 12 Computer Science; Microsoft Learn – Interrupts*
+
+16. **Boot Process (BIOS/UEFI)** — Power-On Self-Test (POST) → firmware (BIOS/UEFI) loads bootloader from boot device (MBR/GPT) → bootloader loads OS kernel → kernel initializes drivers, services, and user space (init/systemd). UEFI supports Secure Boot, GPT disks >2 TB.  
+    *Source: Microsoft Learn – Boot Process; UEFI Specification*
+
+17. **Windows Registry** — Hierarchical database storing configuration settings for OS, hardware, software, and user preferences. Keys: HKEY_LOCAL_MACHINE (HKLM), HKEY_CURRENT_USER (HKCU), etc. Editing requires caution.  
+    *Source: Microsoft Learn – Windows Registry*
+
+18. **Windows Services** — Background programs that start at boot (or on demand) without user login. Managed via Services.msc, sc command, or PowerShell. Startup types: Automatic, Automatic (Delayed), Manual, Disabled.  
+    *Source: Microsoft Learn – Windows Services*
+
+19. **Linux File System Hierarchy (FHS)** — Standard directory structure: /bin (essential binaries), /etc (config), /home (user directories), /var (variable data/logs), /usr (user programs), /tmp (temporary), /dev (device files), /proc (virtual kernel info).  
+    *Source: Linux Foundation – FHS 3.0*
+
+20. **Package Managers** — Tools to install, update, remove software packages and resolve dependencies. Examples: apt (Debian/Ubuntu), dnf/yum (RHEL/Fedora), pacman (Arch), winget (Windows), Chocolatey (Windows).  
+    *Source: Microsoft Learn – winget; Distribution Documentation*
+
+21. **Shell and CLI** — Shell interprets user commands. Common shells: Bash (default on most Linux), PowerShell (Windows, cross-platform), zsh, fish. CLI enables scripting, automation, remote administration (SSH).  
+    *Source: GNU Bash Manual; Microsoft Learn – PowerShell*
+
+22. **Common Windows Shortcuts (OS Scope)** — Win+E (File Explorer), Win+R (Run), Win+D (Show Desktop), Win+L (Lock), Win+I (Settings), Win+X (Quick Link), Alt+Tab (Switch Apps), Ctrl+Shift+Esc (Task Manager), Win+Pause (System Properties).  
+    *Source: Microsoft Support – Windows Keyboard Shortcuts*
+
+23. **Common Office Shortcuts (App Scope)** — Ctrl+C/V/X (Copy/Paste/Cut), Ctrl+Z/Y (Undo/Redo), Ctrl+S (Save), Ctrl+P (Print), Ctrl+F (Find), Ctrl+A (Select All), Ctrl+B/I/U (Bold/Italic/Underline), F12 (Save As), Alt+Tab (Switch Windows — OS level).  
+    *Source: Microsoft Support – Office Keyboard Shortcuts*
+
+24. **Browser Shortcuts (Distinct from OS/Office)** — Ctrl+T (New Tab), Ctrl+W (Close Tab), Ctrl+Shift+T (Reopen Closed Tab), Ctrl+Tab / Ctrl+Shift+Tab (Next/Prev Tab), Ctrl+L / F6 (Address Bar), F5 / Ctrl+R (Reload), Ctrl++ / Ctrl+- (Zoom), Ctrl+Shift+Delete (Clear Browsing Data).  
+    *Source: Chrome/Edge/Firefox Official Shortcut Pages*
+
+25. **Security Basics — Updates, Firewall, Malware Protection** — Keep OS and apps updated (Windows Update, WSUS, unattended-upgrades). Enable firewall (Windows Defender Firewall, iptables/nftables, ufw). Use reputable anti-malware (Windows Defender, third-party). Principle of least privilege: use standard user account, elevate only when needed (UAC, sudo).  
+    *Source: CERT-In Advisories; Microsoft Learn – Security Baselines; RBI Cyber Security Framework*

@@ -1,0 +1,149 @@
+126. Which type of software acts as an interface between the user and the computer hardware?
+(a) Application software (b) Utility software (c) System software (d) Firmware
+Answer: (c)
+Solution: Application software performs specific user tasks, while system software manages hardware and provides a platform for applications; firmware is embedded in hardware. The trap is choosing application software because users interact with it directly, but the interface to hardware is the OS, so the answer is System software.
+Source: NCERT Class 11 Computer Science
+
+127. The core component of an operating system that manages memory, processes, and hardware communication is called the:
+(a) Shell (b) Compiler (c) Kernel (d) Device driver
+Answer: (c)
+Solution: The shell is the user interface, a compiler translates code, and device drivers control specific hardware; the kernel is the central module that handles core OS functions. The trap is selecting shell because it is the visible part, so the answer is Kernel.
+Source: NCERT Class 11 Computer Science
+
+128. Which of the following is an example of open-source operating system?
+(a) Windows 10 (b) macOS (c) iOS (d) Linux
+Answer: (d)
+Solution: Windows, macOS, and iOS are proprietary; Linux is distributed under open-source licences allowing modification and redistribution. The trap is picking macOS because it is Unix-based, so the answer is Linux.
+Source: Official Linux kernel documentation
+
+129. In Windows, the shortcut key to open Task Manager directly is:
+(a) Ctrl + Shift + Esc (b) Ctrl + Alt + Del (c) Alt + Tab (d) Win + R
+Answer: (a)
+Solution: Ctrl+Alt+Del opens a security screen, Alt+Tab switches windows, Win+R opens Run; Ctrl+Shift+Esc launches Task Manager immediately. The trap is choosing Ctrl+Alt+Del as the traditional method, so the answer is Ctrl + Shift + Esc.
+Source: Microsoft Windows Keyboard Shortcuts documentation
+
+130. The file system used by default in modern Windows versions (Windows 10/11) is:
+(a) FAT32 (b) NTFS (c) exFAT (d) ext4
+Answer: (b)
+Solution: FAT32 and exFAT are used for removable media; ext4 is a Linux file system; NTFS supports large files, permissions, and journaling for internal drives. The trap is selecting FAT32 due to its familiarity, so the answer is NTFS.
+Source: Microsoft Learn – File Systems
+
+131. Which scheduling algorithm assigns the CPU to the process with the smallest next CPU burst?
+(a) First-Come, First-Served (b) Priority Scheduling (c) Round Robin (d) Shortest Job Next
+Answer: (d)
+Solution: FCFS uses arrival order, Round Robin uses time slices, Priority uses priority values; Shortest Job Next selects the process with the shortest estimated burst. The trap is confusing it with Round Robin because both aim for fairness, so the answer is Shortest Job Next.
+Source: NCERT Class 12 Computer Science
+
+132. Virtual memory allows a computer to:
+(a) Increase physical RAM (b) Run programs larger than physical RAM (c) Speed up the CPU (d) Eliminate the need for secondary storage
+Answer: (b)
+Solution: Virtual memory uses disk space to extend logical address space; it does not add physical RAM, speed up the CPU, or remove secondary storage. The trap is thinking it increases actual RAM, so the answer is Run programs larger than physical RAM.
+Source: NCERT Class 11 Computer Science
+
+133. The process of dividing a program into fixed-size blocks called pages is known as:
+(a) Segmentation (b) Swapping (c) Fragmentation (d) Paging
+Answer: (d)
+Solution: Segmentation uses variable-size segments, fragmentation is wasted space, swapping moves processes between memory and disk; paging uses fixed-size pages. The trap is choosing segmentation because both are memory management schemes, so the answer is Paging.
+Source: NCERT Class 12 Computer Science
+
+134. Which utility software is used to reorganize fragmented data on a hard disk to improve access speed?
+(a) Disk Cleanup (b) Disk Defragmenter (c) Backup (d) Antivirus
+Answer: (b)
+Solution: Disk Cleanup removes unnecessary files, Backup copies data, Antivirus scans for malware; Defragmenter rearranges fragmented files. The trap is selecting Disk Cleanup as both are maintenance tools, so the answer is Disk Defragmenter.
+Source: Microsoft Windows Built-in Tools documentation
+
+135. A software licence that allows users to run, study, modify, and distribute the software is called:
+(a) Proprietary licence (b) Open-source licence (c) Freeware (d) Shareware
+Answer: (b)
+Solution: Proprietary restricts modification, Freeware is free but closed-source, Shareware is trial-based; open-source licences grant the four freedoms. The trap is picking Freeware because it is free of cost, so the answer is Open-source licence.
+Source: Open Source Initiative – Definition
+
+136. Which of the following is a type of malware that replicates itself and spreads to other computers without user action?
+(a) Trojan horse (b) Spyware (c) Worm (d) Ransomware
+Answer: (c)
+Solution: Trojan requires user execution, Spyware steals data, Ransomware encrypts files; a worm self-replicates across networks. The trap is choosing Trojan horse as the most famous malware, so the answer is Worm.
+Source: CERT-In Security Guidelines
+
+137. In Windows, the command to open the System Configuration tool is:
+(a) msconfig (b) regedit (c) dxdiag (d) services.msc
+Answer: (a)
+Solution: regedit opens Registry Editor, dxdiag shows DirectX diagnostics, services.msc manages services; msconfig launches System Configuration. The trap is picking regedit because both are advanced tools, so the answer is msconfig.
+Source: Microsoft Windows Run Commands reference
+
+138. The primary purpose of a device driver is to:
+(a) Protect the OS from viruses (b) Compress files (c) Manage user accounts (d) Translate OS commands into hardware-specific instructions
+Answer: (d)
+Solution: Drivers enable the OS to communicate with specific hardware; they do not provide security, manage users, or compress data. The trap is thinking drivers are for security because they run in kernel mode, so the answer is Translate OS commands into hardware-specific instructions.
+Source: Microsoft Learn – Device Drivers
+
+139. Which of the following is NOT a function of an operating system?
+(a) Memory management (b) Process scheduling (c) Word processing (d) File management
+Answer: (c)
+Solution: Memory management, process scheduling, and file management are core OS functions; word processing is an application task. The trap is selecting file management because users do it often, so the answer is Word processing.
+Source: NCERT Class 11 Computer Science
+
+140. The shortcut key to lock a Windows workstation quickly is:
+(a) Ctrl + L (b) Win + L (c) Alt + L (d) Shift + L
+Answer: (b)
+Solution: Ctrl+L, Alt+L, Shift+L have no standard lock function; Win+L is the defined shortcut to lock the session. The trap is trying Ctrl+L by analogy with browser address bar, so the answer is Win + L.
+Source: Microsoft Windows Keyboard Shortcuts documentation
+
+141. In a graphical user interface (GUI), the small picture representing a program, file, or function is called a(n):
+(a) Icon (b) Widget (c) Menu (d) Toolbar
+Answer: (a)
+Solution: Widgets are interactive elements, menus list commands, toolbars hold buttons; an icon is the pictorial representation. The trap is choosing widget because both are visual elements, so the answer is Icon.
+Source: NCERT Class 11 Computer Science
+
+142. Which cloud service model provides virtualized computing resources over the internet, such as virtual machines and storage?
+(a) SaaS (b) PaaS (c) FaaS (d) IaaS
+Answer: (d)
+Solution: SaaS delivers applications, PaaS provides development platforms, FaaS runs functions; IaaS supplies fundamental infrastructure. The trap is picking PaaS because both serve developers, so the answer is IaaS.
+Source: NIST Cloud Computing Definition
+
+143. The process state in which a process is waiting for an event (like I/O completion) is called:
+(a) Ready (b) Running (c) Blocked (d) Terminated
+Answer: (c)
+Solution: Ready means waiting for CPU, Running means executing, Terminated means finished; Blocked (or Waiting) means waiting for an event. The trap is selecting Ready because the process is not running, so the answer is Blocked.
+Source: NCERT Class 12 Computer Science
+
+144. Which file extension is commonly used for a Windows batch script?
+(a) .bat (b) .sh (c) .py (d) .js
+Answer: (a)
+Solution: .sh is for shell scripts (Linux), .py for Python, .js for JavaScript; .bat identifies Windows batch files. The trap is choosing .sh due to scripting familiarity, so the answer is .bat.
+Source: Microsoft Windows Scripting documentation
+
+145. The BIOS/UEFI firmware is stored in:
+(a) RAM (b) Hard disk (c) ROM (d) Cache memory
+Answer: (c)
+Solution: RAM is volatile, hard disk is secondary storage, cache is CPU memory; BIOS/UEFI resides in non-volatile ROM/flash memory. The trap is picking hard disk because the OS loads from there, so the answer is ROM.
+Source: NCERT Class 11 Computer Science
+
+146. Which of the following is a valid IPv4 address?
+(a) 10.0.0.1 (b) 192.168.1.256 (c) 256.1.1.1 (d) 172.16.300.5
+Answer: (a)
+Solution: Each octet must be 0–255; 256 and 300 are invalid. The trap is overlooking the octet limit in the first option, so the answer is 10.0.0.1.
+Source: TCP/IP Networking fundamentals
+
+147. In Windows, the feature that creates restore points to revert system changes is called:
+(a) System Restore (b) Backup and Restore (c) File History (d) Reset this PC
+Answer: (a)
+Solution: Backup and Restore copies files, File History versions user files, Reset reinstalls Windows; System Restore snapshots system state. The trap is confusing it with Backup because both recover data, so the answer is System Restore.
+Source: Microsoft Windows Recovery documentation
+
+148. The algorithm that prevents deadlock by ensuring that at least one of the four necessary conditions cannot hold is:
+(a) Deadlock avoidance (b) Deadlock ignorance (c) Deadlock detection (d) Deadlock prevention
+Answer: (d)
+Solution: Avoidance uses safe-state checks, detection finds existing deadlocks, ignorance (ostrich algorithm) ignores the problem; prevention structurally negates a condition. The trap is selecting avoidance because both sound proactive, so the answer is Deadlock prevention.
+Source: NCERT Class 12 Computer Science
+
+149. Which of the following is a characteristic of a real-time operating system (RTOS)?
+(a) Deterministic response time (b) High throughput (c) Best-effort scheduling (d) Large memory footprint
+Answer: (a)
+Solution: General-purpose OSs aim for throughput and best-effort; RTOS guarantees tasks complete within strict deadlines. The trap is picking high throughput as a performance metric, so the answer is Deterministic response time.
+Source: Embedded Systems textbooks
+
+150. In Linux, the command to display the current directory path is:
+(a) ls (b) pwd (c) cd (d) dir
+Answer: (b)
+Solution: ls lists files, cd changes directory, dir is a Windows alias; pwd prints the working directory. The trap is choosing ls because it is the most used command, so the answer is pwd.
+Source: Linux man pages – pwd(1)

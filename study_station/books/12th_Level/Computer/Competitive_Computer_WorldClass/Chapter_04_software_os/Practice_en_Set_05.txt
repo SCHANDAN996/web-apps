@@ -1,0 +1,149 @@
+101. Which of the following is an example of system software?
+(a) Windows 10 (b) Microsoft Word (c) Adobe Photoshop (d) Google Chrome
+Answer: (a)
+Solution: Application software like Word, Photoshop, and Chrome run on top of the operating system; Windows 10 is the operating system itself, which is system software, so the answer is Windows 10.
+Source: NCERT Class 11 Computer Science
+
+102. The primary function of an operating system is to:
+(a) Manage hardware resources (b) Create documents (c) Browse the internet (d) Edit images
+Answer: (a)
+Solution: An OS acts as an intermediary between users and hardware, managing CPU, memory, and I/O devices; document creation, browsing, and image editing are application tasks, so the answer is Manage hardware resources.
+Source: NCERT Class 11 Computer Science
+
+103. Which component of the OS handles process scheduling and memory allocation?
+(a) Shell (b) Compiler (c) Kernel (d) Device driver
+Answer: (c)
+Solution: The kernel is the core part that directly controls hardware and scheduling; the shell is the user interface, a compiler translates code, and device drivers manage specific hardware, so the answer is Kernel.
+Source: NCERT Class 11 Computer Science
+
+104. In Windows, which file system is the default for modern installations?
+(a) FAT16 (b) FAT32 (c) ext4 (d) NTFS
+Answer: (d)
+Solution: FAT16 and FAT32 are older file systems with size limits; ext4 is used in Linux; NTFS supports large volumes, permissions, and encryption and is the default for Windows, so the answer is NTFS.
+Source: Microsoft Learn documentation
+
+105. What does GUI stand for in the context of operating systems?
+(a) General User Interface (b) Graphical User Interface (c) Global Utility Interface (d) Guided User Interaction
+Answer: (b)
+Solution: GUI uses windows, icons, and menus for interaction; the other expansions are not standard terms, so the answer is Graphical User Interface.
+Source: NCERT Class 11 Computer Science
+
+106. Which of the following is NOT a function of the operating system?
+(a) Virus scanning (b) File management (c) Memory management (d) Process management
+Answer: (a)
+Solution: Memory, file, and process management are core OS functions; virus scanning is performed by antivirus application software, so the answer is Virus scanning.
+Source: NCERT Class 11 Computer Science
+
+107. The shortcut key to open Task Manager directly in Windows is:
+(a) Ctrl + Alt + Del (b) Win + R (c) Alt + Tab (d) Ctrl + Shift + Esc
+Answer: (d)
+Solution: Ctrl+Alt+Del opens a security screen; Alt+Tab switches windows; Win+R opens Run; Ctrl+Shift+Esc launches Task Manager immediately, so the answer is Ctrl + Shift + Esc.
+Source: Microsoft Support
+
+108. Which type of software is distributed free of charge but retains copyright and prohibits modification?
+(a) Open source (b) Shareware (c) Freeware (d) Public domain
+Answer: (c)
+Solution: Open source allows modification; shareware is trialware; public domain has no copyright; freeware is free to use but copyrighted and usually closed-source, so the answer is Freeware.
+Source: NCERT Class 11 Computer Science
+
+109. The process of loading the operating system into memory when the computer starts is called:
+(a) Compiling (b) Booting (c) Installing (d) Formatting
+Answer: (b)
+Solution: Compiling translates source code; installing copies files to disk; formatting prepares a disk; booting is the startup sequence that loads the OS kernel, so the answer is Booting.
+Source: NCERT Class 11 Computer Science
+
+110. Which of the following is a multi-user, multi-tasking operating system?
+(a) MS-DOS (b) Windows 95 (c) Windows 3.1 (d) Linux
+Answer: (d)
+Solution: MS-DOS is single-user single-task; Windows 95 and 3.1 are primarily single-user; Linux supports multiple simultaneous users and tasks, so the answer is Linux.
+Source: NCERT Class 11 Computer Science
+
+111. In Windows, the virtual memory uses space on the:
+(a) RAM (b) CPU cache (c) ROM (d) Hard disk
+Answer: (d)
+Solution: Virtual memory extends RAM by using a page file on the hard disk; RAM is physical memory, CPU cache is faster memory, ROM is read-only, so the answer is Hard disk.
+Source: Microsoft Learn documentation
+
+112. Which file extension indicates a Windows executable program?
+(a) .exe (b) .txt (c) .dll (d) .sys
+Answer: (a)
+Solution: .txt is text; .dll is a dynamic link library; .sys is a system driver; .exe files are executable programs, so the answer is .exe.
+Source: Microsoft Support
+
+113. The Recycle Bin in Windows is used to:
+(a) Permanently delete files (b) Encrypt files (c) Compress files (d) Store deleted files temporarily
+Answer: (d)
+Solution: Files moved to Recycle Bin can be restored; permanent deletion bypasses it; compression and encryption are separate features, so the answer is Store deleted files temporarily.
+Source: Microsoft Support
+
+114. Which of the following is an example of utility software?
+(a) Windows Explorer (b) Disk Defragmenter (c) Microsoft Excel (d) Paint
+Answer: (b)
+Solution: Windows Explorer is a file manager (part of OS); Excel and Paint are applications; Disk Defragmenter is a maintenance utility, so the answer is Disk Defragmenter.
+Source: NCERT Class 11 Computer Science
+
+115. The term "kernel panic" is associated with which operating system family?
+(a) Linux/Unix (b) Windows (c) macOS only (d) MS-DOS
+Answer: (a)
+Solution: Windows shows BSOD (Blue Screen of Death); macOS has kernel panic too but the term originates from Unix/Linux; MS-DOS has no kernel panic concept, so the answer is Linux/Unix.
+Source: NCERT Class 11 Computer Science
+
+116. Which command in Windows Command Prompt displays the directory structure graphically?
+(a) dir (b) tree (c) cd (d) mkdir
+Answer: (b)
+Solution: dir lists files; cd changes directory; mkdir creates directory; tree shows folder hierarchy graphically, so the answer is tree.
+Source: Microsoft Learn documentation
+
+117. What is the full form of API in the context of operating systems?
+(a) Advanced Program Installation (b) Application Programming Interface (c) Automated Process Integration (d) Application Process Instruction
+Answer: (b)
+Solution: API defines how applications request services from the OS; the other expansions are not standard, so the answer is Application Programming Interface.
+Source: NCERT Class 11 Computer Science
+
+118. Which of the following is a characteristic of real-time operating systems (RTOS)?
+(a) Batch processing (b) Time-sharing (c) Deterministic response time (d) High latency tolerance
+Answer: (c)
+Solution: Batch and time-sharing are for general-purpose OS; RTOS guarantees response within strict deadlines, so the answer is Deterministic response time.
+Source: NCERT Class 11 Computer Science
+
+119. In Windows, the file attribute "Hidden" means:
+(a) The file is encrypted (b) The file is compressed (c) The file is not shown in normal directory listing (d) The file is read-only
+Answer: (c)
+Solution: Hidden files are excluded from normal dir or Explorer view unless settings changed; encryption, compression, and read-only are separate attributes, so the answer is The file is not shown in normal directory listing.
+Source: Microsoft Support
+
+120. Which of the following is NOT a valid Windows file system?
+(a) NTFS (b) ZFS (c) exFAT (d) FAT32
+Answer: (b)
+Solution: NTFS, FAT32, and exFAT are Microsoft file systems; ZFS is from Sun/Oracle used in Solaris/FreeBSD/Linux, not native to Windows, so the answer is ZFS.
+Source: Microsoft Learn documentation
+
+121. The Windows Registry is a hierarchical database that stores:
+(a) User documents (b) Temporary internet files (c) System and application configuration settings (d) Installed program executables
+Answer: (c)
+Solution: Documents are in user folders; temp files in Temp; executables in Program Files; the Registry holds configuration keys and values for OS and apps, so the answer is System and application configuration settings.
+Source: Microsoft Learn documentation
+
+122. Which scheduling algorithm is used by default in Windows for thread scheduling?
+(a) First-Come-First-Served (b) Round Robin (c) Shortest Job First (d) Priority-based preemptive
+Answer: (d)
+Solution: Windows uses a priority-based preemptive scheduler with dynamic priority adjustment; FCFS, RR, and SJF are textbook algorithms not used as default in Windows, so the answer is Priority-based preemptive.
+Source: Microsoft Learn documentation
+
+123. In Linux, the command to change file permissions is:
+(a) chmod (b) chown (c) chgrp (d) chattr
+Answer: (a)
+Solution: chown changes owner; chgrp changes group; chattr changes attributes; chmod changes read/write/execute permissions, so the answer is chmod.
+Source: NCERT Class 11 Computer Science
+
+124. The concept of "virtual memory" allows a process to use:
+(a) CPU registers as memory (b) Only physical RAM (c) More memory than physically installed RAM (d) ROM as RAM
+Answer: (c)
+Solution: Virtual memory uses disk space to extend address space beyond physical RAM; it does not limit to RAM, use registers, or use ROM, so the answer is More memory than physically installed RAM.
+Source: NCERT Class 11 Computer Science
+
+125. Which of the following statements about device drivers is correct?
+(a) They allow the OS to communicate with hardware devices (b) They run in user mode only (c) They are part of application software (d) They are written in HTML
+Answer: (a)
+Solution: Drivers are system software, run in kernel mode, and are written in C/C++; their purpose is to translate OS calls to hardware-specific commands, so the answer is They allow the OS to communicate with hardware devices.
+Source: NCERT Class 11 Computer Science

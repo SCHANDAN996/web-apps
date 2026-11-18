@@ -1,0 +1,149 @@
+26. Which of the following is an example of system software?
+(a) Microsoft Word (b) Google Chrome (c) Adobe Photoshop (d) Windows 10
+Answer: (d)
+Solution: Application software like Word, Photoshop, and Chrome run on top of the operating system; they are not system software. Windows 10 is the operating system itself, which manages hardware and provides a platform for applications, so the answer is Windows 10.
+Source: NCERT Class 11 Computer Science
+
+27. The primary function of an operating system is to:
+(a) Manage hardware resources (b) Create documents (c) Browse the internet (d) Edit images
+Answer: (a)
+Solution: Creating documents, browsing, and editing images are tasks performed by application software. The OS acts as an intermediary between applications and hardware, managing CPU, memory, storage, and I/O devices, so the answer is Manage hardware resources.
+Source: NCERT Class 11 Computer Science
+
+28. Which file system is the default for modern Windows installations?
+(a) FAT16 (b) FAT32 (c) NTFS (d) ext4
+Answer: (c)
+Solution: FAT16 and FAT32 are older file systems with size and security limitations; ext4 is used in Linux. NTFS (New Technology File System) supports large volumes, file permissions, encryption, and is the default for Windows since Windows NT, so the answer is NTFS.
+Source: Microsoft Learn - File Systems
+
+29. Virtual memory allows a computer to:
+(a) Increase physical RAM (b) Compress files automatically (c) Speed up the CPU (d) Use hard disk space as temporary RAM
+Answer: (d)
+Solution: Virtual memory does not add physical RAM or speed up the CPU; it uses a portion of the hard disk (page file) to extend available memory when RAM is full, so the answer is Use hard disk space as temporary RAM.
+Source: Microsoft Learn - Memory Management
+
+30. The process of loading the operating system into memory when the computer starts is called:
+(a) Compiling (b) Booting (c) Formatting (d) Partitioning
+Answer: (b)
+Solution: Compiling translates source code; formatting prepares a disk; partitioning divides a disk. Booting is the specific term for the startup sequence that loads the OS kernel into memory, so the answer is Booting.
+Source: NCERT Class 11 Computer Science
+
+31. Which component of the OS manages the allocation of CPU time to processes?
+(a) Memory Manager (b) File Manager (c) Process Scheduler (d) Device Driver
+Answer: (c)
+Solution: Memory Manager handles RAM; File Manager handles storage; Device Drivers communicate with hardware. The Process Scheduler (part of the kernel) decides which process runs on the CPU and for how long, so the answer is Process Scheduler.
+Source: NCERT Class 11 Computer Science
+
+32. A device driver is:
+(a) An application for editing drivers (b) A type of antivirus (c) A program that lets the OS communicate with hardware (d) A utility to clean the registry
+Answer: (c)
+Solution: Drivers are not editing tools, antivirus, or registry cleaners. They are specialized programs that translate OS commands into device-specific instructions, enabling the OS to control printers, graphics cards, etc., so the answer is A program that lets the OS communicate with hardware.
+Source: Microsoft Learn - Device Drivers
+
+33. Which of the following is a utility software?
+(a) MS Excel (b) Paint (c) Windows Media Player (d) Disk Cleanup
+Answer: (d)
+Solution: Excel, Media Player, and Paint are application programs for user tasks. Disk Cleanup is a system utility designed to maintain and optimize the OS by removing temporary files, so the answer is Disk Cleanup.
+Source: Microsoft Support - Disk Cleanup
+
+34. Open-source software is characterized by:
+(a) Free of cost only (b) No license required (c) Source code available for modification (d) Developed by Microsoft only
+Answer: (c)
+Solution: "Free of cost" confuses open-source with freeware; many open-source licenses exist; Microsoft develops proprietary software. The defining feature is that the source code is publicly accessible and can be modified under the license terms, so the answer is Source code available for modification.
+Source: Open Source Initiative Definition
+
+35. The kernel is:
+(a) The outermost layer of the OS (b) The core part of the OS that manages resources (c) A user interface (d) A type of shell
+Answer: (b)
+Solution: The kernel is not the outer layer, a UI, or a shell (which is a user interface to the kernel). It is the central module that stays resident in memory and directly controls hardware, scheduling, and memory, so the answer is The core part of the OS that manages resources.
+Source: NCERT Class 11 Computer Science
+
+36. In Windows, the shortcut Ctrl + Shift + Esc opens:
+(a) File Explorer (b) Task Manager (c) Control Panel (d) Run dialog
+Answer: (b)
+Solution: Ctrl+Shift+Esc is the direct Windows shortcut for Task Manager. Win+E opens File Explorer; Win+R opens Run; Control Panel has no default three-key shortcut, so the answer is Task Manager.
+Source: Microsoft Support - Keyboard Shortcuts in Windows
+
+37. The Windows Registry is:
+(a) A hierarchical database storing configuration settings (b) A log of user logins (c) A backup utility (d) A firewall log
+Answer: (a)
+Solution: It is not a login log, backup tool, or firewall log. The Registry stores low-level settings for the OS, hardware, installed applications, and user preferences in a tree structure of keys and values, so the answer is A hierarchical database storing configuration settings.
+Source: Microsoft Learn - Windows Registry
+
+38. Safe Mode in Windows starts the OS with:
+(a) Only essential drivers and services (b) All drivers and services (c) No drivers at all (d) Only network drivers
+Answer: (a)
+Solution: Safe Mode loads a minimal set of drivers and services (no third-party startup programs) to troubleshoot problems. It does not load all drivers, nor does it run without any drivers, so the answer is Only essential drivers and services.
+Source: Microsoft Support - Start your PC in safe mode
+
+39. User Account Control (UAC) in Windows helps prevent:
+(a) Hardware failures (b) Virus infections completely (c) Network intrusions (d) Unauthorized changes to the system
+Answer: (d)
+Solution: UAC does not guarantee virus protection, stop network attacks, or prevent hardware faults. It prompts for administrator consent when a program tries to make system-level changes, reducing unauthorized modifications, so the answer is Unauthorized changes to the system.
+Source: Microsoft Learn - User Account Control
+
+40. The command `ipconfig` in Command Prompt displays:
+(a) Disk partitions (b) IP configuration details (c) Running processes (d) System information
+Answer: (b)
+Solution: `ipconfig` shows TCP/IP network configuration (IP address, subnet mask, gateway). `diskpart` or `list volume` shows partitions; `tasklist` shows processes; `systeminfo` shows system details, so the answer is IP configuration details.
+Source: Microsoft Learn - ipconfig
+
+41. Which Windows tool is used to check and repair file system errors on a disk?
+(a) Disk Cleanup (b) CHKDSK (c) Defragmenter (d) Resource Monitor
+Answer: (b)
+Solution: Disk Cleanup removes temporary files; Defragmenter reorganizes file fragments; Resource Monitor shows real-time usage. CHKDSK (Check Disk) scans the file system for logical and physical errors and attempts repair, so the answer is CHKDSK.
+Source: Microsoft Support - CHKDSK
+
+42. The paging file (pagefile.sys) is used for:
+(a) Virtual memory management (b) Storing user documents (c) Boot configuration (d) Driver storage
+Answer: (a)
+Solution: It does not store user files, boot data, or drivers. The paging file is the on-disk backing store for virtual memory, holding pages evicted from physical RAM, so the answer is Virtual memory management.
+Source: Microsoft Learn - Paging File
+
+43. In Windows 10/11, the Settings app replaces most functions of:
+(a) Control Panel (b) Task Manager (c) File Explorer (d) Registry Editor
+Answer: (a)
+Solution: Settings does not replace Task Manager, File Explorer, or Registry Editor. It is the modern, touch-friendly interface that supersedes the legacy Control Panel for most system configuration tasks, so the answer is Control Panel.
+Source: Microsoft Support - Windows Settings
+
+44. BitLocker is a Windows feature that provides:
+(a) Full-disk encryption (b) File compression (c) Network sharing (d) Backup scheduling
+Answer: (a)
+Solution: BitLocker does not compress files, manage sharing, or schedule backups. It encrypts entire volumes (full-disk encryption) to protect data at rest using AES encryption, so the answer is Full-disk encryption.
+Source: Microsoft Learn - BitLocker
+
+45. The Windows shortcut Win + L performs which action?
+(a) Minimizes all windows (b) Opens File Explorer (c) Locks the computer (d) Opens Settings
+Answer: (c)
+Solution: Win+E opens File Explorer; Win+D minimizes all windows; Win+I opens Settings. Win+L immediately locks the session and shows the sign-in screen, a security best practice when stepping away, so the answer is Locks the computer.
+Source: Microsoft Support - Keyboard Shortcuts in Windows
+
+46. Which of the following is NOT a valid Windows power plan by default?
+(a) Maximum performance (b) Power saver (c) High performance (d) Balanced
+Answer: (a)
+Solution: Balanced, Power saver, and High performance are the three built-in plans. "Maximum performance" is not a default plan name (though Ultimate Performance exists as a hidden plan in some editions), so the answer is Maximum performance.
+Source: Microsoft Support - Power Plans
+
+47. The System Configuration tool (msconfig) is primarily used to:
+(a) Edit the registry directly (b) Manage startup programs and boot options (c) Format hard drives (d) Install Windows updates
+Answer: (b)
+Solution: Msconfig does not edit the registry directly, format drives, or install updates. It controls which services and startup items load, and configures boot parameters like Safe Mode, so the answer is Manage startup programs and boot options.
+Source: Microsoft Support - System Configuration
+
+48. Windows Defender (Microsoft Defender Antivirus) is classified as:
+(a) A firewall only (b) A third-party antivirus (c) Built-in antimalware protection (d) A backup utility
+Answer: (c)
+Solution: It is not just a firewall, not third-party, and not a backup tool. It is the integrated, real-time antimalware component of Windows Security that scans for viruses, spyware, and other threats, so the answer is Built-in antimalware protection.
+Source: Microsoft Learn - Microsoft Defender Antivirus
+
+49. The `sfc /scannow` command in an elevated Command Prompt:
+(a) Cleans temporary files (b) Checks disk for bad sectors (c) Defragments the hard drive (d) Scans and repairs protected system files
+Answer: (d)
+Solution: `sfc` (System File Checker) does not clean temp files, defragment, or check bad sectors (that's CHKDSK). It verifies the integrity of Windows protected system files and replaces corrupted versions with cached copies, so the answer is Scans and repairs protected system files.
+Source: Microsoft Support - System File Checker
+
+50. Which statement about Windows Update is correct?
+(a) It only updates Microsoft Office (b) It requires a paid subscription (c) It cannot be paused (d) It delivers security patches, driver updates, and feature updates for Windows
+Answer: (d)
+Solution: Windows Update covers the OS, drivers, and features — not just Office. It can be paused for up to 35 days (in Pro/Enterprise) and is free for licensed Windows. It provides cumulative security patches, driver updates, and semi-annual feature updates, so the answer is It delivers security patches, driver updates, and feature updates for Windows.
+Source: Microsoft Learn - Windows Update

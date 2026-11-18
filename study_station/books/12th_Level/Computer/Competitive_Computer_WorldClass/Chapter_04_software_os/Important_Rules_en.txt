@@ -1,0 +1,76 @@
+**Important Rules — Software and Operating Systems**
+
+**Rule 1 — Software is classified by purpose, not by size.**  
+System software manages hardware and provides a platform for applications (e.g., Windows, Linux, device drivers). Application software performs user tasks (e.g., MS Word, Tally, Chrome). Utility software maintains the system (e.g., Disk Cleanup, antivirus).  
+*Example:* Windows 10 is system software; MS Excel is application software; WinRAR is utility software.  
+*Exception:* Some tools blur lines — e.g., Windows Defender is both a system component and a utility.
+
+**Rule 2 — An Operating System (OS) performs four core functions.**  
+Process management (scheduling, synchronization), Memory management (allocation, virtual memory), File system management (naming, permissions, storage), Device management (drivers, I/O control).  
+*Example:* When you print a document, the OS spools the job, allocates memory for the driver, writes to the print queue, and signals the printer port.  
+*Exception:* Real-time OS (RTOS) prioritises deterministic response over throughput — used in embedded systems, not general-purpose PCs.
+
+**Rule 3 — Windows uses NTFS as the default file system since Windows NT 3.1.**  
+NTFS supports permissions (ACLs), encryption (EFS), compression, quotas, journaling, and large volumes (> 2 TB). FAT32 (legacy) lacks permissions and caps files at 4 GB. exFAT removes the 4 GB limit but has no journaling or ACLs — suited for flash drives.  
+*Example:* A 6 GB ISO cannot be copied to a FAT32 USB; format it exFAT or NTFS.  
+*Exception:* UEFI boot requires FAT32 on the EFI System Partition (ESP).
+
+**Rule 4 — Virtual memory extends RAM using disk space (pagefile.sys).**  
+When physical RAM is full, the OS moves least-used pages to the page file. Excessive paging (thrashing) degrades performance. The sum of RAM and page file defines the system commit limit (total committable virtual memory), not the per-process virtual address space (which is 8 TB or more on 64-bit Windows).  
+*Example:* With 8 GB RAM and 12 GB page file, the system commit limit is 20 GB.  
+*Exception:* SSDs reduce paging latency, but frequent writes still wear cells; do not disable page file entirely — some crash dumps and legacy apps require it.
+
+**Rule 5 — User Account Control (UAC) enforces least privilege.**  
+Standard users run with a filtered token; administrators run with a filtered token until elevation is approved. This limits malware impact.  
+*Example:* Installing a driver triggers a UAC prompt; editing a text file in Documents does not.  
+*Exception:* Disabling UAC (via slider or registry) removes this protection — not recommended for exam or production environments.
+
+**Rule 6 — Windows Services run in the background without user logon.**  
+Services have startup types: Automatic, Automatic (Delayed), Manual, Disabled. Critical OS components (e.g., `wuauserv` for Windows Update, `spooler` for printing) run as services.  
+*Example:* `services.msc` → Print Spooler → Restart clears stuck print jobs.  
+*Exception:* Changing a service to Disabled may break dependent features; always check Dependencies tab first.
+
+**Rule 7 — The Registry is a hierarchical database for configuration.**  
+Hives: `HKLM` (machine-wide), `HKCU` (current user), `HKCR` (file associations), `HKU` (all users), `HKCC` (current hardware profile). Keys contain values (String, DWORD, Binary, etc.).  
+*Example:* `HKCU\Software\Microsoft\Windows\CurrentVersion\Run` holds per-user startup programs.  
+*Exception:* Editing the Registry incorrectly can prevent boot; always export the key before changes.
+
+**Rule 8 — File and folder permissions (NTFS) combine Allow and Deny entries.**  
+Effective permission = cumulative Allow minus any Deny. Explicit Deny overrides inherited Allow. Ownership (`Take Ownership`) allows resetting permissions.  
+*Example:* A user in Group A (Allow Read) and Group B (Deny Write) → Effective: Read only.  
+*Exception:* `SYSTEM` and `Administrators` usually have Full Control; removing them can lock out recovery.
+
+**Rule 9 — Common Windows keyboard shortcuts (OS scope, not browser).**  
+`Win + E` → File Explorer; `Win + D` → Show Desktop; `Win + L` → Lock; `Win + R` → Run dialog; `Win + I` → Settings; `Win + X` → Quick Link menu; `Alt + Tab` → Switch apps; `Ctrl + Shift + Esc` → Task Manager; `Win + Pause` → System properties.  
+*Distinction:* `Ctrl + T` (new tab) and `Ctrl + W` (close tab) are browser shortcuts, not OS shortcuts.
+
+**Rule 10 — Microsoft Office shortcuts (application scope).**  
+Word: `Ctrl + S` Save, `Ctrl + P` Print, `Ctrl + K` Insert Hyperlink, `Shift + F3` Change Case.  
+Excel: `Ctrl + ;` Current date, `Ctrl + Shift + :` Current time, `F2` Edit cell, `Alt + =` AutoSum, `Ctrl + Arrow` Jump to data edge.  
+PowerPoint: `F5` Start Slide Show, `Shift + F5` Start from current slide, `B`/`W` Black/White screen during show.  
+*Exception:* Shortcuts may differ in localized ribbon layouts; `Alt` key tips always reveal current mappings.
+
+**Rule 11 — Boot process: UEFI + GPT replaces legacy BIOS + MBR.**  
+UEFI firmware reads `\EFI\Microsoft\Boot\bootmgfw.efi` from the ESP (FAT32). Windows Boot Manager loads `winload.efi`, which starts the kernel (`ntoskrnl.exe`). Secure Boot validates signatures.  
+*Example:* Dual-boot Linux requires disabling Secure Boot or enrolling a Machine Owner Key (MOK).  
+*Exception:* CSM (Compatibility Support Module) allows legacy boot but disables Secure Boot benefits.
+
+**Rule 12 — Windows Update channels control feature delivery.**  
+Semi-Annual Channel (SAC) — feature updates twice a year (Home/Pro). Long-Term Servicing Channel (LTSC) — security updates only, no feature updates, 5+ year support (Enterprise LTSC). Windows Insider: Dev, Beta, Release Preview rings.  
+*Example:* LTSC 2021 (21H2) receives security updates only; mainstream support until 2026, extended support until 2031.  
+*Exception:* SAC releases reach end-of-servicing 18 months after release; upgrade before then to stay supported.
+
+**Rule 13 — BitLocker encrypts volumes using AES (128/256-bit) with TPM 2.0.**  
+TPM seals the encryption key to platform integrity (PCR measurements). Without TPM, a USB startup key or password is required. BitLocker To Go encrypts removable drives.  
+*Example:* `manage-bde -on C: -RecoveryPassword` enables BitLocker and generates a recovery key.  
+*Exception:* BitLocker is unavailable on Windows Home edition; use device encryption (modern standby hardware only) or third-party tools.
+
+**Rule 14 — Windows Defender (Microsoft Defender Antivirus) provides real-time, cloud-delivered, and tamper protection.**  
+Real-time scans files on access; Cloud-delivered protection submits metadata for rapid verdicts; Tamper Protection prevents unauthorised changes to security settings via PowerShell/Registry.  
+*Example:* `Windows Security → Virus & threat protection → Manage settings` shows all toggles.  
+*Exception:* Installing a third-party AV disables Defender's real-time engine automatically; Defender resumes if the third-party AV is uninstalled.
+
+**Rule 15 — CERT-In advisories and RBI guidelines mandate baseline cyber hygiene for government/banking exams.**  
+Key practices: Apply OS/security patches within 30 days (RBI guideline for banks), enable MFA for admin accounts, restrict RDP (port 3389) to VPN/bastion, use LAPS for local admin passwords, audit event logs (Security, System), and maintain offline backups.  
+*Example:* RBI circular on "Cyber Security Framework in Banks" requires privileged access management and SIEM log retention ≥ 5 years.  
+*Exception:* Specific version mandates (e.g., "Windows 10 22H2") are not static — always refer to the latest CERT-In vulnerability notes.

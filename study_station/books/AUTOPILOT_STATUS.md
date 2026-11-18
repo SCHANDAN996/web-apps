@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 01:15 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 09:08 PM
+**आख़िरी update:** 19-11-2026 01:22 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 09:08 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,13 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 9 मिनट |
-| W2 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 20 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 182 मिनट |
-| W4 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 14 मिनट |
+| W1 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 15 मिनट |
+| W2 | Chapter 04 software os (12th Computer) | 📤 push हो रहा है | 0 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 161 |
-| key 4 | 142 |
+| key 3 | 167 |
+| key 4 | 147 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -42,7 +40,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 19-11 01:22 — 12th Computer · Chapter 04 software os
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
@@ -51,27 +49,13 @@
 - Chapter 03 sangya sarvanam (Hindi) — 3 बार
 - Chapter 01 varn vartani (Hindi) — 3 बार
 - Chapter 05 ling vachan karak (Hindi) — 3 बार
-- Chapter 06 kaal vachya (Hindi) — 2 बार
+- Chapter 06 kaal vachya (Hindi) — 3 बार
 - Chapter 06 keyboard shortcuts (Computer) — 1 बार
+- Chapter 07 sandhi (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 00:40:59   [visheshan_kriya] written 0, failed 1; AI calls today 43/100000
-19-11 00:40:59 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 19 min: todo [] problems []
-19-11 00:41:00 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
-19-11 00:42:31   [varn_vartani] review Flashcards_hi.txt: 3 issue(s): - Card 1: "मानक हिंदी वर्णमाला में 11 स्वर और 33 व्यंजन = 44 वर्ण" गलत है; भारत सरकार के मानक (केन्द्रीय हिंदी न
-19-11 00:44:20   [sandhi] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q101 key d vs re-solve b, Q103 key c vs re-solve a, Q105 key a vs re-solve d, Q107 key b vs re-solve
-19-11 00:45:50   [varn_vartani] review Important_Rules_hi.txt: 7 issue(s): - Rule 1: "३४ व्यंजन" is incorrect; the list shows 33 consonants and standard Hindi has 33 (or 35 with ड़, 
-19-11 00:47:55   [sangya_sarvanam] review Key_Facts_hi.txt: 2 issue(s): - In point 6, the example "लड़कोंने खेला" is given for the rule that "ने" is used with transitive verbs (सकर्मक क
-19-11 00:50:36   [sangya_sarvanam] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - बिंदु 4 में व्यंजनांत संज्ञाओं के बहुवचन का नियम और उदाहरण गलत हैं: "फल → फल/फलें, घर →
-19-11 00:51:45   [sangya_sarvanam] review PYQ_hi.txt: 2 issue(s): - Section 3, "पुरुष भ्रम" जाल में "यहाँ/वहाँ" को सर्वनाम (अन्य पुरुष) बताया गया है → "यहाँ/वहाँ" क्रियाविशेषण (अव्यय) ह
-19-11 00:53:09   [sandhi] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q105 key c vs re-solve d, Q107 key b vs re-solve d, Q112 key d vs re-solve a, Q122 key d vs re-solve
-19-11 00:53:09   [sandhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
-19-11 00:53:55   [sandhi] Practice_hi_Set_06.txt try 1: rejected (Q132:duplicate_options,Q140:duplicate_options,Q144:duplicate_options,Q148:duplicate_options,Q150:duplicate_opt
-19-11 00:54:07   [ling_vachan_karak] review PYQ_hi.txt: 6 issue(s): - Invented exam statistic "SSC GD में इस अध्याय से 3–5 प्रश्न आते हैं" without year or official source → remove or cite
-19-11 00:55:25   [varn_vartani] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - The claim that the Hindi alphabet has 33 consonants (44 basic characters total) i
-19-11 00:55:25   [varn_vartani] review: 2 section(s) corrected, 3 failed
 19-11 00:55:25   [varn_vartani] written 2, failed 3; AI calls today 61/100000
 19-11 00:55:25 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 56 min: todo [] problems []
 19-11 00:55:26 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os (OK: todo 0, problems 0)
@@ -97,4 +81,19 @@
 19-11 01:12:30   [kaal_vachya] review PYQ_hi.txt: 2 issue(s): - In section 2.1 rule 2, the passive formation rule is written as “क्रिया → *जा/ई/ए* + मूल क्रिया का भूतकालिक कृदंत” wh
 19-11 01:14:29   [kaal_vachya] REJECTED review fix PYQ_hi.txt: reviewer still reports - Checklist point 4 states 'काल परिवर्तन में → केवल सहायक क्रिया बदलें, मूल क्रिया का कृदंत वही
 19-11 01:15:12   [kaal_vachya] review Important_Rules_hi.txt: 3 issue(s): - Rule 2 exception incorrectly claims that “होना”, “रहना”, “जाना” lack continuous forms and gives a garbled
+19-11 01:17:05   [keyboard_shortcuts] review Content_hi.txt: 1 issue(s): - Win + A का कार्य "त्वरित कार्रवाई केंद्र (Action Center) खोलें" Windows 11 के लिए गलत है → Windows 11 में Win + A
+19-11 01:17:11   [sandhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q129 key b vs re-solve a, Q130 key c vs re-solve d, Q131 key c vs re-solve b, Q134 key a vs re-solve
+19-11 01:17:11   [sandhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
+19-11 01:17:11   [sandhi] written 0, failed 5; AI calls today 92/100000
+19-11 01:17:11 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi after 184 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo'] problems []
+19-11 01:17:11 worker 2: nothing left
+19-11 01:19:30   [kaal_vachya] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम ८ के उदाहरण में काल असंगति: सकर्मक भूतकाल वाक्य "राम ने पत्र लिखा" का भाव वा
+19-11 01:19:30   [kaal_vachya] review: 0 section(s) corrected, 4 failed
+19-11 01:19:30   [kaal_vachya] written 0, failed 4; AI calls today 94/100000
+19-11 01:19:30 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya after 18 min: todo [] problems []
+19-11 01:19:30 worker 3: nothing left
+19-11 01:20:12   [software_os] review Important_Rules_en.txt: 3 issue(s): - Rule 4 example incorrectly states that 8 GB RAM + 12 GB page file equals 20 GB virtual address space per 
+19-11 01:21:13   [keyboard_shortcuts] review Key_Facts_en.txt: 1 issue(s): - Item 19: Ctrl+Shift+N does not create a new folder on the Desktop background; it works only inside File Explore
+19-11 01:22:02   [software_os] review: 1 section(s) corrected, 0 failed
+19-11 01:22:02   [software_os] written 1, failed 0; AI calls today 100/100000
 ```

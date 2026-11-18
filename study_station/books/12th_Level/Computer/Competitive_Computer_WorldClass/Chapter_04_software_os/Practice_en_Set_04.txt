@@ -1,0 +1,149 @@
+76. What is the primary function of an operating system?
+(a) Compile source code (b) Create user documents (c) Design web pages (d) Manage hardware resources
+Answer: (d)
+Solution: The trap is thinking the OS creates documents; its core role is managing hardware resources, so the correct answer is the first option.
+Source: PYQ-style
+
+77. Which of the following is an example of system software?
+(a) Microsoft Word (b) Adobe Photoshop (c) Windows 10 (d) Google Chrome
+Answer: (c)
+Solution: The trap is confusing application software like Word with system software; the operating system Windows 10 is system software, so the correct answer is the second option.
+Source: PYQ-style
+
+78. In Windows, which shortcut opens the Run dialog?
+(a) Ctrl+R (b) Alt+R (c) Shift+R (d) Win+R
+Answer: (d)
+Solution: The trap is using Ctrl+R which refreshes a browser; the Windows key combination Win+R opens the Run dialog, so the correct answer is the third option.
+Source: PYQ-style
+
+79. What does the term "kernel" refer to in an operating system?
+(a) User interface (b) Core component managing system resources (c) Network driver (d) File explorer
+Answer: (b)
+Solution: The trap is mistaking the kernel for a user‑visible component; the kernel is the core that manages resources, so the correct answer is the fourth option.
+Source: PYQ-style
+
+80. Which file system is the default for Windows 10 and Windows 11?
+(a) NTFS (b) FAT32 (c) ext4 (d) HFS+
+Answer: (a)
+Solution: The trap is selecting the older FAT32; modern Windows uses NTFS as default, so the correct answer is the first option.
+Source: PYQ-style
+
+81. What is the purpose of virtual memory?
+(a) Extend RAM using disk space (b) Increase CPU speed (c) Store permanent files (d) Manage network connections
+Answer: (a)
+Solution: The trap is assuming virtual memory speeds up the CPU; it actually extends RAM by using disk space, so the correct answer is the second option.
+Source: PYQ-style
+
+82. Which of the following is a characteristic of a multi‑user operating system?
+(a) Only one user can log in at a time (b) Multiple users can access the system simultaneously (c) No security features (d) Runs only on mainframes
+Answer: (b)
+Solution: The trap is thinking multi‑user means no security; the defining feature is simultaneous access by multiple users, so the correct answer is the third option.
+Source: PYQ-style
+
+83. In Linux, which command displays the current directory path?
+(a) pwd (b) cd (c) dir (d) ls
+Answer: (a)
+Solution: The trap is using ls which lists files; pwd prints the working directory path, so the correct answer is the fourth option.
+Source: PYQ-style
+
+84. What does the acronym "GUI" stand for?
+(a) Graphical User Interface (b) General User Interface (c) Global Utility Interface (d) General Utility Input
+Answer: (a)
+Solution: The trap is picking a similar‑sounding expansion; the standard term is Graphical User Interface, so the correct answer is the first option.
+Source: PYQ-style
+
+85. Which Windows feature allows you to revert system files to a previous state?
+(a) Disk Cleanup (b) Device Manager (c) Task Manager (d) System Restore
+Answer: (d)
+Solution: The trap is confusing Disk Cleanup which frees space; System Restore reverts system files, so the correct answer is the second option.
+Source: PYQ-style
+
+86. What is the main role of a device driver?
+(a) Manage user accounts (b) Encrypt files (c) Translate OS calls to hardware commands (d) Schedule processes
+Answer: (c)
+Solution: The trap is thinking a driver manages accounts; its job is to translate OS calls into hardware commands, so the correct answer is the third option.
+Source: PYQ-style
+
+87. Which of the following is NOT a type of software license?
+(a) Hardware (b) Open source (c) Freeware (d) Proprietary
+Answer: (a)
+Solution: The trap is selecting a license category; hardware is not a license type, so the correct answer is the fourth option.
+Source: PYQ-style
+
+88. In Windows, which key combination locks the workstation?
+(a) Win+L (b) Ctrl+Alt+Del then Enter (c) Alt+F4 (d) Ctrl+Shift+Esc
+Answer: (a)
+Solution: The trap is using Ctrl+Alt+Del which opens a security screen; Win+L locks the workstation directly, so the correct answer is the first option.
+Source: PYQ-style
+
+89. What does "API" stand for in software development?
+(a) Advanced Program Installation (b) Application Programming Interface (c) Automated Process Integration (d) Application Performance Index
+Answer: (b)
+Solution: The trap is choosing a plausible‑sounding expansion; the correct full form is Application Programming Interface, so the correct answer is the second option.
+Source: PYQ-style
+
+90. Which of the following is a core component of the Windows OS architecture?
+(a) Browser (b) Media Player (c) Kernel (d) Notepad
+Answer: (c)
+Solution: The trap is picking an application like Browser; the kernel is the core architectural component, so the correct answer is the third option.
+Source: PYQ-style
+
+91. What is the purpose of a software patch?
+(a) Add new hardware (b) Increase disk space (c) Change user password (d) Fix bugs or vulnerabilities
+Answer: (d)
+Solution: The trap is thinking a patch adds hardware; its purpose is to fix bugs or vulnerabilities, so the correct answer is the fourth option.
+Source: PYQ-style
+
+92. Which file extension is commonly used for Windows executable files?
+(a) .pdf (b) .txt (c) .exe (d) .jpg
+Answer: (c)
+Solution: The trap is selecting a data file extension; .exe denotes an executable program, so the correct answer is the first option.
+Source: PYQ-style
+
+93. In an operating system, what does process scheduling determine?
+(a) File storage location (b) Network routing (c) Which process gets CPU time (d) User permissions
+Answer: (c)
+Solution: The trap is confusing scheduling with file storage; scheduling decides which process receives CPU time, so the correct answer is the second option.
+Source: PYQ-style
+
+94. Which of the following is a feature of a 64‑bit operating system?
+(a) Supports only 32‑bit applications (b) Can address more than 4 GB of RAM (c) Requires a 32‑bit processor (d) Runs only on older hardware
+Answer: (b)
+Solution: The trap is assuming 64‑bit is limited to 4 GB; a 64‑bit OS can address far more RAM, so the correct answer is the third option.
+Source: PYQ-style
+
+95. What is the function of the Windows Registry?
+(a) Hold system and application configuration settings (b) Manage network connections (c) Run batch scripts (d) Store user documents
+Answer: (a)
+Solution: The trap is thinking the Registry stores documents; it actually holds configuration settings, so the correct answer is the fourth option.
+Source: PYQ-style
+
+96. Which scheduling algorithm assigns the CPU to the process with the smallest next CPU burst?
+(a) Round Robin (b) First‑Come‑First‑Served (c) Shortest Job Next (d) Priority Scheduling
+Answer: (c)
+Solution: The trap is choosing FCFS which is non‑preemptive; Shortest Job Next selects the process with the smallest next burst, so the correct answer is the first option.
+Source: PYQ-style
+
+97. In Linux, which command changes file permissions?
+(a) chown (b) chattr (c) chgrp (d) chmod
+Answer: (d)
+Solution: The trap is using chown which changes ownership; chmod changes permissions, so the correct answer is the second option.
+Source: PYQ-style
+
+98. What is the primary purpose of a hypervisor?
+(a) Manage physical printers (b) Encrypt network traffic (c) Compile source code (d) Create and run virtual machines
+Answer: (d)
+Solution: The trap is thinking a hypervisor manages printers; its main role is to create and run virtual machines, so the correct answer is the third option.
+Source: PYQ-style
+
+99. Which Windows utility displays real‑time performance metrics such as CPU, memory, disk, and network usage?
+(a) Control Panel (b) Task Manager (c) Services (d) Device Manager
+Answer: (b)
+Solution: The trap is selecting Control Panel which is for settings; Task Manager displays live performance data, so the correct answer is the fourth option.
+Source: PYQ-style
+
+100. In the context of OS security, what does "principle of least privilege" mean?
+(a) Users get maximum access for convenience (b) Users receive only the permissions necessary for their tasks (c) All users share a single administrator account (d) Permissions are granted based on seniority
+Answer: (b)
+Solution: The trap is assuming maximum access is the principle; least privilege grants only the minimum needed permissions, so the correct answer is the first option.
+Source: PYQ-style

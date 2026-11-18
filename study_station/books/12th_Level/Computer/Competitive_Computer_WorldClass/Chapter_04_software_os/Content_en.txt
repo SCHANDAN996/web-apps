@@ -1,0 +1,158 @@
+Software and Operating Systems
+
+1. Introduction
+Software is the set of instructions that tells computer hardware what to do. Without software, a computer is just an inert collection of electronic components. For competitive exams (SSC CHSL, CGL, Railway, Banking), you need a clear grasp of software classification, operating system (OS) functions, and the key differences among popular OS families.
+
+2. Classification of Software
+2.1 System Software
+Programs that manage hardware resources and provide a platform for application software.
+- Operating System (OS): Windows, Linux, macOS, Android, iOS.
+- Device Drivers: Translate OS commands into hardware-specific operations (printer driver, graphics driver).
+- Firmware: Low-level code embedded in hardware (BIOS/UEFI, router firmware).
+- Utility Programs: Disk cleanup, antivirus, backup tools, disk defragmenter.
+
+2.2 Application Software
+Programs written for end-users to perform specific tasks.
+- General Purpose: Word processors (MS Word), spreadsheets (MS Excel), presentation (MS PowerPoint), web browsers (Chrome, Firefox, Edge).
+- Specialized: Accounting (Tally), CAD, database management (MS Access, MySQL), ERP, GIS.
+- Mobile Apps: APK (Android), IPA (iOS).
+
+2.3 Programming Software (Development Tools)
+Compilers, interpreters, assemblers, linkers, loaders, IDEs (VS Code, IntelliJ, Eclipse).
+
+3. Operating System — Core Concepts
+3.1 Definition
+An OS is system software that acts as an intermediary between users/applications and computer hardware. It manages CPU, memory, storage, I/O devices, and provides a user interface.
+
+3.2 Main Functions
+- Process Management: Creation, scheduling, synchronization, termination of processes; context switching.
+- Memory Management: Allocation/deallocation, virtual memory, paging, segmentation, page replacement algorithms (FIFO, LRU, Optimal).
+- File System Management: Hierarchical directory structure, naming, access control, metadata (FAT32, NTFS, ext4, APFS).
+- Device Management: I/O scheduling, buffering, spooling, device drivers.
+- Security & Protection: User authentication (password, biometric), access control lists (ACL), encryption (BitLocker, LUKS), audit logs.
+- User Interface: CLI (Command Prompt, PowerShell, Bash), GUI (Desktop Environment — Windows Shell, GNOME, KDE).
+
+3.3 Types of OS
+- Batch OS: Jobs grouped, no user interaction (historical).
+- Time-Sharing / Multitasking OS: Multiple users/programs share CPU time (Windows, Linux, Unix).
+- Real-Time OS (RTOS): Deterministic response time — hard real-time (missed deadline = failure) and soft real-time. Used in embedded systems, defence, robotics.
+- Distributed OS: Multiple computers appear as a single system (Amoeba, Plan 9, Inferno).
+- Network OS: Manages network resources (Novell NetWare — legacy; modern: Windows Server, Linux with Samba/LDAP).
+- Mobile OS: Android (Linux kernel), iOS (XNU kernel), HarmonyOS.
+
+3.4 Kernel Architectures
+- Monolithic: All core services in kernel space (Linux, traditional Unix). Fast, but large.
+- Microkernel: Minimal kernel (IPC, scheduling); drivers, file systems in user space (MINIX, QNX, Windows NT kernel is hybrid).
+- Hybrid: Combines both (Windows NT, macOS XNU).
+
+3.5 Process States & Scheduling
+States: New → Ready → Running → Waiting/Blocked → Terminated.
+Scheduling Algorithms: FCFS, SJF (Shortest Job First), Round Robin (time quantum), Priority, Multilevel Queue.
+
+3.6 Deadlock
+Four necessary conditions (Coffman): Mutual Exclusion, Hold & Wait, No Preemption, Circular Wait.
+Handling: Prevention, Avoidance (Banker's Algorithm), Detection & Recovery, Ostrich (ignore).
+
+4. Windows OS — Essentials for Exams
+- Family: Windows 9x (legacy), NT line (2000, XP, Vista, 7, 8/8.1, 10, 11, Server editions).
+- Registry: Hierarchical database for configuration (HKLM, HKCU, etc.).
+- File Systems: FAT32 (≤4 GB file), NTFS (default, supports permissions, encryption, compression, >4 GB), ReFS (Server).
+- Boot Process: UEFI/BIOS → Bootloader (Windows Boot Manager) → winload.exe → ntoskrnl.exe → Session Manager (smss.exe) → Winlogon → Explorer.
+- Key Tools: Task Manager, Resource Monitor, Event Viewer, Services.msc, msconfig, regedit, PowerShell, CMD.
+- Shortcuts (Windows scope):
+  Win+E (File Explorer), Win+R (Run), Win+D (Show Desktop), Win+L (Lock), Win+I (Settings), Win+X (Quick Link), Alt+Tab (Switch Apps), Ctrl+Shift+Esc (Task Manager), Win+PrtScn (Screenshot to Pictures\Screenshots).
+- Office Shortcuts (Word/Excel/PowerPoint):
+  Ctrl+S (Save), Ctrl+Z (Undo), Ctrl+Y (Redo), Ctrl+C/V/X (Copy/Paste/Cut), Ctrl+A (Select All), Ctrl+F (Find), Ctrl+H (Replace), Ctrl+B/I/U (Bold/Italic/Underline), F4 (Repeat last action), Alt+F4 (Close App).
+- Browser Shortcuts (Chrome/Edge/Firefox — distinct from Windows/Office):
+  Ctrl+T (New Tab), Ctrl+W (Close Tab), Ctrl+Shift+T (Reopen Closed Tab), Ctrl+Tab / Ctrl+Shift+Tab (Next/Prev Tab), Ctrl+L / F6 (Address Bar), Ctrl+D (Bookmark), Ctrl+J (Downloads), Ctrl+H (History), F5 / Ctrl+R (Reload), Ctrl+Shift+Delete (Clear Browsing Data).
+
+5. Linux OS — Essentials for Exams
+- Kernel: Monolithic, modular, GPL v2.
+- Distributions (Distros): Debian/Ubuntu (apt), RHEL/Fedora/CentOS/AlmaLinux (dnf/yum), Arch (pacman), SUSE (zypper).
+- File System Hierarchy (FHS): / (root), /bin, /sbin, /etc (config), /home, /var (logs, spool), /tmp, /usr, /opt, /dev, /proc, /sys.
+- Permissions: rwx for User, Group, Others (chmod, chown, chgrp); special bits: setuid, setgid, sticky bit.
+- Package Management: dpkg/apt, rpm/dnf.
+- Common CLI Commands: ls, cd, pwd, cp, mv, rm, mkdir, rmdir, cat, less, head, tail, grep, find, tar, gzip, df, du, free, top/htop, ps, kill, systemctl, journalctl, ssh, scp, rsync, cron/crontab.
+- Runlevels / Targets: multi-user.target (3), graphical.target (5).
+- Shell: Bash (default), Zsh, Fish. Scripting: #!/bin/bash, variables, loops, conditionals, functions.
+
+6. Mobile Operating Systems
+- Android: Linux kernel, ART runtime, APK packages, Google Play Services, SELinux enforcement, scoped storage (Android 10+), Project Treble (vendor interface).
+- iOS: XNU kernel (Mach + BSD), sandboxed apps, IPA packages, App Store only (sideloading limited), Face ID/Touch ID, iCloud integration.
+- Key Differences: Open vs. closed ecosystem, file system access, default browser engine (Blink vs. WebKit), update model (fragmented vs. uniform).
+
+7. Worked Examples
+
+Example 1: Identify the Software Type
+Question: "A program that translates high-level language code into machine code line by line during execution is called:"
+Options: (a) Compiler (b) Interpreter (c) Assembler (d) Linker
+Solution: An interpreter executes source code line by line without producing a separate executable. A compiler translates the whole program first. An assembler converts assembly language. A linker combines object files.
+Answer: (b) Interpreter
+Source: NCERT Class 11 Computer Science
+
+Example 2: OS Function Matching
+Question: "Which OS function decides which process gets the CPU and for how long?"
+Options: (a) Memory Management (b) Process Scheduling (c) File Management (d) Device Management
+Solution: Process scheduling (part of process management) selects the next process from the ready queue and allocates CPU time. Memory management handles RAM allocation. File management handles storage. Device management handles I/O.
+Answer: (b) Process Scheduling
+Source: Standard OS textbooks (Silberschatz, Galvin, Gagne)
+
+Example 3: Deadlock Conditions
+Question: "A set of processes is deadlocked if each process is waiting for a resource held by another process in the set. Which of the following is NOT a necessary condition for deadlock?"
+Options: (a) Mutual Exclusion (b) Hold and Wait (c) Preemption (d) Circular Wait
+Solution: The four necessary conditions are Mutual Exclusion, Hold & Wait, No Preemption, Circular Wait. "Preemption" (resources can be forcibly taken away) breaks deadlock; its absence (No Preemption) is the condition.
+Answer: (c) Preemption
+Source: Operating System Concepts
+
+Example 4: Windows File System Limits
+Question: "A user tries to copy a 6 GB video file to a USB drive formatted with FAT32. The copy fails. What is the most likely reason?"
+Options: (a) USB drive is write-protected (b) FAT32 maximum file size is 4 GB (c) File is corrupted (d) Insufficient RAM
+Solution: FAT32 supports maximum file size of 4 GB (2^32 - 1 bytes). NTFS and exFAT support larger files. The error is a file-system limitation, not hardware or corruption.
+Answer: (b) FAT32 maximum file size is 4 GB
+Source: Microsoft Learn — FAT32 Specification
+
+Example 5: Linux Permission Calculation
+Question: "A file has permissions -rwxr-xr--. What is its numeric (octal) mode?"
+Options: (a) 754 (b) 755 (c) 744 (d) 644
+Solution: rwx = 4+2+1 = 7 (owner), r-x = 4+0+1 = 5 (group), r-- = 4+0+0 = 4 (others) → 754.
+Answer: (a) 754
+Source: Linux Documentation Project — File Permissions
+
+Example 6: Keyboard Shortcut Scope
+Question: "Which shortcut opens the 'Clear Browsing Data' dialog in Chrome, Edge, and Firefox?"
+Options: (a) Ctrl+Shift+Delete (b) Ctrl+Alt+Delete (c) Win+R (d) Ctrl+H
+Solution: Ctrl+Shift+Delete is the standard browser shortcut for clearing browsing data across major browsers. Ctrl+Alt+Delete is a Windows security screen. Win+R opens Run dialog. Ctrl+H opens History.
+Answer: (a) Ctrl+Shift+Delete
+Source: Browser vendor documentation (Google Chrome Help, Microsoft Edge Help, Mozilla Support)
+
+8. Common Errors & Misconceptions
+1. Confusing Firmware with Software: Firmware is embedded in hardware (BIOS/UEFI, SSD controller); it is not a regular file you install like an application.
+2. Thinking "Windows is a Kernel": Windows NT is the kernel; "Windows" is the full OS product including shell, GUI, utilities, and services.
+3. Assuming Linux has no GUI: Linux kernel is CLI-only; desktop environments (GNOME, KDE, XFCE) provide GUI. Many servers run headless (no GUI).
+4. Mixing up Compiler vs. Interpreter: Compiler produces an executable file; interpreter executes directly. Java uses both (javac → bytecode → JVM interpreter/JIT).
+5. Believing FAT32 supports large files: FAT32 max file size = 4 GB. For >4 GB files, use NTFS (Windows) or exFAT (cross-platform).
+6. Confusing Process vs. Thread: A process has its own memory space; threads within a process share memory. Context switching threads is faster.
+7. Thinking Deadlock = Starvation: Deadlock is circular wait with no progress; starvation is indefinite postponement (low priority never runs). They are different.
+8. Using Windows shortcuts in Browser context: Ctrl+W closes a tab in browser; in Word it closes the document window. Ctrl+T opens new tab in browser; in Word it creates a hanging indent. Always note the application scope.
+9. Assuming Android = Linux Desktop: Android uses Linux kernel but replaces glibc with Bionic, uses ART not standard JVM, and has a completely different userspace (no X11/Wayland, no systemd).
+10. Overlooking Virtual Memory: "RAM full" does not mean system stops; OS uses page file (Windows) or swap partition (Linux) to move inactive pages to disk. Thrashing occurs when excessive paging degrades performance.
+
+9. Quick Revision Points
+- System Software = OS + Drivers + Firmware + Utilities.
+- Application Software = User-oriented programs.
+- OS Kernel: Monolithic (Linux), Hybrid (Windows, macOS), Microkernel (QNX).
+- Process States: New, Ready, Running, Waiting, Terminated.
+- Scheduling: Round Robin (time slice), Priority, SJF.
+- Deadlock: 4 conditions; Banker's Algorithm for avoidance.
+- Windows: NTFS default, Registry, PowerShell, Win+X shortcuts.
+- Linux: FHS, rwx permissions (754), apt/dnf, systemctl, Bash.
+- Mobile: Android (Linux kernel, ART), iOS (XNU, sandbox).
+- Shortcuts: Distinguish Windows (Win+E), Office (Ctrl+S), Browser (Ctrl+Shift+Delete).
+
+10. Practice Pointers for Exams
+- Read the question stem carefully: "Which is NOT…", "Select the correct match…".
+- Eliminate obviously wrong options first (e.g., "Compiler executes line by line" → false).
+- For numeric permission questions, convert each triplet (rwx) to octal digit.
+- For shortcut questions, identify the application context (Windows vs. Office vs. Browser).
+- Do not memorize version-specific features (e.g., "Windows 11 added X") unless explicitly asked; focus on stable concepts.
+- When in doubt, recall the official source: Microsoft Learn for Windows, kernel.org / man pages for Linux, Apple Developer for macOS/iOS, Android Developers for Android.
