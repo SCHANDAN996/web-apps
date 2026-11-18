@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 03:07 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
+**आख़िरी update:** 18-11-2026 03:22 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 220 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 235 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 109 |
-| key 4 | 158 |
+| key 3 | 110 |
+| key 4 | 159 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -54,7 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 14:03:20   [ling_vachan_karak] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 8, Question 4: The sentence "गंगा नदी में बहती है" is grammatically correct (locative
 18-11 14:05:50   [varn_vartani] review Content_hi.txt: 4 issue(s): - हिंदी वर्णमाला में 39 व्यंजन और कुल 52 वर्ण बताना गलत है → मानक हिंदी में 13 स्वर और 33 व्यंजन (कुल 46) होते हैं;
 18-11 14:06:54   [sandhi] Practice_hi_Set_04.txt try 2: rejected (Q99:duplicate_options)
 18-11 14:09:42   [varn_vartani] REJECTED review fix Content_hi.txt: reviewer still reports - In section 3.1 (मात्रा-नियम table), the examples for मात्रा 'इ' and 'उ' incorrectly list 
@@ -94,4 +93,5 @@
 18-11 15:02:06   [kaal_vachya] written 0, failed 5; AI calls today 267/100000
 18-11 15:02:06 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya after 128 min: todo [] problems []
 18-11 15:02:06 worker 2: nothing left
+18-11 15:08:32   [sandhi] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q104 key a vs re-solve d, Q106 key d vs re-solve a, Q108 key d vs re-solve ?, Q109 key d vs re-solve
 ```
