@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 10:41 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 09:08 PM
+**आख़िरी update:** 18-11-2026 10:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 09:08 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 40 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 12 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 28 मिनट |
-| W4 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 17 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 12 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 27 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 44 मिनट |
+| W4 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 8 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 72 |
-| key 4 | 62 |
+| key 3 | 76 |
+| key 4 | 71 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -47,30 +47,16 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 04 visheshan kriya (Hindi) — 2 बार
-- Chapter 04 software os (Computer) — 1 बार
+- Chapter 04 software os (Computer) — 2 बार
 - Chapter 03 sangya sarvanam (Hindi) — 1 बार
 - Chapter 01 varn vartani (Hindi) — 1 बार
 - Chapter 05 ling vachan karak (Hindi) — 1 बार
 - Chapter 06 kaal vachya (Hindi) — 1 बार
+- Chapter 06 keyboard shortcuts (Computer) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 21:59:45   [visheshan_kriya] review Content_hi.txt: 2 issue(s): - In Table 1.3 (विशेषण के रूप-परिवर्तन), "नीला" and "मीठा" are incorrectly classified as अरूपांतरित विशेषण; they ar
-18-11 22:01:00   [varn_vartani] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 1 note incorrectly states 'ड़' and 'ढ' are conjuncts (संयुक्ताक्षर) → They a
-18-11 22:01:00   [varn_vartani] review: 0 section(s) corrected, 5 failed
-18-11 22:01:00   [varn_vartani] written 0, failed 5; AI calls today 80/100000
-18-11 22:01:00 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 52 min: todo [] problems []
-18-11 22:01:01 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_06_keyboard_shortcuts (OK: todo 0, problems 0)
-18-11 22:02:48   [visheshan_kriya] REJECTED review fix Content_hi.txt: reviewer still reports - In the table "विशेषण के रूप-परिवर्तन (लिंग-वचन-कारक अनुसार)", "हरा" and "पीला" are incorr
-18-11 22:03:10   [keyboard_shortcuts] review Content_hi.txt: 2 issue(s): - Section 6 claims browser shortcuts work identically in Chrome, Edge, and Firefox, but `Ctrl+Shift+N` opens incogn
-18-11 22:05:03   [kaal_vachya] review Content_hi.txt: 5 issue(s): - The claim "SSC GD, MTS, RRB Group D जैसी परीक्षाओं में इनसे प्रतिवर्ष 3–5 प्रश्न पूछे जाते हैं" is an invented ex
-18-11 22:06:51   [kaal_vachya] REJECTED review fix Content_hi.txt: reviewer still reports - भविष्यत काल में सतत उप-भेद की संरचना 'मूल क्रिया + रहा/रहे/रही + गा/गे/गी' गलत है → सही स
-18-11 22:08:22   [ling_vachan_karak] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 8, Question 4: The error-detection item "गंगा नदी में बहती है" wrongly marks "में" as
-18-11 22:08:28   [kaal_vachya] review Key_Facts_hi.txt: 5 issue(s): - Point 11: The double transitive passive example incorrectly retains “को” on the subject; the direct object shou
-18-11 22:10:20   [ling_vachan_karak] review Important_Rules_hi.txt: 2 issue(s): - Rule 3: Examples “शक्ति” and “बहन” do not end in the stated feminine endings (आ, इ, ई) → replace with exa
-18-11 22:12:44   [ling_vachan_karak] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 4 (ख) lists "नदी → नदियाँ" as आकारांत स्त्रीलिंग, but "नदी" ends in इ (इकारा
-18-11 22:12:44   [ling_vachan_karak] review: 1 section(s) corrected, 5 failed
 18-11 22:12:44   [ling_vachan_karak] written 1, failed 5; AI calls today 97/100000
 18-11 22:12:44 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 50 min: todo [] problems []
 18-11 22:12:45 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi (TODO: todo 5, problems 0)
@@ -96,4 +82,19 @@
 18-11 22:35:34   [keyboard_shortcuts] review PYQ_hi.txt: 1 issue(s): - Win+Enter listed as shortcut to toggle Narrator → The correct shortcut is Win+Ctrl+Enter (Win+Enter is not the defaul
 18-11 22:40:43   [sangya_sarvanam] review Key_Facts_hi.txt: 4 issue(s): - Point 16: Suffix “ता/ती” illustrated with “सच्चा → सच्चाई” (uses “ई”) and “मीठा → मिठास” (uses “आस”), not “ता/त
 18-11 22:41:38   [keyboard_shortcuts] review Important_Rules_hi.txt: 1 issue(s): - नियम 14: `Ctrl + M` मार्क मोड केवल कमांड प्रॉम्प्ट (cmd) में काम करता है, पावरशेल या विंडोज़ टर्मिनल में 
+18-11 22:43:37   [sandhi] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q2 key d vs re-solve c, Q3 key a vs re-solve ?, Q4 key a vs re-solve b, Q5 key b vs re-solve ?, Q7 k
+18-11 22:44:19   [keyboard_shortcuts] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 10 exception claims “फ़िल्टर्ड पंक्तियाँ शामिल नहीं होतीं” for Ctrl+Shift+Do
+18-11 22:44:19   [keyboard_shortcuts] review: 2 section(s) corrected, 1 failed
+18-11 22:44:19   [keyboard_shortcuts] written 2, failed 1; AI calls today 138/100000
+18-11 22:44:19 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_06_keyboard_shortcuts after 43 min: todo [] problems []
+18-11 22:44:19 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (OK: todo 0, problems 0)
+18-11 22:44:30   [software_os] REJECTED review fix Mind_Map.txt: reviewer still reports - "Types of OS / ऑपरेटिंग सिस्टम के प्रकार" is incorrectly placed as a direct child of System
+18-11 22:46:15   [software_os] review Important_Rules_en.txt: 3 issue(s): - Rule 4 example incorrectly states that 8 GB RAM + 12 GB page file equals 20 GB virtual address space per 
+18-11 22:48:48   [software_os] REJECTED review fix Important_Rules_en.txt: reviewer still reports - Rule 3 claims "Windows uses NTFS as the default file system since Windows NT 3.1"
+18-11 22:48:48   [software_os] review: 0 section(s) corrected, 2 failed
+18-11 22:48:48   [software_os] written 0, failed 2; AI calls today 144/100000
+18-11 22:48:49 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os after 25 min: todo [] problems []
+18-11 22:48:49 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (OK: todo 0, problems 0)
+18-11 22:50:51   [varn_vartani] review Content_hi.txt: 6 issue(s): - The consonant count is given as 39 but the listed consonants (25 vargiya + 8 avargiya + 4 combined) total 37 → Th
+18-11 22:55:13   [varn_vartani] REJECTED review fix Content_hi.txt: reviewer still reports - Incorrect example 'किर्ति' for short इ (ि) matra in the मात्रा-नियम table; it is not a va
 ```
