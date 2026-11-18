@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 11:34 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
+**आख़िरी update:** 18-11-2026 11:49 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 6 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 18 मिनट |
-| W3 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 14 मिनट |
-| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 13 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 22 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 33 मिनट |
+| W3 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 30 मिनट |
+| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 28 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 53 |
-| key 4 | 50 |
+| key 3 | 64 |
+| key 4 | 58 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -55,12 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 11:08:16   [varn_vartani] REJECTED review fix Feynman_hi.txt: reviewer still reports - The rule "अनुस्वार (ं) — ह, य, र, व, ल, श, ष, स के पहले" is illustrated with examples "गं
-18-11 11:08:29   [visheshan_kriya] review Important_Rules_hi.txt: 2 issue(s): - नियम ३: यह कहना कि 'संख्यावाचक, परिमाणवाचक, सार्वनामिक विशेषण प्रायः नहीं बदलते' गलत है; सार्वनामिक विशेष
-18-11 11:09:53   [ling_vachan_karak] review PYQ_hi.txt: 5 issue(s): - "SSC GD में इस अध्याय से 3–5 प्रश्न आते हैं" → आविष्कृत परीक्षा सांख्यिकी है, कोई वर्ष/स्रोत नहीं; हटाएँ या विशिष्ट व
-18-11 11:11:04   [varn_vartani] review Flashcards_hi.txt: 8 issue(s): - Card 3 omits consonants ड़ and ढ़ from the avargiya list; they should be included. → Add ड़, ढ़ to the avargiy
-18-11 11:12:19   [ling_vachan_karak] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 5 (Error Detection) trap list incorrectly includes "या स्त्रीलिंग कर्ता के साथ बिना '
-18-11 11:13:27   [ling_vachan_karak] review Important_Rules_hi.txt: 7 issue(s): - Rule 2 exception: 'किरण' cited as ending in इ/आ, but किरण ends in a consonant → Remove किरण or correct de
 18-11 11:15:48   [ling_vachan_karak] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम ६ में "(कर्तृवाच्य/सक्रिय कर्मणी)" गलत शब्दावली है → "कर्तृवाच्य (सक्रिय वाच
 18-11 11:15:48   [ling_vachan_karak] review: 0 section(s) corrected, 5 failed
 18-11 11:15:48   [ling_vachan_karak] written 0, failed 5; AI calls today 79/100000
@@ -95,4 +89,10 @@
 18-11 11:33:32   [sangya_sarvanam] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 13: 'क्या' forms list includes 'किसे' → 'क्या' has no 'किसे' form; its oblique fo
 18-11 11:33:43   [keyboard_shortcuts] review Key_Facts_hi.txt: 1 issue(s): - Item 19 claims Ctrl+T opens a new tab in both browser and File Explorer; File Explorer tabs (and Ctrl+T) are on
 18-11 11:34:26   [sangya_sarvanam] review Feynman_hi.txt: 1 issue(s): - In the pronoun table, the "पुरुषवाचक" row describes persons as "प्रथम/मध्यम/उत्तम" which mixes two different term
+18-11 11:34:53   [kaal_vachya] Practice_hi_Set_05.txt try 1: rejected (parsed 24 questions, numbers 101…124)
+18-11 11:41:57   [kaal_vachya] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q117 key a vs re-solve b, Q118 key a vs re-solve c, Q121 key d vs re-solve a, Q123 key b vs re-solve
+18-11 11:44:47   [sangya_sarvanam] review PYQ_hi.txt: 2 issue(s): - In Section 5 (Error Detection traps), the example "राम घर गया" is incorrectly marked as अशुद्ध; in standard Hindi, "र
+18-11 11:47:53   [sangya_sarvanam] REJECTED review fix PYQ_hi.txt: reviewer still reports - "आप" के प्रयोग में "सर्वनाम 'आपका/आपकी' एकवचन रूप में" कथन गलत है → "आपका/आपकी" अनुगामी संज्ञ
+18-11 11:49:15   [sangya_sarvanam] review Important_Rules_hi.txt: 6 issue(s): - Rule 2: 'आ कारांत स्त्रीलिंग' list includes non-आ-कारांत words (बहन, सास, नानी) → Remove them; only inclu
+18-11 11:49:16   [sandhi] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q1 key a vs re-solve b, Q5 key c vs re-solve d, Q9 key d vs re-solve c, Q14 key b vs re-solve a, Q15
 ```
