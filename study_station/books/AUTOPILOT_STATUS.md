@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 06:33 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 03:42 PM
+**आख़िरी update:** 18-11-2026 06:48 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 03:42 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 28 मिनट |
-| W2 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 1 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 78 मिनट |
-| W4 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 33 मिनट |
+| W1 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 43 मिनट |
+| W2 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 16 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 93 मिनट |
+| W4 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 49 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 131 |
-| key 4 | 90 |
+| key 3 | 142 |
+| key 4 | 91 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -57,15 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 17:44:40   [visheshan_kriya] REJECTED review fix Content_hi.txt: reviewer still reports - Section 1.3: The example "लाल → लाली" is listed under रूपांतरित विशेषण, but "लाल" is an अ
-18-11 17:47:27   [visheshan_kriya] review Important_Rules_hi.txt: 1 issue(s): - Rule 5 द्विकर्मक example "गुरु ने शिष्य को पढ़ाया विद्या" has incorrect verb agreement: the verb "पढ़ाया"
-18-11 17:50:41   [varn_vartani] review PYQ_hi.txt: 3 issue(s): - Section 1.2 explanation incorrectly states that in "विद्यालय" the letter 'य' is followed by 'आ' matra; actually the '
-18-11 17:55:20   [varn_vartani] review Important_Rules_hi.txt: 7 issue(s): - Section 1: "हिन्दी वर्णमाला में ४५ मूल वर्ण — ११ स्वर और ३४ व्यंजन" → the list contains 33 consonants (to
-18-11 17:58:46   [varn_vartani] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Visarga sandhi rule for स/श/ष states "विसर्ग लोप + अगला व्यंजन द्वित्व" but the e
-18-11 17:58:46   [varn_vartani] review: 2 section(s) corrected, 4 failed
-18-11 17:58:46   [varn_vartani] written 2, failed 4; AI calls today 183/100000
-18-11 17:58:46 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 59 min: todo [] problems []
-18-11 17:58:46 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
 18-11 17:59:08   [keyboard_shortcuts] review: 1 section(s) corrected, 1 failed
 18-11 17:59:08   [keyboard_shortcuts] written 1, failed 1; AI calls today 184/100000
 18-11 17:59:09 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_06_keyboard_shortcuts after 95 min: todo [] problems []
@@ -97,4 +88,13 @@
 18-11 18:31:26   [sangya_sarvanam] written 0, failed 4; AI calls today 220/100000
 18-11 18:31:26 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 33 min: todo [] problems []
 18-11 18:31:26 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (OK: todo 0, problems 0)
+18-11 18:34:52   [ling_vachan_karak] REJECTED review fix Content_hi.txt: reviewer still reports - Gender table: 'पत्तल' listed as नपुंसकलिंग → 'पत्तल' is स्त्रीलिंग (पत्तलें)
+18-11 18:36:55   [ling_vachan_karak] review Key_Facts_hi.txt: 6 issue(s): - Point 3: Example 'कमरी' is not a standard Hindi feminine noun → replace with a valid ईकारांत feminine noun like
+18-11 18:39:31   [ling_vachan_karak] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 6 rule “अकारांत पुल्लिंग में आ जोड़कर स्त्रीलिंग बनता है” is wrong; the feminine 
+18-11 18:41:02   [ling_vachan_karak] review Feynman_hi.txt: 5 issue(s): - "पुस्तक" को पुल्लिंग (अपवाद) बताया गया है → "पुस्तक" स्त्रीलिंग है
+18-11 18:43:13   [ling_vachan_karak] REJECTED review fix Feynman_hi.txt: reviewer still reports - In the लिंग section, "कहानी" is incorrectly listed as an exception to the rule that words
+18-11 18:43:53   [ling_vachan_karak] review Mind_Map.txt: 1 issue(s): - Missing "संबोधन कारक / Vocative" under कारक / Case → Add node for संबोधन कारक / Vocative as 8th case (standard Hind
+18-11 18:46:24   [varn_vartani] review Content_hi.txt: 3 issue(s): - The text states "हिंदी वर्णमाला में कुल 52 वर्ण माने जाते हैं — 13 स्वर और 39 व्यंजन", but the breakdown given (2
+18-11 18:48:00   [sandhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q26 key a vs re-solve b, Q27 key a vs re-solve d, Q32 key a vs re-solve c, Q33 key c vs re-solve b, 
+18-11 18:48:00   [sandhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
 ```
