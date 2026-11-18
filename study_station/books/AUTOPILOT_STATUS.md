@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 11:27 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 09:08 PM
+**आख़िरी update:** 18-11-2026 11:43 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 09:08 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 10 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 58 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 75 मिनट |
-| W4 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 39 मिनट |
+| W1 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 2 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 73 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 90 मिनट |
+| W4 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 54 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 88 |
-| key 4 | 84 |
+| key 3 | 99 |
+| key 4 | 91 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -46,7 +46,7 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 04 visheshan kriya (Hindi) — 2 बार
+- Chapter 04 visheshan kriya (Hindi) — 3 बार
 - Chapter 04 software os (Computer) — 2 बार
 - Chapter 03 sangya sarvanam (Hindi) — 1 बार
 - Chapter 01 varn vartani (Hindi) — 2 बार
@@ -57,19 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 22:29:31 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
-18-11 22:31:42   [sangya_sarvanam] review Content_hi.txt: 3 issue(s): - In the 'लिंग, वचन और कारक' table, the singular case markers for 'फल' are given as 'फल ने, फल को' but the oblique 
-18-11 22:32:32   [software_os] review Mind_Map.txt: 1 issue(s): - "Types of OS / ऑपरेटिंग सिस्टम के प्रकार" is incorrectly shown as a component of Operating System (D) → it is a cla
-18-11 22:35:34   [keyboard_shortcuts] review PYQ_hi.txt: 1 issue(s): - Win+Enter listed as shortcut to toggle Narrator → The correct shortcut is Win+Ctrl+Enter (Win+Enter is not the defaul
-18-11 22:40:43   [sangya_sarvanam] review Key_Facts_hi.txt: 4 issue(s): - Point 16: Suffix “ता/ती” illustrated with “सच्चा → सच्चाई” (uses “ई”) and “मीठा → मिठास” (uses “आस”), not “ता/त
-18-11 22:41:38   [keyboard_shortcuts] review Important_Rules_hi.txt: 1 issue(s): - नियम 14: `Ctrl + M` मार्क मोड केवल कमांड प्रॉम्प्ट (cmd) में काम करता है, पावरशेल या विंडोज़ टर्मिनल में 
-18-11 22:43:37   [sandhi] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q2 key d vs re-solve c, Q3 key a vs re-solve ?, Q4 key a vs re-solve b, Q5 key b vs re-solve ?, Q7 k
-18-11 22:44:19   [keyboard_shortcuts] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 10 exception claims “फ़िल्टर्ड पंक्तियाँ शामिल नहीं होतीं” for Ctrl+Shift+Do
-18-11 22:44:19   [keyboard_shortcuts] review: 2 section(s) corrected, 1 failed
-18-11 22:44:19   [keyboard_shortcuts] written 2, failed 1; AI calls today 138/100000
-18-11 22:44:19 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_06_keyboard_shortcuts after 43 min: todo [] problems []
-18-11 22:44:19 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (OK: todo 0, problems 0)
-18-11 22:44:30   [software_os] REJECTED review fix Mind_Map.txt: reviewer still reports - "Types of OS / ऑपरेटिंग सिस्टम के प्रकार" is incorrectly placed as a direct child of System
 18-11 22:46:15   [software_os] review Important_Rules_en.txt: 3 issue(s): - Rule 4 example incorrectly states that 8 GB RAM + 12 GB page file equals 20 GB virtual address space per 
 18-11 22:48:48   [software_os] REJECTED review fix Important_Rules_en.txt: reviewer still reports - Rule 3 claims "Windows uses NTFS as the default file system since Windows NT 3.1"
 18-11 22:48:48   [software_os] review: 0 section(s) corrected, 2 failed
@@ -97,4 +84,17 @@
 18-11 23:22:16   [ling_vachan_karak] review Content_hi.txt: 6 issue(s): - In the plural rules table, the row for "आ (स्त्रीलिंग) → एँ" incorrectly uses "लड़की → लड़कियाँ" as an example; "
 18-11 23:25:05   [ling_vachan_karak] REJECTED review fix Content_hi.txt: reviewer still reports - 'पत्तल' को नपुंसकलिंग की तालिका में दिया गया है → 'पत्तल' स्त्रीलिंग है (उदाहरण: पत्तल गि
 18-11 23:26:34   [ling_vachan_karak] review Key_Facts_hi.txt: 7 issue(s): - नपुंसकलिंग की परिभाषा और उदाहरण गलत हैं → हिंदी में केवल दो लिंग (पुल्लिंग, स्त्रीलिंग) होते हैं; नपुंसकलिंग व्
+18-11 23:29:14   [ling_vachan_karak] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 6: Example “विद्यार्थी → विद्यार्थिनी” is given for the अकारांत पुल्लिंग rule, bu
+18-11 23:31:34   [ling_vachan_karak] review Feynman_hi.txt: 6 issue(s): - लिंग तालिका में 'पुस्तक' को पुल्लिंग (अपवाद) बताया गया है → 'पुस्तक' स्त्रीलिंग है, इसे स्त्रीलिंग कॉलम में रखें 
+18-11 23:33:46   [ling_vachan_karak] REJECTED review fix Feynman_hi.txt: reviewer still reports - "कहानी" in the gender table is placed under पुल्लिंग but it is a स्त्रीलिंग noun → Move "
+18-11 23:34:21   [sandhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q27 key c vs re-solve a, Q28 key d vs re-solve a, Q35 key a vs re-solve b, Q37 key b vs re-solve c, 
+18-11 23:35:13   [visheshan_kriya] review Content_hi.txt: 2 issue(s): - The rule "नियम: विशेषण हमेशा संज्ञा/सर्वनाम के लिंग, वचन, कारक के अनुसार बदलता है" is incorrect because अरूपांतरि
+18-11 23:37:11   [ling_vachan_karak] review PYQ_hi.txt: 4 issue(s): - Section 5 trap list: "ने" का गलत प्रयोग में "स्त्रीलिंग कर्ता के साथ बिना 'ने' के" लिखा है → स्त्रीलिंग कर्ता के साथ 
+18-11 23:40:18   [ling_vachan_karak] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 5 trap incorrectly states that "ने" is wrongly used in past transitive with first/sec
+18-11 23:41:16   [visheshan_kriya] REJECTED review fix Content_hi.txt: reviewer still reports - In section 3, the rule "यदि शब्द के बाद 'है/हैं/था/थे/होगा/होंगे' आए → क्रिया (सहायक क्रि
+18-11 23:41:16   [visheshan_kriya] review: 0 section(s) corrected, 1 failed
+18-11 23:41:16   [visheshan_kriya] written 0, failed 1; AI calls today 187/100000
+18-11 23:41:16 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 23 min: todo [] problems []
+18-11 23:41:16 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os (OK: todo 0, problems 0)
+18-11 23:42:07   [ling_vachan_karak] review Important_Rules_hi.txt: 3 issue(s): - Rule 4: The plural rule for इ/ई/उ/ऊ/ए/ओकारांत nouns states they are usually unchanged, but the example "न
 ```
