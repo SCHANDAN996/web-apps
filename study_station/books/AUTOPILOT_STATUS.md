@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 11:49 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
+**आख़िरी update:** 18-11-2026 12:04 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 22 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 33 मिनट |
-| W3 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 30 मिनट |
-| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 28 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 37 मिनट |
+| W2 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 12 मिनट |
+| W3 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 3 मिनट |
+| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 43 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 64 |
-| key 4 | 58 |
+| key 3 | 76 |
+| key 4 | 63 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -46,29 +46,16 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 03 sangya sarvanam (Hindi) — 1 बार
+- Chapter 03 sangya sarvanam (Hindi) — 2 बार
 - Chapter 05 ling vachan karak (Hindi) — 1 बार
 - Chapter 04 visheshan kriya (Hindi) — 1 बार
 - Chapter 04 software os (Computer) — 1 बार
 - Chapter 01 varn vartani (Hindi) — 1 बार
+- Chapter 06 kaal vachya (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 11:15:48   [ling_vachan_karak] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम ६ में "(कर्तृवाच्य/सक्रिय कर्मणी)" गलत शब्दावली है → "कर्तृवाच्य (सक्रिय वाच
-18-11 11:15:48   [ling_vachan_karak] review: 0 section(s) corrected, 5 failed
-18-11 11:15:48   [ling_vachan_karak] written 0, failed 5; AI calls today 79/100000
-18-11 11:15:48 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 33 min: todo [] problems []
-18-11 11:15:48 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
-18-11 11:16:29   [varn_vartani] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 1: हिंदी वर्णमाला में 47 वर्ण (11 स्वर + 36 व्यंजन) बताया गया है → मानक हिंदी वर्
-18-11 11:16:48   [software_os] review Important_Rules_en.txt: 3 issue(s): - Rule 4 example: "8 GB RAM + 12 GB page file = 20 GB virtual address space per process (on 64-bit Windows)
-18-11 11:18:00   [varn_vartani] review PYQ_hi.txt: 2 issue(s): - 1.2 के हल में "विधालय" की त्रुटि को 'ध' के बाद की मात्रा बताना गलत है → त्रुटि 'ध' के स्थान पर 'द्' होना है
-18-11 11:19:15   [visheshan_kriya] review: 1 section(s) corrected, 3 failed
-18-11 11:19:15   [visheshan_kriya] written 1, failed 3; AI calls today 85/100000
-18-11 11:19:15 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 62 min: todo [] problems []
-18-11 11:19:15 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya (TODO: todo 1, problems 1)
-18-11 11:19:15   [kaal_vachya] Hindi-only writer: direct Hindi content; English generation and translation disabled
-18-11 11:20:36   [software_os] REJECTED review fix Important_Rules_en.txt: reviewer still reports - Rule 12 states "Annual feature updates for Home/Pro (General Availability Channel
 18-11 11:20:56   [software_os] review: 1 section(s) corrected, 1 failed
 18-11 11:20:56   [software_os] written 1, failed 1; AI calls today 88/100000
 18-11 11:20:56 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os after 63 min: todo [] problems []
@@ -95,4 +82,18 @@
 18-11 11:47:53   [sangya_sarvanam] REJECTED review fix PYQ_hi.txt: reviewer still reports - "आप" के प्रयोग में "सर्वनाम 'आपका/आपकी' एकवचन रूप में" कथन गलत है → "आपका/आपकी" अनुगामी संज्ञ
 18-11 11:49:15   [sangya_sarvanam] review Important_Rules_hi.txt: 6 issue(s): - Rule 2: 'आ कारांत स्त्रीलिंग' list includes non-आ-कारांत words (बहन, सास, नानी) → Remove them; only inclu
 18-11 11:49:16   [sandhi] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q1 key a vs re-solve b, Q5 key c vs re-solve d, Q9 key d vs re-solve c, Q14 key b vs re-solve a, Q15
+18-11 11:52:04   [sangya_sarvanam] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम २ में "चिड़िया" को "ई कारांत" शब्दों की सूची में दिया गया है → "चिड़िया" "आ 
+18-11 11:52:04   [sangya_sarvanam] review: 1 section(s) corrected, 4 failed
+18-11 11:52:04   [sangya_sarvanam] written 1, failed 4; AI calls today 127/100000
+18-11 11:52:04 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 36 min: todo [] problems []
+18-11 11:52:04 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya (OK: todo 0, problems 0)
+18-11 11:52:57   [visheshan_kriya] review Content_hi.txt: 1 issue(s): - In section 1.3 table, "नीला" and "मीठा" are incorrectly listed as अरूपांतरित विशेषण (invariable adjectives); they
+18-11 11:55:34   [kaal_vachya] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q118 key c vs re-solve a, Q123 key d vs re-solve c)
+18-11 11:55:43   [visheshan_kriya] REJECTED review fix Content_hi.txt: reviewer still reports - Section 1.1 नियम "विशेषण हमेशा संज्ञा/सर्वनाम के लिंग, वचन, कारक के अनुसार बदलता है" गलत 
+18-11 12:01:28   [kaal_vachya] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q114 key c vs re-solve b, Q117 key c vs re-solve b, Q121 key b vs re-solve d, Q123 key c vs re-solve
+18-11 12:01:28   [kaal_vachya] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
+18-11 12:01:28   [kaal_vachya] written 0, failed 1; AI calls today 138/100000
+18-11 12:01:28 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya after 42 min: todo ['Set 05 hi: todo'] problems ['Mind_Map.txt: Hindi file is mostly not in Hindi']
+18-11 12:01:28 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (OK: todo 0, problems 0)
+18-11 12:01:42   [keyboard_shortcuts] review Important_Rules_hi.txt: 1 issue(s): - नियम 12 में दावा कि `Ctrl + Shift + N` फ़ायरफ़ॉक्स में नई निजी/इनकॉग्निटो विंडो खोलता है गलत है → फ़ायरफ़
 ```
