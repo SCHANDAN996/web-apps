@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 09:27 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 04:51 AM
+**आख़िरी update:** 18-11-2026 09:43 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 04:51 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,13 +8,13 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 word (12th Computer) | ✍️ लिख रहा है | 78 मिनट |
-| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 68 मिनट |
+| W1 | Chapter 07 word (12th Computer) | ✍️ लिख रहा है | 93 मिनट |
+| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 83 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 184 |
-| key 4 | 143 |
+| key 3 | 192 |
+| key 4 | 155 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -56,15 +56,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 08:36:47   [kaal_vachya] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q115 key d vs re-solve a)
-18-11 08:37:16   [word] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-18-11 08:42:15   [kaal_vachya] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q108 key d vs re-solve b, Q121 key d vs re-solve b)
-18-11 08:44:00   [samas] wrote Mind_Map.txt (999 chars)
-18-11 08:47:59   [kaal_vachya] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q116 key d vs re-solve c, Q117 key b vs re-solve a)
-18-11 08:50:44   [kaal_vachya] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q114 key a vs re-solve c)
-18-11 08:50:44   [kaal_vachya] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
-18-11 08:50:44   [kaal_vachya] written 0, failed 1; AI calls today 295/100000
-18-11 08:50:44 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya after 45 min: todo ['Set 05 hi: todo'] problems ['Mind_Map.txt: Hindi file is mostly not in Hindi']
 18-11 08:50:44 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (TODO: todo 1, problems 0)
 18-11 08:50:44   [varn_vartani] Hindi-only writer: direct Hindi content; English generation and translation disabled
 18-11 08:51:30   [samas] wrote Flashcards_hi.txt (3234 chars)
@@ -96,4 +87,13 @@
 18-11 09:24:49 worker 3: nothing left
 18-11 09:26:13   [word] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 18-11 09:27:51   [word] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+18-11 09:29:51   [samas] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q49 key d vs re-solve b)
+18-11 09:30:00   [word] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+18-11 09:31:38   [word] Practice_en_Set_05.txt try 1: re-solve disagrees (Q125 key c vs re-solve a)
+18-11 09:35:12   [samas] wrote Practice_hi_Set_02.txt (write, 25 MCQs)
+18-11 09:35:16   [word] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+18-11 09:36:13   [word] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+18-11 09:38:40   [word] Practice_en_Set_06.txt try 1: re-solve disagrees (Q133 key a vs re-solve d)
+18-11 09:42:32   [samas] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q57 key b vs re-solve a)
+18-11 09:42:46   [word] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 ```
