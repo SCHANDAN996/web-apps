@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 11:18 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
+**आख़िरी update:** 18-11-2026 11:34 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 27 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 3 मिनट |
-| W3 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 61 मिनट |
-| W4 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 61 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 6 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 18 मिनट |
+| W3 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 14 मिनट |
+| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 13 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 43 |
-| key 4 | 40 |
+| key 3 | 53 |
+| key 4 | 50 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -48,36 +48,13 @@
 
 - Chapter 03 sangya sarvanam (Hindi) — 1 बार
 - Chapter 05 ling vachan karak (Hindi) — 1 बार
+- Chapter 04 visheshan kriya (Hindi) — 1 बार
+- Chapter 04 software os (Computer) — 1 बार
+- Chapter 01 varn vartani (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 10:28:36   [visheshan_kriya] REJECTED review fix Feynman_hi.txt: reviewer still reports - The 'काल के चिह्न' table incorrectly lists past tense suffixes as 'या/यी/ये' while the ex
-18-11 10:29:50   [sangya_sarvanam] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 4 plural rule for consonant-ending nouns gives wrong examples: "फल → फलें, घर → घ
-18-11 10:34:37   [sangya_sarvanam] review PYQ_hi.txt: 3 issue(s): - In section 5 (Error Detection), the answer key says (d) "किताब" but the error is in part (c) "अपने" (should be "अपनी"
-18-11 10:37:05   [sangya_sarvanam] REJECTED review fix PYQ_hi.txt: reviewer still reports - In section 1, the explanation incorrectly identifies "माँ" as व्यक्तिवाचक संज्ञा; "माँ" is a 
-18-11 10:38:31   [sangya_sarvanam] review Important_Rules_hi.txt: 6 issue(s): - Rule 2: The exception list heading 'ई कारांत पुल्लिंग' incorrectly lists feminine words 'पुत्री' and 'नौक
-18-11 10:39:14   [varn_vartani] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q64 key b vs re-solve ?, Q74 key d vs re-solve c)
-18-11 10:42:41   [sangya_sarvanam] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - In नियम २ and नियम ३, "हाथी" is incorrectly listed as an example of उकारांत/ऊकारा
-18-11 10:42:41   [sangya_sarvanam] review: 0 section(s) corrected, 4 failed
-18-11 10:42:41   [sangya_sarvanam] written 0, failed 4; AI calls today 31/100000
-18-11 10:42:41 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 25 min: todo [] problems []
-18-11 10:42:41 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (OK: todo 0, problems 0)
-18-11 10:44:48   [ling_vachan_karak] review Content_hi.txt: 4 issue(s): - In the बहुवचन बनाने के नियम table, the row for 'आ (स्त्रीलिंग)' gives examples 'लड़की → लड़कियाँ' and 'नदी → नदिय
-18-11 10:49:08   [ling_vachan_karak] REJECTED review fix Content_hi.txt: reviewer still reports - Neuter gender table incorrectly lists 'पत्तल', 'कमरा', 'ज्ञान' as neuter → 'पत्तल' is fem
-18-11 10:50:55   [ling_vachan_karak] review Key_Facts_hi.txt: 6 issue(s): - Point 4: Neuter gender (नपुंसकलिंग) is incorrectly claimed for inanimate nouns; in modern Hindi these nouns are
-18-11 10:51:18   [varn_vartani] wrote Practice_hi_Set_03.txt (write, 25 MCQs)
-18-11 10:51:18   [varn_vartani] written 1, failed 0; AI calls today 39/100000
-18-11 10:53:23   [visheshan_kriya] review PYQ_hi.txt: 1 issue(s): - In the "क्रिया विशेषण (Adverb) भ्रम" row, the example sentence "वह धीरे-धीरे चलता है।" is marked with ❌ but is gramma
-18-11 10:54:07   [varn_vartani] review Content_hi.txt: 6 issue(s): - हिंदी वर्णमाला में कुल 52 वर्ण (13 स्वर + 39 व्यंजन) बताया गया है, लेकिन सूचीबद्ध व्यंजन (25 वर्गीय + 8 अवर्गीय +
-18-11 10:55:10   [ling_vachan_karak] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 11: Example “पेड़ → पेड़े” is given for the आकारांत पुल्लिंग plural rule, but पेड
-18-11 10:56:45   [ling_vachan_karak] review Feynman_hi.txt: 5 issue(s): - In the लिंग table, "पुस्तक" is listed under पुल्लिंग as an exception; "पुस्तक" is actually स्त्रीलिंग → Move "पुस
-18-11 10:57:12   [varn_vartani] REJECTED review fix Content_hi.txt: reviewer still reports - In section 3.4 table, ड़ and ढ़ are incorrectly labeled as "तालव्य" (palatal) → they are 
-18-11 10:58:06   [varn_vartani] review Key_Facts_hi.txt: 3 issue(s): - Point 5 lists four "द्वित्व व्यंजन" (ड़, ढ़, ऩ, ऱ) → In standard Hindi grammar, द्वित्व व्यंजन are only ड़ and 
-18-11 10:59:30   [ling_vachan_karak] REJECTED review fix Feynman_hi.txt: reviewer still reports - लिंग table lists "कहानी" under पुल्लिंग → "कहानी" is स्त्रीलिंग; move it to स्त्रीलिंग co
-18-11 11:00:21   [varn_vartani] review Feynman_hi.txt: 7 issue(s): - Section 1 claims 33 consonants but lists 36 (including क्ष, त्र, ज्ञ) → Correct the count to 36 consonants or lis
-18-11 11:03:07   [software_os] review PYQ_en.txt: 2 issue(s): - Example 4 (Round Robin numerical): The calculated average waiting time is 16/3 ≈ 5.33, but the answer key lists (b) 3
-18-11 11:04:38   [visheshan_kriya] REJECTED review fix PYQ_hi.txt: reviewer still reports - The example under 'क्रिया विशेषण (Adverb) भ्रम' has an ungrammatical sentence: 'वह ______ चलत
 18-11 11:08:16   [varn_vartani] REJECTED review fix Feynman_hi.txt: reviewer still reports - The rule "अनुस्वार (ं) — ह, य, र, व, ल, श, ष, स के पहले" is illustrated with examples "गं
 18-11 11:08:29   [visheshan_kriya] review Important_Rules_hi.txt: 2 issue(s): - नियम ३: यह कहना कि 'संख्यावाचक, परिमाणवाचक, सार्वनामिक विशेषण प्रायः नहीं बदलते' गलत है; सार्वनामिक विशेष
 18-11 11:09:53   [ling_vachan_karak] review PYQ_hi.txt: 5 issue(s): - "SSC GD में इस अध्याय से 3–5 प्रश्न आते हैं" → आविष्कृत परीक्षा सांख्यिकी है, कोई वर्ष/स्रोत नहीं; हटाएँ या विशिष्ट व
@@ -92,4 +69,30 @@
 18-11 11:16:29   [varn_vartani] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 1: हिंदी वर्णमाला में 47 वर्ण (11 स्वर + 36 व्यंजन) बताया गया है → मानक हिंदी वर्
 18-11 11:16:48   [software_os] review Important_Rules_en.txt: 3 issue(s): - Rule 4 example: "8 GB RAM + 12 GB page file = 20 GB virtual address space per process (on 64-bit Windows)
 18-11 11:18:00   [varn_vartani] review PYQ_hi.txt: 2 issue(s): - 1.2 के हल में "विधालय" की त्रुटि को 'ध' के बाद की मात्रा बताना गलत है → त्रुटि 'ध' के स्थान पर 'द्' होना है
+18-11 11:19:15   [visheshan_kriya] review: 1 section(s) corrected, 3 failed
+18-11 11:19:15   [visheshan_kriya] written 1, failed 3; AI calls today 85/100000
+18-11 11:19:15 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 62 min: todo [] problems []
+18-11 11:19:15 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya (TODO: todo 1, problems 1)
+18-11 11:19:15   [kaal_vachya] Hindi-only writer: direct Hindi content; English generation and translation disabled
+18-11 11:20:36   [software_os] REJECTED review fix Important_Rules_en.txt: reviewer still reports - Rule 12 states "Annual feature updates for Home/Pro (General Availability Channel
+18-11 11:20:56   [software_os] review: 1 section(s) corrected, 1 failed
+18-11 11:20:56   [software_os] written 1, failed 1; AI calls today 88/100000
+18-11 11:20:56 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os after 63 min: todo [] problems []
+18-11 11:20:56 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_06_keyboard_shortcuts (OK: todo 0, problems 0)
+18-11 11:21:58   [sangya_sarvanam] review Content_hi.txt: 2 issue(s): - उदाहरण 6 में "बच्चा" और "औरत" को बहुवचन न बदलने वाले शब्दों की सूची में शामिल किया गया है, जबकि "बच्चा" का बहुवचन
+18-11 11:22:27   [varn_vartani] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 1.5 explanation: wrong rule for chandrabindu ("चन्द्रबिन्दु केवल स्वर के ऊपर लगता है 
+18-11 11:24:36   [varn_vartani] review Important_Rules_hi.txt: 7 issue(s): - Section 5: Rule for दीर्घ स्वर and ऋ incorrectly states बिन्दु (ं) is used; nasalized long vowels take चन
+18-11 11:27:18   [varn_vartani] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 11: Vowel sandhi rule "ए/ऐ + अ/आ = ऐ" contradicts the example "देव + अर्चना 
+18-11 11:27:18   [varn_vartani] review: 1 section(s) corrected, 5 failed
+18-11 11:27:18   [varn_vartani] written 1, failed 5; AI calls today 95/100000
+18-11 11:27:18 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 70 min: todo [] problems []
+18-11 11:27:18 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi (TODO: todo 6, problems 0)
+18-11 11:27:18   [sandhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
+18-11 11:27:34   [keyboard_shortcuts] review Content_hi.txt: 5 issue(s): - ब्राउज़र शॉर्टकट तालिका में `Backspace` को "पीछे जाएँ" के लिए सूचीबद्ध किया गया है, लेकिन Chrome/Edge (और Firefox
+18-11 11:28:36   [sangya_sarvanam] REJECTED review fix Content_hi.txt: reviewer still reports - In 'परीक्षा उपयोगी सूत्र', the rules 'पहला अक्षर बड़ा' for व्यक्तिवाचक and 'छोटे अक्षर से
+18-11 11:30:29   [sangya_sarvanam] review Key_Facts_hi.txt: 3 issue(s): - Point 6: Example "लड़कोंने खेला" for ergative "ने" is incorrect because "खेलना" is intransitive; "ने" is only u
+18-11 11:31:59   [keyboard_shortcuts] REJECTED review fix Content_hi.txt: reviewer still reports - Win+A shortcut claimed to work identically in Windows 10 and 11 and open Action Center; i
+18-11 11:33:32   [sangya_sarvanam] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 13: 'क्या' forms list includes 'किसे' → 'क्या' has no 'किसे' form; its oblique fo
+18-11 11:33:43   [keyboard_shortcuts] review Key_Facts_hi.txt: 1 issue(s): - Item 19 claims Ctrl+T opens a new tab in both browser and File Explorer; File Explorer tabs (and Ctrl+T) are on
+18-11 11:34:26   [sangya_sarvanam] review Feynman_hi.txt: 1 issue(s): - In the pronoun table, the "पुरुषवाचक" row describes persons as "प्रथम/मध्यम/उत्तम" which mixes two different term
 ```
