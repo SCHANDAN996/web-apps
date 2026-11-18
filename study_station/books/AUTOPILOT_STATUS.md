@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 10:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 09:08 PM
+**आख़िरी update:** 18-11-2026 11:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 09:08 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 12 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 27 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 44 मिनट |
-| W4 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 8 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 28 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 42 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 59 मिनट |
+| W4 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 23 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 76 |
-| key 4 | 71 |
+| key 3 | 79 |
+| key 4 | 79 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -57,14 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 22:12:44   [ling_vachan_karak] written 1, failed 5; AI calls today 97/100000
-18-11 22:12:44 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 50 min: todo [] problems []
-18-11 22:12:45 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi (TODO: todo 5, problems 0)
-18-11 22:12:45   [sandhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
-18-11 22:13:32   [kaal_vachya] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 9: The rule "मूल क्रिया + 'जा/जाता/जाती/जाते' + काल अनुसार सहायक क्रिया" does not
-18-11 22:14:28   [sandhi] Practice_hi_Set_01.txt try 1: rejected (Q4:duplicate_options,Q6:duplicate_options,Q10:duplicate_options,Q12:duplicate_options,Q18:duplicate_options)
-18-11 22:18:07   [kaal_vachya] review PYQ_hi.txt: 2 issue(s): - The checklist rule 4 ("काल परिवर्तन में → केवल सहायक क्रिया बदलें, मूल क्रिया का कृदंत वही रहे") is incorrect as a ge
-18-11 22:20:07   [kaal_vachya] REJECTED review fix PYQ_hi.txt: reviewer still reports - The rule in section 2.1 (traps) and section 4 (table) incorrectly includes 'अपूर्ण भूत' (past
 18-11 22:20:54   [kaal_vachya] review Important_Rules_hi.txt: 2 issue(s): - नियम २ के अपवाद में विरोधाभासी/गलत उदाहरण: "नहीं कहते — 'वह जा रहा है' के स्थान पर 'वह जा रहा है' मान्य ह
 18-11 22:24:06   [kaal_vachya] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 9 claims “ने” is used in all past tenses (सामान्य/सतत/पूर्ण) with transitive
 18-11 22:24:06   [kaal_vachya] review: 0 section(s) corrected, 4 failed
@@ -97,4 +89,12 @@
 18-11 22:48:49 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (OK: todo 0, problems 0)
 18-11 22:50:51   [varn_vartani] review Content_hi.txt: 6 issue(s): - The consonant count is given as 39 but the listed consonants (25 vargiya + 8 avargiya + 4 combined) total 37 → Th
 18-11 22:55:13   [varn_vartani] REJECTED review fix Content_hi.txt: reviewer still reports - Incorrect example 'किर्ति' for short इ (ि) matra in the मात्रा-नियम table; it is not a va
+18-11 22:58:36   [varn_vartani] review Key_Facts_hi.txt: 1 issue(s): - 'मराठी/संस्कृत ध्वनियों के लिए प्रयुक्त' for ऩ, ऱ is wrong; they are not used for Sanskrit sounds → 'मराठी (एवं
+18-11 23:00:05   [sandhi] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q1 key d vs re-solve c, Q3 key c vs re-solve a, Q5 key d vs re-solve b, Q8 key d vs re-solve ?, Q9 k
+18-11 23:00:05   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
+18-11 23:00:26   [varn_vartani] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 1/6: claims only two nuqta letters (ऩ, ऱ) → Hindi uses several nuqta letters (e.g
+18-11 23:01:27   [sandhi] Practice_hi_Set_02.txt try 1: rejected (Q30:duplicate_options,Q41:duplicate_options,Q43:duplicate_options,Q49:duplicate_options,Q50:duplicate_options)
+18-11 23:01:58   [varn_vartani] review Feynman_hi.txt: 5 issue(s): - Section 1 claims 33 consonants but lists 36 items (including क्ष, त्र, ज्ञ) → Change count to 36 or list only the
+18-11 23:08:03   [varn_vartani] REJECTED review fix Feynman_hi.txt: reviewer still reports - Section 3 table (चंद्रबिंदु examples): "सँभाल" is listed as chandrabindu example, but nas
+18-11 23:10:16   [varn_vartani] review Flashcards_hi.txt: 1 issue(s): - Card 17 lists invalid pairs (शत्रु/शत्रु, कर्म/कर्मा, देश/देस) as examples of same‑pronunciation different‑spe
 ```
