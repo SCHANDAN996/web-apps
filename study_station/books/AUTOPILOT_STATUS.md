@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 06:08 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 04:51 AM
+**आख़िरी update:** 18-11-2026 06:24 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 04:51 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 30 मिनट |
-| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 45 मिनट |
-| W3 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 52 मिनट |
-| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 50 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 45 मिनट |
+| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 61 मिनट |
+| W3 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 4 मिनट |
+| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 66 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 70 |
-| key 4 | 53 |
+| key 3 | 75 |
+| key 4 | 59 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -51,19 +51,11 @@
 - Chapter 04 software os (Computer) — 1 बार
 - Chapter 03 sangya sarvanam (Hindi) — 1 बार
 - Chapter 05 ling vachan karak (Hindi) — 1 बार
+- Chapter 06 kaal vachya (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 05:23:02   [sangya_sarvanam] review: 0 section(s) corrected, 4 failed
-18-11 05:23:02   [sangya_sarvanam] written 0, failed 4; AI calls today 73/100000
-18-11 05:23:02 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 31 min: todo [] problems []
-18-11 05:23:03 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi (TODO: todo 13, problems 0)
-18-11 05:23:03   [sandhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
-18-11 05:24:20   [sandhi] wrote Content_hi.txt (9521 chars)
-18-11 05:25:04   [keyboard_shortcuts] REJECTED review fix Content_hi.txt: reviewer still reports - The Windows shortcut table lists `Win + A` as opening "Action Center", but in Windows 11 
-18-11 05:26:23   [keyboard_shortcuts] review Key_Facts_hi.txt: 1 issue(s): - Win + Q का विवरण "सर्च बार / कॉर्टाना खोलता है" कहता है, लेकिन Windows 11 में Win + Q Microsoft Teams चैट खोलता
-18-11 05:26:41   [sandhi] wrote Key_Facts_hi.txt (2748 chars)
 18-11 05:27:20   [sandhi] wrote Feynman_hi.txt (3587 chars)
 18-11 05:27:27   [sandhi] wrote Mind_Map.txt (928 chars)
 18-11 05:28:02   [sandhi] wrote Flashcards_hi.txt (3662 chars)
@@ -95,4 +87,13 @@
 18-11 06:08:02   [kaal_vachya] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q103 key c vs re-solve a, Q109 key c vs re-solve a)
 18-11 06:08:02   [kaal_vachya] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
 18-11 06:08:16   [sandhi] Practice_hi_Set_02.txt try 2: rejected (Q28:duplicate_options,Q41:duplicate_options,Q48:duplicate_options)
+18-11 06:12:39   [kaal_vachya] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q132 key d vs re-solve b, Q135 key b vs re-solve d, Q147 key a vs re-solve d)
+18-11 06:14:41   [sandhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q33 key c vs re-solve d, Q36 key d vs re-solve c, Q39 key b vs re-solve ?, Q44 key a vs re-solve d)
+18-11 06:19:31   [kaal_vachya] wrote Practice_hi_Set_06.txt (write, 25 MCQs)
+18-11 06:19:31   [kaal_vachya] written 2, failed 1; AI calls today 132/100000
+18-11 06:19:31 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya after 63 min: todo ['Set 05 hi: todo'] problems ['Mind_Map.txt: Hindi file is mostly not in Hindi']
+18-11 06:19:31 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
+18-11 06:21:56   [sandhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q29 key c vs re-solve a, Q33 key b vs re-solve d, Q39 key c vs re-solve a, Q41 key d vs re-solve b)
+18-11 06:21:56   [sandhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
+18-11 06:23:15   [sandhi] Practice_hi_Set_03.txt try 1: rejected (Q56:duplicate_options,Q57:duplicate_options,Q60:duplicate_options,Q63:duplicate_options,Q64:duplicate_options)
 ```
