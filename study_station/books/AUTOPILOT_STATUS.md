@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 07:49 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 03:42 PM
+**आख़िरी update:** 18-11-2026 08:05 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 03:42 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,13 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 54 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 155 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 170 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 188 |
-| key 4 | 99 |
+| key 3 | 197 |
+| key 4 | 101 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -46,7 +45,7 @@
 
 - Chapter 03 sangya sarvanam (Hindi) — 4 बार
 - Chapter 01 varn vartani (Hindi) — 3 बार
-- Chapter 04 software os (Computer) — 2 बार
+- Chapter 04 software os (Computer) — 3 बार
 - Chapter 04 visheshan kriya (Hindi) — 3 बार
 - Chapter 05 ling vachan karak (Hindi) — 2 बार
 - Chapter 06 kaal vachya (Hindi) — 2 बार
@@ -55,14 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 18:55:25   [visheshan_kriya] review: 0 section(s) corrected, 1 failed
-18-11 18:55:25   [visheshan_kriya] written 0, failed 1; AI calls today 242/100000
-18-11 18:55:25 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 6 min: todo [] problems []
-18-11 18:55:26 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os (OK: todo 0, problems 0)
-18-11 18:57:16   [ling_vachan_karak] review PYQ_hi.txt: 3 issue(s): - Section 8, Question 2 has duplicate options (ग) and (घ) both "पत्तों" → Options must be distinct; e.g., change (घ) to
-18-11 19:02:56   [varn_vartani] REJECTED review fix Content_hi.txt: reviewer still reports - In the Matra table, for मात्रा 'इ' (चिह्न ि), the examples "सीता" and "नील" are incorrect
-18-11 19:04:17   [varn_vartani] review Key_Facts_hi.txt: 2 issue(s): - Point 18 example "मँहगा" is misspelled → correct spelling "महँगा".
-18-11 19:06:53   [varn_vartani] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - The breakdown “33 मूल व्यंजन + 4 संयुक्त व्यंजन + 2 द्वित्व व्यंजन + 2 नुक्ता-युक्त व्य
 18-11 19:08:55   [varn_vartani] review Feynman_hi.txt: 4 issue(s): - Section 3 table: The chandrabindu rule example "गँगा" is incorrect because 'ग' is not in the list (ह, य, र, व, ल,
 18-11 19:13:54   [varn_vartani] REJECTED review fix Feynman_hi.txt: reviewer still reports - Section 1: The consonant list includes 36 items (क्ष, त्र, ज्ञ) but the text claims 33 co
 18-11 19:15:25   [sandhi] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q51 key c vs re-solve b, Q53 key a vs re-solve ?, Q59 key a vs re-solve c, Q62 key c vs re-solve b, 
@@ -95,4 +86,12 @@
 18-11 19:46:23 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 28 min: todo [] problems []
 18-11 19:46:23 worker 1: nothing left
 18-11 19:47:53   [software_os] review Feynman_en.txt: 1 issue(s): - Monolithic kernel (Linux, Windows NT) incorrectly classifies Windows NT as monolithic; Windows NT is a hybrid ker
+18-11 19:50:46   [software_os] review Flashcards_en.txt: 2 issue(s): - Card 6: Claims FAT32/exFAT both lack large file support, but exFAT supports large files → FAT32 lacks large fi
+18-11 19:57:18   [software_os] review Important_Rules_en.txt: 4 issue(s): - Rule 4 example: "8 GB RAM + 12 GB page file = 20 GB virtual address space per process" is incorrect; virt
+18-11 19:58:52   [sandhi] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q89 key a vs re-solve ?)
+18-11 19:59:04   [software_os] REJECTED review fix Important_Rules_en.txt: reviewer still reports - Rule 4 states “On 64-bit Windows, each user-mode process has up to 8 TB of virtua
+18-11 19:59:30   [software_os] review: 2 section(s) corrected, 1 failed
+18-11 19:59:30   [software_os] written 2, failed 1; AI calls today 296/100000
+18-11 19:59:30 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os after 64 min: todo [] problems []
+18-11 19:59:30 worker 0: nothing left
 ```
