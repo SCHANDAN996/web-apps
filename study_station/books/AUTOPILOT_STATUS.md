@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 12:04 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
+**आख़िरी update:** 18-11-2026 12:19 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 37 मिनट |
-| W2 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 12 मिनट |
-| W3 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 3 मिनट |
-| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 43 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 52 मिनट |
+| W2 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 27 मिनट |
+| W3 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 18 मिनट |
+| W4 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 14 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 76 |
-| key 4 | 63 |
+| key 3 | 83 |
+| key 4 | 65 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -52,19 +52,11 @@
 - Chapter 04 software os (Computer) — 1 बार
 - Chapter 01 varn vartani (Hindi) — 1 बार
 - Chapter 06 kaal vachya (Hindi) — 1 बार
+- Chapter 06 keyboard shortcuts (Computer) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 11:20:56   [software_os] review: 1 section(s) corrected, 1 failed
-18-11 11:20:56   [software_os] written 1, failed 1; AI calls today 88/100000
-18-11 11:20:56 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os after 63 min: todo [] problems []
-18-11 11:20:56 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_06_keyboard_shortcuts (OK: todo 0, problems 0)
-18-11 11:21:58   [sangya_sarvanam] review Content_hi.txt: 2 issue(s): - उदाहरण 6 में "बच्चा" और "औरत" को बहुवचन न बदलने वाले शब्दों की सूची में शामिल किया गया है, जबकि "बच्चा" का बहुवचन
-18-11 11:22:27   [varn_vartani] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 1.5 explanation: wrong rule for chandrabindu ("चन्द्रबिन्दु केवल स्वर के ऊपर लगता है 
-18-11 11:24:36   [varn_vartani] review Important_Rules_hi.txt: 7 issue(s): - Section 5: Rule for दीर्घ स्वर and ऋ incorrectly states बिन्दु (ं) is used; nasalized long vowels take चन
-18-11 11:27:18   [varn_vartani] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 11: Vowel sandhi rule "ए/ऐ + अ/आ = ऐ" contradicts the example "देव + अर्चना 
-18-11 11:27:18   [varn_vartani] review: 1 section(s) corrected, 5 failed
 18-11 11:27:18   [varn_vartani] written 1, failed 5; AI calls today 95/100000
 18-11 11:27:18 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 70 min: todo [] problems []
 18-11 11:27:18 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi (TODO: todo 6, problems 0)
@@ -96,4 +88,13 @@
 18-11 12:01:28 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya after 42 min: todo ['Set 05 hi: todo'] problems ['Mind_Map.txt: Hindi file is mostly not in Hindi']
 18-11 12:01:28 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (OK: todo 0, problems 0)
 18-11 12:01:42   [keyboard_shortcuts] review Important_Rules_hi.txt: 1 issue(s): - नियम 12 में दावा कि `Ctrl + Shift + N` फ़ायरफ़ॉक्स में नई निजी/इनकॉग्निटो विंडो खोलता है गलत है → फ़ायरफ़
+18-11 12:05:10   [keyboard_shortcuts] review: 2 section(s) corrected, 1 failed
+18-11 12:05:10   [keyboard_shortcuts] written 2, failed 1; AI calls today 141/100000
+18-11 12:05:10 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_06_keyboard_shortcuts after 44 min: todo [] problems []
+18-11 12:05:11 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os (OK: todo 0, problems 0)
+18-11 12:08:47   [varn_vartani] review Content_hi.txt: 7 issue(s): - Consonant count given as 39 but breakdown (25 vargiya + 8 avargiya + 4 conjuncts) totals 37, omitting ड़ and ढ़ →
+18-11 12:11:06   [varn_vartani] REJECTED review fix Content_hi.txt: reviewer still reports - In the table for 'ड़' and 'ढ़' (section 3.4), the pronunciation place is incorrectly give
+18-11 12:13:20   [varn_vartani] review Key_Facts_hi.txt: 2 issue(s): - Point 6 incorrectly lists ऩ and ऱ as the two nuqta‑yukt consonants in Hindi; the traditional 52‑letter count us
+18-11 12:18:17   [sandhi] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q1 key c vs re-solve b, Q3 key c vs re-solve b, Q8 key b vs re-solve c, Q9 key c vs re-solve ?, Q14 
+18-11 12:19:12   [varn_vartani] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 19: Visarga sandhi rule incorrectly states visarga changes to half-forms of follo
 ```
