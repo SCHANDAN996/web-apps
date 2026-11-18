@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 10:33 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
+**आख़िरी update:** 18-11-2026 10:48 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 15 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 15 मिनट |
-| W3 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 15 मिनट |
-| W4 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 15 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
+| W2 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 5 मिनट |
+| W3 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
+| W4 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 30 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 12 |
-| key 4 | 10 |
+| key 3 | 20 |
+| key 4 | 13 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -44,6 +44,10 @@
 
 - अभी कोई नहीं
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 03 sangya sarvanam (Hindi) — 1 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
@@ -63,4 +67,14 @@
 18-11 10:27:41   [sangya_sarvanam] review Key_Facts_hi.txt: 4 issue(s): - Plural rule for consonant-ending nouns gives incorrect examples showing singular forms as plural options (फल → 
 18-11 10:28:36   [visheshan_kriya] REJECTED review fix Feynman_hi.txt: reviewer still reports - The 'काल के चिह्न' table incorrectly lists past tense suffixes as 'या/यी/ये' while the ex
 18-11 10:29:50   [sangya_sarvanam] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 4 plural rule for consonant-ending nouns gives wrong examples: "फल → फलें, घर → घ
+18-11 10:34:37   [sangya_sarvanam] review PYQ_hi.txt: 3 issue(s): - In section 5 (Error Detection), the answer key says (d) "किताब" but the error is in part (c) "अपने" (should be "अपनी"
+18-11 10:37:05   [sangya_sarvanam] REJECTED review fix PYQ_hi.txt: reviewer still reports - In section 1, the explanation incorrectly identifies "माँ" as व्यक्तिवाचक संज्ञा; "माँ" is a 
+18-11 10:38:31   [sangya_sarvanam] review Important_Rules_hi.txt: 6 issue(s): - Rule 2: The exception list heading 'ई कारांत पुल्लिंग' incorrectly lists feminine words 'पुत्री' and 'नौक
+18-11 10:39:14   [varn_vartani] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q64 key b vs re-solve ?, Q74 key d vs re-solve c)
+18-11 10:42:41   [sangya_sarvanam] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - In नियम २ and नियम ३, "हाथी" is incorrectly listed as an example of उकारांत/ऊकारा
+18-11 10:42:41   [sangya_sarvanam] review: 0 section(s) corrected, 4 failed
+18-11 10:42:41   [sangya_sarvanam] written 0, failed 4; AI calls today 31/100000
+18-11 10:42:41 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 25 min: todo [] problems []
+18-11 10:42:41 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (OK: todo 0, problems 0)
+18-11 10:44:48   [ling_vachan_karak] review Content_hi.txt: 4 issue(s): - In the बहुवचन बनाने के नियम table, the row for 'आ (स्त्रीलिंग)' gives examples 'लड़की → लड़कियाँ' and 'नदी → नदिय
 ```
