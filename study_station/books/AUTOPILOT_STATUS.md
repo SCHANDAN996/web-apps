@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 07:56 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 04:51 AM
+**आख़िरी update:** 18-11-2026 08:11 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 04:51 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 5 मिनट |
-| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 153 मिनट |
-| W3 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 64 मिनट |
-| W4 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 30 मिनट |
+| W1 | Chapter 07 word (12th Computer) | ✍️ लिख रहा है | 1 मिनट |
+| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 168 मिनट |
+| W3 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 4 मिनट |
+| W4 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 6 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 115 |
-| key 4 | 116 |
+| key 3 | 129 |
+| key 4 | 123 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -46,10 +46,10 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 01 varn vartani (Hindi) — 2 बार
-- Chapter 04 visheshan kriya (Hindi) — 1 बार
-- Chapter 04 software os (Computer) — 2 बार
-- Chapter 03 sangya sarvanam (Hindi) — 2 बार
+- Chapter 01 varn vartani (Hindi) — 3 बार
+- Chapter 04 visheshan kriya (Hindi) — 2 बार
+- Chapter 04 software os (Computer) — 3 बार
+- Chapter 03 sangya sarvanam (Hindi) — 3 बार
 - Chapter 05 ling vachan karak (Hindi) — 2 बार
 - Chapter 06 kaal vachya (Hindi) — 2 बार
 - Chapter 06 keyboard shortcuts (Computer) — 1 बार
@@ -57,36 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 07:06:36   [visheshan_kriya] REJECTED review fix Content_hi.txt: reviewer still reports - In Worked Example 1, “बहुत” is incorrectly identified as a संख्यावाचक विशेषण (परिमाणवाचक)
-18-11 07:08:07   [visheshan_kriya] review Feynman_hi.txt: 1 issue(s): - Question 1 explanation for option (घ) wrongly claims "सुन्दर" in "सुन्दर बनो" is not a विशेषण → It is a predicati
-18-11 07:09:48   [kaal_vachya] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q113 key d vs re-solve c, Q123 key c vs re-solve b)
-18-11 07:13:54   [sandhi] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q77 key b vs re-solve d, Q83 key a vs re-solve d, Q90 key d vs re-solve c, Q91 key a vs re-solve ?, 
-18-11 07:15:38   [kaal_vachya] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q116 key a vs re-solve ?)
-18-11 07:21:21   [sandhi] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q77 key d vs re-solve b, Q85 key d vs re-solve c, Q88 key c vs re-solve b, Q95 key d vs re-solve a)
-18-11 07:21:21   [sandhi] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
-18-11 07:21:41   [kaal_vachya] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q113 key c vs re-solve a)
-18-11 07:22:22   [sandhi] Practice_hi_Set_05.txt try 1: rejected (parsed 24 questions, numbers 101…125)
-18-11 07:23:45   [sandhi] Practice_hi_Set_05.txt try 2: rejected (Q103:duplicate_options,Q105:duplicate_options,Q107:duplicate_options,Q109:duplicate_options,Q111:duplicate_opt
-18-11 07:24:34   [sandhi] Practice_hi_Set_05.txt try 3: rejected (Q111:duplicate_options,Q113:duplicate_options,Q117:duplicate_options,Q123:duplicate_options,Q125:duplicate_opt
-18-11 07:25:51   [kaal_vachya] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q113 key a vs re-solve c)
-18-11 07:25:51   [kaal_vachya] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
-18-11 07:25:51   [kaal_vachya] written 0, failed 1; AI calls today 201/100000
-18-11 07:25:51 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya after 23 min: todo ['Set 05 hi: todo'] problems ['Mind_Map.txt: Hindi file is mostly not in Hindi']
-18-11 07:25:52 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
-18-11 07:27:17   [ling_vachan_karak] review Content_hi.txt: 7 issue(s): - नपुंसकलिंग के उदाहरणों में "फल", "पत्तल", "कमरा", "ज्ञान" दिए गए हैं → ये सभी पुल्लिंग/स्त्रीलिंग हैं; नपुंसकलिंग
-18-11 07:29:47   [ling_vachan_karak] REJECTED review fix Content_hi.txt: reviewer still reports - In Example 5 explanation, the rule "भाई → भाइयों (याँ प्रत्यय)" uses incorrect terminolog
-18-11 07:31:04   [ling_vachan_karak] review Key_Facts_hi.txt: 6 issue(s): - "हिंदी में तीन लिंग होते हैं" → "हिंदी में दो लिंग होते हैं: पुल्लिंग और स्त्रीलिंग"
-18-11 07:34:16   [ling_vachan_karak] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 6: Example 'शेर → शेरनी' wrongly listed under अकारांत पुल्लिंग rule; शेर is एकारा
-18-11 07:35:24   [ling_vachan_karak] review Feynman_hi.txt: 4 issue(s): - "पुस्तक" को पुल्लिंग में अपवाद के रूप में दिखाया गया है जबकि यह स्त्रीलिंग है → "पुस्तक" को स्त्रीलिंग कॉलम में र
-18-11 07:37:31   [ling_vachan_karak] REJECTED review fix Feynman_hi.txt: reviewer still reports - In the लिंग table, "कहानी" is incorrectly listed under पुल्लिंग; it is a स्त्रीलिंग word 
-18-11 07:40:01   [sandhi] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q101 key b vs re-solve d, Q104 key b vs re-solve d, Q106 key d vs re-solve a, Q108 key a vs re-solve
-18-11 07:40:01   [sandhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
-18-11 07:40:15   [ling_vachan_karak] review PYQ_hi.txt: 4 issue(s): - "SSC GD में इस अध्याय से 3–5 प्रश्न आते हैं" → invented exam statistic without year or source; remove or cite a speci
-18-11 07:42:06   [sangya_sarvanam] review Content_hi.txt: 3 issue(s): - "व्यक्तिवाचक → विशेष नाम (पहला अक्षर बड़ा)" rule is incorrect for Hindi (Devanagari has no capital letters) → Rem
-18-11 07:43:30   [sangya_sarvanam] REJECTED review fix Content_hi.txt: reviewer still reports - तालिका "लिंग, वचन और कारक" में "फल (पुं.)" का बहुवचन (प्रत्यक्ष कारक) "फलें" दिया गया है 
-18-11 07:46:09   [ling_vachan_karak] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 3 claims “कर्ता कारक 'ने' केवल अन्य पुरुष, भूतकाल, सकर्मक क्रिया में लगता है” → “ने” 
-18-11 07:47:00   [ling_vachan_karak] review Important_Rules_hi.txt: 7 issue(s): - Rule 1 states only two genders (पुल्लिंग, स्त्रीलिंग) → Hindi has three genders: पुल्लिंग, स्त्रीलिंग, नप
-18-11 07:50:37   [ling_vachan_karak] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम १: 'हिन्दी में संज्ञा के तीन लिंग होते हैं' गलत है → हिन्दी में दो लिंग (पुल
 18-11 07:50:37   [ling_vachan_karak] review: 0 section(s) corrected, 5 failed
 18-11 07:50:37   [ling_vachan_karak] written 0, failed 5; AI calls today 226/100000
 18-11 07:50:37 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 47 min: todo [] problems []
@@ -97,4 +67,34 @@
 18-11 07:54:18   [varn_vartani] Practice_hi_Set_03.txt try 3: rejected (Q52:duplicate_options)
 18-11 07:54:23   [sandhi] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q126 key b vs re-solve c, Q127 key d vs re-solve c, Q128 key a vs re-solve d, Q131 key b vs re-solve
 18-11 07:56:14   [sangya_sarvanam] review PYQ_hi.txt: 4 issue(s): - In Section 5 trap "कारक चिह्न लोप": "राम घर गया" is incorrectly marked as अशुद्ध; in Hindi the postposition "को" is o
+18-11 07:56:57   [varn_vartani] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q70 key a vs re-solve d)
+18-11 07:56:57   [varn_vartani] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+18-11 07:56:57   [varn_vartani] written 0, failed 1; AI calls today 234/100000
+18-11 07:56:57 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 6 min: todo ['Set 03 hi: todo'] problems []
+18-11 07:56:58 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os (OK: todo 0, problems 0)
+18-11 07:58:32   [visheshan_kriya] review PYQ_hi.txt: 1 issue(s): - The trap example "करना" vs "कर ना" for similar pronunciation different meaning is incorrect; "कर ना" is not a standar
+18-11 07:59:05   [sangya_sarvanam] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 3 "पुरुष भ्रम" trap incorrectly classifies "यहाँ/वहाँ" as सर्वनाम (pronouns) → "यहाँ/
+18-11 08:00:42   [sangya_sarvanam] review Important_Rules_hi.txt: 6 issue(s): - Rule 2: 'बहन' listed as आ-कारांत स्त्रीलिंग example, but 'बहन' ends in न, not आ → Remove 'बहन' or replace
+18-11 08:01:14   [visheshan_kriya] REJECTED review fix PYQ_hi.txt: reviewer still reports - In the "समान उच्चारण, भिन्न अर्थ" trap, the second meaning incorrectly writes "बाँध" (with ch
+18-11 08:02:25   [visheshan_kriya] review Important_Rules_hi.txt: 2 issue(s): - Rule 5 example "गुरु ने शिष्य को पढ़ाया विद्या" uses masculine verb "पढ़ाया" with feminine direct object 
+18-11 08:03:36   [software_os] review PYQ_en.txt: 2 issue(s): - Example 4 (Round Robin numerical): The answer key says (b) 3.33, but the correct average waiting time is 5.33 (not am
+18-11 08:05:16   [sangya_sarvanam] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 15 table row 1: "गलत वाक्य" and "सही वाक्य" are identical ("राम ने श्याम को 
+18-11 08:05:16   [sangya_sarvanam] review: 0 section(s) corrected, 3 failed
+18-11 08:05:16   [sangya_sarvanam] written 0, failed 3; AI calls today 246/100000
+18-11 08:05:17 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 39 min: todo [] problems []
+18-11 08:05:17 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya (TODO: todo 1, problems 1)
+18-11 08:05:17   [kaal_vachya] Hindi-only writer: direct Hindi content; English generation and translation disabled
+18-11 08:06:55   [visheshan_kriya] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 5 example "राम खाता है सेब" uses non-standard SVO word order; Hindi default 
+18-11 08:06:55   [visheshan_kriya] review: 1 section(s) corrected, 3 failed
+18-11 08:06:55   [visheshan_kriya] written 1, failed 3; AI calls today 248/100000
+18-11 08:06:55 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 75 min: todo [] problems []
+18-11 08:06:56 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_06_keyboard_shortcuts (OK: todo 0, problems 0)
+18-11 08:08:18   [software_os] REJECTED review fix PYQ_en.txt: reviewer still reports - Common Examiner Traps: "Ctrl+T opens a new tab in File Explorer" is marked false (browser onl
+18-11 08:08:50   [software_os] review Important_Rules_en.txt: 2 issue(s): - Rule 4 example incorrectly states that 8 GB RAM + 12 GB page file = 20 GB virtual address space per proce
+18-11 08:09:48   [software_os] REJECTED review fix Important_Rules_en.txt: reviewer still reports - Rule 4: "On 64-bit Windows, each process has a user-mode virtual address space of
+18-11 08:09:48   [software_os] review: 0 section(s) corrected, 2 failed
+18-11 08:09:48   [software_os] written 0, failed 2; AI calls today 252/100000
+18-11 08:09:48 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os after 13 min: todo [] problems []
+18-11 08:09:48 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word (TODO: todo 25, problems 0)
+18-11 08:11:04   [keyboard_shortcuts] review Content_hi.txt: 2 issue(s): - अनुभाग 6.2 की तालिका में `Backspace` को "पीछे जाएँ" शॉर्टकट के रूप में सूचीबद्ध किया गया है, लेकिन Chrome/Edge मे
 ```
