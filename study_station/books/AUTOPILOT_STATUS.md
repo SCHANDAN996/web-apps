@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 01:48 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 01:32 AM
+**आख़िरी update:** 19-11-2026 02:03 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 01:32 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 16 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 15 मिनट |
-| W3 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 15 मिनट |
-| W4 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 15 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
+| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 6 मिनट |
+| W3 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 10 मिनट |
+| W4 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 18 |
-| key 4 | 16 |
+| key 3 | 34 |
+| key 4 | 31 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -44,16 +44,14 @@
 
 - अभी कोई नहीं
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 04 visheshan kriya (Hindi) — 1 बार
+- Chapter 03 sangya sarvanam (Hindi) — 1 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 01:32:18 autopilot start: 4 workers, reverse=False
-19-11 01:32:18 API policy: account start interval=20s; key start interval=15s; in-flight per key=1
-19-11 01:32:18 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (OK: todo 0, problems 0)
-19-11 01:32:23 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
-19-11 01:32:28 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya (OK: todo 0, problems 0)
-19-11 01:32:33 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (OK: todo 0, problems 0)
-19-11 01:33:22   [sangya_sarvanam] review Content_hi.txt: 2 issue(s): - In the case-marker table, for 'फल (पुं.)' the singular oblique forms are shown as 'फले ने, फले को' → should be 'फ
 19-11 01:33:41   [varn_vartani] review Content_hi.txt: 1 issue(s): - The मात्रा-नियम table lists incorrect examples for 'इ' (ि): "फल" → "फिल" (अशुद्ध) and "फूल" → "फुल" (अशुद्ध) inst
 19-11 01:34:50   [visheshan_kriya] review Content_hi.txt: 1 issue(s): - In section 1.3 table, 'नीला' and 'मीठा' are incorrectly classified as अरूपांतरित विशेषण; they are रूपांतरित विशेष
 19-11 01:34:58   [sangya_sarvanam] REJECTED review fix Content_hi.txt: reviewer still reports - The rule for ergative "ने" is incorrectly generalized to all past tense (भूतकाल) for tran
@@ -70,4 +68,28 @@
 19-11 01:46:11   [varn_vartani] review Feynman_hi.txt: 5 issue(s): - Section 1 claims "33 व्यंजन" but lists 36 items (including क्ष, त्र, ज्ञ) → either change the count to 36 or remo
 19-11 01:46:37   [ling_vachan_karak] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 7: The rule for feminine of ī-kārant masculine nouns incorrectly cites non-ī-kāra
 19-11 01:47:53   [ling_vachan_karak] review Feynman_hi.txt: 1 issue(s): - The second common mistake example "राम को बुलाओ" is labeled for past tense subject but is an imperative sentence 
+19-11 01:49:02   [visheshan_kriya] review Important_Rules_hi.txt: 1 issue(s): - Rule 5 example "राम खाता है सेब" violates standard Hindi SOV word order (object placed after verb) → Corr
+19-11 01:50:16   [ling_vachan_karak] review Flashcards_hi.txt: 2 issue(s): - Card 1 claims Hindi has three genders including "नपुंसकलिंग" and cites "फल" as neuter → Hindi has only two gen
+19-11 01:50:51   [varn_vartani] REJECTED review fix Feynman_hi.txt: reviewer still reports - In the चंद्रबिंदु rule table, "सँभाल" is incorrectly listed as correct and "संभाल" as wro
+19-11 01:51:23   [ling_vachan_karak] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 9: The rule given for plural of उ‑कारांत words (“उ के बाद एँ जुड़ता है → उएँ”) an
+19-11 01:52:56   [visheshan_kriya] review: 2 section(s) corrected, 1 failed
+19-11 01:52:56   [visheshan_kriya] written 2, failed 1; AI calls today 49/100000
+19-11 01:52:56 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 20 min: todo [] problems []
+19-11 01:52:56 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya (OK: todo 0, problems 0)
+19-11 01:54:03   [ling_vachan_karak] review PYQ_hi.txt: 3 issue(s): - "SSC GD में इस अध्याय से 3–5 प्रश्न आते हैं" → invented exam statistic without year or official source; remove or cit
+19-11 01:54:44   [sangya_sarvanam] review Important_Rules_hi.txt: 7 issue(s): - Rule 2: 'आ कारांत स्त्रीलिंग' list includes non-आ-ending words (बहन, सास, नानी) and 'ई कारांत पुल्लिंग' i
+19-11 01:56:00   [ling_vachan_karak] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 3, 6, 7: Rule for 'ने' incorrectly restricts it to third person (अन्य पुरुष) in past 
+19-11 01:57:30   [sangya_sarvanam] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम २ में "आ कारांत स्त्रीलिंग" की सूची में "दादी", "नानी", "सास" शामिल हैं जो आ
+19-11 01:57:30   [sangya_sarvanam] review: 0 section(s) corrected, 3 failed
+19-11 01:57:30   [sangya_sarvanam] written 0, failed 3; AI calls today 55/100000
+19-11 01:57:31 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 25 min: todo [] problems []
+19-11 01:57:31 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi (TODO: todo 5, problems 0)
+19-11 01:57:31   [sandhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
+19-11 01:58:15   [varn_vartani] review Flashcards_hi.txt: 4 issue(s): - Card 5: Wrong anusvara example "कं = कंग" (velar nasal should be ङ, not न) → Use correct example "कंठ = कण्ठ" 
+19-11 01:58:24   [kaal_vachya] review Content_hi.txt: 3 issue(s): - The claim "SSC GD, MTS, RRB Group D जैसी परीक्षाओं में इनसे प्रतिवर्ष 3–5 प्रश्न पूछे जाते हैं" is an invented ex
+19-11 01:59:32   [varn_vartani] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 5: The example 'पंक्ति = पम्क्ति' for anusvara before कवर्ग is wrong; anusvara be
+19-11 02:00:35   [kaal_vachya] REJECTED review fix Content_hi.txt: reviewer still reports - वर्तमान काल की सारणी में 'पूर्ण सतत' की संरचना में 'से/को' को क्रिया का भाग बताया गया है,
+19-11 02:01:10   [varn_vartani] review PYQ_hi.txt: 1 issue(s): - The table entry for 'उपसर्ग-प्रत्यय जोड़' incorrectly states that 'न्' becomes anusvara (ं) before य/र/ल/व/श/ष/स/ह (e
+19-11 02:01:32   [kaal_vachya] review Key_Facts_hi.txt: 6 issue(s): - Point 2: “संदिग्ध वर्तमान” listed as a present‑tense form → Hindi present tense has three aspects (सामान्य, सतत
+19-11 02:03:28   [ling_vachan_karak] review Important_Rules_hi.txt: 2 issue(s): - नियम ४ (घ) में कहा गया है कि इ/ई/उ/ऊ/ए/ओकारांत संज्ञाएँ बहुवचन में प्रायः अपरिवर्तित रहती हैं, लेकिन उदाह
 ```
