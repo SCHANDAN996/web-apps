@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 07:25 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 04:51 AM
+**आख़िरी update:** 18-11-2026 07:40 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 04:51 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 22 मिनट |
-| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 122 मिनट |
-| W3 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 34 मिनट |
-| W4 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 22 मिनट |
+| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 37 मिनट |
+| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 137 मिनट |
+| W3 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 49 मिनट |
+| W4 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 14 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 99 |
-| key 4 | 100 |
+| key 3 | 112 |
+| key 4 | 102 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -51,26 +51,12 @@
 - Chapter 04 software os (Computer) — 2 बार
 - Chapter 03 sangya sarvanam (Hindi) — 2 बार
 - Chapter 05 ling vachan karak (Hindi) — 1 बार
-- Chapter 06 kaal vachya (Hindi) — 1 बार
+- Chapter 06 kaal vachya (Hindi) — 2 बार
 - Chapter 06 keyboard shortcuts (Computer) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 06:47:58   [sangya_sarvanam] review Important_Rules_hi.txt: 6 issue(s): - Rule 2: The list of 'आ कारांत स्त्रीलिंग' includes words not ending in आ (बहन, चिड़िया, सास, नानी) → Only
-18-11 06:49:41   [keyboard_shortcuts] review PYQ_en.txt: 1 issue(s): - Pattern 4 example question asks "Which key combination does NOT open Task Manager directly?" but option (d) "Right-cl
-18-11 06:51:25   [sangya_sarvanam] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 3 table: plural rule for ई-ending nouns incorrectly includes 'एँ' (ई → इयाँ 
-18-11 06:51:25   [sangya_sarvanam] review: 1 section(s) corrected, 4 failed
-18-11 06:51:25   [sangya_sarvanam] written 1, failed 4; AI calls today 164/100000
-18-11 06:51:25 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 32 min: todo [] problems []
-18-11 06:51:26 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya (OK: todo 0, problems 0)
-18-11 06:53:43   [keyboard_shortcuts] review Important_Rules_hi.txt: 1 issue(s): - नियम 12 में "Ctrl+Shift+N नई निजी/इनकॉग्निटो विंडो" को क्रोम/एज/फायरफॉक्स तीनों के लिए सार्वभौमिक बताया ग
-18-11 06:54:59   [keyboard_shortcuts] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम 14 में `Ctrl + M` को मार्क मोड का शॉर्टकट बताया गया है, जबकि कमांड प्रॉम्प्ट
-18-11 06:54:59   [keyboard_shortcuts] review: 3 section(s) corrected, 2 failed
-18-11 06:54:59   [keyboard_shortcuts] written 3, failed 2; AI calls today 170/100000
-18-11 06:54:59 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_06_keyboard_shortcuts after 97 min: todo [] problems []
-18-11 06:55:00 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os (OK: todo 0, problems 0)
-18-11 06:56:36   [visheshan_kriya] review Content_hi.txt: 1 issue(s): - In the table "विशेषण के रूप-परिवर्तन", "नीला" and "मीठा" are wrongly classified as अरूपांतरित विशेषण; they are रू
 18-11 06:57:34   [software_os] review PYQ_en.txt: 2 issue(s): - Example 4: Answer (b) 3.33 is incorrect; the correct average waiting time for the given processes (P1=6, P2=4, P3=2, 
 18-11 06:59:49   [software_os] REJECTED review fix PYQ_en.txt: reviewer still reports - In "Common Examiner Traps", the trap "Ctrl+T opens a new tab in File Explorer" is labeled fal
 18-11 07:02:06   [software_os] review Important_Rules_en.txt: 3 issue(s): - Rule 3: "Windows uses NTFS as the default file system since Windows NT 3.1" is false for the Windows 9x/M
@@ -97,4 +83,18 @@
 18-11 07:22:22   [sandhi] Practice_hi_Set_05.txt try 1: rejected (parsed 24 questions, numbers 101…125)
 18-11 07:23:45   [sandhi] Practice_hi_Set_05.txt try 2: rejected (Q103:duplicate_options,Q105:duplicate_options,Q107:duplicate_options,Q109:duplicate_options,Q111:duplicate_opt
 18-11 07:24:34   [sandhi] Practice_hi_Set_05.txt try 3: rejected (Q111:duplicate_options,Q113:duplicate_options,Q117:duplicate_options,Q123:duplicate_options,Q125:duplicate_opt
+18-11 07:25:51   [kaal_vachya] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q113 key a vs re-solve c)
+18-11 07:25:51   [kaal_vachya] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
+18-11 07:25:51   [kaal_vachya] written 0, failed 1; AI calls today 201/100000
+18-11 07:25:51 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya after 23 min: todo ['Set 05 hi: todo'] problems ['Mind_Map.txt: Hindi file is mostly not in Hindi']
+18-11 07:25:52 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
+18-11 07:27:17   [ling_vachan_karak] review Content_hi.txt: 7 issue(s): - नपुंसकलिंग के उदाहरणों में "फल", "पत्तल", "कमरा", "ज्ञान" दिए गए हैं → ये सभी पुल्लिंग/स्त्रीलिंग हैं; नपुंसकलिंग
+18-11 07:29:47   [ling_vachan_karak] REJECTED review fix Content_hi.txt: reviewer still reports - In Example 5 explanation, the rule "भाई → भाइयों (याँ प्रत्यय)" uses incorrect terminolog
+18-11 07:31:04   [ling_vachan_karak] review Key_Facts_hi.txt: 6 issue(s): - "हिंदी में तीन लिंग होते हैं" → "हिंदी में दो लिंग होते हैं: पुल्लिंग और स्त्रीलिंग"
+18-11 07:34:16   [ling_vachan_karak] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 6: Example 'शेर → शेरनी' wrongly listed under अकारांत पुल्लिंग rule; शेर is एकारा
+18-11 07:35:24   [ling_vachan_karak] review Feynman_hi.txt: 4 issue(s): - "पुस्तक" को पुल्लिंग में अपवाद के रूप में दिखाया गया है जबकि यह स्त्रीलिंग है → "पुस्तक" को स्त्रीलिंग कॉलम में र
+18-11 07:37:31   [ling_vachan_karak] REJECTED review fix Feynman_hi.txt: reviewer still reports - In the लिंग table, "कहानी" is incorrectly listed under पुल्लिंग; it is a स्त्रीलिंग word 
+18-11 07:40:01   [sandhi] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q101 key b vs re-solve d, Q104 key b vs re-solve d, Q106 key d vs re-solve a, Q108 key a vs re-solve
+18-11 07:40:01   [sandhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
+18-11 07:40:15   [ling_vachan_karak] review PYQ_hi.txt: 4 issue(s): - "SSC GD में इस अध्याय से 3–5 प्रश्न आते हैं" → invented exam statistic without year or source; remove or cite a speci
 ```
