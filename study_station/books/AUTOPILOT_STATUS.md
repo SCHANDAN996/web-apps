@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 11:03 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
+**आख़िरी update:** 18-11-2026 11:18 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 12 मिनट |
-| W2 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 21 मिनट |
-| W3 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 46 मिनट |
-| W4 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 46 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 27 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 3 मिनट |
+| W3 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 61 मिनट |
+| W4 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 61 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 35 |
-| key 4 | 26 |
+| key 3 | 43 |
+| key 4 | 40 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -47,24 +47,11 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 03 sangya sarvanam (Hindi) — 1 बार
+- Chapter 05 ling vachan karak (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 10:17:18 autopilot start: 4 workers, reverse=False
-18-11 10:17:18 API policy: account start interval=20s; key start interval=15s; in-flight per key=1
-18-11 10:17:18 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (TODO: todo 1, problems 0)
-18-11 10:17:19   [varn_vartani] Hindi-only writer: direct Hindi content; English generation and translation disabled
-18-11 10:17:23 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
-18-11 10:17:28 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya (OK: todo 0, problems 0)
-18-11 10:17:33 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os (OK: todo 0, problems 0)
-18-11 10:18:22   [varn_vartani] Practice_hi_Set_03.txt try 1: rejected (Q63:duplicate_options,Q70:duplicate_options)
-18-11 10:19:57   [visheshan_kriya] review Content_hi.txt: 1 issue(s): - In section 1.3 table, "नीला" and "मीठा" are incorrectly listed as अरूपांतरित विशेषण; they are रूपांतरित विशेषण (न
-18-11 10:21:02   [sangya_sarvanam] review Content_hi.txt: 1 issue(s): - Example 6 lists “औरत” and “बच्चा” as words whose plural form is identical to the singular, but “औरत” plural is “औ
-18-11 10:22:56   [sangya_sarvanam] REJECTED review fix Content_hi.txt: reviewer still reports - In Section 3 table, the case markers (कारक चिह्न) are given only for singular oblique for
-18-11 10:23:09   [visheshan_kriya] REJECTED review fix Content_hi.txt: reviewer still reports - In Section 1.3 table, "नीला" is incorrectly listed as an example of अरूपांतरित विशेषण (no
-18-11 10:26:05   [visheshan_kriya] review Feynman_hi.txt: 3 issue(s): - Question 1 answer states only (ख) is correct for "सुन्दर" as adjective, but (घ) "सुन्दर बनो" also uses "सुन्दर" a
-18-11 10:27:41   [sangya_sarvanam] review Key_Facts_hi.txt: 4 issue(s): - Plural rule for consonant-ending nouns gives incorrect examples showing singular forms as plural options (फल → 
 18-11 10:28:36   [visheshan_kriya] REJECTED review fix Feynman_hi.txt: reviewer still reports - The 'काल के चिह्न' table incorrectly lists past tense suffixes as 'या/यी/ये' while the ex
 18-11 10:29:50   [sangya_sarvanam] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 4 plural rule for consonant-ending nouns gives wrong examples: "फल → फलें, घर → घ
 18-11 10:34:37   [sangya_sarvanam] review PYQ_hi.txt: 3 issue(s): - In section 5 (Error Detection), the answer key says (d) "किताब" but the error is in part (c) "अपने" (should be "अपनी"
@@ -90,4 +77,19 @@
 18-11 10:59:30   [ling_vachan_karak] REJECTED review fix Feynman_hi.txt: reviewer still reports - लिंग table lists "कहानी" under पुल्लिंग → "कहानी" is स्त्रीलिंग; move it to स्त्रीलिंग co
 18-11 11:00:21   [varn_vartani] review Feynman_hi.txt: 7 issue(s): - Section 1 claims 33 consonants but lists 36 (including क्ष, त्र, ज्ञ) → Correct the count to 36 consonants or lis
 18-11 11:03:07   [software_os] review PYQ_en.txt: 2 issue(s): - Example 4 (Round Robin numerical): The calculated average waiting time is 16/3 ≈ 5.33, but the answer key lists (b) 3
+18-11 11:04:38   [visheshan_kriya] REJECTED review fix PYQ_hi.txt: reviewer still reports - The example under 'क्रिया विशेषण (Adverb) भ्रम' has an ungrammatical sentence: 'वह ______ चलत
+18-11 11:08:16   [varn_vartani] REJECTED review fix Feynman_hi.txt: reviewer still reports - The rule "अनुस्वार (ं) — ह, य, र, व, ल, श, ष, स के पहले" is illustrated with examples "गं
+18-11 11:08:29   [visheshan_kriya] review Important_Rules_hi.txt: 2 issue(s): - नियम ३: यह कहना कि 'संख्यावाचक, परिमाणवाचक, सार्वनामिक विशेषण प्रायः नहीं बदलते' गलत है; सार्वनामिक विशेष
+18-11 11:09:53   [ling_vachan_karak] review PYQ_hi.txt: 5 issue(s): - "SSC GD में इस अध्याय से 3–5 प्रश्न आते हैं" → आविष्कृत परीक्षा सांख्यिकी है, कोई वर्ष/स्रोत नहीं; हटाएँ या विशिष्ट व
+18-11 11:11:04   [varn_vartani] review Flashcards_hi.txt: 8 issue(s): - Card 3 omits consonants ड़ and ढ़ from the avargiya list; they should be included. → Add ड़, ढ़ to the avargiy
+18-11 11:12:19   [ling_vachan_karak] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 5 (Error Detection) trap list incorrectly includes "या स्त्रीलिंग कर्ता के साथ बिना '
+18-11 11:13:27   [ling_vachan_karak] review Important_Rules_hi.txt: 7 issue(s): - Rule 2 exception: 'किरण' cited as ending in इ/आ, but किरण ends in a consonant → Remove किरण or correct de
+18-11 11:15:48   [ling_vachan_karak] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम ६ में "(कर्तृवाच्य/सक्रिय कर्मणी)" गलत शब्दावली है → "कर्तृवाच्य (सक्रिय वाच
+18-11 11:15:48   [ling_vachan_karak] review: 0 section(s) corrected, 5 failed
+18-11 11:15:48   [ling_vachan_karak] written 0, failed 5; AI calls today 79/100000
+18-11 11:15:48 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 33 min: todo [] problems []
+18-11 11:15:48 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
+18-11 11:16:29   [varn_vartani] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 1: हिंदी वर्णमाला में 47 वर्ण (11 स्वर + 36 व्यंजन) बताया गया है → मानक हिंदी वर्
+18-11 11:16:48   [software_os] review Important_Rules_en.txt: 3 issue(s): - Rule 4 example: "8 GB RAM + 12 GB page file = 20 GB virtual address space per process (on 64-bit Windows)
+18-11 11:18:00   [varn_vartani] review PYQ_hi.txt: 2 issue(s): - 1.2 के हल में "विधालय" की त्रुटि को 'ध' के बाद की मात्रा बताना गलत है → त्रुटि 'ध' के स्थान पर 'द्' होना है
 ```
