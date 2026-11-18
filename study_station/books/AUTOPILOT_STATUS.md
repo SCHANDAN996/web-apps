@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 04:52 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 01:32 AM
+**आख़िरी update:** 19-11-2026 05:07 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 01:32 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 excel (12th Computer) | ✍️ लिख रहा है | 33 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 10 मिनट |
-| W3 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 3 मिनट |
-| W4 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 28 मिनट |
+| W1 | Chapter 08 excel (12th Computer) | ✍️ लिख रहा है | 48 मिनट |
+| W2 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 15 मिनट |
+| W3 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 18 मिनट |
+| W4 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 44 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 178 |
-| key 4 | 116 |
+| key 3 | 200 |
+| key 4 | 131 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -47,7 +47,7 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 04 visheshan kriya (Hindi) — 3 बार
-- Chapter 03 sangya sarvanam (Hindi) — 3 बार
+- Chapter 03 sangya sarvanam (Hindi) — 4 बार
 - Chapter 06 kaal vachya (Hindi) — 2 बार
 - Chapter 01 varn vartani (Hindi) — 2 बार
 - Chapter 05 ling vachan karak (Hindi) — 2 बार
@@ -58,28 +58,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 04:32:12   [ling_vachan_karak] review Feynman_hi.txt: 2 issue(s): - Mind map incorrectly places plural formation rules (आकारांत पुल्लिंग → ए, आकारांत स्त्रीलिंग → एँ, व्यंजनांत → एँ
-19-11 04:33:53   [ling_vachan_karak] REJECTED review fix Feynman_hi.txt: reviewer still reports - Flashcard 15 states verb agrees only with कर्ता, not कर्म → Verb agrees with कर्ता in non
-19-11 04:35:59   [sandhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q128 key d vs re-solve a, Q130 key b vs re-solve d, Q131 key a vs re-solve b, Q142 key b vs re-solve
-19-11 04:35:59   [sandhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
-19-11 04:35:59   [sandhi] written 0, failed 5; AI calls today 260/100000
-19-11 04:35:59 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi after 158 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo'] problems []
-19-11 04:35:59 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya (OK: todo 0, problems 0)
-19-11 04:36:30   [ling_vachan_karak] review PYQ_hi.txt: 4 issue(s): - Section 5 trap list: "ने का गलत प्रयोग … स्त्रीलिंग कर्ता के साथ बिना 'ने' के" lists omission of 'ने' as a "wrong usa
-19-11 04:37:31   [excel] wrote Flashcards_en.txt (3909 chars)
-19-11 04:37:47   [samas] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q1 key c vs re-solve b, Q12 key c vs re-solve d, Q14 key d vs re-solve b)
-19-11 04:38:20   [excel] wrote Flashcards_hi.txt (4913 chars)
-19-11 04:38:23   [visheshan_kriya] review Content_hi.txt: 1 issue(s): - In section 1.3, the table incorrectly lists "नीला" and "मीठा" as अरूपांतरित विशेषण (indeclinable adjectives); the
-19-11 04:38:48   [excel] wrote PYQ_en.txt (9147 chars)
-19-11 04:39:52   [excel] wrote PYQ_hi.txt (12726 chars)
-19-11 04:41:16   [visheshan_kriya] REJECTED review fix Content_hi.txt: reviewer still reports - Rule in 1.1 claims "विशेषण हमेशा संज्ञा/सर्वनाम के लिंग, वचन, कारक के अनुसार बदलता है" → 
-19-11 04:41:16   [visheshan_kriya] review: 0 section(s) corrected, 1 failed
-19-11 04:41:16   [visheshan_kriya] written 0, failed 1; AI calls today 272/100000
-19-11 04:41:17 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 5 min: todo [] problems []
-19-11 04:41:17 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
-19-11 04:41:34   [samas] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q22 key b vs re-solve d)
-19-11 04:41:56   [ling_vachan_karak] REJECTED review fix PYQ_hi.txt: reviewer still reports - In section 7 (15-सेकंड नियम), the gender heuristic lists “दादा”, “नाना” as exceptions to “आका
-19-11 04:42:55   [sangya_sarvanam] review Key_Facts_hi.txt: 3 issue(s): - Point 16: Suffix "ता/ती" is illustrated with "मीठा → मिठास" which actually uses suffix "आस" → Move this example
 19-11 04:43:13   [ling_vachan_karak] review Important_Rules_hi.txt: 2 issue(s): - नियम ४ (घ) में कहा गया है कि इ/ई/उ/ऊ/ए/ओकारांत संज्ञाएँ बहुवचन में प्रायः अपरिवर्तित रहती हैं, लेकिन उदाह
 19-11 04:44:06   [excel] wrote Important_Rules_en.txt (5992 chars)
 19-11 04:45:15   [excel] wrote Important_Rules_hi.txt (9161 chars)
@@ -98,4 +76,26 @@
 19-11 04:52:21   [sangya_sarvanam] written 2, failed 1; AI calls today 297/100000
 19-11 04:52:21 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 11 min: todo [] problems []
 19-11 04:52:22 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya (OK: todo 0, problems 0)
+19-11 04:53:28   [excel] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+19-11 04:53:38   [word] REJECTED review fix Content_en.txt: reviewer still reports - In section 5.1, the Change Case (`Shift+F3`) description lists four toggle states includi
+19-11 04:54:18   [kaal_vachya] review Content_hi.txt: 4 issue(s): - Invented exam statistic: "प्रतिवर्ष 3–5 प्रश्न पूछे जाते हैं" → Remove the specific number claim or replace with 
+19-11 04:54:23   [excel] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+19-11 04:56:02   [kaal_vachya] REJECTED review fix Content_hi.txt: reviewer still reports - In भविष्यत काल table, the structure for सतत is given as 'मूल क्रिया + रहा/रहे/रही + गा/गे
+19-11 04:56:38   [kaal_vachya] review Key_Facts_hi.txt: 2 issue(s): - Fact 18 mislabels “पढ़ा जाएगा” as past tense in the wrong example; “पढ़ा जाएगा” is future passive, while the pa
+19-11 04:57:12   [excel] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+19-11 04:58:26   [kaal_vachya] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 9 incorrectly states that the passive verb is formed by adding ‘जा/जाता/जाती/जाते
+19-11 04:58:27   [samas] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q12 key d vs re-solve c)
+19-11 04:58:27   [samas] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
+19-11 04:59:23   [kaal_vachya] review PYQ_hi.txt: 2 issue(s): - In section 2.1, the passive formation rule states “क्रिया → *जा/ई/ए* + मूल क्रिया का भूतकालिक कृदंत” which reverses t
+19-11 05:00:18   [word] review Content_hi.txt: 1 issue(s): - In Quick Revision point 8, the German word "für" is used instead of Hindi "के लिए" → replace "für" with "के लिए"
+19-11 05:01:37   [kaal_vachya] REJECTED review fix PYQ_hi.txt: reviewer still reports - त्वरित जाँच-सूची (बिंदु 4) में काल परिवर्तन का सामान्य नियम गलत है: सक्रिय वाच्य में काल बदलन
+19-11 05:02:26   [word] REJECTED review fix Content_hi.txt: reviewer still reports - Quick Revision point 3 lists 'Focus (Alt+V,F)' as a separate view mode with an invalid sh
+19-11 05:02:41   [kaal_vachya] review Important_Rules_hi.txt: 3 issue(s): - नियम २ के अपवाद में टाइपो: "नहीं कहते — 'वह जा रहा है' के स्थान पर 'वह जा रहा है' मान्य है" → दोनों वाक्य
+19-11 05:03:05   [word] review Key_Facts_en.txt: 2 issue(s): - In point 20, the description of underline colors for grammar and context is incorrect: grammar errors are marke
+19-11 05:03:52   [word] REJECTED review fix Key_Facts_en.txt: reviewer still reports - Point 19 wildcard examples use regex syntax (`{1,}`) which is invalid in Word's Find/Re
+19-11 05:04:11   [samas] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q57 key d vs re-solve b, Q59 key d vs re-solve a, Q61 key d vs re-solve b, Q63 key b vs re-solve c, 
+19-11 05:05:03   [excel] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+19-11 05:05:42   [excel] Practice_en_Set_03.txt try 1: rejected (Q53:leaked_reasoning,Q67:leaked_reasoning)
+19-11 05:06:26   [excel] Practice_en_Set_03.txt try 2: rejected (Q53:leaked_reasoning,Q67:leaked_reasoning)
+19-11 05:06:59   [samas] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q63 key b vs re-solve c)
 ```
