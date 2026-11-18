@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 08:57 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 04:51 AM
+**आख़िरी update:** 18-11-2026 09:12 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 04:51 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 word (12th Computer) | ✍️ लिख रहा है | 47 मिनट |
-| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 37 मिनट |
-| W4 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 6 मिनट |
+| W1 | Chapter 07 word (12th Computer) | ✍️ लिख रहा है | 62 मिनट |
+| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 52 मिनट |
+| W4 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 21 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 169 |
-| key 4 | 134 |
+| key 3 | 180 |
+| key 4 | 136 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -57,13 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 08:19:48   [samas] Hindi-only writer: direct Hindi content; English generation and translation disabled
-18-11 08:21:52   [word] wrote Content_en.txt (20974 chars)
-18-11 08:23:29   [word] wrote Content_hi.txt (13359 chars)
-18-11 08:25:10   [samas] wrote Content_hi.txt (8001 chars)
-18-11 08:25:55   [samas] wrote Key_Facts_hi.txt (3909 chars)
-18-11 08:27:01   [word] wrote Key_Facts_en.txt (6624 chars)
-18-11 08:28:21   [word] wrote Key_Facts_hi.txt (5160 chars)
 18-11 08:28:49   [word] wrote Feynman_en.txt (3714 chars)
 18-11 08:29:21   [word] wrote Feynman_hi.txt (3759 chars)
 18-11 08:29:30   [word] wrote Mind_Map.txt (1649 chars)
@@ -97,4 +90,11 @@
 18-11 08:54:35   [samas] Practice_hi_Set_01.txt try 1: rejected (parsed 24 questions, numbers 1…25)
 18-11 08:54:38   [word] Practice_hi_Set_01.txt try 1: rejected (parsed 25 questions, numbers 51…75)
 18-11 08:55:43   [varn_vartani] Practice_hi_Set_03.txt try 1: rejected (parsed 24 questions, numbers 51…75)
+18-11 08:58:27   [samas] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q4 key a vs re-solve c, Q16 key c vs re-solve d, Q18 key a vs re-solve b, Q19 key d vs re-solve a, Q
+18-11 09:01:12   [word] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+18-11 09:04:04   [word] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+18-11 09:04:27   [varn_vartani] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q64 key a vs re-solve d, Q67 key c vs re-solve b, Q71 key d vs re-solve b)
+18-11 09:06:25   [word] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+18-11 09:09:14   [word] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+18-11 09:12:18   [samas] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q4 key b vs re-solve c, Q16 key c vs re-solve b, Q18 key a vs re-solve b, Q19 key c vs re-solve a, Q
 ```
