@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 12:35 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
+**आख़िरी update:** 18-11-2026 12:50 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 67 मिनट |
-| W2 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 2 मिनट |
-| W3 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 33 मिनट |
-| W4 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 9 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 83 मिनट |
+| W2 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 17 मिनट |
+| W3 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 48 मिनट |
+| W4 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 24 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 86 |
-| key 4 | 75 |
+| key 3 | 88 |
+| key 4 | 83 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -57,13 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 11:47:53   [sangya_sarvanam] REJECTED review fix PYQ_hi.txt: reviewer still reports - "आप" के प्रयोग में "सर्वनाम 'आपका/आपकी' एकवचन रूप में" कथन गलत है → "आपका/आपकी" अनुगामी संज्ञ
-18-11 11:49:15   [sangya_sarvanam] review Important_Rules_hi.txt: 6 issue(s): - Rule 2: 'आ कारांत स्त्रीलिंग' list includes non-आ-कारांत words (बहन, सास, नानी) → Remove them; only inclu
-18-11 11:49:16   [sandhi] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q1 key a vs re-solve b, Q5 key c vs re-solve d, Q9 key d vs re-solve c, Q14 key b vs re-solve a, Q15
-18-11 11:52:04   [sangya_sarvanam] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम २ में "चिड़िया" को "ई कारांत" शब्दों की सूची में दिया गया है → "चिड़िया" "आ 
-18-11 11:52:04   [sangya_sarvanam] review: 1 section(s) corrected, 4 failed
-18-11 11:52:04   [sangya_sarvanam] written 1, failed 4; AI calls today 127/100000
-18-11 11:52:04 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 36 min: todo [] problems []
 18-11 11:52:04 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya (OK: todo 0, problems 0)
 18-11 11:52:57   [visheshan_kriya] review Content_hi.txt: 1 issue(s): - In section 1.3 table, "नीला" and "मीठा" are incorrectly listed as अरूपांतरित विशेषण (invariable adjectives); they
 18-11 11:55:34   [kaal_vachya] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q118 key c vs re-solve a, Q123 key d vs re-solve c)
@@ -97,4 +90,11 @@
 18-11 12:32:47 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (OK: todo 0, problems 0)
 18-11 12:34:13   [sandhi] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q1 key b vs re-solve c, Q5 key a vs re-solve d, Q7 key a vs re-solve b, Q14 key a vs re-solve d, Q15
 18-11 12:35:04   [varn_vartani] REJECTED review fix Feynman_hi.txt: reviewer still reports - Section 3 table (चंद्रबिंदु rule) incorrectly lists पँर, कँल, पँशु, उँष्ण, सँसार as corre
+18-11 12:40:48   [varn_vartani] review Flashcards_hi.txt: 5 issue(s): - Card 1 claims 52 letters (11 vowels + 41 consonants) → Hindi alphabet has 11 vowels and 33 consonants (total 4
+18-11 12:43:27   [varn_vartani] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 13: Front asks for matra rules of 'य/ए/ऐ' and 'व/ओ/औ', but back only explains mat
+18-11 12:44:48   [varn_vartani] review PYQ_hi.txt: 2 issue(s): - Section 1.2 explanation: "विधालय" में 'ध' के बाद 'आ' की मात्रा गलत है — the error is not the matra but the consonant 
+18-11 12:48:03   [varn_vartani] REJECTED review fix PYQ_hi.txt: reviewer still reports - In 1.5, the explanation incorrectly states that chandrabindu (ँ) is used only on vowels when 
+18-11 12:49:38   [sandhi] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q1 key c vs re-solve b, Q5 key d vs re-solve a, Q7 key d vs re-solve b, Q14 key c vs re-solve d, Q15
+18-11 12:49:38   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
+18-11 12:50:14   [varn_vartani] review Important_Rules_hi.txt: 6 issue(s): - Point 5: Rule states long vowels and ऋ take only bindu (ं) for nasalization; example 'हाँसी' uses chandra
 ```
