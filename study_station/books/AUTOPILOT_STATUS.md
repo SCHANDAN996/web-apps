@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 08:05 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 03:42 PM
+**आख़िरी update:** 18-11-2026 08:20 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 03:42 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 170 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 186 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 197 |
-| key 4 | 101 |
+| key 3 | 199 |
+| key 4 | 102 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -54,7 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 19:08:55   [varn_vartani] review Feynman_hi.txt: 4 issue(s): - Section 3 table: The chandrabindu rule example "गँगा" is incorrect because 'ग' is not in the list (ह, य, र, व, ल,
 18-11 19:13:54   [varn_vartani] REJECTED review fix Feynman_hi.txt: reviewer still reports - Section 1: The consonant list includes 36 items (क्ष, त्र, ज्ञ) but the text claims 33 co
 18-11 19:15:25   [sandhi] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q51 key c vs re-solve b, Q53 key a vs re-solve ?, Q59 key a vs re-solve c, Q62 key c vs re-solve b, 
 18-11 19:16:17   [varn_vartani] review Important_Rules_hi.txt: 9 issue(s): - Point 5: Rule states long vowels take only anusvara (बिन्दु) but example "हाँसी" is given as correct with
@@ -94,4 +93,5 @@
 18-11 19:59:30   [software_os] written 2, failed 1; AI calls today 296/100000
 18-11 19:59:30 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os after 64 min: todo [] problems []
 18-11 19:59:30 worker 0: nothing left
+18-11 20:07:50   [sandhi] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q83 key a vs re-solve ?, Q89 key a vs re-solve ?, Q93 key c vs re-solve ?)
 ```
