@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 11:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 09:08 PM
+**आख़िरी update:** 18-11-2026 11:27 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 09:08 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 28 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 42 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 59 मिनट |
-| W4 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 23 मिनट |
+| W1 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 10 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 58 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 75 मिनट |
+| W4 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 39 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 79 |
-| key 4 | 79 |
+| key 3 | 88 |
+| key 4 | 84 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -49,7 +49,7 @@
 - Chapter 04 visheshan kriya (Hindi) — 2 बार
 - Chapter 04 software os (Computer) — 2 बार
 - Chapter 03 sangya sarvanam (Hindi) — 1 बार
-- Chapter 01 varn vartani (Hindi) — 1 बार
+- Chapter 01 varn vartani (Hindi) — 2 बार
 - Chapter 05 ling vachan karak (Hindi) — 1 बार
 - Chapter 06 kaal vachya (Hindi) — 1 बार
 - Chapter 06 keyboard shortcuts (Computer) — 1 बार
@@ -57,17 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 22:20:54   [kaal_vachya] review Important_Rules_hi.txt: 2 issue(s): - नियम २ के अपवाद में विरोधाभासी/गलत उदाहरण: "नहीं कहते — 'वह जा रहा है' के स्थान पर 'वह जा रहा है' मान्य ह
-18-11 22:24:06   [kaal_vachya] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 9 claims “ने” is used in all past tenses (सामान्य/सतत/पूर्ण) with transitive
-18-11 22:24:06   [kaal_vachya] review: 0 section(s) corrected, 4 failed
-18-11 22:24:06   [kaal_vachya] written 0, failed 4; AI calls today 113/100000
-18-11 22:24:06 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya after 32 min: todo [] problems []
-18-11 22:24:07 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os (OK: todo 0, problems 0)
-18-11 22:26:01   [visheshan_kriya] review PYQ_hi.txt: 1 issue(s): - In the 'संज्ञा की पहचान' pattern, the example 'राम अच्छा लड़का है' claims 'अच्छा' agrees with 'राम', but it actually 
-18-11 22:28:43   [sandhi] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q2 key b vs re-solve c, Q3 key a vs re-solve b, Q4 key a vs re-solve b, Q5 key d vs re-solve b, Q8 k
-18-11 22:29:30   [visheshan_kriya] review: 1 section(s) corrected, 1 failed
-18-11 22:29:30   [visheshan_kriya] written 1, failed 1; AI calls today 119/100000
-18-11 22:29:31 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 31 min: todo [] problems []
 18-11 22:29:31 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
 18-11 22:31:42   [sangya_sarvanam] review Content_hi.txt: 3 issue(s): - In the 'लिंग, वचन और कारक' table, the singular case markers for 'फल' are given as 'फल ने, फल को' but the oblique 
 18-11 22:32:32   [software_os] review Mind_Map.txt: 1 issue(s): - "Types of OS / ऑपरेटिंग सिस्टम के प्रकार" is incorrectly shown as a component of Operating System (D) → it is a cla
@@ -97,4 +86,15 @@
 18-11 23:01:58   [varn_vartani] review Feynman_hi.txt: 5 issue(s): - Section 1 claims 33 consonants but lists 36 items (including क्ष, त्र, ज्ञ) → Change count to 36 or list only the
 18-11 23:08:03   [varn_vartani] REJECTED review fix Feynman_hi.txt: reviewer still reports - Section 3 table (चंद्रबिंदु examples): "सँभाल" is listed as chandrabindu example, but nas
 18-11 23:10:16   [varn_vartani] review Flashcards_hi.txt: 1 issue(s): - Card 17 lists invalid pairs (शत्रु/शत्रु, कर्म/कर्मा, देश/देस) as examples of same‑pronunciation different‑spe
+18-11 23:16:02   [varn_vartani] review Important_Rules_hi.txt: 6 issue(s): - "हिन्दी वर्णमाला में ४५ मूल वर्ण — ११ स्वर और ३४ व्यंजन" → "हिन्दी वर्णमाला में ४४ मूल वर्ण — ११ स्वर और 
+18-11 23:16:50   [sandhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q27 key c vs re-solve b, Q28 key a vs re-solve d, Q32 key c vs re-solve d, Q34 key b vs re-solve a, 
+18-11 23:17:49   [varn_vartani] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - In rule 6, the visarga sandhi rule for visarga + स/श/ष is incorrectly stated as "
+18-11 23:17:49   [varn_vartani] review: 1 section(s) corrected, 4 failed
+18-11 23:17:49   [varn_vartani] written 1, failed 4; AI calls today 163/100000
+18-11 23:17:49 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 34 min: todo [] problems []
+18-11 23:17:49 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya (OK: todo 0, problems 0)
+18-11 23:18:11   [sangya_sarvanam] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 13 incorrectly lists case forms for "क्या" (किसे, किसका, किससे, किसमें); "क्या" i
+18-11 23:22:16   [ling_vachan_karak] review Content_hi.txt: 6 issue(s): - In the plural rules table, the row for "आ (स्त्रीलिंग) → एँ" incorrectly uses "लड़की → लड़कियाँ" as an example; "
+18-11 23:25:05   [ling_vachan_karak] REJECTED review fix Content_hi.txt: reviewer still reports - 'पत्तल' को नपुंसकलिंग की तालिका में दिया गया है → 'पत्तल' स्त्रीलिंग है (उदाहरण: पत्तल गि
+18-11 23:26:34   [ling_vachan_karak] review Key_Facts_hi.txt: 7 issue(s): - नपुंसकलिंग की परिभाषा और उदाहरण गलत हैं → हिंदी में केवल दो लिंग (पुल्लिंग, स्त्रीलिंग) होते हैं; नपुंसकलिंग व्
 ```
