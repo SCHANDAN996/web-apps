@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 02:03 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 01:32 AM
+**आख़िरी update:** 19-11-2026 02:18 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 01:32 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
-| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 6 मिनट |
-| W3 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 10 मिनट |
-| W4 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
+| W1 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 1 मिनट |
+| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 21 मिनट |
+| W3 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 3 मिनट |
+| W4 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 46 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 34 |
-| key 4 | 31 |
+| key 3 | 50 |
+| key 4 | 38 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -48,31 +48,12 @@
 
 - Chapter 04 visheshan kriya (Hindi) — 1 बार
 - Chapter 03 sangya sarvanam (Hindi) — 1 बार
+- Chapter 06 kaal vachya (Hindi) — 1 बार
+- Chapter 01 varn vartani (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 01:33:41   [varn_vartani] review Content_hi.txt: 1 issue(s): - The मात्रा-नियम table lists incorrect examples for 'इ' (ि): "फल" → "फिल" (अशुद्ध) and "फूल" → "फुल" (अशुद्ध) inst
-19-11 01:34:50   [visheshan_kriya] review Content_hi.txt: 1 issue(s): - In section 1.3 table, 'नीला' and 'मीठा' are incorrectly classified as अरूपांतरित विशेषण; they are रूपांतरित विशेष
-19-11 01:34:58   [sangya_sarvanam] REJECTED review fix Content_hi.txt: reviewer still reports - The rule for ergative "ने" is incorrectly generalized to all past tense (भूतकाल) for tran
-19-11 01:36:49   [visheshan_kriya] REJECTED review fix Content_hi.txt: reviewer still reports - नियम "विशेषण हमेशा संज्ञा/सर्वनाम के लिंग, वचन, कारक के अनुसार बदलता है" गलत है क्योंकि अ
-19-11 01:37:10   [varn_vartani] REJECTED review fix Content_hi.txt: reviewer still reports - In Worked Example 1, the explanation for "संभव" says the anusvara appears before 'प' (पवर
-19-11 01:38:12   [varn_vartani] review Key_Facts_hi.txt: 4 issue(s): - Point 6 lists only two nuqta‑letters (ऩ, ऱ) and calls them the only नुक्ता‑युक्त व्यंजन; in standard Hindi the 
-19-11 01:39:29   [sangya_sarvanam] review Key_Facts_hi.txt: 3 issue(s): - In point 6, the example “लड़कोंने खेला” uses a singular verb “खेला” with the plural subject “लड़कोंने”; the ver
-19-11 01:39:40   [ling_vachan_karak] review Content_hi.txt: 5 issue(s): - In लिंग-परिवर्तन rules, "अध्यापक" is listed as अपरिवर्तनीय (invariant for both genders), but its feminine form is
-19-11 01:41:59   [sangya_sarvanam] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - बिंदु 6 (कारक चिह्न) में "पूर्णिक" शब्द गलत है → मानक व्याकरण में "पूर्ण" या "परिपूर्ण"
-19-11 01:42:55   [ling_vachan_karak] REJECTED review fix Content_hi.txt: reviewer still reports - In the "लिंग के प्रकार" table, नपुंसकलिंग examples incorrectly include "पत्तल" (स्त्रीलिं
-19-11 01:43:14   [visheshan_kriya] review Flashcards_hi.txt: 1 issue(s): - Card 11: Rule for simple future tense says "क्रिया मूल + 'गा/गे/गी'" but examples like "जाएगा", "खाएंगे", "पढ़
-19-11 01:43:59   [ling_vachan_karak] review Key_Facts_hi.txt: 6 issue(s): - Point 4: Statement that inanimate objects are neuter (नपुंसकलिंग) is incorrect; Hindi inanimate nouns have masc
-19-11 01:45:09   [varn_vartani] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 1 claims there are “2 नुक्ता-युक्त व्यंजन” in the traditional 52‑letter count, bu
-19-11 01:46:11   [varn_vartani] review Feynman_hi.txt: 5 issue(s): - Section 1 claims "33 व्यंजन" but lists 36 items (including क्ष, त्र, ज्ञ) → either change the count to 36 or remo
-19-11 01:46:37   [ling_vachan_karak] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 7: The rule for feminine of ī-kārant masculine nouns incorrectly cites non-ī-kāra
-19-11 01:47:53   [ling_vachan_karak] review Feynman_hi.txt: 1 issue(s): - The second common mistake example "राम को बुलाओ" is labeled for past tense subject but is an imperative sentence 
-19-11 01:49:02   [visheshan_kriya] review Important_Rules_hi.txt: 1 issue(s): - Rule 5 example "राम खाता है सेब" violates standard Hindi SOV word order (object placed after verb) → Corr
-19-11 01:50:16   [ling_vachan_karak] review Flashcards_hi.txt: 2 issue(s): - Card 1 claims Hindi has three genders including "नपुंसकलिंग" and cites "फल" as neuter → Hindi has only two gen
-19-11 01:50:51   [varn_vartani] REJECTED review fix Feynman_hi.txt: reviewer still reports - In the चंद्रबिंदु rule table, "सँभाल" is incorrectly listed as correct and "संभाल" as wro
-19-11 01:51:23   [ling_vachan_karak] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 9: The rule given for plural of उ‑कारांत words (“उ के बाद एँ जुड़ता है → उएँ”) an
-19-11 01:52:56   [visheshan_kriya] review: 2 section(s) corrected, 1 failed
 19-11 01:52:56   [visheshan_kriya] written 2, failed 1; AI calls today 49/100000
 19-11 01:52:56 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 20 min: todo [] problems []
 19-11 01:52:56 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya (OK: todo 0, problems 0)
@@ -92,4 +73,25 @@
 19-11 02:01:10   [varn_vartani] review PYQ_hi.txt: 1 issue(s): - The table entry for 'उपसर्ग-प्रत्यय जोड़' incorrectly states that 'न्' becomes anusvara (ं) before य/र/ल/व/श/ष/स/ह (e
 19-11 02:01:32   [kaal_vachya] review Key_Facts_hi.txt: 6 issue(s): - Point 2: “संदिग्ध वर्तमान” listed as a present‑tense form → Hindi present tense has three aspects (सामान्य, सतत
 19-11 02:03:28   [ling_vachan_karak] review Important_Rules_hi.txt: 2 issue(s): - नियम ४ (घ) में कहा गया है कि इ/ई/उ/ऊ/ए/ओकारांत संज्ञाएँ बहुवचन में प्रायः अपरिवर्तित रहती हैं, लेकिन उदाह
+19-11 02:04:44   [kaal_vachya] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 10 uses an intransitive verb (“सीता गाती है”) to illustrate regular passive voice
+19-11 02:06:49   [varn_vartani] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 1.8 alphabetical order example: the given order "कलम, कमल, कमरा, करम" and answer "कमर
+19-11 02:07:10   [sandhi] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q19 key a vs re-solve ?, Q20 key b vs re-solve ?, Q21 key b vs re-solve -, Q22 key d vs re-solve -, 
+19-11 02:08:10   [varn_vartani] review Important_Rules_hi.txt: 6 issue(s): - Section 1 claims “३४ व्यंजन” but the list contains 33 consonants; standard Hindi has 33 consonants → ३४ व
+19-11 02:10:07   [kaal_vachya] review PYQ_hi.txt: 2 issue(s): - Section 1.3 trap states “*कि* वाले वाक्य में वर्तमान के बाद भूत न लगाना” which is an incorrect grammar rule → The cor
+19-11 02:12:12   [kaal_vachya] REJECTED review fix PYQ_hi.txt: reviewer still reports - In Section 6, Question 3 explanation: "कर्ता *यह* (प्रथम पुरुष एकवचन)" is incorrect; *यह* is 
+19-11 02:12:39   [sandhi] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q1 key a vs re-solve d, Q17 key c vs re-solve b)
+19-11 02:14:26   [kaal_vachya] review Important_Rules_hi.txt: 5 issue(s): - नियम २ के अपवाद में वाक्य "नहीं कहते — 'वह जा रहा है' के स्थान पर 'वह जा रहा है' मान्य है" विरोधाभासी और 
+19-11 02:15:43   [kaal_vachya] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम १५ के अभ्यास वाक्य ४ "गुरु ने शिष्य को पढ़ाया।" के उत्तर संकेत में दूसरा कर्
+19-11 02:15:43   [kaal_vachya] review: 0 section(s) corrected, 4 failed
+19-11 02:15:43   [kaal_vachya] written 0, failed 4; AI calls today 84/100000
+19-11 02:15:43 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya after 23 min: todo [] problems []
+19-11 02:15:44 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word (OK: todo 0, problems 0)
+19-11 02:15:53   [sandhi] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q19 key a vs re-solve d)
+19-11 02:17:53   [varn_vartani] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - सन्धि नियम 'उ/ऊ + उ/ऊ = ऊ' का उदाहरण 'गुरु + उपदेश = गुरुपदेश' गलत है → सही: 'गुर
+19-11 02:17:53   [varn_vartani] review: 0 section(s) corrected, 6 failed
+19-11 02:17:53   [varn_vartani] written 0, failed 6; AI calls today 87/100000
+19-11 02:17:53 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 46 min: todo [] problems []
+19-11 02:17:54 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas (TODO: todo 5, problems 0)
+19-11 02:17:54   [samas] Hindi-only writer: direct Hindi content; English generation and translation disabled
+19-11 02:18:35   [word] review Content_en.txt: 4 issue(s): - The shortcut `Ctrl+Shift+V` is listed as "Paste Special → Keep Text Only" but this is not a default shortcut in W
 ```
