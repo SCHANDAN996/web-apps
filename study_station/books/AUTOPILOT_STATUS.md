@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 02:49 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 01:32 AM
+**आख़िरी update:** 19-11-2026 03:04 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 01:32 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
-| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 52 मिनट |
-| W3 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 33 मिनट |
-| W4 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 21 मिनट |
+| W1 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 47 मिनट |
+| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 67 मिनट |
+| W3 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 49 मिनट |
+| W4 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 36 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 79 |
-| key 4 | 47 |
+| key 3 | 92 |
+| key 4 | 50 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -55,16 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 02:14:26   [kaal_vachya] review Important_Rules_hi.txt: 5 issue(s): - नियम २ के अपवाद में वाक्य "नहीं कहते — 'वह जा रहा है' के स्थान पर 'वह जा रहा है' मान्य है" विरोधाभासी और 
-19-11 02:15:43   [kaal_vachya] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम १५ के अभ्यास वाक्य ४ "गुरु ने शिष्य को पढ़ाया।" के उत्तर संकेत में दूसरा कर्
-19-11 02:15:43   [kaal_vachya] review: 0 section(s) corrected, 4 failed
-19-11 02:15:43   [kaal_vachya] written 0, failed 4; AI calls today 84/100000
-19-11 02:15:43 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya after 23 min: todo [] problems []
-19-11 02:15:44 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word (OK: todo 0, problems 0)
-19-11 02:15:53   [sandhi] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q19 key a vs re-solve d)
-19-11 02:17:53   [varn_vartani] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - सन्धि नियम 'उ/ऊ + उ/ऊ = ऊ' का उदाहरण 'गुरु + उपदेश = गुरुपदेश' गलत है → सही: 'गुर
-19-11 02:17:53   [varn_vartani] review: 0 section(s) corrected, 6 failed
-19-11 02:17:53   [varn_vartani] written 0, failed 6; AI calls today 87/100000
 19-11 02:17:53 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 46 min: todo [] problems []
 19-11 02:17:54 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas (TODO: todo 5, problems 0)
 19-11 02:17:54   [samas] Hindi-only writer: direct Hindi content; English generation and translation disabled
@@ -95,4 +85,14 @@
 19-11 02:47:11   [sandhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q30 key d vs re-solve a, Q32 key a vs re-solve c, Q39 key b vs re-solve d, Q41 key d vs re-solve c, 
 19-11 02:48:56   [samas] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q5 key a vs re-solve c, Q6 key b vs re-solve d, Q8 key c vs re-solve a, Q9 key c vs re-solve d, Q13 
 19-11 02:48:56   [samas] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
+19-11 02:51:27   [samas] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q73 key d vs re-solve a)
+19-11 02:54:41   [samas] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q65 key d vs re-solve b, Q73 key b vs re-solve d, Q74 key a vs re-solve b)
+19-11 02:55:51   [sandhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q28 key b vs re-solve d, Q31 key b vs re-solve d, Q39 key d vs re-solve b, Q41 key b vs re-solve a, 
+19-11 02:55:51   [sandhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
+19-11 02:56:52   [sandhi] Practice_hi_Set_03.txt try 1: rejected (Q52:duplicate_options,Q54:duplicate_options,Q56:duplicate_options,Q58:duplicate_options,Q60:duplicate_options)
+19-11 02:57:21   [samas] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q73 key d vs re-solve b)
+19-11 03:00:02   [samas] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q58 key b vs re-solve d)
+19-11 03:00:02   [samas] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+19-11 03:03:08   [sangya_sarvanam] review PYQ_hi.txt: 2 issue(s): - Section 1 example explanation incorrectly labels 'माँ' as व्यक्तिवाचक संज्ञा → 'माँ' is जातिवाचक संज्ञा (common noun)
+19-11 03:04:33   [sangya_sarvanam] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 2, trap "कारक चिह्न भ्रम": "'ने' कर्ता (अन्य पुरुष, भूतकाल)" is incorrect; 'ने' marks
 ```
