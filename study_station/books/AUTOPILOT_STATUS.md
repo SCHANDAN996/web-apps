@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 07:10 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 04:51 AM
+**आख़िरी update:** 18-11-2026 07:25 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 04:51 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 6 मिनट |
-| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 107 मिनट |
-| W3 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 18 मिनट |
-| W4 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 6 मिनट |
+| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 22 मिनट |
+| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 122 मिनट |
+| W3 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 34 मिनट |
+| W4 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 22 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 93 |
-| key 4 | 94 |
+| key 3 | 99 |
+| key 4 | 100 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -57,14 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 06:37:36   [sangya_sarvanam] review Feynman_hi.txt: 3 issue(s): - लिंग तालिका में 'नपुंसकलिंग' और उदाहरण 'फल' गलत है → हिंदी में केवल दो लिंग होते हैं: पुल्लिंग और स्त्रीलिंग; 'फल
-18-11 06:40:31   [sandhi] Practice_hi_Set_03.txt try 4: rejected (Q64:duplicate_options)
-18-11 06:40:31   [sandhi] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
-18-11 06:42:21   [sangya_sarvanam] REJECTED review fix Feynman_hi.txt: reviewer still reports - Flashcard 13 incorrectly includes 'संबंध' in the list of कारक; in standard Hindi grammar 
-18-11 06:44:42   [sangya_sarvanam] review PYQ_hi.txt: 3 issue(s): - Section 5 trap "कारक चिह्न लोप" incorrectly labels "राम घर गया" as अशुद्ध and then suggests the same sentence as a co
-18-11 06:45:24   [varn_vartani] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q51 key c vs re-solve d, Q53 key c vs re-solve b, Q72 key c vs re-solve b)
-18-11 06:46:33   [sangya_sarvanam] REJECTED review fix PYQ_hi.txt: reviewer still reports - In section 1 explanation, "माँ" is incorrectly classified as व्यक्तिवाचक संज्ञा → "माँ" is जा
-18-11 06:46:38   [sandhi] Practice_hi_Set_04.txt try 1: rejected (Q78:duplicate_options,Q80:duplicate_options,Q86:duplicate_options,Q96:duplicate_options,Q97:duplicate_options)
 18-11 06:47:58   [sangya_sarvanam] review Important_Rules_hi.txt: 6 issue(s): - Rule 2: The list of 'आ कारांत स्त्रीलिंग' includes words not ending in आ (बहन, चिड़िया, सास, नानी) → Only
 18-11 06:49:41   [keyboard_shortcuts] review PYQ_en.txt: 1 issue(s): - Pattern 4 example question asks "Which key combination does NOT open Task Manager directly?" but option (d) "Right-cl
 18-11 06:51:25   [sangya_sarvanam] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 3 table: plural rule for ई-ending nouns incorrectly includes 'एँ' (ई → इयाँ 
@@ -97,4 +89,12 @@
 18-11 07:06:36   [visheshan_kriya] REJECTED review fix Content_hi.txt: reviewer still reports - In Worked Example 1, “बहुत” is incorrectly identified as a संख्यावाचक विशेषण (परिमाणवाचक)
 18-11 07:08:07   [visheshan_kriya] review Feynman_hi.txt: 1 issue(s): - Question 1 explanation for option (घ) wrongly claims "सुन्दर" in "सुन्दर बनो" is not a विशेषण → It is a predicati
 18-11 07:09:48   [kaal_vachya] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q113 key d vs re-solve c, Q123 key c vs re-solve b)
+18-11 07:13:54   [sandhi] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q77 key b vs re-solve d, Q83 key a vs re-solve d, Q90 key d vs re-solve c, Q91 key a vs re-solve ?, 
+18-11 07:15:38   [kaal_vachya] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q116 key a vs re-solve ?)
+18-11 07:21:21   [sandhi] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q77 key d vs re-solve b, Q85 key d vs re-solve c, Q88 key c vs re-solve b, Q95 key d vs re-solve a)
+18-11 07:21:21   [sandhi] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
+18-11 07:21:41   [kaal_vachya] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q113 key c vs re-solve a)
+18-11 07:22:22   [sandhi] Practice_hi_Set_05.txt try 1: rejected (parsed 24 questions, numbers 101…125)
+18-11 07:23:45   [sandhi] Practice_hi_Set_05.txt try 2: rejected (Q103:duplicate_options,Q105:duplicate_options,Q107:duplicate_options,Q109:duplicate_options,Q111:duplicate_opt
+18-11 07:24:34   [sandhi] Practice_hi_Set_05.txt try 3: rejected (Q111:duplicate_options,Q113:duplicate_options,Q117:duplicate_options,Q123:duplicate_options,Q125:duplicate_opt
 ```
