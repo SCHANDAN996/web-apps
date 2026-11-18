@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 10:18 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
+**आख़िरी update:** 18-11-2026 10:33 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 0 मिनट |
-| W3 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 0 मिनट |
-| W4 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 0 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 15 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 15 मिनट |
+| W3 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 15 मिनट |
+| W4 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 15 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 1 |
-| key 4 | 1 |
+| key 3 | 12 |
+| key 4 | 10 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -54,4 +54,13 @@
 18-11 10:17:23 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
 18-11 10:17:28 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya (OK: todo 0, problems 0)
 18-11 10:17:33 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os (OK: todo 0, problems 0)
+18-11 10:18:22   [varn_vartani] Practice_hi_Set_03.txt try 1: rejected (Q63:duplicate_options,Q70:duplicate_options)
+18-11 10:19:57   [visheshan_kriya] review Content_hi.txt: 1 issue(s): - In section 1.3 table, "नीला" and "मीठा" are incorrectly listed as अरूपांतरित विशेषण; they are रूपांतरित विशेषण (न
+18-11 10:21:02   [sangya_sarvanam] review Content_hi.txt: 1 issue(s): - Example 6 lists “औरत” and “बच्चा” as words whose plural form is identical to the singular, but “औरत” plural is “औ
+18-11 10:22:56   [sangya_sarvanam] REJECTED review fix Content_hi.txt: reviewer still reports - In Section 3 table, the case markers (कारक चिह्न) are given only for singular oblique for
+18-11 10:23:09   [visheshan_kriya] REJECTED review fix Content_hi.txt: reviewer still reports - In Section 1.3 table, "नीला" is incorrectly listed as an example of अरूपांतरित विशेषण (no
+18-11 10:26:05   [visheshan_kriya] review Feynman_hi.txt: 3 issue(s): - Question 1 answer states only (ख) is correct for "सुन्दर" as adjective, but (घ) "सुन्दर बनो" also uses "सुन्दर" a
+18-11 10:27:41   [sangya_sarvanam] review Key_Facts_hi.txt: 4 issue(s): - Plural rule for consonant-ending nouns gives incorrect examples showing singular forms as plural options (फल → 
+18-11 10:28:36   [visheshan_kriya] REJECTED review fix Feynman_hi.txt: reviewer still reports - The 'काल के चिह्न' table incorrectly lists past tense suffixes as 'या/यी/ये' while the ex
+18-11 10:29:50   [sangya_sarvanam] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 4 plural rule for consonant-ending nouns gives wrong examples: "फल → फलें, घर → घ
 ```
