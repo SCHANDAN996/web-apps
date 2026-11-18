@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 01:28 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 09:08 PM
+**आख़िरी update:** 19-11-2026 01:31 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 09:08 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W1 | Chapter 06 keyboard shortcuts (12th Computer) | 📤 push हो रहा है | 0 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
@@ -49,14 +47,11 @@
 - Chapter 01 varn vartani (Hindi) — 3 बार
 - Chapter 05 ling vachan karak (Hindi) — 3 बार
 - Chapter 06 kaal vachya (Hindi) — 3 बार
-- Chapter 06 keyboard shortcuts (Computer) — 1 बार
 - Chapter 07 sandhi (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 01:01:15   [sangya_sarvanam] review: 1 section(s) corrected, 2 failed
-19-11 01:01:15   [sangya_sarvanam] written 1, failed 2; AI calls today 67/100000
 19-11 01:01:15 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 20 min: todo [] problems []
 19-11 01:01:16 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya (OK: todo 0, problems 0)
 19-11 01:02:19   [sandhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q128 key b vs re-solve d, Q129 key b vs re-solve a, Q131 key b vs re-solve a, Q135 key d vs re-solve
@@ -95,4 +90,6 @@
 19-11 01:27:12   [keyboard_shortcuts] review Important_Rules_hi.txt: 1 issue(s): - नियम 14 में "Ctrl + M → मार्क मोड" गलत है; कमांड प्रॉम्प्ट/पावरशेल में मार्क मोड के लिए कोई डिफ़ॉल्ट Ctrl
 19-11 01:28:10   [keyboard_shortcuts] review: 3 section(s) corrected, 0 failed
 19-11 01:28:10   [keyboard_shortcuts] written 3, failed 0; AI calls today 111/100000
+19-11 01:28:34 DONE 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_06_keyboard_shortcuts in 22 min → 89a7a5d1
+19-11 01:28:34 worker 0: nothing left
 ```
