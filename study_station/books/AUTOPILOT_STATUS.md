@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 11:43 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 09:08 PM
+**आख़िरी update:** 18-11-2026 11:58 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 09:08 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 2 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 73 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 90 मिनट |
-| W4 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 54 मिनट |
+| W1 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 17 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 89 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 105 मिनट |
+| W4 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 14 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 99 |
-| key 4 | 91 |
+| key 3 | 114 |
+| key 4 | 96 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -50,24 +50,13 @@
 - Chapter 04 software os (Computer) — 2 बार
 - Chapter 03 sangya sarvanam (Hindi) — 1 बार
 - Chapter 01 varn vartani (Hindi) — 2 बार
-- Chapter 05 ling vachan karak (Hindi) — 1 बार
+- Chapter 05 ling vachan karak (Hindi) — 2 बार
 - Chapter 06 kaal vachya (Hindi) — 1 बार
 - Chapter 06 keyboard shortcuts (Computer) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 22:46:15   [software_os] review Important_Rules_en.txt: 3 issue(s): - Rule 4 example incorrectly states that 8 GB RAM + 12 GB page file equals 20 GB virtual address space per 
-18-11 22:48:48   [software_os] REJECTED review fix Important_Rules_en.txt: reviewer still reports - Rule 3 claims "Windows uses NTFS as the default file system since Windows NT 3.1"
-18-11 22:48:48   [software_os] review: 0 section(s) corrected, 2 failed
-18-11 22:48:48   [software_os] written 0, failed 2; AI calls today 144/100000
-18-11 22:48:49 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os after 25 min: todo [] problems []
-18-11 22:48:49 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (OK: todo 0, problems 0)
-18-11 22:50:51   [varn_vartani] review Content_hi.txt: 6 issue(s): - The consonant count is given as 39 but the listed consonants (25 vargiya + 8 avargiya + 4 combined) total 37 → Th
-18-11 22:55:13   [varn_vartani] REJECTED review fix Content_hi.txt: reviewer still reports - Incorrect example 'किर्ति' for short इ (ि) matra in the मात्रा-नियम table; it is not a va
-18-11 22:58:36   [varn_vartani] review Key_Facts_hi.txt: 1 issue(s): - 'मराठी/संस्कृत ध्वनियों के लिए प्रयुक्त' for ऩ, ऱ is wrong; they are not used for Sanskrit sounds → 'मराठी (एवं
-18-11 23:00:05   [sandhi] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q1 key d vs re-solve c, Q3 key c vs re-solve a, Q5 key d vs re-solve b, Q8 key d vs re-solve ?, Q9 k
-18-11 23:00:05   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
 18-11 23:00:26   [varn_vartani] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 1/6: claims only two nuqta letters (ऩ, ऱ) → Hindi uses several nuqta letters (e.g
 18-11 23:01:27   [sandhi] Practice_hi_Set_02.txt try 1: rejected (Q30:duplicate_options,Q41:duplicate_options,Q43:duplicate_options,Q49:duplicate_options,Q50:duplicate_options)
 18-11 23:01:58   [varn_vartani] review Feynman_hi.txt: 5 issue(s): - Section 1 claims 33 consonants but lists 36 items (including क्ष, त्र, ज्ञ) → Change count to 36 or list only the
@@ -97,4 +86,15 @@
 18-11 23:41:16 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 23 min: todo [] problems []
 18-11 23:41:16 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os (OK: todo 0, problems 0)
 18-11 23:42:07   [ling_vachan_karak] review Important_Rules_hi.txt: 3 issue(s): - Rule 4: The plural rule for इ/ई/उ/ऊ/ए/ओकारांत nouns states they are usually unchanged, but the example "न
+18-11 23:44:35   [ling_vachan_karak] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम ११: अधिकरण कारक के चिह्न केवल 'में/पर' बताए गए हैं, लेकिन उदाहरण 'रात को' मे
+18-11 23:44:35   [ling_vachan_karak] review: 0 section(s) corrected, 5 failed
+18-11 23:44:35   [ling_vachan_karak] written 0, failed 5; AI calls today 191/100000
+18-11 23:44:36 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 56 min: todo [] problems []
+18-11 23:44:36 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya (OK: todo 0, problems 0)
+18-11 23:44:43   [sangya_sarvanam] review Important_Rules_hi.txt: 6 issue(s): - Rule 2: The list of "आ कारांत स्त्रीलिंग" includes words not ending in आ (बहन, चिड़िया, सास, नानी) and th
+18-11 23:46:47   [kaal_vachya] review Content_hi.txt: 4 issue(s): - The claim "प्रतिवर्ष 3–5 प्रश्न पूछे जाते हैं" is an invented exam statistic without a specific year or source → 
+18-11 23:50:26   [kaal_vachya] REJECTED review fix Content_hi.txt: reviewer still reports - In Common Errors table, row "भविष्यत में 'गा/गे/गी' लुप्त करना": the "गलत उदाहरण" column 
+18-11 23:51:49   [kaal_vachya] review Key_Facts_hi.txt: 4 issue(s): - Point 18: The "गलत" and "सही" examples are both "पढ़ा जाएगा"; the wrong passive for future active "पढ़ेगा" shou
+18-11 23:53:49   [kaal_vachya] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 7: The agent in passive voice is mislabelled as “साधन” (instrument) → In passive,
+18-11 23:55:17   [software_os] review Feynman_en.txt: 2 issue(s): - Windows boot process incorrectly shows Windows Boot Manager directly loading ntoskrnl.exe; the OS loader (winload
 ```
