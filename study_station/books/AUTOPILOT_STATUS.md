@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 01:05 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
+**आख़िरी update:** 18-11-2026 01:20 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 10:17 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 98 मिनट |
-| W2 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 32 मिनट |
-| W3 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 11 मिनट |
-| W4 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 39 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 113 मिनट |
+| W2 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 48 मिनट |
+| W3 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 27 मिनट |
+| W4 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 55 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 91 |
-| key 4 | 93 |
+| key 3 | 93 |
+| key 4 | 104 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -57,11 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 12:05:11 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os (OK: todo 0, problems 0)
-18-11 12:08:47   [varn_vartani] review Content_hi.txt: 7 issue(s): - Consonant count given as 39 but breakdown (25 vargiya + 8 avargiya + 4 conjuncts) totals 37, omitting ड़ and ढ़ →
-18-11 12:11:06   [varn_vartani] REJECTED review fix Content_hi.txt: reviewer still reports - In the table for 'ड़' and 'ढ़' (section 3.4), the pronunciation place is incorrectly give
-18-11 12:13:20   [varn_vartani] review Key_Facts_hi.txt: 2 issue(s): - Point 6 incorrectly lists ऩ and ऱ as the two nuqta‑yukt consonants in Hindi; the traditional 52‑letter count us
-18-11 12:18:17   [sandhi] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q1 key c vs re-solve b, Q3 key c vs re-solve b, Q8 key b vs re-solve c, Q9 key c vs re-solve ?, Q14 
 18-11 12:19:12   [varn_vartani] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 19: Visarga sandhi rule incorrectly states visarga changes to half-forms of follo
 18-11 12:21:23   [varn_vartani] review Feynman_hi.txt: 6 issue(s): - Section 1 claims 33 consonants but lists 36 (including क्ष, त्र, ज्ञ) → Either correct the count to 36 or list on
 18-11 12:23:38   [software_os] review Important_Rules_en.txt: 4 issue(s): - Rule 4 example: "8 GB RAM + 12 GB page file = 20 GB virtual address space per process" → "8 GB RAM + 12 G
@@ -97,4 +92,9 @@
 18-11 12:59:51   [ling_vachan_karak] review Key_Facts_hi.txt: 5 issue(s): - Point 4 claims Hindi has a neuter gender (नपुंसकलिंग) and lists किताब, मेज, पानी, आकाश as neuter; Hindi nouns a
 18-11 13:02:55   [ling_vachan_karak] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 7: The rule for “ईकारांत पुल्लिंग” incorrectly includes “सेठ → सेठानी” as an exam
 18-11 13:04:39   [ling_vachan_karak] review Feynman_hi.txt: 4 issue(s): - लिंग तालिका में 'पुस्तक' को पुल्लिंग (अपवाद) बताया गया है → 'पुस्तक' स्त्रीलिंग है, इसे स्त्रीलिंग कॉलम में रखें
+18-11 13:06:27   [ling_vachan_karak] REJECTED review fix Feynman_hi.txt: reviewer still reports - Gender table lists "कहानी" under पुल्लिंग; "कहानी" is स्त्रीलिंग.
+18-11 13:07:02   [sandhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q26 key b vs re-solve a, Q28 key d vs re-solve a, Q30 key a vs re-solve d, Q32 key b vs re-solve ?, 
+18-11 13:07:43   [sangya_sarvanam] review Content_hi.txt: 1 issue(s): - The list of nouns with unchanged plural forms (in Example 6 and Quick Revision) incorrectly includes "बच्चा" (plu
+18-11 13:13:55   [sangya_sarvanam] review Key_Facts_hi.txt: 2 issue(s): - In point 4, the plural examples for consonant-ending nouns incorrectly include the singular form: "फल → फल/फलें
+18-11 13:16:27   [sangya_sarvanam] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 16, first bullet: suffix listed as “ता/ती” but examples “सच्चाई” (uses “ई”) and “
 ```
