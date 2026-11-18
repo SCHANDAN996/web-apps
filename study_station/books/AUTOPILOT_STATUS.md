@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 06:24 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 04:51 AM
+**आख़िरी update:** 18-11-2026 06:39 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 04:51 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 45 मिनट |
-| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 61 मिनट |
-| W3 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 4 मिनट |
-| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 66 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 60 मिनट |
+| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 76 मिनट |
+| W3 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 19 मिनट |
+| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 81 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 75 |
-| key 4 | 59 |
+| key 3 | 78 |
+| key 4 | 69 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -56,13 +56,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 05:27:20   [sandhi] wrote Feynman_hi.txt (3587 chars)
-18-11 05:27:27   [sandhi] wrote Mind_Map.txt (928 chars)
-18-11 05:28:02   [sandhi] wrote Flashcards_hi.txt (3662 chars)
-18-11 05:28:04   [kaal_vachya] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q86 key a vs re-solve c, Q87 key c vs re-solve a, Q88 key d vs re-solve c, Q100 key a vs re-solve c)
-18-11 05:28:28   [sandhi] wrote PYQ_hi.txt (4148 chars)
-18-11 05:29:15   [sandhi] wrote Important_Rules_hi.txt (5009 chars)
-18-11 05:30:41   [ling_vachan_karak] review PYQ_hi.txt: 8 issue(s): - The rule for ergative marker "ने" incorrectly states it appears only with third person (अन्य पुरुष) in "कारक चिह्न पह
 18-11 05:31:58   [sandhi] Practice_hi_Set_01.txt try 1: rejected (Q2:duplicate_options,Q4:duplicate_options,Q5:duplicate_options,Q9:duplicate_options,Q10:duplicate_options)
 18-11 05:34:04   [ling_vachan_karak] REJECTED review fix PYQ_hi.txt: reviewer still reports - In the "लिंग" heuristic (15-सेकंड नियम), masculine a-ending nouns "दादा", "नाना" are incorrec
 18-11 05:34:31   [kaal_vachya] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q91 key a vs re-solve b)
@@ -96,4 +89,11 @@
 18-11 06:21:56   [sandhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q29 key c vs re-solve a, Q33 key b vs re-solve d, Q39 key c vs re-solve a, Q41 key d vs re-solve b)
 18-11 06:21:56   [sandhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
 18-11 06:23:15   [sandhi] Practice_hi_Set_03.txt try 1: rejected (Q56:duplicate_options,Q57:duplicate_options,Q60:duplicate_options,Q63:duplicate_options,Q64:duplicate_options)
+18-11 06:26:12   [sandhi] Practice_hi_Set_03.txt try 2: rejected (Q56:duplicate_options,Q57:duplicate_options)
+18-11 06:26:54   [varn_vartani] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q53 key c vs re-solve b, Q62 key a vs re-solve d, Q66 key a vs re-solve c, Q72 key c vs re-solve b, 
+18-11 06:29:30   [sangya_sarvanam] review Content_hi.txt: 2 issue(s): - Section 1, परीक्षा उपयोगी सूत्र: "व्यक्तिवाचक → विशेष नाम (पहला अक्षर बड़ा)" and "जातिवाचक → सामान्य नाम (छोटे अक
+18-11 06:31:19   [sangya_sarvanam] REJECTED review fix Content_hi.txt: reviewer still reports - In Example 6 (वचन परिवर्तन में अपवाद), the list of words with unchanged plural includes "
+18-11 06:32:21   [sangya_sarvanam] review Key_Facts_hi.txt: 4 issue(s): - Point 6: The rule for ergative marker 'ने' incorrectly states it is used only in plural/past; actually 'ने' mar
+18-11 06:37:23   [sandhi] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q52 key d vs re-solve ?, Q53 key b vs re-solve a, Q55 key b vs re-solve ?, Q60 key a vs re-solve c, 
+18-11 06:37:36   [sangya_sarvanam] review Feynman_hi.txt: 3 issue(s): - लिंग तालिका में 'नपुंसकलिंग' और उदाहरण 'फल' गलत है → हिंदी में केवल दो लिंग होते हैं: पुल्लिंग और स्त्रीलिंग; 'फल
 ```
