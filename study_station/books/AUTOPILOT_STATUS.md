@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 03:35 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 01:32 AM
+**आख़िरी update:** 19-11-2026 03:50 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 01:32 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 77 मिनट |
-| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 98 मिनट |
-| W3 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 79 मिनट |
-| W4 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 28 मिनट |
+| W1 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 92 मिनट |
+| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 113 मिनट |
+| W3 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 95 मिनट |
+| W4 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 43 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 120 |
-| key 4 | 54 |
+| key 3 | 131 |
+| key 4 | 59 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -55,16 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 02:38:00   [word] review Key_Facts_hi.txt: 1 issue(s): - Item 20: Cross-reference shortcut written as `Alt+N, RF` → correct shortcut is `Alt+N, R`
-19-11 02:39:23   [sandhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q29 key a vs re-solve b, Q30 key c vs re-solve a, Q31 key b vs re-solve c, Q36 key a vs re-solve b, 
-19-11 02:39:35   [sangya_sarvanam] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - In point 6, the example "लड़कोंने खेला" for the ergative marker "ने" is incorrect becau
-19-11 02:40:32   [word] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - सुपरस्क्रिप्ट शॉर्टकट `Ctrl+Shift++` गलत है → सही शॉर्टकट `Ctrl+Shift+=` (या `Ctrl+Shif
-19-11 02:41:08   [word] review Feynman_en.txt: 1 issue(s): - Common mistake #5 states "Sharing .docx with macros (.docm)" but .docx files cannot contain macros; .docm is the 
-19-11 02:44:22   [samas] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q5 key a vs re-solve c, Q8 key c vs re-solve a, Q9 key c vs re-solve d, Q13 key b vs re-solve a, Q19
-19-11 02:47:11   [sandhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q30 key d vs re-solve a, Q32 key a vs re-solve c, Q39 key b vs re-solve d, Q41 key d vs re-solve c, 
-19-11 02:48:56   [samas] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q5 key a vs re-solve c, Q6 key b vs re-solve d, Q8 key c vs re-solve a, Q9 key c vs re-solve d, Q13 
-19-11 02:48:56   [samas] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
-19-11 02:51:27   [samas] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q73 key d vs re-solve a)
 19-11 02:54:41   [samas] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q65 key d vs re-solve b, Q73 key b vs re-solve d, Q74 key a vs re-solve b)
 19-11 02:55:51   [sandhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q28 key b vs re-solve d, Q31 key b vs re-solve d, Q39 key d vs re-solve b, Q41 key b vs re-solve a, 
 19-11 02:55:51   [sandhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
@@ -95,4 +85,14 @@
 19-11 03:32:27   [samas] Practice_hi_Set_06.txt try 1: rejected (parsed 24 questions, numbers 126…150)
 19-11 03:33:21   [word] review Flashcards_hi.txt: 2 issue(s): - कार्ड 3: "Ctrl + Shift + S भी काम करता है (Word 2016+ में)" गलत है → Word में "Save As" का डिफ़ॉल्ट शॉर्टकट F1
 19-11 03:35:23   [word] review PYQ_en.txt: 2 issue(s): - In Example 1 solution, "Ctrl + Shift + F opens the Font dialog with focus on the Font list (legacy behavior)" is inco
+19-11 03:36:56   [word] REJECTED review fix PYQ_en.txt: reviewer still reports - The 'Illustrations' bullet incorrectly lists Text Box, WordArt, and Drop Cap as part of the I
+19-11 03:38:11   [sandhi] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q61 key d vs re-solve c, Q63 key d vs re-solve a, Q65 key b vs re-solve c, Q66 key a vs re-solve b, 
+19-11 03:38:11   [sandhi] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+19-11 03:38:16   [varn_vartani] review Content_hi.txt: 3 issue(s): - In Section 3.1 (मात्रा-नियम table), the row for मात्रा 'इ' (ि) includes the example "फूल" → "फुल" which illustrat
+19-11 03:39:26   [sandhi] Practice_hi_Set_05.txt try 1: rejected (parsed 24 questions, numbers 101…124)
+19-11 03:41:01   [varn_vartani] REJECTED review fix Content_hi.txt: reviewer still reports - In section 3.4, the example "बड़ना → बढ़ना" incorrectly presents "बड़ना" as a base form; 
+19-11 03:42:20   [varn_vartani] review Key_Facts_hi.txt: 2 issue(s): - "नुक्ता-युक्त व्यंजन (2): ऩ, ऱ — मराठी/संस्कृत ध्वनियों के लिए प्रयुक्त" गलत है → हिंदी में नुक्ता-युक्त व्यंजन
+19-11 03:43:27   [samas] Practice_hi_Set_06.txt try 2: rejected (parsed 24 questions, numbers 126…150)
+19-11 03:47:06   [samas] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q133 key d vs re-solve a, Q136 key b vs re-solve ?, Q140 key d vs re-solve a, Q143 key d vs re-solve
+19-11 03:47:40   [sandhi] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q105 key a vs re-solve b, Q111 key b vs re-solve a, Q113 key d vs re-solve a, Q114 key a vs re-solve
 ```
