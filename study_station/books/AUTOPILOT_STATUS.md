@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 05:53 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 04:51 AM
+**आख़िरी update:** 18-11-2026 06:08 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 04:51 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 14 मिनट |
-| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 30 मिनट |
-| W3 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 36 मिनट |
-| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 35 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 30 मिनट |
+| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 45 मिनट |
+| W3 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 52 मिनट |
+| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 50 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 65 |
-| key 4 | 48 |
+| key 3 | 70 |
+| key 4 | 53 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -55,15 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 05:18:04   [software_os] written 1, failed 2; AI calls today 63/100000
-18-11 05:18:04 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os after 26 min: todo [] problems []
-18-11 05:18:04 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_06_keyboard_shortcuts (OK: todo 0, problems 0)
-18-11 05:18:11   [ling_vachan_karak] REJECTED review fix Feynman_hi.txt: reviewer still reports - In the लिंग section, the exceptions “गुरु” and “नौकर” do not end in आ or ई, so they are n
-18-11 05:19:17   [keyboard_shortcuts] review Content_en.txt: 2 issue(s): - In the PowerPoint editing shortcuts table, **Ctrl + Shift + D** is listed as an alternative for duplicating a sli
-18-11 05:19:24   [sangya_sarvanam] REJECTED review fix PYQ_hi.txt: reviewer still reports - In Section 5 (Error Detection example), the answer key incorrectly states (d) as the erroneou
-18-11 05:20:47   [sangya_sarvanam] review Important_Rules_hi.txt: 7 issue(s): - नियम २: "आ कारांत स्त्रीलिंग" सूची में "बहन", "चिड़िया", "सास", "नानी" शामिल हैं जो आ कारांत नहीं हैं → क
-18-11 05:22:45   [keyboard_shortcuts] review Content_hi.txt: 3 issue(s): - In the web browser shortcuts table, `Ctrl + Shift + N` is listed as "नई इनकॉग्निटो/निजी विंडो" for Chrome, Edge, 
-18-11 05:23:02   [sangya_sarvanam] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 15 table row 1: The "गलत वाक्य" and "सही वाक्य" are identical ("राम ने श्याम
 18-11 05:23:02   [sangya_sarvanam] review: 0 section(s) corrected, 4 failed
 18-11 05:23:02   [sangya_sarvanam] written 0, failed 4; AI calls today 73/100000
 18-11 05:23:02 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 31 min: todo [] problems []
@@ -95,4 +86,13 @@
 18-11 05:45:45   [varn_vartani] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q51 key d vs re-solve c, Q62 key b vs re-solve a, Q72 key b vs re-solve a)
 18-11 05:47:03   [kaal_vachya] wrote Practice_hi_Set_04.txt (write, 25 MCQs)
 18-11 05:49:01   [kaal_vachya] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q102 key a vs re-solve b, Q109 key d vs re-solve c, Q113 key d vs re-solve b, Q118 key a vs re-solve
+18-11 05:54:07   [sandhi] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q4 key a vs re-solve c, Q5 key d vs re-solve c, Q6 key d vs re-solve c, Q12 key c vs re-solve b, Q14
+18-11 05:56:54   [kaal_vachya] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q109 key b vs re-solve c, Q110 key a vs re-solve c, Q118 key c vs re-solve d, Q119 key b vs re-solve
+18-11 06:02:28   [kaal_vachya] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q120 key d vs re-solve b, Q125 key b vs re-solve d)
+18-11 06:02:45   [sandhi] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q10 key b vs re-solve c, Q22 key a vs re-solve d)
+18-11 06:02:45   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
+18-11 06:03:49   [sandhi] Practice_hi_Set_02.txt try 1: rejected (Q27:duplicate_options,Q29:duplicate_options,Q34:duplicate_options,Q36:duplicate_options,Q40:duplicate_options)
+18-11 06:08:02   [kaal_vachya] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q103 key c vs re-solve a, Q109 key c vs re-solve a)
+18-11 06:08:02   [kaal_vachya] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
+18-11 06:08:16   [sandhi] Practice_hi_Set_02.txt try 2: rejected (Q28:duplicate_options,Q41:duplicate_options,Q48:duplicate_options)
 ```
