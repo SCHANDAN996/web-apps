@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 05:46 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 03:42 PM
+**आख़िरी update:** 18-11-2026 06:02 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 03:42 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 10 मिनट |
-| W2 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 46 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 32 मिनट |
-| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 82 मिनट |
+| W1 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 25 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 3 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 47 मिनट |
+| W4 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 3 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 111 |
-| key 4 | 63 |
+| key 3 | 112 |
+| key 4 | 75 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -47,30 +47,16 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 03 sangya sarvanam (Hindi) — 2 बार
-- Chapter 01 varn vartani (Hindi) — 1 बार
+- Chapter 01 varn vartani (Hindi) — 2 बार
 - Chapter 04 software os (Computer) — 2 बार
 - Chapter 04 visheshan kriya (Hindi) — 1 बार
 - Chapter 05 ling vachan karak (Hindi) — 1 बार
 - Chapter 06 kaal vachya (Hindi) — 1 बार
+- Chapter 06 keyboard shortcuts (Computer) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 16:59:58   [ling_vachan_karak] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 2 exception claims "किरण" ends in इ/आ, but "किरण" is व्यंजनांत (ends in ण) →
-18-11 16:59:58   [ling_vachan_karak] review: 0 section(s) corrected, 5 failed
-18-11 16:59:58   [ling_vachan_karak] written 0, failed 5; AI calls today 114/100000
-18-11 16:59:58 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 43 min: todo [] problems []
-18-11 16:59:58 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (OK: todo 0, problems 0)
-18-11 17:01:52   [kaal_vachya] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम ३ की टिप्पणी में "राम गया था" को पूर्ण भूत बताया गया है, जबकि सारणी में पूर्
-18-11 17:01:52   [kaal_vachya] review: 1 section(s) corrected, 4 failed
-18-11 17:01:52   [kaal_vachya] written 1, failed 4; AI calls today 116/100000
-18-11 17:01:52 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya after 40 min: todo [] problems []
-18-11 17:01:53 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os (OK: todo 0, problems 0)
-18-11 17:03:08   [sangya_sarvanam] review Flashcards_hi.txt: 1 issue(s): - Card 10 incorrectly includes third person pronouns (वह, यह) under पुरुषवाचक सर्वनाम as "अन्य पुरुष" → In stand
-18-11 17:04:30   [varn_vartani] review Content_hi.txt: 5 issue(s): - हिंदी वर्णमाला में 39 व्यंजन का दावा लेकिन वर्गीय(25)+अवर्गीय(8)+संयुक्त(4)=37 ही हैं; ड़, ढ़ अवर्गीय में नहीं → 
-18-11 17:06:41   [sangya_sarvanam] review PYQ_hi.txt: 5 issue(s): - Section 1 (संज्ञा की पहचान और वर्गीकरण): "माँ" को व्यक्तिवाचक संज्ञा बताया गया है → "माँ" जातिवाचक संज्ञा है (व्यक्ति
-18-11 17:08:28   [sangya_sarvanam] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 4 explanation for pronoun-antecedent agreement incorrectly states that reflexive pron
-18-11 17:10:32   [sangya_sarvanam] review Important_Rules_hi.txt: 6 issue(s): - नियम २ में "ई कारांत पुल्लिंग" शीर्षक के अंतर्गत "पुत्री" और "नौकरानी" को पुल्लिंग अपवाद बताना गलत है — य
 18-11 17:11:23   [varn_vartani] REJECTED review fix Content_hi.txt: reviewer still reports - "हिंदी वर्णमाला में कुल 39 व्यंजन माने जाते हैं" और पारंपरिक गणना में 39 व्यंजन बताना → म
 18-11 17:12:31   [varn_vartani] review Key_Facts_hi.txt: 4 issue(s): - Item 1: हिंदी वर्णमाला में 52 वर्ण (11 स्वर + 41 व्यंजन) और 2 नुक्ता-युक्त व्यंजन (ऩ, ऱ) बताना गलत है → मानक हि
 18-11 17:14:13   [varn_vartani] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 19 states an incorrect visarga sandhi rule for Hindi (विसर्ग के बाद 'क, ख' → 'क्,
@@ -96,4 +82,19 @@
 18-11 17:39:51   [sandhi] Practice_hi_Set_02.txt try 1: rejected (Q42:duplicate_options,Q44:duplicate_options,Q46:duplicate_options,Q47:duplicate_options,Q48:duplicate_options)
 18-11 17:41:39   [visheshan_kriya] review Content_hi.txt: 2 issue(s): - In section 1.3, 'नीला' and 'मीठा' are wrongly classified as अरूपांतरित विशेषण; they are रूपांतरित (change to 'नील
 18-11 17:44:40   [visheshan_kriya] REJECTED review fix Content_hi.txt: reviewer still reports - Section 1.3: The example "लाल → लाली" is listed under रूपांतरित विशेषण, but "लाल" is an अ
+18-11 17:47:27   [visheshan_kriya] review Important_Rules_hi.txt: 1 issue(s): - Rule 5 द्विकर्मक example "गुरु ने शिष्य को पढ़ाया विद्या" has incorrect verb agreement: the verb "पढ़ाया"
+18-11 17:50:41   [varn_vartani] review PYQ_hi.txt: 3 issue(s): - Section 1.2 explanation incorrectly states that in "विद्यालय" the letter 'य' is followed by 'आ' matra; actually the '
+18-11 17:55:20   [varn_vartani] review Important_Rules_hi.txt: 7 issue(s): - Section 1: "हिन्दी वर्णमाला में ४५ मूल वर्ण — ११ स्वर और ३४ व्यंजन" → the list contains 33 consonants (to
+18-11 17:58:46   [varn_vartani] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Visarga sandhi rule for स/श/ष states "विसर्ग लोप + अगला व्यंजन द्वित्व" but the e
+18-11 17:58:46   [varn_vartani] review: 2 section(s) corrected, 4 failed
+18-11 17:58:46   [varn_vartani] written 2, failed 4; AI calls today 183/100000
+18-11 17:58:46 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 59 min: todo [] problems []
+18-11 17:58:46 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
+18-11 17:59:08   [keyboard_shortcuts] review: 1 section(s) corrected, 1 failed
+18-11 17:59:08   [keyboard_shortcuts] written 1, failed 1; AI calls today 184/100000
+18-11 17:59:09 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_06_keyboard_shortcuts after 95 min: todo [] problems []
+18-11 17:59:09 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (OK: todo 0, problems 0)
+18-11 18:00:03   [sangya_sarvanam] review Content_hi.txt: 1 issue(s): - In Example 6 and Quick Revision point 7, the list of nouns that do not change in plural includes "पैर" and "पाँव"
+18-11 18:01:25   [sandhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q26 key a vs re-solve b, Q27 key a vs re-solve d, Q32 key c vs re-solve d, Q33 key d vs re-solve b, 
+18-11 18:02:24   [sangya_sarvanam] REJECTED review fix Content_hi.txt: reviewer still reports - "परीक्षा उपयोगी सूत्र" में व्यक्तिवाचक के लिए "पहला अक्षर बड़ा" और जातिवाचक के लिए "छोटे 
 ```
