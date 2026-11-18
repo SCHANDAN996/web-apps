@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 05:38 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 04:51 AM
+**आख़िरी update:** 18-11-2026 05:53 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 04:51 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 36 मिनट |
-| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 15 मिनट |
-| W3 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 21 मिनट |
-| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 20 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | ✍️ लिख रहा है | 14 मिनट |
+| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 30 मिनट |
+| W3 | Chapter 06 kaal vachya (10th Hindi) | ✍️ लिख रहा है | 36 मिनट |
+| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🔎 review हो रहा है | 35 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 61 |
-| key 4 | 40 |
+| key 3 | 65 |
+| key 4 | 48 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -50,21 +50,11 @@
 - Chapter 04 visheshan kriya (Hindi) — 1 बार
 - Chapter 04 software os (Computer) — 1 बार
 - Chapter 03 sangya sarvanam (Hindi) — 1 बार
+- Chapter 05 ling vachan karak (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 05:13:20   [ling_vachan_karak] review Feynman_hi.txt: 7 issue(s): - "पुस्तक" को पुल्लिंग में दिखाया गया है जबकि यह स्त्रीलिंग है → "पुस्तक" को स्त्रीलिंग कॉलम में रखें
-18-11 05:14:21   [software_os] REJECTED review fix PYQ_en.txt: reviewer still reports - The trap claims "Ctrl+T opens a new tab in File Explorer" is false (browser only), but Exampl
-18-11 05:16:27   [software_os] review Important_Rules_en.txt: 3 issue(s): - Rule 4 example "8 GB RAM + 12 GB page file = 20 GB virtual address space per process (on 64-bit Windows)"
-18-11 05:16:49   [visheshan_kriya] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 3 claims सार्वनामिक विशेषण like 'यह' do not change, but 'यह' changes to 'ये'
-18-11 05:16:49   [visheshan_kriya] review: 2 section(s) corrected, 3 failed
-18-11 05:16:49   [visheshan_kriya] written 2, failed 3; AI calls today 60/100000
-18-11 05:16:49 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 25 min: todo [] problems []
-18-11 05:16:50 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya (TODO: todo 3, problems 1)
-18-11 05:16:50   [kaal_vachya] Hindi-only writer: direct Hindi content; English generation and translation disabled
-18-11 05:17:57   [software_os] REJECTED review fix Important_Rules_en.txt: reviewer still reports - Rule 4: wrong virtual address space numbers (8 TB user / 128 TB total) → On 64‑bi
-18-11 05:18:04   [software_os] review: 1 section(s) corrected, 2 failed
 18-11 05:18:04   [software_os] written 1, failed 2; AI calls today 63/100000
 18-11 05:18:04 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os after 26 min: todo [] problems []
 18-11 05:18:04 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_06_keyboard_shortcuts (OK: todo 0, problems 0)
@@ -94,4 +84,15 @@
 18-11 05:34:04   [ling_vachan_karak] REJECTED review fix PYQ_hi.txt: reviewer still reports - In the "लिंग" heuristic (15-सेकंड नियम), masculine a-ending nouns "दादा", "नाना" are incorrec
 18-11 05:34:31   [kaal_vachya] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q91 key a vs re-solve b)
 18-11 05:35:54   [ling_vachan_karak] review Important_Rules_hi.txt: 6 issue(s): - Rule 2 exception incorrectly includes "किरण" as a feminine noun ending in इ/आ; "किरण" ends in a consonant
+18-11 05:38:51   [ling_vachan_karak] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 4 (घ) incorrectly states that इ/ई/उ/ऊ/ए/ओकारांत nouns are usually unchanged 
+18-11 05:38:51   [ling_vachan_karak] review: 0 section(s) corrected, 5 failed
+18-11 05:38:51   [ling_vachan_karak] written 0, failed 5; AI calls today 103/100000
+18-11 05:38:51 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 37 min: todo [] problems []
+18-11 05:38:51 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (TODO: todo 1, problems 0)
+18-11 05:38:51   [varn_vartani] Hindi-only writer: direct Hindi content; English generation and translation disabled
+18-11 05:39:43   [sandhi] Practice_hi_Set_01.txt try 2: rejected (Q2:duplicate_options,Q4:duplicate_options,Q5:duplicate_options,Q9:duplicate_options,Q10:duplicate_options)
+18-11 05:41:20   [kaal_vachya] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q90 key b vs re-solve c)
+18-11 05:45:45   [varn_vartani] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q51 key d vs re-solve c, Q62 key b vs re-solve a, Q72 key b vs re-solve a)
+18-11 05:47:03   [kaal_vachya] wrote Practice_hi_Set_04.txt (write, 25 MCQs)
+18-11 05:49:01   [kaal_vachya] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q102 key a vs re-solve b, Q109 key d vs re-solve c, Q113 key d vs re-solve b, Q118 key a vs re-solve
 ```
