@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 07:34 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 03:42 PM
+**आख़िरी update:** 18-11-2026 07:49 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 03:42 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,13 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 39 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 15 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 140 मिनट |
-| W4 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 95 मिनट |
+| W1 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 54 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 155 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 176 |
-| key 4 | 96 |
+| key 3 | 188 |
+| key 4 | 99 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -46,34 +44,17 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 03 sangya sarvanam (Hindi) — 3 बार
+- Chapter 03 sangya sarvanam (Hindi) — 4 बार
 - Chapter 01 varn vartani (Hindi) — 3 बार
 - Chapter 04 software os (Computer) — 2 बार
 - Chapter 04 visheshan kriya (Hindi) — 3 बार
-- Chapter 05 ling vachan karak (Hindi) — 1 बार
+- Chapter 05 ling vachan karak (Hindi) — 2 बार
 - Chapter 06 kaal vachya (Hindi) — 2 बार
 - Chapter 06 keyboard shortcuts (Computer) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 18:36:55   [ling_vachan_karak] review Key_Facts_hi.txt: 6 issue(s): - Point 3: Example 'कमरी' is not a standard Hindi feminine noun → replace with a valid ईकारांत feminine noun like
-18-11 18:39:31   [ling_vachan_karak] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 6 rule “अकारांत पुल्लिंग में आ जोड़कर स्त्रीलिंग बनता है” is wrong; the feminine 
-18-11 18:41:02   [ling_vachan_karak] review Feynman_hi.txt: 5 issue(s): - "पुस्तक" को पुल्लिंग (अपवाद) बताया गया है → "पुस्तक" स्त्रीलिंग है
-18-11 18:43:13   [ling_vachan_karak] REJECTED review fix Feynman_hi.txt: reviewer still reports - In the लिंग section, "कहानी" is incorrectly listed as an exception to the rule that words
-18-11 18:43:53   [ling_vachan_karak] review Mind_Map.txt: 1 issue(s): - Missing "संबोधन कारक / Vocative" under कारक / Case → Add node for संबोधन कारक / Vocative as 8th case (standard Hind
-18-11 18:46:24   [varn_vartani] review Content_hi.txt: 3 issue(s): - The text states "हिंदी वर्णमाला में कुल 52 वर्ण माने जाते हैं — 13 स्वर और 39 व्यंजन", but the breakdown given (2
-18-11 18:48:00   [sandhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q26 key a vs re-solve b, Q27 key a vs re-solve d, Q32 key a vs re-solve c, Q33 key c vs re-solve b, 
-18-11 18:48:00   [sandhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
-18-11 18:49:19   [kaal_vachya] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम २ के अपवाद में 'जाना' को सतत रूप न बनाने वाली क्रियाओं में गलत शामिल किया गय
-18-11 18:49:19   [kaal_vachya] review: 1 section(s) corrected, 4 failed
-18-11 18:49:19   [kaal_vachya] written 1, failed 4; AI calls today 234/100000
-18-11 18:49:19 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya after 45 min: todo [] problems []
-18-11 18:49:19 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya (OK: todo 0, problems 0)
-18-11 18:50:57   [sandhi] Practice_hi_Set_03.txt try 1: rejected (parsed 24 questions, numbers 51…75)
-18-11 18:51:33   [visheshan_kriya] review Content_hi.txt: 1 issue(s): - In section 1.3 table, "नीला" and "मीठा" are listed as अरूपांतरित विशेषण but they are रूपांतरित विशेषण (they chang
-18-11 18:53:05   [sandhi] Practice_hi_Set_03.txt try 2: rejected (Q52:duplicate_options,Q58:duplicate_options,Q61:duplicate_options,Q62:duplicate_options,Q65:duplicate_options)
-18-11 18:54:18   [visheshan_kriya] REJECTED review fix Content_hi.txt: reviewer still reports - Section 1.1 rule "विशेषण हमेशा संज्ञा/सर्वनाम के लिंग, वचन, कारक के अनुसार बदलता है" is f
 18-11 18:55:25   [visheshan_kriya] review: 0 section(s) corrected, 1 failed
 18-11 18:55:25   [visheshan_kriya] written 0, failed 1; AI calls today 242/100000
 18-11 18:55:25 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 6 min: todo [] problems []
@@ -97,4 +78,21 @@
 18-11 19:28:24   [sangya_sarvanam] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 4 incorrectly lists 'फल', 'घर', 'पानी' as invariant nouns → 'फल' and 'घर' have pl
 18-11 19:31:23   [sangya_sarvanam] review PYQ_hi.txt: 2 issue(s): - In the first PYQ-style example (भाववाचक संज्ञा), the explanation incorrectly labels "माँ" as व्यक्तिवाचक संज्ञा. → "म
 18-11 19:34:00   [sangya_sarvanam] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 3 trap "पुरुष भ्रम" lists "यहाँ/वहाँ" as pronouns → "यहाँ/वहाँ" are adverbs (क्रियावि
+18-11 19:34:59   [sandhi] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q59 key b vs re-solve c, Q63 key d vs re-solve c, Q67 key a vs re-solve ?, Q70 key a vs re-solve ?, 
+18-11 19:34:59   [sandhi] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+18-11 19:36:07   [sangya_sarvanam] review Important_Rules_hi.txt: 5 issue(s): - Rule 2: 'ई' कारांत पुल्लिंग heading lists feminine examples 'पुत्री', 'नौकरानी' → change heading to 'ई' क
+18-11 19:36:49   [sandhi] Practice_hi_Set_04.txt try 1: rejected (Q76:duplicate_options,Q77:duplicate_options,Q78:duplicate_options,Q79:duplicate_options,Q80:duplicate_options)
+18-11 19:39:37   [ling_vachan_karak] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 3 और Section 6 में नियम गलत है: "कर्ता कारक 'ने' केवल **अन्य पुरुष** (तीसरे पुरुष) मे
+18-11 19:41:06   [ling_vachan_karak] review Important_Rules_hi.txt: 1 issue(s): - नियम ४ (घ) में कहा गया है कि इ/ई/उ/ऊ/ए/ओकारांत संज्ञाएँ प्रायः अपरिवर्तित रहती हैं, लेकिन स्त्रीलिंग इ/ईक
+18-11 19:44:29   [ling_vachan_karak] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 2: "इकारान्त" examples "हाथी", "सिपाही", "माली" end in ई, so they are ईकारान
+18-11 19:44:29   [ling_vachan_karak] review: 1 section(s) corrected, 5 failed
+18-11 19:44:29   [ling_vachan_karak] written 1, failed 5; AI calls today 281/100000
+18-11 19:44:29 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 105 min: todo [] problems []
+18-11 19:44:29 worker 3: nothing left
+18-11 19:46:23   [sangya_sarvanam] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 2: The list of "आ" कारांत स्त्रीलिंग includes "बहन", "सास", "नानी" which do 
+18-11 19:46:23   [sangya_sarvanam] review: 0 section(s) corrected, 4 failed
+18-11 19:46:23   [sangya_sarvanam] written 0, failed 4; AI calls today 281/100000
+18-11 19:46:23 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 28 min: todo [] problems []
+18-11 19:46:23 worker 1: nothing left
+18-11 19:47:53   [software_os] review Feynman_en.txt: 1 issue(s): - Monolithic kernel (Linux, Windows NT) incorrectly classifies Windows NT as monolithic; Windows NT is a hybrid ker
 ```
