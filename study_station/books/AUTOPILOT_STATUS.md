@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 04:36 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 01:32 AM
+**आख़िरी update:** 19-11-2026 04:52 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 01:32 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 excel (12th Computer) | ✍️ लिख रहा है | 17 मिनट |
-| W2 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 0 मिनट |
-| W3 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 34 मिनट |
-| W4 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 13 मिनट |
+| W1 | Chapter 08 excel (12th Computer) | ✍️ लिख रहा है | 33 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 10 मिनट |
+| W3 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 3 मिनट |
+| W4 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 28 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 163 |
-| key 4 | 97 |
+| key 3 | 178 |
+| key 4 | 116 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -46,11 +46,11 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 04 visheshan kriya (Hindi) — 2 बार
+- Chapter 04 visheshan kriya (Hindi) — 3 बार
 - Chapter 03 sangya sarvanam (Hindi) — 3 बार
 - Chapter 06 kaal vachya (Hindi) — 2 बार
 - Chapter 01 varn vartani (Hindi) — 2 बार
-- Chapter 05 ling vachan karak (Hindi) — 1 बार
+- Chapter 05 ling vachan karak (Hindi) — 2 बार
 - Chapter 08 samas (Hindi) — 1 बार
 - Chapter 07 word (Computer) — 1 बार
 - Chapter 07 sandhi (Hindi) — 1 बार
@@ -58,38 +58,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 04:09:42 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 19 min: todo [] problems []
-19-11 04:09:43 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya (OK: todo 0, problems 0)
-19-11 04:10:44   [ling_vachan_karak] review Content_hi.txt: 6 issue(s): - Section 1 (लिंग) table wrongly classifies "कमरा", "फल", "पत्तल", "ज्ञान" as नपुंसकलिंग; in standard Hindi grammar
-19-11 04:11:27   [kaal_vachya] review Content_hi.txt: 4 issue(s): - "प्रतिवर्ष 3–5 प्रश्न पूछे जाते हैं" claim is an invented exam statistic without source → remove or cite specific
-19-11 04:13:06   [kaal_vachya] REJECTED review fix Content_hi.txt: reviewer still reports - पूर्ण सतत काल की संरचना में '+ से' को क्रिया का भाग बताया गया है → '+ से' हटाएँ; 'से' काल
-19-11 04:13:41   [kaal_vachya] review Key_Facts_hi.txt: 6 issue(s): - Point 2 lists “संदिग्ध वर्तमान” as a fourth present‑tense form; standard Hindi grammar recognises only three (स
-19-11 04:14:57   [kaal_vachya] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 11 example for द्विकर्मक क्रिया passive is ungrammatical: "शिष्य को विद्या सिखाई 
-19-11 04:17:12   [kaal_vachya] review Important_Rules_hi.txt: 4 issue(s): - Rule 2 exception note contains contradictory text ("नहीं कहते — 'वह जा रहा है' के स्थान पर 'वह जा रहा है'
-19-11 04:18:57   [kaal_vachya] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम १ में भूतकाल का उदाहरण "राम पढ़ा।" सकर्मक क्रिया के लिए बिना "ने" के दिया गय
-19-11 04:18:57   [kaal_vachya] review: 0 section(s) corrected, 3 failed
-19-11 04:18:57   [kaal_vachya] written 0, failed 3; AI calls today 236/100000
-19-11 04:18:57 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya after 9 min: todo [] problems []
-19-11 04:18:58 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_08_excel (TODO: todo 25, problems 0)
-19-11 04:19:25   [sandhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q126 key a vs re-solve b, Q127 key d vs re-solve b, Q129 key c vs re-solve ?, Q133 key b vs re-solve
-19-11 04:21:09   [varn_vartani] review Important_Rules_hi.txt: 8 issue(s): - Rule 1 claims "३४ व्यंजन" but the listed consonants total 33 → correct count to "३३ व्यंजन" or add ड़, ढ़
-19-11 04:23:22   [varn_vartani] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Point 1 states “३४ व्यंजन” and “४५ मूल वर्ण”, but the consonant list includes 35 
-19-11 04:23:22   [varn_vartani] review: 0 section(s) corrected, 4 failed
-19-11 04:23:22   [varn_vartani] written 0, failed 4; AI calls today 241/100000
-19-11 04:23:22 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 76 min: todo [] problems []
-19-11 04:23:23 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas (TODO: todo 5, problems 0)
-19-11 04:23:23   [samas] Hindi-only writer: direct Hindi content; English generation and translation disabled
-19-11 04:24:11   [excel] wrote Content_en.txt (12404 chars)
-19-11 04:24:49   [sandhi] Practice_hi_Set_06.txt try 3: rejected (Q133:duplicate_options)
-19-11 04:25:49   [excel] wrote Content_hi.txt (12699 chars)
-19-11 04:26:25   [excel] wrote Key_Facts_en.txt (7323 chars)
-19-11 04:27:00   [excel] wrote Key_Facts_hi.txt (6085 chars)
-19-11 04:27:25   [ling_vachan_karak] REJECTED review fix Content_hi.txt: reviewer still reports - In the "बहुवचन बनाने के नियम" table, the row for "आ (स्त्रीलिंग)" gives example "चाची → च
-19-11 04:27:27   [excel] wrote Feynman_en.txt (2870 chars)
-19-11 04:28:03   [excel] wrote Feynman_hi.txt (3985 chars)
-19-11 04:28:08   [ling_vachan_karak] review Key_Facts_hi.txt: 7 issue(s): - नपुंसकलिंग के उदाहरण गलत हैं (किताब, मेज, पानी, आकाश पुल्लिंग/स्त्रीलिंग हैं) → हिंदी में नपुंसकलिंग नहीं होता;
-19-11 04:28:37   [excel] wrote Mind_Map.txt (2112 chars)
-19-11 04:29:59   [ling_vachan_karak] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 1: Claim that नपुंसकलिंग is not recognized in Hindi grammar is incorrect; Hindi g
 19-11 04:32:12   [ling_vachan_karak] review Feynman_hi.txt: 2 issue(s): - Mind map incorrectly places plural formation rules (आकारांत पुल्लिंग → ए, आकारांत स्त्रीलिंग → एँ, व्यंजनांत → एँ
 19-11 04:33:53   [ling_vachan_karak] REJECTED review fix Feynman_hi.txt: reviewer still reports - Flashcard 15 states verb agrees only with कर्ता, not कर्म → Verb agrees with कर्ता in non
 19-11 04:35:59   [sandhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q128 key d vs re-solve a, Q130 key b vs re-solve d, Q131 key a vs re-solve b, Q142 key b vs re-solve
@@ -98,4 +66,36 @@
 19-11 04:35:59 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi after 158 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo'] problems []
 19-11 04:35:59 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya (OK: todo 0, problems 0)
 19-11 04:36:30   [ling_vachan_karak] review PYQ_hi.txt: 4 issue(s): - Section 5 trap list: "ने का गलत प्रयोग … स्त्रीलिंग कर्ता के साथ बिना 'ने' के" lists omission of 'ने' as a "wrong usa
+19-11 04:37:31   [excel] wrote Flashcards_en.txt (3909 chars)
+19-11 04:37:47   [samas] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q1 key c vs re-solve b, Q12 key c vs re-solve d, Q14 key d vs re-solve b)
+19-11 04:38:20   [excel] wrote Flashcards_hi.txt (4913 chars)
+19-11 04:38:23   [visheshan_kriya] review Content_hi.txt: 1 issue(s): - In section 1.3, the table incorrectly lists "नीला" and "मीठा" as अरूपांतरित विशेषण (indeclinable adjectives); the
+19-11 04:38:48   [excel] wrote PYQ_en.txt (9147 chars)
+19-11 04:39:52   [excel] wrote PYQ_hi.txt (12726 chars)
+19-11 04:41:16   [visheshan_kriya] REJECTED review fix Content_hi.txt: reviewer still reports - Rule in 1.1 claims "विशेषण हमेशा संज्ञा/सर्वनाम के लिंग, वचन, कारक के अनुसार बदलता है" → 
+19-11 04:41:16   [visheshan_kriya] review: 0 section(s) corrected, 1 failed
+19-11 04:41:16   [visheshan_kriya] written 0, failed 1; AI calls today 272/100000
+19-11 04:41:17 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 5 min: todo [] problems []
+19-11 04:41:17 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
+19-11 04:41:34   [samas] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q22 key b vs re-solve d)
+19-11 04:41:56   [ling_vachan_karak] REJECTED review fix PYQ_hi.txt: reviewer still reports - In section 7 (15-सेकंड नियम), the gender heuristic lists “दादा”, “नाना” as exceptions to “आका
+19-11 04:42:55   [sangya_sarvanam] review Key_Facts_hi.txt: 3 issue(s): - Point 16: Suffix "ता/ती" is illustrated with "मीठा → मिठास" which actually uses suffix "आस" → Move this example
+19-11 04:43:13   [ling_vachan_karak] review Important_Rules_hi.txt: 2 issue(s): - नियम ४ (घ) में कहा गया है कि इ/ई/उ/ऊ/ए/ओकारांत संज्ञाएँ बहुवचन में प्रायः अपरिवर्तित रहती हैं, लेकिन उदाह
+19-11 04:44:06   [excel] wrote Important_Rules_en.txt (5992 chars)
+19-11 04:45:15   [excel] wrote Important_Rules_hi.txt (9161 chars)
+19-11 04:47:46   [sangya_sarvanam] review PYQ_hi.txt: 2 issue(s): - Section 4 PYQ-style example explanation incorrectly states that reflexive pronoun 'अपना' agrees with subject 'सीता' i
+19-11 04:48:44   [ling_vachan_karak] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 1 exception incorrectly cites "शिक्षक/शिक्षिका" as a word used for both gend
+19-11 04:48:44   [ling_vachan_karak] review: 0 section(s) corrected, 5 failed
+19-11 04:48:44   [ling_vachan_karak] written 0, failed 5; AI calls today 288/100000
+19-11 04:48:44 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 46 min: todo [] problems []
+19-11 04:48:45 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word (OK: todo 0, problems 0)
+19-11 04:49:13   [samas] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q4 key d vs re-solve c, Q12 key c vs re-solve a)
+19-11 04:50:11   [word] review Content_en.txt: 3 issue(s): - In section 16 (Keyboard Shortcuts), `Ctrl+Shift+V` is listed as "Paste Special → Keep Text Only" → `Ctrl+Shift+V`
+19-11 04:51:10   [sangya_sarvanam] review Important_Rules_hi.txt: 7 issue(s): - Rule 2: "आ कारांत स्त्रीलिंग" list includes words not ending in आ (बहन, चिड़िया, सास, नानी) → Only माता e
+19-11 04:52:04   [excel] Practice_en_Set_01.txt try 1: re-solve disagrees (Q25 key d vs re-solve ?)
+19-11 04:52:21   [sangya_sarvanam] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - In Rule 2, "दादा (संबोधन में), नाना (संबोधन में)" are listed as feminine nouns en
+19-11 04:52:21   [sangya_sarvanam] review: 2 section(s) corrected, 1 failed
+19-11 04:52:21   [sangya_sarvanam] written 2, failed 1; AI calls today 297/100000
+19-11 04:52:21 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 11 min: todo [] problems []
+19-11 04:52:22 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya (OK: todo 0, problems 0)
 ```
