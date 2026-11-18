@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 18-11-2026 09:40 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 09:08 PM
+**आख़िरी update:** 18-11-2026 09:55 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 18-11 09:08 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
-| W3 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 17 मिनट |
-| W4 | Chapter 04 software os (12th Computer) | 🔎 review हो रहा है | 31 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 46 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 46 मिनट |
+| W3 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 32 मिनट |
+| W4 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 3 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 22 |
-| key 4 | 23 |
+| key 3 | 37 |
+| key 4 | 34 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -47,11 +47,11 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 04 visheshan kriya (Hindi) — 1 बार
+- Chapter 04 software os (Computer) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-18-11 21:08:34 autopilot start: 4 workers, reverse=False
 18-11 21:08:34 API policy: account start interval=20s; key start interval=15s; in-flight per key=1
 18-11 21:08:35 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (OK: todo 0, problems 0)
 18-11 21:08:39 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
@@ -79,4 +79,17 @@
 18-11 21:36:46   [sangya_sarvanam] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 4: The plural examples for consonant‑ending nouns incorrectly list the singular f
 18-11 21:39:00   [ling_vachan_karak] REJECTED review fix Feynman_hi.txt: reviewer still reports - लिंग तालिका में "कहानी" को पुल्लिंग दिखाया गया है → "कहानी" स्त्रीलिंग है
 18-11 21:40:22   [software_os] review Mind_Map.txt: 1 issue(s): - "Types of OS" placed as a child component of "Operating System" (alongside Kernel, Memory Management) → Move "Types
+18-11 21:40:31   [ling_vachan_karak] review Flashcards_hi.txt: 1 issue(s): - Card 9 rule says "उ" को "एँ" में बदलें but examples show "गुरुएँ" (retaining उ) → Rule should be: "उ" के बाद "
+18-11 21:40:56   [software_os] REJECTED review fix Mind_Map.txt: reviewer still reports - "Types of OS / ऑपरेटिंग सिस्टम के प्रकार" is incorrectly placed as a direct child of "Syste
+18-11 21:43:32   [varn_vartani] REJECTED review fix Feynman_hi.txt: reviewer still reports - Table "वर्तनी के सामान्य नियम" row "अनुस्वार (ं) vs अनुनासिक (ँ)": Incorrectly states "हँ
+18-11 21:44:29   [ling_vachan_karak] review PYQ_hi.txt: 3 issue(s): - Invented exam statistic: "SSC GD में इस अध्याय से 3–5 प्रश्न आते हैं" → Remove the claim or cite a specific year and 
+18-11 21:48:03   [software_os] review Important_Rules_en.txt: 3 issue(s): - Rule 4: Virtual memory example incorrectly states that 8 GB RAM + 12 GB page file = 20 GB virtual address
+18-11 21:48:13   [sangya_sarvanam] review PYQ_hi.txt: 5 issue(s): - Error Detection example answer (d) but error is in part (c) 'अपने' → Answer should be (c)
+18-11 21:50:25   [varn_vartani] review Flashcards_hi.txt: 1 issue(s): - Card 17 incorrectly presents विशेष/बिशेष, क्षमा/कश्मा, ज्ञान/ग्यान, श्रेष्ठ/श्रेस्ठ as same‑pronunciation diff
+18-11 21:51:38   [software_os] REJECTED review fix Important_Rules_en.txt: reviewer still reports - "Windows uses NTFS as the default file system since Windows NT 3.1." → Windows 95
+18-11 21:51:59   [software_os] review: 0 section(s) corrected, 2 failed
+18-11 21:51:59   [software_os] written 0, failed 2; AI calls today 68/100000
+18-11 21:51:59 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os after 43 min: todo [] problems []
+18-11 21:52:00 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya (OK: todo 0, problems 0)
+18-11 21:53:16   [varn_vartani] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 11: The रेफ example “र्क (कर्ता)” is incorrect; कर्ता uses र्त (रेफ above त) → Co
 ```
