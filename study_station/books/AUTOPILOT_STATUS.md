@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 12:28 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
+**आख़िरी update:** 20-11-2026 12:44 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 10 internet browser (12th Computer) | ✍️ लिख रहा है | 22 मिनट |
-| W2 | Chapter 10 paryayvachi (10th Hindi) | 🔎 review हो रहा है | 34 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 231 मिनट |
-| W4 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 42 मिनट |
+| W1 | Chapter 10 internet browser (12th Computer) | ✍️ लिख रहा है | 38 मिनट |
+| W2 | Chapter 10 paryayvachi (10th Hindi) | 🔎 review हो रहा है | 50 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 247 मिनट |
+| W4 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 57 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 103 |
-| key 4 | 119 |
+| key 3 | 119 |
+| key 4 | 122 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -58,19 +58,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 23:28:13   [samas] review Flashcards_hi.txt round 1: 1 issue(s): - Card 15: Incorrectly labels प्रातः as a कालवाचक संज्ञा; प्रातः is an अव्यय (indeclinable). → प्रातःकाल
-19-11 23:30:43   [samas] review PYQ_hi.txt round 1: 1 issue(s): - Example 2 misclassifies "हिमालय" as कर्मधारय, claiming "हिम" is an adjective; in fact "हिम" is a noun and the
-19-11 23:34:21   [samas] review PYQ_hi.txt round 2: 1 issue(s): - उदाहरण 7 (एकशेष द्वन्द्व) की व्याख्या गलत है: 'मातापिता' में दोनों पद (माता, पिता) मौजूद हैं, जबकि एकशेष द्वन
-19-11 23:38:44   [samas] REJECTED review fix PYQ_hi.txt: reviewer still reports - In Pattern 2, the trap description says “विशेषण-प्रधान पद को कर्मधारय मान लेना” but the actua
-19-11 23:40:36   [samas] review Important_Rules_hi.txt round 1: 6 issue(s): - Rule 5 table: First row labels कुम्भकारः as कर्ता/प्रथमा but its vigraha कुम्भं करोति इति shows द
-19-11 23:42:56   [sandhi] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q54 key d vs re-solve c, Q56 key b vs re-solve a, Q58 key c vs re-solve d, Q59 key c vs re-solve b, 
-19-11 23:43:50   [samas] review Important_Rules_hi.txt round 2: 5 issue(s): - Rule 7 incorrectly states that dvigu compounds result in neuter plural (बहुवचन); they actually re
-19-11 23:46:23   [samas] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 5 (तत्पुरुष उपभेद table): The example for कर्ता (प्रथमा) is given as "कर्तृक
-19-11 23:46:23   [samas] review: 3 section(s) corrected, 4 failed
-19-11 23:46:23   [samas] written 3, failed 4; AI calls today 182/100000
-19-11 23:46:23 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas after 73 min: todo [] problems []
-19-11 23:46:24 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay (TODO: todo 3, problems 0)
-19-11 23:46:24   [upsarg_pratyay] Hindi-only writer: direct Hindi content; English generation and translation disabled
 19-11 23:48:11   [paryayvachi] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q124 key d vs re-solve c)
 19-11 23:52:29   [paryayvachi] wrote Practice_hi_Set_05.txt (write, 25 MCQs)
 19-11 23:54:06   [paryayvachi] wrote Practice_hi_Set_06.txt (write, 25 MCQs)
@@ -98,4 +85,17 @@
 20-11 00:17:34   [upsarg_pratyay] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
 20-11 00:20:51   [sandhi] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q106 key a vs re-solve b, Q112 key c vs re-solve d, Q116 key d vs re-solve b, Q122 key b vs re-solve
 20-11 00:24:51   [upsarg_pratyay] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q42 key b vs re-solve d, Q45 key b vs re-solve a, Q46 key c vs re-solve d)
+20-11 00:31:04   [sandhi] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q108 key c vs re-solve b, Q118 key c vs re-solve a, Q120 key a vs re-solve c)
+20-11 00:31:04   [sandhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
+20-11 00:33:51   [paryayvachi] review Key_Facts_hi.txt round 2: 5 issue(s): - बिंदु 5(ग) में “संज्ञा–सर्वनाम पर्याय: ‘राम’ – ‘वह’” दिया गया है → सर्वनाम (वह) संज्ञा का पर्यायवाची नह
+20-11 00:35:50   [upsarg_pratyay] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q41 key a vs re-solve ?)
+20-11 00:36:56   [paryayvachi] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - The plural synonym example in point 7 uses the Sanskrit form “ग्रन्थाः” for Hindi “पुस्
+20-11 00:37:51   [paryayvachi] review Feynman_hi.txt round 1: 2 issue(s): - "देशज/आंचलिक" उदाहरण में "नीर" और "जल" तत्सम शब्द हैं, देशज नहीं → देशज उदाहरण के रूप में केवल क्षेत्रीय 
+20-11 00:39:05   [paryayvachi] review Feynman_hi.txt round 2: 1 issue(s): - देशज/आंचलिक उदाहरण में 'पनिहार' को 'पानी' का पर्यायवाची बताया गया है → 'पनिहार' का अर्थ 'पानी ढोने वाला' 
+20-11 00:41:26   [paryayvachi] REJECTED review fix Feynman_hi.txt: reviewer still reports - Question 1 explanation labels 'धूम' as विलोमार्थी (antonym) of अग्नि; धूम means smoke, wh
+20-11 00:42:25   [paryayvachi] review Flashcards_hi.txt round 1: 9 issue(s): - Card 1: "विहंगम" is not a synonym of "आकाश" (it means bird) → remove "विहंगम" from the list.
+20-11 00:43:00   [internet_browser] wrote Feynman_en.txt (3557 chars)
+20-11 00:43:34   [paryayvachi] review Flashcards_hi.txt round 2: 1 issue(s): - Card 10 lists "अनिल" twice as a synonym for "वायु" → remove the duplicate "अनिल"
+20-11 00:44:03   [upsarg_pratyay] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q43 key d vs re-solve ?, Q49 key a vs re-solve ?)
+20-11 00:44:12   [internet_browser] wrote Feynman_hi.txt (3160 chars)
 ```
