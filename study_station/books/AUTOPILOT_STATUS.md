@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 05:59 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 03:11 PM
+**आख़िरी update:** 19-11-2026 06:05 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 03:11 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 44 मिनट |
-| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 130 मिनट |
-| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 4 मिनट |
-| W4 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 5 मिनट |
+| W1 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 50 मिनट |
+| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 136 मिनट |
+| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 9 मिनट |
+| W4 | Chapter 03 sangya sarvanam (10th Hindi) | 📤 push हो रहा है | 0 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 121 |
-| key 4 | 114 |
+| key 3 | 125 |
+| key 4 | 119 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -44,6 +44,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 19-11 18:05 — 10th Hindi · Chapter 03 sangya sarvanam
 - 19-11 17:54 — 10th Hindi · Chapter 05 ling vachan karak
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
@@ -57,15 +58,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 17:29:28   [varn_vartani] review Feynman_hi.txt: resumed private correction draft
-19-11 17:31:25   [varn_vartani] review Feynman_hi.txt round 1: 1 issue(s): - In the confused word pairs table (section 4), the row for "आश्चर्य" shows the same spelling "आश्चर्य" in 
-19-11 17:31:51   [kaal_vachya] REJECTED review fix Content_hi.txt: reviewer still reports - Common errors table explanation for 'कारक चिह्न भूलना' incorrectly states that 'ने' is us
-19-11 17:31:51   [kaal_vachya] review Key_Facts_hi.txt: resumed private correction draft
-19-11 17:33:00   [kaal_vachya] review Key_Facts_hi.txt round 1: 1 issue(s): - In point 10, the rule states that animate agents take “से” and inanimate/institutional agents take “द्व
-19-11 17:33:13   [varn_vartani] review Feynman_hi.txt round 2: 1 issue(s): - In Section 4 (confused word-pairs table), the row for "आश्चर्य" shows the same spelling "आश्चर्य" for bot
-19-11 17:34:31   [kaal_vachya] review Key_Facts_hi.txt round 2: 2 issue(s): - Point 9: Wrong terminology “तुकांत” used for the passive participle → The correct term is “कर्मवाच्य रू
-19-11 17:36:19   [kaal_vachya] review Important_Rules_hi.txt: resumed private correction draft
-19-11 17:37:16   [sandhi] Practice_hi_Set_03.txt try 1: rejected (Q52:duplicate_options,Q67:duplicate_options,Q72:duplicate_options,Q73:duplicate_options,Q75:duplicate_options)
 19-11 17:38:22   [sandhi] Practice_hi_Set_03.txt try 2: rejected (Q52:duplicate_options)
 19-11 17:38:23   [kaal_vachya] review Important_Rules_hi.txt round 1: 1 issue(s): - Invented exam statistic: "यही SSC GD में ९०% प्रश्नों का आधार है" → Remove or replace with a non-
 19-11 17:39:37   [varn_vartani] REJECTED review fix Feynman_hi.txt: reviewer still reports - In the confusing word pairs table, both correct and incorrect spellings for "आश्चर्य" are
@@ -97,4 +89,13 @@
 19-11 17:57:16   [sandhi] Practice_hi_Set_05.txt try 2: rejected (Q105:duplicate_options,Q106:duplicate_options,Q109:duplicate_options,Q112:duplicate_options,Q114:duplicate_opt
 19-11 17:57:45   [word] review PYQ_hi.txt round 1: 1 issue(s): - The 'स्कोप भ्रम' trap incorrectly claims that the statement "Ctrl+F opens Find" is false for "all Office apps
 19-11 17:58:38   [sandhi] Practice_hi_Set_05.txt try 3: rejected (Q114:duplicate_options,Q116:duplicate_options,Q119:duplicate_options,Q121:duplicate_options,Q122:duplicate_opt
+19-11 18:00:15   [sandhi] Practice_hi_Set_05.txt try 4: rejected (Q121:duplicate_options,Q122:duplicate_options,Q123:duplicate_options,Q124:duplicate_options,Q125:duplicate_opt
+19-11 18:00:15   [sandhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
+19-11 18:01:32   [sandhi] Practice_hi_Set_06.txt try 1: rejected (parsed 24 questions, numbers 126…149)
+19-11 18:01:38   [word] review PYQ_hi.txt round 2: 2 issue(s): - In "Common Traps" table under "स्कोप भ्रम", the claim "Ctrl+F फाइंड खोलता है — Word, Excel, PowerPoint, Outlo
+19-11 18:02:45   [sandhi] Practice_hi_Set_06.txt try 2: rejected (Q129:duplicate_options,Q133:duplicate_options,Q138:duplicate_options,Q140:duplicate_options,Q143:duplicate_opt
+19-11 18:03:27   [sangya_sarvanam] review Important_Rules_hi.txt round 1: 2 issue(s): - Rule 15 table incorrectly marks "जो आएगा वह पाएगा" as a wrong sentence; "जो … वह" is a grammatica
+19-11 18:04:16   [sandhi] Practice_hi_Set_06.txt try 3: rejected (Q148:duplicate_options)
+19-11 18:05:14   [sangya_sarvanam] review: 1 section(s) corrected, 0 failed
+19-11 18:05:14   [sangya_sarvanam] written 1, failed 0; AI calls today 245/100000
 ```
