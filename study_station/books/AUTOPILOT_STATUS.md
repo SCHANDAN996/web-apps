@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 12:53 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 11:36 AM
+**आख़िरी update:** 19-11-2026 01:09 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 11:36 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 54 मिनट |
-| W2 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 33 मिनट |
-| W3 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 23 मिनट |
-| W4 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 52 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 69 मिनट |
+| W2 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 48 मिनट |
+| W3 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 38 मिनट |
+| W4 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 67 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 43 |
-| key 4 | 54 |
+| key 3 | 51 |
+| key 4 | 62 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -55,18 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 12:11:22   [word] review Content_hi.txt: 4 issue(s): - परिचय में रिबन टैब की सूची अधूरी है (Draw, Design आदि गायब हैं) → रिबन में टैब File, Home, Insert, Draw, Design, 
-19-11 12:13:29   [ling_vachan_karak] REJECTED review fix PYQ_hi.txt: reviewer still reports - The grammar rule for ergative "ने" incorrectly restricts it to third person (अन्य पुरुष) in p
-19-11 12:14:39   [ling_vachan_karak] review Important_Rules_hi.txt: 2 issue(s): - Rule 7: The rule claims “को” marks definite inanimate objects (निश्चित अजीव), but the example “राम ने पुस
-19-11 12:17:30   [sangya_sarvanam] review Important_Rules_hi.txt: 5 issue(s): - Rule 2: "आ कारांत स्त्रीलिंग" lists "बहन", "चिड़िया", "सास", "नानी" which are not आ-कारांत; "ई कारांत पुल
-19-11 12:20:07   [sangya_sarvanam] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 2 incorrectly lists "हाथी" as an example of उकारांत/ऊकारांत पुल्लिंग; "हाथी"
-19-11 12:20:07   [sangya_sarvanam] review: 2 section(s) corrected, 1 failed
-19-11 12:20:07   [sangya_sarvanam] written 2, failed 1; AI calls today 67/100000
-19-11 12:20:07 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 44 min: todo [] problems []
-19-11 12:20:08 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas (TODO: todo 4, problems 0)
-19-11 12:20:08   [samas] Hindi-only writer: direct Hindi content; English generation and translation disabled
-19-11 12:22:19   [word] REJECTED review fix Content_hi.txt: reviewer still reports - Quick Revision point 3 lists both Read Mode and Focus with the same shortcut Alt+W,F → In
-19-11 12:23:21   [sandhi] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q6 key c vs re-solve b, Q7 key a vs re-solve d, Q12 key b vs re-solve d, Q21 key d vs re-solve c, Q2
 19-11 12:23:27   [word] review Key_Facts_en.txt: 4 issue(s): - Point 6: “Shift+arrow keys extend selection character/word/line/paragraph” → Shift+arrow extends by character; 
 19-11 12:25:18   [ling_vachan_karak] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 3 lists “बहन” as an example of feminine nouns ending in आ/इ/ई, but “बहन” end
 19-11 12:25:18   [ling_vachan_karak] review: 0 section(s) corrected, 4 failed
@@ -95,4 +83,16 @@
 19-11 12:47:57   [sandhi] Practice_hi_Set_02.txt try 3: rejected (Q40:duplicate_options)
 19-11 12:53:27   [samas] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q9 key a vs re-solve d, Q13 key b vs re-solve a, Q14 key a vs re-solve ?, Q16 key d vs re-solve c, Q
 19-11 12:53:27   [samas] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
+19-11 12:56:03   [samas] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q57 key d vs re-solve a, Q60 key d vs re-solve b, Q73 key b vs re-solve c)
+19-11 12:59:24   [sandhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q28 key c vs re-solve d, Q29 key b vs re-solve c, Q42 key d vs re-solve c, Q43 key d vs re-solve a, 
+19-11 12:59:24   [sandhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
+19-11 13:00:24   [sandhi] Practice_hi_Set_03.txt try 1: rejected (parsed 24 questions, numbers 51…75)
+19-11 13:00:50   [samas] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q59 key d vs re-solve a)
+19-11 13:02:00   [sandhi] Practice_hi_Set_03.txt try 2: rejected (Q52:duplicate_options,Q56:duplicate_options,Q57:duplicate_options,Q58:duplicate_options,Q60:duplicate_options)
+19-11 13:04:07   [samas] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q68 key a vs re-solve b)
+19-11 13:05:00   [varn_vartani] review Content_hi.txt: 2 issue(s): - Section 3.1 मात्रा-नियम table: for इ (ि) the examples “फल” → “फिल” (अशुद्ध) and “फूल” → “फुल” (अशुद्ध) are incorr
+19-11 13:07:18   [varn_vartani] REJECTED review fix Content_hi.txt: reviewer still reports - The rule in sections 2.1 and 6 (Quick Tips) that anunasik (chandrabindu) is used before a
+19-11 13:08:17   [samas] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q70 key d vs re-solve c, Q75 key d vs re-solve b)
+19-11 13:08:17   [samas] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+19-11 13:08:33   [varn_vartani] review Key_Facts_hi.txt: 3 issue(s): - बिंदु 6: "नुक्ता-युक्त व्यंजन (2): ऩ, ऱ — मराठी/संस्कृत ध्वनियों के लिए प्रयुक्त" → "नुक्ता-युक्त व्यंजन (2): ऩ
 ```
