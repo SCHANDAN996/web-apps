@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 11:27 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
+**आख़िरी update:** 19-11-2026 11:42 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 2 मिनट |
-| W2 | Chapter 10 paryayvachi (10th Hindi) | ✍️ लिख रहा है | 103 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 170 मिनट |
-| W4 | Chapter 08 samas (10th Hindi) | 🔎 review हो रहा है | 42 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 17 मिनट |
+| W2 | Chapter 10 paryayvachi (10th Hindi) | ✍️ लिख रहा है | 118 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 185 मिनट |
+| W4 | Chapter 08 samas (10th Hindi) | 🔎 review हो रहा है | 57 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 72 |
-| key 4 | 97 |
+| key 3 | 82 |
+| key 4 | 98 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -58,11 +58,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 22:33:26   [varn_vartani] written 1, failed 1; AI calls today 113/100000
-19-11 22:33:26 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 22 min: todo [] problems []
-19-11 22:33:27 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas (TODO: todo 1, problems 0)
-19-11 22:33:27   [samas] Hindi-only writer: direct Hindi content; English generation and translation disabled
-19-11 22:34:10   [paryayvachi] wrote Practice_hi_Set_01.txt (write, 25 MCQs)
 19-11 22:36:12   [samas] Practice_hi_Set_03.txt try 1: rejected (parsed 24 questions, numbers 51…75)
 19-11 22:37:35   [samas] Practice_hi_Set_03.txt try 2: rejected (parsed 24 questions, numbers 51…75)
 19-11 22:38:04   [sandhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q26 key b vs re-solve c, Q30 key b vs re-solve ?, Q32 key b vs re-solve d, Q36 key d vs re-solve ?, 
@@ -98,4 +93,9 @@
 19-11 23:25:02   [varn_vartani] review Important_Rules_hi.txt: resumed private correction draft
 19-11 23:25:29   [paryayvachi] wrote Practice_hi_Set_04.txt (write, 25 MCQs)
 19-11 23:26:51   [samas] REJECTED review fix Mind_Map.txt: reviewer still reports - कर्मधारय समास is incorrectly listed as a main type of समास; it is a sub-type of तत्पुरुष सम
+19-11 23:28:13   [samas] review Flashcards_hi.txt round 1: 1 issue(s): - Card 15: Incorrectly labels प्रातः as a कालवाचक संज्ञा; प्रातः is an अव्यय (indeclinable). → प्रातःकाल
+19-11 23:30:43   [samas] review PYQ_hi.txt round 1: 1 issue(s): - Example 2 misclassifies "हिमालय" as कर्मधारय, claiming "हिम" is an adjective; in fact "हिम" is a noun and the
+19-11 23:34:21   [samas] review PYQ_hi.txt round 2: 1 issue(s): - उदाहरण 7 (एकशेष द्वन्द्व) की व्याख्या गलत है: 'मातापिता' में दोनों पद (माता, पिता) मौजूद हैं, जबकि एकशेष द्वन
+19-11 23:38:44   [samas] REJECTED review fix PYQ_hi.txt: reviewer still reports - In Pattern 2, the trap description says “विशेषण-प्रधान पद को कर्मधारय मान लेना” but the actua
+19-11 23:40:36   [samas] review Important_Rules_hi.txt round 1: 6 issue(s): - Rule 5 table: First row labels कुम्भकारः as कर्ता/प्रथमा but its vigraha कुम्भं करोति इति shows द
 ```
