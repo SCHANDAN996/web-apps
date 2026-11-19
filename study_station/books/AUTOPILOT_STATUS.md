@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 06:08 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 01:32 AM
+**आख़िरी update:** 19-11-2026 06:23 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 01:32 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,13 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 36 मिनट |
-| W4 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 105 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 51 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 253 |
-| key 4 | 160 |
+| key 3 | 257 |
+| key 4 | 165 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -49,7 +48,7 @@
 - Chapter 06 kaal vachya (Hindi) — 3 बार
 - Chapter 01 varn vartani (Hindi) — 3 बार
 - Chapter 05 ling vachan karak (Hindi) — 3 बार
-- Chapter 08 samas (Hindi) — 1 बार
+- Chapter 08 samas (Hindi) — 2 बार
 - Chapter 07 word (Computer) — 2 बार
 - Chapter 07 sandhi (Hindi) — 1 बार
 - Chapter 08 excel (Computer) — 1 बार
@@ -57,20 +56,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 05:29:41   [word] written 0, failed 4; AI calls today 375/100000
-19-11 05:29:41 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word after 41 min: todo [] problems []
-19-11 05:29:41 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (OK: todo 0, problems 0)
-19-11 05:30:01   [varn_vartani] review Important_Rules_hi.txt: 5 issue(s): - Section 1 claims "३४ व्यंजन" but the list below contains only 33 consonants (क to ह) → Correct count is 3
-19-11 05:30:34   [visheshan_kriya] review Content_hi.txt: 2 issue(s): - खंड 1.3 की तालिका में "नीला" और "मीठा" को **अरूपांतरित विशेषण** बताया गया है → ये **रूपांतरित विशेषण** हैं (नीला→
-19-11 05:32:10   [visheshan_kriya] REJECTED review fix Content_hi.txt: reviewer still reports - In the रूपांतरित विशेषण table, the example "लाल → लाली" is incorrect because "लाल" does n
-19-11 05:32:10   [visheshan_kriya] review: 0 section(s) corrected, 1 failed
-19-11 05:32:10   [visheshan_kriya] written 0, failed 1; AI calls today 379/100000
-19-11 05:32:10 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 5 min: todo [] problems []
-19-11 05:32:11 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi (TODO: todo 5, problems 0)
-19-11 05:32:11   [sandhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
-19-11 05:33:50   [ling_vachan_karak] review Content_hi.txt: 8 issue(s): - The neuter gender (नपुंसकलिंग) examples "फल", "पत्तल", "कमरा", "ज्ञान" are incorrect; they are masculine/feminine
-19-11 05:34:25   [sandhi] Practice_hi_Set_01.txt try 1: rejected (Q16:leaked_reasoning,Q17:leaked_reasoning,Q20:leaked_reasoning)
-19-11 05:36:34   [ling_vachan_karak] REJECTED review fix Content_hi.txt: reviewer still reports - In the वचन table, the example 'बहन → बहनें' is incorrectly placed under 'आ (स्त्रीलिंग)' 
 19-11 05:37:40   [ling_vachan_karak] review Key_Facts_hi.txt: 6 issue(s): - "हिंदी में तीन लिंग होते हैं: पुल्लिंग, स्त्रीलिंग, नपुंसकलिंग" → हिंदी में दो व्याकरणिक लिंग होते हैं: पुल्लिं
 19-11 05:40:31   [ling_vachan_karak] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 5: Example 'नौकर → नौकरी' for आकारांत पुल्लिंग → ईकारांत स्त्रीलिंग is incorrect;
 19-11 05:41:19   [ling_vachan_karak] review PYQ_hi.txt: 3 issue(s): - Section 6 "कारक चिह्न लोप" trap example "राम सीता मिला (को लोप)" incorrectly implies "को" is required with verb "मिलन
@@ -97,4 +82,18 @@
 19-11 06:04:17   [samas] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
 19-11 06:05:08   [samas] Practice_hi_Set_06.txt try 1: rejected (parsed 24 questions, numbers 126…150)
 19-11 06:06:06   [samas] Practice_hi_Set_06.txt try 2: rejected (parsed 24 questions, numbers 126…150)
+19-11 06:10:03   [samas] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q146 key a vs re-solve ?)
+19-11 06:11:32   [sandhi] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q14 key c vs re-solve a)
+19-11 06:11:32   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
+19-11 06:12:29   [sandhi] Practice_hi_Set_02.txt try 1: rejected (parsed 24 questions, numbers 26…50)
+19-11 06:13:50   [sandhi] Practice_hi_Set_02.txt try 2: rejected (Q27:duplicate_options,Q37:duplicate_options,Q39:duplicate_options,Q40:duplicate_options,Q42:duplicate_options)
+19-11 06:14:06   [samas] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q143 key c vs re-solve b)
+19-11 06:14:06   [samas] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
+19-11 06:14:06   [samas] written 0, failed 5; AI calls today 418/100000
+19-11 06:14:06 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas after 111 min: todo ['Set 01 hi: todo', 'Set 03 hi: todo', 'Set 04 hi: todo', 'Set 05 hi: todo'] problems []
+19-11 06:14:06 worker 3: nothing left
+19-11 06:17:30   [sandhi] Practice_hi_Set_02.txt try 3: rejected (Q27:duplicate_options,Q39:duplicate_options,Q42:duplicate_options)
+19-11 06:18:42   [sandhi] Practice_hi_Set_02.txt try 4: rejected (Q39:duplicate_options)
+19-11 06:18:42   [sandhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
+19-11 06:23:54   [sandhi] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q51 key a vs re-solve b, Q54 key a vs re-solve d, Q55 key d vs re-solve a, Q58 key a vs re-solve d, 
 ```
