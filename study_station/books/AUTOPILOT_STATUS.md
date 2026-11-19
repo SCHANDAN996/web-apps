@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 08:37 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
+**आख़िरी update:** 19-11-2026 08:42 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 0 मिनट |
-| W2 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 0 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
-| W4 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 0 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 5 मिनट |
+| W2 | Chapter 06 kaal vachya (10th Hindi) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 5 मिनट |
+| W4 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 5 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 1 |
-| key 4 | 1 |
+| key 3 | 4 |
+| key 4 | 5 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -44,7 +44,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 19-11 20:42 — 10th Hindi · Chapter 06 kaal vachya
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
@@ -60,4 +60,9 @@
 19-11 20:37:12 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word (OK: todo 0, problems 0)
 19-11 20:37:13   [word] review Key_Facts_en.txt: resumed private correction draft
 19-11 20:37:51   [varn_vartani] review Key_Facts_hi.txt round 1: 3 issue(s): - The traditional Hindi alphabet count is 44 (11 vowels + 33 consonants); the conjuncts (क्ष, त्र, ज्ञ, श
+19-11 20:39:44   [kaal_vachya] review Content_hi.txt round 1: 3 issue(s): - In Example 6 explanation, "ने के स्थान पर द्वारा" is incorrect because the active sentence "लड़के फुटबॉल 
+19-11 20:39:46   [word] review Key_Facts_en.txt round 1: 4 issue(s): - Point 9: "Shift+F3 cycles UPPER/lower/Sentence case" → "Shift+F3 cycles UPPERCASE, lowercase, Capitaliz
+19-11 20:41:42   [word] review Key_Facts_en.txt round 2: 1 issue(s): - Point 20 states "blue wavy underline = grammar (Word 2016/2019)"; grammar errors are indicated by a blu
+19-11 20:42:22   [kaal_vachya] review: 1 section(s) corrected, 0 failed
+19-11 20:42:22   [kaal_vachya] written 1, failed 0; AI calls today 11/100000
 ```
