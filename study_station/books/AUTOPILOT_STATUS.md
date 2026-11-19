@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 03:04 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
+**आख़िरी update:** 20-11-2026 03:19 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 61 मिनट |
-| W2 | Chapter 11 email (12th Computer) | ✍️ लिख रहा है | 23 मिनट |
-| W3 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 61 मिनट |
-| W4 | Chapter 11 vilom (10th Hindi) | ✍️ लिख रहा है | 39 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 76 मिनट |
+| W2 | Chapter 11 email (12th Computer) | ✍️ लिख रहा है | 38 मिनट |
+| W3 | Chapter 08 samas (10th Hindi) | 🔎 review हो रहा है | 0 मिनट |
+| W4 | Chapter 11 vilom (10th Hindi) | ✍️ लिख रहा है | 54 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 29 |
-| key 4 | 41 |
+| key 3 | 38 |
+| key 4 | 43 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -50,22 +50,11 @@
 
 - Chapter 10 paryayvachi (Hindi) — 1 बार
 - Chapter 08 samas (Hindi) — 1 बार
+- Chapter 09 upsarg pratyay (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 02:21:05   [paryayvachi] review Important_Rules_hi.txt round 2: 4 issue(s): - सारणी में "राजा" को तत्सम/औपचारिक स्तम्भ में दिया गया है, किन्तु "राजा" तद्भव रूप है (संस्कृत राज
-20-11 02:24:41   [paryayvachi] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - तालिका में 'धर्म' के प्रचलित/सहज पर्यायवाची के रूप में 'धम्म' दिया गया है, जो आधु
-20-11 02:24:41   [paryayvachi] review: 3 section(s) corrected, 1 failed
-20-11 02:24:41   [paryayvachi] written 3, failed 1; AI calls today 25/100000
-20-11 02:24:41 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_10_paryayvachi after 22 min: todo [] problems []
-20-11 02:24:42 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_11_vilom (TODO: todo 13, problems 0)
-20-11 02:24:42   [vilom] Hindi-only writer: direct Hindi content; English generation and translation disabled
-20-11 02:24:54   [sandhi] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q1 key b vs re-solve d, Q14 key b vs re-solve a, Q22 key a vs re-solve c)
-20-11 02:26:05   [vilom] wrote Content_hi.txt (10363 chars)
-20-11 02:26:31   [vilom] wrote Key_Facts_hi.txt (3028 chars)
-20-11 02:27:42   [samas] review Mind_Map.txt round 1: 2 issue(s): - अव्ययीभाव समास के उपसर्गपूर्वक उदाहरण (अधीर, अनाथ, अतिथि) अव्ययीभाव नहीं हैं; ये नञ् तत्पुरुष समास के उदाहर
-20-11 02:28:28   [vilom] wrote Feynman_hi.txt (3790 chars)
 20-11 02:28:37   [vilom] wrote Mind_Map.txt (1136 chars)
 20-11 02:28:42   [upsarg_pratyay] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q4 key b vs re-solve a)
 20-11 02:28:59   [vilom] wrote Flashcards_hi.txt (1244 chars)
@@ -94,4 +83,16 @@
 20-11 03:00:48   [vilom] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q20 key d vs re-solve c)
 20-11 03:01:17   [sandhi] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q1 key b vs re-solve d, Q7 key d vs re-solve c, Q22 key a vs re-solve c, Q23 key a vs re-solve c)
 20-11 03:01:17   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
+20-11 03:05:11   [vilom] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q15 key a vs re-solve ?)
+20-11 03:05:11   [vilom] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
+20-11 03:06:19   [vilom] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q29 key b vs re-solve ?)
+20-11 03:07:43   [vilom] wrote Practice_hi_Set_02.txt (write, 25 MCQs)
+20-11 03:11:57   [sandhi] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q32 key b vs re-solve c, Q35 key d vs re-solve c, Q37 key d vs re-solve a, Q38 key c vs re-solve b, 
+20-11 03:18:37   [upsarg_pratyay] FAILED Practice_hi_Set_04.txt: too_long
+20-11 03:18:37   [upsarg_pratyay] written 1, failed 1; AI calls today 80/100000
+20-11 03:18:37 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay after 76 min: todo ['Set 04 hi: todo'] problems []
+20-11 03:18:38 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas (OK: todo 0, problems 0)
+20-11 03:18:38   [samas] review Key_Facts_hi.txt: resumed private correction draft
+20-11 03:19:03   [email] wrote Key_Facts_en.txt (4519 chars)
+20-11 03:19:23   [sandhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q26 key c vs re-solve b, Q41 key a vs re-solve c, Q42 key c vs re-solve d, Q43 key c vs re-solve a, 
 ```
