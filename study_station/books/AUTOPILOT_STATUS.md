@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 07:45 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 03:11 PM
+**आख़िरी update:** 19-11-2026 08:01 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 03:11 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 97 मिनट |
-| W2 | Chapter 09 powerpoint (12th Computer) | ✍️ लिख रहा है | 89 मिनट |
-| W3 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 55 मिनट |
+| W1 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 113 मिनट |
+| W2 | Chapter 09 powerpoint (12th Computer) | 🔎 review हो रहा है | 10 मिनट |
+| W3 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 71 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 195 |
-| key 4 | 182 |
+| key 3 | 207 |
+| key 4 | 191 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -26,7 +26,7 @@
 | किताब | प्रारंभिक जाँच पास | संरचना में सुधार बाकी | लिखना बाकी |
 |---|---|---|---|
 | 10th Hindi | 6 | 0 | 11 |
-| 12th Computer | 8 | 0 | 6 |
+| 12th Computer | 9 | 0 | 5 |
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 22 | 0 | 0 |
@@ -39,7 +39,7 @@
 | Graduation GK | 28 | 0 | 0 |
 | Graduation Reasoning | 30 | 0 | 0 |
 | Graduation English | 30 | 0 | 0 |
-| **कुल** | **310** | **0** | **17** |
+| **कुल** | **311** | **0** | **16** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -58,19 +58,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 18:57:11   [excel] REJECTED review fix Content_hi.txt: reviewer still reports - "पुराने संस्करणों (2013 तक) में तीन शीट्स बनती थीं" गलत है — एक्सेल 2013 में भी डिफ़ॉल्ट 
-19-11 18:57:36   [varn_vartani] review Key_Facts_hi.txt round 1: 1 issue(s): - Point 17 example 'अण्डा' is a misspelling (the word is 'अंडा' without anusvara) → Replace with a correc
-19-11 18:58:14   [excel] review Key_Facts_hi.txt round 1: 1 issue(s): - The shortcut for toggling formula view is given as `Ctrl + ~` (tilde) → The correct shortcut is `Ctrl +
-19-11 18:59:54   [excel] review Key_Facts_hi.txt round 2: 1 issue(s): - Operator precedence order listed incorrectly: comparison before concatenation → Correct order: exponent
-19-11 19:00:37   [varn_vartani] review Key_Facts_hi.txt round 2: 5 issue(s): - The consonant total 41 contradicts the breakdown (33 basic + 4 conjunct + 2 double + 5 nuqta = 44) → Ch
-19-11 19:02:14   [powerpoint] wrote PYQ_en.txt (6275 chars)
-19-11 19:03:29   [powerpoint] wrote PYQ_hi.txt (8152 chars)
-19-11 19:04:06   [powerpoint] wrote Important_Rules_en.txt (6804 chars)
-19-11 19:05:45   [powerpoint] wrote Important_Rules_hi.txt (9617 chars)
-19-11 19:08:53   [powerpoint] Practice_en_Set_01.txt try 1: re-solve disagrees (Q4 key b vs re-solve ?, Q20 key b vs re-solve ?)
-19-11 19:08:54   [upsarg_pratyay] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q52 key a vs re-solve d, Q64 key c vs re-solve b, Q68 key c vs re-solve a, Q75 key d vs re-solve ?)
-19-11 19:11:39   [powerpoint] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-19-11 19:11:42   [varn_vartani] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Item 1 says the traditional count of 44 letters comprises 11 vowels, 33 consonants, 4 c
 19-11 19:11:42   [varn_vartani] review Feynman_hi.txt: resumed private correction draft
 19-11 19:12:51   [powerpoint] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 19-11 19:16:26   [excel] review PYQ_hi.txt round 1: 1 issue(s): - उदाहरण 1 में उत्तर और व्याख्या गलत है: सेल B2 में सूत्र `=$A$1+A2` को C3 में कॉपी करने पर सापेक्ष संदर्भ A2 ए
@@ -98,4 +85,17 @@
 19-11 19:41:36   [powerpoint] Practice_en_Set_05.txt try 1: re-solve disagrees (Q105 key c vs re-solve a, Q107 key c vs re-solve a, Q124 key a vs re-solve d)
 19-11 19:45:16   [powerpoint] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 19-11 19:45:34   [upsarg_pratyay] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q79 key d vs re-solve c)
+19-11 19:46:29   [powerpoint] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+19-11 19:48:21   [varn_vartani] REJECTED review fix Feynman_hi.txt: reviewer still reports - In the confused word-pairs table (Section 4), the incorrect spelling for "आश्चर्य" is dis
+19-11 19:48:21   [varn_vartani] review Important_Rules_hi.txt: resumed private correction draft
+19-11 19:49:04   [powerpoint] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+19-11 19:50:25   [powerpoint] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+19-11 19:50:25   [powerpoint] written 25, failed 0; AI calls today 385/100000
+19-11 19:51:38   [varn_vartani] review Important_Rules_hi.txt round 1: 1 issue(s): - Section 5, example "हँसना → मानक 'हं सना'" contains an erroneous space in the corrected form → sh
+19-11 19:53:00   [upsarg_pratyay] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q81 key b vs re-solve a, Q91 key d vs re-solve b, Q92 key d vs re-solve b, Q98 key c vs re-solve d)
+19-11 19:53:00   [upsarg_pratyay] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
+19-11 19:55:00   [varn_vartani] review Important_Rules_hi.txt round 2: 3 issue(s): - In the 'सामान्य वर्तनी अशुद्धियाँ' table, the reason for 'बिद्यालय → विद्यालय' is given as 'तत्सम
+19-11 19:55:33   [powerpoint] review Content_en.txt round 1: 2 issue(s): - Incorrect shortcut "Ctrl+Shift+F: Font dialog" → The correct shortcut for Font dialog in PowerPoint is Ct
+19-11 19:58:36   [powerpoint] review Content_en.txt round 2: 3 issue(s): - Keyboard shortcuts list: "Ctrl+Shift+{ / Ctrl+Shift+}: Send to back / Bring to front" → The correct short
+19-11 19:59:38   [upsarg_pratyay] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q149 key a vs re-solve ?)
 ```
