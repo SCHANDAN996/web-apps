@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 01:39 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 11:36 AM
+**आख़िरी update:** 19-11-2026 01:55 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 11:36 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 100 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 1 मिनट |
-| W3 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 69 मिनट |
-| W4 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 98 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 115 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 16 मिनट |
+| W3 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 84 मिनट |
+| W4 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 4 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 55 |
-| key 4 | 82 |
+| key 3 | 68 |
+| key 4 | 87 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -52,21 +52,11 @@
 - Chapter 05 ling vachan karak (Hindi) — 1 बार
 - Chapter 08 excel (Computer) — 1 बार
 - Chapter 08 samas (Hindi) — 1 बार
+- Chapter 07 word (Computer) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 12:30:28 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_08_excel after 5 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems ['PYQ_en.txt: unsourced claim "(concept)"']
-19-11 12:30:28 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (OK: todo 0, problems 0)
-19-11 12:31:55   [word] review Key_Facts_hi.txt: 2 issue(s): - Ribbon tabs list omits the Design tab → The Ribbon includes Home, Insert, Design, Layout, References, Mailings,
-19-11 12:35:04   [samas] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q9 key c vs re-solve d, Q13 key b vs re-solve a, Q14 key c vs re-solve ?)
-19-11 12:35:14   [word] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - New Comment (`Alt+R, C`) → `Alt+R, C, N` (or `Ctrl+Alt+M`)
-19-11 12:40:25   [samas] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q9 key d vs re-solve c, Q23 key d vs re-solve c)
-19-11 12:44:19   [samas] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q9 key a vs re-solve d)
-19-11 12:44:32   [sandhi] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q6 key b vs re-solve a)
-19-11 12:44:32   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
-19-11 12:45:19   [sandhi] Practice_hi_Set_02.txt try 1: rejected (parsed 24 questions, numbers 26…50)
-19-11 12:46:16   [sandhi] Practice_hi_Set_02.txt try 2: rejected (Q28:duplicate_options,Q38:duplicate_options,Q40:duplicate_options,Q43:duplicate_options,Q48:duplicate_options)
 19-11 12:47:57   [sandhi] Practice_hi_Set_02.txt try 3: rejected (Q40:duplicate_options)
 19-11 12:53:27   [samas] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q9 key a vs re-solve d, Q13 key b vs re-solve a, Q14 key a vs re-solve ?, Q16 key d vs re-solve c, Q
 19-11 12:53:27   [samas] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
@@ -96,4 +86,15 @@
 19-11 13:38:19 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas after 78 min: todo ['Set 01 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo'] problems []
 19-11 13:38:19 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
 19-11 13:39:14   [varn_vartani] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 6 (and Point 1): The claim that there are only two nukta letters (ऩ, ऱ) for Dravi
+19-11 13:40:49   [varn_vartani] review Feynman_hi.txt: 6 issue(s): - Section 1: Claims 33 consonants but lists 36 (including क्ष, त्र, ज्ञ) → Correct the count to 36 or list only the
+19-11 13:40:59   [sandhi] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q54 key d vs re-solve b, Q55 key b vs re-solve a, Q58 key d vs re-solve b, Q59 key d vs re-solve c, 
+19-11 13:40:59   [sandhi] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+19-11 13:42:40   [sandhi] Practice_hi_Set_05.txt try 1: rejected (Q114:duplicate_options,Q118:duplicate_options,Q119:duplicate_options,Q122:duplicate_options,Q125:duplicate_opt
+19-11 13:44:01   [sangya_sarvanam] review Content_hi.txt: 1 issue(s): - In Example 6, the claim "परीक्षा ट्रिक: 'आदमियों' लिखना गलत है" is wrong → 'आदमियों' is the correct oblique plura
+19-11 13:46:05   [word] review PYQ_hi.txt: 2 issue(s): - In Common Traps table, "डिफॉल्ट मान भ्रम" row: claims default line spacing for Word 2007+ is 1.15 → Default line spac
+19-11 13:50:19   [word] review: 1 section(s) corrected, 4 failed
+19-11 13:50:19   [word] written 1, failed 4; AI calls today 151/100000
+19-11 13:50:19 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word after 109 min: todo [] problems []
+19-11 13:50:19 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (OK: todo 0, problems 0)
+19-11 13:52:38   [varn_vartani] REJECTED review fix Feynman_hi.txt: reviewer still reports - Section 3 table (चंद्रबिंदु rule): Example "सँभाल" incorrectly shown as correct for chand
 ```
