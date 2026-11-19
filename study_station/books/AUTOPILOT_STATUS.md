@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 09:47 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 06:58 AM
+**आख़िरी update:** 19-11-2026 10:02 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 06:58 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 13 मिनट |
-| W2 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 17 मिनट |
-| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 17 मिनट |
-| W4 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 21 मिनट |
+| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 28 मिनट |
+| W2 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 33 मिनट |
+| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 33 मिनट |
+| W4 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 36 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 117 |
-| key 4 | 158 |
+| key 3 | 126 |
+| key 4 | 166 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -58,16 +58,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 09:27:21   [excel] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-19-11 09:27:59   [excel] Practice_en_Set_06.txt try 1: rejected (Q148:leaked_reasoning)
-19-11 09:28:21   [varn_vartani] review Important_Rules_hi.txt: 5 issue(s): - Section 1 states “३४ व्यंजन” and “४५ मूल वर्ण” but the listed व्यंजन are only 33 (क to ह) → The list cont
-19-11 09:28:44   [excel] Practice_en_Set_06.txt try 2: rejected (Q148:leaked_reasoning)
-19-11 09:29:30   [excel] Practice_en_Set_06.txt try 3: rejected (Q148:leaked_reasoning)
-19-11 09:29:53   [varn_vartani] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 7 table incorrectly lists "अँगूठी", "इँद्री", "उँगली" as examples of chandra
-19-11 09:29:53   [varn_vartani] review: 0 section(s) corrected, 4 failed
-19-11 09:29:53   [varn_vartani] written 0, failed 4; AI calls today 243/100000
-19-11 09:29:53 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 37 min: todo [] problems []
-19-11 09:29:53 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas (TODO: todo 4, problems 0)
 19-11 09:29:54   [samas] Hindi-only writer: direct Hindi content; English generation and translation disabled
 19-11 09:29:55   [excel] Practice_en_Set_06.txt try 4: rejected (Q148:leaked_reasoning)
 19-11 09:29:55   [excel] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
@@ -98,4 +88,14 @@
 19-11 09:44:19   [word] REJECTED review fix Content_hi.txt: reviewer still reports - In the shortcuts table, the Redo shortcut for Word incorrectly includes "Ctrl+Shift+Z" as
 19-11 09:44:43   [upsarg_pratyay] Practice_hi_Set_01.txt try 1: rejected (parsed 24 questions, numbers 1…25)
 19-11 09:47:32   [upsarg_pratyay] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q1 key d vs re-solve a, Q20 key d vs re-solve a)
+19-11 09:49:11   [word] review Key_Facts_en.txt: 3 issue(s): - Item 13 claims Ctrl+Shift+S opens the Apply Styles pane → Ctrl+Shift+S opens the Apply Styles dialog; the Style
+19-11 09:50:39   [upsarg_pratyay] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q9 key d vs re-solve a)
+19-11 09:51:44   [samas] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q13 key c vs re-solve a, Q24 key b vs re-solve a)
+19-11 09:55:29   [upsarg_pratyay] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q9 key d vs re-solve ?, Q10 key c vs re-solve a, Q17 key d vs re-solve ?)
+19-11 09:55:29   [upsarg_pratyay] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
+19-11 09:56:30   [upsarg_pratyay] Practice_hi_Set_02.txt try 1: rejected (Q47:duplicate_options)
+19-11 09:59:03   [samas] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q14 key a vs re-solve b)
+19-11 09:59:03   [samas] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
+19-11 10:02:25   [upsarg_pratyay] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q28 key c vs re-solve ?, Q32 key d vs re-solve ?, Q36 key d vs re-solve c, Q49 key b vs re-solve c)
+19-11 10:02:45   [ling_vachan_karak] review PYQ_hi.txt: 5 issue(s): - The claim "SSC GD में इस अध्याय से 3–5 प्रश्न आते हैं" is an invented exam statistic without a year → Remove the clai
 ```
