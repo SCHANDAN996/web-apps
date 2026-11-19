@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 05:38 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 01:32 AM
+**आख़िरी update:** 19-11-2026 05:53 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 01:32 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,13 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 5 मिनट |
-| W2 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 29 मिनट |
-| W3 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 8 मिनट |
-| W4 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 74 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 21 मिनट |
+| W4 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 89 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 229 |
-| key 4 | 156 |
+| key 3 | 245 |
+| key 4 | 158 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -49,8 +47,8 @@
 - Chapter 04 visheshan kriya (Hindi) — 4 बार
 - Chapter 03 sangya sarvanam (Hindi) — 4 बार
 - Chapter 06 kaal vachya (Hindi) — 3 बार
-- Chapter 01 varn vartani (Hindi) — 2 बार
-- Chapter 05 ling vachan karak (Hindi) — 2 बार
+- Chapter 01 varn vartani (Hindi) — 3 बार
+- Chapter 05 ling vachan karak (Hindi) — 3 बार
 - Chapter 08 samas (Hindi) — 1 बार
 - Chapter 07 word (Computer) — 2 बार
 - Chapter 07 sandhi (Hindi) — 1 बार
@@ -59,25 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 05:12:46   [excel] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-19-11 05:12:58   [samas] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q57 key c vs re-solve b, Q63 key b vs re-solve c, Q69 key c vs re-solve b)
-19-11 05:12:58   [samas] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
-19-11 05:13:49   [excel] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-19-11 05:14:22   [word] review PYQ_en.txt: 2 issue(s): - In Example 1 solution, the claim "Ctrl + Shift + F opens the Font dialog with focus on the Font list (legacy behavior
-19-11 05:17:22   [samas] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q82 key b vs re-solve a, Q86 key a vs re-solve b, Q93 key d vs re-solve b, Q94 key d vs re-solve b, 
-19-11 05:18:06   [varn_vartani] review Content_hi.txt: 2 issue(s): - मात्रा-नियम table: examples for 'इ' matra show incorrect forms (marked अशुद्ध) instead of correct usage → replace
-19-11 05:20:42   [varn_vartani] REJECTED review fix Content_hi.txt: reviewer still reports - In the "सामान्य त्रुटियाँ और उनके सुधार" table, the row for "सँभव" → "संभव" lists "त्रुटि
-19-11 05:21:03   [samas] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q80 key a vs re-solve b, Q82 key b vs re-solve a, Q86 key b vs re-solve a, Q92 key a vs re-solve b, 
-19-11 05:21:30   [varn_vartani] review Key_Facts_hi.txt: 2 issue(s): - बिंदु 6 में नुक्ता-युक्त व्यंजन के रूप में ऩ और ऱ दिए गए हैं → हिंदी में मानक नुक्ता-युक्त व्यंजन क़, ख़, ग़, ज
-19-11 05:22:20   [varn_vartani] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 1 states there are 2 nukta-युक्त व्यंजन, but point 6 lists 5; the correct count i
-19-11 05:23:18   [varn_vartani] review Feynman_hi.txt: 5 issue(s): - Section 1 claims 33 व्यंजन but lists 36 items (including क्ष, त्र, ज्ञ); total 44 मूल वर्ण inconsistent → Either 
-19-11 05:23:28   [word] REJECTED review fix PYQ_en.txt: reviewer still reports - Example 1 solution states "Ctrl + Shift + F applies font formatting from the Font dialog but 
-19-11 05:24:30   [excel] Practice_en_Set_06.txt try 1: rejected (Q136:leaked_reasoning,Q138:leaked_reasoning)
-19-11 05:25:06   [varn_vartani] REJECTED review fix Feynman_hi.txt: reviewer still reports - Section 3 table, first row: wrong example "हंसना" labeled as "पक्षी" (bird) but the Hindi
-19-11 05:25:30   [excel] Practice_en_Set_06.txt try 2: rejected (Q136:leaked_reasoning,Q138:leaked_reasoning)
-19-11 05:26:52   [excel] Practice_en_Set_06.txt try 3: rejected (Q136:leaked_reasoning,Q138:leaked_reasoning)
-19-11 05:27:37   [excel] Practice_en_Set_06.txt try 4: rejected (Q136:leaked_reasoning,Q138:leaked_reasoning)
-19-11 05:27:37   [excel] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
 19-11 05:27:37   [excel] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
 19-11 05:27:37   [excel] written 21, failed 4; AI calls today 370/100000
 19-11 05:27:38 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_08_excel after 69 min: todo ['Set 03 en: todo', 'Set 03 hi: todo', 'Set 06 en: todo', 'Set 06 hi: todo'] problems ['PYQ_en.txt: unsourced claim "(concept)"']
@@ -99,4 +78,23 @@
 19-11 05:34:25   [sandhi] Practice_hi_Set_01.txt try 1: rejected (Q16:leaked_reasoning,Q17:leaked_reasoning,Q20:leaked_reasoning)
 19-11 05:36:34   [ling_vachan_karak] REJECTED review fix Content_hi.txt: reviewer still reports - In the वचन table, the example 'बहन → बहनें' is incorrectly placed under 'आ (स्त्रीलिंग)' 
 19-11 05:37:40   [ling_vachan_karak] review Key_Facts_hi.txt: 6 issue(s): - "हिंदी में तीन लिंग होते हैं: पुल्लिंग, स्त्रीलिंग, नपुंसकलिंग" → हिंदी में दो व्याकरणिक लिंग होते हैं: पुल्लिं
+19-11 05:40:31   [ling_vachan_karak] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 5: Example 'नौकर → नौकरी' for आकारांत पुल्लिंग → ईकारांत स्त्रीलिंग is incorrect;
+19-11 05:41:19   [ling_vachan_karak] review PYQ_hi.txt: 3 issue(s): - Section 6 "कारक चिह्न लोप" trap example "राम सीता मिला (को लोप)" incorrectly implies "को" is required with verb "मिलन
+19-11 05:43:18   [ling_vachan_karak] REJECTED review fix PYQ_hi.txt: reviewer still reports - The rule for ergative marker "ने" incorrectly states it appears only with "अन्य पुरुष" (third
+19-11 05:44:08   [ling_vachan_karak] review Important_Rules_hi.txt: 2 issue(s): - नियम ४(घ) का कथन "इ/ई/उ/ऊ/ए/ओकारांत: प्रायः अपरिवर्तित" गलत है क्योंकि स्त्रीलिंग ईकारांत संज्ञाओं (जैसे 
+19-11 05:45:24   [ling_vachan_karak] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम २ के अपवाद में "किरण" को "इ/आ" अंत वाला बताया गया है, जबकि "किरण" व्यंजनांत 
+19-11 05:45:24   [ling_vachan_karak] review: 0 section(s) corrected, 4 failed
+19-11 05:45:24   [ling_vachan_karak] written 0, failed 4; AI calls today 395/100000
+19-11 05:45:24 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 16 min: todo [] problems []
+19-11 05:45:24 worker 2: nothing left
+19-11 05:47:37   [varn_vartani] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 11 (सन्धि के प्रमुख नियम) gives the example "देव + इन्द्र = देवेन्द्र" for इ
+19-11 05:47:37   [varn_vartani] review: 0 section(s) corrected, 4 failed
+19-11 05:47:37   [varn_vartani] written 0, failed 4; AI calls today 396/100000
+19-11 05:47:37 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 39 min: todo [] problems []
+19-11 05:47:37 worker 1: nothing left
+19-11 05:48:08   [sandhi] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q2 key a vs re-solve b, Q3 key b vs re-solve c, Q9 key d vs re-solve c, Q12 key c vs re-solve a, Q16
+19-11 05:48:52   [samas] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q80 key c vs re-solve b, Q86 key d vs re-solve b, Q97 key a vs re-solve c)
+19-11 05:48:52   [samas] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
+19-11 05:50:14   [samas] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q115 key c vs re-solve a, Q118 key c vs re-solve b)
+19-11 05:52:40   [samas] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q115 key c vs re-solve a, Q118 key d vs re-solve b)
 ```
