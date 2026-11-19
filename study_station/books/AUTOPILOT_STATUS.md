@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 10:33 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 06:58 AM
+**आख़िरी update:** 19-11-2026 10:48 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 06:58 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 22 मिनट |
-| W2 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 63 मिनट |
-| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 63 मिनट |
-| W4 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 20 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 37 मिनट |
+| W2 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 79 मिनट |
+| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 79 मिनट |
+| W4 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 10 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 141 |
-| key 4 | 191 |
+| key 3 | 155 |
+| key 4 | 203 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -47,7 +47,7 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 05 ling vachan karak (Hindi) — 3 बार
-- Chapter 03 sangya sarvanam (Hindi) — 2 बार
+- Chapter 03 sangya sarvanam (Hindi) — 3 बार
 - Chapter 06 kaal vachya (Hindi) — 2 बार
 - Chapter 01 varn vartani (Hindi) — 2 बार
 - Chapter 08 samas (Hindi) — 1 बार
@@ -58,26 +58,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 09:55:29   [upsarg_pratyay] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q9 key d vs re-solve ?, Q10 key c vs re-solve a, Q17 key d vs re-solve ?)
-19-11 09:55:29   [upsarg_pratyay] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
-19-11 09:56:30   [upsarg_pratyay] Practice_hi_Set_02.txt try 1: rejected (Q47:duplicate_options)
-19-11 09:59:03   [samas] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q14 key a vs re-solve b)
-19-11 09:59:03   [samas] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
-19-11 10:02:25   [upsarg_pratyay] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q28 key c vs re-solve ?, Q32 key d vs re-solve ?, Q36 key d vs re-solve c, Q49 key b vs re-solve c)
-19-11 10:02:45   [ling_vachan_karak] review PYQ_hi.txt: 5 issue(s): - The claim "SSC GD में इस अध्याय से 3–5 प्रश्न आते हैं" is an invented exam statistic without a year → Remove the clai
-19-11 10:05:08   [samas] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q61 key d vs re-solve a, Q65 key a vs re-solve b, Q75 key c vs re-solve a)
-19-11 10:05:17   [word] REJECTED review fix Key_Facts_en.txt: reviewer still reports - Item 19 wildcard examples use regex syntax `{1,}` instead of Word's `@` for one-or-more
-19-11 10:07:01   [ling_vachan_karak] REJECTED review fix PYQ_hi.txt: reviewer still reports - In section 3 (कारक चिह्न पहचान), trap description: "कर्ता कारक 'ने' केवल अन्य पुरुष, भूतकाल, 
-19-11 10:07:52   [ling_vachan_karak] review Important_Rules_hi.txt: 2 issue(s): - नियम ४(घ) का कथन "इ/ई/उ/ऊ/ए/ओकारांत: प्रायः अपरिवर्तित" गलत है क्योंकि स्त्रीलिंग इ/ईकारांत संज्ञाएँ बहुव
-19-11 10:08:02   [samas] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q63 key c vs re-solve d, Q65 key a vs re-solve b, Q71 key a vs re-solve b)
-19-11 10:09:09   [word] review PYQ_en.txt: 2 issue(s): - In Example 1 explanation, the claim "Ctrl + Shift + F opens the Font dialog with focus on the Font list (legacy behav
-19-11 10:11:27   [ling_vachan_karak] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 4 (ङ) misclassifies 'वीर' (ईकारांत पुल्लिंग) under उ/ऊ/ए/ओकारांत पुल्लिंग. →
-19-11 10:11:27   [ling_vachan_karak] review: 0 section(s) corrected, 4 failed
-19-11 10:11:27   [ling_vachan_karak] written 0, failed 4; AI calls today 303/100000
-19-11 10:11:27 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 37 min: todo [] problems []
-19-11 10:11:27 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (OK: todo 0, problems 0)
-19-11 10:12:04   [word] REJECTED review fix PYQ_en.txt: reviewer still reports - Example 1 explanation claims "Ctrl + Shift + F changes the font size in some versions" → Ctrl
-19-11 10:12:05   [upsarg_pratyay] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q32 key d vs re-solve c)
 19-11 10:13:03   [word] review: 0 section(s) corrected, 4 failed
 19-11 10:13:03   [word] written 0, failed 4; AI calls today 306/100000
 19-11 10:13:04 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word after 47 min: todo [] problems []
@@ -98,4 +78,24 @@
 19-11 10:28:39   [varn_vartani] REJECTED review fix Feynman_hi.txt: reviewer still reports - Section 1: States 33 consonants but lists 36 (including क्ष, त्र, ज्ञ); 11+33=44 contradi
 19-11 10:32:11   [upsarg_pratyay] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q52 key a vs re-solve b, Q71 key c vs re-solve b)
 19-11 10:32:40   [samas] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q115 key a vs re-solve ?, Q119 key c vs re-solve d, Q121 key b vs re-solve c)
+19-11 10:34:08   [upsarg_pratyay] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q70 key a vs re-solve c)
+19-11 10:34:08   [upsarg_pratyay] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+19-11 10:34:49   [upsarg_pratyay] Practice_hi_Set_04.txt try 1: rejected (parsed 24 questions, numbers 76…100)
+19-11 10:35:08   [sangya_sarvanam] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - In point 4, the plural rule for vowel endings (उ, ऊ, ऋ, अ) → "ओं" incorrectly lists "नद
+19-11 10:36:06   [sangya_sarvanam] review Important_Rules_hi.txt: 7 issue(s): - नियम २ में "आ कारांत स्त्रीलिंग" के उदाहरणों में "बहन", "सास", "नानी" आ-कारांत नहीं हैं → इन्हें हटाकर वा
+19-11 10:37:04   [varn_vartani] review Flashcards_hi.txt: 1 issue(s): - Card 12 incorrectly labels 'में' as anusvara/bindu (बिंदु/अनुस्वार) → 'में' uses chandrabindu (ँ), not anusvar
+19-11 10:38:05   [sangya_sarvanam] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 2: "ई कारांत प्रायः स्त्रीलिंग" incorrectly lists "किताब" and "मेज" (not ई-क
+19-11 10:38:05   [sangya_sarvanam] review: 0 section(s) corrected, 2 failed
+19-11 10:38:05   [sangya_sarvanam] written 0, failed 2; AI calls today 341/100000
+19-11 10:38:05 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 25 min: todo [] problems []
+19-11 10:38:06 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya (OK: todo 0, problems 0)
+19-11 10:38:52   [samas] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q114 key c vs re-solve b, Q115 key c vs re-solve ?)
+19-11 10:40:00   [varn_vartani] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 5: Chandrabindu rule states it is used "जब मात्रा पहले से लगी हो" but the example
+19-11 10:41:57   [varn_vartani] review PYQ_hi.txt: 1 issue(s): - The rule for 'न्' before य/र/ल/व/श/ष/स/ह incorrectly states it becomes anusvara (ं); in standard Hindi spelling, 'न्'
+19-11 10:42:40   [samas] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q114 key c vs re-solve b, Q121 key c vs re-solve b)
+19-11 10:44:20   [upsarg_pratyay] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q78 key d vs re-solve b, Q86 key d vs re-solve b, Q94 key a vs re-solve c, Q98 key c vs re-solve d)
+19-11 10:44:58   [samas] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q114 key a vs re-solve b, Q121 key b vs re-solve c)
+19-11 10:44:58   [samas] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
+19-11 10:47:27   [upsarg_pratyay] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q78 key d vs re-solve b)
+19-11 10:48:12   [varn_vartani] review Important_Rules_hi.txt: 6 issue(s): - Rule 1: "३४ व्यंजन" claimed but only 33 consonants listed → correct to "३३ व्यंजन" or add ड़, ढ़ to the l
 ```
