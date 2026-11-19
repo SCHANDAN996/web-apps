@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 12:59 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
+**आख़िरी update:** 20-11-2026 01:14 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,13 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 10 internet browser (12th Computer) | ✍️ लिख रहा है | 53 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 262 मिनट |
-| W4 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 73 मिनट |
+| W1 | Chapter 10 internet browser (12th Computer) | ✍️ लिख रहा है | 68 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 277 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 129 |
-| key 4 | 128 |
+| key 3 | 131 |
+| key 4 | 139 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -52,26 +51,12 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 08 samas (Hindi) — 2 बार
-- Chapter 09 upsarg pratyay (Hindi) — 1 बार
+- Chapter 09 upsarg pratyay (Hindi) — 2 बार
 - Chapter 10 paryayvachi (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 00:05:40   [varn_vartani] review: 1 section(s) corrected, 0 failed
-20-11 00:05:40   [varn_vartani] written 1, failed 0; AI calls today 6/100000
-20-11 00:06:05 DONE 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani in 41 min → f466dde7
-20-11 00:06:06 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_10_internet_browser (TODO: todo 25, problems 0)
-20-11 00:06:47   [paryayvachi] review Content_hi.txt round 1: 2 issue(s): - पूर्ण पर्याय के उदाहरण में "अग्नि = आग" को पूर्ण पर्याय बताना गलत है; ये शैलीगत पर्याय (तत्सम/तद्भव) हैं 
-20-11 00:09:25   [upsarg_pratyay] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q19 key c vs re-solve b, Q23 key c vs re-solve b)
-20-11 00:10:12   [paryayvachi] review Key_Facts_hi.txt round 1: 2 issue(s): - Point 3 claims a fixed “2–3 प्रश्न” in SSC GD/MTS/CHSL vocabulary section → replace with “कुछ प्रश्न” o
-20-11 00:10:18   [internet_browser] wrote Content_en.txt (8621 chars)
-20-11 00:12:05   [internet_browser] wrote Content_hi.txt (15886 chars)
-20-11 00:13:02   [internet_browser] wrote Key_Facts_en.txt (7260 chars)
-20-11 00:13:39   [internet_browser] wrote Key_Facts_hi.txt (5643 chars)
-20-11 00:13:39   [internet_browser] 2026-11-19 18:43:39,461 WARNING NVIDIA rate_limited — retrying in 20s
-20-11 00:17:34   [upsarg_pratyay] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q19 key d vs re-solve b)
-20-11 00:17:34   [upsarg_pratyay] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
 20-11 00:20:51   [sandhi] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q106 key a vs re-solve b, Q112 key c vs re-solve d, Q116 key d vs re-solve b, Q122 key b vs re-solve
 20-11 00:24:51   [upsarg_pratyay] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q42 key b vs re-solve d, Q45 key b vs re-solve a, Q46 key c vs re-solve d)
 20-11 00:31:04   [sandhi] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q108 key c vs re-solve b, Q118 key c vs re-solve a, Q120 key a vs re-solve c)
@@ -98,4 +83,18 @@
 20-11 00:56:44   [paryayvachi] written 2, failed 4; AI calls today 58/100000
 20-11 00:56:44 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_10_paryayvachi after 193 min: todo [] problems []
 20-11 00:56:44 worker 1: nothing left
+20-11 01:00:14   [upsarg_pratyay] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q86 key a vs re-solve b, Q87 key c vs re-solve b, Q91 key a vs re-solve b, Q96 key a vs re-solve ?, 
+20-11 01:03:43   [internet_browser] wrote Mind_Map.txt (629 chars)
+20-11 01:07:16   [upsarg_pratyay] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q86 key a vs re-solve b, Q91 key a vs re-solve b, Q96 key d vs re-solve b, Q100 key a vs re-solve c)
+20-11 01:09:15   [sandhi] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q126 key d vs re-solve b, Q127 key b vs re-solve ?, Q129 key d vs re-solve ?, Q133 key a vs re-solve
+20-11 01:11:41   [upsarg_pratyay] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q77 key d vs re-solve c, Q91 key a vs re-solve b, Q96 key d vs re-solve b, Q98 key b vs re-solve a, 
+20-11 01:11:41   [upsarg_pratyay] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
+20-11 01:11:41   [upsarg_pratyay] written 1, failed 2; AI calls today 65/100000
+20-11 01:11:41 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay after 85 min: todo ['Set 01 hi: todo', 'Set 04 hi: todo'] problems []
+20-11 01:11:41 worker 3: nothing left
+20-11 01:12:08   [internet_browser] wrote Flashcards_en.txt (5817 chars)
+20-11 01:12:46   [internet_browser] wrote Flashcards_hi.txt (6480 chars)
+20-11 01:12:47   [internet_browser] 2026-11-19 19:42:47,002 WARNING NVIDIA rate_limited — retrying in 20s
+20-11 01:14:24   [internet_browser] wrote PYQ_en.txt (5876 chars)
+20-11 01:14:56   [internet_browser] wrote PYQ_hi.txt (5150 chars)
 ```
