@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 03:34 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
+**आख़िरी update:** 20-11-2026 03:49 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 92 मिनट |
-| W2 | Chapter 11 email (12th Computer) | ✍️ लिख रहा है | 53 मिनट |
-| W3 | Chapter 08 samas (10th Hindi) | 🔎 review हो रहा है | 15 मिनट |
-| W4 | Chapter 11 vilom (10th Hindi) | ✍️ लिख रहा है | 69 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 107 मिनट |
+| W2 | Chapter 11 email (12th Computer) | ✍️ लिख रहा है | 68 मिनट |
+| W3 | Chapter 08 samas (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
+| W4 | Chapter 11 vilom (10th Hindi) | ✍️ लिख रहा है | 85 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 45 |
-| key 4 | 47 |
+| key 3 | 58 |
+| key 4 | 52 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -55,19 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 02:33:41   [samas] review PYQ_hi.txt round 1: 2 issue(s): - Example 2 explanation incorrectly includes सप्तमी तत्पुरुष (हिमनि आलयः) as a possible analysis for हिमालय → ह
-20-11 02:34:55   [samas] review Important_Rules_hi.txt: resumed private correction draft
-20-11 02:35:50   [samas] review Important_Rules_hi.txt round 1: 1 issue(s): - Rule 5 table incorrectly includes a row for “कर्ता (कर्तृ) | प्रथमा” as a तत्पुरुष sub‑type; तत्प
-20-11 02:37:23   [sandhi] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q1 key d vs re-solve b, Q3 key d vs re-solve a, Q21 key d vs re-solve ?)
-20-11 02:38:43   [samas] review Important_Rules_hi.txt round 2: 2 issue(s): - Rule 9 incorrectly lists "उपवनम्" as an example of अव्ययीभाव; "उपवनम्" is a noun (तत्पुरुष) and d
-20-11 02:39:11   [vilom] wrote PYQ_hi.txt (6400 chars)
-20-11 02:40:01   [vilom] wrote Important_Rules_hi.txt (4864 chars)
-20-11 02:40:53   [samas] review: 2 section(s) corrected, 2 failed
-20-11 02:40:53   [samas] written 2, failed 2; AI calls today 52/100000
-20-11 02:40:53 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas after 38 min: todo [] problems []
-20-11 02:40:54 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_11_email (TODO: todo 25, problems 0)
-20-11 02:42:34   [email] wrote Content_en.txt (14394 chars)
-20-11 02:43:41   [upsarg_pratyay] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q14 key c vs re-solve d, Q16 key a vs re-solve c)
 20-11 02:43:57   [email] wrote Content_hi.txt (12035 chars)
 20-11 02:46:19   [upsarg_pratyay] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q14 key b vs re-solve a)
 20-11 02:50:27   [upsarg_pratyay] wrote Practice_hi_Set_01.txt (write, 25 MCQs)
@@ -95,4 +82,17 @@
 20-11 03:30:52   [samas] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 5 lists "उपपद" as a sub‑type of तत्पुरुष → उपपद is a separate major type of समास 
 20-11 03:30:52   [samas] review Mind_Map.txt: resumed private correction draft
 20-11 03:33:38   [sandhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q41 key b vs re-solve c)
+20-11 03:35:47   [vilom] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q67 key b vs re-solve a, Q73 key b vs re-solve a)
+20-11 03:37:13   [vilom] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q74 key c vs re-solve a)
+20-11 03:40:41   [vilom] wrote Practice_hi_Set_03.txt (write, 25 MCQs)
+20-11 03:41:26   [vilom] Practice_hi_Set_04.txt try 1: rejected (parsed 24 questions, numbers 76…100)
+20-11 03:42:28   [vilom] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q82 key b vs re-solve d)
+20-11 03:47:24   [sandhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q38 key b vs re-solve a, Q39 key d vs re-solve a, Q40 key c vs re-solve a, Q44 key b vs re-solve d, 
+20-11 03:47:24   [sandhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
+20-11 03:47:52   [email] wrote Feynman_en.txt (4193 chars)
+20-11 03:47:53   [vilom] wrote Practice_hi_Set_04.txt (write, 25 MCQs)
+20-11 03:48:39   [email] wrote Feynman_hi.txt (2992 chars)
+20-11 03:48:47   [email] wrote Mind_Map.txt (1005 chars)
+20-11 03:49:28   [samas] review Mind_Map.txt round 1: 2 issue(s): - Under तत्पुरुष समास → द्विगु, example "द्वादश" is not a द्विगु समास (it is a numeral) → replace with a vali
+20-11 03:49:29   [email] wrote Flashcards_en.txt (3631 chars)
 ```
