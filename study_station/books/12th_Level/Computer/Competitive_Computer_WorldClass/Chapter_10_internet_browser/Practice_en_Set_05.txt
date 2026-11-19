@@ -1,0 +1,149 @@
+101. What does the "https" in a website address indicate?
+(a) The site loads faster than http sites (b) The site uses a secure encrypted connection (c) The site is a government website (d) The site requires a login
+Answer: (b)
+Solution: Many candidates confuse "https" with speed or site type; the "s" stands for "secure" and means the connection uses TLS/SSL encryption to protect data in transit, so the answer is the site uses a secure encrypted connection.
+Source: PYQ-style
+
+102. Which part of the URL "https://www.example.com/path/page.html" identifies the specific server on the internet?
+(a) https:// (b) www.example.com (c) /path/page.html (d) The entire string
+Answer: (b)
+Solution: The domain name "www.example.com" (or just "example.com") is resolved by DNS to an IP address that locates the server; the protocol and path come after the server is identified, so the answer is www.example.com.
+Source: PYQ-style
+
+103. What is the primary function of a web browser?
+(a) To host websites on a server (b) To create HTML code automatically (c) To register domain names (d) To request and display web pages from servers
+Answer: (d)
+Solution: A browser is a client application that sends HTTP requests to servers and renders the received HTML/CSS/JS; it does not host sites or register domains, so the answer is to request and display web pages from servers.
+Source: PYQ-style
+
+104. Which of the following is a search engine, not a web browser?
+(a) Google Chrome (b) Mozilla Firefox (c) Google Search (d) Microsoft Edge
+Answer: (c)
+Solution: Chrome, Firefox, and Edge are browsers that render pages; Google Search is a service that indexes and retrieves web content, so the answer is Google Search.
+Source: PYQ-style
+
+105. What is the main purpose of HTTP cookies?
+(a) To encrypt data between browser and server (b) To speed up internet connection (c) To store user preferences and session data on the client side (d) To block malicious websites
+Answer: (c)
+Solution: Cookies are small text files stored by the browser to remember stateful information like login sessions or preferences; they do not encrypt traffic or block sites, so the answer is to store user preferences and session data on the client side.
+Source: PYQ-style
+
+106. What does "clearing the browser cache" remove?
+(a) Temporary copies of web page resources like images and scripts (b) Saved passwords and autofill data (c) Browser history and bookmarks (d) Installed extensions and themes
+Answer: (a)
+Solution: Cache stores local copies of static assets to load pages faster on revisits; clearing it frees space and forces fresh downloads, but does not affect passwords, history, or extensions, so the answer is temporary copies of web page resources like images and scripts.
+Source: PYQ-style
+
+107. What does DNS (Domain Name System) primarily do?
+(a) Assigns IP addresses to devices (b) Encrypts web traffic (c) Translates domain names into IP addresses (d) Hosts website files
+Answer: (c)
+Solution: DNS is the internet's phonebook — it resolves human-readable names like "example.com" to numeric IP addresses; it does not assign IPs (DHCP does) or host files, so the answer is translates domain names into IP addresses.
+Source: PYQ-style
+
+108. Which of the following is a valid IPv4 address format?
+(a) 192.168.1.256 (b) 2001:0db8:85a3::8a2e:0370:7334 (c) www.example.com (d) 172.16.254.1
+Answer: (d)
+Solution: IPv4 uses four decimal octets (0–255); 256 is invalid, the second option is IPv6, and the last is a domain name, so the answer is 172.16.254.1.
+Source: PYQ-style
+
+109. What does the top-level domain ".gov" typically indicate?
+(a) A government entity (b) A commercial organization (c) An educational institution (d) A non-profit organization
+Answer: (a)
+Solution: .gov is restricted to U.S. government agencies (other countries use .gov.in, .gov.uk, etc.); .com is commercial, .edu is educational, .org is non-profit, so the answer is a government entity.
+Source: PYQ-style
+
+110. What is a hyperlink?
+(a) A type of web server (b) A highlighted word in a document (c) A bookmark saved in the browser (d) A text or image that links to another web resource when clicked
+Answer: (d)
+Solution: Hyperlinks (anchor tags in HTML) connect documents or resources via URLs; they are not merely highlighted text, bookmarks, or servers, so the answer is a text or image that links to another web resource when clicked.
+Source: PYQ-style
+
+111. What is the role of a web server?
+(a) To browse the internet (b) To design website layouts (c) To store and serve web pages to clients upon request (d) To provide internet connectivity
+Answer: (c)
+Solution: A web server (like Apache or Nginx) hosts website files and responds to HTTP requests from browsers; it does not browse, design, or provide connectivity, so the answer is to store and serve web pages to clients upon request.
+Source: PYQ-style
+
+112. What does HTML stand for?
+(a) Hyper Transfer Markup Language (b) High Tech Modern Language (c) Hyper Text Markup Language (d) Home Tool Markup Language
+Answer: (c)
+Solution: HTML is the standard markup language for creating web pages; the other expansions are invented, so the answer is Hyper Text Markup Language.
+Source: PYQ-style
+
+113. Where is the URL of the current page displayed in a browser?
+(a) Status bar (b) Address bar (c) Menu bar (d) Bookmarks bar
+Answer: (b)
+Solution: The address bar (also called omnibox in Chrome) shows the current URL and accepts new ones; the status bar shows load progress, menu bar has commands, bookmarks bar shows saved links, so the answer is address bar.
+Source: PYQ-style
+
+114. What is the purpose of a browser bookmark (or favorite)?
+(a) To download the entire website (b) To save a webpage's URL for quick access later (c) To increase page loading speed (d) To share the page on social media
+Answer: (b)
+Solution: Bookmarks store URLs locally so users can return without retyping; they do not download sites, speed up loading, or share automatically, so the answer is to save a webpage's URL for quick access later.
+Source: PYQ-style
+
+115. What does "Incognito mode" (Chrome) or "Private Browsing" (Firefox) primarily prevent?
+(a) Websites from tracking your IP address (b) The browser from saving history, cookies, and form data locally (c) Your ISP from seeing which sites you visit (d) Malware from infecting your computer
+Answer: (b)
+Solution: Private mode stops local storage of history, cookies, and form data; it does not hide IP from websites, encrypt traffic from ISPs, or block malware, so the answer is the browser from saving history, cookies, and form data locally.
+Source: PYQ-style
+
+116. What does a browser's download manager do?
+(a) Manages internet bandwidth (b) Blocks unwanted downloads (c) Updates the browser automatically (d) Lists and controls files being downloaded from the web
+Answer: (d)
+Solution: The download manager shows active/completed downloads, allows pause/resume, and opens files; it does not manage bandwidth, update the browser, or block downloads, so the answer is lists and controls files being downloaded from the web.
+Source: PYQ-style
+
+117. What is the function of a pop-up blocker in a browser?
+(a) Blocks all advertisements on a page (b) Disables JavaScript on all sites (c) Stops websites from loading images (d) Prevents new browser windows/tabs from opening automatically without user action
+Answer: (d)
+Solution: Pop-up blockers stop unwanted windows (often ads) triggered by scripts; they do not block inline ads, images, or JavaScript entirely, so the answer is prevents new browser windows/tabs from opening automatically without user action.
+Source: PYQ-style
+
+118. What is a browser's "home page"?
+(a) The first page of a website (b) The browser's settings page (c) The most visited website (d) The page that opens when the browser starts or the home button is clicked
+Answer: (d)
+Solution: The home page is a user-defined URL that loads on startup or home-button press; it is not the site's index page, most-visited site, or settings, so the answer is the page that opens when the browser starts or the home button is clicked.
+Source: PYQ-style
+
+119. What does browser history record?
+(a) List of visited URLs with timestamps (b) Passwords entered on websites (c) Cookies stored by websites (d) Browser extension activity
+Answer: (a)
+Solution: History logs visited pages with date/time for back/forward navigation and address-bar suggestions; it does not store passwords, cookies, or extension logs, so the answer is list of visited URLs with timestamps.
+Source: PYQ-style
+
+120. What is the main advantage of tabbed browsing?
+(a) It allows multiple web pages open in one window (b) It reduces memory usage (c) It makes pages load faster (d) It disables tracking cookies
+Answer: (a)
+Solution: Tabs let users switch between pages within a single window; they actually increase memory use, do not speed loading, and do not affect cookies, so the answer is allows multiple web pages open in one window.
+Source: PYQ-style
+
+121. Which HTTP status code indicates "Not Found"?
+(a) 404 (b) 301 (c) 200 (d) 500
+Answer: (a)
+Solution: 200 means OK, 301 is permanent redirect, 500 is server error; 404 is the standard code for a resource that does not exist, so the answer is 404.
+Source: PYQ-style
+
+122. What is the primary purpose of an SSL/TLS certificate on a website?
+(a) To prove the site loads fast (b) To improve search engine ranking automatically (c) To verify the site's identity and enable encrypted HTTPS connections (d) To prevent all types of cyber attacks
+Answer: (c)
+Solution: Certificates bind a public key to a verified domain owner, enabling HTTPS encryption and identity assurance; they do not guarantee speed, SEO, or total security, so the answer is to verify the site's identity and enable encrypted HTTPS connections.
+Source: PYQ-style
+
+123. What is the key difference between a static and a dynamic web page?
+(a) Static pages show the same content to every user; dynamic pages generate content per request (b) Static pages use HTML only; dynamic pages require Java (c) Static pages load slower (d) Dynamic pages cannot be cached
+Answer: (a)
+Solution: Static pages are pre-written files served identically; dynamic pages are generated by server-side code (PHP, Python, etc.) per request using databases or user data; speed and caching depend on implementation, so the answer is static pages show the same content to every user; dynamic pages generate content per request.
+Source: PYQ-style
+
+124. Which organization develops open web standards like HTML and CSS?
+(a) IEEE (b) W3C (World Wide Web Consortium) (c) ISO (d) ICANN
+Answer: (b)
+Solution: W3C creates web standards; IEEE does electrical/electronic standards, ISO does international standards broadly, ICANN manages domain names/IP addresses, so the answer is W3C (World Wide Web Consortium).
+Source: PYQ-style
+
+125. Which of the following is a browser rendering engine?
+(a) Blink (b) V8 (c) Node.js (d) npm
+Answer: (a)
+Solution: Blink (used in Chrome/Edge) and WebKit (Safari) are rendering engines that parse HTML/CSS and paint pixels; V8 is a JavaScript engine, Node.js is a JS runtime, npm is a package manager, so the answer is Blink.
+Source: PYQ-style

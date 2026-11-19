@@ -1,0 +1,143 @@
+Internet and Browsers
+
+The Internet is a global network of interconnected computers that communicate using standardised protocols. For government exams, you need to understand the core concepts, terminology, and practical browser operations that appear in the Computer Knowledge section of SSC CHSL, CGL, RRB NTPC, and similar tests.
+
+1. Fundamental Concepts
+
+Internet vs. World Wide Web
+The Internet is the physical infrastructure — cables, routers, servers, and protocols. The World Wide Web (WWW) is an information system built on top of the Internet, consisting of hyperlinked documents accessed via browsers. The Web uses HTTP/HTTPS; the Internet also carries email (SMTP/IMAP/POP3), file transfer (FTP), and other services.
+
+IP Address
+Every device on the Internet has a unique numerical label. IPv4 uses 32-bit addresses written as four decimal octets (e.g., 192.168.1.1). IPv6 uses 128-bit addresses written in hexadecimal (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334). Exams often ask the bit-length: IPv4 = 32 bits, IPv6 = 128 bits.
+
+Domain Name System (DNS)
+DNS translates human-readable domain names (example.com) into IP addresses. It is a distributed hierarchical database. Common record types: A (IPv4), AAAA (IPv6), CNAME (alias), MX (mail exchanger). The root zone is managed by ICANN.
+
+URL Structure
+A Uniform Resource Locator identifies a resource on the Web.
+Scheme://subdomain.domain.tld/path?query#fragment
+Example: https://www.incometax.gov.in/iec/foportal/login?lang=en#section1
+- Scheme: https (HyperText Transfer Protocol Secure)
+- Subdomain: www
+- Third-level domain: incometax
+- Second-level domain: gov
+- Top-Level Domain (TLD): in
+- Path: /iec/foportal/login
+- Query: lang=en
+- Fragment: section1
+
+Note: In the domain hierarchy www.incometax.gov.in, "in" is the country-code TLD, "gov" is the second-level domain reserved for Indian government entities, "incometax" is the third-level domain, and "www" is a subdomain.
+
+HTTP vs. HTTPS
+HTTP (port 80) sends data in plain text. HTTPS (port 443) encrypts data using TLS (Transport Layer Security). A padlock icon in the address bar indicates a valid TLS certificate issued by a trusted Certificate Authority (CA). Exams test: "Which protocol is secure?" — HTTPS.
+
+2. Web Browsers
+
+A browser is client software that retrieves, renders, and navigates Web resources. Major browsers (as of 2024): Google Chrome (Blink engine), Mozilla Firefox (Gecko), Microsoft Edge (Blink, Chromium-based), Apple Safari (WebKit). Older exams may mention Internet Explorer (Trident) — deprecated since 2022.
+
+Browser Components
+- Address bar (Omnibox): enters URLs or search terms.
+- Navigation buttons: Back, Forward, Refresh, Home.
+- Tabs: multiple pages in one window.
+- Bookmarks/Favourites: saved URLs.
+- History: visited pages with timestamps.
+- Cache: local copies of static assets (images, CSS, JS) to speed up repeat visits.
+- Cookies: small text files stored by sites to maintain state (session, preferences, tracking).
+- Extensions/Add-ons: third-party modules that modify browser behaviour.
+
+Rendering Process (simplified)
+1. DNS lookup → IP address.
+2. TCP connection (three-way handshake).
+3. TLS handshake (if HTTPS).
+4. HTTP request sent.
+5. Server responds with HTML, CSS, JS, assets.
+6. Browser parses HTML → DOM tree, CSS → CSSOM, executes JS, constructs render tree, layout, paint.
+
+3. Search Engines vs. Browsers
+A search engine (Google, Bing, DuckDuckGo) indexes Web pages and returns ranked results for queries. A browser is the application used to view those pages. Confusing the two is a common exam trap.
+
+4. Internet Safety Basics
+- Phishing: fraudulent messages imitating legitimate entities to steal credentials. Check sender address, hover over links, look for HTTPS and correct domain spelling.
+- Malware: malicious software (viruses, ransomware, spyware). Keep OS and browser updated; use reputable antivirus.
+- Certificate warnings: "Your connection is not private" — do not proceed on banking/government sites.
+- Public Wi-Fi: avoid sensitive transactions; use VPN if necessary.
+- CERT-In (Indian Computer Emergency Response Team) issues advisories; RBI mandates cyber-security frameworks for banks.
+
+5. Keyboard Shortcuts (Windows scope unless noted)
+
+Browser shortcuts (work in Chrome, Edge, Firefox on Windows):
+- Ctrl + T: New tab
+- Ctrl + W / Ctrl + F4: Close current tab
+- Ctrl + Shift + T: Reopen last closed tab
+- Ctrl + Tab / Ctrl + PgDn: Next tab
+- Ctrl + Shift + Tab / Ctrl + PgUp: Previous tab
+- Ctrl + 1–8: Switch to specific tab (1–8)
+- Ctrl + 9: Switch to last tab
+- Ctrl + L / Alt + D / F6: Focus address bar
+- Ctrl + Enter: Add "www." and ".com" to text in address bar and load
+- Ctrl + D: Bookmark current page
+- Ctrl + H: Open History
+- Ctrl + J: Open Downloads
+- Ctrl + F: Find on page
+- Ctrl + R / F5: Reload
+- Ctrl + Shift + R / Ctrl + F5: Hard reload (bypass cache)
+- Ctrl + + / Ctrl + - / Ctrl + 0: Zoom in / out / reset
+- F11: Full-screen toggle
+- Ctrl + Shift + N (Chrome/Edge) / Ctrl + Shift + P (Firefox): New Incognito/Private window
+
+Windows system shortcuts (not browser-specific):
+- Win + D: Show desktop
+- Win + E: File Explorer
+- Win + L: Lock PC
+- Alt + Tab: Switch apps
+- Ctrl + Shift + Esc: Task Manager
+
+6. Worked Examples
+
+Example 1: Identify the Protocol
+Question: A user sees "https://www.sbi.co.in" in the address bar with a padlock icon. Which protocol and port are in use?
+Solution: HTTPS uses TLS encryption over TCP port 443. The padlock indicates a valid certificate. Answer: HTTPS, port 443.
+
+Example 2: URL Components
+Question: In "https://portal.epfindia.gov.in:443/employer/login?returnUrl=%2Fdashboard#section2", identify the port, query parameter, and fragment.
+Solution: Explicit port 443 (default for HTTPS). Query parameter: returnUrl=%2Fdashboard. Fragment: section2.
+
+Example 3: DNS Record Type
+Question: Which DNS record maps a domain to an IPv6 address?
+Solution: AAAA record (quad-A). A record maps to IPv4. CNAME is an alias. MX is for mail.
+
+Example 4: Cookie Purpose
+Question: A banking site sets a cookie named "SESSIONID" with the "Secure" and "HttpOnly" flags. What do these flags enforce?
+Solution: "Secure" — cookie sent only over HTTPS. "HttpOnly" — inaccessible to JavaScript, mitigating XSS theft. Both are security best practices.
+
+Example 5: Cache vs. Hard Reload
+Question: A developer updates a CSS file but the user sees old styles. Which keyboard combination forces the browser to fetch fresh resources ignoring the cache?
+Solution: Ctrl + Shift + R (Chrome/Edge/Firefox on Windows) or Ctrl + F5. This sends "Cache-Control: no-cache" and "Pragma: no-cache" headers.
+
+Example 6: Phishing Indicator
+Question: An email claims to be from "Income Tax Department" with a link "http://incometaxindiaefiling.gov.in.phishersite.com/login". Why is this suspicious?
+Solution: The true domain is "phishersite.com"; "incometaxindiaefiling.gov.in" is a subdomain controlled by the attacker. Also, HTTP (not HTTPS) on a government login page. Always verify the effective top-level domain.
+
+7. Common Errors and Exam Traps
+
+1. Confusing Internet and WWW — they are not synonyms.
+2. Thinking IPv6 is 64-bit — it is 128-bit.
+3. Assuming HTTPS uses port 80 — it uses 443; HTTP uses 80.
+4. Believing the browser stores passwords in cookies — passwords are stored in the browser's password manager (encrypted), not in cookies.
+5. Thinking "Incognito/Private mode" hides activity from ISP or employer — it only avoids local history, cookies, and form data; network traffic is still visible.
+6. Mixing up search engine and browser — e.g., "Google is my browser" is incorrect; Google is a search engine, Chrome is a browser.
+7. Assuming all .gov.in sites are genuine — attackers can register similar-looking domains (typosquatting). Verify the exact spelling and HTTPS certificate.
+8. Confusing cache and cookies — cache stores static resources for speed; cookies store state/data for the server.
+9. Thinking Ctrl + F5 works on macOS — on Mac, use Cmd + Shift + R (Chrome/Firefox) or Option + Cmd + E (Safari).
+10. Believing browser extensions have no security risk — malicious extensions can read all site data; install only from official stores with good reviews.
+
+Key Takeaways for Exams
+- IPv4 = 32-bit, IPv6 = 128-bit.
+- HTTPS = port 443, TLS encryption, padlock icon.
+- DNS: A (IPv4), AAAA (IPv6), CNAME (alias), MX (mail).
+- Browser ≠ Search Engine.
+- Ctrl + Shift + T reopens closed tab (high-frequency shortcut question).
+- Phishing: check domain spelling, HTTPS, and sender address.
+- CERT-In and RBI are Indian authorities for cyber-security advisories and banking guidelines respectively.
+
+Study Tip: Practise identifying URL parts, matching DNS record types, and recalling the top 10 browser shortcuts. These appear repeatedly in SSC and RRB computer sections.

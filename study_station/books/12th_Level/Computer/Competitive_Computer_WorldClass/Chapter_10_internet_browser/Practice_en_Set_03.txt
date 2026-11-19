@@ -1,0 +1,149 @@
+51. What does HTTP stand for?
+(a) High Speed Text Protocol (b) High Transfer Text Protocol (c) HyperText Transmission Process (d) HyperText Transfer Protocol
+Answer: (d)
+Solution: The tempting option (b) swaps "Transfer" and "Text" but the correct expansion is HyperText Transfer Protocol, so the answer is HyperText Transfer Protocol.
+Source: NCERT Class 10 Computer Science
+
+52. Which protocol is used for secure web browsing?
+(a) HTTP (b) HTTPS (c) FTP (d) SMTP
+Answer: (b)
+Solution: Option (a) HTTP is the unsecured version; HTTPS adds SSL/TLS encryption for secure browsing, so the answer is HTTPS.
+Source: PYQ-style
+
+53. What is the default port number for HTTPS?
+(a) 80 (b) 21 (c) 443 (d) 25
+Answer: (c)
+Solution: Port 80 in option (a) is the default for HTTP; HTTPS uses port 443 by default, so the answer is 443.
+Source: PYQ-style
+
+54. What does DNS stand for?
+(a) Digital Name Server (b) Data Network Service (c) Domain Name System (d) Distributed Network System
+Answer: (c)
+Solution: Option (a) uses "Server" instead of "System"; DNS stands for Domain Name System, so the answer is Domain Name System.
+Source: NCERT Class 10 Computer Science
+
+55. Which part of a URL identifies the specific resource on the server?
+(a) Protocol (b) Domain name (c) Port number (d) Path
+Answer: (d)
+Solution: The domain name in option (b) identifies the server; the path specifies the exact resource on that server, so the answer is Path.
+Source: PYQ-style
+
+56. What is the primary function of a web browser's cache?
+(a) Store passwords securely (b) Block malicious websites (c) Save copies of web pages for faster loading (d) Manage bookmarks
+Answer: (c)
+Solution: Option (a) describes a password manager; cache stores page resources locally to speed up repeat visits, so the answer is Save copies of web pages for faster loading.
+Source: PYQ-style
+
+57. What are HTTP cookies primarily used for?
+(a) Encrypting data transmission (b) Blocking pop-up ads (c) Compressing web pages (d) Storing user preferences and session information
+Answer: (d)
+Solution: Option (a) describes SSL/TLS; cookies are small text files that remember user state and preferences, so the answer is Storing user preferences and session information.
+Source: PYQ-style
+
+58. Which of the following is a valid top-level domain (TLD)?
+(a) .local (b) .internal (c) .home (d) .com
+Answer: (d)
+Solution: Options (a), (c), and (b) are reserved for private networks; .com is a public generic TLD, so the answer is .com.
+Source: PYQ-style
+
+59. What does IP stand for in the context of networking?
+(a) Input Procedure (b) Internal Process (c) Information Packet (d) Internet Protocol
+Answer: (d)
+Solution: Option (c) describes a data unit; IP stands for Internet Protocol, the addressing and routing protocol, so the answer is Internet Protocol.
+Source: NCERT Class 10 Computer Science
+
+60. Which protocol is used for sending email from a client to a server?
+(a) POP3 (b) SMTP (c) IMAP (d) HTTP
+Answer: (b)
+Solution: Options (a) and (c) are for receiving email; SMTP (Simple Mail Transfer Protocol) handles outgoing mail, so the answer is SMTP.
+Source: PYQ-style
+
+61. What is the purpose of a search engine's web crawler?
+(a) Discover and index web pages (b) Rank web pages by popularity (c) Display search results to users (d) Block spam websites
+Answer: (a)
+Solution: Option (b) describes the ranking algorithm; crawlers (spiders) systematically browse and index pages, so the answer is Discover and index web pages.
+Source: PYQ-style
+
+62. Which of the following is NOT a web browser?
+(a) Google Drive (b) Microsoft Edge (c) Google Chrome (d) Mozilla Firefox
+Answer: (a)
+Solution: Option (a) is a cloud storage service; the others are web browsers, so the answer is Google Drive.
+Source: PYQ-style
+
+63. What does URL stand for?
+(a) Uniform Resource Locator (b) Universal Resource Locator (c) Unified Resource Link (d) Universal Reference Link
+Answer: (a)
+Solution: Option (b) uses "Universal" instead of "Uniform"; the correct term is Uniform Resource Locator, so the answer is Uniform Resource Locator.
+Source: NCERT Class 10 Computer Science
+
+64. What is the function of the address bar in a web browser?
+(a) Display the page title (b) Manage browser extensions (c) Show the current URL and accept new ones (d) Control zoom level
+Answer: (c)
+Solution: Option (a) is the page title area; the address bar shows and accepts URLs for navigation, so the answer is Show the current URL and accept new ones.
+Source: PYQ-style
+
+65. Which key combination refreshes the current web page in most Windows browsers?
+(a) Ctrl + F (b) Ctrl + S (c) Ctrl + P (d) Ctrl + R
+Answer: (d)
+Solution: Option (b) saves the page, (c) prints, (a) finds text; Ctrl+R (or F5) reloads the page, so the answer is Ctrl + R.
+Source: Microsoft Support
+
+66. What is phishing?
+(a) A type of computer virus (b) Fraudulent attempt to obtain sensitive information by disguising as trustworthy (c) Network attack that floods a server (d) Method of encrypting emails
+Answer: (b)
+Solution: Option (a) describes malware, (c) is a DDoS attack; phishing uses deception to steal credentials, so the answer is Fraudulent attempt to obtain sensitive information by disguising as trustworthy.
+Source: CERT-In Advisory
+
+67. What does SSL/TLS provide for web communications?
+(a) Encryption and authentication (b) Faster page loading (c) Automatic form filling (d) Ad blocking
+Answer: (a)
+Solution: Option (b) is caching; SSL/TLS encrypts data and verifies server identity, so the answer is Encryption and authentication.
+Source: PYQ-style
+
+68. Which of the following represents a valid IPv4 address format?
+(a) 172.16.254.1 (b) 2001:0db8:85a3::8a2e:0370:7334 (c) 192.168.1.256 (d) 10.0.0
+Answer: (a)
+Solution: Option (c) has an octet >255, (b) is IPv6, (d) is incomplete; IPv4 uses four 0-255 octets, so the answer is 172.16.254.1.
+Source: PYQ-style
+
+69. What is the purpose of a browser's incognito or private browsing mode?
+(a) Make the user anonymous on the internet (b) Not save browsing history, cookies, or form data locally (c) Prevent websites from tracking IP address (d) Encrypt all network traffic
+Answer: (b)
+Solution: Option (a) is a common misconception; private mode only avoids local storage, it does not hide IP or encrypt traffic, so the answer is Not save browsing history, cookies, or form data locally.
+Source: PYQ-style
+
+70. Which organization coordinates the global Domain Name System (DNS) root and IP address allocation?
+(a) IEEE (b) ICANN (c) W3C (d) ISO
+Answer: (b)
+Solution: Option (a) sets technical standards, (c) develops web standards; ICANN manages DNS root and IP allocation, so the answer is ICANN.
+Source: PYQ-style
+
+71. In the OSI model, at which layer does HTTP operate?
+(a) Transport Layer (b) Application Layer (c) Network Layer (d) Session Layer
+Answer: (b)
+Solution: Option (a) hosts TCP; HTTP is an application-layer protocol that uses TCP for transport, so the answer is Application Layer.
+Source: NCERT Class 12 Computer Science
+
+72. What is the key difference between a static and a dynamic IP address?
+(a) Static IP is assigned manually and remains constant; dynamic IP is assigned by DHCP and can change (b) Static IP changes periodically; dynamic IP never changes (c) Static IP is only for servers; dynamic IP is only for clients (d) Static IP uses IPv6; dynamic IP uses IPv4
+Answer: (a)
+Solution: Option (b) reverses the definitions; static IPs are fixed manually, dynamic IPs are leased via DHCP, so the answer is Static IP is assigned manually and remains constant; dynamic IP is assigned by DHCP and can change.
+Source: PYQ-style
+
+73. Which HTTP status code indicates that the requested resource was not found on the server?
+(a) 200 (b) 301 (c) 404 (d) 500
+Answer: (c)
+Solution: Option (a) means success, (b) is permanent redirect, (d) is server error; 404 specifically means Not Found, so the answer is 404.
+Source: PYQ-style
+
+74. What is the primary role of a Certificate Authority (CA) in HTTPS?
+(a) Generate public keys for websites (b) Encrypt data between browser and server (c) Verify the identity of a website and issue digital certificates (d) Host the website's content
+Answer: (c)
+Solution: Option (b) describes the TLS session; the CA validates ownership and signs certificates that browsers trust, so the answer is Verify the identity of a website and issue digital certificates.
+Source: PYQ-style
+
+75. In a URL, what does the fragment identifier (the part after #) refer to?
+(a) A specific section within the web page (b) The server's IP address (c) The protocol version (d) The port number
+Answer: (a)
+Solution: Option (b) is the domain/IP; the fragment identifier points to an element ID within the loaded document, so the answer is A specific section within the web page.
+Source: PYQ-style

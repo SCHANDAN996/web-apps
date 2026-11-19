@@ -1,0 +1,71 @@
+**Key Facts — Internet and Browsers**
+
+1. **Internet** is a global network of interconnected computer networks that communicate using the standard Internet Protocol Suite (TCP/IP). It is a decentralized infrastructure; no single entity owns or controls it.
+
+2. **World Wide Web (WWW)** is an information system on the Internet where documents (web pages) are identified by URLs, interlinked by hyperlinks, and accessed via HTTP/HTTPS. The Web is a service *on* the Internet, not the Internet itself.
+
+3. **Web Browser** is client software that retrieves, renders, and displays web resources. Common browsers: Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari, Opera. Each uses a rendering engine (Blink, Gecko, WebKit) to parse HTML/CSS/JS.
+
+4. **URL (Uniform Resource Locator)** structure: `scheme://host:port/path?query#fragment`. Example: `https://www.example.com:443/page?name=value#section`. The scheme indicates the protocol (http, https, ftp).
+
+5. **Domain Name System (DNS)** translates human-readable domain names (e.g., `example.com`) into IP addresses (e.g., `93.184.216.34`). It is a hierarchical, distributed database. Common record types: A (IPv4), AAAA (IPv6), CNAME (alias), MX (mail exchange).
+
+6. **IP Address** uniquely identifies a device on a network. IPv4 uses 32-bit dotted-decimal notation (e.g., `192.168.1.1`); IPv6 uses 128-bit hexadecimal notation (e.g., `2001:0db8:85a3::8a2e:0370:7334`). Public IPs are routable on the Internet; private ranges (10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16) are for internal networks.
+
+7. **HTTP (HyperText Transfer Protocol)** is the application-layer protocol for transferring web resources. It is stateless — each request is independent. Common methods: GET (retrieve), POST (submit), PUT (replace), DELETE (remove). Status codes: 200 OK, 301/302 Redirect, 404 Not Found, 500 Server Error.
+
+8. **HTTPS** is HTTP over TLS/SSL. It provides encryption (confidentiality), authentication (server identity via certificate), and integrity. Port 443 by default. Modern browsers mark non-HTTPS sites as “Not Secure.”
+
+9. **TCP/IP Model** (4 layers): Application (HTTP, DNS, SMTP), Transport (TCP, UDP), Internet (IP, ICMP), Network Access (Ethernet, Wi-Fi). TCP provides reliable, ordered delivery; UDP is connectionless and faster (used for streaming, DNS queries).
+
+10. **Search Engine** crawls, indexes, and ranks web pages. Major engines: Google, Bing, DuckDuckGo. Ranking algorithms consider relevance, authority, user experience, and hundreds of signals. SEO (Search Engine Optimization) improves organic visibility.
+
+11. **Email Protocols**: SMTP (port 25/587) for sending; POP3 (port 110) downloads and removes from server; IMAP (port 143) syncs messages across devices. Secure variants: SMTPS (465), POP3S (995), IMAPS (993). MIME extends email to support attachments and non-ASCII text.
+
+12. **Cookies** are small key-value pairs stored by the browser on behalf of a site. Types: Session (deleted on browser close), Persistent (expiry date), Secure (HTTPS only), HttpOnly (inaccessible to JavaScript), SameSite (CSRF protection). Used for authentication, tracking, preferences.
+
+13. **Cache** stores copies of resources (HTML, CSS, JS, images) locally to speed up subsequent loads. Browser cache, proxy cache, CDN cache. Cache-Control headers (max-age, no-store, must-revalidate) govern behavior. Clearing cache resolves stale-content issues.
+
+14. **Browser Components**: Address bar (URL input), Navigation buttons (Back, Forward, Refresh, Home), Tab bar, Bookmarks/Favorites, History, Downloads manager, Developer Tools (F12), Extensions/Add-ons.
+
+15. **Incognito / Private Mode** does not save history, cookies, site data, or form entries after the session closes. It does **not** hide activity from ISPs, employers, or websites. Downloads and bookmarks are still saved.
+
+16. **Common Browser Shortcuts (Windows/Linux)**:
+   - Ctrl+T: New tab | Ctrl+W: Close tab | Ctrl+Shift+T: Reopen closed tab
+   - Ctrl+Tab / Ctrl+Shift+Tab: Next/Previous tab | Ctrl+1–8: Specific tab | Ctrl+9: Last tab
+   - Ctrl+L / Alt+D / F6: Focus address bar | Ctrl+Enter: Add `www.` + `.com` + open
+   - Ctrl+R / F5: Reload | Ctrl+Shift+R: Hard reload (bypass cache)
+   - Ctrl+F: Find in page | Ctrl+H: History | Ctrl+J: Downloads | Ctrl+D: Bookmark
+   - Ctrl++ / Ctrl+- / Ctrl+0: Zoom in/out/reset
+   - F11: Full-screen toggle | F12: Developer Tools
+   - *Note: macOS uses Cmd instead of Ctrl for most shortcuts.*
+
+17. **Windows System Shortcuts (not browser-specific)**:
+   - Win+D: Show desktop | Win+E: File Explorer | Win+L: Lock PC
+   - Win+Tab: Task View | Alt+Tab: Switch apps | Ctrl+Shift+Esc: Task Manager
+   - Win+I: Settings | Win+R: Run dialog | Win+S: Search
+   - Ctrl+C / Ctrl+X / Ctrl+V / Ctrl+Z: Copy/Cut/Paste/Undo (universal)
+
+18. **Microsoft Office Shortcuts (Word/Excel/PowerPoint)**:
+   - Ctrl+S: Save | Ctrl+P: Print | Ctrl+F: Find | Ctrl+H: Replace
+   - Ctrl+B / Ctrl+I / Ctrl+U: Bold/Italic/Underline
+   - Excel: Ctrl+Arrow (jump to edge), F2 (edit cell), Alt+= (AutoSum), Ctrl+` (show formulas)
+   - PowerPoint: F5 (start slideshow), Shift+F5 (from current slide), Ctrl+M (new slide)
+
+19. **Internet Security Basics**:
+   - **Phishing**: Fraudulent messages impersonating trusted entities to steal credentials. Verify sender, hover links, check URL spelling.
+   - **Malware**: Viruses, worms, trojans, ransomware, spyware. Keep OS/browser updated; use reputable antivirus.
+   - **Firewall** monitors incoming/outgoing traffic per rules. Windows Defender Firewall is built-in.
+   - **Two-Factor Authentication (2FA)** adds a second factor (OTP, authenticator app, hardware key) beyond password.
+
+20. **Digital Certificates & PKI**: X.509 certificates bind a public key to an identity, signed by a trusted Certificate Authority (CA). Browsers trust root CAs pre-installed by OS vendors. Certificate errors (expired, self-signed, domain mismatch) warn of potential MITM attacks.
+
+21. **VPN (Virtual Private Network)** encrypts traffic between device and VPN server, masking IP and securing data on public Wi-Fi. Common protocols: OpenVPN, WireGuard, IKEv2/IPsec. Does not anonymize fully — VPN provider can see traffic.
+
+22. **Cloud Computing Models**: IaaS (virtual machines, storage), PaaS (runtime, database), SaaS (ready-to-use apps like Gmail, Office 365). Deployment: Public, Private, Hybrid. Major providers: AWS, Azure, Google Cloud.
+
+23. **Common File Extensions on Web**: .html/.htm (markup), .css (styling), .js (scripting), .json (data), .xml (data), .php/.asp/.jsp (server-side), .jpg/.png/.webp/.svg (images), .mp4/.webm (video), .pdf (documents), .zip/.tar.gz (archives).
+
+24. **Web Accessibility (WCAG)** ensures content is Perceivable, Operable, Understandable, Robust (POUR). Key practices: alt text for images, semantic HTML, sufficient contrast, keyboard navigation, ARIA labels. Legal requirement for many government sites (e.g., GIGW in India).
+
+25. **Emerging Standards**: HTTP/3 (QUIC over UDP) reduces latency; TLS 1.3 (faster handshake, stronger crypto); WebAssembly (near-native performance for web apps); Progressive Web Apps (PWAs) — installable, offline-capable, push notifications; DNS over HTTPS (DoH) / DNS over TLS (DoT) for encrypted DNS queries.

@@ -1,0 +1,149 @@
+26. What does HTTP stand for?
+(a) HyperText Transfer Protocol (b) HighText Transfer Protocol (c) HyperText Transmission Protocol (d) High Transfer Text Protocol
+Answer: (a)
+Solution: The term "Transmission" in Option C is a common confusion because data is transmitted, but the standard name uses "Transfer"; the correct expansion is HyperText Transfer Protocol, so the answer is HyperText Transfer Protocol.
+Source: NCERT Class 10 Computer Science
+
+27. Which protocol is used for secure web browsing?
+(a) HTTPS (b) FTP (c) HTTP (d) SMTP
+Answer: (a)
+Solution: HTTP sends data in plain text, and FTP is for file transfer; HTTPS adds SSL/TLS encryption for security, so the answer is HTTPS.
+Source: Microsoft Learn – HTTPS overview
+
+28. What is the default port number for HTTP?
+(a) 80 (b) 21 (c) 443 (d) 25
+Answer: (a)
+Solution: Port 443 is for HTTPS, port 21 for FTP, and port 25 for SMTP; HTTP uses port 80 by default, so the answer is 80.
+Source: IANA Service Name and Transport Protocol Port Number Registry
+
+29. Which of the following is NOT a valid top-level domain?
+(a) .com (b) .local (c) .net (d) .org
+Answer: (b)
+Solution: .local is reserved for local networks (mDNS) and not a public top-level domain like .com, .org, or .net, so the answer is .local.
+Source: ICANN Root Zone Database
+
+30. What does DNS stand for?
+(a) Domain Name System (b) Dynamic Name Server (c) Distributed Network System (d) Digital Name Service
+Answer: (a)
+Solution: "Dynamic Name Server" sounds plausible because DNS records can change, but the official name is Domain Name System, so the answer is Domain Name System.
+Source: RFC 1034 / NCERT Class 12 Computer Science
+
+31. Which web browser is developed by the Mozilla Foundation?
+(a) Edge (b) Chrome (c) Firefox (d) Safari
+Answer: (c)
+Solution: Chrome is from Google, Edge from Microsoft, Safari from Apple; Firefox is the Mozilla Foundation's open-source browser, so the answer is Firefox.
+Source: Mozilla Foundation official site
+
+32. What is the keyboard shortcut to open a new tab in most browsers on Windows?
+(a) Alt+T (b) Ctrl+N (c) Ctrl+Shift+N (d) Ctrl+T
+Answer: (d)
+Solution: Ctrl+N opens a new window, Ctrl+Shift+N opens an incognito/private window; the standard new-tab shortcut is Ctrl+T, so the answer is Ctrl+T.
+Source: Microsoft Support – Keyboard shortcuts in Microsoft Edge / Chrome Help
+
+33. Which protocol is used for sending emails?
+(a) POP3 (b) SMTP (c) IMAP (d) HTTP
+Answer: (b)
+Solution: POP3 and IMAP are for receiving emails; SMTP (Simple Mail Transfer Protocol) handles sending, so the answer is SMTP.
+Source: RFC 5321 / NCERT Class 12 Computer Science
+
+34. What does URL stand for?
+(a) Universal Resource Link (b) Uniform Resource Locator (c) Uniform Reference Locator (d) Universal Reference Link
+Answer: (b)
+Solution: "Universal Resource Link" is a common mis-expansion; the correct term is Uniform Resource Locator, so the answer is Uniform Resource Locator.
+Source: RFC 1738 / NCERT Class 10 Computer Science
+
+35. Which of the following is NOT a web browser?
+(a) Outlook (b) Firefox (c) Edge (d) Chrome
+Answer: (a)
+Solution: Outlook is an email client and personal information manager, not a web browser, so the answer is Outlook.
+Source: Microsoft 365 documentation
+
+36. What is the primary function of a cookie in web browsing?
+(a) To encrypt data (b) To increase internet speed (c) To block advertisements (d) To store user preferences and session data
+Answer: (d)
+Solution: Cookies do not speed up the connection, block ads, or encrypt data; they are small text files that remember user state, so the answer is To store user preferences and session data.
+Source: MDN Web Docs – HTTP cookies
+
+37. Which key toggles full-screen mode in most browsers on Windows?
+(a) F11 (b) Ctrl+R (c) Alt+Enter (d) F5
+Answer: (a)
+Solution: F5 and Ctrl+R refresh the page, Alt+Enter has other uses; F11 is the standard full-screen toggle, so the answer is F11.
+Source: Microsoft Support – Keyboard shortcuts in browsers
+
+38. What does ISP stand for?
+(a) Internet Service Provider (b) Internal System Protocol (c) International Standard Protocol (d) Internet Security Provider
+Answer: (a)
+Solution: The other options sound technical but are not the standard expansion; ISP means Internet Service Provider, so the answer is Internet Service Provider.
+Source: NCERT Class 10 Computer Science
+
+39. Which of the following is a search engine?
+(a) Chrome (b) Firefox (c) Edge (d) Google
+Answer: (d)
+Solution: Chrome, Firefox, and Edge are web browsers; Google is a search engine (though it also makes a browser), so the answer is Google.
+Source: NCERT Class 10 Computer Science
+
+40. What is phishing?
+(a) A type of malware (b) A browser feature (c) Fraudulent attempt to obtain sensitive information (d) A network protocol
+Answer: (c)
+Solution: Phishing is not malware, a feature, or a protocol; it is a social-engineering attack that tricks users into revealing credentials, so the answer is Fraudulent attempt to obtain sensitive information.
+Source: CERT-In Advisory – Phishing attacks
+
+41. Which email protocol keeps messages on the server and synchronizes across devices?
+(a) POP3 (b) IMAP (c) SMTP (d) FTP
+Answer: (b)
+Solution: POP3 typically downloads and deletes from the server; IMAP leaves mail on the server for multi-device sync, so the answer is IMAP.
+Source: RFC 3501 / Microsoft Support – POP vs IMAP
+
+42. What does an IP address represent?
+(a) A website name (b) An email address (c) A unique identifier for a device on a network (d) A browser version
+Answer: (c)
+Solution: A domain name represents a website; an IP address is the numeric label identifying each network device, so the answer is A unique identifier for a device on a network.
+Source: RFC 791 / NCERT Class 12 Computer Science
+
+43. Which of the following is a valid IPv4 address?
+(a) 256.1.1.1 (b) 192.168.1.1 (c) 192.168.1.1.1 (d) 192.168.1
+Answer: (b)
+Solution: Each octet must be 0–255; 256 is invalid, and an IPv4 address has exactly four octets, so the answer is 192.168.1.1.
+Source: RFC 791 / IANA IPv4 Address Space Registry
+
+44. What is the purpose of the browser cache?
+(a) To store passwords (b) To manage bookmarks (c) To block pop-ups (d) To store copies of web pages for faster loading
+Answer: (d)
+Solution: Passwords are kept in a password manager, pop-ups are handled by a blocker, bookmarks are separate; cache stores page resources locally to speed up repeat visits, so the answer is To store copies of web pages for faster loading.
+Source: MDN Web Docs – HTTP caching
+
+45. Which keyboard shortcut opens the History page in Chrome on Windows?
+(a) Ctrl+J (b) Ctrl+Y (c) Ctrl+H (d) Ctrl+Shift+H
+Answer: (c)
+Solution: Ctrl+J opens Downloads, Ctrl+Y redoes an action, Ctrl+Shift+H is not standard; Ctrl+H is the common History shortcut, so the answer is Ctrl+H.
+Source: Chrome Help – Keyboard shortcuts
+
+46. What is the key difference between HTTP and HTTPS?
+(a) HTTPS uses port 80, HTTP uses port 443 (b) HTTP encrypts data, HTTPS does not (c) HTTPS encrypts data using SSL/TLS, HTTP does not (d) HTTPS is only for banking sites
+Answer: (c)
+Solution: The ports are reversed in Option A, and HTTPS is not limited to banking; the core difference is SSL/TLS encryption in HTTPS, so the answer is HTTPS encrypts data using SSL/TLS, HTTP does not.
+Source: RFC 2818 / Microsoft Learn – HTTPS
+
+47. Which statement about cookies is correct?
+(a) Cookies are small text files stored by websites (b) Cookies are always encrypted (c) Cookies can execute code on your computer (d) Cookies can access your hard drive
+Answer: (a)
+Solution: Cookies cannot run code, are not always encrypted, and cannot read arbitrary files; they are simple text files sent by sites, so the answer is Cookies are small text files stored by websites.
+Source: MDN Web Docs – HTTP cookies
+
+48. What does the 'S' in HTTPS stand for?
+(a) Socket (b) Standard (c) System (d) Secure
+Answer: (d)
+Solution: The 'S' denotes the secure (encrypted) layer added to HTTP, not socket, standard, or system, so the answer is Secure.
+Source: RFC 2818 / NCERT Class 12 Computer Science
+
+49. Which protocol resolves domain names to IP addresses?
+(a) DHCP (b) FTP (c) HTTP (d) DNS
+Answer: (d)
+Solution: DHCP assigns IP addresses to devices, HTTP transfers web pages, FTP transfers files; DNS maps names to IPs, so the answer is DNS.
+Source: RFC 1035 / NCERT Class 12 Computer Science
+
+50. What is a man-in-the-middle attack?
+(a) A browser crash (b) A virus that spreads via email (c) An attack where attacker intercepts communication between two parties (d) A type of phishing email
+Answer: (c)
+Solution: It is not a virus, a crash, or a phishing email; it is an active interception of a communication channel, so the answer is An attack where attacker intercepts communication between two parties.
+Source: CERT-In Advisory – Man-in-the-middle attacks

@@ -1,0 +1,72 @@
+Card 1
+Front: What is the Internet?
+Back: A global network of interconnected computer networks that use the Internet Protocol Suite (TCP/IP) to link devices worldwide. It is a decentralized infrastructure — no single entity owns or controls it.
+
+Card 2
+Front: Difference between the Internet and the World Wide Web (WWW)
+Back: The Internet is the physical/network infrastructure (hardware, cables, routers, protocols). The WWW is an information system of interlinked hypertext documents accessed via the Internet using HTTP/HTTPS and browsers. WWW is a service that runs on the Internet.
+
+Card 3
+Front: What is an IP address? Name the two versions.
+Back: A numerical label assigned to each device on a network for identification and location addressing. IPv4 (32-bit, dotted decimal, e.g., 192.168.1.1) and IPv6 (128-bit, hexadecimal, e.g., 2001:0db8:85a3::8a2e:0370:7334).
+
+Card 4
+Front: What is a domain name and how does DNS work?
+Back: A human-readable address (e.g., example.com) mapped to an IP address. DNS (Domain Name System) resolves domain names to IPs through a hierarchy: root servers → TLD servers → authoritative name servers. Uses UDP port 53 primarily.
+
+Card 5
+Front: Common top-level domains (TLDs) and their typical use
+Back: .com (commercial), .org (organizations), .net (network infrastructure), .gov (government), .edu (education), .mil (military), .in (India country-code), .co.in (Indian commercial). New gTLDs exist (e.g., .app, .tech).
+
+Card 6
+Front: What is a URL? Break down its components.
+Back: Uniform Resource Locator — the address of a resource on the Web. Example: https://www.example.com:443/path/page.html?query=value#fragment
+Components: scheme (https), subdomain (www), domain (example.com), port (443), path (/path/page.html), query (?query=value), fragment (#fragment).
+
+Card 7
+Front: HTTP vs HTTPS — key differences
+Back: HTTP (port 80) sends data in plaintext. HTTPS (port 443) uses TLS/SSL encryption for confidentiality, integrity, and authentication. HTTPS requires a valid digital certificate from a trusted Certificate Authority (CA). Modern browsers mark HTTP as "Not Secure".
+
+Card 8
+Front: What is a web browser? Name major rendering engines.
+Back: Software that retrieves, renders, and navigates web resources. Major engines: Blink (Chrome, Edge, Opera, Brave), WebKit (Safari), Gecko (Firefox). Browser = UI + rendering engine + JavaScript engine + networking stack.
+
+Card 9
+Front: Client-server model in web browsing
+Back: Browser (client) sends an HTTP request to a web server. Server processes the request and returns an HTTP response (status code, headers, body). Stateless protocol — each request is independent unless cookies/sessions maintain state.
+
+Card 10
+Front: Common HTTP status code categories
+Back: 1xx Informational, 2xx Success (200 OK), 3xx Redirection (301 Moved Permanently, 302 Found), 4xx Client Error (400 Bad Request, 401 Unauthorized, 403 Forbidden, 404 Not Found), 5xx Server Error (500 Internal Server Error, 502 Bad Gateway, 503 Service Unavailable).
+
+Card 11
+Front: What are cookies? Types and purpose.
+Back: Small text files stored by the browser on behalf of a website. Session cookies (deleted on browser close), Persistent cookies (expire at set date), Third-party cookies (set by domains other than the visited site — used for tracking). Used for authentication, preferences, analytics.
+
+Card 12
+Front: Cache vs Cookies — difference
+Back: Cache stores copies of web resources (HTML, CSS, JS, images) locally to speed up subsequent loads. Cookies store small stateful data (identifiers, tokens) sent with every request to the same domain. Cache improves performance; cookies maintain state.
+
+Card 13
+Front: What is a search engine? How it differs from a browser.
+Back: A search engine (Google, Bing, DuckDuckGo) indexes web pages and returns ranked results for queries. A browser is the client software used to access and display web pages. You use a browser to visit a search engine's website.
+
+Card 14
+Front: Common browser shortcuts (Windows/Linux)
+Back: Ctrl+T (new tab), Ctrl+W (close tab), Ctrl+Shift+T (reopen closed tab), Ctrl+Tab / Ctrl+Shift+Tab (switch tabs), Ctrl+L / Alt+D (focus address bar), Ctrl+R / F5 (reload), Ctrl+Shift+R (hard reload), Ctrl++ / Ctrl+- (zoom), Ctrl+0 (reset zoom), Ctrl+H (history), Ctrl+J (downloads), Ctrl+Shift+Delete (clear browsing data).
+
+Card 15
+Front: Incognito / Private mode — what it does and does not do
+Back: Does not save history, cookies, site data, or form entries after the session closes. Does NOT hide activity from ISP, employer, school, or websites visited. Does NOT prevent fingerprinting or tracking by IP. Downloads and bookmarks are still saved.
+
+Card 16
+Front: Browser extensions / add-ons — risks and management
+Back: Small programs that extend browser functionality. Risks: excessive permissions, data collection, malware vectors, performance impact. Manage via browser's extension store (Chrome Web Store, Firefox Add-ons, Edge Add-ons). Review permissions, keep updated, remove unused.
+
+Card 17
+Front: What is a Certificate Authority (CA) and the padlock icon?
+Back: A trusted entity that issues digital certificates verifying a website's identity. The padlock (🔒) in the address bar indicates a valid TLS certificate and encrypted connection. Clicking it shows certificate details: issuer, validity period, domain. Self-signed certificates trigger browser warnings.
+
+Card 18
+Front: Basic safe browsing practices for exams and daily use
+Back: Verify HTTPS and domain spelling before entering credentials. Keep browser and OS updated. Use reputable ad/tracker blockers. Avoid saving passwords in browser for sensitive sites (use a password manager). Clear cache/cookies periodically. Be wary of pop-ups urging software updates or "virus detected" — these are scams.

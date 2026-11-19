@@ -1,0 +1,77 @@
+PYQ Pattern Analysis — Internet and Browsers
+
+This section describes the recurring question patterns, favourite sub-topics, and common examiner traps observed in SSC (CHSL, CGL, MTS, GD), Railway (NTPC, Group D), and Banking (IBPS PO/Clerk, SBI PO/Clerk) computer-awareness papers. No year-wise frequency tables or invented statistics are given — only qualitative pattern observations.
+
+1. Recurring Sub-topics
+   • URL structure and components (protocol, domain, sub-domain, path, query string, fragment).
+   • Difference between HTTP and HTTPS; role of SSL/TLS and port numbers (80 vs 443).
+   • Browser architecture: rendering engine (Blink, Gecko, WebKit), JavaScript engine (V8, SpiderMonkey), UI, networking, storage.
+   • Common browser shortcuts (Windows scope): Ctrl+T (new tab), Ctrl+W (close tab), Ctrl+Shift+T (reopen closed tab), Ctrl+L / F6 (address bar), Ctrl+R / F5 (reload), Ctrl+Shift+R (hard reload), Ctrl++ / Ctrl+- (zoom), Ctrl+0 (reset zoom), Ctrl+H (history), Ctrl+J (downloads), Ctrl+Shift+Delete (clear browsing data).
+   • Search-engine operators: site:, filetype:, intitle:, inurl:, "exact phrase", -exclude, OR, * wildcard.
+   • Cookies, cache, localStorage, sessionStorage — purpose, scope, expiry, security flags (HttpOnly, Secure, SameSite).
+   • DNS resolution steps: recursive resolver → root → TLD → authoritative; common record types (A, AAAA, CNAME, MX, TXT, NS).
+   • Basic networking concepts: IP address (IPv4/IPv6), MAC address, ports, firewall, proxy, VPN.
+   • Phishing, pharming, MITM, drive-by download, XSS, CSRF — definitions and one-line countermeasures.
+   • Digital certificate chain: root CA → intermediate → leaf; certificate fields (CN, SAN, validity, public key, signature).
+   • Web protocols: FTP, SMTP, POP3, IMAP, WebSocket, HTTP/2, HTTP/3 (QUIC) — key differences.
+   • Browser developer tools tabs: Elements, Console, Sources, Network, Application, Performance, Security — typical exam questions ask "which tab shows cookies?" or "which tab shows HTTP headers?".
+
+2. Examiner Traps
+   • Near-correct statements: "HTTPS uses port 80" (false — 443), "Cookies are executable code" (false — text data), "Incognito mode hides IP from ISP" (false — only local history).
+   • Chronological confusion: "HTTP/2 introduced multiplexing" (true) vs "HTTP/1.1 introduced multiplexing" (false).
+   • Similar-name confusion: Java vs JavaScript, DOM vs BOM, URL vs URI vs URN, cache vs cookies vs localStorage.
+   • Negative phrasing: "Which of the following is NOT a valid HTTP method?" (options: GET, POST, FETCH, PUT — answer: FETCH).
+   • Scope ambiguity: Shortcut questions often omit "in Chrome on Windows" — candidates must assume standard Windows browser defaults unless specified.
+   • Version-specific claims avoided: Exams rarely ask exact version numbers (e.g., "Chrome 118 introduced…"); they test stable concepts.
+
+3. Typical Question Stems (PYQ-style original examples)
+
+   Example 1
+   Which component of a URL identifies the specific resource on the server?
+   (a) Protocol  (b) Domain name  (c) Path  (d) Query string
+   Answer: (c)
+   Solution: The path (/path/to/resource) points to the exact resource; protocol defines scheme, domain identifies host, query string passes parameters.
+   Source: PYQ-style
+
+   Example 2
+   A user presses Ctrl+Shift+T in Chrome on Windows. What happens?
+   (a) Opens a new incognito window  (b) Reopens the most recently closed tab  (c) Opens the Task Manager  (d) Bookmarks the current page
+   Answer: (b)
+   Solution: Ctrl+Shift+T restores the last closed tab; Ctrl+Shift+N opens incognito, Shift+Esc opens Task Manager, Ctrl+D bookmarks.
+   Source: PYQ-style
+
+   Example 3
+   Which attribute of the Set-Cookie header instructs the browser to send the cookie only over HTTPS?
+   (a) Secure  (b) HttpOnly  (c) SameSite  (d) Domain
+   Answer: (a)
+   Solution: The Secure attribute ensures the cookie is sent only over encrypted (HTTPS) connections; HttpOnly blocks JavaScript access, SameSite controls cross-site sending, Domain sets scope.
+   Source: PYQ-style
+
+   Example 4
+   In the DNS resolution process, which server is queried first by the recursive resolver?
+   (a) Authoritative name server  (b) TLD name server  (c) Root name server  (d) Local hosts file
+   Answer: (c)
+   Solution: The recursive resolver starts at the root server, then TLD, then authoritative. The local hosts file is checked by the OS before DNS query begins.
+   Source: PYQ-style
+
+   Example 5
+   Which of the following is NOT a valid HTTP/1.1 request method?
+   (a) GET  (b) POST  (c) CONNECT  (d) QUERY
+   Answer: (d)
+   Solution: QUERY is not a standard HTTP/1.1 method; GET, POST, CONNECT are defined in RFC 7231/7230.
+   Source: PYQ-style
+
+4. Speed Tips (Advice, Not Statistics)
+   • URL questions: Identify the asked component (protocol/domain/path/query/fragment) in 5 seconds; eliminate distractors.
+   • Shortcut questions: Memorise the 12 core Windows browser shortcuts listed above; they cover the vast majority of shortcut MCQs.
+   • Cookie/cache questions: Remember the trio — Cookie (server-set, sent automatically), localStorage (client-set, persists), sessionStorage (client-set, tab-scoped).
+   • DNS questions: Visualise the 4-step chain (Root → TLD → Authoritative → Answer); one-step questions are common.
+   • Negative questions: Read "NOT / EXCEPT / FALSE" twice; mark the correct statement first, then pick the odd one out.
+
+5. Topics Rarely Asked (Low Yield)
+   • Detailed browser version histories.
+   • Exact RFC numbers (except well-known ones like RFC 1918 for private IPs).
+   • Proprietary browser-internal APIs (e.g., Chrome DevTools Protocol internals).
+   • Obsolete protocols (Gopher, Finger) beyond one-line definitions.
+
+Study Focus: Master the 12 sub-topics in Section 1, practise spotting the 5 trap types in Section 2, and solve the PYQ-style examples in Section 3 under timed conditions.

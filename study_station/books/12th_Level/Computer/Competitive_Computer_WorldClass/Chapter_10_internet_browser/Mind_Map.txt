@@ -1,0 +1,17 @@
+```mermaid
+graph TD
+    A["इंटरनेट<br>Internet"] --> B["ब्राउज़र<br>Browser"]
+    A --> C["आईएसपी (ISP)<br>Internet Service Provider"]
+    A --> D["मॉडेम/राउटर<br>Modem/Router"]
+    B --> E["यूआरएल (URL)<br>Uniform Resource Locator"]
+    B --> F["एचटीटीपी/एचटीटीपीएस<br>HTTP/HTTPS"]
+    B --> G["डीएनएस (DNS)<br>Domain Name System"]
+    B --> H["खोज इंजन<br>Search Engine"]
+    B --> I["कुकीज़<br>Cookies"]
+    B --> J["कैश<br>Cache"]
+    C --> K["बैंडविड्थ<br>Bandwidth"]
+    C --> L["आईपी पता<br>IP Address"]
+    D --> M["फायरवॉल<br>Firewall"]
+    F --> N["एसएसएल/टीएलएस<br>SSL/TLS"]
+    G --> O["वेब सर्वर<br>Web Server"]
+```

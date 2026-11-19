@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 01:45 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
+**आख़िरी update:** 20-11-2026 02:00 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,13 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 10 internet browser (12th Computer) | 🔎 review हो रहा है | 5 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 308 मिनट |
+| W1 | Chapter 10 internet browser (12th Computer) | 📤 push हो रहा है | 0 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 135 |
-| key 4 | 176 |
+| key 3 | 146 |
+| key 4 | 189 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -42,6 +41,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 20-11 02:00 — 12th Computer · Chapter 10 internet browser
 - 20-11 00:05 — 10th Hindi · Chapter 01 varn vartani
 - 19-11 23:24 — 12th Computer · Chapter 09 powerpoint
 - 19-11 21:39 — 12th Computer · Chapter 07 word
@@ -53,24 +53,11 @@
 - Chapter 08 samas (Hindi) — 2 बार
 - Chapter 09 upsarg pratyay (Hindi) — 2 बार
 - Chapter 10 paryayvachi (Hindi) — 1 बार
+- Chapter 07 sandhi (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 00:56:44 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_10_paryayvachi after 193 min: todo [] problems []
-20-11 00:56:44 worker 1: nothing left
-20-11 01:00:14   [upsarg_pratyay] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q86 key a vs re-solve b, Q87 key c vs re-solve b, Q91 key a vs re-solve b, Q96 key a vs re-solve ?, 
-20-11 01:03:43   [internet_browser] wrote Mind_Map.txt (629 chars)
-20-11 01:07:16   [upsarg_pratyay] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q86 key a vs re-solve b, Q91 key a vs re-solve b, Q96 key d vs re-solve b, Q100 key a vs re-solve c)
-20-11 01:09:15   [sandhi] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q126 key d vs re-solve b, Q127 key b vs re-solve ?, Q129 key d vs re-solve ?, Q133 key a vs re-solve
-20-11 01:11:41   [upsarg_pratyay] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q77 key d vs re-solve c, Q91 key a vs re-solve b, Q96 key d vs re-solve b, Q98 key b vs re-solve a, 
-20-11 01:11:41   [upsarg_pratyay] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
-20-11 01:11:41   [upsarg_pratyay] written 1, failed 2; AI calls today 65/100000
-20-11 01:11:41 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay after 85 min: todo ['Set 01 hi: todo', 'Set 04 hi: todo'] problems []
-20-11 01:11:41 worker 3: nothing left
-20-11 01:12:08   [internet_browser] wrote Flashcards_en.txt (5817 chars)
-20-11 01:12:46   [internet_browser] wrote Flashcards_hi.txt (6480 chars)
-20-11 01:12:47   [internet_browser] 2026-11-19 19:42:47,002 WARNING NVIDIA rate_limited — retrying in 20s
 20-11 01:14:24   [internet_browser] wrote PYQ_en.txt (5876 chars)
 20-11 01:14:56   [internet_browser] wrote PYQ_hi.txt (5150 chars)
 20-11 01:15:34   [internet_browser] wrote Important_Rules_en.txt (8138 chars)
@@ -97,4 +84,18 @@
 20-11 01:40:44   [internet_browser] review Content_en.txt round 1: 1 issue(s): - In the URL structure example, ".gov.in" is incorrectly labeled as the Top-Level Domain (TLD); .gov.in is 
 20-11 01:40:45   [internet_browser] 2026-11-19 20:10:45,820 WARNING NVIDIA rate_limited — retrying in 20s
 20-11 01:43:25   [internet_browser] review Content_en.txt round 2: 1 issue(s): - The URL component breakdown mislabels the domain hierarchy: "Domain: incometax" and "Second-level domain:
+20-11 01:46:17   [internet_browser] 2026-11-19 20:16:17,256 WARNING NVIDIA rate_limited — retrying in 20s
+20-11 01:47:06   [sandhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q129 key b vs re-solve c, Q135 key c vs re-solve a, Q136 key b vs re-solve c, Q142 key c vs re-solve
+20-11 01:47:06   [sandhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
+20-11 01:47:06   [sandhi] written 0, failed 5; AI calls today 109/100000
+20-11 01:47:06 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi after 310 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo'] problems []
+20-11 01:47:06 worker 2: nothing left
+20-11 01:47:54   [internet_browser] review Feynman_en.txt round 1: 1 issue(s): - The URL breakdown labels "www.example.com" as a domain name; it is actually a hostname (fully qualified d
+20-11 01:51:29   [internet_browser] review Flashcards_hi.txt round 1: 3 issue(s): - कार्ड 1 स्रोत: "NCERT कक्षा 10 कंप्यूटर विज्ञान" गलत है; NCERT कक्षा 10 में "कंप्यूटर विज्ञान" नामक पु
+20-11 01:53:28   [internet_browser] review PYQ_en.txt round 1: 2 issue(s): - Speed Tips claims shortcuts cover "90 % of shortcut MCQs" → invented statistic; remove the percentage or repl
+20-11 01:55:23   [internet_browser] review PYQ_hi.txt round 1: 1 issue(s): - Chrome 90 में FTP सपोर्ट हटाया गया (संस्करण‑विशिष्ट दावा उदाहरण) → Chrome 88 में FTP सपोर्ट हटाया गया
+20-11 01:56:54   [internet_browser] review Important_Rules_en.txt round 1: 2 issue(s): - Rule 3 incorrectly lists `.gov.in` as a TLD → `.gov.in` is a second-level domain under the `.in` 
+20-11 01:59:22   [internet_browser] review Important_Rules_hi.txt round 1: 2 issue(s): - In Rule 8, stating GET is only idempotent is incorrect → GET is both safe and idempotent
+20-11 02:00:20   [internet_browser] review: 7 section(s) corrected, 0 failed
+20-11 02:00:20   [internet_browser] written 7, failed 0; AI calls today 130/100000
 ```

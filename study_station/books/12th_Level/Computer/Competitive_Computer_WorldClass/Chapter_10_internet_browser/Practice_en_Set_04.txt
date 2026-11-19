@@ -1,0 +1,151 @@
+Questions 76–95: Easy | Questions 96–100: Medium
+
+76. Which protocol is used for transferring web pages from a server to a browser?
+(a) FTP (b) SMTP (c) POP3 (d) HTTP
+Answer: (d)
+Solution: FTP is for file transfer, SMTP and POP3 are for email; HTTP (HyperText Transfer Protocol) is the foundation of data communication for the World Wide Web, so the answer is HTTP.
+Source: NCERT Class 10 Computer Science
+
+77. What does the "S" in HTTPS stand for?
+(a) Simple (b) Server (c) Secure (d) Standard
+Answer: (c)
+Solution: Many candidates confuse it with "Server" or "Standard"; HTTPS means HyperText Transfer Protocol Secure, indicating encryption via TLS/SSL, so the answer is Secure.
+Source: CERT-In Advisory on Secure Browsing
+
+78. Which part of a URL identifies the specific resource on the server?
+(a) Port number (b) Domain name (c) Protocol (d) Path
+Answer: (d)
+Solution: The domain name locates the server, the protocol defines the method, but the path (after the domain) points to the exact file or resource, so the answer is Path.
+Source: Microsoft Learn — URL Structure
+
+79. What is the primary function of DNS?
+(a) Translate domain names to IP addresses (b) Assign IP addresses to devices (c) Encrypt web traffic (d) Manage browser cache
+Answer: (a)
+Solution: DHCP assigns IP addresses; DNS (Domain Name System) resolves human-readable domain names into machine-readable IP addresses, so the answer is Translate domain names to IP addresses.
+Source: NCERT Class 12 Computer Science
+
+80. Which of the following is a valid IPv4 address?
+(a) 10.0.0.1 (b) 192.168.1.256 (c) 256.1.1.1 (d) 172.16.300.5
+Answer: (a)
+Solution: Each octet in IPv4 must be 0–255; options (b), (c), and (d) contain values outside this range, so the answer is 10.0.0.1.
+Source: PYQ-style
+
+81. What does a browser cache store?
+(a) User passwords (b) Copies of web resources for faster loading (c) Browsing history only (d) Cookie encryption keys
+Answer: (b)
+Solution: Cache stores static resources (images, CSS, JS) locally to reduce load times; passwords and cookies are stored separately, so the answer is Copies of web resources for faster loading.
+Source: Microsoft Support — Browser Cache
+
+82. Which HTTP status code indicates "Not Found"?
+(a) 200 (b) 301 (c) 404 (d) 500
+Answer: (c)
+Solution: 200 is OK, 301 is Moved Permanently, 500 is Internal Server Error; 404 specifically means the requested resource was not found, so the answer is 404.
+Source: PYQ-style
+
+83. What is a cookie in the context of web browsing?
+(a) A type of browser extension (b) A script that runs on the server (c) A small text file stored by the browser to remember user data (d) An encrypted password file
+Answer: (c)
+Solution: Cookies are small text files websites place on the user's device to maintain session state or preferences; they are not scripts or extensions, so the answer is A small text file stored by the browser to remember user data.
+Source: RBI Cyber Security Guidelines
+
+84. Which protocol is used for sending email from a client to a server?
+(a) POP3 (b) IMAP (c) SMTP (d) HTTP
+Answer: (c)
+Solution: POP3 and IMAP are for retrieving email; SMTP (Simple Mail Transfer Protocol) handles outgoing mail submission, so the answer is SMTP.
+Source: NCERT Class 10 Computer Science
+
+85. What does the padlock icon in the browser address bar indicate?
+(a) The connection is encrypted with a valid TLS certificate (b) The website has no ads (c) The website is popular (d) The page loads faster
+Answer: (a)
+Solution: The padlock shows a valid TLS/SSL certificate and encrypted connection; it does not guarantee safety of content or speed, so the answer is The connection is encrypted with a valid TLS certificate.
+Source: CERT-In Advisory on Secure Browsing
+
+86. Which of the following is a search engine?
+(a) Outlook (b) Firefox (c) Chrome (d) Google
+Answer: (d)
+Solution: Chrome and Firefox are browsers; Outlook is an email client; Google is a search engine (though it also offers a browser), so the answer is Google.
+Source: PYQ-style
+
+87. What is the default port for HTTPS?
+(a) 443 (b) 80 (c) 21 (d) 25
+Answer: (a)
+Solution: Port 80 is HTTP, 21 is FTP, 25 is SMTP; 443 is the standard port for HTTPS, so the answer is 443.
+Source: Microsoft Learn — Network Ports
+
+88. Which keyboard shortcut opens a new tab in most browsers on Windows?
+(a) Ctrl + N (b) Ctrl + W (c) Ctrl + Shift + T (d) Ctrl + T
+Answer: (d)
+Solution: Ctrl+N opens a new window, Ctrl+W closes the current tab, Ctrl+Shift+T reopens the last closed tab; Ctrl+T opens a new tab, so the answer is Ctrl + T.
+Source: Microsoft Support — Browser Shortcuts (Windows scope)
+
+89. What is phishing?
+(a) A fraudulent attempt to obtain sensitive information by disguising as trustworthy entity (b) A type of malware that encrypts files (c) A method to speed up internet connection (d) A browser feature to block ads
+Answer: (a)
+Solution: Ransomware encrypts files; phishing uses deceptive emails or sites to steal credentials; it is not a browser feature, so the answer is A fraudulent attempt to obtain sensitive information by disguising as trustworthy entity.
+Source: CERT-In Phishing Advisory
+
+90. Which of the following is NOT a top-level domain (TLD)?
+(a) .html (b) .org (c) .com (d) .in
+Answer: (a)
+Solution: .com, .org, .in are TLDs; .html is a file extension for web pages, not a domain suffix, so the answer is .html.
+Source: PYQ-style
+
+91. What does ISP stand for?
+(a) Integrated Security Policy (b) Internet Service Provider (c) Internal System Protocol (d) Internet Standard Protocol
+Answer: (b)
+Solution: ISP is the company that provides internet access to users; the other expansions are invented, so the answer is Internet Service Provider.
+Source: NCERT Class 10 Computer Science
+
+92. Which protocol provides secure file transfer over SSH?
+(a) FTP (b) TFTP (c) HTTP (d) SFTP
+Answer: (d)
+Solution: FTP is unencrypted, TFTP is trivial/unsecured, HTTP is for web; SFTP (SSH File Transfer Protocol) runs over SSH for security, so the answer is SFTP.
+Source: Microsoft Learn — File Transfer Protocols
+
+93. What is the function of a browser's "Incognito" or "Private" mode?
+(a) Makes you anonymous on the internet (b) Prevents the browser from saving history, cookies, and form data locally (c) Encrypts all your traffic (d) Blocks all trackers automatically
+Answer: (b)
+Solution: Private mode only avoids local storage of history/cookies; it does not hide IP from ISP or websites, nor encrypt traffic beyond HTTPS, so the answer is Prevents the browser from saving history, cookies, and form data locally.
+Source: Microsoft Support — InPrivate Browsing
+
+94. Which of the following is a valid email address format?
+(a) user@domain (b) user@domain.com (c) userdomain.com (d) @user.domain.com
+Answer: (b)
+Solution: An email requires local-part, @ symbol, and a domain with at least one dot (TLD); (a) lacks TLD, (c) lacks @, (d) starts with @, so the answer is user@domain.com.
+Source: PYQ-style
+
+95. What does URL stand for?
+(a) Uniform Resource Locator (b) Universal Resource Locator (c) Unified Resource Link (d) Universal Reference Link
+Answer: (a)
+Solution: The standard term is Uniform Resource Locator; "Universal" is a common misremembering, so the answer is Uniform Resource Locator.
+Source: NCERT Class 10 Computer Science
+
+96. A user receives an email claiming to be from their bank asking to verify account details via a link. This is most likely:
+(a) A legitimate security check (b) A phishing attempt (c) A software update notification (d) Spam advertising
+Answer: (b)
+Solution: Banks never ask for credentials via email links; this is a classic phishing tactic to steal login details, so the answer is A phishing attempt.
+Source: RBI Cyber Security Awareness
+
+97. Which component of a computer connects it to the internet via a telephone line?
+(a) NIC (b) Modem (c) Router (d) Switch
+Answer: (b)
+Solution: NIC connects to LAN, router/switch manage network traffic; a modem (modulator-demodulator) converts digital signals for telephone lines, so the answer is Modem.
+Source: NCERT Class 10 Computer Science
+
+98. What is the purpose of an SSL/TLS certificate?
+(a) To increase website loading speed (b) To block malicious scripts (c) To verify website identity and enable encrypted communication (d) To store user passwords securely
+Answer: (c)
+Solution: Certificates authenticate the server and establish encrypted sessions; they do not speed up loading, store passwords, or block scripts directly, so the answer is To verify website identity and enable encrypted communication.
+Source: CERT-In Advisory on SSL/TLS
+
+99. What does the Ctrl + F5 keyboard shortcut do in most Windows browsers?
+(a) Opens a new private window (b) Closes the current tab (c) Opens the downloads page (d) Reloads the current page bypassing the cache
+Answer: (d)
+Solution: Ctrl+F5 triggers a hard reload, forcing the browser to fetch fresh copies of all resources from the server instead of using cached versions; Ctrl+Shift+T reopens closed tabs, Ctrl+N opens a new window, and Ctrl+J opens downloads, so the answer is Reloads the current page bypassing the cache.
+Source: Microsoft Support — Browser Shortcuts (Windows scope)
+
+100. A website uses HSTS (HTTP Strict Transport Security). What does this enforce?
+(a) All subdomains must use HTTP (b) Cookies must be encrypted (c) Browsers must only connect via HTTPS for a specified period (d) The site must use HTTP/2
+Answer: (c)
+Solution: HSTS is a response header telling browsers to access the site only over HTTPS for the max-age duration, preventing downgrade attacks; it does not mandate HTTP/2 or cookie encryption directly, so the answer is Browsers must only connect via HTTPS for a specified period.
+Source: Microsoft Learn — HSTS

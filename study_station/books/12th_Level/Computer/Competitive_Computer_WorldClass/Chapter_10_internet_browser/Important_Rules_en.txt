@@ -1,0 +1,130 @@
+**15 Important Rules — Internet and Browsers**
+
+---
+
+**Rule 1 — URL Structure**  
+A Uniform Resource Locator (URL) has the form `scheme://host[:port]/path[?query][#fragment]`.  
+*Example:* `https://www.incometax.gov.in:443/portal/login?lang=en#section1` — scheme `https`, host `www.incometax.gov.in`, port `443`, path `/portal/login`, query `lang=en`, fragment `section1`.  
+*Exception:* Port is omitted when it equals the scheme's default (80 for HTTP, 443 for HTTPS).
+
+---
+
+**Rule 2 — HTTP vs HTTPS**  
+HTTPS = HTTP over TLS/SSL. It encrypts data in transit and authenticates the server via a digital certificate.  
+*Example:* Banking sites (RBI-mandated) use HTTPS; a plain HTTP site sends credentials in clear text.  
+*Exception:* Local development (`http://localhost`) and some intranet sites may use HTTP, but public-facing government portals must use HTTPS per CERT-In guidelines.
+
+---
+
+**Rule 3 — Domain Name System (DNS)**  
+DNS resolves domain names to IP addresses. Hierarchy: root → TLD (`.in`) → second-level (`gov`) → third-level (`incometax`) → subdomain (`www`).  
+*Example:* `www.uidai.gov.in` resolves to an IPv4/IPv6 address via recursive query.  
+*Exception:* Hosts file (`C:\Windows\System32\drivers\etc\hosts` on Windows) can override DNS locally.
+
+---
+
+**Rule 4 — Browser Cache and Cookies**  
+Cache stores static resources (images, CSS, JS) to speed up repeat visits. Cookies store small key-value pairs sent with every request to the same domain.  
+*Example:* Session cookie keeps you logged in to `epfindia.gov.in`; cache avoids re-downloading the logo.  
+*Exception:* `Cache-Control: no-store` prevents caching; `HttpOnly` and `Secure` flags protect cookies from script access and enforce HTTPS-only transmission.
+
+---
+
+**Rule 5 — Same-Origin Policy (SOP)**  
+Scripts from one origin (scheme + host + port) cannot read responses from another origin unless the server explicitly allows it via CORS headers.  
+*Example:* A script on `https://bank.example.com` cannot fetch `https://api.other.com/data` unless `api.other.com` sends `Access-Control-Allow-Origin: https://bank.example.com`.  
+*Exception:* `<script src="…">`, `<img>`, `<link rel="stylesheet">` are exempt (they load resources but do not expose response content to scripts).
+
+---
+
+**Rule 6 — TLS Certificate Validation**  
+Browsers trust certificates issued by CAs in the OS/browser root store. Validation checks: signature chain, expiry, revocation (CRL/OCSP), hostname match (SAN/CN).  
+*Example:* `https://www.incometax.gov.in` presents a certificate issued by a trusted CA (e.g., DigiCert) with SAN `www.incometax.gov.in`.  
+*Exception:* Self-signed certificates trigger a warning; enterprise MITM proxies install a custom root CA on managed devices.
+
+---
+
+**Rule 7 — HTTP Methods**  
+`GET` retrieves, `POST` submits, `PUT`/`PATCH` updates, `DELETE` removes. `GET` must be safe (no side-effects) and idempotent.  
+*Example:* Search uses `GET`; login form uses `POST`.  
+*Exception:* Some legacy APIs use `POST` for search to avoid URL length limits — this violates REST semantics but occurs in practice.
+
+---
+
+**Rule 8 — Status Codes**  
+`2xx` success, `3xx` redirection, `4xx` client error, `5xx` server error. Common: `200 OK`, `301 Moved Permanently`, `302 Found`, `400 Bad Request`, `401 Unauthorized`, `403 Forbidden`, `404 Not Found`, `500 Internal Server Error`, `502 Bad Gateway`, `503 Service Unavailable`.  
+*Example:* `301` tells browsers/search engines to update bookmarks; `302` is temporary.  
+*Exception:* `307 Temporary Redirect` and `308 Permanent Redirect` preserve the request method (unlike `302`/`301` which may change `POST` to `GET`).
+
+---
+
+**Rule 9 — Browser Rendering Pipeline**  
+HTML → DOM, CSS → CSSOM, combine → Render Tree → Layout → Paint → Composite. JavaScript can block parsing unless `async`/`defer` used.  
+*Example:* `<script src="app.js" defer>` executes after HTML parsing but before `DOMContentLoaded`.  
+*Exception:* `async` scripts execute as soon as downloaded, order not guaranteed.
+
+---
+
+**Rule 10 — Web Storage (localStorage / sessionStorage)**  
+`localStorage` persists until explicitly cleared (≈5 MB per origin). `sessionStorage` clears when the tab closes. Both are synchronous, same-origin, not sent with HTTP requests.  
+*Example:* Save user preference `theme=dark` in `localStorage`; store multi-step form data in `sessionStorage`.  
+*Exception:* Private/incognito mode may impose lower quotas or clear on close.
+
+---
+
+**Rule 11 — Service Workers and Offline Support**  
+A service worker (registered via `navigator.serviceWorker.register('/sw.js')`) intercepts network requests, enabling caching strategies (Cache-First, Network-First, Stale-While-Revalidate) and push notifications. Requires HTTPS (or localhost).  
+*Example:* `https://digilocker.gov.in` caches shell assets for offline access.  
+*Exception:* Service workers do not run in private browsing on some browsers; scope limited to registration path.
+
+---
+
+**Rule 12 — Content Security Policy (CSP)**  
+HTTP header `Content-Security-Policy` restricts sources for scripts, styles, images, fonts, frames, etc., mitigating XSS.  
+*Example:* `Content-Security-Policy: default-src 'self'; script-src 'self' https://cdn.gov.in;` allows scripts only from same origin and `cdn.gov.in`.  
+*Exception:* `'unsafe-inline'` and `'unsafe-eval'` weaken protection but are sometimes needed for legacy code.
+
+---
+
+**Rule 13 — Keyboard Shortcuts — Windows / Browser Distinction**  
+*Windows/OS level:* `Win+D` (show desktop), `Win+E` (File Explorer), `Alt+Tab` (switch apps), `Ctrl+Shift+Esc` (Task Manager).  
+*Browser level (Chrome/Edge/Firefox on Windows):* `Ctrl+T` (new tab), `Ctrl+W` (close tab), `Ctrl+Shift+T` (reopen closed tab), `Ctrl+Tab` / `Ctrl+Shift+Tab` (next/prev tab), `Ctrl+L` / `Alt+D` / `F6` (focus address bar), `Ctrl+H` (history), `Ctrl+J` (downloads), `Ctrl+Shift+Del` (clear browsing data), `F5` / `Ctrl+R` (reload), `Ctrl+F5` / `Shift+F5` (hard reload bypassing cache), `F11` (fullscreen), `Ctrl++` / `Ctrl+-` / `Ctrl+0` (zoom).  
+*Mac:* Replace `Ctrl` with `⌘ Cmd` for browser shortcuts; `Ctrl+Tab` works same.  
+*Exception:* Some shortcuts differ by browser (e.g., `Ctrl+Shift+N` opens incognito in Chrome/Edge, private window in Firefox).
+
+---
+
+**Rule 14 — Phishing and Security Indicators**  
+Check: HTTPS lock icon, domain spelling (e.g., `incometax.gov.in` vs `incometax-gov.in`), no unexpected redirects. CERT-In advisories warn against clicking unsolicited links.  
+*Example:* `https://www.sbi.co.in` (legitimate) vs `https://sbi.login.phishersite.com` (phishing).  
+*Exception:* Attackers can obtain valid DV certificates for lookalike domains; certificate alone does not guarantee legitimacy.
+
+---
+
+**Rule 15 — Privacy: Do Not Track, Third-Party Cookies, and Fingerprinting**  
+`DNT: 1` header signals preference (non-binding). Browsers now block third-party cookies by default (Chrome 2024+, Firefox, Safari). Fingerprinting (canvas, fonts, battery, WebGL) identifies users without cookies.  
+*Example:* `https://pan.incometax.gov.in` sets first-party cookies; an embedded analytics script from `analytics.gov.in` would be third-party if domain differs.  
+*Exception:* First-party isolation (Firefox) and Storage Access API allow controlled cross-origin storage when user interacts.
+
+---
+
+**Quick Reference Table — Common Browser Shortcuts (Windows)**
+
+| Action | Shortcut |
+|---|---|
+| New Tab | `Ctrl+T` |
+| Close Tab | `Ctrl+W` |
+| Reopen Closed Tab | `Ctrl+Shift+T` |
+| Next / Previous Tab | `Ctrl+Tab` / `Ctrl+Shift+Tab` |
+| Focus Address Bar | `Ctrl+L` / `Alt+D` / `F6` |
+| Reload | `F5` / `Ctrl+R` |
+| Hard Reload (bypass cache) | `Ctrl+F5` / `Shift+F5` |
+| Find in Page | `Ctrl+F` |
+| History | `Ctrl+H` |
+| Downloads | `Ctrl+J` |
+| Clear Browsing Data | `Ctrl+Shift+Del` |
+| Fullscreen | `F11` |
+| Zoom In / Out / Reset | `Ctrl++` / `Ctrl+-` / `Ctrl+0` |
+| Developer Tools | `F12` / `Ctrl+Shift+I` |
+
+*Source: Microsoft Learn (Edge shortcuts), Mozilla Developer Network (Firefox shortcuts), Chromium documentation.*

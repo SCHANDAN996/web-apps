@@ -1,0 +1,149 @@
+126. What does HTTP stand for?
+(a) High Transfer Text Protocol (b) HyperText Transfer Protocol (c) Hyperlink Transfer Text Protocol (d) Home Tool Transfer Protocol
+Answer: (b)
+Solution: Many candidates confuse the expansion with similar sounding phrases; the correct expansion is HyperText Transfer Protocol, so the answer is HyperText Transfer Protocol.
+Source: PYQ-style
+
+127. Which protocol provides secure communication over the internet?
+(a) HTTP (b) FTP (c) SMTP (d) HTTPS
+Answer: (d)
+Solution: A common trap is to select HTTP because it is more familiar; the secure version uses encryption, so the answer is HTTPS.
+Source: PYQ-style
+
+128. What is the default port number for HTTPS?
+(a) 80 (b) 443 (c) 21 (d) 25
+Answer: (b)
+Solution: Port 80 is often mistakenly chosen for secure traffic; the standard port for HTTPS is 443, so the answer is 443.
+Source: PYQ-style
+
+129. Which component translates domain names to IP addresses?
+(a) URL (b) DHCP (c) DNS (d) ISP
+Answer: (c)
+Solution: DHCP assigns IP addresses dynamically, but name resolution is performed by DNS, so the answer is DNS.
+Source: PYQ-style
+
+130. What does URL stand for?
+(a) Uniform Resource Locator (b) Universal Resource Link (c) Uniform Reference Locator (d) Unique Resource Locator
+Answer: (a)
+Solution: The term "Universal" is a frequent distractor; the standard definition is Uniform Resource Locator, so the answer is Uniform Resource Locator.
+Source: PYQ-style
+
+131. Which part of a URL identifies the protocol used?
+(a) query (b) host (c) path (d) scheme
+Answer: (d)
+Solution: The host specifies the server, while the scheme indicates the protocol such as http or https, so the answer is scheme.
+Source: PYQ-style
+
+132. What is the function of a web browser's cache?
+(a) Store user passwords (b) Encrypt data transmission (c) Manage cookies (d) Store copies of web resources for faster loading
+Answer: (d)
+Solution: Cookies handle session data, but the cache stores resource copies to speed up subsequent visits, so the answer is Store copies of web resources for faster loading.
+Source: PYQ-style
+
+133. Which HTTP status code indicates a successful request?
+(a) 500 (b) 404 (c) 200 (d) 301
+Answer: (c)
+Solution: 404 signals not found and 500 signals server error; 200 means OK, so the answer is 200.
+Source: PYQ-style
+
+134. What does the term "IP address" refer to?
+(a) Internet Protocol address (b) Internal Process address (c) Internet Provider address (d) Interface Port address
+Answer: (a)
+Solution: The acronym IP stands for Internet Protocol, not Internal Process, so the answer is Internet Protocol address.
+Source: PYQ-style
+
+135. Which protocol is used for sending emails?
+(a) SMTP (b) FTP (c) HTTP (d) POP3
+Answer: (a)
+Solution: POP3 retrieves mail, while SMTP is used for sending, so the answer is SMTP.
+Source: PYQ-style
+
+136. What is the purpose of a cookie in web browsing?
+(a) Encrypt network traffic (b) Store user preferences and session data (c) Cache images (d) Resolve domain names
+Answer: (b)
+Solution: Caching and encryption are separate mechanisms; cookies specifically hold session and preference data, so the answer is Store user preferences and session data.
+Source: PYQ-style
+
+137. Which of the following is a valid top‑level domain?
+(a) .local (b) .com (c) .home (d) .internal
+Answer: (b)
+Solution: .local, .home, .internal are reserved for private networks; .com is a public top‑level domain, so the answer is .com.
+Source: PYQ-style
+
+138. What does the "S" in HTTPS stand for?
+(a) System (b) Standard (c) Simple (d) Secure
+Answer: (d)
+Solution: The S denotes the secure layer provided by TLS/SSL, so the answer is Secure.
+Source: PYQ-style
+
+139. Which organization manages the global DNS root zone?
+(a) ICANN (b) IEEE (c) W3C (d) IETF
+Answer: (a)
+Solution: IEEE and IETF develop standards, but ICANN coordinates the DNS root, so the answer is ICANN.
+Source: PYQ-style
+
+140. What is the maximum length of a standard IPv4 address in dotted‑decimal notation?
+(a) 45 characters (b) 32 characters (c) 15 characters (d) 64 characters
+Answer: (c)
+Solution: IPv4 addresses have four octets separated by three dots, maximum 15 characters, so the answer is 15 characters.
+Source: PYQ-style
+
+141. Which HTTP method is used to retrieve a resource without modifying it?
+(a) DELETE (b) POST (c) PUT (d) GET
+Answer: (d)
+Solution: POST, PUT, DELETE imply changes; GET is defined as safe and idempotent, so the answer is GET.
+Source: PYQ-style
+
+142. What is the role of a proxy server?
+(a) Host websites (b) Assign IP addresses (c) Encrypt email (d) Act as an intermediary for client requests
+Answer: (d)
+Solution: DHCP assigns addresses, while a proxy forwards requests on behalf of clients, so the answer is Act as an intermediary for client requests.
+Source: PYQ-style
+
+143. Which of the following is a characteristic of a stateless protocol?
+(a) No client context is stored between requests (b) Maintains session data on server (c) Requires persistent connection (d) Uses cookies for authentication
+Answer: (a)
+Solution: Stateless means each request is independent; session data and cookies add state, so the answer is No client context is stored between requests.
+Source: PYQ-style
+
+144. What does the term "bandwidth" refer to in networking?
+(a) Number of connected devices (b) Physical cable length (c) Maximum data transfer rate (d) Latency measurement
+Answer: (c)
+Solution: Bandwidth is the capacity for data throughput, not physical length or latency, so the answer is Maximum data transfer rate.
+Source: PYQ-style
+
+145. Which protocol provides remote terminal access over a network?
+(a) SSH (b) HTTP (c) FTP (d) DNS
+Answer: (a)
+Solution: HTTP and FTP serve web and file transfer; SSH is designed for secure remote shell, so the answer is SSH.
+Source: PYQ-style
+
+146. In a URL, which component follows the domain name and precedes the query string?
+(a) scheme (b) fragment (c) path (d) port
+Answer: (c)
+Solution: The path identifies the resource location; fragment comes after query, scheme precedes domain, port is part of authority, so the answer is path.
+Source: PYQ-style
+
+147. What is the primary purpose of the TLS handshake?
+(a) Resolve domain names (b) Compress data before transmission (c) Authenticate the server and negotiate encryption keys (d) Cache static assets
+Answer: (c)
+Solution: Compression and caching are separate; the handshake establishes trust and keys, so the answer is Authenticate the server and negotiate encryption keys.
+Source: PYQ-style
+
+148. Which of the following is NOT a valid HTTP request header?
+(a) User-Agent (b) IP-Address (c) Host (d) Content-Type
+Answer: (b)
+Solution: IP-Address is not a standard header; the client IP is usually conveyed via X-Forwarded-For, so the answer is IP-Address.
+Source: PYQ-style
+
+149. What does the term "phishing" describe?
+(a) Fraudulent attempt to obtain sensitive information by masquerading as trustworthy entity (b) Network attack that floods a server with traffic (c) Exploiting a software vulnerability (d) Intercepting unencrypted traffic
+Answer: (a)
+Solution: Flooding is DoS, vulnerability exploit is an exploit, interception is sniffing; phishing specifically uses deception, so the answer is Fraudulent attempt to obtain sensitive information by masquerading as trustworthy entity.
+Source: PYQ-style
+
+150. Which organization publishes the "OWASP Top 10" list of web application security risks?
+(a) NIST (b) OWASP (c) ISO (d) PCI DSS
+Answer: (b)
+Solution: NIST and ISO produce standards, but the Top 10 is an OWASP project, so the answer is OWASP.
+Source: PYQ-style

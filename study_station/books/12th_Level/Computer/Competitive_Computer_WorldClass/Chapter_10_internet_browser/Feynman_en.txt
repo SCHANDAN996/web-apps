@@ -1,0 +1,60 @@
+Internet and Browsers — Feynman Explanation
+
+Think of the internet as a massive postal network. Every device (computer, phone, server) has a unique address called an IP address — like a house number. When you type a website name (google.com), a system called DNS (Domain Name System) works like a phone directory: it translates the name into the IP address so your request reaches the right server.
+
+Your browser (Chrome, Edge, Firefox, Safari) is the postman. It sends an HTTP/HTTPS request to the server, receives HTML, CSS, and JavaScript files, and assembles them into the page you see. HTTPS adds a lock (encryption) so nobody can read or tamper with the letters in transit.
+
+A URL breaks down like this:
+https://www.example.com:443/path/page.html?query=value#section
+- https:// — protocol (secure HTTP)
+- www.example.com — hostname / fully qualified domain name (human-readable address); the domain name is example.com
+- :443 — port number (default for HTTPS)
+- /path/page.html — path to the resource on the server
+- ?query=value — parameters sent to the server
+- #section — fragment (browser scrolls to this part locally)
+
+Cookies are small notes the server leaves in your browser to remember you (login state, preferences). Cache stores copies of images, scripts, and stylesheets so revisiting a page is faster — like keeping frequently used forms in a desk drawer.
+
+Common browser shortcuts (work across Chrome, Edge, Firefox on Windows):
+- Ctrl+T — new tab
+- Ctrl+W — close tab
+- Ctrl+Shift+T — reopen last closed tab
+- Ctrl+L or F6 — jump to address bar
+- Ctrl+R / F5 — reload; Ctrl+Shift+R — hard reload (bypass cache)
+- Ctrl++ / Ctrl+- — zoom in/out; Ctrl+0 — reset zoom
+- Ctrl+H — history; Ctrl+J — downloads
+
+Windows shortcuts (OS-level, not browser):
+- Win+E — File Explorer
+- Win+D — show desktop
+- Win+L — lock PC
+- Alt+Tab — switch apps
+
+Office shortcuts (Word/Excel/PowerPoint):
+- Ctrl+S — save; Ctrl+P — print
+- Ctrl+C / Ctrl+X / Ctrl+V — copy/cut/paste
+- Ctrl+Z / Ctrl+Y — undo/redo
+
+Security basics:
+- Look for the padlock (HTTPS) before entering passwords or payments.
+- Never enter credentials on a page reached via an email link — type the address yourself.
+- Keep browser and OS updated; updates patch known vulnerabilities.
+- Use a reputable password manager; avoid reusing passwords.
+- Clear cache/cookies periodically on shared computers.
+
+Recall Questions
+
+1. What does DNS do, and why is it necessary?
+   Explanation: DNS translates human-readable domain names (example.com) into IP addresses (93.184.216.34) that computers use to route traffic. Without DNS, you would need to memorize numeric addresses for every site.
+
+2. How does HTTPS differ from HTTP?
+   Explanation: HTTPS wraps HTTP inside TLS/SSL encryption. It prevents eavesdropping and tampering by encrypting data between browser and server. The padlock icon indicates a valid certificate.
+
+3. What is the purpose of browser cache, and when might you clear it?
+   Explanation: Cache stores static resources (images, CSS, JS) locally to speed up repeat visits. Clear it when a site looks broken after an update, or on shared devices for privacy.
+
+4. Name three browser shortcuts that work in Chrome, Edge, and Firefox on Windows.
+   Explanation: Ctrl+T (new tab), Ctrl+W (close tab), Ctrl+Shift+T (reopen closed tab), Ctrl+L (address bar), Ctrl+R (reload). Any three correct.
+
+5. Why should you type a banking URL manually instead of clicking a link in an email?
+   Explanation: Email links can redirect to look-alike phishing sites (e.g., bank0famerica.com). Typing the known address ensures you reach the genuine server.

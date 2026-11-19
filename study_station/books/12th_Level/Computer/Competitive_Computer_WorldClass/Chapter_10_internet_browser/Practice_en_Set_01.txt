@@ -1,0 +1,149 @@
+1. What does the acronym "URL" stand for?
+(a) Universal Reference Link (b) Universal Resource Link (c) Uniform Reference Locator (d) Uniform Resource Locator
+Answer: (d)
+Solution: Many candidates confuse "Locator" with "Link" or "Reference"; the standard term defined in RFC 1738 is Uniform Resource Locator, so the answer is Uniform Resource Locator.
+Source: NCERT Class 10 Computer Science
+
+2. Which protocol is used for secure communication over the internet and is indicated by "https://" in a URL?
+(a) SSL/TLS (b) FTP (c) HTTP (d) SMTP
+Answer: (a)
+Solution: HTTPS uses SSL/TLS to encrypt HTTP traffic; HTTP alone is unencrypted, FTP is for file transfer, and SMTP is for email, so the answer is SSL/TLS.
+Source: Microsoft Learn
+
+3. What is the default port number for HTTPS?
+(a) 443 (b) 21 (c) 80 (d) 25
+Answer: (a)
+Solution: Port 80 is for HTTP, 21 for FTP, 25 for SMTP; HTTPS uses port 443 by default, so the answer is 443.
+Source: NCERT Class 12 Computer Science
+
+4. Which component of a browser interprets and executes JavaScript code?
+(a) JavaScript engine (b) Rendering engine (c) Networking layer (d) UI backend
+Answer: (a)
+Solution: The rendering engine (e.g., Blink, WebKit) handles HTML/CSS layout; the JavaScript engine (e.g., V8, SpiderMonkey) executes scripts, so the answer is JavaScript engine.
+Source: Microsoft Learn
+
+5. What does DNS primarily do?
+(a) Assigns IP addresses to devices (b) Encrypts web traffic (c) Translates domain names to IP addresses (d) Manages browser cache
+Answer: (c)
+Solution: DHCP assigns IP addresses; DNS resolves human-readable domain names to numeric IP addresses, so the answer is Translates domain names to IP addresses.
+Source: NCERT Class 10 Computer Science
+
+6. In a URL "https://www.example.com:8080/path/page.html?query=1#section", which part is the port number?
+(a) 80 (b) 443 (c) 8080 (d) 21
+Answer: (c)
+Solution: The port appears after the domain separated by a colon; 443 is the default HTTPS port (not shown), 80 is default HTTP, 21 is FTP, so the answer is 8080.
+Source: PYQ-style
+
+7. Which of the following is a valid top-level domain (TLD)?
+(a) .html (b) .com (c) .http (d) .www
+Answer: (b)
+Solution: .html is a file extension, .http is a protocol, .www is a subdomain prefix; .com is a generic TLD, so the answer is .com.
+Source: NCERT Class 10 Computer Science
+
+8. What is the function of a browser's cache?
+(a) Stores passwords securely (b) Blocks malicious websites (c) Saves copies of web resources for faster loading (d) Manages bookmarks
+Answer: (c)
+Solution: Password managers store credentials; cache stores static resources (images, CSS, JS) locally to reduce download time on revisits, so the answer is Saves copies of web resources for faster loading.
+Source: Microsoft Learn
+
+9. Which keyboard shortcut reloads the current page in most Windows browsers?
+(a) Ctrl+R (b) Ctrl+Shift+R (c) F5 (d) Both (a) and (c)
+Answer: (d)
+Solution: Ctrl+R and F5 both trigger a normal reload; Ctrl+Shift+R forces a hard reload bypassing cache, so the answer is Both (a) and (c).
+Source: Microsoft Support
+
+10. What does the "S" in HTTPS stand for?
+(a) Server (b) Socket (c) Standard (d) Secure
+Answer: (d)
+Solution: HTTPS = HyperText Transfer Protocol Secure; the S denotes the secure (encrypted) layer, so the answer is Secure.
+Source: NCERT Class 12 Computer Science
+
+11. Which protocol is used to send email from a client to a server?
+(a) SMTP (b) IMAP (c) POP3 (d) HTTP
+Answer: (a)
+Solution: POP3 and IMAP retrieve email from a server; SMTP (Simple Mail Transfer Protocol) sends outgoing mail, so the answer is SMTP.
+Source: NCERT Class 10 Computer Science
+
+12. What is an IP address?
+(a) A browser version number (b) A domain name (c) A unique identifier for a network interface (d) A type of cookie
+Answer: (c)
+Solution: Domain names are human-readable aliases; IP addresses (IPv4/IPv6) uniquely identify each network interface, so the answer is A unique identifier for a network interface.
+Source: NCERT Class 12 Computer Science
+
+13. Which of the following is NOT a web browser?
+(a) Chrome (b) Firefox (c) Edge (d) Outlook
+Answer: (d)
+Solution: Outlook is an email client (and personal information manager); Chrome, Firefox, and Edge are web browsers, so the answer is Outlook.
+Source: PYQ-style
+
+14. What does a "cookie" do in the context of web browsing?
+(a) Encrypts the connection (b) Stores small data on the user's device for session tracking (c) Blocks pop-up ads (d) Compresses images
+Answer: (b)
+Solution: Cookies are small text files stored by the browser to remember state (login, preferences); they do not encrypt, block ads, or compress images, so the answer is Stores small data on the user's device for session tracking.
+Source: Microsoft Learn
+
+15. Which part of the URL "https://user:pass@sub.example.com:8080/path?query#frag" is the hostname?
+(a) https (b) example.com (c) user:pass@sub.example.com (d) sub.example.com
+Answer: (d)
+Solution: The hostname includes subdomain and domain (sub.example.com); the full authority includes credentials and port, but hostname alone is sub.example.com, so the answer is sub.example.com.
+Source: PYQ-style
+
+16. What is the purpose of a search engine's "crawler" (or "spider")?
+(a) To discover and index web pages (b) To rank pages by relevance (c) To display ads (d) To encrypt search queries
+Answer: (a)
+Solution: Ranking is done by algorithms after indexing; the crawler systematically visits pages to build the index, so the answer is To discover and index web pages.
+Source: NCERT Class 10 Computer Science
+
+17. Which of the following indicates a secure website in the browser address bar?
+(a) A padlock icon (b) A green shield (c) The word "Safe" (d) A red warning triangle
+Answer: (a)
+Solution: Modern browsers show a padlock for valid TLS certificates; a red triangle warns of issues, green shield is not standard, so the answer is A padlock icon.
+Source: Microsoft Support
+
+18. What does "IPv6" improve over IPv4?
+(a) Larger address space (b) Faster speed (c) Better encryption (d) Lower latency
+Answer: (a)
+Solution: IPv6 uses 128-bit addresses (vs 32-bit) to provide vastly more addresses; speed, encryption, and latency are not inherent improvements, so the answer is Larger address space.
+Source: NCERT Class 12 Computer Science
+
+19. In browser tabs, what does Ctrl+W do on Windows?
+(a) Opens a new tab (b) Reopens the last closed tab (c) Closes the current tab (d) Switches to the next tab
+Answer: (c)
+Solution: Ctrl+T opens new tab, Ctrl+Shift+T reopens closed tab, Ctrl+Tab switches tabs; Ctrl+W closes the current tab, so the answer is Closes the current tab.
+Source: Microsoft Support
+
+20. What is "phishing"?
+(a) A type of malware that encrypts files (b) A fraudulent attempt to obtain sensitive information by disguising as trustworthy (c) A network attack that floods a server (d) A method to speed up browsing
+Answer: (b)
+Solution: Ransomware encrypts files; DDoS floods servers; phishing uses deceptive emails/sites to steal credentials, so the answer is A fraudulent attempt to obtain sensitive information by disguising as trustworthy.
+Source: CERT-In Advisory
+
+21. Which HTTP status code indicates "Not Found"?
+(a) 200 (b) 404 (c) 301 (d) 500
+Answer: (b)
+Solution: 200 = OK, 301 = Moved Permanently, 500 = Internal Server Error; 404 is the standard code for resource not found, so the answer is 404.
+Source: NCERT Class 12 Computer Science
+
+22. What is the main difference between symmetric and asymmetric encryption?
+(a) Symmetric is faster but less secure (b) Symmetric uses one key; asymmetric uses a key pair (c) Asymmetric is used only for email (d) Symmetric requires a certificate authority
+Answer: (b)
+Solution: Symmetric encryption uses a single shared key; asymmetric uses public/private key pair. Speed and usage are secondary characteristics, not the defining difference, so the answer is Symmetric uses one key; asymmetric uses a key pair.
+Source: Microsoft Learn
+
+23. In the OSI model, at which layer does HTTP operate?
+(a) Transport (b) Application (c) Network (d) Session
+Answer: (b)
+Solution: HTTP is an application-layer protocol; TCP (Transport) and IP (Network) are lower layers; Session layer manages dialogues, so the answer is Application.
+Source: NCERT Class 12 Computer Science
+
+24. What does the "Same-Origin Policy" restrict in browsers?
+(a) Cookies from being sent to third-party domains (b) HTTPS sites from loading HTTP resources (c) Users from opening multiple tabs (d) Scripts from one origin accessing data from another origin
+Answer: (d)
+Solution: SOP prevents malicious scripts on one origin (scheme+host+port) from reading responses of another origin; it does not block cookie sending (that's SameSite), tab opening, or mixed content (that's mixed-content policy), so the answer is Scripts from one origin accessing data from another origin.
+Source: Microsoft Learn
+
+25. Which of the following best describes a "CDN" (Content Delivery Network)?
+(a) A network that filters malicious traffic (b) A protocol for secure file transfer (c) A distributed server system that delivers content from locations closer to the user (d) A database of domain names
+Answer: (c)
+Solution: WAFs filter traffic; SFTP/FTPS are secure transfer protocols; DNS is the domain database; CDN caches content at edge servers geographically near users to reduce latency, so the answer is A distributed server system that delivers content from locations closer to the user.
+Source: PYQ-style
