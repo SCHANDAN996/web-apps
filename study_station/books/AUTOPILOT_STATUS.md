@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 12:44 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
+**आख़िरी update:** 20-11-2026 12:59 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 10 internet browser (12th Computer) | ✍️ लिख रहा है | 38 मिनट |
-| W2 | Chapter 10 paryayvachi (10th Hindi) | 🔎 review हो रहा है | 50 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 247 मिनट |
-| W4 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 57 मिनट |
+| W1 | Chapter 10 internet browser (12th Computer) | ✍️ लिख रहा है | 53 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 262 मिनट |
+| W4 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 73 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 119 |
-| key 4 | 122 |
+| key 3 | 129 |
+| key 4 | 128 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -54,21 +53,11 @@
 
 - Chapter 08 samas (Hindi) — 2 बार
 - Chapter 09 upsarg pratyay (Hindi) — 1 बार
+- Chapter 10 paryayvachi (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 23:48:11   [paryayvachi] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q124 key d vs re-solve c)
-19-11 23:52:29   [paryayvachi] wrote Practice_hi_Set_05.txt (write, 25 MCQs)
-19-11 23:54:06   [paryayvachi] wrote Practice_hi_Set_06.txt (write, 25 MCQs)
-19-11 23:54:06   [paryayvachi] written 13, failed 0; AI calls today 191/100000
-19-11 23:57:42   [sandhi] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q54 key b vs re-solve c, Q56 key b vs re-solve a, Q58 key d vs re-solve a, Q59 key c vs re-solve b, 
-19-11 23:57:42   [sandhi] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
-19-11 23:58:39   [upsarg_pratyay] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q5 key b vs re-solve a, Q11 key c vs re-solve a, Q18 key a vs re-solve d, Q19 key d vs re-solve b, Q
-19-11 23:58:46   [sandhi] Practice_hi_Set_05.txt try 1: rejected (parsed 24 questions, numbers 101…125)
-20-11 00:01:28   [varn_vartani] review Important_Rules_hi.txt round 1: 2 issue(s): - Point 5: The rule “स्वर के नासिक्य उच्चारण पर भी बिन्दु (ं) ही मान्य” is contradicted by the exam
-20-11 00:02:36   [sandhi] Practice_hi_Set_05.txt try 2: rejected (Q101:duplicate_options,Q103:duplicate_options,Q105:duplicate_options,Q107:duplicate_options,Q109:duplicate_opt
-20-11 00:03:28   [upsarg_pratyay] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q8 key a vs re-solve b, Q16 key a vs re-solve b, Q18 key b vs re-solve d, Q20 key a vs re-solve c, Q
 20-11 00:05:40   [varn_vartani] review: 1 section(s) corrected, 0 failed
 20-11 00:05:40   [varn_vartani] written 1, failed 0; AI calls today 6/100000
 20-11 00:06:05 DONE 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani in 41 min → f466dde7
@@ -98,4 +87,15 @@
 20-11 00:43:34   [paryayvachi] review Flashcards_hi.txt round 2: 1 issue(s): - Card 10 lists "अनिल" twice as a synonym for "वायु" → remove the duplicate "अनिल"
 20-11 00:44:03   [upsarg_pratyay] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q43 key d vs re-solve ?, Q49 key a vs re-solve ?)
 20-11 00:44:12   [internet_browser] wrote Feynman_hi.txt (3160 chars)
+20-11 00:45:24   [paryayvachi] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 11: हुताशन की व्युत्पत्ति में 'अश्नु' गलत मूल है (सही मूल 'अश्' है) → हुताशन (हवि
+20-11 00:46:07   [paryayvachi] review PYQ_hi.txt round 1: 4 issue(s): - Pattern 6 example answer (b) प्रभात, उदय is wrong because प्रभात (dawn) is not a synonym of उदय (rise); corre
+20-11 00:49:46   [paryayvachi] review Important_Rules_hi.txt round 1: 12 issue(s): - In the synonym table, for "दन्त" the देशज/अन्य column lists "दंतक" which is not a standard Hindi
+20-11 00:52:34   [upsarg_pratyay] wrote Practice_hi_Set_02.txt (write, 25 MCQs)
+20-11 00:53:16   [paryayvachi] review Important_Rules_hi.txt round 2: 1 issue(s): - In Rule 15 table, the first row for 'फल' has third column 'परिणाम (अन्य अर्थ में)' while the mean
+20-11 00:54:26   [upsarg_pratyay] Practice_hi_Set_04.txt try 1: rejected (Q98:duplicate_options)
+20-11 00:56:44   [paryayvachi] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 2 example includes "बालकः" as a Hindi word-form; "बालकः" is a Sanskrit nomin
+20-11 00:56:44   [paryayvachi] review: 2 section(s) corrected, 4 failed
+20-11 00:56:44   [paryayvachi] written 2, failed 4; AI calls today 58/100000
+20-11 00:56:44 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_10_paryayvachi after 193 min: todo [] problems []
+20-11 00:56:44 worker 1: nothing left
 ```
