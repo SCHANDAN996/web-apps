@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 05:06 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
+**आख़िरी update:** 20-11-2026 05:21 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 183 मिनट |
-| W2 | Chapter 11 email (12th Computer) | ✍️ लिख रहा है | 145 मिनट |
-| W3 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 48 मिनट |
-| W4 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 28 मिनट |
+| W1 | Chapter 08 samas (10th Hindi) | 🔎 review हो रहा है | 6 मिनट |
+| W2 | Chapter 11 email (12th Computer) | ✍️ लिख रहा है | 160 मिनट |
+| W3 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 63 मिनट |
+| W4 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 43 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 114 |
-| key 4 | 91 |
+| key 3 | 125 |
+| key 4 | 97 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -52,25 +52,11 @@
 - Chapter 08 samas (Hindi) — 2 बार
 - Chapter 09 upsarg pratyay (Hindi) — 1 बार
 - Chapter 11 vilom (Hindi) — 1 बार
+- Chapter 07 sandhi (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 04:25:43   [email] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-20-11 04:27:08   [upsarg_pratyay] review Content_hi.txt round 1: 12 issue(s): - The claim "SSC GD, MTS, RRB Group D जैसी परीक्षाओं में इस विषय से प्रतिवर्ष 3–5 प्रश्न पूछे जाते हैं" is
-20-11 04:28:32   [paryayvachi] review Important_Rules_hi.txt round 1: 3 issue(s): - In the synonym table, the row for "धर्म" lists "धम्म" as the colloquial synonym; "धम्म" is a Pali
-20-11 04:29:13   [upsarg_pratyay] review Content_hi.txt round 2: 2 issue(s): - In the तद्धित प्रत्यय table, the example "बालपन" is given for suffix "-ता / -त्व", but "बालपन" is formed 
-20-11 04:30:55   [paryayvachi] review Important_Rules_hi.txt round 2: 2 issue(s): - Rule 15 table: “लेखक” row lists “रचयिता” under “प्रचलित/सहज” (common/colloquial) but “रचयिता” is 
-20-11 04:34:25   [upsarg_pratyay] REJECTED review fix Content_hi.txt: reviewer still reports - In the कृदंत प्रत्यय table (section 3.2 क), the suffix '-नीय' is incorrectly exemplified 
-20-11 04:35:10   [upsarg_pratyay] review Key_Facts_hi.txt round 1: 4 issue(s): - Point 6: Example “खेलकूद” for suffix changing word class is incorrect; “कूद” is a separate root, not a 
-20-11 04:36:31   [upsarg_pratyay] review Key_Facts_hi.txt round 2: 9 issue(s): - बिंदु 5 में उपसर्ग 'सु/दु' के उदाहरण "सुकार" और "दुकार" गलत हैं → सही उदाहरण: "सु + कर्म = सुकर्म", "दु
-20-11 04:37:38   [paryayvachi] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - In the table under नियम १५, the entry for 'लेखक' lists 'कर्ता' as a synonym, but 
-20-11 04:37:38   [paryayvachi] review: 0 section(s) corrected, 1 failed
-20-11 04:37:38   [paryayvachi] written 0, failed 1; AI calls today 172/100000
-20-11 04:37:38 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_10_paryayvachi after 16 min: todo [] problems []
-20-11 04:37:38   [sandhi] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q51 key d vs re-solve a, Q52 key d vs re-solve c, Q53 key d vs re-solve b, Q55 key b vs re-solve a, 
-20-11 04:37:38   [sandhi] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
-20-11 04:37:38 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_12_anekarthi_samshrut (TODO: todo 13, problems 0)
 20-11 04:37:39   [anekarthi_samshrut] Hindi-only writer: direct Hindi content; English generation and translation disabled
 20-11 04:38:48   [sandhi] Practice_hi_Set_05.txt try 1: rejected (Q101:duplicate_options,Q103:duplicate_options,Q104:duplicate_options,Q105:duplicate_options,Q106:duplicate_opt
 20-11 04:39:12   [upsarg_pratyay] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 6: The example 'लिख' + 'न' = 'लिखना' is labeled as a verb but the rule claims ver
@@ -96,4 +82,19 @@
 20-11 04:58:58   [sandhi] Practice_hi_Set_06.txt try 1: rejected (Q131:duplicate_options,Q133:duplicate_options,Q137:duplicate_options,Q143:duplicate_options,Q145:duplicate_opt
 20-11 04:59:21   [sandhi] Practice_hi_Set_06.txt try 2: rejected (Q137:duplicate_options,Q143:duplicate_options,Q149:duplicate_options)
 20-11 04:59:50   [anekarthi_samshrut] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q2 key a vs re-solve ?, Q7 key a vs re-solve d, Q13 key c vs re-solve ?, Q14 key d vs re-solve c, Q1
+20-11 05:06:15   [anekarthi_samshrut] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q6 key d vs re-solve b, Q13 key a vs re-solve c, Q14 key b vs re-solve c, Q21 key b vs re-solve c, Q
+20-11 05:07:15   [sandhi] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q126 key a vs re-solve c, Q128 key c vs re-solve ?, Q130 key c vs re-solve d, Q132 key d vs re-solve
+20-11 05:11:14   [anekarthi_samshrut] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q20 key a vs re-solve c, Q25 key b vs re-solve ?)
+20-11 05:11:14   [anekarthi_samshrut] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
+20-11 05:15:01   [sandhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q128 key d vs re-solve ?, Q130 key d vs re-solve c, Q132 key a vs re-solve b, Q134 key c vs re-solve
+20-11 05:15:01   [sandhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
+20-11 05:15:01   [sandhi] written 0, failed 5; AI calls today 211/100000
+20-11 05:15:02 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi after 193 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo'] problems []
+20-11 05:15:02 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas (OK: todo 0, problems 0)
+20-11 05:15:02   [samas] review Key_Facts_hi.txt: resumed private correction draft
+20-11 05:15:53   [upsarg_pratyay] review Mind_Map.txt round 2: 2 issue(s): - In node Q, the suffix “इया” listed under तद्धित प्रत्यय is not a standard तद्धित प्रत्यय; the correct suffi
+20-11 05:18:18   [email] Practice_en_Set_04.txt try 2: re-solve disagrees (Q86 key c vs re-solve a, Q91 key c vs re-solve b, Q92 key d vs re-solve b)
+20-11 05:18:40   [anekarthi_samshrut] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q28 key d vs re-solve c, Q44 key d vs re-solve a, Q49 key d vs re-solve c)
+20-11 05:19:54   [email] Practice_en_Set_04.txt try 3: re-solve disagrees (Q92 key d vs re-solve c)
+20-11 05:20:50   [samas] review Mind_Map.txt: resumed private correction draft
 ```
