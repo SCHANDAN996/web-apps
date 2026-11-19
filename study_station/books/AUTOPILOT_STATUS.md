@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 04:20 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
+**आख़िरी update:** 20-11-2026 04:35 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 137 मिनट |
-| W2 | Chapter 11 email (12th Computer) | ✍️ लिख रहा है | 99 मिनट |
-| W3 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 2 मिनट |
-| W4 | Chapter 11 vilom (10th Hindi) | ✍️ लिख रहा है | 115 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 153 मिनट |
+| W2 | Chapter 11 email (12th Computer) | ✍️ लिख रहा है | 114 मिनट |
+| W3 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 18 मिनट |
+| W4 | Chapter 10 paryayvachi (10th Hindi) | 🔎 review हो रहा है | 14 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 87 |
-| key 4 | 61 |
+| key 3 | 96 |
+| key 4 | 73 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -51,24 +51,11 @@
 - Chapter 10 paryayvachi (Hindi) — 1 बार
 - Chapter 08 samas (Hindi) — 2 बार
 - Chapter 09 upsarg pratyay (Hindi) — 1 बार
+- Chapter 11 vilom (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 03:33:38   [sandhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q41 key b vs re-solve c)
-20-11 03:35:47   [vilom] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q67 key b vs re-solve a, Q73 key b vs re-solve a)
-20-11 03:37:13   [vilom] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q74 key c vs re-solve a)
-20-11 03:40:41   [vilom] wrote Practice_hi_Set_03.txt (write, 25 MCQs)
-20-11 03:41:26   [vilom] Practice_hi_Set_04.txt try 1: rejected (parsed 24 questions, numbers 76…100)
-20-11 03:42:28   [vilom] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q82 key b vs re-solve d)
-20-11 03:47:24   [sandhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q38 key b vs re-solve a, Q39 key d vs re-solve a, Q40 key c vs re-solve a, Q44 key b vs re-solve d, 
-20-11 03:47:24   [sandhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
-20-11 03:47:52   [email] wrote Feynman_en.txt (4193 chars)
-20-11 03:47:53   [vilom] wrote Practice_hi_Set_04.txt (write, 25 MCQs)
-20-11 03:48:39   [email] wrote Feynman_hi.txt (2992 chars)
-20-11 03:48:47   [email] wrote Mind_Map.txt (1005 chars)
-20-11 03:49:28   [samas] review Mind_Map.txt round 1: 2 issue(s): - Under तत्पुरुष समास → द्विगु, example "द्वादश" is not a द्विगु समास (it is a numeral) → replace with a vali
-20-11 03:49:29   [email] wrote Flashcards_en.txt (3631 chars)
 20-11 03:51:43   [samas] review Mind_Map.txt round 2: 3 issue(s): - "उपकुल्म" is not a standard example of अव्ययीभाव समास (उपसर्गपूर्वक) → replace with a common example like "
 20-11 03:51:47   [email] wrote Flashcards_hi.txt (3735 chars)
 20-11 03:53:23   [email] wrote PYQ_en.txt (7980 chars)
@@ -95,4 +82,18 @@
 20-11 04:17:24   [upsarg_pratyay] wrote Practice_hi_Set_04.txt (write, 25 MCQs)
 20-11 04:17:24   [upsarg_pratyay] written 1, failed 0; AI calls today 147/100000
 20-11 04:19:22   [vilom] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q134 key b vs re-solve ?, Q136 key d vs re-solve ?, Q141 key b vs re-solve ?, Q142 key b vs re-solve
+20-11 04:21:18   [vilom] wrote Practice_hi_Set_06.txt (write, 25 MCQs)
+20-11 04:21:18   [vilom] written 12, failed 1; AI calls today 151/100000
+20-11 04:21:18 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_11_vilom after 117 min: todo ['Set 01 hi: todo'] problems []
+20-11 04:21:19 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_10_paryayvachi (OK: todo 0, problems 0)
+20-11 04:21:19   [paryayvachi] review Important_Rules_hi.txt: resumed private correction draft
+20-11 04:22:59   [email] Practice_en_Set_03.txt try 1: re-solve disagrees (Q68 key a vs re-solve c)
+20-11 04:25:21   [sandhi] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q52 key d vs re-solve c, Q55 key b vs re-solve a, Q60 key c vs re-solve a, Q66 key c vs re-solve a, 
+20-11 04:25:43   [email] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+20-11 04:27:08   [upsarg_pratyay] review Content_hi.txt round 1: 12 issue(s): - The claim "SSC GD, MTS, RRB Group D जैसी परीक्षाओं में इस विषय से प्रतिवर्ष 3–5 प्रश्न पूछे जाते हैं" is
+20-11 04:28:32   [paryayvachi] review Important_Rules_hi.txt round 1: 3 issue(s): - In the synonym table, the row for "धर्म" lists "धम्म" as the colloquial synonym; "धम्म" is a Pali
+20-11 04:29:13   [upsarg_pratyay] review Content_hi.txt round 2: 2 issue(s): - In the तद्धित प्रत्यय table, the example "बालपन" is given for suffix "-ता / -त्व", but "बालपन" is formed 
+20-11 04:30:55   [paryayvachi] review Important_Rules_hi.txt round 2: 2 issue(s): - Rule 15 table: “लेखक” row lists “रचयिता” under “प्रचलित/सहज” (common/colloquial) but “रचयिता” is 
+20-11 04:34:25   [upsarg_pratyay] REJECTED review fix Content_hi.txt: reviewer still reports - In the कृदंत प्रत्यय table (section 3.2 क), the suffix '-नीय' is incorrectly exemplified 
+20-11 04:35:10   [upsarg_pratyay] review Key_Facts_hi.txt round 1: 4 issue(s): - Point 6: Example “खेलकूद” for suffix changing word class is incorrect; “कूद” is a separate root, not a 
 ```
