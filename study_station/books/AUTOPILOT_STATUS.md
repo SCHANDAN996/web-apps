@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 02:00 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
+**आख़िरी update:** 20-11-2026 02:01 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W1 | Chapter 10 internet browser (12th Computer) | 📤 push हो रहा है | 0 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
@@ -58,8 +56,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 01:14:24   [internet_browser] wrote PYQ_en.txt (5876 chars)
-20-11 01:14:56   [internet_browser] wrote PYQ_hi.txt (5150 chars)
 20-11 01:15:34   [internet_browser] wrote Important_Rules_en.txt (8138 chars)
 20-11 01:16:15   [internet_browser] wrote Important_Rules_hi.txt (7040 chars)
 20-11 01:17:06   [internet_browser] 2026-11-19 19:47:06,670 WARNING NVIDIA rate_limited — retrying in 20s
@@ -98,4 +94,6 @@
 20-11 01:59:22   [internet_browser] review Important_Rules_hi.txt round 1: 2 issue(s): - In Rule 8, stating GET is only idempotent is incorrect → GET is both safe and idempotent
 20-11 02:00:20   [internet_browser] review: 7 section(s) corrected, 0 failed
 20-11 02:00:20   [internet_browser] written 7, failed 0; AI calls today 130/100000
+20-11 02:00:45 DONE 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_10_internet_browser in 114 min → 53018ac1
+20-11 02:00:45 worker 0: nothing left
 ```
