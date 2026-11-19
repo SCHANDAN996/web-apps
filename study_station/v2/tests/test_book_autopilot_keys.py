@@ -14,7 +14,14 @@ def test_active_workflow_excludes_disabled_secret_refs():
     assert '--workers 4' in workflow
     assert "NVIDIA_ACCOUNT_MIN_INTERVAL_SECONDS: '20'" in workflow
     assert "NVIDIA_MAX_INFLIGHT_PER_KEY: '1'" in workflow
-    assert 'BOOKGEN_RATE_POLICY: parallel-v2' in workflow
+    assert 'BOOKGEN_RATE_POLICY: parallel-v3' in workflow
+    assert workflow.count('${{ runner.temp }}/autopilot/reviewed.json') == 2
+    assert workflow.count('${{ runner.temp }}/autopilot/review-drafts') == 2
+    assert workflow.count('path: ${{ runner.temp }}/wip.tar.gz') == 2
+    assert workflow.count('key: book-review-${{ github.run_id }}') == 2
+    assert workflow.count('${{ runner.temp }}/autopilot/tracked-books.patch') == 3
+    assert workflow.count('${{ runner.temp }}/autopilot/tracked-conflicts') == 3
+    assert 'book_wip.py restore' in workflow and 'book_wip.py save' in workflow
     assert 'matrix' not in workflow
     assert 'NVIDIA_MIN_INTERVAL_SECONDS' in workflow
     assert "if: github.ref == 'refs/heads/main'" in workflow

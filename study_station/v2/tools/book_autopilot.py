@@ -404,7 +404,10 @@ class Pilot:
         lanes = sorted((bookcheck.BOOKS_ROOT / 'autopilot').glob('lane-*.md'))
         if self.status_file == STATUS_FILE and lanes:
             out += ['', '**बाकी साथ चल रहे runs:** ' + ' · '.join(f'[{l.stem}](autopilot/{l.name})' for l in lanes)]
-        out += ['', '## 📊 हर किताब की प्रगति', '', '| किताब | ✅ पूरे | 🔧 सुधार बाकी | 📝 लिखना बाकी |', '|---|---|---|---|']
+        out += ['', '## 📊 हर किताब की प्रगति', '',
+                'ये गिनती लेखन और `bookcheck` की प्रारंभिक जाँच की है। अंतिम editorial review पास होना अलग है; '
+                'सिर्फ़ इस तालिका से अध्याय को अंतिम स्वीकृत न मानें।', '',
+                '| किताब | प्रारंभिक जाँच पास | संरचना में सुधार बाकी | लिखना बाकी |', '|---|---|---|---|']
         total = Counter()
         for book in bookcheck.queue():
             c = Counter()

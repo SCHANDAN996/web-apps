@@ -30,7 +30,7 @@ def test_legacy_autopilot_rollover_preserves_work_and_ignores_new_or_manual_runs
     bookgen.request_legacy_autopilot_rollover(lambda *a: None)
     assert (state / 'STOP').exists()    # Hindi-only runner also needs to adopt the bounded parallel policy.
     (state / 'STOP').unlink()
-    monkeypatch.setenv('BOOKGEN_RATE_POLICY', 'parallel-v2')
+    monkeypatch.setenv('BOOKGEN_RATE_POLICY', 'parallel-v3')
     bookgen.request_legacy_autopilot_rollover(lambda *a: None)
     assert not (state / 'STOP').exists()
 
@@ -659,3 +659,222 @@ def test_hindi_native_system_overrides_generic_bilingual_rules(hindi_chapter, db
     assert bookgen.HINDI_ONLY_POLICY in seen[0][0] and bookgen.HINDI_WRITER in seen[0][1]
     mindmap = bookgen.section_request(hindi_chapter, 'Mind_Map.txt')
     assert 'only Hindi labels' in mindmap and 'Hindi (Devanagari) only' in mindmap
+
+
+def test_review_iterates_latest_candidate_and_remaining_issues(chapter, db, monkeypatch):
+    monkeypatch.delenv('BOOKGEN_REVIEW_CACHE', raising=False)
+    first = 'First correction about states and rivers. ' * 30
+    final = 'Second complete correction about states and rivers. ' * 30
+    asks, reviews = [], []
+
+    def reviewer(db, user):
+        reviews.append(user)
+        if final.strip() in user:
+            return 'OK'
+        return '- remaining date error → fix date' if first.strip() in user else '- initial name error → fix name'
+
+    def author(db, user):
+        asks.append(user)
+        return first if len(asks) == 1 else final
+
+    monkeypatch.setattr(bookgen, '_ask_review', reviewer)
+    monkeypatch.setattr(bookgen, '_ask', author)
+    assert bookgen.review(db, chapter, out=lambda *a: None) == (['Content_en.txt'], [])
+    assert len(asks) == 2 and len(reviews) == 3
+    assert first.strip() in asks[1] and 'remaining date error' in asks[1]
+    assert 'initial name error' not in asks[1]
+    assert (chapter / 'Content_en.txt').read_text() == final.strip() + '\n'
+
+
+def test_review_private_checkpoint_resumes_latest_draft_with_fresh_review(chapter, db, monkeypatch, tmp_path):
+    import json
+    cache = tmp_path / 'state' / 'reviewed.json'
+    monkeypatch.setenv('BOOKGEN_REVIEW_CACHE', str(cache))
+    first = 'First correction about states and rivers. ' * 30
+    second = 'Second correction about states and rivers. ' * 30
+    final = 'Final accepted correction about states and rivers. ' * 30
+    original = (chapter / 'Content_en.txt').read_text()
+    drafts = iter([first, second])
+    monkeypatch.setattr(bookgen, '_ask', lambda db, user: next(drafts))
+    monkeypatch.setattr(bookgen, '_ask_review', lambda db, user: '- remaining problem → repair it')
+    assert bookgen.review(db, chapter, out=lambda *a: None) == ([], ['Content_en.txt'])
+    assert (chapter / 'Content_en.txt').read_text() == original
+    checkpoint = next((cache.parent / 'review-drafts').glob('*.json'))
+    data = json.loads(checkpoint.read_text())
+    assert data['candidate'] == second.strip() + '\n' and data['approved'] is False
+    assert data['issues'] == ['- remaining problem → repair it']
+    assert checkpoint.stat().st_mode & 0o077 == 0  # private runner-state file, not a book artifact
+    assert not cache.exists()
+    asks, reviews = [], []
+    monkeypatch.setattr(bookgen, '_ask', lambda db, user: asks.append(user) or final)
+    monkeypatch.setattr(bookgen, '_ask_review', lambda db, user: reviews.append(user) or (
+        'OK' if final.strip() in user else '- newest remaining issue → finish it'))
+    assert bookgen.review(db, chapter, out=lambda *a: None) == (['Content_en.txt'], [])
+    assert second.strip() in reviews[0] and original.strip() not in reviews[0]
+    assert len(asks) == 1 and second.strip() in asks[0] and 'newest remaining issue' in asks[0]
+    assert not checkpoint.exists()
+    reviews.clear()
+    assert bookgen.review(db, chapter, out=lambda *a: None) == ([], []) and reviews == []
+
+
+def test_review_checkpoint_invalidates_when_original_source_changes(chapter, db, monkeypatch, tmp_path):
+    cache = tmp_path / 'state' / 'reviewed.json'
+    monkeypatch.setenv('BOOKGEN_REVIEW_CACHE', str(cache))
+    draft = 'Unapproved correction about states and rivers. ' * 30
+    monkeypatch.setattr(bookgen, '_ask', lambda db, user: draft)
+    monkeypatch.setattr(bookgen, '_ask_review', lambda db, user: '- still wrong → fix')
+    assert bookgen.review(db, chapter, out=lambda *a: None) == ([], ['Content_en.txt'])
+    external = 'External editor updated states and rivers independently. ' * 30
+    write(chapter / 'Content_en.txt', external)
+    seen = []
+    monkeypatch.setattr(bookgen, '_ask', lambda *a: pytest.fail('stale correction must not be repaired'))
+    monkeypatch.setattr(bookgen, '_ask_review', lambda db, user: seen.append(user) or 'OK')
+    assert bookgen.review(db, chapter, out=lambda *a: None) == ([], [])
+    assert external.strip() in seen[0] and draft.strip() not in seen[0]
+    assert (chapter / 'Content_en.txt').read_text() == external
+    assert not list((cache.parent / 'review-drafts').glob('*.json'))
+
+
+def test_review_api_failure_keeps_unapproved_candidate_and_resumes_fail_closed(chapter, db, monkeypatch, tmp_path):
+    import json
+    cache = tmp_path / 'state' / 'reviewed.json'
+    monkeypatch.setenv('BOOKGEN_REVIEW_CACHE', str(cache))
+    original = (chapter / 'Content_en.txt').read_text()
+    draft = 'Candidate awaiting independent review of states and rivers. ' * 30
+    monkeypatch.setattr(bookgen, '_ask', lambda db, user: draft)
+
+    def unavailable(db, user):
+        if draft.strip() in user:
+            raise ai.AIUnavailable('network')
+        return '- wrong name → repair'
+
+    monkeypatch.setattr(bookgen, '_ask_review', unavailable)
+    assert bookgen.review(db, chapter, out=lambda *a: None) == ([], ['Content_en.txt'])
+    assert (chapter / 'Content_en.txt').read_text() == original and not cache.exists()
+    checkpoint = next((cache.parent / 'review-drafts').glob('*.json'))
+    data = json.loads(checkpoint.read_text())
+    assert data['candidate'] == draft.strip() + '\n' and data['pending_review'] is True and data['approved'] is False
+    monkeypatch.setattr(bookgen, '_ask', lambda *a: pytest.fail('resumed draft only needs independent review'))
+    reviewed = []
+    monkeypatch.setattr(bookgen, '_ask_review', lambda db, user: reviewed.append(user) or 'OK')
+    assert bookgen.review(db, chapter, out=lambda *a: None) == (['Content_en.txt'], [])
+    assert len(reviewed) == 1 and draft.strip() in reviewed[0] and not checkpoint.exists()
+
+
+@pytest.mark.parametrize('invalid', ['too short', 'गलत भाषा का पाठ। ' * 40, 'A long unrelated lesson about volcanoes. ' * 40])
+def test_review_never_checkpoints_or_publishes_invalid_candidates(chapter, db, monkeypatch, tmp_path, invalid):
+    monkeypatch.setenv('BOOKGEN_REVIEW_CACHE', str(tmp_path / 'state' / 'reviewed.json'))
+    original = (chapter / 'Content_en.txt').read_text()
+    seen = []
+    monkeypatch.setattr(bookgen, '_ask_review', lambda db, user: seen.append(user) or '- wrong fact → repair')
+    monkeypatch.setattr(bookgen, '_ask', lambda db, user: invalid)
+    assert bookgen.review(db, chapter, out=lambda *a: None) == ([], ['Content_en.txt'])
+    assert len(seen) == 1  # malformed rewrites never reach the reviewer as approvable candidates
+    assert (chapter / 'Content_en.txt').read_text() == original
+    assert not list((tmp_path / 'state' / 'review-drafts').glob('*.json'))
+
+
+def test_review_cache_merges_separate_workers_approval_snapshots(tmp_path):
+    import hashlib
+    import json
+    cache = tmp_path / 'reviewed.json'
+    first, second = set(), set()  # two workers both started before either approval was saved
+    bookgen._remember_review(cache, first, 'first accepted section')
+    bookgen._remember_review(cache, second, 'second accepted section')
+    assert set(json.loads(cache.read_text())) == {
+        hashlib.sha256(text.encode()).hexdigest() for text in ['first accepted section', 'second accepted section']}
+
+
+def test_old_parallel_v2_runner_drains_before_review_checkpoint_upgrade(tmp_path, monkeypatch):
+    state = tmp_path / 'autopilot'
+    state.mkdir()
+    (state / 'state.json').write_text('{}')
+    monkeypatch.setenv('RUNNER_TEMP', str(tmp_path))
+    monkeypatch.setenv('GITHUB_ACTIONS', 'true')
+    monkeypatch.setenv('GITHUB_REF_NAME', 'main')
+    monkeypatch.setenv('BOOKGEN_HINDI_ONLY', '1')
+    monkeypatch.setenv('BOOKGEN_RATE_POLICY', 'parallel-v2')
+    monkeypatch.setenv('BOOKGEN_REVIEW_CACHE', str(state / 'reviewed.json'))
+    assert bookgen.request_legacy_autopilot_rollover(lambda *a: None) is True
+    assert (state / 'STOP').exists()
+
+
+def test_review_unchanged_rejected_draft_does_not_repeat_independent_review(chapter, db, monkeypatch, tmp_path):
+    monkeypatch.setenv('BOOKGEN_REVIEW_CACHE', str(tmp_path / 'state' / 'reviewed.json'))
+    draft = 'Known incomplete correction about states and rivers. ' * 30
+    reviews, asks = [], []
+    monkeypatch.setattr(bookgen, '_ask', lambda db, user: asks.append(user) or draft)
+    monkeypatch.setattr(bookgen, '_ask_review', lambda db, user: reviews.append(user) or '- missing date → repair')
+    assert bookgen.review(db, chapter, out=lambda *a: None) == ([], ['Content_en.txt'])
+    assert len(asks) == 2 and len(reviews) == 2  # original + first changed draft; identical rewrite has no new review
+    assert 'missing date' in asks[1] and draft.strip() in asks[1]
+
+
+def test_review_writer_api_failure_preserves_last_valid_draft(chapter, db, monkeypatch, tmp_path):
+    import json
+    cache = tmp_path / 'state' / 'reviewed.json'
+    monkeypatch.setenv('BOOKGEN_REVIEW_CACHE', str(cache))
+    original = (chapter / 'Content_en.txt').read_text()
+    draft = 'Latest valid correction about states and rivers. ' * 30
+    asks = []
+
+    def author(db, user):
+        asks.append(user)
+        if len(asks) > 1:
+            raise ai.AIUnavailable('network')
+        return draft
+
+    monkeypatch.setattr(bookgen, '_ask', author)
+    monkeypatch.setattr(bookgen, '_ask_review', lambda db, user: '- latest unresolved error → correct')
+    assert bookgen.review(db, chapter, out=lambda *a: None) == ([], ['Content_en.txt'])
+    data = json.loads(next((cache.parent / 'review-drafts').glob('*.json')).read_text())
+    assert data['candidate'] == draft.strip() + '\n' and data['issues'] == ['- latest unresolved error → correct']
+    assert data['approved'] is False and (chapter / 'Content_en.txt').read_text() == original
+
+
+def test_review_rejects_checkpoint_with_changed_candidate_hash(chapter, db, monkeypatch, tmp_path):
+    import json
+    cache = tmp_path / 'state' / 'reviewed.json'
+    monkeypatch.setenv('BOOKGEN_REVIEW_CACHE', str(cache))
+    draft = 'Draft of states and rivers awaiting correction. ' * 30
+    monkeypatch.setattr(bookgen, '_ask', lambda db, user: draft)
+    monkeypatch.setattr(bookgen, '_ask_review', lambda db, user: '- still wrong → correct')
+    assert bookgen.review(db, chapter, out=lambda *a: None) == ([], ['Content_en.txt'])
+    checkpoint = next((cache.parent / 'review-drafts').glob('*.json'))
+    data = json.loads(checkpoint.read_text())
+    data['candidate'] = 'Tampered correction about states and rivers. ' * 30
+    checkpoint.write_text(json.dumps(data))  # digest no longer describes the candidate bytes
+    original = (chapter / 'Content_en.txt').read_text()
+    seen = []
+    monkeypatch.setattr(bookgen, '_ask_review', lambda db, user: seen.append(user) or 'OK')
+    assert bookgen.review(db, chapter, out=lambda *a: None) == ([], [])
+    assert original.strip() in seen[0] and data['candidate'].strip() not in seen[0]
+    assert (chapter / 'Content_en.txt').read_text() == original
+
+
+def test_review_does_not_overwrite_source_edited_during_api_calls(chapter, db, monkeypatch, tmp_path):
+    monkeypatch.setenv('BOOKGEN_REVIEW_CACHE', str(tmp_path / 'state' / 'reviewed.json'))
+    draft = 'Reviewed correction about states and rivers. ' * 30
+    external = 'Concurrent editor correction about states and rivers. ' * 30
+    monkeypatch.setattr(bookgen, '_ask', lambda db, user: draft)
+
+    def reviewer(db, user):
+        if draft.strip() in user:
+            write(chapter / 'Content_en.txt', external)
+            return 'OK'
+        return '- wrong name → repair'
+
+    monkeypatch.setattr(bookgen, '_ask_review', reviewer)
+    assert bookgen.review(db, chapter, out=lambda *a: None) == ([], ['Content_en.txt'])
+    assert (chapter / 'Content_en.txt').read_text() == external
+
+
+def test_review_recovered_invalid_round_has_no_terminal_failure_log(chapter, db, monkeypatch):
+    final = 'Final accepted correction about states and rivers. ' * 30
+    attempts = iter(['Too short', final])
+    logs = []
+    monkeypatch.setattr(bookgen, '_ask', lambda db, user: next(attempts))
+    monkeypatch.setattr(bookgen, '_ask_review', lambda db, user: 'OK' if final.strip() in user else '- wrong date → repair')
+    assert bookgen.review(db, chapter, out=logs.append) == (['Content_en.txt'], [])
+    assert any('rejected candidate' in line for line in logs)
+    assert not any(line.startswith(('FAILED ', 'REJECTED ')) for line in logs)
