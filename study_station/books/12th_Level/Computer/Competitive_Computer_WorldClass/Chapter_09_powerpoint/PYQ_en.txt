@@ -1,0 +1,118 @@
+PYQ Pattern Analysis — Microsoft PowerPoint
+
+Exams (SSC CHSL, CGL Tier-I, Railway, Bank clerical) test PowerPoint through three lenses:  
+1. Interface & terminology (tabs, groups, views, panes)  
+2. Core tasks (slide master, animations, transitions, slide show setup, printing)  
+3. Shortcut keys (Windows/Office scope only — browser shortcuts are not asked)
+
+Recurring sub-topics  
+- Ribbon tabs & groups: which command lives where (e.g., “Rehearse Timings” → Slide Show tab → Set Up group)  
+- Views: Normal, Slide Sorter, Reading, Slide Show, Notes Page, Outline — purpose of each  
+- Slide Master: placeholder types, layout inheritance, editing master vs. layout  
+- Animations vs. Transitions: entrance/emphasis/exit/motion paths; effect options; start triggers (On Click, With Previous, After Previous)  
+- Slide Show setup: kiosk mode, loop continuously, show without narration/animation  
+- File formats: .pptx, .pptm, .potx, .ppsx, .ppsm, .pdf, .odp — when to use which  
+- Collaboration: comments, compare/merge, version history (OneDrive/SharePoint)  
+- Accessibility: alt text, reading order, colour contrast checker  
+- Print handouts: slides per page, notes pages, outline only
+
+Common examiner traps  
+- Nearly-correct ribbon paths: “Insert → Animation” (wrong — Animations is a separate tab)  
+- Confusing “Transition” (slide-to-slide) with “Animation” (object-on-slide)  
+- Swapping shortcut scopes: F5 (start from first slide) vs. Shift+F5 (start from current slide) — both are PowerPoint shortcuts but serve different purposes  
+- “Apply to All” in Transitions vs. Animation Painter — they behave differently  
+- Negative phrasing: “Which of the following is NOT a view in PowerPoint?” — Reading View is valid; “Print View” is not  
+- Version-specific claims (e.g., “Morph transition added in 2019”) — avoid unless the question explicitly names a version; stable concepts only  
+- Placeholder vs. text box: deleting a placeholder on a layout removes it from all slides using that layout; a text box is slide-specific
+
+PYQ-style examples (original, not from any paper)
+
+1. The command “Rehearse Timings” is located in which tab and group?  
+   (a) Slide Show → Set Up  
+   (b) Animations → Timing  
+   (c) Transitions → Timing  
+   (d) View → Show  
+   Answer: (a)  
+   Solution: Rehearse Timings records slide timings for a self-running show; it sits in Slide Show tab, Set Up group. Option (b) and (c) confuse animation/transition timing with rehearsal.  
+   Source: PYQ-style
+
+2. Which view displays thumbnails of all slides for easy reordering?  
+   (a) Normal  
+   (b) Slide Sorter  
+   (c) Reading  
+   (d) Outline  
+   Answer: (b)  
+   Solution: Slide Sorter shows thumbnails; Normal shows one slide + thumbnails; Reading is full-screen preview; Outline shows text hierarchy.  
+   Source: PYQ-style
+
+3. A user wants the company logo to appear on every slide automatically. The correct method is:  
+   (a) Insert logo on first slide, then copy-paste to all slides  
+   (b) Edit the Slide Master and place the logo on the master layout  
+   (c) Use Header & Footer dialog → check “Logo”  
+   (d) Apply a theme that contains the logo  
+   Answer: (b)  
+   Solution: Slide Master controls repeating elements across all layouts. Copy-paste is manual; Header & Footer does not support images; themes do not embed specific logos.  
+   Source: PYQ-style
+
+4. “Start: After Previous” in the Animation pane means:  
+   (a) The effect begins when the previous animation ends  
+   (b) The effect begins when the previous slide ends  
+   (c) The effect begins after the presenter clicks  
+   (d) The effect begins after a fixed delay  
+   Answer: (a)  
+   Solution: “After Previous” chains animations sequentially on the same slide. “On Click” waits for presenter; “With Previous” runs simultaneously.  
+   Source: PYQ-style
+
+5. Which file format preserves macros and opens directly in Slide Show mode?  
+   (a) .pptx  
+   (b) .pptm  
+   (c) .ppsx  
+   (d) .ppsm  
+   Answer: (d)  
+   Solution: .ppsm = PowerPoint Macro-Enabled Show — preserves macros and opens directly in Slide Show mode. .pptm preserves macros but opens in edit mode; .ppsx opens in show mode but cannot store macros; .pptx is standard macro-free.  
+   Source: PYQ-style
+
+6. Shortcut to start Slide Show from the current slide (Windows/Office):  
+   (a) F5  
+   (b) Shift+F5  
+   (c) Ctrl+F5  
+   (d) Alt+F5  
+   Answer: (b)  
+   Solution: F5 starts from first slide; Shift+F5 starts from current slide. Ctrl+F5 and Alt+F5 are not standard PowerPoint shortcuts.  
+   Source: PYQ-style
+
+7. In the Transitions tab, “Apply To All” copies:  
+   (a) Only the transition effect  
+   (b) Transition effect, duration, sound, and advance settings  
+   (c) Only the duration  
+   (d) Only the sound  
+   Answer: (b)  
+   Solution: Apply To All replicates the complete transition configuration (effect, effect options, duration, sound, advance slide on click/after time) to every slide.  
+   Source: PYQ-style
+
+8. Which statement about Animation Painter is FALSE?  
+   (a) It copies animation effects from one object to another  
+   (b) Double-clicking Animation Painter locks it for multiple applications  
+   (c) It copies the trigger (On Click / With Previous) along with the effect  
+   (d) It works across different presentations  
+   Answer: (c)  
+   Solution: Animation Painter copies the effect and its options (direction, speed, etc.) but NOT the start trigger; the target object retains its own trigger setting.  
+   Source: PYQ-style
+
+9. To ensure a presentation runs unattended in a kiosk, which Slide Show setup option must be chosen?  
+   (a) Presented by a speaker (full screen)  
+   (b) Browsed by an individual (window)  
+   (c) Browsed at a kiosk (full screen)  
+   (d) Custom Slide Show  
+   Answer: (c)  
+   Solution: Kiosk mode loops continuously, hides scroll bars, and restricts navigation — ideal for unattended displays.  
+   Source: PYQ-style
+
+10. The “Reading Order” pane (Review → Check Accessibility) is used to:  
+    (a) Set the sequence in which screen readers announce slide content  
+    (b) Reorder slides in Slide Sorter  
+    (c) Define animation sequence  
+    (d) Arrange layers of objects  
+    Answer: (a)  
+    Solution: Reading Order determines accessibility flow for assistive technologies; it is independent of visual stacking order or animation sequence.  
+    Source: PYQ-style

@@ -1,0 +1,67 @@
+Microsoft PowerPoint — Feynman Explanation
+
+Think of PowerPoint as a digital flip-chart. Each slide is one sheet of paper you can show on a screen, one after another. You write, draw, paste pictures, or embed videos on each sheet. When you press "Slide Show" (F5), the computer flips through your sheets in order, full-screen, like a projector rolling film.
+
+Core building blocks
+- Slide: a single page. Default layout gives you a title box and a content box.
+- Layout: pre-arranged placeholders (Title Only, Two Content, Comparison, etc.). Choose Home → Layout to change it without retyping.
+- Theme: a coordinated set of colours, fonts, and effects. Design tab → Themes gallery. Changing theme reformats every slide instantly.
+- Slide Master: the behind-the-scenes template. View → Slide Master lets you edit the master slide and its layouts once; every slide using that layout updates automatically. Use it for logos, page numbers, or corporate colours.
+- Placeholder: the dotted boxes on a layout that say "Click to add title" or "Click to add text." They keep content aligned.
+- Text box vs. Placeholder: a text box you draw (Insert → Text Box) is free-floating; a placeholder is part of the layout and obeys the Slide Master.
+
+Common actions
+- New slide: Ctrl + M (Windows) or Home → New Slide.
+- Duplicate slide: Ctrl + D — faster than copy-paste.
+- Reorder slides: drag thumbnails in the left pane (Normal view) or use Slide Sorter view (View → Slide Sorter).
+- Insert picture: Insert → Pictures → This Device / Online Pictures. Resize by dragging corners (hold Shift to keep aspect ratio).
+- Shapes & SmartArt: Insert → Shapes for arrows, flowcharts; SmartArt for process, hierarchy, cycle diagrams that auto-arrange.
+- Tables & Charts: Insert → Table / Chart. Chart opens an Excel-like sheet; edit data there, chart updates on the slide.
+- Animations: Animations tab → Add Animation. Entrance (Appear, Fade), Emphasis (Pulse, Grow/Shrink), Exit (Disappear), Motion Paths. Animation Pane (Animations → Animation Pane) shows order and timing. Start: On Click / With Previous / After Previous.
+- Transitions: Transitions tab — effect between slides (Morph, Push, Fade). Apply to All Slides for consistency.
+- Slide Show: F5 starts from first slide; Shift + F5 starts from current slide. Presenter View (Slide Show → Use Presenter View) shows notes, next slide, timer on your laptop while audience sees only the slide.
+
+File formats
+- .pptx — default XML-based format (since Office 2007).
+- .pptm — macro-enabled.
+- .ppsx — opens directly in Slide Show.
+- .pdf — for non-editable sharing (File → Export → Create PDF/XPS).
+
+Keyboard shortcuts (Windows / Office desktop)
+- Ctrl + N: new presentation
+- Ctrl + S: save
+- Ctrl + Z / Y: undo / redo
+- Ctrl + C / V / X: copy / paste / cut
+- Ctrl + D: duplicate selected object or slide
+- Ctrl + G / Shift + Ctrl + G: group / ungroup objects
+- Ctrl + A: select all objects on slide
+- F5: start show from beginning
+- Shift + F5: start show from current slide
+- B / W: black / white screen during show (press again to resume)
+- Ctrl + P: pen tool during show; Ctrl + E: eraser; Esc: end show
+
+Common mistakes
+1. Editing individual slides instead of Slide Master — wastes time and creates inconsistency.
+2. Overloading slides with text — use 6×6 rule: max 6 lines, ~6 words per line.
+3. Using too many different animations — distracts audience; stick to one entrance style.
+4. Forgetting to embed fonts (File → Options → Save → Embed fonts in the file) — slides break on other computers.
+5. Not rehearsing timings — Slide Show → Rehearse Timings records how long you spend per slide.
+
+Recall Questions
+
+1. Which view lets you drag slide thumbnails to reorder the presentation?
+   Answer: Slide Sorter view (View → Slide Sorter).
+
+2. What is the difference between a placeholder and a manually drawn text box?
+   Answer: A placeholder is part of the slide layout and follows Slide Master formatting; a drawn text box is free-floating and independent of the master.
+
+3. Which key starts the slide show from the current slide instead of the first slide?
+   Answer: Shift + F5.
+
+4. Where do you set an animation to start automatically after the previous one?
+   Answer: Animation Pane → select animation → Start dropdown → "After Previous".
+
+5. Which file format opens directly in Slide Show mode without opening the editor?
+   Answer: .ppsx (PowerPoint Show).
+
+Source: Microsoft Support "Basic tasks in PowerPoint", "Use Slide Master view", "Keyboard shortcuts in PowerPoint".

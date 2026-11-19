@@ -1,0 +1,127 @@
+**15 Important Rules & Principles for Microsoft PowerPoint**
+
+---
+
+### Rule 1: Slide Master Controls Global Formatting
+Changes made in **Slide Master** (View → Slide Master) apply to all slides using that layout.  
+**Example:** Setting a company logo in the top-right corner of the Slide Master places it on every slide automatically.  
+**Exception:** Individual slides can override Master formatting by direct editing; overridden elements no longer update when the Master changes.
+
+---
+
+### Rule 2: Layouts Define Placeholder Structure
+Each slide layout (Title Slide, Title and Content, Two Content, etc.) contains specific placeholders.  
+**Example:** “Title and Content” layout has one title placeholder and one content placeholder (text, chart, table, SmartArt, media, or picture).  
+**Exception:** Blank layout has no placeholders — use it for fully custom designs.
+
+---
+
+### Rule 3: Themes Apply Coordinated Colors, Fonts, Effects
+A **Theme** (Design tab) sets a complete visual scheme: theme colors (12), theme fonts (heading + body), and theme effects.  
+**Example:** Applying “Ion” theme changes all slide backgrounds, font pairs, and shape styles instantly.  
+**Exception:** Variants (Design → Variants) let you switch color palette or font set without changing the base theme.
+
+---
+
+### Rule 4: Sections Organize Large Presentations
+**Sections** (Home → Section → Add Section) group slides for navigation, printing, and collaboration.  
+**Example:** A 50-slide deck can have sections “Introduction,” “Financials,” “Q&A.” Collapse/expand in Slide Sorter.  
+**Exception:** Sections do not affect slide show order; they are editing aids only.
+
+---
+
+### Rule 5: Animations vs. Transitions — Different Purposes
+- **Transitions** (Transitions tab): effect between slides (e.g., Fade, Push).  
+- **Animations** (Animations tab): effect on objects *within* a slide (Entrance, Emphasis, Exit, Motion Paths).  
+**Example:** Apply “Fade” transition to all slides; apply “Appear” animation to bullet points one by one.  
+**Exception:** “Morph” transition (Office 365/2019+) can animate object changes across slides — blurs the line but remains a transition.
+
+---
+
+### Rule 6: Animation Pane Controls Timing & Order
+Open **Animation Pane** (Animations → Animation Pane) to reorder, set Start (On Click / With Previous / After Previous), duration, delay, and triggers.  
+**Example:** Set three bullets to “Start: After Previous” with 0.5 s delay for automatic sequential reveal.  
+**Exception:** Triggered animations (Start: On Click of [object]) run only when the specified object is clicked during show.
+
+---
+
+### Rule 7: Slide Show Modes — Presenter View vs. Slide Show
+- **Slide Show** (F5): full-screen on primary display.  
+- **Presenter View** (Alt+F5): shows current slide, next slide, notes, timer on presenter’s screen; audience sees only current slide.  
+**Exception:** Presenter View requires dual monitors. On a single monitor, Alt+F5 starts Presenter View but the audience sees the same screen as the presenter.
+
+---
+
+### Rule 8: Keyboard Shortcuts (Windows / Office Scope)
+| Action | Shortcut |
+|---|---|
+| New slide | Ctrl + M |
+| Start show from beginning | F5 |
+| Start show from current slide | Shift + F5 |
+| Black screen / White screen | B / W (toggle) |
+| Jump to slide number | Type number + Enter |
+| Open Animation Pane | Alt + A, then P |
+| Duplicate slide | Ctrl + D |
+| Group / Ungroup objects | Ctrl + G / Ctrl + Shift + G |
+**Note:** In PowerPoint for the Web, most shortcuts differ; for example, Ctrl+M adds a new slide, while Ctrl+Shift+N creates a new presentation. The table above applies to the desktop Windows app.
+
+---
+
+### Rule 9: SmartArt Converts Text to Diagrams
+Select bulleted text → **Convert to SmartArt** (Home tab) → choose layout (List, Process, Cycle, Hierarchy, Relationship, Matrix, Pyramid, Picture).  
+**Example:** A 4-step process becomes a “Basic Chevron Process” diagram instantly.  
+**Exception:** After conversion, individual shapes can be edited, but the SmartArt “pane” link remains; use “Convert to Shapes” (SmartArt Design → Convert) to break the link completely.
+
+---
+
+### Rule 10: Charts Link to Excel Data
+Insert → Chart opens an embedded Excel worksheet. Data edits update the chart in real time.  
+**Example:** Change a value in the worksheet; the column chart on the slide reflects it immediately.  
+**Exception:** “Paste Special → Picture” breaks the link — chart becomes a static image.
+
+---
+
+### Rule 11: Media Playback Options
+Insert → Media → Audio/Video. On the **Playback** tab set:  
+- **Start:** Automatically / In Click Sequence / When Clicked On  
+- **Play Across Slides** (audio only)  
+- **Loop until Stopped**  
+- **Rewind after Playing**  
+**Exception:** Online videos (YouTube, Stream) require internet during show; they cannot play offline.
+
+---
+
+### Rule 12: Hyperlinks & Actions Enable Navigation
+- **Hyperlink** (Insert → Link): jump to slide, custom show, file, web page, email.  
+- **Action** (Insert → Action): run on Mouse Click or Mouse Over — can run macro, play sound, run program.  
+**Example:** “Home” button on every slide links to Slide 1 via “Place in This Document.”  
+**Exception:** Actions with “Run Macro” require macro-enabled file (.pptm) and macro security set to enable.
+
+---
+
+### Rule 13: Export & Save As Options for Distribution
+| Format | Use Case |
+|---|---|
+| .pptx | Default editable |
+| .pptm | Macro-enabled |
+| .ppsx | Opens directly in Slide Show |
+| .pdf | Non-editable, print-ready |
+| .mp4 | Video export (File → Export → Create a Video) |
+| .png / .jpg | Individual slides as images (Save As → choose format → “Just This One”) |
+**Exception:** “Package Presentation for CD” (File → Export → Package Presentation for CD) bundles fonts and linked media for offline playback on a PC with PowerPoint installed.
+
+---
+
+### Rule 14: Accessibility — Alt Text, Reading Order, Contrast
+- **Alt Text** (right-click object → Edit Alt Text): describe images, charts, SmartArt for screen readers.  
+- **Reading Order** (Home → Arrange → Selection Pane): bottom-to-top = reading order; drag to fix.  
+- **Contrast:** Use Accessibility Checker (Review → Check Accessibility) to flag low-contrast text.  
+**Exception:** Decorative objects (lines, background shapes) can be marked “Mark as decorative” to skip screen readers.
+
+---
+
+### Rule 15: Collaboration — Comments, Compare, Version History
+- **Comments** (Review → New Comment): threaded discussion anchored to slide or object.  
+- **Compare** (Review → Compare): merge changes from another .pptx; accept/reject per change.  
+- **Version History** (File → Info → Version History): auto-saved versions in OneDrive/SharePoint; restore previous.  
+**Exception:** Real-time co-authoring requires file saved to OneDrive/SharePoint and all editors using PowerPoint 2016+ or Web; .ppt files (legacy) do not support co-authoring.

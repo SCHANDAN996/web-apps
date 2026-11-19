@@ -1,0 +1,168 @@
+Microsoft PowerPoint
+
+Microsoft PowerPoint is a presentation graphics program used to create slide shows for business, education, and personal use. It is part of the Microsoft Office suite. The file extension for a PowerPoint presentation is `.pptx` (since Office 2007); the legacy format is `.ppt`. A presentation consists of a sequence of slides. Each slide can contain text, images, shapes, charts, tables, SmartArt, audio, video, and animation effects.
+
+Core Concepts
+
+Slide: The basic unit of a presentation. A slide has a layout that determines the arrangement of placeholders for title, content, pictures, charts, etc.
+
+Slide Master: The top-level slide that controls the theme, background, fonts, colors, and placeholder positions for all slides in the presentation. Changes to the Slide Master propagate to every slide using that master.
+
+Layouts: Predefined arrangements of placeholders (Title Slide, Title and Content, Two Content, Comparison, Blank, etc.). You apply a layout to a slide from the Home → Layout gallery.
+
+Themes: A coordinated set of colors, fonts, and effects. Applying a theme changes the look of the entire presentation instantly. Themes are stored in `.thmx` files.
+
+Sections: Logical groupings of slides (e.g., Introduction, Analysis, Conclusion) to organize long presentations. Right-click in the slide thumbnail pane → Add Section.
+
+Views:
+- Normal View: Default editing view with slide thumbnails on the left, the current slide in the center, and notes below.
+- Slide Sorter View: Thumbnails of all slides; useful for reordering, copying, deleting, and applying transitions to multiple slides.
+- Reading View: Full-screen preview without entering Slide Show mode.
+- Slide Show View: Full-screen presentation mode (F5 from start, Shift+F5 from current slide).
+- Notes Page View: Shows each slide with its speaker notes for printing.
+- Outline View: Shows the text outline of the presentation in the left pane instead of thumbnails.
+
+Placeholders: Dotted-border boxes on a slide layout that hold content (title, text, picture, chart, table, SmartArt, media, clip art). Click inside to add content.
+
+Text Formatting: Font, size, color, bold, italic, underline, shadow, strikethrough, character spacing, text fill/outline, WordArt styles. Paragraph formatting includes alignment, line spacing, indentation, bullets, numbering, and columns.
+
+Objects: Shapes (rectangles, arrows, flowchart shapes, callouts), Pictures (inserted from file, online, screenshot), Icons, 3D Models, SmartArt (process, cycle, hierarchy, relationship, matrix, pyramid), Charts (column, line, pie, bar, area, scatter, combo), Tables, Screenshots, Screen Recording.
+
+Animation: Entrance, Emphasis, Exit, and Motion Path effects applied to objects or text. Animation Pane (Animations → Animation Pane) shows the sequence, timing (Start: On Click, With Previous, After Previous), duration, and delay. Trigger options allow starting an animation on click of a specific object.
+
+Transition: Visual effect when moving from one slide to the next (Fade, Push, Wipe, Split, Reveal, Morph, etc.). Transition timing: sound, duration, advance on mouse click or automatically after a set time.
+
+Slide Show Settings: Set up show type (Presented by a speaker, Browsed by an individual, Browsed at a kiosk), show options (loop continuously, show without narration/animation), pen/laser pointer colors, monitor selection, resolution.
+
+Presenter View: On a dual-monitor setup, the presenter sees current slide, next slide, notes, timer, and annotation tools while the audience sees only the slide show.
+
+Export & Share: Save as PDF, XPS, Video (MP4), Package Presentation for CD, Handouts (Word), Image formats (PNG, JPG, GIF, TIFF, BMP), PowerPoint Show (.ppsx — opens directly in Slide Show mode).
+
+Keyboard Shortcuts (Windows / Office scope — not browser shortcuts)
+
+Editing & Navigation
+- Ctrl+N: New presentation
+- Ctrl+O: Open existing presentation
+- Ctrl+S: Save
+- F12: Save As
+- Ctrl+W / Ctrl+F4: Close presentation
+- Ctrl+Z: Undo; Ctrl+Y: Redo
+- Ctrl+X / Ctrl+C / Ctrl+V: Cut / Copy / Paste
+- Ctrl+D: Duplicate selected object or slide
+- Ctrl+A: Select all (objects on slide or slides in thumbnail pane)
+- Delete / Backspace: Delete selected object or slide
+- Ctrl+Home / Ctrl+End: Go to first / last slide in Normal view
+- Page Up / Page Down: Previous / Next slide
+- Ctrl+M: Insert new slide (uses current layout)
+
+Text Formatting
+- Ctrl+B / Ctrl+I / Ctrl+U: Bold / Italic / Underline
+- Ctrl+Shift+> / Ctrl+Shift+<: Increase / Decrease font size
+- Ctrl+E / Ctrl+L / Ctrl+R: Center / Left align / Right align
+- Ctrl+T: Font dialog
+- Ctrl+Spacebar: Reset character formatting to default
+- Ctrl+Q: Reset paragraph formatting to default
+
+Slide Show
+- F5: Start from beginning
+- Shift+F5: Start from current slide
+- N / Enter / Space / Right Arrow / Down Arrow: Next slide/animation
+- P / Backspace / Left Arrow / Up Arrow: Previous slide/animation
+- Number + Enter: Jump to slide number
+- B / . (period): Black screen toggle
+- W / , (comma): White screen toggle
+- Ctrl+P: Pen tool (annotate); Ctrl+I: Highlighter; Ctrl+E: Eraser
+- Esc / Hyphen (-): End slide show
+
+Object & Slide Management
+- Ctrl+G: Group selected objects; Ctrl+Shift+G: Ungroup
+- Ctrl+Shift+[ / Ctrl+Shift+]: Send to back / Bring to front
+- Alt+F10: Open Selection Pane
+- Alt+F9: Toggle gridlines
+- Alt+F8: Open Macros dialog
+- Alt+F11: Open VBA Editor
+
+Worked Examples
+
+Example 1: Applying a Consistent Design Using Slide Master
+Task: Change the default font to Calibri 18 pt for all body text placeholders and add a logo in the bottom-right corner of every slide.
+Steps:
+1. View → Slide Master.
+2. In the left thumbnail pane, select the topmost slide (the Slide Master).
+3. Click the body text placeholder. Home → Font → Calibri, Size 18.
+4. Insert → Pictures → This Device → select logo file. Position it bottom-right.
+5. Close Master View. All existing and new slides using that master now reflect the changes.
+Why this works: The Slide Master controls default formatting for all layouts beneath it. Editing the master once avoids repetitive per-slide formatting.
+
+Example 2: Using Sections to Organize a 40-Slide Deck
+Task: Divide a presentation into three sections: "Market Overview" (slides 1–12), "Product Details" (slides 13–28), "Financials" (slides 29–40).
+Steps:
+1. Switch to Slide Sorter view (View → Slide Sorter).
+2. Right-click slide 1 → Add Section → name "Market Overview".
+3. Right-click slide 13 → Add Section → name "Product Details".
+4. Right-click slide 29 → Add Section → name "Financials".
+5. Collapse/expand sections by clicking the arrow next to the section name. Drag a section header to move all its slides together.
+Why this works: Sections are metadata; they do not affect slide content but make navigation, printing, and collaboration easier.
+
+Example 3: Creating a Process Diagram with SmartArt
+Task: Show a 5-step hiring process: "Post Job → Screen Resumes → Interview → Offer → Onboard".
+Steps:
+1. Insert → SmartArt → Process → Basic Chevron Process (or Upward Arrow).
+2. In the Text Pane (click the left arrow on the SmartArt border), type each step on a new line.
+3. To add a sixth step, press Enter at the end of the last line in the Text Pane.
+4. Change colors: SmartArt Design → Change Colors → Colorful Accent Colors.
+5. Apply a 3-D style: SmartArt Design → SmartArt Styles → 3-D Polished.
+Why this works: SmartArt is dynamic — adding/removing steps auto-adjusts layout. Converting to shapes (SmartArt Design → Convert → Convert to Shapes) breaks the link but allows free-form editing.
+
+Example 4: Animating a Chart Series by Series
+Task: Animate a column chart so each year's data appears on click.
+Steps:
+1. Insert → Chart → Clustered Column. Enter data (Years as categories, Revenue as series).
+2. Select the chart. Animations → Add Animation → Wipe (Entrance).
+3. Animations → Effect Options → By Series.
+4. Open Animation Pane. Set Start: On Click for each series. Adjust Duration to 0.5 s.
+5. In Slide Show, each click reveals the next year's column.
+Why this works: "By Series" creates separate animation entries for each data series. "By Category" would animate each category (year) across all series simultaneously.
+
+Example 5: Using Morph Transition for Smooth Object Movement
+Task: Move a rectangle from left to right and change its color between two slides.
+Steps:
+1. Slide 1: Insert → Shapes → Rectangle. Format → Shape Fill → Blue. Position left.
+2. Duplicate slide (Ctrl+D). On Slide 2, move the rectangle to the right and change fill to Green.
+3. Select Slide 2 thumbnail. Transitions → Morph. Set Duration 1.00 s.
+4. Run Slide Show. PowerPoint automatically interpolates position, size, color, and rotation.
+Why this works: Morph matches objects by name (Selection Pane) or order across slides and animates the differences. It requires Office 2016+ / Microsoft 365.
+
+Example 6: Packaging a Presentation with Linked Videos for Offline Use
+Task: Ensure a presentation with an embedded MP4 video plays on another computer without missing files.
+Steps:
+1. Insert → Media → Video → This Device → select video. (Embedding stores the file inside .pptx.)
+2. File → Info → Optimize Media Compatibility (if video codec may be unsupported on target PC).
+3. File → Export → Package Presentation for CD → Package for CD → name the folder → Options → ensure "Include linked files" and "Embed TrueType fonts" are checked → Copy to Folder or USB.
+4. The output folder contains the .pptx and all linked media files. The recipient needs PowerPoint or PowerPoint Online to open the presentation.
+Why this works: "Package for CD" collects all linked media and fonts into one folder. Embedding video (default for MP4 in modern versions) avoids broken links, but increases file size.
+
+Common Errors & Misconceptions
+
+1. Confusing Slide Master with individual slide editing: Changing font on one slide does not update others. Use Slide Master for global changes.
+2. Applying animations to the slide instead of objects: Transitions are slide-to-slide; Animations are object-level. Do not expect a transition to make a bullet point appear — use an Entrance animation on the text placeholder.
+3. "By Paragraph" vs "By Bullet Level": In Animation Pane, Effect Options for text placeholders offer "By 1st Level Paragraphs", "By 2nd Level Paragraphs", etc. "All at Once" shows the whole text box together. Choose the level matching your outline depth.
+4. Forgetting to set "Start: After Previous" for sequential animations: Default is "On Click". For a self-running kiosk, set animations to "After Previous" with appropriate delays.
+5. Using low-resolution images that pixelate when projected: Insert high-resolution images (at least 1920×1080 for full-slide backgrounds). Compress Pictures (Picture Format → Compress Pictures) only after finalizing, and keep "Apply only to this picture" unchecked to compress all.
+6. Broken video links when moving files: Always embed video (Insert → Video → This Device) rather than linking (Link to File option in older versions). If linking is unavoidable, keep video in the same folder and use Package for CD.
+7. Morph not working: Morph requires at least one common object (same name in Selection Pane) on both slides. Rename objects in Selection Pane (Alt+F10) to ensure matching.
+8. Printing speaker notes incorrectly: File → Print → Settings → Full Page Slides → Notes Pages. Each printed page shows the slide thumbnail at top and notes below. Handouts (3 slides per page with lines) are a different layout.
+9. Assuming .ppsx is editable: .ppsx (PowerPoint Show) opens directly in Slide Show mode. To edit, open PowerPoint first, then File → Open the .ppsx file, or rename to .pptx.
+10. Overusing animations/transitions: Excessive effects distract the audience. SSC/IBPS exams often test professional practice: "Use subtle, consistent transitions (Fade, Morph) and limit animations to key points."
+
+Key Facts for Quick Revision
+- File extensions: .pptx (presentation), .pptm (macro-enabled), .ppsx (show), .potx (template), .thmx (theme).
+- Default aspect ratio: Widescreen (16:9) since PowerPoint 2013; Standard (4:3) available in Design → Slide Size.
+- Maximum slides: No hard limit; practical limit depends on memory.
+- Maximum file size: 2 GB for 32-bit Office; 4 GB for 64-bit (practical limits lower due to performance).
+- AutoSave: Available only for files saved to OneDrive/SharePoint with Microsoft 365 subscription.
+- Recovery: File → Info → Manage Presentation → Recover Unsaved Presentations (stores .tmp files in %localappdata%\Microsoft\Office\UnsavedFiles).
+- Accessibility: Review → Check Accessibility → Alt Text for images, reading order (Selection Pane), sufficient contrast, meaningful hyperlink text.
+- Collaboration: Share → Invite People (requires cloud save). Co-authoring shows colored flags for other editors.
+
+Sources: Microsoft Support (support.microsoft.com), Microsoft Learn (learn.microsoft.com), CERT-In security advisories for Office macros.

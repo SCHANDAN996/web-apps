@@ -1,0 +1,43 @@
+```mermaid
+graph TD
+    A["पावरपॉइंट / PowerPoint"] --> B["स्लाइड / Slide"]
+    A --> C["स्लाइड मास्टर / Slide Master"]
+    A --> D["एनिमेशन / Animation"]
+    A --> E["ट्रांजिशन / Transition"]
+    A --> F["व्यू / Views"]
+    A --> G["फ़ाइल प्रारूप / File Formats"]
+    A --> H["शॉर्टकट / Shortcuts"]
+    
+    B --> B1["लेआउट / Layout"]
+    B --> B2["प्लेसहोल्डर / Placeholder"]
+    B --> B3["थीम / Theme"]
+    
+    C --> C1["मास्टर स्लाइड / Master Slide"]
+    C --> C2["लेआउट मास्टर / Layout Master"]
+    C --> C3["हैंडआउट मास्टर / Handout Master"]
+    
+    D --> D1["प्रवेश / Entrance"]
+    D --> D2["जोर / Emphasis"]
+    D --> D3["निकास / Exit"]
+    D --> D4["पथ / Motion Path"]
+    
+    E --> E1["स्लाइड बदलाव / Slide Change"]
+    E --> E2["प्रभाव विकल्प / Effect Options"]
+    E --> E3["समय / Timing"]
+    
+    F --> F1["सामान्य / Normal"]
+    F --> F2["स्लाइड सॉर्टर / Slide Sorter"]
+    F --> F3["पढ़ने का दृश्य / Reading View"]
+    F --> F4["स्लाइड शो / Slide Show"]
+    
+    G --> G1["PPTX (डिफ़ॉल्ट)"]
+    G --> G2["PPT (पुराना)"]
+    G --> G3["PDF / XPS"]
+    G --> G4["वीडियो / MP4"]
+    
+    H --> H1["Ctrl+N (नई प्रस्तुति)"]
+    H --> H2["F5 (शुरू से शो)"]
+    H --> H3["Shift+F5 (वर्तमान से)"]
+    H --> H4["Ctrl+M (नई स्लाइड)"]
+    H --> H5["Ctrl+D (डुप्लिकेट)"]
+```

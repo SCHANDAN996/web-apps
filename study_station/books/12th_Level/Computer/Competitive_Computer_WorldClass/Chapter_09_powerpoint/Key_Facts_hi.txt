@@ -1,0 +1,27 @@
+**एमएस पावरपॉइंट — 25 मुख्य तथ्य (रीविज़न पॉइंट्स)**
+
+1. **पावरपॉइंट क्या है** — माइक्रोसॉफ्ट का प्रस्तुति (presentation) सॉफ्टवेयर; स्लाइड्स में टेक्स्ट, चित्र, चार्ट, मीडिया जोड़कर स्क्रीन/प्रोजेक्टर पर दिखाने के लिए बनाया गया।  
+2. **फ़ाइल एक्सटेंशन** — आधुनिक डिफ़ॉल्ट `.pptx` (XML-आधारित, ज़िप कंटेनर); पुराना बाइनरी `.ppt`; मैक्रो-सक्षम `.pptm`; टेम्पलेट `.potx`; शो मोड `.ppsx`।  
+3. **इंटरफ़ेस के मुख्य भाग** — रिबन (टैब: Home, Insert, Design, Transitions, Animations, Slide Show, Review, View), स्लाइड पेन (बाएँ), नोट्स पेन (नीचे), स्टेटस बार (ज़ूम, व्यू बटन)।  
+4. **स्लाइड लेआउट** — पूर्व-निर्धारित प्लेसहोल्डर व्यवस्था (Title Slide, Title & Content, Two Content, Comparison, Blank आदि); Home → Layout से बदलें।  
+5. **स्लाइड मास्टर** — View → Slide Master; यहाँ फ़ॉन्ट, रंग, लोगो, हेडर/फ़ूटर, प्लेसहोल्डर स्थिति सेट करें — सभी स्लाइड्स पर एकसाथ लागू होता है।  
+6. **थीम और वेरिएंट** — Design टैब → Themes (रंग, फ़ॉन्ट, इफ़ेक्ट का समूह); Variants से रंग/फ़ॉन्ट/पृष्ठभूमि शैली तुरंत बदलें।  
+7. **पृष्ठभूमि प्रारूप** — राइट-क्लिक स्लाइड → Format Background → Solid Fill / Gradient / Picture / Texture / Pattern; "Apply to All" से पूरे प्रस्तुति पर।  
+8. **टेक्स्ट बॉक्स बनाम प्लेसहोल्डर** — प्लेसहोल्डर लेआउट/मास्टर से आता है (आउटलाइन व्यू में दिखता है); टेक्स्ट बॉक्स Insert → Text Box से मुक्त स्थान पर बनता है।  
+9. **चित्र/मीडिया डालना** — Insert → Pictures (This Device / Stock / Online), Icons, 3D Models, Screenshot; Video/Audio → Media समूह; लिंक के बजाय एम्बेड करें ताकि फ़ाइल पोर्टेबल रहे।  
+10. **स्मार्टआर्ट** — Insert → SmartArt → List, Process, Cycle, Hierarchy, Relationship, Matrix, Pyramid; टेक्स्ट पेन में टाइप करें, आकृतियाँ स्वतः समायोजित होती हैं।  
+11. **चार्ट** — Insert → Chart → Excel शीट खुलती है; डेटा बदलने पर चार्ट अपडेट होता है; Chart Design / Format टैब से शैली/तत्व बदलें।  
+12. **टेबल** — Insert → Table → पंक्ति/स्तंभ चुनें; Table Design / Layout टैब से मर्ज/स्प्लिट, बैंडेड रो, टोटल रो।  
+13. **ट्रांज़िशन (स्लाइड परिवर्तन प्रभाव)** — Transitions टैब → प्रभाव चुनें (Morph, Fade, Push, Wipe…); Effect Options, Duration, Advance Slide (On Mouse Click / After n सेकंड)।  
+14. **एनिमेशन (ऑब्जेक्ट स्तर)** — Animations टैब → Entrance, Emphasis, Exit, Motion Paths; Animation Pane से क्रम, ट्रिगर (On Click / With Previous / After Previous), डिले, ड्यूरेशन सेट करें।  
+15. **मॉर्फ ट्रांज़िशन** — दो स्लाइड्स पर समान ऑब्जेक्ट (नाम/पोज़ीशन) हों तो Morph स्वतः गति/आकार/रंग परिवर्तन दिखाता है; जटिल एनिमेशन का सरल विकल्प।  
+16. **स्लाइड शो मोड** — F5 (शुरू से), Shift+F5 (वर्तमान स्लाइड से); प्रेजेंटर व्यू (Alt+F5) — नोट्स, अगली स्लाइड, टाइमर, लेज़र पॉइंटर, ज़ूम।  
+17. **कीबोर्ड शॉर्टकट (विंडोज़/ऑफिस स्कोप)** — Ctrl+N नई प्रस्तुति, Ctrl+S सेव, Ctrl+M नई स्लाइड, Ctrl+D डुप्लीकेट, Ctrl+G ग्रुप, Ctrl+Shift+G अनग्रुप, F5 स्लाइड शो, Esc समाप्त, B/काला स्क्रीन, W/सफ़ेद स्क्रीन, Ctrl+P पेन, Ctrl+E इरेज़र। (ब्राउज़र संस्करण में कुछ भिन्न हो सकते हैं।)  
+18. **सेक्शन व्यवस्था** — स्लाइड सॉर्टर व्यू में राइट-क्लिक → Add Section; बड़े प्रस्तुति को तार्किक भागों में बाँटें, सेक्शन नाम दें, संकुचित/विस्तारित करें।  
+19. **हाइपरलिंक और एक्शन** — Insert → Link (वेब, फ़ाइल, इसी प्रस्तुति में स्लाइड, ईमेल); Insert → Action → Mouse Click / Mouse Over पर मैक्रो/स्लाइड/ध्वनि चलाएँ।  
+20. **निर्यात/साझा करना** — File → Export → Create a Video (MP4, टाइमिंग/नरेशन सहित), Create Handouts (Word में), Package Presentation for CD (फ़ॉन्ट/लिंक सहित फ़ोल्डर), Save as PDF/XPS।  
+21. **सहयोग और टिप्पणी** — Review → New Comment, @मेंशन; Share बटन (OneDrive/SharePoint पर सहेजा हो) → रियल-टाइम सह-संपादन, संस्करण इतिहास (File → Info → Version History)।  
+22. **एक्सेसिबिलिटी जाँच** — Review → Check Accessibility → Alt Text गायब, पठन क्रम, रंग कंट्रास्ट, स्लाइड शीर्षक डुप्लीकेट आदि चेतावनी देता है; "Keep accessibility checker running while I work" सक्षम करें।  
+23. **सुरक्षा** — File → Info → Protect Presentation → Encrypt with Password (खोलने के लिए), Restrict Editing (संपादन प्रतिबंध), Mark as Final (केवल पढ़ने का संकेत), Digital Signature।  
+24. **ऐड-इन्स** — Insert → Get Add-ins (Office Store) — उदाहरण: Mentimeter, Poll Everywhere, Lucidchart, Icons8; केवल विश्वसनीय प्रकाशक के ऐड-इन स्थापित करें।  
+25. **सामान्य गलतियाँ और सुधार** — (क) स्लाइड पर अत्यधिक टेक्स्ट → 6×6 नियम (अधिकतम 6 बुलेट, 6 शब्द/बुलेट); (ख) कम कंट्रास्ट रंग → WCAG AA अनुपात जाँचें; (ग) एनिमेशन अति → केवल मुख्य बिंदु पर; (घ) फ़ॉन्ट एम्बेड न करना → File → Options → Save → "Embed fonts in the file" चालू करें; (ड़) रिमोट क्लिकर न जाँचना → पूर्वाभ्यास में हार्डवेयर टेस्ट करें।

@@ -1,0 +1,149 @@
+26. Which tab in the PowerPoint Ribbon contains the New Slide, Layout, and Reset commands?
+(a) View (b) Insert (c) Design (d) Home
+Answer: (d)
+Solution: The Insert tab is for adding objects like tables and pictures, while Design handles themes and variants; the Home tab holds the core slide-management commands New Slide, Layout, and Reset, so the answer is Home.
+Source: Microsoft Support – PowerPoint Ribbon overview
+
+27. What is the default keyboard shortcut in PowerPoint for Windows to insert a new slide?
+(a) Ctrl+M (b) Ctrl+N (c) Ctrl+Shift+N (d) Alt+N
+Answer: (a)
+Solution: Ctrl+N creates a new presentation file, not a slide within the current file; Ctrl+M is the dedicated shortcut to add a new slide using the current layout, so the answer is Ctrl+M.
+Source: Microsoft Learn – PowerPoint keyboard shortcuts (Windows)
+
+28. Which view shows thumbnail versions of all slides and allows easy reordering by drag-and-drop?
+(a) Slide Sorter view (b) Normal view (c) Reading view (d) Outline view
+Answer: (a)
+Solution: Normal view is for editing one slide at a time, Outline view shows text structure, and Reading view is for full-screen preview; Slide Sorter view displays all slides as thumbnails for quick rearrangement, so the answer is Slide Sorter view.
+Source: Microsoft Support – Switch between views in PowerPoint
+
+29. A slide layout determines which of the following?
+(a) The theme colors and fonts applied to the presentation (b) The animation sequence of objects (c) The transition effect between slides (d) The arrangement of placeholders on a slide
+Answer: (d)
+Solution: Theme colors and fonts are set in the Design tab, transitions and animations are separate features; a layout specifically defines the position and type of placeholders (title, content, picture, etc.) on a slide, so the answer is the arrangement of placeholders on a slide.
+Source: Microsoft Support – Apply or change a slide layout
+
+30. Which command removes all manual formatting from selected text and returns it to the default style of the current theme?
+(a) Format Painter (b) Reset (c) Clear All Formatting (d) Replace Fonts
+Answer: (c)
+Solution: Reset restores slide placeholders to their layout positions, Format Painter copies formatting, and Replace Fonts swaps one font for another; Clear All Formatting (Home ▸ Font group) strips manual formatting and reverts text to the theme defaults, so the answer is Clear All Formatting.
+Source: Microsoft Support – Clear formatting in PowerPoint
+
+31. When inserting a picture from a file, which tab and group contain the Pictures command?
+(a) View ▸ Master Views (b) Design ▸ Themes (c) Home ▸ Slides (d) Insert ▸ Images
+Answer: (d)
+Solution: The Design tab handles themes, Home ▸ Slides manages slide insertion, and View ▸ Master Views opens master editors; the Pictures command sits in the Images group on the Insert tab, so the answer is Insert ▸ Images.
+Source: Microsoft Support – Insert a picture in PowerPoint
+
+32. What is the key difference between a transition and an animation in PowerPoint?
+(a) Transitions control how slides change; animations control object movement on a slide (b) Transitions apply to objects; animations apply to slides (c) Transitions are only available in Slide Show view; animations work in all views (d) Animations can have sound; transitions cannot
+Answer: (a)
+Solution: The trap is reversing the scope — transitions govern the visual effect when moving from one slide to the next, while animations govern the entrance, emphasis, exit, or motion paths of individual objects on a single slide, so the answer is transitions control how slides change; animations control object movement on a slide.
+Source: Microsoft Support – Add transitions and animations
+
+33. What is the primary purpose of the Slide Master?
+(a) To create a custom slide show for different audiences (b) To define the default layout, theme, and placeholder positions for all slides (c) To rehearse and record slide timings (d) To compress media files in the presentation
+Answer: (b)
+Solution: Custom slide shows are created in the Slide Show tab, rehearsal timings use Rehearse Timings, and media compression is in File ▸ Info; the Slide Master stores the master layout, theme fonts, colors, and placeholder positions that propagate to all slides, so the answer is to define the default layout, theme, and placeholder positions for all slides.
+Source: Microsoft Support – What is a slide master?
+
+34. Which file format preserves the exact visual appearance of slides but is not editable in PowerPoint?
+(a) .pptx (b) .potx (c) .pdf (d) .ppsx
+Answer: (c)
+Solution: .pptx is the editable default format, .potx is a template, and .ppsx opens directly in Slide Show but remains editable; PDF exports a fixed-layout, non-editable version for sharing and printing, so the answer is .pdf.
+Source: Microsoft Support – Save a presentation as a PDF
+
+35. In Presenter View, which of the following is visible to the presenter but NOT to the audience?
+(a) The current slide only (b) Speaker notes, next slide preview, and timer (c) The laser pointer dot (d) The slide transition effect
+Answer: (b)
+Solution: The current slide and laser pointer are shown to both; transition effects play for the audience; only the presenter sees the notes pane, upcoming slide thumbnail, and elapsed-time timer, so the answer is speaker notes, next slide preview, and timer.
+Source: Microsoft Support – Use Presenter View
+
+36. Pressing F5 during editing starts the slide show from which slide?
+(a) The current slide (b) The slide selected in Slide Sorter (c) The last slide (d) The first slide
+Answer: (d)
+Solution: Shift+F5 starts from the current slide; F5 always begins the show from the very first slide regardless of where you are editing, so the answer is the first slide.
+Source: Microsoft Learn – PowerPoint keyboard shortcuts (Windows)
+
+37. The shortcut Ctrl+Shift+G performs which action on selected objects?
+(a) Group (b) Regroup (c) Ungroup (d) Align Center
+Answer: (c)
+Solution: Ctrl+G groups objects, Ctrl+Shift+G ungroups them, and Ctrl+J regroups; Align Center is in the Arrange menu, so the answer is Ungroup.
+Source: Microsoft Learn – PowerPoint keyboard shortcuts (Windows)
+
+38. Which pane allows you to reorder animation sequences by dragging items up or down?
+(a) Selection Pane (b) Animation Pane (c) Timing group (d) Effect Options
+Answer: (b)
+Solution: The Selection Pane manages object visibility and stacking order, Timing group sets start/duration/delay, and Effect Options customizes a single effect; the Animation Pane lists all animations on the slide and supports drag-and-drop reordering, so the answer is Animation Pane.
+Source: Microsoft Support – Change the order of animation effects
+
+39. To add slide numbers that appear on every slide automatically, which dialog box is used?
+(a) Slide Master ▸ Master Layout (b) Header and Footer (c) Insert ▸ Slide Number (d) Design ▸ Slide Size
+Answer: (b)
+Solution: Insert ▸ Slide Number opens the same Header and Footer dialog; Master Layout controls placeholders on the master, and Slide Size changes dimensions; the Header and Footer dialog (Insert ▸ Header & Footer) contains the Slide Number checkbox and Apply to All button, so the answer is Header and Footer.
+Source: Microsoft Support – Add slide numbers
+
+40. The Handout Master controls the layout of which output?
+(a) Speaker notes pages (b) Printed handouts with multiple slides per page (c) The outline view printout (d) The slide show on a second monitor
+Answer: (b)
+Solution: Notes Master governs notes pages, Outline view printing uses a separate layout, and second-monitor display is handled by Presenter View; Handout Master specifically arranges how multiple slide thumbnails appear on printed handout pages, so the answer is printed handouts with multiple slides per page.
+Source: Microsoft Support – Create and print handouts
+
+41. A PowerPoint theme (.thmx) includes which three components?
+(a) Layouts, Backgrounds, Transitions (b) Colors, Fonts, Effects (c) Animations, Triggers, Timings (d) Slide Size, Orientation, Margins
+Answer: (b)
+Solution: Layouts and backgrounds are part of the Slide Master, animations and triggers are separate features, and slide size/orientation are page-setup settings; a theme file packages a coordinated set of theme colors, theme fonts, and theme effects, so the answer is Colors, Fonts, Effects.
+Source: Microsoft Support – Apply a theme
+
+42. Which feature lets you assign an action (like hyperlink or run program) to a shape that triggers on mouse click or hover?
+(a) Action Settings (b) Animation Trigger (c) Hyperlink (d) ScreenTip
+Answer: (a)
+Solution: Animation triggers start animations on click of another object, Hyperlink only jumps to a location, and ScreenTip shows text on hover; Action Settings (Insert ▸ Action) assigns mouse-click or mouse-over actions such as hyperlink, run program, run macro, or play sound to any object, so the answer is Action Settings.
+Source: Microsoft Support – Add an action to an object
+
+43. When inserting an online video from YouTube, PowerPoint requires which of the following?
+(a) The video file downloaded locally (b) A YouTube API key (c) An active internet connection during playback (d) The video to be in .mp4 format only
+Answer: (c)
+Solution: Downloaded files use Insert ▸ Video ▸ This Device; no API key is needed for the built-in Online Video feature; PowerPoint embeds the YouTube player iframe, so the video streams live and requires internet at presentation time, so the answer is an active internet connection during playback.
+Source: Microsoft Support – Insert a video from YouTube
+
+44. Which shortcut key opens the Spelling pane to check the entire presentation?
+(a) F7 (b) Shift+F7 (c) Ctrl+F7 (d) Alt+F7
+Answer: (a)
+Solution: Shift+F7 opens the Thesaurus, Ctrl+F7 moves the window, and Alt+F7 has no default spelling function; F7 is the standard Office shortcut to start a spelling and grammar check, so the answer is F7.
+Source: Microsoft Learn – PowerPoint keyboard shortcuts (Windows)
+
+45. In Slide Sorter view, holding Ctrl while clicking slides allows you to:
+(a) Apply a transition to all slides (b) Copy the selected slides (c) Select multiple non-adjacent slides (d) Hide the selected slides
+Answer: (c)
+Solution: Ctrl+drag copies slides, transitions are applied via the Transitions tab, and hiding slides uses the context menu; Ctrl+click is the standard multi-select modifier for non-contiguous items, so the answer is select multiple non-adjacent slides.
+Source: Microsoft Support – Select multiple slides
+
+46. In the Animation Pane, a green star icon next to an animation indicates:
+(a) An exit effect (b) An emphasis effect (c) An entrance effect (d) A motion path
+Answer: (c)
+Solution: Yellow star = emphasis, red star = exit, green arrow = motion path; the green star is the icon used for entrance effects such as Fade, Fly In, or Appear, so the answer is an entrance effect.
+Source: Microsoft Support – Animation types and icons
+
+47. To make an animation start when a specific object is clicked (rather than automatically), you set the animation's trigger to:
+(a) On Click of [object name] (b) Start With Previous (c) Start After Previous (d) Start On Click
+Answer: (a)
+Solution: "Start On Click" means any click anywhere on the slide; "With Previous" and "After Previous" are time-based; only "On Click of [object name]" ties the animation start to a click on a specific object, so the answer is On Click of [object name].
+Source: Microsoft Support – Trigger an animation effect
+
+48. A Custom Slide Show allows you to:
+(a) Create a subset of slides for a specific audience without deleting slides (b) Apply different themes to different sections (c) Record narration for selected slides only (d) Export selected slides as a video
+Answer: (a)
+Solution: Sections manage themes per section, narration recording covers the whole show, and video export includes all slides; Custom Slide Show (Slide Show ▸ Custom Slide Show) lets you define named slide sequences from the same file for different audiences, so the answer is create a subset of slides for a specific audience without deleting slides.
+Source: Microsoft Support – Create a custom show
+
+49. Which export option creates a video file (.mp4 or .wmv) that includes recorded timings, narrations, and animations?
+(a) Save As ▸ MPEG-4 Video (b) Slide Show ▸ Record Slide Show (c) File ▸ Save As ▸ Windows Media Video (d) File ▸ Export ▸ Create a Video
+Answer: (d)
+Solution: Save As does not list video formats directly; Record Slide Show captures timings/narrations but does not produce a video file; the Export ▸ Create a Video command renders the full presentation with all recorded elements into an .mp4 or .wmv file, so the answer is File ▸ Export ▸ Create a Video.
+Source: Microsoft Support – Turn your presentation into a video
+
+50. The Accessibility Checker (Review ▸ Check Accessibility) flags which of the following as an error by default?
+(a) Missing slide titles (b) Low contrast text (c) Missing alt text on images (d) All of the above
+Answer: (d)
+Solution: Each individual issue (missing titles, low contrast, missing alt text) is flagged as an error, warning, or tip depending on severity; the checker reports all three categories, so the answer is All of the above.
+Source: Microsoft Support – Improve accessibility with the Accessibility Checker

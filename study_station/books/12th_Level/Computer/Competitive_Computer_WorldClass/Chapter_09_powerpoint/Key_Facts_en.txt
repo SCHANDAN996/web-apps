@@ -1,0 +1,49 @@
+1. **File Extensions** — Default presentation file is `.pptx` (XML-based, since Office 2007). Older binary format is `.ppt`. Macro-enabled is `.pptm`. Template files use `.potx` / `.potm`. Show files use `.ppsx` / `.ppsm`.
+
+2. **Ribbon Interface** — Tabs: Home, Insert, Design, Transitions, Animations, Slide Show, Review, View. Contextual tabs (e.g., Picture Format, Table Design) appear only when relevant object is selected. File backstage is accessed via the File tab.
+
+3. **Slide Master** — Controls global layout, fonts, colours, placeholders, headers/footers for all slides. Changes here propagate to every slide using that master. Access via View → Slide Master.
+
+4. **Layouts** — Pre-defined arrangements of placeholders (Title Slide, Title and Content, Section Header, Two Content, Comparison, Title Only, Blank, Content with Caption, Picture with Caption). Custom layouts can be added in Slide Master view.
+
+5. **Placeholders** — Dotted-border boxes on layouts that hold text, pictures, charts, tables, SmartArt, media, or clip art. Content typed in a placeholder in Normal view becomes part of the slide; content typed in Slide Master view becomes static background.
+
+6. **Views** — Normal (editing), Slide Sorter (reordering), Notes Page (speaker notes), Reading View (windowed view with simple navigation controls), Slide Show (full-screen presentation mode), Slide Master, Handout Master, Notes Master.
+
+7. **Sections** — Logical grouping of slides (Home → Section → Add Section). Useful for organising long decks; can be collapsed/expanded in Slide Sorter and printed separately.
+
+8. **Themes** — Coordinated set of colours, fonts, effects, and slide backgrounds. Applied via Design tab. Variants offer quick colour/font tweaks. Custom themes can be saved (`.thmx`).
+
+9. **Slide Size** — Default widescreen 16:9 (13.333″ × 7.5″). Standard 4:3 (10″ × 7.5″) available. Custom size in Design → Slide Size → Custom Slide Size. Changing size after content may reposition objects.
+
+10. **Text Formatting** — Font, size, colour, bold/italic/underline, shadow, reflection, glow, 3-D rotation, character spacing, text fill/outline. Mini toolbar appears on right-click. Format Painter copies formatting.
+
+11. **Bullets & Numbering** — Home → Paragraph group. Custom bullets from symbols or pictures. Multi-level lists with Tab/Shift+Tab. Numbering formats: 1, 2, 3; a, b, c; i, ii, iii; etc.
+
+12. **Shapes** — Insert → Shapes. Lines, rectangles, basic shapes, block arrows, equation shapes, flowchart, stars/banners, callouts, action buttons. Merge Shapes (Union, Combine, Fragment, Intersect, Subtract) under Shape Format → Merge Shapes.
+
+13. **SmartArt** — Insert → SmartArt. Categories: List, Process, Cycle, Hierarchy, Relationship, Matrix, Pyramid, Picture. Text pane edits content; layout auto-adjusts. Convert to shapes (right-click → Convert to Shapes) for full editing.
+
+14. **Charts** — Insert → Chart. Types: Column, Line, Pie, Bar, Area, Scatter, Map, Stock, Surface, Radar, Treemap, Sunburst, Histogram, Box & Whisker, Waterfall, Funnel. Data edited in embedded Excel sheet. Chart Elements, Styles, Filters buttons appear on selection.
+
+15. **Tables** — Insert → Table. Draw or specify rows/columns. Table Design tab for styles, shading, borders, banded rows/columns, header row, total row. Layout tab for cell size, alignment, merge/split, rows/columns insert/delete.
+
+16. **Images & Icons** — Insert → Pictures (This Device, Stock Images, Online Pictures). Insert → Icons (Office 365/2019+). Insert → 3D Models. Picture Format tab: Remove Background, Corrections, Color, Artistic Effects, Transparency, Crop, Compress Pictures.
+
+17. **Media** — Insert → Media → Audio (Audio on My PC, Record Audio) / Video (Video on My PC, Online Video). Playback tab: Trim, Fade, Volume, Start (Automatically/On Click), Play Across Slides, Loop, Rewind, Hide During Show.
+
+18. **Transitions** — Effects between slides (None, Cut, Fade, Push, Wipe, Split, Reveal, Random Bars, Morph, etc.). Effect Options vary by transition. Timing: Sound, Duration, Advance Slide (On Mouse Click / After [seconds]). Apply to All.
+
+19. **Animations** — Four types: Entrance, Emphasis, Exit, Motion Paths. Add multiple effects per object via the Animation Pane. Timing: Start (On Click, With Previous, After Previous), Duration, Delay. Animation Pane shows sequence; reorder with arrows. Effect Options per animation.
+
+20. **Morph Transition** — Smooth object movement, resize, recolour, text change between two slides with same objects (matched by name). Requires duplicate slide with modified objects. PowerPoint 2019/365+.
+
+21. **Slide Show Controls** — F5 (start from beginning), Shift+F5 (start from current slide). In show: N/Enter/Space/Right Arrow (next), P/Backspace/Left Arrow (previous), B/. (black screen), W/, (white screen), Ctrl+P (pen), Ctrl+E (eraser), Esc (end). Presenter View (Alt+F5) shows notes, next slide, timer on second monitor.
+
+22. **Hyperlinks & Actions** — Insert → Link (Existing File/Web Page, Place in This Document, Create New Document, Email Address). Action Settings (Insert → Action): Mouse Click / Mouse Over → Hyperlink, Run Program, Run Macro, Object Action, Play Sound.
+
+23. **Comments & Review** — Review → New Comment. Threaded replies. @mentions (Office 365). Compare (Review → Compare) merges changes from another file. Track Changes not available in PowerPoint (unlike Word).
+
+24. **Export & Share** — File → Export: Create PDF/XPS, Create Video (MP4/WMV), Package Presentation for CD, Create Handouts (Word), Change File Type. Share (Office 365): co-authoring in real time, link with permissions.
+
+25. **Keyboard Shortcuts (Windows)** — Ctrl+N (new), Ctrl+O (open), Ctrl+S (save), F12 (Save As), Ctrl+P (print), Ctrl+Z/Y (undo/redo), Ctrl+X/C/V (cut/copy/paste), Ctrl+D (duplicate), Ctrl+G (group), Ctrl+Shift+G (ungroup), Ctrl+A (select all), Ctrl+M (new slide), F5 (slide show), Shift+F5 (from current), Alt+F5 (Presenter View), Ctrl+F1 (toggle Ribbon), Alt+F, T (Options). Browser (PowerPoint Online) shortcuts differ; e.g., F5 refreshes page, not start show.
