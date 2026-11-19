@@ -1,0 +1,34 @@
+```mermaid
+graph TD
+    A["लिंग वचन और कारक / Gender Number Case"]
+    B["लिंग / Gender"]
+    C["पुल्लिंग / Masculine"]
+    D["स्त्रीलिंग / Feminine"]
+    E["वचन / Number"]
+    F["एकवचन / Singular"]
+    G["बहुवचन / Plural"]
+    H["कारक / Case"]
+    I["कर्ता कारक / Nominative"]
+    J["कर्म कारक / Accusative"]
+    K["करण कारक / Instrumental"]
+    L["संप्रदान कारक / Dative"]
+    M["अपादान कारक / Ablative"]
+    N["संबंध कारक / Genitive"]
+    O["अधिकरण कारक / Locative"]
+    P["संबोधन कारक / Vocative"]
+    A --> B
+    A --> E
+    A --> H
+    B --> C
+    B --> D
+    E --> F
+    E --> G
+    H --> I
+    H --> J
+    H --> K
+    H --> L
+    H --> M
+    H --> N
+    H --> O
+    H --> P
+```

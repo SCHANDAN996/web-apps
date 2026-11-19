@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 05:44 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 03:11 PM
+**आख़िरी update:** 19-11-2026 05:54 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 03:11 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 29 मिनट |
-| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 115 मिनट |
-| W3 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
-| W4 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 24 मिनट |
+| W1 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 39 मिनट |
+| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 125 मिनट |
+| W3 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 41 मिनट |
+| W4 | Chapter 05 ling vachan karak (10th Hindi) | 📤 push हो रहा है | 0 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 111 |
-| key 4 | 108 |
+| key 3 | 117 |
+| key 4 | 111 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -44,7 +44,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 19-11 17:54 — 10th Hindi · Chapter 05 ling vachan karak
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
@@ -52,24 +52,12 @@
 - Chapter 05 ling vachan karak (Hindi) — 2 बार
 - Chapter 07 word (Computer) — 1 बार
 - Chapter 06 kaal vachya (Hindi) — 1 बार
-- Chapter 01 varn vartani (Hindi) — 1 बार
+- Chapter 01 varn vartani (Hindi) — 2 बार
 - Chapter 08 samas (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 17:14:49   [ling_vachan_karak] written 2, failed 1; AI calls today 179/100000
-19-11 17:14:49 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 29 min: todo [] problems []
-19-11 17:14:50 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word (OK: todo 0, problems 0)
-19-11 17:14:50   [word] review Content_hi.txt: resumed private correction draft
-19-11 17:15:14   [sandhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q26 key a vs re-solve b, Q27 key c vs re-solve b, Q35 key d vs re-solve c, Q40 key a vs re-solve c)
-19-11 17:16:17   [kaal_vachya] review Content_hi.txt round 1: 2 issue(s): - In the Present Tense table, the structure for "पूर्ण सतत" incorrectly includes "से/को" as part of the ver
-19-11 17:19:47   [sangya_sarvanam] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम ३ की तालिका में "ई कारांत (पुल्लिंग)" के बहुवचन नियम में "ओं" प्रत्यय गलत है
-19-11 17:19:47   [sangya_sarvanam] review: 0 section(s) corrected, 1 failed
-19-11 17:19:47   [sangya_sarvanam] written 0, failed 1; AI calls today 184/100000
-19-11 17:19:47 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 39 min: todo [] problems []
-19-11 17:19:47 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (OK: todo 0, problems 0)
-19-11 17:19:47   [varn_vartani] review Key_Facts_hi.txt: resumed private correction draft
 19-11 17:20:36   [word] review Content_hi.txt round 1: 1 issue(s): - फिर से करें (Redo) के लिए शॉर्टकट कॉलम में "Ctrl+Y (या Ctrl+Shift+Z)" लिखा है और स्कोप "Word" दिखाया गया 
 19-11 17:21:07   [varn_vartani] review Key_Facts_hi.txt round 1: 2 issue(s): - Point 1: The breakdown “33 मूल व्यंजन + 4 संयुक्त व्यंजन + 2 द्वित्व व्यंजन + कई नुक्ता-युक्त व्यंजन = 
 19-11 17:23:21   [word] review Key_Facts_en.txt: resumed private correction draft
@@ -98,4 +86,16 @@
 19-11 17:39:37   [varn_vartani] review Important_Rules_hi.txt: resumed private correction draft
 19-11 17:42:09   [varn_vartani] review Important_Rules_hi.txt round 1: 1 issue(s): - In rule 10, visarga sandhi for क/ख incorrectly states "विसर्ग लोप" (visarga loss) while the examp
 19-11 17:43:57   [sandhi] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q71 key c vs re-solve d, Q72 key d vs re-solve c, Q73 key c vs re-solve a)
+19-11 17:45:51   [varn_vartani] review Important_Rules_hi.txt round 2: 1 issue(s): - Rule 5 example: “हँसना → मानक हंसना” shows the standard form without anusvara → Correct standard 
+19-11 17:48:03   [varn_vartani] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - In Section 5, the example for standard spelling of "हँसना" shows "हं सना" with an
+19-11 17:48:03   [varn_vartani] review: 0 section(s) corrected, 3 failed
+19-11 17:48:03   [varn_vartani] written 0, failed 3; AI calls today 224/100000
+19-11 17:48:03 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 28 min: todo [] problems []
+19-11 17:48:03 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (OK: todo 0, problems 0)
+19-11 17:48:03   [ling_vachan_karak] review PYQ_hi.txt: resumed private correction draft
+19-11 17:51:33   [kaal_vachya] review Important_Rules_hi.txt round 2: 4 issue(s): - Rule 1: Example "राम पढ़ा।" for past tense is incorrect for transitive verb "पढ़ना" → Use intrans
+19-11 17:53:01   [sandhi] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q53 key b vs re-solve ?, Q71 key c vs re-solve b, Q73 key c vs re-solve a)
+19-11 17:53:01   [sandhi] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+19-11 17:54:02   [ling_vachan_karak] review: 1 section(s) corrected, 0 failed
+19-11 17:54:02   [ling_vachan_karak] written 1, failed 0; AI calls today 229/100000
 ```
