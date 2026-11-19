@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 09:08 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
+**आख़िरी update:** 19-11-2026 09:23 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
-| W2 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 25 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
-| W4 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 7 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 46 मिनट |
+| W2 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 41 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 46 मिनट |
+| W4 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 22 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 22 |
-| key 4 | 17 |
+| key 3 | 30 |
+| key 4 | 25 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -54,16 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 20:37:03   [kaal_vachya] review Content_hi.txt: resumed private correction draft
-19-11 20:37:07 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi (TODO: todo 5, problems 0)
-19-11 20:37:08   [sandhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
-19-11 20:37:12 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word (OK: todo 0, problems 0)
-19-11 20:37:13   [word] review Key_Facts_en.txt: resumed private correction draft
-19-11 20:37:51   [varn_vartani] review Key_Facts_hi.txt round 1: 3 issue(s): - The traditional Hindi alphabet count is 44 (11 vowels + 33 consonants); the conjuncts (क्ष, त्र, ज्ञ, श
-19-11 20:39:44   [kaal_vachya] review Content_hi.txt round 1: 3 issue(s): - In Example 6 explanation, "ने के स्थान पर द्वारा" is incorrect because the active sentence "लड़के फुटबॉल 
-19-11 20:39:46   [word] review Key_Facts_en.txt round 1: 4 issue(s): - Point 9: "Shift+F3 cycles UPPER/lower/Sentence case" → "Shift+F3 cycles UPPERCASE, lowercase, Capitaliz
-19-11 20:41:42   [word] review Key_Facts_en.txt round 2: 1 issue(s): - Point 20 states "blue wavy underline = grammar (Word 2016/2019)"; grammar errors are indicated by a blu
-19-11 20:42:22   [kaal_vachya] review: 1 section(s) corrected, 0 failed
 19-11 20:42:22   [kaal_vachya] written 1, failed 0; AI calls today 11/100000
 19-11 20:42:49 DONE 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya in 5 min → ec29085a
 19-11 20:42:50 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas (TODO: todo 3, problems 0)
@@ -94,4 +84,14 @@
 19-11 21:02:06   [varn_vartani] review Feynman_hi.txt round 1: 1 issue(s): - Section 4 table: both "सही शब्द" and "गलत शब्द" columns show "आश्चर्य" (with च); the गलत शब्द should be "
 19-11 21:04:58   [upsarg_pratyay] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q1 key a vs re-solve b, Q13 key b vs re-solve a, Q16 key a vs re-solve c, Q20 key b vs re-solve a, Q
 19-11 21:07:25   [samas] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q57 key d vs re-solve a, Q59 key a vs re-solve b, Q60 key d vs re-solve c)
+19-11 21:11:03   [upsarg_pratyay] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q11 key b vs re-solve a, Q13 key c vs re-solve b, Q16 key b vs re-solve c, Q20 key a vs re-solve b)
+19-11 21:11:53   [samas] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q66 key d vs re-solve b)
+19-11 21:15:00   [samas] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q66 key d vs re-solve b)
+19-11 21:15:00   [samas] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+19-11 21:15:24   [upsarg_pratyay] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q11 key a vs re-solve b, Q20 key a vs re-solve b)
+19-11 21:20:09   [samas] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q114 key a vs re-solve b, Q116 key d vs re-solve a, Q122 key a vs re-solve c)
+19-11 21:20:26   [upsarg_pratyay] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q20 key a vs re-solve b)
+19-11 21:20:26   [upsarg_pratyay] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
+19-11 21:22:31   [varn_vartani] review Feynman_hi.txt round 2: 1 issue(s): - The confused word-pair table lists "आश्चर्य" (च वर्ण) as correct and "आश्चर्य" (छ वर्ण) as incorrect, but
+19-11 21:22:46   [samas] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q116 key a vs re-solve d, Q122 key a vs re-solve b)
 ```
