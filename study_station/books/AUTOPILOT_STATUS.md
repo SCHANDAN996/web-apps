@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 06:14 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 03:11 PM
+**आख़िरी update:** 19-11-2026 06:29 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 03:11 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 6 मिनट |
-| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 146 मिनट |
-| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 19 मिनट |
-| W4 | Chapter 08 excel (12th Computer) | ✍️ लिख रहा है | 9 मिनट |
+| W1 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 21 मिनट |
+| W2 | Chapter 09 powerpoint (12th Computer) | ✍️ लिख रहा है | 12 मिनट |
+| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 34 मिनट |
+| W4 | Chapter 08 excel (12th Computer) | ✍️ लिख रहा है | 24 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 131 |
-| key 4 | 120 |
+| key 3 | 141 |
+| key 4 | 131 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -53,31 +53,11 @@
 - Chapter 06 kaal vachya (Hindi) — 2 बार
 - Chapter 01 varn vartani (Hindi) — 2 बार
 - Chapter 08 samas (Hindi) — 1 बार
+- Chapter 07 sandhi (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 17:48:03   [varn_vartani] written 0, failed 3; AI calls today 224/100000
-19-11 17:48:03 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 28 min: todo [] problems []
-19-11 17:48:03 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (OK: todo 0, problems 0)
-19-11 17:48:03   [ling_vachan_karak] review PYQ_hi.txt: resumed private correction draft
-19-11 17:51:33   [kaal_vachya] review Important_Rules_hi.txt round 2: 4 issue(s): - Rule 1: Example "राम पढ़ा।" for past tense is incorrect for transitive verb "पढ़ना" → Use intrans
-19-11 17:53:01   [sandhi] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q53 key b vs re-solve ?, Q71 key c vs re-solve b, Q73 key c vs re-solve a)
-19-11 17:53:01   [sandhi] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
-19-11 17:54:02   [ling_vachan_karak] review: 1 section(s) corrected, 0 failed
-19-11 17:54:02   [ling_vachan_karak] written 1, failed 0; AI calls today 229/100000
-19-11 17:54:15 DONE 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak in 6 min → 3d096d68
-19-11 17:54:15 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
-19-11 17:54:16   [sangya_sarvanam] review Important_Rules_hi.txt: resumed private correction draft
-19-11 17:55:18   [kaal_vachya] review: 2 section(s) corrected, 1 failed
-19-11 17:55:18   [kaal_vachya] written 2, failed 1; AI calls today 230/100000
-19-11 17:55:18 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya after 42 min: todo [] problems []
-19-11 17:55:19 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas (TODO: todo 3, problems 0)
-19-11 17:55:19   [samas] Hindi-only writer: direct Hindi content; English generation and translation disabled
-19-11 17:56:29   [sandhi] Practice_hi_Set_05.txt try 1: rejected (parsed 24 questions, numbers 101…125)
-19-11 17:56:49   [word] review PYQ_hi.txt: resumed private correction draft
-19-11 17:57:16   [sandhi] Practice_hi_Set_05.txt try 2: rejected (Q105:duplicate_options,Q106:duplicate_options,Q109:duplicate_options,Q112:duplicate_options,Q114:duplicate_opt
-19-11 17:57:45   [word] review PYQ_hi.txt round 1: 1 issue(s): - The 'स्कोप भ्रम' trap incorrectly claims that the statement "Ctrl+F opens Find" is false for "all Office apps
 19-11 17:58:38   [sandhi] Practice_hi_Set_05.txt try 3: rejected (Q114:duplicate_options,Q116:duplicate_options,Q119:duplicate_options,Q121:duplicate_options,Q122:duplicate_opt
 19-11 18:00:15   [sandhi] Practice_hi_Set_05.txt try 4: rejected (Q121:duplicate_options,Q122:duplicate_options,Q123:duplicate_options,Q124:duplicate_options,Q125:duplicate_opt
 19-11 18:00:15   [sandhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
@@ -97,4 +77,25 @@
 19-11 18:08:02   [upsarg_pratyay] Hindi-only writer: direct Hindi content; English generation and translation disabled
 19-11 18:08:46   [samas] Practice_hi_Set_01.txt try 1: rejected (parsed 24 questions, numbers 1…25)
 19-11 18:12:39   [samas] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q9 key a vs re-solve ?, Q25 key c vs re-solve a)
+19-11 18:16:53   [sandhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q126 key b vs re-solve a, Q127 key a vs re-solve d, Q128 key d vs re-solve a, Q133 key d vs re-solve
+19-11 18:16:53   [sandhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
+19-11 18:16:53   [sandhi] written 0, failed 5; AI calls today 253/100000
+19-11 18:16:53 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi after 148 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo'] problems []
+19-11 18:16:54 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_09_powerpoint (TODO: todo 25, problems 0)
+19-11 18:17:27   [samas] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q9 key a vs re-solve ?, Q17 key d vs re-solve ?, Q20 key c vs re-solve b, Q21 key c vs re-solve b, Q
+19-11 18:20:21   [samas] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q9 key a vs re-solve d)
+19-11 18:20:21   [samas] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
+19-11 18:21:57   [samas] Practice_hi_Set_03.txt try 1: rejected (parsed 24 questions, numbers 51…75)
+19-11 18:22:17   [upsarg_pratyay] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q7 key a vs re-solve d, Q14 key b vs re-solve a)
+19-11 18:22:38   [samas] Practice_hi_Set_03.txt try 2: rejected (Q56:duplicate_options)
+19-11 18:23:18   [powerpoint] wrote Content_en.txt (13076 chars)
+19-11 18:25:08   [powerpoint] wrote Content_hi.txt (22461 chars)
+19-11 18:25:37   [powerpoint] wrote Key_Facts_en.txt (6074 chars)
+19-11 18:26:06   [powerpoint] wrote Key_Facts_hi.txt (4483 chars)
+19-11 18:26:15   [samas] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q60 key d vs re-solve a, Q61 key b vs re-solve a, Q64 key a vs re-solve d, Q71 key b vs re-solve c, 
+19-11 18:26:28   [powerpoint] wrote Feynman_en.txt (4519 chars)
+19-11 18:27:10   [powerpoint] wrote Feynman_hi.txt (4869 chars)
+19-11 18:27:22   [powerpoint] wrote Mind_Map.txt (1282 chars)
+19-11 18:27:40   [powerpoint] wrote Flashcards_en.txt (3746 chars)
+19-11 18:29:13   [excel] Practice_en_Set_06.txt try 1: re-solve disagrees (Q146 key b vs re-solve d)
 ```
