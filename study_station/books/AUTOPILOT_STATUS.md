@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 11:04 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 06:58 AM
+**आख़िरी update:** 19-11-2026 11:19 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 06:58 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 13 मिनट |
-| W2 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 94 मिनट |
-| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 94 मिनट |
-| W4 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 26 मिनट |
+| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 29 मिनट |
+| W2 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 109 मिनट |
+| W4 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 41 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 165 |
-| key 4 | 211 |
+| key 3 | 175 |
+| key 4 | 224 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -50,7 +49,7 @@
 - Chapter 03 sangya sarvanam (Hindi) — 3 बार
 - Chapter 06 kaal vachya (Hindi) — 2 बार
 - Chapter 01 varn vartani (Hindi) — 3 बार
-- Chapter 08 samas (Hindi) — 1 बार
+- Chapter 08 samas (Hindi) — 2 बार
 - Chapter 07 word (Computer) — 2 बार
 - Chapter 07 sandhi (Hindi) — 1 बार
 - Chapter 08 excel (Computer) — 1 बार
@@ -58,21 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 10:28:39   [varn_vartani] REJECTED review fix Feynman_hi.txt: reviewer still reports - Section 1: States 33 consonants but lists 36 (including क्ष, त्र, ज्ञ); 11+33=44 contradi
-19-11 10:32:11   [upsarg_pratyay] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q52 key a vs re-solve b, Q71 key c vs re-solve b)
-19-11 10:32:40   [samas] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q115 key a vs re-solve ?, Q119 key c vs re-solve d, Q121 key b vs re-solve c)
-19-11 10:34:08   [upsarg_pratyay] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q70 key a vs re-solve c)
-19-11 10:34:08   [upsarg_pratyay] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
-19-11 10:34:49   [upsarg_pratyay] Practice_hi_Set_04.txt try 1: rejected (parsed 24 questions, numbers 76…100)
-19-11 10:35:08   [sangya_sarvanam] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - In point 4, the plural rule for vowel endings (उ, ऊ, ऋ, अ) → "ओं" incorrectly lists "नद
-19-11 10:36:06   [sangya_sarvanam] review Important_Rules_hi.txt: 7 issue(s): - नियम २ में "आ कारांत स्त्रीलिंग" के उदाहरणों में "बहन", "सास", "नानी" आ-कारांत नहीं हैं → इन्हें हटाकर वा
-19-11 10:37:04   [varn_vartani] review Flashcards_hi.txt: 1 issue(s): - Card 12 incorrectly labels 'में' as anusvara/bindu (बिंदु/अनुस्वार) → 'में' uses chandrabindu (ँ), not anusvar
-19-11 10:38:05   [sangya_sarvanam] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 2: "ई कारांत प्रायः स्त्रीलिंग" incorrectly lists "किताब" and "मेज" (not ई-क
-19-11 10:38:05   [sangya_sarvanam] review: 0 section(s) corrected, 2 failed
-19-11 10:38:05   [sangya_sarvanam] written 0, failed 2; AI calls today 341/100000
-19-11 10:38:05 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 25 min: todo [] problems []
-19-11 10:38:06 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya (OK: todo 0, problems 0)
-19-11 10:38:52   [samas] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q114 key c vs re-solve b, Q115 key c vs re-solve ?)
 19-11 10:40:00   [varn_vartani] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 5: Chandrabindu rule states it is used "जब मात्रा पहले से लगी हो" but the example
 19-11 10:41:57   [varn_vartani] review PYQ_hi.txt: 1 issue(s): - The rule for 'न्' before य/र/ल/व/श/ष/स/ह incorrectly states it becomes anusvara (ं); in standard Hindi spelling, 'न्'
 19-11 10:42:40   [samas] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q114 key c vs re-solve b, Q121 key c vs re-solve b)
@@ -98,4 +82,19 @@
 19-11 11:03:05   [upsarg_pratyay] wrote Practice_hi_Set_05.txt (write, 25 MCQs)
 19-11 11:04:28   [upsarg_pratyay] Practice_hi_Set_06.txt try 1: rejected (parsed 24 questions, numbers 126…150)
 19-11 11:04:31   [samas] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q138 key c vs re-solve b, Q139 key d vs re-solve c)
+19-11 11:05:40   [ling_vachan_karak] review Key_Facts_hi.txt: 6 issue(s): - Point 4: Neuter gender examples are wrong – किताब, मेज, पानी, आकाश are not नपुंसकलिंग in Hindi → Remove the cla
+19-11 11:06:12   [kaal_vachya] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 2 lists “संदिग्ध वर्तमान” as a present tense form; Hindi present tense has only t
+19-11 11:08:55   [samas] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q132 key a vs re-solve c, Q138 key a vs re-solve b, Q139 key c vs re-solve d, Q147 key d vs re-solve
+19-11 11:09:58   [kaal_vachya] review PYQ_hi.txt: 1 issue(s): - Section 1.3 (काल-संगति): The rule “मुख्य वाक्य वर्तमान में → अधीनस्थ वाक्य भविष्यत् में” and the trap “कि वाले वाक्य 
+19-11 11:12:54   [ling_vachan_karak] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 4 incorrectly states Hindi has a neuter gender (नपुंसकलिंग) and cites बच्चा, फल, 
+19-11 11:13:04   [samas] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q147 key a vs re-solve d)
+19-11 11:13:04   [samas] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
+19-11 11:13:05   [samas] written 0, failed 4; AI calls today 390/100000
+19-11 11:13:05 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas after 103 min: todo ['Set 01 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo', 'Set 06 hi: todo'] problems []
+19-11 11:13:05 worker 2: nothing left
+19-11 11:13:22   [ling_vachan_karak] review PYQ_hi.txt: 5 issue(s): - Invented exam statistic "SSC GD में इस अध्याय से 3–5 प्रश्न आते हैं" without year or source → remove or cite a specif
+19-11 11:14:26   [kaal_vachya] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 1.3 (काल-संगति) rule and PYQ-style उदाहरण 2 wrongly claim that a past main clause bin
+19-11 11:15:47   [ling_vachan_karak] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 7 heuristic "आकारान्त → एँ" is incorrect for masculine a-ending nouns (e.g., लड़का → 
+19-11 11:15:52   [upsarg_pratyay] Practice_hi_Set_06.txt try 2: rejected (Q132:duplicate_options)
+19-11 11:16:28   [ling_vachan_karak] review Important_Rules_hi.txt: 1 issue(s): - नियम ४ (घ) में कहा गया है कि इ/ई/उ/ऊ/ए/ओकारांत संज्ञाएँ प्रायः अपरिवर्तित रहती हैं, लेकिन उदाहरण "नदी → न
 ```
