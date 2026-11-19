@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 10:02 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 06:58 AM
+**आख़िरी update:** 19-11-2026 10:18 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 06:58 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 28 मिनट |
-| W2 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 33 मिनट |
-| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 33 मिनट |
-| W4 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 36 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 6 मिनट |
+| W2 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 48 मिनट |
+| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 48 मिनट |
+| W4 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 5 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 126 |
-| key 4 | 166 |
+| key 3 | 133 |
+| key 4 | 181 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -46,40 +46,18 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 05 ling vachan karak (Hindi) — 2 बार
+- Chapter 05 ling vachan karak (Hindi) — 3 बार
 - Chapter 03 sangya sarvanam (Hindi) — 2 बार
 - Chapter 06 kaal vachya (Hindi) — 2 बार
 - Chapter 01 varn vartani (Hindi) — 2 बार
 - Chapter 08 samas (Hindi) — 1 बार
-- Chapter 07 word (Computer) — 1 बार
+- Chapter 07 word (Computer) — 2 बार
 - Chapter 07 sandhi (Hindi) — 1 बार
 - Chapter 08 excel (Computer) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 09:29:54   [samas] Hindi-only writer: direct Hindi content; English generation and translation disabled
-19-11 09:29:55   [excel] Practice_en_Set_06.txt try 4: rejected (Q148:leaked_reasoning)
-19-11 09:29:55   [excel] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
-19-11 09:29:55   [excel] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-19-11 09:29:55   [excel] written 2, failed 2; AI calls today 244/100000
-19-11 09:29:55 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_08_excel after 8 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems ['PYQ_en.txt: unsourced claim "(concept)"']
-19-11 09:29:56 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay (TODO: todo 13, problems 0)
-19-11 09:29:56   [upsarg_pratyay] Hindi-only writer: direct Hindi content; English generation and translation disabled
-19-11 09:32:12   [upsarg_pratyay] wrote Content_hi.txt (10748 chars)
-19-11 09:32:31   [word] REJECTED review fix Content_en.txt: reviewer still reports - "Maximum undo levels: 100 (configurable in Options → Advanced; maximum allowed is 100)" →
-19-11 09:32:51   [upsarg_pratyay] wrote Key_Facts_hi.txt (3603 chars)
-19-11 09:33:38   [visheshan_kriya] review: 2 section(s) corrected, 0 failed
-19-11 09:33:39   [visheshan_kriya] written 2, failed 0; AI calls today 251/100000
-19-11 09:33:59 DONE 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya in 33 min → c6f9ce75
-19-11 09:33:59 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (OK: todo 0, problems 0)
-19-11 09:34:10   [upsarg_pratyay] wrote Feynman_hi.txt (5757 chars)
-19-11 09:35:08   [ling_vachan_karak] review Content_hi.txt: 5 issue(s): - Section 1 table (नपुंसकलिंग) misclassifies "पत्तल" (feminine) and "कमरा" (masculine) as neuter → "पत्तल" is स्त्र
-19-11 09:36:38   [ling_vachan_karak] REJECTED review fix Content_hi.txt: reviewer still reports - Section 2 table "बहुवचन बनाने के नियम", row 2 header says "**आ** (स्त्रीलिंग)" but exampl
-19-11 09:37:16   [ling_vachan_karak] review Key_Facts_hi.txt: 5 issue(s): - Point 4 claims “निर्जीव पदार्थ प्रायः नपुंसकलिंग होते हैं” and lists किताब, मेज, पानी, आकाश as neuter; in Hindi
-19-11 09:37:46   [samas] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q2 key c vs re-solve b, Q12 key a vs re-solve b, Q18 key c vs re-solve a, Q25 key c vs re-solve b)
-19-11 09:38:04   [upsarg_pratyay] wrote Mind_Map.txt (1139 chars)
-19-11 09:39:11   [word] review Content_hi.txt: 1 issue(s): - त्वरित पुनरीक्षण (बिंदु 3) में Focus मोड का शॉर्टकट Alt+V,F गलत दिया गया है → सही शॉर्टकट Alt+W,F है (View टैब का
 19-11 09:40:48   [upsarg_pratyay] wrote Flashcards_hi.txt (3801 chars)
 19-11 09:41:20   [upsarg_pratyay] wrote PYQ_hi.txt (5889 chars)
 19-11 09:42:19   [ling_vachan_karak] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 4: Neuter gender examples 'बच्चा' and 'जानवर' are incorrect; they are masculine n
@@ -98,4 +76,26 @@
 19-11 09:59:03   [samas] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
 19-11 10:02:25   [upsarg_pratyay] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q28 key c vs re-solve ?, Q32 key d vs re-solve ?, Q36 key d vs re-solve c, Q49 key b vs re-solve c)
 19-11 10:02:45   [ling_vachan_karak] review PYQ_hi.txt: 5 issue(s): - The claim "SSC GD में इस अध्याय से 3–5 प्रश्न आते हैं" is an invented exam statistic without a year → Remove the clai
+19-11 10:05:08   [samas] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q61 key d vs re-solve a, Q65 key a vs re-solve b, Q75 key c vs re-solve a)
+19-11 10:05:17   [word] REJECTED review fix Key_Facts_en.txt: reviewer still reports - Item 19 wildcard examples use regex syntax `{1,}` instead of Word's `@` for one-or-more
+19-11 10:07:01   [ling_vachan_karak] REJECTED review fix PYQ_hi.txt: reviewer still reports - In section 3 (कारक चिह्न पहचान), trap description: "कर्ता कारक 'ने' केवल अन्य पुरुष, भूतकाल, 
+19-11 10:07:52   [ling_vachan_karak] review Important_Rules_hi.txt: 2 issue(s): - नियम ४(घ) का कथन "इ/ई/उ/ऊ/ए/ओकारांत: प्रायः अपरिवर्तित" गलत है क्योंकि स्त्रीलिंग इ/ईकारांत संज्ञाएँ बहुव
+19-11 10:08:02   [samas] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q63 key c vs re-solve d, Q65 key a vs re-solve b, Q71 key a vs re-solve b)
+19-11 10:09:09   [word] review PYQ_en.txt: 2 issue(s): - In Example 1 explanation, the claim "Ctrl + Shift + F opens the Font dialog with focus on the Font list (legacy behav
+19-11 10:11:27   [ling_vachan_karak] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 4 (ङ) misclassifies 'वीर' (ईकारांत पुल्लिंग) under उ/ऊ/ए/ओकारांत पुल्लिंग. →
+19-11 10:11:27   [ling_vachan_karak] review: 0 section(s) corrected, 4 failed
+19-11 10:11:27   [ling_vachan_karak] written 0, failed 4; AI calls today 303/100000
+19-11 10:11:27 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 37 min: todo [] problems []
+19-11 10:11:27 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (OK: todo 0, problems 0)
+19-11 10:12:04   [word] REJECTED review fix PYQ_en.txt: reviewer still reports - Example 1 explanation claims "Ctrl + Shift + F changes the font size in some versions" → Ctrl
+19-11 10:12:05   [upsarg_pratyay] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q32 key d vs re-solve c)
+19-11 10:13:03   [word] review: 0 section(s) corrected, 4 failed
+19-11 10:13:03   [word] written 0, failed 4; AI calls today 306/100000
+19-11 10:13:04 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word after 47 min: todo [] problems []
+19-11 10:13:04 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
+19-11 10:14:14   [varn_vartani] review Content_hi.txt: 2 issue(s): - In section 3.4, the table lists the pronunciation place of 'ड़' and 'ढ़' as "तालव्य" (palatal); the correct place
+19-11 10:15:40   [samas] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q58 key a vs re-solve d)
+19-11 10:16:58   [samas] Practice_hi_Set_03.txt try 4: rejected (Q53:duplicate_options)
+19-11 10:16:58   [samas] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+19-11 10:18:06   [sangya_sarvanam] review Key_Facts_hi.txt: 2 issue(s): - Point 4: Rule "व्यंजनांत → एँ/ओं" is incorrect; consonant-ending nouns form plural with "एँ" (e.g., घर → घरें, 
 ```
