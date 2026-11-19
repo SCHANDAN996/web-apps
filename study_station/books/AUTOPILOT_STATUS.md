@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 02:48 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
+**आख़िरी update:** 20-11-2026 03:04 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 46 मिनट |
-| W2 | Chapter 11 email (12th Computer) | ✍️ लिख रहा है | 7 मिनट |
-| W3 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 46 मिनट |
-| W4 | Chapter 11 vilom (10th Hindi) | ✍️ लिख रहा है | 24 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 61 मिनट |
+| W2 | Chapter 11 email (12th Computer) | ✍️ लिख रहा है | 23 मिनट |
+| W3 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 61 मिनट |
+| W4 | Chapter 11 vilom (10th Hindi) | ✍️ लिख रहा है | 39 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 22 |
-| key 4 | 37 |
+| key 3 | 29 |
+| key 4 | 41 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -54,13 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 02:11:37   [paryayvachi] review Flashcards_hi.txt: resumed private correction draft
-20-11 02:12:12   [paryayvachi] review Flashcards_hi.txt round 1: 2 issue(s): - कार्ड 15: "तटिनी" की व्युत्पत्ति गलत दी गई है (तट + इनि = तटों को काटने वाली) → तटिनी = तट + इनि (स्त्
-20-11 02:14:27   [sandhi] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q1 key c vs re-solve d, Q3 key b vs re-solve d, Q4 key c vs re-solve d, Q17 key a vs re-solve d, Q18
-20-11 02:14:37   [samas] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 3: Example "अन्यत्र" (अन्य + त्र) for अव्ययीभाव is incorrect because the second m
-20-11 02:14:37   [samas] review Mind_Map.txt: resumed private correction draft
-20-11 02:15:33   [paryayvachi] review Important_Rules_hi.txt: resumed private correction draft
-20-11 02:18:32   [paryayvachi] review Important_Rules_hi.txt round 1: 4 issue(s): - नियम ४ में "नीर" को देशज बताया गया है, जबकि "नीर" संस्कृत का तत्सम शब्द है → "नीर (तत्सम)" लिखें
 20-11 02:21:05   [paryayvachi] review Important_Rules_hi.txt round 2: 4 issue(s): - सारणी में "राजा" को तत्सम/औपचारिक स्तम्भ में दिया गया है, किन्तु "राजा" तद्भव रूप है (संस्कृत राज
 20-11 02:24:41   [paryayvachi] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - तालिका में 'धर्म' के प्रचलित/सहज पर्यायवाची के रूप में 'धम्म' दिया गया है, जो आधु
 20-11 02:24:41   [paryayvachi] review: 3 section(s) corrected, 1 failed
@@ -94,4 +87,11 @@
 20-11 02:43:41   [upsarg_pratyay] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q14 key c vs re-solve d, Q16 key a vs re-solve c)
 20-11 02:43:57   [email] wrote Content_hi.txt (12035 chars)
 20-11 02:46:19   [upsarg_pratyay] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q14 key b vs re-solve a)
+20-11 02:50:27   [upsarg_pratyay] wrote Practice_hi_Set_01.txt (write, 25 MCQs)
+20-11 02:50:31   [vilom] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q10 key d vs re-solve a, Q12 key d vs re-solve c, Q14 key a vs re-solve c, Q19 key b vs re-solve d, 
+20-11 02:50:59   [upsarg_pratyay] Practice_hi_Set_04.txt try 1: rejected (Q88:duplicate_options)
+20-11 02:55:11   [vilom] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q15 key d vs re-solve ?, Q20 key c vs re-solve ?)
+20-11 03:00:48   [vilom] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q20 key d vs re-solve c)
+20-11 03:01:17   [sandhi] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q1 key b vs re-solve d, Q7 key d vs re-solve c, Q22 key a vs re-solve c, Q23 key a vs re-solve c)
+20-11 03:01:17   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
 ```
