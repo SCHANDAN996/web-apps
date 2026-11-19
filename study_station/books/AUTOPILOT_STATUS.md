@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 12:22 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 11:36 AM
+**आख़िरी update:** 19-11-2026 12:38 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 11:36 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 23 मिनट |
-| W2 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 2 मिनट |
-| W3 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 46 मिनट |
-| W4 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 21 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 38 मिनट |
+| W2 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 18 मिनट |
+| W3 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 7 मिनट |
+| W4 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 37 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 29 |
-| key 4 | 39 |
+| key 3 | 38 |
+| key 4 | 48 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -49,30 +49,12 @@
 - Chapter 01 varn vartani (Hindi) — 1 बार
 - Chapter 06 kaal vachya (Hindi) — 1 बार
 - Chapter 03 sangya sarvanam (Hindi) — 1 बार
+- Chapter 05 ling vachan karak (Hindi) — 1 बार
+- Chapter 08 excel (Computer) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 11:44:18   [kaal_vachya] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 10 example uses an intransitive verb for passive: "सीता गाती है" → "गाया जाता है 
-19-11 11:45:27   [varn_vartani] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 9: Example "संड" for ण is wrong — "संड" uses न, not ण → Use a correct example lik
-19-11 11:47:14   [sangya_sarvanam] review Key_Facts_hi.txt: 2 issue(s): - In point 6, the example "लड़कोंने खेला" shows a verb agreement error: plural subject "लड़कोंने" requires plural
-19-11 11:47:58   [kaal_vachya] review PYQ_hi.txt: 2 issue(s): - Section 2.1, rule 2: “क्रिया → जा/ई/ए + मूल क्रिया का भूतकालिक कृदंत” is wrong → correct passive formation: “मूल क्रि
-19-11 11:48:38   [varn_vartani] review Feynman_hi.txt: 4 issue(s): - The consonant list in section 1 includes 36 items (क to ज्ञ) but is labeled “व्यंजन (33)” → The list should conta
-19-11 11:52:24   [ling_vachan_karak] review Content_hi.txt: 5 issue(s): - वचन तालिका में "आ (स्त्रीलिंग)" पंक्ति के उदाहरण "लड़की → लड़कियाँ", "नदी → नदियाँ" ई-कारांत हैं, आ-कारांत नहीं; 
-19-11 11:53:08   [varn_vartani] REJECTED review fix Feynman_hi.txt: reviewer still reports - Section 4 (भ्रमित शब्द-युग्म table): The incorrect spelling for "आश्चर्य" is written iden
-19-11 11:57:31   [varn_vartani] review Important_Rules_hi.txt: 6 issue(s): - Point 1: "४५ मूल वर्ण — ११ स्वर और ३४ व्यंजन" is incorrect; the consonant list contains 33 items → should
-19-11 11:58:18   [kaal_vachya] review Important_Rules_hi.txt: 5 issue(s): - Rule 2 exception: garbled text and wrong claim that "वह हो रहा है" is incorrect; also self-contradictory 
-19-11 11:59:28   [varn_vartani] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Visarga sandhi rule for स/श/ष incorrectly claims doubling of the following conson
-19-11 11:59:28   [varn_vartani] review: 1 section(s) corrected, 3 failed
-19-11 11:59:28   [varn_vartani] written 1, failed 3; AI calls today 38/100000
-19-11 11:59:28 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 23 min: todo [] problems []
-19-11 11:59:28 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi (TODO: todo 5, problems 0)
-19-11 11:59:29   [sandhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
-19-11 12:00:43   [ling_vachan_karak] REJECTED review fix Content_hi.txt: reviewer still reports - नपुंसकलिंग उदाहरणों में "फल", "पत्तल", "कमरा", "ज्ञान" गलत वर्गीकृत हैं → फल पुल्लिंग है,
-19-11 12:01:16   [kaal_vachya] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम ३ की टिप्पणी में 'राम गया था' को पूर्ण भूत बताया गया है, जबकि सारणी और मानक 
-19-11 12:01:16   [kaal_vachya] review: 1 section(s) corrected, 3 failed
-19-11 12:01:16   [kaal_vachya] written 1, failed 3; AI calls today 41/100000
-19-11 12:01:17 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya after 25 min: todo [] problems []
 19-11 12:01:17 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word (OK: todo 0, problems 0)
 19-11 12:02:03   [ling_vachan_karak] review Key_Facts_hi.txt: 3 issue(s): - बिंदु 8: उकारांत पुल्लिंग के स्त्रीलिंग नियम और उदाहरण गलत हैं — गुरु का स्त्रीलिंग “गुरनी” नहीं होता और शिष्य 
 19-11 12:02:26   [sandhi] Practice_hi_Set_01.txt try 1: rejected (Q3:duplicate_options,Q9:duplicate_options,Q15:duplicate_options,Q16:duplicate_options,Q17:duplicate_options)
@@ -93,4 +75,24 @@
 19-11 12:20:08 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas (TODO: todo 4, problems 0)
 19-11 12:20:08   [samas] Hindi-only writer: direct Hindi content; English generation and translation disabled
 19-11 12:22:19   [word] REJECTED review fix Content_hi.txt: reviewer still reports - Quick Revision point 3 lists both Read Mode and Focus with the same shortcut Alt+W,F → In
+19-11 12:23:21   [sandhi] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q6 key c vs re-solve b, Q7 key a vs re-solve d, Q12 key b vs re-solve d, Q21 key d vs re-solve c, Q2
+19-11 12:23:27   [word] review Key_Facts_en.txt: 4 issue(s): - Point 6: “Shift+arrow keys extend selection character/word/line/paragraph” → Shift+arrow extends by character; 
+19-11 12:25:18   [ling_vachan_karak] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 3 lists “बहन” as an example of feminine nouns ending in आ/इ/ई, but “बहन” end
+19-11 12:25:18   [ling_vachan_karak] review: 0 section(s) corrected, 4 failed
+19-11 12:25:19   [ling_vachan_karak] written 0, failed 4; AI calls today 72/100000
+19-11 12:25:19 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 49 min: todo [] problems []
+19-11 12:25:19 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_08_excel (TODO: todo 2, problems 1)
+19-11 12:26:39   [excel] Practice_en_Set_06.txt try 1: rejected (parsed 24 questions, numbers 126…149)
+19-11 12:27:50   [excel] Practice_en_Set_06.txt try 2: rejected (Q128:leaked_reasoning)
+19-11 12:28:38   [excel] Practice_en_Set_06.txt try 3: rejected (Q128:leaked_reasoning)
+19-11 12:30:25   [word] REJECTED review fix Key_Facts_en.txt: reviewer still reports - Point 1: Ribbon tabs list omits the Design tab → The Ribbon tabs are Home, Insert, Desi
+19-11 12:30:27   [excel] Practice_en_Set_06.txt try 4: rejected (Q128:leaked_reasoning)
+19-11 12:30:27   [excel] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+19-11 12:30:27   [excel] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+19-11 12:30:27   [excel] written 0, failed 2; AI calls today 80/100000
+19-11 12:30:28 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_08_excel after 5 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems ['PYQ_en.txt: unsourced claim "(concept)"']
+19-11 12:30:28 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (OK: todo 0, problems 0)
+19-11 12:31:55   [word] review Key_Facts_hi.txt: 2 issue(s): - Ribbon tabs list omits the Design tab → The Ribbon includes Home, Insert, Design, Layout, References, Mailings,
+19-11 12:35:04   [samas] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q9 key c vs re-solve d, Q13 key b vs re-solve a, Q14 key c vs re-solve ?)
+19-11 12:35:14   [word] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - New Comment (`Alt+R, C`) → `Alt+R, C, N` (or `Ctrl+Alt+M`)
 ```
