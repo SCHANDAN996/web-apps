@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 03:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 03:11 PM
+**आख़िरी update:** 19-11-2026 04:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 03:11 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 46 मिनट |
-| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 9 मिनट |
-| W3 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 4 मिनट |
-| W4 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 46 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 61 मिनट |
+| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 24 मिनट |
+| W3 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 20 मिनट |
+| W4 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 61 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 43 |
-| key 4 | 39 |
+| key 3 | 60 |
+| key 4 | 50 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -54,18 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 15:17:35   [varn_vartani] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 1: The consonant total is given as 41 with the breakdown “33 मूल व्यंजन + 4 संयुक
-19-11 15:18:14   [ling_vachan_karak] review Content_hi.txt round 2: 3 issue(s): - In "लिंग के प्रकार" table, नपुंसकलिंग examples "कमरा", "पत्तल", "ज्ञान" are incorrect: "कमरा" and "ज्ञान"
-19-11 15:18:44   [varn_vartani] review Feynman_hi.txt round 1: 2 issue(s): - The chandrabindu rule table (Section 3) and Question 4 (Section 5) incorrectly give "गँगा" as correct and
-19-11 15:20:33   [varn_vartani] review Feynman_hi.txt round 2: 3 issue(s): - व्यंजन गणना: "33 व्यंजन" लिखा है लेकिन सूची में 36 व्यंजन (क्ष, त्र, ज्ञ सहित) दिए हैं → या तो गिनती 36 क
-19-11 15:21:30   [ling_vachan_karak] REJECTED review fix Content_hi.txt: reviewer still reports - In the लिंग-परिवर्तन rules table, rule 2 "आ → इन" lists "सेठ → सेठानी" as an example, but
-19-11 15:22:26   [varn_vartani] REJECTED review fix Feynman_hi.txt: reviewer still reports - Chandrabindu rule table lists "गँवार" as correct, but 'ग' is not in the specified group (
-19-11 15:22:27   [ling_vachan_karak] review Key_Facts_hi.txt round 1: 7 issue(s): - Point 2 example “पेड़ा” is not a standard masculine noun → use “पेड़”
-19-11 15:24:00   [varn_vartani] review Flashcards_hi.txt round 1: 1 issue(s): - Card 14: 'हिंदी' listed as anusvara example is wrong; standard Hindi spelling is 'हिन्दी' (with न) → R
-19-11 15:24:05   [kaal_vachya] review Content_hi.txt round 1: 2 issue(s): - Invented exam statistic: "SSC GD, MTS, RRB Group D जैसी परीक्षाओं में इनसे प्रतिवर्ष 3–5 प्रश्न पूछे जाते
-19-11 15:26:42   [kaal_vachya] review Content_hi.txt round 2: 3 issue(s): - In section 1.2 table, the structure for भूतकाल सामान्य is given as "मूल क्रिया + ा/ए/ई + था/थे/थी" but th
-19-11 15:29:01   [kaal_vachya] REJECTED review fix Content_hi.txt: reviewer still reports - वर्तमान काल की सारणी में पूर्ण सतत की संरचना में 'से/को' लिखा है → 'से/को' के स्थान पर के
-19-11 15:29:31   [kaal_vachya] review Key_Facts_hi.txt round 1: 1 issue(s): - Point 18: The wrong example incorrectly uses “पढ़ा जाएगा” (future passive) as the past form; the past p
 19-11 15:29:32   [sangya_sarvanam] review PYQ_hi.txt round 1: 1 issue(s): - Section 6 and Practice Tip 4 claim that Sanskrit pronominal forms (युष्मद्, अस्मद्, etc.) are asked in SSC GD
 19-11 15:31:18   [kaal_vachya] review Key_Facts_hi.txt round 2: 9 issue(s): - Point 2: 'संदिग्ध वर्तमान' listed as a tense form → Present tense has three aspects (सामान्य, सतत, पूर्
 19-11 15:32:59   [kaal_vachya] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 10 example uses “द्वारा” for the animate agent “सीता” while the rule states anima
@@ -94,4 +82,16 @@
 19-11 15:53:21   [sandhi] Practice_hi_Set_01.txt try 1: rejected (Q2:duplicate_options,Q5:duplicate_options,Q7:duplicate_options,Q8:duplicate_options,Q9:duplicate_options)
 19-11 15:53:37   [word] review Content_en.txt round 1: 2 issue(s): - In section 16 (Keyboard Shortcuts), `Ctrl+Shift+V` is listed as "Paste Special → Keep Text Only" → The de
 19-11 15:55:25   [word] review Content_en.txt round 2: 3 issue(s): - Section 5.1: Change Case (`Shift+F3`) description includes "tOGGLE cASE" as a toggled option → `Shift+F3`
+19-11 15:57:58   [word] review Content_hi.txt round 1: 2 issue(s): - शॉर्टकट तालिका में Ctrl+N के नोट में "ब्राउज़र में नया टैब खोलता है" लिखा है → ब्राउज़र में Ctrl+N नया वि
+19-11 16:00:51   [word] review Content_hi.txt round 2: 1 issue(s): - Quick Revision point 3: Focus mode shortcut listed as Alt+V,F → The View tab is accessed with Alt+W, not 
+19-11 16:02:36   [word] REJECTED review fix Content_hi.txt: reviewer still reports - परिचय में रिबन टैब की सूची अधूरी है (Draw और Design गायब) → रिबन टैब में File, Home, Inse
+19-11 16:03:24   [word] review Key_Facts_en.txt round 1: 1 issue(s): - Wildcard example `<[A-Z]{1,}>` claimed to find capitalized words → It actually matches words composed e
+19-11 16:03:57   [sandhi] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q4 key c vs re-solve d, Q6 key c vs re-solve b, Q7 key b vs re-solve c, Q9 key b vs re-solve c, Q11 
+19-11 16:04:15   [word] review Key_Facts_en.txt round 2: 1 issue(s): - Item 20: “green (older versions) = context” is incorrect; in older Word versions a green wavy underline
+19-11 16:05:12   [word] REJECTED review fix Key_Facts_en.txt: reviewer still reports - Ribbon tabs list omits the Design tab → The Ribbon tabs are Home, Insert, Design, Layou
+19-11 16:07:18   [word] review Flashcards_hi.txt round 1: 1 issue(s): - Card 4 claims “ब्राउज़र में भी Ctrl + P प्रिंट करता है, लेकिन Word का अपना प्रिंट इंजन उपयोग होता है” 
+19-11 16:08:59   [kaal_vachya] review PYQ_hi.txt round 2: 1 issue(s): - In Section 2.1, PYQ-style उदाहरण 3 (द्विकर्मक क्रिया) the answer is given as (b) विद्या शिष्य को दी गई, but t
+19-11 16:10:08   [word] review PYQ_en.txt round 1: 1 issue(s): - Example 1 solution claims “Ctrl + Shift + F opens the Font dialog with focus on the Font list (legacy behavio
+19-11 16:11:31   [word] review PYQ_en.txt round 2: 2 issue(s): - In Core Sub-topics → Illustrations, the list includes 'Text Box, WordArt, Drop Cap' which are not in the Illu
+19-11 16:11:52   [varn_vartani] review Important_Rules_hi.txt round 1: 6 issue(s): - Section 5 (rule 5) states long vowels take only anusvara (ं) but then cites "हाँसी" (with chandra
 ```
