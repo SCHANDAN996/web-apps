@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 04:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 03:11 PM
+**आख़िरी update:** 19-11-2026 04:28 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 03:11 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 61 मिनट |
-| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 24 मिनट |
-| W3 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 20 मिनट |
-| W4 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 61 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 76 मिनट |
+| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 39 मिनट |
+| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 9 मिनट |
+| W4 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 76 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 60 |
-| key 4 | 50 |
+| key 3 | 63 |
+| key 4 | 65 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -50,23 +50,11 @@
 
 - Chapter 03 sangya sarvanam (Hindi) — 1 बार
 - Chapter 05 ling vachan karak (Hindi) — 1 बार
+- Chapter 07 word (Computer) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 15:29:32   [sangya_sarvanam] review PYQ_hi.txt round 1: 1 issue(s): - Section 6 and Practice Tip 4 claim that Sanskrit pronominal forms (युष्मद्, अस्मद्, etc.) are asked in SSC GD
-19-11 15:31:18   [kaal_vachya] review Key_Facts_hi.txt round 2: 9 issue(s): - Point 2: 'संदिग्ध वर्तमान' listed as a tense form → Present tense has three aspects (सामान्य, सतत, पूर्
-19-11 15:32:59   [kaal_vachya] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 10 example uses “द्वारा” for the animate agent “सीता” while the rule states anima
-19-11 15:34:16   [sangya_sarvanam] review PYQ_hi.txt round 2: 1 issue(s): - Section 6 claims Sanskrit pronominal declensions (अस्मद्, युष्मद्, तद्, एतद्, किम्, यद् के विकारी रूप) are as
-19-11 15:35:55   [kaal_vachya] review PYQ_hi.txt round 1: 1 issue(s): - In Section 2.1 Example 2 explanation, the formation of simple past passive 'लिखा गया' is incorrectly analyzed
-19-11 15:36:20   [ling_vachan_karak] review Key_Facts_hi.txt round 2: 3 issue(s): - Point 6: Rule for अकारांत पुल्लिंग to feminine incorrectly states “आ जोड़कर”; the examples show additio
-19-11 15:38:29   [ling_vachan_karak] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 13: 'पत्ता' is listed as an अकारांत पुल्लिंग example with unchanged plural, but '
-19-11 15:41:36   [ling_vachan_karak] review Feynman_hi.txt round 1: 2 issue(s): - In 'आम गलतियाँ' table, third row reason "क्रिया कर्ता के लिंग/वचन से सहमत होती है, कर्म के नहीं" is a wro
-19-11 15:42:27   [sangya_sarvanam] review Important_Rules_hi.txt round 1: 5 issue(s): - नियम २ में "ई कारांत पुल्लिंग" शीर्षक के अंतर्गत "पुत्री" और "नौकरानी" को पुल्लिंग अपवाद बताया गय
-19-11 15:43:39   [ling_vachan_karak] review Feynman_hi.txt round 2: 2 issue(s): - In Section 5 (आम गलतियाँ), the explanation for "पुस्तक पढ़ती हूँ" incorrectly applies the perfective past
-19-11 15:46:02   [sangya_sarvanam] review Important_Rules_hi.txt round 2: 9 issue(s): - Rule 2: "कमरी" is not a standard Hindi feminine noun ending in ई → replace with a valid example l
-19-11 15:47:36   [ling_vachan_karak] review PYQ_hi.txt round 1: 3 issue(s): - "SSC GD में इस अध्याय से 3–5 प्रश्न आते हैं" → invented exam statistic without year/source; remove or cite a 
-19-11 15:48:31   [sangya_sarvanam] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 2: under 'उकारांत/ऊकारांत प्रायः पुल्लिंग', 'हाथी' is listed but 'हाथी' is ई
 19-11 15:48:31   [sangya_sarvanam] review: 2 section(s) corrected, 1 failed
 19-11 15:48:31   [sangya_sarvanam] written 2, failed 1; AI calls today 69/100000
 19-11 15:48:32 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 37 min: todo [] problems []
@@ -94,4 +82,17 @@
 19-11 16:10:08   [word] review PYQ_en.txt round 1: 1 issue(s): - Example 1 solution claims “Ctrl + Shift + F opens the Font dialog with focus on the Font list (legacy behavio
 19-11 16:11:31   [word] review PYQ_en.txt round 2: 2 issue(s): - In Core Sub-topics → Illustrations, the list includes 'Text Box, WordArt, Drop Cap' which are not in the Illu
 19-11 16:11:52   [varn_vartani] review Important_Rules_hi.txt round 1: 6 issue(s): - Section 5 (rule 5) states long vowels take only anusvara (ं) but then cites "हाँसी" (with chandra
+19-11 16:13:24   [word] REJECTED review fix PYQ_en.txt: reviewer still reports - Example 1 solution incorrectly states "Ctrl + Shift + F opens the Font dialog with focus on t
+19-11 16:13:55   [word] review PYQ_hi.txt round 1: 1 issue(s): - उदाहरण 1 की व्याख्या में गलत दावा: "Ctrl+Shift+> Word और PowerPoint में फॉन्ट साइज़ बढ़ाता है, लेकिन Excel मे
+19-11 16:15:42   [word] review PYQ_hi.txt round 2: 1 issue(s): - Example 1 explanation claims "Ctrl+Shift+> Word, PowerPoint और Excel तीनों में फॉन्ट साइज़ बढ़ाता है" → Ctrl+
+19-11 16:17:19   [word] REJECTED review fix PYQ_hi.txt: reviewer still reports - स्कोप भ्रम ट्रैप में Ctrl+F के बारे में गलत कथन: "परीक्षा पूछे 'सभी Office ऐप्स में' तो गलत" 
+19-11 16:18:05   [word] review: 2 section(s) corrected, 4 failed
+19-11 16:18:05   [word] written 2, failed 4; AI calls today 119/100000
+19-11 16:18:05 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word after 26 min: todo [] problems []
+19-11 16:18:06 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas (TODO: todo 3, problems 0)
+19-11 16:18:06   [samas] Hindi-only writer: direct Hindi content; English generation and translation disabled
+19-11 16:19:58   [sandhi] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q4 key c vs re-solve d, Q5 key d vs re-solve c, Q6 key a vs re-solve b, Q9 key d vs re-solve c, Q11 
+19-11 16:20:57   [samas] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q7 key b vs re-solve d, Q19 key a vs re-solve ?)
+19-11 16:22:49   [samas] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q7 key d vs re-solve b)
+19-11 16:25:21   [samas] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q7 key d vs re-solve b)
 ```
