@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 03:42 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 03:11 PM
+**आख़िरी update:** 19-11-2026 03:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 03:11 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
-| W3 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
-| W4 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 30 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 46 मिनट |
+| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 9 मिनट |
+| W3 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 4 मिनट |
+| W4 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 46 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 26 |
-| key 4 | 29 |
+| key 3 | 43 |
+| key 4 | 39 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -46,19 +46,14 @@
 
 - अभी कोई नहीं
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 03 sangya sarvanam (Hindi) — 1 बार
+- Chapter 05 ling vachan karak (Hindi) — 1 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 15:11:08 autopilot start: 4 workers, reverse=False
-19-11 15:11:08 API policy: account start interval=20s; key start interval=15s; in-flight per key=1
-19-11 15:11:08 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (OK: todo 0, problems 0)
-19-11 15:11:13 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
-19-11 15:11:18 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (OK: todo 0, problems 0)
-19-11 15:11:23 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya (OK: todo 0, problems 0)
-19-11 15:13:32   [sangya_sarvanam] review Key_Facts_hi.txt round 1: 3 issue(s): - Point 6: Example "लड़कोंने खेले" for ergative "ने" uses intransitive verb "खेलना"; "ने" is only for tra
-19-11 15:14:00   [varn_vartani] review Key_Facts_hi.txt round 1: 3 issue(s): - The description of नुक्ता-युक्त व्यंजन as two letters (ऩ, ऱ) used for Marathi/Sanskrit sounds is incorr
-19-11 15:15:16   [varn_vartani] review Key_Facts_hi.txt round 2: 4 issue(s): - Point 1 says there are only 2 नुक्ता‑युक्त व्यंजन and totals 41 consonants (33 + 4 + 2 + 2); in fact th
-19-11 15:15:44   [ling_vachan_karak] review Content_hi.txt round 1: 8 issue(s): - Section 2 (वचन), Table "बहुवचन बनाने के नियम": Row for "आ (स्त्रीलिंग)" states rule "आ → एँ" but examples
 19-11 15:17:35   [varn_vartani] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 1: The consonant total is given as 41 with the breakdown “33 मूल व्यंजन + 4 संयुक
 19-11 15:18:14   [ling_vachan_karak] review Content_hi.txt round 2: 3 issue(s): - In "लिंग के प्रकार" table, नपुंसकलिंग examples "कमरा", "पत्तल", "ज्ञान" are incorrect: "कमरा" and "ज्ञान"
 19-11 15:18:44   [varn_vartani] review Feynman_hi.txt round 1: 2 issue(s): - The chandrabindu rule table (Section 3) and Question 4 (Section 5) incorrectly give "गँगा" as correct and
@@ -80,4 +75,23 @@
 19-11 15:38:29   [ling_vachan_karak] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 13: 'पत्ता' is listed as an अकारांत पुल्लिंग example with unchanged plural, but '
 19-11 15:41:36   [ling_vachan_karak] review Feynman_hi.txt round 1: 2 issue(s): - In 'आम गलतियाँ' table, third row reason "क्रिया कर्ता के लिंग/वचन से सहमत होती है, कर्म के नहीं" is a wro
 19-11 15:42:27   [sangya_sarvanam] review Important_Rules_hi.txt round 1: 5 issue(s): - नियम २ में "ई कारांत पुल्लिंग" शीर्षक के अंतर्गत "पुत्री" और "नौकरानी" को पुल्लिंग अपवाद बताया गय
+19-11 15:43:39   [ling_vachan_karak] review Feynman_hi.txt round 2: 2 issue(s): - In Section 5 (आम गलतियाँ), the explanation for "पुस्तक पढ़ती हूँ" incorrectly applies the perfective past
+19-11 15:46:02   [sangya_sarvanam] review Important_Rules_hi.txt round 2: 9 issue(s): - Rule 2: "कमरी" is not a standard Hindi feminine noun ending in ई → replace with a valid example l
+19-11 15:47:36   [ling_vachan_karak] review PYQ_hi.txt round 1: 3 issue(s): - "SSC GD में इस अध्याय से 3–5 प्रश्न आते हैं" → invented exam statistic without year/source; remove or cite a 
+19-11 15:48:31   [sangya_sarvanam] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 2: under 'उकारांत/ऊकारांत प्रायः पुल्लिंग', 'हाथी' is listed but 'हाथी' is ई
+19-11 15:48:31   [sangya_sarvanam] review: 2 section(s) corrected, 1 failed
+19-11 15:48:31   [sangya_sarvanam] written 2, failed 1; AI calls today 69/100000
+19-11 15:48:32 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 37 min: todo [] problems []
+19-11 15:48:32 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi (TODO: todo 5, problems 0)
+19-11 15:48:32   [sandhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
+19-11 15:49:23   [ling_vachan_karak] review PYQ_hi.txt round 2: 4 issue(s): - Section 5 trap list includes "स्त्रीलिंग कर्ता के साथ बिना ने के" as a condition for wrong use of 'ने'; this 
+19-11 15:49:51   [varn_vartani] review PYQ_hi.txt round 1: 1 issue(s): - 1.7 शब्द-शुद्धि: Explanation cites wrong rule (श vs ष) for distinguishing "प्रशासन" from "प्रशाशन"; the real 
+19-11 15:52:00   [ling_vachan_karak] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 2, trap "संयुक्त संज्ञा में केवल मुख्य शब्द का वचन बदलना": example "कमरे का दरवाज़ा" 
+19-11 15:52:34   [ling_vachan_karak] review: 1 section(s) corrected, 3 failed
+19-11 15:52:34   [ling_vachan_karak] written 1, failed 3; AI calls today 76/100000
+19-11 15:52:34 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 41 min: todo [] problems []
+19-11 15:52:34 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word (OK: todo 0, problems 0)
+19-11 15:53:21   [sandhi] Practice_hi_Set_01.txt try 1: rejected (Q2:duplicate_options,Q5:duplicate_options,Q7:duplicate_options,Q8:duplicate_options,Q9:duplicate_options)
+19-11 15:53:37   [word] review Content_en.txt round 1: 2 issue(s): - In section 16 (Keyboard Shortcuts), `Ctrl+Shift+V` is listed as "Paste Special → Keep Text Only" → The de
+19-11 15:55:25   [word] review Content_en.txt round 2: 3 issue(s): - Section 5.1: Change Case (`Shift+F3`) description includes "tOGGLE cASE" as a toggled option → `Shift+F3`
 ```
