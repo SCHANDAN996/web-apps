@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 09:00 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
+**आख़िरी update:** 19-11-2026 09:08 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 23 मिनट |
-| W2 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 17 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 23 मिनट |
-| W4 | Chapter 08 excel (12th Computer) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
+| W2 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 25 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
+| W4 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 7 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 18 |
-| key 4 | 14 |
+| key 3 | 22 |
+| key 4 | 17 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -54,11 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 20:36:56 autopilot start: 4 workers, reverse=False
-19-11 20:36:56 API policy: account start interval=20s; key start interval=15s; in-flight per key=1
-19-11 20:36:57 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (OK: todo 0, problems 0)
-19-11 20:36:58   [varn_vartani] review Key_Facts_hi.txt: resumed private correction draft
-19-11 20:37:02 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya (OK: todo 0, problems 0)
 19-11 20:37:03   [kaal_vachya] review Content_hi.txt: resumed private correction draft
 19-11 20:37:07 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi (TODO: todo 5, problems 0)
 19-11 20:37:08   [sandhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
@@ -93,4 +88,10 @@
 19-11 21:00:43   [excel] review: 3 section(s) corrected, 0 failed
 19-11 21:00:43   [excel] written 3, failed 0; AI calls today 33/100000
 19-11 21:01:05   [samas] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q57 key d vs re-solve a, Q59 key c vs re-solve d)
+19-11 21:01:08 DONE 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_08_excel in 17 min → 614b0499
+19-11 21:01:09 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay (TODO: todo 3, problems 0)
+19-11 21:01:09   [upsarg_pratyay] Hindi-only writer: direct Hindi content; English generation and translation disabled
+19-11 21:02:06   [varn_vartani] review Feynman_hi.txt round 1: 1 issue(s): - Section 4 table: both "सही शब्द" and "गलत शब्द" columns show "आश्चर्य" (with च); the गलत शब्द should be "
+19-11 21:04:58   [upsarg_pratyay] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q1 key a vs re-solve b, Q13 key b vs re-solve a, Q16 key a vs re-solve c, Q20 key b vs re-solve a, Q
+19-11 21:07:25   [samas] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q57 key d vs re-solve a, Q59 key a vs re-solve b, Q60 key d vs re-solve c)
 ```
