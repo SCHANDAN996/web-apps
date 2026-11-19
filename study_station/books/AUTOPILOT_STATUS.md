@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 11:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
+**आख़िरी update:** 20-11-2026 12:05 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 32 मिनट |
-| W2 | Chapter 10 paryayvachi (10th Hindi) | 🔎 review हो रहा है | 3 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 200 मिनट |
-| W4 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 11 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 10 paryayvachi (10th Hindi) | 🔎 review हो रहा है | 11 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 208 मिनट |
+| W4 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 19 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 94 |
-| key 4 | 101 |
+| key 3 | 97 |
+| key 4 | 107 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -44,6 +44,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 20-11 00:05 — 10th Hindi · Chapter 01 varn vartani
 - 19-11 23:24 — 12th Computer · Chapter 09 powerpoint
 - 19-11 21:39 — 12th Computer · Chapter 07 word
 - 19-11 21:00 — 12th Computer · Chapter 08 excel
@@ -58,13 +59,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 23:00:40   [powerpoint] review Important_Rules_en.txt round 1: 1 issue(s): - Rule 13: Incorrect menu path for "Package Presentation for CD" given as "File → Export → Package 
-19-11 23:03:42   [powerpoint] review Important_Rules_en.txt round 2: 1 issue(s): - Rule 7 exception states Presenter View can be used with a single monitor via the “Use Presenter V
-19-11 23:04:06   [powerpoint] 2026-11-19 17:34:06,852 WARNING NVIDIA rate_limited — retrying in 20s
-19-11 23:06:44   [sandhi] FAILED Practice_hi_Set_02.txt: too_long
-19-11 23:07:23   [sandhi] Practice_hi_Set_03.txt try 1: rejected (Q61:duplicate_options)
-19-11 23:09:15   [powerpoint] review Important_Rules_hi.txt round 1: 3 issue(s): - नियम 3: एक्सेंट 1 (Accent 1) थीम रंग बदलने से हाइपरलिंक का रंग नहीं बदलता → हाइपरलिंक रंग अलग "हा
-19-11 23:11:38   [samas] review Key_Facts_hi.txt round 1: 4 issue(s): - Point 3: Examples "अनुराग" and "उपवन" for अव्ययीभाव are incorrect; they are not used as indeclinables. 
 19-11 23:12:55   [samas] review Key_Facts_hi.txt round 2: 3 issue(s): - "अनुकूल" को अव्ययीभाव समास का उदाहरण बताया गया है → "अनुकूल" अव्ययीभाव नहीं है (यह विशेषण/तत्पुरुष/कर्म
 19-11 23:15:35   [samas] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 3: “उपवन” and “अनुज” are wrongly cited as अव्ययीभाव examples; they are तत्पुरुष स
 19-11 23:17:13   [samas] review Feynman_hi.txt round 1: 3 issue(s): - The example "न + विद्या = अविद्या (कर्मधारय समास)" is incorrect; अविद्या is a नञ् तत्पुरुष (नञ् समास), no
@@ -98,4 +92,11 @@
 19-11 23:54:06   [paryayvachi] written 13, failed 0; AI calls today 191/100000
 19-11 23:57:42   [sandhi] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q54 key b vs re-solve c, Q56 key b vs re-solve a, Q58 key d vs re-solve a, Q59 key c vs re-solve b, 
 19-11 23:57:42   [sandhi] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+19-11 23:58:39   [upsarg_pratyay] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q5 key b vs re-solve a, Q11 key c vs re-solve a, Q18 key a vs re-solve d, Q19 key d vs re-solve b, Q
+19-11 23:58:46   [sandhi] Practice_hi_Set_05.txt try 1: rejected (parsed 24 questions, numbers 101…125)
+20-11 00:01:28   [varn_vartani] review Important_Rules_hi.txt round 1: 2 issue(s): - Point 5: The rule “स्वर के नासिक्य उच्चारण पर भी बिन्दु (ं) ही मान्य” is contradicted by the exam
+20-11 00:02:36   [sandhi] Practice_hi_Set_05.txt try 2: rejected (Q101:duplicate_options,Q103:duplicate_options,Q105:duplicate_options,Q107:duplicate_options,Q109:duplicate_opt
+20-11 00:03:28   [upsarg_pratyay] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q8 key a vs re-solve b, Q16 key a vs re-solve b, Q18 key b vs re-solve d, Q20 key a vs re-solve c, Q
+20-11 00:05:40   [varn_vartani] review: 1 section(s) corrected, 0 failed
+20-11 00:05:40   [varn_vartani] written 1, failed 0; AI calls today 6/100000
 ```

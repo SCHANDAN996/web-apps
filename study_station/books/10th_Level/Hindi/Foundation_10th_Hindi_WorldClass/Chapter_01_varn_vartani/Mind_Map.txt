@@ -1,0 +1,33 @@
+```mermaid
+graph TD
+    A["वर्ण और वर्तनी / Letters & Spelling"]
+    B["स्वर / Vowels (अ-अः)"]
+    C["व्यंजन / Consonants (क-ह)"]
+    D["मात्रा / Matras (Diacritics)"]
+    E["संयुक्त व्यंजन / Conjunct Consonants"]
+    F["अनुस्वार-अनुनासिक / Anusvara-Anunasika"]
+    G["विसर्ग / Visarga (ः)"]
+    H["वर्तनी नियम / Spelling Rules"]
+    I["सामान्य त्रुटियाँ / Common Errors"]
+    J["तत्सम-तद्भव / Tatsama-Tadbhava"]
+    K["उच्चारण-लेखन अंतर / Pronunciation-Writing Gap"]
+    L["शुद्ध लेखन अभ्यास / Correct Writing Practice"]
+    M["परीक्षा उपयोगिता / Exam Relevance"]
+    N["NCERT आधार / NCERT Based"]
+    O["SSC GD फोकस / SSC GD Focus"]
+
+    A --> B
+    A --> C
+    A --> D
+    A --> E
+    A --> F
+    A --> G
+    A --> H
+    H --> I
+    H --> J
+    H --> K
+    H --> L
+    L --> M
+    M --> N
+    M --> O
+```
