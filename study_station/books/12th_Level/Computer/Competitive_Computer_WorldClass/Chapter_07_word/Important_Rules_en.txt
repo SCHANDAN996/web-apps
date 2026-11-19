@@ -1,0 +1,156 @@
+**15 Important Rules & Principles of Microsoft Word**
+
+---
+
+### Rule 1 — File Extensions Define Format
+**Principle:** `.docx` is the default XML-based format (Word 2007+); `.doc` is the legacy binary format (Word 97–2003).  
+**Example:** Saving as `.docx` preserves themes, SmartArt, and equations; saving as `.doc` may discard them.  
+**Exception:** `.docm` enables macros; `.dotx`/`.dotm` are templates.  
+**Source:** Microsoft Learn – File formats in Word.
+
+---
+
+### Rule 2 — Styles Drive Consistency & Navigation
+**Principle:** Built-in styles (Heading 1, Heading 2, Normal, Title) control formatting, outline view, and Table of Contents generation.  
+**Example:** Apply **Heading 1** to chapter titles → **References → Table of Contents** auto-builds the TOC.  
+**Exception:** Direct formatting (Bold, Font Size) overrides styles but breaks outline navigation.  
+**Source:** Microsoft Support – Use styles in Word.
+
+---
+
+### Rule 3 — Navigation Pane Requires Heading Styles
+**Principle:** The Navigation Pane (Ctrl+F → Headings tab) only lists paragraphs formatted with heading styles.  
+**Example:** Press **Ctrl+F**, click **Headings** → drag headings to reorder sections.  
+**Exception:** Text formatted manually as bold/large does not appear.  
+**Source:** Microsoft Support – Navigation Pane.
+
+---
+
+### Rule 4 — Section Breaks Control Page Layout Per Section
+**Principle:** **Layout → Breaks → Next Page / Continuous / Even Page / Odd Page** create independent sections for margins, orientation, headers/footers, columns.  
+**Example:** Landscape page inside a portrait document → insert **Next Page** break before and after the landscape page.  
+**Exception:** Column breaks (**Layout → Breaks → Column**) only affect column flow, not page layout.  
+**Source:** Microsoft Support – Section breaks.
+
+---
+
+### Rule 5 — Headers/Footers Link to Previous by Default
+**Principle:** Each section's header/footer inherits from the previous section unless **Link to Previous** (Header & Footer tab) is turned off.  
+**Example:** Different first-page header → check **Different First Page**; different odd/even → check **Different Odd & Even Pages**.  
+**Exception:** Unlinking a footer does not unlink the header; each is independent.  
+**Source:** Microsoft Support – Headers and footers.
+
+---
+
+### Rule 6 — Page Numbers Are Fields, Not Static Text
+**Principle:** Insert via **Insert → Page Number**; they update automatically. Typing "Page 1" manually breaks sequencing.  
+**Example:** **Insert → Page Number → Bottom of Page → Plain Number 2** → double-click footer to edit format (i, ii, iii or 1, 2, 3).  
+**Exception:** Restart numbering per section via **Page Number → Format Page Numbers → Start at: 1**.  
+**Source:** Microsoft Support – Add page numbers.
+
+---
+
+### Rule 7 — Tables Use Layout & Design Tabs Contextually
+**Principle:** Selecting a table reveals **Table Design** (borders, shading, styles) and **Layout** (rows/columns, merge, split, alignment, data).  
+**Example:** **Layout → Merge Cells** combines selected cells; **Layout → Convert to Text** removes table structure.  
+**Exception:** Excel-style formulas (SUM, AVERAGE) work only inside Word tables via **Layout → Formula**.  
+**Source:** Microsoft Support – Work with tables.
+
+---
+
+### Rule 8 — Track Changes Records Every Edit
+**Principle:** **Review → Track Changes** marks insertions (underline), deletions (strikethrough), formatting (balloon).  
+**Example:** **Review → Accept/Reject** navigates changes; **Show Markup** filters by type/author.  
+**Exception:** "No Markup" view hides changes but does not remove them — always **Accept All** before finalizing.  
+**Source:** Microsoft Support – Track changes.
+
+---
+
+### Rule 9 — Comments Are Anchored to Text, Not Pages
+**Principle:** **Review → New Comment** attaches to the selected text; deleting the anchor text deletes the comment.  
+**Example:** Right-click text → **New Comment** → reply thread stays with that paragraph.  
+**Exception:** Comments print only if **Print Markup** is enabled in Print settings.  
+**Source:** Microsoft Support – Add comments.
+
+---
+
+### Rule 10 — Mail Merge Follows a Fixed 6-Step Wizard
+**Principle:** **Mailings → Start Mail Merge → Step-by-Step Mail Merge Wizard** guides through six steps:  
+1. Select document type  
+2. Select starting document  
+3. Select recipients  
+4. Write your letter  
+5. Preview your letters  
+6. Complete the merge  
+**Example:** Use an Excel sheet as recipient list; insert **Address Block** and **Greeting Line** fields.  
+**Exception:** Rules (If…Then…Else) allow conditional text per recipient.  
+**Source:** Microsoft Support – Mail merge.
+
+---
+
+### Rule 11 — References Tab Automates Citations, TOC, Captions, Index
+**Principle:** **References → Insert Citation** stores sources in a master list; **Bibliography** generates formatted list (APA, MLA, etc.).  
+**Example:** **References → Table of Contents → Automatic Table 1** builds from Heading 1/2/3.  
+**Exception:** Update TOC via **Right-click → Update Field → Update entire table** after editing headings.  
+**Source:** Microsoft Support – Create a bibliography.
+
+---
+
+### Rule 12 — Keyboard Shortcuts: Windows/Office Scope vs. Browser
+**Principle:** Shortcuts listed below work in the **Word desktop app (Windows)**; browser-based Word Online may differ.  
+**Core Shortcuts:**
+- **Ctrl+S** Save | **F12** Save As
+- **Ctrl+Z** Undo | **Ctrl+Y** Redo
+- **Ctrl+X/C/V** Cut/Copy/Paste | **Ctrl+Alt+V** Paste Special (choose Keep Text Only for plain text)
+- **Ctrl+B/I/U** Bold/Italic/Underline
+- **Ctrl+L/E/R/J** Align Left/Center/Right/Justify
+- **Ctrl+1/2/5** Single/Double/1.5 Line Spacing
+- **Ctrl+Enter** Page Break | **Ctrl+Shift+Enter** Column Break
+- **Alt+Ctrl+1/2/3** Apply Heading 1/2/3
+- **Ctrl+F** Find | **Ctrl+H** Replace | **Ctrl+G** Go To
+- **Shift+F3** Toggle Case | **Shift+F7** Thesaurus
+- **F7** Spelling & Grammar | **Alt+F7** Next Error
+- **Ctrl+K** Insert Hyperlink
+- **Alt+Shift+D** Insert Date Field | **Alt+Shift+T** Insert Time Field
+**Exception:** Mac uses **Cmd** instead of **Ctrl**; Word Online lacks some shortcuts (e.g., F12).  
+**Source:** Microsoft Support – Keyboard shortcuts in Word.
+
+---
+
+### Rule 13 — AutoCorrect & AutoFormat Replace As You Type
+**Principle:** **File → Options → Proofing → AutoCorrect Options** controls replacements (e.g., `(c)` → ©, `->` → →, `1st` → 1ˢᵗ).  
+**Example:** Type `=rand(3,5)` → Enter → inserts 3 paragraphs of 5 sentences each (placeholder text).  
+**Exception:** **AutoFormat As You Type** tab governs automatic numbered lists, border lines (=== → horizontal line), smart quotes.  
+**Source:** Microsoft Support – AutoCorrect options.
+
+---
+
+### Rule 14 — Document Protection Limits Editing
+**Principle:** **Review → Restrict Editing** enforces: **Track Changes only**, **Comments only**, **Filling in forms**, or **Read-only** with password.  
+**Example:** Protect a form → **Restrict Editing → Filling in forms** → **Yes, Start Enforcing Protection** → password.  
+**Exception:** **Mark as Final** (File → Info → Protect Document) is not security; it only discourages editing.  
+**Source:** Microsoft Support – Protect a document.
+
+---
+
+### Rule 15 — Export/Share Options Preserve Fidelity
+**Principle:** **File → Save As → PDF** locks layout; **File → Export → Create PDF/XPS Document** offers options (bookmarks, tags, ISO 19005-1 compliance).  
+**Example:** **File → Share → Send as Attachment** sends .docx or PDF via default mail client.  
+**Exception:** **Save as Web Page (.htm/.html)** converts to HTML but may lose complex formatting.  
+**Source:** Microsoft Support – Save as PDF.
+
+---
+
+**Quick Revision Flashpoints**
+- Styles → Navigation Pane → TOC → Update Field (F9)
+- Section Breaks → Unlink Headers/Footers → Page Number Restart
+- Track Changes → Accept All before final PDF
+- Mail Merge Wizard = 6 steps, Excel list, Preview before Finish
+- Shortcuts: Ctrl+S, Ctrl+Z, Ctrl+Alt+V (Paste Special), Alt+Ctrl+1/2/3, F7, Ctrl+K, F12
+
+**Common Exam Traps**
+- Confusing **Column Break** (Ctrl+Shift+Enter) with **Page Break** (Ctrl+Enter).
+- Thinking "Mark as Final" encrypts the file — it does not.
+- Assuming manual bold text appears in Navigation Pane — only Heading styles do.
+- Believing `.doc` supports all `.docx` features — it does not (themes, equations, SmartArt lost).
+- Forgetting to **Update Field (F9)** after editing headings — TOC stays stale.

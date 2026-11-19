@@ -1,0 +1,157 @@
+**PYQ Pattern Analysis — Microsoft Word**
+
+**1. Core Sub-topics That Recur**
+- File operations: New, Open, Save, Save As, Print, Print Preview, Page Setup, Document Properties.
+- Editing basics: Cut, Copy, Paste, Paste Special, Undo/Redo, Find/Replace, Go To, Select All.
+- Formatting: Font dialog, Paragraph dialog (alignment, indentation, line spacing, spacing before/after), Format Painter, Styles (apply, modify, create), Themes.
+- Page layout: Margins, Orientation, Size, Columns, Breaks (Page, Section, Column), Line Numbers, Hyphenation, Watermark, Page Borders, Page Color.
+- References: Table of Contents, Footnotes/Endnotes, Citations & Bibliography, Captions, Cross-reference, Index, Table of Authorities.
+- Mail Merge: Main document, Data source, Merge fields, Preview Results, Finish & Merge.
+- Tables: Insert, Draw, Convert Text to Table, Table Styles, Layout tab (merge/split cells, auto-fit, sort, formula, repeat header rows).
+- Illustrations: Pictures, Online Pictures, Shapes, Icons, 3D Models, SmartArt, Chart, Screenshot.
+- Links: Hyperlink, Bookmark, Cross-reference.
+- Header/Footer/Page Number: Different First Page, Different Odd & Even Pages, Link to Previous, Date & Time, Quick Parts.
+- Text: Text Box, Quick Parts (Building Blocks, Document Property, Field), WordArt, Drop Cap, Signature Line, Date & Time, Object.
+- Symbols: Equation, Symbol.
+- View: Read Mode, Print Layout, Web Layout, Outline, Draft, Ruler, Gridlines, Navigation Pane, Zoom, Split, View Side by Side, Switch Windows.
+- Review: Spelling & Grammar, Thesaurus, Word Count, Translate, Language, Comments, Track Changes, Accept/Reject, Compare, Combine, Restrict Editing.
+- Developer tab (when enabled): Macros, Visual Basic, Record Macro, Macro Security, Form Controls, Legacy Tools, XML Mapping Pane.
+- Options/Advanced: AutoCorrect, AutoFormat As You Type, File Locations, Save options, Display, Proofing, Customize Ribbon, Quick Access Toolbar.
+
+**2. Typical Question Patterns**
+- **Direct shortcut identification**: "Which shortcut opens the Font dialog?" / "Ctrl + Shift + > does what?"
+- **Ribbon/tab location**: "The 'Break' command is found under which tab?" / "Where is 'Track Changes' located?"
+- **Dialog-box tab navigation**: "In the Paragraph dialog, which tab controls line spacing?" / "The 'Different First Page' checkbox is in which Header & Footer Tools tab?"
+- **Feature capability**: "Which feature merges a main document with a data source?" / "What creates an automatic table of contents based on heading styles?"
+- **Step-sequence ordering**: "Arrange the steps to perform a mail merge in correct order."
+- **True/False or Statement-based**: "Section breaks allow different page orientations in the same document." / "A style cannot be modified once applied."
+- **Match the following**: Match shortcuts to actions / Match tabs to groups / Match view modes to descriptions.
+- **Assertion-Reason**: "Assertion: Ctrl + Home moves the cursor to the beginning of the document. Reason: Ctrl + End moves the cursor to the end of the document."
+- **Negative phrasing**: "Which of the following is NOT a type of section break?" / "Which shortcut does NOT apply bold formatting?"
+
+**3. Examiner Traps & Common Pitfalls**
+- **Shortcut confusion (Windows vs. Browser)**: Ctrl + P = Print in Word; in browser it opens Print dialog too but context differs. Ctrl + F = Find in Word; in browser it opens page find. Ctrl + S = Save in Word; in browser it may trigger "Save Page As". Always specify "In Microsoft Word…".
+- **Similar-looking shortcuts**: Ctrl + Shift + C (Copy Format) vs. Ctrl + Shift + V (Paste Format) vs. Ctrl + C / Ctrl + V. Ctrl + [ (Decrease Font Size) vs. Ctrl + ] (Increase Font Size) vs. Ctrl + Shift + > / <.
+- **Ribbon vs. Dialog-box shortcuts**: Alt + H, F, O opens Font dialog; Ctrl + D also opens Font dialog. Alt + H, P, G opens Paragraph dialog; no single Ctrl shortcut for Paragraph.
+- **Style vs. Direct Formatting**: Questions test whether changing a style updates all text using that style, while direct formatting does not.
+- **Section Breaks vs. Page Breaks**: "Next Page" section break starts new section on next page; "Page Break" only moves text. "Continuous" section break starts new section on same page — often used for column changes.
+- **Header/Footer Link to Previous**: By default headers/footers are linked across sections. Breaking the link is required for different headers per section.
+- **Track Changes display**: "Simple Markup" vs. "All Markup" vs. "No Markup" vs. "Original" — what each shows.
+- **Mail Merge field codes vs. results**: Alt + F9 toggles field codes; questions may show «First_Name» vs. actual data.
+- **Table formulas**: Only work in table cells; syntax like =SUM(ABOVE) or =AVERAGE(LEFT). Not the same as Excel.
+- **AutoCorrect vs. AutoFormat As You Type**: AutoCorrect replaces text after space/Enter; AutoFormat As You Type applies formatting while typing (e.g., *bold* → bold, 1. → numbered list).
+- **Compatibility Mode**: .doc files open in Compatibility Mode; some features (e.g., equations, content controls) are disabled.
+- **Quick Access Toolbar customization**: "Add to Quick Access Toolbar" from right-click vs. Options → Quick Access Toolbar.
+- **Macro security levels**: Disable all macros without notification / Disable all macros with notification / Disable all macros except digitally signed macros / Enable all macros.
+
+**4. PYQ-Style Worked Examples**
+
+*Example 1 (Shortcut Identification)*  
+**Question:** In Microsoft Word, which keyboard shortcut opens the **Font** dialog box?  
+(a) Ctrl + F  
+(b) Ctrl + D  
+(c) Ctrl + Shift + F  
+(d) Alt + F  
+**Answer:** (b)  
+**Solution:** Ctrl + D opens the Font dialog. Ctrl + F opens Find (Navigation pane). Alt + F opens the File tab/menu.  
+**Source:** Microsoft Support — Keyboard shortcuts in Word
+
+*Example 2 (Ribbon Location)*  
+**Question:** The **'Break'** command (Page Break, Column Break, Section Breaks) is located in which tab and group?  
+(a) Layout → Page Setup  
+(b) Insert → Pages  
+(c) Layout → Paragraph  
+(d) References → Table of Contents  
+**Answer:** (a)  
+**Solution:** Layout tab → Page Setup group → Breaks. Insert → Pages contains Cover Page, Blank Page, Page Break (only page break, not section/column breaks).  
+**Source:** Microsoft Support — Insert a page break
+
+*Example 3 (Feature Capability)*  
+**Question:** Which feature allows you to create personalized letters for multiple recipients by combining a main document with a data source?  
+(a) Mail Merge  
+(b) Track Changes  
+(c) Compare Documents  
+(d) Quick Parts  
+**Answer:** (a)  
+**Solution:** Mail Merge (Mailings tab) merges a main document with a recipient list (Excel, Outlook contacts, Access, or typed list). Track Changes records edits. Compare Documents shows differences between two files. Quick Parts inserts reusable content.  
+**Source:** Microsoft Support — Use mail merge for bulk email, letters, labels, and envelopes
+
+*Example 4 (Section Break Trap)*  
+**Question:** You want the first two pages of a document in Portrait orientation and the next two pages in Landscape orientation, all in a single document. Which break type must you insert?  
+(a) Page Break  
+(b) Column Break  
+(c) Next Page Section Break  
+(d) Continuous Section Break  
+**Answer:** (c)  
+**Solution:** A Next Page Section Break starts a new section on the next page, allowing different page orientation per section. Page Break cannot change orientation. Column Break only affects columns. Continuous Section Break starts a new section on the same page — used for column changes, not orientation.  
+**Source:** Microsoft Support — Insert a section break
+
+*Example 5 (Header/Footer Link Trap)*  
+**Question:** After inserting a Next Page Section Break, you notice the header on page 3 is identical to page 2. To make page 3's header different, you must first:  
+(a) Delete the header on page 2  
+(b) Click **'Link to Previous'** in the Header & Footer Tools Design tab to turn it off  
+(c) Insert a Continuous Section Break  
+(d) Change the page orientation  
+**Answer:** (b)  
+**Solution:** By default, headers/footers are linked across sections (Link to Previous is highlighted). Clicking it disables the link, allowing independent header/footer per section.  
+**Source:** Microsoft Support — Delete a header or footer from a single page
+
+*Example 6 (Track Changes View)*  
+**Question:** In Track Changes, which display mode shows the final document with inline markup (insertions underlined, deletions struck through) but hides balloons?  
+(a) Simple Markup  
+(b) All Markup  
+(c) No Markup  
+(d) Original  
+**Answer:** (b)  
+**Solution:** All Markup shows all changes inline. Simple Markup shows a red line in the margin indicating changes but not the changes themselves. No Markup shows the final document without any markup. Original shows the document before changes.  
+**Source:** Microsoft Support — Track changes in Word
+
+*Example 7 (Table Formula)*  
+**Question:** In a Word table, you place the cursor in the last cell of a column containing numbers. Which formula calculates the sum of the cells above?  
+(a) =SUM(LEFT)  
+(b) =SUM(ABOVE)  
+(c) =SUM(BELOW)  
+(d) =TOTAL(ABOVE)  
+**Answer:** (b)  
+**Solution:** Word table formulas use positional arguments: ABOVE, BELOW, LEFT, RIGHT. =SUM(ABOVE) sums all numeric cells in the column above the current cell. =TOTAL is not a valid function.  
+**Source:** Microsoft Support — Use a formula in a Word table
+
+*Example 8 (AutoCorrect vs. AutoFormat)*  
+**Question:** You type `1.` followed by a space and Word automatically converts it to a numbered list. This behavior is controlled by:  
+(a) AutoCorrect → Replace text as you type  
+(b) AutoFormat As You Type → Apply as you type → Automatic numbered lists  
+(c) AutoCorrect → Exceptions  
+(d) Proofing → When correcting spelling and grammar  
+**Answer:** (b)  
+**Solution:** AutoFormat As You Type handles formatting applied while typing (numbered lists, bulleted lists, *bold*, _italic_, fractions, ordinals). AutoCorrect Replace text as you type handles specific text replacements (e.g., `(c)` → ©, `teh` → `the`).  
+**Source:** Microsoft Support — AutoFormat as you type
+
+*Example 9 (Macro Security)*  
+**Question:** Which macro security setting allows macros to run only if they are digitally signed by a trusted publisher?  
+(a) Disable all macros without notification  
+(b) Disable all macros with notification  
+(c) Disable all macros except digitally signed macros  
+(d) Enable all macros  
+**Answer:** (c)  
+**Solution:** This setting blocks unsigned macros but permits digitally signed macros from trusted publishers. (a) blocks all silently. (b) blocks all but shows notification. (d) allows all macros (not recommended).  
+**Source:** Microsoft Support — Enable or disable macros in Office files
+
+*Example 10 (Negative Phrasing)*  
+**Question:** Which of the following is **NOT** a valid view mode in Microsoft Word?  
+(a) Print Layout  
+(b) Web Layout  
+(c) Slide Sorter  
+(d) Outline  
+**Answer:** (c)  
+**Solution:** Slide Sorter is a PowerPoint view. Word views: Read Mode, Print Layout, Web Layout, Outline, Draft.  
+**Source:** Microsoft Support — Switch between views in Word
+
+**5. Preparation Tips**
+- Memorize the **top 30 shortcuts** (File, Edit, Format, Navigation, Selection) — they appear verbatim.
+- Practice locating commands on the **Ribbon** (Tab → Group → Command) — questions test exact path.
+- Understand **Section Breaks** deeply — orientation, columns, headers/footers, page numbering restart.
+- Distinguish **Styles vs. Direct Formatting** — style changes propagate; direct formatting does not.
+- Know **Mail Merge workflow** sequence: Select Document Type → Select Recipients → Insert Merge Fields → Preview → Finish.
+- Review **Track Changes** display modes and Accept/Reject behavior.
+- Differentiate **Windows Word shortcuts** from **browser shortcuts** — exam specifies "In Microsoft Word".
+- Use **official Microsoft Support** pages for verification — they are the authoritative source for stable features.

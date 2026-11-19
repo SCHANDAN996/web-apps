@@ -1,0 +1,76 @@
+**एमएस वर्ड — 25 मुख्य तथ्य (Key Facts)**
+
+1. **एमएस वर्ड एक वर्ड प्रोसेसर है** — यह माइक्रोसॉफ्ट ऑफिस सूट का भाग है; दस्तावेज़ बनाने, संपादित करने, फ़ॉर्मैट करने और प्रिंट करने के लिए उपयोग होता है।  
+   *स्रोत: Microsoft Learn – Word basics*
+
+2. **फ़ाइल एक्सटेंशन** — आधुनिक संस्करणों में डिफ़ॉल्ट `.docx` (Office Open XML); पुराना बाइनरी फ़ॉर्मैट `.doc` है। `.docx` ज़िप-आधारित XML है, इसलिए आकार छोटा और क्षति-सहनशीलता बेहतर।  
+   *स्रोत: Microsoft Support – File formats*
+
+3. **रिबन इंटरफ़ेस** — टैब (Home, Insert, Layout, References, Mailings, Review, View) में कमांड समूहित हैं; `Ctrl+F1` से रिबन छिपा/दिखा सकते हैं (Windows/Office scope)।  
+   *स्रोत: Microsoft Learn – Ribbon overview*
+
+4. **क्विक एक्सेस टूलबार (QAT)** — शीर्षक पट्टी के ऊपर; `Alt` दबाकर संख्या कुंजी (1–9) से बटन सीधे चलते हैं। इसमें Save, Undo, Redo डिफ़ॉल्ट हैं।  
+   *स्रोत: Microsoft Support – Customize QAT*
+
+5. **कर्सर मूवमेंट शॉर्टकट (Windows/Office)** — `Ctrl+←/→` शब्द दर शब्द, `Ctrl+↑/↓` पैराग्राफ़ दर पैराग्राफ़, `Home/End` पंक्ति आरंभ/अंत, `Ctrl+Home/End` दस्तावेज़ आरंभ/अंत।  
+   *स्रोत: Microsoft Learn – Keyboard shortcuts*
+
+6. **चयन शॉर्टकट** — `Shift+←/→` अक्षर, `Ctrl+Shift+←/→` शब्द, `Shift+↑/↓` पंक्ति, `Ctrl+A` पूरा दस्तावेज़।  
+   *स्रोत: Microsoft Learn – Select text*
+
+7. **कट/कॉपी/पेस्ट** — `Ctrl+X / Ctrl+C / Ctrl+V`; केवल टेक्स्ट पेस्ट करने के लिए Paste Special → `Ctrl+Alt+V` फिर Unformatted Text चुनें या Keep Text Only विकल्प उपयोग करें।  
+   *स्रोत: Microsoft Support – Copy and paste*
+
+8. **पूर्ववत/पुनः करें** — `Ctrl+Z` (Undo), `Ctrl+Y` या `Ctrl+Shift+Z` (Redo)। Undo स्टैक सत्र तक सीमित; फ़ाइल बंद होने पर रीसेट।  
+   *स्रोत: Microsoft Learn – Undo redo*
+
+9. **फ़ॉन्ट डायलॉग** — `Ctrl+D` खोलता है; यहाँ सुपरस्क्रिप्ट (`Ctrl+Shift++`), सबस्क्रिप्ट (`Ctrl+=`), स्मॉल कैप्स (`Ctrl+Shift+K`) सेट होते हैं।  
+   *स्रोत: Microsoft Support – Font dialog*
+
+10. **पैराग्राफ़ अलाइनमेंट** — `Ctrl+L` (बाएँ), `Ctrl+E` (केंद्र), `Ctrl+R` (दाएँ), `Ctrl+J` (दोनों ओर)।  
+    *स्रोत: Microsoft Learn – Align text*
+
+11. **लाइन स्पेसिंग** — `Ctrl+1` (सिंगल), `Ctrl+2` (डबल), `Ctrl+5` (1.5)। सटीक मान के लिए पैराग्राफ़ डायलॉग (`Alt+H, PG`)।  
+    *स्रोत: Microsoft Support – Line spacing*
+
+12. **स्टाइल्स (Styles)** — Home टैब → Styles पेन (`Alt+Ctrl+Shift+S`)। Heading 1–3 से नेविगेशन पेन और TOC स्वतः बनते हैं।  
+    *स्रोत: Microsoft Learn – Use styles*
+
+13. **फॉर्मैट पेंटर** — `Ctrl+Shift+C` (कॉपी), `Ctrl+Shift+V` (लागू)। डबल-क्लिक करके एकाधिक चयन पर लागू करें; `Esc` से बाहर।  
+    *स्रोत: Microsoft Support – Format Painter*
+
+14. **पेज ब्रेक / सेक्शन ब्रेक** — `Ctrl+Enter` (पेज ब्रेक); Layout → Breaks → Next Page/Continuous/Even/Odd (सेक्शन ब्रेक)। सेक्शन ब्रेक से हेडर/फ़ूटर, मार्जिन, कॉलम प्रति सेक्शन बदलते हैं।  
+    *स्रोत: Microsoft Learn – Page and section breaks*
+
+15. **हेडर/फ़ूटर और पेज नंबर** — Insert → Header/Footer/Page Number; की-टिप: Header `Alt+N, H`, Footer `Alt+N, F`, Page Number `Alt+N, N`। Different First Page, Different Odd/Even Pages विकल्प Design टैब में।  
+    *स्रोत: Microsoft Support – Headers footers*
+
+16. **टेबल बनाना/संपादित करना** — Insert → Table (`Alt+N, T`); `Tab` अगला सेल, `Shift+Tab` पिछला, `Alt+Home/End` पंक्ति आरंभ/अंत, `Alt+Page Up/Down` कॉलम शीर्ष/तल।  
+    *स्रोत: Microsoft Learn – Tables*
+
+17. **सूचियाँ (Bullets/Numbering/Multilevel)** — Home → Paragraph समूह; `Alt+H, U/N/M`। Multilevel List → Define New List Style से कस्टम आउटलाइन।  
+    *स्रोत: Microsoft Support – Create lists*
+
+18. **इमेज/शेप/स्मार्टआर्ट/चार्ट** — Insert टैब (`Alt+N`); इमेज के लिए `Alt+N, P` (Picture), `Alt+N, S` (Shapes), `Alt+N, M` (SmartArt)। Wrap Text → In Line with Text / Square / Tight / Behind/In Front।  
+    *स्रोत: Microsoft Learn – Insert pictures*
+
+19. **हाइपरलिंक** — `Ctrl+K`; Address में URL, फ़ाइल पथ, बुकमार्क, ईमेल (`mailto:`) या दस्तावेज़ में शीर्षक (Place in This Document)।  
+    *स्रोत: Microsoft Support – Hyperlinks*
+
+20. **बुकमार्क और क्रॉस-रेफरेंस** — Insert → Bookmark (`Alt+N, K`); Cross-reference (`Alt+N, RF`) से हेडिंग, बुकमार्क, फुटनोट, टेबल/चित्र कैप्शन लिंक होते हैं।  
+    *स्रोत: Microsoft Learn – Bookmarks cross-references*
+
+21. **फुटनोट/एंडनोट** — References → Insert Footnote (`Alt+Ctrl+F`) / Endnote (`Alt+Ctrl+D`)। संख्या स्वतः अद्यतन; Convert बटन से परस्पर बदल सकते हैं।  
+    *स्रोत: Microsoft Support – Footnotes endnotes*
+
+22. **टेबल ऑफ़ कॉन्टेंट्स (TOC)** — References → Table of Contents (`Alt+S, T`)। Heading 1–3 पर आधारित; `F9` से अपडेट (Update page numbers only / Update entire table)।  
+    *स्रोत: Microsoft Learn – Table of contents*
+
+23. **मेल मर्ज (Mail Merge)** — Mailings → Start Mail Merge → Step-by-Step Wizard; डेटा स्रोत: Excel, CSV, Outlook Contacts, Access। `Alt+M, S, W` विज़ार्ड खोलता है।  
+    *स्रोत: Microsoft Support – Mail merge*
+
+24. **ट्रैक चेंजेस और कमेंट्स** — Review → Track Changes (`Ctrl+Shift+E`); New Comment (`Alt+R, C`)। Accept/Reject Changes, Compare (`Alt+R, C, C`), Combine दस्तावेज़ संस्करण मिलाने के लिए।  
+    *स्रोत: Microsoft Learn – Track changes*
+
+25. **दस्तावेज़ सुरक्षा और निरीक्षण** — File → Info → Protect Document → Encrypt with Password / Restrict Editing / Add Digital Signature; Inspect Document (`Alt+F, I, I`) से मेटाडेटा, छिपा टेक्स्ट, कमेंट्स हटाएँ।  
+    *स्रोत: Microsoft Support – Protect document; CERT-In advisory on document metadata*

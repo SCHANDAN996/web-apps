@@ -1,0 +1,205 @@
+# एमएस वर्ड (Microsoft Word) — परीक्षा-उन्मुख संपूर्ण अध्याय
+
+## 1. परिचय
+माइक्रोसॉफ्ट वर्ड (Microsoft Word) एक **वर्ड प्रोसेसिंग सॉफ्टवेयर** है जिसका उपयोग दस्तावेज़ बनाने, संपादित करने, फ़ॉर्मैट करने और प्रिंट करने के लिए किया जाता है। यह माइक्रोसॉफ्ट ऑफिस सुइट का भाग है। SSC CHSL, CGL, बैंकिंग और रेलवे परीक्षाओं में कंप्यूटर ज्ञान खंड के अंतर्गत वर्ड के मूलभूत संचालन, शॉर्टकट कुंजियाँ, फ़ाइल एक्सटेंशन, रिबन टैब और सामान्य त्रुटियों से प्रश्न पूछे जाते हैं।
+
+**महत्वपूर्ण तथ्य:**
+- डिफ़ॉल्ट फ़ाइल एक्सटेंशन: **.docx** (Word 2007 से आगे); पुराना एक्सटेंशन **.doc** (Word 97–2003)।
+- डिफ़ॉल्ट टेम्पलेट: **Normal.dotm**।
+- स्क्रीन के शीर्ष पर स्थित कमांड पट्टी को **रिबन (Ribbon)** कहते हैं; इसमें टैब (Home, Insert, Layout, References, Mailings, Review, View) होते हैं।
+- **क्विक एक्सेस टूलबार (QAT)** रिबन के ऊपर बाईं ओर होता है; इसमें Save, Undo, Redo डिफ़ॉल्ट रूप से होते हैं।
+
+---
+
+## 2. मूलभूत परिभाषाएँ
+
+| शब्द | अर्थ |
+|------|------|
+| **कर्सर (Cursor)** | टेक्स्ट प्रविष्टि बिंदु दर्शाने वाली झपकती ऊर्ध्वाधर रेखा (Insertion Point)। |
+| **सेलेक्शन (Selection)** | माउस या कीबोर्ड (Shift + Arrow) से हाइलाइट किया गया टेक्स्ट/ऑब्जेक्ट। |
+| **क्लिपबोर्ड (Clipboard)** | कट/कॉपी किया गया डेटा रखने वाला अस्थायी मेमोरी क्षेत्र; Windows + V से क्लिपबोर्ड इतिहास खुलता है (Windows 10/11)। |
+| **फ़ॉर्मैटिंग (Formatting)** | टेक्स्ट का फ़ॉन्ट, आकार, रंग, बोल्ड, इटैलिक, अलाइनमेंट, लाइन स्पेसिंग आदि बदलना। |
+| **पेज लेआउट (Page Layout)** | मार्जिन, ओरिएंटेशन (Portrait/Landscape), आकार (A4, Letter), कॉलम, ब्रेक सेट करना। |
+| **स्टाइल्स (Styles)** | पूर्व-निर्धारित फ़ॉर्मैट सेट (Heading 1, Normal, Title) जिन्हें एक क्लिक से लागू किया जा सकता है। |
+| **सेक्शन ब्रेक (Section Break)** | दस्तावेज़ के विभिन्न भागों में अलग-अलग पेज सेटिंग (मार्जिन, ओरिएंटेशन, हेडर/फूटर) लागू करने के लिए। |
+| **मेल मर्ज (Mail Merge)** | एक मुख्य दस्तावेज़ को डेटा स्रोत (Excel, CSV, Outlook Contacts) से जोड़कर अनेक व्यक्तिगत पत्र/लेबल/ईमेल बनाना। |
+| **ट्रैक चेंजेस (Track Changes)** | Review टैब में; संपादन (इंसर्शन, डिलीशन, फ़ॉर्मैट परिवर्तन) रिकॉर्ड करता है। |
+| **कमेंट्स (Comments)** | Review टैब → New Comment; सहयोगी टिप्पणी जोड़ने के लिए। |
+
+---
+
+## 3. छह कार्य-उदाहरण (Worked Examples)
+
+### उदाहरण 1: डिफ़ॉल्ट फ़ॉन्ट और स्पेसिंग स्थायी रूप से बदलना
+**स्थिति:** हर नए दस्तावेज़ में फ़ॉन्ट **Calibri 11**, लाइन स्पेसिंग **1.15** आता है। आपको **Times New Roman 12**, **सिंगल स्पेसिंग** डिफ़ॉल्ट चाहिए।
+
+**चरण:**
+1. Home टैब → Font समूह के निचले-दाएँ कोने में छोटे तीर (Launcher) पर क्लिक करें → **Font डायलॉग बॉक्स** खुलेगा।
+2. Font: *Times New Roman*, Size: *12* चुनें।
+3. डायलॉग बॉक्स में बाएँ नीचे **Set As Default** बटन दबाएँ।
+4. विकल्प चुनें: **"All documents based on the Normal template"** → OK।
+5. इसी तरह Paragraph डायलॉग (Home → Paragraph Launcher) → Line spacing: *Single* → **Set As Default** → *All documents…* → OK।
+
+**परीक्षा बिंदु:** `Set As Default` केवल वर्तमान दस्तावेज़ के लिए नहीं, **Normal.dotm** टेम्पलेट को बदलता है।
+
+---
+
+### उदाहरण 2: बहु-स्तरीय सूची (Multilevel List) बनाकर अध्याय/उप-अध्याय नंबरिंग करना
+**स्थिति:** रिपोर्ट में 1, 1.1, 1.1.1, 2, 2.1 जैसी नंबरिंग चाहिए।
+
+**चरण:**
+1. Home टैब → Paragraph समूह → **Multilevel List** ड्रॉपडाउन → **Define New Multilevel List**।
+2. Level 1: Number style *1, 2, 3…*; Level 2: *1.1, 1.2…*; Level 3: *1.1.1…* सेट करें।
+3. **Link level to style**: Level 1 → Heading 1, Level 2 → Heading 2, Level 3 → Heading 3 चुनें।
+4. OK दबाएँ। अब Heading 1/2/3 स्टाइल लागू करते ही नंबरिंग स्वतः आएगी।
+
+**परीक्षा बिंदु:** `Define New List Style` केवल सूची दिखावट सहेजता है; `Define New Multilevel List` स्टाइल से लिंक करके **आउटलाइन/नेविगेशन पेन** भी सक्रिय करता है।
+
+---
+
+### उदाहरण 3: सेक्शन ब्रेक से अलग-अलग ओरिएंटेशन
+**स्थिति:** पेज 1–2 **Portrait**, पेज 3 **Landscape** (चौड़ी तालिका के लिए), पेज 4 फिर **Portrait**।
+
+**चरण:**
+1. पेज 2 के अंत में कर्सर रखें → Layout टैब → Breaks → **Next Page** (Section Break Next Page)।
+2. पेज 3 पर कर्सर → Layout → Orientation → **Landscape**।
+3. पेज 3 के अंत में फिर **Next Page** सेक्शन ब्रेक डालें।
+4. पेज 4 पर → Orientation → **Portrait**।
+
+**परीक्षा बिंदु:** `Page Break` (Ctrl+Enter) केवल पेज बदलता है; **सेक्शन ब्रेक** पेज सेटिंग (मार्जिन, ओरिएंटेशन, हेडर/फूटर, कॉलम) बदलने की अनुमति देता है।
+
+---
+
+### उदाहरण 4: मेल मर्ज — लेबल प्रिंट करना
+**स्थिति:** Excel शीट में 200 नाम/पते हैं; A4 शीट पर 24 लेबल (4×6) छापने हैं।
+
+**चरण:**
+1. Mailings टैब → **Start Mail Merge** → **Labels** → Label vendor *Avery A4/A5*, Product number *L7163* (या अपना माप) → OK।
+2. **Select Recipients** → **Use an Existing List** → Excel फ़ाइल चुनें → शीट चुनें → OK।
+3. **Insert Merge Field** → «First_Name», «Last_Name», «Address», «City», «Pin» डालें।
+4. **Update Labels** बटन दबाएँ (पहले लेबल के अलावा सभी में `«Next Record»` फील्ड जुड़ जाता है)।
+5. **Preview Results** → तीरों से जाँचें → **Finish & Merge** → **Print Documents** या **Edit Individual Documents**।
+
+**परीक्षा बिंदु:** `Next Record` फील्ड के बिना सभी लेबल पर पहला रिकॉर्ड ही छपेगा।
+
+---
+
+### उदाहरण 5: ट्रैक चेंजेस और कमेंट्स से सहयोगी समीक्षा
+**स्थिति:** दो सहकर्मी एक रिपोर्ट संपादित कर रहे हैं; परिवर्तन दिखने चाहिए और अंतिम संस्करण में स्वीकार/अस्वीकार हो सकें।
+
+**चरण:**
+1. Review टैब → **Track Changes** चालू करें (या Ctrl+Shift+E)।
+2. कोई टेक्स्ट डिलीट करें → स्ट्राइकथ्रू लाल में दिखेगा; नया टाइप करें → अंडरलाइन नीले में दिखेगा।
+3. किसी पैराग्राफ पर राइट-क्लिक → **New Comment** (या Ctrl+Alt+M) → टिप्पणी लिखें।
+4. समीक्षा पूरी होने पर: Review → **Accept** / **Reject** ड्रॉपडाउन → *Accept All Changes* या एक-एक करके।
+5. **Delete** → *Delete All Comments in Document*।
+
+**परीक्षा बिंदु:** `Simple Markup` (डिफ़ॉल्ट) केवल लाल ऊर्ध्वाधर रेखा दिखाता है; `All Markup` पूरा परिवर्तन दिखाता है। प्रिंट करते समय `Print Markup` चेकबॉक्स नियंत्रित करता है कि मार्कअप प्रिंट हो या नहीं।
+
+---
+
+### उदाहरण 6: सामग्री तालिका (Table of Contents) स्वतः बनाना और अद्यतन करना
+**स्थिति:** 50 पेज की रिपोर्ट में Heading 1, 2, 3 उपयोग हुए हैं; शुरुआत में TOC चाहिए जो शीर्षक बदलने पर अद्यतन हो जाए।
+
+**चरण:**
+1. कर्सर दस्तावेज़ के प्रारंभ में रखें → References टैब → **Table of Contents** → **Automatic Table 1** (या Custom Table of Contents…)।
+2. Custom में: Show levels *3*, Formats *Classic*, Tab leader चुनें → OK।
+3. बाद में शीर्षक बदलें या पेज जुड़ें → TOC पर राइट-क्लिक → **Update Field** → **Update entire table** → OK।
+
+**परीक्षा बिंदु:** TOC एक **फील्ड कोड** (`{ TOC \o "1-3" \h \z \u }`) है; F9 दबाकर भी अद्यतन होता है। `Update page numbers only` केवल पेज नंबर बदलता है, नए शीर्षक नहीं जोड़ता।
+
+---
+
+## 4. परीक्षा में पूछे जाने वाले शॉर्टकट (Windows / Office स्कोप)
+
+| कार्य | शॉर्टकट | स्कोप | नोट |
+|------|----------|-------|-----|
+| नया दस्तावेज़ | **Ctrl + N** | Word (Office) | ब्राउज़र में नया विंडो खोलता है (नया टैब: Ctrl+T) |
+| खोलें | **Ctrl + O** | Word | ब्राउज़र में फ़ाइल खोलें डायलॉग |
+| सहेजें | **Ctrl + S** | Word | सार्वभौमिक |
+| अन्य नाम से सहेजें | **F12** | Word | ब्राउज़र में "Save As" नहीं |
+| प्रिंट | **Ctrl + P** | Word | ब्राउज़र प्रिंट डायलॉग भी |
+| पूर्ववत करें | **Ctrl + Z** | Word / Windows | ब्राउज़र में भी काम करता है |
+| फिर से करें | **Ctrl + Y** | Word | ब्राउज़र में Ctrl+Shift+Z |
+| काटें | **Ctrl + X** | Word / Windows | |
+| कॉपी करें | **Ctrl + C** | Word / Windows | |
+| पेस्ट करें | **Ctrl + V** | Word / Windows | |
+| पेस्ट विशेष (Paste Special) | **Ctrl + Alt + V** | Word | केवल Office |
+| ढूँढें | **Ctrl + F** | Word / ब्राउज़र | Word में Navigation Pane खुलता है |
+| बदलें | **Ctrl + H** | Word | ब्राउज़र में इतिहास खोलता है |
+| बोल्ड | **Ctrl + B** | Word | ब्राउज़र एडिटर में भी |
+| इटैलिक | **Ctrl + I** | Word | ब्राउज़र एडिटर में भी |
+| अंडरलाइन | **Ctrl + U** | Word | ब्राउज़र में नहीं (आमतौर पर) |
+| फ़ॉन्ट डायलॉग | **Ctrl + D** | Word | |
+| पैराग्राफ डायलॉग | **Alt + H, P, G** (की-टिप) | Word | कोई सीधा Ctrl शॉर्टकट नहीं |
+| केंद्र संरेखित | **Ctrl + E** | Word | |
+| बाएँ संरेखित | **Ctrl + L** | Word | |
+| दाएँ संरेखित | **Ctrl + R** | Word | |
+| जस्टिफ़ाई | **Ctrl + J** | Word | |
+| लाइन स्पेसिंग 1.0 | **Ctrl + 1** | Word | |
+| लाइन स्पेसिंग 2.0 | **Ctrl + 2** | Word | |
+| लाइन स्पेसिंग 1.5 | **Ctrl + 5** | Word | |
+| पेज ब्रेक | **Ctrl + Enter** | Word | |
+| सेक्शन ब्रेक (Next Page) | **कोई सीधा शॉर्टकट नहीं** → Layout → Breaks | Word | |
+| हाइपरलिंक डालें | **Ctrl + K** | Word / Outlook / ब्राउज़र एडिटर | |
+| वर्तनी जाँच | **F7** | Word | |
+| थिसॉरस | **Shift + F7** | Word | |
+| शब्द गणना | **Ctrl + Shift + G** | Word | |
+| नेविगेशन पेन | **Ctrl + F** (फिर Headings टैब) | Word | |
+| रिबन छुपाएँ/दिखाएँ | **Ctrl + F1** | Word | |
+| फुल स्क्रीन रीडिंग | **Alt + W, F** (की-टिप) | Word | |
+| मैक्रो रिकॉर्ड शुरू/रोकें | **कोई डिफ़ॉल्ट नहीं** → View → Macros | Word | |
+
+**महत्वपूर्ण अंतर:** ब्राउज़र (Chrome/Edge) में `Ctrl+Shift+T` बंद टैब फिर खोलता है; Word में यह शॉर्टकट नहीं है। `Ctrl+P` दोनों में प्रिंट करता है लेकिन डायलॉग अलग होते हैं। Word में Redo के लिए केवल **Ctrl+Y** काम करता है; `Ctrl+Shift+Z` ब्राउज़र का शॉर्टकट है।
+
+---
+
+## 5. सामान्य त्रुटियाँ (Common Errors) और उनसे बचाव
+
+| त्रुटि | कारण | सही तरीका |
+|--------|-------|------------|
+| **स्पेसबार से इंडेंट/संरेखण करना** | स्पेस बार दबाकर टेक्स्ट खिसकाना | **Tab** कुंजी या **Indents** (Paragraph डायलॉग → Special: First line / Hanging) उपयोग करें। |
+| **एंटर दबाकर पैराग्राफ के बीच खाली लाइन बनाना** | दो बार Enter दबाना | Paragraph डायलॉग → **Spacing: After 6 pt / 12 pt** सेट करें; स्टाइल में सहेजें। |
+| **हेडिंग के लिए केवल फ़ॉन्ट बड़ा/बोल्ड करना** | Heading 1/2 स्टाइल न लगाना | **Styles पेन (Ctrl+Alt+Shift+S)** से Heading 1/2/3 लागू करें — इससे नेविगेशन पेन, TOC, क्रॉस-रेफरेंस काम करते हैं। |
+| **चित्र/तालिका को "In Line with Text" छोड़कर खींचना** | रैप टेक्स्ट बदले बिना मूव करना | Picture/Table सिलेक्ट → **Layout Options** (चित्र के पास छोटा आइकन) → **Square / Tight / Behind Text** चुनें, फिर खींचें। |
+| **हेडर/फूटर में पेज नंबर डालने के बाद पहले पेज पर अलग नंबर चाहना** | Different First Page चेक न करना | Header/Footer Tools → Design टैब → **Different First Page** चेक करें। |
+| **सेक्शन ब्रेक के बजाय पेज ब्रेक डालकर ओरिएंटेशन बदलने की कोशिश** | पेज ब्रेक सेक्शन सेटिंग नहीं बदलता | **Layout → Breaks → Next Page (Section Break)** उपयोग करें। |
+| **मेल मर्ज में "Update Labels" भूल जाना** | केवल पहले लेबल में फील्ड डालना | पहला लेबल सेट करने के बाद **Update Labels** अवश्य दबाएँ। |
+| **ट्रैक चेंजेस बंद किए बिना अंतिम प्रिंट लेना** | मार्कअप प्रिंट हो जाता है | Review → **Track Changes** बंद करें या Print डायलॉग में **Print Markup** अनचेक करें। |
+| **फील्ड कोड (TOC, Cross-ref, Date) हाथ से संपादित करना** | फील्ड पर टाइप करना | फील्ड पर राइट-क्लिक → **Update Field** या **Toggle Field Codes (Shift+F9)** → संपादन न करें। |
+| **ऑटोसेव/ऑटोरिकवर पर भरोसा करके मैन्युअल सेव न करना** | पावर कट/क्रैश में डेटा खोना | **Ctrl+S** की आदत डालें; File → Options → Save → *AutoRecover every 5 minutes* रखें। |
+
+---
+
+## 6. परीक्षा-उन्मुख त्वरित पुनरीक्षण (Quick Revision)
+
+1. **फ़ाइल एक्सटेंशन:** `.docx` (XML-आधारित, डिफ़ॉल्ट), `.doc` (बाइनरी, पुराना), `.dotx` (टेम्पलेट), `.dotm` (मैक्रो-सक्षम टेम्पलेट)।
+2. **रिबन टैब क्रम:** File, Home, Insert, Draw, Design, Layout, References, Mailings, Review, View, Help।
+3. **व्यू मोड:** Read Mode (Alt+W,F), Print Layout (डिफ़ॉल्ट), Web Layout, Outline, Draft, Focus (Alt+W, फिर Focus के लिए की-टिप)।
+4. **नेविगेशन पेन:** Ctrl+F → Headings टैब → दस्तावेज़ संरचना देखें/खींचकर क्रम बदलें।
+5. **क्रॉस-रेफरेंस:** References → Cross-reference → Reference type: Heading/Figure/Table → Insert as hyperlink चेक करें।
+6. **वॉटरमार्क:** Design → Watermark → Custom Watermark (Text/Picture)।
+7. **पेज बॉर्डर:** Design → Page Borders → Setting: Box/Shadow/3-D → Apply to: Whole document / This section।
+8. **कॉलम:** Layout → Columns → Two/Three/Left/Right → More Columns के लिए स्पेस/लाइन नियंत्रण।
+9. **ड्रॉप कैप:** Insert → Drop Cap → Dropped / In Margin।
+10. **स्मार्टआर्ट:** Insert → SmartArt → List/Process/Cycle/Hierarchy/Relationship/Matrix/Pyramid/Picture।
+11. **चार्ट:** Insert → Chart → Excel शीट खुलती है; डेटा बदलने पर चार्ट अद्यतन होता है।
+12. **फुटनोट/एंडनोट:** References → Insert Footnote (Alt+Ctrl+F) / Endnote (Alt+Ctrl+D)।
+13. **कैप्शन:** References → Insert Caption → Label: Figure/Table/Equation → Numbering में Chapter नंबर शामिल करें (Heading 1 के साथ)।
+14. **इंडेक्स:** References → Mark Entry (Alt+Shift+X) → Index बनाएँ (Insert Index)।
+15. **सुरक्षा:** File → Info → Protect Document → Encrypt with Password / Restrict Editing / Mark as Final / Digital Signature।
+
+---
+
+## 7. अभ्यास के लिए मिनी-कार्य (स्वयं करें)
+
+1. एक खाली दस्तावेज़ खोलें → डिफ़ॉल्ट फ़ॉन्ट **Arial 11**, लाइन स्पेसिंग **1.0** सेट करें (Set As Default → All documents)।
+2. तीन पैराग्राफ लिखें → पहले को **Heading 1**, दूसरे को **Heading 2**, तीसरे को **Normal** स्टाइल दें → नेविगेशन पेन (Ctrl+F) में संरचना देखें।
+3. पेज 2 पर **Next Page Section Break** डालें → पेज 2 को **Landscape** करें → एक चौड़ी तालिका डालें → पेज 3 पर फिर **Portrait** करें।
+4. References टैब से **Table of Contents** (Automatic) डालें → एक शीर्षक बदलें → TOC अद्यतन करें (F9)।
+5. Review टैब → **Track Changes** चालू करें → कुछ शब्द डिलीट/जोड़ें → कमेंट जोड़ें → सभी परिवर्तन **Accept** करें → कमेंट **Delete** करें।
+6. Mailings → **Start Mail Merge → Letters** → Excel से 5 नाम जोड़ें → «AddressBlock» डालें → **Preview Results** → **Finish & Merge → Edit Individual Documents**।
+
+---
+
+**स्रोत:** Microsoft Support (support.microsoft.com), Microsoft Learn (learn.microsoft.com), CERT-In सुरक्षा परामर्श, RBI साइबर सुरक्षा ढांचा — स्थिर अवधारणाओं के लिए। संस्करण-विशिष्ट UI परिवर्तन (जैसे रिबन आइकन स्थान) परीक्षा में नहीं पूछे जाते; मूल अवधारणाएँ और शॉर्टकट स्थिर हैं।

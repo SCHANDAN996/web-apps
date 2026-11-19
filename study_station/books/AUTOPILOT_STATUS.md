@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 0 मिनट |
+| W1 | Chapter 07 word (12th Computer) | 📤 push हो रहा है | 0 मिनट |
 | W2 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 56 मिनट |
 | W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 62 मिनट |
 | W4 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 38 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 34 |
+| key 3 | 35 |
 | key 4 | 32 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
@@ -44,6 +44,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 19-11 21:39 — 12th Computer · Chapter 07 word
 - 19-11 21:00 — 12th Computer · Chapter 08 excel
 - 19-11 20:42 — 10th Hindi · Chapter 06 kaal vachya
 

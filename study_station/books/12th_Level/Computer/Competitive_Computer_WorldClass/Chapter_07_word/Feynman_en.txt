@@ -1,0 +1,56 @@
+Microsoft Word — Feynman-Style Explanation
+
+Think of Microsoft Word as a digital typewriter that never runs out of paper, lets you erase perfectly, and remembers every change you make. When you open Word, you see a blank page — your canvas. The ribbon at the top is a tool belt: each tab (Home, Insert, Layout, References, etc.) holds tools for a specific job.
+
+**Home tab** = everyday formatting: font, size, bold, italic, alignment, bullets, numbering, styles.  
+**Insert tab** = things you drop onto the page: tables, pictures, shapes, headers/footers, page numbers, links.  
+**Layout tab** = page setup: margins, orientation (portrait/landscape), size, columns, breaks.  
+**References tab** = academic tools: table of contents, footnotes, citations, captions, index.  
+**Review tab** = collaboration: track changes, comments, compare, restrict editing.  
+**View tab** = how you see the document: print layout, web layout, outline, zoom, split window.
+
+**Styles** are the secret to consistent documents. Instead of formatting each heading manually, apply "Heading 1", "Heading 2", etc. Change the style definition once — every heading updates. This also builds an automatic Table of Contents (References → Table of Contents).
+
+**Track Changes** (Review tab) is like a red-pen editor that never throws away the original. Turn it on; every insertion, deletion, or format change is marked. Accept or reject each change individually or all at once.
+
+**Keyboard shortcuts (Windows/Office scope — not browser):**
+- Ctrl + S = Save
+- Ctrl + Z / Ctrl + Y = Undo / Redo
+- Ctrl + B / I / U = Bold / Italic / Underline
+- Ctrl + C / V / X = Copy / Paste / Cut
+- Ctrl + A = Select all
+- Ctrl + Home / End = Jump to document start / end
+- Ctrl + F = Find; Ctrl + H = Replace
+- Ctrl + Enter = Page break
+- Alt + Ctrl + S = Split window (toggle)
+
+**Common mistakes to avoid:**
+1. Using spaces or tabs to align text — use tables, tab stops, or alignment buttons.
+2. Pressing Enter repeatedly for page breaks — use Ctrl + Enter (page break) or Layout → Breaks → Next Page.
+3. Formatting headings manually instead of using Styles — breaks TOC and navigation pane.
+4. Forgetting to save frequently — enable AutoSave (top-left) if file is on OneDrive/SharePoint.
+5. Sharing .docm files (macro-enabled) when not needed — macro-enabled files can carry security risks; CERT-In advises disabling macros by default.
+
+---
+
+**Recall Questions**
+
+1. **Which ribbon tab contains the Track Changes feature?**  
+   **Answer:** Review tab.  
+   **Explanation:** Review tab groups collaboration tools — Track Changes, Comments, Compare, Restrict Editing.
+
+2. **What is the keyboard shortcut to insert a page break in Word (Windows)?**  
+   **Answer:** Ctrl + Enter.  
+   **Explanation:** Pressing Enter repeatedly creates empty paragraphs; Ctrl + Enter inserts a clean page break.
+
+3. **Why should you use Heading styles instead of manual formatting for chapter titles?**  
+   **Answer:** Styles enable automatic Table of Contents, Navigation Pane, and consistent updates across the document.  
+   **Explanation:** Manual formatting looks fine visually but breaks structural features like TOC and outline view.
+
+4. **Which file extension indicates a macro-enabled Word document?**  
+   **Answer:** .docm  
+   **Explanation:** .docx is standard (no macros); .docm can contain VBA macros. CERT-In recommends disabling macros unless required.
+
+5. **What does the "Split Window" feature (Alt + Ctrl + S) do?**  
+   **Answer:** Divides the document window into two panes so you can view/edit different parts simultaneously.  
+   **Explanation:** Useful for comparing sections, copying between distant pages, or keeping headings visible while writing.

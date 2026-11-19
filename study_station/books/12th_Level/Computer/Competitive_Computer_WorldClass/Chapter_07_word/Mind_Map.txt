@@ -1,0 +1,45 @@
+```mermaid
+graph TD
+    A["एमएस वर्ड / MS Word"] --> B["इंटरफेस / Interface"]
+    A --> C["दस्तावेज़ प्रबंधन / Document Management"]
+    A --> D["स्वरूपण / Formatting"]
+    A --> E["संपादन उपकरण / Editing Tools"]
+    A --> F["संदर्भ और समीक्षा / References & Review"]
+    A --> G["मेल मर्ज / Mail Merge"]
+    A --> H["शॉर्टकट कुंजियाँ / Shortcut Keys"]
+    
+    B --> B1["रिबन टैब / Ribbon Tabs"]
+    B --> B2["क्विक एक्सेस टूलबार / QAT"]
+    B --> B3["स्टेटस बार / Status Bar"]
+    B --> B4["बैकस्टेज व्यू / Backstage View"]
+    
+    C --> C1["नया / खोलें / सहेजें / New/Open/Save"]
+    C --> C2["सहेजें नाम से / Save As"]
+    C --> C3["प्रिंट / Print (Ctrl+P)"]
+    C --> C4["फ़ाइल जानकारी / File Info"]
+    
+    D --> D1["फ़ॉन्ट / Font (Ctrl+D)"]
+    D --> D2["पैराग्राफ / Paragraph"]
+    D --> D3["शैलियाँ / Styles"]
+    D --> D4["पृष्ठ लेआउट / Page Layout"]
+    
+    E --> E1["काटें / कॉपी / पेस्ट / Cut/Copy/Paste"]
+    E --> E2["पूर्ववत करें / दोहराएँ / Undo/Redo"]
+    E --> E3["ढूंढें / बदलें / Find/Replace (Ctrl+H)"]
+    E --> E4["चयन मोड / Selection Modes"]
+    
+    F --> F1["सामग्री तालिका / Table of Contents"]
+    F --> F2["पादटिप्पणी / अंतटिप्पणी / Footnote/Endnote"]
+    F --> F3["ट्रैक परिवर्तन / Track Changes"]
+    F --> F4["टिप्पणियाँ / Comments"]
+    
+    G --> G1["प्राप्तकर्ता सूची / Recipient List"]
+    G --> G2["मुख्य दस्तावेज़ / Main Document"]
+    G --> G3["मर्ज फ़ील्ड / Merge Fields"]
+    G --> G4["पूर्वावलोकन परिणाम / Preview Results"]
+    
+    H --> H1["Ctrl+C / Ctrl+V / Ctrl+X"]
+    H --> H2["Ctrl+B / Ctrl+I / Ctrl+U"]
+    H --> H3["Ctrl+S / Ctrl+Z / Ctrl+Y"]
+    H --> H4["Ctrl+A / Ctrl+P / Ctrl+F"]
+```

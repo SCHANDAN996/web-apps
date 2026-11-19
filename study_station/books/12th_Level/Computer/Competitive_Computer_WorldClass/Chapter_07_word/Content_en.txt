@@ -1,0 +1,393 @@
+# Microsoft Word — Core Concepts for Competitive Exams
+
+## 1. Introduction
+
+Microsoft Word is a word-processing application used to create, edit, format, and print documents. In SSC, Railway, and Banking exams, questions test practical knowledge of the interface, shortcut keys, formatting tools, mail merge, tables, and document protection. The concepts below are version-agnostic (applicable to Word 2010 onward, including Microsoft 365) and drawn from official Microsoft Support documentation.
+
+---
+
+## 2. User Interface Essentials
+
+| Element | Purpose |
+|---------|---------|
+| **Title Bar** | Shows document name and application name. |
+| **Ribbon** | Tabbed command bar (Home, Insert, Design, Layout, References, Mailings, Review, View). |
+| **Quick Access Toolbar** | Customizable shortcuts (Save, Undo, Redo by default). |
+| **Ruler** | Horizontal/vertical guides for margins, tabs, indents. |
+| **Status Bar** | Page count, word count, view shortcuts, zoom slider. |
+| **Scroll Bars** | Navigate long documents. |
+
+**Key distinction**: The Ribbon replaces the old menu/toolbar system (pre-2007). Commands are grouped logically — e.g., **Home → Font**, **Home → Paragraph**, **Insert → Tables**.
+
+---
+
+## 3. File Operations & Formats
+
+| Action | Shortcut (Windows) | Menu Path |
+|--------|-------------------|-----------|
+| New Document | `Ctrl + N` | File → New |
+| Open | `Ctrl + O` | File → Open |
+| Save | `Ctrl + S` | File → Save |
+| Save As | `F12` | File → Save As |
+| Print | `Ctrl + P` | File → Print |
+| Close Document | `Ctrl + W` | File → Close |
+| Exit Word | `Alt + F4` | — |
+
+**Common file extensions**:
+- `.docx` — Default XML-based format (Word 2007+).
+- `.doc` — Legacy binary format (Word 97–2003).
+- `.dotx` — Template (no macros).
+- `.dotm` — Macro-enabled template.
+- `.pdf` — Export via File → Save As → PDF.
+
+> **Exam tip**: `.docx` is based on **Office Open XML (OOXML)**. Older `.doc` files open in **Compatibility Mode** — some features (e.g., equations, content controls) are disabled until converted.
+
+---
+
+## 4. Text Selection & Navigation
+
+| Task | Shortcut |
+|------|----------|
+| Select word | Double-click word |
+| Select sentence | `Ctrl + Click` |
+| Select line | Click in left margin |
+| Select paragraph | Triple-click or `Ctrl + Shift + ↓/↑` |
+| Select all | `Ctrl + A` |
+| Move by word | `Ctrl + ←/→` |
+| Move by paragraph | `Ctrl + ↑/↓` |
+| Go to start/end of line | `Home` / `End` |
+| Go to start/end of document | `Ctrl + Home` / `Ctrl + End` |
+| Go to specific page | `Ctrl + G` (Go To tab) |
+
+---
+
+## 5. Formatting — Font & Paragraph
+
+### 5.1 Font Group (Home → Font)
+- **Typeface, Size, Bold (`Ctrl+B`), Italic (`Ctrl+I`), Underline (`Ctrl+U`)**.
+- **Font Color**, **Highlight**, **Text Effects** (shadow, outline, reflection).
+- **Change Case** (`Shift+F3`): toggles UPPERCASE, lowercase, Capitalize Each Word.
+- **Clear Formatting** (`Ctrl+Spacebar`) — resets font to default; `Ctrl+Q` resets paragraph formatting.
+
+### 5.2 Paragraph Group (Home → Paragraph)
+- **Alignment**: Left (`Ctrl+L`), Center (`Ctrl+E`), Right (`Ctrl+R`), Justify (`Ctrl+J`).
+- **Line Spacing**: Single (`Ctrl+1`), 1.5 (`Ctrl+5`), Double (`Ctrl+2`).
+- **Indents**: Increase (`Ctrl+M`), Decrease (`Ctrl+Shift+M`), Hanging (`Ctrl+T`).
+- **Borders & Shading**: Apply to paragraph, text, or table cells.
+- **Sort**: Arrange paragraphs or table rows alphabetically/numerically.
+
+> **Common error**: Confusing **Line Spacing** (space between lines *within* a paragraph) with **Spacing Before/After** (space *between* paragraphs). Exams often ask which setting controls the gap between two paragraphs — answer: **Spacing After** (or Before).
+
+---
+
+## 6. Styles & Themes
+
+- **Styles** (Home → Styles pane) apply consistent formatting: Heading 1, Heading 2, Normal, Title, etc.
+- **Style Set** → Change Style Set applies a coordinated design.
+- **Themes** (Design → Themes) control Colors, Fonts, Effects globally.
+- **Update Style to Match Selection**: Right-click style → Update [Style] to Match Selection.
+
+**Why it matters**: Styles enable **Navigation Pane** (View → Navigation Pane) for outline view and **Table of Contents** (References → Table of Contents).
+
+---
+
+## 7. Page Layout & Sections
+
+| Concept | Key Point |
+|---------|-----------|
+| **Margins** | Layout → Margins (Normal, Narrow, Moderate, Mirror, Custom). |
+| **Orientation** | Portrait (default) / Landscape. |
+| **Size** | A4, Letter, Legal, Custom. |
+| **Columns** | Layout → Columns (One, Two, Three, Left, Right, More Columns). |
+| **Breaks** | Page Break (`Ctrl+Enter`), Column Break, Section Break (Next Page, Continuous, Even/Odd Page). |
+| **Line Numbers** | Layout → Line Numbers (Continuous, Restart Each Page/Section). |
+| **Hyphenation** | Layout → Hyphenation (None, Automatic, Manual). |
+
+**Section Breaks** allow different headers/footers, margins, orientation, or column layouts within one document. **Continuous Section Break** starts a new section on the same page — used for multi-column layouts mid-page.
+
+---
+
+## 8. Headers, Footers & Page Numbers
+
+- **Insert → Header / Footer / Page Number**.
+- **Different First Page**: Check in Header & Footer Tools → Design → Options.
+- **Different Odd & Even Pages**: For book-style printing.
+- **Link to Previous**: Toggle to continue or break header/footer continuity across sections.
+- **Page Number Format**: Roman numerals (i, ii…) for front matter; Arabic (1, 2…) for body.
+
+> **Exam trap**: "Page numbers restart at 1 in each section by default." — **False**. They continue unless **Format Page Numbers → Start at: 1** is set for the section.
+
+---
+
+## 9. Tables
+
+| Action | Method |
+|--------|--------|
+| Insert Table | Insert → Table → drag grid or Insert Table dialog. |
+| Convert Text to Table | Select text → Insert → Table → Convert Text to Table (separator: tabs, commas, etc.). |
+| Select Row/Column/Cell | Click in left margin (row), top margin (column), or drag. |
+| Merge Cells | Select cells → Layout (Table Tools) → Merge Cells. |
+| Split Cells | Layout → Split Cells. |
+| AutoFit | Layout → AutoFit → AutoFit Contents / Window / Fixed Column Width. |
+| Sort Table Data | Layout → Sort (by column, header row option). |
+| Formula in Cell | Layout → Formula (e.g., `=SUM(ABOVE)`, `=AVERAGE(LEFT)`). |
+
+**Table Design Tools** (Design tab under Table Tools): Table Styles, Shading, Borders, Banded Rows/Columns.
+
+---
+
+## 10. Images, Shapes & SmartArt
+
+- **Insert → Pictures** (This Device, Stock Images, Online Pictures).
+- **Insert → Shapes** → Lines, Rectangles, Flowchart shapes, Callouts.
+- **Insert → SmartArt** → Lists, Process, Cycle, Hierarchy, Relationship, Matrix, Pyramid.
+- **Wrap Text** (Layout Options icon on selected object): In Line with Text, Square, Tight, Through, Top and Bottom, Behind Text, In Front of Text.
+- **Position**: Absolute (relative to page/margin) or Relative.
+- **Alt Text**: Right-click → Format Picture → Alt Text (accessibility).
+
+> **Shortcut note**: `Alt + N, P` opens Insert Picture dialog (Windows). Browser-based Word Online uses different shortcuts — exam questions specify "Desktop Word" or "Word for Windows".
+
+---
+
+## 11. References & Long Documents
+
+| Feature | Tab | Use Case |
+|---------|-----|----------|
+| Table of Contents | References → Table of Contents | Auto-generated from Heading styles. |
+| Footnotes / Endnotes | References → Insert Footnote/Endnote | Citations at bottom of page / end of document. |
+| Citations & Bibliography | References → Insert Citation / Bibliography | APA, MLA, IEEE styles. |
+| Captions | References → Insert Caption | Figure/Table labels for cross-reference. |
+| Cross-reference | References → Cross-reference | Link to heading, figure, table, bookmark. |
+| Index | References → Mark Entry / Insert Index | Alphabetical keyword index. |
+| Bookmark | Insert → Bookmark | Named location for hyperlink/cross-ref. |
+| Hyperlink | `Ctrl+K` or Insert → Link | Web, file, place in document, email. |
+
+**Update fields**: Select all (`Ctrl+A`) → `F9` updates TOC, cross-references, index, fields.
+
+---
+
+## 12. Mail Merge (High-Yield Topic)
+
+**Mail Merge** creates personalized documents (letters, envelopes, labels, emails) from a main document + data source.
+
+**Steps (Mailings tab → Start Mail Merge → Step-by-Step Wizard)**:
+1. **Select Document Type**: Letters, E-mail Messages, Envelopes, Labels, Directory.
+2. **Select Starting Document**: Use current, start from template, start from existing.
+3. **Select Recipients**: Type new list, Use existing list (Excel, Access, CSV, Outlook contacts), Choose from Outlook contacts.
+4. **Write Letter / Insert Merge Fields**: Address Block, Greeting Line, Insert Merge Field (individual fields like «First_Name»).
+5. **Preview Results**: Navigate records, find recipient, preview.
+6. **Finish & Merge**: Edit Individual Documents (creates new merged file), Print Documents, Send E-mail Messages.
+
+**Key Fields**:
+- **Address Block** → Formats name/address per country.
+- **Greeting Line** → "Dear «First_Name»," with fallback.
+- **Rules** (Mailings → Rules): If…Then…Else, Next Record, Skip Record, Merge Record #.
+
+> **Common error**: Forgetting to **Preview Results** before Finish & Merge — merged output may show field codes («First_Name») instead of data.
+
+---
+
+## 13. Document Review & Collaboration
+
+| Tool | Purpose |
+|------|---------|
+| **Spelling & Grammar** | `F7` — checks spelling (red squiggle), grammar (blue double underline). |
+| **Thesaurus** | `Shift+F7` — synonyms. |
+| **Word Count** | Status bar or Review → Word Count (pages, words, characters, paragraphs, lines). |
+| **Track Changes** | Review → Track Changes — shows insertions, deletions, formatting changes. |
+| **Comments** | Review → New Comment — threaded discussion. |
+| **Compare / Combine** | Review → Compare — compare two versions; Combine merges changes from multiple authors. |
+| **Restrict Editing** | Review → Restrict Editing — limit formatting, enforce Track Changes, allow comments only, password-protect. |
+| **Document Inspector** | File → Info → Check for Issues → Inspect Document — removes hidden data (comments, revisions, personal info). |
+
+---
+
+## 14. Security & Protection
+
+- **Encrypt with Password**: File → Info → Protect Document → Encrypt with Password (AES-256 in modern versions). **Password cannot be recovered if lost.**
+- **Restrict Editing**: As above — formatting restrictions, editing restrictions (No changes / Tracked changes / Comments / Filling forms).
+- **Digital Signature**: Insert → Signature Line → Microsoft Office Signature Line — requires digital certificate.
+- **Mark as Final**: File → Info → Protect Document → Mark as Final — makes read-only (reversible).
+
+> **CERT-In advisory**: Use strong passwords (12+ chars, mixed case, numbers, symbols). Avoid sending password-protected `.docx` via email with password in same mail.
+
+---
+
+## 15. Printing & Export
+
+- **Print Layout** (default view) shows pages as they print.
+- **Print Preview** (`Ctrl+P`) — shows margins, pages, settings.
+- **Print Options**: Print All Pages, Print Selection, Print Current Page, Custom Range (e.g., `1,3,5-7` or `s1-s3` for sections).
+- **Export as PDF/XPS**: File → Save As → PDF (*.pdf) or File → Export → Create PDF/XPS Document. Options: Optimize for Standard (publishing) or Minimum size (publishing online), include document properties, structure tags for accessibility.
+
+---
+
+## 16. Keyboard Shortcuts — Windows / Desktop Word Scope
+
+| Category | Shortcut | Action |
+|----------|----------|--------|
+| **File** | `Ctrl+N` | New document |
+| | `Ctrl+O` | Open |
+| | `Ctrl+S` | Save |
+| | `F12` | Save As |
+| | `Ctrl+P` | Print |
+| | `Ctrl+W` | Close document |
+| **Edit** | `Ctrl+Z` | Undo |
+| | `Ctrl+Y` | Redo |
+| | `Ctrl+X` | Cut |
+| | `Ctrl+C` | Copy |
+| | `Ctrl+V` | Paste |
+| | `Ctrl+Alt+V` | Paste Special dialog |
+| | `Ctrl+A` | Select All |
+| | `Ctrl+F` | Find |
+| | `Ctrl+H` | Replace |
+| | `Ctrl+G` | Go To |
+| **Format** | `Ctrl+B` | Bold |
+| | `Ctrl+I` | Italic |
+| | `Ctrl+U` | Underline |
+| | `Ctrl+Shift+>` | Increase font size |
+| | `Ctrl+Shift+<` | Decrease font size |
+| | `Ctrl+]` | Increase font size by 1 pt |
+| | `Ctrl+[` | Decrease font size by 1 pt |
+| | `Ctrl+Spacebar` | Clear character formatting |
+| | `Ctrl+Q` | Clear paragraph formatting |
+| | `Ctrl+L/E/R/J` | Align Left/Center/Right/Justify |
+| | `Ctrl+1/5/2` | Line spacing 1.0 / 1.5 / 2.0 |
+| | `Ctrl+M` | Increase indent |
+| | `Ctrl+Shift+M` | Decrease indent |
+| | `Ctrl+T` | Hanging indent |
+| **Navigation** | `Ctrl+Home/End` | Document start/end |
+| | `Ctrl+Page Up/Down` | Previous/Next page |
+| | `Alt+Ctrl+Page Up/Down` | Previous/Next object (table, graphic) |
+| **Special** | `Ctrl+Enter` | Page break |
+| | `Ctrl+Shift+Enter` | Column break |
+| | `Shift+Enter` | Line break (soft return) |
+| | `Ctrl+K` | Insert hyperlink |
+| | `F7` | Spelling & Grammar |
+| | `Shift+F7` | Thesaurus |
+| | `F9` | Update selected fields |
+| | `Alt+F9` | Toggle field codes/results |
+| | `Ctrl+F9` | Insert field braces `{ }` |
+
+> **Browser vs Desktop**: Word Online (browser) uses `Ctrl+S` (auto-save), `Ctrl+P` (print via browser), but **Ribbon shortcuts (Alt+key tips) differ**. Exam questions specify "Microsoft Word for Windows" or "Desktop version" for the above shortcuts.
+
+---
+
+## 17. Six Worked Examples
+
+### Example 1: Create a Table of Contents Automatically
+**Task**: Generate a TOC for a report with Heading 1, Heading 2, Heading 3 styles applied.
+**Steps**:
+1. Apply **Heading 1** to chapter titles, **Heading 2** to sections, **Heading 3** to subsections (Home → Styles).
+2. Place cursor where TOC should appear (usually after title page).
+3. References → Table of Contents → Choose **Automatic Table 1** or **Custom Table of Contents** (set Show levels: 3).
+4. To update later: Click TOC → **Update Table** → **Update entire table** (or press `F9` with TOC selected).
+**Result**: Hyperlinked TOC reflecting current headings and page numbers.
+
+---
+
+### Example 2: Mail Merge Labels from Excel
+**Task**: Print address labels (Avery 5160 / 30 per sheet) using an Excel list.
+**Steps**:
+1. Mailings → Start Mail Merge → **Labels** → Label Options → Avery US Letter → 5160 → OK.
+2. Select Recipients → **Use Existing List** → Browse to Excel file → Select sheet → OK.
+3. Mailings → **Address Block** → Match Fields if needed → OK. «AddressBlock» appears in first label.
+4. Mailings → **Update Labels** → All labels show «AddressBlock».
+5. Preview Results → Check a few records.
+6. Finish & Merge → **Print Documents** (or Edit Individual Documents to save merged file).
+**Key point**: **Update Labels** propagates the merge field to every label on the sheet.
+
+---
+
+### Example 3: Different Headers in Same Document
+**Task**: Chapter 1 header = "Chapter 1: Introduction"; Chapter 2 header = "Chapter 2: Literature Review"; no header on title page.
+**Steps**:
+1. Insert → Header → Edit Header → Header & Footer Tools → Design → **Different First Page** (check).
+2. Go to start of Chapter 1 → Layout → Breaks → **Next Page Section Break**.
+3. In Chapter 1 section header: uncheck **Link to Previous** → type "Chapter 1: Introduction".
+4. Go to start of Chapter 2 → Insert **Next Page Section Break**.
+5. In Chapter 2 section header: uncheck **Link to Previous** → type "Chapter 2: Literature Review".
+**Result**: Three sections — title page (no header), Chapter 1, Chapter 2 — each with independent header.
+
+---
+
+### Example 4: Track Changes & Accept/Reject
+**Task**: Collaborate on a contract; review edits from two colleagues.
+**Steps**:
+1. Review → **Track Changes** → On (or `Ctrl+Shift+E`).
+2. Colleagues edit — insertions appear underlined in color, deletions strikethrough.
+3. Review → **Show Markup** → choose Balloons (Show Revisions in Balloons) for margin view.
+4. Review → **Accept** / **Reject** → Accept/Reject and Move to Next, or Accept/Reject All Changes.
+5. Review → **Compare** → Compare two versions if Track Changes was off originally.
+**Tip**: Use **Reviewing Pane** (Review → Reviewing Pane) for a summary list of all changes.
+
+---
+
+### Example 5: Formula in Table Cell
+**Task**: Calculate total and average of a column of numbers in a Word table.
+**Steps**:
+1. Insert table with numbers in Column B (rows 2–6). Row 1 = header.
+2. Click cell B7 (total row). Layout (Table Tools) → **Formula** → `=SUM(ABOVE)` → Number format: `#,##0` → OK.
+3. Click cell B8 (average row). Formula → `=AVERAGE(ABOVE)` → OK.
+4. If numbers change: Select result cells → `F9` to update.
+**Note**: Word table formulas use **relative references** (ABOVE, BELOW, LEFT, RIGHT) or **absolute** (e.g., `=SUM(B2:B6)`).
+
+---
+
+### Example 6: Restrict Editing to Form Fields Only
+**Task**: Distribute a feedback form where users can only fill text boxes, not modify questions.
+**Steps**:
+1. Developer tab (enable via File → Options → Customize Ribbon → Developer) → **Legacy Tools** → **Text Form Field** (or Content Controls: Plain Text Content Control).
+2. Place fields where answers go. Set properties (max length, default text).
+3. Review → **Restrict Editing** → Check **Allow only this type of editing in the document** → **Filling in forms**.
+4. Click **Yes, Start Enforcing Protection** → Set password (optional) → OK.
+5. Save. Recipients open → can only tab between fields and type.
+**Security**: Without password, anyone can click **Stop Protection**. With password, only password-holder can unlock.
+
+---
+
+## 18. Common Errors & Exam Traps
+
+| # | Misconception / Error | Correct Fact |
+|---|----------------------|--------------|
+| 1 | "Ctrl+S saves as PDF." | `Ctrl+S` saves in current format. PDF: File → Save As → PDF or `F12` → choose PDF. |
+| 2 | "Page Break and Section Break are the same." | Page Break only moves text to next page. Section Break allows different layout, headers, numbering. |
+| 3 | "Headers/Footers are linked by default across sections." | **True** — Link to Previous is ON by default. Must uncheck to differentiate. |
+| 4 | "Mail Merge creates one document per recipient by default." | Finish & Merge → **Edit Individual Documents** creates one big document with all records. Print sends each to printer separately. |
+| 5 | "Track Changes shows who made each change automatically." | Only if each user has distinct **User Name** (File → Options → General → Personalize). Otherwise all show "Author". |
+| 6 | "Ctrl+Z undoes Save." | Save is not undoable. `Ctrl+Z` undoes editing actions only. |
+| 7 | "Word does not count words in text boxes, footnotes, endnotes by default." | Word Count dialog **includes** them by default (checkbox checked); the checkbox controls exclusion, not inclusion. |
+| 8 | "SmartArt is only for org charts." | SmartArt includes List, Process, Cycle, Hierarchy, Relationship, Matrix, Pyramid — not just org charts. |
+| 9 | "Alt Text is only for images." | Alt Text applies to shapes, charts, SmartArt, tables, embedded objects — any non-text content. |
+| 10 | "Password to open and password to modify are the same." | File → Save As → Tools → General Options: **Password to open** (encrypts file), **Password to modify** (read-only prompt). Different purposes. |
+
+---
+
+## 19. Quick Reference — High-Yield Facts for Revision
+
+- **Default font (Word 2016+):** Calibri 11 pt.
+- **Default line spacing:** 1.08 (single) with 8 pt after paragraph.
+- **Maximum undo levels:** 100 (fixed; not configurable in Word Options).
+- **Maximum file size (docx):** 512 MB (total file); 32 MB for text-only portion in 32-bit Word.
+- **Find/Replace special codes (normal mode):** `^p` (paragraph mark), `^t` (tab), `^?` (any character), `^#` (any digit), `^$` (any letter).
+- **Wildcards (when "Use wildcards" is checked):** `*` (any string), `?` (any single character), `@` (one or more of previous), `<` (start of word), `>` (end of word), `[]` (character set).
+- **Field codes toggle:** `Alt+F9` (show/hide all), `Shift+F9` (selected field).
+- **Non-breaking space:** `Ctrl+Shift+Space` — keeps words together on same line.
+- **Non-breaking hyphen:** `Ctrl+Shift+Hyphen` — prevents line break at hyphen.
+- **Format Painter:** Single-click → apply once; Double-click → apply repeatedly (press `Esc` to stop).
+- **Spike (collect multiple cuts):** `Ctrl+F3` cuts to Spike; `Ctrl+Shift+F3` pastes all & clears Spike.
+
+---
+
+## 20. Practice Pointers
+
+1. **Hands-on**: Open Word, replicate each worked example. Muscle memory beats rote memorization.
+2. **Shortcut drills**: Pick 10 shortcuts daily; use them in real editing.
+3. **Field codes**: Press `Alt+F9` on a document with TOC, cross-refs, page numbers — see the underlying codes (`{ TOC \o "1-3" \h \z \u }`, `{ PAGE \* MERGEFORMAT }`).
+4. **Mail Merge**: Create a 5-row Excel sheet, merge to labels and to email (preview only).
+5. **Restrict Editing**: Build a 3-field form, enforce protection, test as recipient.
+6. **Compare Documents**: Edit a copy, then Review → Compare → Original vs Revised — observe legal blackline output.
+
+---
+
+**Sources**: Microsoft Support (support.microsoft.com), Microsoft Learn (learn.microsoft.com), CERT-In advisories (cert-in.org.in), RBI cyber security guidelines (rbi.org.in). All concepts reflect stable, documented features — no version-specific or unverified claims.

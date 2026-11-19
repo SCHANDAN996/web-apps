@@ -1,0 +1,49 @@
+1. **Ribbon Interface** — The Ribbon replaces menus and toolbars; it contains tabs (File, Home, Insert, Design, Layout, References, Mailings, Review, View) each grouping related commands. The File tab opens Backstage view for file-level tasks (New, Open, Save, Print, Options).
+
+2. **Quick Access Toolbar (QAT)** — Customizable toolbar above or below the Ribbon that holds frequently used commands (Save, Undo, Redo by default). Right-click any Ribbon command → “Add to Quick Access Toolbar” to pin it.
+
+3. **Backstage View** — Accessed via the File tab; manages file operations (New, Open, Save, Save As, Print, Share, Export, Close, Account, Options). Not a document editing area.
+
+4. **Document Views** — Print Layout (default, shows pages as printed), Web Layout (continuous scroll), Outline (heading hierarchy), Draft (text only, no margins), Read Mode (optimized for reading). Switch via View tab or status bar icons.
+
+5. **Non-Printing Characters** — Toggle with ¶ (Home tab) or Ctrl+Shift+8. Shows paragraph marks (¶), spaces (·), tabs (→), page breaks, section breaks — essential for troubleshooting layout issues.
+
+6. **Selection Techniques** — Click+drag; double-click word; triple-click paragraph; Ctrl+click sentence; margin+click line; Ctrl+A selects entire document. Shift+arrow keys extend selection character by character; Ctrl+Shift+arrow extends by word; Shift+Home/End extends to line start/end; Ctrl+Shift+Home/End extends to document start/end.
+
+7. **Cut, Copy, Paste** — Ctrl+X, Ctrl+C, Ctrl+V. Paste Options appear automatically after pasting; choose Keep Source Formatting, Merge Formatting, or Keep Text Only. Paste Special (Ctrl+Alt+V) offers additional formats. Office Clipboard (Home → Clipboard launcher) stores up to 24 items across Office apps.
+
+8. **Undo / Redo** — Ctrl+Z / Ctrl+Y (or Ctrl+Shift+Z). Undo history limited by available memory, not a fixed number; remains available after saving in modern Word versions. Redo reapplies undone actions.
+
+9. **Font Formatting** — Font face, size (Ctrl+Shift+> / < to grow/shrink), Bold (Ctrl+B), Italic (Ctrl+I), Underline (Ctrl+U), Strikethrough, Subscript (Ctrl+=), Superscript (Ctrl+Shift++), Font Color, Highlight, Case Change (Shift+F3 cycles UPPERCASE, lowercase, Capitalize Each Word).
+
+10. **Paragraph Formatting** — Alignment: Left (Ctrl+L), Center (Ctrl+E), Right (Ctrl+R), Justify (Ctrl+J). Line spacing: Single (Ctrl+1), 1.5 (Ctrl+5), Double (Ctrl+2). Space Before/After paragraph via Layout tab. Indents: First line, Hanging (Ctrl+T), Left/Right indent markers on ruler.
+
+11. **Tabs** — Default every 0.5″. Set custom tabs on horizontal ruler (click ruler) or via Paragraph dialog → Tabs. Types: Left, Center, Right, Decimal, Bar. Clear tab by dragging off ruler.
+
+12. **Bullets & Numbering** — Home tab → Bullets/Numbering/Multilevel List. Define new bullet/number format. Restart numbering (right-click → Restart at 1) or Continue numbering. Multilevel lists link to heading styles for outline numbering.
+
+13. **Styles** — Predefined formatting sets (Normal, Heading 1–9, Title, Subtitle, etc.). Apply via Home → Styles gallery or Ctrl+Shift+S (Apply Styles dialog); Styles pane shortcut is Alt+Ctrl+Shift+S. Modify style updates all instances. Style Inspector (Styles pane → Style Inspector) reveals direct formatting vs style formatting.
+
+14. **Format Painter** — Click once to copy formatting once; double-click to apply repeatedly. Esc or click Format Painter again to stop. Copies character formatting (if text selected) or paragraph formatting (if paragraph mark included).
+
+15. **Page Setup** — Layout tab → Margins, Orientation (Portrait/Landscape), Size (Paper size), Columns, Breaks (Page, Column, Section: Next Page, Continuous, Even/Odd Page). Section breaks allow different headers/footers, margins, orientation per section.
+
+16. **Headers & Footers** — Insert tab → Header/Footer → Edit Header/Footer. Different First Page, Different Odd & Even Pages options. Link to Previous (default) chains sections; unlink to customize per section. Page Number → Format Page Numbers for numbering style (1,2,3 / i,ii,iii / A,B,C) and start value.
+
+17. **Page Breaks vs Section Breaks** — Page Break (Ctrl+Enter) moves text to next page. Section Break (Layout → Breaks) starts new section with independent page setup, headers/footers, columns. Continuous section break starts new section on same page.
+
+18. **Tables** — Insert → Table (grid, Insert Table, Draw Table, Convert Text to Table). Table Tools: Design (styles, borders, shading) and Layout (insert/delete rows/columns, merge/split cells, alignment, text direction, auto-fit, sort, formula). Repeat header rows on each page via Table Properties → Row tab.
+
+19. **Find, Replace, Go To** — Ctrl+F (Navigation pane), Ctrl+H (Replace), Ctrl+G (Go To). Wildcards (Use wildcards checkbox) enable pattern matching (e.g., `<[A-Z][a-z]@>` finds capitalized words). Replace formatting via Format button in Replace dialog.
+
+20. **Spell Check & Grammar** — F7 or Review → Spelling & Grammar. Red wavy = spelling, blue double underline = grammar (Word 2016/2019). Add to Dictionary, Ignore Once/All. Set proofing language per paragraph (Review → Language → Set Proofing Language).
+
+21. **AutoCorrect & AutoFormat** — File → Options → Proofing → AutoCorrect Options. Replaces common typos (teh → the), symbols ((c) → ©), and formats (--- → em dash). AutoFormat As You Type tab controls automatic bulleted/numbered lists, border lines (=== → line), ordinal superscript (1st).
+
+22. **Track Changes & Comments** — Review → Track Changes (Ctrl+Shift+E). Shows insertions (underline), deletions (strikethrough), formatting changes. Accept/Reject per change or all. Comments (New Comment, Ctrl+Alt+M) for reviewer notes; reply/resolve threads.
+
+23. **Document Protection** — Review → Restrict Editing: Formatting restrictions, Editing restrictions (Tracked changes, Comments, Filling forms, Read only), Start Enforcement with password. Encrypt with Password (File → Info → Protect Document) prevents opening without password.
+
+24. **Mail Merge** — Mailings tab → Start Mail Merge (Letters, E-mail, Envelopes, Labels, Directory). Select Recipients (Type new, Use existing list, Outlook contacts). Insert Merge Fields. Preview Results. Finish & Merge → Edit Individual Documents / Print / Send E-mail.
+
+25. **Essential Keyboard Shortcuts (Windows/Word scope)** — Ctrl+N (New), Ctrl+O (Open), Ctrl+S (Save), F12 (Save As), Ctrl+P (Print), Ctrl+F (Find), Ctrl+H (Replace), Ctrl+Z/Y (Undo/Redo), Ctrl+A (Select All), Ctrl+X/C/V (Cut/Copy/Paste), Ctrl+B/I/U (Bold/Italic/Underline), Ctrl+L/E/R/J (Align Left/Center/Right/Justify), Ctrl+1/2/5 (Line spacing), Ctrl+Enter (Page Break), Ctrl+Shift+Enter (Column Break), Shift+F3 (Change Case), F7 (Spelling), Alt+Ctrl+S (Split Window), Ctrl+F6 (Next Document Window). Browser shortcuts (Ctrl+T, Ctrl+W, F5) do not apply in Word.

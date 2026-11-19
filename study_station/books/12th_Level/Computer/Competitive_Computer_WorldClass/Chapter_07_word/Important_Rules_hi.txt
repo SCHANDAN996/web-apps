@@ -1,0 +1,90 @@
+# एमएस वर्ड — 15 महत्वपूर्ण नियम और सिद्धांत
+
+## नियम 1: फ़ाइल एक्सटेंशन और प्रारूप
+**नियम:** वर्ड दस्तावेज़ का डिफ़ॉल्ट एक्सटेंशन `.docx` है (Office 2007 से)। पुराना बाइनरी प्रारूप `.doc` है।  
+**उदाहरण:** `रिपोर्ट.docx` — XML-आधारित, छोटा आकार, भ्रष्टाचार कम।  
+**अपवाद:** मैक्रो-सक्षम दस्तावेज़ `.docm`; टेम्पलेट `.dotx`/`.dotm`।  
+**स्रोत:** Microsoft Support — "File formats in Word"
+
+## नियम 2: रिबन इंटरफ़ेस संरचना
+**नियम:** रिबन में **टैब → समूह → कमांड** का पदानुक्रम होता है। मुख्य टैब: Home, Insert, Design, Layout, References, Mailings, Review, View।  
+**उदाहरण:** Home टैब → Font समूह → Bold कमांड (Ctrl+B)।  
+**अपवाद:** File टैब (Backstage view) रिबन का भाग नहीं; Developer टैब डिफ़ॉल्ट छिपा होता है (File → Options → Customize Ribbon से सक्षम)।  
+**स्रोत:** Microsoft Learn — "Word user interface"
+
+## नियम 3: सेव और ऑटोसेव
+**नियम:** Ctrl+S (Save) मैन्युअल सेव; AutoSave केवल OneDrive/SharePoint पर संग्रहीत फ़ाइलों के लिए काम करता है (ऊपर दाएँ टॉगल)। AutoRecover हर 10 मिनट में स्थानीय प्रति बनाता है (File → Options → Save)।  
+**उदाहरण:** लोकल ड्राइव पर फ़ाइल → AutoSave बंद, AutoRecover सक्रिय।  
+**अपवाद:** AutoRecover फ़ाइल बंद होने पर ही पुनर्प्राप्त होती है; यह सेव का विकल्प नहीं।  
+**स्रोत:** Microsoft Support — "AutoSave and AutoRecover"
+
+## नियम 4: पैराग्राफ़ बनाम लाइन ब्रेक
+**नियम:** Enter = नया पैराग्राफ़ (पैराग्राफ़ फ़ॉर्मेटिंग लागू); Shift+Enter = लाइन ब्रेक (समान पैराग्राफ़ में नई पंक्ति)।  
+**उदाहरण:** बुलेट सूची में Shift+Enter से उप-बिंदु बिना नई बुलेट के।  
+**अपवाद:** टेबल सेल में Enter नया पैराग्राफ़ बनाता है; नई पंक्ति (रो) जोड़ने के लिए अंतिम सेल में Tab दबाएँ या Layout टैब → Insert Row उपयोग करें।  
+**स्रोत:** Microsoft Learn — "Paragraph formatting"
+
+## नियम 5: स्टाइल्स (Styles) का उपयोग
+**नियम:** स्टाइल्स (Heading 1, Normal, Title…) दस्तावेज़-संरचना, नेविगेशन पेन, TOC और एक्सेसिबिलिटी का आधार हैं। मैन्युअल फ़ॉर्मेटिंग (Bold, Size) स्टाइल को ओवरराइड करती है।  
+**उदाहरण:** Heading 1 लागू → Navigation Pane में अध्याय दिखेगा → References → Table of Contents स्वतः बनेगा।  
+**अपवाद:** Direct formatting (Ctrl+Space = Clear All Formatting) कैरेक्टर फ़ॉर्मेटिंग हटाता है; Ctrl+Q = Clear Paragraph Formatting पैराग्राफ़ फ़ॉर्मेटिंग हटाता है।  
+**स्रोत:** Microsoft Support — "Use styles"
+
+## नियम 6: पेज ब्रेक बनाम सेक्शन ब्रेक
+**नियम:** Page Break (Ctrl+Enter) केवल पेज बदलता है; Section Break (Layout → Breaks) नया सेक्शन बनाता है — अलग मार्जिन, ओरिएंटेशन, हेडर/फुटर, कॉलम संभव।  
+**उदाहरण:** लैंडस्केप टेबल के लिए Next Page सेक्शन ब्रेक → लैंडस्केप → Next Page → पोर्ट्रेट जारी।  
+**अपवाद:** Continuous सेक्शन ब्रेक पेज नहीं बदलता; कॉलम बदलने या हेडर/फुटर लिंक तोड़ने के लिए।  
+**स्रोत:** Microsoft Learn — "Section breaks"
+
+## नियम 7: हेडर/फुटर और "Link to Previous"
+**नियम:** प्रत्येक सेक्शन का अपना हेडर/फुटर होता है; डिफ़ॉल्ट "Link to Previous" चालू होता है। अलग हेडर/फुटर के लिए Header & Footer टैब → Link to Previous बंद करें।  
+**उदाहरण:** अध्याय 1 का हेडर "अध्याय 1", अध्याय 2 का "अध्याय 2" — सेक्शन ब्रेक + Link to Previous ऑफ।  
+**अपवाद:** First Page Different / Odd & Even Pages अलग सेटिंग्स हैं, सेक्शन से स्वतंत्र।  
+**स्रोत:** Microsoft Support — "Headers and footers"
+
+## नियम 8: पेज नंबरिंग नियंत्रण
+**नियम:** Insert → Page Number → Format Page Numbers → "Start at" सेट करें; सेक्शन ब्रेक के बाद नई संख्या शुरू करने के लिए Link to Previous बंद करें।  
+**उदाहरण:** फ्रंट मैटर (i, ii, iii) → सेक्शन ब्रेक → मुख्य भाग (1, 2, 3)।  
+**अपवाद:** "Continue from previous section" डिफ़ॉल्ट है; इसे अनचेक करके नई शुरुआत करें।  
+**स्रोत:** Microsoft Learn — "Page numbering"
+
+## नियम 9: टेबल व्यवहार — पंक्ति/पृष्ठ ब्रेक
+**नियम:** Table Properties → Row टैब → "Allow row to break across pages" चालू होने पर लंबी पंक्ति दो पेज में बँटती है; बंद करने पर पूरी पंक्ति अगले पेज पर जाती है। "Repeat as header row at the top of each page" हेडर पंक्ति दोहराता है।  
+**उदाहरण:** लंबी सेल टेक्स्ट → विकल्प बंद → पंक्ति अगले पेज पर पूरी।  
+**अपवाद:** मर्ज की गई सेल्स में "Repeat as header" काम नहीं करता।  
+**स्रोत:** Microsoft Support — "Table rows break across pages"
+
+## नियम 10: इमेज रैपिंग और एंकर
+**नियम:** इमेज डिफ़ॉल्ट "In Line with Text" (टेक्स्ट के साथ चलती है)। "Square", "Tight", "Behind Text" आदि में इमेज एंकर (⚓) से बँधी होती है — एंकर जिस पैराग्राफ़ में, इमेज उसी पेज पर रहती है।  
+**उदाहरण:** Layout Options → "Move with text" बंद → "Fix position on page" → इमेज पेज पर स्थिर।  
+**अपवाद:** "In Line with Text" में एंकर नहीं होता; इमेज टेक्स्ट का भाग बन जाती है।  
+**स्रोत:** Microsoft Learn — "Wrap text around pictures"
+
+## नियम 11: ट्रैक चेंजेस और कमेंट्स
+**नियम:** Review → Track Changes चालू → सम्मिलन (लाल रेखांकन), विलोपन (स्ट्राइकथ्रू), फ़ॉर्मेटिंग परिवर्तन दिखते हैं। Accept/Reject से अंतिम रूप दें। Comments (New Comment) टेक्स्ट से जुड़े होते हैं।  
+**उदाहरण:** सहयोगी संपादन → Track Changes → अंत में Accept All Changes।  
+**अपवाद:** "No Markup" दृश्य में परिवर्तन छिपे रहते हैं, हटते नहीं; प्रिंट में "Print Markup" विकल्प नियंत्रित करता है।  
+**स्रोत:** Microsoft Support — "Track changes"
+
+## नियम 12: मेल मर्ज (Mail Merge) चरण
+**नियम:** 6 चरण: 1) दस्तावेज़ प्रकार चुनें (Letters, E-mail, Labels…) → 2) प्रारंभिक दस्तावेज़ चुनें (वर्तमान/टेम्पलेट/मौजूदा) → 3) प्राप्तकर्ता चुनें (Excel/Outlook/Type a new list) → 4) पत्र लिखें — मर्ज फील्ड डालें → 5) पत्रों का पूर्वावलोकन करें → 6) मर्ज पूर्ण करें (Edit Individual Documents / Print / Send E-mail)।  
+**उदाहरण:** Excel सूची से 100 पत्र → चरण 6 में Edit Individual Documents → 100-पेज दस्तावेज़।  
+**अपवाद:** "Edit Individual Documents" नया दस्तावेज़ बनाता है; मूल मर्ज टेम्पलेट अपरिवर्तित रहता है।  
+**स्रोत:** Microsoft Learn — "Mail merge"
+
+## नियम 13: कीबोर्ड शॉर्टकट — विंडोज़/ऑफिस स्कोप
+**नियम:** सामान्य शॉर्टकट (Ctrl+C, Ctrl+V, Ctrl+X, Ctrl+Z, Ctrl+Y, Ctrl+S, Ctrl+P, Ctrl+A, Ctrl+F, Ctrl+H) पूरे विंडोज़/ऑफिस में काम करते हैं। वर्ड-विशिष्ट: Ctrl+B/I/U, Ctrl+L/E/R/J (संरेखण), Ctrl+1/2/5 (लाइन स्पेसिंग), Ctrl+Enter (पेज ब्रेक), Shift+F3 (केस बदलें), Alt+Shift+D/T/P (दिनांक/समय/पेज नंबर फील्ड)।  
+**अपवाद:** ब्राउज़र में वर्ड ऑनलाइन कुछ शॉर्टकट ब्राउज़र द्वारा पकड़े जाते हैं (जैसे Ctrl+P प्रिंट डायलॉग खोलता है, वर्ड का नहीं)।  
+**स्रोत:** Microsoft Support — "Keyboard shortcuts in Word"
+
+## नियम 14: एक्सेसिबिलिटी चेकर
+**नियम:** Review → Check Accessibility (Alt+R, A, 1) — त्रुटियाँ (Missing Alt Text, Contrast), चेतावनियाँ, सुझाव दिखाता है। Alt Text: Picture Format → Alt Text → विवरण लिखें।  
+**उदाहरण:** चित्र के लिए "बार चार्ट दिखाता है 2023 की तिमाही बिक्री" — स्क्रीन रीडर पढ़ेगा।  
+**अपवाद:** सजावटी चित्रों के लिए "Mark as decorative" चुनें — Alt Text अनावश्यक।  
+**स्रोत:** Microsoft Support — "Accessibility Checker"
+
+## नियम 15: दस्तावेज़ सुरक्षा — प्रतिबंध और पासवर्ड
+**नियम:** File → Info → Protect Document → Encrypt with Password (खोलने के लिए पासवर्ड) / Restrict Editing (संपादन प्रतिबंध: No changes / Comments / Filling forms / Read only)। Restrict Editing में "Yes, Start Enforcing Protection" → पासवर्ड वैकल्पिक।  
+**उदाहरण:** फॉर्म टेम्पलेट → Restrict Editing → "Filling in forms" → केवल फॉर्म फील्ड संपादनीय।  
+**अपवाद:** पासवर्ड भूलने पर Microsoft पुनर्प्राप्त नहीं कर सकता; तृतीय-पक्ष टूल्स दावा करते हैं पर गारंटी नहीं।  
+**स्रोत:** Microsoft Support — "Protect a document"
