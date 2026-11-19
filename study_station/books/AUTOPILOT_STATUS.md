@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 08:01 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 03:11 PM
+**आख़िरी update:** 19-11-2026 08:16 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 03:11 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 113 मिनट |
-| W2 | Chapter 09 powerpoint (12th Computer) | 🔎 review हो रहा है | 10 मिनट |
-| W3 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 71 मिनट |
+| W2 | Chapter 09 powerpoint (12th Computer) | 🔎 review हो रहा है | 26 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 207 |
-| key 4 | 191 |
+| key 3 | 211 |
+| key 4 | 196 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -50,28 +48,15 @@
 
 - Chapter 07 word (Computer) — 2 बार
 - Chapter 06 kaal vachya (Hindi) — 2 बार
-- Chapter 01 varn vartani (Hindi) — 2 बार
+- Chapter 01 varn vartani (Hindi) — 3 बार
 - Chapter 08 samas (Hindi) — 2 बार
 - Chapter 07 sandhi (Hindi) — 1 बार
 - Chapter 08 excel (Computer) — 1 बार
+- Chapter 09 upsarg pratyay (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 19:11:42   [varn_vartani] review Feynman_hi.txt: resumed private correction draft
-19-11 19:12:51   [powerpoint] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
-19-11 19:16:26   [excel] review PYQ_hi.txt round 1: 1 issue(s): - उदाहरण 1 में उत्तर और व्याख्या गलत है: सेल B2 में सूत्र `=$A$1+A2` को C3 में कॉपी करने पर सापेक्ष संदर्भ A2 ए
-19-11 19:19:26   [excel] review PYQ_hi.txt round 2: 1 issue(s): - Keyboard Shortcuts (स्वरूपण): `Ctrl+Shift+@` labeled as वैज्ञानिक (scientific) and `Ctrl+Shift+:` as समय (tim
-19-11 19:20:55   [varn_vartani] review Feynman_hi.txt round 1: 2 issue(s): - In the chandrabindu rule table, the example "सँकरा" is incorrect because the following consonant 'क' is n
-19-11 19:21:17   [excel] REJECTED review fix PYQ_hi.txt: reviewer still reports - "सरणी सूत्र विरासत" जाल में स्पष्टीकरण गलत है: `=SUM(A1:A10*B1:B10)` नए एक्सेल में **स्पिल नह
-19-11 19:21:51   [excel] review Important_Rules_en.txt round 1: 1 issue(s): - Rule 13 states Mac shortcut for F4 (absolute reference) is Cmd+T → The correct Mac shortcut for t
-19-11 19:22:48   [varn_vartani] review Feynman_hi.txt round 2: 2 issue(s): - In the 'भ्रमित शब्द-युग्म' table, the row for 'आश्चर्य' shows identical spellings for both correct and in
-19-11 19:24:22   [powerpoint] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-19-11 19:25:13   [excel] review Important_Rules_en.txt round 2: 2 issue(s): - Rule 9: The statement “Rules are evaluated in the order listed; the first true rule wins unless “
-19-11 19:27:18   [excel] REJECTED review fix Important_Rules_en.txt: reviewer still reports - Rule 13: Mac shortcut for toggling absolute/relative references is incorrectly gi
-19-11 19:27:27   [upsarg_pratyay] wrote Practice_hi_Set_03.txt (write, 25 MCQs)
-19-11 19:28:00   [excel] review Important_Rules_hi.txt round 1: 2 issue(s): - नियम 2 में संरचित संदर्भ (Structured References) के बारे में कहा गया है कि "टेबल नाम और स्तंभ नाम
-19-11 19:28:38   [upsarg_pratyay] Practice_hi_Set_04.txt try 1: rejected (Q95:duplicate_options)
 19-11 19:29:49   [powerpoint] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 19-11 19:33:07   [powerpoint] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 19-11 19:35:38   [powerpoint] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
@@ -98,4 +83,18 @@
 19-11 19:55:33   [powerpoint] review Content_en.txt round 1: 2 issue(s): - Incorrect shortcut "Ctrl+Shift+F: Font dialog" → The correct shortcut for Font dialog in PowerPoint is Ct
 19-11 19:58:36   [powerpoint] review Content_en.txt round 2: 3 issue(s): - Keyboard shortcuts list: "Ctrl+Shift+{ / Ctrl+Shift+}: Send to back / Bring to front" → The correct short
 19-11 19:59:38   [upsarg_pratyay] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q149 key a vs re-solve ?)
+19-11 20:03:17   [powerpoint] review Content_hi.txt round 1: 2 issue(s): - Normal view shortcut incorrectly given as `Alt → W → L` in the Views table and Keyboard Shortcuts table →
+19-11 20:05:25   [varn_vartani] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Point 1 note claims adding ड़/ढ़ gives 46 letters, but the official मानक हिन्दी व
+19-11 20:05:25   [varn_vartani] review: 0 section(s) corrected, 3 failed
+19-11 20:05:25   [varn_vartani] written 0, failed 3; AI calls today 401/100000
+19-11 20:05:25 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 75 min: todo [] problems []
+19-11 20:05:25 worker 2: nothing left
+19-11 20:07:57   [powerpoint] review Content_hi.txt round 2: 2 issue(s): - पाठ स्वरूपण अनुभाग में बुलेट के लिए शॉर्टकट `Ctrl+Shift+L` दिया गया है, जो पावरपॉइंट में मान्य नहीं है (य
+19-11 20:08:41   [upsarg_pratyay] wrote Practice_hi_Set_06.txt (write, 25 MCQs)
+19-11 20:08:41   [upsarg_pratyay] written 2, failed 3; AI calls today 403/100000
+19-11 20:08:41 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay after 121 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 04 hi: todo'] problems []
+19-11 20:08:41 worker 0: nothing left
+19-11 20:13:28   [powerpoint] REJECTED review fix Content_hi.txt: reviewer still reports - The shortcuts `Ctrl+Shift+F` and `Ctrl+Shift+B` are incorrectly listed for "Bring to Fron
+19-11 20:14:49   [powerpoint] review Key_Facts_en.txt round 1: 3 issue(s): - Ribbon Interface lists "Help" as a tab; Help is not a ribbon tab in PowerPoint (it's a button) → Remove
+19-11 20:16:38   [powerpoint] review Key_Facts_en.txt round 2: 2 issue(s): - Reading View described as "full-screen without presenter tools" → Reading View is a windowed view with 
 ```
