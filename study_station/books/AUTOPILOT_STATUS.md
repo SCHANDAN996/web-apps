@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 08:15 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 06:58 AM
+**आख़िरी update:** 19-11-2026 08:30 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 06:58 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 19 मिनट |
-| W2 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 42 मिनट |
-| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 36 मिनट |
-| W4 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 50 मिनट |
+| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 35 मिनट |
+| W2 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 57 मिनट |
+| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 51 मिनट |
+| W4 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 66 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 58 |
-| key 4 | 67 |
+| key 3 | 66 |
+| key 4 | 89 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -55,20 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 07:39:28   [samas] Hindi-only writer: direct Hindi content; English generation and translation disabled
-19-11 07:41:01   [samas] Practice_hi_Set_01.txt try 1: rejected (parsed 24 questions, numbers 1…25)
-19-11 07:42:06   [varn_vartani] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - In rule 5, the anusvara example "सन्त (ण)" misidentifies the nasal as retroflex ण
-19-11 07:42:06   [varn_vartani] review: 2 section(s) corrected, 4 failed
-19-11 07:42:06   [varn_vartani] written 2, failed 4; AI calls today 82/100000
-19-11 07:42:06 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 44 min: todo [] problems []
-19-11 07:42:06 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya (OK: todo 0, problems 0)
-19-11 07:43:40   [samas] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q2 key c vs re-solve a, Q9 key b vs re-solve c, Q18 key a vs re-solve d, Q23 key a vs re-solve b)
-19-11 07:43:47   [visheshan_kriya] review Content_hi.txt: 3 issue(s): - Section 1.1 rule states "विशेषण हमेशा संज्ञा/सर्वनाम के लिंग, वचन, कारक के अनुसार बदलता है" → This is incorrect b
-19-11 07:45:12   [visheshan_kriya] REJECTED review fix Content_hi.txt: reviewer still reports - In section 1.3 table, "हरा" is incorrectly classified as अरूपांतरित विशेषण; it is a रूपां
-19-11 07:46:20   [word] REJECTED review fix Content_hi.txt: reviewer still reports - शॉर्टकट तालिका में 'फिर से करें' के लिए 'Ctrl+Shift+Z' को Word शॉर्टकट बताया गया है → Wor
-19-11 07:47:26   [word] review Key_Facts_en.txt: 3 issue(s): - Point 6: "Shift+arrow keys extend selection character/word/line/paragraph" is incorrect; Shift+arrow only exten
-19-11 07:49:03   [sandhi] Practice_hi_Set_01.txt try 3: rejected (parsed 24 questions, numbers 1…25)
-19-11 07:49:23   [samas] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q7 key d vs re-solve b, Q23 key a vs re-solve b)
 19-11 07:51:19   [sandhi] Practice_hi_Set_01.txt try 4: rejected (Q7:duplicate_options,Q17:duplicate_options,Q20:duplicate_options,Q22:duplicate_options,Q24:duplicate_options)
 19-11 07:51:19   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
 19-11 07:52:24   [samas] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q7 key d vs re-solve b)
@@ -95,4 +81,18 @@
 19-11 08:14:22   [sandhi] Practice_hi_Set_03.txt try 3: rejected (corrupted characters)
 19-11 08:14:56   [samas] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q99 key a vs re-solve b)
 19-11 08:15:37   [ling_vachan_karak] review Content_hi.txt: 6 issue(s): - In the बहुवचन बनाने के नियम table, the row for 'आ (स्त्रीलिंग)' incorrectly lists 'लड़की → लड़कियाँ' and 'नदी → न
+19-11 08:17:13   [samas] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q99 key a vs re-solve b)
+19-11 08:17:21   [ling_vachan_karak] REJECTED review fix Content_hi.txt: reviewer still reports - In the plural formation table (Section 2), the row for "आ (स्त्रीलिंग)" lists "बहू → बहुए
+19-11 08:18:53   [sandhi] Practice_hi_Set_03.txt try 4: rejected (Q54:duplicate_options,Q62:duplicate_options,Q64:duplicate_options,Q66:duplicate_options,Q68:duplicate_options)
+19-11 08:18:53   [sandhi] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+19-11 08:19:44   [sandhi] Practice_hi_Set_05.txt try 1: rejected (Q118:duplicate_options)
+19-11 08:20:51   [samas] wrote Practice_hi_Set_04.txt (write, 25 MCQs)
+19-11 08:21:00   [sandhi] Practice_hi_Set_05.txt try 2: rejected (Q118:duplicate_options)
+19-11 08:22:10   [word] REJECTED review fix Key_Facts_en.txt: reviewer still reports - In point 19, the wildcard example `<[A-Z]{1,}>` uses regex syntax, not Word wildcard sy
+19-11 08:24:40   [word] review Flashcards_hi.txt: 2 issue(s): - Card 10: "Ctrl + Click (शब्द)" → Ctrl+Click selects a sentence; to select a word use double‑click.
+19-11 08:25:42   [ling_vachan_karak] review Key_Facts_hi.txt: 5 issue(s): - Point 4: The claim that inanimate objects are usually neuter and the examples (किताब, मेज, पानी, आकाश) are wron
+19-11 08:27:13   [ling_vachan_karak] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 4 incorrectly claims Hindi has a neuter gender (नपुंसकलिंग) for inanimate nouns a
+19-11 08:28:39   [word] review PYQ_en.txt: 2 issue(s): - In Example 1 solution, the claim "Ctrl + Shift + F opens the Font dialog with focus on the Font list (legacy behavior
+19-11 08:29:13   [sandhi] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q102 key a vs re-solve b, Q105 key c vs re-solve d, Q106 key c vs re-solve d, Q109 key d vs re-solve
+19-11 08:30:19   [samas] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q113 key a vs re-solve d, Q115 key a vs re-solve d, Q119 key c vs re-solve d)
 ```
