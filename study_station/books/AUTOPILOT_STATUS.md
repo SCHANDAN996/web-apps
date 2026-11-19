@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 10:56 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
+**आख़िरी update:** 19-11-2026 11:11 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 powerpoint (12th Computer) | 🔎 review हो रहा है | 76 मिनट |
-| W2 | Chapter 10 paryayvachi (10th Hindi) | ✍️ लिख रहा है | 72 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 139 मिनट |
-| W4 | Chapter 08 samas (10th Hindi) | 🔎 review हो रहा है | 11 मिनट |
+| W1 | Chapter 09 powerpoint (12th Computer) | 🔎 review हो रहा है | 91 मिनट |
+| W2 | Chapter 10 paryayvachi (10th Hindi) | ✍️ लिख रहा है | 87 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 154 मिनट |
+| W4 | Chapter 08 samas (10th Hindi) | 🔎 review हो रहा है | 27 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 51 |
-| key 4 | 82 |
+| key 3 | 56 |
+| key 4 | 95 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -57,15 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 21:58:10   [paryayvachi] wrote PYQ_hi.txt (7692 chars)
-19-11 21:59:19   [paryayvachi] wrote Important_Rules_hi.txt (9576 chars)
-19-11 21:59:58   [sandhi] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q6 key b vs re-solve a, Q7 key a vs re-solve b, Q8 key d vs re-solve a, Q9 key b vs re-solve a, Q10 
-19-11 22:02:06   [upsarg_pratyay] Practice_hi_Set_04.txt try 1: rejected (Q90:duplicate_options)
-19-11 22:05:24   [upsarg_pratyay] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q92 key a vs re-solve d)
-19-11 22:08:35   [upsarg_pratyay] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q92 key a vs re-solve d)
-19-11 22:11:14   [upsarg_pratyay] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q92 key a vs re-solve d)
-19-11 22:11:14   [upsarg_pratyay] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
-19-11 22:11:14   [upsarg_pratyay] written 0, failed 3; AI calls today 97/100000
 19-11 22:11:14 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay after 70 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 04 hi: todo'] problems []
 19-11 22:11:14 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (OK: todo 0, problems 0)
 19-11 22:11:15   [varn_vartani] review Feynman_hi.txt: resumed private correction draft
@@ -97,4 +88,13 @@
 19-11 22:52:17   [sandhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q26 key b vs re-solve a, Q28 key d vs re-solve c, Q29 key d vs re-solve b, Q30 key a vs re-solve c, 
 19-11 22:53:28   [samas] review Content_hi.txt round 2: 3 issue(s): - 'अनुग्रह' is incorrectly classified as अव्ययीभाव with meaning 'कृपा के अनुसार' → 'अनुग्रह' means 'कृपा' a
 19-11 22:56:41   [powerpoint] review PYQ_hi.txt round 2: 1 issue(s): - 'नकारात्मक वाक्य' जाल के उदाहरण में प्रश्न "कौन-सा" (एकवचन) है लेकिन उत्तर तीन विकल्प (`.pptm`, `.potx`, `.pp
+19-11 22:57:33   [powerpoint] 2026-11-19 17:27:33,652 WARNING NVIDIA rate_limited — retrying in 20s
+19-11 22:59:07   [powerpoint] review Important_Rules_en.txt: resumed private correction draft
+19-11 23:00:40   [powerpoint] review Important_Rules_en.txt round 1: 1 issue(s): - Rule 13: Incorrect menu path for "Package Presentation for CD" given as "File → Export → Package 
+19-11 23:03:42   [powerpoint] review Important_Rules_en.txt round 2: 1 issue(s): - Rule 7 exception states Presenter View can be used with a single monitor via the “Use Presenter V
+19-11 23:04:06   [powerpoint] 2026-11-19 17:34:06,852 WARNING NVIDIA rate_limited — retrying in 20s
+19-11 23:06:44   [sandhi] FAILED Practice_hi_Set_02.txt: too_long
+19-11 23:07:23   [sandhi] Practice_hi_Set_03.txt try 1: rejected (Q61:duplicate_options)
+19-11 23:09:15   [powerpoint] review Important_Rules_hi.txt round 1: 3 issue(s): - नियम 3: एक्सेंट 1 (Accent 1) थीम रंग बदलने से हाइपरलिंक का रंग नहीं बदलता → हाइपरलिंक रंग अलग "हा
+19-11 23:11:38   [samas] review Key_Facts_hi.txt round 1: 4 issue(s): - Point 3: Examples "अनुराग" and "उपवन" for अव्ययीभाव are incorrect; they are not used as indeclinables. 
 ```
