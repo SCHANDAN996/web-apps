@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 08:00 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 06:58 AM
+**आख़िरी update:** 19-11-2026 08:15 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 06:58 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 4 मिनट |
-| W2 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 26 मिनट |
-| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 20 मिनट |
-| W4 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 35 मिनट |
+| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 19 मिनट |
+| W2 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 42 मिनट |
+| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 36 मिनट |
+| W4 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 50 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 50 |
-| key 4 | 61 |
+| key 3 | 58 |
+| key 4 | 67 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -55,18 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 07:33:32 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 35 min: todo [] problems []
-19-11 07:33:32 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word (OK: todo 0, problems 0)
-19-11 07:34:43   [kaal_vachya] review Important_Rules_hi.txt: 5 issue(s): - नियम २ के अपवाद में टाइपो और गलत दावा: "नहीं कहते — 'वह जा रहा है' के स्थान पर 'वह जा रहा है' मान्य है, ल
-19-11 07:36:27   [word] review Content_en.txt: 2 issue(s): - "Maximum file size (docx): 512 MB (text only); 32 MB for 32-bit Word with graphics." → The maximum file size for 
-19-11 07:36:33   [varn_vartani] review Important_Rules_hi.txt: 6 issue(s): - Section 7 table lists "आँख" as an example for बिन्दु (ं) on दीर्घ स्वर, but "आँख" uses चन्द्रबिन्दु (ँ) →
-19-11 07:38:12   [word] REJECTED review fix Content_en.txt: reviewer still reports - In the Keyboard Shortcuts table, `Ctrl+Shift+V` is listed as "Paste as plain text (Keep T
-19-11 07:38:46   [word] review Content_hi.txt: 1 issue(s): - "More Columns für स्पेस/लाइन नियंत्रण" में जर्मन शब्द "für" प्रयुक्त हुआ है → "More Columns **for** स्पेस/लाइन नि
-19-11 07:39:27   [kaal_vachya] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम २ का अपवाद: 'वह जा रहा है' को 'वह जाता है' से कम शुद्ध बताना गलत है → दोनों 
-19-11 07:39:27   [kaal_vachya] review: 1 section(s) corrected, 3 failed
-19-11 07:39:27   [kaal_vachya] written 1, failed 3; AI calls today 77/100000
-19-11 07:39:28 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya after 28 min: todo [] problems []
-19-11 07:39:28 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas (TODO: todo 5, problems 0)
 19-11 07:39:28   [samas] Hindi-only writer: direct Hindi content; English generation and translation disabled
 19-11 07:41:01   [samas] Practice_hi_Set_01.txt try 1: rejected (parsed 24 questions, numbers 1…25)
 19-11 07:42:06   [varn_vartani] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - In rule 5, the anusvara example "सन्त (ण)" misidentifies the nasal as retroflex ण
@@ -95,4 +83,16 @@
 19-11 07:55:47 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 14 min: todo [] problems []
 19-11 07:55:48 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (OK: todo 0, problems 0)
 19-11 07:56:55   [sandhi] Practice_hi_Set_02.txt try 2: rejected (Q37:duplicate_options,Q48:duplicate_options)
+19-11 08:02:33   [samas] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q64 key c vs re-solve ?, Q71 key b vs re-solve a)
+19-11 08:05:37   [sandhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q31 key c vs re-solve a, Q49 key a vs re-solve c)
+19-11 08:08:05   [samas] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q64 key c vs re-solve a)
+19-11 08:08:05   [samas] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+19-11 08:11:09   [samas] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q89 key c vs re-solve b, Q93 key d vs re-solve c, Q97 key a vs re-solve c, Q100 key d vs re-solve b)
+19-11 08:12:04   [sandhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q29 key d vs re-solve ?, Q30 key c vs re-solve ?, Q36 key d vs re-solve ?, Q40 key b vs re-solve ?)
+19-11 08:12:04   [sandhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
+19-11 08:12:38   [sandhi] Practice_hi_Set_03.txt try 1: rejected (Q52:duplicate_options,Q54:duplicate_options,Q56:duplicate_options,Q58:duplicate_options,Q60:duplicate_options)
+19-11 08:13:13   [sandhi] Practice_hi_Set_03.txt try 2: rejected (Q52:duplicate_options,Q54:duplicate_options,Q56:duplicate_options,Q58:duplicate_options,Q60:duplicate_options)
+19-11 08:14:22   [sandhi] Practice_hi_Set_03.txt try 3: rejected (corrupted characters)
+19-11 08:14:56   [samas] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q99 key a vs re-solve b)
+19-11 08:15:37   [ling_vachan_karak] review Content_hi.txt: 6 issue(s): - In the बहुवचन बनाने के नियम table, the row for 'आ (स्त्रीलिंग)' incorrectly lists 'लड़की → लड़कियाँ' and 'नदी → न
 ```
