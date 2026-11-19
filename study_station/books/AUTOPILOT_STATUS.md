@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 09:32 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 06:58 AM
+**आख़िरी update:** 19-11-2026 09:33 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 06:58 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
-| W2 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 2 मिनट |
-| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 2 मिनट |
-| W4 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 6 मिनट |
+| W1 | Chapter 04 visheshan kriya (10th Hindi) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 3 मिनट |
+| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 3 मिनट |
+| W4 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 7 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 110 |
-| key 4 | 138 |
+| key 3 | 111 |
+| key 4 | 141 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -42,7 +42,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 19-11 09:33 — 10th Hindi · Chapter 04 visheshan kriya
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
@@ -59,9 +59,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 09:09:24   [kaal_vachya] review Content_hi.txt: 7 issue(s): - "प्रतिवर्ष 3–5 प्रश्न पूछे जाते हैं" claim is an invented exam statistic → Remove or cite authentic source
-19-11 09:10:44   [kaal_vachya] REJECTED review fix Content_hi.txt: reviewer still reports - In the Future Tense table, the structure for सतत (Continuous) is given as "मूल क्रिया + र
-19-11 09:10:58   [visheshan_kriya] review Key_Facts_hi.txt: 2 issue(s): - Point 15: The rule "मूल क्रिया + संज्ञा/सर्वनाम = संयुक्त क्रिया" has the order reversed; examples like "काम कर
 19-11 09:12:06   [kaal_vachya] review Key_Facts_hi.txt: 6 issue(s): - Point 10: Example "सीता गाती है → गाया जाता है सीता से" uses an intransitive verb to form passive, contradictin
 19-11 09:13:36   [kaal_vachya] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 10 example uses "सीता द्वारा" for an animate agent while the rule states animate 
 19-11 09:16:57   [kaal_vachya] review PYQ_hi.txt: 2 issue(s): - In Section 2.1 Example 3 (द्विकर्मक क्रिया), the given answer (a) "शिष्य को गुरु द्वारा विद्या दी गई" contradicts the
@@ -99,4 +96,7 @@
 19-11 09:29:56   [upsarg_pratyay] Hindi-only writer: direct Hindi content; English generation and translation disabled
 19-11 09:32:12   [upsarg_pratyay] wrote Content_hi.txt (10748 chars)
 19-11 09:32:31   [word] REJECTED review fix Content_en.txt: reviewer still reports - "Maximum undo levels: 100 (configurable in Options → Advanced; maximum allowed is 100)" →
+19-11 09:32:51   [upsarg_pratyay] wrote Key_Facts_hi.txt (3603 chars)
+19-11 09:33:38   [visheshan_kriya] review: 2 section(s) corrected, 0 failed
+19-11 09:33:39   [visheshan_kriya] written 2, failed 0; AI calls today 251/100000
 ```
