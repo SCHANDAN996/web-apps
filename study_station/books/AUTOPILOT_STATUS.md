@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 12:38 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 11:36 AM
+**आख़िरी update:** 19-11-2026 12:53 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 11:36 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 38 मिनट |
-| W2 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 18 मिनट |
-| W3 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 7 मिनट |
-| W4 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 37 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 54 मिनट |
+| W2 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 33 मिनट |
+| W3 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 23 मिनट |
+| W4 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 52 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 38 |
-| key 4 | 48 |
+| key 3 | 43 |
+| key 4 | 54 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -55,15 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 12:01:17 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word (OK: todo 0, problems 0)
-19-11 12:02:03   [ling_vachan_karak] review Key_Facts_hi.txt: 3 issue(s): - बिंदु 8: उकारांत पुल्लिंग के स्त्रीलिंग नियम और उदाहरण गलत हैं — गुरु का स्त्रीलिंग “गुरनी” नहीं होता और शिष्य 
-19-11 12:02:26   [sandhi] Practice_hi_Set_01.txt try 1: rejected (Q3:duplicate_options,Q9:duplicate_options,Q15:duplicate_options,Q16:duplicate_options,Q17:duplicate_options)
-19-11 12:04:24   [ling_vachan_karak] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 4: The definition and examples for नपुंसकलिंग are wrong for Hindi — Hindi has no 
-19-11 12:05:36   [sandhi] Practice_hi_Set_01.txt try 2: rejected (Q3:duplicate_options)
-19-11 12:07:02   [word] review Content_en.txt: 3 issue(s): - In section 16 (Keyboard Shortcuts), `Ctrl+Shift+V` is listed as "Paste Special → Keep Text Only" → The default sh
-19-11 12:07:19   [sangya_sarvanam] review PYQ_hi.txt: 2 issue(s): - Section 2, trap for 'ने': incorrectly states 'ने' is used only with third person subject in perfective transitive ver
-19-11 12:09:05   [word] REJECTED review fix Content_en.txt: reviewer still reports - Section 18, #7: The table lists "Word counts words in text boxes, footnotes, endnotes by 
-19-11 12:11:09   [ling_vachan_karak] review PYQ_hi.txt: 4 issue(s): - Final note claims "SSC GD में इस अध्याय से 3–5 प्रश्न आते हैं" without source or year → Remove specific number claim 
 19-11 12:11:22   [word] review Content_hi.txt: 4 issue(s): - परिचय में रिबन टैब की सूची अधूरी है (Draw, Design आदि गायब हैं) → रिबन में टैब File, Home, Insert, Draw, Design, 
 19-11 12:13:29   [ling_vachan_karak] REJECTED review fix PYQ_hi.txt: reviewer still reports - The grammar rule for ergative "ने" incorrectly restricts it to third person (अन्य पुरुष) in p
 19-11 12:14:39   [ling_vachan_karak] review Important_Rules_hi.txt: 2 issue(s): - Rule 7: The rule claims “को” marks definite inanimate objects (निश्चित अजीव), but the example “राम ने पुस
@@ -95,4 +86,13 @@
 19-11 12:31:55   [word] review Key_Facts_hi.txt: 2 issue(s): - Ribbon tabs list omits the Design tab → The Ribbon includes Home, Insert, Design, Layout, References, Mailings,
 19-11 12:35:04   [samas] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q9 key c vs re-solve d, Q13 key b vs re-solve a, Q14 key c vs re-solve ?)
 19-11 12:35:14   [word] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - New Comment (`Alt+R, C`) → `Alt+R, C, N` (or `Ctrl+Alt+M`)
+19-11 12:40:25   [samas] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q9 key d vs re-solve c, Q23 key d vs re-solve c)
+19-11 12:44:19   [samas] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q9 key a vs re-solve d)
+19-11 12:44:32   [sandhi] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q6 key b vs re-solve a)
+19-11 12:44:32   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
+19-11 12:45:19   [sandhi] Practice_hi_Set_02.txt try 1: rejected (parsed 24 questions, numbers 26…50)
+19-11 12:46:16   [sandhi] Practice_hi_Set_02.txt try 2: rejected (Q28:duplicate_options,Q38:duplicate_options,Q40:duplicate_options,Q43:duplicate_options,Q48:duplicate_options)
+19-11 12:47:57   [sandhi] Practice_hi_Set_02.txt try 3: rejected (Q40:duplicate_options)
+19-11 12:53:27   [samas] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q9 key a vs re-solve d, Q13 key b vs re-solve a, Q14 key a vs re-solve ?, Q16 key d vs re-solve c, Q
+19-11 12:53:27   [samas] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
 ```
