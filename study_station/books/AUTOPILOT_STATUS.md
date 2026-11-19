@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 05:54 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 03:11 PM
+**आख़िरी update:** 19-11-2026 05:59 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 03:11 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 39 मिनट |
-| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 125 मिनट |
-| W3 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 41 मिनट |
-| W4 | Chapter 05 ling vachan karak (10th Hindi) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 44 मिनट |
+| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 130 मिनट |
+| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 4 मिनट |
+| W4 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 5 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 117 |
-| key 4 | 111 |
+| key 3 | 121 |
+| key 4 | 114 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -49,28 +49,14 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 03 sangya sarvanam (Hindi) — 2 बार
-- Chapter 05 ling vachan karak (Hindi) — 2 बार
 - Chapter 07 word (Computer) — 1 बार
-- Chapter 06 kaal vachya (Hindi) — 1 बार
+- Chapter 06 kaal vachya (Hindi) — 2 बार
 - Chapter 01 varn vartani (Hindi) — 2 बार
 - Chapter 08 samas (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 17:20:36   [word] review Content_hi.txt round 1: 1 issue(s): - फिर से करें (Redo) के लिए शॉर्टकट कॉलम में "Ctrl+Y (या Ctrl+Shift+Z)" लिखा है और स्कोप "Word" दिखाया गया 
-19-11 17:21:07   [varn_vartani] review Key_Facts_hi.txt round 1: 2 issue(s): - Point 1: The breakdown “33 मूल व्यंजन + 4 संयुक्त व्यंजन + 2 द्वित्व व्यंजन + कई नुक्ता-युक्त व्यंजन = 
-19-11 17:23:21   [word] review Key_Facts_en.txt: resumed private correction draft
-19-11 17:24:09   [word] review Key_Facts_en.txt round 1: 3 issue(s): - Item 6: "Shift+arrow keys extend selection character/word/line/paragraph." → Shift+arrow keys extend se
-19-11 17:24:21   [sandhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q26 key a vs re-solve c, Q30 key c vs re-solve b)
-19-11 17:24:21   [sandhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
-19-11 17:25:03   [word] review Key_Facts_en.txt round 2: 2 issue(s): - Ribbon Interface tabs list missing "Design" tab → The Ribbon tabs include Home, Insert, Design, Layout,
-19-11 17:26:26   [varn_vartani] review Key_Facts_hi.txt round 2: 1 issue(s): - Point 18 lists only 10 vowels (अ, आ, इ, ई, उ, ऊ, ए, ऐ, ओ, औ) for chandrabindu usage, omitting ऋ → Inclu
-19-11 17:26:57   [word] REJECTED review fix Key_Facts_en.txt: reviewer still reports - Point 20: “blue double underline = grammar” is incorrect; grammar errors are indicated 
-19-11 17:26:57   [word] review PYQ_en.txt: resumed private correction draft
-19-11 17:28:10   [kaal_vachya] review Content_hi.txt round 2: 1 issue(s): - In section 2.1, rules 1 and 2 for कर्तृ वाच्य → कर्म वाच्य conversion are reversed and misstated: they sa
-19-11 17:28:12   [word] review PYQ_en.txt round 1: 1 issue(s): - In Example 1 solution, the statement "Ctrl + Shift + F opens the Font dialog with focus on the font list" is 
-19-11 17:29:28   [varn_vartani] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - The consonant count in point 1 is given as 41, but the breakdown (33 basic + 4 conjunct
 19-11 17:29:28   [varn_vartani] review Feynman_hi.txt: resumed private correction draft
 19-11 17:31:25   [varn_vartani] review Feynman_hi.txt round 1: 1 issue(s): - In the confused word pairs table (section 4), the row for "आश्चर्य" shows the same spelling "आश्चर्य" in 
 19-11 17:31:51   [kaal_vachya] REJECTED review fix Content_hi.txt: reviewer still reports - Common errors table explanation for 'कारक चिह्न भूलना' incorrectly states that 'ने' is us
@@ -98,4 +84,17 @@
 19-11 17:53:01   [sandhi] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
 19-11 17:54:02   [ling_vachan_karak] review: 1 section(s) corrected, 0 failed
 19-11 17:54:02   [ling_vachan_karak] written 1, failed 0; AI calls today 229/100000
+19-11 17:54:15 DONE 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak in 6 min → 3d096d68
+19-11 17:54:15 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
+19-11 17:54:16   [sangya_sarvanam] review Important_Rules_hi.txt: resumed private correction draft
+19-11 17:55:18   [kaal_vachya] review: 2 section(s) corrected, 1 failed
+19-11 17:55:18   [kaal_vachya] written 2, failed 1; AI calls today 230/100000
+19-11 17:55:18 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya after 42 min: todo [] problems []
+19-11 17:55:19 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas (TODO: todo 3, problems 0)
+19-11 17:55:19   [samas] Hindi-only writer: direct Hindi content; English generation and translation disabled
+19-11 17:56:29   [sandhi] Practice_hi_Set_05.txt try 1: rejected (parsed 24 questions, numbers 101…125)
+19-11 17:56:49   [word] review PYQ_hi.txt: resumed private correction draft
+19-11 17:57:16   [sandhi] Practice_hi_Set_05.txt try 2: rejected (Q105:duplicate_options,Q106:duplicate_options,Q109:duplicate_options,Q112:duplicate_options,Q114:duplicate_opt
+19-11 17:57:45   [word] review PYQ_hi.txt round 1: 1 issue(s): - The 'स्कोप भ्रम' trap incorrectly claims that the statement "Ctrl+F opens Find" is false for "all Office apps
+19-11 17:58:38   [sandhi] Practice_hi_Set_05.txt try 3: rejected (Q114:duplicate_options,Q116:duplicate_options,Q119:duplicate_options,Q121:duplicate_options,Q122:duplicate_opt
 ```
