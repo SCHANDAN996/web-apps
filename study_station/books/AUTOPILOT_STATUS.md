@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 09:54 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
+**आख़िरी update:** 19-11-2026 10:10 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 powerpoint (12th Computer) | 🔎 review हो रहा है | 14 मिनट |
-| W2 | Chapter 10 paryayvachi (10th Hindi) | ✍️ लिख रहा है | 10 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 77 मिनट |
-| W4 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 53 मिनट |
+| W1 | Chapter 09 powerpoint (12th Computer) | 🔎 review हो रहा है | 29 मिनट |
+| W2 | Chapter 10 paryayvachi (10th Hindi) | ✍️ लिख रहा है | 26 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 92 मिनट |
+| W4 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 68 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 43 |
-| key 4 | 39 |
+| key 3 | 45 |
+| key 4 | 49 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -56,15 +56,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 21:11:03   [upsarg_pratyay] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q11 key b vs re-solve a, Q13 key c vs re-solve b, Q16 key b vs re-solve c, Q20 key a vs re-solve b)
-19-11 21:11:53   [samas] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q66 key d vs re-solve b)
-19-11 21:15:00   [samas] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q66 key d vs re-solve b)
-19-11 21:15:00   [samas] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
-19-11 21:15:24   [upsarg_pratyay] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q11 key a vs re-solve b, Q20 key a vs re-solve b)
-19-11 21:20:09   [samas] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q114 key a vs re-solve b, Q116 key d vs re-solve a, Q122 key a vs re-solve c)
-19-11 21:20:26   [upsarg_pratyay] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q20 key a vs re-solve b)
-19-11 21:20:26   [upsarg_pratyay] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
-19-11 21:22:31   [varn_vartani] review Feynman_hi.txt round 2: 1 issue(s): - The confused word-pair table lists "आश्चर्य" (च वर्ण) as correct and "आश्चर्य" (छ वर्ण) as incorrect, but
 19-11 21:22:46   [samas] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q116 key a vs re-solve d, Q122 key a vs re-solve b)
 19-11 21:29:21   [upsarg_pratyay] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q29 key d vs re-solve a, Q44 key c vs re-solve b)
 19-11 21:29:49   [varn_vartani] REJECTED review fix Feynman_hi.txt: reviewer still reports - Flashcard 8 explanation incorrectly states "च + छ = छ्छ → स्वच्छ" → correct is "च + छ = च
@@ -96,4 +87,13 @@
 19-11 21:51:34   [upsarg_pratyay] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q40 key a vs re-solve ?, Q44 key b vs re-solve ?)
 19-11 21:53:20   [paryayvachi] wrote Feynman_hi.txt (3762 chars)
 19-11 21:53:30   [paryayvachi] wrote Mind_Map.txt (988 chars)
+19-11 21:56:47   [upsarg_pratyay] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q39 key d vs re-solve b, Q40 key a vs re-solve ?, Q45 key d vs re-solve a)
+19-11 21:56:47   [upsarg_pratyay] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
+19-11 21:57:10   [paryayvachi] wrote Flashcards_hi.txt (2246 chars)
+19-11 21:58:10   [paryayvachi] wrote PYQ_hi.txt (7692 chars)
+19-11 21:59:19   [paryayvachi] wrote Important_Rules_hi.txt (9576 chars)
+19-11 21:59:58   [sandhi] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q6 key b vs re-solve a, Q7 key a vs re-solve b, Q8 key d vs re-solve a, Q9 key b vs re-solve a, Q10 
+19-11 22:02:06   [upsarg_pratyay] Practice_hi_Set_04.txt try 1: rejected (Q90:duplicate_options)
+19-11 22:05:24   [upsarg_pratyay] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q92 key a vs re-solve d)
+19-11 22:08:35   [upsarg_pratyay] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q92 key a vs re-solve d)
 ```
