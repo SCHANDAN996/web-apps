@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 01:14 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
+**आख़िरी update:** 20-11-2026 01:30 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,13 +8,13 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 10 internet browser (12th Computer) | ✍️ लिख रहा है | 68 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 277 मिनट |
+| W1 | Chapter 10 internet browser (12th Computer) | ✍️ लिख रहा है | 84 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 293 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 131 |
-| key 4 | 139 |
+| key 3 | 133 |
+| key 4 | 158 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -57,19 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 00:20:51   [sandhi] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q106 key a vs re-solve b, Q112 key c vs re-solve d, Q116 key d vs re-solve b, Q122 key b vs re-solve
-20-11 00:24:51   [upsarg_pratyay] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q42 key b vs re-solve d, Q45 key b vs re-solve a, Q46 key c vs re-solve d)
-20-11 00:31:04   [sandhi] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q108 key c vs re-solve b, Q118 key c vs re-solve a, Q120 key a vs re-solve c)
-20-11 00:31:04   [sandhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
-20-11 00:33:51   [paryayvachi] review Key_Facts_hi.txt round 2: 5 issue(s): - बिंदु 5(ग) में “संज्ञा–सर्वनाम पर्याय: ‘राम’ – ‘वह’” दिया गया है → सर्वनाम (वह) संज्ञा का पर्यायवाची नह
-20-11 00:35:50   [upsarg_pratyay] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q41 key a vs re-solve ?)
-20-11 00:36:56   [paryayvachi] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - The plural synonym example in point 7 uses the Sanskrit form “ग्रन्थाः” for Hindi “पुस्
-20-11 00:37:51   [paryayvachi] review Feynman_hi.txt round 1: 2 issue(s): - "देशज/आंचलिक" उदाहरण में "नीर" और "जल" तत्सम शब्द हैं, देशज नहीं → देशज उदाहरण के रूप में केवल क्षेत्रीय 
-20-11 00:39:05   [paryayvachi] review Feynman_hi.txt round 2: 1 issue(s): - देशज/आंचलिक उदाहरण में 'पनिहार' को 'पानी' का पर्यायवाची बताया गया है → 'पनिहार' का अर्थ 'पानी ढोने वाला' 
-20-11 00:41:26   [paryayvachi] REJECTED review fix Feynman_hi.txt: reviewer still reports - Question 1 explanation labels 'धूम' as विलोमार्थी (antonym) of अग्नि; धूम means smoke, wh
-20-11 00:42:25   [paryayvachi] review Flashcards_hi.txt round 1: 9 issue(s): - Card 1: "विहंगम" is not a synonym of "आकाश" (it means bird) → remove "विहंगम" from the list.
-20-11 00:43:00   [internet_browser] wrote Feynman_en.txt (3557 chars)
-20-11 00:43:34   [paryayvachi] review Flashcards_hi.txt round 2: 1 issue(s): - Card 10 lists "अनिल" twice as a synonym for "वायु" → remove the duplicate "अनिल"
 20-11 00:44:03   [upsarg_pratyay] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q43 key d vs re-solve ?, Q49 key a vs re-solve ?)
 20-11 00:44:12   [internet_browser] wrote Feynman_hi.txt (3160 chars)
 20-11 00:45:24   [paryayvachi] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 11: हुताशन की व्युत्पत्ति में 'अश्नु' गलत मूल है (सही मूल 'अश्' है) → हुताशन (हवि
@@ -97,4 +84,17 @@
 20-11 01:12:47   [internet_browser] 2026-11-19 19:42:47,002 WARNING NVIDIA rate_limited — retrying in 20s
 20-11 01:14:24   [internet_browser] wrote PYQ_en.txt (5876 chars)
 20-11 01:14:56   [internet_browser] wrote PYQ_hi.txt (5150 chars)
+20-11 01:15:34   [internet_browser] wrote Important_Rules_en.txt (8138 chars)
+20-11 01:16:15   [internet_browser] wrote Important_Rules_hi.txt (7040 chars)
+20-11 01:17:06   [internet_browser] 2026-11-19 19:47:06,670 WARNING NVIDIA rate_limited — retrying in 20s
+20-11 01:18:14   [internet_browser] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+20-11 01:19:11   [internet_browser] Practice_hi_Set_01.txt try 1: rejected (parsed 25 questions, numbers 51…75)
+20-11 01:21:11   [internet_browser] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+20-11 01:22:52   [sandhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q127 key a vs re-solve d, Q129 key a vs re-solve c, Q134 key d vs re-solve a, Q136 key c vs re-solve
+20-11 01:23:50   [internet_browser] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+20-11 01:24:22   [internet_browser] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+20-11 01:25:02   [internet_browser] 2026-11-19 19:55:02,625 WARNING NVIDIA rate_limited — retrying in 20s
+20-11 01:26:54   [internet_browser] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+20-11 01:27:42   [internet_browser] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+20-11 01:28:54   [internet_browser] Practice_en_Set_04.txt try 1: re-solve disagrees (Q99 key d vs re-solve ?)
 ```
