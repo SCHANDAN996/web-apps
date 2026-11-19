@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 03:49 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
+**आख़िरी update:** 20-11-2026 04:05 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 107 मिनट |
-| W2 | Chapter 11 email (12th Computer) | ✍️ लिख रहा है | 68 मिनट |
-| W3 | Chapter 08 samas (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
-| W4 | Chapter 11 vilom (10th Hindi) | ✍️ लिख रहा है | 85 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 122 मिनट |
+| W2 | Chapter 11 email (12th Computer) | ✍️ लिख रहा है | 84 मिनट |
+| W3 | Chapter 08 samas (10th Hindi) | 🔎 review हो रहा है | 46 मिनट |
+| W4 | Chapter 11 vilom (10th Hindi) | ✍️ लिख रहा है | 100 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 58 |
-| key 4 | 52 |
+| key 3 | 75 |
+| key 4 | 55 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -55,17 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 02:43:57   [email] wrote Content_hi.txt (12035 chars)
-20-11 02:46:19   [upsarg_pratyay] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q14 key b vs re-solve a)
-20-11 02:50:27   [upsarg_pratyay] wrote Practice_hi_Set_01.txt (write, 25 MCQs)
-20-11 02:50:31   [vilom] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q10 key d vs re-solve a, Q12 key d vs re-solve c, Q14 key a vs re-solve c, Q19 key b vs re-solve d, 
-20-11 02:50:59   [upsarg_pratyay] Practice_hi_Set_04.txt try 1: rejected (Q88:duplicate_options)
-20-11 02:55:11   [vilom] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q15 key d vs re-solve ?, Q20 key c vs re-solve ?)
-20-11 03:00:48   [vilom] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q20 key d vs re-solve c)
-20-11 03:01:17   [sandhi] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q1 key b vs re-solve d, Q7 key d vs re-solve c, Q22 key a vs re-solve c, Q23 key a vs re-solve c)
-20-11 03:01:17   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
-20-11 03:05:11   [vilom] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q15 key a vs re-solve ?)
-20-11 03:05:11   [vilom] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
 20-11 03:06:19   [vilom] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q29 key b vs re-solve ?)
 20-11 03:07:43   [vilom] wrote Practice_hi_Set_02.txt (write, 25 MCQs)
 20-11 03:11:57   [sandhi] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q32 key b vs re-solve c, Q35 key d vs re-solve c, Q37 key d vs re-solve a, Q38 key c vs re-solve b, 
@@ -95,4 +84,15 @@
 20-11 03:48:47   [email] wrote Mind_Map.txt (1005 chars)
 20-11 03:49:28   [samas] review Mind_Map.txt round 1: 2 issue(s): - Under तत्पुरुष समास → द्विगु, example "द्वादश" is not a द्विगु समास (it is a numeral) → replace with a vali
 20-11 03:49:29   [email] wrote Flashcards_en.txt (3631 chars)
+20-11 03:51:43   [samas] review Mind_Map.txt round 2: 3 issue(s): - "उपकुल्म" is not a standard example of अव्ययीभाव समास (उपसर्गपूर्वक) → replace with a common example like "
+20-11 03:51:47   [email] wrote Flashcards_hi.txt (3735 chars)
+20-11 03:53:23   [email] wrote PYQ_en.txt (7980 chars)
+20-11 03:54:21   [email] wrote PYQ_hi.txt (6861 chars)
+20-11 03:54:45   [email] wrote Important_Rules_en.txt (4368 chars)
+20-11 03:55:29   [email] wrote Important_Rules_hi.txt (5085 chars)
+20-11 03:57:29   [email] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+20-11 03:59:01   [email] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+20-11 03:59:56   [vilom] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q115 key a vs re-solve d)
+20-11 04:01:27   [sandhi] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q51 key a vs re-solve c, Q52 key c vs re-solve d, Q53 key d vs re-solve b, Q55 key d vs re-solve b, 
+20-11 04:03:47   [email] Practice_en_Set_02.txt try 1: re-solve disagrees (Q32 key a vs re-solve b, Q37 key a vs re-solve d, Q39 key b vs re-solve d)
 ```
