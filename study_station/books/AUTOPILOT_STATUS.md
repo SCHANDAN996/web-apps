@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 10:48 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 06:58 AM
+**आख़िरी update:** 19-11-2026 11:04 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 06:58 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 37 मिनट |
-| W2 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 79 मिनट |
-| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 79 मिनट |
-| W4 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 10 मिनट |
+| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 13 मिनट |
+| W2 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 94 मिनट |
+| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 94 मिनट |
+| W4 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 26 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 155 |
-| key 4 | 203 |
+| key 3 | 165 |
+| key 4 | 211 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -49,7 +49,7 @@
 - Chapter 05 ling vachan karak (Hindi) — 3 बार
 - Chapter 03 sangya sarvanam (Hindi) — 3 बार
 - Chapter 06 kaal vachya (Hindi) — 2 बार
-- Chapter 01 varn vartani (Hindi) — 2 बार
+- Chapter 01 varn vartani (Hindi) — 3 बार
 - Chapter 08 samas (Hindi) — 1 बार
 - Chapter 07 word (Computer) — 2 बार
 - Chapter 07 sandhi (Hindi) — 1 बार
@@ -58,23 +58,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 10:13:03   [word] review: 0 section(s) corrected, 4 failed
-19-11 10:13:03   [word] written 0, failed 4; AI calls today 306/100000
-19-11 10:13:04 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word after 47 min: todo [] problems []
-19-11 10:13:04 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
-19-11 10:14:14   [varn_vartani] review Content_hi.txt: 2 issue(s): - In section 3.4, the table lists the pronunciation place of 'ड़' and 'ढ़' as "तालव्य" (palatal); the correct place
-19-11 10:15:40   [samas] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q58 key a vs re-solve d)
-19-11 10:16:58   [samas] Practice_hi_Set_03.txt try 4: rejected (Q53:duplicate_options)
-19-11 10:16:58   [samas] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
-19-11 10:18:06   [sangya_sarvanam] review Key_Facts_hi.txt: 2 issue(s): - Point 4: Rule "व्यंजनांत → एँ/ओं" is incorrect; consonant-ending nouns form plural with "एँ" (e.g., घर → घरें, 
-19-11 10:20:19   [upsarg_pratyay] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q47 key a vs re-solve b)
-19-11 10:20:19   [upsarg_pratyay] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
-19-11 10:22:06   [varn_vartani] REJECTED review fix Content_hi.txt: reviewer still reports - In the "सामान्य त्रुटियाँ और उनके सुधार" table, the row for अशुद्ध "सष्त्र" → शुद्ध "शस्त
-19-11 10:22:53   [varn_vartani] review Key_Facts_hi.txt: 1 issue(s): - Point 6 claims only 2 nukta consonants (ऩ, ऱ) but Point 16 explicitly lists ज़, फ़, ख़ as nukta forms used in U
-19-11 10:24:01   [varn_vartani] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 24 incorrectly cites "रों" as a plural marker; the correct oblique plural ending 
-19-11 10:24:49   [varn_vartani] review Feynman_hi.txt: 6 issue(s): - Section 3, Rule 1: "हंसना = हंस पक्षी" is a wrong meaning; "हंसना" is not a word for "swan bird" (हंस) — it is ju
-19-11 10:25:10   [upsarg_pratyay] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q70 key b vs re-solve a, Q71 key c vs re-solve b)
-19-11 10:28:27   [upsarg_pratyay] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q52 key c vs re-solve b, Q70 key c vs re-solve a, Q71 key d vs re-solve b, Q73 key a vs re-solve c)
 19-11 10:28:39   [varn_vartani] REJECTED review fix Feynman_hi.txt: reviewer still reports - Section 1: States 33 consonants but lists 36 (including क्ष, त्र, ज्ञ); 11+33=44 contradi
 19-11 10:32:11   [upsarg_pratyay] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q52 key a vs re-solve b, Q71 key c vs re-solve b)
 19-11 10:32:40   [samas] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q115 key a vs re-solve ?, Q119 key c vs re-solve d, Q121 key b vs re-solve c)
@@ -98,4 +81,21 @@
 19-11 10:44:58   [samas] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
 19-11 10:47:27   [upsarg_pratyay] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q78 key d vs re-solve b)
 19-11 10:48:12   [varn_vartani] review Important_Rules_hi.txt: 6 issue(s): - Rule 1: "३४ व्यंजन" claimed but only 33 consonants listed → correct to "३३ व्यंजन" or add ड़, ढ़ to the l
+19-11 10:50:01   [kaal_vachya] review Content_hi.txt: 5 issue(s): - Present Perfect Continuous structure incorrectly includes "को" (only "से" is used for duration) → Remove "को"; st
+19-11 10:50:28   [varn_vartani] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 1 states “४५ मूल वर्ण — ११ स्वर और ३४ व्यंजन” but the consonant list contain
+19-11 10:50:28   [varn_vartani] review: 1 section(s) corrected, 5 failed
+19-11 10:50:28   [varn_vartani] written 1, failed 5; AI calls today 360/100000
+19-11 10:50:28 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 39 min: todo [] problems []
+19-11 10:50:29 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (OK: todo 0, problems 0)
+19-11 10:55:10   [upsarg_pratyay] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q78 key b vs re-solve d)
+19-11 10:55:10   [upsarg_pratyay] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
+19-11 10:55:16   [samas] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q131 key d vs re-solve c, Q138 key c vs re-solve b, Q145 key d vs re-solve b, Q147 key a vs re-solve
+19-11 10:56:31   [ling_vachan_karak] review Content_hi.txt: 7 issue(s): - Section 1 table 'लिंग के प्रकार': 'कमरा' and 'ज्ञान' are पुल्लिंग, 'पत्तल' is स्त्रीलिंग; they are misclassified 
+19-11 10:56:54   [upsarg_pratyay] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q117 key d vs re-solve c)
+19-11 10:59:13   [ling_vachan_karak] REJECTED review fix Content_hi.txt: reviewer still reports - वचन तालिका में 'आ (स्त्रीलिंग)' नियम के उदाहरण में 'बहन → बहनें' दिया गया है, लेकिन 'बहन'
+19-11 11:00:19   [kaal_vachya] REJECTED review fix Content_hi.txt: reviewer still reports - भविष्यत काल की सतत संरचना गलत: "मूल क्रिया + रहा/रहे/रही + गा/गे/गी" → सही: "मूल क्रिया +
+19-11 11:01:43   [kaal_vachya] review Key_Facts_hi.txt: 4 issue(s): - बिंदु 7 का उदाहरण "राम से पढ़ा जाता है" अपूर्ण/अशुद्ध कर्मवाच्य वाक्य है क्योंकि इसमें कर्म (कर्तृवाच्य का कर्म
+19-11 11:03:05   [upsarg_pratyay] wrote Practice_hi_Set_05.txt (write, 25 MCQs)
+19-11 11:04:28   [upsarg_pratyay] Practice_hi_Set_06.txt try 1: rejected (parsed 24 questions, numbers 126…150)
+19-11 11:04:31   [samas] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q138 key c vs re-solve b, Q139 key d vs re-solve c)
 ```
