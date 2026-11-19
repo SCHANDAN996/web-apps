@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 03:19 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
+**आख़िरी update:** 20-11-2026 03:34 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 76 मिनट |
-| W2 | Chapter 11 email (12th Computer) | ✍️ लिख रहा है | 38 मिनट |
-| W3 | Chapter 08 samas (10th Hindi) | 🔎 review हो रहा है | 0 मिनट |
-| W4 | Chapter 11 vilom (10th Hindi) | ✍️ लिख रहा है | 54 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 92 मिनट |
+| W2 | Chapter 11 email (12th Computer) | ✍️ लिख रहा है | 53 मिनट |
+| W3 | Chapter 08 samas (10th Hindi) | 🔎 review हो रहा है | 15 मिनट |
+| W4 | Chapter 11 vilom (10th Hindi) | ✍️ लिख रहा है | 69 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 38 |
-| key 4 | 43 |
+| key 3 | 45 |
+| key 4 | 47 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -55,12 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 02:28:37   [vilom] wrote Mind_Map.txt (1136 chars)
-20-11 02:28:42   [upsarg_pratyay] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q4 key b vs re-solve a)
-20-11 02:28:59   [vilom] wrote Flashcards_hi.txt (1244 chars)
-20-11 02:30:37   [samas] review Mind_Map.txt round 2: 1 issue(s): - In अव्ययीभाव समास → उपसर्गपूर्वक (B1), example 'अनुयायी' is incorrect: अनुयायी is a noun (तत्पुरुष/कृदन्त),
-20-11 02:31:18   [samas] REJECTED review fix Mind_Map.txt: reviewer still reports - चतुरानन दोनों बहुव्रीहि (D2) और कर्मधारय (F1) में सूचीबद्ध है → चतुरानन को केवल बहुव्रीहि म
-20-11 02:31:18   [samas] review PYQ_hi.txt: resumed private correction draft
 20-11 02:33:41   [samas] review PYQ_hi.txt round 1: 2 issue(s): - Example 2 explanation incorrectly includes सप्तमी तत्पुरुष (हिमनि आलयः) as a possible analysis for हिमालय → ह
 20-11 02:34:55   [samas] review Important_Rules_hi.txt: resumed private correction draft
 20-11 02:35:50   [samas] review Important_Rules_hi.txt round 1: 1 issue(s): - Rule 5 table incorrectly includes a row for “कर्ता (कर्तृ) | प्रथमा” as a तत्पुरुष sub‑type; तत्प
@@ -95,4 +89,10 @@
 20-11 03:18:38   [samas] review Key_Facts_hi.txt: resumed private correction draft
 20-11 03:19:03   [email] wrote Key_Facts_en.txt (4519 chars)
 20-11 03:19:23   [sandhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q26 key c vs re-solve b, Q41 key a vs re-solve c, Q42 key c vs re-solve d, Q43 key c vs re-solve a, 
+20-11 03:19:39   [email] wrote Key_Facts_hi.txt (3806 chars)
+20-11 03:22:34   [samas] review Key_Facts_hi.txt round 1: 3 issue(s): - In point 21, “उपवनम्” is listed as an अव्ययीभाव example but it is not an अव्ययीभाव समास (it is the accu
+20-11 03:26:14   [samas] review Key_Facts_hi.txt round 2: 2 issue(s): - In point 3, the example "अन्यत्र" (अन्य + त्र) is not a valid अव्ययीभाव समास because "त्र" is a suffix,
+20-11 03:30:52   [samas] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 5 lists "उपपद" as a sub‑type of तत्पुरुष → उपपद is a separate major type of समास 
+20-11 03:30:52   [samas] review Mind_Map.txt: resumed private correction draft
+20-11 03:33:38   [sandhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q41 key b vs re-solve c)
 ```
