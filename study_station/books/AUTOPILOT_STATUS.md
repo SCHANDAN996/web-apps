@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 05:22 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 01:32 AM
+**आख़िरी update:** 19-11-2026 05:38 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 01:32 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 excel (12th Computer) | ✍️ लिख रहा है | 63 मिनट |
-| W2 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 13 मिनट |
-| W3 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 33 मिनट |
-| W4 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 59 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 5 मिनट |
+| W2 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 29 मिनट |
+| W3 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 8 मिनट |
+| W4 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 74 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 213 |
-| key 4 | 145 |
+| key 3 | 229 |
+| key 4 | 156 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -46,47 +46,19 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 04 visheshan kriya (Hindi) — 3 बार
+- Chapter 04 visheshan kriya (Hindi) — 4 बार
 - Chapter 03 sangya sarvanam (Hindi) — 4 बार
 - Chapter 06 kaal vachya (Hindi) — 3 बार
 - Chapter 01 varn vartani (Hindi) — 2 बार
 - Chapter 05 ling vachan karak (Hindi) — 2 बार
 - Chapter 08 samas (Hindi) — 1 बार
-- Chapter 07 word (Computer) — 1 बार
+- Chapter 07 word (Computer) — 2 बार
 - Chapter 07 sandhi (Hindi) — 1 बार
+- Chapter 08 excel (Computer) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 04:56:38   [kaal_vachya] review Key_Facts_hi.txt: 2 issue(s): - Fact 18 mislabels “पढ़ा जाएगा” as past tense in the wrong example; “पढ़ा जाएगा” is future passive, while the pa
-19-11 04:57:12   [excel] wrote Practice_en_Set_02.txt (write, 25 MCQs)
-19-11 04:58:26   [kaal_vachya] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 9 incorrectly states that the passive verb is formed by adding ‘जा/जाता/जाती/जाते
-19-11 04:58:27   [samas] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q12 key d vs re-solve c)
-19-11 04:58:27   [samas] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
-19-11 04:59:23   [kaal_vachya] review PYQ_hi.txt: 2 issue(s): - In section 2.1, the passive formation rule states “क्रिया → *जा/ई/ए* + मूल क्रिया का भूतकालिक कृदंत” which reverses t
-19-11 05:00:18   [word] review Content_hi.txt: 1 issue(s): - In Quick Revision point 8, the German word "für" is used instead of Hindi "के लिए" → replace "für" with "के लिए"
-19-11 05:01:37   [kaal_vachya] REJECTED review fix PYQ_hi.txt: reviewer still reports - त्वरित जाँच-सूची (बिंदु 4) में काल परिवर्तन का सामान्य नियम गलत है: सक्रिय वाच्य में काल बदलन
-19-11 05:02:26   [word] REJECTED review fix Content_hi.txt: reviewer still reports - Quick Revision point 3 lists 'Focus (Alt+V,F)' as a separate view mode with an invalid sh
-19-11 05:02:41   [kaal_vachya] review Important_Rules_hi.txt: 3 issue(s): - नियम २ के अपवाद में टाइपो: "नहीं कहते — 'वह जा रहा है' के स्थान पर 'वह जा रहा है' मान्य है" → दोनों वाक्य
-19-11 05:03:05   [word] review Key_Facts_en.txt: 2 issue(s): - In point 20, the description of underline colors for grammar and context is incorrect: grammar errors are marke
-19-11 05:03:52   [word] REJECTED review fix Key_Facts_en.txt: reviewer still reports - Point 19 wildcard examples use regex syntax (`{1,}`) which is invalid in Word's Find/Re
-19-11 05:04:11   [samas] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q57 key d vs re-solve b, Q59 key d vs re-solve a, Q61 key d vs re-solve b, Q63 key b vs re-solve c, 
-19-11 05:05:03   [excel] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-19-11 05:05:42   [excel] Practice_en_Set_03.txt try 1: rejected (Q53:leaked_reasoning,Q67:leaked_reasoning)
-19-11 05:06:26   [excel] Practice_en_Set_03.txt try 2: rejected (Q53:leaked_reasoning,Q67:leaked_reasoning)
-19-11 05:06:59   [samas] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q63 key b vs re-solve c)
-19-11 05:07:45   [excel] Practice_en_Set_03.txt try 3: rejected (Q53:leaked_reasoning,Q67:leaked_reasoning)
-19-11 05:08:17   [excel] Practice_en_Set_03.txt try 4: rejected (Q53:leaked_reasoning,Q67:leaked_reasoning)
-19-11 05:08:17   [excel] REJECTED Practice_en_Set_03.txt: no version passed the checks — not written
-19-11 05:08:17   [excel] skip Practice_hi_Set_03.txt: its pair Practice_en_Set_03.txt was not written
-19-11 05:08:49   [kaal_vachya] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम ६ में कर्म वाच्य क्रिया निर्माण का नियम गलत है: 'मूल क्रिया + "जाना"' → 'कर्
-19-11 05:08:49   [kaal_vachya] review: 0 section(s) corrected, 4 failed
-19-11 05:08:49   [kaal_vachya] written 0, failed 4; AI calls today 335/100000
-19-11 05:08:49 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya after 16 min: todo [] problems []
-19-11 05:08:49 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (OK: todo 0, problems 0)
-19-11 05:09:34   [excel] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-19-11 05:10:29   [excel] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-19-11 05:11:26   [samas] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q57 key c vs re-solve b, Q63 key b vs re-solve c)
 19-11 05:12:46   [excel] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 19-11 05:12:58   [samas] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q57 key c vs re-solve b, Q63 key b vs re-solve c, Q69 key c vs re-solve b)
 19-11 05:12:58   [samas] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
@@ -98,4 +70,33 @@
 19-11 05:21:03   [samas] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q80 key a vs re-solve b, Q82 key b vs re-solve a, Q86 key b vs re-solve a, Q92 key a vs re-solve b, 
 19-11 05:21:30   [varn_vartani] review Key_Facts_hi.txt: 2 issue(s): - बिंदु 6 में नुक्ता-युक्त व्यंजन के रूप में ऩ और ऱ दिए गए हैं → हिंदी में मानक नुक्ता-युक्त व्यंजन क़, ख़, ग़, ज
 19-11 05:22:20   [varn_vartani] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 1 states there are 2 nukta-युक्त व्यंजन, but point 6 lists 5; the correct count i
+19-11 05:23:18   [varn_vartani] review Feynman_hi.txt: 5 issue(s): - Section 1 claims 33 व्यंजन but lists 36 items (including क्ष, त्र, ज्ञ); total 44 मूल वर्ण inconsistent → Either 
+19-11 05:23:28   [word] REJECTED review fix PYQ_en.txt: reviewer still reports - Example 1 solution states "Ctrl + Shift + F applies font formatting from the Font dialog but 
+19-11 05:24:30   [excel] Practice_en_Set_06.txt try 1: rejected (Q136:leaked_reasoning,Q138:leaked_reasoning)
+19-11 05:25:06   [varn_vartani] REJECTED review fix Feynman_hi.txt: reviewer still reports - Section 3 table, first row: wrong example "हंसना" labeled as "पक्षी" (bird) but the Hindi
+19-11 05:25:30   [excel] Practice_en_Set_06.txt try 2: rejected (Q136:leaked_reasoning,Q138:leaked_reasoning)
+19-11 05:26:52   [excel] Practice_en_Set_06.txt try 3: rejected (Q136:leaked_reasoning,Q138:leaked_reasoning)
+19-11 05:27:37   [excel] Practice_en_Set_06.txt try 4: rejected (Q136:leaked_reasoning,Q138:leaked_reasoning)
+19-11 05:27:37   [excel] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
+19-11 05:27:37   [excel] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
+19-11 05:27:37   [excel] written 21, failed 4; AI calls today 370/100000
+19-11 05:27:38 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_08_excel after 69 min: todo ['Set 03 en: todo', 'Set 03 hi: todo', 'Set 06 en: todo', 'Set 06 hi: todo'] problems ['PYQ_en.txt: unsourced claim "(concept)"']
+19-11 05:27:38 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya (OK: todo 0, problems 0)
+19-11 05:27:57   [samas] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q80 key b vs re-solve c, Q83 key a vs re-solve b, Q93 key a vs re-solve d)
+19-11 05:29:41   [word] review: 0 section(s) corrected, 4 failed
+19-11 05:29:41   [word] written 0, failed 4; AI calls today 375/100000
+19-11 05:29:41 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word after 41 min: todo [] problems []
+19-11 05:29:41 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (OK: todo 0, problems 0)
+19-11 05:30:01   [varn_vartani] review Important_Rules_hi.txt: 5 issue(s): - Section 1 claims "३४ व्यंजन" but the list below contains only 33 consonants (क to ह) → Correct count is 3
+19-11 05:30:34   [visheshan_kriya] review Content_hi.txt: 2 issue(s): - खंड 1.3 की तालिका में "नीला" और "मीठा" को **अरूपांतरित विशेषण** बताया गया है → ये **रूपांतरित विशेषण** हैं (नीला→
+19-11 05:32:10   [visheshan_kriya] REJECTED review fix Content_hi.txt: reviewer still reports - In the रूपांतरित विशेषण table, the example "लाल → लाली" is incorrect because "लाल" does n
+19-11 05:32:10   [visheshan_kriya] review: 0 section(s) corrected, 1 failed
+19-11 05:32:10   [visheshan_kriya] written 0, failed 1; AI calls today 379/100000
+19-11 05:32:10 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 5 min: todo [] problems []
+19-11 05:32:11 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi (TODO: todo 5, problems 0)
+19-11 05:32:11   [sandhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
+19-11 05:33:50   [ling_vachan_karak] review Content_hi.txt: 8 issue(s): - The neuter gender (नपुंसकलिंग) examples "फल", "पत्तल", "कमरा", "ज्ञान" are incorrect; they are masculine/feminine
+19-11 05:34:25   [sandhi] Practice_hi_Set_01.txt try 1: rejected (Q16:leaked_reasoning,Q17:leaked_reasoning,Q20:leaked_reasoning)
+19-11 05:36:34   [ling_vachan_karak] REJECTED review fix Content_hi.txt: reviewer still reports - In the वचन table, the example 'बहन → बहनें' is incorrectly placed under 'आ (स्त्रीलिंग)' 
+19-11 05:37:40   [ling_vachan_karak] review Key_Facts_hi.txt: 6 issue(s): - "हिंदी में तीन लिंग होते हैं: पुल्लिंग, स्त्रीलिंग, नपुंसकलिंग" → हिंदी में दो व्याकरणिक लिंग होते हैं: पुल्लिं
 ```
