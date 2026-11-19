@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 04:43 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 03:11 PM
+**आख़िरी update:** 19-11-2026 04:58 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 03:11 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 92 मिनट |
-| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 54 मिनट |
-| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 25 मिनट |
-| W4 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 2 मिनट |
+| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 12 मिनट |
+| W2 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 69 मिनट |
+| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 40 मिनट |
+| W4 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 17 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 66 |
-| key 4 | 73 |
+| key 3 | 72 |
+| key 4 | 83 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -52,24 +52,11 @@
 - Chapter 05 ling vachan karak (Hindi) — 1 बार
 - Chapter 07 word (Computer) — 1 बार
 - Chapter 06 kaal vachya (Hindi) — 1 बार
+- Chapter 01 varn vartani (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 15:57:58   [word] review Content_hi.txt round 1: 2 issue(s): - शॉर्टकट तालिका में Ctrl+N के नोट में "ब्राउज़र में नया टैब खोलता है" लिखा है → ब्राउज़र में Ctrl+N नया वि
-19-11 16:00:51   [word] review Content_hi.txt round 2: 1 issue(s): - Quick Revision point 3: Focus mode shortcut listed as Alt+V,F → The View tab is accessed with Alt+W, not 
-19-11 16:02:36   [word] REJECTED review fix Content_hi.txt: reviewer still reports - परिचय में रिबन टैब की सूची अधूरी है (Draw और Design गायब) → रिबन टैब में File, Home, Inse
-19-11 16:03:24   [word] review Key_Facts_en.txt round 1: 1 issue(s): - Wildcard example `<[A-Z]{1,}>` claimed to find capitalized words → It actually matches words composed e
-19-11 16:03:57   [sandhi] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q4 key c vs re-solve d, Q6 key c vs re-solve b, Q7 key b vs re-solve c, Q9 key b vs re-solve c, Q11 
-19-11 16:04:15   [word] review Key_Facts_en.txt round 2: 1 issue(s): - Item 20: “green (older versions) = context” is incorrect; in older Word versions a green wavy underline
-19-11 16:05:12   [word] REJECTED review fix Key_Facts_en.txt: reviewer still reports - Ribbon tabs list omits the Design tab → The Ribbon tabs are Home, Insert, Design, Layou
-19-11 16:07:18   [word] review Flashcards_hi.txt round 1: 1 issue(s): - Card 4 claims “ब्राउज़र में भी Ctrl + P प्रिंट करता है, लेकिन Word का अपना प्रिंट इंजन उपयोग होता है” 
-19-11 16:08:59   [kaal_vachya] review PYQ_hi.txt round 2: 1 issue(s): - In Section 2.1, PYQ-style उदाहरण 3 (द्विकर्मक क्रिया) the answer is given as (b) विद्या शिष्य को दी गई, but t
-19-11 16:10:08   [word] review PYQ_en.txt round 1: 1 issue(s): - Example 1 solution claims “Ctrl + Shift + F opens the Font dialog with focus on the Font list (legacy behavio
-19-11 16:11:31   [word] review PYQ_en.txt round 2: 2 issue(s): - In Core Sub-topics → Illustrations, the list includes 'Text Box, WordArt, Drop Cap' which are not in the Illu
-19-11 16:11:52   [varn_vartani] review Important_Rules_hi.txt round 1: 6 issue(s): - Section 5 (rule 5) states long vowels take only anusvara (ं) but then cites "हाँसी" (with chandra
-19-11 16:13:24   [word] REJECTED review fix PYQ_en.txt: reviewer still reports - Example 1 solution incorrectly states "Ctrl + Shift + F opens the Font dialog with focus on t
-19-11 16:13:55   [word] review PYQ_hi.txt round 1: 1 issue(s): - उदाहरण 1 की व्याख्या में गलत दावा: "Ctrl+Shift+> Word और PowerPoint में फॉन्ट साइज़ बढ़ाता है, लेकिन Excel मे
 19-11 16:15:42   [word] review PYQ_hi.txt round 2: 1 issue(s): - Example 1 explanation claims "Ctrl+Shift+> Word, PowerPoint और Excel तीनों में फॉन्ट साइज़ बढ़ाता है" → Ctrl+
 19-11 16:17:19   [word] REJECTED review fix PYQ_hi.txt: reviewer still reports - स्कोप भ्रम ट्रैप में Ctrl+F के बारे में गलत कथन: "परीक्षा पूछे 'सभी Office ऐप्स में' तो गलत" 
 19-11 16:18:05   [word] review: 2 section(s) corrected, 4 failed
@@ -96,4 +83,18 @@
 19-11 16:41:06   [sangya_sarvanam] review Important_Rules_hi.txt: resumed private correction draft
 19-11 16:42:41   [sandhi] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q27 key a vs re-solve ?, Q30 key d vs re-solve b, Q35 key a vs re-solve b, Q38 key a vs re-solve c, 
 19-11 16:43:21   [varn_vartani] review Important_Rules_hi.txt round 2: 8 issue(s): - खंड १: "हिन्दी वर्णमाला में ४५ मूल वर्ण (११ स्वर + ३४ व्यंजन)" → व्यंजन सूची में ३३ वर्ण हैं, मान
+19-11 16:45:58   [varn_vartani] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - In points 6 and 10, the visarga sandhi rule for क/ख is incorrectly stated as "विस
+19-11 16:45:58   [varn_vartani] review: 2 section(s) corrected, 3 failed
+19-11 16:45:58   [varn_vartani] written 2, failed 3; AI calls today 143/100000
+19-11 16:45:58 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 95 min: todo [] problems []
+19-11 16:45:58 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (OK: todo 0, problems 0)
+19-11 16:45:59   [ling_vachan_karak] review Content_hi.txt: resumed private correction draft
+19-11 16:48:15   [ling_vachan_karak] review Content_hi.txt round 1: 3 issue(s): - वचन तालिका में नियम "आ (स्त्रीलिंग) → एँ" के उदाहरण में "कहानी → कहानियाँ" दिया गया है, लेकिन "कहानी" ई-क
+19-11 16:49:42   [samas] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q63 key d vs re-solve a, Q72 key b vs re-solve d)
+19-11 16:51:14   [sangya_sarvanam] review Important_Rules_hi.txt round 1: 5 issue(s): - Rule 2: "हाथी" listed under उकारांत/ऊकारांत masculine nouns, but "हाथी" ends in ई (ई कारांत) → Re
+19-11 16:53:11   [samas] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q66 key a vs re-solve c, Q68 key c vs re-solve a, Q75 key d vs re-solve b)
+19-11 16:53:22   [sangya_sarvanam] review Important_Rules_hi.txt round 2: 3 issue(s): - Rule 2: "आ कारांत स्त्रीलिंग" examples include "बहन", "सास", "नानी" which do not end in 'आ' → rep
+19-11 16:56:06   [samas] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q66 key c vs re-solve a, Q68 key a vs re-solve c, Q69 key b vs re-solve a, Q72 key c vs re-solve d, 
+19-11 16:56:06   [samas] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+19-11 16:58:00   [sandhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q26 key b vs re-solve a, Q27 key c vs re-solve ?, Q30 key d vs re-solve c, Q35 key d vs re-solve b, 
 ```
