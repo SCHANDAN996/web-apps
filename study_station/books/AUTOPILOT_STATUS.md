@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 01:09 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 11:36 AM
+**आख़िरी update:** 19-11-2026 01:24 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 11:36 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 69 मिनट |
-| W2 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 48 मिनट |
-| W3 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 38 मिनट |
-| W4 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 67 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 84 मिनट |
+| W2 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 64 मिनट |
+| W3 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 53 मिनट |
+| W4 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 83 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 51 |
-| key 4 | 62 |
+| key 3 | 53 |
+| key 4 | 72 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -55,12 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 12:23:27   [word] review Key_Facts_en.txt: 4 issue(s): - Point 6: “Shift+arrow keys extend selection character/word/line/paragraph” → Shift+arrow extends by character; 
-19-11 12:25:18   [ling_vachan_karak] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 3 lists “बहन” as an example of feminine nouns ending in आ/इ/ई, but “बहन” end
-19-11 12:25:18   [ling_vachan_karak] review: 0 section(s) corrected, 4 failed
-19-11 12:25:19   [ling_vachan_karak] written 0, failed 4; AI calls today 72/100000
-19-11 12:25:19 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 49 min: todo [] problems []
-19-11 12:25:19 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_08_excel (TODO: todo 2, problems 1)
 19-11 12:26:39   [excel] Practice_en_Set_06.txt try 1: rejected (parsed 24 questions, numbers 126…149)
 19-11 12:27:50   [excel] Practice_en_Set_06.txt try 2: rejected (Q128:leaked_reasoning)
 19-11 12:28:38   [excel] Practice_en_Set_06.txt try 3: rejected (Q128:leaked_reasoning)
@@ -95,4 +89,10 @@
 19-11 13:08:17   [samas] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q70 key d vs re-solve c, Q75 key d vs re-solve b)
 19-11 13:08:17   [samas] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
 19-11 13:08:33   [varn_vartani] review Key_Facts_hi.txt: 3 issue(s): - बिंदु 6: "नुक्ता-युक्त व्यंजन (2): ऩ, ऱ — मराठी/संस्कृत ध्वनियों के लिए प्रयुक्त" → "नुक्ता-युक्त व्यंजन (2): ऩ
+19-11 13:10:59   [samas] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q109 key b vs re-solve a)
+19-11 13:13:49   [samas] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q109 key a vs re-solve b, Q113 key d vs re-solve a)
+19-11 13:16:23   [samas] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q109 key b vs re-solve a)
+19-11 13:20:12   [samas] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q108 key a vs re-solve d, Q113 key c vs re-solve d, Q114 key b vs re-solve a, Q122 key b vs re-solve
+19-11 13:20:12   [samas] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
+19-11 13:24:07   [samas] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q143 key c vs re-solve a)
 ```
