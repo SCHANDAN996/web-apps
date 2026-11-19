@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 09:01 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 06:58 AM
+**आख़िरी update:** 19-11-2026 09:16 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 06:58 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 0 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 6 मिनट |
-| W3 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 8 मिनट |
-| W4 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 96 मिनट |
+| W1 | Chapter 04 visheshan kriya (10th Hindi) | 🔎 review हो रहा है | 16 मिनट |
+| W2 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 12 मिनट |
+| W3 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 24 मिनट |
+| W4 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 112 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 78 |
-| key 4 | 120 |
+| key 3 | 89 |
+| key 4 | 131 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -48,7 +48,7 @@
 
 - Chapter 04 visheshan kriya (Hindi) — 2 बार
 - Chapter 05 ling vachan karak (Hindi) — 2 बार
-- Chapter 03 sangya sarvanam (Hindi) — 1 बार
+- Chapter 03 sangya sarvanam (Hindi) — 2 बार
 - Chapter 06 kaal vachya (Hindi) — 1 बार
 - Chapter 01 varn vartani (Hindi) — 1 बार
 - Chapter 08 samas (Hindi) — 1 बार
@@ -57,22 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 08:28:39   [word] review PYQ_en.txt: 2 issue(s): - In Example 1 solution, the claim "Ctrl + Shift + F opens the Font dialog with focus on the Font list (legacy behavior
-19-11 08:29:13   [sandhi] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q102 key a vs re-solve b, Q105 key c vs re-solve d, Q106 key c vs re-solve d, Q109 key d vs re-solve
-19-11 08:30:19   [samas] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q113 key a vs re-solve d, Q115 key a vs re-solve d, Q119 key c vs re-solve d)
-19-11 08:33:57   [samas] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q113 key c vs re-solve d)
-19-11 08:35:54   [samas] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q113 key a vs re-solve d, Q120 key a vs re-solve b)
-19-11 08:37:44   [samas] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q113 key a vs re-solve d)
-19-11 08:37:44   [samas] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
-19-11 08:38:45   [samas] Practice_hi_Set_06.txt try 1: rejected (Q131:duplicate_options)
-19-11 08:40:46   [sandhi] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q104 key a vs re-solve d, Q105 key c vs re-solve b, Q109 key d vs re-solve ?, Q113 key a vs re-solve
-19-11 08:40:46   [sandhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
-19-11 08:41:21   [sandhi] Practice_hi_Set_06.txt try 1: rejected (Q128:duplicate_options,Q134:duplicate_options)
-19-11 08:42:07   [samas] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q127 key c vs re-solve a, Q137 key a vs re-solve c, Q140 key c vs re-solve b)
-19-11 08:42:07   [word] REJECTED review fix PYQ_en.txt: reviewer still reports - Example 1 solution incorrectly claims "Ctrl + Shift + F changes the font size in some context
-19-11 08:45:54   [samas] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q132 key a vs re-solve b, Q137 key b vs re-solve a, Q139 key d vs re-solve a, Q150 key c vs re-solve
-19-11 08:48:04   [ling_vachan_karak] review Flashcards_hi.txt: 1 issue(s): - Card 5: Rule for feminine of 'अ' कारांत masculine nouns incorrectly states "आ" या "इ" जुड़ता है; examples (बाल
-19-11 08:48:33   [sandhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q129 key a vs re-solve c, Q135 key c vs re-solve d, Q138 key a vs re-solve d, Q140 key d vs re-solve
 19-11 08:50:19   [ling_vachan_karak] review PYQ_hi.txt: 3 issue(s): - "ने का गलत प्रयोग (वर्तमान काल में, अकर्मक क्रिया में, या स्त्रीलिंग कर्ता के साथ बिना ने के)" → हिंदी में सकर्मक क्र
 19-11 08:51:35   [ling_vachan_karak] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 2 (वचन परिवर्तन) का नियम "संयुक्त संज्ञा में केवल मुख्य शब्द का वचन बदलना" कहता है, ल
 19-11 08:52:33   [ling_vachan_karak] review Important_Rules_hi.txt: 2 issue(s): - Rule 4(घ) claims इ/ई/उ/ऊ/ए/ओकारांत nouns are usually unchanged in plural, but example 'नदी → नदियाँ' chan
@@ -97,4 +81,20 @@
 19-11 09:00:49   [ling_vachan_karak] written 1, failed 4; AI calls today 198/100000
 19-11 09:00:49 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 65 min: todo [] problems []
 19-11 09:00:50 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya (OK: todo 0, problems 0)
+19-11 09:02:05   [sangya_sarvanam] review Important_Rules_hi.txt: 6 issue(s): - नियम २ में "ई" कारांत पुल्लिंग शीर्षक के अंतर्गत "पुत्री" और "नौकरानी" उदाहरण दिए गए हैं जो स्त्रीलिंग है
+19-11 09:04:15   [sangya_sarvanam] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 2 misclassifies "हाथी" as उकारांत/ऊकारांत पुल्लिंग; "हाथी" ends in ई (ई कारा
+19-11 09:04:15   [sangya_sarvanam] review: 0 section(s) corrected, 2 failed
+19-11 09:04:15   [sangya_sarvanam] written 0, failed 2; AI calls today 201/100000
+19-11 09:04:15 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 9 min: todo [] problems []
+19-11 09:04:15 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya (OK: todo 0, problems 0)
+19-11 09:05:03   [visheshan_kriya] review Content_hi.txt: 1 issue(s): - Section 1.3 table misclassifies 'नीला' and 'मीठा' as अरूपांतरित विशेषण; they are रूपांतरित विशेषण (feminine forms
+19-11 09:06:54   [varn_vartani] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - बिंदु 18 में चंद्रबिंदु के उदाहरण "मँहगा" और "पँख" गलत हैं → सही उदाहरण: "महँगा" (चंद्र
+19-11 09:08:14   [varn_vartani] review Feynman_hi.txt: 8 issue(s): - Section 1: Claims 33 consonants but lists 36 (including क्ष, त्र, ज्ञ) → Standard Hindi has 33 consonants (exclud
+19-11 09:08:22   [sandhi] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q135 key d vs re-solve c, Q140 key b vs re-solve d, Q141 key a vs re-solve c, Q147 key a vs re-solve
+19-11 09:09:24   [kaal_vachya] review Content_hi.txt: 7 issue(s): - "प्रतिवर्ष 3–5 प्रश्न पूछे जाते हैं" claim is an invented exam statistic → Remove or cite authentic source
+19-11 09:10:44   [kaal_vachya] REJECTED review fix Content_hi.txt: reviewer still reports - In the Future Tense table, the structure for सतत (Continuous) is given as "मूल क्रिया + र
+19-11 09:10:58   [visheshan_kriya] review Key_Facts_hi.txt: 2 issue(s): - Point 15: The rule "मूल क्रिया + संज्ञा/सर्वनाम = संयुक्त क्रिया" has the order reversed; examples like "काम कर
+19-11 09:12:06   [kaal_vachya] review Key_Facts_hi.txt: 6 issue(s): - Point 10: Example "सीता गाती है → गाया जाता है सीता से" uses an intransitive verb to form passive, contradictin
+19-11 09:13:36   [kaal_vachya] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 10 example uses "सीता द्वारा" for an animate agent while the rule states animate 
+19-11 09:16:57   [kaal_vachya] review PYQ_hi.txt: 2 issue(s): - In Section 2.1 Example 3 (द्विकर्मक क्रिया), the given answer (a) "शिष्य को गुरु द्वारा विद्या दी गई" contradicts the
 ```
