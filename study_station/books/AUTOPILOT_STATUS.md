@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 08:16 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 03:11 PM
+**आख़िरी update:** 19-11-2026 08:31 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 03:11 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W2 | Chapter 09 powerpoint (12th Computer) | 🔎 review हो रहा है | 26 मिनट |
+| W2 | Chapter 09 powerpoint (12th Computer) | 🔎 review हो रहा है | 41 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 211 |
-| key 4 | 196 |
+| key 3 | 221 |
+| key 4 | 205 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -57,12 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 19:29:49   [powerpoint] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
-19-11 19:33:07   [powerpoint] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-19-11 19:35:38   [powerpoint] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-19-11 19:37:51   [powerpoint] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-19-11 19:37:51   [upsarg_pratyay] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q76 key a vs re-solve b, Q79 key d vs re-solve a, Q81 key b vs re-solve d, Q85 key b vs re-solve d, 
-19-11 19:38:49   [powerpoint] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
 19-11 19:38:53   [excel] review: 2 section(s) corrected, 3 failed
 19-11 19:38:53   [excel] written 2, failed 3; AI calls today 371/100000
 19-11 19:38:53 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_08_excel after 93 min: todo [] problems []
@@ -97,4 +91,10 @@
 19-11 20:13:28   [powerpoint] REJECTED review fix Content_hi.txt: reviewer still reports - The shortcuts `Ctrl+Shift+F` and `Ctrl+Shift+B` are incorrectly listed for "Bring to Fron
 19-11 20:14:49   [powerpoint] review Key_Facts_en.txt round 1: 3 issue(s): - Ribbon Interface lists "Help" as a tab; Help is not a ribbon tab in PowerPoint (it's a button) → Remove
 19-11 20:16:38   [powerpoint] review Key_Facts_en.txt round 2: 2 issue(s): - Reading View described as "full-screen without presenter tools" → Reading View is a windowed view with 
+19-11 20:19:47   [powerpoint] review Feynman_hi.txt round 1: 1 issue(s): - .ppsx को "केवल पढ़ने योग्य (read-only)" बताया गया है → .ppsx एक पावरपॉइंट शो फ़ाइल है जो सीधे स्लाइड शो म
+19-11 20:22:24   [powerpoint] review PYQ_en.txt round 1: 2 issue(s): - Example 5: The question asks for a file format that preserves macros and opens directly in Slide Show mode; .
+19-11 20:26:52   [powerpoint] review PYQ_hi.txt round 1: 1 issue(s): - In the 'नकारात्मक वाक्य' trap table, the correct-fact explanation for the example question lists only `.potx`
+19-11 20:28:37   [powerpoint] review PYQ_hi.txt round 2: 2 issue(s): - In the "कालक्रम भ्रम" trap, the correction claims the Animation Pane may open automatically when adding an an
+19-11 20:31:04   [powerpoint] REJECTED review fix PYQ_hi.txt: reviewer still reports - Table 2 'नकारात्मक वाक्य' trap example: the MCQ asks singular "कौन-सा ... नहीं है" but gives 
+19-11 20:31:46   [powerpoint] review Important_Rules_en.txt round 1: 1 issue(s): - Rule 8 note claims “Ctrl+Shift+N for new slide” in PowerPoint for the Web; actually Ctrl+Shift+N 
 ```
