@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 12:13 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
+**आख़िरी update:** 20-11-2026 12:28 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 10 internet browser (12th Computer) | ✍️ लिख रहा है | 7 मिनट |
-| W2 | Chapter 10 paryayvachi (10th Hindi) | 🔎 review हो रहा है | 19 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 216 मिनट |
-| W4 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 26 मिनट |
+| W1 | Chapter 10 internet browser (12th Computer) | ✍️ लिख रहा है | 22 मिनट |
+| W2 | Chapter 10 paryayvachi (10th Hindi) | 🔎 review हो रहा है | 34 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 231 मिनट |
+| W4 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 42 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 101 |
-| key 4 | 113 |
+| key 3 | 103 |
+| key 4 | 119 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -58,10 +58,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 23:25:01 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (OK: todo 0, problems 0)
-19-11 23:25:02   [varn_vartani] review Important_Rules_hi.txt: resumed private correction draft
-19-11 23:25:29   [paryayvachi] wrote Practice_hi_Set_04.txt (write, 25 MCQs)
-19-11 23:26:51   [samas] REJECTED review fix Mind_Map.txt: reviewer still reports - कर्मधारय समास is incorrectly listed as a main type of समास; it is a sub-type of तत्पुरुष सम
 19-11 23:28:13   [samas] review Flashcards_hi.txt round 1: 1 issue(s): - Card 15: Incorrectly labels प्रातः as a कालवाचक संज्ञा; प्रातः is an अव्यय (indeclinable). → प्रातःकाल
 19-11 23:30:43   [samas] review PYQ_hi.txt round 1: 1 issue(s): - Example 2 misclassifies "हिमालय" as कर्मधारय, claiming "हिम" is an adjective; in fact "हिम" is a noun and the
 19-11 23:34:21   [samas] review PYQ_hi.txt round 2: 1 issue(s): - उदाहरण 7 (एकशेष द्वन्द्व) की व्याख्या गलत है: 'मातापिता' में दोनों पद (माता, पिता) मौजूद हैं, जबकि एकशेष द्वन
@@ -98,4 +94,8 @@
 20-11 00:13:02   [internet_browser] wrote Key_Facts_en.txt (7260 chars)
 20-11 00:13:39   [internet_browser] wrote Key_Facts_hi.txt (5643 chars)
 20-11 00:13:39   [internet_browser] 2026-11-19 18:43:39,461 WARNING NVIDIA rate_limited — retrying in 20s
+20-11 00:17:34   [upsarg_pratyay] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q19 key d vs re-solve b)
+20-11 00:17:34   [upsarg_pratyay] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
+20-11 00:20:51   [sandhi] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q106 key a vs re-solve b, Q112 key c vs re-solve d, Q116 key d vs re-solve b, Q122 key b vs re-solve
+20-11 00:24:51   [upsarg_pratyay] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q42 key b vs re-solve d, Q45 key b vs re-solve a, Q46 key c vs re-solve d)
 ```
