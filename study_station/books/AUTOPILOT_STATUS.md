@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 07:00 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 03:11 PM
+**आख़िरी update:** 19-11-2026 07:15 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 03:11 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 52 मिनट |
-| W2 | Chapter 09 powerpoint (12th Computer) | ✍️ लिख रहा है | 43 मिनट |
-| W3 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 10 मिनट |
-| W4 | Chapter 08 excel (12th Computer) | 🔎 review हो रहा है | 12 मिनट |
+| W1 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 67 मिनट |
+| W2 | Chapter 09 powerpoint (12th Computer) | ✍️ लिख रहा है | 58 मिनट |
+| W3 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 25 मिनट |
+| W4 | Chapter 08 excel (12th Computer) | 🔎 review हो रहा है | 27 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 167 |
-| key 4 | 145 |
+| key 3 | 178 |
+| key 4 | 159 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -58,17 +58,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 18:26:15   [samas] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q60 key d vs re-solve a, Q61 key b vs re-solve a, Q64 key a vs re-solve d, Q71 key b vs re-solve c, 
-19-11 18:26:28   [powerpoint] wrote Feynman_en.txt (4519 chars)
-19-11 18:27:10   [powerpoint] wrote Feynman_hi.txt (4869 chars)
-19-11 18:27:22   [powerpoint] wrote Mind_Map.txt (1282 chars)
-19-11 18:27:40   [powerpoint] wrote Flashcards_en.txt (3746 chars)
-19-11 18:29:13   [excel] Practice_en_Set_06.txt try 1: re-solve disagrees (Q146 key b vs re-solve d)
-19-11 18:31:58   [excel] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-19-11 18:32:07   [upsarg_pratyay] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q23 key c vs re-solve a, Q24 key a vs re-solve b)
-19-11 18:36:13   [samas] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q57 key d vs re-solve a, Q61 key d vs re-solve b, Q63 key a vs re-solve c, Q64 key a vs re-solve d, 
-19-11 18:36:13   [samas] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
-19-11 18:36:46   [upsarg_pratyay] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q14 key d vs re-solve b)
 19-11 18:39:26   [samas] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q109 key c vs re-solve b, Q111 key a vs re-solve b, Q122 key c vs re-solve b)
 19-11 18:41:08   [upsarg_pratyay] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q23 key a vs re-solve c, Q24 key c vs re-solve b)
 19-11 18:41:08   [upsarg_pratyay] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
@@ -98,4 +87,15 @@
 19-11 18:57:36   [varn_vartani] review Key_Facts_hi.txt round 1: 1 issue(s): - Point 17 example 'अण्डा' is a misspelling (the word is 'अंडा' without anusvara) → Replace with a correc
 19-11 18:58:14   [excel] review Key_Facts_hi.txt round 1: 1 issue(s): - The shortcut for toggling formula view is given as `Ctrl + ~` (tilde) → The correct shortcut is `Ctrl +
 19-11 18:59:54   [excel] review Key_Facts_hi.txt round 2: 1 issue(s): - Operator precedence order listed incorrectly: comparison before concatenation → Correct order: exponent
+19-11 19:00:37   [varn_vartani] review Key_Facts_hi.txt round 2: 5 issue(s): - The consonant total 41 contradicts the breakdown (33 basic + 4 conjunct + 2 double + 5 nuqta = 44) → Ch
+19-11 19:02:14   [powerpoint] wrote PYQ_en.txt (6275 chars)
+19-11 19:03:29   [powerpoint] wrote PYQ_hi.txt (8152 chars)
+19-11 19:04:06   [powerpoint] wrote Important_Rules_en.txt (6804 chars)
+19-11 19:05:45   [powerpoint] wrote Important_Rules_hi.txt (9617 chars)
+19-11 19:08:53   [powerpoint] Practice_en_Set_01.txt try 1: re-solve disagrees (Q4 key b vs re-solve ?, Q20 key b vs re-solve ?)
+19-11 19:08:54   [upsarg_pratyay] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q52 key a vs re-solve d, Q64 key c vs re-solve b, Q68 key c vs re-solve a, Q75 key d vs re-solve ?)
+19-11 19:11:39   [powerpoint] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+19-11 19:11:42   [varn_vartani] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Item 1 says the traditional count of 44 letters comprises 11 vowels, 33 consonants, 4 c
+19-11 19:11:42   [varn_vartani] review Feynman_hi.txt: resumed private correction draft
+19-11 19:12:51   [powerpoint] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 ```
