@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 11:42 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
+**आख़िरी update:** 19-11-2026 11:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 17 मिनट |
-| W2 | Chapter 10 paryayvachi (10th Hindi) | ✍️ लिख रहा है | 118 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 185 मिनट |
-| W4 | Chapter 08 samas (10th Hindi) | 🔎 review हो रहा है | 57 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 32 मिनट |
+| W2 | Chapter 10 paryayvachi (10th Hindi) | 🔎 review हो रहा है | 3 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 200 मिनट |
+| W4 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 11 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 82 |
-| key 4 | 98 |
+| key 3 | 94 |
+| key 4 | 101 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -26,7 +26,7 @@
 
 | किताब | प्रारंभिक जाँच पास | संरचना में सुधार बाकी | लिखना बाकी |
 |---|---|---|---|
-| 10th Hindi | 7 | 0 | 10 |
+| 10th Hindi | 8 | 0 | 9 |
 | 12th Computer | 9 | 0 | 5 |
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
@@ -40,7 +40,7 @@
 | Graduation GK | 28 | 0 | 0 |
 | Graduation Reasoning | 30 | 0 | 0 |
 | Graduation English | 30 | 0 | 0 |
-| **कुल** | **312** | **0** | **15** |
+| **कुल** | **313** | **0** | **14** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -52,26 +52,12 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 01 varn vartani (Hindi) — 2 बार
-- Chapter 08 samas (Hindi) — 1 बार
+- Chapter 08 samas (Hindi) — 2 बार
 - Chapter 09 upsarg pratyay (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 22:36:12   [samas] Practice_hi_Set_03.txt try 1: rejected (parsed 24 questions, numbers 51…75)
-19-11 22:37:35   [samas] Practice_hi_Set_03.txt try 2: rejected (parsed 24 questions, numbers 51…75)
-19-11 22:38:04   [sandhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q26 key b vs re-solve c, Q30 key b vs re-solve ?, Q32 key b vs re-solve d, Q36 key d vs re-solve ?, 
-19-11 22:44:35   [samas] wrote Practice_hi_Set_03.txt (write, 25 MCQs)
-19-11 22:44:35   [samas] written 1, failed 0; AI calls today 123/100000
-19-11 22:45:06   [paryayvachi] 2026-11-19 17:15:06,564 WARNING NVIDIA rate_limited — retrying in 20s
-19-11 22:46:17   [paryayvachi] wrote Practice_hi_Set_02.txt (write, 25 MCQs)
-19-11 22:49:24   [paryayvachi] wrote Practice_hi_Set_03.txt (write, 25 MCQs)
-19-11 22:50:22   [samas] review Content_hi.txt round 1: 3 issue(s): - "हिंदी व्याकरण में मुख्यतः छह प्रकार के समास माने जाते हैं" → There are four main types (द्वन्द्व, तत्पुर
-19-11 22:52:17   [sandhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q26 key b vs re-solve a, Q28 key d vs re-solve c, Q29 key d vs re-solve b, Q30 key a vs re-solve c, 
-19-11 22:53:28   [samas] review Content_hi.txt round 2: 3 issue(s): - 'अनुग्रह' is incorrectly classified as अव्ययीभाव with meaning 'कृपा के अनुसार' → 'अनुग्रह' means 'कृपा' a
-19-11 22:56:41   [powerpoint] review PYQ_hi.txt round 2: 1 issue(s): - 'नकारात्मक वाक्य' जाल के उदाहरण में प्रश्न "कौन-सा" (एकवचन) है लेकिन उत्तर तीन विकल्प (`.pptm`, `.potx`, `.pp
-19-11 22:57:33   [powerpoint] 2026-11-19 17:27:33,652 WARNING NVIDIA rate_limited — retrying in 20s
-19-11 22:59:07   [powerpoint] review Important_Rules_en.txt: resumed private correction draft
 19-11 23:00:40   [powerpoint] review Important_Rules_en.txt round 1: 1 issue(s): - Rule 13: Incorrect menu path for "Package Presentation for CD" given as "File → Export → Package 
 19-11 23:03:42   [powerpoint] review Important_Rules_en.txt round 2: 1 issue(s): - Rule 7 exception states Presenter View can be used with a single monitor via the “Use Presenter V
 19-11 23:04:06   [powerpoint] 2026-11-19 17:34:06,852 WARNING NVIDIA rate_limited — retrying in 20s
@@ -98,4 +84,18 @@
 19-11 23:34:21   [samas] review PYQ_hi.txt round 2: 1 issue(s): - उदाहरण 7 (एकशेष द्वन्द्व) की व्याख्या गलत है: 'मातापिता' में दोनों पद (माता, पिता) मौजूद हैं, जबकि एकशेष द्वन
 19-11 23:38:44   [samas] REJECTED review fix PYQ_hi.txt: reviewer still reports - In Pattern 2, the trap description says “विशेषण-प्रधान पद को कर्मधारय मान लेना” but the actua
 19-11 23:40:36   [samas] review Important_Rules_hi.txt round 1: 6 issue(s): - Rule 5 table: First row labels कुम्भकारः as कर्ता/प्रथमा but its vigraha कुम्भं करोति इति shows द
+19-11 23:42:56   [sandhi] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q54 key d vs re-solve c, Q56 key b vs re-solve a, Q58 key c vs re-solve d, Q59 key c vs re-solve b, 
+19-11 23:43:50   [samas] review Important_Rules_hi.txt round 2: 5 issue(s): - Rule 7 incorrectly states that dvigu compounds result in neuter plural (बहुवचन); they actually re
+19-11 23:46:23   [samas] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 5 (तत्पुरुष उपभेद table): The example for कर्ता (प्रथमा) is given as "कर्तृक
+19-11 23:46:23   [samas] review: 3 section(s) corrected, 4 failed
+19-11 23:46:23   [samas] written 3, failed 4; AI calls today 182/100000
+19-11 23:46:23 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas after 73 min: todo [] problems []
+19-11 23:46:24 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay (TODO: todo 3, problems 0)
+19-11 23:46:24   [upsarg_pratyay] Hindi-only writer: direct Hindi content; English generation and translation disabled
+19-11 23:48:11   [paryayvachi] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q124 key d vs re-solve c)
+19-11 23:52:29   [paryayvachi] wrote Practice_hi_Set_05.txt (write, 25 MCQs)
+19-11 23:54:06   [paryayvachi] wrote Practice_hi_Set_06.txt (write, 25 MCQs)
+19-11 23:54:06   [paryayvachi] written 13, failed 0; AI calls today 191/100000
+19-11 23:57:42   [sandhi] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q54 key b vs re-solve c, Q56 key b vs re-solve a, Q58 key d vs re-solve a, Q59 key c vs re-solve b, 
+19-11 23:57:42   [sandhi] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
 ```
