@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 09:39 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
+**आख़िरी update:** 19-11-2026 09:54 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 word (12th Computer) | 📤 push हो रहा है | 0 मिनट |
-| W2 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 56 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 62 मिनट |
-| W4 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 38 मिनट |
+| W1 | Chapter 09 powerpoint (12th Computer) | 🔎 review हो रहा है | 14 मिनट |
+| W2 | Chapter 10 paryayvachi (10th Hindi) | ✍️ लिख रहा है | 10 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 77 मिनट |
+| W4 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 53 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 35 |
-| key 4 | 32 |
+| key 3 | 43 |
+| key 4 | 39 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -50,28 +50,12 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 07 word (Computer) — 1 बार
 - Chapter 01 varn vartani (Hindi) — 1 बार
+- Chapter 08 samas (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 20:49:39   [samas] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q20 key c vs re-solve b)
-19-11 20:52:34   [excel] review Content_hi.txt round 2: 1 issue(s): - SUBTOTAL(9) includes hidden rows; the claim that it counts only visible cells is wrong → Use SUBTOTAL(109
-19-11 20:53:33   [samas] wrote Practice_hi_Set_01.txt (write, 25 MCQs)
-19-11 20:55:55   [excel] review PYQ_hi.txt: resumed private correction draft
-19-11 20:56:40   [sandhi] Practice_hi_Set_01.txt try 2: rejected (Q15:duplicate_options)
-19-11 20:57:35   [excel] review Important_Rules_en.txt: resumed private correction draft
-19-11 20:59:10   [excel] review Important_Rules_en.txt round 1: 1 issue(s): - Rule 13 states Mac shortcut for toggling absolute/relative references is Cmd+T → The correct shor
-19-11 21:00:43   [excel] review: 3 section(s) corrected, 0 failed
-19-11 21:00:43   [excel] written 3, failed 0; AI calls today 33/100000
-19-11 21:01:05   [samas] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q57 key d vs re-solve a, Q59 key c vs re-solve d)
-19-11 21:01:08 DONE 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_08_excel in 17 min → 614b0499
-19-11 21:01:09 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay (TODO: todo 3, problems 0)
-19-11 21:01:09   [upsarg_pratyay] Hindi-only writer: direct Hindi content; English generation and translation disabled
-19-11 21:02:06   [varn_vartani] review Feynman_hi.txt round 1: 1 issue(s): - Section 4 table: both "सही शब्द" and "गलत शब्द" columns show "आश्चर्य" (with च); the गलत शब्द should be "
-19-11 21:04:58   [upsarg_pratyay] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q1 key a vs re-solve b, Q13 key b vs re-solve a, Q16 key a vs re-solve c, Q20 key b vs re-solve a, Q
-19-11 21:07:25   [samas] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q57 key d vs re-solve a, Q59 key a vs re-solve b, Q60 key d vs re-solve c)
 19-11 21:11:03   [upsarg_pratyay] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q11 key b vs re-solve a, Q13 key c vs re-solve b, Q16 key b vs re-solve c, Q20 key a vs re-solve b)
 19-11 21:11:53   [samas] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q66 key d vs re-solve b)
 19-11 21:15:00   [samas] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q66 key d vs re-solve b)
@@ -96,4 +80,20 @@
 19-11 21:38:46   [samas] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q115 key d vs re-solve a)
 19-11 21:39:19   [word] review: 1 section(s) corrected, 0 failed
 19-11 21:39:19   [word] written 1, failed 0; AI calls today 68/100000
+19-11 21:40:06 DONE 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word in 1 min → 8062075e
+19-11 21:40:07 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_09_powerpoint (OK: todo 0, problems 0)
+19-11 21:40:08   [powerpoint] review Content_hi.txt: resumed private correction draft
+19-11 21:43:47   [samas] wrote Practice_hi_Set_05.txt (write, 25 MCQs)
+19-11 21:43:47   [samas] written 2, failed 1; AI calls today 71/100000
+19-11 21:43:47 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas after 61 min: todo ['Set 03 hi: todo'] problems []
+19-11 21:43:48 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_10_paryayvachi (TODO: todo 13, problems 0)
+19-11 21:43:48   [paryayvachi] Hindi-only writer: direct Hindi content; English generation and translation disabled
+19-11 21:43:50   [upsarg_pratyay] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q31 key b vs re-solve c)
+19-11 21:45:34   [paryayvachi] wrote Content_hi.txt (7079 chars)
+19-11 21:47:46   [powerpoint] review PYQ_hi.txt: resumed private correction draft
+19-11 21:48:13   [powerpoint] review PYQ_hi.txt round 1: 1 issue(s): - "परीक्षा में 80%+ प्रश्न इन्हीं से बनते हैं" एक आविष्कृत परीक्षा सांख्यिकी है → "परीक्षा में अधिकांश प्रश्न इ
+19-11 21:49:34   [paryayvachi] wrote Key_Facts_hi.txt (4197 chars)
+19-11 21:51:34   [upsarg_pratyay] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q40 key a vs re-solve ?, Q44 key b vs re-solve ?)
+19-11 21:53:20   [paryayvachi] wrote Feynman_hi.txt (3762 chars)
+19-11 21:53:30   [paryayvachi] wrote Mind_Map.txt (988 chars)
 ```
