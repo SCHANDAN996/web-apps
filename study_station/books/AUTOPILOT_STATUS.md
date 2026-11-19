@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 04:50 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
+**आख़िरी update:** 20-11-2026 05:06 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 168 मिनट |
-| W2 | Chapter 11 email (12th Computer) | ✍️ लिख रहा है | 129 मिनट |
-| W3 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 33 मिनट |
-| W4 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 13 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 183 मिनट |
+| W2 | Chapter 11 email (12th Computer) | ✍️ लिख रहा है | 145 मिनट |
+| W3 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 48 मिनट |
+| W4 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 28 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 109 |
-| key 4 | 86 |
+| key 3 | 114 |
+| key 4 | 91 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -56,13 +56,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 04:21:18   [vilom] wrote Practice_hi_Set_06.txt (write, 25 MCQs)
-20-11 04:21:18   [vilom] written 12, failed 1; AI calls today 151/100000
-20-11 04:21:18 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_11_vilom after 117 min: todo ['Set 01 hi: todo'] problems []
-20-11 04:21:19 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_10_paryayvachi (OK: todo 0, problems 0)
-20-11 04:21:19   [paryayvachi] review Important_Rules_hi.txt: resumed private correction draft
-20-11 04:22:59   [email] Practice_en_Set_03.txt try 1: re-solve disagrees (Q68 key a vs re-solve c)
-20-11 04:25:21   [sandhi] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q52 key d vs re-solve c, Q55 key b vs re-solve a, Q60 key c vs re-solve a, Q66 key c vs re-solve a, 
 20-11 04:25:43   [email] wrote Practice_en_Set_03.txt (write, 25 MCQs)
 20-11 04:27:08   [upsarg_pratyay] review Content_hi.txt round 1: 12 issue(s): - The claim "SSC GD, MTS, RRB Group D जैसी परीक्षाओं में इस विषय से प्रतिवर्ष 3–5 प्रश्न पूछे जाते हैं" is
 20-11 04:28:32   [paryayvachi] review Important_Rules_hi.txt round 1: 3 issue(s): - In the synonym table, the row for "धर्म" lists "धम्म" as the colloquial synonym; "धम्म" is a Pali
@@ -96,4 +89,11 @@
 20-11 04:47:27   [anekarthi_samshrut] wrote Important_Rules_hi.txt (7002 chars)
 20-11 04:48:54   [upsarg_pratyay] review Mind_Map.txt round 1: 2 issue(s): - "कृत प्रत्यय" lists "ता, त्व" as कृत suffixes, but they are actually तद्धित प्रत्यय → Remove "ता, त्व" from
 20-11 04:49:14   [upsarg_pratyay] 2026-11-19 23:19:14,313 WARNING NVIDIA rate_limited — retrying in 20s
+20-11 04:54:39   [anekarthi_samshrut] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q2 key c vs re-solve ?, Q6 key d vs re-solve a, Q7 key a vs re-solve d, Q13 key b vs re-solve ?, Q19
+20-11 04:54:59   [sandhi] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q108 key d vs re-solve ?, Q114 key c vs re-solve a, Q115 key c vs re-solve a, Q124 key b vs re-solve
+20-11 04:58:33   [sandhi] Practice_hi_Set_05.txt try 4: rejected (Q108:duplicate_options)
+20-11 04:58:33   [sandhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
+20-11 04:58:58   [sandhi] Practice_hi_Set_06.txt try 1: rejected (Q131:duplicate_options,Q133:duplicate_options,Q137:duplicate_options,Q143:duplicate_options,Q145:duplicate_opt
+20-11 04:59:21   [sandhi] Practice_hi_Set_06.txt try 2: rejected (Q137:duplicate_options,Q143:duplicate_options,Q149:duplicate_options)
+20-11 04:59:50   [anekarthi_samshrut] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q2 key a vs re-solve ?, Q7 key a vs re-solve d, Q13 key c vs re-solve ?, Q14 key d vs re-solve c, Q1
 ```
