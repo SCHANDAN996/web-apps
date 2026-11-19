@@ -755,69 +755,159 @@ def _review_cache():
     if not p:
         return None, set()
     try:
-        return Path(p), set(json.loads(Path(p).read_text()))
+        saved = json.loads(Path(p).read_text())
+        return Path(p), set(saved) if isinstance(saved, list) and all(isinstance(item, str) for item in saved) else set()
     except (OSError, ValueError):
         return Path(p), set()
 
 
+def _review_problem(chapter, name, text):
+    return (_problem(text, name)
+            or bookcheck.language_problem(name, text, is_english_book(chapter), hindi_book=is_hindi_book(chapter))
+            or bookcheck.off_topic(chapter, name, text))
+
+
+def _review_draft_path(chapter, name, cache_path):
+    """Drafts live in runner state, never alongside publishable book files."""
+    if not cache_path:
+        return None
+    directory = cache_path.parent / 'review-drafts'
+    if directory.is_symlink() or directory.resolve().is_relative_to(Path(config.BOOKS_DIR).resolve()):
+        return None
+    try:
+        chapter_key = Path(chapter).resolve().relative_to(Path(config.BOOKS_DIR).resolve()).as_posix()
+    except ValueError:
+        chapter_key = Path(chapter).resolve().as_posix()
+    key = hashlib.sha256((chapter_key + '\0' + name).encode()).hexdigest()
+    return directory / (key + '.json')
+
+
+def _load_review_draft(path, original):
+    if not path:
+        return None
+    if path.is_symlink():
+        _discard_review_draft(path)
+        return None
+    try:
+        data = json.loads(path.read_text(encoding='utf-8'))
+        candidate, issues = data['candidate'], data['issues']
+        valid = (data.get('version') == 1 and data.get('source_sha') == hashlib.sha256(original.encode()).hexdigest()
+                 and isinstance(candidate, str) and data.get('candidate_sha') == hashlib.sha256(candidate.encode()).hexdigest()
+                 and isinstance(issues, list) and all(isinstance(issue, str) for issue in issues)
+                 and data.get('approved') is False)
+        if valid:
+            return candidate, issues
+    except (OSError, ValueError, KeyError, TypeError):
+        pass
+    _discard_review_draft(path)
+    return None
+
+
+def _discard_review_draft(path):
+    if path:
+        path.unlink(missing_ok=True)
+
+
+def _save_review_draft(path, original, candidate, issues, pending_review):
+    if not path or candidate == original:
+        return
+    path.parent.mkdir(parents=True, exist_ok=True, mode=0o700)
+    books.atomic_write(path, json.dumps({
+        'version': 1, 'source_sha': hashlib.sha256(original.encode()).hexdigest(),
+        'candidate_sha': hashlib.sha256(candidate.encode()).hexdigest(), 'candidate': candidate,
+        'issues': issues, 'pending_review': pending_review, 'approved': False,
+    }, ensure_ascii=False))
+
+
+def _remember_review(cache_path, passed, text):
+    """Merge concurrent chapter workers' approvals while holding only a short filesystem lock."""
+    if not cache_path:
+        return
+    import fcntl
+    cache_path.parent.mkdir(parents=True, exist_ok=True)
+    with cache_path.with_name(cache_path.name + '.lock').open('a') as lock:
+        fcntl.flock(lock, fcntl.LOCK_EX)
+        try:
+            fresh = json.loads(cache_path.read_text(encoding='utf-8'))
+            if isinstance(fresh, list) and all(isinstance(item, str) for item in fresh):
+                passed.update(fresh)
+        except (OSError, ValueError):
+            pass
+        passed.add(hashlib.sha256(text.encode()).hexdigest())
+        books.atomic_write(cache_path, json.dumps(sorted(passed)))
+
+
 def review(db, chapter, out=print):
-    """A separate reviewer call checks every finished non-practice section and re-checks corrections.
-    Returns (fixed, failed). Practice sets are not reviewed here — their keys were re-solved when written."""
+    """Review sections; advance private drafts through at most two repair rounds per invocation.
+
+    Every changed candidate needs an independent OK before it may replace the source. Unapproved drafts
+    survive failed rounds/API calls in private runner state, and resume only while their source is unchanged.
+    Practice sets retain their separate two-blind-answer-check gate.
+    """
     chapter = Path(chapter)
     fixed, failed = [], []
     cache_path, passed = _review_cache()
-
-    def remember(text):
-        if cache_path:
-            passed.add(hashlib.sha256(text.encode()).hexdigest())
-            books.atomic_write(cache_path, json.dumps(sorted(passed)))
     for name, path in sorted(section_files(chapter).items(), key=lambda kv: _order(kv[0])):
         if PRACTICE.match(name) or not _finished(path) or (is_hindi_book(chapter) and _lang_of(name) == 'en'):
             continue
-        text = path.read_text(encoding='utf-8', errors='replace')
-        if hashlib.sha256(text.encode()).hexdigest() in passed:
+        original = path.read_text(encoding='utf-8', errors='replace')
+        draft_path = _review_draft_path(chapter, name, cache_path)
+        if hashlib.sha256(original.encode()).hexdigest() in passed:
+            _discard_review_draft(draft_path)
             continue
+        candidate, issues = original, []
+        saved = _load_review_draft(draft_path, original)
+        if saved and not _review_problem(chapter, name, saved[0]):
+            candidate, issues = saved
+            out(f'  review {name}: resumed private correction draft')
+        elif saved:
+            _discard_review_draft(draft_path)
         try:
-            issues = _review_issues(_ask_review(db, review_request(name, text)))
-            if not issues:
-                remember(text)
-                continue
-            out(f'  review {name}: {len(issues)} issue(s): {issues[0][:120]}')
-            hint = '\n\n' + HINDI_WRITER if is_hindi_book(chapter) else ''
-            ask = repair_request(name, text, issues) + hint
-            for attempt in range(2):                      # the fix must still be the same language and topic
-                new = _clean_output(_ask(db, ask), name)
-                lang = bookcheck.language_problem(name, new, is_english_book(chapter), hindi_book=is_hindi_book(chapter)) or \
-                    bookcheck.off_topic(chapter, name, new)
-                if not lang:
+            # A resumed draft is never trusted as approved, including after a previous API failure.
+            issues = _review_issues(_ask_review(db, review_request(name, candidate)))
+            if why := _review_problem(chapter, name, candidate):
+                issues.append(why)
+            for attempt in range(2):
+                if not issues:
                     break
-                ask = repair_request(name, text, issues) + (
-                    f'\n\nYour previous rewrite was rejected: {lang}. Keep the language of the original file.') + hint
-            if lang:
-                out(f'REJECTED review fix {name}: {lang}')
-                failed.append(name)
-                continue
-        except ai.AIUnavailable as e:
-            out(f'FAILED review {name}: {e} — the chapter must not be published unreviewed')
+                out(f'  review {name} round {attempt + 1}: {len(issues)} issue(s): {issues[0][:120]}')
+                hint = '\n\n' + HINDI_WRITER if is_hindi_book(chapter) else ''
+                new = _clean_output(_ask(db, repair_request(name, candidate, issues) + hint), name)
+                if why := _review_problem(chapter, name, new):
+                    # Keep the latest VALID draft; do not poison its checkpoint with a malformed rewrite.
+                    out(f'  review {name}: rejected candidate ({why}); retaining the latest valid draft')
+                    issues = issues + [why]
+                    _save_review_draft(draft_path, original, candidate, issues, pending_review=False)
+                    continue
+                if new == candidate:
+                    out(f'REJECTED review fix {name}: correction unchanged — keeping the known remaining issues')
+                    _save_review_draft(draft_path, original, candidate, issues, pending_review=False)
+                    break
+                candidate = new
+                _save_review_draft(draft_path, original, candidate, issues, pending_review=True)
+                issues = _review_issues(_ask_review(db, review_request(name, candidate)))
+                _save_review_draft(draft_path, original, candidate, issues, pending_review=False)
+        except ai.AIUnavailable as error:
+            # candidate was checkpointed before its review request; no unreviewed text reaches books/.
+            _save_review_draft(draft_path, original, candidate, issues, pending_review=True)
+            out(f'FAILED review {name}: {error} — the chapter must not be published unreviewed; corrected draft remains unapproved')
             failed.append(name)
             continue
-        if (why := _problem(new, name)):
-            out(f'REJECTED review fix {name}: {why}')
+        if issues:
+            out(f'REJECTED review fix {name}: reviewer still reports {issues[0][:120]} — private draft retained')
             failed.append(name)
             continue
-        try:
-            remaining = _review_issues(_ask_review(db, review_request(name, new)))
-        except ai.AIUnavailable as e:
-            out(f'FAILED review fix {name}: {e} — corrected text remains unapproved')
+        current = section_files(chapter).get(name)
+        if not current or current.read_text(encoding='utf-8', errors='replace') != original:
+            _discard_review_draft(draft_path)
+            out(f'FAILED review {name}: source changed during review — correction not applied')
             failed.append(name)
             continue
-        if remaining:
-            out(f'REJECTED review fix {name}: reviewer still reports {remaining[0][:120]}')
-            failed.append(name)
-            continue
-        write_section(chapter, name, new)
-        remember(new)                       # only cache a correction after the reviewer accepts it
-        fixed.append(name)
+        if candidate != original:
+            write_section(chapter, name, candidate)
+            fixed.append(name)
+        _remember_review(cache_path, passed, candidate)
+        _discard_review_draft(draft_path)
     out(f'review: {len(fixed)} section(s) corrected, {len(failed)} failed')
     return fixed, failed
 
@@ -924,7 +1014,7 @@ def request_legacy_autopilot_rollover(out=print):
     Only the known legacy Actions state directory is signalled; new and manual runs are unaffected.
     """
     cache = os.environ.get('BOOKGEN_REVIEW_CACHE')
-    current = os.environ.get('BOOKGEN_HINDI_ONLY') == '1' and os.environ.get('BOOKGEN_RATE_POLICY') == 'parallel-v2'
+    current = os.environ.get('BOOKGEN_HINDI_ONLY') == '1' and os.environ.get('BOOKGEN_RATE_POLICY') == 'parallel-v3'
     if os.environ.get('GITHUB_ACTIONS') != 'true' or current or not cache:
         return False
     path = Path(cache)

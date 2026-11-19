@@ -42,18 +42,29 @@ jobs:
           cache-dependency-path: study_station/v2/requirements.txt
       - name: Install
         run: pip install -r study_station/v2/requirements.txt
-      # Unfinished chapters survive between runs: their sections are cached per lane and restored here.
+      # Keep the existing WIP cache paths/version intact; review state has its own cache.
       - name: Restore unfinished work
         uses: actions/cache/restore@v4
         with:
           path: ${{ runner.temp }}/wip.tar.gz
           key: wip-two-chapters-${{ github.run_id }}
           restore-keys: wip-two-chapters-
+      - name: Restore review progress
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            ${{ runner.temp }}/autopilot/reviewed.json
+            ${{ runner.temp }}/autopilot/review-drafts
+            ${{ runner.temp }}/autopilot/tracked-books.patch
+            ${{ runner.temp }}/autopilot/tracked-conflicts
+          key: book-review-${{ github.run_id }}
+          restore-keys: book-review-
       - name: Unpack unfinished work
         run: |
           if [ -f "$RUNNER_TEMP/wip.tar.gz" ]; then
             tar -xzf "$RUNNER_TEMP/wip.tar.gz" --skip-old-files && echo "restored $(tar -tzf "$RUNNER_TEMP/wip.tar.gz" | wc -l) files"
           fi
+          python study_station/v2/tools/book_wip.py restore "$RUNNER_TEMP/autopilot/tracked-books.patch"
       - name: Check active keys are set
         env:
           NVIDIA_API_KEY_3: ${{ secrets.NVIDIA_API_KEY_3 }}
@@ -80,7 +91,7 @@ jobs:
           NVIDIA_MIN_INTERVAL_SECONDS: '15'
           NVIDIA_ACCOUNT_MIN_INTERVAL_SECONDS: '20'
           NVIDIA_MAX_INFLIGHT_PER_KEY: '1'
-          BOOKGEN_RATE_POLICY: parallel-v2
+          BOOKGEN_RATE_POLICY: parallel-v3
           PYTHONUNBUFFERED: '1'
         run: |
           git config user.name "study-station-book-autopilot"
@@ -92,6 +103,7 @@ jobs:
       - name: Pack unfinished work
         if: always()
         run: |
+          python study_station/v2/tools/book_wip.py save "$RUNNER_TEMP/autopilot/tracked-books.patch"
           git ls-files --others --exclude-standard -z -- study_station/books ':!study_station/books/autopilot' \
             | tar --null -czf "$RUNNER_TEMP/wip.tar.gz" -T - && echo "packed $(tar -tzf "$RUNNER_TEMP/wip.tar.gz" | wc -l) files"
       - name: Save unfinished work
@@ -100,6 +112,16 @@ jobs:
         with:
           path: ${{ runner.temp }}/wip.tar.gz
           key: wip-two-chapters-${{ github.run_id }}
+      - name: Save review progress
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            ${{ runner.temp }}/autopilot/reviewed.json
+            ${{ runner.temp }}/autopilot/review-drafts
+            ${{ runner.temp }}/autopilot/tracked-books.patch
+            ${{ runner.temp }}/autopilot/tracked-conflicts
+          key: book-review-${{ github.run_id }}
       - name: Keep the log and rejected outputs for diagnosis
         if: always()
         uses: actions/upload-artifact@v4
@@ -107,6 +129,8 @@ jobs:
           name: autopilot-four-chapters-${{ github.run_id }}
           path: |
             ${{ runner.temp }}/autopilot/log.txt
+            ${{ runner.temp }}/autopilot/tracked-books.patch
+            ${{ runner.temp }}/autopilot/tracked-conflicts
             ${{ runner.temp }}/rejects
           if-no-files-found: ignore
           retention-days: 7
