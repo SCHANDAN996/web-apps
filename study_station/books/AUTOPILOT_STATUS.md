@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 04:05 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
+**आख़िरी update:** 20-11-2026 04:20 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 122 मिनट |
-| W2 | Chapter 11 email (12th Computer) | ✍️ लिख रहा है | 84 मिनट |
-| W3 | Chapter 08 samas (10th Hindi) | 🔎 review हो रहा है | 46 मिनट |
-| W4 | Chapter 11 vilom (10th Hindi) | ✍️ लिख रहा है | 100 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 137 मिनट |
+| W2 | Chapter 11 email (12th Computer) | ✍️ लिख रहा है | 99 मिनट |
+| W3 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 2 मिनट |
+| W4 | Chapter 11 vilom (10th Hindi) | ✍️ लिख रहा है | 115 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 75 |
-| key 4 | 55 |
+| key 3 | 87 |
+| key 4 | 61 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -26,7 +26,7 @@
 
 | किताब | प्रारंभिक जाँच पास | संरचना में सुधार बाकी | लिखना बाकी |
 |---|---|---|---|
-| 10th Hindi | 8 | 0 | 9 |
+| 10th Hindi | 9 | 0 | 8 |
 | 12th Computer | 10 | 0 | 4 |
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
@@ -40,7 +40,7 @@
 | Graduation GK | 28 | 0 | 0 |
 | Graduation Reasoning | 30 | 0 | 0 |
 | Graduation English | 30 | 0 | 0 |
-| **कुल** | **314** | **0** | **13** |
+| **कुल** | **315** | **0** | **12** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -49,27 +49,12 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 10 paryayvachi (Hindi) — 1 बार
-- Chapter 08 samas (Hindi) — 1 बार
+- Chapter 08 samas (Hindi) — 2 बार
 - Chapter 09 upsarg pratyay (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 03:06:19   [vilom] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q29 key b vs re-solve ?)
-20-11 03:07:43   [vilom] wrote Practice_hi_Set_02.txt (write, 25 MCQs)
-20-11 03:11:57   [sandhi] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q32 key b vs re-solve c, Q35 key d vs re-solve c, Q37 key d vs re-solve a, Q38 key c vs re-solve b, 
-20-11 03:18:37   [upsarg_pratyay] FAILED Practice_hi_Set_04.txt: too_long
-20-11 03:18:37   [upsarg_pratyay] written 1, failed 1; AI calls today 80/100000
-20-11 03:18:37 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay after 76 min: todo ['Set 04 hi: todo'] problems []
-20-11 03:18:38 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas (OK: todo 0, problems 0)
-20-11 03:18:38   [samas] review Key_Facts_hi.txt: resumed private correction draft
-20-11 03:19:03   [email] wrote Key_Facts_en.txt (4519 chars)
-20-11 03:19:23   [sandhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q26 key c vs re-solve b, Q41 key a vs re-solve c, Q42 key c vs re-solve d, Q43 key c vs re-solve a, 
-20-11 03:19:39   [email] wrote Key_Facts_hi.txt (3806 chars)
-20-11 03:22:34   [samas] review Key_Facts_hi.txt round 1: 3 issue(s): - In point 21, “उपवनम्” is listed as an अव्ययीभाव example but it is not an अव्ययीभाव समास (it is the accu
-20-11 03:26:14   [samas] review Key_Facts_hi.txt round 2: 2 issue(s): - In point 3, the example "अन्यत्र" (अन्य + त्र) is not a valid अव्ययीभाव समास because "त्र" is a suffix,
-20-11 03:30:52   [samas] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 5 lists "उपपद" as a sub‑type of तत्पुरुष → उपपद is a separate major type of समास 
-20-11 03:30:52   [samas] review Mind_Map.txt: resumed private correction draft
 20-11 03:33:38   [sandhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q41 key b vs re-solve c)
 20-11 03:35:47   [vilom] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q67 key b vs re-solve a, Q73 key b vs re-solve a)
 20-11 03:37:13   [vilom] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q74 key c vs re-solve a)
@@ -95,4 +80,19 @@
 20-11 03:59:56   [vilom] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q115 key a vs re-solve d)
 20-11 04:01:27   [sandhi] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q51 key a vs re-solve c, Q52 key c vs re-solve d, Q53 key d vs re-solve b, Q55 key d vs re-solve b, 
 20-11 04:03:47   [email] Practice_en_Set_02.txt try 1: re-solve disagrees (Q32 key a vs re-solve b, Q37 key a vs re-solve d, Q39 key b vs re-solve d)
+20-11 04:06:54   [email] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+20-11 04:07:59   [email] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+20-11 04:08:08   [vilom] wrote Practice_hi_Set_05.txt (write, 25 MCQs)
+20-11 04:08:51   [samas] REJECTED review fix Mind_Map.txt: reviewer still reports - यथार्थ को निपातपूर्वक अव्ययीभाव का उदाहरण दिया गया है → यथार्थ अव्ययीभाव नहीं है (यह पद विच
+20-11 04:08:51   [samas] review: 0 section(s) corrected, 2 failed
+20-11 04:08:51   [samas] written 0, failed 2; AI calls today 137/100000
+20-11 04:08:51 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas after 50 min: todo [] problems []
+20-11 04:08:51 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay (TODO: todo 1, problems 0)
+20-11 04:08:52   [upsarg_pratyay] Hindi-only writer: direct Hindi content; English generation and translation disabled
+20-11 04:09:55   [vilom] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q141 key c vs re-solve ?, Q142 key b vs re-solve ?, Q146 key d vs re-solve ?, Q148 key a vs re-solve
+20-11 04:13:29   [vilom] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q134 key b vs re-solve ?, Q136 key d vs re-solve ?, Q140 key a vs re-solve ?, Q141 key b vs re-solve
+20-11 04:13:32   [sandhi] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q52 key d vs re-solve c, Q53 key b vs re-solve c, Q55 key a vs re-solve b, Q60 key c vs re-solve d, 
+20-11 04:17:24   [upsarg_pratyay] wrote Practice_hi_Set_04.txt (write, 25 MCQs)
+20-11 04:17:24   [upsarg_pratyay] written 1, failed 0; AI calls today 147/100000
+20-11 04:19:22   [vilom] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q134 key b vs re-solve ?, Q136 key d vs re-solve ?, Q141 key b vs re-solve ?, Q142 key b vs re-solve
 ```
