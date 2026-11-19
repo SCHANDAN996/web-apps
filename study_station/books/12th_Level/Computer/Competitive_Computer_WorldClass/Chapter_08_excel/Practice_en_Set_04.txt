@@ -1,0 +1,149 @@
+76. What is the default file extension for an Excel workbook in modern versions (Excel 2007 and later)?
+(a) .xls (b) .xlsx (c) .xlsm (d) .csv
+Answer: (b)
+Solution: The .xls extension belongs to the legacy binary format (Excel 97–2003). The .xlsm extension is used only when the workbook contains macros, and .csv is a plain-text comma-separated format, not the native workbook format. The standard default for a macro-free workbook since Excel 2007 is .xlsx, so the answer is .xlsx.
+Source: Microsoft Support – Excel file formats
+
+77. Which keyboard shortcut opens the "Insert Function" dialog box in Excel for Windows?
+(a) Ctrl + F (b) Alt + F1 (c) Shift + F3 (d) Ctrl + Shift + F
+Answer: (c)
+Solution: Ctrl + F opens the Find dialog, Alt + F1 creates an embedded chart from the selected data, and Ctrl + Shift + F opens the Format Cells dialog with the Font tab active. The shortcut specifically assigned to the Insert Function dialog is Shift + F3, so the answer is Shift + F3.
+Source: Microsoft Support – Keyboard shortcuts in Excel
+
+78. In an Excel formula, what does the $ symbol before a column letter and row number (e.g., $A$1) indicate?
+(a) The cell contains a currency value (b) The reference is absolute (c) The reference is relative (d) The cell is locked for editing
+Answer: (b)
+Solution: The $ symbol has nothing to do with currency formatting or cell protection; it fixes the reference so that it does not change when the formula is copied. A relative reference (A1) adjusts both column and row, while a mixed reference ($A1 or A$1) fixes only one part. Therefore, $A$1 is an absolute reference, so the answer is The reference is absolute.
+Source: Microsoft Support – Use absolute and relative references
+
+79. Which function returns the number of cells in a range that contain numbers?
+(a) COUNT (b) COUNTA (c) COUNTBLANK (d) COUNTIF
+Answer: (a)
+Solution: COUNTA counts non-empty cells (text, numbers, errors), COUNTBLANK counts empty cells, and COUNTIF counts cells meeting a single criterion. Only COUNT is designed to count cells that specifically contain numeric values, so the answer is COUNT.
+Source: Microsoft Support – COUNT function
+
+80. What is the maximum number of rows in a worksheet in Excel 2007 and later versions?
+(a) 65,536 (b) 1,048,576 (c) 2,097,152 (d) Unlimited
+Answer: (b)
+Solution: 65,536 rows was the limit in Excel 97–2003 (.xls). The limit was expanded to 1,048,576 rows (2^20) starting with Excel 2007 (.xlsx). There is no unlimited row count, so the answer is 1,048,576.
+Source: Microsoft Support – Excel specifications and limits
+
+81. Which feature allows you to apply formatting to a cell based on its value automatically?
+(a) Data Validation (b) Cell Styles (c) Format Painter (d) Conditional Formatting
+Answer: (d)
+Solution: Data Validation restricts the type of data entered, Format Painter copies existing formatting manually, and Cell Styles are predefined format sets. Conditional Formatting is the feature that changes cell appearance automatically when values meet specified rules, so the answer is Conditional Formatting.
+Source: Microsoft Support – Conditional formatting
+
+82. What does the VLOOKUP function search for by default?
+(a) Approximate match unless FALSE is specified (b) Approximate match only (c) Exact match first, then approximate (d) Exact match only
+Answer: (a)
+Solution: Many users assume VLOOKUP defaults to exact match, but the fourth argument (range_lookup) defaults to TRUE, meaning approximate match. To force exact match you must explicitly use FALSE or 0. Therefore, the default behavior is approximate match unless FALSE is specified, so the answer is Approximate match unless FALSE is specified.
+Source: Microsoft Support – VLOOKUP function
+
+83. Which shortcut inserts the current date into a cell in Excel for Windows?
+(a) Ctrl + Shift + : (b) Ctrl + Shift + ; (c) Ctrl + : (d) Ctrl + ;
+Answer: (d)
+Solution: Ctrl + Shift + ; inserts the current time, while Ctrl + : and Ctrl + Shift + : are not standard Excel shortcuts for date/time entry. The recognized shortcut for the current date is Ctrl + ; (semicolon), so the answer is Ctrl + ;.
+Source: Microsoft Support – Keyboard shortcuts in Excel
+
+84. What is the purpose of the "Text to Columns" feature?
+(a) Transpose rows to columns (b) Merge multiple columns into one (c) Convert numbers to text format (d) Split a single column into multiple columns based on a delimiter
+Answer: (d)
+Solution: Merging columns is done with CONCAT or Flash Fill, converting numbers to text uses the TEXT function or formatting, and transposing uses Paste Special → Transpose. Text to Columns specifically splits one column into several using delimiters or fixed widths, so the answer is Split a single column into multiple columns based on a delimiter.
+Source: Microsoft Support – Split text into different columns
+
+85. Which function calculates the arithmetic mean of a range of numbers?
+(a) MEDIAN (b) MODE (c) SUM (d) AVERAGE
+Answer: (d)
+Solution: MEDIAN returns the middle value, MODE returns the most frequent value, and SUM returns the total. The arithmetic mean is computed by AVERAGE, so the answer is AVERAGE.
+Source: Microsoft Support – AVERAGE function
+
+86. What happens when you press Ctrl + Home in an Excel worksheet?
+(a) Selects the entire worksheet (b) Moves to the first cell with data (c) Moves to cell A1 (d) Opens the Go To dialog
+Answer: (c)
+Solution: Ctrl + Home always navigates to cell A1 regardless of frozen panes or hidden rows/columns. Ctrl + End moves to the last used cell, Ctrl + A selects the worksheet (or current region), and Ctrl + G opens Go To. Therefore, the action is Moves to cell A1, so the answer is Moves to cell A1.
+Source: Microsoft Support – Keyboard shortcuts in Excel
+
+87. Which chart type is most suitable for showing the proportion of parts to a whole?
+(a) Pie chart (b) Bar chart (c) Line chart (d) Scatter chart
+Answer: (a)
+Solution: Line charts show trends over time, bar charts compare categories, and scatter charts show relationships between two numeric variables. A pie chart visually represents each category's share of the total, making it the standard choice for part-to-whole proportions, so the answer is Pie chart.
+Source: Microsoft Support – Available chart types
+
+88. What does the IFERROR function do?
+(a) Removes errors from a worksheet (b) Checks whether a cell contains an error (c) Returns a custom value if a formula evaluates to an error (d) Highlights cells with errors
+Answer: (c)
+Solution: ISERROR only tests for an error (TRUE/FALSE), while IFERROR lets you substitute a chosen value (e.g., 0 or "N/A") whenever any error (#N/A, #DIV/0!, etc.) occurs. It does not remove or highlight errors. Thus, the correct description is Returns a custom value if a formula evaluates to an error, so the answer is Returns a custom value if a formula evaluates to an error.
+Source: Microsoft Support – IFERROR function
+
+89. Which feature creates a drop-down list in a cell to restrict data entry?
+(a) Conditional Formatting (b) Data Validation (c) Data Consolidation (d) Flash Fill
+Answer: (b)
+Solution: Conditional Formatting changes appearance, Data Consolidation combines data from multiple ranges, and Flash Fill detects patterns to auto-fill. Data Validation's "List" criterion creates an in-cell drop-down that limits input to predefined items, so the answer is Data Validation.
+Source: Microsoft Support – Apply data validation
+
+90. What is the result of the formula =CONCAT("Ex","am") in Excel 2019 or later?
+(a) Ex am (b) Ex,am (c) Exam (d) #NAME?
+Answer: (c)
+Solution: CONCAT (and the older CONCATENATE) joins text strings without adding spaces or commas unless explicitly included. "Ex" and "am" combine directly into "Exam". The function exists in Excel 2019+, so #NAME? would not appear. Therefore, the result is Exam, so the answer is Exam.
+Source: Microsoft Support – CONCAT function
+
+91. Which shortcut opens the "Format Cells" dialog box in Excel for Windows?
+(a) Ctrl + 1 (b) Ctrl + Shift + 1 (c) Alt + 1 (d) Ctrl + F1
+Answer: (a)
+Solution: Ctrl + Shift + 1 applies the Number format with two decimals, Alt + 1 has no default assignment, and Ctrl + F1 toggles the ribbon. The universal shortcut for the Format Cells dialog is Ctrl + 1, so the answer is Ctrl + 1.
+Source: Microsoft Support – Keyboard shortcuts in Excel
+
+92. What does the "Freeze Panes" feature do?
+(a) Locks cells from editing (b) Keeps specific rows/columns visible while scrolling (c) Protects the worksheet structure (d) Hides selected rows/columns
+Answer: (b)
+Solution: Locking cells requires Protect Sheet, protecting structure uses Protect Workbook, and hiding uses the Hide command. Freeze Panes only affects the view, keeping header rows or columns on screen during scrolling, so the answer is Keeps specific rows/columns visible while scrolling.
+Source: Microsoft Support – Freeze panes
+
+93. Which function returns the largest value in a range?
+(a) MIN (b) LARGE (c) MAX (d) RANK
+Answer: (c)
+Solution: MIN returns the smallest, LARGE returns the k-th largest (requiring a second argument), and RANK gives the rank of a number. MAX directly returns the single largest value, so the answer is MAX.
+Source: Microsoft Support – MAX function
+
+94. What is the default alignment for numbers in an Excel cell?
+(a) Right-aligned (b) Center-aligned (c) Left-aligned (d) Justified
+Answer: (a)
+Solution: Text defaults to left-aligned, but numbers (including dates and times) default to right-aligned unless formatting changes it. Center and justified are not defaults. Hence, the default is Right-aligned, so the answer is Right-aligned.
+Source: Microsoft Support – Align or rotate data
+
+95. Which keyboard shortcut applies the "Bold" format to selected cells in Excel for Windows?
+(a) Ctrl + Shift + B (b) Ctrl + B (c) Alt + B (d) Ctrl + I
+Answer: (b)
+Solution: Ctrl + I applies Italic, Ctrl + Shift + B has no default bold action, and Alt + B opens the Page Layout tab. The standard toggle for Bold is Ctrl + B, so the answer is Ctrl + B.
+Source: Microsoft Support – Keyboard shortcuts in Excel
+
+96. In a PivotTable, which area determines the unique values that appear as column headings?
+(a) Filters (b) Values (c) Rows (d) Columns
+Answer: (d)
+Solution: The Rows area creates row labels, Values holds the summary calculations, and Filters applies a global filter. The Columns area specifically pivots unique field values into horizontal column headers, so the answer is Columns.
+Source: Microsoft Support – PivotTable fields
+
+97. What does the formula =INDEX(A1:C3, 2, 3) return?
+(a) The value in cell C2 (b) The value in cell B3 (c) The value in cell A2 (d) The value in cell C3
+Answer: (a)
+Solution: INDEX(array, row_num, column_num) uses relative positions inside the array. Row 2, column 3 of A1:C3 corresponds to the third column (C) and second row (2), i.e., cell C2. A2 is row 2 column 1, B3 is row 3 column 2, and C3 is row 3 column 3. Therefore, the returned cell is C2, so the answer is The value in cell C2.
+Source: Microsoft Support – INDEX function
+
+98. Which function counts cells that meet multiple criteria across different ranges?
+(a) COUNTIF (b) SUMPRODUCT (c) COUNTIFS (d) DCOUNT
+Answer: (c)
+Solution: COUNTIF handles only one range/criterion pair. SUMPRODUCT and DCOUNT can handle multiple conditions but are not the dedicated, simplest function for this purpose. COUNTIFS is designed specifically for multiple criteria across multiple ranges, so the answer is COUNTIFS.
+Source: Microsoft Support – COUNTIFS function
+
+99. What is the effect of pressing Ctrl + Shift + L in an Excel worksheet?
+(a) Toggles AutoFilter on/off (b) Applies a table style (c) Inserts a new worksheet (d) Opens the Define Name dialog
+Answer: (a)
+Solution: Ctrl + L (or Ctrl + T) creates a Table, Shift + F11 inserts a worksheet, and Ctrl + F3 opens Name Manager. Ctrl + Shift + L is the dedicated toggle for AutoFilter arrows on the header row, so the answer is Toggles AutoFilter on/off.
+Source: Microsoft Support – Keyboard shortcuts in Excel
+
+100. When using VLOOKUP with an exact match (FALSE), what error is returned if the lookup value is not found?
+(a) #VALUE! (b) #REF! (c) #NULL! (d) #N/A
+Answer: (d)
+Solution: #VALUE! indicates wrong data type, #REF! means invalid cell reference, and #NULL! arises from intersection of non-intersecting ranges. VLOOKUP (and XLOOKUP, HLOOKUP, MATCH) specifically returns #N/A when an exact match cannot be found, so the answer is #N/A.
+Source: Microsoft Support – VLOOKUP function

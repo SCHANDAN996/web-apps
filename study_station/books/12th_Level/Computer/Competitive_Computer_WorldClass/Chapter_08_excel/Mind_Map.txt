@@ -1,0 +1,67 @@
+```mermaid
+graph TD
+    A["एमएस एक्सेल<br>Microsoft Excel"]
+    B["वर्कबुक और वर्कशीट<br>Workbook & Worksheet"]
+    C["सेल, रेंज और संदर्भ<br>Cell, Range & Reference"]
+    D["डेटा प्रकार<br>Data Types"]
+    E["सूत्र और फंक्शन<br>Formulas & Functions"]
+    F["सामान्य फंक्शन<br>Common Functions"]
+    G["संदर्भ प्रकार<br>Reference Types"]
+    H["डेटा टूल्स<br>Data Tools"]
+    I["सशर्त स्वरूपण<br>Conditional Formatting"]
+    J["डेटा सत्यापन<br>Data Validation"]
+    K["चार्ट्स<br>Charts"]
+    L["पिवट टेबल<br>Pivot Table"]
+    M["पेज लेआउट और प्रिंट<br>Page Layout & Print"]
+    N["कीबोर्ड शॉर्टकट<br>Keyboard Shortcuts"]
+    O["त्रुटि प्रकार<br>Error Types"]
+
+    A --> B
+    A --> C
+    A --> D
+    A --> E
+    E --> F
+    E --> G
+    A --> H
+    A --> I
+    A --> J
+    A --> K
+    A --> L
+    A --> M
+    A --> N
+    A --> O
+
+    F --> F1["SUM, AVERAGE, COUNT<br>MAX, MIN"]
+    F --> F2["IF, IFERROR<br>VLOOKUP, HLOOKUP"]
+    F --> F3["CONCAT, TEXT<br>DATE, NOW"]
+
+    G --> G1["सापेक्ष संदर्भ<br>Relative Reference"]
+    G --> G2["निरपेक्ष संदर्भ<br>Absolute Reference $"]
+    G --> G3["मिश्रित संदर्भ<br>Mixed Reference"]
+
+    H --> H1["सॉर्ट और फ़िल्टर<br>Sort & Filter"]
+    H --> H2["टेक्स्ट टू कॉलम<br>Text to Columns"]
+    H --> H3["डुप्लिकेट हटाएं<br>Remove Duplicates"]
+
+    I --> I1["नियम-आधारित<br>Rule-based"]
+    I --> I2["डेटा बार, कलर स्केल<br>Data Bars, Color Scales"]
+
+    J --> J1["सूची, पूर्णांक, दशमलव<br>List, Whole, Decimal"]
+    J --> J2["कस्टम सूत्र<br>Custom Formula"]
+
+    K --> K1["कॉलम, लाइन, पाई<br>Column, Line, Pie"]
+    K --> K2["कॉम्बो चार्ट<br>Combo Chart"]
+
+    L --> L1["पंक्ति, कॉलम, मान<br>Rows, Columns, Values"]
+    L --> L2["फ़िल्टर और स्लाइसर<br>Filters & Slicers"]
+
+    M --> M1["मार्जिन, ओरिएंटेशन<br>Margins, Orientation"]
+    M --> M2["प्रिंट एरिया, शीर्षक<br>Print Area, Titles"]
+
+    N --> N1["Ctrl+C/V/X/Z/Y<br>Copy/Paste/Cut/Undo/Redo"]
+    N --> N2["Ctrl+Arrow, Shift+Space<br>Navigation & Selection"]
+    N --> N3["F2, F4, Alt+=<br>Edit, Repeat, AutoSum"]
+
+    O --> O1["#DIV/0!, #N/A<br>#REF!, #VALUE!"]
+    O --> O2["#NAME?, #NUM!<br>#NULL!, #####"]
+```

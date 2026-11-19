@@ -1,0 +1,151 @@
+Questions 51–70: Easy | Questions 71–75: Medium
+
+51. What is the default file extension for a workbook created in Microsoft Excel 2007 or later?
+(a) .xls (b) .xlsm (c) .xlsx (d) .csv
+Answer: (c)
+Solution: The .xls extension was used up to Excel 2003; .xlsm is for macro-enabled workbooks and .csv is a plain-text format, so the answer is .xlsx.
+Source: Microsoft Support – Excel file formats
+
+52. Which key combination enters the current date into a cell?
+(a) Ctrl + Shift + : (b) Ctrl + Shift + ; (c) Ctrl + : (d) Ctrl + ;
+Answer: (d)
+Solution: Ctrl + Shift + ; enters the current time, while Ctrl + : and Ctrl + Shift + : are not standard Excel shortcuts, so the answer is Ctrl + ;.
+Source: Microsoft Support – Keyboard shortcuts in Excel
+
+53. If cell A1 contains 10 and cell A2 contains 20, what does the formula =A1+A2*2 return?
+(a) 50 (b) 60 (c) 40 (d) 30
+Answer: (a)
+Solution: Multiplication has higher precedence than addition, so A2*2 is calculated first (40) then added to A1 (10), giving 50; a common trap is to add first and get 60, so the answer is 50.
+Source: NCERT Class 10 Computer Applications
+
+54. Which reference type changes when a formula is copied to another cell?
+(a) Absolute (b) Mixed (c) Fixed (d) Relative
+Answer: (d)
+Solution: Absolute ($A$1) and mixed ($A1 or A$1) references lock row or column; only relative references (A1) adjust both row and column when copied, so the answer is Relative.
+Source: Microsoft Learn – Cell references
+
+55. The AutoFill handle appears at which corner of the active cell?
+(a) Top-left (b) Bottom-right (c) Bottom-left (d) Top-right
+Answer: (b)
+Solution: The fill handle is the small square at the bottom-right corner of the selection; the other corners have no special drag function, so the answer is Bottom-right.
+Source: Microsoft Support – Fill data automatically
+
+56. Which chart type is most suitable for showing the proportion of parts to a whole?
+(a) Pie chart (b) Bar chart (c) Line chart (d) Scatter chart
+Answer: (a)
+Solution: Line and scatter charts show trends or correlations; bar charts compare magnitudes; only a pie chart displays each category's share of the total, so the answer is Pie chart.
+Source: NCERT Class 9 Information Technology
+
+57. What is the result of =IF(5>3,"Pass","Fail")?
+(a) Pass (b) Fail (c) TRUE (d) FALSE
+Answer: (a)
+Solution: The logical test 5>3 evaluates to TRUE, so the value_if_true argument "Pass" is returned; the trap is to think the function returns the Boolean TRUE, so the answer is Pass.
+Source: Microsoft Support – IF function
+
+58. In VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup]), what does range_lookup = FALSE specify?
+(a) Approximate match (b) Wildcard match (c) Exact match (d) Case-sensitive match
+Answer: (c)
+Solution: FALSE (or 0) forces an exact match; TRUE (or 1) allows approximate match; VLOOKUP is never case-sensitive and wildcards work only with text in approximate mode, so the answer is Exact match.
+Source: Microsoft Support – VLOOKUP function
+
+59. Conditional Formatting can be applied based on:
+(a) Cell value only (b) Formula only (c) Cell value or formula (d) Neither
+Answer: (c)
+Solution: The Conditional Formatting dialog offers both "Format cells that contain" (value-based) and "Use a formula to determine which cells to format" options, so the answer is Cell value or formula.
+Source: Microsoft Support – Conditional formatting
+
+60. Data Validation restricts the type of data that users can enter into a cell. Which tab contains this command?
+(a) Home (b) Data (c) Insert (d) Review
+Answer: (b)
+Solution: The Data tab holds Data Validation, Text to Columns, and other data-tools; Home has formatting, Insert has objects, Review has protection, so the answer is Data.
+Source: Microsoft Support – Apply data validation
+
+61. Which shortcut copies the selected cells?
+(a) Ctrl + C (b) Ctrl + X (c) Ctrl + V (d) Ctrl + Z
+Answer: (a)
+Solution: Ctrl + X cuts, Ctrl + V pastes, Ctrl + Z undoes; only Ctrl + C copies, so the answer is Ctrl + C.
+Source: Microsoft Support – Keyboard shortcuts in Excel
+
+62. A workbook contains three worksheets named Sheet1, Sheet2, Sheet3. What is the maximum number of worksheets allowed in a single workbook (limited by available memory)?
+(a) 255 (b) 1,024 (c) No fixed limit (d) 16,384
+Answer: (c)
+Solution: Older versions had a 255-sheet default but no hard cap; the only limit is system memory, so the answer is No fixed limit.
+Source: Microsoft Learn – Excel specifications and limits
+
+63. To keep row 1 visible while scrolling down, which command is used?
+(a) Freeze First Column (b) Lock Cell (c) Split (d) Freeze Top Row
+Answer: (d)
+Solution: Freeze Top Row locks row 1; Freeze First Column locks column A; Split creates panes but doesn't lock; Lock Cell prevents editing, not scrolling, so the answer is Freeze Top Row.
+Source: Microsoft Support – Freeze panes
+
+64. The Text to Columns wizard is typically used to:
+(a) Remove duplicates (b) Merge cells (c) Transpose data (d) Split a single column into multiple columns
+Answer: (d)
+Solution: Merge cells combines cells; Transpose swaps rows/columns; Remove Duplicates deletes rows; Text to Columns parses delimited or fixed-width text into separate columns, so the answer is Split a single column into multiple columns.
+Source: Microsoft Support – Split text into columns
+
+65. What is the difference between COUNT and COUNTA?
+(a) COUNT counts numbers; COUNTA counts non-blank cells (b) COUNT counts text; COUNTA counts numbers (c) Both count only numbers (d) Both count only text
+Answer: (a)
+Solution: COUNT ignores text and blanks; COUNTA counts everything except blanks; a common trap is to think COUNTA counts only text, so the answer is COUNT counts numbers; COUNTA counts non-blank cells.
+Source: Microsoft Support – COUNT and COUNTA functions
+
+66. =ROUND(3.14159, 2) returns:
+(a) 3 (b) 3.15 (c) 3.1 (d) 3.14
+Answer: (d)
+Solution: ROUND rounds to the specified number of digits; the third decimal is 1 (<5), so 3.14159 becomes 3.14; the trap is to round up because of the 5 in the fourth place, so the answer is 3.14.
+Source: Microsoft Support – ROUND function
+
+67. Which function joins text strings from multiple cells?
+(a) CONCAT (b) MERGE (c) JOIN (d) COMBINE
+Answer: (a)
+Solution: CONCAT (and the older CONCATENATE) joins text; JOIN, MERGE, COMBINE are not Excel functions, so the answer is CONCAT.
+Source: Microsoft Support – CONCAT function
+
+68. If cell A1 contains 15/08/2024, which formula returns the year 2024?
+(a) =YEAR(A1) (b) =DATE(A1) (c) =TEXT(A1,"yyyy") (d) Both (a) and (c)
+Answer: (d)
+Solution: YEAR extracts the year as a number; TEXT with "yyyy" returns it as text; both produce 2024, so the answer is Both (a) and (c).
+Source: Microsoft Support – YEAR and TEXT functions
+
+69. The Print Area command is found on which tab?
+(a) Page Layout (b) View (c) File (d) Home
+Answer: (a)
+Solution: Page Layout tab contains Print Area, Breaks, Background, etc.; View has Workbook Views, File has Print preview, Home has formatting, so the answer is Page Layout.
+Source: Microsoft Support – Set print area
+
+70. In modern Excel, a threaded discussion attached to a cell is called a:
+(a) Annotation (b) Comment (c) Note (d) Marker
+Answer: (b)
+Solution: The feature renamed from "Comment" to "Note" in 2019; the new collaborative feature is called "Comment"; Annotation and Marker are not used, so the answer is Comment.
+Source: Microsoft Support – Threaded comments
+
+71. What does =IF(A1>100,"High",IF(A1>50,"Medium","Low")) return when A1 = 75?
+(a) High (b) Medium (c) Low (d) Error
+Answer: (b)
+Solution: 75 is not >100, so the first IF goes to its value_if_false, which is another IF; 75 > 50 is TRUE, so "Medium" is returned; the trap is to stop at the first condition and answer Low, so the answer is Medium.
+Source: Microsoft Support – Nested IF functions
+
+72. Which combination of functions can look up a value in any column and return a value from any column to the right?
+(a) VLOOKUP (b) INDEX-MATCH (c) HLOOKUP (d) XLOOKUP
+Answer: (b)
+Solution: VLOOKUP only searches the first column; HLOOKUP works horizontally; XLOOKUP is a single function, not a combination; INDEX-MATCH is the classic two-function combination that can look up in any column and return from any column, so the answer is INDEX-MATCH.
+Source: Microsoft Support – INDEX and MATCH functions
+
+73. A PivotTable summarizes data by:
+(a) Creating charts (b) Filtering columns (c) Sorting rows (d) Aggregating values for grouped fields
+Answer: (d)
+Solution: PivotTables group row/column fields and aggregate (sum, count, average) the value field; sorting, filtering, and charting are separate features, so the answer is Aggregating values for grouped fields.
+Source: Microsoft Support – Create a PivotTable
+
+74. In legacy Excel (pre-dynamic arrays), pressing Ctrl+Shift+Enter after typing a formula creates:
+(a) A normal formula (b) An array formula (c) A data table (d) A named range
+Answer: (b)
+Solution: Ctrl+Shift+Enter enters an array formula (shown with curly braces); dynamic arrays in Excel 365 spill automatically without this shortcut, so the answer is An array formula.
+Source: Microsoft Support – Array formulas
+
+75. The error #REF! indicates:
+(a) Division by zero (b) Value not available (c) Invalid cell reference (d) Unrecognized text
+Answer: (c)
+Solution: #DIV/0! is division by zero; #N/A is value not available; #VALUE! is wrong data type; #REF! appears when a referenced cell is deleted, so the answer is Invalid cell reference.
+Source: Microsoft Support – Correct a #REF! error

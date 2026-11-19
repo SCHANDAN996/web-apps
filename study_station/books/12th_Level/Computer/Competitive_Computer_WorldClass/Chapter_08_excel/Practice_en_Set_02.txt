@@ -1,0 +1,149 @@
+26. What is the default file extension for an Excel workbook in modern versions (Excel 2007 and later)?
+(a) .xlsx (b) .xls (c) .xlsm (d) .csv
+Answer: (a)
+Solution: The .xls extension was used in Excel 97-2003; the tempting wrong option .xls is the legacy binary format. The .xlsm extension is for macro-enabled workbooks, and .csv is a plain text format. The default format since Excel 2007 is the XML-based .xlsx, so the answer is .xlsx.
+Source: Microsoft Support - Excel file formats
+
+27. Which key combination enters the current date in a cell?
+(a) Ctrl + ; (b) Ctrl + Shift + ; (c) Ctrl + : (d) Ctrl + Shift + :
+Answer: (a)
+Solution: Ctrl + Shift + ; enters the current time, not the date, making it a common trap. Ctrl + : and Ctrl + Shift + : are not standard Excel shortcuts for date or time entry. The shortcut for current date is Ctrl + semicolon, so the answer is Ctrl + ;.
+Source: Microsoft Support - Keyboard shortcuts in Excel
+
+28. What does the formula =A1+B1 return if A1 contains 10 and B1 contains the text "20"?
+(a) 30 (b) "1020" (c) #VALUE! (d) 10
+Answer: (a)
+Solution: A tempting trap is to think text cannot be added, leading to #VALUE!, but Excel automatically converts numeric text to numbers in arithmetic operations. The text "20" becomes the number 20, so 10 + 20 = 30. Concatenation would require the & operator. The result is 30, so the answer is 30.
+Source: Microsoft Support - Calculation operators and precedence
+
+29. Which function returns the number of cells in a range that contain numbers?
+(a) COUNTIF (b) COUNTA (c) COUNTBLANK (d) COUNT
+Answer: (d)
+Solution: COUNTA counts non-empty cells including text, COUNTBLANK counts empty cells, and COUNTIF counts cells meeting a criterion. The trap is confusing COUNT with COUNTA when the range has mixed data. COUNT specifically counts only numeric values, so the answer is COUNT.
+Source: Microsoft Support - COUNT function
+
+30. What is the maximum number of rows in a worksheet in Excel 2007 and later versions?
+(a) 65,536 (b) 1,000,000 (c) 2,097,152 (d) 1,048,576
+Answer: (d)
+Solution: 65,536 was the limit in Excel 2003 and earlier, a common trap for those familiar with older versions. The limit increased to 1,048,576 rows (2^20) starting with Excel 2007. The column limit is 16,384 (XFD). The correct maximum is 1,048,576, so the answer is 1,048,576.
+Source: Microsoft Support - Excel specifications and limits
+
+31. Which reference type changes when a formula is copied to another cell?
+(a) Absolute (b) Fixed (c) Mixed (d) Relative
+Answer: (d)
+Solution: Absolute references ($A$1) do not change when copied, and mixed references change only partially. The trap is selecting absolute because it sounds like the "standard" reference. Relative references (A1) adjust based on the relative position of the copied formula, so the answer is Relative.
+Source: Microsoft Support - Relative and absolute cell references
+
+32. What does the VLOOKUP function search for by default?
+(a) Exact match (b) First match (c) Approximate match (d) Last match
+Answer: (c)
+Solution: Many users assume VLOOKUP finds exact matches by default, but the fourth argument (range_lookup) defaults to TRUE for approximate match. For exact match, FALSE or 0 must be specified. The trap is forgetting this default behavior. The default search type is approximate match, so the answer is Approximate match.
+Source: Microsoft Support - VLOOKUP function
+
+33. Which chart type is most suitable for showing trends over time?
+(a) Pie chart (b) Bar chart (c) Scatter chart (d) Line chart
+Answer: (d)
+Solution: Pie charts show parts of a whole, bar charts compare categories, and scatter charts show relationships between two variables. The trap is choosing bar chart for time series, but line charts connect data points to emphasize continuity and trend. The best choice for trends over time is line chart, so the answer is Line chart.
+Source: Microsoft Support - Available chart types
+
+34. What is the result of the formula =IF(5>3, "Yes", "No")?
+(a) TRUE (b) No (c) Yes (d) FALSE
+Answer: (c)
+Solution: The condition 5>3 evaluates to TRUE, so the value_if_true argument "Yes" is returned. A trap is thinking the logical value TRUE is returned instead of the specified text. The function returns the second argument when the condition is true, so the answer is Yes.
+Source: Microsoft Support - IF function
+
+35. Which feature allows you to restrict the type of data entered in a cell?
+(a) Conditional Formatting (b) Data Validation (c) Data Filter (d) Data Sort
+Answer: (b)
+Solution: Conditional Formatting changes cell appearance based on values, while Filter and Sort organize existing data. The trap is confusing validation with formatting. Data Validation sets rules for what data can be entered, so the answer is Data Validation.
+Source: Microsoft Support - Apply data validation to cells
+
+36. What does the $ sign do in a cell reference like $A$1?
+(a) Formats as currency (b) Makes the reference absolute (c) Indicates a formula (d) Locks the worksheet
+Answer: (b)
+Solution: The $ sign before column and row makes both absolute, preventing change when copied. A trap is thinking it formats the cell as currency, but that is a number format, not a reference operator. The $ creates an absolute reference, so the answer is Makes the reference absolute.
+Source: Microsoft Support - Switch between relative, absolute, and mixed references
+
+37. Which function calculates the arithmetic mean of a range?
+(a) AVERAGE (b) MEDIAN (c) MODE (d) MEAN
+Answer: (a)
+Solution: MEDIAN returns the middle value, MODE returns the most frequent value, and MEAN is not an Excel function name. The trap is selecting MEDIAN when thinking of "average" in the statistical sense. The function for arithmetic mean is AVERAGE, so the answer is AVERAGE.
+Source: Microsoft Support - AVERAGE function
+
+38. What happens when you press Ctrl + Enter after typing data in multiple selected cells?
+(a) Enters data only in the active cell (b) Moves to the next cell (c) Fills all selected cells with the same data (d) Opens the Format Cells dialog
+Answer: (c)
+Solution: Enter alone confirms entry in the active cell only. The trap is thinking Ctrl+Enter behaves like Enter. With a multi-cell selection, Ctrl+Enter enters the typed value into every selected cell simultaneously, so the answer is Fills all selected cells with the same data.
+Source: Microsoft Support - Keyboard shortcuts in Excel
+
+39. Which error value appears when a formula divides by zero?
+(a) #N/A (b) #DIV/0! (c) #VALUE! (d) #REF!
+Answer: (b)
+Solution: #N/A means value not available, #VALUE! means wrong data type, and #REF! means invalid cell reference. The trap is confusing #VALUE! with division errors. Division by zero specifically produces #DIV/0!, so the answer is #DIV/0!.
+Source: Microsoft Support - Correct a #DIV/0! error
+
+40. What is the keyboard shortcut to open the Format Cells dialog box?
+(a) Ctrl + F (b) Ctrl + Shift + 1 (c) Ctrl + 1 (d) Alt + 1
+Answer: (c)
+Solution: Ctrl+F opens Find and Replace, Ctrl+Shift+1 applies Number format with two decimals, and Alt+1 has no standard function. The trap is confusing format shortcuts. Ctrl+1 is the universal shortcut for Format Cells, so the answer is Ctrl + 1.
+Source: Microsoft Support - Keyboard shortcuts in Excel
+
+41. Which function returns the largest value in a range?
+(a) LARGE (b) MAX (c) MAXIMUM (d) TOP
+Answer: (b)
+Solution: LARGE returns the k-th largest value and requires a second argument, MAXIMUM and TOP are not Excel functions. The trap is choosing LARGE when only the single maximum is needed. The function for the maximum value is MAX, so the answer is MAX.
+Source: Microsoft Support - MAX function
+
+42. What does the CONCAT function do? (Available in Excel 2016 and later)
+(a) Adds numbers (b) Joins text strings (c) Compares values (d) Counts characters
+Answer: (b)
+Solution: CONCAT replaces the older CONCATENATE function for joining text. A trap is thinking it performs arithmetic addition because of the similar-sounding name "concat" vs "add". It combines text from multiple ranges or strings, so the answer is Joins text strings.
+Source: Microsoft Support - CONCAT function
+
+43. Which feature creates a summary table from large data by grouping and aggregating?
+(a) Subtotal (b) Data Table (c) Scenario Manager (d) PivotTable
+Answer: (d)
+Solution: Data Table is for what-if analysis, Scenario Manager stores different input sets, and Subtotal adds summary rows in a sorted list. The trap is confusing PivotTable with Subtotal because both summarize. PivotTable provides interactive cross-tabulation and aggregation, so the answer is PivotTable.
+Source: Microsoft Support - Create a PivotTable to analyze worksheet data
+
+44. What is the result of =ROUND(3.14159, 2)?
+(a) 3.14 (b) 3.15 (c) 3.1 (d) 3
+Answer: (a)
+Solution: ROUND follows standard rounding rules: the third decimal is 1 (<5), so the second decimal stays 4. A trap is thinking it always rounds up or truncates. The function rounds to the specified number of digits, giving 3.14, so the answer is 3.14.
+Source: Microsoft Support - ROUND function
+
+45. Which shortcut key inserts a new worksheet?
+(a) Alt + F11 (b) Ctrl + N (c) Shift + F11 (d) Ctrl + Shift + N
+Answer: (c)
+Solution: Ctrl+N creates a new workbook, Alt+F11 opens the VBA editor, and Ctrl+Shift+N has no standard worksheet function. The trap is pressing F11 alone, which creates a chart sheet. Shift+F11 inserts a new worksheet, so the answer is Shift + F11.
+Source: Microsoft Support - Keyboard shortcuts in Excel
+
+46. In a PivotTable, which area determines the unique values that become column headers?
+(a) Filters (b) Rows (c) Columns (d) Values
+Answer: (c)
+Solution: Rows area creates row labels, Values area holds summary calculations, and Filters area filters the entire table. The trap is putting the field in Rows when column headers are needed. Fields in the Columns area become column headers, so the answer is Columns.
+Source: Microsoft Support - PivotTable fields
+
+47. What does the function =TODAY() return?
+(a) Current date only (b) Current date and time (c) Current time only (d) System date as text
+Answer: (a)
+Solution: NOW() returns both date and time. The trap is assuming TODAY includes time because many systems store datetime together. TODAY returns the serial number for the current date with time component zero, so the answer is Current date only.
+Source: Microsoft Support - TODAY function
+
+48. Which error occurs when a formula refers to a cell that has been deleted?
+(a) #REF! (b) #DIV/0! (c) #N/A (d) #NAME?
+Answer: (a)
+Solution: #N/A is for lookup failures, #DIV/0! for division by zero, #NAME? for unrecognized text. The trap is confusing #REF! with #NAME! when a named range is deleted. Deleting a referenced cell creates a #REF! error, so the answer is #REF!.
+Source: Microsoft Support - Correct a #REF! error
+
+49. What is the purpose of the Freeze Panes feature?
+(a) Locks cells from editing (b) Keeps rows/columns visible while scrolling (c) Protects the workbook structure (d) Hides selected rows
+Answer: (b)
+Solution: Locking cells uses Protect Sheet, protecting structure uses Protect Workbook, and hiding rows uses Hide. The trap is thinking Freeze Panes restricts editing. It only affects the view, keeping header rows or columns in sight, so the answer is Keeps rows/columns visible while scrolling.
+Source: Microsoft Support - Freeze panes to lock rows and columns
+
+50. Which function finds a value in the first column of a table and returns a value in the same row from a specified column?
+(a) HLOOKUP (b) LOOKUP (c) XLOOKUP (d) VLOOKUP
+Answer: (d)
+Solution: HLOOKUP searches the first row, XLOOKUP is a modern flexible replacement (Excel 365/2021), and LOOKUP is the legacy vector/array form. The trap is choosing XLOOKUP as the "correct" modern answer, but VLOOKUP is the classic function described. The function matching the description is VLOOKUP, so the answer is VLOOKUP.
+Source: Microsoft Support - VLOOKUP function

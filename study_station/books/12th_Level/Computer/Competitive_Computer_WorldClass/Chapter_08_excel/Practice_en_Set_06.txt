@@ -1,0 +1,151 @@
+Questions 126-145: Easy | Questions 146-150: Medium
+
+126. What is the default file extension for an Excel workbook in versions 2007 and later?
+(a) .xls (b) .xlsx (c) .xlsm (d) .xlsb
+Answer: (b)
+Solution: The legacy .xls format was used up to Excel 2003, while .xlsm is for macro-enabled workbooks and .xlsb is binary; the standard default for modern Excel is the XML-based .xlsx format. Therefore, the correct answer is .xlsx.
+Source: Microsoft Support
+
+127. Which keyboard shortcut opens the Format Cells dialog box in Excel for Windows?
+(a) F1 (b) Ctrl+Shift+1 (c) Alt+1 (d) Ctrl+1
+Answer: (d)
+Solution: Ctrl+Shift+1 applies the Number format with two decimals, Alt+1 has no default assignment, and F1 opens Help; the universal shortcut for Format Cells is Ctrl+1. So the correct choice is Ctrl+1.
+Source: Microsoft Support
+
+128. In a formula, what does the $ symbol before a column letter and row number (e.g., $A$1) indicate?
+(a) Mixed reference (b) Absolute reference (c) Relative reference (d) Circular reference
+Answer: (b)
+Solution: A mixed reference locks only the row or only the column (e.g., A$1 or $A1), while a relative reference has no $ signs; $A$1 locks both, making it an absolute reference. Thus, the answer is Absolute reference.
+Source: Microsoft Learn
+
+129. Which function returns the number of cells in a range that contain numbers?
+(a) COUNTBLANK (b) COUNTA (c) COUNT (d) COUNTIF
+Answer: (c)
+Solution: COUNTA counts non-empty cells including text, COUNTBLANK counts empty cells, and COUNTIF counts based on a condition; only COUNT specifically counts cells with numeric values. Hence, the correct function is COUNT.
+Source: Microsoft Support
+
+130. What is the maximum number of rows in a worksheet in Excel 2007 and later versions?
+(a) 1,048,576 (b) 65,536 (c) 2,097,152 (d) Unlimited
+Answer: (a)
+Solution: 65,536 was the limit in Excel 2003 and earlier (.xls); the modern .xlsx grid expanded to 1,048,576 rows (2^20) and 16,384 columns (XFD). Therefore, the maximum is 1,048,576.
+Source: Microsoft Learn
+
+131. Which shortcut key combination inserts a new worksheet in the current workbook?
+(a) Shift+F11 (b) Ctrl+N (c) Alt+Shift+F1 (d) Ctrl+Shift+N
+Answer: (a)
+Solution: Ctrl+N creates a new workbook, Alt+Shift+F1 inserts a chart sheet, and Ctrl+Shift+N has no default worksheet function; Shift+F11 is the standard shortcut for a new worksheet. So the correct shortcut is Shift+F11.
+Source: Microsoft Support
+
+132. The VLOOKUP function searches for a value in which column of the table_array?
+(a) Column to the left of the lookup value (b) Last column (c) First column (d) Any column specified by col_index_num
+Answer: (c)
+Solution: A common trap is thinking VLOOKUP can search any column; it always searches the first (leftmost) column of the table_array and returns a value from a column to its right. Thus, the answer is First column.
+Source: Microsoft Learn
+
+133. Which of the following is NOT a valid chart type in Excel?
+(a) Gantt (b) Pie (c) Radar (d) Surface
+Answer: (a)
+Solution: Gantt charts are project-management visualizations typically built using stacked bar charts; Excel does not have a native "Gantt" chart type, whereas Pie, Radar, and Surface are built-in. Therefore, Gantt is not a valid chart type.
+Source: Microsoft Support
+
+134. What does the IFERROR function do?
+(a) Returns a custom value if a formula evaluates to an error (b) Checks if a cell contains an error type (c) Generates an error for testing (d) Ignores all errors in a range
+Answer: (a)
+Solution: ISERROR only tests and returns TRUE/FALSE, ERROR.TYPE returns a number for the error type, and there is no function to ignore errors in a range; IFERROR(value, value_if_error) returns the second argument when the first produces an error. So the correct description is Returns a custom value if a formula evaluates to an error.
+Source: Microsoft Learn
+
+135. Which feature allows you to restrict the type of data or values that users can enter into a cell?
+(a) Data Validation (b) Conditional Formatting (c) Data Filter (d) Data Sort
+Answer: (a)
+Solution: Conditional Formatting only changes appearance based on rules, Filter and Sort only rearrange or hide rows; Data Validation enforces entry rules (e.g., whole number between 1–100, list, date range). Hence, the feature is Data Validation.
+Source: Microsoft Support
+
+136. The keyboard shortcut Ctrl+; (semicolon) enters what in the active cell?
+(a) Current time (b) A semicolon character (c) Current date (d) Current date and time
+Answer: (c)
+Solution: Ctrl+Shift+; enters the current time, Ctrl+; enters the current date as a static value, and Ctrl+Shift+: is not a default shortcut; the semicolon alone is not inserted. Therefore, the shortcut enters Current date.
+Source: Microsoft Support
+
+137. Which function calculates the arithmetic mean of a range of numbers?
+(a) MEAN (b) MEDIAN (c) MODE (d) AVERAGE
+Answer: (d)
+Solution: MEDIAN returns the middle value, MODE returns the most frequent value, and there is no MEAN function in Excel; AVERAGE computes the arithmetic mean. Thus, the correct function is AVERAGE.
+Source: Microsoft Learn
+
+138. What is the result of the formula =2+3*4 in Excel?
+(a) 24 (b) 20 (c) 11 (d) 14
+Answer: (d)
+Solution: Following operator precedence, multiplication is performed before addition: 3*4 = 12, then 2+12 = 14; 20 would result from left-to-right evaluation without precedence. So the answer is 14.
+Source: Microsoft Support
+
+139. Which tab on the Ribbon contains the PivotTable command?
+(a) Review (b) Data (c) Formulas (d) Insert
+Answer: (d)
+Solution: The Data tab has Get & Transform and Data Tools, Formulas has function library, Review has comments and protection; PivotTable is on the Insert tab alongside Tables, Charts, and Sparklines. Therefore, the tab is Insert.
+Source: Microsoft Learn
+
+140. What does the CONCAT function (introduced in Excel 2019/Office 365) replace?
+(a) REPLACE (b) TEXTJOIN (c) CONCATENATE (d) LEFT
+Answer: (c)
+Solution: TEXTJOIN adds a delimiter and ignores empty cells, LEFT extracts characters, REPLACE substitutes text; CONCAT is the modern replacement for CONCATENATE with simpler syntax and range support. Hence, it replaces CONCATENATE.
+Source: Microsoft Support
+
+141. Which shortcut selects the entire worksheet?
+(a) Ctrl+Space (b) Ctrl+Shift+Space (c) Shift+Space (d) Ctrl+A
+Answer: (d)
+Solution: Ctrl+Space selects the entire column, Shift+Space selects the entire row, Ctrl+Shift+Space selects the current region; pressing Ctrl+A once selects the current region, pressing it twice selects the entire worksheet. So the shortcut is Ctrl+A.
+Source: Microsoft Support
+
+142. In Excel, a circular reference occurs when:
+(a) Two cells refer to each other (b) A formula refers to its own cell directly or indirectly (c) A formula refers to a deleted cell (d) A formula contains a syntax error
+Answer: (b)
+Solution: Two cells referring to each other is a specific case of circular reference, a deleted cell shows #REF!, and a syntax error prevents entry; the general definition is a formula that depends on its own result. Thus, a circular reference occurs when a formula refers to its own cell directly or indirectly.
+Source: Microsoft Learn
+
+143. Which function returns the largest value in a set of values, ignoring logical values and text?
+(a) MAX (b) MAXA (c) LARGE (d) MAXIFS
+Answer: (a)
+Solution: MAXA includes logical values (TRUE=1, FALSE=0) and text (as 0), LARGE returns the k-th largest, MAXIFS returns max with conditions; MAX ignores non-numeric data. Therefore, the function is MAX.
+Source: Microsoft Support
+
+144. What is the purpose of the Freeze Panes feature?
+(a) To keep specific rows/columns visible while scrolling (b) To lock cells from editing (c) To hide rows/columns (d) To split the window into separate panes
+Answer: (a)
+Solution: Locking cells uses Protect Sheet, hiding uses Hide command, Split creates independent scrollable panes; Freeze Panes keeps header rows/columns in view during scroll. So the purpose is To keep specific rows/columns visible while scrolling.
+Source: Microsoft Learn
+
+145. Which of the following is a valid wildcard character for use in criteria with COUNTIF?
+(a) @ (at) (b) % (percent) (c) * (asterisk) (d) # (hash)
+Answer: (c)
+Solution: * matches any sequence of characters, ? matches any single character, ~ escapes wildcards; %, #, @ are not wildcards in Excel criteria. Hence, the valid wildcard is * (asterisk).
+Source: Microsoft Support
+
+146. A formula in cell D10 is =B$5+$C5. If this formula is copied to cell E12, what will the formula become?
+(a) =C$5+$D5 (b) =C$5+$D7 (c) =C$5+$C7 (d) =B$5+$C7
+Answer: (c)
+Solution: B$5 has a relative column (B→C) and absolute row (5 stays 5); $C5 has an absolute column (C stays C) and relative row (5→7 because copied down 2 rows). The trap is thinking the $C5 column changes or the row stays 5. Therefore, the formula becomes =C$5+$C7.
+Source: PYQ-style
+
+147. Which function would you use to find the second-largest value in the range A1:A10?
+(a) SECOND(A1:A10) (b) LARGE(A1:A10, 2) (c) RANK(A1:A10, 2) (d) MAX(A1:A10, 2)
+Answer: (b)
+Solution: MAX does not take a k argument, RANK returns the rank of a number, SECOND is not an Excel function; LARGE(array, k) returns the k-th largest value. Thus, the correct function is LARGE(A1:A10, 2).
+Source: Microsoft Learn
+
+148. When using Data Validation to create a drop-down list from a named range "DeptList", what should you enter in the Source box?
+(a) DeptList (b) =DeptList (c) "DeptList" (d) INDIRECT("DeptList")
+Answer: (b)
+Solution: The Source box requires a formula or reference; typing the name alone treats it as text, quotes make it a text string, INDIRECT works but is unnecessary; =DeptList is the correct reference syntax. So the entry is =DeptList.
+Source: Microsoft Support
+
+149. What does the formula =SUMPRODUCT((A1:A5>10)*(B1:B5)) calculate?
+(a) Product of sums of A1:A5 and B1:B5 (b) Sum of B1:B5 where corresponding A1:A5 > 10 (c) Count of cells in A1:A5 > 10 multiplied by sum of B1:B5 (d) Sum of products of A1:A5 and B1:B5 for all rows
+Answer: (b)
+Solution: The Boolean array (A1:A5>10) acts as a 1/0 filter; multiplying by B1:B5 zeros out rows where the condition is false, then SUMPRODUCT sums the result. The trap is thinking it multiplies sums or counts. Therefore, it calculates Sum of B1:B5 where corresponding A1:A5 > 10.
+Source: PYQ-style
+
+150. In a PivotTable, which area determines the unique values that appear as column headers?
+(a) Filters (b) Rows (c) Values (d) Columns
+Answer: (d)
+Solution: Rows area determines row labels, Values area determines summary calculations, Filters area filters the whole report; the Columns area fields become the column headers across the top. Hence, the area is Columns.
+Source: Microsoft Learn

@@ -1,0 +1,151 @@
+Questions 1–20: Easy | Questions 21–25: Medium
+
+1. What is the intersection of a row and a column called in Excel?
+(a) Range (b) Cell (c) Sheet (d) Workbook
+Answer: (b)
+Solution: Beginners often confuse the container (Workbook) or the grid line (Row/Column) with the single unit where data is entered; the intersection is specifically named a Cell, so the answer is Cell.
+Source: Microsoft Support - Excel basics
+
+2. Which symbol must every Excel formula begin with?
+(a) @ (b) = (c) # (d) +
+Answer: (b)
+Solution: The plus sign works for arithmetic but only the equal sign tells Excel to evaluate a formula; missing it leaves the entry as text, so the answer is =.
+Source: Microsoft Learn - Create a formula
+
+3. What is the default file extension for an Excel workbook in versions 2007 and later?
+(a) .xlsx (b) .xls (c) .xlsm (d) .csv
+Answer: (a)
+Solution: The older .xls format is limited to 65,536 rows; .xlsx is the standard XML-based default unless macros are used, so the answer is .xlsx.
+Source: Microsoft Support - File formats
+
+4. Which keyboard shortcut opens the Format Cells dialog box in Excel for Windows?
+(a) Alt+1 (b) Ctrl+Shift+1 (c) Ctrl+1 (d) F1
+Answer: (c)
+Solution: Ctrl+Shift+1 applies the Number format directly, while Ctrl+1 opens the full dialog with all tabs; F1 opens Help, so the answer is Ctrl+1.
+Source: Microsoft Support - Keyboard shortcuts in Excel
+
+5. What does the function =COUNTA(A1:A10) count?
+(a) Only text (b) Non-empty cells (c) Only numbers (d) Blank cells
+Answer: (b)
+Solution: COUNT counts only numbers; COUNTA counts any cell that is not empty including text, errors, and logical values, so the answer is Non-empty cells.
+Source: Microsoft Learn - COUNTA function
+
+6. Which feature automatically fills a series such as months or weekdays when you drag the fill handle?
+(a) AutoComplete (b) AutoFill (c) Flash Fill (d) AutoCorrect
+Answer: (b)
+Solution: Flash Fill detects patterns in adjacent columns; AutoFill extends a recognized series from the initial selection, so the answer is AutoFill.
+Source: Microsoft Support - Fill data automatically
+
+7. What is the maximum number of rows in a modern Excel worksheet (2007 onward)?
+(a) 65,536 (b) 1,048,576 (c) 1,000,000 (d) Unlimited
+Answer: (b)
+Solution: The old limit 65,536 applies to .xls; the current grid is 1,048,576 rows by 16,384 columns, so the answer is 1,048,576.
+Source: Microsoft Learn - Excel specifications
+
+8. Which function returns the largest value in a range?
+(a) TOP (b) MIN (c) LARGE (d) MAX
+Answer: (d)
+Solution: LARGE requires a k-th argument; MAX directly returns the highest value without extra parameters, so the answer is MAX.
+Source: Microsoft Learn - MAX function
+
+9. What does the $ sign do in a cell reference like $A$1?
+(a) Locks both row and column (b) Indicates a named range (c) Refers to the previous sheet (d) Formats as currency
+Answer: (a)
+Solution: A single $ before the letter or number locks only that part; two $ signs make the reference absolute for both row and column when copied, so the answer is Locks both row and column.
+Source: Microsoft Support - Absolute references
+
+10. Which tab on the Ribbon contains the PivotTable command?
+(a) Data (b) Home (c) Insert (d) Formulas
+Answer: (c)
+Solution: The Data tab has Get & Transform tools, but the PivotTable button itself lives on the Insert tab, so the answer is Insert.
+Source: Microsoft Learn - Create a PivotTable
+
+11. What is the result of =IF(5>3,"Pass","Fail")?
+(a) FALSE (b) Fail (c) TRUE (d) Pass
+Answer: (d)
+Solution: The logical test 5>3 evaluates to TRUE, so the value_if_true argument "Pass" is returned; the function does not return the Boolean word TRUE, so the answer is Pass.
+Source: Microsoft Learn - IF function
+
+12. Which shortcut inserts the current date in a cell (Windows Excel)?
+(a) Ctrl+Shift+; (b) Ctrl+: (c) Ctrl+; (d) Ctrl+Shift+:
+Answer: (c)
+Solution: Ctrl+Shift+; inserts the current time; Ctrl+; inserts the current date, so the answer is Ctrl+;.
+Source: Microsoft Support - Keyboard shortcuts
+
+13. What does the VLOOKUP function search for by default?
+(a) Approximate match (b) Last column only (c) First column only (d) Exact match
+Answer: (a)
+Solution: The fourth argument range_lookup defaults to TRUE (approximate match); omitting it often causes unexpected results, so the answer is Approximate match.
+Source: Microsoft Learn - VLOOKUP function
+
+14. Which chart type is most suitable for showing trends over time?
+(a) Pie chart (b) Bar chart (c) Line chart (d) Scatter plot
+Answer: (c)
+Solution: Pie charts show parts of a whole; line charts connect data points sequentially, making trends over periods easy to read, so the answer is Line chart.
+Source: Microsoft Support - Available chart types
+
+15. What does the function =LEN("Excel") return?
+(a) 4 (b) Error (c) 6 (d) 5
+Answer: (d)
+Solution: LEN counts characters including spaces; "Excel" has five letters, so the answer is 5.
+Source: Microsoft Learn - LEN function
+
+16. Which feature restricts the type of data users can enter in a cell?
+(a) Data Validation (b) Conditional Formatting (c) Data Filter (d) Data Sort
+Answer: (a)
+Solution: Conditional Formatting only changes appearance; Data Validation sets rules like whole numbers, lists, or date ranges, so the answer is Data Validation.
+Source: Microsoft Support - Apply data validation
+
+17. What is the keyboard shortcut to apply the Filter arrows to a header row (Windows Excel)?
+(a) Ctrl+Shift+L (b) Ctrl+L (c) Alt+D+F+F (d) Ctrl+Shift+F
+Answer: (a)
+Solution: Ctrl+L creates a Table; the legacy Alt sequence works but the direct shortcut is Ctrl+Shift+L, so the answer is Ctrl+Shift+L.
+Source: Microsoft Support - Keyboard shortcuts
+
+18. Which function combines text from multiple cells into one cell?
+(a) JOIN (b) MERGE (c) COMBINE (d) CONCAT
+Answer: (d)
+Solution: CONCAT (and the older CONCATENATE) joins text; MERGE is a cell alignment command, not a function, so the answer is CONCAT.
+Source: Microsoft Learn - CONCAT function
+
+19. What does the error #REF! indicate?
+(a) Value not available (b) Division by zero (c) Invalid cell reference (d) Formula too long
+Answer: (c)
+Solution: #DIV/0! is division by zero; #REF! appears when a referenced cell is deleted or moved, breaking the address, so the answer is Invalid cell reference.
+Source: Microsoft Support - Correct a #REF! error
+
+20. Which view shows page breaks and margins for printing?
+(a) Page Layout (b) Page Break Preview (c) Normal (d) Custom Views
+Answer: (a)
+Solution: Page Break Preview focuses only on break lines; Page Layout view displays the sheet as it will print with margins, headers, and footers visible, so the answer is Page Layout.
+Source: Microsoft Support - Workbook views
+
+21. In a PivotTable, which area determines the unique rows displayed?
+(a) Filters (b) Columns (c) Rows (d) Values
+Answer: (c)
+Solution: The Columns area creates horizontal groupings; the Rows area lists each distinct item vertically, so the answer is Rows.
+Source: Microsoft Learn - PivotTable fields
+
+22. What does the function =INDEX(A1:C3,2,3) return?
+(a) Value in A2 (b) Value in C2 (c) Value in B3 (d) Value in C3
+Answer: (b)
+Solution: The arguments are row_num then column_num; row 2 column 3 of the range A1:C3 is cell C2, so the answer is Value in C2.
+Source: Microsoft Learn - INDEX function
+
+23. Which shortcut opens the Name Manager dialog box (Windows Excel)?
+(a) Alt+F3 (b) Ctrl+Shift+F3 (c) F3 (d) Ctrl+F3
+Answer: (d)
+Solution: F3 pastes a name into a formula; Ctrl+Shift+F3 creates names from selection; Ctrl+F3 manages existing names, so the answer is Ctrl+F3.
+Source: Microsoft Support - Keyboard shortcuts
+
+24. What is the purpose of the TRIM function?
+(a) Remove extra spaces (b) Delete empty rows (c) Cut text length (d) Round numbers
+Answer: (a)
+Solution: TRIM leaves single spaces between words but removes leading, trailing, and multiple internal spaces; it does not affect numbers or row structure, so the answer is Remove extra spaces.
+Source: Microsoft Learn - TRIM function
+
+25. Which statement about Excel Tables (Ctrl+T) is correct?
+(a) They can have duplicate headers (b) Structured references use cell addresses like A1 (c) They disable filtering by default (d) They automatically expand when new data is added below
+Answer: (d)
+Solution: Tables require unique headers, so duplicate headers are not allowed; structured references use column names, not A1 addresses; filtering is enabled by default; the key behavior is automatic expansion to include adjacent new rows, so the answer is They automatically expand when new data is added below.
+Source: Microsoft Support - Overview of Excel tables

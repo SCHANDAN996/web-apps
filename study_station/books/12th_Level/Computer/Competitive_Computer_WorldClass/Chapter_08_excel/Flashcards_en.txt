@@ -1,0 +1,71 @@
+Card 1
+Front: What is the file extension for a modern Excel workbook (Excel 2007 and later)?
+Back: .xlsx (XML-based, macro-free). Macro-enabled workbooks use .xlsm; binary format uses .xlsb.
+
+Card 2
+Front: Maximum number of rows and columns in an Excel worksheet (Excel 2007+).
+Back: 1,048,576 rows (1 to 1048576) and 16,384 columns (A to XFD).
+
+Card 3
+Front: Difference between a relative, absolute, and mixed cell reference.
+Back: Relative (A1) changes when copied; Absolute ($A$1) stays fixed; Mixed ($A1 or A$1) fixes either row or column only.
+
+Card 4
+Front: Shortcut to toggle absolute/relative references while editing a formula (Windows Excel).
+Back: F4 cycles through A1 → $A$1 → A$1 → $A1 → A1. (Mac: ⌘+T)
+
+Card 5
+Front: What does the VLOOKUP function do and what is its syntax?
+Back: Searches for a value in the first column of a range and returns a value in the same row from a specified column. Syntax: VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup]).
+
+Card 6
+Front: In VLOOKUP, what does the fourth argument (range_lookup) control?
+Back: TRUE (or omitted) = approximate match (data must be sorted ascending); FALSE = exact match. For exact matches, always use FALSE.
+
+Card 7
+Front: How does INDEX-MATCH differ from VLOOKUP?
+Back: INDEX-MATCH can look left, doesn't break when columns are inserted, and handles large datasets faster. Syntax: INDEX(return_range, MATCH(lookup_value, lookup_range, 0)).
+
+Card 8
+Front: Purpose of the IF function and its syntax.
+Back: Returns one value if a condition is TRUE, another if FALSE. Syntax: IF(logical_test, value_if_true, value_if_false). Can be nested for multiple conditions.
+
+Card 9
+Front: What is a PivotTable and what are its four main areas?
+Back: A dynamic summary tool. Four areas: Filters, Columns, Rows, Values. Drag fields to arrange summarisation (Sum, Count, Average, etc.).
+
+Card 10
+Front: Shortcut to create a PivotTable from selected data (Windows Excel).
+Back: Alt → N → V (then Enter). Or: Insert tab → PivotTable.
+
+Card 11
+Front: What is Conditional Formatting and name two common rule types.
+Back: Automatically formats cells meeting criteria. Common rules: Highlight Cells Rules (Greater Than, Between, Duplicate Values) and Top/Bottom Rules (Top 10%, Above Average).
+
+Card 12
+Front: Difference between COUNT, COUNTA, COUNTBLANK, and COUNTIF.
+Back: COUNT = numbers only; COUNTA = non-empty (text, numbers, errors); COUNTBLANK = empty cells; COUNTIF = cells meeting a single criterion.
+
+Card 13
+Front: What does the CONCAT (or TEXTJOIN) function do? How does it differ from CONCATENATE?
+Back: Joins text from multiple ranges/strings. CONCAT replaces CONCATENATE; TEXTJOIN adds a delimiter and can ignore empty cells. Syntax: TEXTJOIN(delimiter, ignore_empty, text1, …).
+
+Card 14
+Front: Shortcut to insert current date and current time in a cell (Windows Excel).
+Back: Current date: Ctrl + ; (semicolon). Current time: Ctrl + Shift + ;. Both: Ctrl + ; then Space then Ctrl + Shift + ;.
+
+Card 15
+Front: What is Data Validation and give two examples of its use.
+Back: Restricts the type of data users can enter. Examples: Whole number between 1–100; List (dropdown) from a named range; Date after today; Custom formula.
+
+Card 16
+Front: Purpose of the IFERROR (or IFNA) function.
+Back: Returns a custom value if a formula evaluates to an error (#N/A, #DIV/0!, #VALUE!, etc.). Syntax: IFERROR(value, value_if_error). IFNA catches only #N/A.
+
+Card 17
+Front: What is a Named Range and how do you create one quickly?
+Back: A descriptive name for a cell or range (e.g., "TaxRate" instead of $B$1). Quick create: Select range → type name in Name Box (left of formula bar) → Enter. Manage via Formulas → Name Manager.
+
+Card 18
+Front: Shortcut to open the Format Cells dialog and to apply/remove filters (Windows Excel).
+Back: Format Cells: Ctrl + 1. Toggle Filters: Ctrl + Shift + L. Clear Filter from column: Alt + ↓ then C.

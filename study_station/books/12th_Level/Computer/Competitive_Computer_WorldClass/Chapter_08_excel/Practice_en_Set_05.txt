@@ -1,0 +1,149 @@
+101. Which keyboard shortcut opens the Format Cells dialog box in Microsoft Excel for Windows?
+(a) Ctrl + F1 (b) Ctrl + Shift + 1 (c) Alt + 1 (d) Ctrl + 1
+Answer: (d)
+Solution: Many users confuse Ctrl+1 with Ctrl+Shift+1 (which applies the Number format with two decimals) or Ctrl+F1 (which toggles the ribbon); the direct shortcut for Format Cells is Ctrl+1, so the answer is Ctrl + 1.
+Source: Microsoft Support - Excel keyboard shortcuts
+
+102. What does the formula =COUNTA(A1:A10) return if the range contains 3 numbers, 2 text entries, and 5 empty cells?
+(a) 3 (b) 8 (c) 5 (d) 10
+Answer: (c)
+Solution: A common trap is to count only numbers (which COUNT does) or to include empty cells; COUNTA counts all non-empty cells regardless of type, so 3 numbers + 2 text = 5, so the answer is 5.
+Source: Microsoft Support - COUNTA function
+
+103. Which function returns the largest value in a range that meets a specified condition?
+(a) MAXIFS (b) MAXIF (c) LARGEIF (d) MAX with IF
+Answer: (a)
+Solution: Candidates often guess MAXIF (which does not exist) or try array formulas with MAX and IF; the correct modern function is MAXIFS introduced in Excel 2019, so the answer is MAXIFS.
+Source: Microsoft Support - MAXIFS function
+
+104. In a structured reference, what does Table1[@Sales] refer to?
+(a) The entire Sales column (b) The Sales value in the current row (c) The Sales header (d) The total row of Sales
+Answer: (b)
+Solution: The @ symbol in structured references means "this row"; beginners often think it means the whole column or the header, but it specifically returns the value from the current row, so the answer is The Sales value in the current row.
+Source: Microsoft Support - Structured references
+
+105. Which shortcut inserts the current date in a cell (Windows Excel)?
+(a) Ctrl + Shift + : (b) Ctrl + Shift + ; (c) Ctrl + : (d) Ctrl + ;
+Answer: (d)
+Solution: Ctrl+Shift+; inserts the current time, not the date; Ctrl+; is the dedicated date shortcut, so the answer is Ctrl + ;.
+Source: Microsoft Support - Excel keyboard shortcuts
+
+106. What is the result of =SUMPRODUCT({1,2,3},{4,5,6})?
+(a) 32 (b) 21 (c) 26 (d) 15
+Answer: (a)
+Solution: Some multiply corresponding pairs and forget to sum (1×4=4, 2×5=10, 3×6=18, sum=32); others add the arrays first; SUMPRODUCT multiplies then sums, giving 4+10+18=32, so the answer is 32.
+Source: Microsoft Support - SUMPRODUCT function
+
+107. Which feature restricts data entry to a predefined list?
+(a) Data Validation (b) Conditional Formatting (c) Data Filter (d) Data Sort
+Answer: (a)
+Solution: Conditional Formatting only changes appearance; Data Validation with List criterion actually blocks invalid entries, so the answer is Data Validation.
+Source: Microsoft Support - Data Validation
+
+108. What does the formula =INDEX(A1:C3, 2, 3) return?
+(a) Value in row 2, column C (b) Value in row 3, column B (c) Value in row 2, column 3 of the array (d) Value in row 3, column 2 of the array
+Answer: (c)
+Solution: INDEX uses row_num then column_num within the given array; row 2 column 3 of A1:C3 is cell C2, so the answer is Value in row 2, column 3 of the array.
+Source: Microsoft Support - INDEX function
+
+109. Which shortcut toggles absolute/relative references while editing a formula (Windows)?
+(a) F9 (b) F2 (c) F4 (d) Ctrl + F4
+Answer: (c)
+Solution: F2 enters edit mode, F9 calculates selected portion; F4 cycles reference styles ($A$1 → A$1 → $A1 → A1), so the answer is F4.
+Source: Microsoft Support - Excel keyboard shortcuts
+
+110. What is the default file extension for an Excel workbook (macro-free) since Excel 2007?
+(a) .xlsx (b) .xls (c) .xlsm (d) .xlsb
+Answer: (a)
+Solution: .xls is the legacy 97-2003 format; .xlsm is macro-enabled; .xlsx is the standard Open XML workbook, so the answer is .xlsx.
+Source: Microsoft Support - File formats
+
+111. Which function calculates the internal rate of return for a series of cash flows at regular intervals?
+(a) NPV (b) XIRR (c) IRR (d) RATE
+Answer: (c)
+Solution: XIRR handles irregular intervals; NPV returns present value; IRR assumes periodic cash flows, so the answer is IRR.
+Source: Microsoft Support - IRR function
+
+112. What does the formula =TEXT(44562, "mmmm") return if 44562 is the serial number for 15-Jan-2022?
+(a) 01 (b) Jan (c) January (d) 15
+Answer: (c)
+Solution: "mmm" gives abbreviated month (Jan); "mm" gives two-digit number (01); "mmmm" gives full month name, so the answer is January.
+Source: Microsoft Support - TEXT function
+
+113. Which feature creates a summary table by grouping data automatically?
+(a) Group (b) Subtotal (c) Consolidate (d) PivotTable
+Answer: (d)
+Solution: Subtotal adds summary rows in-place; Consolidate combines ranges; PivotTable builds a separate interactive summary, so the answer is PivotTable.
+Source: Microsoft Support - PivotTable
+
+114. What is the maximum number of rows in a modern Excel worksheet (Excel 2007 onward)?
+(a) 65,536 (b) 1,048,576 (c) 1,000,000 (d) 2,097,152
+Answer: (b)
+Solution: 65,536 was the limit in .xls; the current limit is 2^20 = 1,048,576 rows, so the answer is 1,048,576.
+Source: Microsoft Support - Excel specifications
+
+115. Which function returns the rank of a number in a list, with ties receiving the same rank?
+(a) Both RANK and RANK.EQ (b) RANK.EQ (c) RANK.AVG (d) RANK
+Answer: (a)
+Solution: RANK.EQ is the newer name for RANK; both assign equal rank to ties (RANK.AVG averages them), so the answer is Both RANK and RANK.EQ.
+Source: Microsoft Support - RANK function
+
+116. What does the formula =IFERROR(VLOOKUP(E1, A:B, 2, FALSE), "Not Found") do?
+(a) Returns "Not Found" only if VLOOKUP returns #N/A (b) Returns "Not Found" for any error (c) Returns "Not Found" if E1 is blank (d) Returns "Not Found" if column B is empty
+Answer: (b)
+Solution: IFERROR catches all error types (#N/A, #REF!, #VALUE!, etc.), not just #N/A; IFNA would catch only #N/A, so the answer is Returns "Not Found" for any error.
+Source: Microsoft Support - IFERROR function
+
+117. Which shortcut selects the entire worksheet (Windows)?
+(a) Ctrl + A (b) Ctrl + A twice (c) Ctrl + Shift + Space (d) Ctrl + Shift + A
+Answer: (b)
+Solution: Ctrl+A once selects the current region; pressing it again selects the whole sheet; Ctrl+Shift+Space selects the current region, so the answer is Ctrl + A twice.
+Source: Microsoft Support - Excel keyboard shortcuts
+
+118. What is the purpose of the $ sign in a cell reference like $A$1?
+(a) Makes the reference absolute (b) Formats as currency (c) Indicates a named range (d) Locks the cell for editing
+Answer: (a)
+Solution: The $ fixes row and/or column so the reference does not change when copied; it has no effect on formatting or protection, so the answer is Makes the reference absolute.
+Source: Microsoft Support - Cell references
+
+119. Which function counts cells that meet multiple criteria?
+(a) COUNTIF (b) SUMPRODUCT with conditions (c) COUNTIF with AND (d) COUNTIFS
+Answer: (d)
+Solution: COUNTIF handles one criterion; COUNTIFS (plural) handles multiple criteria natively, so the answer is COUNTIFS.
+Source: Microsoft Support - COUNTIFS function
+
+120. What does the formula =TODAY() - DATE(2022,1,1) return on 15-Jan-2022?
+(a) 0 (b) 15 (c) 16 (d) 14
+Answer: (d)
+Solution: TODAY() returns the serial for 15-Jan-2022; DATE(2022,1,1) is 1-Jan-2022; difference is 14 days (not 15 because both dates inclusive would be 15, but subtraction gives elapsed days), so the answer is 14.
+Source: Microsoft Support - Date arithmetic
+
+121. In a PivotTable, which area determines the unique row labels?
+(a) Filters (b) Rows (c) Columns (d) Values
+Answer: (b)
+Solution: Columns area creates column labels; Values area holds summary calculations; Rows area defines the row groupings, so the answer is Rows.
+Source: Microsoft Support - PivotTable fields
+
+122. Which function returns the k-th smallest value in a data set?
+(a) MIN (b) LARGE (c) SMALL (d) PERCENTILE
+Answer: (c)
+Solution: LARGE returns k-th largest; MIN returns smallest (k=1); SMALL(array, k) returns k-th smallest, so the answer is SMALL.
+Source: Microsoft Support - SMALL function
+
+123. What is the result of =CHOOSE(3, "Red", "Green", "Blue", "Yellow")?
+(a) Blue (b) Green (c) Red (d) Yellow
+Answer: (a)
+Solution: CHOOSE uses 1-based index; index 3 returns the third value "Blue", so the answer is Blue.
+Source: Microsoft Support - CHOOSE function
+
+124. Which feature allows you to find a target result by changing an input cell?
+(a) Solver (b) Goal Seek (c) Scenario Manager (d) Data Table
+Answer: (b)
+Solution: Solver handles multiple variables and constraints; Scenario Manager compares preset scenarios; Data Table shows multiple results; Goal Seek finds one input for one target, so the answer is Goal Seek.
+Source: Microsoft Support - Goal Seek
+
+125. What does the formula =OFFSET(A1, 2, 3, 1, 1) return?
+(a) Cell C3 (b) Cell C2 (c) Cell D2 (d) Cell D3
+Answer: (d)
+Solution: OFFSET(reference, rows, cols, height, width); from A1, down 2 rows → row 3, right 3 cols → column D, height 1 width 1 → single cell D3, so the answer is Cell D3.
+Source: Microsoft Support - OFFSET function

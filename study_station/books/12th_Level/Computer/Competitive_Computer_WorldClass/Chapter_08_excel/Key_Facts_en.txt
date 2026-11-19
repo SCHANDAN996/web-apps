@@ -1,0 +1,69 @@
+**Key Facts — Microsoft Excel (Revision Points)**
+
+1. **Workbook vs Worksheet** — A workbook (.xlsx) is the entire file; it contains one or more worksheets (tabs at the bottom). Each worksheet has 1,048,576 rows (1–1048576) and 16,384 columns (A–XFD).  
+   *Common mistake:* Confusing “workbook” with “worksheet” in questions about file extension or sheet navigation.
+
+2. **Cell Reference Styles** — Default A1 style (column letter + row number). R1C1 style (row number + column number) can be enabled in Options → Formulas.  
+   *Exam tip:* Questions often ask the maximum column label (XFD) or row count (1048576).
+
+3. **Absolute, Relative, Mixed References** — `$A$1` (absolute, both fixed), `A$1` (row fixed), `$A1` (column fixed). Press `F4` (Windows) to cycle through reference types while editing a formula.  
+   *Shortcut scope:* `F4` works in Excel desktop (Windows); not in Excel Online browser editor.
+
+4. **Basic Operators & Precedence** — `^` (exponent), `*` `/` (multiply/divide), `+` `-` (add/subtract), `&` (concatenation), comparison operators (`=`, `<>`, `<`, `>`, `<=`, `>=`). Precedence follows standard math rules; use parentheses to override.
+
+5. **Common Functions — SUM, AVERAGE, COUNT, COUNTA, MAX, MIN** — `SUM(range)` adds numbers; `AVERAGE` ignores text; `COUNT` counts only numeric cells; `COUNTA` counts non-blank cells; `MAX`/`MIN` return highest/lowest numeric value.  
+   *Worked example:* `=SUM(A1:A5)` adds five cells; `=COUNTA(A1:A5)` counts all non-empty cells including text.
+
+6. **Logical Functions — IF, AND, OR, NOT** — `IF(logical_test, value_if_true, value_if_false)`. Nest up to 64 levels (practical limit ~7). `AND`/`OR` accept up to 255 conditions.  
+   *Example:* `=IF(AND(A1>=40,B1>=40),"Pass","Fail")` checks two subjects.
+
+7. **Lookup Functions — VLOOKUP, HLOOKUP, XLOOKUP** — `VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])` searches first column; `range_lookup`: `FALSE`/`0` = exact match, `TRUE`/`1` = approximate (data must be sorted). `XLOOKUP` (Office 365/2021+) replaces both with simpler syntax and default exact match.  
+   *Common mistake:* Forgetting `FALSE` for exact match in VLOOKUP.
+
+8. **Text Functions — CONCAT/CONCATENATE, TEXTJOIN, LEFT, RIGHT, MID, LEN, TRIM, UPPER, LOWER, PROPER** — `TEXTJOIN(delimiter, ignore_empty, range)` joins ranges with delimiter (Office 365/2019+). `TRIM` removes extra spaces but keeps single spaces between words.
+
+9. **Date & Time Functions — TODAY, NOW, DATE, YEAR, MONTH, DAY, EOMONTH, DATEDIF** — Excel stores dates as serial numbers (1 = 1 Jan 1900). `TODAY()` updates on recalculation; `NOW()` includes time. `DATEDIF(start,end,"unit")` is undocumented but works; units: `"Y"`, `"M"`, `"D"`, `"MD"`, `"YM"`, `"YD"`.
+
+10. **Conditional Aggregates — SUMIF, SUMIFS, COUNTIF, COUNTIFS, AVERAGEIF, AVERAGEIFS** — `SUMIF(range, criteria, [sum_range])`; `SUMIFS(sum_range, criteria_range1, criteria1, …)` allows multiple criteria. Criteria can use wildcards: `*` (any chars), `?` (single char), `~*` (literal `*`).
+
+11. **Error Types & Handling** — `#DIV/0!`, `#N/A`, `#NAME?`, `#NULL!`, `#NUM!`, `#REF!`, `#VALUE!`, `#SPILL!`, `#CALC!`. Use `IFERROR(value, value_if_error)` or `IFNA` (only `#N/A`). `ISERROR`, `ISERR`, `ISNA` return TRUE/FALSE.
+
+12. **Data Validation** — Data → Data Validation restricts input type (whole number, decimal, list, date, time, text length, custom formula). “List” creates dropdown from range or comma-separated values.  
+   *Exam tip:* “Circle Invalid Data” highlights existing cells violating rules.
+
+13. **Conditional Formatting** — Home → Conditional Formatting applies formats based on cell values (Highlight Cells Rules, Top/Bottom Rules, Data Bars, Color Scales, Icon Sets, Formula-based). Multiple rules stack; precedence order matters.
+
+14. **Sorting & Filtering** — Sort: Data → Sort (multi-level, custom list). Filter: Data → Filter (AutoFilter) adds dropdown arrows; supports text/number/date filters, search box, filter by color. `Ctrl+Shift+L` toggles filter (Windows desktop).
+
+15. **Tables (Ctrl+T)** — Structured references (e.g., `Table1[Column]`) auto-expand, support calculated columns, total row with SUBTOTAL functions. Table names must be unique per workbook.
+
+16. **PivotTables** — Insert → PivotTable summarizes large data. Fields go to Filters, Columns, Rows, Values areas. Value Field Settings → Summarize By (Sum, Count, Average, Max, Min, etc.) and Show Values As (% of Grand Total, Running Total, etc.). Refresh updates cache; `Alt+F5` refreshes selected PivotTable.
+
+17. **Charts** — Insert → Recommended Charts or specific type (Column, Line, Pie, Bar, Scatter, Combo). Chart Elements (+), Chart Styles (paintbrush), Chart Filters (funnel). Switch Row/Column swaps series/category.  
+   *Common mistake:* Pie charts cannot show negative/zero values meaningfully.
+
+18. **Page Layout & Printing** — Page Layout → Margins, Orientation, Size, Print Area, Breaks, Background, Print Titles (rows/columns to repeat). `Page Break Preview` (View tab) adjusts breaks visually. `Ctrl+P` opens Print preview.
+
+19. **Protection** — Review → Protect Sheet (password optional) locks cells; unlock specific cells first via Format Cells → Protection → uncheck Locked. Protect Workbook prevents structural changes (add/delete/move sheets).  
+   *Note:* Passwords are not recoverable if lost.
+
+20. **Keyboard Shortcuts (Windows Desktop)** — `Ctrl+C/V/X` (Copy/Paste/Cut), `Ctrl+Z/Y` (Undo/Redo), `Ctrl+S` (Save), `Ctrl+P` (Print), `F2` (Edit cell), `Ctrl+1` (Format Cells), `Ctrl+Shift+L` (Toggle Filter), `Alt+F1` (Insert Chart), `F11` (Chart on new sheet), `Ctrl+T` (Create Table), `Alt+=` (AutoSum), `Ctrl+;` (Today’s date), `Ctrl+Shift+:` (Current time).  
+   *Browser/Online:* Many shortcuts differ; e.g., `F2` may not enter edit mode in Excel Online.
+
+21. **File Formats** — `.xlsx` (default, XML-based, no macros), `.xlsm` (macro-enabled), `.xlsb` (binary, faster load/save), `.xls` (legacy 97-2003), `.csv` (comma-separated, single sheet, no formatting), `.pdf` (export only).  
+   *Exam tip:* `.xlsx` cannot store VBA macros; `.xlsm` required.
+
+22. **Flash Fill (Ctrl+E)** — Detects pattern from adjacent column examples and fills remaining rows. Works for text splitting, combining, formatting. No formula created; static result.
+
+23. **Power Query (Get & Transform)** — Data → Get Data imports from various sources, cleans/shapes data in query editor, loads to worksheet or Data Model. Steps recorded as M code; refreshable. Available in Excel 2016+ (built-in).
+
+24. **Data Model & Power Pivot** — Enables relationships between tables, DAX measures, large datasets (>1M rows). Requires “Add this data to the Data Model” checkbox when creating PivotTable. DAX functions (CALCULATE, FILTER, RELATED) differ from worksheet formulas.
+
+25. **Common Exam Traps** —  
+   • “Maximum rows in Excel 2019” → 1,048,576 (same since 2007).  
+   • “VLOOKUP searches which column?” → First column of table_array.  
+   • “Shortcut to insert current date” → `Ctrl+;` (semicolon), not `Ctrl+Shift+;`.  
+   • “Function to count non-blank cells” → `COUNTA`, not `COUNT`.  
+   • “File format supporting macros” → `.xlsm`, not `.xlsx`.  
+
+**Sources:** Microsoft Support (support.microsoft.com), Microsoft Learn (learn.microsoft.com), SSC Computer Knowledge syllabus topics.

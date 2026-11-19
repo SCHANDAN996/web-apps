@@ -1,0 +1,38 @@
+Microsoft Excel — The Digital Ledger
+
+Think of Excel as a giant electronic ledger book. Each file (workbook) contains sheets (worksheets), just like a binder holds pages. Every sheet is a grid of columns (A, B, C…) and rows (1, 2, 3…). The intersection of a column and a row is a cell — the smallest box where you store one piece of data: a number, text, date, or formula.
+
+Analogy: Imagine a school attendance register. Columns are subjects (Math, Science, English), rows are students (Roll 1, Roll 2…). Each cell holds the marks of one student in one subject. Excel automates totals, averages, and pass/fail checks — no manual addition needed.
+
+Core Concepts
+
+1. Cell Reference: Address like B3 (column B, row 3). Relative references (B3) shift when copied; absolute references ($B$3) stay fixed — like pinning a notice on a wall versus carrying a sticky note.
+2. Formulas & Functions: A formula starts with `=` (e.g., `=B2+C2`). Functions are built-in recipes: `SUM(A1:A10)`, `AVERAGE(B1:B5)`, `IF(condition, true_val, false_val)`. Nesting: `=IF(A1>50, "Pass", "Fail")`.
+3. Data Types: Number (for math), Text (labels), Date/Time (serial numbers internally), Boolean (TRUE/FALSE), Error (#DIV/0!, #N/A).
+4. Formatting: Changes appearance, not value. `0.5` formatted as `50%` still calculates as `0.5`.
+5. Sorting & Filtering: Rearrange rows (sort) or hide rows that don't match criteria (filter) — like picking only science-stream students from the register.
+6. Charts: Visual summaries — column, line, pie. Select data → Insert → Chart.
+7. Shortcuts (Windows/Office): `Ctrl+C` copy, `Ctrl+V` paste, `Ctrl+Z` undo, `Ctrl+Y` redo, `F2` edit cell, `Ctrl+;` today's date, `Ctrl+Shift+:` current time, `Alt+=` AutoSum. Browser-based Excel Online shares most but not all (e.g., `Alt` key sequences differ).
+
+Common Mistakes
+- Forgetting `=` — Excel treats it as text.
+- Mixing relative/absolute references when copying formulas.
+- Storing numbers as text (green triangle top-left) — breaks calculations.
+- Merging cells before sorting — breaks row integrity.
+
+Recall Questions
+
+1. What does a cell reference `$A$1` indicate?
+   Explanation: Absolute reference — both column and row are locked. Copying the formula elsewhere keeps `$A$1` unchanged.
+
+2. Which function returns the number of non-empty cells in a range?
+   Explanation: `COUNTA(range)`. `COUNT` counts only numbers; `COUNTA` counts any value.
+
+3. If cell B2 contains `10` and C2 contains `20`, what does `=B2&C2` produce?
+   Explanation: Text concatenation — result is `1020` (text), not `30`. Use `+` for addition.
+
+4. What error appears when a formula divides by zero?
+   Explanation: `#DIV/0!`. Wrap with `IFERROR(formula, "Check data")` to handle gracefully.
+
+5. Which shortcut inserts the current date in a cell (Windows Excel)?
+   Explanation: `Ctrl+;` (semicolon). `Ctrl+Shift+:` inserts current time.

@@ -1,0 +1,75 @@
+# 15 Important Rules & Principles of Microsoft Excel
+
+## Rule 1 — Every Workbook Starts with at Least One Worksheet
+A new Excel file (workbook) contains one worksheet by default (named **Sheet1**). You can add, delete, rename, move, or copy sheets.  
+**Example:** Press `Shift + F11` (Windows) to insert a new worksheet instantly.  
+**Exception:** Template files (.xltx) may open with a predefined number of sheets.
+
+## Rule 2 — Cell References Are Relative by Default
+When you copy a formula, relative references adjust automatically based on the new location.  
+**Example:** `=A1+B1` copied from row 1 to row 2 becomes `=A2+B2`.  
+**Fix:** Use `$` to lock a row, column, or both (absolute/mixed reference): `$A$1`, `A$1`, `$A1`.
+
+## Rule 3 — Formulas Always Begin with an Equal Sign (=)
+Without `=`, Excel treats the entry as text.  
+**Example:** Typing `A1+B1` shows the literal text; typing `=A1+B1` calculates the sum.  
+**Common Mistake:** Starting with `+` or `-` works but is legacy Lotus 1-2-3 behaviour; prefer `=` for clarity.
+
+## Rule 4 — Order of Operations Follows Standard Mathematics (PEMDAS/BODMAS)
+Excel evaluates: Parentheses → Exponents → Multiplication/Division (left to right) → Addition/Subtraction (left to right).  
+**Example:** `=2+3*4` returns **14** (not 20). Use parentheses to override: `=(2+3)*4` returns **20**.
+
+## Rule 5 — Functions Are Predefined Formulas with a Fixed Syntax
+Every function has a name followed by arguments in parentheses: `=FUNCTION_NAME(arg1, arg2, …)`.  
+**Example:** `=SUM(A1:A10)` adds the range. Arguments can be numbers, cell references, ranges, or other functions.  
+**Exception:** Some functions like `=TODAY()` take no arguments but still require empty parentheses.
+
+## Rule 6 — The SUM Function Ignores Text and Empty Cells
+`SUM` adds only numeric values; text, logical values (TRUE/FALSE), and blanks are skipped.  
+**Example:** If A1=10, A2="Apple", A3=5, `=SUM(A1:A3)` returns **15**.  
+**Contrast:** `=A1+A2+A3` returns a `#VALUE!` error because of the text.
+
+## Rule 7 — VLOOKUP Searches the First Column of the Table Array
+`VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])` looks **only** in the leftmost column of `table_array`.  
+**Example:** To find a price by Product ID, Product ID must be in column 1 of the selected range.  
+**Common Mistake:** Forgetting `FALSE` (or `0`) for exact match — default is approximate match, which requires sorted data.
+
+## Rule 8 — Absolute References ($) Do Not Change When Copied
+`$A$1` locks both column and row; `A$1` locks row only; `$A1` locks column only.  
+**Example:** To apply a fixed tax rate in cell B1 to a column of prices in A2:A10, use `=A2*$B$1` and drag down.  
+**Shortcut:** Press `F4` (Windows) while editing a reference to cycle through the four reference types.
+
+## Rule 9 — Conditional Formatting Rules Are Evaluated in Order; Later Rules Override Earlier Ones Unless "Stop If True" Is Set
+Rules are evaluated top to bottom; a later rule that also evaluates to true will override the format of an earlier rule unless the earlier rule has **Stop If True** checked.  
+**Example:** With rules “>100 red” (first) then “>50 yellow” (second), a value 150 becomes yellow unless the first rule has **Stop If True** enabled.  
+**Tip:** Use “Manage Rules” to reorder or edit precedence.
+
+## Rule 10 — PivotTables Summarize Data Without Altering Source Data
+A PivotTable reads the source range/table and creates a dynamic summary. Changes in source data require a **Refresh** (`Alt + F5` or Right-click → Refresh).  
+**Example:** Drag “Region” to Rows, “Sales” to Values → Sum of Sales by Region.  
+**Exception:** Calculated Fields/Items live only inside the PivotTable, not in the source.
+
+## Rule 11 — Data Validation Restricts Input but Does Not Fix Existing Data
+Validation rules (Data → Data Validation) prevent **future** invalid entries; they do not highlight or correct data already in the cells.  
+**Example:** Set “Whole number between 1 and 100” — typing 101 is blocked, but a pre-existing 101 remains until manually corrected.  
+**Tip:** Use “Circle Invalid Data” (Data → Data Validation → Circle Invalid Data) to find existing violations.
+
+## Rule 12 — Tables (Ctrl + T) Auto-Expand and Use Structured References
+Converting a range to a Table (Insert → Table or `Ctrl + T`) gives: automatic filter buttons, banded rows, auto-expansion for new rows, and structured references like `Table1[Sales]`.  
+**Example:** `=SUM(Table1[Sales])` always includes new rows added at the bottom.  
+**Exception:** Structured references do not work in conditional formatting formulas directly; use normal ranges there.
+
+## Rule 13 — Keyboard Shortcuts Differ Between Windows and Mac; Browser Excel Has Its Own Set
+**Windows:** `Ctrl + C` (Copy), `Ctrl + V` (Paste), `Ctrl + Z` (Undo), `F2` (Edit cell), `F4` (Repeat/Absolute ref), `Alt + =` (AutoSum).  
+**Mac:** Use `Cmd` instead of `Ctrl` for most; `F2` → `Ctrl + U`, toggle absolute/relative reference → `F4` (or `Fn + F4` on some keyboards).  
+**Excel for the Web:** Many shortcuts match Windows, but some (e.g., `Alt` key sequences) are not available; use the ribbon or `Ctrl + /` (search).
+
+## Rule 14 — Error Values Indicate Specific Problems; Use IFERROR/IFNA to Handle Them Gracefully
+Common errors: `#DIV/0!` (divide by zero), `#N/A` (value not available), `#VALUE!` (wrong type), `#REF!` (invalid reference), `#NAME?` (unrecognized name), `#NUM!` (invalid number).  
+**Example:** `=IFERROR(VLOOKUP(E1, A:B, 2, 0), "Not Found")` returns “Not Found” instead of `#N/A`.  
+**Best Practice:** Wrap only the part that can error, not the whole formula, to avoid masking other mistakes.
+
+## Rule 15 — Protecting Sheets/Workbooks Prevents Accidental Changes but Is Not Encryption
+**Protect Sheet** (Review → Protect Sheet) locks cells, formatting, insertion/deletion with an optional password. **Protect Workbook** locks structure (add/delete/move sheets).  
+**Important:** This is **not** file-level encryption. For true confidentiality, use **File → Info → Protect Workbook → Encrypt with Password** (AES-256).  
+**Common Mistake:** Forgetting the encryption password — it cannot be recovered by Microsoft.

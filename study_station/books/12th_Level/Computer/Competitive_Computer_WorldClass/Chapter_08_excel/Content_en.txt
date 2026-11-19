@@ -1,0 +1,156 @@
+Microsoft Excel — Core Concepts for Competitive Exams
+
+1. Introduction
+Microsoft Excel is a spreadsheet application used for data organisation, calculation, analysis, and visualisation. In SSC CHSL/CGL computer knowledge sections, questions focus on stable, version-independent concepts: workbook structure, cell referencing, core functions, data tools, chart basics, and keyboard shortcuts. This lesson covers only those stable concepts; version-specific UI changes (ribbon tabs, Backstage view names) are not examined.
+
+2. Workbook, Worksheet, and Cells
+- Workbook: The top-level file (.xlsx). Contains one or more worksheets.
+- Worksheet (Sheet): A grid of 1,048,576 rows (numbered 1…1048576) and 16,384 columns (A…XFD). Total cells per sheet = 17,179,869,184.
+- Cell: Intersection of a row and a column, identified by its address (e.g., C5). The active cell has a bold border.
+- Range: A rectangular block of cells referenced by its top-left and bottom-right addresses separated by a colon (e.g., B2:D10).
+- Name Box (left of formula bar): Shows the active cell address or a defined name. You can type a name here to create a Named Range.
+
+3. Data Types
+- Text (labels): Left-aligned by default. Precede with an apostrophe (') to force text treatment (e.g., '00123).
+- Numbers: Right-aligned. Include integers, decimals, dates, times, percentages, scientific notation.
+- Formulas: Begin with =. Perform calculations using operators (+, -, *, /, ^) and functions.
+- Logical values: TRUE, FALSE (result of comparisons or logical functions).
+- Errors: #DIV/0!, #N/A, #NAME?, #NULL!, #NUM!, #REF!, #VALUE!, #SPILL!, #CALC!.
+
+4. Cell Referencing — The Single Most Tested Concept
+Relative Reference (default): A1 — changes when copied. Example: =A1+B1 in C1 becomes =A2+B2 when copied to C2.
+Absolute Reference: $A$1 — never changes when copied. Press F4 (Windows) to cycle reference styles while editing a formula.
+Mixed Reference: $A1 (column fixed) or A$1 (row fixed). Use F4 repeatedly to toggle: A1 → $A$1 → A$1 → $A1 → A1.
+3-D Reference: Summarise the same cell across multiple sheets: =SUM(Sheet1:Sheet3!B2).
+Structured Reference (Tables): Table1[Sales] — not commonly tested in SSC; stick to A1-style.
+
+5. Operators and Precedence
+Order (highest to lowest): ^ (exponent) → * / → + - → & (concatenation) → = <> <= >= (comparison). Use parentheses to override.
+
+6. Core Functions (Stable Set)
+Mathematical: SUM, SUMIF, SUMIFS, ROUND, ROUNDUP, ROUNDDOWN, MOD, POWER, SQRT.
+Statistical: AVERAGE, AVERAGEIF, COUNT, COUNTA, COUNTBLANK, COUNTIF, COUNTIFS, MAX, MIN, MEDIAN, MODE.SNGL, LARGE, SMALL.
+Logical: IF, IFS (newer, but stable), AND, OR, NOT, IFERROR, IFNA.
+Lookup/Reference: VLOOKUP, HLOOKUP, XLOOKUP (newer, stable), INDEX, MATCH, CHOOSE, OFFSET, INDIRECT.
+Text: LEFT, RIGHT, MID, LEN, TRIM, UPPER, LOWER, PROPER, CONCAT (or &), TEXT, VALUE, FIND, SEARCH, SUBSTITUTE.
+Date/Time: TODAY, NOW, DATE, YEAR, MONTH, DAY, WEEKDAY, EOMONTH, DATEDIF (undocumented but stable), NETWORKDAYS.
+Information: ISNUMBER, ISTEXT, ISBLANK, ISERROR, ISNA, TYPE.
+
+7. VLOOKUP — Exam Favourite
+Syntax: =VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
+- lookup_value: Value to find (first column of table_array).
+- table_array: Range containing data; first column must hold lookup_value.
+- col_index_num: Column number in table_array to return (1 = first column).
+- range_lookup: FALSE/0 = exact match (most questions); TRUE/1 = approximate match (data must be sorted ascending).
+Common trap: col_index_num counts from the first column of table_array, not from column A.
+
+8. INDEX-MATCH — Flexible Alternative
+=INDEX(return_range, MATCH(lookup_value, lookup_range, 0))
+- MATCH returns relative position (1-based) of lookup_value in lookup_range (0 = exact).
+- INDEX returns value at that position in return_range.
+Advantages: lookup column can be anywhere; insertion/deletion of columns does not break formula.
+
+9. IF and Nested Logic
+=IF(logical_test, value_if_true, value_if_false)
+Nest up to 64 levels (practical limit ~7). Modern alternative: IFS(condition1, result1, condition2, result2, …, TRUE, default).
+Combine with AND/OR: =IF(AND(A1>=40, B1>=40), "Pass", "Fail").
+
+10. Data Tools
+- Sort: Data → Sort. Multi-level sort (e.g., Department then Salary). Header row option.
+- Filter: Data → Filter (Ctrl+Shift+L). AutoFilter arrows; filter by value, colour, condition (Number Filters → Custom Filter).
+- Remove Duplicates: Data → Remove Duplicates. Select columns to define uniqueness.
+- Data Validation: Data → Data Validation. Allow: Whole Number, Decimal, List (dropdown), Date, Time, Text Length, Custom (formula). Input Message / Error Alert tabs.
+- Text to Columns: Data → Text to Columns. Delimited (comma, tab, space) or Fixed Width. Useful for splitting names, dates, CSV imports.
+- Flash Fill: Ctrl+E (pattern-based fill; e.g., extract first names from "Last, First").
+- Consolidate: Data → Consolidate. Combine data from multiple ranges/sheets using SUM, COUNT, AVERAGE, etc.
+
+11. Conditional Formatting
+Home → Conditional Formatting. Rules: Highlight Cells Rules (Greater Than, Between, Text That Contains, A Date Occurring, Duplicate Values), Top/Bottom Rules, Data Bars, Colour Scales, Icon Sets, New Rule → Use a formula (e.g., =$D1>10000 highlights entire row). Manage Rules → Edit/Delete/Stop If True.
+
+12. Charts — Basics Only
+Insert → Charts group. Types tested: Column/Bar, Line, Pie, Scatter (XY), Combo.
+Elements: Chart Title, Axis Titles, Legend, Data Labels, Gridlines, Trendline (Linear, Exponential, Moving Average).
+Switch Row/Column: Chart Design → Switch Row/Column.
+Chart Sheet vs Embedded Chart: Move Chart dialog.
+
+13. PivotTables — Conceptual
+Insert → PivotTable. Four areas: Filters, Columns, Rows, Values (Sum, Count, Average, Max, Min, % of Grand Total, % of Column/Row). Group dates (Right-click → Group → Months/Quarters/Years). Slicers (Insert → Slicer) for visual filtering. Refresh: Right-click → Refresh or Alt+F5.
+
+14. Keyboard Shortcuts — Windows / Office Scope
+The following shortcuts work in Excel for Windows (Office 2016 onward). They are not browser shortcuts unless noted.
+Navigation: Ctrl+Home (A1), Ctrl+End (last used cell), Ctrl+Arrow (jump to edge), Alt+Page Down/Up (screen right/left).
+Selection: Shift+Space (entire row), Ctrl+Space (entire column), Ctrl+A (current region; press again for whole sheet), Ctrl+Shift+Arrow (extend to edge).
+Editing: F2 (edit cell), Enter (confirm, move down), Shift+Enter (confirm, move up), Tab (confirm, move right), Ctrl+Enter (fill selection with same entry), Esc (cancel).
+Formatting: Ctrl+1 (Format Cells), Ctrl+B/I/U (bold/italic/underline), Ctrl+Shift+$ (currency), Ctrl+Shift+% (percent), Ctrl+Shift+# (date), Ctrl+Shift+@ (time), Ctrl+Shift+! (number), Ctrl+Shift+~ (general).
+Formulas: = (start formula), F4 (cycle references), F9 (calculate now), Shift+F9 (calculate sheet), Ctrl+` (toggle show formulas), Ctrl+Shift+Enter (legacy CSE array formula — not needed for dynamic arrays).
+Rows/Columns: Ctrl++ (insert), Ctrl+- (delete), Ctrl+9 (hide rows), Ctrl+0 (hide columns), Ctrl+Shift+9 (unhide rows), Ctrl+Shift+0 (unhide columns — may conflict with IME).
+Worksheet: Ctrl+PgDn/PgUp (next/prev sheet), Shift+F11 (new sheet), Alt+H+O+R (rename), Alt+H+O+M (move/copy).
+Data: Ctrl+T (create Table), Ctrl+Shift+L (toggle Filter), Alt+A+M (Remove Duplicates), Alt+D+P (PivotTable wizard — legacy), Alt+N+V (PivotTable modern), Alt+F1 (default chart on same sheet), F11 (chart on new sheet).
+File: Ctrl+N (new), Ctrl+O (open), Ctrl+S (save), F12 (Save As), Ctrl+P (print), Ctrl+W (close workbook), Alt+F4 (close Excel).
+Browser Distinction: In Excel Online / Office 365 browser, many shortcuts overlap but some differ (e.g., F2 may not enter edit mode; Ctrl+Shift+L toggles filter; Ctrl+E works). Exam questions specify "Excel for Windows" or "Desktop version" — answer accordingly.
+
+15. Worked Examples
+
+Example 1 — Relative vs Absolute Reference
+Data: B2=10, C2=20. In D2 enter =B2+C2 (relative). Copy D2 to D3. D3 becomes =B3+C3.
+Fix: In D2 enter =$B$2+$C$2. Copy down — D3 still refers to B2 and C2.
+Lesson: Use $ to lock rows/columns when copying formulas across rows or columns.
+
+Example 2 — VLOOKUP Exact Match
+Table A2:B6 (EmpID, Name). Lookup ID in E2. Formula: =VLOOKUP(E2, A2:B6, 2, FALSE).
+If E2=103 and 103 exists in column A, returns corresponding Name. If not found → #N/A.
+Wrap: =IFERROR(VLOOKUP(E2, A2:B6, 2, FALSE), "Not Found").
+
+Example 3 — INDEX-MATCH Two-Way Lookup
+Matrix: B1:E1 (Quarters Q1–Q4), A2:A5 (Regions North, South, East, West), B2:E5 (Sales).
+Find sales for "East" (row) and "Q3" (column).
+=INDEX(B2:E5, MATCH("East", A2:A5, 0), MATCH("Q3", B1:E1, 0))
+MATCH("East", A2:A5, 0) → 3. MATCH("Q3", B1:E1, 0) → 3. INDEX returns cell at (3,3) = East-Q3 sales.
+
+Example 4 — Nested IF with Grading
+Score in A2. Grade: >=90 A, >=80 B, >=70 C, >=60 D, else F.
+=IF(A2>=90, "A", IF(A2>=80, "B", IF(A2>=70, "C", IF(A2>=60, "D", "F"))))
+Modern: =IFS(A2>=90, "A", A2>=80, "B", A2>=70, "C", A2>=60, "D", TRUE, "F").
+
+Example 5 — Conditional Sum with SUMIFS
+Range: A2:A100 (Region), B2:B100 (Product), C2:C100 (Sales).
+Sum sales for "North" region and "Laptop" product.
+=SUMIFS(C2:C100, A2:A100, "North", B2:B100, "Laptop")
+Criteria ranges must be same size as sum_range. Text criteria in quotes.
+
+Example 6 — Date Difference with DATEDIF
+Start date in A2, End date in B2. Complete years: =DATEDIF(A2, B2, "Y").
+Months ignoring years: =DATEDIF(A2, B2, "YM"). Days ignoring months: =DATEDIF(A2, B2, "MD").
+Combined: =DATEDIF(A2,B2,"Y")&"y "&DATEDIF(A2,B2,"YM")&"m "&DATEDIF(A2,B2,"MD")&"d".
+Note: DATEDIF is undocumented but stable across versions; "Y", "M", "D", "YM", "YD", "MD" are the only valid units.
+
+16. Common Errors and Traps
+1. #REF! after deleting a column/row referenced by a formula. Fix: Use named ranges or INDEX-MATCH.
+2. #N/A in VLOOKUP with approximate match (TRUE) on unsorted data. Always use FALSE for exact match unless data is sorted ascending.
+3. Numbers stored as text (green triangle top-left). Causes SUM to ignore them. Fix: Data → Text to Columns → Finish, or VALUE(), or Paste Special → Add 0.
+4. Circular Reference warning (status bar shows "Circular References"). Formula refers to its own cell directly or indirectly. Enable Iterative Calculation (File → Options → Formulas) only if intentional.
+5. Mismatched range sizes in SUMIFS/COUNTIFS/AVERAGEIFS — all criteria_ranges must match sum_range dimensions.
+6. Using whole-column references (A:A) in array formulas or SUMPRODUCT — slows calculation; prefer dynamic ranges or Tables.
+7. Hidden rows included in SUBTOTAL function_num 1–11; excluded in 101–111. Example: =SUBTOTAL(109, C2:C100) sums only visible cells.
+8. Flash Fill (Ctrl+E) does not update automatically when source data changes — it is static.
+9. Conditional Formatting formula must be written for the active cell of the selection (top-left). Use $ to lock columns/rows correctly.
+10. PivotTable does not auto-refresh. Right-click → Refresh or Alt+F5. Change data source if range expands (or use a Table as source).
+
+17. Quick Reference — Function Categories for Revision
+- Math: SUM, SUMIF, SUMIFS, ROUND, MOD
+- Stats: AVERAGE, COUNT, COUNTA, COUNTIF, COUNTIFS, MAX, MIN, LARGE, SMALL
+- Logic: IF, IFS, AND, OR, NOT, IFERROR
+- Lookup: VLOOKUP, HLOOKUP, XLOOKUP, INDEX, MATCH
+- Text: LEFT, RIGHT, MID, LEN, TRIM, CONCAT, TEXT, SUBSTITUTE
+- Date: TODAY, NOW, DATE, YEAR, MONTH, DAY, EOMONTH, DATEDIF, NETWORKDAYS
+- Info: ISNUMBER, ISTEXT, ISBLANK, ISERROR, ISNA
+
+18. Exam-Oriented Tips
+- Read the question for "exact match" / "approximate match" keywords — they map to FALSE/TRUE in VLOOKUP.
+- Shortcut questions: "Which key cycles reference types?" → F4 (Windows). "Toggle filter?" → Ctrl+Shift+L.
+- Formula auditing: Trace Precedents (Alt+M+P), Trace Dependents (Alt+M+D), Evaluate Formula (Alt+M+V).
+- Protection: Review → Protect Sheet (password optional) locks cells with Locked format (Format Cells → Protection tab). Protect Workbook protects structure (sheets).
+- File formats: .xlsx (default, no macros), .xlsm (macro-enabled), .xlsb (binary, faster), .csv (comma-separated, single sheet, no formatting).
+- Compatibility: Functions introduced in Excel 2019/365 (XLOOKUP, IFS, SWITCH, TEXTJOIN, CONCAT, MAXIFS, MINIFS) are now considered stable for exams unless the question specifies "Excel 2016 or earlier".
+
+End of Lesson.

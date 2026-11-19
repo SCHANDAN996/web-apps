@@ -1,0 +1,163 @@
+PYQ Pattern Analysis — Microsoft Excel (SSC CHSL / CGL Computer Knowledge)
+
+1. Question Patterns Observed
+
+- Concept-definition questions: "Which feature allows…?" / "What is the shortcut for…?"
+- Functional behaviour: "What happens when you press Ctrl + D?" / "Result of =VLOOKUP(…) with approximate match."
+- Error identification: "Which error appears when a formula divides by zero?" / "Why does #### appear in a cell?"
+- Ribbon/Tab location: "Conditional Formatting is found under which tab?"
+- Shortcut keys: Windows/Office scope explicitly tested; browser-only shortcuts (e.g., Ctrl + Shift + T) are distractors.
+- Statement-based (Assertion–Reason / Match the Following): Two or three statements given; pick the correct combination.
+- Negative phrasing: "Which of the following is NOT a valid chart type?" / "Which shortcut does NOT open the Format Cells dialog?"
+
+2. Recurring Sub-topics (High Yield)
+
+- Cell referencing (relative, absolute, mixed) and fill-handle behaviour.
+- Basic functions: SUM, AVERAGE, MAX, MIN, COUNT, COUNTA, IF, VLOOKUP, HLOOKUP, INDEX-MATCH.
+- Text functions: LEFT, RIGHT, MID, LEN, TRIM, CONCAT / CONCATENATE, TEXT.
+- Date/Time functions: TODAY, NOW, DATE, YEAR, MONTH, DAY, EOMONTH, DATEDIF.
+- Logical functions: IF, AND, OR, NOT, IFERROR, IFS.
+- Data tools: Sort, Filter, Advanced Filter, Remove Duplicates, Text to Columns, Flash Fill (Ctrl + E).
+- Conditional Formatting rules (Highlight Cells, Top/Bottom, Data Bars, Icon Sets, Formula-based).
+- PivotTable basics: creation, row/column/value areas, grouping dates, calculated field.
+- Charts: types (Column, Line, Pie, Bar, Scatter, Combo), elements (title, legend, data labels, axis), switching row/column.
+- Page Layout / Print: Print Area, Page Break Preview, Scaling (Fit to Page), Headers & Footers.
+- Protection: Protect Sheet, Protect Workbook, Allow Users to Edit Ranges.
+- Keyboard shortcuts (Windows/Office): Ctrl + C/V/X/Z/Y/S/P/F/H/A/;/:/Arrow keys/Shift+Space/Ctrl+Space/Ctrl+Shift+L/Ctrl+T/F2/F4/F11/Alt+Enter/Alt+=/Ctrl+Shift+$/Ctrl+`/Ctrl+Shift+#/Ctrl+Shift+@/Ctrl+Shift+!/Ctrl+Shift+~/Ctrl+Shift+%/Ctrl+1/Ctrl+5/Ctrl+9/Ctrl+0/Ctrl+Shift+(/)/Ctrl+Shift+&/Ctrl+Shift+_/Alt+H+O+I/Alt+H+O+W/Alt+H+H/Alt+H+L/Alt+H+V+V/Alt+H+V+S/Alt+H+V+F/Alt+H+V+T/Alt+H+V+U/Alt+H+V+V (Paste Values) etc.
+- File formats: .xlsx, .xlsm, .xlsb, .csv, .pdf export.
+- Data Validation: List, Whole Number, Decimal, Date, Time, Text Length, Custom formula.
+- What-If Analysis: Goal Seek, Scenario Manager, Data Table.
+- Hyperlinks, Comments/Notes, Spell Check (F7), Thesaurus (Shift+F7), Accessibility Check.
+
+3. Common Examiner Traps
+
+- Near-correct statements: "VLOOKUP searches the first column and returns a value from the same row" — misses "to the right" condition.
+- Chronological confusion: "Flash Fill introduced in Excel 2010" (actually 2013) — version-specific claims avoided; prefer "available in modern versions".
+- Similar names: "CONCAT vs CONCATENATE" — CONCAT replaces CONCATENATE but both work; "XLOOKUP vs VLOOKUP" — XLOOKUP is newer but not always in syllabus scope.
+- Negative phrasing: "Which is NOT a valid error type?" — #NULL!, #DIV/0!, #VALUE!, #REF!, #NAME?, #NUM!, #N/A, #### (not an error, just column width).
+- Shortcut scope: "Ctrl + Shift + T reopens closed tab" — browser shortcut, not Excel.
+- Ribbon path changes: "Conditional Formatting under Data tab" — actually Home tab.
+- Function argument order: VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup]) — swapping col_index_num and range_lookup is a common distractor.
+- Relative vs absolute reference behaviour when copying across rows/columns.
+- Date stored as serial number; formatting vs value distinction.
+- #### meaning: column too narrow OR negative date/time — both possible.
+- Protected sheet vs protected workbook distinction.
+- Filter vs Sort: Filter hides rows; Sort rearranges.
+- PivotTable refresh: manual vs automatic on open.
+- Chart type suitability: Pie for parts of whole; Scatter for correlation; Combo for mixed scales.
+
+4. Worked PYQ-style Examples
+
+Example 1
+Question: In Excel, pressing Ctrl + D performs which action?
+(a) Deletes the selected row
+(b) Fills down the content/formula from the cell above
+(c) Duplicates the active worksheet
+(d) Opens the Font dialog box
+Answer: (b)
+Solution: Ctrl + D is the Fill Down shortcut (Windows/Office). Ctrl + R fills right. Ctrl + Shift + D is not a standard Excel shortcut.
+Source: PYQ-style
+
+Example 2
+Question: The formula =VLOOKUP(100, A1:C10, 3, TRUE) returns an incorrect result when the first column of A1:C10 is not sorted in ascending order. Why?
+(a) VLOOKUP only works with exact match
+(b) Approximate match (TRUE) requires sorted data
+(c) Column index 3 is out of range
+(d) Lookup value 100 is not found
+Answer: (b)
+Solution: With range_lookup = TRUE (approximate match), VLOOKUP assumes the first column is sorted ascending; otherwise it may return wrong value. For unsorted data use FALSE (exact match) or XLOOKUP.
+Source: PYQ-style
+
+Example 3
+Question: A cell displays #### after entering a formula. What does this indicate?
+(a) Division by zero error
+(b) Column width too narrow for the formatted value
+(c) Circular reference
+(d) Invalid cell reference
+Answer: (b)
+Solution: #### means the column is not wide enough to display the formatted number/date. It can also appear for negative date/time values. Widen the column or change format.
+Source: PYQ-style
+
+Example 4
+Question: Which shortcut reopens the last closed tab in Excel?
+(a) Ctrl + Shift + T
+(b) Ctrl + Z
+(c) Ctrl + Y
+(d) None of the above
+Answer: (d)
+Solution: Ctrl + Shift + T reopens closed tabs in web browsers, not in Excel. Excel has no built-in "reopen closed sheet" shortcut.
+Source: PYQ-style
+
+Example 5
+Question: Which of the following is NOT a valid chart type in Excel?
+(a) Combo
+(b) Treemap
+(c) Sunburst
+(d) Pyramid
+Answer: (d)
+Solution: Pyramid is not a built-in chart type; Funnel exists. Treemap and Sunburst are hierarchy charts (Excel 2016+). Combo is a standard type.
+Source: PYQ-style
+
+Example 6
+Question: Consider the following statements:
+I.  Ctrl + 1 opens the Format Cells dialog.
+II. Ctrl + Shift + L toggles Filter.
+III. Alt + H + V + V pastes values only.
+Which are correct?
+(a) I and II only
+(b) II and III only
+(c) I and III only
+(d) I, II and III
+Answer: (d)
+Solution: All three are standard Windows/Office Excel shortcuts. Alt+H+V+V is the ribbon-key sequence for Paste Values.
+Source: PYQ-style
+
+Example 7
+Question: To restrict a cell to accept only dates between 1-Jan-2024 and 31-Dec-2024, which Data Validation setting is used?
+(a) Allow: List, Source: "1/1/2024,12/31/2024"
+(b) Allow: Date, Data: between, Start: 1/1/2024, End: 12/31/2024
+(c) Allow: Custom, Formula: =AND(A1>=DATE(2024,1,1),A1<=DATE(2024,12,31))
+(d) Both (b) and (c)
+Answer: (d)
+Solution: Date validation with "between" works directly; a Custom formula with AND also works. List is for discrete values, not a range.
+Source: PYQ-style
+
+Example 8
+Question: After adding new source data, a PivotTable does not reflect the changes until you:
+(a) Press F9
+(b) Right-click the PivotTable → Refresh
+(c) Close and reopen the workbook
+(d) Press Ctrl + Alt + F5
+Answer: (b)
+Solution: PivotTables require manual Refresh (or "Refresh on open" option). F9 recalculates formulas; Ctrl+Alt+F5 refreshes all PivotTables and queries.
+Source: PYQ-style
+
+Example 9
+Question: "Protect Sheet" prevents users from:
+(a) Editing locked cells
+(b) Selecting locked cells
+(c) Formatting unlocked cells
+(d) Viewing hidden sheets
+Answer: (a)
+Solution: By default, Protect Sheet locks all cells (Locked property ON). Users cannot edit locked cells unless specific permissions are granted. Selecting locked cells is allowed by default. Unlocked cells remain editable. Hidden sheets are controlled by Protect Workbook.
+Source: PYQ-style
+
+Example 10
+Question: Which file format supports macros and is the default for macro-enabled workbooks?
+(a) .xlsx
+(b) .xlsb
+(c) .xlsm
+(d) .csv
+Answer: (c)
+Solution: .xlsm = Excel Macro-Enabled Workbook. .xlsx cannot store VBA macros. .xlsb is binary (faster, smaller) but also supports macros; .xlsm is the default when saving a macro-enabled file via UI.
+Source: PYQ-style
+
+5. Preparation Tips
+
+- Memorise the top 30 Windows/Office shortcuts; distinguish them from browser/OS shortcuts.
+- Practise writing formulas on paper: VLOOKUP argument order, IF nesting, DATE construction.
+- Know the Ribbon tab for each major feature (Home, Insert, Page Layout, Formulas, Data, Review, View).
+- Understand error values (#N/A, #REF!, #VALUE!, #DIV/0!, #NAME?, #NUM!, #NULL!, ####) and their causes.
+- Revise Data Validation, Conditional Formatting, PivotTable basics, Chart selection logic.
+- Solve previous papers' computer sections; note recurring Excel questions — they repeat concepts, not exact figures.
+- Time rule: 15–20 seconds per fact/shortcut question; 30–45 seconds for formula/logic questions.
