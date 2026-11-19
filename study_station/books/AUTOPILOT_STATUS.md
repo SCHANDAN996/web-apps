@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 07:15 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 03:11 PM
+**आख़िरी update:** 19-11-2026 07:30 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 03:11 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 67 मिनट |
-| W2 | Chapter 09 powerpoint (12th Computer) | ✍️ लिख रहा है | 58 मिनट |
-| W3 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 25 मिनट |
-| W4 | Chapter 08 excel (12th Computer) | 🔎 review हो रहा है | 27 मिनट |
+| W1 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 82 मिनट |
+| W2 | Chapter 09 powerpoint (12th Computer) | ✍️ लिख रहा है | 73 मिनट |
+| W3 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 40 मिनट |
+| W4 | Chapter 08 excel (12th Computer) | 🔎 review हो रहा है | 42 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 178 |
-| key 4 | 159 |
+| key 3 | 191 |
+| key 4 | 169 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -58,19 +58,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 18:39:26   [samas] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q109 key c vs re-solve b, Q111 key a vs re-solve b, Q122 key c vs re-solve b)
-19-11 18:41:08   [upsarg_pratyay] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q23 key a vs re-solve c, Q24 key c vs re-solve b)
-19-11 18:41:08   [upsarg_pratyay] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
-19-11 18:41:17   [excel] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-19-11 18:41:17   [excel] written 2, failed 0; AI calls today 287/100000
-19-11 18:41:57   [upsarg_pratyay] Practice_hi_Set_02.txt try 1: rejected (Q38:duplicate_options,Q39:duplicate_options,Q42:duplicate_options,Q43:duplicate_options,Q44:duplicate_options)
-19-11 18:42:02   [excel] repaired PYQ_en.txt (9104 chars)
-19-11 18:42:02   [excel] written 1, failed 0; AI calls today 289/100000
-19-11 18:42:51   [upsarg_pratyay] Practice_hi_Set_02.txt try 2: rejected (Q43:duplicate_options,Q45:duplicate_options)
-19-11 18:44:18   [samas] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q109 key b vs re-solve c, Q111 key d vs re-solve b, Q112 key c vs re-solve b)
-19-11 18:46:45   [samas] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q111 key b vs re-solve d)
-19-11 18:48:12   [excel] repaired PYQ_en.txt (8926 chars)
-19-11 18:48:12   [excel] written 1, failed 0; AI calls today 296/100000
 19-11 18:48:55   [upsarg_pratyay] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q36 key c vs re-solve ?, Q37 key c vs re-solve ?, Q40 key c vs re-solve a)
 19-11 18:50:07   [samas] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q109 key b vs re-solve c, Q111 key a vs re-solve d, Q112 key b vs re-solve c)
 19-11 18:50:07   [samas] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
@@ -98,4 +85,17 @@
 19-11 19:11:42   [varn_vartani] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Item 1 says the traditional count of 44 letters comprises 11 vowels, 33 consonants, 4 c
 19-11 19:11:42   [varn_vartani] review Feynman_hi.txt: resumed private correction draft
 19-11 19:12:51   [powerpoint] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+19-11 19:16:26   [excel] review PYQ_hi.txt round 1: 1 issue(s): - उदाहरण 1 में उत्तर और व्याख्या गलत है: सेल B2 में सूत्र `=$A$1+A2` को C3 में कॉपी करने पर सापेक्ष संदर्भ A2 ए
+19-11 19:19:26   [excel] review PYQ_hi.txt round 2: 1 issue(s): - Keyboard Shortcuts (स्वरूपण): `Ctrl+Shift+@` labeled as वैज्ञानिक (scientific) and `Ctrl+Shift+:` as समय (tim
+19-11 19:20:55   [varn_vartani] review Feynman_hi.txt round 1: 2 issue(s): - In the chandrabindu rule table, the example "सँकरा" is incorrect because the following consonant 'क' is n
+19-11 19:21:17   [excel] REJECTED review fix PYQ_hi.txt: reviewer still reports - "सरणी सूत्र विरासत" जाल में स्पष्टीकरण गलत है: `=SUM(A1:A10*B1:B10)` नए एक्सेल में **स्पिल नह
+19-11 19:21:51   [excel] review Important_Rules_en.txt round 1: 1 issue(s): - Rule 13 states Mac shortcut for F4 (absolute reference) is Cmd+T → The correct Mac shortcut for t
+19-11 19:22:48   [varn_vartani] review Feynman_hi.txt round 2: 2 issue(s): - In the 'भ्रमित शब्द-युग्म' table, the row for 'आश्चर्य' shows identical spellings for both correct and in
+19-11 19:24:22   [powerpoint] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+19-11 19:25:13   [excel] review Important_Rules_en.txt round 2: 2 issue(s): - Rule 9: The statement “Rules are evaluated in the order listed; the first true rule wins unless “
+19-11 19:27:18   [excel] REJECTED review fix Important_Rules_en.txt: reviewer still reports - Rule 13: Mac shortcut for toggling absolute/relative references is incorrectly gi
+19-11 19:27:27   [upsarg_pratyay] wrote Practice_hi_Set_03.txt (write, 25 MCQs)
+19-11 19:28:00   [excel] review Important_Rules_hi.txt round 1: 2 issue(s): - नियम 2 में संरचित संदर्भ (Structured References) के बारे में कहा गया है कि "टेबल नाम और स्तंभ नाम
+19-11 19:28:38   [upsarg_pratyay] Practice_hi_Set_04.txt try 1: rejected (Q95:duplicate_options)
+19-11 19:29:49   [powerpoint] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 ```
