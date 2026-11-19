@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 09:23 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
+**आख़िरी update:** 19-11-2026 09:39 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 08:36 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 46 मिनट |
-| W2 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 41 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 46 मिनट |
-| W4 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 22 मिनट |
+| W1 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 0 मिनट |
+| W2 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 56 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 62 मिनट |
+| W4 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 38 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 30 |
-| key 4 | 25 |
+| key 3 | 34 |
+| key 4 | 32 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -50,24 +50,11 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 07 word (Computer) — 1 बार
+- Chapter 01 varn vartani (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 20:42:22   [kaal_vachya] written 1, failed 0; AI calls today 11/100000
-19-11 20:42:49 DONE 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya in 5 min → ec29085a
-19-11 20:42:50 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas (TODO: todo 3, problems 0)
-19-11 20:42:50   [samas] Hindi-only writer: direct Hindi content; English generation and translation disabled
-19-11 20:43:34   [word] REJECTED review fix Key_Facts_en.txt: reviewer still reports - Item 20: "blue double underline = grammar (Word 2016/2019)" is incorrect; grammar error
-19-11 20:43:34   [word] review: 0 section(s) corrected, 1 failed
-19-11 20:43:34   [word] written 0, failed 1; AI calls today 13/100000
-19-11 20:43:34 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word after 6 min: todo [] problems []
-19-11 20:43:35 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_08_excel (OK: todo 0, problems 0)
-19-11 20:43:35   [excel] review Content_hi.txt: resumed private correction draft
-19-11 20:45:14   [varn_vartani] review Feynman_hi.txt: resumed private correction draft
-19-11 20:46:06   [samas] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q20 key c vs re-solve b)
-19-11 20:46:43   [sandhi] Practice_hi_Set_01.txt try 1: rejected (Q6:duplicate_options,Q15:duplicate_options,Q17:duplicate_options,Q18:duplicate_options)
-19-11 20:48:50   [excel] review Content_hi.txt round 1: 2 issue(s): - DATEDIF फंक्शन की तालिका में केवल "y", "m", "d" इकाइयाँ दी गई हैं, जबकि "ym", "yd", "md" भी मान्य हैं → त
 19-11 20:49:39   [samas] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q20 key c vs re-solve b)
 19-11 20:52:34   [excel] review Content_hi.txt round 2: 1 issue(s): - SUBTOTAL(9) includes hidden rows; the claim that it counts only visible cells is wrong → Use SUBTOTAL(109
 19-11 20:53:33   [samas] wrote Practice_hi_Set_01.txt (write, 25 MCQs)
@@ -94,4 +81,18 @@
 19-11 21:20:26   [upsarg_pratyay] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
 19-11 21:22:31   [varn_vartani] review Feynman_hi.txt round 2: 1 issue(s): - The confused word-pair table lists "आश्चर्य" (च वर्ण) as correct and "आश्चर्य" (छ वर्ण) as incorrect, but
 19-11 21:22:46   [samas] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q116 key a vs re-solve d, Q122 key a vs re-solve b)
+19-11 21:29:21   [upsarg_pratyay] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q29 key d vs re-solve a, Q44 key c vs re-solve b)
+19-11 21:29:49   [varn_vartani] REJECTED review fix Feynman_hi.txt: reviewer still reports - Flashcard 8 explanation incorrectly states "च + छ = छ्छ → स्वच्छ" → correct is "च + छ = च
+19-11 21:29:49   [varn_vartani] review Important_Rules_hi.txt: resumed private correction draft
+19-11 21:33:11   [varn_vartani] review Important_Rules_hi.txt round 1: 1 issue(s): - Point 9: Incorrect sandhi rule cited for 'प्रति + ईक्षा = प्रतीक्षा' — it states 'अ + ई = ए' but 
+19-11 21:36:08   [varn_vartani] review Important_Rules_hi.txt round 2: 3 issue(s): - Section 5 and 14: "मानक हिन्दी वर्तनी" is attributed to "भारत सरकार, राजभाषा विभाग" → It is publi
+19-11 21:38:28   [varn_vartani] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 5 example “हँसना → मानक हिंसना” is incorrect → “हिंसना” means “to harm”; the
+19-11 21:38:28   [varn_vartani] review: 1 section(s) corrected, 2 failed
+19-11 21:38:28   [varn_vartani] written 1, failed 2; AI calls today 66/100000
+19-11 21:38:28 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 62 min: todo [] problems []
+19-11 21:38:29 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word (OK: todo 0, problems 0)
+19-11 21:38:30   [word] review Key_Facts_en.txt: resumed private correction draft
+19-11 21:38:46   [samas] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q115 key d vs re-solve a)
+19-11 21:39:19   [word] review: 1 section(s) corrected, 0 failed
+19-11 21:39:19   [word] written 1, failed 0; AI calls today 68/100000
 ```
