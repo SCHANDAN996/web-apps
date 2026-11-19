@@ -1,22 +1,17 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 01:55 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 11:36 AM
+**आख़िरी update:** 19-11-2026 03:10 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 11:36 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 115 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 16 मिनट |
-| W3 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 84 मिनट |
-| W4 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 4 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 68 |
-| key 4 | 87 |
+| key 3 | 91 |
+| key 4 | 101 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -46,55 +41,56 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 01 varn vartani (Hindi) — 1 बार
-- Chapter 06 kaal vachya (Hindi) — 1 बार
-- Chapter 03 sangya sarvanam (Hindi) — 1 बार
-- Chapter 05 ling vachan karak (Hindi) — 1 बार
+- Chapter 01 varn vartani (Hindi) — 2 बार
+- Chapter 06 kaal vachya (Hindi) — 2 बार
+- Chapter 03 sangya sarvanam (Hindi) — 2 बार
+- Chapter 05 ling vachan karak (Hindi) — 2 बार
 - Chapter 08 excel (Computer) — 1 बार
 - Chapter 08 samas (Hindi) — 1 बार
 - Chapter 07 word (Computer) — 1 बार
+- Chapter 07 sandhi (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 12:47:57   [sandhi] Practice_hi_Set_02.txt try 3: rejected (Q40:duplicate_options)
-19-11 12:53:27   [samas] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q9 key a vs re-solve d, Q13 key b vs re-solve a, Q14 key a vs re-solve ?, Q16 key d vs re-solve c, Q
-19-11 12:53:27   [samas] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
-19-11 12:56:03   [samas] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q57 key d vs re-solve a, Q60 key d vs re-solve b, Q73 key b vs re-solve c)
-19-11 12:59:24   [sandhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q28 key c vs re-solve d, Q29 key b vs re-solve c, Q42 key d vs re-solve c, Q43 key d vs re-solve a, 
-19-11 12:59:24   [sandhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
-19-11 13:00:24   [sandhi] Practice_hi_Set_03.txt try 1: rejected (parsed 24 questions, numbers 51…75)
-19-11 13:00:50   [samas] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q59 key d vs re-solve a)
-19-11 13:02:00   [sandhi] Practice_hi_Set_03.txt try 2: rejected (Q52:duplicate_options,Q56:duplicate_options,Q57:duplicate_options,Q58:duplicate_options,Q60:duplicate_options)
-19-11 13:04:07   [samas] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q68 key a vs re-solve b)
-19-11 13:05:00   [varn_vartani] review Content_hi.txt: 2 issue(s): - Section 3.1 मात्रा-नियम table: for इ (ि) the examples “फल” → “फिल” (अशुद्ध) and “फूल” → “फुल” (अशुद्ध) are incorr
-19-11 13:07:18   [varn_vartani] REJECTED review fix Content_hi.txt: reviewer still reports - The rule in sections 2.1 and 6 (Quick Tips) that anunasik (chandrabindu) is used before a
-19-11 13:08:17   [samas] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q70 key d vs re-solve c, Q75 key d vs re-solve b)
-19-11 13:08:17   [samas] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
-19-11 13:08:33   [varn_vartani] review Key_Facts_hi.txt: 3 issue(s): - बिंदु 6: "नुक्ता-युक्त व्यंजन (2): ऩ, ऱ — मराठी/संस्कृत ध्वनियों के लिए प्रयुक्त" → "नुक्ता-युक्त व्यंजन (2): ऩ
-19-11 13:10:59   [samas] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q109 key b vs re-solve a)
-19-11 13:13:49   [samas] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q109 key a vs re-solve b, Q113 key d vs re-solve a)
-19-11 13:16:23   [samas] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q109 key b vs re-solve a)
-19-11 13:20:12   [samas] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q108 key a vs re-solve d, Q113 key c vs re-solve d, Q114 key b vs re-solve a, Q122 key b vs re-solve
-19-11 13:20:12   [samas] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
-19-11 13:24:07   [samas] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q143 key c vs re-solve a)
-19-11 13:27:27   [samas] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q131 key d vs re-solve b)
-19-11 13:27:31   [sandhi] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q51 key b vs re-solve a, Q54 key a vs re-solve b, Q55 key b vs re-solve a, Q58 key c vs re-solve b, 
-19-11 13:32:08   [samas] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q141 key d vs re-solve c, Q144 key c vs re-solve a)
-19-11 13:38:18   [samas] wrote Practice_hi_Set_06.txt (write, 25 MCQs)
-19-11 13:38:18   [samas] written 1, failed 3; AI calls today 136/100000
-19-11 13:38:19 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas after 78 min: todo ['Set 01 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo'] problems []
-19-11 13:38:19 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
-19-11 13:39:14   [varn_vartani] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 6 (and Point 1): The claim that there are only two nukta letters (ऩ, ऱ) for Dravi
-19-11 13:40:49   [varn_vartani] review Feynman_hi.txt: 6 issue(s): - Section 1: Claims 33 consonants but lists 36 (including क्ष, त्र, ज्ञ) → Correct the count to 36 or list only the
-19-11 13:40:59   [sandhi] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q54 key d vs re-solve b, Q55 key b vs re-solve a, Q58 key d vs re-solve b, Q59 key d vs re-solve c, 
-19-11 13:40:59   [sandhi] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
-19-11 13:42:40   [sandhi] Practice_hi_Set_05.txt try 1: rejected (Q114:duplicate_options,Q118:duplicate_options,Q119:duplicate_options,Q122:duplicate_options,Q125:duplicate_opt
-19-11 13:44:01   [sangya_sarvanam] review Content_hi.txt: 1 issue(s): - In Example 6, the claim "परीक्षा ट्रिक: 'आदमियों' लिखना गलत है" is wrong → 'आदमियों' is the correct oblique plura
-19-11 13:46:05   [word] review PYQ_hi.txt: 2 issue(s): - In Common Traps table, "डिफॉल्ट मान भ्रम" row: claims default line spacing for Word 2007+ is 1.15 → Default line spac
-19-11 13:50:19   [word] review: 1 section(s) corrected, 4 failed
-19-11 13:50:19   [word] written 1, failed 4; AI calls today 151/100000
-19-11 13:50:19 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word after 109 min: todo [] problems []
-19-11 13:50:19 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (OK: todo 0, problems 0)
-19-11 13:52:38   [varn_vartani] REJECTED review fix Feynman_hi.txt: reviewer still reports - Section 3 table (चंद्रबिंदु rule): Example "सँभाल" incorrectly shown as correct for chand
+19-11 14:01:52   [varn_vartani] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 1 note lists derived consonants as "ड़" and "ढ" → should be "ड़" and "ढ़"
+19-11 14:01:52   [varn_vartani] review: 0 section(s) corrected, 4 failed
+19-11 14:01:52   [varn_vartani] written 0, failed 4; AI calls today 159/100000
+19-11 14:01:52 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani after 91 min: todo [] problems []
+19-11 14:01:52 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya (OK: todo 0, problems 0)
+19-11 14:01:53   [kaal_vachya] Book autopilot upgrade: draining existing work and saving unfinished files for the new worker/rate policy
+19-11 14:01:53   [kaal_vachya] stopping: new worker/rate policy queued; no new API work started in the older runner
+19-11 14:01:53 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya after 0 min: todo [] problems []
+19-11 14:01:53 worker 2: stop file found — stopping
+19-11 14:05:01   [sangya_sarvanam] REJECTED review fix Content_hi.txt: reviewer still reports - The suffix 'आव' listed among common suffixes for forming abstract nouns (भाववाचक संज्ञा) 
+19-11 14:06:51   [sangya_sarvanam] review Key_Facts_hi.txt: 3 issue(s): - In point 4, the plural rule for consonant‑ending nouns incorrectly lists “फल → फल/फलें” and “घर → घर/घरें”; the
+19-11 14:09:05   [sangya_sarvanam] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 13: “क्या” के रूपों में “किसे (कभी-कभी)” दिया गया है → “क्या” का “किसे” रूप नहीं 
+19-11 14:11:14   [ling_vachan_karak] review Content_hi.txt: 9 issue(s): - Section 1 (लिंग Table): "कमरा", "पत्तल", "फल", "ज्ञान" listed under **नपुंसकलिंग** → Incorrect gender classificat
+19-11 14:14:09   [ling_vachan_karak] REJECTED review fix Content_hi.txt: reviewer still reports - In the "बहुवचन बनाने के नियम" table, the row for स्त्रीलिंग with एकवचन अंत "आ" gives rule
+19-11 14:14:48   [ling_vachan_karak] review Key_Facts_hi.txt: 7 issue(s): - Point 4: Neuter gender claim and examples are wrong — Hindi does not treat inanimate nouns as neuter; किताब and
+19-11 14:16:38   [ling_vachan_karak] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - In point 6, “शिष्य → शिष्या” is given as an example of अकारांत पुल्लिंग, but शिष्य ends
+19-11 14:19:16   [ling_vachan_karak] review PYQ_hi.txt: 5 issue(s): - "SSC GD में इस अध्याय से 3–5 प्रश्न आते हैं" → invented exam statistic without year or source; remove or cite a speci
+19-11 14:19:39   [sandhi] FAILED Practice_hi_Set_05.txt: too_long
+19-11 14:20:42   [sandhi] Practice_hi_Set_06.txt try 1: rejected (Q129:duplicate_options,Q133:duplicate_options,Q137:duplicate_options,Q139:duplicate_options,Q149:duplicate_opt
+19-11 14:23:00   [sangya_sarvanam] review Important_Rules_hi.txt: 5 issue(s): - नियम २: "आ कारांत स्त्रीलिंग" के उदाहरण (माता, बहन, चिड़िया, सास, नानी) आ-कारांत नहीं हैं; "ई कारांत पुल्
+19-11 14:26:00   [sangya_sarvanam] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम २ की टिप्पणी में "माता", "चिड़िया" आदि को "आ-कारांत नहीं" बताया गया है जबकि 
+19-11 14:26:00   [sangya_sarvanam] review: 0 section(s) corrected, 3 failed
+19-11 14:26:00   [sangya_sarvanam] written 0, failed 3; AI calls today 183/100000
+19-11 14:26:00 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam after 48 min: todo [] problems []
+19-11 14:26:00 worker 1: stop file found — stopping
+19-11 14:27:16   [ling_vachan_karak] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 6 table, row "कारक चिह्न लोप": example "राम सीता मिला (को लोप)" is wrong because "मिल
+19-11 14:28:38   [ling_vachan_karak] review Important_Rules_hi.txt: 2 issue(s): - नियम ११ में अधिकरण कारक के चिह्न केवल "में/पर" बताए गए हैं, परन्तु उदाहरण "रात को" में "को" प्रयुक्त है →
+19-11 14:30:36   [ling_vachan_karak] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम ४(घ) में कहा गया है कि इ/ई/उ/ऊ/ए/ओकारांत संज्ञाएँ प्रायः बहुवचन में अपरिवर्त
+19-11 14:30:36   [ling_vachan_karak] review: 0 section(s) corrected, 4 failed
+19-11 14:30:36   [ling_vachan_karak] written 0, failed 4; AI calls today 186/100000
+19-11 14:30:36 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 40 min: todo [] problems []
+19-11 14:30:36 worker 3: stop file found — stopping
+19-11 14:40:50   [sandhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q126 key d vs re-solve a, Q134 key c vs re-solve ?, Q136 key d vs re-solve b, Q137 key b vs re-solve
+19-11 14:57:24   [sandhi] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q140 key d vs re-solve b, Q144 key c vs re-solve ?, Q145 key d vs re-solve a, Q148 key a vs re-solve
+19-11 15:08:57   [sandhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q126 key c vs re-solve ?, Q129 key a vs re-solve b, Q131 key d vs re-solve c, Q134 key b vs re-solve
+19-11 15:08:57   [sandhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
+19-11 15:08:57   [sandhi] written 0, failed 5; AI calls today 190/100000
+19-11 15:08:57 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi after 189 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo'] problems []
+19-11 15:08:57 worker 0: stop file found — stopping
+19-11 15:10:23 autopilot end: done 0, failed 8
 ```
