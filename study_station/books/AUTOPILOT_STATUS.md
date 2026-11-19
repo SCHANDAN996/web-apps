@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 01:24 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 11:36 AM
+**आख़िरी update:** 19-11-2026 01:39 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 11:36 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 84 मिनट |
-| W2 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 64 मिनट |
-| W3 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 53 मिनट |
-| W4 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 83 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 100 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 1 मिनट |
+| W3 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 69 मिनट |
+| W4 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 98 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 53 |
-| key 4 | 72 |
+| key 3 | 55 |
+| key 4 | 82 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -51,18 +51,11 @@
 - Chapter 03 sangya sarvanam (Hindi) — 1 बार
 - Chapter 05 ling vachan karak (Hindi) — 1 बार
 - Chapter 08 excel (Computer) — 1 बार
+- Chapter 08 samas (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 12:26:39   [excel] Practice_en_Set_06.txt try 1: rejected (parsed 24 questions, numbers 126…149)
-19-11 12:27:50   [excel] Practice_en_Set_06.txt try 2: rejected (Q128:leaked_reasoning)
-19-11 12:28:38   [excel] Practice_en_Set_06.txt try 3: rejected (Q128:leaked_reasoning)
-19-11 12:30:25   [word] REJECTED review fix Key_Facts_en.txt: reviewer still reports - Point 1: Ribbon tabs list omits the Design tab → The Ribbon tabs are Home, Insert, Desi
-19-11 12:30:27   [excel] Practice_en_Set_06.txt try 4: rejected (Q128:leaked_reasoning)
-19-11 12:30:27   [excel] REJECTED Practice_en_Set_06.txt: no version passed the checks — not written
-19-11 12:30:27   [excel] skip Practice_hi_Set_06.txt: its pair Practice_en_Set_06.txt was not written
-19-11 12:30:27   [excel] written 0, failed 2; AI calls today 80/100000
 19-11 12:30:28 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_08_excel after 5 min: todo ['Set 06 en: todo', 'Set 06 hi: todo'] problems ['PYQ_en.txt: unsourced claim "(concept)"']
 19-11 12:30:28 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (OK: todo 0, problems 0)
 19-11 12:31:55   [word] review Key_Facts_hi.txt: 2 issue(s): - Ribbon tabs list omits the Design tab → The Ribbon includes Home, Insert, Design, Layout, References, Mailings,
@@ -95,4 +88,12 @@
 19-11 13:20:12   [samas] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q108 key a vs re-solve d, Q113 key c vs re-solve d, Q114 key b vs re-solve a, Q122 key b vs re-solve
 19-11 13:20:12   [samas] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
 19-11 13:24:07   [samas] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q143 key c vs re-solve a)
+19-11 13:27:27   [samas] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q131 key d vs re-solve b)
+19-11 13:27:31   [sandhi] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q51 key b vs re-solve a, Q54 key a vs re-solve b, Q55 key b vs re-solve a, Q58 key c vs re-solve b, 
+19-11 13:32:08   [samas] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q141 key d vs re-solve c, Q144 key c vs re-solve a)
+19-11 13:38:18   [samas] wrote Practice_hi_Set_06.txt (write, 25 MCQs)
+19-11 13:38:18   [samas] written 1, failed 3; AI calls today 136/100000
+19-11 13:38:19 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas after 78 min: todo ['Set 01 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo'] problems []
+19-11 13:38:19 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
+19-11 13:39:14   [varn_vartani] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 6 (and Point 1): The claim that there are only two nukta letters (ऩ, ऱ) for Dravi
 ```
