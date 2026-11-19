@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 09:33 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 06:58 AM
+**आख़िरी update:** 19-11-2026 09:47 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 06:58 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 04 visheshan kriya (10th Hindi) | 📤 push हो रहा है | 0 मिनट |
-| W2 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 3 मिनट |
-| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 3 मिनट |
-| W4 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 7 मिनट |
+| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 13 मिनट |
+| W2 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 17 मिनट |
+| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 17 मिनट |
+| W4 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 21 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 111 |
-| key 4 | 141 |
+| key 3 | 117 |
+| key 4 | 158 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -46,7 +46,6 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 04 visheshan kriya (Hindi) — 2 बार
 - Chapter 05 ling vachan karak (Hindi) — 2 बार
 - Chapter 03 sangya sarvanam (Hindi) — 2 बार
 - Chapter 06 kaal vachya (Hindi) — 2 बार
@@ -59,23 +58,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 09:12:06   [kaal_vachya] review Key_Facts_hi.txt: 6 issue(s): - Point 10: Example "सीता गाती है → गाया जाता है सीता से" uses an intransitive verb to form passive, contradictin
-19-11 09:13:36   [kaal_vachya] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 10 example uses "सीता द्वारा" for an animate agent while the rule states animate 
-19-11 09:16:57   [kaal_vachya] review PYQ_hi.txt: 2 issue(s): - In Section 2.1 Example 3 (द्विकर्मक क्रिया), the given answer (a) "शिष्य को गुरु द्वारा विद्या दी गई" contradicts the
-19-11 09:19:39   [kaal_vachya] review Important_Rules_hi.txt: 6 issue(s): - Rule 2 exception incorrectly claims continuous forms are not formed for "होना, रहना, जाना" and gives a co
-19-11 09:21:50   [kaal_vachya] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम ९ में "भूतकाल (सामान्य/सतत/पूर्ण) में सकर्मक क्रिया के साथ कर्ता पर 'ने' लगत
-19-11 09:21:50   [kaal_vachya] review: 1 section(s) corrected, 3 failed
-19-11 09:21:50   [kaal_vachya] written 1, failed 3; AI calls today 226/100000
-19-11 09:21:50 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya after 18 min: todo [] problems []
-19-11 09:21:51 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_08_excel (TODO: todo 4, problems 1)
-19-11 09:22:31   [varn_vartani] REJECTED review fix Feynman_hi.txt: reviewer still reports - In the table row for "अनुस्वार (ं) vs अनुनासिक (ँ)", the wrong example "हंसना" is incorre
-19-11 09:23:45   [excel] Practice_en_Set_03.txt try 1: re-solve disagrees (Q72 key c vs re-solve a)
-19-11 09:26:00   [sandhi] FAILED Practice_hi_Set_06.txt: too_long
-19-11 09:26:00   [sandhi] written 0, failed 5; AI calls today 233/100000
-19-11 09:26:00 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi after 121 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo'] problems []
-19-11 09:26:00 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word (OK: todo 0, problems 0)
-19-11 09:26:45   [excel] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-19-11 09:26:59   [word] review Content_en.txt: 1 issue(s): - The Quick Reference claim "Maximum file size (docx): 512 MB (text only); 32 MB for 32-bit Word with graphics" is 
 19-11 09:27:21   [excel] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
 19-11 09:27:59   [excel] Practice_en_Set_06.txt try 1: rejected (Q148:leaked_reasoning)
 19-11 09:28:21   [varn_vartani] review Important_Rules_hi.txt: 5 issue(s): - Section 1 states “३४ व्यंजन” and “४५ मूल वर्ण” but the listed व्यंजन are only 33 (क to ह) → The list cont
@@ -99,4 +81,21 @@
 19-11 09:32:51   [upsarg_pratyay] wrote Key_Facts_hi.txt (3603 chars)
 19-11 09:33:38   [visheshan_kriya] review: 2 section(s) corrected, 0 failed
 19-11 09:33:39   [visheshan_kriya] written 2, failed 0; AI calls today 251/100000
+19-11 09:33:59 DONE 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya in 33 min → c6f9ce75
+19-11 09:33:59 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (OK: todo 0, problems 0)
+19-11 09:34:10   [upsarg_pratyay] wrote Feynman_hi.txt (5757 chars)
+19-11 09:35:08   [ling_vachan_karak] review Content_hi.txt: 5 issue(s): - Section 1 table (नपुंसकलिंग) misclassifies "पत्तल" (feminine) and "कमरा" (masculine) as neuter → "पत्तल" is स्त्र
+19-11 09:36:38   [ling_vachan_karak] REJECTED review fix Content_hi.txt: reviewer still reports - Section 2 table "बहुवचन बनाने के नियम", row 2 header says "**आ** (स्त्रीलिंग)" but exampl
+19-11 09:37:16   [ling_vachan_karak] review Key_Facts_hi.txt: 5 issue(s): - Point 4 claims “निर्जीव पदार्थ प्रायः नपुंसकलिंग होते हैं” and lists किताब, मेज, पानी, आकाश as neuter; in Hindi
+19-11 09:37:46   [samas] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q2 key c vs re-solve b, Q12 key a vs re-solve b, Q18 key c vs re-solve a, Q25 key c vs re-solve b)
+19-11 09:38:04   [upsarg_pratyay] wrote Mind_Map.txt (1139 chars)
+19-11 09:39:11   [word] review Content_hi.txt: 1 issue(s): - त्वरित पुनरीक्षण (बिंदु 3) में Focus मोड का शॉर्टकट Alt+V,F गलत दिया गया है → सही शॉर्टकट Alt+W,F है (View टैब का
+19-11 09:40:48   [upsarg_pratyay] wrote Flashcards_hi.txt (3801 chars)
+19-11 09:41:20   [upsarg_pratyay] wrote PYQ_hi.txt (5889 chars)
+19-11 09:42:19   [ling_vachan_karak] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 4: Neuter gender examples 'बच्चा' and 'जानवर' are incorrect; they are masculine n
+19-11 09:43:12   [samas] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q2 key d vs re-solve b, Q15 key c vs re-solve a)
+19-11 09:44:00   [upsarg_pratyay] wrote Important_Rules_hi.txt (6424 chars)
+19-11 09:44:19   [word] REJECTED review fix Content_hi.txt: reviewer still reports - In the shortcuts table, the Redo shortcut for Word incorrectly includes "Ctrl+Shift+Z" as
+19-11 09:44:43   [upsarg_pratyay] Practice_hi_Set_01.txt try 1: rejected (parsed 24 questions, numbers 1…25)
+19-11 09:47:32   [upsarg_pratyay] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q1 key d vs re-solve a, Q20 key d vs re-solve a)
 ```
