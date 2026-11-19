@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 06:45 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 03:11 PM
+**आख़िरी update:** 19-11-2026 07:00 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 03:11 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 36 मिनट |
-| W2 | Chapter 09 powerpoint (12th Computer) | ✍️ लिख रहा है | 28 मिनट |
-| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 49 मिनट |
-| W4 | Chapter 08 excel (12th Computer) | 🔧 सुधार रहा है | 2 मिनट |
+| W1 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 52 मिनट |
+| W2 | Chapter 09 powerpoint (12th Computer) | ✍️ लिख रहा है | 43 मिनट |
+| W3 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 10 मिनट |
+| W4 | Chapter 08 excel (12th Computer) | 🔎 review हो रहा है | 12 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 152 |
-| key 4 | 138 |
+| key 3 | 167 |
+| key 4 | 145 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -27,7 +27,7 @@
 | किताब | प्रारंभिक जाँच पास | संरचना में सुधार बाकी | लिखना बाकी |
 |---|---|---|---|
 | 10th Hindi | 6 | 0 | 11 |
-| 12th Computer | 7 | 1 | 6 |
+| 12th Computer | 8 | 0 | 6 |
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 22 | 0 | 0 |
@@ -40,7 +40,7 @@
 | Graduation GK | 28 | 0 | 0 |
 | Graduation Reasoning | 30 | 0 | 0 |
 | Graduation English | 30 | 0 | 0 |
-| **कुल** | **309** | **1** | **17** |
+| **कुल** | **310** | **0** | **17** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -52,31 +52,12 @@
 - Chapter 07 word (Computer) — 2 बार
 - Chapter 06 kaal vachya (Hindi) — 2 बार
 - Chapter 01 varn vartani (Hindi) — 2 बार
-- Chapter 08 samas (Hindi) — 1 बार
+- Chapter 08 samas (Hindi) — 2 बार
 - Chapter 07 sandhi (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 18:08:02 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay (TODO: todo 5, problems 0)
-19-11 18:08:02   [upsarg_pratyay] Hindi-only writer: direct Hindi content; English generation and translation disabled
-19-11 18:08:46   [samas] Practice_hi_Set_01.txt try 1: rejected (parsed 24 questions, numbers 1…25)
-19-11 18:12:39   [samas] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q9 key a vs re-solve ?, Q25 key c vs re-solve a)
-19-11 18:16:53   [sandhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q126 key b vs re-solve a, Q127 key a vs re-solve d, Q128 key d vs re-solve a, Q133 key d vs re-solve
-19-11 18:16:53   [sandhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
-19-11 18:16:53   [sandhi] written 0, failed 5; AI calls today 253/100000
-19-11 18:16:53 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi after 148 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo'] problems []
-19-11 18:16:54 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_09_powerpoint (TODO: todo 25, problems 0)
-19-11 18:17:27   [samas] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q9 key a vs re-solve ?, Q17 key d vs re-solve ?, Q20 key c vs re-solve b, Q21 key c vs re-solve b, Q
-19-11 18:20:21   [samas] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q9 key a vs re-solve d)
-19-11 18:20:21   [samas] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
-19-11 18:21:57   [samas] Practice_hi_Set_03.txt try 1: rejected (parsed 24 questions, numbers 51…75)
-19-11 18:22:17   [upsarg_pratyay] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q7 key a vs re-solve d, Q14 key b vs re-solve a)
-19-11 18:22:38   [samas] Practice_hi_Set_03.txt try 2: rejected (Q56:duplicate_options)
-19-11 18:23:18   [powerpoint] wrote Content_en.txt (13076 chars)
-19-11 18:25:08   [powerpoint] wrote Content_hi.txt (22461 chars)
-19-11 18:25:37   [powerpoint] wrote Key_Facts_en.txt (6074 chars)
-19-11 18:26:06   [powerpoint] wrote Key_Facts_hi.txt (4483 chars)
 19-11 18:26:15   [samas] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q60 key d vs re-solve a, Q61 key b vs re-solve a, Q64 key a vs re-solve d, Q71 key b vs re-solve c, 
 19-11 18:26:28   [powerpoint] wrote Feynman_en.txt (4519 chars)
 19-11 18:27:10   [powerpoint] wrote Feynman_hi.txt (4869 chars)
@@ -98,4 +79,23 @@
 19-11 18:42:02   [excel] written 1, failed 0; AI calls today 289/100000
 19-11 18:42:51   [upsarg_pratyay] Practice_hi_Set_02.txt try 2: rejected (Q43:duplicate_options,Q45:duplicate_options)
 19-11 18:44:18   [samas] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q109 key b vs re-solve c, Q111 key d vs re-solve b, Q112 key c vs re-solve b)
+19-11 18:46:45   [samas] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q111 key b vs re-solve d)
+19-11 18:48:12   [excel] repaired PYQ_en.txt (8926 chars)
+19-11 18:48:12   [excel] written 1, failed 0; AI calls today 296/100000
+19-11 18:48:55   [upsarg_pratyay] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q36 key c vs re-solve ?, Q37 key c vs re-solve ?, Q40 key c vs re-solve a)
+19-11 18:50:07   [samas] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q109 key b vs re-solve c, Q111 key a vs re-solve d, Q112 key b vs re-solve c)
+19-11 18:50:07   [samas] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
+19-11 18:50:07   [samas] written 0, failed 3; AI calls today 298/100000
+19-11 18:50:07 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas after 55 min: todo ['Set 01 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo'] problems []
+19-11 18:50:07 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (OK: todo 0, problems 0)
+19-11 18:50:08   [varn_vartani] review Key_Facts_hi.txt: resumed private correction draft
+19-11 18:51:28   [excel] review Content_hi.txt round 1: 3 issue(s): - "डिफ़ॉल्ट रूप से नई वर्कबुक में तीन शीट होती हैं" → Excel 2016/365/2021+ में डिफ़ॉल्ट रूप से केवल **एक** 
+19-11 18:51:38   [powerpoint] wrote Flashcards_hi.txt (3773 chars)
+19-11 18:54:35   [excel] review Content_hi.txt round 2: 2 issue(s): - In the keyboard shortcuts table, the entry "नाम बॉक्स में जाएँ" with shortcut `Ctrl + G` is incorrect → `
+19-11 18:54:51   [upsarg_pratyay] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q36 key d vs re-solve b, Q39 key b vs re-solve ?, Q40 key c vs re-solve a, Q47 key d vs re-solve a)
+19-11 18:54:51   [upsarg_pratyay] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
+19-11 18:57:11   [excel] REJECTED review fix Content_hi.txt: reviewer still reports - "पुराने संस्करणों (2013 तक) में तीन शीट्स बनती थीं" गलत है — एक्सेल 2013 में भी डिफ़ॉल्ट 
+19-11 18:57:36   [varn_vartani] review Key_Facts_hi.txt round 1: 1 issue(s): - Point 17 example 'अण्डा' is a misspelling (the word is 'अंडा' without anusvara) → Replace with a correc
+19-11 18:58:14   [excel] review Key_Facts_hi.txt round 1: 1 issue(s): - The shortcut for toggling formula view is given as `Ctrl + ~` (tilde) → The correct shortcut is `Ctrl +
+19-11 18:59:54   [excel] review Key_Facts_hi.txt round 2: 1 issue(s): - Operator precedence order listed incorrectly: comparison before concatenation → Correct order: exponent
 ```
