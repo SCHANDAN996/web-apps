@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 02:33 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
+**आख़िरी update:** 20-11-2026 02:48 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
-| W2 | Chapter 08 samas (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
-| W3 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
-| W4 | Chapter 11 vilom (10th Hindi) | ✍️ लिख रहा है | 8 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 46 मिनट |
+| W2 | Chapter 11 email (12th Computer) | ✍️ लिख रहा है | 7 मिनट |
+| W3 | Chapter 09 upsarg pratyay (10th Hindi) | ✍️ लिख रहा है | 46 मिनट |
+| W4 | Chapter 11 vilom (10th Hindi) | ✍️ लिख रहा है | 24 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 13 |
-| key 4 | 25 |
+| key 3 | 22 |
+| key 4 | 37 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -49,24 +49,11 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 10 paryayvachi (Hindi) — 1 बार
+- Chapter 08 samas (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 02:02:23 API policy: account start interval=20s; key start interval=15s; in-flight per key=1
-20-11 02:02:24 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi (TODO: todo 5, problems 0)
-20-11 02:02:24   [sandhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
-20-11 02:02:29 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas (OK: todo 0, problems 0)
-20-11 02:02:29   [samas] review Key_Facts_hi.txt: resumed private correction draft
-20-11 02:02:34 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay (TODO: todo 2, problems 0)
-20-11 02:02:34   [upsarg_pratyay] Hindi-only writer: direct Hindi content; English generation and translation disabled
-20-11 02:02:39 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_10_paryayvachi (OK: todo 0, problems 0)
-20-11 02:02:39   [paryayvachi] review Key_Facts_hi.txt: resumed private correction draft
-20-11 02:03:13   [paryayvachi] review Feynman_hi.txt: resumed private correction draft
-20-11 02:04:40   [samas] review Key_Facts_hi.txt round 1: 3 issue(s): - Point 3 lists "उपवन" and "अनुज" as अव्ययीभाव examples, but both are noun compounds (तत्पुरुष), not inde
-20-11 02:06:51   [samas] review Key_Facts_hi.txt round 2: 2 issue(s): - Point 24: The विग्रह example for चतुरानन is grammatically incorrect; “यस्य चतुरः आननानि सः” should be “
-20-11 02:08:13   [paryayvachi] review Feynman_hi.txt round 1: 2 issue(s): - Question 1 explanation wrongly labels 'धूम' (smoke) as 'विलोमार्थी' (antonym) of अग्नि; धूम is a product 
-20-11 02:10:04   [paryayvachi] review Feynman_hi.txt round 2: 3 issue(s): - कार्ड 15 (पर्वत के पर्याय) में "पर्वत" स्वयं को पर्याय के रूप में सूचीबद्ध है → "पर्वत" को सूची से हटाएँ
 20-11 02:11:37   [paryayvachi] review Flashcards_hi.txt: resumed private correction draft
 20-11 02:12:12   [paryayvachi] review Flashcards_hi.txt round 1: 2 issue(s): - कार्ड 15: "तटिनी" की व्युत्पत्ति गलत दी गई है (तट + इनि = तटों को काटने वाली) → तटिनी = तट + इनि (स्त्
 20-11 02:14:27   [sandhi] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q1 key c vs re-solve d, Q3 key b vs re-solve d, Q4 key c vs re-solve d, Q17 key a vs re-solve d, Q18
@@ -93,4 +80,18 @@
 20-11 02:31:18   [samas] REJECTED review fix Mind_Map.txt: reviewer still reports - चतुरानन दोनों बहुव्रीहि (D2) और कर्मधारय (F1) में सूचीबद्ध है → चतुरानन को केवल बहुव्रीहि म
 20-11 02:31:18   [samas] review PYQ_hi.txt: resumed private correction draft
 20-11 02:33:41   [samas] review PYQ_hi.txt round 1: 2 issue(s): - Example 2 explanation incorrectly includes सप्तमी तत्पुरुष (हिमनि आलयः) as a possible analysis for हिमालय → ह
+20-11 02:34:55   [samas] review Important_Rules_hi.txt: resumed private correction draft
+20-11 02:35:50   [samas] review Important_Rules_hi.txt round 1: 1 issue(s): - Rule 5 table incorrectly includes a row for “कर्ता (कर्तृ) | प्रथमा” as a तत्पुरुष sub‑type; तत्प
+20-11 02:37:23   [sandhi] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q1 key d vs re-solve b, Q3 key d vs re-solve a, Q21 key d vs re-solve ?)
+20-11 02:38:43   [samas] review Important_Rules_hi.txt round 2: 2 issue(s): - Rule 9 incorrectly lists "उपवनम्" as an example of अव्ययीभाव; "उपवनम्" is a noun (तत्पुरुष) and d
+20-11 02:39:11   [vilom] wrote PYQ_hi.txt (6400 chars)
+20-11 02:40:01   [vilom] wrote Important_Rules_hi.txt (4864 chars)
+20-11 02:40:53   [samas] review: 2 section(s) corrected, 2 failed
+20-11 02:40:53   [samas] written 2, failed 2; AI calls today 52/100000
+20-11 02:40:53 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas after 38 min: todo [] problems []
+20-11 02:40:54 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_11_email (TODO: todo 25, problems 0)
+20-11 02:42:34   [email] wrote Content_en.txt (14394 chars)
+20-11 02:43:41   [upsarg_pratyay] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q14 key c vs re-solve d, Q16 key a vs re-solve c)
+20-11 02:43:57   [email] wrote Content_hi.txt (12035 chars)
+20-11 02:46:19   [upsarg_pratyay] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q14 key b vs re-solve a)
 ```
