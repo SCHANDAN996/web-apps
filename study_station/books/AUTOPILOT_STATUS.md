@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 08:30 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 06:58 AM
+**आख़िरी update:** 19-11-2026 08:46 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 06:58 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 35 मिनट |
-| W2 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 57 मिनट |
-| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 51 मिनट |
-| W4 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 66 मिनट |
+| W1 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 50 मिनट |
+| W2 | Chapter 07 word (12th Computer) | 🔎 review हो रहा है | 72 मिनट |
+| W3 | Chapter 08 samas (10th Hindi) | ✍️ लिख रहा है | 66 मिनट |
+| W4 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 81 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 66 |
-| key 4 | 89 |
+| key 3 | 71 |
+| key 4 | 101 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -55,17 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 07:51:19   [sandhi] Practice_hi_Set_01.txt try 4: rejected (Q7:duplicate_options,Q17:duplicate_options,Q20:duplicate_options,Q22:duplicate_options,Q24:duplicate_options)
-19-11 07:51:19   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
-19-11 07:52:24   [samas] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q7 key d vs re-solve b)
-19-11 07:52:24   [samas] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
-19-11 07:53:20   [samas] Practice_hi_Set_03.txt try 1: rejected (parsed 24 questions, numbers 51…75)
-19-11 07:53:31   [visheshan_kriya] review Important_Rules_hi.txt: 2 issue(s): - Rule 12 example "वह जोर से बोला" is given for क्रियाविशेषणीय विशेषण (adjective-form words functioning as 
-19-11 07:54:13   [sandhi] Practice_hi_Set_02.txt try 1: rejected (Q26:duplicate_options,Q27:duplicate_options,Q28:duplicate_options,Q29:duplicate_options,Q30:duplicate_options)
-19-11 07:55:28   [samas] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q55 key a vs re-solve b, Q71 key a vs re-solve b, Q72 key b vs re-solve a)
-19-11 07:55:47   [visheshan_kriya] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 12 example "वह धीरे चला" incorrectly identifies "धीरे" as an adjective form 
-19-11 07:55:47   [visheshan_kriya] review: 0 section(s) corrected, 2 failed
-19-11 07:55:47   [visheshan_kriya] written 0, failed 2; AI calls today 108/100000
 19-11 07:55:47 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya after 14 min: todo [] problems []
 19-11 07:55:48 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak (OK: todo 0, problems 0)
 19-11 07:56:55   [sandhi] Practice_hi_Set_02.txt try 2: rejected (Q37:duplicate_options,Q48:duplicate_options)
@@ -95,4 +84,15 @@
 19-11 08:28:39   [word] review PYQ_en.txt: 2 issue(s): - In Example 1 solution, the claim "Ctrl + Shift + F opens the Font dialog with focus on the Font list (legacy behavior
 19-11 08:29:13   [sandhi] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q102 key a vs re-solve b, Q105 key c vs re-solve d, Q106 key c vs re-solve d, Q109 key d vs re-solve
 19-11 08:30:19   [samas] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q113 key a vs re-solve d, Q115 key a vs re-solve d, Q119 key c vs re-solve d)
+19-11 08:33:57   [samas] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q113 key c vs re-solve d)
+19-11 08:35:54   [samas] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q113 key a vs re-solve d, Q120 key a vs re-solve b)
+19-11 08:37:44   [samas] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q113 key a vs re-solve d)
+19-11 08:37:44   [samas] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
+19-11 08:38:45   [samas] Practice_hi_Set_06.txt try 1: rejected (Q131:duplicate_options)
+19-11 08:40:46   [sandhi] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q104 key a vs re-solve d, Q105 key c vs re-solve b, Q109 key d vs re-solve ?, Q113 key a vs re-solve
+19-11 08:40:46   [sandhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
+19-11 08:41:21   [sandhi] Practice_hi_Set_06.txt try 1: rejected (Q128:duplicate_options,Q134:duplicate_options)
+19-11 08:42:07   [samas] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q127 key c vs re-solve a, Q137 key a vs re-solve c, Q140 key c vs re-solve b)
+19-11 08:42:07   [word] REJECTED review fix PYQ_en.txt: reviewer still reports - Example 1 solution incorrectly claims "Ctrl + Shift + F changes the font size in some context
+19-11 08:45:54   [samas] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q132 key a vs re-solve b, Q137 key b vs re-solve a, Q139 key d vs re-solve a, Q150 key c vs re-solve
 ```
