@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 06:39 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 01:32 AM
+**आख़िरी update:** 19-11-2026 06:54 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 01:32 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 67 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 82 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 258 |
-| key 4 | 165 |
+| key 3 | 259 |
+| key 4 | 167 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -56,8 +56,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 05:37:40   [ling_vachan_karak] review Key_Facts_hi.txt: 6 issue(s): - "हिंदी में तीन लिंग होते हैं: पुल्लिंग, स्त्रीलिंग, नपुंसकलिंग" → हिंदी में दो व्याकरणिक लिंग होते हैं: पुल्लिं
-19-11 05:40:31   [ling_vachan_karak] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 5: Example 'नौकर → नौकरी' for आकारांत पुल्लिंग → ईकारांत स्त्रीलिंग is incorrect;
 19-11 05:41:19   [ling_vachan_karak] review PYQ_hi.txt: 3 issue(s): - Section 6 "कारक चिह्न लोप" trap example "राम सीता मिला (को लोप)" incorrectly implies "को" is required with verb "मिलन
 19-11 05:43:18   [ling_vachan_karak] REJECTED review fix PYQ_hi.txt: reviewer still reports - The rule for ergative marker "ने" incorrectly states it appears only with "अन्य पुरुष" (third
 19-11 05:44:08   [ling_vachan_karak] review Important_Rules_hi.txt: 2 issue(s): - नियम ४(घ) का कथन "इ/ई/उ/ऊ/ए/ओकारांत: प्रायः अपरिवर्तित" गलत है क्योंकि स्त्रीलिंग ईकारांत संज्ञाओं (जैसे 
@@ -96,4 +94,6 @@
 19-11 06:18:42   [sandhi] Practice_hi_Set_02.txt try 4: rejected (Q39:duplicate_options)
 19-11 06:18:42   [sandhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
 19-11 06:23:54   [sandhi] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q51 key a vs re-solve b, Q54 key a vs re-solve d, Q55 key d vs re-solve a, Q58 key a vs re-solve d, 
+19-11 06:40:54   [sandhi] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q53 key c vs re-solve a, Q67 key a vs re-solve c, Q72 key b vs re-solve d)
+19-11 06:51:03   [sandhi] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q53 key d vs re-solve b, Q62 key b vs re-solve c, Q68 key c vs re-solve b, Q70 key c vs re-solve a, 
 ```
