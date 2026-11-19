@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 19-11-2026 07:14 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 06:58 AM
+**आख़िरी update:** 19-11-2026 07:29 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 19-11 06:58 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 16 मिनट |
-| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 16 मिनट |
-| W3 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 2 मिनट |
-| W4 | Chapter 05 ling vachan karak (10th Hindi) | 🔎 review हो रहा है | 15 मिनट |
+| W1 | Chapter 01 varn vartani (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
+| W2 | Chapter 03 sangya sarvanam (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
+| W3 | Chapter 06 kaal vachya (10th Hindi) | 🔎 review हो रहा है | 18 मिनट |
+| W4 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 4 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 19 |
-| key 4 | 15 |
+| key 3 | 27 |
+| key 4 | 34 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -47,12 +47,11 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 04 visheshan kriya (Hindi) — 1 बार
+- Chapter 05 ling vachan karak (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-19-11 06:58:02 autopilot start: 4 workers, reverse=False
-19-11 06:58:02 API policy: account start interval=20s; key start interval=15s; in-flight per key=1
 19-11 06:58:02 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani (OK: todo 0, problems 0)
 19-11 06:58:07 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam (OK: todo 0, problems 0)
 19-11 06:58:12 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya (OK: todo 0, problems 0)
@@ -75,4 +74,22 @@
 19-11 07:12:20   [varn_vartani] REJECTED review fix Content_hi.txt: reviewer still reports - In Section 3.1 (मात्रा-नियम table), the examples for matra 'इ' (ि) are incorrect: "फल" → 
 19-11 07:12:59   [varn_vartani] review Key_Facts_hi.txt: 1 issue(s): - बिंदु 6 में "नुक्ता-युक्त व्यंजन (2): ऩ, ऱ" गलत है → हिंदी में नुक्ता-युक्त व्यंजन अनेक हैं (क़, ख़, ग़, ज़, फ़
 19-11 07:13:52   [kaal_vachya] review Content_hi.txt: 4 issue(s): - Introduction claims 'प्रतिवर्ष 3–5 प्रश्न पूछे जाते हैं' without a specific year or source → remove the statistic
+19-11 07:15:27   [ling_vachan_karak] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 5 (Error Detection traps) gives wrong correction for "लड़की के भाई": states correct f
+19-11 07:15:49   [kaal_vachya] REJECTED review fix Content_hi.txt: reviewer still reports - उदाहरण 4 की व्याख्या में "कर्ता 'उसने' (ने जोड़ा)" गलत है क्योंकि वर्तमान सतत काल में कर्
+19-11 07:16:26   [kaal_vachya] review Key_Facts_hi.txt: 1 issue(s): - Point 18: The incorrect example claims “राम पढ़ेगा” → “पढ़ा जाएगा” is a past‑tense error, but “पढ़ा जाएगा” is f
+19-11 07:17:42   [varn_vartani] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 1 claims “2 नुक्ता-युक्त व्यंजन” — there are many nukta consonants (क़, ख़, ग़, ज
+19-11 07:18:59   [varn_vartani] review Feynman_hi.txt: 6 issue(s): - The list of 33 consonants includes 36 items (क्ष, त्र, ज्ञ are extra) → List only the 33 standard consonants (क t
+19-11 07:20:39   [varn_vartani] REJECTED review fix Feynman_hi.txt: reviewer still reports - Section 3 table (अनुस्वार vs अनुनासिक): The "गलत" entry "हंसना" is glossed as "पक्षी" (sw
+19-11 07:21:33   [kaal_vachya] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 2 lists “संदिग्ध वर्तमान” as a separate present‑tense form; in standard Hindi gra
+19-11 07:23:29   [sangya_sarvanam] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - In point 6, the example "लड़कोंने खेला" uses a singular verb with a plural subject; it 
+19-11 07:24:41   [ling_vachan_karak] FAILED review Important_Rules_hi.txt: too_long — the chapter must not be published unreviewed
+19-11 07:24:41   [ling_vachan_karak] review: 0 section(s) corrected, 4 failed
+19-11 07:24:41   [ling_vachan_karak] written 0, failed 4; AI calls today 52/100000
+19-11 07:24:41 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak after 26 min: todo [] problems []
+19-11 07:24:42 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi (TODO: todo 5, problems 0)
+19-11 07:24:42   [sandhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
+19-11 07:26:01   [kaal_vachya] review PYQ_hi.txt: 3 issue(s): - Section 2.1 जाल: “ने का प्रयोग केवल त्रिकालीन भूत (सरल/पूर्ण/अपूर्ण भूत) में कर्ता के साथ” is wrong because ने is not
+19-11 07:26:25   [varn_vartani] review Flashcards_hi.txt: 1 issue(s): - Card 13: "व + ौ = वौ (दुर्लभ, जैसे वौद्धिक नहीं, बौद्धिक सही है)" → The note wrongly presents "वौद्धिक" as an 
+19-11 07:27:21   [sandhi] Practice_hi_Set_01.txt try 1: rejected (parsed 23 questions, numbers 1…25)
+19-11 07:28:01   [sandhi] Practice_hi_Set_01.txt try 2: rejected (parsed 4 questions, numbers 1…4)
 ```
