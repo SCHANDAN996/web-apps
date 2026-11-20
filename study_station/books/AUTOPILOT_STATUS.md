@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 11:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
+**आख़िरी update:** 20-11-2026 11:27 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,17 +8,16 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 64 मिनट |
-| W4 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 10 मिनट |
-| W5 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 64 मिनट |
-| W6 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 64 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 80 मिनट |
+| W5 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 79 मिनट |
+| W6 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 79 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 12 |
-| key 4 | 21 |
-| key 5 | 25 |
-| key 6 | 29 |
+| key 3 | 15 |
+| key 4 | 25 |
+| key 5 | 28 |
+| key 6 | 30 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -50,24 +49,12 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 09 upsarg pratyay (Hindi) — 1 बार
+- Chapter 09 upsarg pratyay (Hindi) — 2 बार
 - Chapter 13 ek shabd (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 22:23:59   [upsarg_pratyay] written 0, failed 1; AI calls today 29/100000
-20-11 22:23:59 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay after 16 min: todo [] problems []
-20-11 22:24:26 worker 1: nothing left
-20-11 22:26:24   [sandhi] Practice_hi_Set_02.txt try 2: rejected (Q27:duplicate_options)
-20-11 22:29:16   [ek_shabd] wrote Practice_hi_Set_03.txt (write, 25 MCQs)
-20-11 22:29:16   [ek_shabd] written 1, failed 0; AI calls today 35/100000
-20-11 22:30:04   [vakya_shuddhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q27 key a vs re-solve c, Q30 key a vs re-solve d, Q31 key d vs re-solve b, Q33 key a vs re-solve c, 
-20-11 22:30:52   [ek_shabd] review Content_hi.txt round 1: 6 issue(s): - Claim that SSC GD, MTS, RRB Group D exams have 3–5 questions from this section every year → Remove unveri
-20-11 22:31:01   [rikt_sthan_vakya_kram] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q62 key b vs re-solve a, Q64 key c vs re-solve a, Q65 key b vs re-solve a, Q70 key d vs re-solve b, 
-20-11 22:35:26   [vakya_shuddhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q31 key d vs re-solve b, Q33 key b vs re-solve c, Q38 key b vs re-solve a)
-20-11 22:35:26   [vakya_shuddhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
-20-11 22:35:55   [ek_shabd] review Content_hi.txt round 2: 2 issue(s): - In वर्गीकरण 3, “जो सोया हुआ हो — निद्रालु” gives wrong meaning (निद्रालु = sleepy, not asleep) → “जो सोया
 20-11 22:39:32   [ek_shabd] REJECTED review fix Content_hi.txt: reviewer still reports - वर्गीकरण ५ में 'जो चारों ओर हो' के लिए 'पर्यावरण' दिया गया है → सही एकार्थी शब्द 'पर्यावृ
 20-11 22:40:15   [vakya_shuddhi] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q77 key a vs re-solve ?, Q81 key a vs re-solve ?, Q84 key c vs re-solve ?, Q85 key d vs re-solve ?, 
 20-11 22:40:57   [ek_shabd] review Key_Facts_hi.txt round 1: 4 issue(s): - Point 2 claims a fixed number of questions (2–3) in SSC GD, MTS, RRB Group D; this is an invented exam 
@@ -96,4 +83,16 @@
 20-11 23:01:34   [upsarg_pratyay] review Flashcards_hi.txt: resumed private correction draft
 20-11 23:04:02   [upsarg_pratyay] review Flashcards_hi.txt round 1: 3 issue(s): - Card 4: The example "दुहित (दुः+हित)" for the rule before ह is not a standard word; it should be remov
 20-11 23:08:54   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q82 key b vs re-solve d, Q87 key c vs re-solve d, Q88 key d vs re-solve c)
+20-11 23:13:59   [sandhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q26 key d vs re-solve c, Q28 key a vs re-solve d, Q32 key d vs re-solve a, Q35 key d vs re-solve b, 
+20-11 23:13:59   [sandhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
+20-11 23:14:11   [upsarg_pratyay] review Flashcards_hi.txt round 2: 1 issue(s): - Card 4 note lists incorrect double form 'दुष्शासन' for prefix 'दुस्' before श → correct double form is
+20-11 23:15:01   [sandhi] Practice_hi_Set_03.txt try 1: rejected (Q52:duplicate_options,Q54:duplicate_options,Q58:duplicate_options,Q60:duplicate_options,Q62:duplicate_options)
+20-11 23:16:16   [vakya_shuddhi] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q115 key a vs re-solve ?, Q119 key a vs re-solve d, Q120 key a vs re-solve ?, Q123 key d vs re-solve
+20-11 23:17:50   [upsarg_pratyay] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 4: The sandhi rule for दु- prefix incorrectly lists voiceless unaspirated consona
+20-11 23:17:50   [upsarg_pratyay] review: 0 section(s) corrected, 1 failed
+20-11 23:17:50   [upsarg_pratyay] written 0, failed 1; AI calls today 93/100000
+20-11 23:17:50 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay after 16 min: todo [] problems []
+20-11 23:18:17 worker 3: nothing left
+20-11 23:23:15   [vakya_shuddhi] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q102 key a vs re-solve ?, Q110 key d vs re-solve ?, Q111 key a vs re-solve ?, Q112 key c vs re-solve
+20-11 23:26:52   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q87 key c vs re-solve d)
 ```
