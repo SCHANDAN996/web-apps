@@ -1,22 +1,17 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 09:47 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 07:28 AM
+**आख़िरी update:** 20-11-2026 11:17 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 07:28 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 139 मिनट |
-| W2 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 89 मिनट |
-| W3 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 64 मिनट |
-| W4 | Chapter 12 e banking (12th Computer) | ✍️ लिख रहा है | 68 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 76 |
-| key 4 | 89 |
+| key 3 | 108 |
+| key 4 | 136 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -48,51 +43,55 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 09 upsarg pratyay (Hindi) — 1 बार
+- Chapter 09 upsarg pratyay (Hindi) — 2 बार
 - Chapter 11 vilom (Hindi) — 1 बार
 - Chapter 11 email (Computer) — 1 बार
+- Chapter 07 sandhi (Hindi) — 1 बार
+- Chapter 13 ek shabd (Hindi) — 1 बार
+- Chapter 12 e banking (Computer) — 1 बार
+- Chapter 12 anekarthi samshrut (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 08:48:13   [ek_shabd] wrote Key_Facts_hi.txt (3458 chars)
-20-11 08:49:00   [ek_shabd] wrote Feynman_hi.txt (4306 chars)
-20-11 08:49:11   [ek_shabd] wrote Mind_Map.txt (1449 chars)
-20-11 08:49:35   [ek_shabd] wrote Flashcards_hi.txt (1532 chars)
-20-11 08:58:16   [sandhi] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q53 key d vs re-solve b, Q63 key d vs re-solve b, Q65 key a vs re-solve b, Q67 key b vs re-solve a, 
-20-11 08:58:16   [sandhi] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
-20-11 08:59:08   [sandhi] Practice_hi_Set_05.txt try 1: rejected (Q103:duplicate_options,Q106:duplicate_options,Q107:duplicate_options,Q109:duplicate_options,Q110:duplicate_opt
-20-11 08:59:36   [anekarthi_samshrut] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q7 key d vs re-solve ?, Q18 key a vs re-solve d, Q19 key d vs re-solve ?, Q20 key b vs re-solve ?, Q
-20-11 08:59:40   [e_banking] wrote Feynman_hi.txt (3423 chars)
-20-11 09:00:04   [e_banking] wrote Mind_Map.txt (1278 chars)
-20-11 09:00:57   [e_banking] wrote Flashcards_en.txt (5574 chars)
-20-11 09:02:35   [ek_shabd] wrote PYQ_hi.txt (7305 chars)
-20-11 09:02:59   [ek_shabd] wrote Important_Rules_hi.txt (3034 chars)
-20-11 09:04:46   [sandhi] Practice_hi_Set_05.txt try 2: rejected (Q113:duplicate_options,Q115:duplicate_options,Q116:duplicate_options,Q119:duplicate_options,Q124:duplicate_opt
-20-11 09:06:00   [anekarthi_samshrut] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q7 key a vs re-solve ?, Q19 key b vs re-solve ?, Q20 key c vs re-solve a, Q25 key c vs re-solve ?)
-20-11 09:08:30   [ek_shabd] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q8 key b vs re-solve a, Q15 key c vs re-solve b)
-20-11 09:13:19   [anekarthi_samshrut] wrote Practice_hi_Set_01.txt (write, 25 MCQs)
-20-11 09:13:48   [sandhi] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q112 key b vs re-solve d, Q113 key c vs re-solve ?, Q115 key c vs re-solve d)
-20-11 09:15:15   [ek_shabd] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q13 key d vs re-solve b)
-20-11 09:17:07   [ek_shabd] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q15 key c vs re-solve b, Q24 key b vs re-solve c)
-20-11 09:19:01   [ek_shabd] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q15 key a vs re-solve b, Q24 key a vs re-solve c)
-20-11 09:19:01   [ek_shabd] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
-20-11 09:22:21   [ek_shabd] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q37 key b vs re-solve c, Q47 key d vs re-solve b)
-20-11 09:23:34   [sandhi] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q112 key d vs re-solve b, Q113 key c vs re-solve ?, Q115 key c vs re-solve d, Q117 key d vs re-solve
-20-11 09:23:34   [sandhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
-20-11 09:23:59   [e_banking] wrote Flashcards_hi.txt (4384 chars)
-20-11 09:24:34   [e_banking] wrote PYQ_en.txt (5893 chars)
-20-11 09:26:01   [e_banking] wrote PYQ_hi.txt (12842 chars)
-20-11 09:26:06   [ek_shabd] wrote Practice_hi_Set_02.txt (write, 25 MCQs)
-20-11 09:26:29   [e_banking] wrote Important_Rules_en.txt (5469 chars)
-20-11 09:29:16   [e_banking] wrote Important_Rules_hi.txt (6284 chars)
-20-11 09:30:40   [sandhi] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q126 key a vs re-solve d, Q132 key d vs re-solve a, Q136 key b vs re-solve c, Q137 key d vs re-solve
-20-11 09:32:04   [e_banking] wrote Practice_en_Set_01.txt (write, 25 MCQs)
-20-11 09:34:20   [ek_shabd] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q53 key c vs re-solve a, Q60 key a vs re-solve b, Q63 key b vs re-solve d, Q65 key d vs re-solve b, 
-20-11 09:38:20   [ek_shabd] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q65 key a vs re-solve d, Q67 key c vs re-solve b, Q74 key b vs re-solve a)
-20-11 09:43:03   [sandhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q126 key d vs re-solve a, Q130 key a vs re-solve d, Q137 key c vs re-solve b, Q148 key c vs re-solve
-20-11 09:43:24   [ek_shabd] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q60 key d vs re-solve a, Q63 key c vs re-solve b, Q72 key b vs re-solve a, Q74 key c vs re-solve b)
-20-11 09:44:10   [e_banking] Practice_hi_Set_01.txt try 1: rejected (parsed 25 questions, numbers 51…75)
-20-11 09:44:54   [e_banking] Practice_hi_Set_01.txt try 2: rejected (parsed 25 questions, numbers 51…75)
-20-11 09:46:53   [e_banking] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
+20-11 10:17:08   [e_banking] 2026-11-20 04:47:08,222 WARNING NVIDIA rate_limited — retrying in 20s
+20-11 10:20:01   [e_banking] Practice_en_Set_03.txt try 2: re-solve disagrees (Q61 key c vs re-solve d)
+20-11 10:23:39   [e_banking] Practice_en_Set_03.txt try 3: re-solve disagrees (Q53 key b vs re-solve ?)
+20-11 10:23:55   [anekarthi_samshrut] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q104 key d vs re-solve ?, Q121 key a vs re-solve ?, Q123 key d vs re-solve ?)
+20-11 10:28:29   [ek_shabd] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q135 key d vs re-solve c, Q136 key b vs re-solve d, Q141 key b vs re-solve c, Q145 key c vs re-solve
+20-11 10:28:30   [anekarthi_samshrut] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q106 key b vs re-solve a, Q122 key c vs re-solve a, Q123 key c vs re-solve a)
+20-11 10:29:14   [e_banking] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+20-11 10:31:48   [e_banking] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
+20-11 10:32:30   [ek_shabd] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q135 key a vs re-solve d, Q137 key c vs re-solve d, Q141 key b vs re-solve c, Q143 key d vs re-solve
+20-11 10:38:09   [anekarthi_samshrut] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q106 key d vs re-solve ?, Q122 key b vs re-solve a, Q123 key b vs re-solve a, Q124 key b vs re-solve
+20-11 10:38:09   [anekarthi_samshrut] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
+20-11 10:39:33   [ek_shabd] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q135 key a vs re-solve d, Q141 key b vs re-solve a)
+20-11 10:39:37   [e_banking] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+20-11 10:41:24   [e_banking] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
+20-11 10:43:26   [e_banking] Practice_en_Set_05.txt try 1: re-solve disagrees (Q108 key d vs re-solve a, Q114 key a vs re-solve d)
+20-11 10:44:33   [ek_shabd] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q131 key c vs re-solve b)
+20-11 10:44:33   [ek_shabd] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
+20-11 10:44:33   [ek_shabd] written 9, failed 4; AI calls today 219/100000
+20-11 10:44:33 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd after 122 min: todo ['Set 01 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo', 'Set 06 hi: todo'] problems []
+20-11 10:44:33 worker 2: stop file found — stopping
+20-11 10:47:34   [e_banking] 2026-11-20 05:17:34,545 WARNING NVIDIA rate_limited — retrying in 20s
+20-11 10:48:11   [anekarthi_samshrut] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q132 key d vs re-solve b, Q133 key b vs re-solve ?, Q139 key d vs re-solve ?, Q146 key c vs re-solve
+20-11 10:50:04   [e_banking] wrote Practice_en_Set_05.txt (write, 25 MCQs)
+20-11 10:50:55   [e_banking] Practice_hi_Set_05.txt try 1: rejected (parsed 24 questions, numbers 101…125)
+20-11 10:50:55   [e_banking] 2026-11-20 05:20:55,253 WARNING NVIDIA rate_limited — retrying in 20s
+20-11 10:52:45   [e_banking] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
+20-11 10:55:23   [e_banking] Practice_en_Set_06.txt try 1: re-solve disagrees (Q144 key d vs re-solve b)
+20-11 10:59:06   [e_banking] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+20-11 10:59:37   [anekarthi_samshrut] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q133 key d vs re-solve c, Q135 key a vs re-solve c, Q145 key a vs re-solve ?)
+20-11 11:00:03   [e_banking] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+20-11 11:00:03   [e_banking] written 23, failed 2; AI calls today 233/100000
+20-11 11:00:03 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_12_e_banking after 142 min: todo ['Set 02 en: todo', 'Set 02 hi: todo'] problems ['Content_hi.txt: unsourced claim "(concept)"', 'Set 03 Practice_hi_Set_03.txt: unverified exam/year source "']
+20-11 11:00:03 worker 3: stop file found — stopping
+20-11 11:10:30   [anekarthi_samshrut] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q140 key c vs re-solve a)
+20-11 11:17:32   [anekarthi_samshrut] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q136 key a vs re-solve c, Q140 key a vs re-solve b)
+20-11 11:17:32   [anekarthi_samshrut] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
+20-11 11:17:32   [anekarthi_samshrut] written 2, failed 2; AI calls today 236/100000
+20-11 11:17:32 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_12_anekarthi_samshrut after 180 min: todo ['Set 05 hi: todo', 'Set 06 hi: todo'] problems []
+20-11 11:17:32 worker 1: stop file found — stopping
+20-11 11:17:43 autopilot end: done 1, failed 7
 ```
