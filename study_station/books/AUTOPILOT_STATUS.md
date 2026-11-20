@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 01:07 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
+**आख़िरी update:** 20-11-2026 01:22 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,23 +8,23 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 108 मिनट |
-| W10 | Chapter 14 cyber security (12th Computer) | ✍️ लिख रहा है | 107 मिनट |
-| W11 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 107 मिनट |
-| W12 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 107 मिनट |
-| W3 | Chapter 11 vilom (10th Hindi) | 🔎 review हो रहा है | 108 मिनट |
-| W4 | Chapter 17 apathit gadyansh (10th Hindi) | ✍️ लिख रहा है | 97 मिनट |
-| W6 | Chapter 12 e banking (12th Computer) | 🔎 review हो रहा है | 72 मिनट |
-| W7 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 107 मिनट |
-| W8 | Chapter 13 networking (12th Computer) | ✍️ लिख रहा है | 107 मिनट |
-| W9 | Chapter 14 muhavare lokokti (10th Hindi) | ✍️ लिख रहा है | 107 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 123 मिनट |
+| W10 | Chapter 14 cyber security (12th Computer) | ✍️ लिख रहा है | 122 मिनट |
+| W11 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 122 मिनट |
+| W12 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 122 मिनट |
+| W3 | Chapter 11 vilom (10th Hindi) | 🔎 review हो रहा है | 123 मिनट |
+| W4 | Chapter 17 apathit gadyansh (10th Hindi) | ✍️ लिख रहा है | 112 मिनट |
+| W6 | Chapter 12 e banking (12th Computer) | 🔎 review हो रहा है | 87 मिनट |
+| W7 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 123 मिनट |
+| W8 | Chapter 13 networking (12th Computer) | ✍️ लिख रहा है | 123 मिनट |
+| W9 | Chapter 14 muhavare lokokti (10th Hindi) | ✍️ लिख रहा है | 122 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 39 |
-| key 4 | 60 |
-| key 5 | 58 |
-| key 6 | 64 |
+| key 3 | 43 |
+| key 4 | 68 |
+| key 5 | 64 |
+| key 6 | 65 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -62,17 +62,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 12:31:41   [e_banking] review Content_en.txt round 1: 4 issue(s): - NEFT settlement description states "Half-hourly batches (23 settlements/day, 00:30–23:30)" → Since Decemb
-20-11 12:31:42   [networking] wrote Important_Rules_en.txt (7373 chars)
-20-11 12:32:28   [muhavare_lokokti] Practice_hi_Set_01.txt try 2: rejected (parsed 24 questions, numbers 1…25)
-20-11 12:33:36   [upsarg_pratyay] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 4: Wrong rule for 'दु-' – it states that before क, ख, ग, घ, ङ the prefix becomes 
-20-11 12:33:36   [upsarg_pratyay] review Important_Rules_hi.txt: resumed private correction draft
-20-11 12:34:40   [networking] wrote Important_Rules_hi.txt (4978 chars)
-20-11 12:35:52   [apathit_gadyansh] wrote Practice_hi_Set_02.txt (write, 25 MCQs)
-20-11 12:36:31   [ek_shabd] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q64 key b vs re-solve a, Q66 key b vs re-solve a)
-20-11 12:37:26   [vakya_shuddhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q29 key c vs re-solve ?, Q32 key b vs re-solve ?, Q33 key b vs re-solve ?, Q36 key a vs re-solve ?, 
-20-11 12:38:46   [apathit_gadyansh] Practice_hi_Set_03.txt try 1: rejected (parsed 50 questions, numbers 51…100)
-20-11 12:40:09   [rikt_sthan_vakya_kram] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q37 key c vs re-solve b)
 20-11 12:40:27   [ek_shabd] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q66 key b vs re-solve a)
 20-11 12:40:27   [ek_shabd] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
 20-11 12:40:35   [e_banking] review Content_en.txt round 2: 2 issue(s): - Tokenisation mandate date in Card Networks table stated as "effective Oct 2022" → correct mandatory effec
@@ -102,4 +91,15 @@
 20-11 13:02:19   [muhavare_lokokti] wrote Practice_hi_Set_02.txt (write, 25 MCQs)
 20-11 13:02:23   [e_banking] review Feynman_en.txt round 1: 1 issue(s): - The answer to Recall Question 2 states IMPS for a ₹10 lakh instant transfer, but IMPS has a per-transacti
 20-11 13:05:38   [cyber_security] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+20-11 13:08:14   [ek_shabd] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q128 key b vs re-solve c, Q129 key c vs re-solve a, Q132 key d vs re-solve a, Q139 key b vs re-solve
+20-11 13:10:30   [cyber_security] wrote Practice_en_Set_03.txt (write, 25 MCQs)
+20-11 13:13:25   [ek_shabd] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q128 key b vs re-solve c, Q139 key b vs re-solve a)
+20-11 13:15:26   [vakya_shuddhi] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q54 key d vs re-solve c, Q57 key b vs re-solve c, Q59 key b vs re-solve d, Q60 key a vs re-solve b, 
+20-11 13:16:30   [rikt_sthan_vakya_kram] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q38 key d vs re-solve b)
+20-11 13:16:30   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
+20-11 13:18:09   [sandhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q28 key c vs re-solve d, Q32 key a vs re-solve b, Q36 key a vs re-solve b, Q38 key a vs re-solve ?, 
+20-11 13:19:03   [rikt_sthan_vakya_kram] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q57 key d vs re-solve a, Q64 key d vs re-solve a, Q68 key a vs re-solve b, Q71 key a vs re-solve c)
+20-11 13:19:44   [ek_shabd] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q139 key b vs re-solve c, Q150 key b vs re-solve a)
+20-11 13:20:05   [muhavare_lokokti] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q55 key a vs re-solve b)
+20-11 13:22:16   [networking] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 ```
