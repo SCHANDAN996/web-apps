@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 06:22 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
+**आख़िरी update:** 20-11-2026 06:37 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 vilom (10th Hindi) | ✍️ लिख रहा है | 26 मिनट |
-| W2 | Chapter 11 email (12th Computer) | ✍️ लिख रहा है | 221 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 32 मिनट |
-| W4 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 104 मिनट |
+| W1 | Chapter 11 vilom (10th Hindi) | ✍️ लिख रहा है | 41 मिनट |
+| W2 | Chapter 11 email (12th Computer) | ✍️ लिख रहा है | 236 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 48 मिनट |
+| W4 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 119 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 163 |
-| key 4 | 118 |
+| key 3 | 166 |
+| key 4 | 124 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -56,13 +56,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 05:36:31   [upsarg_pratyay] review PYQ_hi.txt round 2: 1 issue(s): - Pattern ब: option (a) “ईय” is incorrect; the suffix in “पठनीय” is “नीय”, not “ईय”. The explanation correctly 
-20-11 05:38:26   [upsarg_pratyay] REJECTED review fix PYQ_hi.txt: reviewer still reports - पैटर्न ब (प्रत्यय पहचानो) के विकल्प (a) में "नीया" लिखा है → सही प्रत्यय "नीय" है (उदाहरण: पठ
-20-11 05:39:27   [samas] review Mind_Map.txt round 2: 2 issue(s): - Under षष्ठी तत्पुरुष, the example "देवदत्त" is not a genitive (षष्ठी) compound; it is an instrumental (तृती
-20-11 05:39:48   [anekarthi_samshrut] 2026-11-20 00:09:48,033 WARNING NVIDIA rate_limited — retrying in 20s
-20-11 05:40:24   [upsarg_pratyay] review Important_Rules_hi.txt round 1: 5 issue(s): - Rule 8: The rule for उपसर्ग 'अ' and 'अन' is reversed; it states 'अ' before vowel and 'अन' before 
-20-11 05:41:40   [samas] review: 2 section(s) corrected, 0 failed
-20-11 05:41:40   [samas] written 2, failed 0; AI calls today 240/100000
 20-11 05:41:54 DONE 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas in 27 min → 7b96a788
 20-11 05:41:55 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_10_paryayvachi (OK: todo 0, problems 0)
 20-11 05:41:55   [paryayvachi] review Important_Rules_hi.txt: resumed private correction draft
@@ -96,4 +89,11 @@
 20-11 06:10:50   [email] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 20-11 06:16:14   [anekarthi_samshrut] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q78 key b vs re-solve ?, Q83 key a vs re-solve ?, Q94 key b vs re-solve d, Q96 key b vs re-solve ?, 
 20-11 06:19:57   [sandhi] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q11 key a vs re-solve c, Q14 key c vs re-solve b, Q15 key d vs re-solve c, Q18 key d vs re-solve c, 
+20-11 06:23:04   [anekarthi_samshrut] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q98 key a vs re-solve b, Q100 key d vs re-solve c)
+20-11 06:26:22   [sandhi] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q11 key c vs re-solve a, Q15 key c vs re-solve a, Q18 key d vs re-solve c, Q21 key c vs re-solve d, 
+20-11 06:26:22   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
+20-11 06:27:26   [sandhi] Practice_hi_Set_02.txt try 1: rejected (Q41:leaked_reasoning,Q30:duplicate_options,Q32:duplicate_options,Q34:duplicate_options,Q36:duplicate_options)
+20-11 06:27:35   [anekarthi_samshrut] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q98 key c vs re-solve a, Q100 key a vs re-solve c)
+20-11 06:35:16   [anekarthi_samshrut] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q100 key a vs re-solve c)
+20-11 06:35:16   [anekarthi_samshrut] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
 ```
