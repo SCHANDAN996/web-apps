@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 09:01 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 07:28 AM
+**आख़िरी update:** 20-11-2026 09:16 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 07:28 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 93 मिनट |
-| W2 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 43 मिनट |
-| W3 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 18 मिनट |
-| W4 | Chapter 12 e banking (12th Computer) | ✍️ लिख रहा है | 22 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 108 मिनट |
+| W2 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 58 मिनट |
+| W3 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 33 मिनट |
+| W4 | Chapter 12 e banking (12th Computer) | ✍️ लिख रहा है | 38 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 51 |
-| key 4 | 68 |
+| key 3 | 60 |
+| key 4 | 74 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -55,14 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 08:25:40   [vilom] review Mind_Map.txt round 2: 1 issue(s): - D1 में "सुन्दर-असुन्दर" उपसर्ग-आधारित विलोम के रूप में गलत है → "सुन्दर" का मानक विलोम "कुरूप" या "बदसूरत" 
-20-11 08:26:00   [sandhi] Practice_hi_Set_03.txt try 1: rejected (Q52:duplicate_options,Q59:duplicate_options,Q68:duplicate_options,Q70:duplicate_options,Q72:duplicate_options)
-20-11 08:27:01   [vilom] REJECTED review fix Mind_Map.txt: reviewer still reports - D1 में "सुन्दर-कुरूप" को उपसर्ग-निर्मित विलोम बताया गया है, जबकि "कुरूप" "सुन्दर" में उपसर्
-20-11 08:27:53   [vilom] 2026-11-20 02:57:53,692 WARNING NVIDIA rate_limited — retrying in 20s
-20-11 08:28:58   [email] review PYQ_hi.txt round 2: 1 issue(s): - "लोकल-पार्ट तकनीकी रूप से केस-सेंसिटिव हो सकता है (RFC 5321)" in the common mistakes section is inaccurate; R
-20-11 08:30:58   [sandhi] Practice_hi_Set_03.txt try 2: rejected (Q74:duplicate_options)
-20-11 08:32:01   [vilom] review PYQ_hi.txt round 1: 1 issue(s): - In Practice Question 3 explanation, it incorrectly states that the antonym of "पुत्र" is "पुत्रहीन"; "पुत्रही
-20-11 08:34:41   [vilom] review Important_Rules_hi.txt round 1: 8 issue(s): - Rule 1 example “बालक → बालिका” changes gender (पुल्लिंग → स्त्रीलिंग) while the rule states gende
 20-11 08:36:48   [vilom] review Important_Rules_hi.txt round 2: 6 issue(s): - Rule 2: Example “पवित्र → अनपवित्र” uses an incorrect prefix; the standard opposite is “अपवित्र”.
 20-11 08:38:26   [vilom] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम २ की उपसर्ग सूची में “अनु‑” को नकारात्मक उपसर्ग बताया गया है → “अनु‑” नकारात
 20-11 08:38:26   [vilom] review: 2 section(s) corrected, 3 failed
@@ -95,4 +87,12 @@
 20-11 08:59:40   [e_banking] wrote Feynman_hi.txt (3423 chars)
 20-11 09:00:04   [e_banking] wrote Mind_Map.txt (1278 chars)
 20-11 09:00:57   [e_banking] wrote Flashcards_en.txt (5574 chars)
+20-11 09:02:35   [ek_shabd] wrote PYQ_hi.txt (7305 chars)
+20-11 09:02:59   [ek_shabd] wrote Important_Rules_hi.txt (3034 chars)
+20-11 09:04:46   [sandhi] Practice_hi_Set_05.txt try 2: rejected (Q113:duplicate_options,Q115:duplicate_options,Q116:duplicate_options,Q119:duplicate_options,Q124:duplicate_opt
+20-11 09:06:00   [anekarthi_samshrut] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q7 key a vs re-solve ?, Q19 key b vs re-solve ?, Q20 key c vs re-solve a, Q25 key c vs re-solve ?)
+20-11 09:08:30   [ek_shabd] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q8 key b vs re-solve a, Q15 key c vs re-solve b)
+20-11 09:13:19   [anekarthi_samshrut] wrote Practice_hi_Set_01.txt (write, 25 MCQs)
+20-11 09:13:48   [sandhi] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q112 key b vs re-solve d, Q113 key c vs re-solve ?, Q115 key c vs re-solve d)
+20-11 09:15:15   [ek_shabd] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q13 key d vs re-solve b)
 ```
