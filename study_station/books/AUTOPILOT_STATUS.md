@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 21-11-2026 02:37 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
+**आख़िरी update:** 21-11-2026 02:52 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,16 +8,16 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 18 मिनट |
-| W3 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 18 मिनट |
-| W4 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 18 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 33 मिनट |
+| W3 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 33 मिनट |
+| W4 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 33 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 8 |
-| key 4 | 6 |
-| key 5 | 4 |
-| key 6 | 14 |
+| key 3 | 11 |
+| key 4 | 10 |
+| key 5 | 7 |
+| key 6 | 17 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -54,12 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-21-11 02:18:46 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi (TODO: todo 5, problems 0)
-21-11 02:18:49   [sandhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
-21-11 02:18:51 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd (OK: todo 0, problems 0)
-21-11 02:18:52   [ek_shabd] review Content_hi.txt: resumed private correction draft
-21-11 02:18:56 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi (TODO: todo 3, problems 0)
-21-11 02:18:57   [vakya_shuddhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
 21-11 02:19:01 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram (TODO: todo 4, problems 0)
 21-11 02:19:02   [rikt_sthan_vakya_kram] Hindi-only writer: direct Hindi content; English generation and translation disabled
 21-11 02:19:26 worker 4: nothing left
@@ -94,4 +88,10 @@
 21-11 02:34:36 worker 1: nothing left
 21-11 02:36:20   [vakya_shuddhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q41 key b vs re-solve a, Q48 key c vs re-solve ?)
 21-11 02:36:28   [rikt_sthan_vakya_kram] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q52 key d vs re-solve a, Q74 key c vs re-solve b)
+21-11 02:37:53   [sandhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q29 key d vs re-solve a, Q36 key c vs re-solve b, Q39 key d vs re-solve a, Q41 key c vs re-solve b, 
+21-11 02:40:36   [vakya_shuddhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q30 key d vs re-solve c, Q33 key b vs re-solve c)
+21-11 02:40:36   [vakya_shuddhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
+21-11 02:44:19   [rikt_sthan_vakya_kram] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q52 key d vs re-solve a, Q58 key b vs re-solve d)
+21-11 02:46:53   [sandhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q36 key b vs re-solve c, Q39 key b vs re-solve a)
+21-11 02:48:33   [vakya_shuddhi] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q82 key a vs re-solve d, Q90 key d vs re-solve b, Q92 key d vs re-solve ?, Q95 key c vs re-solve ?, 
 ```
