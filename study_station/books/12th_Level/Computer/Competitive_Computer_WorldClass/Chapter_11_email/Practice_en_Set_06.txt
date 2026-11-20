@@ -1,0 +1,151 @@
+Questions 126–145: Easy | Questions 146–150: Medium
+
+126. Which protocol is used for sending outgoing email messages from a client to a mail server?
+(a) SMTP (b) IMAP (c) POP3 (d) HTTP
+Answer: (a)
+Solution: IMAP and POP3 are used for retrieving incoming mail, while HTTP is for web traffic; SMTP (Simple Mail Transfer Protocol) is the standard for sending mail, so the answer is SMTP.
+Source: PYQ-style
+
+127. What does the "CC" field in an email stand for?
+(a) Confidential Copy (b) Carbon Copy (c) Certified Copy (d) Computer Copy
+Answer: (b)
+Solution: "Confidential Copy" and "Certified Copy" are plausible-sounding distractors, but CC originates from carbon paper duplication and means Carbon Copy, so the answer is Carbon Copy.
+Source: PYQ-style
+
+128. Which protocol allows an email client to synchronize messages across multiple devices by keeping mail on the server?
+(a) FTP (b) POP3 (c) SMTP (d) IMAP
+Answer: (d)
+Solution: POP3 typically downloads and deletes from the server, while FTP is for file transfer; IMAP (Internet Message Access Protocol) leaves messages on the server for multi-device sync, so the answer is IMAP.
+Source: PYQ-style
+
+129. What is the default port number for SMTP with STARTTLS encryption?
+(a) 993 (b) 465 (c) 587 (d) 25
+Answer: (c)
+Solution: Port 25 is plain SMTP, 465 is legacy SMTPS, and 993 is IMAPS; the modern submission port with STARTTLS is 587, so the answer is 587.
+Source: PYQ-style
+
+130. In an email header, which field indicates the actual sender's email address?
+(a) From (b) Return-Path (c) Sender (d) Reply-To
+Answer: (b)
+Solution: "From" can be spoofed and "Reply-To" directs replies; Return-Path (also called envelope sender) records the actual SMTP MAIL FROM address used for bounce handling, so the answer is Return-Path.
+Source: PYQ-style
+
+131. What does MIME stand for in the context of email?
+(a) Multipurpose Internet Mail Extensions (b) Mail Internet Messaging Extension (c) Multi-user Internet Message Encoding (d) Mail Interface for Message Exchange
+Answer: (a)
+Solution: The other options invent similar-sounding expansions; the correct standard is Multipurpose Internet Mail Extensions, so the answer is Multipurpose Internet Mail Extensions.
+Source: PYQ-style
+
+132. Which email folder typically stores messages that have been sent successfully?
+(a) Drafts (b) Outbox (c) Archive (d) Sent
+Answer: (d)
+Solution: Drafts holds unsent compositions, Outbox holds messages waiting to send, and Archive is for long-term storage; Sent stores copies of successfully transmitted mail, so the answer is Sent.
+Source: PYQ-style
+
+133. What is the primary purpose of the BCC field?
+(a) To hide recipient addresses from each other (b) To send a copy to the server administrator (c) To mark the message as high priority (d) To request a read receipt
+Answer: (a)
+Solution: BCC (Blind Carbon Copy) conceals the listed addresses from all other recipients, unlike CC; it does not notify administrators or request receipts, so the answer is To hide recipient addresses from each other.
+Source: PYQ-style
+
+134. Which of the following is a common indicator of a phishing email?
+(a) Personalized greeting with your full name (b) Digital signature from a known contact (c) Urgent threat of account closure (d) Attachment in PDF format
+Answer: (c)
+Solution: Legitimate organizations rarely threaten immediate closure; urgency and fear are classic social-engineering tactics, while personalized greetings and digital signatures suggest authenticity, so the answer is Urgent threat of account closure.
+Source: PYQ-style
+
+135. What does the "Spam" folder contain?
+(a) Automatically filtered unsolicited bulk messages (b) Emails with large attachments (c) Emails you have flagged for follow-up (d) Messages you have deleted permanently
+Answer: (a)
+Solution: Flagged mail goes to a separate folder, large attachments are not auto-filtered, and deleted mail goes to Trash; Spam holds algorithmically detected junk mail, so the answer is Automatically filtered unsolicited bulk messages.
+Source: PYQ-style
+
+136. Which protocol uses port 993 by default?
+(a) POP3S (b) HTTPS (c) IMAPS (d) SMTPS
+Answer: (c)
+Solution: POP3S uses 995, SMTPS uses 465, and HTTPS uses 443; IMAP over SSL/TLS (IMAPS) defaults to port 993, so the answer is IMAPS.
+Source: PYQ-style
+
+137. In Gmail, which keyboard shortcut composes a new message?
+(a) Ctrl + N (b) C (c) M (d) N
+Answer: (b)
+Solution: Ctrl+N is a browser/OS shortcut, M mutes a thread, and N moves to next message; pressing C (with keyboard shortcuts enabled) opens a new compose window, so the answer is C.
+Source: PYQ-style
+
+138. What is the function of an email "signature" block?
+(a) To encrypt the message (b) To automatically append contact details (c) To verify the sender's identity cryptographically (d) To schedule delayed delivery
+Answer: (b)
+Solution: Encryption and cryptographic verification use S/MIME or PGP, not a signature block; scheduling is a separate feature; a signature block simply appends predefined text like name and phone, so the answer is To automatically append contact details.
+Source: PYQ-style
+
+139. Which header field lists the mail servers that handled the message in transit?
+(a) Path (b) X-Mailer (c) Route (d) Received
+Answer: (d)
+Solution: Route and Path are not standard header names; X-Mailer identifies the sending client; each hop adds a Received line showing server, timestamp, and protocol, so the answer is Received.
+Source: PYQ-style
+
+140. What does "Reply All" do?
+(a) Replies only to the sender (b) Sends a read receipt (c) Forwards the message to a new address (d) Replies to the sender and all CC recipients
+Answer: (d)
+Solution: Reply goes to sender only, Forward creates a new message, and read receipts are requested separately; Reply All includes everyone in To and CC (but not BCC), so the answer is Replies to the sender and all CC recipients.
+Source: PYQ-style
+
+141. Which file extension is commonly blocked by email gateways due to executable risk?
+(a) .exe (b) .jpg (c) .txt (d) .pdf
+Answer: (a)
+Solution: PDF, JPG, and TXT are generally safe data formats; .exe is a Windows executable that can carry malware, so gateways routinely block or strip it, so the answer is .exe.
+Source: PYQ-style
+
+142. In Microsoft Outlook, which keyboard shortcut initiates a manual Send/Receive for all accounts?
+(a) Ctrl + S (b) F9 (c) Alt + S (d) Ctrl + Enter
+Answer: (b)
+Solution: Ctrl+S saves, Ctrl+Enter may send in some webmail but not Outlook desktop, Alt+S sends the current message; F9 is the documented shortcut for manual Send/Receive, so the answer is F9.
+Source: PYQ-style
+
+143. What is the purpose of an "Out of Office" (Automatic Replies) message?
+(a) To notify senders you are unavailable (b) To mark all mail as read (c) To delete incoming mail automatically (d) To forward mail to a colleague
+Answer: (a)
+Solution: It does not delete, forward, or mark read; it simply sends an automated response informing senders of your absence, so the answer is To notify senders you are unavailable.
+Source: PYQ-style
+
+144. Which search operator in Gmail finds messages with attachments?
+(a) file:yes (b) attachment:true (c) attach:* (d) has:attachment
+Answer: (d)
+Solution: The other syntaxes are not valid Gmail operators; has:attachment is the documented operator for filtering messages that contain any attachment, so the answer is has:attachment.
+Source: PYQ-style
+
+145. What does "whitelisting" an email address do?
+(a) Blocks all mail from that address (b) Marks mail from that address as spam (c) Ensures mail from that address bypasses spam filters (d) Deletes mail from that address after 30 days
+Answer: (c)
+Solution: Blocking and marking spam are opposite actions; auto-delete is a retention policy; whitelisting adds the address to a safe-senders list so its mail is delivered to the inbox, so the answer is Ensures mail from that address bypasses spam filters.
+Source: PYQ-style
+
+146. What does DKIM (DomainKeys Identified Mail) primarily verify?
+(a) The sender's IP address (b) The recipient's email address (c) The integrity of the message content and headers (d) The email's spam score
+Answer: (c)
+Solution: SPF checks the sender's IP address, while DKIM uses a cryptographic signature to ensure the message content and headers have not been altered in transit; it does not verify the recipient or assign a spam score, so the answer is The integrity of the message content and headers.
+Source: PYQ-style
+
+147. Which email authentication method allows the receiving server to check if an IP is authorized to send for a domain?
+(a) DMARC (b) DKIM (c) SPF (d) S/MIME
+Answer: (c)
+Solution: DKIM verifies message integrity via cryptographic signature, DMARC sets policy for SPF/DKIM failures, and S/MIME encrypts content; SPF (Sender Policy Framework) publishes authorized sending IPs in DNS, so the answer is SPF.
+Source: PYQ-style
+
+148. In a corporate Exchange environment, what is the purpose of a "Distribution Group"?
+(a) To archive old emails (b) To send email to multiple recipients via a single address (c) To assign permissions to a folder (d) To schedule meetings automatically
+Answer: (b)
+Solution: Archiving uses retention policies, folder permissions use ACLs, and meeting scheduling uses calendaring; a distribution group expands to member addresses for one-to-many mail, so the answer is To send email to multiple recipients via a single address.
+Source: PYQ-style
+
+149. Which MIME type is correct for a plain text email body?
+(a) message/rfc822 (b) text/html (c) application/octet-stream (d) text/plain
+Answer: (d)
+Solution: text/html is for HTML mail, application/octet-stream is generic binary, and message/rfc822 encapsulates a full message; plain text uses text/plain, so the answer is text/plain.
+Source: PYQ-style
+
+150. An email header shows "DKIM=pass" and "SPF=pass" but "DMARC=fail". What is the most likely cause?
+(a) The From domain does not align with SPF or DKIM domains (b) The sending IP is not in the SPF record (c) The DKIM signature failed verification (d) The message was modified in transit
+Answer: (a)
+Solution: SPF and DKIM both passed, so (b) and (c) are contradicted; modification would break DKIM; DMARC requires identifier alignment (From domain matches SPF mail-from or DKIM d= domain), so misalignment causes failure despite individual passes, so the answer is The From domain does not align with SPF or DKIM domains.
+Source: PYQ-style

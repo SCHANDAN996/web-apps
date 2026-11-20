@@ -1,0 +1,155 @@
+PYQ Pattern Analysis — Email
+
+Question patterns
+1. Protocol identification
+   Questions name a port number or a full form and ask which protocol it belongs to (SMTP, POP3, IMAP, HTTP/HTTPS for webmail). Expect distractors such as port 21 (FTP), port 23 (Telnet), port 80 (HTTP).
+
+2. Port-number recall
+   Standard ports are tested repeatedly:
+   - SMTP 25 (plain/STARTTLS), 465 (SMTPS), 587 (submission)
+   - POP3 110 (plain), 995 (POP3S)
+   - IMAP 143 (plain), 993 (IMAPS)
+   Trap: confusing submission port 587 with SMTPS 465.
+
+3. Client vs. server roles
+   "Which protocol is used to send mail from a client to a server?" → SMTP.
+   "Which protocol allows a client to download and delete mail from the server?" → POP3.
+   "Which protocol keeps mail on the server and synchronises folders?" → IMAP.
+   Examiner trap: wording "receive mail" without specifying download vs. sync.
+
+4. Webmail vs. desktop client
+   Questions contrast browser-based access (HTTP/HTTPS) with configured clients (Outlook, Thunderbird) that use SMTP/POP3/IMAP. Trap: stating "Gmail uses POP3" without qualifying "when configured in a desktop client".
+
+5. Security & encryption
+   - STARTTLS upgrades a plain connection; SSL/TLS wraps the connection from the start.
+   - S/MIME and PGP/GPG provide end-to-end encryption and digital signatures.
+   Trap: confusing transport-layer encryption (STARTTLS) with message-level encryption (S/MIME).
+
+6. Email header fields
+   From, To, Cc, Bcc, Subject, Date, Message-ID, Received chain. Questions ask which field hides recipients from each other (Bcc) or which field traces the mail path (Received).
+
+7. MIME & attachments
+   Base64 encoding increases size by ~33 %. Questions may ask the encoding method or the header that declares content type (Content-Type: multipart/mixed).
+
+8. Spam/phishing indicators
+   - Mismatched From domain and SPF/DKIM/DMARC failure.
+   - Urgent language, generic greetings, suspicious links/attachments.
+   Trap: "SPF checks the sender's IP" — correct, but DKIM checks cryptographic signature, DMARC aligns both.
+
+9. Mailbox quotas & archiving
+   Typical limits (e.g., 15 GB free Google storage shared across Gmail/Drive/Photos) are not static; questions instead test concepts: quota exceeded → bounce, archiving moves mail to local PST/OST.
+
+10. Auto-reply / vacation responder
+    Triggered once per sender per period; does not reply to mailing lists or spam folder mail.
+
+Common examiner traps
+- Near-correct statements: "IMAP downloads and deletes mail from server" (false — that is POP3 default).
+- Chronology confusion: "SMTP was designed after IMAP" (false — SMTP 1982, IMAP 1986).
+- Similar names: POP vs. POP3, IMAP vs. IMAP4, SMTPS vs. STARTTLS.
+- Negative phrasing: "Which of the following is NOT a mail retrieval protocol?" (SMTP is the answer).
+- Multiple correct options where only one fits the specific scenario (e.g., "protocol that synchronises sent folder across devices" → IMAP, not POP3).
+
+PYQ-style examples (original, labelled)
+
+Example 1
+A user configures a desktop mail client with the following settings:
+Incoming server: imap.example.com, port 993, SSL/TLS
+Outgoing server: smtp.example.com, port 587, STARTTLS
+Which statement is correct?
+(a) Incoming mail uses POP3 over TLS.
+(b) Outgoing mail uses implicit TLS on port 465.
+(c) Incoming mail uses IMAP over implicit TLS; outgoing mail uses explicit TLS.
+(d) Both connections use the same encryption method.
+Answer: (c)
+Solution: Port 993 with SSL/TLS is IMAPS (implicit TLS). Port 587 with STARTTLS is SMTP submission with explicit TLS upgrade. (a) wrong protocol; (b) wrong port; (d) different methods.
+Source: PYQ-style
+
+Example 2
+Which header field is primarily used to trace the sequence of MTAs that handled an email?
+(a) Message-ID
+(b) Received
+(c) Return-Path
+(d) X-Priority
+Answer: (b)
+Solution: Each MTA prepends a Received: line. Message-ID is unique per message; Return-Path is bounce address; X-Priority is user-defined.
+Source: PYQ-style
+
+Example 3
+An organisation wants end-to-end encryption so that even the mail server cannot read message bodies. Which technology provides this?
+(a) STARTTLS on SMTP
+(b) IMAPS on port 993
+(c) S/MIME with user-held private keys
+(d) SPF/DKIM/DMARC alignment
+Answer: (c)
+Solution: STARTTLS and IMAPS protect transport only. SPF/DKIM/DMARC authenticate domain, not encrypt content. S/MIME (or PGP) encrypts the message body with the recipient's public key; private key stays with user.
+Source: PYQ-style
+
+Example 4
+A user receives a mail claiming to be from "bank@example.com" but the Received chain shows the last hop as "unknown[192.0.2.55]". The From domain publishes an SPF record "v=spf1 ip4:203.0.113.0/24 -all". What is the SPF result?
+(a) Pass
+(b) Fail
+(c) SoftFail
+(d) Neutral
+Answer: (b)
+Solution: Sending IP 192.0.2.55 is not in the authorised 203.0.113.0/24 range; "-all" means Fail.
+Source: PYQ-style
+
+Example 5
+Which MIME Content-Type header indicates a message with both plain-text and HTML parts?
+(a) text/plain
+(b) text/html
+(c) multipart/alternative
+(d) multipart/mixed
+Answer: (c)
+Solution: multipart/alternative carries alternative representations of the same content (plain + HTML). multipart/mixed is for distinct attachments.
+Source: PYQ-style
+
+Example 6
+In a corporate environment, users report that sent items do not appear in the "Sent" folder when they use a mobile app, but appear when they use Outlook on desktop. The mobile app uses ActiveSync (Exchange ActiveSync). What is the most likely cause?
+(a) ActiveSync does not support Sent folder synchronisation.
+(b) The mobile app is configured with POP3 instead of ActiveSync.
+(c) The server policy disables Sent folder sync for mobile devices.
+(d) The user exceeded mailbox quota on the mobile device only.
+Answer: (c)
+Solution: ActiveSync (EAS) does synchronise Sent items. A server-side policy (e.g., Exchange ActiveSync mailbox policy) can disable specific folder sync. (a) is false; (b) contradicts premise; (d) quota affects all folders.
+Source: PYQ-style
+
+Example 7
+Which statement about Bcc (Blind Carbon Copy) is correct?
+(a) Bcc recipients see each other's addresses.
+(b) Bcc addresses appear in the Received headers.
+(c) Bcc recipients are hidden from To, Cc, and other Bcc recipients.
+(d) Bcc is encrypted by default in SMTP.
+Answer: (c)
+Solution: Bcc addresses are stripped by the submitting MTA before onward delivery; they are not visible to any recipient. (a) false; (b) false; (d) SMTP does not encrypt by default.
+Source: PYQ-style
+
+Example 8
+A user sets an out-of-office auto-reply from 1 June to 30 June. On 15 June a mailing list sends a message to the user. What happens?
+(a) Auto-reply is sent to the mailing list address.
+(b) Auto-reply is suppressed because the message has Precedence: list or List-Id header.
+(c) Auto-reply is sent once per day to the mailing list.
+(d) Auto-reply is sent only if the user is in the To field.
+Answer: (b)
+Solution: Standards-compliant auto-responders suppress replies to mailing-list traffic (detected via Precedence: list, List-Id, or envelope sender). (a) would cause loops; (c) not standard; (d) irrelevant.
+Source: PYQ-style
+
+Example 9
+Which port is the IANA-registered default for SMTP message submission with explicit TLS (STARTTLS)?
+(a) 25
+(b) 465
+(c) 587
+(d) 2525
+Answer: (c)
+Solution: Port 587 is designated for message submission (RFC 6409). Port 25 is server-to-server relay; 465 is the IANA-registered port for implicit TLS (SMTPS) per RFC 8314; 2525 is an unofficial alternative.
+Source: PYQ-style
+
+Example 10
+An email carries a DKIM-Signature header with "d=example.com; s=selector1;". The receiving server fetches the public key from DNS. Which DNS record type and name is queried?
+(a) TXT selector1._domainkey.example.com
+(b) CNAME selector1._domainkey.example.com
+(c) TXT _dmarc.example.com
+(d) MX example.com
+Answer: (a)
+Solution: DKIM public key is published as a TXT record at selector._domainkey.domain. (c) is for DMARC policy; (d) is for mail routing.
+Source: PYQ-style

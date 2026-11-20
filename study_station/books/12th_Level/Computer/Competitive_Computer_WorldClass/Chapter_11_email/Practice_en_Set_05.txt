@@ -1,0 +1,149 @@
+101. Which protocol is used for sending email messages from a client to a mail server?
+(a) POP3 (b) IMAP (c) SMTP (d) HTTP
+Answer: (c)
+Solution: POP3 and IMAP are used for retrieving emails from a server, while HTTP is for web pages; SMTP (Simple Mail Transfer Protocol) is the standard for sending mail, so the answer is SMTP.
+Source: PYQ-style
+
+102. What is the default port number for SMTP when using TLS encryption?
+(a) 25 (b) 587 (c) 465 (d) 110
+Answer: (b)
+Solution: Port 25 is plain SMTP, 465 was historically SMTPS but deprecated, 110 is POP3; port 587 is the standard submission port with STARTTLS, so the answer is 587.
+Source: PYQ-style
+
+103. Which protocol allows a user to access and manage emails directly on the mail server without downloading them?
+(a) POP3 (b) SMTP (c) IMAP (d) FTP
+Answer: (c)
+Solution: POP3 downloads and usually deletes from server, SMTP sends mail, FTP transfers files; IMAP (Internet Message Access Protocol) keeps messages on the server for multi-device sync, so the answer is IMAP.
+Source: PYQ-style
+
+104. In an email address "user@domain.com", what does the part after "@" represent?
+(a) Username (b) Password hint (c) Top-level domain only (d) Mail server host name
+Answer: (d)
+Solution: The part before "@" is the local-part (username), the part after is the domain identifying the mail server host, so the answer is mail server host name.
+Source: PYQ-style
+
+105. What does MIME stand for in the context of email?
+(a) Mail Internet Messaging Extension (b) Multi-user Internet Mail Exchange (c) Multipurpose Internet Mail Extensions (d) Mail Integration Messaging Engine
+Answer: (c)
+Solution: The other options are plausible-sounding but invented; MIME stands for Multipurpose Internet Mail Extensions, enabling attachments and non-ASCII text, so the answer is Multipurpose Internet Mail Extensions.
+Source: PYQ-style
+
+106. Which header field indicates the primary recipients of an email?
+(a) Cc (b) To (c) Bcc (d) From
+Answer: (b)
+Solution: Cc is carbon copy, Bcc is blind carbon copy, From is the sender; To lists primary recipients, so the answer is To.
+Source: PYQ-style
+
+107. What is the purpose of the Bcc field in an email?
+(a) To send a copy to the sender (b) To request a read receipt (c) To mark email as high priority (d) To hide recipient addresses from each other
+Answer: (d)
+Solution: Bcc (Blind Carbon Copy) sends copies without revealing those addresses to To or Cc recipients; it does not send to sender, mark priority, or request receipts, so the answer is to hide recipient addresses from each other.
+Source: PYQ-style
+
+108. Which email authentication method uses a cryptographic signature to verify the sender's domain?
+(a) SPF (b) TLS (c) DMARC (d) DKIM
+Answer: (d)
+Solution: SPF checks sending IP, DMARC is a policy framework, TLS encrypts transport; DKIM (DomainKeys Identified Mail) adds a digital signature linked to the domain, so the answer is DKIM.
+Source: PYQ-style
+
+109. What does SPF (Sender Policy Framework) primarily check?
+(a) Whether the sending IP is authorized for the domain (b) Email content for spam (c) Digital signature validity (d) Encryption of the connection
+Answer: (a)
+Solution: SPF publishes authorized sending IPs in DNS; it does not scan content, verify signatures (DKIM), or enforce encryption, so the answer is whether the sending IP is authorized for the domain.
+Source: PYQ-style
+
+110. Which protocol uses port 993 by default?
+(a) IMAPS (b) POP3S (c) SMTPS (d) HTTP
+Answer: (a)
+Solution: POP3S uses 995, SMTPS historically 465, HTTP 80; IMAPS (IMAP over SSL/TLS) uses port 993, so the answer is IMAPS.
+Source: PYQ-style
+
+111. What is the maximum recommended size for a single email attachment in most standard email systems?
+(a) 25 MB (b) 5 MB (c) 100 MB (d) 1 GB
+Answer: (a)
+Solution: Many providers (Gmail, Outlook) limit attachments to 25 MB; larger files need cloud links, so the answer is 25 MB.
+Source: PYQ-style
+
+112. Which header field is automatically added by the receiving mail server to trace the email's path?
+(a) Return-Path (b) Received (c) Message-ID (d) Date
+Answer: (b)
+Solution: Each server adds a Received header with timestamp and identity; Return-Path is for bounces, Message-ID is created by sender, Date by sender; Received shows the path, so the answer is Received.
+Source: PYQ-style
+
+113. What does "phishing" refer to in email security?
+(a) Sending bulk commercial email (b) Filtering spam automatically (c) Encrypting email content (d) Fraudulent attempt to obtain sensitive information by disguising as trustworthy entity
+Answer: (d)
+Solution: Spam is bulk mail, encryption protects content, filtering blocks spam; phishing specifically deceives users to steal credentials or data, so the answer is fraudulent attempt to obtain sensitive information by disguising as trustworthy entity.
+Source: PYQ-style
+
+114. Which email feature allows a user to automatically reply to incoming messages when away?
+(a) Forwarding (b) Vacation responder / Out of Office (c) Filter (d) Signature
+Answer: (b)
+Solution: Forwarding redirects mail, filters sort mail, signature appends text; vacation responder sends automatic replies, so the answer is Vacation responder / Out of Office.
+Source: PYQ-style
+
+115. What is the function of an email "alias"?
+(a) An alternate address that delivers to the same mailbox (b) A separate mailbox with its own password (c) A temporary address that expires (d) An encrypted address
+Answer: (a)
+Solution: An alias is not a separate account, does not expire automatically, and is not inherently encrypted; it simply routes mail to the primary mailbox, so the answer is an alternate address that delivers to the same mailbox.
+Source: PYQ-style
+
+116. Which protocol is used by Microsoft Outlook to connect to Exchange Server using MAPI over HTTP?
+(a) POP3 (b) IMAP (c) MAPI/HTTP (d) EAS
+Answer: (c)
+Solution: POP3/IMAP are standard protocols, EAS is Exchange ActiveSync for mobile; modern Outlook uses MAPI over HTTP for Exchange connectivity, so the answer is MAPI/HTTP.
+Source: PYQ-style
+
+117. What does the "Reply-To" header do?
+(a) Specifies where replies should be sent, different from From (b) Sets the sender address (c) Requests a read receipt (d) Blocks replies
+Answer: (a)
+Solution: From is sender, read receipt is Disposition-Notification-To, blocking replies is not a header function; Reply-To directs replies to a different address, so the answer is specifies where replies should be sent, different from From.
+Source: PYQ-style
+
+118. Which email standard defines the format of email messages (headers and body structure)?
+(a) RFC 5321 (b) RFC 5322 (c) RFC 2045 (d) RFC 3501
+Answer: (b)
+Solution: RFC 5321 is SMTP, RFC 2045 is MIME part 1, RFC 3501 is IMAP; RFC 5322 defines the Internet Message Format, so the answer is RFC 5322.
+Source: PYQ-style
+
+119. What is "spoofing" in email context?
+(a) Sending large attachments (b) Deleting emails automatically (c) Encrypting the message (d) Forging the sender address to appear as someone else
+Answer: (d)
+Solution: Large attachments are size issues, encryption protects content, auto-delete is a filter; spoofing specifically falsifies the From header, so the answer is forging the sender address to appear as someone else.
+Source: PYQ-style
+
+120. Which folder typically stores emails that have been sent successfully?
+(a) Drafts (b) Outbox (c) Sent (d) Archive
+Answer: (c)
+Solution: Drafts holds unsent, Outbox holds pending, Archive is for storage; Sent folder stores copies of successfully sent messages, so the answer is Sent.
+Source: PYQ-style
+
+121. In DKIM, what is the purpose of the "selector" in the DNS record?
+(a) To choose encryption algorithm (b) To set expiration date (c) To allow multiple keys for the same domain (d) To specify recipient domain
+Answer: (c)
+Solution: Selector does not choose algorithm, set expiry, or specify recipient; it enables a domain to publish multiple DKIM keys (e.g., for different services) under different names, so the answer is to allow multiple keys for the same domain.
+Source: PYQ-style
+
+122. What does DMARC policy "p=reject" instruct receiving servers to do?
+(a) Reject emails that fail authentication (b) Quarantine failing emails (c) Deliver normally but mark as spam (d) Send aggregate reports only
+Answer: (a)
+Solution: p=quarantine isolates, p=none monitors, reports are separate; p=reject tells receivers to discard messages failing SPF/DKIM alignment, so the answer is reject emails that fail authentication.
+Source: PYQ-style
+
+123. Which MIME content-type is used for a multipart message containing both plain text and HTML versions?
+(a) text/plain (b) text/html (c) multipart/mixed (d) multipart/alternative
+Answer: (d)
+Solution: text/plain and text/html are single parts; multipart/mixed is for attachments; multipart/alternative signals that parts are alternative representations of the same content, so the answer is multipart/alternative.
+Source: PYQ-style
+
+124. What is the purpose of the "List-Unsubscribe" header in commercial emails?
+(a) To hide recipient list (b) To provide a one-click unsubscribe mechanism (c) To encrypt the mailing list (d) To verify sender identity
+Answer: (b)
+Solution: It does not hide recipients, encrypt lists, or verify identity; it gives mail clients a standard way to unsubscribe without visiting a website, so the answer is to provide a one-click unsubscribe mechanism.
+Source: PYQ-style
+
+125. When an email bounces with a 5xx SMTP reply code, what does it indicate?
+(a) Permanent delivery failure (b) Temporary delivery delay (c) Successful delivery (d) Message queued for retry
+Answer: (a)
+Solution: 4xx codes are temporary, 2xx success, queued is internal; 5xx means permanent failure (e.g., invalid address, policy rejection), so the answer is permanent delivery failure.
+Source: PYQ-style

@@ -1,0 +1,149 @@
+1. Which protocol is used for sending emails from a client to a mail server?
+(a) SMTP (b) POP3 (c) IMAP (d) HTTP
+Answer: (a)
+Solution: Many candidates confuse SMTP with POP3 or IMAP, which are used for receiving emails; SMTP (Simple Mail Transfer Protocol) is the standard for sending, so the answer is SMTP.
+Source: PYQ-style
+
+2. What is the default port number for SMTP when using TLS encryption?
+(a) 25 (b) 587 (c) 465 (d) 110
+Answer: (b)
+Solution: Port 465 was historically used for SMTPS but is deprecated; the modern standard for mail submission with STARTTLS is port 587, so the answer is 587.
+Source: PYQ-style
+
+3. Which protocol allows a user to access and manage emails directly on the mail server without downloading them?
+(a) IMAP (b) POP3 (c) SMTP (d) FTP
+Answer: (a)
+Solution: POP3 downloads and usually deletes emails from the server, while IMAP (Internet Message Access Protocol) keeps them on the server for multi-device access, so the answer is IMAP.
+Source: PYQ-style
+
+4. In an email header, what does the "BCC" field stand for?
+(a) Blind Carbon Copy (b) Blank Carbon Copy (c) Bulk Carbon Copy (d) Binary Carbon Copy
+Answer: (a)
+Solution: Candidates often misread BCC as "Bulk" or "Blank"; it stands for Blind Carbon Copy, hiding recipients from each other, so the answer is Blind Carbon Copy.
+Source: PYQ-style
+
+5. Which part of an email address comes after the "@" symbol?
+(a) Username (b) Top-level domain (c) Domain name (d) Subdomain
+Answer: (c)
+Solution: The part before "@" is the local-part (username); the part after is the domain name (e.g., gmail.com), so the answer is Domain name.
+Source: PYQ-style
+
+6. What is the primary purpose of the "Subject" line in an email?
+(a) To encrypt the message (b) To attach files (c) To summarize the content (d) To set priority
+Answer: (c)
+Solution: The subject line gives a brief summary so the recipient knows the topic before opening; it does not encrypt or attach, so the answer is To summarize the content.
+Source: PYQ-style
+
+7. Which email protocol uses port 110 by default?
+(a) SMTP (b) IMAP (c) POP3 (d) HTTP
+Answer: (c)
+Solution: Port 110 is the default for POP3 (non-encrypted); IMAP uses 143, SMTP uses 25/587, so the answer is POP3.
+Source: PYQ-style
+
+8. What does "Phishing" refer to in email security?
+(a) Fraudulent attempt to obtain sensitive information (b) Sending bulk advertisements (c) Encrypting emails (d) Filtering spam
+Answer: (a)
+Solution: Phishing is a social-engineering attack disguised as a legitimate email to steal credentials; it is not spam or encryption, so the answer is Fraudulent attempt to obtain sensitive information.
+Source: PYQ-style
+
+9. Which of the following is a valid email address format?
+(a) user@domain.com (b) user@domain (c) user@.com (d) @domain.com
+Answer: (a)
+Solution: A valid address requires a local-part, "@", and a fully qualified domain name with at least one dot; user@domain lacks a TLD, so the answer is user@domain.com.
+Source: PYQ-style
+
+10. What is the function of an email "attachment"?
+(a) To encrypt the message (b) To mark as read (c) To forward the email (d) To include additional files
+Answer: (d)
+Solution: Attachments allow sending files (documents, images) along with the message; they do not encrypt or forward, so the answer is To include additional files.
+Source: PYQ-style
+
+11. Which protocol uses port 993 by default for secure connections?
+(a) POP3S (b) SMTPS (c) IMAPS (d) HTTPS
+Answer: (c)
+Solution: Port 993 is for IMAP over SSL/TLS (IMAPS); POP3S uses 995, SMTPS uses 465/587, so the answer is IMAPS.
+Source: PYQ-style
+
+12. In email etiquette, what does "Reply All" do?
+(a) Replies only to the sender (b) Replies to sender and all recipients in To/CC (c) Forwards the email (d) Deletes the email
+Answer: (b)
+Solution: "Reply" goes to sender only; "Reply All" includes everyone in To and CC fields (not BCC), so the answer is Replies to sender and all recipients in To/CC.
+Source: PYQ-style
+
+13. What is the purpose of an "Out of Office" auto-reply?
+(a) To delete incoming emails (b) To encrypt replies (c) To block spam (d) To inform senders of temporary unavailability
+Answer: (d)
+Solution: It automatically notifies senders that the recipient is away and may not respond immediately; it does not delete or block, so the answer is To inform senders of temporary unavailability.
+Source: PYQ-style
+
+14. Which header field indicates the email address(es) that should receive a reply?
+(a) From (b) To (c) Return-Path (d) Reply-To
+Answer: (d)
+Solution: "From" shows sender, "To" shows primary recipients; "Reply-To" explicitly sets where replies go, so the answer is Reply-To.
+Source: PYQ-style
+
+15. What does "Spam" refer to in email?
+(a) Encrypted emails (b) Unsolicited bulk messages (c) Emails with attachments (d) High-priority emails
+Answer: (b)
+Solution: Spam is unwanted, unsolicited bulk email, often commercial or malicious; it is not defined by encryption or attachments, so the answer is Unsolicited bulk messages.
+Source: PYQ-style
+
+16. Which protocol is used to retrieve emails from a server to a local client and typically deletes them from the server?
+(a) IMAP (b) HTTP (c) SMTP (d) POP3
+Answer: (d)
+Solution: POP3 (Post Office Protocol v3) downloads and usually removes emails from the server, unlike IMAP which syncs, so the answer is POP3.
+Source: PYQ-style
+
+17. What is the maximum size limit for an email attachment in Gmail (as of standard configuration)?
+(a) 10 MB (b) 100 MB (c) 50 MB (d) 25 MB
+Answer: (d)
+Solution: Gmail allows attachments up to 25 MB; larger files require Google Drive links, so the answer is 25 MB.
+Source: PYQ-style
+
+18. Which of the following is NOT a common email client?
+(a) Microsoft Outlook (b) Mozilla Thunderbird (c) Google Chrome (d) Apple Mail
+Answer: (c)
+Solution: Chrome is a web browser, not a dedicated email client (though it can access webmail); Outlook, Thunderbird, and Apple Mail are email clients, so the answer is Google Chrome.
+Source: PYQ-style
+
+19. What does "CC" stand for in email?
+(a) Carbon Copy (b) Courtesy Copy (c) Confidential Copy (d) Computer Copy
+Answer: (a)
+Solution: CC originates from carbon paper copying; it sends a visible copy to additional recipients, so the answer is Carbon Copy.
+Source: PYQ-style
+
+20. Which key combination in most email clients sends the composed email?
+(a) Ctrl + S (b) Ctrl + M (c) Ctrl + Enter (d) Ctrl + Shift + S
+Answer: (c)
+Solution: Ctrl+S saves draft, Ctrl+M may check mail; Ctrl+Enter is the common shortcut to send, so the answer is Ctrl + Enter.
+Source: PYQ-style
+
+21. An email header shows "Received: from mail.example.com (192.0.2.1) by mx.recipient.org with ESMTPS id abc123". What does "ESMTPS" indicate?
+(a) Extended SMTP with TLS encryption (b) Encrypted SMTP over SSL (c) Standard SMTP (d) SMTP with authentication only
+Answer: (a)
+Solution: ESMTPS means Extended SMTP with STARTTLS (TLS encryption); "S" at end denotes TLS, not SSL, so the answer is Extended SMTP with TLS encryption.
+Source: PYQ-style
+
+22. In the context of email authentication, what does "SPF" stand for?
+(a) Secure Protocol Filter (b) Sender Policy Framework (c) Spam Prevention Filter (d) Standard Protocol Format
+Answer: (b)
+Solution: SPF (Sender Policy Framework) authorizes which IP addresses may send mail for a domain; it is not a spam filter, so the answer is Sender Policy Framework.
+Source: PYQ-style
+
+23. Which DNS record type is used to publish a domain's public key for DKIM verification?
+(a) CNAME (b) MX (c) A (d) TXT
+Answer: (d)
+Solution: DKIM public keys are published as TXT records (often under a selector subdomain); MX is for mail routing, A/CNAME for hostnames, so the answer is TXT.
+Source: PYQ-style
+
+24. What is the purpose of "DMARC" in email security?
+(a) To encrypt email content (b) To specify policy for handling SPF/DKIM failures (c) To compress attachments (d) To block all external emails
+Answer: (b)
+Solution: DMARC (Domain-based Message Authentication, Reporting, and Conformance) tells receivers what to do when SPF/DKIM checks fail; it does not encrypt or compress, so the answer is To specify policy for handling SPF/DKIM failures.
+Source: PYQ-style
+
+25. A user configures an email client with incoming server "imap.gmail.com" port 993 and outgoing server "smtp.gmail.com" port 587. Which security protocols are being used?
+(a) IMAP over SSL, SMTP over SSL (b) IMAP over SSL, SMTP over STARTTLS (c) IMAP plain, SMTP plain (d) IMAP over TLS, SMTP over STARTTLS
+Answer: (b)
+Solution: Port 993 implies IMAP over implicit SSL/TLS; port 587 uses STARTTLS (explicit TLS) for SMTP submission, so the answer is IMAP over SSL, SMTP over STARTTLS.
+Source: PYQ-style

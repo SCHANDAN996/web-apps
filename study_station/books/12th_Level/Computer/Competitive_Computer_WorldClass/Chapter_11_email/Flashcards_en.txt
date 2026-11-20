@@ -1,0 +1,71 @@
+Card 1
+Front: What is the full form of SMTP and its default port number?
+Back: Simple Mail Transfer Protocol; default port 25 (unencrypted), 465 (SSL), 587 (STARTTLS). Source: RFC 5321 / Microsoft Learn.
+
+Card 2
+Front: What is the full form of POP3 and its default port number?
+Back: Post Office Protocol version 3; default port 110 (unencrypted), 995 (SSL/TLS). Source: RFC 1939 / Microsoft Learn.
+
+Card 3
+Front: What is the full form of IMAP and its default port number?
+Back: Internet Message Access Protocol; default port 143 (unencrypted), 993 (SSL/TLS). Source: RFC 3501 / Microsoft Learn.
+
+Card 4
+Front: Key difference between POP3 and IMAP?
+Back: POP3 downloads and usually deletes mail from server; IMAP syncs folders and keeps mail on server across devices. Source: Microsoft Support.
+
+Card 5
+Front: What does MIME stand for and what is its purpose?
+Back: Multipurpose Internet Mail Extensions; enables non-ASCII text, attachments, and multipart messages in email. Source: RFC 2045 / Microsoft Learn.
+
+Card 6
+Front: What is the maximum attachment size allowed by Gmail and Outlook.com?
+Back: Gmail: 25 MB per message; Outlook.com: 20 MB per message (larger files via OneDrive/Google Drive links). Source: Google Workspace Help / Microsoft Support.
+
+Card 7
+Front: What are SPF, DKIM, and DMARC used for?
+Back: Email authentication: SPF (sender IP authorization), DKIM (cryptographic signature), DMARC (policy for handling failures). Source: RFC 7208, 6376, 7489 / CERT-In guidelines.
+
+Card 8
+Front: What is the purpose of the "CC" and "BCC" fields?
+Back: CC (Carbon Copy) — visible to all recipients; BCC (Blind Carbon Copy) — hidden from other recipients. Source: RFC 5322 / Microsoft Support.
+
+Card 9
+Front: What is a phishing email?
+Back: Fraudulent email pretending to be from a trusted entity to steal credentials or install malware. Source: CERT-In advisories / RBI cyber awareness.
+
+Card 10
+Front: What is email spoofing?
+Back: Forging the "From" header to make an email appear from a different sender. Source: CERT-In / RFC 5322.
+
+Card 11
+Front: What is the function of an MX record in DNS?
+Back: Mail Exchanger record specifies the mail server responsible for accepting email for a domain. Source: RFC 5321 / Microsoft Learn.
+
+Card 12
+Front: What is the difference between a soft bounce and a hard bounce?
+Back: Soft bounce: temporary delivery failure (full mailbox, server down); Hard bounce: permanent failure (invalid address, domain doesn't exist). Source: Microsoft Support / RFC 3463.
+
+Card 13
+Front: What is an email alias?
+Back: An alternate email address that forwards to the same mailbox; no separate login. Source: Microsoft Support / Google Workspace Help.
+
+Card 14
+Front: What is the purpose of the "Reply-To" header?
+Back: Directs replies to a different address than the "From" address. Source: RFC 5322 / Microsoft Learn.
+
+Card 15
+Front: What is a distribution list (mailing list)?
+Back: A single email address that forwards messages to multiple subscribers. Source: Microsoft Support / Google Groups Help.
+
+Card 16
+Front: What is the keyboard shortcut to compose a new email in Outlook (Windows desktop)?
+Back: Ctrl + N (when in Mail view). Scope: Microsoft Outlook desktop for Windows. Source: Microsoft Support.
+
+Card 17
+Front: What is the keyboard shortcut to send an email in Gmail (browser)?
+Back: Ctrl + Enter (Windows/Linux) or ⌘ + Enter (Mac). Scope: Gmail web interface. Source: Google Workspace Help.
+
+Card 18
+Front: What is the keyboard shortcut to reply to an email in Outlook (Windows desktop)?
+Back: Ctrl + R. Scope: Microsoft Outlook desktop for Windows. Source: Microsoft Support.

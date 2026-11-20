@@ -1,0 +1,151 @@
+Questions 76–95: Easy | Questions 96–100: Medium
+
+76. What is the primary protocol used for sending email messages from a client to a mail server?
+(a) IMAP (b) HTTP (c) POP3 (d) SMTP
+Answer: (d)
+Solution: SMTP is the standard protocol for outgoing mail transmission, while IMAP and POP3 are used for retrieving messages; the trap is confusing a receiving protocol with the sending protocol, so the answer is SMTP.
+Source: RFC 5321
+
+77. Which port number is commonly associated with the SMTP protocol when using STARTTLS encryption?
+(a) 25 (b) 587 (c) 465 (d) 110
+Answer: (b)
+Solution: Port 25 is the traditional unencrypted SMTP port and port 465 uses implicit SSL; port 587 is the recommended submission port with STARTTLS, so the answer is 587.
+Source: Microsoft Learn
+
+78. In an email address, the part before the “@” symbol is known as the:
+(a) domain name (b) top‑level domain (c) mail server (d) local part
+Answer: (d)
+Solution: The domain name follows the “@” sign; the local part identifies the mailbox on that domain, so the answer is local part.
+Source: RFC 5322
+
+79. Which header field indicates the original sender of an email message?
+(a) To (b) Reply‑To (c) Cc (d) From
+Answer: (d)
+Solution: The “From” header shows the author of the message, whereas “Reply‑To” may direct replies elsewhere; the trap is selecting “Reply‑To”, so the answer is From.
+Source: RFC 5322
+
+80. What does the “Bcc” field do when composing an email?
+(a) Requests a read receipt (b) Sends a copy to all recipients visibly (c) Hides recipient addresses from each other (d) Marks the message as high priority
+Answer: (c)
+Solution: “Cc” shows all addresses, while “Bcc” keeps them hidden; confusing the two is a common mistake, so the answer is Hides recipient addresses from each other.
+Source: Microsoft Support
+
+81. Which protocol allows a client to retrieve email while leaving messages on the server and synchronizing folder state?
+(a) IMAP (b) SMTP (c) POP3 (d) MAPI
+Answer: (a)
+Solution: POP3 typically downloads and deletes from the server; IMAP keeps messages on the server and syncs folders, so the answer is IMAP.
+Source: RFC 3501
+
+82. The default port for IMAP over SSL/TLS (IMAPS) is:
+(a) 143 (b) 995 (c) 110 (d) 993
+Answer: (d)
+Solution: Port 143 is plain IMAP; port 995 is for POP3S; port 993 is the secured IMAPS port, so the answer is 993.
+Source: Microsoft Learn
+
+83. Which email authentication method uses a cryptographic signature to verify that a message was not altered in transit?
+(a) SPF (b) DKIM (c) DMARC (d) TLS
+Answer: (b)
+Solution: SPF checks the sending IP, DMARC builds on SPF and DKIM, but DKIM itself adds a digital signature to the message header, so the answer is DKIM.
+Source: CERT‑In Advisory
+
+84. What is the purpose of the “Subject” header in an email?
+(a) To provide a brief summary of the message content (b) To list attached files (c) To specify the mail server (d) To encode the message body
+Answer: (a)
+Solution: The subject line gives recipients a quick idea of the topic; it does not list attachments or encode the body, so the answer is To provide a brief summary of the message content.
+Source: RFC 5322
+
+85. Which of the following is a common phishing indicator in an email?
+(a) Correct spelling and grammar (b) Sender address matching the official domain (c) Personalized greeting with your name (d) Urgent language demanding immediate action
+Answer: (d)
+Solution: Legitimate organizations rarely pressure you to act instantly; urgent threats are a classic phishing tactic, so the answer is Urgent language demanding immediate action.
+Source: CERT‑In Advisory
+
+86. Which header field in an email contains the date and time the message was originally sent?
+(a) Received (b) To (c) Date (d) From
+Answer: (c)
+Solution: The “Date” header records the origination timestamp; “Received” headers are added by each MTA during transit, so the trap is choosing “Received”, so the answer is Date.
+Source: RFC 5322
+
+87. What does the “Reply All” function do?
+(a) Forwards the message to a new address (b) Sends a reply to the sender and all recipients in To and Cc fields (c) Sends a reply only to the original sender (d) Deletes the original message
+Answer: (b)
+Solution: “Reply” addresses only the sender; “Reply All” includes everyone in To and Cc, a distinction often tested, so the answer is Sends a reply to the sender and all recipients in To and Cc fields.
+Source: Microsoft Support
+
+88. Which file format is typically used for email message storage in Outlook?
+(a) .msg (b) .eml (c) .mbox (d) .pst
+Answer: (d)
+Solution: .msg stores a single message, .eml is a generic RFC‑822 file, .mbox is used by other clients; Outlook’s personal store is .pst, so the answer is .pst.
+Source: Microsoft Learn
+
+89. The “Auto‑Reply” (Out of Office) feature is configured in which Outlook section?
+(a) Automatic Replies (b) Signatures (c) Rules (d) Quick Steps
+Answer: (a)
+Solution: Rules manage message handling, Signatures add text, Quick Steps automate actions; the dedicated setting is Automatic Replies, so the answer is Automatic Replies.
+Source: Microsoft Support
+
+90. Which protocol is used by webmail services (e.g., Gmail in a browser) to communicate with the mail server?
+(a) HTTP/HTTPS (b) POP3 (c) SMTP (d) IMAP
+Answer: (a)
+Solution: Webmail uses the web browser’s HTTP/HTTPS connection to the provider’s servers; the underlying mail transfer still uses SMTP/IMAP, but the client‑side protocol is HTTP, so the answer is HTTP/HTTPS.
+Source: Microsoft Learn
+
+91. In email marketing, what is the “preheader” text?
+(a) The sender’s display name (b) The subject line of the email (c) The short summary text that appears next to or below the subject line in the inbox (d) The first line of the email body
+Answer: (c)
+Solution: The preheader is the preview snippet shown in the inbox alongside the subject; it is not the sender name, subject, or body text, so the answer is The short summary text that appears next to or below the subject line in the inbox.
+Source: Email marketing best practices (Litmus)
+
+92. What is the purpose of the “Received” header in an email?
+(a) Records the message's route through mail servers (b) Shows the original sender (c) Indicates the date sent (d) Lists recipients
+Answer: (a)
+Solution: The “Received” header is added by each mail server along the delivery path, creating a trace of the message's route; it does not show the original sender, date, or recipients, so the answer is Records the message's route through mail servers.
+Source: RFC 5322
+
+93. In Gmail, which label is applied automatically to messages that are archived but not deleted?
+(a) Inbox (b) All Mail (c) Sent (d) Drafts
+Answer: (b)
+Solution: Archiving removes the Inbox label and leaves the message under All Mail; it does not move to Sent or Drafts, so the answer is All Mail.
+Source: Google Workspace Help
+
+94. What does the “Spam” folder typically contain?
+(a) Messages filtered as unsolicited bulk email (b) Deleted messages (c) Messages you marked as important (d) Drafts awaiting sending
+Answer: (a)
+Solution: Spam folders hold messages identified as unsolicited bulk email; they are not important, deleted, or drafts, so the answer is Messages filtered as unsolicited bulk email.
+Source: Microsoft Support
+
+95. Which of the following is a best practice for creating a strong email password?
+(a) Reuse the same password for all accounts (b) Use your birthdate (c) Combine upper‑case, lower‑case, numbers, and symbols (d) Write it on a sticky note near the monitor
+Answer: (c)
+Solution: Personal data, reuse, and physical exposure weaken security; a complex mixed‑character password is recommended, so the answer is Combine upper‑case, lower‑case, numbers, and symbols.
+Source: CERT‑In Advisory
+
+96. When configuring an email client, which setting determines how often the client checks for new messages on the server?
+(a) Sync interval (b) Port number (c) Encryption method (d) Authentication type
+Answer: (a)
+Solution: Port, encryption, and authentication relate to connection security; the polling frequency is set by the sync interval, so the answer is Sync interval.
+Source: Microsoft Learn
+
+97. What is the function of an email “signature” block?
+(a) Marks the message as confidential (b) Automatically appends predefined text such as name and contact details (c) Encrypts the message (d) Adds a digital certificate
+Answer: (b)
+Solution: Signatures insert standard closing information; they do not encrypt, certify, or set confidentiality, so the answer is Automatically appends predefined text such as name and contact details.
+Source: Microsoft Support
+
+98. Which protocol extension allows a client to send email through an authenticated SMTP server on port 587?
+(a) TLS‑Only (b) SSL (c) STARTTLS (d) SASL
+Answer: (c)
+Solution: STARTTLS upgrades a plain connection to TLS on port 587; SSL/TLS‑Only uses dedicated ports, SASL is an authentication framework, so the answer is STARTTLS.
+Source: Microsoft Learn
+
+99. In a corporate environment, which policy often restricts forwarding of internal emails to external addresses?
+(a) Retention policy (b) Archiving policy (c) Data Loss Prevention (DLP) (d) Mailbox quota
+Answer: (c)
+Solution: DLP rules detect and block sensitive data leaving the organization; quotas, retention, and archiving manage storage, not forwarding, so the answer is Data Loss Prevention (DLP).
+Source: Microsoft Support
+
+100. What is the primary purpose of the “Message‑ID” header in an email?
+(a) To indicate the message priority (b) To provide a globally unique identifier for the message (c) To list all recipients (d) To store the sender’s IP address
+Answer: (b)
+Solution: Message‑ID is a unique token generated by the originating MTA; it does not contain IP, priority, or recipient lists, so the answer is To provide a globally unique identifier for the message.
+Source: RFC 5322

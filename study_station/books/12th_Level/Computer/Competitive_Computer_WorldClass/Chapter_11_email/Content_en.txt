@@ -1,0 +1,271 @@
+Email — Electronic Mail
+
+Email (Electronic Mail) is a method of exchanging digital messages over the Internet. It is one of the oldest and most widely used Internet services. For competitive exams (SSC CHSL, CGL, Railway, Bank), you need to understand the core protocols, email structure, security basics, and common terminology.
+
+---
+
+### 1. How Email Works — Core Protocols
+
+Email delivery uses a **store-and-forward** model. Three standard protocols handle different stages:
+
+| Protocol | Full Form | Port (Default) | Role |
+|---|---|---|---|
+| **SMTP** | Simple Mail Transfer Protocol | 25 (plain), 465 (SSL), 587 (STARTTLS) | **Sending** mail from client to server, and between servers (MTA to MTA). |
+| **POP3** | Post Office Protocol v3 | 110 (plain), 995 (SSL) | **Receiving** — downloads mail from server to one device; usually deletes from server after download. |
+| **IMAP** | Internet Message Access Protocol | 143 (plain), 993 (SSL) | **Receiving** — synchronises mail across multiple devices; mail stays on server. |
+
+**Key distinction**: SMTP is **push** (outgoing). POP3/IMAP are **pull** (incoming). Modern email uses **STARTTLS** (opportunistic encryption) on port 587 for submission and port 993/995 for secure retrieval.
+
+**Flow**:  
+Sender (MUA) → SMTP (port 587) → Sender's MTA → DNS MX lookup → Recipient's MTA → POP3/IMAP → Recipient (MUA)
+
+MUA = Mail User Agent (Outlook, Thunderbird, Gmail app).  
+MTA = Mail Transfer Agent (Postfix, Exim, Exchange).
+
+---
+
+### 2. Email Address Structure
+
+```
+local-part @ domain
+```
+
+- **local-part**: username, up to 64 octets. May contain letters, digits, dot (.), underscore (_), hyphen (-), plus (+). Case-insensitive in practice (Gmail, Outlook treat `User.Name` = `username`).
+- **@**: separator (required).
+- **domain**: fully qualified domain name (FQDN) of the mail server, e.g., `gmail.com`, `nic.in`. Resolved via **MX (Mail Exchanger) DNS record**.
+
+Example: `exam.prep2024@nic.in`  
+→ local-part: `exam.prep2024`  
+→ domain: `nic.in` (MX record points to NIC's mail servers)
+
+---
+
+### 3. Email Message Structure (RFC 5322)
+
+An email has two main parts:
+
+#### A. Headers (Metadata)
+Each header line: `Field-Name: value`. Important headers:
+
+| Header | Purpose |
+|---|---|
+| **From** | Sender address (display name optional). |
+| **To** | Primary recipient(s). |
+| **Cc** | Carbon copy — visible to all recipients. |
+| **Bcc** | Blind carbon copy — hidden from other recipients. |
+| **Subject** | Brief summary. |
+| **Date** | Timestamp (RFC 5322 format). |
+| **Message-ID** | Globally unique identifier (prevents duplicates). |
+| **Received** | Trace of each MTA hop (topmost = last hop). |
+| **Content-Type** | MIME type (text/plain, text/html, multipart/mixed). |
+| **DKIM-Signature** | DomainKeys Identified Mail — cryptographic signature verifying domain authenticity. |
+| **Authentication-Results** | SPF/DKIM/DMARC check results added by receiving server. |
+
+#### B. Body
+- **text/plain** — plain text.
+- **text/html** — formatted HTML.
+- **multipart/alternative** — both plain and HTML versions; client chooses.
+- **multipart/mixed** — message + attachments (each part has its own Content-Type and Content-Disposition).
+
+**Attachments** are encoded in **Base64** (MIME) and included as separate parts with `Content-Disposition: attachment; filename="..."`.
+
+---
+
+### 4. Email Clients vs Webmail
+
+| | **Email Client (MUA)** | **Webmail** |
+|---|---|---|
+| Examples | Microsoft Outlook, Mozilla Thunderbird, Apple Mail, Windows Mail | Gmail, Outlook.com, Yahoo Mail, Zoho Mail |
+| Access | Installed application; stores local copy (POP3/IMAP) | Browser-based; no local storage needed |
+| Protocols | Uses SMTP/POP3/IMAP directly | Uses HTTPS to provider's servers; protocols hidden |
+| Offline | Can read/compose offline (IMAP caches headers) | Requires Internet (except Gmail Offline extension) |
+| Shortcuts | **Windows/Outlook**: `Ctrl+N` (new), `Ctrl+R` (reply), `Ctrl+Shift+R` (reply all), `Ctrl+Enter` (send), `Ctrl+Shift+M` (new message in Outlook) | **Gmail (browser)**: `c` (compose), `r` (reply), `a` (reply all), `Ctrl+Enter` (send), `/` (search), `j/k` (navigate) |
+
+> **Note**: Browser shortcuts (Gmail, Outlook.com) work only when keyboard shortcuts are enabled in settings. Windows/Office shortcuts apply to the desktop Outlook application.
+
+---
+
+### 5. Email Security — Concepts for Exams
+
+#### 5.1 Spam & Phishing
+- **Spam**: Unsolicited bulk email. Filtered by content analysis, reputation lists (RBL), SPF/DKIM/DMARC.
+- **Phishing**: Fraudulent email pretending to be from a trusted entity (bank, govt portal) to steal credentials. **Never click links in unexpected emails**; verify via official website.
+
+#### 5.2 Authentication Frameworks (DNS-based)
+| Mechanism | Record Type | Purpose |
+|---|---|---|
+| **SPF** (Sender Policy Framework) | TXT | Lists authorised sending IPs for a domain. |
+| **DKIM** (DomainKeys Identified Mail) | TXT (selector._domainkey) | Cryptographic signature; verifies message integrity and domain. |
+| **DMARC** (Domain-based Message Authentication, Reporting, Conformance) | TXT (_dmarc) | Policy: what to do if SPF/DKIM fail (none, quarantine, reject); enables reporting. |
+
+**Exam tip**: SPF = **IP-based** authorisation. DKIM = **signature-based** integrity. DMARC = **policy + alignment** (From domain matches SPF/DKIM domain).
+
+#### 5.3 Encryption
+- **Transport Layer (TLS)**: SMTP STARTTLS, IMAPS (993), POP3S (995) — encrypts *in transit* between hops.
+- **End-to-End (PGP/S/MIME)**: Encrypts *message body* so only recipient can read. Not default in most webmail.
+
+#### 5.4 CERT-In Advisories
+CERT-In (Indian Computer Emergency Response Team) regularly issues advisories on:
+- Phishing campaigns targeting Indian banks/govt portals.
+- Malware distributed via email attachments (`.exe`, `.zip` with password, `.pdf` exploits).
+- Business Email Compromise (BEC) — CEO fraud, invoice manipulation.
+
+**Best practice**: Enable 2FA on email accounts. Use strong, unique passwords. Report phishing to `incident@cert-in.org.in` or the organisation's security team.
+
+---
+
+### 6. Email Etiquette (Professional Communication)
+
+1. **Subject line**: Clear, specific — "Application: SSC CGL 2024 — Roll No 12345" not "Hello".
+2. **Salutation**: Formal — "Respected Sir/Madam," or "Dear [Name],".
+3. **Body**: Concise paragraphs. State purpose in first two lines.
+4. **Attachments**: Mention in body ("Please find attached…"). Use PDF for documents.
+5. **Signature**: Name, designation, contact, organisation.
+6. **Reply vs Reply All**: Use **Reply All** only when all recipients need the response.
+7. **Bcc**: Use for mailing lists to protect privacy.
+8. **Tone**: Avoid ALL CAPS (shouting), excessive exclamation, emoticons in formal mail.
+9. **Response time**: Acknowledge within 24 hours for official communication.
+
+---
+
+### 7. Worked Examples
+
+#### Example 1 — Identifying the Protocol
+**Question**: A user configures their email client with incoming server `imap.gmail.com` port `993` and outgoing server `smtp.gmail.com` port `587`. Which protocols are in use and what is the encryption status?
+
+**Solution**:  
+- Incoming: **IMAP over SSL/TLS** (IMAPS) — port 993 implies implicit TLS.  
+- Outgoing: **SMTP with STARTTLS** — port 587 is the standard submission port; client upgrades plain connection to TLS via STARTTLS command.  
+**Answer**: IMAPS (993) for receiving; SMTP STARTTLS (587) for sending.
+
+---
+
+#### Example 2 — Header Analysis
+**Question**: An email header shows:
+```
+Received: from mail.example.com (mail.example.com [203.0.113.45])
+    by mx.recipient.org with ESMTPS id abc123
+    for <user@recipient.org>; Mon, 10 Jun 2024 10:15:00 +0530
+Received: from [192.168.1.5] (unknown [198.51.100.10])
+    by mail.example.com with ESMTPSA id def456
+    for <user@recipient.org>; Mon, 10 Jun 2024 10:14:55 +0530
+```
+Which `Received` line represents the **sender's MUA → sender's MTA** hop?
+
+**Solution**:  
+`Received` headers are added **top-down** (last hop first). The **bottom-most** `Received` line is the first hop.  
+Line 2: `from [192.168.1.5] … by mail.example.com` — client (private IP) submitting to `mail.example.com` (sender's MTA) with **ESMTPSA** (SMTP Authentication).  
+**Answer**: The second (lower) `Received` line.
+
+---
+
+#### Example 3 — SPF/DKIM/DMARC Alignment
+**Question**: Domain `bank.in` has:
+- SPF: `v=spf1 ip4:203.0.113.10 -all`
+- DKIM: selector `mail2024._domainkey.bank.in`
+- DMARC: `v=DMARC1; p=quarantine; adkim=s; aspf=s`
+
+An email arrives with:
+- Envelope From (Return-Path): `bounce@mailer.service.com`
+- Header From: `security@bank.in`
+- DKIM signature: `d=bank.in; s=mail2024`
+- Sending IP: `203.0.113.10`
+
+Does this pass DMARC?
+
+**Solution**:  
+- **SPF**: Checks envelope domain (`mailer.service.com`). IP `203.0.113.10` is **not** in `mailer.service.com`'s SPF → **SPF fail**. Even if it passed, `aspf=s` (strict) requires envelope domain = header From domain (`bank.in`) → **alignment fail**.
+- **DKIM**: `d=bank.in` matches header From domain → **DKIM pass + alignment pass** (`adkim=s` satisfied).
+- **DMARC**: Passes if **either** SPF or DKIM passes **with alignment**. DKIM passes with alignment → **DMARC pass**.  
+**Answer**: Yes, DMARC passes (DKIM aligned).
+
+---
+
+#### Example 4 — MIME Multipart Structure
+**Question**: An email with `Content-Type: multipart/mixed; boundary="BOUNDARY123"` contains three parts:
+1. `Content-Type: text/plain`
+2. `Content-Type: text/html`
+3. `Content-Type: application/pdf; name="report.pdf"` with `Content-Disposition: attachment`
+
+How will a standard email client display this?
+
+**Solution**:  
+`multipart/mixed` means **all parts are independent** (not alternatives). The client typically:
+- Shows the **text/html** part as the main message body (preferred over text/plain).
+- Displays `report.pdf` as a **downloadable attachment** (paperclip icon).
+- The `text/plain` part is available as fallback or "view source".  
+**Answer**: HTML body rendered; PDF shown as attachment.
+
+---
+
+#### Example 5 — Bcc Privacy
+**Question**: You send an email to `To: alice@example.com`, `Cc: bob@example.com`, `Bcc: carol@example.com, david@example.com`. Who sees whom in the received email?
+
+**Solution**:  
+- **Alice** sees: To: alice, Cc: bob. **Does not see** carol or david.
+- **Bob** sees: To: alice, Cc: bob. **Does not see** carol or david.
+- **Carol** sees: To: alice, Cc: bob. **Does not see** david (other Bcc recipients hidden from each other).
+- **David** sees: To: alice, Cc: bob. **Does not see** carol.  
+**Answer**: Only To and Cc recipients are visible to everyone. Bcc recipients are hidden from all.
+
+---
+
+#### Example 6 — Phishing Indicator
+**Question**: You receive an email:
+- From: `"Income Tax Dept" <refunds@incometaxindia.gov.in>`
+- Subject: "Urgent: Tax Refund Approved — Click to Claim"
+- Body: "Dear Taxpayer, your refund of ₹15,420 is approved. Click here: `http://bit.ly/itax-refund-2024` to verify bank details."
+- Header shows: `Received: from unknown [45.77.123.200] by mail.incometaxindia.gov.in …` and **SPF: fail, DKIM: none, DMARC: fail**
+
+List three red flags.
+
+**Solution**:  
+1. **Domain mismatch / SPF/DKIM/DMARC failure** — genuine gov.in mail would pass authentication.
+2. **Shortened URL (bit.ly)** — hides real destination; official links use `incometax.gov.in` or `incometaxindia.gov.in`.
+3. **Urgency + request for bank details** — classic social engineering; Income Tax Dept never asks for bank credentials via email link.  
+**Answer**: Any three of the above.
+
+---
+
+### 8. Common Errors & Misconceptions
+
+| # | Misconception / Error | Correction |
+|---|---|---|
+| 1 | "SMTP receives email." | SMTP **sends** (push). Receiving uses POP3 or IMAP. |
+| 2 | "POP3 and IMAP are the same." | POP3 downloads & usually deletes from server; IMAP syncs across devices, mail stays on server. |
+| 3 | "Port 25 is for client submission." | Port 25 is **server-to-server** (MTA↔MTA). Client submission uses **port 587 (STARTTLS)** or 465 (implicit TLS, legacy). |
+| 4 | "Bcc recipients can see each other." | Bcc recipients are hidden from **everyone**, including other Bcc recipients. |
+| 5 | "SPF checks the From header." | SPF checks the **envelope sender (Return-Path / MAIL FROM)**, not the header From. |
+| 6 | "DKIM encrypts the email." | DKIM **signs** (integrity + authenticity), does not encrypt. Use PGP/S/MIME for encryption. |
+| 7 | "TLS on port 993 means the email is end-to-end encrypted." | TLS (IMAPS/POP3S/SMTPS) encrypts **transport only** (hop-to-hop). End-to-end requires PGP/S/MIME. |
+| 8 | "Replying to a phishing email unsubscribes you." | Replying confirms your address is active → **more spam/phishing**. Delete and report. |
+| 9 | "Email attachments are safe if scanned by antivirus." | Antivirus catches known malware; **zero-day** or targeted malware may bypass. Treat unexpected `.exe`, `.zip`, `.scr`, `.iso`, `.pdf` with caution. |
+| 10 | "The 'From' address cannot be forged." | **Header From** is easily forged. SPF/DKIM/DMARC are designed to detect forgery. Always verify via authentication results, not display name. |
+
+---
+
+### 9. Quick Reference — Ports & Protocols
+
+| Service | Plain | SSL/TLS (Implicit) | STARTTLS (Explicit) |
+|---|---|---|---|
+| SMTP (Submission) | 25* | 465 (legacy) | **587 (standard)** |
+| POP3 | 110 | **995** | — |
+| IMAP | 143 | **993** | — |
+
+*Port 25 blocked for outbound on many ISPs; use 587 for client submission.
+
+---
+
+### 10. Exam-Oriented Summary Points
+
+- **SMTP = Send**, **POP3/IMAP = Receive**.
+- **IMAP** for multi-device sync; **POP3** for single-device download.
+- **SPF** = IP authorisation (TXT record). **DKIM** = Cryptographic signature (TXT record). **DMARC** = Policy + alignment + reporting.
+- **Bcc** hides recipients; **Cc** shows them.
+- **Phishing**: urgency, shortened URLs, credential requests, authentication failures.
+- **Shortcuts**: Desktop Outlook (`Ctrl+N`, `Ctrl+Enter`, `Ctrl+R`); Gmail web (`c`, `r`, `Ctrl+Enter`, `/`).
+- **CERT-In**: Nodal agency for cyber incidents in India; report phishing to `incident@cert-in.org.in`.
+
+---
+
+**Sources**: RFC 5321/5322 (SMTP/Message Format), RFC 3501 (IMAP), RFC 1939 (POP3), RFC 7208 (SPF), RFC 6376 (DKIM), RFC 7489 (DMARC), Microsoft Learn (Outlook protocols & shortcuts), Google Workspace Admin Help (Gmail IMAP/SMTP/shortcuts), CERT-In Advisories (cert-in.org.in), RBI Cyber Security Framework (rbi.org.in).

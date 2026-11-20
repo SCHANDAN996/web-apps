@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 11:20 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
+**आख़िरी update:** 20-11-2026 11:29 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,25 +8,25 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 1 मिनट |
-| W10 | Chapter 14 cyber security (12th Computer) | ✍️ लिख रहा है | 0 मिनट |
-| W11 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
-| W12 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
-| W2 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 1 मिनट |
-| W3 | Chapter 11 vilom (10th Hindi) | 🔎 review हो रहा है | 1 मिनट |
-| W4 | Chapter 11 email (12th Computer) | 🔎 review हो रहा है | 1 मिनट |
-| W5 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 1 मिनट |
-| W6 | Chapter 12 e banking (12th Computer) | ✍️ लिख रहा है | 0 मिनट |
-| W7 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
-| W8 | Chapter 13 networking (12th Computer) | ✍️ लिख रहा है | 0 मिनट |
-| W9 | Chapter 14 muhavare lokokti (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 10 मिनट |
+| W10 | Chapter 14 cyber security (12th Computer) | ✍️ लिख रहा है | 9 मिनट |
+| W11 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 9 मिनट |
+| W12 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 9 मिनट |
+| W2 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 10 मिनट |
+| W3 | Chapter 11 vilom (10th Hindi) | 🔎 review हो रहा है | 10 मिनट |
+| W4 | Chapter 11 email (12th Computer) | 📤 push हो रहा है | 0 मिनट |
+| W5 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 10 मिनट |
+| W6 | Chapter 12 e banking (12th Computer) | 🔧 सुधार रहा है | 2 मिनट |
+| W7 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 10 मिनट |
+| W8 | Chapter 13 networking (12th Computer) | ✍️ लिख रहा है | 10 मिनट |
+| W9 | Chapter 14 muhavare lokokti (10th Hindi) | ✍️ लिख रहा है | 9 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 2 |
-| key 4 | 1 |
-| key 5 | 1 |
-| key 6 | 1 |
+| key 3 | 5 |
+| key 4 | 8 |
+| key 5 | 10 |
+| key 6 | 9 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -37,7 +37,7 @@
 | किताब | प्रारंभिक जाँच पास | संरचना में सुधार बाकी | लिखना बाकी |
 |---|---|---|---|
 | 10th Hindi | 10 | 0 | 7 |
-| 12th Computer | 11 | 0 | 3 |
+| 12th Computer | 11 | 1 | 2 |
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 22 | 0 | 0 |
@@ -50,24 +50,15 @@
 | Graduation GK | 28 | 0 | 0 |
 | Graduation Reasoning | 30 | 0 | 0 |
 | Graduation English | 30 | 0 | 0 |
-| **कुल** | **317** | **0** | **10** |
+| **कुल** | **317** | **1** | **9** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 20-11 11:29 — 12th Computer · Chapter 11 email
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 11:18:44 autopilot start: 12 workers, reverse=False
-20-11 11:18:44 API policy: account start interval=20s; key start interval=15s; in-flight per key=1
-20-11 11:18:45 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi (TODO: todo 5, problems 0)
-20-11 11:18:46   [sandhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
-20-11 11:18:50 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay (OK: todo 0, problems 0)
-20-11 11:18:50   [upsarg_pratyay] review Content_hi.txt: resumed private correction draft
-20-11 11:18:55 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_11_vilom (OK: todo 0, problems 0)
-20-11 11:18:56   [vilom] review Key_Facts_hi.txt: resumed private correction draft
-20-11 11:19:00 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_11_email (OK: todo 0, problems 0)
 20-11 11:19:01   [email] review PYQ_hi.txt: resumed private correction draft
 20-11 11:19:05 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_12_anekarthi_samshrut (TODO: todo 2, problems 0)
 20-11 11:19:06   [anekarthi_samshrut] Hindi-only writer: direct Hindi content; English generation and translation disabled
@@ -83,4 +74,29 @@
 20-11 11:19:40 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram (TODO: todo 13, problems 0)
 20-11 11:19:41   [rikt_sthan_vakya_kram] Hindi-only writer: direct Hindi content; English generation and translation disabled
 20-11 11:19:48   [sandhi] Practice_hi_Set_01.txt try 1: rejected (Q24:leaked_reasoning,Q18:duplicate_options)
+20-11 11:20:24   [muhavare_lokokti] wrote Content_hi.txt (8013 chars)
+20-11 11:20:28   [cyber_security] wrote Content_en.txt (11166 chars)
+20-11 11:20:33   [email] review PYQ_hi.txt round 1: 1 issue(s): - PYQ-style 1 has two correct answers (Subject and Message-ID are both optional per RFC 5322) but answer key gi
+20-11 11:21:19   [muhavare_lokokti] wrote Key_Facts_hi.txt (4929 chars)
+20-11 11:22:13   [cyber_security] wrote Content_hi.txt (12102 chars)
+20-11 11:22:21   [muhavare_lokokti] wrote Feynman_hi.txt (8510 chars)
+20-11 11:22:54   [vilom] review Key_Facts_hi.txt round 1: 3 issue(s): - Point 7: The rule that ‘अन‑’ attaches only to words beginning with vowels or य, र, ल, व is incorrect; H
+20-11 11:24:09   [anekarthi_samshrut] Practice_hi_Set_05.txt try 1: rejected (parsed 22 questions, numbers 101…122)
+20-11 11:24:34   [rikt_sthan_vakya_kram] wrote Content_hi.txt (9936 chars)
+20-11 11:24:35   [cyber_security] wrote Key_Facts_en.txt (6021 chars)
+20-11 11:25:04   [upsarg_pratyay] review Content_hi.txt round 1: 3 issue(s): - उपसर्ग तालिका में "वि-" पंक्ति: "विचार" का मूल "चिन्त् (धातु)" दिया गया है, जबकि सही मूल "चर् (धातु)" है 
+20-11 11:25:20   [e_banking] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+20-11 11:25:27   [rikt_sthan_vakya_kram] wrote Key_Facts_hi.txt (4714 chars)
+20-11 11:26:06   [cyber_security] wrote Key_Facts_hi.txt (3084 chars)
+20-11 11:26:27   [e_banking] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
+20-11 11:26:27   [e_banking] written 2, failed 0; AI calls today 32/100000
+20-11 11:26:37   [cyber_security] wrote Feynman_en.txt (3645 chars)
+20-11 11:27:24   [cyber_security] wrote Feynman_hi.txt (3627 chars)
+20-11 11:27:48   [vakya_shuddhi] wrote Content_hi.txt (10486 chars)
+20-11 11:27:49   [cyber_security] wrote Mind_Map.txt (1242 chars)
+20-11 11:28:32   [vakya_shuddhi] wrote Key_Facts_hi.txt (3652 chars)
+20-11 11:28:41   [networking] wrote Content_en.txt (12886 chars)
+20-11 11:29:24   [email] review: 1 section(s) corrected, 0 failed
+20-11 11:29:24   [email] written 1, failed 0; AI calls today 39/100000
+20-11 11:29:31   [vakya_shuddhi] wrote Feynman_hi.txt (6122 chars)
 ```

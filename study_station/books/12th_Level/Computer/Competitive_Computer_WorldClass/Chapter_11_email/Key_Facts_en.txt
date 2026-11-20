@@ -1,0 +1,49 @@
+1. **Email Protocols** — SMTP (port 25/587) sends mail; POP3 (port 110) downloads and deletes from server; IMAP (port 143) syncs folders across devices. Use IMAP for multiple devices.
+
+2. **Email Address Structure** — `local-part@domain`. Local part may contain letters, digits, dots, underscores, hyphens; domain follows DNS rules. Case-insensitive in practice.
+
+3. **MIME (Multipurpose Internet Mail Extensions)** — Allows non-ASCII text, attachments, HTML. Encodes binary as Base64 or Quoted-Printable. Every modern email is MIME.
+
+4. **Headers** — `From`, `To`, `Cc`, `Bcc`, `Subject`, `Date`, `Message-ID`, `Received` (trace route). `Bcc` recipients are hidden from other recipients.
+
+5. **SPF / DKIM / DMARC** — SPF lists authorised sending IPs; DKIM signs with domain private key; DMARC tells receivers how to handle failures. Together they reduce spoofing.
+
+6. **Ports & Encryption** — SMTP submission: 587 (STARTTLS) or 465 (implicit TLS). IMAP: 143 (STARTTLS) or 993 (TLS). POP3: 110 (STARTTLS) or 995 (TLS). Never use plain ports on public networks.
+
+7. **Email Clients vs Webmail** — Clients (Outlook, Thunderbird) use IMAP/POP/SMTP; webmail (Gmail, Outlook.com) uses HTTPS. Both speak the same protocols to servers.
+
+8. **Attachment Limits** — Most providers cap at 25 MB (Gmail, Outlook.com). Large files: upload to OneDrive/Google Drive and share link. Base64 encoding adds ~33 % overhead.
+
+9. **Phishing Indicators** — Mismatched sender domain, urgent threats, generic greetings, poor grammar, suspicious links (hover to see real URL), unexpected attachments (.exe, .zip, .scr).
+
+10. **Spam Filtering** — Bayesian filters, reputation lists (RBL), SPF/DKIM/DMARC checks, content rules. False positives go to Junk/Spam folder; check regularly.
+
+11. **Email Signature** — Plain text or HTML block appended automatically. Keep under 5 lines; include name, designation, contact, disclaimer if required by organisation policy.
+
+12. **Auto-reply / Out of Office** — Server-side rule (Exchange, Gmail) replies once per sender per period. Avoid looping by not replying to mailing lists or auto-generated mail.
+
+13. **Mailing Lists & List-Unsubscribe** — `List-Unsubscribe` header (RFC 8058) gives one-click unsubscribe. Marking list mail as spam hurts sender reputation; use unsubscribe link.
+
+14. **Email Aliases / Plus Addressing** — `user+tag@domain` delivers to `user@domain`. Useful for filtering and tracking leaks. Not all providers support plus addressing.
+
+15. **PGP / S/MIME Encryption** — End-to-end encryption. PGP uses web-of-trust keys; S/MIME uses X.509 certificates from CAs. Both require key exchange before encrypted mail.
+
+16. **Email Archiving** — Legal/compliance requirement in many sectors. Journaling (Exchange) or vault solutions store tamper-proof copies. Retention policies auto-delete after set period.
+
+17. **Mobile Email Setup** — iOS/Android mail apps use ActiveSync (Exchange), IMAP, or provider-specific APIs (Gmail). Push uses IMAP IDLE or ActiveSync; fetch polls on schedule.
+
+18. **Calendar Integration** — iCalendar (.ics) attachments or Meeting Requests (MIME `text/calendar`). Accept/Decline updates organiser's calendar. Time zones stored in UTC.
+
+19. **Email Backup** — Export as .pst (Outlook), .mbox (Thunderbird), or Google Takeout (MBOX). Store offline, verify integrity. Cloud sync is not backup.
+
+20. **Common Shortcuts (Outlook Desktop, Windows)** — `Ctrl+N` new mail, `Ctrl+R` reply, `Ctrl+Shift+R` reply all, `Ctrl+F` forward, `Ctrl+Enter` send, `Ctrl+Shift+M` new message from anywhere. Browser Gmail uses different keys (`c` compose, `r` reply).
+
+21. **Email Size vs Quota** — Mailbox quota includes mail, attachments, Deleted Items, Sent Items. Empty Deleted Items and compress .pst to reclaim space.
+
+22. **Bounce Messages (NDN/DSN)** — Non-Delivery Notification explains failure: user unknown, mailbox full, blocked by policy, SPF/DKIM fail. Read `Diagnostic-Code` for root cause.
+
+23. **Email Etiquette (Professional)** — Clear subject, concise body, proper salutation/closing, reply within 24 h, avoid ALL CAPS, use Bcc for mass recipients, proofread before send.
+
+24. **GDPR / IT Act (India) Compliance** — Personal data in email needs lawful basis. Right to access/erasure applies. Encrypt sensitive data; retain only as long as necessary.
+
+25. **Troubleshooting Checklist** — Verify internet, check server status page, confirm credentials, test port connectivity (`telnet mail.server 587`), review antivirus/firewall, check quota, inspect bounce code.

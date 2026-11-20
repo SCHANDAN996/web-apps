@@ -1,0 +1,151 @@
+Questions 51–70: Easy | Questions 71–75: Medium
+
+51. Which protocol is used for sending emails from a client to a mail server?
+(a) SMTP (b) IMAP (c) POP3 (d) HTTP
+Answer: (a)
+Solution: IMAP and POP3 are used for retrieving emails, while HTTP is for web pages; the standard protocol for sending mail is SMTP, so the answer is SMTP.
+Source: PYQ-style
+
+52. What is the default port number for SMTP with TLS encryption?
+(a) 25 (b) 587 (c) 110 (d) 993
+Answer: (b)
+Solution: Port 25 is plain SMTP, 110 is POP3, and 993 is IMAPS; the standard submission port with STARTTLS is 587, so the answer is 587.
+Source: Microsoft Learn
+
+53. Which protocol allows a user to access emails from multiple devices while keeping them synchronized on the server?
+(a) POP3 (b) IMAP (c) SMTP (d) MIME
+Answer: (b)
+Solution: POP3 typically downloads and deletes from the server, SMTP sends mail, and MIME defines format; IMAP keeps messages on the server and syncs across devices, so the answer is IMAP.
+Source: PYQ-style
+
+54. In an email address "user@domain.com", what does the part after "@" represent?
+(a) Mail server hostname (b) Username (c) Top-level domain only (d) Password hash
+Answer: (a)
+Solution: The part before "@" is the local-part (username), while the part after identifies the mail server's domain, so the answer is mail server hostname.
+Source: PYQ-style
+
+55. What does MIME stand for in the context of email?
+(a) Mail Internet Messaging Extension (b) Multipurpose Internet Mail Extensions (c) Multi-user Internet Mail Exchange (d) Mail Integration Method Encryption
+Answer: (b)
+Solution: The other expansions are invented; MIME enables non-ASCII attachments and multipart messages, so the answer is Multipurpose Internet Mail Extensions.
+Source: PYQ-style
+
+56. Which header field indicates the primary recipients of an email?
+(a) Cc (b) Bcc (c) To (d) From
+Answer: (c)
+Solution: "Cc" is carbon copy, "Bcc" is blind carbon copy, and "From" shows the sender; the "To" field lists primary recipients, so the answer is To.
+Source: PYQ-style
+
+57. What is the purpose of the Bcc field?
+(a) To send a copy to the server administrator (b) To request a read receipt (c) To mark the email as high priority (d) To hide recipient addresses from each other
+Answer: (d)
+Solution: Bcc (Blind Carbon Copy) sends copies without revealing those addresses to other recipients; it does not notify administrators, set priority, or request receipts, so the answer is to hide recipient addresses from each other.
+Source: PYQ-style
+
+58. Which of the following is a valid email address format according to RFC 5322?
+(a) @domain.com (b) user@domain (c) user@.com (d) user@domain.com
+Answer: (d)
+Solution: A valid address requires a local-part, "@", and a domain with at least one dot; "user@domain" lacks a TLD, and the others are malformed, so the answer is user@domain.com.
+Source: PYQ-style
+
+59. What does SPF (Sender Policy Framework) help prevent?
+(a) Email spoofing (b) Spam filtering bypass (c) Attachment corruption (d) Email encryption failure
+Answer: (a)
+Solution: SPF publishes authorized sending IPs for a domain, helping receivers detect forged sender addresses; it does not handle encryption, spam filtering, or attachments, so the answer is email spoofing.
+Source: CERT-In advisory
+
+60. Which DNS record type is used to publish a domain's SPF policy?
+(a) A (b) CNAME (c) MX (d) TXT
+Answer: (d)
+Solution: SPF policies are stored in TXT records; A maps hostnames to IPs, MX routes mail, and CNAME aliases names, so the answer is TXT.
+Source: PYQ-style
+
+61. DKIM (DomainKeys Identified Mail) uses which cryptographic technique to verify email integrity?
+(a) Symmetric encryption (b) Certificate authority chain (c) Hashing only (d) Public-key digital signature
+Answer: (d)
+Solution: DKIM signs selected headers and body with a private key; receivers verify with the public key published in DNS, so the answer is public-key digital signature.
+Source: Microsoft Learn
+
+62. What is the maximum recommended size for a single email attachment in most modern mail systems?
+(a) 5 MB (b) 25 MB (c) 100 MB (d) 1 GB
+Answer: (b)
+Solution: Many providers (Gmail, Outlook, Yahoo) limit attachments to 25 MB; larger files require cloud links, so the answer is 25 MB.
+Source: Microsoft Support
+
+63. Which protocol is used by a mail client to retrieve emails from a server and optionally leave copies on the server?
+(a) SMTP (b) POP3 (c) IMAP (d) LDAP
+Answer: (b)
+Solution: POP3 can be configured to leave mail on the server; IMAP always syncs, SMTP sends, and LDAP is for directories, so the answer is POP3.
+Source: PYQ-style
+
+64. What does the "Reply-To" header do?
+(a) Blocks replies (b) Automatically replies to the sender (c) Forces the reply to go to a different address than "From" (d) Encrypts the reply
+Answer: (c)
+Solution: Reply-To specifies an alternate address for replies; it does not auto-reply, block, or encrypt, so the answer is forces the reply to go to a different address than "From".
+Source: PYQ-style
+
+65. In email etiquette, what is the purpose of a clear subject line?
+(a) To bypass spam filters (b) To reduce attachment size (c) To encrypt the content (d) To help the recipient prioritize and find the message
+Answer: (d)
+Solution: A descriptive subject lets recipients triage and search; it does not affect encryption, attachment size, or directly bypass filters, so the answer is to help the recipient prioritize and find the message.
+Source: PYQ-style
+
+66. Which of the following is a common phishing indicator in an email?
+(a) Correct spelling and grammar (b) Personalized greeting with your name (c) Urgent threat of account closure (d) Sender address matching the claimed organization domain
+Answer: (c)
+Solution: Phishing often uses urgency and threats; legitimate emails usually address you personally, have good grammar, and use matching domains, so the answer is urgent threat of account closure.
+Source: CERT-In advisory
+
+67. What is the function of an MX (Mail Exchanger) record in DNS?
+(a) Specifies the mail server responsible for accepting email for the domain (b) Provides DKIM public key (c) Stores SPF policy (d) Maps a domain to an IP address
+Answer: (a)
+Solution: MX records direct email to the correct mail server; A records map to IPs, and TXT holds SPF/DKIM, so the answer is specifies the mail server responsible for accepting email for the domain.
+Source: PYQ-style
+
+68. Which key combination in Outlook (Windows) is the dedicated shortcut to create a new email message?
+(a) Ctrl + Shift + M (b) Ctrl + M (c) Ctrl + N (d) Alt + N
+Answer: (a)
+Solution: Ctrl+N creates a new item in the current folder (not necessarily mail), Ctrl+M sends/receives, and Alt+N opens the Insert tab; Ctrl+Shift+M specifically creates a new mail message from any view, so the answer is Ctrl + Shift + M.
+Source: Microsoft Support
+
+69. What does "threaded view" or "conversation view" do in an email client?
+(a) Encrypts all messages in a thread (b) Groups related messages by subject for easier reading (c) Deletes old replies automatically (d) Forwards the thread to a new recipient
+Answer: (b)
+Solution: Conversation view collapses replies under the original message; it does not encrypt, delete, or forward, so the answer is groups related messages by subject for easier reading.
+Source: PYQ-style
+
+70. Which of the following file extensions is commonly blocked by email gateways due to executable risk?
+(a) .exe (b) .pdf (c) .jpg (d) .txt
+Answer: (a)
+Solution: .exe files can run code directly; .pdf, .jpg, and .txt are generally safe (though PDFs can carry exploits, they are not universally blocked), so the answer is .exe.
+Source: CERT-In advisory
+
+71. An email header shows "Received: from mail.example.com (192.0.2.10) by mx.recipient.org". What does this line indicate?
+(a) The final delivery to the recipient's inbox (b) The sender's original IP address (c) A hop in the mail transfer path (d) The DKIM verification result
+Answer: (c)
+Solution: Each "Received" header documents one MTA hop; the last Received is the inbound gateway, not final delivery, and it does not show DKIM, so the answer is a hop in the mail transfer path.
+Source: PYQ-style
+
+72. What is the purpose of an "Out of Office" (Automatic Replies) message?
+(a) To delete incoming mail automatically (b) To forward all mail to a colleague (c) To inform senders of your unavailability and expected return (d) To mark all incoming mail as read
+Answer: (c)
+Solution: Automatic replies notify senders you are away; they do not delete, forward, or mark as read unless separately configured, so the answer is to inform senders of your unavailability and expected return.
+Source: Microsoft Support
+
+73. Which email authentication method allows a domain owner to specify how receivers should handle messages that fail SPF/DKIM checks?
+(a) PGP (b) S/MIME (c) TLS (d) DMARC
+Answer: (d)
+Solution: DMARC (Domain-based Message Authentication, Reporting, and Conformance) publishes policy for failed checks; S/MIME and PGP encrypt/sign, and TLS encrypts transport, so the answer is DMARC.
+Source: CERT-In advisory
+
+74. In a corporate environment, what is the primary purpose of a "mailbox quota"?
+(a) To limit the number of emails sent per day (b) To block external senders (c) To restrict the total storage used by a user's mailbox (d) To enforce encryption on all outgoing mail
+Answer: (c)
+Solution: Quotas cap mailbox size to manage server storage; they do not limit send rate, block externals, or enforce encryption, so the answer is to restrict the total storage used by a user's mailbox.
+Source: Microsoft Learn
+
+75. A user receives an email with a .zip attachment that contains a .js (JavaScript) file. Why is this considered high risk?
+(a) .js files can execute code when opened on Windows (b) .js files are not allowed in email attachments (c) .zip files always contain malware (d) .zip files cannot be scanned by antivirus
+Answer: (a)
+Solution: Windows Script Host can run .js files directly, making them executable; zip files are scannable, not all contain malware, and .js is not universally blocked, so the answer is .js files can execute code when opened on Windows.
+Source: CERT-In advisory

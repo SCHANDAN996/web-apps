@@ -1,0 +1,151 @@
+Questions 26-45: Easy | Questions 46-50: Medium
+
+26. Which protocol is used by an email client to retrieve messages from a mail server and typically deletes them from the server after download?
+(a) IMAP (b) HTTP (c) SMTP (d) POP3
+Answer: (d)
+Solution: POP3 (Post Office Protocol version 3) downloads emails to the local device and usually removes them from the server, whereas IMAP keeps messages synchronized on the server; SMTP is for sending, not retrieving. The trap is choosing IMAP, which also retrieves but retains server copies, so the answer is POP3.
+Source: Microsoft Learn – Email protocols overview
+
+27. What is the default port number for SMTP when using STARTTLS encryption?
+(a) 587 (b) 465 (c) 25 (d) 110
+Answer: (a)
+Solution: Port 587 is the standard submission port for SMTP with STARTTLS; port 465 was historically used for implicit SSL (SMTPS) but is now deprecated in favor of 587, and port 25 is plain-text relay often blocked by ISPs. The trap is selecting 465, which many legacy guides still cite, so the answer is 587.
+Source: RFC 6409 / Microsoft Support – SMTP port settings
+
+28. In an email header, which field indicates the actual sender's mail server IP address as recorded by the receiving server?
+(a) Received (b) Return-Path (c) From (d) X-Originating-IP
+Answer: (a)
+Solution: The Received header chain is added by each mail transfer agent and contains the IP address of the sending server; From and Return-Path can be spoofed, while X-Originating-IP is non-standard. The trap is picking From, which only shows the claimed sender, so the answer is Received.
+Source: RFC 5322 / CERT-In advisory on email header analysis
+
+29. Which MIME type is correctly used for a PDF attachment?
+(a) application/x-pdf (b) text/pdf (c) application/pdf (d) document/pdf
+Answer: (c)
+Solution: The IANA-registered MIME type for PDF is application/pdf; text/pdf and document/pdf are not standard, and application/x-pdf is an obsolete experimental variant. The trap is choosing application/x-pdf, which appears in older code, so the answer is application/pdf.
+Source: IANA Media Types registry / Microsoft Learn – MIME types
+
+30. What does the "BCC" field do that "CC" does not?
+(a) Sends a copy to the recipient's spam folder (b) Requests a read receipt (c) Encrypts the message body (d) Hides recipient addresses from other recipients
+Answer: (d)
+Solution: BCC (Blind Carbon Copy) conceals the listed addresses from all other recipients, whereas CC (Carbon Copy) shows them openly; it does not affect spam routing, encryption, or read receipts. The trap is thinking BCC encrypts content, so the answer is hides recipient addresses from other recipients.
+Source: Microsoft Outlook Help – BCC vs CC
+
+31. Which email authentication method allows a domain owner to specify which mail servers are authorized to send email on behalf of that domain?
+(a) SPF (b) TLS (c) DMARC (d) DKIM
+Answer: (a)
+Solution: SPF (Sender Policy Framework) publishes authorized sending IP addresses in DNS; DKIM adds a cryptographic signature, DMARC sets policy for SPF/DKIM failures, and TLS encrypts transport. The trap is confusing SPF with DKIM, which verifies message integrity, not sending authorization, so the answer is SPF.
+Source: RFC 7208 / CERT-In – Email authentication guide
+
+32. What is the maximum message size (including attachments) typically allowed by major email providers such as Gmail and Outlook for standard accounts?
+(a) 50 MB (b) 10 MB (c) 5 MB (d) 25 MB
+Answer: (d)
+Solution: Major providers like Gmail and Outlook set a default limit of 25 MB for outgoing messages; larger emails often bounce or require cloud storage links. The trap is assuming 50 MB is universally accepted, so the answer is 25 MB.
+Source: Google Workspace / Microsoft 365 message size limits
+
+33. Which protocol provides end-to-end encryption for email content, not just transport?
+(a) SSL (b) STARTTLS (c) S/MIME (d) SSH
+Answer: (c)
+Solution: S/MIME (and PGP) encrypt the message body itself, remaining encrypted until the recipient decrypts; STARTTLS, SSL, and SSH only secure the connection between servers or client-server. The trap is picking STARTTLS, which is opportunistic transport encryption, so the answer is S/MIME.
+Source: RFC 8551 / Microsoft Learn – S/MIME overview
+
+34. In a professional email, what is the purpose of a "subject line"?
+(a) To summarize the email's topic for quick scanning (b) To store the sender's signature (c) To encrypt the message (d) To attach files
+Answer: (a)
+Solution: The subject line gives recipients a concise preview of the content, aiding prioritization and search; it does not store signatures, encrypt, or attach files. The trap is thinking it is optional or decorative, so the answer is to summarize the email's topic for quick scanning.
+Source: Business email etiquette guidelines / RBI cyber awareness material
+
+35. Which folder typically holds messages that the email client's spam filter has automatically moved?
+(a) Drafts (b) Junk / Spam (c) Sent (d) Archive
+Answer: (b)
+Solution: The Junk or Spam folder collects messages flagged as unsolicited or malicious; Drafts holds unsent compositions, Sent stores copies of outgoing mail, and Archive is for manual long-term storage. The trap is confusing Junk with Archive, so the answer is Junk / Spam.
+Source: Microsoft Outlook Help – Folder types
+
+36. What does "phishing" refer to in email security?
+(a) Sending bulk commercial emails (b) Automated out-of-office replies (c) Fraudulent attempt to obtain sensitive data by masquerading as trustworthy (d) Encrypting attachments
+Answer: (c)
+Solution: Phishing is a social-engineering attack where the sender pretends to be a legitimate entity to steal credentials or financial information; it is not bulk marketing (spam), encryption, or auto-replies. The trap is equating phishing with spam, so the answer is fraudulent attempt to obtain sensitive data by masquerading as trustworthy.
+Source: CERT-In – Phishing awareness advisory
+
+37. Which keyboard shortcut in Microsoft Outlook (Windows) creates a new email message from any view?
+(a) Ctrl + Shift + M (b) Ctrl + M (c) Ctrl + R (d) Ctrl + N
+Answer: (a)
+Solution: Ctrl+Shift+M creates a new message regardless of the current folder or view; Ctrl+N only works when already in the Mail view, Ctrl+M triggers Send/Receive, and Ctrl+R replies. The trap is choosing Ctrl+N, which is commonly used but context-dependent, so the answer is Ctrl + Shift + M.
+Source: Microsoft Support – Outlook keyboard shortcuts
+
+38. What is the function of an "email alias"?
+(a) A separate mailbox with its own storage (b) An additional address that delivers to the same mailbox (c) A temporary disposable address (d) An encrypted forwarding address
+Answer: (b)
+Solution: An alias is an alternate email address that routes to the primary mailbox without separate storage or login; it is not a separate mailbox, disposable address, or encryption feature. The trap is thinking an alias creates a new account, so the answer is an additional address that delivers to the same mailbox.
+Source: Microsoft 365 Admin Center – Email aliases
+
+39. Which header field is defined in RFC 3798 for requesting a read receipt (notification when the recipient opens the email)?
+(a) Disposition-Notification-To (b) Return-Receipt-To (c) X-Confirm-Reading-To (d) Read-Receipt-To
+Answer: (a)
+Solution: RFC 3798 standardizes the Disposition-Notification-To header for read receipts; Return-Receipt-To and X-Confirm-Reading-To are legacy or non-standard variants, and Read-Receipt-To is not a defined header. The trap is selecting Return-Receipt-To, which appears in older documentation, so the answer is Disposition-Notification-To.
+Source: RFC 3798 / Microsoft Learn – Read receipts
+
+40. What does "mailbox quota exceeded" mean for a user?
+(a) The email server is down (b) The user has used all allocated storage space (c) The password has expired (d) The domain is blacklisted
+Answer: (b)
+Solution: Quota exceeded indicates the mailbox has reached its storage limit, preventing new mail delivery until space is freed; it is unrelated to server uptime, password status, or domain reputation. The trap is blaming server downtime, so the answer is the user has used all allocated storage space.
+Source: Microsoft 365 / Google Workspace quota documentation
+
+41. Which protocol allows an email client to synchronize folders and message states (read/unread, flags) across multiple devices?
+(a) POP3 (b) MAPI (c) SMTP (d) IMAP
+Answer: (d)
+Solution: IMAP (Internet Message Access Protocol) keeps mailboxes synchronized on the server, so actions on one device reflect on others; POP3 downloads and typically removes, SMTP sends only, and MAPI is a Microsoft proprietary API. The trap is choosing POP3, which does not sync states, so the answer is IMAP.
+Source: RFC 3501 / Microsoft Learn – IMAP vs POP3
+
+42. In email addressing, what does the "local-part" refer to?
+(a) The top-level domain (b) The domain name (c) The part before the @ symbol (d) The mail server hostname
+Answer: (c)
+Solution: The local-part (e.g., "john.doe" in john.doe@example.com) identifies the mailbox within the domain; the domain is after @, TLD is the last label, and mail server hostname is a DNS record. The trap is confusing local-part with domain, so the answer is the part before the @ symbol.
+Source: RFC 5321 / Microsoft Support – Email address format
+
+43. What is the primary purpose of DKIM (DomainKeys Identified Mail)?
+(a) To encrypt email content (b) To compress attachments (c) To verify the sender's domain and message integrity via cryptographic signature (d) To schedule delayed delivery
+Answer: (c)
+Solution: DKIM adds a digital signature linked to the sending domain, allowing receivers to confirm the message was not altered and originates from an authorized domain; it does not encrypt, compress, or schedule. The trap is thinking DKIM encrypts the body, so the answer is to verify the sender's domain and message integrity via cryptographic signature.
+Source: RFC 6376 / CERT-In – DKIM deployment guide
+
+44. Which RFC defines Email Address Internationalization (EAI) allowing Unicode in email addresses?
+(a) RFC 5321 (b) RFC 6531 (c) RFC 5322 (d) RFC 8058
+Answer: (b)
+Solution: RFC 6531 specifies the SMTP extension for internationalized email addresses; RFC 5321 and RFC 5322 cover the base SMTP and message format, while RFC 8058 defines the List-Unsubscribe header. The trap is confusing the base protocol RFCs with the EAI extension, so the answer is RFC 6531.
+Source: RFC 6531 / ICANN – Email Address Internationalization
+
+45. What action should a user take upon receiving an unexpected email with a .exe attachment from an unknown sender?
+(a) Open it to see what it is (b) Delete it and report to IT/security team (c) Forward it to colleagues (d) Reply asking for clarification
+Answer: (b)
+Solution: Executable attachments from unknown sources are high-risk malware vectors; the safe response is deletion and reporting, not opening, forwarding, or replying. The trap is curiosity-driven opening, so the answer is delete it and report to IT/security team.
+Source: CERT-In – Malware prevention advisory / RBI cyber safety guidelines
+
+46. Which email feature automatically sends a predefined reply when the user is away?
+(a) Auto-forward (b) Out of Office / Automatic Replies (c) Rules (d) Signature
+Answer: (b)
+Solution: Out of Office (Automatic Replies) sends a preset response to incoming messages during a specified period; auto-forward redirects mail, rules process conditions, and signature appends text. The trap is confusing it with auto-forward, so the answer is Out of Office / Automatic Replies.
+Source: Microsoft Outlook Help – Automatic Replies
+
+47. In the context of email migration, what does "delta sync" mean?
+(a) Incremental synchronization of only changes since last sync (b) Conversion to PST format (c) Deletion of source mailbox (d) Full copy of all mailbox data
+Answer: (a)
+Solution: Delta sync transfers only new or modified items after the initial bulk migration, reducing bandwidth and time; it is not a full copy, deletion, or format conversion. The trap is thinking it means full sync each time, so the answer is incremental synchronization of only changes since last sync.
+Source: Microsoft 365 migration documentation
+
+48. What is the significance of the "List-Unsubscribe" header in commercial emails?
+(a) It hides the sender's identity (b) It validates the sender's SPF record (c) It encrypts the mailing list (d) It provides a one-click mechanism for recipients to opt out
+Answer: (d)
+Solution: List-Unsubscribe (RFC 8058) enables mail clients to show an "Unsubscribe" button, letting recipients leave the mailing list easily; it does not hide identity, encrypt, or validate SPF. The trap is assuming it is a security header, so the answer is it provides a one-click mechanism for recipients to opt out.
+Source: RFC 8058 / CERT-In – Email marketing best practices
+
+49. Which of the following statements about email retention policies is correct?
+(a) They are enforced only by the client, not the server (b) They apply only to deleted items (c) They define how long messages must be kept or can be deleted for compliance (d) They cannot be customized per folder
+Answer: (c)
+Solution: Retention policies set organizational rules for preserving or disposing of email to meet legal/regulatory requirements; they cover all items, are enforced server-side (e.g., Exchange Online), and can be scoped to folders. The trap is limiting them to deleted items or client-only enforcement, so the answer is they define how long messages must be kept or can be deleted for compliance.
+Source: Microsoft Purview / RBI data retention guidelines
+
+50. A user reports that sent emails appear in the recipient's spam folder. Which DNS record should the administrator check first to improve deliverability?
+(a) MX (b) NS (c) CNAME (d) SPF
+Answer: (d)
+Solution: SPF (Sender Policy Framework) authorizes sending IPs for the domain; missing or misconfigured SPF is a leading cause of spam-folder placement. MX routes incoming mail, CNAME aliases hosts, and NS delegates zones — none directly affect outbound reputation. The trap is checking MX first, so the answer is SPF.
+Source: RFC 7208 / CERT-In – Email deliverability troubleshooting

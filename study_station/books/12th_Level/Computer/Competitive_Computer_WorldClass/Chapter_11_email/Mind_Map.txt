@@ -1,0 +1,23 @@
+```mermaid
+graph TD
+    A["ईमेल / Email"] --> B["संरचना / Structure"]
+    A --> C["प्रोटोकॉल / Protocols"]
+    A --> D["क्लाइंट / Clients"]
+    A --> E["सुरक्षा / Security"]
+    A --> F["शिष्टाचार / Etiquette"]
+    B --> B1["हेडर: From, To, CC, BCC, Subject, Date"]
+    B --> B2["बॉडी: Text / HTML, अटैचमेंट / Attachments"]
+    B --> B3["MIME: बहुउद्देशीय इंटरनेट मेल एक्सटेंशन / Multipurpose Internet Mail Extensions"]
+    C --> C1["SMTP (पोर्ट 25/587) — भेजना / Sending"]
+    C --> C2["POP3 (पोर्ट 110) — डाउनलोड / Download"]
+    C --> C3["IMAP (पोर्ट 143) — सिंक / Sync"]
+    D --> D1["डेस्कटॉप: Outlook, Thunderbird"]
+    D --> D2["वेबमेल: Gmail, Outlook.com, Yahoo"]
+    D --> D3["मोबाइल: Gmail App, Apple Mail"]
+    E --> E1["TLS/SSL एन्क्रिप्शन / Encryption"]
+    E --> E2["SPF, DKIM, DMARC — स्पूफिंग रोकथाम / Spoofing prevention"]
+    E --> E3["फिशिंग पहचान / Phishing awareness"]
+    F --> F1["स्पष्ट विषय पंक्ति / Clear subject line"]
+    F --> F2["संक्षिप्त, विनम्र भाषा / Concise polite tone"]
+    F --> F3["रिप्लाई ऑल सावधानी / Reply-all caution"]
+```

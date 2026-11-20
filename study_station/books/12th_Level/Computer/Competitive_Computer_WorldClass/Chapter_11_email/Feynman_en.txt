@@ -1,0 +1,79 @@
+# Email — Feynman-Style Explanation
+
+## The Core Idea: Digital Post Office
+
+Think of email as a **post office that never sleeps**. You write a letter (compose), put it in an envelope with an address (To: field), maybe add a copy for someone else (Cc/Bcc), and drop it in the outbox (Send). The post office (mail server) routes it through sorting centers (MTAs — Mail Transfer Agents) until it reaches the recipient's mailbox (MDA — Mail Delivery Agent). The recipient opens their mailbox (IMAP/POP3) and reads it.
+
+**Key players:**
+- **MUA** (Mail User Agent) — your email app: Outlook, Gmail app, Thunderbird.
+- **MTA** (Mail Transfer Agent) — the trucks that move mail between servers: Postfix, Exim, Exchange.
+- **MDA** (Mail Delivery Agent) — the local postman who puts mail into the user's inbox: Dovecot, Exchange.
+
+## Protocols: The Rules of the Road
+
+| Protocol | Port | Role | Analogy |
+|----------|------|------|---------|
+| **SMTP** | 25, 465, 587 | Sending mail (push) | The outbound truck |
+| **IMAP** | 143, 993 | Reading mail, stays on server | Reading letters at the post office; you can check from multiple windows |
+| **POP3** | 110, 995 | Download & usually delete from server | Taking letters home; once taken, they're gone from the post office |
+
+**Security:** Always use **TLS/SSL** (ports 465/587 for SMTP, 993 for IMAP, 995 for POP3). Plain-text ports (25, 143, 110) send passwords in clear — never use them on public networks.
+
+## Address Anatomy
+
+`user@domain.tld`
+- **Local part** (before @): mailbox name, case-insensitive usually.
+- **Domain** (after @): routes to the right mail server via **MX records** in DNS.
+
+## Common Fields
+
+- **To:** Primary recipients (visible to all).
+- **Cc (Carbon Copy):** Secondary recipients (visible to all).
+- **Bcc (Blind Carbon Copy):** Hidden recipients (each sees only themselves).
+- **Subject:** One-line summary — keep it specific.
+- **Attachments:** Files encoded as MIME parts (Base64). Size limits vary (typically 25 MB).
+
+## Spam & Safety
+
+- **SPF / DKIM / DMARC** — DNS-based proofs that the sender owns the domain.
+- **Phishing:** Fake login pages, urgent "verify your account" links. Hover before clicking; check the actual URL.
+- **Malware:** Unexpected .exe, .zip, .scr attachments. Scan before opening.
+- **CERT-In / RBI advisories:** Report financial phishing to `reportphishing@cert-in.org.in` or your bank's official channel.
+
+---
+
+## 5 Recall Questions
+
+**Q1. Which protocol is used to *send* email from your client to the mail server?**  
+**Answer:** SMTP (Simple Mail Transfer Protocol).  
+**Why:** SMTP is the outbound protocol. IMAP and POP3 are for *retrieving* mail.
+
+**Q2. What is the key difference between IMAP and POP3?**  
+**Answer:** IMAP keeps mail on the server (synced across devices); POP3 downloads and typically removes from server.  
+**Why:** IMAP = "read at the post office"; POP3 = "take home."
+
+**Q3. Which port should you use for secure IMAP?**  
+**Answer:** 993 (IMAP over TLS/SSL).  
+**Why:** Port 143 is plain-text; 993 encrypts the session.
+
+**Q4. What does Bcc do that Cc does not?**  
+**Answer:** Bcc hides recipients from each other; Cc shows all recipients to everyone.  
+**Why:** Privacy for mailing lists or sensitive forwards.
+
+**Q5. What DNS record tells the world which server handles mail for a domain?**  
+**Answer:** MX (Mail Exchanger) record.  
+**Why:** Without MX, other MTAs don't know where to deliver mail for `@domain.tld`.
+
+---
+
+## Common Mistakes to Avoid
+
+1. **Using port 25 for client submission** — port 25 is for server-to-server; clients should use 587 (STARTTLS) or 465 (implicit TLS).
+2. **Ignoring certificate warnings** — "Continue anyway" on self-signed certs exposes credentials.
+3. **Replying to spam** — confirms your address is live; just delete.
+4. **Sending large attachments without checking limits** — use cloud links (OneDrive, Google Drive) for >20 MB.
+5. **Confusing "From:" display name with actual sender** — always check the email address, not just the name.
+
+---
+
+**Sources:** Microsoft Learn (Exchange protocols), RFC 5321/5322 (SMTP/Message format), RFC 3501 (IMAP), RFC 1939 (POP3), CERT-In advisories, RBI cyber-security circulars.
