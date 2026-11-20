@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 21-11-2026 03:41 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
+**आख़िरी update:** 21-11-2026 03:53 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,16 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 82 मिनट |
-| W3 | Chapter 13 ek shabd (10th Hindi) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 82 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 94 मिनट |
+| W4 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 94 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 23 |
-| key 4 | 24 |
+| key 3 | 24 |
+| key 4 | 25 |
 | key 5 | 19 |
-| key 6 | 30 |
+| key 6 | 32 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -49,16 +48,11 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 13 ek shabd (Hindi) — 1 बार
 - Chapter 15 vakya shuddhi (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-21-11 02:56:53   [vakya_shuddhi] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q76 key b vs re-solve ?, Q77 key a vs re-solve b, Q78 key c vs re-solve ?, Q80 key c vs re-solve d, 
-21-11 02:59:31   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q76 key a vs re-solve b, Q81 key c vs re-solve a, Q90 key d vs re-solve b, Q94 key c vs re-solve b, 
-21-11 02:59:38   [sandhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q35 key a vs re-solve c, Q39 key a vs re-solve b)
-21-11 02:59:38   [sandhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
 21-11 03:03:01   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q86 key b vs re-solve a, Q88 key b vs re-solve a, Q94 key d vs re-solve b, Q98 key c vs re-solve a)
 21-11 03:03:32   [vakya_shuddhi] wrote Practice_hi_Set_04.txt (write, 25 MCQs)
 21-11 03:07:41   [sandhi] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q51 key c vs re-solve a, Q53 key c vs re-solve ?, Q54 key c vs re-solve d, Q55 key a vs re-solve b, 
@@ -95,4 +89,8 @@
 21-11 03:40:40   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
 21-11 03:41:15   [ek_shabd] review: 2 section(s) corrected, 0 failed
 21-11 03:41:15   [ek_shabd] written 2, failed 0; AI calls today 96/100000
+21-11 03:41:34 DONE 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd in 7 min → d1d0d104
+21-11 03:41:54 worker 2: nothing left
+21-11 03:47:09   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q127 key c vs re-solve a, Q142 key b vs re-solve a)
+21-11 03:52:58   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q126 key b vs re-solve c, Q148 key b vs re-solve a)
 ```
