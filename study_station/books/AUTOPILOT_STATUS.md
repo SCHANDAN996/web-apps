@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 07:59 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 07:28 AM
+**आख़िरी update:** 20-11-2026 08:03 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 07:28 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
-| W2 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
-| W3 | Chapter 10 paryayvachi (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
-| W4 | Chapter 11 vilom (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 35 मिनट |
+| W2 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 35 मिनट |
+| W3 | Chapter 10 paryayvachi (10th Hindi) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 11 vilom (10th Hindi) | 🔎 review हो रहा है | 34 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 11 |
-| key 4 | 24 |
+| key 3 | 15 |
+| key 4 | 27 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -44,7 +44,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 20-11 08:03 — 10th Hindi · Chapter 10 paryayvachi
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
@@ -85,4 +85,8 @@
 20-11 07:58:08   [upsarg_pratyay] review PYQ_hi.txt round 1: 2 issue(s): - In Pattern B, option (a) incorrectly lists the suffix as "नीया" instead of "नीय" → Option (a) should read "नी
 20-11 07:59:07   [vilom] review Key_Facts_hi.txt: resumed private correction draft
 20-11 07:59:07   [vilom] 2026-11-20 02:29:07,774 WARNING NVIDIA rate_limited — retrying in 20s
+20-11 08:01:37   [vilom] review Key_Facts_hi.txt round 1: 3 issue(s): - Point 20 incorrectly labels the pairs “सत्य–झूठ”, “अमृत–ज़हर”, “धर्म–कुकर्म” as तत्सम–तद्भव विलोम युग्म
+20-11 08:02:38   [vilom] review Key_Facts_hi.txt round 2: 2 issue(s): - Point 12 states “सु–/कु– उपसर्ग युग्म” but the examples use the “दु–” prefix (दुर्जन, दुशील) instead of
+20-11 08:03:17   [paryayvachi] review: 1 section(s) corrected, 0 failed
+20-11 08:03:17   [paryayvachi] written 1, failed 0; AI calls today 42/100000
 ```
