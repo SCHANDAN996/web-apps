@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 09:02 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 04:41 PM
+**आख़िरी update:** 20-11-2026 09:17 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 04:41 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,13 +8,13 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 51 मिनट |
+| W1 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 66 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 59 |
-| key 4 | 58 |
-| key 5 | 69 |
+| key 3 | 60 |
+| key 4 | 59 |
+| key 5 | 70 |
 | key 6 | 55 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
@@ -58,8 +58,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 19:52:18   [e_banking] review: 1 section(s) corrected, 0 failed
-20-11 19:52:18   [e_banking] written 1, failed 0; AI calls today 204/100000
 20-11 19:52:31   [anekarthi_samshrut] REJECTED review fix Feynman_hi.txt: reviewer still reports - Section 1 table, word **बार**: meaning 2 lists "बारात / विवाह मंडप" → **बार** means **बार
 20-11 19:52:31   [anekarthi_samshrut] review Mind_Map.txt: resumed private correction draft
 20-11 19:52:33 DONE 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_12_e_banking in 3 min → a18b003d
@@ -98,4 +96,6 @@
 20-11 20:51:18 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi after 249 min: todo ['Set 02 hi: todo', 'Set 04 hi: todo', 'Set 05 hi: todo', 'Set 06 hi: todo'] problems []
 20-11 20:51:18 worker 6: nothing left
 20-11 20:54:18   [rikt_sthan_vakya_kram] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q54 key d vs re-solve b, Q68 key b vs re-solve a, Q72 key b vs re-solve a)
+20-11 21:04:41   [rikt_sthan_vakya_kram] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q54 key a vs re-solve b, Q68 key d vs re-solve b, Q69 key c vs re-solve b, Q70 key d vs re-solve c, 
+20-11 21:17:09   [rikt_sthan_vakya_kram] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q53 key d vs re-solve c, Q70 key c vs re-solve d, Q75 key b vs re-solve d)
 ```
