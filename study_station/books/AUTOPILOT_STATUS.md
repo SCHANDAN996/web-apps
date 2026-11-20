@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 21-11-2026 03:53 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
+**आख़िरी update:** 21-11-2026 04:09 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 94 मिनट |
-| W4 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 94 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 110 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 24 |
-| key 4 | 25 |
-| key 5 | 19 |
-| key 6 | 32 |
+| key 3 | 26 |
+| key 4 | 27 |
+| key 5 | 21 |
+| key 6 | 33 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -49,18 +48,11 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 15 vakya shuddhi (Hindi) — 1 बार
+- Chapter 16 rikt sthan vakya kram (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-21-11 03:03:01   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q86 key b vs re-solve a, Q88 key b vs re-solve a, Q94 key d vs re-solve b, Q98 key c vs re-solve a)
-21-11 03:03:32   [vakya_shuddhi] wrote Practice_hi_Set_04.txt (write, 25 MCQs)
-21-11 03:07:41   [sandhi] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q51 key c vs re-solve a, Q53 key c vs re-solve ?, Q54 key c vs re-solve d, Q55 key a vs re-solve b, 
-21-11 03:07:49   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q76 key d vs re-solve a, Q78 key d vs re-solve c, Q81 key c vs re-solve a, Q88 key d vs re-solve c, 
-21-11 03:09:28   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 4: rejected (parsed 24 questions, numbers 76…100)
-21-11 03:09:28   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
-21-11 03:10:25   [vakya_shuddhi] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q127 key c vs re-solve ?, Q131 key b vs re-solve ?, Q132 key a vs re-solve c, Q134 key a vs re-solve
-21-11 03:16:49   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q109 key a vs re-solve b, Q117 key c vs re-solve d, Q125 key a vs re-solve b)
 21-11 03:17:09   [sandhi] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q51 key a vs re-solve b, Q53 key d vs re-solve c, Q55 key b vs re-solve a)
 21-11 03:18:18   [vakya_shuddhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q126 key b vs re-solve ?, Q127 key c vs re-solve ?, Q131 key a vs re-solve ?, Q135 key b vs re-solve
 21-11 03:22:10   [sandhi] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q53 key b vs re-solve ?, Q61 key c vs re-solve ?)
@@ -93,4 +85,12 @@
 21-11 03:41:54 worker 2: nothing left
 21-11 03:47:09   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q127 key c vs re-solve a, Q142 key b vs re-solve a)
 21-11 03:52:58   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q126 key b vs re-solve c, Q148 key b vs re-solve a)
+21-11 03:54:24   [sandhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q127 key d vs re-solve ?, Q128 key d vs re-solve b, Q129 key c vs re-solve b, Q131 key b vs re-solve
+21-11 03:58:30   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q145 key b vs re-solve d)
+21-11 04:03:20   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q145 key c vs re-solve d)
+21-11 04:03:20   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
+21-11 04:03:20   [rikt_sthan_vakya_kram] written 0, failed 4; AI calls today 105/100000
+21-11 04:03:20 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram after 104 min: todo ['Set 03 hi: todo', 'Set 04 hi: todo', 'Set 05 hi: todo', 'Set 06 hi: todo'] problems []
+21-11 04:03:41 worker 3: nothing left
+21-11 04:06:07   [sandhi] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q128 key d vs re-solve ?, Q129 key c vs re-solve b, Q132 key b vs re-solve a, Q137 key b vs re-solve
 ```
