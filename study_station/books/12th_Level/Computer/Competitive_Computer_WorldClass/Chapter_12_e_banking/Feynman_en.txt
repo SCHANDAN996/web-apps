@@ -1,0 +1,49 @@
+Electronic Banking — Feynman Explanation
+
+Imagine your bank branch is a physical shop where you walk in, fill a slip, hand it to a teller, and wait for the stamp. Electronic banking moves that shop to your pocket. The building becomes a server, the teller becomes software, and the slip becomes an encrypted message. You still deposit, withdraw, transfer, and check balances — but the "counter" is now a website, a mobile app, an ATM, or a USSD code on a basic phone.
+
+Core Channels (SSC Computer Awareness syllabus)
+
+1. Internet Banking — Bank's website accessed via browser. You log in with a user ID, password, and often a second factor (OTP, grid card, or hardware token). Think of it as a virtual branch open 24×7.
+2. Mobile Banking — Bank's official app on a smartphone. Adds biometric login (fingerprint/face) and push notifications. Same functions, smaller screen.
+3. ATM (Automated Teller Machine) — Self-service kiosk for cash withdrawal, balance enquiry, PIN change, mini-statement. The card + PIN proves identity.
+4. UPI (Unified Payments Interface) — Instant real-time payment system developed by NPCI. A Virtual Payment Address (VPA) like `name@bank` replaces account number + IFSC. Works across banks, 24×7, including holidays.
+5. USSD (*99#) — Menu-based banking on any GSM phone without internet. Dials a code, selects options, enters PIN. Designed for feature-phone users.
+6. AEPS (Aadhaar Enabled Payment System) — Uses Aadhaar number + fingerprint/iris at a micro-ATM (business correspondent). No card, no phone needed.
+7. Card Networks — RuPay (domestic), Visa, Mastercard. Debit cards pull from your account; credit cards give a short-term loan. Contactless (NFC) taps work up to ₹5,000 without PIN in India.
+8. NEFT / RTGS / IMPS — Inter-bank transfer rails. NEFT: batch settlements (half-hourly), no minimum, no maximum. RTGS: real-time, minimum ₹2 lakh, no upper limit, available 24×7 since December 2020. IMPS: instant, 24×7, up to ₹5 lakh per transaction.
+
+Security Layers (CERT-In / RBI guidelines)
+
+- Two-Factor Authentication (2FA): Something you know (password/PIN) + something you have (OTP on registered mobile/email) or something you are (biometric).
+- Encryption: TLS 1.2+ for web/app; end-to-end encryption for UPI.
+- Transaction Alerts: SMS/email for every debit/credit — mandatory per RBI.
+- Liability: Zero customer liability if unauthorized transaction reported within 3 working days (RBI circular 2017/2019).
+- Safe Practices: Never share OTP, PIN, CVV. Use official app/store only. Avoid public Wi-Fi for banking. Set transaction limits. Register for alerts.
+
+Common Mistakes
+
+- Confusing NEFT (batched) with IMPS (instant) — exam questions often test settlement time and limits.
+- Thinking UPI requires internet — USSD *99# works without data.
+- Believing "RuPay is only for debit" — RuPay credit cards exist.
+- Missing that RTGS has a floor limit (₹2 lakh) while NEFT has none.
+- Overlooking that AEPS uses biometric, not card/PIN.
+
+Five Recall Questions
+
+1. Which channel allows fund transfer using only a Virtual Payment Address (e.g., `rahul@oksbi`) without knowing the beneficiary's account number or IFSC?
+   Answer: UPI. The VPA maps to the underlying account; NPCI resolves it in real time.
+
+2. A customer wants to transfer ₹10 lakh on a Sunday night and needs the money credited instantly. Which system should they use?
+   Answer: RTGS. IMPS has a per-transaction limit of ₹5 lakh. RTGS is available 24×7 (since December 2020), has a minimum of ₹2 lakh and no upper limit, and settles in real time.
+
+3. What does the second factor in 2FA for internet banking usually represent in the Indian context?
+   Answer: An OTP sent to the registered mobile number or email — "something you have."
+
+4. Which banking service works on a basic feature phone without internet by dialing *99#?
+   Answer: USSD-based mobile banking (NUUP — National Unified USSD Platform).
+
+5. Under RBI's zero-liability rule, within how many working days must a customer report an unauthorized electronic transaction to bear zero loss?
+   Answer: Three working days.
+
+Source: RBI Master Directions on Digital Payment Security Controls; NPCI product documentation; CERT-In advisories.

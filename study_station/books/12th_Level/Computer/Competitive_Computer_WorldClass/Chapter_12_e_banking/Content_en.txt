@@ -1,0 +1,165 @@
+Electronic Banking
+
+Electronic banking (e-banking) refers to the use of electronic channels — internet, mobile networks, ATMs, and other digital platforms — to deliver banking services without requiring the customer to visit a physical branch. In India, the shift from branch-based to digital banking has been driven by RBI policy, technology adoption, and government initiatives such as Digital India and Jan Dhan Yojana. For competitive examinations (SSC CHSL, CGL, Bank PO/Clerk, Railway NTPC, State PSC), questions focus on product names, transaction limits, settlement cycles, security protocols, and RBI circulars — not on marketing slogans.
+
+---
+
+### 1. Core Channels
+
+| Channel | Full Form | Key Characteristic |
+|---------|-----------|-------------------|
+| Internet Banking | — | Browser-based access to account view, fund transfer, bill payment, service requests. |
+| Mobile Banking | — | App or USSD (*99#) based; works on feature phones (USSD) and smartphones (app). |
+| ATM | Automated Teller Machine | Cash withdrawal, balance enquiry, PIN change, mini statement; inter-operable via NFS. |
+| POS | Point of Sale | Card swipe/dip/tap at merchant outlet; also QR-code based UPI payments. |
+| Phone Banking | — | IVR or call-centre assisted; declining in usage but still exists for senior citizens. |
+
+---
+
+### 2. Fund-Transfer Systems (India)
+
+#### NEFT — National Electronic Funds Transfer
+- **Operator**: RBI.
+- **Settlement**: Half-hourly batches (48 settlements/day, every 30 minutes round-the-clock).
+- **Limit**: No minimum; no maximum (bank may set own cap).
+- **Charges**: RBI waived processing charges for member banks (2019); banks may levy customer charges as per board-approved policy.
+- **Availability**: 24×7×365 since 16 December 2019.
+
+#### RTGS — Real Time Gross Settlement
+- **Operator**: RBI.
+- **Settlement**: Real-time, gross (transaction-by-transaction), final and irrevocable.
+- **Minimum**: ₹2 lakh; no upper ceiling.
+- **Timings**: 24×7×365 since 14 December 2020.
+- **Use case**: High-value, time-critical payments (property, inter-bank, government).
+
+#### IMPS — Immediate Payment Service
+- **Operator**: NPCI (National Payments Corporation of India).
+- **Settlement**: Immediate, 24×7×365.
+- **Limit**: ₹5 lakh per transaction (per NPCI circular; banks may set lower internal limits).
+- **Channels**: Mobile banking, internet banking, ATM, SMS.
+- **Identifier**: MMID (Mobile Money Identifier) + mobile number, or IFSC + account number.
+
+#### UPI — Unified Payments Interface
+- **Operator**: NPCI.
+- **Architecture**: Single mobile app for multiple bank accounts; Virtual Payment Address (VPA) like `name@bank`.
+- **Limit**: ₹1 lakh per transaction (general); ₹5 lakh for specific categories (tax, healthcare, education, IPO) as per NPCI circulars.
+- **Settlement**: Immediate, 24×7×365.
+- **Key variants**: UPI Lite (offline, up to ₹500 per txn, ₹2,000 daily), UPI 123Pay (feature phones via IVR/missed call/app), UPI Autopay (recurring mandates).
+
+#### AePS — Aadhaar Enabled Payment System
+- **Operator**: NPCI.
+- **Authentication**: Biometric (fingerprint/iris) + Aadhaar number.
+- **Services**: Cash withdrawal, deposit, balance enquiry, mini statement, fund transfer (Aadhaar-to-Aadhaar).
+- **Limit**: ₹10,000 per transaction (varies by bank/BC agent).
+
+#### BBPS — Bharat Bill Payment System
+- **Operator**: NPCI (under RBI licence).
+- **Scope**: Interoperable bill payment (electricity, water, gas, telecom, DTH, FASTag, insurance, loan repayments, municipal taxes).
+- **Channels**: Bank branches, BC outlets, mobile/internet banking, UPI apps, wallets.
+
+---
+
+### 3. Card Networks & Tokenisation
+
+| Network | Type | Note |
+|---------|------|------|
+| RuPay | Domestic (NPCI) | Mandatory for PMJDY accounts; also issued as credit/prepaid. |
+| Visa / Mastercard / Amex / Diners | International | Co-branded with Indian banks. |
+| Tokenisation (RBI mandate, mandatory from 1 January 2023) | Security | Actual card number replaced by a token (device/merchant specific); PAN not stored by merchant. |
+
+---
+
+### 4. Security Framework (Exam-Relevant)
+
+1. **Two-Factor Authentication (2FA)** — Mandatory for all card-not-present (online) transactions: something you have (OTP on registered mobile) + something you know (PIN/password).
+2. **OTP Channels** — SMS, email, or authenticator app; RBI discourages SMS-only for high-value (encourages app-based).
+3. **Transaction Alerts** — Banks must send SMS/email for every transaction (RBI circular 2011, updated 2021).
+4. **Liability** — Customer zero liability if fraud reported within 3 working days of receiving the communication from the bank; limited liability (₹5,000–₹25,000) if reported within 4–7 working days; beyond 7 working days, board-approved policy applies.
+5. **CERT-In Reporting** — Banks must report cyber incidents within 6 hours (CERT-In directions 2022).
+6. **RBI Ombudsman** — Digital complaints via CMS (Complaint Management System) portal; escalation to RBI Integrated Ombudsman Scheme (2021).
+
+---
+
+### 5. Key RBI Circulars (Stable References)
+
+- **Master Direction – Digital Payment Security Controls (2021)** — Baseline cyber-security for banks/non-bank PPI issuers.
+- **Master Direction – KYC (2016, updated)** — Video KYC (V-CIP) permitted for account opening.
+- **Circular on Tokenisation (2021, 2022)** — Card-on-file tokenisation mandatory.
+- **UPI Interoperability (2022)** — UPI QR codes interoperable across apps.
+- **NEFT 24×7 (2019)** — Round-the-clock availability from 16 December 2019.
+- **RTGS 24×7 (2020)** — Round-the-clock availability from 14 December 2020.
+
+---
+
+### 6. Worked Examples
+
+#### Example 1: Choosing the Right System
+**Question**: A customer needs to transfer ₹15 lakh to a vendor on a Sunday evening. The amount must reach the beneficiary's account within minutes. Which system should be used?
+**Solution**: RTGS. Minimum ₹2 lakh, no upper limit, real-time gross settlement, available 24×7×365. NEFT works in half-hourly batches (still fast but not instantaneous). IMPS caps at ₹5 lakh. UPI general cap is ₹1 lakh.
+**Answer**: RTGS.
+
+#### Example 2: NEFT Settlement Cycle
+**Question**: An NEFT transaction is initiated at 14:17 on a working day. The batch schedule is half-hourly. At what time will the transaction be settled?
+**Solution**: NEFT batches run at :00 and :30 past every hour, 24×7. The next batch after 14:17 is 14:30. Settlement occurs in that batch; beneficiary credit typically within 30 minutes of batch completion.
+**Answer**: 14:30 batch (credit by ~15:00).
+
+#### Example 3: IMPS vs UPI Limit
+**Question**: A user wants to send ₹3.5 lakh instantly using a mobile app. The beneficiary has a VPA. Can this be done via UPI?
+**Solution**: General UPI limit is ₹1 lakh per transaction. ₹3.5 lakh exceeds this. IMPS allows up to ₹5 lakh per transaction. The user should use IMPS (IFSC + account number) or, if the beneficiary's bank supports UPI higher-value categories (tax, healthcare, education, IPO), check eligibility. For general merchant payment, IMPS is the correct choice.
+**Answer**: No, not via general UPI; use IMPS.
+
+#### Example 4: Tokenisation Benefit
+**Question**: A customer saves a RuPay debit card on an e-commerce site. After tokenisation (RBI mandate), what data does the merchant store?
+**Solution**: The merchant stores a token — a surrogate value unique to that card, device, and merchant. The actual PAN (16-digit card number), CVV, and expiry are not stored. Even if the merchant database is breached, the token cannot be used on another site or converted back to PAN.
+**Answer**: Token only; PAN/CVV/expiry not stored.
+
+#### Example 5: AePS Transaction
+**Question**: A BC (Business Correspondent) agent performs a cash withdrawal for a customer using AePS. The customer provides Aadhaar number and fingerprint. What is the maximum amount per transaction as per NPCI guidelines?
+**Solution**: ₹10,000 per transaction (standard NPCI limit; banks may set lower).
+**Answer**: ₹10,000.
+
+#### Example 6: Zero Liability Condition
+**Question**: A customer notices an unauthorised UPI debit of ₹12,000 on Tuesday morning. The transaction occurred on Sunday night. The customer reports it to the bank on Wednesday afternoon. What is the customer's liability?
+**Solution**: Reporting within 3 working days of receiving the bank's transaction alert (Monday, Tuesday, Wednesday = 3 working days) attracts zero liability under RBI's "Customer Protection – Limiting Liability of Customers in Unauthorised Electronic Banking Transactions" (2017, updated 2021).
+**Answer**: Zero liability.
+
+---
+
+### 7. Common Errors (Exam Traps)
+
+1. **Confusing NEFT and RTGS limits** — NEFT has no minimum; RTGS minimum is ₹2 lakh. Many options swap these.
+2. **Assuming UPI limit is ₹5 lakh for all payments** — ₹5 lakh applies only to specified categories (tax, hospital, education, IPO). General peer-to-peer/merchant limit remains ₹1 lakh.
+3. **Thinking IMPS requires MMID only** — IMPS works with IFSC + account number also; MMID + mobile is an alternative, not a requirement.
+4. **Believing tokenisation applies to POS (card-present) transactions** — Tokenisation mandate is for card-on-file (online/e-com). POS uses EMV chip + PIN; tokenisation is optional for NFC tap-and-pay (device token).
+5. **Mixing settlement types** — NEFT = net settlement (batch); RTGS = gross settlement (transaction-level); IMPS/UPI = immediate, but operated by NPCI, not RBI.
+6. **Assuming AePS works without biometric** — AePS mandates Aadhaar + biometric (fingerprint/iris). OTP-based Aadhaar authentication is e-KYC, not AePS.
+7. **Confusing BBPS with UPI** — BBPS is for bill payments (biller categories defined); UPI is a generic push/pull payment rail. A BBPS transaction can be *paid via* UPI, but they are different layers.
+8. **Thinking RTGS is only for inter-bank** — RTGS is available for customer payments ≥ ₹2 lakh; not restricted to banks.
+9. **Ignoring "working days" in liability** — RBI liability clock runs on *working days* (bank working days), not calendar days. Sunday/holiday excluded.
+10. **Assuming all UPI apps have same daily limit** — NPCI sets per-transaction caps; banks set daily/transaction limits within that ceiling. A bank may cap at ₹25,000/day even though NPCI allows ₹1 lakh/txn.
+
+---
+
+### 8. Quick Revision Table
+
+| System | Operator | Settlement | Min | Max (General) | Timings |
+|--------|----------|------------|-----|---------------|---------|
+| NEFT | RBI | Net (half-hourly batch) | No minimum | No limit | 24×7×365 (since Dec 2019) |
+| RTGS | RBI | Gross (real-time) | ₹2 lakh | No limit | 24×7×365 (since Dec 2020) |
+| IMPS | NPCI | Immediate | ₹1 | ₹5 lakh | 24×7×365 |
+| UPI | NPCI | Immediate | ₹1 | ₹1 lakh* | 24×7×365 |
+| AePS | NPCI | Immediate | ₹1 | ₹10,000 | 24×7×365 |
+
+*₹5 lakh for specified categories.
+
+---
+
+### 9. Examination Pointers
+
+- **Definition questions**: "What is VPA?" → Virtual Payment Address (e.g., `user@bank`).
+- **Full forms**: NPCI, NFS, BBPS, AePS, MMID, VPA, PPI (Prepaid Payment Instrument).
+- **Regulator**: RBI for NEFT/RTGS; NPCI for IMPS/UPI/AePS/BBPS/RuPay.
+- **Security**: 2FA mandatory for CNP; tokenisation for card-on-file; zero liability within 3 working days of receiving bank communication.
+- **Static reference dates**: NEFT 24×7 from 16 Dec 2019; RTGS 24×7 from 14 Dec 2020; tokenisation mandate Jan 2023 (mandatory from 1 Jan 2023); UPI 123Pay launch 2022; RuPay credit card on UPI (2022).
+
+Memorise the table, the limits, and the operator. Questions are rarely descriptive — they test exact figures and correct pairing of system–operator–limit.

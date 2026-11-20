@@ -1,0 +1,151 @@
+Questions 126–145: Easy | Questions 146–150: Medium
+
+126. Which of the following is the full form of IMPS in the context of Indian electronic banking?
+(a) Immediate Mobile Payment Service (b) Integrated Mobile Payment Solution (c) Instant Money Payment System (d) Immediate Payment Service
+Answer: (d)
+Solution: Many aspirants confuse IMPS with mobile-specific names because it works on mobile apps, but the official NPCI name is Immediate Payment Service — it is channel-agnostic and also works via internet banking, so the answer is Immediate Payment Service.
+Source: NPCI official documentation
+
+127. NEFT settlement occurs in batches at fixed intervals. What is the current batch frequency for NEFT transactions as per RBI guidelines?
+(a) Every hour (b) Every 30 minutes (c) Every 15 minutes (d) Real-time continuous
+Answer: (b)
+Solution: A common trap is to think NEFT is real-time like IMPS or UPI; however, NEFT operates on a deferred net settlement basis with batches every 30 minutes (48 half-hourly batches per day), so the answer is Every 30 minutes.
+Source: RBI NEFT procedural guidelines
+
+128. RTGS is primarily designed for which type of transactions?
+(a) Low-value high-volume retail payments (b) International remittances only (c) Person-to-person mobile payments (d) High-value time-critical interbank transfers
+Answer: (d)
+Solution: Candidates often pick "low-value high-volume" because UPI fits that description, but RTGS (Real Time Gross Settlement) is meant for large-value, time-critical interbank transfers with a minimum threshold of ₹2 lakh, so the answer is High-value time-critical interbank transfers.
+Source: RBI RTGS framework
+
+129. In UPI architecture, which entity acts as the Payment Service Provider (PSP) for the end-user?
+(a) NPCI (b) The merchant's bank (acquirer bank) (c) The UPI app provider (e.g., PhonePe, Google Pay) (d) The user's bank (issuer bank)
+Answer: (c)
+Solution: A tempting wrong option is "the user's bank" because the bank holds the account, but the PSP role — onboarding users, providing the app interface, and initiating payment requests — is performed by the UPI app provider, so the answer is The UPI app provider (e.g., PhonePe, Google Pay).
+Source: NPCI UPI procedural guidelines
+
+130. What is the maximum per-transaction limit for UPI transactions as per current NPCI guidelines for general categories?
+(a) ₹1,00,000 (b) ₹50,000 (c) ₹10,000 (d) ₹2,00,000
+Answer: (a)
+Solution: Many remember the old ₹1 lakh limit and assume it changed to ₹2 lakh (which applies to specific categories like capital markets), but for general peer-to-peer and merchant payments the cap remains ₹1 lakh per transaction, so the answer is ₹1,00,000.
+Source: NPCI UPI circulars
+
+131. Which authentication factor is mandatory for all card-not-present (online) transactions in India as per RBI mandate?
+(a) OTP sent to registered mobile/email (b) Static PIN only (c) Biometric verification (d) Physical card presence
+Answer: (a)
+Solution: A plausible trap is "Static PIN only" because ATM transactions use PIN, but for e-commerce the RBI mandates an additional factor — OTP to the registered mobile or email — making it two-factor authentication, so the answer is OTP sent to registered mobile/email.
+Source: RBI Master Direction on Digital Payment Security Controls
+
+132. The term "VPA" in UPI stands for:
+(a) Virtual Payment Address (b) Verified Payment Account (c) Virtual Private Access (d) Validated Payment Authorization
+Answer: (a)
+Solution: Candidates sometimes read "Verified Payment Account" because it sounds formal, but VPA is the user-friendly identifier (e.g., user@bank) that replaces sharing bank account numbers, so the answer is Virtual Payment Address.
+Source: NPCI UPI product documentation
+
+133. Which of the following is NOT a feature of the Bharat Bill Payment System (BBPS)?
+(a) Real-time settlement for all biller categories (b) Supports electricity, water, gas, telecom bills (c) Interoperable bill payment across agents (d) Centralized reconciliation through NPCI
+Answer: (a)
+Solution: The trap is "real-time settlement" — BBPS provides interoperability and centralized reconciliation, but settlement to billers follows T+1 or T+2 cycles depending on the biller category, not real-time, so the answer is Real-time settlement for all biller categories.
+Source: NPCI BBPS framework
+
+134. In the context of internet banking, what does "2FA" stand for and what are the typical two factors used in India?
+(a) Two-Factor Authentication: Password + OTP (b) Two-Factor Authentication: Card + PIN (c) Two-Factor Authentication: Biometric + PIN (d) Two-Factor Authentication: User ID + Password
+Answer: (a)
+Solution: "User ID + Password" are both knowledge factors (single factor), whereas 2FA requires two different categories — typically something you know (password) and something you have (OTP on registered device), so the answer is Two-Factor Authentication: Password + OTP.
+Source: RBI cyber security framework for banks
+
+135. Which organization operates the National Financial Switch (NFS) that connects ATMs across India?
+(a) RBI (b) IDRBT (c) IBA (Indian Banks' Association) (d) NPCI
+Answer: (d)
+Solution: Many think RBI directly runs the switch, but NPCI (National Payments Corporation of India) operates NFS, enabling interbank ATM transactions, so the answer is NPCI.
+Source: NPCI official website
+
+136. What is the primary purpose of the "Positive Pay System" introduced by RBI for cheque truncation?
+(a) To speed up cheque clearing to real-time (b) To allow cheque deposit via mobile app (c) To eliminate physical cheques completely (d) To pre-register high-value cheque details for fraud prevention
+Answer: (d)
+Solution: A common misconception is that it enables mobile cheque deposit (that is a separate feature); Positive Pay requires the issuer to submit cheque details electronically before presentation, adding a verification layer for cheques above ₹50,000, so the answer is To pre-register high-value cheque details for fraud prevention.
+Source: RBI circular on Positive Pay System
+
+137. Which of the following digital payment modes does NOT require a bank account to be held by the payer?
+(a) UPI (b) Prepaid Payment Instrument (PPI) wallet (c) IMPS (d) NEFT
+Answer: (b)
+Solution: UPI, IMPS, and NEFT all mandate a bank account; a PPI wallet (like a prepaid card or wallet) can be loaded with cash or card without the user having a bank account, so the answer is Prepaid Payment Instrument (PPI) wallet.
+Source: RBI Master Direction on PPIs
+
+138. The "Aadhaar Enabled Payment System (AePS)" allows banking transactions using Aadhaar number and biometric authentication. Which entity acts as the acquirer in an AePS transaction?
+(a) The bank/BC providing the micro-ATM terminal (b) The bank where the customer holds the account (issuer) (c) UIDAI (d) NPCI
+Answer: (a)
+Solution: UIDAI only authenticates biometrics; the acquirer is the bank or Business Correspondent that deploys the micro-ATM and initiates the transaction, so the answer is The bank/BC providing the micro-ATM terminal.
+Source: NPCI AePS procedural guidelines
+
+139. What is the settlement cycle for UPI transactions between banks?
+(a) Real-time gross settlement (b) Deferred net settlement at end of day (c) Instant settlement with finality at transaction level (d) Deferred net settlement in multiple cycles per day
+Answer: (d)
+Solution: UPI transactions are instant for the user, but interbank settlement occurs via deferred net settlement in multiple cycles throughout the day (not real-time gross like RTGS), so the answer is Deferred net settlement in multiple cycles per day.
+Source: NPCI UPI settlement documentation
+
+140. Which of the following is a common social engineering fraud where the attacker tricks the victim into sharing OTP by pretending to be a bank official?
+(a) Phishing (b) Vishing (c) Smishing (d) Pharming
+Answer: (b)
+Solution: Phishing uses email, smishing uses SMS, pharming redirects websites; vishing (voice phishing) is the phone-call variant where fraudsters pose as bank staff to extract OTPs, so the answer is Vishing.
+Source: CERT-In advisory on digital frauds
+
+141. In the context of card tokenization mandated by RBI, what replaces the actual card number during a transaction?
+(a) A dynamic cryptogram generated per transaction (b) A token — a unique alternate code for that card-merchant combination (c) A static 16-digit surrogate number (d) The cardholder's PAN number
+Answer: (b)
+Solution: The trap is "dynamic cryptogram" which is used in EMV chip transactions; tokenization substitutes the PAN with a merchant-specific token that is useless if breached, so the answer is A token — a unique alternate code for that card-merchant combination.
+Source: RBI circular on Card-on-File Tokenization
+
+142. The "e-RUPI" voucher system launched by NPCI is primarily characterized by:
+(a) A new UPI feature for recurring payments (b) Being a cryptocurrency backed by RBI (c) A prepaid voucher delivered via SMS/QR for specific purpose without needing a bank account (d) A digital wallet for government employees only
+Answer: (c)
+Solution: Many confuse it with CBDC or UPI; e-RUPI is a purpose-specific, prepaid, contactless voucher that the beneficiary redeems without a bank account or digital payments app, so the answer is A prepaid voucher delivered via SMS/QR for specific purpose without needing a bank account.
+Source: NPCI e-RUPI product documentation
+
+143. Which regulation governs the liability of a customer in unauthorized electronic banking transactions in India?
+(a) RBI Master Direction on Digital Payment Security Controls (b) RBI circular "Customer Protection — Limiting Liability of Customers in Unauthorized Electronic Banking Transactions" (c) Banking Regulation Act, 1949 (d) Information Technology Act, 2000
+Answer: (b)
+Solution: The Master Direction covers security controls for banks; the specific customer liability framework (zero/limited liability based on reporting time) is laid out in the dedicated RBI circular on customer protection, so the answer is RBI circular "Customer Protection — Limiting Liability of Customers in Unauthorized Electronic Banking Transactions".
+Source: RBI circular dated 6 July 2017 (updated)
+
+144. What is the minimum amount for a RTGS transaction as per current RBI norms?
+(a) ₹1 lakh (b) No minimum — any amount (c) ₹2 lakh (d) ₹5 lakh
+Answer: (c)
+Solution: The trap is "No minimum" because NEFT has no minimum limit, but RTGS is designed for high-value transfers and currently requires a minimum of ₹2 lakh, so the answer is ₹2 lakh.
+Source: RBI RTGS guidelines
+
+145. Which of the following statements about the "Account Aggregator" framework in India is correct?
+(a) It allows NBFCs to view customer bank data without consent (b) It enables consent-based sharing of financial data between regulated entities via licensed Account Aggregators (c) It is a credit scoring model developed by CIBIL (d) It replaces the need for KYC for new accounts
+Answer: (b)
+Solution: The trap is "without consent" — the framework is built on explicit, granular, revocable user consent for sharing financial data across banks, insurers, GST, etc., through RBI-licensed Account Aggregators, so the answer is It enables consent-based sharing of financial data between regulated entities via licensed Account Aggregators.
+Source: RBI Master Direction on Account Aggregators
+
+146. In mobile banking, what does "MPIN" stand for and how does it differ from UPI PIN?
+(a) Mobile Personal Identification Number — same as UPI PIN, 4-6 digits set per bank app (b) Master PIN — a universal PIN for all banking apps (c) Mobile PIN — 6-digit PIN set at bank level for mobile banking login, distinct from UPI PIN which is for UPI transactions (d) Merchant PIN — used by merchants to accept payments
+Answer: (c)
+Solution: Many think MPIN and UPI PIN are interchangeable; MPIN is bank-specific for logging into the bank's mobile app, while UPI PIN is linked to the bank account for authorizing UPI transactions across any UPI app, so the answer is Mobile PIN — 6-digit PIN set at bank level for mobile banking login, distinct from UPI PIN which is for UPI transactions.
+Source: RBI mobile banking guidelines
+
+147. The "BharatQR" code standard enables interoperable QR payments. Which of the following card networks are supported on a single BharatQR code?
+(a) Only UPI-linked accounts (b) Only RuPay (c) Only Visa and Mastercard (d) RuPay, Visa, Mastercard, and Amex
+Answer: (d)
+Solution: A common mistake is to assume it is RuPay-only because it is an Indian standard; BharatQR was designed to be network-agnostic, supporting RuPay, Visa, Mastercard, and American Express on one QR, so the answer is RuPay, Visa, Mastercard, and Amex.
+Source: NPCI BharatQR specifications
+
+148. What is the role of the "Sponsor Bank" in the UPI ecosystem for a Third Party App Provider (TPAP)?
+(a) It issues the VPA to the customer (b) It authenticates the customer's biometrics (c) It provides the UPI switch connectivity and settles transactions on behalf of the TPAP (d) It acts as the grievance redressal body
+Answer: (c)
+Solution: The TPAP (like PhonePe, Google Pay) cannot connect directly to NPCI; it must partner with a Sponsor Bank that provides the UPI switch interface and handles settlement, so the answer is It provides the UPI switch connectivity and settles transactions on behalf of the TPAP.
+Source: NPCI UPI onboarding guidelines
+
+149. Which of the following is a key feature of the "UPI Lite" wallet introduced by NPCI?
+(a) Supports transactions up to ₹500 per transaction without PIN for small-value payments (b) Requires internet connectivity for every transaction (c) Allows credit card linking for offline payments (d) Replaces the need for a bank account
+Answer: (a)
+Solution: The trap is "offline payments" — UPI Lite is an on-device wallet for low-value (up to ₹500 per transaction, ₹2,000 daily) payments without PIN, but it still requires internet for loading/refreshing and is linked to a bank account, so the answer is Supports transactions up to ₹500 per transaction without PIN for small-value payments.
+Source: NPCI UPI Lite product documentation
+
+150. In the context of RBI's "Framework for Facilitating Small Value Digital Payments in Offline Mode", what is the maximum limit per offline transaction and the total limit per payment instrument?
+(a) ₹1,000 per transaction, ₹10,000 total (b) ₹500 per transaction, ₹5,000 total (c) ₹200 per transaction, ₹2,000 total (d) ₹2,000 per transaction, ₹20,000 total
+Answer: (c)
+Solution: Many confuse this with UPI Lite limits; the offline framework (for feature phones, cards, wallets) caps each transaction at ₹200 and the instrument at ₹2,000 until balance replenishment online, so the answer is ₹200 per transaction, ₹2,000 total.
+Source: RBI Framework for Offline Small Value Digital Payments

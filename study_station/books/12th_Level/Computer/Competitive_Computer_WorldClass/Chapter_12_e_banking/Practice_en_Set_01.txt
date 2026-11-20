@@ -1,0 +1,149 @@
+1. What is the full form of NEFT?
+(a) National Electronic Funds Transfer (b) National Electronic Financial Transfer (c) New Electronic Funds Transfer (d) National Electronic Fund Transfer
+Answer: (a)
+Solution: Many candidates confuse "Financial" with "Funds" or omit the 's' in Funds; the correct expansion is National Electronic Funds Transfer, so the answer is National Electronic Funds Transfer.
+Source: RBI official website
+
+2. Which of the following is a real-time gross settlement system where transactions are settled individually?
+(a) NEFT (b) IMPS (c) RTGS (d) UPI
+Answer: (c)
+Solution: NEFT operates in batches while RTGS settles each transaction individually in real time; IMPS and UPI are immediate but not classified as gross settlement systems, so the answer is RTGS.
+Source: RBI Payment Systems
+
+3. What is the maximum amount per transaction for IMPS as per current RBI guidelines?
+(a) ₹1 lakh (b) ₹5 lakh (c) ₹2 lakh (d) No limit
+Answer: (b)
+Solution: Earlier limit was ₹2 lakh but RBI increased it to ₹5 lakh per transaction; candidates often recall the old limit, so the answer is ₹5 lakh.
+Source: RBI circular on IMPS
+
+4. Which authentication method uses a one-time password sent to the registered mobile number?
+(a) Static password (b) Biometric (c) OTP (d) Digital signature
+Answer: (c)
+Solution: Static password remains same, biometric uses physical traits, digital signature is cryptographic; OTP is specifically a one-time password sent via SMS or app, so the answer is OTP.
+Source: CERT-In guidelines
+
+5. In internet banking, what does the 'S' in 'HTTPS' stand for?
+(a) Standard (b) Server (c) Socket (d) Secure
+Answer: (d)
+Solution: HTTPS stands for HyperText Transfer Protocol Secure; the 'S' indicates Secure (SSL/TLS encryption), not Server or Socket, so the answer is Secure.
+Source: Official Microsoft Learn
+
+6. Which of the following is NOT a type of electronic banking channel?
+(a) ATM (b) Branch banking (c) Mobile banking (d) Internet banking
+Answer: (b)
+Solution: Branch banking is physical, not electronic; ATM, mobile banking, and internet banking are electronic channels, so the answer is Branch banking.
+Source: NCERT Class 10 Economics
+
+7. What is the full form of UPI?
+(a) Unified Payments Interface (b) Universal Payment Interface (c) Unified Payment Interface (d) Universal Payments Interface
+Answer: (a)
+Solution: The official name is Unified Payments Interface (plural Payments); many write 'Payment' singular or 'Universal', so the answer is Unified Payments Interface.
+Source: NPCI official website
+
+8. Which entity operates the UPI platform in India?
+(a) NPCI (b) RBI (c) SBI (d) IBPS
+Answer: (a)
+Solution: RBI regulates, but NPCI (National Payments Corporation of India) operates UPI; SBI and IBPS are banks/exam bodies, so the answer is NPCI.
+Source: NPCI website
+
+9. What is the typical settlement cycle for NEFT transactions?
+(a) Real-time (b) Hourly batches (c) Daily batch (d) Half-hourly batches
+Answer: (d)
+Solution: NEFT settles in half-hourly batches (23 settlements per day); RTGS is real-time, so candidates often confuse with hourly or real-time, so the answer is Half-hourly batches.
+Source: RBI NEFT FAQ
+
+10. Which of the following is a security feature that verifies the identity of a website using a digital certificate?
+(a) Firewall (b) SSL/TLS (c) Antivirus (d) Pop-up blocker
+Answer: (b)
+Solution: Firewall filters traffic, antivirus scans malware, pop-up blocker stops ads; SSL/TLS uses digital certificates to authenticate websites and encrypt data, so the answer is SSL/TLS.
+Source: CERT-In advisory
+
+11. In mobile banking, what does 'MPIN' stand for?
+(a) Master Personal Identification Number (b) Mobile Personal Identification Number (c) Mobile Password Identification Number (d) Multi-purpose Personal Identification Number
+Answer: (b)
+Solution: MPIN is Mobile Personal Identification Number, a 4-6 digit code; 'Master' or 'Multi-purpose' are common distractors, so the answer is Mobile Personal Identification Number.
+Source: RBI mobile banking guidelines
+
+12. Which of the following transactions can be done 24x7 including holidays?
+(a) IMPS (b) RTGS (c) NEFT (d) Cheque clearing
+Answer: (a)
+Solution: NEFT and RTGS have operating hours (though extended), cheque clearing is not 24x7; IMPS is available 24x7, 365 days, so the answer is IMPS.
+Source: NPCI IMPS product page
+
+13. What is the minimum amount for RTGS transactions?
+(a) ₹1 lakh (b) ₹2 lakh (c) ₹5 lakh (d) No minimum
+Answer: (b)
+Solution: RTGS is for high-value transactions with minimum ₹2 lakh; no upper limit. NEFT has no minimum, so candidates may choose 'No minimum', so the answer is ₹2 lakh.
+Source: RBI RTGS guidelines
+
+14. Which of the following is a type of phishing attack targeting banking customers via SMS?
+(a) Vishing (b) Smishing (c) Pharming (d) Spear phishing
+Answer: (b)
+Solution: Vishing is voice phishing, pharming redirects websites, spear phishing is targeted email; smishing specifically uses SMS, so the answer is Smishing.
+Source: CERT-In security awareness
+
+15. What does 'KYC' stand for in banking?
+(a) Keep Your Credentials (b) Keep Your Cash (c) Know Your Credit (d) Know Your Customer
+Answer: (d)
+Solution: KYC is Know Your Customer, a mandatory verification process; other options are plausible-sounding but incorrect, so the answer is Know Your Customer.
+Source: RBI KYC Master Direction
+
+16. Which of the following is a digital wallet service launched by NPCI?
+(a) Paytm (b) PhonePe (c) Google Pay (d) BHIM
+Answer: (d)
+Solution: BHIM (Bharat Interface for Money) is developed by NPCI; Paytm, PhonePe, Google Pay are private entities, so the answer is BHIM.
+Source: NPCI official website
+
+17. In the context of e-banking, what is a 'Virtual Keyboard' used for?
+(a) Faster typing (b) Accessibility for disabled (c) Preventing keylogger attacks (d) Multi-language support
+Answer: (c)
+Solution: Virtual keyboard prevents hardware/software keyloggers from capturing keystrokes; it's a security feature, not primarily for speed or accessibility, so the answer is Preventing keylogger attacks.
+Source: Bank internet security guidelines
+
+18. Which protocol is used for secure communication between a web browser and a banking server?
+(a) HTTPS (b) FTP (c) HTTP (d) SMTP
+Answer: (a)
+Solution: HTTP is unsecured, FTP is for file transfer, SMTP is for email; HTTPS (HTTP over SSL/TLS) is used for secure banking communication, so the answer is HTTPS.
+Source: Microsoft Learn - HTTPS
+
+19. What is the full form of 'AEPS'?
+(a) Aadhaar Electronic Pay System (b) Aadhaar Electronic Payment System (c) Aadhaar Enabled Pay System (d) Aadhaar Enabled Payment System
+Answer: (d)
+Solution: AEPS stands for Aadhaar Enabled Payment System; 'Electronic' or 'Pay' are common errors, so the answer is Aadhaar Enabled Payment System.
+Source: NPCI AEPS page
+
+20. Which of the following is NOT a function of a Banking Correspondent (BC)?
+(a) Cash deposit (b) Cash withdrawal (c) Loan sanctioning (d) Balance enquiry
+Answer: (c)
+Solution: BCs provide basic banking services like deposit, withdrawal, balance enquiry; loan sanctioning is done by bank officials, not BCs, so the answer is Loan sanctioning.
+Source: RBI Business Correspondent guidelines
+
+21. A customer initiates a NEFT transaction of ₹50,000 at 10:15 AM on a working day. If the batch settlement occurs every 30 minutes starting from 00:30 AM, in which batch will this transaction be settled?
+(a) 10:00 AM batch (b) 11:00 AM batch (c) 10:30 AM batch (d) 10:15 AM batch
+Answer: (c)
+Solution: NEFT batches run at half-hour intervals (00:30, 01:00, ... 10:00, 10:30, 11:00). A transaction at 10:15 AM misses the 10:00 AM batch and goes to the next batch at 10:30 AM; candidates often pick 10:00 AM or 10:15 AM, so the answer is 10:30 AM batch.
+Source: RBI NEFT operational guidelines
+
+22. Which of the following statements about UPI AutoPay is correct?
+(a) It supports mandates for recurring payments up to ₹15,000 per transaction (b) It requires OTP for every recurring transaction (c) It allows recurring payments up to ₹1 lakh without additional authentication (d) It is only available for merchant payments, not peer-to-peer
+Answer: (a)
+Solution: UPI AutoPay allows recurring mandates up to ₹15,000 per transaction; above that requires OTP each time. It is available for both merchant and peer-to-peer. Candidates may think no authentication or higher limit, so the answer is It supports mandates for recurring payments up to ₹15,000 per transaction.
+Source: NPCI UPI AutoPay documentation
+
+23. In the context of RBI's 'Framework for Authentication of Digital Payment Transactions', which factor is NOT a valid authentication factor category?
+(a) Something you know (b) Something you have (c) Something you are (d) Something you earn
+Answer: (d)
+Solution: The three standard factors are knowledge (something you know), possession (something you have), inherence (something you are). 'Something you earn' is not a recognized factor; candidates may be tricked by similar phrasing, so the answer is Something you earn.
+Source: RBI Master Direction on Digital Payment Security Controls
+
+24. What is the maximum liability of a customer in case of unauthorized electronic banking transaction if reported within 3 working days, as per RBI's 2017 circular (updated 2019)?
+(a) Zero liability (b) ₹5,000 (c) ₹10,000 (d) ₹25,000
+Answer: (a)
+Solution: RBI circular states zero liability if reported within 3 working days; liability up to ₹5,000/₹10,000/₹25,000 applies for delayed reporting. Candidates often confuse the limits, so the answer is Zero liability.
+Source: RBI Circular DBR.No.Leg.BC.78/09.07.005/2017-18
+
+25. Which of the following correctly describes the difference between 'Push' and 'Pull' payments in UPI?
+(a) Push: requires OTP; Pull: does not require OTP (b) Push: payee initiates; Pull: payer initiates (c) Push: payer initiates; Pull: payee initiates (d) Push: only for P2P; Pull: only for P2M
+Answer: (c)
+Solution: In UPI, Push payment is initiated by payer (sending money), Pull payment is initiated by payee (collect request). OTP requirement depends on amount, not push/pull. Both types work for P2P and P2M. Candidates may reverse the roles, so the answer is Push: payer initiates; Pull: payee initiates.
+Source: NPCI UPI procedural guidelines

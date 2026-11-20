@@ -1,0 +1,151 @@
+Questions 51–70: Easy | Questions 71–75: Medium
+
+51. Which system enables real-time gross settlement of high-value transactions in India?
+(a) NEFT (b) RTGS (c) UPI (d) IMPS
+Answer: (b)
+Solution: NEFT settles in deferred net batches, UPI and IMPS are designed for retail payments with lower limits, while RTGS processes each high-value transaction individually and instantly during business hours, so the answer is RTGS.
+Source: RBI Master Direction on RTGS / Payment and Settlement Systems Act, 2007
+
+52. What is the minimum transaction amount for RTGS as per current RBI guidelines?
+(a) ₹1 lakh (b) ₹5 lakh (c) ₹2 lakh (d) No minimum limit
+Answer: (c)
+Solution: The ₹1 lakh figure is often confused with UPI’s per-transaction cap, and NEFT has no floor, but RTGS retains a ₹2 lakh minimum with no upper ceiling, so the answer is ₹2 lakh.
+Source: RBI Master Direction – Reserve Bank of India (Real Time Gross Settlement System) Directions, 2016 (updated)
+
+53. Which of the following statements about NEFT is correct?
+(a) NEFT settles transactions in real-time on a gross basis. (b) NEFT settles transactions in half-hourly batches and operates 24×7. (c) NEFT is available only on working days during banking hours. (d) NEFT has a minimum transaction limit of ₹2 lakh.
+Answer: (b)
+Solution: NEFT moved to half-hourly batch settlement in 2020 and became available 24×7×365; real-time gross settlement describes RTGS, the working-days-only schedule is outdated, and the ₹2 lakh minimum applies to RTGS, so the answer is NEFT settles transactions in half-hourly batches and operates 24×7.
+Source: RBI circular on NEFT 24×7 and half-hourly settlement, 2020
+
+54. The immediate payment service (IMPS) is managed by which organisation?
+(a) NPCI (b) RBI (c) Ministry of Finance (d) IBA
+Answer: (a)
+Solution: RBI regulates payment systems, IBA is an industry association, but NPCI (National Payments Corporation of India) actually operates IMPS, UPI, NACH and other retail payment rails, so the answer is NPCI.
+Source: NPCI official website / RBI list of authorised payment system operators
+
+55. In UPI, what does the “VPA” stand for?
+(a) Verified Payment Authorization (b) Verified Personal Account (c) Virtual Payment Address (d) Virtual Private Access
+Answer: (c)
+Solution: A VPA (e.g., user@bank) is the user-friendly identifier that replaces sharing account numbers; the other expansions sound plausible but are not used in UPI, so the answer is Virtual Payment Address.
+Source: NPCI UPI product specifications
+
+56. Which of the following is NOT a UPI transaction type?
+(a) Push (Pay) (b) Pull (Collect) (c) SWIFT (d) Mandate
+Answer: (c)
+Solution: UPI supports push (pay), pull (collect) and mandate (recurring) flows; SWIFT is a global messaging network for cross-border banking, not a UPI transaction type, so the answer is SWIFT.
+Source: NPCI UPI procedural guidelines
+
+57. What is the per-transaction limit for UPI as per current NPCI guidelines for general categories?
+(a) ₹1 lakh (b) ₹5 lakh (c) ₹2 lakh (d) No limit
+Answer: (a)
+Solution: Higher limits (₹2 lakh/₹5 lakh) apply only to specific categories like capital markets or tax payments; the standard cap for general peer-to-peer and merchant payments is ₹1 lakh, so the answer is ₹1 lakh.
+Source: NPCI circular on UPI transaction limits (updated 2023)
+
+58. Which authentication factor is mandatory for UPI transactions?
+(a) Only password (b) UPI PIN or biometric (c) Password + OTP (d) Only OTP
+Answer: (b)
+Solution: UPI uses two-factor authentication: device binding (possession) plus either a UPI PIN (knowledge) or biometric (inherence); OTP and static passwords are not mandatory for every transaction, so the answer is UPI PIN or biometric.
+Source: NPCI UPI security framework / RBI Master Direction on Digital Payment Security Controls
+
+59. The Bharat Bill Payment System (BBPS) is an initiative of which entity?
+(a) NPCI (b) RBI (c) IBA (d) Ministry of Electronics and IT
+Answer: (a)
+Solution: BBPS was conceptualised by RBI but is operated by NPCI as the Bharat Bill Payment Central Unit (BBPCU); aspirants often pick RBI, so the answer is NPCI.
+Source: NPCI BBPS product page / RBI circular on BBPS
+
+60. Which of the following is a prepaid payment instrument (PPI) issued by banks?
+(a) Gift card (b) Cheque (c) Credit card (d) Debit card
+Answer: (a)
+Solution: Gift cards are PPIs (semi-closed or closed system); debit and credit cards are linked to bank accounts (pay-now/post-paid), and cheques are negotiable instruments, so the answer is Gift card.
+Source: RBI Master Direction on Prepaid Payment Instruments, 2021
+
+61. What is the maximum balance allowed in a full-KYC PPI wallet as per current RBI norms?
+(a) ₹50,000 (b) ₹2,00,000 (c) ₹1,00,000 (d) ₹10,000
+Answer: (b)
+Solution: Minimum-KYC PPIs are capped at ₹10,000; the earlier ₹1 lakh limit for full-KYC PPIs was raised to ₹2 lakh in the updated Master Direction; the ₹2 lakh figure is now the correct ceiling, so the answer is ₹2,00,000.
+Source: RBI Master Direction on Prepaid Payment Instruments, 2021 (updated 2022)
+
+62. Which protocol secures communication between a browser and a bank’s internet banking server?
+(a) FTP (b) SNMP (c) SMTP (d) HTTPS
+Answer: (d)
+Solution: HTTPS (HTTP over TLS/SSL) encrypts the session; FTP is for file transfer, SMTP for email, and SNMP for network management, so the answer is HTTPS.
+Source: Standard internet banking security practice / CERT-In advisory on safe browsing
+
+63. In the context of internet banking, what does “2FA” stand for?
+(a) Second-Factor Access (b) Two-Financial Authorization (c) Two-Factor Authentication (d) Dual-Firewall Architecture
+Answer: (c)
+Solution: 2FA universally means Two-Factor Authentication (something you know + something you have/are); the other expansions are distractors, so the answer is Two-Factor Authentication.
+Source: RBI Master Direction on Digital Payment Security Controls / Industry standard
+
+64. Which RBI guideline mandates banks to implement “positive pay” for cheques above ₹50,000?
+(a) Positive Pay System (b) MICR clearing (c) CTS-2010 (d) Cheque Truncation System
+Answer: (a)
+Solution: Positive Pay System (PPS) requires issuers to pre-register high-value cheque details; CTS-2010 is a cheque standard, not the positive pay mandate, so the answer is Positive Pay System.
+Source: RBI circular on Positive Pay System for Cheque Truncation, 2020
+
+65. What is the full form of “AEPS” in banking?
+(a) Advanced Encryption Payment Standard (b) Anywhere Electronic Payment Service (c) Automated Electronic Payment System (d) Aadhaar Enabled Payment System
+Answer: (d)
+Solution: AEPS uses Aadhaar biometric authentication for basic banking via business correspondents; the other expansions sound technical but are incorrect, so the answer is Aadhaar Enabled Payment System.
+Source: NPCI AEPS product documentation / RBI financial inclusion circulars
+
+66. Which of the following is a contactless payment technology using NFC?
+(a) QR code (b) RuPay Contactless (c) IMPS (d) USSD
+Answer: (b)
+Solution: RuPay Contactless cards use NFC for tap-and-pay; QR codes are optical, USSD is GSM-based, and IMPS is an immediate funds transfer rail, so the answer is RuPay Contactless.
+Source: NPCI RuPay Contactless specifications
+
+67. The “*99#” service works on which technology?
+(a) Bluetooth (b) NFC (c) QR code (d) USSD
+Answer: (d)
+Solution: *99# is a USSD-based mobile banking channel that works without internet; NFC, QR, and Bluetooth require different hardware or connectivity, so the answer is USSD.
+Source: NPCI *99# (NUUP) service description
+
+68. Which entity issues “RuPay” cards?
+(a) IBA (b) RBI (c) NPCI (d) Ministry of Finance
+Answer: (c)
+Solution: NPCI is the card network operator for RuPay; RBI authorises card networks, IBA represents banks, so the answer is NPCI.
+Source: NPCI RuPay official page / RBI list of authorised card networks
+
+69. What is the settlement cycle for NEFT batches as of now?
+(a) Real-time (b) Daily (c) Hourly (d) Half-hourly
+Answer: (d)
+Solution: NEFT moved from hourly to half-hourly batches (48 per day) in 2020; it is not real-time like RTGS/IMPS, so the answer is Half-hourly.
+Source: RBI circular on NEFT 24×7 and half-hourly settlement, 2020
+
+70. Which of the following is NOT a function of a Payment Gateway?
+(a) Settling funds to merchant (b) Encrypting transaction data (c) Issuing credit cards (d) Routing authorisation request
+Answer: (c)
+Solution: Payment gateways encrypt, route, and facilitate settlement; they do not issue cards — that is done by card networks and issuing banks, so the answer is Issuing credit cards.
+Source: RBI Guidelines on Payment Aggregators and Payment Gateways, 2020
+
+71. A customer initiates a UPI “Collect Request” for ₹5,000. The payer approves it. Which account is debited and credited?
+(a) Both debited (b) Both credited (c) Payee debited, Payer credited (d) Payer debited, Payee credited
+Answer: (d)
+Solution: In a collect (pull) request, the payer authorises debit from their account and the payee receives credit; the reverse would be a push (pay) transaction, so the answer is Payer debited, Payee credited.
+Source: NPCI UPI procedural guidelines / UPI transaction flow documentation
+
+72. Under the RBI’s “Zero Liability” policy for unauthorised electronic transactions, the customer must report the fraud within how many days to get full protection?
+(a) 10 days (b) 7 days (c) 30 days (d) 3 days
+Answer: (d)
+Solution: Reporting within 3 working days limits customer liability to zero; 4–7 days caps liability at transaction value or ₹5,000/₹10,000; beyond 7 days liability is per bank policy, so the answer is 3 days.
+Source: RBI circular on Customer Protection – Limiting Liability of Customers in Unauthorised Electronic Banking Transactions, 2017
+
+73. Which of the following statements about “Tokenisation” of card data is correct?
+(a) It replaces the PAN with a non-reversible token usable only for a specific merchant/device (b) It stores the PAN in plain text at the merchant (c) It is mandatory only for international transactions (d) It replaces the PAN with a reversible encrypted string
+Answer: (a)
+Solution: Tokenisation substitutes the PAN with a unique, non-reversible token bound to a merchant/device/channel; it is not reversible encryption, not plain storage, and applies to domestic online transactions too, so the answer is It replaces the PAN with a non-reversible token usable only for a specific merchant/device.
+Source: RBI circular on Tokenisation – Card Transactions, 2021 (updated 2022)
+
+74. In the context of “Account Aggregator” framework, who is the “Financial Information Provider” (FIP)?
+(a) The Account Aggregator (b) The entity holding the financial data (e.g., bank) (c) The consent manager (d) The customer
+Answer: (b)
+Solution: FIPs are banks, insurers, mutual funds, etc., that hold customer data; the customer is the data principal, the Account Aggregator facilitates consented sharing, so the answer is The entity holding the financial data (e.g., bank).
+Source: RBI Master Direction on Account Aggregator Framework, 2021
+
+75. Which RBI regulation requires banks to conduct “Vulnerability Assessment and Penetration Testing” (VAPT) for critical systems at least annually?
+(a) Cyber Security Framework in Banks (b) Payment and Settlement Systems Act (c) KYC Master Direction (d) Basel III norms
+Answer: (a)
+Solution: The RBI Cyber Security Framework (2016, updated) mandates annual VAPT for critical assets; the other regulations address payments, KYC, and capital adequacy, not VAPT frequency, so the answer is Cyber Security Framework in Banks.
+Source: RBI circular on Cyber Security Framework in Banks, 2016 (updated 2021)

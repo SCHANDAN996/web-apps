@@ -1,0 +1,59 @@
+1. RBI Mandates Two-Factor Authentication (2FA) for All Online (Card-Not-Present) Card Transactions  
+   Example: An online purchase requires both card details (first factor) and an OTP sent to the registered mobile (second factor).  
+   Exception: Contactless card payments (card-present) up to ₹5,000 per transaction are exempt from PIN entry as per RBI’s 2021 circular; this is a PIN exemption, not a 2FA exemption.
+
+2. NEFT Settles in Half-Hourly Batches; RTGS Processes Transactions Individually in Real Time  
+   Example: A NEFT transfer initiated at 10:15 AM settles in the 10:30 AM batch; an RTGS transfer of ₹10 lakh at the same time credits the beneficiary instantly.  
+   Exception: NEFT is available 24×7 since December 2019; RTGS is also 24×7 since December 2020, but both require the beneficiary bank to be a participant.
+
+3. IMPS and UPI Enable 24×7 Instant Fund Transfers Including Holidays  
+   Example: Sending ₹2,000 via UPI at 2:00 AM on a Sunday credits the receiver immediately.  
+   Exception: IMPS has a per-transaction limit of ₹5 lakh; UPI limits vary by bank and may be lower for new users (e.g., ₹5,000 for first 24 hours).
+
+4. Digital Signatures Under the IT Act, 2000 Are Legally Equivalent to Handwritten Signatures  
+   Example: A digitally signed loan agreement submitted via a bank’s portal is admissible in court.  
+   Exception: The digital signature certificate must be issued by a licensed Certifying Authority (CA) and not be revoked or expired.
+
+5. KYC Compliance Is Mandatory Before Activating Any E-Banking Service  
+   Example: A new savings account holder must submit Aadhaar/PAN and complete video KYC before receiving internet banking credentials.  
+   Exception: Small accounts (BSBDA) can be opened with simplified KYC but have transaction limits (₹1 lakh annual credit, ₹10,000 monthly withdrawal).
+
+6. OTP Is Valid for a Single Transaction and Expires Within Minutes  
+   Example: An OTP received for a fund transfer cannot be reused for a second transaction and typically expires in 3–5 minutes.  
+   Exception: Some banks allow a longer window (up to 10 minutes) for specific services like beneficiary addition.
+
+7. Banks Must Encrypt Data in Transit Using TLS 1.2 or Higher and Encrypt Sensitive Data at Rest  
+   Example: The bank’s website shows “https://” with a valid certificate; database fields storing passwords use salted hashing (e.g., bcrypt).  
+   Exception: Legacy internal systems may still use older protocols during migration, but RBI mandates phase-out timelines.
+
+8. CERT-In Directs All Entities to Report Cyber Security Incidents Within 6 Hours of Detection  
+   Example: A bank detecting a ransomware attack on its ATM switch must inform CERT-In within 6 hours.  
+   Exception: The 6-hour rule applies to all cyber security incidents as per CERT-In’s April 2022 direction; sectoral guidelines may prescribe additional reporting requirements.
+
+9. Customer Liability for Unauthorized Electronic Transactions Is Zero If Reported Within 3 Working Days  
+   Example: A customer spots a fraudulent UPI debit on Day 1 and informs the bank; the bank credits the amount within 10 working days.  
+   Exception: Liability is ₹5,000 for Basic Savings Bank Deposit Accounts (BSBDA) and ₹10,000 for other accounts if reported after 3 days but within 7 days; beyond 7 days, liability is determined by the bank’s board-approved policy.
+
+10. Virtual Payment Address (VPA) in UPI Masks the Actual Bank Account Number and IFSC  
+    Example: Sending money to “user@upi” does not reveal the receiver’s account number or branch.  
+    Exception: The VPA is linked to a specific bank account; if the user changes the linked account, the VPA maps to the new account.
+
+11. Auto-Debit Mandates (e.g., for SIPs, Subscriptions) Require Explicit Customer Consent and a Pre-Debit Notification at Least 24 Hours Before  
+    Example: A mutual fund SIP mandate via UPI Autopay sends an SMS/email 24 hours before the debit date.  
+    Exception: Mandates registered before RBI’s 2021 framework (e.g., ECS) follow older rules but must be migrated to the new framework.
+
+12. Tokenization Replaces Actual Card Details with a Unique Token; Banks and Merchants Cannot Store Full Card Data (CVV, PIN) Post-Tokenization  
+    Example: A saved card on an e-commerce site shows only the last four digits; the token is used for subsequent payments.  
+    Exception: Card-on-file tokenization applies to domestic online transactions; international transactions may follow different standards.
+
+13. Phishing (Email), Vishing (Voice Call), and Smishing (SMS) Are the Most Common Social Engineering Attacks Targeting Banking Credentials  
+    Example: A caller claiming to be from “bank security” asks for OTP to “block a fraudulent transaction” — the OTP is actually used to authorize a transfer.  
+    Exception: Banks never ask for OTP, PIN, or password via call, email, or SMS; any such request is fraudulent.
+
+14. Mobile Banking Apps Must Implement App Sandboxing, Root/Jailbreak Detection, and Certificate Pinning  
+    Example: The app refuses to launch on a rooted Android device and shows a security warning.  
+    Exception: Some banks allow limited functionality (e.g., balance check) on compromised devices but block transactions.
+
+15. RBI’s Integrated Ombudsman Scheme (2021) Provides a Single-Window Redressal for Digital Banking Grievances  
+    Example: A customer whose UPI complaint is unresolved by the bank for 30 days can file a complaint online at cms.rbi.org.in.  
+    Exception: The scheme covers deficiency in service; disputes requiring legal adjudication (e.g., property title) are excluded.

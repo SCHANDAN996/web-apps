@@ -1,0 +1,93 @@
+**PYQ Pattern Analysis — Electronic Banking**
+
+**1. Question Types Asked**
+- **Definition-based**: "What is the full form of IMPS?" / "Which system settles transactions in real-time on a gross basis?"
+- **Feature comparison**: "Difference between NEFT and RTGS" / "UPI vs IMPS — which works 24×7?"
+- **Limit/ceiling questions**: "Maximum amount per transaction in UPI (as per NPCI guidelines 2023–2024)" / "NEFT settlement batch frequency."
+- **Security mechanisms**: "What does the second factor in 2FA typically represent in Indian net banking?" / "Which RBI circular mandated OTP for card-not-present transactions?"
+- **Product/initiative identification**: "BHIM app is developed by which organisation?" / "What does 'AePS' stand for?"
+- **Statement-based (True/False)**: Three statements given — pick the correct combination. Common traps: mixing old limits with new, confusing settlement timing, swapping NPCI/RBI roles.
+
+**2. Frequently Tested Sub-topics**
+- Payment system architecture: NEFT (deferred net settlement, half-hourly batches), RTGS (real-time gross settlement, minimum ₹2 lakh), IMPS (immediate, 24×7, ₹5 lakh cap per transaction), UPI (VPA, 24×7, ₹1 lakh per transaction — subject to bank/UPI app limits; revised limits up to ₹2 lakh for certain categories and ₹5 lakh for hospitals/education per NPCI circulars 2023–2024).
+- Card networks: RuPay (domestic, NPCI), Visa/Mastercard (international), contactless (NFC, ₹5,000 limit without PIN).
+- Authentication: OTP (SMS/email), TOTP (app-based), biometric (AePS), hardware token (rare in retail).
+- RBI regulatory framework: Payment and Settlement Systems Act 2007, KYC directions, liability for unauthorised transactions (customer liability zero if reported within 3 working days, limited liability up to ₹5,000/₹25,000 beyond that).
+- Digital initiatives: BHIM, USSD *99#, BharatQR, BBPS, e-RUPI (voucher-based, not a wallet).
+
+**3. Examiner Traps**
+- **Outdated limits**: Options quoting old UPI limit (₹1 lakh) vs revised limits (₹2 lakh for certain categories, ₹5 lakh for hospitals/education) — always check the *latest* NPCI circular date in the question stem.
+- **Settlement confusion**: "NEFT settles in real time" (false — half-hourly batches); "RTGS available 24×7" (true since Dec 2020).
+- **Agency mix-up**: "IMPS is operated by RBI" (false — NPCI); "UPI is regulated by NPCI" (false — NPCI operates, RBI regulates).
+- **Negative phrasing**: "Which of the following is NOT a feature of AePS?" — requires knowing AePS uses Aadhaar + biometric, no VPA, no smartphone needed.
+- **Look-alike acronyms**: NACH vs NECS, BBPS vs BHIM, PPI vs P2P.
+
+**4. PYQ-style Examples (Original)**
+
+*Example 1*  
+Which of the following statements about NEFT and RTGS is/are correct?  
+1. NEFT transactions are settled in half-hourly batches.  
+2. RTGS has a minimum transaction limit of ₹2 lakh.  
+3. Both systems are available 24×7×365.  
+(a) 1 only  
+(b) 1 and 2 only  
+(c) 2 and 3 only  
+(d) 1, 2 and 3  
+**Answer: (b)**  
+**Solution:** Statement 1 is correct — NEFT operates in 48 half-hourly batches. Statement 2 is correct — RTGS minimum is ₹2 lakh (no upper cap). Statement 3 is incorrect — NEFT became 24×7 only from Dec 2019; RTGS from Dec 2020. The question may refer to an earlier period, so "both 24×7" is not universally true.  
+**Source: PYQ-style**
+
+*Example 2*  
+An unauthorised UPI transaction of ₹12,000 occurs on Day 1. The customer informs the bank on Day 4. As per RBI's July 2017 circular on customer liability (DBR.No.BP.BC.83/21.04.048/2017-18), the maximum loss borne by the customer **for a basic savings account** is:  
+(a) ₹0  
+(b) ₹5,000  
+(c) ₹10,000  
+(d) ₹12,000  
+**Answer: (b)**  
+**Solution:** Zero liability if reported within 3 working days. Reporting on Day 4 exceeds the window; liability capped at ₹5,000 for basic savings accounts (₹25,000 for other accounts).  
+**Source: PYQ-style**
+
+*Example 3*  
+Match the following:  
+System — Operator / Developer  
+A. IMPS — 1. RBI  
+B. UPI — 2. NPCI  
+C. RTGS — 3. RBI (owned and operated by RBI)  
+D. RuPay — 4. NPCI  
+Select the correct code:  
+(a) A-2, B-2, C-1, D-4  
+(b) A-2, B-2, C-3, D-4  
+(c) A-1, B-2, C-3, D-4  
+(d) A-2, B-1, C-3, D-4  
+**Answer: (b)**  
+**Solution:** IMPS and UPI are NPCI products. RTGS is owned and operated by RBI. RuPay is NPCI's card network. Option (b) correctly maps all four.  
+**Source: PYQ-style**
+
+*Example 4*  
+Which of the following is NOT a feature of the Bharat Bill Payment System (BBPS)?  
+(a) Interoperable bill payment platform  
+(b) Supports recurring payments via auto-debit mandate  
+(c) Requires a smartphone and internet for every transaction  
+(d) Agents can accept cash payments on behalf of customers  
+**Answer: (c)**  
+**Solution:** BBPS is channel-agnostic — payments can be made at agent outlets (cash), via net banking, UPI, cards, or mobile app. Smartphone/internet is not mandatory.  
+**Source: PYQ-style**
+
+*Example 5*  
+Assertion (A): UPI transactions are irrevocable once authorised.  
+Reason (R): UPI uses a single-factor authentication (MPIN only).  
+(a) Both A and R are true and R explains A  
+(b) Both A and R are true but R does not explain A  
+(c) A is true but R is false  
+(d) A is false but R is true  
+**Answer: (c)**  
+**Solution:** A is true — UPI push transactions cannot be reversed by the payer (only refund by payee). R is false — UPI mandates two-factor authentication: device binding (first factor) + MPIN/biometric (second factor).  
+**Source: PYQ-style**
+
+**5. Preparation Tips**
+- Memorise the *current* limits and timings (NPCI/RBI circulars dated 2023–2024).
+- Tabulate NEFT vs RTGS vs IMPS vs UPI: settlement type, timing, limits, operator.
+- Know the liability matrix (0 / ₹5,000 / ₹25,000) by account type and reporting delay.
+- Distinguish *operator* (NPCI) from *regulator* (RBI) for each system.
+- Practise negative and match-the-column questions — they appear frequently.
+- 15-second rule: if a limit/date looks unfamiliar, flag and return; don't guess on numbers.

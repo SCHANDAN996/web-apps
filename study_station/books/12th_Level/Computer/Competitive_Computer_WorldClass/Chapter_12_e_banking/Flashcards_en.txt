@@ -1,0 +1,71 @@
+Card 1
+Front: What is Electronic Banking (E-Banking)?
+Back: Electronic Banking refers to the use of electronic channels (internet, mobile, ATM, etc.) to deliver banking services and products to customers without visiting a physical branch.
+
+Card 2
+Front: Name the four main types of E-Banking channels.
+Back: 1) Internet Banking (Net Banking) 2) Mobile Banking 3) ATM Banking 4) Phone Banking (IVR/Telebanking)
+
+Card 3
+Front: What is NEFT and its settlement cycle?
+Back: NEFT (National Electronic Funds Transfer) is a deferred net settlement system operated by RBI. Transactions are settled in half-hourly batches (48 settlements/day, 24x7x365 since Dec 2019). No minimum/maximum limit (branch may impose own limits).
+
+Card 4
+Front: What is RTGS and its key features?
+Back: RTGS (Real Time Gross Settlement) is for high-value transactions (minimum ₹2 lakh, no upper cap). Settled individually in real-time (not batched). Available 24x7x365 since Dec 2020. Final and irrevocable settlement.
+
+Card 5
+Front: What is IMPS and how does it differ from NEFT/RTGS?
+Back: IMPS (Immediate Payment Service) by NPCI offers instant 24x7 interbank fund transfer via mobile/internet/ATM. Uses MMID (Mobile Money Identifier) + mobile number or IFSC + account number. Per-transaction limit ₹5 lakh (varies by bank).
+
+Card 6
+Front: What is UPI and its core architecture?
+Back: UPI (Unified Payments Interface) by NPCI is a real-time payment system enabling peer-to-peer and peer-to-merchant transfers via a Virtual Payment Address (VPA). Works 24x7, uses two-factor authentication (MPIN + device binding). Interoperable across banks/apps.
+
+Card 7
+Front: Define VPA (Virtual Payment Address) in UPI.
+Back: A VPA (e.g., user@bankname) is a unique identifier mapped to a bank account, eliminating the need to share account number/IFSC. Format: username@psp (Payment Service Provider handle). One account can have multiple VPAs.
+
+Card 8
+Front: What is AEPS and its authentication method?
+Back: AEPS (Aadhaar Enabled Payment System) allows banking transactions at Micro-ATMs/BC points using Aadhaar number and biometric authentication (fingerprint/iris). Services: cash withdrawal, deposit, balance enquiry, mini statement, fund transfer.
+
+Card 9
+Front: What is the difference between a Payment Gateway and a Payment Aggregator?
+Back: Payment Gateway: technology infrastructure that authorizes/processes online transactions (e.g., Razorpay, PayU). Payment Aggregator: entity that onboards merchants and routes transactions through multiple gateways (requires RBI authorization under PA-PG guidelines, 2020).
+
+Card 10
+Front: What is the role of NPCI in Indian digital payments?
+Back: NPCI (National Payments Corporation of India) is the umbrella organization for retail payment systems in India. Operates UPI, IMPS, RuPay, NACH, AEPS, BBPS, NETC (FASTag), etc. Incorporated as a not-for-profit company under Companies Act 1956 (now governed by Companies Act 2013).
+
+Card 11
+Front: What is RuPay and how does it differ from Visa/Mastercard?
+Back: RuPay is India's domestic card payment network launched by NPCI (2012). Lower transaction costs for domestic transactions, government scheme integration (PMJDY), and data sovereignty. Visa/Mastercard are international networks with global acceptance.
+
+Card 12
+Front: What is BBPS and its scope?
+Back: BBPS (Bharat Bill Payment System) by NPCI is an interoperable platform for recurring bill payments (electricity, water, gas, telecom, DTH, insurance, FASTag recharge, etc.). Operates through authorized Bharat Bill Payment Operating Units (BBPOUs).
+
+Card 13
+Front: What is the RBI's "Zero Liability" policy for unauthorized electronic transactions?
+Back: Customer liability is zero if the bank is notified within 3 working days of unauthorized transaction (provided customer has not shared credentials). Liability capped at ₹5,000 for basic savings accounts and ₹10,000 for other accounts if reported within 4–7 working days; beyond 7 working days liability as per bank's board-approved policy (RBI circular July 2017, updated 2019).
+
+Card 14
+Front: What is 2FA (Two-Factor Authentication) in online banking as mandated by RBI?
+Back: RBI mandates 2FA for card-not-present (online) transactions: 1) Something you know (password/PIN/OTP) + 2) Something you have (registered mobile/device) or Something you are (biometric). OTP on registered mobile is the common second factor.
+
+Card 15
+Front: What is SIM Swap fraud and how to prevent it?
+Back: Fraudster obtains duplicate SIM of victim's registered mobile to receive OTPs. Prevention: Never share OTP/PIN, register for SIM change alerts with telecom operator, use app-based authenticators where available, report lost SIM immediately to bank and telecom provider.
+
+Card 16
+Front: What is Phishing in the context of E-Banking?
+Back: Phishing is a social engineering attack where fraudsters send fake emails/SMS/links mimicking legitimate banks to steal login credentials, card details, or OTPs. Always verify URL (https://, correct domain), never click unsolicited links.
+
+Card 17
+Front: What is the difference between Mobile Banking and Mobile Wallet (PPI)?
+Back: Mobile Banking: direct access to bank account via bank's app (full banking services). Mobile Wallet / PPI (Prepaid Payment Instrument): pre-loaded stored value (e.g., Paytm Wallet, PhonePe Wallet) — limited to ₹2 lakh KYC, no interest, regulated under PPI Master Directions (RBI).
+
+Card 18
+Front: What is the significance of IFSC and MICR codes?
+Back: IFSC (Indian Financial System Code) — 11-character alphanumeric code identifying bank branch for NEFT/RTGS/IMPS. MICR (Magnetic Ink Character Recognition) — 9-digit code on cheques for faster clearing (city-bank-branch). Both assigned by RBI.

@@ -1,0 +1,149 @@
+76. Which of the following is the full form of NEFT in the context of electronic fund transfer?
+(a) National Electronic Finance Technology (b) Net Electronic Financial Transaction (c) New Electronic Fund Transfer (d) National Electronic Funds Transfer
+Answer: (d)
+Solution: The tempting option (b) uses "Financial Transaction" which sounds plausible but NEFT officially stands for National Electronic Funds Transfer, a system operated by RBI for one-to-one funds transfer.
+Source: RBI Payment and Settlement Systems
+
+77. What is the maximum amount per transaction for IMPS (Immediate Payment Service) as per current RBI guidelines?
+(a) ₹1 lakh (b) ₹2 lakh (c) ₹5 lakh (d) No upper limit
+Answer: (c)
+Solution: Option (a) ₹1 lakh was the old limit; the limit was raised to ₹5 lakh per transaction. IMPS processes transactions instantly 24×7, unlike NEFT which operates in batches.
+Source: NPCI IMPS Product Guidelines
+
+78. In UPI (Unified Payments Interface), what does the "VPA" stand for?
+(a) Verified Payment Account (b) Virtual Payment Address (c) Virtual Private Access (d) Verified Payment Address
+Answer: (b)
+Solution: Option (a) "Verified Payment Account" sounds official but VPA is the unique identifier (like user@bank) that replaces sharing bank account details. It stands for Virtual Payment Address.
+Source: NPCI UPI Documentation
+
+79. Which of the following is NOT a type of digital wallet as classified by RBI?
+(a) Closed wallet (b) Semi-closed wallet (c) Open wallet (d) Semi-open wallet
+Answer: (d)
+Solution: Option (c) "Open wallet" exists (allows cash withdrawal), but "Semi-open wallet" is not an RBI category. RBI classifies wallets into Closed, Semi-closed, and Open only.
+Source: RBI Master Direction on PPIs
+
+80. What does the "M" in MMID stand for in mobile banking?
+(a) Money (b) Mobile (c) Merchant (d) Message
+Answer: (b)
+Solution: MMID (Mobile Money Identifier) is a 7-digit code issued by banks for IMPS transactions. The "M" stands for Mobile, not Money — a common confusion because it relates to money transfer.
+Source: NPCI IMPS FAQ
+
+81. Which protocol ensures secure communication between a web browser and a banking server?
+(a) HTTP (b) HTTPS (c) FTP (d) SMTP
+Answer: (b)
+Solution: Option (a) HTTP transmits data in plain text. HTTPS uses TLS/SSL encryption to protect sensitive banking data. Always check for "https://" and the padlock icon before entering credentials.
+Source: CERT-In Secure Banking Guidelines
+
+82. In the context of debit/credit cards, what does CVV stand for?
+(a) Card Verification Value (b) Customer Verification Value (c) Card Validation Version (d) Customer Validation Value
+Answer: (a)
+Solution: Option (b) replaces "Card" with "Customer" — a plausible trap. CVV is the 3-digit code on the back of the card (4-digit on Amex front) used to verify physical possession during card-not-present transactions.
+Source: PCI DSS Standards
+
+83. Which of the following is a characteristic of RTGS (Real Time Gross Settlement)?
+(a) Settles transactions in batches (b) Available only on working days 9 AM–5 PM (c) Minimum transaction amount ₹2 lakh (d) Charges borne only by the receiver
+Answer: (c)
+Solution: Option (a) describes NEFT (batch settlement). RTGS settles individually in real-time, has a minimum of ₹2 lakh (no upper cap), and is available 24×7×365 since December 2020.
+Source: RBI RTGS FAQ
+
+84. What is the primary purpose of an OTP (One Time Password) in e-banking?
+(a) To provide a second factor of authentication (b) To replace the user's permanent password (c) To encrypt the transaction amount (d) To generate the user's username
+Answer: (a)
+Solution: Option (b) is a common misconception — OTP supplements, not replaces, the static password. It implements "something you have" (phone/email) as the second factor alongside "something you know" (password).
+Source: RBI Circular on Two-Factor Authentication
+
+85. Which entity operates the UPI platform in India?
+(a) RBI (b) IBA (c) NPCI (d) TRAI
+Answer: (c)
+Solution: Option (a) RBI regulates but NPCI (National Payments Corporation of India) builds and operates UPI, IMPS, RuPay, and other retail payment systems. NPCI is a not-for-profit company under the Payment and Settlement Systems Act.
+Source: NPCI About Us
+
+86. What is the maximum number of free ATM transactions (financial + non-financial) per month at own bank's ATM for savings account holders in metro cities as per RBI?
+(a) 5 (b) 3 (c) 8 (d) Unlimited
+Answer: (a)
+Solution: Option (c) 8 includes 5 free at own bank + 3 free at other bank ATMs in metros. The question asks only for own bank's ATM — the answer is 5. Non-metro gets 5 at own + 5 at other banks.
+Source: RBI ATM Transaction Charges Circular
+
+87. In mobile banking, what does "MPIN" stand for?
+(a) Merchant Personal Identification Number (b) Money Personal Identification Number (c) Master Personal Identification Number (d) Mobile Personal Identification Number
+Answer: (d)
+Solution: Option (b) "Money PIN" is a trap — MPIN is the 4-6 digit code used to log into mobile banking apps, distinct from UPI PIN (used for transactions) and ATM PIN. The "M" stands for Mobile.
+Source: Bank Mobile Banking Terms
+
+88. Which of the following is a feature of the Bharat Bill Payment System (BBPS)?
+(a) Only for electricity bills (b) Available only through bank branches (c) Requires separate registration for each biller (d) Interoperable bill payment platform
+Answer: (d)
+Solution: Option (c) describes the old biller-direct model. BBPS, operated by NPCI, allows paying any registered biller (electricity, water, gas, telecom, FASTag, etc.) through any BBPS channel (app, net banking, agent) without multiple registrations.
+Source: NPCI BBPS Overview
+
+89. What does "tokenisation" of a card mean in digital payments?
+(a) Replacing actual card details with a unique alternate code (b) Converting the card into a cryptocurrency token (c) Encrypting the card PIN (d) Blocking the card for online use
+Answer: (a)
+Solution: Option (b) confuses payment tokens with crypto tokens. Tokenisation replaces the 16-digit PAN with a device/merchant-specific token, so the real card number is never stored or transmitted during the transaction.
+Source: RBI Tokenisation Guidelines
+
+90. Which of the following is NOT a valid UPI transaction type?
+(a) Push (Send money) (b) Swipe (Card payment) (c) Mandate (Auto-pay) (d) Pull (Request money)
+Answer: (b)
+Solution: Option (b) "Swipe" refers to physical card transactions at PoS terminals. UPI supports Push (P2P/P2M send), Pull (collect request), and Mandate (recurring auto-pay via UPI Autopay).
+Source: NPCI UPI Procedural Guidelines
+
+91. What is the daily transaction limit for UPI as per NPCI guidelines (standard limit)?
+(a) ₹1 lakh (b) ₹50,000 (c) ₹10,000 (d) ₹2 lakh
+Answer: (a)
+Solution: Option (d) ₹2 lakh applies to specific categories like capital markets, insurance, and foreign remittances. The standard per-transaction and daily limit for most UPI transactions is ₹1 lakh.
+Source: NPCI UPI Transaction Limits
+
+92. In internet banking, what is the function of a "beneficiary" registration?
+(a) To activate the user's login password (b) To pre-verify and store a payee's account details for future transfers (c) To link the user's mobile number (d) To generate the OTP
+Answer: (b)
+Solution: Option (a) confuses beneficiary with user activation. Beneficiary registration (adding a payee) involves verifying the recipient's account number, IFSC, and name — often with a cooling period before first transfer — to prevent fraud.
+Source: Bank Internet Banking User Guide
+
+93. Which of the following is a security feature of the RuPay contactless card?
+(a) Requires PIN for all transactions (b) Uses NFC for tap-and-pay up to ₹5,000 without PIN (c) Works only at ATMs (d) Cannot be used for online payments
+Answer: (b)
+Solution: Option (a) is incorrect — contactless transactions up to ₹5,000 (limit revised from ₹2,000) do not require PIN. RuPay contactless cards use NFC (Near Field Communication) for tap-and-go payments at enabled PoS terminals.
+Source: NPCI RuPay Contactless Specifications
+
+94. What does "AEPS" stand for in banking?
+(a) Aadhaar Electronic Payment Service (b) Automated Electronic Payment System (c) Aadhaar Enabled Payment System (d) Automated Enabled Payment Service
+Answer: (c)
+Solution: Option (b) "Automated Electronic Payment System" sounds generic but AEPS specifically uses Aadhaar biometric authentication for basic banking services (cash withdrawal, deposit, balance enquiry) through Business Correspondents.
+Source: NPCI AEPS Product Description
+
+95. Which of the following statements about NEFT is correct?
+(a) Transactions are settled instantly (b) Available only on weekdays (c) Requires the beneficiary's MMID (d) No minimum or maximum amount limit
+Answer: (d)
+Solution: Option (a) describes IMPS/RTGS — NEFT settles in half-hourly batches. Option (b) is outdated — NEFT is 24×7×365 since December 2019. Option (c) MMID is for IMPS. NEFT has no amount limits.
+Source: RBI NEFT FAQ
+
+96. A customer receives an SMS: "Your account will be blocked. Click https://bit.ly/xyz to update KYC." What type of attack is this?
+(a) Smishing (b) Vishing (c) Pharming (d) Shoulder surfing
+Answer: (a)
+Solution: Option (b) Vishing is voice phishing (phone calls). This is Smishing — SMS phishing using a shortened link to a fake site. Banks never send KYC links via SMS. The trap is urgency ("account will be blocked") to bypass caution.
+Source: CERT-In Phishing Awareness Advisory
+
+97. In the context of digital payments, what is a "chargeback"?
+(a) A fee charged by the bank for using a card (b) The annual maintenance charge of a credit card (c) Reversal of a transaction initiated by the cardholder's bank (d) A penalty for late payment of credit card bill
+Answer: (c)
+Solution: Option (a) describes a surcharge or interchange fee. A chargeback is a consumer protection mechanism where the cardholder disputes a transaction (fraud, goods not received, duplicate charge) and the issuer reverses it, debiting the merchant.
+Source: Card Network Chargeback Rules
+
+98. Which RBI regulation mandates that banks cannot store actual card data (PAN, CVV, expiry) on their servers for online transactions?
+(a) Data Localisation Circular (b) KYC Master Direction (c) PCI DSS (d) Tokenisation Guidelines
+Answer: (d)
+Solution: Option (c) PCI DSS is a global card-industry standard, not an RBI regulation. RBI's Tokenisation Guidelines (effective Oct 2022) explicitly prohibit merchants and payment aggregators from storing card credentials — only tokens are allowed.
+Source: RBI Tokenisation Circular
+
+99. A UPI user enters the wrong UPI PIN three times consecutively. What happens next?
+(a) The UPI ID is permanently deleted (b) The bank account is frozen (c) The UPI PIN is blocked for 24 hours (d) The user must re-register on UPI
+Answer: (c)
+Solution: Option (a) and (d) are excessive — the UPI ID and registration remain. Option (b) confuses with account-level security. After 3 failed PIN attempts, the UPI PIN is temporarily blocked (typically 24 hours) and the user must reset it using debit card details.
+Source: NPCI UPI PIN Reset Process
+
+100. Which of the following best describes "Vishing" in banking fraud?
+(a) Fraudulent phone calls pretending to be bank officials (b) Fraudulent emails asking for banking credentials (c) Fake websites mimicking bank login pages (d) Stealing card data using a skimming device at ATM
+Answer: (a)
+Solution: Option (b) is phishing (email), (c) is pharming/spoofed sites, (d) is skimming. Vishing = Voice + Phishing — fraudsters call victims, create urgency ("card blocked", "KYC pending"), and extract OTP, PIN, or CVV. Banks never ask for these on calls.
+Source: RBI BEWARE Booklet on Fraud Prevention

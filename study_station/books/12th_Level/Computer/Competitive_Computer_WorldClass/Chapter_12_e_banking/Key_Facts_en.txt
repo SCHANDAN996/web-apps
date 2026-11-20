@@ -1,0 +1,92 @@
+**Key Facts — Electronic Banking (Revision Points)**
+
+1. **Electronic Banking (E‑Banking)** — Delivery of banking services through electronic channels (internet, mobile, ATM, POS, etc.) without visiting a physical branch.  
+   *Source: RBI Master Direction on Digital Payment Security Controls.*
+
+2. **Core Banking Solution (CBS)** — Centralised software that connects all branches; enables real‑time updating of customer accounts across the network.  
+   *Source: RBI “Core Banking Solutions” circular.*
+
+3. **Internet Banking** — Bank’s website accessed via browser; services: fund transfer (NEFT/RTGS/IMPS), bill payment, statement download, FD/RD opening.  
+   *Security: 2‑factor authentication (login password + OTP/transaction password).*
+
+4. **Mobile Banking** — Banking through a bank‑provided app on a smartphone; uses MPIN/biometric login; supports UPI, IMPS, bill pay, balance enquiry.  
+   *Source: RBI “Mobile Banking Transactions” framework.*
+
+5. **Unified Payments Interface (UPI)** — Real‑time payment system developed by NPCI; uses Virtual Payment Address (VPA) like `user@bank`; works 24×7; single‑click two‑factor authentication.  
+   *Source: NPCI UPI Procedural Guidelines.*
+
+6. **Immediate Payment Service (IMPS)** — Instant inter‑bank electronic fund transfer via mobile/internet/ATM; available 24×7; limit ₹5 lakh per transaction (bank‑specific).  
+   *Source: NPCI IMPS Product Document.*
+
+7. **National Electronic Funds Transfer (NEFT)** — Deferred net settlement system; batches every 30 minutes; no minimum/maximum limit (bank may set own caps); available 24×7 since Dec 2019.  
+   *Source: RBI NEFT System Regulations.*
+
+8. **Real Time Gross Settlement (RTGS)** — Real‑time, gross settlement for high‑value transactions; minimum ₹2 lakh; no upper cap; available 24×7 since Dec 2020.  
+   *Source: RBI RTGS System Regulations.*
+
+9. **Aadhaar Enabled Payment System (AePS)** — Allows banking transactions (cash withdrawal, deposit, balance enquiry, mini‑statement) at Micro‑ATM/BC point using Aadhaar number + biometric authentication.  
+   *Source: NPCI AePS Specification.*
+
+10. **Bharat Bill Payment System (BBPS)** — Interoperable bill payment platform (electricity, water, gas, telecom, DTH, etc.) operated by NPCI; agents can be banks/non‑banks.  
+    *Source: RBI BBPS Directions.*
+
+11. **ATM (Automated Teller Machine)** — Self‑service terminal for cash withdrawal, balance enquiry, PIN change, mini‑statement, fund transfer (own accounts); uses magnetic stripe/EMV chip + PIN.  
+    *Security: EMV chip prevents skimming; RBI mandates PIN‑based transactions.*
+
+12. **POS (Point of Sale) Terminal** — Device at merchant outlet to accept card payments (debit/credit/prepaid); supports contactless (NFC) up to ₹5,000 without PIN (RBI limit).  
+    *Source: RBI “Tokenisation – Card Transactions” circular.*
+
+13. **Card Tokenisation** — Replaces actual card details with a unique token for a specific device/merchant; enhances security; mandatory for online/card‑on‑file transactions from Oct 2022.  
+    *Source: RBI Tokenisation Guidelines.*
+
+14. **Digital Signature / Electronic Signature** — Legally recognised under IT Act, 2000; used for authenticating electronic documents in banking (loan agreements, account opening).  
+    *Source: IT Act, 2000 (amended 2008) & CCA India.*
+
+15. **Two‑Factor Authentication (2FA)** — Mandatory for all digital payment transactions: something you know (password/MPIN) + something you have (OTP/token) or something you are (biometric).  
+    *Source: RBI “Securing Digital Payments” circular.*
+
+16. **OTP (One‑Time Password)** — Numeric/alphanumeric code valid for a single transaction/session; delivered via SMS, email, or authenticator app; expires in 3–10 minutes.  
+    *Common mistake: Sharing OTP with anyone — banks never ask for OTP.*
+
+17. **Phishing / Vishing / Smishing** — Fraudulent attempts to steal credentials via fake emails (phishing), voice calls (vishing), or SMS (smishing) pretending to be bank officials.  
+    *Prevention: Verify sender; never click unsolicited links; use official app/website.*
+
+18. **SIM Swap Fraud** — Fraudster obtains duplicate SIM of victim’s mobile number to intercept OTPs; protect by registering for SIM‑change alerts with telecom operator.  
+    *Source: CERT‑In Advisory on SIM Swap Fraud.*
+
+19. **RBI Ombudsman Scheme for Digital Transactions** — Provides free, time‑bound resolution for complaints against regulated entities (banks, PPIs, payment system operators) for deficient digital services.  
+    *Source: RBI Ombudsman Scheme, 2019 (amended 2021).*
+
+20. **Positive Pay System (PPS)** — For cheques ≥ ₹50,000, issuer submits cheque details (number, date, payee, amount) electronically to bank before presentation; reduces cheque fraud.  
+    *Source: RBI “Positive Pay System for Cheque Truncation System”.*
+
+21. **e‑Mandate / e‑NACH** — Electronic authorisation for recurring payments (SIP, insurance premium, loan EMI); authenticated via net banking/debit card/Aadhaar OTP; replaces physical NACH mandate.  
+    *Source: NPCI e‑Mandate Framework.*
+
+22. **Account Aggregator (AA) Framework** — Consent‑based data sharing system regulated by RBI; allows users to share financial data (bank statements, GST returns, etc.) with lenders/insurers securely.  
+    *Source: RBI Master Direction on Account Aggregators.*
+
+23. **Cyber Security Framework for Banks** — RBI mandates: Board‑approved cyber‑security policy, CISO, SOC, regular VAPT, incident reporting within 2–6 hours to RBI/CERT‑In.  
+    *Source: RBI “Cyber Security Framework in Banks” circular (2016, updated 2023).*
+
+24. **Common Keyboard Shortcuts (Windows / Office) for Banking Exams**  
+    - `Ctrl + C / V / X` — Copy / Paste / Cut  
+    - `Ctrl + Z / Y` — Undo / Redo  
+    - `Alt + Tab` — Switch apps  
+    - `Win + L` — Lock screen  
+    - `Ctrl + Shift + Esc` — Task Manager  
+    *Browser shortcuts (Chrome/Edge): `Ctrl + T` (new tab), `Ctrl + W` (close tab), `Ctrl + Shift + T` (reopen closed tab), `F5` / `Ctrl + R` (reload).*
+
+25. **Exam‑Oriented Quick Checks**  
+    - NEFT: batch‑wise, 24×7, no min limit.  
+    - RTGS: real‑time, min ₹2 lakh, 24×7.  
+    - IMPS: instant, 24×7, max ₹5 lakh (typical).  
+    - UPI: VPA‑based, 2FA, 24×7, ₹1 lakh per transaction (general).  
+    - AePS: Aadhaar + biometric, BC/Micro‑ATM.  
+    - BBPS: bill payments, interoperable.  
+    - Tokenisation: card‑on‑file security.  
+    - 2FA: mandatory for all digital payments.  
+    - OTP: never share.  
+    - Positive Pay: cheques ≥ ₹50,000.  
+
+*Sources referred: RBI Master Directions & Circulars, NPCI Product Documents (UPI, IMPS, AePS, BBPS, e‑Mandate), CERT‑In Advisories, IT Act 2000, Microsoft Support (shortcuts).*

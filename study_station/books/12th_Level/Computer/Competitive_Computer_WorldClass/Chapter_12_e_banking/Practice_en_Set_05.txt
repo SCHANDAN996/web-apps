@@ -1,0 +1,151 @@
+Questions 101–120: Easy | Questions 121–125: Medium
+
+101. Which system enables real-time gross settlement of high-value transactions in India?
+(a) NEFT (b) RTGS (c) IMPS (d) UPI
+Answer: (b)
+Solution: Many aspirants confuse RTGS with NEFT, which uses deferred net settlement; however, RTGS provides real-time gross settlement, so the answer is RTGS.
+Source: RBI Payment Systems
+
+102. What is the minimum transaction amount for RTGS as per current RBI guidelines?
+(a) ₹1 lakh (b) ₹5 lakh (c) ₹2 lakh (d) No minimum limit
+Answer: (c)
+Solution: The old ₹2 lakh minimum is often confused with NEFT's no-minimum rule; RTGS is designed for high-value transfers and currently requires a minimum of ₹2 lakh per transaction, so the answer is ₹2 lakh.
+Source: RBI Master Direction on RTGS
+
+103. Which payment system operates 24×7×365 including holidays for instant fund transfers?
+(a) IMPS (b) RTGS (c) NEFT (d) AePS
+Answer: (a)
+Solution: NEFT and RTGS have specific operating windows, while IMPS was the first to offer round-the-clock instant transfers, so the answer is IMPS.
+Source: NPCI IMPS Product Overview
+
+104. The Unified Payments Interface (UPI) was developed by which organization?
+(a) NPCI (b) IBA (c) RBI (d) IDRBT
+Answer: (a)
+Solution: RBI regulates payment systems, but the National Payments Corporation of India (NPCI) actually built and operates the UPI platform, so the answer is NPCI.
+Source: NPCI Official Website
+
+105. In UPI, what does the term "VPA" stand for?
+(a) Virtual Payment Address (b) Verified Personal Account (c) Virtual Private Access (d) Validated Payment Authorization
+Answer: (a)
+Solution: The similar-sounding 'Verified Personal Account' is a common distractor; VPA is the unique identifier (e.g., user@bank) that replaces sharing bank account details, so the answer is Virtual Payment Address.
+Source: NPCI UPI Documentation
+
+106. Which of the following is NOT a UPI transaction type?
+(a) Push (Pay) (b) Pull (Collect) (c) Mandate (d) SWIFT
+Answer: (d)
+Solution: SWIFT is an international messaging network for cross-border payments, whereas Push, Pull, and Mandate are native UPI transaction flows, so the answer is SWIFT.
+Source: NPCI UPI Procedural Guidelines
+
+107. What is the current per-transaction limit for UPI as set by NPCI for most use cases?
+(a) ₹2 lakh (b) ₹5 lakh (c) ₹1 lakh (d) No limit
+Answer: (c)
+Solution: The ₹2 lakh limit applies to certain verified merchant categories, but the standard peer-to-peer and most merchant UPI transactions are capped at ₹1 lakh per transaction, so the answer is ₹1 lakh.
+Source: NPCI UPI Transaction Limits Circular
+
+108. What is the primary authentication credential used for authorizing UPI transactions?
+(a) OTP (b) MPIN (c) Password (d) Biometric
+Answer: (b)
+Solution: While biometric authentication is an alternative, the UPI PIN (MPIN) is the primary credential set by the user for every transaction; OTP and password are not used for UPI authorization, so the answer is MPIN.
+Source: NPCI UPI Security Framework
+
+109. The Bharat Interface for Money (BHIM) app is based on which platform?
+(a) NEFT (b) RTGS (c) UPI (d) IMPS
+Answer: (c)
+Solution: BHIM is a UPI-based mobile payment application developed by NPCI; it is not a separate payment rail but a client that uses the UPI infrastructure, so the answer is UPI.
+Source: NPCI BHIM App Description
+
+110. Which service allows cash withdrawal at POS terminals using a debit card and PIN?
+(a) AePS (b) UPI Cash (c) Cardless Cash (d) POS Cash
+Answer: (d)
+Solution: AePS uses Aadhaar biometrics for banking services, while 'POS Cash' (or Cash@POS) is the RBI-permitted facility where merchants dispense cash against a debit card PIN transaction, so the answer is POS Cash.
+Source: RBI Circular on Cash@POS
+
+111. What does "NEFT" stand for?
+(a) Net Electronic Financial Transaction (b) National Electronic Funds Transfer (c) New Era Fund Transfer (d) National E-Banking Fund Transfer
+Answer: (b)
+Solution: The expanded form is often confused with similar-sounding phrases; the official name is National Electronic Funds Transfer, a deferred net settlement system operated by RBI, so the answer is National Electronic Funds Transfer.
+Source: RBI NEFT Procedural Guidelines
+
+112. NEFT settlements occur in batches at what frequency during operational hours?
+(a) Every 15 minutes (b) Real-time (c) Every hour (d) Every 30 minutes
+Answer: (d)
+Solution: Since 2020, NEFT operates 24×7 with settlements every half-hour; the older hourly batch cycle is a common outdated recall, so the answer is Every 30 minutes.
+Source: RBI NEFT 24×7 Press Release
+
+113. Which of the following is a prepaid payment instrument (PPI) issued by banks or non-banks?
+(a) Credit Card (b) Digital Wallet (c) Debit Card (d) UPI ID
+Answer: (b)
+Solution: Credit and debit cards are linked to credit lines or bank accounts, while a digital wallet (e.g., Paytm, PhonePe wallet) stores prepaid value and is regulated as a PPI, so the answer is Digital Wallet.
+Source: RBI Master Direction on PPIs
+
+114. As per the latest RBI guidelines, what is the maximum balance allowed in a full-KYC prepaid payment instrument (wallet)?
+(a) ₹2 lakh (b) ₹50,000 (c) ₹10,000 (d) ₹1 lakh
+Answer: (a)
+Solution: The earlier limit of ₹1 lakh was increased to ₹2 lakh for full-KYC PPIs; minimum-KYC wallets remain at ₹10,000, so the answer is ₹2 lakh.
+Source: RBI Master Direction on PPIs (2024 update)
+
+115. Which protocol secures communication between a browser and a bank's internet banking server?
+(a) HTTPS (b) HTTP (c) SMTP (d) FTP
+Answer: (a)
+Solution: HTTPS (HTTP over TLS/SSL) encrypts the session; HTTP sends data in clear text, while FTP and SMTP are file transfer and mail protocols, not used for banking web sessions, so the answer is HTTPS.
+Source: Standard Web Security Practice
+
+116. What is the purpose of a "Virtual Keyboard" on internet banking login pages?
+(a) Faster typing (b) Support regional languages (c) Prevent keylogger malware from capturing keystrokes (d) Reduce server load
+Answer: (c)
+Solution: The virtual keyboard mitigates hardware/software keyloggers by letting users click characters with a mouse; it does not protect against screen scrapers or phishing, but it addresses the specific threat of keystroke logging, so the answer is Prevent keylogger malware from capturing keystrokes.
+Source: Bank Internet Banking Security Guidelines
+
+117. Which of the following is a common phishing indicator in a banking email?
+(a) Addressed by full name (b) No urgent action requested (c) Sent from bank's official domain (d) Generic greeting like "Dear Customer"
+Answer: (d)
+Solution: Legitimate banks usually personalize emails; a generic greeting combined with urgency or a mismatched sender domain is a classic phishing red flag, so the answer is Generic greeting like "Dear Customer".
+Source: CERT-In Phishing Awareness Advisory
+
+118. The RBI's "Zero Liability" policy for unauthorized electronic transactions applies when the customer reports the fraud within:
+(a) 3 working days (b) 7 working days (c) 10 working days (d) 14 working days
+Answer: (a)
+Solution: If the customer informs the bank within three working days of receiving the alert, liability is zero; beyond that, limited liability scales up to ₹25,000 if reported within seven working days, so the answer is 3 working days.
+Source: RBI Circular on Customer Protection (DBR.No.Leg.BC.78/09.07.005/2017-18)
+
+119. Which biometric authentication system is used by AePS for transactions?
+(a) Fingerprint only (b) Fingerprint or Iris (c) Iris only (d) Face recognition
+Answer: (b)
+Solution: Aadhaar Enabled Payment System (AePS) allows authentication via either fingerprint or iris scan linked to the Aadhaar number; face authentication is not yet enabled for AePS, so the answer is Fingerprint or Iris.
+Source: NPCI AePS Product Guide
+
+120. What does "MMID" stand for in the context of IMPS?
+(a) Money Market ID (b) Merchant Machine ID (c) Mobile Merchant Identifier (d) Mobile Money Identifier
+Answer: (d)
+Solution: MMID is a 7-digit code issued by the bank to a mobile banking customer for receiving funds via IMPS using mobile number + MMID instead of account number + IFSC, so the answer is Mobile Money Identifier.
+Source: NPCI IMPS FAQ
+
+121. A customer initiates a NEFT transfer of ₹50,000 at 10:15 PM on a Saturday. When will the beneficiary receive the credit?
+(a) Instantly (b) Same day in the next half-hour batch (c) Monday morning (d) Next working day morning
+Answer: (b)
+Solution: Since NEFT became 24×7×365 in December 2019, settlements run every 30 minutes round the clock; the transfer will be processed in the next batch (e.g., 10:30 PM) and credited the same day, not delayed to the next working day, so the answer is Same day in the next half-hour batch.
+Source: RBI NEFT 24×7 Operational Guidelines
+
+122. Which of the following statements about UPI Autopay is correct?
+(a) It allows mandate creation for recurring payments up to ₹15,000 without additional factor (b) It works only for merchant payments above ₹5,000 (c) It requires OTP for every recurring debit (d) It is not supported for mutual fund SIPs
+Answer: (a)
+Solution: UPI Autopay enables e-mandates for recurring payments; for amounts up to ₹15,000, the initial mandate setup uses MPIN, and subsequent debits are automatic without OTP — the ₹5,000 figure is a common confusion with the old e-mandate framework, so the answer is It allows mandate creation for recurring payments up to ₹15,000 without additional factor.
+Source: NPCI UPI Autopay Framework
+
+123. In the context of digital payments, "Tokenisation" refers to:
+(a) Encrypting the card number at rest (b) Generating a one-time password for each transaction (c) Replacing the actual card details with a unique token for a specific device/merchant (d) Converting physical cash to digital balance
+Answer: (c)
+Solution: Tokenisation substitutes the 16-digit PAN with a surrogate token scoped to a merchant or device; encryption protects data at rest, while tokenisation reduces the attack surface during transactions — the two are often conflated, so the answer is Replacing the actual card details with a unique token for a specific device/merchant.
+Source: RBI Circular on Card Tokenisation
+
+124. Which regulation mandates that payment system operators store payment data only in India?
+(a) IT Act 2000 (b) NPCI Bylaws (c) Payment and Settlement Systems Act 2007 (d) RBI Data Localization Circular 2018
+Answer: (d)
+Solution: The RBI's 2018 directive (DPSS.CO.OD.No.278/06.08.005/2017-18) requires all payment system providers to store the entire payment data within India; the PSS Act provides the statutory backing but the specific localization mandate came through this circular, so the answer is RBI Data Localization Circular 2018.
+Source: RBI Data Localization Circular (April 2018)
+
+125. A user scans a QR code at a merchant outlet and pays via UPI. The QR code contains the merchant's VPA. This transaction flow is classified as:
+(a) Mandate (b) Pull (Collect) (c) Push (Pay) (d) Refund
+Answer: (c)
+Solution: The payer initiates the payment by scanning and authorizing — a 'Push' transaction; a 'Pull' would be the merchant sending a collect request that the payer approves, which is not the case with static/dynamic QR code payments, so the answer is Push (Pay).
+Source: NPCI UPI QR Code Specifications

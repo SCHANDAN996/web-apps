@@ -1,0 +1,37 @@
+```mermaid
+graph TD
+    A["ई बैंकिंग / Electronic Banking"] --> B["प्रकार / Types"]
+    A --> C["सेवाएँ / Services"]
+    A --> D["सुरक्षा / Security"]
+    A --> E["नियामक / Regulation"]
+    A --> F["लाभ / Benefits"]
+    
+    B --> B1["इंटरनेट बैंकिंग / Internet Banking"]
+    B --> B2["मोबाइल बैंकिंग / Mobile Banking"]
+    B --> B3["एटीएम / ATM"]
+    B --> B4["यूपीआई / UPI"]
+    B --> B5["आईएमपीएस / IMPS"]
+    B --> B6["एनईएफटी/आरटीजीएस / NEFT/RTGS"]
+    
+    C --> C1["फंड ट्रांसफर / Fund Transfer"]
+    C --> C2["बिल भुगतान / Bill Payment"]
+    C --> C3["खाता विवरण / Account Statement"]
+    C --> C4["चेक बुक अनुरोध / Cheque Book Request"]
+    C --> C5["निवेश सेवाएँ / Investment Services"]
+    
+    D --> D1["द्वि-कारक प्रमाणीकरण / 2FA"]
+    D --> D2["ओटीपी / OTP"]
+    D --> D3["एन्क्रिप्शन / Encryption"]
+    D --> D4["फायरवॉल / Firewall"]
+    D --> D5["बायोमेट्रिक / Biometric"]
+    
+    E --> E1["आरबीआई दिशानिर्देश / RBI Guidelines"]
+    E --> E2["केवाईसी / KYC"]
+    E --> E3["डेटा स्थानीयकरण / Data Localization"]
+    E --> E4["साइबर सुरक्षा ढांचा / Cyber Security Framework"]
+    
+    F --> F1["24x7 उपलब्धता / 24x7 Availability"]
+    F --> F2["कम लागत / Low Cost"]
+    F --> F3["त्वरित लेनदेन / Quick Transactions"]
+    F --> F4["पारदर्शिता / Transparency"]
+```

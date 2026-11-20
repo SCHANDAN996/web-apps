@@ -1,0 +1,149 @@
+26. Which of the following is the full form of IMPS in the context of Indian electronic banking?
+(a) Immediate Mobile Payment System (b) Instant Money Payment Service (c) Integrated Mobile Payment Solution (d) Immediate Payment Service
+Answer: (d)
+Solution: The tempting option (a) uses "Mobile" which sounds plausible since IMPS works on mobile, but the official RBI/NPCI terminology is "Immediate Payment Service" — it is channel-agnostic and works via internet banking, mobile apps, and ATMs, so the answer is Immediate Payment Service.
+Source: NPCI official documentation
+
+27. NEFT settlement occurs in batches at fixed intervals. What is the current batch frequency for NEFT transactions as per RBI guidelines?
+(a) Every 30 minutes (b) Every hour (c) Every 15 minutes (d) Real-time continuous
+Answer: (a)
+Solution: Option (d) describes RTGS, not NEFT. NEFT operates in half-hourly batches (48 batches per day) since December 2019, making "Every 30 minutes" the correct frequency, so the answer is Every 30 minutes.
+Source: RBI NEFT procedural guidelines
+
+28. RTGS stands for Real Time Gross Settlement. What is the minimum transaction amount for RTGS as per current RBI norms?
+(a) ₹2 lakh (b) ₹1 lakh (c) ₹5 lakh (d) No minimum limit
+Answer: (a)
+Solution: Option (b) was the old limit before 2014; the current minimum is ₹2 lakh with no upper ceiling. RTGS is meant for high-value transactions, so the answer is ₹2 lakh.
+Source: RBI RTGS FAQ
+
+29. UPI (Unified Payments Interface) was developed by which organization?
+(a) NPCI (b) RBI (c) Indian Banks' Association (d) Ministry of Finance
+Answer: (a)
+Solution: Option (b) RBI regulates UPI but NPCI (National Payments Corporation of India) developed and operates it. This distinction between regulator and operator is a common trap, so the answer is NPCI.
+Source: NPCI official website
+
+30. In UPI, what does the "VPA" stand for?
+(a) Verified Payment Account (b) Virtual Payment Address (c) Virtual Private Account (d) Verified Payment Address
+Answer: (b)
+Solution: Option (a) and (d) use "Verified" which sounds authoritative but incorrect; "Virtual Payment Address" is the unique identifier (like user@bank) that replaces sharing bank account details, so the answer is Virtual Payment Address.
+Source: NPCI UPI product documentation
+
+31. Which of the following authentication factors does UPI 2FA (Two-Factor Authentication) typically combine?
+(a) Something you know + Something you know (b) Something you know + Something you are (c) Something you have + Something you are (d) Something you know + Something you have
+Answer: (d)
+Solution: Option (a) describes single-factor (two passwords). UPI combines MPIN (something you know) with registered mobile device/OTP (something you have), making it true 2FA, so the answer is Something you know + Something you have.
+Source: RBI circular on digital payment security
+
+32. What is the per-transaction limit for UPI as per current NPCI guidelines for general categories?
+(a) ₹50,000 (b) ₹5 lakh (c) ₹2 lakh (d) ₹1 lakh
+Answer: (d)
+Solution: Option (c) is the RTGS minimum; UPI's standard per-transaction cap is ₹1 lakh (higher for specific categories like capital markets, tax payments), so the answer is ₹1 lakh.
+Source: NPCI UPI procedural guidelines
+
+33. Which protocol ensures encryption between a user's browser and the bank's internet banking server?
+(a) HTTP (b) HTTPS/TLS (c) FTP (d) SMTP
+Answer: (b)
+Solution: Option (a) HTTP sends data in plain text — a major security risk. HTTPS uses TLS (formerly SSL) to encrypt the session, protecting credentials and transaction data, so the answer is HTTPS/TLS.
+Source: CERT-In safe banking guidelines
+
+34. "Phishing" in e-banking context refers to:
+(a) Fraudulent attempts to obtain sensitive information by disguising as trustworthy entity (b) Stealing cash from ATMs using skimmers (c) Unauthorized fund transfer via malware (d) Denial of service attack on bank servers
+Answer: (a)
+Solution: Option (b) describes skimming, (c) describes malware-based theft, (d) is DoS. Phishing specifically uses social engineering (fake emails/sites) to trick users into revealing credentials, so the answer is Fraudulent attempts to obtain sensitive information by disguising as trustworthy entity.
+Source: CERT-In phishing advisory
+
+35. What is the full form of MMID used in IMPS?
+(a) Money Mobile Identifier (b) Mobile Money ID (c) Mobile Merchant ID (d) Mobile Money Identifier
+Answer: (d)
+Solution: Option (b) drops "entifier" — MMID is a 7-digit code issued by banks for IMPS via mobile, standing for Mobile Money Identifier, so the answer is Mobile Money Identifier.
+Source: NPCI IMPS product documentation
+
+36. Which of the following is NOT a valid UPI transaction type?
+(a) Push (Pay) (b) Swipe (c) Mandate (AutoPay) (d) Pull (Collect)
+Answer: (b)
+Solution: Option (b) "Swipe" is a card-terminal action, not a UPI transaction type. UPI supports Push (payer initiates), Pull (payee requests), and Mandate (recurring), so the answer is Swipe.
+Source: NPCI UPI transaction flow documentation
+
+37. AEPS stands for:
+(a) Aadhaar Enabled Payment Service (b) Aadhaar Electronic Payment Service (c) Automated Electronic Payment System (d) Aadhaar Enabled Payment System
+Answer: (d)
+Solution: Option (b) and (a) use "Service" instead of "System" — the official name is Aadhaar Enabled Payment System, allowing bank customers to use Aadhaar biometrics for basic banking via Business Correspondents, so the answer is Aadhaar Enabled Payment System.
+Source: NPCI AEPS product documentation
+
+38. In AEPS, which biometric modalities are supported for authentication?
+(a) Fingerprint only (b) Iris only (c) Fingerprint and Iris (d) Face recognition only
+Answer: (c)
+Solution: Option (a) and (b) are partially correct but incomplete. AEPS supports both fingerprint and iris authentication as per UIDAI specifications, so the answer is Fingerprint and Iris.
+Source: NPCI AEPS procedural guidelines
+
+39. What is the maximum amount per transaction for AEPS cash withdrawal as per current limits?
+(a) ₹5,000 (b) ₹10,000 (c) ₹20,000 (d) ₹50,000
+Answer: (b)
+Solution: Option (c) and (d) confuse with other channel limits. AEPS cash withdrawal at BC points is capped at ₹10,000 per transaction for customer protection, so the answer is ₹10,000.
+Source: RBI circular on AEPS limits
+
+40. Which of the following is a prepaid payment instrument (PPI) issued by banks/non-banks?
+(a) Wallet (e.g., Paytm, PhonePe wallet) (b) Debit card (c) Credit card (d) Cheque book
+Answer: (a)
+Solution: Option (c) and (b) are post-paid and pay-now instruments linked to credit/loan and deposit accounts respectively. A wallet stores pre-loaded value — the definition of PPI, so the answer is Wallet (e.g., Paytm, PhonePe wallet).
+Source: RBI Master Direction on PPIs
+
+41. The RBI's "Zero Liability" policy for unauthorized electronic transactions applies when the customer reports the fraud within:
+(a) 24 hours (b) 7 working days (c) 3 working days (d) 30 days
+Answer: (c)
+Solution: Option (a) is too short; (b) and (d) are for limited liability tiers. Full zero liability applies if reported within 3 working days of receiving the alert, provided no customer negligence, so the answer is 3 working days.
+Source: RBI circular on customer protection (DBR.No.Leg.BC.78/09.07.005/2017-18)
+
+42. What does "Tokenisation" of card data mean in e-commerce payments?
+(a) Encrypting the card number with a bank-specific key (b) Storing card details in a password-protected vault (c) Replacing actual card details with a unique alternate code (token) for a specific device/merchant (d) Converting card number to a QR code
+Answer: (c)
+Solution: Option (a) describes encryption; tokenisation substitutes the PAN with a surrogate value (token) scoped to a merchant/device, rendering stolen tokens useless elsewhere, so the answer is Replacing actual card details with a unique alternate code (token) for a specific device/merchant.
+Source: RBI tokenisation guidelines
+
+43. Which of the following is the correct sequence of steps in a typical UPI "Collect Request" (Pull) flow?
+(a) Payer initiates → Payee receives → NPCI routes → Bank debits (b) NPCI initiates → Payee requests → Payer approves → Bank settles (c) Bank initiates → NPCI routes → Payee receives → Payer pays (d) Payee initiates request → NPCI routes → Payer approves → Bank debits/credits
+Answer: (d)
+Solution: Option (a) describes Push flow. In Pull, the payee (merchant) initiates the collect request, NPCI routes to payer's PSP, payer authorizes via MPIN, then banks settle, so the answer is Payee initiates request → NPCI routes → Payer approves → Bank debits/credits.
+Source: NPCI UPI collect request flow documentation
+
+44. What is the full form of BBPS in the context of bill payments?
+(a) Broadband Bill Payment System (b) Bharat Banking Payment Service (c) Bharat Bill Payment System (d) Bank Bill Payment Service
+Answer: (c)
+Solution: Option (b) and (d) use "Service" — BBPS is an interoperable platform for bill payments (electricity, water, gas, telecom, etc.) operated by NPCI under RBI authorization, so the answer is Bharat Bill Payment System.
+Source: NPCI BBPS product documentation
+
+45. Which entity acts as the Central Unit for BBPS?
+(a) RBI (b) Indian Banks' Association (c) NPCI (d) Ministry of Electronics and IT
+Answer: (c)
+Solution: Option (a) RBI authorizes and regulates; NPCI operates as the Central Unit managing the BBPS network, onboarding Operating Units (banks/non-banks), so the answer is NPCI.
+Source: RBI BBPS framework circular
+
+46. A customer receives an SMS: "Your account will be blocked. Click link to update KYC." This is an example of:
+(a) Smishing (b) Vishing (c) Pharming (d) Shoulder surfing
+Answer: (a)
+Solution: Option (b) Vishing is voice-call phishing; (c) Pharming redirects website traffic via DNS poisoning; (d) Shoulder surfing is physical observation. SMS-based phishing is specifically "Smishing", so the answer is Smishing.
+Source: CERT-In advisory on smishing
+
+47. In the context of internet banking, what does "Session Timeout" primarily protect against?
+(a) Brute force password attacks (b) Unauthorized access if user leaves device unattended (c) Man-in-the-middle attacks (d) SQL injection on bank servers
+Answer: (b)
+Solution: Option (a) is mitigated by login attempt limits; (c) by TLS; (d) by secure coding. Session timeout automatically logs out idle sessions, reducing risk from unattended devices, so the answer is Unauthorized access if user leaves device unattended.
+Source: CERT-In safe internet banking practices
+
+48. Which of the following statements about NEFT vs RTGS is CORRECT?
+(a) NEFT has a minimum limit of ₹2 lakh; RTGS has no minimum (b) RTGS is for high-value instant settlement; NEFT is for batch settlement with no minimum amount (c) NEFT is available 24x7; RTGS is available only on business hours (d) RTGS settles in batches; NEFT settles in real-time
+Answer: (b)
+Solution: Option (a) reverses the limits; (d) reverses settlement modes; (c) both are now 24x7. RTGS = real-time gross settlement for high-value (min ₹2L); NEFT = deferred net settlement in batches, no minimum, so the answer is RTGS is for high-value instant settlement; NEFT is for batch settlement with no minimum amount.
+Source: RBI payment systems comparison
+
+49. What is the role of a "Payment Gateway" in an online transaction?
+(a) It issues credit/debit cards to customers (b) It maintains the customer's bank account ledger (c) It authorizes and routes transaction data between merchant, acquirer, and issuer (d) It prints physical receipts for POS terminals
+Answer: (c)
+Solution: Option (a) is card issuer; (b) is core banking system; (d) is POS hardware. Payment gateway encrypts and forwards transaction data between merchant website and acquiring bank/processor, so the answer is It authorizes and routes transaction data between merchant, acquirer, and issuer.
+Source: RBI guidelines on payment gateways
+
+50. A user sets up UPI AutoPay mandate for a monthly subscription. Which of the following is TRUE about mandate revocation?
+(a) The customer can revoke the mandate anytime via UPI app (b) Only the bank can revoke the mandate (c) Only the merchant can revoke the mandate (d) Mandates cannot be revoked once created
+Answer: (a)
+Solution: Option (c) and (b) remove customer control; (d) is false. RBI/NPCI mandates customer consent and control — the payer can pause/revoke mandates anytime from their UPI app, so the answer is The customer can revoke the mandate anytime via UPI app.
+Source: NPCI UPI AutoPay framework
