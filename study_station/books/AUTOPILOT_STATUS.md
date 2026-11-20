@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 07:44 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 07:28 AM
+**आख़िरी update:** 20-11-2026 07:59 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 07:28 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 16 मिनट |
-| W2 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 16 मिनट |
-| W3 | Chapter 10 paryayvachi (10th Hindi) | 🔎 review हो रहा है | 15 मिनट |
-| W4 | Chapter 11 vilom (10th Hindi) | 🔎 review हो रहा है | 15 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
+| W2 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
+| W3 | Chapter 10 paryayvachi (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
+| W4 | Chapter 11 vilom (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 7 |
-| key 4 | 12 |
+| key 3 | 11 |
+| key 4 | 24 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -71,4 +71,18 @@
 20-11 07:40:03   [upsarg_pratyay] review Key_Facts_hi.txt round 1: 3 issue(s): - Point 6: Example "लिख" + "न" = "लिखना" does not show a part-of-speech change (it remains a verb) → Repl
 20-11 07:42:35   [upsarg_pratyay] review Key_Facts_hi.txt round 2: 3 issue(s): - Point 20: Example “पा + न = पाना” is wrong; the infinitive suffix is “ना”, not “न”. → Correct: “पा + ना
 20-11 07:44:00   [upsarg_pratyay] review Feynman_hi.txt: resumed private correction draft
+20-11 07:45:22   [sandhi] Practice_hi_Set_01.txt try 4: rejected (Q1:duplicate_options)
+20-11 07:45:22   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
+20-11 07:45:52   [upsarg_pratyay] review Feynman_hi.txt round 1: 3 issue(s): - Section 2 table (उपसर्ग "उप-"): example "चार" → "उपचार" uses wrong root "चार" (which means four); the roo
+20-11 07:46:26   [sandhi] Practice_hi_Set_02.txt try 1: rejected (Q44:duplicate_options)
+20-11 07:49:19   [upsarg_pratyay] review Feynman_hi.txt round 2: 3 issue(s): - अनुचित का विच्छेद गलत (उदाहरण 1 और फ्लैशकार्ड 11): 'अनु + चित (चि+त)' दिया गया है → सही विच्छेद: 'अनु + उ
+20-11 07:51:19   [upsarg_pratyay] review Flashcards_hi.txt: resumed private correction draft
+20-11 07:53:02   [upsarg_pratyay] review Flashcards_hi.txt round 1: 1 issue(s): - Card 18: The sandhi explanation for “दुर्नीति” incorrectly claims the prefix becomes “दुर्”; actually 
+20-11 07:54:53   [upsarg_pratyay] review Flashcards_hi.txt round 2: 4 issue(s): - Card 4: The example “दु+” + “कर्म” = “दुष्कर्म” is wrong; the prefix “दु-” becomes “दुः” before क, so 
+20-11 07:56:51   [upsarg_pratyay] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 4: "दु-" उपसर्ग के नियम में त्रुटि → लिखा है "क, ख, ग, घ, ङ के पहले विसर्ग हो जात
+20-11 07:56:51   [upsarg_pratyay] review PYQ_hi.txt: resumed private correction draft
+20-11 07:58:07   [sandhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q26 key d vs re-solve c, Q28 key b vs re-solve c, Q29 key a vs re-solve c, Q30 key a vs re-solve ?, 
+20-11 07:58:08   [upsarg_pratyay] review PYQ_hi.txt round 1: 2 issue(s): - In Pattern B, option (a) incorrectly lists the suffix as "नीया" instead of "नीय" → Option (a) should read "नी
+20-11 07:59:07   [vilom] review Key_Facts_hi.txt: resumed private correction draft
+20-11 07:59:07   [vilom] 2026-11-20 02:29:07,774 WARNING NVIDIA rate_limited — retrying in 20s
 ```
