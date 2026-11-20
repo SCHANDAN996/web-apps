@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 21-11-2026 04:09 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
+**आख़िरी update:** 21-11-2026 04:24 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 110 मिनट |
+| W1 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 8 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 26 |
-| key 4 | 27 |
-| key 5 | 21 |
-| key 6 | 33 |
+| key 3 | 27 |
+| key 4 | 28 |
+| key 5 | 22 |
+| key 6 | 34 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -49,17 +49,11 @@
 
 - Chapter 15 vakya shuddhi (Hindi) — 1 बार
 - Chapter 16 rikt sthan vakya kram (Hindi) — 1 बार
+- Chapter 07 sandhi (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-21-11 03:17:09   [sandhi] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q51 key a vs re-solve b, Q53 key d vs re-solve c, Q55 key b vs re-solve a)
-21-11 03:18:18   [vakya_shuddhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q126 key b vs re-solve ?, Q127 key c vs re-solve ?, Q131 key a vs re-solve ?, Q135 key b vs re-solve
-21-11 03:22:10   [sandhi] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q53 key b vs re-solve ?, Q61 key c vs re-solve ?)
-21-11 03:27:39   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q102 key c vs re-solve a, Q108 key a vs re-solve d, Q109 key b vs re-solve a)
-21-11 03:27:55   [vakya_shuddhi] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q146 key a vs re-solve d)
-21-11 03:28:29   [sandhi] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q53 key b vs re-solve a)
-21-11 03:28:29   [sandhi] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
 21-11 03:29:19   [sandhi] Practice_hi_Set_05.txt try 1: rejected (Q101:duplicate_options,Q102:duplicate_options,Q104:duplicate_options,Q106:duplicate_options,Q108:duplicate_opt
 21-11 03:30:55   [sandhi] Practice_hi_Set_05.txt try 2: rejected (Q102:duplicate_options,Q106:duplicate_options,Q108:duplicate_options,Q109:duplicate_options,Q112:duplicate_opt
 21-11 03:34:17   [vakya_shuddhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q146 key a vs re-solve d)
@@ -93,4 +87,11 @@
 21-11 04:03:20 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram after 104 min: todo ['Set 03 hi: todo', 'Set 04 hi: todo', 'Set 05 hi: todo', 'Set 06 hi: todo'] problems []
 21-11 04:03:41 worker 3: nothing left
 21-11 04:06:07   [sandhi] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q128 key d vs re-solve ?, Q129 key c vs re-solve b, Q132 key b vs re-solve a, Q137 key b vs re-solve
+21-11 04:16:12   [sandhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q127 key a vs re-solve ?, Q128 key d vs re-solve ?, Q129 key b vs re-solve c, Q132 key a vs re-solve
+21-11 04:16:12   [sandhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
+21-11 04:16:12   [sandhi] written 0, failed 5; AI calls today 107/100000
+21-11 04:16:12 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi after 117 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo'] problems []
+21-11 04:16:14 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi (TODO: todo 2, problems 0)
+21-11 04:16:14   [vakya_shuddhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
+21-11 04:17:16   [vakya_shuddhi] Practice_hi_Set_02.txt try 1: rejected (Q39:duplicate_options)
 ```
