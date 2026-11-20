@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 11:43 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
+**आख़िरी update:** 20-11-2026 11:58 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,16 +8,16 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 95 मिनट |
-| W5 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 95 मिनट |
-| W6 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 95 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 111 मिनट |
+| W5 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 110 मिनट |
+| W6 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 110 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 18 |
-| key 4 | 29 |
-| key 5 | 30 |
-| key 6 | 34 |
+| key 3 | 20 |
+| key 4 | 31 |
+| key 5 | 32 |
+| key 6 | 35 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -55,10 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 22:49:31   [ek_shabd] review Mind_Map.txt round 2: 1 issue(s): - F2 में वर्तनी उदाहरण गलत है: "पुस्तकालय/पुस्तकालय (शुद्ध/अशुद्ध)" दोनों शब्द समान लिखे हैं → सही/गलत वर्तनी
-20-11 22:52:00   [ek_shabd] review PYQ_hi.txt round 1: 2 issue(s): - The claim that SSC never includes "उपर्युक्त सभी/कोई नहीं" options (stated in Example 5 explanation and Commo
-20-11 22:52:05   [vakya_shuddhi] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q90 key a vs re-solve c, Q93 key b vs re-solve d)
-20-11 22:52:42   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q76 key b vs re-solve d, Q77 key b vs re-solve a, Q84 key c vs re-solve b, Q87 key c vs re-solve d, 
 20-11 22:53:49   [ek_shabd] review PYQ_hi.txt round 2: 3 issue(s): - In the "उच्च-उपज शब्द समूह" table, under "स्वभाव/प्रवृत्ति", the entry "क्रोधी → क्रोधी/रोषी" incorrectly use
 20-11 22:57:06   [ek_shabd] REJECTED review fix PYQ_hi.txt: reviewer still reports - Pattern 5 caution states "विशेषण/सर्वनाम अपेक्षित होता है" but pronoun (सर्वनाम) is not a typ
 20-11 22:58:00   [vakya_shuddhi] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q96 key c vs re-solve ?)
@@ -95,4 +91,8 @@
 20-11 23:39:35   [vakya_shuddhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
 20-11 23:40:50   [vakya_shuddhi] Practice_hi_Set_06.txt try 1: rejected (Q144:duplicate_options,Q146:duplicate_options)
 20-11 23:43:02   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q109 key d vs re-solve b, Q113 key b vs re-solve c, Q114 key c vs re-solve b, Q119 key b vs re-solve
+20-11 23:47:55   [vakya_shuddhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q131 key c vs re-solve ?, Q136 key a vs re-solve d, Q143 key b vs re-solve ?, Q145 key c vs re-solve
+20-11 23:48:12   [sandhi] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q51 key a vs re-solve d, Q53 key b vs re-solve d, Q54 key c vs re-solve a, Q55 key d vs re-solve a, 
+20-11 23:54:04   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q112 key d vs re-solve b)
+20-11 23:54:04   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
 ```
