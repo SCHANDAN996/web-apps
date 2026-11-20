@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 08:03 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 07:28 AM
+**आख़िरी update:** 20-11-2026 08:14 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 07:28 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 35 मिनट |
-| W2 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 35 मिनट |
-| W3 | Chapter 10 paryayvachi (10th Hindi) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 11 vilom (10th Hindi) | 🔎 review हो रहा है | 34 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 46 मिनट |
+| W2 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 46 मिनट |
+| W3 | Chapter 11 email (12th Computer) | 🔎 review हो रहा है | 11 मिनट |
+| W4 | Chapter 11 vilom (10th Hindi) | 🔎 review हो रहा है | 46 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 15 |
-| key 4 | 27 |
+| key 3 | 27 |
+| key 4 | 31 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -49,18 +49,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 07:28:02 autopilot start: 4 workers, reverse=False
-20-11 07:28:02 API policy: account start interval=20s; key start interval=15s; in-flight per key=1
-20-11 07:28:03 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi (TODO: todo 5, problems 0)
-20-11 07:28:04   [sandhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
-20-11 07:28:08 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay (OK: todo 0, problems 0)
-20-11 07:28:08   [upsarg_pratyay] review Content_hi.txt: resumed private correction draft
-20-11 07:28:13 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_10_paryayvachi (OK: todo 0, problems 0)
-20-11 07:28:13   [paryayvachi] review Important_Rules_hi.txt: resumed private correction draft
-20-11 07:28:18 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_11_vilom (OK: todo 0, problems 0)
-20-11 07:28:18   [vilom] review Content_hi.txt: resumed private correction draft
-20-11 07:29:09   [sandhi] Practice_hi_Set_01.txt try 1: rejected (Q1:duplicate_options,Q3:duplicate_options,Q5:duplicate_options,Q7:duplicate_options,Q9:duplicate_options)
-20-11 07:30:05   [sandhi] Practice_hi_Set_01.txt try 2: rejected (Q1:duplicate_options,Q3:duplicate_options,Q5:duplicate_options,Q7:duplicate_options,Q9:duplicate_options)
 20-11 07:31:14   [upsarg_pratyay] review Content_hi.txt round 1: 2 issue(s): - In the कृदंत प्रत्यय table, the row for suffix **"-त्व / -त"** lists **"सत्य"** as an example for **"-त"*
 20-11 07:34:03   [upsarg_pratyay] review Content_hi.txt round 2: 2 issue(s): - In the कृदंत प्रत्यय table (section 3.2 क), the row for “-त्व / -त” is incorrectly classified as a कृदंत 
 20-11 07:36:31   [paryayvachi] review Important_Rules_hi.txt round 1: 4 issue(s): - नियम २ के उदाहरण में "बालक" दो बार लिखा गया है → तीसरे स्थान पर "बालक" के स्थान पर भिन्न रूप जैसे
@@ -89,4 +77,16 @@
 20-11 08:02:38   [vilom] review Key_Facts_hi.txt round 2: 2 issue(s): - Point 12 states “सु–/कु– उपसर्ग युग्म” but the examples use the “दु–” prefix (दुर्जन, दुशील) instead of
 20-11 08:03:17   [paryayvachi] review: 1 section(s) corrected, 0 failed
 20-11 08:03:17   [paryayvachi] written 1, failed 0; AI calls today 42/100000
+20-11 08:03:40 DONE 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_10_paryayvachi in 35 min → 2ecfd2b4
+20-11 08:03:42 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_11_email (OK: todo 0, problems 0)
+20-11 08:03:42   [email] review Key_Facts_hi.txt: resumed private correction draft
+20-11 08:04:21   [upsarg_pratyay] review PYQ_hi.txt round 2: 1 issue(s): - Pattern ब: option (a) shows “नीया” but the correct suffix is “नीय” → change option (a) to “नीय”
+20-11 08:06:18   [upsarg_pratyay] review Important_Rules_hi.txt: resumed private correction draft
+20-11 08:08:52   [upsarg_pratyay] review Important_Rules_hi.txt round 1: 6 issue(s): - नियम ३ के उदाहरण "उपकरना" और "उपजल" मानक हिन्दी शब्द नहीं हैं; ये नियम को स्पष्ट नहीं करते → सही 
+20-11 08:09:31   [sandhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q26 key c vs re-solve b, Q28 key a vs re-solve b, Q30 key c vs re-solve ?, Q38 key d vs re-solve ?, 
+20-11 08:09:45   [email] review Key_Facts_hi.txt round 1: 1 issue(s): - Point 16 states that `#` is the spam shortcut for Gmail/Outlook.com → In Gmail `#` deletes a message (s
+20-11 08:12:17   [email] review Mind_Map.txt round 1: 1 issue(s): - B3: "MIME: मल्टीमीडिया एक्सटेंशन / Extensions" → MIME stands for "Multipurpose Internet Mail Extensions" (ब
+20-11 08:13:09   [vilom] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 7: The rule for ‘अन–’ says it attaches only to words beginning with vowels or य, 
+20-11 08:13:09   [vilom] review Mind_Map.txt: resumed private correction draft
+20-11 08:15:04   [upsarg_pratyay] review Important_Rules_hi.txt round 2: 5 issue(s): - Rule 1: The claimed tadbhav forms “प्रति → पिर” and “उप → उब” are incorrect; these prefixes do no
 ```
