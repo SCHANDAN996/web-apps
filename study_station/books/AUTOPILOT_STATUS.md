@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 21-11-2026 01:15 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
+**आख़िरी update:** 21-11-2026 01:31 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W5 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 38 मिनट |
+| W5 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 53 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 39 |
-| key 4 | 45 |
-| key 5 | 46 |
-| key 6 | 50 |
+| key 3 | 40 |
+| key 4 | 46 |
+| key 5 | 47 |
+| key 6 | 51 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -56,8 +56,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-21-11 00:23:48   [ek_shabd] review PYQ_hi.txt: resumed private correction draft
-21-11 00:25:18   [ek_shabd] review PYQ_hi.txt round 1: 1 issue(s): - Pattern 5 caution incorrectly states "विशेषण/सर्वनाम अपेक्षित होता है" (सर्वनाम means pronoun) but the expect
 21-11 00:26:21   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q130 key d vs re-solve a)
 21-11 00:27:42   [ek_shabd] review PYQ_hi.txt round 2: 2 issue(s): - In Example 5 explanation, the claim “परीक्षा में तत्सम रूप *अनंत* प्राथमिक उत्तर माना जाता है” is presented a
 21-11 00:28:47   [ek_shabd] review Important_Rules_hi.txt: resumed private correction draft
@@ -96,4 +94,6 @@
 21-11 01:06:20   [vakya_shuddhi] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q82 key b vs re-solve c)
 21-11 01:10:36   [vakya_shuddhi] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q82 key b vs re-solve d)
 21-11 01:10:36   [vakya_shuddhi] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
+21-11 01:19:04   [vakya_shuddhi] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q101 key a vs re-solve b, Q103 key a vs re-solve b, Q104 key c vs re-solve b, Q106 key c vs re-solve
+21-11 01:25:16   [vakya_shuddhi] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q101 key a vs re-solve b, Q104 key c vs re-solve d, Q112 key a vs re-solve b)
 ```
