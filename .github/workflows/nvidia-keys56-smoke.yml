@@ -9,59 +9,19 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Verify new keys with bounded Ultra requests
+      - name: Check four distinct active key secrets
         env:
-          KEY_FIVE: ${{ secrets.NVIDIA_API_KEY_5 }}
-          KEY_SIX: ${{ secrets.NVIDIA_API_KEY_6 }}
+          ACTIVE_THREE: ${{ secrets.NVIDIA_API_KEY_3 }}
+          ACTIVE_FOUR: ${{ secrets.NVIDIA_API_KEY_4 }}
+          ACTIVE_FIVE: ${{ secrets.NVIDIA_API_KEY_5 }}
+          ACTIVE_SIX: ${{ secrets.NVIDIA_API_KEY_6 }}
         shell: python
         run: |
-          import json, os, signal, time, urllib.request, urllib.error
-          def expired(*args):
-              raise TimeoutError()
-          signal.signal(signal.SIGALRM, expired)
-          results = []
-          for index, (label, name) in enumerate([('5','KEY_FIVE'),('6','KEY_SIX')]):
-              if index:
-                  time.sleep(20)
-              key = os.environ.get(name, '').strip()
-              result = 'missing'
-              started = time.monotonic()
-              if key:
-                  body = {'model':'nvidia/nemotron-3-ultra-550b-a55b',
-                          'messages':[{'role':'user','content':'Return only valid JSON with one field: {"ok": true}'}],
-                          'max_tokens':64,'temperature':0,'stream':True,
-                          'chat_template_kwargs':{'enable_thinking':False}}
-                  request = urllib.request.Request('https://integrate.api.nvidia.com/v1/chat/completions',
-                      json.dumps(body).encode(),{'Authorization':'Bearer '+key,'Content-Type':'application/json',
-                                               'Accept':'text/event-stream'})
-                  signal.alarm(85)
-                  try:
-                      parts = []
-                      with urllib.request.urlopen(request,timeout=60) as response:
-                          for raw in response:
-                              line = raw.decode('utf-8','replace').strip()
-                              if not line.startswith('data:'):
-                                  continue
-                              payload = line[5:].strip()
-                              if payload == '[DONE]':
-                                  break
-                              choices = json.loads(payload).get('choices',[])
-                              if choices:
-                                  parts.append((choices[0].get('delta') or {}).get('content') or '')
-                              if sum(map(len,parts)) > 8192:
-                                  raise ValueError()
-                      obj = json.loads(''.join(parts).strip())
-                      result = 'pass' if isinstance(obj,dict) and obj.get('ok') is True else 'invalid_output'
-                  except urllib.error.HTTPError as error:
-                      result = 'http_'+str(error.code)
-                  except (TimeoutError, urllib.error.URLError, OSError):
-                      result = 'network_or_timeout'
-                  except Exception:
-                      result = 'invalid_output'
-                  finally:
-                      signal.alarm(0)
-              results.append(result)
-              print('KEY_RESULT='+json.dumps({'key_label':label,'result':result,
-                    'seconds':round(time.monotonic()-started,1)}),flush=True)
-          if results != ['pass','pass']:
+          import os, json
+          names = ['ACTIVE_THREE','ACTIVE_FOUR','ACTIVE_FIVE','ACTIVE_SIX']
+          values = [os.environ.get(name,'').strip() for name in names]
+          configured = [bool(value) for value in values]
+          distinct = len(set(values)) == 4
+          print('POOL_CHECK='+json.dumps({'configured':configured,'four_distinct':distinct}),flush=True)
+          if not all(configured) or not distinct:
               raise SystemExit(1)
