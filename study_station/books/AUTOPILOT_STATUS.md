@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 05:41 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
+**आख़िरी update:** 20-11-2026 05:51 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 samas (10th Hindi) | 📤 push हो रहा है | 0 मिनट |
-| W2 | Chapter 11 email (12th Computer) | ✍️ लिख रहा है | 180 मिनट |
-| W3 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 84 मिनट |
-| W4 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 64 मिनट |
+| W1 | Chapter 10 paryayvachi (10th Hindi) | 🔎 review हो रहा है | 9 मिनट |
+| W2 | Chapter 11 email (12th Computer) | ✍️ लिख रहा है | 190 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 2 मिनट |
+| W4 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 74 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 139 |
-| key 4 | 103 |
+| key 3 | 145 |
+| key 4 | 110 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -49,29 +49,13 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 10 paryayvachi (Hindi) — 2 बार
-- Chapter 08 samas (Hindi) — 2 बार
-- Chapter 09 upsarg pratyay (Hindi) — 1 बार
+- Chapter 09 upsarg pratyay (Hindi) — 2 बार
 - Chapter 11 vilom (Hindi) — 1 बार
 - Chapter 07 sandhi (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 04:46:38   [anekarthi_samshrut] wrote PYQ_hi.txt (5497 chars)
-20-11 04:47:11   [upsarg_pratyay] REJECTED review fix Feynman_hi.txt: reviewer still reports - In the उपसर्ग table, the example for उप- shows "चार" → "उपचार"; the root "चार" is incorre
-20-11 04:47:27   [anekarthi_samshrut] wrote Important_Rules_hi.txt (7002 chars)
-20-11 04:48:54   [upsarg_pratyay] review Mind_Map.txt round 1: 2 issue(s): - "कृत प्रत्यय" lists "ता, त्व" as कृत suffixes, but they are actually तद्धित प्रत्यय → Remove "ता, त्व" from
-20-11 04:49:14   [upsarg_pratyay] 2026-11-19 23:19:14,313 WARNING NVIDIA rate_limited — retrying in 20s
-20-11 04:54:39   [anekarthi_samshrut] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q2 key c vs re-solve ?, Q6 key d vs re-solve a, Q7 key a vs re-solve d, Q13 key b vs re-solve ?, Q19
-20-11 04:54:59   [sandhi] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q108 key d vs re-solve ?, Q114 key c vs re-solve a, Q115 key c vs re-solve a, Q124 key b vs re-solve
-20-11 04:58:33   [sandhi] Practice_hi_Set_05.txt try 4: rejected (Q108:duplicate_options)
-20-11 04:58:33   [sandhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
-20-11 04:58:58   [sandhi] Practice_hi_Set_06.txt try 1: rejected (Q131:duplicate_options,Q133:duplicate_options,Q137:duplicate_options,Q143:duplicate_options,Q145:duplicate_opt
-20-11 04:59:21   [sandhi] Practice_hi_Set_06.txt try 2: rejected (Q137:duplicate_options,Q143:duplicate_options,Q149:duplicate_options)
-20-11 04:59:50   [anekarthi_samshrut] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q2 key a vs re-solve ?, Q7 key a vs re-solve d, Q13 key c vs re-solve ?, Q14 key d vs re-solve c, Q1
-20-11 05:06:15   [anekarthi_samshrut] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q6 key d vs re-solve b, Q13 key a vs re-solve c, Q14 key b vs re-solve c, Q21 key b vs re-solve c, Q
-20-11 05:07:15   [sandhi] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q126 key a vs re-solve c, Q128 key c vs re-solve ?, Q130 key c vs re-solve d, Q132 key d vs re-solve
-20-11 05:11:14   [anekarthi_samshrut] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q20 key a vs re-solve c, Q25 key b vs re-solve ?)
 20-11 05:11:14   [anekarthi_samshrut] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
 20-11 05:15:01   [sandhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q128 key d vs re-solve ?, Q130 key d vs re-solve c, Q132 key a vs re-solve b, Q134 key c vs re-solve
 20-11 05:15:01   [sandhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
@@ -97,4 +81,19 @@
 20-11 05:40:24   [upsarg_pratyay] review Important_Rules_hi.txt round 1: 5 issue(s): - Rule 8: The rule for उपसर्ग 'अ' and 'अन' is reversed; it states 'अ' before vowel and 'अन' before 
 20-11 05:41:40   [samas] review: 2 section(s) corrected, 0 failed
 20-11 05:41:40   [samas] written 2, failed 0; AI calls today 240/100000
+20-11 05:41:54 DONE 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas in 27 min → 7b96a788
+20-11 05:41:55 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_10_paryayvachi (OK: todo 0, problems 0)
+20-11 05:41:55   [paryayvachi] review Important_Rules_hi.txt: resumed private correction draft
+20-11 05:43:17   [anekarthi_samshrut] wrote Practice_hi_Set_02.txt (write, 25 MCQs)
+20-11 05:45:20   [paryayvachi] review Important_Rules_hi.txt round 1: 4 issue(s): - नियम २ के उदाहरण में "बालकः" संस्कृत रूप है, हिन्दी शब्द-रूप नहीं → हिन्दी रूप जैसे "बालक", "बालि
+20-11 05:47:14   [upsarg_pratyay] review Important_Rules_hi.txt round 2: 5 issue(s): - Rule 6: ल्यप् का उदाहरण "लिख → लिखना" गलत है → ल्यप् भाववाचक संज्ञा बनाता है (जैसे क्रीडा, पठन, ग
+20-11 05:49:25   [upsarg_pratyay] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम १ में अपवाद के उदाहरण "प्रति → पिर" और "उप → उब" गलत हैं; तद्भव में "प्रति" 
+20-11 05:49:25   [upsarg_pratyay] review: 1 section(s) corrected, 6 failed
+20-11 05:49:25   [upsarg_pratyay] written 1, failed 6; AI calls today 248/100000
+20-11 05:49:25 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay after 101 min: todo [] problems []
+20-11 05:49:26 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi (TODO: todo 5, problems 0)
+20-11 05:49:26   [sandhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
+20-11 05:49:45   [email] wrote Practice_en_Set_04.txt (write, 25 MCQs)
+20-11 05:49:45   [email] 2026-11-20 00:19:45,711 WARNING NVIDIA rate_limited — retrying in 20s
+20-11 05:50:19   [anekarthi_samshrut] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q51 key b vs re-solve c, Q58 key c vs re-solve d, Q71 key b vs re-solve c, Q75 key c vs re-solve d)
 ```
