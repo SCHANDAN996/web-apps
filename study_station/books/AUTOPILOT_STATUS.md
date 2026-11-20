@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 12:51 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
+**आख़िरी update:** 20-11-2026 01:07 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,23 +8,23 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 93 मिनट |
-| W10 | Chapter 14 cyber security (12th Computer) | ✍️ लिख रहा है | 92 मिनट |
-| W11 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 92 मिनट |
-| W12 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 92 मिनट |
-| W3 | Chapter 11 vilom (10th Hindi) | 🔎 review हो रहा है | 92 मिनट |
-| W4 | Chapter 17 apathit gadyansh (10th Hindi) | ✍️ लिख रहा है | 82 मिनट |
-| W6 | Chapter 12 e banking (12th Computer) | 🔎 review हो रहा है | 57 मिनट |
-| W7 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 92 मिनट |
-| W8 | Chapter 13 networking (12th Computer) | ✍️ लिख रहा है | 92 मिनट |
-| W9 | Chapter 14 muhavare lokokti (10th Hindi) | ✍️ लिख रहा है | 92 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 108 मिनट |
+| W10 | Chapter 14 cyber security (12th Computer) | ✍️ लिख रहा है | 107 मिनट |
+| W11 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 107 मिनट |
+| W12 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 107 मिनट |
+| W3 | Chapter 11 vilom (10th Hindi) | 🔎 review हो रहा है | 108 मिनट |
+| W4 | Chapter 17 apathit gadyansh (10th Hindi) | ✍️ लिख रहा है | 97 मिनट |
+| W6 | Chapter 12 e banking (12th Computer) | 🔎 review हो रहा है | 72 मिनट |
+| W7 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 107 मिनट |
+| W8 | Chapter 13 networking (12th Computer) | ✍️ लिख रहा है | 107 मिनट |
+| W9 | Chapter 14 muhavare lokokti (10th Hindi) | ✍️ लिख रहा है | 107 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 34 |
-| key 4 | 49 |
-| key 5 | 49 |
-| key 6 | 61 |
+| key 3 | 39 |
+| key 4 | 60 |
+| key 5 | 58 |
+| key 6 | 64 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -62,20 +62,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 12:24:58   [vakya_shuddhi] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q3 key a vs re-solve ?, Q4 key b vs re-solve ?, Q9 key c vs re-solve ?, Q12 key b vs re-solve ?, Q21
-20-11 12:24:58   [vakya_shuddhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
-20-11 12:25:29   [ek_shabd] Practice_hi_Set_03.txt try 1: rejected (parsed 24 questions, numbers 51…75)
-20-11 12:25:48   [upsarg_pratyay] review Flashcards_hi.txt round 1: 4 issue(s): - Card 14 incorrectly claims "-कार" is a कर्तृ (agent) suffix and cites "कृ+कार=कारक" as an example; "का
-20-11 12:26:01   [vakya_shuddhi] Practice_hi_Set_02.txt try 1: rejected (Q37:duplicate_options)
-20-11 12:26:34   [networking] wrote PYQ_en.txt (5741 chars)
-20-11 12:27:39   [upsarg_pratyay] review Flashcards_hi.txt round 2: 3 issue(s): - Card 3: उदाहरण "सु+" + "ंदर" = "सुंदर" गलत है → सही उदाहरण: "सु+" + "ंदर" = "सुंदर"
-20-11 12:28:01   [vilom] REJECTED review fix Mind_Map.txt: reviewer still reports - D1 में "सुन्दर-कुरूप" को उपसर्ग-आधारित विलोम बताया गया है, जबकि "कुरूप" "सुन्दर" में उपसर्ग
-20-11 12:28:01   [vilom] review Important_Rules_hi.txt: resumed private correction draft
-20-11 12:28:22   [muhavare_lokokti] Practice_hi_Set_01.txt try 1: rejected (parsed 24 questions, numbers 1…25)
-20-11 12:28:31   [ek_shabd] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q66 key d vs re-solve a, Q73 key a vs re-solve b)
-20-11 12:28:50   [rikt_sthan_vakya_kram] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q32 key d vs re-solve a, Q33 key a vs re-solve b, Q35 key a vs re-solve b, Q37 key b vs re-solve a, 
-20-11 12:28:51   [networking] wrote PYQ_hi.txt (7219 chars)
-20-11 12:29:16   [cyber_security] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 20-11 12:31:41   [e_banking] review Content_en.txt round 1: 4 issue(s): - NEFT settlement description states "Half-hourly batches (23 settlements/day, 00:30–23:30)" → Since Decemb
 20-11 12:31:42   [networking] wrote Important_Rules_en.txt (7373 chars)
 20-11 12:32:28   [muhavare_lokokti] Practice_hi_Set_01.txt try 2: rejected (parsed 24 questions, numbers 1…25)
@@ -102,4 +88,18 @@
 20-11 12:50:10   [e_banking] REJECTED review fix Content_en.txt: reviewer still reports - Quick Revision Table lists NEFT minimum as ₹1, but the section text and RBI guidelines st
 20-11 12:50:15   [muhavare_lokokti] wrote Practice_hi_Set_01.txt (write, 25 MCQs)
 20-11 12:50:43   [vakya_shuddhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q48 key b vs re-solve a)
+20-11 12:52:24   [e_banking] review Content_hi.txt round 1: 2 issue(s): - NEFT availability shown as "बैंक कार्य दिवस, प्रति घंटा बैच" in comparison table and quick recap → NEFT i
+20-11 12:54:22   [ek_shabd] wrote Practice_hi_Set_05.txt (write, 25 MCQs)
+20-11 12:55:04   [apathit_gadyansh] wrote Practice_hi_Set_03.txt (write, 25 MCQs)
+20-11 12:55:14   [sandhi] Practice_hi_Set_02.txt try 2: rejected (Q50:duplicate_options)
+20-11 12:55:52   [networking] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+20-11 12:56:48   [vakya_shuddhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q50 key c vs re-solve b)
+20-11 12:56:48   [vakya_shuddhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
+20-11 12:57:34   [e_banking] review Key_Facts_hi.txt round 1: 1 issue(s): - RTGS described as available only during banking hours → RTGS has been available 24×7 since December 202
+20-11 12:58:52   [cyber_security] wrote Practice_en_Set_02.txt (write, 25 MCQs)
+20-11 12:59:40   [vilom] review Important_Rules_hi.txt round 1: 2 issue(s): - नियम १५ की तालिका में भ्रान्ति “‘अ‑’ हर शब्द में लगता है” का सुधार गलत है: यह कहता है कि ‘अ‑’ केव
+20-11 13:00:54   [rikt_sthan_vakya_kram] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q37 key b vs re-solve c, Q38 key a vs re-solve b)
+20-11 13:02:19   [muhavare_lokokti] wrote Practice_hi_Set_02.txt (write, 25 MCQs)
+20-11 13:02:23   [e_banking] review Feynman_en.txt round 1: 1 issue(s): - The answer to Recall Question 2 states IMPS for a ₹10 lakh instant transfer, but IMPS has a per-transacti
+20-11 13:05:38   [cyber_security] wrote Practice_hi_Set_02.txt (translate from Practice_en_Set_02.txt, 25 MCQs)
 ```
