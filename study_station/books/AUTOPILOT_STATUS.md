@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 05:00 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 04:41 PM
+**आख़िरी update:** 20-11-2026 05:14 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 04:41 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,21 +8,20 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 18 मिनट |
-| W2 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 18 मिनट |
-| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | 🔎 review हो रहा है | 18 मिनट |
-| W4 | Chapter 12 e banking (12th Computer) | 🔎 review हो रहा है | 18 मिनट |
-| W5 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 18 मिनट |
-| W6 | Chapter 14 muhavare lokokti (10th Hindi) | 📤 push हो रहा है | 0 मिनट |
-| W7 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 18 मिनट |
-| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 18 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 32 मिनट |
+| W2 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
+| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
+| W4 | Chapter 12 e banking (12th Computer) | 🔎 review हो रहा है | 31 मिनट |
+| W5 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
+| W7 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
+| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 9 |
-| key 4 | 14 |
-| key 5 | 10 |
-| key 6 | 10 |
+| key 3 | 11 |
+| key 4 | 21 |
+| key 5 | 16 |
+| key 6 | 18 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -55,22 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 16:42:07   [anekarthi_samshrut] review Content_hi.txt: resumed private correction draft
-20-11 16:42:11 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_12_e_banking (OK: todo 0, problems 0)
-20-11 16:42:12   [e_banking] review Content_en.txt: resumed private correction draft
-20-11 16:42:16 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd (TODO: todo 3, problems 0)
-20-11 16:42:17   [ek_shabd] Hindi-only writer: direct Hindi content; English generation and translation disabled
-20-11 16:42:21 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_14_muhavare_lokokti (OK: todo 0, problems 0)
-20-11 16:42:22   [muhavare_lokokti] review Key_Facts_hi.txt: resumed private correction draft
-20-11 16:42:27 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi (TODO: todo 6, problems 0)
-20-11 16:42:27   [vakya_shuddhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
-20-11 16:42:31 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram (TODO: todo 6, problems 0)
-20-11 16:42:32   [rikt_sthan_vakya_kram] Hindi-only writer: direct Hindi content; English generation and translation disabled
-20-11 16:42:50 worker 8: nothing left
-20-11 16:43:04 worker 9: nothing left
-20-11 16:43:18   [ek_shabd] Practice_hi_Set_01.txt try 1: rejected (parsed 24 questions, numbers 1…25)
-20-11 16:43:18 worker 10: nothing left
-20-11 16:43:33 worker 11: nothing left
 20-11 16:43:36   [sandhi] Practice_hi_Set_01.txt try 1: rejected (parsed 24 questions, numbers 1…25)
 20-11 16:43:48   [vakya_shuddhi] Practice_hi_Set_01.txt try 1: rejected (Q18:leaked_reasoning,Q20:leaked_reasoning,Q20:duplicate_options)
 20-11 16:44:16   [ek_shabd] Practice_hi_Set_01.txt try 2: rejected (parsed 24 questions, numbers 1…25)
@@ -95,4 +78,20 @@
 20-11 16:59:54   [muhavare_lokokti] review Important_Rules_hi.txt: resumed private correction draft
 20-11 17:00:42   [muhavare_lokokti] review: 3 section(s) corrected, 0 failed
 20-11 17:00:42   [muhavare_lokokti] written 3, failed 0; AI calls today 46/100000
+20-11 17:00:55 DONE 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_14_muhavare_lokokti in 18 min → 7abf6736
+20-11 17:01:10 worker 5: nothing left
+20-11 17:02:01   [vakya_shuddhi] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q7 key b vs re-solve a, Q19 key b vs re-solve ?)
+20-11 17:02:32   [anekarthi_samshrut] review Feynman_hi.txt round 1: 2 issue(s): - The homophone pair बड़/वड़ with meaning वड़ (बरगद का पेड़) is not a standard Hindi homophone pair → Remov
+20-11 17:04:48   [e_banking] review Flashcards_hi.txt: resumed private correction draft
+20-11 17:05:39   [e_banking] review Flashcards_hi.txt round 1: 1 issue(s): - Card 12 states limited liability ₹5,000-25,000; correct is ₹5,000 for basic savings accounts and ₹10,0
+20-11 17:06:50   [ek_shabd] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q53 key c vs re-solve a, Q59 key d vs re-solve b, Q69 key b vs re-solve a)
+20-11 17:07:17   [anekarthi_samshrut] review Feynman_hi.txt round 2: 1 issue(s): - The pair "बड़ / वट" is incorrectly classified as समश्रुत भिन्नार्थक (homophones) in Section 2 table, Flas
+20-11 17:09:28   [anekarthi_samshrut] REJECTED review fix Feynman_hi.txt: reviewer still reports - The homophone pair "करण/कारण" is incorrectly classified as समश्रुत भिन्नार्थक; in standar
+20-11 17:09:28   [anekarthi_samshrut] review Mind_Map.txt: resumed private correction draft
+20-11 17:10:33   [anekarthi_samshrut] review Mind_Map.txt round 1: 4 issue(s): - D5: "फल: परिणाम / फलन" → "फलन" is not a meaning of "फल"; it is a separate word (function). Correct to "फल: 
+20-11 17:11:18   [rikt_sthan_vakya_kram] wrote Practice_hi_Set_01.txt (write, 25 MCQs)
+20-11 17:12:25   [e_banking] review PYQ_en.txt: resumed private correction draft
+20-11 17:12:49   [anekarthi_samshrut] review Mind_Map.txt round 2: 2 issue(s): - D7: "माँग: इच्छा / मांगना (क्रिया)" uses the infinitive "मांगना" instead of the verb root "माँग" → should b
+20-11 17:13:19   [sandhi] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q6 key b vs re-solve ?, Q12 key d vs re-solve ?, Q23 key a vs re-solve c)
+20-11 17:13:19   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
 ```
