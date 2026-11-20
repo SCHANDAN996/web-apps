@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 03:37 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
+**आख़िरी update:** 20-11-2026 03:39 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,19 +8,18 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W11 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 258 मिनट |
-| W12 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 258 मिनट |
-| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | 🔎 review हो रहा है | 1 मिनट |
-| W4 | Chapter 17 apathit gadyansh (10th Hindi) | 📤 push हो रहा है | 0 मिनट |
-| W7 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 40 मिनट |
-| W8 | Chapter 13 networking (12th Computer) | 🔎 review हो रहा है | 41 मिनट |
+| W11 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 260 मिनट |
+| W12 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 260 मिनट |
+| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | 🔎 review हो रहा है | 3 मिनट |
+| W7 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 42 मिनट |
+| W8 | Chapter 13 networking (12th Computer) | 🔎 review हो रहा है | 43 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
 | key 3 | 99 |
 | key 4 | 140 |
-| key 5 | 144 |
-| key 6 | 133 |
+| key 5 | 145 |
+| key 6 | 136 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -65,10 +64,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 15:07:05   [sandhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q128 key b vs re-solve d, Q141 key c vs re-solve b, Q144 key a vs re-solve b, Q145 key d vs re-solve
-20-11 15:07:10   [upsarg_pratyay] review Flashcards_hi.txt round 1: 1 issue(s): - Card 11: Example “कृ + नीय = करणीय” is incorrect → In Hindi the suffix -नीय attaches to the root “कर” 
-20-11 15:10:17   [e_banking] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम 1 का अपवाद संपर्क-रहित कार्ड लेनदेन को ऑनलाइन लेनदेन के 2FA नियम का अपवाद बत
-20-11 15:10:17   [e_banking] review: 6 section(s) corrected, 5 failed
 20-11 15:10:17   [e_banking] written 6, failed 5; AI calls today 478/100000
 20-11 15:10:17 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_12_e_banking after 231 min: todo [] problems []
 20-11 15:10:34 worker 5: nothing left
@@ -105,4 +100,8 @@
 20-11 15:37:52 worker 0: nothing left
 20-11 15:37:57   [apathit_gadyansh] review: 3 section(s) corrected, 0 failed
 20-11 15:37:57   [apathit_gadyansh] written 3, failed 0; AI calls today 517/100000
+20-11 15:38:14 DONE 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_17_apathit_gadyansh in 248 min → ebe8607a
+20-11 15:38:14 worker 3: nothing left
+20-11 15:38:24   [anekarthi_samshrut] review Content_hi.txt round 1: 7 issue(s): - "बादल" entry in the polysemous table lists meanings "बदली (धुंध)" and "बदनाम (अपमानित)" which are separat
+20-11 15:39:57   [ek_shabd] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q14 key a vs re-solve b, Q19 key a vs re-solve c, Q20 key c vs re-solve b)
 ```
