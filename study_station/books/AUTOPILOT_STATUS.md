@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 05:14 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 04:41 PM
+**आख़िरी update:** 20-11-2026 05:29 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 04:41 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,20 +8,20 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 32 मिनट |
-| W2 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
-| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | 🔎 review हो रहा है | 31 मिनट |
-| W4 | Chapter 12 e banking (12th Computer) | 🔎 review हो रहा है | 31 मिनट |
-| W5 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
-| W7 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
-| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 47 मिनट |
+| W2 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 47 मिनट |
+| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | 🔎 review हो रहा है | 47 मिनट |
+| W4 | Chapter 12 e banking (12th Computer) | 🔎 review हो रहा है | 47 मिनट |
+| W5 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 46 मिनट |
+| W7 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 46 मिनट |
+| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 46 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 11 |
-| key 4 | 21 |
-| key 5 | 16 |
-| key 6 | 18 |
+| key 3 | 21 |
+| key 4 | 24 |
+| key 5 | 24 |
+| key 6 | 21 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -54,23 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 16:43:36   [sandhi] Practice_hi_Set_01.txt try 1: rejected (parsed 24 questions, numbers 1…25)
-20-11 16:43:48   [vakya_shuddhi] Practice_hi_Set_01.txt try 1: rejected (Q18:leaked_reasoning,Q20:leaked_reasoning,Q20:duplicate_options)
-20-11 16:44:16   [ek_shabd] Practice_hi_Set_01.txt try 2: rejected (parsed 24 questions, numbers 1…25)
-20-11 16:44:58   [upsarg_pratyay] review Flashcards_hi.txt round 1: 1 issue(s): - Card 14: The example “नृ + तृ = नर्तृ” uses the incorrect root “नृ” (which means ‘man’); the verb root
-20-11 16:45:23   [sandhi] Practice_hi_Set_01.txt try 2: rejected (Q11:duplicate_options,Q12:duplicate_options,Q15:duplicate_options,Q21:duplicate_options,Q24:duplicate_options)
-20-11 16:45:53   [anekarthi_samshrut] review Content_hi.txt round 1: 2 issue(s): - "माल/मॉल" युग्म को "व्यंजन भेद वाले युग्म" में रखा गया है, जबकि अंतर व्यंजन का नहीं चंद्रबिंदु (अनुनासिकत
-20-11 16:47:49   [ek_shabd] wrote Practice_hi_Set_01.txt (write, 25 MCQs)
-20-11 16:50:54   [e_banking] review Content_en.txt round 1: 1 issue(s): - Quick Revision Table lists NEFT minimum as ₹1 → NEFT has no minimum limit (RBI states no minimum)
-20-11 16:51:22   [ek_shabd] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q67 key a vs re-solve b, Q71 key d vs re-solve a)
-20-11 16:51:59   [rikt_sthan_vakya_kram] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q8 key a vs re-solve c, Q16 key b vs re-solve a, Q17 key d vs re-solve a, Q20 key a vs re-solve b, Q
-20-11 16:52:35   [anekarthi_samshrut] review Content_hi.txt round 2: 1 issue(s): - The word "बैंक" is incorrectly classified as an अनेकार्थी word with the meaning "नदी का किनारा/तट" (river
-20-11 16:54:29   [e_banking] review Content_en.txt round 2: 1 issue(s): - Security Framework point 4 omits the trigger for zero liability and uses "days" instead of "working days"
-20-11 16:54:51   [anekarthi_samshrut] review Key_Facts_hi.txt: resumed private correction draft
-20-11 16:55:30   [muhavare_lokokti] review Feynman_hi.txt: resumed private correction draft
-20-11 16:55:37   [sandhi] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q4 key c vs re-solve a, Q6 key a vs re-solve c, Q7 key b vs re-solve a, Q8 key d vs re-solve b, Q13 
-20-11 16:56:13   [vakya_shuddhi] Practice_hi_Set_01.txt try 2: rejected (Q20:duplicate_options)
-20-11 16:56:46   [anekarthi_samshrut] review Key_Facts_hi.txt round 1: 8 issue(s): - Point 5: “वन / बन” is not a समश्रुत भिन्नार्थक pair (pronunciations differ) → replace with a true homop
 20-11 16:56:46   [ek_shabd] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q53 key c vs re-solve a, Q59 key b vs re-solve a, Q67 key d vs re-solve b, Q68 key c vs re-solve a)
 20-11 16:56:58   [upsarg_pratyay] review Flashcards_hi.txt round 2: 1 issue(s): - Card 4: Rule for 'दु-' becoming 'दुः' incorrectly includes 'ह' (which is ghosh/voiced) and omits other
 20-11 16:58:10   [muhavare_lokokti] review Feynman_hi.txt round 1: 1 issue(s): - Question 5 has three correct options (क, ग, घ) but the answer key selects only (क) with the invalid rule 
@@ -94,4 +77,21 @@
 20-11 17:12:49   [anekarthi_samshrut] review Mind_Map.txt round 2: 2 issue(s): - D7: "माँग: इच्छा / मांगना (क्रिया)" uses the infinitive "मांगना" instead of the verb root "माँग" → should b
 20-11 17:13:19   [sandhi] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q6 key b vs re-solve ?, Q12 key d vs re-solve ?, Q23 key a vs re-solve c)
 20-11 17:13:19   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
+20-11 17:15:04   [e_banking] review PYQ_en.txt round 1: 2 issue(s): - In "Question Types Asked", the bullet "Limit/ceiling questions" uses "current NPCI guidelines" without a year
+20-11 17:16:07   [upsarg_pratyay] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 14: The example “पा + तृ = पातृ (संस्कृत) / पिता (हिंदी)” is incorrect; “पिता” de
+20-11 17:16:07   [upsarg_pratyay] review Important_Rules_hi.txt: resumed private correction draft
+20-11 17:16:08   [vakya_shuddhi] wrote Practice_hi_Set_01.txt (write, 25 MCQs)
+20-11 17:16:34   [sandhi] Practice_hi_Set_02.txt try 1: rejected (Q32:duplicate_options,Q38:duplicate_options)
+20-11 17:18:03   [e_banking] review PYQ_hi.txt: resumed private correction draft
+20-11 17:19:04   [upsarg_pratyay] review Important_Rules_hi.txt round 1: 1 issue(s): - Rule 11 misclassifies 'सुरभित' as an example of 'सुर' before a vowel; 'रभित' begins with a conson
+20-11 17:19:38   [e_banking] review PYQ_hi.txt round 1: 1 issue(s): - RTGS न्यूनतम राशि का इतिहास गलत है: पाठ में लिखा है "पहले ₹1 लाख था, दिसंबर 2020 से ₹2 लाख" → वास्तव में RTGS
+20-11 17:19:50   [anekarthi_samshrut] REJECTED review fix Mind_Map.txt: reviewer still reports - E4 example “बाज: बाजना (वाद्य बजाना, क्रिया)” is not a valid समश्रुत भिन्नार्थक pair becaus
+20-11 17:19:50   [anekarthi_samshrut] review Flashcards_hi.txt: resumed private correction draft
+20-11 17:21:57   [anekarthi_samshrut] review PYQ_hi.txt: resumed private correction draft
+20-11 17:23:39   [e_banking] review PYQ_hi.txt round 2: 2 issue(s): - RTGS न्यूनतम सीमा 2022 में ₹1 लाख होने का दावा गलत है → RTGS की न्यूनतम सीमा ₹2 लाख ही है (2024 तक कोई कमी नह
+20-11 17:24:16   [rikt_sthan_vakya_kram] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q29 key d vs re-solve a, Q30 key a vs re-solve b, Q32 key b vs re-solve a, Q42 key a vs re-solve b, 
+20-11 17:26:18   [upsarg_pratyay] review Important_Rules_hi.txt round 2: 4 issue(s): - Rule 11 incorrectly classifies “सु”/“सुर” and gives wrong examples: “सुरूप”, “सुरभि”, “सुरभित” ar
+20-11 17:26:36   [e_banking] review Important_Rules_hi.txt: resumed private correction draft
+20-11 17:28:25   [ek_shabd] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q53 key c vs re-solve a, Q59 key d vs re-solve b, Q69 key b vs re-solve a)
+20-11 17:28:25   [ek_shabd] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
 ```
