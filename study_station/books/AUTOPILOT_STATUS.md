@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 04:58 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 04:41 PM
+**आख़िरी update:** 20-11-2026 05:00 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 04:41 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,21 +8,21 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 16 मिनट |
-| W2 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 16 मिनट |
-| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | 🔎 review हो रहा है | 16 मिनट |
-| W4 | Chapter 12 e banking (12th Computer) | 🔎 review हो रहा है | 16 मिनट |
-| W5 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 16 मिनट |
-| W6 | Chapter 14 muhavare lokokti (10th Hindi) | 🔎 review हो रहा है | 16 मिनट |
-| W7 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 16 मिनट |
-| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 16 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 18 मिनट |
+| W2 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 18 मिनट |
+| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | 🔎 review हो रहा है | 18 मिनट |
+| W4 | Chapter 12 e banking (12th Computer) | 🔎 review हो रहा है | 18 मिनट |
+| W5 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 18 मिनट |
+| W6 | Chapter 14 muhavare lokokti (10th Hindi) | 📤 push हो रहा है | 0 मिनट |
+| W7 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 18 मिनट |
+| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 18 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 8 |
-| key 4 | 11 |
-| key 5 | 9 |
-| key 6 | 9 |
+| key 3 | 9 |
+| key 4 | 14 |
+| key 5 | 10 |
+| key 6 | 10 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -50,15 +50,11 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 20-11 17:00 — 10th Hindi · Chapter 14 muhavare lokokti
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 16:41:57   [sandhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
-20-11 16:42:01 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay (OK: todo 0, problems 0)
-20-11 16:42:01   [upsarg_pratyay] review Flashcards_hi.txt: resumed private correction draft
-20-11 16:42:06 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_12_anekarthi_samshrut (OK: todo 0, problems 0)
 20-11 16:42:07   [anekarthi_samshrut] review Content_hi.txt: resumed private correction draft
 20-11 16:42:11 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_12_e_banking (OK: todo 0, problems 0)
 20-11 16:42:12   [e_banking] review Content_en.txt: resumed private correction draft
@@ -95,4 +91,8 @@
 20-11 16:56:46   [ek_shabd] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q53 key c vs re-solve a, Q59 key b vs re-solve a, Q67 key d vs re-solve b, Q68 key c vs re-solve a)
 20-11 16:56:58   [upsarg_pratyay] review Flashcards_hi.txt round 2: 1 issue(s): - Card 4: Rule for 'दु-' becoming 'दुः' incorrectly includes 'ह' (which is ghosh/voiced) and omits other
 20-11 16:58:10   [muhavare_lokokti] review Feynman_hi.txt round 1: 1 issue(s): - Question 5 has three correct options (क, ग, घ) but the answer key selects only (क) with the invalid rule 
+20-11 16:59:10   [anekarthi_samshrut] review Feynman_hi.txt: resumed private correction draft
+20-11 16:59:54   [muhavare_lokokti] review Important_Rules_hi.txt: resumed private correction draft
+20-11 17:00:42   [muhavare_lokokti] review: 3 section(s) corrected, 0 failed
+20-11 17:00:42   [muhavare_lokokti] written 3, failed 0; AI calls today 46/100000
 ```
