@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 08:01 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 04:41 PM
+**आख़िरी update:** 20-11-2026 08:16 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 04:41 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,16 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 12 anekarthi samshrut (10th Hindi) | 🔎 review हो रहा है | 16 मिनट |
-| W7 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 199 मिनट |
-| W8 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 9 मिनट |
+| W1 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 5 मिनट |
+| W7 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 214 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 52 |
-| key 4 | 51 |
-| key 5 | 63 |
-| key 6 | 49 |
+| key 3 | 56 |
+| key 4 | 55 |
+| key 5 | 66 |
+| key 6 | 51 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -50,30 +49,15 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 13 ek shabd (Hindi) — 1 बार
+- Chapter 13 ek shabd (Hindi) — 2 बार
 - Chapter 09 upsarg pratyay (Hindi) — 2 बार
-- Chapter 12 anekarthi samshrut (Hindi) — 1 बार
+- Chapter 12 anekarthi samshrut (Hindi) — 2 बार
 - Chapter 16 rikt sthan vakya kram (Hindi) — 1 बार
 - Chapter 07 sandhi (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 19:29:52   [sandhi] Practice_hi_Set_06.txt try 2: rejected (Q127:duplicate_options,Q131:duplicate_options,Q137:duplicate_options,Q139:duplicate_options,Q141:duplicate_opt
-20-11 19:33:31   [vakya_shuddhi] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q103 key c vs re-solve ?, Q109 key d vs re-solve ?, Q119 key c vs re-solve a, Q120 key a vs re-solve
-20-11 19:36:35   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q147 key d vs re-solve a)
-20-11 19:36:35   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
-20-11 19:36:35   [rikt_sthan_vakya_kram] written 1, failed 5; AI calls today 190/100000
-20-11 19:36:35 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram after 174 min: todo ['Set 02 hi: todo', 'Set 03 hi: todo', 'Set 04 hi: todo', 'Set 05 hi: todo'] problems []
-20-11 19:36:36 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay (OK: todo 0, problems 0)
-20-11 19:36:36   [upsarg_pratyay] review Flashcards_hi.txt: resumed private correction draft
-20-11 19:40:07   [upsarg_pratyay] review Flashcards_hi.txt round 1: 1 issue(s): - Card 4: Example "दुराचार" listed under Rule 2 (घोष व्यंजन) but it begins with vowel 'आ' (स्वर) → Move 
-20-11 19:42:35   [vakya_shuddhi] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q103 key a vs re-solve ?, Q109 key c vs re-solve ?, Q119 key d vs re-solve a, Q120 key a vs re-solve
-20-11 19:43:52   [sandhi] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q129 key b vs re-solve a, Q134 key d vs re-solve ?, Q135 key c vs re-solve ?, Q136 key c vs re-solve
-20-11 19:45:07   [sandhi] Practice_hi_Set_06.txt try 4: rejected (Q128:duplicate_options,Q150:duplicate_options)
-20-11 19:45:07   [sandhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
-20-11 19:45:07   [sandhi] written 0, failed 5; AI calls today 195/100000
-20-11 19:45:07 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi after 183 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo'] problems []
 20-11 19:45:08 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_12_anekarthi_samshrut (OK: todo 0, problems 0)
 20-11 19:45:08   [anekarthi_samshrut] review Feynman_hi.txt: resumed private correction draft
 20-11 19:45:26   [upsarg_pratyay] review Flashcards_hi.txt round 2: 3 issue(s): - Card 4: The rule for “दु-” incorrectly lists ह (ha) among the voiced consonants that trigger the form 
@@ -99,4 +83,19 @@
 20-11 19:59:17   [anekarthi_samshrut] REJECTED review fix Mind_Map.txt: reviewer still reports - D4: "रंग: वर्ण / रंगना (क्रिया)" is not a single word with multiple meanings; "रंगना" is a 
 20-11 19:59:17   [anekarthi_samshrut] review PYQ_hi.txt: resumed private correction draft
 20-11 20:00:32   [ek_shabd] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q60 key b vs re-solve a, Q68 key d vs re-solve b)
+20-11 20:02:14   [anekarthi_samshrut] review PYQ_hi.txt round 1: 4 issue(s): - Section 1.1 example: option (b) “खेती की भूमि” is not a meaning of “कलम” → replace with a valid meaning (e.g.
+20-11 20:05:24   [anekarthi_samshrut] review PYQ_hi.txt round 2: 4 issue(s): - Section 1.2 example for समश्रुत भिन्नार्थक uses बढ़, बड़ा, बड़, बडा which are not homophones (different vowel
+20-11 20:06:17   [ek_shabd] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q60 key c vs re-solve a, Q64 key b vs re-solve a)
+20-11 20:08:41   [vakya_shuddhi] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q129 key c vs re-solve d, Q134 key d vs re-solve c, Q135 key b vs re-solve ?, Q140 key a vs re-solve
+20-11 20:10:08   [ek_shabd] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q64 key c vs re-solve b, Q75 key d vs re-solve c)
+20-11 20:10:54   [anekarthi_samshrut] review: 1 section(s) corrected, 2 failed
+20-11 20:10:54   [anekarthi_samshrut] written 1, failed 2; AI calls today 225/100000
+20-11 20:10:54 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_12_anekarthi_samshrut after 26 min: todo [] problems []
+20-11 20:10:55 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram (TODO: todo 5, problems 0)
+20-11 20:10:56   [rikt_sthan_vakya_kram] Hindi-only writer: direct Hindi content; English generation and translation disabled
+20-11 20:14:57   [ek_shabd] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q57 key b vs re-solve a)
+20-11 20:14:57   [ek_shabd] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+20-11 20:14:57   [ek_shabd] written 0, failed 1; AI calls today 228/100000
+20-11 20:14:57 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd after 22 min: todo ['Set 03 hi: todo'] problems []
+20-11 20:15:13 worker 7: nothing left
 ```
