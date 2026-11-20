@@ -1,14 +1,12 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 04:25 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
+**आख़िरी update:** 20-11-2026 04:40 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | 🔎 review हो रहा है | 49 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
@@ -51,7 +49,7 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 12 anekarthi samshrut (Hindi) — 1 बार
+- Chapter 12 anekarthi samshrut (Hindi) — 2 बार
 - Chapter 09 upsarg pratyay (Hindi) — 3 बार
 - Chapter 13 ek shabd (Hindi) — 2 बार
 - Chapter 14 muhavare lokokti (Hindi) — 1 बार
@@ -63,11 +61,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 15:57:17   [vakya_shuddhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q141 key a vs re-solve ?, Q146 key c vs re-solve d, Q147 key a vs re-solve ?)
-20-11 15:59:28   [ek_shabd] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q54 key b vs re-solve c, Q65 key a vs re-solve d)
-20-11 16:00:04   [anekarthi_samshrut] REJECTED review fix Feynman_hi.txt: reviewer still reports - "वड़" को बरगद के पेड़ के लिए मानक हिन्दी शब्द बताना गलत है → मानक हिन्दी में बरगद के लिए 
-20-11 16:00:38   [networking] review Important_Rules_hi.txt round 1: 2 issue(s): - नियम 5 में हिंदी वाक्यांश "256 एड्रेस (2 होस्ट के लिए प्रयोग योग्य: 254)" गलत है → सही: "256 एड्र
-20-11 16:01:34   [anekarthi_samshrut] review Mind_Map.txt round 1: 3 issue(s): - D1 "कलम: लेखनी / बाड़ा" → कलम का अर्थ 'लेखनी' या 'कलम (पौधे की कटिंग)' होता है, 'बाड़ा' नहीं; बाड़ा का अर्थ
 20-11 16:01:52   [networking] review: 5 section(s) corrected, 0 failed
 20-11 16:01:52   [networking] written 5, failed 0; AI calls today 573/100000
 20-11 16:02:08 DONE 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_13_networking in 283 min → 85b59e9f
@@ -103,4 +96,9 @@
 20-11 16:19:45   [anekarthi_samshrut] REJECTED review fix PYQ_hi.txt: reviewer still reports - तालिका (खंड 2) में 'उपसर्ग/प्रत्यय परिवर्तन' पंक्ति के उदाहरण (अनर्थ/अन्यर्थ, सुन्दर/सुन्दरता
 20-11 16:22:05   [anekarthi_samshrut] review Important_Rules_hi.txt round 1: 2 issue(s): - नियम २ में समश्रुत भिन्नार्थक का उदाहरण "फल" (परिणाम) बनाम "फळ" (मराठी/बोली) गलत है क्योंकि "फळ" 
 20-11 16:24:02   [anekarthi_samshrut] review Important_Rules_hi.txt round 2: 1 issue(s): - Quick revision table: for 'मुख', the identification formula cites 'मुख्य द्वार' (which uses the d
+20-11 16:27:10   [anekarthi_samshrut] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 5: The example for 'चल' as adjective (विशेषण/अव्यय) — "यह चल नहीं सकता" — is
+20-11 16:27:10   [anekarthi_samshrut] review: 0 section(s) corrected, 7 failed
+20-11 16:27:10   [anekarthi_samshrut] written 0, failed 7; AI calls today 602/100000
+20-11 16:27:10 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_12_anekarthi_samshrut after 163 min: todo [] problems []
+20-11 16:27:10 worker 2: nothing left
 ```
