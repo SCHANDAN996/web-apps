@@ -1,0 +1,149 @@
+51. Which of the following is a type of malware that replicates itself by attaching to executable files?
+(a) Trojan Horse (b) Worm (c) Virus (d) Spyware
+Answer: (c)
+Solution: A worm spreads independently across networks without needing a host file, while a Trojan disguises itself as legitimate software; spyware secretly monitors user activity. A virus specifically requires a host executable to replicate, so the answer is Virus.
+Source: NCERT Class 10 Computer Science
+
+52. What does the "S" in HTTPS stand for?
+(a) System (b) Socket (c) Standard (d) Secure
+Answer: (d)
+Solution: HTTPS uses TLS/SSL to encrypt HTTP traffic; the "S" explicitly denotes Secure. Socket refers to a network endpoint, Standard and System are unrelated expansions, so the answer is Secure.
+Source: Microsoft Learn – HTTPS Overview
+
+53. Which attack involves tricking a user into revealing credentials through a fake login page?
+(a) Brute Force (b) Man-in-the-Middle (c) SQL Injection (d) Phishing
+Answer: (d)
+Solution: Brute force tries all password combinations; SQL injection targets database queries; Man-in-the-Middle intercepts communication. Phishing specifically uses deceptive pages or emails to steal credentials, so the answer is Phishing.
+Source: CERT-In Advisory CIAD-2023-001
+
+54. A firewall primarily operates at which OSI layer to filter traffic based on IP addresses and ports?
+(a) Layer 2 (b) Layer 3 (c) Layer 7 (d) Layer 4
+Answer: (d)
+Solution: Layer 2 filters MAC addresses; Layer 3 handles IP routing; Layer 7 inspects application content. Traditional packet-filtering firewalls work at Layer 4 (Transport) using port numbers, so the answer is Layer 4.
+Source: NCERT Class 12 Computer Science
+
+55. Which encryption method uses a single shared key for both encryption and decryption?
+(a) Asymmetric Encryption (b) Symmetric Encryption (c) Hashing (d) Digital Signature
+Answer: (b)
+Solution: Asymmetric encryption uses a public-private key pair; hashing is one-way; digital signatures verify authenticity. Symmetric encryption (e.g., AES) uses one shared secret key for both operations, so the answer is Symmetric Encryption.
+Source: Microsoft Support – Encryption Basics
+
+56. What is the primary purpose of a VPN (Virtual Private Network)?
+(a) Create an encrypted tunnel over public networks (b) Block malicious websites (c) Increase internet speed (d) Manage passwords
+Answer: (a)
+Solution: VPNs do not inherently speed up connections or block sites; password managers handle credentials. A VPN encrypts traffic between the user and a private network across the public internet, so the answer is Create an encrypted tunnel over public networks.
+Source: RBI Cyber Security Framework
+
+57. Which social engineering technique involves an attacker pretending to be IT support to gain system access?
+(a) Pretexting (b) Tailgating (c) Shoulder Surfing (d) Dumpster Diving
+Answer: (a)
+Solution: Tailgating is physical unauthorized entry; shoulder surfing observes screens; dumpster diving searches trash. Pretexting creates a fabricated scenario (e.g., fake IT call) to extract information, so the answer is Pretexting.
+Source: CERT-In Security Awareness Guidelines
+
+58. Ransomware typically demands payment in which form to decrypt victim files?
+(a) Bank Transfer (b) UPI (c) Gift Cards (d) Cryptocurrency
+Answer: (d)
+Solution: Bank transfers and UPI are traceable; gift cards are used in some scams but not standard for ransomware. Cryptocurrency provides pseudonymity preferred by attackers, so the answer is Cryptocurrency.
+Source: CERT-In Advisory CIAD-2022-004
+
+59. What does 2FA (Two-Factor Authentication) combine?
+(a) Two passwords (b) Username + Password (c) Password + OTP (d) Biometric + PIN
+Answer: (c)
+Solution: Two passwords are still single-factor (knowledge); username+password is single-factor; biometric+PIN is valid but not the most common implementation. 2FA typically combines something you know (password) with something you have (OTP), so the answer is Password + OTP.
+Source: RBI Master Direction – Digital Payment Security Controls
+
+60. Which Indian agency is the national nodal agency for responding to cyber security incidents?
+(a) NCIIPC (b) CERT-In (c) NIA (d) Cyber Crime Cell
+Answer: (b)
+Solution: NCIIPC protects critical infrastructure; NIA investigates terrorism; Cyber Crime Cells are state-level police units. CERT-In (Indian Computer Emergency Response Team) is the designated national incident response agency under IT Act, so the answer is CERT-In.
+Source: Information Technology Act, 2000 (Amended 2008)
+
+61. A zero-day vulnerability refers to a flaw that is:
+(a) Unknown to the vendor and unpatched (b) Discovered on day zero of software release (c) Patched within 24 hours (d) Only affects zero-day-old systems
+Answer: (a)
+Solution: "Day zero" refers to the vendor having zero days to fix it because they are unaware; it is not about software age or patch speed. The defining characteristic is that no patch exists yet, so the answer is Unknown to the vendor and unpatched.
+Source: Microsoft Security Response Center – Zero-Day Definition
+
+62. Which protocol provides secure remote login to a server?
+(a) Telnet (b) HTTP (c) FTP (d) SSH
+Answer: (d)
+Solution: Telnet, FTP, and HTTP transmit data in cleartext. SSH (Secure Shell) encrypts the entire session including authentication, so the answer is SSH.
+Source: NCERT Class 12 Computer Science
+
+63. What is the main function of an antivirus software's real-time protection?
+(a) Monitor system activity and block threats as they occur (b) Scan files only during scheduled scans (c) Update virus definitions (d) Clean temporary files
+Answer: (a)
+Solution: Scheduled scans are on-demand; definition updates and temp cleaning are maintenance tasks. Real-time protection actively intercepts malicious actions during execution, so the answer is Monitor system activity and block threats as they occur.
+Source: Microsoft Support – Windows Security Real-time Protection
+
+64. Which of the following is NOT a characteristic of a strong password?
+(a) Based on personal information like birthdate (b) Mix of upper, lower, numbers, symbols (c) At least 12 characters (d) Unique for each account
+Answer: (a)
+Solution: Length, complexity, and uniqueness are recommended practices. Personal information is easily guessable and explicitly discouraged, so the answer is Based on personal information like birthdate.
+Source: CERT-In Password Security Guidelines
+
+65. A digital certificate binds a public key to an entity's identity and is issued by a:
+(a) Registration Authority (b) Certificate Authority (c) Key Distribution Center (d) Network Access Server
+Answer: (b)
+Solution: RA verifies identity before CA issues; KDC distributes symmetric keys (Kerberos); NAS controls network access. The CA digitally signs and issues the certificate, so the answer is Certificate Authority.
+Source: Microsoft Learn – Public Key Infrastructure
+
+66. What does the term "Botnet" refer to?
+(a) A type of antivirus software (b) A legitimate distributed computing network (c) A network of compromised computers controlled by an attacker (d) A network monitoring tool
+Answer: (c)
+Solution: Botnets are malicious; distributed computing (e.g., SETI@home) is voluntary; antivirus and monitoring tools are defensive. Botnet = robot network of infected bots under command-and-control, so the answer is A network of compromised computers controlled by an attacker.
+Source: CERT-In Botnet Detection Advisory
+
+67. Which attack exploits the trust relationship between a user's browser and a web application?
+(a) Cross-Site Scripting (XSS) (b) Cross-Site Request Forgery (CSRF) (c) SQL Injection (d) Buffer Overflow
+Answer: (b)
+Solution: XSS injects malicious scripts into trusted sites; SQL injection targets databases; buffer overflow exploits memory handling. CSRF forces an authenticated browser to send forged requests to a vulnerable application, so the answer is Cross-Site Request Forgery (CSRF).
+Source: OWASP Top 10 (Reference for Concept)
+
+68. In the context of the IT Act 2000, Section 66C deals with punishment for:
+(a) Identity Theft (b) Cyber Terrorism (c) Violation of Privacy (d) Publishing Obscene Material
+Answer: (a)
+Solution: Section 66F covers cyber terrorism; 66E covers privacy violation; 67 covers obscene material. Section 66C specifically addresses identity theft (using electronic signature, password, etc.), so the answer is Identity Theft.
+Source: Information Technology Act, 2000
+
+69. What is the purpose of a honeypot in cyber security?
+(a) Encrypt database records (b) Store backup data securely (c) Accelerate network traffic (d) Trap attackers and study their methods
+Answer: (d)
+Solution: Honeypots are decoy systems; backups, acceleration, and encryption are separate functions. They intentionally expose vulnerabilities to attract and analyze attacker behavior, so the answer is Trap attackers and study their methods.
+Source: NCERT Class 12 Computer Science
+
+70. Which wireless security protocol is currently recommended for home Wi-Fi networks?
+(a) WEP (b) WPA3 (c) WPA2 (d) WPA
+Answer: (b)
+Solution: WEP and WPA are deprecated; WPA2 is widely used but has known vulnerabilities (KRACK). WPA3 (2018) provides stronger encryption and forward secrecy, so the answer is WPA3.
+Source: Microsoft Support – Wi-Fi Security Protocols
+
+71. A logic bomb is malicious code that triggers when:
+(a) A specific date or condition is met (b) The system boots up (c) A user opens an email attachment (d) Network traffic exceeds a threshold
+Answer: (a)
+Solution: Boot-sector viruses activate at startup; email attachments deliver trojans; traffic thresholds trigger DoS mitigations. Logic bombs lie dormant until a predefined logical condition (date, file deletion, etc.) occurs, so the answer is A specific date or condition is met.
+Source: CERT-In Malware Classification Guide
+
+72. What is the primary goal of a Denial-of-Service (DoS) attack?
+(a) Steal sensitive data (b) Gain unauthorized access (c) Make a service unavailable to legitimate users (d) Modify website content
+Answer: (c)
+Solution: Data theft, unauthorized access, and defacement are different objectives. DoS floods resources to disrupt availability, so the answer is Make a service unavailable to legitimate users.
+Source: NCERT Class 12 Computer Science
+
+73. Which biometric factor is considered a "something you are" authentication factor?
+(a) Smart Card (b) PIN (c) Fingerprint (d) OTP Token
+Answer: (c)
+Solution: Smart card and OTP token are "something you have"; PIN is "something you know". Fingerprint is an inherent biological trait, so the answer is Fingerprint.
+Source: RBI Authentication Framework
+
+74. In a Man-in-the-Middle attack on HTTPS, the attacker typically needs to:
+(a) Break the TLS encryption mathematically (b) Guess the session ID (c) Compromise a Certificate Authority or install a rogue root certificate (d) Flood the server with requests
+Answer: (c)
+Solution: Modern TLS cannot be practically broken mathematically; session ID guessing is session hijacking; flooding is DoS. MITM on HTTPS requires the victim to trust a certificate the attacker controls (via compromised CA or user-installed root), so the answer is Compromise a Certificate Authority or install a rogue root certificate.
+Source: Microsoft Learn – TLS/SSL MITM Mitigation
+
+75. The principle of least privilege states that a user should have:
+(a) Administrative rights for convenience (b) Only the minimum permissions necessary to perform their job (c) Access to all resources by default (d) Temporary elevated access that never expires
+Answer: (b)
+Solution: Admin rights and default full access violate the principle; temporary access must expire. Least privilege grants only essential permissions, reducing attack surface, so the answer is Only the minimum permissions necessary to perform their job.
+Source: CERT-In Access Control Guidelines

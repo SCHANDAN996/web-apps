@@ -1,0 +1,149 @@
+126. Which of the following is a self-replicating malware that spreads across networks without requiring a host file?
+(a) Virus (b) Worm (c) Trojan horse (d) Spyware
+Answer: (b)
+Solution: A worm is standalone malware that replicates itself to spread to other computers via network vulnerabilities, unlike a virus which attaches to a host file, or a Trojan which disguises itself as legitimate software. Spyware secretly monitors user activity. So the answer is Worm.
+Source: NCERT Class 11 Computer Science / CERT-In Advisory
+
+127. What does "phishing" typically involve?
+(a) Installing malware via USB drives (b) Sending fraudulent emails to steal sensitive information (c) Brute-forcing passwords using dictionary attacks (d) Exploiting buffer overflow vulnerabilities
+Answer: (b)
+Solution: Phishing uses deceptive emails or messages appearing from trusted sources to trick recipients into revealing passwords, OTPs, or financial details. The trap is confusing it with "vishing" (voice calls) or "smishing" (SMS). USB malware delivery, brute force, and buffer overflow are different attack vectors. So the answer is Sending fraudulent emails to steal sensitive information.
+Source: CERT-In Phishing Awareness Guidelines
+
+128. Which protocol provides encrypted communication between a web browser and a server?
+(a) HTTP (b) FTP (c) HTTPS (d) SMTP
+Answer: (c)
+Solution: HTTPS (HyperText Transfer Protocol Secure) uses TLS/SSL to encrypt data in transit. HTTP sends data in plaintext, FTP is for file transfer (plaintext unless FTPS/SFTP), and SMTP is for email transmission. The trap is selecting HTTP because it looks similar. So the answer is HTTPS.
+Source: Microsoft Learn – HTTPS Overview
+
+129. A firewall primarily functions to:
+(a) Monitor and control incoming/outgoing network traffic based on rules (b) Detect and remove viruses from infected files (c) Encrypt data stored on hard drives (d) Authenticate users via biometrics
+Answer: (a)
+Solution: A firewall (hardware or software) filters network traffic per defined security rules. It does not scan files for viruses (antivirus), encrypt disks (BitLocker/VeraCrypt), or handle biometric authentication. The trap is confusing firewall with antivirus. So the answer is Monitor and control incoming/outgoing network traffic based on rules.
+Source: NCERT Class 12 Computer Science / Microsoft Support – Windows Firewall
+
+130. Ransomware typically:
+(a) Steals browsing history for advertising (b) Displays unwanted pop-up advertisements (c) Encrypts victim's files and demands payment for decryption key (d) Logs keystrokes to capture passwords
+Answer: (c)
+Solution: Ransomware encrypts data and demands ransom (often in cryptocurrency) for the decryption key. Adware shows ads, spyware/keyloggers steal data silently. The trap is picking "logs keystrokes" which describes a keylogger, not ransomware. So the answer is Encrypts victim's files and demands payment for decryption key.
+Source: CERT-In Ransomware Advisory / RBI Cyber Security Framework
+
+131. Which of the following is an example of two-factor authentication (2FA)?
+(a) Password + security question (b) Password + PIN (c) Password + OTP sent to registered mobile (d) Fingerprint + retina scan
+Answer: (c)
+Solution: 2FA requires two different factor categories: something you know (password) + something you have (OTP on phone). Security questions and PINs are also "knowledge" factors, so (a) and (b) are single-factor. Two biometrics (d) are both "inherence" factors. The trap is thinking any two steps = 2FA. So the answer is Password + OTP sent to registered mobile.
+Source: RBI Master Direction on Digital Payment Security / Microsoft Learn – MFA
+
+132. The IT Act, 2000 (amended 2008) in India primarily deals with:
+(a) Telecommunication tariffs (b) Cybercrime, electronic commerce, and digital signatures (c) Banking interest rates (d) Income tax on software exports
+Answer: (b)
+Solution: The Information Technology Act, 2000 (amended 2008) provides legal recognition for electronic transactions, defines cyber offences (hacking, identity theft, cyber terrorism), and regulates digital signatures/certificates. It does not cover telecom tariffs, banking rates, or income tax. The trap is assuming it's only about digital signatures. So the answer is Cybercrime, electronic commerce, and digital signatures.
+Source: Bare Act – Information Technology Act, 2000 (as amended 2008)
+
+133. CERT-In (Indian Computer Emergency Response Team) is responsible for:
+(a) Responding to cyber security incidents and issuing advisories (b) Collecting income tax from IT companies (c) Issuing digital signature certificates (d) Regulating internet service provider tariffs
+Answer: (a)
+Solution: CERT-In (under MeitY) is the national nodal agency for incident response, vulnerability coordination, and issuing security advisories/alerts. It does not issue certificates (that's licensed CAs), collect taxes, or regulate ISP tariffs. The trap is confusing it with a Certifying Authority. So the answer is Responding to cyber security incidents and issuing advisories.
+Source: CERT-In Official Website / IT Act, 2000 Section 70B
+
+134. Which encryption type uses the same key for encryption and decryption?
+(a) Asymmetric encryption (b) Symmetric encryption (c) Hashing (d) Digital signature
+Answer: (b)
+Solution: Symmetric encryption (e.g., AES, DES) uses a single shared secret key for both operations. Asymmetric uses a public-private key pair. Hashing is one-way (no decryption). Digital signatures use asymmetric crypto for authentication. The trap is selecting "Asymmetric" because it sounds more advanced. So the answer is Symmetric encryption.
+Source: NCERT Class 12 Computer Science / Microsoft Learn – Cryptography Basics
+
+135. A "Man-in-the-Middle" (MITM) attack involves:
+(a) Flooding a server with traffic to crash it (b) Guessing passwords by trying common words (c) Intercepting and possibly altering communication between two parties (d) Injecting malicious SQL queries into input fields
+Answer: (c)
+Solution: MITM attackers secretly relay and possibly modify communications between two parties who believe they are directly connected. DoS/DDoS floods traffic (a), dictionary attacks guess passwords (b), SQL injection targets databases (d). The trap is confusing MITM with sniffing (passive only) or DoS. So the answer is Intercepting and possibly altering communication between two parties.
+Source: CERT-In Advisory on MITM Attacks / NCERT Class 12
+
+136. Which Wi-Fi security protocol is currently the most secure among the options?
+(a) WPA3 (b) WPA (c) WPA2 (d) WEP
+Answer: (a)
+Solution: WPA3 (2018) improves on WPA2 with stronger encryption (SAE replacing PSK), forward secrecy, and better protection against offline dictionary attacks. WEP and WPA are deprecated and insecure. WPA2 is still common but has known vulnerabilities (KRACK). The trap is picking WPA2 because it's widely used. So the answer is WPA3.
+Source: Wi-Fi Alliance / Microsoft Support – Wi-Fi Security Types
+
+137. What is the primary purpose of a VPN (Virtual Private Network)?
+(a) Increase internet speed (b) Create an encrypted tunnel for secure communication over public networks (c) Block malware downloads (d) Manage firewall rules
+Answer: (b)
+Solution: A VPN encrypts traffic between the user device and a VPN server, providing confidentiality and integrity on untrusted networks (public Wi-Fi). It does not inherently increase speed (often reduces it), block malware, or manage firewalls. The trap is thinking VPN = antivirus. So the answer is Create an encrypted tunnel for secure communication over public networks.
+Source: Microsoft Learn – VPN Overview / NCERT Class 12
+
+138. "Spear phishing" differs from regular phishing by:
+(a) Targeting specific individuals or organizations with personalized information (b) Using SMS instead of email (c) Being conducted only via phone calls (d) Installing ransomware directly
+Answer: (a)
+Solution: Spear phishing is targeted, using personal details (name, role, recent transactions) to appear credible. Regular phishing is bulk, generic. Smishing uses SMS (b), vishing uses calls (c). Spear phishing may deliver ransomware but is not defined by it. The trap is confusing spear phishing with smishing/vishing. So the answer is Targeting specific individuals or organizations with personalized information.
+Source: CERT-In Advisory / RBI Cyber Security Guidelines
+
+139. Which of the following is NOT a characteristic of a strong password?
+(a) At least 12 characters long (b) Contains upper, lower, numbers, symbols (c) Unique for each account (d) Based on personal information (name, birthdate)
+Answer: (d)
+Solution: Strong passwords avoid personal information (easily guessed/social-engineered). Length, complexity, and uniqueness are recommended. The trap is thinking "complex but personal" is strong. So the answer is Based on personal information (name, birthdate).
+Source: CERT-In Password Guidelines / NIST SP 800-63B / Microsoft Support
+
+140. A digital signature provides:
+(a) Confidentiality only (b) Protection against DDoS attacks (c) Encryption of entire hard drive (d) Authentication, integrity, and non-repudiation
+Answer: (d)
+Solution: Digital signatures (using asymmetric crypto) verify the sender's identity (authentication), ensure the message wasn't altered (integrity), and prevent the sender from denying they sent it (non-repudiation). They do not encrypt the message content (confidentiality requires separate encryption), encrypt drives, or stop DDoS. The trap is picking "Confidentiality only". So the answer is Authentication, integrity, and non-repudiation.
+Source: IT Act, 2000 / Microsoft Learn – Digital Signatures
+
+141. Which attack exploits the trust relationship between a user and a website by executing unauthorized commands?
+(a) SQL Injection (b) Cross-Site Scripting (XSS) (c) Buffer Overflow (d) Cross-Site Request Forgery (CSRF)
+Answer: (d)
+Solution: CSRF tricks a victim's browser into sending forged requests to a site where they're authenticated, exploiting the site's trust in the user's browser. XSS injects malicious scripts into trusted websites. SQL injection targets databases. Buffer overflow exploits memory handling. The trap is confusing CSRF with XSS (both "cross-site"). So the answer is Cross-Site Request Forgery (CSRF).
+Source: OWASP Top 10 / CERT-In Secure Coding Guidelines
+
+142. The principle of "least privilege" means:
+(a) All users get administrator access by default (b) Privileges are assigned based on seniority (c) Users are given only the minimum permissions necessary for their role (d) Temporary admin rights are granted to everyone
+Answer: (c)
+Solution: Least privilege limits access rights to the bare minimum needed to perform duties, reducing attack surface. Default admin access (a) violates it. Seniority-based (b) and universal temp admin (d) are anti-patterns. The trap is thinking "privilege" implies giving more access. So the answer is Users are given only the minimum permissions necessary for their role.
+Source: NCERT Class 12 / Microsoft Security Best Practices / RBI Guidelines
+
+143. Which of the following is a legitimate use of a honeypot in cybersecurity?
+(a) To store backup encryption keys (b) To generate strong passwords (c) To accelerate network traffic (d) To lure attackers and study their methods
+Answer: (d)
+Solution: A honeypot is a decoy system designed to attract attackers, divert them from real assets, and gather intelligence on attack techniques. It does not store keys, speed up traffic, or generate passwords. The trap is thinking it's a "honey" (good) thing for storage. So the answer is To lure attackers and study their methods.
+Source: CERT-In Honeypot Deployment Guidelines / NCERT Class 12
+
+144. What does "patch management" primarily involve?
+(a) Creating new user accounts (b) Changing firewall passwords monthly (c) Regularly applying software updates to fix vulnerabilities (d) Monitoring employee internet usage
+Answer: (c)
+Solution: Patch management is the process of identifying, testing, and deploying vendor-released updates (patches) to fix security flaws and bugs. It is not user provisioning, password rotation, or monitoring. The trap is confusing it with "password management". So the answer is Regularly applying software updates to fix vulnerabilities.
+Source: Microsoft Learn – Patch Management / CERT-In Advisory
+
+145. Which social engineering technique involves a phone call pretending to be from tech support?
+(a) Phishing (b) Smishing (c) Tailgating (d) Vishing
+Answer: (d)
+Solution: Vishing (voice phishing) uses phone calls. Phishing uses email, smishing uses SMS, tailgating is physical unauthorized entry. The trap is selecting "Phishing" as the generic term. So the answer is Vishing.
+Source: CERT-In Social Engineering Awareness / RBI Guidelines
+
+146. In the context of SSL/TLS certificates, what does a Certificate Authority (CA) do?
+(a) Encrypts website content (b) Verifies the identity of the certificate applicant and digitally signs the certificate (c) Hosts the website on secure servers (d) Manages the website's firewall rules
+Answer: (b)
+Solution: A trusted CA validates the applicant's identity (domain ownership, organization) and signs the certificate with its private key, enabling browsers to trust it. CAs do not encrypt content, host sites, or manage firewalls. The trap is thinking the CA encrypts the traffic. So the answer is Verifies the identity of the certificate applicant and digitally signs the certificate.
+Source: Microsoft Learn – Certificate Authorities / IT Act, 2000 (CA licensing)
+
+147. A "zero-day vulnerability" refers to:
+(a) A flaw unknown to the vendor with no patch available yet (b) A vulnerability discovered on the first day of the year (c) A vulnerability with a CVSS score of 0.0 (d) A bug that only affects systems with zero updates installed
+Answer: (a)
+Solution: Zero-day means the vendor has had zero days to fix it — the flaw is publicly known or exploited before a patch exists. It is not date-related, score-related, or update-count-related. The trap is interpreting "zero-day" literally as a calendar day. So the answer is A flaw unknown to the vendor with no patch available yet.
+Source: CERT-In Vulnerability Notes / Microsoft Security Response Center
+
+148. Which of the following best describes a "botnet"?
+(a) A network of compromised computers controlled by an attacker (b) A legitimate distributed computing project (c) A type of antivirus software (d) A firewall configuration tool
+Answer: (a)
+Solution: A botnet (robot network) consists of malware-infected devices (bots) remotely controlled by a command-and-control server for DDoS, spam, mining, etc. It is not legitimate, not antivirus, not a firewall tool. The trap is confusing it with volunteer computing (SETI@home, Folding@home). So the answer is A network of compromised computers controlled by an attacker.
+Source: CERT-In Botnet Advisory / NCERT Class 12
+
+149. The primary goal of an Intrusion Detection System (IDS) is to:
+(a) Block malicious traffic automatically (b) Authenticate remote users (c) Encrypt sensitive data at rest (d) Monitor network/system activities for suspicious patterns and alert administrators
+Answer: (d)
+Solution: IDS passively monitors and alerts on anomalies/signatures. An IPS (Intrusion Prevention System) actively blocks. IDS does not encrypt data or authenticate users. The trap is confusing IDS with IPS (blocking). So the answer is Monitor network/system activities for suspicious patterns and alert administrators.
+Source: NCERT Class 12 / CERT-In Network Security Guidelines
+
+150. Under the IT Act, 2000 (as amended), which section deals with punishment for identity theft?
+(a) Section 66C (b) Section 66 (c) Section 67 (d) Section 70
+Answer: (a)
+Solution: Section 66C specifically punishes identity theft (using another's electronic signature, password, or unique identification feature fraudulently). Section 66 covers computer-related offences broadly, Section 67 deals with obscene content, Section 70 covers protected systems. The trap is picking the broader Section 66. So the answer is Section 66C.
+Source: Information Technology Act, 2000 (as amended 2008) — Bare Act

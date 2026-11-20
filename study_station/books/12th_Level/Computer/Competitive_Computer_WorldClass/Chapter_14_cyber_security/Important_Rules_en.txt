@@ -1,0 +1,74 @@
+1. **Principle of Least Privilege**  
+   Grant users and processes only the minimum permissions necessary to perform their tasks.  
+   *Example:* A data-entry operator needs read/write access to a specific database table, not admin rights on the server.  
+   *Exception:* Emergency break-glass accounts for incident response may have elevated privileges, but must be time-limited and audited.
+
+2. **Defense in Depth (Layered Security)**  
+   Deploy multiple overlapping security controls so that if one layer fails, others still protect the asset.  
+   *Example:* Perimeter firewall → network segmentation → host-based firewall → application-level input validation → encrypted database.  
+   *Exception:* Over-layering can create complexity gaps; each layer must be managed and monitored.
+
+3. **Fail-Safe Defaults**  
+   Systems should default to a secure state when errors occur or configuration is missing.  
+   *Example:* A firewall rule set defaults to “deny all” unless an explicit “allow” rule exists.  
+   *Exception:* Some legacy industrial systems default to “permissive” for availability; compensating controls (air-gap, monitoring) are required.
+
+4. **Economy of Mechanism**  
+   Keep security designs simple and small enough to be thoroughly verified.  
+   *Example:* A minimal TLS 1.3 handshake with only approved cipher suites is easier to audit than a custom VPN protocol.  
+   *Exception:* Simplicity must not remove essential security features (e.g., certificate validation).
+
+5. **Complete Mediation**  
+   Every access request must be checked against the authorization policy; cached decisions must be re-validated when context changes.  
+   *Example:* A banking app re-verifies session token and device fingerprint before each fund transfer, not just at login.  
+   *Exception:* High-throughput systems may use short-lived signed tokens (JWT) with revocation lists to balance performance.
+
+6. **Open Design (Kerckhoffs’s Principle)**  
+   Security should not depend on secrecy of the algorithm or design, only on secrecy of the key.  
+   *Example:* AES encryption is public; only the 256-bit key is secret.  
+   *Exception:* Operational security (opsec) — such as hiding server versions or internal network topology — remains valid as an additional hurdle.
+
+7. **Separation of Duties**  
+   Critical functions require collaboration of two or more independent parties.  
+   *Example:* Code deployment requires developer commit + reviewer approval + automated CI gate; no single person can push to production.  
+   *Exception:* Small teams may use compensating controls (immutable audit logs, mandatory peer review within 24 hours).
+
+8. **Least Common Mechanism**  
+   Minimize shared resources that could become covert channels or single points of compromise.  
+   *Example:* Each microservice runs in its own container with dedicated secrets; no shared /tmp or common database user.  
+   *Exception:* Shared logging/monitoring infrastructure is acceptable if access-controlled and integrity-protected.
+
+9. **Psychological Acceptability**  
+   Security mechanisms should not make the resource excessively difficult to access for authorized users.  
+   *Example:* Single Sign-On (SSO) with MFA replaces multiple complex passwords.  
+   *Exception:* High-value transactions (wire transfers, admin actions) justifiably require step-up authentication.
+
+10. **Zero Trust Architecture**  
+    Never trust implicitly based on network location; verify every request as if it originates from an open network.  
+    *Example:* Internal service-to-service calls use mutual TLS and short-lived SPIFFE identities; no “trusted VLAN” concept.  
+    *Exception:* Legacy OT/ICS networks may require perimeter-based segmentation with strict gateway inspection until modernization.
+
+11. **Data Minimization & Purpose Limitation**  
+    Collect, process, and retain only data strictly necessary for the stated purpose.  
+    *Example:* An e-commerce site stores only hashed passwords, not security questions; deletes cart data 30 days after order completion.  
+    *Exception:* Legal/regulatory retention requirements (e.g., RBI mandates 5-year transaction logs) override minimization.
+
+12. **Secure by Default Configuration**  
+    Out-of-the-box settings must be secure; hardening should not be an afterthought.  
+    *Example:* Windows Server 2022 disables SMBv1 and sets firewall to “block inbound” by default; Credential Guard can be enabled via Group Policy for additional protection.  
+    *Exception:* Some vendor appliances ship with default credentials for initial setup; mandatory password change on first login is required.
+
+13. **Continuous Monitoring & Logging**  
+    Security events must be logged, correlated, and alerted in near real-time.  
+    *Example:* Centralized SIEM ingests Windows Security Event 4624/4625, Linux auth.log, firewall flows; alerts on impossible travel or privilege escalation patterns.  
+    *Exception:* High-volume debug logs may be sampled; security-relevant logs (auth, admin, data access) must be 100% captured.
+
+14. **Incident Response Readiness**  
+    Documented, tested playbooks for common attack scenarios (ransomware, credential theft, data exfiltration).  
+    *Example:* Quarterly tabletop exercise simulating CERT-In advisory CIAD-2024-0015 exploitation; measures mean-time-to-detect and mean-time-to-contain.  
+    *Exception:* Playbooks must be updated within 30 days of major infrastructure change (cloud migration, new SaaS adoption).
+
+15. **Supply Chain & Dependency Integrity**  
+    Verify authenticity and integrity of third-party software, libraries, and hardware.  
+    *Example:* Use SBOM (Software Bill of Materials), verify signed containers (cosign/sigstore), pin npm/PyPI packages to exact hashes.  
+    *Exception:* Emergency hotfixes may bypass full SBOM scan if deployed through a controlled break-glass pipeline with post-deploy audit within 24 hours.

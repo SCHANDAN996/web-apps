@@ -1,0 +1,149 @@
+101. Which of the following is a type of malware that replicates itself to spread to other computers without user intervention?
+(a) Virus (b) Worm (c) Trojan (d) Spyware
+Answer: (b)
+Solution: A virus requires a host file and user action to spread, while a worm is self-replicating and spreads automatically across networks, so the answer is Worm.
+Source: NCERT Class 10 Computer Science
+
+102. What does the "S" in HTTPS stand for?
+(a) System (b) Socket (c) Standard (d) Secure
+Answer: (d)
+Solution: HTTPS stands for HyperText Transfer Protocol Secure, where the "S" indicates the connection is encrypted using SSL/TLS, so the answer is Secure.
+Source: Microsoft Learn – HTTPS Overview
+
+103. Which attack involves tricking a user into revealing sensitive information by pretending to be a trustworthy entity?
+(a) Hijacking (b) Spoofing (c) Sniffing (d) Phishing
+Answer: (d)
+Solution: Spoofing falsifies identity technically, but phishing specifically uses deceptive communication to trick users into divulging credentials, so the answer is Phishing.
+Source: CERT-In Advisory on Phishing
+
+104. A firewall primarily functions to:
+(a) Monitor and control incoming/outgoing network traffic (b) Remove viruses from infected files (c) Encrypt data on hard drives (d) Backup system files automatically
+Answer: (a)
+Solution: Antivirus removes malware; a firewall filters network traffic based on security rules, so the answer is Monitor and control incoming/outgoing network traffic.
+Source: NCERT Class 11 Computer Science
+
+105. Which encryption method uses the same key for both encryption and decryption?
+(a) Asymmetric encryption (b) Symmetric encryption (c) Hashing (d) Digital signature
+Answer: (b)
+Solution: Asymmetric encryption uses a public-private key pair; symmetric encryption uses a single shared key for both operations, so the answer is Symmetric encryption.
+Source: Microsoft Learn – Cryptography Basics
+
+106. What is the primary purpose of a digital signature?
+(a) Compress files (b) Block spam emails (c) Encrypt email content (d) Verify authenticity and integrity of a digital message
+Answer: (d)
+Solution: Digital signatures use asymmetric cryptography to prove the sender's identity and that the message was not altered, so the answer is Verify authenticity and integrity of a digital message.
+Source: Information Technology Act, 2000 (India)
+
+107. Which of the following is the strongest Wi-Fi security protocol among the options?
+(a) WPA3 (b) WPA (c) WPA2 (d) WEP
+Answer: (a)
+Solution: WEP and WPA are outdated and vulnerable; WPA2 is widely used but WPA3 provides stronger encryption and better protection against brute-force attacks, so the answer is WPA3.
+Source: Microsoft Support – Wi-Fi Security Protocols
+
+108. Ransomware is a type of malware that:
+(a) Steals browsing history (b) Encrypts files and demands payment for decryption (c) Displays unwanted advertisements (d) Creates backdoors for remote access
+Answer: (b)
+Solution: Spyware steals data; adware shows ads; trojans create backdoors; ransomware specifically encrypts victim's data and demands ransom, so the answer is Encrypts files and demands payment for decryption.
+Source: CERT-In Advisory on Ransomware
+
+109. Two-Factor Authentication (2FA) requires:
+(a) Two different passwords (b) Something you know and something you have (c) Two biometric scans (d) Password and security question
+Answer: (b)
+Solution: Two passwords are still single-factor (knowledge); 2FA combines two distinct factor categories like knowledge (password) and possession (OTP token), so the answer is Something you know and something you have.
+Source: RBI Guidelines on Digital Payment Security
+
+110. What does a VPN (Virtual Private Network) primarily provide?
+(a) Faster internet speed (b) Virus protection (c) Encrypted tunnel for secure communication over public networks (d) Ad blocking
+Answer: (c)
+Solution: VPNs create encrypted tunnels; they do not inherently increase speed, block ads, or scan for viruses, so the answer is Encrypted tunnel for secure communication over public networks.
+Source: Microsoft Learn – VPN Overview
+
+111. Which Indian agency is the national nodal agency for responding to cyber security incidents?
+(a) CERT-In (b) NIC (c) CDAC (d) TRAI
+Answer: (a)
+Solution: NIC provides e-governance infrastructure; CERT-In (Indian Computer Emergency Response Team) is the designated national incident response agency under IT Act, so the answer is CERT-In.
+Source: CERT-In Official Website
+
+112. A "Man-in-the-Middle" attack involves:
+(a) Flooding a server with requests (b) Installing keyloggers on victim's device (c) Guessing passwords by trial and error (d) Intercepting and possibly altering communication between two parties
+Answer: (d)
+Solution: DoS floods servers; brute-force guesses passwords; keyloggers are malware; MitM specifically intercepts communication between two parties, so the answer is Intercepting and possibly altering communication between two parties.
+Source: NCERT Class 12 Computer Science
+
+113. Which of the following is NOT a characteristic of a strong password?
+(a) Based on personal information like birthdate (b) Contains uppercase, lowercase, numbers, symbols (c) At least 12 characters long (d) Unique for each account
+Answer: (a)
+Solution: Personal information makes passwords guessable; strong passwords are long, complex, and unique per account, so the answer is Based on personal information like birthdate.
+Source: CERT-In Password Guidelines
+
+114. What is the purpose of a security patch?
+(a) Add new features to software (b) Fix vulnerabilities in software (c) Improve user interface (d) Increase software speed
+Answer: (b)
+Solution: Updates may add features; patches specifically address security vulnerabilities to prevent exploitation, so the answer is Fix vulnerabilities in software.
+Source: Microsoft Support – Security Updates
+
+115. Which protocol is used for secure email transmission?
+(a) SMTP (b) POP3 (c) IMAP (d) SMTPS
+Answer: (d)
+Solution: SMTP, POP3, IMAP are plain-text protocols; SMTPS (SMTP over SSL/TLS) provides encrypted email transmission, so the answer is SMTPS.
+Source: Microsoft Learn – Email Protocols
+
+116. Social engineering attacks primarily exploit:
+(a) Software bugs (b) Network misconfiguration (c) Human psychology (d) Weak encryption
+Answer: (c)
+Solution: Technical exploits target software/network/crypto; social engineering manipulates human trust and behavior, so the answer is Human psychology.
+Source: NCERT Class 11 Computer Science
+
+117. What is a "zero-day vulnerability"?
+(a) A vulnerability known for zero days (b) A vulnerability with zero impact (c) A vulnerability unknown to the vendor with no patch available (d) A vulnerability fixed on day zero
+Answer: (c)
+Solution: "Zero-day" means the vendor has had zero days to fix it because they were unaware; it is unpatched and actively exploitable, so the answer is A vulnerability unknown to the vendor with no patch available.
+Source: CERT-In Vulnerability Notes
+
+118. Which of the following best describes a botnet?
+(a) A type of antivirus software (b) A legitimate network for distributed computing (c) A network of infected computers controlled by an attacker (d) A firewall configuration
+Answer: (c)
+Solution: Botnets are compromised devices (bots) remotely controlled by a command-and-control server for malicious activities, so the answer is A network of infected computers controlled by an attacker.
+Source: Microsoft Learn – Botnet Protection
+
+119. The Information Technology Act, 2000 (India) primarily deals with:
+(a) Telecommunication tariffs (b) Software export policies (c) Cybercrime and electronic commerce (d) Hardware import duties
+Answer: (c)
+Solution: The IT Act 2000 provides legal framework for e-commerce, digital signatures, and defines cyber offenses, so the answer is Cybercrime and electronic commerce.
+Source: Information Technology Act, 2000 (India)
+
+120. What is the function of an antivirus software's "real-time protection"?
+(a) Continuously monitor system activity for malicious behavior (b) Scan files only when manually started (c) Update virus definitions weekly (d) Clean temporary files
+Answer: (a)
+Solution: On-demand scans run manually; real-time protection actively monitors file access, downloads, and execution to block threats immediately, so the answer is Continuously monitor system activity for malicious behavior.
+Source: Microsoft Support – Windows Security
+
+121. In public key infrastructure (PKI), a Certificate Authority (CA) is responsible for:
+(a) Issuing and verifying digital certificates (b) Generating private keys for users (c) Encrypting user data (d) Managing firewall rules
+Answer: (a)
+Solution: Users generate their own key pairs; CA validates identity and issues certificates binding public keys to identities, so the answer is Issuing and verifying digital certificates.
+Source: Microsoft Learn – PKI Fundamentals
+
+122. Which attack exploits the trust relationship between a user and a website by forcing the user's browser to execute unwanted actions?
+(a) SQL Injection (b) Cross-Site Scripting (XSS) (c) Buffer Overflow (d) Cross-Site Request Forgery (CSRF)
+Answer: (d)
+Solution: XSS injects malicious scripts; CSRF exploits authenticated sessions to make the browser perform actions without user consent, so the answer is Cross-Site Request Forgery (CSRF).
+Source: CERT-In Secure Coding Guidelines
+
+123. What is the primary purpose of a honeypot in cybersecurity?
+(a) Trap and study attackers' methods (b) Store backup data securely (c) Accelerate network traffic (d) Generate strong passwords
+Answer: (a)
+Solution: Honeypots are decoy systems designed to attract attackers, allowing security teams to analyze attack patterns and improve defenses, so the answer is Trap and study attackers' methods.
+Source: NCERT Class 12 Computer Science
+
+124. Which principle states that users should be given only the minimum permissions necessary to perform their tasks?
+(a) Defense in depth (b) Fail-safe defaults (c) Least privilege (d) Separation of duties
+Answer: (c)
+Solution: Defense in depth layers security; least privilege specifically limits access rights to the bare minimum required, so the answer is Least privilege.
+Source: Microsoft Learn – Security Principles
+
+125. A digital certificate binds a public key to an entity's identity and is signed by:
+(a) The entity's private key (b) A Certificate Authority's private key (c) The user's password (d) A symmetric key
+Answer: (b)
+Solution: The entity signs with their private key for digital signatures; a CA signs certificates with its own private key to vouch for the binding, so the answer is A Certificate Authority's private key.
+Source: Information Technology Act, 2000 (India)

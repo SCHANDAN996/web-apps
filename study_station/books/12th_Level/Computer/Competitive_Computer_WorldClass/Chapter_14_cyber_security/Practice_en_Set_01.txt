@@ -1,0 +1,149 @@
+1. Which of the following best describes a computer worm?
+(a) Self-replicating malware that spreads across networks without user interaction (b) Malware that attaches itself to a host file and requires user action to spread (c) Malware that disguises itself as legitimate software to trick users into installing it (d) Malware that encrypts files and demands payment for decryption
+Answer: (a)
+Solution: A worm is self-replicating and spreads automatically through network vulnerabilities, unlike a virus which needs a host file and user action, or a trojan which relies on deception, or ransomware which encrypts for ransom, so the answer is self-replicating malware that spreads across networks without user interaction.
+Source: NCERT Class 11 Computer Science
+
+2. What is the primary characteristic of a Trojan horse?
+(a) It replicates itself automatically across networks (b) It monitors keystrokes to steal passwords (c) It encrypts user data and demands ransom (d) It appears as legitimate software but performs malicious actions
+Answer: (d)
+Solution: A Trojan horse masquerades as genuine software to deceive users into installing it, unlike worms that self-replicate, ransomware that encrypts for payment, or keyloggers that specifically record keystrokes, so the answer is it appears as legitimate software but performs malicious actions.
+Source: Microsoft Learn – Malware types
+
+3. Which attack involves sending fraudulent emails that appear to come from a trusted source to steal sensitive information?
+(a) Phishing (b) Vishing (c) Smishing (d) Pharming
+Answer: (a)
+Solution: Phishing uses deceptive emails from seemingly trusted senders to harvest credentials; smishing uses SMS, vishing uses voice calls, and pharming redirects DNS, so the answer is phishing.
+Source: CERT-In Advisory CIAD-2021-0012
+
+4. What does "spear phishing" target specifically?
+(a) Random mass email recipients (b) Users through compromised websites (c) Mobile users via SMS (d) A specific individual or organization with personalized messages
+Answer: (d)
+Solution: Spear phishing is highly targeted at specific individuals or organizations using personalized details, unlike bulk phishing, smishing, or watering-hole attacks, so the answer is a specific individual or organization with personalized messages.
+Source: RBI Cyber Security Framework
+
+5. Which social engineering technique involves an attacker physically following an authorized person into a restricted area?
+(a) Dumpster diving (b) Shoulder surfing (c) Tailgating (d) Pretexting
+Answer: (c)
+Solution: Tailgating (or piggybacking) is unauthorized physical entry by following someone; shoulder surfing observes screens, dumpster diving searches trash, pretexting uses fabricated scenarios, so the answer is tailgating.
+Source: NCERT Class 12 Informatics Practices
+
+6. What is the main purpose of a firewall in network security?
+(a) To encrypt data in transit (b) To monitor and control incoming and outgoing network traffic based on rules (c) To detect and remove malware from infected files (d) To authenticate users via biometrics
+Answer: (b)
+Solution: A firewall filters traffic per defined rules; encryption is done by VPN/TLS, malware removal by antivirus, biometrics by authentication systems, so the answer is to monitor and control incoming and outgoing network traffic based on rules.
+Source: Microsoft Support – Windows Firewall
+
+7. Which type of malware secretly gathers user information and sends it to a third party without consent?
+(a) Adware (b) Ransomware (c) Spyware (d) Rootkit
+Answer: (c)
+Solution: Spyware covertly collects data; adware shows ads, ransomware encrypts for ransom, rootkits hide privileged access, so the answer is spyware.
+Source: CERT-In – Malware Classification
+
+8. What does "ransomware" do to a victim's data?
+(a) Deletes it permanently (b) Corrupts file headers to make files unreadable (c) Copies it to a remote server (d) Encrypts it and demands payment for the decryption key
+Answer: (d)
+Solution: Ransomware encrypts files and demands ransom for the key; it does not simply delete, exfiltrate, or corrupt headers as primary action, so the answer is encrypts it and demands payment for the decryption key.
+Source: Microsoft Learn – Ransomware overview
+
+9. Which encryption method uses the same key for both encryption and decryption?
+(a) Asymmetric encryption (b) Symmetric encryption (c) Hashing (d) Digital signature
+Answer: (b)
+Solution: Symmetric encryption uses one shared key; asymmetric uses a key pair, hashing is one-way, digital signatures use asymmetric crypto, so the answer is symmetric encryption.
+Source: NCERT Class 12 Computer Science
+
+10. What does SSL/TLS primarily provide for web communications?
+(a) Data compression (b) Load balancing (c) Encryption, authentication, and integrity (d) Content filtering
+Answer: (c)
+Solution: SSL/TLS secures HTTP by providing encryption, server authentication, and data integrity; it does not compress, balance load, or filter content, so the answer is encryption, authentication, and integrity.
+Source: Microsoft Learn – TLS/SSL protocol
+
+11. Which of the following is a strong password practice?
+(a) Using a passphrase with mixed case, numbers, and symbols, unique per account (b) Using the same password for all accounts (c) Writing passwords on a sticky note near the monitor (d) Sharing passwords with colleagues for convenience
+Answer: (a)
+Solution: Strong passwords are long, complex, unique per account, and never written down or shared; the other options are dangerous habits, so the answer is using a passphrase with mixed case, numbers, and symbols, unique per account.
+Source: CERT-In – Password Security Guidelines
+
+12. What does Multi-Factor Authentication (MFA) require?
+(a) Two different passwords (b) Two or more verification factors from different categories (knowledge, possession, inherence) (c) A password and a security question (d) Biometric scan only
+Answer: (b)
+Solution: MFA combines factors from distinct categories — something you know, have, or are; two passwords or a password plus security question are both knowledge factors, biometric alone is single-factor, so the answer is two or more verification factors from different categories (knowledge, possession, inherence).
+Source: RBI Master Direction – Digital Payment Security Controls
+
+13. What is the role of CERT-In (Indian Computer Emergency Response Team)?
+(a) To prosecute cyber criminals in court (b) To develop antivirus software for government use (c) To collect, analyze, and disseminate information on cyber incidents and issue advisories (d) To manage the .in domain registry
+Answer: (c)
+Solution: CERT-In is the national nodal agency for incident response, coordination, and advisories; it does not prosecute, build antivirus, or manage domains, so the answer is to collect, analyze, and disseminate information on cyber incidents and issue advisories.
+Source: CERT-In Official Website (cert-in.org.in)
+
+14. Which cyber law in India provides legal recognition for electronic records and digital signatures?
+(a) Copyright Act, 1957 (b) Indian Penal Code, 1860 (c) Information Technology Act, 2000 (d) Companies Act, 2013
+Answer: (c)
+Solution: The IT Act, 2000 (amended 2008) governs e-commerce, digital signatures, and cyber offences; IPC covers traditional crimes, Copyright Act covers IP, Companies Act covers corporate law, so the answer is Information Technology Act, 2000.
+Source: Ministry of Electronics and Information Technology – IT Act 2000
+
+15. What is a "zero-day vulnerability"?
+(a) A vulnerability unknown to the vendor with no patch available (b) A vulnerability that has been known for zero days (c) A vulnerability that takes zero days to exploit (d) A vulnerability in software that is zero days old
+Answer: (a)
+Solution: Zero-day means the vendor has had zero days to fix it because it is unknown to them; it is not about exploit speed or software age, so the answer is a vulnerability unknown to the vendor with no patch available.
+Source: Microsoft Security Response Center – Zero-day definition
+
+16. Which attack floods a target with traffic from multiple compromised systems to make it unavailable?
+(a) DoS (b) DDoS (c) MITM (d) SQL Injection
+Answer: (b)
+Solution: DDoS uses a botnet of many systems; DoS is from a single source, MITM intercepts communication, SQL injection targets databases, so the answer is DDoS.
+Source: NCERT Class 12 Computer Science
+
+17. What does a "Man-in-the-Middle" (MITM) attack do?
+(a) Intercepts and possibly alters communication between two parties (b) Injects malicious SQL into a database query (c) Overwhelms a server with requests (d) Tricks a user into revealing credentials via a fake login page
+Answer: (a)
+Solution: MITM secretly relays and alters messages between two parties; SQL injection targets databases, flooding is DoS/DDoS, fake login is phishing, so the answer is intercepts and possibly alters communication between two parties.
+Source: CERT-In – Network Attack Types
+
+18. Which of the following is an example of a "brute force" attack?
+(a) Intercepting network traffic to capture passwords (b) Using a list of common passwords to guess a user's password (c) Exploiting a software bug to bypass authentication (d) Trying every possible password combination until the correct one is found
+Answer: (d)
+Solution: Brute force systematically tries all combinations; dictionary attack uses common lists, exploit bypasses auth, sniffing captures traffic, so the answer is trying every possible password combination until the correct one is found.
+Source: Microsoft Learn – Brute force attack
+
+19. What is the purpose of a "digital signature"?
+(a) To verify the authenticity, integrity, and non-repudiation of a digital document (b) To encrypt the entire message (c) To compress a file for faster transmission (d) To create a backup of a document
+Answer: (a)
+Solution: Digital signatures use asymmetric crypto to prove origin, integrity, and non-repudiation; they do not encrypt the whole message, compress, or back up, so the answer is to verify the authenticity, integrity, and non-repudiation of a digital document.
+Source: IT Act 2000 – Section 3 (Digital Signature)
+
+20. Which Wi-Fi security protocol is currently the most secure among the options?
+(a) WEP (b) WPA (c) WPA3 (d) WPA2
+Answer: (c)
+Solution: WPA3 improves on WPA2 with stronger encryption (SAE), forward secrecy, and better protection against offline attacks; WEP and WPA are deprecated, so the answer is WPA3.
+Source: Wi-Fi Alliance – WPA3 Specification
+
+21. In the context of email security, what does DMARC do?
+(a) Allows domain owners to specify how receivers should handle emails that fail SPF/DKIM checks (b) Encrypts email content end-to-end (c) Scans attachments for malware (d) Blocks all emails from unknown senders
+Answer: (a)
+Solution: DMARC builds on SPF and DKIM to let domain owners publish policies for handling authentication failures; it does not encrypt, scan, or block by sender reputation alone, so the answer is allows domain owners to specify how receivers should handle emails that fail SPF/DKIM checks.
+Source: RFC 7489 – DMARC
+
+22. What is an "Advanced Persistent Threat" (APT)?
+(a) A short-lived malware outbreak (b) A prolonged, targeted cyberattack by a well-resourced adversary aiming to steal data or monitor systems (c) A type of ransomware that spreads via USB drives (d) A vulnerability scanner used by security teams
+Answer: (b)
+Solution: APTs are stealthy, long-term campaigns by sophisticated actors (often nation-states); they are not brief outbreaks, USB ransomware, or scanning tools, so the answer is a prolonged, targeted cyberattack by a well-resourced adversary aiming to steal data or monitor systems.
+Source: CERT-In – APT Advisory
+
+23. Which of the following best describes "SQL Injection"?
+(a) Injecting malicious JavaScript into a web page viewed by other users (b) Stealing session cookies to impersonate a user (c) Overloading a database server with excessive queries (d) Inserting malicious SQL statements into an entry field to manipulate a database
+Answer: (d)
+Solution: SQL injection inserts SQL code into input fields to alter database queries; XSS injects JavaScript, query overload is DoS, cookie theft is session hijacking, so the answer is inserting malicious SQL statements into an entry field to manipulate a database.
+Source: OWASP Top 10 – Injection
+
+24. What is the primary goal of "patch management" in cybersecurity?
+(a) To create backups of critical data (b) To apply vendor updates that fix known vulnerabilities in software and firmware (c) To monitor network traffic for anomalies (d) To train employees on phishing awareness
+Answer: (b)
+Solution: Patch management ensures timely application of security updates; backups, monitoring, and training are separate controls, so the answer is to apply vendor updates that fix known vulnerabilities in software and firmware.
+Source: Microsoft Learn – Patch management best practices
+
+25. Which principle states that a user should be given only the minimum privileges necessary to perform their job functions?
+(a) Defense in depth (b) Separation of duties (c) Zero trust (d) Least privilege
+Answer: (d)
+Solution: Least privilege limits access to the minimum required; defense in depth layers controls, zero trust verifies continuously, separation of duties splits critical tasks, so the answer is least privilege.
+Source: NIST SP 800-53 – Access Control Policy

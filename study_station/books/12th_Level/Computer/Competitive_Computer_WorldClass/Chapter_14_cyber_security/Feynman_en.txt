@@ -1,0 +1,46 @@
+Cyber Security — Simple Analogies & Recall
+
+Think of your digital life as a house. The operating system is the structure, applications are rooms, and data are the valuables inside. Cyber security is the set of locks, alarms, and habits that keep intruders out and limit damage if someone gets in.
+
+**1. Perimeter defence = boundary wall & gate**  
+A firewall filters incoming and outgoing traffic based on rules — like a security guard checking IDs at the gate. It blocks known bad addresses and suspicious patterns. A properly configured firewall stops many automated scans before they reach your applications.
+
+**2. Authentication = key + secret handshake**  
+A password is a key; multi-factor authentication (MFA) adds a second factor — something you have (OTP on phone, hardware token) or something you are (fingerprint). Even if a key is copied, the intruder lacks the second factor. Always enable MFA on email, banking, and government portals.
+
+**3. Encryption = sealed envelope**  
+Data in transit (HTTPS, VPN) and at rest (BitLocker, FileVault, LUKS) is scrambled so only the intended recipient can read it. Without the decryption key, intercepted traffic looks like random characters. Verify the padlock icon and "https://" before entering credentials.
+
+**4. Least privilege = giving the cleaner only the keys to the lobby**  
+User accounts should have only the permissions needed for daily tasks. Administrative accounts are used only for installing software or changing system settings. Malware running under a standard account cannot modify system files or install drivers.
+
+**5. Patching = repairing broken locks promptly**  
+Vendors release updates to fix vulnerabilities. Enable automatic updates for OS, browsers, office suites, and plugins. Unpatched software is the most common entry point for ransomware and remote-access trojans.
+
+**6. Backup = off-site safe deposit box**  
+Follow the 3-2-1 rule: three copies, on two different media, one off-site (cloud or external drive disconnected after backup). Test restoration periodically. A backup you cannot restore is not a backup.
+
+**7. Phishing awareness = verifying the caller before opening the door**  
+Attackers impersonate banks, government agencies, or colleagues. Check sender address, hover over links to see the real URL, and never enter credentials on a page opened from an unsolicited message. Report suspicious emails to your IT team or CERT-In (cert-in.org.in).
+
+**8. Secure configuration = removing spare keys hidden under the mat**  
+Disable unused services (Remote Desktop, SMBv1, AutoRun), remove default accounts, enforce strong password policies, and restrict macro execution in Office. CERT-In and Microsoft Security Baselines provide hardening guides.
+
+---
+
+### Recall Questions
+
+**Q1. What does a firewall primarily do?**  
+Filters network traffic based on predefined rules, blocking unauthorized access while allowing legitimate communication.
+
+**Q2. Why is multi-factor authentication stronger than a password alone?**  
+It requires a second independent factor (possession or biometrics); stealing the password alone is insufficient for access.
+
+**Q3. What does "HTTPS" indicate about a website connection?**  
+The connection uses TLS encryption; data between browser and server is encrypted and the server identity is verified by a certificate authority.
+
+**Q4. Explain the principle of least privilege in one sentence.**  
+Users and processes should operate with the minimum permissions necessary to perform their tasks.
+
+**Q5. State the 3-2-1 backup rule.**  
+Keep three copies of data, on two different storage media, with one copy stored off-site.

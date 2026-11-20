@@ -1,0 +1,71 @@
+Card 1
+Front: What is the primary goal of the CIA triad in information security?
+Back: The CIA triad stands for Confidentiality, Integrity, and Availability — the three core principles guiding information security policies.
+
+Card 2
+Front: Define Confidentiality in the context of cyber security.
+Back: Confidentiality ensures that information is accessible only to authorized individuals, entities, or processes — preventing unauthorized disclosure.
+
+Card 3
+Front: Define Integrity in the context of cyber security.
+Back: Integrity ensures that data is accurate, complete, and protected from unauthorized modification or corruption during storage, transmission, or processing.
+
+Card 4
+Front: Define Availability in the context of cyber security.
+Back: Availability ensures that authorized users have timely and reliable access to information and systems when needed.
+
+Card 5
+Front: What is a firewall and what is its primary function?
+Back: A firewall is a network security device/software that monitors and controls incoming and outgoing network traffic based on predetermined security rules, acting as a barrier between trusted and untrusted networks.
+
+Card 6
+Front: Difference between a virus and a worm.
+Back: A virus requires a host program and user action to spread; a worm is standalone malware that self-replicates and spreads automatically across networks without user interaction.
+
+Card 7
+Front: What is a Trojan horse in cyber security?
+Back: A Trojan horse is malicious software disguised as legitimate software; it does not self-replicate but tricks users into executing it, often creating backdoors for attackers.
+
+Card 8
+Front: Define phishing and give one common indicator.
+Back: Phishing is a social engineering attack where attackers impersonate trusted entities via email/message to steal credentials or deliver malware. Common indicator: urgent language, mismatched sender address, or suspicious links.
+
+Card 9
+Front: What is ransomware?
+Back: Ransomware is malware that encrypts a victim's files or locks systems, demanding payment (usually in cryptocurrency) for the decryption key or access restoration.
+
+Card 10
+Front: What is the purpose of an Intrusion Detection System (IDS)?
+Back: An IDS monitors network or system activities for malicious activities or policy violations and generates alerts; it does not actively block traffic (unlike IPS).
+
+Card 11
+Front: Difference between symmetric and asymmetric encryption.
+Back: Symmetric encryption uses the same key for encryption and decryption (fast, key distribution challenge). Asymmetric encryption uses a public-private key pair (slower, solves key distribution).
+
+Card 12
+Front: What is a Digital Signature and what does it provide?
+Back: A digital signature uses asymmetric cryptography to verify the authenticity, integrity, and non-repudiation of a digital message or document.
+
+Card 13
+Front: What is Multi-Factor Authentication (MFA)?
+Back: MFA requires two or more verification factors from different categories: something you know (password), something you have (OTP token), something you are (biometric).
+
+Card 14
+Front: What is a Zero-Day vulnerability?
+Back: A zero-day vulnerability is a software flaw unknown to the vendor and for which no patch exists; attackers exploit it before developers can fix it.
+
+Card 15
+Front: What is the role of CERT-In in India?
+Back: CERT-In (Indian Computer Emergency Response Team) is the national nodal agency for responding to cyber security incidents, issuing advisories, and coordinating incident response.
+
+Card 16
+Front: What is a Man-in-the-Middle (MitM) attack?
+Back: In a MitM attack, the attacker secretly intercepts and possibly alters communication between two parties who believe they are directly communicating with each other.
+
+Card 17
+Front: What is SQL Injection?
+Back: SQL Injection is a code injection technique where malicious SQL statements are inserted into input fields to manipulate backend databases, potentially exposing or destroying data.
+
+Card 18
+Front: What is the principle of Least Privilege?
+Back: The principle of least privilege states that users/processes should have only the minimum access rights necessary to perform their tasks, reducing attack surface.

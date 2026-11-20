@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 03:09 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
+**आख़िरी update:** 20-11-2026 03:19 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,23 +8,22 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 230 मिनट |
-| W10 | Chapter 14 cyber security (12th Computer) | 🔎 review हो रहा है | 90 मिनट |
-| W11 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 229 मिनट |
-| W12 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 229 मिनट |
-| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 85 मिनट |
-| W4 | Chapter 17 apathit gadyansh (10th Hindi) | 🔎 review हो रहा है | 10 मिनट |
-| W6 | Chapter 12 e banking (12th Computer) | 🔎 review हो रहा है | 194 मिनट |
-| W7 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 11 मिनट |
-| W8 | Chapter 13 networking (12th Computer) | 🔎 review हो रहा है | 12 मिनट |
-| W9 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 4 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 240 मिनट |
+| W10 | Chapter 14 cyber security (12th Computer) | 📤 push हो रहा है | 0 मिनट |
+| W11 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 239 मिनट |
+| W12 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 239 मिनट |
+| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 95 मिनट |
+| W4 | Chapter 17 apathit gadyansh (10th Hindi) | 🔎 review हो रहा है | 20 मिनट |
+| W7 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 21 मिनट |
+| W8 | Chapter 13 networking (12th Computer) | 🔎 review हो रहा है | 22 मिनट |
+| W9 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 14 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 84 |
-| key 4 | 134 |
-| key 5 | 131 |
-| key 6 | 122 |
+| key 3 | 89 |
+| key 4 | 137 |
+| key 5 | 138 |
+| key 6 | 125 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -52,6 +51,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 20-11 15:19 — 12th Computer · Chapter 14 cyber security
 - 20-11 14:57 — 10th Hindi · Chapter 11 vilom
 - 20-11 11:29 — 12th Computer · Chapter 11 email
 
@@ -61,20 +61,11 @@
 - Chapter 09 upsarg pratyay (Hindi) — 2 बार
 - Chapter 13 ek shabd (Hindi) — 1 बार
 - Chapter 14 muhavare lokokti (Hindi) — 1 बार
+- Chapter 12 e banking (Computer) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 14:45:15   [muhavare_lokokti] review Important_Rules_hi.txt round 1: 2 issue(s): - Rule 3: "कान भरना" incorrectly labeled as (क्रिया + संज्ञा) → it is (संज्ञा + क्रिया) because "का
-20-11 14:46:42   [sandhi] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q105 key b vs re-solve a, Q109 key a vs re-solve c, Q110 key c vs re-solve d, Q112 key d vs re-solve
-20-11 14:46:42   [sandhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
-20-11 14:48:12   [cyber_security] review PYQ_hi.txt round 2: 1 issue(s): - 'संक्षिप्तीकरण भ्रम' पंक्ति में 'PKI बनाम PMI' गलत है क्योंकि PMI साइबर सुरक्षा में PKI के साथ भ्रमित होने वा
-20-11 14:48:28   [muhavare_lokokti] review Important_Rules_hi.txt round 2: 2 issue(s): - Rule 2: "घड़ा भरना" given as a मुहावरा meaning "संचय करना" is not a recognized idiom; it is merel
-20-11 14:48:35   [anekarthi_samshrut] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q131 key b vs re-solve c)
-20-11 14:50:55   [e_banking] review Important_Rules_hi.txt round 1: 3 issue(s): - नियम 1 में संपर्क-रहित कार्ड लेनदेन की सीमा ₹2,000 बताई गई है → RBI ने 2021 में यह सीमा ₹5,000 कर
-20-11 14:51:33   [cyber_security] review Important_Rules_en.txt round 1: 1 issue(s): - Example for Secure by Default Configuration claims Windows Server 2022 enables Credential Guard b
-20-11 14:52:10   [vilom] review Mind_Map.txt round 1: 1 issue(s): - D1 under निर्माण नियम: "सुन्दर-कुरूप" is not a prefix-based antonym (उपसर्ग से) like सत्य-असत्य/योग्य-अयोग्
-20-11 14:54:01   [networking] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 20-11 14:55:05   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q77 key b vs re-solve d)
 20-11 14:55:05   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
 20-11 14:56:12   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 1: rejected (Q103:duplicate_options,Q117:duplicate_options,Q120:duplicate_options)
@@ -105,4 +96,14 @@
 20-11 15:05:41   [vakya_shuddhi] Practice_hi_Set_05.txt try 1: rejected (Q108:duplicate_options)
 20-11 15:07:05   [sandhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q128 key b vs re-solve d, Q141 key c vs re-solve b, Q144 key a vs re-solve b, Q145 key d vs re-solve
 20-11 15:07:10   [upsarg_pratyay] review Flashcards_hi.txt round 1: 1 issue(s): - Card 11: Example “कृ + नीय = करणीय” is incorrect → In Hindi the suffix -नीय attaches to the root “कर” 
+20-11 15:10:17   [e_banking] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम 1 का अपवाद संपर्क-रहित कार्ड लेनदेन को ऑनलाइन लेनदेन के 2FA नियम का अपवाद बत
+20-11 15:10:17   [e_banking] review: 6 section(s) corrected, 5 failed
+20-11 15:10:17   [e_banking] written 6, failed 5; AI calls today 478/100000
+20-11 15:10:17 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_12_e_banking after 231 min: todo [] problems []
+20-11 15:10:34 worker 5: nothing left
+20-11 15:12:03   [vakya_shuddhi] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q102 key b vs re-solve ?, Q105 key a vs re-solve d, Q110 key c vs re-solve ?, Q116 key c vs re-solve
+20-11 15:13:10   [anekarthi_samshrut] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q126 key b vs re-solve ?)
+20-11 15:13:10   [apathit_gadyansh] review Feynman_hi.txt round 1: 1 issue(s): - In Question 3 explanation, it incorrectly states that option (घ) "परीक्षा परिणाम संतोषजनक है" is logicall
+20-11 15:19:09   [cyber_security] review: 4 section(s) corrected, 0 failed
+20-11 15:19:09   [cyber_security] written 4, failed 0; AI calls today 493/100000
 ```

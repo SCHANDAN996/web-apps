@@ -1,0 +1,146 @@
+**PYQ Pattern Analysis — Cyber Security**
+
+**1. Recurring Sub-topics**  
+Examiners consistently draw questions from the following stable areas:  
+- Malware taxonomy: virus, worm, trojan, ransomware, spyware, adware, rootkit — definitions and distinguishing features.  
+- Attack vectors: phishing (spear, whaling, vishing, smishing), social engineering, drive-by download, watering-hole, man-in-the-middle, denial-of-service (DoS/DDoS), SQL injection, cross-site scripting (XSS).  
+- Authentication & access control: multi-factor authentication (MFA), biometrics, OTP, password policies, principle of least privilege, role-based access control (RBAC).  
+- Cryptography basics: symmetric vs. asymmetric encryption, hashing (MD5, SHA family), digital signatures, certificates (SSL/TLS), PKI components.  
+- Network security devices: firewall (packet-filtering, stateful, application-layer, next-gen), IDS/IPS, honeypot, VPN, proxy, DMZ.  
+- Security policies & standards: CIA triad, ISO 27001, IT Act 2000 (Sections 43, 66, 66C, 66D, 67), CERT-In incident reporting, RBI cyber-security framework for banks.  
+- Secure browsing & email: HTTPS, HSTS, certificate warnings, PGP/S/MIME, spam filters, SPF/DKIM/DMARC.  
+- Endpoint protection: antivirus/anti-malware, patch management, host-based firewall, application whitelisting, data loss prevention (DLP).  
+- Incident response: detection, containment, eradication, recovery, lessons learned; chain of custody, forensic readiness.  
+- Emerging but stable topics: zero-trust architecture, secure software development lifecycle (SDLC), OWASP Top 10 awareness, cloud shared-responsibility model.
+
+**2. Common Question Patterns**  
+- **Definition-match**: “Which malware replicates itself without user intervention?” → Worm.  
+- **Scenario-based**: “An attacker sends a tailored email to the CFO requesting an urgent fund transfer. This is an example of …” → Whaling.  
+- **Odd-one-out**: “Identify the symmetric encryption algorithm among AES, RSA, ECC, Diffie-Hellman.” → AES.  
+- **Statement-correction**: “SSL operates at the transport layer.” → False; TLS (successor to SSL) operates between transport and application layers.  
+- **Sequence/ordering**: “Arrange the incident-response phases in correct order.”  
+- **Assertion-Reason**: “A: Digital signature provides non-repudiation. R: It uses the sender’s private key.” → Both true, R correctly explains A.  
+- **Negative phrasing**: “Which of the following is NOT a characteristic of a rootkit?”  
+- **Port/protocol mapping**: “HTTPS uses which port by default?” → 443. “SNMP uses which ports?” → 161/162.  
+- **Act/Section recall**: “Under which section of the IT Act is identity theft punishable?” → Section 66C.  
+- **Abbreviation expansion**: “CERT-In stands for …” → Indian Computer Emergency Response Team.
+
+**3. Examiner Traps**  
+- **Near-correct statements**: “A firewall can prevent all types of malware.” (False — firewalls filter traffic, they do not scan file content like antivirus.)  
+- **Chronological confusion**: “SSL 3.0 is the latest secure protocol.” (False — deprecated; TLS 1.2/1.3 are current.)  
+- **Similar-name confusion**: “Worm vs. Virus” — worm self-propagates; virus needs host file. “Phishing vs. Pharming” — phishing uses deception; pharming redirects DNS. “IDS vs. IPS” — IDS detects/alerts; IPS detects/blocks.  
+- **Scope overstatement**: “Antivirus guarantees 100% protection.” (False — signature/heuristic based, zero-day may bypass.)  
+- **Layer misplacement**: “IPsec works at the application layer.” (False — network layer.)  
+- **Certificate confusion**: “A self-signed certificate provides the same trust as a CA-signed certificate.” (False — no third-party validation.)  
+- **MFA factor confusion**: “Password + PIN is two-factor authentication.” (False — both are knowledge factors; need something you have or are.)  
+- **Legal provision mix-up**: “Section 66 deals with cyber terrorism.” (False — Section 66F covers cyber terrorism; Section 66 is computer-related offences.)  
+- **Port-number swaps**: “SSH uses port 23.” (False — Telnet uses 23; SSH uses 22.)  
+- **Hash vs. encryption**: “MD5 can be decrypted to retrieve the original password.” (False — hashing is one-way.)
+
+**4. PYQ-style Original Examples**  
+*(Labelled PYQ-style; not from any specific paper)*  
+
+**Example 1**  
+Which of the following malware types does NOT require a host program to propagate?  
+(a) Virus  
+(b) Worm  
+(c) Trojan  
+(d) Logic bomb  
+**Answer: (b)**  
+**Solution:** A worm is standalone malware that replicates across networks without attaching to a host file. Viruses need a host; trojans masquerade as legitimate software; logic bombs are dormant code triggered by conditions.  
+**Source: PYQ-style**
+
+**Example 2**  
+A user receives an SMS claiming to be from their bank, asking them to click a link and verify account details. This attack is best classified as:  
+(a) Vishing  
+(b) Smishing  
+(c) Spear phishing  
+(d) Whaling  
+**Answer: (b)**  
+**Solution:** Smishing = SMS + phishing. Vishing uses voice calls; spear phishing targets specific individuals via email; whaling targets senior executives.  
+**Source: PYQ-style**
+
+**Example 3**  
+Which encryption algorithm is asymmetric?  
+(a) AES  
+(b) DES  
+(c) RSA  
+(d) Blowfish  
+**Answer: (c)**  
+**Solution:** RSA uses a public-private key pair. AES, DES, and Blowfish are symmetric (single shared key).  
+**Source: PYQ-style**
+
+**Example 4**  
+The primary purpose of a honeypot in network security is to:  
+(a) Block malicious traffic at the perimeter  
+(b) Detect and analyse attacker behaviour in a controlled environment  
+(c) Encrypt data in transit  
+(d) Authenticate remote users  
+**Answer: (b)**  
+**Solution:** Honeypots are decoy systems designed to attract, detect, and study attacks without risking production assets.  
+**Source: PYQ-style**
+
+**Example 5**  
+Under the Information Technology Act, 2000, punishment for identity theft is prescribed under:  
+(a) Section 43  
+(b) Section 66  
+(c) Section 66C  
+(d) Section 67  
+**Answer: (c)**  
+**Solution:** Section 66C specifically addresses identity theft (using another’s electronic signature, password, or unique identification feature). Section 43 covers damage to computer systems; Section 66 covers computer-related offences broadly; Section 67 deals with obscene material.  
+**Source: PYQ-style**
+
+**Example 6**  
+Which of the following is NOT a factor category in multi-factor authentication?  
+(a) Something you know  
+(b) Something you have  
+(c) Something you are  
+(d) Something you did  
+**Answer: (d)**  
+**Solution:** Standard MFA factors are knowledge (password/PIN), possession (token/smartphone), and inherence (biometrics). “Something you did” (behavioural) is not a primary factor category.  
+**Source: PYQ-style**
+
+**Example 7**  
+A digital signature provides:  
+1. Confidentiality  
+2. Integrity  
+3. Non-repudiation  
+4. Availability  
+Select the correct combination:  
+(a) 1 and 2 only  
+(b) 2 and 3 only  
+(c) 1, 2 and 3  
+(d) 2, 3 and 4  
+**Answer: (b)**  
+**Solution:** Digital signatures ensure integrity (hash match) and non-repudiation (private key binding). They do not encrypt the message (confidentiality) nor guarantee system uptime (availability).  
+**Source: PYQ-style**
+
+**Example 8**  
+The default port for HTTPS traffic is:  
+(a) 80  
+(b) 443  
+(c) 22  
+(d) 25  
+**Answer: (b)**  
+**Solution:** Port 443 is standard for HTTPS (HTTP over TLS/SSL). Port 80 = HTTP, 22 = SSH, 25 = SMTP.  
+**Source: PYQ-style**
+
+**Example 9**  
+Which statement about SSL/TLS is correct?  
+(a) SSL 3.0 is more secure than TLS 1.2  
+(b) TLS operates at the application layer  
+(c) A certificate signed by a trusted CA prevents man-in-the-middle attacks  
+(d) TLS uses only symmetric encryption for the entire session  
+**Answer: (c)**  
+**Solution:** Trusted CA validation mitigates MITM by verifying server identity. SSL 3.0 is deprecated and insecure. TLS operates between transport and application layers. TLS uses asymmetric encryption for key exchange, then symmetric for bulk data.  
+**Source: PYQ-style**
+
+**Example 10**  
+In the CIA triad, “Integrity” means:  
+(a) Information is accessible only to authorised users  
+(b) Information is accurate, complete, and protected from unauthorised modification  
+(c) Systems are operational when needed  
+(d) Actions can be traced to a specific user  
+**Answer: (b)**  
+**Solution:** Confidentiality = authorised access only. Integrity = accuracy & protection from unauthorised change. Availability = timely access. Accountability/non-repudiation = traceability.  
+**Source: PYQ-style**

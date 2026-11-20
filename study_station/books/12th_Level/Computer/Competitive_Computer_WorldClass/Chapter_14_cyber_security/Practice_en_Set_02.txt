@@ -1,0 +1,149 @@
+26. Which of the following malware types replicates itself without requiring a host program and spreads across networks independently?
+(a) Virus (b) Trojan horse (c) Worm (d) Ransomware
+Answer: (c)
+Solution: A virus attaches to a host file and needs user action to execute, while a worm is standalone code that self-replicates and propagates automatically through network vulnerabilities, so the answer is Worm.
+Source: NCERT Class 11 Computer Science
+
+27. In a phishing attack where the attacker targets a specific individual or organization after gathering personal details, what is this variant called?
+(a) Whaling (b) Smishing (c) Vishing (d) Spear phishing
+Answer: (d)
+Solution: Whaling targets high-profile executives, vishing uses voice calls, and smishing uses SMS; spear phishing is the tailored attack against a specific person or group using researched information, so the answer is Spear phishing.
+Source: CERT-In Advisory CIAD-2021-0012
+
+28. Which protocol provides encryption for data in transit between a web browser and a server, indicated by "https://" in the URL?
+(a) HTTP (b) TLS/SSL (c) FTP (d) SMTP
+Answer: (b)
+Solution: HTTP and FTP transmit data in plaintext, SMTP is for email transfer; TLS (Transport Layer Security) and its predecessor SSL encrypt the communication channel, so the answer is TLS/SSL.
+Source: Microsoft Learn — HTTPS and TLS/SSL overview
+
+29. What is the primary purpose of a firewall in network security?
+(a) Monitor and control incoming/outgoing traffic based on rules (b) Detect and remove viruses from files (c) Encrypt stored data on hard drives (d) Authenticate users via biometrics
+Answer: (a)
+Solution: Antivirus software handles malware detection, encryption tools protect data at rest, and biometric systems handle authentication; a firewall filters network traffic according to defined security policies, so the answer is Monitor and control incoming/outgoing traffic based on rules.
+Source: NCERT Class 12 Computer Science
+
+30. Which authentication factor category does a one-time password (OTP) sent to a registered mobile number belong to?
+(a) Something you have (b) Something you know (c) Something you are (d) Somewhere you are
+Answer: (a)
+Solution: Passwords and PINs are "something you know"; biometrics are "something you are"; location is "somewhere you are"; an OTP delivered to a physical device in your possession proves "something you have", so the answer is Something you have.
+Source: RBI Master Direction on Digital Payment Security Controls
+
+31. A digital signature provides which of the following security services?
+(a) Integrity, authentication, and non-repudiation (b) Confidentiality only (c) Availability only (d) Authorization only
+Answer: (a)
+Solution: Encryption provides confidentiality; digital signatures use asymmetric cryptography to verify the sender's identity (authentication), ensure the message was not altered (integrity), and prevent the sender from denying they sent it (non-repudiation), so the answer is Integrity, authentication, and non-repudiation.
+Source: Information Technology Act, 2000 (Section 3)
+
+32. Which type of attack floods a target system with excessive traffic from multiple compromised devices to make it unavailable?
+(a) DDoS (b) DoS (c) MITM (d) SQL injection
+Answer: (a)
+Solution: DoS originates from a single source; MITM intercepts communication; SQL injection targets databases; DDoS (Distributed Denial of Service) uses a botnet of many compromised devices to overwhelm the target, so the answer is DDoS.
+Source: CERT-In Vulnerability Note CIVN-2022-0001
+
+33. In the context of password security, what does "salting" refer to?
+(a) Storing passwords in plaintext with a prefix (b) Encrypting the password with a symmetric key (c) Adding random data to a password before hashing (d) Using the same hash for all users
+Answer: (c)
+Solution: Salting adds unique random data to each password before hashing so identical passwords produce different hashes, defeating rainbow table attacks; it is not encryption, plaintext storage, or shared hashes, so the answer is Adding random data to a password before hashing.
+Source: Microsoft Learn — Password hashing and salting
+
+34. Which Indian agency is the national nodal agency for responding to cyber security incidents?
+(a) NIC (b) NIA (c) CERT-In (d) TRAI
+Answer: (c)
+Solution: NIC provides network infrastructure; NIA investigates terrorism; TRAI regulates telecom; CERT-In (Indian Computer Emergency Response Team) is designated under the IT Act as the national incident response agency, so the answer is CERT-In.
+Source: Information Technology Act, 2000 (Section 70B)
+
+35. What does the "S" in HTTPS stand for?
+(a) Standard (b) Socket (c) Server (d) Secure
+Answer: (d)
+Solution: HTTPS = HyperText Transfer Protocol Secure; the "S" indicates the connection is secured via TLS/SSL, not Socket, Server, or Standard, so the answer is Secure.
+Source: Microsoft Learn — HTTPS overview
+
+36. Which of the following is a symmetric encryption algorithm?
+(a) RSA (b) AES (c) ECC (d) Diffie-Hellman
+Answer: (b)
+Solution: RSA, ECC, and Diffie-Hellman are asymmetric (public-key) algorithms; AES (Advanced Encryption Standard) uses the same key for encryption and decryption, making it symmetric, so the answer is AES.
+Source: NCERT Class 12 Computer Science
+
+37. A security policy that grants users only the minimum permissions necessary to perform their duties follows which principle?
+(a) Defense in depth (b) Least privilege (c) Zero trust (d) Separation of duties
+Answer: (b)
+Solution: Defense in depth layers multiple controls; zero trust verifies every request; separation of duties divides critical tasks; least privilege specifically means giving only the minimum required access, so the answer is Least privilege.
+Source: Microsoft Learn — Principle of least privilege
+
+38. Which attack involves injecting malicious SQL statements into an input field to manipulate a database?
+(a) XSS (b) CSRF (c) Buffer overflow (d) SQL injection
+Answer: (d)
+Solution: XSS injects client-side scripts; CSRF forces unwanted actions; buffer overflow exploits memory handling; SQL injection directly targets database queries through unsanitized inputs, so the answer is SQL injection.
+Source: CERT-In Advisory CIAD-2020-0005
+
+39. What is the purpose of a DMZ (Demilitarized Zone) in network architecture?
+(a) Encrypt all internal traffic (b) Isolate internal networks from the internet by placing public-facing servers in a separate segment (c) Block all incoming connections (d) Store backup data offline
+Answer: (b)
+Solution: A DMZ hosts public services (web, mail) in a semi-trusted zone between the internet and the private network, limiting exposure if compromised; it does not encrypt traffic, block all connections, or store backups, so the answer is Isolate internal networks from the internet by placing public-facing servers in a separate segment.
+Source: NCERT Class 12 Computer Science
+
+40. Which of the following best describes ransomware?
+(a) Software that displays unwanted advertisements (b) Malware that encrypts files and demands payment for decryption (c) A program that secretly monitors user activity (d) Code that replicates itself across networks
+Answer: (b)
+Solution: Adware shows ads; spyware monitors activity; worms self-replicate; ransomware specifically encrypts victim data and demands ransom for the decryption key, so the answer is Malware that encrypts files and demands payment for decryption.
+Source: CERT-In Advisory CIAD-2021-0008
+
+41. In public key infrastructure (PKI), which key is used to verify a digital signature?
+(a) Sender's private key (b) Receiver's private key (c) Sender's public key (d) Receiver's public key
+Answer: (c)
+Solution: The sender signs with their private key; anyone can verify using the sender's public key; receiver's keys are not involved in signature verification, so the answer is Sender's public key.
+Source: Information Technology Act, 2000 (Section 3)
+
+42. What does the term "zero-day vulnerability" mean?
+(a) A vulnerability that has been patched for zero days (b) A vulnerability with zero severity rating (c) A vulnerability unknown to the vendor with no patch available (d) A vulnerability discovered on day zero of software release
+Answer: (c)
+Solution: Zero-day means the vendor has had zero days to fix it because they were unaware; it is not about patch age, severity, or release date, so the answer is A vulnerability unknown to the vendor with no patch available.
+Source: CERT-In Vulnerability Notes format
+
+43. Which email authentication protocol allows domain owners to specify which mail servers are authorized to send email on their behalf?
+(a) DKIM (b) SPF (c) DMARC (d) TLS
+Answer: (b)
+Solution: DKIM adds cryptographic signatures; DMARC sets policy for handling failures; TLS encrypts transport; SPF (Sender Policy Framework) publishes authorized sending IPs in DNS, so the answer is SPF.
+Source: Microsoft Learn — Email authentication (SPF, DKIM, DMARC)
+
+44. A user receives a call claiming to be from their bank asking for OTP to "verify" their account. This is an example of:
+(a) Phishing (b) Pharming (c) Smishing (d) Vishing
+Answer: (d)
+Solution: Phishing uses email; smishing uses SMS; pharming redirects DNS; vishing (voice phishing) uses phone calls to extract sensitive information, so the answer is Vishing.
+Source: RBI Cyber Security Awareness Booklet
+
+45. Which Windows feature (Windows 10/11) provides built-in ransomware protection by controlling folder access for untrusted applications?
+(a) Windows Defender Firewall (b) Windows Hello (c) BitLocker (d) Controlled Folder Access
+Answer: (d)
+Solution: Firewall filters network traffic; BitLocker encrypts drives; Windows Hello handles biometric login; Controlled Folder Access (part of Windows Security) blocks unauthorized apps from modifying protected folders, so the answer is Controlled Folder Access.
+Source: Microsoft Support — Protect folders with Controlled Folder Access
+
+46. In browser security, what does a padlock icon in the address bar indicate?
+(a) The website is completely safe from all threats (b) The website is government-approved (c) The website has no cookies (d) The connection uses HTTPS and the certificate is valid
+Answer: (d)
+Solution: The padlock only means TLS encryption and valid certificate; it does not guarantee the site is malware-free, cookie-less, or government-endorsed, so the answer is The connection uses HTTPS and the certificate is valid.
+Source: Microsoft Learn — HTTPS and certificate validation
+
+47. Which of the following is NOT a characteristic of a strong password policy?
+(a) Reuse of last 5 passwords allowed (b) Minimum length of 12 characters (c) Mix of uppercase, lowercase, numbers, symbols (d) Account lockout after failed attempts
+Answer: (a)
+Solution: Strong policies enforce length, complexity, and lockout; they prohibit recent password reuse (typically last 10-24), so allowing reuse of last 5 is weak, so the answer is Reuse of last 5 passwords allowed.
+Source: Microsoft Learn — Password policy best practices
+
+48. What is the primary function of an Intrusion Detection System (IDS)?
+(a) Monitor network traffic and alert on suspicious activity (b) Block malicious traffic automatically (c) Encrypt data at rest (d) Manage user passwords
+Answer: (a)
+Solution: IPS (Intrusion Prevention System) blocks traffic; IDS only monitors and alerts; encryption and password management are separate functions, so the answer is Monitor network traffic and alert on suspicious activity.
+Source: NCERT Class 12 Computer Science
+
+49. Under the IT Act 2000 (as amended), which section deals with punishment for identity theft?
+(a) Section 67 (b) Section 66D (c) Section 66C (d) Section 43
+Answer: (c)
+Solution: Section 66D covers cheating by personation using computer resource; Section 67 covers obscene content; Section 43 covers damage to computer systems; Section 66C specifically defines and punishes identity theft, so the answer is Section 66C.
+Source: Information Technology Act, 2000 (Section 66C)
+
+50. A security analyst observes that an attacker has intercepted communication between two parties and is altering messages in transit without their knowledge. This attack is best classified as:
+(a) Man-in-the-Middle attack (b) Replay attack (c) Session hijacking (d) ARP poisoning
+Answer: (a)
+Solution: Replay attacks reuse captured data; session hijacking steals session tokens; ARP poisoning is a technique for MITM on LAN; the described scenario of intercepting and modifying live communication is the definition of a Man-in-the-Middle attack, so the answer is Man-in-the-Middle attack.
+Source: CERT-In Advisory CIAD-2019-0015

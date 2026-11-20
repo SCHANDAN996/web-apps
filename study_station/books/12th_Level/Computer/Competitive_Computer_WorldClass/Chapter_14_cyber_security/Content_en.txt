@@ -1,0 +1,135 @@
+Cyber Security
+
+Introduction
+Cyber security is the practice of protecting computers, networks, programs, and data from unauthorized access, attacks, damage, or theft. For government exams (SSC CHSL, CGL, Bank PO/Clerk, Railway, State PSC), the syllabus expects familiarity with core concepts, common threat types, preventive measures, and basic terminology — not deep technical implementation.
+
+The CIA Triad
+Three principles form the foundation of information security:
+- Confidentiality: Only authorized persons can view data.
+- Integrity: Data remains accurate and unaltered unless changed by authorized action.
+- Availability: Systems and data are accessible when needed.
+
+Common Threat Categories
+1. Malware (Malicious Software)
+   - Virus: Attaches to executable files; spreads when the host runs.
+   - Worm: Self-replicating; spreads across networks without a host file.
+   - Trojan: Disguised as legitimate software; opens backdoors.
+   - Ransomware: Encrypts files and demands payment for decryption.
+   - Spyware: Secretly monitors user activity (keystrokes, browsing).
+   - Adware: Displays unwanted ads; often bundled with free software.
+
+2. Social Engineering
+   - Phishing: Fraudulent emails/messages mimicking trusted entities to steal credentials.
+   - Spear Phishing: Targeted phishing aimed at specific individuals/organizations.
+   - Vishing: Voice phishing via phone calls.
+   - Smishing: SMS-based phishing.
+   - Pretexting: Creating a fabricated scenario to obtain information.
+   - Baiting: Luring victims with something desirable (e.g., infected USB drive).
+
+3. Network Attacks
+   - Man-in-the-Middle (MitM): Attacker intercepts and possibly alters communication between two parties.
+   - Denial of Service (DoS) / Distributed DoS (DDoS): Overwhelms a system with traffic to make it unavailable.
+   - DNS Spoofing / Cache Poisoning: Redirects users to malicious sites by corrupting DNS records.
+   - ARP Spoofing: Associates attacker's MAC address with a legitimate IP on a LAN.
+   - Session Hijacking: Steals session tokens to impersonate a user.
+
+4. Application-Level Attacks
+   - SQL Injection: Injects malicious SQL into input fields to manipulate databases.
+   - Cross-Site Scripting (XSS): Injects malicious scripts into trusted websites viewed by other users.
+   - Buffer Overflow: Sends more data than a buffer can hold, potentially executing arbitrary code.
+
+5. Password Attacks
+   - Brute Force: Tries all possible combinations.
+   - Dictionary Attack: Uses common word lists.
+   - Credential Stuffing: Uses leaked username/password pairs from other breaches.
+   - Rainbow Table Attack: Uses precomputed hash tables to reverse password hashes.
+
+Preventive Measures & Best Practices
+- Strong Passwords: Minimum 12 characters, mixed case, numbers, symbols; unique per account.
+- Multi-Factor Authentication (MFA): Combines something you know (password), something you have (OTP, authenticator app), and/or something you are (biometric).
+- Software Updates: Apply OS, browser, and application patches promptly; enable automatic updates where possible.
+- Antivirus / Anti-malware: Use reputable software; keep definitions current; run regular scans.
+- Firewall: Enable host-based (Windows Defender Firewall, etc.) and network firewalls; block unnecessary inbound connections.
+- Email Hygiene: Do not open unexpected attachments; verify sender addresses; hover links before clicking; report suspicious mail.
+- Secure Browsing: Prefer HTTPS; avoid entering credentials on HTTP sites; clear cache/cookies periodically; use ad-blockers.
+- Data Backup: Follow the 3-2-1 rule — three copies, two different media, one offsite (or cloud). Test restores periodically.
+- Encryption: Use BitLocker (Windows), FileVault (macOS), or LUKS (Linux) for full-disk encryption; use TLS/SSL for data in transit; use VPN on public Wi-Fi.
+- Least Privilege: Use standard (non-admin) accounts for daily work; elevate only when necessary.
+- Mobile Security: Install apps only from official stores; review permissions; enable device encryption and remote wipe.
+
+Indian Context: CERT-In & RBI Guidelines
+- CERT-In (Indian Computer Emergency Response Team): Nodal agency for cyber security incidents. Mandates incident reporting within 6 hours (per 2022 directions). Maintains advisories on vulnerabilities and best practices.
+- RBI Cyber Security Framework for Banks: Requires board-approved policy, SOC (Security Operations Centre), regular VAPT (Vulnerability Assessment & Penetration Testing), and incident response plans.
+- IT Act, 2000 (amended 2008): Legal framework for cyber crimes — Sections 43 (damage), 66 (hacking), 66C (identity theft), 66D (cheating by personation), 67 (obscene content), 72 (breach of confidentiality).
+
+Worked Examples
+
+Example 1: Identifying a Phishing Email
+Scenario: You receive an email claiming to be from "SBI Bank" with subject "Urgent: Your Account Will Be Closed." The sender address is "security@sbi-bank-services.xyz" (not @sbi.co.in). The email urges you to click a link to "verify your KYC" within 2 hours.
+Analysis: (1) Sender domain mismatch — official SBI emails use @sbi.co.in. (2) Urgency pressure tactic. (3) Generic greeting ("Dear Customer"). (4) Link likely leads to a fake login page.
+Correct Action: Do not click. Report to bank's phishing reporting address. Delete the email. Log in directly via the official website/app to check account status.
+
+Example 2: Choosing a Strong Password
+Task: Create a strong password for a government exam portal account.
+Weak: "Pass@123" (common pattern, short), "Rajesh1995" (personal info), "password123" (dictionary).
+Strong: "Tr!b3#V0y@g3r$2024" (16 chars, mixed case, numbers, symbols, no dictionary words) — or a passphrase: "Correct-Horse-Battery-Staple-7!$" (long, memorable, high entropy).
+Principle: Length > complexity alone. Use a password manager to generate and store unique passwords.
+
+Example 3: Recognizing a Tech Support Scam
+Scenario: A pop-up appears: "Windows Security Alert — Your computer is infected! Call +1-800-XXX-XXXX immediately." The browser cannot be closed normally.
+Analysis: Legitimate OS/security software never shows phone numbers in alerts. This is a browser-based scareware page (often triggered by malicious ads).
+Correct Action: Close browser via Task Manager (Ctrl+Shift+Esc → End Task). Do not call the number. Run a full antivirus scan. Clear browser cache.
+
+Example 4: Secure Wi-Fi Usage
+Scenario: You need to check email at a railway station using free public Wi-Fi.
+Risk: Open Wi-Fi allows MitM attacks; traffic can be sniffed.
+Mitigation: (1) Use a trusted VPN (encrypts all traffic). (2) Avoid logging into banking/govt portals. (3) Ensure sites use HTTPS (padlock icon). (4) Turn off auto-connect to open networks. (5) Forget the network after use.
+
+Example 5: Ransomware Response
+Scenario: Your office PC displays a ransom note: files encrypted, pay 0.5 BTC to decrypt.
+Immediate Steps: (1) Disconnect from network (unplug Ethernet, turn off Wi-Fi) to prevent spread. (2) Do not pay — no guarantee of decryption; funds criminal activity. (3) Report to IT department / CERT-In. (4) Restore from clean offline backup. (5) Identify infection vector (phishing email, unpatched RDP, etc.) and remediate.
+
+Example 6: Verifying a Website's Authenticity
+Scenario: You click a link for "Income Tax e-Filing" and land on a page asking for PAN and password.
+Checks: (1) URL: Must be https://www.incometax.gov.in/ (official domain). Look for typosquatting: "incometax-gov.in", "incometaxgov.in", "incometax.gov.in.phishersite.com". (2) TLS certificate: Click padlock → "Connection is secure" → "Certificate is valid" → Issued to "incometax.gov.in". (3) Extended Validation (EV) certificates show organization name in address bar (less common now). (4) Bookmark official URLs; avoid search-engine links for sensitive sites.
+
+Common Errors & Misconceptions (Exam Traps)
+1. "Antivirus alone is enough." — False. AV is one layer; it cannot stop zero-day exploits, social engineering, or unpatched vulnerabilities.
+2. "Mac/Linux don't get malware." — False. All OSes are targets; market share affects volume, not immunity.
+3. "HTTPS means the site is safe." — False. HTTPS only encrypts transport; a phishing site can have a valid TLS certificate.
+4. "Complex password changed every 30 days is best." — Outdated guidance. NIST and modern standards recommend long, unique passwords changed only on compromise; frequent rotation leads to weaker patterns.
+5. "Incognito/Private mode hides me from my ISP/employer." — False. It only prevents local history/cookies; network traffic is still visible.
+6. "Firewall and antivirus are the same." — False. Firewall controls network traffic (allow/block ports/IPs); antivirus scans files/processes for malicious code.
+7. "Email from a known contact is safe." — False. Accounts get compromised; always verify unexpected attachments/links via another channel.
+8. "Mobile apps from Play Store/App Store are always safe." — Mostly true, but malicious apps occasionally slip through; review permissions and developer reputation.
+9. "Backup on the same drive protects against ransomware." — False. Ransomware encrypts connected drives; offline/offsite backup is essential.
+10. "Cyber security is only IT department's job." — False. Human error is the leading cause of breaches; every user is a defense layer.
+
+Key Terminology for Quick Revision
+- Zero-day: Vulnerability unknown to vendor; no patch exists.
+- Patch Tuesday: Microsoft's monthly security update release (second Tuesday).
+- VAPT: Vulnerability Assessment & Penetration Testing.
+- SOC: Security Operations Centre — monitors, detects, responds to incidents.
+- SIEM: Security Information and Event Management — aggregates logs for correlation.
+- IOC: Indicator of Compromise — forensic artifact (hash, IP, domain) signaling intrusion.
+- APT: Advanced Persistent Threat — stealthy, prolonged, state-sponsored or organized crime.
+- Shadow IT: Unauthorized hardware/software used within organization.
+- Data Exfiltration: Unauthorized transfer of data out of the network.
+- Honeypot: Decoy system to attract and study attackers.
+
+Examination Pointers
+- Questions test conceptual clarity, not tool-specific syntax.
+- Expect scenario-based MCQs: "What should you do first?" "Which is the strongest password?" "Identify the attack type."
+- Know the difference between virus, worm, trojan, ransomware.
+- Know phishing variants (spear, whale, vishing, smishing).
+- Know CIA triad and which principle each control supports.
+- Know CERT-In role and 6-hour reporting (current direction).
+- Know RBI framework applies to regulated entities (banks, NBFCs, payment systems).
+- Avoid memorizing version numbers (e.g., "Windows 11 23H2 features") — focus on enduring concepts.
+
+Sources for Further Study
+- CERT-In Advisories: https://www.cert-in.org.in/
+- RBI Cyber Security Framework: https://www.rbi.org.in/
+- NCERT Computer Science textbooks (Class 11–12) — networking and security chapters.
+- Microsoft Learn: Security fundamentals, Defender, BitLocker, Windows Firewall.
+- NIST Cybersecurity Framework (CSF) — Identify, Protect, Detect, Respond, Recover.

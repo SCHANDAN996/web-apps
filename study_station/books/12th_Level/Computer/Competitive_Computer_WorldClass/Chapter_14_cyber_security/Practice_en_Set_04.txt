@@ -1,0 +1,149 @@
+76. Which of the following best defines "phishing" in cyber security?
+(a) A malware that encrypts files and demands payment for decryption (b) A fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity (c) A network attack that overwhelms a server with excessive traffic (d) A software vulnerability that allows unauthorized code execution
+Answer: (b)
+Solution: Option (a) describes ransomware, not phishing. Phishing specifically involves social engineering through deceptive communications like fake emails or websites to steal credentials or financial data, so the answer is a fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity.
+Source: PYQ-style
+
+77. What is the primary function of a firewall in network security?
+(a) To detect and remove viruses from infected files (b) To monitor and control incoming and outgoing network traffic based on predetermined security rules (c) To encrypt data transmitted over the internet (d) To create backup copies of important system files
+Answer: (b)
+Solution: Option (a) describes antivirus software, while (c) describes encryption tools. A firewall acts as a barrier between trusted and untrusted networks, filtering traffic based on security rules, so the answer is to monitor and control incoming and outgoing network traffic based on predetermined security rules.
+Source: PYQ-style
+
+78. Which malware type replicates itself by attaching to executable files and spreads when the infected program runs?
+(a) Worm (b) Virus (c) Trojan horse (d) Spyware
+Answer: (b)
+Solution: Option (a) describes a worm, which spreads independently without needing a host file. A virus specifically requires a host program to attach to and executes its code when the host runs, so the answer is virus.
+Source: PYQ-style
+
+79. In the context of password security, what does "salting" refer to?
+(a) Adding random data to a password before hashing to prevent rainbow table attacks (b) Using a combination of uppercase, lowercase, numbers, and symbols (c) Changing passwords every 30 days (d) Storing passwords in plain text with a prefix
+Answer: (a)
+Solution: Option (b) describes password complexity requirements, not salting. Salting adds unique random data to each password before hashing, making precomputed hash tables (rainbow tables) ineffective, so the answer is adding random data to a password before hashing to prevent rainbow table attacks.
+Source: PYQ-style
+
+80. Which protocol provides secure communication over a computer network and is widely used for HTTPS?
+(a) SSL/TLS (b) FTP (c) HTTP (d) SMTP
+Answer: (a)
+Solution: Option (b) is for file transfer, (c) is unsecured web traffic, and (d) is for email. SSL/TLS encrypts data in transit and authenticates servers, forming the basis of HTTPS, so the answer is SSL/TLS.
+Source: PYQ-style
+
+81. What is a "zero-day vulnerability"?
+(a) A vulnerability that affects only newly installed software (b) A vulnerability that has been known for zero days and has no patch available (c) A vulnerability discovered on the first day of software release (d) A vulnerability that cannot be exploited
+Answer: (b)
+Solution: Option (c) is a common misconception — zero-day refers to the vendor having zero days to fix it, not the release date. It means the vulnerability is unknown to the vendor and no patch exists, so the answer is a vulnerability that has been known for zero days and has no patch available.
+Source: PYQ-style
+
+82. Which Indian law primarily governs cyber crimes and electronic commerce?
+(a) Information Technology Act, 2000 (b) Indian Penal Code, 1860 (c) Companies Act, 2013 (d) Digital Personal Data Protection Act, 2023
+Answer: (a)
+Solution: Option (d) focuses on data protection, while the IT Act 2000 (amended 2008) is the primary legislation for cyber crimes, electronic signatures, and e-governance, so the answer is Information Technology Act, 2000.
+Source: PYQ-style
+
+83. What does a "Man-in-the-Middle" (MitM) attack involve?
+(a) An attacker secretly intercepts and possibly alters communication between two parties (b) An attacker floods a network with traffic to make it unavailable (c) An attacker guesses passwords through trial and error (d) An attacker installs malware through a malicious website
+Answer: (a)
+Solution: Option (b) describes a DoS/DDoS attack. In MitM, the attacker positions themselves between the victim and the intended destination to eavesdrop or manipulate data, so the answer is an attacker secretly intercepts and possibly alters communication between two parties.
+Source: PYQ-style
+
+84. Which of the following is a characteristic of a strong password?
+(a) Contains personal information like birthdate (b) Uses a common dictionary word with numbers appended (c) Is the same across multiple accounts for easy recall (d) Is at least 12 characters with mixed case, numbers, and symbols
+Answer: (d)
+Solution: Options (a), (b), and (c) are all weak password practices. Length, complexity, and uniqueness are key strength factors, so the answer is at least 12 characters with mixed case, numbers, and symbols.
+Source: PYQ-style
+
+85. What is the purpose of two-factor authentication (2FA)?
+(a) To encrypt data on a hard drive (b) To create two separate user accounts (c) To require two different types of credentials for verification (d) To scan for malware twice daily
+Answer: (c)
+Solution: Option (a) describes disk encryption. 2FA combines something you know (password) with something you have (OTP, token) or something you are (biometric), so the answer is to require two different types of credentials for verification.
+Source: PYQ-style
+
+86. Which type of malware secretly monitors user activity and collects information without consent?
+(a) Spyware (b) Adware (c) Ransomware (d) Rootkit
+Answer: (a)
+Solution: Option (b) displays unwanted ads, (c) encrypts files for ransom, and (d) hides malicious processes. Spyware specifically gathers data like keystrokes, browsing habits, or credentials covertly, so the answer is spyware.
+Source: PYQ-style
+
+87. What does "SQL injection" target?
+(a) Web browsers through malicious scripts (b) Network routers by exploiting firmware bugs (c) Database-driven applications by inserting malicious SQL code (d) Operating system kernels via buffer overflow
+Answer: (c)
+Solution: Options (b), (a), and (d) describe different attack vectors. SQL injection exploits improper input validation in database queries, allowing attackers to execute arbitrary SQL commands, so the answer is database-driven applications by inserting malicious SQL code.
+Source: PYQ-style
+
+88. Which wireless security protocol is currently considered the most secure for Wi-Fi networks?
+(a) WEP (b) WPA (c) WPA3 (d) WPA2
+Answer: (c)
+Solution: Options (a), (b), and (d) are older standards with known vulnerabilities. WPA3 introduces stronger encryption (SAE), forward secrecy, and better protection against brute-force attacks, so the answer is WPA3.
+Source: PYQ-style
+
+89. What is a "digital signature" primarily used for?
+(a) To encrypt the entire message content (b) To verify the authenticity and integrity of a digital document (c) To compress files for faster transmission (d) To create a backup of electronic records
+Answer: (b)
+Solution: Option (a) describes encryption. A digital signature uses asymmetric cryptography to prove the sender's identity and that the document was not altered, so the answer is to verify the authenticity and integrity of a digital document.
+Source: PYQ-style
+
+90. Which of the following best describes a "botnet"?
+(a) A type of antivirus software (b) A legitimate network for distributed computing (c) A network of compromised computers controlled by an attacker (d) A firewall configuration tool
+Answer: (c)
+Solution: Option (b) describes volunteer computing like SETI@home. A botnet consists of infected devices (bots) remotely controlled by a command-and-control server for malicious activities, so the answer is a network of compromised computers controlled by an attacker.
+Source: PYQ-style
+
+91. What is the main purpose of a "honeypot" in cyber security?
+(a) To store passwords securely (b) To block malicious IP addresses automatically (c) To encrypt network traffic (d) To attract and detect attackers by simulating vulnerable systems
+Answer: (d)
+Solution: Options (a), (c), and (b) describe other security tools. A honeypot is a decoy system designed to lure attackers, study their methods, and divert them from real assets, so the answer is to attract and detect attackers by simulating vulnerable systems.
+Source: PYQ-style
+
+92. Which social engineering technique involves a phone call to trick someone into revealing information?
+(a) Phishing (b) Smishing (c) Vishing (d) Spear phishing
+Answer: (c)
+Solution: Option (a) is email-based, (b) is SMS-based, and (d) is targeted email. Vishing (voice phishing) uses telephone calls to manipulate victims, so the answer is vishing.
+Source: PYQ-style
+
+93. What does "patch management" involve?
+(a) Creating passwords for user accounts (b) Configuring firewall rules (c) Monitoring network bandwidth usage (d) Regularly updating software to fix vulnerabilities
+Answer: (d)
+Solution: Options (a), (c), and (b) are unrelated administrative tasks. Patch management is the process of identifying, testing, and deploying updates to fix security flaws and bugs, so the answer is regularly updating software to fix vulnerabilities.
+Source: PYQ-style
+
+94. Which of the following is an example of a "Denial of Service" (DoS) attack?
+(a) Sending massive traffic to a server to make it unavailable (b) Stealing user credentials through a fake login page (c) Installing a keylogger on a victim's computer (d) Intercepting unencrypted Wi-Fi traffic
+Answer: (a)
+Solution: Options (b), (c), and (d) are credential theft, malware, and eavesdropping respectively. DoS aims to disrupt service availability by overwhelming resources, so the answer is sending massive traffic to a server to make it unavailable.
+Source: PYQ-style
+
+95. What is the role of a "Certificate Authority" (CA) in PKI?
+(a) To issue and verify digital certificates (b) To generate private keys for users (c) To encrypt email messages (d) To manage firewall policies
+Answer: (a)
+Solution: Option (b) is done by the user or their system. A CA is a trusted third party that validates identities and issues digital certificates binding public keys to entities, so the answer is to issue and verify digital certificates.
+Source: PYQ-style
+
+96. In Public Key Infrastructure (PKI), which key is used to decrypt a message that was encrypted with the recipient's public key?
+(a) The sender's public key (b) The sender's private key (c) The recipient's public key (d) The recipient's private key
+Answer: (d)
+Solution: Option (c) is a common trap — the public key encrypts, but only the matching private key can decrypt. Asymmetric encryption ensures only the intended recipient with the private key can read the message, so the answer is the recipient's private key.
+Source: PYQ-style
+
+97. Which VPN protocol uses SSL/TLS for key exchange and can traverse NAT and firewalls easily?
+(a) PPTP (b) L2TP/IPsec (c) OpenVPN (d) IKEv2
+Answer: (c)
+Solution: Options (a), (b), and (d) often face firewall/NAT traversal issues. OpenVPN runs over TCP/UDP port 443 (HTTPS), uses SSL/TLS, and easily bypasses most network restrictions, so the answer is OpenVPN.
+Source: PYQ-style
+
+98. What does the "CIA triad" represent in information security?
+(a) Control, Inspection, Audit (b) Confidentiality, Integrity, Availability (c) Classification, Identification, Authentication (d) Compliance, Investigation, Analysis
+Answer: (b)
+Solution: Options (a), (c), and (d) are security processes, not the core principles. The CIA triad is the foundational model: Confidentiality (authorized access only), Integrity (data accuracy), Availability (systems accessible when needed), so the answer is Confidentiality, Integrity, Availability.
+Source: PYQ-style
+
+99. Which security standard provides a framework for an Information Security Management System (ISMS)?
+(a) ISO 22000 (b) ISO 9001 (c) ISO 14001 (d) ISO 27001
+Answer: (d)
+Solution: Option (b) is for quality management, (c) for environmental management, (a) for food safety. ISO/IEC 27001 specifies requirements for establishing, implementing, and maintaining an ISMS, so the answer is ISO 27001.
+Source: PYQ-style
+
+100. What is the primary goal of "incident response" in cyber security?
+(a) To prevent all future attacks permanently (b) To install the latest antivirus software (c) To prosecute attackers in court (d) To detect, contain, eradicate, and recover from security incidents
+Answer: (d)
+Solution: Option (a) is impossible — no system can prevent all attacks. Incident response is a structured process (preparation, detection, containment, eradication, recovery, lessons learned) to minimize damage and restore operations, so the answer is to detect, contain, eradicate, and recover from security incidents.
+Source: PYQ-style

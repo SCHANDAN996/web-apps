@@ -1,0 +1,32 @@
+```mermaid
+graph TD
+    A["साइबर सुरक्षा / Cyber Security"] --> B["खतरे / Threats"]
+    A --> C["रक्षा उपाय / Defense Measures"]
+    A --> D["कानून और नीति / Laws & Policy"]
+    A --> E["सर्वोत्तम अभ्यास / Best Practices"]
+    
+    B --> B1["मैलवेयर / Malware"]
+    B --> B2["फ़िशिंग / Phishing"]
+    B --> B3["रैंसमवेयर / Ransomware"]
+    B --> B4["सामाजिक इंजीनियरिंग / Social Engineering"]
+    B --> B5["DDoS हमले / DDoS Attacks"]
+    B --> B6["मैन-इन-द-मिडिल / Man-in-the-Middle"]
+    
+    C --> C1["फ़ायरवॉल / Firewall"]
+    C --> C2["एंटीवायरस / Antivirus"]
+    C --> C3["एन्क्रिप्शन / Encryption"]
+    C --> C4["द्वि-कारक प्रमाणीकरण / 2FA"]
+    C --> C5["VPN / Virtual Private Network"]
+    C --> C6["पैच प्रबंधन / Patch Management"]
+    
+    D --> D1["IT अधिनियम 2000 / IT Act 2000"]
+    D --> D2["CERT-In दिशानिर्देश / CERT-In Guidelines"]
+    D --> D3["RBI साइबर सुरक्षा ढांचा / RBI Cyber Framework"]
+    D --> D4["डेटा संरक्षण अधिनियम 2023 / DPDP Act 2023"]
+    
+    E --> E1["मजबूत पासवर्ड / Strong Passwords"]
+    E --> E2["नियमित बैकअप / Regular Backups"]
+    E --> E3["सॉफ़्टवेयर अद्यतन / Software Updates"]
+    E --> E4["संदिग्ध लिंक से बचें / Avoid Suspicious Links"]
+    E --> E5["सुरक्षित ब्राउज़िंग / Safe Browsing"]
+```
