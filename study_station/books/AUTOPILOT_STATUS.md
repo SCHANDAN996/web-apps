@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 08:30 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 07:28 AM
+**आख़िरी update:** 20-11-2026 08:45 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 07:28 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 62 मिनट |
-| W2 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 12 मिनट |
-| W3 | Chapter 11 email (12th Computer) | 🔎 review हो रहा है | 26 मिनट |
-| W4 | Chapter 11 vilom (10th Hindi) | 🔎 review हो रहा है | 62 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 77 मिनट |
+| W2 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 27 मिनट |
+| W3 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 2 मिनट |
+| W4 | Chapter 12 e banking (12th Computer) | ✍️ लिख रहा है | 7 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 32 |
-| key 4 | 50 |
+| key 3 | 37 |
+| key 4 | 64 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -49,30 +49,12 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 09 upsarg pratyay (Hindi) — 1 बार
+- Chapter 11 vilom (Hindi) — 1 बार
+- Chapter 11 email (Computer) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 07:54:53   [upsarg_pratyay] review Flashcards_hi.txt round 2: 4 issue(s): - Card 4: The example “दु+” + “कर्म” = “दुष्कर्म” is wrong; the prefix “दु-” becomes “दुः” before क, so 
-20-11 07:56:51   [upsarg_pratyay] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 4: "दु-" उपसर्ग के नियम में त्रुटि → लिखा है "क, ख, ग, घ, ङ के पहले विसर्ग हो जात
-20-11 07:56:51   [upsarg_pratyay] review PYQ_hi.txt: resumed private correction draft
-20-11 07:58:07   [sandhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q26 key d vs re-solve c, Q28 key b vs re-solve c, Q29 key a vs re-solve c, Q30 key a vs re-solve ?, 
-20-11 07:58:08   [upsarg_pratyay] review PYQ_hi.txt round 1: 2 issue(s): - In Pattern B, option (a) incorrectly lists the suffix as "नीया" instead of "नीय" → Option (a) should read "नी
-20-11 07:59:07   [vilom] review Key_Facts_hi.txt: resumed private correction draft
-20-11 07:59:07   [vilom] 2026-11-20 02:29:07,774 WARNING NVIDIA rate_limited — retrying in 20s
-20-11 08:01:37   [vilom] review Key_Facts_hi.txt round 1: 3 issue(s): - Point 20 incorrectly labels the pairs “सत्य–झूठ”, “अमृत–ज़हर”, “धर्म–कुकर्म” as तत्सम–तद्भव विलोम युग्म
-20-11 08:02:38   [vilom] review Key_Facts_hi.txt round 2: 2 issue(s): - Point 12 states “सु–/कु– उपसर्ग युग्म” but the examples use the “दु–” prefix (दुर्जन, दुशील) instead of
-20-11 08:03:17   [paryayvachi] review: 1 section(s) corrected, 0 failed
-20-11 08:03:17   [paryayvachi] written 1, failed 0; AI calls today 42/100000
-20-11 08:03:40 DONE 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_10_paryayvachi in 35 min → 2ecfd2b4
-20-11 08:03:42 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_11_email (OK: todo 0, problems 0)
-20-11 08:03:42   [email] review Key_Facts_hi.txt: resumed private correction draft
-20-11 08:04:21   [upsarg_pratyay] review PYQ_hi.txt round 2: 1 issue(s): - Pattern ब: option (a) shows “नीया” but the correct suffix is “नीय” → change option (a) to “नीय”
-20-11 08:06:18   [upsarg_pratyay] review Important_Rules_hi.txt: resumed private correction draft
-20-11 08:08:52   [upsarg_pratyay] review Important_Rules_hi.txt round 1: 6 issue(s): - नियम ३ के उदाहरण "उपकरना" और "उपजल" मानक हिन्दी शब्द नहीं हैं; ये नियम को स्पष्ट नहीं करते → सही 
-20-11 08:09:31   [sandhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q26 key c vs re-solve b, Q28 key a vs re-solve b, Q30 key c vs re-solve ?, Q38 key d vs re-solve ?, 
-20-11 08:09:45   [email] review Key_Facts_hi.txt round 1: 1 issue(s): - Point 16 states that `#` is the spam shortcut for Gmail/Outlook.com → In Gmail `#` deletes a message (s
-20-11 08:12:17   [email] review Mind_Map.txt round 1: 1 issue(s): - B3: "MIME: मल्टीमीडिया एक्सटेंशन / Extensions" → MIME stands for "Multipurpose Internet Mail Extensions" (ब
 20-11 08:13:09   [vilom] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 7: The rule for ‘अन–’ says it attaches only to words beginning with vowels or य, 
 20-11 08:13:09   [vilom] review Mind_Map.txt: resumed private correction draft
 20-11 08:15:04   [upsarg_pratyay] review Important_Rules_hi.txt round 2: 5 issue(s): - Rule 1: The claimed tadbhav forms “प्रति → पिर” and “उप → उब” are incorrect; these prefixes do no
@@ -93,4 +75,24 @@
 20-11 08:27:01   [vilom] REJECTED review fix Mind_Map.txt: reviewer still reports - D1 में "सुन्दर-कुरूप" को उपसर्ग-निर्मित विलोम बताया गया है, जबकि "कुरूप" "सुन्दर" में उपसर्
 20-11 08:27:53   [vilom] 2026-11-20 02:57:53,692 WARNING NVIDIA rate_limited — retrying in 20s
 20-11 08:28:58   [email] review PYQ_hi.txt round 2: 1 issue(s): - "लोकल-पार्ट तकनीकी रूप से केस-सेंसिटिव हो सकता है (RFC 5321)" in the common mistakes section is inaccurate; R
+20-11 08:30:58   [sandhi] Practice_hi_Set_03.txt try 2: rejected (Q74:duplicate_options)
+20-11 08:32:01   [vilom] review PYQ_hi.txt round 1: 1 issue(s): - In Practice Question 3 explanation, it incorrectly states that the antonym of "पुत्र" is "पुत्रहीन"; "पुत्रही
+20-11 08:34:41   [vilom] review Important_Rules_hi.txt round 1: 8 issue(s): - Rule 1 example “बालक → बालिका” changes gender (पुल्लिंग → स्त्रीलिंग) while the rule states gende
+20-11 08:36:48   [vilom] review Important_Rules_hi.txt round 2: 6 issue(s): - Rule 2: Example “पवित्र → अनपवित्र” uses an incorrect prefix; the standard opposite is “अपवित्र”.
+20-11 08:38:26   [vilom] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम २ की उपसर्ग सूची में “अनु‑” को नकारात्मक उपसर्ग बताया गया है → “अनु‑” नकारात
+20-11 08:38:26   [vilom] review: 2 section(s) corrected, 3 failed
+20-11 08:38:26   [vilom] written 2, failed 3; AI calls today 90/100000
+20-11 08:38:27 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_11_vilom after 70 min: todo [] problems []
+20-11 08:38:28 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_12_e_banking (TODO: todo 25, problems 0)
+20-11 08:40:11   [email] REJECTED review fix PYQ_hi.txt: reviewer still reports - PYQ-style 1: Answer (c) Subject is given as the only non-mandatory header, but Message-ID is 
+20-11 08:40:35   [email] review Important_Rules_en.txt round 1: 2 issue(s): - Rule 8 presents “Government/PSU norms: 24 hours for external, 4 hours for internal urgent” as a u
+20-11 08:43:02   [email] review: 4 section(s) corrected, 1 failed
+20-11 08:43:02   [email] written 4, failed 1; AI calls today 96/100000
+20-11 08:43:02 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_11_email after 39 min: todo [] problems []
+20-11 08:43:03 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd (TODO: todo 13, problems 0)
+20-11 08:43:04   [ek_shabd] Hindi-only writer: direct Hindi content; English generation and translation disabled
+20-11 08:43:16   [sandhi] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q51 key d vs re-solve b, Q53 key a vs re-solve b, Q54 key a vs re-solve b, Q55 key b vs re-solve ?, 
+20-11 08:44:25   [e_banking] wrote Content_en.txt (11276 chars)
+20-11 08:45:14   [e_banking] wrote Content_hi.txt (8550 chars)
+20-11 08:45:53   [e_banking] wrote Key_Facts_en.txt (6714 chars)
 ```
