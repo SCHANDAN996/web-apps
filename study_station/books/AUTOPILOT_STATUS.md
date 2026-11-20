@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 06:45 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 04:41 PM
+**आख़िरी update:** 20-11-2026 07:00 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 04:41 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,16 +8,16 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 123 मिनट |
-| W7 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 122 मिनट |
-| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 122 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 138 मिनट |
+| W7 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 138 मिनट |
+| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 138 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 36 |
-| key 4 | 38 |
-| key 5 | 48 |
-| key 6 | 37 |
+| key 3 | 39 |
+| key 4 | 41 |
+| key 5 | 52 |
+| key 6 | 38 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -57,12 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 17:39:31 worker 3: nothing left
-20-11 17:39:32   [vakya_shuddhi] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q27 key b vs re-solve c, Q30 key a vs re-solve d, Q37 key c vs re-solve d, Q40 key b vs re-solve d, 
-20-11 17:42:02   [anekarthi_samshrut] review Important_Rules_hi.txt round 1: 3 issue(s): - नियम १ में "मुख" का अर्थ "मुख्य/प्रधान" बताया गया है → "मुख" का अर्थ केवल 'मुँह/चेहरा' होता है; "
-20-11 17:43:54   [rikt_sthan_vakya_kram] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q28 key d vs re-solve b, Q42 key a vs re-solve c, Q43 key c vs re-solve a, Q48 key a vs re-solve b, 
-20-11 17:45:49   [anekarthi_samshrut] review Important_Rules_hi.txt round 2: 3 issue(s): - Rule 13 incorrectly cites "राजभाषा भारती" as a dictionary; it is a magazine, not a dictionary. → 
-20-11 17:47:27   [anekarthi_samshrut] review: 4 section(s) corrected, 3 failed
 20-11 17:47:27   [anekarthi_samshrut] written 4, failed 3; AI calls today 114/100000
 20-11 17:47:27 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_12_anekarthi_samshrut after 65 min: todo [] problems []
 20-11 17:47:42 worker 2: nothing left
@@ -97,4 +91,10 @@
 20-11 18:39:17   [vakya_shuddhi] Practice_hi_Set_04.txt try 1: rejected (Q86:duplicate_options,Q91:duplicate_options)
 20-11 18:40:00   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q101 key a vs re-solve b, Q102 key c vs re-solve a, Q111 key b vs re-solve a, Q118 key b vs re-solve
 20-11 18:40:20   [sandhi] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q102 key b vs re-solve c, Q103 key d vs re-solve c, Q108 key a vs re-solve b, Q111 key c vs re-solve
+20-11 18:49:36   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q101 key a vs re-solve b, Q111 key c vs re-solve b, Q117 key a vs re-solve b, Q118 key b vs re-solve
+20-11 18:53:22   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q101 key a vs re-solve b)
+20-11 18:55:57   [sandhi] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q102 key c vs re-solve b, Q103 key a vs re-solve c, Q120 key c vs re-solve a, Q122 key d vs re-solve
+20-11 18:56:46   [vakya_shuddhi] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q77 key d vs re-solve b, Q90 key a vs re-solve c, Q94 key c vs re-solve b)
+20-11 18:58:30   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q101 key a vs re-solve b, Q111 key c vs re-solve b, Q118 key d vs re-solve a)
+20-11 18:58:30   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
 ```
