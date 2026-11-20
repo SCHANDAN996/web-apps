@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 06:14 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 04:41 PM
+**आख़िरी update:** 20-11-2026 06:30 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 04:41 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,16 +8,16 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 93 मिनट |
-| W7 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 92 मिनट |
-| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 92 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 108 मिनट |
+| W7 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 107 मिनट |
+| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 107 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 33 |
-| key 4 | 31 |
-| key 5 | 42 |
-| key 6 | 29 |
+| key 3 | 35 |
+| key 4 | 35 |
+| key 5 | 44 |
+| key 6 | 33 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -57,14 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 17:35:22   [ek_shabd] wrote Practice_hi_Set_06.txt (write, 25 MCQs)
-20-11 17:35:22   [ek_shabd] written 2, failed 1; AI calls today 101/100000
-20-11 17:35:22 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd after 53 min: todo ['Set 03 hi: todo'] problems []
-20-11 17:35:37 worker 4: nothing left
-20-11 17:38:05   [sandhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q26 key a vs re-solve c, Q29 key c vs re-solve d, Q31 key c vs re-solve b, Q32 key d vs re-solve c, 
-20-11 17:38:30   [anekarthi_samshrut] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 2 table, 'तत्सम-तद्भव युग्म' column lists incorrect pairs 'शत्रु/सत्रु', 'विद्या/बिद्
-20-11 17:38:30   [anekarthi_samshrut] review Important_Rules_hi.txt: resumed private correction draft
-20-11 17:39:03   [upsarg_pratyay] review: 1 section(s) corrected, 1 failed
 20-11 17:39:03   [upsarg_pratyay] written 1, failed 1; AI calls today 105/100000
 20-11 17:39:03 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay after 57 min: todo [] problems []
 20-11 17:39:12   [e_banking] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नए UPI उपयोगकर्ता के लिए पहले 24 घंटे में ₹5,000 प्रति लेनदेन की प्रारंभिक सीमा क
@@ -97,4 +89,12 @@
 20-11 18:12:50   [sandhi] Practice_hi_Set_03.txt try 1: rejected (Q53:duplicate_options,Q56:duplicate_options,Q57:duplicate_options,Q64:duplicate_options,Q65:duplicate_options)
 20-11 18:13:15   [vakya_shuddhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q27 key d vs re-solve b, Q40 key a vs re-solve d, Q46 key b vs re-solve c, Q48 key b vs re-solve a)
 20-11 18:13:15   [vakya_shuddhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
+20-11 18:16:18   [sandhi] Practice_hi_Set_03.txt try 2: rejected (Q56:duplicate_options)
+20-11 18:20:31   [vakya_shuddhi] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q69 key a vs re-solve d)
+20-11 18:22:17   [sandhi] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q52 key d vs re-solve c, Q56 key a vs re-solve c, Q58 key d vs re-solve a, Q65 key d vs re-solve b)
+20-11 18:22:32   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q86 key d vs re-solve a)
+20-11 18:24:15   [sandhi] Practice_hi_Set_03.txt try 4: rejected (Q65:duplicate_options)
+20-11 18:24:15   [sandhi] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+20-11 18:26:31   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q96 key b vs re-solve c)
+20-11 18:28:33   [vakya_shuddhi] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q59 key a vs re-solve b, Q69 key b vs re-solve d)
 ```
