@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 07:07 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
+**आख़िरी update:** 20-11-2026 07:23 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 vilom (10th Hindi) | 🔎 review हो रहा है | 13 मिनट |
-| W2 | Chapter 11 email (12th Computer) | 🔎 review हो रहा है | 13 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 78 मिनट |
-| W4 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 150 मिनट |
+| W1 | Chapter 11 vilom (10th Hindi) | 🔎 review हो रहा है | 28 मिनट |
+| W2 | Chapter 11 email (12th Computer) | 🔎 review हो रहा है | 28 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 93 मिनट |
+| W4 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 165 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 190 |
-| key 4 | 131 |
+| key 3 | 196 |
+| key 4 | 143 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -56,15 +56,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 05:55:50   [vilom] Hindi-only writer: direct Hindi content; English generation and translation disabled
-20-11 05:58:48   [sandhi] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q5 key d vs re-solve a, Q7 key d vs re-solve c, Q11 key c vs re-solve a, Q12 key a vs re-solve d, Q1
-20-11 06:05:32   [anekarthi_samshrut] wrote Practice_hi_Set_03.txt (write, 25 MCQs)
-20-11 06:06:37   [vilom] Practice_hi_Set_01.txt try 1: rejected (parsed 24 questions, numbers 1…25)
-20-11 06:06:50   [sandhi] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q11 key c vs re-solve a, Q13 key d vs re-solve c, Q14 key c vs re-solve ?, Q15 key a vs re-solve ?, 
-20-11 06:07:09   [vilom] Practice_hi_Set_01.txt try 2: rejected (parsed 24 questions, numbers 1…25)
-20-11 06:07:32   [email] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-20-11 06:07:38   [email] 2026-11-20 00:37:38,040 WARNING NVIDIA rate_limited — retrying in 20s
-20-11 06:10:15   [email] wrote Practice_en_Set_05.txt (write, 25 MCQs)
 20-11 06:10:50   [email] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 20-11 06:16:14   [anekarthi_samshrut] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q78 key b vs re-solve ?, Q83 key a vs re-solve ?, Q94 key b vs re-solve d, Q96 key b vs re-solve ?, 
 20-11 06:19:57   [sandhi] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q11 key a vs re-solve c, Q14 key c vs re-solve b, Q15 key d vs re-solve c, Q18 key d vs re-solve c, 
@@ -96,4 +87,13 @@
 20-11 07:05:18   [vilom] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 7: The rule for ‘अन–’ prefix states it attaches only to words beginning with vowe
 20-11 07:05:52   [sandhi] Practice_hi_Set_03.txt try 1: rejected (Q52:duplicate_options,Q56:duplicate_options,Q57:duplicate_options,Q58:duplicate_options,Q62:duplicate_options)
 20-11 07:07:10   [vilom] review Feynman_hi.txt round 1: 2 issue(s): - Section 1 claims “भाषा में भी हर शब्द का एक 'उल्टा साथी' होता है” → Not every word has an antonym; should
+20-11 07:09:14   [vilom] review Mind_Map.txt round 1: 3 issue(s): - सर्वनाम विलोम: मैं-तू → सर्वनाम के विलोम नहीं होते; उदाहरण गलत है, सही: यह-वह / कोई-नहीं
+20-11 07:09:55   [email] review Key_Facts_hi.txt round 1: 1 issue(s): - Point 20 claims Gmail and Outlook.com use the same search‑operator syntax (e.g., `before:`/`after:`); O
+20-11 07:10:40   [vilom] review Mind_Map.txt round 2: 3 issue(s): - संज्ञा विलोम उदाहरण "राजा-प्रजा" गलत है; प्रजा विलोम नहीं, संबंधित शब्द है → संज्ञा विलोम: राजा-रंक / अमीर-
+20-11 07:12:11   [email] review Key_Facts_hi.txt round 2: 1 issue(s): - Point 15: “Ctrl+Shift+M नया मेमो” → “Ctrl+Shift+M नया मेल” (Outlook में यह शॉर्टकट नया मेल/संदेश बनाता 
+20-11 07:12:31   [anekarthi_samshrut] 2026-11-20 01:42:31,912 WARNING NVIDIA rate_limited — retrying in 20s
+20-11 07:12:43   [sandhi] Practice_hi_Set_03.txt try 2: rejected (Q52:duplicate_options,Q65:duplicate_options,Q67:duplicate_options,Q69:duplicate_options)
+20-11 07:14:06   [vilom] REJECTED review fix Mind_Map.txt: reviewer still reports - D1: The note "(कु- उपसर्ग)" incorrectly implies all three pairs use the prefix कु-; only कु
+20-11 07:18:51   [anekarthi_samshrut] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q109 key a vs re-solve ?, Q112 key d vs re-solve ?, Q117 key d vs re-solve a, Q123 key a vs re-solve
+20-11 07:20:28   [sandhi] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q51 key a vs re-solve c, Q53 key d vs re-solve a, Q59 key b vs re-solve c, Q64 key a vs re-solve c, 
 ```
