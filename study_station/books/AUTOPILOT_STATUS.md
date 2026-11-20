@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 03:39 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
+**आख़िरी update:** 20-11-2026 03:55 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,18 +8,18 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W11 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 260 मिनट |
-| W12 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 260 मिनट |
-| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | 🔎 review हो रहा है | 3 मिनट |
-| W7 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 42 मिनट |
-| W8 | Chapter 13 networking (12th Computer) | 🔎 review हो रहा है | 43 मिनट |
+| W11 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 275 मिनट |
+| W12 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 275 मिनट |
+| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | 🔎 review हो रहा है | 19 मिनट |
+| W7 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 57 मिनट |
+| W8 | Chapter 13 networking (12th Computer) | 🔎 review हो रहा है | 58 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 99 |
-| key 4 | 140 |
-| key 5 | 145 |
-| key 6 | 136 |
+| key 3 | 104 |
+| key 4 | 151 |
+| key 5 | 156 |
+| key 6 | 144 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -64,25 +64,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 15:10:17   [e_banking] written 6, failed 5; AI calls today 478/100000
-20-11 15:10:17 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_12_e_banking after 231 min: todo [] problems []
-20-11 15:10:34 worker 5: nothing left
-20-11 15:12:03   [vakya_shuddhi] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q102 key b vs re-solve ?, Q105 key a vs re-solve d, Q110 key c vs re-solve ?, Q116 key c vs re-solve
-20-11 15:13:10   [anekarthi_samshrut] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q126 key b vs re-solve ?)
-20-11 15:13:10   [apathit_gadyansh] review Feynman_hi.txt round 1: 1 issue(s): - In Question 3 explanation, it incorrectly states that option (घ) "परीक्षा परिणाम संतोषजनक है" is logicall
-20-11 15:19:09   [cyber_security] review: 4 section(s) corrected, 0 failed
-20-11 15:19:09   [cyber_security] written 4, failed 0; AI calls today 493/100000
-20-11 15:19:26 DONE 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_14_cyber_security in 240 min → c9df2e63
-20-11 15:19:26 worker 9: nothing left
-20-11 15:20:05   [upsarg_pratyay] review Flashcards_hi.txt round 2: 2 issue(s): - Card 11 front incorrectly labels "करणीय" as a suffix; the suffix is "-नीय" and "करणीय" is a word forme
-20-11 15:22:15   [anekarthi_samshrut] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q126 key b vs re-solve ?, Q146 key c vs re-solve a, Q150 key c vs re-solve d)
-20-11 15:22:30   [upsarg_pratyay] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 4: The rule for "दु-" incorrectly includes 'ह' in the list of consonants that tri
-20-11 15:22:30   [upsarg_pratyay] review Important_Rules_hi.txt: resumed private correction draft
-20-11 15:26:01   [vakya_shuddhi] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q102 key d vs re-solve ?, Q103 key b vs re-solve ?, Q104 key d vs re-solve ?, Q116 key d vs re-solve
-20-11 15:26:52   [ek_shabd] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q10 key d vs re-solve a, Q19 key c vs re-solve a, Q23 key a vs re-solve b, Q24 key c vs re-solve a)
-20-11 15:29:21   [apathit_gadyansh] review Important_Rules_hi.txt round 1: 2 issue(s): - Rule 9 example: "1947 में आज़ादी मिली। तत्पश्चात संविधान सभा बनी।" is historically incorrect; the
-20-11 15:29:30   [upsarg_pratyay] review Important_Rules_hi.txt round 1: 5 issue(s): - नियम ८ में "अनपढ़" को तद्भव रूप बताना गलत है → "अनपढ़" तत्सम (संस्कृत अनपठित से) है, तद्भव रूप "अ
-20-11 15:31:30   [sandhi] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q128 key d vs re-solve b, Q133 key b vs re-solve d, Q137 key a vs re-solve d, Q138 key b vs re-solve
 20-11 15:32:56   [upsarg_pratyay] review Important_Rules_hi.txt round 2: 7 issue(s): - Rule 6 gives wrong examples for क्त and क्त्वा: "किया → कृत" uses a Hindi verb form instead of th
 20-11 15:35:19   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q102 key b vs re-solve a)
 20-11 15:35:37   [upsarg_pratyay] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम ७, बिन्दु ८ में "इक/क — छोटा/तुच्छ" शीर्षक गलत है: "इक" तद्धित प्रत्यय सम्बन
@@ -104,4 +85,23 @@
 20-11 15:38:14 worker 3: nothing left
 20-11 15:38:24   [anekarthi_samshrut] review Content_hi.txt round 1: 7 issue(s): - "बादल" entry in the polysemous table lists meanings "बदली (धुंध)" and "बदनाम (अपमानित)" which are separat
 20-11 15:39:57   [ek_shabd] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q14 key a vs re-solve b, Q19 key a vs re-solve c, Q20 key c vs re-solve b)
+20-11 15:41:42   [vakya_shuddhi] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q121 key d vs re-solve b, Q124 key a vs re-solve b)
+20-11 15:41:42   [vakya_shuddhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
+20-11 15:43:11   [anekarthi_samshrut] review Content_hi.txt round 2: 5 issue(s): - The meaning 'बेंच/पंक्ति' given for 'बैंक' in the अनेकार्थी table, Example 5, Quick Revision table, Flash
+20-11 15:43:50   [ek_shabd] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q12 key b vs re-solve d, Q18 key d vs re-solve b, Q19 key c vs re-solve a)
+20-11 15:43:50   [ek_shabd] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
+20-11 15:46:18   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q102 key b vs re-solve a, Q106 key c vs re-solve ?, Q108 key d vs re-solve a, Q109 key a vs re-solve
+20-11 15:46:18   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
+20-11 15:47:09   [anekarthi_samshrut] REJECTED review fix Content_hi.txt: reviewer still reports - The definition of समश्रुत भिन्नार्थक requires identical pronunciation, but the pairs "बाद
+20-11 15:47:38   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 1: rejected (Q129:duplicate_options)
+20-11 15:48:03   [anekarthi_samshrut] review Key_Facts_hi.txt round 1: 9 issue(s): - Point 2: Definition says समश्रुत words have different spelling, but example "कर / कर" has identical spe
+20-11 15:48:05   [ek_shabd] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q53 key a vs re-solve b, Q58 key c vs re-solve a, Q67 key d vs re-solve b, Q71 key b vs re-solve c, 
+20-11 15:49:45   [anekarthi_samshrut] review Key_Facts_hi.txt round 2: 4 issue(s): - समश्रुत भिन्नार्थक उदाहरण सूची में गलत युग्म दिए गए हैं: **फल / फळ**, **बाल / बॉल**, **पिता / पीता**, *
+20-11 15:50:43   [vakya_shuddhi] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q127 key b vs re-solve ?, Q130 key c vs re-solve ?, Q133 key a vs re-solve ?, Q138 key b vs re-solve
+20-11 15:50:48   [anekarthi_samshrut] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - "सुन / सून" को समश्रुत भिन्नार्थक बताया गया है, लेकिन उच्चारण भिन्न है (सुन = लघु उ, सू
+20-11 15:51:55   [networking] review PYQ_en.txt round 1: 1 issue(s): - In section 3 (IP Addressing & Subnetting), the PYQ-style example states "Answer: (c)" for the last usable hos
+20-11 15:52:14   [anekarthi_samshrut] review Feynman_hi.txt round 1: 5 issue(s): - Section 1 table: "कल" meaning "मशीन/यंत्र" is incorrect (कल = time/art; machine is कलपुर्जा/यंत्र), "बाँस
+20-11 15:52:31   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q149 key b vs re-solve a)
+20-11 15:54:51   [anekarthi_samshrut] review Feynman_hi.txt round 2: 3 issue(s): - अनेकार्थी शब्द तालिका में "कल" के अर्थ 2 में "कला / हुनर / विद्या" दिया गया है → "कल" (समय) और "कला" (कला
+20-11 15:54:57   [ek_shabd] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q58 key a vs re-solve c, Q64 key d vs re-solve c, Q72 key b vs re-solve c)
 ```
