@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 08:45 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 07:28 AM
+**आख़िरी update:** 20-11-2026 09:01 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 07:28 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 77 मिनट |
-| W2 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 27 मिनट |
-| W3 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 2 मिनट |
-| W4 | Chapter 12 e banking (12th Computer) | ✍️ लिख रहा है | 7 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 93 मिनट |
+| W2 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 43 मिनट |
+| W3 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 18 मिनट |
+| W4 | Chapter 12 e banking (12th Computer) | ✍️ लिख रहा है | 22 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 37 |
-| key 4 | 64 |
+| key 3 | 51 |
+| key 4 | 68 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -55,21 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 08:13:09   [vilom] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 7: The rule for ‘अन–’ says it attaches only to words beginning with vowels or य, 
-20-11 08:13:09   [vilom] review Mind_Map.txt: resumed private correction draft
-20-11 08:15:04   [upsarg_pratyay] review Important_Rules_hi.txt round 2: 5 issue(s): - Rule 1: The claimed tadbhav forms “प्रति → पिर” and “उप → उब” are incorrect; these prefixes do no
-20-11 08:17:57   [upsarg_pratyay] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम ७, बिंदु ८ में "इक/क — छोटा/तुच्छ" गलत है; "इक" सम्बन्धवाचक है, केवल "क" लघु
-20-11 08:17:57   [upsarg_pratyay] review: 3 section(s) corrected, 3 failed
-20-11 08:17:57   [upsarg_pratyay] written 3, failed 3; AI calls today 61/100000
-20-11 08:17:57 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay after 50 min: todo [] problems []
-20-11 08:17:58 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_12_anekarthi_samshrut (TODO: todo 4, problems 0)
-20-11 08:17:58   [anekarthi_samshrut] Hindi-only writer: direct Hindi content; English generation and translation disabled
-20-11 08:18:49   [vilom] review Mind_Map.txt round 1: 1 issue(s): - D1 lists "सुन्दर-कुरूप (कु- उपसर्ग)" as a prefix-based antonym pair, but "सुन्दर" (सु+न्दर) and "कुरूप" (कु
-20-11 08:19:17   [vilom] 2026-11-20 02:49:17,276 WARNING NVIDIA rate_limited — retrying in 20s
-20-11 08:22:49   [email] review PYQ_en.txt round 1: 1 issue(s): - Example 9 explanation states port 465 is 'now deprecated' → Port 465 is not deprecated; it is the IANA-regist
-20-11 08:25:13   [sandhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q26 key d vs re-solve b, Q28 key d vs re-solve b, Q30 key b vs re-solve ?, Q31 key b vs re-solve a, 
-20-11 08:25:13   [sandhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
-20-11 08:25:13   [email] review PYQ_hi.txt round 1: 2 issue(s): - PYQ-style 1 explanation states Message-ID is mandatory per RFC 5322 → RFC 5322 requires only From and Date; M
 20-11 08:25:40   [vilom] review Mind_Map.txt round 2: 1 issue(s): - D1 में "सुन्दर-असुन्दर" उपसर्ग-आधारित विलोम के रूप में गलत है → "सुन्दर" का मानक विलोम "कुरूप" या "बदसूरत" 
 20-11 08:26:00   [sandhi] Practice_hi_Set_03.txt try 1: rejected (Q52:duplicate_options,Q59:duplicate_options,Q68:duplicate_options,Q70:duplicate_options,Q72:duplicate_options)
 20-11 08:27:01   [vilom] REJECTED review fix Mind_Map.txt: reviewer still reports - D1 में "सुन्दर-कुरूप" को उपसर्ग-निर्मित विलोम बताया गया है, जबकि "कुरूप" "सुन्दर" में उपसर्
@@ -95,4 +80,19 @@
 20-11 08:44:25   [e_banking] wrote Content_en.txt (11276 chars)
 20-11 08:45:14   [e_banking] wrote Content_hi.txt (8550 chars)
 20-11 08:45:53   [e_banking] wrote Key_Facts_en.txt (6714 chars)
+20-11 08:46:13   [e_banking] wrote Key_Facts_hi.txt (3432 chars)
+20-11 08:46:36   [e_banking] wrote Feynman_en.txt (4278 chars)
+20-11 08:47:47   [ek_shabd] wrote Content_hi.txt (9566 chars)
+20-11 08:48:07   [anekarthi_samshrut] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q3 key d vs re-solve ?, Q5 key c vs re-solve a, Q7 key a vs re-solve ?, Q10 key a vs re-solve b, Q13
+20-11 08:48:13   [ek_shabd] wrote Key_Facts_hi.txt (3458 chars)
+20-11 08:49:00   [ek_shabd] wrote Feynman_hi.txt (4306 chars)
+20-11 08:49:11   [ek_shabd] wrote Mind_Map.txt (1449 chars)
+20-11 08:49:35   [ek_shabd] wrote Flashcards_hi.txt (1532 chars)
+20-11 08:58:16   [sandhi] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q53 key d vs re-solve b, Q63 key d vs re-solve b, Q65 key a vs re-solve b, Q67 key b vs re-solve a, 
+20-11 08:58:16   [sandhi] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+20-11 08:59:08   [sandhi] Practice_hi_Set_05.txt try 1: rejected (Q103:duplicate_options,Q106:duplicate_options,Q107:duplicate_options,Q109:duplicate_options,Q110:duplicate_opt
+20-11 08:59:36   [anekarthi_samshrut] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q7 key d vs re-solve ?, Q18 key a vs re-solve d, Q19 key d vs re-solve ?, Q20 key b vs re-solve ?, Q
+20-11 08:59:40   [e_banking] wrote Feynman_hi.txt (3423 chars)
+20-11 09:00:04   [e_banking] wrote Mind_Map.txt (1278 chars)
+20-11 09:00:57   [e_banking] wrote Flashcards_en.txt (5574 chars)
 ```
