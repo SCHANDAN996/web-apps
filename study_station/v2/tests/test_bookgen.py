@@ -30,7 +30,7 @@ def test_legacy_autopilot_rollover_preserves_work_and_ignores_new_or_manual_runs
     bookgen.request_legacy_autopilot_rollover(lambda *a: None)
     assert (state / 'STOP').exists()    # Hindi-only runner also needs to adopt the bounded parallel policy.
     (state / 'STOP').unlink()
-    monkeypatch.setenv('BOOKGEN_RATE_POLICY', 'parallel-v3')
+    monkeypatch.setenv('BOOKGEN_RATE_POLICY', 'parallel-v4')
     bookgen.request_legacy_autopilot_rollover(lambda *a: None)
     assert not (state / 'STOP').exists()
 

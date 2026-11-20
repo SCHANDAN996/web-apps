@@ -1,6 +1,6 @@
 # Book authoring rate policy — 17 November 2026
 
-- Four chapter workers; only keys 3 and 4. Every worker receives the full active pool.
+- Six chapter workers; only keys 3 and 4. Every worker receives the full active pool.
 - Route every request to an eligible key with a free response slot. Alternate keys when both are
   ready; a busy key must not strand a request while the other has capacity.
 - Nemotron-3 Ultra for authoring, both blind answer checks and editorial review.
