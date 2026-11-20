@@ -1,0 +1,149 @@
+26. Which layer of the OSI model is responsible for logical addressing and routing?
+(a) Network layer (b) Data Link layer (c) Physical layer (d) Transport layer
+Answer: (a)
+Solution: The Data Link layer handles physical addressing (MAC), while the Network layer handles logical addressing (IP) and routing decisions. The Transport layer manages end-to-end delivery. So the answer is Network layer.
+Source: NCERT Class 12 Computer Science
+
+27. What is the primary difference between TCP and UDP?
+(a) TCP is connectionless; UDP is connection-oriented (b) TCP guarantees delivery; UDP does not (c) TCP uses port numbers; UDP does not (d) TCP is faster than UDP
+Answer: (b)
+Solution: UDP is connectionless and does not guarantee delivery, ordering, or error recovery, making it faster but unreliable. TCP provides reliable, ordered delivery. The trap is thinking UDP uses no ports — both use port numbers. So the answer is TCP guarantees delivery; UDP does not.
+Source: Microsoft Learn — Transport Layer Protocols
+
+28. Which IP address class provides the largest number of host addresses per network?
+(a) Class B (b) Class A (c) Class C (d) Class D
+Answer: (b)
+Solution: Class A uses 8 bits for network and 24 bits for hosts (~16 million hosts). Class B allows ~65,000 hosts, Class C only 254. Class D is for multicast. So the answer is Class A.
+Source: NCERT Class 12 Computer Science
+
+29. A subnet mask of 255.255.255.192 corresponds to which CIDR notation?
+(a) /26 (b) /25 (c) /24 (d) /27
+Answer: (a)
+Solution: 255.255.255.192 in binary has 26 leading 1s (11111111.11111111.11111111.11000000). /25 would be 255.255.255.128, /27 would be 255.255.255.224. So the answer is /26.
+Source: Microsoft Learn — Subnet Masks
+
+30. Which well-known port number is used by HTTPS?
+(a) 80 (b) 25 (c) 21 (d) 443
+Answer: (d)
+Solution: Port 80 is for HTTP, 21 for FTP, 25 for SMTP. HTTPS uses port 443 with TLS/SSL encryption. So the answer is 443.
+Source: IANA Service Name and Transport Protocol Port Number Registry
+
+31. Which device operates at the Data Link layer and forwards frames based on MAC addresses?
+(a) Switch (b) Router (c) Hub (d) Repeater
+Answer: (a)
+Solution: A hub operates at Physical layer and broadcasts to all ports. A router works at Network layer using IP addresses. A switch learns MAC addresses and forwards frames selectively. So the answer is Switch.
+Source: NCERT Class 12 Computer Science
+
+32. What is the primary function of DNS?
+(a) Assign IP addresses dynamically (b) Encrypt web traffic (c) Resolve domain names to IP addresses (d) Route packets between networks
+Answer: (c)
+Solution: DHCP assigns IP addresses dynamically. DNS translates human-readable domain names (like www.example.com) into IP addresses. The trap is confusing DNS with DHCP. So the answer is Resolve domain names to IP addresses.
+Source: Microsoft Learn — Domain Name System
+
+33. Which protocol is used by a client to automatically obtain an IP address from a server?
+(a) DNS (b) ICMP (c) ARP (d) DHCP
+Answer: (d)
+Solution: DHCP (Dynamic Host Configuration Protocol) automates IP address assignment. DNS resolves names, ARP maps IP to MAC, ICMP is for error reporting (ping). So the answer is DHCP.
+Source: Microsoft Learn — DHCP Overview
+
+34. HTTPS uses which protocol to encrypt data between browser and server?
+(a) SSL only (b) SSL/TLS (c) TLS only (d) SSH
+Answer: (b)
+Solution: HTTPS is HTTP over SSL/TLS. Modern implementations use TLS (SSL is deprecated), but the term SSL/TLS covers the encryption layer. SSH is for secure remote login. So the answer is SSL/TLS.
+Source: Microsoft Learn — HTTPS
+
+35. Which port numbers are used by FTP for control and data connections in active mode?
+(a) Control 20, Data 21 (b) Control 22, Data 23 (c) Control 21, Data 20 (d) Control 23, Data 22
+Answer: (c)
+Solution: FTP active mode uses port 21 for control commands and port 20 for data transfer. The trap is swapping the ports. SFTP uses port 22 (SSH). So the answer is Control 21, Data 20.
+Source: Microsoft Learn — File Transfer Protocol
+
+36. Which email protocol allows a client to synchronize mail across multiple devices while keeping messages on the server?
+(a) POP3 (b) IMAP (c) SMTP (d) HTTP
+Answer: (b)
+Solution: POP3 typically downloads and deletes from server. SMTP is for sending mail. IMAP keeps messages on server and syncs folders across devices. So the answer is IMAP.
+Source: Microsoft Learn — Email Protocols
+
+37. How many bits long is an IPv6 address?
+(a) 32 (b) 64 (c) 128 (d) 256
+Answer: (c)
+Solution: IPv4 addresses are 32 bits. IPv6 addresses are 128 bits (16 bytes), written as eight groups of four hexadecimal digits. So the answer is 128.
+Source: NCERT Class 12 Computer Science
+
+38. Which IEEE 802.11 standard operates only in the 5 GHz band and supports up to 54 Mbps?
+(a) 802.11b (b) 802.11a (c) 802.11g (d) 802.11n
+Answer: (b)
+Solution: 802.11b/g operate in 2.4 GHz. 802.11a operates in 5 GHz with 54 Mbps. 802.11n supports both bands and higher speeds. So the answer is 802.11a.
+Source: Microsoft Learn — Wi-Fi Standards
+
+39. In which network topology does each node connect directly to a central device?
+(a) Star (b) Ring (c) Bus (d) Mesh
+Answer: (a)
+Solution: Bus uses a single backbone cable. Ring connects each node to two neighbors. Star connects all nodes to a central switch/hub. Mesh has multiple redundant paths. So the answer is Star.
+Source: NCERT Class 12 Computer Science
+
+40. What is the length of a MAC address in bits?
+(a) 32 (b) 128 (c) 64 (d) 48
+Answer: (d)
+Solution: A MAC address is 48 bits (6 bytes), typically written as six pairs of hexadecimal digits (e.g., 00:1A:2B:3C:4D:5E). IPv4 is 32 bits, IPv6 is 128 bits. So the answer is 48.
+Source: Microsoft Learn — MAC Address
+
+41. What is the primary purpose of a VLAN?
+(a) Segment a broadcast domain logically (b) Increase physical cable length (c) Encrypt wireless traffic (d) Assign IP addresses automatically
+Answer: (a)
+Solution: VLANs (Virtual LANs) logically segment a switch into multiple broadcast domains without extra hardware. They do not encrypt traffic (that's WPA2/VPN) or assign IPs (that's DHCP). So the answer is Segment a broadcast domain logically.
+Source: Microsoft Learn — Virtual LANs
+
+42. Which technology allows multiple devices on a private network to share a single public IP address?
+(a) DNS (b) VPN (c) DHCP (d) NAT
+Answer: (d)
+Solution: NAT (Network Address Translation) maps private IPs to a public IP. DHCP assigns private IPs. VPN creates secure tunnels. DNS resolves names. So the answer is NAT.
+Source: Microsoft Learn — Network Address Translation
+
+43. Which protocol creates an encrypted tunnel for secure remote access over the internet?
+(a) IPsec or SSL/TLS based VPN (b) L2TP only (c) IPsec (d) PPTP only
+Answer: (a)
+Solution: Modern VPNs use IPsec (site-to-site) or SSL/TLS (client remote access). PPTP and L2TP are older, less secure protocols. The trap is naming only one protocol. So the answer is IPsec or SSL/TLS based VPN.
+Source: Microsoft Learn — VPN Protocols
+
+44. What is the main function of a firewall?
+(a) Filter traffic based on rules (b) Assign IP addresses (c) Resolve domain names (d) Compress data
+Answer: (a)
+Solution: A firewall inspects packets and allows/blocks based on security rules (IP, port, protocol). DHCP assigns IPs, DNS resolves names. So the answer is Filter traffic based on rules.
+Source: CERT-In — Firewall Guidelines
+
+45. Which Windows command displays the routing table?
+(a) ipconfig (b) ping (c) tracert (d) route print
+Answer: (d)
+Solution: ipconfig shows IP configuration. ping tests connectivity. tracert shows path to destination. route print displays the local routing table. So the answer is route print.
+Source: Microsoft Learn — Windows Route Command
+
+46. What is the CIDR notation for the subnet mask 255.255.255.240?
+(a) /26 (b) /27 (c) /28 (d) /29
+Answer: (c)
+Solution: 255.255.255.240 = 11111111.11111111.11111111.11110000 (28 leading 1s). /27 is 255.255.255.224, /29 is 255.255.255.248. So the answer is /28.
+Source: Microsoft Learn — CIDR Notation
+
+47. Which routing protocol is a path-vector protocol used between autonomous systems on the internet?
+(a) RIP (b) BGP (c) OSPF (d) EIGRP
+Answer: (b)
+Solution: RIP is distance-vector. OSPF is link-state. EIGRP is Cisco proprietary hybrid. BGP (Border Gateway Protocol) is the path-vector protocol used for inter-domain routing on the internet. So the answer is BGP.
+Source: Microsoft Learn — Border Gateway Protocol
+
+48. Which Wi-Fi security protocol uses AES encryption and is currently recommended?
+(a) WEP (b) WPA (c) WPA3 (d) WPA2
+Answer: (c)
+Solution: WEP and WPA (TKIP) are deprecated. WPA2 uses AES-CCMP but has known vulnerabilities (KRACK). WPA3 uses SAE and stronger encryption, and is the current recommendation. So the answer is WPA3.
+Source: CERT-In — Wi-Fi Security Advisory
+
+49. What does QoS (Quality of Service) primarily manage in a network?
+(a) IP address assignment (b) Wireless encryption (c) Domain name resolution (d) Traffic prioritization and bandwidth allocation
+Answer: (d)
+Solution: QoS classifies and prioritizes traffic (voice, video, data) to ensure performance for critical applications. It does not assign IPs, resolve names, or encrypt. So the answer is Traffic prioritization and bandwidth allocation.
+Source: Microsoft Learn — Quality of Service
+
+50. In cloud networking, what is a VPC (Virtual Private Cloud)?
+(a) A physical data center (b) A VPN protocol (c) A logically isolated section of a public cloud (d) A type of load balancer
+Answer: (c)
+Solution: A VPC is a logically isolated virtual network within a public cloud provider (AWS, Azure, GCP), giving control over IP ranges, subnets, routing. It is not physical hardware, a VPN protocol, or a load balancer. So the answer is A logically isolated section of a public cloud.
+Source: Microsoft Learn — Azure Virtual Network / AWS VPC Documentation

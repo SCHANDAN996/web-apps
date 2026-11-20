@@ -1,0 +1,149 @@
+76. Which layer of the OSI model is responsible for logical addressing and routing?
+(a) Physical (b) Data Link (c) Transport (d) Network
+Answer: (d)
+Solution: The Physical layer deals with bits, the Data Link layer handles MAC addressing, and the Transport layer manages end-to-end delivery; logical addressing (IP) and routing occur at the Network layer, so the answer is Network.
+Source: PYQ-style
+
+77. What is the default port number for HTTPS?
+(a) 21 (b) 25 (c) 443 (d) 80
+Answer: (c)
+Solution: Port 21 is used for FTP, port 25 for SMTP, and port 80 for HTTP; HTTPS uses port 443 for encrypted communication, so the answer is 443.
+Source: PYQ-style
+
+78. Which protocol resolves domain names to IP addresses?
+(a) DHCP (b) ARP (c) DNS (d) ICMP
+Answer: (c)
+Solution: DHCP assigns IP addresses dynamically, ARP maps IP addresses to MAC addresses, and ICMP reports network errors; DNS (Domain Name System) resolves domain names to IP addresses, so the answer is DNS.
+Source: PYQ-style
+
+79. In IPv4, which class of address has the first octet range 192–223?
+(a) Class A (b) Class B (c) Class D (d) Class C
+Answer: (d)
+Solution: Class A covers 1–126, Class B covers 128–191, and Class D (multicast) covers 224–239; Class C addresses range from 192 to 223 in the first octet, so the answer is Class C.
+Source: PYQ-style
+
+80. Which device operates at the Data Link layer and uses MAC addresses to forward frames?
+(a) Switch (b) Router (c) Hub (d) Repeater
+Answer: (a)
+Solution: A hub operates at the Physical layer, a router at the Network layer, and a repeater at the Physical layer; a switch learns MAC addresses and forwards frames at the Data Link layer, so the answer is Switch.
+Source: PYQ-style
+
+81. What is the maximum data rate of IEEE 802.11g wireless standard?
+(a) 54 Mbps (b) 11 Mbps (c) 150 Mbps (d) 600 Mbps
+Answer: (a)
+Solution: 802.11b provides 11 Mbps, 802.11n can reach 150/300/600 Mbps; 802.11g operates at 2.4 GHz with a maximum data rate of 54 Mbps, so the answer is 54 Mbps.
+Source: PYQ-style
+
+82. Which command displays the IP configuration of a Windows computer?
+(a) ping (b) ifconfig (c) netstat (d) ipconfig
+Answer: (d)
+Solution: ifconfig is used on Linux/Unix, netstat shows active connections, and ping tests reachability; ipconfig displays IP address, subnet mask, and default gateway on Windows, so the answer is ipconfig.
+Source: PYQ-style
+
+83. What does the acronym TCP stand for?
+(a) Terminal Control Protocol (b) Transfer Control Protocol (c) Transport Communication Protocol (d) Transmission Control Protocol
+Answer: (d)
+Solution: The other options are plausible-sounding but incorrect variations; the standard expansion is Transmission Control Protocol, so the answer is Transmission Control Protocol.
+Source: PYQ-style
+
+84. Which layer of the TCP/IP model corresponds to the OSI Session, Presentation, and Application layers combined?
+(a) Network Access (b) Application (c) Transport (d) Internet
+Answer: (b)
+Solution: Network Access maps to OSI Physical and Data Link, Internet maps to Network, Transport maps to Transport; the TCP/IP Application layer encompasses OSI layers 5, 6, and 7, so the answer is Application.
+Source: PYQ-style
+
+85. What is the subnet mask for a /24 CIDR prefix?
+(a) 255.255.255.0 (b) 255.255.0.0 (c) 255.0.0.0 (d) 255.255.255.255
+Answer: (a)
+Solution: /8 equals 255.0.0.0, /16 equals 255.255.0.0, and /32 equals 255.255.255.255; /24 means 24 network bits, which gives 255.255.255.0, so the answer is 255.255.255.0.
+Source: PYQ-style
+
+86. Which protocol is used for sending email from a client to a server?
+(a) POP3 (b) IMAP (c) SMTP (d) HTTP
+Answer: (c)
+Solution: POP3 and IMAP are used for retrieving email from a server, while HTTP is for web traffic; SMTP (Simple Mail Transfer Protocol) sends mail from a client to a server, so the answer is SMTP.
+Source: PYQ-style
+
+87. What is the loopback IP address in IPv4?
+(a) 192.168.1.1 (b) 127.0.0.1 (c) 10.0.0.1 (d) 169.254.0.1
+Answer: (b)
+Solution: 192.168.x.x and 10.x.x.x are private address ranges, and 169.254.x.x is the APIPA range; 127.0.0.1 is the standard loopback address used for local testing, so the answer is 127.0.0.1.
+Source: PYQ-style
+
+88. Which wireless security protocol is considered the most secure among these?
+(a) WPA2 (b) WPA (c) WEP (d) WPS
+Answer: (a)
+Solution: WEP is easily broken, WPA has known vulnerabilities, and WPS is a convenience feature not an encryption protocol; WPA2 with AES provides the strongest security among the options, so the answer is WPA2.
+Source: PYQ-style
+
+89. What does a router use to make forwarding decisions?
+(a) MAC address (b) Port number (c) IP address (d) Hostname
+Answer: (c)
+Solution: Switches forward based on MAC addresses, firewalls may filter by port numbers; routers operate at Layer 3 and forward packets based on the destination IP address, so the answer is IP address.
+Source: PYQ-style
+
+90. Which of the following is a private IP address range?
+(a) All of the above (b) 192.168.0.0 – 192.168.255.255 (c) 10.0.0.0 – 10.255.255.255 (d) 172.16.0.0 – 172.31.255.255
+Answer: (a)
+Solution: Each range listed is a defined private block per RFC 1918 — Class B (172.16/12), Class C (192.168/16), and Class A (10/8); all three are reserved for private use, so the answer is All of the above.
+Source: PYQ-style
+
+91. What is the purpose of the ARP protocol?
+(a) Assign IP addresses dynamically (b) Report network errors (c) Resolve domain names (d) Map IP address to MAC address
+Answer: (d)
+Solution: DHCP assigns IP addresses dynamically, DNS resolves domain names, and ICMP reports network errors; ARP (Address Resolution Protocol) finds the MAC address for a given IP on the local network, so the answer is Map IP address to MAC address.
+Source: PYQ-style
+
+92. Which topology connects all devices to a single central cable?
+(a) Star (b) Mesh (c) Ring (d) Bus
+Answer: (d)
+Solution: Star topology uses a central hub or switch, Ring connects devices in a circle, and Mesh provides multiple paths; Bus topology uses one backbone cable to which all nodes attach, so the answer is Bus.
+Source: PYQ-style
+
+93. What is the default gateway in a network?
+(a) The IP address of the local computer (b) The IP address of the router interface connecting to other networks (c) The subnet mask (d) The DNS server address
+Answer: (b)
+Solution: The local IP is the host address, the subnet mask defines the network portion, and the DNS server resolves names; the default gateway is the router's IP address that forwards traffic outside the local subnet, so the answer is The IP address of the router interface connecting to other networks.
+Source: PYQ-style
+
+94. Which protocol provides connectionless, unreliable datagram service?
+(a) TCP (b) UDP (c) ICMP (d) ARP
+Answer: (b)
+Solution: TCP is connection-oriented and reliable, ICMP is for control messages, and ARP resolves addresses; UDP (User Datagram Protocol) sends datagrams without connection setup or delivery guarantees, so the answer is UDP.
+Source: PYQ-style
+
+95. What is the maximum length of a standard Ethernet cable (Cat5e/6) segment?
+(a) 100 meters (b) 50 meters (c) 200 meters (d) 500 meters
+Answer: (a)
+Solution: 50 meters is below the standard, while 200 and 500 meters exceed the specification; the TIA/EIA standard limits twisted-pair Ethernet segments to 100 meters, so the answer is 100 meters.
+Source: PYQ-style
+
+96. A host with IP 192.168.10.50/26 wants to communicate with 192.168.10.100. What will the host do?
+(a) Send directly via ARP (b) Drop the packet (c) Send to default gateway (d) Broadcast to all hosts
+Answer: (c)
+Solution: A /26 prefix gives subnet mask 255.255.255.192 with block size 64; 192.168.10.50 falls in subnet 192.168.10.0–63, while 192.168.10.100 falls in subnet 192.168.10.64–127. Since they are on different subnets, the host forwards the packet to its default gateway, so the answer is Send to default gateway.
+Source: PYQ-style
+
+97. Which field in the IPv4 header is used to prevent packets from looping indefinitely?
+(a) Protocol (b) TTL (c) Header Checksum (d) Fragment Offset
+Answer: (b)
+Solution: The Protocol field identifies the upper-layer protocol, Header Checksum verifies header integrity, and Fragment Offset handles fragmentation; TTL (Time To Live) is decremented at each hop and the packet is discarded when it reaches zero, preventing infinite loops, so the answer is TTL.
+Source: PYQ-style
+
+98. In a Wireshark capture, you see a TCP segment with SYN flag set and sequence number 0. What does this indicate?
+(a) Connection termination (b) Connection initiation (c) Data transfer (d) Acknowledgment only
+Answer: (b)
+Solution: FIN flag terminates connections, PSH/ACK with data indicates transfer, and ACK alone acknowledges; a SYN flag with an initial sequence number starts the three-way handshake, so the answer is Connection initiation.
+Source: PYQ-style
+
+99. Which routing protocol uses the Bellman-Ford algorithm and exchanges full routing tables periodically?
+(a) OSPF (b) EIGRP (c) RIP (d) BGP
+Answer: (c)
+Solution: OSPF uses Dijkstra's algorithm (link-state), EIGRP uses DUAL, and BGP is a path-vector protocol; RIP (Routing Information Protocol) is a distance-vector protocol that uses Bellman-Ford and sends full routing tables every 30 seconds, so the answer is RIP.
+Source: PYQ-style
+
+100. What is the network address for the host 172.16.45.78/20?
+(a) 172.16.32.0 (b) 172.16.45.0 (c) 172.16.48.0 (d) 172.16.16.0
+Answer: (a)
+Solution: A /20 prefix gives subnet mask 255.255.240.0 with block size 16 in the third octet; 45 falls in the range 32–47 (since 32 + 16 = 48), making the network address 172.16.32.0 — not 172.16.45.0 (host address), 172.16.48.0 (next subnet), or 172.16.16.0 (previous subnet), so the answer is 172.16.32.0.
+Source: PYQ-style

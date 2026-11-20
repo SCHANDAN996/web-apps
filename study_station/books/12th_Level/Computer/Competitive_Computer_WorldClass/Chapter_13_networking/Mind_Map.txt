@@ -1,0 +1,33 @@
+```mermaid
+graph TD
+    A["Networking<br/>नेटवर्किंग"]
+    B["Network Types<br/>नेटवर्क प्रकार"]
+    C["LAN<br/>लोकल एरिया नेटवर्क"]
+    D["WAN<br/>वाइड एरिया नेटवर्क"]
+    E["MAN<br/>मेट्रोपॉलिटन एरिया नेटवर्क"]
+    F["PAN<br/>पर्सनल एरिया नेटवर्क"]
+    G["Topology<br/>टोपोलॉजी"]
+    H["Star Topology<br/>स्टार टोपोलॉजी"]
+    I["Bus Topology<br/>बस टोपोलॉजी"]
+    J["Ring Topology<br/>रिंग टोपोलॉजी"]
+    K["Mesh Topology<br/>मेश टोपोलॉजी"]
+    L["OSI Model<br/>OSI मॉडल (7 Layers)"]
+    M["TCP/IP Model<br/>TCP/IP मॉडल (4 Layers)"]
+    N["Protocols<br/>प्रोटोकॉल (HTTP, FTP, SMTP)"]
+    O["IP Addressing<br/>IP एड्रेसिंग (IPv4/IPv6)"]
+
+    A --> B
+    A --> G
+    A --> L
+    A --> M
+    A --> N
+    A --> O
+    B --> C
+    B --> D
+    B --> E
+    B --> F
+    G --> H
+    G --> I
+    G --> J
+    G --> K
+```

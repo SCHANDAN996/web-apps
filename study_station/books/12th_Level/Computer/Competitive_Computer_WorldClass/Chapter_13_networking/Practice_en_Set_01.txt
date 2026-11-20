@@ -1,0 +1,149 @@
+1. Which layer of the OSI model is responsible for logical addressing and routing?
+(a) Physical (b) Data Link (c) Transport (d) Network
+Answer: (d)
+Solution: The Physical layer deals with bits, the Data Link layer handles MAC addressing, and the Transport layer manages end‑to‑end delivery; logical addressing (IP addresses) and routing are functions of the Network layer, so the correct answer is "Network".
+Source: PYQ-style
+
+2. What is the default port number used by HTTP?
+(a) 21 (b) 80 (c) 25 (d) 443
+Answer: (b)
+Solution: Port 21 is for FTP, 25 for SMTP, and 443 for HTTPS; HTTP uses port 80 by default, so the correct answer is "80".
+Source: PYQ-style
+
+3. Which protocol provides connection‑oriented reliable data transfer in the TCP/IP suite?
+(a) TCP (b) IP (c) UDP (d) ICMP
+Answer: (a)
+Solution: UDP is connectionless, IP handles addressing and routing, ICMP is for control messages; TCP establishes a connection and guarantees delivery, so the correct answer is "TCP".
+Source: PYQ-style
+
+4. In IPv4, how many bits are used for the network portion in a /24 subnet mask?
+(a) 8 (b) 16 (c) 24 (d) 32
+Answer: (c)
+Solution: A /24 mask means the first 24 bits are network bits; 8 bits would be /8, 16 bits /16, 32 bits /32, so the correct answer is "24".
+Source: PYQ-style
+
+5. Which device operates primarily at the Data Link layer and forwards frames based on MAC addresses?
+(a) Hub (b) Router (c) Repeater (d) Switch
+Answer: (d)
+Solution: A hub repeats signals to all ports, a router works at Network layer, a repeater only regenerates signals; a switch learns MAC addresses and forwards frames accordingly, so the correct answer is "Switch".
+Source: PYQ-style
+
+6. What is the maximum transmission unit (MTU) for standard Ethernet frames?
+(a) 1542 bytes (b) 1518 bytes (c) 1522 bytes (d) 1500 bytes
+Answer: (d)
+Solution: The Ethernet payload MTU is 1500 bytes; 1518 includes header and FCS, 1522 adds VLAN tag, 1542 is for jumbo frames; the standard MTU value is 1500 bytes, so the correct answer is "1500 bytes".
+Source: PYQ-style
+
+7. Which wireless standard operates in the 5 GHz band and supports up to 54 Mbps?
+(a) 802.11a (b) 802.11g (c) 802.11b (d) 802.11n
+Answer: (a)
+Solution: 802.11b and 802.11g use 2.4 GHz; 802.11n can use both bands but higher rates; 802.11a is the 5 GHz 54 Mbps standard, so the correct answer is "802.11a".
+Source: PYQ-style
+
+8. What does the acronym DNS stand for?
+(a) Domain Name System (b) Dynamic Network Service (c) Data Network Server (d) Distributed Name Service
+Answer: (a)
+Solution: The other options are plausible‑sounding but incorrect expansions; the standard term is Domain Name System, so the correct answer is "Domain Name System".
+Source: PYQ-style
+
+9. Which command is used in Windows to display the routing table?
+(a) netstat -r (b) ipconfig (c) ping (d) tracert
+Answer: (a)
+Solution: ipconfig shows interface configuration, ping tests reachability, tracert traces route; netstat -r prints the routing table, so the correct answer is "netstat -r".
+Source: PYQ-style
+
+10. In the TCP three‑way handshake, what is the second step sent by the server?
+(a) SYN‑ACK (b) SYN (c) ACK (d) FIN
+Answer: (a)
+Solution: The client sends SYN, the server replies with SYN‑ACK, then the client sends ACK; FIN is for termination, so the correct answer is "SYN‑ACK".
+Source: PYQ-style
+
+11. Which IPv6 address type is used for one‑to‑many communication?
+(a) Unicast (b) Multicast (c) Anycast (d) Broadcast
+Answer: (b)
+Solution: Unicast is one‑to‑one, anycast is one‑to‑nearest, broadcast does not exist in IPv6; multicast delivers to a group, so the correct answer is "Multicast".
+Source: PYQ-style
+
+12. What is the purpose of the ARP protocol?
+(a) Encrypt data packets (b) Resolve MAC to IP address (c) Assign IP addresses dynamically (d) Resolve IP to MAC address
+Answer: (d)
+Solution: RARP does MAC‑to‑IP, DHCP assigns IPs dynamically, encryption is done by IPsec or TLS; ARP maps an IP address to a MAC address, so the correct answer is "Resolve IP to MAC address".
+Source: PYQ-style
+
+13. Which layer of the TCP/IP model corresponds to the OSI Session, Presentation, and Application layers combined?
+(a) Transport (b) Application (c) Internet (d) Network Access
+Answer: (b)
+Solution: The TCP/IP Application layer encompasses the top three OSI layers; Transport maps to OSI Transport, Internet to Network, Network Access to Data Link and Physical, so the correct answer is "Application".
+Source: PYQ-style
+
+14. What is the default subnet mask for a Class B IPv4 network?
+(a) 255.0.0.0 (b) 255.255.0.0 (c) 255.255.255.0 (d) 255.255.255.255
+Answer: (b)
+Solution: Class A uses 255.0.0.0, Class C uses 255.255.255.0, 255.255.255.255 is a host mask; Class B default is 255.255.0.0, so the correct answer is "255.255.0.0".
+Source: PYQ-style
+
+15. Which protocol is used for secure remote login over an unsecured network?
+(a) SSH (b) Telnet (c) FTP (d) HTTP
+Answer: (a)
+Solution: Telnet sends data in clear text, FTP transfers files, HTTP is for web; SSH encrypts the session for secure login, so the correct answer is "SSH".
+Source: PYQ-style
+
+16. In a network using CIDR notation 192.168.10.0/28, how many usable host addresses are available?
+(a) 14 (b) 16 (c) 30 (d) 62
+Answer: (a)
+Solution: /28 gives 4 host bits → 2^4 = 16 total addresses, minus network and broadcast = 14 usable; 16 would be total, 30 is for /27, 62 for /26, so the correct answer is "14".
+Source: PYQ-style
+
+17. Which IEEE standard defines Ethernet?
+(a) 802.15 (b) 802.11 (c) 802.3 (d) 802.16
+Answer: (c)
+Solution: 802.11 is Wi‑Fi, 802.15 is WPAN (Bluetooth), 802.16 is WiMAX; 802.3 specifies wired Ethernet, so the correct answer is "802.3".
+Source: PYQ-style
+
+18. What does the term "latency" refer to in networking?
+(a) Data transfer rate (b) Time delay for a packet to travel (c) Number of errors per second (d) Bandwidth capacity
+Answer: (b)
+Solution: Data rate is throughput, errors relate to error rate, bandwidth is capacity; latency is the propagation delay, so the correct answer is "Time delay for a packet to travel".
+Source: PYQ-style
+
+19. Which protocol operates at the Transport layer and is connectionless?
+(a) TCP (b) IP (c) UDP (d) ICMP
+Answer: (c)
+Solution: TCP is connection‑oriented, IP and ICMP are Network layer; UDP provides connectionless transport, so the correct answer is "UDP".
+Source: PYQ-style
+
+20. What is the function of a default gateway in a TCP/IP network?
+(a) Assign IP addresses (b) Filter malicious packets (c) Resolve domain names (d) Forward traffic to other networks
+Answer: (d)
+Solution: DHCP assigns IPs, DNS resolves names, firewalls filter; the default gateway routes packets destined outside the local subnet, so the correct answer is "Forward traffic to other networks".
+Source: PYQ-style
+
+21. A network administrator configures a router interface with IP address 10.0.0.1/30. Which of the following is the broadcast address for this subnet?
+(a) 10.0.0.0 (b) 10.0.0.1 (c) 10.0.0.3 (d) 10.0.0.2
+Answer: (c)
+Solution: /30 yields 4 addresses: network 10.0.0.0, usable 10.0.0.1‑2, broadcast 10.0.0.3; the other options are network or host addresses, so the correct answer is "10.0.0.3".
+Source: PYQ-style
+
+22. Which routing protocol uses the Dijkstra algorithm to compute shortest paths?
+(a) RIP (b) EIGRP (c) BGP (d) OSPF
+Answer: (d)
+Solution: RIP uses hop count, BGP uses path vector, EIGRP uses DUAL; OSPF is a link‑state protocol that runs Dijkstra, so the correct answer is "OSPF".
+Source: PYQ-style
+
+23. In IPv6, which prefix is reserved for link‑local unicast addresses?
+(a) 2000::/3 (b) FE80::/10 (c) FC00::/7 (d) FF00::/8
+Answer: (b)
+Solution: 2000::/3 is global unicast, FC00::/7 is unique local, FF00::/8 is multicast; FE80::/10 identifies link‑local addresses, so the correct answer is "FE80::/10".
+Source: PYQ-style
+
+24. What is the primary purpose of the ICMP protocol?
+(a) Reliable data transfer (b) Address resolution (c) Error reporting and diagnostics (d) Secure tunneling
+Answer: (c)
+Solution: Reliable transfer is TCP, address resolution is ARP, secure tunneling uses IPsec; ICMP carries error messages and diagnostic queries like ping, so the correct answer is "Error reporting and diagnostics".
+Source: PYQ-style
+
+25. A company uses the private network 172.16.0.0/12. How many total IP addresses are available in this block?
+(a) 65,536 (b) 262,144 (c) 1,048,576 (d) 4,194,304
+Answer: (c)
+Solution: /12 leaves 20 host bits → 2^20 = 1,048,576 addresses; 65,536 is /16, 262,144 is /14, 4,194,304 is /10, so the correct answer is "1,048,576".
+Source: PYQ-style

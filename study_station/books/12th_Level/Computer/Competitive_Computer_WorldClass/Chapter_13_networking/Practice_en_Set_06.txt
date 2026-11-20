@@ -1,0 +1,149 @@
+126. Which layer of the OSI model is responsible for logical addressing and routing?
+(a) Physical layer (b) Data Link layer (c) Transport layer (d) Network layer
+Answer: (d)
+Solution: The Data Link layer handles physical addressing (MAC), while the Network layer handles logical addressing (IP) and routing; the Physical layer deals with bits and the Transport layer with end-to-end delivery, so the answer is Network layer.
+Source: NCERT Class 12 Computer Science
+
+127. What is the default subnet mask for a Class B IPv4 address?
+(a) 255.0.0.0 (b) 255.255.0.0 (c) 255.255.255.0 (d) 255.255.255.255
+Answer: (b)
+Solution: Class A uses 255.0.0.0, Class C uses 255.255.255.0, and 255.255.255.255 is a limited broadcast; Class B defaults to 255.255.0.0, so the answer is 255.255.0.0.
+Source: Microsoft Learn – IPv4 addressing
+
+128. Which protocol operates at the Transport layer and provides connectionless, unreliable delivery?
+(a) TCP (b) ICMP (c) IP (d) UDP
+Answer: (d)
+Solution: TCP is connection-oriented and reliable, IP is a Network layer protocol, and ICMP is used for error reporting; UDP is the connectionless Transport layer protocol, so the answer is UDP.
+Source: NCERT Class 12 Computer Science
+
+129. What is the maximum data size of an Ethernet frame (excluding preamble and FCS)?
+(a) 9000 bytes (b) 1518 bytes (c) 1522 bytes (d) 1500 bytes
+Answer: (d)
+Solution: 1518 bytes includes header and FCS, 1522 bytes includes VLAN tag, and 9000 bytes is jumbo frame; the standard MTU payload is 1500 bytes, so the answer is 1500 bytes.
+Source: IEEE 802.3 standard
+
+130. Which device operates at the Data Link layer and forwards frames based on MAC addresses?
+(a) Switch (b) Router (c) Hub (d) Repeater
+Answer: (a)
+Solution: A hub and repeater operate at Physical layer, a router operates at Network layer using IP addresses; a switch learns MAC addresses and forwards frames at Data Link layer, so the answer is Switch.
+Source: Microsoft Learn – Network devices
+
+131. What is the purpose of the ARP protocol?
+(a) Resolve IP address to MAC address (b) Resolve MAC address to IP address (c) Assign IP addresses dynamically (d) Route packets between networks
+Answer: (a)
+Solution: RARP resolves MAC to IP (obsolete), DHCP assigns IP dynamically, and routing is done by routers; ARP maps a known IP to its MAC on the local segment, so the answer is Resolve IP address to MAC address.
+Source: NCERT Class 12 Computer Science
+
+132. Which IPv4 address range is reserved for private networks in Class A?
+(a) 172.16.0.0 – 172.31.255.255 (b) 10.0.0.0 – 10.255.255.255 (c) 192.168.0.0 – 192.168.255.255 (d) 169.254.0.0 – 169.254.255.255
+Answer: (b)
+Solution: 172.16.0.0/12 is Class B private, 192.168.0.0/16 is Class C private, and 169.254.0.0/16 is link-local (APIPA); the Class A private block is 10.0.0.0/8, so the answer is 10.0.0.0 – 10.255.255.255.
+Source: RFC 1918
+
+133. What does the ping command primarily use to test connectivity?
+(a) TCP SYN packets (b) UDP datagrams (c) ICMP Echo Request/Reply (d) ARP requests
+Answer: (c)
+Solution: TCP SYN is used for port scanning, UDP is connectionless transport, and ARP resolves MAC; ping uses ICMP Echo Request and waits for Echo Reply, so the answer is ICMP Echo Request/Reply.
+Source: Microsoft Support – ping command
+
+134. Which wireless standard operates only in the 5 GHz band and supports up to 54 Mbps?
+(a) 802.11b (b) 802.11g (c) 802.11n (d) 802.11a
+Answer: (d)
+Solution: 802.11b and 802.11g operate in 2.4 GHz, 802.11n operates in both bands; 802.11a is 5 GHz only with 54 Mbps maximum, so the answer is 802.11a.
+Source: IEEE 802.11 standards
+
+135. What is the default port number for HTTPS?
+(a) 80 (b) 21 (c) 443 (d) 25
+Answer: (c)
+Solution: Port 80 is HTTP, 21 is FTP control, 25 is SMTP; HTTPS uses TLS over TCP port 443, so the answer is 443.
+Source: IANA Service Name and Transport Protocol Port Number Registry
+
+136. Which topology connects all devices to a single central cable?
+(a) Star (b) Bus (c) Ring (d) Mesh
+Answer: (b)
+Solution: Star uses a central hub/switch, Ring connects in a circle, Mesh has multiple interconnections; Bus topology uses one backbone cable, so the answer is Bus.
+Source: NCERT Class 12 Computer Science
+
+137. What is the function of a default gateway in a TCP/IP network?
+(a) Assign IP addresses to hosts (b) Forward packets to other networks (c) Resolve domain names to IP addresses (d) Filter traffic based on MAC addresses
+Answer: (b)
+Solution: DHCP assigns IPs, DNS resolves names, MAC filtering is a switch/AP feature; the default gateway is the router interface that forwards traffic outside the local subnet, so the answer is Forward packets to other networks.
+Source: Microsoft Learn – TCP/IP fundamentals
+
+138. Which IPv6 address type is equivalent to IPv4 private addresses?
+(a) Global unicast (b) Link-local (c) Unique local (d) Multicast
+Answer: (c)
+Solution: Global unicast is public routable, Link-local is for single segment (like APIPA), Multicast is one-to-many; Unique local (fc00::/7) is for private internal use, so the answer is Unique local.
+Source: RFC 4193
+
+139. What does the traceroute (tracert) command display?
+(a) Path taken by packets to destination (b) Bandwidth of each link (c) MAC addresses of all hops (d) DNS records for the domain
+Answer: (a)
+Solution: Bandwidth is measured by speed tests, MAC addresses are not shown across routers, DNS records are queried by nslookup; traceroute shows each router hop using TTL expiry, so the answer is Path taken by packets to destination.
+Source: Microsoft Support – tracert command
+
+140. Which protocol is used for secure remote login over an unsecured network?
+(a) Telnet (b) HTTP (c) FTP (d) SSH
+Answer: (d)
+Solution: Telnet sends data in cleartext, FTP is for file transfer, HTTP is for web; SSH encrypts the session for secure remote login, so the answer is SSH.
+Source: NCERT Class 12 Computer Science
+
+141. What is the maximum number of hosts in a /26 IPv4 subnet?
+(a) 126 (b) 64 (c) 30 (d) 62
+Answer: (d)
+Solution: /26 gives 6 host bits (32-26), 2^6 = 64 total addresses, minus network and broadcast = 62 usable; 64 includes reserved addresses, 30 is /27, 126 is /25, so the answer is 62.
+Source: Microsoft Learn – Subnetting
+
+142. Which layer adds the frame header and trailer during encapsulation?
+(a) Physical layer (b) Network layer (c) Data Link layer (d) Transport layer
+Answer: (c)
+Solution: Physical layer transmits bits, Network layer adds IP header, Transport layer adds TCP/UDP header; Data Link layer encapsulates packets into frames with header and trailer, so the answer is Data Link layer.
+Source: NCERT Class 12 Computer Science
+
+143. What is the purpose of the DHCP protocol?
+(a) Resolve names to IP addresses (b) Assign IP configuration automatically (c) Transfer files between systems (d) Synchronize time across devices
+Answer: (b)
+Solution: DNS resolves names, FTP transfers files, NTP synchronizes time; DHCP dynamically assigns IP, subnet mask, gateway, and DNS, so the answer is Assign IP configuration automatically.
+Source: Microsoft Learn – DHCP overview
+
+144. Which cable type uses an RJ-45 connector and supports up to 1 Gbps at 100 meters?
+(a) Cat 5e (b) Cat 5 (c) Cat 6 (d) Cat 6a
+Answer: (a)
+Solution: Cat 5 supports 100 Mbps, Cat 6 and 6a support higher speeds/longer distances; Cat 5e is rated for 1 Gbps at 100 m, so the answer is Cat 5e.
+Source: TIA/EIA-568 standards
+
+145. What does the term "latency" refer to in networking?
+(a) Time delay in packet delivery (b) Data transfer rate (c) Number of errors per second (d) Maximum frame size
+Answer: (a)
+Solution: Data transfer rate is bandwidth, errors per second is error rate, frame size is MTU; latency is the time a packet takes from source to destination, so the answer is Time delay in packet delivery.
+Source: NCERT Class 12 Computer Science
+
+146. A host has IP 192.168.10.50/28. What is the network address of this subnet?
+(a) 192.168.10.48 (b) 192.168.10.32 (c) 192.168.10.16 (d) 192.168.10.0
+Answer: (a)
+Solution: /28 means block size 16; multiples are 0, 16, 32, 48, 64… 50 falls in 48–63 block, so network is 48; 32 is previous block, 16 and 0 are earlier blocks, so the answer is 192.168.10.48.
+Source: PYQ-style
+
+147. Which routing protocol uses the Dijkstra algorithm to calculate the shortest path?
+(a) RIP (b) BGP (c) OSPF (d) EIGRP
+Answer: (c)
+Solution: RIP uses hop count (Bellman-Ford), BGP uses path vector, EIGRP uses DUAL; OSPF is a link-state protocol using Dijkstra's SPF algorithm, so the answer is OSPF.
+Source: Microsoft Learn – OSPF protocol
+
+148. In IPv6, which prefix is used for link-local addresses?
+(a) fe80::/10 (b) fc00::/7 (c) 2000::/3 (d) ff00::/8
+Answer: (a)
+Solution: 2000::/3 is global unicast, fc00::/7 is unique local, ff00::/8 is multicast; link-local addresses always start with fe80::/10, so the answer is fe80::/10.
+Source: RFC 4291
+
+149. What is the primary purpose of a VLAN in a switched network?
+(a) Increase physical ports (b) Encrypt traffic between switches (c) Segment broadcast domains (d) Provide redundant links
+Answer: (c)
+Solution: VLANs don't add ports, don't encrypt (that's IPsec/MACsec), redundancy is STP/EtherChannel; VLANs logically segment a switch into separate broadcast domains, so the answer is Segment broadcast domains.
+Source: Microsoft Learn – VLAN overview
+
+150. A network administrator configures a router interface with IP 172.16.5.1/22. What is the usable host range for this subnet?
+(a) 172.16.4.1 – 172.16.7.254 (b) 172.16.5.1 – 172.16.5.254 (c) 172.16.4.1 – 172.16.5.254 (d) 172.16.0.1 – 172.16.7.254
+Answer: (a)
+Solution: /22 = 255.255.252.0, block size 4 in third octet; network is 172.16.4.0, broadcast 172.16.7.255, usable 4.1–7.254; option B is /24, C misses .6 and .7, D starts at .0, so the answer is 172.16.4.1 – 172.16.7.254.
+Source: PYQ-style

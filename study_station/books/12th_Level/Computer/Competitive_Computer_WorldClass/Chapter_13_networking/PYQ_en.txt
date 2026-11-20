@@ -1,0 +1,86 @@
+PYQ Pattern Analysis — Networking
+
+This section describes the recurring question patterns and examiner traps observed in SSC (CHSL, CGL, MTS, GD), Railway, and Banking computer-knowledge papers for the Networking topic. All examples below are original PYQ-style illustrations; they are not taken from any specific past paper.
+
+1. Concept-Definition Matching
+Pattern: A term is given; four definitions are offered. Only one is technically precise.
+Trap: Options use near-synonyms (e.g., "packet" vs "frame", "router" vs "switch", "bandwidth" vs "throughput").
+PYQ-style Example:
+Which device operates at Layer 3 and makes forwarding decisions based on IP addresses?
+(a) Hub          (b) Switch          (c) Router          (d) Bridge
+Answer: (c)
+Solution: Routers work at Network Layer (Layer 3) using IP addresses. Switches (Layer 2) use MAC addresses; hubs (Layer 1) simply repeat signals; bridges (Layer 2) connect segments.
+
+2. OSI/TCP-IP Layer Mapping
+Pattern: "At which layer does X function?" or "Protocol Y belongs to which layer?"
+Trap: Confusing Session/Presentation/Application layers; mixing TCP (Transport) with IP (Network); placing ARP/ICMP at wrong layers.
+PYQ-style Example:
+ARP (Address Resolution Protocol) primarily operates at which OSI layer?
+(a) Physical      (b) Data Link      (c) Network      (d) Transport
+Answer: (b)
+Solution: ARP resolves IP to MAC addresses, a Data Link Layer function. ICMP is Network Layer; TCP/UDP are Transport Layer.
+
+3. IP Addressing & Subnetting
+Pattern: Identify valid host range, broadcast address, or subnet mask for a given CIDR prefix.
+Trap: Off-by-one errors (network/broadcast addresses); confusing /24 with /26; using classful boundaries in CIDR questions.
+PYQ-style Example:
+For the network 192.168.10.0/28, what is the last usable host address?
+(a) 192.168.10.14    (b) 192.168.10.15    (c) 192.168.10.13    (d) 192.168.10.16
+Answer: (a)
+Solution: /28 → block size 16. Network: 192.168.10.0, Broadcast: 192.168.10.15. Usable hosts: .1 – .14. Last usable = .14.
+
+4. Protocol-Port Association
+Pattern: Match protocol/service to its well-known port number.
+Trap: Swapping FTP (20/21) with SFTP (22); confusing DNS (53) with DHCP (67/68); HTTP (80) vs HTTPS (443) vs HTTP/3 (443 UDP).
+PYQ-style Example:
+Which port does HTTPS use by default?
+(a) 80      (b) 443      (c) 21      (d) 25
+Answer: (b)
+Solution: HTTPS = HTTP over TLS/SSL, default TCP 443. HTTP = 80, FTP control = 21, SMTP = 25.
+
+5. Wireless Standards & Security
+Pattern: Identify maximum speed, frequency band, or encryption method for 802.11 variants.
+Trap: Mixing 802.11n (Wi-Fi 4) and 802.11ac (Wi-Fi 5) speeds; confusing WEP/WPA/WPA2/WPA3; stating "WPA2 uses TKIP" (it uses CCMP/AES; TKIP is WPA legacy).
+PYQ-style Example:
+Which encryption protocol is mandatory in WPA2-Personal?
+(a) TKIP      (b) RC4      (c) AES-CCMP      (d) DES
+Answer: (c)
+Solution: WPA2 mandates AES-CCMP. TKIP was allowed only for backward compatibility with WPA devices.
+
+6. Network Topology & Media
+Pattern: Recognize topology from description/diagram; match cable type to max distance/speed.
+Trap: "Star topology uses a central hub" (could be switch); "Single-mode fiber for short distance" (it is for long haul); confusing UTP Cat 5e vs Cat 6 vs Cat 6a specs.
+PYQ-style Example:
+In a star topology, if the central switch fails, what happens?
+(a) Entire network fails      (b) Only the failed node is isolated      (c) Network continues unaffected      (d) Collisions increase
+Answer: (a)
+Solution: Star topology has a single point of failure at the central device.
+
+7. IPv6 Basics
+Pattern: Address format, prefix notation, address types (link-local, global unicast, multicast).
+Trap: Confusing fe80::/10 (link-local) with fc00::/7 (ULA); thinking ::1 is loopback for all interfaces (it is loopback); compressing zeros incorrectly.
+PYQ-style Example:
+Which IPv6 address is the loopback address?
+(a) ::1      (b) fe80::1      (c) ff02::1      (d) 2001:db8::1
+Answer: (a)
+Solution: ::1/128 is the loopback. fe80::/10 = link-local, ff02::1 = all-nodes multicast, 2001:db8::/32 = documentation prefix.
+
+8. Common Examiner Traps (Verbal)
+- Negative phrasing: "Which of the following is NOT a private IP range?" — read "NOT" twice.
+- "Best" / "Most appropriate" — two options may be technically correct; choose the one that fits the scenario (e.g., "best for long-distance backbone" → single-mode fiber, not UTP).
+- Version-specific claims: Avoid answers that depend on a specific Windows Server or router IOS version; stick to protocol standards (RFCs).
+- "Default" vs "Maximum" — default port, default subnet mask, default lease time — know the RFC defaults.
+
+9. Worked Example — Subnet Calculation Under Time Pressure
+Question: A host has IP 172.16.45.100/20. What is the network address?
+Step 1: /20 → block size in 3rd octet = 256 − 240 = 16.
+Step 2: Multiples of 16: 0, 16, 32, 48… 45 falls in 32–47 block.
+Step 3: Network = 172.16.32.0.
+Trap: Forgetting that /20 borrows 4 bits in the 3rd octet (not 2nd).
+
+10. Practice Mindset
+- Do not memorise "last year's questions"; memorise the concept each pattern tests.
+- For every protocol, know: Layer, Port, Transport (TCP/UDP), IPv4/IPv6 differences.
+- Draw a 4-line OSI cheat sheet (Layer 7–4, 3, 2, 1) on rough sheet before attempting the paper.
+
+Source: NCERT Class 12 Computer Science (Networking unit), RFC 791/793/8200, CompTIA Network+ objectives (concept mapping only).

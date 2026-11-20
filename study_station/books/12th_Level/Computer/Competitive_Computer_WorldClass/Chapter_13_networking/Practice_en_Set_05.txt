@@ -1,0 +1,151 @@
+Questions 101–120: Easy | Questions 121–125: Medium
+
+101. Which layer of the OSI model is responsible for logical addressing and routing?
+(a) Physical (b) Data Link (c) Network (d) Transport
+Answer: (c)
+Solution: The tempting wrong option is Data Link because it handles framing and MAC addressing, but logical addressing and routing are functions of the Network layer, so the answer is C.
+Source: PYQ-style
+
+102. In the TCP/IP model, which protocol provides reliable, connection‑oriented data transfer?
+(a) ICMP (b) UDP (c) IP (d) TCP
+Answer: (d)
+Solution: The tempting wrong option is UDP because it is also a transport protocol, but UDP is connectionless and unreliable, whereas TCP guarantees delivery, so the answer is A.
+Source: PYQ-style
+
+103. What is the default subnet mask for a Class C IPv4 network?
+(a) 255.0.0.0 (b) 255.255.255.0 (c) 255.255.0.0 (d) 255.255.255.255
+Answer: (b)
+Solution: The tempting wrong option is 255.255.0.0 which belongs to Class B, but Class C uses 24 network bits giving 255.255.255.0, so the answer is C.
+Source: PYQ-style
+
+104. Which device operates at the Data Link layer and forwards frames based on MAC addresses?
+(a) Router (b) Switch (c) Hub (d) Repeater
+Answer: (b)
+Solution: The tempting wrong option is Hub because it also connects devices, but a hub works at the Physical layer and broadcasts to all ports, while a switch uses MAC addresses, so the answer is C.
+Source: PYQ-style
+
+105. Which protocol is used for transferring files between a client and a server?
+(a) SMTP (b) HTTP (c) FTP (d) SNMP
+Answer: (c)
+Solution: The tempting wrong option is HTTP because it also transfers data, but HTTP is for web pages, while FTP is specifically designed for file transfer, so the answer is A.
+Source: PYQ-style
+
+106. Which wireless standard operates in the 5 GHz band and supports up to 54 Mbps?
+(a) 802.11a (b) 802.11b (c) 802.11g (d) 802.11n
+Answer: (a)
+Solution: The tempting wrong option is 802.11g because it also offers 54 Mbps but works in 2.4 GHz, while 802.11a uses 5 GHz, so the answer is B.
+Source: PYQ-style
+
+107. In IPv6, what is the length of an address in bits?
+(a) 32 (b) 64 (c) 128 (d) 256
+Answer: (c)
+Solution: The tempting wrong option is 64 because IPv6 uses 64‑bit interface identifiers, but the full address is 128 bits, so the answer is D.
+Source: PYQ-style
+
+108. Which command in Windows displays the routing table?
+(a) route print (b) ipconfig (c) ping (d) netstat -r
+Answer: (a)
+Solution: The tempting wrong option is netstat -r which also shows routing information, but route print is the dedicated command for the routing table in Windows, so the answer is B.
+Source: PYQ-style
+
+109. The DNS record type that maps a domain name to an IPv4 address is:
+(a) A (b) AAAA (c) CNAME (d) MX
+Answer: (a)
+Solution: The tempting wrong option is AAAA because it also maps names to addresses, but AAAA is for IPv6, while A records map to IPv4, so the answer is D.
+Source: PYQ-style
+
+110. Which protocol is used for sending email from a client to a mail server?
+(a) HTTP (b) POP3 (c) IMAP (d) SMTP
+Answer: (d)
+Solution: The tempting wrong option is POP3 because it also deals with email, but POP3 retrieves mail, while SMTP sends mail, so the answer is A.
+Source: PYQ-style
+
+111. Which layer of the TCP/IP model combines the functions of the OSI Session, Presentation, and Application layers?
+(a) Application (b) Internet (c) Network Access (d) Transport
+Answer: (a)
+Solution: The tempting wrong option is Transport because it handles end‑to‑end communication, but the Application layer in TCP/IP encompasses the top three OSI layers, so the answer is A.
+Source: PYQ-style
+
+112. Which protocol provides connectionless, best‑effort delivery of packets?
+(a) UDP (b) IP (c) ICMP (d) TCP
+Answer: (b)
+Solution: The tempting wrong option is UDP because it is also connectionless, but UDP is a transport protocol, while IP is the network‑layer protocol that provides best‑effort packet delivery, so the answer is A.
+Source: PYQ-style
+
+113. The default port number for HTTPS is:
+(a) 25 (b) 443 (c) 21 (d) 80
+Answer: (b)
+Solution: The tempting wrong option is 80 because it is the well‑known port for HTTP, but HTTPS uses 443, so the answer is D.
+Source: PYQ-style
+
+114. Which command in Linux displays the current network interfaces and their IP addresses?
+(a) ip addr show (b) ifconfig (c) netstat -i (d) route -n
+Answer: (a)
+Solution: The tempting wrong option is ifconfig which is deprecated, while ip addr show is the modern replacement, so the answer is B.
+Source: PYQ-style
+
+115. In a CIDR notation, what does /24 represent?
+(a) 255.255.255.0 (b) 255.255.0.0 (c) 255.0.0.0 (d) 255.255.255.255
+Answer: (a)
+Solution: The tempting wrong option is 255.255.0.0 which corresponds to /16, but /24 means 24 network bits giving 255.255.255.0, so the answer is A.
+Source: PYQ-style
+
+116. Which device is used to connect multiple networks and route packets based on IP addresses?
+(a) Switch (b) Hub (c) Router (d) Bridge
+Answer: (c)
+Solution: The tempting wrong option is Switch because it also forwards frames, but a switch uses MAC addresses, while a router uses IP addresses to route between networks, so the answer is B.
+Source: PYQ-style
+
+117. The protocol used for remote terminal access over a secure channel is:
+(a) HTTP (b) Telnet (c) SSH (d) FTP
+Answer: (c)
+Solution: The tempting wrong option is Telnet because it also provides remote terminal access, but Telnet sends data in clear text, while SSH encrypts the session, so the answer is D.
+Source: PYQ-style
+
+118. Which IPv6 address type is used for one‑to‑many communication?
+(a) Multicast (b) Unicast (c) Anycast (d) Broadcast
+Answer: (a)
+Solution: The tempting wrong option is Broadcast because IPv4 uses broadcast, but IPv6 replaces broadcast with multicast for one‑to‑many, so the answer is B.
+Source: PYQ-style
+
+119. Which routing protocol uses a link‑state algorithm to build its topology database?
+(a) RIP (b) OSPF (c) EIGRP (d) BGP
+Answer: (b)
+Solution: The tempting wrong option is EIGRP because it is also advanced, but EIGRP is a distance‑vector protocol with some link‑state features, while OSPF is a pure link‑state protocol, so the answer is C.
+Source: PYQ-style
+
+120. Which of the following IPv4 address ranges are reserved for private networks?
+(a) 10.0.0.0/8 (b) 172.16.0.0/12 (c) 192.168.0.0/16 (d) All of the above
+Answer: (d)
+Solution: The tempting wrong option is 10.0.0.0/8 because it is a well‑known private range, but all three ranges are defined as private in RFC 1918, so the answer is D.
+Source: PYQ-style
+
+121. In a TCP three‑way handshake, which flag is set in the second packet sent by the server?
+(a) SYN (b) ACK (c) SYN‑ACK (d) FIN
+Answer: (c)
+Solution: The tempting wrong option is ACK because the third packet is a pure ACK, but the server’s response includes both SYN and ACK flags, so the answer is C.
+Source: PYQ-style
+
+122. Which IPv6 address prefix is reserved for link‑local unicast addresses?
+(a) 2000::/3 (b) ff00::/8 (c) ::1/128 (d) fe80::/10
+Answer: (d)
+Solution: The tempting wrong option is ff00::/8 which is multicast, but link‑local unicast uses fe80::/10, so the answer is C.
+Source: PYQ-style
+
+123. What is the default administrative distance for EIGRP internal routes?
+(a) 0 (b) 90 (c) 1 (d) 110
+Answer: (b)
+Solution: The tempting wrong option is 110 which is OSPF, but EIGRP internal routes have an AD of 90, so the answer is B.
+Source: PYQ-style
+
+124. Which of the following routing protocols is a distance‑vector protocol?
+(a) OSPF (b) IS-IS (c) BGP (d) RIP
+Answer: (d)
+Solution: The tempting wrong option is BGP because it is also a routing protocol, but BGP is a path‑vector protocol, while RIP is a classic distance‑vector protocol, so the answer is A.
+Source: PYQ-style
+
+125. The maximum size of an Ethernet frame (including header and trailer) is:
+(a) 1536 bytes (b) 1500 bytes (c) 1522 bytes (d) 1518 bytes
+Answer: (d)
+Solution: The tempting wrong option is 1500 bytes which is the MTU payload, but the full frame with header and trailer is 1518 bytes, so the answer is D.
+Source: PYQ-style

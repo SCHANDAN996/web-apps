@@ -1,0 +1,103 @@
+Networking — Key Revision Points
+
+1. **Network Definition**  
+A computer network is a collection of interconnected devices (computers, servers, printers) that share resources and exchange data using communication protocols.
+
+2. **Network Types by Geographic Scope**  
+- PAN (Personal Area Network): ≤10 m, e.g., Bluetooth.  
+- LAN (Local Area Network): Single building/campus, high speed (100 Mbps–10 Gbps).  
+- MAN (Metropolitan Area Network): City-wide, e.g., cable TV network.  
+- WAN (Wide Area Network): Large geographic area, e.g., the Internet.
+
+3. **OSI Reference Model (7 Layers)**  
+From top to bottom: Application → Presentation → Session → Transport → Network → Data Link → Physical.  
+Mnemonic: "All People Seem To Need Data Processing."
+
+4. **TCP/IP Model (4 Layers)**  
+Application → Transport → Internet → Network Access.  
+Maps roughly to OSI: Application (5–7), Transport (4), Internet (3), Network Access (1–2).
+
+5. **Key Protocols by Layer**  
+- Application: HTTP/HTTPS (web), FTP (file transfer), SMTP/POP3/IMAP (email), DNS (name resolution), DHCP (IP assignment).  
+- Transport: TCP (reliable, connection-oriented), UDP (fast, connectionless).  
+- Internet: IP (addressing/routing), ICMP (error reporting, ping), ARP (IP→MAC).  
+- Link: Ethernet (wired), Wi-Fi (802.11), PPP.
+
+6. **IPv4 Addressing**  
+32-bit address written as four octets (0–255), e.g., 192.168.1.1.  
+Classes: A (1–126), B (128–191), C (192–223), D (224–239 multicast), E (240–255 reserved).  
+Private ranges: 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16.  
+Loopback: 127.0.0.1.
+
+7. **Subnet Mask & CIDR**  
+Subnet mask separates network and host portions. CIDR notation: /n (number of network bits).  
+Example: 192.168.1.0/24 → mask 255.255.255.0, 254 usable hosts.
+
+8. **IPv6 Addressing**  
+128-bit, hexadecimal, eight groups of four hex digits, e.g., 2001:0db8:85a3::8a2e:0370:7334.  
+Features: huge address space, simplified header, built-in IPsec, no broadcast (uses multicast).
+
+9. **MAC Address**  
+48-bit hardware address burned into NIC, written as six hex pairs (AA:BB:CC:DD:EE:FF).  
+First 3 bytes = OUI (vendor), last 3 bytes = device unique. Operates at Data Link layer.
+
+10. **Switch vs Hub vs Router**  
+- Hub: Layer 1, broadcasts to all ports (obsolete).  
+- Switch: Layer 2, learns MAC addresses, forwards frames only to destination port.  
+- Router: Layer 3, routes packets between networks using IP addresses.
+
+11. **Common Port Numbers**  
+20/21 FTP, 22 SSH, 23 Telnet, 25 SMTP, 53 DNS, 67/68 DHCP, 80 HTTP, 110 POP3, 143 IMAP, 443 HTTPS, 3389 RDP.
+
+12. **DNS (Domain Name System)**  
+Hierarchical, distributed database resolving domain names to IP addresses.  
+Record types: A (IPv4), AAAA (IPv6), CNAME (alias), MX (mail), NS (name server), TXT (text).  
+Root → TLD → Authoritative servers.
+
+13. **DHCP (Dynamic Host Configuration Protocol)**  
+Automatically assigns IP, subnet mask, gateway, DNS.  
+Process: DISCOVER → OFFER → REQUEST → ACK (DORA). Lease time configurable.
+
+14. **Firewall**  
+Filters traffic based on rules (IP, port, protocol, state).  
+Types: Packet-filtering (stateless), Stateful inspection, Application-layer (proxy), Next-gen (IPS, DPI).
+
+15. **VPN (Virtual Private Network)**  
+Creates encrypted tunnel over public network.  
+Protocols: IPsec (site-to-site, remote access), SSL/TLS (clientless/web), WireGuard (modern, fast).
+
+16. **Wireless Standards (IEEE 802.11)**  
+- 802.11b/g/n (2.4 GHz), 802.11a/n/ac/ax (5 GHz), 802.11ax = Wi-Fi 6, 802.11be = Wi-Fi 7.  
+Security: WEP (broken), WPA, WPA2 (AES-CCMP), WPA3 (SAE, forward secrecy).
+
+17. **Network Topologies**  
+Bus, Star, Ring, Mesh, Tree, Hybrid. Star is most common in LANs (central switch).
+
+18. **Transmission Media**  
+- Guided: Twisted pair (UTP/STP, Cat5e–Cat8), Coaxial, Fiber optic (single-mode/multi-mode).  
+- Unguided: Radio, Microwave, Satellite, Infrared.
+
+19. **Bandwidth, Latency, Throughput**  
+Bandwidth = max capacity (bps). Latency = one-way delay (ms). Throughput = actual achieved rate.  
+Jitter = variation in latency. Packet loss = % packets not delivered.
+
+20. **Error Detection & Correction**  
+- Parity bit, Checksum, CRC (Cyclic Redundancy Check) at Data Link layer.  
+- TCP uses checksum + sequence numbers + ACKs for reliable delivery.
+
+21. **Flow Control & Congestion Control**  
+Flow control: Receiver tells sender rate (TCP sliding window).  
+Congestion control: Sender reduces rate on packet loss (TCP Reno/CUBIC/BBR algorithms).
+
+22. **NAT (Network Address Translation)**  
+Maps private IPs to public IP. Types: Static NAT, Dynamic NAT, PAT/NAPT (port address translation — most common).
+
+23. **Proxy Server**  
+Intermediary for client requests. Forward proxy (client-side, caching/filtering), Reverse proxy (server-side, load balancing, SSL termination).
+
+24. **Cloud & CDN Basics**  
+CDN (Content Delivery Network) caches content at edge servers near users.  
+Cloud models: IaaS, PaaS, SaaS. Deployment: Public, Private, Hybrid.
+
+25. **Common Troubleshooting Commands (Windows/Linux)**  
+ping (reachability), tracert/traceroute (path), ipconfig/ifconfig/ip a (interface config), nslookup/dig (DNS), netstat/ss (connections), arp -a (MAC table), route print/ip route (routing table).

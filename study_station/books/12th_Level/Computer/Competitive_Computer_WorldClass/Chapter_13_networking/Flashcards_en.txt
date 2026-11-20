@@ -1,0 +1,71 @@
+Card 1
+Front: What is a computer network?
+Back: A computer network is a collection of interconnected computers and devices that can communicate with each other and share resources (data, files, printers, internet connection).
+
+Card 2
+Front: Define LAN, MAN, and WAN.
+Back: LAN (Local Area Network) — covers a small area like a building or campus. MAN (Metropolitan Area Network) — covers a city or large campus. WAN (Wide Area Network) — covers large geographical areas, e.g., the Internet.
+
+Card 3
+Front: What is the OSI Model? List its 7 layers from top to bottom.
+Back: Open Systems Interconnection model — a conceptual framework for network communication. Layers (top to bottom): 7 Application, 6 Presentation, 5 Session, 4 Transport, 3 Network, 2 Data Link, 1 Physical.
+
+Card 4
+Front: What is the TCP/IP Model? How many layers?
+Back: TCP/IP (Transmission Control Protocol/Internet Protocol) — the practical protocol suite used on the Internet. It has 4 layers: Application, Transport, Internet, Network Access (Link).
+
+Card 5
+Front: Difference between TCP and UDP.
+Back: TCP — connection-oriented, reliable, ordered delivery, error checking, flow control (used for web, email, file transfer). UDP — connectionless, faster, no guarantee of delivery/order (used for streaming, DNS, VoIP, gaming).
+
+Card 6
+Front: What is an IP address? Difference between IPv4 and IPv6.
+Back: IP address — unique logical address for a device on a network. IPv4 — 32-bit (4 octets), ~4.3 billion addresses (e.g., 192.168.1.1). IPv6 — 128-bit, hexadecimal, vastly larger address space (e.g., 2001:0db8:85a3::8a2e:0370:7334).
+
+Card 7
+Front: Define Subnet Mask and its purpose.
+Back: A 32-bit number that divides an IP address into network and host portions. It determines which part of the IP identifies the network and which part identifies the host (e.g., 255.255.255.0 for /24 networks).
+
+Card 8
+Front: What are Private IP address ranges (RFC 1918)?
+Back: Class A: 10.0.0.0 – 10.255.255.255 (10.0.0.0/8). Class B: 172.16.0.0 – 172.31.255.255 (172.16.0.0/12). Class C: 192.168.0.0 – 192.168.255.255 (192.168.0.0/16). Not routable on public Internet.
+
+Card 9
+Front: What is a MAC address? How many bits?
+Back: Media Access Control address — unique hardware identifier burned into NIC. 48 bits (6 bytes), written in hexadecimal (e.g., 00:1A:2B:3C:4D:5E). First 3 bytes = OUI (vendor), last 3 bytes = device unique.
+
+Card 10
+Front: Function of a Router vs Switch vs Hub.
+Back: Router — connects different networks, routes packets based on IP (Layer 3). Switch — connects devices within a LAN, forwards frames based on MAC (Layer 2). Hub — dumb repeater, broadcasts to all ports (Layer 1), obsolete.
+
+Card 11
+Front: What is DNS? Default port number.
+Back: Domain Name System — translates human-readable domain names (www.example.com) to IP addresses. Uses port 53 (UDP for queries, TCP for zone transfers).
+
+Card 12
+Front: Common application layer protocols and their default ports.
+Back: HTTP — 80, HTTPS — 443, FTP — 20/21, SSH — 22, Telnet — 23, SMTP — 25, POP3 — 110, IMAP — 143, DNS — 53, DHCP — 67/68.
+
+Card 13
+Front: What is DHCP? What does it provide?
+Back: Dynamic Host Configuration Protocol — automatically assigns IP configuration to devices. Provides: IP address, subnet mask, default gateway, DNS server(s), lease time.
+
+Card 14
+Front: Define Firewall and its types.
+Back: Firewall — network security device that monitors and controls traffic based on rules. Types: Packet-filtering (stateless), Stateful inspection, Application-layer (proxy), Next-generation (includes IPS, malware inspection).
+
+Card 15
+Front: What is a VPN? Name two common protocols.
+Back: Virtual Private Network — creates encrypted tunnel over public network for secure remote access. Common protocols: IPsec (Internet Protocol Security), SSL/TLS (OpenVPN, SSTP), WireGuard (modern, faster).
+
+Card 16
+Front: Difference between Static and Dynamic Routing.
+Back: Static routing — manually configured routes, simple, no overhead, doesn't adapt to changes. Dynamic routing — routers exchange routing info via protocols (RIP, OSPF, BGP), adapts to topology changes, scales better.
+
+Card 17
+Front: What is NAT? Why is it used?
+Back: Network Address Translation — maps private IPs to public IP(s). Conserves IPv4 addresses, hides internal network structure, allows multiple devices to share one public IP. Types: Static NAT, Dynamic NAT, PAT (Port Address Translation / NAT Overload).
+
+Card 18
+Front: Wireless standards — IEEE 802.11 versions and max speeds (theoretical).
+Back: 802.11b — 11 Mbps (2.4 GHz). 802.11g — 54 Mbps (2.4 GHz). 802.11n (Wi-Fi 4) — 600 Mbps (2.4/5 GHz). 802.11ac (Wi-Fi 5) — 6.9 Gbps (5 GHz). 802.11ax (Wi-Fi 6/6E) — 9.6 Gbps (2.4/5/6 GHz). 802.11be (Wi-Fi 7) — up to 46 Gbps.

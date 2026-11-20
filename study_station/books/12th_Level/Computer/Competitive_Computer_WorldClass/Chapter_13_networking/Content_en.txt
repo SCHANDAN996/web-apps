@@ -1,0 +1,185 @@
+Networking
+
+Introduction
+Networking is the practice of connecting computers and other devices to share resources and information. For government exams (SSC CHSL, CGL, Railway, Bank), the focus is on stable, foundational concepts — definitions, models, devices, addressing, and common protocols — rather than version-specific features or rapidly changing technologies. This chapter covers the syllabus topics that appear repeatedly in computer-knowledge sections.
+
+1. Basic Terminology
+- Node: Any device (computer, printer, phone) connected to a network.
+- Link: The physical or logical connection between two nodes.
+- Bandwidth: Maximum data transfer rate of a link, measured in bits per second (bps, Kbps, Mbps, Gbps).
+- Latency: Time taken for a packet to travel from source to destination.
+- Throughput: Actual data transfer rate achieved, always ≤ bandwidth.
+- Protocol: A set of rules governing communication (format, timing, sequencing, error control).
+
+2. Network Types by Geographic Scope
+- PAN (Personal Area Network): Range ~10 m. Example: Bluetooth between phone and headset.
+- LAN (Local Area Network): Single building or campus. High speed (100 Mbps – 10 Gbps), low latency, privately owned.
+- MAN (Metropolitan Area Network): City-wide. Example: Cable TV network, city Wi-Fi.
+- WAN (Wide Area Network): Large geographic area, often using leased telecom circuits. The Internet is the largest WAN.
+
+3. Network Topologies
+Topology describes how nodes are interconnected.
+- Bus: All nodes share a single backbone cable. Simple, but a backbone break disables the whole network.
+- Star: Each node connects to a central switch/hub. Most common in modern LANs; failure of one link isolates only that node.
+- Ring: Nodes form a closed loop; data travels in one direction (or both in dual-ring). Used in some MANs (e.g., FDDI).
+- Mesh: Every node connects to every other node. High redundancy, high cost. Partial mesh is common in WAN backbones.
+- Hybrid: Combination of two or more topologies (e.g., star-bus in office floors).
+
+4. OSI Reference Model (7 Layers)
+The Open Systems Interconnection model standardises functions into layers. Remember top-down: "All People Seem To Need Data Processing" (Application → Physical).
+
+| Layer | Name | Key Functions | Typical Protocols / Devices |
+|-------|------|---------------|-----------------------------|
+| 7 | Application | User interface, network services | HTTP, HTTPS, FTP, SMTP, DNS, DHCP |
+| 6 | Presentation | Translation, encryption, compression | SSL/TLS, JPEG, MPEG, ASCII |
+| 5 | Session | Dialog control, synchronization | NetBIOS, RPC, PPTP |
+| 4 | Transport | End-to-end delivery, segmentation, flow control, error recovery | TCP (reliable), UDP (fast, unreliable) |
+| 3 | Network | Logical addressing, routing, path determination | IP (IPv4/IPv6), ICMP, OSPF, BGP; Router |
+| 2 | Data Link | Framing, physical addressing (MAC), error detection, access control | Ethernet (IEEE 802.3), Wi-Fi (802.11), PPP; Switch, Bridge |
+| 1 | Physical | Bits on media: cables, connectors, voltages, pinouts | RJ-45, fiber, coaxial, hub, repeater |
+
+Exam tip: Questions often ask "At which layer does a router operate?" → Layer 3. "Switch?" → Layer 2. "Hub?" → Layer 1.
+
+5. TCP/IP Model (4 Layers)
+The practical model used on the Internet. Maps loosely to OSI:
+- Application (OSI 5–7)
+- Transport (OSI 4) — TCP, UDP
+- Internet (OSI 3) — IP, ICMP, ARP
+- Network Access / Link (OSI 1–2) — Ethernet, Wi-Fi
+
+6. Key Network Devices
+- Repeater / Hub (Layer 1): Regenerates / broadcasts signals to all ports. No intelligence. Half-duplex only.
+- Bridge / Switch (Layer 2): Learns MAC addresses, forwards frames only to the relevant port. Switch = multi-port bridge. Full-duplex capable. Forwards broadcast frames to all ports in the same broadcast domain.
+- Router (Layer 3): Routes packets between networks using IP addresses. Maintains routing table. Does not forward broadcasts.
+- Gateway: Generic term for a device connecting dissimilar networks (e.g., VoIP gateway, email gateway). Often operates at multiple layers.
+- Modem (Modulator-Demodulator): Converts digital data to analog for telephone/coaxial/fiber lines and back.
+- Access Point (AP): Wireless bridge between wired LAN and wireless clients (Wi-Fi).
+
+7. IP Addressing (IPv4)
+- 32-bit address, written as four decimal octets (0–255) separated by dots. Example: 192.168.1.10
+- Two parts: Network ID (prefix) and Host ID (suffix). The split is defined by the subnet mask.
+- Subnet mask: 32-bit mask with contiguous 1s for network portion, 0s for host portion. Example: 255.255.255.0 (/24).
+- CIDR (Classless Inter-Domain Routing): Prefix length notation. 192.168.1.0/24 means first 24 bits are network.
+- Special ranges (RFC 1918 — private, not routable on Internet):
+  - 10.0.0.0/8 (10.0.0.0 – 10.255.255.255)
+  - 172.16.0.0/12 (172.16.0.0 – 172.31.255.255)
+  - 192.168.0.0/16 (192.168.0.0 – 192.168.255.255)
+- Loopback: 127.0.0.0/8 (127.0.0.1 commonly used).
+- Link-local (APIPA): 169.254.0.0/16 — auto-assigned when DHCP fails.
+- Broadcast address: All host bits = 1 (e.g., 192.168.1.255/24).
+- Network address: All host bits = 0 (e.g., 192.168.1.0/24) — not assignable to a host.
+
+IPv4 Address Classes (legacy, still asked):
+- Class A: 1–126 (0xxxxxxx), default /8, large networks
+- Class B: 128–191 (10xxxxxx), default /16, medium networks
+- Class C: 192–223 (110xxxxx), default /24, small networks
+- Class D: 224–239 (1110xxxx), multicast
+- Class E: 240–255 (1111xxxx), experimental
+
+8. IPv6 Addressing
+- 128-bit address, written as eight groups of four hexadecimal digits separated by colons. Example: 2001:0db8:85a3:0000:0000:8a2e:0370:7334
+- Compression rules: Leading zeros in a group may be omitted; one longest sequence of all-zero groups may be replaced by :: (once only). Compressed: 2001:db8:85a3::8a2e:370:7334
+- Address types:
+  - Global Unicast (2000::/3) — routable on Internet, equivalent to public IPv4.
+  - Link-Local (fe80::/10) — auto-configured on every interface, not routable beyond link.
+  - Unique Local (fc00::/7) — private, roughly like RFC 1918.
+  - Multicast (ff00::/8) — one-to-many.
+  - Loopback (::1/128), Unspecified (::/128).
+- No broadcast in IPv6; multicast replaces it.
+- Transition mechanisms: Dual stack, tunneling (6to4, ISATAP), translation (NAT64).
+
+9. Common Transport-Layer Protocols
+- TCP (Transmission Control Protocol, port numbers): Connection-oriented, reliable, sequenced, flow-controlled, congestion-controlled. Used by HTTP, HTTPS, FTP, SMTP, SSH, Telnet.
+- UDP (User Datagram Protocol): Connectionless, no guarantee of delivery/order. Low overhead. Used by DNS, DHCP, TFTP, streaming, VoIP, online gaming.
+- Port numbers (well-known, 0–1023):
+  - 20/21 FTP (data/control)
+  - 22 SSH
+  - 23 Telnet
+  - 25 SMTP
+  - 53 DNS
+  - 67/68 DHCP (server/client)
+  - 69 TFTP
+  - 80 HTTP
+  - 110 POP3
+  - 143 IMAP
+  - 443 HTTPS
+  - 3389 RDP
+
+10. Important Application-Layer Protocols
+- DNS (Domain Name System): Resolves domain names to IP addresses. Uses UDP 53 (queries), TCP 53 (zone transfers). Hierarchical: root → TLD → authoritative.
+- DHCP (Dynamic Host Configuration Protocol): Automates IP assignment. DORA process: Discover → Offer → Request → Acknowledge. Lease time configurable.
+- HTTP/HTTPS: Web traffic. HTTPS = HTTP over TLS (SSL), port 443.
+- FTP: File transfer. Active mode (server connects back to client port 20) vs Passive mode (client initiates both connections) — passive works better with firewalls.
+- SMTP (25): Mail sending. POP3 (110) / IMAP (143): Mail retrieval.
+- ICMP (Internet Control Message Protocol): Layer 3 helper. Ping (Echo Request/Reply), Traceroute (TTL exceeded), Destination Unreachable.
+
+11. Wireless Networking (Wi-Fi — IEEE 802.11)
+- Frequencies: 2.4 GHz (longer range, more interference, channels 1–13), 5 GHz (shorter range, more non-overlapping channels), 6 GHz (Wi-Fi 6E/7).
+- Standards (simplified for exams):
+  - 802.11b/g (legacy) — 2.4 GHz only
+  - 802.11a (legacy) — 5 GHz only
+  - 802.11n (Wi-Fi 4) — 2.4 GHz and 5 GHz
+  - 802.11ac (Wi-Fi 5) — 5 GHz only
+  - 802.11ax (Wi-Fi 6/6E) — 2.4/5/6 GHz, OFDMA, MU-MIMO, target wake time
+  - 802.11be (Wi-Fi 7) — 2.4/5/6 GHz, 320 MHz channels, MLO
+- Security: WEP (broken) → WPA → WPA2 (AES-CCMP) → WPA3 (SAE, forward secrecy). Exam answer: WPA2-AES (CCMP) or WPA3.
+- SSID: Service Set Identifier — network name. BSSID: MAC address of AP.
+
+12. Network Security Basics
+- Firewall: Packet-filtering (stateless), Stateful inspection, Application-layer (proxy), Next-Gen (IPS, identity awareness).
+- VPN (Virtual Private Network): Encrypted tunnel over public network. IPsec (Layer 3), SSL/TLS VPN (Layer 4/7).
+- NAT (Network Address Translation): Maps private IPs to public IP. Types: Static (1:1), Dynamic (pool), PAT/NAPT (many-to-one using port numbers) — most common in home routers.
+- Common threats: Malware, Phishing, DoS/DDoS, Man-in-the-Middle, ARP Spoofing, DNS Poisoning.
+- Defense: Updates/patches, strong passwords, least privilege, encryption (TLS, IPsec), IDS/IPS, backup.
+
+13. Worked Examples
+
+Example 1: Subnet Mask to CIDR and Host Count
+Given subnet mask 255.255.255.192, find CIDR prefix and usable hosts per subnet.
+Solution: 255.255.255.192 = 11111111.11111111.11111111.11000000 → 26 ones → /26. Host bits = 32 − 26 = 6. Total hosts = 2⁶ = 64. Usable = 64 − 2 (network + broadcast) = 62.
+
+Example 2: Identify Network and Broadcast Address
+IP: 172.16.45.100, Mask: 255.255.240.0 (/20).
+Solution: Block size = 256 − 240 = 16 in the third octet. Multiples of 16: 0, 16, 32, 48… 45 falls in 32–47 block. Network = 172.16.32.0. Broadcast = 172.16.47.255. Usable range = 172.16.32.1 – 172.16.47.254.
+
+Example 3: Private vs Public Address
+Which of these is a private IPv4 address? (a) 13.56.78.90 (b) 172.15.10.5 (c) 172.18.10.5 (d) 192.169.1.10
+Solution: Private ranges: 10.0.0.0/8, 172.16.0.0/12 (172.16–172.31), 192.168.0.0/16. (a) 13.x is public. (b) 172.15 is outside 172.16–31 → public. (c) 172.18 falls in 172.16–31 → private. (d) 192.169 is outside 192.168 → public. Answer: (c).
+
+Example 4: IPv6 Compression
+Compress 2001:0db8:0000:0000:0000:0000:0000:0001.
+Solution: Remove leading zeros per group → 2001:db8:0:0:0:0:0:1. Longest zero run = five groups → replace with :: once → 2001:db8::1.
+
+Example 5: Protocol-Port Matching
+Match: (1) HTTPS (2) DNS query (3) SSH (4) DHCP server (5) SMTP.
+Ports: 22, 25, 53, 67, 443.
+Solution: HTTPS→443, DNS→53, SSH→22, DHCP server→67, SMTP→25.
+
+Example 6: Device Layer Identification
+A network administrator connects two IP networks using a device that makes forwarding decisions based on IP addresses and does not forward broadcast traffic between the networks. At which OSI layer does this device operate?
+Solution: Forwarding by IP address = Layer 3 (Network). A router fits this description. A switch (Layer 2) forwards frames by MAC address and floods broadcasts within the broadcast domain. A hub (Layer 1) repeats signals to all ports. Answer: Layer 3.
+
+14. Common Errors and Misconceptions
+1. Confusing hub, switch, and router layers. Hub = Layer 1 (bits), Switch = Layer 2 (frames/MAC), Router = Layer 3 (packets/IP).
+2. Thinking a switch breaks broadcast domains. It breaks collision domains; only a router (or VLAN with Layer 3 switching) breaks broadcast domains.
+3. Assuming 192.168.x.x is the only private range. Forgetting 10.x.x.x and 172.16–31.x.x.
+4. Counting usable hosts as 2ⁿ instead of 2ⁿ − 2 (network and broadcast addresses are not assignable to hosts). Exception: /31 (point-to-point) and /32 (single host) per RFC 3021/4632 — but standard exam questions use −2.
+5. Mixing up TCP and UDP use cases. TCP = reliability needed (web, mail, file transfer). UDP = speed/low overhead needed (DNS, streaming, VoIP, DHCP).
+6. Believing IPv6 has broadcast. It uses multicast (ff02::1 for all-nodes, ff02::2 for all-routers).
+7. Confusing CIDR block size calculation. Block size = 2^(32−prefix) for IPv4. For /20 → 2¹² = 4096 addresses per subnet.
+8. Thinking MAC addresses are hierarchical like IP. MAC is flat (OUI + device), not routable across Layer 3 boundaries.
+9. Assuming DHCP uses TCP. It uses UDP (67/68) because the client has no IP yet to establish a TCP connection.
+10. Stating "WPA2-PSK with TKIP" as secure. TKIP is deprecated; WPA2-AES (CCMP) or WPA3 is correct.
+
+15. Quick Revision Points
+- OSI layers: Application → Physical. Mnemonic: "All People Seem To Need Data Processing".
+- TCP vs UDP: TCP = reliable, connection-oriented; UDP = fast, connectionless.
+- Private IPv4: 10/8, 172.16/12, 192.168/16.
+- Subnet usable hosts = 2^(host bits) − 2.
+- Router = Layer 3, Switch = Layer 2, Hub = Layer 1.
+- Common ports: 22 SSH, 25 SMTP, 53 DNS, 67/68 DHCP, 80 HTTP, 443 HTTPS, 110 POP3, 143 IMAP.
+- Wi-Fi security: WPA2-AES or WPA3.
+- NAT/PAT allows many private hosts to share one public IPv4.
+- IPv6: 128-bit, hex, :: compression, no broadcast, link-local fe80::/10.
+
+Sources: NCERT Computer Science (Class 11–12), Tanenbaum "Computer Networks", RFC 1918, RFC 791 (IP), RFC 793 (TCP), RFC 768 (UDP), RFC 2460/8200 (IPv6), IEEE 802.3/802.11 standards, Microsoft Learn (Networking Fundamentals), CERT-In advisories.

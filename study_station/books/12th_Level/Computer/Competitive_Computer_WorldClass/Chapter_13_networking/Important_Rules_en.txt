@@ -1,0 +1,76 @@
+15 Important Networking Rules & Principles
+
+Rule 1 — OSI Model Layer Functions Are Fixed
+Each of the seven OSI layers has a defined responsibility that does not change across protocols.
+Example: Layer 3 (Network) always handles logical addressing and routing; Layer 4 (Transport) always handles end-to-end delivery and flow control.
+Exception: Real-world protocol stacks (TCP/IP) combine or omit layers — e.g., TCP/IP merges OSI Layers 5–7 into a single Application layer.
+
+Rule 2 — TCP Guarantees Delivery; UDP Does Not
+TCP provides reliable, ordered, error-checked delivery via acknowledgements, retransmissions, and sequencing. UDP sends datagrams with no guarantee of arrival, order, or duplicate protection.
+Example: HTTP/HTTPS, SMTP, FTP use TCP; DNS queries, VoIP, live streaming often use UDP.
+Exception: Applications can build reliability on top of UDP (e.g., QUIC, TFTP with application-level ACKs).
+
+Rule 3 — IPv4 Addresses Are 32-bit; IPv6 Addresses Are 128-bit
+IPv4 uses dotted-decimal notation (e.g., 192.168.1.1); IPv6 uses hexadecimal hextets separated by colons (e.g., 2001:db8::1).
+Example: Private IPv4 ranges — 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 (RFC 1918). IPv6 unique local addresses use fc00::/7.
+Exception: IPv4-mapped IPv6 addresses (::ffff:0:0/96) embed IPv4 inside IPv6 for dual-stack transition.
+
+Rule 4 — Subnet Mask Determines Network vs Host Portion
+A subnet mask (or CIDR prefix length) splits an IP address into network prefix and host identifier. All hosts in the same subnet share the same network prefix.
+Example: 192.168.10.0/24 → mask 255.255.255.0; usable hosts 192.168.10.1 – 192.168.10.254.
+Exception: /31 subnets (RFC 3021) allow point-to-point links with no broadcast/network addresses; /32 denotes a single host.
+
+Rule 5 — Default Gateway Must Be in the Same Subnet
+A host sends packets destined for other networks to its default gateway. The gateway IP must fall within the host's subnet mask range.
+Example: Host 192.168.1.50/24 → gateway 192.168.1.1 (valid). Gateway 192.168.2.1 would be unreachable without a route.
+Exception: Proxy ARP or L3 switching can forward across subnets without a traditional gateway, but the host still needs a reachable next-hop.
+
+Rule 6 — DNS Resolves Names to IP Addresses Hierarchically
+DNS uses a distributed hierarchy: root → TLD → authoritative servers. Queries can be recursive (resolver chases referrals) or iterative (resolver follows referrals itself).
+Example: www.example.com → root refers to .com TLD → TLD refers to example.com authoritative → returns A/AAAA record.
+Exception: Local hosts file (/etc/hosts, C:\Windows\System32\drivers\etc\hosts) overrides DNS; split-horizon DNS returns different IPs for internal vs external clients.
+
+Rule 7 — DHCP Automates IP Configuration (DORA Process)
+DHCP uses four steps: Discover (broadcast), Offer (server unicast/broadcast), Request (broadcast), Acknowledgement (unicast). Lease time controls renewal.
+Example: Client broadcasts DHCPDISCOVER; server offers 192.168.1.100/24 with 24-hour lease.
+Exception: Static reservations (MAC-to-IP) bypass dynamic allocation; DHCP relay agents (ip helper) forward broadcasts across subnets.
+
+Rule 8 — ARP Maps IPv4 to MAC on the Same LAN
+Address Resolution Protocol broadcasts "Who has IP X?" — the owner replies with its MAC. Entries are cached (typically 30–60 seconds).
+Example: Host A (192.168.1.5) wants to send to 192.168.1.6 → ARP request → Host B replies with MAC 00:1A:2B:3C:4D:5E.
+Exception: Proxy ARP lets a router answer for hosts on another subnet; IPv6 uses NDP (Neighbor Discovery Protocol) with ICMPv6 instead of ARP.
+
+Rule 9 — Switches Forward Based on MAC Address Table; Routers Forward Based on IP Routing Table
+A switch learns source MACs from incoming frames and builds a MAC address table (CAM). Unknown unicast floods to all ports except ingress. A router examines destination IP, consults its routing table (longest prefix match), and forwards out the next-hop interface.
+Example: Switch receives frame for known MAC → forwards only to that port. Router receives packet for 10.0.0.0/8 → matches route via 192.168.1.254.
+Exception: Layer-3 switches combine both functions; VLANs segment broadcast domains on switches.
+
+Rule 10 — VLANs Separate Broadcast Domains; Trunks Carry Tagged Frames
+A VLAN is a logical broadcast domain. Access ports carry untagged frames for one VLAN. Trunk ports (802.1Q) tag frames with a 4-byte VLAN ID so multiple VLANs share one physical link.
+Example: Ports 1–10 in VLAN 10 (Sales), ports 11–20 in VLAN 20 (HR). Trunk to router carries both VLANs tagged.
+Exception: Native VLAN on a trunk carries untagged frames (default VLAN 1); mismatched native VLANs cause leakage.
+
+Rule 11 — STP/RSTP Prevents Layer-2 Loops
+Spanning Tree Protocol elects a root bridge, designates root/designated/blocked ports per segment, and blocks redundant paths. RSTP (802.1w) converges faster with port roles (root, designated, alternate, backup) and edge ports.
+Example: Three switches in a triangle → STP blocks one port to break the loop.
+Exception: Loop Guard, BPDU Guard, and PortFast are Cisco enhancements; MSTP (802.1s) maps multiple VLANs to fewer spanning-tree instances.
+
+Rule 12 — NAT Translates Private IPs to Public for Internet Access
+Network Address Translation rewrites source IP/port (and optionally destination) so multiple private hosts share one public IP. Types: Static NAT (1:1), Dynamic NAT (pool), PAT/NAPT (many-to-one using port numbers).
+Example: Home router PAT: 192.168.1.5:54321 → 203.0.113.10:40001 → internet.
+Exception: NAT breaks end-to-end connectivity; protocols embedding IPs in payload (FTP, SIP, IPsec ESP) need ALGs or traversal techniques (STUN, TURN, ICE).
+
+Rule 13 — Firewalls Filter by Layer 3/4 (Stateless) or Layer 3–7 (Stateful/Application)
+Stateless ACLs match IP, protocol, port per packet. Stateful firewalls track connection state (SYN, ESTABLISHED, FIN) and allow return traffic automatically. Next-gen firewalls inspect application payloads (HTTP, TLS SNI, DNS).
+Example: Stateful rule: allow outbound TCP 443 → return traffic permitted without explicit inbound rule.
+Exception: Asymmetric routing can break stateful inspection; ICMP must be partially allowed (Type 3/4/11/12) for PMTUD and error reporting.
+
+Rule 14 — VPNs Extend Private Networks Over Public Infrastructure
+IPsec (ESP/AH) provides confidentiality, integrity, authentication at Layer 3. SSL/TLS VPNs (OpenVPN, SSTP, HTTPS portals) operate at Layer 4/7. WireGuard uses modern cryptography (Curve25519, ChaCha20-Poly1305) in kernel space.
+Example: Site-to-site IPsec tunnel between branch and HQ; remote-access SSL VPN for employees.
+Exception: MTU reduction due to encapsulation (IPsec adds ~50–80 bytes) — requires MSS clamping or PMTUD.
+
+Rule 15 — Wireless (802.11) Uses CSMA/CA, Not CSMA/CD
+Wi-Fi cannot detect collisions while transmitting (half-duplex radio). Stations use Carrier Sense Multiple Access with Collision Avoidance: random backoff, RTS/CTS optional, ACK for each frame. Standards: 802.11n (Wi-Fi 4), 802.11ac (Wi-Fi 5), 802.11ax (Wi-Fi 6/6E), 802.11be (Wi-Fi 7).
+Example: 2.4 GHz (channels 1,6,11 non-overlapping), 5 GHz (more non-overlapping channels), 6 GHz (Wi-Fi 6E/7).
+Exception: WPA3 replaces WPA2 with SAE (Simultaneous Authentication of Equals) for stronger handshake; enterprise mode uses 802.1X/EAP with RADIUS.

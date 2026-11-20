@@ -1,0 +1,149 @@
+51. Which layer of the OSI model is responsible for logical addressing and routing?
+(a) Network layer (b) Data Link layer (c) Physical layer (d) Transport layer
+Answer: (a)
+Solution: The Data Link layer handles physical addressing (MAC), while the Network layer handles logical addressing (IP) and routing; the Physical layer deals with bits and the Transport layer with end-to-end delivery, so the answer is Network layer.
+Source: NCERT Class 12 Computer Science
+
+52. What is the default port number for HTTPS?
+(a) 21 (b) 25 (c) 80 (d) 443
+Answer: (d)
+Solution: Port 80 is for HTTP, 21 for FTP, 25 for SMTP; HTTPS uses port 443 for encrypted communication, so the answer is 443.
+Source: PYQ-style
+
+53. Which protocol resolves domain names to IP addresses?
+(a) DHCP (b) ARP (c) DNS (d) ICMP
+Answer: (c)
+Solution: DHCP assigns IP addresses dynamically, ARP maps IP to MAC on a local network, ICMP is for error reporting; DNS specifically resolves domain names to IP addresses, so the answer is DNS.
+Source: NCERT Class 12 Computer Science
+
+54. In IPv4, how many bits are in an IP address?
+(a) 32 (b) 64 (c) 128 (d) 256
+Answer: (a)
+Solution: IPv6 uses 128 bits; 64 and 256 are not standard IP address lengths; IPv4 addresses are 32 bits long, so the answer is 32.
+Source: PYQ-style
+
+55. Which class of IPv4 address provides the largest number of host addresses per network?
+(a) Class D (b) Class B (c) Class C (d) Class A
+Answer: (d)
+Solution: Class B and C have fewer host bits; Class D is for multicast; Class A uses 8 bits for network and 24 for hosts, giving the most hosts per network, so the answer is Class A.
+Source: NCERT Class 12 Computer Science
+
+56. What is the subnet mask for a /24 network in dotted decimal notation?
+(a) 255.0.0.0 (b) 255.255.0.0 (c) 255.255.255.255 (d) 255.255.255.0
+Answer: (d)
+Solution: /8 gives 255.0.0.0, /16 gives 255.255.0.0, /32 gives 255.255.255.255; /24 means 24 network bits, so the mask is 255.255.255.0, so the answer is 255.255.255.0.
+Source: PYQ-style
+
+57. Which device operates at the Data Link layer and uses MAC addresses to forward frames?
+(a) Switch (b) Router (c) Hub (d) Repeater
+Answer: (a)
+Solution: Hubs and repeaters work at Physical layer; routers work at Network layer using IP addresses; switches learn MAC addresses and forward frames at Data Link layer, so the answer is Switch.
+Source: NCERT Class 12 Computer Science
+
+58. What does the acronym "TCP" stand for?
+(a) Transmission Control Protocol (b) Transfer Control Protocol (c) Transport Communication Protocol (d) Terminal Connection Protocol
+Answer: (a)
+Solution: "Transfer" and "Transport" are plausible but incorrect; the standard name is Transmission Control Protocol, so the answer is Transmission Control Protocol.
+Source: PYQ-style
+
+59. Which protocol is connectionless and unreliable but fast, often used for streaming?
+(a) TCP (b) UDP (c) HTTP (d) FTP
+Answer: (b)
+Solution: TCP is connection-oriented and reliable; HTTP and FTP are application-layer protocols that use TCP; UDP is connectionless and does not guarantee delivery, making it suitable for streaming, so the answer is UDP.
+Source: NCERT Class 12 Computer Science
+
+60. What is the loopback IP address in IPv4?
+(a) 10.0.0.1 (b) 192.168.1.1 (c) 127.0.0.1 (d) 172.16.0.1
+Answer: (c)
+Solution: The other options are private network addresses; 127.0.0.1 is reserved for loopback testing on the local host, so the answer is 127.0.0.1.
+Source: PYQ-style
+
+61. Which wireless standard operates only in the 5 GHz band and supports up to 54 Mbps?
+(a) 802.11b (b) 802.11g (c) 802.11a (d) 802.11n
+Answer: (c)
+Solution: 802.11b and g use 2.4 GHz; 802.11n uses both bands; 802.11a uses only 5 GHz with a maximum of 54 Mbps, so the answer is 802.11a.
+Source: NCERT Class 12 Computer Science
+
+62. What is the purpose of the ARP protocol?
+(a) Assign IP addresses dynamically (b) Map IP addresses to MAC addresses (c) Resolve domain names to IP addresses (d) Report network errors
+Answer: (b)
+Solution: DHCP assigns IP addresses, DNS resolves domain names, ICMP reports errors; ARP specifically maps a known IP address to a MAC address on the local network, so the answer is Map IP addresses to MAC addresses.
+Source: PYQ-style
+
+63. Which of the following is a private IP address range?
+(a) All of the above (b) 192.168.0.0 – 192.168.255.255 (c) 10.0.0.0 – 10.255.255.255 (d) 172.16.0.0 – 172.31.255.255
+Answer: (a)
+Solution: Each of the three ranges is defined as private in RFC 1918; choosing only one would be incomplete, so the answer is All of the above.
+Source: NCERT Class 12 Computer Science
+
+64. What is the maximum data rate of 802.11g?
+(a) 11 Mbps (b) 54 Mbps (c) 150 Mbps (d) 600 Mbps
+Answer: (b)
+Solution: 11 Mbps is 802.11b; 150/600 Mbps are 802.11n/ac rates; 802.11g operates at 2.4 GHz with a maximum of 54 Mbps, so the answer is 54 Mbps.
+Source: PYQ-style
+
+65. Which layer adds a header containing source and destination port numbers?
+(a) Network layer (b) Application layer (c) Session layer (d) Transport layer
+Answer: (d)
+Solution: Network layer adds IP addresses; Session and Application layers do not add port numbers; Transport layer (TCP/UDP) adds port numbers to identify applications, so the answer is Transport layer.
+Source: NCERT Class 12 Computer Science
+
+66. What does the "S" in HTTPS stand for?
+(a) Server (b) Socket (c) Standard (d) Secure
+Answer: (d)
+Solution: "Socket" and "Server" are related terms but not the meaning; HTTPS is HTTP over TLS/SSL, where S stands for Secure, so the answer is Secure.
+Source: PYQ-style
+
+67. Which command is used in Windows to display the routing table?
+(a) netstat -r (b) ipconfig (c) ping (d) tracert
+Answer: (a)
+Solution: ipconfig shows IP configuration; ping tests connectivity; tracert traces route; netstat -r displays the routing table, so the answer is netstat -r.
+Source: Microsoft Learn
+
+68. What is the default subnet mask for a Class B network?
+(a) 255.255.0.0 (b) 255.0.0.0 (c) 255.255.255.0 (d) 255.255.255.255
+Answer: (a)
+Solution: Class A default is 255.0.0.0; Class C is 255.255.255.0; Class B uses 16 network bits, so the default mask is 255.255.0.0, so the answer is 255.255.0.0.
+Source: NCERT Class 12 Computer Science
+
+69. Which protocol is used for sending email from a client to a server?
+(a) POP3 (b) SMTP (c) IMAP (d) HTTP
+Answer: (b)
+Solution: POP3 and IMAP are for receiving email; HTTP is for web; SMTP (Simple Mail Transfer Protocol) is used for sending email, so the answer is SMTP.
+Source: PYQ-style
+
+70. What is the binary equivalent of the decimal number 192?
+(a) 11100000 (b) 10100000 (c) 11000000 (d) 10000000
+Answer: (c)
+Solution: 128+64=192, so bits 7 and 6 are set: 11000000; the other options equal 160, 224, and 128 respectively, so the answer is 11000000.
+Source: PYQ-style
+
+71. In the OSI model, which layer is responsible for encryption and compression?
+(a) Application layer (b) Session layer (c) Presentation layer (d) Transport layer
+Answer: (c)
+Solution: Session layer manages dialogues; Application layer provides user services; Transport layer handles segmentation; Presentation layer translates, encrypts, and compresses data, so the answer is Presentation layer.
+Source: NCERT Class 12 Computer Science
+
+72. Which of the following is a valid IPv6 address representation?
+(a) 2001:0db8:85a3:0000:0000:8a2e:0370:7334 (b) All of the above (c) 2001:0db8:85a3:0:0:8a2e:0370:7334 (d) 2001:db8:85a3::8a2e:370:7334
+Answer: (b)
+Solution: IPv6 allows leading zeros to be omitted and one sequence of zero groups to be replaced by ::; all three forms represent the same address, so the answer is All of the above.
+Source: PYQ-style
+
+73. What is the function of a default gateway?
+(a) Assign IP addresses to hosts (b) Provide DNS resolution (c) Resolve MAC addresses (d) Forward traffic to destinations outside the local network
+Answer: (d)
+Solution: DHCP assigns IPs; ARP resolves MAC; DNS servers resolve names; the default gateway is the router interface that forwards packets to other networks, so the answer is Forward traffic to destinations outside the local network.
+Source: NCERT Class 12 Computer Science
+
+74. A network administrator wants to divide a Class C network into 4 subnets. How many host bits must be borrowed?
+(a) 1 (b) 2 (c) 3 (d) 4
+Answer: (b)
+Solution: 2^1=2 subnets, 2^2=4 subnets, 2^3=8 subnets; to get at least 4 subnets, 2 bits must be borrowed, so the answer is 2.
+Source: PYQ-style
+
+75. Which protocol uses a three-way handshake to establish a connection?
+(a) UDP (b) ICMP (c) TCP (d) IP
+Answer: (c)
+Solution: UDP is connectionless; ICMP and IP do not establish connections; TCP uses SYN, SYN-ACK, ACK three-way handshake before data transfer, so the answer is TCP.
+Source: NCERT Class 12 Computer Science

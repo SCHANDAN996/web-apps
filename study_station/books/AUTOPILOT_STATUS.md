@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 03:55 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
+**आख़िरी update:** 20-11-2026 04:01 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,18 +8,18 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W11 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 275 मिनट |
-| W12 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 275 मिनट |
-| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | 🔎 review हो रहा है | 19 मिनट |
-| W7 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 57 मिनट |
-| W8 | Chapter 13 networking (12th Computer) | 🔎 review हो रहा है | 58 मिनट |
+| W11 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 282 मिनट |
+| W12 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 282 मिनट |
+| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | 🔎 review हो रहा है | 25 मिनट |
+| W7 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 64 मिनट |
+| W8 | Chapter 13 networking (12th Computer) | 📤 push हो रहा है | 0 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 104 |
-| key 4 | 151 |
-| key 5 | 156 |
-| key 6 | 144 |
+| key 3 | 108 |
+| key 4 | 154 |
+| key 5 | 163 |
+| key 6 | 148 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -47,6 +47,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 20-11 16:01 — 12th Computer · Chapter 13 networking
 - 20-11 15:37 — 10th Hindi · Chapter 17 apathit gadyansh
 - 20-11 15:19 — 12th Computer · Chapter 14 cyber security
 - 20-11 14:57 — 10th Hindi · Chapter 11 vilom
@@ -64,15 +65,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 15:32:56   [upsarg_pratyay] review Important_Rules_hi.txt round 2: 7 issue(s): - Rule 6 gives wrong examples for क्त and क्त्वा: "किया → कृत" uses a Hindi verb form instead of th
-20-11 15:35:19   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q102 key b vs re-solve a)
-20-11 15:35:37   [upsarg_pratyay] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम ७, बिन्दु ८ में "इक/क — छोटा/तुच्छ" शीर्षक गलत है: "इक" तद्धित प्रत्यय सम्बन
-20-11 15:35:37   [upsarg_pratyay] review: 0 section(s) corrected, 2 failed
-20-11 15:35:37   [upsarg_pratyay] written 0, failed 2; AI calls today 514/100000
-20-11 15:35:37 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay after 31 min: todo [] problems []
-20-11 15:35:37 worker 8: nothing left
-20-11 15:36:03   [anekarthi_samshrut] wrote Practice_hi_Set_06.txt (write, 25 MCQs)
-20-11 15:36:03   [anekarthi_samshrut] written 2, failed 0; AI calls today 514/100000
 20-11 15:36:12   [networking] review Key_Facts_hi.txt round 1: 1 issue(s): - IPv6 में "अनिवार्य IPSec समर्थन" गलत है → IPv6 में IPSec समर्थन वैकल्पिक है (RFC 8200 के अनुसार)
 20-11 15:37:51   [sandhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q134 key c vs re-solve b)
 20-11 15:37:51   [sandhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
@@ -104,4 +96,13 @@
 20-11 15:52:31   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q149 key b vs re-solve a)
 20-11 15:54:51   [anekarthi_samshrut] review Feynman_hi.txt round 2: 3 issue(s): - अनेकार्थी शब्द तालिका में "कल" के अर्थ 2 में "कला / हुनर / विद्या" दिया गया है → "कल" (समय) और "कला" (कला
 20-11 15:54:57   [ek_shabd] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q58 key a vs re-solve c, Q64 key d vs re-solve c, Q72 key b vs re-solve c)
+20-11 15:56:16   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q146 key b vs re-solve c)
+20-11 15:57:08   [networking] review PYQ_hi.txt round 1: 2 issue(s): - In wireless example (pattern 8), explanation states "WPA3 नवीनतम और सबसे मजबूत" without a year → specify year
+20-11 15:57:17   [vakya_shuddhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q141 key a vs re-solve ?, Q146 key c vs re-solve d, Q147 key a vs re-solve ?)
+20-11 15:59:28   [ek_shabd] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q54 key b vs re-solve c, Q65 key a vs re-solve d)
+20-11 16:00:04   [anekarthi_samshrut] REJECTED review fix Feynman_hi.txt: reviewer still reports - "वड़" को बरगद के पेड़ के लिए मानक हिन्दी शब्द बताना गलत है → मानक हिन्दी में बरगद के लिए 
+20-11 16:00:38   [networking] review Important_Rules_hi.txt round 1: 2 issue(s): - नियम 5 में हिंदी वाक्यांश "256 एड्रेस (2 होस्ट के लिए प्रयोग योग्य: 254)" गलत है → सही: "256 एड्र
+20-11 16:01:34   [anekarthi_samshrut] review Mind_Map.txt round 1: 3 issue(s): - D1 "कलम: लेखनी / बाड़ा" → कलम का अर्थ 'लेखनी' या 'कलम (पौधे की कटिंग)' होता है, 'बाड़ा' नहीं; बाड़ा का अर्थ
+20-11 16:01:52   [networking] review: 5 section(s) corrected, 0 failed
+20-11 16:01:52   [networking] written 5, failed 0; AI calls today 573/100000
 ```

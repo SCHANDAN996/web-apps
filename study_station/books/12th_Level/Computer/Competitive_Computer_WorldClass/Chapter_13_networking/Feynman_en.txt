@@ -1,0 +1,44 @@
+Networking — Feynman-Style Explanation
+
+Imagine a city where every house is a computer. To talk to each other, houses need roads (cables or Wi‑Fi), addresses (IP addresses), a postal service (routers and switches), and a common language (protocols like TCP/IP).
+
+1. The Road Network — Physical Layer  
+   Cables (twisted pair, fibre) and radio waves (Wi‑Fi, 4G/5G) are the roads. A broken cable is a roadblock; a weak Wi‑Fi signal is a narrow dirt track. Bandwidth is the number of lanes — more lanes, more trucks (data) at once.
+
+2. House Numbers — IP Addresses  
+   Every device gets a unique number: IPv4 (192.168.1.5) or the much larger IPv6 (2001:db8::1). Think of it as the house number on the mailbox. Private addresses (10.x, 172.16–31.x, 192.168.x) are like apartment numbers inside a gated community — they work inside but need a public address to reach the outside world.
+
+3. The Postal Service — Routers & Switches  
+   A switch knows which room (port) each house number lives in — it delivers letters inside the same building (LAN). A router sits at the gate and forwards letters between different neighbourhoods (networks). It reads the destination IP, checks its routing table, and sends the packet to the next hop.
+
+4. The Envelope System — TCP/IP  
+   Data is chopped into packets (envelopes). TCP writes a sequence number on each envelope so the receiver can reassemble them in order and ask for missing ones. UDP skips the numbering — faster, but some envelopes may vanish (good for live video, bad for file download).
+
+5. Port Numbers — Apartment Doors  
+   One house (IP) runs many services. Port 80/443 = web, 25/587 = mail, 53 = DNS. The port tells the operating system which application gets the packet.
+
+6. DNS — The Phonebook  
+   Humans remember names (google.com); machines need numbers. DNS translates names to IPs. Your browser asks the resolver, which walks the hierarchy: root → .com → google.com → authoritative server → IP.
+
+7. Common Mistakes  
+   • Confusing MAC (burned into NIC, local only) with IP (logical, routable).  
+   • Thinking a switch can connect two different networks — it cannot; that’s a router’s job.  
+   • Assuming Wi‑Fi speed equals internet speed — Wi‑Fi is only the last hop.  
+   • Believing “incognito mode” hides your IP — it only hides local history.
+
+Recall Questions
+
+1. What layer does a switch operate on, and how does it decide where to forward a frame?  
+   Answer: Data Link layer (Layer 2). It learns MAC addresses from incoming frames and builds a MAC-address table mapping each address to a port.
+
+2. Why can two devices in different homes both use 192.168.1.5 without conflict?  
+   Answer: Private IPs are only unique inside their own LAN. Each home’s router uses NAT to translate the private IP to a single public IP when traffic leaves the house.
+
+3. TCP guarantees delivery and order; UDP does not. Give one real‑world use case for each.  
+   Answer: TCP — file download (every byte must arrive in order). UDP — live video call (speed matters more than a few lost frames).
+
+4. What happens when you type “example.com” in a browser?  
+   Answer: Browser checks cache → asks OS resolver → resolver queries root, then .com, then example.com authoritative server → gets IP → browser opens TCP connection to port 443 → TLS handshake → HTTP request.
+
+5. A ping to 8.8.8.8 works, but “google.com” fails. What is the likely problem?  
+   Answer: DNS resolution failure. The network path and IP connectivity are fine, but the name-to-IP lookup is broken (wrong DNS server, cache poison, or resolver down).
