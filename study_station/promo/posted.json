@@ -241,7 +241,12 @@
   "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_17_Spelling#Set02#Q30",
   "12th_Level/Reasoning/Chapter_13_Dictionary_Order#Set04#Q100",
   "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_11_Chemistry#Set05#Q107",
-  "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_08_World_Geography#Memory_Hooks_hi.txt#5"
+  "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_08_World_Geography#Memory_Hooks_hi.txt#5",
+  "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports#Set06#Q133",
+  "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_01_Noun#Set03#Q58",
+  "12th_Level/Reasoning/Chapter_05_Direction_Sense#Set03#Q75",
+  "12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System#Set05#Q116",
+  "12th_Level/Reasoning/Chapter_18_Inequality#Set03#Q71"
  ],
  "shorts": [],
  "days": {
@@ -2297,6 +2302,58 @@
       "opt": "ताँबा और जिंक",
       "exp": "उत्तर: ताँबा और जिंक। पीतल ताँबे और जिंक की मिश्रधातु है, अतः उत्तर ताँबा और जिंक है।",
       "part": "am"
+     }
+    ],
+    [
+     {
+      "id": "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports#Set06#Q133",
+      "msg": 497,
+      "chapter": "12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports",
+      "q": "\"LBW\" शब्द किस खेल से संबंधित है, और इसका पूर्ण रूप क्या है?",
+      "ans": 0,
+      "opt": "क्रिकेट – लेग बिफोर विकेट",
+      "exp": "उत्तर: क्रिकेट – लेग बिफोर विकेट। LBW क्रिकेट में आउट होने का एक तरीका है जिसमें गेंद बल्लेबाज़ के पैर पर स्टंप्स की रेखा में लगती है, इसलिए उत्तर क्रिकेट – लेग बिफोर विकेट है।",
+      "part": "pm"
+     },
+     {
+      "id": "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_01_Noun#Set03#Q58",
+      "msg": 498,
+      "chapter": "12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_01_Noun",
+      "q": "\"Tooth\" का बहुवचन है:",
+      "ans": 2,
+      "opt": "teeth",
+      "exp": "उत्तर: teeth। \"Tooth\" का बहुवचन अनियमित है — \"teeth\" (जैसे foot → feet)।",
+      "part": "pm"
+     },
+     {
+      "id": "12th_Level/Reasoning/Chapter_05_Direction_Sense#Set03#Q75",
+      "msg": 499,
+      "chapter": "12th_Level/Reasoning/Chapter_05_Direction_Sense",
+      "q": "एक कूट में \"morning\" का अर्थ \"पश्चिम की ओर मुख करो\" है। एक आदमी से कहा जाता है: \"सुबह है; 3 किमी आगे चलो, फिर अपनी बाईं ओर मुड़कर 3 किमी चलो।\" वह प्रारंभिक बिंदु से कहाँ है?",
+      "ans": 0,
+      "opt": "3√2 किमी, दक्षिण-पश्चिम",
+      "exp": "उत्तर: 3√2 किमी, दक्षिण-पश्चिम। वह 3 किमी पश्चिम चलता है, फिर पश्चिम से बाईं ओर यानी दक्षिण की ओर मुड़कर 3 किमी चलता है, जिससे √(3² + 3²) = 3√2 किमी दक्षिण-पश्चिम की ओर दूरी बनती है, इसलिए उत्तर 3√2…",
+      "part": "pm"
+     },
+     {
+      "id": "12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System#Set05#Q116",
+      "msg": 500,
+      "chapter": "12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System",
+      "q": "18634 के कितने गुणनखंड (भाजक) हैं?",
+      "ans": 2,
+      "opt": "16",
+      "exp": "उत्तर: 16। गुणनखंडों की संख्या = (1+1) × (1+1) × (3+1) = 16।",
+      "part": "pm"
+     },
+     {
+      "id": "12th_Level/Reasoning/Chapter_18_Inequality#Set03#Q71",
+      "msg": 501,
+      "chapter": "12th_Level/Reasoning/Chapter_18_Inequality",
+      "q": "कथन: F < G ≤ H = I ≥ J\nनिष्कर्ष: I. F < I II. H ≥ J",
+      "ans": 0,
+      "opt": "I और II दोनों अनुसरण करते हैं",
+      "exp": "उत्तर: I और II दोनों अनुसरण करते हैं। दोनों अनुसरण करते हैं, इसलिए उत्तर है I और II दोनों अनुसरण करते हैं।",
+      "part": "pm"
      }
     ]
    ],
