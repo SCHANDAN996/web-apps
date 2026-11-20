@@ -1,17 +1,32 @@
-# 📚 Book Autopilot — लाइव स्थिति (four-chapters)
+# 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 11:17 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 07:28 AM
+**आख़िरी update:** 20-11-2026 11:20 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
+| worker | अध्याय | काम | कब से |
+|---|---|---|---|
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 1 मिनट |
+| W10 | Chapter 14 cyber security (12th Computer) | ✍️ लिख रहा है | 0 मिनट |
+| W11 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
+| W12 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
+| W2 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 1 मिनट |
+| W3 | Chapter 11 vilom (10th Hindi) | 🔎 review हो रहा है | 1 मिनट |
+| W4 | Chapter 11 email (12th Computer) | 🔎 review हो रहा है | 1 मिनट |
+| W5 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 1 मिनट |
+| W6 | Chapter 12 e banking (12th Computer) | ✍️ लिख रहा है | 0 मिनट |
+| W7 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
+| W8 | Chapter 13 networking (12th Computer) | ✍️ लिख रहा है | 0 मिनट |
+| W9 | Chapter 14 muhavare lokokti (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 108 |
-| key 4 | 136 |
+| key 3 | 2 |
+| key 4 | 1 |
+| key 5 | 1 |
+| key 6 | 1 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -39,59 +54,33 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- 20-11 08:03 — 10th Hindi · Chapter 10 paryayvachi
-
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 09 upsarg pratyay (Hindi) — 2 बार
-- Chapter 11 vilom (Hindi) — 1 बार
-- Chapter 11 email (Computer) — 1 बार
-- Chapter 07 sandhi (Hindi) — 1 बार
-- Chapter 13 ek shabd (Hindi) — 1 बार
-- Chapter 12 e banking (Computer) — 1 बार
-- Chapter 12 anekarthi samshrut (Hindi) — 1 बार
+- अभी कोई नहीं
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 10:17:08   [e_banking] 2026-11-20 04:47:08,222 WARNING NVIDIA rate_limited — retrying in 20s
-20-11 10:20:01   [e_banking] Practice_en_Set_03.txt try 2: re-solve disagrees (Q61 key c vs re-solve d)
-20-11 10:23:39   [e_banking] Practice_en_Set_03.txt try 3: re-solve disagrees (Q53 key b vs re-solve ?)
-20-11 10:23:55   [anekarthi_samshrut] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q104 key d vs re-solve ?, Q121 key a vs re-solve ?, Q123 key d vs re-solve ?)
-20-11 10:28:29   [ek_shabd] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q135 key d vs re-solve c, Q136 key b vs re-solve d, Q141 key b vs re-solve c, Q145 key c vs re-solve
-20-11 10:28:30   [anekarthi_samshrut] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q106 key b vs re-solve a, Q122 key c vs re-solve a, Q123 key c vs re-solve a)
-20-11 10:29:14   [e_banking] wrote Practice_en_Set_03.txt (write, 25 MCQs)
-20-11 10:31:48   [e_banking] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-20-11 10:32:30   [ek_shabd] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q135 key a vs re-solve d, Q137 key c vs re-solve d, Q141 key b vs re-solve c, Q143 key d vs re-solve
-20-11 10:38:09   [anekarthi_samshrut] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q106 key d vs re-solve ?, Q122 key b vs re-solve a, Q123 key b vs re-solve a, Q124 key b vs re-solve
-20-11 10:38:09   [anekarthi_samshrut] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
-20-11 10:39:33   [ek_shabd] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q135 key a vs re-solve d, Q141 key b vs re-solve a)
-20-11 10:39:37   [e_banking] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-20-11 10:41:24   [e_banking] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-20-11 10:43:26   [e_banking] Practice_en_Set_05.txt try 1: re-solve disagrees (Q108 key d vs re-solve a, Q114 key a vs re-solve d)
-20-11 10:44:33   [ek_shabd] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q131 key c vs re-solve b)
-20-11 10:44:33   [ek_shabd] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
-20-11 10:44:33   [ek_shabd] written 9, failed 4; AI calls today 219/100000
-20-11 10:44:33 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd after 122 min: todo ['Set 01 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo', 'Set 06 hi: todo'] problems []
-20-11 10:44:33 worker 2: stop file found — stopping
-20-11 10:47:34   [e_banking] 2026-11-20 05:17:34,545 WARNING NVIDIA rate_limited — retrying in 20s
-20-11 10:48:11   [anekarthi_samshrut] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q132 key d vs re-solve b, Q133 key b vs re-solve ?, Q139 key d vs re-solve ?, Q146 key c vs re-solve
-20-11 10:50:04   [e_banking] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-20-11 10:50:55   [e_banking] Practice_hi_Set_05.txt try 1: rejected (parsed 24 questions, numbers 101…125)
-20-11 10:50:55   [e_banking] 2026-11-20 05:20:55,253 WARNING NVIDIA rate_limited — retrying in 20s
-20-11 10:52:45   [e_banking] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
-20-11 10:55:23   [e_banking] Practice_en_Set_06.txt try 1: re-solve disagrees (Q144 key d vs re-solve b)
-20-11 10:59:06   [e_banking] wrote Practice_en_Set_06.txt (write, 25 MCQs)
-20-11 10:59:37   [anekarthi_samshrut] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q133 key d vs re-solve c, Q135 key a vs re-solve c, Q145 key a vs re-solve ?)
-20-11 11:00:03   [e_banking] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-20-11 11:00:03   [e_banking] written 23, failed 2; AI calls today 233/100000
-20-11 11:00:03 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_12_e_banking after 142 min: todo ['Set 02 en: todo', 'Set 02 hi: todo'] problems ['Content_hi.txt: unsourced claim "(concept)"', 'Set 03 Practice_hi_Set_03.txt: unverified exam/year source "']
-20-11 11:00:03 worker 3: stop file found — stopping
-20-11 11:10:30   [anekarthi_samshrut] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q140 key c vs re-solve a)
-20-11 11:17:32   [anekarthi_samshrut] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q136 key a vs re-solve c, Q140 key a vs re-solve b)
-20-11 11:17:32   [anekarthi_samshrut] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
-20-11 11:17:32   [anekarthi_samshrut] written 2, failed 2; AI calls today 236/100000
-20-11 11:17:32 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_12_anekarthi_samshrut after 180 min: todo ['Set 05 hi: todo', 'Set 06 hi: todo'] problems []
-20-11 11:17:32 worker 1: stop file found — stopping
-20-11 11:17:43 autopilot end: done 1, failed 7
+20-11 11:18:44 autopilot start: 12 workers, reverse=False
+20-11 11:18:44 API policy: account start interval=20s; key start interval=15s; in-flight per key=1
+20-11 11:18:45 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi (TODO: todo 5, problems 0)
+20-11 11:18:46   [sandhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
+20-11 11:18:50 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay (OK: todo 0, problems 0)
+20-11 11:18:50   [upsarg_pratyay] review Content_hi.txt: resumed private correction draft
+20-11 11:18:55 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_11_vilom (OK: todo 0, problems 0)
+20-11 11:18:56   [vilom] review Key_Facts_hi.txt: resumed private correction draft
+20-11 11:19:00 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_11_email (OK: todo 0, problems 0)
+20-11 11:19:01   [email] review PYQ_hi.txt: resumed private correction draft
+20-11 11:19:05 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_12_anekarthi_samshrut (TODO: todo 2, problems 0)
+20-11 11:19:06   [anekarthi_samshrut] Hindi-only writer: direct Hindi content; English generation and translation disabled
+20-11 11:19:10 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_12_e_banking (TODO: todo 2, problems 2)
+20-11 11:19:15 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd (TODO: todo 4, problems 0)
+20-11 11:19:16   [ek_shabd] Hindi-only writer: direct Hindi content; English generation and translation disabled
+20-11 11:19:20 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_13_networking (TODO: todo 25, problems 0)
+20-11 11:19:25 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_14_muhavare_lokokti (TODO: todo 13, problems 0)
+20-11 11:19:25   [muhavare_lokokti] Hindi-only writer: direct Hindi content; English generation and translation disabled
+20-11 11:19:30 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_14_cyber_security (TODO: todo 25, problems 0)
+20-11 11:19:35 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi (TODO: todo 13, problems 0)
+20-11 11:19:36   [vakya_shuddhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
+20-11 11:19:40 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram (TODO: todo 13, problems 0)
+20-11 11:19:41   [rikt_sthan_vakya_kram] Hindi-only writer: direct Hindi content; English generation and translation disabled
+20-11 11:19:48   [sandhi] Practice_hi_Set_01.txt try 1: rejected (Q24:leaked_reasoning,Q18:duplicate_options)
 ```
