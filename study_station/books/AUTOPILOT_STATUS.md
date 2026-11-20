@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 10:22 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
+**आख़िरी update:** 20-11-2026 10:26 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,19 +8,17 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 14 मिनट |
-| W2 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 14 मिनट |
-| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | 📤 push हो रहा है | 0 मिनट |
-| W4 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 14 मिनट |
-| W5 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 14 मिनट |
-| W6 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 13 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 18 मिनट |
+| W4 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 18 मिनट |
+| W5 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 18 मिनट |
+| W6 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 18 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 7 |
-| key 4 | 4 |
-| key 5 | 6 |
-| key 6 | 8 |
+| key 3 | 8 |
+| key 4 | 5 |
+| key 5 | 7 |
+| key 6 | 10 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -50,15 +48,13 @@
 
 - 20-11 22:22 — 10th Hindi · Chapter 12 anekarthi samshrut
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 09 upsarg pratyay (Hindi) — 1 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 22:07:39 autopilot start: 12 workers, reverse=False
-20-11 22:07:39 API policy: account start interval=20s; key start interval=15s; in-flight per key=1
-20-11 22:07:40 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi (TODO: todo 5, problems 0)
-20-11 22:07:40   [sandhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
-20-11 22:07:45 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay (OK: todo 0, problems 0)
-20-11 22:07:45   [upsarg_pratyay] review Flashcards_hi.txt: resumed private correction draft
 20-11 22:07:50 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_12_anekarthi_samshrut (OK: todo 0, problems 0)
 20-11 22:07:51   [anekarthi_samshrut] review Feynman_hi.txt: resumed private correction draft
 20-11 22:07:55 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd (TODO: todo 1, problems 0)
@@ -90,4 +86,13 @@
 20-11 22:22:01   [sandhi] Practice_hi_Set_02.txt try 1: rejected (Q27:duplicate_options,Q28:duplicate_options,Q30:duplicate_options,Q40:duplicate_options,Q42:duplicate_options)
 20-11 22:22:05   [anekarthi_samshrut] review: 2 section(s) corrected, 0 failed
 20-11 22:22:05   [anekarthi_samshrut] written 2, failed 0; AI calls today 28/100000
+20-11 22:22:29 DONE 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_12_anekarthi_samshrut in 14 min → 39c32968
+20-11 22:22:56 worker 2: nothing left
+20-11 22:23:42   [rikt_sthan_vakya_kram] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q61 key b vs re-solve a, Q62 key b vs re-solve a, Q64 key b vs re-solve c, Q67 key d vs re-solve b, 
+20-11 22:23:59   [upsarg_pratyay] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 4: The sandhi rules for दु- prefix list voiceless unaspirated consonants as only 
+20-11 22:23:59   [upsarg_pratyay] review: 0 section(s) corrected, 1 failed
+20-11 22:23:59   [upsarg_pratyay] written 0, failed 1; AI calls today 29/100000
+20-11 22:23:59 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay after 16 min: todo [] problems []
+20-11 22:24:26 worker 1: nothing left
+20-11 22:26:24   [sandhi] Practice_hi_Set_02.txt try 2: rejected (Q27:duplicate_options)
 ```
