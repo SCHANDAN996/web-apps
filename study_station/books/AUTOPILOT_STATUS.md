@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 07:52 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 04:41 PM
+**आख़िरी update:** 20-11-2026 08:01 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 04:41 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,16 +8,16 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 12 anekarthi samshrut (10th Hindi) | 🔎 review हो रहा है | 7 मिनट |
-| W7 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 189 मिनट |
-| W8 | Chapter 12 e banking (12th Computer) | 📤 push हो रहा है | 0 मिनट |
+| W1 | Chapter 12 anekarthi samshrut (10th Hindi) | 🔎 review हो रहा है | 16 मिनट |
+| W7 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 199 मिनट |
+| W8 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 9 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 48 |
-| key 4 | 48 |
-| key 5 | 60 |
-| key 6 | 48 |
+| key 3 | 52 |
+| key 4 | 51 |
+| key 5 | 63 |
+| key 6 | 49 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -52,7 +52,6 @@
 
 - Chapter 13 ek shabd (Hindi) — 1 बार
 - Chapter 09 upsarg pratyay (Hindi) — 2 बार
-- Chapter 12 e banking (Computer) — 1 बार
 - Chapter 12 anekarthi samshrut (Hindi) — 1 बार
 - Chapter 16 rikt sthan vakya kram (Hindi) — 1 बार
 - Chapter 07 sandhi (Hindi) — 1 बार
@@ -60,16 +59,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 19:11:52   [sandhi] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q103 key d vs re-solve c, Q116 key a vs re-solve d, Q120 key a vs re-solve c, Q124 key c vs re-solve
-20-11 19:13:35   [vakya_shuddhi] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q77 key c vs re-solve b, Q96 key a vs re-solve d)
-20-11 19:17:48   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q128 key c vs re-solve a, Q141 key a vs re-solve b, Q144 key d vs re-solve b, Q149 key a vs re-solve
-20-11 19:24:22   [vakya_shuddhi] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q77 key b vs re-solve c, Q96 key c vs re-solve d)
-20-11 19:24:22   [vakya_shuddhi] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
-20-11 19:25:19   [vakya_shuddhi] Practice_hi_Set_05.txt try 1: rejected (Q120:duplicate_options)
-20-11 19:27:18   [sandhi] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q101 key b vs re-solve c, Q102 key d vs re-solve c, Q103 key a vs re-solve d)
-20-11 19:27:18   [sandhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
-20-11 19:28:03   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q128 key c vs re-solve a, Q141 key d vs re-solve b, Q143 key d vs re-solve c)
-20-11 19:28:23   [sandhi] Practice_hi_Set_06.txt try 1: rejected (Q127:duplicate_options,Q129:duplicate_options,Q131:duplicate_options,Q137:duplicate_options,Q139:duplicate_opt
 20-11 19:29:52   [sandhi] Practice_hi_Set_06.txt try 2: rejected (Q127:duplicate_options,Q131:duplicate_options,Q137:duplicate_options,Q139:duplicate_options,Q141:duplicate_opt
 20-11 19:33:31   [vakya_shuddhi] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q103 key c vs re-solve ?, Q109 key d vs re-solve ?, Q119 key c vs re-solve a, Q120 key a vs re-solve
 20-11 19:36:35   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q147 key d vs re-solve a)
@@ -100,4 +89,14 @@
 20-11 19:52:18   [e_banking] written 1, failed 0; AI calls today 204/100000
 20-11 19:52:31   [anekarthi_samshrut] REJECTED review fix Feynman_hi.txt: reviewer still reports - Section 1 table, word **बार**: meaning 2 lists "बारात / विवाह मंडप" → **बार** means **बार
 20-11 19:52:31   [anekarthi_samshrut] review Mind_Map.txt: resumed private correction draft
+20-11 19:52:33 DONE 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_12_e_banking in 3 min → a18b003d
+20-11 19:52:34 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd (TODO: todo 1, problems 0)
+20-11 19:52:34   [ek_shabd] Hindi-only writer: direct Hindi content; English generation and translation disabled
+20-11 19:52:41   [vakya_shuddhi] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q109 key d vs re-solve ?, Q120 key b vs re-solve ?, Q121 key a vs re-solve ?)
+20-11 19:52:41   [vakya_shuddhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
+20-11 19:54:15   [anekarthi_samshrut] review Mind_Map.txt round 1: 2 issue(s): - E7 (हँस/हंस) is not a समश्रुत भिन्नार्थक pair because हँस has अनुनासिक (nasalization) while हंस does not → 
+20-11 19:55:38   [anekarthi_samshrut] review Mind_Map.txt round 2: 1 issue(s): - E4 "बाज: बाजना (वाद्य बजाना, क्रिया)" → "बाज" का क्रिया रूप "बाजना" गलत है; सही क्रिया "बजना/बजाना" (मूल "ब
+20-11 19:59:17   [anekarthi_samshrut] REJECTED review fix Mind_Map.txt: reviewer still reports - D4: "रंग: वर्ण / रंगना (क्रिया)" is not a single word with multiple meanings; "रंगना" is a 
+20-11 19:59:17   [anekarthi_samshrut] review PYQ_hi.txt: resumed private correction draft
+20-11 20:00:32   [ek_shabd] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q60 key b vs re-solve a, Q68 key d vs re-solve b)
 ```
