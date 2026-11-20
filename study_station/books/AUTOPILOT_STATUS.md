@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 21-11-2026 01:46 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
+**आख़िरी update:** 21-11-2026 02:01 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W5 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 69 मिनट |
+| W5 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 84 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 41 |
-| key 4 | 47 |
+| key 3 | 42 |
+| key 4 | 48 |
 | key 5 | 48 |
-| key 6 | 52 |
+| key 6 | 53 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -56,7 +56,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-21-11 00:28:47   [ek_shabd] review Important_Rules_hi.txt: resumed private correction draft
 21-11 00:29:04   [sandhi] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q102 key d vs re-solve b, Q103 key b vs re-solve a, Q107 key b vs re-solve ?, Q112 key a vs re-solve
 21-11 00:30:34   [ek_shabd] review Important_Rules_hi.txt round 1: 2 issue(s): - नियम 7 का शीर्षक 'विलोम-युग्म प्रश्नों में विलोम न चुनें' भ्रामक है क्योंकि नियम 'एक-शब्द प्रतिस्
 21-11 00:34:57   [ek_shabd] review Important_Rules_hi.txt round 2: 6 issue(s): - Rule 1: "जोर से बोलना" → "कर्कश/गरजना" are incorrect one-word substitutions (कर्कश = harsh, गरजना
@@ -96,4 +95,5 @@
 21-11 01:25:16   [vakya_shuddhi] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q101 key a vs re-solve b, Q104 key c vs re-solve d, Q112 key a vs re-solve b)
 21-11 01:34:32   [vakya_shuddhi] wrote Practice_hi_Set_05.txt (write, 25 MCQs)
 21-11 01:45:34   [vakya_shuddhi] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q126 key d vs re-solve ?, Q130 key b vs re-solve ?, Q132 key c vs re-solve ?, Q135 key d vs re-solve
+21-11 01:54:27   [vakya_shuddhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q126 key a vs re-solve d, Q136 key a vs re-solve d, Q144 key c vs re-solve ?, Q146 key c vs re-solve
 ```
