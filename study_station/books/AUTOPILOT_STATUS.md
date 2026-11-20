@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 11:27 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
+**आख़िरी update:** 20-11-2026 11:43 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,16 +8,16 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 80 मिनट |
-| W5 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 79 मिनट |
-| W6 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 79 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 95 मिनट |
+| W5 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 95 मिनट |
+| W6 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 95 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 15 |
-| key 4 | 25 |
-| key 5 | 28 |
-| key 6 | 30 |
+| key 3 | 18 |
+| key 4 | 29 |
+| key 5 | 30 |
+| key 6 | 34 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -55,16 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 22:39:32   [ek_shabd] REJECTED review fix Content_hi.txt: reviewer still reports - वर्गीकरण ५ में 'जो चारों ओर हो' के लिए 'पर्यावरण' दिया गया है → सही एकार्थी शब्द 'पर्यावृ
-20-11 22:40:15   [vakya_shuddhi] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q77 key a vs re-solve ?, Q81 key a vs re-solve ?, Q84 key c vs re-solve ?, Q85 key d vs re-solve ?, 
-20-11 22:40:57   [ek_shabd] review Key_Facts_hi.txt round 1: 4 issue(s): - Point 2 claims a fixed number of questions (2–3) in SSC GD, MTS, RRB Group D; this is an invented exam 
-20-11 22:41:48   [rikt_sthan_vakya_kram] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q65 key b vs re-solve a, Q69 key d vs re-solve a)
-20-11 22:41:48   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
-20-11 22:44:08   [ek_shabd] review Key_Facts_hi.txt round 2: 2 issue(s): - Point 12: “वर्गीकरणकर्ता” is not the standard Hindi term for taxonomist; the correct term is “वर्गीकरणव
-20-11 22:47:05   [ek_shabd] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 6 claims synonyms नित्य, सनातन are not words (“ये एक शब्द नहीं”) → They are words
-20-11 22:48:01   [sandhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q28 key b vs re-solve d, Q29 key a vs re-solve d, Q31 key c vs re-solve a, Q33 key a vs re-solve c, 
-20-11 22:48:35   [ek_shabd] review Mind_Map.txt round 1: 1 issue(s): - F2 में वर्तनी त्रुटि का उदाहरण गलत है: "चिकित्सक/चिकित्सक" दोनों समान लिखे हैं → सही/गलत वर्तनी का युग्म दे
-20-11 22:48:37   [vakya_shuddhi] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q80 key a vs re-solve ?, Q82 key b vs re-solve ?, Q88 key a vs re-solve ?, Q90 key a vs re-solve c, 
 20-11 22:49:31   [ek_shabd] review Mind_Map.txt round 2: 1 issue(s): - F2 में वर्तनी उदाहरण गलत है: "पुस्तकालय/पुस्तकालय (शुद्ध/अशुद्ध)" दोनों शब्द समान लिखे हैं → सही/गलत वर्तनी
 20-11 22:52:00   [ek_shabd] review PYQ_hi.txt round 1: 2 issue(s): - The claim that SSC never includes "उपर्युक्त सभी/कोई नहीं" options (stated in Example 5 explanation and Commo
 20-11 22:52:05   [vakya_shuddhi] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q90 key a vs re-solve c, Q93 key b vs re-solve d)
@@ -95,4 +85,14 @@
 20-11 23:18:17 worker 3: nothing left
 20-11 23:23:15   [vakya_shuddhi] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q102 key a vs re-solve ?, Q110 key d vs re-solve ?, Q111 key a vs re-solve ?, Q112 key c vs re-solve
 20-11 23:26:52   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q87 key c vs re-solve d)
+20-11 23:31:13   [vakya_shuddhi] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q102 key b vs re-solve ?, Q110 key a vs re-solve ?, Q111 key b vs re-solve ?)
+20-11 23:35:14   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q87 key a vs re-solve b)
+20-11 23:35:14   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
+20-11 23:36:09   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 1: rejected (parsed 24 questions, numbers 101…125)
+20-11 23:36:35   [sandhi] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q52 key c vs re-solve b, Q53 key d vs re-solve a, Q54 key c vs re-solve a, Q55 key a vs re-solve b, 
+20-11 23:37:31   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 2: rejected (Q108:duplicate_options,Q116:duplicate_options)
+20-11 23:39:35   [vakya_shuddhi] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q104 key a vs re-solve d, Q109 key d vs re-solve b, Q123 key a vs re-solve c)
+20-11 23:39:35   [vakya_shuddhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
+20-11 23:40:50   [vakya_shuddhi] Practice_hi_Set_06.txt try 1: rejected (Q144:duplicate_options,Q146:duplicate_options)
+20-11 23:43:02   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q109 key d vs re-solve b, Q113 key b vs re-solve c, Q114 key c vs re-solve b, Q119 key b vs re-solve
 ```
