@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 06:37 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
+**आख़िरी update:** 20-11-2026 06:52 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 11 vilom (10th Hindi) | ✍️ लिख रहा है | 41 मिनट |
-| W2 | Chapter 11 email (12th Computer) | ✍️ लिख रहा है | 236 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 48 मिनट |
-| W4 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 119 मिनट |
+| W1 | Chapter 11 vilom (10th Hindi) | ✍️ लिख रहा है | 56 मिनट |
+| W2 | Chapter 11 email (12th Computer) | ✍️ लिख रहा है | 251 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 63 मिनट |
+| W4 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 135 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 166 |
-| key 4 | 124 |
+| key 3 | 174 |
+| key 4 | 126 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -56,12 +56,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 05:41:54 DONE 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas in 27 min → 7b96a788
-20-11 05:41:55 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_10_paryayvachi (OK: todo 0, problems 0)
-20-11 05:41:55   [paryayvachi] review Important_Rules_hi.txt: resumed private correction draft
-20-11 05:43:17   [anekarthi_samshrut] wrote Practice_hi_Set_02.txt (write, 25 MCQs)
-20-11 05:45:20   [paryayvachi] review Important_Rules_hi.txt round 1: 4 issue(s): - नियम २ के उदाहरण में "बालकः" संस्कृत रूप है, हिन्दी शब्द-रूप नहीं → हिन्दी रूप जैसे "बालक", "बालि
-20-11 05:47:14   [upsarg_pratyay] review Important_Rules_hi.txt round 2: 5 issue(s): - Rule 6: ल्यप् का उदाहरण "लिख → लिखना" गलत है → ल्यप् भाववाचक संज्ञा बनाता है (जैसे क्रीडा, पठन, ग
 20-11 05:49:25   [upsarg_pratyay] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम १ में अपवाद के उदाहरण "प्रति → पिर" और "उप → उब" गलत हैं; तद्भव में "प्रति" 
 20-11 05:49:25   [upsarg_pratyay] review: 1 section(s) corrected, 6 failed
 20-11 05:49:25   [upsarg_pratyay] written 1, failed 6; AI calls today 248/100000
@@ -96,4 +90,10 @@
 20-11 06:27:35   [anekarthi_samshrut] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q98 key c vs re-solve a, Q100 key a vs re-solve c)
 20-11 06:35:16   [anekarthi_samshrut] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q100 key a vs re-solve c)
 20-11 06:35:16   [anekarthi_samshrut] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
+20-11 06:40:22   [sandhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q26 key b vs re-solve c, Q27 key b vs re-solve a, Q28 key c vs re-solve b, Q29 key c vs re-solve d, 
+20-11 06:43:29   [anekarthi_samshrut] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q106 key d vs re-solve a, Q109 key a vs re-solve c, Q114 key a vs re-solve d, Q117 key d vs re-solve
+20-11 06:43:42   [sandhi] Practice_hi_Set_02.txt try 3: rejected (Q35:duplicate_options)
+20-11 06:46:11   [email] Practice_en_Set_06.txt try 1: re-solve disagrees (Q142 key c vs re-solve b)
+20-11 06:48:45   [email] Practice_en_Set_06.txt try 2: re-solve disagrees (Q146 key a vs re-solve d)
+20-11 06:51:07   [email] wrote Practice_en_Set_06.txt (write, 25 MCQs)
 ```
