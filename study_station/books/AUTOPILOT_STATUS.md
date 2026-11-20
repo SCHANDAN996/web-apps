@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 21-11-2026 12:14 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
+**आख़िरी update:** 21-11-2026 12:29 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,16 +8,16 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 126 मिनट |
-| W5 | Chapter 13 ek shabd (10th Hindi) | 🔎 review हो रहा है | 2 मिनट |
-| W6 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 125 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 141 मिनट |
+| W5 | Chapter 13 ek shabd (10th Hindi) | 🔎 review हो रहा है | 17 मिनट |
+| W6 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 141 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 26 |
-| key 4 | 36 |
-| key 5 | 32 |
-| key 6 | 37 |
+| key 3 | 30 |
+| key 4 | 40 |
+| key 5 | 39 |
+| key 6 | 42 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -56,19 +56,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 23:17:50   [upsarg_pratyay] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 4: The sandhi rule for दु- prefix incorrectly lists voiceless unaspirated consona
-20-11 23:17:50   [upsarg_pratyay] review: 0 section(s) corrected, 1 failed
-20-11 23:17:50   [upsarg_pratyay] written 0, failed 1; AI calls today 93/100000
-20-11 23:17:50 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay after 16 min: todo [] problems []
-20-11 23:18:17 worker 3: nothing left
-20-11 23:23:15   [vakya_shuddhi] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q102 key a vs re-solve ?, Q110 key d vs re-solve ?, Q111 key a vs re-solve ?, Q112 key c vs re-solve
-20-11 23:26:52   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q87 key c vs re-solve d)
-20-11 23:31:13   [vakya_shuddhi] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q102 key b vs re-solve ?, Q110 key a vs re-solve ?, Q111 key b vs re-solve ?)
-20-11 23:35:14   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q87 key a vs re-solve b)
-20-11 23:35:14   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
-20-11 23:36:09   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 1: rejected (parsed 24 questions, numbers 101…125)
-20-11 23:36:35   [sandhi] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q52 key c vs re-solve b, Q53 key d vs re-solve a, Q54 key c vs re-solve a, Q55 key a vs re-solve b, 
-20-11 23:37:31   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 2: rejected (Q108:duplicate_options,Q116:duplicate_options)
 20-11 23:39:35   [vakya_shuddhi] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q104 key a vs re-solve d, Q109 key d vs re-solve b, Q123 key a vs re-solve c)
 20-11 23:39:35   [vakya_shuddhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
 20-11 23:40:50   [vakya_shuddhi] Practice_hi_Set_06.txt try 1: rejected (Q144:duplicate_options,Q146:duplicate_options)
@@ -96,4 +83,17 @@
 21-11 00:11:30   [ek_shabd] review Content_hi.txt: resumed private correction draft
 21-11 00:12:22   [ek_shabd] review Content_hi.txt round 1: 1 issue(s): - स्मरण सूत्र में 'शाश्वत' का सूत्र 'शास् + त्व (तत्)' गलत है → सही सूत्र 'शास् + वत्' है।
 21-11 00:14:27   [ek_shabd] review Content_hi.txt round 2: 1 issue(s): - वर्गीकरण में 'जो चारों ओर हो' के लिए 'पर्यावरण' दिया गया है → 'पर्यावरण' संज्ञा है (अर्थ: वातावरण), विशेष
+21-11 00:14:34   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q127 key a vs re-solve d, Q133 key d vs re-solve a, Q136 key c vs re-solve d, Q144 key c vs re-solve
+21-11 00:17:09   [sandhi] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q101 key b vs re-solve ?, Q103 key d vs re-solve b, Q104 key b vs re-solve ?, Q105 key b vs re-solve
+21-11 00:19:35   [ek_shabd] REJECTED review fix Content_hi.txt: reviewer still reports - "व्यवहारिक" (in परिचय) → "व्यावहारिक" — private draft retained
+21-11 00:19:35   [ek_shabd] review Key_Facts_hi.txt: resumed private correction draft
+21-11 00:20:32   [ek_shabd] review Key_Facts_hi.txt round 1: 1 issue(s): - Point 6: “ये एक शब्द नहीं, समानार्थी हैं” is incorrect because नित्य and सनातन are single words; the co
+21-11 00:22:19   [ek_shabd] review Key_Facts_hi.txt round 2: 2 issue(s): - शीर्षक में "तथु" गलत वर्तनी → "तथ्य"
+21-11 00:23:48   [ek_shabd] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - बिंदु 6 में दावा कि “नित्य, सनातन … ‘जो सदा विद्यमान रहे’ वाक्यांश के लिए एक-शब्द प्रति
+21-11 00:23:48   [ek_shabd] review PYQ_hi.txt: resumed private correction draft
+21-11 00:25:18   [ek_shabd] review PYQ_hi.txt round 1: 1 issue(s): - Pattern 5 caution incorrectly states "विशेषण/सर्वनाम अपेक्षित होता है" (सर्वनाम means pronoun) but the expect
+21-11 00:26:21   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q130 key d vs re-solve a)
+21-11 00:27:42   [ek_shabd] review PYQ_hi.txt round 2: 2 issue(s): - In Example 5 explanation, the claim “परीक्षा में तत्सम रूप *अनंत* प्राथमिक उत्तर माना जाता है” is presented a
+21-11 00:28:47   [ek_shabd] review Important_Rules_hi.txt: resumed private correction draft
+21-11 00:29:04   [sandhi] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q102 key d vs re-solve b, Q103 key b vs re-solve a, Q107 key b vs re-solve ?, Q112 key a vs re-solve
 ```
