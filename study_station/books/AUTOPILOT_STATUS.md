@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 21-11-2026 12:44 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
+**आख़िरी update:** 21-11-2026 01:00 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 157 मिनट |
-| W5 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 7 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 172 मिनट |
+| W5 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 22 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 35 |
-| key 4 | 42 |
-| key 5 | 42 |
-| key 6 | 46 |
+| key 3 | 37 |
+| key 4 | 43 |
+| key 5 | 44 |
+| key 6 | 48 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -56,11 +56,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-21-11 00:11:03   [upsarg_pratyay] review: 1 section(s) corrected, 0 failed
-21-11 00:11:03   [upsarg_pratyay] written 1, failed 0; AI calls today 9/100000
-21-11 00:11:28 DONE 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay in 7 min → 99c56c27
-21-11 00:11:30 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd (OK: todo 0, problems 0)
-21-11 00:11:30   [ek_shabd] review Content_hi.txt: resumed private correction draft
 21-11 00:12:22   [ek_shabd] review Content_hi.txt round 1: 1 issue(s): - स्मरण सूत्र में 'शाश्वत' का सूत्र 'शास् + त्व (तत्)' गलत है → सही सूत्र 'शास् + वत्' है।
 21-11 00:14:27   [ek_shabd] review Content_hi.txt round 2: 1 issue(s): - वर्गीकरण में 'जो चारों ओर हो' के लिए 'पर्यावरण' दिया गया है → 'पर्यावरण' संज्ञा है (अर्थ: वातावरण), विशेष
 21-11 00:14:34   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q127 key a vs re-solve d, Q133 key d vs re-solve a, Q136 key c vs re-solve d, Q144 key c vs re-solve
@@ -96,4 +91,9 @@
 21-11 00:43:21   [sandhi] Practice_hi_Set_06.txt try 2: rejected (Q126:duplicate_options,Q127:duplicate_options,Q130:duplicate_options,Q135:duplicate_options,Q136:duplicate_opt
 21-11 00:43:40 worker 5: nothing left
 21-11 00:43:52   [vakya_shuddhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q40 key c vs re-solve d, Q44 key d vs re-solve c, Q46 key b vs re-solve d)
+21-11 00:46:33   [sandhi] Practice_hi_Set_06.txt try 3: rejected (Q126:duplicate_options,Q138:duplicate_options,Q143:duplicate_options)
+21-11 00:49:59   [vakya_shuddhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q27 key a vs re-solve ?, Q44 key b vs re-solve d, Q45 key a vs re-solve ?, Q46 key d vs re-solve b)
+21-11 00:54:45   [vakya_shuddhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q47 key b vs re-solve d)
+21-11 00:54:45   [vakya_shuddhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
+21-11 01:00:32   [vakya_shuddhi] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q76 key c vs re-solve ?, Q86 key a vs re-solve ?, Q92 key a vs re-solve d, Q96 key b vs re-solve ?, 
 ```
