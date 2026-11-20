@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 21-11-2026 04:39 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
+**आख़िरी update:** 21-11-2026 04:55 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 23 मिनट |
+| W1 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 38 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 28 |
-| key 4 | 29 |
-| key 5 | 23 |
-| key 6 | 35 |
+| key 3 | 30 |
+| key 4 | 31 |
+| key 5 | 24 |
+| key 6 | 37 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -54,9 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-21-11 03:34:17   [vakya_shuddhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q146 key a vs re-solve d)
-21-11 03:34:17   [vakya_shuddhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
-21-11 03:34:17   [vakya_shuddhi] written 1, failed 2; AI calls today 81/100000
 21-11 03:34:17 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi after 75 min: todo ['Set 02 hi: todo', 'Set 06 hi: todo'] problems []
 21-11 03:34:18 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd (OK: todo 0, problems 0)
 21-11 03:34:19   [ek_shabd] review Content_hi.txt: resumed private correction draft
@@ -94,4 +91,7 @@
 21-11 04:17:16   [vakya_shuddhi] Practice_hi_Set_02.txt try 1: rejected (Q39:duplicate_options)
 21-11 04:30:59   [vakya_shuddhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q27 key d vs re-solve ?, Q42 key b vs re-solve ?, Q46 key c vs re-solve d, Q48 key a vs re-solve b)
 21-11 04:39:32   [vakya_shuddhi] wrote Practice_hi_Set_02.txt (write, 25 MCQs)
+21-11 04:43:06   [vakya_shuddhi] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q127 key b vs re-solve ?, Q135 key b vs re-solve ?, Q137 key a vs re-solve ?, Q140 key c vs re-solve
+21-11 04:48:58   [vakya_shuddhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q127 key a vs re-solve ?, Q135 key b vs re-solve ?, Q137 key b vs re-solve a, Q140 key a vs re-solve
+21-11 04:51:58   [vakya_shuddhi] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q136 key d vs re-solve a)
 ```
