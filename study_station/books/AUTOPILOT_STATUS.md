@@ -1,19 +1,24 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 21-11-2026 02:17 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
+**आख़िरी update:** 21-11-2026 02:20 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
+| worker | अध्याय | काम | कब से |
+|---|---|---|---|
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 1 मिनट |
+| W2 | Chapter 13 ek shabd (10th Hindi) | 🔎 review हो रहा है | 1 मिनट |
+| W3 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 1 मिनट |
+| W4 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 1 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 42 |
-| key 4 | 48 |
-| key 5 | 49 |
-| key 6 | 54 |
+| key 3 | 3 |
+| key 4 | 3 |
+| key 5 | 2 |
+| key 6 | 1 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -41,57 +46,31 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- 21-11 00:11 — 10th Hindi · Chapter 09 upsarg pratyay
-- 20-11 22:22 — 10th Hindi · Chapter 12 anekarthi samshrut
-
-## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
-
-- Chapter 13 ek shabd (Hindi) — 2 बार
-- Chapter 15 vakya shuddhi (Hindi) — 2 बार
-- Chapter 16 rikt sthan vakya kram (Hindi) — 1 बार
-- Chapter 07 sandhi (Hindi) — 1 बार
+- अभी कोई नहीं
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-21-11 00:37:22 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi (TODO: todo 4, problems 0)
-21-11 00:37:22   [vakya_shuddhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
-21-11 00:37:27   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q129 key b vs re-solve a, Q131 key a vs re-solve b, Q134 key a vs re-solve d, Q145 key d vs re-solve
-21-11 00:38:12   [vakya_shuddhi] Practice_hi_Set_02.txt try 1: rejected (Q35:duplicate_options,Q42:duplicate_options)
-21-11 00:39:56   [sandhi] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q102 key d vs re-solve ?, Q103 key b vs re-solve ?, Q104 key c vs re-solve ?, Q107 key b vs re-solve
-21-11 00:39:56   [sandhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
-21-11 00:41:28   [sandhi] Practice_hi_Set_06.txt try 1: rejected (parsed 24 questions, numbers 126…150)
-21-11 00:43:14   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q141 key a vs re-solve d)
-21-11 00:43:14   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
-21-11 00:43:14   [rikt_sthan_vakya_kram] written 0, failed 4; AI calls today 44/100000
-21-11 00:43:14 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram after 155 min: todo ['Set 03 hi: todo', 'Set 04 hi: todo', 'Set 05 hi: todo', 'Set 06 hi: todo'] problems []
-21-11 00:43:21   [sandhi] Practice_hi_Set_06.txt try 2: rejected (Q126:duplicate_options,Q127:duplicate_options,Q130:duplicate_options,Q135:duplicate_options,Q136:duplicate_opt
-21-11 00:43:40 worker 5: nothing left
-21-11 00:43:52   [vakya_shuddhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q40 key c vs re-solve d, Q44 key d vs re-solve c, Q46 key b vs re-solve d)
-21-11 00:46:33   [sandhi] Practice_hi_Set_06.txt try 3: rejected (Q126:duplicate_options,Q138:duplicate_options,Q143:duplicate_options)
-21-11 00:49:59   [vakya_shuddhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q27 key a vs re-solve ?, Q44 key b vs re-solve d, Q45 key a vs re-solve ?, Q46 key d vs re-solve b)
-21-11 00:54:45   [vakya_shuddhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q47 key b vs re-solve d)
-21-11 00:54:45   [vakya_shuddhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
-21-11 01:00:32   [vakya_shuddhi] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q76 key c vs re-solve ?, Q86 key a vs re-solve ?, Q92 key a vs re-solve d, Q96 key b vs re-solve ?, 
-21-11 01:01:22   [sandhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q126 key d vs re-solve c, Q128 key c vs re-solve b, Q131 key d vs re-solve a, Q132 key a vs re-solve
-21-11 01:01:22   [sandhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
-21-11 01:01:22   [sandhi] written 0, failed 5; AI calls today 54/100000
-21-11 01:01:22 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi after 174 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo'] problems []
-21-11 01:01:48 worker 0: nothing left
-21-11 01:03:10   [vakya_shuddhi] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q82 key d vs re-solve c)
-21-11 01:06:20   [vakya_shuddhi] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q82 key b vs re-solve c)
-21-11 01:10:36   [vakya_shuddhi] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q82 key b vs re-solve d)
-21-11 01:10:36   [vakya_shuddhi] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
-21-11 01:19:04   [vakya_shuddhi] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q101 key a vs re-solve b, Q103 key a vs re-solve b, Q104 key c vs re-solve b, Q106 key c vs re-solve
-21-11 01:25:16   [vakya_shuddhi] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q101 key a vs re-solve b, Q104 key c vs re-solve d, Q112 key a vs re-solve b)
-21-11 01:34:32   [vakya_shuddhi] wrote Practice_hi_Set_05.txt (write, 25 MCQs)
-21-11 01:45:34   [vakya_shuddhi] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q126 key d vs re-solve ?, Q130 key b vs re-solve ?, Q132 key c vs re-solve ?, Q135 key d vs re-solve
-21-11 01:54:27   [vakya_shuddhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q126 key a vs re-solve d, Q136 key a vs re-solve d, Q144 key c vs re-solve ?, Q146 key c vs re-solve
-21-11 02:05:15   [vakya_shuddhi] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q126 key a vs re-solve d, Q136 key d vs re-solve a, Q137 key c vs re-solve ?, Q140 key a vs re-solve
-21-11 02:13:48   [vakya_shuddhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q126 key c vs re-solve ?, Q137 key b vs re-solve c, Q144 key d vs re-solve a, Q149 key a vs re-solve
-21-11 02:13:48   [vakya_shuddhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
-21-11 02:13:48   [vakya_shuddhi] written 1, failed 3; AI calls today 74/100000
-21-11 02:13:49 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi after 96 min: todo ['Set 02 hi: todo', 'Set 04 hi: todo', 'Set 06 hi: todo'] problems []
-21-11 02:13:49 worker 4: nothing left
-21-11 02:17:48 autopilot end: done 2, failed 4
+21-11 02:18:45 autopilot start: 12 workers, reverse=False
+21-11 02:18:45 API policy: account start interval=20s; key start interval=15s; in-flight per key=1
+21-11 02:18:46 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi (TODO: todo 5, problems 0)
+21-11 02:18:49   [sandhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
+21-11 02:18:51 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd (OK: todo 0, problems 0)
+21-11 02:18:52   [ek_shabd] review Content_hi.txt: resumed private correction draft
+21-11 02:18:56 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi (TODO: todo 3, problems 0)
+21-11 02:18:57   [vakya_shuddhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
+21-11 02:19:01 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram (TODO: todo 4, problems 0)
+21-11 02:19:02   [rikt_sthan_vakya_kram] Hindi-only writer: direct Hindi content; English generation and translation disabled
+21-11 02:19:26 worker 4: nothing left
+21-11 02:19:47 worker 5: nothing left
+21-11 02:19:54   [sandhi] Practice_hi_Set_01.txt try 1: rejected (parsed 24 questions, numbers 1…25)
+21-11 02:20:08 worker 6: nothing left
+21-11 02:20:16   [vakya_shuddhi] Practice_hi_Set_02.txt try 1: rejected (Q36:duplicate_options)
+21-11 02:20:28 worker 7: nothing left
+21-11 02:20:49 worker 8: nothing left
+21-11 02:21:10 worker 9: nothing left
+21-11 02:21:30 worker 10: nothing left
+21-11 02:21:43   [ek_shabd] review Content_hi.txt round 1: 2 issue(s): - Use of "एकार्थी" instead of "एकार्थी" throughout the section → replace with "एकार्थी"
+21-11 02:21:51 worker 11: nothing left
+21-11 02:21:51   [sandhi] Practice_hi_Set_01.txt try 2: rejected (Q3:duplicate_options,Q19:duplicate_options,Q22:duplicate_options,Q24:duplicate_options)
 ```
