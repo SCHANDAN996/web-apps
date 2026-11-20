@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 08:47 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 04:41 PM
+**आख़िरी update:** 20-11-2026 09:02 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 04:41 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 36 मिनट |
-| W7 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 244 मिनट |
+| W1 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 51 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
 | key 3 | 59 |
-| key 4 | 57 |
-| key 5 | 68 |
-| key 6 | 54 |
+| key 4 | 58 |
+| key 5 | 69 |
+| key 6 | 55 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -54,16 +53,11 @@
 - Chapter 12 anekarthi samshrut (Hindi) — 2 बार
 - Chapter 16 rikt sthan vakya kram (Hindi) — 1 बार
 - Chapter 07 sandhi (Hindi) — 1 बार
+- Chapter 15 vakya shuddhi (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 19:49:20   [upsarg_pratyay] review: 0 section(s) corrected, 1 failed
-20-11 19:49:20   [upsarg_pratyay] written 0, failed 1; AI calls today 201/100000
-20-11 19:49:20 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay after 13 min: todo [] problems []
-20-11 19:49:21 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_12_e_banking (OK: todo 0, problems 0)
-20-11 19:49:21   [e_banking] review Important_Rules_hi.txt: resumed private correction draft
-20-11 19:49:48   [anekarthi_samshrut] review Feynman_hi.txt round 2: 1 issue(s): - In the अनेकार्थी table, the entry for 'कल' incorrectly lists 'मशीन / यंत्र (कल-पुर्जा)' as a meaning; 'कल
 20-11 19:52:18   [e_banking] review: 1 section(s) corrected, 0 failed
 20-11 19:52:18   [e_banking] written 1, failed 0; AI calls today 204/100000
 20-11 19:52:31   [anekarthi_samshrut] REJECTED review fix Feynman_hi.txt: reviewer still reports - Section 1 table, word **बार**: meaning 2 lists "बारात / विवाह मंडप" → **बार** means **बार
@@ -98,4 +92,10 @@
 20-11 20:28:27   [rikt_sthan_vakya_kram] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q32 key c vs re-solve b)
 20-11 20:39:08   [vakya_shuddhi] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q141 key b vs re-solve a, Q143 key d vs re-solve ?, Q149 key d vs re-solve a)
 20-11 20:46:53   [rikt_sthan_vakya_kram] wrote Practice_hi_Set_02.txt (write, 25 MCQs)
+20-11 20:51:18   [vakya_shuddhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q143 key b vs re-solve ?, Q149 key a vs re-solve b, Q150 key a vs re-solve ?)
+20-11 20:51:18   [vakya_shuddhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
+20-11 20:51:18   [vakya_shuddhi] written 2, failed 4; AI calls today 239/100000
+20-11 20:51:18 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi after 249 min: todo ['Set 02 hi: todo', 'Set 04 hi: todo', 'Set 05 hi: todo', 'Set 06 hi: todo'] problems []
+20-11 20:51:18 worker 6: nothing left
+20-11 20:54:18   [rikt_sthan_vakya_kram] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q54 key d vs re-solve b, Q68 key b vs re-solve a, Q72 key b vs re-solve a)
 ```
