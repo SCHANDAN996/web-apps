@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 05:51 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
+**आख़िरी update:** 20-11-2026 06:06 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 10 paryayvachi (10th Hindi) | 🔎 review हो रहा है | 9 मिनट |
-| W2 | Chapter 11 email (12th Computer) | ✍️ लिख रहा है | 190 मिनट |
-| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 2 मिनट |
-| W4 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 74 मिनट |
+| W1 | Chapter 11 vilom (10th Hindi) | ✍️ लिख रहा है | 11 मिनट |
+| W2 | Chapter 11 email (12th Computer) | ✍️ लिख रहा है | 206 मिनट |
+| W3 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 17 मिनट |
+| W4 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 89 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 145 |
-| key 4 | 110 |
+| key 3 | 153 |
+| key 4 | 114 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -48,7 +48,7 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 10 paryayvachi (Hindi) — 2 बार
+- Chapter 10 paryayvachi (Hindi) — 3 बार
 - Chapter 09 upsarg pratyay (Hindi) — 2 बार
 - Chapter 11 vilom (Hindi) — 1 बार
 - Chapter 07 sandhi (Hindi) — 1 बार
@@ -56,18 +56,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 05:11:14   [anekarthi_samshrut] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
-20-11 05:15:01   [sandhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q128 key d vs re-solve ?, Q130 key d vs re-solve c, Q132 key a vs re-solve b, Q134 key c vs re-solve
-20-11 05:15:01   [sandhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
-20-11 05:15:01   [sandhi] written 0, failed 5; AI calls today 211/100000
-20-11 05:15:02 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi after 193 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo'] problems []
-20-11 05:15:02 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas (OK: todo 0, problems 0)
-20-11 05:15:02   [samas] review Key_Facts_hi.txt: resumed private correction draft
-20-11 05:15:53   [upsarg_pratyay] review Mind_Map.txt round 2: 2 issue(s): - In node Q, the suffix “इया” listed under तद्धित प्रत्यय is not a standard तद्धित प्रत्यय; the correct suffi
-20-11 05:18:18   [email] Practice_en_Set_04.txt try 2: re-solve disagrees (Q86 key c vs re-solve a, Q91 key c vs re-solve b, Q92 key d vs re-solve b)
-20-11 05:18:40   [anekarthi_samshrut] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q28 key d vs re-solve c, Q44 key d vs re-solve a, Q49 key d vs re-solve c)
-20-11 05:19:54   [email] Practice_en_Set_04.txt try 3: re-solve disagrees (Q92 key d vs re-solve c)
-20-11 05:20:50   [samas] review Mind_Map.txt: resumed private correction draft
 20-11 05:21:46   [samas] review Mind_Map.txt round 1: 2 issue(s): - अव्ययीभाव → निपातपूर्वक में उदाहरण "यथार्थ" गलत है; यथार्थ तत्पुरुष समास है, अव्ययीभाव नहीं। इसे "यथावत्" य
 20-11 05:22:41   [upsarg_pratyay] review Flashcards_hi.txt round 1: 5 issue(s): - Card 4: Incorrect examples for “दु-” prefix – “दु+र्योग=दुर्भाग्य” and “दु+कार्य=दुष्कर्म” → Correct: 
 20-11 05:23:58   [upsarg_pratyay] review Flashcards_hi.txt round 2: 4 issue(s): - Card 11 front mislabels the suffix “-नीय” as कर्तृवाचक; it is actually कर्तव्यवाचक (gerundive) → Chang
@@ -96,4 +84,16 @@
 20-11 05:49:45   [email] wrote Practice_en_Set_04.txt (write, 25 MCQs)
 20-11 05:49:45   [email] 2026-11-20 00:19:45,711 WARNING NVIDIA rate_limited — retrying in 20s
 20-11 05:50:19   [anekarthi_samshrut] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q51 key b vs re-solve c, Q58 key c vs re-solve d, Q71 key b vs re-solve c, Q75 key c vs re-solve d)
+20-11 05:52:47   [paryayvachi] review Important_Rules_hi.txt round 2: 4 issue(s): - नियम २ के उदाहरण में "बालकः" संस्कृत रूप है, हिन्दी शब्द-रूप नहीं → "बालकः" के स्थान पर हिन्दी रू
+20-11 05:55:49   [paryayvachi] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम २ के उदाहरण में "बालक" शब्द दो बार लिखा गया है ("बालक", "बालिका", "बालक") → 
+20-11 05:55:49   [paryayvachi] review: 0 section(s) corrected, 1 failed
+20-11 05:55:49   [paryayvachi] written 0, failed 1; AI calls today 255/100000
+20-11 05:55:49 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_10_paryayvachi after 14 min: todo [] problems []
+20-11 05:55:50 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_11_vilom (TODO: todo 1, problems 0)
+20-11 05:55:50   [vilom] Hindi-only writer: direct Hindi content; English generation and translation disabled
+20-11 05:58:48   [sandhi] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q5 key d vs re-solve a, Q7 key d vs re-solve c, Q11 key c vs re-solve a, Q12 key a vs re-solve d, Q1
+20-11 06:05:32   [anekarthi_samshrut] wrote Practice_hi_Set_03.txt (write, 25 MCQs)
+20-11 06:06:37   [vilom] Practice_hi_Set_01.txt try 1: rejected (parsed 24 questions, numbers 1…25)
+20-11 06:06:50   [sandhi] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q11 key c vs re-solve a, Q13 key d vs re-solve c, Q14 key c vs re-solve ?, Q15 key a vs re-solve ?, 
+20-11 06:07:09   [vilom] Practice_hi_Set_01.txt try 2: rejected (parsed 24 questions, numbers 1…25)
 ```
