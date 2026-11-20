@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 04:10 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
+**आख़िरी update:** 20-11-2026 04:25 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | 🔎 review हो रहा है | 34 मिनट |
-| W7 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 72 मिनट |
+| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | 🔎 review हो रहा है | 49 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 112 |
-| key 4 | 156 |
-| key 5 | 166 |
-| key 6 | 152 |
+| key 3 | 117 |
+| key 4 | 160 |
+| key 5 | 170 |
+| key 6 | 156 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -54,7 +53,7 @@
 
 - Chapter 12 anekarthi samshrut (Hindi) — 1 बार
 - Chapter 09 upsarg pratyay (Hindi) — 3 बार
-- Chapter 13 ek shabd (Hindi) — 1 बार
+- Chapter 13 ek shabd (Hindi) — 2 बार
 - Chapter 14 muhavare lokokti (Hindi) — 1 बार
 - Chapter 12 e banking (Computer) — 1 बार
 - Chapter 07 sandhi (Hindi) — 1 बार
@@ -64,20 +63,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 15:47:09   [anekarthi_samshrut] REJECTED review fix Content_hi.txt: reviewer still reports - The definition of समश्रुत भिन्नार्थक requires identical pronunciation, but the pairs "बाद
-20-11 15:47:38   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 1: rejected (Q129:duplicate_options)
-20-11 15:48:03   [anekarthi_samshrut] review Key_Facts_hi.txt round 1: 9 issue(s): - Point 2: Definition says समश्रुत words have different spelling, but example "कर / कर" has identical spe
-20-11 15:48:05   [ek_shabd] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q53 key a vs re-solve b, Q58 key c vs re-solve a, Q67 key d vs re-solve b, Q71 key b vs re-solve c, 
-20-11 15:49:45   [anekarthi_samshrut] review Key_Facts_hi.txt round 2: 4 issue(s): - समश्रुत भिन्नार्थक उदाहरण सूची में गलत युग्म दिए गए हैं: **फल / फळ**, **बाल / बॉल**, **पिता / पीता**, *
-20-11 15:50:43   [vakya_shuddhi] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q127 key b vs re-solve ?, Q130 key c vs re-solve ?, Q133 key a vs re-solve ?, Q138 key b vs re-solve
-20-11 15:50:48   [anekarthi_samshrut] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - "सुन / सून" को समश्रुत भिन्नार्थक बताया गया है, लेकिन उच्चारण भिन्न है (सुन = लघु उ, सू
-20-11 15:51:55   [networking] review PYQ_en.txt round 1: 1 issue(s): - In section 3 (IP Addressing & Subnetting), the PYQ-style example states "Answer: (c)" for the last usable hos
-20-11 15:52:14   [anekarthi_samshrut] review Feynman_hi.txt round 1: 5 issue(s): - Section 1 table: "कल" meaning "मशीन/यंत्र" is incorrect (कल = time/art; machine is कलपुर्जा/यंत्र), "बाँस
-20-11 15:52:31   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q149 key b vs re-solve a)
-20-11 15:54:51   [anekarthi_samshrut] review Feynman_hi.txt round 2: 3 issue(s): - अनेकार्थी शब्द तालिका में "कल" के अर्थ 2 में "कला / हुनर / विद्या" दिया गया है → "कल" (समय) और "कला" (कला
-20-11 15:54:57   [ek_shabd] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q58 key a vs re-solve c, Q64 key d vs re-solve c, Q72 key b vs re-solve c)
-20-11 15:56:16   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q146 key b vs re-solve c)
-20-11 15:57:08   [networking] review PYQ_hi.txt round 1: 2 issue(s): - In wireless example (pattern 8), explanation states "WPA3 नवीनतम और सबसे मजबूत" without a year → specify year
 20-11 15:57:17   [vakya_shuddhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q141 key a vs re-solve ?, Q146 key c vs re-solve d, Q147 key a vs re-solve ?)
 20-11 15:59:28   [ek_shabd] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q54 key b vs re-solve c, Q65 key a vs re-solve d)
 20-11 16:00:04   [anekarthi_samshrut] REJECTED review fix Feynman_hi.txt: reviewer still reports - "वड़" को बरगद के पेड़ के लिए मानक हिन्दी शब्द बताना गलत है → मानक हिन्दी में बरगद के लिए 
@@ -104,4 +89,18 @@
 20-11 16:09:48   [vakya_shuddhi] written 7, failed 6; AI calls today 584/100000
 20-11 16:09:48 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi after 290 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 04 hi: todo'] problems []
 20-11 16:09:48 worker 10: nothing left
+20-11 16:11:33   [ek_shabd] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q149 key c vs re-solve a)
+20-11 16:11:34   [anekarthi_samshrut] review Flashcards_hi.txt round 2: 4 issue(s): - Card 2: Wrong example for समश्रुत भिन्नार्थक — "सिर" (/sɪr/) and "सर" (/sər/) have different vowels, s
+20-11 16:14:18   [anekarthi_samshrut] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 2 claims "माँ" and "मान" are समश्रुत भिन्नार्थक with identical pronunciation /mɑ̃
+20-11 16:16:07   [anekarthi_samshrut] review PYQ_hi.txt round 1: 3 issue(s): - In section 1.2, the example for “समश्रुत भिन्नार्थक शब्द — सही शब्द चयन” has duplicate options (a) and (c) bo
+20-11 16:16:18   [ek_shabd] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q142 key c vs re-solve a)
+20-11 16:18:05   [anekarthi_samshrut] review PYQ_hi.txt round 2: 2 issue(s): - The table "बार-बार आने वाले उप-विषय" labels example pairs as "समश्रुत युग्म" (homophones), but the listed pai
+20-11 16:18:38   [ek_shabd] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q142 key d vs re-solve c, Q149 key d vs re-solve a)
+20-11 16:18:38   [ek_shabd] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
+20-11 16:18:38   [ek_shabd] written 0, failed 3; AI calls today 597/100000
+20-11 16:18:38 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd after 81 min: todo ['Set 01 hi: todo', 'Set 03 hi: todo', 'Set 06 hi: todo'] problems []
+20-11 16:18:38 worker 6: nothing left
+20-11 16:19:45   [anekarthi_samshrut] REJECTED review fix PYQ_hi.txt: reviewer still reports - तालिका (खंड 2) में 'उपसर्ग/प्रत्यय परिवर्तन' पंक्ति के उदाहरण (अनर्थ/अन्यर्थ, सुन्दर/सुन्दरता
+20-11 16:22:05   [anekarthi_samshrut] review Important_Rules_hi.txt round 1: 2 issue(s): - नियम २ में समश्रुत भिन्नार्थक का उदाहरण "फल" (परिणाम) बनाम "फळ" (मराठी/बोली) गलत है क्योंकि "फळ" 
+20-11 16:24:02   [anekarthi_samshrut] review Important_Rules_hi.txt round 2: 1 issue(s): - Quick revision table: for 'मुख', the identification formula cites 'मुख्य द्वार' (which uses the d
 ```
