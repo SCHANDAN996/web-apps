@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 04:40 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
+**आख़िरी update:** 20-11-2026 04:41 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -61,7 +61,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 16:01:52   [networking] review: 5 section(s) corrected, 0 failed
 20-11 16:01:52   [networking] written 5, failed 0; AI calls today 573/100000
 20-11 16:02:08 DONE 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_13_networking in 283 min → 85b59e9f
 20-11 16:02:08 worker 7: nothing left
@@ -101,4 +100,5 @@
 20-11 16:27:10   [anekarthi_samshrut] written 0, failed 7; AI calls today 602/100000
 20-11 16:27:10 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_12_anekarthi_samshrut after 163 min: todo [] problems []
 20-11 16:27:10 worker 2: nothing left
+20-11 16:41:14 autopilot end: done 5, failed 8
 ```
