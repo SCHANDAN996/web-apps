@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 07:00 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 04:41 PM
+**आख़िरी update:** 20-11-2026 07:15 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 04:41 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,16 +8,16 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 138 मिनट |
-| W7 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 138 मिनट |
-| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 138 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 153 मिनट |
+| W7 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 153 मिनट |
+| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 153 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 39 |
-| key 4 | 41 |
-| key 5 | 52 |
-| key 6 | 38 |
+| key 3 | 40 |
+| key 4 | 42 |
+| key 5 | 53 |
+| key 6 | 40 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -57,9 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 17:47:27   [anekarthi_samshrut] written 4, failed 3; AI calls today 114/100000
-20-11 17:47:27 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_12_anekarthi_samshrut after 65 min: todo [] problems []
-20-11 17:47:42 worker 2: nothing left
 20-11 17:51:52   [vakya_shuddhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q27 key c vs re-solve b, Q39 key c vs re-solve ?, Q40 key b vs re-solve d, Q41 key b vs re-solve ?, 
 20-11 17:52:14   [rikt_sthan_vakya_kram] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q33 key b vs re-solve d)
 20-11 17:55:58   [sandhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q29 key d vs re-solve c, Q31 key c vs re-solve b, Q32 key a vs re-solve c, Q36 key b vs re-solve a, 
@@ -97,4 +94,7 @@
 20-11 18:56:46   [vakya_shuddhi] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q77 key d vs re-solve b, Q90 key a vs re-solve c, Q94 key c vs re-solve b)
 20-11 18:58:30   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q101 key a vs re-solve b, Q111 key c vs re-solve b, Q118 key d vs re-solve a)
 20-11 18:58:30   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
+20-11 19:05:58   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q128 key a vs re-solve c, Q139 key a vs re-solve d, Q141 key d vs re-solve b, Q142 key b vs re-solve
+20-11 19:11:52   [sandhi] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q103 key d vs re-solve c, Q116 key a vs re-solve d, Q120 key a vs re-solve c, Q124 key c vs re-solve
+20-11 19:13:35   [vakya_shuddhi] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q77 key c vs re-solve b, Q96 key a vs re-solve d)
 ```
