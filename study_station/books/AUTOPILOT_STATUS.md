@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 04:01 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
+**आख़िरी update:** 20-11-2026 04:10 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,18 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W11 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 282 मिनट |
-| W12 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 282 मिनट |
-| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | 🔎 review हो रहा है | 25 मिनट |
-| W7 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 64 मिनट |
-| W8 | Chapter 13 networking (12th Computer) | 📤 push हो रहा है | 0 मिनट |
+| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | 🔎 review हो रहा है | 34 मिनट |
+| W7 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 72 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 108 |
-| key 4 | 154 |
-| key 5 | 163 |
-| key 6 | 148 |
+| key 3 | 112 |
+| key 4 | 156 |
+| key 5 | 166 |
+| key 6 | 152 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -61,29 +58,12 @@
 - Chapter 14 muhavare lokokti (Hindi) — 1 बार
 - Chapter 12 e banking (Computer) — 1 बार
 - Chapter 07 sandhi (Hindi) — 1 बार
+- Chapter 16 rikt sthan vakya kram (Hindi) — 1 बार
+- Chapter 15 vakya shuddhi (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 15:36:12   [networking] review Key_Facts_hi.txt round 1: 1 issue(s): - IPv6 में "अनिवार्य IPSec समर्थन" गलत है → IPv6 में IPSec समर्थन वैकल्पिक है (RFC 8200 के अनुसार)
-20-11 15:37:51   [sandhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q134 key c vs re-solve b)
-20-11 15:37:51   [sandhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
-20-11 15:37:51   [sandhi] written 0, failed 5; AI calls today 517/100000
-20-11 15:37:52 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi after 259 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo'] problems []
-20-11 15:37:52 worker 0: nothing left
-20-11 15:37:57   [apathit_gadyansh] review: 3 section(s) corrected, 0 failed
-20-11 15:37:57   [apathit_gadyansh] written 3, failed 0; AI calls today 517/100000
-20-11 15:38:14 DONE 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_17_apathit_gadyansh in 248 min → ebe8607a
-20-11 15:38:14 worker 3: nothing left
-20-11 15:38:24   [anekarthi_samshrut] review Content_hi.txt round 1: 7 issue(s): - "बादल" entry in the polysemous table lists meanings "बदली (धुंध)" and "बदनाम (अपमानित)" which are separat
-20-11 15:39:57   [ek_shabd] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q14 key a vs re-solve b, Q19 key a vs re-solve c, Q20 key c vs re-solve b)
-20-11 15:41:42   [vakya_shuddhi] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q121 key d vs re-solve b, Q124 key a vs re-solve b)
-20-11 15:41:42   [vakya_shuddhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
-20-11 15:43:11   [anekarthi_samshrut] review Content_hi.txt round 2: 5 issue(s): - The meaning 'बेंच/पंक्ति' given for 'बैंक' in the अनेकार्थी table, Example 5, Quick Revision table, Flash
-20-11 15:43:50   [ek_shabd] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q12 key b vs re-solve d, Q18 key d vs re-solve b, Q19 key c vs re-solve a)
-20-11 15:43:50   [ek_shabd] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
-20-11 15:46:18   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q102 key b vs re-solve a, Q106 key c vs re-solve ?, Q108 key d vs re-solve a, Q109 key a vs re-solve
-20-11 15:46:18   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
 20-11 15:47:09   [anekarthi_samshrut] REJECTED review fix Content_hi.txt: reviewer still reports - The definition of समश्रुत भिन्नार्थक requires identical pronunciation, but the pairs "बाद
 20-11 15:47:38   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 1: rejected (Q129:duplicate_options)
 20-11 15:48:03   [anekarthi_samshrut] review Key_Facts_hi.txt round 1: 9 issue(s): - Point 2: Definition says समश्रुत words have different spelling, but example "कर / कर" has identical spe
@@ -105,4 +85,23 @@
 20-11 16:01:34   [anekarthi_samshrut] review Mind_Map.txt round 1: 3 issue(s): - D1 "कलम: लेखनी / बाड़ा" → कलम का अर्थ 'लेखनी' या 'कलम (पौधे की कटिंग)' होता है, 'बाड़ा' नहीं; बाड़ा का अर्थ
 20-11 16:01:52   [networking] review: 5 section(s) corrected, 0 failed
 20-11 16:01:52   [networking] written 5, failed 0; AI calls today 573/100000
+20-11 16:02:08 DONE 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_13_networking in 283 min → 85b59e9f
+20-11 16:02:08 worker 7: nothing left
+20-11 16:03:18   [anekarthi_samshrut] review Mind_Map.txt round 2: 2 issue(s): - The "समश्रुत भिन्नार्थक" branch (E) duplicates the "अनेकार्थी" examples (D1–D8) — these are polysemous word
+20-11 16:03:25   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q146 key b vs re-solve c)
+20-11 16:03:25   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
+20-11 16:03:25   [rikt_sthan_vakya_kram] written 7, failed 6; AI calls today 575/100000
+20-11 16:03:25 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram after 284 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 04 hi: todo'] problems []
+20-11 16:03:25 worker 11: nothing left
+20-11 16:05:01   [ek_shabd] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q58 key c vs re-solve a)
+20-11 16:05:01   [ek_shabd] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+20-11 16:06:09   [vakya_shuddhi] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q141 key c vs re-solve ?, Q147 key b vs re-solve ?)
+20-11 16:06:57   [ek_shabd] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q140 key b vs re-solve a, Q143 key a vs re-solve b)
+20-11 16:08:40   [anekarthi_samshrut] REJECTED review fix Mind_Map.txt: reviewer still reports - D4 example "रंग: वर्ण / रंगना (क्रिया)" mixes a noun and a verb form; अनेकार्थी requires sa
+20-11 16:09:44   [anekarthi_samshrut] review Flashcards_hi.txt round 1: 3 issue(s): - Card 2: The example for समश्रुत भिन्नार्थक words uses “कर” (hand) and “कर” (tax) which have identical 
+20-11 16:09:48   [vakya_shuddhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q130 key d vs re-solve c, Q146 key b vs re-solve c)
+20-11 16:09:48   [vakya_shuddhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
+20-11 16:09:48   [vakya_shuddhi] written 7, failed 6; AI calls today 584/100000
+20-11 16:09:48 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi after 290 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 04 hi: todo'] problems []
+20-11 16:09:48 worker 10: nothing left
 ```
