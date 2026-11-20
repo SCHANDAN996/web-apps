@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 21-11-2026 03:38 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
+**आख़िरी update:** 21-11-2026 03:41 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,16 +8,16 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 79 मिनट |
-| W3 | Chapter 13 ek shabd (10th Hindi) | 🔎 review हो रहा है | 4 मिनट |
-| W4 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 79 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 82 मिनट |
+| W3 | Chapter 13 ek shabd (10th Hindi) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 82 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 22 |
-| key 4 | 21 |
-| key 5 | 18 |
-| key 6 | 28 |
+| key 3 | 23 |
+| key 4 | 24 |
+| key 5 | 19 |
+| key 6 | 30 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -45,7 +45,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 21-11 03:41 — 10th Hindi · Chapter 13 ek shabd
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
@@ -55,13 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-21-11 02:40:36   [vakya_shuddhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q30 key d vs re-solve c, Q33 key b vs re-solve c)
-21-11 02:40:36   [vakya_shuddhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
-21-11 02:44:19   [rikt_sthan_vakya_kram] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q52 key d vs re-solve a, Q58 key b vs re-solve d)
-21-11 02:46:53   [sandhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q36 key b vs re-solve c, Q39 key b vs re-solve a)
-21-11 02:48:33   [vakya_shuddhi] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q82 key a vs re-solve d, Q90 key d vs re-solve b, Q92 key d vs re-solve ?, Q95 key c vs re-solve ?, 
-21-11 02:52:54   [rikt_sthan_vakya_kram] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q75 key a vs re-solve d)
-21-11 02:52:54   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
 21-11 02:56:53   [vakya_shuddhi] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q76 key b vs re-solve ?, Q77 key a vs re-solve b, Q78 key c vs re-solve ?, Q80 key c vs re-solve d, 
 21-11 02:59:31   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q76 key a vs re-solve b, Q81 key c vs re-solve a, Q90 key d vs re-solve b, Q94 key c vs re-solve b, 
 21-11 02:59:38   [sandhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q35 key a vs re-solve c, Q39 key a vs re-solve b)
@@ -95,4 +88,11 @@
 21-11 03:37:02   [ek_shabd] review Key_Facts_hi.txt: resumed private correction draft
 21-11 03:37:53   [sandhi] Practice_hi_Set_05.txt try 4: rejected (Q115:duplicate_options,Q120:duplicate_options)
 21-11 03:37:53   [sandhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
+21-11 03:38:47   [ek_shabd] review Key_Facts_hi.txt round 1: 1 issue(s): - Point 12 cites “NCERT विज्ञान कक्षा 6–10” as the source for the example “वर्गीकरण-वैज्ञानिक”, but NCERT
+21-11 03:39:26   [sandhi] Practice_hi_Set_06.txt try 1: rejected (Q145:duplicate_options)
+21-11 03:39:28   [ek_shabd] review Key_Facts_hi.txt round 2: 1 issue(s): - Title: 'मुख्य तथु' → 'मुख्य तथ्य'
+21-11 03:40:40   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q102 key d vs re-solve a, Q110 key a vs re-solve ?)
+21-11 03:40:40   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
+21-11 03:41:15   [ek_shabd] review: 2 section(s) corrected, 0 failed
+21-11 03:41:15   [ek_shabd] written 2, failed 0; AI calls today 96/100000
 ```
