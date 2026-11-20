@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 10:41 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
+**आख़िरी update:** 20-11-2026 10:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,17 +8,17 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 33 मिनट |
-| W4 | Chapter 13 ek shabd (10th Hindi) | 🔎 review हो रहा है | 12 मिनट |
-| W5 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 33 मिनट |
-| W6 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 33 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 49 मिनट |
+| W4 | Chapter 13 ek shabd (10th Hindi) | 🔎 review हो रहा है | 27 मिनट |
+| W5 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 49 मिनट |
+| W6 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 48 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 10 |
-| key 4 | 8 |
-| key 5 | 16 |
-| key 6 | 16 |
+| key 3 | 12 |
+| key 4 | 13 |
+| key 5 | 23 |
+| key 6 | 28 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -55,17 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 22:09:37   [rikt_sthan_vakya_kram] Practice_hi_Set_03.txt try 1: rejected (parsed 24 questions, numbers 51…75)
-20-11 22:09:54 worker 9: nothing left
-20-11 22:10:21 worker 10: nothing left
-20-11 22:10:47 worker 11: nothing left
-20-11 22:11:12   [upsarg_pratyay] review Flashcards_hi.txt round 1: 3 issue(s): - Card 4, rule 1: The rule claims the prefix becomes "दुः" (visarga) before all listed voiceless consona
-20-11 22:11:25   [anekarthi_samshrut] review Mind_Map.txt round 1: 3 issue(s): - D7: "माँग: इच्छा (संज्ञा) / माँगना (क्रिया मूल)" is not a valid polysemy example because माँग (noun) and मा
-20-11 22:11:36   [sandhi] Practice_hi_Set_01.txt try 2: rejected (parsed 24 questions, numbers 1…25)
-20-11 22:12:55   [sandhi] Practice_hi_Set_01.txt try 3: rejected (Q2:duplicate_options,Q14:duplicate_options,Q15:duplicate_options,Q18:duplicate_options,Q22:duplicate_options)
-20-11 22:14:20   [vakya_shuddhi] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q30 key a vs re-solve d, Q34 key d vs re-solve b, Q37 key a vs re-solve d, Q46 key c vs re-solve d, 
-20-11 22:14:31   [sandhi] Practice_hi_Set_01.txt try 4: rejected (Q15:duplicate_options)
-20-11 22:14:31   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
 20-11 22:17:09   [upsarg_pratyay] review Flashcards_hi.txt round 2: 6 issue(s): - Card 4: Rule 1 lists consonants क, ट, त, प but example 'दुस्सह' uses स, which is not in the list → Mov
 20-11 22:19:04   [anekarthi_samshrut] review Mind_Map.txt round 2: 1 issue(s): - E1 में "कर: करना (क्रिया)" गलत है → "कर" क्रिया "करना" का मूल रूप (क्रिया मूल) है, "करना" स्वयं नहीं; सही: 
 20-11 22:21:06   [ek_shabd] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q51 key b vs re-solve c, Q58 key b vs re-solve a, Q66 key c vs re-solve b, Q71 key c vs re-solve a, 
@@ -95,4 +84,15 @@
 20-11 22:40:57   [ek_shabd] review Key_Facts_hi.txt round 1: 4 issue(s): - Point 2 claims a fixed number of questions (2–3) in SSC GD, MTS, RRB Group D; this is an invented exam 
 20-11 22:41:48   [rikt_sthan_vakya_kram] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q65 key b vs re-solve a, Q69 key d vs re-solve a)
 20-11 22:41:48   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+20-11 22:44:08   [ek_shabd] review Key_Facts_hi.txt round 2: 2 issue(s): - Point 12: “वर्गीकरणकर्ता” is not the standard Hindi term for taxonomist; the correct term is “वर्गीकरणव
+20-11 22:47:05   [ek_shabd] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 6 claims synonyms नित्य, सनातन are not words (“ये एक शब्द नहीं”) → They are words
+20-11 22:48:01   [sandhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q28 key b vs re-solve d, Q29 key a vs re-solve d, Q31 key c vs re-solve a, Q33 key a vs re-solve c, 
+20-11 22:48:35   [ek_shabd] review Mind_Map.txt round 1: 1 issue(s): - F2 में वर्तनी त्रुटि का उदाहरण गलत है: "चिकित्सक/चिकित्सक" दोनों समान लिखे हैं → सही/गलत वर्तनी का युग्म दे
+20-11 22:48:37   [vakya_shuddhi] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q80 key a vs re-solve ?, Q82 key b vs re-solve ?, Q88 key a vs re-solve ?, Q90 key a vs re-solve c, 
+20-11 22:49:31   [ek_shabd] review Mind_Map.txt round 2: 1 issue(s): - F2 में वर्तनी उदाहरण गलत है: "पुस्तकालय/पुस्तकालय (शुद्ध/अशुद्ध)" दोनों शब्द समान लिखे हैं → सही/गलत वर्तनी
+20-11 22:52:00   [ek_shabd] review PYQ_hi.txt round 1: 2 issue(s): - The claim that SSC never includes "उपर्युक्त सभी/कोई नहीं" options (stated in Example 5 explanation and Commo
+20-11 22:52:05   [vakya_shuddhi] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q90 key a vs re-solve c, Q93 key b vs re-solve d)
+20-11 22:52:42   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q76 key b vs re-solve d, Q77 key b vs re-solve a, Q84 key c vs re-solve b, Q87 key c vs re-solve d, 
+20-11 22:53:49   [ek_shabd] review PYQ_hi.txt round 2: 3 issue(s): - In the "उच्च-उपज शब्द समूह" table, under "स्वभाव/प्रवृत्ति", the entry "क्रोधी → क्रोधी/रोषी" incorrectly use
+20-11 22:57:06   [ek_shabd] REJECTED review fix PYQ_hi.txt: reviewer still reports - Pattern 5 caution states "विशेषण/सर्वनाम अपेक्षित होता है" but pronoun (सर्वनाम) is not a typ
 ```
