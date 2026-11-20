@@ -10,11 +10,13 @@ def test_active_workflow_excludes_disabled_secret_refs():
     workflow = (Path(__file__).resolve().parents[3] / '.github/workflows/book-autopilot.yml').read_text()
     assert 'secrets.NVIDIA_API_KEY }}' not in workflow
     assert 'secrets.NVIDIA_API_KEY_2' not in workflow
-    assert 'NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY_3 }},${{ secrets.NVIDIA_API_KEY_4 }}' in workflow
-    assert '--workers 6' in workflow
+    assert 'NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY_3 }},${{ secrets.NVIDIA_API_KEY_4 }},${{ secrets.NVIDIA_API_KEY_5 }},${{ secrets.NVIDIA_API_KEY_6 }}' in workflow
+    assert "NVIDIA_API_KEY_LABELS: '3,4,5,6'" in workflow
+    assert "names = ('NVIDIA_API_KEY_3', 'NVIDIA_API_KEY_4', 'NVIDIA_API_KEY_5', 'NVIDIA_API_KEY_6')" in workflow
+    assert '--workers 12' in workflow
     assert "NVIDIA_ACCOUNT_MIN_INTERVAL_SECONDS: '20'" in workflow
     assert "NVIDIA_MAX_INFLIGHT_PER_KEY: '1'" in workflow
-    assert 'BOOKGEN_RATE_POLICY: parallel-v4' in workflow
+    assert 'BOOKGEN_RATE_POLICY: parallel-v5' in workflow
     assert workflow.count('${{ runner.temp }}/autopilot/reviewed.json') == 2
     assert workflow.count('${{ runner.temp }}/autopilot/review-drafts') == 2
     assert workflow.count('path: ${{ runner.temp }}/wip.tar.gz') == 2
@@ -28,8 +30,8 @@ def test_active_workflow_excludes_disabled_secret_refs():
     assert 'if [ "$GITHUB_REF_NAME" != main ]; then' in workflow
 
 
-def test_every_worker_receives_both_active_keys_for_dynamic_request_routing(tmp_path, monkeypatch):
-    monkeypatch.setenv('NVIDIA_API_KEY', 'active-three,active-four')
+def test_every_worker_receives_all_four_active_keys_for_dynamic_request_routing(tmp_path, monkeypatch):
+    monkeypatch.setenv('NVIDIA_API_KEY', 'active-three,active-four,active-five,active-six')
     monkeypatch.setenv('NVIDIA_API_KEY_2', 'disabled-two')
     monkeypatch.setenv('NVIDIA_API_KEY_3', 'active-three')
     monkeypatch.setenv('NVIDIA_API_KEY_4', 'active-four')
@@ -47,11 +49,11 @@ def test_every_worker_receives_both_active_keys_for_dynamic_request_routing(tmp_
     p = pilot.Pilot.__new__(pilot.Pilot)
     p.state_dir = tmp_path
     p.log = lambda *a: None
-    for n in (1, 2, 3, 4, 5, 6):
+    for n in range(1, 13):
         monkeypatch.setattr(pilot.threading, 'current_thread', lambda n=n: SimpleNamespace(name=f'W{n}'))
         lines, bad = p.bookgen(tmp_path / 'Chapter_01_topic')
         assert 'rate_limited' in lines[0] and not bad
-    assert received == ['active-three,active-four'] * 6
+    assert received == ['active-three,active-four,active-five,active-six'] * 12
 
 
 def test_failed_chapter_waits_while_other_chapters_continue(tmp_path, monkeypatch):
@@ -109,3 +111,11 @@ def test_pool_usage_labels_survive_an_empty_key_without_exposing_keys(tmp_path, 
     assert p.api_pool_usage() == [('4', 8)]
     path.write_text('partial write')
     assert p.api_pool_usage() == []
+
+
+def test_pool_usage_reports_all_four_key_labels(tmp_path, monkeypatch):
+    monkeypatch.setenv('BOOKGEN_RATE_STATE_DIR', str(tmp_path))
+    monkeypatch.setenv('NVIDIA_API_KEY_LABELS', '3,4,5,6')
+    monkeypatch.setenv('NVIDIA_API_KEY', 'three,four,five,six')
+    (tmp_path / 'pool.json').write_text(json.dumps({'starts_by_index': [4, 3, 2, 1]}))
+    assert pilot.Pilot.__new__(pilot.Pilot).api_pool_usage() == [('3', 4), ('4', 3), ('5', 2), ('6', 1)]

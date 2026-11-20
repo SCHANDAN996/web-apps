@@ -9,7 +9,7 @@ Read `study_station/v2/CLAUDE.md` and `study_station/books/BOOK_AGENT.md` first.
 For Hindi-subject books, Hindi is the authoring source. Write lessons, examples, memory aids and MCQs
 directly in natural Devanagari Hindi. Never create the Hindi lesson by translating an English draft.
 Use NVIDIA `nvidia/nemotron-3-ultra-550b-a55b` for writing, both independent blind answer checks and
-editorial review. The GitHub workflow supplies only keys 3 and 4. Never read or print secret values.
+editorial review. The GitHub workflow supplies only keys 3, 4, 5 and 6. Never read or print secret values.
 
 Run the normal `app.bookgen` pipeline on the Hindi chapter. It selects Hindi-only work by subject.
 Write only Hindi sections and all six sets of 25 Hindi MCQs. Do not write, translate, repair or review
