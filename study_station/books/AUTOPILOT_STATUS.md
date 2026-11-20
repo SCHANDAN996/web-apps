@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 05:59 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 04:41 PM
+**आख़िरी update:** 20-11-2026 06:14 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 04:41 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,16 +8,16 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 77 मिनट |
-| W7 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 77 मिनट |
-| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 77 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 93 मिनट |
+| W7 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 92 मिनट |
+| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 92 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 30 |
-| key 4 | 28 |
-| key 5 | 38 |
-| key 6 | 25 |
+| key 3 | 33 |
+| key 4 | 31 |
+| key 5 | 42 |
+| key 6 | 29 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -57,16 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 17:23:39   [e_banking] review PYQ_hi.txt round 2: 2 issue(s): - RTGS न्यूनतम सीमा 2022 में ₹1 लाख होने का दावा गलत है → RTGS की न्यूनतम सीमा ₹2 लाख ही है (2024 तक कोई कमी नह
-20-11 17:24:16   [rikt_sthan_vakya_kram] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q29 key d vs re-solve a, Q30 key a vs re-solve b, Q32 key b vs re-solve a, Q42 key a vs re-solve b, 
-20-11 17:26:18   [upsarg_pratyay] review Important_Rules_hi.txt round 2: 4 issue(s): - Rule 11 incorrectly classifies “सु”/“सुर” and gives wrong examples: “सुरूप”, “सुरभि”, “सुरभित” ar
-20-11 17:26:36   [e_banking] review Important_Rules_hi.txt: resumed private correction draft
-20-11 17:28:25   [ek_shabd] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q53 key c vs re-solve a, Q59 key d vs re-solve b, Q69 key b vs re-solve a)
-20-11 17:28:25   [ek_shabd] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
-20-11 17:29:58   [e_banking] review Important_Rules_hi.txt round 1: 5 issue(s): - नियम 3 में USSD *99# सेवा का पिन "फोन के डायलर में दर्ज होता है" गलत है → पिन USSD मेनू/स्क्रीन प
-20-11 17:31:18   [anekarthi_samshrut] review PYQ_hi.txt round 1: 2 issue(s): - उप-विषय "तत्सम-तद्भव समश्रुत" गलत है क्योंकि तत्सम-तद्भव युग्म (जैसे कर्म/काम, धर्म/धरम) समश्रुत (होमोफोन) नह
-20-11 17:32:20   [e_banking] review Important_Rules_hi.txt round 2: 1 issue(s): - Rule 14 exception incorrectly states “RBI हर लेनदेन के लिए SMS अलर्ट अनिवार्य करता है” → RBI mand
-20-11 17:35:00   [anekarthi_samshrut] review PYQ_hi.txt round 2: 2 issue(s): - In section 1.4, the first error-spotting example "वह दुध पीता है" uses a spelling mistake ('दुध' for 'दूध') i
 20-11 17:35:22   [ek_shabd] wrote Practice_hi_Set_06.txt (write, 25 MCQs)
 20-11 17:35:22   [ek_shabd] written 2, failed 1; AI calls today 101/100000
 20-11 17:35:22 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd after 53 min: todo ['Set 03 hi: todo'] problems []
@@ -97,4 +87,14 @@
 20-11 17:57:15   [rikt_sthan_vakya_kram] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q28 key b vs re-solve a)
 20-11 17:57:15   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
 20-11 17:58:25   [rikt_sthan_vakya_kram] Practice_hi_Set_03.txt try 1: rejected (Q58:duplicate_options,Q64:duplicate_options)
+20-11 18:05:17   [vakya_shuddhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q27 key c vs re-solve b, Q40 key a vs re-solve d, Q46 key d vs re-solve c, Q48 key b vs re-solve a)
+20-11 18:05:56   [rikt_sthan_vakya_kram] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q55 key d vs re-solve a, Q62 key a vs re-solve b, Q75 key c vs re-solve a)
+20-11 18:09:29   [rikt_sthan_vakya_kram] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q55 key b vs re-solve a, Q62 key a vs re-solve b)
+20-11 18:11:15   [sandhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q31 key d vs re-solve b, Q32 key a vs re-solve c, Q35 key d vs re-solve b, Q39 key a vs re-solve d, 
+20-11 18:11:15   [sandhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
+20-11 18:12:49   [rikt_sthan_vakya_kram] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q62 key d vs re-solve b)
+20-11 18:12:49   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+20-11 18:12:50   [sandhi] Practice_hi_Set_03.txt try 1: rejected (Q53:duplicate_options,Q56:duplicate_options,Q57:duplicate_options,Q64:duplicate_options,Q65:duplicate_options)
+20-11 18:13:15   [vakya_shuddhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q27 key d vs re-solve b, Q40 key a vs re-solve d, Q46 key b vs re-solve c, Q48 key b vs re-solve a)
+20-11 18:13:15   [vakya_shuddhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
 ```
