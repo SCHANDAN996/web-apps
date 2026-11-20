@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 10:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
+**आख़िरी update:** 20-11-2026 11:12 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,17 +8,17 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 49 मिनट |
-| W4 | Chapter 13 ek shabd (10th Hindi) | 🔎 review हो रहा है | 27 मिनट |
-| W5 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 49 मिनट |
-| W6 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 48 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 64 मिनट |
+| W4 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 10 मिनट |
+| W5 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 64 मिनट |
+| W6 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 64 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
 | key 3 | 12 |
-| key 4 | 13 |
-| key 5 | 23 |
-| key 6 | 28 |
+| key 4 | 21 |
+| key 5 | 25 |
+| key 6 | 29 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -51,22 +51,11 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 09 upsarg pratyay (Hindi) — 1 बार
+- Chapter 13 ek shabd (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 22:17:09   [upsarg_pratyay] review Flashcards_hi.txt round 2: 6 issue(s): - Card 4: Rule 1 lists consonants क, ट, त, प but example 'दुस्सह' uses स, which is not in the list → Mov
-20-11 22:19:04   [anekarthi_samshrut] review Mind_Map.txt round 2: 1 issue(s): - E1 में "कर: करना (क्रिया)" गलत है → "कर" क्रिया "करना" का मूल रूप (क्रिया मूल) है, "करना" स्वयं नहीं; सही: 
-20-11 22:21:06   [ek_shabd] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q51 key b vs re-solve c, Q58 key b vs re-solve a, Q66 key c vs re-solve b, Q71 key c vs re-solve a, 
-20-11 22:21:26   [vakya_shuddhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q30 key a vs re-solve d, Q31 key c vs re-solve d, Q33 key a vs re-solve c, Q35 key a vs re-solve d, 
-20-11 22:22:01   [sandhi] Practice_hi_Set_02.txt try 1: rejected (Q27:duplicate_options,Q28:duplicate_options,Q30:duplicate_options,Q40:duplicate_options,Q42:duplicate_options)
-20-11 22:22:05   [anekarthi_samshrut] review: 2 section(s) corrected, 0 failed
-20-11 22:22:05   [anekarthi_samshrut] written 2, failed 0; AI calls today 28/100000
-20-11 22:22:29 DONE 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_12_anekarthi_samshrut in 14 min → 39c32968
-20-11 22:22:56 worker 2: nothing left
-20-11 22:23:42   [rikt_sthan_vakya_kram] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q61 key b vs re-solve a, Q62 key b vs re-solve a, Q64 key b vs re-solve c, Q67 key d vs re-solve b, 
-20-11 22:23:59   [upsarg_pratyay] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 4: The sandhi rules for दु- prefix list voiceless unaspirated consonants as only 
-20-11 22:23:59   [upsarg_pratyay] review: 0 section(s) corrected, 1 failed
 20-11 22:23:59   [upsarg_pratyay] written 0, failed 1; AI calls today 29/100000
 20-11 22:23:59 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay after 16 min: todo [] problems []
 20-11 22:24:26 worker 1: nothing left
@@ -95,4 +84,16 @@
 20-11 22:52:42   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q76 key b vs re-solve d, Q77 key b vs re-solve a, Q84 key c vs re-solve b, Q87 key c vs re-solve d, 
 20-11 22:53:49   [ek_shabd] review PYQ_hi.txt round 2: 3 issue(s): - In the "उच्च-उपज शब्द समूह" table, under "स्वभाव/प्रवृत्ति", the entry "क्रोधी → क्रोधी/रोषी" incorrectly use
 20-11 22:57:06   [ek_shabd] REJECTED review fix PYQ_hi.txt: reviewer still reports - Pattern 5 caution states "विशेषण/सर्वनाम अपेक्षित होता है" but pronoun (सर्वनाम) is not a typ
+20-11 22:58:00   [vakya_shuddhi] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q96 key c vs re-solve ?)
+20-11 22:58:00   [vakya_shuddhi] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
+20-11 22:58:15   [ek_shabd] review Important_Rules_hi.txt round 1: 3 issue(s): - Rule 1 states “क्रिया-विशेषण पदबंध को एक क्रिया में बदलें” but the examples “मंथर गति से चलना” an
+20-11 23:00:09   [ek_shabd] review Important_Rules_hi.txt round 2: 5 issue(s): - नियम 1 का उदाहरण "जोर से बोलना → प्रबलवक्ता" गलत है; "प्रबलवक्ता" संज्ञा (व्यक्ति) है न कि क्रिया
+20-11 23:01:33   [ek_shabd] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम 1 का उदाहरण "जोर से बोलना → उच्चस्वरतः" गलत मैपिंग है: "जोर से बोलना" क्रिया
+20-11 23:01:33   [ek_shabd] review: 1 section(s) corrected, 4 failed
+20-11 23:01:33   [ek_shabd] written 1, failed 4; AI calls today 83/100000
+20-11 23:01:33 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd after 54 min: todo [] problems []
+20-11 23:01:34 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay (OK: todo 0, problems 0)
+20-11 23:01:34   [upsarg_pratyay] review Flashcards_hi.txt: resumed private correction draft
+20-11 23:04:02   [upsarg_pratyay] review Flashcards_hi.txt round 1: 3 issue(s): - Card 4: The example "दुहित (दुः+हित)" for the rule before ह is not a standard word; it should be remov
+20-11 23:08:54   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q82 key b vs re-solve d, Q87 key c vs re-solve d, Q88 key d vs re-solve c)
 ```
