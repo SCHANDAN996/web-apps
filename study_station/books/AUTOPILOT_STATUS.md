@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 03:19 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
+**आख़िरी update:** 20-11-2026 03:24 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,22 +8,21 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 240 मिनट |
-| W10 | Chapter 14 cyber security (12th Computer) | 📤 push हो रहा है | 0 मिनट |
-| W11 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 239 मिनट |
-| W12 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 239 मिनट |
-| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 95 मिनट |
-| W4 | Chapter 17 apathit gadyansh (10th Hindi) | 🔎 review हो रहा है | 20 मिनट |
-| W7 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 21 मिनट |
-| W8 | Chapter 13 networking (12th Computer) | 🔎 review हो रहा है | 22 मिनट |
-| W9 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 14 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 245 मिनट |
+| W11 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 244 मिनट |
+| W12 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 244 मिनट |
+| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 100 मिनट |
+| W4 | Chapter 17 apathit gadyansh (10th Hindi) | 🔎 review हो रहा है | 25 मिनट |
+| W7 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 26 मिनट |
+| W8 | Chapter 13 networking (12th Computer) | 🔎 review हो रहा है | 28 मिनट |
+| W9 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 20 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 89 |
+| key 3 | 92 |
 | key 4 | 137 |
-| key 5 | 138 |
-| key 6 | 125 |
+| key 5 | 139 |
+| key 6 | 126 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -66,12 +65,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 14:55:05   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q77 key b vs re-solve d)
-20-11 14:55:05   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
-20-11 14:56:12   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 1: rejected (Q103:duplicate_options,Q117:duplicate_options,Q120:duplicate_options)
-20-11 14:56:32   [networking] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
-20-11 14:56:32   [networking] written 25, failed 0; AI calls today 450/100000
-20-11 14:56:48   [vakya_shuddhi] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q77 key b vs re-solve ?, Q89 key b vs re-solve ?, Q90 key d vs re-solve a, Q99 key c vs re-solve ?)
 20-11 14:56:48   [vakya_shuddhi] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
 20-11 14:57:08   [e_banking] review Important_Rules_hi.txt round 2: 1 issue(s): - Rule 4 states “UPI दैनिक सीमा ₹1 लाख (NPCI, बैंक घटा सकते हैं)” → Correction: NPCI sets the UPI p
 20-11 14:57:20   [vilom] review: 1 section(s) corrected, 0 failed
@@ -106,4 +99,10 @@
 20-11 15:13:10   [apathit_gadyansh] review Feynman_hi.txt round 1: 1 issue(s): - In Question 3 explanation, it incorrectly states that option (घ) "परीक्षा परिणाम संतोषजनक है" is logicall
 20-11 15:19:09   [cyber_security] review: 4 section(s) corrected, 0 failed
 20-11 15:19:09   [cyber_security] written 4, failed 0; AI calls today 493/100000
+20-11 15:19:26 DONE 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_14_cyber_security in 240 min → c9df2e63
+20-11 15:19:26 worker 9: nothing left
+20-11 15:20:05   [upsarg_pratyay] review Flashcards_hi.txt round 2: 2 issue(s): - Card 11 front incorrectly labels "करणीय" as a suffix; the suffix is "-नीय" and "करणीय" is a word forme
+20-11 15:22:15   [anekarthi_samshrut] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q126 key b vs re-solve ?, Q146 key c vs re-solve a, Q150 key c vs re-solve d)
+20-11 15:22:30   [upsarg_pratyay] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 4: The rule for "दु-" incorrectly includes 'ह' in the list of consonants that tri
+20-11 15:22:30   [upsarg_pratyay] review Important_Rules_hi.txt: resumed private correction draft
 ```
