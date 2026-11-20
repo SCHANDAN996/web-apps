@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 11:29 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
+**आख़िरी update:** 20-11-2026 11:35 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,25 +8,25 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 10 मिनट |
-| W10 | Chapter 14 cyber security (12th Computer) | ✍️ लिख रहा है | 9 मिनट |
-| W11 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 9 मिनट |
-| W12 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 9 मिनट |
-| W2 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 10 मिनट |
-| W3 | Chapter 11 vilom (10th Hindi) | 🔎 review हो रहा है | 10 मिनट |
-| W4 | Chapter 11 email (12th Computer) | 📤 push हो रहा है | 0 मिनट |
-| W5 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 10 मिनट |
-| W6 | Chapter 12 e banking (12th Computer) | 🔧 सुधार रहा है | 2 मिनट |
-| W7 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 10 मिनट |
-| W8 | Chapter 13 networking (12th Computer) | ✍️ लिख रहा है | 10 मिनट |
-| W9 | Chapter 14 muhavare lokokti (10th Hindi) | ✍️ लिख रहा है | 9 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 16 मिनट |
+| W10 | Chapter 14 cyber security (12th Computer) | ✍️ लिख रहा है | 15 मिनट |
+| W11 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 15 मिनट |
+| W12 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 15 मिनट |
+| W2 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 16 मिनट |
+| W3 | Chapter 11 vilom (10th Hindi) | 🔎 review हो रहा है | 16 मिनट |
+| W4 | Chapter 17 apathit gadyansh (10th Hindi) | ✍️ लिख रहा है | 5 मिनट |
+| W5 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 16 मिनट |
+| W6 | Chapter 12 e banking (12th Computer) | 🔧 सुधार रहा है | 8 मिनट |
+| W7 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 16 मिनट |
+| W8 | Chapter 13 networking (12th Computer) | ✍️ लिख रहा है | 16 मिनट |
+| W9 | Chapter 14 muhavare lokokti (10th Hindi) | ✍️ लिख रहा है | 16 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 5 |
-| key 4 | 8 |
-| key 5 | 10 |
-| key 6 | 9 |
+| key 3 | 7 |
+| key 4 | 13 |
+| key 5 | 14 |
+| key 6 | 15 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -59,22 +59,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 11:19:01   [email] review PYQ_hi.txt: resumed private correction draft
-20-11 11:19:05 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_12_anekarthi_samshrut (TODO: todo 2, problems 0)
-20-11 11:19:06   [anekarthi_samshrut] Hindi-only writer: direct Hindi content; English generation and translation disabled
-20-11 11:19:10 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_12_e_banking (TODO: todo 2, problems 2)
-20-11 11:19:15 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd (TODO: todo 4, problems 0)
-20-11 11:19:16   [ek_shabd] Hindi-only writer: direct Hindi content; English generation and translation disabled
-20-11 11:19:20 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_13_networking (TODO: todo 25, problems 0)
-20-11 11:19:25 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_14_muhavare_lokokti (TODO: todo 13, problems 0)
-20-11 11:19:25   [muhavare_lokokti] Hindi-only writer: direct Hindi content; English generation and translation disabled
-20-11 11:19:30 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_14_cyber_security (TODO: todo 25, problems 0)
-20-11 11:19:35 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi (TODO: todo 13, problems 0)
-20-11 11:19:36   [vakya_shuddhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
-20-11 11:19:40 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram (TODO: todo 13, problems 0)
-20-11 11:19:41   [rikt_sthan_vakya_kram] Hindi-only writer: direct Hindi content; English generation and translation disabled
-20-11 11:19:48   [sandhi] Practice_hi_Set_01.txt try 1: rejected (Q24:leaked_reasoning,Q18:duplicate_options)
-20-11 11:20:24   [muhavare_lokokti] wrote Content_hi.txt (8013 chars)
 20-11 11:20:28   [cyber_security] wrote Content_en.txt (11166 chars)
 20-11 11:20:33   [email] review PYQ_hi.txt round 1: 1 issue(s): - PYQ-style 1 has two correct answers (Subject and Message-ID are both optional per RFC 5322) but answer key gi
 20-11 11:21:19   [muhavare_lokokti] wrote Key_Facts_hi.txt (4929 chars)
@@ -99,4 +83,20 @@
 20-11 11:29:24   [email] review: 1 section(s) corrected, 0 failed
 20-11 11:29:24   [email] written 1, failed 0; AI calls today 39/100000
 20-11 11:29:31   [vakya_shuddhi] wrote Feynman_hi.txt (6122 chars)
+20-11 11:29:41 DONE 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_11_email in 10 min → 6df74732
+20-11 11:29:42 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_17_apathit_gadyansh (TODO: todo 13, problems 0)
+20-11 11:29:42   [apathit_gadyansh] Hindi-only writer: direct Hindi content; English generation and translation disabled
+20-11 11:29:55   [vakya_shuddhi] wrote Mind_Map.txt (724 chars)
+20-11 11:30:55   [anekarthi_samshrut] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q125 key a vs re-solve b)
+20-11 11:31:11   [e_banking] repaired Content_hi.txt (8497 chars)
+20-11 11:31:34   [rikt_sthan_vakya_kram] wrote Feynman_hi.txt (5446 chars)
+20-11 11:31:54   [rikt_sthan_vakya_kram] wrote Mind_Map.txt (674 chars)
+20-11 11:31:57   [vilom] review Key_Facts_hi.txt round 2: 2 issue(s): - Point 18: The idiom “उल्टा चोर कोतवाल को डाँटे” does not contain antonyms; it is an irony idiom, not an
+20-11 11:32:38   [rikt_sthan_vakya_kram] wrote Flashcards_hi.txt (3526 chars)
+20-11 11:33:29   [apathit_gadyansh] wrote Content_hi.txt (10461 chars)
+20-11 11:33:48   [ek_shabd] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q8 key d vs re-solve b)
+20-11 11:33:52   [apathit_gadyansh] wrote Key_Facts_hi.txt (3019 chars)
+20-11 11:34:48   [rikt_sthan_vakya_kram] wrote PYQ_hi.txt (5813 chars)
+20-11 11:34:54   [apathit_gadyansh] wrote Feynman_hi.txt (3549 chars)
+20-11 11:35:17   [apathit_gadyansh] wrote Mind_Map.txt (983 chars)
 ```
