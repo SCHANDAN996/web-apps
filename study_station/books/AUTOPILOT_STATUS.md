@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 10:09 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
+**आख़िरी update:** 20-11-2026 10:22 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,19 +8,19 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 1 मिनट |
-| W2 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 1 मिनट |
-| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | 🔎 review हो रहा है | 1 मिनट |
-| W4 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 1 मिनट |
-| W5 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 1 मिनट |
-| W6 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 14 मिनट |
+| W2 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 14 मिनट |
+| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | 📤 push हो रहा है | 0 मिनट |
+| W4 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 14 मिनट |
+| W5 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 14 मिनट |
+| W6 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 13 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 3 |
-| key 4 | 2 |
-| key 5 | 2 |
-| key 6 | 1 |
+| key 3 | 7 |
+| key 4 | 4 |
+| key 5 | 6 |
+| key 6 | 8 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -48,7 +48,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 20-11 22:22 — 10th Hindi · Chapter 12 anekarthi samshrut
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
@@ -76,4 +76,18 @@
 20-11 22:09:54 worker 9: nothing left
 20-11 22:10:21 worker 10: nothing left
 20-11 22:10:47 worker 11: nothing left
+20-11 22:11:12   [upsarg_pratyay] review Flashcards_hi.txt round 1: 3 issue(s): - Card 4, rule 1: The rule claims the prefix becomes "दुः" (visarga) before all listed voiceless consona
+20-11 22:11:25   [anekarthi_samshrut] review Mind_Map.txt round 1: 3 issue(s): - D7: "माँग: इच्छा (संज्ञा) / माँगना (क्रिया मूल)" is not a valid polysemy example because माँग (noun) and मा
+20-11 22:11:36   [sandhi] Practice_hi_Set_01.txt try 2: rejected (parsed 24 questions, numbers 1…25)
+20-11 22:12:55   [sandhi] Practice_hi_Set_01.txt try 3: rejected (Q2:duplicate_options,Q14:duplicate_options,Q15:duplicate_options,Q18:duplicate_options,Q22:duplicate_options)
+20-11 22:14:20   [vakya_shuddhi] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q30 key a vs re-solve d, Q34 key d vs re-solve b, Q37 key a vs re-solve d, Q46 key c vs re-solve d, 
+20-11 22:14:31   [sandhi] Practice_hi_Set_01.txt try 4: rejected (Q15:duplicate_options)
+20-11 22:14:31   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
+20-11 22:17:09   [upsarg_pratyay] review Flashcards_hi.txt round 2: 6 issue(s): - Card 4: Rule 1 lists consonants क, ट, त, प but example 'दुस्सह' uses स, which is not in the list → Mov
+20-11 22:19:04   [anekarthi_samshrut] review Mind_Map.txt round 2: 1 issue(s): - E1 में "कर: करना (क्रिया)" गलत है → "कर" क्रिया "करना" का मूल रूप (क्रिया मूल) है, "करना" स्वयं नहीं; सही: 
+20-11 22:21:06   [ek_shabd] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q51 key b vs re-solve c, Q58 key b vs re-solve a, Q66 key c vs re-solve b, Q71 key c vs re-solve a, 
+20-11 22:21:26   [vakya_shuddhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q30 key a vs re-solve d, Q31 key c vs re-solve d, Q33 key a vs re-solve c, Q35 key a vs re-solve d, 
+20-11 22:22:01   [sandhi] Practice_hi_Set_02.txt try 1: rejected (Q27:duplicate_options,Q28:duplicate_options,Q30:duplicate_options,Q40:duplicate_options,Q42:duplicate_options)
+20-11 22:22:05   [anekarthi_samshrut] review: 2 section(s) corrected, 0 failed
+20-11 22:22:05   [anekarthi_samshrut] written 2, failed 0; AI calls today 28/100000
 ```
