@@ -76,6 +76,28 @@ def test_pool_rotates_ready_keys_and_counts_starts_without_mutating_config(tmp_p
                for p in tmp_path.iterdir())
 
 
+def test_four_key_pool_rotates_all_keys_with_shared_spacing_and_safe_counts(tmp_path, monkeypatch):
+    monkeypatch.setenv('BOOKGEN_RATE_STATE_DIR', str(tmp_path))
+    monkeypatch.setenv('NVIDIA_ACCOUNT_MIN_INTERVAL_SECONDS', '20')
+    monkeypatch.setenv('NVIDIA_MIN_INTERVAL_SECONDS', '15')
+    monkeypatch.setenv('NVIDIA_MAX_INFLIGHT_PER_KEY', '1')
+    keys = ['private-three', 'private-four', 'private-five', 'private-six']
+    configured = ','.join(keys)
+    monkeypatch.setattr(config, 'NVIDIA_API_KEY', configured)
+    now, sleeps = clock(monkeypatch)
+    selected = []
+    monkeypatch.setattr(nvidia, '_call_once', lambda *args: selected.append((args[-1], now[0])) or 'ok')
+    for _ in range(8):
+        assert nvidia.call('s', 'u') == 'ok'
+    assert selected == [(keys[index % 4], 100 + index * 20) for index in range(8)]
+    assert sleeps == [20] * 7
+    assert config.NVIDIA_API_KEY == configured
+    assert json.loads((tmp_path / 'pool.json').read_text()) == {
+        'last_index': 3, 'starts_by_index': [2, 2, 2, 2],
+    }
+    assert all(key not in path.name + path.read_text() for key in keys for path in tmp_path.iterdir())
+
+
 def test_pool_429_cooldown_is_respected_before_using_other_key(tmp_path, monkeypatch):
     monkeypatch.setenv('BOOKGEN_RATE_STATE_DIR', str(tmp_path))
     monkeypatch.setenv('NVIDIA_ACCOUNT_MIN_INTERVAL_SECONDS', '10')
@@ -305,3 +327,69 @@ with nvidia._request_slot() as key:
             if proc.poll() is None:
                 proc.kill()
                 proc.wait()
+
+
+def test_four_key_pool_has_one_parallel_response_per_key_and_fifth_waits(tmp_path, monkeypatch):
+    import os
+    import subprocess
+    import sys
+    import time
+    root = tmp_path / 'rate'
+    monkeypatch.setenv('BOOKGEN_RATE_STATE_DIR', str(root))
+    # Exercise the in-flight cap without real-time pacing; the account gate has its own clock test.
+    monkeypatch.setenv('NVIDIA_MIN_INTERVAL_SECONDS', '0')
+    monkeypatch.setenv('NVIDIA_ACCOUNT_MIN_INTERVAL_SECONDS', '0')
+    monkeypatch.setenv('NVIDIA_MAX_INFLIGHT_PER_KEY', '1')
+    monkeypatch.setenv('NVIDIA_API_KEY', 'private-three,private-four,private-five,private-six')
+    program = '''from pathlib import Path
+import sys, time
+from app import nvidia
+Path(sys.argv[1]).touch()
+with nvidia._request_slot() as key:
+    Path(sys.argv[2]).write_text(str(nvidia._configured_keys().index(key)))
+    if len(sys.argv) > 3:
+        while not Path(sys.argv[3]).exists():
+            time.sleep(0.01)
+'''
+    def wait_for(path):
+        deadline = time.monotonic() + 10
+        while not path.exists() and time.monotonic() < deadline:
+            time.sleep(0.01)
+        assert path.exists()
+    children, entered, releases = [], [], []
+    def start_child(index, hold=True):
+        started = tmp_path / f'started-{index}'
+        marker = tmp_path / f'entered-{index}'
+        release = tmp_path / f'release-{index}'
+        command = [sys.executable, '-c', program, str(started), str(marker)]
+        if hold:
+            command.append(str(release))
+        child = subprocess.Popen(command, env=os.environ.copy())
+        children.append(child)
+        entered.append(marker)
+        releases.append(release)
+        wait_for(started)
+        return child, marker
+    try:
+        for index in range(4):
+            _, marker = start_child(index)
+            wait_for(marker)
+            assert marker.read_text() == str(index)
+        assert all(child.poll() is None for child in children)  # all four keys are concurrently occupied
+        fifth, marker = start_child(4, hold=False)
+        time.sleep(0.1)
+        assert fifth.poll() is None and not marker.exists()
+        releases[1].touch()                                   # key four is the only key becoming available
+        assert children[1].wait(timeout=10) == 0
+        assert fifth.wait(timeout=10) == 0
+        assert marker.read_text() == '1'
+        assert all(children[index].poll() is None for index in (0, 2, 3))
+        assert json.loads((root / 'pool.json').read_text())['starts_by_index'] == [1, 2, 1, 1]
+        for release in releases:
+            release.touch()
+        assert all(child.wait(timeout=10) == 0 for child in children)
+    finally:
+        for child in children:
+            if child.poll() is None:
+                child.kill()
+                child.wait()

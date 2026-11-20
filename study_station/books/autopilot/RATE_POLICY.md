@@ -1,10 +1,10 @@
 # Book authoring rate policy — 17 November 2026
 
-- Six chapter workers; only keys 3 and 4. Every worker receives the full active pool.
+- Twelve chapter workers; only keys 3, 4, 5 and 6. Every worker receives the full active pool.
 - Route every request to an eligible key with a free response slot. Alternate keys when both are
   ready; a busy key must not strand a request while the other has capacity.
 - Nemotron-3 Ultra for authoring, both blind answer checks and editorial review.
-- At most one in-flight request per key, two across the configured pool.
+- At most one in-flight request per key, four across the configured pool.
 - One shared account start gate: at least twenty seconds between request starts (three starts/minute).
 - Each key also waits at least fifteen seconds between starts.
 - HTTP 429 delays future requests across the pool for at least sixty seconds or the larger bounded
