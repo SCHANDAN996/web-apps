@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 08:16 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 04:41 PM
+**आख़िरी update:** 20-11-2026 08:32 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 04:41 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 5 मिनट |
-| W7 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 214 मिनट |
+| W1 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 21 मिनट |
+| W7 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 229 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 56 |
-| key 4 | 55 |
-| key 5 | 66 |
-| key 6 | 51 |
+| key 3 | 58 |
+| key 4 | 56 |
+| key 5 | 67 |
+| key 6 | 53 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -58,9 +58,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 19:45:08 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_12_anekarthi_samshrut (OK: todo 0, problems 0)
-20-11 19:45:08   [anekarthi_samshrut] review Feynman_hi.txt: resumed private correction draft
-20-11 19:45:26   [upsarg_pratyay] review Flashcards_hi.txt round 2: 3 issue(s): - Card 4: The rule for “दु-” incorrectly lists ह (ha) among the voiced consonants that trigger the form 
 20-11 19:46:03   [anekarthi_samshrut] review Feynman_hi.txt round 1: 1 issue(s): - खंड 2 की तालिका में "करण / कारण" युग्म के लिए "वर्तनी-भेद" स्तंभ में "र / ण" लिखा है → वास्तविक वर्तनी-भे
 20-11 19:49:20   [upsarg_pratyay] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 4: Rule for "दु-" before voiceless consonants (क, ख, ट, ठ, त, थ, प, फ, श, ष, स) i
 20-11 19:49:20   [upsarg_pratyay] review: 0 section(s) corrected, 1 failed
@@ -98,4 +95,7 @@
 20-11 20:14:57   [ek_shabd] written 0, failed 1; AI calls today 228/100000
 20-11 20:14:57 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd after 22 min: todo ['Set 03 hi: todo'] problems []
 20-11 20:15:13 worker 7: nothing left
+20-11 20:17:37   [rikt_sthan_vakya_kram] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q28 key a vs re-solve c)
+20-11 20:25:09   [vakya_shuddhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q129 key d vs re-solve ?, Q134 key c vs re-solve d, Q140 key b vs re-solve ?, Q141 key b vs re-solve
+20-11 20:28:27   [rikt_sthan_vakya_kram] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q32 key c vs re-solve b)
 ```
