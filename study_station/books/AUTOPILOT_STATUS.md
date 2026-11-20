@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 09:31 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 07:28 AM
+**आख़िरी update:** 20-11-2026 09:47 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 07:28 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 123 मिनट |
-| W2 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 73 मिनट |
-| W3 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 48 मिनट |
-| W4 | Chapter 12 e banking (12th Computer) | ✍️ लिख रहा है | 53 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 139 मिनट |
+| W2 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 89 मिनट |
+| W3 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 64 मिनट |
+| W4 | Chapter 12 e banking (12th Computer) | ✍️ लिख रहा है | 68 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 67 |
-| key 4 | 86 |
+| key 3 | 76 |
+| key 4 | 89 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -55,13 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 08:44:25   [e_banking] wrote Content_en.txt (11276 chars)
-20-11 08:45:14   [e_banking] wrote Content_hi.txt (8550 chars)
-20-11 08:45:53   [e_banking] wrote Key_Facts_en.txt (6714 chars)
-20-11 08:46:13   [e_banking] wrote Key_Facts_hi.txt (3432 chars)
-20-11 08:46:36   [e_banking] wrote Feynman_en.txt (4278 chars)
-20-11 08:47:47   [ek_shabd] wrote Content_hi.txt (9566 chars)
-20-11 08:48:07   [anekarthi_samshrut] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q3 key d vs re-solve ?, Q5 key c vs re-solve a, Q7 key a vs re-solve ?, Q10 key a vs re-solve b, Q13
 20-11 08:48:13   [ek_shabd] wrote Key_Facts_hi.txt (3458 chars)
 20-11 08:49:00   [ek_shabd] wrote Feynman_hi.txt (4306 chars)
 20-11 08:49:11   [ek_shabd] wrote Mind_Map.txt (1449 chars)
@@ -95,4 +88,11 @@
 20-11 09:29:16   [e_banking] wrote Important_Rules_hi.txt (6284 chars)
 20-11 09:30:40   [sandhi] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q126 key a vs re-solve d, Q132 key d vs re-solve a, Q136 key b vs re-solve c, Q137 key d vs re-solve
 20-11 09:32:04   [e_banking] wrote Practice_en_Set_01.txt (write, 25 MCQs)
+20-11 09:34:20   [ek_shabd] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q53 key c vs re-solve a, Q60 key a vs re-solve b, Q63 key b vs re-solve d, Q65 key d vs re-solve b, 
+20-11 09:38:20   [ek_shabd] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q65 key a vs re-solve d, Q67 key c vs re-solve b, Q74 key b vs re-solve a)
+20-11 09:43:03   [sandhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q126 key d vs re-solve a, Q130 key a vs re-solve d, Q137 key c vs re-solve b, Q148 key c vs re-solve
+20-11 09:43:24   [ek_shabd] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q60 key d vs re-solve a, Q63 key c vs re-solve b, Q72 key b vs re-solve a, Q74 key c vs re-solve b)
+20-11 09:44:10   [e_banking] Practice_hi_Set_01.txt try 1: rejected (parsed 25 questions, numbers 51…75)
+20-11 09:44:54   [e_banking] Practice_hi_Set_01.txt try 2: rejected (parsed 25 questions, numbers 51…75)
+20-11 09:46:53   [e_banking] wrote Practice_hi_Set_01.txt (translate from Practice_en_Set_01.txt, 25 MCQs)
 ```
