@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 21-11-2026 05:10 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
+**आख़िरी update:** 21-11-2026 05:25 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 13 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 28 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
 | key 3 | 32 |
 | key 4 | 33 |
-| key 5 | 26 |
-| key 6 | 39 |
+| key 5 | 27 |
+| key 6 | 40 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -54,7 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-21-11 03:40:40   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
 21-11 03:41:15   [ek_shabd] review: 2 section(s) corrected, 0 failed
 21-11 03:41:15   [ek_shabd] written 2, failed 0; AI calls today 96/100000
 21-11 03:41:34 DONE 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd in 7 min → d1d0d104
@@ -94,4 +93,5 @@
 21-11 05:04:06   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
 21-11 05:04:48   [sandhi] Practice_hi_Set_02.txt try 1: rejected (Q27:duplicate_options,Q31:duplicate_options,Q35:duplicate_options,Q37:duplicate_options,Q39:duplicate_options)
 21-11 05:06:29   [sandhi] Practice_hi_Set_02.txt try 2: rejected (Q41:duplicate_options,Q43:duplicate_options,Q45:duplicate_options,Q47:duplicate_options,Q49:duplicate_options)
+21-11 05:17:15   [sandhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q26 key a vs re-solve c, Q31 key a vs re-solve d, Q36 key c vs re-solve b, Q37 key a vs re-solve c, 
 ```
