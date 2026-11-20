@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 21-11-2026 03:07 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
+**आख़िरी update:** 21-11-2026 03:23 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,16 +8,16 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 49 मिनट |
-| W3 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 48 मिनट |
-| W4 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 48 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 64 मिनट |
+| W3 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 64 मिनट |
+| W4 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 64 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 14 |
-| key 4 | 14 |
-| key 5 | 11 |
-| key 6 | 20 |
+| key 3 | 17 |
+| key 4 | 18 |
+| key 5 | 14 |
+| key 6 | 24 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -54,13 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-21-11 02:21:30 worker 10: nothing left
-21-11 02:21:43   [ek_shabd] review Content_hi.txt round 1: 2 issue(s): - Use of "एकार्थी" instead of "एकार्थी" throughout the section → replace with "एकार्थी"
-21-11 02:21:51 worker 11: nothing left
-21-11 02:21:51   [sandhi] Practice_hi_Set_01.txt try 2: rejected (Q3:duplicate_options,Q19:duplicate_options,Q22:duplicate_options,Q24:duplicate_options)
-21-11 02:22:22   [sandhi] Practice_hi_Set_01.txt try 3: rejected (Q19:duplicate_options,Q22:duplicate_options,Q24:duplicate_options)
-21-11 02:23:34   [ek_shabd] review Content_hi.txt round 2: 1 issue(s): - 'एकार्थी' (misspelling in introduction) → 'एकार्थी'
-21-11 02:25:58   [rikt_sthan_vakya_kram] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q57 key c vs re-solve a, Q59 key a vs re-solve d, Q63 key b vs re-solve c, Q64 key a vs re-solve b, 
 21-11 02:26:01   [ek_shabd] REJECTED review fix Content_hi.txt: reviewer still reports - In section "3. क्रिया/अवस्था से संबंधित", the entry "जो सोया हुआ हो — निद्रालु" is wrong;
 21-11 02:26:01   [ek_shabd] review Key_Facts_hi.txt: resumed private correction draft
 21-11 02:27:03   [vakya_shuddhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q41 key a vs re-solve b, Q50 key d vs re-solve a)
@@ -94,4 +87,11 @@
 21-11 03:03:32   [vakya_shuddhi] wrote Practice_hi_Set_04.txt (write, 25 MCQs)
 21-11 03:07:41   [sandhi] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q51 key c vs re-solve a, Q53 key c vs re-solve ?, Q54 key c vs re-solve d, Q55 key a vs re-solve b, 
 21-11 03:07:49   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q76 key d vs re-solve a, Q78 key d vs re-solve c, Q81 key c vs re-solve a, Q88 key d vs re-solve c, 
+21-11 03:09:28   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 4: rejected (parsed 24 questions, numbers 76…100)
+21-11 03:09:28   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
+21-11 03:10:25   [vakya_shuddhi] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q127 key c vs re-solve ?, Q131 key b vs re-solve ?, Q132 key a vs re-solve c, Q134 key a vs re-solve
+21-11 03:16:49   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q109 key a vs re-solve b, Q117 key c vs re-solve d, Q125 key a vs re-solve b)
+21-11 03:17:09   [sandhi] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q51 key a vs re-solve b, Q53 key d vs re-solve c, Q55 key b vs re-solve a)
+21-11 03:18:18   [vakya_shuddhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q126 key b vs re-solve ?, Q127 key c vs re-solve ?, Q131 key a vs re-solve ?, Q135 key b vs re-solve
+21-11 03:22:10   [sandhi] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q53 key b vs re-solve ?, Q61 key c vs re-solve ?)
 ```
