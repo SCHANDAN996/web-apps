@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 03:24 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
+**आख़िरी update:** 20-11-2026 03:37 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,21 +8,19 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 245 मिनट |
-| W11 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 244 मिनट |
-| W12 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 244 मिनट |
-| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 100 मिनट |
-| W4 | Chapter 17 apathit gadyansh (10th Hindi) | 🔎 review हो रहा है | 25 मिनट |
-| W7 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 26 मिनट |
-| W8 | Chapter 13 networking (12th Computer) | 🔎 review हो रहा है | 28 मिनट |
-| W9 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 20 मिनट |
+| W11 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 258 मिनट |
+| W12 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 258 मिनट |
+| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | 🔎 review हो रहा है | 1 मिनट |
+| W4 | Chapter 17 apathit gadyansh (10th Hindi) | 📤 push हो रहा है | 0 मिनट |
+| W7 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 40 मिनट |
+| W8 | Chapter 13 networking (12th Computer) | 🔎 review हो रहा है | 41 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 92 |
-| key 4 | 137 |
-| key 5 | 139 |
-| key 6 | 126 |
+| key 3 | 99 |
+| key 4 | 140 |
+| key 5 | 144 |
+| key 6 | 133 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -32,7 +30,7 @@
 
 | किताब | प्रारंभिक जाँच पास | संरचना में सुधार बाकी | लिखना बाकी |
 |---|---|---|---|
-| 10th Hindi | 12 | 0 | 5 |
+| 10th Hindi | 13 | 0 | 4 |
 | 12th Computer | 14 | 0 | 0 |
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
@@ -46,10 +44,11 @@
 | Graduation GK | 28 | 0 | 0 |
 | Graduation Reasoning | 30 | 0 | 0 |
 | Graduation English | 30 | 0 | 0 |
-| **कुल** | **322** | **0** | **5** |
+| **कुल** | **323** | **0** | **4** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 20-11 15:37 — 10th Hindi · Chapter 17 apathit gadyansh
 - 20-11 15:19 — 12th Computer · Chapter 14 cyber security
 - 20-11 14:57 — 10th Hindi · Chapter 11 vilom
 - 20-11 11:29 — 12th Computer · Chapter 11 email
@@ -57,36 +56,15 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 12 anekarthi samshrut (Hindi) — 1 बार
-- Chapter 09 upsarg pratyay (Hindi) — 2 बार
+- Chapter 09 upsarg pratyay (Hindi) — 3 बार
 - Chapter 13 ek shabd (Hindi) — 1 बार
 - Chapter 14 muhavare lokokti (Hindi) — 1 बार
 - Chapter 12 e banking (Computer) — 1 बार
+- Chapter 07 sandhi (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 14:56:48   [vakya_shuddhi] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
-20-11 14:57:08   [e_banking] review Important_Rules_hi.txt round 2: 1 issue(s): - Rule 4 states “UPI दैनिक सीमा ₹1 लाख (NPCI, बैंक घटा सकते हैं)” → Correction: NPCI sets the UPI p
-20-11 14:57:20   [vilom] review: 1 section(s) corrected, 0 failed
-20-11 14:57:20   [vilom] written 1, failed 0; AI calls today 455/100000
-20-11 14:57:36 DONE 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_11_vilom in 28 min → 1ba4dfbc
-20-11 14:57:37 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd (TODO: todo 3, problems 0)
-20-11 14:57:37   [ek_shabd] Hindi-only writer: direct Hindi content; English generation and translation disabled
-20-11 14:57:37   [sandhi] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q129 key d vs re-solve a, Q130 key a vs re-solve d, Q131 key b vs re-solve d, Q137 key c vs re-solve
-20-11 14:58:46   [apathit_gadyansh] wrote Practice_hi_Set_06.txt (write, 25 MCQs)
-20-11 14:58:46   [apathit_gadyansh] written 13, failed 0; AI calls today 457/100000
-20-11 14:59:53   [networking] review Content_en.txt round 1: 2 issue(s): - The Wi-Fi standard listing "802.11b/g/n (Wi-Fi 4) — 2.4 GHz" is wrong because 802.11n (Wi-Fi 4) supports 
-20-11 15:01:32   [apathit_gadyansh] review Content_hi.txt round 1: 2 issue(s): - गद्यांश 1 में "गंगा के प्रमुख सहायक नदियों में" → "गंगा की प्रमुख सहायक नदियों में"
-20-11 15:01:36   [ek_shabd] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q10 key c vs re-solve b, Q12 key d vs re-solve a, Q13 key d vs re-solve b, Q14 key a vs re-solve b, 
-20-11 15:02:24   [networking] review Content_en.txt round 2: 1 issue(s): - Example 6: A Layer 2 switch/bridge forwards broadcast frames to all ports, so it does forward broadcast s
-20-11 15:03:56   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q102 key c vs re-solve a, Q106 key b vs re-solve a, Q108 key b vs re-solve a, Q109 key d vs re-solve
-20-11 15:04:28   [muhavare_lokokti] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 1: "हाथ धोना" is incorrectly defined as "पूरी तरह हार जाना"; it is not a sta
-20-11 15:04:28   [muhavare_lokokti] review: 1 section(s) corrected, 3 failed
-20-11 15:04:28   [muhavare_lokokti] written 1, failed 3; AI calls today 468/100000
-20-11 15:04:28 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_14_muhavare_lokokti after 225 min: todo [] problems []
-20-11 15:04:28 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay (OK: todo 0, problems 0)
-20-11 15:04:29   [upsarg_pratyay] review Flashcards_hi.txt: resumed private correction draft
-20-11 15:05:41   [vakya_shuddhi] Practice_hi_Set_05.txt try 1: rejected (Q108:duplicate_options)
 20-11 15:07:05   [sandhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q128 key b vs re-solve d, Q141 key c vs re-solve b, Q144 key a vs re-solve b, Q145 key d vs re-solve
 20-11 15:07:10   [upsarg_pratyay] review Flashcards_hi.txt round 1: 1 issue(s): - Card 11: Example “कृ + नीय = करणीय” is incorrect → In Hindi the suffix -नीय attaches to the root “कर” 
 20-11 15:10:17   [e_banking] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम 1 का अपवाद संपर्क-रहित कार्ड लेनदेन को ऑनलाइन लेनदेन के 2FA नियम का अपवाद बत
@@ -105,4 +83,26 @@
 20-11 15:22:15   [anekarthi_samshrut] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q126 key b vs re-solve ?, Q146 key c vs re-solve a, Q150 key c vs re-solve d)
 20-11 15:22:30   [upsarg_pratyay] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 4: The rule for "दु-" incorrectly includes 'ह' in the list of consonants that tri
 20-11 15:22:30   [upsarg_pratyay] review Important_Rules_hi.txt: resumed private correction draft
+20-11 15:26:01   [vakya_shuddhi] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q102 key d vs re-solve ?, Q103 key b vs re-solve ?, Q104 key d vs re-solve ?, Q116 key d vs re-solve
+20-11 15:26:52   [ek_shabd] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q10 key d vs re-solve a, Q19 key c vs re-solve a, Q23 key a vs re-solve b, Q24 key c vs re-solve a)
+20-11 15:29:21   [apathit_gadyansh] review Important_Rules_hi.txt round 1: 2 issue(s): - Rule 9 example: "1947 में आज़ादी मिली। तत्पश्चात संविधान सभा बनी।" is historically incorrect; the
+20-11 15:29:30   [upsarg_pratyay] review Important_Rules_hi.txt round 1: 5 issue(s): - नियम ८ में "अनपढ़" को तद्भव रूप बताना गलत है → "अनपढ़" तत्सम (संस्कृत अनपठित से) है, तद्भव रूप "अ
+20-11 15:31:30   [sandhi] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q128 key d vs re-solve b, Q133 key b vs re-solve d, Q137 key a vs re-solve d, Q138 key b vs re-solve
+20-11 15:32:56   [upsarg_pratyay] review Important_Rules_hi.txt round 2: 7 issue(s): - Rule 6 gives wrong examples for क्त and क्त्वा: "किया → कृत" uses a Hindi verb form instead of th
+20-11 15:35:19   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q102 key b vs re-solve a)
+20-11 15:35:37   [upsarg_pratyay] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम ७, बिन्दु ८ में "इक/क — छोटा/तुच्छ" शीर्षक गलत है: "इक" तद्धित प्रत्यय सम्बन
+20-11 15:35:37   [upsarg_pratyay] review: 0 section(s) corrected, 2 failed
+20-11 15:35:37   [upsarg_pratyay] written 0, failed 2; AI calls today 514/100000
+20-11 15:35:37 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay after 31 min: todo [] problems []
+20-11 15:35:37 worker 8: nothing left
+20-11 15:36:03   [anekarthi_samshrut] wrote Practice_hi_Set_06.txt (write, 25 MCQs)
+20-11 15:36:03   [anekarthi_samshrut] written 2, failed 0; AI calls today 514/100000
+20-11 15:36:12   [networking] review Key_Facts_hi.txt round 1: 1 issue(s): - IPv6 में "अनिवार्य IPSec समर्थन" गलत है → IPv6 में IPSec समर्थन वैकल्पिक है (RFC 8200 के अनुसार)
+20-11 15:37:51   [sandhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q134 key c vs re-solve b)
+20-11 15:37:51   [sandhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
+20-11 15:37:51   [sandhi] written 0, failed 5; AI calls today 517/100000
+20-11 15:37:52 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi after 259 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo'] problems []
+20-11 15:37:52 worker 0: nothing left
+20-11 15:37:57   [apathit_gadyansh] review: 3 section(s) corrected, 0 failed
+20-11 15:37:57   [apathit_gadyansh] written 3, failed 0; AI calls today 517/100000
 ```
