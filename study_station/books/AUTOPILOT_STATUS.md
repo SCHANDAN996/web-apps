@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 11:58 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
+**आख़िरी update:** 21-11-2026 12:11 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,16 +8,16 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 111 मिनट |
-| W5 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 110 मिनट |
-| W6 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 110 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 123 मिनट |
+| W5 | Chapter 09 upsarg pratyay (10th Hindi) | 📤 push हो रहा है | 0 मिनट |
+| W6 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 122 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 20 |
-| key 4 | 31 |
+| key 3 | 24 |
+| key 4 | 35 |
 | key 5 | 32 |
-| key 6 | 35 |
+| key 6 | 37 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -45,30 +45,18 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 21-11 00:11 — 10th Hindi · Chapter 09 upsarg pratyay
 - 20-11 22:22 — 10th Hindi · Chapter 12 anekarthi samshrut
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 09 upsarg pratyay (Hindi) — 2 बार
 - Chapter 13 ek shabd (Hindi) — 1 बार
+- Chapter 15 vakya shuddhi (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 22:53:49   [ek_shabd] review PYQ_hi.txt round 2: 3 issue(s): - In the "उच्च-उपज शब्द समूह" table, under "स्वभाव/प्रवृत्ति", the entry "क्रोधी → क्रोधी/रोषी" incorrectly use
-20-11 22:57:06   [ek_shabd] REJECTED review fix PYQ_hi.txt: reviewer still reports - Pattern 5 caution states "विशेषण/सर्वनाम अपेक्षित होता है" but pronoun (सर्वनाम) is not a typ
-20-11 22:58:00   [vakya_shuddhi] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q96 key c vs re-solve ?)
-20-11 22:58:00   [vakya_shuddhi] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
-20-11 22:58:15   [ek_shabd] review Important_Rules_hi.txt round 1: 3 issue(s): - Rule 1 states “क्रिया-विशेषण पदबंध को एक क्रिया में बदलें” but the examples “मंथर गति से चलना” an
-20-11 23:00:09   [ek_shabd] review Important_Rules_hi.txt round 2: 5 issue(s): - नियम 1 का उदाहरण "जोर से बोलना → प्रबलवक्ता" गलत है; "प्रबलवक्ता" संज्ञा (व्यक्ति) है न कि क्रिया
-20-11 23:01:33   [ek_shabd] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम 1 का उदाहरण "जोर से बोलना → उच्चस्वरतः" गलत मैपिंग है: "जोर से बोलना" क्रिया
-20-11 23:01:33   [ek_shabd] review: 1 section(s) corrected, 4 failed
-20-11 23:01:33   [ek_shabd] written 1, failed 4; AI calls today 83/100000
-20-11 23:01:33 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd after 54 min: todo [] problems []
-20-11 23:01:34 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay (OK: todo 0, problems 0)
-20-11 23:01:34   [upsarg_pratyay] review Flashcards_hi.txt: resumed private correction draft
-20-11 23:04:02   [upsarg_pratyay] review Flashcards_hi.txt round 1: 3 issue(s): - Card 4: The example "दुहित (दुः+हित)" for the rule before ह is not a standard word; it should be remov
-20-11 23:08:54   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q82 key b vs re-solve d, Q87 key c vs re-solve d, Q88 key d vs re-solve c)
 20-11 23:13:59   [sandhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q26 key d vs re-solve c, Q28 key a vs re-solve d, Q32 key d vs re-solve a, Q35 key d vs re-solve b, 
 20-11 23:13:59   [sandhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
 20-11 23:14:11   [upsarg_pratyay] review Flashcards_hi.txt round 2: 1 issue(s): - Card 4 note lists incorrect double form 'दुष्शासन' for prefix 'दुस्' before श → correct double form is
@@ -95,4 +83,18 @@
 20-11 23:48:12   [sandhi] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q51 key a vs re-solve d, Q53 key b vs re-solve d, Q54 key c vs re-solve a, Q55 key d vs re-solve a, 
 20-11 23:54:04   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q112 key d vs re-solve b)
 20-11 23:54:04   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
+20-11 23:59:09   [vakya_shuddhi] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q138 key b vs re-solve a)
+21-11 00:00:32   [sandhi] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q51 key d vs re-solve a, Q52 key d vs re-solve b, Q53 key d vs re-solve b, Q54 key a vs re-solve c, 
+21-11 00:00:32   [sandhi] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+21-11 00:02:28   [sandhi] Practice_hi_Set_05.txt try 1: rejected (Q102:duplicate_options,Q103:duplicate_options,Q105:duplicate_options,Q107:duplicate_options,Q109:duplicate_opt
+21-11 00:04:01   [vakya_shuddhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q127 key b vs re-solve a, Q138 key b vs re-solve c, Q146 key d vs re-solve c)
+21-11 00:04:01   [vakya_shuddhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
+21-11 00:04:01   [vakya_shuddhi] written 0, failed 4; AI calls today 3/100000
+21-11 00:04:01 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi after 116 min: todo ['Set 02 hi: todo', 'Set 04 hi: todo', 'Set 05 hi: todo', 'Set 06 hi: todo'] problems []
+21-11 00:04:02 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay (OK: todo 0, problems 0)
+21-11 00:04:02   [upsarg_pratyay] review Flashcards_hi.txt: resumed private correction draft
+21-11 00:06:04   [upsarg_pratyay] review Flashcards_hi.txt round 1: 1 issue(s): - Card 11: Incorrect morphological analysis – “करनीय” is not formed by adding “-नीय” to “कर”; it derives
+21-11 00:09:03   [upsarg_pratyay] review Flashcards_hi.txt round 2: 2 issue(s): - Card 4, rule 1 (अघोष अल्पप्राण व्यंजन के पहले → "दुष्") includes the example "दुष्ट", which is a past 
+21-11 00:11:03   [upsarg_pratyay] review: 1 section(s) corrected, 0 failed
+21-11 00:11:03   [upsarg_pratyay] written 1, failed 0; AI calls today 9/100000
 ```
