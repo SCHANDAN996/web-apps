@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 21-11-2026 12:11 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
+**आख़िरी update:** 21-11-2026 12:14 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 123 मिनट |
-| W5 | Chapter 09 upsarg pratyay (10th Hindi) | 📤 push हो रहा है | 0 मिनट |
-| W6 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 122 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 126 मिनट |
+| W5 | Chapter 13 ek shabd (10th Hindi) | 🔎 review हो रहा है | 2 मिनट |
+| W6 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 125 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 24 |
-| key 4 | 35 |
+| key 3 | 26 |
+| key 4 | 36 |
 | key 5 | 32 |
 | key 6 | 37 |
 
@@ -50,18 +50,12 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 09 upsarg pratyay (Hindi) — 2 बार
 - Chapter 13 ek shabd (Hindi) — 1 बार
 - Chapter 15 vakya shuddhi (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 23:13:59   [sandhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q26 key d vs re-solve c, Q28 key a vs re-solve d, Q32 key d vs re-solve a, Q35 key d vs re-solve b, 
-20-11 23:13:59   [sandhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
-20-11 23:14:11   [upsarg_pratyay] review Flashcards_hi.txt round 2: 1 issue(s): - Card 4 note lists incorrect double form 'दुष्शासन' for prefix 'दुस्' before श → correct double form is
-20-11 23:15:01   [sandhi] Practice_hi_Set_03.txt try 1: rejected (Q52:duplicate_options,Q54:duplicate_options,Q58:duplicate_options,Q60:duplicate_options,Q62:duplicate_options)
-20-11 23:16:16   [vakya_shuddhi] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q115 key a vs re-solve ?, Q119 key a vs re-solve d, Q120 key a vs re-solve ?, Q123 key d vs re-solve
 20-11 23:17:50   [upsarg_pratyay] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 4: The sandhi rule for दु- prefix incorrectly lists voiceless unaspirated consona
 20-11 23:17:50   [upsarg_pratyay] review: 0 section(s) corrected, 1 failed
 20-11 23:17:50   [upsarg_pratyay] written 0, failed 1; AI calls today 93/100000
@@ -97,4 +91,9 @@
 21-11 00:09:03   [upsarg_pratyay] review Flashcards_hi.txt round 2: 2 issue(s): - Card 4, rule 1 (अघोष अल्पप्राण व्यंजन के पहले → "दुष्") includes the example "दुष्ट", which is a past 
 21-11 00:11:03   [upsarg_pratyay] review: 1 section(s) corrected, 0 failed
 21-11 00:11:03   [upsarg_pratyay] written 1, failed 0; AI calls today 9/100000
+21-11 00:11:28 DONE 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay in 7 min → 99c56c27
+21-11 00:11:30 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd (OK: todo 0, problems 0)
+21-11 00:11:30   [ek_shabd] review Content_hi.txt: resumed private correction draft
+21-11 00:12:22   [ek_shabd] review Content_hi.txt round 1: 1 issue(s): - स्मरण सूत्र में 'शाश्वत' का सूत्र 'शास् + त्व (तत्)' गलत है → सही सूत्र 'शास् + वत्' है।
+21-11 00:14:27   [ek_shabd] review Content_hi.txt round 2: 1 issue(s): - वर्गीकरण में 'जो चारों ओर हो' के लिए 'पर्यावरण' दिया गया है → 'पर्यावरण' संज्ञा है (अर्थ: वातावरण), विशेष
 ```
