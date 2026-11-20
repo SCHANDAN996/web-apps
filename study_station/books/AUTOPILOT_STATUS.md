@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 05:36 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
+**आख़िरी update:** 20-11-2026 05:41 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 02:02 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 08 samas (10th Hindi) | 🔎 review हो रहा है | 21 मिनट |
-| W2 | Chapter 11 email (12th Computer) | ✍️ लिख रहा है | 175 मिनट |
-| W3 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 79 मिनट |
-| W4 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 58 मिनट |
+| W1 | Chapter 08 samas (10th Hindi) | 📤 push हो रहा है | 0 मिनट |
+| W2 | Chapter 11 email (12th Computer) | ✍️ लिख रहा है | 180 मिनट |
+| W3 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 84 मिनट |
+| W4 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 64 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 134 |
-| key 4 | 98 |
+| key 3 | 139 |
+| key 4 | 103 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -44,7 +44,7 @@
 
 ## ✅ autopilot से हाल में पूरे हुए
 
-- अभी कोई नहीं
+- 20-11 05:41 — 10th Hindi · Chapter 08 samas
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
@@ -57,12 +57,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 04:44:08   [email] wrote Practice_hi_Set_03.txt (translate from Practice_en_Set_03.txt, 25 MCQs)
-20-11 04:44:23   [upsarg_pratyay] review Feynman_hi.txt round 2: 8 issue(s): - Section 2 सावधानी/note: “सु” + “न्दर” = “सुन्दर” labeled as द्वित्व → it is not द्वित्व; correct label: स
-20-11 04:44:38   [email] Practice_en_Set_04.txt try 1: rejected (Q82:answer_solution_conflict)
-20-11 04:45:05   [anekarthi_samshrut] wrote Feynman_hi.txt (6057 chars)
-20-11 04:45:17   [anekarthi_samshrut] wrote Mind_Map.txt (1341 chars)
-20-11 04:45:42   [anekarthi_samshrut] wrote Flashcards_hi.txt (2800 chars)
 20-11 04:46:38   [anekarthi_samshrut] wrote PYQ_hi.txt (5497 chars)
 20-11 04:47:11   [upsarg_pratyay] REJECTED review fix Feynman_hi.txt: reviewer still reports - In the उपसर्ग table, the example for उप- shows "चार" → "उपचार"; the root "चार" is incorre
 20-11 04:47:27   [anekarthi_samshrut] wrote Important_Rules_hi.txt (7002 chars)
@@ -97,4 +91,10 @@
 20-11 05:32:50   [upsarg_pratyay] FAILED review Flashcards_hi.txt: too_long — the chapter must not be published unreviewed; corrected draft remains unapproved
 20-11 05:34:12   [upsarg_pratyay] review PYQ_hi.txt round 1: 6 issue(s): - In Pattern B, "नीय" is incorrectly labeled as कर्तृवाचक (agentive) suffix → "नीय" is a कर्मवाचक/योग्यतावाचक (
 20-11 05:36:31   [upsarg_pratyay] review PYQ_hi.txt round 2: 1 issue(s): - Pattern ब: option (a) “ईय” is incorrect; the suffix in “पठनीय” is “नीय”, not “ईय”. The explanation correctly 
+20-11 05:38:26   [upsarg_pratyay] REJECTED review fix PYQ_hi.txt: reviewer still reports - पैटर्न ब (प्रत्यय पहचानो) के विकल्प (a) में "नीया" लिखा है → सही प्रत्यय "नीय" है (उदाहरण: पठ
+20-11 05:39:27   [samas] review Mind_Map.txt round 2: 2 issue(s): - Under षष्ठी तत्पुरुष, the example "देवदत्त" is not a genitive (षष्ठी) compound; it is an instrumental (तृती
+20-11 05:39:48   [anekarthi_samshrut] 2026-11-20 00:09:48,033 WARNING NVIDIA rate_limited — retrying in 20s
+20-11 05:40:24   [upsarg_pratyay] review Important_Rules_hi.txt round 1: 5 issue(s): - Rule 8: The rule for उपसर्ग 'अ' and 'अन' is reversed; it states 'अ' before vowel and 'अन' before 
+20-11 05:41:40   [samas] review: 2 section(s) corrected, 0 failed
+20-11 05:41:40   [samas] written 2, failed 0; AI calls today 240/100000
 ```
