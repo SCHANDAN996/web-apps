@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 21-11-2026 02:52 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
+**आख़िरी update:** 21-11-2026 03:07 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,16 +8,16 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 33 मिनट |
-| W3 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 33 मिनट |
-| W4 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 33 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 49 मिनट |
+| W3 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 48 मिनट |
+| W4 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 48 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 11 |
-| key 4 | 10 |
-| key 5 | 7 |
-| key 6 | 17 |
+| key 3 | 14 |
+| key 4 | 14 |
+| key 5 | 11 |
+| key 6 | 20 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -54,16 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-21-11 02:19:01 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram (TODO: todo 4, problems 0)
-21-11 02:19:02   [rikt_sthan_vakya_kram] Hindi-only writer: direct Hindi content; English generation and translation disabled
-21-11 02:19:26 worker 4: nothing left
-21-11 02:19:47 worker 5: nothing left
-21-11 02:19:54   [sandhi] Practice_hi_Set_01.txt try 1: rejected (parsed 24 questions, numbers 1…25)
-21-11 02:20:08 worker 6: nothing left
-21-11 02:20:16   [vakya_shuddhi] Practice_hi_Set_02.txt try 1: rejected (Q36:duplicate_options)
-21-11 02:20:28 worker 7: nothing left
-21-11 02:20:49 worker 8: nothing left
-21-11 02:21:10 worker 9: nothing left
 21-11 02:21:30 worker 10: nothing left
 21-11 02:21:43   [ek_shabd] review Content_hi.txt round 1: 2 issue(s): - Use of "एकार्थी" instead of "एकार्थी" throughout the section → replace with "एकार्थी"
 21-11 02:21:51 worker 11: nothing left
@@ -94,4 +84,14 @@
 21-11 02:44:19   [rikt_sthan_vakya_kram] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q52 key d vs re-solve a, Q58 key b vs re-solve d)
 21-11 02:46:53   [sandhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q36 key b vs re-solve c, Q39 key b vs re-solve a)
 21-11 02:48:33   [vakya_shuddhi] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q82 key a vs re-solve d, Q90 key d vs re-solve b, Q92 key d vs re-solve ?, Q95 key c vs re-solve ?, 
+21-11 02:52:54   [rikt_sthan_vakya_kram] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q75 key a vs re-solve d)
+21-11 02:52:54   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+21-11 02:56:53   [vakya_shuddhi] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q76 key b vs re-solve ?, Q77 key a vs re-solve b, Q78 key c vs re-solve ?, Q80 key c vs re-solve d, 
+21-11 02:59:31   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q76 key a vs re-solve b, Q81 key c vs re-solve a, Q90 key d vs re-solve b, Q94 key c vs re-solve b, 
+21-11 02:59:38   [sandhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q35 key a vs re-solve c, Q39 key a vs re-solve b)
+21-11 02:59:38   [sandhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
+21-11 03:03:01   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q86 key b vs re-solve a, Q88 key b vs re-solve a, Q94 key d vs re-solve b, Q98 key c vs re-solve a)
+21-11 03:03:32   [vakya_shuddhi] wrote Practice_hi_Set_04.txt (write, 25 MCQs)
+21-11 03:07:41   [sandhi] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q51 key c vs re-solve a, Q53 key c vs re-solve ?, Q54 key c vs re-solve d, Q55 key a vs re-solve b, 
+21-11 03:07:49   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q76 key d vs re-solve a, Q78 key d vs re-solve c, Q81 key c vs re-solve a, Q88 key d vs re-solve c, 
 ```
