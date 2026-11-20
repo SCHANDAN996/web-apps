@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 21-11-2026 01:00 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
+**आख़िरी update:** 21-11-2026 01:15 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 172 मिनट |
-| W5 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 22 मिनट |
+| W5 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 38 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 37 |
-| key 4 | 43 |
-| key 5 | 44 |
-| key 6 | 48 |
+| key 3 | 39 |
+| key 4 | 45 |
+| key 5 | 46 |
+| key 6 | 50 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -52,19 +51,11 @@
 - Chapter 13 ek shabd (Hindi) — 2 बार
 - Chapter 15 vakya shuddhi (Hindi) — 1 बार
 - Chapter 16 rikt sthan vakya kram (Hindi) — 1 बार
+- Chapter 07 sandhi (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-21-11 00:12:22   [ek_shabd] review Content_hi.txt round 1: 1 issue(s): - स्मरण सूत्र में 'शाश्वत' का सूत्र 'शास् + त्व (तत्)' गलत है → सही सूत्र 'शास् + वत्' है।
-21-11 00:14:27   [ek_shabd] review Content_hi.txt round 2: 1 issue(s): - वर्गीकरण में 'जो चारों ओर हो' के लिए 'पर्यावरण' दिया गया है → 'पर्यावरण' संज्ञा है (अर्थ: वातावरण), विशेष
-21-11 00:14:34   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q127 key a vs re-solve d, Q133 key d vs re-solve a, Q136 key c vs re-solve d, Q144 key c vs re-solve
-21-11 00:17:09   [sandhi] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q101 key b vs re-solve ?, Q103 key d vs re-solve b, Q104 key b vs re-solve ?, Q105 key b vs re-solve
-21-11 00:19:35   [ek_shabd] REJECTED review fix Content_hi.txt: reviewer still reports - "व्यवहारिक" (in परिचय) → "व्यावहारिक" — private draft retained
-21-11 00:19:35   [ek_shabd] review Key_Facts_hi.txt: resumed private correction draft
-21-11 00:20:32   [ek_shabd] review Key_Facts_hi.txt round 1: 1 issue(s): - Point 6: “ये एक शब्द नहीं, समानार्थी हैं” is incorrect because नित्य and सनातन are single words; the co
-21-11 00:22:19   [ek_shabd] review Key_Facts_hi.txt round 2: 2 issue(s): - शीर्षक में "तथु" गलत वर्तनी → "तथ्य"
-21-11 00:23:48   [ek_shabd] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - बिंदु 6 में दावा कि “नित्य, सनातन … ‘जो सदा विद्यमान रहे’ वाक्यांश के लिए एक-शब्द प्रति
 21-11 00:23:48   [ek_shabd] review PYQ_hi.txt: resumed private correction draft
 21-11 00:25:18   [ek_shabd] review PYQ_hi.txt round 1: 1 issue(s): - Pattern 5 caution incorrectly states "विशेषण/सर्वनाम अपेक्षित होता है" (सर्वनाम means pronoun) but the expect
 21-11 00:26:21   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q130 key d vs re-solve a)
@@ -96,4 +87,13 @@
 21-11 00:54:45   [vakya_shuddhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q47 key b vs re-solve d)
 21-11 00:54:45   [vakya_shuddhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
 21-11 01:00:32   [vakya_shuddhi] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q76 key c vs re-solve ?, Q86 key a vs re-solve ?, Q92 key a vs re-solve d, Q96 key b vs re-solve ?, 
+21-11 01:01:22   [sandhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q126 key d vs re-solve c, Q128 key c vs re-solve b, Q131 key d vs re-solve a, Q132 key a vs re-solve
+21-11 01:01:22   [sandhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
+21-11 01:01:22   [sandhi] written 0, failed 5; AI calls today 54/100000
+21-11 01:01:22 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi after 174 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo'] problems []
+21-11 01:01:48 worker 0: nothing left
+21-11 01:03:10   [vakya_shuddhi] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q82 key d vs re-solve c)
+21-11 01:06:20   [vakya_shuddhi] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q82 key b vs re-solve c)
+21-11 01:10:36   [vakya_shuddhi] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q82 key b vs re-solve d)
+21-11 01:10:36   [vakya_shuddhi] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
 ```
