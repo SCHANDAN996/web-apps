@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 21-11-2026 04:24 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
+**आख़िरी update:** 21-11-2026 04:39 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 8 मिनट |
+| W1 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 23 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 27 |
-| key 4 | 28 |
-| key 5 | 22 |
-| key 6 | 34 |
+| key 3 | 28 |
+| key 4 | 29 |
+| key 5 | 23 |
+| key 6 | 35 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -54,8 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-21-11 03:29:19   [sandhi] Practice_hi_Set_05.txt try 1: rejected (Q101:duplicate_options,Q102:duplicate_options,Q104:duplicate_options,Q106:duplicate_options,Q108:duplicate_opt
-21-11 03:30:55   [sandhi] Practice_hi_Set_05.txt try 2: rejected (Q102:duplicate_options,Q106:duplicate_options,Q108:duplicate_options,Q109:duplicate_options,Q112:duplicate_opt
 21-11 03:34:17   [vakya_shuddhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q146 key a vs re-solve d)
 21-11 03:34:17   [vakya_shuddhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
 21-11 03:34:17   [vakya_shuddhi] written 1, failed 2; AI calls today 81/100000
@@ -94,4 +92,6 @@
 21-11 04:16:14 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi (TODO: todo 2, problems 0)
 21-11 04:16:14   [vakya_shuddhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
 21-11 04:17:16   [vakya_shuddhi] Practice_hi_Set_02.txt try 1: rejected (Q39:duplicate_options)
+21-11 04:30:59   [vakya_shuddhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q27 key d vs re-solve ?, Q42 key b vs re-solve ?, Q46 key c vs re-solve d, Q48 key a vs re-solve b)
+21-11 04:39:32   [vakya_shuddhi] wrote Practice_hi_Set_02.txt (write, 25 MCQs)
 ```
