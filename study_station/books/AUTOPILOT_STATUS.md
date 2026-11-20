@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 02:54 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
+**आख़िरी update:** 20-11-2026 02:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,23 +8,23 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 215 मिनट |
-| W10 | Chapter 14 cyber security (12th Computer) | 🔎 review हो रहा है | 75 मिनट |
-| W11 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 214 मिनट |
-| W12 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 214 मिनट |
-| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 69 मिनट |
-| W4 | Chapter 17 apathit gadyansh (10th Hindi) | ✍️ लिख रहा है | 204 मिनट |
-| W6 | Chapter 12 e banking (12th Computer) | 🔎 review हो रहा है | 179 मिनट |
-| W7 | Chapter 11 vilom (10th Hindi) | 🔎 review हो रहा है | 24 मिनट |
-| W8 | Chapter 13 networking (12th Computer) | ✍️ लिख रहा है | 214 मिनट |
-| W9 | Chapter 14 muhavare lokokti (10th Hindi) | 🔎 review हो रहा है | 47 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 218 मिनट |
+| W10 | Chapter 14 cyber security (12th Computer) | 🔎 review हो रहा है | 78 मिनट |
+| W11 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 217 मिनट |
+| W12 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 217 मिनट |
+| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 73 मिनट |
+| W4 | Chapter 17 apathit gadyansh (10th Hindi) | ✍️ लिख रहा है | 207 मिनट |
+| W6 | Chapter 12 e banking (12th Computer) | 🔎 review हो रहा है | 182 मिनट |
+| W7 | Chapter 11 vilom (10th Hindi) | 📤 push हो रहा है | 0 मिनट |
+| W8 | Chapter 13 networking (12th Computer) | 🔎 review हो रहा है | 0 मिनट |
+| W9 | Chapter 14 muhavare lokokti (10th Hindi) | 🔎 review हो रहा है | 50 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
 | key 3 | 80 |
-| key 4 | 123 |
-| key 5 | 125 |
-| key 6 | 115 |
+| key 4 | 125 |
+| key 5 | 126 |
+| key 6 | 117 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -35,7 +35,7 @@
 | किताब | प्रारंभिक जाँच पास | संरचना में सुधार बाकी | लिखना बाकी |
 |---|---|---|---|
 | 10th Hindi | 11 | 0 | 6 |
-| 12th Computer | 13 | 0 | 1 |
+| 12th Computer | 14 | 0 | 0 |
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
 | 10th Maths | 22 | 0 | 0 |
@@ -48,10 +48,11 @@
 | Graduation GK | 28 | 0 | 0 |
 | Graduation Reasoning | 30 | 0 | 0 |
 | Graduation English | 30 | 0 | 0 |
-| **कुल** | **320** | **0** | **7** |
+| **कुल** | **321** | **0** | **6** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
+- 20-11 14:57 — 10th Hindi · Chapter 11 vilom
 - 20-11 11:29 — 12th Computer · Chapter 11 email
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
@@ -64,16 +65,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 14:16:33   [vakya_shuddhi] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q77 key b vs re-solve ?, Q83 key c vs re-solve ?, Q87 key c vs re-solve a, Q89 key c vs re-solve ?, 
-20-11 14:17:00   [sandhi] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q110 key d vs re-solve b, Q112 key a vs re-solve b, Q114 key b vs re-solve a, Q115 key b vs re-solve
-20-11 14:17:19   [e_banking] REJECTED review fix PYQ_en.txt: reviewer still reports - Example 2: Answer (b) ₹5,000 assumes a basic savings account; without specifying account type
-20-11 14:18:27   [networking] wrote Practice_en_Set_04.txt (write, 25 MCQs)
-20-11 14:18:33   [muhavare_lokokti] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 4: Wrong grammar rule stating muhavare mostly follow a fixed pattern of noun + pr
-20-11 14:19:40   [networking] wrote Practice_hi_Set_04.txt (translate from Practice_en_Set_04.txt, 25 MCQs)
-20-11 14:19:59   [muhavare_lokokti] review Feynman_hi.txt round 1: 1 issue(s): - In the explanation for Question 5, it states "(ग) में दोनों मुहावरे हैं" but "आम के आम गुठलियों के दाम" i
-20-11 14:22:40   [e_banking] review PYQ_hi.txt round 1: 2 issue(s): - Section 2 (जाल): "RTGS की न्यूनतम सीमा ₹1 लाख है" labeled as "(सही — RBI नियम)" → should be labeled incorrect
-20-11 14:23:38   [muhavare_lokokti] review Feynman_hi.txt round 2: 1 issue(s): - Question 5 answer key states only (क) is correct, but the explanation admits (ग) and (घ) are also correct
-20-11 14:25:18   [e_banking] review PYQ_hi.txt round 2: 2 issue(s): - Invented exam statistic: "80%+ प्रश्न इन्हीं के इर्द-गिर्द घूमते हैं" → Remove or cite a reliable source with
 20-11 14:25:24   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q77 key d vs re-solve a, Q90 key c vs re-solve b, Q92 key b vs re-solve d)
 20-11 14:25:26   [muhavare_lokokti] REJECTED review fix Feynman_hi.txt: reviewer still reports - अभ्यास प्रश्न 5 में तीन विकल्प (क, ग, घ) सही हैं (पहला मुहावरा, दूसरा लोकोक्ति) लेकिन उत्
 20-11 14:28:56   [e_banking] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 9 के "जाल" में "UPI Lite में पिन नहीं लगता" को गलत (गलत) चिह्नित किया गया है, जबकि UP
@@ -104,4 +95,14 @@
 20-11 14:51:33   [cyber_security] review Important_Rules_en.txt round 1: 1 issue(s): - Example for Secure by Default Configuration claims Windows Server 2022 enables Credential Guard b
 20-11 14:52:10   [vilom] review Mind_Map.txt round 1: 1 issue(s): - D1 under निर्माण नियम: "सुन्दर-कुरूप" is not a prefix-based antonym (उपसर्ग से) like सत्य-असत्य/योग्य-अयोग्
 20-11 14:54:01   [networking] wrote Practice_en_Set_06.txt (write, 25 MCQs)
+20-11 14:55:05   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q77 key b vs re-solve d)
+20-11 14:55:05   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
+20-11 14:56:12   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 1: rejected (Q103:duplicate_options,Q117:duplicate_options,Q120:duplicate_options)
+20-11 14:56:32   [networking] wrote Practice_hi_Set_06.txt (translate from Practice_en_Set_06.txt, 25 MCQs)
+20-11 14:56:32   [networking] written 25, failed 0; AI calls today 450/100000
+20-11 14:56:48   [vakya_shuddhi] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q77 key b vs re-solve ?, Q89 key b vs re-solve ?, Q90 key d vs re-solve a, Q99 key c vs re-solve ?)
+20-11 14:56:48   [vakya_shuddhi] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
+20-11 14:57:08   [e_banking] review Important_Rules_hi.txt round 2: 1 issue(s): - Rule 4 states “UPI दैनिक सीमा ₹1 लाख (NPCI, बैंक घटा सकते हैं)” → Correction: NPCI sets the UPI p
+20-11 14:57:20   [vilom] review: 1 section(s) corrected, 0 failed
+20-11 14:57:20   [vilom] written 1, failed 0; AI calls today 455/100000
 ```

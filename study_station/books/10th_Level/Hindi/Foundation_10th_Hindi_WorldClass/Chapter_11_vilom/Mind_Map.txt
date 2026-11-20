@@ -1,0 +1,38 @@
+```mermaid
+graph TD
+    A["विलोम शब्द (Antonyms)"] --> B["परिभाषा (Definition)"]
+    A --> C["प्रकार (Types)"]
+    A --> D["निर्माण नियम (Formation Rules)"]
+    A --> E["मुख्य उदाहरण (Key Examples)"]
+    A --> F["सामान्य गलतियाँ (Common Mistakes)"]
+    A --> G["अभ्यास रणनीति (Practice Strategy)"]
+    
+    B --> B1["अर्थ में विरोध रखने वाले शब्द (Words opposite in meaning)"]
+    B --> B2["उदाहरण: दिन-रात, सुख-दुःख (Examples: din-raat, sukh-dukh)"]
+    
+    C --> C1["संज्ञा विलोम: राजा-रंक, अमीर-गरीब, स्वामी-सेवक (Noun antonyms)"]
+    C --> C2["सर्वनाम विलोम: यह-वह, कोई-नहीं (Pronoun antonyms)"]
+    C --> C3["विशेषण विलोम: बड़ा-छोटा (Adjective antonyms)"]
+    C --> C4["क्रिया विलोम: आना-जाना (Verb antonyms)"]
+    C --> C5["अव्यय विलोम: यहाँ-वहाँ (Adverb/Indeclinable antonyms)"]
+    
+    D --> D1["उपसर्ग से: सत्य-असत्य, योग्य-अयोग्य, धर्म-अधर्म, ज्ञान-अज्ञान, आस्तिक-नास्तिक (Prefix-based)"]
+    D --> D2["सीधे विलोम: जीवित-मृत, दिन-रात, सुख-दुःख (Direct antonyms)"]
+    D --> D3["पूर्णतः भिन्न शब्द: प्रकाश-अंधकार, मित्र-शत्रु (Completely different words)"]
+    
+    E --> E1["प्रकाश-अंधकार (Light-Darkness)"]
+    E --> E2["मित्र-शत्रु (Friend-Enemy)"]
+    E --> E3["ऊँच-नीच (High-Low)"]
+    E --> E4["गरम-ठंडा (Hot-Cold)"]
+    E --> E5["जीत-हार (Victory-Defeat)"]
+    
+    F --> F1["समानार्थी को विलोम समझना (Confusing synonyms with antonyms)"]
+    F --> F2["संदर्भ बिना विलोम चुनना (Choosing antonym without context)"]
+    F --> F3["वर्तनी भेद को विलोम मानना (Treating spelling variants as antonyms)"]
+    F --> F4["एक शब्द के बहु-विलोम में भ्रम (Confusion with multiple antonyms of one word)"]
+    
+    G --> G1["दैनिक 10 जोड़े लिखें (Write 10 pairs daily)"]
+    G --> G2["वाक्य प्रयोग से जाँचें (Verify through sentence usage)"]
+    G --> G3["पिछले पेपर के प्रश्न हल करें (Solve previous paper questions)"]
+    G --> G4["समूह बनाकर दोहराएँ (Revise in groups)"]
+```
