@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 05:29 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 04:41 PM
+**आख़िरी update:** 20-11-2026 05:44 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 04:41 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,20 +8,17 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 47 मिनट |
-| W2 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 47 मिनट |
-| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | 🔎 review हो रहा है | 47 मिनट |
-| W4 | Chapter 12 e banking (12th Computer) | 🔎 review हो रहा है | 47 मिनट |
-| W5 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 46 मिनट |
-| W7 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 46 मिनट |
-| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 46 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 62 मिनट |
+| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | 🔎 review हो रहा है | 62 मिनट |
+| W7 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 62 मिनट |
+| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 61 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 21 |
-| key 4 | 24 |
-| key 5 | 24 |
-| key 6 | 21 |
+| key 3 | 27 |
+| key 4 | 27 |
+| key 5 | 34 |
+| key 6 | 23 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -51,32 +48,15 @@
 
 - 20-11 17:00 — 10th Hindi · Chapter 14 muhavare lokokti
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 13 ek shabd (Hindi) — 1 बार
+- Chapter 09 upsarg pratyay (Hindi) — 1 बार
+- Chapter 12 e banking (Computer) — 1 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 16:56:46   [ek_shabd] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q53 key c vs re-solve a, Q59 key b vs re-solve a, Q67 key d vs re-solve b, Q68 key c vs re-solve a)
-20-11 16:56:58   [upsarg_pratyay] review Flashcards_hi.txt round 2: 1 issue(s): - Card 4: Rule for 'दु-' becoming 'दुः' incorrectly includes 'ह' (which is ghosh/voiced) and omits other
-20-11 16:58:10   [muhavare_lokokti] review Feynman_hi.txt round 1: 1 issue(s): - Question 5 has three correct options (क, ग, घ) but the answer key selects only (क) with the invalid rule 
-20-11 16:59:10   [anekarthi_samshrut] review Feynman_hi.txt: resumed private correction draft
-20-11 16:59:54   [muhavare_lokokti] review Important_Rules_hi.txt: resumed private correction draft
-20-11 17:00:42   [muhavare_lokokti] review: 3 section(s) corrected, 0 failed
-20-11 17:00:42   [muhavare_lokokti] written 3, failed 0; AI calls today 46/100000
-20-11 17:00:55 DONE 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_14_muhavare_lokokti in 18 min → 7abf6736
-20-11 17:01:10 worker 5: nothing left
-20-11 17:02:01   [vakya_shuddhi] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q7 key b vs re-solve a, Q19 key b vs re-solve ?)
-20-11 17:02:32   [anekarthi_samshrut] review Feynman_hi.txt round 1: 2 issue(s): - The homophone pair बड़/वड़ with meaning वड़ (बरगद का पेड़) is not a standard Hindi homophone pair → Remov
-20-11 17:04:48   [e_banking] review Flashcards_hi.txt: resumed private correction draft
-20-11 17:05:39   [e_banking] review Flashcards_hi.txt round 1: 1 issue(s): - Card 12 states limited liability ₹5,000-25,000; correct is ₹5,000 for basic savings accounts and ₹10,0
-20-11 17:06:50   [ek_shabd] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q53 key c vs re-solve a, Q59 key d vs re-solve b, Q69 key b vs re-solve a)
-20-11 17:07:17   [anekarthi_samshrut] review Feynman_hi.txt round 2: 1 issue(s): - The pair "बड़ / वट" is incorrectly classified as समश्रुत भिन्नार्थक (homophones) in Section 2 table, Flas
-20-11 17:09:28   [anekarthi_samshrut] REJECTED review fix Feynman_hi.txt: reviewer still reports - The homophone pair "करण/कारण" is incorrectly classified as समश्रुत भिन्नार्थक; in standar
-20-11 17:09:28   [anekarthi_samshrut] review Mind_Map.txt: resumed private correction draft
-20-11 17:10:33   [anekarthi_samshrut] review Mind_Map.txt round 1: 4 issue(s): - D5: "फल: परिणाम / फलन" → "फलन" is not a meaning of "फल"; it is a separate word (function). Correct to "फल: 
-20-11 17:11:18   [rikt_sthan_vakya_kram] wrote Practice_hi_Set_01.txt (write, 25 MCQs)
-20-11 17:12:25   [e_banking] review PYQ_en.txt: resumed private correction draft
-20-11 17:12:49   [anekarthi_samshrut] review Mind_Map.txt round 2: 2 issue(s): - D7: "माँग: इच्छा / मांगना (क्रिया)" uses the infinitive "मांगना" instead of the verb root "माँग" → should b
-20-11 17:13:19   [sandhi] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q6 key b vs re-solve ?, Q12 key d vs re-solve ?, Q23 key a vs re-solve c)
-20-11 17:13:19   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
 20-11 17:15:04   [e_banking] review PYQ_en.txt round 1: 2 issue(s): - In "Question Types Asked", the bullet "Limit/ceiling questions" uses "current NPCI guidelines" without a year
 20-11 17:16:07   [upsarg_pratyay] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 14: The example “पा + तृ = पातृ (संस्कृत) / पिता (हिंदी)” is incorrect; “पिता” de
 20-11 17:16:07   [upsarg_pratyay] review Important_Rules_hi.txt: resumed private correction draft
@@ -94,4 +74,27 @@
 20-11 17:26:36   [e_banking] review Important_Rules_hi.txt: resumed private correction draft
 20-11 17:28:25   [ek_shabd] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q53 key c vs re-solve a, Q59 key d vs re-solve b, Q69 key b vs re-solve a)
 20-11 17:28:25   [ek_shabd] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+20-11 17:29:58   [e_banking] review Important_Rules_hi.txt round 1: 5 issue(s): - नियम 3 में USSD *99# सेवा का पिन "फोन के डायलर में दर्ज होता है" गलत है → पिन USSD मेनू/स्क्रीन प
+20-11 17:31:18   [anekarthi_samshrut] review PYQ_hi.txt round 1: 2 issue(s): - उप-विषय "तत्सम-तद्भव समश्रुत" गलत है क्योंकि तत्सम-तद्भव युग्म (जैसे कर्म/काम, धर्म/धरम) समश्रुत (होमोफोन) नह
+20-11 17:32:20   [e_banking] review Important_Rules_hi.txt round 2: 1 issue(s): - Rule 14 exception incorrectly states “RBI हर लेनदेन के लिए SMS अलर्ट अनिवार्य करता है” → RBI mand
+20-11 17:35:00   [anekarthi_samshrut] review PYQ_hi.txt round 2: 2 issue(s): - In section 1.4, the first error-spotting example "वह दुध पीता है" uses a spelling mistake ('दुध' for 'दूध') i
+20-11 17:35:22   [ek_shabd] wrote Practice_hi_Set_06.txt (write, 25 MCQs)
+20-11 17:35:22   [ek_shabd] written 2, failed 1; AI calls today 101/100000
+20-11 17:35:22 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd after 53 min: todo ['Set 03 hi: todo'] problems []
+20-11 17:35:37 worker 4: nothing left
+20-11 17:38:05   [sandhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q26 key a vs re-solve c, Q29 key c vs re-solve d, Q31 key c vs re-solve b, Q32 key d vs re-solve c, 
+20-11 17:38:30   [anekarthi_samshrut] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 2 table, 'तत्सम-तद्भव युग्म' column lists incorrect pairs 'शत्रु/सत्रु', 'विद्या/बिद्
+20-11 17:38:30   [anekarthi_samshrut] review Important_Rules_hi.txt: resumed private correction draft
+20-11 17:39:03   [upsarg_pratyay] review: 1 section(s) corrected, 1 failed
+20-11 17:39:03   [upsarg_pratyay] written 1, failed 1; AI calls today 105/100000
+20-11 17:39:03 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay after 57 min: todo [] problems []
+20-11 17:39:12   [e_banking] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नए UPI उपयोगकर्ता के लिए पहले 24 घंटे में ₹5,000 प्रति लेनदेन की प्रारंभिक सीमा क
+20-11 17:39:17 worker 1: nothing left
+20-11 17:39:17   [e_banking] review: 4 section(s) corrected, 1 failed
+20-11 17:39:17   [e_banking] written 4, failed 1; AI calls today 105/100000
+20-11 17:39:17 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_12_e_banking after 57 min: todo [] problems []
+20-11 17:39:31 worker 3: nothing left
+20-11 17:39:32   [vakya_shuddhi] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q27 key b vs re-solve c, Q30 key a vs re-solve d, Q37 key c vs re-solve d, Q40 key b vs re-solve d, 
+20-11 17:42:02   [anekarthi_samshrut] review Important_Rules_hi.txt round 1: 3 issue(s): - नियम १ में "मुख" का अर्थ "मुख्य/प्रधान" बताया गया है → "मुख" का अर्थ केवल 'मुँह/चेहरा' होता है; "
+20-11 17:43:54   [rikt_sthan_vakya_kram] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q28 key d vs re-solve b, Q42 key a vs re-solve c, Q43 key c vs re-solve a, Q48 key a vs re-solve b, 
 ```
