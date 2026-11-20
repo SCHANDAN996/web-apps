@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 09:16 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 07:28 AM
+**आख़िरी update:** 20-11-2026 09:31 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 07:28 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 108 मिनट |
-| W2 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 58 मिनट |
-| W3 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 33 मिनट |
-| W4 | Chapter 12 e banking (12th Computer) | ✍️ लिख रहा है | 38 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 123 मिनट |
+| W2 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 73 मिनट |
+| W3 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 48 मिनट |
+| W4 | Chapter 12 e banking (12th Computer) | ✍️ लिख रहा है | 53 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 60 |
-| key 4 | 74 |
+| key 3 | 67 |
+| key 4 | 86 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -55,20 +55,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 08:36:48   [vilom] review Important_Rules_hi.txt round 2: 6 issue(s): - Rule 2: Example “पवित्र → अनपवित्र” uses an incorrect prefix; the standard opposite is “अपवित्र”.
-20-11 08:38:26   [vilom] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम २ की उपसर्ग सूची में “अनु‑” को नकारात्मक उपसर्ग बताया गया है → “अनु‑” नकारात
-20-11 08:38:26   [vilom] review: 2 section(s) corrected, 3 failed
-20-11 08:38:26   [vilom] written 2, failed 3; AI calls today 90/100000
-20-11 08:38:27 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_11_vilom after 70 min: todo [] problems []
-20-11 08:38:28 START 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_12_e_banking (TODO: todo 25, problems 0)
-20-11 08:40:11   [email] REJECTED review fix PYQ_hi.txt: reviewer still reports - PYQ-style 1: Answer (c) Subject is given as the only non-mandatory header, but Message-ID is 
-20-11 08:40:35   [email] review Important_Rules_en.txt round 1: 2 issue(s): - Rule 8 presents “Government/PSU norms: 24 hours for external, 4 hours for internal urgent” as a u
-20-11 08:43:02   [email] review: 4 section(s) corrected, 1 failed
-20-11 08:43:02   [email] written 4, failed 1; AI calls today 96/100000
-20-11 08:43:02 NOT OK 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_11_email after 39 min: todo [] problems []
-20-11 08:43:03 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd (TODO: todo 13, problems 0)
-20-11 08:43:04   [ek_shabd] Hindi-only writer: direct Hindi content; English generation and translation disabled
-20-11 08:43:16   [sandhi] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q51 key d vs re-solve b, Q53 key a vs re-solve b, Q54 key a vs re-solve b, Q55 key b vs re-solve ?, 
 20-11 08:44:25   [e_banking] wrote Content_en.txt (11276 chars)
 20-11 08:45:14   [e_banking] wrote Content_hi.txt (8550 chars)
 20-11 08:45:53   [e_banking] wrote Key_Facts_en.txt (6714 chars)
@@ -95,4 +81,18 @@
 20-11 09:13:19   [anekarthi_samshrut] wrote Practice_hi_Set_01.txt (write, 25 MCQs)
 20-11 09:13:48   [sandhi] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q112 key b vs re-solve d, Q113 key c vs re-solve ?, Q115 key c vs re-solve d)
 20-11 09:15:15   [ek_shabd] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q13 key d vs re-solve b)
+20-11 09:17:07   [ek_shabd] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q15 key c vs re-solve b, Q24 key b vs re-solve c)
+20-11 09:19:01   [ek_shabd] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q15 key a vs re-solve b, Q24 key a vs re-solve c)
+20-11 09:19:01   [ek_shabd] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
+20-11 09:22:21   [ek_shabd] Practice_hi_Set_02.txt try 1: re-solve disagrees (Q37 key b vs re-solve c, Q47 key d vs re-solve b)
+20-11 09:23:34   [sandhi] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q112 key d vs re-solve b, Q113 key c vs re-solve ?, Q115 key c vs re-solve d, Q117 key d vs re-solve
+20-11 09:23:34   [sandhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
+20-11 09:23:59   [e_banking] wrote Flashcards_hi.txt (4384 chars)
+20-11 09:24:34   [e_banking] wrote PYQ_en.txt (5893 chars)
+20-11 09:26:01   [e_banking] wrote PYQ_hi.txt (12842 chars)
+20-11 09:26:06   [ek_shabd] wrote Practice_hi_Set_02.txt (write, 25 MCQs)
+20-11 09:26:29   [e_banking] wrote Important_Rules_en.txt (5469 chars)
+20-11 09:29:16   [e_banking] wrote Important_Rules_hi.txt (6284 chars)
+20-11 09:30:40   [sandhi] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q126 key a vs re-solve d, Q132 key d vs re-solve a, Q136 key b vs re-solve c, Q137 key d vs re-solve
+20-11 09:32:04   [e_banking] wrote Practice_en_Set_01.txt (write, 25 MCQs)
 ```
