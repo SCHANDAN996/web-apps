@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 20-11-2026 02:57 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
+**आख़िरी update:** 20-11-2026 03:09 PM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 11:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,23 +8,23 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 218 मिनट |
-| W10 | Chapter 14 cyber security (12th Computer) | 🔎 review हो रहा है | 78 मिनट |
-| W11 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 217 मिनट |
-| W12 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 217 मिनट |
-| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 73 मिनट |
-| W4 | Chapter 17 apathit gadyansh (10th Hindi) | ✍️ लिख रहा है | 207 मिनट |
-| W6 | Chapter 12 e banking (12th Computer) | 🔎 review हो रहा है | 182 मिनट |
-| W7 | Chapter 11 vilom (10th Hindi) | 📤 push हो रहा है | 0 मिनट |
-| W8 | Chapter 13 networking (12th Computer) | 🔎 review हो रहा है | 0 मिनट |
-| W9 | Chapter 14 muhavare lokokti (10th Hindi) | 🔎 review हो रहा है | 50 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 230 मिनट |
+| W10 | Chapter 14 cyber security (12th Computer) | 🔎 review हो रहा है | 90 मिनट |
+| W11 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 229 मिनट |
+| W12 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 229 मिनट |
+| W3 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 85 मिनट |
+| W4 | Chapter 17 apathit gadyansh (10th Hindi) | 🔎 review हो रहा है | 10 मिनट |
+| W6 | Chapter 12 e banking (12th Computer) | 🔎 review हो रहा है | 194 मिनट |
+| W7 | Chapter 13 ek shabd (10th Hindi) | ✍️ लिख रहा है | 11 मिनट |
+| W8 | Chapter 13 networking (12th Computer) | 🔎 review हो रहा है | 12 मिनट |
+| W9 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 4 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 80 |
-| key 4 | 125 |
-| key 5 | 126 |
-| key 6 | 117 |
+| key 3 | 84 |
+| key 4 | 134 |
+| key 5 | 131 |
+| key 6 | 122 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -34,7 +34,7 @@
 
 | किताब | प्रारंभिक जाँच पास | संरचना में सुधार बाकी | लिखना बाकी |
 |---|---|---|---|
-| 10th Hindi | 11 | 0 | 6 |
+| 10th Hindi | 12 | 0 | 5 |
 | 12th Computer | 14 | 0 | 0 |
 | 10th GK | 19 | 0 | 0 |
 | 10th Reasoning | 22 | 0 | 0 |
@@ -48,7 +48,7 @@
 | Graduation GK | 28 | 0 | 0 |
 | Graduation Reasoning | 30 | 0 | 0 |
 | Graduation English | 30 | 0 | 0 |
-| **कुल** | **321** | **0** | **6** |
+| **कुल** | **322** | **0** | **5** |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -60,31 +60,11 @@
 - Chapter 12 anekarthi samshrut (Hindi) — 1 बार
 - Chapter 09 upsarg pratyay (Hindi) — 2 बार
 - Chapter 13 ek shabd (Hindi) — 1 बार
-- Chapter 11 vilom (Hindi) — 1 बार
+- Chapter 14 muhavare lokokti (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 14:25:24   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q77 key d vs re-solve a, Q90 key c vs re-solve b, Q92 key b vs re-solve d)
-20-11 14:25:26   [muhavare_lokokti] REJECTED review fix Feynman_hi.txt: reviewer still reports - अभ्यास प्रश्न 5 में तीन विकल्प (क, ग, घ) सही हैं (पहला मुहावरा, दूसरा लोकोक्ति) लेकिन उत्
-20-11 14:28:56   [e_banking] REJECTED review fix PYQ_hi.txt: reviewer still reports - Section 9 के "जाल" में "UPI Lite में पिन नहीं लगता" को गलत (गलत) चिह्नित किया गया है, जबकि UP
-20-11 14:29:06   [upsarg_pratyay] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 12: "ईमानदारी" listed as an example of suffix "ता" is incorrect; "ईमानदारी" 
-20-11 14:29:06   [upsarg_pratyay] review: 1 section(s) corrected, 2 failed
-20-11 14:29:06   [upsarg_pratyay] written 1, failed 2; AI calls today 398/100000
-20-11 14:29:07 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay after 66 min: todo [] problems []
-20-11 14:29:07 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_11_vilom (OK: todo 0, problems 0)
-20-11 14:29:08   [vilom] review Mind_Map.txt: resumed private correction draft
-20-11 14:29:49   [e_banking] review Important_Rules_en.txt round 1: 2 issue(s): - Rule 1 exception misstates the 2FA exemption for contactless payments → Contactless card payments
-20-11 14:30:47   [vakya_shuddhi] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q90 key c vs re-solve a, Q95 key b vs re-solve d)
-20-11 14:31:34   [e_banking] review Important_Rules_en.txt round 2: 1 issue(s): - Point 9: liability range ₹5,000–₹25,000 for reporting after 3 days but within 7 days is incorrect
-20-11 14:33:15   [networking] Practice_en_Set_05.txt try 1: re-solve disagrees (Q108 key b vs re-solve ?, Q114 key b vs re-solve ?)
-20-11 14:33:32   [muhavare_lokokti] review PYQ_hi.txt round 1: 1 issue(s): - The fill-in-the-blank example "हाथ ______ नहीं आना" with answer "लगना" is incorrect; "हाथ लगना नहीं आना" is n
-20-11 14:34:36   [cyber_security] review PYQ_hi.txt round 1: 1 issue(s): - In the "संक्षिप्तीकरण भ्रम" trap table, the pair "MITM बनाम MIM" is incorrect because MIM is not a standard d
-20-11 14:37:41   [muhavare_lokokti] review PYQ_hi.txt round 2: 1 issue(s): - 'नमकहराम' is a single word (meaning ungrateful), not a मुहावरा (idiom), yet it is listed as an example under 
-20-11 14:38:54   [networking] wrote Practice_en_Set_05.txt (write, 25 MCQs)
-20-11 14:40:34   [apathit_gadyansh] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q137 key d vs re-solve c, Q139 key b vs re-solve ?, Q147 key b vs re-solve ?, Q149 key a vs re-solve
-20-11 14:40:37   [anekarthi_samshrut] wrote Practice_hi_Set_05.txt (write, 25 MCQs)
-20-11 14:40:50   [networking] wrote Practice_hi_Set_05.txt (translate from Practice_en_Set_05.txt, 25 MCQs)
 20-11 14:45:15   [muhavare_lokokti] review Important_Rules_hi.txt round 1: 2 issue(s): - Rule 3: "कान भरना" incorrectly labeled as (क्रिया + संज्ञा) → it is (संज्ञा + क्रिया) because "का
 20-11 14:46:42   [sandhi] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q105 key b vs re-solve a, Q109 key a vs re-solve c, Q110 key c vs re-solve d, Q112 key d vs re-solve
 20-11 14:46:42   [sandhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
@@ -105,4 +85,24 @@
 20-11 14:57:08   [e_banking] review Important_Rules_hi.txt round 2: 1 issue(s): - Rule 4 states “UPI दैनिक सीमा ₹1 लाख (NPCI, बैंक घटा सकते हैं)” → Correction: NPCI sets the UPI p
 20-11 14:57:20   [vilom] review: 1 section(s) corrected, 0 failed
 20-11 14:57:20   [vilom] written 1, failed 0; AI calls today 455/100000
+20-11 14:57:36 DONE 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_11_vilom in 28 min → 1ba4dfbc
+20-11 14:57:37 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd (TODO: todo 3, problems 0)
+20-11 14:57:37   [ek_shabd] Hindi-only writer: direct Hindi content; English generation and translation disabled
+20-11 14:57:37   [sandhi] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q129 key d vs re-solve a, Q130 key a vs re-solve d, Q131 key b vs re-solve d, Q137 key c vs re-solve
+20-11 14:58:46   [apathit_gadyansh] wrote Practice_hi_Set_06.txt (write, 25 MCQs)
+20-11 14:58:46   [apathit_gadyansh] written 13, failed 0; AI calls today 457/100000
+20-11 14:59:53   [networking] review Content_en.txt round 1: 2 issue(s): - The Wi-Fi standard listing "802.11b/g/n (Wi-Fi 4) — 2.4 GHz" is wrong because 802.11n (Wi-Fi 4) supports 
+20-11 15:01:32   [apathit_gadyansh] review Content_hi.txt round 1: 2 issue(s): - गद्यांश 1 में "गंगा के प्रमुख सहायक नदियों में" → "गंगा की प्रमुख सहायक नदियों में"
+20-11 15:01:36   [ek_shabd] Practice_hi_Set_01.txt try 1: re-solve disagrees (Q10 key c vs re-solve b, Q12 key d vs re-solve a, Q13 key d vs re-solve b, Q14 key a vs re-solve b, 
+20-11 15:02:24   [networking] review Content_en.txt round 2: 1 issue(s): - Example 6: A Layer 2 switch/bridge forwards broadcast frames to all ports, so it does forward broadcast s
+20-11 15:03:56   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q102 key c vs re-solve a, Q106 key b vs re-solve a, Q108 key b vs re-solve a, Q109 key d vs re-solve
+20-11 15:04:28   [muhavare_lokokti] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - Rule 1: "हाथ धोना" is incorrectly defined as "पूरी तरह हार जाना"; it is not a sta
+20-11 15:04:28   [muhavare_lokokti] review: 1 section(s) corrected, 3 failed
+20-11 15:04:28   [muhavare_lokokti] written 1, failed 3; AI calls today 468/100000
+20-11 15:04:28 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_14_muhavare_lokokti after 225 min: todo [] problems []
+20-11 15:04:28 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay (OK: todo 0, problems 0)
+20-11 15:04:29   [upsarg_pratyay] review Flashcards_hi.txt: resumed private correction draft
+20-11 15:05:41   [vakya_shuddhi] Practice_hi_Set_05.txt try 1: rejected (Q108:duplicate_options)
+20-11 15:07:05   [sandhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q128 key b vs re-solve d, Q141 key c vs re-solve b, Q144 key a vs re-solve b, Q145 key d vs re-solve
+20-11 15:07:10   [upsarg_pratyay] review Flashcards_hi.txt round 1: 1 issue(s): - Card 11: Example “कृ + नीय = करणीय” is incorrect → In Hindi the suffix -नीय attaches to the root “कर” 
 ```
