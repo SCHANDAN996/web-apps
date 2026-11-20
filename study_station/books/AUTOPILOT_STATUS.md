@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (four-chapters)
 
-**आख़िरी update:** 20-11-2026 08:14 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 07:28 AM
+**आख़िरी update:** 20-11-2026 08:30 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 07:28 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 46 मिनट |
-| W2 | Chapter 09 upsarg pratyay (10th Hindi) | 🔎 review हो रहा है | 46 मिनट |
-| W3 | Chapter 11 email (12th Computer) | 🔎 review हो रहा है | 11 मिनट |
-| W4 | Chapter 11 vilom (10th Hindi) | 🔎 review हो रहा है | 46 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 62 मिनट |
+| W2 | Chapter 12 anekarthi samshrut (10th Hindi) | ✍️ लिख रहा है | 12 मिनट |
+| W3 | Chapter 11 email (12th Computer) | 🔎 review हो रहा है | 26 मिनट |
+| W4 | Chapter 11 vilom (10th Hindi) | 🔎 review हो रहा है | 62 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 27 |
-| key 4 | 31 |
+| key 3 | 32 |
+| key 4 | 50 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -46,26 +46,13 @@
 
 - 20-11 08:03 — 10th Hindi · Chapter 10 paryayvachi
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 09 upsarg pratyay (Hindi) — 1 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-20-11 07:31:14   [upsarg_pratyay] review Content_hi.txt round 1: 2 issue(s): - In the कृदंत प्रत्यय table, the row for suffix **"-त्व / -त"** lists **"सत्य"** as an example for **"-त"*
-20-11 07:34:03   [upsarg_pratyay] review Content_hi.txt round 2: 2 issue(s): - In the कृदंत प्रत्यय table (section 3.2 क), the row for “-त्व / -त” is incorrectly classified as a कृदंत 
-20-11 07:36:31   [paryayvachi] review Important_Rules_hi.txt round 1: 4 issue(s): - नियम २ के उदाहरण में "बालक" दो बार लिखा गया है → तीसरे स्थान पर "बालक" के स्थान पर भिन्न रूप जैसे
-20-11 07:38:19   [upsarg_pratyay] REJECTED review fix Content_hi.txt: reviewer still reports - The स्त्रीलिंग प्रत्यय table lists suffix '-त्री' with example 'गायक → गायिका', but '-त्र
-20-11 07:38:19   [upsarg_pratyay] review Key_Facts_hi.txt: resumed private correction draft
-20-11 07:38:29   [sandhi] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q4 key d vs re-solve b, Q6 key a vs re-solve d, Q7 key b vs re-solve c, Q8 key a vs re-solve c, Q9 k
-20-11 07:39:53   [vilom] review Content_hi.txt round 1: 1 issue(s): - Common Errors, Error 2 incorrectly states that 'कुरूप' is a masculine adjective with feminine form 'कुरूप
-20-11 07:40:03   [upsarg_pratyay] review Key_Facts_hi.txt round 1: 3 issue(s): - Point 6: Example "लिख" + "न" = "लिखना" does not show a part-of-speech change (it remains a verb) → Repl
-20-11 07:42:35   [upsarg_pratyay] review Key_Facts_hi.txt round 2: 3 issue(s): - Point 20: Example “पा + न = पाना” is wrong; the infinitive suffix is “ना”, not “न”. → Correct: “पा + ना
-20-11 07:44:00   [upsarg_pratyay] review Feynman_hi.txt: resumed private correction draft
-20-11 07:45:22   [sandhi] Practice_hi_Set_01.txt try 4: rejected (Q1:duplicate_options)
-20-11 07:45:22   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
-20-11 07:45:52   [upsarg_pratyay] review Feynman_hi.txt round 1: 3 issue(s): - Section 2 table (उपसर्ग "उप-"): example "चार" → "उपचार" uses wrong root "चार" (which means four); the roo
-20-11 07:46:26   [sandhi] Practice_hi_Set_02.txt try 1: rejected (Q44:duplicate_options)
-20-11 07:49:19   [upsarg_pratyay] review Feynman_hi.txt round 2: 3 issue(s): - अनुचित का विच्छेद गलत (उदाहरण 1 और फ्लैशकार्ड 11): 'अनु + चित (चि+त)' दिया गया है → सही विच्छेद: 'अनु + उ
-20-11 07:51:19   [upsarg_pratyay] review Flashcards_hi.txt: resumed private correction draft
-20-11 07:53:02   [upsarg_pratyay] review Flashcards_hi.txt round 1: 1 issue(s): - Card 18: The sandhi explanation for “दुर्नीति” incorrectly claims the prefix becomes “दुर्”; actually 
 20-11 07:54:53   [upsarg_pratyay] review Flashcards_hi.txt round 2: 4 issue(s): - Card 4: The example “दु+” + “कर्म” = “दुष्कर्म” is wrong; the prefix “दु-” becomes “दुः” before क, so 
 20-11 07:56:51   [upsarg_pratyay] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 4: "दु-" उपसर्ग के नियम में त्रुटि → लिखा है "क, ख, ग, घ, ङ के पहले विसर्ग हो जात
 20-11 07:56:51   [upsarg_pratyay] review PYQ_hi.txt: resumed private correction draft
@@ -89,4 +76,21 @@
 20-11 08:13:09   [vilom] REJECTED review fix Key_Facts_hi.txt: reviewer still reports - Point 7: The rule for ‘अन–’ says it attaches only to words beginning with vowels or य, 
 20-11 08:13:09   [vilom] review Mind_Map.txt: resumed private correction draft
 20-11 08:15:04   [upsarg_pratyay] review Important_Rules_hi.txt round 2: 5 issue(s): - Rule 1: The claimed tadbhav forms “प्रति → पिर” and “उप → उब” are incorrect; these prefixes do no
+20-11 08:17:57   [upsarg_pratyay] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम ७, बिंदु ८ में "इक/क — छोटा/तुच्छ" गलत है; "इक" सम्बन्धवाचक है, केवल "क" लघु
+20-11 08:17:57   [upsarg_pratyay] review: 3 section(s) corrected, 3 failed
+20-11 08:17:57   [upsarg_pratyay] written 3, failed 3; AI calls today 61/100000
+20-11 08:17:57 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay after 50 min: todo [] problems []
+20-11 08:17:58 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_12_anekarthi_samshrut (TODO: todo 4, problems 0)
+20-11 08:17:58   [anekarthi_samshrut] Hindi-only writer: direct Hindi content; English generation and translation disabled
+20-11 08:18:49   [vilom] review Mind_Map.txt round 1: 1 issue(s): - D1 lists "सुन्दर-कुरूप (कु- उपसर्ग)" as a prefix-based antonym pair, but "सुन्दर" (सु+न्दर) and "कुरूप" (कु
+20-11 08:19:17   [vilom] 2026-11-20 02:49:17,276 WARNING NVIDIA rate_limited — retrying in 20s
+20-11 08:22:49   [email] review PYQ_en.txt round 1: 1 issue(s): - Example 9 explanation states port 465 is 'now deprecated' → Port 465 is not deprecated; it is the IANA-regist
+20-11 08:25:13   [sandhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q26 key d vs re-solve b, Q28 key d vs re-solve b, Q30 key b vs re-solve ?, Q31 key b vs re-solve a, 
+20-11 08:25:13   [sandhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
+20-11 08:25:13   [email] review PYQ_hi.txt round 1: 2 issue(s): - PYQ-style 1 explanation states Message-ID is mandatory per RFC 5322 → RFC 5322 requires only From and Date; M
+20-11 08:25:40   [vilom] review Mind_Map.txt round 2: 1 issue(s): - D1 में "सुन्दर-असुन्दर" उपसर्ग-आधारित विलोम के रूप में गलत है → "सुन्दर" का मानक विलोम "कुरूप" या "बदसूरत" 
+20-11 08:26:00   [sandhi] Practice_hi_Set_03.txt try 1: rejected (Q52:duplicate_options,Q59:duplicate_options,Q68:duplicate_options,Q70:duplicate_options,Q72:duplicate_options)
+20-11 08:27:01   [vilom] REJECTED review fix Mind_Map.txt: reviewer still reports - D1 में "सुन्दर-कुरूप" को उपसर्ग-निर्मित विलोम बताया गया है, जबकि "कुरूप" "सुन्दर" में उपसर्
+20-11 08:27:53   [vilom] 2026-11-20 02:57:53,692 WARNING NVIDIA rate_limited — retrying in 20s
+20-11 08:28:58   [email] review PYQ_hi.txt round 2: 1 issue(s): - "लोकल-पार्ट तकनीकी रूप से केस-सेंसिटिव हो सकता है (RFC 5321)" in the common mistakes section is inaccurate; R
 ```
