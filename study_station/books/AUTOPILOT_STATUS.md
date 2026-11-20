@@ -1,21 +1,19 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 21-11-2026 02:01 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
+**आख़िरी update:** 21-11-2026 02:17 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 20-11 10:07 PM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W5 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 84 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
 | key 3 | 42 |
 | key 4 | 48 |
-| key 5 | 48 |
-| key 6 | 53 |
+| key 5 | 49 |
+| key 6 | 54 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -49,19 +47,13 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 13 ek shabd (Hindi) — 2 बार
-- Chapter 15 vakya shuddhi (Hindi) — 1 बार
+- Chapter 15 vakya shuddhi (Hindi) — 2 बार
 - Chapter 16 rikt sthan vakya kram (Hindi) — 1 बार
 - Chapter 07 sandhi (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-21-11 00:29:04   [sandhi] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q102 key d vs re-solve b, Q103 key b vs re-solve a, Q107 key b vs re-solve ?, Q112 key a vs re-solve
-21-11 00:30:34   [ek_shabd] review Important_Rules_hi.txt round 1: 2 issue(s): - नियम 7 का शीर्षक 'विलोम-युग्म प्रश्नों में विलोम न चुनें' भ्रामक है क्योंकि नियम 'एक-शब्द प्रतिस्
-21-11 00:34:57   [ek_shabd] review Important_Rules_hi.txt round 2: 6 issue(s): - Rule 1: "जोर से बोलना" → "कर्कश/गरजना" are incorrect one-word substitutions (कर्कश = harsh, गरजना
-21-11 00:37:20   [ek_shabd] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम 8 में "दुःखदायी" का समास-विग्रह गलत दिया गया है → "दुःखदायी" **कर्मतत्पुरुष 
-21-11 00:37:20   [ek_shabd] review: 1 section(s) corrected, 3 failed
-21-11 00:37:20   [ek_shabd] written 1, failed 3; AI calls today 37/100000
 21-11 00:37:20 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd after 26 min: todo [] problems []
 21-11 00:37:22 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi (TODO: todo 4, problems 0)
 21-11 00:37:22   [vakya_shuddhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
@@ -96,4 +88,10 @@
 21-11 01:34:32   [vakya_shuddhi] wrote Practice_hi_Set_05.txt (write, 25 MCQs)
 21-11 01:45:34   [vakya_shuddhi] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q126 key d vs re-solve ?, Q130 key b vs re-solve ?, Q132 key c vs re-solve ?, Q135 key d vs re-solve
 21-11 01:54:27   [vakya_shuddhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q126 key a vs re-solve d, Q136 key a vs re-solve d, Q144 key c vs re-solve ?, Q146 key c vs re-solve
+21-11 02:05:15   [vakya_shuddhi] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q126 key a vs re-solve d, Q136 key d vs re-solve a, Q137 key c vs re-solve ?, Q140 key a vs re-solve
+21-11 02:13:48   [vakya_shuddhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q126 key c vs re-solve ?, Q137 key b vs re-solve c, Q144 key d vs re-solve a, Q149 key a vs re-solve
+21-11 02:13:48   [vakya_shuddhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
+21-11 02:13:48   [vakya_shuddhi] written 1, failed 3; AI calls today 74/100000
+21-11 02:13:49 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi after 96 min: todo ['Set 02 hi: todo', 'Set 04 hi: todo', 'Set 06 hi: todo'] problems []
+21-11 02:13:49 worker 4: nothing left
 ```
