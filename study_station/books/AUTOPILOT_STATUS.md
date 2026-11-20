@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 21-11-2026 04:55 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
+**आख़िरी update:** 21-11-2026 05:10 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 15 vakya shuddhi (10th Hindi) | ✍️ लिख रहा है | 38 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 13 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 30 |
-| key 4 | 31 |
-| key 5 | 24 |
-| key 6 | 37 |
+| key 3 | 32 |
+| key 4 | 33 |
+| key 5 | 26 |
+| key 6 | 39 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -47,26 +47,13 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 15 vakya shuddhi (Hindi) — 1 बार
+- Chapter 15 vakya shuddhi (Hindi) — 2 बार
 - Chapter 16 rikt sthan vakya kram (Hindi) — 1 बार
 - Chapter 07 sandhi (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-21-11 03:34:17 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi after 75 min: todo ['Set 02 hi: todo', 'Set 06 hi: todo'] problems []
-21-11 03:34:18 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd (OK: todo 0, problems 0)
-21-11 03:34:19   [ek_shabd] review Content_hi.txt: resumed private correction draft
-21-11 03:34:31   [sandhi] Practice_hi_Set_05.txt try 3: rejected (Q114:duplicate_options,Q115:duplicate_options,Q117:duplicate_options,Q120:duplicate_options,Q121:duplicate_opt
-21-11 03:35:25   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q102 key d vs re-solve a, Q108 key c vs re-solve b)
-21-11 03:35:45   [ek_shabd] review Content_hi.txt round 1: 2 issue(s): - Classification 3: 'जो सोया हुआ हो — निद्रालु' is incorrect because 'निद्रालु' means sleepy, not asleep → 
-21-11 03:37:02   [ek_shabd] review Key_Facts_hi.txt: resumed private correction draft
-21-11 03:37:53   [sandhi] Practice_hi_Set_05.txt try 4: rejected (Q115:duplicate_options,Q120:duplicate_options)
-21-11 03:37:53   [sandhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
-21-11 03:38:47   [ek_shabd] review Key_Facts_hi.txt round 1: 1 issue(s): - Point 12 cites “NCERT विज्ञान कक्षा 6–10” as the source for the example “वर्गीकरण-वैज्ञानिक”, but NCERT
-21-11 03:39:26   [sandhi] Practice_hi_Set_06.txt try 1: rejected (Q145:duplicate_options)
-21-11 03:39:28   [ek_shabd] review Key_Facts_hi.txt round 2: 1 issue(s): - Title: 'मुख्य तथु' → 'मुख्य तथ्य'
-21-11 03:40:40   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q102 key d vs re-solve a, Q110 key a vs re-solve ?)
 21-11 03:40:40   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
 21-11 03:41:15   [ek_shabd] review: 2 section(s) corrected, 0 failed
 21-11 03:41:15   [ek_shabd] written 2, failed 0; AI calls today 96/100000
@@ -94,4 +81,17 @@
 21-11 04:43:06   [vakya_shuddhi] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q127 key b vs re-solve ?, Q135 key b vs re-solve ?, Q137 key a vs re-solve ?, Q140 key c vs re-solve
 21-11 04:48:58   [vakya_shuddhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q127 key a vs re-solve ?, Q135 key b vs re-solve ?, Q137 key b vs re-solve a, Q140 key a vs re-solve
 21-11 04:51:58   [vakya_shuddhi] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q136 key d vs re-solve a)
+21-11 04:57:15   [vakya_shuddhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q144 key d vs re-solve ?)
+21-11 04:57:15   [vakya_shuddhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
+21-11 04:57:15   [vakya_shuddhi] written 1, failed 1; AI calls today 122/100000
+21-11 04:57:15 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi after 41 min: todo ['Set 06 hi: todo'] problems []
+21-11 04:57:16 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi (TODO: todo 5, problems 0)
+21-11 04:57:16   [sandhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
+21-11 04:58:00   [sandhi] Practice_hi_Set_01.txt try 1: rejected (Q3:duplicate_options,Q6:duplicate_options,Q7:duplicate_options,Q8:duplicate_options,Q9:duplicate_options)
+21-11 05:01:42   [sandhi] Practice_hi_Set_01.txt try 2: rejected (Q10:duplicate_options,Q11:duplicate_options,Q12:duplicate_options,Q13:duplicate_options,Q14:duplicate_options)
+21-11 05:02:50   [sandhi] Practice_hi_Set_01.txt try 3: rejected (Q11:duplicate_options,Q12:duplicate_options,Q13:duplicate_options,Q14:duplicate_options,Q15:duplicate_options)
+21-11 05:04:06   [sandhi] Practice_hi_Set_01.txt try 4: rejected (Q14:duplicate_options,Q16:duplicate_options,Q18:duplicate_options,Q19:duplicate_options,Q21:duplicate_options)
+21-11 05:04:06   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
+21-11 05:04:48   [sandhi] Practice_hi_Set_02.txt try 1: rejected (Q27:duplicate_options,Q31:duplicate_options,Q35:duplicate_options,Q37:duplicate_options,Q39:duplicate_options)
+21-11 05:06:29   [sandhi] Practice_hi_Set_02.txt try 2: rejected (Q41:duplicate_options,Q43:duplicate_options,Q45:duplicate_options,Q47:duplicate_options,Q49:duplicate_options)
 ```
