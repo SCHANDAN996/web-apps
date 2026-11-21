@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "1e6942a52d4a82f83709d33a9c0ddf0969abe5d454bdd26460d86c32e82d0cec",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "1410fd683e6420469b50beb31c11f2235d5692f3e90ffed6c7670317d848771a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "6e85eba8853c9f83c266d5c6d188943346d7366d532eaaebd9383e5eb1e30821",
+        "Content_hi.txt": "5f50faad3be94deffb1f77e215f92e873fe2c091eed0d0a6d96a34f54eb876fe",
+        "Feynman_en.txt": "e5dbc6b1d59bb40c0ee11d2f3f6e4a9ad268ffabc7bef08e1dd5e7c5fad446fd",
+        "Feynman_hi.txt": "6d8d5edf26e4a2bb4b9eb69a789fbc47a2b60459b986d84287dd0ce25fd7ebd2",
+        "Flashcards_en.txt": "40e2cd46a2d8b6d7a56f3540c1631f6e27b707decd8f439c22182264353c9736",
+        "Flashcards_hi.txt": "013d047d1afc432a4df746537799019e9bb24eff43442ce0956481a3b2d098fb",
+        "Important_Rules_en.txt": "f21dc6137fd176735e470e023575b06158c27f70badf4b2369986f47caa6f742",
+        "Important_Rules_hi.txt": "8950b7c38996d409ffd496c610b43e5fbfa15a05736caa35ea6aaecc5f7e57e1",
+        "Mind_Map_en.txt": "a5303b9abb6e7f17f253c102ef819e345b337394ae42bc770509f158436a2b71",
+        "Mind_Map_hi.txt": "5b90f873f5f2ef78478e8d276a060523201d9783cfaf40c2fcc0e4c0d1b42d72",
+        "PYQ_en.txt": "ee071a9a12c64a9414e2834fc5589fd45f73cea7a479b11f6902b78f5aaed5dd",
+        "PYQ_hi.txt": "c0ac801dfd3fb4b3636513dba4d29ddfd5d9ad30908d8593372896ba4ad4ab4a",
+        "Practice_en_Set_01.txt": "f2bcecdc3497c43d15b7c156459fe7dea206dc9bf0ac2c21926f244062f9d955",
+        "Practice_en_Set_02.txt": "41b93d9e3e4486fd575375cfcda3e8ae5471bef039a906cc380b3ca4572f8181",
+        "Practice_en_Set_03.txt": "4ccfa8925caeb090cc0590c2f24206f8d5026f63a2fdbe959b123f92955b45c0",
+        "Practice_en_Set_04.txt": "5e34ba94e75cd621186c123ac5fbc04f8203c4fa9417088c485c001d4825e869",
+        "Practice_en_Set_05.txt": "c175b8349645307e9701dacec5e1a2754e943db85881a86928a93d5320958c2c",
+        "Practice_en_Set_06.txt": "32f787cf6a6ecafeed665277a2484092638076d3c43bc766ebdf2ca29f58122c",
+        "Practice_hi_Set_01.txt": "f7d3a84ffcdcf06458e5446e92a66c63eff5df93ae08a77d6353a7727e338649",
+        "Practice_hi_Set_02.txt": "53986f3442ea65d181a6a182d3014ef74fbe59fdba3af493eda1f6030e996189",
+        "Practice_hi_Set_03.txt": "c16fcac7ae8148de7e7453d2a2fd35dad6415f56d91ae077e18690ad0fbdcb4c",
+        "Practice_hi_Set_04.txt": "4b05353aa0bf9850341f0fde5016ca7a9085a2092b7288605494340bb563ae5e",
+        "Practice_hi_Set_05.txt": "60bbaf8c294e4f5de8de5dfecf3dd03b7ddcec0620d866d0e63c698b621f15f6",
+        "Practice_hi_Set_06.txt": "a62ce837e302211e47f495f6c2d82af7c803a0589668eaf2c290b5b394cc1c50",
+        "Short_Tricks_en.txt": "2aabe1748720003dfd0a776f6ac27d8cbf16475031d827d56dea4db4a72815fa",
+        "Short_Tricks_hi.txt": "1784c34050323c9fe4da8228f92279c791d3cf7dce80bc9d15af2c8d65354e7a",
+        "inventory": {
+          "Content_en.txt": "6e85eba8853c9f83c266d5c6d188943346d7366d532eaaebd9383e5eb1e30821",
+          "Content_hi.txt": "5f50faad3be94deffb1f77e215f92e873fe2c091eed0d0a6d96a34f54eb876fe",
+          "Feynman_en.txt": "e5dbc6b1d59bb40c0ee11d2f3f6e4a9ad268ffabc7bef08e1dd5e7c5fad446fd",
+          "Feynman_hi.txt": "6d8d5edf26e4a2bb4b9eb69a789fbc47a2b60459b986d84287dd0ce25fd7ebd2",
+          "Flashcards_en.txt": "40e2cd46a2d8b6d7a56f3540c1631f6e27b707decd8f439c22182264353c9736",
+          "Flashcards_hi.txt": "013d047d1afc432a4df746537799019e9bb24eff43442ce0956481a3b2d098fb",
+          "Important_Rules_en.txt": "f21dc6137fd176735e470e023575b06158c27f70badf4b2369986f47caa6f742",
+          "Important_Rules_hi.txt": "8950b7c38996d409ffd496c610b43e5fbfa15a05736caa35ea6aaecc5f7e57e1",
+          "Mind_Map_en.txt": "a5303b9abb6e7f17f253c102ef819e345b337394ae42bc770509f158436a2b71",
+          "Mind_Map_hi.txt": "5b90f873f5f2ef78478e8d276a060523201d9783cfaf40c2fcc0e4c0d1b42d72",
+          "PYQ_en.txt": "ee071a9a12c64a9414e2834fc5589fd45f73cea7a479b11f6902b78f5aaed5dd",
+          "PYQ_hi.txt": "c0ac801dfd3fb4b3636513dba4d29ddfd5d9ad30908d8593372896ba4ad4ab4a",
+          "Practice_en_Set_01.txt": "f2bcecdc3497c43d15b7c156459fe7dea206dc9bf0ac2c21926f244062f9d955",
+          "Practice_en_Set_02.txt": "41b93d9e3e4486fd575375cfcda3e8ae5471bef039a906cc380b3ca4572f8181",
+          "Practice_en_Set_03.txt": "4ccfa8925caeb090cc0590c2f24206f8d5026f63a2fdbe959b123f92955b45c0",
+          "Practice_en_Set_04.txt": "5e34ba94e75cd621186c123ac5fbc04f8203c4fa9417088c485c001d4825e869",
+          "Practice_en_Set_05.txt": "c175b8349645307e9701dacec5e1a2754e943db85881a86928a93d5320958c2c",
+          "Practice_en_Set_06.txt": "32f787cf6a6ecafeed665277a2484092638076d3c43bc766ebdf2ca29f58122c",
+          "Practice_hi_Set_01.txt": "f7d3a84ffcdcf06458e5446e92a66c63eff5df93ae08a77d6353a7727e338649",
+          "Practice_hi_Set_02.txt": "53986f3442ea65d181a6a182d3014ef74fbe59fdba3af493eda1f6030e996189",
+          "Practice_hi_Set_03.txt": "c16fcac7ae8148de7e7453d2a2fd35dad6415f56d91ae077e18690ad0fbdcb4c",
+          "Practice_hi_Set_04.txt": "4b05353aa0bf9850341f0fde5016ca7a9085a2092b7288605494340bb563ae5e",
+          "Practice_hi_Set_05.txt": "60bbaf8c294e4f5de8de5dfecf3dd03b7ddcec0620d866d0e63c698b621f15f6",
+          "Practice_hi_Set_06.txt": "a62ce837e302211e47f495f6c2d82af7c803a0589668eaf2c290b5b394cc1c50",
+          "Short_Tricks_en.txt": "2aabe1748720003dfd0a776f6ac27d8cbf16475031d827d56dea4db4a72815fa",
+          "Short_Tricks_hi.txt": "1784c34050323c9fe4da8228f92279c791d3cf7dce80bc9d15af2c8d65354e7a"
+        }
+      },
+      "checked_at": "2026-11-21T07:28:04+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "4e731fd9ae044c78e07c06799c87a57a869d90ff35f3dbc737f86341fb547de3",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "1410fd683e6420469b50beb31c11f2235d5692f3e90ffed6c7670317d848771a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "6e85eba8853c9f83c266d5c6d188943346d7366d532eaaebd9383e5eb1e30821"
+      },
+      "checked_at": "2026-11-21T07:29:20+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "612bc6badc349910c5e9d0b8267c63dfc8a96ace4346a2323ac90559576dd3de",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "1410fd683e6420469b50beb31c11f2235d5692f3e90ffed6c7670317d848771a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "6e85eba8853c9f83c266d5c6d188943346d7366d532eaaebd9383e5eb1e30821",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T07:29:20+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "6a7a51b458eea154db72efc2b1f4e0b67a0c60f5e775478d1be21695f68be445",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Linguistic Bridge table: \"पेट में चूहे कूदना\" → \"To be very hungry\" listed as 'सही अंग्रेज़ी मुहावरा' → \"To be very hungry\" is not an idiom; use an actual idiom like \"to be starving\" or change column header to 'अर्थ'",
+        "- Linguistic Bridge table: \"अंगारों पर पैर रखना\" → \"To beard the lion in his den\" given as equivalent → meanings differ; \"अंगारों पर पैर रखना\" = to invite danger, better equivalent: \"to play with fire\" or \"to walk into the lion's den\"",
+        "- Word Roots table: root 'vid/vis' example phrase \"To see eye to eye\" contains no word from Latin vid/vis → replace with phrase using a vid/vis derivative like \"in full view\" or \"visible evidence\"",
+        "- Word Roots table: root 'manu' example phrase \"To have the upper hand\" contains no word from Latin manu → replace with phrase using a manu derivative like \"manual labour\" or \"manufacture consent\"",
+        "- Word Roots table: root 'bene' example phrase \"A blessing in disguise\" contains no word from Latin bene → replace with phrase using a bene derivative like \"benevolent gesture\" or \"benefit of the doubt\""
+      ],
+      "dependencies": {
+        "chapter.json": "1410fd683e6420469b50beb31c11f2235d5692f3e90ffed6c7670317d848771a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "5f50faad3be94deffb1f77e215f92e873fe2c091eed0d0a6d96a34f54eb876fe"
+      },
+      "checked_at": "2026-11-21T07:31:20+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T07:31:20+00:00",
+  "chapter_fingerprint": "2beea7296682c531f2553c587274461f40c67e26cf3e2b5b481e29451d62341f"
+}
