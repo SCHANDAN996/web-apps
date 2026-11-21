@@ -109,11 +109,73 @@
         "Content_hi.txt": "d749710ee1d95399ac7b900588782fbeebaee0a961ff3990e5040f1f12d5b60b"
       },
       "checked_at": "2026-11-21T08:59:33+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "b6c11f907bac2cd8b76220753ba65c52d833b8b5eee342e07540fc6967246607",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "86e1d61469d13da3d1dccaa82f95317d75b422b407a7e331575941d14a08549a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "d749710ee1d95399ac7b900588782fbeebaee0a961ff3990e5040f1f12d5b60b",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:45:50+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "c3dd426e4c73c4a2fb42e243aebc14e242d649d4ff05937e31fc3db47459a9e1",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Water image clock subtraction for non-zero minutes given as 17:90 → should be 17:60 (or 18:00 with borrowing)"
+      ],
+      "dependencies": {
+        "chapter.json": "86e1d61469d13da3d1dccaa82f95317d75b422b407a7e331575941d14a08549a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "786b1b5792f708cf8736fe1058d65f30eafe1f58b7e32d91dad5927d2d3b8854"
+      },
+      "checked_at": "2026-11-21T12:48:55+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "cdf5ac733d98f34ad2942c30977eb56bebc7e42e2ff2a00d88980e9bb42528fb",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "86e1d61469d13da3d1dccaa82f95317d75b422b407a7e331575941d14a08549a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "786b1b5792f708cf8736fe1058d65f30eafe1f58b7e32d91dad5927d2d3b8854",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:48:55+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "26f108f2588eeb8dbe13a9dea9956f0707a7830bd83d705b7f169b632f3ac69e",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The clock mirror image formula incorrectly adds a special case for hour 12 (subtract from 23:60); the correct rule is to subtract the given time from 11:60 (or 12:00) for all times on a 12‑hour clock."
+      ],
+      "dependencies": {
+        "chapter.json": "86e1d61469d13da3d1dccaa82f95317d75b422b407a7e331575941d14a08549a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "5f904d9408cb1431a4e0c8c37917aa56395888d522289b12c6945514fa87ec72"
+      },
+      "checked_at": "2026-11-21T12:51:09+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T08:59:34+00:00",
+  "updated_at": "2026-11-21T12:51:09+00:00",
   "chapter_fingerprint": "d0fddca53664b63e5e1220a307c125653e19a0c6ef7b3c7e6d28637cbc547f89"
 }
