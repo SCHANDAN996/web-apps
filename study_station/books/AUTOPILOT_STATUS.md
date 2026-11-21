@@ -5,30 +5,31 @@
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 118 मिनट |
-| W10 | Chapter 01 Noun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W12 | Chapter 22 Permutation Combination (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W2 | Chapter 21 Probability (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 118 मिनट |
-| W4 | Chapter 06 Adverb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W5 | Chapter 20 Number Series (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W6 | Chapter 03 Adjective (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W7 | Chapter 04 Verb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W8 | Chapter 02 Pronoun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W9 | Chapter 05 Tense (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 119 मिनट |
+| W10 | Chapter 01 Noun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W11 | Chapter 07 Preposition (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W12 | Chapter 22 Permutation Combination (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W2 | Chapter 21 Probability (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 119 मिनट |
+| W4 | Chapter 06 Adverb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W5 | Chapter 20 Number Series (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W6 | Chapter 03 Adjective (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W7 | Chapter 04 Verb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W8 | Chapter 02 Pronoun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W9 | Chapter 05 Tense (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 59 |
-| key 4 | 61 |
+| key 4 | 63 |
 | key 5 | 73 |
-| key 6 | 48 |
+| key 6 | 49 |
 
 ## किताबों की प्रगति
 
@@ -63,7 +64,7 @@
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 43/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
-| 10th English | 0 | 20 | 0 | 0 | 0 | 15/1622 |
+| 10th English | 0 | 20 | 0 | 0 | 0 | 18/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 0/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 0/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 0/1950 |
@@ -72,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 229/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 232/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -82,16 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 12:44:10   [Noun] QA passed: structure
-21-11 12:44:31   [Noun] QA passed: editorial:Content_en.txt
-21-11 12:44:31   [Noun] QA needs_reference: sources:Content_en.txt
-21-11 12:44:54   [Permutation_Combination] QA passed: editorial:Content_hi.txt
-21-11 12:44:54   [Permutation_Combination] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 73, "passed": 3, "pending": 69, "blocked": 0, "needs_reference": 1, "remaining": 70, 
-21-11 12:44:54 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_22_Permutation_Combination: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 3, 'pending': 69, 'blocked': 0, 'needs_reference': 1, 'remaining': 70, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_22_Permutation_Combination/QA.json'}
-21-11 12:44:57   [sandhi] Practice_hi_Set_03.txt try 2: rejected (Q52:duplicate_options,Q56:duplicate_options,Q59:duplicate_options,Q63:duplicate_options,Q69:duplicate_options)
-21-11 12:45:00   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q129 key d vs re-solve b, Q137 key b vs re-solve d)
-21-11 12:45:15   [Noun] QA passed: editorial:Content_hi.txt
-21-11 12:45:15   [Noun] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 83, "passed": 3, "pending": 79, "blocked": 0, "needs_reference": 1, "remaining": 80, 
 21-11 12:45:16 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_01_Noun: {'status': 'pending', 'verified': False, 'total': 83, 'passed': 3, 'pending': 79, 'blocked': 0, 'needs_reference': 1, 'remaining': 80, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_01_Noun/QA.json'}
 21-11 12:45:16   [Pronoun] QA passed: structure
 21-11 12:45:56   [Pronoun] QA passed: editorial:Content_en.txt
@@ -122,6 +113,16 @@
 21-11 12:50:31   [Adverb] QA passed: editorial:Content_hi.txt
 21-11 12:50:31   [Adverb] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 77, "blocked": 0, "needs_reference": 1, "remaining": 78, 
 21-11 12:50:31 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_06_Adverb: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 77, 'blocked': 0, 'needs_reference': 1, 'remaining': 78, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_06_Adverb/QA.json'}
+21-11 12:50:54   [Preposition] QA passed: editorial:Content_en.txt
+21-11 12:51:10   [Preposition] QA needs_reference: sources:Content_en.txt
+21-11 12:51:11   [Conjunction] QA passed: structure
+21-11 12:51:32   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q146 key a vs re-solve c, Q147 key c vs re-solve d, Q148 key c vs re-solve a)
+21-11 12:51:32   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
+21-11 12:51:32   [rikt_sthan_vakya_kram] written 1, failed 2; AI calls today 244/100000
+21-11 12:51:32 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram after 120 min: todo ['Set 04 hi: todo', 'Set 06 hi: todo'] problems []
+21-11 12:51:53   [Articles] QA passed: structure
+21-11 12:51:58   [Conjunction] QA passed: editorial:Content_en.txt
+21-11 12:51:58   [Conjunction] QA needs_reference: sources:Content_en.txt
 ````
 
 </details>
