@@ -85,11 +85,72 @@
         "Feynman_hi.txt": "51c91d108772020f2904c83c0c39e0c09be4543b0263829a0025b58ab583200e"
       },
       "checked_at": "2026-11-21T05:28:58+00:00"
+    },
+    "sources:Feynman_hi.txt": {
+      "fingerprint": "f7cafcb6e6ba59d48ee50df13189c85dfc65ffb5cdda811fe9c0512a68489069",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "18f9b144b1b1d22f6c20af33f3125dc039c7fb11acd00ec8160589ea9eb2a013",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Feynman_hi.txt": "51c91d108772020f2904c83c0c39e0c09be4543b0263829a0025b58ab583200e",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:10:50+00:00"
+    },
+    "editorial:Flashcards_hi.txt": {
+      "fingerprint": "c164d9412e9c8db6fb6cef9c13635766a7722e0969f1f265ea571ae53c589a2f",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Card 1 (पीछे): \"संज्ञा वाक्य में कर्ता, कर्म या विशेषण का काम करती है\" → संज्ञा वाक्य में कर्ता, कर्म, संबोधन आदि कारकों का काम करती है; विशेषण अलग शब्द-भेद है।",
+        "- Card 9 (पीछे): \"अकारांत पुल्लिंग में भी 'ए' जुड़ता है (पेड़ → पेड़े)\" → अकारांत पुल्लिंग संज्ञाओं के बहुवचन में प्रायः कोई परिवर्तन नहीं होता (घर→घर, फल→फल); 'पेड़→पेड़े' अपवाद है।"
+      ],
+      "dependencies": {
+        "chapter.json": "18f9b144b1b1d22f6c20af33f3125dc039c7fb11acd00ec8160589ea9eb2a013",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Flashcards_hi.txt": "eebf9714b54a3bd545d470d3844ac326673f7c58469eb2707505d978cff6a4d1"
+      },
+      "checked_at": "2026-11-21T10:19:11+00:00"
+    },
+    "sources:Flashcards_hi.txt": {
+      "fingerprint": "6b94bf299bc1892301578473bbee55a453ea4cb508723bc9dbf17c387bcd14ac",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "18f9b144b1b1d22f6c20af33f3125dc039c7fb11acd00ec8160589ea9eb2a013",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Flashcards_hi.txt": "eebf9714b54a3bd545d470d3844ac326673f7c58469eb2707505d978cff6a4d1",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:19:11+00:00"
+    },
+    "editorial:Important_Rules_hi.txt": {
+      "fingerprint": "7e73232c5591373a1103c9fc0a33c2b9d4426b60c98a42f08ecbb81049b01a75",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "18f9b144b1b1d22f6c20af33f3125dc039c7fb11acd00ec8160589ea9eb2a013",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Important_Rules_hi.txt": "7c3cc96829b81ab63fde2f928098b2281cbf1e427255b01746299aa88e47c30d"
+      },
+      "checked_at": "2026-11-21T10:21:20+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T05:28:58+00:00",
-  "chapter_fingerprint": "376990831a6f3bec86e736d0e140fd5d06cb40f9a44e23d1aa7aa33b3783d3dc"
+  "updated_at": "2026-11-21T10:21:20+00:00",
+  "chapter_fingerprint": "466bccedd9be5db95a6a6a4a095148f299a1857a5e9f8ee999d1291f67e8460c"
 }
