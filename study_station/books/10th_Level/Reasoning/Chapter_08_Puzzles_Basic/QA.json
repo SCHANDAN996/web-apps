@@ -107,11 +107,76 @@
         "Content_hi.txt": "1a3230160eb083e9858b91339d1d75085e8b3508ba72a3ec65c2337b4c4d3e7d"
       },
       "checked_at": "2026-11-21T06:49:10+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "8d0083af7ba35e4036c4840ae34d2dec281bf02c17143f9f5cc2697131eb187a",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "2b6fbab879e7a2023ed1369b936dded75e48f30fab42c6fde7a396711c04e0b7",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "1a3230160eb083e9858b91339d1d75085e8b3508ba72a3ec65c2337b4c4d3e7d",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:56:28+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "be7208a6c0914fa3bcdb448f7ec32abbc84e3286006248160b8ca526e33f1ce2",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Blurting sheet asks \"What are the 4 types of simple puzzles?\" but the section does not define or list any types of simple puzzles → Remove the question or add the missing content covering the 4 types.",
+        "- Blurting sheet asks \"What is the D.R.A.C. method?\" but the section does not mention or explain any D.R.A.C. method → Remove the question or add the missing content explaining D.R.A.C.",
+        "- Blurting sheet asks \"What is the 2-minute drill?\" but the section does not describe a 2-minute drill → Remove the question or add the missing content describing the drill.",
+        "- Blurting sheet asks \"What are three examiner traps in simple puzzles?\" but the section does not list any examiner traps → Remove the question or add the missing content listing three traps.",
+        "- Blurting sheet asks \"Why should you look for definite clues first?\" but the section does not discuss the concept of definite clues or their priority → Remove the question or add the missing content explaining definite clues.",
+        "- Blurting sheet asks \"How many cases should a simple puzzle usually need?\" but the section does not mention the number of cases typically required → Remove the question or add the missing content specifying the usual number of cases."
+      ],
+      "dependencies": {
+        "chapter.json": "2b6fbab879e7a2023ed1369b936dded75e48f30fab42c6fde7a396711c04e0b7",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "820c6c0b11fb461e194f3b7cab81db2a8799384e2d044daa644ffccc58844a66"
+      },
+      "checked_at": "2026-11-21T10:58:06+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "3819f5582ad0ee45f0feed48255d83c78239c2b72e44ce8d548bb5264daa4b40",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "2b6fbab879e7a2023ed1369b936dded75e48f30fab42c6fde7a396711c04e0b7",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "820c6c0b11fb461e194f3b7cab81db2a8799384e2d044daa644ffccc58844a66",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:58:06+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "83ad8f23250861349aa3a2db35e1572ac45c330f6dcda8f18acf669cd4fb759f",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "2b6fbab879e7a2023ed1369b936dded75e48f30fab42c6fde7a396711c04e0b7",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "8cd3233d598c852459175b90812c7eb3e195340bf6e390d70aaac001d9f68ce2"
+      },
+      "checked_at": "2026-11-21T10:58:57+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T06:49:10+00:00",
+  "updated_at": "2026-11-21T10:58:57+00:00",
   "chapter_fingerprint": "5399058977b61fa30187e38de525ec73e88c4bea8a9ac5d80349e79e09188f22"
 }
