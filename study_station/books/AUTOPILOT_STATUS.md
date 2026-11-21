@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 03:45 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 03:46 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -12,24 +12,24 @@
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
 | W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 7 मिनट |
-| W10 | Chapter 02 shabd bhed (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W11 | Chapter 02 input output ports (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W12 | Chapter 03 sangya sarvanam (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 6 मिनट |
-| W3 | Chapter 01 varn vartani (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W4 | Chapter 01 organization cpu (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W5 | Chapter 06 kaal vachya (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W6 | Chapter 04 visheshan kriya (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W7 | Chapter 05 windows files (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W8 | Chapter 04 software os (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W9 | Chapter 05 ling vachan karak (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W10 | Chapter 02 shabd bhed (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W11 | Chapter 02 input output ports (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W12 | Chapter 03 sangya sarvanam (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 7 मिनट |
+| W3 | Chapter 01 varn vartani (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W4 | Chapter 01 organization cpu (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W5 | Chapter 06 kaal vachya (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W6 | Chapter 04 visheshan kriya (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W7 | Chapter 05 windows files (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W8 | Chapter 04 software os (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W9 | Chapter 06 keyboard shortcuts (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 6 |
-| key 4 | 6 |
+| key 3 | 7 |
+| key 4 | 7 |
 | key 5 | 1 |
-| key 6 | 4 |
+| key 6 | 5 |
 
 ## किताबों की प्रगति
 
@@ -59,7 +59,7 @@
 
 | किताब | QA पास | जाँच बाकी | प्रमाण बाकी | सुधार अटका | मैनुअल | जाँचें पास / कुल |
 |---|---:|---:|---:|---:|---:|---:|
-| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 33/540 |
+| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 34/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 34/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 43/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 497/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 498/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,12 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 15:40:50   [shabd_bhed] QA needs_reference: sources:Feynman_hi.txt
-21-11 15:40:50   [organization_cpu] QA needs_reference: sources:Content_hi.txt
-21-11 15:40:50   [sangya_sarvanam] QA needs_reference: sources:Feynman_hi.txt
-21-11 15:40:50   [visheshan_kriya] QA needs_reference: sources:Feynman_hi.txt
-21-11 15:40:50   [windows_files] QA needs_reference: sources:Content_hi.txt
-21-11 15:40:50   [software_os] QA needs_reference: sources:Content_hi.txt
 21-11 15:40:50   [memory_storage_backup] QA needs_reference: sources:Content_hi.txt
 21-11 15:41:15   [memory_storage_backup] QA passed: editorial:Feynman_en.txt
 21-11 15:41:15   [memory_storage_backup] QA needs_reference: sources:Feynman_en.txt
@@ -123,6 +117,12 @@
 21-11 15:46:00   [keyboard_shortcuts] QA needs_reference: sources:Content_hi.txt
 21-11 15:46:06   [sangya_sarvanam] QA passed: editorial:Flashcards_hi.txt
 21-11 15:46:06   [sangya_sarvanam] QA needs_reference: sources:Flashcards_hi.txt
+21-11 15:46:41   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q77 key c vs re-solve a, Q80 key d vs re-solve a, Q86 key a vs re-solve b, Q91 key b vs re-solve a, 
+21-11 15:46:43   [keyboard_shortcuts] QA passed: editorial:Feynman_en.txt
+21-11 15:46:57   [keyboard_shortcuts] QA needs_reference: sources:Feynman_en.txt
+21-11 15:46:58   [word] QA needs_reference: sources:Content_hi.txt
+21-11 15:47:05   [windows_files] QA passed: editorial:Feynman_en.txt
+21-11 15:47:06   [windows_files] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>
