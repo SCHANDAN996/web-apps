@@ -92,11 +92,76 @@
         "Feynman_hi.txt": "ebe5cc84459d91f675c4198d750b383687f8f58ce3fa8a203ced3b9871ee1453"
       },
       "checked_at": "2026-11-21T05:35:02+00:00"
+    },
+    "sources:Feynman_hi.txt": {
+      "fingerprint": "16370c4866760fc635b33c293a6e7280eee81af61b86498abc2d3b06e8a7e4ce",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "c4a0aa2e4dc84822c676d0f3f7121839d8e7bca6118af8718bdf1c972edae709",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Feynman_hi.txt": "ebe5cc84459d91f675c4198d750b383687f8f58ce3fa8a203ced3b9871ee1453",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:10:50+00:00"
+    },
+    "editorial:Flashcards_hi.txt": {
+      "fingerprint": "e524695a190552ef7ac79589c4e34f90ec878b45e37a862a172e40eedc7e0118",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "c4a0aa2e4dc84822c676d0f3f7121839d8e7bca6118af8718bdf1c972edae709",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Flashcards_hi.txt": "87a204cfd89b5152137744b42886483f730f6e1017de60025a39d5350c3d79f6"
+      },
+      "checked_at": "2026-11-21T10:12:43+00:00"
+    },
+    "sources:Flashcards_hi.txt": {
+      "fingerprint": "c19afe0b9023d7af799f6120d8f96a47fe605ec7147b5a2b1f1d6c6d7e5e8c08",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "c4a0aa2e4dc84822c676d0f3f7121839d8e7bca6118af8718bdf1c972edae709",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Flashcards_hi.txt": "87a204cfd89b5152137744b42886483f730f6e1017de60025a39d5350c3d79f6",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:12:43+00:00"
+    },
+    "editorial:Important_Rules_hi.txt": {
+      "fingerprint": "c8dcdbf414227c7878792004f518b4ada6e1596d2fc654c6c08ed4d6add3d413",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Rule 2 lists 'इ, ई, उ, ऊ, ए, ओ' as common masculine noun endings → Masculine nouns typically end in 'आ' (आकारांत) or a consonant (अकारांत); those vowels are characteristic of feminine nouns.",
+        "- Rule 2 exception claims 'किरण' ends in 'इ/आ' → 'किरण' ends in the consonant 'न' (with inherent 'अ'), not 'इ' or 'आ'.",
+        "- Rule 3 gives feminine endings as 'आ, इ, ई' but example 'बहन' ends in a consonant → Feminine nouns also commonly end in consonants (e.g., बहन, आँख, भूख).",
+        "- Rule 4(घ) states vowel-ending nouns are usually unchanged in plural but exemplifies 'नदी → नदियाँ' (changed) → Feminine nouns ending in 'ई' typically add 'याँ' (नदी → नदियाँ); masculine nouns ending in 'उ' (गुरु) remain unchanged.",
+        "- Rule 11 says अधिकरण marker is 'में/पर' but example 'रात को' uses 'को' → Time expressions often take 'को' (रात को, सुबह को); marker list should include 'को' for time.",
+        "- Rule 14 labels 'मेरे द्वारा' as करण (instrumental) → 'मेरे द्वारा' marks the agent in passive voice (कर्ता in कर्मणि प्रयोग); instrumental for 'मैं' is 'मुझसे'."
+      ],
+      "dependencies": {
+        "chapter.json": "c4a0aa2e4dc84822c676d0f3f7121839d8e7bca6118af8718bdf1c972edae709",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Important_Rules_hi.txt": "d82f1e0ce7d98f69d5a86fc976ba8a46dc4005001b5b24143a31e10a1608d70f"
+      },
+      "checked_at": "2026-11-21T10:14:27+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T05:35:02+00:00",
-  "chapter_fingerprint": "4e56dc8a5b8ccafd3bad516e0a485415f5016d6050eda67d9c5a94875b1094d7"
+  "updated_at": "2026-11-21T10:14:27+00:00",
+  "chapter_fingerprint": "c48218e46820706c391aabc80eac2b8d509a7d3618f3ea132116f552a57719d6"
 }
