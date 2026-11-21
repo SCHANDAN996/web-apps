@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 02:22 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 02:23 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 211 मिनट |
-| W10 | Chapter 19 Cubes Dice (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W11 | Chapter 16 Statement Conclusion (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W12 | Chapter 20 Mirror Water Images (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W2 | Chapter 18 Inequality (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W3 | Chapter 13 Dictionary Order (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W4 | Chapter 14 Alphabet Questions (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W5 | Chapter 17 Course of Action (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W6 | Chapter 12 Missing Term (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W7 | Chapter 21 Paper Folding Cutting (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W8 | Chapter 15 Mathematical Operations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W9 | Chapter 10 Clock Calendar (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 212 मिनट |
+| W10 | Chapter 19 Cubes Dice (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W11 | Chapter 16 Statement Conclusion (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W12 | Chapter 20 Mirror Water Images (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W2 | Chapter 18 Inequality (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W3 | Chapter 22 Figure Series (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W4 | Chapter 14 Alphabet Questions (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W5 | Chapter 17 Course of Action (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W6 | Chapter 12 Missing Term (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W7 | Chapter 21 Paper Folding Cutting (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W8 | Chapter 15 Mathematical Operations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W9 | Chapter 10 Clock Calendar (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 110 |
 | key 4 | 108 |
-| key 5 | 122 |
+| key 5 | 124 |
 | key 6 | 95 |
 
 ## किताबों की प्रगति
@@ -67,13 +67,13 @@
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
-| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 46/1950 |
+| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 47/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 0/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 428/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 429/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,12 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 14:17:58 QA 12th_Level/Reasoning/Chapter_13_Dictionary_Order: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In the Active Recall for BAT and BALL, the hint says "दूसरे अक्षर की तुलना करें" (compare second letters), but both words have \'A\' as the second letter, so the decision is made at the third letter (T vs L) → The hint should say "तीसरे अक्षर की तुलना करें" or indicate to continue comparing until a difference is found.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_13_Dictionary_Order/QA.json'}
-21-11 14:18:04   [Course_of_Action] QA blocked: editorial:Content_en.txt
-21-11 14:18:04   [Course_of_Action] QA needs_reference: sources:Content_en.txt
-21-11 14:18:04   [Clock_Calendar] QA blocked: editorial:Content_hi.txt
-21-11 14:18:04   [Clock_Calendar] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 1, "pending": 74, "blocked": 2, "needs_reference": 1, "remaining": 77, 
-21-11 14:18:05 QA 12th_Level/Reasoning/Chapter_10_Clock_Calendar: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 1, 'pending': 74, 'blocked': 2, 'needs_reference': 1, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The reference point states "1 January 1 AD was a Monday" but the day code mapping (0=Sunday, 1=Monday) requires 1 January 1 AD to be a Sunday for consistency; the example calculation for 15 August 1947 also works only if the reference is Sunday. → The reference point should be "1 January 1 AD was a Sunday" or the day code mapping should be adjusted (e.g., 0=Monday, 1=Tuesday, …).', '- The right-angle formula claims "Between H and H+1, the two right-angle times are at (5H ± 15) × (12/11) minutes past H." This is not true for all H (e.g., H=9 gives 65 5/11 minutes, which is in the next hour; H=0 gives a negative time). → The formula should be qualified: the two times in a 12-hour cycle are given by (5H ± 15) × (12/11) minutes past H, but for a specific hour H, only the values that fall between 0 and 60 minutes are valid; the other may belong to the adjacent hour.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Fast/slow clock example incorrectly concludes "सही समय 5:10" from the premise that at actual 6\u202fPM the clock is 50\u202fminutes fast → At actual 6\u202fPM (10\u202fhours after 8\u202fAM) the clock shows 6:50, so the correct time is 6\u202fPM; if the question was "when the clock shows 6\u202fPM", the correct time is 5:13\u202f7/13, not 5:10.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_10_Clock_Calendar/QA.json'}
 21-11 14:18:18   [Missing_Term] QA blocked: editorial:Content_hi.txt
 21-11 14:18:18   [Missing_Term] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
 21-11 14:18:19 QA 12th_Level/Reasoning/Chapter_12_Missing_Term: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- In 'जाल 1', the example series 2, 4, 8 is not a square series (squares are 1, 4, 9, 16…), so it cannot mislead students into thinking 'वर्ग'. → Use a genuine square series like 1, 4, 9, ? or 4, 9, 16, ? to illustrate the trap."]}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_12_Missing_Term/QA.json'}
@@ -127,6 +121,12 @@
 21-11 14:22:59   [Paper_Folding_Cutting] QA passed: editorial:Content_hi.txt
 21-11 14:23:00   [Paper_Folding_Cutting] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
 21-11 14:23:00 QA 12th_Level/Reasoning/Chapter_21_Paper_Folding_Cutting: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_21_Paper_Folding_Cutting/QA.json'}
+21-11 14:23:39   [Inequality] QA blocked: editorial:Content_hi.txt
+21-11 14:23:57   [Inequality] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 1, "pending": 74, "blocked": 2, "needs_reference": 1, "remaining": 77, 
+21-11 14:23:58 QA 12th_Level/Reasoning/Chapter_18_Inequality: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 1, 'pending': 74, 'blocked': 2, 'needs_reference': 1, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The complementary pair list in Chunk 4 excludes `>` and `=` (for `≥`) and `<` and `=` (for `≤`), yet the following example and active recall use these pairs as valid either-or cases. → Add `>` and `=` and `<` and `=` to the list of complementary pairs, or clarify that the list is not exhaustive.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- In Part 4, the complementary pairs list is wrong: it includes a garbled third bullet “= और ≠ के जोड़े जैसे: > और < के साथ = (तीनों मिलकर पूरक — कुछ प्रश्नों में 'A > B या A ≤ B' का जोड़ा)” which incorrectly describes three relations as complementary and gives a mismatched example. → The correct complementary pairs are > & ≤, < & ≥, = & ≠. For Either-Or, when the statement gives ≥, the pair > and = is also considered complementary (covering all possibilities), but this is a special case and should be explained separately."]}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_18_Inequality/QA.json'}
+21-11 14:23:59   [Syllogism] QA passed: structure
+21-11 14:24:30   [Figure_Series] QA passed: editorial:Content_en.txt
+21-11 14:24:30   [Figure_Series] QA needs_reference: sources:Content_en.txt
 ````
 
 </details>
