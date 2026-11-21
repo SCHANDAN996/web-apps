@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 05:05 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 05:06 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -12,21 +12,21 @@
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
 | W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 87 मिनट |
-| W10 | Chapter 02 Pronoun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W10 | Chapter 02 Pronoun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
 | W11 | Chapter 01 Noun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W2 | Chapter 04 Verb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W3 | Chapter 21 Probability (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W4 | Chapter 22 Permutation Combination (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W5 | Chapter 05 Tense (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W6 | Chapter 07 Preposition (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W7 | Chapter 06 Adverb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W8 | Chapter 08 Conjunction (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W9 | Chapter 03 Adjective (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W12 | Chapter 09 Articles (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W2 | Chapter 04 Verb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W4 | Chapter 22 Permutation Combination (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W5 | Chapter 05 Tense (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W6 | Chapter 07 Preposition (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W7 | Chapter 06 Adverb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W8 | Chapter 08 Conjunction (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W9 | Chapter 03 Adjective (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 57 |
-| key 4 | 75 |
+| key 3 | 58 |
+| key 4 | 76 |
 | key 5 | 56 |
 | key 6 | 43 |
 
@@ -86,17 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 17:00:31   [Pronoun] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 5, "pending": 73, "blocked": 0, "needs_reference": 3, "remaining": 76, 
-21-11 17:00:31   [Noun] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 83, "passed": 3, "pending": 75, "blocked": 2, "needs_reference": 3, "remaining": 80, 
-21-11 17:00:32 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_02_Pronoun: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 5, 'pending': 73, 'blocked': 0, 'needs_reference': 3, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_02_Pronoun/QA.json'}
-21-11 17:00:32 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_01_Noun: {'status': 'pending', 'verified': False, 'total': 83, 'passed': 3, 'pending': 75, 'blocked': 2, 'needs_reference': 3, 'remaining': 80, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- The blurting sheet asks for "Five words that never take a plural" but only four are listed (advice, news, furniture, luggage) → either add a fifth uncountable noun (e.g., information, equipment, machinery, baggage) or change the question to "Four words"']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- "परीक्षा में अक्सर यहीं जाल होता है" में \'यहीं\' (स्थानवाचक) गलत है → "परीक्षा में अक्सर **यही** जाल होता है" (सर्वनाम \'यही\' प्रयोग करें)']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_01_Noun/QA.json'}
-21-11 17:00:32   [Adjective] QA needs_reference: sources:Content_hi.txt
-21-11 17:00:46   [Adjective] QA passed: editorial:Feynman_en.txt
-21-11 17:00:46   [Adjective] QA needs_reference: sources:Feynman_en.txt
-21-11 17:01:19   [Adjective] QA passed: editorial:Feynman_hi.txt
-21-11 17:01:28   [Adjective] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
-21-11 17:01:29 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The claim that the adjective/pronoun test works for possessive "my/your/his" is incorrect: "my" and "your" cannot stand alone as pronouns (only "his" can); the possessive pronouns are "mine, yours, his, hers, ours, theirs" → The test works for demonstrative and interrogative, but for possessive the pronoun forms differ from the adjective forms.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective/QA.json'}
-21-11 17:01:29   [Verb] QA needs_reference: sources:Content_hi.txt
 21-11 17:02:08   [Verb] QA blocked: editorial:Feynman_en.txt
 21-11 17:02:25   [Verb] QA needs_reference: sources:Feynman_en.txt
 21-11 17:02:25   [Verb] QA passed: editorial:Feynman_hi.txt
@@ -126,6 +115,17 @@
 21-11 17:05:53   [Articles] QA needs_reference: sources:Content_hi.txt
 21-11 17:06:31   [sandhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q28 key d vs re-solve a, Q34 key b vs re-solve d, Q36 key d vs re-solve a, Q43 key c vs re-solve a, 
 21-11 17:06:31   [sandhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
+21-11 17:06:57   [Voice] QA needs_reference: sources:Content_hi.txt
+21-11 17:07:05   [Voice] QA passed: editorial:Feynman_en.txt
+21-11 17:07:05   [Voice] QA needs_reference: sources:Feynman_en.txt
+21-11 17:07:18   [Conjunction] QA blocked: editorial:Feynman_hi.txt
+21-11 17:07:18   [Conjunction] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
+21-11 17:07:18 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_08_Conjunction: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ["- 'वरना (or)' is an incorrect translation; 'वरना' means 'otherwise', not 'or' → change to 'वरना (otherwise)' or simply 'वरना'"]}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_08_Conjunction/QA.json'}
+21-11 17:07:25   [Articles] QA blocked: editorial:Feynman_en.txt
+21-11 17:07:25   [Articles] QA needs_reference: sources:Feynman_en.txt
+21-11 17:07:26   [Voice] QA passed: editorial:Feynman_hi.txt
+21-11 17:07:26   [Voice] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
+21-11 17:07:26 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_10_Voice: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Hindi example "खाना माँ ने बनाया" is not passive voice (it\'s active with object fronting) → should be "खाना माँ द्वारा बनाया गया" or "खाना बनाया गया माँ द्वारा" to match the English passive "The food was cooked by mother"']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_10_Voice/QA.json'}
 ````
 
 </details>
