@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 11:37 AM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 11:40 AM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,25 +11,25 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 46 मिनट |
-| W10 | Chapter 12 Biology (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W11 | Chapter 11 Chemistry (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W12 | Chapter 08 World Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W2 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 46 मिनट |
-| W4 | Chapter 13 Awards (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W5 | Chapter 10 Physics Daily (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W6 | Chapter 17 apathit gadyansh (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 17 मिनट |
-| W7 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 18 मिनट |
-| W8 | Chapter 09 Economy Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W9 | Chapter 06 Physical Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 49 मिनट |
+| W10 | Chapter 12 Biology (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W11 | Chapter 11 Chemistry (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W12 | Chapter 14 Sports (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W2 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 19 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 49 मिनट |
+| W4 | Chapter 13 Awards (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W5 | Chapter 10 Physics Daily (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W6 | Chapter 17 apathit gadyansh (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 21 मिनट |
+| W7 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 22 मिनट |
+| W8 | Chapter 09 Economy Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W9 | Chapter 06 Physical Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 21 |
 | key 4 | 30 |
 | key 5 | 31 |
-| key 6 | 10 |
+| key 6 | 11 |
 
 ## किताबों की प्रगति
 
@@ -61,7 +61,7 @@
 |---|---:|---:|---:|---:|---:|---:|
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 29/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 29/1092 |
-| 10th GK | 0 | 19 | 0 | 0 | 0 | 21/1482 |
+| 10th GK | 0 | 19 | 0 | 0 | 0 | 23/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 0/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 0/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 0/1622 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 79/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 81/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,14 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 11:27:06   [Modern_History] QA passed: editorial:Content_hi.txt
-21-11 11:27:06   [Modern_History] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
-21-11 11:27:06 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_03_Modern_History: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- "By the early 1700s, the French under Dupleix and the English under Clive were locked in the Carnatic Wars." → The Carnatic Wars took place in the mid-1700s (1740s–1760s), not the early 1700s.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_03_Modern_History/QA.json'}
-21-11 11:27:24   [paryayvachi] QA passed: editorial:Feynman_hi.txt
-21-11 11:27:24   [paryayvachi] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 2, "pending": 32, "blocked": 1, "needs_reference": 1, "remaining": 34, 
-21-11 11:27:24 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_10_paryayvachi: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 2, 'pending': 32, 'blocked': 1, 'needs_reference': 1, 'remaining': 34, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- उदाहरण 2 के हल में "मरीच = किरण/सूर्य" लिखा है, जो तथ्यात्मक रूप से गलत है; मरीच सूर्य का मानक पर्याय नहीं है (यह ऋषि या काली मिर्च का नाम है) → इस कथन को हटाएं या सही करें कि मरीच वायु का पर्याय नहीं है।', '- सूर्य के पर्याय के लिए दिया गया स्मरण सूत्र "भरदिया" सूचीबद्ध शब्दों (भास्कर, रवि, दिनकर, आदित्य) के प्रारंभिक अक्षरों (भ, र, द, आ) से मेल नहीं खाता → सही संक्षेप "भरदआ" या कोई अन्य उपयुक्त स्मरण सूत्र बनाएं।', '- क्षेत्रीय/बोलचाल पर्याय की तालिका में "अन्न" को "भात/चावल" का पर्याय बताया गया है, जबकि "अन्न" का अर्थ "अनाज/भोजन" है न कि विशेषतः चावल → "अन्न" को इस सूची से हटाएं या स्पष्ट करें कि यह सामान्य अर्थ में प्रयुक्त होता है।']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_10_paryayvachi/QA.json'}
-21-11 11:27:45   [Constitution_Basic] QA blocked: editorial:Content_en.txt
-21-11 11:27:45   [Constitution_Basic] QA needs_reference: sources:Content_en.txt
 21-11 11:27:52   [World_Geography] QA passed: structure
 21-11 11:28:53   [Economy_Basic] QA passed: structure
 21-11 11:29:25   [sandhi] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q2 key c vs re-solve b, Q3 key c vs re-solve b, Q4 key d vs re-solve b, Q7 key a vs re-solve b, Q8 k
@@ -123,6 +115,14 @@
 21-11 11:37:38   [World_Geography] QA passed: editorial:Content_hi.txt
 21-11 11:37:38   [World_Geography] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
 21-11 11:37:38 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_08_World_Geography: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_08_World_Geography/QA.json'}
+21-11 11:38:23   [Sports] QA passed: structure
+21-11 11:39:07   [Economy_Basic] QA passed: editorial:Content_en.txt
+21-11 11:39:07   [Economy_Basic] QA needs_reference: sources:Content_en.txt
+21-11 11:41:12   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q102 key b vs re-solve a, Q103 key a vs re-solve c, Q104 key c vs re-solve a, Q106 key b vs re-solve
+21-11 11:41:25   [Physics_Daily] QA passed: editorial:Content_en.txt
+21-11 11:41:25   [Physics_Daily] QA needs_reference: sources:Content_en.txt
+21-11 11:41:33   [Sports] QA passed: editorial:Content_en.txt
+21-11 11:41:33   [Sports] QA needs_reference: sources:Content_en.txt
 ````
 
 </details>
