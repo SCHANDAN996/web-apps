@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 12:02 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 12:03 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,25 +11,25 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 71 मिनट |
-| W10 | Chapter 15 Days Dates (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 17 मिनट |
-| W11 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 72 मिनट |
+| W10 | Chapter 15 Days Dates (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 18 मिनट |
+| W11 | Chapter 05 Direction Sense (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 | W12 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W2 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 40 मिनट |
+| W2 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 41 मिनट |
 | W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 71 मिनट |
-| W4 | Chapter 13 Awards (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 24 मिनट |
-| W5 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W6 | Chapter 17 Culture Art (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
-| W7 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W8 | Chapter 18 Science Tech (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
-| W9 | Chapter 19 Environment (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W4 | Chapter 13 Awards (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 25 मिनट |
+| W5 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W6 | Chapter 17 Culture Art (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 16 मिनट |
+| W7 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W8 | Chapter 18 Science Tech (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
+| W9 | Chapter 19 Environment (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 27 |
 | key 4 | 37 |
-| key 5 | 37 |
-| key 6 | 24 |
+| key 5 | 38 |
+| key 6 | 25 |
 
 ## किताबों की प्रगति
 
@@ -62,7 +62,7 @@
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 31/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 29/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 38/1482 |
-| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 5/1716 |
+| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 7/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 0/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 0/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 0/1794 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 103/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 105/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,14 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 11:49:59   [Books_Authors] QA needs_reference: sources:Content_en.txt
-21-11 11:50:34   [Physical_Geography] QA passed: editorial:Content_hi.txt
-21-11 11:50:34   [Physical_Geography] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
-21-11 11:50:34 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_06_Physical_Geography: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_06_Physical_Geography/QA.json'}
-21-11 11:50:59   [Chemistry] QA blocked: editorial:Content_hi.txt
-21-11 11:50:59   [Chemistry] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
-21-11 11:50:59 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_11_Chemistry: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In the linguistic contrast table, the row for oxidation/reduction reads “ऑक्सीकरण (उपचयन) / अपचयन” which incorrectly attaches “उपचयन” (reduction) to “ऑक्सीकरण” (oxidation) → should be “ऑक्सीकरण / अपचयन” to correctly pair oxidation with oxidation and reduction with reduction.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_11_Chemistry/QA.json'}
-21-11 11:51:41   [Environment] QA passed: structure
 21-11 11:51:59   [Culture_Art] QA passed: editorial:Content_en.txt
 21-11 11:51:59   [Culture_Art] QA needs_reference: sources:Content_en.txt
 21-11 11:52:20   [Analogy] QA passed: structure
@@ -123,6 +115,14 @@
 21-11 12:02:22 QA 10th_Level/Reasoning/Chapter_01_Analogy: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In the letter analogy exercise "AB : YZ :: CD : ?", the first pair AB:YZ is incorrect per the opposite-letter rule (A↔Z, B↔Y) which yields ZY; the example should read "AB : ZY :: CD : ?" → Correct the example to "AB : ZY :: CD : ?" (answer XW remains valid).']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_01_Analogy/QA.json'}
 21-11 12:02:54   [Blood_Relations] QA passed: editorial:Content_en.txt
 21-11 12:02:54   [Blood_Relations] QA needs_reference: sources:Content_en.txt
+21-11 12:03:09   [Direction_Sense] QA passed: structure
+21-11 12:03:14   [Awards] QA infrastructure blocked editorial:Content_hi.txt: too_long
+21-11 12:03:14   [Awards] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 1, "pending": 75, "blocked": 1, "needs_reference": 1, "remaining": 77, 
+21-11 12:03:14 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_13_Awards: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 1, 'pending': 75, 'blocked': 1, 'needs_reference': 1, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The list of 2025 Nobel Prize winners (Peace, Literature, Physics, Chemistry, Medicine, Economics) is fabricated; the 2025 Nobel Prizes have not been announced yet. → Remove the speculative 2025 Nobel Prize winners list.', '- The 2025 International Booker Prize winner (Banu Mushtaq\'s "Heart Lamp") is fabricated; the 2025 International Booker Prize has not been announced yet. → Remove the speculative 2025 International Booker Prize winner.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: First Hindi writer: Sumitranandan Pant (1968, "Chidambara").', 'Fetch official supporting evidence for: Saraswati Samman — by the K. K. Birla Foundation, started in 1991; first recipient Harivansh Rai Bachchan for his four-part autobiography. The same foundation gives the Vyas Samman for Hindi literature.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_13_Awards/QA.json'}
+21-11 12:03:28   [sandhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q26 key c vs re-solve b, Q27 key d vs re-solve c, Q28 key a vs re-solve b, Q29 key a vs re-solve c, 
+21-11 12:03:37   [Science_Tech] QA passed: editorial:Content_hi.txt
+21-11 12:03:37   [Science_Tech] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
+21-11 12:03:37 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_18_Science_Tech: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_18_Science_Tech/QA.json'}
 ````
 
 </details>

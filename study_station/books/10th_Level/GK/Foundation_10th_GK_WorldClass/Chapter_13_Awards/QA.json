@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "51f575b982a256555ef376653dd1683ed907268d8d419a7a697af40dcda3fe24",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "5ca10c9d99b63d4cc2376ffb749e2798e310d7198956dcd3de143a111bf10cdd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "148ea51a6745d4dd4aa8baef8c4e53cbd7af7cfe0e1756c9e5c60cc53ce768ad",
+        "Content_hi.txt": "d78d422f9f964ab5d6760a6d34e68678d341f1cb0718ea5840bf2f837859d0dd",
+        "Feynman_en.txt": "6918f137ec70a2c41ce36f665419dfe8602d0db8686aa39602065722d97de689",
+        "Feynman_hi.txt": "769532858a0b5d852141fc32bda2025e84f90180b2cda3937c3068c7ac862e81",
+        "Flashcards_en.txt": "24340966e2dde1f4befe99e28e0ed180d4942feb79b976920119d74d6ca4e76f",
+        "Flashcards_hi.txt": "30af5d280056f4be55b60873febc659da8852bdee6895c641a1e1c36de1e86b9",
+        "Key_Facts_en.txt": "c230e60081bb4b2c19b124ba5c4b8efe23e55658ebab04a7c6461aeb5ed3c3e1",
+        "Key_Facts_hi.txt": "85145b531d80e9ee8d8f4766f0024a1a2e6736a93b379c8ba01a94241746c283",
+        "Memory_Hooks_en.txt": "c3e2895d9bc3d3d5d29490d8167ca4a1946980b02121e12ca187bcaabb523f88",
+        "Memory_Hooks_hi.txt": "38711f40cd5d5cf4a1f7a51ac1ee6379d48c72970d5eb07231e5a95e8f2a76e3",
+        "Mind_Map.txt": "65995c234cd52d56cc43560896a6688631e2397675860d095daffd054b4573c7",
+        "PYQ_en.txt": "e56b8105bce04bf99a29b43d0d426819d099485c349b20cec8f556fdc77f021f",
+        "PYQ_hi.txt": "c271009a75cbc61fbd600a8f1880e2ab7e4090d1bf3697643076b14b1bf17dbf",
+        "Practice_en_Set_01.txt": "ab7a58adde1f4ecd1cabcefd2c2f36dac35f43889dfcd2f36802a3c90ffb3116",
+        "Practice_en_Set_02.txt": "d7d2bc7f236973fa74a09b851d9ec77bf1aefb178667946c3b89efd4598cf321",
+        "Practice_en_Set_03.txt": "509bf413261f51acf7699f8e2028f8cc1e744fef3088be868015781461f8729c",
+        "Practice_en_Set_04.txt": "3721233cb548f3c16ec6346f0daa88f4c3679b8abad269a820be43d83cc32d3a",
+        "Practice_en_Set_05.txt": "c3e6dc4502307fcea8571d020cb31476ba408ac265f1fe32e3dd37845abdf6df",
+        "Practice_en_Set_06.txt": "724caffd60a18eb3e4eebc76527f67933af80cdf9782bfe8f8c38f213cb6f930",
+        "Practice_hi_Set_01.txt": "62f86361c296f53b6e4f2b7fd83a6c9c9dcfd772b938ba5f726ba4b62ed6b387",
+        "Practice_hi_Set_02.txt": "3d460b56681d9d4255880cf5e2c0ad5cb64d575612bb6e97ed6c1133c6fbf9fd",
+        "Practice_hi_Set_03.txt": "8b912baff80209f801ca0b2c2657b96979c1634143901d6ab1db3da1b145cb0b",
+        "Practice_hi_Set_04.txt": "a951b084dc85ded06c83833ad18d0f4a7eca2cbce5d87bac712c24dfa2378b3a",
+        "Practice_hi_Set_05.txt": "8efa5dd7a6caee5e3781ca7054c82ab26aec98957d6f21405b422f344d4eb297",
+        "Practice_hi_Set_06.txt": "a5f28924d5a3288193b1cefa0bb2c7c93a1a6ceb01f20a77d780d8459bf641bd",
+        "inventory": {
+          "Content_en.txt": "148ea51a6745d4dd4aa8baef8c4e53cbd7af7cfe0e1756c9e5c60cc53ce768ad",
+          "Content_hi.txt": "d78d422f9f964ab5d6760a6d34e68678d341f1cb0718ea5840bf2f837859d0dd",
+          "Feynman_en.txt": "6918f137ec70a2c41ce36f665419dfe8602d0db8686aa39602065722d97de689",
+          "Feynman_hi.txt": "769532858a0b5d852141fc32bda2025e84f90180b2cda3937c3068c7ac862e81",
+          "Flashcards_en.txt": "24340966e2dde1f4befe99e28e0ed180d4942feb79b976920119d74d6ca4e76f",
+          "Flashcards_hi.txt": "30af5d280056f4be55b60873febc659da8852bdee6895c641a1e1c36de1e86b9",
+          "Key_Facts_en.txt": "c230e60081bb4b2c19b124ba5c4b8efe23e55658ebab04a7c6461aeb5ed3c3e1",
+          "Key_Facts_hi.txt": "85145b531d80e9ee8d8f4766f0024a1a2e6736a93b379c8ba01a94241746c283",
+          "Memory_Hooks_en.txt": "c3e2895d9bc3d3d5d29490d8167ca4a1946980b02121e12ca187bcaabb523f88",
+          "Memory_Hooks_hi.txt": "38711f40cd5d5cf4a1f7a51ac1ee6379d48c72970d5eb07231e5a95e8f2a76e3",
+          "Mind_Map.txt": "65995c234cd52d56cc43560896a6688631e2397675860d095daffd054b4573c7",
+          "PYQ_en.txt": "e56b8105bce04bf99a29b43d0d426819d099485c349b20cec8f556fdc77f021f",
+          "PYQ_hi.txt": "c271009a75cbc61fbd600a8f1880e2ab7e4090d1bf3697643076b14b1bf17dbf",
+          "Practice_en_Set_01.txt": "ab7a58adde1f4ecd1cabcefd2c2f36dac35f43889dfcd2f36802a3c90ffb3116",
+          "Practice_en_Set_02.txt": "d7d2bc7f236973fa74a09b851d9ec77bf1aefb178667946c3b89efd4598cf321",
+          "Practice_en_Set_03.txt": "509bf413261f51acf7699f8e2028f8cc1e744fef3088be868015781461f8729c",
+          "Practice_en_Set_04.txt": "3721233cb548f3c16ec6346f0daa88f4c3679b8abad269a820be43d83cc32d3a",
+          "Practice_en_Set_05.txt": "c3e6dc4502307fcea8571d020cb31476ba408ac265f1fe32e3dd37845abdf6df",
+          "Practice_en_Set_06.txt": "724caffd60a18eb3e4eebc76527f67933af80cdf9782bfe8f8c38f213cb6f930",
+          "Practice_hi_Set_01.txt": "62f86361c296f53b6e4f2b7fd83a6c9c9dcfd772b938ba5f726ba4b62ed6b387",
+          "Practice_hi_Set_02.txt": "3d460b56681d9d4255880cf5e2c0ad5cb64d575612bb6e97ed6c1133c6fbf9fd",
+          "Practice_hi_Set_03.txt": "8b912baff80209f801ca0b2c2657b96979c1634143901d6ab1db3da1b145cb0b",
+          "Practice_hi_Set_04.txt": "a951b084dc85ded06c83833ad18d0f4a7eca2cbce5d87bac712c24dfa2378b3a",
+          "Practice_hi_Set_05.txt": "8efa5dd7a6caee5e3781ca7054c82ab26aec98957d6f21405b422f344d4eb297",
+          "Practice_hi_Set_06.txt": "a5f28924d5a3288193b1cefa0bb2c7c93a1a6ceb01f20a77d780d8459bf641bd"
+        }
+      },
+      "checked_at": "2026-11-21T06:07:31+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "76995f796a872277719d7705b87b32efd2934004a277a97240425a07df5f44b1",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The list of 2025 Nobel Prize winners (Peace, Literature, Physics, Chemistry, Medicine, Economics) is fabricated; the 2025 Nobel Prizes have not been announced yet. → Remove the speculative 2025 Nobel Prize winners list.",
+        "- The 2025 International Booker Prize winner (Banu Mushtaq's \"Heart Lamp\") is fabricated; the 2025 International Booker Prize has not been announced yet. → Remove the speculative 2025 International Booker Prize winner."
+      ],
+      "dependencies": {
+        "chapter.json": "5ca10c9d99b63d4cc2376ffb749e2798e310d7198956dcd3de143a111bf10cdd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "148ea51a6745d4dd4aa8baef8c4e53cbd7af7cfe0e1756c9e5c60cc53ce768ad"
+      },
+      "checked_at": "2026-11-21T06:22:43+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "4ebed37d0994677249a2bad33cfc3b1bc91da9ec90c818c37ae2b873478345a3",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: First Hindi writer: Sumitranandan Pant (1968, \"Chidambara\").",
+        "Fetch official supporting evidence for: Saraswati Samman — by the K. K. Birla Foundation, started in 1991; first recipient Harivansh Rai Bachchan for his four-part autobiography. The same foundation gives the Vyas Samman for Hindi literature."
+      ],
+      "dependencies": {
+        "chapter.json": "5ca10c9d99b63d4cc2376ffb749e2798e310d7198956dcd3de143a111bf10cdd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "148ea51a6745d4dd4aa8baef8c4e53cbd7af7cfe0e1756c9e5c60cc53ce768ad",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T06:22:43+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T06:33:14+00:00",
+  "last_error": {
+    "check": "editorial:Content_hi.txt",
+    "error": "too_long",
+    "at": "2026-11-21T06:33:14+00:00"
+  }
+}
