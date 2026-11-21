@@ -110,11 +110,72 @@
         "Content_hi.txt": "eba7c97fe7edc16509cccb13b791f8449396418c963f1695f2addce5af0b4a6c"
       },
       "checked_at": "2026-11-21T06:06:32+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "e6af83220044760782a24f119890acd3d9380f5aea57016df044f990b70b5045",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: सिंधु जल संधि (1960): भारत को पूर्वी नदियाँ (रावी, ब्यास, सतलुज) मिलीं; पश्चिमी नदियाँ (सिंधु, झेलम, चिनाब) मुख्यतः पाकिस्तान को। NCERT के अनुसार भारत सिंधु तंत्र के कुल जल का केवल लगभग 20% उपयोग कर सकता है।"
+      ],
+      "dependencies": {
+        "chapter.json": "68ec62f2f56914719a0f3ced22cff2936421605c757893f64a973c836de5374c",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "eba7c97fe7edc16509cccb13b791f8449396418c963f1695f2addce5af0b4a6c",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:38:26+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "dd8f5e591189e79085debd38370a57947a56a34d05a0a7c3f303bbf0614d6dce",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- \"That is why the Godavari, Krishna, Kaveri and Mahanadi all flow east\" → Mahanadi originates in the Maikal Hills (Chhattisgarh), not the Western Ghats; its eastward flow is due to the general peninsular slope, not Western Ghats rainfall.",
+        "- \"Between the Vindhya and Satpura ranges… The Narmada and the Tapi flow along such troughs\" → Only Narmada flows between the Vindhya and Satpura ranges; Tapi flows in a rift valley south of the Satpura range."
+      ],
+      "dependencies": {
+        "chapter.json": "68ec62f2f56914719a0f3ced22cff2936421605c757893f64a973c836de5374c",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "5ebe55ba65a6ad6e15a1f8832bb5a4615127d7f700dd94256fe7325b4b693141"
+      },
+      "checked_at": "2026-11-21T10:40:02+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "d6dc014644d91eb7f865682e0dbdfe85a216571bdeaec5c4bdab27ed58bcdaa8",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "68ec62f2f56914719a0f3ced22cff2936421605c757893f64a973c836de5374c",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "5ebe55ba65a6ad6e15a1f8832bb5a4615127d7f700dd94256fe7325b4b693141",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:40:02+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "f5ce302931920d3f82d7db6b5dc58a39d3943c0b34f011052d05b19d0c15f5ee",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "68ec62f2f56914719a0f3ced22cff2936421605c757893f64a973c836de5374c",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "b19097786fd8131ca6725493c76882955981dfe0bbe93ef74b0f0354164a2664"
+      },
+      "checked_at": "2026-11-21T10:40:25+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T06:06:32+00:00",
+  "updated_at": "2026-11-21T10:40:26+00:00",
   "chapter_fingerprint": "77aa33356e847198c97c29355b33aaa243b9fa7d7d6e7bb3d9842bf9bdbab994"
 }
