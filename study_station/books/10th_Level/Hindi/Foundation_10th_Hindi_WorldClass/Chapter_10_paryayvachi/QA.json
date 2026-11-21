@@ -87,11 +87,72 @@
         "Feynman_hi.txt": "f11a5da927c342666a42b1670372736536c004ff29b796cb8552f302c37fec9f"
       },
       "checked_at": "2026-11-21T05:57:24+00:00"
+    },
+    "sources:Feynman_hi.txt": {
+      "fingerprint": "5a0feb1c81e8f9549a97e190e880d67528748bc3227165544fa0ac5c362c41d4",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "598676981092cfd338a7bd1a9295c36e8f9e37e8ddcfc4518991dd6bcc2a99ff",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Feynman_hi.txt": "f11a5da927c342666a42b1670372736536c004ff29b796cb8552f302c37fec9f",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:21:31+00:00"
+    },
+    "editorial:Flashcards_hi.txt": {
+      "fingerprint": "9a78d457f6028e9293a68dc7bd0ba078c26f79698028cb3b3f7a6f7ae1e9ac68",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "598676981092cfd338a7bd1a9295c36e8f9e37e8ddcfc4518991dd6bcc2a99ff",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Flashcards_hi.txt": "0d09b65e57676f8ba042af925b6754d76588062c8ab9bc47a683249e07fe085d"
+      },
+      "checked_at": "2026-11-21T10:26:00+00:00"
+    },
+    "sources:Flashcards_hi.txt": {
+      "fingerprint": "bb9882c652117387a70c2e2819388e7d0910545cbf01591c990843f7fa7c6141",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "598676981092cfd338a7bd1a9295c36e8f9e37e8ddcfc4518991dd6bcc2a99ff",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Flashcards_hi.txt": "0d09b65e57676f8ba042af925b6754d76588062c8ab9bc47a683249e07fe085d",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:26:00+00:00"
+    },
+    "editorial:Important_Rules_hi.txt": {
+      "fingerprint": "a7d9aa8ee15307a8066d5e2725e1ed43897a388f5e9ba9b14738ee13e1708694",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- नियम ५ का उदाहरण भ्रामक है: \"भात\" मानक हिन्दी में पके चावल के लिये प्रयुक्त होता है (दाल-भात), जबकि \"चावल\" कच्चे चावल के लिये; यह केवल बोलीगत अन्तर नहीं, अर्थ-भेद है → \"भात\" और \"चावल\" पर्यायवाची नहीं हैं क्योंकि अर्थ भिन्न है (पका/कच्चा), न कि केवल बोलीगत प्रयोग के कारण",
+        "- सारणी (नियम १५) के \"अर्थ\" स्तम्भ में हर पंक्ति में अर्थ के स्थान पर प्रथम स्तम्भ का शब्द ही दोहरा दिया गया है (जैसे अग्नि→अग्नि, जल→जल, गृह→घर) → \"अर्थ\" स्तम्भ में वास्तविक अर्थ लिखें (जैसे अग्नि→आग/अग्नि तत्व, जल→पानी, गृह→घर/निवास स्थान)"
+      ],
+      "dependencies": {
+        "chapter.json": "598676981092cfd338a7bd1a9295c36e8f9e37e8ddcfc4518991dd6bcc2a99ff",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Important_Rules_hi.txt": "a47ed3cbab09a4773810e43ff48ac3a0fb15c29b7ea4aa5e9e80bbd32dd2a910"
+      },
+      "checked_at": "2026-11-21T10:31:40+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T05:57:24+00:00",
-  "chapter_fingerprint": "d919dd8bd209492085d19523a18eb7d11ca3cb5cf6d98efc4475f2ff3a422c71"
+  "updated_at": "2026-11-21T10:31:40+00:00",
+  "chapter_fingerprint": "d3a011041e93cad228c9735d4dacd9f062384ab708ca989ceb8ef11a1225bc22"
 }
