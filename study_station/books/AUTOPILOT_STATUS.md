@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 139 मिनट |
-| W10 | Chapter 03 Simplification (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W12 | Chapter 02 LCM HCF (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 140 मिनट |
+| W10 | Chapter 03 Simplification (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W11 | Chapter 09 Simple Interest (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W12 | Chapter 02 LCM HCF (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
 | W2 | Chapter 01 Number System (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
 | W3 | Chapter 19 Fill in Blanks Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W4 | Chapter 08 Profit Loss (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W5 | Chapter 07 Ratio Proportion (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W6 | Chapter 06 Average (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W7 | Chapter 05 Percentage (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W8 | Chapter 04 Fractions Decimals (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W9 | Chapter 20 Sentence Improvement Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W4 | Chapter 08 Profit Loss (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W5 | Chapter 07 Ratio Proportion (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W6 | Chapter 06 Average (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W7 | Chapter 05 Percentage (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W8 | Chapter 04 Fractions Decimals (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 75 |
+| key 3 | 76 |
 | key 4 | 69 |
-| key 5 | 87 |
-| key 6 | 59 |
+| key 5 | 88 |
+| key 6 | 60 |
 
 ## किताबों की प्रगति
 
@@ -64,7 +64,7 @@
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
-| 12th Maths | 0 | 23 | 0 | 0 | 0 | 22/1794 |
+| 12th Maths | 0 | 23 | 0 | 0 | 0 | 25/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 0/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 0/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 0/2025 |
@@ -72,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 287/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 290/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,12 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 13:04:27 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_02_LCM_HCF: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_02_LCM_HCF/QA.json'}
-21-11 13:04:57   [Number_System] QA passed: editorial:Content_hi.txt
-21-11 13:04:57   [Number_System] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
-21-11 13:04:58 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- "The root must be non-terminating to be irrational" is false; non-terminating repeating decimals (e.g., 1/3 = 0.333…) are rational. → Irrational numbers have decimal expansions that are both non-terminating and non-repeating (or cannot be expressed as p/q).']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System/QA.json'}
-21-11 13:05:05   [Simplification] QA passed: editorial:Content_en.txt
-21-11 13:05:05   [Simplification] QA needs_reference: sources:Content_en.txt
 21-11 13:05:29   [Fractions_Decimals] QA passed: structure
 21-11 13:06:05   [Simplification] QA passed: editorial:Content_hi.txt
 21-11 13:06:05   [Simplification] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
@@ -126,6 +120,12 @@
 21-11 13:11:08   [Profit_Loss] QA needs_reference: sources:Content_en.txt
 21-11 13:11:22   [Simple_Interest] QA passed: editorial:Content_en.txt
 21-11 13:11:22   [Simple_Interest] QA needs_reference: sources:Content_en.txt
+21-11 13:12:11   [Profit_Loss] QA passed: editorial:Content_hi.txt
+21-11 13:12:15   [Profit_Loss] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 13:12:16 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_08_Profit_Loss: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- In Special Cases, the dishonest dealer formula "Profit % = (Error ÷ True weight − Error) × 100" is missing parentheses around the denominator → Should be "Profit % = (Error ÷ (True weight − Error)) × 100"']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_08_Profit_Loss/QA.json'}
+21-11 13:12:17   [Compound_Interest] QA passed: structure
+21-11 13:12:51   [Compound_Interest] QA passed: editorial:Content_en.txt
+21-11 13:12:51   [Compound_Interest] QA needs_reference: sources:Content_en.txt
 ````
 
 </details>

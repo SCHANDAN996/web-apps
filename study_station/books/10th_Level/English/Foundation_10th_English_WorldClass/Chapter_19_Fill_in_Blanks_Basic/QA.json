@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "248ab5154cc8758b56cb88ff7b644f77594ae306a4fa6b3e07a60f124c1f21e3",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "76bae0e3973fe50e617a7959411b4f89d6f0b87c792bd2573517bb90d646a118",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "7b1107a735c4f4edeb3277962c2c7d3ebaa9c48d9e5015e9879199700a6e438c",
+        "Content_hi.txt": "857055c849c834923b0abe94e9be9e8836da004025c8551edcf45c225b49ec2c",
+        "Feynman_en.txt": "c770198812916d9de40768954a967123cdc7225a5f18417dae666f749917c840",
+        "Feynman_hi.txt": "f2a882c3c2d2982d493608d346a5542e8d9b082d364432aaf45dc041a0d1a8b1",
+        "Flashcards_en.txt": "d71c3bdbdb9fd38acd821323ef7e80032d746de19b4482b99887e102705f196b",
+        "Flashcards_hi.txt": "66762dc073795be9c57ca5d862104b77a82bf7a829a52b514d89d55b3685fe64",
+        "Important_Rules_en.txt": "7e0dd1bc0fc66f96d7c2baedc0ac9693ed9177ef8ffac3dc579760661b905d68",
+        "Important_Rules_hi.txt": "5d648e926a6dc3ddb16f51f6bb0d2c8ca4223b36991a85dab2738b7a7b7829ac",
+        "Mind_Map_en.txt": "e41e5365ef09c0b4be1132605c11796659bc8abb3a7c7f46d8b3a1541411f981",
+        "Mind_Map_hi.txt": "6877ada5d88e14b0cf9500030bb7a0c0696cd1463b21a515bb9fb80635e51fcd",
+        "PYQ_en.txt": "233ef87c33d77c4a03eb7385c710c4839b0eeca71d23bac9a1641d11f1206d34",
+        "PYQ_hi.txt": "095cf92d7c604b56da86b8228461e529fa52d6baceadf82e7e6da69681c013a6",
+        "Practice_en_Set_01.txt": "5c4ed828bf36025eebd5a342eab66b804f9f45ff4fee1154c8e6d1de49b4618c",
+        "Practice_en_Set_02.txt": "a7368f7578e94cb6af49b2de42d1f82d13f82ce2a2790d7a3c9becd265ec8752",
+        "Practice_en_Set_03.txt": "d58277e525e2f21b1afbca40b80dc201089be6e68be1e021e695918f5cb84e5a",
+        "Practice_en_Set_04.txt": "2a51898bf014641e08acae08553928ec039368a1ca87fd4ab0965eb2953afbb3",
+        "Practice_en_Set_05.txt": "c80c3436d01aa8e984dfbcd4d522224cadf784f824948e89039dd6dc753c9132",
+        "Practice_en_Set_06.txt": "feb8e0c948248be03071b59160253fc545c23628622ee21bb0426c3758db9823",
+        "Practice_hi_Set_01.txt": "addcc0ab9b5e2a145da811413d6508cf90f7e3cc0f56019fb5c92aff8086b5ef",
+        "Practice_hi_Set_02.txt": "ab5483cb701a70c78264ef0fcb7d24142f0ec74359fdb4179defeb35b3976e34",
+        "Practice_hi_Set_03.txt": "0ab5f94bd3c97f89b9dbeacd2282e76f66593aed26b3a862ed0823841e3b15d3",
+        "Practice_hi_Set_04.txt": "57a4ddac4335bf4fa2abbee1107969d54564068cddaf4b43e69b2eb51d35e97b",
+        "Practice_hi_Set_05.txt": "0ea153724131c11a4afad26a38ecc5d6daf3aeb9d8f4345e11926e6cf1bc366b",
+        "Practice_hi_Set_06.txt": "a99a3df51f55cd1e135e34b6f179dd1e25a36de8b27bab96fe9442eb713e6f5e",
+        "Short_Tricks_en.txt": "35e7d6a039d753de91d9e69a3b14665b97c5a3f88469ba7f70583b800a72bb53",
+        "Short_Tricks_hi.txt": "3ff5ecf351228687cf3b479c94390c345d9c004ede4a874b967773ccde17087d",
+        "inventory": {
+          "Content_en.txt": "7b1107a735c4f4edeb3277962c2c7d3ebaa9c48d9e5015e9879199700a6e438c",
+          "Content_hi.txt": "857055c849c834923b0abe94e9be9e8836da004025c8551edcf45c225b49ec2c",
+          "Feynman_en.txt": "c770198812916d9de40768954a967123cdc7225a5f18417dae666f749917c840",
+          "Feynman_hi.txt": "f2a882c3c2d2982d493608d346a5542e8d9b082d364432aaf45dc041a0d1a8b1",
+          "Flashcards_en.txt": "d71c3bdbdb9fd38acd821323ef7e80032d746de19b4482b99887e102705f196b",
+          "Flashcards_hi.txt": "66762dc073795be9c57ca5d862104b77a82bf7a829a52b514d89d55b3685fe64",
+          "Important_Rules_en.txt": "7e0dd1bc0fc66f96d7c2baedc0ac9693ed9177ef8ffac3dc579760661b905d68",
+          "Important_Rules_hi.txt": "5d648e926a6dc3ddb16f51f6bb0d2c8ca4223b36991a85dab2738b7a7b7829ac",
+          "Mind_Map_en.txt": "e41e5365ef09c0b4be1132605c11796659bc8abb3a7c7f46d8b3a1541411f981",
+          "Mind_Map_hi.txt": "6877ada5d88e14b0cf9500030bb7a0c0696cd1463b21a515bb9fb80635e51fcd",
+          "PYQ_en.txt": "233ef87c33d77c4a03eb7385c710c4839b0eeca71d23bac9a1641d11f1206d34",
+          "PYQ_hi.txt": "095cf92d7c604b56da86b8228461e529fa52d6baceadf82e7e6da69681c013a6",
+          "Practice_en_Set_01.txt": "5c4ed828bf36025eebd5a342eab66b804f9f45ff4fee1154c8e6d1de49b4618c",
+          "Practice_en_Set_02.txt": "a7368f7578e94cb6af49b2de42d1f82d13f82ce2a2790d7a3c9becd265ec8752",
+          "Practice_en_Set_03.txt": "d58277e525e2f21b1afbca40b80dc201089be6e68be1e021e695918f5cb84e5a",
+          "Practice_en_Set_04.txt": "2a51898bf014641e08acae08553928ec039368a1ca87fd4ab0965eb2953afbb3",
+          "Practice_en_Set_05.txt": "c80c3436d01aa8e984dfbcd4d522224cadf784f824948e89039dd6dc753c9132",
+          "Practice_en_Set_06.txt": "feb8e0c948248be03071b59160253fc545c23628622ee21bb0426c3758db9823",
+          "Practice_hi_Set_01.txt": "addcc0ab9b5e2a145da811413d6508cf90f7e3cc0f56019fb5c92aff8086b5ef",
+          "Practice_hi_Set_02.txt": "ab5483cb701a70c78264ef0fcb7d24142f0ec74359fdb4179defeb35b3976e34",
+          "Practice_hi_Set_03.txt": "0ab5f94bd3c97f89b9dbeacd2282e76f66593aed26b3a862ed0823841e3b15d3",
+          "Practice_hi_Set_04.txt": "57a4ddac4335bf4fa2abbee1107969d54564068cddaf4b43e69b2eb51d35e97b",
+          "Practice_hi_Set_05.txt": "0ea153724131c11a4afad26a38ecc5d6daf3aeb9d8f4345e11926e6cf1bc366b",
+          "Practice_hi_Set_06.txt": "a99a3df51f55cd1e135e34b6f179dd1e25a36de8b27bab96fe9442eb713e6f5e",
+          "Short_Tricks_en.txt": "35e7d6a039d753de91d9e69a3b14665b97c5a3f88469ba7f70583b800a72bb53",
+          "Short_Tricks_hi.txt": "3ff5ecf351228687cf3b479c94390c345d9c004ede4a874b967773ccde17087d"
+        }
+      },
+      "checked_at": "2026-11-21T07:30:54+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "0e3f604db8bafe6bc8a7c0e8be40c4736c707ae9aafc4416eebe5e9fd7d33eb9",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Rule of thumb in Linguistic Bridge incorrectly labels Hindi \"जाता है\" as present continuous → \"जाता है\" is simple present, not present continuous; the contrast should be between simple present (जाता है) and present continuous (जा रहा है)"
+      ],
+      "dependencies": {
+        "chapter.json": "76bae0e3973fe50e617a7959411b4f89d6f0b87c792bd2573517bb90d646a118",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "7b1107a735c4f4edeb3277962c2c7d3ebaa9c48d9e5015e9879199700a6e438c"
+      },
+      "checked_at": "2026-11-21T07:32:47+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "87da8afd0dbac9743c4a2546dd68dfe2bc08b7af62167d8c40082327b03f63c0",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "76bae0e3973fe50e617a7959411b4f89d6f0b87c792bd2573517bb90d646a118",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "7b1107a735c4f4edeb3277962c2c7d3ebaa9c48d9e5015e9879199700a6e438c",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T07:32:47+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "af56987fb774d5ecefdf294e220842344109920596941783cf62a4794e8c213a",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "76bae0e3973fe50e617a7959411b4f89d6f0b87c792bd2573517bb90d646a118",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "857055c849c834923b0abe94e9be9e8836da004025c8551edcf45c225b49ec2c"
+      },
+      "checked_at": "2026-11-21T07:33:51+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T07:33:51+00:00",
+  "chapter_fingerprint": "12ba8d927a4729127ff5d741bfbd21482528261013386b954346ee74df7775ff"
+}
