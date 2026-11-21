@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "4679a18227f9bab8701eb53abcc33bebb189761769ea57bc4fd9e74b62bd1d26",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "21a01a8615b44c07007ce4108da7d1747606827ee06e506740bab0dafb8a79ff",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "972273efbfa57d8e396b198b67a4ee4657ad471866e4bed765c588abfd9d8f64",
+        "Content_hi.txt": "5c0580a58c4368c3081036b04015eaacd11a8df7207edea5041a457c17ac579d",
+        "Feynman_en.txt": "246ed2d58c0a0a9053febd674ea4477e74e9108d998dafe29623fa99b8954c22",
+        "Feynman_hi.txt": "757384acec1829323070ce23b4c86041088cc1f11499c3d0ea5cb97f8e699c18",
+        "Flashcards_en.txt": "d04cfec7a2adaecc734124e2e85c9c2f717f648f1e130edf82f19c23ef6d0327",
+        "Flashcards_hi.txt": "61f929f4131b0c25b18834ff132ab5b3fc9a4a50ab1269e5e8936fd115cff405",
+        "Important_Rules_en.txt": "13ce9b4babba4089e6815115070b2bf57f2c8b6329004bab1fb65b629c2ee554",
+        "Important_Rules_hi.txt": "28cbbcba0d9a1465e911571893ae0d590ee2905ff7bb6c54a5067c2729efe064",
+        "Mind_Map.txt": "fadb4e7d64dfc67701d5548990dbb496b1923dd2c7e2f130c3797a84ea7d4da0",
+        "PYQ_en.txt": "492b4266a7dccf4e0abaa795cc09141eb6db49d1b6836d7f9adce16e1549108e",
+        "PYQ_hi.txt": "c6267a7e2ce31bc32046df59943618d17b02eccc35b297537c917b19880a189e",
+        "Practice_en_Set_01.txt": "2be8ccf351bbb6518c15f82aa891e4a201024e4ff34c08ce5db32d60d6137aed",
+        "Practice_en_Set_02.txt": "cb929c740cea3f75f8b622cda19a3d667ebd42b30d52e6afc8fa904ca9856ac1",
+        "Practice_en_Set_03.txt": "73ba64b4cb790a4f8f3f69f14848a7c8b761d8ddfc558f2e4295e100e8cdee9c",
+        "Practice_en_Set_04.txt": "8be7c50ec1a0cdf902508fa8e1e1d5ab4296570d5db95a81ece4ab983e0de36f",
+        "Practice_en_Set_05.txt": "a9134c928dfa31551db14e0f5346f80518ad632f53567a64abc5a156fd8e97e1",
+        "Practice_en_Set_06.txt": "9411083189f4a169cca0f878f1c9d049de89b50a62e0def8a34110dab09ec6cb",
+        "Practice_hi_Set_01.txt": "6750255741bed74f516e133ed06401ace5a2b87ee6ee3355a5232605818bceaf",
+        "Practice_hi_Set_02.txt": "43efe250bbc6964e9f8d2060273c07ea3dae7cf0ab5c93876e05e0762021043b",
+        "Practice_hi_Set_03.txt": "4398b38828d775b0efcbb3787a3bd99e562fde75251bdd6a576aead5244ebb8f",
+        "Practice_hi_Set_04.txt": "23695a7430ee5404a4a5f564e39efdcefefdd26d2bb8c465b0455411f9bcf888",
+        "Practice_hi_Set_05.txt": "c055008684b19479753c5a016ac942b35f2b786e1b542389b861a9433a9d85bc",
+        "Practice_hi_Set_06.txt": "0d32e87a03bf9133bb53d6d54f39a0fe09327d4b66fdecea6d9051e9ba58a897",
+        "Short_Tricks_en.txt": "7db3f87eb125a00dec3df2751dfc81e42ec9cefd8a9326639c2e24c26c4b09c9",
+        "Short_Tricks_hi.txt": "20f398a0979b116726090f6e9cddef479280605c12f45a4617bd61268fe3a531",
+        "inventory": {
+          "Content_en.txt": "972273efbfa57d8e396b198b67a4ee4657ad471866e4bed765c588abfd9d8f64",
+          "Content_hi.txt": "5c0580a58c4368c3081036b04015eaacd11a8df7207edea5041a457c17ac579d",
+          "Feynman_en.txt": "246ed2d58c0a0a9053febd674ea4477e74e9108d998dafe29623fa99b8954c22",
+          "Feynman_hi.txt": "757384acec1829323070ce23b4c86041088cc1f11499c3d0ea5cb97f8e699c18",
+          "Flashcards_en.txt": "d04cfec7a2adaecc734124e2e85c9c2f717f648f1e130edf82f19c23ef6d0327",
+          "Flashcards_hi.txt": "61f929f4131b0c25b18834ff132ab5b3fc9a4a50ab1269e5e8936fd115cff405",
+          "Important_Rules_en.txt": "13ce9b4babba4089e6815115070b2bf57f2c8b6329004bab1fb65b629c2ee554",
+          "Important_Rules_hi.txt": "28cbbcba0d9a1465e911571893ae0d590ee2905ff7bb6c54a5067c2729efe064",
+          "Mind_Map.txt": "fadb4e7d64dfc67701d5548990dbb496b1923dd2c7e2f130c3797a84ea7d4da0",
+          "PYQ_en.txt": "492b4266a7dccf4e0abaa795cc09141eb6db49d1b6836d7f9adce16e1549108e",
+          "PYQ_hi.txt": "c6267a7e2ce31bc32046df59943618d17b02eccc35b297537c917b19880a189e",
+          "Practice_en_Set_01.txt": "2be8ccf351bbb6518c15f82aa891e4a201024e4ff34c08ce5db32d60d6137aed",
+          "Practice_en_Set_02.txt": "cb929c740cea3f75f8b622cda19a3d667ebd42b30d52e6afc8fa904ca9856ac1",
+          "Practice_en_Set_03.txt": "73ba64b4cb790a4f8f3f69f14848a7c8b761d8ddfc558f2e4295e100e8cdee9c",
+          "Practice_en_Set_04.txt": "8be7c50ec1a0cdf902508fa8e1e1d5ab4296570d5db95a81ece4ab983e0de36f",
+          "Practice_en_Set_05.txt": "a9134c928dfa31551db14e0f5346f80518ad632f53567a64abc5a156fd8e97e1",
+          "Practice_en_Set_06.txt": "9411083189f4a169cca0f878f1c9d049de89b50a62e0def8a34110dab09ec6cb",
+          "Practice_hi_Set_01.txt": "6750255741bed74f516e133ed06401ace5a2b87ee6ee3355a5232605818bceaf",
+          "Practice_hi_Set_02.txt": "43efe250bbc6964e9f8d2060273c07ea3dae7cf0ab5c93876e05e0762021043b",
+          "Practice_hi_Set_03.txt": "4398b38828d775b0efcbb3787a3bd99e562fde75251bdd6a576aead5244ebb8f",
+          "Practice_hi_Set_04.txt": "23695a7430ee5404a4a5f564e39efdcefefdd26d2bb8c465b0455411f9bcf888",
+          "Practice_hi_Set_05.txt": "c055008684b19479753c5a016ac942b35f2b786e1b542389b861a9433a9d85bc",
+          "Practice_hi_Set_06.txt": "0d32e87a03bf9133bb53d6d54f39a0fe09327d4b66fdecea6d9051e9ba58a897",
+          "Short_Tricks_en.txt": "7db3f87eb125a00dec3df2751dfc81e42ec9cefd8a9326639c2e24c26c4b09c9",
+          "Short_Tricks_hi.txt": "20f398a0979b116726090f6e9cddef479280605c12f45a4617bd61268fe3a531"
+        }
+      },
+      "checked_at": "2026-11-21T08:26:39+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "9f6d8c60059950fe6fb73bc23cf8daaec11620dec4391ad00ae04da34cc5cf64",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Section 3 example \"Ravi is the son of my father's only daughter\" concludes \"Ravi is my nephew\" despite acknowledging the speaker could be female (in which case Ravi would be the speaker's son); the answer should be conditional (nephew if speaker male, son if speaker female) or \"cannot be determined\" when gender is unknown."
+      ],
+      "dependencies": {
+        "chapter.json": "21a01a8615b44c07007ce4108da7d1747606827ee06e506740bab0dafb8a79ff",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "972273efbfa57d8e396b198b67a4ee4657ad471866e4bed765c588abfd9d8f64"
+      },
+      "checked_at": "2026-11-21T08:30:09+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "0080f6f17b60a0044d0e87f8d18632f1650e6d25cb6e4f55f41e556a2f9e196a",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "21a01a8615b44c07007ce4108da7d1747606827ee06e506740bab0dafb8a79ff",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "972273efbfa57d8e396b198b67a4ee4657ad471866e4bed765c588abfd9d8f64",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T08:30:09+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "33ccddf1d73e3f85626089525eb718c065f902d1ec9f149f79b4677caf32c0a9",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Family tree table: symbol for children (संतान) shown as horizontal dash '—' but described as vertical line 'खड़ी रेखा नीचे' → use vertical line symbol '|' or '│'"
+      ],
+      "dependencies": {
+        "chapter.json": "21a01a8615b44c07007ce4108da7d1747606827ee06e506740bab0dafb8a79ff",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "5c0580a58c4368c3081036b04015eaacd11a8df7207edea5041a457c17ac579d"
+      },
+      "checked_at": "2026-11-21T08:39:16+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T08:39:16+00:00",
+  "chapter_fingerprint": "32662fdbc192b2f75feb56c3db7b5a1552f497cb6eaa10674074b9715cadfd3f"
+}
