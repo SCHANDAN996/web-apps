@@ -5,30 +5,31 @@
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 20 Sentence Improvement Adv (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W11 | Chapter 12 Sentence Structure (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W1 | Chapter 20 Sentence Improvement Adv (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W10 | Chapter 22 Para Jumbles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W11 | Chapter 12 Sentence Structure (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
 | W12 | Chapter 14 Antonyms (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
 | W2 | Chapter 16 Idioms Phrases (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
 | W3 | Chapter 09 Articles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
 | W4 | Chapter 15 One Word Substitution (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
 | W5 | Chapter 18 Error Spotting Adv (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W6 | Chapter 21 Cloze Test (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W6 | Chapter 21 Cloze Test (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 | W7 | Chapter 17 Spelling (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 1 मिनट |
+| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 2 मिनट |
 | W9 | Chapter 19 Fill in Blanks Adv (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 131 |
-| key 4 | 117 |
+| key 4 | 118 |
 | key 5 | 120 |
-| key 6 | 107 |
+| key 6 | 108 |
 
 ## किताबों की प्रगति
 
@@ -67,12 +68,12 @@
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 104/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 96/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 101/1950 |
-| 12th English | 0 | 25 | 0 | 0 | 0 | 85/2025 |
+| 12th English | 0 | 25 | 0 | 0 | 0 | 87/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 826/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 828/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,10 +88,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 18:35:40 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_16_Idioms_Phrases: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The "High-Frequency Idiom Bank" heading and intro state these are idioms, but "Rome wasn\'t built in a day" is a proverb (a complete wise saying), not an idiom → Change heading to "High-Frequency Phrase Bank" or separate proverbs into their own list.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_16_Idioms_Phrases/QA.json'}
-21-11 18:36:08   [Spelling] QA needs_reference: sources:Content_hi.txt
-21-11 18:36:51   [Spelling] QA passed: editorial:Feynman_en.txt
-21-11 18:37:05   [Spelling] QA needs_reference: sources:Feynman_en.txt
 21-11 18:37:06   [Error_Spotting_Adv] QA needs_reference: sources:Content_hi.txt
 21-11 18:37:17   [Spelling] QA passed: editorial:Feynman_hi.txt
 21-11 18:37:17   [Spelling] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 73, "blocked": 2, "needs_reference": 3, "remaining": 78, 
@@ -127,6 +124,10 @@
 21-11 18:41:16 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_21_Cloze_Test: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ["- Worked example claims all four options pass grammar layer, but verb complementation rules eliminate prevent, forbid, block → Grammar layer must check complementation; only enable fits 'will ______ small businesses to grow.'"]}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_21_Cloze_Test/QA.json'}
 21-11 18:41:35   [Para_Jumbles] QA passed: editorial:Feynman_en.txt
 21-11 18:41:36   [Para_Jumbles] QA needs_reference: sources:Feynman_en.txt
+21-11 18:41:57   [Sentence_Arrangement] QA passed: structure
+21-11 18:41:57   [Para_Jumbles] QA passed: editorial:Feynman_hi.txt
+21-11 18:41:57   [Para_Jumbles] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
+21-11 18:41:58 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_22_Para_Jumbles: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- "Kerala\'s literacy campaign began in 1990 in Ernakulam district" (in Trap 1 example) → "Kerala\'s literacy campaign began in 1989 in Ernakulam district (declared fully literate in 1990)"']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_22_Para_Jumbles/QA.json'}
 ````
 
 </details>

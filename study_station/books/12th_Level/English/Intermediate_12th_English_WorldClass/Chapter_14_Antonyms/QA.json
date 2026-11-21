@@ -114,11 +114,71 @@
         "Content_hi.txt": "4a8fe19e0e693823bf7cd9363f70c92ddd23cc0cd2a50cf97f19fa57833a1fda"
       },
       "checked_at": "2026-11-21T09:15:42+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "8e09d83089bfc1a7a2f6df9c6225afc100852a518eefec68712cc533b9189529",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "ff6201f6f7ca180871c0a3aa57da0ade2213ea7d8a0f965a771e0cd1b34ba252",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "4a8fe19e0e693823bf7cd9363f70c92ddd23cc0cd2a50cf97f19fa57833a1fda",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T13:03:07+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "ee8f53049acd53c976beb1297318a63725c9eb19cdf605ef4d513190e5750759",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "ff6201f6f7ca180871c0a3aa57da0ade2213ea7d8a0f965a771e0cd1b34ba252",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "ee7cfe3e39a89d1cc2d313af6f5dfe90a6579915ddc417e205835f68a3fe4bd2"
+      },
+      "checked_at": "2026-11-21T13:03:31+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "bfbf9d195974c877de7015bbceb666896d4b9c8241da60ad356c9fc06d94b183",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "ff6201f6f7ca180871c0a3aa57da0ade2213ea7d8a0f965a771e0cd1b34ba252",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "ee7cfe3e39a89d1cc2d313af6f5dfe90a6579915ddc417e205835f68a3fe4bd2",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T13:03:31+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "cae8d3c08f22aeb241c6b02db4964418740c414373e7386b507d504b81d3e485",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The mnemonic \"सिक्का-सीढ़ी-स्विच\" (S-S-S) does not match the three antonym types explained (सीढ़ी/gradable, स्विच/complementary, संबंध/relational); it includes \"सिक्का\" (coin) instead of \"संबंध\" → Change the mnemonic to \"सीढ़ी-स्विच-संबंध\" to correctly represent the three types."
+      ],
+      "dependencies": {
+        "chapter.json": "ff6201f6f7ca180871c0a3aa57da0ade2213ea7d8a0f965a771e0cd1b34ba252",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "331b9482fdaee88b4b8fcd51c18740eb460d3b45c489cca4059995760ed4ec8a"
+      },
+      "checked_at": "2026-11-21T13:04:56+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T09:15:43+00:00",
+  "updated_at": "2026-11-21T13:04:57+00:00",
   "chapter_fingerprint": "c385b8547267da75da93415a346eca9746d03ddc0802a851765f7f7615c57094"
 }
