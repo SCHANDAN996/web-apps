@@ -1,34 +1,35 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 02:15 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 02:16 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 204 मिनट |
-| W10 | Chapter 07 Sitting Arrangement (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 205 मिनट |
+| W10 | Chapter 07 Sitting Arrangement (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
+| W11 | Chapter 16 Statement Conclusion (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 | W12 | Chapter 03 Coding Decoding (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 21 मिनट |
-| W2 | Chapter 11 Series (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W3 | Chapter 13 Dictionary Order (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W4 | Chapter 14 Alphabet Questions (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W5 | Chapter 23 Economic Terms (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 26 मिनट |
+| W2 | Chapter 11 Series (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W3 | Chapter 13 Dictionary Order (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W4 | Chapter 14 Alphabet Questions (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W5 | Chapter 23 Economic Terms (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 27 मिनट |
 | W6 | Chapter 12 Missing Term (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
 | W7 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 29 मिनट |
-| W8 | Chapter 15 Mathematical Operations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W9 | Chapter 10 Clock Calendar (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W8 | Chapter 15 Mathematical Operations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W9 | Chapter 10 Clock Calendar (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 110 |
-| key 4 | 102 |
+| key 4 | 103 |
 | key 5 | 117 |
-| key 6 | 89 |
+| key 6 | 90 |
 
 ## किताबों की प्रगति
 
@@ -66,13 +67,13 @@
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 54/1872 |
-| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 30/1950 |
+| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 33/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 0/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 411/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 414/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,13 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 14:09:26   [Clock_Calendar] QA passed: structure
-21-11 14:09:41   [Venn_Diagrams] QA passed: editorial:Content_hi.txt
-21-11 14:09:41   [Venn_Diagrams] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
-21-11 14:09:41 QA 12th_Level/Reasoning/Chapter_09_Venn_Diagrams: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_09_Venn_Diagrams/QA.json'}
-21-11 14:09:42   [Direction_Sense] QA passed: editorial:Content_hi.txt
-21-11 14:09:42   [Direction_Sense] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
-21-11 14:09:43 QA 12th_Level/Reasoning/Chapter_05_Direction_Sense: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The Type A substitution method incorrectly interprets "X is called Y" as "code word X = real Y", but in standard exam usage (SSC, Railway, Bank) the phrase means "real direction X is renamed Y in the code", so the decoding table must map code Y → real X. This inversion error makes the introductory example (walking towards coded \'North\' actually walks East, should be West) and the solved example (walking towards coded \'South\' actually walks East, should be West; final answer North-East, should be South-West) both wrong.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_05_Direction_Sense/QA.json'}
 21-11 14:10:15 ERROR 12th_Level/Reasoning/Chapter_06_Order_Ranking: CalledProcessError: Command '['git', 'add', '--', 'study_station/books/12th_Level/Reasoning/Chapter_06_Order_Ranking/QA.json', 'study_station/books/AUTOPILOT_STATUS.md']' returned non-zero exit status 128.
 21-11 14:10:39   [Series] QA passed: structure
 21-11 14:10:58   [Puzzles] QA passed: editorial:Content_hi.txt
@@ -126,6 +120,13 @@
 21-11 14:16:15   [Coding_Decoding] QA passed: editorial:Content_hi.txt
 21-11 14:16:15   [Coding_Decoding] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
 21-11 14:16:15 QA 12th_Level/Reasoning/Chapter_03_Coding_Decoding: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- In the "Clean example of increasing shift" explanation, the text says "A+2=C? No: A+2=C" which is contradictory; it should be "A+2=C? Yes: A+2=C" or simply "A+2=C".']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_03_Coding_Decoding/QA.json'}
+21-11 14:16:44   [Statement_Conclusion] QA passed: editorial:Content_en.txt
+21-11 14:16:44   [Statement_Conclusion] QA needs_reference: sources:Content_en.txt
+21-11 14:16:45   [Mathematical_Operations] QA passed: editorial:Content_en.txt
+21-11 14:16:45   [Mathematical_Operations] QA needs_reference: sources:Content_en.txt
+21-11 14:17:15   [Environment] QA passed: editorial:Content_hi.txt
+21-11 14:17:16   [Environment] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
+21-11 14:17:16 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_19_Environment: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: - **Rio Earth Summit, 1992** — Agenda 21, biodiversity & climate conventions.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_19_Environment/QA.json'}
 ````
 
 </details>
