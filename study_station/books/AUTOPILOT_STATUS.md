@@ -1,35 +1,34 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 06:49 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 06:50 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 20 Sentence Improvement Adv (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W10 | Chapter 22 Para Jumbles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W11 | Chapter 23 Sentence Arrangement (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W12 | Chapter 24 RC Basic (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W2 | Chapter 01 Number System Advanced (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W3 | Chapter 04 Fractions Decimals (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W1 | Chapter 06 Average (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W10 | Chapter 22 Para Jumbles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W11 | Chapter 23 Sentence Arrangement (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W12 | Chapter 24 RC Basic (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W2 | Chapter 01 Number System Advanced (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W3 | Chapter 04 Fractions Decimals (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 | W4 | Chapter 25 Word Roots (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W5 | Chapter 03 Simplification (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W6 | Chapter 21 Cloze Test (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W7 | Chapter 02 LCM HCF (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 10 मिनट |
-| W9 | Chapter 05 Percentage (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W5 | Chapter 03 Simplification (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W7 | Chapter 02 LCM HCF (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 11 मिनट |
+| W9 | Chapter 05 Percentage (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 137 |
 | key 4 | 124 |
-| key 5 | 121 |
-| key 6 | 112 |
+| key 5 | 122 |
+| key 6 | 113 |
 
 ## किताबों की प्रगति
 
@@ -69,11 +68,11 @@
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 96/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 101/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 94/2025 |
-| Graduation Maths | 0 | 28 | 0 | 0 | 0 | 14/2184 |
+| Graduation Maths | 0 | 28 | 0 | 0 | 0 | 18/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 849/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 853/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -88,15 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 18:43:47   [RC_Basic] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 2, "pending": 77, "blocked": 1, "needs_reference": 1, "remaining": 79, 
-21-11 18:43:48 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_24_RC_Basic: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 2, 'pending': 77, 'blocked': 1, 'needs_reference': 1, 'remaining': 79, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- "ऊपर के गद्यांश में छह root-शब्द हैं" → "ऊपर के गद्यांश में सात root-शब्द हैं" (chronic, inspect, thermal, predict, transport, geography, biosphere)']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_24_RC_Basic/QA.json'}
-21-11 18:44:04   [Sentence_Arrangement] QA passed: editorial:Content_hi.txt
-21-11 18:44:04   [Sentence_Arrangement] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 77, "blocked": 0, "needs_reference": 1, "remaining": 78, 
-21-11 18:44:04 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_23_Sentence_Arrangement: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 77, 'blocked': 0, 'needs_reference': 1, 'remaining': 78, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_23_Sentence_Arrangement/QA.json'}
-21-11 18:44:40   [Number_System_Advanced] QA passed: structure
-21-11 18:44:51   [Word_Roots] QA passed: editorial:Content_en.txt
-21-11 18:44:51   [Word_Roots] QA needs_reference: sources:Content_en.txt
-21-11 18:45:37   [LCM_HCF] QA passed: structure
 21-11 18:45:42   [Word_Roots] QA passed: editorial:Content_hi.txt
 21-11 18:45:42   [Word_Roots] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 77, "blocked": 0, "needs_reference": 1, "remaining": 78, 
 21-11 18:45:42 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_25_Word_Roots: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 77, 'blocked': 0, 'needs_reference': 1, 'remaining': 78, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_25_Word_Roots/QA.json'}
@@ -128,6 +118,15 @@
 21-11 18:50:17 QA Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_04_Fractions_Decimals: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_04_Fractions_Decimals/QA.json'}
 21-11 18:50:37   [Percentage] QA passed: editorial:Content_en.txt
 21-11 18:50:37   [Percentage] QA needs_reference: sources:Content_en.txt
+21-11 18:50:41   [Average] QA passed: editorial:Content_en.txt
+21-11 18:50:41   [Average] QA needs_reference: sources:Content_en.txt
+21-11 18:51:05   [Ratio_Proportion] QA passed: structure
+21-11 18:51:18   [Average] QA passed: editorial:Content_hi.txt
+21-11 18:51:18   [Average] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
+21-11 18:51:19 QA Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_06_Average: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_06_Average/QA.json'}
+21-11 18:51:26   [Percentage] QA passed: editorial:Content_hi.txt
+21-11 18:51:26   [Percentage] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
+21-11 18:51:27 QA Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_05_Percentage/QA.json'}
 ````
 
 </details>
