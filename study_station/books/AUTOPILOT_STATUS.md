@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 11:57 AM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 11:58 AM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,23 +11,23 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 66 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 67 मिनट |
 | W10 | Chapter 15 Days Dates (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
-| W11 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W12 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W2 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 35 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 66 मिनट |
+| W11 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W12 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W2 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 36 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 67 मिनट |
 | W4 | Chapter 13 Awards (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 20 मिनट |
-| W5 | Chapter 10 Physics Daily (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 26 मिनट |
-| W6 | Chapter 17 Culture Art (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W7 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 38 मिनट |
-| W8 | Chapter 18 Science Tech (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W9 | Chapter 19 Environment (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W5 | Chapter 10 Physics Daily (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 27 मिनट |
+| W6 | Chapter 17 Culture Art (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W7 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 39 मिनट |
+| W8 | Chapter 18 Science Tech (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W9 | Chapter 19 Environment (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 27 |
-| key 4 | 35 |
+| key 4 | 36 |
 | key 5 | 37 |
 | key 6 | 19 |
 
@@ -59,7 +59,7 @@
 
 | किताब | QA पास | जाँच बाकी | प्रमाण बाकी | सुधार अटका | मैनुअल | जाँचें पास / कुल |
 |---|---:|---:|---:|---:|---:|---:|
-| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 30/540 |
+| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 31/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 29/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 37/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 3/1716 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 99/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 100/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,8 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 11:46:08   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q102 key c vs re-solve a, Q103 key c vs re-solve b, Q106 key b vs re-solve a, Q110 key d vs re-solve
-21-11 11:46:20   [Chemistry] QA passed: editorial:Content_en.txt
 21-11 11:46:25   [Chemistry] QA needs_reference: sources:Content_en.txt
 21-11 11:46:25   [Culture_Art] QA passed: structure
 21-11 11:46:28   [Physical_Geography] QA passed: editorial:Content_en.txt
@@ -123,6 +121,8 @@
 21-11 11:58:22   [vakya_shuddhi] QA passed: editorial:Feynman_hi.txt
 21-11 11:58:22   [vakya_shuddhi] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 2, "pending": 32, "blocked": 1, "needs_reference": 1, "remaining": 34, 
 21-11 11:58:23 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 2, 'pending': 32, 'blocked': 1, 'needs_reference': 1, 'remaining': 34, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In the Case Markers note, the list of perfect/imperfect past forms (खाया है, खाया था, गया है, गया था) includes intransitive verbs while stating the rule for transitive verbs → The list should only contain transitive verb forms (e.g., खाया है, खाया था) or clarify that intransitive verbs do not take ने.', '- In the Word Order section, the example "मेज पर पुस्तक लाल है → लाल पुस्तक मेज पर है" claims "अर्थ अपरिवर्तित" but the meaning changes from predicative to attributive → Remove the claim or use an example where the adjective is attributive in both.', '- In the Pronoun-Antecedent Agreement table, the corrected sentence "सीता अपने भाई को बुलाई" remains ungrammatical (verb should agree with masculine object → बुलाया, and ने is missing) → The corrected sentence should be "सीता ने अपने भाई को बुलाया" or at least "सीता अपने भाई को बुलाया".', '- In Worked Example 5, the sentence "सीता अपना पुस्तक लाई" lacks ने for transitive simple past, introducing a second error besides the pronoun → The sentence should be "सीता ने अपनी पुस्तक लाई" to isolate the pronoun error.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi/QA.json'}
+21-11 11:58:32   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q102 key b vs re-solve a, Q103 key d vs re-solve c, Q111 key d vs re-solve a)
+21-11 11:58:49   [Coding_Decoding] QA passed: structure
 ````
 
 </details>

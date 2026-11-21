@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "ae248bb89d703d69d86e037f76f606817d7972b98029c49651a86b625f418ffd",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "34edf005f0251cff2d388e5d99a55045a28e4e689dead2655051faee07904edf",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Content_hi.txt": "0fbbfa47e98320284190a09652d95222a451c832755d4154c9206564489f6d2e",
+        "Feynman_hi.txt": "846bd7aea75ce777ecef81cba34d614505c617578afed2666e189a369cb1c589",
+        "Flashcards_hi.txt": "18ec8e9e3feec80035cd8c00a2ddb4191e8c5bb595066d58b135ca99b6fc561b",
+        "Important_Rules_hi.txt": "a593d7a041991be083bd7ffdf8c37e49e2c52e048744b61d743870b52afa747f",
+        "Key_Facts_hi.txt": "43d060cf7e9c30c619a61e7e51f65c2e6b29ff671c445d5eb0fd9ec1be3fd6cd",
+        "Mind_Map.txt": "e08c97b5121af19f1c551fa0ef6ad59de15de10022a8266abbd1531d671217a8",
+        "PYQ_hi.txt": "81e6bf85607db78bb593e7d63ee26f3016e3abf7e388164eefcdf0cfc5588d29",
+        "Practice_hi_Set_01.txt": "7a6a1f3cb710f75b4280f4ac5d1947d19e4cabfe761fb12d706c9fc633fa3fd2",
+        "Practice_hi_Set_02.txt": "b62bc67af9ccb2a83b951d44f32bbf0f8d449ae203b0875fc6339b6eb83a6eb9",
+        "Practice_hi_Set_03.txt": "e1568c11c257f13f09d8bef5ba18311183368e63db76617fdff4f3862ee45cdc",
+        "Practice_hi_Set_04.txt": "9334bb3d6b0275ce9bfe323158e0490045871e5d00916c9226117cef5b4b74bf",
+        "Practice_hi_Set_05.txt": "53cdbda40f0d7db41e605e247d415da2559333a71e539104ee22625435b71367",
+        "Practice_hi_Set_06.txt": "09c481363cb3b2a17683e5cfa3afd78acd8b879c7dec3f31c05d0d1f16f78d9e",
+        "inventory": {
+          "Content_hi.txt": "0fbbfa47e98320284190a09652d95222a451c832755d4154c9206564489f6d2e",
+          "Feynman_hi.txt": "846bd7aea75ce777ecef81cba34d614505c617578afed2666e189a369cb1c589",
+          "Flashcards_hi.txt": "18ec8e9e3feec80035cd8c00a2ddb4191e8c5bb595066d58b135ca99b6fc561b",
+          "Important_Rules_hi.txt": "a593d7a041991be083bd7ffdf8c37e49e2c52e048744b61d743870b52afa747f",
+          "Key_Facts_hi.txt": "43d060cf7e9c30c619a61e7e51f65c2e6b29ff671c445d5eb0fd9ec1be3fd6cd",
+          "Mind_Map.txt": "e08c97b5121af19f1c551fa0ef6ad59de15de10022a8266abbd1531d671217a8",
+          "PYQ_hi.txt": "81e6bf85607db78bb593e7d63ee26f3016e3abf7e388164eefcdf0cfc5588d29",
+          "Practice_hi_Set_01.txt": "7a6a1f3cb710f75b4280f4ac5d1947d19e4cabfe761fb12d706c9fc633fa3fd2",
+          "Practice_hi_Set_02.txt": "b62bc67af9ccb2a83b951d44f32bbf0f8d449ae203b0875fc6339b6eb83a6eb9",
+          "Practice_hi_Set_03.txt": "e1568c11c257f13f09d8bef5ba18311183368e63db76617fdff4f3862ee45cdc",
+          "Practice_hi_Set_04.txt": "9334bb3d6b0275ce9bfe323158e0490045871e5d00916c9226117cef5b4b74bf",
+          "Practice_hi_Set_05.txt": "53cdbda40f0d7db41e605e247d415da2559333a71e539104ee22625435b71367",
+          "Practice_hi_Set_06.txt": "09c481363cb3b2a17683e5cfa3afd78acd8b879c7dec3f31c05d0d1f16f78d9e"
+        }
+      },
+      "checked_at": "2026-11-21T05:48:45+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "48c835969a9742fc1f1a21a7852be348d45ca3d70c4f482fe0aecd837baf087c",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- In the Case Markers note, the list of perfect/imperfect past forms (खाया है, खाया था, गया है, गया था) includes intransitive verbs while stating the rule for transitive verbs → The list should only contain transitive verb forms (e.g., खाया है, खाया था) or clarify that intransitive verbs do not take ने.",
+        "- In the Word Order section, the example \"मेज पर पुस्तक लाल है → लाल पुस्तक मेज पर है\" claims \"अर्थ अपरिवर्तित\" but the meaning changes from predicative to attributive → Remove the claim or use an example where the adjective is attributive in both.",
+        "- In the Pronoun-Antecedent Agreement table, the corrected sentence \"सीता अपने भाई को बुलाई\" remains ungrammatical (verb should agree with masculine object → बुलाया, and ने is missing) → The corrected sentence should be \"सीता ने अपने भाई को बुलाया\" or at least \"सीता अपने भाई को बुलाया\".",
+        "- In Worked Example 5, the sentence \"सीता अपना पुस्तक लाई\" lacks ने for transitive simple past, introducing a second error besides the pronoun → The sentence should be \"सीता ने अपनी पुस्तक लाई\" to isolate the pronoun error."
+      ],
+      "dependencies": {
+        "chapter.json": "34edf005f0251cff2d388e5d99a55045a28e4e689dead2655051faee07904edf",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Content_hi.txt": "0fbbfa47e98320284190a09652d95222a451c832755d4154c9206564489f6d2e"
+      },
+      "checked_at": "2026-11-21T05:51:06+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "fb269e1c5958aea209fe6353e87e9b0d77f559aab88dc94d18080e91eaec8343",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "34edf005f0251cff2d388e5d99a55045a28e4e689dead2655051faee07904edf",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Content_hi.txt": "0fbbfa47e98320284190a09652d95222a451c832755d4154c9206564489f6d2e",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T05:51:06+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "ceeeabde72c100c035f8ad0bfe20213d5395d3d03e59eb476682fd6049c690bd",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "34edf005f0251cff2d388e5d99a55045a28e4e689dead2655051faee07904edf",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Feynman_hi.txt": "846bd7aea75ce777ecef81cba34d614505c617578afed2666e189a369cb1c589"
+      },
+      "checked_at": "2026-11-21T06:28:22+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T06:28:22+00:00",
+  "chapter_fingerprint": "2bf483152c5d0e53e1e857406770067204680c6e3ee9c1dd87f1fe165a255af0"
+}
