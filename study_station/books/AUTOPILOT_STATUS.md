@@ -1,35 +1,34 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 01:24 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 01:25 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 153 मिनट |
-| W10 | Chapter 14 Mensuration (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W11 | Chapter 20 Probability (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W12 | Chapter 12 Time Distance (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W2 | Chapter 13 Mixture Alligation (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W3 | Chapter 21 Permutation Combination (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W4 | Chapter 19 Statistics (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W5 | Chapter 18 Data Interpretation (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W6 | Chapter 17 Trigonometry (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W7 | Chapter 16 Algebra (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W8 | Chapter 15 Geometry (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W9 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 2 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 154 मिनट |
+| W10 | Chapter 14 Mensuration (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W11 | Chapter 20 Probability (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W12 | Chapter 22 Number Series (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W3 | Chapter 21 Permutation Combination (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W4 | Chapter 19 Statistics (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W5 | Chapter 18 Data Interpretation (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W6 | Chapter 17 Trigonometry (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W7 | Chapter 16 Algebra (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W8 | Chapter 15 Geometry (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W9 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 3 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 85 |
 | key 4 | 77 |
-| key 5 | 97 |
-| key 6 | 62 |
+| key 5 | 98 |
+| key 6 | 64 |
 
 ## किताबों की प्रगति
 
@@ -65,7 +64,7 @@
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
-| 12th Maths | 0 | 23 | 0 | 0 | 0 | 56/1794 |
+| 12th Maths | 0 | 23 | 0 | 0 | 0 | 59/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 0/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 0/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 0/2025 |
@@ -73,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 321/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 324/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,15 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 13:18:51   [Algebra] QA passed: editorial:Content_hi.txt
-21-11 13:18:51   [Algebra] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
-21-11 13:18:52 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_16_Algebra: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_16_Algebra/QA.json'}
-21-11 13:19:09   [Geometry] QA passed: editorial:Content_hi.txt
-21-11 13:19:15   [Geometry] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
-21-11 13:19:15 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_15_Geometry: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Invented exam statistic: "Learn roughly 20 theorems cold, and 90% of exam questions become mechanical." → Remove the unsourced percentage claim or replace with a verified statistic.', '- Invented exam statistic: "Roughly half of all exam geometry questions involve triangles directly or indirectly." → Remove the unsourced claim or replace with a verified statistic.', '- Wrong historical fact: "In 1958, a mathematician named Roger Penrose drew a triangle that cannot exist — the famous \'Penrose Triangle.\'" → The Penrose triangle was first created by Oscar Reutersvärd in 1934; Roger Penrose and Lionel Penrose published it in 1958.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_15_Geometry/QA.json'}
-21-11 13:19:16   [Trigonometry] QA passed: structure
-21-11 13:19:48   [Trigonometry] QA passed: editorial:Content_en.txt
-21-11 13:19:48   [Trigonometry] QA needs_reference: sources:Content_en.txt
 21-11 13:20:14   [Trigonometry] QA passed: editorial:Content_hi.txt
 21-11 13:20:19   [Trigonometry] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
 21-11 13:20:20 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_17_Trigonometry: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_17_Trigonometry/QA.json'}
@@ -127,6 +117,15 @@
 21-11 13:25:06   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q76 key a vs re-solve b)
 21-11 13:25:29   [Permutation_Combination] QA passed: editorial:Content_en.txt
 21-11 13:25:30   [Permutation_Combination] QA needs_reference: sources:Content_en.txt
+21-11 13:25:54   [Permutation_Combination] QA passed: editorial:Content_hi.txt
+21-11 13:26:03   [Permutation_Combination] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
+21-11 13:26:04 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_21_Permutation_Combination: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_21_Permutation_Combination/QA.json'}
+21-11 13:26:04   [Quadratic_Equations] QA passed: structure
+21-11 13:26:21   [Quadratic_Equations] QA passed: editorial:Content_en.txt
+21-11 13:26:21   [Quadratic_Equations] QA needs_reference: sources:Content_en.txt
+21-11 13:26:23   [Number_Series] QA passed: editorial:Content_hi.txt
+21-11 13:26:23   [Number_Series] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 13:26:23 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_22_Number_Series: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Section content is corrupted/unreadable (tokenizer artifacts `<|close|>`, garbled characters, no coherent text) → Replace with valid educational content for exam preparation']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_22_Number_Series/QA.json'}
 ````
 
 </details>
