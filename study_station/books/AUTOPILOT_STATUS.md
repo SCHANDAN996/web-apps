@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 03:04 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 03:20 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,14 +11,14 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 25 मिनट |
+| W1 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 40 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 125 |
-| key 4 | 124 |
-| key 5 | 143 |
-| key 6 | 107 |
+| key 3 | 126 |
+| key 4 | 126 |
+| key 5 | 144 |
+| key 6 | 108 |
 
 ## किताबों की प्रगति
 
@@ -77,8 +77,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 14:49:00   [Sentence_Improvement_Adv] QA needs_reference: sources:Content_en.txt
-21-11 14:49:00   [Spelling] QA blocked: editorial:Content_hi.txt
 21-11 14:49:00   [Spelling] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 1, "pending": 77, "blocked": 2, "needs_reference": 1, "remaining": 80, 
 21-11 14:49:01 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_17_Spelling: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 1, 'pending': 77, 'blocked': 2, 'needs_reference': 1, 'remaining': 80, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The "I before E" exceptions list includes seven words (weird, seize, height, their, foreign, neighbour, weigh) but the mnemonic and review refer to six exceptions → update the mnemonic to include all seven (e.g., add "weigh") and change the review to "seven exceptions".', '- In Trap 1, the description for "occasion" says "one c, double s" but the correct spelling is "occasion" with double c and single s → change to "occasion (double c, single s)".', '- In the mini reading passage, the statement "Every bold word comes from the roots table above" is false because "revolutionize" is bolded but not derived from the listed roots → either remove bold from "revolutionize" or add its root to the table.', '- In the Review After 2 Days, the root list "scrib, dict, dict, chron" duplicates "dict" → replace the second "dict" with another root such as "port" or "spect".', '- The Summary Table title claims "The 50 Most-Tested Words" but only 42 words are listed → correct the title to "The 42 Most-Tested Words" or add eight more words to reach 50.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- The -able/-ible rule lists "responsible" as an example of -ible used when the root is incomplete, but "responsible" derives from the complete word "response", contradicting the rule. → Remove "responsible" from the -ible examples or mark it as an exception.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_17_Spelling/QA.json'}
 21-11 14:49:01   [Cloze_Test] QA passed: structure
@@ -117,6 +115,8 @@
 21-11 15:01:24   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q83 key c vs re-solve b, Q88 key c vs re-solve a, Q94 key d vs re-solve b)
 21-11 15:05:08   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q80 key a vs re-solve d, Q83 key a vs re-solve c, Q88 key a vs re-solve d)
 21-11 15:05:08   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
+21-11 15:06:19   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 1: rejected (Q128:duplicate_options,Q132:duplicate_options,Q138:duplicate_options,Q142:duplicate_options)
+21-11 15:16:45   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q132 key a vs re-solve d, Q141 key b vs re-solve a)
 ````
 
 </details>
