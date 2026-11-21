@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "813a252fbee67af1cb7ccd9f899510f051b720756d6493099faf1495b21e5fa3",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "ff6201f6f7ca180871c0a3aa57da0ade2213ea7d8a0f965a771e0cd1b34ba252",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "9f7dc1a46d29ecf49a44213c0e8b467970a7d2b2da7000e50b402eda2dc89a0b",
+        "Content_hi.txt": "4a8fe19e0e693823bf7cd9363f70c92ddd23cc0cd2a50cf97f19fa57833a1fda",
+        "Feynman_en.txt": "ee7cfe3e39a89d1cc2d313af6f5dfe90a6579915ddc417e205835f68a3fe4bd2",
+        "Feynman_hi.txt": "331b9482fdaee88b4b8fcd51c18740eb460d3b45c489cca4059995760ed4ec8a",
+        "Flashcards_en.txt": "b91ba96d131e40341cef25d5546ff877ce937f3b77223da97d452a1de0ac09d9",
+        "Flashcards_hi.txt": "f2c96f7dcbd5d3af6faabd13f02b790de2cd9a195a967471d0d82a3e5d208562",
+        "Important_Rules_en.txt": "0f29c2dc99c59844013f451daa338a1dbd44127ca42a2e1224044a1689014ce4",
+        "Important_Rules_hi.txt": "abbeecae7cce69db4a3f3fbcded61c2abee96693eac95a41f6700c6c22988bc5",
+        "Mind_Map_en.txt": "ae1909868c3daca1ed90a764289e2cdb2af47ee11acd19c43641edc4f7b13dec",
+        "Mind_Map_hi.txt": "20bbfcfe2a57ac828c1f0f48ad0e0d843d516cdce4783a692e96555f46fa07ca",
+        "PYQ_en.txt": "18700914408522ea278188e34ca4c9f46ec9ca611a4d03b659bc6830a5aebf93",
+        "PYQ_hi.txt": "cac8afccf0d6fdbb6c866ef1ddee1632a68b2ae9ff95319afe4c9c71ee68730d",
+        "Practice_en_Set_01.txt": "e7977a54b5ed2cb0b356cf025788c18a7fd34ea0db3c2072660be8368751f6a0",
+        "Practice_en_Set_02.txt": "f1a18933611bb19f09674e035d84e03da05a04b0ed462fc2335caefaf0c9bc15",
+        "Practice_en_Set_03.txt": "838662d14319446b0ed993aab7b6a81bcd9b5f01cacfbe415680b21322d7ba6f",
+        "Practice_en_Set_04.txt": "53c1dca9a5316d3789e051833de3b06e822738872e716f378a7eb058ff8de2e9",
+        "Practice_en_Set_05.txt": "5a5550d8128ee482c2ac3a4a8f81bed61f3168f86fd805d67af8f6b6937542cf",
+        "Practice_en_Set_06.txt": "1f97cb25759b478dc49858ca0d1cc5595be45c764d8923056287736b00989253",
+        "Practice_hi_Set_01.txt": "10511713b5a21d0186b9f9e5f24ac5c14ed9e3412d00356956c7f06ec44e6430",
+        "Practice_hi_Set_02.txt": "786586b4a535dc2d49c4cc3406ff71c7cd7209dd6368b027f22eca058bd7bafc",
+        "Practice_hi_Set_03.txt": "058c485a5a66597bcb83247d1a5780428a9eb5bd785c6c4c394416d4b21809e3",
+        "Practice_hi_Set_04.txt": "70347afd0e80f729090a16684cc0398d086f8302a2d01b82c013529336278b40",
+        "Practice_hi_Set_05.txt": "d42ba2fe637b6b8ffefb84e1f6eb688cb6ddbdef579a88bbd51e3b43c9d5d9d8",
+        "Practice_hi_Set_06.txt": "23fa872991986cce978a70f0c44f215ea546e01e098f72e4d5b7aebf84ab2978",
+        "Short_Tricks_en.txt": "1d8d86c015782bf79ca1bfa922218d691411e9e15c18cc5ff02bbde0e4849766",
+        "Short_Tricks_hi.txt": "afe587c05656533b62704650a61d97e382df6418c02cd147c2a9fd56848608b1",
+        "inventory": {
+          "Content_en.txt": "9f7dc1a46d29ecf49a44213c0e8b467970a7d2b2da7000e50b402eda2dc89a0b",
+          "Content_hi.txt": "4a8fe19e0e693823bf7cd9363f70c92ddd23cc0cd2a50cf97f19fa57833a1fda",
+          "Feynman_en.txt": "ee7cfe3e39a89d1cc2d313af6f5dfe90a6579915ddc417e205835f68a3fe4bd2",
+          "Feynman_hi.txt": "331b9482fdaee88b4b8fcd51c18740eb460d3b45c489cca4059995760ed4ec8a",
+          "Flashcards_en.txt": "b91ba96d131e40341cef25d5546ff877ce937f3b77223da97d452a1de0ac09d9",
+          "Flashcards_hi.txt": "f2c96f7dcbd5d3af6faabd13f02b790de2cd9a195a967471d0d82a3e5d208562",
+          "Important_Rules_en.txt": "0f29c2dc99c59844013f451daa338a1dbd44127ca42a2e1224044a1689014ce4",
+          "Important_Rules_hi.txt": "abbeecae7cce69db4a3f3fbcded61c2abee96693eac95a41f6700c6c22988bc5",
+          "Mind_Map_en.txt": "ae1909868c3daca1ed90a764289e2cdb2af47ee11acd19c43641edc4f7b13dec",
+          "Mind_Map_hi.txt": "20bbfcfe2a57ac828c1f0f48ad0e0d843d516cdce4783a692e96555f46fa07ca",
+          "PYQ_en.txt": "18700914408522ea278188e34ca4c9f46ec9ca611a4d03b659bc6830a5aebf93",
+          "PYQ_hi.txt": "cac8afccf0d6fdbb6c866ef1ddee1632a68b2ae9ff95319afe4c9c71ee68730d",
+          "Practice_en_Set_01.txt": "e7977a54b5ed2cb0b356cf025788c18a7fd34ea0db3c2072660be8368751f6a0",
+          "Practice_en_Set_02.txt": "f1a18933611bb19f09674e035d84e03da05a04b0ed462fc2335caefaf0c9bc15",
+          "Practice_en_Set_03.txt": "838662d14319446b0ed993aab7b6a81bcd9b5f01cacfbe415680b21322d7ba6f",
+          "Practice_en_Set_04.txt": "53c1dca9a5316d3789e051833de3b06e822738872e716f378a7eb058ff8de2e9",
+          "Practice_en_Set_05.txt": "5a5550d8128ee482c2ac3a4a8f81bed61f3168f86fd805d67af8f6b6937542cf",
+          "Practice_en_Set_06.txt": "1f97cb25759b478dc49858ca0d1cc5595be45c764d8923056287736b00989253",
+          "Practice_hi_Set_01.txt": "10511713b5a21d0186b9f9e5f24ac5c14ed9e3412d00356956c7f06ec44e6430",
+          "Practice_hi_Set_02.txt": "786586b4a535dc2d49c4cc3406ff71c7cd7209dd6368b027f22eca058bd7bafc",
+          "Practice_hi_Set_03.txt": "058c485a5a66597bcb83247d1a5780428a9eb5bd785c6c4c394416d4b21809e3",
+          "Practice_hi_Set_04.txt": "70347afd0e80f729090a16684cc0398d086f8302a2d01b82c013529336278b40",
+          "Practice_hi_Set_05.txt": "d42ba2fe637b6b8ffefb84e1f6eb688cb6ddbdef579a88bbd51e3b43c9d5d9d8",
+          "Practice_hi_Set_06.txt": "23fa872991986cce978a70f0c44f215ea546e01e098f72e4d5b7aebf84ab2978",
+          "Short_Tricks_en.txt": "1d8d86c015782bf79ca1bfa922218d691411e9e15c18cc5ff02bbde0e4849766",
+          "Short_Tricks_hi.txt": "afe587c05656533b62704650a61d97e382df6418c02cd147c2a9fd56848608b1"
+        }
+      },
+      "checked_at": "2026-11-21T09:11:29+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "37907bc2083d1e0426a90d592b9ad36e28611c29e973ce246472e1a4ff7783bb",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The passage claims antonym questions appear in RRB NTPC English papers, but RRB NTPC CBT stages have no English section → remove RRB NTPC from the list or replace with an exam that includes English antonyms (e.g., SSC MTS, CDS, AFCAT)",
+        "- The claim 'each takes barely 15 seconds' (and 'under 15 seconds' in objectives) is an invented exam statistic with no source → delete the specific time or replace with a generic 'very quickly'"
+      ],
+      "dependencies": {
+        "chapter.json": "ff6201f6f7ca180871c0a3aa57da0ade2213ea7d8a0f965a771e0cd1b34ba252",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "9f7dc1a46d29ecf49a44213c0e8b467970a7d2b2da7000e50b402eda2dc89a0b"
+      },
+      "checked_at": "2026-11-21T09:14:17+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "c0cfdcc45a4722edf5728af418300d0ec3e8e22513a48be68fb17f60e4cf5a8d",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "ff6201f6f7ca180871c0a3aa57da0ade2213ea7d8a0f965a771e0cd1b34ba252",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "9f7dc1a46d29ecf49a44213c0e8b467970a7d2b2da7000e50b402eda2dc89a0b",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T09:14:17+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "d63de2aaa7b7e527dc69a39dbfb2d15b5fa665eb06d9994158b0bb2586475fe5",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Prefix table: the example for 'counter-' is 'attack → counter-attack', but counter-attack is not an antonym of attack (it is a responsive attack, not the opposite) → replace with a valid antonym pair such as 'clockwise → counterclockwise' or 'act → counteract'"
+      ],
+      "dependencies": {
+        "chapter.json": "ff6201f6f7ca180871c0a3aa57da0ade2213ea7d8a0f965a771e0cd1b34ba252",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "4a8fe19e0e693823bf7cd9363f70c92ddd23cc0cd2a50cf97f19fa57833a1fda"
+      },
+      "checked_at": "2026-11-21T09:15:42+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T09:15:43+00:00",
+  "chapter_fingerprint": "c385b8547267da75da93415a346eca9746d03ddc0802a851765f7f7615c57094"
+}
