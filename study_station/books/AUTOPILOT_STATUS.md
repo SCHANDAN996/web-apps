@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 03:54 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 03:55 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,23 +11,23 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 16 मिनट |
-| W10 | Chapter 02 shabd bhed (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 17 मिनट |
+| W10 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 | W11 | Chapter 02 input output ports (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
-| W12 | Chapter 09 upsarg pratyay (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W12 | Chapter 09 upsarg pratyay (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
 | W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 16 मिनट |
 | W3 | Chapter 01 varn vartani (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
-| W4 | Chapter 11 vilom (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W5 | Chapter 11 email (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W6 | Chapter 10 internet browser (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W7 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W4 | Chapter 11 vilom (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W5 | Chapter 11 email (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W6 | Chapter 10 internet browser (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W7 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
 | W8 | Chapter 08 samas (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W9 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W9 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 11 |
-| key 4 | 15 |
+| key 4 | 17 |
 | key 5 | 8 |
 | key 6 | 5 |
 
@@ -59,7 +59,7 @@
 
 | किताब | QA पास | जाँच बाकी | प्रमाण बाकी | सुधार अटका | मैनुअल | जाँचें पास / कुल |
 |---|---:|---:|---:|---:|---:|---:|
-| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 39/540 |
+| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 40/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 42/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 43/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 511/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 512/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,13 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 15:49:24   [word] QA passed: editorial:Feynman_en.txt
-21-11 15:49:24   [word] QA needs_reference: sources:Feynman_en.txt
-21-11 15:49:28   [upsarg_pratyay] QA needs_reference: sources:Feynman_hi.txt
-21-11 15:49:34   [windows_files] QA blocked: editorial:Feynman_hi.txt
-21-11 15:49:34   [windows_files] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 2, "needs_reference": 3, "remaining": 75, 
-21-11 15:49:34 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_05_windows_files: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Win+Pause action "Open Settings → System → About" is not version-agnostic (Windows 10 opens Control Panel\\System) → Use generic "Open System Properties / About" or note version difference.', '- Example 2 question states "(known extension shown)" but the scenario requires hidden extensions → Change to "(known extension hidden)" or "extensions hidden".']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- The search example `ext:.pdf` is incorrect; the correct Windows Search syntax for extension filter is `ext:pdf` (without the dot).', '- The note claiming `Ctrl + T` and `Ctrl + W` do not work in Windows Explorer is false; in Windows 11 `Ctrl+T` opens a new tab and `Ctrl+W` closes the tab, and in Windows 10 `Ctrl+W` closes the window.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_05_windows_files/QA.json'}
-21-11 15:49:46   [word] QA passed: editorial:Feynman_hi.txt
 21-11 15:49:46   [word] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 2, "needs_reference": 3, "remaining": 75, 
 21-11 15:49:46 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- "Default line spacing: 1.08 (single) with 8 pt after paragraph" → The default line spacing is 1.08 lines (Multiple), not the "Single" preset; the "Single" preset uses 1.0 line spacing.', '- "Default font (Word 2016+): Calibri 11 pt" → For Microsoft 365 (included in the book\'s scope), the default font has been Aptos since 2023, not Calibri.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: Microsoft Word is a word-processing application used to create, edit, format, and print documents. In SSC, Railway, and Banking exams, questions test practical knowledge of the interface, shortcut keys, formatting tools, mail merge, tables, and document protection. The concepts below are version-agnostic (applicable to Word 2010 onward, including Microsoft 365) and drawn from official Microsoft Support documentation.']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- स्रोत उद्धरण में CERT-In सुरक्षा परामर्श और RBI साइबर सुरक्षा ढांचा को Word अवधारणाओं के स्रोत के रूप में सूचीबद्ध किया गया है, जो तथ्यात्मक रूप से गलत है → स्रोत सूची से CERT-In और RBI को हटाएँ; केवल Microsoft Support और Microsoft Learn रखें।']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word/QA.json'}
 21-11 15:50:17   [excel] QA blocked: editorial:Feynman_en.txt
@@ -123,6 +116,13 @@
 21-11 15:55:00   [internet_browser] QA needs_reference: sources:Feynman_en.txt
 21-11 15:55:29   [vilom] QA passed: editorial:Flashcards_hi.txt
 21-11 15:55:29   [vilom] QA needs_reference: sources:Flashcards_hi.txt
+21-11 15:55:40   [e_banking] QA needs_reference: sources:Content_hi.txt
+21-11 15:55:47   [samas] QA blocked: editorial:Important_Rules_hi.txt
+21-11 15:55:47   [samas] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 3, "pending": 28, "blocked": 2, "needs_reference": 3, "remaining": 33, 
+21-11 15:55:47 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 3, 'pending': 28, 'blocked': 2, 'needs_reference': 3, 'remaining': 33, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- The example "यथार्थ" under अव्ययीभाव समास is incorrect because "यथार्थ" is an adjective (विशेषण), not an अव्यय; it belongs to कर्मधारय तत्पुरुष. → Remove "यथार्थ" from अव्ययीभाव examples and reclassify it as कर्मधारय तत्पुरुष.', '- The example "अनुव्रत" under अव्ययीभाव समास is incorrect because "अनुव्रत" is a noun/adjective, not an अव्यय; it should be classified as तत्पुरुष (कर्मधारय or सामान्य). → Remove "अनुव्रत" from अव्ययीभाव examples and reclassify it correctly.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Flashcards_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Important_Rules_hi.txt', 'status': 'blocked', 'issues': ['- In practice example 10, the vigraha of चतुराननम् shows "चतुरि आनानि" which is an incorrect form; the correct vigraha is "चत्वारि आनानि यस्य तत्".', '- In Rule 12 table, "द्विमुखः" is misclassified as कर्मधारय (संख्यावचन); द्विमुखः (masculine singular) is a बहुव्रीहि meaning \'having two faces\', while a कर्मधारय with numeral \'dvi\' and noun \'mukha\' would be neuter (द्विमुखे/द्विमुखम्).']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas/QA.json'}
+21-11 15:56:00   [paryayvachi] QA passed: editorial:Flashcards_hi.txt
+21-11 15:56:00   [paryayvachi] QA needs_reference: sources:Flashcards_hi.txt
+21-11 15:56:13   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q86 key c vs re-solve a)
 ````
 
 </details>

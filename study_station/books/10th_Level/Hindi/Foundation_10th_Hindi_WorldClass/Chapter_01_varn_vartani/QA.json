@@ -88,11 +88,75 @@
         "Feynman_hi.txt": "440da76012c8e6acd3212d4b7762476645b78c2f1bf897c80bedf45d79513c91"
       },
       "checked_at": "2026-11-21T05:28:57+00:00"
+    },
+    "sources:Feynman_hi.txt": {
+      "fingerprint": "18651992418d4b0e0fc13936fa8e1123a9ca7771d77904f753fdd78e5798ab67",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "8446bddd05f839101fa36ea27465a031459ad08a4d0e236d093197f111fb16e3",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Feynman_hi.txt": "440da76012c8e6acd3212d4b7762476645b78c2f1bf897c80bedf45d79513c91",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:10:48+00:00"
+    },
+    "editorial:Flashcards_hi.txt": {
+      "fingerprint": "3a6a5ab6ad98d9e3e5a5962d7fbeba4bb2acb17d3a90e53faab2c6c785b7248b",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Card 17 incorrectly labels विशेष/बिशेष, क्षमा/कश्मा, ज्ञान/ग्यान, श्रेष्ठ/श्रेस्ठ as \"उच्चारण समान, वर्तनी भिन्न\" (same pronunciation, different spelling) pairs; in standard Hindi their pronunciations differ (श vs स, क्ष vs कष, ज्ञ vs ग्य, ष vs स) — they are common misspellings, not homophones → Remove the \"उच्चारण समान\" claim; describe them as frequent spelling-confusion pairs due to similar sounds."
+      ],
+      "dependencies": {
+        "chapter.json": "8446bddd05f839101fa36ea27465a031459ad08a4d0e236d093197f111fb16e3",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Flashcards_hi.txt": "e1b8b35994e211d7321d11025074b30847ac23ac6202bb521522ffd55c3a683f"
+      },
+      "checked_at": "2026-11-21T10:12:02+00:00"
+    },
+    "sources:Flashcards_hi.txt": {
+      "fingerprint": "71f18527571b5b196f35bfa5ab3d721a5a463f9cd0c5431edcd29ccb9d3949a0",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "8446bddd05f839101fa36ea27465a031459ad08a4d0e236d093197f111fb16e3",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Flashcards_hi.txt": "e1b8b35994e211d7321d11025074b30847ac23ac6202bb521522ffd55c3a683f",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:12:02+00:00"
+    },
+    "editorial:Important_Rules_hi.txt": {
+      "fingerprint": "ab9b938cd1692d943fe8c2b66bc670b5113a5b6da69561b805cb5137ea35225c",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Section 5 rule states anusvara (bindu) is standard for **all** nasalizations, but the example \"हँसना → मानक 'हंसना'\" replaces chandrabindu with explicit consonant 'न', not anusvara → change example to \"हुँसना\" (with anusvara) or add clarification that full nasal consonants remain explicit.",
+        "- Section 5 list \"दीर्घ स्वर पर\" includes \"कंगन\", but its anusvara sits on short 'अ' (क्ंगन), not a long vowel → remove \"कंगन\" from the long-vowel list.",
+        "- Section 13 reason for \"हिंदी → हिन्दी\" says \"स्वर पर चन्द्रबिंदु/अनुस्वार के स्थान पर व्यंजन 'न' का प्रयोग मानक है\"; \"हिंदी\" uses anusvara (bindu), not chandrabindu, and the correction is because the word has a full nasal consonant 'न', not a nasalized vowel → rewrite reason: \"हिंदी में अनुनासिक बिन्दु के स्थान पर व्यंजन 'न' लिखना मानक है क्योंकि यह पूर्ण नासिक्य व्यंजन है।\""
+      ],
+      "dependencies": {
+        "chapter.json": "8446bddd05f839101fa36ea27465a031459ad08a4d0e236d093197f111fb16e3",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Important_Rules_hi.txt": "788fcf735a20fc250c6d1000757ca212240637c434d0cdaab3d5cbde02e60824"
+      },
+      "checked_at": "2026-11-21T10:22:44+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T05:28:57+00:00",
-  "chapter_fingerprint": "cdb0f764fbc0dbb316fc8d9014168db2297614c92b134530bb017da61ade0c32"
+  "updated_at": "2026-11-21T10:22:44+00:00",
+  "chapter_fingerprint": "8e808ef6045fcbe809548a333e302e297fe80bed4de1838b04d50e28c267a66c"
 }
