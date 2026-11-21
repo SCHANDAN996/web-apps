@@ -111,11 +111,71 @@
         "Content_hi.txt": "49a98365ab35ba493a6f8029f5f7b7faab11f4da8aa93d038cbf77564e5b0c0c"
       },
       "checked_at": "2026-11-21T06:38:35+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "ee4bb6cf1821a8f4828e95904f7deb186dc87525057921d1d62ab38ec991f2f5",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "5083ea391984dc7353e6df2cbb3226654d6fe4c6ef5fd363d929a919d132858f",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "49a98365ab35ba493a6f8029f5f7b7faab11f4da8aa93d038cbf77564e5b0c0c",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:51:14+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "e9d12ca36403a1483edbdcae1868887bde8fbb73e9b62f9a28a4d318ad3690cd",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The claim that APPLE is the only word with a double letter among BANANA, APPLE, ORANGE, GRAPE, CARROT is incorrect → CARROT also has a double letter (RR), so the \"double letter\" base gives two Yes (APPLE, CARROT) and three No, not a four-one pattern."
+      ],
+      "dependencies": {
+        "chapter.json": "5083ea391984dc7353e6df2cbb3226654d6fe4c6ef5fd363d929a919d132858f",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "a9970dc34000c03779d513aaa3f4ecea96179c952adb91ed6695a92d91d9b663"
+      },
+      "checked_at": "2026-11-21T10:52:44+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "aa45e4a778380017bc4e79775556214a09d27d672d4fe2b49d3c35ad6a40b7a8",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "5083ea391984dc7353e6df2cbb3226654d6fe4c6ef5fd363d929a919d132858f",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "a9970dc34000c03779d513aaa3f4ecea96179c952adb91ed6695a92d91d9b663",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:52:44+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "90656447e6b2716d1409c7891f77dea4820e2cd52d57bcca4c68d05d4061cfd3",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "5083ea391984dc7353e6df2cbb3226654d6fe4c6ef5fd363d929a919d132858f",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "8e4f1e1f93f38bb085d3466a860d92ff905a49b2e557f38f119c895ae1522c79"
+      },
+      "checked_at": "2026-11-21T10:54:11+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T06:38:35+00:00",
+  "updated_at": "2026-11-21T10:54:11+00:00",
   "chapter_fingerprint": "a9f315b984bff97a295f9c6772ecf363b2c910377c2963b2e10b268803b8eff2"
 }
