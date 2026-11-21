@@ -5,31 +5,30 @@
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 124 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 125 मिनट |
 | W10 | Chapter 22 Number Series (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W11 | Chapter 23 Quadratic Equations (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W12 | Chapter 20 Probability (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W2 | Chapter 03 Modern History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W3 | Chapter 21 Permutation Combination (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W4 | Chapter 01 Ancient History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W5 | Chapter 04 Constitution Basic (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W6 | Chapter 05 Polity (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W11 | Chapter 23 Quadratic Equations (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W12 | Chapter 07 States Rivers (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W2 | Chapter 03 Modern History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W4 | Chapter 01 Ancient History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W5 | Chapter 04 Constitution Basic (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W6 | Chapter 05 Polity (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 | W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 20 मिनट |
-| W8 | Chapter 06 Physical Geography (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W9 | Chapter 02 Medieval History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W8 | Chapter 06 Physical Geography (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W9 | Chapter 02 Medieval History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 80 |
-| key 4 | 98 |
+| key 4 | 99 |
 | key 5 | 73 |
-| key 6 | 76 |
+| key 6 | 77 |
 
 ## किताबों की प्रगति
 
@@ -87,13 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 17:37:10 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_22_Number_Series: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Section content is corrupted/unreadable (tokenizer artifacts `<|close|>`, garbled characters, no coherent text) → Replace with valid educational content for exam preparation']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_22_Number_Series/QA.json'}
-21-11 17:37:39   [Quadratic_Equations] QA passed: editorial:Feynman_en.txt
-21-11 17:37:52   [Quadratic_Equations] QA needs_reference: sources:Feynman_en.txt
-21-11 17:37:53   [Ancient_History] QA needs_reference: sources:Content_hi.txt
-21-11 17:37:57   [Quadratic_Equations] QA passed: editorial:Feynman_hi.txt
-21-11 17:37:57   [Quadratic_Equations] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
-21-11 17:37:57 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_23_Quadratic_Equations: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_23_Quadratic_Equations/QA.json'}
 21-11 17:38:25   [Ancient_History] QA passed: editorial:Feynman_en.txt
 21-11 17:38:25   [Ancient_History] QA needs_reference: sources:Feynman_en.txt
 21-11 17:38:50   [Medieval_History] QA needs_reference: sources:Content_hi.txt
@@ -127,6 +119,13 @@
 21-11 17:43:10   [Polity] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
 21-11 17:43:11 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_05_Polity: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The Active Recall answer in Section 1 incorrectly claims the temporary and permanent President of the Constituent Assembly are a "similar names" trap; the names (Sachchidananda Sinha and Rajendra Prasad) are not similar — the trap is about confusing the two roles, not similar names.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: - In the **Kesavananda Bharati case (1973)**, the Supreme Court held the Preamble is a **part of the Constitution**.', 'Fetch official supporting evidence for: - **Fundamental Duties (Article 51A, Part IVA):** added by the **42nd Amendment, 1976**, on the recommendation of the **Swaran Singh Committee**; inspired by the **USSR**. Originally 10 duties; the **11th** was added by the **86th Amendment, 2002** (parent/guardian to provide education to child aged 6–14).', "Fetch official supporting evidence for: - **Judicial review** and the **Basic Structure doctrine** (Kesavananda Bharati, 1973) keep Parliament's amending power in check.", 'Fetch official supporting evidence for: The **106th Constitutional Amendment (2023)** — the *Nari Shakti Vandan Adhiniyam* — provides one-third reservation for women in the Lok Sabha and State Assemblies. It will take effect after the next census and delimitation. When you study Articles 330/332 (reservation provisions), remember this living link — exams increasingly connect static Articles with recent amendments.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: - But the Supreme Court (in the **Kesavananda Bharati case, 1973**) said: Parliament can amend anything — *except* the **basic structure** of the Constitution. ❌', 'Fetch official supporting evidence for: > *"Parliament has the key (Article 368), but Kesavananda Bharati (1973) put a lock on the foundation — the Basic Structure."*', 'Fetch official supporting evidence for: | "Parliament can amend any part of the Constitution, including the basic structure." | ❌ False — Kesavananda Bharati (1973) forbids this. |', 'Fetch official supporting evidence for: | "The doctrine came from the Golaknath case." | ❌ False — Golaknath (1967) was about Fundamental Rights; the doctrine was born in **Kesavananda Bharati (1973)**. |', 'Fetch official supporting evidence for: | "The 24th Amendment (1971) created the basic structure doctrine." | ❌ False — it only said Parliament *can* amend Fundamental Rights; the *limit* came in 1973. |']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_05_Polity/QA.json'}
 21-11 17:43:14   [States_Rivers] QA needs_reference: sources:Content_hi.txt
+21-11 17:44:15   [Physical_Geography] QA blocked: editorial:Feynman_en.txt
+21-11 17:44:17   [Physical_Geography] QA needs_reference: sources:Feynman_en.txt
+21-11 17:44:18   [World_Geography] QA needs_reference: sources:Content_hi.txt
+21-11 17:44:34   [States_Rivers] QA blocked: editorial:Feynman_en.txt
+21-11 17:44:34   [States_Rivers] QA needs_reference: sources:Feynman_en.txt
+21-11 17:44:50   [Physical_Geography] QA passed: editorial:Feynman_hi.txt
+21-11 17:44:50   [Physical_Geography] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
 ````
 
 </details>
