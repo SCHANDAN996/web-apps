@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "92cbb0f59cb844cde7f4bc054793ce0f532a02ca40ed5ed3409ccab34e857099",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "8f38b8d347ff227bcb2d8d4d6644b4e3653f560979031f32e0af4f3e2af304d6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "277af233216752c82be9b19e33107f6d89a2ec2613fb13405597d1ac0158507d",
+        "Content_hi.txt": "d4c29b2a064412728b185af9cf4950e063e0ac786c3246c53684f142a91f204e",
+        "Feynman_en.txt": "a00ad496ff3e8a90a929895ed8104ddf2c2281ef473a0a2620342f80c8a8adec",
+        "Feynman_hi.txt": "a4ee5272a524278fda6218a88560fbfa28eae827c754d3c8ecf094f097dc0c64",
+        "Flashcards_en.txt": "8f1ec123f8fd9ef5f6c9afce4b795cc21e5c65c66ec0397310ad4f9534f0b4b5",
+        "Flashcards_hi.txt": "331934a0e7c86330e5440b2f2125432b3dc11ecd2817b8b091b9fe8ed19aa3cf",
+        "Key_Facts_en.txt": "687421cffbd24be2d2bf922ad52163e9534e024aaed07606f4874613ca87f769",
+        "Key_Facts_hi.txt": "1fd78210e908faca17efc9bb03a1633efaf71bbf80b93255c35679747f9a3468",
+        "Memory_Hooks_en.txt": "81e2ec2ea0e27ab84697e07bbdcba2c0e4a6c43421041e0c4f50b9a89d9f6551",
+        "Memory_Hooks_hi.txt": "92868ebc5b3c524abb0cbc91508433bba91719e4477b20e67c4a954947a8ca80",
+        "Mind_Map.txt": "a6fc8d0784613ad4ad05d6134f94ec7702d90c901ddca3e4f3e1e9e0fab2d755",
+        "PYQ_en.txt": "c137511e9a100516bd5bde0dc9a2de115001cc422e42a45c749f1a1d5b702904",
+        "PYQ_hi.txt": "91c2ec4ea61c0d0efdacd1701fb3be860ce880ee3e530408e78f1e05bb1139ca",
+        "Practice_en_Set_01.txt": "883cc884a4d0e2f0097bee1a2f541ca49aedf8902c4ef8fd24eb236d43132d64",
+        "Practice_en_Set_02.txt": "ffbe1d611ab98eed2e87933c81fe5167ccb3a88666c5a81e57460735a6523fb6",
+        "Practice_en_Set_03.txt": "4b9852d1014b40024a998e67c9eacbb8ae4f1b886982c67717e745fdad13cbbe",
+        "Practice_en_Set_04.txt": "c96319168ef3f3d2fcc8e4cc72c56ec09b8948fea00f4e9fef1a8ffeb9907584",
+        "Practice_en_Set_05.txt": "c3558e99019bcc2343506bc07096f92b48474d49204402243e496619edb74238",
+        "Practice_en_Set_06.txt": "80b1ff2a5a0b2897ec9b4a5ba839f6aff1ff8b1e61e6396f353017fd43e430be",
+        "Practice_hi_Set_01.txt": "6c5591fc4769ad8bd8d85911e8b00431042ebb33e0360a1c50d6aba0b108d797",
+        "Practice_hi_Set_02.txt": "14a1bf499e48e2b9af5f6a2f70eb6b200fb0f8c99491900f3acff6276cb72484",
+        "Practice_hi_Set_03.txt": "07f3999ec1224dbcaa6ff3dcc36c24a034be05dc070a654b0b416806b7b2e791",
+        "Practice_hi_Set_04.txt": "5f32d8d1e7224a57074101da7fa49fdf69eb6285a87e63e3d3ee4d9a2bb082d8",
+        "Practice_hi_Set_05.txt": "84bc7787c0cd780683fb8d24b9ba922a806c3a189f7e40970aa057af7fb3691b",
+        "Practice_hi_Set_06.txt": "85b57beb2be64d2706c572ba88897f63b73c91274c5c6d0ab03f5b764c5a34cb",
+        "inventory": {
+          "Content_en.txt": "277af233216752c82be9b19e33107f6d89a2ec2613fb13405597d1ac0158507d",
+          "Content_hi.txt": "d4c29b2a064412728b185af9cf4950e063e0ac786c3246c53684f142a91f204e",
+          "Feynman_en.txt": "a00ad496ff3e8a90a929895ed8104ddf2c2281ef473a0a2620342f80c8a8adec",
+          "Feynman_hi.txt": "a4ee5272a524278fda6218a88560fbfa28eae827c754d3c8ecf094f097dc0c64",
+          "Flashcards_en.txt": "8f1ec123f8fd9ef5f6c9afce4b795cc21e5c65c66ec0397310ad4f9534f0b4b5",
+          "Flashcards_hi.txt": "331934a0e7c86330e5440b2f2125432b3dc11ecd2817b8b091b9fe8ed19aa3cf",
+          "Key_Facts_en.txt": "687421cffbd24be2d2bf922ad52163e9534e024aaed07606f4874613ca87f769",
+          "Key_Facts_hi.txt": "1fd78210e908faca17efc9bb03a1633efaf71bbf80b93255c35679747f9a3468",
+          "Memory_Hooks_en.txt": "81e2ec2ea0e27ab84697e07bbdcba2c0e4a6c43421041e0c4f50b9a89d9f6551",
+          "Memory_Hooks_hi.txt": "92868ebc5b3c524abb0cbc91508433bba91719e4477b20e67c4a954947a8ca80",
+          "Mind_Map.txt": "a6fc8d0784613ad4ad05d6134f94ec7702d90c901ddca3e4f3e1e9e0fab2d755",
+          "PYQ_en.txt": "c137511e9a100516bd5bde0dc9a2de115001cc422e42a45c749f1a1d5b702904",
+          "PYQ_hi.txt": "91c2ec4ea61c0d0efdacd1701fb3be860ce880ee3e530408e78f1e05bb1139ca",
+          "Practice_en_Set_01.txt": "883cc884a4d0e2f0097bee1a2f541ca49aedf8902c4ef8fd24eb236d43132d64",
+          "Practice_en_Set_02.txt": "ffbe1d611ab98eed2e87933c81fe5167ccb3a88666c5a81e57460735a6523fb6",
+          "Practice_en_Set_03.txt": "4b9852d1014b40024a998e67c9eacbb8ae4f1b886982c67717e745fdad13cbbe",
+          "Practice_en_Set_04.txt": "c96319168ef3f3d2fcc8e4cc72c56ec09b8948fea00f4e9fef1a8ffeb9907584",
+          "Practice_en_Set_05.txt": "c3558e99019bcc2343506bc07096f92b48474d49204402243e496619edb74238",
+          "Practice_en_Set_06.txt": "80b1ff2a5a0b2897ec9b4a5ba839f6aff1ff8b1e61e6396f353017fd43e430be",
+          "Practice_hi_Set_01.txt": "6c5591fc4769ad8bd8d85911e8b00431042ebb33e0360a1c50d6aba0b108d797",
+          "Practice_hi_Set_02.txt": "14a1bf499e48e2b9af5f6a2f70eb6b200fb0f8c99491900f3acff6276cb72484",
+          "Practice_hi_Set_03.txt": "07f3999ec1224dbcaa6ff3dcc36c24a034be05dc070a654b0b416806b7b2e791",
+          "Practice_hi_Set_04.txt": "5f32d8d1e7224a57074101da7fa49fdf69eb6285a87e63e3d3ee4d9a2bb082d8",
+          "Practice_hi_Set_05.txt": "84bc7787c0cd780683fb8d24b9ba922a806c3a189f7e40970aa057af7fb3691b",
+          "Practice_hi_Set_06.txt": "85b57beb2be64d2706c572ba88897f63b73c91274c5c6d0ab03f5b764c5a34cb"
+        }
+      },
+      "checked_at": "2026-11-21T13:46:41+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "3861848ce11db5be815c4bb17ed0b895a0e5f7edd2a45c31ab7a5f014b299c85",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "8f38b8d347ff227bcb2d8d4d6644b4e3653f560979031f32e0af4f3e2af304d6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "277af233216752c82be9b19e33107f6d89a2ec2613fb13405597d1ac0158507d"
+      },
+      "checked_at": "2026-11-21T13:49:56+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "b0ff25dc0d01b1aa67fd28076456f8bd72eee4efa559059d7256f5501ed6f08e",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "8f38b8d347ff227bcb2d8d4d6644b4e3653f560979031f32e0af4f3e2af304d6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "277af233216752c82be9b19e33107f6d89a2ec2613fb13405597d1ac0158507d",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T13:49:57+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "cf1679514d5811199cc3916d8a33306bfbb1d70822a8ca3cb69cfe4b62faa4e9",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Kanchenjunga elevation listed as 8,598 m in both the \"प्रमुख चोटियाँ\" section and the \"सारांश तालिका\" → correct elevation is 8,586 m"
+      ],
+      "dependencies": {
+        "chapter.json": "8f38b8d347ff227bcb2d8d4d6644b4e3653f560979031f32e0af4f3e2af304d6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "d4c29b2a064412728b185af9cf4950e063e0ac786c3246c53684f142a91f204e"
+      },
+      "checked_at": "2026-11-21T13:57:55+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T13:57:55+00:00",
+  "chapter_fingerprint": "d51bd68ba531511c852709bdb4be98607846fdcdbeeabd6f3f108058117afa61"
+}
