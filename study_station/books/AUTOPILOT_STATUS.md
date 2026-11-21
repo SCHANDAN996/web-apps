@@ -1,32 +1,33 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 11:23 AM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 11:24 AM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
 | W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 32 मिनट |
-| W10 | Chapter 13 networking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W12 | Chapter 03 Modern History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W2 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
-| W4 | Chapter 14 cyber security (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W5 | Chapter 01 Ancient History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W6 | Chapter 17 apathit gadyansh (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W7 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W10 | Chapter 13 networking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W11 | Chapter 04 Constitution Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W12 | Chapter 03 Modern History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W2 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 32 मिनट |
+| W4 | Chapter 14 cyber security (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W5 | Chapter 01 Ancient History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W6 | Chapter 17 apathit gadyansh (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W7 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
 | W8 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 17 मिनट |
-| W9 | Chapter 12 e banking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W9 | Chapter 12 e banking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 19 |
-| key 4 | 22 |
+| key 4 | 23 |
 | key 5 | 24 |
 | key 6 | 5 |
 
@@ -60,7 +61,7 @@
 |---|---:|---:|---:|---:|---:|---:|
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 27/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 29/1092 |
-| 10th GK | 0 | 19 | 0 | 0 | 0 | 4/1482 |
+| 10th GK | 0 | 19 | 0 | 0 | 0 | 6/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 0/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 0/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 0/1622 |
@@ -72,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 60/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 62/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -82,9 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 11:16:40   [upsarg_pratyay] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 1, "pending": 32, "blocked": 2, "needs_reference": 1, "remaining": 35, 
-21-11 11:16:40 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 1, 'pending': 32, 'blocked': 2, 'needs_reference': 1, 'remaining': 35, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- In section 3.2 (ग) स्त्रीलिंग प्रत्यय table, the suffix '-त्री' is incorrectly exemplified with 'गायक → गायिका'; '-त्री' does not produce 'गायिका' (the correct suffix for that transformation is '-इका' or '-ई' with deletion of -क) → Replace the example for '-त्री' with a valid one (e.g., 'पुत्र → पुत्री' for '-ई') or change the suffix to '-इका' for 'गायक → गायिका'."]}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- "अनुचित" के विश्लेषण में उपसर्ग "अनु-" का अर्थ "अनुसार/पीछे" बताया गया है → "अनुचित" में "अनु-" निषेधार्थक उपसर्ग है (स्वर से पहले "अ-" का रूप "अनु-"), अर्थ "नहीं/अभाव"; मूल "चित्" (धातु) + "उ-" (उपसर्ग) + "त" (कृदन्त) = "उचित"', '- कृदन्त प्रत्ययों की सूची में "-आ, -ई, -न, -त, -नार" दिया है लेकिन उदाहरण "खेलना" में "ना" प्रयुक्त है → सूची में "ना" (क्रिया-संज्ञा/इन्फिनिटिव कारक) जोड़ें या उदाहरण बदलें']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay/QA.json'}
-21-11 11:17:15   [sandhi] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q2 key c vs re-solve b, Q3 key c vs re-solve a, Q4 key d vs re-solve b, Q9 key b vs re-solve ?, Q13 
 21-11 11:17:43   [cyber_security] QA passed: structure
 21-11 11:17:48   [powerpoint] QA passed: editorial:Content_en.txt
 21-11 11:17:48   [powerpoint] QA needs_reference: sources:Content_en.txt
@@ -122,6 +120,9 @@
 21-11 11:23:16   [Constitution_Basic] QA passed: structure
 21-11 11:23:49   [Ancient_History] QA passed: editorial:Content_en.txt
 21-11 11:23:49   [Ancient_History] QA needs_reference: sources:Content_en.txt
+21-11 11:24:03   [Polity] QA passed: structure
+21-11 11:24:12   [Modern_History] QA blocked: editorial:Content_en.txt
+21-11 11:24:13   [Modern_History] QA needs_reference: sources:Content_en.txt
 ````
 
 </details>

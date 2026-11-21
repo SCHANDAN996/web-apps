@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "bae747c52f532ceb8e4aa576731fc4d63d6f66a43c7aaeb80d65a542ff6b6402",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "0a72131001adaca8ebf6d96f6b65ac7fc32a82b1cecea6ae6aecbc0c67d12730",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "d6a2161cdcc382a5c37ff64332d25031e20c7ef50e94a01f6271a5acf49ff2bc",
+        "Content_hi.txt": "a3baf419054478302c3e9f464e4b31789062f6a3d005de4fa37fdf3237836a38",
+        "Feynman_en.txt": "e0e3575dcd1b546894c3da6250e68e6f99aef1249a74bd7d862f1d73d0897226",
+        "Feynman_hi.txt": "caea52769e41d8ce1a73fba95e4328cb84aa1d8b992710f3f91875ebdb47dbb0",
+        "Flashcards_en.txt": "b822d4cf245f30d4f0d7557c06d25084219763d67e83f60c58b759b6e9e3a38a",
+        "Flashcards_hi.txt": "5955a2cf5f410e1fac3e4e82861cf7b395d2c6452bb7206038b0aa032caf532c",
+        "Important_Rules_en.txt": "272d7baa4d3b79ba16099107beaf1737fd641244ad556070094c2428ffe39c31",
+        "Important_Rules_hi.txt": "7643e041feba1791e946f627587fe0697740b52210fcd55617d233eb7a0b1a85",
+        "Key_Facts_en.txt": "c10f64ecec28ff5ab7a80fdb904ba6d1a51f991cee694dd262f5a746c54eef44",
+        "Key_Facts_hi.txt": "ea89eb0da5dd167f008352ca63e99d0165005aea42d20f97339e817235f2114a",
+        "Mind_Map.txt": "093d65b88b076a689653ab0838a539e1ce9439521c53fa3b1316267ab180066a",
+        "PYQ_en.txt": "d068f7b65d682c72ca2752e7cc2dee5d850516cf020b0cf2d0ea3407270a0a92",
+        "PYQ_hi.txt": "30458a331db6dbcff9df9d15e8ca229dd9858298887d387f9aa6cf975206471a",
+        "Practice_en_Set_01.txt": "d52ae2746c6e12898deb8070b68748059c28bf9fa2c4387f23d95c0f78a956f3",
+        "Practice_en_Set_02.txt": "b902489ececddfcddf0cdabda5a20fa1673158064f564b7ce8d82e09d70274a7",
+        "Practice_en_Set_03.txt": "0edef20abbc9e45b4e3f4730d96f5e1ea0c50280447d8066f7ed0299ee892b10",
+        "Practice_en_Set_04.txt": "6504e484b6b509a45d7cfea56b040af8b11330e9e87270e67cb2dccca64e7eeb",
+        "Practice_en_Set_05.txt": "9ee7b3b1d90a0301fc9f07f737fb8b88ffae2389046aabd515d37088a185aa09",
+        "Practice_en_Set_06.txt": "8cf6a0b77532124f1909fd573b5fc4f4b50673b410ea50c3aea2b1e5785765eb",
+        "Practice_hi_Set_01.txt": "7f7041dc62f064b699b429fa737bbef7e325e723ab41be325f7eccabd8b4d905",
+        "Practice_hi_Set_02.txt": "b8e8384dff398ce4e89d16647e7a78510f6ab55972cf7ae71f1f780d33dbad16",
+        "Practice_hi_Set_03.txt": "5630a77bf87233358891dc22c1d614037089bb4964993fd4a696a6201bb5c007",
+        "Practice_hi_Set_04.txt": "08ff3da224ea7e769d2ed3fb6aee8c4d51b4cf611668d2ace44b18aa7d2db315",
+        "Practice_hi_Set_05.txt": "7d539e4cbe58da556c6049cc394fb4b51345dd5aab05fd60cbe049b20053980d",
+        "Practice_hi_Set_06.txt": "866c0ee7d363ac4c4d45596fcf95595c92ccdd84603c9d392a1bd7ef8e158389",
+        "inventory": {
+          "Content_en.txt": "d6a2161cdcc382a5c37ff64332d25031e20c7ef50e94a01f6271a5acf49ff2bc",
+          "Content_hi.txt": "a3baf419054478302c3e9f464e4b31789062f6a3d005de4fa37fdf3237836a38",
+          "Feynman_en.txt": "e0e3575dcd1b546894c3da6250e68e6f99aef1249a74bd7d862f1d73d0897226",
+          "Feynman_hi.txt": "caea52769e41d8ce1a73fba95e4328cb84aa1d8b992710f3f91875ebdb47dbb0",
+          "Flashcards_en.txt": "b822d4cf245f30d4f0d7557c06d25084219763d67e83f60c58b759b6e9e3a38a",
+          "Flashcards_hi.txt": "5955a2cf5f410e1fac3e4e82861cf7b395d2c6452bb7206038b0aa032caf532c",
+          "Important_Rules_en.txt": "272d7baa4d3b79ba16099107beaf1737fd641244ad556070094c2428ffe39c31",
+          "Important_Rules_hi.txt": "7643e041feba1791e946f627587fe0697740b52210fcd55617d233eb7a0b1a85",
+          "Key_Facts_en.txt": "c10f64ecec28ff5ab7a80fdb904ba6d1a51f991cee694dd262f5a746c54eef44",
+          "Key_Facts_hi.txt": "ea89eb0da5dd167f008352ca63e99d0165005aea42d20f97339e817235f2114a",
+          "Mind_Map.txt": "093d65b88b076a689653ab0838a539e1ce9439521c53fa3b1316267ab180066a",
+          "PYQ_en.txt": "d068f7b65d682c72ca2752e7cc2dee5d850516cf020b0cf2d0ea3407270a0a92",
+          "PYQ_hi.txt": "30458a331db6dbcff9df9d15e8ca229dd9858298887d387f9aa6cf975206471a",
+          "Practice_en_Set_01.txt": "d52ae2746c6e12898deb8070b68748059c28bf9fa2c4387f23d95c0f78a956f3",
+          "Practice_en_Set_02.txt": "b902489ececddfcddf0cdabda5a20fa1673158064f564b7ce8d82e09d70274a7",
+          "Practice_en_Set_03.txt": "0edef20abbc9e45b4e3f4730d96f5e1ea0c50280447d8066f7ed0299ee892b10",
+          "Practice_en_Set_04.txt": "6504e484b6b509a45d7cfea56b040af8b11330e9e87270e67cb2dccca64e7eeb",
+          "Practice_en_Set_05.txt": "9ee7b3b1d90a0301fc9f07f737fb8b88ffae2389046aabd515d37088a185aa09",
+          "Practice_en_Set_06.txt": "8cf6a0b77532124f1909fd573b5fc4f4b50673b410ea50c3aea2b1e5785765eb",
+          "Practice_hi_Set_01.txt": "7f7041dc62f064b699b429fa737bbef7e325e723ab41be325f7eccabd8b4d905",
+          "Practice_hi_Set_02.txt": "b8e8384dff398ce4e89d16647e7a78510f6ab55972cf7ae71f1f780d33dbad16",
+          "Practice_hi_Set_03.txt": "5630a77bf87233358891dc22c1d614037089bb4964993fd4a696a6201bb5c007",
+          "Practice_hi_Set_04.txt": "08ff3da224ea7e769d2ed3fb6aee8c4d51b4cf611668d2ace44b18aa7d2db315",
+          "Practice_hi_Set_05.txt": "7d539e4cbe58da556c6049cc394fb4b51345dd5aab05fd60cbe049b20053980d",
+          "Practice_hi_Set_06.txt": "866c0ee7d363ac4c4d45596fcf95595c92ccdd84603c9d392a1bd7ef8e158389"
+        }
+      },
+      "checked_at": "2026-11-21T05:42:52+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "ea2c0348b35f876030329169d4466870cfc122bd381e1ac27e36985e779559f7",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Tokenisation mandate date given as 1 January 2023 (in Card Networks & Tokenisation table and Examination Pointers) → Correct mandatory date is 1 October 2022 (after extensions from original 1 January 2022).",
+        "- Security Framework point 4: limited liability for reporting within 4–7 working days stated as ₹5,000–₹25,000 → RBI circular specifies ₹5,000 for BSBDA/small accounts and ₹10,000 for other accounts (whichever is lower than transaction value)."
+      ],
+      "dependencies": {
+        "chapter.json": "0a72131001adaca8ebf6d96f6b65ac7fc32a82b1cecea6ae6aecbc0c67d12730",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "d6a2161cdcc382a5c37ff64332d25031e20c7ef50e94a01f6271a5acf49ff2bc"
+      },
+      "checked_at": "2026-11-21T05:45:37+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "820a000710854ba694ba0189270ade323b9e8a1499a6d8bf702a41aea113f7d3",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: | Tokenisation (RBI mandate, mandatory from 1 January 2023) | Security | Actual card number replaced by a token (device/merchant specific); PAN not stored by merchant. |",
+        "Fetch official supporting evidence for: - **Circular on Tokenisation (2021, 2022)** — Card-on-file tokenisation mandatory.",
+        "Fetch official supporting evidence for: **Solution**: Reporting within 3 working days of receiving the bank's transaction alert (Monday, Tuesday, Wednesday = 3 working days) attracts zero liability under RBI's \"Customer Protection – Limiting Liability of Customers in Unauthorised Electronic Banking Transactions\" (2017, updated 2021).",
+        "Fetch official supporting evidence for: - **Static reference dates**: NEFT 24×7 from 16 Dec 2019; RTGS 24×7 from 14 Dec 2020; tokenisation mandate Jan 2023 (mandatory from 1 Jan 2023); UPI 123Pay launch 2022; RuPay credit card on UPI (2022)."
+      ],
+      "dependencies": {
+        "chapter.json": "0a72131001adaca8ebf6d96f6b65ac7fc32a82b1cecea6ae6aecbc0c67d12730",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "d6a2161cdcc382a5c37ff64332d25031e20c7ef50e94a01f6271a5acf49ff2bc",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T05:45:37+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "fdd263424e70e3d1bc5de6e66e0b19540a88fa537c3f4ce77b74b3d029c75c0d",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "0a72131001adaca8ebf6d96f6b65ac7fc32a82b1cecea6ae6aecbc0c67d12730",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "a3baf419054478302c3e9f464e4b31789062f6a3d005de4fa37fdf3237836a38"
+      },
+      "checked_at": "2026-11-21T05:51:55+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T05:51:55+00:00",
+  "chapter_fingerprint": "a49617bf2c3a958075e322696a51d78e9447e1a61a7a2f6eb2a8114c81c56184"
+}
