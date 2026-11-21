@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "0797b51a7932509bafddfce8bb5ca6d1df8bbf27b62e91af50a68888eed89f8a",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "328ad7aea9f183e1b6b97df78586f446804f3ca0a0c21fa0f158858f2436fc80",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "495f6498472a42048be318281848b7d61ff931310ea874701be6aef1e0b93e48",
+        "Content_hi.txt": "3d3a1cc8a669b61dcde01c690e3595e7d32d02235bb70c4fbc4cefaee193e301",
+        "Feynman_en.txt": "b557c017e4595e02f183e5816586306eba74a1fa001faf518f51afbad16e4609",
+        "Feynman_hi.txt": "226c566d48673e5d05ff92c6f3a3db63ae6e1677f6ba58d880001a652aaa6136",
+        "Flashcards_en.txt": "af6fef291b824fae90fd82e4a48fb255e28315494330015913786cdd80e46620",
+        "Flashcards_hi.txt": "72db7df265807bb7ccf66e6d95d04462bd9f31c62040d6c8ef182417a1f3476b",
+        "Important_Rules_en.txt": "4377902ade7f3143c53cc00819da76a8df02c1a6d54f48594494276436702f1b",
+        "Important_Rules_hi.txt": "8aa56364849eb33efe6167026da9c2eb21b607ad6a7c87f1c9a39af0b329c915",
+        "Mind_Map_en.txt": "6f3280938853ec9c21738056c932bb148e8169a515901e98a467b44373a2b246",
+        "Mind_Map_hi.txt": "ff79225db9d8e8e56a06ab38124bb17bfe87dc1c3b6ef5899557504b1a447c04",
+        "PYQ_en.txt": "7bb39133789a5e90ab8d6c4eb36a30965e5d12e80bc70e933c84a37b4334f7ab",
+        "PYQ_hi.txt": "9ee18d02ece1b1e14b85e10a18a70dafe07b1bbb713b91dbc56a6f16e819d725",
+        "Practice_en_Set_01.txt": "c49657f3d84f658881c3dfca97ccb61509b366d365827d80c43b164e45319227",
+        "Practice_en_Set_02.txt": "8c19fc683e13a27554b516d2933acd22ded6c9d45e427c8c520b24c912b63cae",
+        "Practice_en_Set_03.txt": "189046f4e02d3c2055abe3086bf44a89f8e7365f7e0030f983686ad696ae1c8d",
+        "Practice_en_Set_04.txt": "96e992ce367c2177f4ef7bf5faec19d9d5fdd957db48f8c3ac2f0455333e6e84",
+        "Practice_en_Set_05.txt": "28fbfdca8bcc323f3f2384f1736498088e4e046b9ecd5b8bd3749026aedc97f7",
+        "Practice_en_Set_06.txt": "bdd7a042fdd292e63d11dc98a148875517b1f99d4c07cea9cdcf44150f941944",
+        "Practice_hi_Set_01.txt": "a2543cd76c1c7e0835bc97d616b516f3aab14ac69575fea680fed00a7de67ceb",
+        "Practice_hi_Set_02.txt": "fea8d5766791873290282d7c3a58487c1a0d2745ccd315ba69d6ade396c5784b",
+        "Practice_hi_Set_03.txt": "9289af43f793a6ae407003d3f81fc9090b77f9360d48210090aecb264aedd7e3",
+        "Practice_hi_Set_04.txt": "cea9bf1eb98941f019797d20d7321b74b2b8e8b0e2ff682e3645b494aa9a4507",
+        "Practice_hi_Set_05.txt": "8ccd2de46407ac411b5e25cf1bf656f5a15d87e2d519758d15ca5fff760dce00",
+        "Practice_hi_Set_06.txt": "3f4b0ab1101d75a5f694dcb1f7b8fddb242f105685c45245bdecff92d4f7ac30",
+        "Short_Tricks_en.txt": "4a1d6d1bf08372e40787841728781376b5b15b7494e21c48c8cf10db43ebb0ea",
+        "Short_Tricks_hi.txt": "390b40d630d32f0bac3e2828915dbbd2fd90bed8df098a95093ec75715bcec96",
+        "inventory": {
+          "Content_en.txt": "495f6498472a42048be318281848b7d61ff931310ea874701be6aef1e0b93e48",
+          "Content_hi.txt": "3d3a1cc8a669b61dcde01c690e3595e7d32d02235bb70c4fbc4cefaee193e301",
+          "Feynman_en.txt": "b557c017e4595e02f183e5816586306eba74a1fa001faf518f51afbad16e4609",
+          "Feynman_hi.txt": "226c566d48673e5d05ff92c6f3a3db63ae6e1677f6ba58d880001a652aaa6136",
+          "Flashcards_en.txt": "af6fef291b824fae90fd82e4a48fb255e28315494330015913786cdd80e46620",
+          "Flashcards_hi.txt": "72db7df265807bb7ccf66e6d95d04462bd9f31c62040d6c8ef182417a1f3476b",
+          "Important_Rules_en.txt": "4377902ade7f3143c53cc00819da76a8df02c1a6d54f48594494276436702f1b",
+          "Important_Rules_hi.txt": "8aa56364849eb33efe6167026da9c2eb21b607ad6a7c87f1c9a39af0b329c915",
+          "Mind_Map_en.txt": "6f3280938853ec9c21738056c932bb148e8169a515901e98a467b44373a2b246",
+          "Mind_Map_hi.txt": "ff79225db9d8e8e56a06ab38124bb17bfe87dc1c3b6ef5899557504b1a447c04",
+          "PYQ_en.txt": "7bb39133789a5e90ab8d6c4eb36a30965e5d12e80bc70e933c84a37b4334f7ab",
+          "PYQ_hi.txt": "9ee18d02ece1b1e14b85e10a18a70dafe07b1bbb713b91dbc56a6f16e819d725",
+          "Practice_en_Set_01.txt": "c49657f3d84f658881c3dfca97ccb61509b366d365827d80c43b164e45319227",
+          "Practice_en_Set_02.txt": "8c19fc683e13a27554b516d2933acd22ded6c9d45e427c8c520b24c912b63cae",
+          "Practice_en_Set_03.txt": "189046f4e02d3c2055abe3086bf44a89f8e7365f7e0030f983686ad696ae1c8d",
+          "Practice_en_Set_04.txt": "96e992ce367c2177f4ef7bf5faec19d9d5fdd957db48f8c3ac2f0455333e6e84",
+          "Practice_en_Set_05.txt": "28fbfdca8bcc323f3f2384f1736498088e4e046b9ecd5b8bd3749026aedc97f7",
+          "Practice_en_Set_06.txt": "bdd7a042fdd292e63d11dc98a148875517b1f99d4c07cea9cdcf44150f941944",
+          "Practice_hi_Set_01.txt": "a2543cd76c1c7e0835bc97d616b516f3aab14ac69575fea680fed00a7de67ceb",
+          "Practice_hi_Set_02.txt": "fea8d5766791873290282d7c3a58487c1a0d2745ccd315ba69d6ade396c5784b",
+          "Practice_hi_Set_03.txt": "9289af43f793a6ae407003d3f81fc9090b77f9360d48210090aecb264aedd7e3",
+          "Practice_hi_Set_04.txt": "cea9bf1eb98941f019797d20d7321b74b2b8e8b0e2ff682e3645b494aa9a4507",
+          "Practice_hi_Set_05.txt": "8ccd2de46407ac411b5e25cf1bf656f5a15d87e2d519758d15ca5fff760dce00",
+          "Practice_hi_Set_06.txt": "3f4b0ab1101d75a5f694dcb1f7b8fddb242f105685c45245bdecff92d4f7ac30",
+          "Short_Tricks_en.txt": "4a1d6d1bf08372e40787841728781376b5b15b7494e21c48c8cf10db43ebb0ea",
+          "Short_Tricks_hi.txt": "390b40d630d32f0bac3e2828915dbbd2fd90bed8df098a95093ec75715bcec96"
+        }
+      },
+      "checked_at": "2026-11-21T07:18:23+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "5d6773442b996c7350c06b74412d43844d32cb9d655177917abd058fa704a0bb",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- In the Summary Table, the signal words for Future Perfect Continuous are incorrectly listed as \"by + duration\"; \"by\" is followed by a point in time (e.g., by June), while duration is expressed with \"for\" (e.g., for 5 years). → Correct signal words to \"by + point of time, for + duration\".",
+        "- Rule 10 states the construction after \"wish\" for present regret uses \"Past Indefinite\", but the example \"I wish I were a bird\" uses \"were\" (past subjunctive), not the past indicative \"was\" (the Past Indefinite form of \"be\" for first person singular). → Change rule to \"Past Subjunctive (unreal past); for 'be', use 'were' for all persons\"."
+      ],
+      "dependencies": {
+        "chapter.json": "328ad7aea9f183e1b6b97df78586f446804f3ca0a0c21fa0f158858f2436fc80",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "495f6498472a42048be318281848b7d61ff931310ea874701be6aef1e0b93e48"
+      },
+      "checked_at": "2026-11-21T07:20:27+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "72796af8676a6469a75b55b3c7a72ac7d2a40443ca4378463d4f6934199194c5",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: - **since** = point of time → *since Monday, since 2010, since morning, since childhood*"
+      ],
+      "dependencies": {
+        "chapter.json": "328ad7aea9f183e1b6b97df78586f446804f3ca0a0c21fa0f158858f2436fc80",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "495f6498472a42048be318281848b7d61ff931310ea874701be6aef1e0b93e48",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T07:20:27+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "5e7fc6a893e0dc4e222fef34e4191ecc4c6a65e4900a728b78374395159cdd03",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The claim \"SSC GD, MTS, RRB Group D जैसी परीक्षाओं में हर शिफ्ट में Tense से सीधे सवाल आते हैं\" is an invented exam claim → Remove or qualify (e.g., \"often feature Tense questions\").",
+        "- Summary table: Future Continuous row shows \"will be + V-ing\" but detailed section uses \"will/shall + be + V1 + ing\" → Change to \"will/shall be + V-ing\".",
+        "- Summary table: Future Perfect row shows \"will have + V3\" but detailed section uses \"will/shall + have + V3\" → Change to \"will/shall have + V3\".",
+        "- Summary table: Future Perfect Continuous row shows \"will have been + V-ing + since/for\" but detailed section uses \"will/shall + have been + V1 + ing + since/for\" → Change to \"will/shall have been + V-ing + since/for\"."
+      ],
+      "dependencies": {
+        "chapter.json": "328ad7aea9f183e1b6b97df78586f446804f3ca0a0c21fa0f158858f2436fc80",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "3d3a1cc8a669b61dcde01c690e3595e7d32d02235bb70c4fbc4cefaee193e301"
+      },
+      "checked_at": "2026-11-21T07:24:07+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T07:24:07+00:00",
+  "chapter_fingerprint": "db45afbdd4203c67e27436b1b95a90ac3a518242ab728f31f918ab1b9e28bfd4"
+}

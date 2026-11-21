@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 12:59 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 01:00 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 128 मिनट |
-| W10 | Chapter 12 Sentence Structure (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W11 | Chapter 17 Spelling (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W12 | Chapter 11 Narration (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W2 | Chapter 10 Voice (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W3 | Chapter 09 Articles (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W4 | Chapter 16 Idioms Phrases (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W6 | Chapter 14 Antonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W7 | Chapter 15 One Word Substitution (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W8 | Chapter 13 Synonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W9 | Chapter 05 Tense (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 129 मिनट |
+| W10 | Chapter 12 Sentence Structure (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W11 | Chapter 17 Spelling (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W12 | Chapter 11 Narration (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W2 | Chapter 10 Voice (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W4 | Chapter 16 Idioms Phrases (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W5 | Chapter 18 Error Spotting Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W6 | Chapter 14 Antonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W7 | Chapter 15 One Word Substitution (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W8 | Chapter 13 Synonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W9 | Chapter 05 Tense (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 68 |
 | key 4 | 68 |
-| key 5 | 79 |
-| key 6 | 51 |
+| key 5 | 80 |
+| key 6 | 52 |
 
 ## किताबों की प्रगति
 
@@ -63,7 +63,7 @@
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 43/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
-| 10th English | 0 | 20 | 0 | 0 | 0 | 43/1622 |
+| 10th English | 0 | 20 | 0 | 0 | 0 | 45/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 0/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 0/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 0/1950 |
@@ -72,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 257/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 259/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,17 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 12:54:07   [Tense] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 1, "pending": 77, "blocked": 2, "needs_reference": 1, "remaining": 80, 
-21-11 12:54:07 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_05_Tense: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 1, 'pending': 77, 'blocked': 2, 'needs_reference': 1, 'remaining': 80, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- In the Summary Table, the signal words for Future Perfect Continuous are incorrectly listed as "by + duration"; "by" is followed by a point in time (e.g., by June), while duration is expressed with "for" (e.g., for 5 years). → Correct signal words to "by + point of time, for + duration".', '- Rule 10 states the construction after "wish" for present regret uses "Past Indefinite", but the example "I wish I were a bird" uses "were" (past subjunctive), not the past indicative "was" (the Past Indefinite form of "be" for first person singular). → Change rule to "Past Subjunctive (unreal past); for \'be\', use \'were\' for all persons".']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: - **since** = point of time → *since Monday, since 2010, since morning, since childhood*']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- The claim "SSC GD, MTS, RRB Group D जैसी परीक्षाओं में हर शिफ्ट में Tense से सीधे सवाल आते हैं" is an invented exam claim → Remove or qualify (e.g., "often feature Tense questions").', '- Summary table: Future Continuous row shows "will be + V-ing" but detailed section uses "will/shall + be + V1 + ing" → Change to "will/shall be + V-ing".', '- Summary table: Future Perfect row shows "will have + V3" but detailed section uses "will/shall + have + V3" → Change to "will/shall have + V3".', '- Summary table: Future Perfect Continuous row shows "will have been + V-ing + since/for" but detailed section uses "will/shall + have been + V1 + ing + since/for" → Change to "will/shall have been + V-ing + since/for".']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_05_Tense/QA.json'}
-21-11 12:54:24   [Narration] QA passed: editorial:Content_en.txt
-21-11 12:54:24   [Narration] QA needs_reference: sources:Content_en.txt
-21-11 12:54:52   [Voice] QA blocked: editorial:Content_hi.txt
-21-11 12:54:59   [Voice] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 2, "pending": 77, "blocked": 1, "needs_reference": 1, "remaining": 79, 
-21-11 12:54:59 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_10_Voice: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 2, 'pending': 77, 'blocked': 1, 'needs_reference': 1, 'remaining': 79, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Hindi example "खाना माँ ने बनाया" is not passive voice (it\'s active with object fronting) → should be "खाना माँ द्वारा बनाया गया" or "खाना बनाया गया माँ द्वारा" to match the English passive "The food was cooked by mother"']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_10_Voice/QA.json'}
-21-11 12:55:00   [Synonyms] QA passed: structure
-21-11 12:55:09   [Sentence_Structure] QA passed: editorial:Content_en.txt
-21-11 12:55:09   [Sentence_Structure] QA needs_reference: sources:Content_en.txt
-21-11 12:55:18   [Narration] QA passed: editorial:Content_hi.txt
 21-11 12:55:18   [Narration] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 77, "blocked": 0, "needs_reference": 1, "remaining": 78, 
 21-11 12:55:18 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_11_Narration: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 77, 'blocked': 0, 'needs_reference': 1, 'remaining': 78, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_11_Narration/QA.json'}
 21-11 12:55:30   [Synonyms] QA passed: editorial:Content_en.txt
@@ -126,6 +115,17 @@
 21-11 12:59:46   [Antonyms] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 1, "pending": 77, "blocked": 2, "needs_reference": 1, "remaining": 80, 
 21-11 12:59:47 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_14_Antonyms: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 1, 'pending': 77, 'blocked': 2, 'needs_reference': 1, 'remaining': 80, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- "Every SSC, Railway and Bank paper asks you one deceptively simple question" is an invented exam claim (absolute statement not true for all papers) → Qualify as "Many SSC, Railway and Bank papers include..." or remove the absolute claim.', '- "Exam insight: SSC and Railway questions are mostly gradable and complementary" is an invented exam statistic without source → Remove or provide verifiable source.', '- In the passage check yourself, "philanthropy ↔ misanthrope" is an incorrect antonym pair (philanthropy is an abstract noun, misanthrope is a person) → Correct to "philanthropy ↔ misanthropy" or "philanthropist ↔ misanthrope".']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In the Greek/Latin Roots table, the row for "pro-" incorrectly lists "re-" as an opposite prefix; "re-" means "again/back", not "against". The true antonym of pro- is "anti-" (or "contra-"). → Remove "re-" from the antonym column; only "anti-" is the opposite.', '- In the same table, the row for "phil-" gives "mis-" as the root for "hate" in "misanthropy"; the Greek root for hate is "miso-", while "mis-" is a Latin/English prefix meaning "bad/wrong". → Change "mis- (घृणा)" to "miso- (घृणा)" and note that "misanthropy" derives from Greek "misos" (hatred).']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_14_Antonyms/QA.json'}
 21-11 12:59:47   [Error_Spotting_Basic] QA passed: structure
+21-11 13:00:42   [Error_Spotting_Basic] QA passed: editorial:Content_en.txt
+21-11 13:00:53   [Error_Spotting_Basic] QA needs_reference: sources:Content_en.txt
+21-11 13:00:54   [Fill_in_Blanks_Basic] QA passed: structure
+21-11 13:01:19   [Error_Spotting_Basic] QA passed: editorial:Content_hi.txt
+21-11 13:01:19   [Error_Spotting_Basic] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 77, "blocked": 0, "needs_reference": 1, "remaining": 78, 
+21-11 13:01:19 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_18_Error_Spotting_Basic: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 77, 'blocked': 0, 'needs_reference': 1, 'remaining': 78, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_18_Error_Spotting_Basic/QA.json'}
+21-11 13:01:20   [Idioms_Phrases] QA blocked: editorial:Content_hi.txt
+21-11 13:01:20   [Idioms_Phrases] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 2, "pending": 77, "blocked": 1, "needs_reference": 1, "remaining": 79, 
+21-11 13:01:20 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_16_Idioms_Phrases: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 2, 'pending': 77, 'blocked': 1, 'needs_reference': 1, 'remaining': 79, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Linguistic Bridge table: "पेट में चूहे कूदना" → "To be very hungry" listed as \'सही अंग्रेज़ी मुहावरा\' → "To be very hungry" is not an idiom; use an actual idiom like "to be starving" or change column header to \'अर्थ\'', '- Linguistic Bridge table: "अंगारों पर पैर रखना" → "To beard the lion in his den" given as equivalent → meanings differ; "अंगारों पर पैर रखना" = to invite danger, better equivalent: "to play with fire" or "to walk into the lion\'s den"', '- Word Roots table: root \'vid/vis\' example phrase "To see eye to eye" contains no word from Latin vid/vis → replace with phrase using a vid/vis derivative like "in full view" or "visible evidence"', '- Word Roots table: root \'manu\' example phrase "To have the upper hand" contains no word from Latin manu → replace with phrase using a manu derivative like "manual labour" or "manufacture consent"', '- Word Roots table: root \'bene\' example phrase "A blessing in disguise" contains no word from Latin bene → replace with phrase using a bene derivative like "benevolent gesture" or "benefit of the doubt"']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_16_Idioms_Phrases/QA.json'}
+21-11 13:01:28   [Spelling] QA blocked: editorial:Content_en.txt
+21-11 13:01:28   [Spelling] QA needs_reference: sources:Content_en.txt
 ````
 
 </details>
