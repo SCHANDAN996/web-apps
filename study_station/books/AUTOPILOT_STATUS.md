@@ -1,34 +1,33 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 04:06 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 04:07 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 27 मिनट |
-| W10 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W11 | Chapter 01 Ancient History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W12 | Chapter 14 muhavare lokokti (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 27 मिनट |
-| W3 | Chapter 04 Constitution Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W4 | Chapter 17 apathit gadyansh (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W5 | Chapter 03 Modern History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W6 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W7 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W8 | Chapter 13 networking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W9 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 28 मिनट |
+| W10 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W11 | Chapter 01 Ancient History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W12 | Chapter 14 muhavare lokokti (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 28 मिनट |
+| W3 | Chapter 04 Constitution Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W5 | Chapter 03 Modern History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W6 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W7 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W8 | Chapter 13 networking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W9 | Chapter 05 Polity (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 14 |
-| key 4 | 27 |
-| key 5 | 19 |
+| key 4 | 28 |
+| key 5 | 21 |
 | key 6 | 7 |
 
 ## किताबों की प्रगति
@@ -61,7 +60,7 @@
 |---|---:|---:|---:|---:|---:|---:|
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 46/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 52/1092 |
-| 10th GK | 0 | 19 | 0 | 0 | 0 | 44/1482 |
+| 10th GK | 0 | 19 | 0 | 0 | 0 | 46/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
@@ -73,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 529/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 531/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,12 +82,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 16:01:40   [paryayvachi] QA blocked: editorial:Important_Rules_hi.txt
-21-11 16:01:50   [cyber_security] QA passed: editorial:Feynman_hi.txt
-21-11 16:01:57   [paryayvachi] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 3, "pending": 28, "blocked": 2, "needs_reference": 3, "remaining": 33, 
-21-11 16:01:57   [cyber_security] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 2, "needs_reference": 3, "remaining": 75, 
-21-11 16:01:57 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_10_paryayvachi: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 3, 'pending': 28, 'blocked': 2, 'needs_reference': 3, 'remaining': 33, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- उदाहरण 2 के हल में "मरीच = किरण/सूर्य" लिखा है, जो तथ्यात्मक रूप से गलत है; मरीच सूर्य का मानक पर्याय नहीं है (यह ऋषि या काली मिर्च का नाम है) → इस कथन को हटाएं या सही करें कि मरीच वायु का पर्याय नहीं है।', '- सूर्य के पर्याय के लिए दिया गया स्मरण सूत्र "भरदिया" सूचीबद्ध शब्दों (भास्कर, रवि, दिनकर, आदित्य) के प्रारंभिक अक्षरों (भ, र, द, आ) से मेल नहीं खाता → सही संक्षेप "भरदआ" या कोई अन्य उपयुक्त स्मरण सूत्र बनाएं।', '- क्षेत्रीय/बोलचाल पर्याय की तालिका में "अन्न" को "भात/चावल" का पर्याय बताया गया है, जबकि "अन्न" का अर्थ "अनाज/भोजन" है न कि विशेषतः चावल → "अन्न" को इस सूची से हटाएं या स्पष्ट करें कि यह सामान्य अर्थ में प्रयुक्त होता है।']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Flashcards_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Important_Rules_hi.txt', 'status': 'blocked', 'issues': ['- नियम ५ का उदाहरण भ्रामक है: "भात" मानक हिन्दी में पके चावल के लिये प्रयुक्त होता है (दाल-भात), जबकि "चावल" कच्चे चावल के लिये; यह केवल बोलीगत अन्तर नहीं, अर्थ-भेद है → "भात" और "चावल" पर्यायवाची नहीं हैं क्योंकि अर्थ भिन्न है (पका/कच्चा), न कि केवल बोलीगत प्रयोग के कारण', '- सारणी (नियम १५) के "अर्थ" स्तम्भ में हर पंक्ति में अर्थ के स्थान पर प्रथम स्तम्भ का शब्द ही दोहरा दिया गया है (जैसे अग्नि→अग्नि, जल→जल, गृह→घर) → "अर्थ" स्तम्भ में वास्तविक अर्थ लिखें (जैसे अग्नि→आग/अग्नि तत्व, जल→पानी, गृह→घर/निवास स्थान)']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_10_paryayvachi/QA.json'}
-21-11 16:01:57 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_14_cyber_security: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Example 2 password length: claims "Tr!b3#V0y@g3r$2024" is 16 characters but it actually has 18 characters → correct length is 18 characters (or adjust example to a 16-character password)']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: - CERT-In (Indian Computer Emergency Response Team): Nodal agency for cyber security incidents. Mandates incident reporting within 6 hours (per 2022 directions). Maintains advisories on vulnerabilities and best practices.']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- Example 1: Phishing reporting email 'report.phishing@cert-in.org.in' is not the official CERT-In address → The correct CERT-In phishing reporting email is 'phishing@cert-in.org.in' (or 'incident@cert-in.org.in' for general incidents)"]}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_14_cyber_security/QA.json'}
 21-11 16:01:58   [apathit_gadyansh] QA needs_reference: sources:Feynman_hi.txt
 21-11 16:02:32   [Ancient_History] QA needs_reference: sources:Content_hi.txt
 21-11 16:03:11   [ek_shabd] QA blocked: editorial:Important_Rules_hi.txt
@@ -123,6 +116,12 @@
 21-11 16:06:30   [Polity] QA needs_reference: sources:Content_hi.txt
 21-11 16:06:50   [Constitution_Basic] QA passed: editorial:Feynman_en.txt
 21-11 16:06:50   [Constitution_Basic] QA needs_reference: sources:Feynman_en.txt
+21-11 16:07:16   [vakya_shuddhi] QA passed: editorial:Important_Rules_hi.txt
+21-11 16:07:26   [vakya_shuddhi] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 3, "pending": 28, "blocked": 2, "needs_reference": 3, "remaining": 33, 
+21-11 16:07:27 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 3, 'pending': 28, 'blocked': 2, 'needs_reference': 3, 'remaining': 33, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In the Case Markers note, the list of perfect/imperfect past forms (खाया है, खाया था, गया है, गया था) includes intransitive verbs while stating the rule for transitive verbs → The list should only contain transitive verb forms (e.g., खाया है, खाया था) or clarify that intransitive verbs do not take ने.', '- In the Word Order section, the example "मेज पर पुस्तक लाल है → लाल पुस्तक मेज पर है" claims "अर्थ अपरिवर्तित" but the meaning changes from predicative to attributive → Remove the claim or use an example where the adjective is attributive in both.', '- In the Pronoun-Antecedent Agreement table, the corrected sentence "सीता अपने भाई को बुलाई" remains ungrammatical (verb should agree with masculine object → बुलाया, and ने is missing) → The corrected sentence should be "सीता ने अपने भाई को बुलाया" or at least "सीता अपने भाई को बुलाया".', '- In Worked Example 5, the sentence "सीता अपना पुस्तक लाई" lacks ने for transitive simple past, introducing a second error besides the pronoun → The sentence should be "सीता ने अपनी पुस्तक लाई" to isolate the pronoun error.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Flashcards_hi.txt', 'status': 'blocked', 'issues': ['- Card 4: Time-marker list contains duplicate “कल” (कल, आज, कल, अब, तब) → Use unique markers, e.g., “कल, आज, अब, तब”']}, {'check': 'sources:Flashcards_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi/QA.json'}
+21-11 16:07:27   [Physical_Geography] QA needs_reference: sources:Content_hi.txt
+21-11 16:07:40   [Polity] QA passed: editorial:Feynman_en.txt
+21-11 16:07:40   [Polity] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>
