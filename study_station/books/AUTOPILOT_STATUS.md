@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 08:18 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 08:34 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,14 +11,14 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W9 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 69 मिनट |
+| W9 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 85 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 161 |
+| key 3 | 162 |
 | key 4 | 143 |
-| key 5 | 152 |
-| key 6 | 146 |
+| key 5 | 153 |
+| key 6 | 147 |
 
 ## किताबों की प्रगति
 
@@ -77,7 +77,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 19:44:33 QA Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- 'पदक: सफेद सुनहरे रंग का पीपल-पत्ता आकार' (भारत रत्न पदक का वर्णन) → पदक कांस्य (bronze) का बना होता है जिस पर प्लैटिनम का सूर्य चिह्न होता है; रिबन सफेद होती है।"]}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards/QA.json'}
 21-11 19:44:53 worker 6: nothing left
 21-11 19:45:18   [Culture_Art] QA passed: editorial:Content_hi.txt
 21-11 19:45:18   [Culture_Art] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
@@ -117,6 +116,7 @@
 21-11 20:14:17   [sandhi] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q3 key a vs re-solve b, Q7 key b vs re-solve a, Q10 key d vs re-solve a, Q12 key b vs re-solve d, Q1
 21-11 20:14:17   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
 21-11 20:15:36   [sandhi] Practice_hi_Set_02.txt try 1: rejected (Q26:duplicate_options,Q28:duplicate_options,Q31:duplicate_options,Q33:duplicate_options,Q39:duplicate_options)
+21-11 20:31:16   [sandhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q32 key a vs re-solve d, Q34 key b vs re-solve ?, Q35 key c vs re-solve b, Q36 key b vs re-solve c, 
 ````
 
 </details>
