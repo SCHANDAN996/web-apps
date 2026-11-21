@@ -112,11 +112,71 @@
         "Content_hi.txt": "cb3340d7062931969c6a8287cfdf9afb847b8a77de35e5c341b95514e035ef28"
       },
       "checked_at": "2026-11-21T06:54:20+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "9ee5033cf4ccba8aa85b94642763af7275bd8b4521c62a400aadb85050f00e4e",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "86e1d61469d13da3d1dccaa82f95317d75b422b407a7e331575941d14a08549a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "cb3340d7062931969c6a8287cfdf9afb847b8a77de35e5c341b95514e035ef28",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:06:47+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "bc192ef7e3386e014dc13792896f9599d874617675985748860bdc56e5479245",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "86e1d61469d13da3d1dccaa82f95317d75b422b407a7e331575941d14a08549a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "88d4462e3526068d02b9fbea8912d92c030e366b0871329241cf3cd4245e4510"
+      },
+      "checked_at": "2026-11-21T11:08:03+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "d08125c67fbf0b913320751578b1063dd348a6a3ae9bedd8d866bd9d1b6a7972",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "86e1d61469d13da3d1dccaa82f95317d75b422b407a7e331575941d14a08549a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "88d4462e3526068d02b9fbea8912d92c030e366b0871329241cf3cd4245e4510",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:08:03+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "f4bb9c0cd541e0b4fec9eb99430472e46d95f28f8a142d93f520ea97ae343688",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Mirror clock formula “12:00 – वास्तविक समय” is incorrect for times such as 12:30; the correct general formula is “11:60 – वास्तविक समय”."
+      ],
+      "dependencies": {
+        "chapter.json": "86e1d61469d13da3d1dccaa82f95317d75b422b407a7e331575941d14a08549a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "344d5303bf1cd81edcc8726ba8c0ccc3e64210605c17fe960c6ce4803825a65c"
+      },
+      "checked_at": "2026-11-21T11:11:29+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T06:54:20+00:00",
+  "updated_at": "2026-11-21T11:11:29+00:00",
   "chapter_fingerprint": "f50c30c430cb1b8e5e335f9d69c13c03571447efc737ba245814f941514fc455"
 }

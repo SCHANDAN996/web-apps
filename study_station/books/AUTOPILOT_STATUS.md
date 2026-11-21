@@ -1,33 +1,34 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 04:43 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 04:44 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 64 मिनट |
-| W10 | Chapter 21 Paper Folding Cutting (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W11 | Chapter 02 LCM HCF (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W12 | Chapter 20 Mirror Water Images (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 64 मिनट |
-| W3 | Chapter 01 Number System (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W4 | Chapter 22 Figure Series (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W6 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W7 | Chapter 04 Fractions Decimals (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W8 | Chapter 03 Simplification (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W9 | Chapter 05 Percentage (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 65 मिनट |
+| W10 | Chapter 21 Paper Folding Cutting (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W11 | Chapter 02 LCM HCF (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W12 | Chapter 20 Mirror Water Images (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 65 मिनट |
+| W3 | Chapter 01 Number System (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W4 | Chapter 22 Figure Series (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W5 | Chapter 06 Average (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W6 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W7 | Chapter 04 Fractions Decimals (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W8 | Chapter 03 Simplification (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W9 | Chapter 05 Percentage (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 47 |
-| key 4 | 52 |
-| key 5 | 42 |
+| key 4 | 53 |
+| key 5 | 44 |
 | key 6 | 32 |
 
 ## किताबों की प्रगति
@@ -61,8 +62,8 @@
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 48/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 52/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 76/1482 |
-| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 82/1716 |
-| 10th Maths | 0 | 22 | 0 | 0 | 0 | 68/1606 |
+| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 83/1716 |
+| 10th Maths | 0 | 22 | 0 | 0 | 0 | 71/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
@@ -72,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 602/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 606/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -82,15 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 16:39:18   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q126 key d vs re-solve b, Q139 key c vs re-solve a, Q143 key d vs re-solve a)
-21-11 16:39:26   [Figure_Series] QA needs_reference: sources:Feynman_en.txt
-21-11 16:39:27   [Number_System] QA needs_reference: sources:Content_hi.txt
-21-11 16:40:01   [LCM_HCF] QA needs_reference: sources:Content_hi.txt
-21-11 16:40:22   [Cubes_Dice] QA passed: editorial:Feynman_hi.txt
-21-11 16:40:22   [Cubes_Dice] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
-21-11 16:40:22 QA 10th_Level/Reasoning/Chapter_19_Cubes_Dice: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- "किसी भी नेट में एक ही सीधी पंक्ति (या स्तम्भ) में एकान्तर (alternate) फलक विपरीत होते हैं।" → यह नियम केवल चार फलकों की सीधी पंक्ति वाले नेट्स (जैसे मानक क्रॉस नेट) के लिए मान्य है, सभी नेट्स के लिए नहीं।']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_19_Cubes_Dice/QA.json'}
-21-11 16:40:30   [LCM_HCF] QA passed: editorial:Feynman_en.txt
-21-11 16:40:30   [LCM_HCF] QA needs_reference: sources:Feynman_en.txt
 21-11 16:40:31   [sandhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q30 key a vs re-solve d, Q32 key b vs re-solve a, Q35 key c vs re-solve ?, Q36 key b vs re-solve a, 
 21-11 16:41:04   [Simplification] QA needs_reference: sources:Content_hi.txt
 21-11 16:41:16   [Number_System] QA passed: editorial:Feynman_en.txt
@@ -122,6 +114,15 @@
 21-11 16:44:13 QA 10th_Level/Reasoning/Chapter_21_Paper_Folding_Cutting: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_21_Paper_Folding_Cutting/QA.json'}
 21-11 16:44:19   [Fractions_Decimals] QA passed: editorial:Feynman_en.txt
 21-11 16:44:19   [Fractions_Decimals] QA needs_reference: sources:Feynman_en.txt
+21-11 16:44:29   [Percentage] QA passed: editorial:Feynman_hi.txt
+21-11 16:44:30   [Percentage] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 73, "passed": 4, "pending": 65, "blocked": 1, "needs_reference": 3, "remaining": 69, 
+21-11 16:44:30 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_05_Percentage: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 4, 'pending': 65, 'blocked': 1, 'needs_reference': 3, 'remaining': 69, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- "8.33% = 1/12" presents an approximate value as exact equality → should be "8.33% ≈ 1/12" or "8.33% (approx) = 1/12"', '- "9.09% = 1/11" presents an approximate value as exact equality → should be "9.09% ≈ 1/11" or "9.09% (approx) = 1/11"']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_05_Percentage/QA.json'}
+21-11 16:44:55   [Fractions_Decimals] QA passed: editorial:Feynman_hi.txt
+21-11 16:44:55   [Fractions_Decimals] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 73, "passed": 5, "pending": 65, "blocked": 0, "needs_reference": 3, "remaining": 68, 
+21-11 16:44:55 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_04_Fractions_Decimals: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 5, 'pending': 65, 'blocked': 0, 'needs_reference': 3, 'remaining': 68, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: सन् 1999 में NASA का मंगलयान (Mars Climate Orbiter) इसलिए नष्ट हो गया क्योंकि एक टीम ने गणना अंग्रेज़ी इकाइयों (पाउंड-सेकंड) में की और दूसरी ने मीट्रिक इकाइयों (न्यूटन-सेकंड) में। इकाई-रूपांतरण की यह एक छोटी-सी भूल लगभग $125 मिलियन के यान को तबाह कर गई। हमारे यहाँ बैंकिंग और रेलवे की परीक्षाओं में हज़ारों छात्र सिर्फ़ इसलिए चयन से चूक जाते हैं क्योंकि वे 0.25 और ¼ के बीच का संबंध ब्याज की गणना में नहीं पकड़ पाते। भिन्न और दशमलव केवल गणित नहीं, सफलता और भारी असफलता के बीच का अंतर हैं। इन पर मजबूत पकड़ बना ली, तो संख्यात्मक योग्यता का एक बड़ा भाग आपकी ताकत बन जाएगा।']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_04_Fractions_Decimals/QA.json'}
+21-11 16:44:55   [Ratio_Proportion] QA needs_reference: sources:Content_hi.txt
+21-11 16:45:26   [Average] QA passed: editorial:Feynman_en.txt
+21-11 16:45:26   [Average] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>
