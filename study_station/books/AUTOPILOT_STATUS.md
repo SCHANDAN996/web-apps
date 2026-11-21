@@ -5,29 +5,30 @@
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 121 मिनट |
-| W10 | Chapter 01 Noun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 122 मिनट |
+| W10 | Chapter 01 Noun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
 | W11 | Chapter 07 Preposition (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W2 | Chapter 10 Voice (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W12 | Chapter 11 Narration (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W2 | Chapter 10 Voice (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 | W3 | Chapter 09 Articles (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W4 | Chapter 06 Adverb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W5 | Chapter 08 Conjunction (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W6 | Chapter 03 Adjective (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W7 | Chapter 04 Verb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W8 | Chapter 02 Pronoun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W9 | Chapter 05 Tense (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W4 | Chapter 06 Adverb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W5 | Chapter 08 Conjunction (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W6 | Chapter 03 Adjective (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W7 | Chapter 04 Verb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W8 | Chapter 02 Pronoun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W9 | Chapter 05 Tense (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 62 |
+| key 3 | 63 |
 | key 4 | 63 |
-| key 5 | 75 |
+| key 5 | 76 |
 | key 6 | 50 |
 
 ## किताबों की प्रगति
@@ -63,7 +64,7 @@
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 43/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
-| 10th English | 0 | 20 | 0 | 0 | 0 | 25/1622 |
+| 10th English | 0 | 20 | 0 | 0 | 0 | 28/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 0/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 0/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 0/1950 |
@@ -72,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 239/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 242/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,15 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 12:48:09   [Adjective] QA passed: editorial:Content_hi.txt
-21-11 12:48:22   [Verb] QA needs_reference: sources:Content_en.txt
-21-11 12:48:22   [Adjective] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 2, "pending": 77, "blocked": 1, "needs_reference": 1, "remaining": 79, 
-21-11 12:48:22 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 2, 'pending': 77, 'blocked': 1, 'needs_reference': 1, 'remaining': 79, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The claim that the adjective/pronoun test works for possessive "my/your/his" is incorrect: "my" and "your" cannot stand alone as pronouns (only "his" can); the possessive pronouns are "mine, yours, his, hers, ours, theirs" → The test works for demonstrative and interrogative, but for possessive the pronoun forms differ from the adjective forms.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective/QA.json'}
-21-11 12:48:23   [Tense] QA passed: structure
-21-11 12:48:46   [Verb] QA passed: editorial:Content_hi.txt
-21-11 12:48:46   [Verb] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 77, "blocked": 0, "needs_reference": 1, "remaining": 78, 
-21-11 12:48:46 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 77, 'blocked': 0, 'needs_reference': 1, 'remaining': 78, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb/QA.json'}
-21-11 12:49:25   [Adverb] QA passed: structure
 21-11 12:49:39   [sandhi] Practice_hi_Set_03.txt try 3: rejected (Q52:duplicate_options)
 21-11 12:49:45   [Adverb] QA passed: editorial:Content_en.txt
 21-11 12:49:45   [Adverb] QA needs_reference: sources:Content_en.txt
@@ -126,6 +118,15 @@
 21-11 12:53:06   [Narration] QA passed: structure
 21-11 12:53:35   [Voice] QA passed: editorial:Content_en.txt
 21-11 12:53:35   [Voice] QA needs_reference: sources:Content_en.txt
+21-11 12:53:53   [Sentence_Structure] QA passed: structure
+21-11 12:53:54   [Articles] QA passed: editorial:Content_hi.txt
+21-11 12:53:55   [Articles] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 77, "blocked": 0, "needs_reference": 1, "remaining": 78, 
+21-11 12:53:55 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_09_Articles: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 77, 'blocked': 0, 'needs_reference': 1, 'remaining': 78, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_09_Articles/QA.json'}
+21-11 12:54:07   [Tense] QA blocked: editorial:Content_hi.txt
+21-11 12:54:07   [Tense] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 1, "pending": 77, "blocked": 2, "needs_reference": 1, "remaining": 80, 
+21-11 12:54:07 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_05_Tense: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 1, 'pending': 77, 'blocked': 2, 'needs_reference': 1, 'remaining': 80, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- In the Summary Table, the signal words for Future Perfect Continuous are incorrectly listed as "by + duration"; "by" is followed by a point in time (e.g., by June), while duration is expressed with "for" (e.g., for 5 years). → Correct signal words to "by + point of time, for + duration".', '- Rule 10 states the construction after "wish" for present regret uses "Past Indefinite", but the example "I wish I were a bird" uses "were" (past subjunctive), not the past indicative "was" (the Past Indefinite form of "be" for first person singular). → Change rule to "Past Subjunctive (unreal past); for \'be\', use \'were\' for all persons".']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: - **since** = point of time → *since Monday, since 2010, since morning, since childhood*']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- The claim "SSC GD, MTS, RRB Group D जैसी परीक्षाओं में हर शिफ्ट में Tense से सीधे सवाल आते हैं" is an invented exam claim → Remove or qualify (e.g., "often feature Tense questions").', '- Summary table: Future Continuous row shows "will be + V-ing" but detailed section uses "will/shall + be + V1 + ing" → Change to "will/shall be + V-ing".', '- Summary table: Future Perfect row shows "will have + V3" but detailed section uses "will/shall + have + V3" → Change to "will/shall have + V3".', '- Summary table: Future Perfect Continuous row shows "will have been + V-ing + since/for" but detailed section uses "will/shall + have been + V1 + ing + since/for" → Change to "will/shall have been + V-ing + since/for".']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_05_Tense/QA.json'}
+21-11 12:54:24   [Narration] QA passed: editorial:Content_en.txt
+21-11 12:54:24   [Narration] QA needs_reference: sources:Content_en.txt
 ````
 
 </details>
