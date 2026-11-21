@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 21-11-2026 09:18 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 07:44 AM
+**आख़िरी update:** 21-11-2026 09:34 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 07:44 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,12 +8,12 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 94 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 109 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 26 |
-| key 4 | 23 |
+| key 3 | 27 |
+| key 4 | 24 |
 | key 5 | 26 |
 | key 6 | 21 |
 
@@ -53,7 +53,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-21-11 08:26:24 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi after 42 min: todo [] problems []
 21-11 08:26:40 worker 1: nothing left
 21-11 08:31:10   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q76 key d vs re-solve c, Q84 key d vs re-solve a, Q99 key a vs re-solve d)
 21-11 08:31:10   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
@@ -93,4 +92,5 @@
 21-11 09:15:45   [vakya_shuddhi] written 3, failed 1; AI calls today 95/100000
 21-11 09:15:45 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi after 17 min: todo [] problems []
 21-11 09:16:02 worker 2: nothing left
+21-11 09:20:46   [sandhi] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q63 key c vs re-solve a, Q69 key d vs re-solve c, Q71 key b vs re-solve d, Q74 key b vs re-solve c)
 ```
