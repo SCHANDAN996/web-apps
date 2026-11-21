@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "5f07d3170edcbc8a0fc0f46881f3bdd4ee13ae1572161d02174ad9fb330b9fd2",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "99584af52776927485f0797bb7fb3c19f10023089c77a2b5c0c4d46a5d86cfb6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "facf6c09f0890c5c6c6ad28aba2e39c7dd77a0bc1045162f4b7763ac8d7f03be",
+        "Content_hi.txt": "7198e291c4e22dc1a8ea5542cc52ce7ff95bc6d6492800f9c877ef9dabdbd4fd",
+        "Feynman_en.txt": "9bd3415263830c7d0ac6ca5f132ec6c9a16916aa803703487f22f37cb319936c",
+        "Feynman_hi.txt": "45b7495dcfc5e19307f5ff1c87d46ff7acf9101ba4e5cd2b89eaa27a1235b874",
+        "Flashcards_en.txt": "fbb689de775d2723d13d8fbe49e989f1c9d4b5059a244d0bbedbda0115f15fe7",
+        "Flashcards_hi.txt": "2997fc90b1b1abecde7365c701fa89b2df20f974358e8592021af1b926968fc3",
+        "Important_Rules_en.txt": "9c563210f9d2c5018360c5a84dff1386d867208bb538de1777a91f45202702b9",
+        "Important_Rules_hi.txt": "4c2cd42d727dd653f2f05613b60091dc3a2461e00ecff2e093f90cf030aacd2e",
+        "Mind_Map_en.txt": "281d638c0490e40bea26efb4ddbc5f7799e4edc7dd6eeb3f8a2291e5e9879e53",
+        "Mind_Map_hi.txt": "731abae0a246f6d230267ae9a280724eab2b12e2922f271a627cff717c26e491",
+        "PYQ_en.txt": "809c12f990b9620f8fb727a7ed5316233468ee0a5742a8f0a81603a16ed3932f",
+        "PYQ_hi.txt": "11cc31b44bff3ab507d228d21c282d0e1b75e54d242c393fe9df627c65d5dbfb",
+        "Practice_en_Set_01.txt": "69ac01178eefaaacf8dd1182a5f19876dee3338a7516de1fbb9b6811fa4f30fe",
+        "Practice_en_Set_02.txt": "0a26a43d7e85a9fb6fab20d7aa19e0070f91ed554eca963d9af871bfcea23c88",
+        "Practice_en_Set_03.txt": "1dd794100a713dfd048d923e03995240fe546cdf007071704e2f132f921be1d9",
+        "Practice_en_Set_04.txt": "ababf9d2f81136985cbe22b6631ffabcfb85d377c66b35976eb4904a3f1a5aed",
+        "Practice_en_Set_05.txt": "2a226f6782434568c57b21ce752ea33fc1e2bd7f1d86e0112916d15422e036e3",
+        "Practice_en_Set_06.txt": "84c1695edd5ec72ef1df21d12b9b5e5d51a9bf784d5d10b519538aafb384343f",
+        "Practice_hi_Set_01.txt": "c42e496048d79a76c2acbeb7a83e796f2733c9bbb1b204b597008cab7bc1d37b",
+        "Practice_hi_Set_02.txt": "9e0b9382b9ccf0aaee2615ff24d81218c30453a667dd121a305b9da6ecac926a",
+        "Practice_hi_Set_03.txt": "28380982331cfba1c9ec8a51c53959f10e54f725b746c2c6d63ca135c31ea0be",
+        "Practice_hi_Set_04.txt": "5117b78a42dc1f5f3ed94fe246985714f0299d2eeab6e4ebe2a8775804e42941",
+        "Practice_hi_Set_05.txt": "8f0f7ba52d782ff781f78c6879b7290ea21e93a6b8b7993e73a5b8dcfe7313bf",
+        "Practice_hi_Set_06.txt": "c889404f5bc62878ef341c96d720214f7979cb280ae8f241d5721027e3e8d354",
+        "Short_Tricks_en.txt": "fd5309f5b47e18c3bdc8759166cd4dc1d8b700f0cc852944488a034ee76efa7c",
+        "Short_Tricks_hi.txt": "04f444c5d32bf6f5d9faa19c7ff3517cfb224805e5e3c6b5707165631df0f408",
+        "inventory": {
+          "Content_en.txt": "facf6c09f0890c5c6c6ad28aba2e39c7dd77a0bc1045162f4b7763ac8d7f03be",
+          "Content_hi.txt": "7198e291c4e22dc1a8ea5542cc52ce7ff95bc6d6492800f9c877ef9dabdbd4fd",
+          "Feynman_en.txt": "9bd3415263830c7d0ac6ca5f132ec6c9a16916aa803703487f22f37cb319936c",
+          "Feynman_hi.txt": "45b7495dcfc5e19307f5ff1c87d46ff7acf9101ba4e5cd2b89eaa27a1235b874",
+          "Flashcards_en.txt": "fbb689de775d2723d13d8fbe49e989f1c9d4b5059a244d0bbedbda0115f15fe7",
+          "Flashcards_hi.txt": "2997fc90b1b1abecde7365c701fa89b2df20f974358e8592021af1b926968fc3",
+          "Important_Rules_en.txt": "9c563210f9d2c5018360c5a84dff1386d867208bb538de1777a91f45202702b9",
+          "Important_Rules_hi.txt": "4c2cd42d727dd653f2f05613b60091dc3a2461e00ecff2e093f90cf030aacd2e",
+          "Mind_Map_en.txt": "281d638c0490e40bea26efb4ddbc5f7799e4edc7dd6eeb3f8a2291e5e9879e53",
+          "Mind_Map_hi.txt": "731abae0a246f6d230267ae9a280724eab2b12e2922f271a627cff717c26e491",
+          "PYQ_en.txt": "809c12f990b9620f8fb727a7ed5316233468ee0a5742a8f0a81603a16ed3932f",
+          "PYQ_hi.txt": "11cc31b44bff3ab507d228d21c282d0e1b75e54d242c393fe9df627c65d5dbfb",
+          "Practice_en_Set_01.txt": "69ac01178eefaaacf8dd1182a5f19876dee3338a7516de1fbb9b6811fa4f30fe",
+          "Practice_en_Set_02.txt": "0a26a43d7e85a9fb6fab20d7aa19e0070f91ed554eca963d9af871bfcea23c88",
+          "Practice_en_Set_03.txt": "1dd794100a713dfd048d923e03995240fe546cdf007071704e2f132f921be1d9",
+          "Practice_en_Set_04.txt": "ababf9d2f81136985cbe22b6631ffabcfb85d377c66b35976eb4904a3f1a5aed",
+          "Practice_en_Set_05.txt": "2a226f6782434568c57b21ce752ea33fc1e2bd7f1d86e0112916d15422e036e3",
+          "Practice_en_Set_06.txt": "84c1695edd5ec72ef1df21d12b9b5e5d51a9bf784d5d10b519538aafb384343f",
+          "Practice_hi_Set_01.txt": "c42e496048d79a76c2acbeb7a83e796f2733c9bbb1b204b597008cab7bc1d37b",
+          "Practice_hi_Set_02.txt": "9e0b9382b9ccf0aaee2615ff24d81218c30453a667dd121a305b9da6ecac926a",
+          "Practice_hi_Set_03.txt": "28380982331cfba1c9ec8a51c53959f10e54f725b746c2c6d63ca135c31ea0be",
+          "Practice_hi_Set_04.txt": "5117b78a42dc1f5f3ed94fe246985714f0299d2eeab6e4ebe2a8775804e42941",
+          "Practice_hi_Set_05.txt": "8f0f7ba52d782ff781f78c6879b7290ea21e93a6b8b7993e73a5b8dcfe7313bf",
+          "Practice_hi_Set_06.txt": "c889404f5bc62878ef341c96d720214f7979cb280ae8f241d5721027e3e8d354",
+          "Short_Tricks_en.txt": "fd5309f5b47e18c3bdc8759166cd4dc1d8b700f0cc852944488a034ee76efa7c",
+          "Short_Tricks_hi.txt": "04f444c5d32bf6f5d9faa19c7ff3517cfb224805e5e3c6b5707165631df0f408"
+        }
+      },
+      "checked_at": "2026-11-21T09:14:37+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "8fce84a507ad521e65232e70c0d607d85f11f0bcc04650e0fb57a3b948fa62fc",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The \"I before E\" exceptions list includes seven words (weird, seize, height, their, foreign, neighbour, weigh) but the mnemonic and review refer to six exceptions → update the mnemonic to include all seven (e.g., add \"weigh\") and change the review to \"seven exceptions\".",
+        "- In Trap 1, the description for \"occasion\" says \"one c, double s\" but the correct spelling is \"occasion\" with double c and single s → change to \"occasion (double c, single s)\".",
+        "- In the mini reading passage, the statement \"Every bold word comes from the roots table above\" is false because \"revolutionize\" is bolded but not derived from the listed roots → either remove bold from \"revolutionize\" or add its root to the table.",
+        "- In the Review After 2 Days, the root list \"scrib, dict, dict, chron\" duplicates \"dict\" → replace the second \"dict\" with another root such as \"port\" or \"spect\".",
+        "- The Summary Table title claims \"The 50 Most-Tested Words\" but only 42 words are listed → correct the title to \"The 42 Most-Tested Words\" or add eight more words to reach 50."
+      ],
+      "dependencies": {
+        "chapter.json": "99584af52776927485f0797bb7fb3c19f10023089c77a2b5c0c4d46a5d86cfb6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "facf6c09f0890c5c6c6ad28aba2e39c7dd77a0bc1045162f4b7763ac8d7f03be"
+      },
+      "checked_at": "2026-11-21T09:16:09+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "86eecfc5257c12d7547ff84b8c925661c75741ae43085ddc2c0cf3407b3ecbd4",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "99584af52776927485f0797bb7fb3c19f10023089c77a2b5c0c4d46a5d86cfb6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "facf6c09f0890c5c6c6ad28aba2e39c7dd77a0bc1045162f4b7763ac8d7f03be",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T09:16:09+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "57e8e959d24a6e92ef3ba7808ecb3d15ddce96b80ad104e9e8e3bd6d6df593ca",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The -able/-ible rule lists \"responsible\" as an example of -ible used when the root is incomplete, but \"responsible\" derives from the complete word \"response\", contradicting the rule. → Remove \"responsible\" from the -ible examples or mark it as an exception."
+      ],
+      "dependencies": {
+        "chapter.json": "99584af52776927485f0797bb7fb3c19f10023089c77a2b5c0c4d46a5d86cfb6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "7198e291c4e22dc1a8ea5542cc52ce7ff95bc6d6492800f9c877ef9dabdbd4fd"
+      },
+      "checked_at": "2026-11-21T09:19:00+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T09:19:00+00:00",
+  "chapter_fingerprint": "f2dd9d3639ef6f11bb5d2162d4aaf3fda6fb023f1fbbdd8075dd79defb343cf5"
+}

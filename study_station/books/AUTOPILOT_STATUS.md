@@ -5,19 +5,18 @@
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 9/12
+**काम पर लगे workers:** 8/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 14 मिनट |
-| W11 | Chapter 14 Antonyms (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
-| W2 | Chapter 16 Idioms Phrases (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W3 | Chapter 18 Error Spotting Adv (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W1 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 15 मिनट |
+| W11 | Chapter 14 Antonyms (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
+| W3 | Chapter 18 Error Spotting Adv (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
 | W5 | Chapter 21 Cloze Test (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W6 | Chapter 19 Fill in Blanks Adv (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W7 | Chapter 17 Spelling (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W6 | Chapter 19 Fill in Blanks Adv (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W7 | Chapter 17 Spelling (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
 | W8 | Chapter 22 Para Jumbles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
 | W9 | Chapter 20 Sentence Improvement Adv (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
 
@@ -85,8 +84,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 14:45:45   [Error_Spotting_Adv] QA passed: structure
-21-11 14:46:09   [Spelling] QA blocked: editorial:Content_en.txt
 21-11 14:46:09   [Spelling] QA needs_reference: sources:Content_en.txt
 21-11 14:46:20   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q79 key c vs re-solve b, Q80 key d vs re-solve a, Q81 key a vs re-solve c, Q88 key c vs re-solve a, 
 21-11 14:46:50   [Fill_in_Blanks_Adv] QA passed: structure
@@ -125,6 +122,8 @@
 21-11 14:52:27 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_22_Para_Jumbles: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 2, 'pending': 77, 'blocked': 1, 'needs_reference': 1, 'remaining': 79, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- "Kerala\'s literacy campaign began in 1990 in Ernakulam district" (in Trap 1 example) → "Kerala\'s literacy campaign began in 1989 in Ernakulam district (declared fully literate in 1990)"']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_22_Para_Jumbles/QA.json'}
 21-11 14:53:16 worker 9: nothing left
 21-11 14:54:05 worker 1: nothing left
+21-11 14:54:54 worker 10: nothing left
+21-11 14:54:58   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q84 key d vs re-solve a, Q88 key b vs re-solve a)
 ````
 
 </details>
