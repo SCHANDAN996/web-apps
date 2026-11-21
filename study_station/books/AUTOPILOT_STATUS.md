@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 11:14 AM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 11:16 AM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 23 मिनट |
-| W10 | Chapter 08 excel (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W11 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W12 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W2 | Chapter 10 internet browser (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 23 मिनट |
-| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
-| W5 | Chapter 13 ek shabd (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W6 | Chapter 09 upsarg pratyay (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W7 | Chapter 08 samas (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
-| W8 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W9 | Chapter 12 e banking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 25 मिनट |
+| W10 | Chapter 13 networking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W11 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W12 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W2 | Chapter 14 muhavare lokokti (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 25 मिनट |
+| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 16 मिनट |
+| W5 | Chapter 13 ek shabd (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W6 | Chapter 09 upsarg pratyay (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W7 | Chapter 08 samas (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
+| W8 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W9 | Chapter 12 e banking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 13 |
-| key 4 | 17 |
-| key 5 | 16 |
+| key 3 | 14 |
+| key 4 | 18 |
+| key 5 | 18 |
 | key 6 | 3 |
 
 ## किताबों की प्रगति
@@ -59,8 +59,8 @@
 
 | किताब | QA पास | जाँच बाकी | प्रमाण बाकी | सुधार अटका | मैनुअल | जाँचें पास / कुल |
 |---|---:|---:|---:|---:|---:|---:|
-| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 18/540 |
-| 12th Computer | 0 | 14 | 0 | 0 | 0 | 23/1092 |
+| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 22/540 |
+| 12th Computer | 0 | 14 | 0 | 0 | 0 | 24/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 0/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 0/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 0/1606 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 41/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 46/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,21 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 11:07:09   [internet_browser] QA passed: structure
-21-11 11:07:29   [software_os] QA passed: editorial:Content_hi.txt
-21-11 11:07:30   [software_os] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
-21-11 11:07:30 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: NCERT Class 11 Computer Science', 'Fetch official supporting evidence for: Standard OS textbooks (Silberschatz, Galvin, Gagne)', 'Fetch official supporting evidence for: Operating System Concepts', 'Fetch official supporting evidence for: Microsoft Learn — FAT32 Specification', 'Fetch official supporting evidence for: Linux Documentation Project — File Permissions', 'Fetch official supporting evidence for: Browser vendor documentation (Google Chrome Help, Microsoft Edge Help, Mozilla Support)']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os/QA.json'}
-21-11 11:08:16   [vilom] QA passed: structure
-21-11 11:08:17   [internet_browser] QA passed: editorial:Content_en.txt
-21-11 11:08:17   [internet_browser] QA needs_reference: sources:Content_en.txt
-21-11 11:08:58   [paryayvachi] QA blocked: editorial:Content_hi.txt
-21-11 11:09:10   [paryayvachi] QA needs_reference: sources:Content_hi.txt
-21-11 11:09:11   [email] QA passed: structure
-21-11 11:09:40   [vilom] QA blocked: editorial:Content_hi.txt
-21-11 11:09:41   [vilom] QA needs_reference: sources:Content_hi.txt
-21-11 11:09:46   [upsarg_pratyay] QA blocked: editorial:Content_hi.txt
-21-11 11:09:47   [upsarg_pratyay] QA needs_reference: sources:Content_hi.txt
-21-11 11:10:16   [email] QA passed: editorial:Content_en.txt
 21-11 11:10:17   [email] QA needs_reference: sources:Content_en.txt
 21-11 11:10:51   [keyboard_shortcuts] QA passed: editorial:Content_en.txt
 21-11 11:10:51   [keyboard_shortcuts] QA needs_reference: sources:Content_en.txt
@@ -123,6 +108,21 @@
 21-11 11:15:20   [ek_shabd] QA passed: editorial:Content_hi.txt
 21-11 11:15:21   [ek_shabd] QA needs_reference: sources:Content_hi.txt
 21-11 11:15:22   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q87 key b vs re-solve d, Q88 key c vs re-solve a, Q93 key a vs re-solve c, Q95 key c vs re-solve a)
+21-11 11:15:37   [e_banking] QA blocked: editorial:Content_en.txt
+21-11 11:15:40   [e_banking] QA needs_reference: sources:Content_en.txt
+21-11 11:15:40   [muhavare_lokokti] QA passed: structure
+21-11 11:15:46   [anekarthi_samshrut] QA passed: editorial:Content_hi.txt
+21-11 11:15:46   [anekarthi_samshrut] QA needs_reference: sources:Content_hi.txt
+21-11 11:16:35   [keyboard_shortcuts] QA passed: editorial:Content_hi.txt
+21-11 11:16:35   [keyboard_shortcuts] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
+21-11 11:16:35 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_06_keyboard_shortcuts: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: *Note: Shortcuts are based on standard Windows 10/11 and Microsoft 365 (Office 2016+) behavior. Minor variations may exist in older versions or customized enterprise environments. Examination questions follow the standard defaults described above.*']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_06_keyboard_shortcuts/QA.json'}
+21-11 11:16:35   [samas] QA passed: editorial:Feynman_hi.txt
+21-11 11:16:36   [samas] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 2, "pending": 32, "blocked": 1, "needs_reference": 1, "remaining": 34, 
+21-11 11:16:36 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 2, 'pending': 32, 'blocked': 1, 'needs_reference': 1, 'remaining': 34, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- The example "यथार्थ" under अव्ययीभाव समास is incorrect because "यथार्थ" is an adjective (विशेषण), not an अव्यय; it belongs to कर्मधारय तत्पुरुष. → Remove "यथार्थ" from अव्ययीभाव examples and reclassify it as कर्मधारय तत्पुरुष.', '- The example "अनुव्रत" under अव्ययीभाव समास is incorrect because "अनुव्रत" is a noun/adjective, not an अव्यय; it should be classified as तत्पुरुष (कर्मधारय or सामान्य). → Remove "अनुव्रत" from अव्ययीभाव examples and reclassify it correctly.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_08_samas/QA.json'}
+21-11 11:16:39   [upsarg_pratyay] QA blocked: editorial:Feynman_hi.txt
+21-11 11:16:40   [upsarg_pratyay] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 1, "pending": 32, "blocked": 2, "needs_reference": 1, "remaining": 35, 
+21-11 11:16:40 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 1, 'pending': 32, 'blocked': 2, 'needs_reference': 1, 'remaining': 35, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- In section 3.2 (ग) स्त्रीलिंग प्रत्यय table, the suffix '-त्री' is incorrectly exemplified with 'गायक → गायिका'; '-त्री' does not produce 'गायिका' (the correct suffix for that transformation is '-इका' or '-ई' with deletion of -क) → Replace the example for '-त्री' with a valid one (e.g., 'पुत्र → पुत्री' for '-ई') or change the suffix to '-इका' for 'गायक → गायिका'."]}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- "अनुचित" के विश्लेषण में उपसर्ग "अनु-" का अर्थ "अनुसार/पीछे" बताया गया है → "अनुचित" में "अनु-" निषेधार्थक उपसर्ग है (स्वर से पहले "अ-" का रूप "अनु-"), अर्थ "नहीं/अभाव"; मूल "चित्" (धातु) + "उ-" (उपसर्ग) + "त" (कृदन्त) = "उचित"', '- कृदन्त प्रत्ययों की सूची में "-आ, -ई, -न, -त, -नार" दिया है लेकिन उदाहरण "खेलना" में "ना" प्रयुक्त है → सूची में "ना" (क्रिया-संज्ञा/इन्फिनिटिव कारक) जोड़ें या उदाहरण बदलें']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay/QA.json'}
+21-11 11:17:15   [sandhi] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q2 key c vs re-solve b, Q3 key c vs re-solve a, Q4 key d vs re-solve b, Q9 key b vs re-solve ?, Q13 
 ````
 
 </details>
