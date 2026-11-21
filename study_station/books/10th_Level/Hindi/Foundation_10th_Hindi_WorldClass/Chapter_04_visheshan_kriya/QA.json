@@ -88,11 +88,71 @@
         "Feynman_hi.txt": "11f939b41e167eecce63512c2dd06366d61f9cbacd8d1a75f47e6456fc1046a7"
       },
       "checked_at": "2026-11-21T05:29:17+00:00"
+    },
+    "sources:Feynman_hi.txt": {
+      "fingerprint": "461d450da8c427dc18e0a3ed4a7f1c19a810986144f1d284332f008aa8f6e557",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "a813f63fb2ec43c212fa987171d2c2b1917c31855887a11e7c5adcaed845b83c",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Feynman_hi.txt": "11f939b41e167eecce63512c2dd06366d61f9cbacd8d1a75f47e6456fc1046a7",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:10:50+00:00"
+    },
+    "editorial:Flashcards_hi.txt": {
+      "fingerprint": "478614f051653a5f2a8a25b7b89b69cdfbf24d1d8a61565da03e27bdf95c6e91",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Card 16 identifies verb as \"खाते\" only → The verb in the sentence is \"खाते हैं\" (including auxiliary \"हैं\")."
+      ],
+      "dependencies": {
+        "chapter.json": "a813f63fb2ec43c212fa987171d2c2b1917c31855887a11e7c5adcaed845b83c",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Flashcards_hi.txt": "235bce1b4885a52aab3d951d6b5e0cef4733510a5cc749d33c70fe431eddd7ce"
+      },
+      "checked_at": "2026-11-21T10:13:05+00:00"
+    },
+    "sources:Flashcards_hi.txt": {
+      "fingerprint": "c00faba3c692fd278310255239d15cd81a8f576aa5deffcd97ea084b07022b8f",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "a813f63fb2ec43c212fa987171d2c2b1917c31855887a11e7c5adcaed845b83c",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Flashcards_hi.txt": "235bce1b4885a52aab3d951d6b5e0cef4733510a5cc749d33c70fe431eddd7ce",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:13:05+00:00"
+    },
+    "editorial:Important_Rules_hi.txt": {
+      "fingerprint": "07c56a8272af47fa90b53f47360fa363b7eb413c391adae267437b592f713ae9",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "a813f63fb2ec43c212fa987171d2c2b1917c31855887a11e7c5adcaed845b83c",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Important_Rules_hi.txt": "50620c86e06905fa681041caf5c33d30e2b85dafb6f3c188e9af30ed5a54f8bb"
+      },
+      "checked_at": "2026-11-21T10:14:47+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T05:29:17+00:00",
-  "chapter_fingerprint": "55f06c61f096483dcac70d1c4f96c9639fc5819cb76b511196a2e99daca25771"
+  "updated_at": "2026-11-21T10:14:47+00:00",
+  "chapter_fingerprint": "9e166ad3572bb7a5a209fbd8c6ec6cc75a836a6b6a19483593b966d155e63a23"
 }

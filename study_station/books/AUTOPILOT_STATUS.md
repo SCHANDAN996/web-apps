@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 03:44 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 03:45 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,25 +11,25 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 6 मिनट |
-| W10 | Chapter 02 shabd bhed (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W11 | Chapter 02 input output ports (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W12 | Chapter 03 sangya sarvanam (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 5 मिनट |
-| W3 | Chapter 01 varn vartani (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W4 | Chapter 01 organization cpu (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W5 | Chapter 03 memory storage backup (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W6 | Chapter 04 visheshan kriya (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W7 | Chapter 05 windows files (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W8 | Chapter 04 software os (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W9 | Chapter 05 ling vachan karak (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 7 मिनट |
+| W10 | Chapter 02 shabd bhed (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W11 | Chapter 02 input output ports (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W12 | Chapter 03 sangya sarvanam (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 6 मिनट |
+| W3 | Chapter 01 varn vartani (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W4 | Chapter 01 organization cpu (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W5 | Chapter 06 kaal vachya (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W6 | Chapter 04 visheshan kriya (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W7 | Chapter 05 windows files (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W8 | Chapter 04 software os (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W9 | Chapter 05 ling vachan karak (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 5 |
-| key 4 | 5 |
+| key 3 | 6 |
+| key 4 | 6 |
 | key 5 | 1 |
-| key 6 | 3 |
+| key 6 | 4 |
 
 ## किताबों की प्रगति
 
@@ -59,8 +59,8 @@
 
 | किताब | QA पास | जाँच बाकी | प्रमाण बाकी | सुधार अटका | मैनुअल | जाँचें पास / कुल |
 |---|---:|---:|---:|---:|---:|---:|
-| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 32/540 |
-| 12th Computer | 0 | 14 | 0 | 0 | 0 | 33/1092 |
+| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 33/540 |
+| 12th Computer | 0 | 14 | 0 | 0 | 0 | 34/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 43/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 495/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 497/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,12 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 15:38:41 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram (TODO: todo 2, problems 0)
-21-11 15:38:41   [rikt_sthan_vakya_kram] Hindi-only writer: direct Hindi content; English generation and translation disabled
-21-11 15:40:22   [sandhi] Practice_hi_Set_01.txt try 1: rejected (Q6:duplicate_options,Q20:duplicate_options)
-21-11 15:40:49   [input_output_ports] QA needs_reference: sources:Content_hi.txt
-21-11 15:40:48   [varn_vartani] QA needs_reference: sources:Feynman_hi.txt
-21-11 15:40:50   [ling_vachan_karak] QA needs_reference: sources:Feynman_hi.txt
 21-11 15:40:50   [shabd_bhed] QA needs_reference: sources:Feynman_hi.txt
 21-11 15:40:50   [organization_cpu] QA needs_reference: sources:Content_hi.txt
 21-11 15:40:50   [sangya_sarvanam] QA needs_reference: sources:Feynman_hi.txt
@@ -123,6 +117,12 @@
 21-11 15:45:10   [software_os] QA passed: editorial:Feynman_hi.txt
 21-11 15:45:10   [software_os] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
 21-11 15:45:10 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: NCERT Class 11 Computer Science', 'Fetch official supporting evidence for: Standard OS textbooks (Silberschatz, Galvin, Gagne)', 'Fetch official supporting evidence for: Operating System Concepts', 'Fetch official supporting evidence for: Microsoft Learn — FAT32 Specification', 'Fetch official supporting evidence for: Linux Documentation Project — File Permissions', 'Fetch official supporting evidence for: Browser vendor documentation (Google Chrome Help, Microsoft Edge Help, Mozilla Support)']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os/QA.json'}
+21-11 15:45:43   [organization_cpu] QA blocked: editorial:Feynman_hi.txt
+21-11 15:45:59   [organization_cpu] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 2, "needs_reference": 3, "remaining": 75, 
+21-11 15:46:00 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_01_organization_cpu: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Example 5 states "Address bus width = word length (typically)" → Word length (internal data width) and address bus width are independent; they can differ (e.g., 8086 is 16-bit word with 20-bit address bus). The 4\u202fGB answer assumes a 32-bit address bus, not word length.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- Korean word "실행" (silhaeng) used in Hindi text for "execute" → replace with Hindi "निष्पादित करता है" or "क्रियान्वित करता है"']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_01_organization_cpu/QA.json'}
+21-11 15:46:00   [keyboard_shortcuts] QA needs_reference: sources:Content_hi.txt
+21-11 15:46:06   [sangya_sarvanam] QA passed: editorial:Flashcards_hi.txt
+21-11 15:46:06   [sangya_sarvanam] QA needs_reference: sources:Flashcards_hi.txt
 ````
 
 </details>
