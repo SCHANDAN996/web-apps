@@ -112,11 +112,72 @@
         "Content_hi.txt": "83af6544ccf08dcb9f9b0664817ff3d019a32797afb4b114c7ad71a0799ee373"
       },
       "checked_at": "2026-11-21T06:52:24+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "10e3066cc44cb3d3a765130f8477a2bed626b2f4f7845d3cddb877c5248db3d3",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "c1e158bf97d9605db46f909573011fa3adea1fc74e9a8e924b47deb9942f78bd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "83af6544ccf08dcb9f9b0664817ff3d019a32797afb4b114c7ad71a0799ee373",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:58:00+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "f71ad8d852013a1d64669c6e66615a5f64f6e60fbdcf60ac78fb8c394dd3426a",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "c1e158bf97d9605db46f909573011fa3adea1fc74e9a8e924b47deb9942f78bd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "2067d25f8bd9f5660e8f2a3bde81a7af014e6d2fdc0c4793b33d25e0a9895c0b"
+      },
+      "checked_at": "2026-11-21T10:58:58+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "66418de5e011dcb6aa32ce7f2d30e466157a3a0bca525b5092509f21765d9e71",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: There was a boy named Ravi. On his 10th birthday, his uncle gave him a challenge. “Ravi, you were born on 12 March 2015. Tell me what day that was, without looking at a calendar. If you get it right, I’ll buy you a pizza every Sunday for a year.”",
+        "Fetch official supporting evidence for: “There’s one more thing,” said Uncle. “You need to know where the whole century begins. For the 1900s, the dial starts at 0 — and remember, in our day-code table 0 means Sunday. For the 2000s, it’s at 6 — which in our table means Saturday. You don’t have to understand why right now — just remember that since you were born in 2015, your century code is 6.”",
+        "Fetch official supporting evidence for: Ravi checked his smartphone calendar. “Yes! 12 March 2015 was a Thursday! That’s unbelievable.”",
+        "Fetch official supporting evidence for: And one question to test yourself: What day of the week will 15th August 2047 be? (Hint: Use the century code for the 2000s, calculate step by step.) Write your answer, then verify with any calendar app. Now go, time traveler."
+      ],
+      "dependencies": {
+        "chapter.json": "c1e158bf97d9605db46f909573011fa3adea1fc74e9a8e924b47deb9942f78bd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "2067d25f8bd9f5660e8f2a3bde81a7af014e6d2fdc0c4793b33d25e0a9895c0b",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:58:58+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "9d80b19219d92cc7eb99f91d39627f03f9d6416ecf206d5f10cc0fe3f42230e1",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "c1e158bf97d9605db46f909573011fa3adea1fc74e9a8e924b47deb9942f78bd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "c588ec9722e8b59b25d9dc9e7cc882f54c35615924c2c8aabbb1ebfdb02c4d1a"
+      },
+      "checked_at": "2026-11-21T11:00:17+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T06:52:24+00:00",
+  "updated_at": "2026-11-21T11:00:17+00:00",
   "chapter_fingerprint": "283e7fad36ea38a4be83f43aff71bca90bce5aba592178ba18e8ec6574c30db4"
 }
