@@ -107,11 +107,71 @@
         "Content_hi.txt": "11c0244505a031835f90b5ff375a8592861d8001f2829f398e8fec0e90da2db0"
       },
       "checked_at": "2026-11-21T08:52:17+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "44f829b23b7f8fa412bebccf7c89a4f65608768b22865d02fa7afe0692748f4a",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "74c184fe2d8532ee579dff2fa2bc3daaf0dd3878fb5c87f23d8fb0c005aff7ea",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "11c0244505a031835f90b5ff375a8592861d8001f2829f398e8fec0e90da2db0",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:40:54+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "c42f38883962d0acb5f5cbfe94e1d6b43c0f256bd37a131ea11f832502fecb67",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- In the \"Unforgettable Trick\" section, the example says \"left of the 8th from the right\" but then subtracts 5 (19 − 5 = 14) without stating the step count; it should read \"5th to the left of the 8th from the right\" to match the calculation."
+      ],
+      "dependencies": {
+        "chapter.json": "74c184fe2d8532ee579dff2fa2bc3daaf0dd3878fb5c87f23d8fb0c005aff7ea",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "6911c44f7fbcce7b5b2e736133bc02b4700a46fed50bc37459804dfad965cb9a"
+      },
+      "checked_at": "2026-11-21T12:41:16+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "ea72d9496e89cc67df3f0253bab7951338b2605142d93f70872718c0876d1a4d",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "74c184fe2d8532ee579dff2fa2bc3daaf0dd3878fb5c87f23d8fb0c005aff7ea",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "6911c44f7fbcce7b5b2e736133bc02b4700a46fed50bc37459804dfad965cb9a",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:41:16+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "a428e1d2dafd4cf5904387fcd5e2337e3df5ff76b57454ea506d6fad2744a881",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "74c184fe2d8532ee579dff2fa2bc3daaf0dd3878fb5c87f23d8fb0c005aff7ea",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "689751224d3683a608ab0a120a2e05d777467bc4f6de6ef35458e40186212ece"
+      },
+      "checked_at": "2026-11-21T12:42:09+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T08:52:18+00:00",
+  "updated_at": "2026-11-21T12:42:09+00:00",
   "chapter_fingerprint": "42db5e22855bc0461ea7b6dc1d84a7b57d036b9d37de586ec88469069264566e"
 }
