@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 21-11-2026 10:19 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 07:44 AM
+**आख़िरी update:** 21-11-2026 10:35 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 07:44 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 155 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 170 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 29 |
+| key 3 | 30 |
 | key 4 | 26 |
 | key 5 | 29 |
-| key 6 | 23 |
+| key 6 | 24 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -53,7 +53,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-21-11 08:36:50   [sandhi] Practice_hi_Set_02.txt try 3: rejected (Q26:duplicate_options,Q28:duplicate_options,Q29:duplicate_options,Q30:duplicate_options,Q32:duplicate_options)
 21-11 08:37:46   [sandhi] Practice_hi_Set_02.txt try 4: rejected (Q26:duplicate_options,Q33:duplicate_options,Q34:duplicate_options,Q36:duplicate_options,Q37:duplicate_options)
 21-11 08:37:46   [sandhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
 21-11 08:38:33   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q111 key c vs re-solve b, Q123 key c vs re-solve d)
@@ -93,4 +92,5 @@
 21-11 10:06:34   [sandhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
 21-11 10:07:19   [sandhi] Practice_hi_Set_06.txt try 1: rejected (Q127:duplicate_options,Q129:duplicate_options,Q131:duplicate_options,Q136:duplicate_options,Q142:duplicate_opt
 21-11 10:18:12   [sandhi] Practice_hi_Set_06.txt try 2: rejected (Q131:duplicate_options,Q144:duplicate_options,Q145:duplicate_options,Q147:duplicate_options,Q148:duplicate_opt
+21-11 10:29:40   [sandhi] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q126 key c vs re-solve a, Q128 key d vs re-solve b, Q140 key d vs re-solve b, Q146 key d vs re-solve
 ```
