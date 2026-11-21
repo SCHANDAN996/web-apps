@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "d49ac98874b15d85b30ee99f1645e7278cabab965253b260c5dcde5b44fd6b0a",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "a813f63fb2ec43c212fa987171d2c2b1917c31855887a11e7c5adcaed845b83c",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Content_hi.txt": "25ebf499c0f53a6b45a9fef7209c7d0c87ab4d1ec62795c5d58468f3e5a8be95",
+        "Feynman_hi.txt": "11f939b41e167eecce63512c2dd06366d61f9cbacd8d1a75f47e6456fc1046a7",
+        "Flashcards_hi.txt": "235bce1b4885a52aab3d951d6b5e0cef4733510a5cc749d33c70fe431eddd7ce",
+        "Important_Rules_hi.txt": "50620c86e06905fa681041caf5c33d30e2b85dafb6f3c188e9af30ed5a54f8bb",
+        "Key_Facts_hi.txt": "cf42d42a98b5e51cff5101675caf1223310a3f8ec7bcfedfe73fff2ce67d8db7",
+        "Mind_Map.txt": "83133a96ceb2257b7d53203003c842bbd7becd64e131ca86bce0c194ff0d9157",
+        "PYQ_hi.txt": "4763568fb1699ccd455c713d09afe743363051f8be8ff0e8904afa3178998163",
+        "Practice_hi_Set_01.txt": "4b0df2bd3c0c663e0373e8d6d035305d40e2a72e48d6da51435814f9298443ed",
+        "Practice_hi_Set_02.txt": "798eca7acafd77a9994a2578afc9b5e9f57d1a820656f23ec8feb333eea87627",
+        "Practice_hi_Set_03.txt": "b212f0d2c64d91a51fba68a9e97286cd422917ece45ef7c2a7b88d31b467be1a",
+        "Practice_hi_Set_04.txt": "4701f1f694194f0e6e9592fff1564229bfa657c5282d742836abcdf54564e039",
+        "Practice_hi_Set_05.txt": "e3a2b16759c822e653fa64c9b1043a379473d2bff98fe01361722ba196b0f7dd",
+        "Practice_hi_Set_06.txt": "174c0d5a8748e289b8e4949f6703781bbeb12fd86f8b74f73de9670b52df3945",
+        "inventory": {
+          "Content_hi.txt": "25ebf499c0f53a6b45a9fef7209c7d0c87ab4d1ec62795c5d58468f3e5a8be95",
+          "Feynman_hi.txt": "11f939b41e167eecce63512c2dd06366d61f9cbacd8d1a75f47e6456fc1046a7",
+          "Flashcards_hi.txt": "235bce1b4885a52aab3d951d6b5e0cef4733510a5cc749d33c70fe431eddd7ce",
+          "Important_Rules_hi.txt": "50620c86e06905fa681041caf5c33d30e2b85dafb6f3c188e9af30ed5a54f8bb",
+          "Key_Facts_hi.txt": "cf42d42a98b5e51cff5101675caf1223310a3f8ec7bcfedfe73fff2ce67d8db7",
+          "Mind_Map.txt": "83133a96ceb2257b7d53203003c842bbd7becd64e131ca86bce0c194ff0d9157",
+          "PYQ_hi.txt": "4763568fb1699ccd455c713d09afe743363051f8be8ff0e8904afa3178998163",
+          "Practice_hi_Set_01.txt": "4b0df2bd3c0c663e0373e8d6d035305d40e2a72e48d6da51435814f9298443ed",
+          "Practice_hi_Set_02.txt": "798eca7acafd77a9994a2578afc9b5e9f57d1a820656f23ec8feb333eea87627",
+          "Practice_hi_Set_03.txt": "b212f0d2c64d91a51fba68a9e97286cd422917ece45ef7c2a7b88d31b467be1a",
+          "Practice_hi_Set_04.txt": "4701f1f694194f0e6e9592fff1564229bfa657c5282d742836abcdf54564e039",
+          "Practice_hi_Set_05.txt": "e3a2b16759c822e653fa64c9b1043a379473d2bff98fe01361722ba196b0f7dd",
+          "Practice_hi_Set_06.txt": "174c0d5a8748e289b8e4949f6703781bbeb12fd86f8b74f73de9670b52df3945"
+        }
+      },
+      "checked_at": "2026-11-21T05:23:06+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "070b7de32a89045958f53dda33302abfa30eb16359f7226b882f27d0b10e1e36",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Section 1.1 rule \"विशेषण हमेशा संज्ञा/सर्वनाम के लिंग, वचन, कारक के अनुसार बदलता है\" → False: अरूपांतरित विशेषण (e.g., सुंदर, लाल, होशियार) never change; rule should specify only रूपांतरित विशेषण change.",
+        "- Section 3 exam formula \"यदि शब्द के बाद है/हैं/था/थे/होगा/होंगे आए → क्रिया\" → Incorrect: adjectives also follow copula (e.g., \"वह अच्छा है\" where अच्छा is adjective); the heuristic fails.",
+        "- Example 1 classifies \"बहुत\" as संख्यावाचक विशेषण when modifying adjective \"सुंदर\" → In standard Hindi grammar \"बहुत\" modifying an adjective is a क्रिया विशेषण (adverb of degree), not a विशेषण.",
+        "- Common Errors #7 labels error as \"संख्यावाचक विशेषण का गलत क्रम\" but corrections are spelling (पांचों→पाँचों) and verb agreement (होती→होतीं), not word order."
+      ],
+      "dependencies": {
+        "chapter.json": "a813f63fb2ec43c212fa987171d2c2b1917c31855887a11e7c5adcaed845b83c",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Content_hi.txt": "25ebf499c0f53a6b45a9fef7209c7d0c87ab4d1ec62795c5d58468f3e5a8be95"
+      },
+      "checked_at": "2026-11-21T05:25:51+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "9e8b91804632575c1386d3c8fa575b840f641f0013b04a70e2937bb079dcd2eb",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "a813f63fb2ec43c212fa987171d2c2b1917c31855887a11e7c5adcaed845b83c",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Content_hi.txt": "25ebf499c0f53a6b45a9fef7209c7d0c87ab4d1ec62795c5d58468f3e5a8be95",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T05:25:51+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "aae96a649402412dfa434c772e542fc5dbc0af87804e2ad1a7e35995977c7109",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "a813f63fb2ec43c212fa987171d2c2b1917c31855887a11e7c5adcaed845b83c",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Feynman_hi.txt": "11f939b41e167eecce63512c2dd06366d61f9cbacd8d1a75f47e6456fc1046a7"
+      },
+      "checked_at": "2026-11-21T05:29:17+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T05:29:17+00:00",
+  "chapter_fingerprint": "55f06c61f096483dcac70d1c4f96c9639fc5819cb76b511196a2e99daca25771"
+}

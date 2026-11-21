@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 11:00 AM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 11:01 AM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 9 मिनट |
-| W10 | Chapter 01 organization cpu (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W11 | Chapter 02 input output ports (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W12 | Chapter 05 windows files (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W2 | Chapter 15 vakya shuddhi (10th Hindi) | 🔎 review हो रहा है | 8 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 8 मिनट |
-| W4 | Chapter 01 varn vartani (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W5 | Chapter 02 shabd bhed (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W6 | Chapter 06 kaal vachya (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W7 | Chapter 04 visheshan kriya (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W8 | Chapter 05 ling vachan karak (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W9 | Chapter 04 software os (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 10 मिनट |
+| W10 | Chapter 01 organization cpu (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W11 | Chapter 02 input output ports (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W12 | Chapter 05 windows files (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W2 | Chapter 15 vakya shuddhi (10th Hindi) | 🔎 review हो रहा है | 9 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 9 मिनट |
+| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W5 | Chapter 02 shabd bhed (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W6 | Chapter 06 kaal vachya (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W7 | Chapter 04 visheshan kriya (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W8 | Chapter 05 ling vachan karak (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W9 | Chapter 04 software os (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 5 |
-| key 4 | 8 |
-| key 5 | 7 |
+| key 4 | 9 |
+| key 5 | 8 |
 | key 6 | 1 |
 
 ## किताबों की प्रगति
@@ -59,8 +59,8 @@
 
 | किताब | QA पास | जाँच बाकी | प्रमाण बाकी | सुधार अटका | मैनुअल | जाँचें पास / कुल |
 |---|---:|---:|---:|---:|---:|---:|
-| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 10/540 |
-| 12th Computer | 0 | 14 | 0 | 0 | 0 | 8/1092 |
+| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 11/540 |
+| 12th Computer | 0 | 14 | 0 | 0 | 0 | 9/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 0/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 0/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 0/1606 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 18/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 20/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,12 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 10:54:00   [varn_vartani] QA blocked: editorial:Content_hi.txt
-21-11 10:54:00   [varn_vartani] QA needs_reference: sources:Content_hi.txt
-21-11 10:54:20   [shabd_bhed] QA blocked: editorial:Content_hi.txt
-21-11 10:54:20   [shabd_bhed] QA needs_reference: sources:Content_hi.txt
-21-11 10:54:50   [memory_storage_backup] QA passed: editorial:Content_en.txt
-21-11 10:54:50   [memory_storage_backup] QA needs_reference: sources:Content_en.txt
 21-11 10:55:24   [sangya_sarvanam] QA passed: editorial:Content_hi.txt
 21-11 10:55:24   [sangya_sarvanam] QA needs_reference: sources:Content_hi.txt
 21-11 10:55:51   [visheshan_kriya] QA blocked: editorial:Content_hi.txt
@@ -123,6 +117,12 @@
 21-11 11:00:32   [keyboard_shortcuts] QA passed: structure
 21-11 11:01:00   [kaal_vachya] QA passed: editorial:Content_hi.txt
 21-11 11:01:00   [kaal_vachya] QA needs_reference: sources:Content_hi.txt
+21-11 11:01:34   [word] QA passed: structure
+21-11 11:01:43   [windows_files] QA blocked: editorial:Content_en.txt
+21-11 11:01:43   [windows_files] QA needs_reference: sources:Content_en.txt
+21-11 11:01:44   [kaal_vachya] QA passed: editorial:Feynman_hi.txt
+21-11 11:01:44   [kaal_vachya] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 3, "pending": 32, "blocked": 0, "needs_reference": 1, "remaining": 33, 
+21-11 11:01:44 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 3, 'pending': 32, 'blocked': 0, 'needs_reference': 1, 'remaining': 33, 'failures': [{'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya/QA.json'}
 ````
 
 </details>
