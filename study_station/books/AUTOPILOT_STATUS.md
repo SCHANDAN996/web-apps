@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 04:39 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 04:40 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 60 मिनट |
-| W10 | Chapter 21 Paper Folding Cutting (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W11 | Chapter 15 Mathematical Operations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W12 | Chapter 20 Mirror Water Images (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 60 मिनट |
-| W4 | Chapter 22 Figure Series (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W5 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W6 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W7 | Chapter 14 Alphabet Questions (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W8 | Chapter 16 Statement Conclusion (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W9 | Chapter 17 Course of Action (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 61 मिनट |
+| W10 | Chapter 21 Paper Folding Cutting (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W12 | Chapter 20 Mirror Water Images (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 61 मिनट |
+| W3 | Chapter 01 Number System (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W4 | Chapter 22 Figure Series (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W5 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W6 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W7 | Chapter 14 Alphabet Questions (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W8 | Chapter 16 Statement Conclusion (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W9 | Chapter 17 Course of Action (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 43 |
+| key 3 | 44 |
 | key 4 | 49 |
 | key 5 | 40 |
-| key 6 | 29 |
+| key 6 | 30 |
 
 ## किताबों की प्रगति
 
@@ -82,13 +82,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 16:33:20   [Mathematical_Operations] QA passed: editorial:Feynman_en.txt
-21-11 16:33:20   [Mathematical_Operations] QA needs_reference: sources:Feynman_en.txt
-21-11 16:33:20   [Statement_Conclusion] QA needs_reference: sources:Content_hi.txt
-21-11 16:33:39   [Mathematical_Operations] QA passed: editorial:Feynman_hi.txt
-21-11 16:33:39   [Mathematical_Operations] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
-21-11 16:33:39 QA 10th_Level/Reasoning/Chapter_15_Mathematical_Operations: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_15_Mathematical_Operations/QA.json'}
-21-11 16:33:50   [Statement_Conclusion] QA passed: editorial:Feynman_en.txt
 21-11 16:33:50   [Statement_Conclusion] QA needs_reference: sources:Feynman_en.txt
 21-11 16:34:07   [Alphabet_Questions] QA passed: editorial:Feynman_hi.txt
 21-11 16:34:12   [Statement_Conclusion] QA passed: editorial:Feynman_hi.txt
@@ -122,6 +115,13 @@
 21-11 16:39:18   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q126 key d vs re-solve b, Q139 key c vs re-solve a, Q143 key d vs re-solve a)
 21-11 16:39:26   [Figure_Series] QA needs_reference: sources:Feynman_en.txt
 21-11 16:39:27   [Number_System] QA needs_reference: sources:Content_hi.txt
+21-11 16:40:01   [LCM_HCF] QA needs_reference: sources:Content_hi.txt
+21-11 16:40:22   [Cubes_Dice] QA passed: editorial:Feynman_hi.txt
+21-11 16:40:22   [Cubes_Dice] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
+21-11 16:40:22 QA 10th_Level/Reasoning/Chapter_19_Cubes_Dice: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- "किसी भी नेट में एक ही सीधी पंक्ति (या स्तम्भ) में एकान्तर (alternate) फलक विपरीत होते हैं।" → यह नियम केवल चार फलकों की सीधी पंक्ति वाले नेट्स (जैसे मानक क्रॉस नेट) के लिए मान्य है, सभी नेट्स के लिए नहीं।']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_19_Cubes_Dice/QA.json'}
+21-11 16:40:30   [LCM_HCF] QA passed: editorial:Feynman_en.txt
+21-11 16:40:30   [LCM_HCF] QA needs_reference: sources:Feynman_en.txt
+21-11 16:40:31   [sandhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q30 key a vs re-solve d, Q32 key b vs re-solve a, Q35 key c vs re-solve ?, Q36 key b vs re-solve a, 
 ````
 
 </details>
