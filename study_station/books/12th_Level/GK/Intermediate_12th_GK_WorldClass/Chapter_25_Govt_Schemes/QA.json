@@ -107,11 +107,72 @@
         "Content_hi.txt": "0957c902f581b2fb3b094bced01f5de8523ba4df9ad14a4d3c1ba909ff9bda1e"
       },
       "checked_at": "2026-11-21T08:24:54+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "40dfaea67cb53676db272904282697aeecf6b3ff393b4ed3d19c4e711a630e8e",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: साल 2014। राजस्थान के एक छोटे से गाँव में रामप्यारी बाई के पास न बैंक खाता था, न गैस कनेक्शन, न शौचालय। दस साल बाद उसी गाँव में उसका जन धन खाता है, उज्ज्वला का गैस कनेक्शन है, और पीएम आवास के तहत पक्का घर भी। यह कहानी सिर्फ़ रामप्यारी बाई की नहीं — करोड़ों भारतीयों की है, और यही कहानी आपकी परीक्षा की है।",
+        "Fetch official supporting evidence for: | जन धन (PMJDY) | 2014 | वित्त | हर घर बैंक खाता |"
+      ],
+      "dependencies": {
+        "chapter.json": "cbd7c018008dacaf82a58c3a78beb8821f03158f981476679d4b91c830a4acab",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "0957c902f581b2fb3b094bced01f5de8523ba4df9ad14a4d3c1ba909ff9bda1e",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:28:55+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "508510f30c678358a4fb9245c0c13c524173bbc177d452faa2b4459ef5b8d4bf",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "cbd7c018008dacaf82a58c3a78beb8821f03158f981476679d4b91c830a4acab",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "bb01913c9a7a8ffcf3fc226a66d2eff38dcf48e8dcf530281b28c951c415b75b"
+      },
+      "checked_at": "2026-11-21T12:30:20+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "70b07f1bcfd90baaa05dd68b837a1f3fd39a9bfd980758f54cad063d70363fab",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "cbd7c018008dacaf82a58c3a78beb8821f03158f981476679d4b91c830a4acab",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "bb01913c9a7a8ffcf3fc226a66d2eff38dcf48e8dcf530281b28c951c415b75b",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:30:20+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "ee867005a512ab217b1c4aece65a8579079084450d7dba8b136f786d7a99c30b",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The heading lists \"केंद्रीय योजना\" and \"केंद्रीय क्षेत्र की योजना\" as two separate confusing concepts, but they are the same category (Central Sector Scheme). The three distinct scheme types are Central Sector Scheme, Centrally Sponsored Scheme, and State Scheme. → The heading should read: \"केंद्रीय क्षेत्र की योजना\" बनाम \"केंद्र प्रायोजित योजना\" बनाम \"राज्य योजना\" (or \"राज्य की योजना\")."
+      ],
+      "dependencies": {
+        "chapter.json": "cbd7c018008dacaf82a58c3a78beb8821f03158f981476679d4b91c830a4acab",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "5e6c7434909d8368754aa609b38230fe63a9daa8bc064ba13d16822cba4370cc"
+      },
+      "checked_at": "2026-11-21T12:31:24+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T08:24:54+00:00",
+  "updated_at": "2026-11-21T12:31:25+00:00",
   "chapter_fingerprint": "db95efe00b741ebac2d15e784b190b49ad886e05014777137f629c0991e77919"
 }
