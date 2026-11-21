@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "e4059ae04f8998567590a9f00f9a42ec551c5d884c676b1d68f55967c7307f6f",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "c0db9e9bd2d598999383f5dcd9d493e858beb6e796758f559d5d6249990e5377",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "340a76a34f077aaabaa0055f7619f47ad622b055ea39f9ef46cbad9be7e2543d",
+        "Content_hi.txt": "a01e15323b05f013404638cc1dc702b4cdb5473dd441ae755f8c340eb23c97c1",
+        "Feynman_en.txt": "cd48afd38e05fea66657bebf3c8aa5835c233be383c8482a5610d73735e7fa43",
+        "Feynman_hi.txt": "63aab7278dcafa49cf393e06c534926c63e7369ed3dbed23205e74e1e67f1e59",
+        "Flashcards_en.txt": "5ab4f616d63c183cb871448b64fd28c45cec46ed9c76aa203441b819fe71c054",
+        "Flashcards_hi.txt": "65b919203e4792d15843f5b915e147ad66735aa4d20d5b58802309f5496dddc8",
+        "Important_Rules_en.txt": "adbf2d8ce0ab9802f73ab274b978d4b5d0627ec838fc45bb81d218a29d05eeb2",
+        "Important_Rules_hi.txt": "048b037424e42a7f5860b621f1f3ee818974d3c0799079224587231c5b34a3af",
+        "Mind_Map_en.txt": "f87e3a12e68b3a3692f7648cb3ba527794ea36e5dd7497851a2c590be4f9ba14",
+        "Mind_Map_hi.txt": "13d3ec8ec8ceb06907e8fef67ffd0676dff45f54af7c40a71176cb3b72e79110",
+        "PYQ_en.txt": "3f204b2aebd578a85faedbf6439b4867817942d10ab8cd58645fd51515faa10e",
+        "PYQ_hi.txt": "db750ad7054b2ad1fddedf1510a07541ce2d684bfa63a6a5db565115d0358dff",
+        "Practice_en_Set_01.txt": "f8249bc5942045991aef5dda8ef09bdf210fbe23c462bb8031fe104359273ede",
+        "Practice_en_Set_02.txt": "f3fc211d00934ca637002ea09a71b49fe0401e66a5cb38763706ba94638af05d",
+        "Practice_en_Set_03.txt": "accc19f0cfc3986f39466aee2f24fdb4f97b683670ffb839268c4c9a5476945f",
+        "Practice_en_Set_04.txt": "4ee91ce6ba7bac342b5a2316aaedef068e2ba2903ec74d55b72553967f31b04b",
+        "Practice_en_Set_05.txt": "6a71cf0efb664ec95c067568149f7bd7dab8240c6f96cb29d7cb7a73ef6b9fef",
+        "Practice_en_Set_06.txt": "d85e83ac51ed58da3c7a5c97b6ec243a198d076bb4026dd8aa41b3869448d031",
+        "Practice_hi_Set_01.txt": "f3f2cd18ff201fdad6122463b2b1b079f17047dd03b5111d1d43c205692014f0",
+        "Practice_hi_Set_02.txt": "9e6d3acbcc4b171d7f57afa33e4c6377d11ff79457e348584fd0f1262e524f25",
+        "Practice_hi_Set_03.txt": "4287e5967b53621c76f72edf529066c1b564f09d728e392c9acf6e2218d377bb",
+        "Practice_hi_Set_04.txt": "e43f5911451ec6d7a385beaa4c9d4dfd9d851365f1dcfaac4ac9fa8f6b799ffd",
+        "Practice_hi_Set_05.txt": "df7d1b0a05e51a10366c1e430cd2d0152dd8334dfba92c31befe905a31abddd8",
+        "Practice_hi_Set_06.txt": "2e442441fd3f319911d05f5c06dd98eb547e66c7c866ab3c8ed65048f1d3ce32",
+        "Short_Tricks_en.txt": "4d0165c316c62f4bf4aed80309a5b3a353c6861281d1825b8a3226b640fd1703",
+        "Short_Tricks_hi.txt": "f93d20be1aab06edb051ca65adfe3c61f11c900cfc7a532edddf859df4314127",
+        "inventory": {
+          "Content_en.txt": "340a76a34f077aaabaa0055f7619f47ad622b055ea39f9ef46cbad9be7e2543d",
+          "Content_hi.txt": "a01e15323b05f013404638cc1dc702b4cdb5473dd441ae755f8c340eb23c97c1",
+          "Feynman_en.txt": "cd48afd38e05fea66657bebf3c8aa5835c233be383c8482a5610d73735e7fa43",
+          "Feynman_hi.txt": "63aab7278dcafa49cf393e06c534926c63e7369ed3dbed23205e74e1e67f1e59",
+          "Flashcards_en.txt": "5ab4f616d63c183cb871448b64fd28c45cec46ed9c76aa203441b819fe71c054",
+          "Flashcards_hi.txt": "65b919203e4792d15843f5b915e147ad66735aa4d20d5b58802309f5496dddc8",
+          "Important_Rules_en.txt": "adbf2d8ce0ab9802f73ab274b978d4b5d0627ec838fc45bb81d218a29d05eeb2",
+          "Important_Rules_hi.txt": "048b037424e42a7f5860b621f1f3ee818974d3c0799079224587231c5b34a3af",
+          "Mind_Map_en.txt": "f87e3a12e68b3a3692f7648cb3ba527794ea36e5dd7497851a2c590be4f9ba14",
+          "Mind_Map_hi.txt": "13d3ec8ec8ceb06907e8fef67ffd0676dff45f54af7c40a71176cb3b72e79110",
+          "PYQ_en.txt": "3f204b2aebd578a85faedbf6439b4867817942d10ab8cd58645fd51515faa10e",
+          "PYQ_hi.txt": "db750ad7054b2ad1fddedf1510a07541ce2d684bfa63a6a5db565115d0358dff",
+          "Practice_en_Set_01.txt": "f8249bc5942045991aef5dda8ef09bdf210fbe23c462bb8031fe104359273ede",
+          "Practice_en_Set_02.txt": "f3fc211d00934ca637002ea09a71b49fe0401e66a5cb38763706ba94638af05d",
+          "Practice_en_Set_03.txt": "accc19f0cfc3986f39466aee2f24fdb4f97b683670ffb839268c4c9a5476945f",
+          "Practice_en_Set_04.txt": "4ee91ce6ba7bac342b5a2316aaedef068e2ba2903ec74d55b72553967f31b04b",
+          "Practice_en_Set_05.txt": "6a71cf0efb664ec95c067568149f7bd7dab8240c6f96cb29d7cb7a73ef6b9fef",
+          "Practice_en_Set_06.txt": "d85e83ac51ed58da3c7a5c97b6ec243a198d076bb4026dd8aa41b3869448d031",
+          "Practice_hi_Set_01.txt": "f3f2cd18ff201fdad6122463b2b1b079f17047dd03b5111d1d43c205692014f0",
+          "Practice_hi_Set_02.txt": "9e6d3acbcc4b171d7f57afa33e4c6377d11ff79457e348584fd0f1262e524f25",
+          "Practice_hi_Set_03.txt": "4287e5967b53621c76f72edf529066c1b564f09d728e392c9acf6e2218d377bb",
+          "Practice_hi_Set_04.txt": "e43f5911451ec6d7a385beaa4c9d4dfd9d851365f1dcfaac4ac9fa8f6b799ffd",
+          "Practice_hi_Set_05.txt": "df7d1b0a05e51a10366c1e430cd2d0152dd8334dfba92c31befe905a31abddd8",
+          "Practice_hi_Set_06.txt": "2e442441fd3f319911d05f5c06dd98eb547e66c7c866ab3c8ed65048f1d3ce32",
+          "Short_Tricks_en.txt": "4d0165c316c62f4bf4aed80309a5b3a353c6861281d1825b8a3226b640fd1703",
+          "Short_Tricks_hi.txt": "f93d20be1aab06edb051ca65adfe3c61f11c900cfc7a532edddf859df4314127"
+        }
+      },
+      "checked_at": "2026-11-21T08:57:59+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "a063f3c8fa6078fd6752af1801e40cb07fec88c321cdefb332305a40286bec65",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- 'Every' is incorrectly listed as a pronoun in the Types table, Rule 1, and Summary Table; 'every' is a determiner, not a pronoun → remove 'every' from pronoun lists and restrict the singular-verb rule to true indefinite pronouns (each, everyone, everybody, etc.) and to noun phrases introduced by 'every'."
+      ],
+      "dependencies": {
+        "chapter.json": "c0db9e9bd2d598999383f5dcd9d493e858beb6e796758f559d5d6249990e5377",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "340a76a34f077aaabaa0055f7619f47ad622b055ea39f9ef46cbad9be7e2543d"
+      },
+      "checked_at": "2026-11-21T08:59:01+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "7bfa5c98e2ef7e7461881252223f25affb83d2f304c9fdddcc5d78f155768c47",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "c0db9e9bd2d598999383f5dcd9d493e858beb6e796758f559d5d6249990e5377",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "340a76a34f077aaabaa0055f7619f47ad622b055ea39f9ef46cbad9be7e2543d",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T08:59:01+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "210cb638d633eab172c0d1da878c2ed8893f45a3883f3369bc97f4b789814504",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "c0db9e9bd2d598999383f5dcd9d493e858beb6e796758f559d5d6249990e5377",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "a01e15323b05f013404638cc1dc702b4cdb5473dd441ae755f8c340eb23c97c1"
+      },
+      "checked_at": "2026-11-21T09:02:09+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T09:02:09+00:00",
+  "chapter_fingerprint": "14ba3da711f9a79662d80092864044886b22a4960dbef7e38fc789abdf820cd1"
+}
