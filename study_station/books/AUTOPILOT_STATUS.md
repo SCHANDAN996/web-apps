@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 03:58 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 03:59 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,25 +11,25 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 20 मिनट |
-| W10 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W11 | Chapter 12 e banking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W12 | Chapter 14 muhavare lokokti (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 20 मिनट |
-| W3 | Chapter 13 ek shabd (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W4 | Chapter 11 vilom (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W5 | Chapter 11 email (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W6 | Chapter 10 internet browser (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W7 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W8 | Chapter 13 networking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W9 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 21 मिनट |
+| W10 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W11 | Chapter 12 e banking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W12 | Chapter 14 muhavare lokokti (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 21 मिनट |
+| W3 | Chapter 13 ek shabd (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W4 | Chapter 11 vilom (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W5 | Chapter 14 cyber security (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W6 | Chapter 10 internet browser (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W7 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W8 | Chapter 13 networking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W9 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 13 |
 | key 4 | 19 |
-| key 5 | 12 |
-| key 6 | 5 |
+| key 5 | 13 |
+| key 6 | 6 |
 
 ## किताबों की प्रगति
 
@@ -60,7 +60,7 @@
 | किताब | QA पास | जाँच बाकी | प्रमाण बाकी | सुधार अटका | मैनुअल | जाँचें पास / कुल |
 |---|---:|---:|---:|---:|---:|---:|
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 42/540 |
-| 12th Computer | 0 | 14 | 0 | 0 | 0 | 45/1092 |
+| 12th Computer | 0 | 14 | 0 | 0 | 0 | 47/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 43/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 517/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 519/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,14 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 15:52:02   [input_output_ports] QA passed: editorial:Feynman_hi.txt
-21-11 15:52:02   [input_output_ports] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
-21-11 15:52:02 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_02_input_output_ports: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- USB 3.1 Gen 2 / 3.2 Gen 2 (10 Gbps) पंक्ति में "लाल/टील इनसर्ट" पहचान गलत है → USB-IF मानक के अनुसार 10 Gbps के लिए केवल टील (नीला-हरा) रंग निर्धारित है; लाल इनसर्ट 20 Gbps (USB 3.2 Gen 2x2) के लिए है।']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_02_input_output_ports/QA.json'}
-21-11 15:52:29   [internet_browser] QA needs_reference: sources:Content_hi.txt
-21-11 15:52:44   [varn_vartani] QA blocked: editorial:Important_Rules_hi.txt
-21-11 15:52:44   [varn_vartani] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 1, "pending": 28, "blocked": 4, "needs_reference": 3, "remaining": 35, 
-21-11 15:52:45 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 1, 'pending': 28, 'blocked': 4, 'needs_reference': 3, 'remaining': 35, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Section 3.1 Matra table: examples for इ (ि) and ई (ी) are incorrect — they show mismatched wrong forms marked अशुद्ध (e.g., “फल→फिल”, “फूल→फुल”) instead of valid usage examples → Replace with correct examples: इ मात्रा (ि) – “कि”, “पित”, “मिलन”; ई मात्रा (ी) – “सीता”, “नील”, “पानी”']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- In the "वर्तनी के सामान्य नियम" table, first row, the "गलत" column lists "हंसना (हंस पक्षी)" as incorrect, but "हंसना" is a valid Hindi word (हंस + ना) meaning "swan-related"; the table should clarify that for the sense "मुस्कराना" the correct spelling is "हँसना" (with चंद्रबिंदु), not that "हंसना" is universally wrong. → The table must distinguish meanings: for "मुस्कराना" write "हँसना"; "हंसना" is correct for "हंस पक्षी".', '- In Q18 and Q46 explanations, "हंसना" is called अशुद्ध, but "हंसना" (हंस + ना) is a correctly spelled word; the explanation should state that "हँसना" (चंद्रबिंदु) is the correct form for the verb "to laugh", while "हंसना" is a different valid word. → Explanation must note the meaning difference: "हँसना" = मुस्कराना, "हंसना" = हंस पक्षी से संबंधित; both are valid spellings for their respective senses.']}, {'check': 'sources:Feynman_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Flashcards_hi.txt', 'status': 'blocked', 'issues': ['- Card 17 incorrectly labels विशेष/बिशेष, क्षमा/कश्मा, ज्ञान/ग्यान, श्रेष्ठ/श्रेस्ठ as "उच्चारण समान, वर्तनी भिन्न" (same pronunciation, different spelling) pairs; in standard Hindi their pronunciations differ (श vs स, क्ष vs कष, ज्ञ vs ग्य, ष vs स) — they are common misspellings, not homophones → Remove the "उच्चारण समान" claim; describe them as frequent spelling-confusion pairs due to similar sounds.']}, {'check': 'sources:Flashcards_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Important_Rules_hi.txt', 'status': 'blocked', 'issues': ['- Section 5 rule states anusvara (bindu) is standard for **all** nasalizations, but the example "हँसना → मानक \'हंसना\'" replaces chandrabindu with explicit consonant \'न\', not anusvara → change example to "हुँसना" (with anusvara) or add clarification that full nasal consonants remain explicit.', '- Section 5 list "दीर्घ स्वर पर" includes "कंगन", but its anusvara sits on short \'अ\' (क्ंगन), not a long vowel → remove "कंगन" from the long-vowel list.', '- Section 13 reason for "हिंदी → हिन्दी" says "स्वर पर चन्द्रबिंदु/अनुस्वार के स्थान पर व्यंजन \'न\' का प्रयोग मानक है"; "हिंदी" uses anusvara (bindu), not chandrabindu, and the correction is because the word has a full nasal consonant \'न\', not a nasalized vowel → rewrite reason: "हिंदी में अनुनासिक बिन्दु के स्थान पर व्यंजन \'न\' लिखना मानक है क्योंकि यह पूर्ण नासिक्य व्यंजन है।"']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani/QA.json'}
-21-11 15:53:27   [vilom] QA needs_reference: sources:Feynman_hi.txt
 21-11 15:54:25   [email] QA needs_reference: sources:Content_hi.txt
 21-11 15:54:28   [upsarg_pratyay] QA passed: editorial:Flashcards_hi.txt
 21-11 15:54:28   [upsarg_pratyay] QA needs_reference: sources:Flashcards_hi.txt
@@ -123,6 +115,14 @@
 21-11 15:59:21   [cyber_security] QA needs_reference: sources:Content_hi.txt
 21-11 15:59:21   [e_banking] QA passed: editorial:Feynman_en.txt
 21-11 15:59:21   [e_banking] QA needs_reference: sources:Feynman_en.txt
+21-11 15:59:56   [internet_browser] QA passed: editorial:Feynman_hi.txt
+21-11 15:59:56   [internet_browser] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
+21-11 15:59:56 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_10_internet_browser: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- macOS ब्राउज़र शॉर्टकट तालिका का दावा "Chrome/Edge/Firefox पर लागू" गलत है: कई शॉर्टकट (पूर्ण-स्क्रीन ⌘+Ctrl+F, डाउनलोड ⌘+Option+L, इतिहास ⌘+Y, बुकमार्क प्रबंधक ⌘+Option+B, अगला/पिछला टैब ⌘+Option+→/←) Firefox पर macOS में भिन्न हैं (उदाहरण: पूर्ण-स्क्रीन ⌘+Shift+F, डाउनलोड ⌘+Shift+Y, इतिहास ⌘+Shift+H, बुकमार्क ⌘+Shift+B, अगला टैब Ctrl+Tab) → तालिका को केवल Chrome/Edge के लिए चिह्नित करें या Firefox के सही macOS शॉर्टकट दें।']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_10_internet_browser/QA.json'}
+21-11 16:00:10   [vilom] QA blocked: editorial:Important_Rules_hi.txt
+21-11 16:00:10   [vilom] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 2, "pending": 28, "blocked": 3, "needs_reference": 3, "remaining": 34, 
+21-11 16:00:11 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_11_vilom: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 2, 'pending': 28, 'blocked': 3, 'needs_reference': 3, 'remaining': 34, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In Rule 1 prefix table, the example "गति → दुर्गति" for उपसर्ग "दुर-/दु-" is not an antonym pair; "दुर्गति" means misfortune/bad condition, not the opposite of "गति" (motion/speed). → Replace with a valid antonym example such as "शील → दुर्शील" (good character → bad character) or retain only "सदाचार → दुराचार".', '- In Rule 1 prefix table, the examples "उत्तर → प्रत्युत्तर" and "क्रिया → प्रतिक्रिया" for उपसर्ग "प्रति-" are not antonyms; they denote reply/counter-action, not opposition. → Replace with true antonym pairs formed with "प्रति-" such as "अनुकूल → प्रतिकूल" (favourable → unfavourable) or "प्रत्यक्ष → परोक्ष" (direct → indirect).']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- Rule 3 example "लड़का–लड़की" (लिंग विलोम) does not illustrate the rule "एकवचन–बहुवचन विलोम नहीं" → Use a singular-plural pair like "किताब–किताबें" to show they are not antonyms.']}, {'check': 'sources:Feynman_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Flashcards_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Important_Rules_hi.txt', 'status': 'blocked', 'issues': ['- Rule 2 example "दया → निर्दया" is wrong: दया is a noun, निर्दया is an adjective; the antonym should be a noun like निर्दयता or कठोरता → Correction: Replace with "दया → निर्दयता" (or "दया → कठोरता").', '- Rule 2 example "करुणा → अकरुणा" is wrong: करुणा is a noun, अकरुणा is an adjective; the antonym should be a noun like अकरुणता or निर्दयता → Correction: Replace with "करुणा → अकरुणता" (or "करुणा → निर्दयता").', '- Rule 3 rule and examples are incorrect: Suffixes -हीन, -रहित form adjectives denoting absence, not standard noun antonyms; e.g., धनहीन is an adjective, the correct noun antonym of धन is निर्धनता/दरिद्रता → Correction: Revise rule to clarify these form negative adjectives, not direct antonyms, and give proper noun antonym pairs (धन→निर्धनता, बल→निर्बलता, ज्ञान→अज्ञान, आशा→निराशा).', '- Rule 6 example "बोलेगा → चुप रहेगा" uses a two-word phrase, contradicting Rule 11 which states "विलोम एकल शब्द होना चाहिए" → Correction: Either change the example to a single-word antonym or amend Rule 11 to allow phrases.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_11_vilom/QA.json'}
+21-11 16:00:28   [cyber_security] QA passed: editorial:Feynman_en.txt
+21-11 16:00:28   [cyber_security] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>

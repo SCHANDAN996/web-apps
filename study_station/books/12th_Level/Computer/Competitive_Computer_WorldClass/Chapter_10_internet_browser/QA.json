@@ -109,11 +109,69 @@
         "Content_hi.txt": "51052866fe429f44db8020641e68dd40a55138fff110475cdc23d16074d551ca"
       },
       "checked_at": "2026-11-21T05:44:18+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "5f6a4efb14bc99771624903a0684ecaae4fba0c30b1478281dd6fd9cbd870ad4",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "75992a2a1d75e1b17c9ff67dba5e7b7f5b46ba928e1f56c8ccc535dcf401158d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "51052866fe429f44db8020641e68dd40a55138fff110475cdc23d16074d551ca",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:22:29+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "77e9b9389314e8d579788c168d1cf9b667dc846015c3d6bd2d3b3382fd38de23",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "75992a2a1d75e1b17c9ff67dba5e7b7f5b46ba928e1f56c8ccc535dcf401158d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "6f9ccb22a224fe376d1b7be92f303bb092616ea9545b55791b416f686196ea5b"
+      },
+      "checked_at": "2026-11-21T10:25:00+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "5f50d55d26a29b68789f349f1b4f54a5092a3d7408aecbb6aefac858e41fb5cd",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "75992a2a1d75e1b17c9ff67dba5e7b7f5b46ba928e1f56c8ccc535dcf401158d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "6f9ccb22a224fe376d1b7be92f303bb092616ea9545b55791b416f686196ea5b",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:25:00+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "f0e74ca14b87bcf46563ceca99de3d6f7e7be6ed3eee5930447be5de817113b0",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "75992a2a1d75e1b17c9ff67dba5e7b7f5b46ba928e1f56c8ccc535dcf401158d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "032054fb1868e6357d39368ecdf29ac4ede152b8cc8f76894ee13f34cc8c4adf"
+      },
+      "checked_at": "2026-11-21T10:29:56+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T05:44:18+00:00",
+  "updated_at": "2026-11-21T10:29:56+00:00",
   "chapter_fingerprint": "610a56284a2cd880ffb3ddf491cd67f7c65221e65f6e82694a42101cc02a3dc5"
 }
