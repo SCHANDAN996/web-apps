@@ -1,35 +1,34 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 02:04 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 02:09 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 193 मिनट |
-| W10 | Chapter 07 Sitting Arrangement (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W11 | Chapter 22 Defence (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 16 मिनट |
-| W12 | Chapter 03 Coding Decoding (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W2 | Chapter 06 Order Ranking (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W3 | Chapter 14 Sports (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 23 मिनट |
-| W4 | Chapter 05 Direction Sense (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W5 | Chapter 23 Economic Terms (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
-| W6 | Chapter 04 Blood Relations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W7 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 18 मिनट |
-| W8 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W9 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 42 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 198 मिनट |
+| W10 | Chapter 07 Sitting Arrangement (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W11 | Chapter 22 Defence (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 21 मिनट |
+| W12 | Chapter 03 Coding Decoding (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
+| W2 | Chapter 06 Order Ranking (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W3 | Chapter 09 Venn Diagrams (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W4 | Chapter 05 Direction Sense (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W5 | Chapter 23 Economic Terms (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 19 मिनट |
+| W6 | Chapter 04 Blood Relations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W7 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 22 मिनट |
+| W8 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 104 |
-| key 4 | 96 |
+| key 3 | 107 |
+| key 4 | 98 |
 | key 5 | 116 |
-| key 6 | 82 |
+| key 6 | 85 |
 
 ## किताबों की प्रगति
 
@@ -67,13 +66,13 @@
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 53/1872 |
-| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 11/1950 |
+| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 19/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 0/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 391/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 399/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -81,38 +80,12 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 16 rikt sthan vakya kram (Hindi) — 1 बार
+- Chapter 16 rikt sthan vakya kram (Hindi) — 2 बार
 
 <details>
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 13:53:53   [Classification] QA passed: structure
-21-11 13:54:38   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q126 key d vs re-solve a, Q147 key a vs re-solve d)
-21-11 13:54:43   [Coding_Decoding] QA passed: structure
-21-11 13:54:47   [Classification] QA passed: editorial:Content_en.txt
-21-11 13:54:47   [Classification] QA needs_reference: sources:Content_en.txt
-21-11 13:54:54   [Govt_Schemes] QA passed: editorial:Content_hi.txt
-21-11 13:54:54   [Govt_Schemes] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
-21-11 13:54:54 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_25_Govt_Schemes: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_25_Govt_Schemes/QA.json'}
-21-11 13:56:07   [Coding_Decoding] QA blocked: editorial:Content_en.txt
-21-11 13:56:07   [Coding_Decoding] QA needs_reference: sources:Content_en.txt
-21-11 13:56:39   [Blood_Relations] QA passed: structure
-21-11 13:57:08   [Reports_Indices] QA passed: editorial:Content_en.txt
-21-11 13:57:08   [Reports_Indices] QA needs_reference: sources:Content_en.txt
-21-11 13:57:53   [Analogy] QA passed: editorial:Content_hi.txt
-21-11 13:57:53   [Analogy] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
-21-11 13:57:53 QA 12th_Level/Reasoning/Chapter_01_Analogy: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_01_Analogy/QA.json'}
-21-11 13:58:26   [Classification] QA blocked: editorial:Content_hi.txt
-21-11 13:58:27   [Classification] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
-21-11 13:58:27 QA 12th_Level/Reasoning/Chapter_02_Classification: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Trap 3 explanation incorrectly states that checking cubes causes confusion because only 64 is a cube → 1, 64, and 729 are all cubes; checking cubes yields three cubes and one non‑cube (100), giving a clear odd one out.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_02_Classification/QA.json'}
-21-11 13:58:56   [International_Orgs] QA passed: editorial:Content_hi.txt
-21-11 13:59:06   [International_Orgs] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
-21-11 13:59:07 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_21_International_Orgs: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_21_International_Orgs/QA.json'}
-21-11 13:59:07   [Direction_Sense] QA passed: structure
-21-11 13:59:19   [Environment] QA passed: editorial:Content_en.txt
-21-11 13:59:19   [Environment] QA needs_reference: sources:Content_en.txt
-21-11 14:00:09   [Blood_Relations] QA blocked: editorial:Content_en.txt
 21-11 14:00:14   [Blood_Relations] QA needs_reference: sources:Content_en.txt
 21-11 14:00:15   [Order_Ranking] QA passed: structure
 21-11 14:00:59   [Sitting_Arrangement] QA passed: structure
@@ -127,6 +100,32 @@
 21-11 14:04:49   [Sports] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 1, "pending": 75, "blocked": 1, "needs_reference": 1, "remaining": 77, 
 21-11 14:04:49 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 1, 'pending': 75, 'blocked': 1, 'needs_reference': 1, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ["- Neeraj Chopra's gold described as India's first Olympic medal in athletics track & field events, but Norman Pritchard won athletics silvers in 1900 → Neeraj Chopra won India's first Olympic gold in athletics"]}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports/QA.json'}
 21-11 14:05:26   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q146 key b vs re-solve a)
+21-11 14:05:59   [Venn_Diagrams] QA passed: structure
+21-11 14:06:52   [Puzzles] QA passed: editorial:Content_en.txt
+21-11 14:06:53   [Puzzles] QA needs_reference: sources:Content_en.txt
+21-11 14:07:16   [Order_Ranking] QA passed: editorial:Content_en.txt
+21-11 14:07:16   [Order_Ranking] QA needs_reference: sources:Content_en.txt
+21-11 14:08:19   [Order_Ranking] QA passed: editorial:Content_hi.txt
+21-11 14:08:19   [Order_Ranking] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
+21-11 14:08:20 QA 12th_Level/Reasoning/Chapter_06_Order_Ranking: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_06_Order_Ranking/QA.json'}
+21-11 14:08:22   [Sitting_Arrangement] QA blocked: editorial:Content_en.txt
+21-11 14:08:23   [Sitting_Arrangement] QA needs_reference: sources:Content_en.txt
+21-11 14:09:04   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q146 key d vs re-solve a)
+21-11 14:09:04   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
+21-11 14:09:04   [rikt_sthan_vakya_kram] written 0, failed 2; AI calls today 408/100000
+21-11 14:09:05 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram after 47 min: todo ['Set 04 hi: todo', 'Set 06 hi: todo'] problems []
+21-11 14:09:16   [Blood_Relations] QA blocked: editorial:Content_hi.txt
+21-11 14:09:22   [Venn_Diagrams] QA passed: editorial:Content_en.txt
+21-11 14:09:24   [Blood_Relations] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 1, "pending": 74, "blocked": 2, "needs_reference": 1, "remaining": 77, 
+21-11 14:09:24   [Venn_Diagrams] QA needs_reference: sources:Content_en.txt
+21-11 14:09:25 QA 12th_Level/Reasoning/Chapter_04_Blood_Relations: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 1, 'pending': 74, 'blocked': 2, 'needs_reference': 1, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Section 3 example "Ravi is the son of my father\'s only daughter" concludes "Ravi is my nephew" despite acknowledging the speaker could be female (in which case Ravi would be the speaker\'s son); the answer should be conditional (nephew if speaker male, son if speaker female) or "cannot be determined" when gender is unknown.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- Family tree table: symbol for children (संतान) shown as horizontal dash '—' but described as vertical line 'खड़ी रेखा नीचे' → use vertical line symbol '|' or '│'"]}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_04_Blood_Relations/QA.json'}
+21-11 14:09:26   [Clock_Calendar] QA passed: structure
+21-11 14:09:41   [Venn_Diagrams] QA passed: editorial:Content_hi.txt
+21-11 14:09:41   [Venn_Diagrams] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
+21-11 14:09:41 QA 12th_Level/Reasoning/Chapter_09_Venn_Diagrams: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_09_Venn_Diagrams/QA.json'}
+21-11 14:09:42   [Direction_Sense] QA passed: editorial:Content_hi.txt
+21-11 14:09:42   [Direction_Sense] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 14:09:43 QA 12th_Level/Reasoning/Chapter_05_Direction_Sense: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The Type A substitution method incorrectly interprets "X is called Y" as "code word X = real Y", but in standard exam usage (SSC, Railway, Bank) the phrase means "real direction X is renamed Y in the code", so the decoding table must map code Y → real X. This inversion error makes the introductory example (walking towards coded \'North\' actually walks East, should be West) and the solved example (walking towards coded \'South\' actually walks East, should be West; final answer North-East, should be South-West) both wrong.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_05_Direction_Sense/QA.json'}
 ````
 
 </details>
