@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 11:40 AM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 11:43 AM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,25 +11,25 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 49 मिनट |
-| W10 | Chapter 12 Biology (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W11 | Chapter 11 Chemistry (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W12 | Chapter 14 Sports (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W2 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 19 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 49 मिनट |
-| W4 | Chapter 13 Awards (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W5 | Chapter 10 Physics Daily (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W6 | Chapter 17 apathit gadyansh (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 21 मिनट |
-| W7 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 22 मिनट |
-| W8 | Chapter 09 Economy Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W9 | Chapter 06 Physical Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 52 मिनट |
+| W10 | Chapter 12 Biology (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W11 | Chapter 11 Chemistry (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W12 | Chapter 14 Sports (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W2 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 22 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 52 मिनट |
+| W4 | Chapter 13 Awards (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W5 | Chapter 10 Physics Daily (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W6 | Chapter 17 apathit gadyansh (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 24 मिनट |
+| W7 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 25 मिनट |
+| W8 | Chapter 09 Economy Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
+| W9 | Chapter 06 Physical Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 18 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 21 |
-| key 4 | 30 |
-| key 5 | 31 |
-| key 6 | 11 |
+| key 3 | 22 |
+| key 4 | 31 |
+| key 5 | 33 |
+| key 6 | 12 |
 
 ## किताबों की प्रगति
 
@@ -61,7 +61,7 @@
 |---|---:|---:|---:|---:|---:|---:|
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 29/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 29/1092 |
-| 10th GK | 0 | 19 | 0 | 0 | 0 | 23/1482 |
+| 10th GK | 0 | 19 | 0 | 0 | 0 | 25/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 0/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 0/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 0/1622 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 81/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 83/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,17 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 11:27:52   [World_Geography] QA passed: structure
-21-11 11:28:53   [Economy_Basic] QA passed: structure
-21-11 11:29:25   [sandhi] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q2 key c vs re-solve b, Q3 key c vs re-solve b, Q4 key d vs re-solve b, Q7 key a vs re-solve b, Q8 k
-21-11 11:30:05   [Ancient_History] QA passed: editorial:Content_hi.txt
-21-11 11:30:05   [Ancient_History] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
-21-11 11:30:05 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_01_Ancient_History: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: Nalanda University: The ancient mahavihara was destroyed around the end of the 12th century. A new Nalanda University was set up by an Act of Parliament in 2010; teaching began in 2014, and its new campus at Rajgir (Bihar) was inaugurated on 19 June 2024.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_01_Ancient_History/QA.json'}
-21-11 11:31:08   [Physics_Daily] QA passed: structure
-21-11 11:31:14   [Constitution_Basic] QA blocked: editorial:Content_hi.txt
-21-11 11:31:14   [Constitution_Basic] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 1, "pending": 74, "blocked": 2, "needs_reference": 1, "remaining": 77, 
-21-11 11:31:14 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_04_Constitution_Basic: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 1, 'pending': 74, 'blocked': 2, 'needs_reference': 1, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- "Currently it contains ~470 Articles, 25 Parts, and 12 Schedules" (Salient Features) → "As of 2023, it contains 448 Articles, 25 Parts, and 12 Schedules"', '- "Present Constitution: ~470 Articles, 25 Parts, and 12 Schedules" (High-Yield Fact Summary Table) → "As of 2023, the Constitution has 448 Articles, 25 Parts, and 12 Schedules"']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: • Basic Structure Doctrine: In the landmark Kesavananda Bharati case (1973), the Supreme Court ruled that Parliament cannot alter the basic structure of the Constitution.', 'Fetch official supporting evidence for: Added by the 42nd Amendment Act (1976) on the recommendation of the Swaran Singh Committee. Originally 10 duties; the 11th duty was added by the 86th Amendment Act (2002), requiring parents/guardians to provide education opportunities to children aged 6 to 14 years.', 'Fetch official supporting evidence for: 7\tFundamental Duties: 42nd Amendment 1976; 11 duties total\tAmendment & count', 'Fetch official supporting evidence for: 9\tBasic Structure Doctrine: Kesavananda Bharati case (1973)\tMilestone judgment']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- "वर्तमान में लगभग 470 अनुच्छेद, 25 भाग, 12 अनुसूचियाँ" (section 5) without a reference year → add year, e.g., "2024 तक लगभग 470 अनुच्छेद, 25 भाग, 12 अनुसूचियाँ"', '- "वर्तमान : लगभग 470 अनुच्छेद, 25 भाग, 12 अनुसूचियाँ" (High-Yield Fact Table row 6) without a reference year → add year, e.g., "2024 तक लगभग 470 अनुच्छेद, 25 भाग, 12 अनुसूचियाँ"', '- "वर्तमान में कुल 11 कर्तव्य हैं" (section 6) without a reference year → add year, e.g., "2002 से कुल 11 कर्तव्य हैं"']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_04_Constitution_Basic/QA.json'}
-21-11 11:31:59   [Chemistry] QA passed: structure
 21-11 11:33:23   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q83 key a vs re-solve b, Q91 key b vs re-solve a)
 21-11 11:33:23   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
 21-11 11:33:50   [States_Rivers] QA passed: editorial:Content_en.txt
@@ -123,6 +112,17 @@
 21-11 11:41:25   [Physics_Daily] QA needs_reference: sources:Content_en.txt
 21-11 11:41:33   [Sports] QA passed: editorial:Content_en.txt
 21-11 11:41:33   [Sports] QA needs_reference: sources:Content_en.txt
+21-11 11:43:43   [sandhi] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q2 key c vs re-solve b, Q3 key c vs re-solve b, Q4 key d vs re-solve b, Q8 key c vs re-solve a, Q9 k
+21-11 11:43:43   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
+21-11 11:43:54   [Biology] QA blocked: editorial:Content_hi.txt
+21-11 11:43:54   [Biology] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 11:43:54 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_12_Biology: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- WHO polio-free certification statement: "भारत (दक्षिण-पूर्व एशिया क्षेत्र सहित)" is inaccurate; the WHO certified the South-East Asia Region (which includes India) → Correction: "WHO ने मार्च 2014 में दक्षिण-पूर्व एशिया क्षेत्र (जिसमें भारत शामिल है) को पोलियो-मुक्त प्रमाणित किया।"']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_12_Biology/QA.json'}
+21-11 11:44:21   [Sports] QA passed: editorial:Content_hi.txt
+21-11 11:44:21   [Sports] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
+21-11 11:44:21 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_14_Sports: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_14_Sports/QA.json'}
+21-11 11:44:24   [apathit_gadyansh] QA passed: editorial:Feynman_hi.txt
+21-11 11:44:24   [apathit_gadyansh] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 3, "pending": 32, "blocked": 0, "needs_reference": 1, "remaining": 33, 
+21-11 11:44:25 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_17_apathit_gadyansh: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 3, 'pending': 32, 'blocked': 0, 'needs_reference': 1, 'remaining': 33, 'failures': [{'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_17_apathit_gadyansh/QA.json'}
 ````
 
 </details>
