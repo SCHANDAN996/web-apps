@@ -5,31 +5,30 @@
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 109 मिनट |
-| W10 | Chapter 03 Simplification (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W11 | Chapter 12 Time Distance (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 110 मिनट |
+| W10 | Chapter 13 Mixture Alligation (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W11 | Chapter 12 Time Distance (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 | W12 | Chapter 10 Compound Interest (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W2 | Chapter 06 Average (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W2 | Chapter 06 Average (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
 | W3 | Chapter 11 Time Work (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W4 | Chapter 04 Fractions Decimals (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W5 | Chapter 07 Ratio Proportion (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W6 | Chapter 08 Profit Loss (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 4 मिनट |
-| W8 | Chapter 09 Simple Interest (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W9 | Chapter 05 Percentage (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W5 | Chapter 07 Ratio Proportion (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W6 | Chapter 08 Profit Loss (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 5 मिनट |
+| W8 | Chapter 09 Simple Interest (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W9 | Chapter 05 Percentage (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 69 |
 | key 4 | 91 |
 | key 5 | 68 |
-| key 6 | 59 |
+| key 6 | 61 |
 
 ## किताबों की प्रगति
 
@@ -65,7 +64,7 @@
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 83/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 100/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 81/1622 |
-| 12th Maths | 0 | 23 | 0 | 0 | 0 | 82/1794 |
+| 12th Maths | 0 | 23 | 0 | 0 | 0 | 86/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 58/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 50/2025 |
@@ -73,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 685/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 689/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,15 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 17:22:02   [Average] QA passed: editorial:Feynman_hi.txt
-21-11 17:22:02   [Average] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
-21-11 17:22:03 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_06_Average: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_06_Average/QA.json'}
-21-11 17:22:30   [Ratio_Proportion] QA needs_reference: sources:Content_hi.txt
-21-11 17:22:41   [Ratio_Proportion] QA passed: editorial:Feynman_en.txt
-21-11 17:22:41   [Ratio_Proportion] QA needs_reference: sources:Feynman_en.txt
-21-11 17:22:58   [Ratio_Proportion] QA passed: editorial:Feynman_hi.txt
-21-11 17:22:58   [Ratio_Proportion] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
-21-11 17:22:58 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_07_Ratio_Proportion: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_07_Ratio_Proportion/QA.json'}
 21-11 17:23:06 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram (TODO: todo 2, problems 0)
 21-11 17:23:06   [rikt_sthan_vakya_kram] Hindi-only writer: direct Hindi content; English generation and translation disabled
 21-11 17:24:10   [Profit_Loss] QA needs_reference: sources:Content_hi.txt
@@ -127,6 +117,15 @@
 21-11 17:28:02   [Mixture_Alligation] QA needs_reference: sources:Content_hi.txt
 21-11 17:28:16   [Mixture_Alligation] QA passed: editorial:Feynman_en.txt
 21-11 17:28:16   [Mixture_Alligation] QA needs_reference: sources:Feynman_en.txt
+21-11 17:28:43   [Time_Distance] QA passed: editorial:Feynman_en.txt
+21-11 17:28:51   [Mixture_Alligation] QA passed: editorial:Feynman_hi.txt
+21-11 17:29:01   [Time_Work] QA passed: editorial:Feynman_hi.txt
+21-11 17:29:06   [Time_Distance] QA needs_reference: sources:Feynman_en.txt
+21-11 17:29:06   [Mixture_Alligation] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
+21-11 17:29:06   [Time_Work] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
+21-11 17:29:06 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_11_Time_Work: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_11_Time_Work/QA.json'}
+21-11 17:29:06 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation/QA.json'}
+21-11 17:29:07   [Mensuration] QA needs_reference: sources:Content_hi.txt
 ````
 
 </details>
