@@ -1,34 +1,35 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 01:34 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 01:35 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 162 मिनट |
-| W10 | Chapter 01 Ancient History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W11 | Chapter 07 States Rivers (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W12 | Chapter 22 Number Series (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W2 | Chapter 23 Quadratic Equations (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W4 | Chapter 06 Physical Geography (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W5 | Chapter 05 Polity (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W6 | Chapter 04 Constitution Basic (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W7 | Chapter 02 Medieval History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W8 | Chapter 03 Modern History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W9 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 11 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 164 मिनट |
+| W10 | Chapter 01 Ancient History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W11 | Chapter 07 States Rivers (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W12 | Chapter 22 Number Series (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W2 | Chapter 23 Quadratic Equations (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W3 | Chapter 08 World Geography (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W4 | Chapter 06 Physical Geography (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W5 | Chapter 05 Polity (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W6 | Chapter 04 Constitution Basic (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W7 | Chapter 02 Medieval History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W8 | Chapter 03 Modern History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W9 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 13 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 88 |
+| key 3 | 89 |
 | key 4 | 79 |
-| key 5 | 102 |
-| key 6 | 69 |
+| key 5 | 103 |
+| key 6 | 70 |
 
 ## किताबों की प्रगति
 
@@ -65,14 +66,14 @@
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
-| 12th GK | 0 | 24 | 0 | 0 | 0 | 11/1872 |
+| 12th GK | 0 | 24 | 0 | 0 | 0 | 12/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 0/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 0/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 338/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 339/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,9 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 13:26:04 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_21_Permutation_Combination: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_21_Permutation_Combination/QA.json'}
-21-11 13:26:04   [Quadratic_Equations] QA passed: structure
-21-11 13:26:21   [Quadratic_Equations] QA passed: editorial:Content_en.txt
 21-11 13:26:21   [Quadratic_Equations] QA needs_reference: sources:Content_en.txt
 21-11 13:26:23   [Number_Series] QA passed: editorial:Content_hi.txt
 21-11 13:26:23   [Number_Series] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
@@ -126,6 +124,9 @@
 21-11 13:35:06   [Constitution_Basic] QA needs_reference: sources:Content_en.txt
 21-11 13:35:08   [Polity] QA blocked: editorial:Content_en.txt
 21-11 13:35:08   [Polity] QA needs_reference: sources:Content_en.txt
+21-11 13:35:11   [Economy_Basic] QA passed: structure
+21-11 13:35:43   [Physical_Geography] QA passed: editorial:Content_en.txt
+21-11 13:35:43   [Physical_Geography] QA needs_reference: sources:Content_en.txt
 ````
 
 </details>
