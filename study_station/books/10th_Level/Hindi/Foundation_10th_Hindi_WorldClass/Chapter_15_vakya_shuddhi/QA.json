@@ -88,11 +88,71 @@
         "Feynman_hi.txt": "846bd7aea75ce777ecef81cba34d614505c617578afed2666e189a369cb1c589"
       },
       "checked_at": "2026-11-21T06:28:22+00:00"
+    },
+    "sources:Feynman_hi.txt": {
+      "fingerprint": "b088d01bb04f21d11464b419fff4542c4693b86947c72a9e76414bcc915c850e",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "34edf005f0251cff2d388e5d99a55045a28e4e689dead2655051faee07904edf",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Feynman_hi.txt": "846bd7aea75ce777ecef81cba34d614505c617578afed2666e189a369cb1c589",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:31:00+00:00"
+    },
+    "editorial:Flashcards_hi.txt": {
+      "fingerprint": "1e9cc22b671ac281f32223cc29e2cf52aa8a0f61a7aa3e39e9772afa87895f56",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Card 4: Time-marker list contains duplicate “कल” (कल, आज, कल, अब, तब) → Use unique markers, e.g., “कल, आज, अब, तब”"
+      ],
+      "dependencies": {
+        "chapter.json": "34edf005f0251cff2d388e5d99a55045a28e4e689dead2655051faee07904edf",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Flashcards_hi.txt": "18ec8e9e3feec80035cd8c00a2ddb4191e8c5bb595066d58b135ca99b6fc561b"
+      },
+      "checked_at": "2026-11-21T10:33:18+00:00"
+    },
+    "sources:Flashcards_hi.txt": {
+      "fingerprint": "927308c7004e710a6ec54fcfa09f6102110247d5509e645765b42e62313a9302",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "34edf005f0251cff2d388e5d99a55045a28e4e689dead2655051faee07904edf",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Flashcards_hi.txt": "18ec8e9e3feec80035cd8c00a2ddb4191e8c5bb595066d58b135ca99b6fc561b",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:33:18+00:00"
+    },
+    "editorial:Important_Rules_hi.txt": {
+      "fingerprint": "002190ceb9ece9d3663c02b56373eca1a6f366c541da89302756e315c05fdbb8",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "34edf005f0251cff2d388e5d99a55045a28e4e689dead2655051faee07904edf",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Important_Rules_hi.txt": "a593d7a041991be083bd7ffdf8c37e49e2c52e048744b61d743870b52afa747f"
+      },
+      "checked_at": "2026-11-21T10:37:16+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T06:28:22+00:00",
-  "chapter_fingerprint": "2bf483152c5d0e53e1e857406770067204680c6e3ee9c1dd87f1fe165a255af0"
+  "updated_at": "2026-11-21T10:37:17+00:00",
+  "chapter_fingerprint": "d51972640db37ec14cdf574f261082079337350ed9bd949d3fe9262a23bc758d"
 }
