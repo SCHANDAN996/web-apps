@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 02:13 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 02:14 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 202 मिनट |
-| W10 | Chapter 07 Sitting Arrangement (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
-| W11 | Chapter 22 Defence (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 25 मिनट |
-| W12 | Chapter 03 Coding Decoding (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 18 मिनट |
-| W2 | Chapter 11 Series (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W3 | Chapter 13 Dictionary Order (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W5 | Chapter 23 Economic Terms (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 24 मिनट |
-| W6 | Chapter 12 Missing Term (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W7 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 26 मिनट |
-| W8 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W9 | Chapter 10 Clock Calendar (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 203 मिनट |
+| W10 | Chapter 07 Sitting Arrangement (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
+| W11 | Chapter 22 Defence (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 26 मिनट |
+| W12 | Chapter 03 Coding Decoding (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 20 मिनट |
+| W2 | Chapter 11 Series (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W3 | Chapter 13 Dictionary Order (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W4 | Chapter 14 Alphabet Questions (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W5 | Chapter 23 Economic Terms (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 25 मिनट |
+| W6 | Chapter 12 Missing Term (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W7 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 28 मिनट |
+| W9 | Chapter 10 Clock Calendar (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 110 |
 | key 4 | 101 |
 | key 5 | 116 |
-| key 6 | 87 |
+| key 6 | 88 |
 
 ## किताबों की प्रगति
 
@@ -66,13 +66,13 @@
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 54/1872 |
-| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 25/1950 |
+| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 28/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 0/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 406/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 409/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,18 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 14:07:16   [Order_Ranking] QA passed: editorial:Content_en.txt
-21-11 14:07:16   [Order_Ranking] QA needs_reference: sources:Content_en.txt
-21-11 14:08:19   [Order_Ranking] QA passed: editorial:Content_hi.txt
-21-11 14:08:19   [Order_Ranking] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
-21-11 14:08:20 QA 12th_Level/Reasoning/Chapter_06_Order_Ranking: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_06_Order_Ranking/QA.json'}
-21-11 14:08:22   [Sitting_Arrangement] QA blocked: editorial:Content_en.txt
-21-11 14:08:23   [Sitting_Arrangement] QA needs_reference: sources:Content_en.txt
-21-11 14:09:04   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q146 key d vs re-solve a)
-21-11 14:09:04   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
-21-11 14:09:04   [rikt_sthan_vakya_kram] written 0, failed 2; AI calls today 408/100000
-21-11 14:09:05 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram after 47 min: todo ['Set 04 hi: todo', 'Set 06 hi: todo'] problems []
-21-11 14:09:16   [Blood_Relations] QA blocked: editorial:Content_hi.txt
 21-11 14:09:22   [Venn_Diagrams] QA passed: editorial:Content_en.txt
 21-11 14:09:24   [Blood_Relations] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 1, "pending": 74, "blocked": 2, "needs_reference": 1, "remaining": 77, 
 21-11 14:09:24   [Venn_Diagrams] QA needs_reference: sources:Content_en.txt
@@ -126,6 +114,18 @@
 21-11 14:13:53   [Dictionary_Order] QA needs_reference: sources:Content_en.txt
 21-11 14:13:53   [Clock_Calendar] QA needs_reference: sources:Content_en.txt
 21-11 14:13:54   [Alphabet_Questions] QA passed: structure
+21-11 14:14:44   [Missing_Term] QA passed: editorial:Content_en.txt
+21-11 14:15:05   [Missing_Term] QA needs_reference: sources:Content_en.txt
+21-11 14:15:06   [Mathematical_Operations] QA passed: structure
+21-11 14:15:17   [Economic_Terms] QA infrastructure blocked editorial:Content_en.txt: too_long
+21-11 14:15:17   [Economic_Terms] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 1, "pending": 77, "blocked": 0, "needs_reference": 0, "remaining": 77, 
+21-11 14:15:17 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_23_Economic_Terms: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 1, 'pending': 77, 'blocked': 0, 'needs_reference': 0, 'remaining': 77, 'failures': [], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_23_Economic_Terms/QA.json'}
+21-11 14:15:19   [Series] QA passed: editorial:Content_hi.txt
+21-11 14:15:20   [Series] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 14:15:20 QA 12th_Level/Reasoning/Chapter_11_Series: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- In solved example Q2, the trial pattern n²(n+1) for n=4 is incorrectly stated as 100; the correct value is 80 → Replace 100 with 80.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_11_Series/QA.json'}
+21-11 14:15:34   [Sitting_Arrangement] QA passed: editorial:Content_hi.txt
+21-11 14:15:34   [Sitting_Arrangement] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 14:15:35 QA 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Circular arrangement rule: "Facing the centre (inward) → their right is clockwise" and the mnemonic "IN-CR, OUT-AR" are incorrect; for inward facing, right is anti-clockwise and left is clockwise, while for outward facing, right is clockwise and left is anti-clockwise (correct mnemonic: "IN-AR, OUT-CR"). This error appears in Chunk 2, Chunk 3, and the Summary Table.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_07_Sitting_Arrangement/QA.json'}
 ````
 
 </details>

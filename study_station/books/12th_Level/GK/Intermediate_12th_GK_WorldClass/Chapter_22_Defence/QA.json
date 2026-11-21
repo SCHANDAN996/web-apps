@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "b1e6567a053ca1c2c6ac669bf889ab33691e5f04234ec1a1c65c23676491a050",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "4c047c7c0a90fd9165f40b38df85007cf059ee022ec9cb66224e3a4b9c1907ee",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "6acb520274d1d7c6a63d975c7ac4af15c6a7924f64316c940f36aa7a3ec81cd2",
+        "Content_hi.txt": "a1128b15ba5f7ba0ee404beb70cf73205cf24d1ae469a3f1e2ebe60f685a5c25",
+        "Feynman_en.txt": "d7f8fa81f4b684916e4198f6be9b48bc5e9027527e850ec55557637a45bbec89",
+        "Feynman_hi.txt": "454b350f6b8feb4d18308c4f3e65d261d2ffd9e2307b6d342630c8a155657e1e",
+        "Flashcards_en.txt": "db1022931f7eaf4ca4aee4ce03c27a69b4da2078d99f7c7d9b3b66fed8b41010",
+        "Flashcards_hi.txt": "fecd40f4072460542f51d34de49c4e5dee6f183b24c702a54624b2b1bd9ab761",
+        "Key_Facts_en.txt": "1995577aab58cb745c0ca041ec9e79b0919138f769f9e8624ce4ea5be077b98f",
+        "Key_Facts_hi.txt": "cba6837a6e573ad226ae416a962c2ce76e1b3c84d12fcefde4ed3f1792b10522",
+        "Memory_Hooks_en.txt": "941c11fe7f21cf71d17ba4f06cd20c1f80ac1d596af2623fa44f7927a23efb74",
+        "Memory_Hooks_hi.txt": "89996875dc1055c4bab13e1b2ddf28909f2f868e6ee0bd3f899359c692092c0b",
+        "Mind_Map.txt": "9a9d94ba63da12a3305cc79ca969fb0771c08bbfc787538ba622cc0c356de987",
+        "PYQ_en.txt": "cd85f67a72db857a31a7804c56e2874375f88093d6c77637b46922ef9b9da7bf",
+        "PYQ_hi.txt": "5fa5ebbc4e9d9862e9b02a6797d6ce4db434afc45cc177b23a328d1e2c73bab4",
+        "Practice_en_Set_01.txt": "2aa81de1daea9e7a18d01876cff2a4f110ce7fc851682d04134f8dd51f1d7736",
+        "Practice_en_Set_02.txt": "83283c2d44afade8f4d6e2603d13cb526017d9bca064f7e6269e3ce48484b7d6",
+        "Practice_en_Set_03.txt": "c061279404430b9490e1a0505947fd0ce09605bc8b9a9520484ddfcf06f7ff47",
+        "Practice_en_Set_04.txt": "6ed87ec7be658bdda07f0be2ec5f1b27771e1434afcdd7c1b172113df9327f36",
+        "Practice_en_Set_05.txt": "576a856c640166e523e05b55a2659d17aebaa61beda534535fd733e9e8534878",
+        "Practice_en_Set_06.txt": "22d31dceaeb3b9acd54f46ec1515a6d508c1ec0aa53d9bbeeb417d5c490c4e9a",
+        "Practice_hi_Set_01.txt": "6cdbced6ef4fade56ee5872a490be405f93ea4b4182c04b73cebb279debce016",
+        "Practice_hi_Set_02.txt": "c3627d1b6d57088d844c6b734fc2b53e5e93abb68b74b84b4ba8738dcf2674c8",
+        "Practice_hi_Set_03.txt": "4c63e34c04db8a81e7868918d6eff006734ddfea8d0a321c2bea10cd8d81eea7",
+        "Practice_hi_Set_04.txt": "2e7505d5a39f5c8f2ccaf696558ae986434352da6a33f23fca81eb7bc8de2222",
+        "Practice_hi_Set_05.txt": "a9e66672a35c2d1bacc4ec38e567da67546dd1cb40d1cdfe5b77d21506698c3b",
+        "Practice_hi_Set_06.txt": "a06b64068c96a8c258a18cd8a14d0f59937492fdf3e6e546cd6901e0999a20a2",
+        "inventory": {
+          "Content_en.txt": "6acb520274d1d7c6a63d975c7ac4af15c6a7924f64316c940f36aa7a3ec81cd2",
+          "Content_hi.txt": "a1128b15ba5f7ba0ee404beb70cf73205cf24d1ae469a3f1e2ebe60f685a5c25",
+          "Feynman_en.txt": "d7f8fa81f4b684916e4198f6be9b48bc5e9027527e850ec55557637a45bbec89",
+          "Feynman_hi.txt": "454b350f6b8feb4d18308c4f3e65d261d2ffd9e2307b6d342630c8a155657e1e",
+          "Flashcards_en.txt": "db1022931f7eaf4ca4aee4ce03c27a69b4da2078d99f7c7d9b3b66fed8b41010",
+          "Flashcards_hi.txt": "fecd40f4072460542f51d34de49c4e5dee6f183b24c702a54624b2b1bd9ab761",
+          "Key_Facts_en.txt": "1995577aab58cb745c0ca041ec9e79b0919138f769f9e8624ce4ea5be077b98f",
+          "Key_Facts_hi.txt": "cba6837a6e573ad226ae416a962c2ce76e1b3c84d12fcefde4ed3f1792b10522",
+          "Memory_Hooks_en.txt": "941c11fe7f21cf71d17ba4f06cd20c1f80ac1d596af2623fa44f7927a23efb74",
+          "Memory_Hooks_hi.txt": "89996875dc1055c4bab13e1b2ddf28909f2f868e6ee0bd3f899359c692092c0b",
+          "Mind_Map.txt": "9a9d94ba63da12a3305cc79ca969fb0771c08bbfc787538ba622cc0c356de987",
+          "PYQ_en.txt": "cd85f67a72db857a31a7804c56e2874375f88093d6c77637b46922ef9b9da7bf",
+          "PYQ_hi.txt": "5fa5ebbc4e9d9862e9b02a6797d6ce4db434afc45cc177b23a328d1e2c73bab4",
+          "Practice_en_Set_01.txt": "2aa81de1daea9e7a18d01876cff2a4f110ce7fc851682d04134f8dd51f1d7736",
+          "Practice_en_Set_02.txt": "83283c2d44afade8f4d6e2603d13cb526017d9bca064f7e6269e3ce48484b7d6",
+          "Practice_en_Set_03.txt": "c061279404430b9490e1a0505947fd0ce09605bc8b9a9520484ddfcf06f7ff47",
+          "Practice_en_Set_04.txt": "6ed87ec7be658bdda07f0be2ec5f1b27771e1434afcdd7c1b172113df9327f36",
+          "Practice_en_Set_05.txt": "576a856c640166e523e05b55a2659d17aebaa61beda534535fd733e9e8534878",
+          "Practice_en_Set_06.txt": "22d31dceaeb3b9acd54f46ec1515a6d508c1ec0aa53d9bbeeb417d5c490c4e9a",
+          "Practice_hi_Set_01.txt": "6cdbced6ef4fade56ee5872a490be405f93ea4b4182c04b73cebb279debce016",
+          "Practice_hi_Set_02.txt": "c3627d1b6d57088d844c6b734fc2b53e5e93abb68b74b84b4ba8738dcf2674c8",
+          "Practice_hi_Set_03.txt": "4c63e34c04db8a81e7868918d6eff006734ddfea8d0a321c2bea10cd8d81eea7",
+          "Practice_hi_Set_04.txt": "2e7505d5a39f5c8f2ccaf696558ae986434352da6a33f23fca81eb7bc8de2222",
+          "Practice_hi_Set_05.txt": "a9e66672a35c2d1bacc4ec38e567da67546dd1cb40d1cdfe5b77d21506698c3b",
+          "Practice_hi_Set_06.txt": "a06b64068c96a8c258a18cd8a14d0f59937492fdf3e6e546cd6901e0999a20a2"
+        }
+      },
+      "checked_at": "2026-11-21T08:18:16+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "3f6fb8fcf0e7c018a09355f5cf688c0b5974ed52158aa265fc7acda5f069bd36",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "4c047c7c0a90fd9165f40b38df85007cf059ee022ec9cb66224e3a4b9c1907ee",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "6acb520274d1d7c6a63d975c7ac4af15c6a7924f64316c940f36aa7a3ec81cd2"
+      },
+      "checked_at": "2026-11-21T08:21:30+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "42b5116d37770d7502a0aaa833d145c1274a4bdf87fe456e6fea1b5d247d3041",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: - **Chief of Defence Staff (CDS)** — created in **December 2019**; the first CDS was **General Bipin Rawat**. The CDS is the single-point military adviser to the government and heads the **Department of Military Affairs**.",
+        "Fetch official supporting evidence for: **Trap 2 — Chronological Confusion (कालानुक्रमिक भ्रम):** *RAW (1968), NSG (1984), NIA (2008), CDS (2019).* Questions ask \"which was formed first/latest\" or pair a force with the wrong year — e.g., \"BSF was formed in 1962\" (wrong; BSF = 1965, ITBP = 1962).",
+        "Fetch official supporting evidence for: | First CDS | Gen. Bipin Rawat (2019) |"
+      ],
+      "dependencies": {
+        "chapter.json": "4c047c7c0a90fd9165f40b38df85007cf059ee022ec9cb66224e3a4b9c1907ee",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "6acb520274d1d7c6a63d975c7ac4af15c6a7924f64316c940f36aa7a3ec81cd2",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T08:21:30+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "8c157a7a61cc55bc90f7b5f0506f4b2ec2fedfac15bab9a8318932fb376afefb",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "4c047c7c0a90fd9165f40b38df85007cf059ee022ec9cb66224e3a4b9c1907ee",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "a1128b15ba5f7ba0ee404beb70cf73205cf24d1ae469a3f1e2ebe60f685a5c25"
+      },
+      "checked_at": "2026-11-21T08:42:59+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T08:42:59+00:00",
+  "chapter_fingerprint": "d52a0941b45875672013c2a247d7bededb1dddc45a205b34dcc896073b8d0ea9"
+}
