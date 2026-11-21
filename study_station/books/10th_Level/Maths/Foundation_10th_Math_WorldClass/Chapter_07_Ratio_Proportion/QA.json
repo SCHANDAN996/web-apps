@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "0132b69bf39667976669451ef62d16e538fe8623e6325508dde16dbbb399cabe",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "7b2474ed4ec955a98f3796de86518e5aa776a086d6d7292f8ef9f04f9abaa8af",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "8010ecd9c380ac25660e385dc906e7427fee59933d8fa67e63b9a6957c58f8a8",
+        "Content_hi.txt": "f3bddcf5d9fdecd96958ade6455f0e37a416777b6e1c3b56ff9ee4f36554ecd4",
+        "Feynman_en.txt": "2db82bcdbb48408fba824fd422bab55eacb84855980770cb9ead61de4bfa9478",
+        "Feynman_hi.txt": "5edd14f9729810f21764156fc3a59f732647a393f2205a8a32e9fcc8a98a4293",
+        "Flashcards_en.txt": "d2d9e508548c1eb7cdb67ff683581f626d522e7fb12762702055b15fd8dec518",
+        "Flashcards_hi.txt": "121e7636ceb2f0d22c94b11ea9bf7859f02512e3422bfa63234bf6facdc959e6",
+        "Mind_Map.txt": "8b4d17c1eaf869287fcf10dd70985b3ef05ab7befe7080fb41e51911419f35c8",
+        "PYQ_en.txt": "4e802a205af41e9f1831c6344ceecb9d36bdfac3d056f71271b397ee9e46c2bb",
+        "PYQ_hi.txt": "b2581db2c61a22c0dbd5d6018239fc34ec8437e12b8185fee7466e837135377a",
+        "Practice_en_Set_01.txt": "852a62bad6007ff1e42f752e1e955292965f4acd419a1afe8b5103bf8a81b076",
+        "Practice_en_Set_02.txt": "6309c0c30395580193c3f8b6a19f99030b3fb62b7be3e98a313c6f6ee065ed7b",
+        "Practice_en_Set_03.txt": "253231066ae6666d1c159bac05961947a3d76db541dd2d7909ddfa122ed56a9b",
+        "Practice_en_Set_04.txt": "4240ee3bba2cf490825322f311acb281e1a9910069d337644c83e7a6142c0770",
+        "Practice_en_Set_05.txt": "e9e3ab378bb9aedd209f75ffc4fd74a5c2aa7dbd8bbead35e17de3a79b402e01",
+        "Practice_en_Set_06.txt": "b441844ad7bc7506a9d65f09ebd70d8aed03dd2dbaca1eb45523a9750fad6602",
+        "Practice_hi_Set_01.txt": "f6e2de0277689ac2ff08fbb19dbebb076b9faa4a4e737612d5fb8afd7e81326d",
+        "Practice_hi_Set_02.txt": "3e9b41726c28495f73fdbb33c608de2462b8161292153180b157b6f66a4bcc9d",
+        "Practice_hi_Set_03.txt": "6d93278a62c8d49d539202ee47a70ed4f96322d17e2a50ddd1fa98758d566f35",
+        "Practice_hi_Set_04.txt": "56012a0622279f1be26768f521b7234b6a69858bf930c7d57a73c1d0ce0aee75",
+        "Practice_hi_Set_05.txt": "c97fcc6e0a85a11154e6f6e804a80e278078effe33f3395c1e9d389f882b0c4a",
+        "Practice_hi_Set_06.txt": "13268546761f41c9d2c15ebecf51938328a0178ae1a277770ad2e8e5458dc06b",
+        "Short_Tricks_en.txt": "1a68aeadf668c4fec625f8cbfad68317b3c3b95f22dfa90127cb51aa779d791a",
+        "Short_Tricks_hi.txt": "9200f8a8d1a4021063687b21c2f57f227b36d3e4201916f0ea16bc2c5363049b",
+        "inventory": {
+          "Content_en.txt": "8010ecd9c380ac25660e385dc906e7427fee59933d8fa67e63b9a6957c58f8a8",
+          "Content_hi.txt": "f3bddcf5d9fdecd96958ade6455f0e37a416777b6e1c3b56ff9ee4f36554ecd4",
+          "Feynman_en.txt": "2db82bcdbb48408fba824fd422bab55eacb84855980770cb9ead61de4bfa9478",
+          "Feynman_hi.txt": "5edd14f9729810f21764156fc3a59f732647a393f2205a8a32e9fcc8a98a4293",
+          "Flashcards_en.txt": "d2d9e508548c1eb7cdb67ff683581f626d522e7fb12762702055b15fd8dec518",
+          "Flashcards_hi.txt": "121e7636ceb2f0d22c94b11ea9bf7859f02512e3422bfa63234bf6facdc959e6",
+          "Mind_Map.txt": "8b4d17c1eaf869287fcf10dd70985b3ef05ab7befe7080fb41e51911419f35c8",
+          "PYQ_en.txt": "4e802a205af41e9f1831c6344ceecb9d36bdfac3d056f71271b397ee9e46c2bb",
+          "PYQ_hi.txt": "b2581db2c61a22c0dbd5d6018239fc34ec8437e12b8185fee7466e837135377a",
+          "Practice_en_Set_01.txt": "852a62bad6007ff1e42f752e1e955292965f4acd419a1afe8b5103bf8a81b076",
+          "Practice_en_Set_02.txt": "6309c0c30395580193c3f8b6a19f99030b3fb62b7be3e98a313c6f6ee065ed7b",
+          "Practice_en_Set_03.txt": "253231066ae6666d1c159bac05961947a3d76db541dd2d7909ddfa122ed56a9b",
+          "Practice_en_Set_04.txt": "4240ee3bba2cf490825322f311acb281e1a9910069d337644c83e7a6142c0770",
+          "Practice_en_Set_05.txt": "e9e3ab378bb9aedd209f75ffc4fd74a5c2aa7dbd8bbead35e17de3a79b402e01",
+          "Practice_en_Set_06.txt": "b441844ad7bc7506a9d65f09ebd70d8aed03dd2dbaca1eb45523a9750fad6602",
+          "Practice_hi_Set_01.txt": "f6e2de0277689ac2ff08fbb19dbebb076b9faa4a4e737612d5fb8afd7e81326d",
+          "Practice_hi_Set_02.txt": "3e9b41726c28495f73fdbb33c608de2462b8161292153180b157b6f66a4bcc9d",
+          "Practice_hi_Set_03.txt": "6d93278a62c8d49d539202ee47a70ed4f96322d17e2a50ddd1fa98758d566f35",
+          "Practice_hi_Set_04.txt": "56012a0622279f1be26768f521b7234b6a69858bf930c7d57a73c1d0ce0aee75",
+          "Practice_hi_Set_05.txt": "c97fcc6e0a85a11154e6f6e804a80e278078effe33f3395c1e9d389f882b0c4a",
+          "Practice_hi_Set_06.txt": "13268546761f41c9d2c15ebecf51938328a0178ae1a277770ad2e8e5458dc06b",
+          "Short_Tricks_en.txt": "1a68aeadf668c4fec625f8cbfad68317b3c3b95f22dfa90127cb51aa779d791a",
+          "Short_Tricks_hi.txt": "9200f8a8d1a4021063687b21c2f57f227b36d3e4201916f0ea16bc2c5363049b"
+        }
+      },
+      "checked_at": "2026-11-21T06:58:20+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "6abbf8b707a053b31533432336ecd8343b49efcff6f3ae64cf9e0d2349a787f2",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "7b2474ed4ec955a98f3796de86518e5aa776a086d6d7292f8ef9f04f9abaa8af",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "8010ecd9c380ac25660e385dc906e7427fee59933d8fa67e63b9a6957c58f8a8"
+      },
+      "checked_at": "2026-11-21T07:00:04+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "e6f17d7d6600ff7c8072ee4e7d8940c2a8523c44326d3f3d41d9ecdc06bb9a21",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "7b2474ed4ec955a98f3796de86518e5aa776a086d6d7292f8ef9f04f9abaa8af",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "8010ecd9c380ac25660e385dc906e7427fee59933d8fa67e63b9a6957c58f8a8",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T07:00:04+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "9f0b985e7550c0eb6b54eff58d810046ce3f02ef99e45e80d29b9df519a06964",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "7b2474ed4ec955a98f3796de86518e5aa776a086d6d7292f8ef9f04f9abaa8af",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "f3bddcf5d9fdecd96958ade6455f0e37a416777b6e1c3b56ff9ee4f36554ecd4"
+      },
+      "checked_at": "2026-11-21T07:02:27+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T07:02:27+00:00",
+  "chapter_fingerprint": "97e5a57f2cc344d3cd67538969fd2439c6effb0e331624fb2b5770b75da533cf"
+}
