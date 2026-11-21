@@ -1,34 +1,35 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 05:51 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 05:52 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 133 मिनट |
-| W10 | Chapter 09 Economy Basic (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W11 | Chapter 10 Physics Daily (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W12 | Chapter 07 States Rivers (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W2 | Chapter 13 Awards (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W3 | Chapter 08 World Geography (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W4 | Chapter 11 Chemistry (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W5 | Chapter 14 Sports (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W6 | Chapter 15 Days Dates (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 28 मिनट |
-| W9 | Chapter 12 Biology (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 134 मिनट |
+| W10 | Chapter 09 Economy Basic (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W11 | Chapter 10 Physics Daily (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W12 | Chapter 07 States Rivers (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W2 | Chapter 13 Awards (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W3 | Chapter 08 World Geography (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W4 | Chapter 11 Chemistry (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W5 | Chapter 14 Sports (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W6 | Chapter 15 Days Dates (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 29 मिनट |
+| W8 | Chapter 16 Books Authors (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W9 | Chapter 12 Biology (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 87 |
+| key 3 | 88 |
 | key 4 | 106 |
-| key 5 | 80 |
-| key 6 | 78 |
+| key 5 | 81 |
+| key 6 | 79 |
 
 ## किताबों की प्रगति
 
@@ -86,9 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 17:46:45   [Physics_Daily] QA passed: editorial:Feynman_hi.txt
-21-11 17:46:45   [Physics_Daily] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
-21-11 17:46:45 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_10_Physics_Daily: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Domestic supply voltage in India given as 220 V, 50 Hz AC → The current standard is 230 V, 50 Hz AC (as per IS 12360).']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_10_Physics_Daily/QA.json'}
 21-11 17:47:04   [Economy_Basic] QA passed: editorial:Feynman_hi.txt
 21-11 17:47:04   [Economy_Basic] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
 21-11 17:47:04 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_09_Economy_Basic: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- 'GDP की गणना का आधार वर्ष (Base Year) वर्तमान में 2011–12 है' बिना वर्ष के → 'GDP की गणना का आधार वर्ष 2011–12 है (2024 तक)'"]}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: - **SBI (भारतीय स्टेट बैंक):** 1955 में Imperial Bank of India का राष्ट्रीयकरण करके बना। भारत का सबसे बड़ा सार्वजनिक क्षेत्र का बैंक।', 'Fetch official supporting evidence for: - **बैंकों का राष्ट्रीयकरण:** **1969 में 14 बैंक**, फिर **1980 में 6 बैंक** (इंदिरा गांधी सरकार)।', 'Fetch official supporting evidence for: | बैंक राष्ट्रीयकरण | 1969 (14 बैंक), 1980 (6 बैंक) |']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_09_Economy_Basic/QA.json'}
@@ -126,6 +124,9 @@
 21-11 17:52:04   [Days_Dates] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
 21-11 17:52:04   [Books_Authors] QA needs_reference: sources:Content_hi.txt
 21-11 17:52:05 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_15_Days_Dates: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_15_Days_Dates/QA.json'}
+21-11 17:52:39   [Culture_Art] QA needs_reference: sources:Content_hi.txt
+21-11 17:52:55   [Books_Authors] QA passed: editorial:Feynman_en.txt
+21-11 17:52:55   [Books_Authors] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>
