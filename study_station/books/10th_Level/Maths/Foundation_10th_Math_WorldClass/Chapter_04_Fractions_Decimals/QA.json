@@ -103,11 +103,69 @@
         "Content_hi.txt": "c0bfc13ebb4db97b20a0f08618d93cf0a8b65e5025057a4ffd00053ddd6a93ca"
       },
       "checked_at": "2026-11-21T07:00:44+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "51ed89557215d3ec551375fa98af5b47e20985522bc5b8b9212beb97ca1b6df0",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: सन् 1999 में NASA का मंगलयान (Mars Climate Orbiter) इसलिए नष्ट हो गया क्योंकि एक टीम ने गणना अंग्रेज़ी इकाइयों (पाउंड-सेकंड) में की और दूसरी ने मीट्रिक इकाइयों (न्यूटन-सेकंड) में। इकाई-रूपांतरण की यह एक छोटी-सी भूल लगभग $125 मिलियन के यान को तबाह कर गई। हमारे यहाँ बैंकिंग और रेलवे की परीक्षाओं में हज़ारों छात्र सिर्फ़ इसलिए चयन से चूक जाते हैं क्योंकि वे 0.25 और ¼ के बीच का संबंध ब्याज की गणना में नहीं पकड़ पाते। भिन्न और दशमलव केवल गणित नहीं, सफलता और भारी असफलता के बीच का अंतर हैं। इन पर मजबूत पकड़ बना ली, तो संख्यात्मक योग्यता का एक बड़ा भाग आपकी ताकत बन जाएगा।"
+      ],
+      "dependencies": {
+        "chapter.json": "3a2eea47c36468ad9145fe35a7646cac432be24cc7fb47d992e18c6e592fbc59",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "c0bfc13ebb4db97b20a0f08618d93cf0a8b65e5025057a4ffd00053ddd6a93ca",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:11:55+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "320471f4dd69a36b642db174c428c9b7a546cd770dd7ba2835ba7b1534563e2e",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "3a2eea47c36468ad9145fe35a7646cac432be24cc7fb47d992e18c6e592fbc59",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "ac473c8c204521db065017b33e053d682cde30cf48ec5b9ce189ea8600f74bcd"
+      },
+      "checked_at": "2026-11-21T11:14:19+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "eac5258d22581831651d700c821132bd49cd38c79977a0fb8393bfa98624854b",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "3a2eea47c36468ad9145fe35a7646cac432be24cc7fb47d992e18c6e592fbc59",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "ac473c8c204521db065017b33e053d682cde30cf48ec5b9ce189ea8600f74bcd",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:14:19+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "07415bf17a6668dd300c39fb5063ab05539a400a79d6dc5cd049152db036722b",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "3a2eea47c36468ad9145fe35a7646cac432be24cc7fb47d992e18c6e592fbc59",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "096c5e1d27ce233fd9f9ab6ef0871010abc122f41290ec606317982786819b85"
+      },
+      "checked_at": "2026-11-21T11:14:55+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T07:00:44+00:00",
+  "updated_at": "2026-11-21T11:14:55+00:00",
   "chapter_fingerprint": "31cea55b929989832876b4e190bec44486b9e82915c08b2dc1fab24e8bed3843"
 }
