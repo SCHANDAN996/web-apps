@@ -5,30 +5,31 @@
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 53 मिनट |
-| W10 | Chapter 11 Series (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 54 मिनट |
+| W10 | Chapter 11 Series (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W11 | Chapter 15 Mathematical Operations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 | W12 | Chapter 10 Clock Calendar (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 53 मिनट |
-| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W4 | Chapter 12 Missing Term (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W5 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W6 | Chapter 08 Puzzles Basic (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W7 | Chapter 14 Alphabet Questions (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W8 | Chapter 07 Sitting Arrangement (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W9 | Chapter 06 Order Ranking (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 54 मिनट |
+| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W4 | Chapter 12 Missing Term (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W5 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W6 | Chapter 08 Puzzles Basic (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W7 | Chapter 14 Alphabet Questions (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W8 | Chapter 07 Sitting Arrangement (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W9 | Chapter 06 Order Ranking (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 38 |
-| key 4 | 47 |
+| key 4 | 48 |
 | key 5 | 35 |
-| key 6 | 24 |
+| key 6 | 25 |
 
 ## किताबों की प्रगति
 
@@ -82,14 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 16:28:00   [Clock_Calendar] QA needs_reference: sources:Content_hi.txt
-21-11 16:28:03   [Venn_Diagrams] QA passed: editorial:Feynman_hi.txt
-21-11 16:28:03   [Venn_Diagrams] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
-21-11 16:28:04 QA 10th_Level/Reasoning/Chapter_09_Venn_Diagrams: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Summary Table: The example "Officer, Manager, Clerk" with description "Manager inside Officer, both overlapping with Clerk" is incorrect because in standard government job classification, Clerk is a separate cadre disjoint from Officer/Manager → Replace with a valid mixed subset+overlap example such as "Employee, Manager, Engineer" where Manager ⊂ Employee and Engineer overlaps Employee (and possibly Manager).']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_09_Venn_Diagrams/QA.json'}
-21-11 16:28:06   [Puzzles_Basic] QA blocked: editorial:Feynman_en.txt
-21-11 16:28:06   [Puzzles_Basic] QA needs_reference: sources:Feynman_en.txt
-21-11 16:28:41   [Series] QA needs_reference: sources:Content_hi.txt
-21-11 16:28:54   [sandhi] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q2 key b vs re-solve a, Q12 key d vs re-solve b, Q18 key a vs re-solve c, Q22 key c vs re-solve b, Q
 21-11 16:28:54   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
 21-11 16:28:57   [Puzzles_Basic] QA passed: editorial:Feynman_hi.txt
 21-11 16:28:57   [Puzzles_Basic] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
@@ -122,6 +115,14 @@
 21-11 16:32:36   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q143 key a vs re-solve d, Q149 key b vs re-solve a)
 21-11 16:32:40   [Alphabet_Questions] QA blocked: editorial:Feynman_en.txt
 21-11 16:32:40   [Alphabet_Questions] QA needs_reference: sources:Feynman_en.txt
+21-11 16:33:20   [Mathematical_Operations] QA passed: editorial:Feynman_en.txt
+21-11 16:33:20   [Mathematical_Operations] QA needs_reference: sources:Feynman_en.txt
+21-11 16:33:20   [Statement_Conclusion] QA needs_reference: sources:Content_hi.txt
+21-11 16:33:39   [Mathematical_Operations] QA passed: editorial:Feynman_hi.txt
+21-11 16:33:39   [Mathematical_Operations] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
+21-11 16:33:39 QA 10th_Level/Reasoning/Chapter_15_Mathematical_Operations: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_15_Mathematical_Operations/QA.json'}
+21-11 16:33:50   [Statement_Conclusion] QA passed: editorial:Feynman_en.txt
+21-11 16:33:50   [Statement_Conclusion] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>

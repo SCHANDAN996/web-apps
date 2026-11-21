@@ -110,11 +110,72 @@
         "Content_hi.txt": "d2c4bf7ced13ed2027775cc7e0cdb7e74404a84b6becf3626f28cb1f2baea856"
       },
       "checked_at": "2026-11-21T06:42:24+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "c0901ebf817f696fba77a91929a341ae8e806589fcd92c766e30f174f0eebeb2",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "349c901744643acfa10fb28415eb779b344209b13f8ecdea7e1b51b2b6bd8f3d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "d2c4bf7ced13ed2027775cc7e0cdb7e74404a84b6becf3626f28cb1f2baea856",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:54:33+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "a983868503ab610c85135e2aadcd6454f443dea8beada50edbd80f7311bb0c0d",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "349c901744643acfa10fb28415eb779b344209b13f8ecdea7e1b51b2b6bd8f3d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "b0654e868010b978c59a1e3a5c27114ee357cfff2fa7457419e69dfa7f9bce5a"
+      },
+      "checked_at": "2026-11-21T10:55:57+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "af2b4483b9f7c52c28b8030ab82eaee4806c3ace28d3f177f20c1b6798dbe601",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "349c901744643acfa10fb28415eb779b344209b13f8ecdea7e1b51b2b6bd8f3d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "b0654e868010b978c59a1e3a5c27114ee357cfff2fa7457419e69dfa7f9bce5a",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:55:57+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "ff575ead2a7b53634d825ac4fd0ed5e6d44d06e1d662c110bf933fb9707658b1",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The statement “नेहा, राहुल से आगे खड़ी है, इसलिए दाएँ से गिनने पर राहुल उससे पीछे आता है” is logically incorrect; when Neha is ahead (left side), Rahul is ahead from the right end. → Correct: “नेहा, राहुल से आगे खड़ी है, इसलिए दाएँ से गिनने पर राहुल उससे आगे आता है” (or “नेहा दाएँ से पीछे आती है”).",
+        "- The rhyme heading “बाया-दाया, एक घटाया” misspells the Hindi words for left and right. → Correct: “बायाँ-दायाँ, एक घटाया”."
+      ],
+      "dependencies": {
+        "chapter.json": "349c901744643acfa10fb28415eb779b344209b13f8ecdea7e1b51b2b6bd8f3d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "fd6ceb1e94f55cc91694e726abb0ebed849151fd338bdd2452d179c00e905f35"
+      },
+      "checked_at": "2026-11-21T10:57:37+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T06:42:24+00:00",
+  "updated_at": "2026-11-21T10:57:37+00:00",
   "chapter_fingerprint": "688788019979bc7d4281a3a6b629efb0bd94b5d30c9153e4ca6c1dfc345ee47a"
 }
