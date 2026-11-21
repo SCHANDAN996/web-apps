@@ -1,19 +1,17 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 21-11-2026 07:28 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
+**आख़िरी update:** 21-11-2026 07:43 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 151 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
 | key 3 | 38 |
-| key 4 | 38 |
+| key 4 | 39 |
 | key 5 | 32 |
 | key 6 | 45 |
 
@@ -49,16 +47,11 @@
 
 - Chapter 15 vakya shuddhi (Hindi) — 2 बार
 - Chapter 16 rikt sthan vakya kram (Hindi) — 1 बार
-- Chapter 07 sandhi (Hindi) — 1 बार
+- Chapter 07 sandhi (Hindi) — 2 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-21-11 04:16:12   [sandhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
-21-11 04:16:12   [sandhi] written 0, failed 5; AI calls today 107/100000
-21-11 04:16:12 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi after 117 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo'] problems []
-21-11 04:16:14 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi (TODO: todo 2, problems 0)
-21-11 04:16:14   [vakya_shuddhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
 21-11 04:17:16   [vakya_shuddhi] Practice_hi_Set_02.txt try 1: rejected (Q39:duplicate_options)
 21-11 04:30:59   [vakya_shuddhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q27 key d vs re-solve ?, Q42 key b vs re-solve ?, Q46 key c vs re-solve d, Q48 key a vs re-solve b)
 21-11 04:39:32   [vakya_shuddhi] wrote Practice_hi_Set_02.txt (write, 25 MCQs)
@@ -94,4 +87,9 @@
 21-11 06:53:29   [sandhi] Practice_hi_Set_06.txt try 1: rejected (Q130:duplicate_options)
 21-11 07:07:26   [sandhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q129 key d vs re-solve ?, Q130 key a vs re-solve c, Q131 key d vs re-solve b, Q133 key b vs re-solve
 21-11 07:22:40   [sandhi] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q130 key c vs re-solve a, Q131 key d vs re-solve b, Q133 key c vs re-solve a, Q139 key b vs re-solve
+21-11 07:43:34   [sandhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q126 key c vs re-solve b, Q129 key a vs re-solve c, Q130 key a vs re-solve c, Q131 key a vs re-solve
+21-11 07:43:34   [sandhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
+21-11 07:43:34   [sandhi] written 0, failed 5; AI calls today 154/100000
+21-11 07:43:34 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi after 166 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo'] problems []
+21-11 07:43:34 worker 0: nothing left
 ```
