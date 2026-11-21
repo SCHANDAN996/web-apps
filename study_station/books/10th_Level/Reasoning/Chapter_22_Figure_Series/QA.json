@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "434e10d91b2d1fc8f75e6a1ed991f7246148e9adf465b7a4ebea34f0a40017fd",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "e1a23ed40abf4c2431619cea9dbbfb6185b70169f73c50278539eec51b9c4cf7",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "2c47da68ce9c517781715165953292343d7a3b96ef9ffd8b4c1313eb29794af2",
+        "Content_hi.txt": "bc63f7f72dbcfc65874ba9caff9b27cce657f8f52596539269a72786d36d46c8",
+        "Feynman_en.txt": "b66b50bf4a04a567fec07b0fc8d74580b4658cad45299db7b3e2bc830bddaa14",
+        "Feynman_hi.txt": "0b85039deea8309c20c0f2ff3f8838122cec014bf546374b5d0abe2e5098fc7a",
+        "Flashcards_en.txt": "8a4967b1c725c4f1790892f81c34f1dd04f70db45e488e7bc5c81d370d80da16",
+        "Flashcards_hi.txt": "e8c78ceca5ede2b974c6e5c15103c21686d1040f988c416d9fe4ffa1582bbfe3",
+        "Important_Rules_en.txt": "b6277d75712d388155e92248164ad3b3e46ef3cde76197458a73874158ca7a59",
+        "Important_Rules_hi.txt": "7396f0c68e4b113dcbed36b3e4d2f67dc63218d4b5456cd2b78f6eb9696bd575",
+        "Mind_Map.txt": "7588f009a5c962e4d4189325c21cb4ee6c5935a26b6ffa86e12f6f404bfe2de2",
+        "PYQ_en.txt": "54fa1eea1e2a6b6a04a2b393a47ee54cd26949bf5f8265ea48275fc218bd90fa",
+        "PYQ_hi.txt": "fad9dd8ab868bcb634091c6f2a2f90b31b12cf92df6a5faab90a986d9552cb45",
+        "Practice_en_Set_01.txt": "019f4c2dd95dfcd579920dc3fddf62e3351c86e0052cd1800f0aae7cca096e50",
+        "Practice_en_Set_02.txt": "3a983f7022a79ba04b1a8cd4e57121a71fdc2f48cd65bb9a9ecb8c9fff7d3d19",
+        "Practice_en_Set_03.txt": "e5b3b3db6dc9cca4d435580f910fb6242e22bfae00c7338170830b47358d9bfd",
+        "Practice_en_Set_04.txt": "cedccd3261fb9bea0e85b44a9e1326741371c3cd81b48d588ff7f9a331f90ddc",
+        "Practice_en_Set_05.txt": "6e9f7addefca127d65fb0e1e92b2e9066944f81c190b86434dba1c5cbe5a252c",
+        "Practice_en_Set_06.txt": "bbdf994b423995a7652e09edc567e882c1eb0be898554adc004b8e8c17fdc708",
+        "Practice_hi_Set_01.txt": "93ec157c24da6dddabdffde6f43977c9f0ee378db90a67e6bab4076bb0c6c195",
+        "Practice_hi_Set_02.txt": "e8092efeda40b4f63309759db5910427f2ce528b90af29d97f7b5dfc03e0f5fb",
+        "Practice_hi_Set_03.txt": "65658968f7b9180c1fe572f943aa78dfba1977c82909dc5a11b83634a792bf97",
+        "Practice_hi_Set_04.txt": "4eace0067103319798f6d68c6f00b50481732e28bb11854b9c1dd794b05c68f9",
+        "Practice_hi_Set_05.txt": "bcc734b0119c13e033f7433d9c3f276908ddc367ccbe0d04c929d4410631ea02",
+        "Practice_hi_Set_06.txt": "760fc646f6a4f409a8eb2575ea9b61b78fd52412c6a43dce96b6476619e41abd",
+        "Short_Tricks_en.txt": "6ac9bb957f31919ad2349be7d1ef9938fbbcbcb2ffb29b934b86bca18b0e3694",
+        "Short_Tricks_hi.txt": "5277a78456a86e9df22fb7b83f06ddfce6122067a9ca269908bc8f4b6eee041e",
+        "inventory": {
+          "Content_en.txt": "2c47da68ce9c517781715165953292343d7a3b96ef9ffd8b4c1313eb29794af2",
+          "Content_hi.txt": "bc63f7f72dbcfc65874ba9caff9b27cce657f8f52596539269a72786d36d46c8",
+          "Feynman_en.txt": "b66b50bf4a04a567fec07b0fc8d74580b4658cad45299db7b3e2bc830bddaa14",
+          "Feynman_hi.txt": "0b85039deea8309c20c0f2ff3f8838122cec014bf546374b5d0abe2e5098fc7a",
+          "Flashcards_en.txt": "8a4967b1c725c4f1790892f81c34f1dd04f70db45e488e7bc5c81d370d80da16",
+          "Flashcards_hi.txt": "e8c78ceca5ede2b974c6e5c15103c21686d1040f988c416d9fe4ffa1582bbfe3",
+          "Important_Rules_en.txt": "b6277d75712d388155e92248164ad3b3e46ef3cde76197458a73874158ca7a59",
+          "Important_Rules_hi.txt": "7396f0c68e4b113dcbed36b3e4d2f67dc63218d4b5456cd2b78f6eb9696bd575",
+          "Mind_Map.txt": "7588f009a5c962e4d4189325c21cb4ee6c5935a26b6ffa86e12f6f404bfe2de2",
+          "PYQ_en.txt": "54fa1eea1e2a6b6a04a2b393a47ee54cd26949bf5f8265ea48275fc218bd90fa",
+          "PYQ_hi.txt": "fad9dd8ab868bcb634091c6f2a2f90b31b12cf92df6a5faab90a986d9552cb45",
+          "Practice_en_Set_01.txt": "019f4c2dd95dfcd579920dc3fddf62e3351c86e0052cd1800f0aae7cca096e50",
+          "Practice_en_Set_02.txt": "3a983f7022a79ba04b1a8cd4e57121a71fdc2f48cd65bb9a9ecb8c9fff7d3d19",
+          "Practice_en_Set_03.txt": "e5b3b3db6dc9cca4d435580f910fb6242e22bfae00c7338170830b47358d9bfd",
+          "Practice_en_Set_04.txt": "cedccd3261fb9bea0e85b44a9e1326741371c3cd81b48d588ff7f9a331f90ddc",
+          "Practice_en_Set_05.txt": "6e9f7addefca127d65fb0e1e92b2e9066944f81c190b86434dba1c5cbe5a252c",
+          "Practice_en_Set_06.txt": "bbdf994b423995a7652e09edc567e882c1eb0be898554adc004b8e8c17fdc708",
+          "Practice_hi_Set_01.txt": "93ec157c24da6dddabdffde6f43977c9f0ee378db90a67e6bab4076bb0c6c195",
+          "Practice_hi_Set_02.txt": "e8092efeda40b4f63309759db5910427f2ce528b90af29d97f7b5dfc03e0f5fb",
+          "Practice_hi_Set_03.txt": "65658968f7b9180c1fe572f943aa78dfba1977c82909dc5a11b83634a792bf97",
+          "Practice_hi_Set_04.txt": "4eace0067103319798f6d68c6f00b50481732e28bb11854b9c1dd794b05c68f9",
+          "Practice_hi_Set_05.txt": "bcc734b0119c13e033f7433d9c3f276908ddc367ccbe0d04c929d4410631ea02",
+          "Practice_hi_Set_06.txt": "760fc646f6a4f409a8eb2575ea9b61b78fd52412c6a43dce96b6476619e41abd",
+          "Short_Tricks_en.txt": "6ac9bb957f31919ad2349be7d1ef9938fbbcbcb2ffb29b934b86bca18b0e3694",
+          "Short_Tricks_hi.txt": "5277a78456a86e9df22fb7b83f06ddfce6122067a9ca269908bc8f4b6eee041e"
+        }
+      },
+      "checked_at": "2026-11-21T06:51:54+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "8d440c5ea0ce46d154d556ecc68f01843cbb8c1387d2dfdde708d5c9d7ba192e",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "e1a23ed40abf4c2431619cea9dbbfb6185b70169f73c50278539eec51b9c4cf7",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "2c47da68ce9c517781715165953292343d7a3b96ef9ffd8b4c1313eb29794af2"
+      },
+      "checked_at": "2026-11-21T06:52:39+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "ea564117715d054598e009132895f8ff881a7d2a35a5e1db4e3f624682107463",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "e1a23ed40abf4c2431619cea9dbbfb6185b70169f73c50278539eec51b9c4cf7",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "2c47da68ce9c517781715165953292343d7a3b96ef9ffd8b4c1313eb29794af2",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T06:52:39+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "89fab5c83a55f4d6721eaa596adc2c67e89c9df84c48bf35dbce7b1113784d8d",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The text states \"5 प्रमाणित पैटर्न प्रकार\" but the SHAPES mnemonic lists 6 pattern types (Shading/Shifting, Half-turn/Rotation, Addition/Alternate, Position change, Element count, Symmetry/Size change) → Change the initial claim to \"6 प्रमाणित पैटर्न प्रकार\" or reduce the mnemonic to 5 types.",
+        "- The claim \"तुम्हारा दिमाग़ नई जानकारी का 50% 24 घंटों के अंदर भूल जाता है\" is inaccurate; the Ebbinghaus forgetting curve indicates approximately 60-70% loss within 24 hours without repetition → Correct the percentage to \"60-70%\" or replace with a vague phrase like \"अधिकांश भाग\"."
+      ],
+      "dependencies": {
+        "chapter.json": "e1a23ed40abf4c2431619cea9dbbfb6185b70169f73c50278539eec51b9c4cf7",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "bc63f7f72dbcfc65874ba9caff9b27cce657f8f52596539269a72786d36d46c8"
+      },
+      "checked_at": "2026-11-21T06:53:23+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T06:53:23+00:00",
+  "chapter_fingerprint": "c80612816ed967c482d4ae05568792d75ac925141aeb508b074260fd27befe39"
+}
