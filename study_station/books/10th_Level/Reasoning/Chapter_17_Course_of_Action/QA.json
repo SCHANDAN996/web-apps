@@ -107,11 +107,76 @@
         "Content_hi.txt": "9444ebf5b722d687bbcbe9a6b8833be2b73338863219a4c895ed69610053a926"
       },
       "checked_at": "2026-11-21T06:50:09+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "7163d81b95cc05c8072bedcc703b325e758e72f4a194f2df6b3858daf4b4d14f",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "3bd0f30c50a4d030c317a359fff4fbc9fa57bba29cc68abf74f67979a3b2676d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "9444ebf5b722d687bbcbe9a6b8833be2b73338863219a4c895ed69610053a926",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:04:18+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "3525f95ac5ce660cb91d75b6ea44dd4b9ac86f36288ef631accf3b93ce7650b7",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The \"Fire Extinguisher Test\" incorrectly redefines \"Course of Action\" as only immediate, physical acts doable \"right now\" → In SSC/Bank/State exams, a Course of Action includes administrative decisions, policy changes, inquiries, suspensions, and awareness campaigns that are practical and relevant, not just instant physical fixes.",
+        "- The Wet Floor example implies \"putting up a warning board\" is not a valid action compared to \"wiping the floor\" → Both are standard valid courses of action (corrective and preventive); exam questions often have both as correct options."
+      ],
+      "dependencies": {
+        "chapter.json": "3bd0f30c50a4d030c317a359fff4fbc9fa57bba29cc68abf74f67979a3b2676d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "cb7faa870fd1560a2cbb8da79d741751314636856c985446c9d9bd31adc8dfbc"
+      },
+      "checked_at": "2026-11-21T11:04:48+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "552f9c1ac9233ee7a35a23b9da9f36b5bd5d6cb7f2d8edc79ae02d55ab007152",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "3bd0f30c50a4d030c317a359fff4fbc9fa57bba29cc68abf74f67979a3b2676d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "cb7faa870fd1560a2cbb8da79d741751314636856c985446c9d9bd31adc8dfbc",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:04:48+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "abe44836f8cd8f52189ef79c9a7d366b1752bdaf7693a3d4217b2982399a3dab",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Attributing the \"action vs wish\" framework and \"fire extinguisher test\" to Richard Feynman → Feynman's actual technique is learning by teaching/simplifying; this action/advice distinction is not his.",
+        "- \"पिछले रविवार\" used as a time reference in a book → Replace with a fixed reference (e.g., \"एक रविवार\" or a specific date) since \"last Sunday\" changes for every reader.",
+        "- Claim \"यह दस बार पढ़ने से ज़्यादा ताकतवर है\" (more powerful than reading ten times) → Unsubstantiated statistic; remove or cite a peer-reviewed study."
+      ],
+      "dependencies": {
+        "chapter.json": "3bd0f30c50a4d030c317a359fff4fbc9fa57bba29cc68abf74f67979a3b2676d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "fdca68f38c9c4b79f38ecfedbe2ec22eeddb0126d2b6d503bcfd24db6e1d2d75"
+      },
+      "checked_at": "2026-11-21T11:05:24+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T06:50:09+00:00",
+  "updated_at": "2026-11-21T11:05:24+00:00",
   "chapter_fingerprint": "11c94a51c57bbd13cc73a91e17f97ff0afe71e957b74e279c391fe0b0328e6d7"
 }
