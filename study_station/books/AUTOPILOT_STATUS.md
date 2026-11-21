@@ -1,24 +1,22 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 03:20 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 03:36 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 1/12
+**काम पर लगे workers:** 0/12
 
 ## अभी क्या चल रहा है
 
-| Worker | अध्याय | काम | बीता समय |
-|---|---|---|---|
-| W1 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 40 मिनट |
+इस अपडेट के समय कोई अध्याय worker को सौंपा नहीं था।
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 126 |
 | key 4 | 126 |
-| key 5 | 144 |
-| key 6 | 108 |
+| key 5 | 145 |
+| key 6 | 109 |
 
 ## किताबों की प्रगति
 
@@ -70,19 +68,13 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 16 rikt sthan vakya kram (Hindi) — 2 बार
+- Chapter 16 rikt sthan vakya kram (Hindi) — 3 बार
 - Chapter 07 sandhi (Hindi) — 1 बार
 
 <details>
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 14:49:00   [Spelling] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 1, "pending": 77, "blocked": 2, "needs_reference": 1, "remaining": 80, 
-21-11 14:49:01 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_17_Spelling: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 1, 'pending': 77, 'blocked': 2, 'needs_reference': 1, 'remaining': 80, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The "I before E" exceptions list includes seven words (weird, seize, height, their, foreign, neighbour, weigh) but the mnemonic and review refer to six exceptions → update the mnemonic to include all seven (e.g., add "weigh") and change the review to "seven exceptions".', '- In Trap 1, the description for "occasion" says "one c, double s" but the correct spelling is "occasion" with double c and single s → change to "occasion (double c, single s)".', '- In the mini reading passage, the statement "Every bold word comes from the roots table above" is false because "revolutionize" is bolded but not derived from the listed roots → either remove bold from "revolutionize" or add its root to the table.', '- In the Review After 2 Days, the root list "scrib, dict, dict, chron" duplicates "dict" → replace the second "dict" with another root such as "port" or "spect".', '- The Summary Table title claims "The 50 Most-Tested Words" but only 42 words are listed → correct the title to "The 42 Most-Tested Words" or add eight more words to reach 50.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- The -able/-ible rule lists "responsible" as an example of -ible used when the root is incomplete, but "responsible" derives from the complete word "response", contradicting the rule. → Remove "responsible" from the -ible examples or mark it as an exception.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_17_Spelling/QA.json'}
-21-11 14:49:01   [Cloze_Test] QA passed: structure
-21-11 14:49:07   [Fill_in_Blanks_Adv] QA blocked: editorial:Content_hi.txt
-21-11 14:49:07   [Fill_in_Blanks_Adv] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 2, "pending": 77, "blocked": 1, "needs_reference": 1, "remaining": 79, 
-21-11 14:49:07 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_19_Fill_in_Blanks_Adv: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 2, 'pending': 77, 'blocked': 1, 'needs_reference': 1, 'remaining': 79, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Section 1 Step 1 Hindi: "सकारात्मक है या नकारात्मक है या नकारात्मक?" repeats "नकारात्मक" and omits a third sentiment → Change to "सकारात्मक है या नकारात्मक है या तटस्थ?" or simply "सकारात्मक है या नकारात्मक?"', '- Detective Approach: States "ऊपर *malfunction* के पहले \'delicate balance\' है" but the passage does not contain the word "malfunction" (it has "disrupt") → Remove the reference to "malfunction" or replace with an actual word from the passage that illustrates a root.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_19_Fill_in_Blanks_Adv/QA.json'}
 21-11 14:49:14   [Error_Spotting_Adv] QA blocked: editorial:Content_hi.txt
 21-11 14:49:14   [Error_Spotting_Adv] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 2, "pending": 77, "blocked": 1, "needs_reference": 1, "remaining": 79, 
 21-11 14:49:15 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_18_Error_Spotting_Adv: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 2, 'pending': 77, 'blocked': 1, 'needs_reference': 1, 'remaining': 79, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- नियम 1 में "Each/Every/One of + बहुवचन संज्ञा + एकवचन क्रिया" गलत है क्योंकि \'Every\' के साथ \'of + बहुवचन संज्ञा\' नहीं आता (जैसे "Every of the boys" असंगत है) → सही नियम: "Each of/One of/Every one of + बहुवचन संज्ञा + एकवचन क्रिया" या "Each/Every/Either/Neither + एकवचन संज्ञा + एकवचन क्रिया"।']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_18_Error_Spotting_Adv/QA.json'}
@@ -117,6 +109,12 @@
 21-11 15:05:08   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
 21-11 15:06:19   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 1: rejected (Q128:duplicate_options,Q132:duplicate_options,Q138:duplicate_options,Q142:duplicate_options)
 21-11 15:16:45   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q132 key a vs re-solve d, Q141 key b vs re-solve a)
+21-11 15:21:23   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q134 key d vs re-solve c, Q140 key a vs re-solve c)
+21-11 15:28:14   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q132 key d vs re-solve a, Q134 key b vs re-solve c, Q140 key a vs re-solve c, Q143 key b vs re-solve
+21-11 15:28:14   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
+21-11 15:28:14   [rikt_sthan_vakya_kram] written 0, failed 2; AI calls today 501/100000
+21-11 15:28:14 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram after 49 min: todo ['Set 04 hi: todo', 'Set 06 hi: todo'] problems []
+21-11 15:28:14 worker 0: nothing left
 ````
 
 </details>
