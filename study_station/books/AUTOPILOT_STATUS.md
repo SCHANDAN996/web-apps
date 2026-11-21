@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 06:08 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 06:09 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,22 +11,22 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 149 मिनट |
-| W10 | Chapter 06 Order Ranking (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W11 | Chapter 05 Direction Sense (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W12 | Chapter 04 Blood Relations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W2 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W3 | Chapter 03 Coding Decoding (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W4 | Chapter 07 Sitting Arrangement (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W6 | Chapter 10 Clock Calendar (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 45 मिनट |
-| W8 | Chapter 02 Classification (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W9 | Chapter 09 Venn Diagrams (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 150 मिनट |
+| W10 | Chapter 06 Order Ranking (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W11 | Chapter 05 Direction Sense (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W12 | Chapter 04 Blood Relations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W2 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W4 | Chapter 07 Sitting Arrangement (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W5 | Chapter 11 Series (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W6 | Chapter 10 Clock Calendar (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W7 | Chapter 12 Missing Term (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W8 | Chapter 02 Classification (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W9 | Chapter 09 Venn Diagrams (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 106 |
-| key 4 | 113 |
+| key 3 | 108 |
+| key 4 | 114 |
 | key 5 | 97 |
 | key 6 | 82 |
 
@@ -66,13 +66,13 @@
 | 10th English | 0 | 20 | 0 | 0 | 0 | 81/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 104/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 96/1872 |
-| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 74/1950 |
+| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 78/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 50/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 764/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 768/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -80,21 +80,12 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 16 rikt sthan vakya kram (Hindi) — 1 बार
+- Chapter 16 rikt sthan vakya kram (Hindi) — 2 बार
 
 <details>
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 18:05:12   [Sitting_Arrangement] QA passed: editorial:Feynman_en.txt
-21-11 18:05:13   [Sitting_Arrangement] QA needs_reference: sources:Feynman_en.txt
-21-11 18:05:18   [Order_Ranking] QA blocked: editorial:Flashcards_en.txt
-21-11 18:05:18   [Order_Ranking] QA needs_reference: sources:Flashcards_en.txt
-21-11 18:05:45   [Puzzles] QA needs_reference: sources:Content_hi.txt
-21-11 18:05:54   [Order_Ranking] QA passed: editorial:Flashcards_hi.txt
-21-11 18:05:54   [Order_Ranking] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 6, "pending": 66, "blocked": 1, "needs_reference": 5, "remaining": 72, 
-21-11 18:05:55 QA 12th_Level/Reasoning/Chapter_06_Order_Ranking: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 6, 'pending': 66, 'blocked': 1, 'needs_reference': 5, 'remaining': 72, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Flashcards_en.txt', 'status': 'blocked', 'issues': ['- Card 1 back states a general rule "When positions from opposite ends are given with no overlap, total = (position from left) + (position from right)." This is incorrect; the correct general rule for no overlap is total = (position from left) + (position from right) + (number of people between them). The given rule only applies when there are zero people between them. → The general rule should include the people between: total = left position + right position + people between (for non-overlap cases).', '- Card 10 answer claims only B or E can be at the extreme right, but C can also be at the extreme right if A and C occupy the last two positions (D at leftmost, A at 4th, C at 5th). → The extreme right can be B, C, or E; the answer should list all three possibilities.']}, {'check': 'sources:Flashcards_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_06_Order_Ranking/QA.json'}
-21-11 18:06:02   [Blood_Relations] QA passed: editorial:Feynman_hi.txt
 21-11 18:06:02   [Blood_Relations] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 2, "needs_reference": 3, "remaining": 75, 
 21-11 18:06:03 QA 12th_Level/Reasoning/Chapter_04_Blood_Relations: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Section 3 example "Ravi is the son of my father\'s only daughter" concludes "Ravi is my nephew" despite acknowledging the speaker could be female (in which case Ravi would be the speaker\'s son); the answer should be conditional (nephew if speaker male, son if speaker female) or "cannot be determined" when gender is unknown.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- Family tree table: symbol for children (संतान) shown as horizontal dash '—' but described as vertical line 'खड़ी रेखा नीचे' → use vertical line symbol '|' or '│'"]}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_04_Blood_Relations/QA.json'}
 21-11 18:06:17   [Sitting_Arrangement] QA passed: editorial:Feynman_hi.txt
@@ -126,6 +117,15 @@
 21-11 18:09:20   [Series] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
 21-11 18:09:21 QA 12th_Level/Reasoning/Chapter_11_Series: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- In solved example Q2, the trial pattern n²(n+1) for n=4 is incorrectly stated as 100; the correct value is 80 → Replace 100 with 80.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_11_Series/QA.json'}
 21-11 18:09:21   [Missing_Term] QA needs_reference: sources:Content_hi.txt
+21-11 18:09:50   [Missing_Term] QA passed: editorial:Feynman_en.txt
+21-11 18:09:55   [Missing_Term] QA needs_reference: sources:Feynman_en.txt
+21-11 18:09:56   [Dictionary_Order] QA needs_reference: sources:Content_hi.txt
+21-11 18:10:05   [Missing_Term] QA passed: editorial:Feynman_hi.txt
+21-11 18:10:05   [Missing_Term] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
+21-11 18:10:05 QA 12th_Level/Reasoning/Chapter_12_Missing_Term: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- In 'जाल 1', the example series 2, 4, 8 is not a square series (squares are 1, 4, 9, 16…), so it cannot mislead students into thinking 'वर्ग'. → Use a genuine square series like 1, 4, 9, ? or 4, 9, 16, ? to illustrate the trap."]}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_12_Missing_Term/QA.json'}
+21-11 18:10:27   [Clock_Calendar] QA passed: editorial:Feynman_hi.txt
+21-11 18:10:27   [Clock_Calendar] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 2, "needs_reference": 3, "remaining": 75, 
+21-11 18:10:27 QA 12th_Level/Reasoning/Chapter_10_Clock_Calendar: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The reference point states "1 January 1 AD was a Monday" but the day code mapping (0=Sunday, 1=Monday) requires 1 January 1 AD to be a Sunday for consistency; the example calculation for 15 August 1947 also works only if the reference is Sunday. → The reference point should be "1 January 1 AD was a Sunday" or the day code mapping should be adjusted (e.g., 0=Monday, 1=Tuesday, …).', '- The right-angle formula claims "Between H and H+1, the two right-angle times are at (5H ± 15) × (12/11) minutes past H." This is not true for all H (e.g., H=9 gives 65 5/11 minutes, which is in the next hour; H=0 gives a negative time). → The formula should be qualified: the two times in a 12-hour cycle are given by (5H ± 15) × (12/11) minutes past H, but for a specific hour H, only the values that fall between 0 and 60 minutes are valid; the other may belong to the adjacent hour.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Fast/slow clock example incorrectly concludes "सही समय 5:10" from the premise that at actual 6\u202fPM the clock is 50\u202fminutes fast → At actual 6\u202fPM (10\u202fhours after 8\u202fAM) the clock shows 6:50, so the correct time is 6\u202fPM; if the question was "when the clock shows 6\u202fPM", the correct time is 5:13\u202f7/13, not 5:10.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_10_Clock_Calendar/QA.json'}
 ````
 
 </details>
