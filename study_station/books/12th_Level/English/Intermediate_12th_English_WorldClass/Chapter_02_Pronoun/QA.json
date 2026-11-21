@@ -111,11 +111,71 @@
         "Content_hi.txt": "a01e15323b05f013404638cc1dc702b4cdb5473dd441ae755f8c340eb23c97c1"
       },
       "checked_at": "2026-11-21T09:02:09+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "b7b690d7948a25edd40ab1128cd848c251dc9583226672f071ead4b2fd5b9a96",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "c0db9e9bd2d598999383f5dcd9d493e858beb6e796758f559d5d6249990e5377",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "a01e15323b05f013404638cc1dc702b4cdb5473dd441ae755f8c340eb23c97c1",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:52:36+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "b1375d521886450d1b8efdc62a8245af5ca0c4c98dbf518c213f70558a537acc",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "c0db9e9bd2d598999383f5dcd9d493e858beb6e796758f559d5d6249990e5377",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "cd48afd38e05fea66657bebf3c8aa5835c233be383c8482a5610d73735e7fa43"
+      },
+      "checked_at": "2026-11-21T12:53:06+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "79dc14e73dccbe40a5c8f014fd80595b1544dcb82b2bf78c370e2a919168e38a",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "c0db9e9bd2d598999383f5dcd9d493e858beb6e796758f559d5d6249990e5377",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "cd48afd38e05fea66657bebf3c8aa5835c233be383c8482a5610d73735e7fa43",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:53:06+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "e23989daa13d4af9e6a5852a5a72c0ca584fb9ec6a47145c3e0815f2caa9d4b0",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The example correction for \"One should do their duty\" uses \"his duty\" → The correct singular pronoun for \"one\" is \"one's duty\" (or \"his or her duty\" in traditional grammar)."
+      ],
+      "dependencies": {
+        "chapter.json": "c0db9e9bd2d598999383f5dcd9d493e858beb6e796758f559d5d6249990e5377",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "63aab7278dcafa49cf393e06c534926c63e7369ed3dbed23205e74e1e67f1e59"
+      },
+      "checked_at": "2026-11-21T12:54:47+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T09:02:09+00:00",
+  "updated_at": "2026-11-21T12:54:47+00:00",
   "chapter_fingerprint": "14ba3da711f9a79662d80092864044886b22a4960dbef7e38fc789abdf820cd1"
 }
