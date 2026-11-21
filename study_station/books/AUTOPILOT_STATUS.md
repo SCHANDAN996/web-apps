@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 21-11-2026 09:34 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 07:44 AM
+**आख़िरी update:** 21-11-2026 09:49 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 07:44 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 109 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 124 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 27 |
+| key 3 | 28 |
 | key 4 | 24 |
-| key 5 | 26 |
-| key 6 | 21 |
+| key 5 | 27 |
+| key 6 | 22 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -53,9 +53,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-21-11 08:26:40 worker 1: nothing left
-21-11 08:31:10   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q76 key d vs re-solve c, Q84 key d vs re-solve a, Q99 key a vs re-solve d)
-21-11 08:31:10   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
 21-11 08:33:12   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q113 key a vs re-solve b)
 21-11 08:33:46   [sandhi] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q4 key a vs re-solve b, Q11 key b vs re-solve a, Q19 key d vs re-solve b, Q21 key a vs re-solve c, Q
 21-11 08:33:46   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
@@ -93,4 +90,7 @@
 21-11 09:15:45 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi after 17 min: todo [] problems []
 21-11 09:16:02 worker 2: nothing left
 21-11 09:20:46   [sandhi] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q63 key c vs re-solve a, Q69 key d vs re-solve c, Q71 key b vs re-solve d, Q74 key b vs re-solve c)
+21-11 09:35:40   [sandhi] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q58 key b vs re-solve d, Q61 key a vs re-solve c, Q63 key b vs re-solve c, Q67 key a vs re-solve d, 
+21-11 09:35:40   [sandhi] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+21-11 09:37:05   [sandhi] Practice_hi_Set_05.txt try 1: rejected (Q101:duplicate_options,Q103:duplicate_options,Q111:duplicate_options)
 ```
