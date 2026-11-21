@@ -1,34 +1,35 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 02:47 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 02:48 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 7 मिनट |
-| W10 | Chapter 15 One Word Substitution (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W11 | Chapter 14 Antonyms (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W12 | Chapter 13 Synonyms (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W2 | Chapter 16 Idioms Phrases (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W3 | Chapter 18 Error Spotting Adv (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W4 | Chapter 06 Order Ranking (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W5 | Chapter 11 Narration (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W6 | Chapter 19 Fill in Blanks Adv (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W7 | Chapter 17 Spelling (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W8 | Chapter 12 Sentence Structure (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W1 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 9 मिनट |
+| W10 | Chapter 15 One Word Substitution (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W11 | Chapter 14 Antonyms (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W12 | Chapter 13 Synonyms (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W2 | Chapter 16 Idioms Phrases (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W3 | Chapter 18 Error Spotting Adv (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W4 | Chapter 06 Order Ranking (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W5 | Chapter 11 Narration (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W6 | Chapter 19 Fill in Blanks Adv (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W7 | Chapter 17 Spelling (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W8 | Chapter 12 Sentence Structure (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W9 | Chapter 20 Sentence Improvement Adv (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 122 |
 | key 4 | 122 |
-| key 5 | 140 |
-| key 6 | 103 |
+| key 5 | 141 |
+| key 6 | 104 |
 
 ## किताबों की प्रगति
 
@@ -67,12 +68,12 @@
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 58/1950 |
-| 12th English | 0 | 25 | 0 | 0 | 0 | 44/2025 |
+| 12th English | 0 | 25 | 0 | 0 | 0 | 46/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 484/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 486/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,18 +88,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 14:39:36   [Sentence_Structure] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 77, "blocked": 0, "needs_reference": 1, "remaining": 78, 
-21-11 14:39:36 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_12_Sentence_Structure: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 77, 'blocked': 0, 'needs_reference': 1, 'remaining': 78, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_12_Sentence_Structure/QA.json'}
-21-11 14:40:38   [Synonyms] QA blocked: editorial:Content_hi.txt
-21-11 14:40:44   [Synonyms] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 2, "pending": 77, "blocked": 1, "needs_reference": 1, "remaining": 79, 
-21-11 14:40:45 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_13_Synonyms: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 2, 'pending': 77, 'blocked': 1, 'needs_reference': 1, 'remaining': 79, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In Trap 2, the example "End (noun) का synonym Finish (verb)" is factually incorrect because they are different parts of speech and not synonyms; the trap is a part-of-speech mismatch, not a valid synonym pair. → The example should illustrate the trap correctly, e.g., "If the question word is End (noun), a trap option could be Finish (verb), but it is not a synonym because the parts of speech differ."']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_13_Synonyms/QA.json'}
-21-11 14:40:46   [Order_Ranking] QA needs_reference: sources:Content_hi.txt
-21-11 14:40:59   [Order_Ranking] QA passed: editorial:Feynman_en.txt
-21-11 14:40:59   [Order_Ranking] QA needs_reference: sources:Feynman_en.txt
-21-11 14:41:29   [Antonyms] QA passed: structure
-21-11 14:41:34   [Order_Ranking] QA passed: editorial:Feynman_hi.txt
-21-11 14:41:34   [Order_Ranking] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
-21-11 14:41:35 QA 12th_Level/Reasoning/Chapter_06_Order_Ranking: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_06_Order_Ranking/QA.json'}
 21-11 14:42:19   [One_Word_Substitution] QA passed: structure
 21-11 14:42:22   [One_Word_Substitution] QA blocked: editorial:Content_en.txt
 21-11 14:42:23   [One_Word_Substitution] QA needs_reference: sources:Content_en.txt
@@ -127,6 +116,18 @@
 21-11 14:47:53   [Fill_in_Blanks_Adv] QA passed: editorial:Content_en.txt
 21-11 14:47:54   [Fill_in_Blanks_Adv] QA needs_reference: sources:Content_en.txt
 21-11 14:47:55   [Sentence_Improvement_Adv] QA passed: structure
+21-11 14:48:56   [Sentence_Improvement_Adv] QA passed: editorial:Content_en.txt
+21-11 14:49:00   [Sentence_Improvement_Adv] QA needs_reference: sources:Content_en.txt
+21-11 14:49:00   [Spelling] QA blocked: editorial:Content_hi.txt
+21-11 14:49:00   [Spelling] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 1, "pending": 77, "blocked": 2, "needs_reference": 1, "remaining": 80, 
+21-11 14:49:01 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_17_Spelling: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 1, 'pending': 77, 'blocked': 2, 'needs_reference': 1, 'remaining': 80, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The "I before E" exceptions list includes seven words (weird, seize, height, their, foreign, neighbour, weigh) but the mnemonic and review refer to six exceptions → update the mnemonic to include all seven (e.g., add "weigh") and change the review to "seven exceptions".', '- In Trap 1, the description for "occasion" says "one c, double s" but the correct spelling is "occasion" with double c and single s → change to "occasion (double c, single s)".', '- In the mini reading passage, the statement "Every bold word comes from the roots table above" is false because "revolutionize" is bolded but not derived from the listed roots → either remove bold from "revolutionize" or add its root to the table.', '- In the Review After 2 Days, the root list "scrib, dict, dict, chron" duplicates "dict" → replace the second "dict" with another root such as "port" or "spect".', '- The Summary Table title claims "The 50 Most-Tested Words" but only 42 words are listed → correct the title to "The 42 Most-Tested Words" or add eight more words to reach 50.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- The -able/-ible rule lists "responsible" as an example of -ible used when the root is incomplete, but "responsible" derives from the complete word "response", contradicting the rule. → Remove "responsible" from the -ible examples or mark it as an exception.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_17_Spelling/QA.json'}
+21-11 14:49:01   [Cloze_Test] QA passed: structure
+21-11 14:49:07   [Fill_in_Blanks_Adv] QA blocked: editorial:Content_hi.txt
+21-11 14:49:07   [Fill_in_Blanks_Adv] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 2, "pending": 77, "blocked": 1, "needs_reference": 1, "remaining": 79, 
+21-11 14:49:07 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_19_Fill_in_Blanks_Adv: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 2, 'pending': 77, 'blocked': 1, 'needs_reference': 1, 'remaining': 79, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Section 1 Step 1 Hindi: "सकारात्मक है या नकारात्मक है या नकारात्मक?" repeats "नकारात्मक" and omits a third sentiment → Change to "सकारात्मक है या नकारात्मक है या तटस्थ?" or simply "सकारात्मक है या नकारात्मक?"', '- Detective Approach: States "ऊपर *malfunction* के पहले \'delicate balance\' है" but the passage does not contain the word "malfunction" (it has "disrupt") → Remove the reference to "malfunction" or replace with an actual word from the passage that illustrates a root.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_19_Fill_in_Blanks_Adv/QA.json'}
+21-11 14:49:14   [Error_Spotting_Adv] QA blocked: editorial:Content_hi.txt
+21-11 14:49:14   [Error_Spotting_Adv] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 2, "pending": 77, "blocked": 1, "needs_reference": 1, "remaining": 79, 
+21-11 14:49:15 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_18_Error_Spotting_Adv: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 2, 'pending': 77, 'blocked': 1, 'needs_reference': 1, 'remaining': 79, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- नियम 1 में "Each/Every/One of + बहुवचन संज्ञा + एकवचन क्रिया" गलत है क्योंकि \'Every\' के साथ \'of + बहुवचन संज्ञा\' नहीं आता (जैसे "Every of the boys" असंगत है) → सही नियम: "Each of/One of/Every one of + बहुवचन संज्ञा + एकवचन क्रिया" या "Each/Every/Either/Neither + एकवचन संज्ञा + एकवचन क्रिया"।']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_18_Error_Spotting_Adv/QA.json'}
 ````
 
 </details>
