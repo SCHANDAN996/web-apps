@@ -1,35 +1,34 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 05:13 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 05:14 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
 | W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 95 मिनट |
-| W10 | Chapter 12 Sentence Structure (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W11 | Chapter 13 Synonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W12 | Chapter 09 Articles (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W2 | Chapter 15 One Word Substitution (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W3 | Chapter 10 Voice (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W4 | Chapter 11 Narration (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W5 | Chapter 16 Idioms Phrases (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W6 | Chapter 07 Preposition (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W7 | Chapter 17 Spelling (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W8 | Chapter 08 Conjunction (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W9 | Chapter 14 Antonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W10 | Chapter 12 Sentence Structure (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W11 | Chapter 13 Synonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W12 | Chapter 09 Articles (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W2 | Chapter 15 One Word Substitution (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W3 | Chapter 10 Voice (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W4 | Chapter 11 Narration (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W5 | Chapter 16 Idioms Phrases (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W6 | Chapter 18 Error Spotting Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W7 | Chapter 17 Spelling (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W9 | Chapter 14 Antonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 59 |
-| key 4 | 81 |
+| key 4 | 82 |
 | key 5 | 62 |
-| key 6 | 49 |
+| key 6 | 50 |
 
 ## किताबों की प्रगति
 
@@ -64,7 +63,7 @@
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 76/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 83/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 100/1606 |
-| 10th English | 0 | 20 | 0 | 0 | 0 | 75/1622 |
+| 10th English | 0 | 20 | 0 | 0 | 0 | 77/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 58/1950 |
@@ -73,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 659/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 661/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,10 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 17:09:38   [Sentence_Structure] QA needs_reference: sources:Feynman_en.txt
-21-11 17:09:54   [Synonyms] QA passed: editorial:Feynman_hi.txt
-21-11 17:09:57   [Narration] QA blocked: editorial:Feynman_hi.txt
-21-11 17:10:08   [Sentence_Structure] QA passed: editorial:Feynman_hi.txt
 21-11 17:10:10   [Synonyms] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 5, "pending": 73, "blocked": 0, "needs_reference": 3, "remaining": 76, 
 21-11 17:10:10   [Narration] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 73, "blocked": 2, "needs_reference": 3, "remaining": 78, 
 21-11 17:10:10   [Sentence_Structure] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
@@ -127,6 +122,10 @@
 21-11 17:14:32   [Error_Spotting_Basic] QA passed: editorial:Feynman_hi.txt
 21-11 17:14:32   [Error_Spotting_Basic] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 5, "pending": 73, "blocked": 0, "needs_reference": 3, "remaining": 76, 
 21-11 17:14:32 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_18_Error_Spotting_Basic: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 5, 'pending': 73, 'blocked': 0, 'needs_reference': 3, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_18_Error_Spotting_Basic/QA.json'}
+21-11 17:14:42   [sandhi] Practice_hi_Set_03.txt try 2: rejected (Q65:duplicate_options)
+21-11 17:14:58   [Fill_in_Blanks_Basic] QA needs_reference: sources:Content_hi.txt
+21-11 17:15:14   [Fill_in_Blanks_Basic] QA passed: editorial:Feynman_en.txt
+21-11 17:15:14   [Fill_in_Blanks_Basic] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>
