@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 06:41 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 06:42 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -12,21 +12,21 @@
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
 | W1 | Chapter 20 Sentence Improvement Adv (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W10 | Chapter 22 Para Jumbles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W11 | Chapter 12 Sentence Structure (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W12 | Chapter 14 Antonyms (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W2 | Chapter 16 Idioms Phrases (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W3 | Chapter 09 Articles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
-| W4 | Chapter 15 One Word Substitution (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W5 | Chapter 18 Error Spotting Adv (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W10 | Chapter 22 Para Jumbles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W11 | Chapter 23 Sentence Arrangement (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W12 | Chapter 14 Antonyms (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W2 | Chapter 16 Idioms Phrases (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W3 | Chapter 09 Articles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
+| W4 | Chapter 15 One Word Substitution (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W5 | Chapter 18 Error Spotting Adv (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
 | W6 | Chapter 21 Cloze Test (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W7 | Chapter 17 Spelling (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 2 मिनट |
-| W9 | Chapter 19 Fill in Blanks Adv (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W7 | Chapter 17 Spelling (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 3 मिनट |
+| W9 | Chapter 19 Fill in Blanks Adv (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 131 |
+| key 3 | 132 |
 | key 4 | 118 |
 | key 5 | 120 |
 | key 6 | 108 |
@@ -68,12 +68,12 @@
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 104/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 96/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 101/1950 |
-| 12th English | 0 | 25 | 0 | 0 | 0 | 87/2025 |
+| 12th English | 0 | 25 | 0 | 0 | 0 | 89/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 828/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 830/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -88,11 +88,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 18:37:06   [Error_Spotting_Adv] QA needs_reference: sources:Content_hi.txt
-21-11 18:37:17   [Spelling] QA passed: editorial:Feynman_hi.txt
-21-11 18:37:17   [Spelling] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 73, "blocked": 2, "needs_reference": 3, "remaining": 78, 
-21-11 18:37:18 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_17_Spelling: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 73, 'blocked': 2, 'needs_reference': 3, 'remaining': 78, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The "I before E" exceptions list includes seven words (weird, seize, height, their, foreign, neighbour, weigh) but the mnemonic and review refer to six exceptions → update the mnemonic to include all seven (e.g., add "weigh") and change the review to "seven exceptions".', '- In Trap 1, the description for "occasion" says "one c, double s" but the correct spelling is "occasion" with double c and single s → change to "occasion (double c, single s)".', '- In the mini reading passage, the statement "Every bold word comes from the roots table above" is false because "revolutionize" is bolded but not derived from the listed roots → either remove bold from "revolutionize" or add its root to the table.', '- In the Review After 2 Days, the root list "scrib, dict, dict, chron" duplicates "dict" → replace the second "dict" with another root such as "port" or "spect".', '- The Summary Table title claims "The 50 Most-Tested Words" but only 42 words are listed → correct the title to "The 42 Most-Tested Words" or add eight more words to reach 50.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- The -able/-ible rule lists "responsible" as an example of -ible used when the root is incomplete, but "responsible" derives from the complete word "response", contradicting the rule. → Remove "responsible" from the -ible examples or mark it as an exception.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_17_Spelling/QA.json'}
-21-11 18:37:48   [Error_Spotting_Adv] QA passed: editorial:Feynman_en.txt
 21-11 18:38:03   [Error_Spotting_Adv] QA needs_reference: sources:Feynman_en.txt
 21-11 18:38:04   [Fill_in_Blanks_Adv] QA needs_reference: sources:Content_hi.txt
 21-11 18:38:17   [Error_Spotting_Adv] QA passed: editorial:Feynman_hi.txt
@@ -128,6 +123,11 @@
 21-11 18:41:57   [Para_Jumbles] QA passed: editorial:Feynman_hi.txt
 21-11 18:41:57   [Para_Jumbles] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
 21-11 18:41:58 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_22_Para_Jumbles: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- "Kerala\'s literacy campaign began in 1990 in Ernakulam district" (in Trap 1 example) → "Kerala\'s literacy campaign began in 1989 in Ernakulam district (declared fully literate in 1990)"']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_22_Para_Jumbles/QA.json'}
+21-11 18:42:38   [RC_Basic] QA passed: structure
+21-11 18:42:56   [Sentence_Arrangement] QA passed: editorial:Content_en.txt
+21-11 18:42:56   [Sentence_Arrangement] QA needs_reference: sources:Content_en.txt
+21-11 18:43:05   [RC_Basic] QA passed: editorial:Content_en.txt
+21-11 18:43:05   [RC_Basic] QA needs_reference: sources:Content_en.txt
 ````
 
 </details>

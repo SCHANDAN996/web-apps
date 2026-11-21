@@ -111,11 +111,73 @@
         "Content_hi.txt": "b08e0aaf62cd273b164aaa58b6d0ed0ee536640c724d7b5f9bbb81dbf3e46019"
       },
       "checked_at": "2026-11-21T09:13:09+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "aefeaf0a13b3014a825efceba3e3c34b326f3700de0fea7adec2d20805c28c97",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "9a88777ca7e96f1b89afa0d0fa5525573c9c3f2315aefa3ebabb61fa7d22a687",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "b08e0aaf62cd273b164aaa58b6d0ed0ee536640c724d7b5f9bbb81dbf3e46019",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T13:04:11+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "2b640a8dd9c718bd70f7a2f9a18b1b2f7e077a35da22b05d09e01522800b8e3b",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The example \"philosopher\" for the root \"phile\" is incorrect; \"philosopher\" comes from the prefix \"philo-\" (love) + \"sophos\" (wisdom), not the suffix \"phile\" → Use \"phil-\" or \"philo-\" as the root for \"philosopher\", or replace it with a genuine \"phile\" word such as \"bibliophile\" only."
+      ],
+      "dependencies": {
+        "chapter.json": "9a88777ca7e96f1b89afa0d0fa5525573c9c3f2315aefa3ebabb61fa7d22a687",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "f18affe535879673717c117425d7d0945438b612adc6a206954a5e4cc5c85aad"
+      },
+      "checked_at": "2026-11-21T13:04:43+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "26cff3cc6fb7e4800adf2170d9fe1d980d49c40d84c740f497a5792f66103006",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "9a88777ca7e96f1b89afa0d0fa5525573c9c3f2315aefa3ebabb61fa7d22a687",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "f18affe535879673717c117425d7d0945438b612adc6a206954a5e4cc5c85aad",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T13:04:44+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "c0a448abd86f01bb63f1a1e09b2346c8faa984afb6b3fffd25e3e96ec5e3089f",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- 'Veteran vs Veterinarian — सिर्फ़ दो अक्षर का फर्क!' गलत कथन → Veteran (7 अक्षर) और Veterinarian (12 अक्षर) की स्पेलिंग में दो अक्षरों से कहीं अधिक अंतर है; सही मेमोनिक केवल 'Veterinarian में Vet छिपा है' पर आधारित होनी चाहिए"
+      ],
+      "dependencies": {
+        "chapter.json": "9a88777ca7e96f1b89afa0d0fa5525573c9c3f2315aefa3ebabb61fa7d22a687",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "e24285d898df96197718f9b7f480bf8ad792ab200607249cc2bdf7814f5012b8"
+      },
+      "checked_at": "2026-11-21T13:05:28+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T09:13:09+00:00",
+  "updated_at": "2026-11-21T13:05:28+00:00",
   "chapter_fingerprint": "c2f2febe5e06f1292443680faf7093501c8deac0ed6dd313dac4e922ca308454"
 }
