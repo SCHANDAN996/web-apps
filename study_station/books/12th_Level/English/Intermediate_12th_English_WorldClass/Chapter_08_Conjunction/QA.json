@@ -112,11 +112,71 @@
         "Content_hi.txt": "c966608dcc5d91e1fac5357871f441810f9d05895edb018b1bb8c84c25f01c38"
       },
       "checked_at": "2026-11-21T09:05:09+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "2cc1f13fae8f58e1f761f46a152e6e9e7be6ce7aee3e65d3a14dba6176ed8f7c",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "eb985b87c8bac20d301f6de4e7ba3f6628320eb4ebd19aa1ee5d609f955f97cd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "c966608dcc5d91e1fac5357871f441810f9d05895edb018b1bb8c84c25f01c38",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:58:15+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "45727fdc02e07dccabfc3126acc19234c5bbb8423cab1cd7e2bf39a6730b4c29",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The subordinating conjunction test example misapplies the \"delete the conjunction\" trick: it checks \"Although he was ill\" (with conjunction) instead of the clause after deletion, making the trick appear to fail → Correct demonstration: the clause introduced by a subordinating conjunction cannot stand alone (e.g., \"Although he was ill\" is a fragment), so \"although\" is subordinating; the deletion step is unnecessary and misleading."
+      ],
+      "dependencies": {
+        "chapter.json": "eb985b87c8bac20d301f6de4e7ba3f6628320eb4ebd19aa1ee5d609f955f97cd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "7e70fe7527e41c7a3b917fd6c2d7c80e988837072351d538ca3bedcb3dd76ec4"
+      },
+      "checked_at": "2026-11-21T12:59:44+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "4d1fea0774a436b8ceabbf6a4a962f99de69deea17783d9c1f4bd25fd6d91cb7",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "eb985b87c8bac20d301f6de4e7ba3f6628320eb4ebd19aa1ee5d609f955f97cd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "7e70fe7527e41c7a3b917fd6c2d7c80e988837072351d538ca3bedcb3dd76ec4",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:59:44+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "93619b83d9206434ab9b45671745c2ceb253ff38743d396b160be25091dbb723",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "eb985b87c8bac20d301f6de4e7ba3f6628320eb4ebd19aa1ee5d609f955f97cd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "2bae23944877d45c4280bca13ebe5858e6a9d4f2c0a6a813ea22972307d7f6a7"
+      },
+      "checked_at": "2026-11-21T12:59:59+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T09:05:09+00:00",
+  "updated_at": "2026-11-21T12:59:59+00:00",
   "chapter_fingerprint": "6b8251bf5f93cb87f71707d73e0bada8fc59befc7e906e5eec7dd80e1e12a6aa"
 }
