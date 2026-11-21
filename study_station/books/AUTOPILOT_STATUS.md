@@ -1,25 +1,24 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 07:48 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 07:50 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 5/12
+**काम पर लगे workers:** 4/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 18 Science Tech (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W10 | Chapter 10 Physics Daily (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 28 मिनट |
-| W4 | Chapter 12 Biology (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 19 मिनट |
-| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 68 मिनट |
-| W9 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 39 मिनट |
+| W1 | Chapter 18 Science Tech (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W10 | Chapter 10 Physics Daily (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 30 मिनट |
+| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 70 मिनट |
+| W9 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 41 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 159 |
+| key 3 | 160 |
 | key 4 | 141 |
 | key 5 | 151 |
 | key 6 | 145 |
@@ -81,11 +80,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 19:39:14   [Days_Dates] QA needs_reference: sources:Content_en.txt
-21-11 19:39:52 worker 2: nothing left
-21-11 19:40:35   [sandhi] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q1 key b vs re-solve a, Q2 key b vs re-solve a, Q5 key d vs re-solve b, Q8 key d vs re-solve c, Q9 k
-21-11 19:40:38   [Culture_Art] QA blocked: editorial:Content_en.txt
-21-11 19:40:39   [Culture_Art] QA needs_reference: sources:Content_en.txt
 21-11 19:40:41   [Chemistry] QA passed: editorial:Content_en.txt
 21-11 19:40:41   [Chemistry] QA needs_reference: sources:Content_en.txt
 21-11 19:42:31   [Sports] QA blocked: editorial:Content_hi.txt
@@ -121,6 +115,11 @@
 21-11 19:48:23   [Biology] QA blocked: editorial:Content_hi.txt
 21-11 19:48:23   [Biology] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
 21-11 19:48:23 QA Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_12_Biology: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- प्लेटलेटलेट्स (Platelets) → प्लेटलेट्स (Platelets)']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_12_Biology/QA.json'}
+21-11 19:49:03 worker 3: nothing left
+21-11 19:50:00   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q131 key b vs re-solve a, Q132 key d vs re-solve b, Q146 key b vs re-solve c, Q150 key d vs re-solve
+21-11 19:50:10   [Science_Tech] QA blocked: editorial:Content_hi.txt
+21-11 19:50:11   [Science_Tech] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 19:50:11 QA Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_18_Science_Tech: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- खंड 4 (जैव प्रौद्योगिकी) में DNA संरचना का विवरण: "वॉटसन और क्रिक (1953, फ्रांसिस क्रिक के साथ रोजालिंड फ्रैंकलिन के X-ray डेटा का योगदान भी महत्वपूर्ण था)" → फ्रांसिस क्रिक स्वयं \'वॉटसन और क्रिक\' जोड़ी के सदस्य हैं, अलग नहीं; सही: "जेम्स वॉटसन और फ्रांसिस क्रिक ने 1953 में रोजालिंड फ्रैंकलिन के X-ray डेटा की मदद से डबल हेलिक्स संरचना प्रस्तावित की"']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_18_Science_Tech/QA.json'}
 ````
 
 </details>

@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "87f3158b7a63d9479c05ca1409b47fc2b3ee92635f1705f5a3b256b12c76c56a",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "dd1c8ab362b518ac6c5fca520161c003d35c5ff4f79888745e32e9c58bf3f7c6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "e15c467347732bfb83596fe0634f6498ddfea527759c9717384c831ba2f6fac7",
+        "Content_hi.txt": "26e5a90f818826e8f5a37043dbb85d34b48b6b6110a27064b5d73913932fb6c4",
+        "Feynman_en.txt": "7d2bd6541abf366099401feb066fbd877f4979f38dd5dbc3b10906407009f5fd",
+        "Feynman_hi.txt": "f91e5bbfdca005789460bda474aff8185cb485cd8ed006210463d5e7e4bf5c08",
+        "Flashcards_en.txt": "1cfd6987f6009160ec9f788d636586ee22b520832aaf7874945ccd00d752f28d",
+        "Flashcards_hi.txt": "4aeaeb9c20f2fad80e6293eae3061e3ae80df49be8af43bb602303816347b963",
+        "Key_Facts_en.txt": "dd91f9811c439902ca668fe206083b047f68d96f9fb938693913d5c78bc4465e",
+        "Key_Facts_hi.txt": "7f819ed89b20384f9d6f0d1ff4ea3154e45c636524e914e22749687ba812e5b0",
+        "Memory_Hooks_en.txt": "382766ffa9901295e713e694018b0a5820eb4a3c3be939d6ce50e00c03224bfe",
+        "Memory_Hooks_hi.txt": "7055466001ea5da34bdd351deaa6190159bc22a263ecd18b7e453c6e6f9c3953",
+        "Mind_Map.txt": "b599e10d2bfa21d58b6200e3ce303ba8e3a6cee277488637aa97e0a54cda3b8f",
+        "PYQ_en.txt": "06b810082fd7c99a6a128f6a84da8d4df593274508dbacffe300cae69a8b00e8",
+        "PYQ_hi.txt": "bdc9420941f623e442361c765417a68fd71d2f2bcca4a62b90a65f1816afb0ca",
+        "Practice_en_Set_01.txt": "d137604beeb9ca5df4f84bd7004184ce4c2ad2067da8206c0d2ab80dbbb62bea",
+        "Practice_en_Set_02.txt": "08708cfa44153e05c5bed75881aafa98d692cefe03fb96c642947aa37916436c",
+        "Practice_en_Set_03.txt": "95691eeb4b149330af94cf7401812fbb2c120cd7f4b89c7eaf27888e3e4f4b44",
+        "Practice_en_Set_04.txt": "7688547094e49392964ad8b55b3eecbbdc3fd92bba64df951c78c4665488155e",
+        "Practice_en_Set_05.txt": "2e417d729d697f0fdd23364adbdec23ce7db25eb3a08e5017931d670be85f645",
+        "Practice_en_Set_06.txt": "09bc0cccaf70d6332f83212276725f06c231aca25b15b005079881b3f5aa2470",
+        "Practice_hi_Set_01.txt": "bb2cdcb7b442064d6bb5608091781d5ebd81a1c061264f8924a64321c21e3514",
+        "Practice_hi_Set_02.txt": "2420d35f3556682e051d603fc6ae652d388a85a8725ef032299808c3de1d5da1",
+        "Practice_hi_Set_03.txt": "b1deefa914d7d22352cf142b1e4f43af93bb55e4500ed449bd2b35c7a7813db6",
+        "Practice_hi_Set_04.txt": "ca991a72759218ce7db9f07716be277de38dbfa4cb8300d797e41b1d14cdf3c9",
+        "Practice_hi_Set_05.txt": "5a148df559c8cc4721366a979de4940a0da87f74672f7b2687ecb45628744420",
+        "Practice_hi_Set_06.txt": "7d9c36e2ee0ded8c7100d0019f21c5c3a4a2bb3ba8d36fd7c6bbc2b1c12626ec",
+        "inventory": {
+          "Content_en.txt": "e15c467347732bfb83596fe0634f6498ddfea527759c9717384c831ba2f6fac7",
+          "Content_hi.txt": "26e5a90f818826e8f5a37043dbb85d34b48b6b6110a27064b5d73913932fb6c4",
+          "Feynman_en.txt": "7d2bd6541abf366099401feb066fbd877f4979f38dd5dbc3b10906407009f5fd",
+          "Feynman_hi.txt": "f91e5bbfdca005789460bda474aff8185cb485cd8ed006210463d5e7e4bf5c08",
+          "Flashcards_en.txt": "1cfd6987f6009160ec9f788d636586ee22b520832aaf7874945ccd00d752f28d",
+          "Flashcards_hi.txt": "4aeaeb9c20f2fad80e6293eae3061e3ae80df49be8af43bb602303816347b963",
+          "Key_Facts_en.txt": "dd91f9811c439902ca668fe206083b047f68d96f9fb938693913d5c78bc4465e",
+          "Key_Facts_hi.txt": "7f819ed89b20384f9d6f0d1ff4ea3154e45c636524e914e22749687ba812e5b0",
+          "Memory_Hooks_en.txt": "382766ffa9901295e713e694018b0a5820eb4a3c3be939d6ce50e00c03224bfe",
+          "Memory_Hooks_hi.txt": "7055466001ea5da34bdd351deaa6190159bc22a263ecd18b7e453c6e6f9c3953",
+          "Mind_Map.txt": "b599e10d2bfa21d58b6200e3ce303ba8e3a6cee277488637aa97e0a54cda3b8f",
+          "PYQ_en.txt": "06b810082fd7c99a6a128f6a84da8d4df593274508dbacffe300cae69a8b00e8",
+          "PYQ_hi.txt": "bdc9420941f623e442361c765417a68fd71d2f2bcca4a62b90a65f1816afb0ca",
+          "Practice_en_Set_01.txt": "d137604beeb9ca5df4f84bd7004184ce4c2ad2067da8206c0d2ab80dbbb62bea",
+          "Practice_en_Set_02.txt": "08708cfa44153e05c5bed75881aafa98d692cefe03fb96c642947aa37916436c",
+          "Practice_en_Set_03.txt": "95691eeb4b149330af94cf7401812fbb2c120cd7f4b89c7eaf27888e3e4f4b44",
+          "Practice_en_Set_04.txt": "7688547094e49392964ad8b55b3eecbbdc3fd92bba64df951c78c4665488155e",
+          "Practice_en_Set_05.txt": "2e417d729d697f0fdd23364adbdec23ce7db25eb3a08e5017931d670be85f645",
+          "Practice_en_Set_06.txt": "09bc0cccaf70d6332f83212276725f06c231aca25b15b005079881b3f5aa2470",
+          "Practice_hi_Set_01.txt": "bb2cdcb7b442064d6bb5608091781d5ebd81a1c061264f8924a64321c21e3514",
+          "Practice_hi_Set_02.txt": "2420d35f3556682e051d603fc6ae652d388a85a8725ef032299808c3de1d5da1",
+          "Practice_hi_Set_03.txt": "b1deefa914d7d22352cf142b1e4f43af93bb55e4500ed449bd2b35c7a7813db6",
+          "Practice_hi_Set_04.txt": "ca991a72759218ce7db9f07716be277de38dbfa4cb8300d797e41b1d14cdf3c9",
+          "Practice_hi_Set_05.txt": "5a148df559c8cc4721366a979de4940a0da87f74672f7b2687ecb45628744420",
+          "Practice_hi_Set_06.txt": "7d9c36e2ee0ded8c7100d0019f21c5c3a4a2bb3ba8d36fd7c6bbc2b1c12626ec"
+        }
+      },
+      "checked_at": "2026-11-21T14:08:10+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "31089b4e4eab5ccf09d50ddff4c89ce0734ed76ba57f14847874469366b3c1a8",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "dd1c8ab362b518ac6c5fca520161c003d35c5ff4f79888745e32e9c58bf3f7c6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "e15c467347732bfb83596fe0634f6498ddfea527759c9717384c831ba2f6fac7"
+      },
+      "checked_at": "2026-11-21T14:16:07+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "5f7d8236bc8bec2b02b23fdf78cd1b40629fb1ce48e2bf464c74b20bca300eb8",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "dd1c8ab362b518ac6c5fca520161c003d35c5ff4f79888745e32e9c58bf3f7c6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "e15c467347732bfb83596fe0634f6498ddfea527759c9717384c831ba2f6fac7",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T14:16:08+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "bd757910ae5496068b39503e2958a61f236561d1a900bdabbf971a4bdcc98ec3",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- खंड 4 (जैव प्रौद्योगिकी) में DNA संरचना का विवरण: \"वॉटसन और क्रिक (1953, फ्रांसिस क्रिक के साथ रोजालिंड फ्रैंकलिन के X-ray डेटा का योगदान भी महत्वपूर्ण था)\" → फ्रांसिस क्रिक स्वयं 'वॉटसन और क्रिक' जोड़ी के सदस्य हैं, अलग नहीं; सही: \"जेम्स वॉटसन और फ्रांसिस क्रिक ने 1953 में रोजालिंड फ्रैंकलिन के X-ray डेटा की मदद से डबल हेलिक्स संरचना प्रस्तावित की\""
+      ],
+      "dependencies": {
+        "chapter.json": "dd1c8ab362b518ac6c5fca520161c003d35c5ff4f79888745e32e9c58bf3f7c6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "26e5a90f818826e8f5a37043dbb85d34b48b6b6110a27064b5d73913932fb6c4"
+      },
+      "checked_at": "2026-11-21T14:20:10+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T14:20:11+00:00",
+  "chapter_fingerprint": "506340e30348bccf9594e83d77ebe80ad6942a9f364154d3c032d968f8dffa90"
+}
