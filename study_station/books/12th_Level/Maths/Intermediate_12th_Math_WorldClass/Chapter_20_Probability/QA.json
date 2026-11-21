@@ -107,11 +107,71 @@
         "Content_hi.txt": "a076c5e2e6419e8e2b2ef1cb2e3d5deb9d95e2433dcf16731822d5d727a12abc"
       },
       "checked_at": "2026-11-21T07:54:04+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "e58bfd160996ee941a639ef8427b270b62338a1665e5ac95921fc254780d8451",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "4b102e80d14aaf55e798e825d0e6e5a857ac9c1106bb46d4531e72a1463a1bf7",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "a076c5e2e6419e8e2b2ef1cb2e3d5deb9d95e2433dcf16731822d5d727a12abc",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:04:31+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "463b89fa5a7f838b9a753138d182cf162cea1ebd06ab5de7d4d23f05f3b908e5",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "4b102e80d14aaf55e798e825d0e6e5a857ac9c1106bb46d4531e72a1463a1bf7",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "93c91a9298f13d40f0fb907f841b30c36678157899666549d3c3226dcdb966b1"
+      },
+      "checked_at": "2026-11-21T12:04:48+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "69cd7b7e163a493a3efe14280edcef1cf43c4997490ee86ed635da47e90fbfbc",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "4b102e80d14aaf55e798e825d0e6e5a857ac9c1106bb46d4531e72a1463a1bf7",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "93c91a9298f13d40f0fb907f841b30c36678157899666549d3c3226dcdb966b1",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:04:48+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "de5e0a963c92480d8073ceaf00071e4bcb1f4ed814b0ce255501c909738e18d4",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- ताश के उदाहरण में लाल बादशाहों के सूट गलत बताए गए हैं: \"हुकुम और पान का\" लिखा है, जबकि हुकुम (Spades) काला होता है; लाल बादशाह पान (Hearts) और ईंट (Diamonds) के होते हैं → लाल बादशाह: 2 (पान और ईंट के)"
+      ],
+      "dependencies": {
+        "chapter.json": "4b102e80d14aaf55e798e825d0e6e5a857ac9c1106bb46d4531e72a1463a1bf7",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "551e003445827354c27405933eeedfd4449584cbb45e7ccc2d3e5d02dfe6ea75"
+      },
+      "checked_at": "2026-11-21T12:05:09+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T07:54:04+00:00",
+  "updated_at": "2026-11-21T12:05:09+00:00",
   "chapter_fingerprint": "d9875bb004b455eedd6035f62e46590f2624e68a0732a7b2a5d1630b129459c2"
 }
