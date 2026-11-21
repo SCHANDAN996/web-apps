@@ -1,32 +1,31 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 04:22 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 04:23 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 43 मिनट |
-| W10 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W11 | Chapter 17 Culture Art (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W12 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 43 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 44 मिनट |
+| W10 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W11 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W12 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 44 मिनट |
 | W3 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W4 | Chapter 13 Awards (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W5 | Chapter 19 Environment (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W4 | Chapter 13 Awards (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W5 | Chapter 19 Environment (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
 | W6 | Chapter 16 Books Authors (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W7 | Chapter 18 Science Tech (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W8 | Chapter 12 Biology (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W9 | Chapter 14 Sports (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W8 | Chapter 12 Biology (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W9 | Chapter 14 Sports (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 27 |
+| key 3 | 29 |
 | key 4 | 43 |
 | key 5 | 31 |
 | key 6 | 15 |
@@ -62,7 +61,7 @@
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 48/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 52/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 76/1482 |
-| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 50/1716 |
+| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 51/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
@@ -73,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 564/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 565/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,13 +82,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 16:17:54 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_15_Days_Dates: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ["Fetch official supporting evidence for: 12 January — National Youth Day: Swami Vivekananda's birth anniversary (born 1863). Declared in 1984, observed since 1985.", "Fetch official supporting evidence for: 15 November — Janjatiya Gaurav Divas: Bhagwan Birsa Munda's birth anniversary. Declared by the Union Cabinet in November 2021.", "Fetch official supporting evidence for: 15 November — Jharkhand (2000), on Birsa Munda's birth anniversary.", 'Fetch official supporting evidence for: 🧠 Active Recall: Which two states share 1 May as their foundation day? (Maharashtra and Gujarat, 1960.)']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: The world is the "school": the UN or UNESCO picks a day that matters to all countries — usually the day an organisation was founded or an agreement was signed. World Teachers\' Day, 5 October, recalls the international Recommendation on the status of teachers adopted on 5 October 1966 (ILO–UNESCO). It has nothing to do with any one Indian\'s birthday.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_15_Days_Dates/QA.json'}
-21-11 16:17:55   [Science_Tech] QA needs_reference: sources:Content_hi.txt
-21-11 16:18:06   [Culture_Art] QA passed: editorial:Feynman_hi.txt
-21-11 16:18:06   [Culture_Art] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
-21-11 16:18:06 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_17_Culture_Art: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: Natural sites: Kaziranga, Manas, Keoladeo (all 1985), Sundarbans (1987), Nanda Devi and Valley of Flowers (1988), Western Ghats (2012), Great Himalayan National Park (2014).']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_17_Culture_Art/QA.json'}
-21-11 16:18:22   [Science_Tech] QA passed: editorial:Feynman_en.txt
-21-11 16:18:22   [Science_Tech] QA needs_reference: sources:Feynman_en.txt
 21-11 16:18:42   [Science_Tech] QA passed: editorial:Feynman_hi.txt
 21-11 16:18:52   [Science_Tech] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
 21-11 16:18:53 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_18_Science_Tech: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_18_Science_Tech/QA.json'}
@@ -123,6 +115,13 @@
 21-11 16:22:44   [Classification] QA needs_reference: sources:Feynman_en.txt
 21-11 16:23:04   [Blood_Relations] QA passed: editorial:Feynman_en.txt
 21-11 16:23:04   [Blood_Relations] QA needs_reference: sources:Feynman_en.txt
+21-11 16:23:24   [Coding_Decoding] QA blocked: editorial:Feynman_en.txt
+21-11 16:23:33   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q128 key a vs re-solve b, Q140 key a vs re-solve c, Q141 key a vs re-solve b, Q143 key a vs re-solve
+21-11 16:23:33   [Coding_Decoding] QA needs_reference: sources:Feynman_en.txt
+21-11 16:23:34   [Direction_Sense] QA needs_reference: sources:Content_hi.txt
+21-11 16:23:59   [Coding_Decoding] QA passed: editorial:Feynman_hi.txt
+21-11 16:23:59   [Coding_Decoding] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
+21-11 16:23:59 QA 10th_Level/Reasoning/Chapter_03_Coding_Decoding: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- The example coding of "CRICKET" as "XIRXPVI" is incorrect; using the 27‑minus rule, "CRICKET" codes to "XIRXPVG" → The correct code for "CRICKET" is "XIRXPVG".']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_03_Coding_Decoding/QA.json'}
 ````
 
 </details>
