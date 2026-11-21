@@ -462,50 +462,74 @@ class Pilot:
             current = sorted(self.current.items())
             done_at = dict(self.state.get('done_at', {}))
             failed = dict(self.state['failed'])
-        title = f' ({self.args.name})' if getattr(self.args, 'name', None) else ''
-        out = [f'# 📚 Book Autopilot — लाइव स्थिति{title}', '',
-               f'**आख़िरी update:** {now:%d-%m-%Y %I:%M %p} IST · हर {STATUS_MINUTES} मिनट और हर पूरे अध्याय पर अपने-आप '
-               f'update होता है · autopilot शुरू: {self.started:%d-%m %I:%M %p}',
-               '', '> Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → '
-               'Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।', '',
-               '## ⚙️ अभी क्या चल रहा है', '']
-        if current and not self.stop_file.exists():
-            out += ['| worker | अध्याय | काम | कब से |', '|---|---|---|---|']
+        workers = self.args.workers
+        run_id = os.environ.get('GITHUB_RUN_ID', '')
+        run_url = (f'https://github.com/SCHANDAN996/web-apps/actions/runs/{run_id}'
+                   if run_id.isdecimal() else 'https://github.com/SCHANDAN996/web-apps/actions/workflows/book-autopilot.yml')
+        out = ['# Study Station · किताबों की लाइव स्थिति', '',
+               f'**आखिरी अपडेट:** {now:%d-%m-%Y %I:%M %p} IST · '
+               f'**रन शुरू:** {self.started:%d-%m %I:%M %p} IST', '',
+               f'पेज लगभग हर {STATUS_MINUTES} मिनट और प्रगति सेव होने पर अपडेट होता है। '
+               'नई स्थिति देखने के लिए पेज रीफ़्रेश करें।',
+               f'[GitHub Actions पर रन की स्थिति]({run_url})', '',
+               f'**काम पर लगे workers:** {len(current)}/{workers}',
+               '', '## अभी क्या चल रहा है', '']
+        if current:
+            out += ['| Worker | अध्याय | काम | बीता समय |', '|---|---|---|---|']
             for name, c in current:
                 mins = int((now - c['since']).total_seconds() // 60)
                 out.append(f"| {name} | {c['key'].split('/')[-1].replace('_', ' ')} "
                            f"({c['key'].split('/')[0].replace('_Level', '')} {c['key'].split('/')[1]}) | "
                            f"{STEP_HI.get(c['step'], c['step'])} | {mins} मिनट |")
         else:
-            out.append('⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।')
+            out.append('इस अपडेट के समय कोई अध्याय worker को सौंपा नहीं था।')
         usage = self.api_pool_usage()
         if usage:
-            out += ['', '| सक्रिय API key | इस रन में शुरू हुई requests |', '|---|---|']
+            out += ['', '| API key | इस रन में शुरू हुए अनुरोध |', '|---|---:|']
             out += [f'| key {label} | {count} |' for label, count in usage]
-        lanes = sorted((bookcheck.BOOKS_ROOT / 'autopilot').glob('lane-*.md'))
-        if self.status_file == STATUS_FILE and lanes:
-            out += ['', '**बाकी साथ चल रहे runs:** ' + ' · '.join(f'[{l.stem}](autopilot/{l.name})' for l in lanes)]
-        out += ['', '## 📊 हर किताब की प्रगति', '',
-                'ये गिनती लेखन और `bookcheck` की प्रारंभिक जाँच की है। अंतिम editorial review पास होना अलग है; '
-                'सिर्फ़ इस तालिका से अध्याय को अंतिम स्वीकृत न मानें।', '',
-                '| किताब | प्रारंभिक जाँच पास | संरचना में सुधार बाकी | लिखना बाकी |', '|---|---|---|---|']
+        out += ['', '## किताबों की प्रगति', '',
+                'लेखन की प्रारंभिक जाँच और गहरी QA के आँकड़े नीचे अलग दिए गए हैं।', '',
+                '| किताब | कुल अध्याय | संरचना पास | सुधार बाकी | लेखन बाकी |',
+                '|---|---:|---:|---:|---:|']
         total = Counter()
-        for book in bookcheck.queue():
-            c = Counter()
-            for ch in sorted(book.glob('Chapter_*')):
-                if ch.is_dir() and not bookcheck.is_dynamic(ch):
-                    c[bookcheck.chapter_status(ch)[0]] += 1
-            total.update(c)
-            name = str(book.relative_to(bookcheck.BOOKS_ROOT)).replace('_Level', '').split('/')
-            out.append(f"| {name[0]} {name[1]} | {c['OK']} | {c['FIX']} | {c['TODO']} |")
-        out.append(f"| **कुल** | **{total['OK']}** | **{total['FIX']}** | **{total['TODO']}** |")
-        if getattr(self.args, 'continuous_qa', False):
+        qa_rows = []
+        qa_enabled = getattr(self.args, 'continuous_qa', False)
+        if qa_enabled:
             from app import bookqa
-            qa_counts = Counter(bookqa.summary(ch).get('status', 'pending') for ch in self.chapters())
-            out += ['', '## 🔎 अंतिम QA की अलग स्थिति', '',
-                    'यह लेखन से अलग जाँच है। AI pass, स्रोत प्रमाण और मानव स्वीकृति अलग हैं।', '',
-                    '| QA स्थिति | अध्याय |', '|---|---|']
-            out += [f'| {status} | {count} |' for status, count in sorted(qa_counts.items())]
+        manual = self.manual_chapters() if qa_enabled else set()
+        for book in bookcheck.queue():
+            c, qa = Counter(), Counter()
+            for ch in sorted(book.glob('Chapter_*')):
+                if not ch.is_dir() or bookcheck.is_dynamic(ch):
+                    continue
+                status = bookcheck.chapter_status(ch)[0]
+                c[status] += 1
+                if qa_enabled and status == 'OK':
+                    if str(ch.relative_to(bookcheck.BOOKS_ROOT)) in manual:
+                        qa['manual'] += 1
+                    else:
+                        result = bookqa.summary(ch)
+                        qa[result['status']] += 1
+                        qa['checks_passed'] += result['passed']
+                        qa['checks_total'] += result['total']
+            total.update(c)
+            level, subject, *_ = str(book.relative_to(bookcheck.BOOKS_ROOT)).replace('_Level', '').split('/')
+            name = f'{level} {subject}'
+            out.append(f"| {name} | {sum(c.values())} | {c['OK']} | {c['FIX']} | {c['TODO']} |")
+            qa_rows.append((name, qa))
+        out.append(f"| **कुल** | **{sum(total.values())}** | **{total['OK']}** | **{total['FIX']}** | **{total['TODO']}** |")
+        if qa_enabled:
+            out += ['', '## संरचना पास अध्यायों की गहरी QA', '',
+                    'प्रमाण और सुधार वाले कॉलम उस अध्याय की वर्तमान QA स्थिति दिखाते हैं। '
+                    'मानवीय प्रकाशन मंजूरी अलग है।', '',
+                    '| किताब | QA पास | जाँच बाकी | प्रमाण बाकी | सुधार अटका | मैनुअल | जाँचें पास / कुल |',
+                    '|---|---:|---:|---:|---:|---:|---:|']
+            qa_total = Counter()
+            for name, qa in [*qa_rows, ('**कुल**', qa_total)]:
+                out.append(f"| {name} | {qa['passed']} | {qa['pending']} | {qa['needs_reference']} | "
+                           f"{qa['blocked']} | {qa['manual']} | {qa['checks_passed']}/{qa['checks_total']} |")
+                if qa is not qa_total:
+                    qa_total.update(qa)
         recent = sorted(done_at.items(), key=lambda kv: kv[1], reverse=True)[:15]
         out += ['', '## ✅ autopilot से हाल में पूरे हुए', '']
         out += [f"- {t} — {k.split('/')[0].replace('_Level', '')} {k.split('/')[1]} · {k.split('/')[-1].replace('_', ' ')}"
@@ -517,7 +541,8 @@ class Pilot:
             tail = (self.state_dir / 'log.txt').read_text(encoding='utf-8').splitlines()[-40:]
         except OSError:
             tail = []
-        out += ['', '## 📜 हाल की गतिविधि (नया सबसे नीचे)', '', '```', *tail, '```', '']
+        out += ['', '<details>', '<summary>हाल की तकनीकी गतिविधि</summary>', '',
+                '````text', *tail, '````', '', '</details>', '']
         self.status_file.parent.mkdir(parents=True, exist_ok=True)
         tmp = self.status_file.with_suffix('.tmp')
         tmp.write_text('\n'.join(out), encoding='utf-8')
