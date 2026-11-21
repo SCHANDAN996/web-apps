@@ -109,11 +109,71 @@
         "Content_hi.txt": "a165b02a92ccd9d5425ea336e841f0cb34ffdccb881f742dd8d7221f3e3866f4"
       },
       "checked_at": "2026-11-21T06:20:58+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "1120396eee3bc194b7a28078b7ddd7a97d4e328827c7187f7057dde51c744daa",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "d01506c1b496e85aeae7c310b93baeeff4f5d79d4dddf9b20b5c1232195c48f1",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "a165b02a92ccd9d5425ea336e841f0cb34ffdccb881f742dd8d7221f3e3866f4",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:41:36+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "9882620547822baf91a28f1a55824ffe74b01f537b348ec5590a8d8be8a925c0",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "d01506c1b496e85aeae7c310b93baeeff4f5d79d4dddf9b20b5c1232195c48f1",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "4829f084be3f647ca619acd17d1a6f86be60fe9394f3d6aad277f3d8875dc56f"
+      },
+      "checked_at": "2026-11-21T10:43:49+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "82d357827e338dcd2de857192da2c73e7502541bc40a2aded84d92680b2577da",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "d01506c1b496e85aeae7c310b93baeeff4f5d79d4dddf9b20b5c1232195c48f1",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "4829f084be3f647ca619acd17d1a6f86be60fe9394f3d6aad277f3d8875dc56f",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:43:49+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "6847c51265f1695f926a8e3f13133b30db8e96fe49a42ac58e6d19bdf75d3d86",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- \"ऑक्सीकरण (उपचयन)\" गलत है → उपचयन का अर्थ अपचयन (reduction) होता है, ऑक्सीकरण (oxidation) नहीं। सही: \"ऑक्सीकरण और अपचयन (उपचयन)\"।"
+      ],
+      "dependencies": {
+        "chapter.json": "d01506c1b496e85aeae7c310b93baeeff4f5d79d4dddf9b20b5c1232195c48f1",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "d594a126ff6eb1ad62fda7c7d855d8b482022d028574f3ed503c7f8cacd56071"
+      },
+      "checked_at": "2026-11-21T10:46:51+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T06:20:59+00:00",
+  "updated_at": "2026-11-21T10:46:51+00:00",
   "chapter_fingerprint": "8064b54a4f824062bdb10d9dcc03c5ae2ee7cc45f5d540e6a915ad7a7092989f"
 }
