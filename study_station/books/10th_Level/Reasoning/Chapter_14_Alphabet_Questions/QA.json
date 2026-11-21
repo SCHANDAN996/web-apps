@@ -109,11 +109,72 @@
         "Content_hi.txt": "032e8dde9b6e60d4395dc7414d79069e051fc202d32114a6d77a1a2db73c376b"
       },
       "checked_at": "2026-11-21T06:51:16+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "8035a7e89b5030f0e23f53d4322bdd85bed4e4185babea4b71a48034333ab803",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "74c184fe2d8532ee579dff2fa2bc3daaf0dd3878fb5c87f23d8fb0c005aff7ea",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "032e8dde9b6e60d4395dc7414d79069e051fc202d32114a6d77a1a2db73c376b",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:01:42+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "fa41126ebb9f5fc0df8323713361b65579a9c8d591bbbc95fed121604b1614ec",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The blurting sheet asks to write \"EJOTY\" but the chapter never defines or mentions EJOTY. → Remove \"EJOTY\" from the blurting sheet or add an explanation of EJOTY in the chapter.",
+        "- The blurting sheet asks to write \"the types of series\" but the chapter does not discuss any series types. → Remove \"the types of series\" from the blurting sheet or add a section on series types."
+      ],
+      "dependencies": {
+        "chapter.json": "74c184fe2d8532ee579dff2fa2bc3daaf0dd3878fb5c87f23d8fb0c005aff7ea",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "d30902e4d621499c14099e31d0b2359a42b23a94498687ef5454b6aa03a9e3d4"
+      },
+      "checked_at": "2026-11-21T11:02:40+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "47818fb197e9d173a8715f0a3d730eb4c4e0c6d8f7b40a1507567de15fbb7b31",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "74c184fe2d8532ee579dff2fa2bc3daaf0dd3878fb5c87f23d8fb0c005aff7ea",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "d30902e4d621499c14099e31d0b2359a42b23a94498687ef5454b6aa03a9e3d4",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:02:40+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "0c3ef209fe5bc38d626f3bb19a0d4e123affea34f2505443491fbc522c7aada3",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "74c184fe2d8532ee579dff2fa2bc3daaf0dd3878fb5c87f23d8fb0c005aff7ea",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "bfbaeb00856c8891b85d58d1abf8ce4e9db9e62534497debd4eaf8b25147736c"
+      },
+      "checked_at": "2026-11-21T11:04:07+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T06:51:16+00:00",
+  "updated_at": "2026-11-21T11:04:08+00:00",
   "chapter_fingerprint": "b771f545c37f567d7c0af399bfc24a6acb1c61e9aa5025adeddddf352743a891"
 }

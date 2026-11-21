@@ -5,27 +5,28 @@
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 61 मिनट |
-| W10 | Chapter 21 Paper Folding Cutting (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 62 मिनट |
+| W10 | Chapter 21 Paper Folding Cutting (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W11 | Chapter 02 LCM HCF (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 | W12 | Chapter 20 Mirror Water Images (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 61 मिनट |
-| W3 | Chapter 01 Number System (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W4 | Chapter 22 Figure Series (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W5 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W6 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 62 मिनट |
+| W3 | Chapter 01 Number System (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W4 | Chapter 22 Figure Series (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W5 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W6 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
 | W7 | Chapter 14 Alphabet Questions (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W8 | Chapter 16 Statement Conclusion (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W9 | Chapter 17 Course of Action (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W8 | Chapter 16 Statement Conclusion (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W9 | Chapter 17 Course of Action (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 44 |
+| key 3 | 45 |
 | key 4 | 49 |
 | key 5 | 40 |
 | key 6 | 30 |
@@ -61,8 +62,8 @@
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 48/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 52/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 76/1482 |
-| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 81/1716 |
-| 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
+| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 82/1716 |
+| 10th Maths | 0 | 22 | 0 | 0 | 0 | 63/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
@@ -72,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 595/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 597/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -82,14 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 16:33:50   [Statement_Conclusion] QA needs_reference: sources:Feynman_en.txt
-21-11 16:34:07   [Alphabet_Questions] QA passed: editorial:Feynman_hi.txt
-21-11 16:34:12   [Statement_Conclusion] QA passed: editorial:Feynman_hi.txt
-21-11 16:34:16   [Alphabet_Questions] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 2, "needs_reference": 3, "remaining": 75, 
-21-11 16:34:16   [Statement_Conclusion] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
-21-11 16:34:17 QA 10th_Level/Reasoning/Chapter_16_Statement_Conclusion: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_16_Statement_Conclusion/QA.json'}
-21-11 16:34:17 QA 10th_Level/Reasoning/Chapter_14_Alphabet_Questions: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The claim "Any letter is at most two steps away from an EJOTY anchor" is false (A is 4 steps from E, B is 3 steps from E) → Correct the statement to acknowledge that early letters (A, B) are farther from the first anchor E, or remove the "at most two steps" generalization.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- The blurting sheet asks to write "EJOTY" but the chapter never defines or mentions EJOTY. → Remove "EJOTY" from the blurting sheet or add an explanation of EJOTY in the chapter.', '- The blurting sheet asks to write "the types of series" but the chapter does not discuss any series types. → Remove "the types of series" from the blurting sheet or add a section on series types.']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_14_Alphabet_Questions/QA.json'}
-21-11 16:34:18   [Course_of_Action] QA needs_reference: sources:Content_hi.txt
 21-11 16:34:48   [Course_of_Action] QA blocked: editorial:Feynman_en.txt
 21-11 16:34:48   [Course_of_Action] QA needs_reference: sources:Feynman_en.txt
 21-11 16:35:15   [Inequality] QA needs_reference: sources:Content_hi.txt
@@ -122,6 +115,14 @@
 21-11 16:40:30   [LCM_HCF] QA passed: editorial:Feynman_en.txt
 21-11 16:40:30   [LCM_HCF] QA needs_reference: sources:Feynman_en.txt
 21-11 16:40:31   [sandhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q30 key a vs re-solve d, Q32 key b vs re-solve a, Q35 key c vs re-solve ?, Q36 key b vs re-solve a, 
+21-11 16:41:04   [Simplification] QA needs_reference: sources:Content_hi.txt
+21-11 16:41:16   [Number_System] QA passed: editorial:Feynman_en.txt
+21-11 16:41:16   [Number_System] QA needs_reference: sources:Feynman_en.txt
+21-11 16:41:29   [Mirror_Water_Images] QA blocked: editorial:Feynman_hi.txt
+21-11 16:41:29   [Mirror_Water_Images] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 70, "blocked": 3, "needs_reference": 3, "remaining": 76, 
+21-11 16:41:29 QA 10th_Level/Reasoning/Chapter_20_Mirror_Water_Images: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 70, 'blocked': 3, 'needs_reference': 3, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Summary Table "What stays" column uses "Top ↔ Bottom" for Vertical Mirror and "Left ↔ Right" for Horizontal Mirror, implying these axes flip when they actually remain unchanged → For Vertical Mirror change "Top ↔ Bottom" to "Top/Bottom unchanged"; for Horizontal Mirror/Water Image change "Left ↔ Right" to "Left/Right unchanged"', '- Water Image symmetric letters list includes "S" as remaining the same; in standard exam reasoning (SSC, Banking, Railways) capital S is not horizontally symmetric → Remove "S" from the list; correct list: B, C, D, E, H, I, O, X']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- In the summary table, the row for 'अक्षर M (दर्पण)' incorrectly places 'वैसा ही रहता है' under the 'क्या पलटता है' column; it should be under 'क्या स्थिर रहता है' (with 'क्या पलटता है' as '–')."]}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- Mirror clock formula “12:00 – वास्तविक समय” is incorrect for times such as 12:30; the correct general formula is “11:60 – वास्तविक समय”.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_20_Mirror_Water_Images/QA.json'}
+21-11 16:41:32   [Simplification] QA passed: editorial:Feynman_en.txt
+21-11 16:41:32   [Simplification] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>
