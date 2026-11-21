@@ -11,22 +11,22 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 84 मिनट |
-| W10 | Chapter 02 Pronoun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W11 | Chapter 01 Noun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W12 | Chapter 20 Number Series (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W2 | Chapter 04 Verb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W3 | Chapter 21 Probability (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W4 | Chapter 22 Permutation Combination (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W5 | Chapter 05 Tense (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W6 | Chapter 18 Trigonometry (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W8 | Chapter 19 Statistics (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W9 | Chapter 03 Adjective (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 85 मिनट |
+| W10 | Chapter 02 Pronoun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W11 | Chapter 01 Noun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W12 | Chapter 20 Number Series (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W2 | Chapter 04 Verb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W3 | Chapter 21 Probability (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W4 | Chapter 22 Permutation Combination (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W5 | Chapter 05 Tense (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W7 | Chapter 06 Adverb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W8 | Chapter 19 Statistics (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W9 | Chapter 03 Adjective (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 55 |
-| key 4 | 73 |
+| key 3 | 56 |
+| key 4 | 74 |
 | key 5 | 54 |
 | key 6 | 43 |
 
@@ -63,7 +63,7 @@
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 76/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 83/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 100/1606 |
-| 10th English | 0 | 20 | 0 | 0 | 0 | 58/1622 |
+| 10th English | 0 | 20 | 0 | 0 | 0 | 59/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 58/1950 |
@@ -72,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 642/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 643/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,12 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 16:58:13 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_21_Probability: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 5, 'pending': 65, 'blocked': 0, 'needs_reference': 3, 'remaining': 68, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_21_Probability/QA.json'}
-21-11 16:58:14   [Permutation_Combination] QA needs_reference: sources:Content_hi.txt
-21-11 16:58:32   [Permutation_Combination] QA passed: editorial:Feynman_en.txt
-21-11 16:58:32   [Permutation_Combination] QA needs_reference: sources:Feynman_en.txt
-21-11 16:58:48   [Noun] QA needs_reference: sources:Content_hi.txt
-21-11 16:58:56   [Permutation_Combination] QA blocked: editorial:Feynman_hi.txt
 21-11 16:58:56   [Permutation_Combination] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 73, "passed": 4, "pending": 65, "blocked": 1, "needs_reference": 3, "remaining": 69, 
 21-11 16:58:56 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_22_Permutation_Combination: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 4, 'pending': 65, 'blocked': 1, 'needs_reference': 3, 'remaining': 69, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ["- 'संचय' का प्रयोग संयोजन (Combination) के लिए गलत है → सही शब्द 'संयोजन' होना चाहिए"]}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_22_Permutation_Combination/QA.json'}
 21-11 16:59:20   [Noun] QA blocked: editorial:Feynman_en.txt
@@ -126,6 +120,12 @@
 21-11 17:03:24   [Adverb] QA needs_reference: sources:Content_hi.txt
 21-11 17:03:40   [Adverb] QA passed: editorial:Feynman_en.txt
 21-11 17:03:41   [Adverb] QA needs_reference: sources:Feynman_en.txt
+21-11 17:04:22   [Preposition] QA needs_reference: sources:Content_hi.txt
+21-11 17:04:28   [Adverb] QA blocked: editorial:Feynman_hi.txt
+21-11 17:04:28   [Adverb] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
+21-11 17:04:28 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_06_Adverb: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- Typo in first title: "बच्च्चा" → "बच्चा"']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_06_Adverb/QA.json'}
+21-11 17:04:33   [Preposition] QA passed: editorial:Feynman_en.txt
+21-11 17:04:33   [Preposition] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>
