@@ -109,11 +109,71 @@
         "Content_hi.txt": "e184194ae6b5adaee86a6e863ce61c4e32d476aeb62bb9c094a1db93b457e32b"
       },
       "checked_at": "2026-11-21T07:25:59+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "2566ced4ac54ddf863dfac42e253e2e72fdb94b9497a2274aaf4161d634c5e0c",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "944c4e5c71fa011eb3df4d7c655865f82ac11c89cc0161b8afdaed3ecd769b01",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "e184194ae6b5adaee86a6e863ce61c4e32d476aeb62bb9c094a1db93b457e32b",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:38:28+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "03024ce46c1f910393edbc5f090f4f2eee17b3cf974ed391806f893c51cd55bd",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The exam shortcut \"One finite verb = Simple\" is a wrong grammar rule; a simple sentence can have multiple finite verbs in a compound predicate (e.g., \"He ate and slept\") → Correction: A simple sentence has one independent clause, not necessarily one finite verb."
+      ],
+      "dependencies": {
+        "chapter.json": "944c4e5c71fa011eb3df4d7c655865f82ac11c89cc0161b8afdaed3ecd769b01",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "48fb64ba613f2ef62c56f58b3ca3f10a993aa32ad0996b99eb97600161dd258f"
+      },
+      "checked_at": "2026-11-21T11:39:37+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "b6eab666ddd1d152150fadeee4900d11edc852780c74e2cc2c48707a64799bb4",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "944c4e5c71fa011eb3df4d7c655865f82ac11c89cc0161b8afdaed3ecd769b01",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "48fb64ba613f2ef62c56f58b3ca3f10a993aa32ad0996b99eb97600161dd258f",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:39:38+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "54eb3ebb5e3f9b87cdc554dadc825d6927ec5d71204c90377c397b112db9b8da",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "944c4e5c71fa011eb3df4d7c655865f82ac11c89cc0161b8afdaed3ecd769b01",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "16018041841d0aeec267cf6922d9436946ea8a5c768f70fc2b6ad8806d74c677"
+      },
+      "checked_at": "2026-11-21T11:40:08+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T07:25:59+00:00",
+  "updated_at": "2026-11-21T11:40:08+00:00",
   "chapter_fingerprint": "023db2e9e129bb7c1d2519b31d9243a675accf6a6f12ea775e852b8b2f0e880d"
 }
