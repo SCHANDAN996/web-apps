@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 21-11-2026 08:17 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 07:44 AM
+**आख़िरी update:** 21-11-2026 08:33 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 07:44 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,16 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 33 मिनट |
-| W2 | Chapter 15 vakya shuddhi (10th Hindi) | 🔎 review हो रहा है | 22 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 33 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 48 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 48 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 12 |
-| key 4 | 11 |
-| key 5 | 14 |
-| key 6 | 10 |
+| key 3 | 15 |
+| key 4 | 15 |
+| key 5 | 16 |
+| key 6 | 11 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -47,20 +46,13 @@
 
 - अभी कोई नहीं
 
+## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
+
+- Chapter 15 vakya shuddhi (Hindi) — 1 बार
+
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-21-11 07:44:33 autopilot start: 12 workers, reverse=False
-21-11 07:44:33 API policy: account start interval=20s; key start interval=15s; in-flight per key=1
-21-11 07:44:34 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi (TODO: todo 5, problems 0)
-21-11 07:44:35   [sandhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
-21-11 07:44:39 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi (TODO: todo 1, problems 0)
-21-11 07:44:39   [vakya_shuddhi] Hindi-only writer: direct Hindi content; English generation and translation disabled
-21-11 07:44:44 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram (TODO: todo 4, problems 0)
-21-11 07:44:44   [rikt_sthan_vakya_kram] Hindi-only writer: direct Hindi content; English generation and translation disabled
-21-11 07:45:05 worker 3: nothing left
-21-11 07:45:21 worker 4: nothing left
-21-11 07:45:38 worker 5: nothing left
 21-11 07:45:54 worker 6: nothing left
 21-11 07:45:57   [sandhi] Practice_hi_Set_01.txt try 1: rejected (Q6:duplicate_options,Q8:duplicate_options,Q10:duplicate_options,Q12:duplicate_options,Q14:duplicate_options)
 21-11 07:46:11 worker 7: nothing left
@@ -90,4 +82,15 @@
 21-11 08:13:49   [vakya_shuddhi] REJECTED review fix Flashcards_hi.txt: reviewer still reports - Card 4: the list of time markers contains “कल” twice → remove the duplicate, e.g., “कल
 21-11 08:14:44   [vakya_shuddhi] review PYQ_hi.txt round 1: 2 issue(s): - Quick Revision में 'अपना' का नियम गलत दिया है: "'अपना' कर्ता के अनुसार; 'अपनी/अपने/अपनी' कर्म के अनुसार" → सह
 21-11 08:14:52   [sandhi] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q1 key b vs re-solve d, Q2 key d vs re-solve a, Q7 key c vs re-solve b, Q8 key b vs re-solve a, Q11 
+21-11 08:18:46   [vakya_shuddhi] review Important_Rules_hi.txt round 1: 4 issue(s): - Rule 3: The table claims “ने” appears only with third person (अन्य पुरुष) in perfective; actually
+21-11 08:22:14   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q77 key a vs re-solve b, Q81 key b vs re-solve a, Q87 key d vs re-solve a, Q93 key d vs re-solve a, 
+21-11 08:23:14   [vakya_shuddhi] review Important_Rules_hi.txt round 2: 2 issue(s): - नियम ६ में भाववाच्य की परिभाषा में “मूल क्रिया का मूल रूप” लिखा है, जबकि उदाहरण “सोया जाता है” मे
+21-11 08:26:24   [vakya_shuddhi] REJECTED review fix Important_Rules_hi.txt: reviewer still reports - नियम १ के अपवाद में ‘होना’ के वर्तमान रूपों (हूँ, है, हैं) को केवल सर्वनाम के अनु
+21-11 08:26:24   [vakya_shuddhi] review: 2 section(s) corrected, 4 failed
+21-11 08:26:24   [vakya_shuddhi] written 2, failed 4; AI calls today 55/100000
+21-11 08:26:24 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi after 42 min: todo [] problems []
+21-11 08:26:40 worker 1: nothing left
+21-11 08:31:10   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q76 key d vs re-solve c, Q84 key d vs re-solve a, Q99 key a vs re-solve d)
+21-11 08:31:10   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
+21-11 08:33:12   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q113 key a vs re-solve b)
 ```
