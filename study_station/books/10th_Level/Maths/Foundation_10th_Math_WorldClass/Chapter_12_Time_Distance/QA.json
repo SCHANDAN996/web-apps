@@ -106,11 +106,69 @@
         "Content_hi.txt": "bf2d8780a96153f60d10222e20bcbb4218844569216469385941149d4c68bb77"
       },
       "checked_at": "2026-11-21T07:05:28+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "50331443e14936c2571cb9baa6628670c71e933bc4d78c507a7fe86418df26a2",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: NCERT कक्षा 7–8 गणित (गति एवं समय) तथा परीक्षा-पैटर्न विश्लेषण।"
+      ],
+      "dependencies": {
+        "chapter.json": "9655e3de8015663cf886d3f61bd2ead119c415ea333dab5568cbe81013e8ae22",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "bf2d8780a96153f60d10222e20bcbb4218844569216469385941149d4c68bb77",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:19:46+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "1c016b39e1f4ce9bc208a7997510f00f3c9df4b6be87932bc3d0ded876303c0c",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "9655e3de8015663cf886d3f61bd2ead119c415ea333dab5568cbe81013e8ae22",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "97ad41b39722367689bfacec3fa1a1ee539cd1343f5692157f65498d8e4bc7e7"
+      },
+      "checked_at": "2026-11-21T11:20:35+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "608f58c89ba52751054810b583db2acbc7390bca186abf90b19bd35e6fc6990c",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "9655e3de8015663cf886d3f61bd2ead119c415ea333dab5568cbe81013e8ae22",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "97ad41b39722367689bfacec3fa1a1ee539cd1343f5692157f65498d8e4bc7e7",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:20:35+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "8d46911ae956f8bd3f62d9111c02697fbe54f22235ce58ee94c472413930cebb",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "9655e3de8015663cf886d3f61bd2ead119c415ea333dab5568cbe81013e8ae22",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "ee6ce3fafcab36ffbbe7351698b6dfc1940beba0bf016b3c3d9944c90299b66a"
+      },
+      "checked_at": "2026-11-21T11:21:26+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T07:05:28+00:00",
+  "updated_at": "2026-11-21T11:21:26+00:00",
   "chapter_fingerprint": "707982181f6fdd24a151ea4fb85f7a1a7f196c67b5e1a9e92cf3060816b2bc73"
 }
