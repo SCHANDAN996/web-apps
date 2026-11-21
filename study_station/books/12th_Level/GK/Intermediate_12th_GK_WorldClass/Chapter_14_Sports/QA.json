@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "6b0a5e357b857dcc7b98e7749e7cb339b7fe3f3d5b31dd605b4d6f5c87860f99",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "f51e261069945562f0bb7f10c6f8c6898b9b5df2172ab1fa3539782bbbc978ea",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "892a963452b4bd1043857e21098b574f7c007d3665f845272f5b79f6012cb927",
+        "Content_hi.txt": "9951c75ae223bbcf869b59b6828531046e8a2dc067600b8c1237eb9b3bfb5d7c",
+        "Feynman_en.txt": "f5d9ce13a1460c60771c0556d3265b913a2c75cb5dead4c43e8f0744e0f852fc",
+        "Feynman_hi.txt": "766fb78e9179ddc193e1436bd6961c1bfabad251a7330b64bb975a47630d689f",
+        "Flashcards_en.txt": "2994399e62171c9cf985194d63b816d9febacc9fc54bb739789acfc4fa1cafb8",
+        "Flashcards_hi.txt": "6d36e83b5eedfaa84766c3206b43781c231982faf0b49aa186cb5f4351bde96f",
+        "Key_Facts_en.txt": "cf77ca95a8383bd192fc685aa54829d91d97fd4ba2919074bd6d485d2e95ac78",
+        "Key_Facts_hi.txt": "dddbdc7ee43a9b4fe5fc34047ca3aa74b49e302d9ecbda61ebbdc29cdad6cb85",
+        "Memory_Hooks_en.txt": "dec38188fd8608c83071a7b7de7f92f0d6d12de94377dc1fe40087adbb988983",
+        "Memory_Hooks_hi.txt": "a7f88c96206e4763ebfdf05c5a2a82201ff815c714c11a686e0a0ebbbd2d7c02",
+        "Mind_Map.txt": "444b33d8689d99e43b4b92039234c89a25d98cafb53a1b618e5fdbfa9e569454",
+        "PYQ_en.txt": "19ed0b4a2434f904794a363df47fd3d15f049d86ff0da9bedd3783b2d4891d1c",
+        "PYQ_hi.txt": "5236e8c038b1b48d8aca770eb162b373479659fe551e80811f76afe995745c89",
+        "Practice_en_Set_01.txt": "a9037002d404996506ece33fa903e548316efc5efe6d702253bd24e576c95034",
+        "Practice_en_Set_02.txt": "cbd358406301d2549160ece10d2f730d0a5d4f3986abb46351c34febac5c280b",
+        "Practice_en_Set_03.txt": "75426eec4ab23edaa1233a4520cab2bb1d36e691c6561f7cabb343e21634123e",
+        "Practice_en_Set_04.txt": "7913b8fea2acc0f7dafd04543a5c12b50c3802beabe45b1bb40f3272c0fb0e3d",
+        "Practice_en_Set_05.txt": "96097bea8edcef02cd066e611df6ebd34784e1848550fb8f64e206ddbe9c5fa8",
+        "Practice_en_Set_06.txt": "337c9e9963858e2709c90ce4343aa589a4fc442e3bef97b889b20cf1249439b4",
+        "Practice_hi_Set_01.txt": "77c56e572f3d5cbc54de6f3e449d7b27a25ad55a26498afd819a0f1119f1a9d8",
+        "Practice_hi_Set_02.txt": "25a7df16e2a1190ac24898ff273bdd85f0ce4727aa2dc25e920952a1b7db0483",
+        "Practice_hi_Set_03.txt": "4d7b34468489ac5a63ec726c09a06384398228d24423458f19b39ef3a2ada6b6",
+        "Practice_hi_Set_04.txt": "a79b53d080c10d4e3829dd022e8126df821ee2203f953aa59212eed33ba06e3b",
+        "Practice_hi_Set_05.txt": "8a1215980e002f243ab04faf3092790285fb16436e2777674c1f7fb62038a14e",
+        "Practice_hi_Set_06.txt": "c56136569aa039f25489f2844daf68318bf76e14cf89b5a0bd8ea12be39694ea",
+        "inventory": {
+          "Content_en.txt": "892a963452b4bd1043857e21098b574f7c007d3665f845272f5b79f6012cb927",
+          "Content_hi.txt": "9951c75ae223bbcf869b59b6828531046e8a2dc067600b8c1237eb9b3bfb5d7c",
+          "Feynman_en.txt": "f5d9ce13a1460c60771c0556d3265b913a2c75cb5dead4c43e8f0744e0f852fc",
+          "Feynman_hi.txt": "766fb78e9179ddc193e1436bd6961c1bfabad251a7330b64bb975a47630d689f",
+          "Flashcards_en.txt": "2994399e62171c9cf985194d63b816d9febacc9fc54bb739789acfc4fa1cafb8",
+          "Flashcards_hi.txt": "6d36e83b5eedfaa84766c3206b43781c231982faf0b49aa186cb5f4351bde96f",
+          "Key_Facts_en.txt": "cf77ca95a8383bd192fc685aa54829d91d97fd4ba2919074bd6d485d2e95ac78",
+          "Key_Facts_hi.txt": "dddbdc7ee43a9b4fe5fc34047ca3aa74b49e302d9ecbda61ebbdc29cdad6cb85",
+          "Memory_Hooks_en.txt": "dec38188fd8608c83071a7b7de7f92f0d6d12de94377dc1fe40087adbb988983",
+          "Memory_Hooks_hi.txt": "a7f88c96206e4763ebfdf05c5a2a82201ff815c714c11a686e0a0ebbbd2d7c02",
+          "Mind_Map.txt": "444b33d8689d99e43b4b92039234c89a25d98cafb53a1b618e5fdbfa9e569454",
+          "PYQ_en.txt": "19ed0b4a2434f904794a363df47fd3d15f049d86ff0da9bedd3783b2d4891d1c",
+          "PYQ_hi.txt": "5236e8c038b1b48d8aca770eb162b373479659fe551e80811f76afe995745c89",
+          "Practice_en_Set_01.txt": "a9037002d404996506ece33fa903e548316efc5efe6d702253bd24e576c95034",
+          "Practice_en_Set_02.txt": "cbd358406301d2549160ece10d2f730d0a5d4f3986abb46351c34febac5c280b",
+          "Practice_en_Set_03.txt": "75426eec4ab23edaa1233a4520cab2bb1d36e691c6561f7cabb343e21634123e",
+          "Practice_en_Set_04.txt": "7913b8fea2acc0f7dafd04543a5c12b50c3802beabe45b1bb40f3272c0fb0e3d",
+          "Practice_en_Set_05.txt": "96097bea8edcef02cd066e611df6ebd34784e1848550fb8f64e206ddbe9c5fa8",
+          "Practice_en_Set_06.txt": "337c9e9963858e2709c90ce4343aa589a4fc442e3bef97b889b20cf1249439b4",
+          "Practice_hi_Set_01.txt": "77c56e572f3d5cbc54de6f3e449d7b27a25ad55a26498afd819a0f1119f1a9d8",
+          "Practice_hi_Set_02.txt": "25a7df16e2a1190ac24898ff273bdd85f0ce4727aa2dc25e920952a1b7db0483",
+          "Practice_hi_Set_03.txt": "4d7b34468489ac5a63ec726c09a06384398228d24423458f19b39ef3a2ada6b6",
+          "Practice_hi_Set_04.txt": "a79b53d080c10d4e3829dd022e8126df821ee2203f953aa59212eed33ba06e3b",
+          "Practice_hi_Set_05.txt": "8a1215980e002f243ab04faf3092790285fb16436e2777674c1f7fb62038a14e",
+          "Practice_hi_Set_06.txt": "c56136569aa039f25489f2844daf68318bf76e14cf89b5a0bd8ea12be39694ea"
+        }
+      },
+      "checked_at": "2026-11-21T08:11:38+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "ac3bf613072c3c2e1841ecc9b7a3041044902495fe11d84b7d1d7e157d0cc04d",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Neeraj Chopra's gold described as India's first Olympic medal in athletics track & field events, but Norman Pritchard won athletics silvers in 1900 → Neeraj Chopra won India's first Olympic gold in athletics"
+      ],
+      "dependencies": {
+        "chapter.json": "f51e261069945562f0bb7f10c6f8c6898b9b5df2172ab1fa3539782bbbc978ea",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "892a963452b4bd1043857e21098b574f7c007d3665f845272f5b79f6012cb927"
+      },
+      "checked_at": "2026-11-21T08:21:45+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "4fb7d14151f95252e2ad85eecd012e7653c7e508720352b07a393fbe22f35cab",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "f51e261069945562f0bb7f10c6f8c6898b9b5df2172ab1fa3539782bbbc978ea",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "892a963452b4bd1043857e21098b574f7c007d3665f845272f5b79f6012cb927",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T08:21:45+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T08:34:49+00:00",
+  "last_error": {
+    "check": "editorial:Content_hi.txt",
+    "error": "too_long",
+    "at": "2026-11-21T08:34:49+00:00"
+  }
+}
