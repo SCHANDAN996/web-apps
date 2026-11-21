@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 01:29 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 01:30 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,17 +11,17 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 158 मिनट |
-| W10 | Chapter 01 Ancient History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W11 | Chapter 20 Probability (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W12 | Chapter 22 Number Series (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W2 | Chapter 23 Quadratic Equations (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W3 | Chapter 21 Permutation Combination (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W4 | Chapter 19 Statistics (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W5 | Chapter 18 Data Interpretation (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W7 | Chapter 02 Medieval History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W8 | Chapter 03 Modern History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W9 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 7 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 159 मिनट |
+| W10 | Chapter 01 Ancient History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W11 | Chapter 20 Probability (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W12 | Chapter 22 Number Series (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W2 | Chapter 23 Quadratic Equations (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W3 | Chapter 21 Permutation Combination (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W4 | Chapter 19 Statistics (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W6 | Chapter 04 Constitution Basic (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W7 | Chapter 02 Medieval History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W8 | Chapter 03 Modern History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W9 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 8 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
@@ -65,14 +65,14 @@
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
-| 12th GK | 0 | 24 | 0 | 0 | 0 | 6/1872 |
+| 12th GK | 0 | 24 | 0 | 0 | 0 | 7/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 0/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 0/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 333/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 334/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,13 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 13:22:02   [Statistics] QA passed: editorial:Content_en.txt
-21-11 13:22:02   [Statistics] QA needs_reference: sources:Content_en.txt
-21-11 13:22:09 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram (TODO: todo 2, problems 0)
-21-11 13:22:09   [rikt_sthan_vakya_kram] Hindi-only writer: direct Hindi content; English generation and translation disabled
-21-11 13:22:35   [Statistics] QA passed: editorial:Content_hi.txt
-21-11 13:22:35   [Statistics] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
-21-11 13:22:36 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_19_Statistics: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_19_Statistics/QA.json'}
 21-11 13:22:58   [Probability] QA passed: structure
 21-11 13:23:35   [Probability] QA passed: editorial:Content_en.txt
 21-11 13:23:35   [Probability] QA needs_reference: sources:Content_en.txt
@@ -126,6 +119,13 @@
 21-11 13:29:39   [Medieval_History] QA passed: editorial:Content_en.txt
 21-11 13:29:40   [Medieval_History] QA needs_reference: sources:Content_en.txt
 21-11 13:30:12   [Constitution_Basic] QA passed: structure
+21-11 13:31:12   [Polity] QA passed: structure
+21-11 13:31:20   [Ancient_History] QA blocked: editorial:Content_hi.txt
+21-11 13:31:21   [Ancient_History] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 13:31:21 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_01_Ancient_History: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: Ancient history keeps returning to the news: the **Sarnath Lion Capital** and **Ashoka Chakra** appear in every debate on national symbols; **Nalanda University** has been revived as a modern international university in Bihar; and **Dholavira** was inscribed as a **UNESCO World Heritage Site in 2021** — the first Indus Valley site in India to get that tag. If a current-affairs question mentions these, connect it back here.']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- 'लाल पत्थर की दाढ़ी वाले पुजारी की मूर्ति' (हड़प्पा सभ्यता की विशेषताएँ) → दाढ़ी वाले पुजारी की मूर्ति स्टीटाइट (सोपस्टोन) की बनी है, लाल पत्थर की नहीं।", "- 'प्रांत = चक्र' (मौर्य प्रशासन तालिका) → मौर्य काल में प्रांत को 'जनपद' या 'अहार' कहा जाता था; 'चक्र' एक जिला-स्तरीय इकाई थी।"]}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_01_Ancient_History/QA.json'}
+21-11 13:31:32   [Modern_History] QA blocked: editorial:Content_en.txt
+21-11 13:31:33   [Modern_History] QA needs_reference: sources:Content_en.txt
+21-11 13:31:44   [sandhi] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q101 key d vs re-solve a, Q102 key b vs re-solve a, Q104 key c vs re-solve b, Q107 key b vs re-solve
 ````
 
 </details>
