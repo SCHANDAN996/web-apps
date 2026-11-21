@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 02:44 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 02:45 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 4 मिनट |
-| W10 | Chapter 15 One Word Substitution (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W11 | Chapter 14 Antonyms (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W12 | Chapter 13 Synonyms (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W2 | Chapter 16 Idioms Phrases (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W3 | Chapter 08 Conjunction (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W4 | Chapter 06 Order Ranking (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W5 | Chapter 11 Narration (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W6 | Chapter 09 Articles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W7 | Chapter 06 Adverb (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
-| W8 | Chapter 12 Sentence Structure (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W9 | Chapter 10 Voice (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W1 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 5 मिनट |
+| W10 | Chapter 15 One Word Substitution (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W11 | Chapter 14 Antonyms (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W12 | Chapter 13 Synonyms (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W2 | Chapter 16 Idioms Phrases (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W3 | Chapter 08 Conjunction (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W4 | Chapter 06 Order Ranking (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W5 | Chapter 11 Narration (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W6 | Chapter 09 Articles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W7 | Chapter 17 Spelling (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W8 | Chapter 12 Sentence Structure (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W9 | Chapter 10 Voice (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 119 |
-| key 4 | 120 |
-| key 5 | 138 |
+| key 3 | 120 |
+| key 4 | 121 |
+| key 5 | 139 |
 | key 6 | 102 |
 
 ## किताबों की प्रगति
@@ -68,12 +68,12 @@
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 58/1950 |
-| 12th English | 0 | 25 | 0 | 0 | 0 | 39/2025 |
+| 12th English | 0 | 25 | 0 | 0 | 0 | 40/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 479/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 480/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -88,13 +88,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 14:38:08   [Voice] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 77, "blocked": 0, "needs_reference": 1, "remaining": 78, 
-21-11 14:38:08 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_10_Voice: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 77, 'blocked': 0, 'needs_reference': 1, 'remaining': 78, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_10_Voice/QA.json'}
-21-11 14:38:26   [Narration] QA passed: editorial:Content_hi.txt
-21-11 14:38:26   [Narration] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 77, "blocked": 0, "needs_reference": 1, "remaining": 78, 
-21-11 14:38:27 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_11_Narration: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 77, 'blocked': 0, 'needs_reference': 1, 'remaining': 78, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_11_Narration/QA.json'}
-21-11 14:38:44   [Synonyms] QA passed: structure
-21-11 14:38:57   [Sentence_Structure] QA passed: editorial:Content_en.txt
 21-11 14:38:57   [Sentence_Structure] QA needs_reference: sources:Content_en.txt
 21-11 14:39:08   [Synonyms] QA passed: editorial:Content_en.txt
 21-11 14:39:08   [Synonyms] QA needs_reference: sources:Content_en.txt
@@ -128,6 +121,13 @@
 21-11 14:44:51   [Idioms_Phrases] QA passed: editorial:Content_hi.txt
 21-11 14:44:51   [Idioms_Phrases] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 2, "pending": 77, "blocked": 1, "needs_reference": 1, "remaining": 79, 
 21-11 14:44:51 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_16_Idioms_Phrases: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 2, 'pending': 77, 'blocked': 1, 'needs_reference': 1, 'remaining': 79, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The "High-Frequency Idiom Bank" heading and intro state these are idioms, but "Rome wasn\'t built in a day" is a proverb (a complete wise saying), not an idiom → Change heading to "High-Frequency Phrase Bank" or separate proverbs into their own list.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_16_Idioms_Phrases/QA.json'}
+21-11 14:45:42   [Antonyms] QA blocked: editorial:Content_hi.txt
+21-11 14:45:43   [Antonyms] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 1, "pending": 77, "blocked": 2, "needs_reference": 1, "remaining": 80, 
+21-11 14:45:44 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_14_Antonyms: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 1, 'pending': 77, 'blocked': 2, 'needs_reference': 1, 'remaining': 80, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The passage claims antonym questions appear in RRB NTPC English papers, but RRB NTPC CBT stages have no English section → remove RRB NTPC from the list or replace with an exam that includes English antonyms (e.g., SSC MTS, CDS, AFCAT)', "- The claim 'each takes barely 15 seconds' (and 'under 15 seconds' in objectives) is an invented exam statistic with no source → delete the specific time or replace with a generic 'very quickly'"]}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- Prefix table: the example for 'counter-' is 'attack → counter-attack', but counter-attack is not an antonym of attack (it is a responsive attack, not the opposite) → replace with a valid antonym pair such as 'clockwise → counterclockwise' or 'act → counteract'"]}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_14_Antonyms/QA.json'}
+21-11 14:45:45   [Error_Spotting_Adv] QA passed: structure
+21-11 14:46:09   [Spelling] QA blocked: editorial:Content_en.txt
+21-11 14:46:09   [Spelling] QA needs_reference: sources:Content_en.txt
+21-11 14:46:20   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q79 key c vs re-solve b, Q80 key d vs re-solve a, Q81 key a vs re-solve c, Q88 key c vs re-solve a, 
 ````
 
 </details>
