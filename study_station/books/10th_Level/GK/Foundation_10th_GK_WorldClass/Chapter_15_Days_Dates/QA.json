@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "3ea7b446bb6fc3e19bb37fdfa7f66ac3dc636b821ae94062c9d34b883e386c13",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "4b4fa4c4ae34c4676a8b0939b39e4fb540a067f2cd0e65f61eb3061ba0853671",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "fe7ee894abf9a371d644efbd4bb5f1a1e4e11d0a1292dac7aba84f9869589ce4",
+        "Content_hi.txt": "73ba01abad9997e8f2826c08672cb5b437f7cfd4cea60e56182776a91a074107",
+        "Feynman_en.txt": "b497c57b03ba3bffd256e72b09ed388c581d7340ecaf1845a260ce735e7f908c",
+        "Feynman_hi.txt": "f9ade48df7fe2593f287e07748ea44f6681e1007467268df8aaeccfb02b3c5a2",
+        "Flashcards_en.txt": "0b17ceb153b5d6c329ab1ab4a4393f9eee8be2ee5920c287ede4c004b6e1a3e8",
+        "Flashcards_hi.txt": "5af51079248877a5345657f747e9bbd1cc94740c0ed50832027cabb25054d77c",
+        "Key_Facts_en.txt": "7ac564eb64e9dba027230852b390741ffd3537fd8a7fd96a2be8308ed1b8323b",
+        "Key_Facts_hi.txt": "96d3039598208726fc18fe6d6cce36e7a6da5409794703ea8ad9a0bdfac5dddc",
+        "Memory_Hooks_en.txt": "bffff51b60668d1e100c9a0c12487061165cda24e5e51236afdc8649f5e29fe1",
+        "Memory_Hooks_hi.txt": "67319066519c5d71b17621dac7d514827a4f05aee6bba99a9682f83d65f4971c",
+        "Mind_Map.txt": "cef6febf9d58bc8068f2d05581ac1ac99dbd565aefd9a5a2dc5cbf017b7facaa",
+        "PYQ_en.txt": "66508c341a77ed88b19cdb0b3d78be3cd9b38dacb1587eea641cbf025d1df988",
+        "PYQ_hi.txt": "1f233b31e1254caee91fa3b0de6655718046fad8495af1f89ddaf0d859e434c1",
+        "Practice_en_Set_01.txt": "78b8464328914f417c1496edb8082caadbf828e9f791d978916327ad7b9b1c9e",
+        "Practice_en_Set_02.txt": "f5895f7d1dfb490adeda871d2bec2a3daebf5b8b0d9da2accf5bfbb6be5a7f0f",
+        "Practice_en_Set_03.txt": "95693a47fddad0203860b558d0af18e365714f6f24e41454e94cfc2b06cffd1d",
+        "Practice_en_Set_04.txt": "069a591e32bdae7d7340b863fd0a0e852653c056fddbe8618b7f41d3b7d212ee",
+        "Practice_en_Set_05.txt": "89d1103dabcb35749e6bce3bb991ec4e15cf88ea5da2b4038508c72fbdc83bdf",
+        "Practice_en_Set_06.txt": "c418c8c6a6d4b693c9c5b1eb204d103e76e76b14e86062dbd5fe06d38700f28a",
+        "Practice_hi_Set_01.txt": "90c98e5f078fae603e387c38c9e6d49092da2e913b116fd54676398dee033c71",
+        "Practice_hi_Set_02.txt": "ec87e70fe8bc706ee2d0e6a32049b60b685800ca74bd0ffaa1a36873a1802f38",
+        "Practice_hi_Set_03.txt": "afc72f2d43ea61135a54bd5769c4e493bab3810f62bab8fc0659ad6c24e51184",
+        "Practice_hi_Set_04.txt": "b6fabfbe651df384c85f5215d86cd3f1f9e236dd004bd4861c0626a0eb30d43c",
+        "Practice_hi_Set_05.txt": "740618266faa1efd4a1106f00140d962ee458e812e699ba9de68fbcdd7a7f4d8",
+        "Practice_hi_Set_06.txt": "8fbe7b928274078690bcc37bdfb65c6c6d29db3611a33fd23956672afa738514",
+        "inventory": {
+          "Content_en.txt": "fe7ee894abf9a371d644efbd4bb5f1a1e4e11d0a1292dac7aba84f9869589ce4",
+          "Content_hi.txt": "73ba01abad9997e8f2826c08672cb5b437f7cfd4cea60e56182776a91a074107",
+          "Feynman_en.txt": "b497c57b03ba3bffd256e72b09ed388c581d7340ecaf1845a260ce735e7f908c",
+          "Feynman_hi.txt": "f9ade48df7fe2593f287e07748ea44f6681e1007467268df8aaeccfb02b3c5a2",
+          "Flashcards_en.txt": "0b17ceb153b5d6c329ab1ab4a4393f9eee8be2ee5920c287ede4c004b6e1a3e8",
+          "Flashcards_hi.txt": "5af51079248877a5345657f747e9bbd1cc94740c0ed50832027cabb25054d77c",
+          "Key_Facts_en.txt": "7ac564eb64e9dba027230852b390741ffd3537fd8a7fd96a2be8308ed1b8323b",
+          "Key_Facts_hi.txt": "96d3039598208726fc18fe6d6cce36e7a6da5409794703ea8ad9a0bdfac5dddc",
+          "Memory_Hooks_en.txt": "bffff51b60668d1e100c9a0c12487061165cda24e5e51236afdc8649f5e29fe1",
+          "Memory_Hooks_hi.txt": "67319066519c5d71b17621dac7d514827a4f05aee6bba99a9682f83d65f4971c",
+          "Mind_Map.txt": "cef6febf9d58bc8068f2d05581ac1ac99dbd565aefd9a5a2dc5cbf017b7facaa",
+          "PYQ_en.txt": "66508c341a77ed88b19cdb0b3d78be3cd9b38dacb1587eea641cbf025d1df988",
+          "PYQ_hi.txt": "1f233b31e1254caee91fa3b0de6655718046fad8495af1f89ddaf0d859e434c1",
+          "Practice_en_Set_01.txt": "78b8464328914f417c1496edb8082caadbf828e9f791d978916327ad7b9b1c9e",
+          "Practice_en_Set_02.txt": "f5895f7d1dfb490adeda871d2bec2a3daebf5b8b0d9da2accf5bfbb6be5a7f0f",
+          "Practice_en_Set_03.txt": "95693a47fddad0203860b558d0af18e365714f6f24e41454e94cfc2b06cffd1d",
+          "Practice_en_Set_04.txt": "069a591e32bdae7d7340b863fd0a0e852653c056fddbe8618b7f41d3b7d212ee",
+          "Practice_en_Set_05.txt": "89d1103dabcb35749e6bce3bb991ec4e15cf88ea5da2b4038508c72fbdc83bdf",
+          "Practice_en_Set_06.txt": "c418c8c6a6d4b693c9c5b1eb204d103e76e76b14e86062dbd5fe06d38700f28a",
+          "Practice_hi_Set_01.txt": "90c98e5f078fae603e387c38c9e6d49092da2e913b116fd54676398dee033c71",
+          "Practice_hi_Set_02.txt": "ec87e70fe8bc706ee2d0e6a32049b60b685800ca74bd0ffaa1a36873a1802f38",
+          "Practice_hi_Set_03.txt": "afc72f2d43ea61135a54bd5769c4e493bab3810f62bab8fc0659ad6c24e51184",
+          "Practice_hi_Set_04.txt": "b6fabfbe651df384c85f5215d86cd3f1f9e236dd004bd4861c0626a0eb30d43c",
+          "Practice_hi_Set_05.txt": "740618266faa1efd4a1106f00140d962ee458e812e699ba9de68fbcdd7a7f4d8",
+          "Practice_hi_Set_06.txt": "8fbe7b928274078690bcc37bdfb65c6c6d29db3611a33fd23956672afa738514"
+        }
+      },
+      "checked_at": "2026-11-21T06:14:40+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "2393b1601fb30302f920f75828d3c9592f79508a8ff0ac36199443cedda8abbd",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "4b4fa4c4ae34c4676a8b0939b39e4fb540a067f2cd0e65f61eb3061ba0853671",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "fe7ee894abf9a371d644efbd4bb5f1a1e4e11d0a1292dac7aba84f9869589ce4"
+      },
+      "checked_at": "2026-11-21T06:22:34+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "5c01e28aa821d83b7b3c4b8d3fa155378d78af0ef0b143563b0e35eae6317804",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: 12 January — National Youth Day: Swami Vivekananda's birth anniversary (born 1863). Declared in 1984, observed since 1985.",
+        "Fetch official supporting evidence for: 15 November — Janjatiya Gaurav Divas: Bhagwan Birsa Munda's birth anniversary. Declared by the Union Cabinet in November 2021.",
+        "Fetch official supporting evidence for: 15 November — Jharkhand (2000), on Birsa Munda's birth anniversary.",
+        "Fetch official supporting evidence for: 🧠 Active Recall: Which two states share 1 May as their foundation day? (Maharashtra and Gujarat, 1960.)"
+      ],
+      "dependencies": {
+        "chapter.json": "4b4fa4c4ae34c4676a8b0939b39e4fb540a067f2cd0e65f61eb3061ba0853671",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "fe7ee894abf9a371d644efbd4bb5f1a1e4e11d0a1292dac7aba84f9869589ce4",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T06:22:34+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "ee8c8c9ef479d215b43f6fb5a886157dbd14f657b9c5e4cffefd053ffa3f011f",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "4b4fa4c4ae34c4676a8b0939b39e4fb540a067f2cd0e65f61eb3061ba0853671",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "73ba01abad9997e8f2826c08672cb5b437f7cfd4cea60e56182776a91a074107"
+      },
+      "checked_at": "2026-11-21T06:44:48+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T06:44:48+00:00",
+  "chapter_fingerprint": "c5d103a4024a0f36b2255b1277c8306f3413bacfc9c23c4b573bb54d582d98c8"
+}
