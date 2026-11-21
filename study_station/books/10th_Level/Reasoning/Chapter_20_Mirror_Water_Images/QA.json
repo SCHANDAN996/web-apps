@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "6217f8ef1b12ec15401ab3271e09559882240d96e0b7c367ffd650edb8bf92d0",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "86e1d61469d13da3d1dccaa82f95317d75b422b407a7e331575941d14a08549a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "930d72f271b06a7488aeaadec91eeceb4f311bae3138f935df78052c958c7793",
+        "Content_hi.txt": "cb3340d7062931969c6a8287cfdf9afb847b8a77de35e5c341b95514e035ef28",
+        "Feynman_en.txt": "88d4462e3526068d02b9fbea8912d92c030e366b0871329241cf3cd4245e4510",
+        "Feynman_hi.txt": "344d5303bf1cd81edcc8726ba8c0ccc3e64210605c17fe960c6ce4803825a65c",
+        "Flashcards_en.txt": "82213f0f716a86efc47abbd9068de61fd263d5b8ebd3ce6eae01659db366e065",
+        "Flashcards_hi.txt": "5eedab8240f05b21a7f554b55006680a28a0162425fe4dc455da27a6b602c8c6",
+        "Important_Rules_en.txt": "9baa3ec46017bccec401473ada2d6fad26c909dbff1515cda11f3d4f198feb92",
+        "Important_Rules_hi.txt": "5a1192bf7962b02dac5badaf7dd4875cbf08b957d2dbabd71dd5565f60110ccc",
+        "Mind_Map.txt": "85dde449028acb767b704761bbc5e88a7e2006f684abfe7dce746802067cc1cc",
+        "PYQ_en.txt": "4165088778ec8676f6d0e68accecf8f75b840b1622582676e35fd13cbb7e8475",
+        "PYQ_hi.txt": "f9a1bf88cf54626f90a48c63bd4a4deb24c89a5858c16ed7bc15ef912e0406a3",
+        "Practice_en_Set_01.txt": "b79c7df587f0021ad8473c5f4820c6ea774cfd0fb79a65f1b0b9f363f66427f4",
+        "Practice_en_Set_02.txt": "9d4c4742a6062e6efe839bb37763d16abdd291645799b26bf627ab8c83b9e557",
+        "Practice_en_Set_03.txt": "d0523579f050a085a37140dff46d62d30b03474f772fe030b73fffedbdb7f1ed",
+        "Practice_en_Set_04.txt": "c752f62bd255f4ed8122731e8d2dfaa060e8df3e6bb8b4d196dcb847f1dd542b",
+        "Practice_en_Set_05.txt": "2c9043af530917177a1b35bf7ddb11a264b2cc3c234966c2948d9b1d7e46801b",
+        "Practice_en_Set_06.txt": "1b64ba1508e3983561944087bff2d24b64d5e65c74e157973a36efa7ec86ea35",
+        "Practice_hi_Set_01.txt": "1cdfd688791671d223fc9b1bd576b721b11fc678374d7a91571b36c6a1eefea3",
+        "Practice_hi_Set_02.txt": "e16de22a52056a3550d82ac40c67d8ad373ad13cca0cbb41193b3139c1cced2a",
+        "Practice_hi_Set_03.txt": "914272ae65abcc06df2eb060e0ff5822cbbb645cbd50f1358cd22912ca472c59",
+        "Practice_hi_Set_04.txt": "cdab14db61001fdb09f29a89453076fae4efb3a63d02645f497e0f9ed3f986f7",
+        "Practice_hi_Set_05.txt": "858ec73bea84e39740a9d8bcec007920c6dc300f779eb3f0c39ab989ce31b88c",
+        "Practice_hi_Set_06.txt": "494557b30d491adaf7985ec545b0d6b282297d11ccff30aabf5532644ace9ead",
+        "Short_Tricks_en.txt": "f6f5ec55f25c08cc3aa691e09bd0953e808b6497306a8f8cbcf90a46e7e5d873",
+        "Short_Tricks_hi.txt": "3384465136b61f9a4ba9cce59f065e211d5fc5cddb1464ec2007fe819d9e18dc",
+        "inventory": {
+          "Content_en.txt": "930d72f271b06a7488aeaadec91eeceb4f311bae3138f935df78052c958c7793",
+          "Content_hi.txt": "cb3340d7062931969c6a8287cfdf9afb847b8a77de35e5c341b95514e035ef28",
+          "Feynman_en.txt": "88d4462e3526068d02b9fbea8912d92c030e366b0871329241cf3cd4245e4510",
+          "Feynman_hi.txt": "344d5303bf1cd81edcc8726ba8c0ccc3e64210605c17fe960c6ce4803825a65c",
+          "Flashcards_en.txt": "82213f0f716a86efc47abbd9068de61fd263d5b8ebd3ce6eae01659db366e065",
+          "Flashcards_hi.txt": "5eedab8240f05b21a7f554b55006680a28a0162425fe4dc455da27a6b602c8c6",
+          "Important_Rules_en.txt": "9baa3ec46017bccec401473ada2d6fad26c909dbff1515cda11f3d4f198feb92",
+          "Important_Rules_hi.txt": "5a1192bf7962b02dac5badaf7dd4875cbf08b957d2dbabd71dd5565f60110ccc",
+          "Mind_Map.txt": "85dde449028acb767b704761bbc5e88a7e2006f684abfe7dce746802067cc1cc",
+          "PYQ_en.txt": "4165088778ec8676f6d0e68accecf8f75b840b1622582676e35fd13cbb7e8475",
+          "PYQ_hi.txt": "f9a1bf88cf54626f90a48c63bd4a4deb24c89a5858c16ed7bc15ef912e0406a3",
+          "Practice_en_Set_01.txt": "b79c7df587f0021ad8473c5f4820c6ea774cfd0fb79a65f1b0b9f363f66427f4",
+          "Practice_en_Set_02.txt": "9d4c4742a6062e6efe839bb37763d16abdd291645799b26bf627ab8c83b9e557",
+          "Practice_en_Set_03.txt": "d0523579f050a085a37140dff46d62d30b03474f772fe030b73fffedbdb7f1ed",
+          "Practice_en_Set_04.txt": "c752f62bd255f4ed8122731e8d2dfaa060e8df3e6bb8b4d196dcb847f1dd542b",
+          "Practice_en_Set_05.txt": "2c9043af530917177a1b35bf7ddb11a264b2cc3c234966c2948d9b1d7e46801b",
+          "Practice_en_Set_06.txt": "1b64ba1508e3983561944087bff2d24b64d5e65c74e157973a36efa7ec86ea35",
+          "Practice_hi_Set_01.txt": "1cdfd688791671d223fc9b1bd576b721b11fc678374d7a91571b36c6a1eefea3",
+          "Practice_hi_Set_02.txt": "e16de22a52056a3550d82ac40c67d8ad373ad13cca0cbb41193b3139c1cced2a",
+          "Practice_hi_Set_03.txt": "914272ae65abcc06df2eb060e0ff5822cbbb645cbd50f1358cd22912ca472c59",
+          "Practice_hi_Set_04.txt": "cdab14db61001fdb09f29a89453076fae4efb3a63d02645f497e0f9ed3f986f7",
+          "Practice_hi_Set_05.txt": "858ec73bea84e39740a9d8bcec007920c6dc300f779eb3f0c39ab989ce31b88c",
+          "Practice_hi_Set_06.txt": "494557b30d491adaf7985ec545b0d6b282297d11ccff30aabf5532644ace9ead",
+          "Short_Tricks_en.txt": "f6f5ec55f25c08cc3aa691e09bd0953e808b6497306a8f8cbcf90a46e7e5d873",
+          "Short_Tricks_hi.txt": "3384465136b61f9a4ba9cce59f065e211d5fc5cddb1464ec2007fe819d9e18dc"
+        }
+      },
+      "checked_at": "2026-11-21T06:50:12+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "b4425ef0c7e43424ab6f27b5640914c2caa47b09e1aa739633634f0f66fe4660",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Summary Table \"What stays\" column uses \"Top ↔ Bottom\" for Vertical Mirror and \"Left ↔ Right\" for Horizontal Mirror, implying these axes flip when they actually remain unchanged → For Vertical Mirror change \"Top ↔ Bottom\" to \"Top/Bottom unchanged\"; for Horizontal Mirror/Water Image change \"Left ↔ Right\" to \"Left/Right unchanged\"",
+        "- Water Image symmetric letters list includes \"S\" as remaining the same; in standard exam reasoning (SSC, Banking, Railways) capital S is not horizontally symmetric → Remove \"S\" from the list; correct list: B, C, D, E, H, I, O, X"
+      ],
+      "dependencies": {
+        "chapter.json": "86e1d61469d13da3d1dccaa82f95317d75b422b407a7e331575941d14a08549a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "930d72f271b06a7488aeaadec91eeceb4f311bae3138f935df78052c958c7793"
+      },
+      "checked_at": "2026-11-21T06:51:19+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "c92f9b023b412148416162b86e527031955f5e95ab3c40601713e45de20c376e",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "86e1d61469d13da3d1dccaa82f95317d75b422b407a7e331575941d14a08549a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "930d72f271b06a7488aeaadec91eeceb4f311bae3138f935df78052c958c7793",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T06:51:19+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "1ee43811ae42f62b57388573db89c767d0e4fe3d6e470bc5340388aff95ab8cd",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- In the summary table, the row for 'अक्षर M (दर्पण)' incorrectly places 'वैसा ही रहता है' under the 'क्या पलटता है' column; it should be under 'क्या स्थिर रहता है' (with 'क्या पलटता है' as '–')."
+      ],
+      "dependencies": {
+        "chapter.json": "86e1d61469d13da3d1dccaa82f95317d75b422b407a7e331575941d14a08549a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "cb3340d7062931969c6a8287cfdf9afb847b8a77de35e5c341b95514e035ef28"
+      },
+      "checked_at": "2026-11-21T06:54:20+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T06:54:20+00:00",
+  "chapter_fingerprint": "f50c30c430cb1b8e5e335f9d69c13c03571447efc737ba245814f941514fc455"
+}
