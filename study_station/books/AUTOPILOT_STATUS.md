@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 12:41 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 12:42 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,23 +11,23 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 110 मिनट |
-| W10 | Chapter 13 Mixture Alligation (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W11 | Chapter 19 Statistics (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W12 | Chapter 06 Average (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
-| W2 | Chapter 10 Compound Interest (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 110 मिनट |
-| W4 | Chapter 16 Algebra (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W6 | Chapter 15 Geometry (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W7 | Chapter 11 Time Work (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W8 | Chapter 17 Data Interpretation (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W9 | Chapter 18 Trigonometry (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 111 मिनट |
+| W10 | Chapter 13 Mixture Alligation (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W11 | Chapter 19 Statistics (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W12 | Chapter 06 Average (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 111 मिनट |
+| W4 | Chapter 16 Algebra (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W5 | Chapter 20 Number Series (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W6 | Chapter 15 Geometry (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W7 | Chapter 11 Time Work (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W8 | Chapter 17 Data Interpretation (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W9 | Chapter 18 Trigonometry (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 54 |
+| key 3 | 56 |
 | key 4 | 53 |
-| key 5 | 68 |
+| key 5 | 69 |
 | key 6 | 44 |
 
 ## किताबों की प्रगति
@@ -62,7 +62,7 @@
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 29/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 43/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
-| 10th Maths | 0 | 22 | 0 | 0 | 0 | 54/1606 |
+| 10th Maths | 0 | 22 | 0 | 0 | 0 | 57/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 0/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 0/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 0/1872 |
@@ -72,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 206/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 209/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -82,9 +82,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 12:37:09 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_06_Average: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 3, 'pending': 69, 'blocked': 0, 'needs_reference': 1, 'remaining': 70, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_06_Average/QA.json'}
-21-11 12:37:17   [Mixture_Alligation] QA blocked: editorial:Content_hi.txt
-21-11 12:37:17   [Mixture_Alligation] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 73, "passed": 2, "pending": 69, "blocked": 1, "needs_reference": 1, "remaining": 71, 
 21-11 12:37:17 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_13_Mixture_Alligation: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 2, 'pending': 69, 'blocked': 1, 'needs_reference': 1, 'remaining': 71, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- "माँ अवधारणा" is a typo (means "mother concept") → "मूल अवधारणा" (root/original concept)']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_13_Mixture_Alligation/QA.json'}
 21-11 12:37:34   [Geometry] QA passed: editorial:Content_en.txt
 21-11 12:37:34   [Geometry] QA needs_reference: sources:Content_en.txt
@@ -122,6 +119,9 @@
 21-11 12:42:00   [Number_Series] QA needs_reference: sources:Content_en.txt
 21-11 12:42:04   [sandhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q29 key d vs re-solve b, Q32 key d vs re-solve b, Q33 key b vs re-solve c, Q35 key a vs re-solve d, 
 21-11 12:42:04   [sandhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
+21-11 12:42:45   [Probability] QA passed: structure
+21-11 12:43:09   [Probability] QA passed: editorial:Content_en.txt
+21-11 12:43:09   [Probability] QA needs_reference: sources:Content_en.txt
 ````
 
 </details>
