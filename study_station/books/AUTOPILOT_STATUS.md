@@ -11,25 +11,25 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 164 मिनट |
-| W10 | Chapter 16 Statement Conclusion (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W11 | Chapter 01 Noun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W12 | Chapter 02 Pronoun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W2 | Chapter 19 Cubes Dice (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W3 | Chapter 24 Statement Assumption (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W4 | Chapter 18 Inequality (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W5 | Chapter 21 Paper Folding Cutting (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W6 | Chapter 23 Syllogism (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W7 | Chapter 22 Figure Series (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W8 | Chapter 25 Statement Argument (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W9 | Chapter 20 Mirror Water Images (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 165 मिनट |
+| W10 | Chapter 03 Adjective (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W11 | Chapter 01 Noun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W12 | Chapter 02 Pronoun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W2 | Chapter 19 Cubes Dice (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W3 | Chapter 24 Statement Assumption (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W4 | Chapter 18 Inequality (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W5 | Chapter 21 Paper Folding Cutting (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W6 | Chapter 23 Syllogism (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W7 | Chapter 22 Figure Series (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W8 | Chapter 25 Statement Argument (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W9 | Chapter 20 Mirror Water Images (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 117 |
 | key 4 | 116 |
-| key 5 | 108 |
-| key 6 | 93 |
+| key 5 | 109 |
+| key 6 | 94 |
 
 ## किताबों की प्रगति
 
@@ -68,12 +68,12 @@
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 104/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 96/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 101/1950 |
-| 12th English | 0 | 25 | 0 | 0 | 0 | 52/2025 |
+| 12th English | 0 | 25 | 0 | 0 | 0 | 55/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 793/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 796/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,18 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 18:18:35   [Figure_Series] QA needs_reference: sources:Feynman_en.txt
-21-11 18:18:47   [Paper_Folding_Cutting] QA passed: editorial:Feynman_en.txt
-21-11 18:18:47   [Paper_Folding_Cutting] QA needs_reference: sources:Feynman_en.txt
-21-11 18:18:55   [Mirror_Water_Images] QA blocked: editorial:Feynman_en.txt
-21-11 18:18:55   [Mirror_Water_Images] QA needs_reference: sources:Feynman_en.txt
-21-11 18:18:58   [Figure_Series] QA passed: editorial:Feynman_hi.txt
-21-11 18:18:58   [Figure_Series] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
-21-11 18:18:59 QA 12th_Level/Reasoning/Chapter_22_Figure_Series: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_22_Figure_Series/QA.json'}
-21-11 18:19:23   [Syllogism] QA needs_reference: sources:Content_hi.txt
-21-11 18:19:33   [Paper_Folding_Cutting] QA passed: editorial:Feynman_hi.txt
-21-11 18:19:34   [Paper_Folding_Cutting] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
-21-11 18:19:34 QA 12th_Level/Reasoning/Chapter_21_Paper_Folding_Cutting: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_21_Paper_Folding_Cutting/QA.json'}
 21-11 18:20:22   [Statement_Assumption] QA needs_reference: sources:Content_hi.txt
 21-11 18:20:34   [sandhi] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q128 key c vs re-solve d, Q131 key c vs re-solve b, Q132 key d vs re-solve b, Q134 key a vs re-solve
 21-11 18:20:47   [Statement_Assumption] QA passed: editorial:Feynman_en.txt
@@ -127,6 +115,18 @@
 21-11 18:23:06   [Pronoun] QA passed: editorial:Feynman_en.txt
 21-11 18:23:06   [Pronoun] QA needs_reference: sources:Feynman_en.txt
 21-11 18:23:18   [Adjective] QA needs_reference: sources:Content_hi.txt
+21-11 18:24:01   [Adjective] QA passed: editorial:Feynman_en.txt
+21-11 18:24:08   [Noun] QA passed: editorial:Feynman_hi.txt
+21-11 18:24:21   [Adjective] QA needs_reference: sources:Feynman_en.txt
+21-11 18:24:21   [Noun] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 5, "pending": 73, "blocked": 0, "needs_reference": 3, "remaining": 76, 
+21-11 18:24:22 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_01_Noun: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 5, 'pending': 73, 'blocked': 0, 'needs_reference': 3, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_01_Noun/QA.json'}
+21-11 18:24:22   [Verb] QA needs_reference: sources:Content_hi.txt
+21-11 18:24:29   [Adjective] QA passed: editorial:Feynman_hi.txt
+21-11 18:24:30   [Adjective] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
+21-11 18:24:30 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_03_Adjective: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In Degree formation rules (क), the note for "brave → braver → bravest" says "(अंतिम \'e\' हटता है)" → The final \'e\' is not dropped; it is retained. For words ending in \'e\', simply add \'r\'/\'st\' (brave → braver → bravest).', '- In Rule 4 (Latin Comparatives) and the mnemonic "SJ-SIP", "prefer" is listed as a Latin comparative adjective → "prefer" is a verb, not an adjective; it should not be included in a list of Latin comparative adjectives.', '- In the Linguistic Contrast table and Summary table, "elder to" is given as correct predicative usage (e.g., "He is elder to me") → In standard English, "elder" is not used predicatively with "to"; the correct predicative form is "older than" (e.g., "He is older than me"). "Elder" is only used attributively (elder brother) or as a noun.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_03_Adjective/QA.json'}
+21-11 18:24:47   [Pronoun] QA blocked: editorial:Feynman_hi.txt
+21-11 18:24:47   [Pronoun] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 73, "blocked": 2, "needs_reference": 3, "remaining": 78, 
+21-11 18:24:47 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_02_Pronoun: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 73, 'blocked': 2, 'needs_reference': 3, 'remaining': 78, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ["- 'Every' is incorrectly listed as a pronoun in the Types table, Rule 1, and Summary Table; 'every' is a determiner, not a pronoun → remove 'every' from pronoun lists and restrict the singular-verb rule to true indefinite pronouns (each, everyone, everybody, etc.) and to noun phrases introduced by 'every'."]}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- The example correction for "One should do their duty" uses "his duty" → The correct singular pronoun for "one" is "one\'s duty" (or "his or her duty" in traditional grammar).']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_02_Pronoun/QA.json'}
 ````
 
 </details>
