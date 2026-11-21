@@ -1,31 +1,32 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 06:15 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 06:16 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 156 मिनट |
-| W10 | Chapter 16 Statement Conclusion (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W11 | Chapter 15 Mathematical Operations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W12 | Chapter 17 Course of Action (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W2 | Chapter 19 Cubes Dice (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W3 | Chapter 13 Dictionary Order (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W4 | Chapter 18 Inequality (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W5 | Chapter 11 Series (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W6 | Chapter 10 Clock Calendar (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W7 | Chapter 12 Missing Term (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W8 | Chapter 14 Alphabet Questions (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 157 मिनट |
+| W10 | Chapter 16 Statement Conclusion (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W11 | Chapter 15 Mathematical Operations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W12 | Chapter 17 Course of Action (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W2 | Chapter 19 Cubes Dice (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W3 | Chapter 13 Dictionary Order (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W4 | Chapter 18 Inequality (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W5 | Chapter 11 Series (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W6 | Chapter 10 Clock Calendar (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W7 | Chapter 12 Missing Term (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W8 | Chapter 14 Alphabet Questions (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W9 | Chapter 20 Mirror Water Images (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 113 |
+| key 3 | 114 |
 | key 4 | 114 |
 | key 5 | 103 |
 | key 6 | 88 |
