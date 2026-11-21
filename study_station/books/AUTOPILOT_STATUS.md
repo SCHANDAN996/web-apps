@@ -1,8 +1,10 @@
-# 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
+# Study Station · किताबों की लाइव स्थिति
 
 **आख़िरी update:** 21-11-2026 10:35 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 07:44 AM
 
-> Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
+[GitHub Actions पर चालू और कतार में लगे रन देखें](https://github.com/SCHANDAN996/web-apps/actions/workflows/book-autopilot.yml)
+
+नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 
 ## ⚙️ अभी क्या चल रहा है
 
@@ -17,7 +19,6 @@
 | key 5 | 29 |
 | key 6 | 24 |
 
-**बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
 ## 📊 हर किताब की प्रगति
 
@@ -50,7 +51,8 @@
 - Chapter 15 vakya shuddhi (Hindi) — 2 बार
 - Chapter 16 rikt sthan vakya kram (Hindi) — 1 बार
 
-## 📜 हाल की गतिविधि (नया सबसे नीचे)
+<details>
+<summary>हाल की तकनीकी गतिविधि</summary>
 
 ```
 21-11 08:37:46   [sandhi] Practice_hi_Set_02.txt try 4: rejected (Q26:duplicate_options,Q33:duplicate_options,Q34:duplicate_options,Q36:duplicate_options,Q37:duplicate_options)
@@ -94,3 +96,5 @@
 21-11 10:18:12   [sandhi] Practice_hi_Set_06.txt try 2: rejected (Q131:duplicate_options,Q144:duplicate_options,Q145:duplicate_options,Q147:duplicate_options,Q148:duplicate_opt
 21-11 10:29:40   [sandhi] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q126 key c vs re-solve a, Q128 key d vs re-solve b, Q140 key d vs re-solve b, Q146 key d vs re-solve
 ```
+
+</details>
