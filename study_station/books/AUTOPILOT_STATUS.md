@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 07:00 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 07:01 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 16 Coordinate Geometry (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W11 | Chapter 10 Compound Interest (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W12 | Chapter 09 Simple Interest (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W2 | Chapter 13 Mixture Alligation (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W3 | Chapter 15 Geometry (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W4 | Chapter 11 Time Work (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W5 | Chapter 14 Mensuration (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W1 | Chapter 16 Coordinate Geometry (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W10 | Chapter 18 Quadratic Equations (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W11 | Chapter 10 Compound Interest (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W2 | Chapter 13 Mixture Alligation (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W3 | Chapter 15 Geometry (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W4 | Chapter 11 Time Work (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W5 | Chapter 14 Mensuration (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
 | W6 | Chapter 07 Ratio Proportion (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W7 | Chapter 12 Time Distance (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 20 मिनट |
-| W9 | Chapter 17 Algebra (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W7 | Chapter 12 Time Distance (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 21 मिनट |
+| W9 | Chapter 17 Algebra (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 144 |
+| key 3 | 145 |
 | key 4 | 127 |
 | key 5 | 129 |
-| key 6 | 120 |
+| key 6 | 121 |
 
 ## किताबों की प्रगति
 
@@ -68,11 +68,11 @@
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 96/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 101/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 94/2025 |
-| Graduation Maths | 0 | 28 | 0 | 0 | 0 | 45/2184 |
+| Graduation Maths | 0 | 28 | 0 | 0 | 0 | 48/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 880/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 883/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,14 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 18:55:00   [Ratio_Proportion] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
-21-11 18:55:00 QA Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_07_Ratio_Proportion: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- In Chunk 2 table, Compound Ratio definition gives formula 'a:c और b:d का compound = ab : cd' and column header 'उदाहरण (a:b से)' is inconsistent; the correct formula for two ratios a:b and c:d is ac : bd (as shown in summary table)."]}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_07_Ratio_Proportion/QA.json'}
-21-11 18:55:01   [Time_Distance] QA passed: structure
-21-11 18:55:27   [Compound_Interest] QA passed: editorial:Content_en.txt
-21-11 18:55:28   [Compound_Interest] QA needs_reference: sources:Content_en.txt
-21-11 18:55:29   [Time_Distance] QA passed: editorial:Content_en.txt
-21-11 18:55:29   [Time_Distance] QA needs_reference: sources:Content_en.txt
-21-11 18:55:58   [Mixture_Alligation] QA passed: structure
 21-11 18:56:07   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q77 key b vs re-solve c)
 21-11 18:56:24   [Compound_Interest] QA passed: editorial:Content_hi.txt
 21-11 18:56:24   [Compound_Interest] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
@@ -127,6 +119,14 @@
 21-11 19:00:27 QA Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_15_Geometry: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_15_Geometry/QA.json'}
 21-11 19:00:44   [Coordinate_Geometry] QA blocked: editorial:Content_en.txt
 21-11 19:00:44   [Coordinate_Geometry] QA needs_reference: sources:Content_en.txt
+21-11 19:01:05   [Trigonometry] QA passed: structure
+21-11 19:01:09   [Coordinate_Geometry] QA passed: editorial:Content_hi.txt
+21-11 19:01:09   [Coordinate_Geometry] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 19:01:09   [Algebra] QA passed: editorial:Content_en.txt
+21-11 19:01:09 QA Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_16_Coordinate_Geometry: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Hook title "A Lost Ship and a Genius in Bed" mismatches the fly-on-ceiling story → Use a title referencing the fly, e.g., "A Fly on the Ceiling and a Genius in Bed".', "- Hook claims Descartes' fly insight occurred in 1637; the anecdote is traditionally dated to 1619, while 1637 is the publication year of *La Géométrie* → Correct the date to 1619 or note that 1637 is the publication year."]}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_16_Coordinate_Geometry/QA.json'}
+21-11 19:01:09   [Algebra] QA needs_reference: sources:Content_en.txt
+21-11 19:01:37   [Trigonometry] QA passed: editorial:Content_en.txt
+21-11 19:01:38   [Trigonometry] QA needs_reference: sources:Content_en.txt
 ````
 
 </details>
