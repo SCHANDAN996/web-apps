@@ -105,11 +105,71 @@
         "Content_hi.txt": "f8cd3aaca8834db28d91e286db0ec99779dfc1ec3913a4092aa1bcbde2efb5a1"
       },
       "checked_at": "2026-11-21T07:13:30+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "8e69f63f241ba49f897dbfd413088b3d04cd474e6f371caafbe2b4914a860d08",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "65f660b8b464529d5d451e0ca70f57567dc44bd68dc7bc616af60827188e72a6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "f8cd3aaca8834db28d91e286db0ec99779dfc1ec3913a4092aa1bcbde2efb5a1",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:26:12+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "fd5817f94dbe93a763ddf5dcf54b39c1c6522e4af5b5f21b0e0e5e4c8a35f9d9",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "65f660b8b464529d5d451e0ca70f57567dc44bd68dc7bc616af60827188e72a6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "985d9b4c2e0d658ac0d83cb604d47b535bfdf6d38704c48f44e7082cbea9348e"
+      },
+      "checked_at": "2026-11-21T11:27:04+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "383392106d80bf5bde1b41f3fc93fa7479af4761a206005a11a943aaf4f897b5",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "65f660b8b464529d5d451e0ca70f57567dc44bd68dc7bc616af60827188e72a6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "985d9b4c2e0d658ac0d83cb604d47b535bfdf6d38704c48f44e7082cbea9348e",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:27:04+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "e91a265548abdd43afa363fea9d2f95d3c4e7917083ddf46c5b887b5799294ef",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The parenthetical remark incorrectly claims the series 1, 10, 33, 76, 145 follows an n³ + n² pattern and gives contradictory calculations (1³+1²=2, 1³+0²=1, 2³+1²=9); the correct closed form is n³ + n² – n."
+      ],
+      "dependencies": {
+        "chapter.json": "65f660b8b464529d5d451e0ca70f57567dc44bd68dc7bc616af60827188e72a6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "67c48a6eeac6411d0f89e39336136bfecb8191c3e577f1dd713e212d28094bd6"
+      },
+      "checked_at": "2026-11-21T11:27:30+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T07:13:30+00:00",
+  "updated_at": "2026-11-21T11:27:30+00:00",
   "chapter_fingerprint": "7527a0d1073c4c3b22ea62e229ec60ac24d60a1f0e1b624a282d3fb6d11f3db8"
 }
