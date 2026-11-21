@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 12:19 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 12:20 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,25 +11,25 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 88 मिनट |
-| W10 | Chapter 17 Course of Action (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W11 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W12 | Chapter 16 Statement Conclusion (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W2 | Chapter 12 Missing Term (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 88 मिनट |
-| W4 | Chapter 15 Mathematical Operations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W5 | Chapter 14 Alphabet Questions (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W6 | Chapter 10 Clock Calendar (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W7 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W8 | Chapter 07 Sitting Arrangement (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
-| W9 | Chapter 08 Puzzles Basic (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 89 मिनट |
+| W10 | Chapter 17 Course of Action (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W11 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W12 | Chapter 16 Statement Conclusion (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W2 | Chapter 12 Missing Term (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 89 मिनट |
+| W4 | Chapter 15 Mathematical Operations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W5 | Chapter 14 Alphabet Questions (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W6 | Chapter 10 Clock Calendar (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W7 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W8 | Chapter 20 Mirror Water Images (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W9 | Chapter 08 Puzzles Basic (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 31 |
-| key 4 | 49 |
-| key 5 | 50 |
-| key 6 | 34 |
+| key 4 | 50 |
+| key 5 | 51 |
+| key 6 | 35 |
 
 ## किताबों की प्रगति
 
@@ -62,7 +62,7 @@
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 31/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 29/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 43/1482 |
-| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 41/1716 |
+| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 42/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 0/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 0/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 0/1794 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 144/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 145/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,12 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 12:16:01   [Series] QA blocked: editorial:Content_hi.txt
-21-11 12:16:01   [Series] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 1, "pending": 74, "blocked": 2, "needs_reference": 1, "remaining": 77, 
-21-11 12:16:01 QA 10th_Level/Reasoning/Chapter_11_Series: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 1, 'pending': 74, 'blocked': 2, 'needs_reference': 1, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ["- In Examiner's Trap 2, the series 2, 4, 8, 16, 31 is incorrectly described as revealing a cubic pattern; its third differences (2, 3) are not constant, so it is not cubic. → Correct the description to say the pattern is not cubic (e.g., it is a higher‑order pattern or simply that the simple multiplication fails)."]}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In Trap 2, the series 2, 4, 8, 16, 31 is incorrectly presented as a cubic pattern emerging from differences of differences; the cubic continuation (constant third difference) of 2, 4, 8, 16 is 30, not 31 → Correct the example to show a valid cubic pattern (e.g., 2, 4, 8, 16, 30) or clarify that 31 comes from a different, non‑cubic pattern.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_11_Series/QA.json'}
-21-11 12:16:20   [Course_of_Action] QA passed: structure
-21-11 12:16:24   [Sitting_Arrangement] QA blocked: editorial:Content_en.txt
-21-11 12:16:24   [Sitting_Arrangement] QA needs_reference: sources:Content_en.txt
 21-11 12:16:29   [Statement_Conclusion] QA passed: editorial:Content_en.txt
 21-11 12:16:29   [Statement_Conclusion] QA needs_reference: sources:Content_en.txt
 21-11 12:16:54   [Mathematical_Operations] QA passed: editorial:Content_en.txt
@@ -123,6 +117,12 @@
 21-11 12:20:12 QA 10th_Level/Reasoning/Chapter_17_Course_of_Action: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_17_Course_of_Action/QA.json'}
 21-11 12:20:12 QA 10th_Level/Reasoning/Chapter_18_Inequality: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_18_Inequality/QA.json'}
 21-11 12:20:12   [Mirror_Water_Images] QA passed: structure
+21-11 12:21:14   [Paper_Folding_Cutting] QA passed: structure
+21-11 12:21:16   [Alphabet_Questions] QA passed: editorial:Content_hi.txt
+21-11 12:21:16   [Alphabet_Questions] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 12:21:16 QA 10th_Level/Reasoning/Chapter_14_Alphabet_Questions: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The claim "Any letter is at most two steps away from an EJOTY anchor" is false (A is 4 steps from E, B is 3 steps from E) → Correct the statement to acknowledge that early letters (A, B) are farther from the first anchor E, or remove the "at most two steps" generalization.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_14_Alphabet_Questions/QA.json'}
+21-11 12:21:19   [Mirror_Water_Images] QA blocked: editorial:Content_en.txt
+21-11 12:21:19   [Mirror_Water_Images] QA needs_reference: sources:Content_en.txt
 ````
 
 </details>
