@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 01:48 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 01:49 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -12,22 +12,22 @@
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
 | W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 177 मिनट |
-| W10 | Chapter 21 International Orgs (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W12 | Chapter 18 Science Tech (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W2 | Chapter 10 Physics Daily (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W3 | Chapter 14 Sports (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W4 | Chapter 17 Culture Art (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W5 | Chapter 16 Books Authors (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W10 | Chapter 21 International Orgs (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W11 | Chapter 22 Defence (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W12 | Chapter 18 Science Tech (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W2 | Chapter 10 Physics Daily (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W3 | Chapter 14 Sports (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W4 | Chapter 17 Culture Art (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
 | W6 | Chapter 04 Constitution Basic (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 18 मिनट |
-| W7 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W8 | Chapter 13 Awards (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W7 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W8 | Chapter 13 Awards (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
 | W9 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 26 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 94 |
-| key 4 | 89 |
-| key 5 | 106 |
+| key 4 | 90 |
+| key 5 | 107 |
 | key 6 | 79 |
 
 ## किताबों की प्रगति
@@ -65,14 +65,14 @@
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
-| 12th GK | 0 | 24 | 0 | 0 | 0 | 39/1872 |
+| 12th GK | 0 | 24 | 0 | 0 | 0 | 43/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 0/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 0/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 366/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 370/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,14 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 13:42:12   [Awards] QA needs_reference: sources:Content_en.txt
-21-11 13:42:22   [Days_Dates] QA passed: structure
-21-11 13:43:09   [Biology] QA passed: editorial:Content_hi.txt
-21-11 13:43:09   [Biology] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
-21-11 13:43:09 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_12_Biology: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_12_Biology/QA.json'}
-21-11 13:43:23   [sandhi] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q102 key a vs re-solve b, Q104 key b vs re-solve c, Q106 key b vs re-solve a, Q107 key c vs re-solve
-21-11 13:43:25   [Chemistry] QA passed: editorial:Content_hi.txt
-21-11 13:43:36   [sandhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
 21-11 13:43:36   [Chemistry] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
 21-11 13:43:37 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_11_Chemistry: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_11_Chemistry/QA.json'}
 21-11 13:43:37   [Books_Authors] QA passed: structure
@@ -126,6 +118,14 @@
 21-11 13:48:54   [Constitution_Basic] QA blocked: editorial:Content_hi.txt
 21-11 13:48:54   [Constitution_Basic] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 1, "pending": 74, "blocked": 2, "needs_reference": 1, "remaining": 77, 
 21-11 13:48:55 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_04_Constitution_Basic: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 1, 'pending': 74, 'blocked': 2, 'needs_reference': 1, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- "Today it has grown to 448 Articles and 12 Schedules" (current X is without a year) → Specify the year (e.g., "As of 2023, it has 448 Articles and 12 Schedules") or remove "Today".', '- "Master this, and 60% of Indian Polity becomes easy" (invented exam weightage statistic) → Remove the invented weightage claim "60% of Indian Polity becomes easy".', '- "Every question in SSC, Banking, Railway and State PCS exams on \'Polity\' begins from this chapter" (invented exam claim, factually incorrect) → Remove the absolute claim "Every question... begins from this chapter".']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: - The Preamble was held to be a **part of the Constitution** in the **Kesavananda Bharati case (1973)**.', "Fetch official supporting evidence for: 9. **Fundamental Duties** (Part IV-A) — added by the 42nd Amendment, 1976, on the recommendation of the **Swaran Singh Committee**; originally 10 duties, now **11** (86th Amendment, 2002 added the 11th — education of one's child).", 'Fetch official supporting evidence for: - Debates on the **basic structure doctrine** (Kesavananda Bharati, 1973) still appear in news whenever major constitutional amendments are discussed in Parliament.', 'Fetch official supporting evidence for: | 9 | Preamble part of Constitution (case) | Kesavananda Bharati, 1973 |', 'Fetch official supporting evidence for: | 10 | Fundamental Duties added by | 42nd Amendment, 1976 (Swaran Singh Committee) |']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- कुल सदस्य: 299 (ब्रिटिश प्रांतों से 292 + रियासतों से 93 का प्रावधान था; विभाजन के बाद संख्या घटी) → मूल प्रावधान 389 सदस्यों का था (ब्रिटिश प्रांतों से 292, रियासतों से 93, मुख्य आयुक्त प्रांतों से 4); विभाजन के बाद सदस्य संख्या 299 रह गई।']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_04_Constitution_Basic/QA.json'}
+21-11 13:49:22   [Physics_Daily] QA passed: editorial:Content_hi.txt
+21-11 13:49:23   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q126 key a vs re-solve b, Q137 key c vs re-solve b, Q147 key d vs re-solve c)
+21-11 13:49:28   [Culture_Art] QA passed: editorial:Content_hi.txt
+21-11 13:49:29   [Physics_Daily] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 13:49:29   [Culture_Art] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
+21-11 13:49:31 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_17_Culture_Art: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_17_Culture_Art/QA.json'}
+21-11 13:49:31 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_10_Physics_Daily: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Domestic supply voltage in India given as 220 V, 50 Hz AC → The current standard is 230 V, 50 Hz AC (as per IS 12360).']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_10_Physics_Daily/QA.json'}
+21-11 13:49:31   [Economic_Terms] QA passed: structure
 ````
 
 </details>
