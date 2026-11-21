@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 04:29 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 04:30 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,22 +11,22 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 50 मिनट |
-| W10 | Chapter 11 Series (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W11 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W12 | Chapter 10 Clock Calendar (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 50 मिनट |
-| W3 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W4 | Chapter 13 Awards (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
-| W5 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W6 | Chapter 08 Puzzles Basic (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W7 | Chapter 05 Direction Sense (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W8 | Chapter 07 Sitting Arrangement (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W9 | Chapter 06 Order Ranking (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 51 मिनट |
+| W10 | Chapter 11 Series (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W11 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W12 | Chapter 10 Clock Calendar (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 51 मिनट |
+| W3 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W4 | Chapter 12 Missing Term (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W5 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W6 | Chapter 08 Puzzles Basic (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W7 | Chapter 05 Direction Sense (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W8 | Chapter 07 Sitting Arrangement (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W9 | Chapter 06 Order Ranking (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 35 |
+| key 3 | 37 |
 | key 4 | 47 |
 | key 5 | 32 |
 | key 6 | 22 |
@@ -62,7 +62,7 @@
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 48/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 52/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 76/1482 |
-| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 63/1716 |
+| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 67/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 577/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 581/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,13 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 16:25:29   [Blood_Relations] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
-21-11 16:25:30 QA 10th_Level/Reasoning/Chapter_04_Blood_Relations: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- The coded relations example “P × Q + R ÷ S” uses the symbol ‘÷’ without defining its meaning → Define the meaning of ‘÷’ or remove it from the example.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_04_Blood_Relations/QA.json'}
-21-11 16:25:30   [Sitting_Arrangement] QA needs_reference: sources:Content_hi.txt
-21-11 16:25:54   [Sitting_Arrangement] QA passed: editorial:Feynman_en.txt
-21-11 16:25:54   [Sitting_Arrangement] QA needs_reference: sources:Feynman_en.txt
-21-11 16:25:57   [Order_Ranking] QA passed: editorial:Feynman_en.txt
-21-11 16:25:57   [Order_Ranking] QA needs_reference: sources:Feynman_en.txt
 21-11 16:26:28   [Puzzles_Basic] QA needs_reference: sources:Content_hi.txt
 21-11 16:26:46   [Sitting_Arrangement] QA passed: editorial:Feynman_hi.txt
 21-11 16:26:46   [Sitting_Arrangement] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 2, "needs_reference": 3, "remaining": 75, 
@@ -123,6 +116,13 @@
 21-11 16:30:17   [Clock_Calendar] QA passed: editorial:Feynman_hi.txt
 21-11 16:30:17   [Clock_Calendar] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
 21-11 16:30:17 QA 10th_Level/Reasoning/Chapter_10_Clock_Calendar: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: Example: “Which year after 2024 will have the same calendar as 2024?” 2024 is a leap year, so 2024 + 28 = 2052.', 'Fetch official supporting evidence for: 🧠 If 2025 is ordinary, will 2031 have the same calendar? Yes: odd days from 2025 to 2030 add up to 1+1+1+2+1+1 = 7 (a multiple of 7), and both 2025 and 2031 are ordinary years. When in doubt, always count odd days instead of blindly adding 6 or 11.', 'Fetch official supporting evidence for: “Which year after 2004 will have the same calendar as 2004?” Blindly adding 6 or 11 fails here: 2004 is a leap year, so it can only match another leap year whose odd-day total in between is a multiple of 7 — that happens after 28 years (2032). Options like 2010, 2011, 2015 trap students who memorised a rigid “+6 or +11” pattern without checking whether the year is leap. Always check the leap/ordinary nature first, then count odd days.']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In the “एक झटका जो सोचने पर मजबूर कर दे” section, the example for 2:48 claims the smaller angle is 132°, but the correct angle is 156° (|30×2 – 5.5×48| = 204°, 360°–204° = 156°).', '- In the “सारांश तालिका”, the formula for “सुइयों के बीच कोण” is written as “θ = 30H – 5.5M” without absolute value, which can give negative results; it should be “θ = |30H – 5.5M|”.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: There was a boy named Ravi. On his 10th birthday, his uncle gave him a challenge. “Ravi, you were born on 12 March 2015. Tell me what day that was, without looking at a calendar. If you get it right, I’ll buy you a pizza every Sunday for a year.”', 'Fetch official supporting evidence for: “There’s one more thing,” said Uncle. “You need to know where the whole century begins. For the 1900s, the dial starts at 0 — and remember, in our day-code table 0 means Sunday. For the 2000s, it’s at 6 — which in our table means Saturday. You don’t have to understand why right now — just remember that since you were born in 2015, your century code is 6.”', 'Fetch official supporting evidence for: Ravi checked his smartphone calendar. “Yes! 12 March 2015 was a Thursday! That’s unbelievable.”', 'Fetch official supporting evidence for: And one question to test yourself: What day of the week will 15th August 2047 be? (Hint: Use the century code for the 2000s, calculate step by step.) Write your answer, then verify with any calendar app. Now go, time traveler.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_10_Clock_Calendar/QA.json'}
+21-11 16:30:32   [Series] QA passed: editorial:Feynman_hi.txt
+21-11 16:30:43   [Series] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 2, "needs_reference": 3, "remaining": 75, 
+21-11 16:30:43 QA 10th_Level/Reasoning/Chapter_11_Series: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ["- In Examiner's Trap 2, the series 2, 4, 8, 16, 31 is incorrectly described as revealing a cubic pattern; its third differences (2, 3) are not constant, so it is not cubic. → Correct the description to say the pattern is not cubic (e.g., it is a higher‑order pattern or simply that the simple multiplication fails)."]}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In Trap 2, the series 2, 4, 8, 16, 31 is incorrectly presented as a cubic pattern emerging from differences of differences; the cubic continuation (constant third difference) of 2, 4, 8, 16 is 30, not 31 → Correct the example to show a valid cubic pattern (e.g., 2, 4, 8, 16, 30) or clarify that 31 comes from a different, non‑cubic pattern.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_11_Series/QA.json'}
+21-11 16:30:44   [Dictionary_Order] QA needs_reference: sources:Content_hi.txt
+21-11 16:31:10   [Missing_Term] QA passed: editorial:Feynman_hi.txt
+21-11 16:31:10   [Missing_Term] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
+21-11 16:31:10 QA 10th_Level/Reasoning/Chapter_12_Missing_Term: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- "परीक्षकों द्वारा पूछे जाने वाले 5 सबसे आम पैटर्न परिवार" → "परीक्षकों द्वारा पूछे जाने वाले 6 सबसे आम पैटर्न परिवार"']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_12_Missing_Term/QA.json'}
 ````
 
 </details>
