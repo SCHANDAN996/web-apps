@@ -1,33 +1,34 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 12:43 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 12:44 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 112 मिनट |
-| W10 | Chapter 13 Mixture Alligation (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W11 | Chapter 19 Statistics (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W2 | Chapter 21 Probability (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 113 मिनट |
+| W10 | Chapter 13 Mixture Alligation (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W11 | Chapter 19 Statistics (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W12 | Chapter 22 Permutation Combination (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W2 | Chapter 21 Probability (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 | W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 112 मिनट |
-| W4 | Chapter 16 Algebra (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W5 | Chapter 20 Number Series (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W6 | Chapter 15 Geometry (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W4 | Chapter 16 Algebra (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W5 | Chapter 20 Number Series (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W6 | Chapter 15 Geometry (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
 | W7 | Chapter 11 Time Work (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W8 | Chapter 17 Data Interpretation (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W9 | Chapter 18 Trigonometry (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W8 | Chapter 17 Data Interpretation (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W9 | Chapter 18 Trigonometry (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 56 |
+| key 3 | 57 |
 | key 4 | 55 |
-| key 5 | 69 |
+| key 5 | 70 |
 | key 6 | 44 |
 
 ## किताबों की प्रगति
@@ -62,8 +63,8 @@
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 29/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 43/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
-| 10th Maths | 0 | 22 | 0 | 0 | 0 | 59/1606 |
-| 10th English | 0 | 20 | 0 | 0 | 0 | 0/1622 |
+| 10th Maths | 0 | 22 | 0 | 0 | 0 | 61/1606 |
+| 10th English | 0 | 20 | 0 | 0 | 0 | 1/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 0/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 0/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 0/1950 |
@@ -72,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 211/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 214/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -82,9 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 12:39:03   [Geometry] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 73, "passed": 3, "pending": 69, "blocked": 0, "needs_reference": 1, "remaining": 70, 
-21-11 12:39:03 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_15_Geometry: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 3, 'pending': 69, 'blocked': 0, 'needs_reference': 1, 'remaining': 70, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_15_Geometry/QA.json'}
-21-11 12:39:14   [Time_Work] QA passed: editorial:Content_hi.txt
 21-11 12:39:14   [Time_Work] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 73, "passed": 3, "pending": 69, "blocked": 0, "needs_reference": 1, "remaining": 70, 
 21-11 12:39:14 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_11_Time_Work: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 3, 'pending': 69, 'blocked': 0, 'needs_reference': 1, 'remaining': 70, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_11_Time_Work/QA.json'}
 21-11 12:39:26   [Algebra] QA passed: editorial:Content_en.txt
@@ -122,6 +120,9 @@
 21-11 12:43:54 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_21_Probability: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 3, 'pending': 69, 'blocked': 0, 'needs_reference': 1, 'remaining': 70, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_21_Probability/QA.json'}
 21-11 12:43:59   [Permutation_Combination] QA passed: editorial:Content_en.txt
 21-11 12:43:59   [Permutation_Combination] QA needs_reference: sources:Content_en.txt
+21-11 12:44:10   [Noun] QA passed: structure
+21-11 12:44:31   [Noun] QA passed: editorial:Content_en.txt
+21-11 12:44:31   [Noun] QA needs_reference: sources:Content_en.txt
 ````
 
 </details>
