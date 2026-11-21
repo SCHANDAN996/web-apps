@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "514526c063b1a48a7419fe769df2c505cd717f0a0dfc9f420b1c25deb069d83b",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "41908b7e25fb24c9575afe8f269febed57fcc6e86148ad130ab5acae3eede8d8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "c6359a26e981921c818d285e933d3bb50cdc2812618202f847ee4f87716ebd74",
+        "Content_hi.txt": "efeae3e4f698a86d160fa3bca420a2dac2b3ce3621f14e0fc8e8ef59dcc7b38b",
+        "Feynman_en.txt": "a64613977abe422615f4fdfb5e8f7dd834630f88dc980c2004fdade2be250e9a",
+        "Feynman_hi.txt": "39bc8076ba05a29b5c29fed9166a507c6e09fcc7e37070bca471207b6109a77f",
+        "Flashcards_en.txt": "1750af4055a3274a36cab7f91eb177d0b5a8a8909cbe188bd39d10d9644088b4",
+        "Flashcards_hi.txt": "cdab4f9c94b64897596a6d48f842c3ab7266505c598b779813462d8f7aa22995",
+        "Key_Facts_en.txt": "b02d958e87159bc4bdbb919bf0eacccde39335f9b62a5ec861a084d24570157f",
+        "Key_Facts_hi.txt": "f052e814be3b67297d6cdc0ed9ceb83c494e5b793fa4ab754e14d3453f3b2dad",
+        "Memory_Hooks_en.txt": "9a54ef73e5ce42220210c468d835e6311279c1f00258419c661dced40b5b3016",
+        "Memory_Hooks_hi.txt": "e86f0ef83adec0f715b7972e49dd49eae08aea01e039dbca8b3800eced897018",
+        "Mind_Map.txt": "29d3a6685725d5f65175fa61c99627391bfac80d1907ace78b99edf7a342cb8c",
+        "PYQ_en.txt": "8a78df1ce980f3a8910bfa3719efae5d2463814ca3359ebe0ed68283d7e3382d",
+        "PYQ_hi.txt": "b2d384091e7ea9415791a88acdf329ba77fd2e89dc141f3ed2efbbcb523b7c10",
+        "Practice_en_Set_01.txt": "87830af6566164687c13e42908113e548d3cebefad0e1c07e31b20327b7bf1c3",
+        "Practice_en_Set_02.txt": "df64b474df4846ba2356d7777c6387fca95112ffbc173f31b9bbf6cf7851c5ae",
+        "Practice_en_Set_03.txt": "c53c7963ab3b125687bfe11ba9a0707e51aa24ddadc74f98adbe64c1e811e694",
+        "Practice_en_Set_04.txt": "b50537f418d90c1329e14f863d79e4ff6c8e696ea7222d3cb12352276769ad16",
+        "Practice_en_Set_05.txt": "81062f03bd60530f7a79a51e99a221295bacd5d19e57d9b2e9ba2204a2cfeca3",
+        "Practice_en_Set_06.txt": "34f435871afa24b5155740b6ff7e7c2b9c923efc26798259da20476dfac89d49",
+        "Practice_hi_Set_01.txt": "41ba381ce325f189cfdec8d6ddc293b41c4aa707386ab6ffbf77d0f560a08adc",
+        "Practice_hi_Set_02.txt": "b18fcfdd010c7ba49cf9a63b1edb38daafff74e353658b37af1d7c4d4b700047",
+        "Practice_hi_Set_03.txt": "90766cb081ef485b77625695d59314fb00a5f7264600221705ca67ed96d09091",
+        "Practice_hi_Set_04.txt": "53ac0270c89d391b5980c5f43fd608e9fd890d1f1e68a2a974cfc63cf49c3257",
+        "Practice_hi_Set_05.txt": "c3679a185b81d8f41712fcbf9245c013b4ff4b7f839df24ad038739142f14e74",
+        "Practice_hi_Set_06.txt": "7953234995ac2299e38ec8b020cd607d886a10aca2aa0ce55b34e25c067f3bcf",
+        "inventory": {
+          "Content_en.txt": "c6359a26e981921c818d285e933d3bb50cdc2812618202f847ee4f87716ebd74",
+          "Content_hi.txt": "efeae3e4f698a86d160fa3bca420a2dac2b3ce3621f14e0fc8e8ef59dcc7b38b",
+          "Feynman_en.txt": "a64613977abe422615f4fdfb5e8f7dd834630f88dc980c2004fdade2be250e9a",
+          "Feynman_hi.txt": "39bc8076ba05a29b5c29fed9166a507c6e09fcc7e37070bca471207b6109a77f",
+          "Flashcards_en.txt": "1750af4055a3274a36cab7f91eb177d0b5a8a8909cbe188bd39d10d9644088b4",
+          "Flashcards_hi.txt": "cdab4f9c94b64897596a6d48f842c3ab7266505c598b779813462d8f7aa22995",
+          "Key_Facts_en.txt": "b02d958e87159bc4bdbb919bf0eacccde39335f9b62a5ec861a084d24570157f",
+          "Key_Facts_hi.txt": "f052e814be3b67297d6cdc0ed9ceb83c494e5b793fa4ab754e14d3453f3b2dad",
+          "Memory_Hooks_en.txt": "9a54ef73e5ce42220210c468d835e6311279c1f00258419c661dced40b5b3016",
+          "Memory_Hooks_hi.txt": "e86f0ef83adec0f715b7972e49dd49eae08aea01e039dbca8b3800eced897018",
+          "Mind_Map.txt": "29d3a6685725d5f65175fa61c99627391bfac80d1907ace78b99edf7a342cb8c",
+          "PYQ_en.txt": "8a78df1ce980f3a8910bfa3719efae5d2463814ca3359ebe0ed68283d7e3382d",
+          "PYQ_hi.txt": "b2d384091e7ea9415791a88acdf329ba77fd2e89dc141f3ed2efbbcb523b7c10",
+          "Practice_en_Set_01.txt": "87830af6566164687c13e42908113e548d3cebefad0e1c07e31b20327b7bf1c3",
+          "Practice_en_Set_02.txt": "df64b474df4846ba2356d7777c6387fca95112ffbc173f31b9bbf6cf7851c5ae",
+          "Practice_en_Set_03.txt": "c53c7963ab3b125687bfe11ba9a0707e51aa24ddadc74f98adbe64c1e811e694",
+          "Practice_en_Set_04.txt": "b50537f418d90c1329e14f863d79e4ff6c8e696ea7222d3cb12352276769ad16",
+          "Practice_en_Set_05.txt": "81062f03bd60530f7a79a51e99a221295bacd5d19e57d9b2e9ba2204a2cfeca3",
+          "Practice_en_Set_06.txt": "34f435871afa24b5155740b6ff7e7c2b9c923efc26798259da20476dfac89d49",
+          "Practice_hi_Set_01.txt": "41ba381ce325f189cfdec8d6ddc293b41c4aa707386ab6ffbf77d0f560a08adc",
+          "Practice_hi_Set_02.txt": "b18fcfdd010c7ba49cf9a63b1edb38daafff74e353658b37af1d7c4d4b700047",
+          "Practice_hi_Set_03.txt": "90766cb081ef485b77625695d59314fb00a5f7264600221705ca67ed96d09091",
+          "Practice_hi_Set_04.txt": "53ac0270c89d391b5980c5f43fd608e9fd890d1f1e68a2a974cfc63cf49c3257",
+          "Practice_hi_Set_05.txt": "c3679a185b81d8f41712fcbf9245c013b4ff4b7f839df24ad038739142f14e74",
+          "Practice_hi_Set_06.txt": "7953234995ac2299e38ec8b020cd607d886a10aca2aa0ce55b34e25c067f3bcf"
+        }
+      },
+      "checked_at": "2026-11-21T13:47:38+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "7b36a219fd5577e726c102a582009a3aeebc69b46f6f5601a69d6b8afd489ad9",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Section 2: \"Major left-bank tributaries (from the Himalayas)\" incorrectly includes Gomti, which originates in the plains, not the Himalayas → Remove Gomti from the Himalayan-origin list or change the label to \"Major left-bank tributaries\" with origin noted separately.",
+        "- Section 2: \"Major right-bank tributaries (from the Peninsula)\" incorrectly includes Yamuna, which is a Himalayan river → Exclude Yamuna from the peninsular-origin list or correct the label to reflect Yamuna's Himalayan origin.",
+        "- Section 5 note: \"The Godavari basin extends into ... Puducherry (Karaikal)\" → The basin extends into Puducherry's Yanam district, not Karaikal; change \"Karaikal\" to \"Yanam\"."
+      ],
+      "dependencies": {
+        "chapter.json": "41908b7e25fb24c9575afe8f269febed57fcc6e86148ad130ab5acae3eede8d8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "c6359a26e981921c818d285e933d3bb50cdc2812618202f847ee4f87716ebd74"
+      },
+      "checked_at": "2026-11-21T13:54:46+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "252b6da8b94cdaf433341d09271f4a63ee983c3328e1f49cdde04d86a7d4b977",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "41908b7e25fb24c9575afe8f269febed57fcc6e86148ad130ab5acae3eede8d8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "c6359a26e981921c818d285e933d3bb50cdc2812618202f847ee4f87716ebd74",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T13:54:46+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "e3cb534ddb1232f3e918fa0671d8bb9ce5cbdeb72dac648b5786fe2f07ec99dd",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "41908b7e25fb24c9575afe8f269febed57fcc6e86148ad130ab5acae3eede8d8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "efeae3e4f698a86d160fa3bca420a2dac2b3ce3621f14e0fc8e8ef59dcc7b38b"
+      },
+      "checked_at": "2026-11-21T14:09:11+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T14:09:11+00:00",
+  "chapter_fingerprint": "3effdcc36ddb05ae73a8092b14b211d4783d505545ead140e14e988375a2c0ca"
+}
