@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 06:12 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 06:13 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -12,24 +12,24 @@
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
 | W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 154 मिनट |
-| W10 | Chapter 16 Statement Conclusion (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W11 | Chapter 15 Mathematical Operations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W12 | Chapter 04 Blood Relations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W10 | Chapter 16 Statement Conclusion (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W11 | Chapter 15 Mathematical Operations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W12 | Chapter 17 Course of Action (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 | W2 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W3 | Chapter 13 Dictionary Order (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W3 | Chapter 13 Dictionary Order (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
 | W4 | Chapter 07 Sitting Arrangement (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
 | W5 | Chapter 11 Series (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
 | W6 | Chapter 10 Clock Calendar (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W7 | Chapter 12 Missing Term (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W8 | Chapter 14 Alphabet Questions (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W7 | Chapter 12 Missing Term (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W8 | Chapter 14 Alphabet Questions (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 | W9 | Chapter 09 Venn Diagrams (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 111 |
+| key 3 | 112 |
 | key 4 | 114 |
 | key 5 | 101 |
-| key 6 | 85 |
+| key 6 | 86 |
 
 ## किताबों की प्रगति
 
@@ -67,13 +67,13 @@
 | 10th English | 0 | 20 | 0 | 0 | 0 | 81/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 104/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 96/1872 |
-| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 85/1950 |
+| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 87/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 50/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 775/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 777/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,12 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 18:08:58 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram after 46 min: todo ['Set 04 hi: todo', 'Set 06 hi: todo'] problems []
-21-11 18:09:16   [Series] QA passed: editorial:Feynman_hi.txt
-21-11 18:09:20   [Series] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
-21-11 18:09:21 QA 12th_Level/Reasoning/Chapter_11_Series: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- In solved example Q2, the trial pattern n²(n+1) for n=4 is incorrectly stated as 100; the correct value is 80 → Replace 100 with 80.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_11_Series/QA.json'}
-21-11 18:09:21   [Missing_Term] QA needs_reference: sources:Content_hi.txt
-21-11 18:09:50   [Missing_Term] QA passed: editorial:Feynman_en.txt
 21-11 18:09:55   [Missing_Term] QA needs_reference: sources:Feynman_en.txt
 21-11 18:09:56   [Dictionary_Order] QA needs_reference: sources:Content_hi.txt
 21-11 18:10:05   [Missing_Term] QA passed: editorial:Feynman_hi.txt
@@ -127,6 +121,12 @@
 21-11 18:13:26   [Course_of_Action] QA passed: editorial:Feynman_hi.txt
 21-11 18:13:26   [Course_of_Action] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
 21-11 18:13:26 QA 12th_Level/Reasoning/Chapter_17_Course_of_Action: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The entire section is corrupted/unreadable text (repeated fragments, file references, markup, OCR artifacts) → Replace with proper educational content for the intended topic']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_17_Course_of_Action/QA.json'}
+21-11 18:13:55   [Inequality] QA needs_reference: sources:Content_hi.txt
+21-11 18:14:04   [Inequality] QA blocked: editorial:Feynman_en.txt
+21-11 18:14:04   [Inequality] QA needs_reference: sources:Feynman_en.txt
+21-11 18:14:12   [Statement_Conclusion] QA passed: editorial:Feynman_hi.txt
+21-11 18:14:12   [Statement_Conclusion] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
+21-11 18:14:13 QA 12th_Level/Reasoning/Chapter_16_Statement_Conclusion: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Hook example claims both conclusions are wrong, but Conclusion II ("मेहनत सफलता की एक शर्त है") is a valid necessary-condition inference from the statement "सभी सफल लोग मेहनती होते हैं" → Conclusion II should be considered correct (or the example should be corrected to show only Conclusion I is invalid).']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_16_Statement_Conclusion/QA.json'}
 ````
 
 </details>
