@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 06:32 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 06:33 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,10 +11,10 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 173 मिनट |
-| W10 | Chapter 03 Adjective (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W11 | Chapter 12 Sentence Structure (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W12 | Chapter 02 Pronoun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 174 मिनट |
+| W10 | Chapter 13 Synonyms (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W11 | Chapter 12 Sentence Structure (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W12 | Chapter 02 Pronoun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
 | W2 | Chapter 05 Tense (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
 | W3 | Chapter 09 Articles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
 | W4 | Chapter 04 Verb (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
@@ -26,10 +26,10 @@
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 124 |
+| key 3 | 125 |
 | key 4 | 116 |
-| key 5 | 114 |
-| key 6 | 101 |
+| key 5 | 115 |
+| key 6 | 102 |
 
 ## किताबों की प्रगति
 
@@ -68,12 +68,12 @@
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 104/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 96/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 101/1950 |
-| 12th English | 0 | 25 | 0 | 0 | 0 | 71/2025 |
+| 12th English | 0 | 25 | 0 | 0 | 0 | 73/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 812/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 814/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,12 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 18:27:19   [Adverb] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
-21-11 18:27:19 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_06_Adverb: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- 'daily' is incorrectly included in the list of 'बिना -ly वाले Adverb' (adverbs without -ly) because 'daily' ends with -ly → remove 'daily' from that list."]}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_06_Adverb/QA.json'}
-21-11 18:27:52   [Preposition] QA blocked: editorial:Feynman_en.txt
-21-11 18:28:14   [Preposition] QA needs_reference: sources:Feynman_en.txt
-21-11 18:28:14   [Preposition] QA passed: editorial:Feynman_hi.txt
-21-11 18:28:14   [Preposition] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
 21-11 18:28:15 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_07_Preposition: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: **AT** a point (5 pm), **ON** a day (Monday), **IN** a period (July / 2024 / the evening).', 'Fetch official supporting evidence for: - **Since** → point of time (when it *started*): since Monday, since 2010, since childhood.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- Section contains no valid educational content — corrupted prompt template text with repetitive "prompt for prompt" garbage and incomplete Hindi/English fragments, not study material for SSC/Railway/Bank/State exams']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_07_Preposition/QA.json'}
 21-11 18:28:15   [Conjunction] QA needs_reference: sources:Content_hi.txt
 21-11 18:29:13   [Articles] QA needs_reference: sources:Content_hi.txt
@@ -127,6 +121,12 @@
 21-11 18:33:02   [Synonyms] QA passed: editorial:Feynman_hi.txt
 21-11 18:33:02   [Synonyms] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
 21-11 18:33:02 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_13_Synonyms: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In Trap 2, the example "End (noun) का synonym Finish (verb)" is factually incorrect because they are different parts of speech and not synonyms; the trap is a part-of-speech mismatch, not a valid synonym pair. → The example should illustrate the trap correctly, e.g., "If the question word is End (noun), a trap option could be Finish (verb), but it is not a synonym because the parts of speech differ."']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_13_Synonyms/QA.json'}
+21-11 18:33:07   [Antonyms] QA needs_reference: sources:Content_hi.txt
+21-11 18:33:16   [Sentence_Structure] QA passed: editorial:Feynman_hi.txt
+21-11 18:33:16   [Sentence_Structure] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 5, "pending": 73, "blocked": 0, "needs_reference": 3, "remaining": 76, 
+21-11 18:33:17 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_12_Sentence_Structure: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 5, 'pending': 73, 'blocked': 0, 'needs_reference': 3, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_12_Sentence_Structure/QA.json'}
+21-11 18:33:31   [Antonyms] QA passed: editorial:Feynman_en.txt
+21-11 18:33:31   [Antonyms] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>
