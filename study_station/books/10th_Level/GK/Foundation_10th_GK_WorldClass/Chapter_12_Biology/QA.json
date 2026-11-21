@@ -109,11 +109,71 @@
         "Content_hi.txt": "a77f7c0bce0e71db20e9d54abae729c97b42fc7ad0210118e4db8deab48bf323"
       },
       "checked_at": "2026-11-21T06:13:54+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "949c4cb5d656ed42cb72e084f7660da9f6dd5b2ae02e7e41a9bc2747f2f3c82e",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "f8494bbab1918fdb1929cb6586b7a7909313116e5f56c1c62446c22124bc7ed4",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "a77f7c0bce0e71db20e9d54abae729c97b42fc7ad0210118e4db8deab48bf323",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:42:41+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "e940599c2c8b2005d0e0fb27a5f700e7c92851528e4c6791bd415f88f9b129a7",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "f8494bbab1918fdb1929cb6586b7a7909313116e5f56c1c62446c22124bc7ed4",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "f50e8cf1be2b5dc3c0986a6077a6fee4f993ff24b5ae9d53a81b266745df97f8"
+      },
+      "checked_at": "2026-11-21T10:45:24+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "01dfcfed208091e1e3ead630a6cd880d173628ffe3cb887168191d1d9fe338af",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "f8494bbab1918fdb1929cb6586b7a7909313116e5f56c1c62446c22124bc7ed4",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "f50e8cf1be2b5dc3c0986a6077a6fee4f993ff24b5ae9d53a81b266745df97f8",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:45:24+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "4412fe5b80d766200376c9068f030f89aabf7986da229ce5387789495a705596",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- 'फुफ्फुस धमनी फीकी' मंत्र में 'फीकी' (पीलापन/फीकापन) गलत है क्योंकि विऑक्सीजनित रक्त गहरा लाल होता है, फीका नहीं → मंत्र होना चाहिए: 'फुफ्फुस धमनी विऑक्सीजनित, फुफ्फुस शिरा ऑक्सीजनित' या 'फुफ्फुस धमनी गहरी, फुफ्फुस शिरा चमकीली'"
+      ],
+      "dependencies": {
+        "chapter.json": "f8494bbab1918fdb1929cb6586b7a7909313116e5f56c1c62446c22124bc7ed4",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "e1f388d8a23ca503304af43a21772485581562af3e49ab047ed06f5297892444"
+      },
+      "checked_at": "2026-11-21T10:50:30+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T06:13:54+00:00",
+  "updated_at": "2026-11-21T10:50:30+00:00",
   "chapter_fingerprint": "e91d8763c1a507bd93879f2e26bade2d7ce2c12d3ab489c6e7b2252974a1895e"
 }
