@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 11:16 AM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 11:17 AM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 25 मिनट |
-| W10 | Chapter 13 networking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W11 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W12 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W2 | Chapter 14 muhavare lokokti (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 25 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 26 मिनट |
+| W10 | Chapter 13 networking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W11 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W12 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W2 | Chapter 14 muhavare lokokti (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 26 मिनट |
 | W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 16 मिनट |
-| W5 | Chapter 13 ek shabd (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W5 | Chapter 13 ek shabd (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
 | W6 | Chapter 09 upsarg pratyay (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
 | W7 | Chapter 08 samas (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
-| W8 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W9 | Chapter 12 e banking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W8 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W9 | Chapter 12 e banking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 14 |
-| key 4 | 18 |
-| key 5 | 18 |
+| key 3 | 15 |
+| key 4 | 19 |
+| key 5 | 19 |
 | key 6 | 3 |
 
 ## किताबों की प्रगति
@@ -83,14 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 11:10:17   [email] QA needs_reference: sources:Content_en.txt
-21-11 11:10:51   [keyboard_shortcuts] QA passed: editorial:Content_en.txt
-21-11 11:10:51   [keyboard_shortcuts] QA needs_reference: sources:Content_en.txt
-21-11 11:10:59   [input_output_ports] QA blocked: editorial:Content_hi.txt
-21-11 11:10:59   [input_output_ports] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
-21-11 11:10:59 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_02_input_output_ports: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- USB 3.1 Gen 2 / 3.2 Gen 2 (10 Gbps) पंक्ति में "लाल/टील इनसर्ट" पहचान गलत है → USB-IF मानक के अनुसार 10 Gbps के लिए केवल टील (नीला-हरा) रंग निर्धारित है; लाल इनसर्ट 20 Gbps (USB 3.2 Gen 2x2) के लिए है।']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_02_input_output_ports/QA.json'}
-21-11 11:11:27   [email] QA blocked: editorial:Content_hi.txt
-21-11 11:11:27   [email] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
 21-11 11:11:27 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_11_email: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: 1. **Subject line**: Clear, specific — "Application: SSC CGL 2024 — Roll No 12345" not "Hello".']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Local-part (उपयोगकर्तानाम) is stated as not case-sensitive, but per RFC 5321 the local-part is case-sensitive → Correct: Local-part is case-sensitive (though many providers treat it as case-insensitive in practice).']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_11_email/QA.json'}
 21-11 11:11:45   [anekarthi_samshrut] QA passed: structure
 21-11 11:12:27   [vilom] QA blocked: editorial:Feynman_hi.txt
@@ -123,6 +115,14 @@
 21-11 11:16:40   [upsarg_pratyay] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 1, "pending": 32, "blocked": 2, "needs_reference": 1, "remaining": 35, 
 21-11 11:16:40 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 1, 'pending': 32, 'blocked': 2, 'needs_reference': 1, 'remaining': 35, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- In section 3.2 (ग) स्त्रीलिंग प्रत्यय table, the suffix '-त्री' is incorrectly exemplified with 'गायक → गायिका'; '-त्री' does not produce 'गायिका' (the correct suffix for that transformation is '-इका' or '-ई' with deletion of -क) → Replace the example for '-त्री' with a valid one (e.g., 'पुत्र → पुत्री' for '-ई') or change the suffix to '-इका' for 'गायक → गायिका'."]}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- "अनुचित" के विश्लेषण में उपसर्ग "अनु-" का अर्थ "अनुसार/पीछे" बताया गया है → "अनुचित" में "अनु-" निषेधार्थक उपसर्ग है (स्वर से पहले "अ-" का रूप "अनु-"), अर्थ "नहीं/अभाव"; मूल "चित्" (धातु) + "उ-" (उपसर्ग) + "त" (कृदन्त) = "उचित"', '- कृदन्त प्रत्ययों की सूची में "-आ, -ई, -न, -त, -नार" दिया है लेकिन उदाहरण "खेलना" में "ना" प्रयुक्त है → सूची में "ना" (क्रिया-संज्ञा/इन्फिनिटिव कारक) जोड़ें या उदाहरण बदलें']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay/QA.json'}
 21-11 11:17:15   [sandhi] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q2 key c vs re-solve b, Q3 key c vs re-solve a, Q4 key d vs re-solve b, Q9 key b vs re-solve ?, Q13 
+21-11 11:17:43   [cyber_security] QA passed: structure
+21-11 11:17:48   [powerpoint] QA passed: editorial:Content_en.txt
+21-11 11:17:48   [powerpoint] QA needs_reference: sources:Content_en.txt
+21-11 11:17:54   [ek_shabd] QA blocked: editorial:Feynman_hi.txt
+21-11 11:17:54   [ek_shabd] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 2, "pending": 32, "blocked": 1, "needs_reference": 1, "remaining": 34, 
+21-11 11:17:54 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 2, 'pending': 32, 'blocked': 1, 'needs_reference': 1, 'remaining': 34, 'failures': [{'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- In "सामान्य गलतियाँ और उनसे बचाव" point 3, "लोकप्रिया" is incorrectly given as the feminine form of "लोकप्रिय"; the adjective "लोकप्रिय" is invariant and does not change for gender → The feminine form is also "लोकप्रिय"']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd/QA.json'}
+21-11 11:18:21   [muhavare_lokokti] QA passed: editorial:Content_hi.txt
+21-11 11:18:21   [muhavare_lokokti] QA needs_reference: sources:Content_hi.txt
 ````
 
 </details>

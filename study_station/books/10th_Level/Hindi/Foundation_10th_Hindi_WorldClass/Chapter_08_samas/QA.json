@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "a9e1467d78869f4f5b7c680d20010d634ffb3dd7ccec382bcfd5c673ad569c2d",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "5dc327568de176b8bd533241576ae4d4a02bb4a8220bd61b368a5849c2680ac2",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Content_hi.txt": "82c7dd4543960b148e41ec5139fb24dacc823ac7504ddca45b8309aeb0c272a8",
+        "Feynman_hi.txt": "573e57e3af0298e32458dc02de739cc0a49fde09827f18db21e86daa0be7e0ef",
+        "Flashcards_hi.txt": "7ea2af7a150ab59af1516e54b1e59fdffd3f776745ececffdd24115604877f7e",
+        "Important_Rules_hi.txt": "cfc6c56ec354773667a8fec86ed9b6001113a96e4a325e1c1e7c5f0ce93ef0c1",
+        "Key_Facts_hi.txt": "47104f461e2b78d508f14adcf27b803c74310a629eea798c2ff64aa0c86db5d2",
+        "Mind_Map.txt": "22127cf14ca336cf9a02aba12bda4c900e0f07f66afea437839a562d03c1a0be",
+        "PYQ_hi.txt": "4b3558e262f518261176c9a13199dfab23cd5c60347eb454a1567c70bd0c1d40",
+        "Practice_hi_Set_01.txt": "d7bff34964345c4c7fe2a6d6c79d7e80a78fa098931140a22b0fbfafca1747b1",
+        "Practice_hi_Set_02.txt": "e4927dbd49c54da3fab22e4bfbd86b05da98a12a62935f64e71f983be0fa946e",
+        "Practice_hi_Set_03.txt": "f6ccaeea437ec964622f330d0a44408de82b990824c25066d70975c0b9489c6e",
+        "Practice_hi_Set_04.txt": "e0a00b837ca27f4de1f013462c4a7f7d3649ed68a63405a8318ffcd7e5185bc8",
+        "Practice_hi_Set_05.txt": "ff72a88c2752e37f27e886762f87155793db769ef0a05afa6d0802db0ff8a066",
+        "Practice_hi_Set_06.txt": "bbcf97711bd88450cfebd3ca5a586feec343917b4539e3eac83be415795c423b",
+        "inventory": {
+          "Content_hi.txt": "82c7dd4543960b148e41ec5139fb24dacc823ac7504ddca45b8309aeb0c272a8",
+          "Feynman_hi.txt": "573e57e3af0298e32458dc02de739cc0a49fde09827f18db21e86daa0be7e0ef",
+          "Flashcards_hi.txt": "7ea2af7a150ab59af1516e54b1e59fdffd3f776745ececffdd24115604877f7e",
+          "Important_Rules_hi.txt": "cfc6c56ec354773667a8fec86ed9b6001113a96e4a325e1c1e7c5f0ce93ef0c1",
+          "Key_Facts_hi.txt": "47104f461e2b78d508f14adcf27b803c74310a629eea798c2ff64aa0c86db5d2",
+          "Mind_Map.txt": "22127cf14ca336cf9a02aba12bda4c900e0f07f66afea437839a562d03c1a0be",
+          "PYQ_hi.txt": "4b3558e262f518261176c9a13199dfab23cd5c60347eb454a1567c70bd0c1d40",
+          "Practice_hi_Set_01.txt": "d7bff34964345c4c7fe2a6d6c79d7e80a78fa098931140a22b0fbfafca1747b1",
+          "Practice_hi_Set_02.txt": "e4927dbd49c54da3fab22e4bfbd86b05da98a12a62935f64e71f983be0fa946e",
+          "Practice_hi_Set_03.txt": "f6ccaeea437ec964622f330d0a44408de82b990824c25066d70975c0b9489c6e",
+          "Practice_hi_Set_04.txt": "e0a00b837ca27f4de1f013462c4a7f7d3649ed68a63405a8318ffcd7e5185bc8",
+          "Practice_hi_Set_05.txt": "ff72a88c2752e37f27e886762f87155793db769ef0a05afa6d0802db0ff8a066",
+          "Practice_hi_Set_06.txt": "bbcf97711bd88450cfebd3ca5a586feec343917b4539e3eac83be415795c423b"
+        }
+      },
+      "checked_at": "2026-11-21T05:32:35+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "a52a9bf5bc94429480b4dba3fb0e8120fcedf0754b0d702dd841a44861598a61",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The example \"यथार्थ\" under अव्ययीभाव समास is incorrect because \"यथार्थ\" is an adjective (विशेषण), not an अव्यय; it belongs to कर्मधारय तत्पुरुष. → Remove \"यथार्थ\" from अव्ययीभाव examples and reclassify it as कर्मधारय तत्पुरुष.",
+        "- The example \"अनुव्रत\" under अव्ययीभाव समास is incorrect because \"अनुव्रत\" is a noun/adjective, not an अव्यय; it should be classified as तत्पुरुष (कर्मधारय or सामान्य). → Remove \"अनुव्रत\" from अव्ययीभाव examples and reclassify it correctly."
+      ],
+      "dependencies": {
+        "chapter.json": "5dc327568de176b8bd533241576ae4d4a02bb4a8220bd61b368a5849c2680ac2",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Content_hi.txt": "82c7dd4543960b148e41ec5139fb24dacc823ac7504ddca45b8309aeb0c272a8"
+      },
+      "checked_at": "2026-11-21T05:34:36+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "ff90b334671e433367eb1e31841ca38d4c6df982757d6ea130cb1d5fe40ef79f",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "5dc327568de176b8bd533241576ae4d4a02bb4a8220bd61b368a5849c2680ac2",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Content_hi.txt": "82c7dd4543960b148e41ec5139fb24dacc823ac7504ddca45b8309aeb0c272a8",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T05:34:36+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "d7f38148afbd34fd9b6ae20b151342aacfd8b9294431b44a252dc57d1c227db1",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "5dc327568de176b8bd533241576ae4d4a02bb4a8220bd61b368a5849c2680ac2",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Feynman_hi.txt": "573e57e3af0298e32458dc02de739cc0a49fde09827f18db21e86daa0be7e0ef"
+      },
+      "checked_at": "2026-11-21T05:46:35+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T05:46:36+00:00",
+  "chapter_fingerprint": "31f5910783dcfbbd7665d33f96cd4b87fda23479c002bcfe3921754e2031fc17"
+}
