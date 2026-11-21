@@ -85,11 +85,71 @@
         "Feynman_hi.txt": "2a35677cfe361a0935a49b59f47e14cbccdd38267dc8d06cfbbc0fccb7503406"
       },
       "checked_at": "2026-11-21T05:47:54+00:00"
+    },
+    "sources:Feynman_hi.txt": {
+      "fingerprint": "10c81b9e23650068ecc1b164534e89ef5fc1a0b2cb8cc8c8979a89e2e3038c54",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "1e18b30a784f54c074e78e1e085af3a6a87e7993ffbdaaa5200837f71a23b6ac",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Feynman_hi.txt": "2a35677cfe361a0935a49b59f47e14cbccdd38267dc8d06cfbbc0fccb7503406",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:26:44+00:00"
+    },
+    "editorial:Flashcards_hi.txt": {
+      "fingerprint": "20780aaf21a575ec5959d94fd132fad44989ea31cd7aa41c14e81f09df9e0429",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "1e18b30a784f54c074e78e1e085af3a6a87e7993ffbdaaa5200837f71a23b6ac",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Flashcards_hi.txt": "e8c08b160b0baaf9129b9e0b932b715aa872ccf895d9158ef38d27bb17698e69"
+      },
+      "checked_at": "2026-11-21T10:31:09+00:00"
+    },
+    "sources:Flashcards_hi.txt": {
+      "fingerprint": "ffb1adef1efedcc820d130916e596217627595b67e16dda018c653a01f7a80b9",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "1e18b30a784f54c074e78e1e085af3a6a87e7993ffbdaaa5200837f71a23b6ac",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Flashcards_hi.txt": "e8c08b160b0baaf9129b9e0b932b715aa872ccf895d9158ef38d27bb17698e69",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:31:09+00:00"
+    },
+    "editorial:Important_Rules_hi.txt": {
+      "fingerprint": "420b985777ad6e955f85d73dfb3e21f90e3f178f4b214ef3af3ece4266c88049",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Rule 5's second example \"बहुत छोटा → सूक्ष्म / लघु\" does not illustrate prefix/suffix formation (it only gives Tatsam synonyms) → replace with a proper prefixed/suffixed example such as \"असंभव (अ- + संभव)\" or \"सुन्दरता (सुन्दर + ता)\""
+      ],
+      "dependencies": {
+        "chapter.json": "1e18b30a784f54c074e78e1e085af3a6a87e7993ffbdaaa5200837f71a23b6ac",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Important_Rules_hi.txt": "c81f722baabf6a235ebccb2c05da7ca0115877ff0c08ec75d7bddf0bc3686622"
+      },
+      "checked_at": "2026-11-21T10:33:11+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T05:47:54+00:00",
-  "chapter_fingerprint": "dd41ddc9e06a73638e8aea997b5f72175916031c27dcdc00e180ada55f1790bb"
+  "updated_at": "2026-11-21T10:33:11+00:00",
+  "chapter_fingerprint": "ad074878ee70a7f494e9999bbf1f79a4d85a796a4a115caf59ff593ea884d5ae"
 }

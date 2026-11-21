@@ -1,33 +1,32 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 04:03 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 04:04 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 24 मिनट |
-| W10 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W11 | Chapter 01 Ancient History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W12 | Chapter 14 muhavare lokokti (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 24 मिनट |
-| W3 | Chapter 13 ek shabd (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W4 | Chapter 17 apathit gadyansh (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W5 | Chapter 14 cyber security (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W6 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W7 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W8 | Chapter 13 networking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W9 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 25 मिनट |
+| W10 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W11 | Chapter 01 Ancient History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W12 | Chapter 14 muhavare lokokti (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 25 मिनट |
+| W3 | Chapter 13 ek shabd (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W4 | Chapter 17 apathit gadyansh (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W6 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W7 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W8 | Chapter 13 networking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W9 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 13 |
-| key 4 | 23 |
+| key 4 | 25 |
 | key 5 | 17 |
 | key 6 | 7 |
 
@@ -59,8 +58,8 @@
 
 | किताब | QA पास | जाँच बाकी | प्रमाण बाकी | सुधार अटका | मैनुअल | जाँचें पास / कुल |
 |---|---:|---:|---:|---:|---:|---:|
-| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 43/540 |
-| 12th Computer | 0 | 14 | 0 | 0 | 0 | 49/1092 |
+| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 44/540 |
+| 12th Computer | 0 | 14 | 0 | 0 | 0 | 50/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 43/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
@@ -73,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 522/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 524/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,13 +82,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 15:57:35   [powerpoint] QA needs_reference: sources:Feynman_en.txt
-21-11 15:57:36   [networking] QA needs_reference: sources:Content_hi.txt
-21-11 15:58:16   [muhavare_lokokti] QA needs_reference: sources:Feynman_hi.txt
-21-11 15:59:19   [sandhi] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q2 key a vs re-solve c, Q5 key a vs re-solve b, Q8 key a vs re-solve b, Q10 key d vs re-solve a, Q12
-21-11 15:59:21   [cyber_security] QA needs_reference: sources:Content_hi.txt
-21-11 15:59:21   [e_banking] QA passed: editorial:Feynman_en.txt
-21-11 15:59:21   [e_banking] QA needs_reference: sources:Feynman_en.txt
 21-11 15:59:56   [internet_browser] QA passed: editorial:Feynman_hi.txt
 21-11 15:59:56   [internet_browser] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
 21-11 15:59:56 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_10_internet_browser: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- macOS ब्राउज़र शॉर्टकट तालिका का दावा "Chrome/Edge/Firefox पर लागू" गलत है: कई शॉर्टकट (पूर्ण-स्क्रीन ⌘+Ctrl+F, डाउनलोड ⌘+Option+L, इतिहास ⌘+Y, बुकमार्क प्रबंधक ⌘+Option+B, अगला/पिछला टैब ⌘+Option+→/←) Firefox पर macOS में भिन्न हैं (उदाहरण: पूर्ण-स्क्रीन ⌘+Shift+F, डाउनलोड ⌘+Shift+Y, इतिहास ⌘+Shift+H, बुकमार्क ⌘+Shift+B, अगला टैब Ctrl+Tab) → तालिका को केवल Chrome/Edge के लिए चिह्नित करें या Firefox के सही macOS शॉर्टकट दें।']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_10_internet_browser/QA.json'}
@@ -123,6 +115,13 @@
 21-11 16:04:06 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_09_powerpoint: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: - Default aspect ratio: Widescreen (16:9) since PowerPoint 2013; Standard (4:3) available in Design → Slide Size.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: Microsoft Support "Basic tasks in PowerPoint", "Use Slide Master view", "Keyboard shortcuts in PowerPoint".']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_09_powerpoint/QA.json'}
 21-11 16:04:06   [apathit_gadyansh] QA passed: editorial:Flashcards_hi.txt
 21-11 16:04:06   [apathit_gadyansh] QA needs_reference: sources:Flashcards_hi.txt
+21-11 16:04:17   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q77 key b vs re-solve a, Q82 key c vs re-solve a, Q86 key a vs re-solve c, Q100 key b vs re-solve a)
+21-11 16:04:17   [muhavare_lokokti] QA passed: editorial:Flashcards_hi.txt
+21-11 16:04:33   [muhavare_lokokti] QA needs_reference: sources:Flashcards_hi.txt
+21-11 16:04:33   [Modern_History] QA needs_reference: sources:Content_hi.txt
+21-11 16:04:34   [apathit_gadyansh] QA passed: editorial:Important_Rules_hi.txt
+21-11 16:04:34   [apathit_gadyansh] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 5, "pending": 28, "blocked": 0, "needs_reference": 3, "remaining": 31, 
+21-11 16:04:34 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_17_apathit_gadyansh: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 5, 'pending': 28, 'blocked': 0, 'needs_reference': 3, 'remaining': 31, 'failures': [{'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Flashcards_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_17_apathit_gadyansh/QA.json'}
 ````
 
 </details>
