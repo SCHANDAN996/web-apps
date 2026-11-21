@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 12:21 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 12:22 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 90 मिनट |
-| W10 | Chapter 17 Course of Action (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W11 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W2 | Chapter 21 Paper Folding Cutting (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 90 मिनट |
-| W4 | Chapter 15 Mathematical Operations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W5 | Chapter 14 Alphabet Questions (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W6 | Chapter 10 Clock Calendar (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
-| W7 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W8 | Chapter 20 Mirror Water Images (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W9 | Chapter 08 Puzzles Basic (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 91 मिनट |
+| W10 | Chapter 17 Course of Action (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W11 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W12 | Chapter 22 Figure Series (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W2 | Chapter 21 Paper Folding Cutting (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 91 मिनट |
+| W4 | Chapter 15 Mathematical Operations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W5 | Chapter 14 Alphabet Questions (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W6 | Chapter 10 Clock Calendar (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
+| W7 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W8 | Chapter 20 Mirror Water Images (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 31 |
+| key 3 | 32 |
 | key 4 | 51 |
 | key 5 | 52 |
-| key 6 | 36 |
+| key 6 | 37 |
 
 ## किताबों की प्रगति
 
@@ -61,8 +61,8 @@
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 31/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 29/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 43/1482 |
-| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 45/1716 |
-| 10th Maths | 0 | 22 | 0 | 0 | 0 | 0/1606 |
+| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 46/1716 |
+| 10th Maths | 0 | 22 | 0 | 0 | 0 | 1/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 0/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 0/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 0/1872 |
@@ -72,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 148/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 150/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -82,10 +82,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 12:18:02   [Venn_Diagrams] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
-21-11 12:18:03 QA 10th_Level/Reasoning/Chapter_09_Venn_Diagrams: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Summary Table: The example "Officer, Manager, Clerk" with description "Manager inside Officer, both overlapping with Clerk" is incorrect because in standard government job classification, Clerk is a separate cadre disjoint from Officer/Manager → Replace with a valid mixed subset+overlap example such as "Employee, Manager, Engineer" where Manager ⊂ Employee and Engineer overlaps Employee (and possibly Manager).']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_09_Venn_Diagrams/QA.json'}
-21-11 12:18:32   [Sitting_Arrangement] QA blocked: editorial:Content_hi.txt
-21-11 12:18:32   [Sitting_Arrangement] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 1, "pending": 74, "blocked": 2, "needs_reference": 1, "remaining": 77, 
 21-11 12:18:32 QA 10th_Level/Reasoning/Chapter_07_Sitting_Arrangement: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 1, 'pending': 74, 'blocked': 2, 'needs_reference': 1, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Hook example claims three clues uniquely determine the seating as Aman–Beena–Chetan–Deepa–Eshan, but four arrangements satisfy the clues (e.g., Aman–Beena–Chetan–Deepa–Eshan, Aman–Beena–Eshan–Deepa–Chetan, Chetan–Deepa–Eshan–Aman–Beena, Eshan–Deepa–Chetan–Aman–Beena) → Remove the claim of unique deduction or modify the clues to yield a single solution.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- The mixed facing directions example incorrectly claims that a person facing north and a person facing south in a linear row are "एक-दूसरे के सामने हैं" (facing each other); in a row they face perpendicular directions, not each other. The left/right reversal occurs because they face opposite directions, not because they face each other. → Correct the explanation: they face opposite directions, causing their left/right to be reversed relative to each other.', '- The mnemonic "आमने-सामने, दायाँ-बायाँ बदले; पीठ-पीठ, दिशा एक ही दीठ" and its explanation are misapplied to linear mixed directions; it actually describes face-to-face/back-to-back scenarios (e.g., two parallel rows). In a single row with north/south facing, persons facing opposite directions have reversed left/right, not same. → Clarify that the mnemonic is for face-to-face/back-to-back arrangements; for a row, use the arrow method to determine each person\'s left/right individually.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_07_Sitting_Arrangement/QA.json'}
 21-11 12:18:51   [Statement_Conclusion] QA passed: editorial:Content_hi.txt
 21-11 12:19:09   [Statement_Conclusion] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
@@ -122,6 +118,10 @@
 21-11 12:22:25 QA 10th_Level/Reasoning/Chapter_10_Clock_Calendar: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: Example: “Which year after 2024 will have the same calendar as 2024?” 2024 is a leap year, so 2024 + 28 = 2052.', 'Fetch official supporting evidence for: 🧠 If 2025 is ordinary, will 2031 have the same calendar? Yes: odd days from 2025 to 2030 add up to 1+1+1+2+1+1 = 7 (a multiple of 7), and both 2025 and 2031 are ordinary years. When in doubt, always count odd days instead of blindly adding 6 or 11.', 'Fetch official supporting evidence for: “Which year after 2004 will have the same calendar as 2004?” Blindly adding 6 or 11 fails here: 2004 is a leap year, so it can only match another leap year whose odd-day total in between is a multiple of 7 — that happens after 28 years (2032). Options like 2010, 2011, 2015 trap students who memorised a rigid “+6 or +11” pattern without checking whether the year is leap. Always check the leap/ordinary nature first, then count odd days.']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In the “एक झटका जो सोचने पर मजबूर कर दे” section, the example for 2:48 claims the smaller angle is 132°, but the correct angle is 156° (|30×2 – 5.5×48| = 204°, 360°–204° = 156°).', '- In the “सारांश तालिका”, the formula for “सुइयों के बीच कोण” is written as “θ = 30H – 5.5M” without absolute value, which can give negative results; it should be “θ = |30H – 5.5M|”.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_10_Clock_Calendar/QA.json'}
 21-11 12:22:39   [Figure_Series] QA passed: editorial:Content_en.txt
 21-11 12:22:39   [Figure_Series] QA needs_reference: sources:Content_en.txt
+21-11 12:23:02   [Number_System] QA passed: structure
+21-11 12:23:23   [Figure_Series] QA blocked: editorial:Content_hi.txt
+21-11 12:23:23   [Figure_Series] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 12:23:24 QA 10th_Level/Reasoning/Chapter_22_Figure_Series: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- The text states "5 प्रमाणित पैटर्न प्रकार" but the SHAPES mnemonic lists 6 pattern types (Shading/Shifting, Half-turn/Rotation, Addition/Alternate, Position change, Element count, Symmetry/Size change) → Change the initial claim to "6 प्रमाणित पैटर्न प्रकार" or reduce the mnemonic to 5 types.', '- The claim "तुम्हारा दिमाग़ नई जानकारी का 50% 24 घंटों के अंदर भूल जाता है" is inaccurate; the Ebbinghaus forgetting curve indicates approximately 60-70% loss within 24 hours without repetition → Correct the percentage to "60-70%" or replace with a vague phrase like "अधिकांश भाग".']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_22_Figure_Series/QA.json'}
 ````
 
 </details>
