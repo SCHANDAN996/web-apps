@@ -110,11 +110,70 @@
         "Content_hi.txt": "f203d9a0bc42425ee7f86a463d29db2cd5dfcb4a3cc3bf4500f1cb3384bc5e5a"
       },
       "checked_at": "2026-11-21T06:35:52+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "aaeb76311455946e0123c95861e3239efe3758b486741118bcb89cd7db6df98a",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: जैव विविधता यानी जीवन की विविधता — जीन, प्रजाति और पारितंत्र के स्तर पर। NCERT के अनुसार भारत के पास विश्व के स्थल क्षेत्र का केवल लगभग 2.4% है, पर विश्व की दर्ज प्रजाति-विविधता का लगभग 8.1% भारत में है। भारत 17 महाविविधता (megadiverse) वाले देशों में से एक है।",
+        "Fetch official supporting evidence for: सल्फ़र डाइऑक्साइड (SO2) और नाइट्रोजन ऑक्साइड (NOx) — अम्लीय वर्षा का कारण। अम्लीय वर्षा संगमरमर को गलाती है; NCERT के अनुसार आगरा और मथुरा के आसपास के उद्योगों के प्रदूषकों से ताजमहल का संगमरमर क्षतिग्रस्त हो रहा है (\"संगमरमर कैंसर\")।"
+      ],
+      "dependencies": {
+        "chapter.json": "0064c52a386b5c9e1d34a434785b801a671535e7a3d644b111123ac1bdfe7a72",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "f203d9a0bc42425ee7f86a463d29db2cd5dfcb4a3cc3bf4500f1cb3384bc5e5a",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:48:53+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "0f35680e14727a5508a5c6cc71079db8e07d7fa25e280b80c0e47f51c7f0cfc9",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "0064c52a386b5c9e1d34a434785b801a671535e7a3d644b111123ac1bdfe7a72",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "57cd0a55f790ebfda6d78cd1fc533ebc4a091d5ea5badbf4951bdd67e82fae26"
+      },
+      "checked_at": "2026-11-21T10:50:19+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "179862507d968238e1d9f04e8052d6ffa0e29c374d021f1c478b18194065353d",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "0064c52a386b5c9e1d34a434785b801a671535e7a3d644b111123ac1bdfe7a72",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "57cd0a55f790ebfda6d78cd1fc533ebc4a091d5ea5badbf4951bdd67e82fae26",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:50:20+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "dc72703eabb099eb1aeefa7c74fe0bac570a3a3b04367a7ff1a7193544fc2937",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "0064c52a386b5c9e1d34a434785b801a671535e7a3d644b111123ac1bdfe7a72",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "9d945e5504aee21f7983d588211240481f8baf7a169cd02ac89a7f9b3e36504b"
+      },
+      "checked_at": "2026-11-21T10:50:51+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T06:35:53+00:00",
+  "updated_at": "2026-11-21T10:50:51+00:00",
   "chapter_fingerprint": "ce181d2226af9fac25847cf0ab0032653db2bd67808ba6b42470bc7b56e81e26"
 }
