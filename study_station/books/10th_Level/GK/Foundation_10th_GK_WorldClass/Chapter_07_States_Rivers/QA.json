@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "d86e36963955124b27deed1dab92a32aa2d54fc33126bf1bf2f974bbd1be8b87",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "68ec62f2f56914719a0f3ced22cff2936421605c757893f64a973c836de5374c",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "2a750df7560f4cea802eb5a8a0b0bbc6695899b7b6b6d32b856e1737eec85ea3",
+        "Content_hi.txt": "eba7c97fe7edc16509cccb13b791f8449396418c963f1695f2addce5af0b4a6c",
+        "Feynman_en.txt": "5ebe55ba65a6ad6e15a1f8832bb5a4615127d7f700dd94256fe7325b4b693141",
+        "Feynman_hi.txt": "b19097786fd8131ca6725493c76882955981dfe0bbe93ef74b0f0354164a2664",
+        "Flashcards_en.txt": "159bb1d2301d57556663496135f098ea647e47e8f8d6317cbe9324e8bc8ff808",
+        "Flashcards_hi.txt": "ae7efeef56c3f9db78f944af09a154ec8b6c9feb475d10d8a4b3dcd45ab22071",
+        "Key_Facts_en.txt": "81fcd8db63a17e2d69519e7410d7dd05619c2d9a5fc554fe6bc831448a105ade",
+        "Key_Facts_hi.txt": "e389ec097d08211f3720e8da8d9ab011d2b6a366d4113ba45329e66f3805c61f",
+        "Memory_Hooks_en.txt": "3a997d54d890a067e1cd655bdb364bcd5d4bb4605bf53b03e2820fda2a5531f0",
+        "Memory_Hooks_hi.txt": "7891cffea6f8835972ad1acef67246e0ab02a1b502cc41560d98ebe551d6b972",
+        "Mind_Map.txt": "c6f692b8da410adc40257497d072120df2202a8ef0861dc2d7c5888eb3ac879e",
+        "PYQ_en.txt": "79f0fc7d3e9d58c8b21c613450dcb6d23029b2950f032524facecabf972dc7ec",
+        "PYQ_hi.txt": "238ef97e2b8d75ed367d911230fb17ed302100f703a2f4b1e905ce3a35b4fd80",
+        "Practice_en_Set_01.txt": "9b32c5287944a58fbc593eeb38950c9fe750784acfec54bdbfe6b6897a2438e9",
+        "Practice_en_Set_02.txt": "6ad70e0bd68df621c582d542a8942b0b0025bbffc29f61330ebfcd83bcb4b1a2",
+        "Practice_en_Set_03.txt": "ebdc7afe4935233ad45991e0568697b661e71714e131bf111087d9b361cdf6af",
+        "Practice_en_Set_04.txt": "bc9c626cb7021e3763226021cd078289b7b8026d18877e428c79f1cea7b080ac",
+        "Practice_en_Set_05.txt": "ca6d1057ef6d0e26621b87331f7383b4db2e924bc6d752487696a121f6c9cb96",
+        "Practice_en_Set_06.txt": "2d6555ce500dc2df9ca5a6b59863f0c3c6542caab94f43c0b59b7d3400f18805",
+        "Practice_hi_Set_01.txt": "c227d0b379803c3a977153a7c6fe823f7e64c81ef703b2477024ccb3a50e1b8e",
+        "Practice_hi_Set_02.txt": "70d0e3f4729457f69987b39a9b373cb32dccf4d79a16de35e9cc4d948d3ea6a0",
+        "Practice_hi_Set_03.txt": "669aa2e00e7bae665f4402a90763a3dcc76e11994bf1d714a5316e9274b67d59",
+        "Practice_hi_Set_04.txt": "12cbc1962cfdb0b63d935c76b8af73b4c3844c1d25c60b45b5be8ff6ac9a6d34",
+        "Practice_hi_Set_05.txt": "ccc7885c433ba56fcde54cd304a067898f0d73965c132f5d16c944c342254f26",
+        "Practice_hi_Set_06.txt": "d8f0c1078b44f8a7f0b627f0989a32bfd1a60a85fddcaf243b15b0ccdee70700",
+        "inventory": {
+          "Content_en.txt": "2a750df7560f4cea802eb5a8a0b0bbc6695899b7b6b6d32b856e1737eec85ea3",
+          "Content_hi.txt": "eba7c97fe7edc16509cccb13b791f8449396418c963f1695f2addce5af0b4a6c",
+          "Feynman_en.txt": "5ebe55ba65a6ad6e15a1f8832bb5a4615127d7f700dd94256fe7325b4b693141",
+          "Feynman_hi.txt": "b19097786fd8131ca6725493c76882955981dfe0bbe93ef74b0f0354164a2664",
+          "Flashcards_en.txt": "159bb1d2301d57556663496135f098ea647e47e8f8d6317cbe9324e8bc8ff808",
+          "Flashcards_hi.txt": "ae7efeef56c3f9db78f944af09a154ec8b6c9feb475d10d8a4b3dcd45ab22071",
+          "Key_Facts_en.txt": "81fcd8db63a17e2d69519e7410d7dd05619c2d9a5fc554fe6bc831448a105ade",
+          "Key_Facts_hi.txt": "e389ec097d08211f3720e8da8d9ab011d2b6a366d4113ba45329e66f3805c61f",
+          "Memory_Hooks_en.txt": "3a997d54d890a067e1cd655bdb364bcd5d4bb4605bf53b03e2820fda2a5531f0",
+          "Memory_Hooks_hi.txt": "7891cffea6f8835972ad1acef67246e0ab02a1b502cc41560d98ebe551d6b972",
+          "Mind_Map.txt": "c6f692b8da410adc40257497d072120df2202a8ef0861dc2d7c5888eb3ac879e",
+          "PYQ_en.txt": "79f0fc7d3e9d58c8b21c613450dcb6d23029b2950f032524facecabf972dc7ec",
+          "PYQ_hi.txt": "238ef97e2b8d75ed367d911230fb17ed302100f703a2f4b1e905ce3a35b4fd80",
+          "Practice_en_Set_01.txt": "9b32c5287944a58fbc593eeb38950c9fe750784acfec54bdbfe6b6897a2438e9",
+          "Practice_en_Set_02.txt": "6ad70e0bd68df621c582d542a8942b0b0025bbffc29f61330ebfcd83bcb4b1a2",
+          "Practice_en_Set_03.txt": "ebdc7afe4935233ad45991e0568697b661e71714e131bf111087d9b361cdf6af",
+          "Practice_en_Set_04.txt": "bc9c626cb7021e3763226021cd078289b7b8026d18877e428c79f1cea7b080ac",
+          "Practice_en_Set_05.txt": "ca6d1057ef6d0e26621b87331f7383b4db2e924bc6d752487696a121f6c9cb96",
+          "Practice_en_Set_06.txt": "2d6555ce500dc2df9ca5a6b59863f0c3c6542caab94f43c0b59b7d3400f18805",
+          "Practice_hi_Set_01.txt": "c227d0b379803c3a977153a7c6fe823f7e64c81ef703b2477024ccb3a50e1b8e",
+          "Practice_hi_Set_02.txt": "70d0e3f4729457f69987b39a9b373cb32dccf4d79a16de35e9cc4d948d3ea6a0",
+          "Practice_hi_Set_03.txt": "669aa2e00e7bae665f4402a90763a3dcc76e11994bf1d714a5316e9274b67d59",
+          "Practice_hi_Set_04.txt": "12cbc1962cfdb0b63d935c76b8af73b4c3844c1d25c60b45b5be8ff6ac9a6d34",
+          "Practice_hi_Set_05.txt": "ccc7885c433ba56fcde54cd304a067898f0d73965c132f5d16c944c342254f26",
+          "Practice_hi_Set_06.txt": "d8f0c1078b44f8a7f0b627f0989a32bfd1a60a85fddcaf243b15b0ccdee70700"
+        }
+      },
+      "checked_at": "2026-11-21T05:56:53+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "faa732924da2aeff29f3af8069744526771c302193a7b219034088aa7e53bf09",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "68ec62f2f56914719a0f3ced22cff2936421605c757893f64a973c836de5374c",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "2a750df7560f4cea802eb5a8a0b0bbc6695899b7b6b6d32b856e1737eec85ea3"
+      },
+      "checked_at": "2026-11-21T06:03:50+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "3066a54cdcf3cd85b92b98f48f3cc38bf8396cccffdf7bc400619093fb51e014",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: UT capitals: Lakshadweep – Kavaratti | Andaman & Nicobar – Sri Vijaya Puram (renamed from Port Blair in September 2024) | Puducherry – Puducherry | Dadra & Nagar Haveli and Daman & Diu – Daman.",
+        "Fetch official supporting evidence for: Andaman & Nicobar: the capital Port Blair was renamed Sri Vijaya Puram in September 2024."
+      ],
+      "dependencies": {
+        "chapter.json": "68ec62f2f56914719a0f3ced22cff2936421605c757893f64a973c836de5374c",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "2a750df7560f4cea802eb5a8a0b0bbc6695899b7b6b6d32b856e1737eec85ea3",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T06:03:50+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "8457bf7861425bf5002da2aea300172362cda144819be5e11ad572d2bc6c7960",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Fabricated future claim: \"सिंधु जल संधि (1960): पहलगाम आतंकी हमले के बाद 23 अप्रैल 2025 को भारत ने घोषणा की कि यह संधि स्थगित (abeyance में) रखी जा रही है।\" → As of 2024, the Indus Water Treaty remains in force; no such abeyance announcement was made on 23 April 2025 (a future date presented as fact)."
+      ],
+      "dependencies": {
+        "chapter.json": "68ec62f2f56914719a0f3ced22cff2936421605c757893f64a973c836de5374c",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "eba7c97fe7edc16509cccb13b791f8449396418c963f1695f2addce5af0b4a6c"
+      },
+      "checked_at": "2026-11-21T06:06:32+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T06:06:32+00:00",
+  "chapter_fingerprint": "77aa33356e847198c97c29355b33aaa243b9fa7d7d6e7bb3d9842bf9bdbab994"
+}
