@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "e2a5f20836737d4f2772a882639314e6e4f8bfb8b6c5dd179b95a2959e90a087",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "c1e158bf97d9605db46f909573011fa3adea1fc74e9a8e924b47deb9942f78bd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "1628f5a72e300ddbcf639917ef3754c370ccd5ab116dc64569e4ce00193aa3de",
+        "Content_hi.txt": "83af6544ccf08dcb9f9b0664817ff3d019a32797afb4b114c7ad71a0799ee373",
+        "Feynman_en.txt": "2067d25f8bd9f5660e8f2a3bde81a7af014e6d2fdc0c4793b33d25e0a9895c0b",
+        "Feynman_hi.txt": "c588ec9722e8b59b25d9dc9e7cc882f54c35615924c2c8aabbb1ebfdb02c4d1a",
+        "Flashcards_en.txt": "f86a59d66e01b715e80f8feaee38b1527a830dcff7c68a4383fcf9d0f8b13d42",
+        "Flashcards_hi.txt": "0c9ea6a91e0b89f7ae479da454ed0a4a71d3cb32f61ea37b7ced463f6caee89b",
+        "Important_Rules_en.txt": "88e23a3d91980d0da1bb42248584b39e98232fe1b9c9371370823e718faad5b3",
+        "Important_Rules_hi.txt": "1249eea2273d3ed851db8f59c74373bc9f1f372ecca4a283d02ffeedcb41df61",
+        "Mind_Map.txt": "ac9b3b4e7658220cc34814da3c1306b636bc15c4387864e5c93ea7d650ddf2f5",
+        "PYQ_en.txt": "ab4ea2383904e765e7ea5a0e85bb2950671e754f852894775ee22fa53263094d",
+        "PYQ_hi.txt": "878afa8681b4da49c07fdd76a1537a30ca6d3f9c0af170c50f436c2983e53bb0",
+        "Practice_en_Set_01.txt": "beddcc4aabd27749a36f40a6d5bbccebe244ab195455b79fa8d3ab03d49aaba7",
+        "Practice_en_Set_02.txt": "4819ecbf0b029413e68432ebe05fb170ceae773b763f18dd659d06d4a49db37a",
+        "Practice_en_Set_03.txt": "972446ee8f6fc4abca8cd3eca506239363234b853fb752a237feae52447159c3",
+        "Practice_en_Set_04.txt": "911682a714485cf05868f8d839cd351cd537f085127fa6e191e1c7cb822adb28",
+        "Practice_en_Set_05.txt": "7f3e668a9a1b7b309491e8c3a6a82258e0f7b853def53406713cefa67f4229d7",
+        "Practice_en_Set_06.txt": "f503739e00ecc48bcac96fb790f2e9ce3e5534de658ae4b044299c161b422b60",
+        "Practice_hi_Set_01.txt": "99d792a90d90e810ac566bec2e34edb0407194bdab1fc75d27f98cd589a73cb9",
+        "Practice_hi_Set_02.txt": "eb213ab38a6e6d937513d41f1e38a780faad9665c7ac11fe65eccd6e090c426b",
+        "Practice_hi_Set_03.txt": "02d42126bf665af170acedd958f7841ced8b4c3d4ca14042c3ecfd674c0d9a46",
+        "Practice_hi_Set_04.txt": "56f64db24c7237b80f0710e8af5fd9e762d9f7cbb1ea7c6a31ed231aa0cec475",
+        "Practice_hi_Set_05.txt": "48bb30b7be4b36aa895c056ba5f4070856a183d491ffac9ad8af9af5a8f49a72",
+        "Practice_hi_Set_06.txt": "e1d21b3369a9b9b8f6aa325efeef76adc0809cfdbd62e02a66d09aba308d83a6",
+        "Short_Tricks_en.txt": "b5570c1cffb99cb3bbc3b5cc00a0e1f0222aadbb79184ca1bf4462d6eab4f401",
+        "Short_Tricks_hi.txt": "2a5f24dc7454f82d911837c2f7ebe08194a28d3ca1b5510b40017e92201b3f5b",
+        "inventory": {
+          "Content_en.txt": "1628f5a72e300ddbcf639917ef3754c370ccd5ab116dc64569e4ce00193aa3de",
+          "Content_hi.txt": "83af6544ccf08dcb9f9b0664817ff3d019a32797afb4b114c7ad71a0799ee373",
+          "Feynman_en.txt": "2067d25f8bd9f5660e8f2a3bde81a7af014e6d2fdc0c4793b33d25e0a9895c0b",
+          "Feynman_hi.txt": "c588ec9722e8b59b25d9dc9e7cc882f54c35615924c2c8aabbb1ebfdb02c4d1a",
+          "Flashcards_en.txt": "f86a59d66e01b715e80f8feaee38b1527a830dcff7c68a4383fcf9d0f8b13d42",
+          "Flashcards_hi.txt": "0c9ea6a91e0b89f7ae479da454ed0a4a71d3cb32f61ea37b7ced463f6caee89b",
+          "Important_Rules_en.txt": "88e23a3d91980d0da1bb42248584b39e98232fe1b9c9371370823e718faad5b3",
+          "Important_Rules_hi.txt": "1249eea2273d3ed851db8f59c74373bc9f1f372ecca4a283d02ffeedcb41df61",
+          "Mind_Map.txt": "ac9b3b4e7658220cc34814da3c1306b636bc15c4387864e5c93ea7d650ddf2f5",
+          "PYQ_en.txt": "ab4ea2383904e765e7ea5a0e85bb2950671e754f852894775ee22fa53263094d",
+          "PYQ_hi.txt": "878afa8681b4da49c07fdd76a1537a30ca6d3f9c0af170c50f436c2983e53bb0",
+          "Practice_en_Set_01.txt": "beddcc4aabd27749a36f40a6d5bbccebe244ab195455b79fa8d3ab03d49aaba7",
+          "Practice_en_Set_02.txt": "4819ecbf0b029413e68432ebe05fb170ceae773b763f18dd659d06d4a49db37a",
+          "Practice_en_Set_03.txt": "972446ee8f6fc4abca8cd3eca506239363234b853fb752a237feae52447159c3",
+          "Practice_en_Set_04.txt": "911682a714485cf05868f8d839cd351cd537f085127fa6e191e1c7cb822adb28",
+          "Practice_en_Set_05.txt": "7f3e668a9a1b7b309491e8c3a6a82258e0f7b853def53406713cefa67f4229d7",
+          "Practice_en_Set_06.txt": "f503739e00ecc48bcac96fb790f2e9ce3e5534de658ae4b044299c161b422b60",
+          "Practice_hi_Set_01.txt": "99d792a90d90e810ac566bec2e34edb0407194bdab1fc75d27f98cd589a73cb9",
+          "Practice_hi_Set_02.txt": "eb213ab38a6e6d937513d41f1e38a780faad9665c7ac11fe65eccd6e090c426b",
+          "Practice_hi_Set_03.txt": "02d42126bf665af170acedd958f7841ced8b4c3d4ca14042c3ecfd674c0d9a46",
+          "Practice_hi_Set_04.txt": "56f64db24c7237b80f0710e8af5fd9e762d9f7cbb1ea7c6a31ed231aa0cec475",
+          "Practice_hi_Set_05.txt": "48bb30b7be4b36aa895c056ba5f4070856a183d491ffac9ad8af9af5a8f49a72",
+          "Practice_hi_Set_06.txt": "e1d21b3369a9b9b8f6aa325efeef76adc0809cfdbd62e02a66d09aba308d83a6",
+          "Short_Tricks_en.txt": "b5570c1cffb99cb3bbc3b5cc00a0e1f0222aadbb79184ca1bf4462d6eab4f401",
+          "Short_Tricks_hi.txt": "2a5f24dc7454f82d911837c2f7ebe08194a28d3ca1b5510b40017e92201b3f5b"
+        }
+      },
+      "checked_at": "2026-11-21T06:39:17+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "fc84077df37afdb166111b31bebc2ef7839679fe1487911d05dfbaae749013be",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "c1e158bf97d9605db46f909573011fa3adea1fc74e9a8e924b47deb9942f78bd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "1628f5a72e300ddbcf639917ef3754c370ccd5ab116dc64569e4ce00193aa3de"
+      },
+      "checked_at": "2026-11-21T06:45:24+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "1f216dac325fbe1eb9b9dd8a0f582d7acd192e74cd513f317d9ba2b01e82ed86",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: Example: “Which year after 2024 will have the same calendar as 2024?” 2024 is a leap year, so 2024 + 28 = 2052.",
+        "Fetch official supporting evidence for: 🧠 If 2025 is ordinary, will 2031 have the same calendar? Yes: odd days from 2025 to 2030 add up to 1+1+1+2+1+1 = 7 (a multiple of 7), and both 2025 and 2031 are ordinary years. When in doubt, always count odd days instead of blindly adding 6 or 11.",
+        "Fetch official supporting evidence for: “Which year after 2004 will have the same calendar as 2004?” Blindly adding 6 or 11 fails here: 2004 is a leap year, so it can only match another leap year whose odd-day total in between is a multiple of 7 — that happens after 28 years (2032). Options like 2010, 2011, 2015 trap students who memorised a rigid “+6 or +11” pattern without checking whether the year is leap. Always check the leap/ordinary nature first, then count odd days."
+      ],
+      "dependencies": {
+        "chapter.json": "c1e158bf97d9605db46f909573011fa3adea1fc74e9a8e924b47deb9942f78bd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "1628f5a72e300ddbcf639917ef3754c370ccd5ab116dc64569e4ce00193aa3de",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T06:45:24+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "906d796c366f99b010bcd11780ab0fa1f0dc4938916c3089997fd02c8ba4a9f1",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- In the “एक झटका जो सोचने पर मजबूर कर दे” section, the example for 2:48 claims the smaller angle is 132°, but the correct angle is 156° (|30×2 – 5.5×48| = 204°, 360°–204° = 156°).",
+        "- In the “सारांश तालिका”, the formula for “सुइयों के बीच कोण” is written as “θ = 30H – 5.5M” without absolute value, which can give negative results; it should be “θ = |30H – 5.5M|”."
+      ],
+      "dependencies": {
+        "chapter.json": "c1e158bf97d9605db46f909573011fa3adea1fc74e9a8e924b47deb9942f78bd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "83af6544ccf08dcb9f9b0664817ff3d019a32797afb4b114c7ad71a0799ee373"
+      },
+      "checked_at": "2026-11-21T06:52:24+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T06:52:24+00:00",
+  "chapter_fingerprint": "283e7fad36ea38a4be83f43aff71bca90bce5aba592178ba18e8ec6574c30db4"
+}
