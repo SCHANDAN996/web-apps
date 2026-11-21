@@ -109,11 +109,72 @@
         "Content_hi.txt": "f937bb371d3944e16fa8cdca347fadcad5c63d2d7381414d8d224e28356f46e5"
       },
       "checked_at": "2026-11-21T08:08:17+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "024cd85db5bc066e3d18941aa6570b82dbfbbc04b0b5d65932cd238e5429080b",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "41908b7e25fb24c9575afe8f269febed57fcc6e86148ad130ab5acae3eede8d8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "f937bb371d3944e16fa8cdca347fadcad5c63d2d7381414d8d224e28356f46e5",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:13:14+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "c7f69617786d708a499ebfb7f9d841b1b72f0ba2e68f38a10e47640121542551",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The Maikal range is described as running east–west, but it actually runs roughly north–south. → The Maikal range runs north–south, not east–west.",
+        "- The text states that both Narmada and Tapi flow through rift valleys between the Vindhyas and Satpuras; only the Narmada flows between those ranges, while the Tapi flows through a rift valley south of the Satpura range. → The Tapi rift valley lies south of the Satpuras, not between the Vindhyas and Satpuras."
+      ],
+      "dependencies": {
+        "chapter.json": "41908b7e25fb24c9575afe8f269febed57fcc6e86148ad130ab5acae3eede8d8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "33e0187452e55d18074560f71b7e49673d91d7c28d16d2eecf6fb549a348885a"
+      },
+      "checked_at": "2026-11-21T12:14:34+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "762380d98112c0f5437ea7ef2d21517eb6734183a1443b4f68b7ba102088ca3c",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "41908b7e25fb24c9575afe8f269febed57fcc6e86148ad130ab5acae3eede8d8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "33e0187452e55d18074560f71b7e49673d91d7c28d16d2eecf6fb549a348885a",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:14:34+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "979cf8ba4ebeb6d061354cd01439cce2031278e0512037b8804ed6bc46bad9a3",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "41908b7e25fb24c9575afe8f269febed57fcc6e86148ad130ab5acae3eede8d8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "b0825fb87bf2c83114caeac49754f05069e2b00213939c4cdba400445b25abda"
+      },
+      "checked_at": "2026-11-21T12:15:04+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T08:08:18+00:00",
+  "updated_at": "2026-11-21T12:15:04+00:00",
   "chapter_fingerprint": "db9614954b4de9e9d39f4713d4a03172ed92bf0fa7687a3badbbfffa2f5910fa"
 }
