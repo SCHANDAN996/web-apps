@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 01:55 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 01:57 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 184 मिनट |
-| W10 | Chapter 21 International Orgs (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W11 | Chapter 22 Defence (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W12 | Chapter 03 Coding Decoding (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W2 | Chapter 02 Classification (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W3 | Chapter 14 Sports (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
-| W4 | Chapter 01 Analogy (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W5 | Chapter 23 Economic Terms (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W6 | Chapter 25 Govt Schemes (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W7 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W8 | Chapter 24 Reports Indices (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W9 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 33 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 186 मिनट |
+| W10 | Chapter 21 International Orgs (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W11 | Chapter 22 Defence (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W12 | Chapter 03 Coding Decoding (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W2 | Chapter 02 Classification (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W3 | Chapter 14 Sports (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 16 मिनट |
+| W4 | Chapter 01 Analogy (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W5 | Chapter 23 Economic Terms (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W6 | Chapter 04 Blood Relations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W7 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W8 | Chapter 24 Reports Indices (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W9 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 35 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 98 |
+| key 3 | 101 |
 | key 4 | 95 |
-| key 5 | 111 |
+| key 5 | 112 |
 | key 6 | 81 |
 
 ## किताबों की प्रगति
@@ -66,14 +66,14 @@
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
-| 12th GK | 0 | 24 | 0 | 0 | 0 | 49/1872 |
-| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 5/1950 |
+| 12th GK | 0 | 24 | 0 | 0 | 0 | 50/1872 |
+| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 7/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 0/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 381/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 384/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,15 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 13:48:50   [Awards] QA passed: editorial:Content_hi.txt
-21-11 13:48:51   [Awards] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
-21-11 13:48:51 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_13_Awards: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ["- The claim that the Bharat Ratna's 3-per-year limit was introduced by a 1955 statute amendment is incorrect → The limit of three awards per year was part of the original 1954 statute; the 1955 amendment allowed posthumous awards."]}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_13_Awards/QA.json'}
-21-11 13:48:54   [Constitution_Basic] QA blocked: editorial:Content_hi.txt
-21-11 13:48:54   [Constitution_Basic] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 1, "pending": 74, "blocked": 2, "needs_reference": 1, "remaining": 77, 
-21-11 13:48:55 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_04_Constitution_Basic: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 1, 'pending': 74, 'blocked': 2, 'needs_reference': 1, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- "Today it has grown to 448 Articles and 12 Schedules" (current X is without a year) → Specify the year (e.g., "As of 2023, it has 448 Articles and 12 Schedules") or remove "Today".', '- "Master this, and 60% of Indian Polity becomes easy" (invented exam weightage statistic) → Remove the invented weightage claim "60% of Indian Polity becomes easy".', '- "Every question in SSC, Banking, Railway and State PCS exams on \'Polity\' begins from this chapter" (invented exam claim, factually incorrect) → Remove the absolute claim "Every question... begins from this chapter".']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: - The Preamble was held to be a **part of the Constitution** in the **Kesavananda Bharati case (1973)**.', "Fetch official supporting evidence for: 9. **Fundamental Duties** (Part IV-A) — added by the 42nd Amendment, 1976, on the recommendation of the **Swaran Singh Committee**; originally 10 duties, now **11** (86th Amendment, 2002 added the 11th — education of one's child).", 'Fetch official supporting evidence for: - Debates on the **basic structure doctrine** (Kesavananda Bharati, 1973) still appear in news whenever major constitutional amendments are discussed in Parliament.', 'Fetch official supporting evidence for: | 9 | Preamble part of Constitution (case) | Kesavananda Bharati, 1973 |', 'Fetch official supporting evidence for: | 10 | Fundamental Duties added by | 42nd Amendment, 1976 (Swaran Singh Committee) |']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- कुल सदस्य: 299 (ब्रिटिश प्रांतों से 292 + रियासतों से 93 का प्रावधान था; विभाजन के बाद संख्या घटी) → मूल प्रावधान 389 सदस्यों का था (ब्रिटिश प्रांतों से 292, रियासतों से 93, मुख्य आयुक्त प्रांतों से 4); विभाजन के बाद सदस्य संख्या 299 रह गई।']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_04_Constitution_Basic/QA.json'}
-21-11 13:49:22   [Physics_Daily] QA passed: editorial:Content_hi.txt
-21-11 13:49:23   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q126 key a vs re-solve b, Q137 key c vs re-solve b, Q147 key d vs re-solve c)
-21-11 13:49:28   [Culture_Art] QA passed: editorial:Content_hi.txt
 21-11 13:49:29   [Physics_Daily] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
 21-11 13:49:29   [Culture_Art] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
 21-11 13:49:31 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_17_Culture_Art: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_17_Culture_Art/QA.json'}
@@ -127,6 +118,15 @@
 21-11 13:54:54 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_25_Govt_Schemes: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_25_Govt_Schemes/QA.json'}
 21-11 13:56:07   [Coding_Decoding] QA blocked: editorial:Content_en.txt
 21-11 13:56:07   [Coding_Decoding] QA needs_reference: sources:Content_en.txt
+21-11 13:56:39   [Blood_Relations] QA passed: structure
+21-11 13:57:08   [Reports_Indices] QA passed: editorial:Content_en.txt
+21-11 13:57:08   [Reports_Indices] QA needs_reference: sources:Content_en.txt
+21-11 13:57:53   [Analogy] QA passed: editorial:Content_hi.txt
+21-11 13:57:53   [Analogy] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
+21-11 13:57:53 QA 12th_Level/Reasoning/Chapter_01_Analogy: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_01_Analogy/QA.json'}
+21-11 13:58:26   [Classification] QA blocked: editorial:Content_hi.txt
+21-11 13:58:27   [Classification] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 13:58:27 QA 12th_Level/Reasoning/Chapter_02_Classification: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Trap 3 explanation incorrectly states that checking cubes causes confusion because only 64 is a cube → 1, 64, and 729 are all cubes; checking cubes yields three cubes and one non‑cube (100), giving a clear odd one out.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_02_Classification/QA.json'}
 ````
 
 </details>
