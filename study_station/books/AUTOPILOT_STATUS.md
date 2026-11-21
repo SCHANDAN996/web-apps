@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 06:24 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 06:25 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,25 +11,25 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 166 मिनट |
-| W10 | Chapter 03 Adjective (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 167 मिनट |
+| W10 | Chapter 03 Adjective (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 | W11 | Chapter 01 Noun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W12 | Chapter 02 Pronoun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W2 | Chapter 19 Cubes Dice (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W3 | Chapter 24 Statement Assumption (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W4 | Chapter 04 Verb (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W5 | Chapter 21 Paper Folding Cutting (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W6 | Chapter 23 Syllogism (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W7 | Chapter 22 Figure Series (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W8 | Chapter 25 Statement Argument (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W9 | Chapter 20 Mirror Water Images (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W12 | Chapter 02 Pronoun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W2 | Chapter 05 Tense (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W3 | Chapter 24 Statement Assumption (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W4 | Chapter 04 Verb (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W5 | Chapter 21 Paper Folding Cutting (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W6 | Chapter 23 Syllogism (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W7 | Chapter 22 Figure Series (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W8 | Chapter 25 Statement Argument (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W9 | Chapter 20 Mirror Water Images (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 119 |
 | key 4 | 116 |
-| key 5 | 109 |
-| key 6 | 95 |
+| key 5 | 110 |
+| key 6 | 96 |
 
 ## किताबों की प्रगति
 
@@ -68,12 +68,12 @@
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 104/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 96/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 101/1950 |
-| 12th English | 0 | 25 | 0 | 0 | 0 | 56/2025 |
+| 12th English | 0 | 25 | 0 | 0 | 0 | 59/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 797/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 800/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,12 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 18:21:19   [Mirror_Water_Images] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 70, "blocked": 3, "needs_reference": 3, "remaining": 76, 
-21-11 18:21:19   [Syllogism] QA needs_reference: sources:Feynman_en.txt
-21-11 18:21:14   [Statement_Assumption] QA passed: editorial:Feynman_hi.txt
-21-11 18:21:19   [Statement_Assumption] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
-21-11 18:21:20 QA 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 70, 'blocked': 3, 'needs_reference': 3, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Water image clock formula (6:30 − time for ≤6:30, 18:30 − time for >6:30) gives incorrect results for boundary times: e.g., 12:00 yields 6:30 (correct is 6:00), 6:30 yields 12:00 (correct is 11:30) → The mental flip method (swap 12↔6, keep 3↔9, flip hands vertically) is the correct reliable method; the formula should not be presented without exceptions.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- Water image clock subtraction for non-zero minutes given as 17:90 → should be 17:60 (or 18:00 with borrowing)']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- The clock mirror image formula incorrectly adds a special case for hour 12 (subtract from 23:60); the correct rule is to subtract the given time from 11:60 (or 12:00) for all times on a 12‑hour clock.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_20_Mirror_Water_Images/QA.json'}
-21-11 18:21:20 QA 12th_Level/Reasoning/Chapter_24_Statement_Assumption: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_24_Statement_Assumption/QA.json'}
 21-11 18:21:20   [Statement_Argument] QA needs_reference: sources:Content_hi.txt
 21-11 18:21:40   [Statement_Argument] QA passed: editorial:Feynman_en.txt
 21-11 18:21:40   [Statement_Argument] QA needs_reference: sources:Feynman_en.txt
@@ -127,6 +121,12 @@
 21-11 18:25:46   [Verb] QA passed: editorial:Feynman_hi.txt
 21-11 18:25:46   [Verb] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
 21-11 18:25:46 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_04_Verb: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- "Modal के बाद हमेशा Verb की पहली form (V1) आती है" नियम गलत है क्योंकि सूची में शामिल "ought to" के बाद "to + V1" आता है (जैसे *ought to go*) → सुधार: लिखें कि प्रमुख मोडल (can, could, may, might, shall, should, will, would, must, need, dare) के बाद bare infinitive (V1) आता है, लेकिन "ought to" के बाद "to + V1" आता है।', '- मेमोनिक "B-H-D मोडल की माँ" में कहा गया है कि केवल Be, Have, Do "असली Auxiliary" हैं और बाकी Modal हैं → सुधार: मोडल क्रियाएँ भी सहायक क्रियाएँ (modal auxiliaries) ही हैं; Be, Have, Do प्राथमिक सहायक क्रियाएँ (primary auxiliaries) हैं।']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_04_Verb/QA.json'}
+21-11 18:25:57   [Tense] QA passed: editorial:Feynman_en.txt
+21-11 18:26:18   [Tense] QA needs_reference: sources:Feynman_en.txt
+21-11 18:26:18   [Tense] QA passed: editorial:Feynman_hi.txt
+21-11 18:26:18   [Tense] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 5, "pending": 73, "blocked": 0, "needs_reference": 3, "remaining": 76, 
+21-11 18:26:18 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_05_Tense: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 5, 'pending': 73, 'blocked': 0, 'needs_reference': 3, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: > *since* = निश्चित समय-बिंदु (since Monday, since 2015, since morning)।']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_05_Tense/QA.json'}
+21-11 18:26:19   [Adverb] QA needs_reference: sources:Content_hi.txt
 ````
 
 </details>
