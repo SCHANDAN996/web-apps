@@ -1,33 +1,34 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 11:11 AM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 11:12 AM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 20 मिनट |
-| W10 | Chapter 08 excel (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W12 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W2 | Chapter 10 internet browser (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 20 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 21 मिनट |
+| W10 | Chapter 08 excel (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W11 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W12 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W2 | Chapter 10 internet browser (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 21 मिनट |
 | W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W5 | Chapter 11 vilom (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W6 | Chapter 09 upsarg pratyay (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W5 | Chapter 11 vilom (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W6 | Chapter 09 upsarg pratyay (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
 | W7 | Chapter 08 samas (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W8 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W9 | Chapter 11 email (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W8 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W9 | Chapter 11 email (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 12 |
 | key 4 | 17 |
-| key 5 | 14 |
+| key 5 | 15 |
 | key 6 | 3 |
 
 ## किताबों की प्रगति
@@ -82,7 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 11:05:07   [powerpoint] QA passed: structure
 21-11 11:05:27   [software_os] QA passed: editorial:Content_en.txt
 21-11 11:05:27   [software_os] QA needs_reference: sources:Content_en.txt
 21-11 11:05:44   [word] QA blocked: editorial:Content_en.txt
@@ -122,6 +122,7 @@
 21-11 11:12:27   [vilom] QA blocked: editorial:Feynman_hi.txt
 21-11 11:12:27   [vilom] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 1, "pending": 32, "blocked": 2, "needs_reference": 1, "remaining": 35, 
 21-11 11:12:27 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_11_vilom: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 1, 'pending': 32, 'blocked': 2, 'needs_reference': 1, 'remaining': 35, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In Rule 1 prefix table, the example "गति → दुर्गति" for उपसर्ग "दुर-/दु-" is not an antonym pair; "दुर्गति" means misfortune/bad condition, not the opposite of "गति" (motion/speed). → Replace with a valid antonym example such as "शील → दुर्शील" (good character → bad character) or retain only "सदाचार → दुराचार".', '- In Rule 1 prefix table, the examples "उत्तर → प्रत्युत्तर" and "क्रिया → प्रतिक्रिया" for उपसर्ग "प्रति-" are not antonyms; they denote reply/counter-action, not opposition. → Replace with true antonym pairs formed with "प्रति-" such as "अनुकूल → प्रतिकूल" (favourable → unfavourable) or "प्रत्यक्ष → परोक्ष" (direct → indirect).']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- Rule 3 example "लड़का–लड़की" (लिंग विलोम) does not illustrate the rule "एकवचन–बहुवचन विलोम नहीं" → Use a singular-plural pair like "किताब–किताबें" to show they are not antonyms.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_11_vilom/QA.json'}
+21-11 11:12:52   [e_banking] QA passed: structure
 ````
 
 </details>

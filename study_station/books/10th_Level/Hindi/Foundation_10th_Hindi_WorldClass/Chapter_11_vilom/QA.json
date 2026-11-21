@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "e727412eccf3f6d13980cb0e61db0beff33c02180afb1bba3857ecd832986000",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "ad41fec80a6b088f44c420d2ccabfc0867cfed12b661d63f3f35e1b547ba4aa4",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Content_hi.txt": "a9cb3787611aa8fa21ec8cf20cedf82e2114a8283674d244175098892d32cfa0",
+        "Feynman_hi.txt": "c0d48772ae9bba265d004bbb7e29024f653a80108249ba401f4da6c5ce793dce",
+        "Flashcards_hi.txt": "00d0a95f1b21035dca98ce08968a1e400dfb9c970ab2b5cdd519bb92f2b325a4",
+        "Important_Rules_hi.txt": "eefafd59c7685e8e97ea46b38ebe91cf2a08e5ce7ab947cdca2a49db4267a06b",
+        "Key_Facts_hi.txt": "d45f1527a92ccfcae02d6638006e54cc70bd453cd0e60187f973c0b3d481658c",
+        "Mind_Map.txt": "9a10d8e9f878f94a0678c9a592e0b29dd609361c7141d24c3126c63655011d49",
+        "PYQ_hi.txt": "a892a29f9260f38f43a4605e82a2635b4c3ad073ba5a8677ae6acfc827ba9501",
+        "Practice_hi_Set_01.txt": "c847ac1cb930aef98f0bb45db045e7e1dac86b16e2699d08671111ebf0bb74a5",
+        "Practice_hi_Set_02.txt": "49591e677fc4f564e30652eba1c467b4d3aa997c104326baea8efcb363bfedc4",
+        "Practice_hi_Set_03.txt": "6dbdc3f48ab0912bca5db80e130f259331e9dd04fb4bb416e2a32775bb69762a",
+        "Practice_hi_Set_04.txt": "dec4cac829af4bf88d7bcb6462163de893ef3332d733c8c61fe6b88ff8bce9f6",
+        "Practice_hi_Set_05.txt": "92b646c50dd33b90213fb4ba6296e07fe3ded2ce76b5644ecc7b0706c212b387",
+        "Practice_hi_Set_06.txt": "4e465d0f05836efcbd3abba3acbe9bca34e300878911694a3759c262835f148f",
+        "inventory": {
+          "Content_hi.txt": "a9cb3787611aa8fa21ec8cf20cedf82e2114a8283674d244175098892d32cfa0",
+          "Feynman_hi.txt": "c0d48772ae9bba265d004bbb7e29024f653a80108249ba401f4da6c5ce793dce",
+          "Flashcards_hi.txt": "00d0a95f1b21035dca98ce08968a1e400dfb9c970ab2b5cdd519bb92f2b325a4",
+          "Important_Rules_hi.txt": "eefafd59c7685e8e97ea46b38ebe91cf2a08e5ce7ab947cdca2a49db4267a06b",
+          "Key_Facts_hi.txt": "d45f1527a92ccfcae02d6638006e54cc70bd453cd0e60187f973c0b3d481658c",
+          "Mind_Map.txt": "9a10d8e9f878f94a0678c9a592e0b29dd609361c7141d24c3126c63655011d49",
+          "PYQ_hi.txt": "a892a29f9260f38f43a4605e82a2635b4c3ad073ba5a8677ae6acfc827ba9501",
+          "Practice_hi_Set_01.txt": "c847ac1cb930aef98f0bb45db045e7e1dac86b16e2699d08671111ebf0bb74a5",
+          "Practice_hi_Set_02.txt": "49591e677fc4f564e30652eba1c467b4d3aa997c104326baea8efcb363bfedc4",
+          "Practice_hi_Set_03.txt": "6dbdc3f48ab0912bca5db80e130f259331e9dd04fb4bb416e2a32775bb69762a",
+          "Practice_hi_Set_04.txt": "dec4cac829af4bf88d7bcb6462163de893ef3332d733c8c61fe6b88ff8bce9f6",
+          "Practice_hi_Set_05.txt": "92b646c50dd33b90213fb4ba6296e07fe3ded2ce76b5644ecc7b0706c212b387",
+          "Practice_hi_Set_06.txt": "4e465d0f05836efcbd3abba3acbe9bca34e300878911694a3759c262835f148f"
+        }
+      },
+      "checked_at": "2026-11-21T05:38:16+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "16b0acec39ad0820ff741e048372e685f13f19ccb5c9fdfe053e9095e74b617b",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- In Rule 1 prefix table, the example \"गति → दुर्गति\" for उपसर्ग \"दुर-/दु-\" is not an antonym pair; \"दुर्गति\" means misfortune/bad condition, not the opposite of \"गति\" (motion/speed). → Replace with a valid antonym example such as \"शील → दुर्शील\" (good character → bad character) or retain only \"सदाचार → दुराचार\".",
+        "- In Rule 1 prefix table, the examples \"उत्तर → प्रत्युत्तर\" and \"क्रिया → प्रतिक्रिया\" for उपसर्ग \"प्रति-\" are not antonyms; they denote reply/counter-action, not opposition. → Replace with true antonym pairs formed with \"प्रति-\" such as \"अनुकूल → प्रतिकूल\" (favourable → unfavourable) or \"प्रत्यक्ष → परोक्ष\" (direct → indirect)."
+      ],
+      "dependencies": {
+        "chapter.json": "ad41fec80a6b088f44c420d2ccabfc0867cfed12b661d63f3f35e1b547ba4aa4",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Content_hi.txt": "a9cb3787611aa8fa21ec8cf20cedf82e2114a8283674d244175098892d32cfa0"
+      },
+      "checked_at": "2026-11-21T05:39:40+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "a4167c8d481b28fd6c179e5b508affd460e698e9e33008897576f4073d818944",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "ad41fec80a6b088f44c420d2ccabfc0867cfed12b661d63f3f35e1b547ba4aa4",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Content_hi.txt": "a9cb3787611aa8fa21ec8cf20cedf82e2114a8283674d244175098892d32cfa0",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T05:39:41+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "12b105c284d126f3fa36133ba0a7fddea8b76163fc0245852ef64943cf112908",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Rule 3 example \"लड़का–लड़की\" (लिंग विलोम) does not illustrate the rule \"एकवचन–बहुवचन विलोम नहीं\" → Use a singular-plural pair like \"किताब–किताबें\" to show they are not antonyms."
+      ],
+      "dependencies": {
+        "chapter.json": "ad41fec80a6b088f44c420d2ccabfc0867cfed12b661d63f3f35e1b547ba4aa4",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Feynman_hi.txt": "c0d48772ae9bba265d004bbb7e29024f653a80108249ba401f4da6c5ce793dce"
+      },
+      "checked_at": "2026-11-21T05:42:27+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T05:42:27+00:00",
+  "chapter_fingerprint": "437cd1a3d8caff7117827f422fe91659a40143b9718c2d599f72fd8fb908a2a7"
+}
