@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 07:28 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 07:29 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 09 Economy Basic (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W10 | Chapter 10 Physics Daily (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W11 | Chapter 11 Chemistry (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W12 | Chapter 01 Ancient History (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 17 मिनट |
-| W2 | Chapter 06 Physical Geography (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W3 | Chapter 07 States Rivers (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W5 | Chapter 05 Polity (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
-| W6 | Chapter 08 World Geography (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W7 | Chapter 03 Modern History (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
-| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 48 मिनट |
-| W9 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 19 मिनट |
+| W1 | Chapter 09 Economy Basic (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W10 | Chapter 10 Physics Daily (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W11 | Chapter 11 Chemistry (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W12 | Chapter 01 Ancient History (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 18 मिनट |
+| W3 | Chapter 07 States Rivers (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W4 | Chapter 12 Biology (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W5 | Chapter 05 Polity (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
+| W6 | Chapter 08 World Geography (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W7 | Chapter 03 Modern History (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 16 मिनट |
+| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 50 मिनट |
+| W9 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 20 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 156 |
 | key 4 | 134 |
 | key 5 | 142 |
-| key 6 | 135 |
+| key 6 | 136 |
 
 ## किताबों की प्रगति
 
@@ -69,10 +69,10 @@
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 101/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 96/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 75/2184 |
-| Graduation GK | 0 | 28 | 0 | 0 | 0 | 15/2184 |
+| Graduation GK | 0 | 28 | 0 | 0 | 0 | 17/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 927/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 929/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,7 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 19:14:05 QA Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_27_Number_Series: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 1, 'pending': 74, 'blocked': 2, 'needs_reference': 1, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The example for digit-based series (11, 13, 17, 19, 23) is a prime number series, not a digit-based series. Digit-based series involve patterns in digits (e.g., reversing digits, summing digits). → Replace with a genuine digit-based series example, e.g., 12, 21, 23, 32, 34, 43 (reversing digits) or 11, 20, 31, 40 (sum of digits constant).']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Subsection (घ) in भाग 2 is labeled "दोहरी (Alternate) श्रेणी" but the example given (11, 13, 17, 19, 23, 29) is a prime number series, not an alternate series → change heading to "अभाज्य संख्याएँ श्रेणी" or replace example with a genuine alternate series.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_27_Number_Series/QA.json'}
 21-11 19:14:06   [Constitution_Basic] QA passed: structure
 21-11 19:14:34   [Ancient_History] QA blocked: editorial:Content_en.txt
 21-11 19:14:34   [Ancient_History] QA needs_reference: sources:Content_en.txt
@@ -127,6 +126,7 @@
 21-11 19:28:57   [Biology] QA passed: structure
 21-11 19:29:23   [World_Geography] QA passed: editorial:Content_en.txt
 21-11 19:29:23   [World_Geography] QA needs_reference: sources:Content_en.txt
+21-11 19:29:49   [Awards] QA passed: structure
 ````
 
 </details>
