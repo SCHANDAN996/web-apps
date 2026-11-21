@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "0983ad8cea7e3a0688c23b05fd7431051ae3e3e1cf2ae53949c27b99c216bfbf",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "2d7bbd44f06d360e5b6799cf4032f126ba75b9633eb643c4ec5042ef9903f0a7",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "95cf2f580d6bf436e4171d2f9f29bbf62c2a35982e737787b66a40fb599eb785",
+        "Content_hi.txt": "6246a6b961359053e9244f74751706596a69d2a40217bf26753d2988b2e17855",
+        "Feynman_en.txt": "ab1f3fb4b2bb41fe643f89ee42ce8e3a3c6ffccb7b4ba19f01c4c8163dec6c9b",
+        "Feynman_hi.txt": "98c79ef7cacfbdaf6dfda600b5e4b5da1e38bbb4f89a311ae25ffff7981fa36d",
+        "Flashcards_en.txt": "0444e74d7165b0c7f1adef56a0cc99440920a258cacc770171b43a314e137cb6",
+        "Flashcards_hi.txt": "889c7bed03b884605db163b787e6ba074b1f89641cce1998c3ded5c71742f30e",
+        "Important_Rules_en.txt": "1e779f7fe4282358b282fb7d3720c6c600738cbcc7e6de6f8c57d8d63337dcc9",
+        "Important_Rules_hi.txt": "943dac54cae4026b9dca8b0e6b8828386ea1b2b785d3e35f4ee2b4ca7b8f6c5b",
+        "Mind_Map.txt": "683773d3ba8ba444bbc548df4bde48bd464076a74769de8e222bd1883ae0587c",
+        "PYQ_en.txt": "a4343fcfa9ebe468514ec0272d032393ec28e9c2aa91523cf074627bdaea49a0",
+        "PYQ_hi.txt": "72d8b384f3654a631627eaef80758ebff2099ee8502943d2f762fab1a2b8bc55",
+        "Practice_en_Set_01.txt": "bd20924cdee5a2ff705056ca2c1f8b2ebf2aac079cef891a66d53653a107d9e7",
+        "Practice_en_Set_02.txt": "c9ffc5fc535dfbd47ea5344e157dcc40f761c9998f730f1cc27eb9f282a7e6a6",
+        "Practice_en_Set_03.txt": "f1462a568646291bf138d39c63f1523b0e595e32d9ca08cb96a17160e6ab2960",
+        "Practice_en_Set_04.txt": "2a0e99e9204645cc01c63977f462480b97f2f4f6192dedb7cafd32e3adaeaf86",
+        "Practice_en_Set_05.txt": "64af1a78ff1439a9e01b53863d03e4b21e5ff208e65c6b73efd7e067a3f17ec1",
+        "Practice_en_Set_06.txt": "92800a1f82102e17b026f54bd92267c4636169437996b4a5ee56a64aef5a51ae",
+        "Practice_hi_Set_01.txt": "75965112f9acf59da415cd268a3dea3b45c14dcf8e6072c3874c011f68211f16",
+        "Practice_hi_Set_02.txt": "882bf5e3ec082d16aaa109040ad36f0691f9f71f284cb9d89d4024f27f979169",
+        "Practice_hi_Set_03.txt": "57c87ca2ffe2659b1f295256b99e75c85d7e04b4ba7e8169a96cbc5dec435c2c",
+        "Practice_hi_Set_04.txt": "bcaf06510f13ec27a702f9100e521334c20e65970b40a24215e5d3a55a4472cb",
+        "Practice_hi_Set_05.txt": "91c9415c3b867c8dde3c78078597aa8dca60afb95db6433ab33a881d6a3792e7",
+        "Practice_hi_Set_06.txt": "b467f79a7583cec40171abd215a47142a8e7577a8469c8a1fdc13d2536ef0957",
+        "Short_Tricks_en.txt": "f2708debe96761a9663bc044fd95abeaf5339d7eb2a8bae2d4e559b9759a3b12",
+        "Short_Tricks_hi.txt": "9a34caff5bf1b46af790dec2f83f74bfede8f297accd66c3d8d6c2a0fe4b4eb7",
+        "inventory": {
+          "Content_en.txt": "95cf2f580d6bf436e4171d2f9f29bbf62c2a35982e737787b66a40fb599eb785",
+          "Content_hi.txt": "6246a6b961359053e9244f74751706596a69d2a40217bf26753d2988b2e17855",
+          "Feynman_en.txt": "ab1f3fb4b2bb41fe643f89ee42ce8e3a3c6ffccb7b4ba19f01c4c8163dec6c9b",
+          "Feynman_hi.txt": "98c79ef7cacfbdaf6dfda600b5e4b5da1e38bbb4f89a311ae25ffff7981fa36d",
+          "Flashcards_en.txt": "0444e74d7165b0c7f1adef56a0cc99440920a258cacc770171b43a314e137cb6",
+          "Flashcards_hi.txt": "889c7bed03b884605db163b787e6ba074b1f89641cce1998c3ded5c71742f30e",
+          "Important_Rules_en.txt": "1e779f7fe4282358b282fb7d3720c6c600738cbcc7e6de6f8c57d8d63337dcc9",
+          "Important_Rules_hi.txt": "943dac54cae4026b9dca8b0e6b8828386ea1b2b785d3e35f4ee2b4ca7b8f6c5b",
+          "Mind_Map.txt": "683773d3ba8ba444bbc548df4bde48bd464076a74769de8e222bd1883ae0587c",
+          "PYQ_en.txt": "a4343fcfa9ebe468514ec0272d032393ec28e9c2aa91523cf074627bdaea49a0",
+          "PYQ_hi.txt": "72d8b384f3654a631627eaef80758ebff2099ee8502943d2f762fab1a2b8bc55",
+          "Practice_en_Set_01.txt": "bd20924cdee5a2ff705056ca2c1f8b2ebf2aac079cef891a66d53653a107d9e7",
+          "Practice_en_Set_02.txt": "c9ffc5fc535dfbd47ea5344e157dcc40f761c9998f730f1cc27eb9f282a7e6a6",
+          "Practice_en_Set_03.txt": "f1462a568646291bf138d39c63f1523b0e595e32d9ca08cb96a17160e6ab2960",
+          "Practice_en_Set_04.txt": "2a0e99e9204645cc01c63977f462480b97f2f4f6192dedb7cafd32e3adaeaf86",
+          "Practice_en_Set_05.txt": "64af1a78ff1439a9e01b53863d03e4b21e5ff208e65c6b73efd7e067a3f17ec1",
+          "Practice_en_Set_06.txt": "92800a1f82102e17b026f54bd92267c4636169437996b4a5ee56a64aef5a51ae",
+          "Practice_hi_Set_01.txt": "75965112f9acf59da415cd268a3dea3b45c14dcf8e6072c3874c011f68211f16",
+          "Practice_hi_Set_02.txt": "882bf5e3ec082d16aaa109040ad36f0691f9f71f284cb9d89d4024f27f979169",
+          "Practice_hi_Set_03.txt": "57c87ca2ffe2659b1f295256b99e75c85d7e04b4ba7e8169a96cbc5dec435c2c",
+          "Practice_hi_Set_04.txt": "bcaf06510f13ec27a702f9100e521334c20e65970b40a24215e5d3a55a4472cb",
+          "Practice_hi_Set_05.txt": "91c9415c3b867c8dde3c78078597aa8dca60afb95db6433ab33a881d6a3792e7",
+          "Practice_hi_Set_06.txt": "b467f79a7583cec40171abd215a47142a8e7577a8469c8a1fdc13d2536ef0957",
+          "Short_Tricks_en.txt": "f2708debe96761a9663bc044fd95abeaf5339d7eb2a8bae2d4e559b9759a3b12",
+          "Short_Tricks_hi.txt": "9a34caff5bf1b46af790dec2f83f74bfede8f297accd66c3d8d6c2a0fe4b4eb7"
+        }
+      },
+      "checked_at": "2026-11-21T08:29:07+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "58a4be635ae296d9c605634579ff389e645f6a4694a97a7621875f8ceaf242bc",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The Type A substitution method incorrectly interprets \"X is called Y\" as \"code word X = real Y\", but in standard exam usage (SSC, Railway, Bank) the phrase means \"real direction X is renamed Y in the code\", so the decoding table must map code Y → real X. This inversion error makes the introductory example (walking towards coded 'North' actually walks East, should be West) and the solved example (walking towards coded 'South' actually walks East, should be West; final answer North-East, should be South-West) both wrong."
+      ],
+      "dependencies": {
+        "chapter.json": "2d7bbd44f06d360e5b6799cf4032f126ba75b9633eb643c4ec5042ef9903f0a7",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "95cf2f580d6bf436e4171d2f9f29bbf62c2a35982e737787b66a40fb599eb785"
+      },
+      "checked_at": "2026-11-21T08:32:24+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "4560c4e4f437ad0e280a1b0be440c4193fe40067a13d8a57a0c62f493b742808",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "2d7bbd44f06d360e5b6799cf4032f126ba75b9633eb643c4ec5042ef9903f0a7",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "95cf2f580d6bf436e4171d2f9f29bbf62c2a35982e737787b66a40fb599eb785",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T08:32:24+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "bbb399ea2f6da6eeeb6a72121faa2b59f59cff3a91f7c0dbc14fab764afdb58c",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "2d7bbd44f06d360e5b6799cf4032f126ba75b9633eb643c4ec5042ef9903f0a7",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "6246a6b961359053e9244f74751706596a69d2a40217bf26753d2988b2e17855"
+      },
+      "checked_at": "2026-11-21T08:39:42+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T08:39:42+00:00",
+  "chapter_fingerprint": "d4cb7330e905bc84ffc9d8294f4081bc705c73ccfe4a850ed7cbb72ee2826f62"
+}
