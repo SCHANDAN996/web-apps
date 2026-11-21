@@ -1,35 +1,34 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 05:35 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 05:36 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 116 मिनट |
-| W10 | Chapter 13 Mixture Alligation (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W11 | Chapter 12 Time Distance (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W12 | Chapter 20 Probability (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W2 | Chapter 16 Algebra (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W3 | Chapter 11 Time Work (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W4 | Chapter 14 Mensuration (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W5 | Chapter 17 Trigonometry (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W6 | Chapter 18 Data Interpretation (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 12 मिनट |
-| W8 | Chapter 19 Statistics (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W9 | Chapter 15 Geometry (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 117 मिनट |
+| W11 | Chapter 12 Time Distance (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W12 | Chapter 20 Probability (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W2 | Chapter 16 Algebra (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W3 | Chapter 21 Permutation Combination (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W4 | Chapter 14 Mensuration (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W5 | Chapter 17 Trigonometry (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W6 | Chapter 18 Data Interpretation (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 13 मिनट |
+| W8 | Chapter 19 Statistics (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W9 | Chapter 15 Geometry (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 74 |
-| key 4 | 95 |
+| key 4 | 96 |
 | key 5 | 70 |
-| key 6 | 68 |
+| key 6 | 69 |
 
 ## किताबों की प्रगति
 
@@ -65,7 +64,7 @@
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 83/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 100/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 81/1622 |
-| 12th Maths | 0 | 23 | 0 | 0 | 0 | 98/1794 |
+| 12th Maths | 0 | 23 | 0 | 0 | 0 | 100/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 58/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 50/2025 |
@@ -73,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 701/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 703/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,12 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 17:31:02 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_14_Mensuration: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The doubling trap claim "If the radius doubles, area becomes 4× and volume becomes 8×" is not universally true (e.g., for a cylinder with fixed height, volume becomes 4×) → Specify "for a sphere" or "when all linear dimensions double".']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- The example states "Double the side of a square … volume becomes 8 times", but a square is a 2D shape and has no volume; volume scaling applies to a cube. → Change the volume bullet to refer to a cube (e.g., "Double the side of a cube → volume becomes 8 times (×2³)") or clarify that the volume example is for a cube, not a square.']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_14_Mensuration/QA.json'}
-21-11 17:31:02   [Algebra] QA needs_reference: sources:Content_hi.txt
-21-11 17:31:14   [Algebra] QA passed: editorial:Feynman_en.txt
-21-11 17:31:14   [Algebra] QA needs_reference: sources:Feynman_en.txt
-21-11 17:31:25   [Geometry] QA passed: editorial:Feynman_en.txt
-21-11 17:31:25   [Geometry] QA needs_reference: sources:Feynman_en.txt
 21-11 17:31:36   [Algebra] QA passed: editorial:Feynman_hi.txt
 21-11 17:31:54   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q76 key c vs re-solve a, Q77 key b vs re-solve a, Q95 key a vs re-solve d, Q99 key a vs re-solve d)
 21-11 17:31:56   [Geometry] QA passed: editorial:Feynman_hi.txt
@@ -127,6 +120,12 @@
 21-11 17:35:35   [Permutation_Combination] QA needs_reference: sources:Content_hi.txt
 21-11 17:36:02   [Permutation_Combination] QA passed: editorial:Feynman_en.txt
 21-11 17:36:02   [Permutation_Combination] QA needs_reference: sources:Feynman_en.txt
+21-11 17:36:09   [Number_Series] QA needs_reference: sources:Content_hi.txt
+21-11 17:36:10   [Permutation_Combination] QA passed: editorial:Feynman_hi.txt
+21-11 17:36:11   [Permutation_Combination] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
+21-11 17:36:11 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_21_Permutation_Combination: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_21_Permutation_Combination/QA.json'}
+21-11 17:36:43   [Number_Series] QA passed: editorial:Feynman_en.txt
+21-11 17:36:43   [Number_Series] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>
