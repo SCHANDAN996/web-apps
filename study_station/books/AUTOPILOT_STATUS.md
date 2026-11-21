@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 04:15 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 04:16 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,25 +11,25 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 37 मिनट |
-| W10 | Chapter 15 Days Dates (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W11 | Chapter 08 World Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W12 | Chapter 11 Chemistry (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 37 मिनट |
-| W3 | Chapter 10 Physics Daily (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W4 | Chapter 13 Awards (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W5 | Chapter 03 Modern History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W6 | Chapter 09 Economy Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W7 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
-| W8 | Chapter 12 Biology (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W9 | Chapter 14 Sports (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 38 मिनट |
+| W10 | Chapter 15 Days Dates (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W11 | Chapter 17 Culture Art (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W12 | Chapter 11 Chemistry (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 38 मिनट |
+| W3 | Chapter 10 Physics Daily (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W4 | Chapter 13 Awards (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W5 | Chapter 03 Modern History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W6 | Chapter 16 Books Authors (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W7 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
+| W8 | Chapter 12 Biology (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W9 | Chapter 14 Sports (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 19 |
+| key 3 | 20 |
 | key 4 | 37 |
 | key 5 | 31 |
-| key 6 | 10 |
+| key 6 | 11 |
 
 ## किताबों की प्रगति
 
@@ -61,7 +61,7 @@
 |---|---:|---:|---:|---:|---:|---:|
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 48/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 52/1092 |
-| 10th GK | 0 | 19 | 0 | 0 | 0 | 63/1482 |
+| 10th GK | 0 | 19 | 0 | 0 | 0 | 64/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 550/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 551/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,18 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 16:10:30   [Physical_Geography] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
-21-11 16:10:30 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_06_Physical_Geography: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_06_Physical_Geography/QA.json'}
-21-11 16:10:56   [sandhi] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q2 key c vs re-solve a, Q10 key b vs re-solve a, Q11 key b vs re-solve ?, Q18 key a vs re-solve c, Q
-21-11 16:11:27   [Polity] QA passed: editorial:Feynman_hi.txt
-21-11 16:11:27   [Polity] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
-21-11 16:11:27 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_05_Polity: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Article 45 did not become a Fundamental Right; the 86th Amendment inserted Article 21A as a new Fundamental Right and amended Article 45 to cover early childhood care and education for children up to 6 years → The 86th Amendment added Article 21A (Right to Education) as a Fundamental Right and substituted Article 45 to provide for early childhood care and education for children up to 6 years.', '- "Current Supreme Court judge strength 34" states a current fact without a year reference → Specify the year (e.g., "As of 2019, Supreme Court judge strength is 34") or remove "Current".']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: USSR\tFundamental Duties (added later in 1976)', 'Fetch official supporting evidence for: In the Kesavananda Bharati case (1973), the Supreme Court ruled that the Preamble can be amended, but the basic structure of the Constitution cannot be destroyed.', 'Fetch official supporting evidence for: Dr. Ambedkar called Article 32 the “heart and soul of the Constitution” because it allows you to directly approach the Supreme Court if any Fundamental Right is violated. The 44th Amendment (1978) removed the Right to Property from the Fundamental Rights list; it is now a legal right under Article 300A.', 'Fetch official supporting evidence for: Article 44 (Uniform Civil Code) and Article 45 (free and compulsory education for children) are the most questioned DPSPs. Article 45 later became a Fundamental Right through Article 21A by the 86th Amendment (2002).', 'Fetch official supporting evidence for: Originally, the Constitution had no Fundamental Duties. The 42nd Amendment (1976) added 10 duties inspired by the USSR Constitution. The 86th Amendment (2002) added an 11th duty — to provide opportunities for education to children between 6 and 14 years.', 'Fetch official supporting evidence for: Basic Structure Doctrine — Kesavananda Bharati (1973).']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: Article 368 gives Parliament the power to amend any part of the Constitution. From 1951 to 1973, Parliament used that power to even change Fundamental Rights. Then came the Kesavananda Bharati case (1973) — the Supreme Court said: “Stop! You can amend everything, but you cannot destroy the basic structure of the Constitution. Some things are so fundamental that without them the Constitution would lose its identity.”']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_05_Polity/QA.json'}
-21-11 16:11:36   [Chemistry] QA needs_reference: sources:Content_hi.txt
-21-11 16:12:01   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q77 key a vs re-solve b, Q98 key b vs re-solve a)
-21-11 16:12:01   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
-21-11 16:12:18   [Economy_Basic] QA passed: editorial:Feynman_en.txt
-21-11 16:12:21   [anekarthi_samshrut] QA blocked: editorial:Important_Rules_hi.txt
-21-11 16:12:26   [World_Geography] QA passed: editorial:Feynman_en.txt
 21-11 16:12:40   [Economy_Basic] QA needs_reference: sources:Feynman_en.txt
 21-11 16:12:40   [anekarthi_samshrut] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 4, "pending": 28, "blocked": 1, "needs_reference": 3, "remaining": 32, 
 21-11 16:12:40   [World_Geography] QA needs_reference: sources:Feynman_en.txt
@@ -123,6 +111,18 @@
 21-11 16:16:15   [Books_Authors] QA needs_reference: sources:Content_hi.txt
 21-11 16:16:16   [Days_Dates] QA passed: editorial:Feynman_en.txt
 21-11 16:16:16   [Days_Dates] QA needs_reference: sources:Feynman_en.txt
+21-11 16:16:49   [Culture_Art] QA needs_reference: sources:Content_hi.txt
+21-11 16:16:51   [Chemistry] QA blocked: editorial:Feynman_hi.txt
+21-11 16:16:51   [Chemistry] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 2, "needs_reference": 3, "remaining": 75, 
+21-11 16:16:51 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_11_Chemistry: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In the linguistic contrast table, the row for oxidation/reduction reads “ऑक्सीकरण (उपचयन) / अपचयन” which incorrectly attaches “उपचयन” (reduction) to “ऑक्सीकरण” (oxidation) → should be “ऑक्सीकरण / अपचयन” to correctly pair oxidation with oxidation and reduction with reduction.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- "ऑक्सीकरण (उपचयन)" गलत है → उपचयन का अर्थ अपचयन (reduction) होता है, ऑक्सीकरण (oxidation) नहीं। सही: "ऑक्सीकरण और अपचयन (उपचयन)"।']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_11_Chemistry/QA.json'}
+21-11 16:16:53   [Sports] QA passed: editorial:Feynman_en.txt
+21-11 16:16:53   [Sports] QA needs_reference: sources:Feynman_en.txt
+21-11 16:17:03   [Awards] QA blocked: editorial:Content_hi.txt
+21-11 16:17:03   [Awards] QA needs_reference: sources:Content_hi.txt
+21-11 16:17:22   [Physics_Daily] QA passed: editorial:Feynman_en.txt
+21-11 16:17:22   [Physics_Daily] QA needs_reference: sources:Feynman_en.txt
+21-11 16:17:22   [Physics_Daily] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 71, "blocked": 0, "needs_reference": 3, "remaining": 74, 
+21-11 16:17:23 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_10_Physics_Daily: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 71, 'blocked': 0, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_10_Physics_Daily/QA.json'}
 ````
 
 </details>
