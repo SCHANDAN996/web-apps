@@ -107,11 +107,69 @@
         "Content_hi.txt": "4fae881610ff845685dcfb89f039d90531195697b2dd6e67d6f2818736f54172"
       },
       "checked_at": "2026-11-21T05:50:23+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "3ae5ac00640b2f65e1c16b937cfcbbec60668702b60cad261e3ffb8120456b97",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "3c80b2ee165128f26bec103344e2ca38cf4ede95146301563a184b40349d3794",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "4fae881610ff845685dcfb89f039d90531195697b2dd6e67d6f2818736f54172",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:20:33+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "351f3149581c5de637e7e879009b9676e75fca02b016b00a1a662eeef2dfd40f",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "3c80b2ee165128f26bec103344e2ca38cf4ede95146301563a184b40349d3794",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "35ef213b79adbff59e28222bfed3e59352fe635e942fe4e5bd4c121cb554baec"
+      },
+      "checked_at": "2026-11-21T10:27:29+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "823f92a6af49c8a9aa7659e3928b9daccf65a62277e6dd9803ef5a35eb21e351",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: Microsoft Support \"Basic tasks in PowerPoint\", \"Use Slide Master view\", \"Keyboard shortcuts in PowerPoint\"."
+      ],
+      "dependencies": {
+        "chapter.json": "3c80b2ee165128f26bec103344e2ca38cf4ede95146301563a184b40349d3794",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "35ef213b79adbff59e28222bfed3e59352fe635e942fe4e5bd4c121cb554baec",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:27:29+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "76d26bd2a26cde6337879def4e07f582df0a504a7bde6c647acef6b15ce09942",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "3c80b2ee165128f26bec103344e2ca38cf4ede95146301563a184b40349d3794",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "dca14d5f9b5f667213a0b0012812ca59e20bcecde3ae2f8d3b406137deb4899e"
+      },
+      "checked_at": "2026-11-21T10:34:05+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T05:50:23+00:00",
+  "updated_at": "2026-11-21T10:34:06+00:00",
   "chapter_fingerprint": "9f40b3789a741557ddc6e3a2194f2d60007f60f03b515854a16ac62130012ba8"
 }
