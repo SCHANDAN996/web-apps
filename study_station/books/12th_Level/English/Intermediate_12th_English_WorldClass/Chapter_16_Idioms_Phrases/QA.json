@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "643ff46c5089fba3e07b0ee382735ef1e605ed5c5439fd105bc420ef436e2ea8",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "1410fd683e6420469b50beb31c11f2235d5692f3e90ffed6c7670317d848771a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "97f5a020ddc4a9d6468eb86bc7236585ca505209ca266d57ecd67d6523f7eb48",
+        "Content_hi.txt": "5b64bce8731f42da249c9f063960c99dcf4f88cb1d0b749be1ee9eb3ca485271",
+        "Feynman_en.txt": "a38ace51dbb6c33cd94a0357b6ccbc21d4d05f102a4096484adbaa8bf0f69d55",
+        "Feynman_hi.txt": "7a39933dc96283d69fa8cc91fd9c2cb2eabed2561089f617ced1be059fe07b56",
+        "Flashcards_en.txt": "1775c850404c8c46aa016e1934b5d707cd56313c4ffc5d771e0afb2a0dcc129e",
+        "Flashcards_hi.txt": "84026f40a01707a8397f8c2d6cad2686f1ee5da3e2cc868006dcc3154b1f477f",
+        "Important_Rules_en.txt": "14677643f8980193d4e7eb996bbc0bfee34883b8d5b63203c1038fde32ecceae",
+        "Important_Rules_hi.txt": "7dcc93da976b41a6452092c899bf084297255bffea40cddecf6fe51f2cf3084e",
+        "Mind_Map_en.txt": "7b79723da7773d20c51c7ca70eb94759182a325df8185691feed846bb1d90f4b",
+        "Mind_Map_hi.txt": "c84651b8d260f6b13350b8638f1c07f6e0e2c953938272f139a4bab53dc1f6d4",
+        "PYQ_en.txt": "b7b55f173d8a6297d0fcfbeef16d8706f970e59df0537f6a6e9987a823f13f59",
+        "PYQ_hi.txt": "e77f5cfb06e2178759e8ff150763765d93e61913494b8228af5d62d4d46466cb",
+        "Practice_en_Set_01.txt": "fd0d47cd9fdd195a9b1db36d0def9f49b57bdb81b13fbe112e4cdc6e2a4dcb34",
+        "Practice_en_Set_02.txt": "ab1adde6b188448937a5a7f5a44e791338a91e28005e435e281dba19086bfd40",
+        "Practice_en_Set_03.txt": "b3d57764cbd569d3abb010df5e3a5bb00f1d07d93e55bc6c680335facf3cbfa0",
+        "Practice_en_Set_04.txt": "de7de5cf7c85f1c054d254469a9a0a65b86150a95ea887806b213b0d36ba6129",
+        "Practice_en_Set_05.txt": "dc10175ebdf38cceb0a5fc8371b58d5b0d0b4d3b552f9e67f487e2ebcef827ea",
+        "Practice_en_Set_06.txt": "0d29f81fbc0c26b5f96be5222cf9257b23fedada4efedf78852e3213fac4481c",
+        "Practice_hi_Set_01.txt": "3d32d30e5a79ac4591fc3d7ecfaf711f279e49dee470c10656b93561d6baca67",
+        "Practice_hi_Set_02.txt": "c266ccba0337d3c6369132a16873002353d45c3e3784856d24cb5d709e431aa3",
+        "Practice_hi_Set_03.txt": "65ef4e036b8f17071d5099cc438999e5a02ac416ee59791d35071d994b7619b6",
+        "Practice_hi_Set_04.txt": "fa986545f4205243116a5f49ec85d9c5314a8b96356aee7fe6b3cb07aaebdf01",
+        "Practice_hi_Set_05.txt": "ebcd40389331117f3fdeacd881114b561fe291bd7bee11b67e7d4f622a866109",
+        "Practice_hi_Set_06.txt": "58b16bef6d7645d5ba517d77eb1042dbacabf6435d3b5ae7f11bb8eae229a0f2",
+        "Short_Tricks_en.txt": "ca0094c1cfe006b4d0a6d3031aec77a849b942f6791a1726a942d33458dfceb0",
+        "Short_Tricks_hi.txt": "8bf1fc0d8bbbc3957723eb931ba277dac0166ac5d822d666e5a005db0ae3fced",
+        "inventory": {
+          "Content_en.txt": "97f5a020ddc4a9d6468eb86bc7236585ca505209ca266d57ecd67d6523f7eb48",
+          "Content_hi.txt": "5b64bce8731f42da249c9f063960c99dcf4f88cb1d0b749be1ee9eb3ca485271",
+          "Feynman_en.txt": "a38ace51dbb6c33cd94a0357b6ccbc21d4d05f102a4096484adbaa8bf0f69d55",
+          "Feynman_hi.txt": "7a39933dc96283d69fa8cc91fd9c2cb2eabed2561089f617ced1be059fe07b56",
+          "Flashcards_en.txt": "1775c850404c8c46aa016e1934b5d707cd56313c4ffc5d771e0afb2a0dcc129e",
+          "Flashcards_hi.txt": "84026f40a01707a8397f8c2d6cad2686f1ee5da3e2cc868006dcc3154b1f477f",
+          "Important_Rules_en.txt": "14677643f8980193d4e7eb996bbc0bfee34883b8d5b63203c1038fde32ecceae",
+          "Important_Rules_hi.txt": "7dcc93da976b41a6452092c899bf084297255bffea40cddecf6fe51f2cf3084e",
+          "Mind_Map_en.txt": "7b79723da7773d20c51c7ca70eb94759182a325df8185691feed846bb1d90f4b",
+          "Mind_Map_hi.txt": "c84651b8d260f6b13350b8638f1c07f6e0e2c953938272f139a4bab53dc1f6d4",
+          "PYQ_en.txt": "b7b55f173d8a6297d0fcfbeef16d8706f970e59df0537f6a6e9987a823f13f59",
+          "PYQ_hi.txt": "e77f5cfb06e2178759e8ff150763765d93e61913494b8228af5d62d4d46466cb",
+          "Practice_en_Set_01.txt": "fd0d47cd9fdd195a9b1db36d0def9f49b57bdb81b13fbe112e4cdc6e2a4dcb34",
+          "Practice_en_Set_02.txt": "ab1adde6b188448937a5a7f5a44e791338a91e28005e435e281dba19086bfd40",
+          "Practice_en_Set_03.txt": "b3d57764cbd569d3abb010df5e3a5bb00f1d07d93e55bc6c680335facf3cbfa0",
+          "Practice_en_Set_04.txt": "de7de5cf7c85f1c054d254469a9a0a65b86150a95ea887806b213b0d36ba6129",
+          "Practice_en_Set_05.txt": "dc10175ebdf38cceb0a5fc8371b58d5b0d0b4d3b552f9e67f487e2ebcef827ea",
+          "Practice_en_Set_06.txt": "0d29f81fbc0c26b5f96be5222cf9257b23fedada4efedf78852e3213fac4481c",
+          "Practice_hi_Set_01.txt": "3d32d30e5a79ac4591fc3d7ecfaf711f279e49dee470c10656b93561d6baca67",
+          "Practice_hi_Set_02.txt": "c266ccba0337d3c6369132a16873002353d45c3e3784856d24cb5d709e431aa3",
+          "Practice_hi_Set_03.txt": "65ef4e036b8f17071d5099cc438999e5a02ac416ee59791d35071d994b7619b6",
+          "Practice_hi_Set_04.txt": "fa986545f4205243116a5f49ec85d9c5314a8b96356aee7fe6b3cb07aaebdf01",
+          "Practice_hi_Set_05.txt": "ebcd40389331117f3fdeacd881114b561fe291bd7bee11b67e7d4f622a866109",
+          "Practice_hi_Set_06.txt": "58b16bef6d7645d5ba517d77eb1042dbacabf6435d3b5ae7f11bb8eae229a0f2",
+          "Short_Tricks_en.txt": "ca0094c1cfe006b4d0a6d3031aec77a849b942f6791a1726a942d33458dfceb0",
+          "Short_Tricks_hi.txt": "8bf1fc0d8bbbc3957723eb931ba277dac0166ac5d822d666e5a005db0ae3fced"
+        }
+      },
+      "checked_at": "2026-11-21T09:13:32+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "543e17ed179a23b0b3e11ca65646ea416315f473f048e12a83d9a36dc9e15565",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The \"High-Frequency Idiom Bank\" heading and intro state these are idioms, but \"Rome wasn't built in a day\" is a proverb (a complete wise saying), not an idiom → Change heading to \"High-Frequency Phrase Bank\" or separate proverbs into their own list."
+      ],
+      "dependencies": {
+        "chapter.json": "1410fd683e6420469b50beb31c11f2235d5692f3e90ffed6c7670317d848771a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "97f5a020ddc4a9d6468eb86bc7236585ca505209ca266d57ecd67d6523f7eb48"
+      },
+      "checked_at": "2026-11-21T09:14:16+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "5d160738b85b643cacf5e22ca0a7dcdfc71fc38c6bea00a66ae27768a69ce8d1",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "1410fd683e6420469b50beb31c11f2235d5692f3e90ffed6c7670317d848771a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "97f5a020ddc4a9d6468eb86bc7236585ca505209ca266d57ecd67d6523f7eb48",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T09:14:16+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "f70fcf8bdd4885dbc1c88066111b807ee04aa435335948e76fd2d6ac499ca2dc",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "1410fd683e6420469b50beb31c11f2235d5692f3e90ffed6c7670317d848771a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "5b64bce8731f42da249c9f063960c99dcf4f88cb1d0b749be1ee9eb3ca485271"
+      },
+      "checked_at": "2026-11-21T09:14:51+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T09:14:51+00:00",
+  "chapter_fingerprint": "dfc5db2dd88e2b4d90ad20b7a51c9eaaf1dc75b54ab8d325b3c29cdc3052a48e"
+}
