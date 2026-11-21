@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "8b47abf77829dee6f934672b0441f6b83a53948188a587fb00bcb45c2dc56159",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "f51e261069945562f0bb7f10c6f8c6898b9b5df2172ab1fa3539782bbbc978ea",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "351441e3ade270958b23002a4cd60ae118980bed707a968e93476de39e9ca950",
+        "Content_hi.txt": "485be84d864b51107483f37883766c5f2678c721277eeb35e13cc905234612a6",
+        "Feynman_en.txt": "3b299d63c19957c36c2026db4c35f742a5c01c2cdb76d787291daca285e3f144",
+        "Feynman_hi.txt": "fed876fab5d36f6477aa244c1adf300d23ac840bdf88eec5c476f17899abdf39",
+        "Flashcards_en.txt": "ca0c50aad16b30f27389d6cd724623b310e3ae008ae892242257ed00e7ab71c8",
+        "Flashcards_hi.txt": "6f252fa1044c865fde547576b1c7bbc6eb8a28c8567d0e73b0f4526a3cf12919",
+        "Key_Facts_en.txt": "432e65059000cc9b9b382a9ad754e7d91b9bf3762710fa8627565f8227de8530",
+        "Key_Facts_hi.txt": "03e3116efa9d0667fd3c420f710a66087bd24e8b3927a1b189d2414997896c30",
+        "Memory_Hooks_en.txt": "1a5b86bf4b51b10bdad3efaad89d93fb6eaec1f7725734c730f21f6f867988af",
+        "Memory_Hooks_hi.txt": "a96094e0e4002ae142b11359a6471590104bbc7583ee124cf83e5bb9ae748230",
+        "Mind_Map.txt": "04f82c4fe3bc19580c130e4671cf0ecb613ee1407525e3fa04d8a8c4271b8619",
+        "PYQ_en.txt": "9e5c9d9212cdf6e68e9f73c9191ae2acb86732ef9caba398fa10ffd24be23ead",
+        "PYQ_hi.txt": "5ea057b75d6189e13a3d4c75459f6fe26181db3140aad9dc3f9d8748a396cff2",
+        "Practice_en_Set_01.txt": "305f16ff608f01ceb37873d133e0ab82a868e3672bd9a5c5d391213c3cf5b2cd",
+        "Practice_en_Set_02.txt": "2af1b0d756c3d1c29a18426ee2c62762bc6f60f33af58b5c728c34c48f57983a",
+        "Practice_en_Set_03.txt": "3df0b226d4a3eb34f308333f564896874eb6571a402bc72c603249e0051c9908",
+        "Practice_en_Set_04.txt": "5c9938fa8957533b01c6df1dc62c191f8fdb8a50a563247e1fd36ed246cdd523",
+        "Practice_en_Set_05.txt": "db2166ada92d0155aed3e8a1583082c363eb75ff6059d7e960a7ba8d1e60fa5d",
+        "Practice_en_Set_06.txt": "e52e3c838c8230be10ab7a95b71e14a6f18f727b6f44ec43a6a3da63bcf1086d",
+        "Practice_hi_Set_01.txt": "e2a4245d1123cfb9cf02409bc9e1a261c89ebdf19acf114b6c1e16f15e566bba",
+        "Practice_hi_Set_02.txt": "f4a702ae737eb829f34869fe182247cf8ee8afb27158fcd2aa99a637e51a8e00",
+        "Practice_hi_Set_03.txt": "cfb29cf0c37d78fa6c74809b33ccc010a2ba0227428f298615172798e933076b",
+        "Practice_hi_Set_04.txt": "d4f6822e6268b3e9411e7a1016f68478e4070b20324c0fb80511a8f00d5ce168",
+        "Practice_hi_Set_05.txt": "33bc64abe47e890e1dcfe232fbec2948e7e5e6c9e480658ecf485be31b45efd6",
+        "Practice_hi_Set_06.txt": "374dc0f66d05d733295a809c79e4d72c701cb0b14355829f21a059111b2b8e8a",
+        "inventory": {
+          "Content_en.txt": "351441e3ade270958b23002a4cd60ae118980bed707a968e93476de39e9ca950",
+          "Content_hi.txt": "485be84d864b51107483f37883766c5f2678c721277eeb35e13cc905234612a6",
+          "Feynman_en.txt": "3b299d63c19957c36c2026db4c35f742a5c01c2cdb76d787291daca285e3f144",
+          "Feynman_hi.txt": "fed876fab5d36f6477aa244c1adf300d23ac840bdf88eec5c476f17899abdf39",
+          "Flashcards_en.txt": "ca0c50aad16b30f27389d6cd724623b310e3ae008ae892242257ed00e7ab71c8",
+          "Flashcards_hi.txt": "6f252fa1044c865fde547576b1c7bbc6eb8a28c8567d0e73b0f4526a3cf12919",
+          "Key_Facts_en.txt": "432e65059000cc9b9b382a9ad754e7d91b9bf3762710fa8627565f8227de8530",
+          "Key_Facts_hi.txt": "03e3116efa9d0667fd3c420f710a66087bd24e8b3927a1b189d2414997896c30",
+          "Memory_Hooks_en.txt": "1a5b86bf4b51b10bdad3efaad89d93fb6eaec1f7725734c730f21f6f867988af",
+          "Memory_Hooks_hi.txt": "a96094e0e4002ae142b11359a6471590104bbc7583ee124cf83e5bb9ae748230",
+          "Mind_Map.txt": "04f82c4fe3bc19580c130e4671cf0ecb613ee1407525e3fa04d8a8c4271b8619",
+          "PYQ_en.txt": "9e5c9d9212cdf6e68e9f73c9191ae2acb86732ef9caba398fa10ffd24be23ead",
+          "PYQ_hi.txt": "5ea057b75d6189e13a3d4c75459f6fe26181db3140aad9dc3f9d8748a396cff2",
+          "Practice_en_Set_01.txt": "305f16ff608f01ceb37873d133e0ab82a868e3672bd9a5c5d391213c3cf5b2cd",
+          "Practice_en_Set_02.txt": "2af1b0d756c3d1c29a18426ee2c62762bc6f60f33af58b5c728c34c48f57983a",
+          "Practice_en_Set_03.txt": "3df0b226d4a3eb34f308333f564896874eb6571a402bc72c603249e0051c9908",
+          "Practice_en_Set_04.txt": "5c9938fa8957533b01c6df1dc62c191f8fdb8a50a563247e1fd36ed246cdd523",
+          "Practice_en_Set_05.txt": "db2166ada92d0155aed3e8a1583082c363eb75ff6059d7e960a7ba8d1e60fa5d",
+          "Practice_en_Set_06.txt": "e52e3c838c8230be10ab7a95b71e14a6f18f727b6f44ec43a6a3da63bcf1086d",
+          "Practice_hi_Set_01.txt": "e2a4245d1123cfb9cf02409bc9e1a261c89ebdf19acf114b6c1e16f15e566bba",
+          "Practice_hi_Set_02.txt": "f4a702ae737eb829f34869fe182247cf8ee8afb27158fcd2aa99a637e51a8e00",
+          "Practice_hi_Set_03.txt": "cfb29cf0c37d78fa6c74809b33ccc010a2ba0227428f298615172798e933076b",
+          "Practice_hi_Set_04.txt": "d4f6822e6268b3e9411e7a1016f68478e4070b20324c0fb80511a8f00d5ce168",
+          "Practice_hi_Set_05.txt": "33bc64abe47e890e1dcfe232fbec2948e7e5e6c9e480658ecf485be31b45efd6",
+          "Practice_hi_Set_06.txt": "374dc0f66d05d733295a809c79e4d72c701cb0b14355829f21a059111b2b8e8a"
+        }
+      },
+      "checked_at": "2026-11-21T14:01:22+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "d5eed3ca0fe6975ec7137dadf51c7939996d226b430d19a6ca591980cf49289f",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "f51e261069945562f0bb7f10c6f8c6898b9b5df2172ab1fa3539782bbbc978ea",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "351441e3ade270958b23002a4cd60ae118980bed707a968e93476de39e9ca950"
+      },
+      "checked_at": "2026-11-21T14:08:13+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "350f6dad0465bd22847093663357078d3719ee6492b8d0dbca0b69cfa79328fc",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "f51e261069945562f0bb7f10c6f8c6898b9b5df2172ab1fa3539782bbbc978ea",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "351441e3ade270958b23002a4cd60ae118980bed707a968e93476de39e9ca950",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T14:08:13+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "e36045cf5357a700e9d5b7375a60d656a87f07f8697731f33574e63af5959806",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- हिंदी में \"कोच बिहार ट्रॉफी\" लिखा है जबकि सही वर्तनी \"कूच बिहार ट्रॉफी\" है (क्रिकेट ट्रॉफी सूची और सारांश तालिका दोनों में) → \"कूच बिहार ट्रॉफी\"",
+        "- हिंदी में \"मुर्गुगाप्पा गोल्ड कप\" लिखा है जबकि सही वर्तनी \"मुरुगप्पा गोल्ड कप\" है (हॉकी ट्रॉफी सूची में) → \"मुरुगप्पा गोल्ड कप\""
+      ],
+      "dependencies": {
+        "chapter.json": "f51e261069945562f0bb7f10c6f8c6898b9b5df2172ab1fa3539782bbbc978ea",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "485be84d864b51107483f37883766c5f2678c721277eeb35e13cc905234612a6"
+      },
+      "checked_at": "2026-11-21T14:12:31+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T14:12:31+00:00",
+  "chapter_fingerprint": "2e434c5d3e90fdb60e164c65f781d7eb4853428e8d6febb8402073359e98a842"
+}

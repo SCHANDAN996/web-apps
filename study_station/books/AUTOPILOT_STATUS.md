@@ -1,35 +1,34 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 07:39 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 07:42 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 18 Science Tech (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W10 | Chapter 10 Physics Daily (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 19 मिनट |
-| W11 | Chapter 11 Chemistry (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 16 मिनट |
-| W12 | Chapter 14 Sports (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W2 | Chapter 13 Awards (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W3 | Chapter 07 States Rivers (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 21 मिनट |
-| W4 | Chapter 12 Biology (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W5 | Chapter 15 Days Dates (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W6 | Chapter 17 Culture Art (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W7 | Chapter 16 Books Authors (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 59 मिनट |
-| W9 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 30 मिनट |
+| W1 | Chapter 18 Science Tech (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W10 | Chapter 10 Physics Daily (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 22 मिनट |
+| W11 | Chapter 11 Chemistry (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 19 मिनट |
+| W12 | Chapter 14 Sports (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W2 | Chapter 13 Awards (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W4 | Chapter 12 Biology (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
+| W5 | Chapter 15 Days Dates (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W6 | Chapter 17 Culture Art (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W7 | Chapter 16 Books Authors (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 62 मिनट |
+| W9 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 33 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 157 |
-| key 4 | 135 |
-| key 5 | 148 |
-| key 6 | 140 |
+| key 3 | 158 |
+| key 4 | 137 |
+| key 5 | 149 |
+| key 6 | 142 |
 
 ## किताबों की प्रगति
 
@@ -70,10 +69,10 @@
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 101/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 96/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 75/2184 |
-| Graduation GK | 0 | 28 | 0 | 0 | 0 | 31/2184 |
+| Graduation GK | 0 | 28 | 0 | 0 | 0 | 32/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 943/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 944/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -88,15 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 19:27:55   [Physical_Geography] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
-21-11 19:27:56 QA Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_06_Physical_Geography: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Kanchenjunga elevation listed as 8,598 m in both the "प्रमुख चोटियाँ" section and the "सारांश तालिका" → correct elevation is 8,586 m']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_06_Physical_Geography/QA.json'}
-21-11 19:28:57   [Biology] QA passed: structure
-21-11 19:29:23   [World_Geography] QA passed: editorial:Content_en.txt
-21-11 19:29:23   [World_Geography] QA needs_reference: sources:Content_en.txt
-21-11 19:29:49   [Awards] QA passed: structure
-21-11 19:30:41   [Ancient_History] QA passed: editorial:Content_hi.txt
-21-11 19:30:41   [Ancient_History] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
-21-11 19:30:41 QA Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_01_Ancient_History: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The ratio of Harappan standardized burnt bricks is stated as 1:2:4 → The correct ratio is 4:2:1 (length:breadth:height).']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ["Fetch official supporting evidence for: Ancient India keeps surfacing in current affairs: the **Sarnath Lion Capital** appears on every Indian currency note and the new Parliament building's national emblem installation (2022) sparked public discussion on its design; **Nalanda University** was revived as an international university and its new campus was inaugurated in **2024** at Rajgir, Bihar; and **Kashi Tamil Sangamam** events celebrate Sangam-age cultural links. When you read such news, connect it back to the static facts here — examiners increasingly frame questions this way."]}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_01_Ancient_History/QA.json'}
 21-11 19:31:22   [Sports] QA passed: structure
 21-11 19:31:53   [Polity] QA passed: editorial:Content_hi.txt
 21-11 19:31:53   [Polity] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
@@ -128,6 +118,15 @@
 21-11 19:39:11 QA Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_07_States_Rivers: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Section 2: "Major left-bank tributaries (from the Himalayas)" incorrectly includes Gomti, which originates in the plains, not the Himalayas → Remove Gomti from the Himalayan-origin list or change the label to "Major left-bank tributaries" with origin noted separately.', '- Section 2: "Major right-bank tributaries (from the Peninsula)" incorrectly includes Yamuna, which is a Himalayan river → Exclude Yamuna from the peninsular-origin list or correct the label to reflect Yamuna\'s Himalayan origin.', '- Section 5 note: "The Godavari basin extends into ... Puducherry (Karaikal)" → The basin extends into Puducherry\'s Yanam district, not Karaikal; change "Karaikal" to "Yanam".']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_07_States_Rivers/QA.json'}
 21-11 19:39:14   [Days_Dates] QA passed: editorial:Content_en.txt
 21-11 19:39:14   [Days_Dates] QA needs_reference: sources:Content_en.txt
+21-11 19:39:52 worker 2: nothing left
+21-11 19:40:35   [sandhi] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q1 key b vs re-solve a, Q2 key b vs re-solve a, Q5 key d vs re-solve b, Q8 key d vs re-solve c, Q9 k
+21-11 19:40:38   [Culture_Art] QA blocked: editorial:Content_en.txt
+21-11 19:40:39   [Culture_Art] QA needs_reference: sources:Content_en.txt
+21-11 19:40:41   [Chemistry] QA passed: editorial:Content_en.txt
+21-11 19:40:41   [Chemistry] QA needs_reference: sources:Content_en.txt
+21-11 19:42:31   [Sports] QA blocked: editorial:Content_hi.txt
+21-11 19:42:31   [Sports] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 19:42:31 QA Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_14_Sports: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- हिंदी में "कोच बिहार ट्रॉफी" लिखा है जबकि सही वर्तनी "कूच बिहार ट्रॉफी" है (क्रिकेट ट्रॉफी सूची और सारांश तालिका दोनों में) → "कूच बिहार ट्रॉफी"', '- हिंदी में "मुर्गुगाप्पा गोल्ड कप" लिखा है जबकि सही वर्तनी "मुरुगप्पा गोल्ड कप" है (हॉकी ट्रॉफी सूची में) → "मुरुगप्पा गोल्ड कप"']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_14_Sports/QA.json'}
 ````
 
 </details>
