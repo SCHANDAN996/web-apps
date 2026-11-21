@@ -109,11 +109,71 @@
         "Content_hi.txt": "1cd11374752aca691d825839c5031b6f62421df93e013e7d34fef5f41021420b"
       },
       "checked_at": "2026-11-21T07:34:57+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "4f5aceffd3a0155c4c177b72f3eaa1791b8483dba67843569deb60a201a6f38c",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "fcbbf56e3773b4b1bc7b6bddd27eaebf5c846b434b7a67bf3e7d4e07d52a463e",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "1cd11374752aca691d825839c5031b6f62421df93e013e7d34fef5f41021420b",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:46:30+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "02f21a028d3c2057f1f07a8e71fc32b8edbfb3827893193db9df47b69db1505c",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "fcbbf56e3773b4b1bc7b6bddd27eaebf5c846b434b7a67bf3e7d4e07d52a463e",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "a2f167c59a68306372161b97600b293ec0530245c587bc2c2857e22c4d4a57bd"
+      },
+      "checked_at": "2026-11-21T11:46:50+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "574f8d1a52ef217226eceb3e992470d66805b39e22c47cd64a84763bb9268314",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "fcbbf56e3773b4b1bc7b6bddd27eaebf5c846b434b7a67bf3e7d4e07d52a463e",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "a2f167c59a68306372161b97600b293ec0530245c587bc2c2857e22c4d4a57bd",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:46:50+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "62413238e35193379d2ebcd11eeb83caf1584f80f116c9a8a831262eebdf6dc4",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Bonus example incorrectly uses unit‑digit cyclicity (mod 10) to find the remainder when dividing by 5; the correct approach is to use the remainder cyclicity modulo 5 (3, 4, 2, 1) → remainder = 1."
+      ],
+      "dependencies": {
+        "chapter.json": "fcbbf56e3773b4b1bc7b6bddd27eaebf5c846b434b7a67bf3e7d4e07d52a463e",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "c8689154066e1c3d7f3c16557bfcb7fcf366388fab7f50cd11ce51a5e9229a06"
+      },
+      "checked_at": "2026-11-21T11:47:08+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T07:34:57+00:00",
+  "updated_at": "2026-11-21T11:47:08+00:00",
   "chapter_fingerprint": "79abd1bab2ae22334ff3e54b690a837d31d2a6ce5302b7a0644e4cc104a62be0"
 }
