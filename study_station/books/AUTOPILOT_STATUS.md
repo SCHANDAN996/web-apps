@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 01:50 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 01:51 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,23 +11,23 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 179 मिनट |
-| W10 | Chapter 21 International Orgs (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W11 | Chapter 22 Defence (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W12 | Chapter 18 Science Tech (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W2 | Chapter 10 Physics Daily (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
-| W3 | Chapter 14 Sports (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W4 | Chapter 17 Culture Art (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W5 | Chapter 23 Economic Terms (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W6 | Chapter 04 Constitution Basic (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 20 मिनट |
-| W7 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W8 | Chapter 13 Awards (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W9 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 28 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 180 मिनट |
+| W10 | Chapter 21 International Orgs (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W11 | Chapter 22 Defence (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W12 | Chapter 18 Science Tech (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W2 | Chapter 10 Physics Daily (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
+| W3 | Chapter 14 Sports (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W4 | Chapter 17 Culture Art (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W5 | Chapter 23 Economic Terms (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W6 | Chapter 04 Constitution Basic (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 21 मिनट |
+| W7 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W8 | Chapter 24 Reports Indices (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W9 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 29 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 95 |
-| key 4 | 91 |
+| key 4 | 92 |
 | key 5 | 108 |
 | key 6 | 80 |
 
@@ -66,14 +66,14 @@
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
-| 12th GK | 0 | 24 | 0 | 0 | 0 | 44/1872 |
+| 12th GK | 0 | 24 | 0 | 0 | 0 | 47/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 0/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 0/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 371/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 374/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,13 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 13:43:37 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_11_Chemistry: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_11_Chemistry/QA.json'}
-21-11 13:43:37   [Books_Authors] QA passed: structure
-21-11 13:44:06   [Days_Dates] QA passed: editorial:Content_en.txt
-21-11 13:44:06   [Days_Dates] QA needs_reference: sources:Content_en.txt
-21-11 13:44:12   [sandhi] Practice_hi_Set_06.txt try 1: rejected (Q126:duplicate_options,Q128:duplicate_options,Q129:duplicate_options,Q130:duplicate_options,Q132:duplicate_opt
-21-11 13:44:44   [Culture_Art] QA passed: structure
-21-11 13:44:57   [Books_Authors] QA passed: editorial:Content_en.txt
 21-11 13:44:57   [Books_Authors] QA needs_reference: sources:Content_en.txt
 21-11 13:45:27   [Science_Tech] QA passed: structure
 21-11 13:45:43   [Days_Dates] QA passed: editorial:Content_hi.txt
@@ -127,6 +120,13 @@
 21-11 13:49:31 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_10_Physics_Daily: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Domestic supply voltage in India given as 220 V, 50 Hz AC → The current standard is 230 V, 50 Hz AC (as per IS 12360).']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_10_Physics_Daily/QA.json'}
 21-11 13:49:31   [Economic_Terms] QA passed: structure
 21-11 13:50:39   [Reports_Indices] QA passed: structure
+21-11 13:51:30   [Defence] QA passed: editorial:Content_en.txt
+21-11 13:51:38   [International_Orgs] QA passed: editorial:Content_en.txt
+21-11 13:51:44   [Defence] QA needs_reference: sources:Content_en.txt
+21-11 13:51:44   [International_Orgs] QA needs_reference: sources:Content_en.txt
+21-11 13:51:45   [Sports] QA blocked: editorial:Content_en.txt
+21-11 13:51:45   [Sports] QA needs_reference: sources:Content_en.txt
+21-11 13:51:45   [Govt_Schemes] QA passed: structure
 ````
 
 </details>
