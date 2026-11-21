@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 05:29 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 05:30 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,25 +11,25 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 111 मिनट |
-| W10 | Chapter 13 Mixture Alligation (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W11 | Chapter 12 Time Distance (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W12 | Chapter 10 Compound Interest (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W2 | Chapter 06 Average (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W3 | Chapter 11 Time Work (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W4 | Chapter 14 Mensuration (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W5 | Chapter 07 Ratio Proportion (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W6 | Chapter 08 Profit Loss (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 6 मिनट |
-| W8 | Chapter 09 Simple Interest (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W9 | Chapter 05 Percentage (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 112 मिनट |
+| W10 | Chapter 13 Mixture Alligation (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W11 | Chapter 12 Time Distance (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W12 | Chapter 10 Compound Interest (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W2 | Chapter 06 Average (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W3 | Chapter 11 Time Work (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W4 | Chapter 14 Mensuration (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W5 | Chapter 07 Ratio Proportion (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W6 | Chapter 08 Profit Loss (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 7 मिनट |
+| W8 | Chapter 09 Simple Interest (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W9 | Chapter 15 Geometry (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 70 |
+| key 3 | 71 |
 | key 4 | 91 |
-| key 5 | 69 |
-| key 6 | 62 |
+| key 5 | 70 |
+| key 6 | 63 |
 
 ## किताबों की प्रगति
 
@@ -65,7 +65,7 @@
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 83/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 100/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 81/1622 |
-| 12th Maths | 0 | 23 | 0 | 0 | 0 | 87/1794 |
+| 12th Maths | 0 | 23 | 0 | 0 | 0 | 88/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 58/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 50/2025 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 690/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 691/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,14 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 17:24:23   [sandhi] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q51 key d vs re-solve c, Q53 key a vs re-solve c, Q55 key d vs re-solve a, Q56 key d vs re-solve c, 
-21-11 17:24:23   [sandhi] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
-21-11 17:24:38   [Profit_Loss] QA passed: editorial:Feynman_hi.txt
-21-11 17:24:38   [Profit_Loss] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
-21-11 17:24:38 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_08_Profit_Loss: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- In Special Cases, the dishonest dealer formula "Profit % = (Error ÷ True weight − Error) × 100" is missing parentheses around the denominator → Should be "Profit % = (Error ÷ (True weight − Error)) × 100"']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_08_Profit_Loss/QA.json'}
-21-11 17:25:08   [Simple_Interest] QA needs_reference: sources:Content_hi.txt
-21-11 17:25:35   [Simple_Interest] QA passed: editorial:Feynman_en.txt
-21-11 17:25:35   [Simple_Interest] QA needs_reference: sources:Feynman_en.txt
 21-11 17:25:43   [Compound_Interest] QA needs_reference: sources:Content_hi.txt
 21-11 17:26:13   [Simple_Interest] QA passed: editorial:Feynman_hi.txt
 21-11 17:26:14   [Simple_Interest] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
@@ -127,6 +119,14 @@
 21-11 17:30:03   [Time_Distance] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
 21-11 17:30:04 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_12_Time_Distance: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_12_Time_Distance/QA.json'}
 21-11 17:30:04   [Geometry] QA needs_reference: sources:Content_hi.txt
+21-11 17:30:53   [Mensuration] QA passed: editorial:Feynman_hi.txt
+21-11 17:31:01   [Mensuration] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 2, "needs_reference": 3, "remaining": 75, 
+21-11 17:31:02 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_14_Mensuration: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The doubling trap claim "If the radius doubles, area becomes 4× and volume becomes 8×" is not universally true (e.g., for a cylinder with fixed height, volume becomes 4×) → Specify "for a sphere" or "when all linear dimensions double".']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- The example states "Double the side of a square … volume becomes 8 times", but a square is a 2D shape and has no volume; volume scaling applies to a cube. → Change the volume bullet to refer to a cube (e.g., "Double the side of a cube → volume becomes 8 times (×2³)") or clarify that the volume example is for a cube, not a square.']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_14_Mensuration/QA.json'}
+21-11 17:31:02   [Algebra] QA needs_reference: sources:Content_hi.txt
+21-11 17:31:14   [Algebra] QA passed: editorial:Feynman_en.txt
+21-11 17:31:14   [Algebra] QA needs_reference: sources:Feynman_en.txt
+21-11 17:31:25   [Geometry] QA passed: editorial:Feynman_en.txt
+21-11 17:31:25   [Geometry] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>
