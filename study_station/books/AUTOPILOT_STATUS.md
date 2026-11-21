@@ -1,34 +1,35 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 12:46 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 12:48 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 115 मिनट |
-| W10 | Chapter 01 Noun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W11 | Chapter 19 Statistics (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W12 | Chapter 22 Permutation Combination (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W2 | Chapter 21 Probability (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 115 मिनट |
-| W4 | Chapter 16 Algebra (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W5 | Chapter 20 Number Series (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W6 | Chapter 03 Adjective (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W8 | Chapter 02 Pronoun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W9 | Chapter 18 Trigonometry (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 116 मिनट |
+| W10 | Chapter 01 Noun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W11 | Chapter 19 Statistics (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W12 | Chapter 22 Permutation Combination (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W2 | Chapter 21 Probability (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 116 मिनट |
+| W4 | Chapter 16 Algebra (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W5 | Chapter 20 Number Series (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W6 | Chapter 03 Adjective (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W7 | Chapter 04 Verb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W8 | Chapter 02 Pronoun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W9 | Chapter 18 Trigonometry (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 58 |
-| key 4 | 58 |
+| key 4 | 59 |
 | key 5 | 73 |
-| key 6 | 46 |
+| key 6 | 47 |
 
 ## किताबों की प्रगति
 
@@ -63,7 +64,7 @@
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 43/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
-| 10th English | 0 | 20 | 0 | 0 | 0 | 8/1622 |
+| 10th English | 0 | 20 | 0 | 0 | 0 | 11/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 0/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 0/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 0/1950 |
@@ -72,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 222/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 225/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -82,15 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 12:41:58   [Statistics] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 73, "passed": 3, "pending": 69, "blocked": 0, "needs_reference": 1, "remaining": 70, 
-21-11 12:41:59 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_19_Statistics: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 3, 'pending': 69, 'blocked': 0, 'needs_reference': 1, 'remaining': 70, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_19_Statistics/QA.json'}
-21-11 12:42:00   [Number_Series] QA passed: editorial:Content_en.txt
-21-11 12:42:00   [Number_Series] QA needs_reference: sources:Content_en.txt
-21-11 12:42:04   [sandhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q29 key d vs re-solve b, Q32 key d vs re-solve b, Q33 key b vs re-solve c, Q35 key a vs re-solve d, 
-21-11 12:42:04   [sandhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
-21-11 12:42:45   [Probability] QA passed: structure
-21-11 12:43:09   [Probability] QA passed: editorial:Content_en.txt
-21-11 12:43:09   [Probability] QA needs_reference: sources:Content_en.txt
 21-11 12:43:24   [Permutation_Combination] QA passed: structure
 21-11 12:43:30   [Number_Series] QA blocked: editorial:Content_hi.txt
 21-11 12:43:30   [Number_Series] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 73, "passed": 2, "pending": 69, "blocked": 1, "needs_reference": 1, "remaining": 71, 
@@ -122,6 +114,15 @@
 21-11 12:47:19   [Pronoun] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 77, "blocked": 0, "needs_reference": 1, "remaining": 78, 
 21-11 12:47:20 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_02_Pronoun: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 77, 'blocked': 0, 'needs_reference': 1, 'remaining': 78, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_02_Pronoun/QA.json'}
 21-11 12:47:21   [Verb] QA passed: structure
+21-11 12:48:03   [Verb] QA passed: editorial:Content_en.txt
+21-11 12:48:09   [Adjective] QA passed: editorial:Content_hi.txt
+21-11 12:48:22   [Verb] QA needs_reference: sources:Content_en.txt
+21-11 12:48:22   [Adjective] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 2, "pending": 77, "blocked": 1, "needs_reference": 1, "remaining": 79, 
+21-11 12:48:22 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 2, 'pending': 77, 'blocked': 1, 'needs_reference': 1, 'remaining': 79, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The claim that the adjective/pronoun test works for possessive "my/your/his" is incorrect: "my" and "your" cannot stand alone as pronouns (only "his" can); the possessive pronouns are "mine, yours, his, hers, ours, theirs" → The test works for demonstrative and interrogative, but for possessive the pronoun forms differ from the adjective forms.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_03_Adjective/QA.json'}
+21-11 12:48:23   [Tense] QA passed: structure
+21-11 12:48:46   [Verb] QA passed: editorial:Content_hi.txt
+21-11 12:48:46   [Verb] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 77, "blocked": 0, "needs_reference": 1, "remaining": 78, 
+21-11 12:48:46 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 77, 'blocked': 0, 'needs_reference': 1, 'remaining': 78, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb/QA.json'}
 ````
 
 </details>
