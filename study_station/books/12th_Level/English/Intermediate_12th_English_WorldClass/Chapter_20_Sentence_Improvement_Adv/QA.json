@@ -109,11 +109,71 @@
         "Content_hi.txt": "8e487c40c7bde80111c6e3ce5c9161cc9d3217a2043bf03f4de9e7c40ff0409f"
       },
       "checked_at": "2026-11-21T09:20:37+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "db7be9099d4a532474fbe498a78fd6ea3fd6b81ac6dff23a7921825ee4159a1b",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "164cf1f4aa212d03441ac80d24b1ddbaeb5cd2085771e7dc0a898d5700b2f696",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "8e487c40c7bde80111c6e3ce5c9161cc9d3217a2043bf03f4de9e7c40ff0409f",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T13:08:54+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "a69c2e9d3f7f0177b3f671b54ddc00fed16597353ae488a5982903ee972e160f",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "164cf1f4aa212d03441ac80d24b1ddbaeb5cd2085771e7dc0a898d5700b2f696",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "504fa182d6965cd70a28034f0045c295320949ad2711861cbf67dcf681cc489b"
+      },
+      "checked_at": "2026-11-21T13:09:10+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "cc68ed4ef0a4482e79944115c34e9dfad38a71245d17617a24799f2681cee101",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "164cf1f4aa212d03441ac80d24b1ddbaeb5cd2085771e7dc0a898d5700b2f696",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "504fa182d6965cd70a28034f0045c295320949ad2711861cbf67dcf681cc489b",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T13:09:10+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "54d5bd196f2beb34016966f3af5da44aea1ecceb3d8a4f350907f99aa478a623",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Claim that “Since 2020” requires perfect continuous tense is wrong; present perfect simple is also correct → Correction: “Since 2020” can be used with both present perfect simple (e.g., I have worked here since 2020) and present perfect continuous (I have been working here since 2020)."
+      ],
+      "dependencies": {
+        "chapter.json": "164cf1f4aa212d03441ac80d24b1ddbaeb5cd2085771e7dc0a898d5700b2f696",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "3e059fcb05377821b36f2cc34eeeb220780c146c33fb45a3f786c017517df068"
+      },
+      "checked_at": "2026-11-21T13:10:17+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T09:20:37+00:00",
+  "updated_at": "2026-11-21T13:10:18+00:00",
   "chapter_fingerprint": "8b61f742fb6d36718ce32d0ab89aa2b569783c80121c26f061c2b5c5c1fb5079"
 }
