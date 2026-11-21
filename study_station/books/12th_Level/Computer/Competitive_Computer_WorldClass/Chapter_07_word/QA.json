@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "c2e6e49cec502ed80359e105a9dcd2d725a651e54ff21f8e786c4fa5e5dc30f0",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "fdac214479a6799b3627950bd6647a77eaf43a97a9fd3c24313006e3fafc4b64",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "80c85400099562757bdd302e4b64b636a6460664ecb5953274581b836201b161",
+        "Content_hi.txt": "c446764519cb1bc2ba084b59c31bb874f392198914dea58fb1ce25d41c96f96f",
+        "Feynman_en.txt": "a51f4992de40477799aa850dc50a3099f44a3e491833d2d44ed91c2ddef4f02c",
+        "Feynman_hi.txt": "2f2e72f460cc72243f6d3bed0609a3e0744ff7a2b10d1793e60dce9080871e6d",
+        "Flashcards_en.txt": "58a188bc41482b179abec9236abe93f6b18493b0754e686116a48e5284d1fc56",
+        "Flashcards_hi.txt": "a47fdc8b542d157dc602867c54a46fd7950f296adc1d41b77076c279f9e18187",
+        "Important_Rules_en.txt": "97bf5b3b4e23ac763c76eb51bf5e5835f362e55da1b2379b44670cf604d0ee9d",
+        "Important_Rules_hi.txt": "5fa5a12656e569dc3824c537305a2fd079b90a40497c65703a95acbe9e9218d9",
+        "Key_Facts_en.txt": "72ba017e5ae8e67384ee72dd03363d919ecd9a3b2d6cee608fa7e7fd25827665",
+        "Key_Facts_hi.txt": "555c6778e8f62209d764f5c07b2e096055de4ac9f29901647d01d5c12ef9aa9b",
+        "Mind_Map.txt": "848785c86186248f0cb587448b914b676fa91de0ccc4999510b58ad7bc580f8a",
+        "PYQ_en.txt": "b9467f47905e0d1b735b362c2832b3935f148e29c8b7ed634668360181891f56",
+        "PYQ_hi.txt": "d919791ad4d8a217471f53d8b627c6d094f5ea79a8bd9ac39468a3680ef6581d",
+        "Practice_en_Set_01.txt": "314ef09870896ec8637cc96985b88e5fbe18ec18185b506a3ba48db2aa0ec72c",
+        "Practice_en_Set_02.txt": "c085ca98fac81caea60ed359a2969f0512fbd75e247a505c56741be1d9407f84",
+        "Practice_en_Set_03.txt": "60d0ac28547cf08f9b764070dac8a67e3596b168948ed9b06b93c311bc63ab07",
+        "Practice_en_Set_04.txt": "16c965ca9ad9b23e13b449806f1187dc6fa1c421bd8d59dde374534939badcc0",
+        "Practice_en_Set_05.txt": "f7dcbb9fd354f2058f07b4fc7919a70d986d36a793bb40813602518bc5109c7b",
+        "Practice_en_Set_06.txt": "f9ae8415173ad9fd8bc08fb257463bfeb39d6e29de4fa08f4aa3b30d49572576",
+        "Practice_hi_Set_01.txt": "b18a12f96a831d7c319b382e747375bb397fd2e886a5893702fb12543b9d6c04",
+        "Practice_hi_Set_02.txt": "3f392e21643d244a370e88f9d7017f37eaf5c5be4e6b70d97c5523cd517d7a41",
+        "Practice_hi_Set_03.txt": "f21a0dda2e6d034d9309e4d0964759b195c427d466158312f96365f3977d16cd",
+        "Practice_hi_Set_04.txt": "b6224fd0b3582590f955edbe0b3e1896548bbefeec8569234ef7090a56a21c41",
+        "Practice_hi_Set_05.txt": "bdbacdda73c7723d8692ae06bc7121033c4d27178209f9085a1d54847ce2e6b7",
+        "Practice_hi_Set_06.txt": "4860e46512eb060ddf9b5cf3c8334f0c1c03f8bffa13f08b23d40c942c935208",
+        "inventory": {
+          "Content_en.txt": "80c85400099562757bdd302e4b64b636a6460664ecb5953274581b836201b161",
+          "Content_hi.txt": "c446764519cb1bc2ba084b59c31bb874f392198914dea58fb1ce25d41c96f96f",
+          "Feynman_en.txt": "a51f4992de40477799aa850dc50a3099f44a3e491833d2d44ed91c2ddef4f02c",
+          "Feynman_hi.txt": "2f2e72f460cc72243f6d3bed0609a3e0744ff7a2b10d1793e60dce9080871e6d",
+          "Flashcards_en.txt": "58a188bc41482b179abec9236abe93f6b18493b0754e686116a48e5284d1fc56",
+          "Flashcards_hi.txt": "a47fdc8b542d157dc602867c54a46fd7950f296adc1d41b77076c279f9e18187",
+          "Important_Rules_en.txt": "97bf5b3b4e23ac763c76eb51bf5e5835f362e55da1b2379b44670cf604d0ee9d",
+          "Important_Rules_hi.txt": "5fa5a12656e569dc3824c537305a2fd079b90a40497c65703a95acbe9e9218d9",
+          "Key_Facts_en.txt": "72ba017e5ae8e67384ee72dd03363d919ecd9a3b2d6cee608fa7e7fd25827665",
+          "Key_Facts_hi.txt": "555c6778e8f62209d764f5c07b2e096055de4ac9f29901647d01d5c12ef9aa9b",
+          "Mind_Map.txt": "848785c86186248f0cb587448b914b676fa91de0ccc4999510b58ad7bc580f8a",
+          "PYQ_en.txt": "b9467f47905e0d1b735b362c2832b3935f148e29c8b7ed634668360181891f56",
+          "PYQ_hi.txt": "d919791ad4d8a217471f53d8b627c6d094f5ea79a8bd9ac39468a3680ef6581d",
+          "Practice_en_Set_01.txt": "314ef09870896ec8637cc96985b88e5fbe18ec18185b506a3ba48db2aa0ec72c",
+          "Practice_en_Set_02.txt": "c085ca98fac81caea60ed359a2969f0512fbd75e247a505c56741be1d9407f84",
+          "Practice_en_Set_03.txt": "60d0ac28547cf08f9b764070dac8a67e3596b168948ed9b06b93c311bc63ab07",
+          "Practice_en_Set_04.txt": "16c965ca9ad9b23e13b449806f1187dc6fa1c421bd8d59dde374534939badcc0",
+          "Practice_en_Set_05.txt": "f7dcbb9fd354f2058f07b4fc7919a70d986d36a793bb40813602518bc5109c7b",
+          "Practice_en_Set_06.txt": "f9ae8415173ad9fd8bc08fb257463bfeb39d6e29de4fa08f4aa3b30d49572576",
+          "Practice_hi_Set_01.txt": "b18a12f96a831d7c319b382e747375bb397fd2e886a5893702fb12543b9d6c04",
+          "Practice_hi_Set_02.txt": "3f392e21643d244a370e88f9d7017f37eaf5c5be4e6b70d97c5523cd517d7a41",
+          "Practice_hi_Set_03.txt": "f21a0dda2e6d034d9309e4d0964759b195c427d466158312f96365f3977d16cd",
+          "Practice_hi_Set_04.txt": "b6224fd0b3582590f955edbe0b3e1896548bbefeec8569234ef7090a56a21c41",
+          "Practice_hi_Set_05.txt": "bdbacdda73c7723d8692ae06bc7121033c4d27178209f9085a1d54847ce2e6b7",
+          "Practice_hi_Set_06.txt": "4860e46512eb060ddf9b5cf3c8334f0c1c03f8bffa13f08b23d40c942c935208"
+        }
+      },
+      "checked_at": "2026-11-21T05:31:34+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "52c4cb488c6cabdb098a5cb050cb5a186490fdb4a7cc29ce3cc1306e4f80665a",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- \"Default line spacing: 1.08 (single) with 8 pt after paragraph\" → The default line spacing is 1.08 lines (Multiple), not the \"Single\" preset; the \"Single\" preset uses 1.0 line spacing.",
+        "- \"Default font (Word 2016+): Calibri 11 pt\" → For Microsoft 365 (included in the book's scope), the default font has been Aptos since 2023, not Calibri."
+      ],
+      "dependencies": {
+        "chapter.json": "fdac214479a6799b3627950bd6647a77eaf43a97a9fd3c24313006e3fafc4b64",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "80c85400099562757bdd302e4b64b636a6460664ecb5953274581b836201b161"
+      },
+      "checked_at": "2026-11-21T05:35:44+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "d420aa4b11072efdd338d4d7b18ae5e941b05094df3b5ee50c0cf2fc2a92adf6",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: Microsoft Word is a word-processing application used to create, edit, format, and print documents. In SSC, Railway, and Banking exams, questions test practical knowledge of the interface, shortcut keys, formatting tools, mail merge, tables, and document protection. The concepts below are version-agnostic (applicable to Word 2010 onward, including Microsoft 365) and drawn from official Microsoft Support documentation."
+      ],
+      "dependencies": {
+        "chapter.json": "fdac214479a6799b3627950bd6647a77eaf43a97a9fd3c24313006e3fafc4b64",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "80c85400099562757bdd302e4b64b636a6460664ecb5953274581b836201b161",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T05:35:44+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "a4eea585b17ba098767b081a4d732f6dad66bc7188318bb7d1e03cbf16d3d8cf",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- स्रोत उद्धरण में CERT-In सुरक्षा परामर्श और RBI साइबर सुरक्षा ढांचा को Word अवधारणाओं के स्रोत के रूप में सूचीबद्ध किया गया है, जो तथ्यात्मक रूप से गलत है → स्रोत सूची से CERT-In और RBI को हटाएँ; केवल Microsoft Support और Microsoft Learn रखें।"
+      ],
+      "dependencies": {
+        "chapter.json": "fdac214479a6799b3627950bd6647a77eaf43a97a9fd3c24313006e3fafc4b64",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "c446764519cb1bc2ba084b59c31bb874f392198914dea58fb1ce25d41c96f96f"
+      },
+      "checked_at": "2026-11-21T05:36:57+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T05:36:57+00:00",
+  "chapter_fingerprint": "2fb3dae9bd88c14e6c914d2834ac101cddf63d0ae2b3756e0b3c0d57ab4c84be"
+}
