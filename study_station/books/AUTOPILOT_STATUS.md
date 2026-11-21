@@ -11,23 +11,23 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 144 मिनट |
-| W10 | Chapter 21 International Orgs (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W12 | Chapter 04 Blood Relations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 145 मिनट |
+| W11 | Chapter 05 Direction Sense (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W12 | Chapter 04 Blood Relations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 | W2 | Chapter 24 Reports Indices (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
 | W3 | Chapter 03 Coding Decoding (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 | W4 | Chapter 22 Defence (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
 | W5 | Chapter 25 Govt Schemes (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
 | W6 | Chapter 01 Analogy (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 39 मिनट |
+| W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 40 मिनट |
 | W8 | Chapter 02 Classification (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 | W9 | Chapter 23 Economic Terms (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 100 |
+| key 3 | 101 |
 | key 4 | 112 |
-| key 5 | 90 |
+| key 5 | 91 |
 | key 6 | 81 |
 
 ## किताबों की प्रगति
@@ -86,10 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 17:58:55   [Govt_Schemes] QA needs_reference: sources:Content_hi.txt
-21-11 17:59:24   [Economic_Terms] QA blocked: editorial:Content_en.txt
-21-11 17:59:24   [Economic_Terms] QA needs_reference: sources:Content_en.txt
-21-11 17:59:28   [Reports_Indices] QA passed: editorial:Feynman_en.txt
 21-11 17:59:28   [Reports_Indices] QA needs_reference: sources:Feynman_en.txt
 21-11 17:59:52   [Reports_Indices] QA passed: editorial:Feynman_hi.txt
 21-11 17:59:52   [Analogy] QA needs_reference: sources:Content_hi.txt
@@ -126,6 +122,10 @@
 21-11 18:03:09 QA 12th_Level/Reasoning/Chapter_02_Classification: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Trap 3 explanation incorrectly states that checking cubes causes confusion because only 64 is a cube → 1, 64, and 729 are all cubes; checking cubes yields three cubes and one non‑cube (100), giving a clear odd one out.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_02_Classification/QA.json'}
 21-11 18:03:28   [Direction_Sense] QA blocked: editorial:Feynman_en.txt
 21-11 18:03:28   [Direction_Sense] QA needs_reference: sources:Feynman_en.txt
+21-11 18:03:44   [Order_Ranking] QA needs_reference: sources:Feynman_hi.txt
+21-11 18:04:04   [Direction_Sense] QA passed: editorial:Feynman_hi.txt
+21-11 18:04:04   [Direction_Sense] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 2, "needs_reference": 3, "remaining": 75, 
+21-11 18:04:04 QA 12th_Level/Reasoning/Chapter_05_Direction_Sense: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The Type A substitution method incorrectly interprets "X is called Y" as "code word X = real Y", but in standard exam usage (SSC, Railway, Bank) the phrase means "real direction X is renamed Y in the code", so the decoding table must map code Y → real X. This inversion error makes the introductory example (walking towards coded \'North\' actually walks East, should be West) and the solved example (walking towards coded \'South\' actually walks East, should be West; final answer North-East, should be South-West) both wrong.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- Section content is corrupted placeholder text (repetitive fragments like "The the the story", "the mind the mind", "Card 1 the card") with no definitions, examples, formulas, tables, or memory aids to verify → Replace with actual Feynman technique study material']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_05_Direction_Sense/QA.json'}
 ````
 
 </details>
