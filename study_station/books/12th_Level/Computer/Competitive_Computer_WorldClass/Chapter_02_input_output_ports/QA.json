@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "9846cf51ec21b37d1464e715acd280c96c4c13649907cbf6d356590af3bfa9b9",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "dc6d914f8e6f57926e7ec1322584cd83beb0cdadaa04dabaab250b9b08e74521",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "93c315262d4e9d8ac9ac5f2726eedb5d9b59045305b1e9e79bf0e2defc203659",
+        "Content_hi.txt": "a88f5fa0f61d939fa20abcf15a8faa8e48dbebe9f6877c825f0ae10963d4acd2",
+        "Feynman_en.txt": "1ad68da4f39cb8fe233b64f4f169f8c519b4233fcb3d2da1c67095752005229f",
+        "Feynman_hi.txt": "0372316d5b06e1c361dca683172103bf897b8b0f94eecc3a167e300931d405e3",
+        "Flashcards_en.txt": "e1b9a10cb016da22e68dd2a4bd9f7b57eb94776266f31cf4bfc3bbe32f883357",
+        "Flashcards_hi.txt": "b15b61d09cfa139825f95e7e29ceae9b5a9e82465e617050f9c399e19fdd9ac7",
+        "Important_Rules_en.txt": "c5d4652bb4efb6c6d2558a65e9837676d70b426f13a61c1bab7fffe72bec70c3",
+        "Important_Rules_hi.txt": "6e0b2e57538d1781775b77a82208400d18991b79b0f9fb39bedecccb2b8eceae",
+        "Key_Facts_en.txt": "77ec3119b8c42b6922047fa9ba5a344389ce8b9fa2156cafc450a694d7de365a",
+        "Key_Facts_hi.txt": "ec5acd527b85c2773a0c4ac94bdbef99498fd8ec948f59bc256cc7c889c84231",
+        "Mind_Map.txt": "fa8093da3c986dd3639fb8d09dd127c6441c69c0774aa712ee0a9a9911014721",
+        "PYQ_en.txt": "85a2bd62e15a8faa1ec712d9cb22fc2ab3199bec9ab1580caa0810246209174e",
+        "PYQ_hi.txt": "5f6785ffe6ab77677c81fe40479552ba161579a706d0d49ea12c376d0ebee4fb",
+        "Practice_en_Set_01.txt": "342609081114ca2d5e28a2bd55b832f59805beda2ee681547f480dcbcc6c7230",
+        "Practice_en_Set_02.txt": "b3be1a1e18a3b4bca6536bd091091399fc186e73077c2831c428a01cf510770a",
+        "Practice_en_Set_03.txt": "3053505f2e7f6c87f46d631d266c13d86c827e587b2029ec0ef8688bd532cb09",
+        "Practice_en_Set_04.txt": "b64d14bbdf1eac9245e9eae7c22da9138d426128765d630a0201391f988f776b",
+        "Practice_en_Set_05.txt": "3f3d9c9c7065668988b8152044fa51941eb3962da75e8c0096c876ae8e91b50d",
+        "Practice_en_Set_06.txt": "d9ac7269d7aa88c6bc9b4bc11613871bd6c077ea61cc38db24b70c371a25a118",
+        "Practice_hi_Set_01.txt": "497057b8641013e9288ac3165906d66762270287f539b06d1b27247d984c0f63",
+        "Practice_hi_Set_02.txt": "7f849eb3ff34d45b3be173624f963e19d4a280cb470b711510215bc144f59f37",
+        "Practice_hi_Set_03.txt": "13eef7000f011ee5bccf941e41d74b508daf553958161229143d534e11925fc2",
+        "Practice_hi_Set_04.txt": "2cf766c08a02bf46a3e84465f5e6e944f3b8c074ef45ee9225bcea766a25ef5f",
+        "Practice_hi_Set_05.txt": "2ea335202c3e51b7d2370001aa42c16a767106eaa25d3f46596509efcda1caf7",
+        "Practice_hi_Set_06.txt": "d0a204c34f17a8b1a79c85b26c97dcd3463901f1b7ade1aefd05421184ab0030",
+        "inventory": {
+          "Content_en.txt": "93c315262d4e9d8ac9ac5f2726eedb5d9b59045305b1e9e79bf0e2defc203659",
+          "Content_hi.txt": "a88f5fa0f61d939fa20abcf15a8faa8e48dbebe9f6877c825f0ae10963d4acd2",
+          "Feynman_en.txt": "1ad68da4f39cb8fe233b64f4f169f8c519b4233fcb3d2da1c67095752005229f",
+          "Feynman_hi.txt": "0372316d5b06e1c361dca683172103bf897b8b0f94eecc3a167e300931d405e3",
+          "Flashcards_en.txt": "e1b9a10cb016da22e68dd2a4bd9f7b57eb94776266f31cf4bfc3bbe32f883357",
+          "Flashcards_hi.txt": "b15b61d09cfa139825f95e7e29ceae9b5a9e82465e617050f9c399e19fdd9ac7",
+          "Important_Rules_en.txt": "c5d4652bb4efb6c6d2558a65e9837676d70b426f13a61c1bab7fffe72bec70c3",
+          "Important_Rules_hi.txt": "6e0b2e57538d1781775b77a82208400d18991b79b0f9fb39bedecccb2b8eceae",
+          "Key_Facts_en.txt": "77ec3119b8c42b6922047fa9ba5a344389ce8b9fa2156cafc450a694d7de365a",
+          "Key_Facts_hi.txt": "ec5acd527b85c2773a0c4ac94bdbef99498fd8ec948f59bc256cc7c889c84231",
+          "Mind_Map.txt": "fa8093da3c986dd3639fb8d09dd127c6441c69c0774aa712ee0a9a9911014721",
+          "PYQ_en.txt": "85a2bd62e15a8faa1ec712d9cb22fc2ab3199bec9ab1580caa0810246209174e",
+          "PYQ_hi.txt": "5f6785ffe6ab77677c81fe40479552ba161579a706d0d49ea12c376d0ebee4fb",
+          "Practice_en_Set_01.txt": "342609081114ca2d5e28a2bd55b832f59805beda2ee681547f480dcbcc6c7230",
+          "Practice_en_Set_02.txt": "b3be1a1e18a3b4bca6536bd091091399fc186e73077c2831c428a01cf510770a",
+          "Practice_en_Set_03.txt": "3053505f2e7f6c87f46d631d266c13d86c827e587b2029ec0ef8688bd532cb09",
+          "Practice_en_Set_04.txt": "b64d14bbdf1eac9245e9eae7c22da9138d426128765d630a0201391f988f776b",
+          "Practice_en_Set_05.txt": "3f3d9c9c7065668988b8152044fa51941eb3962da75e8c0096c876ae8e91b50d",
+          "Practice_en_Set_06.txt": "d9ac7269d7aa88c6bc9b4bc11613871bd6c077ea61cc38db24b70c371a25a118",
+          "Practice_hi_Set_01.txt": "497057b8641013e9288ac3165906d66762270287f539b06d1b27247d984c0f63",
+          "Practice_hi_Set_02.txt": "7f849eb3ff34d45b3be173624f963e19d4a280cb470b711510215bc144f59f37",
+          "Practice_hi_Set_03.txt": "13eef7000f011ee5bccf941e41d74b508daf553958161229143d534e11925fc2",
+          "Practice_hi_Set_04.txt": "2cf766c08a02bf46a3e84465f5e6e944f3b8c074ef45ee9225bcea766a25ef5f",
+          "Practice_hi_Set_05.txt": "2ea335202c3e51b7d2370001aa42c16a767106eaa25d3f46596509efcda1caf7",
+          "Practice_hi_Set_06.txt": "d0a204c34f17a8b1a79c85b26c97dcd3463901f1b7ade1aefd05421184ab0030"
+        }
+      },
+      "checked_at": "2026-11-21T05:23:06+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "f6a0567ad74d38f574f13c4698095fd70d0c5e4b4b8cfbf0a751455e60f3e77e",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "dc6d914f8e6f57926e7ec1322584cd83beb0cdadaa04dabaab250b9b08e74521",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "93c315262d4e9d8ac9ac5f2726eedb5d9b59045305b1e9e79bf0e2defc203659"
+      },
+      "checked_at": "2026-11-21T05:26:10+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "b1da2a4da8e96ad5c8f16c4b1a3f64635f46e6bf7bc9e11d22a6da68226999e9",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "dc6d914f8e6f57926e7ec1322584cd83beb0cdadaa04dabaab250b9b08e74521",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "93c315262d4e9d8ac9ac5f2726eedb5d9b59045305b1e9e79bf0e2defc203659",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T05:26:10+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "dfc0203e4afc00ef4ca85bed5c9ba9498db5fad4eeca3741413fa9c62e63186f",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- USB 3.1 Gen 2 / 3.2 Gen 2 (10 Gbps) पंक्ति में \"लाल/टील इनसर्ट\" पहचान गलत है → USB-IF मानक के अनुसार 10 Gbps के लिए केवल टील (नीला-हरा) रंग निर्धारित है; लाल इनसर्ट 20 Gbps (USB 3.2 Gen 2x2) के लिए है।"
+      ],
+      "dependencies": {
+        "chapter.json": "dc6d914f8e6f57926e7ec1322584cd83beb0cdadaa04dabaab250b9b08e74521",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "a88f5fa0f61d939fa20abcf15a8faa8e48dbebe9f6877c825f0ae10963d4acd2"
+      },
+      "checked_at": "2026-11-21T05:40:59+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T05:40:59+00:00",
+  "chapter_fingerprint": "6f24b8a0cf8c71fc878b68cf2b69f1b276fc08ca870fb7214418df0ec46fd5e0"
+}
