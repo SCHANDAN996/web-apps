@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 12:30 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 12:31 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,23 +11,23 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 98 मिनट |
-| W10 | Chapter 03 Simplification (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W11 | Chapter 02 LCM HCF (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W12 | Chapter 06 Average (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W2 | Chapter 21 Paper Folding Cutting (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 98 मिनट |
-| W4 | Chapter 07 Ratio Proportion (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W5 | Chapter 04 Fractions Decimals (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W6 | Chapter 05 Percentage (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W7 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W8 | Chapter 08 Profit Loss (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 99 मिनट |
+| W10 | Chapter 03 Simplification (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W11 | Chapter 02 LCM HCF (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W12 | Chapter 06 Average (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 99 मिनट |
+| W4 | Chapter 07 Ratio Proportion (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W5 | Chapter 04 Fractions Decimals (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W6 | Chapter 05 Percentage (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W7 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W8 | Chapter 08 Profit Loss (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W9 | Chapter 09 Simple Interest (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 42 |
+| key 3 | 43 |
 | key 4 | 52 |
-| key 5 | 56 |
+| key 5 | 58 |
 | key 6 | 37 |
 
 ## किताबों की प्रगति
@@ -62,7 +62,7 @@
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 29/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 43/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
-| 10th Maths | 0 | 22 | 0 | 0 | 0 | 17/1606 |
+| 10th Maths | 0 | 22 | 0 | 0 | 0 | 21/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 0/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 0/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 0/1872 |
@@ -72,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 169/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 173/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -82,14 +82,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 12:24:20 QA 10th_Level/Reasoning/Chapter_20_Mirror_Water_Images: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 1, 'pending': 74, 'blocked': 2, 'needs_reference': 1, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Summary Table "What stays" column uses "Top ↔ Bottom" for Vertical Mirror and "Left ↔ Right" for Horizontal Mirror, implying these axes flip when they actually remain unchanged → For Vertical Mirror change "Top ↔ Bottom" to "Top/Bottom unchanged"; for Horizontal Mirror/Water Image change "Left ↔ Right" to "Left/Right unchanged"', '- Water Image symmetric letters list includes "S" as remaining the same; in standard exam reasoning (SSC, Banking, Railways) capital S is not horizontally symmetric → Remove "S" from the list; correct list: B, C, D, E, H, I, O, X']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- In the summary table, the row for 'अक्षर M (दर्पण)' incorrectly places 'वैसा ही रहता है' under the 'क्या पलटता है' column; it should be under 'क्या स्थिर रहता है' (with 'क्या पलटता है' as '–')."]}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_20_Mirror_Water_Images/QA.json'}
-21-11 12:24:28   [Simplification] QA passed: structure
-21-11 12:25:05   [Number_System] QA passed: editorial:Content_hi.txt
-21-11 12:25:05   [Number_System] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 73, "passed": 3, "pending": 69, "blocked": 0, "needs_reference": 1, "remaining": 70, 
-21-11 12:25:05 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_01_Number_System: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 3, 'pending': 69, 'blocked': 0, 'needs_reference': 1, 'remaining': 70, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_01_Number_System/QA.json'}
-21-11 12:25:35   [Fractions_Decimals] QA passed: structure
-21-11 12:25:42   [Cubes_Dice] QA passed: editorial:Content_en.txt
-21-11 12:25:42   [Cubes_Dice] QA needs_reference: sources:Content_en.txt
 21-11 12:25:57   [LCM_HCF] QA passed: editorial:Content_en.txt
 21-11 12:25:58   [LCM_HCF] QA needs_reference: sources:Content_en.txt
 21-11 12:26:35   [Percentage] QA passed: structure
@@ -122,6 +114,14 @@
 21-11 12:30:44   [Fractions_Decimals] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 73, "passed": 3, "pending": 69, "blocked": 0, "needs_reference": 1, "remaining": 70, 
 21-11 12:30:44 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_04_Fractions_Decimals: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 3, 'pending': 69, 'blocked': 0, 'needs_reference': 1, 'remaining': 70, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_04_Fractions_Decimals/QA.json'}
 21-11 12:30:51   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q129 key a vs re-solve ?, Q130 key d vs re-solve ?, Q133 key a vs re-solve ?, Q134 key d vs re-solve
+21-11 12:31:19   [Average] QA passed: editorial:Content_en.txt
+21-11 12:31:20   [Simple_Interest] QA passed: editorial:Content_en.txt
+21-11 12:31:22   [Average] QA needs_reference: sources:Content_en.txt
+21-11 12:31:22   [Simple_Interest] QA needs_reference: sources:Content_en.txt
+21-11 12:31:23   [Compound_Interest] QA passed: structure
+21-11 12:31:55   [Percentage] QA passed: editorial:Content_hi.txt
+21-11 12:31:55   [Percentage] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 73, "passed": 2, "pending": 69, "blocked": 1, "needs_reference": 1, "remaining": 71, 
+21-11 12:31:55 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_05_Percentage: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 2, 'pending': 69, 'blocked': 1, 'needs_reference': 1, 'remaining': 71, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- "8.33% = 1/12" presents an approximate value as exact equality → should be "8.33% ≈ 1/12" or "8.33% (approx) = 1/12"', '- "9.09% = 1/11" presents an approximate value as exact equality → should be "9.09% ≈ 1/11" or "9.09% (approx) = 1/11"']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_05_Percentage/QA.json'}
 ````
 
 </details>
