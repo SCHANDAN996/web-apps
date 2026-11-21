@@ -1,33 +1,34 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 05:15 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 05:16 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 96 मिनट |
-| W10 | Chapter 12 Sentence Structure (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W11 | Chapter 13 Synonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W12 | Chapter 09 Articles (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W2 | Chapter 15 One Word Substitution (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W4 | Chapter 11 Narration (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W5 | Chapter 16 Idioms Phrases (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W6 | Chapter 18 Error Spotting Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W7 | Chapter 17 Spelling (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W8 | Chapter 19 Fill in Blanks Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W9 | Chapter 14 Antonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 97 मिनट |
+| W10 | Chapter 12 Sentence Structure (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W11 | Chapter 13 Synonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W12 | Chapter 09 Articles (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W2 | Chapter 15 One Word Substitution (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W3 | Chapter 20 Sentence Improvement Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W4 | Chapter 11 Narration (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W5 | Chapter 16 Idioms Phrases (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W6 | Chapter 18 Error Spotting Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W7 | Chapter 17 Spelling (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W8 | Chapter 19 Fill in Blanks Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W9 | Chapter 14 Antonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 60 |
-| key 4 | 82 |
-| key 5 | 63 |
+| key 4 | 83 |
+| key 5 | 64 |
 | key 6 | 51 |
 
 ## किताबों की प्रगति
@@ -63,7 +64,7 @@
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 76/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 83/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 100/1606 |
-| 10th English | 0 | 20 | 0 | 0 | 0 | 79/1622 |
+| 10th English | 0 | 20 | 0 | 0 | 0 | 80/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 58/1950 |
@@ -72,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 663/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 664/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,14 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 17:10:11 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_11_Narration: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 73, 'blocked': 2, 'needs_reference': 3, 'remaining': 78, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- The claim "you can convert 90% of exam sentences" is an invented exam statistic → remove the percentage or replace with "most exam sentences"']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- The text claims "सिर्फ़ तीन चीज़ें बदलती हैं" (only three things change: Pronoun, Tense, Time/Place words) but the example shows a fourth change: verb "come" → "go" → Either add verb change as a fourth category or clarify that verb change is part of perspective shift.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_11_Narration/QA.json'}
-21-11 17:10:11   [Antonyms] QA needs_reference: sources:Content_hi.txt
-21-11 17:10:29   [Antonyms] QA passed: editorial:Feynman_en.txt
-21-11 17:10:29   [Antonyms] QA needs_reference: sources:Feynman_en.txt
-21-11 17:11:06   [Antonyms] QA passed: editorial:Feynman_hi.txt
-21-11 17:11:07   [Antonyms] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 73, "blocked": 2, "needs_reference": 3, "remaining": 78, 
-21-11 17:11:08 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_14_Antonyms: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 73, 'blocked': 2, 'needs_reference': 3, 'remaining': 78, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- "Every SSC, Railway and Bank paper asks you one deceptively simple question" is an invented exam claim (absolute statement not true for all papers) → Qualify as "Many SSC, Railway and Bank papers include..." or remove the absolute claim.', '- "Exam insight: SSC and Railway questions are mostly gradable and complementary" is an invented exam statistic without source → Remove or provide verifiable source.', '- In the passage check yourself, "philanthropy ↔ misanthrope" is an incorrect antonym pair (philanthropy is an abstract noun, misanthrope is a person) → Correct to "philanthropy ↔ misanthropy" or "philanthropist ↔ misanthrope".']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In the Greek/Latin Roots table, the row for "pro-" incorrectly lists "re-" as an opposite prefix; "re-" means "again/back", not "against". The true antonym of pro- is "anti-" (or "contra-"). → Remove "re-" from the antonym column; only "anti-" is the opposite.', '- In the same table, the row for "phil-" gives "mis-" as the root for "hate" in "misanthropy"; the Greek root for hate is "miso-", while "mis-" is a Latin/English prefix meaning "bad/wrong". → Change "mis- (घृणा)" to "miso- (घृणा)" and note that "misanthropy" derives from Greek "misos" (hatred).']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_14_Antonyms/QA.json'}
-21-11 17:11:08   [One_Word_Substitution] QA needs_reference: sources:Content_hi.txt
 21-11 17:11:19   [One_Word_Substitution] QA passed: editorial:Feynman_en.txt
 21-11 17:11:19   [One_Word_Substitution] QA needs_reference: sources:Feynman_en.txt
 21-11 17:11:57   [One_Word_Substitution] QA blocked: editorial:Feynman_hi.txt
@@ -126,6 +119,14 @@
 21-11 17:15:55 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_19_Fill_in_Blanks_Basic: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Rule of thumb in Linguistic Bridge incorrectly labels Hindi "जाता है" as present continuous → "जाता है" is simple present, not present continuous; the contrast should be between simple present (जाता है) and present continuous (जा रहा है)']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: | 1 | **Since** = निश्चित समय-बिंदु (2015, Monday, January) | He has lived here **since** 2015. |']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_19_Fill_in_Blanks_Basic/QA.json'}
 21-11 17:15:55   [Sentence_Improvement_Basic] QA needs_reference: sources:Content_hi.txt
 21-11 17:16:17   [sandhi] Practice_hi_Set_03.txt try 3: rejected (Q65:duplicate_options)
+21-11 17:16:30   [Number_System] QA needs_reference: sources:Content_hi.txt
+21-11 17:16:40   [Sentence_Improvement_Basic] QA passed: editorial:Feynman_en.txt
+21-11 17:16:40   [Sentence_Improvement_Basic] QA needs_reference: sources:Feynman_en.txt
+21-11 17:16:50   [Number_System] QA passed: editorial:Feynman_en.txt
+21-11 17:16:50   [Number_System] QA needs_reference: sources:Feynman_en.txt
+21-11 17:17:08   [Number_System] QA blocked: editorial:Feynman_hi.txt
+21-11 17:17:08   [Number_System] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 2, "needs_reference": 3, "remaining": 75, 
+21-11 17:17:08 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- "The root must be non-terminating to be irrational" is false; non-terminating repeating decimals (e.g., 1/3 = 0.333…) are rational. → Irrational numbers have decimal expansions that are both non-terminating and non-repeating (or cannot be expressed as p/q).']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- Bonus example incorrectly uses unit‑digit cyclicity (mod\u202f10) to find the remainder when dividing by\u202f5; the correct approach is to use the remainder cyclicity modulo\u202f5 (3,\u202f4,\u202f2,\u202f1) → remainder =\u202f1.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System/QA.json'}
 ````
 
 </details>
