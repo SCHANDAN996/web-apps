@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 04:32 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 04:33 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,25 +11,25 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 54 मिनट |
-| W10 | Chapter 11 Series (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W11 | Chapter 15 Mathematical Operations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W12 | Chapter 10 Clock Calendar (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 54 मिनट |
-| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W4 | Chapter 12 Missing Term (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W5 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W6 | Chapter 08 Puzzles Basic (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W7 | Chapter 14 Alphabet Questions (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W8 | Chapter 07 Sitting Arrangement (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W9 | Chapter 06 Order Ranking (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 55 मिनट |
+| W10 | Chapter 11 Series (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W11 | Chapter 15 Mathematical Operations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W12 | Chapter 10 Clock Calendar (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 55 मिनट |
+| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W4 | Chapter 12 Missing Term (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W5 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W6 | Chapter 08 Puzzles Basic (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W7 | Chapter 14 Alphabet Questions (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W8 | Chapter 16 Statement Conclusion (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W9 | Chapter 06 Order Ranking (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 38 |
 | key 4 | 48 |
-| key 5 | 35 |
-| key 6 | 25 |
+| key 5 | 36 |
+| key 6 | 27 |
 
 ## किताबों की प्रगति
 
@@ -62,7 +62,7 @@
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 48/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 52/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 76/1482 |
-| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 70/1716 |
+| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 75/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 584/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 589/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,15 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 16:28:54   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
-21-11 16:28:57   [Puzzles_Basic] QA passed: editorial:Feynman_hi.txt
-21-11 16:28:57   [Puzzles_Basic] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
-21-11 16:28:57 QA 10th_Level/Reasoning/Chapter_08_Puzzles_Basic: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- Blurting sheet asks "What are the 4 types of simple puzzles?" but the section does not define or list any types of simple puzzles → Remove the question or add the missing content covering the 4 types.', '- Blurting sheet asks "What is the D.R.A.C. method?" but the section does not mention or explain any D.R.A.C. method → Remove the question or add the missing content explaining D.R.A.C.', '- Blurting sheet asks "What is the 2-minute drill?" but the section does not describe a 2-minute drill → Remove the question or add the missing content describing the drill.', '- Blurting sheet asks "What are three examiner traps in simple puzzles?" but the section does not list any examiner traps → Remove the question or add the missing content listing three traps.', '- Blurting sheet asks "Why should you look for definite clues first?" but the section does not discuss the concept of definite clues or their priority → Remove the question or add the missing content explaining definite clues.', '- Blurting sheet asks "How many cases should a simple puzzle usually need?" but the section does not mention the number of cases typically required → Remove the question or add the missing content specifying the usual number of cases.']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_08_Puzzles_Basic/QA.json'}
-21-11 16:28:58   [Clock_Calendar] QA passed: editorial:Feynman_en.txt
-21-11 16:28:58   [Clock_Calendar] QA needs_reference: sources:Feynman_en.txt
-21-11 16:29:46   [Missing_Term] QA needs_reference: sources:Content_hi.txt
-21-11 16:30:00   [Series] QA passed: editorial:Feynman_en.txt
-21-11 16:30:00   [Series] QA needs_reference: sources:Feynman_en.txt
 21-11 16:30:09   [sandhi] Practice_hi_Set_02.txt try 1: rejected (Q31:duplicate_options,Q32:duplicate_options,Q37:duplicate_options,Q39:duplicate_options,Q40:duplicate_options)
 21-11 16:30:10   [Missing_Term] QA passed: editorial:Feynman_en.txt
 21-11 16:30:10   [Missing_Term] QA needs_reference: sources:Feynman_en.txt
@@ -123,6 +114,15 @@
 21-11 16:33:39 QA 10th_Level/Reasoning/Chapter_15_Mathematical_Operations: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_15_Mathematical_Operations/QA.json'}
 21-11 16:33:50   [Statement_Conclusion] QA passed: editorial:Feynman_en.txt
 21-11 16:33:50   [Statement_Conclusion] QA needs_reference: sources:Feynman_en.txt
+21-11 16:34:07   [Alphabet_Questions] QA passed: editorial:Feynman_hi.txt
+21-11 16:34:12   [Statement_Conclusion] QA passed: editorial:Feynman_hi.txt
+21-11 16:34:16   [Alphabet_Questions] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 2, "needs_reference": 3, "remaining": 75, 
+21-11 16:34:16   [Statement_Conclusion] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
+21-11 16:34:17 QA 10th_Level/Reasoning/Chapter_16_Statement_Conclusion: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_16_Statement_Conclusion/QA.json'}
+21-11 16:34:17 QA 10th_Level/Reasoning/Chapter_14_Alphabet_Questions: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The claim "Any letter is at most two steps away from an EJOTY anchor" is false (A is 4 steps from E, B is 3 steps from E) → Correct the statement to acknowledge that early letters (A, B) are farther from the first anchor E, or remove the "at most two steps" generalization.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- The blurting sheet asks to write "EJOTY" but the chapter never defines or mentions EJOTY. → Remove "EJOTY" from the blurting sheet or add an explanation of EJOTY in the chapter.', '- The blurting sheet asks to write "the types of series" but the chapter does not discuss any series types. → Remove "the types of series" from the blurting sheet or add a section on series types.']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_14_Alphabet_Questions/QA.json'}
+21-11 16:34:18   [Course_of_Action] QA needs_reference: sources:Content_hi.txt
+21-11 16:34:48   [Course_of_Action] QA blocked: editorial:Feynman_en.txt
+21-11 16:34:48   [Course_of_Action] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>
