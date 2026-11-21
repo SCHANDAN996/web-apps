@@ -12,17 +12,17 @@
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
 | W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 136 मिनट |
-| W10 | Chapter 03 Simplification (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W11 | Chapter 17 Spelling (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W12 | Chapter 02 LCM HCF (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W2 | Chapter 01 Number System (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W3 | Chapter 19 Fill in Blanks Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W10 | Chapter 03 Simplification (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W11 | Chapter 17 Spelling (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W12 | Chapter 02 LCM HCF (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W2 | Chapter 01 Number System (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W3 | Chapter 19 Fill in Blanks Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
 | W4 | Chapter 16 Idioms Phrases (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W5 | Chapter 18 Error Spotting Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W5 | Chapter 18 Error Spotting Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
 | W6 | Chapter 14 Antonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W7 | Chapter 05 Percentage (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W8 | Chapter 04 Fractions Decimals (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W9 | Chapter 20 Sentence Improvement Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W7 | Chapter 05 Percentage (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W8 | Chapter 04 Fractions Decimals (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W9 | Chapter 20 Sentence Improvement Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
@@ -65,7 +65,7 @@
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
-| 12th Maths | 0 | 23 | 0 | 0 | 0 | 13/1794 |
+| 12th Maths | 0 | 23 | 0 | 0 | 0 | 15/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 0/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 0/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 0/2025 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 278/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 280/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,10 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 13:02:26   [Sentence_Improvement_Basic] QA passed: editorial:Content_en.txt
-21-11 13:02:26   [Sentence_Improvement_Basic] QA needs_reference: sources:Content_en.txt
-21-11 13:02:47   [Fill_in_Blanks_Basic] QA blocked: editorial:Content_en.txt
-21-11 13:02:56   [Fill_in_Blanks_Basic] QA needs_reference: sources:Content_en.txt
 21-11 13:02:57   [Number_System] QA passed: structure
 21-11 13:03:07   [Sentence_Improvement_Basic] QA passed: editorial:Content_hi.txt
 21-11 13:03:07   [Sentence_Improvement_Basic] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 77, "blocked": 0, "needs_reference": 1, "remaining": 78, 
@@ -127,6 +123,10 @@
 21-11 13:07:36   [Percentage] QA passed: editorial:Content_hi.txt
 21-11 13:07:36   [Percentage] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
 21-11 13:07:37 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_05_Percentage: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_05_Percentage/QA.json'}
+21-11 13:08:20   [Average] QA passed: structure
+21-11 13:08:42   [Average] QA passed: editorial:Content_en.txt
+21-11 13:08:42   [Average] QA needs_reference: sources:Content_en.txt
+21-11 13:08:45   [sandhi] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q101 key c vs re-solve d, Q102 key a vs re-solve b, Q103 key d vs re-solve b, Q105 key c vs re-solve
 ````
 
 </details>
