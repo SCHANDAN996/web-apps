@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "dc24590de3682e5d04618c2e4b2a4a0dec4ef0074148572ee3ead72bdaa7212d",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "598676981092cfd338a7bd1a9295c36e8f9e37e8ddcfc4518991dd6bcc2a99ff",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Content_hi.txt": "43c7c5fcc4cb42ff34dfe3532b087df19ac68000131c40149ec9f0ed24ed57aa",
+        "Feynman_hi.txt": "f11a5da927c342666a42b1670372736536c004ff29b796cb8552f302c37fec9f",
+        "Flashcards_hi.txt": "0d09b65e57676f8ba042af925b6754d76588062c8ab9bc47a683249e07fe085d",
+        "Important_Rules_hi.txt": "a47ed3cbab09a4773810e43ff48ac3a0fb15c29b7ea4aa5e9e80bbd32dd2a910",
+        "Key_Facts_hi.txt": "eed9e18ea528fd608e6b85e136d1b43d4b8ec776385d45e1c298275a002499ef",
+        "Mind_Map.txt": "d31eda2c58568f7264aa12058306c7a9761623861bd58a4c858f03ffb877a7de",
+        "PYQ_hi.txt": "3737c14e38a561ba0ceb04a15b82390e9519f11172359885d2ef8869e92c95f0",
+        "Practice_hi_Set_01.txt": "b3a23d4ee6191271046d52cd3a70d5390b4c18e165cc338958d0f301be07358c",
+        "Practice_hi_Set_02.txt": "936d1dcabf158d802548e14b1adceccea446b19f9e5d51e4f79dfc644adb136d",
+        "Practice_hi_Set_03.txt": "53138356a537c5a2c34dffe5911ec6da92dfe776c809c252077da223da0f68b7",
+        "Practice_hi_Set_04.txt": "b85bf2f24121609ff5ea39f7c02a9205942f1ac460bb02ea20113b544927d6fb",
+        "Practice_hi_Set_05.txt": "4025c8884379a477967bf06e50abb4720efed3dd78a95dbaf6b7890bcfaaf5cf",
+        "Practice_hi_Set_06.txt": "c889806d8b906f45bb21721d08201ae1439916ab2d96ac36a59bae364150f58f",
+        "inventory": {
+          "Content_hi.txt": "43c7c5fcc4cb42ff34dfe3532b087df19ac68000131c40149ec9f0ed24ed57aa",
+          "Feynman_hi.txt": "f11a5da927c342666a42b1670372736536c004ff29b796cb8552f302c37fec9f",
+          "Flashcards_hi.txt": "0d09b65e57676f8ba042af925b6754d76588062c8ab9bc47a683249e07fe085d",
+          "Important_Rules_hi.txt": "a47ed3cbab09a4773810e43ff48ac3a0fb15c29b7ea4aa5e9e80bbd32dd2a910",
+          "Key_Facts_hi.txt": "eed9e18ea528fd608e6b85e136d1b43d4b8ec776385d45e1c298275a002499ef",
+          "Mind_Map.txt": "d31eda2c58568f7264aa12058306c7a9761623861bd58a4c858f03ffb877a7de",
+          "PYQ_hi.txt": "3737c14e38a561ba0ceb04a15b82390e9519f11172359885d2ef8869e92c95f0",
+          "Practice_hi_Set_01.txt": "b3a23d4ee6191271046d52cd3a70d5390b4c18e165cc338958d0f301be07358c",
+          "Practice_hi_Set_02.txt": "936d1dcabf158d802548e14b1adceccea446b19f9e5d51e4f79dfc644adb136d",
+          "Practice_hi_Set_03.txt": "53138356a537c5a2c34dffe5911ec6da92dfe776c809c252077da223da0f68b7",
+          "Practice_hi_Set_04.txt": "b85bf2f24121609ff5ea39f7c02a9205942f1ac460bb02ea20113b544927d6fb",
+          "Practice_hi_Set_05.txt": "4025c8884379a477967bf06e50abb4720efed3dd78a95dbaf6b7890bcfaaf5cf",
+          "Practice_hi_Set_06.txt": "c889806d8b906f45bb21721d08201ae1439916ab2d96ac36a59bae364150f58f"
+        }
+      },
+      "checked_at": "2026-11-21T05:36:13+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "e7e22c3f10772602d1741b609f51d2536aaf1b1694d4cb23c5de5cc6d06f9efc",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- उदाहरण 2 के हल में \"मरीच = किरण/सूर्य\" लिखा है, जो तथ्यात्मक रूप से गलत है; मरीच सूर्य का मानक पर्याय नहीं है (यह ऋषि या काली मिर्च का नाम है) → इस कथन को हटाएं या सही करें कि मरीच वायु का पर्याय नहीं है।",
+        "- सूर्य के पर्याय के लिए दिया गया स्मरण सूत्र \"भरदिया\" सूचीबद्ध शब्दों (भास्कर, रवि, दिनकर, आदित्य) के प्रारंभिक अक्षरों (भ, र, द, आ) से मेल नहीं खाता → सही संक्षेप \"भरदआ\" या कोई अन्य उपयुक्त स्मरण सूत्र बनाएं।",
+        "- क्षेत्रीय/बोलचाल पर्याय की तालिका में \"अन्न\" को \"भात/चावल\" का पर्याय बताया गया है, जबकि \"अन्न\" का अर्थ \"अनाज/भोजन\" है न कि विशेषतः चावल → \"अन्न\" को इस सूची से हटाएं या स्पष्ट करें कि यह सामान्य अर्थ में प्रयुक्त होता है।"
+      ],
+      "dependencies": {
+        "chapter.json": "598676981092cfd338a7bd1a9295c36e8f9e37e8ddcfc4518991dd6bcc2a99ff",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Content_hi.txt": "43c7c5fcc4cb42ff34dfe3532b087df19ac68000131c40149ec9f0ed24ed57aa"
+      },
+      "checked_at": "2026-11-21T05:38:58+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "9b72708a02ce98e067fe832987fe8b03933fd1c79f404d4574c3da1d319cb00d",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "598676981092cfd338a7bd1a9295c36e8f9e37e8ddcfc4518991dd6bcc2a99ff",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Content_hi.txt": "43c7c5fcc4cb42ff34dfe3532b087df19ac68000131c40149ec9f0ed24ed57aa",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T05:38:58+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "15ab1a1cc33b8a6857b2010dadf653f4f26000ef4cc812a27192b79fc7e6f4ce",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "598676981092cfd338a7bd1a9295c36e8f9e37e8ddcfc4518991dd6bcc2a99ff",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Feynman_hi.txt": "f11a5da927c342666a42b1670372736536c004ff29b796cb8552f302c37fec9f"
+      },
+      "checked_at": "2026-11-21T05:57:24+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T05:57:24+00:00",
+  "chapter_fingerprint": "d919dd8bd209492085d19523a18eb7d11ca3cb5cf6d98efc4475f2ff3a422c71"
+}

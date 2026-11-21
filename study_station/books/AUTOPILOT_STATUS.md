@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 35 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 36 मिनट |
 | W10 | Chapter 05 Polity (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W11 | Chapter 04 Constitution Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W12 | Chapter 03 Modern History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W2 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 35 मिनट |
+| W11 | Chapter 04 Constitution Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W12 | Chapter 03 Modern History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W2 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 36 मिनट |
 | W4 | Chapter 07 States Rivers (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W5 | Chapter 01 Ancient History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W6 | Chapter 17 apathit gadyansh (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W7 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W8 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 20 मिनट |
-| W9 | Chapter 06 Physical Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W5 | Chapter 01 Ancient History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W6 | Chapter 17 apathit gadyansh (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W7 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W8 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 21 मिनट |
+| W9 | Chapter 06 Physical Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 19 |
-| key 4 | 25 |
-| key 5 | 26 |
+| key 4 | 26 |
+| key 5 | 27 |
 | key 6 | 6 |
 
 ## किताबों की प्रगति
@@ -59,9 +59,9 @@
 
 | किताब | QA पास | जाँच बाकी | प्रमाण बाकी | सुधार अटका | मैनुअल | जाँचें पास / कुल |
 |---|---:|---:|---:|---:|---:|---:|
-| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 27/540 |
+| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 28/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 29/1092 |
-| 10th GK | 0 | 19 | 0 | 0 | 0 | 9/1482 |
+| 10th GK | 0 | 19 | 0 | 0 | 0 | 10/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 0/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 0/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 0/1622 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 65/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 67/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,7 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 11:20:23   [powerpoint] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
 21-11 11:20:23 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_09_powerpoint: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: - Default aspect ratio: Widescreen (16:9) since PowerPoint 2013; Standard (4:3) available in Design → Slide Size.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_09_powerpoint/QA.json'}
 21-11 11:20:47   [Ancient_History] QA passed: structure
 21-11 11:21:06   [vakya_shuddhi] QA blocked: editorial:Content_hi.txt
@@ -123,6 +122,7 @@
 21-11 11:27:24 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_10_paryayvachi: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 2, 'pending': 32, 'blocked': 1, 'needs_reference': 1, 'remaining': 34, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- उदाहरण 2 के हल में "मरीच = किरण/सूर्य" लिखा है, जो तथ्यात्मक रूप से गलत है; मरीच सूर्य का मानक पर्याय नहीं है (यह ऋषि या काली मिर्च का नाम है) → इस कथन को हटाएं या सही करें कि मरीच वायु का पर्याय नहीं है।', '- सूर्य के पर्याय के लिए दिया गया स्मरण सूत्र "भरदिया" सूचीबद्ध शब्दों (भास्कर, रवि, दिनकर, आदित्य) के प्रारंभिक अक्षरों (भ, र, द, आ) से मेल नहीं खाता → सही संक्षेप "भरदआ" या कोई अन्य उपयुक्त स्मरण सूत्र बनाएं।', '- क्षेत्रीय/बोलचाल पर्याय की तालिका में "अन्न" को "भात/चावल" का पर्याय बताया गया है, जबकि "अन्न" का अर्थ "अनाज/भोजन" है न कि विशेषतः चावल → "अन्न" को इस सूची से हटाएं या स्पष्ट करें कि यह सामान्य अर्थ में प्रयुक्त होता है।']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_10_paryayvachi/QA.json'}
 21-11 11:27:45   [Constitution_Basic] QA blocked: editorial:Content_en.txt
 21-11 11:27:45   [Constitution_Basic] QA needs_reference: sources:Content_en.txt
+21-11 11:27:52   [World_Geography] QA passed: structure
 ````
 
 </details>
