@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 01:52 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 01:53 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,23 +11,23 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 181 मिनट |
-| W10 | Chapter 21 International Orgs (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W11 | Chapter 22 Defence (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W12 | Chapter 18 Science Tech (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W2 | Chapter 10 Physics Daily (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
-| W3 | Chapter 14 Sports (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W5 | Chapter 23 Economic Terms (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W6 | Chapter 25 Govt Schemes (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W7 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W8 | Chapter 24 Reports Indices (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W9 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 30 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 182 मिनट |
+| W10 | Chapter 21 International Orgs (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W11 | Chapter 22 Defence (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W12 | Chapter 18 Science Tech (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W3 | Chapter 14 Sports (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W4 | Chapter 01 Analogy (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W5 | Chapter 23 Economic Terms (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W6 | Chapter 25 Govt Schemes (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W7 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W8 | Chapter 24 Reports Indices (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W9 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 96 |
-| key 4 | 92 |
-| key 5 | 109 |
+| key 3 | 97 |
+| key 4 | 93 |
+| key 5 | 110 |
 | key 6 | 81 |
 
 ## किताबों की प्रगति
@@ -65,14 +65,14 @@
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
-| 12th GK | 0 | 24 | 0 | 0 | 0 | 47/1872 |
-| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 1/1950 |
+| 12th GK | 0 | 24 | 0 | 0 | 0 | 48/1872 |
+| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 3/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 0/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 375/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 378/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,10 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 13:46:40   [Science_Tech] QA needs_reference: sources:Content_en.txt
-21-11 13:46:41   [Environment] QA passed: structure
-21-11 13:47:26   [International_Orgs] QA passed: structure
-21-11 13:47:26   [Physics_Daily] QA blocked: editorial:Content_en.txt
 21-11 13:47:26   [Physics_Daily] QA needs_reference: sources:Content_en.txt
 21-11 13:47:32   [sandhi] Practice_hi_Set_06.txt try 2: rejected (Q129:duplicate_options)
 21-11 13:47:40   [Culture_Art] QA passed: editorial:Content_en.txt
@@ -126,6 +122,10 @@
 21-11 13:53:07 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_18_Science_Tech: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In the institutions table (खंड 1), TIFR headquarters is incorrectly listed as New Delhi → TIFR headquarters is Mumbai (Colaba).', '- In the missile table (खंड 3), Akash missile appears twice (duplicate row) → Remove duplicate; list each missile once: Prithvi, Agni, Akash, Nag, Trishul.', '- In the summary table (सारांश तालिका), row 2 fact says "भारतीय अंतरिक्ष कार्यक्रम के जनक" but answer is Dr. Homi J. Bhabha → Fact should be "भारतीय परमाणु कार्यक्रम के जनक".', '- In the summary table (सारांश तालिका), row 5 fact says "एशिया का पहला परमाणु परीक्षण" but answer is Apsara (1956) → Fact should be "एशिया का पहला परमाणु रिएक्टर" (Asia\'s first nuclear reactor).']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_18_Science_Tech/QA.json'}
 21-11 13:53:27   [Govt_Schemes] QA passed: editorial:Content_en.txt
 21-11 13:53:27   [Govt_Schemes] QA needs_reference: sources:Content_en.txt
+21-11 13:53:41   [Analogy] QA passed: editorial:Content_en.txt
+21-11 13:53:52   [Analogy] QA needs_reference: sources:Content_en.txt
+21-11 13:53:53   [Classification] QA passed: structure
+21-11 13:54:38   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q126 key d vs re-solve a, Q147 key a vs re-solve d)
 ````
 
 </details>

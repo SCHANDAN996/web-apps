@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "b03b382123dd0bec5a894ef2b2f4c37c696ea7803ea20ead49c451d26d780f35",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "dd1c8ab362b518ac6c5fca520161c003d35c5ff4f79888745e32e9c58bf3f7c6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "0a981f2479c8a6de9273473707e4560c178cc13e9006ab8a766817cefaa6bc2b",
+        "Content_hi.txt": "408395a985dd7c8f7410fea1ed9ba4516f1d45c160f41bbc743e7e0ea41ccf3f",
+        "Feynman_en.txt": "343edaccf1d6307b7351152abf211d3e22624894cc87bebabddde2ecb7abf871",
+        "Feynman_hi.txt": "97efb9ceb30eb2cd42aacdeb8875ab7bb62ace288446d1b27d2e4bd3c02610c5",
+        "Flashcards_en.txt": "e3ced5200fc8d5119403b11e17848e620b3b2e34a62603ff8c2da7c1d6b94a67",
+        "Flashcards_hi.txt": "6cbf76829b46b4a11e592f7d8ae7e452810998c905718847508bc59f8c529777",
+        "Key_Facts_en.txt": "612b5dfe17d24c3d7eaa267c240d8c11502b21e52a9e8d44b600ddf26961fd9e",
+        "Key_Facts_hi.txt": "a3e07df499920e68dac3501a6cee736cea87e295e1e970fe496f2357fb15b1bb",
+        "Memory_Hooks_en.txt": "73c221100ebff54c86b0e30624f1b1fb800bd9771683bc8437c5197c079bb37c",
+        "Memory_Hooks_hi.txt": "2f2a9246d919f1823b393486ede229b212f73178e6408724a83b6115aa47e55e",
+        "Mind_Map.txt": "6d3fc9eda152461c9c03e0eb400e3f6cf4c0e5cf68149742c8c8556ae4743bae",
+        "PYQ_en.txt": "f4fd6412a358ace7665fe2fac4c4e449135ea5f9183153e567cd8601b2654329",
+        "PYQ_hi.txt": "496d05f1113a440bee09738b9180449cc0031ceb49f353a7888309e08f38346c",
+        "Practice_en_Set_01.txt": "3dc76956b3c61cf12754ee3ee18a9a08fc9b1a864b3f995e436dc34c40df2da9",
+        "Practice_en_Set_02.txt": "53387ce8556f3e52ccdc3d5bd9b9fc047c32e24edc474b0e1fe90bcf50d74bd1",
+        "Practice_en_Set_03.txt": "725779d9483273c5471c7b9b0293ae6ad9b117b290b31772fc89c2fe2d34d608",
+        "Practice_en_Set_04.txt": "29deea9e9a4c5c54bd3feeda2e71e5b9fb0d5aec9d5bb079c4a8b39230262e43",
+        "Practice_en_Set_05.txt": "eb08271dacce3b353fe6ba1c9f6dc9708c3e8429e90db5ed1d16f18786ea13f3",
+        "Practice_en_Set_06.txt": "8ada746fac5761be2bb1a81093de2aa3487f110c223add908c9994bb8f96141a",
+        "Practice_hi_Set_01.txt": "1ce81c0c547a95bc2cfe81bc6b0f69e35e330e727dce0116611615fc07ae4338",
+        "Practice_hi_Set_02.txt": "c32cdc1d578ce15f554cb103385c94d102d4cdcf78767ad1640ab295cb0711fe",
+        "Practice_hi_Set_03.txt": "c1d5faf291dbd18833298ec8546e461e3171803621778bd62e2189b53c1481a6",
+        "Practice_hi_Set_04.txt": "4ed1ca805e129237a5fdb20f9f0fca94ebe5bc2a1580682bd9406a9226cee00a",
+        "Practice_hi_Set_05.txt": "5893f11b7ded87413ce21ec8a8568796c95c5f1fa6f0475e9a0c8546212a8f48",
+        "Practice_hi_Set_06.txt": "9ebb60c7813b47128b405cd6090407b7f07fce82aecb827964496271e4e99204",
+        "inventory": {
+          "Content_en.txt": "0a981f2479c8a6de9273473707e4560c178cc13e9006ab8a766817cefaa6bc2b",
+          "Content_hi.txt": "408395a985dd7c8f7410fea1ed9ba4516f1d45c160f41bbc743e7e0ea41ccf3f",
+          "Feynman_en.txt": "343edaccf1d6307b7351152abf211d3e22624894cc87bebabddde2ecb7abf871",
+          "Feynman_hi.txt": "97efb9ceb30eb2cd42aacdeb8875ab7bb62ace288446d1b27d2e4bd3c02610c5",
+          "Flashcards_en.txt": "e3ced5200fc8d5119403b11e17848e620b3b2e34a62603ff8c2da7c1d6b94a67",
+          "Flashcards_hi.txt": "6cbf76829b46b4a11e592f7d8ae7e452810998c905718847508bc59f8c529777",
+          "Key_Facts_en.txt": "612b5dfe17d24c3d7eaa267c240d8c11502b21e52a9e8d44b600ddf26961fd9e",
+          "Key_Facts_hi.txt": "a3e07df499920e68dac3501a6cee736cea87e295e1e970fe496f2357fb15b1bb",
+          "Memory_Hooks_en.txt": "73c221100ebff54c86b0e30624f1b1fb800bd9771683bc8437c5197c079bb37c",
+          "Memory_Hooks_hi.txt": "2f2a9246d919f1823b393486ede229b212f73178e6408724a83b6115aa47e55e",
+          "Mind_Map.txt": "6d3fc9eda152461c9c03e0eb400e3f6cf4c0e5cf68149742c8c8556ae4743bae",
+          "PYQ_en.txt": "f4fd6412a358ace7665fe2fac4c4e449135ea5f9183153e567cd8601b2654329",
+          "PYQ_hi.txt": "496d05f1113a440bee09738b9180449cc0031ceb49f353a7888309e08f38346c",
+          "Practice_en_Set_01.txt": "3dc76956b3c61cf12754ee3ee18a9a08fc9b1a864b3f995e436dc34c40df2da9",
+          "Practice_en_Set_02.txt": "53387ce8556f3e52ccdc3d5bd9b9fc047c32e24edc474b0e1fe90bcf50d74bd1",
+          "Practice_en_Set_03.txt": "725779d9483273c5471c7b9b0293ae6ad9b117b290b31772fc89c2fe2d34d608",
+          "Practice_en_Set_04.txt": "29deea9e9a4c5c54bd3feeda2e71e5b9fb0d5aec9d5bb079c4a8b39230262e43",
+          "Practice_en_Set_05.txt": "eb08271dacce3b353fe6ba1c9f6dc9708c3e8429e90db5ed1d16f18786ea13f3",
+          "Practice_en_Set_06.txt": "8ada746fac5761be2bb1a81093de2aa3487f110c223add908c9994bb8f96141a",
+          "Practice_hi_Set_01.txt": "1ce81c0c547a95bc2cfe81bc6b0f69e35e330e727dce0116611615fc07ae4338",
+          "Practice_hi_Set_02.txt": "c32cdc1d578ce15f554cb103385c94d102d4cdcf78767ad1640ab295cb0711fe",
+          "Practice_hi_Set_03.txt": "c1d5faf291dbd18833298ec8546e461e3171803621778bd62e2189b53c1481a6",
+          "Practice_hi_Set_04.txt": "4ed1ca805e129237a5fdb20f9f0fca94ebe5bc2a1580682bd9406a9226cee00a",
+          "Practice_hi_Set_05.txt": "5893f11b7ded87413ce21ec8a8568796c95c5f1fa6f0475e9a0c8546212a8f48",
+          "Practice_hi_Set_06.txt": "9ebb60c7813b47128b405cd6090407b7f07fce82aecb827964496271e4e99204"
+        }
+      },
+      "checked_at": "2026-11-21T08:15:27+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "ed84e1a966aee26075af8c0d0b2f4a4db7616789720bf44e5dd43352ce997c25",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "dd1c8ab362b518ac6c5fca520161c003d35c5ff4f79888745e32e9c58bf3f7c6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "0a981f2479c8a6de9273473707e4560c178cc13e9006ab8a766817cefaa6bc2b"
+      },
+      "checked_at": "2026-11-21T08:16:39+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "96bf1fd4bf7b0c53bb3fa8ba518bd42d350bbc9a684999490e083c0f1c054e03",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "dd1c8ab362b518ac6c5fca520161c003d35c5ff4f79888745e32e9c58bf3f7c6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "0a981f2479c8a6de9273473707e4560c178cc13e9006ab8a766817cefaa6bc2b",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T08:16:39+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "5249762866761b51020a9047e8460d7462318b4015da3e29406fb791be19d40e",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- In the institutions table (खंड 1), TIFR headquarters is incorrectly listed as New Delhi → TIFR headquarters is Mumbai (Colaba).",
+        "- In the missile table (खंड 3), Akash missile appears twice (duplicate row) → Remove duplicate; list each missile once: Prithvi, Agni, Akash, Nag, Trishul.",
+        "- In the summary table (सारांश तालिका), row 2 fact says \"भारतीय अंतरिक्ष कार्यक्रम के जनक\" but answer is Dr. Homi J. Bhabha → Fact should be \"भारतीय परमाणु कार्यक्रम के जनक\".",
+        "- In the summary table (सारांश तालिका), row 5 fact says \"एशिया का पहला परमाणु परीक्षण\" but answer is Apsara (1956) → Fact should be \"एशिया का पहला परमाणु रिएक्टर\" (Asia's first nuclear reactor)."
+      ],
+      "dependencies": {
+        "chapter.json": "dd1c8ab362b518ac6c5fca520161c003d35c5ff4f79888745e32e9c58bf3f7c6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "408395a985dd7c8f7410fea1ed9ba4516f1d45c160f41bbc743e7e0ea41ccf3f"
+      },
+      "checked_at": "2026-11-21T08:23:06+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T08:23:06+00:00",
+  "chapter_fingerprint": "03e0bbe01477806c72ee869a187ea11bb6ae912b0d57261f70179a676603315c"
+}
