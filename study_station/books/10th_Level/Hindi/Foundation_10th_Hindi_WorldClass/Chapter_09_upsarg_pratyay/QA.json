@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "3be4b56fe4c2dffc65cf6982911ed8c434bd66675a13768959e0b3bff081042c",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "c6e21543790cb93e8334bd3763419af8d6ff929af307859c702fe0024a7db9e5",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Content_hi.txt": "b5be5ec70d0384d9d2600f1471dc5ec09dec1de7cff3c74741c4f893840af811",
+        "Feynman_hi.txt": "8a50ee81cece23d527872a18afe59ae1702c52dec2883c9161fbd87c2cf1d016",
+        "Flashcards_hi.txt": "47cf9f3f79842a54964a03fb60ec86556d8c2445095cb503bd3283f3bd112be3",
+        "Important_Rules_hi.txt": "8e5d2a2e92e38f1234005b84e8a6347f28537283bcf89d11efd90549ca779789",
+        "Key_Facts_hi.txt": "83e860342348f91564ac2dccf4433064a55058e7d6f6b04842fc066e601b79a3",
+        "Mind_Map.txt": "3c553c7684568c8d1e8909959e1955ba2b4b072f78906370217175be5f8eb171",
+        "PYQ_hi.txt": "3f6a69befe08327779d8e03f2e479c6d464908ad07abf63f8311bd0a45ba05e3",
+        "Practice_hi_Set_01.txt": "17db65c71b145aaefaf8df6d24bc9ca4a06683c2942029a16b11b5ec029bdfd7",
+        "Practice_hi_Set_02.txt": "67a111e540164bd589ff8f57f52eab756620eb8665b51adce211d4d94ccc83ef",
+        "Practice_hi_Set_03.txt": "120b79d6fada7d7a73b0a23db6c9b9d5fab609ccb3d9bd8b20a08416133a8241",
+        "Practice_hi_Set_04.txt": "7350fb2d7d947216950001991388706a725f314218e53270058ad1f8f6e5520f",
+        "Practice_hi_Set_05.txt": "18062273a4991fba37371fce1d0c69f68e62f239d43d7186edbcf647a16bcc1e",
+        "Practice_hi_Set_06.txt": "d76016a40e0c1f93fc2c66920e3bb484bcc2c211c9ba94644857520760da7d75",
+        "inventory": {
+          "Content_hi.txt": "b5be5ec70d0384d9d2600f1471dc5ec09dec1de7cff3c74741c4f893840af811",
+          "Feynman_hi.txt": "8a50ee81cece23d527872a18afe59ae1702c52dec2883c9161fbd87c2cf1d016",
+          "Flashcards_hi.txt": "47cf9f3f79842a54964a03fb60ec86556d8c2445095cb503bd3283f3bd112be3",
+          "Important_Rules_hi.txt": "8e5d2a2e92e38f1234005b84e8a6347f28537283bcf89d11efd90549ca779789",
+          "Key_Facts_hi.txt": "83e860342348f91564ac2dccf4433064a55058e7d6f6b04842fc066e601b79a3",
+          "Mind_Map.txt": "3c553c7684568c8d1e8909959e1955ba2b4b072f78906370217175be5f8eb171",
+          "PYQ_hi.txt": "3f6a69befe08327779d8e03f2e479c6d464908ad07abf63f8311bd0a45ba05e3",
+          "Practice_hi_Set_01.txt": "17db65c71b145aaefaf8df6d24bc9ca4a06683c2942029a16b11b5ec029bdfd7",
+          "Practice_hi_Set_02.txt": "67a111e540164bd589ff8f57f52eab756620eb8665b51adce211d4d94ccc83ef",
+          "Practice_hi_Set_03.txt": "120b79d6fada7d7a73b0a23db6c9b9d5fab609ccb3d9bd8b20a08416133a8241",
+          "Practice_hi_Set_04.txt": "7350fb2d7d947216950001991388706a725f314218e53270058ad1f8f6e5520f",
+          "Practice_hi_Set_05.txt": "18062273a4991fba37371fce1d0c69f68e62f239d43d7186edbcf647a16bcc1e",
+          "Practice_hi_Set_06.txt": "d76016a40e0c1f93fc2c66920e3bb484bcc2c211c9ba94644857520760da7d75"
+        }
+      },
+      "checked_at": "2026-11-21T05:34:26+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "e8cef4136012af8fb49126bb6430cfb310049fefde8be0b4ac02b80e7edc9464",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- In section 3.2 (ग) स्त्रीलिंग प्रत्यय table, the suffix '-त्री' is incorrectly exemplified with 'गायक → गायिका'; '-त्री' does not produce 'गायिका' (the correct suffix for that transformation is '-इका' or '-ई' with deletion of -क) → Replace the example for '-त्री' with a valid one (e.g., 'पुत्र → पुत्री' for '-ई') or change the suffix to '-इका' for 'गायक → गायिका'."
+      ],
+      "dependencies": {
+        "chapter.json": "c6e21543790cb93e8334bd3763419af8d6ff929af307859c702fe0024a7db9e5",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Content_hi.txt": "b5be5ec70d0384d9d2600f1471dc5ec09dec1de7cff3c74741c4f893840af811"
+      },
+      "checked_at": "2026-11-21T05:39:46+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "e9e4bb53971fff5ee3c449265b1b130af3f8ba4219c8d3633341672c6909b584",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "c6e21543790cb93e8334bd3763419af8d6ff929af307859c702fe0024a7db9e5",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Content_hi.txt": "b5be5ec70d0384d9d2600f1471dc5ec09dec1de7cff3c74741c4f893840af811",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T05:39:47+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "aa8785c8f29cec1f3eef95be136e9110e2b4055d6988356c85540f42e2e999d8",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- \"अनुचित\" के विश्लेषण में उपसर्ग \"अनु-\" का अर्थ \"अनुसार/पीछे\" बताया गया है → \"अनुचित\" में \"अनु-\" निषेधार्थक उपसर्ग है (स्वर से पहले \"अ-\" का रूप \"अनु-\"), अर्थ \"नहीं/अभाव\"; मूल \"चित्\" (धातु) + \"उ-\" (उपसर्ग) + \"त\" (कृदन्त) = \"उचित\"",
+        "- कृदन्त प्रत्ययों की सूची में \"-आ, -ई, -न, -त, -नार\" दिया है लेकिन उदाहरण \"खेलना\" में \"ना\" प्रयुक्त है → सूची में \"ना\" (क्रिया-संज्ञा/इन्फिनिटिव कारक) जोड़ें या उदाहरण बदलें"
+      ],
+      "dependencies": {
+        "chapter.json": "c6e21543790cb93e8334bd3763419af8d6ff929af307859c702fe0024a7db9e5",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Feynman_hi.txt": "8a50ee81cece23d527872a18afe59ae1702c52dec2883c9161fbd87c2cf1d016"
+      },
+      "checked_at": "2026-11-21T05:46:39+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T05:46:40+00:00",
+  "chapter_fingerprint": "ced5db99f3bff7190d371d7fcd6559e48a3a6346cb1ce810514b085a492d8f33"
+}

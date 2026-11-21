@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 11:17 AM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 11:18 AM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,25 +11,25 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 26 मिनट |
-| W10 | Chapter 13 networking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W11 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W12 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
-| W2 | Chapter 14 muhavare lokokti (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 26 मिनट |
-| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 16 मिनट |
-| W5 | Chapter 13 ek shabd (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W6 | Chapter 09 upsarg pratyay (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
-| W7 | Chapter 08 samas (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
-| W8 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W9 | Chapter 12 e banking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 27 मिनट |
+| W10 | Chapter 13 networking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W11 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W12 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
+| W2 | Chapter 14 muhavare lokokti (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 27 मिनट |
+| W4 | Chapter 14 cyber security (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W5 | Chapter 13 ek shabd (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W6 | Chapter 09 upsarg pratyay (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
+| W7 | Chapter 08 samas (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
+| W8 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W9 | Chapter 12 e banking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 15 |
-| key 4 | 19 |
+| key 3 | 16 |
+| key 4 | 20 |
 | key 5 | 19 |
-| key 6 | 3 |
+| key 6 | 4 |
 
 ## किताबों की प्रगति
 
@@ -59,8 +59,8 @@
 
 | किताब | QA पास | जाँच बाकी | प्रमाण बाकी | सुधार अटका | मैनुअल | जाँचें पास / कुल |
 |---|---:|---:|---:|---:|---:|---:|
-| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 22/540 |
-| 12th Computer | 0 | 14 | 0 | 0 | 0 | 24/1092 |
+| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 23/540 |
+| 12th Computer | 0 | 14 | 0 | 0 | 0 | 26/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 0/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 0/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 0/1606 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 46/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 49/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,12 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 11:11:27 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_11_email: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: 1. **Subject line**: Clear, specific — "Application: SSC CGL 2024 — Roll No 12345" not "Hello".']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Local-part (उपयोगकर्तानाम) is stated as not case-sensitive, but per RFC 5321 the local-part is case-sensitive → Correct: Local-part is case-sensitive (though many providers treat it as case-insensitive in practice).']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_11_email/QA.json'}
-21-11 11:11:45   [anekarthi_samshrut] QA passed: structure
-21-11 11:12:27   [vilom] QA blocked: editorial:Feynman_hi.txt
-21-11 11:12:27   [vilom] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 1, "pending": 32, "blocked": 2, "needs_reference": 1, "remaining": 35, 
-21-11 11:12:27 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_11_vilom: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 1, 'pending': 32, 'blocked': 2, 'needs_reference': 1, 'remaining': 35, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In Rule 1 prefix table, the example "गति → दुर्गति" for उपसर्ग "दुर-/दु-" is not an antonym pair; "दुर्गति" means misfortune/bad condition, not the opposite of "गति" (motion/speed). → Replace with a valid antonym example such as "शील → दुर्शील" (good character → bad character) or retain only "सदाचार → दुराचार".', '- In Rule 1 prefix table, the examples "उत्तर → प्रत्युत्तर" and "क्रिया → प्रतिक्रिया" for उपसर्ग "प्रति-" are not antonyms; they denote reply/counter-action, not opposition. → Replace with true antonym pairs formed with "प्रति-" such as "अनुकूल → प्रतिकूल" (favourable → unfavourable) or "प्रत्यक्ष → परोक्ष" (direct → indirect).']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- Rule 3 example "लड़का–लड़की" (लिंग विलोम) does not illustrate the rule "एकवचन–बहुवचन विलोम नहीं" → Use a singular-plural pair like "किताब–किताबें" to show they are not antonyms.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_11_vilom/QA.json'}
-21-11 11:12:52   [e_banking] QA passed: structure
 21-11 11:13:49   [ek_shabd] QA passed: structure
 21-11 11:13:52   [excel] QA blocked: editorial:Content_hi.txt
 21-11 11:13:52   [excel] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
@@ -123,6 +117,12 @@
 21-11 11:17:54 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 2, 'pending': 32, 'blocked': 1, 'needs_reference': 1, 'remaining': 34, 'failures': [{'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- In "सामान्य गलतियाँ और उनसे बचाव" point 3, "लोकप्रिया" is incorrectly given as the feminine form of "लोकप्रिय"; the adjective "लोकप्रिय" is invariant and does not change for gender → The feminine form is also "लोकप्रिय"']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_13_ek_shabd/QA.json'}
 21-11 11:18:21   [muhavare_lokokti] QA passed: editorial:Content_hi.txt
 21-11 11:18:21   [muhavare_lokokti] QA needs_reference: sources:Content_hi.txt
+21-11 11:18:45   [vakya_shuddhi] QA passed: structure
+21-11 11:19:00   [networking] QA passed: editorial:Content_en.txt
+21-11 11:19:00   [networking] QA needs_reference: sources:Content_en.txt
+21-11 11:19:21   [muhavare_lokokti] QA passed: editorial:Feynman_hi.txt
+21-11 11:19:21   [muhavare_lokokti] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 3, "pending": 32, "blocked": 0, "needs_reference": 1, "remaining": 33, 
+21-11 11:19:21 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_14_muhavare_lokokti: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 3, 'pending': 32, 'blocked': 0, 'needs_reference': 1, 'remaining': 33, 'failures': [{'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_14_muhavare_lokokti/QA.json'}
 ````
 
 </details>
