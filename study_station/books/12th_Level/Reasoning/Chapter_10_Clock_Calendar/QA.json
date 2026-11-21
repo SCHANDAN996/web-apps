@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "882b60cda2e505d6580d61968503b038da5b9ecdfd5a6fd16bc05a3f8291a952",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "c1e158bf97d9605db46f909573011fa3adea1fc74e9a8e924b47deb9942f78bd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "5b8a5652859b5ba196824ba4912a7216fabe44859f7cd7ed903a2a4d5341458a",
+        "Content_hi.txt": "00adf196e731acc3a318787aeb4d8f209cfce5d2b5206b36a8a89f1938f9e33e",
+        "Feynman_en.txt": "f07e633ed08840ee146f22ac483e21d055c700f377f27fb1619f7988ba2c699d",
+        "Feynman_hi.txt": "6078799875b20b6ea679fb63f668a8d9dfbe89c3ba3a6a00fcfe5cb9b9882687",
+        "Flashcards_en.txt": "c740b5158c4c3133a85d7d73dedb650540d27e8e2fb4ecc0339cca68c1fee6d5",
+        "Flashcards_hi.txt": "8d0909d5f9de6eed2ece52f08e91c42fdc0cfe3d6ed3897fcfae9b2d2ab0396f",
+        "Important_Rules_en.txt": "9d8f319a3fc373e3dae2d37e9b584353b352b345a77e00a30cb39d276b89820c",
+        "Important_Rules_hi.txt": "032c01a96cdac4af33079af5b9a969834074c108e461756fb1077005e2432a40",
+        "Mind_Map.txt": "5a1fae5b85a0ae5ced02e6745bb43f2ef8dd82482e0c37f954aecc6a7112a83d",
+        "PYQ_en.txt": "2a22d7c35aea63d64763ed4987bca9376766fcfcbec0a42d85a9fd97c75f8770",
+        "PYQ_hi.txt": "600d2e72e5cecce1bcfe199184b832c0d19398c5d8b1d9ae94a58c61b45ddf0a",
+        "Practice_en_Set_01.txt": "e82eeec315b245b032a7b96857c91a2b63ac219ed9fbc62bf710cdddaf37c445",
+        "Practice_en_Set_02.txt": "b36b77b9d49aa70d320f6940c6ad54efa9176b2b919c11a7ce1b0742f3ac4f7a",
+        "Practice_en_Set_03.txt": "d169917f89207eb8634c051b214d1f9c3425c35bae749d789782bf8c1b8802da",
+        "Practice_en_Set_04.txt": "33dda0c08ad93a2b078794e9ddf8e16c9eafac7e642d448ccc60670e0bc66483",
+        "Practice_en_Set_05.txt": "4fe8df5fe9f1a632d1c8e5307fc3d5e0f04381c755ffca38dc5d290b5b220dc0",
+        "Practice_en_Set_06.txt": "3b5cb0de4847d30e448aa83445e6ff33e8b3f68647282c6a8dfb2f75387a1819",
+        "Practice_hi_Set_01.txt": "0b6fcbac9e7ef2eb8492ecac75cb103217691a261d36de138b913c87b94c6c04",
+        "Practice_hi_Set_02.txt": "328ebfa5ec9a8b183c6dc1fc5cb3d2e447a69942f01c0db046a486f192f68211",
+        "Practice_hi_Set_03.txt": "11ac5cafa9ecc022f3891b7ff27670008b40e5ca7f1f0da98cabb8f45eddcf53",
+        "Practice_hi_Set_04.txt": "6151ca4186eb1b2c6bb999d2a08156ec980db74c4f8bf9391337d74f3b3c08ef",
+        "Practice_hi_Set_05.txt": "cd6cdb12e8cf51c5e7cc5ffab0f4e01d225e9cb61380867cf58f7d3844efafb4",
+        "Practice_hi_Set_06.txt": "6a56ec974b0a4d2fad56b218daa9dfdc3c94ecb526f4d15b511ab7f2e070d815",
+        "Short_Tricks_en.txt": "9456fce108b32f7bc329c7658e8ecf02d86e002031c9ebed13ef24addfc5231c",
+        "Short_Tricks_hi.txt": "55fb2127794c6d878776e061b291d2f8dee2e8f520aa991177835e4b52277897",
+        "inventory": {
+          "Content_en.txt": "5b8a5652859b5ba196824ba4912a7216fabe44859f7cd7ed903a2a4d5341458a",
+          "Content_hi.txt": "00adf196e731acc3a318787aeb4d8f209cfce5d2b5206b36a8a89f1938f9e33e",
+          "Feynman_en.txt": "f07e633ed08840ee146f22ac483e21d055c700f377f27fb1619f7988ba2c699d",
+          "Feynman_hi.txt": "6078799875b20b6ea679fb63f668a8d9dfbe89c3ba3a6a00fcfe5cb9b9882687",
+          "Flashcards_en.txt": "c740b5158c4c3133a85d7d73dedb650540d27e8e2fb4ecc0339cca68c1fee6d5",
+          "Flashcards_hi.txt": "8d0909d5f9de6eed2ece52f08e91c42fdc0cfe3d6ed3897fcfae9b2d2ab0396f",
+          "Important_Rules_en.txt": "9d8f319a3fc373e3dae2d37e9b584353b352b345a77e00a30cb39d276b89820c",
+          "Important_Rules_hi.txt": "032c01a96cdac4af33079af5b9a969834074c108e461756fb1077005e2432a40",
+          "Mind_Map.txt": "5a1fae5b85a0ae5ced02e6745bb43f2ef8dd82482e0c37f954aecc6a7112a83d",
+          "PYQ_en.txt": "2a22d7c35aea63d64763ed4987bca9376766fcfcbec0a42d85a9fd97c75f8770",
+          "PYQ_hi.txt": "600d2e72e5cecce1bcfe199184b832c0d19398c5d8b1d9ae94a58c61b45ddf0a",
+          "Practice_en_Set_01.txt": "e82eeec315b245b032a7b96857c91a2b63ac219ed9fbc62bf710cdddaf37c445",
+          "Practice_en_Set_02.txt": "b36b77b9d49aa70d320f6940c6ad54efa9176b2b919c11a7ce1b0742f3ac4f7a",
+          "Practice_en_Set_03.txt": "d169917f89207eb8634c051b214d1f9c3425c35bae749d789782bf8c1b8802da",
+          "Practice_en_Set_04.txt": "33dda0c08ad93a2b078794e9ddf8e16c9eafac7e642d448ccc60670e0bc66483",
+          "Practice_en_Set_05.txt": "4fe8df5fe9f1a632d1c8e5307fc3d5e0f04381c755ffca38dc5d290b5b220dc0",
+          "Practice_en_Set_06.txt": "3b5cb0de4847d30e448aa83445e6ff33e8b3f68647282c6a8dfb2f75387a1819",
+          "Practice_hi_Set_01.txt": "0b6fcbac9e7ef2eb8492ecac75cb103217691a261d36de138b913c87b94c6c04",
+          "Practice_hi_Set_02.txt": "328ebfa5ec9a8b183c6dc1fc5cb3d2e447a69942f01c0db046a486f192f68211",
+          "Practice_hi_Set_03.txt": "11ac5cafa9ecc022f3891b7ff27670008b40e5ca7f1f0da98cabb8f45eddcf53",
+          "Practice_hi_Set_04.txt": "6151ca4186eb1b2c6bb999d2a08156ec980db74c4f8bf9391337d74f3b3c08ef",
+          "Practice_hi_Set_05.txt": "cd6cdb12e8cf51c5e7cc5ffab0f4e01d225e9cb61380867cf58f7d3844efafb4",
+          "Practice_hi_Set_06.txt": "6a56ec974b0a4d2fad56b218daa9dfdc3c94ecb526f4d15b511ab7f2e070d815",
+          "Short_Tricks_en.txt": "9456fce108b32f7bc329c7658e8ecf02d86e002031c9ebed13ef24addfc5231c",
+          "Short_Tricks_hi.txt": "55fb2127794c6d878776e061b291d2f8dee2e8f520aa991177835e4b52277897"
+        }
+      },
+      "checked_at": "2026-11-21T08:39:26+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "925524c73a7f36a116d7241581b0ac18503fa927a62fbda912d872e42d866d23",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The reference point states \"1 January 1 AD was a Monday\" but the day code mapping (0=Sunday, 1=Monday) requires 1 January 1 AD to be a Sunday for consistency; the example calculation for 15 August 1947 also works only if the reference is Sunday. → The reference point should be \"1 January 1 AD was a Sunday\" or the day code mapping should be adjusted (e.g., 0=Monday, 1=Tuesday, …).",
+        "- The right-angle formula claims \"Between H and H+1, the two right-angle times are at (5H ± 15) × (12/11) minutes past H.\" This is not true for all H (e.g., H=9 gives 65 5/11 minutes, which is in the next hour; H=0 gives a negative time). → The formula should be qualified: the two times in a 12-hour cycle are given by (5H ± 15) × (12/11) minutes past H, but for a specific hour H, only the values that fall between 0 and 60 minutes are valid; the other may belong to the adjacent hour."
+      ],
+      "dependencies": {
+        "chapter.json": "c1e158bf97d9605db46f909573011fa3adea1fc74e9a8e924b47deb9942f78bd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "5b8a5652859b5ba196824ba4912a7216fabe44859f7cd7ed903a2a4d5341458a"
+      },
+      "checked_at": "2026-11-21T08:43:46+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "263947e282545e9f8ff278d42b2d30cf8a39d485a5650640e041893ce2839eb8",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "c1e158bf97d9605db46f909573011fa3adea1fc74e9a8e924b47deb9942f78bd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "5b8a5652859b5ba196824ba4912a7216fabe44859f7cd7ed903a2a4d5341458a",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T08:43:46+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "177d6d6cfdb2c046bafe1cbf3c6fa351c4d10f8e99347c84f1efcf10e5734827",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Fast/slow clock example incorrectly concludes \"सही समय 5:10\" from the premise that at actual 6 PM the clock is 50 minutes fast → At actual 6 PM (10 hours after 8 AM) the clock shows 6:50, so the correct time is 6 PM; if the question was \"when the clock shows 6 PM\", the correct time is 5:13 7/13, not 5:10."
+      ],
+      "dependencies": {
+        "chapter.json": "c1e158bf97d9605db46f909573011fa3adea1fc74e9a8e924b47deb9942f78bd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "00adf196e731acc3a318787aeb4d8f209cfce5d2b5206b36a8a89f1938f9e33e"
+      },
+      "checked_at": "2026-11-21T08:48:04+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T08:48:04+00:00",
+  "chapter_fingerprint": "8ac151416bc6f2a93f2d1a4b12dd3413e23c9c7bd41ad102481033473d27bbdf"
+}
