@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 07:10 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 07:11 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -12,21 +12,21 @@
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
 | W1 | Chapter 27 Number Series (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W10 | Chapter 28 Linear Programming (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 | W11 | Chapter 21 Complex Numbers (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W12 | Chapter 19 Trigonometry (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
 | W2 | Chapter 24 Statistics (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
 | W3 | Chapter 26 Permutation Combination (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
 | W4 | Chapter 23 Data Interpretation (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
 | W5 | Chapter 25 Probability (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W6 | Chapter 09 Articles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W7 | Chapter 22 Calculus (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W6 | Chapter 09 Articles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W7 | Chapter 22 Calculus (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
 | W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
-| W9 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 1 मिनट |
+| W9 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 2 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 151 |
-| key 4 | 130 |
+| key 4 | 132 |
 | key 5 | 138 |
 | key 6 | 127 |
 
@@ -67,12 +67,12 @@
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 104/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 96/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 101/1950 |
-| 12th English | 0 | 25 | 0 | 0 | 0 | 95/2025 |
+| 12th English | 0 | 25 | 0 | 0 | 0 | 96/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 73/2184 |
-| Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
+| Graduation GK | 0 | 28 | 0 | 0 | 0 | 1/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 909/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 911/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,7 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 19:04:53 QA Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_21_Complex_Numbers: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_21_Complex_Numbers/QA.json'}
 21-11 19:05:41   [Statistics] QA passed: structure
 21-11 19:05:55   [Data_Interpretation] QA passed: editorial:Content_en.txt
 21-11 19:05:55   [Data_Interpretation] QA needs_reference: sources:Content_en.txt
@@ -127,6 +126,7 @@
 21-11 19:11:16   [Articles] QA passed: editorial:Flashcards_hi.txt
 21-11 19:11:16   [Articles] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 7, "pending": 69, "blocked": 0, "needs_reference": 5, "remaining": 74, 
 21-11 19:11:16 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_09_Articles: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 7, 'pending': 69, 'blocked': 0, 'needs_reference': 5, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Flashcards_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_09_Articles/QA.json'}
+21-11 19:11:25   [Ancient_History] QA passed: structure
 ````
 
 </details>
