@@ -107,11 +107,71 @@
         "Content_hi.txt": "296a114169ba9caa7809b6b26449d016654880231b1791dae8284adc2bd6289c"
       },
       "checked_at": "2026-11-21T06:41:55+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "819d277d420187a6e99e89be15f97bf6715ff45a25d6e213d04afb2e4607491d",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "6204c8166b87d2d3c6fadd07a7c34f6e899e8fcbe3fd2b0475acbe04de9e07d8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "296a114169ba9caa7809b6b26449d016654880231b1791dae8284adc2bd6289c",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:51:48+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "318c8a7dd83073b1329fc68cdf95929a8a09c77ec22bf55d0be583824b5cf611",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The example coding of \"CRICKET\" as \"XIRXPVI\" is incorrect; using the 27‑minus rule, \"CRICKET\" codes to \"XIRXPVG\" → The correct code for \"CRICKET\" is \"XIRXPVG\"."
+      ],
+      "dependencies": {
+        "chapter.json": "6204c8166b87d2d3c6fadd07a7c34f6e899e8fcbe3fd2b0475acbe04de9e07d8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "4e6037c4c7e46f140eb72c5c5bed355bc88777204e5102481a223ab7e4e71105"
+      },
+      "checked_at": "2026-11-21T10:53:24+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "6a83da0f74f57f0634b488f8d87e59375a57c6707bbf99fc5a4664239953ce66",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "6204c8166b87d2d3c6fadd07a7c34f6e899e8fcbe3fd2b0475acbe04de9e07d8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "4e6037c4c7e46f140eb72c5c5bed355bc88777204e5102481a223ab7e4e71105",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:53:24+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "0b585e093863c194b330f2b83d78df4f0da56114571b2b6ce7c7c2ad62a4ddf3",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "6204c8166b87d2d3c6fadd07a7c34f6e899e8fcbe3fd2b0475acbe04de9e07d8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "0f5a23059487e9f1fb72cfc9190f846a18b1ace638e917061d4fb1b0b5fa17cc"
+      },
+      "checked_at": "2026-11-21T10:53:59+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T06:41:55+00:00",
+  "updated_at": "2026-11-21T10:53:59+00:00",
   "chapter_fingerprint": "29d4cb4f285950702fca3556e2879a51b8d2d627e0b239398ef9b8e70ce683cb"
 }

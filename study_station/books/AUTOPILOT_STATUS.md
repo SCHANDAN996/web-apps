@@ -11,25 +11,25 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 48 मिनट |
-| W10 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W11 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W12 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 48 मिनट |
-| W3 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W4 | Chapter 13 Awards (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
-| W5 | Chapter 19 Environment (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W6 | Chapter 08 Puzzles Basic (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W7 | Chapter 05 Direction Sense (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W8 | Chapter 07 Sitting Arrangement (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W9 | Chapter 06 Order Ranking (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 49 मिनट |
+| W10 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W11 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W12 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 49 मिनट |
+| W3 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W4 | Chapter 13 Awards (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
+| W5 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W6 | Chapter 08 Puzzles Basic (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W7 | Chapter 05 Direction Sense (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W8 | Chapter 07 Sitting Arrangement (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W9 | Chapter 06 Order Ranking (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 34 |
-| key 4 | 46 |
+| key 4 | 47 |
 | key 5 | 31 |
-| key 6 | 18 |
+| key 6 | 20 |
 
 ## किताबों की प्रगति
 
@@ -62,7 +62,7 @@
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 48/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 52/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 76/1482 |
-| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 59/1716 |
+| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 61/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 573/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 575/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,12 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 16:23:04   [Blood_Relations] QA passed: editorial:Feynman_en.txt
-21-11 16:23:04   [Blood_Relations] QA needs_reference: sources:Feynman_en.txt
-21-11 16:23:24   [Coding_Decoding] QA blocked: editorial:Feynman_en.txt
-21-11 16:23:33   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q128 key a vs re-solve b, Q140 key a vs re-solve c, Q141 key a vs re-solve b, Q143 key a vs re-solve
-21-11 16:23:33   [Coding_Decoding] QA needs_reference: sources:Feynman_en.txt
-21-11 16:23:34   [Direction_Sense] QA needs_reference: sources:Content_hi.txt
 21-11 16:23:59   [Coding_Decoding] QA passed: editorial:Feynman_hi.txt
 21-11 16:23:59   [Coding_Decoding] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
 21-11 16:23:59 QA 10th_Level/Reasoning/Chapter_03_Coding_Decoding: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- The example coding of "CRICKET" as "XIRXPVI" is incorrect; using the 27‑minus rule, "CRICKET" codes to "XIRXPVG" → The correct code for "CRICKET" is "XIRXPVG".']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_03_Coding_Decoding/QA.json'}
@@ -123,6 +117,12 @@
 21-11 16:27:37 QA 10th_Level/Reasoning/Chapter_06_Order_Ranking: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- "Q की दायीं रैंक 9 अपरिवर्तित है" in the interchange example → The right rank of the position originally held by Q remains 9; Q\'s personal right rank changes after interchange.', '- "Q का दायाँ 14 अब भी वही है" in the interchange active recall → The right rank of the position originally occupied by Q remains 14; Q\'s personal right rank changes after interchange.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- The statement “नेहा, राहुल से आगे खड़ी है, इसलिए दाएँ से गिनने पर राहुल उससे पीछे आता है” is logically incorrect; when Neha is ahead (left side), Rahul is ahead from the right end. → Correct: “नेहा, राहुल से आगे खड़ी है, इसलिए दाएँ से गिनने पर राहुल उससे आगे आता है” (or “नेहा दाएँ से पीछे आती है”).', '- The rhyme heading “बाया-दाया, एक घटाया” misspells the Hindi words for left and right. → Correct: “बायाँ-दायाँ, एक घटाया”.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_06_Order_Ranking/QA.json'}
 21-11 16:27:56   [Venn_Diagrams] QA passed: editorial:Feynman_en.txt
 21-11 16:27:56   [Venn_Diagrams] QA needs_reference: sources:Feynman_en.txt
+21-11 16:28:00   [Clock_Calendar] QA needs_reference: sources:Content_hi.txt
+21-11 16:28:03   [Venn_Diagrams] QA passed: editorial:Feynman_hi.txt
+21-11 16:28:03   [Venn_Diagrams] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
+21-11 16:28:04 QA 10th_Level/Reasoning/Chapter_09_Venn_Diagrams: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Summary Table: The example "Officer, Manager, Clerk" with description "Manager inside Officer, both overlapping with Clerk" is incorrect because in standard government job classification, Clerk is a separate cadre disjoint from Officer/Manager → Replace with a valid mixed subset+overlap example such as "Employee, Manager, Engineer" where Manager ⊂ Employee and Engineer overlaps Employee (and possibly Manager).']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_09_Venn_Diagrams/QA.json'}
+21-11 16:28:06   [Puzzles_Basic] QA blocked: editorial:Feynman_en.txt
+21-11 16:28:06   [Puzzles_Basic] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>
