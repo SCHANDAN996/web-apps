@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 03:52 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 03:53 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 13 मिनट |
-| W10 | Chapter 02 shabd bhed (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W11 | Chapter 02 input output ports (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W12 | Chapter 09 upsarg pratyay (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 13 मिनट |
-| W3 | Chapter 01 varn vartani (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W4 | Chapter 08 excel (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W5 | Chapter 06 kaal vachya (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W6 | Chapter 07 word (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W7 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W8 | Chapter 08 samas (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W9 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 14 मिनट |
+| W10 | Chapter 02 shabd bhed (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W11 | Chapter 02 input output ports (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W12 | Chapter 09 upsarg pratyay (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 14 मिनट |
+| W3 | Chapter 01 varn vartani (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W4 | Chapter 08 excel (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W5 | Chapter 06 kaal vachya (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W6 | Chapter 10 internet browser (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W7 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W8 | Chapter 08 samas (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W9 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 10 |
-| key 4 | 13 |
-| key 5 | 7 |
+| key 4 | 14 |
+| key 5 | 8 |
 | key 6 | 5 |
 
 ## किताबों की प्रगति
@@ -83,7 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 15:47:55   [keyboard_shortcuts] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
 21-11 15:47:55 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 5, 'pending': 28, 'blocked': 0, 'needs_reference': 3, 'remaining': 31, 'failures': [{'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Flashcards_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam/QA.json'}
 21-11 15:47:55 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_06_keyboard_shortcuts: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: *Note: Shortcuts are based on standard Windows 10/11 and Microsoft 365 (Office 2016+) behavior. Minor variations may exist in older versions or customized enterprise environments. Examination questions follow the standard defaults described above.*']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: Microsoft Support / Microsoft Learn official documentation for Windows and Office keyboard shortcuts.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_06_keyboard_shortcuts/QA.json'}
 21-11 15:47:56   [samas] QA needs_reference: sources:Feynman_hi.txt
@@ -123,6 +122,7 @@
 21-11 15:52:44   [varn_vartani] QA blocked: editorial:Important_Rules_hi.txt
 21-11 15:52:44   [varn_vartani] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 1, "pending": 28, "blocked": 4, "needs_reference": 3, "remaining": 35, 
 21-11 15:52:45 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 1, 'pending': 28, 'blocked': 4, 'needs_reference': 3, 'remaining': 35, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Section 3.1 Matra table: examples for इ (ि) and ई (ी) are incorrect — they show mismatched wrong forms marked अशुद्ध (e.g., “फल→फिल”, “फूल→फुल”) instead of valid usage examples → Replace with correct examples: इ मात्रा (ि) – “कि”, “पित”, “मिलन”; ई मात्रा (ी) – “सीता”, “नील”, “पानी”']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- In the "वर्तनी के सामान्य नियम" table, first row, the "गलत" column lists "हंसना (हंस पक्षी)" as incorrect, but "हंसना" is a valid Hindi word (हंस + ना) meaning "swan-related"; the table should clarify that for the sense "मुस्कराना" the correct spelling is "हँसना" (with चंद्रबिंदु), not that "हंसना" is universally wrong. → The table must distinguish meanings: for "मुस्कराना" write "हँसना"; "हंसना" is correct for "हंस पक्षी".', '- In Q18 and Q46 explanations, "हंसना" is called अशुद्ध, but "हंसना" (हंस + ना) is a correctly spelled word; the explanation should state that "हँसना" (चंद्रबिंदु) is the correct form for the verb "to laugh", while "हंसना" is a different valid word. → Explanation must note the meaning difference: "हँसना" = मुस्कराना, "हंसना" = हंस पक्षी से संबंधित; both are valid spellings for their respective senses.']}, {'check': 'sources:Feynman_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Flashcards_hi.txt', 'status': 'blocked', 'issues': ['- Card 17 incorrectly labels विशेष/बिशेष, क्षमा/कश्मा, ज्ञान/ग्यान, श्रेष्ठ/श्रेस्ठ as "उच्चारण समान, वर्तनी भिन्न" (same pronunciation, different spelling) pairs; in standard Hindi their pronunciations differ (श vs स, क्ष vs कष, ज्ञ vs ग्य, ष vs स) — they are common misspellings, not homophones → Remove the "उच्चारण समान" claim; describe them as frequent spelling-confusion pairs due to similar sounds.']}, {'check': 'sources:Flashcards_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Important_Rules_hi.txt', 'status': 'blocked', 'issues': ['- Section 5 rule states anusvara (bindu) is standard for **all** nasalizations, but the example "हँसना → मानक \'हंसना\'" replaces chandrabindu with explicit consonant \'न\', not anusvara → change example to "हुँसना" (with anusvara) or add clarification that full nasal consonants remain explicit.', '- Section 5 list "दीर्घ स्वर पर" includes "कंगन", but its anusvara sits on short \'अ\' (क्ंगन), not a long vowel → remove "कंगन" from the long-vowel list.', '- Section 13 reason for "हिंदी → हिन्दी" says "स्वर पर चन्द्रबिंदु/अनुस्वार के स्थान पर व्यंजन \'न\' का प्रयोग मानक है"; "हिंदी" uses anusvara (bindu), not chandrabindu, and the correction is because the word has a full nasal consonant \'न\', not a nasalized vowel → rewrite reason: "हिंदी में अनुनासिक बिन्दु के स्थान पर व्यंजन \'न\' लिखना मानक है क्योंकि यह पूर्ण नासिक्य व्यंजन है।"']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani/QA.json'}
+21-11 15:53:27   [vilom] QA needs_reference: sources:Feynman_hi.txt
 ````
 
 </details>

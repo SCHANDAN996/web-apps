@@ -83,11 +83,71 @@
         "Feynman_hi.txt": "610e06482af052b2251a3ec06db97c1fb91836835b3a72cfb969d504776d1c60"
       },
       "checked_at": "2026-11-21T05:31:44+00:00"
+    },
+    "sources:Feynman_hi.txt": {
+      "fingerprint": "017c187aebdebe9101ab1d99687485ffa4523f68a27877d648e4d3dc0dab5202",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "8554bb3dc0484b6922af49e17bcbb33f84bb573fb387e623d8169333d6327594",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Feynman_hi.txt": "610e06482af052b2251a3ec06db97c1fb91836835b3a72cfb969d504776d1c60",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:15:02+00:00"
+    },
+    "editorial:Flashcards_hi.txt": {
+      "fingerprint": "7e744bfb11350f2281de78069720443f7978fc9e467669a3d8fcbe857481de43",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "8554bb3dc0484b6922af49e17bcbb33f84bb573fb387e623d8169333d6327594",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Flashcards_hi.txt": "123bb8bf0c308e86594db589f6ac2a4a4eb89356a09ddc3fefd6ab1ac7ca6935"
+      },
+      "checked_at": "2026-11-21T10:18:07+00:00"
+    },
+    "sources:Flashcards_hi.txt": {
+      "fingerprint": "f6f9da3ae409f4e8d115210376334867df8a3080a626e17b4b4cddd9552bac40",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "8554bb3dc0484b6922af49e17bcbb33f84bb573fb387e623d8169333d6327594",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Flashcards_hi.txt": "123bb8bf0c308e86594db589f6ac2a4a4eb89356a09ddc3fefd6ab1ac7ca6935",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:18:07+00:00"
+    },
+    "editorial:Important_Rules_hi.txt": {
+      "fingerprint": "9923b07bee234455a5aa42d0ae4d2fcdb53f8d3fb59542c8fb8e9247e2fb00ca",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Rule 11 labels reflexive verbs as “आत्मनेपदी” (a Sanskrit voice category) → use “प्रतिबिंबित क्रिया” or “अकर्मक क्रिया” for Hindi grammar"
+      ],
+      "dependencies": {
+        "chapter.json": "8554bb3dc0484b6922af49e17bcbb33f84bb573fb387e623d8169333d6327594",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Important_Rules_hi.txt": "9c731e79cc6bc7fafa3d58bf147fed016fbaf46aea24e9ca7e1cec014210bbb1"
+      },
+      "checked_at": "2026-11-21T10:21:08+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T05:31:44+00:00",
-  "chapter_fingerprint": "b0194381fcff9b421a7a5795f644b736223896a7b9bf756ea1d7e626949ba0cd"
+  "updated_at": "2026-11-21T10:21:08+00:00",
+  "chapter_fingerprint": "e5ac6a684d9369e37e838ea04d4c5503ed7fcd070c7a7a80f6ea528f4c8506cd"
 }
