@@ -115,11 +115,69 @@
         "Content_hi.txt": "c190239f70908a154c5e79c8c4fa6584c7df05cbe2d98bf418ca827e76c71da6"
       },
       "checked_at": "2026-11-21T06:03:57+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "72847e411b559474bec2e65b15270941dc380e7ba020ea8f11a096c7995cf662",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "bcf86d8e99879c78bce9711c41cd3e9318ae03247c6f0f3454568cd8a366d2c8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "c190239f70908a154c5e79c8c4fa6584c7df05cbe2d98bf418ca827e76c71da6",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:36:30+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "ced45ffa160a9463b8a74e7de74e1674676300523089fbbecdcc20756b04dc0f",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "bcf86d8e99879c78bce9711c41cd3e9318ae03247c6f0f3454568cd8a366d2c8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "8adac029446e2199196d58722626ac6bd32dd9528ca6c0bcbf867893ad4c8901"
+      },
+      "checked_at": "2026-11-21T10:37:40+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "c3aa4839986028c4c2f24b049006c9c1a8fd44b7404aff61e66f180fe1d6f5d4",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: Article 368 gives Parliament the power to amend any part of the Constitution. From 1951 to 1973, Parliament used that power to even change Fundamental Rights. Then came the Kesavananda Bharati case (1973) — the Supreme Court said: “Stop! You can amend everything, but you cannot destroy the basic structure of the Constitution. Some things are so fundamental that without them the Constitution would lose its identity.”"
+      ],
+      "dependencies": {
+        "chapter.json": "bcf86d8e99879c78bce9711c41cd3e9318ae03247c6f0f3454568cd8a366d2c8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "8adac029446e2199196d58722626ac6bd32dd9528ca6c0bcbf867893ad4c8901",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:37:40+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "8ab2b95626d236c020ba15f06cdf08b8a48e7d62acd24722a0f8ddb2547a311a",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "bcf86d8e99879c78bce9711c41cd3e9318ae03247c6f0f3454568cd8a366d2c8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "5d5e2df2412fe08b206adc0d20a55293fea24032138ca928c3b8749f7e4b29e4"
+      },
+      "checked_at": "2026-11-21T10:41:27+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T06:03:57+00:00",
+  "updated_at": "2026-11-21T10:41:27+00:00",
   "chapter_fingerprint": "93a1e82ddc29c4088fb2efcfc18b71b8c156777ed04f782f0dc336bc454a8798"
 }

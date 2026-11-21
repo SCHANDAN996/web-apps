@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 04:12 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 04:13 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,25 +11,25 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 33 मिनट |
-| W10 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 17 मिनट |
-| W11 | Chapter 08 World Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W12 | Chapter 11 Chemistry (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 33 मिनट |
-| W3 | Chapter 10 Physics Daily (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W4 | Chapter 06 Physical Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W5 | Chapter 03 Modern History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W6 | Chapter 09 Economy Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W7 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W8 | Chapter 07 States Rivers (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W9 | Chapter 05 Polity (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 34 मिनट |
+| W10 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 18 मिनट |
+| W11 | Chapter 08 World Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W12 | Chapter 11 Chemistry (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 34 मिनट |
+| W3 | Chapter 10 Physics Daily (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W4 | Chapter 06 Physical Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W5 | Chapter 03 Modern History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W6 | Chapter 09 Economy Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W7 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W8 | Chapter 12 Biology (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W9 | Chapter 05 Polity (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 16 |
-| key 4 | 34 |
+| key 3 | 17 |
+| key 4 | 35 |
 | key 5 | 28 |
-| key 6 | 8 |
+| key 6 | 9 |
 
 ## किताबों की प्रगति
 
@@ -61,7 +61,7 @@
 |---|---:|---:|---:|---:|---:|---:|
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 48/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 52/1092 |
-| 10th GK | 0 | 19 | 0 | 0 | 0 | 56/1482 |
+| 10th GK | 0 | 19 | 0 | 0 | 0 | 57/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 543/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 544/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,10 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 16:08:26   [States_Rivers] QA needs_reference: sources:Content_hi.txt
-21-11 16:08:26   [muhavare_lokokti] QA blocked: editorial:Important_Rules_hi.txt
-21-11 16:08:26   [muhavare_lokokti] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 4, "pending": 28, "blocked": 1, "needs_reference": 3, "remaining": 32, 
-21-11 16:08:27 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_14_muhavare_lokokti: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 4, 'pending': 28, 'blocked': 1, 'needs_reference': 3, 'remaining': 32, 'failures': [{'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Flashcards_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Important_Rules_hi.txt', 'status': 'blocked', 'issues': ['- नियम ५ में "घर का भेदी लंका ढाए" की व्याख्या "विश्वासघाती अपना ही नुकसान करता है" गलत है → सही व्याख्या: "घर का भेदिया ही घर/संगठन को बर्बाद करता है" (विभीषण ने लंका का नाश कराया, अपना नहीं)']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_14_muhavare_lokokti/QA.json'}
 21-11 16:08:42   [anekarthi_samshrut] QA passed: editorial:Flashcards_hi.txt
 21-11 16:08:42   [anekarthi_samshrut] QA needs_reference: sources:Flashcards_hi.txt
 21-11 16:08:59   [Medieval_History] QA passed: editorial:Feynman_en.txt
@@ -123,6 +119,10 @@
 21-11 16:12:40 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_12_anekarthi_samshrut: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 4, 'pending': 28, 'blocked': 1, 'needs_reference': 3, 'remaining': 32, 'failures': [{'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Flashcards_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Important_Rules_hi.txt', 'status': 'blocked', 'issues': ['- नियम २, नियम ११ और सारणी में "हँस" (हँसना) और "हंस" (पक्षी) के वर्तनी-भेद को "चंद्रबिंदु/बिंदु भेद" बताया गया है, जबकि "हंस" (पक्षी) की मानक वर्तनी बिना किसी बिंदु के "हंस" होती है; अंतर चंद्रबिंदु की उपस्थिति/अनुपस्थिति का है, न कि चंद्रबिंदु बनाम बिंदु का। → "हँस" (चंद्रबिंदु सहित) बनाम "हंस" (बिना बिंदु) — केवल चंद्रबिंदु का भेद।', '- नियम १३ में दावा कि शब्दकोश में "कल" का पहला अर्थ "बीता हुआ दिन" है, गलत है; मानक हिंदी शब्दसागर व मानक हिंदी शब्दकोश में "कल" की पहली प्रविष्टि "कलह" (झगड़ा) है, उसके बाद कालवाचक क्रियाविशेषण "कल" (कल/आज) आता है। → शब्दकोश क्रम में "कल" का प्रथम अर्थ "कलह" है, "बीता हुआ दिन" नहीं।']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_12_anekarthi_samshrut/QA.json'}
 21-11 16:12:40 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_09_Economy_Basic: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: Which sector gives employment to the largest number of people in India according to NCERT? (Primary)', 'Fetch official supporting evidence for: Human Development Index (HDI): published by UNDP in its Human Development Report (first in 1990), idea of Mahbub ul Haq with Amartya Sen. Three dimensions: health (life expectancy), education (years of schooling), standard of living (GNI per capita).', 'Fetch official supporting evidence for: Union Budget = "Annual Financial Statement" under Article 112 of the Constitution. Since 2017 it is presented on 1 February, and the Railway Budget has been merged into it from 2017.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: ◆ 8 नवंबर 2016, रात 8 बजे। प्रधानमंत्री ने टेलीविज़न पर घोषणा की कि आधी रात से ₹500 और ₹1000 के पुराने नोट वैध मुद्रा (Legal Tender) नहीं रहेंगे। रातों-रात बैंकों के बाहर कतारें लग गईं। चाय वाला, किसान और सॉफ़्टवेयर इंजीनियर — सब एक ही सवाल पूछ रहे थे: हमारे नोट कौन छापता है? बैंक मेरा कुछ पैसा RBI के पास क्यों रखता है? चीज़ें महँगी क्यों होती हैं? यह अध्याय ठीक इन्हीं सवालों के जवाब देता है — और परीक्षक को यही सवाल सबसे ज़्यादा पसंद हैं।', 'Fetch official supporting evidence for: NCERT के अनुसार भारत में सबसे अधिक लोगों को रोज़गार कौन-सा क्षेत्रक देता है? (प्राथमिक)', 'Fetch official supporting evidence for: बैंकिंग के अन्य पड़ाव: इंपीरियल बैंक ऑफ़ इंडिया 1 जुलाई 1955 को भारतीय स्टेट बैंक (SBI) बना। 19 जुलाई 1969 को 14 बड़े बैंकों का और 1980 में 6 और बैंकों का राष्ट्रीयकरण हुआ। कृषि और ग्रामीण ऋण के लिए NABARD (1982)। रुपये का प्रतीक ₹ 2010 में अपनाया गया (डिज़ाइन: डी. उदय कुमार)।', 'Fetch official supporting evidence for: स्मृति सूत्र — "RBI: 35 में जन्म, 49 में सरकारी, 69 में बैंक हमारी": 1935 RBI की स्थापना, 1949 RBI का राष्ट्रीयकरण, 1969 चौदह बैंकों का राष्ट्रीयकरण।', 'Fetch official supporting evidence for: जाल वाला कथन: "भारतीय रिज़र्व बैंक का राष्ट्रीयकरण 1969 में 14 बैंकों के साथ हुआ।"', 'Fetch official supporting evidence for: सच्चाई: RBI का राष्ट्रीयकरण 1 जनवरी 1949 को हुआ। 1969 वह वर्ष है जब 14 वाणिज्यिक बैंकों का राष्ट्रीयकरण हुआ। RBI वाणिज्यिक बैंक नहीं है।', 'Fetch official supporting evidence for: स्मार्ट चाल: RBI = 1949; वाणिज्यिक बैंक = 1969 और 1980।', 'Fetch official supporting evidence for: भारतीय स्टेट बैंक\t1 जुलाई 1955 (इंपीरियल बैंक से)', 'Fetch official supporting evidence for: बैंक राष्ट्रीयकरण\t19 जुलाई 1969 को 14 बैंक; 1980 में 6 बैंक']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_09_Economy_Basic/QA.json'}
 21-11 16:12:41   [Biology] QA needs_reference: sources:Content_hi.txt
+21-11 16:13:49   [Chemistry] QA passed: editorial:Feynman_en.txt
+21-11 16:13:49   [Chemistry] QA needs_reference: sources:Feynman_en.txt
+21-11 16:14:02   [Physics_Daily] QA passed: editorial:Content_hi.txt
+21-11 16:14:03   [Physics_Daily] QA needs_reference: sources:Content_hi.txt
 ````
 
 </details>
