@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "98f46e303b3f838e942c0d801aadd263d1162b0368deeece8d18ea5191477537",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "174a7df095e074a805ac30c14fe9614de11bd93cebc3cf34d4185e8856b0eb2e",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "ee25316767044842c2b193880e2a6afc5627bab07f1634c7dac428387a346d55",
+        "Content_hi.txt": "9661ed1c8f9f65064f90058268581fd762d1b5729b66d55de2a0ae087b636170",
+        "Feynman_en.txt": "8400849c1906a38f355440092b9eb3ed1bc4495b01919d9b05eb2a07bcae79f4",
+        "Feynman_hi.txt": "174eea7ba2f1c7d66f4ed394cc00b859a4d28a1197a10460be34c3e9412cac6f",
+        "Flashcards_en.txt": "f13dd6c9d709c9cf7015d245ab6591ef9c1eb89cd64eeda2975e75844c2111ea",
+        "Flashcards_hi.txt": "d2071fbc1e4e8e07f12a96d115c9a9b4f9c197d71b139293062d6f6aab09e282",
+        "Important_Formulas_en.txt": "7d05de949cbe3a421f89b673956645a60e5d4a46bd9ce7a3f0eedcd507bdd535",
+        "Important_Formulas_hi.txt": "5ae1e1bd8707e6e25f9395f7f9fed5fe758303a6d0ab2e14bfea59475cefe7d6",
+        "Mind_Map.txt": "88782f1c5b4ea90d21c9644dc1c96e93e855b9d8909c5b33e729ed3e29e994ea",
+        "PYQ_en.txt": "ecc128bd24f0dc3b251ab330722b349f4709b7907ad4fbbdc6eb4635ff3829d2",
+        "PYQ_hi.txt": "6f720e37548be3400bc8247cbd83a00a9db4615ae0e64d3336b6bbbe4202a585",
+        "Practice_en_Set_01.txt": "b811df3730fdcd083318c3596e43e86a4bd6ca8a702838f949647b6691bb3b6e",
+        "Practice_en_Set_02.txt": "f3536a1e50fc518384aa4d2cfc0ad7c0460924f27b02277d45dd1735744f3b02",
+        "Practice_en_Set_03.txt": "f216f859a350f028ebdd75a3bb30f3482b230947538066c35ebbc60b49ec7b18",
+        "Practice_en_Set_04.txt": "efd831388e2c2bff2a5bcb77aa290ff1ecb708ef0abc22a2bc6aafb6abd9097c",
+        "Practice_en_Set_05.txt": "e09ef29860458ea044d0fbbd82f5a5f06ec294874a41cba363caccf8d931d5be",
+        "Practice_en_Set_06.txt": "a58dbdc8d5278fc81c81b98df91633068926bc1dcb48ec3efb2eb088eda70be0",
+        "Practice_hi_Set_01.txt": "e96d25ea2bddf6c751006a76676d3dce48082a5d77e3c39a54e12f9ddc624b23",
+        "Practice_hi_Set_02.txt": "4b9922feb8932ad265bee05c933384cc69eba2cd3421474355bcf40bc7efca9a",
+        "Practice_hi_Set_03.txt": "7cbbdc715432b138c8f1212fdf8d9de8e669f0515a0589329d2198e2bb860745",
+        "Practice_hi_Set_04.txt": "d732a9d0b327baf5f913b8911f0fa1cc61c2e58ce0fa47ed22ff8c60b315a0b2",
+        "Practice_hi_Set_05.txt": "b97c258b413cbca2f31ce225739c4c5a4fafd5814bd06fc8d6674c5932859e5e",
+        "Practice_hi_Set_06.txt": "240440f07409497aa460d9e0040f20d76469328e9728926bebfc9161e5a563ea",
+        "Short_Tricks_en.txt": "fec66b148dd07ea454a60e70a65e7e415c515c4aea9fe98f1bcd1b50a4af7243",
+        "Short_Tricks_hi.txt": "70ab15357f974080e52500ce0945dabb43f9f165dadf1c6d21fa8cb82a8fe3b7",
+        "inventory": {
+          "Content_en.txt": "ee25316767044842c2b193880e2a6afc5627bab07f1634c7dac428387a346d55",
+          "Content_hi.txt": "9661ed1c8f9f65064f90058268581fd762d1b5729b66d55de2a0ae087b636170",
+          "Feynman_en.txt": "8400849c1906a38f355440092b9eb3ed1bc4495b01919d9b05eb2a07bcae79f4",
+          "Feynman_hi.txt": "174eea7ba2f1c7d66f4ed394cc00b859a4d28a1197a10460be34c3e9412cac6f",
+          "Flashcards_en.txt": "f13dd6c9d709c9cf7015d245ab6591ef9c1eb89cd64eeda2975e75844c2111ea",
+          "Flashcards_hi.txt": "d2071fbc1e4e8e07f12a96d115c9a9b4f9c197d71b139293062d6f6aab09e282",
+          "Important_Formulas_en.txt": "7d05de949cbe3a421f89b673956645a60e5d4a46bd9ce7a3f0eedcd507bdd535",
+          "Important_Formulas_hi.txt": "5ae1e1bd8707e6e25f9395f7f9fed5fe758303a6d0ab2e14bfea59475cefe7d6",
+          "Mind_Map.txt": "88782f1c5b4ea90d21c9644dc1c96e93e855b9d8909c5b33e729ed3e29e994ea",
+          "PYQ_en.txt": "ecc128bd24f0dc3b251ab330722b349f4709b7907ad4fbbdc6eb4635ff3829d2",
+          "PYQ_hi.txt": "6f720e37548be3400bc8247cbd83a00a9db4615ae0e64d3336b6bbbe4202a585",
+          "Practice_en_Set_01.txt": "b811df3730fdcd083318c3596e43e86a4bd6ca8a702838f949647b6691bb3b6e",
+          "Practice_en_Set_02.txt": "f3536a1e50fc518384aa4d2cfc0ad7c0460924f27b02277d45dd1735744f3b02",
+          "Practice_en_Set_03.txt": "f216f859a350f028ebdd75a3bb30f3482b230947538066c35ebbc60b49ec7b18",
+          "Practice_en_Set_04.txt": "efd831388e2c2bff2a5bcb77aa290ff1ecb708ef0abc22a2bc6aafb6abd9097c",
+          "Practice_en_Set_05.txt": "e09ef29860458ea044d0fbbd82f5a5f06ec294874a41cba363caccf8d931d5be",
+          "Practice_en_Set_06.txt": "a58dbdc8d5278fc81c81b98df91633068926bc1dcb48ec3efb2eb088eda70be0",
+          "Practice_hi_Set_01.txt": "e96d25ea2bddf6c751006a76676d3dce48082a5d77e3c39a54e12f9ddc624b23",
+          "Practice_hi_Set_02.txt": "4b9922feb8932ad265bee05c933384cc69eba2cd3421474355bcf40bc7efca9a",
+          "Practice_hi_Set_03.txt": "7cbbdc715432b138c8f1212fdf8d9de8e669f0515a0589329d2198e2bb860745",
+          "Practice_hi_Set_04.txt": "d732a9d0b327baf5f913b8911f0fa1cc61c2e58ce0fa47ed22ff8c60b315a0b2",
+          "Practice_hi_Set_05.txt": "b97c258b413cbca2f31ce225739c4c5a4fafd5814bd06fc8d6674c5932859e5e",
+          "Practice_hi_Set_06.txt": "240440f07409497aa460d9e0040f20d76469328e9728926bebfc9161e5a563ea",
+          "Short_Tricks_en.txt": "fec66b148dd07ea454a60e70a65e7e415c515c4aea9fe98f1bcd1b50a4af7243",
+          "Short_Tricks_hi.txt": "70ab15357f974080e52500ce0945dabb43f9f165dadf1c6d21fa8cb82a8fe3b7"
+        }
+      },
+      "checked_at": "2026-11-21T13:33:46+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "b9f06a742adf2a3c50bccd6d2bd0c8f8b29a9c4717a6eac1df8746f1590bf0f3",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "174a7df095e074a805ac30c14fe9614de11bd93cebc3cf34d4185e8856b0eb2e",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "ee25316767044842c2b193880e2a6afc5627bab07f1634c7dac428387a346d55"
+      },
+      "checked_at": "2026-11-21T13:34:41+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "d61b4fcc29aa28c2e9938ae8847d37d4133a973ea2fdcba717f1f34608c5b205",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "174a7df095e074a805ac30c14fe9614de11bd93cebc3cf34d4185e8856b0eb2e",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "ee25316767044842c2b193880e2a6afc5627bab07f1634c7dac428387a346d55",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T13:34:41+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "89b7b0e506ef2deee3f8255f3627000b567a8461f16052e05c2737eaf00d7c11",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The ILATE mnemonic phrase \"इलियट लड़का आलू टमाटर खाता है\" does not match the acronym I‑L‑A‑T‑E (the last word starts with ख, not E) → Provide a Hindi phrase whose initial letters correspond to I, L, A, T, E (e.g., \"आई लेट ए टॉम ईट\" or similar)."
+      ],
+      "dependencies": {
+        "chapter.json": "174a7df095e074a805ac30c14fe9614de11bd93cebc3cf34d4185e8856b0eb2e",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "9661ed1c8f9f65064f90058268581fd762d1b5729b66d55de2a0ae087b636170"
+      },
+      "checked_at": "2026-11-21T13:36:09+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T13:36:09+00:00",
+  "chapter_fingerprint": "8910b81d22319b1e02285db41ac58c80d089e8351a0bbe5979561ca5eb4f246f"
+}
