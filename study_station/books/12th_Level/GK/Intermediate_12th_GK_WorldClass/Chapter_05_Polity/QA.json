@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "e6e5af1fe948fdc53c4b3c8d67099a8ddecd8be9e19148b8093d3f45c8abfd14",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "bcf86d8e99879c78bce9711c41cd3e9318ae03247c6f0f3454568cd8a366d2c8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "c8a8bc7b2f77ddd0f518ddeead54e3940a5e66cec4f3da874a775b0c1bbd7290",
+        "Content_hi.txt": "14754149f70e0c597399ea902090182f1fbd505f3af0d888fafad50d680ce15a",
+        "Feynman_en.txt": "b81b813248d685f132f5cd58491fbaab3da725b3357ec8926e6f5b6898192e90",
+        "Feynman_hi.txt": "1edd4c53f04d1f95238b196133911362755dc60c92eb6b41d4fe8e7821e29b78",
+        "Flashcards_en.txt": "1eb6d02716bac19689cf8ff8b525e482a9fe60b8dde2da7a73e439f40158e9f2",
+        "Flashcards_hi.txt": "adad08bc7a2baf337203c22b2c61cfd5401903bd9230094fcb62cc178cf6bd4c",
+        "Key_Facts_en.txt": "a2e83d5f1e0807e1598ce624cdc8676e2f1cb45d0acdd2cac09de7ba99998e9b",
+        "Key_Facts_hi.txt": "5c4880bf2dc6ae2d7ee5c3118fa6d1c13f4d059e7849c8b85614e43af91a9c08",
+        "Memory_Hooks_en.txt": "25b10d160dc2797b0c1f5228da5f4cf05ab0d2f6ca09faf6ddd1ea46384d3cf2",
+        "Memory_Hooks_hi.txt": "ecb059b2b09d3f2278b9fc37fd2e76e07a212dd5eecc052aae6298c4ed9b4095",
+        "Mind_Map.txt": "81a1a37ab3ab54fe27a5b80ceda6f64902d29e304e99062a2ee589e46f9c8593",
+        "PYQ_en.txt": "7c9239c1ff763efa908e7aa96d3e494aa72639d32282ad9d2a8beb32cbcf926f",
+        "PYQ_hi.txt": "ba91bf2ec8db86d28e61fc023919d441d7b068040d1b23cd42c710beea64039a",
+        "Practice_en_Set_01.txt": "7b6b434da1a3b5f9823c2ad5d87d92230664b8ce225a52424527fbbdfb401ff6",
+        "Practice_en_Set_02.txt": "c3105ba8d06bc7d91b43ea10962efa92e633440e711bf040fe8dadae4f28206b",
+        "Practice_en_Set_03.txt": "b65a77f79e944e6b990fc8fac1bf6e7df222f9bf3ca156e0bf3a20a6a3efee4b",
+        "Practice_en_Set_04.txt": "3fa42a0e2765722bd448c94f2fce068ecbc6434661284cd73dfd291367a1bef9",
+        "Practice_en_Set_05.txt": "68bac3d3aa9e2af704c73067e61c097f32f4fdefae3b5a9abe4246d7a1d7bb85",
+        "Practice_en_Set_06.txt": "7c66c574d1f40589c335b2b4882ab6079083db568d0d1aa1eaffebc61d085d15",
+        "Practice_hi_Set_01.txt": "8c98561060beebae60c715fd42a37a15db8860cf0dc9b94eae8c84eed6622dc6",
+        "Practice_hi_Set_02.txt": "9fc780c5ca3f40d288948256fdc8d68dbefa78098f2eae711f305f79c145760e",
+        "Practice_hi_Set_03.txt": "5a998061148c7b24c2f45094d9e11fbb80a7d8f003710b643d9cffb31584616d",
+        "Practice_hi_Set_04.txt": "21ba91ec05623cfb0265a6842397116e36b261bc12d3597d3809620e20b99965",
+        "Practice_hi_Set_05.txt": "6a362f97542bc8ee941eb028644182edb175a67a43f49cf242849679f02729bb",
+        "Practice_hi_Set_06.txt": "a567d1b78ed4d6f3421ad0bc929161f7b5954e8d8bee22412ea55b08a2d295bd",
+        "inventory": {
+          "Content_en.txt": "c8a8bc7b2f77ddd0f518ddeead54e3940a5e66cec4f3da874a775b0c1bbd7290",
+          "Content_hi.txt": "14754149f70e0c597399ea902090182f1fbd505f3af0d888fafad50d680ce15a",
+          "Feynman_en.txt": "b81b813248d685f132f5cd58491fbaab3da725b3357ec8926e6f5b6898192e90",
+          "Feynman_hi.txt": "1edd4c53f04d1f95238b196133911362755dc60c92eb6b41d4fe8e7821e29b78",
+          "Flashcards_en.txt": "1eb6d02716bac19689cf8ff8b525e482a9fe60b8dde2da7a73e439f40158e9f2",
+          "Flashcards_hi.txt": "adad08bc7a2baf337203c22b2c61cfd5401903bd9230094fcb62cc178cf6bd4c",
+          "Key_Facts_en.txt": "a2e83d5f1e0807e1598ce624cdc8676e2f1cb45d0acdd2cac09de7ba99998e9b",
+          "Key_Facts_hi.txt": "5c4880bf2dc6ae2d7ee5c3118fa6d1c13f4d059e7849c8b85614e43af91a9c08",
+          "Memory_Hooks_en.txt": "25b10d160dc2797b0c1f5228da5f4cf05ab0d2f6ca09faf6ddd1ea46384d3cf2",
+          "Memory_Hooks_hi.txt": "ecb059b2b09d3f2278b9fc37fd2e76e07a212dd5eecc052aae6298c4ed9b4095",
+          "Mind_Map.txt": "81a1a37ab3ab54fe27a5b80ceda6f64902d29e304e99062a2ee589e46f9c8593",
+          "PYQ_en.txt": "7c9239c1ff763efa908e7aa96d3e494aa72639d32282ad9d2a8beb32cbcf926f",
+          "PYQ_hi.txt": "ba91bf2ec8db86d28e61fc023919d441d7b068040d1b23cd42c710beea64039a",
+          "Practice_en_Set_01.txt": "7b6b434da1a3b5f9823c2ad5d87d92230664b8ce225a52424527fbbdfb401ff6",
+          "Practice_en_Set_02.txt": "c3105ba8d06bc7d91b43ea10962efa92e633440e711bf040fe8dadae4f28206b",
+          "Practice_en_Set_03.txt": "b65a77f79e944e6b990fc8fac1bf6e7df222f9bf3ca156e0bf3a20a6a3efee4b",
+          "Practice_en_Set_04.txt": "3fa42a0e2765722bd448c94f2fce068ecbc6434661284cd73dfd291367a1bef9",
+          "Practice_en_Set_05.txt": "68bac3d3aa9e2af704c73067e61c097f32f4fdefae3b5a9abe4246d7a1d7bb85",
+          "Practice_en_Set_06.txt": "7c66c574d1f40589c335b2b4882ab6079083db568d0d1aa1eaffebc61d085d15",
+          "Practice_hi_Set_01.txt": "8c98561060beebae60c715fd42a37a15db8860cf0dc9b94eae8c84eed6622dc6",
+          "Practice_hi_Set_02.txt": "9fc780c5ca3f40d288948256fdc8d68dbefa78098f2eae711f305f79c145760e",
+          "Practice_hi_Set_03.txt": "5a998061148c7b24c2f45094d9e11fbb80a7d8f003710b643d9cffb31584616d",
+          "Practice_hi_Set_04.txt": "21ba91ec05623cfb0265a6842397116e36b261bc12d3597d3809620e20b99965",
+          "Practice_hi_Set_05.txt": "6a362f97542bc8ee941eb028644182edb175a67a43f49cf242849679f02729bb",
+          "Practice_hi_Set_06.txt": "a567d1b78ed4d6f3421ad0bc929161f7b5954e8d8bee22412ea55b08a2d295bd"
+        }
+      },
+      "checked_at": "2026-11-21T08:01:12+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "6b1ab63bb87a058c5233115048dacc7fde2de6167571235ad10fd75a1bcd06a8",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The Active Recall answer in Section 1 incorrectly claims the temporary and permanent President of the Constituent Assembly are a \"similar names\" trap; the names (Sachchidananda Sinha and Rajendra Prasad) are not similar — the trap is about confusing the two roles, not similar names."
+      ],
+      "dependencies": {
+        "chapter.json": "bcf86d8e99879c78bce9711c41cd3e9318ae03247c6f0f3454568cd8a366d2c8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "c8a8bc7b2f77ddd0f518ddeead54e3940a5e66cec4f3da874a775b0c1bbd7290"
+      },
+      "checked_at": "2026-11-21T08:05:08+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "c903007a88fce976e9d42af5a0b6435667e8dc4ea12bb14e12c07ff781f620b4",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: - In the **Kesavananda Bharati case (1973)**, the Supreme Court held the Preamble is a **part of the Constitution**.",
+        "Fetch official supporting evidence for: - **Fundamental Duties (Article 51A, Part IVA):** added by the **42nd Amendment, 1976**, on the recommendation of the **Swaran Singh Committee**; inspired by the **USSR**. Originally 10 duties; the **11th** was added by the **86th Amendment, 2002** (parent/guardian to provide education to child aged 6–14).",
+        "Fetch official supporting evidence for: - **Judicial review** and the **Basic Structure doctrine** (Kesavananda Bharati, 1973) keep Parliament's amending power in check.",
+        "Fetch official supporting evidence for: The **106th Constitutional Amendment (2023)** — the *Nari Shakti Vandan Adhiniyam* — provides one-third reservation for women in the Lok Sabha and State Assemblies. It will take effect after the next census and delimitation. When you study Articles 330/332 (reservation provisions), remember this living link — exams increasingly connect static Articles with recent amendments."
+      ],
+      "dependencies": {
+        "chapter.json": "bcf86d8e99879c78bce9711c41cd3e9318ae03247c6f0f3454568cd8a366d2c8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "c8a8bc7b2f77ddd0f518ddeead54e3940a5e66cec4f3da874a775b0c1bbd7290",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T08:05:08+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "c3ba0ab9c7f1c31facbd3080ffb4141af35b127a61d3339cde9029e2f72bb72e",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "bcf86d8e99879c78bce9711c41cd3e9318ae03247c6f0f3454568cd8a366d2c8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "14754149f70e0c597399ea902090182f1fbd505f3af0d888fafad50d680ce15a"
+      },
+      "checked_at": "2026-11-21T08:09:23+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T08:09:23+00:00",
+  "chapter_fingerprint": "833043dd3b1eb73ec2096ec39796f55d1560fd6b730e78a0caa2caf25c8d2500"
+}
