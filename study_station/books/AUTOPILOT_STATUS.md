@@ -1,33 +1,32 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 04:49 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 04:50 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
 | W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 71 मिनट |
-| W10 | Chapter 21 Paper Folding Cutting (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
-| W11 | Chapter 02 LCM HCF (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W11 | Chapter 12 Time Distance (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 | W12 | Chapter 08 Profit Loss (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
 | W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 71 मिनट |
-| W3 | Chapter 11 Time Work (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W4 | Chapter 10 Compound Interest (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W5 | Chapter 06 Average (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W6 | Chapter 07 Ratio Proportion (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W7 | Chapter 04 Fractions Decimals (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W8 | Chapter 09 Simple Interest (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W9 | Chapter 05 Percentage (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W3 | Chapter 11 Time Work (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W4 | Chapter 10 Compound Interest (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W5 | Chapter 06 Average (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W6 | Chapter 07 Ratio Proportion (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W7 | Chapter 04 Fractions Decimals (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W8 | Chapter 09 Simple Interest (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W9 | Chapter 05 Percentage (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 48 |
-| key 4 | 61 |
+| key 4 | 62 |
 | key 5 | 45 |
 | key 6 | 37 |
 
@@ -63,7 +62,7 @@
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 52/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 76/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 83/1716 |
-| 10th Maths | 0 | 22 | 0 | 0 | 0 | 81/1606 |
+| 10th Maths | 0 | 22 | 0 | 0 | 0 | 82/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
@@ -73,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 616/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 617/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,14 +82,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 16:44:19   [Fractions_Decimals] QA needs_reference: sources:Feynman_en.txt
-21-11 16:44:29   [Percentage] QA passed: editorial:Feynman_hi.txt
-21-11 16:44:30   [Percentage] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 73, "passed": 4, "pending": 65, "blocked": 1, "needs_reference": 3, "remaining": 69, 
-21-11 16:44:30 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_05_Percentage: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 4, 'pending': 65, 'blocked': 1, 'needs_reference': 3, 'remaining': 69, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- "8.33% = 1/12" presents an approximate value as exact equality → should be "8.33% ≈ 1/12" or "8.33% (approx) = 1/12"', '- "9.09% = 1/11" presents an approximate value as exact equality → should be "9.09% ≈ 1/11" or "9.09% (approx) = 1/11"']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_05_Percentage/QA.json'}
-21-11 16:44:55   [Fractions_Decimals] QA passed: editorial:Feynman_hi.txt
-21-11 16:44:55   [Fractions_Decimals] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 73, "passed": 5, "pending": 65, "blocked": 0, "needs_reference": 3, "remaining": 68, 
-21-11 16:44:55 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_04_Fractions_Decimals: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 5, 'pending': 65, 'blocked': 0, 'needs_reference': 3, 'remaining': 68, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: सन् 1999 में NASA का मंगलयान (Mars Climate Orbiter) इसलिए नष्ट हो गया क्योंकि एक टीम ने गणना अंग्रेज़ी इकाइयों (पाउंड-सेकंड) में की और दूसरी ने मीट्रिक इकाइयों (न्यूटन-सेकंड) में। इकाई-रूपांतरण की यह एक छोटी-सी भूल लगभग $125 मिलियन के यान को तबाह कर गई। हमारे यहाँ बैंकिंग और रेलवे की परीक्षाओं में हज़ारों छात्र सिर्फ़ इसलिए चयन से चूक जाते हैं क्योंकि वे 0.25 और ¼ के बीच का संबंध ब्याज की गणना में नहीं पकड़ पाते। भिन्न और दशमलव केवल गणित नहीं, सफलता और भारी असफलता के बीच का अंतर हैं। इन पर मजबूत पकड़ बना ली, तो संख्यात्मक योग्यता का एक बड़ा भाग आपकी ताकत बन जाएगा।']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_04_Fractions_Decimals/QA.json'}
-21-11 16:44:55   [Ratio_Proportion] QA needs_reference: sources:Content_hi.txt
 21-11 16:45:26   [Average] QA passed: editorial:Feynman_en.txt
 21-11 16:45:26   [Average] QA needs_reference: sources:Feynman_en.txt
 21-11 16:45:30   [Profit_Loss] QA needs_reference: sources:Content_hi.txt
@@ -123,6 +114,14 @@
 21-11 16:50:09   [Time_Work] QA passed: editorial:Feynman_hi.txt
 21-11 16:50:09   [Time_Work] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 73, "passed": 5, "pending": 65, "blocked": 0, "needs_reference": 3, "remaining": 68, 
 21-11 16:50:09 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_11_Time_Work: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 5, 'pending': 65, 'blocked': 0, 'needs_reference': 3, 'remaining': 68, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_11_Time_Work/QA.json'}
+21-11 16:50:27   [Mixture_Alligation] QA needs_reference: sources:Content_hi.txt
+21-11 16:50:35   [Time_Distance] QA passed: editorial:Feynman_en.txt
+21-11 16:50:35   [Time_Distance] QA needs_reference: sources:Feynman_en.txt
+21-11 16:50:41   [Compound_Interest] QA blocked: editorial:Feynman_hi.txt
+21-11 16:50:41   [Compound_Interest] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 73, "passed": 4, "pending": 65, "blocked": 1, "needs_reference": 3, "remaining": 69, 
+21-11 16:50:41 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_10_Compound_Interest: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 4, 'pending': 65, 'blocked': 1, 'needs_reference': 3, 'remaining': 69, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- Ergative marker "ने" used incorrectly with intransitive verb "दुगना हुआ" in "रोहन के ₹100 ने ... दुगना हुआ" and "प्रिया के ₹100 ने ... दुगना हुआ" → Remove "ने" and use proper intransitive agreement: "रोहन के ₹100 6.67 बार दुगना हुए" / "प्रिया के ₹100 5.28 बार दुगना हुए"', '- Claim "72 ही क्यों? कोई नहीं जानता" is factually wrong; the origin of 72 is known (convenient approximation for 100×ln(2)≈69.3, chosen for its many divisors) → Replace with: "72 इसलिए इस्तेमाल होता है क्योंकि यह 69.3 के क़रीब है और कई छोटी संख्याओं (1,2,3,4,6,8,9,12…) से विभाज्य है।"']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_10_Compound_Interest/QA.json'}
+21-11 16:50:47   [Mixture_Alligation] QA passed: editorial:Feynman_en.txt
+21-11 16:50:47   [Mixture_Alligation] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>
