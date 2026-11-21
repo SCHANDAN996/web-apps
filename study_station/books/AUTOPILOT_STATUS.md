@@ -1,33 +1,34 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 04:08 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 04:09 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 30 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
 | W10 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
-| W12 | Chapter 14 muhavare lokokti (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W11 | Chapter 08 World Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W12 | Chapter 14 muhavare lokokti (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
 | W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 30 मिनट |
-| W3 | Chapter 04 Constitution Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W4 | Chapter 06 Physical Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W5 | Chapter 03 Modern History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W6 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W7 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W8 | Chapter 07 States Rivers (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W9 | Chapter 05 Polity (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W3 | Chapter 04 Constitution Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W4 | Chapter 06 Physical Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W5 | Chapter 03 Modern History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W6 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W7 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W8 | Chapter 07 States Rivers (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W9 | Chapter 05 Polity (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 15 |
-| key 4 | 31 |
-| key 5 | 23 |
+| key 4 | 32 |
+| key 5 | 24 |
 | key 6 | 7 |
 
 ## किताबों की प्रगति
@@ -60,7 +61,7 @@
 |---|---:|---:|---:|---:|---:|---:|
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 48/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 52/1092 |
-| 10th GK | 0 | 19 | 0 | 0 | 0 | 49/1482 |
+| 10th GK | 0 | 19 | 0 | 0 | 0 | 50/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
@@ -72,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 536/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 537/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -82,17 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 16:04:17   [muhavare_lokokti] QA passed: editorial:Flashcards_hi.txt
-21-11 16:04:33   [muhavare_lokokti] QA needs_reference: sources:Flashcards_hi.txt
-21-11 16:04:33   [Modern_History] QA needs_reference: sources:Content_hi.txt
-21-11 16:04:34   [apathit_gadyansh] QA passed: editorial:Important_Rules_hi.txt
-21-11 16:04:34   [apathit_gadyansh] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 5, "pending": 28, "blocked": 0, "needs_reference": 3, "remaining": 31, 
-21-11 16:04:34 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_17_apathit_gadyansh: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 5, 'pending': 28, 'blocked': 0, 'needs_reference': 3, 'remaining': 31, 'failures': [{'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Flashcards_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_17_apathit_gadyansh/QA.json'}
-21-11 16:05:18   [networking] QA passed: editorial:Feynman_en.txt
-21-11 16:05:30   [networking] QA needs_reference: sources:Feynman_en.txt
-21-11 16:05:31   [Constitution_Basic] QA needs_reference: sources:Content_hi.txt
-21-11 16:05:53   [networking] QA passed: editorial:Feynman_hi.txt
-21-11 16:05:54   [networking] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
 21-11 16:05:54 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_13_networking: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Wireless Standards table incorrectly labels 802.11b as Wi‑Fi 1, 802.11a as Wi‑Fi 2, and 802.11g as Wi‑Fi 3 → The Wi‑Fi Alliance generational numbering starts at Wi‑Fi 4 (802.11n); 802.11b/a/g have no official Wi‑Fi generation numbers.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_13_networking/QA.json'}
 21-11 16:05:56   [Ancient_History] QA passed: editorial:Feynman_en.txt
 21-11 16:05:56   [Ancient_History] QA needs_reference: sources:Feynman_en.txt
@@ -122,6 +112,17 @@
 21-11 16:09:00   [World_Geography] QA needs_reference: sources:Content_hi.txt
 21-11 16:09:33   [Modern_History] QA passed: editorial:Feynman_en.txt
 21-11 16:09:33   [Modern_History] QA needs_reference: sources:Feynman_en.txt
+21-11 16:09:53   [Physical_Geography] QA passed: editorial:Feynman_en.txt
+21-11 16:10:02   [States_Rivers] QA blocked: editorial:Feynman_en.txt
+21-11 16:10:04   [Physical_Geography] QA needs_reference: sources:Feynman_en.txt
+21-11 16:10:04   [States_Rivers] QA needs_reference: sources:Feynman_en.txt
+21-11 16:10:04   [Economy_Basic] QA needs_reference: sources:Content_hi.txt
+21-11 16:10:25   [States_Rivers] QA passed: editorial:Feynman_hi.txt
+21-11 16:10:26   [States_Rivers] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 2, "needs_reference": 3, "remaining": 75, 
+21-11 16:10:26 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_07_States_Rivers: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: UT capitals: Lakshadweep – Kavaratti | Andaman & Nicobar – Sri Vijaya Puram (renamed from Port Blair in September 2024) | Puducherry – Puducherry | Dadra & Nagar Haveli and Daman & Diu – Daman.', 'Fetch official supporting evidence for: Andaman & Nicobar: the capital Port Blair was renamed Sri Vijaya Puram in September 2024.']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Fabricated future claim: "सिंधु जल संधि (1960): पहलगाम आतंकी हमले के बाद 23 अप्रैल 2025 को भारत ने घोषणा की कि यह संधि स्थगित (abeyance में) रखी जा रही है।" → As of 2024, the Indus Water Treaty remains in force; no such abeyance announcement was made on 23 April 2025 (a future date presented as fact).']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: सिंधु जल संधि (1960): भारत को पूर्वी नदियाँ (रावी, ब्यास, सतलुज) मिलीं; पश्चिमी नदियाँ (सिंधु, झेलम, चिनाब) मुख्यतः पाकिस्तान को। NCERT के अनुसार भारत सिंधु तंत्र के कुल जल का केवल लगभग 20% उपयोग कर सकता है।']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- "That is why the Godavari, Krishna, Kaveri and Mahanadi all flow east" → Mahanadi originates in the Maikal Hills (Chhattisgarh), not the Western Ghats; its eastward flow is due to the general peninsular slope, not Western Ghats rainfall.', '- "Between the Vindhya and Satpura ranges… The Narmada and the Tapi flow along such troughs" → Only Narmada flows between the Vindhya and Satpura ranges; Tapi flows in a rift valley south of the Satpura range.']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_07_States_Rivers/QA.json'}
+21-11 16:10:30   [Physical_Geography] QA passed: editorial:Feynman_hi.txt
+21-11 16:10:30   [Physical_Geography] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
+21-11 16:10:30 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_06_Physical_Geography: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_06_Physical_Geography/QA.json'}
 ````
 
 </details>
