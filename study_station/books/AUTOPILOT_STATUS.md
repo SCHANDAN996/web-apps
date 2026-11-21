@@ -1,35 +1,34 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 01:51 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 01:52 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 180 मिनट |
-| W10 | Chapter 21 International Orgs (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W11 | Chapter 22 Defence (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W12 | Chapter 18 Science Tech (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W2 | Chapter 10 Physics Daily (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
-| W3 | Chapter 14 Sports (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W4 | Chapter 17 Culture Art (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W5 | Chapter 23 Economic Terms (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W6 | Chapter 04 Constitution Basic (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 21 मिनट |
-| W7 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W8 | Chapter 24 Reports Indices (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W9 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 29 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 181 मिनट |
+| W10 | Chapter 21 International Orgs (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W11 | Chapter 22 Defence (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W12 | Chapter 18 Science Tech (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W2 | Chapter 10 Physics Daily (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
+| W3 | Chapter 14 Sports (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W5 | Chapter 23 Economic Terms (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W6 | Chapter 25 Govt Schemes (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W7 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W8 | Chapter 24 Reports Indices (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W9 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 30 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 95 |
+| key 3 | 96 |
 | key 4 | 92 |
-| key 5 | 108 |
-| key 6 | 80 |
+| key 5 | 109 |
+| key 6 | 81 |
 
 ## किताबों की प्रगति
 
@@ -67,13 +66,13 @@
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 47/1872 |
-| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 0/1950 |
+| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 1/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 0/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 374/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 375/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,12 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 13:44:57   [Books_Authors] QA needs_reference: sources:Content_en.txt
-21-11 13:45:27   [Science_Tech] QA passed: structure
-21-11 13:45:43   [Days_Dates] QA passed: editorial:Content_hi.txt
-21-11 13:45:43   [Days_Dates] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
-21-11 13:45:43 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_15_Days_Dates: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_15_Days_Dates/QA.json'}
-21-11 13:46:39   [Science_Tech] QA passed: editorial:Content_en.txt
 21-11 13:46:40   [Science_Tech] QA needs_reference: sources:Content_en.txt
 21-11 13:46:41   [Environment] QA passed: structure
 21-11 13:47:26   [International_Orgs] QA passed: structure
@@ -127,6 +120,12 @@
 21-11 13:51:45   [Sports] QA blocked: editorial:Content_en.txt
 21-11 13:51:45   [Sports] QA needs_reference: sources:Content_en.txt
 21-11 13:51:45   [Govt_Schemes] QA passed: structure
+21-11 13:52:52   [Analogy] QA passed: structure
+21-11 13:53:06   [Science_Tech] QA blocked: editorial:Content_hi.txt
+21-11 13:53:06   [Science_Tech] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 13:53:07 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_18_Science_Tech: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In the institutions table (खंड 1), TIFR headquarters is incorrectly listed as New Delhi → TIFR headquarters is Mumbai (Colaba).', '- In the missile table (खंड 3), Akash missile appears twice (duplicate row) → Remove duplicate; list each missile once: Prithvi, Agni, Akash, Nag, Trishul.', '- In the summary table (सारांश तालिका), row 2 fact says "भारतीय अंतरिक्ष कार्यक्रम के जनक" but answer is Dr. Homi J. Bhabha → Fact should be "भारतीय परमाणु कार्यक्रम के जनक".', '- In the summary table (सारांश तालिका), row 5 fact says "एशिया का पहला परमाणु परीक्षण" but answer is Apsara (1956) → Fact should be "एशिया का पहला परमाणु रिएक्टर" (Asia\'s first nuclear reactor).']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_18_Science_Tech/QA.json'}
+21-11 13:53:27   [Govt_Schemes] QA passed: editorial:Content_en.txt
+21-11 13:53:27   [Govt_Schemes] QA needs_reference: sources:Content_en.txt
 ````
 
 </details>

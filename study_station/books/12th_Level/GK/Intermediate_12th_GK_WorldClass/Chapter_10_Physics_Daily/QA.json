@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "91a6bce7788edacd2a93c72b094a013c788b98696e9912779d5f1874e4ec6b2c",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "ef694606e16b741d12d33e438ee9eb26ce85794a45f53e26a8ddc285f0276e7e",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "2565e40d3b269dde5fb5e7b0671f9e060f512377422ce615e7f599d1cae4d054",
+        "Content_hi.txt": "a242cea8ab408b70ad1fe01a69cc9cd7208d3e3d6f6e941889446a196d3db9df",
+        "Feynman_en.txt": "95fdfa42820cb6f86d6022285417fe092606089e05cdcd2e70007ab427a72303",
+        "Feynman_hi.txt": "9f47db166f2785a2df2cbf85e5024e63473b98f0cca89314055b2768bff6da04",
+        "Flashcards_en.txt": "b7e8ba22ac1ca02eb1d499c00e9a00b881a35a3a0de00eebf8262d931fc01c0d",
+        "Flashcards_hi.txt": "33e3c6916d1bf0a544dff3221df920d3710c6d004c49619e8a3c5ec2305b5dce",
+        "Key_Facts_en.txt": "90f841d26a82da554b818c60cdb166a9601f9eb7e5a9aa926d1d527271f4fe0b",
+        "Key_Facts_hi.txt": "21583863e47d578c8209ac284483e79ad2b97b9cc2423339381a6d30e126ca04",
+        "Memory_Hooks_en.txt": "c399b981d9da369e1f2eee70fa329ead5e623ba3873b21127f3ebc5c37c42863",
+        "Memory_Hooks_hi.txt": "5ef05d61b203b9f2164a9dd84d15777a60f30123994fc633af483e93c48afba0",
+        "Mind_Map.txt": "2f35e6fa10b745ae579609ce94868a3c7aedb183687df133786a8712381720cc",
+        "PYQ_en.txt": "3e023d9a350b0b056371484bed13ef9ab5bd6cb2187b692741c5dd323dd1528b",
+        "PYQ_hi.txt": "1f9a995081621036a44155efd104b394ef02b11562582ea14be0500806cf2da0",
+        "Practice_en_Set_01.txt": "55704866a92d1b5c0ae81cea1928118fab28c9d0f601d30e123654774c532631",
+        "Practice_en_Set_02.txt": "6ed1742f0a0519ff665e51c7e34b2f0930ac631f739a3ce837807186c42dd07b",
+        "Practice_en_Set_03.txt": "0ce50da40f9cc6e243f99419838469d1deec2dc79bdab9ee5ab929b23e23072d",
+        "Practice_en_Set_04.txt": "d2abd4aa46cd29970a275a64b731215370a753d4f5cb5aabaadec5b6c607199f",
+        "Practice_en_Set_05.txt": "aeb115baac959139a8715a06d28c6d5ec01afd08cbe27bb0ea16ef7fc9911d1d",
+        "Practice_en_Set_06.txt": "7bc755a03c220dd535ef87ac726690ccd778ab0a9c7ad6fa704a030f2a1bc513",
+        "Practice_hi_Set_01.txt": "b01063d283a4f95965418f5b36d3b4db7b8b4986f64cc4f47316edd26e9d0aba",
+        "Practice_hi_Set_02.txt": "a257324edbc35efc13bf27641b74072b1e0686f177a8168425cd93e1d74a511d",
+        "Practice_hi_Set_03.txt": "bf71946001507f8687dbf1b89ab5b0aba0f4e504ad12762d7264036e8ccf8bdf",
+        "Practice_hi_Set_04.txt": "97c0347e735aedfb238d5c924d41baa69b6bffc11990be20511db2aecf12f274",
+        "Practice_hi_Set_05.txt": "52534dff231a913e09b015d8ab0793eea28bb9e2483470856c99add3a54a42f2",
+        "Practice_hi_Set_06.txt": "9c07d127d981ddad697d039d8ea955d62e10742c20971d2ea1a018aa254794f1",
+        "inventory": {
+          "Content_en.txt": "2565e40d3b269dde5fb5e7b0671f9e060f512377422ce615e7f599d1cae4d054",
+          "Content_hi.txt": "a242cea8ab408b70ad1fe01a69cc9cd7208d3e3d6f6e941889446a196d3db9df",
+          "Feynman_en.txt": "95fdfa42820cb6f86d6022285417fe092606089e05cdcd2e70007ab427a72303",
+          "Feynman_hi.txt": "9f47db166f2785a2df2cbf85e5024e63473b98f0cca89314055b2768bff6da04",
+          "Flashcards_en.txt": "b7e8ba22ac1ca02eb1d499c00e9a00b881a35a3a0de00eebf8262d931fc01c0d",
+          "Flashcards_hi.txt": "33e3c6916d1bf0a544dff3221df920d3710c6d004c49619e8a3c5ec2305b5dce",
+          "Key_Facts_en.txt": "90f841d26a82da554b818c60cdb166a9601f9eb7e5a9aa926d1d527271f4fe0b",
+          "Key_Facts_hi.txt": "21583863e47d578c8209ac284483e79ad2b97b9cc2423339381a6d30e126ca04",
+          "Memory_Hooks_en.txt": "c399b981d9da369e1f2eee70fa329ead5e623ba3873b21127f3ebc5c37c42863",
+          "Memory_Hooks_hi.txt": "5ef05d61b203b9f2164a9dd84d15777a60f30123994fc633af483e93c48afba0",
+          "Mind_Map.txt": "2f35e6fa10b745ae579609ce94868a3c7aedb183687df133786a8712381720cc",
+          "PYQ_en.txt": "3e023d9a350b0b056371484bed13ef9ab5bd6cb2187b692741c5dd323dd1528b",
+          "PYQ_hi.txt": "1f9a995081621036a44155efd104b394ef02b11562582ea14be0500806cf2da0",
+          "Practice_en_Set_01.txt": "55704866a92d1b5c0ae81cea1928118fab28c9d0f601d30e123654774c532631",
+          "Practice_en_Set_02.txt": "6ed1742f0a0519ff665e51c7e34b2f0930ac631f739a3ce837807186c42dd07b",
+          "Practice_en_Set_03.txt": "0ce50da40f9cc6e243f99419838469d1deec2dc79bdab9ee5ab929b23e23072d",
+          "Practice_en_Set_04.txt": "d2abd4aa46cd29970a275a64b731215370a753d4f5cb5aabaadec5b6c607199f",
+          "Practice_en_Set_05.txt": "aeb115baac959139a8715a06d28c6d5ec01afd08cbe27bb0ea16ef7fc9911d1d",
+          "Practice_en_Set_06.txt": "7bc755a03c220dd535ef87ac726690ccd778ab0a9c7ad6fa704a030f2a1bc513",
+          "Practice_hi_Set_01.txt": "b01063d283a4f95965418f5b36d3b4db7b8b4986f64cc4f47316edd26e9d0aba",
+          "Practice_hi_Set_02.txt": "a257324edbc35efc13bf27641b74072b1e0686f177a8168425cd93e1d74a511d",
+          "Practice_hi_Set_03.txt": "bf71946001507f8687dbf1b89ab5b0aba0f4e504ad12762d7264036e8ccf8bdf",
+          "Practice_hi_Set_04.txt": "97c0347e735aedfb238d5c924d41baa69b6bffc11990be20511db2aecf12f274",
+          "Practice_hi_Set_05.txt": "52534dff231a913e09b015d8ab0793eea28bb9e2483470856c99add3a54a42f2",
+          "Practice_hi_Set_06.txt": "9c07d127d981ddad697d039d8ea955d62e10742c20971d2ea1a018aa254794f1"
+        }
+      },
+      "checked_at": "2026-11-21T08:06:28+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "e3fd706f8215daac4c021ab0f90e8913d59128743c35f3ac85b496adc538bc0e",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Domestic supply voltage in India given as 220 V, 50 Hz AC → The current standard is 230 V, 50 Hz AC (as per IS 12360)."
+      ],
+      "dependencies": {
+        "chapter.json": "ef694606e16b741d12d33e438ee9eb26ce85794a45f53e26a8ddc285f0276e7e",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "2565e40d3b269dde5fb5e7b0671f9e060f512377422ce615e7f599d1cae4d054"
+      },
+      "checked_at": "2026-11-21T08:17:26+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "2abffeebe294beb0c90f14fafc03ffb1ab44fb286f741ba446e77eaee7edf274",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "ef694606e16b741d12d33e438ee9eb26ce85794a45f53e26a8ddc285f0276e7e",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "2565e40d3b269dde5fb5e7b0671f9e060f512377422ce615e7f599d1cae4d054",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T08:17:26+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "0c1f65f9004c2c3fe7b99cac5decf504a8682fcda205a6b37644cc9d3d65adfd",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "ef694606e16b741d12d33e438ee9eb26ce85794a45f53e26a8ddc285f0276e7e",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "a242cea8ab408b70ad1fe01a69cc9cd7208d3e3d6f6e941889446a196d3db9df"
+      },
+      "checked_at": "2026-11-21T08:19:22+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T08:19:22+00:00",
+  "chapter_fingerprint": "ee3d1477a6eb724293340b79b7cf054f598f7194fd6be1da89517f7300fb9deb"
+}
