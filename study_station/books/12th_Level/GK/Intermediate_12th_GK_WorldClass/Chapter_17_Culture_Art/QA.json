@@ -107,11 +107,72 @@
         "Content_hi.txt": "0925778e32b202f94267f9306204c887fb18e136536b320ca2269399311a3b72"
       },
       "checked_at": "2026-11-21T08:19:28+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "7d4e2e3638d75909242ebca107db51be06cb9604ef4d59725c5d7a8a3bff6934",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "597c60fc57f95ecb6bb3cdd071b17e7fb890a71ff7edc6e45d1f7d58e46a73db",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "0925778e32b202f94267f9306204c887fb18e136536b320ca2269399311a3b72",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:22:39+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "a622560d6441439c607a665f6f5849bec36d0ad84f7ac05de6466793340f77a8",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- \"Born under the Chalukyas and Rashtrakutas\" is incorrect regarding Vesara origin → Vesara style originated under the Chalukyas of Badami; Rashtrakutas later developed it.",
+        "- Kailasa Temple (Ellora) is listed as a Vesara example → Kailasa Temple is a Dravida-style rock-cut temple, not Vesara; it should not be cited as a Vesara example."
+      ],
+      "dependencies": {
+        "chapter.json": "597c60fc57f95ecb6bb3cdd071b17e7fb890a71ff7edc6e45d1f7d58e46a73db",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "4e0c546072fb0f13f315b1f89d042426590109aeb6b360c0a2884df2f7a2551b"
+      },
+      "checked_at": "2026-11-21T12:24:06+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "2ad012312f3f0086305827c8571902c74ae6bad21e755e67f84caa1dc4e1baa7",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "597c60fc57f95ecb6bb3cdd071b17e7fb890a71ff7edc6e45d1f7d58e46a73db",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "4e0c546072fb0f13f315b1f89d042426590109aeb6b360c0a2884df2f7a2551b",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:24:07+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "a4ee1b23deca4aa7416793bc3b38b768cbb62c6fd335551c34150eaef353cdc1",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "597c60fc57f95ecb6bb3cdd071b17e7fb890a71ff7edc6e45d1f7d58e46a73db",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "0076e46f2b849b1615a1ecf5ee0bc494542ba66b476fbe120cfe0603e18918e0"
+      },
+      "checked_at": "2026-11-21T12:25:35+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T08:19:28+00:00",
+  "updated_at": "2026-11-21T12:25:36+00:00",
   "chapter_fingerprint": "d63d5c6149a43bae88318e999964c13fff4e905bd242939b584bbbbd9015c4ac"
 }
