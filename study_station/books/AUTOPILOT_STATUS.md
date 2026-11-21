@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 03:56 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 03:57 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,23 +11,23 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 17 मिनट |
-| W10 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W11 | Chapter 12 e banking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W12 | Chapter 09 upsarg pratyay (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 17 मिनट |
-| W4 | Chapter 11 vilom (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W5 | Chapter 11 email (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W6 | Chapter 10 internet browser (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W7 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W8 | Chapter 08 samas (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W9 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 18 मिनट |
+| W10 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W11 | Chapter 12 e banking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W12 | Chapter 09 upsarg pratyay (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 18 मिनट |
+| W3 | Chapter 13 ek shabd (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W4 | Chapter 11 vilom (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W5 | Chapter 11 email (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W6 | Chapter 10 internet browser (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W7 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W9 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 11 |
-| key 4 | 17 |
-| key 5 | 10 |
+| key 3 | 12 |
+| key 4 | 19 |
+| key 5 | 11 |
 | key 6 | 5 |
 
 ## किताबों की प्रगति
@@ -58,8 +58,8 @@
 
 | किताब | QA पास | जाँच बाकी | प्रमाण बाकी | सुधार अटका | मैनुअल | जाँचें पास / कुल |
 |---|---:|---:|---:|---:|---:|---:|
-| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 41/540 |
-| 12th Computer | 0 | 14 | 0 | 0 | 0 | 42/1092 |
+| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 42/540 |
+| 12th Computer | 0 | 14 | 0 | 0 | 0 | 45/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 43/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
@@ -72,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 513/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 517/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -82,9 +82,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 15:50:56 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_08_excel: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- स्तंभ छिपाने/दिखाने के शॉर्टकट में `Ctrl + Shift + 0` गलत है → `Ctrl + Shift + )` सही है', '- `SUBTOTAL(109, रेंज)` और `AGGREGATE(9, 5, रेंज)` छिपे स्तंभों को अनदेखा नहीं करते → ये केवल छिपी पंक्तियों को अनदेखा करते हैं']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- In Core Concepts #7, the shortcut for current time is listed as `Ctrl+Shift+:` → should be `Ctrl+Shift+;` (semicolon)', '- In Recall Question 5 explanation, the shortcut for current time is listed as `Ctrl+Shift+:` → should be `Ctrl+Shift+;` (semicolon)']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_08_excel/QA.json'}
-21-11 15:51:08   [kaal_vachya] QA blocked: editorial:Important_Rules_hi.txt
-21-11 15:51:20   [shabd_bhed] QA passed: editorial:Important_Rules_hi.txt
 21-11 15:51:30   [kaal_vachya] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 4, "pending": 28, "blocked": 1, "needs_reference": 3, "remaining": 32, 
 21-11 15:51:30   [shabd_bhed] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 3, "pending": 28, "blocked": 2, "needs_reference": 3, "remaining": 33, 
 21-11 15:51:30 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 4, 'pending': 28, 'blocked': 1, 'needs_reference': 3, 'remaining': 32, 'failures': [{'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Flashcards_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Important_Rules_hi.txt', 'status': 'blocked', 'issues': ['- Rule 11 labels reflexive verbs as “आत्मनेपदी” (a Sanskrit voice category) → use “प्रतिबिंबित क्रिया” or “अकर्मक क्रिया” for Hindi grammar']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya/QA.json'}
@@ -122,6 +119,9 @@
 21-11 15:56:57   [email] QA passed: editorial:Feynman_hi.txt
 21-11 15:56:57   [email] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
 21-11 15:56:57 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_11_email: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: 1. **Subject line**: Clear, specific — "Application: SSC CGL 2024 — Roll No 12345" not "Hello".']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Local-part (उपयोगकर्तानाम) is stated as not case-sensitive, but per RFC 5321 the local-part is case-sensitive → Correct: Local-part is case-sensitive (though many providers treat it as case-insensitive in practice).']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_11_email/QA.json'}
+21-11 15:57:29   [powerpoint] QA passed: editorial:Feynman_en.txt
+21-11 15:57:35   [powerpoint] QA needs_reference: sources:Feynman_en.txt
+21-11 15:57:36   [networking] QA needs_reference: sources:Content_hi.txt
 ````
 
 </details>
