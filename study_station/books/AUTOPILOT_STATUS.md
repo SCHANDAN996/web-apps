@@ -5,28 +5,29 @@
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 15 मिनट |
-| W10 | Chapter 02 shabd bhed (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
-| W11 | Chapter 02 input output ports (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
-| W12 | Chapter 09 upsarg pratyay (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 15 मिनट |
-| W3 | Chapter 01 varn vartani (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
-| W4 | Chapter 11 vilom (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W6 | Chapter 10 internet browser (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W7 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W8 | Chapter 08 samas (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W9 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 16 मिनट |
+| W10 | Chapter 02 shabd bhed (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
+| W11 | Chapter 02 input output ports (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
+| W12 | Chapter 09 upsarg pratyay (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 16 मिनट |
+| W3 | Chapter 01 varn vartani (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
+| W4 | Chapter 11 vilom (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W5 | Chapter 11 email (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W6 | Chapter 10 internet browser (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W7 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W8 | Chapter 08 samas (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W9 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 10 |
-| key 4 | 14 |
+| key 3 | 11 |
+| key 4 | 15 |
 | key 5 | 8 |
 | key 6 | 5 |
 
@@ -58,8 +59,8 @@
 
 | किताब | QA पास | जाँच बाकी | प्रमाण बाकी | सुधार अटका | मैनुअल | जाँचें पास / कुल |
 |---|---:|---:|---:|---:|---:|---:|
-| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 38/540 |
-| 12th Computer | 0 | 14 | 0 | 0 | 0 | 41/1092 |
+| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 39/540 |
+| 12th Computer | 0 | 14 | 0 | 0 | 0 | 42/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 43/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
@@ -72,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 509/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 511/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -82,11 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 15:48:07   [kaal_vachya] QA passed: editorial:Flashcards_hi.txt
-21-11 15:48:07   [kaal_vachya] QA needs_reference: sources:Flashcards_hi.txt
-21-11 15:48:54   [excel] QA needs_reference: sources:Content_hi.txt
-21-11 15:49:11   [shabd_bhed] QA blocked: editorial:Flashcards_hi.txt
-21-11 15:49:11   [shabd_bhed] QA needs_reference: sources:Flashcards_hi.txt
 21-11 15:49:24   [word] QA passed: editorial:Feynman_en.txt
 21-11 15:49:24   [word] QA needs_reference: sources:Feynman_en.txt
 21-11 15:49:28   [upsarg_pratyay] QA needs_reference: sources:Feynman_hi.txt
@@ -122,6 +118,11 @@
 21-11 15:54:25   [email] QA needs_reference: sources:Content_hi.txt
 21-11 15:54:28   [upsarg_pratyay] QA passed: editorial:Flashcards_hi.txt
 21-11 15:54:28   [upsarg_pratyay] QA needs_reference: sources:Flashcards_hi.txt
+21-11 15:54:59   [anekarthi_samshrut] QA needs_reference: sources:Feynman_hi.txt
+21-11 15:55:00   [internet_browser] QA passed: editorial:Feynman_en.txt
+21-11 15:55:00   [internet_browser] QA needs_reference: sources:Feynman_en.txt
+21-11 15:55:29   [vilom] QA passed: editorial:Flashcards_hi.txt
+21-11 15:55:29   [vilom] QA needs_reference: sources:Flashcards_hi.txt
 ````
 
 </details>
