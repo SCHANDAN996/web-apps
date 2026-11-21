@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 01:47 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 01:48 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 176 मिनट |
-| W11 | Chapter 15 Days Dates (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W12 | Chapter 18 Science Tech (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W2 | Chapter 10 Physics Daily (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W3 | Chapter 14 Sports (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W4 | Chapter 17 Culture Art (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W5 | Chapter 16 Books Authors (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W6 | Chapter 04 Constitution Basic (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 17 मिनट |
-| W7 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W8 | Chapter 13 Awards (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W9 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 25 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 177 मिनट |
+| W10 | Chapter 21 International Orgs (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W12 | Chapter 18 Science Tech (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W2 | Chapter 10 Physics Daily (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W3 | Chapter 14 Sports (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W4 | Chapter 17 Culture Art (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W5 | Chapter 16 Books Authors (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W6 | Chapter 04 Constitution Basic (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 18 मिनट |
+| W7 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W8 | Chapter 13 Awards (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W9 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 26 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 93 |
-| key 4 | 88 |
+| key 3 | 94 |
+| key 4 | 89 |
 | key 5 | 106 |
-| key 6 | 78 |
+| key 6 | 79 |
 
 ## किताबों की प्रगति
 
@@ -65,14 +65,14 @@
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
-| 12th GK | 0 | 24 | 0 | 0 | 0 | 38/1872 |
+| 12th GK | 0 | 24 | 0 | 0 | 0 | 39/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 0/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 0/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 365/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 366/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,13 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 13:41:37   [Chemistry] QA needs_reference: sources:Content_en.txt
-21-11 13:41:38   [Sports] QA passed: structure
-21-11 13:42:05   [Biology] QA passed: editorial:Content_en.txt
-21-11 13:42:05   [Biology] QA needs_reference: sources:Content_en.txt
-21-11 13:42:07   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q77 key d vs re-solve a, Q82 key b vs re-solve a, Q85 key c vs re-solve a, Q87 key b vs re-solve a, 
-21-11 13:42:07   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
-21-11 13:42:11   [Awards] QA blocked: editorial:Content_en.txt
 21-11 13:42:12   [Awards] QA needs_reference: sources:Content_en.txt
 21-11 13:42:22   [Days_Dates] QA passed: structure
 21-11 13:43:09   [Biology] QA passed: editorial:Content_hi.txt
@@ -126,6 +119,13 @@
 21-11 13:47:44   [Books_Authors] QA blocked: editorial:Content_hi.txt
 21-11 13:47:45   [Books_Authors] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
 21-11 13:47:45 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_16_Books_Authors: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- डिस्कवरी ऑफ इंडिया के लेखन काल (1942–46) गलत → सही: 1942–1945 (कैद अवधि), प्रकाशन 1946']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_16_Books_Authors/QA.json'}
+21-11 13:48:16   [Defence] QA passed: structure
+21-11 13:48:50   [Awards] QA passed: editorial:Content_hi.txt
+21-11 13:48:51   [Awards] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 13:48:51 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_13_Awards: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ["- The claim that the Bharat Ratna's 3-per-year limit was introduced by a 1955 statute amendment is incorrect → The limit of three awards per year was part of the original 1954 statute; the 1955 amendment allowed posthumous awards."]}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_13_Awards/QA.json'}
+21-11 13:48:54   [Constitution_Basic] QA blocked: editorial:Content_hi.txt
+21-11 13:48:54   [Constitution_Basic] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 1, "pending": 74, "blocked": 2, "needs_reference": 1, "remaining": 77, 
+21-11 13:48:55 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_04_Constitution_Basic: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 1, 'pending': 74, 'blocked': 2, 'needs_reference': 1, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- "Today it has grown to 448 Articles and 12 Schedules" (current X is without a year) → Specify the year (e.g., "As of 2023, it has 448 Articles and 12 Schedules") or remove "Today".', '- "Master this, and 60% of Indian Polity becomes easy" (invented exam weightage statistic) → Remove the invented weightage claim "60% of Indian Polity becomes easy".', '- "Every question in SSC, Banking, Railway and State PCS exams on \'Polity\' begins from this chapter" (invented exam claim, factually incorrect) → Remove the absolute claim "Every question... begins from this chapter".']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: - The Preamble was held to be a **part of the Constitution** in the **Kesavananda Bharati case (1973)**.', "Fetch official supporting evidence for: 9. **Fundamental Duties** (Part IV-A) — added by the 42nd Amendment, 1976, on the recommendation of the **Swaran Singh Committee**; originally 10 duties, now **11** (86th Amendment, 2002 added the 11th — education of one's child).", 'Fetch official supporting evidence for: - Debates on the **basic structure doctrine** (Kesavananda Bharati, 1973) still appear in news whenever major constitutional amendments are discussed in Parliament.', 'Fetch official supporting evidence for: | 9 | Preamble part of Constitution (case) | Kesavananda Bharati, 1973 |', 'Fetch official supporting evidence for: | 10 | Fundamental Duties added by | 42nd Amendment, 1976 (Swaran Singh Committee) |']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- कुल सदस्य: 299 (ब्रिटिश प्रांतों से 292 + रियासतों से 93 का प्रावधान था; विभाजन के बाद संख्या घटी) → मूल प्रावधान 389 सदस्यों का था (ब्रिटिश प्रांतों से 292, रियासतों से 93, मुख्य आयुक्त प्रांतों से 4); विभाजन के बाद सदस्य संख्या 299 रह गई।']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_04_Constitution_Basic/QA.json'}
 ````
 
 </details>
