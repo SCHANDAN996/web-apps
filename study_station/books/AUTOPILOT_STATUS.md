@@ -1,35 +1,34 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 07:07 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 07:08 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 16 Coordinate Geometry (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W10 | Chapter 18 Quadratic Equations (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W11 | Chapter 21 Complex Numbers (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W12 | Chapter 19 Trigonometry (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W2 | Chapter 24 Statistics (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W3 | Chapter 15 Geometry (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W4 | Chapter 23 Data Interpretation (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W5 | Chapter 25 Probability (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W6 | Chapter 20 Heights Distances (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W7 | Chapter 22 Calculus (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 27 मिनट |
-| W9 | Chapter 17 Algebra (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W10 | Chapter 18 Quadratic Equations (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W11 | Chapter 21 Complex Numbers (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W12 | Chapter 19 Trigonometry (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W2 | Chapter 24 Statistics (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W3 | Chapter 26 Permutation Combination (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W4 | Chapter 23 Data Interpretation (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W5 | Chapter 25 Probability (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W6 | Chapter 20 Heights Distances (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W7 | Chapter 22 Calculus (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 28 मिनट |
+| W9 | Chapter 17 Algebra (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 150 |
-| key 4 | 127 |
-| key 5 | 135 |
-| key 6 | 125 |
+| key 4 | 128 |
+| key 5 | 136 |
+| key 6 | 126 |
 
 ## किताबों की प्रगति
 
@@ -69,11 +68,11 @@
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 96/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 101/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 94/2025 |
-| Graduation Maths | 0 | 28 | 0 | 0 | 0 | 67/2184 |
+| Graduation Maths | 0 | 28 | 0 | 0 | 0 | 71/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 902/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 906/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -88,15 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 19:02:20 QA Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_17_Algebra: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_17_Algebra/QA.json'}
-21-11 19:02:35   [Heights_Distances] QA blocked: editorial:Content_en.txt
-21-11 19:02:35   [Heights_Distances] QA needs_reference: sources:Content_en.txt
-21-11 19:02:42   [Quadratic_Equations] QA passed: editorial:Content_en.txt
-21-11 19:02:43   [Quadratic_Equations] QA needs_reference: sources:Content_en.txt
-21-11 19:02:43   [Complex_Numbers] QA passed: structure
-21-11 19:03:29   [Heights_Distances] QA passed: editorial:Content_hi.txt
-21-11 19:03:45   [Heights_Distances] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
-21-11 19:03:46 QA Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_20_Heights_Distances: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Section content is corrupted token artifacts (`<|close|>`, `<|close|>think`, fragments) with no coherent educational material — no definitions, formulas, examples, tables, or Hindi translations to verify. → Replace with actual Heights & Distances content.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_20_Heights_Distances/QA.json'}
 21-11 19:03:46   [Complex_Numbers] QA passed: editorial:Content_en.txt
 21-11 19:03:46   [Quadratic_Equations] QA passed: editorial:Content_hi.txt
 21-11 19:03:46   [Calculus] QA passed: structure
@@ -128,6 +118,15 @@
 21-11 19:07:15   [Probability] QA passed: editorial:Content_en.txt
 21-11 19:07:35   [Probability] QA needs_reference: sources:Content_en.txt
 21-11 19:07:36   [Permutation_Combination] QA passed: structure
+21-11 19:08:11   [Probability] QA passed: editorial:Content_hi.txt
+21-11 19:08:25   [Probability] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
+21-11 19:08:26 QA Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability/QA.json'}
+21-11 19:08:26   [Number_Series] QA passed: structure
+21-11 19:08:30   [Statistics] QA passed: editorial:Content_hi.txt
+21-11 19:08:30   [Statistics] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
+21-11 19:08:31 QA Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_24_Statistics: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_24_Statistics/QA.json'}
+21-11 19:08:50   [Permutation_Combination] QA passed: editorial:Content_en.txt
+21-11 19:08:50   [Permutation_Combination] QA needs_reference: sources:Content_en.txt
 ````
 
 </details>
