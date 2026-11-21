@@ -96,15 +96,71 @@
         "QA.references.json": []
       },
       "checked_at": "2026-11-21T08:21:45+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "2fa82739e27a2bee034bc4e21927f03aaf04836b0374c05bc6a780fcb7f6c7f1",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- 1983 क्रिकेट विश्व कप फाइनल की तिथि 28 जून 1983 बताई गई है → सही तिथि 25 जून 1983 है"
+      ],
+      "dependencies": {
+        "chapter.json": "f51e261069945562f0bb7f10c6f8c6898b9b5df2172ab1fa3539782bbbc978ea",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "9951c75ae223bbcf869b59b6828531046e8a2dc067600b8c1237eb9b3bfb5d7c"
+      },
+      "checked_at": "2026-11-21T12:21:20+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "b148b1e1a27fa9062f427c1cac6120ed0738067dbb93897a210e728c447c871a",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "f51e261069945562f0bb7f10c6f8c6898b9b5df2172ab1fa3539782bbbc978ea",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "9951c75ae223bbcf869b59b6828531046e8a2dc067600b8c1237eb9b3bfb5d7c",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:21:21+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "53a72c66ccf5e08d3095590765f92633baca744526bf79b5cdbd4aea00060b87",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "f51e261069945562f0bb7f10c6f8c6898b9b5df2172ab1fa3539782bbbc978ea",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "f5d9ce13a1460c60771c0556d3265b913a2c75cb5dead4c43e8f0744e0f852fc"
+      },
+      "checked_at": "2026-11-21T12:21:39+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "30b843c376a7807790051dd019f48c9e6cb2b33df4239f44e61368758e842b52",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "f51e261069945562f0bb7f10c6f8c6898b9b5df2172ab1fa3539782bbbc978ea",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "f5d9ce13a1460c60771c0556d3265b913a2c75cb5dead4c43e8f0744e0f852fc",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:21:40+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T08:34:49+00:00",
-  "last_error": {
-    "check": "editorial:Content_hi.txt",
-    "error": "too_long",
-    "at": "2026-11-21T08:34:49+00:00"
-  }
+  "updated_at": "2026-11-21T12:21:40+00:00",
+  "chapter_fingerprint": "78ee87636282d17bfe18c54032879b32c31991fd12995afe61a89347775f4f6e"
 }
