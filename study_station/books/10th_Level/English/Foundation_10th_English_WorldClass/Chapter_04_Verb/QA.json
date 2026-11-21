@@ -109,11 +109,71 @@
         "Content_hi.txt": "da88ac2dde7acefbcec62188316cf12adecc7e16eee96bc659b4fd28af1b6a96"
       },
       "checked_at": "2026-11-21T07:18:46+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "f1ed618798f41407b9911e7a1e5d2185d7c1825f788dd2deb5cb194e15a0f68d",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "53e149461b38229a40631db6a36241a6b960c94952e242f0abc50334f55d1b1a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "da88ac2dde7acefbcec62188316cf12adecc7e16eee96bc659b4fd28af1b6a96",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:31:29+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "600a66bd552dcad465e498a505ea50dc4f9904937a7e190fac43f3725c0182ba",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The Blurting Sheet lists \"subject–verb agreement rules and the three examiner's traps\" as key points of this chapter, but those topics are not covered in the text → Remove them from the blurting sheet or add the missing content to the chapter."
+      ],
+      "dependencies": {
+        "chapter.json": "53e149461b38229a40631db6a36241a6b960c94952e242f0abc50334f55d1b1a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "172c565d2f0c8e6b0cf8f43e821e8a56fef47d11c6ad09bae6afad1de057153e"
+      },
+      "checked_at": "2026-11-21T11:32:08+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "79b53fedf6c8bf61f577a39716e8c9d0225eb8b9239b96de1ad1673d4779cb0e",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "53e149461b38229a40631db6a36241a6b960c94952e242f0abc50334f55d1b1a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "172c565d2f0c8e6b0cf8f43e821e8a56fef47d11c6ad09bae6afad1de057153e",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:32:08+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "65c5e33b7d61918de65b1fc8fb105f82906ef81ee49d02e098880f276c99ac12",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "53e149461b38229a40631db6a36241a6b960c94952e242f0abc50334f55d1b1a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "cde0f3635c2ef0eb3093916bee46eda3eb48421d41a0c05390b9dae72576fa8a"
+      },
+      "checked_at": "2026-11-21T11:32:24+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T07:18:46+00:00",
+  "updated_at": "2026-11-21T11:32:24+00:00",
   "chapter_fingerprint": "a3c39c05ee99ed889c34494f301217a79286967e98c4483c2b1a49bc87c5f418"
 }

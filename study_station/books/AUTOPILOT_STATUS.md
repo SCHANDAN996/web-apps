@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 90 मिनट |
-| W10 | Chapter 12 Sentence Structure (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 91 मिनट |
+| W10 | Chapter 12 Sentence Structure (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 | W11 | Chapter 13 Synonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 | W12 | Chapter 09 Articles (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W2 | Chapter 04 Verb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W2 | Chapter 04 Verb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
 | W3 | Chapter 10 Voice (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 | W4 | Chapter 11 Narration (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W5 | Chapter 05 Tense (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W6 | Chapter 07 Preposition (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W7 | Chapter 06 Adverb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W8 | Chapter 08 Conjunction (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W9 | Chapter 03 Adjective (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W5 | Chapter 05 Tense (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W6 | Chapter 07 Preposition (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W7 | Chapter 06 Adverb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W8 | Chapter 08 Conjunction (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W9 | Chapter 03 Adjective (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 59 |
 | key 4 | 78 |
-| key 5 | 57 |
+| key 5 | 59 |
 | key 6 | 46 |
 
 ## किताबों की प्रगति
@@ -64,7 +64,7 @@
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 76/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 83/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 100/1606 |
-| 10th English | 0 | 20 | 0 | 0 | 0 | 65/1622 |
+| 10th English | 0 | 20 | 0 | 0 | 0 | 68/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 58/1950 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 649/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 652/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,18 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 17:03:41   [Adverb] QA needs_reference: sources:Feynman_en.txt
-21-11 17:04:22   [Preposition] QA needs_reference: sources:Content_hi.txt
-21-11 17:04:28   [Adverb] QA blocked: editorial:Feynman_hi.txt
-21-11 17:04:28   [Adverb] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
-21-11 17:04:28 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_06_Adverb: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- Typo in first title: "बच्च्चा" → "बच्चा"']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_06_Adverb/QA.json'}
-21-11 17:04:33   [Preposition] QA passed: editorial:Feynman_en.txt
-21-11 17:04:33   [Preposition] QA needs_reference: sources:Feynman_en.txt
-21-11 17:05:05   [Preposition] QA passed: editorial:Feynman_hi.txt
-21-11 17:05:18   [Preposition] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 5, "pending": 73, "blocked": 0, "needs_reference": 3, "remaining": 76, 
-21-11 17:05:19 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_07_Preposition: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 5, 'pending': 73, 'blocked': 0, 'needs_reference': 3, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: 2. **Since** + point of time (Monday, 2010); **for** + period of time (two days, five years).', 'Fetch official supporting evidence for: | Time | at / on / in / since / for | at 5 pm, on Monday, in 2024, since 2010, for 2 years |']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: > **since** = समय का बिंदु (since Monday, since 2020)']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_07_Preposition/QA.json'}
-21-11 17:05:19   [Conjunction] QA needs_reference: sources:Content_hi.txt
-21-11 17:05:42   [Conjunction] QA passed: editorial:Feynman_en.txt
 21-11 17:05:42   [Conjunction] QA needs_reference: sources:Feynman_en.txt
 21-11 17:05:53   [Articles] QA needs_reference: sources:Content_hi.txt
 21-11 17:06:31   [sandhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q28 key d vs re-solve a, Q34 key b vs re-solve d, Q36 key d vs re-solve a, Q43 key c vs re-solve a, 
@@ -127,6 +115,18 @@
 21-11 17:09:25   [Synonyms] QA needs_reference: sources:Feynman_en.txt
 21-11 17:09:37   [Sentence_Structure] QA blocked: editorial:Feynman_en.txt
 21-11 17:09:38   [Sentence_Structure] QA needs_reference: sources:Feynman_en.txt
+21-11 17:09:54   [Synonyms] QA passed: editorial:Feynman_hi.txt
+21-11 17:09:57   [Narration] QA blocked: editorial:Feynman_hi.txt
+21-11 17:10:08   [Sentence_Structure] QA passed: editorial:Feynman_hi.txt
+21-11 17:10:10   [Synonyms] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 5, "pending": 73, "blocked": 0, "needs_reference": 3, "remaining": 76, 
+21-11 17:10:10   [Narration] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 73, "blocked": 2, "needs_reference": 3, "remaining": 78, 
+21-11 17:10:10   [Sentence_Structure] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
+21-11 17:10:11 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_13_Synonyms: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 5, 'pending': 73, 'blocked': 0, 'needs_reference': 3, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_13_Synonyms/QA.json'}
+21-11 17:10:11 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_12_Sentence_Structure: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- The exam shortcut "One finite verb = Simple" is a wrong grammar rule; a simple sentence can have multiple finite verbs in a compound predicate (e.g., "He ate and slept") → Correction: A simple sentence has one independent clause, not necessarily one finite verb.']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_12_Sentence_Structure/QA.json'}
+21-11 17:10:11 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_11_Narration: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 73, 'blocked': 2, 'needs_reference': 3, 'remaining': 78, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- The claim "you can convert 90% of exam sentences" is an invented exam statistic → remove the percentage or replace with "most exam sentences"']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- The text claims "सिर्फ़ तीन चीज़ें बदलती हैं" (only three things change: Pronoun, Tense, Time/Place words) but the example shows a fourth change: verb "come" → "go" → Either add verb change as a fourth category or clarify that verb change is part of perspective shift.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_11_Narration/QA.json'}
+21-11 17:10:11   [Antonyms] QA needs_reference: sources:Content_hi.txt
+21-11 17:10:29   [Antonyms] QA passed: editorial:Feynman_en.txt
+21-11 17:10:29   [Antonyms] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>
