@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "43b9db13e455f3b0097d64576daac3bf25268a2c1f7d5cda8e79832472a5e062",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "604af22f296de10b075c015220544a5e7e1fb3c89d88851d3be645ee9a0cd9bf",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "d27a30f9464aff5e0a9bb53f2a47376ca2e6cdcb182e9a512f7daa238d41e007",
+        "Content_hi.txt": "ed6c3a486a742dd396d6b88690f275fd7aae1e62b8fe5c815ffa6da69c99e9bb",
+        "Feynman_en.txt": "c86256a4f4b4827117cbee6d2e262d334b33c64f30c26e38c1d678815b5d156f",
+        "Feynman_hi.txt": "a6347d3e6fe34fb98282d81667713aafb42fb4590b586ed594cae491f239bb03",
+        "Flashcards_en.txt": "6a4750e9e4a6d1f11987977c703a67f2888389636bb604c0d284442cf44ea088",
+        "Flashcards_hi.txt": "a7abd3b2f249325d84713368d90b04181ae6224f0bf4a4f64300825967116dac",
+        "Important_Rules_en.txt": "a8563734bd0783ab3b9d9d828a1547ad6d2113088425e60122ee3d464d657457",
+        "Important_Rules_hi.txt": "397421b43ecd2a4bd5687dd52ab7a1073e49f13b11082667b5167cf732f60706",
+        "Mind_Map_en.txt": "b6ac10cb3537ca32754faf66a5690bd4c9ec0d75aed0180be8ede56af27798c3",
+        "Mind_Map_hi.txt": "5c33d777eb09748f016b3b0c04929606bb310b67e143dbb06335cb591dde4326",
+        "PYQ_en.txt": "7c124e7b72d3fd624c482d6f9abe88d5e352b9956fa70795b673788150ba57f3",
+        "PYQ_hi.txt": "fda677ae1c9ddf34321e19dd0456a19949e51a9b780d9a4129fefb1ea383e813",
+        "Practice_en_Set_01.txt": "11c3a8a92df5188b748c6c201ad9812175f1ace497c26176e793911192cf41f6",
+        "Practice_en_Set_02.txt": "85b9add09830360744f5204ed481f651c0a059a7ab946486e2b193ffb4679bb2",
+        "Practice_en_Set_03.txt": "0a08bac85ac2ca9c540c7eceb7ca574fa6a9b93fc654f1c9d372bb4ca5f0cfc2",
+        "Practice_en_Set_04.txt": "f5179d0b14b88e856d1e78e685af704474ca2519fc69ce3745495d2a9bc2b39b",
+        "Practice_en_Set_05.txt": "d46aa1bb172a0f2e9ef01074ac3c890ff393c364757c4437f1c1493fdc8ebc8e",
+        "Practice_en_Set_06.txt": "b3ace0fab6a7f3dd14208049d391246032672bc5d51bee58b1bc7e2cb7198854",
+        "Practice_hi_Set_01.txt": "e268e6ca812ddd8e3d7fd448c0aa4f68c90be19b805da73978553b85c93dce14",
+        "Practice_hi_Set_02.txt": "d6b7becef703cef658c6f6069a4249b5868938ad34ad96de603a705fb671c1ba",
+        "Practice_hi_Set_03.txt": "108ee8a1123c7a9b93cfdbda2172b991e5d7a57b985bb5ccab960508d996831a",
+        "Practice_hi_Set_04.txt": "9bba7a7186e88811701a890696d32782741dc3223ffd6dce7ea8a4624001dcd0",
+        "Practice_hi_Set_05.txt": "965beca257310e3b25b4a95f30a8883bcd60ec90c0ca673daf29c0b7e606ce35",
+        "Practice_hi_Set_06.txt": "1bf85bf0d138b2ebc08f3902d7cf50f179508b130311a2f77469cf3c6d252a5c",
+        "Short_Tricks_en.txt": "431887f6d4b5e2857a4581fd98db2afee325f495b45072ab56307ff07b84fe52",
+        "Short_Tricks_hi.txt": "244570f28f04cb3bc19e12c76160af86b9fcd3815c800ca9fe9ebc7a8318337b",
+        "inventory": {
+          "Content_en.txt": "d27a30f9464aff5e0a9bb53f2a47376ca2e6cdcb182e9a512f7daa238d41e007",
+          "Content_hi.txt": "ed6c3a486a742dd396d6b88690f275fd7aae1e62b8fe5c815ffa6da69c99e9bb",
+          "Feynman_en.txt": "c86256a4f4b4827117cbee6d2e262d334b33c64f30c26e38c1d678815b5d156f",
+          "Feynman_hi.txt": "a6347d3e6fe34fb98282d81667713aafb42fb4590b586ed594cae491f239bb03",
+          "Flashcards_en.txt": "6a4750e9e4a6d1f11987977c703a67f2888389636bb604c0d284442cf44ea088",
+          "Flashcards_hi.txt": "a7abd3b2f249325d84713368d90b04181ae6224f0bf4a4f64300825967116dac",
+          "Important_Rules_en.txt": "a8563734bd0783ab3b9d9d828a1547ad6d2113088425e60122ee3d464d657457",
+          "Important_Rules_hi.txt": "397421b43ecd2a4bd5687dd52ab7a1073e49f13b11082667b5167cf732f60706",
+          "Mind_Map_en.txt": "b6ac10cb3537ca32754faf66a5690bd4c9ec0d75aed0180be8ede56af27798c3",
+          "Mind_Map_hi.txt": "5c33d777eb09748f016b3b0c04929606bb310b67e143dbb06335cb591dde4326",
+          "PYQ_en.txt": "7c124e7b72d3fd624c482d6f9abe88d5e352b9956fa70795b673788150ba57f3",
+          "PYQ_hi.txt": "fda677ae1c9ddf34321e19dd0456a19949e51a9b780d9a4129fefb1ea383e813",
+          "Practice_en_Set_01.txt": "11c3a8a92df5188b748c6c201ad9812175f1ace497c26176e793911192cf41f6",
+          "Practice_en_Set_02.txt": "85b9add09830360744f5204ed481f651c0a059a7ab946486e2b193ffb4679bb2",
+          "Practice_en_Set_03.txt": "0a08bac85ac2ca9c540c7eceb7ca574fa6a9b93fc654f1c9d372bb4ca5f0cfc2",
+          "Practice_en_Set_04.txt": "f5179d0b14b88e856d1e78e685af704474ca2519fc69ce3745495d2a9bc2b39b",
+          "Practice_en_Set_05.txt": "d46aa1bb172a0f2e9ef01074ac3c890ff393c364757c4437f1c1493fdc8ebc8e",
+          "Practice_en_Set_06.txt": "b3ace0fab6a7f3dd14208049d391246032672bc5d51bee58b1bc7e2cb7198854",
+          "Practice_hi_Set_01.txt": "e268e6ca812ddd8e3d7fd448c0aa4f68c90be19b805da73978553b85c93dce14",
+          "Practice_hi_Set_02.txt": "d6b7becef703cef658c6f6069a4249b5868938ad34ad96de603a705fb671c1ba",
+          "Practice_hi_Set_03.txt": "108ee8a1123c7a9b93cfdbda2172b991e5d7a57b985bb5ccab960508d996831a",
+          "Practice_hi_Set_04.txt": "9bba7a7186e88811701a890696d32782741dc3223ffd6dce7ea8a4624001dcd0",
+          "Practice_hi_Set_05.txt": "965beca257310e3b25b4a95f30a8883bcd60ec90c0ca673daf29c0b7e606ce35",
+          "Practice_hi_Set_06.txt": "1bf85bf0d138b2ebc08f3902d7cf50f179508b130311a2f77469cf3c6d252a5c",
+          "Short_Tricks_en.txt": "431887f6d4b5e2857a4581fd98db2afee325f495b45072ab56307ff07b84fe52",
+          "Short_Tricks_hi.txt": "244570f28f04cb3bc19e12c76160af86b9fcd3815c800ca9fe9ebc7a8318337b"
+        }
+      },
+      "checked_at": "2026-11-21T07:16:18+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "536a5346a6d8846d191bd39c9a8b2ad87c482cc5da53ee4ebda257d8507ee507",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The claim that the adjective/pronoun test works for possessive \"my/your/his\" is incorrect: \"my\" and \"your\" cannot stand alone as pronouns (only \"his\" can); the possessive pronouns are \"mine, yours, his, hers, ours, theirs\" → The test works for demonstrative and interrogative, but for possessive the pronoun forms differ from the adjective forms."
+      ],
+      "dependencies": {
+        "chapter.json": "604af22f296de10b075c015220544a5e7e1fb3c89d88851d3be645ee9a0cd9bf",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "d27a30f9464aff5e0a9bb53f2a47376ca2e6cdcb182e9a512f7daa238d41e007"
+      },
+      "checked_at": "2026-11-21T07:17:01+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "8f53f1012081d9f863cfab27a4fd70be4fe5e5477d412e3ca67f081b3b4e01d1",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "604af22f296de10b075c015220544a5e7e1fb3c89d88851d3be645ee9a0cd9bf",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "d27a30f9464aff5e0a9bb53f2a47376ca2e6cdcb182e9a512f7daa238d41e007",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T07:17:01+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "29e374e76a0940415804d517ce70d95df7fcc672e66afe56f2adb7725a1d2948",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "604af22f296de10b075c015220544a5e7e1fb3c89d88851d3be645ee9a0cd9bf",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "ed6c3a486a742dd396d6b88690f275fd7aae1e62b8fe5c815ffa6da69c99e9bb"
+      },
+      "checked_at": "2026-11-21T07:18:09+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T07:18:10+00:00",
+  "chapter_fingerprint": "91d9b50eec74fa41e30cbcdbe860c810e7d2ecd42f6c56a6c443dffe4f25d19a"
+}
