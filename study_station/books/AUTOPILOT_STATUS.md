@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 06:05 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 06:06 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,23 +11,23 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 146 मिनट |
-| W10 | Chapter 06 Order Ranking (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W11 | Chapter 05 Direction Sense (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W12 | Chapter 04 Blood Relations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W3 | Chapter 03 Coding Decoding (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W4 | Chapter 07 Sitting Arrangement (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W5 | Chapter 25 Govt Schemes (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W6 | Chapter 01 Analogy (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 42 मिनट |
-| W8 | Chapter 02 Classification (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W9 | Chapter 23 Economic Terms (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 147 मिनट |
+| W10 | Chapter 06 Order Ranking (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W11 | Chapter 05 Direction Sense (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W12 | Chapter 04 Blood Relations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W2 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W3 | Chapter 03 Coding Decoding (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W4 | Chapter 07 Sitting Arrangement (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W5 | Chapter 25 Govt Schemes (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W6 | Chapter 01 Analogy (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 43 मिनट |
+| W8 | Chapter 02 Classification (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 102 |
+| key 3 | 104 |
 | key 4 | 113 |
-| key 5 | 93 |
+| key 5 | 94 |
 | key 6 | 81 |
 
 ## किताबों की प्रगति
@@ -66,13 +66,13 @@
 | 10th English | 0 | 20 | 0 | 0 | 0 | 81/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 104/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 96/1872 |
-| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 67/1950 |
+| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 70/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 50/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 757/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 760/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,12 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 18:01:47   [Analogy] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
-21-11 18:01:47 QA 12th_Level/Reasoning/Chapter_01_Analogy: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- In the "Make a Sentence" trick, Step 2 misstates how to apply the sentence to the second pair. For `A : B :: C : ?`, the sentence built from A and B (e.g., "A knife is used to cut") must be reapplied with C as the subject to find the missing term: "A sword is used to ___." The text incorrectly writes "A ___ is used to cut" and tests options (Paper, Handle, Sword, Sharp) as the subject, which would solve for the first term, not the missing second term. → Step 2 should read: "Say the exact same sentence with C as the subject: \'A sword is used to ___.\' Now check the options for the missing function."']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_01_Analogy/QA.json'}
-21-11 18:01:47 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_25_Govt_Schemes: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: साल 2014। राजस्थान के एक छोटे से गाँव में रामप्यारी बाई के पास न बैंक खाता था, न गैस कनेक्शन, न शौचालय। दस साल बाद उसी गाँव में उसका जन धन खाता है, उज्ज्वला का गैस कनेक्शन है, और पीएम आवास के तहत पक्का घर भी। यह कहानी सिर्फ़ रामप्यारी बाई की नहीं — करोड़ों भारतीयों की है, और यही कहानी आपकी परीक्षा की है।', 'Fetch official supporting evidence for: | जन धन (PMJDY) | 2014 | वित्त | हर घर बैंक खाता |']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- The heading lists "केंद्रीय योजना" and "केंद्रीय क्षेत्र की योजना" as two separate confusing concepts, but they are the same category (Central Sector Scheme). The three distinct scheme types are Central Sector Scheme, Centrally Sponsored Scheme, and State Scheme. → The heading should read: "केंद्रीय क्षेत्र की योजना" बनाम "केंद्र प्रायोजित योजना" बनाम "राज्य योजना" (or "राज्य की योजना").']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_25_Govt_Schemes/QA.json'}
-21-11 18:01:48   [Coding_Decoding] QA needs_reference: sources:Content_hi.txt
-21-11 18:02:00   [Classification] QA passed: editorial:Feynman_en.txt
-21-11 18:02:00   [Classification] QA needs_reference: sources:Feynman_en.txt
 21-11 18:02:17   [Coding_Decoding] QA passed: editorial:Feynman_en.txt
 21-11 18:02:18   [Coding_Decoding] QA needs_reference: sources:Feynman_en.txt
 21-11 18:02:23   [Blood_Relations] QA needs_reference: sources:Content_hi.txt
@@ -126,6 +120,12 @@
 21-11 18:06:17   [Sitting_Arrangement] QA passed: editorial:Feynman_hi.txt
 21-11 18:06:17   [Sitting_Arrangement] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
 21-11 18:06:18 QA 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Circular arrangement rule: "Facing the centre (inward) → their right is clockwise" and the mnemonic "IN-CR, OUT-AR" are incorrect; for inward facing, right is anti-clockwise and left is clockwise, while for outward facing, right is clockwise and left is anti-clockwise (correct mnemonic: "IN-AR, OUT-CR"). This error appears in Chunk 2, Chunk 3, and the Summary Table.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_07_Sitting_Arrangement/QA.json'}
+21-11 18:06:39   [Puzzles] QA passed: editorial:Feynman_en.txt
+21-11 18:06:46   [Puzzles] QA needs_reference: sources:Feynman_en.txt
+21-11 18:06:47   [Venn_Diagrams] QA needs_reference: sources:Content_hi.txt
+21-11 18:06:59   [Puzzles] QA passed: editorial:Feynman_hi.txt
+21-11 18:06:59   [Puzzles] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
+21-11 18:07:00 QA 12th_Level/Reasoning/Chapter_08_Puzzles: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_08_Puzzles/QA.json'}
 ````
 
 </details>

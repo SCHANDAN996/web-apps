@@ -107,11 +107,71 @@
         "Content_hi.txt": "794569948c3ba6f7753a3c37fd3a4d81bea1be5108360ec31daf9d01768216c1"
       },
       "checked_at": "2026-11-21T08:27:53+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "02de0e0beb97f3913ae776cd5bb009312ea92d675a847f7a0c9439a47ae8466f",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "666f7072d077aa05951c0189d5ea354333e22fb4cc74ddb4978387ae683ab008",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "794569948c3ba6f7753a3c37fd3a4d81bea1be5108360ec31daf9d01768216c1",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:29:52+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "5757661aad284f2b298c3d628f0dc1e1c6965440a41348258c758ace2794034a",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- In the \"Make a Sentence\" trick, Step 2 misstates how to apply the sentence to the second pair. For `A : B :: C : ?`, the sentence built from A and B (e.g., \"A knife is used to cut\") must be reapplied with C as the subject to find the missing term: \"A sword is used to ___.\" The text incorrectly writes \"A ___ is used to cut\" and tests options (Paper, Handle, Sword, Sharp) as the subject, which would solve for the first term, not the missing second term. → Step 2 should read: \"Say the exact same sentence with C as the subject: 'A sword is used to ___.' Now check the options for the missing function.\""
+      ],
+      "dependencies": {
+        "chapter.json": "666f7072d077aa05951c0189d5ea354333e22fb4cc74ddb4978387ae683ab008",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "526cdd57a5f0f893272b383cb1cfbd5e60502175163ea977a0e67c80983dec3a"
+      },
+      "checked_at": "2026-11-21T12:30:48+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "b8c67bd4ff1d889477b574cdeaf1a1140d4d9e70d449e7cfc48aed1b44506927",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "666f7072d077aa05951c0189d5ea354333e22fb4cc74ddb4978387ae683ab008",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "526cdd57a5f0f893272b383cb1cfbd5e60502175163ea977a0e67c80983dec3a",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:30:48+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "2a52fa0af4da31f4b2272d13811d10f198f6e3f87ccab8eac003f87a6784b959",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "666f7072d077aa05951c0189d5ea354333e22fb4cc74ddb4978387ae683ab008",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "1eb921db5a32aa80ec1c3e15acd66e3a23b782276876a3446ac8df73346ebeb2"
+      },
+      "checked_at": "2026-11-21T12:31:41+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T08:27:53+00:00",
+  "updated_at": "2026-11-21T12:31:41+00:00",
   "chapter_fingerprint": "78b00470c6e2de3264c9d2e50bee97f15d300f044415d51facd6f5528fa364e8"
 }
