@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 11:36 AM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 11:37 AM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,25 +11,25 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 45 मिनट |
-| W10 | Chapter 12 Biology (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W11 | Chapter 11 Chemistry (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W12 | Chapter 08 World Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W2 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 45 मिनट |
-| W4 | Chapter 07 States Rivers (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W5 | Chapter 10 Physics Daily (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W6 | Chapter 17 apathit gadyansh (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 16 मिनट |
-| W7 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 17 मिनट |
-| W8 | Chapter 09 Economy Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W9 | Chapter 06 Physical Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 46 मिनट |
+| W10 | Chapter 12 Biology (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W11 | Chapter 11 Chemistry (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W12 | Chapter 08 World Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W2 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 46 मिनट |
+| W4 | Chapter 13 Awards (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W5 | Chapter 10 Physics Daily (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W6 | Chapter 17 apathit gadyansh (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 17 मिनट |
+| W7 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 18 मिनट |
+| W8 | Chapter 09 Economy Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W9 | Chapter 06 Physical Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 21 |
-| key 4 | 29 |
+| key 4 | 30 |
 | key 5 | 31 |
-| key 6 | 9 |
+| key 6 | 10 |
 
 ## किताबों की प्रगति
 
@@ -61,7 +61,7 @@
 |---|---:|---:|---:|---:|---:|---:|
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 29/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 29/1092 |
-| 10th GK | 0 | 19 | 0 | 0 | 0 | 18/1482 |
+| 10th GK | 0 | 19 | 0 | 0 | 0 | 21/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 0/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 0/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 0/1622 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 76/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 79/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,10 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 11:25:39   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q88 key b vs re-solve a)
-21-11 11:26:19   [Polity] QA blocked: editorial:Content_en.txt
-21-11 11:26:19   [Polity] QA needs_reference: sources:Content_en.txt
-21-11 11:26:53   [States_Rivers] QA passed: structure
 21-11 11:27:06   [Modern_History] QA passed: editorial:Content_hi.txt
 21-11 11:27:06   [Modern_History] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
 21-11 11:27:06 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_03_Modern_History: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- "By the early 1700s, the French under Dupleix and the English under Clive were locked in the Carnatic Wars." → The Carnatic Wars took place in the mid-1700s (1740s–1760s), not the early 1700s.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_03_Modern_History/QA.json'}
@@ -123,6 +119,10 @@
 21-11 11:36:32 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_07_States_Rivers: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: UT capitals: Lakshadweep – Kavaratti | Andaman & Nicobar – Sri Vijaya Puram (renamed from Port Blair in September 2024) | Puducherry – Puducherry | Dadra & Nagar Haveli and Daman & Diu – Daman.', 'Fetch official supporting evidence for: Andaman & Nicobar: the capital Port Blair was renamed Sri Vijaya Puram in September 2024.']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Fabricated future claim: "सिंधु जल संधि (1960): पहलगाम आतंकी हमले के बाद 23 अप्रैल 2025 को भारत ने घोषणा की कि यह संधि स्थगित (abeyance में) रखी जा रही है।" → As of 2024, the Indus Water Treaty remains in force; no such abeyance announcement was made on 23 April 2025 (a future date presented as fact).']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_07_States_Rivers/QA.json'}
 21-11 11:37:05   [Biology] QA passed: editorial:Content_en.txt
 21-11 11:37:05   [Biology] QA needs_reference: sources:Content_en.txt
+21-11 11:37:31   [Awards] QA passed: structure
+21-11 11:37:38   [World_Geography] QA passed: editorial:Content_hi.txt
+21-11 11:37:38   [World_Geography] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
+21-11 11:37:38 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_08_World_Geography: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_08_World_Geography/QA.json'}
 ````
 
 </details>
