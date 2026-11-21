@@ -1,35 +1,34 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 04:17 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 04:18 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 38 मिनट |
-| W10 | Chapter 15 Days Dates (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W11 | Chapter 17 Culture Art (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W12 | Chapter 11 Chemistry (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 38 मिनट |
-| W3 | Chapter 10 Physics Daily (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W4 | Chapter 13 Awards (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W5 | Chapter 03 Modern History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
-| W6 | Chapter 16 Books Authors (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W7 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
-| W8 | Chapter 12 Biology (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W9 | Chapter 14 Sports (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 39 मिनट |
+| W10 | Chapter 15 Days Dates (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W11 | Chapter 17 Culture Art (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W12 | Chapter 11 Chemistry (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 39 मिनट |
+| W3 | Chapter 10 Physics Daily (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W4 | Chapter 13 Awards (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W6 | Chapter 16 Books Authors (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W7 | Chapter 18 Science Tech (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W8 | Chapter 12 Biology (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W9 | Chapter 14 Sports (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 21 |
-| key 4 | 38 |
+| key 3 | 22 |
+| key 4 | 39 |
 | key 5 | 31 |
-| key 6 | 11 |
+| key 6 | 12 |
 
 ## किताबों की प्रगति
 
@@ -61,7 +60,7 @@
 |---|---:|---:|---:|---:|---:|---:|
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 48/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 52/1092 |
-| 10th GK | 0 | 19 | 0 | 0 | 0 | 68/1482 |
+| 10th GK | 0 | 19 | 0 | 0 | 0 | 71/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
@@ -73,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 555/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 558/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,10 +82,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 16:14:03   [Physics_Daily] QA needs_reference: sources:Content_hi.txt
-21-11 16:14:36   [Sports] QA needs_reference: sources:Content_hi.txt
-21-11 16:14:40   [World_Geography] QA passed: editorial:Feynman_hi.txt
-21-11 16:14:40   [World_Geography] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
 21-11 16:14:40 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_08_World_Geography: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_08_World_Geography/QA.json'}
 21-11 16:14:56   [Medieval_History] QA passed: editorial:Feynman_hi.txt
 21-11 16:14:56   [Medieval_History] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
@@ -123,6 +118,10 @@
 21-11 16:18:06 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_17_Culture_Art: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: Natural sites: Kaziranga, Manas, Keoladeo (all 1985), Sundarbans (1987), Nanda Devi and Valley of Flowers (1988), Western Ghats (2012), Great Himalayan National Park (2014).']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_17_Culture_Art/QA.json'}
 21-11 16:18:22   [Science_Tech] QA passed: editorial:Feynman_en.txt
 21-11 16:18:22   [Science_Tech] QA needs_reference: sources:Feynman_en.txt
+21-11 16:18:42   [Science_Tech] QA passed: editorial:Feynman_hi.txt
+21-11 16:18:52   [Science_Tech] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
+21-11 16:18:53 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_18_Science_Tech: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_18_Science_Tech/QA.json'}
+21-11 16:18:53   [Environment] QA needs_reference: sources:Content_hi.txt
 ````
 
 </details>
