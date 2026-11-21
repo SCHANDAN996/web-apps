@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 04:57 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 04:58 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 79 मिनट |
-| W10 | Chapter 13 Mixture Alligation (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W11 | Chapter 12 Time Distance (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W12 | Chapter 20 Number Series (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W2 | Chapter 16 Algebra (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W3 | Chapter 21 Probability (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W5 | Chapter 17 Data Interpretation (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W6 | Chapter 18 Trigonometry (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W7 | Chapter 15 Geometry (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W8 | Chapter 19 Statistics (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W9 | Chapter 14 Mensuration (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 80 मिनट |
+| W10 | Chapter 13 Mixture Alligation (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W12 | Chapter 20 Number Series (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W2 | Chapter 16 Algebra (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W3 | Chapter 21 Probability (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W4 | Chapter 22 Permutation Combination (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W5 | Chapter 17 Data Interpretation (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W6 | Chapter 18 Trigonometry (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W7 | Chapter 15 Geometry (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W8 | Chapter 19 Statistics (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W9 | Chapter 14 Mensuration (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 51 |
-| key 4 | 69 |
+| key 3 | 52 |
+| key 4 | 70 |
 | key 5 | 50 |
-| key 6 | 42 |
+| key 6 | 43 |
 
 ## किताबों की प्रगति
 
@@ -62,7 +62,7 @@
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 52/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 76/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 83/1716 |
-| 10th Maths | 0 | 22 | 0 | 0 | 0 | 99/1606 |
+| 10th Maths | 0 | 22 | 0 | 0 | 0 | 100/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
@@ -72,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 634/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 635/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,12 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 16:53:42   [Algebra] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 73, "passed": 4, "pending": 65, "blocked": 1, "needs_reference": 3, "remaining": 69, 
-21-11 16:53:43 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_16_Algebra: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 4, 'pending': 65, 'blocked': 1, 'needs_reference': 3, 'remaining': 69, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ["- Hindi transliteration 'Fenman' in title does not match English 'Feynman' → Use standard transliteration 'फेनमैन' or 'फाइनमैन'"]}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_16_Algebra/QA.json'}
-21-11 16:53:43   [Data_Interpretation] QA needs_reference: sources:Content_hi.txt
-21-11 16:53:45   [Geometry] QA passed: editorial:Feynman_en.txt
-21-11 16:53:45   [Geometry] QA needs_reference: sources:Feynman_en.txt
-21-11 16:54:21   [Data_Interpretation] QA passed: editorial:Feynman_en.txt
 21-11 16:54:23   [Geometry] QA blocked: editorial:Feynman_hi.txt
 21-11 16:54:40   [Geometry] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 73, "passed": 4, "pending": 65, "blocked": 1, "needs_reference": 3, "remaining": 69, 
 21-11 16:54:40   [Data_Interpretation] QA needs_reference: sources:Feynman_en.txt
@@ -126,6 +120,12 @@
 21-11 16:58:14   [Permutation_Combination] QA needs_reference: sources:Content_hi.txt
 21-11 16:58:32   [Permutation_Combination] QA passed: editorial:Feynman_en.txt
 21-11 16:58:32   [Permutation_Combination] QA needs_reference: sources:Feynman_en.txt
+21-11 16:58:48   [Noun] QA needs_reference: sources:Content_hi.txt
+21-11 16:58:56   [Permutation_Combination] QA blocked: editorial:Feynman_hi.txt
+21-11 16:58:56   [Permutation_Combination] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 73, "passed": 4, "pending": 65, "blocked": 1, "needs_reference": 3, "remaining": 69, 
+21-11 16:58:56 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_22_Permutation_Combination: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 4, 'pending': 65, 'blocked': 1, 'needs_reference': 3, 'remaining': 69, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ["- 'संचय' का प्रयोग संयोजन (Combination) के लिए गलत है → सही शब्द 'संयोजन' होना चाहिए"]}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_22_Permutation_Combination/QA.json'}
+21-11 16:59:20   [Noun] QA blocked: editorial:Feynman_en.txt
+21-11 16:59:21   [Noun] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>
