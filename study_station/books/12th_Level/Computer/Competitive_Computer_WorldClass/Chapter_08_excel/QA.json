@@ -110,11 +110,72 @@
         "Content_hi.txt": "41882fac8dd2d5b340cb92d9e137d58caa37b218cc49a50e4fdb7811270176f8"
       },
       "checked_at": "2026-11-21T05:43:52+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "17fcf0d664f5c12dc9aa49314e0f98fc5b20ce51451764852133ed12f500e3dc",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "b1b79322c7647de0841318570e97ba0a52c64e6f35b659e3d07b648127d7c719",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "41882fac8dd2d5b340cb92d9e137d58caa37b218cc49a50e4fdb7811270176f8",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:18:54+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "025b453e2018d47bdb1506cef92adf85454cdbcdddda8182e919d8efa5936682",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- In Core Concepts #7, the shortcut for current time is listed as `Ctrl+Shift+:` → should be `Ctrl+Shift+;` (semicolon)",
+        "- In Recall Question 5 explanation, the shortcut for current time is listed as `Ctrl+Shift+:` → should be `Ctrl+Shift+;` (semicolon)"
+      ],
+      "dependencies": {
+        "chapter.json": "b1b79322c7647de0841318570e97ba0a52c64e6f35b659e3d07b648127d7c719",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "13dc481a2ceacf6f3c8257565b1717c9f574964c023e6450997fb076aa8be143"
+      },
+      "checked_at": "2026-11-21T10:20:17+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "544feeee4e60a0c616ac22352019f87b861ab357169cf870b428c8f622f22534",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "b1b79322c7647de0841318570e97ba0a52c64e6f35b659e3d07b648127d7c719",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "13dc481a2ceacf6f3c8257565b1717c9f574964c023e6450997fb076aa8be143",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:20:17+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "d0155458a7315552eb4e5d999169352de19f8c02855ea7dcea2c748cda0ec303",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "b1b79322c7647de0841318570e97ba0a52c64e6f35b659e3d07b648127d7c719",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "c22df347aaa2a53d3e0cb6f5420f1be33789dfd4b4e8cfb1f79d67a68d634815"
+      },
+      "checked_at": "2026-11-21T10:20:56+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T05:43:52+00:00",
+  "updated_at": "2026-11-21T10:20:56+00:00",
   "chapter_fingerprint": "3ba2ef019f07b0aab02a6082898d5dc6af88cb0a02112fa60f8ea041892d5927"
 }
