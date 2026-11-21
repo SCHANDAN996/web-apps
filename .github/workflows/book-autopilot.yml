@@ -96,13 +96,13 @@ jobs:
           NVIDIA_MIN_INTERVAL_SECONDS: '15'
           NVIDIA_ACCOUNT_MIN_INTERVAL_SECONDS: '20'
           NVIDIA_MAX_INFLIGHT_PER_KEY: '1'
-          BOOKGEN_RATE_POLICY: parallel-v5
+          BOOKGEN_RATE_POLICY: parallel-v6
           PYTHONUNBUFFERED: '1'
         run: |
           git config user.name "study-station-book-autopilot"
           git config user.email "211449723+SCHANDAN996@users.noreply.github.com"
           mkdir -p ../books/autopilot
-          python tools/book_autopilot.py --workers 12 --max-fails 4 \
+          python tools/book_autopilot.py --workers 12 --max-fails 4 --continuous-qa --qa-workers 3 --qa-checks 4 \
             --name "twelve-chapters" --status-file "AUTOPILOT_STATUS.md" \
             --branch "$BOOKS_BRANCH" --state-dir "$RUNNER_TEMP/autopilot" --stop-new-after 240
       - name: Pack unfinished work

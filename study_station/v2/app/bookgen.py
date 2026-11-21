@@ -1014,7 +1014,7 @@ def request_legacy_autopilot_rollover(out=print):
     Only the known legacy Actions state directory is signalled; new and manual runs are unaffected.
     """
     cache = os.environ.get('BOOKGEN_REVIEW_CACHE')
-    current = os.environ.get('BOOKGEN_HINDI_ONLY') == '1' and os.environ.get('BOOKGEN_RATE_POLICY') == 'parallel-v5'
+    current = os.environ.get('BOOKGEN_HINDI_ONLY') == '1' and os.environ.get('BOOKGEN_RATE_POLICY') == 'parallel-v6'
     if os.environ.get('GITHUB_ACTIONS') != 'true' or current or not cache:
         return False
     path = Path(cache)

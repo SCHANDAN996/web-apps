@@ -53,10 +53,11 @@ class Pilot:
         self.state_dir = Path(args.state_dir).expanduser()
         self.state_dir.mkdir(parents=True, exist_ok=True)
         self.stop_file = Path(args.stop_file).expanduser() if args.stop_file else self.state_dir / 'STOP'
-        self.lock = threading.Lock()
+        self.lock = threading.RLock()
         self.git_lock_path = self.state_dir / 'git.lock'
         self.state = self._load()
         self.claimed = set()
+        self.qa_jobs = set()
         self.t_start = time.time()
         # Parallel runs (CI matrix) each keep their own status page so their pushes never conflict.
         self.status_file = (bookcheck.BOOKS_ROOT / args.status_file) if getattr(args, 'status_file', None) \
@@ -111,35 +112,41 @@ class Pilot:
         return any(msg.strip() and 'bookgen autopilot' not in msg and 'Books bootstrap:' not in msg for msg in r.stdout.split('\x00'))
 
     def uncommitted(self, ch):
-        return bool(self.git('status', '--porcelain', '--', str(ch.relative_to(REPO)), check=False).stdout.strip())
+        rel = str(ch.relative_to(REPO))
+        return bool(self.git('status', '--porcelain', '--', rel,
+                             f':!{rel}/QA.json', check=False).stdout.strip())
 
-    def commit(self, ch, summary, audited=False):
+    def commit(self, ch, summary, audited=False, qa=False):
         rel = ch.relative_to(REPO)
         key = str(ch.relative_to(bookcheck.BOOKS_ROOT))
 
         def do():
             self.write_status()
             extra = [str(self.status_file.relative_to(REPO))]
+            paths = ([str(rel / name) for name in ('QA.json', 'QA.references.json') if (ch / name).is_file()]
+                     if qa else [str(rel)])
             if audited:                                              # this chapter's audit is done: drop its line
                 lines = AUDIT_FILE.read_text(encoding='utf-8').splitlines()
                 AUDIT_FILE.write_text(''.join(l + '\n' for l in lines if l.split('#')[0].strip().rstrip('/') != key),
                                       encoding='utf-8')
                 extra.append(str(AUDIT_FILE.relative_to(REPO)))
-            self.git('add', '--', str(rel), *extra)
+            self.git('add', '--', *paths, *extra)
             staged = self.git('diff', '--cached', '--name-only').stdout.split()
             if not staged:
                 return 'nothing to commit'
-            outside = [p for p in staged if not p.startswith(str(rel) + '/') and p not in extra]
+            outside = [p for p in staged if (p not in paths if qa else not p.startswith(str(rel) + '/')) and p not in extra]
             if outside:
                 self.git('reset', '-q', '--', *outside)
             how = ('every practice key re-checked (independent re-solve; seating/ordering puzzles also by a solver '
                    'program),\nfailing sets rewritten' if audited else
                    'Written with bookgen (NVIDIA); practice keys confirmed by an independent re-solve')
-            msg = (f'Books: {summary} ({"audited" if audited else "draft"}, bookcheck OK, bookgen autopilot)\n\n'
-                   f'{how};\nevery changed section read by an independent reviewer model before publishing.\n\n'
+            if qa:
+                how = 'Incremental QA evidence saved; consult QA.json for exact checks, pending work and blockers.'
+            msg = (f'Books: {summary} ({"QA checkpoint; not publication approval" if qa else "audited" if audited else "draft"}, bookgen autopilot)\n\n'
+                   f'{how}\n\n'
                    'Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\n'
                    'Claude-Session: https://claude.ai/code/session_01NkSvMYCcJQMogjnRs94E6r')
-            self.git('commit', '-q', '-m', msg, '--', str(rel), *extra)
+            self.git('commit', '-q', '-m', msg, '--', *paths, *extra)
             for wait in (2, 4, 8, 16, None):
                 r = self.git('push', '-q', 'origin', f'HEAD:{self.args.branch}', check=False)
                 if r.returncode == 0:
@@ -172,7 +179,42 @@ class Pilot:
                 if ch.is_dir() and not bookcheck.is_dynamic(ch):
                     yield ch
 
+    def next_qa_job(self):
+        """One shared chapter claim protects writing and incremental QA from each other."""
+        if not getattr(self.args, 'continuous_qa', False):
+            return None
+        from app import bookqa
+        if self.args.stop_new_after and time.time() - self.t_start > self.args.stop_new_after * 60:
+            return None
+        skip = self.manual_chapters()
+        chapters = sorted(self.chapters(), key=lambda ch: self.state.get('qa_last', {}).get(
+            str(ch.relative_to(bookcheck.BOOKS_ROOT)), 0))
+        with self.lock:
+            for ch in chapters:
+                key = str(ch.relative_to(bookcheck.BOOKS_ROOT))
+                if key in skip or key in self.claimed:
+                    continue
+                if time.time() < self.state.get('qa_retry_after', {}).get(key, 0):
+                    continue
+                if self.state.get('qa_errors', {}).get(key, 0) >= self.args.max_fails:
+                    continue
+                if bookcheck.chapter_status(ch)[0] != 'OK' or self.uncommitted(ch):
+                    continue
+                if not bookqa.needs_qa(ch) or self.taken_by_other(ch):
+                    continue
+                self.claimed.add(key)
+                self.qa_jobs.add(key)
+                return ch, key
+        return None
+
     def next_job(self):
+        # Reserve a few of the existing workers for QA; all may borrow the other queue when idle.
+        name = threading.current_thread().name
+        number = int(name[1:]) if name.startswith('W') and name[1:].isdigit() else 0
+        prefer_qa = (getattr(self.args, 'continuous_qa', False) and
+                     number > self.args.workers - getattr(self.args, 'qa_workers', 3))
+        if prefer_qa and (job := self.next_qa_job()):
+            return job
         if self.args.stop_new_after and time.time() - self.t_start > self.args.stop_new_after * 60:
             return None                                      # time budget: finish running chapters, start none
         skip = self.manual_chapters()
@@ -196,7 +238,7 @@ class Pilot:
                     continue
                 self.claimed.add(key)
                 return ch, key
-        return None
+        return self.next_qa_job()
 
     def manual_chapters(self):
         """Chapters the owner/Claude finish by hand: one books-relative chapter path per line in
@@ -219,6 +261,9 @@ class Pilot:
 
     def bookgen(self, ch, *extra):
         cmd = [sys.executable, '-m', 'app.bookgen', '--chapter', str(ch), *extra]
+        if extra == ('--qa',):
+            cmd = [sys.executable, '-m', 'app.bookqa', '--chapter', str(ch), '--max-checks',
+                   str(getattr(self.args, 'qa_checks', 4))]
         # Every worker gets the full active pool; NVIDIA selects a free key for each request.
         env = {**os.environ, 'BOOKGEN_REVIEW_CACHE': str(self.state_dir / 'reviewed.json'),
                'BOOKGEN_HINDI_ONLY': '1',  # this parent has the Hindi-only completion checker loaded
@@ -239,7 +284,7 @@ class Pilot:
                 lines.append(line)
                 self.log(f'  [{short}] {line.strip()[:150]}')
         bad = [l for l in lines if l.startswith(('FAILED', 'REJECTED', 'stopping', 'Traceback'))]
-        if proc.returncode and not bad and '--review' in extra:
+        if proc.returncode and not bad and any(flag in extra for flag in ('--review', '--qa')):
             bad = [f'bookgen exit code {proc.returncode}']              # never publish an unfinished review
         return lines, bad
 
@@ -315,16 +360,52 @@ class Pilot:
             ch, key = job
             self.step(key, 'pick')
             try:
-                self.work(ch, key)
+                if key in getattr(self, 'qa_jobs', set()):
+                    self.work_qa(ch, key)
+                else:
+                    self.work(ch, key)
             except Exception as e:                                   # keep the other chapters going
-                self.record_failure(key)
+                if key in getattr(self, 'qa_jobs', set()):
+                    with self.lock:
+                        self.state.setdefault('qa_retry_after', {})[key] = time.time() + 1800
+                        errors = self.state.setdefault('qa_errors', {})
+                        errors[key] = errors.get(key, 0) + 1
+                        self.save()
+                    # A crash may still have produced valid per-check checkpoints.
+                    if (ch / 'QA.json').is_file():
+                        try:
+                            self.commit(ch, f'QA interrupted {key}', qa=True)
+                        except Exception:
+                            pass
+                else:
+                    self.record_failure(key)
                 self.log(f'ERROR {key}: {type(e).__name__}: {str(e)[:200]}')
             finally:
                 with self.lock:
                     self.current.pop(threading.current_thread().name, None)
                     if not self.args.dry_run:                        # dry run: list each chapter once
                         self.claimed.discard(key)
+                        getattr(self, 'qa_jobs', set()).discard(key)
         self.log(f'worker {n}: stop file found — stopping')
+
+    def work_qa(self, ch, key):
+        self.step(key, 'audit')
+        if self.args.dry_run:
+            self.log(f'QA would inspect {key}')
+            return
+        lines, bad = self.bookgen(ch, '--qa')
+        from app import bookqa
+        result = bookqa.summary(ch)
+        self.log(f'QA {key}: {result}')
+        # Persist partial success and blocked findings too; these are never chapter approvals.
+        self.commit(ch, f'QA {key}', qa=True)
+        with self.lock:
+            self.state.setdefault('qa_last', {})[key] = time.time()
+            self.state.setdefault('qa_retry_after', {})[key] = time.time() + (1800 if bad else 0)
+            if bad:
+                errors = self.state.setdefault('qa_errors', {})
+                errors[key] = errors.get(key, 0) + 1
+            self.save()
 
     def run(self):
         if not os.environ.get('NVIDIA_API_KEY') and not self.args.dry_run:
@@ -418,6 +499,13 @@ class Pilot:
             name = str(book.relative_to(bookcheck.BOOKS_ROOT)).replace('_Level', '').split('/')
             out.append(f"| {name[0]} {name[1]} | {c['OK']} | {c['FIX']} | {c['TODO']} |")
         out.append(f"| **कुल** | **{total['OK']}** | **{total['FIX']}** | **{total['TODO']}** |")
+        if getattr(self.args, 'continuous_qa', False):
+            from app import bookqa
+            qa_counts = Counter(bookqa.summary(ch).get('status', 'pending') for ch in self.chapters())
+            out += ['', '## 🔎 अंतिम QA की अलग स्थिति', '',
+                    'यह लेखन से अलग जाँच है। AI pass, स्रोत प्रमाण और मानव स्वीकृति अलग हैं।', '',
+                    '| QA स्थिति | अध्याय |', '|---|---|']
+            out += [f'| {status} | {count} |' for status, count in sorted(qa_counts.items())]
         recent = sorted(done_at.items(), key=lambda kv: kv[1], reverse=True)[:15]
         out += ['', '## ✅ autopilot से हाल में पूरे हुए', '']
         out += [f"- {t} — {k.split('/')[0].replace('_Level', '')} {k.split('/')[1]} · {k.split('/')[-1].replace('_', ' ')}"
@@ -474,6 +562,9 @@ def main():
     p.add_argument('--retry-delay', type=int, default=30,
                    help='wait this many minutes before retrying a failed chapter; other chapters can continue')
     p.add_argument('--dry-run', action='store_true')
+    p.add_argument('--continuous-qa', action='store_true', help='incremental hash-bound QA for every completed chapter')
+    p.add_argument('--qa-workers', type=int, default=3, help='workers preferring QA within the existing worker total')
+    p.add_argument('--qa-checks', type=int, default=4, help='maximum QA checks per chapter slice')
     return Pilot(p.parse_args()).run()
 
 
