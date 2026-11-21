@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "dc4d1aca99e06cc71e1e33b57c6f31f174bbf818e634989578440b447046a257",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "3d034cc2195526ae1310788058019e44d053816d5a89e5f509dd15fcc2b8ed45",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "2d2e93beb8498aff7e419036c01bbdad55a8af0709d0899314dad98af53f638e",
+        "Content_hi.txt": "872527e6d7abc9e6c070c762350ef2b83e6461ddc1e0528901c83da203850899",
+        "Feynman_en.txt": "0ee95048a381f988592c8f4d36ccfaa6ec271dee669f160a7b5ebe56e3f342e7",
+        "Feynman_hi.txt": "28897834003875b72266e60cce9bd2ade2ea36c86f5a06d77c01c95f568e505e",
+        "Flashcards_en.txt": "749fca2a4ad7d0a07d7b78fbe909c6d9bbdcfbd6cb4cb5232779bfb2eee054f0",
+        "Flashcards_hi.txt": "f349a7ee6918525568b5fbb569f121f0fa77e754e218d12a1240c4e8e707a2dc",
+        "Important_Formulas_en.txt": "66ab660dcbe419213b6c8956ee4d4450e7c0643f72fb7d29c71f1b745b21a1bb",
+        "Important_Formulas_hi.txt": "24b63a33d2c8f066d66fd60f9554fc3fd64b98c9d7840ce780c4a31556da962f",
+        "Mind_Map.txt": "ed72483778d59a883fcd0c2fd7773900dd4ac18ccb58f7dd55e68dabaf5bd6f9",
+        "PYQ_en.txt": "1912e30f8fe40a4d2ae1974b61670dcdd9545eaed643086addc3f054124cedc1",
+        "PYQ_hi.txt": "10db05144c57f75a7b6fa4b7a132d1e56d5787d378683cf6bc2deb0cc7db7414",
+        "Practice_en_Set_01.txt": "eb0fd6aa3c4e20ee0a6a96d4be3240646b92bdd73388c111d815c7767544c686",
+        "Practice_en_Set_02.txt": "81a75bd6c04f773e1d46445c9990548aa0e009e24fe83d03e39fa5de97a2c675",
+        "Practice_en_Set_03.txt": "980e8b6ed1fcda538b5e3dc439abe4e1e7384c3671271b051bc03ca957f46ee5",
+        "Practice_en_Set_04.txt": "1ad6ad321809c4fda2b97e92082f85cfd308cf40c65fa90ef512fe9e2c2181dd",
+        "Practice_en_Set_05.txt": "234dedc69e899402c7c5999b792abf1a991619f1bbea0656676545f4080e59a1",
+        "Practice_en_Set_06.txt": "f00c76e7f21bd1ef03e803000efb4edb521cad78f54f63aae0b93d62a6b32705",
+        "Practice_hi_Set_01.txt": "948a46fe765d5f19cf924351c7f9b4a3f2e050f436fd6dab46c12838a198004f",
+        "Practice_hi_Set_02.txt": "42b49b7332f48ca288a1a4f22ec72bc0bad10c09b7995ca171dd11f05bcd7325",
+        "Practice_hi_Set_03.txt": "10622d2261a2eb86b16b6ab0b659e4506a0caa7df605200983dd0a9312d33eda",
+        "Practice_hi_Set_04.txt": "b6de3d8febd36bd2729bd9114e1d5e5415950ad35430aa437b4634d0c38aab55",
+        "Practice_hi_Set_05.txt": "cb43028b703253995ab23c1aa10bd7b0c779cb44a7a0c78930567df2c31cb7d8",
+        "Practice_hi_Set_06.txt": "f6e95067e7cc5804c028fa8dab0f84accce072df4c4f447013c8bea8f4e96d6c",
+        "Short_Tricks_en.txt": "b3a164518bf00f8ea30c4910b6d817c0a3e882e4d478f90b5ea6965a7d36bee0",
+        "Short_Tricks_hi.txt": "09a0581bfbbe975ecc8f5fa40278d320779fc80f7943cb5b2971f84cf8e17e67",
+        "inventory": {
+          "Content_en.txt": "2d2e93beb8498aff7e419036c01bbdad55a8af0709d0899314dad98af53f638e",
+          "Content_hi.txt": "872527e6d7abc9e6c070c762350ef2b83e6461ddc1e0528901c83da203850899",
+          "Feynman_en.txt": "0ee95048a381f988592c8f4d36ccfaa6ec271dee669f160a7b5ebe56e3f342e7",
+          "Feynman_hi.txt": "28897834003875b72266e60cce9bd2ade2ea36c86f5a06d77c01c95f568e505e",
+          "Flashcards_en.txt": "749fca2a4ad7d0a07d7b78fbe909c6d9bbdcfbd6cb4cb5232779bfb2eee054f0",
+          "Flashcards_hi.txt": "f349a7ee6918525568b5fbb569f121f0fa77e754e218d12a1240c4e8e707a2dc",
+          "Important_Formulas_en.txt": "66ab660dcbe419213b6c8956ee4d4450e7c0643f72fb7d29c71f1b745b21a1bb",
+          "Important_Formulas_hi.txt": "24b63a33d2c8f066d66fd60f9554fc3fd64b98c9d7840ce780c4a31556da962f",
+          "Mind_Map.txt": "ed72483778d59a883fcd0c2fd7773900dd4ac18ccb58f7dd55e68dabaf5bd6f9",
+          "PYQ_en.txt": "1912e30f8fe40a4d2ae1974b61670dcdd9545eaed643086addc3f054124cedc1",
+          "PYQ_hi.txt": "10db05144c57f75a7b6fa4b7a132d1e56d5787d378683cf6bc2deb0cc7db7414",
+          "Practice_en_Set_01.txt": "eb0fd6aa3c4e20ee0a6a96d4be3240646b92bdd73388c111d815c7767544c686",
+          "Practice_en_Set_02.txt": "81a75bd6c04f773e1d46445c9990548aa0e009e24fe83d03e39fa5de97a2c675",
+          "Practice_en_Set_03.txt": "980e8b6ed1fcda538b5e3dc439abe4e1e7384c3671271b051bc03ca957f46ee5",
+          "Practice_en_Set_04.txt": "1ad6ad321809c4fda2b97e92082f85cfd308cf40c65fa90ef512fe9e2c2181dd",
+          "Practice_en_Set_05.txt": "234dedc69e899402c7c5999b792abf1a991619f1bbea0656676545f4080e59a1",
+          "Practice_en_Set_06.txt": "f00c76e7f21bd1ef03e803000efb4edb521cad78f54f63aae0b93d62a6b32705",
+          "Practice_hi_Set_01.txt": "948a46fe765d5f19cf924351c7f9b4a3f2e050f436fd6dab46c12838a198004f",
+          "Practice_hi_Set_02.txt": "42b49b7332f48ca288a1a4f22ec72bc0bad10c09b7995ca171dd11f05bcd7325",
+          "Practice_hi_Set_03.txt": "10622d2261a2eb86b16b6ab0b659e4506a0caa7df605200983dd0a9312d33eda",
+          "Practice_hi_Set_04.txt": "b6de3d8febd36bd2729bd9114e1d5e5415950ad35430aa437b4634d0c38aab55",
+          "Practice_hi_Set_05.txt": "cb43028b703253995ab23c1aa10bd7b0c779cb44a7a0c78930567df2c31cb7d8",
+          "Practice_hi_Set_06.txt": "f6e95067e7cc5804c028fa8dab0f84accce072df4c4f447013c8bea8f4e96d6c",
+          "Short_Tricks_en.txt": "b3a164518bf00f8ea30c4910b6d817c0a3e882e4d478f90b5ea6965a7d36bee0",
+          "Short_Tricks_hi.txt": "09a0581bfbbe975ecc8f5fa40278d320779fc80f7943cb5b2971f84cf8e17e67"
+        }
+      },
+      "checked_at": "2026-11-21T13:28:51+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "abbf4adb0e38c2467b1dafff6129f0afe6cd079b46e0a6915a47877615729b42",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Hook title \"A Lost Ship and a Genius in Bed\" mismatches the fly-on-ceiling story → Use a title referencing the fly, e.g., \"A Fly on the Ceiling and a Genius in Bed\".",
+        "- Hook claims Descartes' fly insight occurred in 1637; the anecdote is traditionally dated to 1619, while 1637 is the publication year of *La Géométrie* → Correct the date to 1619 or note that 1637 is the publication year."
+      ],
+      "dependencies": {
+        "chapter.json": "3d034cc2195526ae1310788058019e44d053816d5a89e5f509dd15fcc2b8ed45",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "2d2e93beb8498aff7e419036c01bbdad55a8af0709d0899314dad98af53f638e"
+      },
+      "checked_at": "2026-11-21T13:30:44+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "9ffb042b07edfdc9263e72046174ce0a130004fb423fe63ec257026629f577d6",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "3d034cc2195526ae1310788058019e44d053816d5a89e5f509dd15fcc2b8ed45",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "2d2e93beb8498aff7e419036c01bbdad55a8af0709d0899314dad98af53f638e",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T13:30:44+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "0889d07f877a9626ff87d733eef2d184d5b6e414751270e81691bbd40eb5e909",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "3d034cc2195526ae1310788058019e44d053816d5a89e5f509dd15fcc2b8ed45",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "872527e6d7abc9e6c070c762350ef2b83e6461ddc1e0528901c83da203850899"
+      },
+      "checked_at": "2026-11-21T13:31:09+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T13:31:09+00:00",
+  "chapter_fingerprint": "867525c68796f9d2185eb16e1d6f3fa0a7895333ce4efd23696a97095fd4ff8a"
+}
