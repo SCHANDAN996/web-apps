@@ -1,34 +1,33 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 11:50 AM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 11:51 AM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 59 मिनट |
-| W10 | Chapter 15 Days Dates (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W11 | Chapter 11 Chemistry (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 18 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 60 मिनट |
+| W10 | Chapter 15 Days Dates (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W11 | Chapter 11 Chemistry (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 19 मिनट |
 | W12 | Chapter 16 Books Authors (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W2 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 28 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 59 मिनट |
+| W2 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 29 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 60 मिनट |
 | W4 | Chapter 13 Awards (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
-| W5 | Chapter 10 Physics Daily (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 19 मिनट |
+| W5 | Chapter 10 Physics Daily (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 20 मिनट |
 | W6 | Chapter 17 Culture Art (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W7 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 31 मिनट |
-| W8 | Chapter 18 Science Tech (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W9 | Chapter 06 Physical Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 25 मिनट |
+| W7 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 32 मिनट |
+| W8 | Chapter 18 Science Tech (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 25 |
 | key 4 | 34 |
-| key 5 | 35 |
+| key 5 | 36 |
 | key 6 | 16 |
 
 ## किताबों की प्रगति
@@ -83,9 +82,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 11:38:23   [Sports] QA passed: structure
-21-11 11:39:07   [Economy_Basic] QA passed: editorial:Content_en.txt
-21-11 11:39:07   [Economy_Basic] QA needs_reference: sources:Content_en.txt
 21-11 11:41:12   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q102 key b vs re-solve a, Q103 key a vs re-solve c, Q104 key c vs re-solve a, Q106 key b vs re-solve
 21-11 11:41:25   [Physics_Daily] QA passed: editorial:Content_en.txt
 21-11 11:41:25   [Physics_Daily] QA needs_reference: sources:Content_en.txt
@@ -123,6 +119,9 @@
 21-11 11:50:59   [Chemistry] QA blocked: editorial:Content_hi.txt
 21-11 11:50:59   [Chemistry] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
 21-11 11:50:59 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_11_Chemistry: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In the linguistic contrast table, the row for oxidation/reduction reads “ऑक्सीकरण (उपचयन) / अपचयन” which incorrectly attaches “उपचयन” (reduction) to “ऑक्सीकरण” (oxidation) → should be “ऑक्सीकरण / अपचयन” to correctly pair oxidation with oxidation and reduction with reduction.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_11_Chemistry/QA.json'}
+21-11 11:51:41   [Environment] QA passed: structure
+21-11 11:51:59   [Culture_Art] QA passed: editorial:Content_en.txt
+21-11 11:51:59   [Culture_Art] QA needs_reference: sources:Content_en.txt
 ````
 
 </details>
