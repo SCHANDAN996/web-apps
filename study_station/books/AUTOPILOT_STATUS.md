@@ -1,19 +1,18 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 02:58 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 02:59 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 3/12
+**काम पर लगे workers:** 2/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 18 मिनट |
-| W5 | Chapter 21 Cloze Test (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W8 | Chapter 22 Para Jumbles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W1 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 19 मिनट |
+| W8 | Chapter 22 Para Jumbles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
@@ -79,7 +78,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 14:46:55   [Error_Spotting_Adv] QA needs_reference: sources:Content_en.txt
 21-11 14:47:53   [Fill_in_Blanks_Adv] QA passed: editorial:Content_en.txt
 21-11 14:47:54   [Fill_in_Blanks_Adv] QA needs_reference: sources:Content_en.txt
 21-11 14:47:55   [Sentence_Improvement_Adv] QA passed: structure
@@ -119,6 +117,7 @@
 21-11 14:56:33 worker 5: nothing left
 21-11 14:57:22 worker 2: nothing left
 21-11 14:58:11 worker 8: nothing left
+21-11 14:59:01 worker 4: nothing left
 ````
 
 </details>

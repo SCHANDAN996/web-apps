@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "651bcf32cdeb53397bb77f23301f7f9102db190171ee349a81415d9df3764620",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "7d446cf046cdc4d9bed87fdfebde8979f0c3f66af5d01b370c4ed31781a71b3b",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "3e3563ccffc8a32bb6bcc18f3212079257fe4b19d9071e997b101fa29221751b",
+        "Content_hi.txt": "0a4c2990054a8f179751e6479cc6ea1ca36d9255e40c2d6986458f3d1cdd7474",
+        "Feynman_en.txt": "98470ce22363939a4a96945f7078e993e08162b43c77f4edfe92aa5e60d4d7dd",
+        "Feynman_hi.txt": "99d720c595075f9cfa8dc5a6d0e7707d28f9bf88d63ac96aabb35ebd60e5f3b1",
+        "Flashcards_en.txt": "df6cfea7b296f0dcd3a1c5ac0d31f90e389558e5fdd42ec269ef3f2e4ec9b313",
+        "Flashcards_hi.txt": "07b4ae969cc09c33c05ea97fa6b82a1e53c442cdc68ae2d4da212230b7aebb29",
+        "Important_Rules_en.txt": "9e325fad7d04c6e9cee1e463de820daa25df7b7e342ee3f56b48a7390743abb5",
+        "Important_Rules_hi.txt": "6d140fcb44b32de37e70d5357a2dd601c0aaa8d688073b766e50451230ba5781",
+        "Mind_Map_en.txt": "edfd313c7e6b568718a5aaaac6a9a4e0d0cdb5af19d5bef6e5bd147ed61f7493",
+        "Mind_Map_hi.txt": "2b6d7197c983ca3f448b53e89e9d4924d37a6d0f2355cb99805a5328d28086c3",
+        "PYQ_en.txt": "aeece1e2433be0d6a2a4d64ff79bd2c83667e89ced7e250c23c1530b3511ebc5",
+        "PYQ_hi.txt": "a90df3ad4bc726f74e2df6506781750bea8891f80448462e3030bccdd4f2337f",
+        "Practice_en_Set_01.txt": "efe781891d610cea61bc0f69d88570b9e6a5b0d773c413526d030169e389f07a",
+        "Practice_en_Set_02.txt": "17b77e41902eb092f192f0b44876061a5076aa04eadec7ce2175cbec37d7798c",
+        "Practice_en_Set_03.txt": "4d7024995a5c85c61fac04771c4fd03967a100852d60b415862acbdabea9af33",
+        "Practice_en_Set_04.txt": "7217f2d07bcd409eba1dd61c76c577827f92820aa0f61aa9cb164dd3fc6a2e57",
+        "Practice_en_Set_05.txt": "9e1c36b45c953d1dab8062c66f6917c106d1484d02b8ddfcef54e9899c776792",
+        "Practice_en_Set_06.txt": "1116d400e23612b652da566c04d3a152682cb9e59a26401cd7a5bc793baafbc2",
+        "Practice_hi_Set_01.txt": "46004db72caef407e96239d33316e7090915cde7641def9c892f64a3d4d5b62f",
+        "Practice_hi_Set_02.txt": "6900f9aa9ad6033f5f9ed9e0c8967a4e1c569ce898753aea89c73d0e00eeca62",
+        "Practice_hi_Set_03.txt": "b8385d5af9f290c98502ee4a994b72ce5426676da43d8b6134023f410d11498b",
+        "Practice_hi_Set_04.txt": "ed4327956138a935bea099aed954af71f931b1f84dacfb8fae9c306c6131b315",
+        "Practice_hi_Set_05.txt": "0869c3e879a9aeeff859db24832d6775e04d82e17a107935f3adbf0cf3258969",
+        "Practice_hi_Set_06.txt": "64800bc47256ffd55efe9e2590e1e305b84901050fe80164004f9034c38f15f3",
+        "Short_Tricks_en.txt": "6cd995ba74272e8bf00dcc233f917688ac10f6357b36274322b3f4400121ba59",
+        "Short_Tricks_hi.txt": "c8f56d8585c15fb60f29faa63937f7957a1f1c0579e28fec6877bbe6b94d7bc0",
+        "inventory": {
+          "Content_en.txt": "3e3563ccffc8a32bb6bcc18f3212079257fe4b19d9071e997b101fa29221751b",
+          "Content_hi.txt": "0a4c2990054a8f179751e6479cc6ea1ca36d9255e40c2d6986458f3d1cdd7474",
+          "Feynman_en.txt": "98470ce22363939a4a96945f7078e993e08162b43c77f4edfe92aa5e60d4d7dd",
+          "Feynman_hi.txt": "99d720c595075f9cfa8dc5a6d0e7707d28f9bf88d63ac96aabb35ebd60e5f3b1",
+          "Flashcards_en.txt": "df6cfea7b296f0dcd3a1c5ac0d31f90e389558e5fdd42ec269ef3f2e4ec9b313",
+          "Flashcards_hi.txt": "07b4ae969cc09c33c05ea97fa6b82a1e53c442cdc68ae2d4da212230b7aebb29",
+          "Important_Rules_en.txt": "9e325fad7d04c6e9cee1e463de820daa25df7b7e342ee3f56b48a7390743abb5",
+          "Important_Rules_hi.txt": "6d140fcb44b32de37e70d5357a2dd601c0aaa8d688073b766e50451230ba5781",
+          "Mind_Map_en.txt": "edfd313c7e6b568718a5aaaac6a9a4e0d0cdb5af19d5bef6e5bd147ed61f7493",
+          "Mind_Map_hi.txt": "2b6d7197c983ca3f448b53e89e9d4924d37a6d0f2355cb99805a5328d28086c3",
+          "PYQ_en.txt": "aeece1e2433be0d6a2a4d64ff79bd2c83667e89ced7e250c23c1530b3511ebc5",
+          "PYQ_hi.txt": "a90df3ad4bc726f74e2df6506781750bea8891f80448462e3030bccdd4f2337f",
+          "Practice_en_Set_01.txt": "efe781891d610cea61bc0f69d88570b9e6a5b0d773c413526d030169e389f07a",
+          "Practice_en_Set_02.txt": "17b77e41902eb092f192f0b44876061a5076aa04eadec7ce2175cbec37d7798c",
+          "Practice_en_Set_03.txt": "4d7024995a5c85c61fac04771c4fd03967a100852d60b415862acbdabea9af33",
+          "Practice_en_Set_04.txt": "7217f2d07bcd409eba1dd61c76c577827f92820aa0f61aa9cb164dd3fc6a2e57",
+          "Practice_en_Set_05.txt": "9e1c36b45c953d1dab8062c66f6917c106d1484d02b8ddfcef54e9899c776792",
+          "Practice_en_Set_06.txt": "1116d400e23612b652da566c04d3a152682cb9e59a26401cd7a5bc793baafbc2",
+          "Practice_hi_Set_01.txt": "46004db72caef407e96239d33316e7090915cde7641def9c892f64a3d4d5b62f",
+          "Practice_hi_Set_02.txt": "6900f9aa9ad6033f5f9ed9e0c8967a4e1c569ce898753aea89c73d0e00eeca62",
+          "Practice_hi_Set_03.txt": "b8385d5af9f290c98502ee4a994b72ce5426676da43d8b6134023f410d11498b",
+          "Practice_hi_Set_04.txt": "ed4327956138a935bea099aed954af71f931b1f84dacfb8fae9c306c6131b315",
+          "Practice_hi_Set_05.txt": "0869c3e879a9aeeff859db24832d6775e04d82e17a107935f3adbf0cf3258969",
+          "Practice_hi_Set_06.txt": "64800bc47256ffd55efe9e2590e1e305b84901050fe80164004f9034c38f15f3",
+          "Short_Tricks_en.txt": "6cd995ba74272e8bf00dcc233f917688ac10f6357b36274322b3f4400121ba59",
+          "Short_Tricks_hi.txt": "c8f56d8585c15fb60f29faa63937f7957a1f1c0579e28fec6877bbe6b94d7bc0"
+        }
+      },
+      "checked_at": "2026-11-21T09:20:56+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "f20b2fe2725d3226d53c6ab61619e7767b078d8d4c99533a7353811370292154",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- \"Kerala's literacy campaign began in 1990 in Ernakulam district\" (in Trap 1 example) → \"Kerala's literacy campaign began in 1989 in Ernakulam district (declared fully literate in 1990)\""
+      ],
+      "dependencies": {
+        "chapter.json": "7d446cf046cdc4d9bed87fdfebde8979f0c3f66af5d01b370c4ed31781a71b3b",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "3e3563ccffc8a32bb6bcc18f3212079257fe4b19d9071e997b101fa29221751b"
+      },
+      "checked_at": "2026-11-21T09:21:47+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "8c9b4a5a38cb06631370dadf21ac25f40131410ca0172ca787bbe4efcc626ec5",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "7d446cf046cdc4d9bed87fdfebde8979f0c3f66af5d01b370c4ed31781a71b3b",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "3e3563ccffc8a32bb6bcc18f3212079257fe4b19d9071e997b101fa29221751b",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T09:21:48+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "b51d2eb265d8d41524d35671dd4e349880164e4d02d391703221d73016cf7e1a",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "7d446cf046cdc4d9bed87fdfebde8979f0c3f66af5d01b370c4ed31781a71b3b",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "0a4c2990054a8f179751e6479cc6ea1ca36d9255e40c2d6986458f3d1cdd7474"
+      },
+      "checked_at": "2026-11-21T09:22:27+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T09:22:27+00:00",
+  "chapter_fingerprint": "386e06670e70b85c7762e665608824bbb351e8121c06b1c8c488f9ae10a6c215"
+}
