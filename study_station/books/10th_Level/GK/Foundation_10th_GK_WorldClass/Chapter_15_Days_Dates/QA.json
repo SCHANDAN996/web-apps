@@ -110,11 +110,69 @@
         "Content_hi.txt": "73ba01abad9997e8f2826c08672cb5b437f7cfd4cea60e56182776a91a074107"
       },
       "checked_at": "2026-11-21T06:44:48+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "2fca2cb20e3e408a88cefaa8c13b76986bf036c03e1450e3011d304298c02115",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "4b4fa4c4ae34c4676a8b0939b39e4fb540a067f2cd0e65f61eb3061ba0853671",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "73ba01abad9997e8f2826c08672cb5b437f7cfd4cea60e56182776a91a074107",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:45:10+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "246ed0770e4732598a99294f4478c7641cde2c64ce779b7a7e54566f9b1b673c",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "4b4fa4c4ae34c4676a8b0939b39e4fb540a067f2cd0e65f61eb3061ba0853671",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "b497c57b03ba3bffd256e72b09ed388c581d7340ecaf1845a260ce735e7f908c"
+      },
+      "checked_at": "2026-11-21T10:46:16+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "67fd06fa8fa87bb1898e3dc8d44a65729ffc95dcf69686417dfad24499fd976a",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: The world is the \"school\": the UN or UNESCO picks a day that matters to all countries — usually the day an organisation was founded or an agreement was signed. World Teachers' Day, 5 October, recalls the international Recommendation on the status of teachers adopted on 5 October 1966 (ILO–UNESCO). It has nothing to do with any one Indian's birthday."
+      ],
+      "dependencies": {
+        "chapter.json": "4b4fa4c4ae34c4676a8b0939b39e4fb540a067f2cd0e65f61eb3061ba0853671",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "b497c57b03ba3bffd256e72b09ed388c581d7340ecaf1845a260ce735e7f908c",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:46:16+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "6c14b89169e1a6572283c6693627c683f607798e266391bc7e657380136182d9",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "4b4fa4c4ae34c4676a8b0939b39e4fb540a067f2cd0e65f61eb3061ba0853671",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "f9ade48df7fe2593f287e07748ea44f6681e1007467268df8aaeccfb02b3c5a2"
+      },
+      "checked_at": "2026-11-21T10:47:32+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T06:44:48+00:00",
+  "updated_at": "2026-11-21T10:47:32+00:00",
   "chapter_fingerprint": "c5d103a4024a0f36b2255b1277c8306f3413bacfc9c23c4b573bb54d582d98c8"
 }
