@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 21-11-2026 06:26 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
+**आख़िरी update:** 21-11-2026 06:42 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 89 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 105 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 35 |
+| key 3 | 36 |
 | key 4 | 36 |
-| key 5 | 29 |
-| key 6 | 42 |
+| key 5 | 30 |
+| key 6 | 43 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -54,7 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-21-11 04:03:20   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q145 key c vs re-solve d)
 21-11 04:03:20   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
 21-11 04:03:20   [rikt_sthan_vakya_kram] written 0, failed 4; AI calls today 105/100000
 21-11 04:03:20 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram after 104 min: todo ['Set 03 hi: todo', 'Set 04 hi: todo', 'Set 05 hi: todo', 'Set 06 hi: todo'] problems []
@@ -94,4 +93,5 @@
 21-11 06:13:12   [sandhi] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q58 key d vs re-solve a, Q75 key b vs re-solve ?)
 21-11 06:13:12   [sandhi] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
 21-11 06:24:21   [sandhi] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q101 key d vs re-solve a, Q102 key c vs re-solve a, Q104 key c vs re-solve a, Q105 key b vs re-solve
+21-11 06:34:50   [sandhi] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q102 key a vs re-solve c, Q104 key d vs re-solve b, Q105 key a vs re-solve b, Q106 key a vs re-solve
 ```
