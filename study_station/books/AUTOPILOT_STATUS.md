@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 06:02 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 06:03 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,23 +11,23 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 143 मिनट |
-| W10 | Chapter 21 International Orgs (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W11 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W2 | Chapter 24 Reports Indices (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W3 | Chapter 03 Coding Decoding (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W4 | Chapter 22 Defence (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W5 | Chapter 25 Govt Schemes (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W6 | Chapter 01 Analogy (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 144 मिनट |
+| W10 | Chapter 21 International Orgs (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W12 | Chapter 04 Blood Relations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W2 | Chapter 24 Reports Indices (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W3 | Chapter 03 Coding Decoding (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W4 | Chapter 22 Defence (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W5 | Chapter 25 Govt Schemes (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W6 | Chapter 01 Analogy (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
 | W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 39 मिनट |
-| W8 | Chapter 02 Classification (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W9 | Chapter 23 Economic Terms (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W8 | Chapter 02 Classification (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W9 | Chapter 23 Economic Terms (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 100 |
-| key 4 | 111 |
-| key 5 | 89 |
+| key 4 | 112 |
+| key 5 | 90 |
 | key 6 | 81 |
 
 ## किताबों की प्रगति
@@ -66,13 +66,13 @@
 | 10th English | 0 | 20 | 0 | 0 | 0 | 81/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 104/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 96/1872 |
-| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 61/1950 |
+| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 63/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 50/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 751/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 753/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,12 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 17:57:02   [Defence] QA needs_reference: sources:Feynman_en.txt
-21-11 17:57:29   [Defence] QA passed: editorial:Feynman_hi.txt
-21-11 17:57:29   [Defence] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
-21-11 17:57:29 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_22_Defence: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: - **Chief of Defence Staff (CDS)** — created in **December 2019**; the first CDS was **General Bipin Rawat**. The CDS is the single-point military adviser to the government and heads the **Department of Military Affairs**.', 'Fetch official supporting evidence for: **Trap 2 — Chronological Confusion (कालानुक्रमिक भ्रम):** *RAW (1968), NSG (1984), NIA (2008), CDS (2019).* Questions ask "which was formed first/latest" or pair a force with the wrong year — e.g., "BSF was formed in 1962" (wrong; BSF = 1965, ITBP = 1962).', 'Fetch official supporting evidence for: | First CDS | Gen. Bipin Rawat (2019) |']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: - **CDS (Chief of Defence Staff):** पद सृजित **दिसंबर 2019**; पहले CDS — **जनरल बिपिन रावत**। CDS, रक्षा मंत्रालय में **सैन्य मामलों का विभाग (Department of Military Affairs)** भी चलाता है।', 'Fetch official supporting evidence for: **अग्निपथ योजना (2022)** और **CDS पद (2019)** जैसे स्थैतिक तथ्य हाल के रक्षा सुधारों से जुड़े हैं। इसी तरह **INS विक्रांत का कमीशनिंग (2022)** स्वदेशी रक्षा निर्माण (आत्मनिर्भर भारत / Make in India) की दिशा का प्रतीक है। परीक्षाओं में "पहला स्वदेशी विमानवाहक पोत" जैसे प्रश्न इन्हीं घटनाओं से बनते हैं — करंट अफेयर्स में नए कमीशनिंग/अभ्यास देखते रहें।', 'Fetch official supporting evidence for: | पहले CDS | जनरल बिपिन रावत (2019) |']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_22_Defence/QA.json'}
-21-11 17:57:34   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q131 key c vs re-solve b)
-21-11 17:57:58   [Reports_Indices] QA needs_reference: sources:Content_hi.txt
 21-11 17:58:55   [Govt_Schemes] QA needs_reference: sources:Content_hi.txt
 21-11 17:59:24   [Economic_Terms] QA blocked: editorial:Content_en.txt
 21-11 17:59:24   [Economic_Terms] QA needs_reference: sources:Content_en.txt
@@ -126,6 +120,12 @@
 21-11 18:02:53   [Coding_Decoding] QA passed: editorial:Feynman_hi.txt
 21-11 18:02:53   [Coding_Decoding] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
 21-11 18:02:53 QA 12th_Level/Reasoning/Chapter_03_Coding_Decoding: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- In the "Clean example of increasing shift" explanation, the text says "A+2=C? No: A+2=C" which is contradictory; it should be "A+2=C? Yes: A+2=C" or simply "A+2=C".']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_03_Coding_Decoding/QA.json'}
+21-11 18:03:04   [Direction_Sense] QA needs_reference: sources:Content_hi.txt
+21-11 18:03:08   [Classification] QA passed: editorial:Feynman_hi.txt
+21-11 18:03:08   [Classification] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
+21-11 18:03:09 QA 12th_Level/Reasoning/Chapter_02_Classification: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Trap 3 explanation incorrectly states that checking cubes causes confusion because only 64 is a cube → 1, 64, and 729 are all cubes; checking cubes yields three cubes and one non‑cube (100), giving a clear odd one out.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_02_Classification/QA.json'}
+21-11 18:03:28   [Direction_Sense] QA blocked: editorial:Feynman_en.txt
+21-11 18:03:28   [Direction_Sense] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>
