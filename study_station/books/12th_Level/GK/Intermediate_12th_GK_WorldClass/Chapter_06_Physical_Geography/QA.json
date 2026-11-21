@@ -107,11 +107,71 @@
         "Content_hi.txt": "ec5098ebaf2ef2d01c5b949053159795c46b4008a1a471a032812962bec8316f"
       },
       "checked_at": "2026-11-21T08:10:24+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "a36960d808c15cc05ac73c14088b1e5f1c37f580e6eace025213c0a596570796",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "8f38b8d347ff227bcb2d8d4d6644b4e3653f560979031f32e0af4f3e2af304d6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "ec5098ebaf2ef2d01c5b949053159795c46b4008a1a471a032812962bec8316f",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:12:40+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "aba3a961750949ba1e3afd765b987406d9a0a22f2a1b8854cd30b5e53fd96c30",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The claim that the Western Ghats escarpment originated as a faulted edge during the Gondwana split (150–100 Ma) is geologically inaccurate; the present escarpment is largely the eroded edge of the Deccan Traps (c. 66 Ma). → The Western Ghats escarpment formed after the Deccan Traps eruptions, not during the Gondwana breakup."
+      ],
+      "dependencies": {
+        "chapter.json": "8f38b8d347ff227bcb2d8d4d6644b4e3653f560979031f32e0af4f3e2af304d6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "874a21f8c27d714a320456bec2fb1516425dd49d32d1ac8ab2637525d7f36840"
+      },
+      "checked_at": "2026-11-21T12:14:15+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "53ef4ae26da802cb85b55b0731732e60e395b5703b629e12b622ff0640ea82ad",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "8f38b8d347ff227bcb2d8d4d6644b4e3653f560979031f32e0af4f3e2af304d6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "874a21f8c27d714a320456bec2fb1516425dd49d32d1ac8ab2637525d7f36840",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:14:15+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "ddc1b3ec46f5ebe9aafd5948b2897d515640befc58131ce64792dd31dbfc8e20",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "8f38b8d347ff227bcb2d8d4d6644b4e3653f560979031f32e0af4f3e2af304d6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "a498d250c71943b2019ab7357829826848c4125d48fa594f0d36b8c420331884"
+      },
+      "checked_at": "2026-11-21T12:14:50+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T08:10:24+00:00",
+  "updated_at": "2026-11-21T12:14:50+00:00",
   "chapter_fingerprint": "9d8b78c261712d2b9d846600150e053474f33852cba23b1f8ecdb982e9a30ca8"
 }
