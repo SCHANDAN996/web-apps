@@ -110,11 +110,72 @@
         "Content_hi.txt": "bc63f7f72dbcfc65874ba9caff9b27cce657f8f52596539269a72786d36d46c8"
       },
       "checked_at": "2026-11-21T06:53:23+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "3bf9527fd0d5dcfd09ba2bd81633de68d2ae30d194fb261694dad950cde1a233",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "e1a23ed40abf4c2431619cea9dbbfb6185b70169f73c50278539eec51b9c4cf7",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "bc63f7f72dbcfc65874ba9caff9b27cce657f8f52596539269a72786d36d46c8",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:08:30+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "f1f34e003899ae83d8e2653dad0d17e4a1d1f3097f662ae3358aaa875a063946",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "e1a23ed40abf4c2431619cea9dbbfb6185b70169f73c50278539eec51b9c4cf7",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "b66b50bf4a04a567fec07b0fc8d74580b4658cad45299db7b3e2bc830bddaa14"
+      },
+      "checked_at": "2026-11-21T11:09:18+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "f3f6056645f86543167be3034ac51f8472eec0b4959b7f51884bfeff3b1e442d",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "e1a23ed40abf4c2431619cea9dbbfb6185b70169f73c50278539eec51b9c4cf7",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "b66b50bf4a04a567fec07b0fc8d74580b4658cad45299db7b3e2bc830bddaa14",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:09:18+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "87afda8d3381f1a93f1367965c5e0b13ad4bd437a72324add5e46f1134d93abc",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- रिया-राज की चॉक-पत्थर वाली उपमा तार्किक रूप से टूटी हुई है: चॉक से बनी स्माइली को पत्थर पलटकर दर्पण प्रतिबिंब नहीं बनाया जा सकता → सुसंगत उपमा दें (जैसे स्टैम्प, डिजिटल लेयर, या सीधे आकृति पर क्रियाएँ बताएँ)",
+        "- \"यादगार सवाल\" में सम-विषम स्थान के आधार पर \"बारी किसकी है?\" तय करने का नियम सार्वभौमिक बताया गया है, जबकि यह केवल इंटरलीव्ड श्रृंखला (प्रकार 2) के लिए सही है; बारी-बारी की क्रिया (प्रकार 1) में अगली क्रिया पिछली क्रिया से तय होती है, स्थान की समता से नहीं → स्पष्ट करें कि स्थान-आधारित नियम केवल प्रकार 2 के लिए है, प्रकार 1 में पिछली क्रिया देखकर अगली क्रिया चुनें"
+      ],
+      "dependencies": {
+        "chapter.json": "e1a23ed40abf4c2431619cea9dbbfb6185b70169f73c50278539eec51b9c4cf7",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "0b85039deea8309c20c0f2ff3f8838122cec014bf546374b5d0abe2e5098fc7a"
+      },
+      "checked_at": "2026-11-21T11:11:48+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T06:53:23+00:00",
+  "updated_at": "2026-11-21T11:11:49+00:00",
   "chapter_fingerprint": "c80612816ed967c482d4ae05568792d75ac925141aeb508b074260fd27befe39"
 }
