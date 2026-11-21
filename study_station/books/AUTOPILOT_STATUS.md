@@ -1,35 +1,34 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 06:36 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 06:38 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 178 मिनट |
-| W10 | Chapter 13 Synonyms (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W11 | Chapter 12 Sentence Structure (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W12 | Chapter 14 Antonyms (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W2 | Chapter 16 Idioms Phrases (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W3 | Chapter 09 Articles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W4 | Chapter 15 One Word Substitution (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W5 | Chapter 07 Preposition (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W6 | Chapter 11 Narration (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W7 | Chapter 17 Spelling (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W8 | Chapter 10 Voice (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W9 | Chapter 08 Conjunction (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W10 | Chapter 13 Synonyms (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W11 | Chapter 12 Sentence Structure (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W12 | Chapter 14 Antonyms (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W2 | Chapter 16 Idioms Phrases (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W3 | Chapter 09 Articles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W4 | Chapter 15 One Word Substitution (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W5 | Chapter 18 Error Spotting Adv (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W6 | Chapter 11 Narration (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W7 | Chapter 17 Spelling (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W8 | Chapter 10 Voice (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W9 | Chapter 19 Fill in Blanks Adv (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 128 |
+| key 3 | 129 |
 | key 4 | 116 |
-| key 5 | 117 |
-| key 6 | 104 |
+| key 5 | 119 |
+| key 6 | 105 |
 
 ## किताबों की प्रगति
 
@@ -68,12 +67,12 @@
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 104/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 96/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 101/1950 |
-| 12th English | 0 | 25 | 0 | 0 | 0 | 78/2025 |
+| 12th English | 0 | 25 | 0 | 0 | 0 | 81/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 819/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 822/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -82,29 +81,12 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 16 rikt sthan vakya kram (Hindi) — 2 बार
+- Chapter 07 sandhi (Hindi) — 1 बार
 
 <details>
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 18:32:05 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_10_Voice: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 5, 'pending': 73, 'blocked': 0, 'needs_reference': 3, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_10_Voice/QA.json'}
-21-11 18:32:08   [Narration] QA passed: editorial:Feynman_hi.txt
-21-11 18:32:09   [Narration] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 5, "pending": 73, "blocked": 0, "needs_reference": 3, "remaining": 76, 
-21-11 18:32:09 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_11_Narration: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 5, 'pending': 73, 'blocked': 0, 'needs_reference': 3, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_11_Narration/QA.json'}
-21-11 18:32:25   [Synonyms] QA needs_reference: sources:Content_hi.txt
-21-11 18:32:39   [Synonyms] QA passed: editorial:Feynman_en.txt
-21-11 18:32:40   [Synonyms] QA needs_reference: sources:Feynman_en.txt
-21-11 18:32:40   [Sentence_Structure] QA passed: editorial:Feynman_en.txt
-21-11 18:32:40   [Sentence_Structure] QA needs_reference: sources:Feynman_en.txt
-21-11 18:33:02   [Synonyms] QA passed: editorial:Feynman_hi.txt
-21-11 18:33:02   [Synonyms] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
-21-11 18:33:02 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_13_Synonyms: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In Trap 2, the example "End (noun) का synonym Finish (verb)" is factually incorrect because they are different parts of speech and not synonyms; the trap is a part-of-speech mismatch, not a valid synonym pair. → The example should illustrate the trap correctly, e.g., "If the question word is End (noun), a trap option could be Finish (verb), but it is not a synonym because the parts of speech differ."']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_13_Synonyms/QA.json'}
-21-11 18:33:07   [Antonyms] QA needs_reference: sources:Content_hi.txt
-21-11 18:33:16   [Sentence_Structure] QA passed: editorial:Feynman_hi.txt
-21-11 18:33:16   [Sentence_Structure] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 5, "pending": 73, "blocked": 0, "needs_reference": 3, "remaining": 76, 
-21-11 18:33:17 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_12_Sentence_Structure: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 5, 'pending': 73, 'blocked': 0, 'needs_reference': 3, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_12_Sentence_Structure/QA.json'}
-21-11 18:33:31   [Antonyms] QA passed: editorial:Feynman_en.txt
-21-11 18:33:31   [Antonyms] QA needs_reference: sources:Feynman_en.txt
 21-11 18:34:11   [One_Word_Substitution] QA needs_reference: sources:Content_hi.txt
 21-11 18:34:43   [One_Word_Substitution] QA blocked: editorial:Feynman_en.txt
 21-11 18:34:44   [One_Word_Substitution] QA needs_reference: sources:Feynman_en.txt
@@ -127,6 +109,24 @@
 21-11 18:37:17   [Spelling] QA passed: editorial:Feynman_hi.txt
 21-11 18:37:17   [Spelling] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 73, "blocked": 2, "needs_reference": 3, "remaining": 78, 
 21-11 18:37:18 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_17_Spelling: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 73, 'blocked': 2, 'needs_reference': 3, 'remaining': 78, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The "I before E" exceptions list includes seven words (weird, seize, height, their, foreign, neighbour, weigh) but the mnemonic and review refer to six exceptions → update the mnemonic to include all seven (e.g., add "weigh") and change the review to "seven exceptions".', '- In Trap 1, the description for "occasion" says "one c, double s" but the correct spelling is "occasion" with double c and single s → change to "occasion (double c, single s)".', '- In the mini reading passage, the statement "Every bold word comes from the roots table above" is false because "revolutionize" is bolded but not derived from the listed roots → either remove bold from "revolutionize" or add its root to the table.', '- In the Review After 2 Days, the root list "scrib, dict, dict, chron" duplicates "dict" → replace the second "dict" with another root such as "port" or "spect".', '- The Summary Table title claims "The 50 Most-Tested Words" but only 42 words are listed → correct the title to "The 42 Most-Tested Words" or add eight more words to reach 50.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- The -able/-ible rule lists "responsible" as an example of -ible used when the root is incomplete, but "responsible" derives from the complete word "response", contradicting the rule. → Remove "responsible" from the -ible examples or mark it as an exception.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_17_Spelling/QA.json'}
+21-11 18:37:48   [Error_Spotting_Adv] QA passed: editorial:Feynman_en.txt
+21-11 18:38:03   [Error_Spotting_Adv] QA needs_reference: sources:Feynman_en.txt
+21-11 18:38:04   [Fill_in_Blanks_Adv] QA needs_reference: sources:Content_hi.txt
+21-11 18:38:17   [Error_Spotting_Adv] QA passed: editorial:Feynman_hi.txt
+21-11 18:38:17   [Error_Spotting_Adv] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
+21-11 18:38:18 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_18_Error_Spotting_Adv: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- नियम 1 में "Each/Every/One of + बहुवचन संज्ञा + एकवचन क्रिया" गलत है क्योंकि \'Every\' के साथ \'of + बहुवचन संज्ञा\' नहीं आता (जैसे "Every of the boys" असंगत है) → सही नियम: "Each of/One of/Every one of + बहुवचन संज्ञा + एकवचन क्रिया" या "Each/Every/Either/Neither + एकवचन संज्ञा + एकवचन क्रिया"।']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: समय-बिंदु के साथ **since** (since 2010, since Monday), अवधि के साथ **for** (for two years)।']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_18_Error_Spotting_Adv/QA.json'}
+21-11 18:38:32   [sandhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q130 key a vs re-solve c, Q132 key b vs re-solve d, Q136 key a vs re-solve ?, Q137 key b vs re-solve
+21-11 18:38:32   [sandhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
+21-11 18:38:33   [sandhi] written 0, failed 5; AI calls today 469/100000
+21-11 18:38:33 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi after 180 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo'] problems []
+21-11 18:38:54   [Sentence_Improvement_Adv] QA needs_reference: sources:Content_hi.txt
+21-11 18:38:59   [Fill_in_Blanks_Adv] QA blocked: editorial:Feynman_en.txt
+21-11 18:38:59   [Fill_in_Blanks_Adv] QA needs_reference: sources:Feynman_en.txt
+21-11 18:39:10   [Sentence_Improvement_Adv] QA passed: editorial:Feynman_en.txt
+21-11 18:39:10   [Sentence_Improvement_Adv] QA needs_reference: sources:Feynman_en.txt
+21-11 18:39:25   [Fill_in_Blanks_Adv] QA passed: editorial:Feynman_hi.txt
+21-11 18:39:25   [Fill_in_Blanks_Adv] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 73, "blocked": 2, "needs_reference": 3, "remaining": 78, 
+21-11 18:39:25 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_19_Fill_in_Blanks_Adv: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 73, 'blocked': 2, 'needs_reference': 3, 'remaining': 78, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Section 1 Step 1 Hindi: "सकारात्मक है या नकारात्मक है या नकारात्मक?" repeats "नकारात्मक" and omits a third sentiment → Change to "सकारात्मक है या नकारात्मक है या तटस्थ?" or simply "सकारात्मक है या नकारात्मक?"', '- Detective Approach: States "ऊपर *malfunction* के पहले \'delicate balance\' है" but the passage does not contain the word "malfunction" (it has "disrupt") → Remove the reference to "malfunction" or replace with an actual word from the passage that illustrates a root.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- Chat line "Here is how to explain it to a child:" → Delete "Here is" and begin with "How to explain it to a child:" or start directly with the analogy.']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_19_Fill_in_Blanks_Adv/QA.json'}
 ````
 
 </details>
