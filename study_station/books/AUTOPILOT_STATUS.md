@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 10:58 AM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 10:59 AM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -12,23 +12,23 @@
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
 | W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 7 मिनट |
-| W10 | Chapter 01 organization cpu (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W11 | Chapter 02 input output ports (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W12 | Chapter 05 windows files (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W10 | Chapter 01 organization cpu (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W11 | Chapter 02 input output ports (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W12 | Chapter 05 windows files (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 | W2 | Chapter 15 vakya shuddhi (10th Hindi) | 🔎 review हो रहा है | 7 मिनट |
 | W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 7 मिनट |
-| W4 | Chapter 01 varn vartani (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W5 | Chapter 02 shabd bhed (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W6 | Chapter 03 memory storage backup (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W7 | Chapter 04 visheshan kriya (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W8 | Chapter 05 ling vachan karak (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W9 | Chapter 04 software os (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W4 | Chapter 01 varn vartani (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W5 | Chapter 02 shabd bhed (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W6 | Chapter 03 memory storage backup (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W7 | Chapter 04 visheshan kriya (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W8 | Chapter 05 ling vachan karak (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W9 | Chapter 04 software os (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 3 |
+| key 3 | 4 |
 | key 4 | 7 |
-| key 5 | 5 |
+| key 5 | 6 |
 | key 6 | 1 |
 
 ## किताबों की प्रगति
@@ -59,7 +59,7 @@
 
 | किताब | QA पास | जाँच बाकी | प्रमाण बाकी | सुधार अटका | मैनुअल | जाँचें पास / कुल |
 |---|---:|---:|---:|---:|---:|---:|
-| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 7/540 |
+| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 8/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 7/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 0/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 0/1716 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 14/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 15/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,13 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 10:53:05   [varn_vartani] QA passed: structure
-21-11 10:53:06   [shabd_bhed] QA passed: structure
-21-11 10:53:06   [sangya_sarvanam] QA passed: structure
-21-11 10:53:06   [organization_cpu] QA passed: structure
-21-11 10:53:06   [input_output_ports] QA passed: structure
-21-11 10:53:06   [visheshan_kriya] QA passed: structure
-21-11 10:53:06   [memory_storage_backup] QA passed: structure
 21-11 10:53:06   [software_os] QA passed: structure
 21-11 10:53:06   [ling_vachan_karak] QA passed: structure
 21-11 10:53:17   [vakya_shuddhi] review Content_hi.txt round 1: 2 issue(s): - In Example 5 (सर्वनाम 'अपना' का अनुबंध), the explanation incorrectly labels "पुस्तक" as कर्ता कारक (nomin
@@ -123,6 +116,13 @@
 21-11 10:58:59 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_02_shabd_bhed: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 2, 'pending': 32, 'blocked': 1, 'needs_reference': 1, 'remaining': 34, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- "इसलिए" is incorrectly listed under कारणवाचक (causal) conjunctions in the समुच्चयबोधक section; it is a परिणामवाचक (consequential) conjunction → Remove "इसलिए" from the कारणवाचक list (keep it only under परिणामवाचक).']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_02_shabd_bhed/QA.json'}
 21-11 10:59:04   [organization_cpu] QA blocked: editorial:Content_en.txt
 21-11 10:59:04   [organization_cpu] QA needs_reference: sources:Content_en.txt
+21-11 10:59:17   [visheshan_kriya] QA passed: editorial:Feynman_hi.txt
+21-11 10:59:28   [visheshan_kriya] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 2, "pending": 32, "blocked": 1, "needs_reference": 1, "remaining": 34, 
+21-11 10:59:28 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 2, 'pending': 32, 'blocked': 1, 'needs_reference': 1, 'remaining': 34, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Section 1.1 rule "विशेषण हमेशा संज्ञा/सर्वनाम के लिंग, वचन, कारक के अनुसार बदलता है" → False: अरूपांतरित विशेषण (e.g., सुंदर, लाल, होशियार) never change; rule should specify only रूपांतरित विशेषण change.', '- Section 3 exam formula "यदि शब्द के बाद है/हैं/था/थे/होगा/होंगे आए → क्रिया" → Incorrect: adjectives also follow copula (e.g., "वह अच्छा है" where अच्छा is adjective); the heuristic fails.', '- Example 1 classifies "बहुत" as संख्यावाचक विशेषण when modifying adjective "सुंदर" → In standard Hindi grammar "बहुत" modifying an adjective is a क्रिया विशेषण (adverb of degree), not a विशेषण.', '- Common Errors #7 labels error as "संख्यावाचक विशेषण का गलत क्रम" but corrections are spelling (पांचों→पाँचों) and verb agreement (होती→होतीं), not word order.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya/QA.json'}
+21-11 10:59:28   [kaal_vachya] QA passed: structure
+21-11 10:59:41   [organization_cpu] QA passed: editorial:Content_hi.txt
+21-11 10:59:41   [organization_cpu] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 10:59:41 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_01_organization_cpu: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Example 5 states "Address bus width = word length (typically)" → Word length (internal data width) and address bus width are independent; they can differ (e.g., 8086 is 16-bit word with 20-bit address bus). The 4\u202fGB answer assumes a 32-bit address bus, not word length.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_01_organization_cpu/QA.json'}
 ````
 
 </details>

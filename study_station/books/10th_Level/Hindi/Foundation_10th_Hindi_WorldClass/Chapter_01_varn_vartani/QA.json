@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "8bfbe69ad3f18f4b02e459b7239c72c6772d94282114d273a1d14548d7bd7883",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "8446bddd05f839101fa36ea27465a031459ad08a4d0e236d093197f111fb16e3",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Content_hi.txt": "9a1e6e1a02ead3c34e0d6852e4aff692faf842d68f738c7882829822efcce5f8",
+        "Feynman_hi.txt": "440da76012c8e6acd3212d4b7762476645b78c2f1bf897c80bedf45d79513c91",
+        "Flashcards_hi.txt": "e1b8b35994e211d7321d11025074b30847ac23ac6202bb521522ffd55c3a683f",
+        "Important_Rules_hi.txt": "788fcf735a20fc250c6d1000757ca212240637c434d0cdaab3d5cbde02e60824",
+        "Key_Facts_hi.txt": "107b2864fde032042f9c59f9113aeb0ebb03f7bb813b228567c97aa8a577004d",
+        "Mind_Map.txt": "76fc622847a42f4a9fc2c14f99f3197b87e9bec9dc4e9da6a7a65e7f70c50ad6",
+        "PYQ_hi.txt": "2dbfc8296dea10622c4b51c323eb45d9d4b35abe7352288d02687189a3d9c91c",
+        "Practice_hi_Set_01.txt": "d66eb3e7a515447bb12e457de4ddcabe0bd49d0cb738f3cc3726f69fbcf4f095",
+        "Practice_hi_Set_02.txt": "e409489538802bc0d0e914417f6ac6c2495ff2a02c2abb18cd2098df6967ebf5",
+        "Practice_hi_Set_03.txt": "7e807cb3e1605f3cb031037c11fd3866f034340f2927d1c96fc4af30e2b8ec78",
+        "Practice_hi_Set_04.txt": "0b095244f3a028fb9c73a7af557df141881c0af650a307300da181933302e267",
+        "Practice_hi_Set_05.txt": "b6711e1d6c4663fc881effd78869808bd254b61b9faae268b20656856b954229",
+        "Practice_hi_Set_06.txt": "042974451cf163ce2f39bdd904a9210b228353db88c51c222f13cd896c34785a",
+        "inventory": {
+          "Content_hi.txt": "9a1e6e1a02ead3c34e0d6852e4aff692faf842d68f738c7882829822efcce5f8",
+          "Feynman_hi.txt": "440da76012c8e6acd3212d4b7762476645b78c2f1bf897c80bedf45d79513c91",
+          "Flashcards_hi.txt": "e1b8b35994e211d7321d11025074b30847ac23ac6202bb521522ffd55c3a683f",
+          "Important_Rules_hi.txt": "788fcf735a20fc250c6d1000757ca212240637c434d0cdaab3d5cbde02e60824",
+          "Key_Facts_hi.txt": "107b2864fde032042f9c59f9113aeb0ebb03f7bb813b228567c97aa8a577004d",
+          "Mind_Map.txt": "76fc622847a42f4a9fc2c14f99f3197b87e9bec9dc4e9da6a7a65e7f70c50ad6",
+          "PYQ_hi.txt": "2dbfc8296dea10622c4b51c323eb45d9d4b35abe7352288d02687189a3d9c91c",
+          "Practice_hi_Set_01.txt": "d66eb3e7a515447bb12e457de4ddcabe0bd49d0cb738f3cc3726f69fbcf4f095",
+          "Practice_hi_Set_02.txt": "e409489538802bc0d0e914417f6ac6c2495ff2a02c2abb18cd2098df6967ebf5",
+          "Practice_hi_Set_03.txt": "7e807cb3e1605f3cb031037c11fd3866f034340f2927d1c96fc4af30e2b8ec78",
+          "Practice_hi_Set_04.txt": "0b095244f3a028fb9c73a7af557df141881c0af650a307300da181933302e267",
+          "Practice_hi_Set_05.txt": "b6711e1d6c4663fc881effd78869808bd254b61b9faae268b20656856b954229",
+          "Practice_hi_Set_06.txt": "042974451cf163ce2f39bdd904a9210b228353db88c51c222f13cd896c34785a"
+        }
+      },
+      "checked_at": "2026-11-21T05:23:05+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "2e0ac9399632e888568c38c96b23268d681bce11b27b7e13c3ef44b34266aac2",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Section 3.1 Matra table: examples for इ (ि) and ई (ी) are incorrect — they show mismatched wrong forms marked अशुद्ध (e.g., “फल→फिल”, “फूल→फुल”) instead of valid usage examples → Replace with correct examples: इ मात्रा (ि) – “कि”, “पित”, “मिलन”; ई मात्रा (ी) – “सीता”, “नील”, “पानी”"
+      ],
+      "dependencies": {
+        "chapter.json": "8446bddd05f839101fa36ea27465a031459ad08a4d0e236d093197f111fb16e3",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Content_hi.txt": "9a1e6e1a02ead3c34e0d6852e4aff692faf842d68f738c7882829822efcce5f8"
+      },
+      "checked_at": "2026-11-21T05:24:00+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "b58af496fc756c047dea65682480548b6ffadc3ed0b1c62e14495c917555fbe6",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "8446bddd05f839101fa36ea27465a031459ad08a4d0e236d093197f111fb16e3",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Content_hi.txt": "9a1e6e1a02ead3c34e0d6852e4aff692faf842d68f738c7882829822efcce5f8",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T05:24:00+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "5ac2d2cc9895989aa2bd5e06904e9600045b78d96d1fe309a3e40a598512af71",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- In the \"वर्तनी के सामान्य नियम\" table, first row, the \"गलत\" column lists \"हंसना (हंस पक्षी)\" as incorrect, but \"हंसना\" is a valid Hindi word (हंस + ना) meaning \"swan-related\"; the table should clarify that for the sense \"मुस्कराना\" the correct spelling is \"हँसना\" (with चंद्रबिंदु), not that \"हंसना\" is universally wrong. → The table must distinguish meanings: for \"मुस्कराना\" write \"हँसना\"; \"हंसना\" is correct for \"हंस पक्षी\".",
+        "- In Q18 and Q46 explanations, \"हंसना\" is called अशुद्ध, but \"हंसना\" (हंस + ना) is a correctly spelled word; the explanation should state that \"हँसना\" (चंद्रबिंदु) is the correct form for the verb \"to laugh\", while \"हंसना\" is a different valid word. → Explanation must note the meaning difference: \"हँसना\" = मुस्कराना, \"हंसना\" = हंस पक्षी से संबंधित; both are valid spellings for their respective senses."
+      ],
+      "dependencies": {
+        "chapter.json": "8446bddd05f839101fa36ea27465a031459ad08a4d0e236d093197f111fb16e3",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Feynman_hi.txt": "440da76012c8e6acd3212d4b7762476645b78c2f1bf897c80bedf45d79513c91"
+      },
+      "checked_at": "2026-11-21T05:28:57+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T05:28:57+00:00",
+  "chapter_fingerprint": "cdb0f764fbc0dbb316fc8d9014168db2297614c92b134530bb017da61ade0c32"
+}
