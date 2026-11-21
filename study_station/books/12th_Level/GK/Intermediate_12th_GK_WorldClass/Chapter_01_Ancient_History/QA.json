@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "a5df1860828b55d248aa1a0de1ae6a596f54a2d74286d3ac02bf3cd3bbc5f003",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "8992c928be396d95a84908b58721a401af4a617ab90d02fed89e1a5866969f36",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "219e6b43c63196c8ea0133c77ca7274343b05743edad0fee758726753543f6d1",
+        "Content_hi.txt": "6c9402a9e9697bf5029e4d101c74a6c199533458ab81f9f13c2e5b8cc9b46f54",
+        "Feynman_en.txt": "db1f8e8949d4448f48d7d5153d3c48ab5fca869d91e9635e54dc049d3bf23e2d",
+        "Feynman_hi.txt": "1e78860c0814cbdb2e90332670733432b22dc67884f239229a846209b09193a1",
+        "Flashcards_en.txt": "fc4af5e9fe7b39c26d7954d9590fb7b48fa773df5ae00f51201ddf7ba98dba7c",
+        "Flashcards_hi.txt": "378f2324898f28fb4c8149c4c9e873f042dcfb2e2515a5ad063f461e0264474c",
+        "Key_Facts_en.txt": "1716b73cbdb6a53812e97165fbbc85f928c9e1ff7cb7417096e16d7ef5868ed9",
+        "Key_Facts_hi.txt": "182b18ee8f2b0fc24463278e5024d2cafc1a834fbcb49dd66a91ececfcfd8f1e",
+        "Memory_Hooks_en.txt": "4f6933e12ef144e6e5597c5c5515829d0853f1b64df89dc538d4f68646cb0417",
+        "Memory_Hooks_hi.txt": "bc6c16f8b2309d13e3162fbc30e8d26f17167d20319f5634b62717b7c53c8764",
+        "Mind_Map.txt": "69ca591a808aaed31cb1a4ef539917d241af6d1e74d7008882a08f778915d8ba",
+        "PYQ_en.txt": "e81ad46cd9ac05bf8bcf9bcbd5d2e5f9af7b135aade35f7b2fee623e17fad9a1",
+        "PYQ_hi.txt": "f35c71da4494294a1324df9e1b5f08b1a78024d1c10ef8a985b6a6e6d9de7ff7",
+        "Practice_en_Set_01.txt": "7b97e65707fa9e9793d308120cd0ace944161c4be5d949d27821cbdccfa62e97",
+        "Practice_en_Set_02.txt": "e8d5379fe5d5b8b5a1e8f75493efcc80a63da677ede9a3f5d191bee133af096d",
+        "Practice_en_Set_03.txt": "e10323ba4fbdb0d5ef4ed7d93f3554bfbcb08b6c44d66479e14527ccfa1c55c7",
+        "Practice_en_Set_04.txt": "3f6333d53472395527546eba4f9007bc49368f907406594cad01fe941d27b44c",
+        "Practice_en_Set_05.txt": "eb6a1f15b2067a0dbd986ac686daea4b896ee2fc020913a2189ae7f4418c7c88",
+        "Practice_en_Set_06.txt": "e0f0c5c1a79fde74fb050ff979ba0610d0ff764bb7980d4caf7b93625120cdb6",
+        "Practice_hi_Set_01.txt": "b6b02d428e88a1acde644b88b9b0f892e9b201d8b7a7a5c6ef1140c2b5eab8ea",
+        "Practice_hi_Set_02.txt": "23f93fab4ade78fd24ed3c9b6d505f37a9a166a66a93c8b1240af0baf535a54b",
+        "Practice_hi_Set_03.txt": "0e3b28173f4b4e3e42dce7e0e84f5b72ace3d5fec7932015198191ff87c9c2dc",
+        "Practice_hi_Set_04.txt": "82478448580ecb5ac21751ae1cdd9249cc82bcc9bbfdcc4256b6b0e1b811a501",
+        "Practice_hi_Set_05.txt": "3e42ced14bd314af44e209c615ff22abe8183e2068b66d5dd3445a241f4bab17",
+        "Practice_hi_Set_06.txt": "4bb47ce4f43b447e5135afbdffd10a4d845686b186690e5d986852cec8d67821",
+        "inventory": {
+          "Content_en.txt": "219e6b43c63196c8ea0133c77ca7274343b05743edad0fee758726753543f6d1",
+          "Content_hi.txt": "6c9402a9e9697bf5029e4d101c74a6c199533458ab81f9f13c2e5b8cc9b46f54",
+          "Feynman_en.txt": "db1f8e8949d4448f48d7d5153d3c48ab5fca869d91e9635e54dc049d3bf23e2d",
+          "Feynman_hi.txt": "1e78860c0814cbdb2e90332670733432b22dc67884f239229a846209b09193a1",
+          "Flashcards_en.txt": "fc4af5e9fe7b39c26d7954d9590fb7b48fa773df5ae00f51201ddf7ba98dba7c",
+          "Flashcards_hi.txt": "378f2324898f28fb4c8149c4c9e873f042dcfb2e2515a5ad063f461e0264474c",
+          "Key_Facts_en.txt": "1716b73cbdb6a53812e97165fbbc85f928c9e1ff7cb7417096e16d7ef5868ed9",
+          "Key_Facts_hi.txt": "182b18ee8f2b0fc24463278e5024d2cafc1a834fbcb49dd66a91ececfcfd8f1e",
+          "Memory_Hooks_en.txt": "4f6933e12ef144e6e5597c5c5515829d0853f1b64df89dc538d4f68646cb0417",
+          "Memory_Hooks_hi.txt": "bc6c16f8b2309d13e3162fbc30e8d26f17167d20319f5634b62717b7c53c8764",
+          "Mind_Map.txt": "69ca591a808aaed31cb1a4ef539917d241af6d1e74d7008882a08f778915d8ba",
+          "PYQ_en.txt": "e81ad46cd9ac05bf8bcf9bcbd5d2e5f9af7b135aade35f7b2fee623e17fad9a1",
+          "PYQ_hi.txt": "f35c71da4494294a1324df9e1b5f08b1a78024d1c10ef8a985b6a6e6d9de7ff7",
+          "Practice_en_Set_01.txt": "7b97e65707fa9e9793d308120cd0ace944161c4be5d949d27821cbdccfa62e97",
+          "Practice_en_Set_02.txt": "e8d5379fe5d5b8b5a1e8f75493efcc80a63da677ede9a3f5d191bee133af096d",
+          "Practice_en_Set_03.txt": "e10323ba4fbdb0d5ef4ed7d93f3554bfbcb08b6c44d66479e14527ccfa1c55c7",
+          "Practice_en_Set_04.txt": "3f6333d53472395527546eba4f9007bc49368f907406594cad01fe941d27b44c",
+          "Practice_en_Set_05.txt": "eb6a1f15b2067a0dbd986ac686daea4b896ee2fc020913a2189ae7f4418c7c88",
+          "Practice_en_Set_06.txt": "e0f0c5c1a79fde74fb050ff979ba0610d0ff764bb7980d4caf7b93625120cdb6",
+          "Practice_hi_Set_01.txt": "b6b02d428e88a1acde644b88b9b0f892e9b201d8b7a7a5c6ef1140c2b5eab8ea",
+          "Practice_hi_Set_02.txt": "23f93fab4ade78fd24ed3c9b6d505f37a9a166a66a93c8b1240af0baf535a54b",
+          "Practice_hi_Set_03.txt": "0e3b28173f4b4e3e42dce7e0e84f5b72ace3d5fec7932015198191ff87c9c2dc",
+          "Practice_hi_Set_04.txt": "82478448580ecb5ac21751ae1cdd9249cc82bcc9bbfdcc4256b6b0e1b811a501",
+          "Practice_hi_Set_05.txt": "3e42ced14bd314af44e209c615ff22abe8183e2068b66d5dd3445a241f4bab17",
+          "Practice_hi_Set_06.txt": "4bb47ce4f43b447e5135afbdffd10a4d845686b186690e5d986852cec8d67821"
+        }
+      },
+      "checked_at": "2026-11-21T07:56:48+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "25174ea66f3560b2dcccc025cb88c3044b4336c154bf613a61cbd16cbf123312",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "8992c928be396d95a84908b58721a401af4a617ab90d02fed89e1a5866969f36",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "219e6b43c63196c8ea0133c77ca7274343b05743edad0fee758726753543f6d1"
+      },
+      "checked_at": "2026-11-21T07:57:43+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "a61f97fee5745a1a82f6436ad15c15cdf1a608eaeb972a406bf5760a87409a02",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: Ancient history keeps returning to the news: the **Sarnath Lion Capital** and **Ashoka Chakra** appear in every debate on national symbols; **Nalanda University** has been revived as a modern international university in Bihar; and **Dholavira** was inscribed as a **UNESCO World Heritage Site in 2021** — the first Indus Valley site in India to get that tag. If a current-affairs question mentions these, connect it back here."
+      ],
+      "dependencies": {
+        "chapter.json": "8992c928be396d95a84908b58721a401af4a617ab90d02fed89e1a5866969f36",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "219e6b43c63196c8ea0133c77ca7274343b05743edad0fee758726753543f6d1",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T07:57:43+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "097e232437f5577f21d876de208d036cdda6ee5fbfd7516965cbc279f6fc9d09",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- 'लाल पत्थर की दाढ़ी वाले पुजारी की मूर्ति' (हड़प्पा सभ्यता की विशेषताएँ) → दाढ़ी वाले पुजारी की मूर्ति स्टीटाइट (सोपस्टोन) की बनी है, लाल पत्थर की नहीं।",
+        "- 'प्रांत = चक्र' (मौर्य प्रशासन तालिका) → मौर्य काल में प्रांत को 'जनपद' या 'अहार' कहा जाता था; 'चक्र' एक जिला-स्तरीय इकाई थी।"
+      ],
+      "dependencies": {
+        "chapter.json": "8992c928be396d95a84908b58721a401af4a617ab90d02fed89e1a5866969f36",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "6c9402a9e9697bf5029e4d101c74a6c199533458ab81f9f13c2e5b8cc9b46f54"
+      },
+      "checked_at": "2026-11-21T08:01:20+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T08:01:21+00:00",
+  "chapter_fingerprint": "cd8d741611579860c4008a170496d9e51f5b653bdb26bd373636ecd84596ac88"
+}
