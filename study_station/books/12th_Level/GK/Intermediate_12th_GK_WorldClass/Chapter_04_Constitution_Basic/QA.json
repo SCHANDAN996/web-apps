@@ -117,11 +117,71 @@
         "Content_hi.txt": "b01a7091ee6569552161fb61bb395750877944b7c8250571eb8e5513f245f0a4"
       },
       "checked_at": "2026-11-21T08:18:54+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "31b52b3f52c8e590c77fe519f8cb019d50023c4e4e68245d5d35d5e70cc3351f",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "61011b06a9961ea59114e8cfa0c93949bd4f4e268eab37462a422ef37ecc3c0d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "b01a7091ee6569552161fb61bb395750877944b7c8250571eb8e5513f245f0a4",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:10:45+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "9ea1815f106536467c306717443fd610ad11be55fa92d577c4d735932dfe2017",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "61011b06a9961ea59114e8cfa0c93949bd4f4e268eab37462a422ef37ecc3c0d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "e4a550f75abcd8f0fdbca9cccc8d1e1d970cb108f34522200911ccb6a4a4831e"
+      },
+      "checked_at": "2026-11-21T12:11:24+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "3141067b2215d64c95d5b80eb120aa3afc81cd8629ae961a3e88205408d18577",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "61011b06a9961ea59114e8cfa0c93949bd4f4e268eab37462a422ef37ecc3c0d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "e4a550f75abcd8f0fdbca9cccc8d1e1d970cb108f34522200911ccb6a4a4831e",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:11:24+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "a3730f8b44bd73aad4aa780698870e7cc78d919af15c8ca0771adc7e398d439e",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- \"10 में से 8 विद्यार्थी फँसते हैं\" → आविष्कृत परीक्षा सांख्यिकी; इसे हटाएँ या साक्ष्य-आधारित दावे से बदलें"
+      ],
+      "dependencies": {
+        "chapter.json": "61011b06a9961ea59114e8cfa0c93949bd4f4e268eab37462a422ef37ecc3c0d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "62d031f4303de0adc305d1d7e4359cae2cb18af0684ce35d0001d7693176309f"
+      },
+      "checked_at": "2026-11-21T12:11:31+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T08:18:54+00:00",
+  "updated_at": "2026-11-21T12:11:31+00:00",
   "chapter_fingerprint": "91112f98d7310a638aac53fa1af208544a309db4c570744a3e64502a654efea6"
 }
