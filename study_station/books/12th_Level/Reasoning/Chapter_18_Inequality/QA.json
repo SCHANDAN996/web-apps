@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "96e62093c6d964d0d5fffb10e12d34409091950127bf5f18d0bb4f899c970aa7",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "47eec2466a072a8dba1ca3666f51c31b17e3904ad232cda0eaeb492c5af2958a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "de969db61866d472f2b94761298b2f8cb3bbed40995f535db29bfbaa07060e70",
+        "Content_hi.txt": "70159c6abc8682f0418d08aa287d329dd71013b48ad0063c4dbbb965578b91ea",
+        "Feynman_en.txt": "b6864436e77ca6f9f44e4c1048f6e61b9e062aa23f25ffffb698a32fd15772fd",
+        "Feynman_hi.txt": "889bdd3faf20ec698f105c8721d0045389c554dfe91f51c81fa4b00bc9a21726",
+        "Flashcards_en.txt": "93af7f194e3c5fa3c0faf4035e50a2221fa36cfe5ed4b1bc5cbd9518c6f036cd",
+        "Flashcards_hi.txt": "27247e6704b475867dae87ec68f24222aee25fdce9b2652f06f634c1884caffe",
+        "Important_Rules_en.txt": "8cff28dc9737de9dcbe594bb0f94bae52fa2479100dbff73c38981dd26138836",
+        "Important_Rules_hi.txt": "c671ec61d8942642b982d41b74c8c56c4f415e04b9e85aa8f3cf089eb8c157c8",
+        "Mind_Map.txt": "a74df9db50e96f807a334b4372fb97ef807501dae9d70fe626f499b1a4a26c06",
+        "PYQ_en.txt": "f5ddcdfe58b6d8f76f9d5f8cca7eeb0cf034ba9675c7bafbea8f74acd98c1657",
+        "PYQ_hi.txt": "edccda7ebc28d0301cd2084219f041421ec644dd7f2d60ea943e3be6eb1a8ff1",
+        "Practice_en_Set_01.txt": "de9691a6da1eb4155a02fa75224ac7d5ffd7c7c54bdf0a3c73ff818261568771",
+        "Practice_en_Set_02.txt": "d1047700009ed022eb713d215c952cb3ed6f6212a4cc74327ad1d3848453e765",
+        "Practice_en_Set_03.txt": "692d04bad806dbb7a2256c51f82cdd5d642d588eb9408405697744993b5d6b89",
+        "Practice_en_Set_04.txt": "81f00da1b4d6f176bd54675ade1e8e50c16364039ebb59a92ee544e1a37ac5dd",
+        "Practice_en_Set_05.txt": "68043dde80b288056fd24cd5bc27bd251c3eadb9cfaa033b0e5bb59753b351f5",
+        "Practice_en_Set_06.txt": "f838a9d8457921e06969866c893931c2ba391066eb8c954b563686ed77845de2",
+        "Practice_hi_Set_01.txt": "ab30c0a3b77d095b040c25885dc235adf44bda49a5d18ca812e371a93d58bce4",
+        "Practice_hi_Set_02.txt": "a3b867bf28f258709a253443448557216676690c68232e3385f9d0106821b10b",
+        "Practice_hi_Set_03.txt": "bc0c33135d0ebd879b48e6ab1cb84389117afa3af0689496730e6ca20f0e9f7f",
+        "Practice_hi_Set_04.txt": "1deabce4f634eb0597fa21bed2004bb7f49f6ae26d700e404b29f6bc3c476c3a",
+        "Practice_hi_Set_05.txt": "c0ce4033c4c35e8e11352d09b5635c361a5ac7a99b74537a401c3ef1e626d038",
+        "Practice_hi_Set_06.txt": "a5fa0532138806db408a2cbaf6da3c4733ca8862625f473097c660181755d994",
+        "Short_Tricks_en.txt": "f228e91021d73518767905ba3c07d36f082388507dacc377978d34dc6c0c6fbe",
+        "Short_Tricks_hi.txt": "aab202b7a24e22441c65367fe0afbace0f73a2ef4318119362eac114a5410fc3",
+        "inventory": {
+          "Content_en.txt": "de969db61866d472f2b94761298b2f8cb3bbed40995f535db29bfbaa07060e70",
+          "Content_hi.txt": "70159c6abc8682f0418d08aa287d329dd71013b48ad0063c4dbbb965578b91ea",
+          "Feynman_en.txt": "b6864436e77ca6f9f44e4c1048f6e61b9e062aa23f25ffffb698a32fd15772fd",
+          "Feynman_hi.txt": "889bdd3faf20ec698f105c8721d0045389c554dfe91f51c81fa4b00bc9a21726",
+          "Flashcards_en.txt": "93af7f194e3c5fa3c0faf4035e50a2221fa36cfe5ed4b1bc5cbd9518c6f036cd",
+          "Flashcards_hi.txt": "27247e6704b475867dae87ec68f24222aee25fdce9b2652f06f634c1884caffe",
+          "Important_Rules_en.txt": "8cff28dc9737de9dcbe594bb0f94bae52fa2479100dbff73c38981dd26138836",
+          "Important_Rules_hi.txt": "c671ec61d8942642b982d41b74c8c56c4f415e04b9e85aa8f3cf089eb8c157c8",
+          "Mind_Map.txt": "a74df9db50e96f807a334b4372fb97ef807501dae9d70fe626f499b1a4a26c06",
+          "PYQ_en.txt": "f5ddcdfe58b6d8f76f9d5f8cca7eeb0cf034ba9675c7bafbea8f74acd98c1657",
+          "PYQ_hi.txt": "edccda7ebc28d0301cd2084219f041421ec644dd7f2d60ea943e3be6eb1a8ff1",
+          "Practice_en_Set_01.txt": "de9691a6da1eb4155a02fa75224ac7d5ffd7c7c54bdf0a3c73ff818261568771",
+          "Practice_en_Set_02.txt": "d1047700009ed022eb713d215c952cb3ed6f6212a4cc74327ad1d3848453e765",
+          "Practice_en_Set_03.txt": "692d04bad806dbb7a2256c51f82cdd5d642d588eb9408405697744993b5d6b89",
+          "Practice_en_Set_04.txt": "81f00da1b4d6f176bd54675ade1e8e50c16364039ebb59a92ee544e1a37ac5dd",
+          "Practice_en_Set_05.txt": "68043dde80b288056fd24cd5bc27bd251c3eadb9cfaa033b0e5bb59753b351f5",
+          "Practice_en_Set_06.txt": "f838a9d8457921e06969866c893931c2ba391066eb8c954b563686ed77845de2",
+          "Practice_hi_Set_01.txt": "ab30c0a3b77d095b040c25885dc235adf44bda49a5d18ca812e371a93d58bce4",
+          "Practice_hi_Set_02.txt": "a3b867bf28f258709a253443448557216676690c68232e3385f9d0106821b10b",
+          "Practice_hi_Set_03.txt": "bc0c33135d0ebd879b48e6ab1cb84389117afa3af0689496730e6ca20f0e9f7f",
+          "Practice_hi_Set_04.txt": "1deabce4f634eb0597fa21bed2004bb7f49f6ae26d700e404b29f6bc3c476c3a",
+          "Practice_hi_Set_05.txt": "c0ce4033c4c35e8e11352d09b5635c361a5ac7a99b74537a401c3ef1e626d038",
+          "Practice_hi_Set_06.txt": "a5fa0532138806db408a2cbaf6da3c4733ca8862625f473097c660181755d994",
+          "Short_Tricks_en.txt": "f228e91021d73518767905ba3c07d36f082388507dacc377978d34dc6c0c6fbe",
+          "Short_Tricks_hi.txt": "aab202b7a24e22441c65367fe0afbace0f73a2ef4318119362eac114a5410fc3"
+        }
+      },
+      "checked_at": "2026-11-21T08:48:59+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "29d1b040b4a963bf58feb2d3bc3e0089d002aed42a54586e6a86f48df6d6c68f",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The complementary pair list in Chunk 4 excludes `>` and `=` (for `≥`) and `<` and `=` (for `≤`), yet the following example and active recall use these pairs as valid either-or cases. → Add `>` and `=` and `<` and `=` to the list of complementary pairs, or clarify that the list is not exhaustive."
+      ],
+      "dependencies": {
+        "chapter.json": "47eec2466a072a8dba1ca3666f51c31b17e3904ad232cda0eaeb492c5af2958a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "de969db61866d472f2b94761298b2f8cb3bbed40995f535db29bfbaa07060e70"
+      },
+      "checked_at": "2026-11-21T08:50:21+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "b8b7582cdb1bf1df02f018b3f4e1f5d35d0e2ff548b6d61375f3950e75be99b9",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "47eec2466a072a8dba1ca3666f51c31b17e3904ad232cda0eaeb492c5af2958a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "de969db61866d472f2b94761298b2f8cb3bbed40995f535db29bfbaa07060e70",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T08:50:21+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "81ceae74ff2057da1781b436067cdff9d917227147a937e056d6dbf73a7f70ec",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- In Part 4, the complementary pairs list is wrong: it includes a garbled third bullet “= और ≠ के जोड़े जैसे: > और < के साथ = (तीनों मिलकर पूरक — कुछ प्रश्नों में 'A > B या A ≤ B' का जोड़ा)” which incorrectly describes three relations as complementary and gives a mismatched example. → The correct complementary pairs are > & ≤, < & ≥, = & ≠. For Either-Or, when the statement gives ≥, the pair > and = is also considered complementary (covering all possibilities), but this is a special case and should be explained separately."
+      ],
+      "dependencies": {
+        "chapter.json": "47eec2466a072a8dba1ca3666f51c31b17e3904ad232cda0eaeb492c5af2958a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "70159c6abc8682f0418d08aa287d329dd71013b48ad0063c4dbbb965578b91ea"
+      },
+      "checked_at": "2026-11-21T08:53:39+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T08:53:39+00:00",
+  "chapter_fingerprint": "c0cf098747276cfd78764c77f8e03e91f273ccf983c84937bf53d22cc220a1ad"
+}
