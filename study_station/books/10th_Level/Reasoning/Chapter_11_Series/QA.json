@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "73d0847b7800080304bc3ea7abce16e50baa67b502fb1c8e33c476c84da43787",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "f8664affec515fff8c928eb7537f6b9ef7ca4776bde3b31dbedcaca49823acc1",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "8053beede941d71fb9fca99443ca276f6c04945ac5b75b63cb3c67a5c10c4025",
+        "Content_hi.txt": "4affa48529df16d01af04eeafa71f7ea0947c7fd04ddcda721921cfd62c39ca3",
+        "Feynman_en.txt": "2e2b938bc3756d320a171f594676bb9cc35fdbd9d4c30d6caea35e553ccba574",
+        "Feynman_hi.txt": "9adb91935433c47b19df6941fdd16bbd210d8711f81a21b690116a49d08781cd",
+        "Flashcards_en.txt": "bc704249e1510cb14841769c978c2f05c4db543fca9dd32a60447359c2e89ce8",
+        "Flashcards_hi.txt": "ab8d312abf6d789cf4c8bf58b19f7b05b26d335c9ac35c45b3d92896cba168a8",
+        "Important_Rules_en.txt": "dfc2899965d6785e39835c0e755897b012fc53be89916daabb49e3aad29f4591",
+        "Important_Rules_hi.txt": "a35fedc701bd5dbe062f863e893d9ab83312b3848267d3bce70b0f9a6324f6af",
+        "Mind_Map.txt": "25ac45f0579fbfc11af8c2a41dfcd49acefc6bcccbdc2d84f99703ceea0b45c9",
+        "PYQ_en.txt": "075211679986fb94c3beb290d1b5648feb5f3f0906ac1e9d453a4c8476c017fb",
+        "PYQ_hi.txt": "a8c38d2dfa4c692f0af144ba23d22da1238ea27e02cbfed6f1fd1efc41173d0b",
+        "Practice_en_Set_01.txt": "0c0f653d23ede01e4aba8ed54a39f7a58e7a837b444ec2977981b189b8becc60",
+        "Practice_en_Set_02.txt": "0a385db50d4baa3797d93290d467e85e0bd22a7b529d878c12278bc43b0dcb55",
+        "Practice_en_Set_03.txt": "5c9c659b543b3718b20e3ace26ecf9debbf634a2c3216f06d2df709eea03924b",
+        "Practice_en_Set_04.txt": "50679a4831ea28fb9f793d9c2015a8d2f12d0568bb2f5b69cbd9975624f5b2c7",
+        "Practice_en_Set_05.txt": "01090096638caaa49f10a6c334fe8e4633415015bfffbe41f151d18592047964",
+        "Practice_en_Set_06.txt": "5457a5f7e06424e781cf734507378982f1d4885ce87069dc2a46b49c77b0acdf",
+        "Practice_hi_Set_01.txt": "fcc7fb5435b7059af766e8672f71267da84a1335461bc1f3c1ba5886abea84e4",
+        "Practice_hi_Set_02.txt": "e283cc8941c0b1cadc33875d2012ba60c64e5fa66818e7f889c8a8c0e6a073f0",
+        "Practice_hi_Set_03.txt": "24695523314b9ee0187017ab26e2f5142dbaa8ccc74115b0a6c7324744b2be5e",
+        "Practice_hi_Set_04.txt": "085070968be188b9c34d74cf104a42ec903e205b22186c918163001932f9c6a2",
+        "Practice_hi_Set_05.txt": "94136f73f3b0063fcd859d7e8b0feb12783bc29045f7961f4f5a2d0978609beb",
+        "Practice_hi_Set_06.txt": "02f7969436203575878a8558945c95006a06b4c27ad7e8592603a546ad5e7007",
+        "Short_Tricks_en.txt": "8ce947c4e943842447fde5efc996575867b0e53363bc0e46881f83bb34cd001e",
+        "Short_Tricks_hi.txt": "9e1f9fd18fa5814716149a27393f478efdd1e20a0a2905e4c569033eff1d24c1",
+        "inventory": {
+          "Content_en.txt": "8053beede941d71fb9fca99443ca276f6c04945ac5b75b63cb3c67a5c10c4025",
+          "Content_hi.txt": "4affa48529df16d01af04eeafa71f7ea0947c7fd04ddcda721921cfd62c39ca3",
+          "Feynman_en.txt": "2e2b938bc3756d320a171f594676bb9cc35fdbd9d4c30d6caea35e553ccba574",
+          "Feynman_hi.txt": "9adb91935433c47b19df6941fdd16bbd210d8711f81a21b690116a49d08781cd",
+          "Flashcards_en.txt": "bc704249e1510cb14841769c978c2f05c4db543fca9dd32a60447359c2e89ce8",
+          "Flashcards_hi.txt": "ab8d312abf6d789cf4c8bf58b19f7b05b26d335c9ac35c45b3d92896cba168a8",
+          "Important_Rules_en.txt": "dfc2899965d6785e39835c0e755897b012fc53be89916daabb49e3aad29f4591",
+          "Important_Rules_hi.txt": "a35fedc701bd5dbe062f863e893d9ab83312b3848267d3bce70b0f9a6324f6af",
+          "Mind_Map.txt": "25ac45f0579fbfc11af8c2a41dfcd49acefc6bcccbdc2d84f99703ceea0b45c9",
+          "PYQ_en.txt": "075211679986fb94c3beb290d1b5648feb5f3f0906ac1e9d453a4c8476c017fb",
+          "PYQ_hi.txt": "a8c38d2dfa4c692f0af144ba23d22da1238ea27e02cbfed6f1fd1efc41173d0b",
+          "Practice_en_Set_01.txt": "0c0f653d23ede01e4aba8ed54a39f7a58e7a837b444ec2977981b189b8becc60",
+          "Practice_en_Set_02.txt": "0a385db50d4baa3797d93290d467e85e0bd22a7b529d878c12278bc43b0dcb55",
+          "Practice_en_Set_03.txt": "5c9c659b543b3718b20e3ace26ecf9debbf634a2c3216f06d2df709eea03924b",
+          "Practice_en_Set_04.txt": "50679a4831ea28fb9f793d9c2015a8d2f12d0568bb2f5b69cbd9975624f5b2c7",
+          "Practice_en_Set_05.txt": "01090096638caaa49f10a6c334fe8e4633415015bfffbe41f151d18592047964",
+          "Practice_en_Set_06.txt": "5457a5f7e06424e781cf734507378982f1d4885ce87069dc2a46b49c77b0acdf",
+          "Practice_hi_Set_01.txt": "fcc7fb5435b7059af766e8672f71267da84a1335461bc1f3c1ba5886abea84e4",
+          "Practice_hi_Set_02.txt": "e283cc8941c0b1cadc33875d2012ba60c64e5fa66818e7f889c8a8c0e6a073f0",
+          "Practice_hi_Set_03.txt": "24695523314b9ee0187017ab26e2f5142dbaa8ccc74115b0a6c7324744b2be5e",
+          "Practice_hi_Set_04.txt": "085070968be188b9c34d74cf104a42ec903e205b22186c918163001932f9c6a2",
+          "Practice_hi_Set_05.txt": "94136f73f3b0063fcd859d7e8b0feb12783bc29045f7961f4f5a2d0978609beb",
+          "Practice_hi_Set_06.txt": "02f7969436203575878a8558945c95006a06b4c27ad7e8592603a546ad5e7007",
+          "Short_Tricks_en.txt": "8ce947c4e943842447fde5efc996575867b0e53363bc0e46881f83bb34cd001e",
+          "Short_Tricks_hi.txt": "9e1f9fd18fa5814716149a27393f478efdd1e20a0a2905e4c569033eff1d24c1"
+        }
+      },
+      "checked_at": "2026-11-21T06:39:58+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "1e5f1059725368efae8c4c9b070660b41f4efd3ecb0765ff7db009e2dcee74c0",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- In Examiner's Trap 2, the series 2, 4, 8, 16, 31 is incorrectly described as revealing a cubic pattern; its third differences (2, 3) are not constant, so it is not cubic. → Correct the description to say the pattern is not cubic (e.g., it is a higher‑order pattern or simply that the simple multiplication fails)."
+      ],
+      "dependencies": {
+        "chapter.json": "f8664affec515fff8c928eb7537f6b9ef7ca4776bde3b31dbedcaca49823acc1",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "8053beede941d71fb9fca99443ca276f6c04945ac5b75b63cb3c67a5c10c4025"
+      },
+      "checked_at": "2026-11-21T06:44:58+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "0136855682a02fb5326340509dbcd7f9a4e48824bd896e2d72e067353e47b7f0",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "f8664affec515fff8c928eb7537f6b9ef7ca4776bde3b31dbedcaca49823acc1",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "8053beede941d71fb9fca99443ca276f6c04945ac5b75b63cb3c67a5c10c4025",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T06:44:58+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "412d9546c437ffd9ed597cf8e48a6f5fd3695770128f77a16da9a3c131979841",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- In Trap 2, the series 2, 4, 8, 16, 31 is incorrectly presented as a cubic pattern emerging from differences of differences; the cubic continuation (constant third difference) of 2, 4, 8, 16 is 30, not 31 → Correct the example to show a valid cubic pattern (e.g., 2, 4, 8, 16, 30) or clarify that 31 comes from a different, non‑cubic pattern."
+      ],
+      "dependencies": {
+        "chapter.json": "f8664affec515fff8c928eb7537f6b9ef7ca4776bde3b31dbedcaca49823acc1",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "4affa48529df16d01af04eeafa71f7ea0947c7fd04ddcda721921cfd62c39ca3"
+      },
+      "checked_at": "2026-11-21T06:46:01+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T06:46:01+00:00",
+  "chapter_fingerprint": "0dcbe91523b4f3aa81b3ce8f3a3dec21ec9386278eacfe6ed09fa04658740901"
+}
