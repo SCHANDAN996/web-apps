@@ -1,34 +1,35 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 11:04 AM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 11:05 AM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 12 मिनट |
-| W10 | Chapter 08 excel (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W11 | Chapter 02 input output ports (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W12 | Chapter 05 windows files (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W2 | Chapter 15 vakya shuddhi (10th Hindi) | 🔎 review हो रहा है | 12 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 12 मिनट |
-| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W5 | Chapter 07 word (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W7 | Chapter 08 samas (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W8 | Chapter 05 ling vachan karak (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W9 | Chapter 04 software os (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 13 मिनट |
+| W10 | Chapter 08 excel (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W11 | Chapter 02 input output ports (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W12 | Chapter 05 windows files (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W2 | Chapter 15 vakya shuddhi (10th Hindi) | 🔎 review हो रहा है | 13 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 13 मिनट |
+| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W5 | Chapter 07 word (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W6 | Chapter 09 upsarg pratyay (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W7 | Chapter 08 samas (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W8 | Chapter 05 ling vachan karak (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W9 | Chapter 04 software os (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 6 |
-| key 4 | 12 |
-| key 5 | 8 |
-| key 6 | 1 |
+| key 4 | 13 |
+| key 5 | 9 |
+| key 6 | 2 |
 
 ## किताबों की प्रगति
 
@@ -58,8 +59,8 @@
 
 | किताब | QA पास | जाँच बाकी | प्रमाण बाकी | सुधार अटका | मैनुअल | जाँचें पास / कुल |
 |---|---:|---:|---:|---:|---:|---:|
-| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 13/540 |
-| 12th Computer | 0 | 14 | 0 | 0 | 0 | 12/1092 |
+| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 14/540 |
+| 12th Computer | 0 | 14 | 0 | 0 | 0 | 14/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 0/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 0/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 0/1606 |
@@ -72,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 25/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 28/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -82,13 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 10:58:18   [memory_storage_backup] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
-21-11 10:58:18 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_03_memory_storage_backup: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- RAID खंड में "रिडंडेंसी (यथार्थता)" लिखा है; "यथार्थता" का अर्थ "accuracy" होता है, "redundancy" का नहीं → "रिडंडेंसी (अतिरेक)" या केवल "रिडंडेंसी" लिखें']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_03_memory_storage_backup/QA.json'}
-21-11 10:58:57   [varn_vartani] QA blocked: editorial:Feynman_hi.txt
-21-11 10:58:57   [varn_vartani] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 1, "pending": 32, "blocked": 2, "needs_reference": 1, "remaining": 35, 
-21-11 10:58:57 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 1, 'pending': 32, 'blocked': 2, 'needs_reference': 1, 'remaining': 35, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Section 3.1 Matra table: examples for इ (ि) and ई (ी) are incorrect — they show mismatched wrong forms marked अशुद्ध (e.g., “फल→फिल”, “फूल→फुल”) instead of valid usage examples → Replace with correct examples: इ मात्रा (ि) – “कि”, “पित”, “मिलन”; ई मात्रा (ी) – “सीता”, “नील”, “पानी”']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- In the "वर्तनी के सामान्य नियम" table, first row, the "गलत" column lists "हंसना (हंस पक्षी)" as incorrect, but "हंसना" is a valid Hindi word (हंस + ना) meaning "swan-related"; the table should clarify that for the sense "मुस्कराना" the correct spelling is "हँसना" (with चंद्रबिंदु), not that "हंसना" is universally wrong. → The table must distinguish meanings: for "मुस्कराना" write "हँसना"; "हंसना" is correct for "हंस पक्षी".', '- In Q18 and Q46 explanations, "हंसना" is called अशुद्ध, but "हंसना" (हंस + ना) is a correctly spelled word; the explanation should state that "हँसना" (चंद्रबिंदु) is the correct form for the verb "to laugh", while "हंसना" is a different valid word. → Explanation must note the meaning difference: "हँसना" = मुस्कराना, "हंसना" = हंस पक्षी से संबंधित; both are valid spellings for their respective senses.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_01_varn_vartani/QA.json'}
-21-11 10:58:58   [shabd_bhed] QA passed: editorial:Feynman_hi.txt
-21-11 10:58:58   [shabd_bhed] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 2, "pending": 32, "blocked": 1, "needs_reference": 1, "remaining": 34, 
 21-11 10:58:59 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_02_shabd_bhed: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 2, 'pending': 32, 'blocked': 1, 'needs_reference': 1, 'remaining': 34, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- "इसलिए" is incorrectly listed under कारणवाचक (causal) conjunctions in the समुच्चयबोधक section; it is a परिणामवाचक (consequential) conjunction → Remove "इसलिए" from the कारणवाचक list (keep it only under परिणामवाचक).']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_02_shabd_bhed/QA.json'}
 21-11 10:59:04   [organization_cpu] QA blocked: editorial:Content_en.txt
 21-11 10:59:04   [organization_cpu] QA needs_reference: sources:Content_en.txt
@@ -122,6 +116,13 @@
 21-11 11:05:02 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 1, 'pending': 32, 'blocked': 2, 'needs_reference': 1, 'remaining': 35, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- The 'महत्वपूर्ण' note under वचन incorrectly lists 'दरवाजा → दरवाजे' and 'कपड़ा → कपड़े' as words that remain identical in both numbers (invariant), but they actually change in the plural (आ→ए) → Remove them from the invariant list or change the heading to indicate they are regular plural examples.", "- In लिंग-परिवर्तन rule 4, the suffix pattern 'ई/इका/इका' is wrong: it duplicates 'इका' and includes 'ई' which does not apply to the given examples (अध्यापक→अध्यापिका, सेवक→सेविका use only 'इका') → Correct to 'इका जुड़ता है' or 'इका/इकी जुड़ता है'."]}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- In the plural rules table (section 2), rule 2 incorrectly states "आकारांत स्त्रीलिंग → एँ" with example "लड़की"; "लड़की" is ईकारांत, not आकारांत. → Rule should be "ईकारांत स्त्रीलिंग → एँ" or "आ/ईकारांत स्त्रीलिंग → एँ".', '- In the mind map (section 7), node C2b repeats the same error: "आकारांत स्त्रीलिंग → एँ". → Change to "ईकारांत स्त्रीलिंग → एँ".', '- In flashcard 3 (section 8), the explanation for "लड़की" plural says "(आकारांत स्त्रीलिंग → एँ)"; "लड़की" is ईकारांत. → Change to "(ईकारांत स्त्रीलिंग → एँ)".', '- In the mind map (section 7), node B3 lists "गुरु" as an exception (अपवाद) for gender; "गुरु" is a regular masculine noun (उकारांत nouns are predominantly masculine), not an exception. → Remove "गुरु" from exceptions or clarify that उकारांत nouns are usually masculine.', '- In flashcard 17 (section 8), the answer for "गुरु" gender says "(उकारांत पुल्लिंग अपवाद)"; this misstates that masculine उकारांत is exceptional. → Change to "(उकारांत पुल्लिंग, सामान्य नियम)".']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak/QA.json'}
 21-11 11:05:05   [excel] QA passed: editorial:Content_en.txt
 21-11 11:05:05   [excel] QA needs_reference: sources:Content_en.txt
+21-11 11:05:07   [powerpoint] QA passed: structure
+21-11 11:05:27   [software_os] QA passed: editorial:Content_en.txt
+21-11 11:05:27   [software_os] QA needs_reference: sources:Content_en.txt
+21-11 11:05:44   [word] QA blocked: editorial:Content_en.txt
+21-11 11:05:44   [word] QA needs_reference: sources:Content_en.txt
+21-11 11:05:47   [vakya_shuddhi] review: 1 section(s) corrected, 0 failed
+21-11 11:05:47   [vakya_shuddhi] written 1, failed 0; AI calls today 40/100000
 ````
 
 </details>

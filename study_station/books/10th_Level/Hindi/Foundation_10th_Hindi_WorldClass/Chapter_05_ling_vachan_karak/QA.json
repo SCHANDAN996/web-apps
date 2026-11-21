@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "84819242a04b41d8ef0f8a50dd4dec72e8cc789ba279d6de669a0c5dca20b2d7",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "c4a0aa2e4dc84822c676d0f3f7121839d8e7bca6118af8718bdf1c972edae709",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Content_hi.txt": "4c454e0738bb0f27f7828092ce55738578be72ed220012d0a25c73ce54216eb9",
+        "Feynman_hi.txt": "ebe5cc84459d91f675c4198d750b383687f8f58ce3fa8a203ced3b9871ee1453",
+        "Flashcards_hi.txt": "87a204cfd89b5152137744b42886483f730f6e1017de60025a39d5350c3d79f6",
+        "Important_Rules_hi.txt": "d82f1e0ce7d98f69d5a86fc976ba8a46dc4005001b5b24143a31e10a1608d70f",
+        "Key_Facts_hi.txt": "c80b7d189cde34a924a236a9607ccce2424524705bc5f95c6411ebc9dad1e495",
+        "Mind_Map.txt": "8179d1bf70bb1e6a7eeb61053c7186e665cb88b3779d15f754d7ea9232fd76d1",
+        "PYQ_hi.txt": "b6b22c8b734fbae36fca8079104d55bdfb83fdb2c4dee4345004f88285bfb622",
+        "Practice_hi_Set_01.txt": "790e8e2065787615a8500445572880f945b24ad79ed8cf6474ab2568422cefc3",
+        "Practice_hi_Set_02.txt": "256ef19982fb0c8480e20f9976f7559fbecf60089b823e7cdd071d1033fa1cd1",
+        "Practice_hi_Set_03.txt": "b9b2bd4b9527924023f1bd2df1bc7245c50d378ba1ad88acddf7f175c9940bea",
+        "Practice_hi_Set_04.txt": "b5e9743340a55717bf6814767d338363fb231e08d00d5bf15040d58445417a05",
+        "Practice_hi_Set_05.txt": "fe15811e6b4d11662a8154881c9dd2e107d7d861ddc0f6fa304e66fa47d80e3a",
+        "Practice_hi_Set_06.txt": "91c2caa844c191602e21f1bf56de31d6dadfc770540c018e761f5d02807685c7",
+        "inventory": {
+          "Content_hi.txt": "4c454e0738bb0f27f7828092ce55738578be72ed220012d0a25c73ce54216eb9",
+          "Feynman_hi.txt": "ebe5cc84459d91f675c4198d750b383687f8f58ce3fa8a203ced3b9871ee1453",
+          "Flashcards_hi.txt": "87a204cfd89b5152137744b42886483f730f6e1017de60025a39d5350c3d79f6",
+          "Important_Rules_hi.txt": "d82f1e0ce7d98f69d5a86fc976ba8a46dc4005001b5b24143a31e10a1608d70f",
+          "Key_Facts_hi.txt": "c80b7d189cde34a924a236a9607ccce2424524705bc5f95c6411ebc9dad1e495",
+          "Mind_Map.txt": "8179d1bf70bb1e6a7eeb61053c7186e665cb88b3779d15f754d7ea9232fd76d1",
+          "PYQ_hi.txt": "b6b22c8b734fbae36fca8079104d55bdfb83fdb2c4dee4345004f88285bfb622",
+          "Practice_hi_Set_01.txt": "790e8e2065787615a8500445572880f945b24ad79ed8cf6474ab2568422cefc3",
+          "Practice_hi_Set_02.txt": "256ef19982fb0c8480e20f9976f7559fbecf60089b823e7cdd071d1033fa1cd1",
+          "Practice_hi_Set_03.txt": "b9b2bd4b9527924023f1bd2df1bc7245c50d378ba1ad88acddf7f175c9940bea",
+          "Practice_hi_Set_04.txt": "b5e9743340a55717bf6814767d338363fb231e08d00d5bf15040d58445417a05",
+          "Practice_hi_Set_05.txt": "fe15811e6b4d11662a8154881c9dd2e107d7d861ddc0f6fa304e66fa47d80e3a",
+          "Practice_hi_Set_06.txt": "91c2caa844c191602e21f1bf56de31d6dadfc770540c018e761f5d02807685c7"
+        }
+      },
+      "checked_at": "2026-11-21T05:23:06+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "4ba9eac7f1f7456f1002b409a6ec9b81d9ce4b20ec342cfb9d3d891163a29c8d",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The 'महत्वपूर्ण' note under वचन incorrectly lists 'दरवाजा → दरवाजे' and 'कपड़ा → कपड़े' as words that remain identical in both numbers (invariant), but they actually change in the plural (आ→ए) → Remove them from the invariant list or change the heading to indicate they are regular plural examples.",
+        "- In लिंग-परिवर्तन rule 4, the suffix pattern 'ई/इका/इका' is wrong: it duplicates 'इका' and includes 'ई' which does not apply to the given examples (अध्यापक→अध्यापिका, सेवक→सेविका use only 'इका') → Correct to 'इका जुड़ता है' or 'इका/इकी जुड़ता है'."
+      ],
+      "dependencies": {
+        "chapter.json": "c4a0aa2e4dc84822c676d0f3f7121839d8e7bca6118af8718bdf1c972edae709",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Content_hi.txt": "4c454e0738bb0f27f7828092ce55738578be72ed220012d0a25c73ce54216eb9"
+      },
+      "checked_at": "2026-11-21T05:28:14+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "3cd91990a400870ce077f4fa524dacd63925eb7959fc05534d241cc050f7e7a2",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "c4a0aa2e4dc84822c676d0f3f7121839d8e7bca6118af8718bdf1c972edae709",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Content_hi.txt": "4c454e0738bb0f27f7828092ce55738578be72ed220012d0a25c73ce54216eb9",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T05:28:14+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "359ac9c5fed88d08580bcadead9607be1ff59c12dbd852e66ee87504fe7b0c1a",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- In the plural rules table (section 2), rule 2 incorrectly states \"आकारांत स्त्रीलिंग → एँ\" with example \"लड़की\"; \"लड़की\" is ईकारांत, not आकारांत. → Rule should be \"ईकारांत स्त्रीलिंग → एँ\" or \"आ/ईकारांत स्त्रीलिंग → एँ\".",
+        "- In the mind map (section 7), node C2b repeats the same error: \"आकारांत स्त्रीलिंग → एँ\". → Change to \"ईकारांत स्त्रीलिंग → एँ\".",
+        "- In flashcard 3 (section 8), the explanation for \"लड़की\" plural says \"(आकारांत स्त्रीलिंग → एँ)\"; \"लड़की\" is ईकारांत. → Change to \"(ईकारांत स्त्रीलिंग → एँ)\".",
+        "- In the mind map (section 7), node B3 lists \"गुरु\" as an exception (अपवाद) for gender; \"गुरु\" is a regular masculine noun (उकारांत nouns are predominantly masculine), not an exception. → Remove \"गुरु\" from exceptions or clarify that उकारांत nouns are usually masculine.",
+        "- In flashcard 17 (section 8), the answer for \"गुरु\" gender says \"(उकारांत पुल्लिंग अपवाद)\"; this misstates that masculine उकारांत is exceptional. → Change to \"(उकारांत पुल्लिंग, सामान्य नियम)\"."
+      ],
+      "dependencies": {
+        "chapter.json": "c4a0aa2e4dc84822c676d0f3f7121839d8e7bca6118af8718bdf1c972edae709",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Feynman_hi.txt": "ebe5cc84459d91f675c4198d750b383687f8f58ce3fa8a203ced3b9871ee1453"
+      },
+      "checked_at": "2026-11-21T05:35:02+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T05:35:02+00:00",
+  "chapter_fingerprint": "4e56dc8a5b8ccafd3bad516e0a485415f5016d6050eda67d9c5a94875b1094d7"
+}
