@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 04:44 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 04:45 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,25 +11,25 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 65 मिनट |
-| W10 | Chapter 21 Paper Folding Cutting (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W11 | Chapter 02 LCM HCF (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W12 | Chapter 20 Mirror Water Images (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 65 मिनट |
-| W3 | Chapter 01 Number System (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 66 मिनट |
+| W10 | Chapter 21 Paper Folding Cutting (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W11 | Chapter 02 LCM HCF (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W12 | Chapter 20 Mirror Water Images (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 66 मिनट |
+| W3 | Chapter 01 Number System (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
 | W4 | Chapter 22 Figure Series (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W5 | Chapter 06 Average (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W6 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W7 | Chapter 04 Fractions Decimals (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W8 | Chapter 03 Simplification (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W9 | Chapter 05 Percentage (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W5 | Chapter 06 Average (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W6 | Chapter 07 Ratio Proportion (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W7 | Chapter 04 Fractions Decimals (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W8 | Chapter 03 Simplification (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W9 | Chapter 05 Percentage (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 47 |
-| key 4 | 53 |
-| key 5 | 44 |
-| key 6 | 32 |
+| key 4 | 54 |
+| key 5 | 45 |
+| key 6 | 33 |
 
 ## किताबों की प्रगति
 
@@ -63,7 +63,7 @@
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 52/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 76/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 83/1716 |
-| 10th Maths | 0 | 22 | 0 | 0 | 0 | 71/1606 |
+| 10th Maths | 0 | 22 | 0 | 0 | 0 | 72/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 606/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 607/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,10 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 16:40:31   [sandhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q30 key a vs re-solve d, Q32 key b vs re-solve a, Q35 key c vs re-solve ?, Q36 key b vs re-solve a, 
-21-11 16:41:04   [Simplification] QA needs_reference: sources:Content_hi.txt
-21-11 16:41:16   [Number_System] QA passed: editorial:Feynman_en.txt
-21-11 16:41:16   [Number_System] QA needs_reference: sources:Feynman_en.txt
 21-11 16:41:29   [Mirror_Water_Images] QA blocked: editorial:Feynman_hi.txt
 21-11 16:41:29   [Mirror_Water_Images] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 70, "blocked": 3, "needs_reference": 3, "remaining": 76, 
 21-11 16:41:29 QA 10th_Level/Reasoning/Chapter_20_Mirror_Water_Images: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 70, 'blocked': 3, 'needs_reference': 3, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Summary Table "What stays" column uses "Top ↔ Bottom" for Vertical Mirror and "Left ↔ Right" for Horizontal Mirror, implying these axes flip when they actually remain unchanged → For Vertical Mirror change "Top ↔ Bottom" to "Top/Bottom unchanged"; for Horizontal Mirror/Water Image change "Left ↔ Right" to "Left/Right unchanged"', '- Water Image symmetric letters list includes "S" as remaining the same; in standard exam reasoning (SSC, Banking, Railways) capital S is not horizontally symmetric → Remove "S" from the list; correct list: B, C, D, E, H, I, O, X']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- In the summary table, the row for 'अक्षर M (दर्पण)' incorrectly places 'वैसा ही रहता है' under the 'क्या पलटता है' column; it should be under 'क्या स्थिर रहता है' (with 'क्या पलटता है' as '–')."]}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- Mirror clock formula “12:00 – वास्तविक समय” is incorrect for times such as 12:30; the correct general formula is “11:60 – वास्तविक समय”.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_20_Mirror_Water_Images/QA.json'}
@@ -123,6 +119,10 @@
 21-11 16:44:55   [Ratio_Proportion] QA needs_reference: sources:Content_hi.txt
 21-11 16:45:26   [Average] QA passed: editorial:Feynman_en.txt
 21-11 16:45:26   [Average] QA needs_reference: sources:Feynman_en.txt
+21-11 16:45:30   [Profit_Loss] QA needs_reference: sources:Content_hi.txt
+21-11 16:46:05   [Average] QA passed: editorial:Feynman_hi.txt
+21-11 16:46:05   [Average] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 73, "passed": 5, "pending": 65, "blocked": 0, "needs_reference": 3, "remaining": 68, 
+21-11 16:46:06 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_06_Average: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 5, 'pending': 65, 'blocked': 0, 'needs_reference': 3, 'remaining': 68, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_06_Average/QA.json'}
 ````
 
 </details>
