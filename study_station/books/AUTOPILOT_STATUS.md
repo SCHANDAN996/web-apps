@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 04:05 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 04:06 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 26 मिनट |
-| W10 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W11 | Chapter 01 Ancient History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W12 | Chapter 14 muhavare lokokti (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 26 मिनट |
-| W3 | Chapter 13 ek shabd (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W4 | Chapter 17 apathit gadyansh (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W5 | Chapter 03 Modern History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W6 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W7 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W8 | Chapter 13 networking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W9 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 27 मिनट |
+| W10 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W11 | Chapter 01 Ancient History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W12 | Chapter 14 muhavare lokokti (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 27 मिनट |
+| W3 | Chapter 04 Constitution Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W4 | Chapter 17 apathit gadyansh (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W5 | Chapter 03 Modern History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W6 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W7 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W8 | Chapter 13 networking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W9 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 14 |
-| key 4 | 26 |
-| key 5 | 18 |
+| key 4 | 27 |
+| key 5 | 19 |
 | key 6 | 7 |
 
 ## किताबों की प्रगति
@@ -60,8 +60,8 @@
 | किताब | QA पास | जाँच बाकी | प्रमाण बाकी | सुधार अटका | मैनुअल | जाँचें पास / कुल |
 |---|---:|---:|---:|---:|---:|---:|
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 46/540 |
-| 12th Computer | 0 | 14 | 0 | 0 | 0 | 50/1092 |
-| 10th GK | 0 | 19 | 0 | 0 | 0 | 43/1482 |
+| 12th Computer | 0 | 14 | 0 | 0 | 0 | 52/1092 |
+| 10th GK | 0 | 19 | 0 | 0 | 0 | 44/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 526/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 529/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,12 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 16:00:47   [e_banking] QA blocked: editorial:Feynman_hi.txt
-21-11 16:00:59   [e_banking] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 2, "needs_reference": 3, "remaining": 75, 
-21-11 16:01:00 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_12_e_banking: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Tokenisation mandate date given as 1 January 2023 (in Card Networks & Tokenisation table and Examination Pointers) → Correct mandatory date is 1 October 2022 (after extensions from original 1 January 2022).', '- Security Framework point 4: limited liability for reporting within 4–7 working days stated as ₹5,000–₹25,000 → RBI circular specifies ₹5,000 for BSBDA/small accounts and ₹10,000 for other accounts (whichever is lower than transaction value).']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: | Tokenisation (RBI mandate, mandatory from 1 January 2023) | Security | Actual card number replaced by a token (device/merchant specific); PAN not stored by merchant. |', 'Fetch official supporting evidence for: - **Circular on Tokenisation (2021, 2022)** — Card-on-file tokenisation mandatory.', 'Fetch official supporting evidence for: **Solution**: Reporting within 3 working days of receiving the bank\'s transaction alert (Monday, Tuesday, Wednesday = 3 working days) attracts zero liability under RBI\'s "Customer Protection – Limiting Liability of Customers in Unauthorised Electronic Banking Transactions" (2017, updated 2021).', 'Fetch official supporting evidence for: - **Static reference dates**: NEFT 24×7 from 16 Dec 2019; RTGS 24×7 from 14 Dec 2020; tokenisation mandate Jan 2023 (mandatory from 1 Jan 2023); UPI 123Pay launch 2022; RuPay credit card on UPI (2022).']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: RBI Master Directions on Digital Payment Security Controls; NPCI product documentation; CERT-In advisories.']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- RBI नियम (खंड 3) में कार्ड-नॉट-प्रेजेंट लेन-देन के लिए AFA अनिवार्य होने का वर्ष 2018 बताया गया है → सही वर्ष 2011 है (RBI ने फरवरी 2011 में CNP लेन-देन के लिए अतिरिक्त प्रमाणीकरण अनिवार्य किया था)', '- Q4 (खंड 5) के उत्तर में भी AFA अनिवार्य होने का वर्ष 2018 बताया गया है → सही वर्ष 2011 है']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_12_e_banking/QA.json'}
-21-11 16:01:00   [vakya_shuddhi] QA needs_reference: sources:Feynman_hi.txt
-21-11 16:01:09   [ek_shabd] QA passed: editorial:Flashcards_hi.txt
-21-11 16:01:09   [ek_shabd] QA needs_reference: sources:Flashcards_hi.txt
 21-11 16:01:40   [paryayvachi] QA blocked: editorial:Important_Rules_hi.txt
 21-11 16:01:50   [cyber_security] QA passed: editorial:Feynman_hi.txt
 21-11 16:01:57   [paryayvachi] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 3, "pending": 28, "blocked": 2, "needs_reference": 3, "remaining": 33, 
@@ -123,6 +117,12 @@
 21-11 16:05:54 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_13_networking: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Wireless Standards table incorrectly labels 802.11b as Wi‑Fi 1, 802.11a as Wi‑Fi 2, and 802.11g as Wi‑Fi 3 → The Wi‑Fi Alliance generational numbering starts at Wi‑Fi 4 (802.11n); 802.11b/a/g have no official Wi‑Fi generation numbers.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_13_networking/QA.json'}
 21-11 16:05:56   [Ancient_History] QA passed: editorial:Feynman_en.txt
 21-11 16:05:56   [Ancient_History] QA needs_reference: sources:Feynman_en.txt
+21-11 16:06:18   [Ancient_History] QA passed: editorial:Feynman_hi.txt
+21-11 16:06:29   [Ancient_History] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
+21-11 16:06:29 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_01_Ancient_History: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: Nalanda University: The ancient mahavihara was destroyed around the end of the 12th century. A new Nalanda University was set up by an Act of Parliament in 2010; teaching began in 2014, and its new campus at Rajgir (Bihar) was inaugurated on 19 June 2024.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: सच्चाई: स्वर्ण युग का कारण सांस्कृतिक उन्नति (कालिदास, आर्यभट, मंदिर, मूर्तिकला) है। सिक्के अलग तथ्य हैं: NCERT के अनुसार पहले सोने के सिक्के लगभग पहली शताब्दी ईस्वी में कुषाणों ने जारी किए, जबकि सबसे शानदार सोने के सिक्के गुप्त शासकों ने जारी किए।']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_01_Ancient_History/QA.json'}
+21-11 16:06:30   [Polity] QA needs_reference: sources:Content_hi.txt
+21-11 16:06:50   [Constitution_Basic] QA passed: editorial:Feynman_en.txt
+21-11 16:06:50   [Constitution_Basic] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>
