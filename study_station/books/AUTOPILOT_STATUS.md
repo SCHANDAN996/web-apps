@@ -1,32 +1,33 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 01:38 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 01:40 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 167 मिनट |
-| W10 | Chapter 11 Chemistry (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W11 | Chapter 07 States Rivers (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W12 | Chapter 09 Economy Basic (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W2 | Chapter 10 Physics Daily (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W3 | Chapter 08 World Geography (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W4 | Chapter 06 Physical Geography (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W5 | Chapter 05 Polity (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W6 | Chapter 04 Constitution Basic (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W8 | Chapter 03 Modern History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W9 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 16 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 168 मिनट |
+| W10 | Chapter 11 Chemistry (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W11 | Chapter 07 States Rivers (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W12 | Chapter 09 Economy Basic (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W2 | Chapter 10 Physics Daily (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W3 | Chapter 08 World Geography (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W4 | Chapter 06 Physical Geography (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W5 | Chapter 05 Polity (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W6 | Chapter 04 Constitution Basic (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W7 | Chapter 12 Biology (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W8 | Chapter 03 Modern History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W9 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 17 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 90 |
-| key 4 | 82 |
+| key 4 | 83 |
 | key 5 | 104 |
 | key 6 | 73 |
 
@@ -65,14 +66,14 @@
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
-| 12th GK | 0 | 24 | 0 | 0 | 0 | 20/1872 |
+| 12th GK | 0 | 24 | 0 | 0 | 0 | 22/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 0/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 0/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 347/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 349/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,13 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 13:31:21 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_01_Ancient_History: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: Ancient history keeps returning to the news: the **Sarnath Lion Capital** and **Ashoka Chakra** appear in every debate on national symbols; **Nalanda University** has been revived as a modern international university in Bihar; and **Dholavira** was inscribed as a **UNESCO World Heritage Site in 2021** — the first Indus Valley site in India to get that tag. If a current-affairs question mentions these, connect it back here.']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- 'लाल पत्थर की दाढ़ी वाले पुजारी की मूर्ति' (हड़प्पा सभ्यता की विशेषताएँ) → दाढ़ी वाले पुजारी की मूर्ति स्टीटाइट (सोपस्टोन) की बनी है, लाल पत्थर की नहीं।", "- 'प्रांत = चक्र' (मौर्य प्रशासन तालिका) → मौर्य काल में प्रांत को 'जनपद' या 'अहार' कहा जाता था; 'चक्र' एक जिला-स्तरीय इकाई थी।"]}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_01_Ancient_History/QA.json'}
-21-11 13:31:32   [Modern_History] QA blocked: editorial:Content_en.txt
-21-11 13:31:33   [Modern_History] QA needs_reference: sources:Content_en.txt
-21-11 13:31:44   [sandhi] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q101 key d vs re-solve a, Q102 key b vs re-solve a, Q104 key c vs re-solve b, Q107 key b vs re-solve
-21-11 13:32:25   [Medieval_History] QA passed: editorial:Content_hi.txt
-21-11 13:32:25   [Medieval_History] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
-21-11 13:32:26 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_02_Medieval_History: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_02_Medieval_History/QA.json'}
 21-11 13:32:26   [Physical_Geography] QA passed: structure
 21-11 13:32:33   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q76 key b vs re-solve a, Q80 key a vs re-solve b, Q82 key c vs re-solve b, Q88 key a vs re-solve c, 
 21-11 13:33:10   [States_Rivers] QA passed: structure
@@ -126,6 +120,13 @@
 21-11 13:39:23   [Polity] QA passed: editorial:Content_hi.txt
 21-11 13:39:23   [Polity] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
 21-11 13:39:24 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_05_Polity: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The Active Recall answer in Section 1 incorrectly claims the temporary and permanent President of the Constituent Assembly are a "similar names" trap; the names (Sachchidananda Sinha and Rajendra Prasad) are not similar — the trap is about confusing the two roles, not similar names.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: - In the **Kesavananda Bharati case (1973)**, the Supreme Court held the Preamble is a **part of the Constitution**.', 'Fetch official supporting evidence for: - **Fundamental Duties (Article 51A, Part IVA):** added by the **42nd Amendment, 1976**, on the recommendation of the **Swaran Singh Committee**; inspired by the **USSR**. Originally 10 duties; the **11th** was added by the **86th Amendment, 2002** (parent/guardian to provide education to child aged 6–14).', "Fetch official supporting evidence for: - **Judicial review** and the **Basic Structure doctrine** (Kesavananda Bharati, 1973) keep Parliament's amending power in check.", 'Fetch official supporting evidence for: The **106th Constitutional Amendment (2023)** — the *Nari Shakti Vandan Adhiniyam* — provides one-third reservation for women in the Lok Sabha and State Assemblies. It will take effect after the next census and delimitation. When you study Articles 330/332 (reservation provisions), remember this living link — exams increasingly connect static Articles with recent amendments.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_05_Polity/QA.json'}
+21-11 13:40:24   [Physical_Geography] QA passed: editorial:Content_hi.txt
+21-11 13:40:28   [Physical_Geography] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
+21-11 13:40:29 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_06_Physical_Geography: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_06_Physical_Geography/QA.json'}
+21-11 13:40:29   [Awards] QA passed: structure
+21-11 13:40:44   [Economy_Basic] QA blocked: editorial:Content_hi.txt
+21-11 13:40:45   [Economy_Basic] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 13:40:45 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_09_Economy_Basic: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- 'GDP की गणना का आधार वर्ष (Base Year) वर्तमान में 2011–12 है' बिना वर्ष के → 'GDP की गणना का आधार वर्ष 2011–12 है (2024 तक)'"]}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_09_Economy_Basic/QA.json'}
 ````
 
 </details>
