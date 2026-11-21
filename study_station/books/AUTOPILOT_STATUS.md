@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 05:16 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 05:17 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,25 +11,25 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 97 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 98 मिनट |
 | W10 | Chapter 12 Sentence Structure (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W11 | Chapter 13 Synonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W12 | Chapter 09 Articles (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W2 | Chapter 15 One Word Substitution (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W3 | Chapter 20 Sentence Improvement Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W4 | Chapter 11 Narration (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W5 | Chapter 16 Idioms Phrases (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W6 | Chapter 18 Error Spotting Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W7 | Chapter 17 Spelling (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W8 | Chapter 19 Fill in Blanks Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W11 | Chapter 13 Synonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W12 | Chapter 01 Number System (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W2 | Chapter 15 One Word Substitution (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W3 | Chapter 20 Sentence Improvement Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W4 | Chapter 11 Narration (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W5 | Chapter 16 Idioms Phrases (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W6 | Chapter 18 Error Spotting Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W7 | Chapter 17 Spelling (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W8 | Chapter 19 Fill in Blanks Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 | W9 | Chapter 14 Antonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 60 |
+| key 3 | 61 |
 | key 4 | 83 |
 | key 5 | 64 |
-| key 6 | 51 |
+| key 6 | 52 |
 
 ## किताबों की प्रगति
 
@@ -65,7 +65,7 @@
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 83/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 100/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 80/1622 |
-| 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
+| 12th Maths | 0 | 23 | 0 | 0 | 0 | 63/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 58/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 50/2025 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 664/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 665/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,9 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 17:11:19   [One_Word_Substitution] QA passed: editorial:Feynman_en.txt
-21-11 17:11:19   [One_Word_Substitution] QA needs_reference: sources:Feynman_en.txt
-21-11 17:11:57   [One_Word_Substitution] QA blocked: editorial:Feynman_hi.txt
 21-11 17:12:04   [One_Word_Substitution] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
 21-11 17:12:05 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_15_One_Word_Substitution: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- The example equating "a person who finds faults in everything" with "critic" is incorrect → "critic" means a person who judges or evaluates; the correct one-word for "one who finds faults in everything" is "fault-finder" or "carper"']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_15_One_Word_Substitution/QA.json'}
 21-11 17:12:05   [Idioms_Phrases] QA needs_reference: sources:Content_hi.txt
@@ -127,6 +124,9 @@
 21-11 17:17:08   [Number_System] QA blocked: editorial:Feynman_hi.txt
 21-11 17:17:08   [Number_System] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 2, "needs_reference": 3, "remaining": 75, 
 21-11 17:17:08 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- "The root must be non-terminating to be irrational" is false; non-terminating repeating decimals (e.g., 1/3 = 0.333…) are rational. → Irrational numbers have decimal expansions that are both non-terminating and non-repeating (or cannot be expressed as p/q).']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- Bonus example incorrectly uses unit‑digit cyclicity (mod\u202f10) to find the remainder when dividing by\u202f5; the correct approach is to use the remainder cyclicity modulo\u202f5 (3,\u202f4,\u202f2,\u202f1) → remainder =\u202f1.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System/QA.json'}
+21-11 17:17:28   [Sentence_Improvement_Basic] QA passed: editorial:Feynman_hi.txt
+21-11 17:17:28   [Sentence_Improvement_Basic] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 5, "pending": 73, "blocked": 0, "needs_reference": 3, "remaining": 76, 
+21-11 17:17:28 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_20_Sentence_Improvement_Basic: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 5, 'pending': 73, 'blocked': 0, 'needs_reference': 3, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_20_Sentence_Improvement_Basic/QA.json'}
 ````
 
 </details>
