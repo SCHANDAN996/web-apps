@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 21-11-2026 08:48 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 07:44 AM
+**आख़िरी update:** 21-11-2026 09:03 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 07:44 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,15 +8,15 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 63 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 63 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 79 मिनट |
+| W3 | Chapter 15 vakya shuddhi (10th Hindi) | 🔎 review हो रहा है | 4 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 20 |
-| key 4 | 19 |
-| key 5 | 19 |
-| key 6 | 15 |
+| key 3 | 23 |
+| key 4 | 21 |
+| key 5 | 22 |
+| key 6 | 18 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -49,21 +49,11 @@
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
 - Chapter 15 vakya shuddhi (Hindi) — 1 बार
+- Chapter 16 rikt sthan vakya kram (Hindi) — 1 बार
 
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-21-11 07:56:06   [vakya_shuddhi] review Content_hi.txt round 1: 7 issue(s): - केस मार्कर तालिका में साधारण भूतकाल में "ने" न लगने का नियम गलत है; अन्योन्यक्रियात्मक क्रियाओं (जैसे खाय
-21-11 07:59:01   [vakya_shuddhi] review Content_hi.txt round 2: 5 issue(s): - In the Case Markers table, the entry for कर्म incorrectly labels "मैं पुस्तक पढ़ता हूँ" as a mistake; "को
-21-11 08:01:31   [vakya_shuddhi] REJECTED review fix Content_hi.txt: reviewer still reports - In the Pronoun-Antecedent Agreement table, the example "सीता अपने भाई को बुलाई" is incorr
-21-11 08:02:02   [vakya_shuddhi] review Key_Facts_hi.txt round 1: 2 issue(s): - Point 4 example “मैंने उस किताब को पढ़ा” uses the masculine past verb “पढ़ा” for the feminine object “क
-21-11 08:02:35   [sandhi] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q2 key d vs re-solve a, Q4 key a vs re-solve b, Q6 key d vs re-solve b, Q7 key c vs re-solve b, Q8 k
-21-11 08:03:00   [vakya_shuddhi] review Key_Facts_hi.txt round 2: 3 issue(s): - Point 3 rule claims ‘ने’ appears only with third‑person subjects in past transitive; actually ‘ने’ mark
-21-11 08:05:00   [rikt_sthan_vakya_kram] wrote Practice_hi_Set_03.txt (write, 25 MCQs)
-21-11 08:06:00   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 1: rejected (Q77:duplicate_options,Q81:duplicate_options,Q85:duplicate_options,Q87:duplicate_options,Q89:duplicate_options)
-21-11 08:06:09   [vakya_shuddhi] review Feynman_hi.txt round 1: 2 issue(s): - In "1. कारक चिह्न की अशुद्धि", the अशुद्ध and शुद्ध examples are identical ("राम ने आम खाया") and the exp
-21-11 08:07:51   [vakya_shuddhi] review Feynman_hi.txt round 2: 2 issue(s): - In प्रश्न 1 explanation, the claim that the past tense of "पीना" is "पिया" for both singular and plural i
-21-11 08:10:09   [vakya_shuddhi] REJECTED review fix Feynman_hi.txt: reviewer still reports - In Question 1 explanation for option (ग), the statement “बहुवचन विषय → 'ने' नहीं, 'बच्चों
 21-11 08:11:14   [vakya_shuddhi] review Flashcards_hi.txt round 1: 5 issue(s): - Card 5: “उसे” को प्रथम पुरुष, एकवचन, कर्म कारक बताया गया है → “उसे” तृतीय पुरुष एकवचन संप्रदान कारक (i
 21-11 08:11:49   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q81 key d vs re-solve a, Q84 key a vs re-solve b, Q94 key c vs re-solve a, Q99 key a vs re-solve b)
 21-11 08:12:44   [vakya_shuddhi] review Flashcards_hi.txt round 2: 2 issue(s): - Card 1 states “कर्ता पुल्लिंग हो तो क्रिया पुल्लिंग, स्त्रीलिंग हो तो स्त्रीलिंग” as a universal rule,
@@ -93,4 +83,15 @@
 21-11 08:41:05   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q111 key c vs re-solve b)
 21-11 08:41:05   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
 21-11 08:43:19   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q129 key c vs re-solve b, Q137 key d vs re-solve a, Q143 key a vs re-solve b, Q150 key c vs re-solve
+21-11 08:50:07   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q127 key c vs re-solve a, Q129 key d vs re-solve b, Q137 key c vs re-solve a, Q145 key a vs re-solve
+21-11 08:54:30   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q132 key c vs re-solve b)
+21-11 08:58:23   [sandhi] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q51 key a vs re-solve b, Q57 key d vs re-solve a, Q60 key c vs re-solve d, Q62 key c vs re-solve b, 
+21-11 08:58:39   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q127 key d vs re-solve c, Q132 key a vs re-solve c, Q137 key c vs re-solve b, Q145 key d vs re-solve
+21-11 08:58:39   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
+21-11 08:58:39   [rikt_sthan_vakya_kram] written 1, failed 3; AI calls today 78/100000
+21-11 08:58:39 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram after 74 min: todo ['Set 04 hi: todo', 'Set 05 hi: todo', 'Set 06 hi: todo'] problems []
+21-11 08:58:40 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi (OK: todo 0, problems 0)
+21-11 08:58:40   [vakya_shuddhi] review Content_hi.txt: resumed private correction draft
+21-11 09:00:33   [vakya_shuddhi] review Content_hi.txt round 1: 3 issue(s): - In the case markers table, the row for कर्ता (नॉमिनेटिव) incorrectly lists the correct sentence "राम ने ख
+21-11 09:03:18   [vakya_shuddhi] review Content_hi.txt round 2: 6 issue(s): - Heading "6 कार्यित उदाहरण" claims 6 examples but 7 are provided → Change heading to "7 कार्यित उदाहरण" or
 ```
