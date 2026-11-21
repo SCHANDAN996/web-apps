@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "cae2b017eb109aaa2e5f2d5014eda8690c2022b046051db72990caa3f6b166b3",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "62ef01cfbe2d5f011154b374acf47a41f67a97779d62fa716887a2f6f36547f1",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "419e42184cedeaf877574770e8f2a9434c83a54f96c1b1d3bfbb429042dbb787",
+        "Content_hi.txt": "5f83a2970299aead0e16e91019c5356ef26b0aef4b40136dad9f7201db0aa2b7",
+        "Feynman_en.txt": "70e718577c89b36eb4f4aad6be0522bc37aa8c8df6e0deb000e6d9e98afe7d95",
+        "Feynman_hi.txt": "a71db2d2a1585e160407b50b75e8b5d2f723656953361b3eeeefd98d90b21ae6",
+        "Flashcards_en.txt": "b90229b4c6545c28e9e9973c3e168e4927d94b855a657b2c8b30c091cefbff38",
+        "Flashcards_hi.txt": "9c35eefd5efd0a410e4c56418528637e6fc3cddf26bf96dc2bd957820482873f",
+        "Important_Formulas_en.txt": "5eb8f30a43665df568b76630c14890113bfbfb72c712ee3d2718433820afc9a6",
+        "Important_Formulas_hi.txt": "715014e741daac987f072e7a285b2451a148127cc5edf89431eca4f96375b931",
+        "Mind_Map.txt": "8135261465cf304cdbee0cce224e90a504e260e35b4d97fc4aaa3c80a8e05941",
+        "PYQ_en.txt": "0248d97bb0f63403498a32ea42b92a3dde3dbf8e4d47db4fc82df06af6c267b2",
+        "PYQ_hi.txt": "af6ec57770f03d3bd39f6b32aa1ad21d24114979aa34b15dbe56015e91eab44e",
+        "Practice_en_Set_01.txt": "1be179d521815436ca02337c2f586205d443ec9f5e45f01be163944ced94413d",
+        "Practice_en_Set_02.txt": "17a426a144d2487f7406ac29701ac09a890bd54d513e5c083e7238bafb8f6ccb",
+        "Practice_en_Set_03.txt": "b93cadb414c1f8c0025edff122d695d5854e01fac182a836840bdedcecf1f2d8",
+        "Practice_en_Set_04.txt": "bf228d6bd143be08e66bb2e6278ee387d4d987bfb526b702a2b97ece07aee516",
+        "Practice_en_Set_05.txt": "59e65a523a4527bac919c104daa1cd6f375807f3491f49c72fb3e8700c7f1b0d",
+        "Practice_en_Set_06.txt": "6b18a1d594c29b30d1a29bbebf5e39344968191a01188b05c9bb5665ebc5dc02",
+        "Practice_hi_Set_01.txt": "6886cf8bc157074648f5fc8f6db815d59ae090bdded6b2afcded8ddc811c7083",
+        "Practice_hi_Set_02.txt": "9b0473f27ac584e1a99357296a87a16dfac492d1d2224bd961742d3196451968",
+        "Practice_hi_Set_03.txt": "505eb3c1358110029a6a9778424b30b018e908d8c4afc82f0f84548670c8ddd6",
+        "Practice_hi_Set_04.txt": "2c7463cb3882abfcf1cab207057a92b02d6d11ff6422f2ad59edf944406bb395",
+        "Practice_hi_Set_05.txt": "39278ccb5c4ea720714875ce4d04b4e3c271ae5dd6ec8f4dce702a9c0096e2cb",
+        "Practice_hi_Set_06.txt": "fc58820e570025d9c61da2d21d6cb6435cc383103c096acc6753e5cca4de9c75",
+        "Short_Tricks_en.txt": "8e252f1b41c27375a419b81309f872f1814d21421d8d6c8b58a4db32a9bf6d74",
+        "Short_Tricks_hi.txt": "87beab7c456f1b5af7e4331bccc4025603c55a09eecc72cd9a3c3f3d3487879d",
+        "inventory": {
+          "Content_en.txt": "419e42184cedeaf877574770e8f2a9434c83a54f96c1b1d3bfbb429042dbb787",
+          "Content_hi.txt": "5f83a2970299aead0e16e91019c5356ef26b0aef4b40136dad9f7201db0aa2b7",
+          "Feynman_en.txt": "70e718577c89b36eb4f4aad6be0522bc37aa8c8df6e0deb000e6d9e98afe7d95",
+          "Feynman_hi.txt": "a71db2d2a1585e160407b50b75e8b5d2f723656953361b3eeeefd98d90b21ae6",
+          "Flashcards_en.txt": "b90229b4c6545c28e9e9973c3e168e4927d94b855a657b2c8b30c091cefbff38",
+          "Flashcards_hi.txt": "9c35eefd5efd0a410e4c56418528637e6fc3cddf26bf96dc2bd957820482873f",
+          "Important_Formulas_en.txt": "5eb8f30a43665df568b76630c14890113bfbfb72c712ee3d2718433820afc9a6",
+          "Important_Formulas_hi.txt": "715014e741daac987f072e7a285b2451a148127cc5edf89431eca4f96375b931",
+          "Mind_Map.txt": "8135261465cf304cdbee0cce224e90a504e260e35b4d97fc4aaa3c80a8e05941",
+          "PYQ_en.txt": "0248d97bb0f63403498a32ea42b92a3dde3dbf8e4d47db4fc82df06af6c267b2",
+          "PYQ_hi.txt": "af6ec57770f03d3bd39f6b32aa1ad21d24114979aa34b15dbe56015e91eab44e",
+          "Practice_en_Set_01.txt": "1be179d521815436ca02337c2f586205d443ec9f5e45f01be163944ced94413d",
+          "Practice_en_Set_02.txt": "17a426a144d2487f7406ac29701ac09a890bd54d513e5c083e7238bafb8f6ccb",
+          "Practice_en_Set_03.txt": "b93cadb414c1f8c0025edff122d695d5854e01fac182a836840bdedcecf1f2d8",
+          "Practice_en_Set_04.txt": "bf228d6bd143be08e66bb2e6278ee387d4d987bfb526b702a2b97ece07aee516",
+          "Practice_en_Set_05.txt": "59e65a523a4527bac919c104daa1cd6f375807f3491f49c72fb3e8700c7f1b0d",
+          "Practice_en_Set_06.txt": "6b18a1d594c29b30d1a29bbebf5e39344968191a01188b05c9bb5665ebc5dc02",
+          "Practice_hi_Set_01.txt": "6886cf8bc157074648f5fc8f6db815d59ae090bdded6b2afcded8ddc811c7083",
+          "Practice_hi_Set_02.txt": "9b0473f27ac584e1a99357296a87a16dfac492d1d2224bd961742d3196451968",
+          "Practice_hi_Set_03.txt": "505eb3c1358110029a6a9778424b30b018e908d8c4afc82f0f84548670c8ddd6",
+          "Practice_hi_Set_04.txt": "2c7463cb3882abfcf1cab207057a92b02d6d11ff6422f2ad59edf944406bb395",
+          "Practice_hi_Set_05.txt": "39278ccb5c4ea720714875ce4d04b4e3c271ae5dd6ec8f4dce702a9c0096e2cb",
+          "Practice_hi_Set_06.txt": "fc58820e570025d9c61da2d21d6cb6435cc383103c096acc6753e5cca4de9c75",
+          "Short_Tricks_en.txt": "8e252f1b41c27375a419b81309f872f1814d21421d8d6c8b58a4db32a9bf6d74",
+          "Short_Tricks_hi.txt": "87beab7c456f1b5af7e4331bccc4025603c55a09eecc72cd9a3c3f3d3487879d"
+        }
+      },
+      "checked_at": "2026-11-21T13:38:26+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "53ecd1f952ca8bf869267e2073ea91f3fc34a9c38ac36b5ae6b09d5d6bf7e659",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The example for digit-based series (11, 13, 17, 19, 23) is a prime number series, not a digit-based series. Digit-based series involve patterns in digits (e.g., reversing digits, summing digits). → Replace with a genuine digit-based series example, e.g., 12, 21, 23, 32, 34, 43 (reversing digits) or 11, 20, 31, 40 (sum of digits constant)."
+      ],
+      "dependencies": {
+        "chapter.json": "62ef01cfbe2d5f011154b374acf47a41f67a97779d62fa716887a2f6f36547f1",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "419e42184cedeaf877574770e8f2a9434c83a54f96c1b1d3bfbb429042dbb787"
+      },
+      "checked_at": "2026-11-21T13:40:18+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "a6cd0173ed239cdde1fbcd80863eb0579e472da60e9a24588d990947f4649bbe",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "62ef01cfbe2d5f011154b374acf47a41f67a97779d62fa716887a2f6f36547f1",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "419e42184cedeaf877574770e8f2a9434c83a54f96c1b1d3bfbb429042dbb787",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T13:40:18+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "58c173fe4e5b4140803db1d1a1b44d08a64e9b6b609e2a54553c6fab645e106d",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Subsection (घ) in भाग 2 is labeled \"दोहरी (Alternate) श्रेणी\" but the example given (11, 13, 17, 19, 23, 29) is a prime number series, not an alternate series → change heading to \"अभाज्य संख्याएँ श्रेणी\" or replace example with a genuine alternate series."
+      ],
+      "dependencies": {
+        "chapter.json": "62ef01cfbe2d5f011154b374acf47a41f67a97779d62fa716887a2f6f36547f1",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "5f83a2970299aead0e16e91019c5356ef26b0aef4b40136dad9f7201db0aa2b7"
+      },
+      "checked_at": "2026-11-21T13:43:42+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T13:43:42+00:00",
+  "chapter_fingerprint": "4fdeea514a008f4e39dab3d64f03f04cf92919513b179dba4ff9e5b29fab0d0c"
+}
