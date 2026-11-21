@@ -1,34 +1,33 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 06:01 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 06:02 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 142 मिनट |
-| W10 | Chapter 21 International Orgs (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W11 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W12 | Chapter 17 Culture Art (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W2 | Chapter 24 Reports Indices (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W3 | Chapter 18 Science Tech (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W4 | Chapter 22 Defence (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W5 | Chapter 25 Govt Schemes (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W6 | Chapter 01 Analogy (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 38 मिनट |
-| W8 | Chapter 02 Classification (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W9 | Chapter 23 Economic Terms (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 143 मिनट |
+| W10 | Chapter 21 International Orgs (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W11 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W2 | Chapter 24 Reports Indices (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W3 | Chapter 03 Coding Decoding (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W4 | Chapter 22 Defence (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W5 | Chapter 25 Govt Schemes (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W6 | Chapter 01 Analogy (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 39 मिनट |
+| W8 | Chapter 02 Classification (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W9 | Chapter 23 Economic Terms (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 98 |
+| key 3 | 100 |
 | key 4 | 111 |
-| key 5 | 88 |
+| key 5 | 89 |
 | key 6 | 81 |
 
 ## किताबों की प्रगति
@@ -67,13 +66,13 @@
 | 10th English | 0 | 20 | 0 | 0 | 0 | 81/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 104/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 96/1872 |
-| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 59/1950 |
+| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 61/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 50/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 749/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 751/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,11 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 17:56:10 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_19_Environment: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: - **Rio Earth Summit, 1992** — Agenda 21, biodiversity & climate conventions.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_19_Environment/QA.json'}
-21-11 17:56:31   [International_Orgs] QA passed: editorial:Feynman_hi.txt
-21-11 17:56:31   [International_Orgs] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
-21-11 17:56:31 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_21_International_Orgs: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_21_International_Orgs/QA.json'}
-21-11 17:57:02   [Defence] QA passed: editorial:Feynman_en.txt
 21-11 17:57:02   [Defence] QA needs_reference: sources:Feynman_en.txt
 21-11 17:57:29   [Defence] QA passed: editorial:Feynman_hi.txt
 21-11 17:57:29   [Defence] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
@@ -127,6 +121,11 @@
 21-11 18:02:00   [Classification] QA needs_reference: sources:Feynman_en.txt
 21-11 18:02:17   [Coding_Decoding] QA passed: editorial:Feynman_en.txt
 21-11 18:02:18   [Coding_Decoding] QA needs_reference: sources:Feynman_en.txt
+21-11 18:02:23   [Blood_Relations] QA needs_reference: sources:Content_hi.txt
+21-11 18:02:37   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q134 key a vs re-solve c, Q144 key d vs re-solve b, Q145 key b vs re-solve c)
+21-11 18:02:53   [Coding_Decoding] QA passed: editorial:Feynman_hi.txt
+21-11 18:02:53   [Coding_Decoding] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
+21-11 18:02:53 QA 12th_Level/Reasoning/Chapter_03_Coding_Decoding: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- In the "Clean example of increasing shift" explanation, the text says "A+2=C? No: A+2=C" which is contradictory; it should be "A+2=C? Yes: A+2=C" or simply "A+2=C".']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_03_Coding_Decoding/QA.json'}
 ````
 
 </details>
