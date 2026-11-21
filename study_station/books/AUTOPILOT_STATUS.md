@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 01:33 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 01:34 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -12,21 +12,21 @@
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
 | W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 162 मिनट |
-| W10 | Chapter 01 Ancient History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W12 | Chapter 22 Number Series (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W10 | Chapter 01 Ancient History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W11 | Chapter 07 States Rivers (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W12 | Chapter 22 Number Series (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
 | W2 | Chapter 23 Quadratic Equations (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W3 | Chapter 21 Permutation Combination (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W4 | Chapter 06 Physical Geography (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W5 | Chapter 05 Polity (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W6 | Chapter 04 Constitution Basic (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W7 | Chapter 02 Medieval History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W4 | Chapter 06 Physical Geography (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W5 | Chapter 05 Polity (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W6 | Chapter 04 Constitution Basic (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W7 | Chapter 02 Medieval History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
 | W8 | Chapter 03 Modern History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W9 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 10 मिनट |
+| W9 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 11 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 88 |
-| key 4 | 78 |
+| key 4 | 79 |
 | key 5 | 102 |
 | key 6 | 69 |
 
@@ -65,14 +65,14 @@
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
-| 12th GK | 0 | 24 | 0 | 0 | 0 | 10/1872 |
+| 12th GK | 0 | 24 | 0 | 0 | 0 | 11/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 0/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 0/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 337/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 338/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,12 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 13:25:06   [Number_Series] QA needs_reference: sources:Content_en.txt
-21-11 13:25:06   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 1: re-solve disagrees (Q76 key a vs re-solve b)
-21-11 13:25:29   [Permutation_Combination] QA passed: editorial:Content_en.txt
-21-11 13:25:30   [Permutation_Combination] QA needs_reference: sources:Content_en.txt
-21-11 13:25:54   [Permutation_Combination] QA passed: editorial:Content_hi.txt
-21-11 13:26:03   [Permutation_Combination] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
 21-11 13:26:04 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_21_Permutation_Combination: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_21_Permutation_Combination/QA.json'}
 21-11 13:26:04   [Quadratic_Equations] QA passed: structure
 21-11 13:26:21   [Quadratic_Equations] QA passed: editorial:Content_en.txt
@@ -126,6 +120,12 @@
 21-11 13:33:36   [Modern_History] QA blocked: editorial:Content_hi.txt
 21-11 13:33:36   [Modern_History] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 1, "pending": 74, "blocked": 2, "needs_reference": 1, "remaining": 77, 
 21-11 13:33:37 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_03_Modern_History: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 1, 'pending': 74, 'blocked': 2, 'needs_reference': 1, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The claim "nearly 200 years of struggle, from the first sparks of 1857 to the final push of 1947" is factually incorrect (1857–1947 is ~90 years) → The period from 1857 to 1947 is about 90 years; nearly 200 years would refer to the period from the Battle of Plassey (1757) to 1947.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- वारेन हेस्टिंग्स को 1772 से गवर्नर जनरल (बंगाल) बताया गया है, जबकि वे 1772 में बंगाल के गवर्नर बने और 1774 में रेगुलेटिंग एक्ट 1773 के तहत पहले गवर्नर जनरल बने। → तालिका में 1772–85 की जगह 1774–85 (गवर्नर जनरल के रूप में) लिखें या भूमिका स्पष्ट करें।']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_03_Modern_History/QA.json'}
+21-11 13:34:26   [World_Geography] QA passed: structure
+21-11 13:34:29   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 3: rejected (parsed 24 questions, numbers 76…100)
+21-11 13:35:06   [Constitution_Basic] QA blocked: editorial:Content_en.txt
+21-11 13:35:06   [Constitution_Basic] QA needs_reference: sources:Content_en.txt
+21-11 13:35:08   [Polity] QA blocked: editorial:Content_en.txt
+21-11 13:35:08   [Polity] QA needs_reference: sources:Content_en.txt
 ````
 
 </details>
