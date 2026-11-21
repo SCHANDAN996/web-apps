@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 05:04 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 05:05 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,23 +11,23 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 86 मिनट |
-| W10 | Chapter 02 Pronoun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W11 | Chapter 01 Noun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W12 | Chapter 20 Number Series (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W2 | Chapter 04 Verb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W3 | Chapter 21 Probability (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W4 | Chapter 22 Permutation Combination (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W5 | Chapter 05 Tense (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W6 | Chapter 07 Preposition (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W7 | Chapter 06 Adverb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W9 | Chapter 03 Adjective (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 87 मिनट |
+| W10 | Chapter 02 Pronoun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W11 | Chapter 01 Noun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W2 | Chapter 04 Verb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W3 | Chapter 21 Probability (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W4 | Chapter 22 Permutation Combination (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W5 | Chapter 05 Tense (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W6 | Chapter 07 Preposition (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W7 | Chapter 06 Adverb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W8 | Chapter 08 Conjunction (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W9 | Chapter 03 Adjective (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 57 |
-| key 4 | 74 |
-| key 5 | 55 |
+| key 4 | 75 |
+| key 5 | 56 |
 | key 6 | 43 |
 
 ## किताबों की प्रगति
@@ -63,7 +63,7 @@
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 76/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 83/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 100/1606 |
-| 10th English | 0 | 20 | 0 | 0 | 0 | 61/1622 |
+| 10th English | 0 | 20 | 0 | 0 | 0 | 62/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 58/1950 |
@@ -72,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 645/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 646/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,9 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 17:00:01   [Pronoun] QA needs_reference: sources:Feynman_en.txt
-21-11 17:00:21   [Pronoun] QA passed: editorial:Feynman_hi.txt
-21-11 17:00:23   [Noun] QA blocked: editorial:Feynman_hi.txt
 21-11 17:00:31   [Pronoun] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 5, "pending": 73, "blocked": 0, "needs_reference": 3, "remaining": 76, 
 21-11 17:00:31   [Noun] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 83, "passed": 3, "pending": 75, "blocked": 2, "needs_reference": 3, "remaining": 80, 
 21-11 17:00:32 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_02_Pronoun: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 5, 'pending': 73, 'blocked': 0, 'needs_reference': 3, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_02_Pronoun/QA.json'}
@@ -126,6 +123,9 @@
 21-11 17:05:19   [Conjunction] QA needs_reference: sources:Content_hi.txt
 21-11 17:05:42   [Conjunction] QA passed: editorial:Feynman_en.txt
 21-11 17:05:42   [Conjunction] QA needs_reference: sources:Feynman_en.txt
+21-11 17:05:53   [Articles] QA needs_reference: sources:Content_hi.txt
+21-11 17:06:31   [sandhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q28 key d vs re-solve a, Q34 key b vs re-solve d, Q36 key d vs re-solve a, Q43 key c vs re-solve a, 
+21-11 17:06:31   [sandhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
 ````
 
 </details>
