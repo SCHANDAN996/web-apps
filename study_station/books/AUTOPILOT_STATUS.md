@@ -1,34 +1,35 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 12:10 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 12:11 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 79 मिनट |
-| W10 | Chapter 15 Days Dates (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 26 मिनट |
-| W11 | Chapter 11 Series (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W12 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 79 मिनट |
-| W4 | Chapter 06 Order Ranking (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W5 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W6 | Chapter 10 Clock Calendar (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W7 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W8 | Chapter 07 Sitting Arrangement (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W9 | Chapter 08 Puzzles Basic (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 80 मिनट |
+| W10 | Chapter 15 Days Dates (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 27 मिनट |
+| W11 | Chapter 11 Series (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W12 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W2 | Chapter 12 Missing Term (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 80 मिनट |
+| W4 | Chapter 06 Order Ranking (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W5 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
+| W6 | Chapter 10 Clock Calendar (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W7 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W8 | Chapter 07 Sitting Arrangement (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W9 | Chapter 08 Puzzles Basic (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 30 |
-| key 4 | 42 |
-| key 5 | 41 |
-| key 6 | 28 |
+| key 4 | 43 |
+| key 5 | 42 |
+| key 6 | 29 |
 
 ## किताबों की प्रगति
 
@@ -61,7 +62,7 @@
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 31/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 29/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 42/1482 |
-| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 18/1716 |
+| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 21/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 0/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 0/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 0/1794 |
@@ -72,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 120/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 123/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -82,15 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 12:03:37 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_18_Science_Tech: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_18_Science_Tech/QA.json'}
-21-11 12:04:07   [Medieval_History] QA passed: editorial:Content_en.txt
-21-11 12:04:21   [Medieval_History] QA needs_reference: sources:Content_en.txt
-21-11 12:04:22   [Order_Ranking] QA passed: structure
-21-11 12:05:19   [Sitting_Arrangement] QA passed: structure
-21-11 12:05:52   [Environment] QA passed: editorial:Content_hi.txt
-21-11 12:05:53   [Environment] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
-21-11 12:05:53 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_19_Environment: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ["- Hindi term 'सुपोषण' given for eutrophication is wrong; सुपोषण means good nutrition → The correct Hindi term for eutrophication is 'यूट्रोफिकेशन' or 'पोषकता'"]}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: CITES (1973) — controls international trade in endangered wild animals and plants; signed at Washington, D.C.; India became a party in 1976. World Wildlife Day (3 March) marks the day it was signed.', 'Fetch official supporting evidence for: Rio Earth Summit (1992) — UNFCCC (climate), Convention on Biological Diversity (CBD), Agenda 21.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_19_Environment/QA.json'}
-21-11 12:06:19   [Order_Ranking] QA passed: editorial:Content_en.txt
 21-11 12:06:19   [Order_Ranking] QA needs_reference: sources:Content_en.txt
 21-11 12:06:45   [Classification] QA blocked: editorial:Content_en.txt
 21-11 12:06:55   [Classification] QA needs_reference: sources:Content_en.txt
@@ -122,6 +114,15 @@
 21-11 12:11:05   [Missing_Term] QA passed: structure
 21-11 12:11:07   [Venn_Diagrams] QA blocked: editorial:Content_en.txt
 21-11 12:11:07   [Venn_Diagrams] QA needs_reference: sources:Content_en.txt
+21-11 12:11:45   [Dictionary_Order] QA passed: structure
+21-11 12:11:55   [Coding_Decoding] QA passed: editorial:Content_hi.txt
+21-11 12:11:55   [Coding_Decoding] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
+21-11 12:11:55 QA 10th_Level/Reasoning/Chapter_03_Coding_Decoding: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_03_Coding_Decoding/QA.json'}
+21-11 12:12:09   [Dictionary_Order] QA passed: editorial:Content_en.txt
+21-11 12:12:10   [Dictionary_Order] QA needs_reference: sources:Content_en.txt
+21-11 12:12:24   [Order_Ranking] QA blocked: editorial:Content_hi.txt
+21-11 12:12:24   [Order_Ranking] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 12:12:24 QA 10th_Level/Reasoning/Chapter_06_Order_Ranking: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- "Q की दायीं रैंक 9 अपरिवर्तित है" in the interchange example → The right rank of the position originally held by Q remains 9; Q\'s personal right rank changes after interchange.', '- "Q का दायाँ 14 अब भी वही है" in the interchange active recall → The right rank of the position originally occupied by Q remains 14; Q\'s personal right rank changes after interchange.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_06_Order_Ranking/QA.json'}
 ````
 
 </details>
