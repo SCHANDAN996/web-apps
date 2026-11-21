@@ -11,13 +11,13 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 135 मिनट |
-| W10 | Chapter 09 Economy Basic (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W11 | Chapter 10 Physics Daily (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W12 | Chapter 17 Culture Art (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 136 मिनट |
+| W10 | Chapter 09 Economy Basic (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W11 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W12 | Chapter 17 Culture Art (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 | W2 | Chapter 13 Awards (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W3 | Chapter 18 Science Tech (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W4 | Chapter 11 Chemistry (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W3 | Chapter 18 Science Tech (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W4 | Chapter 11 Chemistry (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
 | W5 | Chapter 14 Sports (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
 | W6 | Chapter 15 Days Dates (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
 | W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
@@ -27,8 +27,8 @@
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 90 |
-| key 4 | 108 |
-| key 5 | 81 |
+| key 4 | 109 |
+| key 5 | 82 |
 | key 6 | 80 |
 
 ## किताबों की प्रगति
@@ -87,12 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 17:49:24   [Biology] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
-21-11 17:49:24 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_12_Biology: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_12_Biology/QA.json'}
-21-11 17:49:32   [Awards] QA passed: editorial:Feynman_en.txt
-21-11 17:49:32   [Awards] QA needs_reference: sources:Feynman_en.txt
-21-11 17:49:54   [Awards] QA passed: editorial:Feynman_hi.txt
-21-11 17:49:58   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q133 key b vs re-solve a, Q144 key a vs re-solve b)
 21-11 17:50:02   [sandhi] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q111 key b vs re-solve ?, Q119 key c vs re-solve ?)
 21-11 17:50:09   [Awards] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
 21-11 17:50:09 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_13_Awards: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ["- The claim that the Bharat Ratna's 3-per-year limit was introduced by a 1955 statute amendment is incorrect → The limit of three awards per year was part of the original 1954 statute; the 1955 amendment allowed posthumous awards."]}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: - **6 क्षेत्र:** भौतिकी, रसायन, चिकित्सा, साहित्य, शांति, अर्थशास्त्र (अर्थशास्त्र वाला 1968 से, स्वीडिश बैंक द्वारा स्थापित)।']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_13_Awards/QA.json'}
@@ -127,6 +121,12 @@
 21-11 17:54:14 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_18_Science_Tech: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In the institutions table (खंड 1), TIFR headquarters is incorrectly listed as New Delhi → TIFR headquarters is Mumbai (Colaba).', '- In the missile table (खंड 3), Akash missile appears twice (duplicate row) → Remove duplicate; list each missile once: Prithvi, Agni, Akash, Nag, Trishul.', '- In the summary table (सारांश तालिका), row 2 fact says "भारतीय अंतरिक्ष कार्यक्रम के जनक" but answer is Dr. Homi J. Bhabha → Fact should be "भारतीय परमाणु कार्यक्रम के जनक".', '- In the summary table (सारांश तालिका), row 5 fact says "एशिया का पहला परमाणु परीक्षण" but answer is Apsara (1956) → Fact should be "एशिया का पहला परमाणु रिएक्टर" (Asia\'s first nuclear reactor).']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_18_Science_Tech/QA.json'}
 21-11 17:54:18   [Environment] QA needs_reference: sources:Content_hi.txt
 21-11 17:54:21   [sandhi] Practice_hi_Set_06.txt try 1: rejected (Q146:leaked_reasoning,Q147:leaked_reasoning,Q127:duplicate_options,Q144:duplicate_options,Q145:duplicate_optio
+21-11 17:54:58   [International_Orgs] QA needs_reference: sources:Content_hi.txt
+21-11 17:55:34   [Environment] QA passed: editorial:Feynman_en.txt
+21-11 17:55:34   [Environment] QA needs_reference: sources:Feynman_en.txt
+21-11 17:55:35   [Culture_Art] QA passed: editorial:Feynman_hi.txt
+21-11 17:55:36   [Culture_Art] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
+21-11 17:55:36 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_17_Culture_Art: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- "Born under the Chalukyas and Rashtrakutas" is incorrect regarding Vesara origin → Vesara style originated under the Chalukyas of Badami; Rashtrakutas later developed it.', '- Kailasa Temple (Ellora) is listed as a Vesara example → Kailasa Temple is a Dravida-style rock-cut temple, not Vesara; it should not be cited as a Vesara example.']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_17_Culture_Art/QA.json'}
 ````
 
 </details>
