@@ -111,11 +111,71 @@
         "Content_hi.txt": "70159c6abc8682f0418d08aa287d329dd71013b48ad0063c4dbbb965578b91ea"
       },
       "checked_at": "2026-11-21T08:53:39+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "4fffc12b491c9a9c76099009e3f853131b94953a9757c3e1d5557ea5ae4da2ec",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "47eec2466a072a8dba1ca3666f51c31b17e3904ad232cda0eaeb492c5af2958a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "70159c6abc8682f0418d08aa287d329dd71013b48ad0063c4dbbb965578b91ea",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:43:55+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "7cc2985e6907f5fb1bfe3a9ccc2440d1fba2b4fb0e5836a69ca6e60f69874325",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The entire section is corrupted token artifacts (`<|close|>`, `<|open|>`, `<|sep|>`, `think`, `Object`, `CON`, `S.`, `Fey`, `graph TD`, stray punctuation, code fragments) with no coherent educational content, definitions, examples, formulas, tables, or memory aids to verify. → Replace with a proper, human-readable chapter on Inequality for the target exams."
+      ],
+      "dependencies": {
+        "chapter.json": "47eec2466a072a8dba1ca3666f51c31b17e3904ad232cda0eaeb492c5af2958a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "b6864436e77ca6f9f44e4c1048f6e61b9e062aa23f25ffffb698a32fd15772fd"
+      },
+      "checked_at": "2026-11-21T12:44:04+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "2b5951b83a514ba54a9fd54473872a4782fec2237bd1656da206fb53badb90f2",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "47eec2466a072a8dba1ca3666f51c31b17e3904ad232cda0eaeb492c5af2958a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "b6864436e77ca6f9f44e4c1048f6e61b9e062aa23f25ffffb698a32fd15772fd",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:44:04+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "cb2d0bee41d19317aa02ab5d83e30056e40e417ea3814b342d1880ca17ac504a",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "47eec2466a072a8dba1ca3666f51c31b17e3904ad232cda0eaeb492c5af2958a",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "889bdd3faf20ec698f105c8721d0045389c554dfe91f51c81fa4b00bc9a21726"
+      },
+      "checked_at": "2026-11-21T12:44:51+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T08:53:39+00:00",
+  "updated_at": "2026-11-21T12:44:51+00:00",
   "chapter_fingerprint": "c0cf098747276cfd78764c77f8e03e91f273ccf983c84937bf53d22cc220a1ad"
 }

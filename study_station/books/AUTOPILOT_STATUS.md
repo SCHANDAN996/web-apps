@@ -1,32 +1,33 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 06:22 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 06:23 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
 | W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 164 मिनट |
-| W10 | Chapter 16 Statement Conclusion (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W11 | Chapter 01 Noun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W2 | Chapter 19 Cubes Dice (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W10 | Chapter 16 Statement Conclusion (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W11 | Chapter 01 Noun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W12 | Chapter 02 Pronoun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W2 | Chapter 19 Cubes Dice (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
 | W3 | Chapter 24 Statement Assumption (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W4 | Chapter 18 Inequality (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W4 | Chapter 18 Inequality (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
 | W5 | Chapter 21 Paper Folding Cutting (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
 | W6 | Chapter 23 Syllogism (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
 | W7 | Chapter 22 Figure Series (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
 | W8 | Chapter 25 Statement Argument (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W9 | Chapter 20 Mirror Water Images (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W9 | Chapter 20 Mirror Water Images (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 116 |
-| key 4 | 115 |
+| key 3 | 117 |
+| key 4 | 116 |
 | key 5 | 108 |
 | key 6 | 93 |
 
@@ -67,12 +68,12 @@
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 104/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 96/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 101/1950 |
-| 12th English | 0 | 25 | 0 | 0 | 0 | 51/2025 |
+| 12th English | 0 | 25 | 0 | 0 | 0 | 52/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 792/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 793/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,7 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 18:18:35   [Figure_Series] QA passed: editorial:Feynman_en.txt
 21-11 18:18:35   [Figure_Series] QA needs_reference: sources:Feynman_en.txt
 21-11 18:18:47   [Paper_Folding_Cutting] QA passed: editorial:Feynman_en.txt
 21-11 18:18:47   [Paper_Folding_Cutting] QA needs_reference: sources:Feynman_en.txt
@@ -126,6 +126,7 @@
 21-11 18:22:45   [Noun] QA needs_reference: sources:Feynman_en.txt
 21-11 18:23:06   [Pronoun] QA passed: editorial:Feynman_en.txt
 21-11 18:23:06   [Pronoun] QA needs_reference: sources:Feynman_en.txt
+21-11 18:23:18   [Adjective] QA needs_reference: sources:Content_hi.txt
 ````
 
 </details>
