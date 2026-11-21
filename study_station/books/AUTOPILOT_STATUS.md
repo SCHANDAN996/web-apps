@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 05:54 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 05:55 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 136 मिनट |
-| W10 | Chapter 09 Economy Basic (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W11 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 137 मिनट |
+| W10 | Chapter 21 International Orgs (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W11 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 | W12 | Chapter 17 Culture Art (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W2 | Chapter 13 Awards (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W2 | Chapter 13 Awards (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
 | W3 | Chapter 18 Science Tech (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W4 | Chapter 11 Chemistry (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W5 | Chapter 14 Sports (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W6 | Chapter 15 Days Dates (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
-| W8 | Chapter 16 Books Authors (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W9 | Chapter 12 Biology (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W4 | Chapter 11 Chemistry (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W5 | Chapter 14 Sports (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W6 | Chapter 15 Days Dates (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 32 मिनट |
+| W8 | Chapter 16 Books Authors (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W9 | Chapter 12 Biology (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 90 |
+| key 3 | 91 |
 | key 4 | 109 |
-| key 5 | 82 |
+| key 5 | 83 |
 | key 6 | 80 |
 
 ## किताबों की प्रगति
@@ -66,14 +66,14 @@
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 100/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 81/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 104/1794 |
-| 12th GK | 0 | 24 | 0 | 0 | 0 | 85/1872 |
+| 12th GK | 0 | 24 | 0 | 0 | 0 | 89/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 58/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 50/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 737/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 741/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,15 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 17:50:02   [sandhi] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q111 key b vs re-solve ?, Q119 key c vs re-solve ?)
-21-11 17:50:09   [Awards] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
-21-11 17:50:09 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_13_Awards: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ["- The claim that the Bharat Ratna's 3-per-year limit was introduced by a 1955 statute amendment is incorrect → The limit of three awards per year was part of the original 1954 statute; the 1955 amendment allowed posthumous awards."]}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: - **6 क्षेत्र:** भौतिकी, रसायन, चिकित्सा, साहित्य, शांति, अर्थशास्त्र (अर्थशास्त्र वाला 1968 से, स्वीडिश बैंक द्वारा स्थापित)।']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_13_Awards/QA.json'}
-21-11 17:51:07   [Days_Dates] QA needs_reference: sources:Content_hi.txt
-21-11 17:51:20   [Sports] QA blocked: editorial:Content_hi.txt
-21-11 17:51:21   [Sports] QA needs_reference: sources:Content_hi.txt
-21-11 17:51:24   [Days_Dates] QA passed: editorial:Feynman_en.txt
-21-11 17:51:24   [Days_Dates] QA needs_reference: sources:Feynman_en.txt
-21-11 17:51:39   [Sports] QA passed: editorial:Feynman_en.txt
 21-11 17:51:40   [Sports] QA needs_reference: sources:Feynman_en.txt
 21-11 17:51:40   [Sports] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 71, "blocked": 2, "needs_reference": 3, "remaining": 76, 
 21-11 17:51:40 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 71, 'blocked': 2, 'needs_reference': 3, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ["- Neeraj Chopra's gold described as India's first Olympic medal in athletics track & field events, but Norman Pritchard won athletics silvers in 1900 → Neeraj Chopra won India's first Olympic gold in athletics"]}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- 1983 क्रिकेट विश्व कप फाइनल की तिथि 28 जून 1983 बताई गई है → सही तिथि 25 जून 1983 है']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports/QA.json'}
@@ -127,6 +118,15 @@
 21-11 17:55:35   [Culture_Art] QA passed: editorial:Feynman_hi.txt
 21-11 17:55:36   [Culture_Art] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
 21-11 17:55:36 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_17_Culture_Art: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- "Born under the Chalukyas and Rashtrakutas" is incorrect regarding Vesara origin → Vesara style originated under the Chalukyas of Badami; Rashtrakutas later developed it.', '- Kailasa Temple (Ellora) is listed as a Vesara example → Kailasa Temple is a Dravida-style rock-cut temple, not Vesara; it should not be cited as a Vesara example.']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_17_Culture_Art/QA.json'}
+21-11 17:55:44   [International_Orgs] QA passed: editorial:Feynman_en.txt
+21-11 17:56:01   [International_Orgs] QA needs_reference: sources:Feynman_en.txt
+21-11 17:56:02   [Defence] QA needs_reference: sources:Content_hi.txt
+21-11 17:56:09   [Environment] QA passed: editorial:Feynman_hi.txt
+21-11 17:56:09   [Environment] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
+21-11 17:56:10 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_19_Environment: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: - **Rio Earth Summit, 1992** — Agenda 21, biodiversity & climate conventions.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_19_Environment/QA.json'}
+21-11 17:56:31   [International_Orgs] QA passed: editorial:Feynman_hi.txt
+21-11 17:56:31   [International_Orgs] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
+21-11 17:56:31 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_21_International_Orgs: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_21_International_Orgs/QA.json'}
 ````
 
 </details>
