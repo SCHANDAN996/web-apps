@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "00bc7518503e86296b15b221313a1448496371ede888e445a1338791f92a2d62",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "1e18b30a784f54c074e78e1e085af3a6a87e7993ffbdaaa5200837f71a23b6ac",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Content_hi.txt": "8d02ca20620e340c86f2d13e8ccda710cebc3630cca056670b16a5ef4a467773",
+        "Feynman_hi.txt": "2a35677cfe361a0935a49b59f47e14cbccdd38267dc8d06cfbbc0fccb7503406",
+        "Flashcards_hi.txt": "e8c08b160b0baaf9129b9e0b932b715aa872ccf895d9158ef38d27bb17698e69",
+        "Important_Rules_hi.txt": "c81f722baabf6a235ebccb2c05da7ca0115877ff0c08ec75d7bddf0bc3686622",
+        "Key_Facts_hi.txt": "d08223b48b76b7378c578d2d9d50b242fb3c04d94fa0d05c874f725cfad578ec",
+        "Mind_Map.txt": "db99c83f25ce5e932d600c279a94aa356e7c817e7a5935c08840912bf1f2a465",
+        "PYQ_hi.txt": "8df31dc2e7431acfdc49597390a81c089ee21334baa2f14f44c05c2e4c70c6c6",
+        "Practice_hi_Set_01.txt": "795cafb9cabe5221277b7df3d72b4a38c0ff063fa31fe3e9c8a56b6cdf85ad55",
+        "Practice_hi_Set_02.txt": "e4067271099b386b9a65ebe412c454c4e6f23983491a3c7c724647263d8a5e1d",
+        "Practice_hi_Set_03.txt": "73d00d62b68c848135d2396d732069532cb26fee6cd20443146f9decd86339e4",
+        "Practice_hi_Set_04.txt": "2f3ab101a7a2c7807ce50fcbf6d2da2fbed6c8257c29b39ae119068c759dd94e",
+        "Practice_hi_Set_05.txt": "18f5f4acef0f19edd4f152581a0c9c6c636961693644c59cdc77eb1e377c5822",
+        "Practice_hi_Set_06.txt": "b115f3e1e80f2d34483a181aa8cdf1a70e1a6900ab24e3b877aa34f318328b4d",
+        "inventory": {
+          "Content_hi.txt": "8d02ca20620e340c86f2d13e8ccda710cebc3630cca056670b16a5ef4a467773",
+          "Feynman_hi.txt": "2a35677cfe361a0935a49b59f47e14cbccdd38267dc8d06cfbbc0fccb7503406",
+          "Flashcards_hi.txt": "e8c08b160b0baaf9129b9e0b932b715aa872ccf895d9158ef38d27bb17698e69",
+          "Important_Rules_hi.txt": "c81f722baabf6a235ebccb2c05da7ca0115877ff0c08ec75d7bddf0bc3686622",
+          "Key_Facts_hi.txt": "d08223b48b76b7378c578d2d9d50b242fb3c04d94fa0d05c874f725cfad578ec",
+          "Mind_Map.txt": "db99c83f25ce5e932d600c279a94aa356e7c817e7a5935c08840912bf1f2a465",
+          "PYQ_hi.txt": "8df31dc2e7431acfdc49597390a81c089ee21334baa2f14f44c05c2e4c70c6c6",
+          "Practice_hi_Set_01.txt": "795cafb9cabe5221277b7df3d72b4a38c0ff063fa31fe3e9c8a56b6cdf85ad55",
+          "Practice_hi_Set_02.txt": "e4067271099b386b9a65ebe412c454c4e6f23983491a3c7c724647263d8a5e1d",
+          "Practice_hi_Set_03.txt": "73d00d62b68c848135d2396d732069532cb26fee6cd20443146f9decd86339e4",
+          "Practice_hi_Set_04.txt": "2f3ab101a7a2c7807ce50fcbf6d2da2fbed6c8257c29b39ae119068c759dd94e",
+          "Practice_hi_Set_05.txt": "18f5f4acef0f19edd4f152581a0c9c6c636961693644c59cdc77eb1e377c5822",
+          "Practice_hi_Set_06.txt": "b115f3e1e80f2d34483a181aa8cdf1a70e1a6900ab24e3b877aa34f318328b4d"
+        }
+      },
+      "checked_at": "2026-11-21T05:43:49+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "45cbb0ad12dc7ba3cf920d8247fa8d4a7d74757208c246f74248ea3086009ca5",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "1e18b30a784f54c074e78e1e085af3a6a87e7993ffbdaaa5200837f71a23b6ac",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Content_hi.txt": "8d02ca20620e340c86f2d13e8ccda710cebc3630cca056670b16a5ef4a467773"
+      },
+      "checked_at": "2026-11-21T05:45:20+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "0866510dece878eedc8d1b1e6f992af1a536eb5ef20982912415c6a26ea45269",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "1e18b30a784f54c074e78e1e085af3a6a87e7993ffbdaaa5200837f71a23b6ac",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Content_hi.txt": "8d02ca20620e340c86f2d13e8ccda710cebc3630cca056670b16a5ef4a467773",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T05:45:21+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "bb4056df0d50019366f1ed921251e2e5d660ba9d9f2f4705c43eb76ea2692205",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- In \"सामान्य गलतियाँ और उनसे बचाव\" point 3, \"लोकप्रिया\" is incorrectly given as the feminine form of \"लोकप्रिय\"; the adjective \"लोकप्रिय\" is invariant and does not change for gender → The feminine form is also \"लोकप्रिय\""
+      ],
+      "dependencies": {
+        "chapter.json": "1e18b30a784f54c074e78e1e085af3a6a87e7993ffbdaaa5200837f71a23b6ac",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Feynman_hi.txt": "2a35677cfe361a0935a49b59f47e14cbccdd38267dc8d06cfbbc0fccb7503406"
+      },
+      "checked_at": "2026-11-21T05:47:54+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T05:47:54+00:00",
+  "chapter_fingerprint": "dd41ddc9e06a73638e8aea997b5f72175916031c27dcdc00e180ada55f1790bb"
+}
