@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "8db59fb76486277d624bbec1a14777d14f9db31397633153810a467141edc4d2",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "f588fb99cf4599bb1a747ad99bf9cf01a610c903d6fc8d6dde40862a55a47632",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "7fb4e5ae2221198cef05edac923d69c35a1ecf316f911c39abbc02e0a678c0f4",
+        "Content_hi.txt": "e1dfe76b327416d517a275f7e6eb259e4c0ab5873a3330ba2a8d07dc3dd0429b",
+        "Feynman_en.txt": "d798af0faebebb68b2ce487f36234ee59772bd16e585b0ac8ab13d3991b6ebec",
+        "Feynman_hi.txt": "32fa234a902ecc49bf3043f16d23e83d6e592d1ab53dddd44e782715738c5552",
+        "Flashcards_en.txt": "4aa641f12ede80b37c786b68fde6d5b12dff19a86cf9c3a32a7170fcc3cb343d",
+        "Flashcards_hi.txt": "777a11854f736cc5b68a8e5e685e3bf74d63822506a57e878f96931684d6fee7",
+        "Important_Rules_en.txt": "03a5da8571f895f5b2702a5c94ee7d413096b7cd827b7f3ea98fce3752ca3c79",
+        "Important_Rules_hi.txt": "382fb616cd529ee97af4c8f2e7eb0a3a74feff204f234fdd92a3b6d2466ac0c7",
+        "Mind_Map.txt": "493d3357742e338ead14121630300e798b8c86012c661cae6ba2744cacd3fb4e",
+        "PYQ_en.txt": "ab840acea93e22f1e1eef12ea56cca4cb0700b4432abec59f8450d9b0526022d",
+        "PYQ_hi.txt": "7087f563d46571c646801a2fd6e68af136744f4eb0a9d24a3162767a77909be0",
+        "Practice_en_Set_01.txt": "daedc81bdeec35e08f3c0826bfc115dfcd23e2c52e9ffd8eca9905087b0fb8ce",
+        "Practice_en_Set_02.txt": "b5564a36fefe71bec556e45a3b82651980483614c64f20602f80ac61ea2691fc",
+        "Practice_en_Set_03.txt": "a282c949bf31d9cf4c60b2902c2e3a0a6818469e6a16713278c946ae756f7edc",
+        "Practice_en_Set_04.txt": "dc30788e412125e9ccb7498355c3882ee398c85ad090f7175e5a64432ebe7107",
+        "Practice_en_Set_05.txt": "96e691b05cf9479358d784cf0e4c22c3f58d7d13bb3181310fe712209269c427",
+        "Practice_en_Set_06.txt": "779ce8b17e5ebd76277f0ebc0ac4054ebf318b8277523c18b3757d201e903474",
+        "Practice_hi_Set_01.txt": "4cfd5c17a4840b744bd4873d88ba3af8a3c4d2c582ef44f7f1e63085dffe2d4f",
+        "Practice_hi_Set_02.txt": "355a0a0afa68967e19bd4d5cb8d367d1ff7c153bac124ef6fb0e31d0943227bc",
+        "Practice_hi_Set_03.txt": "e1741db4273335b8e803ec1e402be23a28be397acbeeeb19071828055199b610",
+        "Practice_hi_Set_04.txt": "a2883529f7100c95968df675e80142a464aa25ff8435c2d26c2662f15b8fb027",
+        "Practice_hi_Set_05.txt": "f5826b2ce422d616eddd45cca22353ff515caf2751dc359bbadc32bb1df7c237",
+        "Practice_hi_Set_06.txt": "cb5a7f9bfe1af481213159b9bc4d704be11538ad7edae0052c8557c9478ea201",
+        "Short_Tricks_en.txt": "aca36e7e02b0e2e600c57e1706a748800ecaa6c697250675f420d6a75b6509cd",
+        "Short_Tricks_hi.txt": "1f1b83fc1f94d30a719cfa7c727a4b6be9d135a7b7b8e77433fe63b2c43665b8",
+        "inventory": {
+          "Content_en.txt": "7fb4e5ae2221198cef05edac923d69c35a1ecf316f911c39abbc02e0a678c0f4",
+          "Content_hi.txt": "e1dfe76b327416d517a275f7e6eb259e4c0ab5873a3330ba2a8d07dc3dd0429b",
+          "Feynman_en.txt": "d798af0faebebb68b2ce487f36234ee59772bd16e585b0ac8ab13d3991b6ebec",
+          "Feynman_hi.txt": "32fa234a902ecc49bf3043f16d23e83d6e592d1ab53dddd44e782715738c5552",
+          "Flashcards_en.txt": "4aa641f12ede80b37c786b68fde6d5b12dff19a86cf9c3a32a7170fcc3cb343d",
+          "Flashcards_hi.txt": "777a11854f736cc5b68a8e5e685e3bf74d63822506a57e878f96931684d6fee7",
+          "Important_Rules_en.txt": "03a5da8571f895f5b2702a5c94ee7d413096b7cd827b7f3ea98fce3752ca3c79",
+          "Important_Rules_hi.txt": "382fb616cd529ee97af4c8f2e7eb0a3a74feff204f234fdd92a3b6d2466ac0c7",
+          "Mind_Map.txt": "493d3357742e338ead14121630300e798b8c86012c661cae6ba2744cacd3fb4e",
+          "PYQ_en.txt": "ab840acea93e22f1e1eef12ea56cca4cb0700b4432abec59f8450d9b0526022d",
+          "PYQ_hi.txt": "7087f563d46571c646801a2fd6e68af136744f4eb0a9d24a3162767a77909be0",
+          "Practice_en_Set_01.txt": "daedc81bdeec35e08f3c0826bfc115dfcd23e2c52e9ffd8eca9905087b0fb8ce",
+          "Practice_en_Set_02.txt": "b5564a36fefe71bec556e45a3b82651980483614c64f20602f80ac61ea2691fc",
+          "Practice_en_Set_03.txt": "a282c949bf31d9cf4c60b2902c2e3a0a6818469e6a16713278c946ae756f7edc",
+          "Practice_en_Set_04.txt": "dc30788e412125e9ccb7498355c3882ee398c85ad090f7175e5a64432ebe7107",
+          "Practice_en_Set_05.txt": "96e691b05cf9479358d784cf0e4c22c3f58d7d13bb3181310fe712209269c427",
+          "Practice_en_Set_06.txt": "779ce8b17e5ebd76277f0ebc0ac4054ebf318b8277523c18b3757d201e903474",
+          "Practice_hi_Set_01.txt": "4cfd5c17a4840b744bd4873d88ba3af8a3c4d2c582ef44f7f1e63085dffe2d4f",
+          "Practice_hi_Set_02.txt": "355a0a0afa68967e19bd4d5cb8d367d1ff7c153bac124ef6fb0e31d0943227bc",
+          "Practice_hi_Set_03.txt": "e1741db4273335b8e803ec1e402be23a28be397acbeeeb19071828055199b610",
+          "Practice_hi_Set_04.txt": "a2883529f7100c95968df675e80142a464aa25ff8435c2d26c2662f15b8fb027",
+          "Practice_hi_Set_05.txt": "f5826b2ce422d616eddd45cca22353ff515caf2751dc359bbadc32bb1df7c237",
+          "Practice_hi_Set_06.txt": "cb5a7f9bfe1af481213159b9bc4d704be11538ad7edae0052c8557c9478ea201",
+          "Short_Tricks_en.txt": "aca36e7e02b0e2e600c57e1706a748800ecaa6c697250675f420d6a75b6509cd",
+          "Short_Tricks_hi.txt": "1f1b83fc1f94d30a719cfa7c727a4b6be9d135a7b7b8e77433fe63b2c43665b8"
+        }
+      },
+      "checked_at": "2026-11-21T08:49:42+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "bd4d6ee5c50fc7626b371274461f4f5d03692806397917ee80e2f698dba84fb3",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The net rule \"1st opposite 3rd, 2nd opposite 4th\" is presented as a general rule for all nets, but it only applies to nets that contain a straight row/column of 4 squares (not all 11 valid nets have such a row) → Clarify that this rule is specific to nets with a straight line of 4 squares; other nets require different analysis."
+      ],
+      "dependencies": {
+        "chapter.json": "f588fb99cf4599bb1a747ad99bf9cf01a610c903d6fc8d6dde40862a55a47632",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "7fb4e5ae2221198cef05edac923d69c35a1ecf316f911c39abbc02e0a678c0f4"
+      },
+      "checked_at": "2026-11-21T08:51:17+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "f15eeef5fea8774bbad1d943392c48534815d6b4015b31a414824f6d987266ad",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "f588fb99cf4599bb1a747ad99bf9cf01a610c903d6fc8d6dde40862a55a47632",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "7fb4e5ae2221198cef05edac923d69c35a1ecf316f911c39abbc02e0a678c0f4",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T08:51:18+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "d2621d0a62d1b23c63b94d65a1e33a9677e41d9ff0d24676970da7b295afb558",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "f588fb99cf4599bb1a747ad99bf9cf01a610c903d6fc8d6dde40862a55a47632",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "e1dfe76b327416d517a275f7e6eb259e4c0ab5873a3330ba2a8d07dc3dd0429b"
+      },
+      "checked_at": "2026-11-21T08:52:05+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T08:52:05+00:00",
+  "chapter_fingerprint": "9f181a98def75b52740f35b4694c03a534814fdef262d8a6aa86ae200a250b2c"
+}
