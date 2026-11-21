@@ -1,33 +1,32 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 04:20 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 04:21 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 42 मिनट |
-| W10 | Chapter 15 Days Dates (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W11 | Chapter 17 Culture Art (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W12 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 42 मिनट |
-| W3 | Chapter 10 Physics Daily (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W4 | Chapter 13 Awards (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W5 | Chapter 19 Environment (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W6 | Chapter 16 Books Authors (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W7 | Chapter 18 Science Tech (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W8 | Chapter 12 Biology (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W9 | Chapter 14 Sports (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 43 मिनट |
+| W11 | Chapter 17 Culture Art (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W12 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 43 मिनट |
+| W3 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W4 | Chapter 13 Awards (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W5 | Chapter 19 Environment (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W6 | Chapter 16 Books Authors (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W7 | Chapter 18 Science Tech (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W8 | Chapter 12 Biology (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W9 | Chapter 14 Sports (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 24 |
-| key 4 | 41 |
+| key 3 | 25 |
+| key 4 | 43 |
 | key 5 | 31 |
 | key 6 | 15 |
 
@@ -61,8 +60,8 @@
 |---|---:|---:|---:|---:|---:|---:|
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 48/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 52/1092 |
-| 10th GK | 0 | 19 | 0 | 0 | 0 | 75/1482 |
-| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
+| 10th GK | 0 | 19 | 0 | 0 | 0 | 76/1482 |
+| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 50/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
@@ -73,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 562/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 564/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,11 +82,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 16:16:53   [Sports] QA needs_reference: sources:Feynman_en.txt
-21-11 16:17:03   [Awards] QA blocked: editorial:Content_hi.txt
-21-11 16:17:03   [Awards] QA needs_reference: sources:Content_hi.txt
-21-11 16:17:22   [Physics_Daily] QA passed: editorial:Feynman_en.txt
-21-11 16:17:22   [Physics_Daily] QA needs_reference: sources:Feynman_en.txt
 21-11 16:17:22   [Physics_Daily] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 71, "blocked": 0, "needs_reference": 3, "remaining": 74, 
 21-11 16:17:23 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_10_Physics_Daily: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 71, 'blocked': 0, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_10_Physics_Daily/QA.json'}
 21-11 16:17:32   [Days_Dates] QA passed: editorial:Feynman_hi.txt
@@ -123,6 +117,11 @@
 21-11 16:21:14 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_16_Books_Authors: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ["- International Booker Prize 2025 winner claimed as 'Heart Lamp' by Banu Mushtaq → award not yet awarded as of 2024; claim is speculative and should be removed or updated after official announcement", '- 59th Jnanpith Award announced March 2025 claimed for Vinod Kumar Shukla → award not yet announced as of 2024; claim is speculative and should be removed or updated after official announcement']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: Chidambara — Sumitranandan Pant (first Hindi writer to get the Jnanpith, 1968)', 'Fetch official supporting evidence for: First Hindi Jnanpith\t1968, Sumitranandan Pant (Chidambara)']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- अंतरराष्ट्रीय बुकर पुरस्कार 2025 के लिए बानू मुश्ताक की "हार्ट लैम्प" का उल्लेख गलत है; यह पुरस्कार 2025 में अभी तक घोषित नहीं हुआ है → अंतरराष्ट्रीय बुकर पुरस्कार 2025 की जानकारी हटाएँ या "अभी घोषित नहीं" लिखें', '- 58वाँ ज्ञानपीठ पुरस्कार (वर्ष 2023) को मई 2025 में प्रदान किया गया बताना गलत है; वास्तव में यह 2024 में प्रदान किया गया था → 58वाँ ज्ञानपीठ पुरस्कार (वर्ष 2023 के लिए): गुलज़ार (उर्दू) और जगद्गुरु रामभद्राचार्य (संस्कृत); 2024 में प्रदान किया गया']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_16_Books_Authors/QA.json'}
 21-11 16:21:14 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_19_Environment: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ["- Hindi term 'सुपोषण' given for eutrophication is wrong; सुपोषण means good nutrition → The correct Hindi term for eutrophication is 'यूट्रोफिकेशन' or 'पोषकता'"]}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: CITES (1973) — controls international trade in endangered wild animals and plants; signed at Washington, D.C.; India became a party in 1976. World Wildlife Day (3 March) marks the day it was signed.', 'Fetch official supporting evidence for: Rio Earth Summit (1992) — UNFCCC (climate), Convention on Biological Diversity (CBD), Agenda 21.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: जैव विविधता यानी जीवन की विविधता — जीन, प्रजाति और पारितंत्र के स्तर पर। NCERT के अनुसार भारत के पास विश्व के स्थल क्षेत्र का केवल लगभग 2.4% है, पर विश्व की दर्ज प्रजाति-विविधता का लगभग 8.1% भारत में है। भारत 17 महाविविधता (megadiverse) वाले देशों में से एक है।', 'Fetch official supporting evidence for: सल्फ़र डाइऑक्साइड (SO2) और नाइट्रोजन ऑक्साइड (NOx) — अम्लीय वर्षा का कारण। अम्लीय वर्षा संगमरमर को गलाती है; NCERT के अनुसार आगरा और मथुरा के आसपास के उद्योगों के प्रदूषकों से ताजमहल का संगमरमर क्षतिग्रस्त हो रहा है ("संगमरमर कैंसर")।']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_19_Environment/QA.json'}
 21-11 16:21:14   [Classification] QA needs_reference: sources:Content_hi.txt
+21-11 16:21:48   [Analogy] QA passed: editorial:Feynman_en.txt
+21-11 16:21:48   [Analogy] QA needs_reference: sources:Feynman_en.txt
+21-11 16:21:48   [Coding_Decoding] QA needs_reference: sources:Content_hi.txt
+21-11 16:22:27   [Analogy] QA blocked: editorial:Feynman_hi.txt
+21-11 16:22:27   [Analogy] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 2, "needs_reference": 3, "remaining": 75, 
 ````
 
 </details>
