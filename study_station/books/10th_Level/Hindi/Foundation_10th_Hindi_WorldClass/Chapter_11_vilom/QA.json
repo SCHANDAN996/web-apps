@@ -88,11 +88,74 @@
         "Feynman_hi.txt": "c0d48772ae9bba265d004bbb7e29024f653a80108249ba401f4da6c5ce793dce"
       },
       "checked_at": "2026-11-21T05:42:27+00:00"
+    },
+    "sources:Feynman_hi.txt": {
+      "fingerprint": "b4f9a788a53e6082383e390660dd040d8510455e6f8b9a7e717441a8e93930b3",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "ad41fec80a6b088f44c420d2ccabfc0867cfed12b661d63f3f35e1b547ba4aa4",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Feynman_hi.txt": "c0d48772ae9bba265d004bbb7e29024f653a80108249ba401f4da6c5ce793dce",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:23:27+00:00"
+    },
+    "editorial:Flashcards_hi.txt": {
+      "fingerprint": "a24a3c1a9b3566ec10e6fb5c3d9884ef861bbb086933f988d902de51768b9ad1",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "ad41fec80a6b088f44c420d2ccabfc0867cfed12b661d63f3f35e1b547ba4aa4",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Flashcards_hi.txt": "00d0a95f1b21035dca98ce08968a1e400dfb9c970ab2b5cdd519bb92f2b325a4"
+      },
+      "checked_at": "2026-11-21T10:25:29+00:00"
+    },
+    "sources:Flashcards_hi.txt": {
+      "fingerprint": "31615eccb02f090382a925864ad7e7bbbed2c7a3bf6b74e4c56195c6ef76dbc1",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "ad41fec80a6b088f44c420d2ccabfc0867cfed12b661d63f3f35e1b547ba4aa4",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Flashcards_hi.txt": "00d0a95f1b21035dca98ce08968a1e400dfb9c970ab2b5cdd519bb92f2b325a4",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:25:29+00:00"
+    },
+    "editorial:Important_Rules_hi.txt": {
+      "fingerprint": "0c8356e7873c7f1cf5595e76251847682b0fff49587f2e3e2fd7f8ab2dd4a1ff",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Rule 2 example \"दया → निर्दया\" is wrong: दया is a noun, निर्दया is an adjective; the antonym should be a noun like निर्दयता or कठोरता → Correction: Replace with \"दया → निर्दयता\" (or \"दया → कठोरता\").",
+        "- Rule 2 example \"करुणा → अकरुणा\" is wrong: करुणा is a noun, अकरुणा is an adjective; the antonym should be a noun like अकरुणता or निर्दयता → Correction: Replace with \"करुणा → अकरुणता\" (or \"करुणा → निर्दयता\").",
+        "- Rule 3 rule and examples are incorrect: Suffixes -हीन, -रहित form adjectives denoting absence, not standard noun antonyms; e.g., धनहीन is an adjective, the correct noun antonym of धन is निर्धनता/दरिद्रता → Correction: Revise rule to clarify these form negative adjectives, not direct antonyms, and give proper noun antonym pairs (धन→निर्धनता, बल→निर्बलता, ज्ञान→अज्ञान, आशा→निराशा).",
+        "- Rule 6 example \"बोलेगा → चुप रहेगा\" uses a two-word phrase, contradicting Rule 11 which states \"विलोम एकल शब्द होना चाहिए\" → Correction: Either change the example to a single-word antonym or amend Rule 11 to allow phrases."
+      ],
+      "dependencies": {
+        "chapter.json": "ad41fec80a6b088f44c420d2ccabfc0867cfed12b661d63f3f35e1b547ba4aa4",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Important_Rules_hi.txt": "eefafd59c7685e8e97ea46b38ebe91cf2a08e5ce7ab947cdca2a49db4267a06b"
+      },
+      "checked_at": "2026-11-21T10:30:10+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T05:42:27+00:00",
-  "chapter_fingerprint": "437cd1a3d8caff7117827f422fe91659a40143b9718c2d599f72fd8fb908a2a7"
+  "updated_at": "2026-11-21T10:30:10+00:00",
+  "chapter_fingerprint": "40ba52362110776bc96c33984d68347e35914350b0f82fea2eda29faf123cdb7"
 }

@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 03:59 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 04:00 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 21 मिनट |
-| W10 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 22 मिनट |
+| W10 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
 | W11 | Chapter 12 e banking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W12 | Chapter 14 muhavare lokokti (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W12 | Chapter 14 muhavare lokokti (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 | W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 21 मिनट |
 | W3 | Chapter 13 ek shabd (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W4 | Chapter 11 vilom (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W5 | Chapter 14 cyber security (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W6 | Chapter 10 internet browser (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W7 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W8 | Chapter 13 networking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W9 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W4 | Chapter 11 vilom (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W5 | Chapter 14 cyber security (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W6 | Chapter 10 internet browser (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W7 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W8 | Chapter 13 networking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W9 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 13 |
-| key 4 | 19 |
-| key 5 | 13 |
+| key 4 | 20 |
+| key 5 | 14 |
 | key 6 | 6 |
 
 ## किताबों की प्रगति
@@ -60,7 +60,7 @@
 | किताब | QA पास | जाँच बाकी | प्रमाण बाकी | सुधार अटका | मैनुअल | जाँचें पास / कुल |
 |---|---:|---:|---:|---:|---:|---:|
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 42/540 |
-| 12th Computer | 0 | 14 | 0 | 0 | 0 | 47/1092 |
+| 12th Computer | 0 | 14 | 0 | 0 | 0 | 48/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 43/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 519/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 520/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,12 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 15:54:25   [email] QA needs_reference: sources:Content_hi.txt
-21-11 15:54:28   [upsarg_pratyay] QA passed: editorial:Flashcards_hi.txt
-21-11 15:54:28   [upsarg_pratyay] QA needs_reference: sources:Flashcards_hi.txt
-21-11 15:54:59   [anekarthi_samshrut] QA needs_reference: sources:Feynman_hi.txt
-21-11 15:55:00   [internet_browser] QA passed: editorial:Feynman_en.txt
-21-11 15:55:00   [internet_browser] QA needs_reference: sources:Feynman_en.txt
 21-11 15:55:29   [vilom] QA passed: editorial:Flashcards_hi.txt
 21-11 15:55:29   [vilom] QA needs_reference: sources:Flashcards_hi.txt
 21-11 15:55:40   [e_banking] QA needs_reference: sources:Content_hi.txt
@@ -123,6 +117,12 @@
 21-11 16:00:11 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_11_vilom: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 2, 'pending': 28, 'blocked': 3, 'needs_reference': 3, 'remaining': 34, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In Rule 1 prefix table, the example "गति → दुर्गति" for उपसर्ग "दुर-/दु-" is not an antonym pair; "दुर्गति" means misfortune/bad condition, not the opposite of "गति" (motion/speed). → Replace with a valid antonym example such as "शील → दुर्शील" (good character → bad character) or retain only "सदाचार → दुराचार".', '- In Rule 1 prefix table, the examples "उत्तर → प्रत्युत्तर" and "क्रिया → प्रतिक्रिया" for उपसर्ग "प्रति-" are not antonyms; they denote reply/counter-action, not opposition. → Replace with true antonym pairs formed with "प्रति-" such as "अनुकूल → प्रतिकूल" (favourable → unfavourable) or "प्रत्यक्ष → परोक्ष" (direct → indirect).']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- Rule 3 example "लड़का–लड़की" (लिंग विलोम) does not illustrate the rule "एकवचन–बहुवचन विलोम नहीं" → Use a singular-plural pair like "किताब–किताबें" to show they are not antonyms.']}, {'check': 'sources:Feynman_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Flashcards_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Important_Rules_hi.txt', 'status': 'blocked', 'issues': ['- Rule 2 example "दया → निर्दया" is wrong: दया is a noun, निर्दया is an adjective; the antonym should be a noun like निर्दयता or कठोरता → Correction: Replace with "दया → निर्दयता" (or "दया → कठोरता").', '- Rule 2 example "करुणा → अकरुणा" is wrong: करुणा is a noun, अकरुणा is an adjective; the antonym should be a noun like अकरुणता or निर्दयता → Correction: Replace with "करुणा → अकरुणता" (or "करुणा → निर्दयता").', '- Rule 3 rule and examples are incorrect: Suffixes -हीन, -रहित form adjectives denoting absence, not standard noun antonyms; e.g., धनहीन is an adjective, the correct noun antonym of धन is निर्धनता/दरिद्रता → Correction: Revise rule to clarify these form negative adjectives, not direct antonyms, and give proper noun antonym pairs (धन→निर्धनता, बल→निर्बलता, ज्ञान→अज्ञान, आशा→निराशा).', '- Rule 6 example "बोलेगा → चुप रहेगा" uses a two-word phrase, contradicting Rule 11 which states "विलोम एकल शब्द होना चाहिए" → Correction: Either change the example to a single-word antonym or amend Rule 11 to allow phrases.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_11_vilom/QA.json'}
 21-11 16:00:28   [cyber_security] QA passed: editorial:Feynman_en.txt
 21-11 16:00:28   [cyber_security] QA needs_reference: sources:Feynman_en.txt
+21-11 16:00:47   [e_banking] QA blocked: editorial:Feynman_hi.txt
+21-11 16:00:59   [e_banking] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 2, "needs_reference": 3, "remaining": 75, 
+21-11 16:01:00 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_12_e_banking: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Tokenisation mandate date given as 1 January 2023 (in Card Networks & Tokenisation table and Examination Pointers) → Correct mandatory date is 1 October 2022 (after extensions from original 1 January 2022).', '- Security Framework point 4: limited liability for reporting within 4–7 working days stated as ₹5,000–₹25,000 → RBI circular specifies ₹5,000 for BSBDA/small accounts and ₹10,000 for other accounts (whichever is lower than transaction value).']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: | Tokenisation (RBI mandate, mandatory from 1 January 2023) | Security | Actual card number replaced by a token (device/merchant specific); PAN not stored by merchant. |', 'Fetch official supporting evidence for: - **Circular on Tokenisation (2021, 2022)** — Card-on-file tokenisation mandatory.', 'Fetch official supporting evidence for: **Solution**: Reporting within 3 working days of receiving the bank\'s transaction alert (Monday, Tuesday, Wednesday = 3 working days) attracts zero liability under RBI\'s "Customer Protection – Limiting Liability of Customers in Unauthorised Electronic Banking Transactions" (2017, updated 2021).', 'Fetch official supporting evidence for: - **Static reference dates**: NEFT 24×7 from 16 Dec 2019; RTGS 24×7 from 14 Dec 2020; tokenisation mandate Jan 2023 (mandatory from 1 Jan 2023); UPI 123Pay launch 2022; RuPay credit card on UPI (2022).']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: RBI Master Directions on Digital Payment Security Controls; NPCI product documentation; CERT-In advisories.']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- RBI नियम (खंड 3) में कार्ड-नॉट-प्रेजेंट लेन-देन के लिए AFA अनिवार्य होने का वर्ष 2018 बताया गया है → सही वर्ष 2011 है (RBI ने फरवरी 2011 में CNP लेन-देन के लिए अतिरिक्त प्रमाणीकरण अनिवार्य किया था)', '- Q4 (खंड 5) के उत्तर में भी AFA अनिवार्य होने का वर्ष 2018 बताया गया है → सही वर्ष 2011 है']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_12_e_banking/QA.json'}
+21-11 16:01:00   [vakya_shuddhi] QA needs_reference: sources:Feynman_hi.txt
+21-11 16:01:09   [ek_shabd] QA passed: editorial:Flashcards_hi.txt
+21-11 16:01:09   [ek_shabd] QA needs_reference: sources:Flashcards_hi.txt
 ````
 
 </details>
