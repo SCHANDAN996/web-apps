@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 08:34 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 08:50 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,13 +11,13 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W9 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 85 मिनट |
+| W9 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 101 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 162 |
-| key 4 | 143 |
-| key 5 | 153 |
+| key 4 | 144 |
+| key 5 | 154 |
 | key 6 | 147 |
 
 ## किताबों की प्रगति
@@ -77,7 +77,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 19:44:53 worker 6: nothing left
 21-11 19:45:18   [Culture_Art] QA passed: editorial:Content_hi.txt
 21-11 19:45:18   [Culture_Art] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
 21-11 19:45:18 QA Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_17_Culture_Art: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Hook paragraph says Jana Gana Mana was sung at the 1911 Delhi Durbar → The song was first sung at the Calcutta Session of the Indian National Congress on 27 December 1911, not at the Delhi Durbar.', "- Ajanta Caves technique described as 'fresco/tempera' → The paintings use tempera (fresco-secco) technique, not true fresco.", "- Folk Theatre table claims 'Ramlila of Varanasi region is UNESCO-listed' → UNESCO inscribed 'Ramlila, the traditional performance of the Ramayana' as a tradition in 2008, not specifically the Varanasi region's Ramlila."]}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_17_Culture_Art/QA.json'}
@@ -117,6 +116,7 @@
 21-11 20:14:17   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
 21-11 20:15:36   [sandhi] Practice_hi_Set_02.txt try 1: rejected (Q26:duplicate_options,Q28:duplicate_options,Q31:duplicate_options,Q33:duplicate_options,Q39:duplicate_options)
 21-11 20:31:16   [sandhi] Practice_hi_Set_02.txt try 2: re-solve disagrees (Q32 key a vs re-solve d, Q34 key b vs re-solve ?, Q35 key c vs re-solve b, Q36 key b vs re-solve c, 
+21-11 20:45:22   [sandhi] Practice_hi_Set_02.txt try 3: re-solve disagrees (Q34 key a vs re-solve ?, Q36 key a vs re-solve c, Q39 key b vs re-solve c, Q40 key c vs re-solve a, 
 ````
 
 </details>
