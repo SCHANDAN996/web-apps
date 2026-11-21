@@ -1,32 +1,33 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 02:30 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 02:32 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 03 Adjective (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W10 | Chapter 04 Verb (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W11 | Chapter 02 Pronoun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W12 | Chapter 20 Mirror Water Images (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W2 | Chapter 18 Inequality (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
-| W3 | Chapter 22 Figure Series (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W4 | Chapter 05 Tense (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W5 | Chapter 25 Statement Argument (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W6 | Chapter 24 Statement Assumption (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W8 | Chapter 01 Noun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W9 | Chapter 23 Syllogism (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W1 | Chapter 03 Adjective (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W10 | Chapter 04 Verb (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W11 | Chapter 02 Pronoun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W12 | Chapter 20 Mirror Water Images (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W2 | Chapter 18 Inequality (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
+| W3 | Chapter 22 Figure Series (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W4 | Chapter 05 Tense (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W5 | Chapter 25 Statement Argument (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W6 | Chapter 24 Statement Assumption (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W7 | Chapter 06 Adverb (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W8 | Chapter 01 Noun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W9 | Chapter 23 Syllogism (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 112 |
-| key 4 | 114 |
+| key 3 | 113 |
+| key 4 | 116 |
 | key 5 | 131 |
 | key 6 | 97 |
 
@@ -67,12 +68,12 @@
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 56/1950 |
-| 12th English | 0 | 25 | 0 | 0 | 0 | 11/2025 |
+| 12th English | 0 | 25 | 0 | 0 | 0 | 15/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 449/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 453/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,13 +88,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 14:27:17   [Noun] QA passed: structure
-21-11 14:27:23   [Syllogism] QA blocked: editorial:Content_hi.txt
-21-11 14:27:23   [Syllogism] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 1, "pending": 74, "blocked": 2, "needs_reference": 1, "remaining": 77, 
-21-11 14:27:23 QA 12th_Level/Reasoning/Chapter_23_Syllogism: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 1, 'pending': 74, 'blocked': 2, 'needs_reference': 1, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The complementary pair example "Some A are B" + "Some A are not B" is not a valid either–or pair (they are subcontraries, not contradictories) → Valid complementary pairs are "All A are B" with "Some A are not B" and "No A is B" with "Some A are B"']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Section 4 incorrectly asserts that “सभी A, B हैं” definitely implies “कुछ B, A हैं” (and the Active Recall expects this). In standard syllogism for Indian government exams (SSC, Bank, etc.), universal affirmatives have no existential import, so “Some B are A” does not follow definitely from “All A are B” alone. → Correct the rule: “All A are B” does not guarantee “Some B are A”; the Active Recall should indicate that neither “All B are A” nor “Some B are A” follows definitely without an existence premise.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_23_Syllogism/QA.json'}
-21-11 14:27:33   [Statement_Argument] QA passed: editorial:Content_hi.txt
-21-11 14:27:33   [Statement_Argument] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
-21-11 14:27:33 QA 12th_Level/Reasoning/Chapter_25_Statement_Argument: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_25_Statement_Argument/QA.json'}
 21-11 14:27:59   [Pronoun] QA passed: structure
 21-11 14:28:12   [sandhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q133 key a vs re-solve b, Q137 key c vs re-solve a, Q141 key b vs re-solve a, Q143 key a vs re-solve
 21-11 14:28:12   [sandhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
@@ -127,6 +121,13 @@
 21-11 14:32:03   [Tense] QA passed: editorial:Content_hi.txt
 21-11 14:32:03   [Tense] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 77, "blocked": 0, "needs_reference": 1, "remaining": 78, 
 21-11 14:32:04 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_05_Tense: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 77, 'blocked': 0, 'needs_reference': 1, 'remaining': 78, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_05_Tense/QA.json'}
+21-11 14:32:09   [Pronoun] QA passed: editorial:Content_hi.txt
+21-11 14:32:28   [Verb] QA blocked: editorial:Content_hi.txt
+21-11 14:32:29   [Pronoun] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 2, "pending": 77, "blocked": 1, "needs_reference": 1, "remaining": 79, 
+21-11 14:32:29   [Verb] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 2, "pending": 77, "blocked": 1, "needs_reference": 1, "remaining": 79, 
+21-11 14:32:30 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_02_Pronoun: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 2, 'pending': 77, 'blocked': 1, 'needs_reference': 1, 'remaining': 79, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ["- 'Every' is incorrectly listed as a pronoun in the Types table, Rule 1, and Summary Table; 'every' is a determiner, not a pronoun → remove 'every' from pronoun lists and restrict the singular-verb rule to true indefinite pronouns (each, everyone, everybody, etc.) and to noun phrases introduced by 'every'."]}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_02_Pronoun/QA.json'}
+21-11 14:32:30 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_04_Verb: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 2, 'pending': 77, 'blocked': 1, 'needs_reference': 1, 'remaining': 79, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- "Modal के बाद हमेशा Verb की पहली form (V1) आती है" नियम गलत है क्योंकि सूची में शामिल "ought to" के बाद "to + V1" आता है (जैसे *ought to go*) → सुधार: लिखें कि प्रमुख मोडल (can, could, may, might, shall, should, will, would, must, need, dare) के बाद bare infinitive (V1) आता है, लेकिन "ought to" के बाद "to + V1" आता है।', '- मेमोनिक "B-H-D मोडल की माँ" में कहा गया है कि केवल Be, Have, Do "असली Auxiliary" हैं और बाकी Modal हैं → सुधार: मोडल क्रियाएँ भी सहायक क्रियाएँ (modal auxiliaries) ही हैं; Be, Have, Do प्राथमिक सहायक क्रियाएँ (primary auxiliaries) हैं।']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_04_Verb/QA.json'}
+21-11 14:32:30   [Preposition] QA passed: structure
 ````
 
 </details>
