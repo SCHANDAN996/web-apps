@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 86 मिनट |
-| W10 | Chapter 17 Course of Action (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W11 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W12 | Chapter 16 Statement Conclusion (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W2 | Chapter 12 Missing Term (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 86 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 87 मिनट |
+| W10 | Chapter 17 Course of Action (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W11 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W12 | Chapter 16 Statement Conclusion (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W2 | Chapter 12 Missing Term (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 87 मिनट |
 | W4 | Chapter 15 Mathematical Operations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W5 | Chapter 14 Alphabet Questions (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W6 | Chapter 10 Clock Calendar (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W7 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W8 | Chapter 07 Sitting Arrangement (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W5 | Chapter 14 Alphabet Questions (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W6 | Chapter 10 Clock Calendar (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W7 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W8 | Chapter 07 Sitting Arrangement (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
 | W9 | Chapter 08 Puzzles Basic (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 31 |
-| key 4 | 47 |
-| key 5 | 48 |
+| key 4 | 48 |
+| key 5 | 49 |
 | key 6 | 33 |
 
 ## किताबों की प्रगति
@@ -62,7 +62,7 @@
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 31/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 29/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 43/1482 |
-| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 33/1716 |
+| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 36/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 0/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 0/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 0/1794 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 136/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 139/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,18 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 12:12:09   [Dictionary_Order] QA passed: editorial:Content_en.txt
-21-11 12:12:10   [Dictionary_Order] QA needs_reference: sources:Content_en.txt
-21-11 12:12:24   [Order_Ranking] QA blocked: editorial:Content_hi.txt
-21-11 12:12:24   [Order_Ranking] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
-21-11 12:12:24 QA 10th_Level/Reasoning/Chapter_06_Order_Ranking: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- "Q की दायीं रैंक 9 अपरिवर्तित है" in the interchange example → The right rank of the position originally held by Q remains 9; Q\'s personal right rank changes after interchange.', '- "Q का दायाँ 14 अब भी वही है" in the interchange active recall → The right rank of the position originally occupied by Q remains 14; Q\'s personal right rank changes after interchange.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_06_Order_Ranking/QA.json'}
-21-11 12:12:54   [Dictionary_Order] QA passed: editorial:Content_hi.txt
-21-11 12:13:02   [Dictionary_Order] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
-21-11 12:13:03 QA 10th_Level/Reasoning/Chapter_13_Dictionary_Order: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_13_Dictionary_Order/QA.json'}
-21-11 12:13:03   [Alphabet_Questions] QA passed: structure
-21-11 12:13:29   [Missing_Term] QA passed: editorial:Content_en.txt
-21-11 12:13:29   [Missing_Term] QA needs_reference: sources:Content_en.txt
-21-11 12:13:41   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 1: rejected (Q133:duplicate_options,Q135:duplicate_options)
 21-11 12:14:00   [Mathematical_Operations] QA passed: structure
 21-11 12:14:48   [Statement_Conclusion] QA passed: structure
 21-11 12:14:48   [Days_Dates] QA passed: editorial:Content_hi.txt
@@ -123,6 +111,18 @@
 21-11 12:18:32   [Sitting_Arrangement] QA blocked: editorial:Content_hi.txt
 21-11 12:18:32   [Sitting_Arrangement] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 1, "pending": 74, "blocked": 2, "needs_reference": 1, "remaining": 77, 
 21-11 12:18:32 QA 10th_Level/Reasoning/Chapter_07_Sitting_Arrangement: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 1, 'pending': 74, 'blocked': 2, 'needs_reference': 1, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Hook example claims three clues uniquely determine the seating as Aman–Beena–Chetan–Deepa–Eshan, but four arrangements satisfy the clues (e.g., Aman–Beena–Chetan–Deepa–Eshan, Aman–Beena–Eshan–Deepa–Chetan, Chetan–Deepa–Eshan–Aman–Beena, Eshan–Deepa–Chetan–Aman–Beena) → Remove the claim of unique deduction or modify the clues to yield a single solution.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- The mixed facing directions example incorrectly claims that a person facing north and a person facing south in a linear row are "एक-दूसरे के सामने हैं" (facing each other); in a row they face perpendicular directions, not each other. The left/right reversal occurs because they face opposite directions, not because they face each other. → Correct the explanation: they face opposite directions, causing their left/right to be reversed relative to each other.', '- The mnemonic "आमने-सामने, दायाँ-बायाँ बदले; पीठ-पीठ, दिशा एक ही दीठ" and its explanation are misapplied to linear mixed directions; it actually describes face-to-face/back-to-back scenarios (e.g., two parallel rows). In a single row with north/south facing, persons facing opposite directions have reversed left/right, not same. → Clarify that the mnemonic is for face-to-face/back-to-back arrangements; for a row, use the arrow method to determine each person\'s left/right individually.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_07_Sitting_Arrangement/QA.json'}
+21-11 12:18:51   [Statement_Conclusion] QA passed: editorial:Content_hi.txt
+21-11 12:19:09   [Statement_Conclusion] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
+21-11 12:19:02   [Missing_Term] QA blocked: editorial:Content_hi.txt
+21-11 12:19:09   [Missing_Term] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 12:19:10   [Puzzles_Basic] QA passed: editorial:Content_hi.txt
+21-11 12:19:10 QA 10th_Level/Reasoning/Chapter_12_Missing_Term: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- "परीक्षकों द्वारा पूछे जाने वाले 5 सबसे आम पैटर्न परिवार" → "परीक्षकों द्वारा पूछे जाने वाले 6 सबसे आम पैटर्न परिवार"']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_12_Missing_Term/QA.json'}
+21-11 12:19:10 QA 10th_Level/Reasoning/Chapter_16_Statement_Conclusion: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_16_Statement_Conclusion/QA.json'}
+21-11 12:19:10   [Puzzles_Basic] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
+21-11 12:19:11 QA 10th_Level/Reasoning/Chapter_08_Puzzles_Basic: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_08_Puzzles_Basic/QA.json'}
+21-11 12:19:11   [Cubes_Dice] QA passed: structure
+21-11 12:19:12   [Inequality] QA passed: editorial:Content_en.txt
+21-11 12:19:13   [Inequality] QA needs_reference: sources:Content_en.txt
 ````
 
 </details>

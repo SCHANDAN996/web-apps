@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "20ab6b42e9eafafbbb1cfe58977271282365054772f1e5616780529d0bbbedc9",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "6d00a9e897212b43917a2cda28ea0b2f77d59b806526a12bab5f039bfd7d7fa6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "082994a0ac08e1fdf4aaad089464396233a1d77079eacfc06946066753d3905a",
+        "Content_hi.txt": "ca25098cb19fdcdff43a25a63df4f2d8a23b474aa8c6aae66b04907a86283283",
+        "Feynman_en.txt": "6c8a46228fa709a06573afe86b1b2e812fbdce28ce55846c91c9ac6784bf0a75",
+        "Feynman_hi.txt": "8f9ec954b2a24beb70d086a8dfd3218a26edcf25f946e449ec052b591e3a1292",
+        "Flashcards_en.txt": "808f122b8c25ab7fda61e6f1bcb06035b9a0cd3546315fa528b65f3be7bc66cc",
+        "Flashcards_hi.txt": "67aa3525fc0b7974b227ef7d620622bb106105c3c0c4650f0f3357f89dcfebd0",
+        "Important_Rules_en.txt": "8ac7c43db27b17cdc636d65c2a6a32b9ddd673ad31e4cbb431b73b2c1aad406b",
+        "Important_Rules_hi.txt": "0f763e23ac6b1f0ecfcc9f1c2baef36c02d32d690f1f5c0f711022b23d07b916",
+        "Mind_Map.txt": "a275807dd210a39b13c06d02f44f9223567cfacb3c4b2bdc654f1ba92a27f92c",
+        "PYQ_en.txt": "11070a84e7b36804203642f5ce10af1cb4d7765daf15e57f13738b4d72bc541e",
+        "PYQ_hi.txt": "c97155424cd31e00ba266e80c08cfc6f628071c7c743bc16011f49325f2c373f",
+        "Practice_en_Set_01.txt": "30e8c48c04d26571a3753c472b99b5fcd7c1f0ba26fd646688b764afe538da58",
+        "Practice_en_Set_02.txt": "7984c61b897713e113bad7e198ca94f1d6612197a2225fec02d17e824e13c4a7",
+        "Practice_en_Set_03.txt": "a2872a0f73b3bc369d19bc87dea0f5cf0ee6221a289de53c9d951dbe20464686",
+        "Practice_en_Set_04.txt": "9e906d5d30b7a0923d4d28c2ae200a55eddd813044e8f08c5c894195cd3732c4",
+        "Practice_en_Set_05.txt": "03717bf3abceb73965c973e1910d12654b3e80fc8857743317266623ae73292d",
+        "Practice_en_Set_06.txt": "b1c9efe18ada8dd7d532d1b6f1221aaa05c4744b54ec765e9205f5c7df60ae5c",
+        "Practice_hi_Set_01.txt": "a26c0c6dd7f375ee5371b46534fcca5afa9a895e6ae49ff483b590daa14e5470",
+        "Practice_hi_Set_02.txt": "650466c44936f3142c69bd4da56dfab309b4839f5abc732b5adafe2f3e3e1962",
+        "Practice_hi_Set_03.txt": "5c0cccf1ed164b6f026bf0fb99f237050913f6ff76ebec1c20ff74cc16ee200f",
+        "Practice_hi_Set_04.txt": "bedcb2996d56baed905c2bf3a4008f043f0e88edd43244b62b700ec6dedd0177",
+        "Practice_hi_Set_05.txt": "e3f5b2e09eeacd55c4e668dc0990ba10ee768afd62cd5fdc7e06c2fdd98ca789",
+        "Practice_hi_Set_06.txt": "ffa6be732abc5a4a85fdf9ac8fb8d5b5b29ee3941db6a0837455760768395e97",
+        "Short_Tricks_en.txt": "497318d2e505ab64b50a87a8046b36b87ea6ab66a364a23461856da2c16e4760",
+        "Short_Tricks_hi.txt": "808b8d4fd68c1f599cf8ff258204e993d0912f858ad9ddd58376a529a2e0ccdc",
+        "inventory": {
+          "Content_en.txt": "082994a0ac08e1fdf4aaad089464396233a1d77079eacfc06946066753d3905a",
+          "Content_hi.txt": "ca25098cb19fdcdff43a25a63df4f2d8a23b474aa8c6aae66b04907a86283283",
+          "Feynman_en.txt": "6c8a46228fa709a06573afe86b1b2e812fbdce28ce55846c91c9ac6784bf0a75",
+          "Feynman_hi.txt": "8f9ec954b2a24beb70d086a8dfd3218a26edcf25f946e449ec052b591e3a1292",
+          "Flashcards_en.txt": "808f122b8c25ab7fda61e6f1bcb06035b9a0cd3546315fa528b65f3be7bc66cc",
+          "Flashcards_hi.txt": "67aa3525fc0b7974b227ef7d620622bb106105c3c0c4650f0f3357f89dcfebd0",
+          "Important_Rules_en.txt": "8ac7c43db27b17cdc636d65c2a6a32b9ddd673ad31e4cbb431b73b2c1aad406b",
+          "Important_Rules_hi.txt": "0f763e23ac6b1f0ecfcc9f1c2baef36c02d32d690f1f5c0f711022b23d07b916",
+          "Mind_Map.txt": "a275807dd210a39b13c06d02f44f9223567cfacb3c4b2bdc654f1ba92a27f92c",
+          "PYQ_en.txt": "11070a84e7b36804203642f5ce10af1cb4d7765daf15e57f13738b4d72bc541e",
+          "PYQ_hi.txt": "c97155424cd31e00ba266e80c08cfc6f628071c7c743bc16011f49325f2c373f",
+          "Practice_en_Set_01.txt": "30e8c48c04d26571a3753c472b99b5fcd7c1f0ba26fd646688b764afe538da58",
+          "Practice_en_Set_02.txt": "7984c61b897713e113bad7e198ca94f1d6612197a2225fec02d17e824e13c4a7",
+          "Practice_en_Set_03.txt": "a2872a0f73b3bc369d19bc87dea0f5cf0ee6221a289de53c9d951dbe20464686",
+          "Practice_en_Set_04.txt": "9e906d5d30b7a0923d4d28c2ae200a55eddd813044e8f08c5c894195cd3732c4",
+          "Practice_en_Set_05.txt": "03717bf3abceb73965c973e1910d12654b3e80fc8857743317266623ae73292d",
+          "Practice_en_Set_06.txt": "b1c9efe18ada8dd7d532d1b6f1221aaa05c4744b54ec765e9205f5c7df60ae5c",
+          "Practice_hi_Set_01.txt": "a26c0c6dd7f375ee5371b46534fcca5afa9a895e6ae49ff483b590daa14e5470",
+          "Practice_hi_Set_02.txt": "650466c44936f3142c69bd4da56dfab309b4839f5abc732b5adafe2f3e3e1962",
+          "Practice_hi_Set_03.txt": "5c0cccf1ed164b6f026bf0fb99f237050913f6ff76ebec1c20ff74cc16ee200f",
+          "Practice_hi_Set_04.txt": "bedcb2996d56baed905c2bf3a4008f043f0e88edd43244b62b700ec6dedd0177",
+          "Practice_hi_Set_05.txt": "e3f5b2e09eeacd55c4e668dc0990ba10ee768afd62cd5fdc7e06c2fdd98ca789",
+          "Practice_hi_Set_06.txt": "ffa6be732abc5a4a85fdf9ac8fb8d5b5b29ee3941db6a0837455760768395e97",
+          "Short_Tricks_en.txt": "497318d2e505ab64b50a87a8046b36b87ea6ab66a364a23461856da2c16e4760",
+          "Short_Tricks_hi.txt": "808b8d4fd68c1f599cf8ff258204e993d0912f858ad9ddd58376a529a2e0ccdc"
+        }
+      },
+      "checked_at": "2026-11-21T06:35:19+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "994c918571e9b7971d859cdb8a57a5b09bf55b0ac5bae1d110e7cada796a1627",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Hook example claims three clues uniquely determine the seating as Aman–Beena–Chetan–Deepa–Eshan, but four arrangements satisfy the clues (e.g., Aman–Beena–Chetan–Deepa–Eshan, Aman–Beena–Eshan–Deepa–Chetan, Chetan–Deepa–Eshan–Aman–Beena, Eshan–Deepa–Chetan–Aman–Beena) → Remove the claim of unique deduction or modify the clues to yield a single solution."
+      ],
+      "dependencies": {
+        "chapter.json": "6d00a9e897212b43917a2cda28ea0b2f77d59b806526a12bab5f039bfd7d7fa6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "082994a0ac08e1fdf4aaad089464396233a1d77079eacfc06946066753d3905a"
+      },
+      "checked_at": "2026-11-21T06:46:24+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "597e3e92dd9c3a5a34c62f95a4046d39c1a637081c8b1ae46cbe8188c96b71f8",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "6d00a9e897212b43917a2cda28ea0b2f77d59b806526a12bab5f039bfd7d7fa6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "082994a0ac08e1fdf4aaad089464396233a1d77079eacfc06946066753d3905a",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T06:46:24+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "94e32ec653913ea687d6f1c9736c7551fe65ec9a5b1070d9f56642ecb02910a8",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The mixed facing directions example incorrectly claims that a person facing north and a person facing south in a linear row are \"एक-दूसरे के सामने हैं\" (facing each other); in a row they face perpendicular directions, not each other. The left/right reversal occurs because they face opposite directions, not because they face each other. → Correct the explanation: they face opposite directions, causing their left/right to be reversed relative to each other.",
+        "- The mnemonic \"आमने-सामने, दायाँ-बायाँ बदले; पीठ-पीठ, दिशा एक ही दीठ\" and its explanation are misapplied to linear mixed directions; it actually describes face-to-face/back-to-back scenarios (e.g., two parallel rows). In a single row with north/south facing, persons facing opposite directions have reversed left/right, not same. → Clarify that the mnemonic is for face-to-face/back-to-back arrangements; for a row, use the arrow method to determine each person's left/right individually."
+      ],
+      "dependencies": {
+        "chapter.json": "6d00a9e897212b43917a2cda28ea0b2f77d59b806526a12bab5f039bfd7d7fa6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "ca25098cb19fdcdff43a25a63df4f2d8a23b474aa8c6aae66b04907a86283283"
+      },
+      "checked_at": "2026-11-21T06:48:32+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T06:48:32+00:00",
+  "chapter_fingerprint": "b892602b0a2ab174d2b2ed139a439ba02af8cfe51a5e0e52bdeb0a38e8b7ce7b"
+}
