@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 11:56 AM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 11:57 AM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,23 +11,23 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 65 मिनट |
-| W10 | Chapter 15 Days Dates (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W11 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W12 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W2 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 34 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 65 मिनट |
-| W4 | Chapter 13 Awards (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 19 मिनट |
-| W5 | Chapter 10 Physics Daily (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 25 मिनट |
-| W6 | Chapter 17 Culture Art (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W7 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 37 मिनट |
-| W8 | Chapter 18 Science Tech (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W9 | Chapter 19 Environment (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 66 मिनट |
+| W10 | Chapter 15 Days Dates (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
+| W11 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W12 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W2 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 35 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 66 मिनट |
+| W4 | Chapter 13 Awards (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 20 मिनट |
+| W5 | Chapter 10 Physics Daily (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 26 मिनट |
+| W6 | Chapter 17 Culture Art (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W7 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 38 मिनट |
+| W8 | Chapter 18 Science Tech (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W9 | Chapter 19 Environment (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 27 |
-| key 4 | 34 |
+| key 4 | 35 |
 | key 5 | 37 |
 | key 6 | 19 |
 
@@ -83,12 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 11:44:24   [apathit_gadyansh] QA passed: editorial:Feynman_hi.txt
-21-11 11:44:24   [apathit_gadyansh] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 3, "pending": 32, "blocked": 0, "needs_reference": 1, "remaining": 33, 
-21-11 11:44:25 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_17_apathit_gadyansh: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 3, 'pending': 32, 'blocked': 0, 'needs_reference': 1, 'remaining': 33, 'failures': [{'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_17_apathit_gadyansh/QA.json'}
-21-11 11:44:40   [Days_Dates] QA passed: structure
-21-11 11:45:19   [sandhi] Practice_hi_Set_02.txt try 1: rejected (Q47:duplicate_options)
-21-11 11:45:24   [Books_Authors] QA passed: structure
 21-11 11:46:08   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 2: re-solve disagrees (Q102 key c vs re-solve a, Q103 key c vs re-solve b, Q106 key b vs re-solve a, Q110 key d vs re-solve
 21-11 11:46:20   [Chemistry] QA passed: editorial:Content_en.txt
 21-11 11:46:25   [Chemistry] QA needs_reference: sources:Content_en.txt
@@ -123,6 +117,12 @@
 21-11 11:55:33   [Books_Authors] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 1, "pending": 74, "blocked": 2, "needs_reference": 1, "remaining": 77, 
 21-11 11:55:33 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_16_Books_Authors: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 1, 'pending': 74, 'blocked': 2, 'needs_reference': 1, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ["- International Booker Prize 2025 winner claimed as 'Heart Lamp' by Banu Mushtaq → award not yet awarded as of 2024; claim is speculative and should be removed or updated after official announcement", '- 59th Jnanpith Award announced March 2025 claimed for Vinod Kumar Shukla → award not yet announced as of 2024; claim is speculative and should be removed or updated after official announcement']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: Chidambara — Sumitranandan Pant (first Hindi writer to get the Jnanpith, 1968)', 'Fetch official supporting evidence for: First Hindi Jnanpith\t1968, Sumitranandan Pant (Chidambara)']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- अंतरराष्ट्रीय बुकर पुरस्कार 2025 के लिए बानू मुश्ताक की "हार्ट लैम्प" का उल्लेख गलत है; यह पुरस्कार 2025 में अभी तक घोषित नहीं हुआ है → अंतरराष्ट्रीय बुकर पुरस्कार 2025 की जानकारी हटाएँ या "अभी घोषित नहीं" लिखें', '- 58वाँ ज्ञानपीठ पुरस्कार (वर्ष 2023) को मई 2025 में प्रदान किया गया बताना गलत है; वास्तव में यह 2024 में प्रदान किया गया था → 58वाँ ज्ञानपीठ पुरस्कार (वर्ष 2023 के लिए): गुलज़ार (उर्दू) और जगद्गुरु रामभद्राचार्य (संस्कृत); 2024 में प्रदान किया गया']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_16_Books_Authors/QA.json'}
 21-11 11:56:21   [Classification] QA passed: structure
+21-11 11:57:40   [Physics_Daily] QA infrastructure blocked editorial:Content_hi.txt: too_long
+21-11 11:57:40   [Physics_Daily] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 75, "blocked": 0, "needs_reference": 1, "remaining": 76, 
+21-11 11:57:40 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_10_Physics_Daily: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 75, 'blocked': 0, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_10_Physics_Daily/QA.json'}
+21-11 11:58:22   [vakya_shuddhi] QA passed: editorial:Feynman_hi.txt
+21-11 11:58:22   [vakya_shuddhi] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 2, "pending": 32, "blocked": 1, "needs_reference": 1, "remaining": 34, 
+21-11 11:58:23 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 2, 'pending': 32, 'blocked': 1, 'needs_reference': 1, 'remaining': 34, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In the Case Markers note, the list of perfect/imperfect past forms (खाया है, खाया था, गया है, गया था) includes intransitive verbs while stating the rule for transitive verbs → The list should only contain transitive verb forms (e.g., खाया है, खाया था) or clarify that intransitive verbs do not take ने.', '- In the Word Order section, the example "मेज पर पुस्तक लाल है → लाल पुस्तक मेज पर है" claims "अर्थ अपरिवर्तित" but the meaning changes from predicative to attributive → Remove the claim or use an example where the adjective is attributive in both.', '- In the Pronoun-Antecedent Agreement table, the corrected sentence "सीता अपने भाई को बुलाई" remains ungrammatical (verb should agree with masculine object → बुलाया, and ने is missing) → The corrected sentence should be "सीता ने अपने भाई को बुलाया" or at least "सीता अपने भाई को बुलाया".', '- In Worked Example 5, the sentence "सीता अपना पुस्तक लाई" lacks ने for transitive simple past, introducing a second error besides the pronoun → The sentence should be "सीता ने अपनी पुस्तक लाई" to isolate the pronoun error.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi/QA.json'}
 ````
 
 </details>
