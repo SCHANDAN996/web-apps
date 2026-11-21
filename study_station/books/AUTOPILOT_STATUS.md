@@ -5,15 +5,14 @@
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 4/12
+**काम पर लगे workers:** 3/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 18 Science Tech (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
 | W10 | Chapter 10 Physics Daily (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 30 मिनट |
-| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 70 मिनट |
+| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 71 मिनट |
 | W9 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 41 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
@@ -80,10 +79,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 19:40:41   [Chemistry] QA passed: editorial:Content_en.txt
-21-11 19:40:41   [Chemistry] QA needs_reference: sources:Content_en.txt
-21-11 19:42:31   [Sports] QA blocked: editorial:Content_hi.txt
-21-11 19:42:31   [Sports] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
 21-11 19:42:31 QA Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_14_Sports: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- हिंदी में "कोच बिहार ट्रॉफी" लिखा है जबकि सही वर्तनी "कूच बिहार ट्रॉफी" है (क्रिकेट ट्रॉफी सूची और सारांश तालिका दोनों में) → "कूच बिहार ट्रॉफी"', '- हिंदी में "मुर्गुगाप्पा गोल्ड कप" लिखा है जबकि सही वर्तनी "मुरुगप्पा गोल्ड कप" है (हॉकी ट्रॉफी सूची में) → "मुरुगप्पा गोल्ड कप"']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_14_Sports/QA.json'}
 21-11 19:43:12 worker 11: nothing left
 21-11 19:44:12   [Books_Authors] QA passed: editorial:Content_hi.txt
@@ -120,6 +115,10 @@
 21-11 19:50:10   [Science_Tech] QA blocked: editorial:Content_hi.txt
 21-11 19:50:11   [Science_Tech] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
 21-11 19:50:11 QA Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_18_Science_Tech: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- खंड 4 (जैव प्रौद्योगिकी) में DNA संरचना का विवरण: "वॉटसन और क्रिक (1953, फ्रांसिस क्रिक के साथ रोजालिंड फ्रैंकलिन के X-ray डेटा का योगदान भी महत्वपूर्ण था)" → फ्रांसिस क्रिक स्वयं \'वॉटसन और क्रिक\' जोड़ी के सदस्य हैं, अलग नहीं; सही: "जेम्स वॉटसन और फ्रांसिस क्रिक ने 1953 में रोजालिंड फ्रैंकलिन के X-ray डेटा की मदद से डबल हेलिक्स संरचना प्रस्तावित की"']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_18_Science_Tech/QA.json'}
+21-11 19:50:50   [Physics_Daily] QA blocked: editorial:Content_hi.txt
+21-11 19:50:50   [Physics_Daily] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 19:50:50 worker 0: nothing left
+21-11 19:50:50 QA Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_10_Physics_Daily: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- 'सर्पी घर्षण' is an incorrect Hindi term for sliding friction; the correct term is 'सरकन घर्षण' (or 'खिसकाव घर्षण') → replace 'सर्पी घर्षण' with 'सरकन घर्षण'"]}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_10_Physics_Daily/QA.json'}
 ````
 
 </details>
