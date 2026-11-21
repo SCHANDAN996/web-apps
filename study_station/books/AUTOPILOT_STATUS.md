@@ -1,33 +1,34 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 05:12 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 05:13 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 94 मिनट |
-| W10 | Chapter 12 Sentence Structure (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W11 | Chapter 13 Synonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W12 | Chapter 09 Articles (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W2 | Chapter 15 One Word Substitution (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W3 | Chapter 10 Voice (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W4 | Chapter 11 Narration (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W5 | Chapter 16 Idioms Phrases (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W6 | Chapter 07 Preposition (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W8 | Chapter 08 Conjunction (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W9 | Chapter 14 Antonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 95 मिनट |
+| W10 | Chapter 12 Sentence Structure (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W11 | Chapter 13 Synonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W12 | Chapter 09 Articles (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W2 | Chapter 15 One Word Substitution (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W3 | Chapter 10 Voice (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W4 | Chapter 11 Narration (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W5 | Chapter 16 Idioms Phrases (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W6 | Chapter 07 Preposition (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W7 | Chapter 17 Spelling (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W8 | Chapter 08 Conjunction (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W9 | Chapter 14 Antonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 59 |
-| key 4 | 80 |
-| key 5 | 61 |
+| key 4 | 81 |
+| key 5 | 62 |
 | key 6 | 49 |
 
 ## किताबों की प्रगति
@@ -63,7 +64,7 @@
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 76/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 83/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 100/1606 |
-| 10th English | 0 | 20 | 0 | 0 | 0 | 73/1622 |
+| 10th English | 0 | 20 | 0 | 0 | 0 | 75/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 58/1950 |
@@ -72,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 657/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 659/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,17 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 17:07:54   [Narration] QA needs_reference: sources:Content_hi.txt
-21-11 17:08:28   [Sentence_Structure] QA needs_reference: sources:Content_hi.txt
-21-11 17:08:46   [Narration] QA blocked: editorial:Feynman_en.txt
-21-11 17:08:46   [Narration] QA needs_reference: sources:Feynman_en.txt
-21-11 17:08:47   [Articles] QA passed: editorial:Feynman_hi.txt
-21-11 17:08:47   [Articles] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
-21-11 17:08:48 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_09_Articles: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- The "magic rule" ("First time you mention something → torch OFF → use a/an") is presented as absolute, but first mention can take "the" for unique nouns (the sun, the moon) or specifically defined nouns (the dog that bit Ramesh). → Clarify that "a/an" is for first mention of indefinite nouns; "the" is used for first mention of definite/unique nouns.']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_09_Articles/QA.json'}
-21-11 17:09:08   [Synonyms] QA needs_reference: sources:Content_hi.txt
-21-11 17:09:25   [Synonyms] QA passed: editorial:Feynman_en.txt
-21-11 17:09:25   [Synonyms] QA needs_reference: sources:Feynman_en.txt
-21-11 17:09:37   [Sentence_Structure] QA blocked: editorial:Feynman_en.txt
 21-11 17:09:38   [Sentence_Structure] QA needs_reference: sources:Feynman_en.txt
 21-11 17:09:54   [Synonyms] QA passed: editorial:Feynman_hi.txt
 21-11 17:09:57   [Narration] QA blocked: editorial:Feynman_hi.txt
@@ -126,6 +116,17 @@
 21-11 17:13:02   [Idioms_Phrases] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
 21-11 17:13:02 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_16_Idioms_Phrases: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Linguistic Bridge table: "पेट में चूहे कूदना" → "To be very hungry" listed as \'सही अंग्रेज़ी मुहावरा\' → "To be very hungry" is not an idiom; use an actual idiom like "to be starving" or change column header to \'अर्थ\'', '- Linguistic Bridge table: "अंगारों पर पैर रखना" → "To beard the lion in his den" given as equivalent → meanings differ; "अंगारों पर पैर रखना" = to invite danger, better equivalent: "to play with fire" or "to walk into the lion\'s den"', '- Word Roots table: root \'vid/vis\' example phrase "To see eye to eye" contains no word from Latin vid/vis → replace with phrase using a vid/vis derivative like "in full view" or "visible evidence"', '- Word Roots table: root \'manu\' example phrase "To have the upper hand" contains no word from Latin manu → replace with phrase using a manu derivative like "manual labour" or "manufacture consent"', '- Word Roots table: root \'bene\' example phrase "A blessing in disguise" contains no word from Latin bene → replace with phrase using a bene derivative like "benevolent gesture" or "benefit of the doubt"']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_16_Idioms_Phrases/QA.json'}
 21-11 17:13:03   [Spelling] QA needs_reference: sources:Content_hi.txt
+21-11 17:13:35   [Spelling] QA passed: editorial:Feynman_en.txt
+21-11 17:13:35   [Spelling] QA needs_reference: sources:Feynman_en.txt
+21-11 17:13:57   [Spelling] QA passed: editorial:Feynman_hi.txt
+21-11 17:13:59   [Spelling] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
+21-11 17:14:00 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_17_Spelling: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The mnemonic in Part 3 claims Maintenance has double letters, but it does not → Remove Maintenance from the mnemonic or correct the claim that all listed words have double letters.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_17_Spelling/QA.json'}
+21-11 17:14:00   [Error_Spotting_Basic] QA needs_reference: sources:Content_hi.txt
+21-11 17:14:05   [Error_Spotting_Basic] QA passed: editorial:Feynman_en.txt
+21-11 17:14:06   [Error_Spotting_Basic] QA needs_reference: sources:Feynman_en.txt
+21-11 17:14:32   [Error_Spotting_Basic] QA passed: editorial:Feynman_hi.txt
+21-11 17:14:32   [Error_Spotting_Basic] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 5, "pending": 73, "blocked": 0, "needs_reference": 3, "remaining": 76, 
+21-11 17:14:32 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_18_Error_Spotting_Basic: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 5, 'pending': 73, 'blocked': 0, 'needs_reference': 3, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_18_Error_Spotting_Basic/QA.json'}
 ````
 
 </details>
