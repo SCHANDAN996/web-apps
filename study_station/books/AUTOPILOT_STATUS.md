@@ -13,21 +13,21 @@
 |---|---|---|---|
 | W1 | Chapter 18 Science Tech (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
 | W10 | Chapter 10 Physics Daily (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 24 मिनट |
-| W11 | Chapter 11 Chemistry (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 21 मिनट |
-| W2 | Chapter 13 Awards (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
+| W11 | Chapter 11 Chemistry (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 22 मिनट |
+| W2 | Chapter 13 Awards (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
 | W4 | Chapter 12 Biology (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
 | W5 | Chapter 15 Days Dates (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W6 | Chapter 17 Culture Art (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W7 | Chapter 16 Books Authors (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 64 मिनट |
+| W6 | Chapter 17 Culture Art (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W7 | Chapter 16 Books Authors (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 65 मिनट |
 | W9 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 35 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 158 |
-| key 4 | 137 |
+| key 4 | 138 |
 | key 5 | 151 |
-| key 6 | 142 |
+| key 6 | 143 |
 
 ## किताबों की प्रगति
 
@@ -68,10 +68,10 @@
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 101/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 96/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 75/2184 |
-| Graduation GK | 0 | 28 | 0 | 0 | 0 | 33/2184 |
+| Graduation GK | 0 | 28 | 0 | 0 | 0 | 34/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 945/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 946/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,10 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 19:33:52   [World_Geography] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
-21-11 19:33:52 QA Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_08_World_Geography: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_08_World_Geography/QA.json'}
-21-11 19:34:00   [Economy_Basic] QA passed: editorial:Content_en.txt
-21-11 19:34:01   [Economy_Basic] QA needs_reference: sources:Content_en.txt
 21-11 19:34:51   [Culture_Art] QA passed: structure
 21-11 19:35:02   [Awards] QA passed: editorial:Content_en.txt
 21-11 19:35:02   [Awards] QA needs_reference: sources:Content_en.txt
@@ -126,6 +122,10 @@
 21-11 19:44:33   [Awards] QA blocked: editorial:Content_hi.txt
 21-11 19:44:33   [Awards] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
 21-11 19:44:33 QA Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- 'पदक: सफेद सुनहरे रंग का पीपल-पत्ता आकार' (भारत रत्न पदक का वर्णन) → पदक कांस्य (bronze) का बना होता है जिस पर प्लैटिनम का सूर्य चिह्न होता है; रिबन सफेद होती है।"]}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_13_Awards/QA.json'}
+21-11 19:44:53 worker 6: nothing left
+21-11 19:45:18   [Culture_Art] QA passed: editorial:Content_hi.txt
+21-11 19:45:18   [Culture_Art] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 19:45:18 QA Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_17_Culture_Art: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Hook paragraph says Jana Gana Mana was sung at the 1911 Delhi Durbar → The song was first sung at the Calcutta Session of the Indian National Congress on 27 December 1911, not at the Delhi Durbar.', "- Ajanta Caves technique described as 'fresco/tempera' → The paintings use tempera (fresco-secco) technique, not true fresco.", "- Folk Theatre table claims 'Ramlila of Varanasi region is UNESCO-listed' → UNESCO inscribed 'Ramlila, the traditional performance of the Ramayana' as a tradition in 2008, not specifically the Varanasi region's Ramlila."]}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_17_Culture_Art/QA.json'}
 ````
 
 </details>

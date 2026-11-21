@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "619ff424c8c41a9131bcbb1d326d4f8ef573434686d1f28b2978333d70dbaca5",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "16e5edfb4877accadfa7773c788a7c74cedc482f311d09cb02fe3bb7b23536d1",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "acce084b393295db414bf59e522df61851c5bf58fd83af14d534ff892127124f",
+        "Content_hi.txt": "b0fe2de0acfa7b16bbd18e0114a1ecee8b98853a126c5086f36c130efbbee20e",
+        "Feynman_en.txt": "9d531ff0abfa63012945960f358820108bf8ab92c122488ce87a6983c9d0f70f",
+        "Feynman_hi.txt": "bc76a8493c661837eae141366b98aa886541e4fc360197f69b7d9677c1add74e",
+        "Flashcards_en.txt": "522d7a74e962ba0529c383cdec555d34938962d230299d50036ca52ea0f4bb52",
+        "Flashcards_hi.txt": "d6053c7a7671c259754e7d855371674062e398e45574a2b1e54e2e05a118b900",
+        "Key_Facts_en.txt": "cd5a0fe83504e9472d350f5f366af5bdd8ced8d2d7632c1dd455574069428fe4",
+        "Key_Facts_hi.txt": "f72a050fd80a7bad48d015689fb2eed32ca645ab020ce644e32fcd6df4ea328d",
+        "Memory_Hooks_en.txt": "6f1ee1f57343924da0d44b2afa9cd0fd24cab85a7f87fb3b4cfeaf42fb9b7f91",
+        "Memory_Hooks_hi.txt": "d6837399774f856c21eb6f7c0527232eddc2a7bb2e3a854c18afaef4f96567be",
+        "Mind_Map.txt": "be3a15737c5bf512d58d9c68309c4527c9b6d2b4885814fe5b9d9bbd137c1228",
+        "PYQ_en.txt": "7658663e5e16b8090a9168e9778a8fc625889a6e7f1d14c10d8b21e92ac82c1d",
+        "PYQ_hi.txt": "a3cc21f132410a2259e46dbf9e176d2fd743e21054121321108d3bebcb5aa0e7",
+        "Practice_en_Set_01.txt": "7f2bb85af5b9ce22844b698db7f822bbdcecf497afb8dc5ba22a2295534a4558",
+        "Practice_en_Set_02.txt": "2b1d28b6892a97db4aef16063ee921a08447c24089a52fcc15de5310b590070a",
+        "Practice_en_Set_03.txt": "2fe06bb154e589fac21a0da87a21cb7cc279cbe0977fe50464b3a9043a9bd1e7",
+        "Practice_en_Set_04.txt": "5c84bdaeda111f074cc42f560518d1b757d6d9d01c1cbf449f390d285ae45540",
+        "Practice_en_Set_05.txt": "8658c1340d3e793f2755ed4302fc89bcf78ed0d36433adadac296623a735a5c2",
+        "Practice_en_Set_06.txt": "577d7a622624b586cc74f1b68e271ff640c85051f583a2299aa7f4628b0db41d",
+        "Practice_hi_Set_01.txt": "5cc67728ec0d4eefc0de161413a1f7014227e11cfd8027c3a9a345fd5e658bdd",
+        "Practice_hi_Set_02.txt": "56c43763583ff57e5ba4263d0c9e7183bb20521cb7741d93e835e0421de3cfd3",
+        "Practice_hi_Set_03.txt": "22ac0b94264ad8ac2c9ae705780838f651e9129ca10d564a8a93da6b0aa45977",
+        "Practice_hi_Set_04.txt": "657811ae59d8de1f156deafbdc00863511149cea462796f22b89b9f18907444f",
+        "Practice_hi_Set_05.txt": "b528519d54e7c3e46dc6ea4b63694c29fb9013c445bcf7ff60939a8166b9014b",
+        "Practice_hi_Set_06.txt": "a0e9617100a6cdd371b8a389721119f984b5ee94f0f651d520ebdc5a17c342bb",
+        "inventory": {
+          "Content_en.txt": "acce084b393295db414bf59e522df61851c5bf58fd83af14d534ff892127124f",
+          "Content_hi.txt": "b0fe2de0acfa7b16bbd18e0114a1ecee8b98853a126c5086f36c130efbbee20e",
+          "Feynman_en.txt": "9d531ff0abfa63012945960f358820108bf8ab92c122488ce87a6983c9d0f70f",
+          "Feynman_hi.txt": "bc76a8493c661837eae141366b98aa886541e4fc360197f69b7d9677c1add74e",
+          "Flashcards_en.txt": "522d7a74e962ba0529c383cdec555d34938962d230299d50036ca52ea0f4bb52",
+          "Flashcards_hi.txt": "d6053c7a7671c259754e7d855371674062e398e45574a2b1e54e2e05a118b900",
+          "Key_Facts_en.txt": "cd5a0fe83504e9472d350f5f366af5bdd8ced8d2d7632c1dd455574069428fe4",
+          "Key_Facts_hi.txt": "f72a050fd80a7bad48d015689fb2eed32ca645ab020ce644e32fcd6df4ea328d",
+          "Memory_Hooks_en.txt": "6f1ee1f57343924da0d44b2afa9cd0fd24cab85a7f87fb3b4cfeaf42fb9b7f91",
+          "Memory_Hooks_hi.txt": "d6837399774f856c21eb6f7c0527232eddc2a7bb2e3a854c18afaef4f96567be",
+          "Mind_Map.txt": "be3a15737c5bf512d58d9c68309c4527c9b6d2b4885814fe5b9d9bbd137c1228",
+          "PYQ_en.txt": "7658663e5e16b8090a9168e9778a8fc625889a6e7f1d14c10d8b21e92ac82c1d",
+          "PYQ_hi.txt": "a3cc21f132410a2259e46dbf9e176d2fd743e21054121321108d3bebcb5aa0e7",
+          "Practice_en_Set_01.txt": "7f2bb85af5b9ce22844b698db7f822bbdcecf497afb8dc5ba22a2295534a4558",
+          "Practice_en_Set_02.txt": "2b1d28b6892a97db4aef16063ee921a08447c24089a52fcc15de5310b590070a",
+          "Practice_en_Set_03.txt": "2fe06bb154e589fac21a0da87a21cb7cc279cbe0977fe50464b3a9043a9bd1e7",
+          "Practice_en_Set_04.txt": "5c84bdaeda111f074cc42f560518d1b757d6d9d01c1cbf449f390d285ae45540",
+          "Practice_en_Set_05.txt": "8658c1340d3e793f2755ed4302fc89bcf78ed0d36433adadac296623a735a5c2",
+          "Practice_en_Set_06.txt": "577d7a622624b586cc74f1b68e271ff640c85051f583a2299aa7f4628b0db41d",
+          "Practice_hi_Set_01.txt": "5cc67728ec0d4eefc0de161413a1f7014227e11cfd8027c3a9a345fd5e658bdd",
+          "Practice_hi_Set_02.txt": "56c43763583ff57e5ba4263d0c9e7183bb20521cb7741d93e835e0421de3cfd3",
+          "Practice_hi_Set_03.txt": "22ac0b94264ad8ac2c9ae705780838f651e9129ca10d564a8a93da6b0aa45977",
+          "Practice_hi_Set_04.txt": "657811ae59d8de1f156deafbdc00863511149cea462796f22b89b9f18907444f",
+          "Practice_hi_Set_05.txt": "b528519d54e7c3e46dc6ea4b63694c29fb9013c445bcf7ff60939a8166b9014b",
+          "Practice_hi_Set_06.txt": "a0e9617100a6cdd371b8a389721119f984b5ee94f0f651d520ebdc5a17c342bb"
+        }
+      },
+      "checked_at": "2026-11-21T13:52:46+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "efa097ac2487544becf0ba38c72905a377f8956b7ee8a9bfcc17565c5a86fc4f",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "16e5edfb4877accadfa7773c788a7c74cedc482f311d09cb02fe3bb7b23536d1",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "acce084b393295db414bf59e522df61851c5bf58fd83af14d534ff892127124f"
+      },
+      "checked_at": "2026-11-21T14:10:41+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "6114c5a28ee73c1711d3e67b26eaf2e510b87c1b3f7d1f916b30af915b119901",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "16e5edfb4877accadfa7773c788a7c74cedc482f311d09cb02fe3bb7b23536d1",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "acce084b393295db414bf59e522df61851c5bf58fd83af14d534ff892127124f",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T14:10:41+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "8816f32049aaeae338d9b3a8bf039a5e1182d993e37e90ccac92a8a5bf60d3af",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Proton discovery attributed to Goldstein in the fundamental particles table → Proton discovered by Ernest Rutherford (1919); Goldstein discovered anode rays (1886)"
+      ],
+      "dependencies": {
+        "chapter.json": "16e5edfb4877accadfa7773c788a7c74cedc482f311d09cb02fe3bb7b23536d1",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "b0fe2de0acfa7b16bbd18e0114a1ecee8b98853a126c5086f36c130efbbee20e"
+      },
+      "checked_at": "2026-11-21T14:14:19+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T14:14:20+00:00",
+  "chapter_fingerprint": "ffbe9a86b9bfc94b6a662215bca2cef4d3639fe6e9fcc80611ae02db09c977ff"
+}
