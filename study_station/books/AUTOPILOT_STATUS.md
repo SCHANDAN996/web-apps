@@ -1,35 +1,34 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 02:25 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 02:26 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 214 मिनट |
-| W10 | Chapter 19 Cubes Dice (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W11 | Chapter 16 Statement Conclusion (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W12 | Chapter 20 Mirror Water Images (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W2 | Chapter 18 Inequality (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W3 | Chapter 22 Figure Series (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W4 | Chapter 14 Alphabet Questions (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W5 | Chapter 17 Course of Action (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W6 | Chapter 24 Statement Assumption (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W7 | Chapter 21 Paper Folding Cutting (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W8 | Chapter 15 Mathematical Operations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W9 | Chapter 23 Syllogism (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 215 मिनट |
+| W10 | Chapter 19 Cubes Dice (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W11 | Chapter 16 Statement Conclusion (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W12 | Chapter 20 Mirror Water Images (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W2 | Chapter 18 Inequality (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W3 | Chapter 22 Figure Series (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W4 | Chapter 14 Alphabet Questions (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W5 | Chapter 25 Statement Argument (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W6 | Chapter 24 Statement Assumption (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W7 | Chapter 21 Paper Folding Cutting (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W9 | Chapter 23 Syllogism (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 110 |
 | key 4 | 110 |
-| key 5 | 127 |
-| key 6 | 95 |
+| key 5 | 128 |
+| key 6 | 96 |
 
 ## किताबों की प्रगति
 
@@ -67,13 +66,13 @@
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
-| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 53/1950 |
-| 12th English | 0 | 25 | 0 | 0 | 0 | 0/2025 |
+| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 55/1950 |
+| 12th English | 0 | 25 | 0 | 0 | 0 | 1/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 435/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 438/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,15 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 14:20:51   [Statement_Conclusion] QA blocked: editorial:Content_hi.txt
-21-11 14:20:51   [Statement_Conclusion] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
-21-11 14:20:52 QA 12th_Level/Reasoning/Chapter_16_Statement_Conclusion: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Hook example claims both conclusions are wrong, but Conclusion II ("मेहनत सफलता की एक शर्त है") is a valid necessary-condition inference from the statement "सभी सफल लोग मेहनती होते हैं" → Conclusion II should be considered correct (or the example should be corrected to show only Conclusion I is invalid).']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_16_Statement_Conclusion/QA.json'}
-21-11 14:21:04   [Alphabet_Questions] QA passed: editorial:Content_en.txt
-21-11 14:21:04   [Alphabet_Questions] QA needs_reference: sources:Content_en.txt
-21-11 14:21:17   [Cubes_Dice] QA blocked: editorial:Content_en.txt
-21-11 14:21:18   [Cubes_Dice] QA needs_reference: sources:Content_en.txt
-21-11 14:21:45   [Paper_Folding_Cutting] QA passed: structure
-21-11 14:22:05   [Cubes_Dice] QA passed: editorial:Content_hi.txt
 21-11 14:22:05   [Cubes_Dice] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
 21-11 14:22:06 QA 12th_Level/Reasoning/Chapter_19_Cubes_Dice: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The net rule "1st opposite 3rd, 2nd opposite 4th" is presented as a general rule for all nets, but it only applies to nets that contain a straight row/column of 4 squares (not all 11 valid nets have such a row) → Clarify that this rule is specific to nets with a straight line of 4 squares; other nets require different analysis.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_19_Cubes_Dice/QA.json'}
 21-11 14:22:17   [Alphabet_Questions] QA passed: editorial:Content_hi.txt
@@ -127,6 +117,15 @@
 21-11 14:26:11   [Mirror_Water_Images] QA needs_reference: sources:Content_en.txt
 21-11 14:26:12 QA 12th_Level/Reasoning/Chapter_24_Statement_Assumption: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_24_Statement_Assumption/QA.json'}
 21-11 14:26:13   [Statement_Argument] QA passed: structure
+21-11 14:27:16   [Statement_Argument] QA passed: editorial:Content_en.txt
+21-11 14:27:16   [Statement_Argument] QA needs_reference: sources:Content_en.txt
+21-11 14:27:17   [Noun] QA passed: structure
+21-11 14:27:23   [Syllogism] QA blocked: editorial:Content_hi.txt
+21-11 14:27:23   [Syllogism] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 1, "pending": 74, "blocked": 2, "needs_reference": 1, "remaining": 77, 
+21-11 14:27:23 QA 12th_Level/Reasoning/Chapter_23_Syllogism: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 1, 'pending': 74, 'blocked': 2, 'needs_reference': 1, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The complementary pair example "Some A are B" + "Some A are not B" is not a valid either–or pair (they are subcontraries, not contradictories) → Valid complementary pairs are "All A are B" with "Some A are not B" and "No A is B" with "Some A are B"']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Section 4 incorrectly asserts that “सभी A, B हैं” definitely implies “कुछ B, A हैं” (and the Active Recall expects this). In standard syllogism for Indian government exams (SSC, Bank, etc.), universal affirmatives have no existential import, so “Some B are A” does not follow definitely from “All A are B” alone. → Correct the rule: “All A are B” does not guarantee “Some B are A”; the Active Recall should indicate that neither “All B are A” nor “Some B are A” follows definitely without an existence premise.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_23_Syllogism/QA.json'}
+21-11 14:27:33   [Statement_Argument] QA passed: editorial:Content_hi.txt
+21-11 14:27:33   [Statement_Argument] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
+21-11 14:27:33 QA 12th_Level/Reasoning/Chapter_25_Statement_Argument: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_25_Statement_Argument/QA.json'}
 ````
 
 </details>
