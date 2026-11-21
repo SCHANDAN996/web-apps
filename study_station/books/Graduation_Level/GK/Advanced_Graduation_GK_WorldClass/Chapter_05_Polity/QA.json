@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "a92a6d1376234297e1e08e02fc6d564118c5ba95a2e7a4df139328325b368941",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "bcf86d8e99879c78bce9711c41cd3e9318ae03247c6f0f3454568cd8a366d2c8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "35bf87166e2bb68a4188df513e78f42b230d02acc200a1130e883b6b7ff7d08a",
+        "Content_hi.txt": "ab9f74e9b78e004f30470b669dfdaaa697e4dc0ff93882f2e3e99f85d2ab894e",
+        "Feynman_en.txt": "26f853c19c249775c42cff74722d3bb1f4743f22efcbddf2636af3984fe5bd22",
+        "Feynman_hi.txt": "281ccb8d17ae8f402f42106f96f8f882f0cf713aa83a1735f0484ff03ff2da0d",
+        "Flashcards_en.txt": "b1b0e756e9d4b28a54ac6fcdddbbfcdeea562427e3cd1f1ca5037dfa54992a88",
+        "Flashcards_hi.txt": "805792cd1a1be285b18a56ebca39d34fa71aff0e395195e18f4a16651a2b01d8",
+        "Key_Facts_en.txt": "0e96f3de18ff8e9cc31043533eac5af1f233c91d7656a19b13f7ae8e7dc5d739",
+        "Key_Facts_hi.txt": "3a3ed93a96fbe78d80c50ef4112e46685fe288b893a759073e7218380429d454",
+        "Memory_Hooks_en.txt": "faf8ef98f0ab2c6a4163de1ee3c6d33514e1626c370c9c5f4abdb239863f8813",
+        "Memory_Hooks_hi.txt": "9bc1700769c1a24366b0c608fb9877cd30d91e03f95fc400fa215baf6e8f23d8",
+        "Mind_Map.txt": "32df1c831a21eb83aee6cdd5191f00d0494c993e60dbca8c14d4464ee43b95c2",
+        "PYQ_en.txt": "9b449306119d080ad503cb574fec7bb3b8066b56ffa00e66663c0adcfef3b64c",
+        "PYQ_hi.txt": "45ab04a6969a8b49ee699a654bc6d65f9c3d96328626333d311b02aa6f16060b",
+        "Practice_en_Set_01.txt": "a0d6194316f1d8f47aa32a275301b95960c19e7b380f9077b1deb527266f09e1",
+        "Practice_en_Set_02.txt": "aa5603fe25764711574b40b3a653eb2eb862a41e533559cfda9fa1022eacff26",
+        "Practice_en_Set_03.txt": "4ca81482ea1ec03604654bc8cd4d12d007691fcd6b9a63b07dd0eb3d90aa0fdf",
+        "Practice_en_Set_04.txt": "9e635aa55a054b12af762c9f5344dfb90a46205bfb71d1def6b6876858c49654",
+        "Practice_en_Set_05.txt": "bf3249828a75a2be6e05fcea892b584af1a08bab0e0be72071d23922ff033bf4",
+        "Practice_en_Set_06.txt": "02e31df0c13bfec81e5c190de87c08744cc4da3533e631ea52cbc0beb640957c",
+        "Practice_hi_Set_01.txt": "125aae89ac38df4e905e4b07120997036c3f59e584df5a03ee8a7f06732c8fb5",
+        "Practice_hi_Set_02.txt": "6b9d07e5fd7580c0751d3c6acdf391096d2be85a5136083c4201a46c52c1929b",
+        "Practice_hi_Set_03.txt": "87e85d6b6a3594a626d33e867ba71ca32ac49a2336e38897550767ee46eb162e",
+        "Practice_hi_Set_04.txt": "2f4582e0b7d5ba96e8bf39650ec3c39d9c6525d05c258ab352fffec1b52b01d3",
+        "Practice_hi_Set_05.txt": "db211280c50732598ca93d04079241fa3106fce4538572bb6c76be6d726373ed",
+        "Practice_hi_Set_06.txt": "cf364e5b11b6000996f578eb3596307dce6f92cecc9e9bce1ff248dd802f938a",
+        "inventory": {
+          "Content_en.txt": "35bf87166e2bb68a4188df513e78f42b230d02acc200a1130e883b6b7ff7d08a",
+          "Content_hi.txt": "ab9f74e9b78e004f30470b669dfdaaa697e4dc0ff93882f2e3e99f85d2ab894e",
+          "Feynman_en.txt": "26f853c19c249775c42cff74722d3bb1f4743f22efcbddf2636af3984fe5bd22",
+          "Feynman_hi.txt": "281ccb8d17ae8f402f42106f96f8f882f0cf713aa83a1735f0484ff03ff2da0d",
+          "Flashcards_en.txt": "b1b0e756e9d4b28a54ac6fcdddbbfcdeea562427e3cd1f1ca5037dfa54992a88",
+          "Flashcards_hi.txt": "805792cd1a1be285b18a56ebca39d34fa71aff0e395195e18f4a16651a2b01d8",
+          "Key_Facts_en.txt": "0e96f3de18ff8e9cc31043533eac5af1f233c91d7656a19b13f7ae8e7dc5d739",
+          "Key_Facts_hi.txt": "3a3ed93a96fbe78d80c50ef4112e46685fe288b893a759073e7218380429d454",
+          "Memory_Hooks_en.txt": "faf8ef98f0ab2c6a4163de1ee3c6d33514e1626c370c9c5f4abdb239863f8813",
+          "Memory_Hooks_hi.txt": "9bc1700769c1a24366b0c608fb9877cd30d91e03f95fc400fa215baf6e8f23d8",
+          "Mind_Map.txt": "32df1c831a21eb83aee6cdd5191f00d0494c993e60dbca8c14d4464ee43b95c2",
+          "PYQ_en.txt": "9b449306119d080ad503cb574fec7bb3b8066b56ffa00e66663c0adcfef3b64c",
+          "PYQ_hi.txt": "45ab04a6969a8b49ee699a654bc6d65f9c3d96328626333d311b02aa6f16060b",
+          "Practice_en_Set_01.txt": "a0d6194316f1d8f47aa32a275301b95960c19e7b380f9077b1deb527266f09e1",
+          "Practice_en_Set_02.txt": "aa5603fe25764711574b40b3a653eb2eb862a41e533559cfda9fa1022eacff26",
+          "Practice_en_Set_03.txt": "4ca81482ea1ec03604654bc8cd4d12d007691fcd6b9a63b07dd0eb3d90aa0fdf",
+          "Practice_en_Set_04.txt": "9e635aa55a054b12af762c9f5344dfb90a46205bfb71d1def6b6876858c49654",
+          "Practice_en_Set_05.txt": "bf3249828a75a2be6e05fcea892b584af1a08bab0e0be72071d23922ff033bf4",
+          "Practice_en_Set_06.txt": "02e31df0c13bfec81e5c190de87c08744cc4da3533e631ea52cbc0beb640957c",
+          "Practice_hi_Set_01.txt": "125aae89ac38df4e905e4b07120997036c3f59e584df5a03ee8a7f06732c8fb5",
+          "Practice_hi_Set_02.txt": "6b9d07e5fd7580c0751d3c6acdf391096d2be85a5136083c4201a46c52c1929b",
+          "Practice_hi_Set_03.txt": "87e85d6b6a3594a626d33e867ba71ca32ac49a2336e38897550767ee46eb162e",
+          "Practice_hi_Set_04.txt": "2f4582e0b7d5ba96e8bf39650ec3c39d9c6525d05c258ab352fffec1b52b01d3",
+          "Practice_hi_Set_05.txt": "db211280c50732598ca93d04079241fa3106fce4538572bb6c76be6d726373ed",
+          "Practice_hi_Set_06.txt": "cf364e5b11b6000996f578eb3596307dce6f92cecc9e9bce1ff248dd802f938a"
+        }
+      },
+      "checked_at": "2026-11-21T13:45:43+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "db0948921a2513fd4e453c768c67594575835861067eb8e089efd05c1ee9804f",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The text states \"Lok Sabha — maximum strength 552 (as originally fixed; currently 543 elected seats after Anglo-Indian nomination was abolished by the 104th Amendment, 2020).\" The maximum strength after the 104th Amendment is 550 (530 from states + 20 from UTs), not 552. → The maximum strength of Lok Sabha is now 550; the 104th Amendment removed the two nominated Anglo-Indian seats, reducing the total from 552 to 550.",
+        "- In the Linguistic Bridge table, \"परमादेश\" is mapped to \"Writ (e.g., बंदी प्रत्यक्षीकरण = Habeas Corpus)\". \"परमादेश\" is the Hindi term for Mandamus, not the generic term for writ; the generic term is \"रिट\" or \"प्रादेश\". → \"परमादेश\" should map to \"Mandamus\"; the generic term for writ is \"रिट\" or \"प्रादेश\"."
+      ],
+      "dependencies": {
+        "chapter.json": "bcf86d8e99879c78bce9711c41cd3e9318ae03247c6f0f3454568cd8a366d2c8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "35bf87166e2bb68a4188df513e78f42b230d02acc200a1130e883b6b7ff7d08a"
+      },
+      "checked_at": "2026-11-21T13:48:35+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "62f9681bb51f5cd189a87440caa529ac631c5757ffb4b6762fd6ff2b043d367e",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: - In **Kesavananda Bharati v. State of Kerala (1973)**, the Supreme Court held the Preamble is **part of the Constitution** — and laid down the **Basic Structure doctrine**: Parliament can amend anything *except* the basic structure.",
+        "Fetch official supporting evidence for: **Fundamental Duties** — Article 51A, Part IVA, added by the **42nd Amendment (1976)** on the Swaran Singh Committee's recommendation; originally 10, now **11** (the 11th — education of one's child — added by the 86th Amendment, 2002). They are **non-justiciable**.",
+        "Fetch official supporting evidence for: - The **106th Amendment (2023)** — the *Nari Shakti Vandan Adhiniyam* — reserves one-third of seats for women in the Lok Sabha and State Assemblies, to take effect after the next delimitation and census. Connect it with Article 330A/332A.",
+        "Fetch official supporting evidence for: Questions swap **26 November 1949** (adoption) with **26 January 1950** (enforcement), or Sachchidananda Sinha (temporary president) with Dr. Rajendra Prasad (permanent president). Always ask: *adopted or enforced? temporary or permanent?*",
+        "Fetch official supporting evidence for: *\"Which of the following is NOT a constitutional body?\"* — options: Election Commission, Finance Commission, NITI Aayog, UPSC. Students who skim miss the \"NOT\" and pick the first familiar name. NITI Aayog (executive resolution, 2015) is the answer. Underline every NOT/EXCEPT in the question paper."
+      ],
+      "dependencies": {
+        "chapter.json": "bcf86d8e99879c78bce9711c41cd3e9318ae03247c6f0f3454568cd8a366d2c8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "35bf87166e2bb68a4188df513e78f42b230d02acc200a1130e883b6b7ff7d08a",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T13:48:35+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "29810a5a8d7012223d24bac071b1438cff53120d05ffff70f2fb3361044f0622",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "bcf86d8e99879c78bce9711c41cd3e9318ae03247c6f0f3454568cd8a366d2c8",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "ab9f74e9b78e004f30470b669dfdaaa697e4dc0ff93882f2e3e99f85d2ab894e"
+      },
+      "checked_at": "2026-11-21T14:01:53+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T14:01:53+00:00",
+  "chapter_fingerprint": "bb53c49efb5ad2335bb29b88ed2ebf463186ef84dff9111efd2be728cfa9e5b3"
+}
