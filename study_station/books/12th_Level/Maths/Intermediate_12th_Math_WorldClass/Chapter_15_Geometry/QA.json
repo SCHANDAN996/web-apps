@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "f8a1866d8a73a9f4db494f06fa18c0ee35900be46a5a4eb695932eb65621f181",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "79a677fe068c26b5bc9fddc504646f663459968819a99e16a2ae381ae449f513",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "62ced100d790351dc42afef0392c4159f4c05cf39ab27a8a2bd4689c25ac1eef",
+        "Content_hi.txt": "7e15b4e3b83b897defcbdb587396cbe6d43a7a37005122daa3d41fbc28fd18f0",
+        "Feynman_en.txt": "7f61f13be16d59354820732d7cbe958f2d30cfdb1d4178ec48e5c095876157da",
+        "Feynman_hi.txt": "a0bb79705f9cb3daeeb8de383b7d17e52400a40820d58faaa83afdc4db005173",
+        "Flashcards_en.txt": "086b00dd0b82c66344b784b4b6af47068ec95815f4e86f987def3dcad806e3f2",
+        "Flashcards_hi.txt": "fd425d05d4468bf8c1befc72773f09cc69e1a04e41543ff7e73d11d0874b9580",
+        "Important_Formulas_en.txt": "fe44d9b572c6563390ac9fb8af7f33e7f3252a8d912d4a7a8ce7bbcf61c45052",
+        "Important_Formulas_hi.txt": "d62b58a30e5d2c228fdf55e808797069caaed309d08ff2f7a34c051dea936ef6",
+        "Mind_Map.txt": "e12b8ffa5e451ca97f2e4596957e0620934f8393739713053889daf2a7af66a0",
+        "PYQ_en.txt": "9f8f6824aee69bf80e43fedc98d04a1f38e5af170de4c32fba20af900cc1b3cd",
+        "PYQ_hi.txt": "c2fbab4d2e9cd52ba625d0292e20a56f5afdc4979c5bef336909b74f18a33fef",
+        "Practice_en_Set_01.txt": "1b07184fc4da71251aaca12abbc145a23fc5952cba7a95f6340a0cdc1e8a4fe0",
+        "Practice_en_Set_02.txt": "3c9710dbb2bf7228d2e775b72a400888ce4417a3be8d7965004a381998644252",
+        "Practice_en_Set_03.txt": "598c72d4f0354fe7979037000281b9679e9e4510ceff2e80c210ec4a5b102dda",
+        "Practice_en_Set_04.txt": "4ee7bcb01b7498e948cac67470f5b51f2c2749afd6a81d824ec678fd8cd3ff07",
+        "Practice_en_Set_05.txt": "1769fc7041042e9e1f30c7f624c05f2f3a5e41953cbc6f7a97a8ab7cc6d6f6d3",
+        "Practice_en_Set_06.txt": "3b6a69d980483de3182edf1cc7ae8a5fb98e6535eab1e02dbe463d2634cc39c9",
+        "Practice_hi_Set_01.txt": "7a36543bc5bfebd6603ac4833f9cbc7af21c9ee848f308d705b81222afc146a4",
+        "Practice_hi_Set_02.txt": "bbf6d0269270db01af2297ce15e315a3334293024f36f5c103896b1284543e48",
+        "Practice_hi_Set_03.txt": "62056b68571b70c4c7d3029fcb56f054e1479143be0cfc5dfbe360e5da7afffc",
+        "Practice_hi_Set_04.txt": "4f402dfaeb2a8e31f3e80410dcd1c66a6955642300e01001476d373e861e6814",
+        "Practice_hi_Set_05.txt": "0ed39e980d6152884dbc7c40c154f1c3c2dcfc7d2109841e077a840e950f07f8",
+        "Practice_hi_Set_06.txt": "00e08ff3d4729b139d725ec2be99e160aa48c8cb77af5e3abacc76f92e612289",
+        "Short_Tricks_en.txt": "a299389deba89bdb37e2b5c7ffde3faeacbdbbf22e9815b23412755b7a45ea4b",
+        "Short_Tricks_hi.txt": "bb842d434cff2cf3c9b5ef1356d203bcf3b3367c5340476bc4cc9004f937cdab",
+        "inventory": {
+          "Content_en.txt": "62ced100d790351dc42afef0392c4159f4c05cf39ab27a8a2bd4689c25ac1eef",
+          "Content_hi.txt": "7e15b4e3b83b897defcbdb587396cbe6d43a7a37005122daa3d41fbc28fd18f0",
+          "Feynman_en.txt": "7f61f13be16d59354820732d7cbe958f2d30cfdb1d4178ec48e5c095876157da",
+          "Feynman_hi.txt": "a0bb79705f9cb3daeeb8de383b7d17e52400a40820d58faaa83afdc4db005173",
+          "Flashcards_en.txt": "086b00dd0b82c66344b784b4b6af47068ec95815f4e86f987def3dcad806e3f2",
+          "Flashcards_hi.txt": "fd425d05d4468bf8c1befc72773f09cc69e1a04e41543ff7e73d11d0874b9580",
+          "Important_Formulas_en.txt": "fe44d9b572c6563390ac9fb8af7f33e7f3252a8d912d4a7a8ce7bbcf61c45052",
+          "Important_Formulas_hi.txt": "d62b58a30e5d2c228fdf55e808797069caaed309d08ff2f7a34c051dea936ef6",
+          "Mind_Map.txt": "e12b8ffa5e451ca97f2e4596957e0620934f8393739713053889daf2a7af66a0",
+          "PYQ_en.txt": "9f8f6824aee69bf80e43fedc98d04a1f38e5af170de4c32fba20af900cc1b3cd",
+          "PYQ_hi.txt": "c2fbab4d2e9cd52ba625d0292e20a56f5afdc4979c5bef336909b74f18a33fef",
+          "Practice_en_Set_01.txt": "1b07184fc4da71251aaca12abbc145a23fc5952cba7a95f6340a0cdc1e8a4fe0",
+          "Practice_en_Set_02.txt": "3c9710dbb2bf7228d2e775b72a400888ce4417a3be8d7965004a381998644252",
+          "Practice_en_Set_03.txt": "598c72d4f0354fe7979037000281b9679e9e4510ceff2e80c210ec4a5b102dda",
+          "Practice_en_Set_04.txt": "4ee7bcb01b7498e948cac67470f5b51f2c2749afd6a81d824ec678fd8cd3ff07",
+          "Practice_en_Set_05.txt": "1769fc7041042e9e1f30c7f624c05f2f3a5e41953cbc6f7a97a8ab7cc6d6f6d3",
+          "Practice_en_Set_06.txt": "3b6a69d980483de3182edf1cc7ae8a5fb98e6535eab1e02dbe463d2634cc39c9",
+          "Practice_hi_Set_01.txt": "7a36543bc5bfebd6603ac4833f9cbc7af21c9ee848f308d705b81222afc146a4",
+          "Practice_hi_Set_02.txt": "bbf6d0269270db01af2297ce15e315a3334293024f36f5c103896b1284543e48",
+          "Practice_hi_Set_03.txt": "62056b68571b70c4c7d3029fcb56f054e1479143be0cfc5dfbe360e5da7afffc",
+          "Practice_hi_Set_04.txt": "4f402dfaeb2a8e31f3e80410dcd1c66a6955642300e01001476d373e861e6814",
+          "Practice_hi_Set_05.txt": "0ed39e980d6152884dbc7c40c154f1c3c2dcfc7d2109841e077a840e950f07f8",
+          "Practice_hi_Set_06.txt": "00e08ff3d4729b139d725ec2be99e160aa48c8cb77af5e3abacc76f92e612289",
+          "Short_Tricks_en.txt": "a299389deba89bdb37e2b5c7ffde3faeacbdbbf22e9815b23412755b7a45ea4b",
+          "Short_Tricks_hi.txt": "bb842d434cff2cf3c9b5ef1356d203bcf3b3367c5340476bc4cc9004f937cdab"
+        }
+      },
+      "checked_at": "2026-11-21T07:47:06+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "78471f15162473ddccc2bdc315bb009051eaef6354b30a4aea1c24fcb520c8f0",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Invented exam statistic: \"Learn roughly 20 theorems cold, and 90% of exam questions become mechanical.\" → Remove the unsourced percentage claim or replace with a verified statistic.",
+        "- Invented exam statistic: \"Roughly half of all exam geometry questions involve triangles directly or indirectly.\" → Remove the unsourced claim or replace with a verified statistic.",
+        "- Wrong historical fact: \"In 1958, a mathematician named Roger Penrose drew a triangle that cannot exist — the famous 'Penrose Triangle.'\" → The Penrose triangle was first created by Oscar Reutersvärd in 1934; Roger Penrose and Lionel Penrose published it in 1958."
+      ],
+      "dependencies": {
+        "chapter.json": "79a677fe068c26b5bc9fddc504646f663459968819a99e16a2ae381ae449f513",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "62ced100d790351dc42afef0392c4159f4c05cf39ab27a8a2bd4689c25ac1eef"
+      },
+      "checked_at": "2026-11-21T07:48:15+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "047b3f0c9c5ecaa284ec70e5f399340e6a3fc88dc50e37a8526039704796d20b",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "79a677fe068c26b5bc9fddc504646f663459968819a99e16a2ae381ae449f513",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "62ced100d790351dc42afef0392c4159f4c05cf39ab27a8a2bd4689c25ac1eef",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T07:48:15+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "5a7e048bd8187d251654c7223bb14490b57094f286e2d10a4300c3d3474c411b",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "79a677fe068c26b5bc9fddc504646f663459968819a99e16a2ae381ae449f513",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "7e15b4e3b83b897defcbdb587396cbe6d43a7a37005122daa3d41fbc28fd18f0"
+      },
+      "checked_at": "2026-11-21T07:49:09+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T07:49:09+00:00",
+  "chapter_fingerprint": "6bbfc83949414642be31a141380cdb29966b742d511e62786cb8b893e3d11df9"
+}
