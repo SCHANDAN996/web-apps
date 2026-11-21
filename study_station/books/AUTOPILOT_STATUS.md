@@ -1,34 +1,35 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 11:51 AM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 11:55 AM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 60 मिनट |
-| W10 | Chapter 15 Days Dates (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W11 | Chapter 11 Chemistry (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 19 मिनट |
-| W12 | Chapter 16 Books Authors (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W2 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 29 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 60 मिनट |
-| W4 | Chapter 13 Awards (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
-| W5 | Chapter 10 Physics Daily (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 20 मिनट |
-| W6 | Chapter 17 Culture Art (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W7 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 32 मिनट |
-| W8 | Chapter 18 Science Tech (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 64 मिनट |
+| W10 | Chapter 15 Days Dates (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W11 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W12 | Chapter 16 Books Authors (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W2 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 33 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 64 मिनट |
+| W4 | Chapter 13 Awards (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 18 मिनट |
+| W5 | Chapter 10 Physics Daily (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 24 मिनट |
+| W6 | Chapter 17 Culture Art (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W7 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 36 मिनट |
+| W8 | Chapter 18 Science Tech (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W9 | Chapter 19 Environment (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 25 |
+| key 3 | 27 |
 | key 4 | 34 |
-| key 5 | 36 |
-| key 6 | 16 |
+| key 5 | 37 |
+| key 6 | 19 |
 
 ## किताबों की प्रगति
 
@@ -60,8 +61,8 @@
 |---|---:|---:|---:|---:|---:|---:|
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 30/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 29/1092 |
-| 10th GK | 0 | 19 | 0 | 0 | 0 | 34/1482 |
-| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 0/1716 |
+| 10th GK | 0 | 19 | 0 | 0 | 0 | 37/1482 |
+| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 2/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 0/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 0/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 0/1794 |
@@ -72,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 93/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 98/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -82,18 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 11:41:12   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q102 key b vs re-solve a, Q103 key a vs re-solve c, Q104 key c vs re-solve a, Q106 key b vs re-solve
-21-11 11:41:25   [Physics_Daily] QA passed: editorial:Content_en.txt
-21-11 11:41:25   [Physics_Daily] QA needs_reference: sources:Content_en.txt
-21-11 11:41:33   [Sports] QA passed: editorial:Content_en.txt
-21-11 11:41:33   [Sports] QA needs_reference: sources:Content_en.txt
-21-11 11:43:43   [sandhi] Practice_hi_Set_01.txt try 4: re-solve disagrees (Q2 key c vs re-solve b, Q3 key c vs re-solve b, Q4 key d vs re-solve b, Q8 key c vs re-solve a, Q9 k
-21-11 11:43:43   [sandhi] REJECTED Practice_hi_Set_01.txt: no version passed the checks — not written
-21-11 11:43:54   [Biology] QA blocked: editorial:Content_hi.txt
-21-11 11:43:54   [Biology] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
-21-11 11:43:54 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_12_Biology: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- WHO polio-free certification statement: "भारत (दक्षिण-पूर्व एशिया क्षेत्र सहित)" is inaccurate; the WHO certified the South-East Asia Region (which includes India) → Correction: "WHO ने मार्च 2014 में दक्षिण-पूर्व एशिया क्षेत्र (जिसमें भारत शामिल है) को पोलियो-मुक्त प्रमाणित किया।"']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_12_Biology/QA.json'}
-21-11 11:44:21   [Sports] QA passed: editorial:Content_hi.txt
-21-11 11:44:21   [Sports] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
 21-11 11:44:21 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_14_Sports: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_14_Sports/QA.json'}
 21-11 11:44:24   [apathit_gadyansh] QA passed: editorial:Feynman_hi.txt
 21-11 11:44:24   [apathit_gadyansh] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 3, "pending": 32, "blocked": 0, "needs_reference": 1, "remaining": 33, 
@@ -122,6 +111,18 @@
 21-11 11:51:41   [Environment] QA passed: structure
 21-11 11:51:59   [Culture_Art] QA passed: editorial:Content_en.txt
 21-11 11:51:59   [Culture_Art] QA needs_reference: sources:Content_en.txt
+21-11 11:52:20   [Analogy] QA passed: structure
+21-11 11:52:34   [Days_Dates] QA passed: editorial:Content_en.txt
+21-11 11:52:34   [Days_Dates] QA needs_reference: sources:Content_en.txt
+21-11 11:52:43   [Awards] QA blocked: editorial:Content_en.txt
+21-11 11:52:43   [Awards] QA needs_reference: sources:Content_en.txt
+21-11 11:53:24   [Environment] QA blocked: editorial:Content_en.txt
+21-11 11:53:24   [Environment] QA needs_reference: sources:Content_en.txt
+21-11 11:53:32   [Analogy] QA passed: editorial:Content_en.txt
+21-11 11:53:32   [Analogy] QA needs_reference: sources:Content_en.txt
+21-11 11:55:33   [Books_Authors] QA blocked: editorial:Content_hi.txt
+21-11 11:55:33   [Books_Authors] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 1, "pending": 74, "blocked": 2, "needs_reference": 1, "remaining": 77, 
+21-11 11:55:33 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_16_Books_Authors: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 1, 'pending': 74, 'blocked': 2, 'needs_reference': 1, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ["- International Booker Prize 2025 winner claimed as 'Heart Lamp' by Banu Mushtaq → award not yet awarded as of 2024; claim is speculative and should be removed or updated after official announcement", '- 59th Jnanpith Award announced March 2025 claimed for Vinod Kumar Shukla → award not yet announced as of 2024; claim is speculative and should be removed or updated after official announcement']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: Chidambara — Sumitranandan Pant (first Hindi writer to get the Jnanpith, 1968)', 'Fetch official supporting evidence for: First Hindi Jnanpith\t1968, Sumitranandan Pant (Chidambara)']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- अंतरराष्ट्रीय बुकर पुरस्कार 2025 के लिए बानू मुश्ताक की "हार्ट लैम्प" का उल्लेख गलत है; यह पुरस्कार 2025 में अभी तक घोषित नहीं हुआ है → अंतरराष्ट्रीय बुकर पुरस्कार 2025 की जानकारी हटाएँ या "अभी घोषित नहीं" लिखें', '- 58वाँ ज्ञानपीठ पुरस्कार (वर्ष 2023) को मई 2025 में प्रदान किया गया बताना गलत है; वास्तव में यह 2024 में प्रदान किया गया था → 58वाँ ज्ञानपीठ पुरस्कार (वर्ष 2023 के लिए): गुलज़ार (उर्दू) और जगद्गुरु रामभद्राचार्य (संस्कृत); 2024 में प्रदान किया गया']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_16_Books_Authors/QA.json'}
 ````
 
 </details>

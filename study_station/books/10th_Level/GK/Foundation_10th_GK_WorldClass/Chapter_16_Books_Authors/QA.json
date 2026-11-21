@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "96161bb7eddce4716d2562d45dfe0671c976144d27fcdcb20e7919cb233510df",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "93e5d9143d11d0b79974ec4ad849c7d6dba24d97cd2de87235796c76e4c63b70",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "90dabde658837bd5816be68a04f3217907142f31689d9d6194213ba937fb51ef",
+        "Content_hi.txt": "00ca627bdc4f17b947d3ca42d97a0abb2b590455da449d17a8f150ae4e75a212",
+        "Feynman_en.txt": "3d1510ed4a30d8840e7528ddecd5e1bb5c9142119a39caa4097b3810446b185f",
+        "Feynman_hi.txt": "abff44348ac6d8cf6261dfa0fccca2827af4de55899c68ea470a7a46e10ae3dc",
+        "Flashcards_en.txt": "f39c8285a0e272d7b5fd2b2b8a6c0cd108b3b2eb23754b0fda3288bd05f0d6ee",
+        "Flashcards_hi.txt": "7b69989187813b4c231393bde8183b516558e0803a615dcfa2f0e15bf4be5296",
+        "Key_Facts_en.txt": "65eb81d96e28c8f44fba9dcadac51e1ae7a14543528e13b6a59aa47285f8576c",
+        "Key_Facts_hi.txt": "15264250c47e7e79f9e368139e7f88aa6badf579cdd62370f5525d4276a4992d",
+        "Memory_Hooks_en.txt": "a41ddb4cfa1c94254544cfb48ce3977538d82c89340d23580cfd0e70f335f915",
+        "Memory_Hooks_hi.txt": "1bbd94ee0ac469def4aa6a58e1e3bce1d69d10ea2444089571deb8a2c443e068",
+        "Mind_Map.txt": "8c0722ac7a4fcc7cbe99e4f8189ff25b9da8bc8de1cd0a3da6eee826d63556f3",
+        "PYQ_en.txt": "efbff93e494cac7022fc297e7a44db1def547cb6536cfee9cbabc9d206da5b67",
+        "PYQ_hi.txt": "faf36be625cbfa768a87d953687c329e7d57fa36cda11d488eaf734a83993f8f",
+        "Practice_en_Set_01.txt": "807175719508f178ea02f702a9471c3ac8993f28633273a0d481cdcceacc7ac4",
+        "Practice_en_Set_02.txt": "d8494e726172c59b2d32573e03a7eb5be5d5927f64e0ea08c013906f60291871",
+        "Practice_en_Set_03.txt": "35c466753a0724aafc4dd1ff01e2e5b9ba5a9f17cc6fd185f3fad1420b1242a3",
+        "Practice_en_Set_04.txt": "331a84455dad82a42379f75b379703d7d3da8fc9ff23bf950ae74162b9041a62",
+        "Practice_en_Set_05.txt": "b095c248606b569add75dae0b23add8511e5c35331895904421904f19b9d4eae",
+        "Practice_en_Set_06.txt": "4dd11648fcaea0ddda3d498b8f62a30e9d0b7ed4ddc9c8fb2c3f55c2b40107a2",
+        "Practice_hi_Set_01.txt": "3050040595ee0c70b97984ad9d40733c533c4c78592250ddf7a1862c597a761e",
+        "Practice_hi_Set_02.txt": "12d0666fb0d3961b6cdec37243365a02b928bb205ccc0e5e2d562fc41186e07d",
+        "Practice_hi_Set_03.txt": "f04aaf1e7fbf836083c40a37c1170c2f77802fcfda3b724d9e11820991295202",
+        "Practice_hi_Set_04.txt": "930ade24a0e57bcd22f0a34641d9548fe4202fd7f84b7a4419271410bc3d9dd3",
+        "Practice_hi_Set_05.txt": "7337a18656190762d2038f6569df381416688861ff32f179621eac369913435b",
+        "Practice_hi_Set_06.txt": "0d5c4522d63c52e04e6ae7a515e44f1b6d3fdd4117485be0b93808b9a42184af",
+        "inventory": {
+          "Content_en.txt": "90dabde658837bd5816be68a04f3217907142f31689d9d6194213ba937fb51ef",
+          "Content_hi.txt": "00ca627bdc4f17b947d3ca42d97a0abb2b590455da449d17a8f150ae4e75a212",
+          "Feynman_en.txt": "3d1510ed4a30d8840e7528ddecd5e1bb5c9142119a39caa4097b3810446b185f",
+          "Feynman_hi.txt": "abff44348ac6d8cf6261dfa0fccca2827af4de55899c68ea470a7a46e10ae3dc",
+          "Flashcards_en.txt": "f39c8285a0e272d7b5fd2b2b8a6c0cd108b3b2eb23754b0fda3288bd05f0d6ee",
+          "Flashcards_hi.txt": "7b69989187813b4c231393bde8183b516558e0803a615dcfa2f0e15bf4be5296",
+          "Key_Facts_en.txt": "65eb81d96e28c8f44fba9dcadac51e1ae7a14543528e13b6a59aa47285f8576c",
+          "Key_Facts_hi.txt": "15264250c47e7e79f9e368139e7f88aa6badf579cdd62370f5525d4276a4992d",
+          "Memory_Hooks_en.txt": "a41ddb4cfa1c94254544cfb48ce3977538d82c89340d23580cfd0e70f335f915",
+          "Memory_Hooks_hi.txt": "1bbd94ee0ac469def4aa6a58e1e3bce1d69d10ea2444089571deb8a2c443e068",
+          "Mind_Map.txt": "8c0722ac7a4fcc7cbe99e4f8189ff25b9da8bc8de1cd0a3da6eee826d63556f3",
+          "PYQ_en.txt": "efbff93e494cac7022fc297e7a44db1def547cb6536cfee9cbabc9d206da5b67",
+          "PYQ_hi.txt": "faf36be625cbfa768a87d953687c329e7d57fa36cda11d488eaf734a83993f8f",
+          "Practice_en_Set_01.txt": "807175719508f178ea02f702a9471c3ac8993f28633273a0d481cdcceacc7ac4",
+          "Practice_en_Set_02.txt": "d8494e726172c59b2d32573e03a7eb5be5d5927f64e0ea08c013906f60291871",
+          "Practice_en_Set_03.txt": "35c466753a0724aafc4dd1ff01e2e5b9ba5a9f17cc6fd185f3fad1420b1242a3",
+          "Practice_en_Set_04.txt": "331a84455dad82a42379f75b379703d7d3da8fc9ff23bf950ae74162b9041a62",
+          "Practice_en_Set_05.txt": "b095c248606b569add75dae0b23add8511e5c35331895904421904f19b9d4eae",
+          "Practice_en_Set_06.txt": "4dd11648fcaea0ddda3d498b8f62a30e9d0b7ed4ddc9c8fb2c3f55c2b40107a2",
+          "Practice_hi_Set_01.txt": "3050040595ee0c70b97984ad9d40733c533c4c78592250ddf7a1862c597a761e",
+          "Practice_hi_Set_02.txt": "12d0666fb0d3961b6cdec37243365a02b928bb205ccc0e5e2d562fc41186e07d",
+          "Practice_hi_Set_03.txt": "f04aaf1e7fbf836083c40a37c1170c2f77802fcfda3b724d9e11820991295202",
+          "Practice_hi_Set_04.txt": "930ade24a0e57bcd22f0a34641d9548fe4202fd7f84b7a4419271410bc3d9dd3",
+          "Practice_hi_Set_05.txt": "7337a18656190762d2038f6569df381416688861ff32f179621eac369913435b",
+          "Practice_hi_Set_06.txt": "0d5c4522d63c52e04e6ae7a515e44f1b6d3fdd4117485be0b93808b9a42184af"
+        }
+      },
+      "checked_at": "2026-11-21T06:15:24+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "5a9e7cb9e5edd88a6b0b09927804ff6f1d4236c0c9d25cc08280c576f0ea6e44",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- International Booker Prize 2025 winner claimed as 'Heart Lamp' by Banu Mushtaq → award not yet awarded as of 2024; claim is speculative and should be removed or updated after official announcement",
+        "- 59th Jnanpith Award announced March 2025 claimed for Vinod Kumar Shukla → award not yet announced as of 2024; claim is speculative and should be removed or updated after official announcement"
+      ],
+      "dependencies": {
+        "chapter.json": "93e5d9143d11d0b79974ec4ad849c7d6dba24d97cd2de87235796c76e4c63b70",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "90dabde658837bd5816be68a04f3217907142f31689d9d6194213ba937fb51ef"
+      },
+      "checked_at": "2026-11-21T06:19:59+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "b2a99ac698acc485bd78662f8d512c768de6139ae337cbec790d5932e202b109",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: Chidambara — Sumitranandan Pant (first Hindi writer to get the Jnanpith, 1968)",
+        "Fetch official supporting evidence for: First Hindi Jnanpith\t1968, Sumitranandan Pant (Chidambara)"
+      ],
+      "dependencies": {
+        "chapter.json": "93e5d9143d11d0b79974ec4ad849c7d6dba24d97cd2de87235796c76e4c63b70",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "90dabde658837bd5816be68a04f3217907142f31689d9d6194213ba937fb51ef",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T06:19:59+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "f947e2962c177c200b62b2830e1024aaf98f69756255ad868e3168ea86abde16",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- अंतरराष्ट्रीय बुकर पुरस्कार 2025 के लिए बानू मुश्ताक की \"हार्ट लैम्प\" का उल्लेख गलत है; यह पुरस्कार 2025 में अभी तक घोषित नहीं हुआ है → अंतरराष्ट्रीय बुकर पुरस्कार 2025 की जानकारी हटाएँ या \"अभी घोषित नहीं\" लिखें",
+        "- 58वाँ ज्ञानपीठ पुरस्कार (वर्ष 2023) को मई 2025 में प्रदान किया गया बताना गलत है; वास्तव में यह 2024 में प्रदान किया गया था → 58वाँ ज्ञानपीठ पुरस्कार (वर्ष 2023 के लिए): गुलज़ार (उर्दू) और जगद्गुरु रामभद्राचार्य (संस्कृत); 2024 में प्रदान किया गया"
+      ],
+      "dependencies": {
+        "chapter.json": "93e5d9143d11d0b79974ec4ad849c7d6dba24d97cd2de87235796c76e4c63b70",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "00ca627bdc4f17b947d3ca42d97a0abb2b590455da449d17a8f150ae4e75a212"
+      },
+      "checked_at": "2026-11-21T06:25:33+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T06:25:33+00:00",
+  "chapter_fingerprint": "b04a23d70c2ea3959e9e4918b9fb153b177a0339da8bb08a5efec561577eb2b4"
+}
