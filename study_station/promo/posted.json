@@ -247,134 +247,15 @@
   "12th_Level/Reasoning/Chapter_05_Direction_Sense#Set03#Q75",
   "12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_01_Number_System#Set05#Q116",
   "12th_Level/Reasoning/Chapter_18_Inequality#Set03#Q71",
-  "revision#2026-11-20"
+  "revision#2026-11-20",
+  "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_29_Environment_Conventions#Set06#Q136",
+  "Graduation_Level/Reasoning/Chapter_29_Logical_Consistency#Set04#Q87",
+  "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_20_Heights_Distances#Set05#Q104",
+  "Graduation_Level/Reasoning/Chapter_23_Syllogism#Set06#Q139",
+  "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_26_Critical_Reading#Set02#Q41"
  ],
  "shorts": [],
  "days": {
-  "2026-11-07": {
-   "quiz": [
-    [
-     {
-      "id": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability#Set04#Q79",
-      "msg": 268,
-      "chapter": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_25_Probability",
-      "q": "A द्वारा एक प्रश्न हल करने की प्रायिकता 1/2 है और B द्वारा 1/3 है। यदि दोनों स्वतंत्र रूप से प्रयास करें, तो प्रश्न हल होने की प्रायिकता क्या है?",
-      "ans": 2,
-      "opt": "2/3",
-      "exp": "उत्तर: 2/3। P(हल हुआ) = 1 − P(कोई भी हल न करे) = 1 − (1/2)(2/3) = 1 − 1/3 = 2/3, इसलिए उत्तर 2/3 है।",
-      "part": "am"
-     },
-     {
-      "id": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_04_Verb#Set01#Q16",
-      "msg": 269,
-      "chapter": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_04_Verb",
-      "q": "रिक्त स्थान भरें: I _____ Delhi last year.",
-      "ans": 0,
-      "opt": "visited",
-      "exp": "उत्तर: visited। \"Visited\" सही है।",
-      "part": "am"
-     },
-     {
-      "id": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_02_Medieval_History#Set03#Q75",
-      "msg": 270,
-      "chapter": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_02_Medieval_History",
-      "q": "'अष्टप्रधान' आठ मंत्रियों की परिषद किससे जुड़ी थी?",
-      "ans": 0,
-      "opt": "शिवाजी",
-      "exp": "उत्तर: शिवाजी। कृष्णदेवराय लुभाने वाला विकल्प है क्योंकि विजयनगर में भी मजबूत मंत्री-प्रणाली थी, लेकिन पेशवा की अगुवाई वाली अष्टप्रधान मंडल मराठा शासक शिवाजी की प्रशासनिक परिषद थी।",
-      "part": "am"
-     },
-     {
-      "id": "Graduation_Level/Reasoning/Chapter_21_Paper_Folding_Cutting#Set04#Q86",
-      "msg": 271,
-      "chapter": "Graduation_Level/Reasoning/Chapter_21_Paper_Folding_Cutting",
-      "q": "एक कागज़ को एक बार विकर्णतः मोड़ा जाता है और मोड़ किनारे के पास, मोड़ के समांतर एक कट लगाया जाता है। खोलने पर दोनों कट रेखाएँ:",
-      "ans": 0,
-      "opt": "एक-दूसरे के समांतर",
-      "exp": "उत्तर: एक-दूसरे के समांतर। जाल \"लंबवत\" प्रतिबिंब को घूर्णन से भ्रमित करता है, इसलिए उत्तर एक-दूसरे के समांतर है।",
-      "part": "am"
-     },
-     {
-      "id": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_16_Idioms_Phrases#Set06#Q150",
-      "msg": 272,
-      "chapter": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_16_Idioms_Phrases",
-      "q": "सही अर्थ चुनें: \"To put all one's eggs in one basket\"",
-      "ans": 1,
-      "opt": "To risk everything on a single plan",
-      "exp": "उत्तर: To risk everything on a single plan। विकल्प (d) उल्टी सलाह है — एक जाल।",
-      "part": "am"
-     }
-    ],
-    [
-     {
-      "id": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_03_Simplification#Set06#Q141",
-      "msg": 275,
-      "chapter": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_03_Simplification",
-      "q": "सरल कीजिए: (1/2 + 1/3 + 1/6) ÷ (1/2 × 1/3 × 1/6)",
-      "ans": 2,
-      "opt": "36",
-      "exp": "उत्तर: 36। अंश: 3/6 + 2/6 + 1/6 = 1; हर: 1/36; अतः मान 1 ÷ (1/36) है, इसलिए उत्तर 36 है।",
-      "part": "pm"
-     },
-     {
-      "id": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_06_Physical_Geography#Set01#Q8",
-      "msg": 276,
-      "chapter": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_06_Physical_Geography",
-      "q": "मालवा का पठार दक्षिण में किस पर्वत श्रेणी से घिरा है?",
-      "ans": 2,
-      "opt": "विंध्य",
-      "exp": "उत्तर: विंध्य। मालवा का पठार दक्षिण में विंध्य श्रेणी से घिरा है, इसलिए उत्तर विंध्य है।",
-      "part": "pm"
-     },
-     {
-      "id": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_23_Economic_Terms#Set03#Q57",
-      "msg": 277,
-      "chapter": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_23_Economic_Terms",
-      "q": "निम्नलिखित में से कौन-सा 'प्रतिगामी कर' (regressive tax) का उदाहरण है?",
-      "ans": 3,
-      "opt": "आवश्यक वस्तुओं पर समान बिक्री कर",
-      "exp": "उत्तर: आवश्यक वस्तुओं पर समान बिक्री कर। समान बिक्री कर गरीब व्यक्ति की आय का अमीर व्यक्ति की तुलना में बड़ा हिस्सा लेता है, इसलिए उत्तर है आवश्यक वस्तुओं पर समान बिक्री कर।",
-      "part": "pm"
-     },
-     {
-      "id": "Graduation_Level/Reasoning/Chapter_19_Cubes_Dice#Set01#Q24",
-      "msg": 278,
-      "chapter": "Graduation_Level/Reasoning/Chapter_19_Cubes_Dice",
-      "q": "एक पासा दो बार फेंका जाता है। मानक पासे पर, दोनों ऊपरी फलकों की संख्याओं का योग 7 होने की प्रायिकता क्या है?",
-      "ans": 1,
-      "opt": "1/6",
-      "exp": "उत्तर: 1/6। योग 7 के अनुकूल परिणाम (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) हैं — 36 में से 6 परिणाम, जिससे 6/36 = 1/6 मिलता है।",
-      "part": "pm"
-     },
-     {
-      "id": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_03_Adjective#Set04#Q92",
-      "msg": 279,
-      "chapter": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_03_Adjective",
-      "q": "\"Of all the students, Ravi is ___.\" — रिक्त स्थान भरें:",
-      "ans": 0,
-      "opt": "the most intelligent",
-      "exp": "उत्तर: the most intelligent। 'Intelligentest' जैसा शब्द नहीं होता — बहुअक्षरीय विशेषणों में 'most' लगता है।",
-      "part": "pm"
-     }
-    ]
-   ],
-   "trick": [
-    [
-     {
-      "id": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_13_Synonyms#Short_Tricks_hi.txt#2",
-      "msg": 273
-     }
-    ]
-   ],
-   "revision": [
-    [
-     {
-      "id": "revision#2026-11-07",
-      "msg": 280
-     }
-    ]
-   ]
-  },
   "2026-11-08": {
    "quiz": [
     [
@@ -2371,6 +2252,62 @@
      {
       "id": "revision#2026-11-20",
       "msg": 502
+     }
+    ]
+   ]
+  },
+  "2026-11-21": {
+   "quiz": [
+    [
+     {
+      "id": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_29_Environment_Conventions#Set06#Q136",
+      "msg": 504,
+      "chapter": "Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_29_Environment_Conventions",
+      "q": "रॉटरडम कन्वेंशन खतरनाक रसायनों और कीटनाशकों के व्यापार के लिए किस प्रक्रिया पर आधारित है?",
+      "ans": 2,
+      "opt": "पूर्व सूचित सहमति (PIC)",
+      "exp": "उत्तर: पूर्व सूचित सहमति (PIC)। जाल अग्रिम सूचित समझौता है, जो जैव-सुरक्षा पर कार्टाजेना प्रोटोकॉल से संबंधित है; रॉटरडम कन्वेंशन (1998, 2004 में लागू) अंतरराष्ट्रीय व्यापार में कुछ खतरनाक रसायनों और…",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/Reasoning/Chapter_29_Logical_Consistency#Set04#Q87",
+      "msg": 505,
+      "chapter": "Graduation_Level/Reasoning/Chapter_29_Logical_Consistency",
+      "q": "\"हर चमकने वाली चीज़ सोना नहीं होती।\" यह कथन तार्किक रूप से किसके समतुल्य है?",
+      "ans": 0,
+      "opt": "कुछ चमकने वाली चीज़ें सोना नहीं हैं",
+      "exp": "उत्तर: कुछ चमकने वाली चीज़ें सोना नहीं हैं। क्लासिक जाल यह है कि इसे \"कोई चमकने वाली चीज़ सोना नहीं है\" के रूप में पढ़ लिया जाए, लेकिन कथन का अर्थ है कि हर चमकने वाली चीज़ सोना नहीं है, अर्थात् कम से…",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_20_Heights_Distances#Set05#Q104",
+      "msg": 506,
+      "chapter": "Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_20_Heights_Distances",
+      "q": "10 मी लंबी एक सीढ़ी दीवार के सहारे ज़मीन से 60° का कोण बनाते हुए टिकी है। दीवार पर यह जितनी ऊँचाई तक पहुँचती है, वह है:",
+      "ans": 0,
+      "opt": "5√3 मी",
+      "exp": "उत्तर: 5√3 मी। पहुँची गई ऊँचाई = 10 sin 60° = 10 × (√3/2) = 5√3 मी, इसलिए उत्तर 5√3 मी है।",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/Reasoning/Chapter_23_Syllogism#Set06#Q139",
+      "msg": 507,
+      "chapter": "Graduation_Level/Reasoning/Chapter_23_Syllogism",
+      "q": "कथन: कोई मोबाइल लैपटॉप नहीं है। कुछ लैपटॉप टैबलेट हैं। सभी टैबलेट चार्जर हैं।\nनिष्कर्ष: I. कुछ चार्जर मोबाइल नहीं हैं। II. कुछ टैबलेट मोबाइल नहीं हैं। III. कोई चार्जर लैपटॉप नहीं है।",
+      "ans": 3,
+      "opt": "I और II अनुसरण करते हैं",
+      "exp": "उत्तर: I और II अनुसरण करते हैं। जो टैबलेट लैपटॉप हैं वे मोबाइल नहीं हैं, अतः कुछ टैबलेट मोबाइल नहीं हैं, और चूँकि सभी टैबलेट चार्जर हैं, कुछ चार्जर मोबाइल नहीं हैं; उत्तर \"I और II अनुसरण करते हैं\" है।",
+      "part": "am"
+     },
+     {
+      "id": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_26_Critical_Reading#Set02#Q41",
+      "msg": 508,
+      "chapter": "Graduation_Level/English/Advanced_Graduation_English_WorldClass/Chapter_26_Critical_Reading",
+      "q": "पंक्ति पढ़ें: \"While the policy promises growth, its benefits remain confined to urban centres.\" नीति के प्रति लेखक का दृष्टिकोण सबसे अच्छे से वर्णित होता है:",
+      "ans": 2,
+      "opt": "Cautiously critical",
+      "exp": "उत्तर: Cautiously critical। लेखक growth के वादे को मानता है लेकिन एक सीमा भी बताता है — आंशिक प्रशंसा और आलोचना मिलकर cautiously critical बनती है।",
+      "part": "am"
      }
     ]
    ]
