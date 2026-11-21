@@ -109,11 +109,72 @@
         "Content_hi.txt": "2c36beb3fe7ef7944cc0ba7a232d6b9ff464e1c936b3188bbd79956eebfff6d9"
       },
       "checked_at": "2026-11-21T06:32:22+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "048c8cfd17ff4b12b1762fc6c0b9c94107a86a5d67916ade0c7f74caff9d847b",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "666f7072d077aa05951c0189d5ea354333e22fb4cc74ddb4978387ae683ab008",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "2c36beb3fe7ef7944cc0ba7a232d6b9ff464e1c936b3188bbd79956eebfff6d9",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:50:09+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "4ea933068a715bcf0898032ecaa84300282fb1c678b970d959f80c2e8233fe80",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "666f7072d077aa05951c0189d5ea354333e22fb4cc74ddb4978387ae683ab008",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "6cb6a2c4924626e583a4b459b07864c24210cc4522299caa549e9e595bba702b"
+      },
+      "checked_at": "2026-11-21T10:51:48+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "7246f805c698ae3eeace228152627cc0a4c752b5489beffd48f9d14eff34b768",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "666f7072d077aa05951c0189d5ea354333e22fb4cc74ddb4978387ae683ab008",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "6cb6a2c4924626e583a4b459b07864c24210cc4522299caa549e9e595bba702b",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:51:48+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "9f77d1dd61bf5f6672bc24d26ed821681ecaf23f33aa2eb3b51074a23a951a59",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- \"WING\" संकेत देकर सादृश्यता के चार प्रकार पूछे गए हैं, लेकिन पूरे खंड में WING का पूर्ण रूप या चारों प्रकार कहीं परिभाषित/बताए नहीं गए → या तो WING का विस्तार दें (उदाहरण: Word, Information, Number, General — यदि यही अभिप्रेत है) या संकेत हटाएं",
+        "- \"इस अध्याय में तुमने सीखा\" लिखा है, जबकि उपलब्ध पाठ एक स्वतंत्र खंड है, पूरा अध्याय नहीं → \"इस खंड में\" या \"इस पाठ में\" करें"
+      ],
+      "dependencies": {
+        "chapter.json": "666f7072d077aa05951c0189d5ea354333e22fb4cc74ddb4978387ae683ab008",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "fe09885b0329804ecf873407143329312d86cefc4db581158bde83f35e5a9c68"
+      },
+      "checked_at": "2026-11-21T10:52:27+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T06:32:22+00:00",
+  "updated_at": "2026-11-21T10:52:27+00:00",
   "chapter_fingerprint": "8d108747a78a7c426c021cd038e5c48f04a3d836821e6d4115e7e07139fd9f66"
 }
