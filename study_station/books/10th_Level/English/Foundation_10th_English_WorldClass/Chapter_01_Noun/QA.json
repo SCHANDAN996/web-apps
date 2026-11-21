@@ -111,11 +111,73 @@
         "Content_hi.txt": "a760d2ec820f747dd1b63bc7f7a7c58e746db80e593295d51368f4614e8eaf68"
       },
       "checked_at": "2026-11-21T07:15:15+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "d82d1df95b033d6f80c6d60dbb73d2f9a4e6db3de6fe2519201c6a5d46d16999",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "7cc74fee84b501fc0f9a2157c9b369cee6cbf44206834face376c5988e53dc76",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "a760d2ec820f747dd1b63bc7f7a7c58e746db80e593295d51368f4614e8eaf68",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:28:48+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "0a017123424a15791bc5928a95d3afae6d5a11d0c76bb76c80801d8c58cef208",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The blurting sheet asks for \"Five words that never take a plural\" but only four are listed (advice, news, furniture, luggage) → either add a fifth uncountable noun (e.g., information, equipment, machinery, baggage) or change the question to \"Four words\""
+      ],
+      "dependencies": {
+        "chapter.json": "7cc74fee84b501fc0f9a2157c9b369cee6cbf44206834face376c5988e53dc76",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "d78c4577933dd7f941883214bf6d5decdc1a8a948310498461e72ff165b2f394"
+      },
+      "checked_at": "2026-11-21T11:29:20+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "61573a33bc54077428a37891b30659edeba98a8f08a0af0d3814bc093f6cbb53",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "7cc74fee84b501fc0f9a2157c9b369cee6cbf44206834face376c5988e53dc76",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "d78c4577933dd7f941883214bf6d5decdc1a8a948310498461e72ff165b2f394",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:29:21+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "61f75bea70aab8142a4555c47757e4838d4c7002c4dda84fe6ad3c4850ef2350",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- \"परीक्षा में अक्सर यहीं जाल होता है\" में 'यहीं' (स्थानवाचक) गलत है → \"परीक्षा में अक्सर **यही** जाल होता है\" (सर्वनाम 'यही' प्रयोग करें)"
+      ],
+      "dependencies": {
+        "chapter.json": "7cc74fee84b501fc0f9a2157c9b369cee6cbf44206834face376c5988e53dc76",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "bc4e8d134877cdd3dd3c91ac8533db8ac167bed78477cb5d9e72c37a31a5fdc7"
+      },
+      "checked_at": "2026-11-21T11:30:23+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T07:15:15+00:00",
+  "updated_at": "2026-11-21T11:30:23+00:00",
   "chapter_fingerprint": "08c8efbcc91ad3ddc4182e4f5211234bf42ee06416498d8fe21bd15a491d1ea4"
 }

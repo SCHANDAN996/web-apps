@@ -1,33 +1,34 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 05:07 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 05:08 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 88 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 89 मिनट |
 | W10 | Chapter 02 Pronoun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W11 | Chapter 01 Noun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W12 | Chapter 09 Articles (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W11 | Chapter 01 Noun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W12 | Chapter 09 Articles (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 | W2 | Chapter 04 Verb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W3 | Chapter 10 Voice (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W5 | Chapter 05 Tense (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W6 | Chapter 07 Preposition (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W7 | Chapter 06 Adverb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W8 | Chapter 08 Conjunction (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W9 | Chapter 03 Adjective (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W3 | Chapter 10 Voice (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W4 | Chapter 11 Narration (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W5 | Chapter 05 Tense (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W6 | Chapter 07 Preposition (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W7 | Chapter 06 Adverb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W8 | Chapter 08 Conjunction (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W9 | Chapter 03 Adjective (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 58 |
-| key 4 | 76 |
-| key 5 | 56 |
+| key 3 | 59 |
+| key 4 | 77 |
+| key 5 | 57 |
 | key 6 | 45 |
 
 ## किताबों की प्रगति
@@ -86,12 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 17:02:25   [Verb] QA passed: editorial:Feynman_hi.txt
-21-11 17:02:25   [Verb] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
-21-11 17:02:26 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- The Blurting Sheet lists "subject–verb agreement rules and the three examiner\'s traps" as key points of this chapter, but those topics are not covered in the text → Remove them from the blurting sheet or add the missing content to the chapter.']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_04_Verb/QA.json'}
-21-11 17:02:27   [Tense] QA needs_reference: sources:Content_hi.txt
-21-11 17:02:46   [Tense] QA passed: editorial:Feynman_en.txt
-21-11 17:02:46   [Tense] QA needs_reference: sources:Feynman_en.txt
 21-11 17:03:21   [Tense] QA passed: editorial:Feynman_hi.txt
 21-11 17:03:23   [Tense] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 73, "blocked": 2, "needs_reference": 3, "remaining": 78, 
 21-11 17:03:24 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_05_Tense: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 73, 'blocked': 2, 'needs_reference': 3, 'remaining': 78, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- In the Summary Table, the signal words for Future Perfect Continuous are incorrectly listed as "by + duration"; "by" is followed by a point in time (e.g., by June), while duration is expressed with "for" (e.g., for 5 years). → Correct signal words to "by + point of time, for + duration".', '- Rule 10 states the construction after "wish" for present regret uses "Past Indefinite", but the example "I wish I were a bird" uses "were" (past subjunctive), not the past indicative "was" (the Past Indefinite form of "be" for first person singular). → Change rule to "Past Subjunctive (unreal past); for \'be\', use \'were\' for all persons".']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: - **since** = point of time → *since Monday, since 2010, since morning, since childhood*']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- The claim "SSC GD, MTS, RRB Group D जैसी परीक्षाओं में हर शिफ्ट में Tense से सीधे सवाल आते हैं" is an invented exam claim → Remove or qualify (e.g., "often feature Tense questions").', '- Summary table: Future Continuous row shows "will be + V-ing" but detailed section uses "will/shall + be + V1 + ing" → Change to "will/shall be + V-ing".', '- Summary table: Future Perfect row shows "will have + V3" but detailed section uses "will/shall + have + V3" → Change to "will/shall have + V3".', '- Summary table: Future Perfect Continuous row shows "will have been + V-ing + since/for" but detailed section uses "will/shall + have been + V1 + ing + since/for" → Change to "will/shall have been + V-ing + since/for".']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: ⭐ **सुनहरा नियम:** **Since** = निश्चित समय-बिंदु (since Monday, since 2010, since morning) | **For** = समय की अवधि (for two days, for ten years)']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_05_Tense/QA.json'}
@@ -126,6 +121,12 @@
 21-11 17:07:26 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_10_Voice: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Hindi example "खाना माँ ने बनाया" is not passive voice (it\'s active with object fronting) → should be "खाना माँ द्वारा बनाया गया" or "खाना बनाया गया माँ द्वारा" to match the English passive "The food was cooked by mother"']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_10_Voice/QA.json'}
 21-11 17:07:34   [sandhi] Practice_hi_Set_03.txt try 1: rejected (Q59:duplicate_options,Q63:duplicate_options,Q64:duplicate_options,Q65:duplicate_options,Q70:duplicate_options)
 21-11 17:07:54   [Narration] QA needs_reference: sources:Content_hi.txt
+21-11 17:08:28   [Sentence_Structure] QA needs_reference: sources:Content_hi.txt
+21-11 17:08:46   [Narration] QA blocked: editorial:Feynman_en.txt
+21-11 17:08:46   [Narration] QA needs_reference: sources:Feynman_en.txt
+21-11 17:08:47   [Articles] QA passed: editorial:Feynman_hi.txt
+21-11 17:08:47   [Articles] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
+21-11 17:08:48 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_09_Articles: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- The "magic rule" ("First time you mention something → torch OFF → use a/an") is presented as absolute, but first mention can take "the" for unique nouns (the sun, the moon) or specifically defined nouns (the dog that bit Ramesh). → Clarify that "a/an" is for first mention of indefinite nouns; "the" is used for first mention of definite/unique nouns.']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_09_Articles/QA.json'}
 ````
 
 </details>
