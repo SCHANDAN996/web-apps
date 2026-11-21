@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 07:12 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 07:13 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,22 +11,22 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 27 Number Series (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W1 | Chapter 27 Number Series (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
 | W10 | Chapter 28 Linear Programming (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W11 | Chapter 02 Medieval History (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W12 | Chapter 01 Ancient History (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W2 | Chapter 24 Statistics (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W3 | Chapter 26 Permutation Combination (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W4 | Chapter 23 Data Interpretation (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W5 | Chapter 25 Probability (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W6 | Chapter 09 Articles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 33 मिनट |
-| W9 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 3 मिनट |
+| W11 | Chapter 02 Medieval History (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W12 | Chapter 01 Ancient History (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W2 | Chapter 24 Statistics (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W3 | Chapter 26 Permutation Combination (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W5 | Chapter 25 Probability (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W6 | Chapter 09 Articles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W7 | Chapter 03 Modern History (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 34 मिनट |
+| W9 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 4 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 152 |
-| key 4 | 132 |
+| key 4 | 133 |
 | key 5 | 138 |
 | key 6 | 128 |
 
@@ -68,11 +68,11 @@
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 96/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 101/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 96/2025 |
-| Graduation Maths | 0 | 28 | 0 | 0 | 0 | 73/2184 |
-| Graduation GK | 0 | 28 | 0 | 0 | 0 | 3/2184 |
+| Graduation Maths | 0 | 28 | 0 | 0 | 0 | 74/2184 |
+| Graduation GK | 0 | 28 | 0 | 0 | 0 | 4/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 913/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 915/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,12 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 19:06:09   [Calculus] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
-21-11 19:06:09 QA Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_22_Calculus: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- The ILATE mnemonic phrase "इलियट लड़का आलू टमाटर खाता है" does not match the acronym I‑L‑A‑T‑E (the last word starts with ख, not E) → Provide a Hindi phrase whose initial letters correspond to I, L, A, T, E (e.g., "आई लेट ए टॉम ईट" or similar).']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_22_Calculus/QA.json'}
-21-11 19:06:23   [Data_Interpretation] QA passed: editorial:Content_hi.txt
-21-11 19:06:37   [Data_Interpretation] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
-21-11 19:06:38 QA Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_23_Data_Interpretation: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_23_Data_Interpretation/QA.json'}
-21-11 19:06:38   [Probability] QA passed: structure
 21-11 19:06:40   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q77 key b vs re-solve a)
 21-11 19:06:48   [Statistics] QA passed: editorial:Content_en.txt
 21-11 19:06:48   [Statistics] QA needs_reference: sources:Content_en.txt
@@ -127,6 +121,12 @@
 21-11 19:13:09   [Modern_History] QA passed: structure
 21-11 19:13:37   [Linear_Programming] QA passed: editorial:Content_en.txt
 21-11 19:13:38   [Linear_Programming] QA needs_reference: sources:Content_en.txt
+21-11 19:13:42   [Number_Series] QA blocked: editorial:Content_hi.txt
+21-11 19:14:04   [Number_Series] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 1, "pending": 74, "blocked": 2, "needs_reference": 1, "remaining": 77, 
+21-11 19:14:05 QA Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_27_Number_Series: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 1, 'pending': 74, 'blocked': 2, 'needs_reference': 1, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The example for digit-based series (11, 13, 17, 19, 23) is a prime number series, not a digit-based series. Digit-based series involve patterns in digits (e.g., reversing digits, summing digits). → Replace with a genuine digit-based series example, e.g., 12, 21, 23, 32, 34, 43 (reversing digits) or 11, 20, 31, 40 (sum of digits constant).']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Subsection (घ) in भाग 2 is labeled "दोहरी (Alternate) श्रेणी" but the example given (11, 13, 17, 19, 23, 29) is a prime number series, not an alternate series → change heading to "अभाज्य संख्याएँ श्रेणी" or replace example with a genuine alternate series.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_27_Number_Series/QA.json'}
+21-11 19:14:06   [Constitution_Basic] QA passed: structure
+21-11 19:14:34   [Ancient_History] QA blocked: editorial:Content_en.txt
+21-11 19:14:34   [Ancient_History] QA needs_reference: sources:Content_en.txt
 ````
 
 </details>
