@@ -1,33 +1,34 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 05:58 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 05:59 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 139 मिनट |
-| W10 | Chapter 21 International Orgs (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W11 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W12 | Chapter 17 Culture Art (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W2 | Chapter 24 Reports Indices (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W3 | Chapter 18 Science Tech (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W4 | Chapter 22 Defence (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W6 | Chapter 15 Days Dates (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 35 मिनट |
-| W8 | Chapter 16 Books Authors (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W9 | Chapter 23 Economic Terms (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 140 मिनट |
+| W10 | Chapter 21 International Orgs (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W11 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W12 | Chapter 17 Culture Art (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W2 | Chapter 24 Reports Indices (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W3 | Chapter 18 Science Tech (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W4 | Chapter 22 Defence (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W5 | Chapter 25 Govt Schemes (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W6 | Chapter 15 Days Dates (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 36 मिनट |
+| W8 | Chapter 16 Books Authors (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W9 | Chapter 23 Economic Terms (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 95 |
-| key 4 | 110 |
-| key 5 | 85 |
+| key 4 | 111 |
+| key 5 | 86 |
 | key 6 | 81 |
 
 ## किताबों की प्रगति
@@ -65,14 +66,14 @@
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 100/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 81/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 104/1794 |
-| 12th GK | 0 | 24 | 0 | 0 | 0 | 92/1872 |
+| 12th GK | 0 | 24 | 0 | 0 | 0 | 94/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 58/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 50/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 744/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 746/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,14 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 17:52:55   [Books_Authors] QA passed: editorial:Feynman_en.txt
-21-11 17:52:55   [Books_Authors] QA needs_reference: sources:Feynman_en.txt
-21-11 17:53:19   [Books_Authors] QA passed: editorial:Feynman_hi.txt
-21-11 17:53:42   [Books_Authors] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
-21-11 17:53:42 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_16_Books_Authors: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- डिस्कवरी ऑफ इंडिया के लेखन काल (1942–46) गलत → सही: 1942–1945 (कैद अवधि), प्रकाशन 1946']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_16_Books_Authors/QA.json'}
-21-11 17:53:43   [Science_Tech] QA needs_reference: sources:Content_hi.txt
-21-11 17:54:03   [Science_Tech] QA passed: editorial:Feynman_en.txt
-21-11 17:54:03   [Science_Tech] QA needs_reference: sources:Feynman_en.txt
 21-11 17:54:06   [Culture_Art] QA blocked: editorial:Feynman_en.txt
 21-11 17:54:07   [Culture_Art] QA needs_reference: sources:Feynman_en.txt
 21-11 17:54:14   [Science_Tech] QA passed: editorial:Feynman_hi.txt
@@ -126,6 +119,14 @@
 21-11 17:58:55   [Govt_Schemes] QA needs_reference: sources:Content_hi.txt
 21-11 17:59:24   [Economic_Terms] QA blocked: editorial:Content_en.txt
 21-11 17:59:24   [Economic_Terms] QA needs_reference: sources:Content_en.txt
+21-11 17:59:28   [Reports_Indices] QA passed: editorial:Feynman_en.txt
+21-11 17:59:28   [Reports_Indices] QA needs_reference: sources:Feynman_en.txt
+21-11 17:59:52   [Reports_Indices] QA passed: editorial:Feynman_hi.txt
+21-11 17:59:52   [Analogy] QA needs_reference: sources:Content_hi.txt
+21-11 17:59:52   [Reports_Indices] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
+21-11 17:59:53 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_24_Reports_Indices: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: साल 2003 में विश्व बैंक ने एक रिपोर्ट शुरू की — *Doing Business Report* (पहली रिपोर्ट "Doing Business 2004")। इसमें देशों को यह देखकर रैंक दी गई कि वहाँ कारोबार शुरू करना कितना आसान है। भारत की रैंक बहुत पीछे थी। यह एक छोटा-सा "नंबर" था, लेकिन इसने भारत सरकार को झकझोर दिया। नतीजा? "ईज़ ऑफ़ डूइंग बिज़नेस" सुधारों की एक लंबी शृंखला — सिंगल विंडो सिस्टम, ऑनलाइन रजिस्ट्रेशन, दिवालिया कानून (IBC, 2016)। 2020 की रिपोर्ट में भारत 63वें स्थान पर पहुँच गया (2014 में 142वाँ स्थान था)।', 'Fetch official supporting evidence for: - **ईज़ ऑफ़ डूइंग बिज़नेस रिपोर्ट** — विश्व बैंक (⚠️ 2021 में विवादों के बाद **बंद** कर दी गई — यह तथ्य अब "इतिहास" है, परीक्षा में पूछा जा सकता है कि यह किसकी रिपोर्ट *थी*)।', 'Fetch official supporting evidence for: "ईज़ ऑफ़ डूइंग बिज़नेस रिपोर्ट विश्व बैंक द्वारा जारी की जाती है।" — वर्तमान काल में यह **गलत** है; रिपोर्ट 2021 में बंद हो चुकी है। परीक्षक पुराने तथ्य को वर्तमान में पूछकर फँसाता है।']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_24_Reports_Indices/QA.json'}
+21-11 18:00:20   [Govt_Schemes] QA passed: editorial:Feynman_en.txt
+21-11 18:00:20   [Govt_Schemes] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>
