@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 21-11-2026 06:11 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
+**आख़िरी update:** 21-11-2026 06:26 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 74 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 89 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
-| key 3 | 34 |
-| key 4 | 35 |
+| key 3 | 35 |
+| key 4 | 36 |
 | key 5 | 29 |
-| key 6 | 41 |
+| key 6 | 42 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -54,9 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-21-11 03:52:58   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q126 key b vs re-solve c, Q148 key b vs re-solve a)
-21-11 03:54:24   [sandhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q127 key d vs re-solve ?, Q128 key d vs re-solve b, Q129 key c vs re-solve b, Q131 key b vs re-solve
-21-11 03:58:30   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q145 key b vs re-solve d)
 21-11 04:03:20   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q145 key c vs re-solve d)
 21-11 04:03:20   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
 21-11 04:03:20   [rikt_sthan_vakya_kram] written 0, failed 4; AI calls today 105/100000
@@ -94,4 +91,7 @@
 21-11 05:28:55   [sandhi] Practice_hi_Set_03.txt try 1: rejected (Q51:duplicate_options,Q53:duplicate_options,Q55:duplicate_options,Q57:duplicate_options,Q59:duplicate_options)
 21-11 05:46:11   [sandhi] Practice_hi_Set_03.txt try 2: re-solve disagrees (Q51 key d vs re-solve a, Q52 key a vs re-solve d, Q56 key d vs re-solve b, Q57 key b vs re-solve a, 
 21-11 05:57:47   [sandhi] Practice_hi_Set_03.txt try 3: re-solve disagrees (Q51 key c vs re-solve b, Q53 key b vs re-solve c, Q54 key d vs re-solve c, Q57 key b vs re-solve c, 
+21-11 06:13:12   [sandhi] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q58 key d vs re-solve a, Q75 key b vs re-solve ?)
+21-11 06:13:12   [sandhi] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+21-11 06:24:21   [sandhi] Practice_hi_Set_05.txt try 1: re-solve disagrees (Q101 key d vs re-solve a, Q102 key c vs re-solve a, Q104 key c vs re-solve a, Q105 key b vs re-solve
 ```
