@@ -83,11 +83,72 @@
         "Feynman_hi.txt": "1450a459814db7e070ed5ec74c9a955001a666e62fec2889b0e028ce3d0535b6"
       },
       "checked_at": "2026-11-21T05:51:33+00:00"
+    },
+    "sources:Feynman_hi.txt": {
+      "fingerprint": "abff901d28455c6d98a408735f0d130910e2397130edfc00fd93cff8ee6e4203",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "5c11357701da10d88ca0de0eef2a55b38ff23aa49172e277b6010f20e5bb2f3e",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Feynman_hi.txt": "1450a459814db7e070ed5ec74c9a955001a666e62fec2889b0e028ce3d0535b6",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:24:59+00:00"
+    },
+    "editorial:Flashcards_hi.txt": {
+      "fingerprint": "a425d674036102c0306233110d318898afc84ccef57c2336c4c2604af9ccf1e7",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "5c11357701da10d88ca0de0eef2a55b38ff23aa49172e277b6010f20e5bb2f3e",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Flashcards_hi.txt": "ac4272403d194e849d87ae700da1978aec765e5a37a6c9f1e836637258799291"
+      },
+      "checked_at": "2026-11-21T10:38:42+00:00"
+    },
+    "sources:Flashcards_hi.txt": {
+      "fingerprint": "b052148e12640614d7c3ac7141e6d153ef2b621654a6e690ae2c68340f8367ce",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "5c11357701da10d88ca0de0eef2a55b38ff23aa49172e277b6010f20e5bb2f3e",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Flashcards_hi.txt": "ac4272403d194e849d87ae700da1978aec765e5a37a6c9f1e836637258799291",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:38:42+00:00"
+    },
+    "editorial:Important_Rules_hi.txt": {
+      "fingerprint": "d880da7ff6997f5205cb25ef563691c516dd360ec700dcc51ef0a2ea0a35515f",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- नियम २, नियम ११ और सारणी में \"हँस\" (हँसना) और \"हंस\" (पक्षी) के वर्तनी-भेद को \"चंद्रबिंदु/बिंदु भेद\" बताया गया है, जबकि \"हंस\" (पक्षी) की मानक वर्तनी बिना किसी बिंदु के \"हंस\" होती है; अंतर चंद्रबिंदु की उपस्थिति/अनुपस्थिति का है, न कि चंद्रबिंदु बनाम बिंदु का। → \"हँस\" (चंद्रबिंदु सहित) बनाम \"हंस\" (बिना बिंदु) — केवल चंद्रबिंदु का भेद।",
+        "- नियम १३ में दावा कि शब्दकोश में \"कल\" का पहला अर्थ \"बीता हुआ दिन\" है, गलत है; मानक हिंदी शब्दसागर व मानक हिंदी शब्दकोश में \"कल\" की पहली प्रविष्टि \"कलह\" (झगड़ा) है, उसके बाद कालवाचक क्रियाविशेषण \"कल\" (कल/आज) आता है। → शब्दकोश क्रम में \"कल\" का प्रथम अर्थ \"कलह\" है, \"बीता हुआ दिन\" नहीं।"
+      ],
+      "dependencies": {
+        "chapter.json": "5c11357701da10d88ca0de0eef2a55b38ff23aa49172e277b6010f20e5bb2f3e",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Important_Rules_hi.txt": "229cc75a79acc1e1d31ef61712847fc8f4452a7cff88f9dddf6214204cd47688"
+      },
+      "checked_at": "2026-11-21T10:42:21+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T05:51:33+00:00",
-  "chapter_fingerprint": "411a4eba7a59cc73622808d00ca1af3954e39e3b021a8e6da269b9218d26e79d"
+  "updated_at": "2026-11-21T10:42:21+00:00",
+  "chapter_fingerprint": "3de1a6e9050ebdfc30c5b7753871008129275aaf1d7dc19d7625600c0f650f4b"
 }
