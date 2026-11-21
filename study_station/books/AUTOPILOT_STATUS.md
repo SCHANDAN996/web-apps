@@ -5,27 +5,28 @@
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 19 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 20 मिनट |
 | W10 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W11 | Chapter 12 e banking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 19 मिनट |
-| W3 | Chapter 13 ek shabd (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W4 | Chapter 11 vilom (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W5 | Chapter 11 email (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W6 | Chapter 10 internet browser (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W7 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W8 | Chapter 13 networking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W9 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W11 | Chapter 12 e banking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W12 | Chapter 14 muhavare lokokti (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 20 मिनट |
+| W3 | Chapter 13 ek shabd (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W4 | Chapter 11 vilom (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W5 | Chapter 11 email (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W6 | Chapter 10 internet browser (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W7 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W8 | Chapter 13 networking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W9 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 12 |
+| key 3 | 13 |
 | key 4 | 19 |
 | key 5 | 12 |
 | key 6 | 5 |
@@ -82,10 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 15:51:30   [shabd_bhed] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 3, "pending": 28, "blocked": 2, "needs_reference": 3, "remaining": 33, 
-21-11 15:51:30 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 4, 'pending': 28, 'blocked': 1, 'needs_reference': 3, 'remaining': 32, 'failures': [{'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Flashcards_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Important_Rules_hi.txt', 'status': 'blocked', 'issues': ['- Rule 11 labels reflexive verbs as “आत्मनेपदी” (a Sanskrit voice category) → use “प्रतिबिंबित क्रिया” or “अकर्मक क्रिया” for Hindi grammar']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_06_kaal_vachya/QA.json'}
-21-11 15:51:30 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_02_shabd_bhed: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 3, 'pending': 28, 'blocked': 2, 'needs_reference': 3, 'remaining': 33, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- "इसलिए" is incorrectly listed under कारणवाचक (causal) conjunctions in the समुच्चयबोधक section; it is a परिणामवाचक (consequential) conjunction → Remove "इसलिए" from the कारणवाचक list (keep it only under परिणामवाचक).']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Flashcards_hi.txt', 'status': 'blocked', 'issues': ['- Card 1 (पीछे): "संज्ञा वाक्य में कर्ता, कर्म या विशेषण का काम करती है" → संज्ञा वाक्य में कर्ता, कर्म, संबोधन आदि कारकों का काम करती है; विशेषण अलग शब्द-भेद है।', '- Card 9 (पीछे): "अकारांत पुल्लिंग में भी \'ए\' जुड़ता है (पेड़ → पेड़े)" → अकारांत पुल्लिंग संज्ञाओं के बहुवचन में प्रायः कोई परिवर्तन नहीं होता (घर→घर, फल→फल); \'पेड़→पेड़े\' अपवाद है।']}, {'check': 'sources:Flashcards_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_02_shabd_bhed/QA.json'}
-21-11 15:51:31   [paryayvachi] QA needs_reference: sources:Feynman_hi.txt
 21-11 15:52:02   [input_output_ports] QA passed: editorial:Feynman_hi.txt
 21-11 15:52:02   [input_output_ports] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
 21-11 15:52:02 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_02_input_output_ports: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- USB 3.1 Gen 2 / 3.2 Gen 2 (10 Gbps) पंक्ति में "लाल/टील इनसर्ट" पहचान गलत है → USB-IF मानक के अनुसार 10 Gbps के लिए केवल टील (नीला-हरा) रंग निर्धारित है; लाल इनसर्ट 20 Gbps (USB 3.2 Gen 2x2) के लिए है।']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_02_input_output_ports/QA.json'}
@@ -122,6 +119,10 @@
 21-11 15:57:35   [powerpoint] QA needs_reference: sources:Feynman_en.txt
 21-11 15:57:36   [networking] QA needs_reference: sources:Content_hi.txt
 21-11 15:58:16   [muhavare_lokokti] QA needs_reference: sources:Feynman_hi.txt
+21-11 15:59:19   [sandhi] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q2 key a vs re-solve c, Q5 key a vs re-solve b, Q8 key a vs re-solve b, Q10 key d vs re-solve a, Q12
+21-11 15:59:21   [cyber_security] QA needs_reference: sources:Content_hi.txt
+21-11 15:59:21   [e_banking] QA passed: editorial:Feynman_en.txt
+21-11 15:59:21   [e_banking] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>
