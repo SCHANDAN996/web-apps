@@ -1,33 +1,34 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 07:29 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 07:30 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 09 Economy Basic (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W10 | Chapter 10 Physics Daily (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W11 | Chapter 11 Chemistry (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W12 | Chapter 01 Ancient History (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 18 मिनट |
-| W3 | Chapter 07 States Rivers (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
-| W4 | Chapter 12 Biology (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W5 | Chapter 05 Polity (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
-| W6 | Chapter 08 World Geography (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W7 | Chapter 03 Modern History (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 16 मिनट |
-| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 50 मिनट |
-| W9 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 20 मिनट |
+| W1 | Chapter 09 Economy Basic (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W10 | Chapter 10 Physics Daily (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W11 | Chapter 11 Chemistry (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W12 | Chapter 01 Ancient History (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 19 मिनट |
+| W2 | Chapter 13 Awards (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W3 | Chapter 07 States Rivers (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
+| W4 | Chapter 12 Biology (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W5 | Chapter 05 Polity (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
+| W6 | Chapter 08 World Geography (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W7 | Chapter 03 Modern History (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 17 मिनट |
+| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 51 मिनट |
+| W9 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 21 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 156 |
-| key 4 | 134 |
-| key 5 | 142 |
+| key 4 | 135 |
+| key 5 | 143 |
 | key 6 | 136 |
 
 ## किताबों की प्रगति
@@ -69,10 +70,10 @@
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 101/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 96/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 75/2184 |
-| Graduation GK | 0 | 28 | 0 | 0 | 0 | 17/2184 |
+| Graduation GK | 0 | 28 | 0 | 0 | 0 | 18/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 929/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 930/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,9 +88,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 19:14:06   [Constitution_Basic] QA passed: structure
-21-11 19:14:34   [Ancient_History] QA blocked: editorial:Content_en.txt
-21-11 19:14:34   [Ancient_History] QA needs_reference: sources:Content_en.txt
 21-11 19:14:41   [Linear_Programming] QA passed: editorial:Content_hi.txt
 21-11 19:14:42   [Linear_Programming] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
 21-11 19:14:42 QA Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming/QA.json'}
@@ -127,6 +125,9 @@
 21-11 19:29:23   [World_Geography] QA passed: editorial:Content_en.txt
 21-11 19:29:23   [World_Geography] QA needs_reference: sources:Content_en.txt
 21-11 19:29:49   [Awards] QA passed: structure
+21-11 19:30:41   [Ancient_History] QA passed: editorial:Content_hi.txt
+21-11 19:30:41   [Ancient_History] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 19:30:41 QA Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_01_Ancient_History: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The ratio of Harappan standardized burnt bricks is stated as 1:2:4 → The correct ratio is 4:2:1 (length:breadth:height).']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ["Fetch official supporting evidence for: Ancient India keeps surfacing in current affairs: the **Sarnath Lion Capital** appears on every Indian currency note and the new Parliament building's national emblem installation (2022) sparked public discussion on its design; **Nalanda University** was revived as an international university and its new campus was inaugurated in **2024** at Rajgir, Bihar; and **Kashi Tamil Sangamam** events celebrate Sangam-age cultural links. When you read such news, connect it back to the static facts here — examiners increasingly frame questions this way."]}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_01_Ancient_History/QA.json'}
 ````
 
 </details>

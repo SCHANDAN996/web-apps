@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "866a246c8a2472430baed2dcbe963ba77183bce6270a1db9cc48aea205f81007",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "8992c928be396d95a84908b58721a401af4a617ab90d02fed89e1a5866969f36",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "01dae97cc31500be32558636631527be998a9af7c5ff84731bc815bd150f91fe",
+        "Content_hi.txt": "3fcf79eda41206eac86b05758d3972adc44fdf4f395e6ab0618850ad63a60456",
+        "Feynman_en.txt": "b53715798df6078249099fe773734c5793922fa8fa1da641eb426067925dadea",
+        "Feynman_hi.txt": "4fe93238030ffe7f95f4f1e0863780d5d983839bb3acc65f7359ca1b55042bfb",
+        "Flashcards_en.txt": "a065f73c0fc2c4517221d42784cbfd9cefc4f529a1e32f1c0480d4d22f8d72c2",
+        "Flashcards_hi.txt": "ba9879ee80e39e35bcb1d0f3347c94dc952c735bb1dcf8fd7a7a1653a14608b7",
+        "Key_Facts_en.txt": "299c7fd14361559056e1861450c643015f057f187f3a745deba9f30458b70e9a",
+        "Key_Facts_hi.txt": "bf8138ba4b473f45a89b34d4671d1bdbe7006acb3cf06611a96457acf9875ddd",
+        "Memory_Hooks_en.txt": "13520f36a29eee66c9d5644d93b2304a3d071b77a595fda93516e872b0f10c80",
+        "Memory_Hooks_hi.txt": "6c9a6d8d625621c9fde4d55c732028e12f11349668dc3d67deae5c6d8df1527a",
+        "Mind_Map.txt": "c0e6d6fcd2bd358aae645455b8915faa4b8ce6b980569ff941726f0439537926",
+        "PYQ_en.txt": "eef0d6f1f4233eae9ed421c67545ac556399e2e25bc6ff4c12f4abc35e8c06eb",
+        "PYQ_hi.txt": "5b396c5f17ee84dd32368fec8ea60cf99266f61eaf9c3a22e544676b03d786c5",
+        "Practice_en_Set_01.txt": "b270c14ad80ed8ff554dbe6fdfc9440574b524e5ec78bf9869ec98940475599e",
+        "Practice_en_Set_02.txt": "cf13bebcb75a3359f2f893daaad1b813ef47599f1db1c05bf824ad8e116bf09e",
+        "Practice_en_Set_03.txt": "84ffa2ea696470ca8539a2ae0268750819760e4d1baa7b39766fa130e3ac7923",
+        "Practice_en_Set_04.txt": "a82649f489c1292ff3c6b3ca649f839098ef41d6e1caa0572d1b2dc79e8ef010",
+        "Practice_en_Set_05.txt": "ca4328d162da4d1722811d79f4d25d5a6fc975133eefc02a3966d5b9947f9d2d",
+        "Practice_en_Set_06.txt": "7d0148a8d5cc5e96441e1083f6cdfe79c7a85aa9a2d85e5a48a267ce26640e7f",
+        "Practice_hi_Set_01.txt": "cc66734d89a03b0455174ca96c83f331c20a638b1ea14f2ad0b6893a2da932db",
+        "Practice_hi_Set_02.txt": "97c0b00918e29fcafa059d3d0e6a6af4f90ca836ee3afaadd0a6e4499d54c6b6",
+        "Practice_hi_Set_03.txt": "f0f580da4f710bb104f11e1ff9729eb0d4476e23f83814b787fdaa47d2019532",
+        "Practice_hi_Set_04.txt": "a2b9607b3c58168a6d32bb67c0510b54827ab406aa990829b0dc2e8ed93f314d",
+        "Practice_hi_Set_05.txt": "0ba96934a55ca1eb2fb769c4a4aee4ba64044ac11b14a81a7b0c66f12243104d",
+        "Practice_hi_Set_06.txt": "fd4573618532616905adf5e983b06b469bf55b26841d60620107c5aff4b4e894",
+        "inventory": {
+          "Content_en.txt": "01dae97cc31500be32558636631527be998a9af7c5ff84731bc815bd150f91fe",
+          "Content_hi.txt": "3fcf79eda41206eac86b05758d3972adc44fdf4f395e6ab0618850ad63a60456",
+          "Feynman_en.txt": "b53715798df6078249099fe773734c5793922fa8fa1da641eb426067925dadea",
+          "Feynman_hi.txt": "4fe93238030ffe7f95f4f1e0863780d5d983839bb3acc65f7359ca1b55042bfb",
+          "Flashcards_en.txt": "a065f73c0fc2c4517221d42784cbfd9cefc4f529a1e32f1c0480d4d22f8d72c2",
+          "Flashcards_hi.txt": "ba9879ee80e39e35bcb1d0f3347c94dc952c735bb1dcf8fd7a7a1653a14608b7",
+          "Key_Facts_en.txt": "299c7fd14361559056e1861450c643015f057f187f3a745deba9f30458b70e9a",
+          "Key_Facts_hi.txt": "bf8138ba4b473f45a89b34d4671d1bdbe7006acb3cf06611a96457acf9875ddd",
+          "Memory_Hooks_en.txt": "13520f36a29eee66c9d5644d93b2304a3d071b77a595fda93516e872b0f10c80",
+          "Memory_Hooks_hi.txt": "6c9a6d8d625621c9fde4d55c732028e12f11349668dc3d67deae5c6d8df1527a",
+          "Mind_Map.txt": "c0e6d6fcd2bd358aae645455b8915faa4b8ce6b980569ff941726f0439537926",
+          "PYQ_en.txt": "eef0d6f1f4233eae9ed421c67545ac556399e2e25bc6ff4c12f4abc35e8c06eb",
+          "PYQ_hi.txt": "5b396c5f17ee84dd32368fec8ea60cf99266f61eaf9c3a22e544676b03d786c5",
+          "Practice_en_Set_01.txt": "b270c14ad80ed8ff554dbe6fdfc9440574b524e5ec78bf9869ec98940475599e",
+          "Practice_en_Set_02.txt": "cf13bebcb75a3359f2f893daaad1b813ef47599f1db1c05bf824ad8e116bf09e",
+          "Practice_en_Set_03.txt": "84ffa2ea696470ca8539a2ae0268750819760e4d1baa7b39766fa130e3ac7923",
+          "Practice_en_Set_04.txt": "a82649f489c1292ff3c6b3ca649f839098ef41d6e1caa0572d1b2dc79e8ef010",
+          "Practice_en_Set_05.txt": "ca4328d162da4d1722811d79f4d25d5a6fc975133eefc02a3966d5b9947f9d2d",
+          "Practice_en_Set_06.txt": "7d0148a8d5cc5e96441e1083f6cdfe79c7a85aa9a2d85e5a48a267ce26640e7f",
+          "Practice_hi_Set_01.txt": "cc66734d89a03b0455174ca96c83f331c20a638b1ea14f2ad0b6893a2da932db",
+          "Practice_hi_Set_02.txt": "97c0b00918e29fcafa059d3d0e6a6af4f90ca836ee3afaadd0a6e4499d54c6b6",
+          "Practice_hi_Set_03.txt": "f0f580da4f710bb104f11e1ff9729eb0d4476e23f83814b787fdaa47d2019532",
+          "Practice_hi_Set_04.txt": "a2b9607b3c58168a6d32bb67c0510b54827ab406aa990829b0dc2e8ed93f314d",
+          "Practice_hi_Set_05.txt": "0ba96934a55ca1eb2fb769c4a4aee4ba64044ac11b14a81a7b0c66f12243104d",
+          "Practice_hi_Set_06.txt": "fd4573618532616905adf5e983b06b469bf55b26841d60620107c5aff4b4e894"
+        }
+      },
+      "checked_at": "2026-11-21T13:41:25+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "9fdaf5d54f33876c3044dc1d896bd1de56f7d4b8c93826b088d88da88dd64aaf",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The ratio of Harappan standardized burnt bricks is stated as 1:2:4 → The correct ratio is 4:2:1 (length:breadth:height)."
+      ],
+      "dependencies": {
+        "chapter.json": "8992c928be396d95a84908b58721a401af4a617ab90d02fed89e1a5866969f36",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "01dae97cc31500be32558636631527be998a9af7c5ff84731bc815bd150f91fe"
+      },
+      "checked_at": "2026-11-21T13:44:34+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "a476db825d2c60f852701e58c08460fc7d641a968fc917f69e14e4b0cb97dd4f",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: Ancient India keeps surfacing in current affairs: the **Sarnath Lion Capital** appears on every Indian currency note and the new Parliament building's national emblem installation (2022) sparked public discussion on its design; **Nalanda University** was revived as an international university and its new campus was inaugurated in **2024** at Rajgir, Bihar; and **Kashi Tamil Sangamam** events celebrate Sangam-age cultural links. When you read such news, connect it back to the static facts here — examiners increasingly frame questions this way."
+      ],
+      "dependencies": {
+        "chapter.json": "8992c928be396d95a84908b58721a401af4a617ab90d02fed89e1a5866969f36",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "01dae97cc31500be32558636631527be998a9af7c5ff84731bc815bd150f91fe",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T13:44:34+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "15005a2b896b2c49e2493a5b2eb0f4e0af341db9454b14da6a3e781c628cc38e",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "8992c928be396d95a84908b58721a401af4a617ab90d02fed89e1a5866969f36",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "3fcf79eda41206eac86b05758d3972adc44fdf4f395e6ab0618850ad63a60456"
+      },
+      "checked_at": "2026-11-21T14:00:41+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T14:00:41+00:00",
+  "chapter_fingerprint": "09bb29234f9cf9a6d3fe6d1d2479dc466bcef7cefd5172ead0fba758815e9874"
+}
