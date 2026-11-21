@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "ccf6d2e17e09093bba1145b62c5802fbe4835acc03a35a7ca0f281ffd0b0f382",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "a30e8736cad58eacf4662f30f1fd0103177202dabc46fdcc41eb94585d0b9ecf",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "a600c7952c6a1ee8c5aa00584a3c3e1097c78f7dfafd52dfa0f45560659f6d00",
+        "Content_hi.txt": "2f0d25895478b9c6fd33995397f9b13ab5f9dd57c3210f810f77fcb50d19e237",
+        "Feynman_en.txt": "0d732f538d525e502e3549754a8a2ac9bc6c2e0165c5386e3827163dbfeac9d5",
+        "Feynman_hi.txt": "8d5521759e18b88fa7e520b20bba90aced13010ff812a4d9e9b7cf118eebe4a8",
+        "Flashcards_en.txt": "19d0fdd03ec9506f5f24a2fc8255e295bcf71a7c279e9b4eacd92e20a037ecdd",
+        "Flashcards_hi.txt": "2384c264b6c781b5e7d693c1ce53bed881443540f20716ec7a328acfa82027c7",
+        "Important_Formulas_en.txt": "1027af9ed6f24bf1618466b38c20e13893f38945d45256b4fc5f9f7fa20f98b7",
+        "Important_Formulas_hi.txt": "643692af40bbe0e681261caf8b4c8a051e3237483020453a60f4cab3a9930fb3",
+        "Mind_Map.txt": "b9fc67ecbad71b3075fe02aa5573f67f6987f93ed85e6dcc1908cc7c2ce5ad74",
+        "PYQ_en.txt": "6c351260a24e73c060903254252979a3e8a66371918e3e333c7dc0fdc61d1980",
+        "PYQ_hi.txt": "0033807ecdf3119a11e0a25b20728ee5bb75b626c3070a4a3f092233a8959c93",
+        "Practice_en_Set_01.txt": "a72d9a8bd0057bc166d5341cc9c8becd7d918eea76573e02bc61503ba5544221",
+        "Practice_en_Set_02.txt": "9af80a0254e7a902ab5c6846f72464a8a22e12a18382c7bead6e10e75c59d445",
+        "Practice_en_Set_03.txt": "7d069bd3a91b776877e78ad02300348ba6a27a3b08d599fe8296cd385c1b172c",
+        "Practice_en_Set_04.txt": "f5b198a869ed36701c9e3a5d4a083f9be34d4016c531e7d9371778d9077d8bc8",
+        "Practice_en_Set_05.txt": "9be66b34856ddbf1e1bf4bd9a7f0b57076737f4fd39b717b4a64b01e2800b59c",
+        "Practice_en_Set_06.txt": "e1f2abfd73debd714039351ff3d8518b60f1de5050651a78a6a6e733472f9e55",
+        "Practice_hi_Set_01.txt": "fd23f0c3224e4d860131b5716b8219882fc88b69b196af274319a48f1e839266",
+        "Practice_hi_Set_02.txt": "e852f7798e9a0f7ed416ef9030b259eaec7d12b383bca082dcf22423abcb374f",
+        "Practice_hi_Set_03.txt": "ab9008bc01b205884ed44fde191658ea578a48427aab13bc7203d0591873caf5",
+        "Practice_hi_Set_04.txt": "ee4a03d4454f3e93396480c90b19d4824a05d2a900868be20108759a898d554b",
+        "Practice_hi_Set_05.txt": "b3dcd591f5a28e253e173d4aeceb7c6c62e33d3f31d145ca9181666921e67d80",
+        "Practice_hi_Set_06.txt": "0a0be056fc19491430c55f52516b418d3ad543f46ea371e8d6150c3709755fc1",
+        "Short_Tricks_en.txt": "f40b091ed77214d547d235c134ec8b972dacf7735013ba1bf289c78d1d4dbb31",
+        "Short_Tricks_hi.txt": "833650fe90a62d04d570c11b58f178e42b3ab9a243185a3630de08d66d83f6d2",
+        "inventory": {
+          "Content_en.txt": "a600c7952c6a1ee8c5aa00584a3c3e1097c78f7dfafd52dfa0f45560659f6d00",
+          "Content_hi.txt": "2f0d25895478b9c6fd33995397f9b13ab5f9dd57c3210f810f77fcb50d19e237",
+          "Feynman_en.txt": "0d732f538d525e502e3549754a8a2ac9bc6c2e0165c5386e3827163dbfeac9d5",
+          "Feynman_hi.txt": "8d5521759e18b88fa7e520b20bba90aced13010ff812a4d9e9b7cf118eebe4a8",
+          "Flashcards_en.txt": "19d0fdd03ec9506f5f24a2fc8255e295bcf71a7c279e9b4eacd92e20a037ecdd",
+          "Flashcards_hi.txt": "2384c264b6c781b5e7d693c1ce53bed881443540f20716ec7a328acfa82027c7",
+          "Important_Formulas_en.txt": "1027af9ed6f24bf1618466b38c20e13893f38945d45256b4fc5f9f7fa20f98b7",
+          "Important_Formulas_hi.txt": "643692af40bbe0e681261caf8b4c8a051e3237483020453a60f4cab3a9930fb3",
+          "Mind_Map.txt": "b9fc67ecbad71b3075fe02aa5573f67f6987f93ed85e6dcc1908cc7c2ce5ad74",
+          "PYQ_en.txt": "6c351260a24e73c060903254252979a3e8a66371918e3e333c7dc0fdc61d1980",
+          "PYQ_hi.txt": "0033807ecdf3119a11e0a25b20728ee5bb75b626c3070a4a3f092233a8959c93",
+          "Practice_en_Set_01.txt": "a72d9a8bd0057bc166d5341cc9c8becd7d918eea76573e02bc61503ba5544221",
+          "Practice_en_Set_02.txt": "9af80a0254e7a902ab5c6846f72464a8a22e12a18382c7bead6e10e75c59d445",
+          "Practice_en_Set_03.txt": "7d069bd3a91b776877e78ad02300348ba6a27a3b08d599fe8296cd385c1b172c",
+          "Practice_en_Set_04.txt": "f5b198a869ed36701c9e3a5d4a083f9be34d4016c531e7d9371778d9077d8bc8",
+          "Practice_en_Set_05.txt": "9be66b34856ddbf1e1bf4bd9a7f0b57076737f4fd39b717b4a64b01e2800b59c",
+          "Practice_en_Set_06.txt": "e1f2abfd73debd714039351ff3d8518b60f1de5050651a78a6a6e733472f9e55",
+          "Practice_hi_Set_01.txt": "fd23f0c3224e4d860131b5716b8219882fc88b69b196af274319a48f1e839266",
+          "Practice_hi_Set_02.txt": "e852f7798e9a0f7ed416ef9030b259eaec7d12b383bca082dcf22423abcb374f",
+          "Practice_hi_Set_03.txt": "ab9008bc01b205884ed44fde191658ea578a48427aab13bc7203d0591873caf5",
+          "Practice_hi_Set_04.txt": "ee4a03d4454f3e93396480c90b19d4824a05d2a900868be20108759a898d554b",
+          "Practice_hi_Set_05.txt": "b3dcd591f5a28e253e173d4aeceb7c6c62e33d3f31d145ca9181666921e67d80",
+          "Practice_hi_Set_06.txt": "0a0be056fc19491430c55f52516b418d3ad543f46ea371e8d6150c3709755fc1",
+          "Short_Tricks_en.txt": "f40b091ed77214d547d235c134ec8b972dacf7735013ba1bf289c78d1d4dbb31",
+          "Short_Tricks_hi.txt": "833650fe90a62d04d570c11b58f178e42b3ab9a243185a3630de08d66d83f6d2"
+        }
+      },
+      "checked_at": "2026-11-21T07:41:06+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "b8b90d3af819ba5b3dc9f04eb2746ee0d6cfb00334f2a1ad516c2a51bcc023a4",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "a30e8736cad58eacf4662f30f1fd0103177202dabc46fdcc41eb94585d0b9ecf",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "a600c7952c6a1ee8c5aa00584a3c3e1097c78f7dfafd52dfa0f45560659f6d00"
+      },
+      "checked_at": "2026-11-21T07:41:22+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "97da6dbaabc17b5e096a4eed83c7fe31f5f75010fa886a7854af42ac57afb2de",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "a30e8736cad58eacf4662f30f1fd0103177202dabc46fdcc41eb94585d0b9ecf",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "a600c7952c6a1ee8c5aa00584a3c3e1097c78f7dfafd52dfa0f45560659f6d00",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T07:41:22+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "900c232c82822012e6762cb1910c39c97d2c9444b948753b7b010cf2b8443c73",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Type 4 difference formula incorrectly uses a single P for “दो राशियों” (two principals) → Clarify that the shortcut SI difference = P × (R difference) × T / 100 applies only when principal and time are identical; otherwise use P₁R₁T₁/100 − P₂R₂T₂/100",
+        "- Claim “हर साल SSC CGL, IBPS PO और RRB NTPC में सवाल पक्के हैं” is an invented exam/year guarantee → Replace with “प्रायः हर साल” or cite specific recent years with data"
+      ],
+      "dependencies": {
+        "chapter.json": "a30e8736cad58eacf4662f30f1fd0103177202dabc46fdcc41eb94585d0b9ecf",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "2f0d25895478b9c6fd33995397f9b13ab5f9dd57c3210f810f77fcb50d19e237"
+      },
+      "checked_at": "2026-11-21T07:43:45+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T07:43:45+00:00",
+  "chapter_fingerprint": "17ece5bf9277f35101dfa53066ea1cbdd88f4657b9e3c140fdf17a22569afcaa"
+}

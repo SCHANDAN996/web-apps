@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 01:21 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 01:22 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 149 मिनट |
-| W10 | Chapter 14 Mensuration (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W11 | Chapter 09 Simple Interest (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W12 | Chapter 12 Time Distance (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W2 | Chapter 13 Mixture Alligation (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W3 | Chapter 11 Time Work (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W4 | Chapter 08 Profit Loss (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W5 | Chapter 18 Data Interpretation (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W6 | Chapter 17 Trigonometry (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W7 | Chapter 16 Algebra (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W8 | Chapter 15 Geometry (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W9 | Chapter 10 Compound Interest (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 150 मिनट |
+| W10 | Chapter 14 Mensuration (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W11 | Chapter 09 Simple Interest (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W12 | Chapter 12 Time Distance (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W2 | Chapter 13 Mixture Alligation (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W3 | Chapter 11 Time Work (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W4 | Chapter 19 Statistics (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W5 | Chapter 18 Data Interpretation (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W6 | Chapter 17 Trigonometry (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W7 | Chapter 16 Algebra (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W8 | Chapter 15 Geometry (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W9 | Chapter 10 Compound Interest (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 82 |
-| key 4 | 75 |
-| key 5 | 95 |
+| key 3 | 83 |
+| key 4 | 76 |
+| key 5 | 96 |
 | key 6 | 60 |
 
 ## किताबों की प्रगति
@@ -65,7 +65,7 @@
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
-| 12th Maths | 0 | 23 | 0 | 0 | 0 | 49/1794 |
+| 12th Maths | 0 | 23 | 0 | 0 | 0 | 50/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 0/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 0/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 0/2025 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 314/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 315/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,11 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 13:15:14   [Mixture_Alligation] QA passed: structure
-21-11 13:15:33   [Mixture_Alligation] QA passed: editorial:Content_en.txt
-21-11 13:15:33   [Mixture_Alligation] QA needs_reference: sources:Content_en.txt
-21-11 13:15:40   [Mixture_Alligation] QA passed: editorial:Content_hi.txt
-21-11 13:15:40   [Mixture_Alligation] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
 21-11 13:15:41 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_13_Mixture_Alligation/QA.json'}
 21-11 13:15:56   [Mensuration] QA passed: structure
 21-11 13:17:06   [Geometry] QA passed: structure
@@ -127,6 +122,11 @@
 21-11 13:21:41 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_18_Data_Interpretation: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Invented exam statistic: "SSC CGL Mains cut-off difference often 8–10 marks" without year or official source → Remove or provide a verified, year-specific statistic with official source.', '- Invented weightage claim: "Quant section gets most marks from DI sets" → Remove or provide exam-specific weightage data with source.', '- Invented statistic: "80% of DI questions ask only two things" → Remove or replace with a verified percentage from exam analysis.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_18_Data_Interpretation/QA.json'}
 21-11 13:22:02   [Statistics] QA passed: editorial:Content_en.txt
 21-11 13:22:02   [Statistics] QA needs_reference: sources:Content_en.txt
+21-11 13:22:09 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram (TODO: todo 2, problems 0)
+21-11 13:22:09   [rikt_sthan_vakya_kram] Hindi-only writer: direct Hindi content; English generation and translation disabled
+21-11 13:22:35   [Statistics] QA passed: editorial:Content_hi.txt
+21-11 13:22:35   [Statistics] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
+21-11 13:22:36 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_19_Statistics: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_19_Statistics/QA.json'}
 ````
 
 </details>
