@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 174 मिनट |
-| W10 | Chapter 13 Synonyms (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W11 | Chapter 12 Sentence Structure (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W12 | Chapter 02 Pronoun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W2 | Chapter 05 Tense (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W3 | Chapter 09 Articles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W4 | Chapter 04 Verb (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W5 | Chapter 07 Preposition (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W6 | Chapter 11 Narration (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W7 | Chapter 06 Adverb (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W8 | Chapter 10 Voice (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W9 | Chapter 08 Conjunction (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 175 मिनट |
+| W10 | Chapter 13 Synonyms (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W11 | Chapter 12 Sentence Structure (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W12 | Chapter 14 Antonyms (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W2 | Chapter 05 Tense (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W3 | Chapter 09 Articles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W4 | Chapter 04 Verb (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W5 | Chapter 07 Preposition (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W6 | Chapter 11 Narration (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W7 | Chapter 06 Adverb (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W8 | Chapter 10 Voice (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W9 | Chapter 08 Conjunction (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 125 |
+| key 3 | 126 |
 | key 4 | 116 |
-| key 5 | 115 |
+| key 5 | 116 |
 | key 6 | 102 |
 
 ## किताबों की प्रगति
@@ -68,12 +68,12 @@
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 104/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 96/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 101/1950 |
-| 12th English | 0 | 25 | 0 | 0 | 0 | 73/2025 |
+| 12th English | 0 | 25 | 0 | 0 | 0 | 74/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 814/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 815/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,7 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 18:28:15 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_07_Preposition: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: **AT** a point (5 pm), **ON** a day (Monday), **IN** a period (July / 2024 / the evening).', 'Fetch official supporting evidence for: - **Since** → point of time (when it *started*): since Monday, since 2010, since childhood.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- Section contains no valid educational content — corrupted prompt template text with repetitive "prompt for prompt" garbage and incomplete Hindi/English fragments, not study material for SSC/Railway/Bank/State exams']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_07_Preposition/QA.json'}
 21-11 18:28:15   [Conjunction] QA needs_reference: sources:Content_hi.txt
 21-11 18:29:13   [Articles] QA needs_reference: sources:Content_hi.txt
 21-11 18:29:44   [Conjunction] QA blocked: editorial:Feynman_en.txt
@@ -127,6 +126,7 @@
 21-11 18:33:17 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_12_Sentence_Structure: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 5, 'pending': 73, 'blocked': 0, 'needs_reference': 3, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_12_Sentence_Structure/QA.json'}
 21-11 18:33:31   [Antonyms] QA passed: editorial:Feynman_en.txt
 21-11 18:33:31   [Antonyms] QA needs_reference: sources:Feynman_en.txt
+21-11 18:34:11   [One_Word_Substitution] QA needs_reference: sources:Content_hi.txt
 ````
 
 </details>
