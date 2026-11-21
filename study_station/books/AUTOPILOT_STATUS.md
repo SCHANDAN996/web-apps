@@ -1,6 +1,6 @@
 # 📚 Book Autopilot — लाइव स्थिति (twelve-chapters)
 
-**आख़िरी update:** 21-11-2026 06:57 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
+**आख़िरी update:** 21-11-2026 07:12 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 02:18 AM
 
 > Nemotron-3-Ultra लिखता है → Ultra की अलग request हर सवाल हल करके उत्तर जाँचती है → `bookcheck` → Ultra reviewer हर section पढ़कर गलती सुधरवाता है → तभी push।
 
@@ -8,14 +8,14 @@
 
 | worker | अध्याय | काम | कब से |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 120 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 135 मिनट |
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
 | key 3 | 37 |
 | key 4 | 38 |
-| key 5 | 31 |
-| key 6 | 44 |
+| key 5 | 32 |
+| key 6 | 45 |
 
 **बाकी साथ चल रहे runs:** [lane-2](autopilot/lane-2.md) · [lane-3](autopilot/lane-3.md) · [lane-4](autopilot/lane-4.md) · [lane-5](autopilot/lane-5.md) · [lane-6](autopilot/lane-6.md)
 
@@ -54,7 +54,6 @@
 ## 📜 हाल की गतिविधि (नया सबसे नीचे)
 
 ```
-21-11 04:06:07   [sandhi] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q128 key d vs re-solve ?, Q129 key c vs re-solve b, Q132 key b vs re-solve a, Q137 key b vs re-solve
 21-11 04:16:12   [sandhi] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q127 key a vs re-solve ?, Q128 key d vs re-solve ?, Q129 key b vs re-solve c, Q132 key a vs re-solve
 21-11 04:16:12   [sandhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
 21-11 04:16:12   [sandhi] written 0, failed 5; AI calls today 107/100000
@@ -94,4 +93,5 @@
 21-11 06:52:09   [sandhi] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q106 key c vs re-solve ?, Q121 key b vs re-solve ?)
 21-11 06:52:09   [sandhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
 21-11 06:53:29   [sandhi] Practice_hi_Set_06.txt try 1: rejected (Q130:duplicate_options)
+21-11 07:07:26   [sandhi] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q129 key d vs re-solve ?, Q130 key a vs re-solve c, Q131 key d vs re-solve b, Q133 key b vs re-solve
 ```
