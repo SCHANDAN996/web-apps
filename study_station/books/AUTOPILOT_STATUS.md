@@ -1,34 +1,35 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 07:13 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 07:14 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 27 Number Series (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W10 | Chapter 28 Linear Programming (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W11 | Chapter 02 Medieval History (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W12 | Chapter 01 Ancient History (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W1 | Chapter 27 Number Series (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W10 | Chapter 28 Linear Programming (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W11 | Chapter 02 Medieval History (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W12 | Chapter 01 Ancient History (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
 | W2 | Chapter 24 Statistics (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W3 | Chapter 26 Permutation Combination (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W5 | Chapter 25 Probability (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W6 | Chapter 09 Articles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W7 | Chapter 03 Modern History (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 34 मिनट |
-| W9 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 4 मिनट |
+| W3 | Chapter 26 Permutation Combination (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W4 | Chapter 04 Constitution Basic (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W5 | Chapter 25 Probability (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W6 | Chapter 09 Articles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W7 | Chapter 03 Modern History (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 35 मिनट |
+| W9 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 5 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 152 |
 | key 4 | 133 |
-| key 5 | 138 |
-| key 6 | 128 |
+| key 5 | 139 |
+| key 6 | 129 |
 
 ## किताबों की प्रगति
 
@@ -68,11 +69,11 @@
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 96/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 101/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 96/2025 |
-| Graduation Maths | 0 | 28 | 0 | 0 | 0 | 74/2184 |
+| Graduation Maths | 0 | 28 | 0 | 0 | 0 | 75/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 4/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 915/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 916/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,11 +88,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 19:06:40   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q77 key b vs re-solve a)
-21-11 19:06:48   [Statistics] QA passed: editorial:Content_en.txt
-21-11 19:06:48   [Statistics] QA needs_reference: sources:Content_en.txt
-21-11 19:07:15   [Probability] QA passed: editorial:Content_en.txt
-21-11 19:07:35   [Probability] QA needs_reference: sources:Content_en.txt
 21-11 19:07:36   [Permutation_Combination] QA passed: structure
 21-11 19:08:11   [Probability] QA passed: editorial:Content_hi.txt
 21-11 19:08:25   [Probability] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
@@ -127,6 +123,11 @@
 21-11 19:14:06   [Constitution_Basic] QA passed: structure
 21-11 19:14:34   [Ancient_History] QA blocked: editorial:Content_en.txt
 21-11 19:14:34   [Ancient_History] QA needs_reference: sources:Content_en.txt
+21-11 19:14:41   [Linear_Programming] QA passed: editorial:Content_hi.txt
+21-11 19:14:42   [Linear_Programming] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
+21-11 19:14:42 QA Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_28_Linear_Programming/QA.json'}
+21-11 19:15:00   [Modern_History] QA blocked: editorial:Content_en.txt
+21-11 19:15:00   [Modern_History] QA needs_reference: sources:Content_en.txt
 ````
 
 </details>
