@@ -103,11 +103,71 @@
         "Content_hi.txt": "33bd21db001e3e4d415da7e823520535a6187e96cad6e0e359d99674b44a3f1a"
       },
       "checked_at": "2026-11-21T07:10:41+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "bdbb462f96037d39f7ccf9df9343d7e6bc49e0b75bd0632ef49e2720a3eb772d",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "ff391c50ae7181d7666a8f3a13f6a87a80ad3e9900fb97aa454ed0e373157852",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "33bd21db001e3e4d415da7e823520535a6187e96cad6e0e359d99674b44a3f1a",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:22:52+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "e7a7d803bfc00c56fb977270f06d8726121dabd9dc6d781d498d0be53fc020f6",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Hindi transliteration 'Fenman' in title does not match English 'Feynman' → Use standard transliteration 'फेनमैन' or 'फाइनमैन'"
+      ],
+      "dependencies": {
+        "chapter.json": "ff391c50ae7181d7666a8f3a13f6a87a80ad3e9900fb97aa454ed0e373157852",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "5ced5d3d8cea28def76707b6ec9e603089755883a762ea9215d76ec7e5342cbd"
+      },
+      "checked_at": "2026-11-21T11:23:05+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "b9446f24905f449f55d389f8178dad115d42bcbac133e7e271280afafdfbf927",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "ff391c50ae7181d7666a8f3a13f6a87a80ad3e9900fb97aa454ed0e373157852",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "5ced5d3d8cea28def76707b6ec9e603089755883a762ea9215d76ec7e5342cbd",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:23:05+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "3b0473a0737675d38cff5bee2d2f047fb0819e47dadea6b5970725b6383c7a22",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "ff391c50ae7181d7666a8f3a13f6a87a80ad3e9900fb97aa454ed0e373157852",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "d6d395562f8ea9ba6700eb27cd56102204d19272a2eeea191eddaf7ccbeee68f"
+      },
+      "checked_at": "2026-11-21T11:23:24+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T07:10:41+00:00",
+  "updated_at": "2026-11-21T11:23:24+00:00",
   "chapter_fingerprint": "10e37f102a65b566cf4505f3b1527e9709ada9db9b04baa1069db7f1babafd93"
 }

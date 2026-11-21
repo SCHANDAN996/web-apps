@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 04:59 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 05:00 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 80 मिनट |
-| W10 | Chapter 13 Mixture Alligation (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W11 | Chapter 01 Noun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 81 मिनट |
+| W10 | Chapter 02 Pronoun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W11 | Chapter 01 Noun (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 | W12 | Chapter 20 Number Series (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W2 | Chapter 16 Algebra (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W2 | Chapter 16 Algebra (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
 | W3 | Chapter 21 Probability (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 | W4 | Chapter 22 Permutation Combination (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W5 | Chapter 17 Data Interpretation (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W6 | Chapter 18 Trigonometry (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W7 | Chapter 15 Geometry (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W8 | Chapter 19 Statistics (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W9 | Chapter 14 Mensuration (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W5 | Chapter 17 Data Interpretation (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W6 | Chapter 18 Trigonometry (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W7 | Chapter 15 Geometry (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W8 | Chapter 19 Statistics (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W9 | Chapter 14 Mensuration (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 53 |
-| key 4 | 70 |
-| key 5 | 51 |
+| key 4 | 71 |
+| key 5 | 52 |
 | key 6 | 43 |
 
 ## किताबों की प्रगति
@@ -64,7 +64,7 @@
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 76/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 83/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 100/1606 |
-| 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
+| 10th English | 0 | 20 | 0 | 0 | 0 | 53/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 58/1950 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 635/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 637/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,15 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 16:54:40   [Data_Interpretation] QA passed: editorial:Feynman_hi.txt
-21-11 16:54:40   [Data_Interpretation] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 73, "passed": 5, "pending": 65, "blocked": 0, "needs_reference": 3, "remaining": 68, 
-21-11 16:54:40 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_17_Data_Interpretation: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 5, 'pending': 65, 'blocked': 0, 'needs_reference': 3, 'remaining': 68, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_17_Data_Interpretation/QA.json'}
-21-11 16:54:41 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_15_Geometry: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 4, 'pending': 65, 'blocked': 1, 'needs_reference': 3, 'remaining': 69, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- The spherical triangle example claims the North Pole angle is "approximately 90°" and the sum is necessarily 270°, but the pole angle equals the longitude difference between the two equatorial points and is 90° only when they are 90° apart; the 270° sum is not a general result of that construction. → Specify that the 270° sum (three 90° angles) occurs only when the two equatorial points are separated by 90° of longitude.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_15_Geometry/QA.json'}
-21-11 16:54:41   [Trigonometry] QA needs_reference: sources:Content_hi.txt
-21-11 16:55:01   [Trigonometry] QA passed: editorial:Feynman_en.txt
-21-11 16:55:01   [Trigonometry] QA needs_reference: sources:Feynman_en.txt
-21-11 16:55:20   [Trigonometry] QA passed: editorial:Feynman_hi.txt
-21-11 16:55:38   [Trigonometry] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 73, "passed": 5, "pending": 65, "blocked": 0, "needs_reference": 3, "remaining": 68, 
 21-11 16:55:38 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_18_Trigonometry: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 5, 'pending': 65, 'blocked': 0, 'needs_reference': 3, 'remaining': 68, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_18_Trigonometry/QA.json'}
 21-11 16:55:38   [Statistics] QA needs_reference: sources:Content_hi.txt
 21-11 16:56:06   [Statistics] QA passed: editorial:Feynman_en.txt
@@ -127,6 +118,15 @@
 21-11 16:59:29   [Pronoun] QA needs_reference: sources:Content_hi.txt
 21-11 17:00:01   [Pronoun] QA passed: editorial:Feynman_en.txt
 21-11 17:00:01   [Pronoun] QA needs_reference: sources:Feynman_en.txt
+21-11 17:00:21   [Pronoun] QA passed: editorial:Feynman_hi.txt
+21-11 17:00:23   [Noun] QA blocked: editorial:Feynman_hi.txt
+21-11 17:00:31   [Pronoun] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 5, "pending": 73, "blocked": 0, "needs_reference": 3, "remaining": 76, 
+21-11 17:00:31   [Noun] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 83, "passed": 3, "pending": 75, "blocked": 2, "needs_reference": 3, "remaining": 80, 
+21-11 17:00:32 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_02_Pronoun: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 5, 'pending': 73, 'blocked': 0, 'needs_reference': 3, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_02_Pronoun/QA.json'}
+21-11 17:00:32 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_01_Noun: {'status': 'pending', 'verified': False, 'total': 83, 'passed': 3, 'pending': 75, 'blocked': 2, 'needs_reference': 3, 'remaining': 80, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- The blurting sheet asks for "Five words that never take a plural" but only four are listed (advice, news, furniture, luggage) → either add a fifth uncountable noun (e.g., information, equipment, machinery, baggage) or change the question to "Four words"']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- "परीक्षा में अक्सर यहीं जाल होता है" में \'यहीं\' (स्थानवाचक) गलत है → "परीक्षा में अक्सर **यही** जाल होता है" (सर्वनाम \'यही\' प्रयोग करें)']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_01_Noun/QA.json'}
+21-11 17:00:32   [Adjective] QA needs_reference: sources:Content_hi.txt
+21-11 17:00:46   [Adjective] QA passed: editorial:Feynman_en.txt
+21-11 17:00:46   [Adjective] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>
