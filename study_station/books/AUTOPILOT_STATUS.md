@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 06:07 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 06:08 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 148 मिनट |
-| W10 | Chapter 06 Order Ranking (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W11 | Chapter 05 Direction Sense (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W12 | Chapter 04 Blood Relations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W2 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W3 | Chapter 03 Coding Decoding (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W4 | Chapter 07 Sitting Arrangement (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W5 | Chapter 25 Govt Schemes (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 44 मिनट |
-| W8 | Chapter 02 Classification (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W9 | Chapter 09 Venn Diagrams (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 149 मिनट |
+| W10 | Chapter 06 Order Ranking (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W11 | Chapter 05 Direction Sense (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W12 | Chapter 04 Blood Relations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W2 | Chapter 08 Puzzles (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W3 | Chapter 03 Coding Decoding (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W4 | Chapter 07 Sitting Arrangement (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W6 | Chapter 10 Clock Calendar (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 45 मिनट |
+| W8 | Chapter 02 Classification (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W9 | Chapter 09 Venn Diagrams (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 105 |
+| key 3 | 106 |
 | key 4 | 113 |
-| key 5 | 96 |
-| key 6 | 81 |
+| key 5 | 97 |
+| key 6 | 82 |
 
 ## किताबों की प्रगति
 
@@ -66,13 +66,13 @@
 | 10th English | 0 | 20 | 0 | 0 | 0 | 81/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 104/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 96/1872 |
-| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 72/1950 |
+| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 74/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 50/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 762/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 764/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,19 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 18:03:04   [Direction_Sense] QA needs_reference: sources:Content_hi.txt
-21-11 18:03:08   [Classification] QA passed: editorial:Feynman_hi.txt
-21-11 18:03:08   [Classification] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
-21-11 18:03:09 QA 12th_Level/Reasoning/Chapter_02_Classification: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Trap 3 explanation incorrectly states that checking cubes causes confusion because only 64 is a cube → 1, 64, and 729 are all cubes; checking cubes yields three cubes and one non‑cube (100), giving a clear odd one out.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_02_Classification/QA.json'}
-21-11 18:03:28   [Direction_Sense] QA blocked: editorial:Feynman_en.txt
-21-11 18:03:28   [Direction_Sense] QA needs_reference: sources:Feynman_en.txt
-21-11 18:03:44   [Order_Ranking] QA needs_reference: sources:Feynman_hi.txt
-21-11 18:04:04   [Direction_Sense] QA passed: editorial:Feynman_hi.txt
-21-11 18:04:04   [Direction_Sense] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 2, "needs_reference": 3, "remaining": 75, 
-21-11 18:04:04 QA 12th_Level/Reasoning/Chapter_05_Direction_Sense: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The Type A substitution method incorrectly interprets "X is called Y" as "code word X = real Y", but in standard exam usage (SSC, Railway, Bank) the phrase means "real direction X is renamed Y in the code", so the decoding table must map code Y → real X. This inversion error makes the introductory example (walking towards coded \'North\' actually walks East, should be West) and the solved example (walking towards coded \'South\' actually walks East, should be West; final answer North-East, should be South-West) both wrong.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- Section content is corrupted placeholder text (repetitive fragments like "The the the story", "the mind the mind", "Card 1 the card") with no definitions, examples, formulas, tables, or memory aids to verify → Replace with actual Feynman technique study material']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_05_Direction_Sense/QA.json'}
-21-11 18:04:47   [Sitting_Arrangement] QA needs_reference: sources:Content_hi.txt
-21-11 18:05:07   [Blood_Relations] QA passed: editorial:Feynman_en.txt
-21-11 18:05:07   [Blood_Relations] QA needs_reference: sources:Feynman_en.txt
 21-11 18:05:12   [Sitting_Arrangement] QA passed: editorial:Feynman_en.txt
 21-11 18:05:13   [Sitting_Arrangement] QA needs_reference: sources:Feynman_en.txt
 21-11 18:05:18   [Order_Ranking] QA blocked: editorial:Flashcards_en.txt
@@ -126,6 +113,19 @@
 21-11 18:08:13   [Venn_Diagrams] QA passed: editorial:Feynman_hi.txt
 21-11 18:08:14   [Venn_Diagrams] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
 21-11 18:08:14 QA 12th_Level/Reasoning/Chapter_09_Venn_Diagrams: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_09_Venn_Diagrams/QA.json'}
+21-11 18:08:35   [Series] QA needs_reference: sources:Content_hi.txt
+21-11 18:08:51   [Series] QA passed: editorial:Feynman_en.txt
+21-11 18:08:52   [Series] QA needs_reference: sources:Feynman_en.txt
+21-11 18:08:57   [Clock_Calendar] QA passed: editorial:Feynman_en.txt
+21-11 18:08:57   [Clock_Calendar] QA needs_reference: sources:Feynman_en.txt
+21-11 18:08:58   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q140 key d vs re-solve c, Q144 key a vs re-solve b)
+21-11 18:08:58   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
+21-11 18:08:58   [rikt_sthan_vakya_kram] written 0, failed 2; AI calls today 401/100000
+21-11 18:08:58 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram after 46 min: todo ['Set 04 hi: todo', 'Set 06 hi: todo'] problems []
+21-11 18:09:16   [Series] QA passed: editorial:Feynman_hi.txt
+21-11 18:09:20   [Series] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
+21-11 18:09:21 QA 12th_Level/Reasoning/Chapter_11_Series: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- In solved example Q2, the trial pattern n²(n+1) for n=4 is incorrectly stated as 100; the correct value is 80 → Replace 100 with 80.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_11_Series/QA.json'}
+21-11 18:09:21   [Missing_Term] QA needs_reference: sources:Content_hi.txt
 ````
 
 </details>
