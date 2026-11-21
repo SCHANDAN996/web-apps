@@ -109,11 +109,72 @@
         "Content_hi.txt": "d71610a030efc26b80c4346fa31c42bbe0ace5da5a1a5e5f99693945c2173bd8"
       },
       "checked_at": "2026-11-21T05:28:18+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "0bc1ef139a7b0364a12d5480097567ed57f6931643c84ad054b18b39ce20be78",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "8b63aebdeefa1b69c2209d7120f649b5adc9e5d0419447e44671abc5383416bf",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "d71610a030efc26b80c4346fa31c42bbe0ace5da5a1a5e5f99693945c2173bd8",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:10:50+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "dbc7db37e91edac0f66368f21e72843b490e3d6ee93164d5ef9661ee109c0105",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "8b63aebdeefa1b69c2209d7120f649b5adc9e5d0419447e44671abc5383416bf",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "c92cd54c9ef011ee7d8414ea32815d5c1b37cabf5788d8ae097e507d1c004332"
+      },
+      "checked_at": "2026-11-21T10:11:15+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "7d274f71af261cdd038ba8821621537f56f71f4fbc1b7f5d106800b33fb66e79",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "8b63aebdeefa1b69c2209d7120f649b5adc9e5d0419447e44671abc5383416bf",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "c92cd54c9ef011ee7d8414ea32815d5c1b37cabf5788d8ae097e507d1c004332",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:11:15+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "534702d5757b4c8cb6ce857c5a5125d9851f3c2301a9f5b41752ca11c65b977c",
+      "kind": "editorial",
+      "status": "needs_reference",
+      "issues": [
+        "- Microsoft Learn citations (“Memory architecture”, “Backup best practices”) not verified → NEEDS_REFERENCE",
+        "- CERT-In advisory CIAD-2023-0012 not verified → NEEDS_REFERENCE"
+      ],
+      "dependencies": {
+        "chapter.json": "8b63aebdeefa1b69c2209d7120f649b5adc9e5d0419447e44671abc5383416bf",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "2d5e4c3cc3dabf97b462183e28914b00e3654fb0fd1df8b844a0ced0a1de7f58"
+      },
+      "checked_at": "2026-11-21T10:13:58+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T05:28:18+00:00",
+  "updated_at": "2026-11-21T10:13:58+00:00",
   "chapter_fingerprint": "f1b276a8e8753872485355a6d57874a9447d163e12ddc2b87eac567c3d4a5aa5"
 }

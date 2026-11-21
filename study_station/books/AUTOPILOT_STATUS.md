@@ -1,26 +1,35 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 03:40 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 03:43 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 3/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 1 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 1 मिनट |
-| W3 | Chapter 01 varn vartani (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | -1 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 5 मिनट |
+| W10 | Chapter 02 shabd bhed (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W11 | Chapter 02 input output ports (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W12 | Chapter 03 sangya sarvanam (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 5 मिनट |
+| W3 | Chapter 01 varn vartani (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W4 | Chapter 01 organization cpu (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W5 | Chapter 03 memory storage backup (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W6 | Chapter 04 visheshan kriya (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W7 | Chapter 05 windows files (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W8 | Chapter 04 software os (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W9 | Chapter 05 ling vachan karak (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 1 |
-| key 4 | 1 |
+| key 3 | 4 |
+| key 4 | 4 |
 | key 5 | 1 |
-| key 6 | 1 |
+| key 6 | 3 |
 
 ## किताबों की प्रगति
 
@@ -50,8 +59,8 @@
 
 | किताब | QA पास | जाँच बाकी | प्रमाण बाकी | सुधार अटका | मैनुअल | जाँचें पास / कुल |
 |---|---:|---:|---:|---:|---:|---:|
-| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 31/540 |
-| 12th Computer | 0 | 14 | 0 | 0 | 0 | 29/1092 |
+| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 32/540 |
+| 12th Computer | 0 | 14 | 0 | 0 | 0 | 31/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 43/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
@@ -64,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 490/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 493/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -93,6 +102,24 @@
 21-11 15:40:50   [memory_storage_backup] QA needs_reference: sources:Content_hi.txt
 21-11 15:41:15   [memory_storage_backup] QA passed: editorial:Feynman_en.txt
 21-11 15:41:15   [memory_storage_backup] QA needs_reference: sources:Feynman_en.txt
+21-11 15:42:02   [varn_vartani] QA blocked: editorial:Flashcards_hi.txt
+21-11 15:42:02   [varn_vartani] QA needs_reference: sources:Flashcards_hi.txt
+21-11 15:42:43   [ling_vachan_karak] QA passed: editorial:Flashcards_hi.txt
+21-11 15:42:43   [ling_vachan_karak] QA needs_reference: sources:Flashcards_hi.txt
+21-11 15:43:05   [visheshan_kriya] QA blocked: editorial:Flashcards_hi.txt
+21-11 15:43:05   [visheshan_kriya] QA needs_reference: sources:Flashcards_hi.txt
+21-11 15:43:50   [software_os] QA passed: editorial:Feynman_en.txt
+21-11 15:43:50   [software_os] QA needs_reference: sources:Feynman_en.txt
+21-11 15:43:58   [memory_storage_backup] QA needs_reference: editorial:Feynman_hi.txt
+21-11 15:43:58   [memory_storage_backup] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 1, "needs_reference": 4, "remaining": 75, 
+21-11 15:43:58 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_03_memory_storage_backup: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 1, 'needs_reference': 4, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- RAID खंड में "रिडंडेंसी (यथार्थता)" लिखा है; "यथार्थता" का अर्थ "accuracy" होता है, "redundancy" का नहीं → "रिडंडेंसी (अतिरेक)" या केवल "रिडंडेंसी" लिखें']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'needs_reference', 'issues': ['- Microsoft Learn citations (“Memory architecture”, “Backup best practices”) not verified → NEEDS_REFERENCE', '- CERT-In advisory CIAD-2023-0012 not verified → NEEDS_REFERENCE']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_03_memory_storage_backup/QA.json'}
+21-11 15:44:14   [input_output_ports] QA passed: editorial:Feynman_en.txt
+21-11 15:44:14   [input_output_ports] QA needs_reference: sources:Feynman_en.txt
+21-11 15:44:20   [organization_cpu] QA passed: editorial:Feynman_en.txt
+21-11 15:44:20   [organization_cpu] QA needs_reference: sources:Feynman_en.txt
+21-11 15:44:27   [ling_vachan_karak] QA blocked: editorial:Important_Rules_hi.txt
+21-11 15:44:27   [ling_vachan_karak] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 2, "pending": 28, "blocked": 3, "needs_reference": 3, "remaining": 34, 
+21-11 15:44:28 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 2, 'pending': 28, 'blocked': 3, 'needs_reference': 3, 'remaining': 34, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- The 'महत्वपूर्ण' note under वचन incorrectly lists 'दरवाजा → दरवाजे' and 'कपड़ा → कपड़े' as words that remain identical in both numbers (invariant), but they actually change in the plural (आ→ए) → Remove them from the invariant list or change the heading to indicate they are regular plural examples.", "- In लिंग-परिवर्तन rule 4, the suffix pattern 'ई/इका/इका' is wrong: it duplicates 'इका' and includes 'ई' which does not apply to the given examples (अध्यापक→अध्यापिका, सेवक→सेविका use only 'इका') → Correct to 'इका जुड़ता है' or 'इका/इकी जुड़ता है'."]}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- In the plural rules table (section 2), rule 2 incorrectly states "आकारांत स्त्रीलिंग → एँ" with example "लड़की"; "लड़की" is ईकारांत, not आकारांत. → Rule should be "ईकारांत स्त्रीलिंग → एँ" or "आ/ईकारांत स्त्रीलिंग → एँ".', '- In the mind map (section 7), node C2b repeats the same error: "आकारांत स्त्रीलिंग → एँ". → Change to "ईकारांत स्त्रीलिंग → एँ".', '- In flashcard 3 (section 8), the explanation for "लड़की" plural says "(आकारांत स्त्रीलिंग → एँ)"; "लड़की" is ईकारांत. → Change to "(ईकारांत स्त्रीलिंग → एँ)".', '- In the mind map (section 7), node B3 lists "गुरु" as an exception (अपवाद) for gender; "गुरु" is a regular masculine noun (उकारांत nouns are predominantly masculine), not an exception. → Remove "गुरु" from exceptions or clarify that उकारांत nouns are usually masculine.', '- In flashcard 17 (section 8), the answer for "गुरु" gender says "(उकारांत पुल्लिंग अपवाद)"; this misstates that masculine उकारांत is exceptional. → Change to "(उकारांत पुल्लिंग, सामान्य नियम)".']}, {'check': 'sources:Feynman_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Flashcards_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Important_Rules_hi.txt', 'status': 'blocked', 'issues': ["- Rule 2 lists 'इ, ई, उ, ऊ, ए, ओ' as common masculine noun endings → Masculine nouns typically end in 'आ' (आकारांत) or a consonant (अकारांत); those vowels are characteristic of feminine nouns.", "- Rule 2 exception claims 'किरण' ends in 'इ/आ' → 'किरण' ends in the consonant 'न' (with inherent 'अ'), not 'इ' or 'आ'.", "- Rule 3 gives feminine endings as 'आ, इ, ई' but example 'बहन' ends in a consonant → Feminine nouns also commonly end in consonants (e.g., बहन, आँख, भूख).", "- Rule 4(घ) states vowel-ending nouns are usually unchanged in plural but exemplifies 'नदी → नदियाँ' (changed) → Feminine nouns ending in 'ई' typically add 'याँ' (नदी → नदियाँ); masculine nouns ending in 'उ' (गुरु) remain unchanged.", "- Rule 11 says अधिकरण marker is 'में/पर' but example 'रात को' uses 'को' → Time expressions often take 'को' (रात को, सुबह को); marker list should include 'को' for time.", "- Rule 14 labels 'मेरे द्वारा' as करण (instrumental) → 'मेरे द्वारा' marks the agent in passive voice (कर्ता in कर्मणि प्रयोग); instrumental for 'मैं' is 'मुझसे'."]}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_05_ling_vachan_karak/QA.json'}
 ````
 
 </details>
