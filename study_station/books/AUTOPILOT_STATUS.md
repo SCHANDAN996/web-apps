@@ -1,35 +1,34 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 07:01 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 07:02 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 16 Coordinate Geometry (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W10 | Chapter 18 Quadratic Equations (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W11 | Chapter 10 Compound Interest (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W12 | Chapter 19 Trigonometry (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W2 | Chapter 13 Mixture Alligation (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W3 | Chapter 15 Geometry (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W4 | Chapter 11 Time Work (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W5 | Chapter 14 Mensuration (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W6 | Chapter 07 Ratio Proportion (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W7 | Chapter 12 Time Distance (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 22 मिनट |
-| W9 | Chapter 17 Algebra (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W1 | Chapter 16 Coordinate Geometry (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W10 | Chapter 18 Quadratic Equations (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W12 | Chapter 19 Trigonometry (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W2 | Chapter 13 Mixture Alligation (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W3 | Chapter 15 Geometry (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W4 | Chapter 11 Time Work (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W5 | Chapter 14 Mensuration (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W6 | Chapter 20 Heights Distances (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W7 | Chapter 12 Time Distance (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 23 मिनट |
+| W9 | Chapter 17 Algebra (Graduation Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 145 |
 | key 4 | 127 |
-| key 5 | 130 |
-| key 6 | 122 |
+| key 5 | 132 |
+| key 6 | 123 |
 
 ## किताबों की प्रगति
 
@@ -69,11 +68,11 @@
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 96/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 101/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 94/2025 |
-| Graduation Maths | 0 | 28 | 0 | 0 | 0 | 51/2184 |
+| Graduation Maths | 0 | 28 | 0 | 0 | 0 | 53/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 886/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 888/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -88,9 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 18:56:55 QA Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_12_Time_Distance: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_12_Time_Distance/QA.json'}
-21-11 18:56:56   [Mensuration] QA passed: structure
-21-11 18:57:04   [Mixture_Alligation] QA passed: editorial:Content_en.txt
 21-11 18:57:05   [Mixture_Alligation] QA needs_reference: sources:Content_en.txt
 21-11 18:57:30   [Time_Work] QA blocked: editorial:Content_hi.txt
 21-11 18:57:52   [Time_Work] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
@@ -128,6 +124,9 @@
 21-11 19:02:20 QA Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_17_Algebra: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/Maths/Advanced_Graduation_Math_WorldClass/Chapter_17_Algebra/QA.json'}
 21-11 19:02:35   [Heights_Distances] QA blocked: editorial:Content_en.txt
 21-11 19:02:35   [Heights_Distances] QA needs_reference: sources:Content_en.txt
+21-11 19:02:42   [Quadratic_Equations] QA passed: editorial:Content_en.txt
+21-11 19:02:43   [Quadratic_Equations] QA needs_reference: sources:Content_en.txt
+21-11 19:02:43   [Complex_Numbers] QA passed: structure
 ````
 
 </details>
