@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "b467ae99467ce6459935bc230a77c4388ec6942fb1b415da046737c50f9b89d4",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "75992a2a1d75e1b17c9ff67dba5e7b7f5b46ba928e1f56c8ccc535dcf401158d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "76c6b1b4691036b687053b6bd39629a28719eb87ddcf675740d30d35b8ad2d91",
+        "Content_hi.txt": "51052866fe429f44db8020641e68dd40a55138fff110475cdc23d16074d551ca",
+        "Feynman_en.txt": "6f9ccb22a224fe376d1b7be92f303bb092616ea9545b55791b416f686196ea5b",
+        "Feynman_hi.txt": "032054fb1868e6357d39368ecdf29ac4ede152b8cc8f76894ee13f34cc8c4adf",
+        "Flashcards_en.txt": "4cba6d2f0fae0a5eaea7c41b874954136f95d2028bc492b5e51316353caaefc9",
+        "Flashcards_hi.txt": "9cd2307026472cb4e6b4b61d5fca9336a861f6a5bfe2dd478358af5f0bbd8c2e",
+        "Important_Rules_en.txt": "b9518d889639a983fd826aefec8c34e934e247f46513bf4656e7de2ed1ac5415",
+        "Important_Rules_hi.txt": "007ac2b1d6c9bf4490c4695cf6372234f6642f8136271614e088da7868583ca5",
+        "Key_Facts_en.txt": "fbf8e569ebbdbcf1ff2804f5eb449fd29d95fd0e3d9d5d0c19158fbf37237ae1",
+        "Key_Facts_hi.txt": "d822920c99e0bedabf8e4ede397dedec56b32f45af572d455681538ce0de42f1",
+        "Mind_Map.txt": "89ccbcadc1354500f12888ba9d6c2b8b479f7890d5b90495a96c742a240338ac",
+        "PYQ_en.txt": "9487806c4702d77669f76fd4fb72896e8f514ec2308e4b99077dfd98e1674411",
+        "PYQ_hi.txt": "cd331ccbc8b0e0c629982d90326157a1a26f353f267e7cb699a988d72ff1b52d",
+        "Practice_en_Set_01.txt": "d47a4e0aa8a30e96517a3d35f971a0e32a4528c9f6ae6136d47b302b3130259e",
+        "Practice_en_Set_02.txt": "997b4ce96c99809ecfa06d63b0fbdef26c29189b735b9c13e12a044afce4f152",
+        "Practice_en_Set_03.txt": "8113f74c0d5e2e1e9808ad06558dd7abcc23f9ed4b52d0bf9495eb98f07e7c11",
+        "Practice_en_Set_04.txt": "282a074641583d6475120f23ab235a89f0545e5337ebed607af5053810c057b6",
+        "Practice_en_Set_05.txt": "91b88e86a9b27320c92f76fb38a37300330f77157fd627e1f5e7532bc4f5f24a",
+        "Practice_en_Set_06.txt": "47e1566ee5d4c2253dab71623099b157db7581ea4eb27b925cee2ec83e3e8ce3",
+        "Practice_hi_Set_01.txt": "4da7e628091f665c0d9ab0d7f26831cb0ce4a2b01132f067c5b3f2f2e3214733",
+        "Practice_hi_Set_02.txt": "737769e5f19cf65f586b306caf091086a2b53f89c59b2e7ae95de19f131e3896",
+        "Practice_hi_Set_03.txt": "26ebb36307cb476199956b4a378c19aa7c02271bf73b4898b05181a01efeb9ae",
+        "Practice_hi_Set_04.txt": "f98af0abfa5b7a8bfc1bd60c8fec6c5ae4b2caf55f28f1b8d01a916ca4c51ddc",
+        "Practice_hi_Set_05.txt": "f5d90bc5201bc3661df3c4d7d3ec050116f22b930cc35f987bcabd0342c732ae",
+        "Practice_hi_Set_06.txt": "87237f536bce23af5fc602f6787756409093ba84dd115a8dd5d7499ce24c4f61",
+        "inventory": {
+          "Content_en.txt": "76c6b1b4691036b687053b6bd39629a28719eb87ddcf675740d30d35b8ad2d91",
+          "Content_hi.txt": "51052866fe429f44db8020641e68dd40a55138fff110475cdc23d16074d551ca",
+          "Feynman_en.txt": "6f9ccb22a224fe376d1b7be92f303bb092616ea9545b55791b416f686196ea5b",
+          "Feynman_hi.txt": "032054fb1868e6357d39368ecdf29ac4ede152b8cc8f76894ee13f34cc8c4adf",
+          "Flashcards_en.txt": "4cba6d2f0fae0a5eaea7c41b874954136f95d2028bc492b5e51316353caaefc9",
+          "Flashcards_hi.txt": "9cd2307026472cb4e6b4b61d5fca9336a861f6a5bfe2dd478358af5f0bbd8c2e",
+          "Important_Rules_en.txt": "b9518d889639a983fd826aefec8c34e934e247f46513bf4656e7de2ed1ac5415",
+          "Important_Rules_hi.txt": "007ac2b1d6c9bf4490c4695cf6372234f6642f8136271614e088da7868583ca5",
+          "Key_Facts_en.txt": "fbf8e569ebbdbcf1ff2804f5eb449fd29d95fd0e3d9d5d0c19158fbf37237ae1",
+          "Key_Facts_hi.txt": "d822920c99e0bedabf8e4ede397dedec56b32f45af572d455681538ce0de42f1",
+          "Mind_Map.txt": "89ccbcadc1354500f12888ba9d6c2b8b479f7890d5b90495a96c742a240338ac",
+          "PYQ_en.txt": "9487806c4702d77669f76fd4fb72896e8f514ec2308e4b99077dfd98e1674411",
+          "PYQ_hi.txt": "cd331ccbc8b0e0c629982d90326157a1a26f353f267e7cb699a988d72ff1b52d",
+          "Practice_en_Set_01.txt": "d47a4e0aa8a30e96517a3d35f971a0e32a4528c9f6ae6136d47b302b3130259e",
+          "Practice_en_Set_02.txt": "997b4ce96c99809ecfa06d63b0fbdef26c29189b735b9c13e12a044afce4f152",
+          "Practice_en_Set_03.txt": "8113f74c0d5e2e1e9808ad06558dd7abcc23f9ed4b52d0bf9495eb98f07e7c11",
+          "Practice_en_Set_04.txt": "282a074641583d6475120f23ab235a89f0545e5337ebed607af5053810c057b6",
+          "Practice_en_Set_05.txt": "91b88e86a9b27320c92f76fb38a37300330f77157fd627e1f5e7532bc4f5f24a",
+          "Practice_en_Set_06.txt": "47e1566ee5d4c2253dab71623099b157db7581ea4eb27b925cee2ec83e3e8ce3",
+          "Practice_hi_Set_01.txt": "4da7e628091f665c0d9ab0d7f26831cb0ce4a2b01132f067c5b3f2f2e3214733",
+          "Practice_hi_Set_02.txt": "737769e5f19cf65f586b306caf091086a2b53f89c59b2e7ae95de19f131e3896",
+          "Practice_hi_Set_03.txt": "26ebb36307cb476199956b4a378c19aa7c02271bf73b4898b05181a01efeb9ae",
+          "Practice_hi_Set_04.txt": "f98af0abfa5b7a8bfc1bd60c8fec6c5ae4b2caf55f28f1b8d01a916ca4c51ddc",
+          "Practice_hi_Set_05.txt": "f5d90bc5201bc3661df3c4d7d3ec050116f22b930cc35f987bcabd0342c732ae",
+          "Practice_hi_Set_06.txt": "87237f536bce23af5fc602f6787756409093ba84dd115a8dd5d7499ce24c4f61"
+        }
+      },
+      "checked_at": "2026-11-21T05:37:09+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "eeab1954d003168aedf61cc37135fe2623903b65511ae99774ef0dc3163415c7",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "75992a2a1d75e1b17c9ff67dba5e7b7f5b46ba928e1f56c8ccc535dcf401158d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "76c6b1b4691036b687053b6bd39629a28719eb87ddcf675740d30d35b8ad2d91"
+      },
+      "checked_at": "2026-11-21T05:38:17+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "94f99c3afca9916d2d7d604be3dd07afdc7faeb4e1007ca936bc03634b89ae0a",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "75992a2a1d75e1b17c9ff67dba5e7b7f5b46ba928e1f56c8ccc535dcf401158d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "76c6b1b4691036b687053b6bd39629a28719eb87ddcf675740d30d35b8ad2d91",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T05:38:17+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "571a9aeec5d47eadb8edcb1dd7840ef0f5bcc7b2cd0cab4553e7ea667d65c9bd",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- macOS ब्राउज़र शॉर्टकट तालिका का दावा \"Chrome/Edge/Firefox पर लागू\" गलत है: कई शॉर्टकट (पूर्ण-स्क्रीन ⌘+Ctrl+F, डाउनलोड ⌘+Option+L, इतिहास ⌘+Y, बुकमार्क प्रबंधक ⌘+Option+B, अगला/पिछला टैब ⌘+Option+→/←) Firefox पर macOS में भिन्न हैं (उदाहरण: पूर्ण-स्क्रीन ⌘+Shift+F, डाउनलोड ⌘+Shift+Y, इतिहास ⌘+Shift+H, बुकमार्क ⌘+Shift+B, अगला टैब Ctrl+Tab) → तालिका को केवल Chrome/Edge के लिए चिह्नित करें या Firefox के सही macOS शॉर्टकट दें।"
+      ],
+      "dependencies": {
+        "chapter.json": "75992a2a1d75e1b17c9ff67dba5e7b7f5b46ba928e1f56c8ccc535dcf401158d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "51052866fe429f44db8020641e68dd40a55138fff110475cdc23d16074d551ca"
+      },
+      "checked_at": "2026-11-21T05:44:18+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T05:44:18+00:00",
+  "chapter_fingerprint": "610a56284a2cd880ffb3ddf491cd67f7c65221e65f6e82694a42101cc02a3dc5"
+}

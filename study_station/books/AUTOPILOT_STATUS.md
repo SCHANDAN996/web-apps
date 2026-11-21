@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 11:13 AM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 11:14 AM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,22 +11,22 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 22 मिनट |
-| W10 | Chapter 08 excel (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 23 मिनट |
+| W10 | Chapter 08 excel (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
 | W11 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W12 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W2 | Chapter 10 internet browser (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 22 मिनट |
-| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
+| W12 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W2 | Chapter 10 internet browser (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 23 मिनट |
+| W4 | Chapter 06 keyboard shortcuts (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
 | W5 | Chapter 13 ek shabd (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W6 | Chapter 09 upsarg pratyay (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W7 | Chapter 08 samas (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W8 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W6 | Chapter 09 upsarg pratyay (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W7 | Chapter 08 samas (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W8 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
 | W9 | Chapter 12 e banking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 12 |
+| key 3 | 13 |
 | key 4 | 17 |
 | key 5 | 16 |
 | key 6 | 3 |
@@ -60,7 +60,7 @@
 | किताब | QA पास | जाँच बाकी | प्रमाण बाकी | सुधार अटका | मैनुअल | जाँचें पास / कुल |
 |---|---:|---:|---:|---:|---:|---:|
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 18/540 |
-| 12th Computer | 0 | 14 | 0 | 0 | 0 | 22/1092 |
+| 12th Computer | 0 | 14 | 0 | 0 | 0 | 23/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 0/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 0/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 0/1606 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 40/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 41/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,10 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 11:06:53 DONE 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi in 15 min → 80bcae05
-21-11 11:06:57   [word] QA blocked: editorial:Content_hi.txt
-21-11 11:07:09   [word] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 1, "pending": 74, "blocked": 2, "needs_reference": 1, "remaining": 77, 
-21-11 11:07:09 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 1, 'pending': 74, 'blocked': 2, 'needs_reference': 1, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- "Default line spacing: 1.08 (single) with 8 pt after paragraph" → The default line spacing is 1.08 lines (Multiple), not the "Single" preset; the "Single" preset uses 1.0 line spacing.', '- "Default font (Word 2016+): Calibri 11 pt" → For Microsoft 365 (included in the book\'s scope), the default font has been Aptos since 2023, not Calibri.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: Microsoft Word is a word-processing application used to create, edit, format, and print documents. In SSC, Railway, and Banking exams, questions test practical knowledge of the interface, shortcut keys, formatting tools, mail merge, tables, and document protection. The concepts below are version-agnostic (applicable to Word 2010 onward, including Microsoft 365) and drawn from official Microsoft Support documentation.']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- स्रोत उद्धरण में CERT-In सुरक्षा परामर्श और RBI साइबर सुरक्षा ढांचा को Word अवधारणाओं के स्रोत के रूप में सूचीबद्ध किया गया है, जो तथ्यात्मक रूप से गलत है → स्रोत सूची से CERT-In और RBI को हटाएँ; केवल Microsoft Support और Microsoft Learn रखें।']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word/QA.json'}
 21-11 11:07:09   [internet_browser] QA passed: structure
 21-11 11:07:29   [software_os] QA passed: editorial:Content_hi.txt
 21-11 11:07:30   [software_os] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
@@ -123,6 +119,10 @@
 21-11 11:14:18   [internet_browser] QA blocked: editorial:Content_hi.txt
 21-11 11:14:18   [internet_browser] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
 21-11 11:14:18 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_10_internet_browser: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- macOS ब्राउज़र शॉर्टकट तालिका का दावा "Chrome/Edge/Firefox पर लागू" गलत है: कई शॉर्टकट (पूर्ण-स्क्रीन ⌘+Ctrl+F, डाउनलोड ⌘+Option+L, इतिहास ⌘+Y, बुकमार्क प्रबंधक ⌘+Option+B, अगला/पिछला टैब ⌘+Option+→/←) Firefox पर macOS में भिन्न हैं (उदाहरण: पूर्ण-स्क्रीन ⌘+Shift+F, डाउनलोड ⌘+Shift+Y, इतिहास ⌘+Shift+H, बुकमार्क ⌘+Shift+B, अगला टैब Ctrl+Tab) → तालिका को केवल Chrome/Edge के लिए चिह्नित करें या Firefox के सही macOS शॉर्टकट दें।']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_10_internet_browser/QA.json'}
+21-11 11:14:39   [networking] QA passed: structure
+21-11 11:15:20   [ek_shabd] QA passed: editorial:Content_hi.txt
+21-11 11:15:21   [ek_shabd] QA needs_reference: sources:Content_hi.txt
+21-11 11:15:22   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q87 key b vs re-solve d, Q88 key c vs re-solve a, Q93 key a vs re-solve c, Q95 key c vs re-solve a)
 ````
 
 </details>
