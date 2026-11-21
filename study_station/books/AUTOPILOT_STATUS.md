@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 11:30 AM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 11:31 AM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 38 मिनट |
-| W10 | Chapter 05 Polity (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W11 | Chapter 04 Constitution Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W12 | Chapter 08 World Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W2 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 38 मिनट |
-| W4 | Chapter 07 States Rivers (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W5 | Chapter 01 Ancient History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W6 | Chapter 17 apathit gadyansh (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W7 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W8 | Chapter 09 Economy Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W9 | Chapter 06 Physical Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 40 मिनट |
+| W10 | Chapter 05 Polity (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W11 | Chapter 04 Constitution Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W12 | Chapter 08 World Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W2 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 39 मिनट |
+| W4 | Chapter 07 States Rivers (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W5 | Chapter 10 Physics Daily (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W6 | Chapter 17 apathit gadyansh (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W7 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W8 | Chapter 09 Economy Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W9 | Chapter 06 Physical Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 20 |
+| key 3 | 21 |
 | key 4 | 27 |
-| key 5 | 27 |
+| key 5 | 28 |
 | key 6 | 7 |
 
 ## किताबों की प्रगति
@@ -61,7 +61,7 @@
 |---|---:|---:|---:|---:|---:|---:|
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 28/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 29/1092 |
-| 10th GK | 0 | 19 | 0 | 0 | 0 | 12/1482 |
+| 10th GK | 0 | 19 | 0 | 0 | 0 | 13/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 0/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 0/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 0/1622 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 69/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 70/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,10 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 11:21:39   [networking] QA blocked: editorial:Content_hi.txt
-21-11 11:21:47   [anekarthi_samshrut] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 3, "pending": 32, "blocked": 0, "needs_reference": 1, "remaining": 33, 
-21-11 11:21:47   [networking] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
-21-11 11:21:48 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_12_anekarthi_samshrut: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 3, 'pending': 32, 'blocked': 0, 'needs_reference': 1, 'remaining': 33, 'failures': [{'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_12_anekarthi_samshrut/QA.json'}
 21-11 11:21:48 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_13_networking: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Wireless Standards table incorrectly labels 802.11b as Wi‑Fi 1, 802.11a as Wi‑Fi 2, and 802.11g as Wi‑Fi 3 → The Wi‑Fi Alliance generational numbering starts at Wi‑Fi 4 (802.11n); 802.11b/a/g have no official Wi‑Fi generation numbers.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_13_networking/QA.json'}
 21-11 11:21:48   [Medieval_History] QA passed: structure
 21-11 11:21:55   [e_banking] QA passed: editorial:Content_hi.txt
@@ -123,6 +119,10 @@
 21-11 11:30:05   [Ancient_History] QA passed: editorial:Content_hi.txt
 21-11 11:30:05   [Ancient_History] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
 21-11 11:30:05 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_01_Ancient_History: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: Nalanda University: The ancient mahavihara was destroyed around the end of the 12th century. A new Nalanda University was set up by an Act of Parliament in 2010; teaching began in 2014, and its new campus at Rajgir (Bihar) was inaugurated on 19 June 2024.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_01_Ancient_History/QA.json'}
+21-11 11:31:08   [Physics_Daily] QA passed: structure
+21-11 11:31:14   [Constitution_Basic] QA blocked: editorial:Content_hi.txt
+21-11 11:31:14   [Constitution_Basic] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 1, "pending": 74, "blocked": 2, "needs_reference": 1, "remaining": 77, 
+21-11 11:31:14 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_04_Constitution_Basic: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 1, 'pending': 74, 'blocked': 2, 'needs_reference': 1, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- "Currently it contains ~470 Articles, 25 Parts, and 12 Schedules" (Salient Features) → "As of 2023, it contains 448 Articles, 25 Parts, and 12 Schedules"', '- "Present Constitution: ~470 Articles, 25 Parts, and 12 Schedules" (High-Yield Fact Summary Table) → "As of 2023, the Constitution has 448 Articles, 25 Parts, and 12 Schedules"']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: • Basic Structure Doctrine: In the landmark Kesavananda Bharati case (1973), the Supreme Court ruled that Parliament cannot alter the basic structure of the Constitution.', 'Fetch official supporting evidence for: Added by the 42nd Amendment Act (1976) on the recommendation of the Swaran Singh Committee. Originally 10 duties; the 11th duty was added by the 86th Amendment Act (2002), requiring parents/guardians to provide education opportunities to children aged 6 to 14 years.', 'Fetch official supporting evidence for: 7\tFundamental Duties: 42nd Amendment 1976; 11 duties total\tAmendment & count', 'Fetch official supporting evidence for: 9\tBasic Structure Doctrine: Kesavananda Bharati case (1973)\tMilestone judgment']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- "वर्तमान में लगभग 470 अनुच्छेद, 25 भाग, 12 अनुसूचियाँ" (section 5) without a reference year → add year, e.g., "2024 तक लगभग 470 अनुच्छेद, 25 भाग, 12 अनुसूचियाँ"', '- "वर्तमान : लगभग 470 अनुच्छेद, 25 भाग, 12 अनुसूचियाँ" (High-Yield Fact Table row 6) without a reference year → add year, e.g., "2024 तक लगभग 470 अनुच्छेद, 25 भाग, 12 अनुसूचियाँ"', '- "वर्तमान में कुल 11 कर्तव्य हैं" (section 6) without a reference year → add year, e.g., "2002 से कुल 11 कर्तव्य हैं"']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_04_Constitution_Basic/QA.json'}
 ````
 
 </details>

@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "cee815aea1567e5864d7834262a4f6002e0b45f1efc7c3750010be46a9627439",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "61011b06a9961ea59114e8cfa0c93949bd4f4e268eab37462a422ef37ecc3c0d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "785f8c6b14c6384357aa3c7eabf70a851ee2fd3e02595d6594c49b582f33b014",
+        "Content_hi.txt": "06d339b29727b5cd4cf11424082bf727442019cbd34695ec34ce0093b9c84592",
+        "Feynman_en.txt": "e5ed8caeefd2fe725a43001e1578835bce5cb462e4450b55355ff17f1fd7881c",
+        "Feynman_hi.txt": "5ca1282d30b0dbfcda13628511516d5419326cbff3c53d3df4c59cbe5931dd77",
+        "Flashcards_en.txt": "b7a806a9bdd12f019d54bf6868c03c209171ab42be91c7dc84eb7ce4e210bcaa",
+        "Flashcards_hi.txt": "4e2f7aedd6a3446ee189bdb2915412010fe728ce657bf183a4cbc73223d3be76",
+        "Key_Facts_en.txt": "ca9f892bbf8ac974b948498bac1837bc5b468875724a2b0d29759d98a27de8a9",
+        "Key_Facts_hi.txt": "44d92135e63ed9a5882e94dc7a1790d43fb3e7e666759a04a289d04510ff65fe",
+        "Memory_Hooks_en.txt": "ccf24c3eaf0fbe39a9630cf9f19ec6d30f58dcc7add2c77a9a73c3f811d31e30",
+        "Memory_Hooks_hi.txt": "ad2b1065080497243bfd1fcc1a422b1ac109bda7839b250f0723fe900d7bf5e5",
+        "Mind_Map.txt": "6d70efceeff07a8a3174e49dacb85e830937e210ab4a2d2f56f9e57ac8b52753",
+        "PYQ_en.txt": "7f4fe3f36317fe62832e41a7092608a04b7a2570eb8051a494a4e6096ff2b940",
+        "PYQ_hi.txt": "a1fc175ba944d1fbe6731f9424c2e50e5cfe02135e93240e0f9b1565b49871fa",
+        "Practice_en_Set_01.txt": "7881ded63ffc86f416e1ef5530f292410ec4d1113d9673dd0ee5917b0cb8e96a",
+        "Practice_en_Set_02.txt": "c6a80e60662cc72609f9d9f2d1bddda39bd1daad730aa8a8e9b691ac65f3111d",
+        "Practice_en_Set_03.txt": "3439efae8b56434addc3e0edb05612dc97f89d09b1e41afbb45cee8d48be748c",
+        "Practice_en_Set_04.txt": "fffb45d91b3f97a2692a3afa49393adde09f0c88b1255c56e4fb741f4923be1f",
+        "Practice_en_Set_05.txt": "9f0910edfc7684b72e621b39843e54ddd4b42f3e747dfdc3cf7154e176e2d852",
+        "Practice_en_Set_06.txt": "7e0c329fe0b5503b54a239c29f688d8986cb10130d21c0237af618a5df8fb9a2",
+        "Practice_hi_Set_01.txt": "22ff65299125eaa4e5d4a6444cdf2d99caa2b8be4c857c883dbcac9411eb9d08",
+        "Practice_hi_Set_02.txt": "0aeda157f8136deadf0b623683d96f5f59fb01fe842f30f041f650a8eb3a0706",
+        "Practice_hi_Set_03.txt": "d5044b354bf71b4ae9f7d3dd48290f441bc57e8e86c6774ea8ae60be0a6c179b",
+        "Practice_hi_Set_04.txt": "094ddf4c7b395d88230fce6464c5ce69863e7757b0d00733abe967abc9c6fa42",
+        "Practice_hi_Set_05.txt": "aac839b5343c6ca86eaff7c68dc1114de46878e4ee0b8ae6547ae01b1aa42a30",
+        "Practice_hi_Set_06.txt": "298a726380fce20fbafab9bf1552d2e01c4847514a90dba40e0f6e12acbe15f8",
+        "inventory": {
+          "Content_en.txt": "785f8c6b14c6384357aa3c7eabf70a851ee2fd3e02595d6594c49b582f33b014",
+          "Content_hi.txt": "06d339b29727b5cd4cf11424082bf727442019cbd34695ec34ce0093b9c84592",
+          "Feynman_en.txt": "e5ed8caeefd2fe725a43001e1578835bce5cb462e4450b55355ff17f1fd7881c",
+          "Feynman_hi.txt": "5ca1282d30b0dbfcda13628511516d5419326cbff3c53d3df4c59cbe5931dd77",
+          "Flashcards_en.txt": "b7a806a9bdd12f019d54bf6868c03c209171ab42be91c7dc84eb7ce4e210bcaa",
+          "Flashcards_hi.txt": "4e2f7aedd6a3446ee189bdb2915412010fe728ce657bf183a4cbc73223d3be76",
+          "Key_Facts_en.txt": "ca9f892bbf8ac974b948498bac1837bc5b468875724a2b0d29759d98a27de8a9",
+          "Key_Facts_hi.txt": "44d92135e63ed9a5882e94dc7a1790d43fb3e7e666759a04a289d04510ff65fe",
+          "Memory_Hooks_en.txt": "ccf24c3eaf0fbe39a9630cf9f19ec6d30f58dcc7add2c77a9a73c3f811d31e30",
+          "Memory_Hooks_hi.txt": "ad2b1065080497243bfd1fcc1a422b1ac109bda7839b250f0723fe900d7bf5e5",
+          "Mind_Map.txt": "6d70efceeff07a8a3174e49dacb85e830937e210ab4a2d2f56f9e57ac8b52753",
+          "PYQ_en.txt": "7f4fe3f36317fe62832e41a7092608a04b7a2570eb8051a494a4e6096ff2b940",
+          "PYQ_hi.txt": "a1fc175ba944d1fbe6731f9424c2e50e5cfe02135e93240e0f9b1565b49871fa",
+          "Practice_en_Set_01.txt": "7881ded63ffc86f416e1ef5530f292410ec4d1113d9673dd0ee5917b0cb8e96a",
+          "Practice_en_Set_02.txt": "c6a80e60662cc72609f9d9f2d1bddda39bd1daad730aa8a8e9b691ac65f3111d",
+          "Practice_en_Set_03.txt": "3439efae8b56434addc3e0edb05612dc97f89d09b1e41afbb45cee8d48be748c",
+          "Practice_en_Set_04.txt": "fffb45d91b3f97a2692a3afa49393adde09f0c88b1255c56e4fb741f4923be1f",
+          "Practice_en_Set_05.txt": "9f0910edfc7684b72e621b39843e54ddd4b42f3e747dfdc3cf7154e176e2d852",
+          "Practice_en_Set_06.txt": "7e0c329fe0b5503b54a239c29f688d8986cb10130d21c0237af618a5df8fb9a2",
+          "Practice_hi_Set_01.txt": "22ff65299125eaa4e5d4a6444cdf2d99caa2b8be4c857c883dbcac9411eb9d08",
+          "Practice_hi_Set_02.txt": "0aeda157f8136deadf0b623683d96f5f59fb01fe842f30f041f650a8eb3a0706",
+          "Practice_hi_Set_03.txt": "d5044b354bf71b4ae9f7d3dd48290f441bc57e8e86c6774ea8ae60be0a6c179b",
+          "Practice_hi_Set_04.txt": "094ddf4c7b395d88230fce6464c5ce69863e7757b0d00733abe967abc9c6fa42",
+          "Practice_hi_Set_05.txt": "aac839b5343c6ca86eaff7c68dc1114de46878e4ee0b8ae6547ae01b1aa42a30",
+          "Practice_hi_Set_06.txt": "298a726380fce20fbafab9bf1552d2e01c4847514a90dba40e0f6e12acbe15f8"
+        }
+      },
+      "checked_at": "2026-11-21T05:53:16+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "3eb932abbd0cc1a6c42771d9209591579e92e6ab434aa4f0f77cc7e3eff74bfc",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- \"Currently it contains ~470 Articles, 25 Parts, and 12 Schedules\" (Salient Features) → \"As of 2023, it contains 448 Articles, 25 Parts, and 12 Schedules\"",
+        "- \"Present Constitution: ~470 Articles, 25 Parts, and 12 Schedules\" (High-Yield Fact Summary Table) → \"As of 2023, the Constitution has 448 Articles, 25 Parts, and 12 Schedules\""
+      ],
+      "dependencies": {
+        "chapter.json": "61011b06a9961ea59114e8cfa0c93949bd4f4e268eab37462a422ef37ecc3c0d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "785f8c6b14c6384357aa3c7eabf70a851ee2fd3e02595d6594c49b582f33b014"
+      },
+      "checked_at": "2026-11-21T05:57:45+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "ca5b81de80b6cb0f4d6f39f32de440c7da16dd20f3a8e28d03c318c8b301db69",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: • Basic Structure Doctrine: In the landmark Kesavananda Bharati case (1973), the Supreme Court ruled that Parliament cannot alter the basic structure of the Constitution.",
+        "Fetch official supporting evidence for: Added by the 42nd Amendment Act (1976) on the recommendation of the Swaran Singh Committee. Originally 10 duties; the 11th duty was added by the 86th Amendment Act (2002), requiring parents/guardians to provide education opportunities to children aged 6 to 14 years.",
+        "Fetch official supporting evidence for: 7\tFundamental Duties: 42nd Amendment 1976; 11 duties total\tAmendment & count",
+        "Fetch official supporting evidence for: 9\tBasic Structure Doctrine: Kesavananda Bharati case (1973)\tMilestone judgment"
+      ],
+      "dependencies": {
+        "chapter.json": "61011b06a9961ea59114e8cfa0c93949bd4f4e268eab37462a422ef37ecc3c0d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "785f8c6b14c6384357aa3c7eabf70a851ee2fd3e02595d6594c49b582f33b014",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T05:57:45+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "04e8070956886686cedd46c971b9f2342e6a0860fca359af87e85fd8eb282b16",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- \"वर्तमान में लगभग 470 अनुच्छेद, 25 भाग, 12 अनुसूचियाँ\" (section 5) without a reference year → add year, e.g., \"2024 तक लगभग 470 अनुच्छेद, 25 भाग, 12 अनुसूचियाँ\"",
+        "- \"वर्तमान : लगभग 470 अनुच्छेद, 25 भाग, 12 अनुसूचियाँ\" (High-Yield Fact Table row 6) without a reference year → add year, e.g., \"2024 तक लगभग 470 अनुच्छेद, 25 भाग, 12 अनुसूचियाँ\"",
+        "- \"वर्तमान में कुल 11 कर्तव्य हैं\" (section 6) without a reference year → add year, e.g., \"2002 से कुल 11 कर्तव्य हैं\""
+      ],
+      "dependencies": {
+        "chapter.json": "61011b06a9961ea59114e8cfa0c93949bd4f4e268eab37462a422ef37ecc3c0d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "06d339b29727b5cd4cf11424082bf727442019cbd34695ec34ce0093b9c84592"
+      },
+      "checked_at": "2026-11-21T06:01:14+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T06:01:14+00:00",
+  "chapter_fingerprint": "0a7b26dbc2072c9b79803f40300c93c2a772ee3359368820e8ce441d30723797"
+}
