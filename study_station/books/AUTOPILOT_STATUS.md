@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 04:31 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 04:32 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 52 मिनट |
-| W10 | Chapter 11 Series (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W11 | Chapter 04 Blood Relations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W12 | Chapter 10 Clock Calendar (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 52 मिनट |
-| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W4 | Chapter 12 Missing Term (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W5 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W6 | Chapter 08 Puzzles Basic (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W8 | Chapter 07 Sitting Arrangement (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W9 | Chapter 06 Order Ranking (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 53 मिनट |
+| W10 | Chapter 11 Series (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W12 | Chapter 10 Clock Calendar (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 53 मिनट |
+| W3 | Chapter 13 Dictionary Order (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W4 | Chapter 12 Missing Term (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W5 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W6 | Chapter 08 Puzzles Basic (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W7 | Chapter 14 Alphabet Questions (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W8 | Chapter 07 Sitting Arrangement (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W9 | Chapter 06 Order Ranking (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 38 |
 | key 4 | 47 |
-| key 5 | 33 |
-| key 6 | 23 |
+| key 5 | 35 |
+| key 6 | 24 |
 
 ## किताबों की प्रगति
 
@@ -61,7 +61,7 @@
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 48/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 52/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 76/1482 |
-| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 69/1716 |
+| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 70/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
@@ -72,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 583/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 584/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -82,10 +82,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 16:27:37   [Order_Ranking] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 2, "needs_reference": 3, "remaining": 75, 
-21-11 16:27:37 QA 10th_Level/Reasoning/Chapter_06_Order_Ranking: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- "Q की दायीं रैंक 9 अपरिवर्तित है" in the interchange example → The right rank of the position originally held by Q remains 9; Q\'s personal right rank changes after interchange.', '- "Q का दायाँ 14 अब भी वही है" in the interchange active recall → The right rank of the position originally occupied by Q remains 14; Q\'s personal right rank changes after interchange.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- The statement “नेहा, राहुल से आगे खड़ी है, इसलिए दाएँ से गिनने पर राहुल उससे पीछे आता है” is logically incorrect; when Neha is ahead (left side), Rahul is ahead from the right end. → Correct: “नेहा, राहुल से आगे खड़ी है, इसलिए दाएँ से गिनने पर राहुल उससे आगे आता है” (or “नेहा दाएँ से पीछे आती है”).', '- The rhyme heading “बाया-दाया, एक घटाया” misspells the Hindi words for left and right. → Correct: “बायाँ-दायाँ, एक घटाया”.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_06_Order_Ranking/QA.json'}
-21-11 16:27:56   [Venn_Diagrams] QA passed: editorial:Feynman_en.txt
-21-11 16:27:56   [Venn_Diagrams] QA needs_reference: sources:Feynman_en.txt
 21-11 16:28:00   [Clock_Calendar] QA needs_reference: sources:Content_hi.txt
 21-11 16:28:03   [Venn_Diagrams] QA passed: editorial:Feynman_hi.txt
 21-11 16:28:03   [Venn_Diagrams] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
@@ -122,6 +118,10 @@
 21-11 16:31:49   [Dictionary_Order] QA passed: editorial:Feynman_hi.txt
 21-11 16:31:49   [Dictionary_Order] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
 21-11 16:31:49 QA 10th_Level/Reasoning/Chapter_13_Dictionary_Order: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_13_Dictionary_Order/QA.json'}
+21-11 16:32:16   [Mathematical_Operations] QA needs_reference: sources:Content_hi.txt
+21-11 16:32:36   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q143 key a vs re-solve d, Q149 key b vs re-solve a)
+21-11 16:32:40   [Alphabet_Questions] QA blocked: editorial:Feynman_en.txt
+21-11 16:32:40   [Alphabet_Questions] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>
