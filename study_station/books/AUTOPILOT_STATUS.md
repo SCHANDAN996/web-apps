@@ -1,33 +1,34 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 06:39 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 06:40 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 20 Sentence Improvement Adv (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W1 | Chapter 20 Sentence Improvement Adv (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 | W10 | Chapter 13 Synonyms (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W11 | Chapter 12 Sentence Structure (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W12 | Chapter 14 Antonyms (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W2 | Chapter 16 Idioms Phrases (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W3 | Chapter 09 Articles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W4 | Chapter 15 One Word Substitution (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W5 | Chapter 18 Error Spotting Adv (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W6 | Chapter 11 Narration (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W7 | Chapter 17 Spelling (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W9 | Chapter 19 Fill in Blanks Adv (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W11 | Chapter 12 Sentence Structure (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W12 | Chapter 14 Antonyms (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W2 | Chapter 16 Idioms Phrases (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W3 | Chapter 09 Articles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W4 | Chapter 15 One Word Substitution (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W5 | Chapter 18 Error Spotting Adv (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W6 | Chapter 11 Narration (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W7 | Chapter 17 Spelling (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
+| W9 | Chapter 19 Fill in Blanks Adv (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 130 |
 | key 4 | 117 |
-| key 5 | 119 |
+| key 5 | 120 |
 | key 6 | 106 |
 
 ## किताबों की प्रगति
@@ -87,12 +88,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 18:34:44   [One_Word_Substitution] QA needs_reference: sources:Feynman_en.txt
-21-11 18:34:56   [Antonyms] QA blocked: editorial:Feynman_hi.txt
-21-11 18:35:08   [Antonyms] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 2, "pending": 73, "blocked": 3, "needs_reference": 3, "remaining": 79, 
-21-11 18:35:09 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_14_Antonyms: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 2, 'pending': 73, 'blocked': 3, 'needs_reference': 3, 'remaining': 79, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The passage claims antonym questions appear in RRB NTPC English papers, but RRB NTPC CBT stages have no English section → remove RRB NTPC from the list or replace with an exam that includes English antonyms (e.g., SSC MTS, CDS, AFCAT)', "- The claim 'each takes barely 15 seconds' (and 'under 15 seconds' in objectives) is an invented exam statistic with no source → delete the specific time or replace with a generic 'very quickly'"]}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- Prefix table: the example for 'counter-' is 'attack → counter-attack', but counter-attack is not an antonym of attack (it is a responsive attack, not the opposite) → replace with a valid antonym pair such as 'clockwise → counterclockwise' or 'act → counteract'"]}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- The mnemonic "सिक्का-सीढ़ी-स्विच" (S-S-S) does not match the three antonym types explained (सीढ़ी/gradable, स्विच/complementary, संबंध/relational); it includes "सिक्का" (coin) instead of "संबंध" → Change the mnemonic to "सीढ़ी-स्विच-संबंध" to correctly represent the three types.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_14_Antonyms/QA.json'}
-21-11 18:35:09   [Idioms_Phrases] QA needs_reference: sources:Content_hi.txt
-21-11 18:35:27   [Idioms_Phrases] QA passed: editorial:Feynman_en.txt
 21-11 18:35:27   [Idioms_Phrases] QA needs_reference: sources:Feynman_en.txt
 21-11 18:35:28   [One_Word_Substitution] QA blocked: editorial:Feynman_hi.txt
 21-11 18:35:28   [One_Word_Substitution] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 2, "pending": 73, "blocked": 3, "needs_reference": 3, "remaining": 79, 
@@ -127,6 +122,12 @@
 21-11 18:39:25 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_19_Fill_in_Blanks_Adv: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 73, 'blocked': 2, 'needs_reference': 3, 'remaining': 78, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Section 1 Step 1 Hindi: "सकारात्मक है या नकारात्मक है या नकारात्मक?" repeats "नकारात्मक" and omits a third sentiment → Change to "सकारात्मक है या नकारात्मक है या तटस्थ?" or simply "सकारात्मक है या नकारात्मक?"', '- Detective Approach: States "ऊपर *malfunction* के पहले \'delicate balance\' है" but the passage does not contain the word "malfunction" (it has "disrupt") → Remove the reference to "malfunction" or replace with an actual word from the passage that illustrates a root.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- Chat line "Here is how to explain it to a child:" → Delete "Here is" and begin with "How to explain it to a child:" or start directly with the analogy.']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_19_Fill_in_Blanks_Adv/QA.json'}
 21-11 18:39:36 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram (TODO: todo 2, problems 0)
 21-11 18:39:37   [rikt_sthan_vakya_kram] Hindi-only writer: direct Hindi content; English generation and translation disabled
+21-11 18:40:17   [Sentence_Improvement_Adv] QA blocked: editorial:Feynman_hi.txt
+21-11 18:40:40   [Sentence_Improvement_Adv] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
+21-11 18:40:41 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_20_Sentence_Improvement_Adv: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: "Since" + point of time (Monday, 2010, childhood); "for" + period of time (two years, a long time).']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- Claim that “Since 2020” requires perfect continuous tense is wrong; present perfect simple is also correct → Correction: “Since 2020” can be used with both present perfect simple (e.g., I have worked here since 2020) and present perfect continuous (I have been working here since 2020).']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_20_Sentence_Improvement_Adv/QA.json'}
+21-11 18:40:41   [Cloze_Test] QA needs_reference: sources:Content_hi.txt
+21-11 18:41:05   [Cloze_Test] QA passed: editorial:Feynman_en.txt
+21-11 18:41:05   [Cloze_Test] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>
