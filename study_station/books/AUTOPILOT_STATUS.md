@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 01:40 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 01:41 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,25 +11,25 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 168 मिनट |
-| W10 | Chapter 11 Chemistry (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W11 | Chapter 07 States Rivers (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W12 | Chapter 09 Economy Basic (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W2 | Chapter 10 Physics Daily (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W3 | Chapter 08 World Geography (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W4 | Chapter 06 Physical Geography (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W5 | Chapter 05 Polity (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W6 | Chapter 04 Constitution Basic (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W7 | Chapter 12 Biology (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W8 | Chapter 03 Modern History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W9 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 17 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 170 मिनट |
+| W10 | Chapter 11 Chemistry (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W11 | Chapter 07 States Rivers (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W12 | Chapter 09 Economy Basic (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W2 | Chapter 10 Physics Daily (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W3 | Chapter 08 World Geography (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W4 | Chapter 06 Physical Geography (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W5 | Chapter 05 Polity (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W6 | Chapter 04 Constitution Basic (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W7 | Chapter 12 Biology (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W8 | Chapter 13 Awards (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W9 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 19 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 90 |
-| key 4 | 83 |
+| key 4 | 84 |
 | key 5 | 104 |
-| key 6 | 73 |
+| key 6 | 74 |
 
 ## किताबों की प्रगति
 
@@ -66,14 +66,14 @@
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
-| 12th GK | 0 | 24 | 0 | 0 | 0 | 22/1872 |
+| 12th GK | 0 | 24 | 0 | 0 | 0 | 24/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 0/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 0/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 349/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 351/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,15 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 13:32:26   [Physical_Geography] QA passed: structure
-21-11 13:32:33   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q76 key b vs re-solve a, Q80 key a vs re-solve b, Q82 key c vs re-solve b, Q88 key a vs re-solve c, 
-21-11 13:33:10   [States_Rivers] QA passed: structure
-21-11 13:33:36   [Modern_History] QA blocked: editorial:Content_hi.txt
-21-11 13:33:36   [Modern_History] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 1, "pending": 74, "blocked": 2, "needs_reference": 1, "remaining": 77, 
-21-11 13:33:37 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_03_Modern_History: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 1, 'pending': 74, 'blocked': 2, 'needs_reference': 1, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The claim "nearly 200 years of struggle, from the first sparks of 1857 to the final push of 1947" is factually incorrect (1857–1947 is ~90 years) → The period from 1857 to 1947 is about 90 years; nearly 200 years would refer to the period from the Battle of Plassey (1757) to 1947.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- वारेन हेस्टिंग्स को 1772 से गवर्नर जनरल (बंगाल) बताया गया है, जबकि वे 1772 में बंगाल के गवर्नर बने और 1774 में रेगुलेटिंग एक्ट 1773 के तहत पहले गवर्नर जनरल बने। → तालिका में 1772–85 की जगह 1774–85 (गवर्नर जनरल के रूप में) लिखें या भूमिका स्पष्ट करें।']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_03_Modern_History/QA.json'}
-21-11 13:34:26   [World_Geography] QA passed: structure
-21-11 13:34:29   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 3: rejected (parsed 24 questions, numbers 76…100)
-21-11 13:35:06   [Constitution_Basic] QA blocked: editorial:Content_en.txt
 21-11 13:35:06   [Constitution_Basic] QA needs_reference: sources:Content_en.txt
 21-11 13:35:08   [Polity] QA blocked: editorial:Content_en.txt
 21-11 13:35:08   [Polity] QA needs_reference: sources:Content_en.txt
@@ -127,6 +118,15 @@
 21-11 13:40:44   [Economy_Basic] QA blocked: editorial:Content_hi.txt
 21-11 13:40:45   [Economy_Basic] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
 21-11 13:40:45 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_09_Economy_Basic: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- 'GDP की गणना का आधार वर्ष (Base Year) वर्तमान में 2011–12 है' बिना वर्ष के → 'GDP की गणना का आधार वर्ष 2011–12 है (2024 तक)'"]}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_09_Economy_Basic/QA.json'}
+21-11 13:41:28   [Chemistry] QA passed: editorial:Content_en.txt
+21-11 13:41:37   [Chemistry] QA needs_reference: sources:Content_en.txt
+21-11 13:41:38   [Sports] QA passed: structure
+21-11 13:42:05   [Biology] QA passed: editorial:Content_en.txt
+21-11 13:42:05   [Biology] QA needs_reference: sources:Content_en.txt
+21-11 13:42:07   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 4: re-solve disagrees (Q77 key d vs re-solve a, Q82 key b vs re-solve a, Q85 key c vs re-solve a, Q87 key b vs re-solve a, 
+21-11 13:42:07   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_04.txt: no version passed the checks — not written
+21-11 13:42:11   [Awards] QA blocked: editorial:Content_en.txt
+21-11 13:42:12   [Awards] QA needs_reference: sources:Content_en.txt
 ````
 
 </details>
