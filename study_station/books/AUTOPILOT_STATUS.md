@@ -1,27 +1,26 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 07:47 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 07:48 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 6/12
+**काम पर लगे workers:** 5/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 18 Science Tech (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W10 | Chapter 10 Physics Daily (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 27 मिनट |
-| W4 | Chapter 12 Biology (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 18 मिनट |
-| W5 | Chapter 15 Days Dates (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
-| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 67 मिनट |
-| W9 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 38 मिनट |
+| W1 | Chapter 18 Science Tech (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W10 | Chapter 10 Physics Daily (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 28 मिनट |
+| W4 | Chapter 12 Biology (Graduation GK) | 🧮 उत्तर दोबारा जाँच रहा है | 19 मिनट |
+| W8 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 68 मिनट |
+| W9 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 39 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 159 |
-| key 4 | 140 |
+| key 4 | 141 |
 | key 5 | 151 |
 | key 6 | 145 |
 
@@ -82,9 +81,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 19:39:11   [States_Rivers] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
-21-11 19:39:11 QA Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_07_States_Rivers: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Section 2: "Major left-bank tributaries (from the Himalayas)" incorrectly includes Gomti, which originates in the plains, not the Himalayas → Remove Gomti from the Himalayan-origin list or change the label to "Major left-bank tributaries" with origin noted separately.', '- Section 2: "Major right-bank tributaries (from the Peninsula)" incorrectly includes Yamuna, which is a Himalayan river → Exclude Yamuna from the peninsular-origin list or correct the label to reflect Yamuna\'s Himalayan origin.', '- Section 5 note: "The Godavari basin extends into ... Puducherry (Karaikal)" → The basin extends into Puducherry\'s Yanam district, not Karaikal; change "Karaikal" to "Yanam".']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_07_States_Rivers/QA.json'}
-21-11 19:39:14   [Days_Dates] QA passed: editorial:Content_en.txt
 21-11 19:39:14   [Days_Dates] QA needs_reference: sources:Content_en.txt
 21-11 19:39:52 worker 2: nothing left
 21-11 19:40:35   [sandhi] Practice_hi_Set_01.txt try 2: re-solve disagrees (Q1 key b vs re-solve a, Q2 key b vs re-solve a, Q5 key d vs re-solve b, Q8 key d vs re-solve c, Q9 k
@@ -122,6 +118,9 @@
 21-11 19:46:53   [Physics_Daily] QA needs_reference: sources:Content_en.txt
 21-11 19:46:54 worker 5: nothing left
 21-11 19:47:35 worker 4: nothing left
+21-11 19:48:23   [Biology] QA blocked: editorial:Content_hi.txt
+21-11 19:48:23   [Biology] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 19:48:23 QA Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_12_Biology: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- प्लेटलेटलेट्स (Platelets) → प्लेटलेट्स (Platelets)']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/Graduation_Level/GK/Advanced_Graduation_GK_WorldClass/Chapter_12_Biology/QA.json'}
 ````
 
 </details>
