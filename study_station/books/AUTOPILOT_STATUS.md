@@ -1,31 +1,32 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 04:21 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 04:22 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
 | W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 43 मिनट |
-| W11 | Chapter 17 Culture Art (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W12 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W10 | Chapter 03 Coding Decoding (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W11 | Chapter 17 Culture Art (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W12 | Chapter 01 Analogy (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 | W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 43 मिनट |
-| W3 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W3 | Chapter 02 Classification (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 | W4 | Chapter 13 Awards (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W5 | Chapter 19 Environment (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W6 | Chapter 16 Books Authors (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W7 | Chapter 18 Science Tech (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W5 | Chapter 19 Environment (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W6 | Chapter 16 Books Authors (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W7 | Chapter 18 Science Tech (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
 | W8 | Chapter 12 Biology (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
 | W9 | Chapter 14 Sports (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 25 |
+| key 3 | 27 |
 | key 4 | 43 |
 | key 5 | 31 |
 | key 6 | 15 |
@@ -82,12 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 16:17:22   [Physics_Daily] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 71, "blocked": 0, "needs_reference": 3, "remaining": 74, 
-21-11 16:17:23 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_10_Physics_Daily: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 71, 'blocked': 0, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_10_Physics_Daily/QA.json'}
-21-11 16:17:32   [Days_Dates] QA passed: editorial:Feynman_hi.txt
-21-11 16:17:39   [Culture_Art] QA passed: editorial:Feynman_en.txt
-21-11 16:17:54   [Days_Dates] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
-21-11 16:17:54   [Culture_Art] QA needs_reference: sources:Feynman_en.txt
 21-11 16:17:54 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_15_Days_Dates: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ["Fetch official supporting evidence for: 12 January — National Youth Day: Swami Vivekananda's birth anniversary (born 1863). Declared in 1984, observed since 1985.", "Fetch official supporting evidence for: 15 November — Janjatiya Gaurav Divas: Bhagwan Birsa Munda's birth anniversary. Declared by the Union Cabinet in November 2021.", "Fetch official supporting evidence for: 15 November — Jharkhand (2000), on Birsa Munda's birth anniversary.", 'Fetch official supporting evidence for: 🧠 Active Recall: Which two states share 1 May as their foundation day? (Maharashtra and Gujarat, 1960.)']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: The world is the "school": the UN or UNESCO picks a day that matters to all countries — usually the day an organisation was founded or an agreement was signed. World Teachers\' Day, 5 October, recalls the international Recommendation on the status of teachers adopted on 5 October 1966 (ILO–UNESCO). It has nothing to do with any one Indian\'s birthday.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_15_Days_Dates/QA.json'}
 21-11 16:17:55   [Science_Tech] QA needs_reference: sources:Content_hi.txt
 21-11 16:18:06   [Culture_Art] QA passed: editorial:Feynman_hi.txt
@@ -122,6 +117,12 @@
 21-11 16:21:48   [Coding_Decoding] QA needs_reference: sources:Content_hi.txt
 21-11 16:22:27   [Analogy] QA blocked: editorial:Feynman_hi.txt
 21-11 16:22:27   [Analogy] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 2, "needs_reference": 3, "remaining": 75, 
+21-11 16:22:27 QA 10th_Level/Reasoning/Chapter_01_Analogy: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In the letter analogy exercise "AB : YZ :: CD : ?", the first pair AB:YZ is incorrect per the opposite-letter rule (A↔Z, B↔Y) which yields ZY; the example should read "AB : ZY :: CD : ?" → Correct the example to "AB : ZY :: CD : ?" (answer XW remains valid).']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- "WING" संकेत देकर सादृश्यता के चार प्रकार पूछे गए हैं, लेकिन पूरे खंड में WING का पूर्ण रूप या चारों प्रकार कहीं परिभाषित/बताए नहीं गए → या तो WING का विस्तार दें (उदाहरण: Word, Information, Number, General — यदि यही अभिप्रेत है) या संकेत हटाएं', '- "इस अध्याय में तुमने सीखा" लिखा है, जबकि उपलब्ध पाठ एक स्वतंत्र खंड है, पूरा अध्याय नहीं → "इस खंड में" या "इस पाठ में" करें']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_01_Analogy/QA.json'}
+21-11 16:22:29   [Blood_Relations] QA needs_reference: sources:Content_hi.txt
+21-11 16:22:44   [Classification] QA blocked: editorial:Feynman_en.txt
+21-11 16:22:44   [Classification] QA needs_reference: sources:Feynman_en.txt
+21-11 16:23:04   [Blood_Relations] QA passed: editorial:Feynman_en.txt
+21-11 16:23:04   [Blood_Relations] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>
