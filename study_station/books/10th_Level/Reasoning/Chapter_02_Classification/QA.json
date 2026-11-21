@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "5d9340bbc3f183cc488e57efeb69952efd034aea4be7bccf1f280951b2f247c2",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "5083ea391984dc7353e6df2cbb3226654d6fe4c6ef5fd363d929a919d132858f",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "dee6016a58b01367c81757068ccd2da2d3fd206e05f7367a10b339241d9e1726",
+        "Content_hi.txt": "49a98365ab35ba493a6f8029f5f7b7faab11f4da8aa93d038cbf77564e5b0c0c",
+        "Feynman_en.txt": "a9970dc34000c03779d513aaa3f4ecea96179c952adb91ed6695a92d91d9b663",
+        "Feynman_hi.txt": "8e4f1e1f93f38bb085d3466a860d92ff905a49b2e557f38f119c895ae1522c79",
+        "Flashcards_en.txt": "6e4d2a97afb25e806f137a47c59f6e346a48f3bff49748e4637003ebac3b24b4",
+        "Flashcards_hi.txt": "cb0a190ae9ceec395454e19e36fd59afc3d7a9114c4611846c045f8ef3d849af",
+        "Important_Rules_en.txt": "4671fbddcdc8061726c3b1fc68507e1ab240e9e5dac9913ab49fb3bdfbd2a1e2",
+        "Important_Rules_hi.txt": "31f6b5b3244af912743e23f6952212b42206d305e034937ee04b74af2df79c90",
+        "Mind_Map.txt": "b73fa590dbec7800f12a11f425e85f5c5c51c3ec6f9c6da4c8fa1dbc8a94162b",
+        "PYQ_en.txt": "d61ce7d37abaaf5ce41d290d543b76e8254179652a3832f92673996e903411ea",
+        "PYQ_hi.txt": "bd289e74b6e1a124b8061d3f17f143e9212890cd74c3ce799f641e4146c7923c",
+        "Practice_en_Set_01.txt": "916f689a60bc9321e31cbb822cb7f4835d9b560f9deaab0523c9277f0c37fec9",
+        "Practice_en_Set_02.txt": "7885e7a06ae8667316ffe366439ef2e49302d115d7d0ec3544b522543792056f",
+        "Practice_en_Set_03.txt": "a0840255431773c6b6e49d6be4a33097bd6a7e1e3840bd53eb1e5f24d156a084",
+        "Practice_en_Set_04.txt": "dcfb997dd84992e1a8fa4b19633e0e4105051b52c4a86fd65ff45beb7639b7ce",
+        "Practice_en_Set_05.txt": "e2cbaef801d5c268a7e3d449fed59b1b234eb4e9defc22684da6a40faedde45d",
+        "Practice_en_Set_06.txt": "02e8635fa32a0b66ce7c46188081effa3de912c64133e3e7709d8ba77b49b190",
+        "Practice_hi_Set_01.txt": "ce936e7cecbbb37c782008526fbeba998c5cbb878fb4e13990cd77e089bf41a6",
+        "Practice_hi_Set_02.txt": "392df7b1792bb6ea90ae81fbf5f981d428000d632e80c30580ba8fb7c2020a00",
+        "Practice_hi_Set_03.txt": "6195aa323cb826797a5769c5ce6ea514443efe7477eb0eed3e956342a0d1767f",
+        "Practice_hi_Set_04.txt": "e4d67302091372424707829bd7631808e569e779ac89633968712143e8719780",
+        "Practice_hi_Set_05.txt": "7e4803c167794f99f91a9820c587b5414a5ee9a4082898a2366c0d2f1c9bbcd0",
+        "Practice_hi_Set_06.txt": "622478421eaaafbf0bdd5201c6dfc9086600dd167f8e73fefbe7bd89a2bf74fb",
+        "Short_Tricks_en.txt": "cd2c9ff0972682f1bbefe6e26a0bd7e6c67677ef2d5d27253959a40c22eec7ef",
+        "Short_Tricks_hi.txt": "3d04b1a7de88a2dc13db7fd2cbfc94e5ce7495d758b55ca33059a265e8b68a1e",
+        "inventory": {
+          "Content_en.txt": "dee6016a58b01367c81757068ccd2da2d3fd206e05f7367a10b339241d9e1726",
+          "Content_hi.txt": "49a98365ab35ba493a6f8029f5f7b7faab11f4da8aa93d038cbf77564e5b0c0c",
+          "Feynman_en.txt": "a9970dc34000c03779d513aaa3f4ecea96179c952adb91ed6695a92d91d9b663",
+          "Feynman_hi.txt": "8e4f1e1f93f38bb085d3466a860d92ff905a49b2e557f38f119c895ae1522c79",
+          "Flashcards_en.txt": "6e4d2a97afb25e806f137a47c59f6e346a48f3bff49748e4637003ebac3b24b4",
+          "Flashcards_hi.txt": "cb0a190ae9ceec395454e19e36fd59afc3d7a9114c4611846c045f8ef3d849af",
+          "Important_Rules_en.txt": "4671fbddcdc8061726c3b1fc68507e1ab240e9e5dac9913ab49fb3bdfbd2a1e2",
+          "Important_Rules_hi.txt": "31f6b5b3244af912743e23f6952212b42206d305e034937ee04b74af2df79c90",
+          "Mind_Map.txt": "b73fa590dbec7800f12a11f425e85f5c5c51c3ec6f9c6da4c8fa1dbc8a94162b",
+          "PYQ_en.txt": "d61ce7d37abaaf5ce41d290d543b76e8254179652a3832f92673996e903411ea",
+          "PYQ_hi.txt": "bd289e74b6e1a124b8061d3f17f143e9212890cd74c3ce799f641e4146c7923c",
+          "Practice_en_Set_01.txt": "916f689a60bc9321e31cbb822cb7f4835d9b560f9deaab0523c9277f0c37fec9",
+          "Practice_en_Set_02.txt": "7885e7a06ae8667316ffe366439ef2e49302d115d7d0ec3544b522543792056f",
+          "Practice_en_Set_03.txt": "a0840255431773c6b6e49d6be4a33097bd6a7e1e3840bd53eb1e5f24d156a084",
+          "Practice_en_Set_04.txt": "dcfb997dd84992e1a8fa4b19633e0e4105051b52c4a86fd65ff45beb7639b7ce",
+          "Practice_en_Set_05.txt": "e2cbaef801d5c268a7e3d449fed59b1b234eb4e9defc22684da6a40faedde45d",
+          "Practice_en_Set_06.txt": "02e8635fa32a0b66ce7c46188081effa3de912c64133e3e7709d8ba77b49b190",
+          "Practice_hi_Set_01.txt": "ce936e7cecbbb37c782008526fbeba998c5cbb878fb4e13990cd77e089bf41a6",
+          "Practice_hi_Set_02.txt": "392df7b1792bb6ea90ae81fbf5f981d428000d632e80c30580ba8fb7c2020a00",
+          "Practice_hi_Set_03.txt": "6195aa323cb826797a5769c5ce6ea514443efe7477eb0eed3e956342a0d1767f",
+          "Practice_hi_Set_04.txt": "e4d67302091372424707829bd7631808e569e779ac89633968712143e8719780",
+          "Practice_hi_Set_05.txt": "7e4803c167794f99f91a9820c587b5414a5ee9a4082898a2366c0d2f1c9bbcd0",
+          "Practice_hi_Set_06.txt": "622478421eaaafbf0bdd5201c6dfc9086600dd167f8e73fefbe7bd89a2bf74fb",
+          "Short_Tricks_en.txt": "cd2c9ff0972682f1bbefe6e26a0bd7e6c67677ef2d5d27253959a40c22eec7ef",
+          "Short_Tricks_hi.txt": "3d04b1a7de88a2dc13db7fd2cbfc94e5ce7495d758b55ca33059a265e8b68a1e"
+        }
+      },
+      "checked_at": "2026-11-21T06:26:21+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "8501188e49b9bed6bb8508efef1460cd646daa872d0e99b7dfd97036e113c622",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The example for Trap 1 (121, 144, 169, 196, 225) does not illustrate multiple competing patterns; all five numbers are perfect squares with no outlier, making it an invalid odd-one-out set and a poor illustration of the trap. → Replace with a valid example where two distinct classification rules conflict (e.g., 2, 3, 5, 7, 9 where prime vs. odd/even creates ambiguity)."
+      ],
+      "dependencies": {
+        "chapter.json": "5083ea391984dc7353e6df2cbb3226654d6fe4c6ef5fd363d929a919d132858f",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "dee6016a58b01367c81757068ccd2da2d3fd206e05f7367a10b339241d9e1726"
+      },
+      "checked_at": "2026-11-21T06:36:45+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "f5476b22a8060b6b10c339cdcc47b9d09c1741d3870dfb8d0dd90a30b6cace36",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "5083ea391984dc7353e6df2cbb3226654d6fe4c6ef5fd363d929a919d132858f",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "dee6016a58b01367c81757068ccd2da2d3fd206e05f7367a10b339241d9e1726",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T06:36:45+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "248a678dbea14d4f3768bbbc20bd1c9bee11f98f2acf76f521969a9179acd58f",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Part 2 (Number Based Classification), point 4 (अंकों का योग): The example claims 567 is the odd one out because its digit sum 18 “does not fit the pattern”, but the digit sums (6, 9, 12, 15, 18) increase by 3 consistently, so 567 actually fits the pattern. → Replace the example with a series where one number genuinely breaks the pattern (e.g., 123, 234, 345, 456, 568 where 568 gives sum 19)."
+      ],
+      "dependencies": {
+        "chapter.json": "5083ea391984dc7353e6df2cbb3226654d6fe4c6ef5fd363d929a919d132858f",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "49a98365ab35ba493a6f8029f5f7b7faab11f4da8aa93d038cbf77564e5b0c0c"
+      },
+      "checked_at": "2026-11-21T06:38:35+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T06:38:35+00:00",
+  "chapter_fingerprint": "a9f315b984bff97a295f9c6772ecf363b2c910377c2963b2e10b268803b8eff2"
+}
