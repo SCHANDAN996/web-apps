@@ -1,34 +1,35 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 02:33 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 02:34 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 03 Adjective (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W10 | Chapter 04 Verb (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W11 | Chapter 02 Pronoun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W12 | Chapter 20 Mirror Water Images (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
-| W2 | Chapter 07 Preposition (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W4 | Chapter 05 Tense (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W5 | Chapter 25 Statement Argument (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W6 | Chapter 24 Statement Assumption (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W7 | Chapter 06 Adverb (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W8 | Chapter 01 Noun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W9 | Chapter 23 Syllogism (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W1 | Chapter 03 Adjective (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W10 | Chapter 04 Verb (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W11 | Chapter 02 Pronoun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W12 | Chapter 20 Mirror Water Images (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
+| W2 | Chapter 07 Preposition (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W3 | Chapter 08 Conjunction (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W4 | Chapter 05 Tense (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W5 | Chapter 25 Statement Argument (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W6 | Chapter 24 Statement Assumption (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W7 | Chapter 06 Adverb (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W8 | Chapter 01 Noun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W9 | Chapter 23 Syllogism (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 113 |
+| key 3 | 114 |
 | key 4 | 116 |
 | key 5 | 132 |
-| key 6 | 97 |
+| key 6 | 98 |
 
 ## किताबों की प्रगति
 
@@ -67,12 +68,12 @@
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 56/1950 |
-| 12th English | 0 | 25 | 0 | 0 | 0 | 17/2025 |
+| 12th English | 0 | 25 | 0 | 0 | 0 | 20/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 455/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 458/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,20 +88,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 14:28:12   [sandhi] written 0, failed 5; AI calls today 442/100000
-21-11 14:28:12 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi after 217 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo'] problems []
-21-11 14:28:17   [Noun] QA passed: editorial:Content_en.txt
-21-11 14:28:34   [Noun] QA needs_reference: sources:Content_en.txt
-21-11 14:28:36   [Adjective] QA passed: structure
-21-11 14:28:55   [Noun] QA passed: editorial:Content_hi.txt
-21-11 14:28:56   [Noun] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 77, "blocked": 0, "needs_reference": 1, "remaining": 78, 
-21-11 14:28:56 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_01_Noun: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 77, 'blocked': 0, 'needs_reference': 1, 'remaining': 78, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_01_Noun/QA.json'}
-21-11 14:29:01   [Pronoun] QA blocked: editorial:Content_en.txt
-21-11 14:29:01   [Pronoun] QA needs_reference: sources:Content_en.txt
-21-11 14:29:05   [Verb] QA passed: structure
-21-11 14:29:15   [Adjective] QA passed: editorial:Content_en.txt
-21-11 14:29:15   [Adjective] QA needs_reference: sources:Content_en.txt
-21-11 14:29:33   [Mirror_Water_Images] QA passed: editorial:Content_hi.txt
 21-11 14:29:34   [Mirror_Water_Images] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
 21-11 14:29:34 QA 12th_Level/Reasoning/Chapter_20_Mirror_Water_Images: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Water image clock formula (6:30 − time for ≤6:30, 18:30 − time for >6:30) gives incorrect results for boundary times: e.g., 12:00 yields 6:30 (correct is 6:00), 6:30 yields 12:00 (correct is 11:30) → The mental flip method (swap 12↔6, keep 3↔9, flip hands vertically) is the correct reliable method; the formula should not be presented without exceptions.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_20_Mirror_Water_Images/QA.json'}
 21-11 14:30:01   [Verb] QA passed: editorial:Content_en.txt
@@ -127,6 +114,20 @@
 21-11 14:33:28   [Preposition] QA passed: editorial:Content_en.txt
 21-11 14:33:36   [Preposition] QA needs_reference: sources:Content_en.txt
 21-11 14:33:37   [Conjunction] QA passed: structure
+21-11 14:34:20   [Conjunction] QA passed: editorial:Content_en.txt
+21-11 14:34:26   [Preposition] QA passed: editorial:Content_hi.txt
+21-11 14:34:39   [Adverb] QA blocked: editorial:Content_hi.txt
+21-11 14:34:41   [Conjunction] QA needs_reference: sources:Content_en.txt
+21-11 14:34:41   [Preposition] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 77, "blocked": 0, "needs_reference": 1, "remaining": 78, 
+21-11 14:34:41   [Adverb] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 2, "pending": 77, "blocked": 1, "needs_reference": 1, "remaining": 79, 
+21-11 14:34:42 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_07_Preposition: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 77, 'blocked': 0, 'needs_reference': 1, 'remaining': 78, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: **AT** a point (5 pm), **ON** a day (Monday), **IN** a period (July / 2024 / the evening).', 'Fetch official supporting evidence for: - **Since** → point of time (when it *started*): since Monday, since 2010, since childhood.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_07_Preposition/QA.json'}
+21-11 14:34:42 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_06_Adverb: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 2, 'pending': 77, 'blocked': 1, 'needs_reference': 1, 'remaining': 79, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- 'daily' is incorrectly included in the list of 'बिना -ly वाले Adverb' (adverbs without -ly) because 'daily' ends with -ly → remove 'daily' from that list."]}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_06_Adverb/QA.json'}
+21-11 14:34:43   [Articles] QA passed: structure
+21-11 14:35:09   [Conjunction] QA blocked: editorial:Content_hi.txt
+21-11 14:35:09   [Conjunction] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 2, "pending": 77, "blocked": 1, "needs_reference": 1, "remaining": 79, 
+21-11 14:35:10 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_08_Conjunction: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 2, 'pending': 77, 'blocked': 1, 'needs_reference': 1, 'remaining': 79, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- "SSC CHSL, RRB NTPC और CGL Tier-1 में Conjunction से हर बार सवाल आते हैं" → यह एक आविष्कृत परीक्षा दावा है ("हर बार" निरपेक्ष आवृत्ति बिना वर्ष/साक्ष्य के); इसे योग्य बनाएँ या हटाएँ (जैसे "अक्सर पूछा जाता है")।', '- मूल-शब्द तालिका में "cor/co (लैटिन) | एक साथ" गलत है → "cor" लैटिन मूल है जिसका अर्थ "हृदय" होता है (जैसे cordial); "एक साथ" के लिए उपसर्ग "co-/com-" (लैटिन cum से) है; प्रविष्टि होनी चाहिए "co-/com- (लैटिन) | साथ, एकत्र"।']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_08_Conjunction/QA.json'}
+21-11 14:35:21   [Articles] QA passed: editorial:Content_en.txt
+21-11 14:35:21   [Articles] QA needs_reference: sources:Content_en.txt
 ````
 
 </details>

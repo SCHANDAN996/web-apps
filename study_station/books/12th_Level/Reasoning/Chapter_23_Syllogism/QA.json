@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "0f64cc3c1c160271d5683d67ca72b3589e0264f7d830f93a6907e9c92aca3a5c",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "ed6e511673b734f6da9c822b6d7ec97702e7570d96f881c0983a2b65a0287a4e",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "f5275066e0b893a28ba255719002674be60feb3e7794faadbc14d27078480ab2",
+        "Content_hi.txt": "ed554374d1b9ba7b536ee8cb105f934d58038e1bf557745fd1867cf4839cea4b",
+        "Feynman_en.txt": "5d725d0f68e4c1b9da4bfe023b213c4e137f5def6bded91e364cf4a3540f27b3",
+        "Feynman_hi.txt": "b0cc056c330a0f1b7f029fb2f7aca5fbf6bb7b67eef76d05482dbe01c5f53b08",
+        "Flashcards_en.txt": "2fa9f25339565340fae7a63e3f307d8cf188fc103f481e62ba76c236a632ad06",
+        "Flashcards_hi.txt": "8b1be14231c65055dfdc2fe2644901cf6dcfac44774b3b255d0f7eab580dfd38",
+        "Important_Rules_en.txt": "9a0f4182f61f20e7213ed00e15ce70c01e3049ed78d1a85dd08029e99223a93f",
+        "Important_Rules_hi.txt": "907a1885d9366af7b3d8e303f02a6d6221a7fee45b56d70f0154d4fe6343765e",
+        "Mind_Map.txt": "0e6d4d28814a0f9933a90dbf0c7b1f44260d480b81ddb9e35a5312cea7399989",
+        "PYQ_en.txt": "2621c7e17cf2dd77940ac5f44cd89ac544b4c6e05c30a2499746f919122599f6",
+        "PYQ_hi.txt": "2ff8ae3f0f628989b880276e1f620fdf3689ce5854ad1e3dd80c4d8855daf5f8",
+        "Practice_en_Set_01.txt": "d14a7c3dc42f7df13ffb1cd0febd1063c87d1a729c1e46d0707fb5446de30cdf",
+        "Practice_en_Set_02.txt": "73aa696528e8bf9fccca73730d55efcad13ca04b90c4c466b4401be0d0e515ab",
+        "Practice_en_Set_03.txt": "d855a1b6eb25d31db6c360e532acca14008b5fb7ce03814e573e23585fee0847",
+        "Practice_en_Set_04.txt": "d5932e7817b2c163b56f1e8235d8da837762484c572df18cad12c824f1d69713",
+        "Practice_en_Set_05.txt": "73398f5ba0e515f95f1c7a15807b35726c25948451f3fe5cec32a3f3531a00cb",
+        "Practice_en_Set_06.txt": "31866c46518894e3a7f49f4b935d2ed93c02be7688adc1f73dc2c200b81de654",
+        "Practice_hi_Set_01.txt": "504821c20c45a300881e5c300420dd9cfec28afd9e9bf6c509b886745365d24f",
+        "Practice_hi_Set_02.txt": "b24c412585320b046436692fdc849d06c01e76883c21772103fc759dd8110651",
+        "Practice_hi_Set_03.txt": "f2c5b96ed16e7010d7ec94679660429606bcdc9978668a1aef6b1ca660059661",
+        "Practice_hi_Set_04.txt": "6546ef9c1351194ca2d71e11cea3202901b882726a52d4823fee79610dd0c303",
+        "Practice_hi_Set_05.txt": "adae79f7732b3c70932d20eb706e847650b6f2add9fe8559d61ff3c46b363138",
+        "Practice_hi_Set_06.txt": "f7a764d4ee17264832efc34ca962cfb016ebe2bb29e9b1df1bdbebd903baa14c",
+        "Short_Tricks_en.txt": "9ed490d7e405636852a97beafefdd800b8c1b00b3afafd19c2dd90b1ce669d4c",
+        "Short_Tricks_hi.txt": "8d60fbee4a47498daa9affb8773a77e52251e0b01e01a6db8cb43ce31d93c84b",
+        "inventory": {
+          "Content_en.txt": "f5275066e0b893a28ba255719002674be60feb3e7794faadbc14d27078480ab2",
+          "Content_hi.txt": "ed554374d1b9ba7b536ee8cb105f934d58038e1bf557745fd1867cf4839cea4b",
+          "Feynman_en.txt": "5d725d0f68e4c1b9da4bfe023b213c4e137f5def6bded91e364cf4a3540f27b3",
+          "Feynman_hi.txt": "b0cc056c330a0f1b7f029fb2f7aca5fbf6bb7b67eef76d05482dbe01c5f53b08",
+          "Flashcards_en.txt": "2fa9f25339565340fae7a63e3f307d8cf188fc103f481e62ba76c236a632ad06",
+          "Flashcards_hi.txt": "8b1be14231c65055dfdc2fe2644901cf6dcfac44774b3b255d0f7eab580dfd38",
+          "Important_Rules_en.txt": "9a0f4182f61f20e7213ed00e15ce70c01e3049ed78d1a85dd08029e99223a93f",
+          "Important_Rules_hi.txt": "907a1885d9366af7b3d8e303f02a6d6221a7fee45b56d70f0154d4fe6343765e",
+          "Mind_Map.txt": "0e6d4d28814a0f9933a90dbf0c7b1f44260d480b81ddb9e35a5312cea7399989",
+          "PYQ_en.txt": "2621c7e17cf2dd77940ac5f44cd89ac544b4c6e05c30a2499746f919122599f6",
+          "PYQ_hi.txt": "2ff8ae3f0f628989b880276e1f620fdf3689ce5854ad1e3dd80c4d8855daf5f8",
+          "Practice_en_Set_01.txt": "d14a7c3dc42f7df13ffb1cd0febd1063c87d1a729c1e46d0707fb5446de30cdf",
+          "Practice_en_Set_02.txt": "73aa696528e8bf9fccca73730d55efcad13ca04b90c4c466b4401be0d0e515ab",
+          "Practice_en_Set_03.txt": "d855a1b6eb25d31db6c360e532acca14008b5fb7ce03814e573e23585fee0847",
+          "Practice_en_Set_04.txt": "d5932e7817b2c163b56f1e8235d8da837762484c572df18cad12c824f1d69713",
+          "Practice_en_Set_05.txt": "73398f5ba0e515f95f1c7a15807b35726c25948451f3fe5cec32a3f3531a00cb",
+          "Practice_en_Set_06.txt": "31866c46518894e3a7f49f4b935d2ed93c02be7688adc1f73dc2c200b81de654",
+          "Practice_hi_Set_01.txt": "504821c20c45a300881e5c300420dd9cfec28afd9e9bf6c509b886745365d24f",
+          "Practice_hi_Set_02.txt": "b24c412585320b046436692fdc849d06c01e76883c21772103fc759dd8110651",
+          "Practice_hi_Set_03.txt": "f2c5b96ed16e7010d7ec94679660429606bcdc9978668a1aef6b1ca660059661",
+          "Practice_hi_Set_04.txt": "6546ef9c1351194ca2d71e11cea3202901b882726a52d4823fee79610dd0c303",
+          "Practice_hi_Set_05.txt": "adae79f7732b3c70932d20eb706e847650b6f2add9fe8559d61ff3c46b363138",
+          "Practice_hi_Set_06.txt": "f7a764d4ee17264832efc34ca962cfb016ebe2bb29e9b1df1bdbebd903baa14c",
+          "Short_Tricks_en.txt": "9ed490d7e405636852a97beafefdd800b8c1b00b3afafd19c2dd90b1ce669d4c",
+          "Short_Tricks_hi.txt": "8d60fbee4a47498daa9affb8773a77e52251e0b01e01a6db8cb43ce31d93c84b"
+        }
+      },
+      "checked_at": "2026-11-21T08:53:59+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "872a271d4f6c1fdc54d990eec014f4048e68ee52fa0dc1e8fcd3639763be33de",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The complementary pair example \"Some A are B\" + \"Some A are not B\" is not a valid either–or pair (they are subcontraries, not contradictories) → Valid complementary pairs are \"All A are B\" with \"Some A are not B\" and \"No A is B\" with \"Some A are B\""
+      ],
+      "dependencies": {
+        "chapter.json": "ed6e511673b734f6da9c822b6d7ec97702e7570d96f881c0983a2b65a0287a4e",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "f5275066e0b893a28ba255719002674be60feb3e7794faadbc14d27078480ab2"
+      },
+      "checked_at": "2026-11-21T08:55:02+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "e090bb41a86ae1e5fcbb9d255ab5dce0f1323508df2785ee16282da993744c12",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "ed6e511673b734f6da9c822b6d7ec97702e7570d96f881c0983a2b65a0287a4e",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "f5275066e0b893a28ba255719002674be60feb3e7794faadbc14d27078480ab2",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T08:55:02+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "32bf10941a9dffc37be9136490858c04f1c1d1aa552d70b42beef9bb679458de",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Section 4 incorrectly asserts that “सभी A, B हैं” definitely implies “कुछ B, A हैं” (and the Active Recall expects this). In standard syllogism for Indian government exams (SSC, Bank, etc.), universal affirmatives have no existential import, so “Some B are A” does not follow definitely from “All A are B” alone. → Correct the rule: “All A are B” does not guarantee “Some B are A”; the Active Recall should indicate that neither “All B are A” nor “Some B are A” follows definitely without an existence premise."
+      ],
+      "dependencies": {
+        "chapter.json": "ed6e511673b734f6da9c822b6d7ec97702e7570d96f881c0983a2b65a0287a4e",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "ed554374d1b9ba7b536ee8cb105f934d58038e1bf557745fd1867cf4839cea4b"
+      },
+      "checked_at": "2026-11-21T08:57:23+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T08:57:23+00:00",
+  "chapter_fingerprint": "ced483c988fc5ea3f8666355581b57ecbc5b407d6f097d267a2ada48ea7ede21"
+}
