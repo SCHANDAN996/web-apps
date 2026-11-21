@@ -1,34 +1,33 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 03:46 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 03:47 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 7 मिनट |
-| W10 | Chapter 02 shabd bhed (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W11 | Chapter 02 input output ports (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W12 | Chapter 03 sangya sarvanam (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 7 मिनट |
-| W3 | Chapter 01 varn vartani (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W4 | Chapter 01 organization cpu (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W5 | Chapter 06 kaal vachya (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W6 | Chapter 04 visheshan kriya (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W7 | Chapter 05 windows files (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W8 | Chapter 04 software os (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W9 | Chapter 06 keyboard shortcuts (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 8 मिनट |
+| W10 | Chapter 02 shabd bhed (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W11 | Chapter 02 input output ports (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W12 | Chapter 03 sangya sarvanam (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 8 मिनट |
+| W3 | Chapter 01 varn vartani (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W4 | Chapter 01 organization cpu (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W5 | Chapter 06 kaal vachya (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W6 | Chapter 07 word (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W7 | Chapter 05 windows files (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W9 | Chapter 06 keyboard shortcuts (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 7 |
+| key 3 | 8 |
 | key 4 | 7 |
-| key 5 | 1 |
+| key 5 | 2 |
 | key 6 | 5 |
 
 ## किताबों की प्रगति
@@ -60,7 +59,7 @@
 | किताब | QA पास | जाँच बाकी | प्रमाण बाकी | सुधार अटका | मैनुअल | जाँचें पास / कुल |
 |---|---:|---:|---:|---:|---:|---:|
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 34/540 |
-| 12th Computer | 0 | 14 | 0 | 0 | 0 | 34/1092 |
+| 12th Computer | 0 | 14 | 0 | 0 | 0 | 36/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 43/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
@@ -73,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 498/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 500/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,15 +82,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 15:40:50   [memory_storage_backup] QA needs_reference: sources:Content_hi.txt
-21-11 15:41:15   [memory_storage_backup] QA passed: editorial:Feynman_en.txt
-21-11 15:41:15   [memory_storage_backup] QA needs_reference: sources:Feynman_en.txt
-21-11 15:42:02   [varn_vartani] QA blocked: editorial:Flashcards_hi.txt
-21-11 15:42:02   [varn_vartani] QA needs_reference: sources:Flashcards_hi.txt
-21-11 15:42:43   [ling_vachan_karak] QA passed: editorial:Flashcards_hi.txt
-21-11 15:42:43   [ling_vachan_karak] QA needs_reference: sources:Flashcards_hi.txt
-21-11 15:43:05   [visheshan_kriya] QA blocked: editorial:Flashcards_hi.txt
-21-11 15:43:05   [visheshan_kriya] QA needs_reference: sources:Flashcards_hi.txt
 21-11 15:43:50   [software_os] QA passed: editorial:Feynman_en.txt
 21-11 15:43:50   [software_os] QA needs_reference: sources:Feynman_en.txt
 21-11 15:43:58   [memory_storage_backup] QA needs_reference: editorial:Feynman_hi.txt
@@ -123,6 +113,15 @@
 21-11 15:46:58   [word] QA needs_reference: sources:Content_hi.txt
 21-11 15:47:05   [windows_files] QA passed: editorial:Feynman_en.txt
 21-11 15:47:06   [windows_files] QA needs_reference: sources:Feynman_en.txt
+21-11 15:47:38   [keyboard_shortcuts] QA passed: editorial:Feynman_hi.txt
+21-11 15:47:49   [sangya_sarvanam] QA passed: editorial:Important_Rules_hi.txt
+21-11 15:47:55   [sangya_sarvanam] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 5, "pending": 28, "blocked": 0, "needs_reference": 3, "remaining": 31, 
+21-11 15:47:55   [keyboard_shortcuts] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
+21-11 15:47:55 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 5, 'pending': 28, 'blocked': 0, 'needs_reference': 3, 'remaining': 31, 'failures': [{'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Flashcards_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_03_sangya_sarvanam/QA.json'}
+21-11 15:47:55 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_06_keyboard_shortcuts: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: *Note: Shortcuts are based on standard Windows 10/11 and Microsoft 365 (Office 2016+) behavior. Minor variations may exist in older versions or customized enterprise environments. Examination questions follow the standard defaults described above.*']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: Microsoft Support / Microsoft Learn official documentation for Windows and Office keyboard shortcuts.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_06_keyboard_shortcuts/QA.json'}
+21-11 15:47:56   [samas] QA needs_reference: sources:Feynman_hi.txt
+21-11 15:48:07   [kaal_vachya] QA passed: editorial:Flashcards_hi.txt
+21-11 15:48:07   [kaal_vachya] QA needs_reference: sources:Flashcards_hi.txt
 ````
 
 </details>

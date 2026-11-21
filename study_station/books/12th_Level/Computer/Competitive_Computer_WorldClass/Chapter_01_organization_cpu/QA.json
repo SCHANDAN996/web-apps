@@ -109,11 +109,71 @@
         "Content_hi.txt": "535653cf60d94dbc2465e83beff2d27266ee382e6cdf0de7f20681bbdf289f7f"
       },
       "checked_at": "2026-11-21T05:29:41+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "7e1d8308f461ab3de55798eed0ce800929a566b75ee85d52aeae3afae92b7a38",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "8e0ba96e211be3e1f6eaf3e5a0c4c1eb2ac41ca9debc0594713665e08abb150c",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "535653cf60d94dbc2465e83beff2d27266ee382e6cdf0de7f20681bbdf289f7f",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:10:50+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "0a5a898a1f95070512bf1685755b8d0d87e41e7203db2b7c65db1342eb11c65f",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "8e0ba96e211be3e1f6eaf3e5a0c4c1eb2ac41ca9debc0594713665e08abb150c",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "6ec039343e8d9659444a5854357500330d801eabef81c0faf498fe25e9873ba1"
+      },
+      "checked_at": "2026-11-21T10:14:20+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "cb4d41935f63b20bde06cbb2ceb13de1b838a26076aef36cf6b805e2c8bc6250",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "8e0ba96e211be3e1f6eaf3e5a0c4c1eb2ac41ca9debc0594713665e08abb150c",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "6ec039343e8d9659444a5854357500330d801eabef81c0faf498fe25e9873ba1",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:14:20+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "1cc7612dc82cbdfa8ed4a10924b7065c05f2ea19c285e6fdce867c37a25b7e6e",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Korean word \"실행\" (silhaeng) used in Hindi text for \"execute\" → replace with Hindi \"निष्पादित करता है\" or \"क्रियान्वित करता है\""
+      ],
+      "dependencies": {
+        "chapter.json": "8e0ba96e211be3e1f6eaf3e5a0c4c1eb2ac41ca9debc0594713665e08abb150c",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "2ba6c1980576f87e9fc3b378a73cc21b361503bc1de164037bcca7f753a3b377"
+      },
+      "checked_at": "2026-11-21T10:15:43+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T05:29:41+00:00",
+  "updated_at": "2026-11-21T10:15:43+00:00",
   "chapter_fingerprint": "bf8e859a48e23e3360d722d866d661346a6f6df3b26258e98a0f8a85b0271dd0"
 }
