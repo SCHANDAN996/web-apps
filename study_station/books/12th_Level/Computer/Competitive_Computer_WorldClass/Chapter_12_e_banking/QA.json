@@ -113,11 +113,72 @@
         "Content_hi.txt": "a3baf419054478302c3e9f464e4b31789062f6a3d005de4fa37fdf3237836a38"
       },
       "checked_at": "2026-11-21T05:51:55+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "e844fe458d9e85c03334d3e18bb6fad8c720c1b1d594802fce7a77a1852e587f",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "0a72131001adaca8ebf6d96f6b65ac7fc32a82b1cecea6ae6aecbc0c67d12730",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "a3baf419054478302c3e9f464e4b31789062f6a3d005de4fa37fdf3237836a38",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:25:40+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "dc80913815ef709c126bc85b5ec256ab8d01dbb76f439233ec88b668f15edf91",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "0a72131001adaca8ebf6d96f6b65ac7fc32a82b1cecea6ae6aecbc0c67d12730",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "e0e3575dcd1b546894c3da6250e68e6f99aef1249a74bd7d862f1d73d0897226"
+      },
+      "checked_at": "2026-11-21T10:29:21+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "4e00f925bf921ef90d2a54890e9587d3339cc1218cd654f4e8f32c356c18731c",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: RBI Master Directions on Digital Payment Security Controls; NPCI product documentation; CERT-In advisories."
+      ],
+      "dependencies": {
+        "chapter.json": "0a72131001adaca8ebf6d96f6b65ac7fc32a82b1cecea6ae6aecbc0c67d12730",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "e0e3575dcd1b546894c3da6250e68e6f99aef1249a74bd7d862f1d73d0897226",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:29:21+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "172862050b3b6972e9929ac212a866d76b6379159d49ee8e3ba2e11650c8e61b",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- RBI नियम (खंड 3) में कार्ड-नॉट-प्रेजेंट लेन-देन के लिए AFA अनिवार्य होने का वर्ष 2018 बताया गया है → सही वर्ष 2011 है (RBI ने फरवरी 2011 में CNP लेन-देन के लिए अतिरिक्त प्रमाणीकरण अनिवार्य किया था)",
+        "- Q4 (खंड 5) के उत्तर में भी AFA अनिवार्य होने का वर्ष 2018 बताया गया है → सही वर्ष 2011 है"
+      ],
+      "dependencies": {
+        "chapter.json": "0a72131001adaca8ebf6d96f6b65ac7fc32a82b1cecea6ae6aecbc0c67d12730",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "caea52769e41d8ce1a73fba95e4328cb84aa1d8b992710f3f91875ebdb47dbb0"
+      },
+      "checked_at": "2026-11-21T10:30:47+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T05:51:55+00:00",
+  "updated_at": "2026-11-21T10:30:48+00:00",
   "chapter_fingerprint": "a49617bf2c3a958075e322696a51d78e9447e1a61a7a2f6eb2a8114c81c56184"
 }
