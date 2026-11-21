@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 03:36 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 03:37 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -75,7 +75,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 14:49:14   [Error_Spotting_Adv] QA blocked: editorial:Content_hi.txt
 21-11 14:49:14   [Error_Spotting_Adv] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 2, "pending": 77, "blocked": 1, "needs_reference": 1, "remaining": 79, 
 21-11 14:49:15 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_18_Error_Spotting_Adv: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 2, 'pending': 77, 'blocked': 1, 'needs_reference': 1, 'remaining': 79, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- नियम 1 में "Each/Every/One of + बहुवचन संज्ञा + एकवचन क्रिया" गलत है क्योंकि \'Every\' के साथ \'of + बहुवचन संज्ञा\' नहीं आता (जैसे "Every of the boys" असंगत है) → सही नियम: "Each of/One of/Every one of + बहुवचन संज्ञा + एकवचन क्रिया" या "Each/Every/Either/Neither + एकवचन संज्ञा + एकवचन क्रिया"।']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_18_Error_Spotting_Adv/QA.json'}
 21-11 14:50:37   [Sentence_Improvement_Adv] QA passed: editorial:Content_hi.txt
@@ -115,6 +114,7 @@
 21-11 15:28:14   [rikt_sthan_vakya_kram] written 0, failed 2; AI calls today 501/100000
 21-11 15:28:14 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram after 49 min: todo ['Set 04 hi: todo', 'Set 06 hi: todo'] problems []
 21-11 15:28:14 worker 0: nothing left
+21-11 15:37:10 autopilot end: done 1, failed 2
 ````
 
 </details>
