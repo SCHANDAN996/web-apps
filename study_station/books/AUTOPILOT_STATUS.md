@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 02:19 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 02:20 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 208 मिनट |
-| W10 | Chapter 07 Sitting Arrangement (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 18 मिनट |
-| W11 | Chapter 16 Statement Conclusion (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W12 | Chapter 03 Coding Decoding (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 24 मिनट |
-| W2 | Chapter 18 Inequality (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W3 | Chapter 13 Dictionary Order (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W4 | Chapter 14 Alphabet Questions (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W5 | Chapter 17 Course of Action (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W6 | Chapter 12 Missing Term (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 209 मिनट |
+| W10 | Chapter 19 Cubes Dice (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W11 | Chapter 16 Statement Conclusion (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W12 | Chapter 03 Coding Decoding (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 25 मिनट |
+| W2 | Chapter 18 Inequality (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W3 | Chapter 13 Dictionary Order (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W4 | Chapter 14 Alphabet Questions (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W5 | Chapter 17 Course of Action (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W6 | Chapter 12 Missing Term (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
 | W7 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 33 मिनट |
-| W8 | Chapter 15 Mathematical Operations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W9 | Chapter 10 Clock Calendar (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W8 | Chapter 15 Mathematical Operations (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W9 | Chapter 10 Clock Calendar (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 110 |
 | key 4 | 106 |
-| key 5 | 119 |
+| key 5 | 120 |
 | key 6 | 94 |
 
 ## किताबों की प्रगति
@@ -67,13 +67,13 @@
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
-| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 38/1950 |
+| 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 39/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 0/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 420/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 421/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,14 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 14:15:17 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_23_Economic_Terms: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 1, 'pending': 77, 'blocked': 0, 'needs_reference': 0, 'remaining': 77, 'failures': [], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_23_Economic_Terms/QA.json'}
-21-11 14:15:19   [Series] QA passed: editorial:Content_hi.txt
-21-11 14:15:20   [Series] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
-21-11 14:15:20 QA 12th_Level/Reasoning/Chapter_11_Series: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- In solved example Q2, the trial pattern n²(n+1) for n=4 is incorrectly stated as 100; the correct value is 80 → Replace 100 with 80.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_11_Series/QA.json'}
-21-11 14:15:34   [Sitting_Arrangement] QA passed: editorial:Content_hi.txt
-21-11 14:15:34   [Sitting_Arrangement] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
-21-11 14:15:35 QA 12th_Level/Reasoning/Chapter_07_Sitting_Arrangement: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Circular arrangement rule: "Facing the centre (inward) → their right is clockwise" and the mnemonic "IN-CR, OUT-AR" are incorrect; for inward facing, right is anti-clockwise and left is clockwise, while for outward facing, right is clockwise and left is anti-clockwise (correct mnemonic: "IN-AR, OUT-CR"). This error appears in Chunk 2, Chunk 3, and the Summary Table.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_07_Sitting_Arrangement/QA.json'}
-21-11 14:15:51   [Statement_Conclusion] QA passed: structure
 21-11 14:16:15   [Coding_Decoding] QA passed: editorial:Content_hi.txt
 21-11 14:16:15   [Coding_Decoding] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
 21-11 14:16:15 QA 12th_Level/Reasoning/Chapter_03_Coding_Decoding: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- In the "Clean example of increasing shift" explanation, the text says "A+2=C? No: A+2=C" which is contradictory; it should be "A+2=C? Yes: A+2=C" or simply "A+2=C".']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_03_Coding_Decoding/QA.json'}
@@ -127,6 +119,14 @@
 21-11 14:19:42   [Cubes_Dice] QA passed: structure
 21-11 14:20:21   [Inequality] QA blocked: editorial:Content_en.txt
 21-11 14:20:21   [Inequality] QA needs_reference: sources:Content_en.txt
+21-11 14:20:32   [Mirror_Water_Images] QA passed: structure
+21-11 14:20:51   [Statement_Conclusion] QA blocked: editorial:Content_hi.txt
+21-11 14:20:51   [Statement_Conclusion] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 74, "blocked": 1, "needs_reference": 1, "remaining": 76, 
+21-11 14:20:52 QA 12th_Level/Reasoning/Chapter_16_Statement_Conclusion: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 74, 'blocked': 1, 'needs_reference': 1, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Hook example claims both conclusions are wrong, but Conclusion II ("मेहनत सफलता की एक शर्त है") is a valid necessary-condition inference from the statement "सभी सफल लोग मेहनती होते हैं" → Conclusion II should be considered correct (or the example should be corrected to show only Conclusion I is invalid).']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Reasoning/Chapter_16_Statement_Conclusion/QA.json'}
+21-11 14:21:04   [Alphabet_Questions] QA passed: editorial:Content_en.txt
+21-11 14:21:04   [Alphabet_Questions] QA needs_reference: sources:Content_en.txt
+21-11 14:21:17   [Cubes_Dice] QA blocked: editorial:Content_en.txt
+21-11 14:21:18   [Cubes_Dice] QA needs_reference: sources:Content_en.txt
 ````
 
 </details>
