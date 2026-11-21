@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आख़िरी update:** 21-11-2026 10:35 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 07:44 AM
+**आख़िरी update:** 21-11-2026 10:50 AM IST · हर 15 मिनट और हर पूरे अध्याय पर अपने-आप update होता है · autopilot शुरू: 21-11 07:44 AM
 
 [GitHub Actions पर चालू और कतार में लगे रन देखें](https://github.com/SCHANDAN996/web-apps/actions/workflows/book-autopilot.yml)
 
@@ -8,9 +8,7 @@
 
 ## ⚙️ अभी क्या चल रहा है
 
-| worker | अध्याय | काम | कब से |
-|---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 170 मिनट |
+⏸️ अभी कोई worker नहीं चल रहा (रुका हुआ या सब पूरा)।
 
 | सक्रिय API key | इस रन में शुरू हुई requests |
 |---|---|
@@ -48,23 +46,14 @@
 
 ## ⚠️ अटके अध्याय (दोबारा कोशिश होगी / मैं जाँचूँगा)
 
-- Chapter 15 vakya shuddhi (Hindi) — 2 बार
+- Chapter 15 vakya shuddhi (Hindi) — 3 बार
 - Chapter 16 rikt sthan vakya kram (Hindi) — 1 बार
+- Chapter 07 sandhi (Hindi) — 1 बार
 
 <details>
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ```
-21-11 08:37:46   [sandhi] Practice_hi_Set_02.txt try 4: rejected (Q26:duplicate_options,Q33:duplicate_options,Q34:duplicate_options,Q36:duplicate_options,Q37:duplicate_options)
-21-11 08:37:46   [sandhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
-21-11 08:38:33   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 3: re-solve disagrees (Q111 key c vs re-solve b, Q123 key c vs re-solve d)
-21-11 08:41:05   [rikt_sthan_vakya_kram] Practice_hi_Set_05.txt try 4: re-solve disagrees (Q111 key c vs re-solve b)
-21-11 08:41:05   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
-21-11 08:43:19   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 1: re-solve disagrees (Q129 key c vs re-solve b, Q137 key d vs re-solve a, Q143 key a vs re-solve b, Q150 key c vs re-solve
-21-11 08:50:07   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 2: re-solve disagrees (Q127 key c vs re-solve a, Q129 key d vs re-solve b, Q137 key c vs re-solve a, Q145 key a vs re-solve
-21-11 08:54:30   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q132 key c vs re-solve b)
-21-11 08:58:23   [sandhi] Practice_hi_Set_03.txt try 1: re-solve disagrees (Q51 key a vs re-solve b, Q57 key d vs re-solve a, Q60 key c vs re-solve d, Q62 key c vs re-solve b, 
-21-11 08:58:39   [rikt_sthan_vakya_kram] Practice_hi_Set_06.txt try 4: re-solve disagrees (Q127 key d vs re-solve c, Q132 key a vs re-solve c, Q137 key c vs re-solve b, Q145 key d vs re-solve
 21-11 08:58:39   [rikt_sthan_vakya_kram] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
 21-11 08:58:39   [rikt_sthan_vakya_kram] written 1, failed 3; AI calls today 78/100000
 21-11 08:58:39 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram after 74 min: todo ['Set 04 hi: todo', 'Set 05 hi: todo', 'Set 06 hi: todo'] problems []
@@ -95,6 +84,16 @@
 21-11 10:07:19   [sandhi] Practice_hi_Set_06.txt try 1: rejected (Q127:duplicate_options,Q129:duplicate_options,Q131:duplicate_options,Q136:duplicate_options,Q142:duplicate_opt
 21-11 10:18:12   [sandhi] Practice_hi_Set_06.txt try 2: rejected (Q131:duplicate_options,Q144:duplicate_options,Q145:duplicate_options,Q147:duplicate_options,Q148:duplicate_opt
 21-11 10:29:40   [sandhi] Practice_hi_Set_06.txt try 3: re-solve disagrees (Q126 key c vs re-solve a, Q128 key d vs re-solve b, Q140 key d vs re-solve b, Q146 key d vs re-solve
+21-11 10:38:05   [sandhi] Practice_hi_Set_06.txt try 4: rejected (Q128:duplicate_options,Q144:duplicate_options)
+21-11 10:38:05   [sandhi] REJECTED Practice_hi_Set_06.txt: no version passed the checks — not written
+21-11 10:38:05   [sandhi] written 0, failed 5; AI calls today 108/100000
+21-11 10:38:05 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_07_sandhi after 174 min: todo ['Set 01 hi: todo', 'Set 02 hi: todo', 'Set 03 hi: todo', 'Set 05 hi: todo'] problems []
+21-11 10:38:06 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi (OK: todo 0, problems 0)
+21-11 10:38:06   [vakya_shuddhi] Book autopilot upgrade: draining existing work and saving unfinished files for the new worker/rate policy
+21-11 10:38:06   [vakya_shuddhi] stopping: new worker/rate policy queued; no new API work started in the older runner
+21-11 10:38:06 NOT OK 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_15_vakya_shuddhi after 0 min: todo [] problems []
+21-11 10:38:06 worker 0: stop file found — stopping
+21-11 10:50:25 autopilot end: done 0, failed 3
 ```
 
 </details>
