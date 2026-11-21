@@ -109,11 +109,69 @@
         "Content_hi.txt": "9c4521ca7101b52b7beed6716cc0e7fa5552459a5d55a5fa584c32149a8f4dc9"
       },
       "checked_at": "2026-11-21T08:18:50+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "946a3a55639cfd85465246bb0a440aeeaca255968c36e466bd327de38bd3b99c",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: - **6 क्षेत्र:** भौतिकी, रसायन, चिकित्सा, साहित्य, शांति, अर्थशास्त्र (अर्थशास्त्र वाला 1968 से, स्वीडिश बैंक द्वारा स्थापित)।"
+      ],
+      "dependencies": {
+        "chapter.json": "6ff8ac5717c5c969b4cbe85b4946916e2a15d627a4232c5c93366e1f1b85959c",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "9c4521ca7101b52b7beed6716cc0e7fa5552459a5d55a5fa584c32149a8f4dc9",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:19:12+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "adce8ef68f628e306075c91ba07b17d8c6879ee5ec53e853a23208ddef458760",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "6ff8ac5717c5c969b4cbe85b4946916e2a15d627a4232c5c93366e1f1b85959c",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "0e83c45ba048308e3e4387dc5d9cf19a4e551a4736434e8d82adc5f7fb440101"
+      },
+      "checked_at": "2026-11-21T12:19:32+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "02729fae20af5b8ea60e78b93feaf19a6dd864d77738ff4096ec6b5340c5aac2",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "6ff8ac5717c5c969b4cbe85b4946916e2a15d627a4232c5c93366e1f1b85959c",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "0e83c45ba048308e3e4387dc5d9cf19a4e551a4736434e8d82adc5f7fb440101",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:19:32+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "433b41753758e5ab8697fc4895d49f91be002f57c950fea01193afec8021967f",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "6ff8ac5717c5c969b4cbe85b4946916e2a15d627a4232c5c93366e1f1b85959c",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "ee49eeb09f3965e981725e69cce5e4581fc7952220a140a08b53866016a1abed"
+      },
+      "checked_at": "2026-11-21T12:19:54+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T08:18:51+00:00",
+  "updated_at": "2026-11-21T12:19:54+00:00",
   "chapter_fingerprint": "bad5e4822a4cf1c45923dfffbf73f1637db3749e4ae1cd77b83f8260b83141a3"
 }

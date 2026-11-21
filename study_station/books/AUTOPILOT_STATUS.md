@@ -1,34 +1,33 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 05:55 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 05:56 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 137 मिनट |
-| W10 | Chapter 21 International Orgs (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W11 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W12 | Chapter 17 Culture Art (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W2 | Chapter 13 Awards (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W3 | Chapter 18 Science Tech (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W4 | Chapter 11 Chemistry (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W5 | Chapter 14 Sports (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W6 | Chapter 15 Days Dates (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 32 मिनट |
-| W8 | Chapter 16 Books Authors (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W9 | Chapter 12 Biology (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 138 मिनट |
+| W10 | Chapter 21 International Orgs (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W11 | Chapter 19 Environment (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W12 | Chapter 17 Culture Art (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W2 | Chapter 13 Awards (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W3 | Chapter 18 Science Tech (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W4 | Chapter 22 Defence (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W5 | Chapter 14 Sports (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W6 | Chapter 15 Days Dates (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 33 मिनट |
+| W8 | Chapter 16 Books Authors (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 91 |
+| key 3 | 93 |
 | key 4 | 109 |
-| key 5 | 83 |
+| key 5 | 84 |
 | key 6 | 80 |
 
 ## किताबों की प्रगति
@@ -66,14 +65,14 @@
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 100/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 81/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 104/1794 |
-| 12th GK | 0 | 24 | 0 | 0 | 0 | 89/1872 |
+| 12th GK | 0 | 24 | 0 | 0 | 0 | 91/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 58/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 50/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 741/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 743/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,11 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 17:51:40   [Sports] QA needs_reference: sources:Feynman_en.txt
-21-11 17:51:40   [Sports] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 71, "blocked": 2, "needs_reference": 3, "remaining": 76, 
-21-11 17:51:40 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 71, 'blocked': 2, 'needs_reference': 3, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ["- Neeraj Chopra's gold described as India's first Olympic medal in athletics track & field events, but Norman Pritchard won athletics silvers in 1900 → Neeraj Chopra won India's first Olympic gold in athletics"]}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- 1983 क्रिकेट विश्व कप फाइनल की तिथि 28 जून 1983 बताई गई है → सही तिथि 25 जून 1983 है']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_14_Sports/QA.json'}
-21-11 17:52:03   [sandhi] Practice_hi_Set_05.txt try 4: rejected (Q119:duplicate_options)
-21-11 17:52:03   [sandhi] REJECTED Practice_hi_Set_05.txt: no version passed the checks — not written
 21-11 17:52:04   [Days_Dates] QA passed: editorial:Feynman_hi.txt
 21-11 17:52:04   [Days_Dates] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
 21-11 17:52:04   [Books_Authors] QA needs_reference: sources:Content_hi.txt
@@ -127,6 +121,11 @@
 21-11 17:56:31   [International_Orgs] QA passed: editorial:Feynman_hi.txt
 21-11 17:56:31   [International_Orgs] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
 21-11 17:56:31 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_21_International_Orgs: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_21_International_Orgs/QA.json'}
+21-11 17:57:02   [Defence] QA passed: editorial:Feynman_en.txt
+21-11 17:57:02   [Defence] QA needs_reference: sources:Feynman_en.txt
+21-11 17:57:29   [Defence] QA passed: editorial:Feynman_hi.txt
+21-11 17:57:29   [Defence] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
+21-11 17:57:29 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_22_Defence: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: - **Chief of Defence Staff (CDS)** — created in **December 2019**; the first CDS was **General Bipin Rawat**. The CDS is the single-point military adviser to the government and heads the **Department of Military Affairs**.', 'Fetch official supporting evidence for: **Trap 2 — Chronological Confusion (कालानुक्रमिक भ्रम):** *RAW (1968), NSG (1984), NIA (2008), CDS (2019).* Questions ask "which was formed first/latest" or pair a force with the wrong year — e.g., "BSF was formed in 1962" (wrong; BSF = 1965, ITBP = 1962).', 'Fetch official supporting evidence for: | First CDS | Gen. Bipin Rawat (2019) |']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: - **CDS (Chief of Defence Staff):** पद सृजित **दिसंबर 2019**; पहले CDS — **जनरल बिपिन रावत**। CDS, रक्षा मंत्रालय में **सैन्य मामलों का विभाग (Department of Military Affairs)** भी चलाता है।', 'Fetch official supporting evidence for: **अग्निपथ योजना (2022)** और **CDS पद (2019)** जैसे स्थैतिक तथ्य हाल के रक्षा सुधारों से जुड़े हैं। इसी तरह **INS विक्रांत का कमीशनिंग (2022)** स्वदेशी रक्षा निर्माण (आत्मनिर्भर भारत / Make in India) की दिशा का प्रतीक है। परीक्षाओं में "पहला स्वदेशी विमानवाहक पोत" जैसे प्रश्न इन्हीं घटनाओं से बनते हैं — करंट अफेयर्स में नए कमीशनिंग/अभ्यास देखते रहें।', 'Fetch official supporting evidence for: | पहले CDS | जनरल बिपिन रावत (2019) |']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_22_Defence/QA.json'}
 ````
 
 </details>
