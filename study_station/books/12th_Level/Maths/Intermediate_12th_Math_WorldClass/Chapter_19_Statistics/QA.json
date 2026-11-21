@@ -107,11 +107,81 @@
         "Content_hi.txt": "39e7f7e79cf053945c33103c7bad907c04d456bff67ee914436ccdd010a0cf82"
       },
       "checked_at": "2026-11-21T07:52:35+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "4518cf1b1f6e94f2d8d62d4bf533168bc55e6503f5ca3cb331f91d803ebd66f0",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "8c7d92fba36af5a8092fc1ceb823d2834f1d48b69148b47c51b8795ab554dcbb",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "39e7f7e79cf053945c33103c7bad907c04d456bff67ee914436ccdd010a0cf82",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:03:56+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "2cdcc453f1c2018a2167cdba5bc8b47123c44af2563b2da641e927d35b1da70d",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "8c7d92fba36af5a8092fc1ceb823d2834f1d48b69148b47c51b8795ab554dcbb",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "d97c3f7bbeb2ef0aa5cb610e0eb50737e9c6e45170307c35e4d551f6706b1690"
+      },
+      "checked_at": "2026-11-21T12:04:12+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "2b50e46beb819ea87bdd697aa77750bbb4721b42df2ad3ba868b435cc8b89802",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "8c7d92fba36af5a8092fc1ceb823d2834f1d48b69148b47c51b8795ab554dcbb",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "d97c3f7bbeb2ef0aa5cb610e0eb50737e9c6e45170307c35e4d551f6706b1690",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:04:12+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "128c8bb165d30d9e08511c74e9846b0616ec220937ad95557d40ce8db3a3bbf1",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- \"फेनमैनैन\" → \"फेनमैन\"",
+        "- \"सांख्यिकीकी\" → \"सांख्यिकी की\"",
+        "- \"प्रसरण\" repeated twice in same definition → remove duplicate",
+        "- \"माध्यिका\" repeated four times in same definition → keep once",
+        "- \"मानक विचलन\" repeated twice → keep once",
+        "- \"सबसे बड़ा हुएँ\" → \"सबसे बड़ा हुआ\"",
+        "- \"मामा\" (appears multiple times as standalone word) → likely corruption of \"माध्य\" (mean); replace with correct term",
+        "- \"अंकनहीं\" → unclear; likely \"अंक नहीं\" or \"अंकगणित\" — needs clarification",
+        "- Initial English editor note \"think of that. The bold formatting…\" included in content → remove",
+        "- Massive repetitive number sequences (250, 300, 350…) are not valid statistical examples → replace with proper dataset examples",
+        "- Hindi definitions do not correctly explain mean, median, mode, variance, standard deviation → rewrite with accurate definitions and worked examples"
+      ],
+      "dependencies": {
+        "chapter.json": "8c7d92fba36af5a8092fc1ceb823d2834f1d48b69148b47c51b8795ab554dcbb",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "571bf94194611ac7dc7dfc65907409fac70898b8a1f55366527baeae24d1123c"
+      },
+      "checked_at": "2026-11-21T12:04:36+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T07:52:35+00:00",
+  "updated_at": "2026-11-21T12:04:36+00:00",
   "chapter_fingerprint": "b39ae914f784b98719a545e92d141838db20db3e2be77f86e91ac374ba01442d"
 }

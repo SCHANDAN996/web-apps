@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 05:40 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 05:41 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,24 +11,24 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 121 मिनट |
-| W10 | Chapter 22 Number Series (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W11 | Chapter 23 Quadratic Equations (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W12 | Chapter 20 Probability (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W2 | Chapter 03 Modern History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W3 | Chapter 21 Permutation Combination (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W4 | Chapter 01 Ancient History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W6 | Chapter 18 Data Interpretation (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 17 मिनट |
-| W8 | Chapter 19 Statistics (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W9 | Chapter 02 Medieval History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 122 मिनट |
+| W10 | Chapter 22 Number Series (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W11 | Chapter 23 Quadratic Equations (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W12 | Chapter 20 Probability (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W2 | Chapter 03 Modern History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W3 | Chapter 21 Permutation Combination (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W4 | Chapter 01 Ancient History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W5 | Chapter 04 Constitution Basic (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 18 मिनट |
+| W8 | Chapter 19 Statistics (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W9 | Chapter 02 Medieval History (12th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 79 |
+| key 3 | 80 |
 | key 4 | 97 |
-| key 5 | 70 |
-| key 6 | 73 |
+| key 5 | 71 |
+| key 6 | 74 |
 
 ## किताबों की प्रगति
 
@@ -65,14 +65,14 @@
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 100/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 81/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 104/1794 |
-| 12th GK | 0 | 24 | 0 | 0 | 0 | 61/1872 |
+| 12th GK | 0 | 24 | 0 | 0 | 0 | 62/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 58/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 50/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 713/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 714/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,15 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 17:35:09   [Probability] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
-21-11 17:35:09 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_20_Probability: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- ताश के उदाहरण में लाल बादशाहों के सूट गलत बताए गए हैं: "हुकुम और पान का" लिखा है, जबकि हुकुम (Spades) काला होता है; लाल बादशाह पान (Hearts) और ईंट (Diamonds) के होते हैं → लाल बादशाह: 2 (पान और ईंट के)']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_20_Probability/QA.json'}
-21-11 17:35:35   [Permutation_Combination] QA needs_reference: sources:Content_hi.txt
-21-11 17:36:02   [Permutation_Combination] QA passed: editorial:Feynman_en.txt
-21-11 17:36:02   [Permutation_Combination] QA needs_reference: sources:Feynman_en.txt
-21-11 17:36:09   [Number_Series] QA needs_reference: sources:Content_hi.txt
-21-11 17:36:10   [Permutation_Combination] QA passed: editorial:Feynman_hi.txt
-21-11 17:36:11   [Permutation_Combination] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
-21-11 17:36:11 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_21_Permutation_Combination: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_21_Permutation_Combination/QA.json'}
 21-11 17:36:43   [Number_Series] QA passed: editorial:Feynman_en.txt
 21-11 17:36:43   [Number_Series] QA needs_reference: sources:Feynman_en.txt
 21-11 17:36:50   [Quadratic_Equations] QA needs_reference: sources:Content_hi.txt
@@ -126,6 +117,15 @@
 21-11 17:40:49   [Modern_History] QA passed: editorial:Feynman_hi.txt
 21-11 17:40:50   [Modern_History] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 2, "needs_reference": 3, "remaining": 75, 
 21-11 17:40:50 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_03_Modern_History: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- The claim "nearly 200 years of struggle, from the first sparks of 1857 to the final push of 1947" is factually incorrect (1857–1947 is ~90 years) → The period from 1857 to 1947 is about 90 years; nearly 200 years would refer to the period from the Battle of Plassey (1757) to 1947.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- वारेन हेस्टिंग्स को 1772 से गवर्नर जनरल (बंगाल) बताया गया है, जबकि वे 1772 में बंगाल के गवर्नर बने और 1774 में रेगुलेटिंग एक्ट 1773 के तहत पहले गवर्नर जनरल बने। → तालिका में 1772–85 की जगह 1774–85 (गवर्नर जनरल के रूप में) लिखें या भूमिका स्पष्ट करें।']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_03_Modern_History/QA.json'}
+21-11 17:41:24   [Constitution_Basic] QA passed: editorial:Feynman_en.txt
+21-11 17:41:41   [Constitution_Basic] QA needs_reference: sources:Feynman_en.txt
+21-11 17:41:41   [Constitution_Basic] QA blocked: editorial:Feynman_hi.txt
+21-11 17:41:41   [Constitution_Basic] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 2, "pending": 70, "blocked": 3, "needs_reference": 3, "remaining": 76, 
+21-11 17:41:42 QA 12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_04_Constitution_Basic: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 2, 'pending': 70, 'blocked': 3, 'needs_reference': 3, 'remaining': 76, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- "Today it has grown to 448 Articles and 12 Schedules" (current X is without a year) → Specify the year (e.g., "As of 2023, it has 448 Articles and 12 Schedules") or remove "Today".', '- "Master this, and 60% of Indian Polity becomes easy" (invented exam weightage statistic) → Remove the invented weightage claim "60% of Indian Polity becomes easy".', '- "Every question in SSC, Banking, Railway and State PCS exams on \'Polity\' begins from this chapter" (invented exam claim, factually incorrect) → Remove the absolute claim "Every question... begins from this chapter".']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: - The Preamble was held to be a **part of the Constitution** in the **Kesavananda Bharati case (1973)**.', "Fetch official supporting evidence for: 9. **Fundamental Duties** (Part IV-A) — added by the 42nd Amendment, 1976, on the recommendation of the **Swaran Singh Committee**; originally 10 duties, now **11** (86th Amendment, 2002 added the 11th — education of one's child).", 'Fetch official supporting evidence for: - Debates on the **basic structure doctrine** (Kesavananda Bharati, 1973) still appear in news whenever major constitutional amendments are discussed in Parliament.', 'Fetch official supporting evidence for: | 9 | Preamble part of Constitution (case) | Kesavananda Bharati, 1973 |', 'Fetch official supporting evidence for: | 10 | Fundamental Duties added by | 42nd Amendment, 1976 (Swaran Singh Committee) |']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- कुल सदस्य: 299 (ब्रिटिश प्रांतों से 292 + रियासतों से 93 का प्रावधान था; विभाजन के बाद संख्या घटी) → मूल प्रावधान 389 सदस्यों का था (ब्रिटिश प्रांतों से 292, रियासतों से 93, मुख्य आयुक्त प्रांतों से 4); विभाजन के बाद सदस्य संख्या 299 रह गई।']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- "10 में से 8 विद्यार्थी फँसते हैं" → आविष्कृत परीक्षा सांख्यिकी; इसे हटाएँ या साक्ष्य-आधारित दावे से बदलें']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/GK/Intermediate_12th_GK_WorldClass/Chapter_04_Constitution_Basic/QA.json'}
+21-11 17:41:42   [Polity] QA needs_reference: sources:Content_hi.txt
+21-11 17:41:59   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 3: re-solve disagrees (Q77 key d vs re-solve a, Q80 key a vs re-solve d, Q99 key d vs re-solve a)
+21-11 17:42:08   [Polity] QA passed: editorial:Feynman_en.txt
+21-11 17:42:09   [Polity] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>
