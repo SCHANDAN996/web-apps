@@ -1,34 +1,33 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 06:28 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 06:29 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 170 मिनट |
-| W10 | Chapter 03 Adjective (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W11 | Chapter 01 Noun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W12 | Chapter 02 Pronoun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W2 | Chapter 05 Tense (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W3 | Chapter 24 Statement Assumption (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W4 | Chapter 04 Verb (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W5 | Chapter 07 Preposition (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W6 | Chapter 23 Syllogism (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W7 | Chapter 06 Adverb (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W8 | Chapter 25 Statement Argument (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W9 | Chapter 08 Conjunction (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 171 मिनट |
+| W10 | Chapter 03 Adjective (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W11 | Chapter 01 Noun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W12 | Chapter 02 Pronoun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W2 | Chapter 05 Tense (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W3 | Chapter 09 Articles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W4 | Chapter 04 Verb (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W5 | Chapter 07 Preposition (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W6 | Chapter 23 Syllogism (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W7 | Chapter 06 Adverb (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W9 | Chapter 08 Conjunction (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 121 |
+| key 3 | 122 |
 | key 4 | 116 |
-| key 5 | 112 |
+| key 5 | 113 |
 | key 6 | 98 |
 
 ## किताबों की प्रगति
@@ -68,12 +67,12 @@
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 104/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 96/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 101/1950 |
-| 12th English | 0 | 25 | 0 | 0 | 0 | 62/2025 |
+| 12th English | 0 | 25 | 0 | 0 | 0 | 64/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 803/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 805/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,17 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 18:23:18   [Adjective] QA needs_reference: sources:Content_hi.txt
-21-11 18:24:01   [Adjective] QA passed: editorial:Feynman_en.txt
-21-11 18:24:08   [Noun] QA passed: editorial:Feynman_hi.txt
-21-11 18:24:21   [Adjective] QA needs_reference: sources:Feynman_en.txt
-21-11 18:24:21   [Noun] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 5, "pending": 73, "blocked": 0, "needs_reference": 3, "remaining": 76, 
-21-11 18:24:22 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_01_Noun: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 5, 'pending': 73, 'blocked': 0, 'needs_reference': 3, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_01_Noun/QA.json'}
-21-11 18:24:22   [Verb] QA needs_reference: sources:Content_hi.txt
-21-11 18:24:29   [Adjective] QA passed: editorial:Feynman_hi.txt
-21-11 18:24:30   [Adjective] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
-21-11 18:24:30 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_03_Adjective: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In Degree formation rules (क), the note for "brave → braver → bravest" says "(अंतिम \'e\' हटता है)" → The final \'e\' is not dropped; it is retained. For words ending in \'e\', simply add \'r\'/\'st\' (brave → braver → bravest).', '- In Rule 4 (Latin Comparatives) and the mnemonic "SJ-SIP", "prefer" is listed as a Latin comparative adjective → "prefer" is a verb, not an adjective; it should not be included in a list of Latin comparative adjectives.', '- In the Linguistic Contrast table and Summary table, "elder to" is given as correct predicative usage (e.g., "He is elder to me") → In standard English, "elder" is not used predicatively with "to"; the correct predicative form is "older than" (e.g., "He is older than me"). "Elder" is only used attributively (elder brother) or as a noun.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_03_Adjective/QA.json'}
-21-11 18:24:47   [Pronoun] QA blocked: editorial:Feynman_hi.txt
 21-11 18:24:47   [Pronoun] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 73, "blocked": 2, "needs_reference": 3, "remaining": 78, 
 21-11 18:24:47 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_02_Pronoun: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 73, 'blocked': 2, 'needs_reference': 3, 'remaining': 78, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ["- 'Every' is incorrectly listed as a pronoun in the Types table, Rule 1, and Summary Table; 'every' is a determiner, not a pronoun → remove 'every' from pronoun lists and restrict the singular-verb rule to true indefinite pronouns (each, everyone, everybody, etc.) and to noun phrases introduced by 'every'."]}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- The example correction for "One should do their duty" uses "his duty" → The correct singular pronoun for "one" is "one\'s duty" (or "his or her duty" in traditional grammar).']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_02_Pronoun/QA.json'}
 21-11 18:24:56   [Verb] QA passed: editorial:Feynman_en.txt
@@ -127,6 +115,17 @@
 21-11 18:29:13   [Articles] QA needs_reference: sources:Content_hi.txt
 21-11 18:29:44   [Conjunction] QA blocked: editorial:Feynman_en.txt
 21-11 18:29:44   [Conjunction] QA needs_reference: sources:Feynman_en.txt
+21-11 18:29:58   [Articles] QA passed: editorial:Feynman_en.txt
+21-11 18:29:59   [Conjunction] QA passed: editorial:Feynman_hi.txt
+21-11 18:30:11   [Articles] QA needs_reference: sources:Feynman_en.txt
+21-11 18:30:11   [Conjunction] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 73, "blocked": 2, "needs_reference": 3, "remaining": 78, 
+21-11 18:30:11 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_08_Conjunction: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 73, 'blocked': 2, 'needs_reference': 3, 'remaining': 78, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- "SSC CHSL, RRB NTPC और CGL Tier-1 में Conjunction से हर बार सवाल आते हैं" → यह एक आविष्कृत परीक्षा दावा है ("हर बार" निरपेक्ष आवृत्ति बिना वर्ष/साक्ष्य के); इसे योग्य बनाएँ या हटाएँ (जैसे "अक्सर पूछा जाता है")।', '- मूल-शब्द तालिका में "cor/co (लैटिन) | एक साथ" गलत है → "cor" लैटिन मूल है जिसका अर्थ "हृदय" होता है (जैसे cordial); "एक साथ" के लिए उपसर्ग "co-/com-" (लैटिन cum से) है; प्रविष्टि होनी चाहिए "co-/com- (लैटिन) | साथ, एकत्र"।']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- The subordinating conjunction test example misapplies the "delete the conjunction" trick: it checks "Although he was ill" (with conjunction) instead of the clause after deletion, making the trick appear to fail → Correct demonstration: the clause introduced by a subordinating conjunction cannot stand alone (e.g., "Although he was ill" is a fragment), so "although" is subordinating; the deletion step is unnecessary and misleading.']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_08_Conjunction/QA.json'}
+21-11 18:30:12   [Voice] QA needs_reference: sources:Content_hi.txt
+21-11 18:30:29   [Articles] QA passed: editorial:Feynman_hi.txt
+21-11 18:30:29   [Articles] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 5, "pending": 73, "blocked": 0, "needs_reference": 3, "remaining": 76, 
+21-11 18:30:29 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_09_Articles: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 5, 'pending': 73, 'blocked': 0, 'needs_reference': 3, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_09_Articles/QA.json'}
+21-11 18:30:38   [Voice] QA passed: editorial:Feynman_en.txt
+21-11 18:30:38   [Voice] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>
