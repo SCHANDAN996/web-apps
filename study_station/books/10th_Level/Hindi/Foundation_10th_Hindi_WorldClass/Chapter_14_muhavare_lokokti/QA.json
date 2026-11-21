@@ -83,11 +83,71 @@
         "Feynman_hi.txt": "d64ef70317bd151d6aeadb4e470f0f5390e2e319d482cc6acc6c9900ddd83cd9"
       },
       "checked_at": "2026-11-21T05:49:21+00:00"
+    },
+    "sources:Feynman_hi.txt": {
+      "fingerprint": "cb4388707b461e6eb4d232d29e5a89a0dac1086a8b2513b2294936f410cd8758",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "9178f780b6d3b6ef52dc8dc108a9f5aef9ce5a81f7b3a83c7d6e4a5568adb619",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Feynman_hi.txt": "d64ef70317bd151d6aeadb4e470f0f5390e2e319d482cc6acc6c9900ddd83cd9",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:28:16+00:00"
+    },
+    "editorial:Flashcards_hi.txt": {
+      "fingerprint": "5a5a3975481725bfa11c8467a3e9593aae74281be034e361aaecb5e49025f517",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "9178f780b6d3b6ef52dc8dc108a9f5aef9ce5a81f7b3a83c7d6e4a5568adb619",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Flashcards_hi.txt": "d993f49778dfb258ca667819fa13e9df8eb28e15fa446a2615e47928c78c8cd3"
+      },
+      "checked_at": "2026-11-21T10:34:17+00:00"
+    },
+    "sources:Flashcards_hi.txt": {
+      "fingerprint": "5b6463d9d34539a918d1e4d29403b49fbcf27561dd873390a3a879200e7e29ee",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "9178f780b6d3b6ef52dc8dc108a9f5aef9ce5a81f7b3a83c7d6e4a5568adb619",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Flashcards_hi.txt": "d993f49778dfb258ca667819fa13e9df8eb28e15fa446a2615e47928c78c8cd3",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:34:17+00:00"
+    },
+    "editorial:Important_Rules_hi.txt": {
+      "fingerprint": "31b30b2c80419e7475b55e51815ba072404b2be0b48332f236199a3f82ed0f5b",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- नियम ५ में \"घर का भेदी लंका ढाए\" की व्याख्या \"विश्वासघाती अपना ही नुकसान करता है\" गलत है → सही व्याख्या: \"घर का भेदिया ही घर/संगठन को बर्बाद करता है\" (विभीषण ने लंका का नाश कराया, अपना नहीं)"
+      ],
+      "dependencies": {
+        "chapter.json": "9178f780b6d3b6ef52dc8dc108a9f5aef9ce5a81f7b3a83c7d6e4a5568adb619",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Important_Rules_hi.txt": "efee921e3f6db6992515d17010985303d81fe2c199fc4264fdcc7fba74677596"
+      },
+      "checked_at": "2026-11-21T10:38:26+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T05:49:21+00:00",
-  "chapter_fingerprint": "bcb8e2eaf89423edeb0775d9df0becbb25c379ef49498eadf11537f80547d59d"
+  "updated_at": "2026-11-21T10:38:26+00:00",
+  "chapter_fingerprint": "a9f2b7d1f0403b43fe6a556937d6bb743d9427e08c22b58aebc44033c5472a57"
 }

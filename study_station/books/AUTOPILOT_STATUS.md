@@ -1,34 +1,33 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 04:09 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 04:10 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
-| W10 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
-| W11 | Chapter 08 World Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W12 | Chapter 14 muhavare lokokti (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 30 मिनट |
-| W3 | Chapter 04 Constitution Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W4 | Chapter 06 Physical Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W5 | Chapter 03 Modern History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W6 | Chapter 15 vakya shuddhi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W7 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W8 | Chapter 07 States Rivers (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W9 | Chapter 05 Polity (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 32 मिनट |
+| W10 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
+| W11 | Chapter 08 World Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W12 | Chapter 14 muhavare lokokti (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 31 मिनट |
+| W4 | Chapter 06 Physical Geography (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W5 | Chapter 03 Modern History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W6 | Chapter 09 Economy Basic (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W7 | Chapter 02 Medieval History (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W8 | Chapter 07 States Rivers (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W9 | Chapter 05 Polity (10th GK) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 15 |
-| key 4 | 32 |
-| key 5 | 24 |
+| key 4 | 33 |
+| key 5 | 26 |
 | key 6 | 7 |
 
 ## किताबों की प्रगति
@@ -61,7 +60,7 @@
 |---|---:|---:|---:|---:|---:|---:|
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 48/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 52/1092 |
-| 10th GK | 0 | 19 | 0 | 0 | 0 | 50/1482 |
+| 10th GK | 0 | 19 | 0 | 0 | 0 | 53/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 51/1622 |
@@ -73,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 537/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 540/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,10 +82,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 16:05:54 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_13_networking: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Wireless Standards table incorrectly labels 802.11b as Wi‑Fi 1, 802.11a as Wi‑Fi 2, and 802.11g as Wi‑Fi 3 → The Wi‑Fi Alliance generational numbering starts at Wi‑Fi 4 (802.11n); 802.11b/a/g have no official Wi‑Fi generation numbers.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_13_networking/QA.json'}
-21-11 16:05:56   [Ancient_History] QA passed: editorial:Feynman_en.txt
-21-11 16:05:56   [Ancient_History] QA needs_reference: sources:Feynman_en.txt
-21-11 16:06:18   [Ancient_History] QA passed: editorial:Feynman_hi.txt
 21-11 16:06:29   [Ancient_History] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
 21-11 16:06:29 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_01_Ancient_History: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: Nalanda University: The ancient mahavihara was destroyed around the end of the 12th century. A new Nalanda University was set up by an Act of Parliament in 2010; teaching began in 2014, and its new campus at Rajgir (Bihar) was inaugurated on 19 June 2024.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: सच्चाई: स्वर्ण युग का कारण सांस्कृतिक उन्नति (कालिदास, आर्यभट, मंदिर, मूर्तिकला) है। सिक्के अलग तथ्य हैं: NCERT के अनुसार पहले सोने के सिक्के लगभग पहली शताब्दी ईस्वी में कुषाणों ने जारी किए, जबकि सबसे शानदार सोने के सिक्के गुप्त शासकों ने जारी किए।']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_01_Ancient_History/QA.json'}
 21-11 16:06:30   [Polity] QA needs_reference: sources:Content_hi.txt
@@ -123,6 +118,10 @@
 21-11 16:10:30   [Physical_Geography] QA passed: editorial:Feynman_hi.txt
 21-11 16:10:30   [Physical_Geography] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
 21-11 16:10:30 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_06_Physical_Geography: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_06_Physical_Geography/QA.json'}
+21-11 16:10:56   [sandhi] Practice_hi_Set_01.txt try 3: re-solve disagrees (Q2 key c vs re-solve a, Q10 key b vs re-solve a, Q11 key b vs re-solve ?, Q18 key a vs re-solve c, Q
+21-11 16:11:27   [Polity] QA passed: editorial:Feynman_hi.txt
+21-11 16:11:27   [Polity] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
+21-11 16:11:27 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_05_Polity: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Article 45 did not become a Fundamental Right; the 86th Amendment inserted Article 21A as a new Fundamental Right and amended Article 45 to cover early childhood care and education for children up to 6 years → The 86th Amendment added Article 21A (Right to Education) as a Fundamental Right and substituted Article 45 to provide for early childhood care and education for children up to 6 years.', '- "Current Supreme Court judge strength 34" states a current fact without a year reference → Specify the year (e.g., "As of 2019, Supreme Court judge strength is 34") or remove "Current".']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: USSR\tFundamental Duties (added later in 1976)', 'Fetch official supporting evidence for: In the Kesavananda Bharati case (1973), the Supreme Court ruled that the Preamble can be amended, but the basic structure of the Constitution cannot be destroyed.', 'Fetch official supporting evidence for: Dr. Ambedkar called Article 32 the “heart and soul of the Constitution” because it allows you to directly approach the Supreme Court if any Fundamental Right is violated. The 44th Amendment (1978) removed the Right to Property from the Fundamental Rights list; it is now a legal right under Article 300A.', 'Fetch official supporting evidence for: Article 44 (Uniform Civil Code) and Article 45 (free and compulsory education for children) are the most questioned DPSPs. Article 45 later became a Fundamental Right through Article 21A by the 86th Amendment (2002).', 'Fetch official supporting evidence for: Originally, the Constitution had no Fundamental Duties. The 42nd Amendment (1976) added 10 duties inspired by the USSR Constitution. The 86th Amendment (2002) added an 11th duty — to provide opportunities for education to children between 6 and 14 years.', 'Fetch official supporting evidence for: Basic Structure Doctrine — Kesavananda Bharati (1973).']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: Article 368 gives Parliament the power to amend any part of the Constitution. From 1951 to 1973, Parliament used that power to even change Fundamental Rights. Then came the Kesavananda Bharati case (1973) — the Supreme Court said: “Stop! You can amend everything, but you cannot destroy the basic structure of the Constitution. Some things are so fundamental that without them the Constitution would lose its identity.”']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_05_Polity/QA.json'}
 ````
 
 </details>
