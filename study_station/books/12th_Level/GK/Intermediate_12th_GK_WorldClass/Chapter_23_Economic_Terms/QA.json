@@ -65,15 +65,72 @@
         }
       },
       "checked_at": "2026-11-21T08:19:31+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "c9ad5234ec01665cb14515fe44ba00caf755c8344656538ed0fcb8e340343ab7",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Chat line \"And here is the surprise:\" → Remove the conversational phrase."
+      ],
+      "dependencies": {
+        "chapter.json": "01d4229365979f3332aa88ae90bcbcee6229610fd84e9a5f4d4e87efd3e260ed",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "4e504cb92a6b1367354d37fb91af4844e4d4f56de6acb176f15c07d45eab1456"
+      },
+      "checked_at": "2026-11-21T12:29:24+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "25efe39e280e767941e90ac6f4f18b5837cf902377828f9538cecdf0dfa23606",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "01d4229365979f3332aa88ae90bcbcee6229610fd84e9a5f4d4e87efd3e260ed",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "4e504cb92a6b1367354d37fb91af4844e4d4f56de6acb176f15c07d45eab1456",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:29:24+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "96e198bcd695f4da4dbeade123a181584ac3a591141f20fa098f3d42a588a989",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "01d4229365979f3332aa88ae90bcbcee6229610fd84e9a5f4d4e87efd3e260ed",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "9295f6c324554253466088eff66bbf7cf0ef12252dcdbbcbe5c4cefc44662ad1"
+      },
+      "checked_at": "2026-11-21T12:31:18+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "b05b03dba9b81acf223f33e08765069e512a0f2e3939bd2431cc2091dc106990",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: - **IMF** (1945, मुख्यालय वाशिंगटन), **विश्व बैंक** (1944, वाशिंगटन), **WTO** (1 जनवरी 1995, जिनेवा — GATT का उत्तराधिकारी), **ADB** (1966, मनिला), **AIIB** (2016, बीजिंग), **NDB/BRICS बैंक** (2015, शंघाई)।",
+        "Fetch official supporting evidence for: - **बैंकों का राष्ट्रीयकरण**: 1969 में 14 बैंक, 1980 में 6 और।"
+      ],
+      "dependencies": {
+        "chapter.json": "01d4229365979f3332aa88ae90bcbcee6229610fd84e9a5f4d4e87efd3e260ed",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "9295f6c324554253466088eff66bbf7cf0ef12252dcdbbcbe5c4cefc44662ad1",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T12:31:18+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T08:45:17+00:00",
-  "last_error": {
-    "check": "editorial:Content_en.txt",
-    "error": "too_long",
-    "at": "2026-11-21T08:45:17+00:00"
-  }
+  "updated_at": "2026-11-21T12:31:18+00:00",
+  "chapter_fingerprint": "ce1d695f7158f65cd1cc9471b7547a0dc647f12ae449e0c3ae493fd0e1f9aa77"
 }
