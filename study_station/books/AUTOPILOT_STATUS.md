@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 03:49 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 03:50 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
@@ -11,23 +11,23 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 10 मिनट |
-| W10 | Chapter 02 shabd bhed (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W11 | Chapter 02 input output ports (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 10 मिनट |
-| W3 | Chapter 01 varn vartani (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W4 | Chapter 08 excel (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W5 | Chapter 06 kaal vachya (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W6 | Chapter 07 word (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W7 | Chapter 05 windows files (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W8 | Chapter 08 samas (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W9 | Chapter 06 keyboard shortcuts (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 11 मिनट |
+| W10 | Chapter 02 shabd bhed (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W11 | Chapter 02 input output ports (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W12 | Chapter 09 upsarg pratyay (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 11 मिनट |
+| W3 | Chapter 01 varn vartani (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W4 | Chapter 08 excel (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W5 | Chapter 06 kaal vachya (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W6 | Chapter 07 word (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W7 | Chapter 05 windows files (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W8 | Chapter 08 samas (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 9 |
-| key 4 | 9 |
-| key 5 | 4 |
+| key 4 | 10 |
+| key 5 | 5 |
 | key 6 | 5 |
 
 ## किताबों की प्रगति
@@ -59,7 +59,7 @@
 | किताब | QA पास | जाँच बाकी | प्रमाण बाकी | सुधार अटका | मैनुअल | जाँचें पास / कुल |
 |---|---:|---:|---:|---:|---:|---:|
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 36/540 |
-| 12th Computer | 0 | 14 | 0 | 0 | 0 | 38/1092 |
+| 12th Computer | 0 | 14 | 0 | 0 | 0 | 39/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 43/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 62/1606 |
@@ -72,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 504/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 505/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -82,14 +82,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 15:44:47   [visheshan_kriya] QA passed: editorial:Important_Rules_hi.txt
-21-11 15:45:02   [visheshan_kriya] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 3, "pending": 28, "blocked": 2, "needs_reference": 3, "remaining": 33, 
-21-11 15:45:02 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 3, 'pending': 28, 'blocked': 2, 'needs_reference': 3, 'remaining': 33, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Section 1.1 rule "विशेषण हमेशा संज्ञा/सर्वनाम के लिंग, वचन, कारक के अनुसार बदलता है" → False: अरूपांतरित विशेषण (e.g., सुंदर, लाल, होशियार) never change; rule should specify only रूपांतरित विशेषण change.', '- Section 3 exam formula "यदि शब्द के बाद है/हैं/था/थे/होगा/होंगे आए → क्रिया" → Incorrect: adjectives also follow copula (e.g., "वह अच्छा है" where अच्छा is adjective); the heuristic fails.', '- Example 1 classifies "बहुत" as संख्यावाचक विशेषण when modifying adjective "सुंदर" → In standard Hindi grammar "बहुत" modifying an adjective is a क्रिया विशेषण (adverb of degree), not a विशेषण.', '- Common Errors #7 labels error as "संख्यावाचक विशेषण का गलत क्रम" but corrections are spelling (पांचों→पाँचों) and verb agreement (होती→होतीं), not word order.']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Flashcards_hi.txt', 'status': 'blocked', 'issues': ['- Card 16 identifies verb as "खाते" only → The verb in the sentence is "खाते हैं" (including auxiliary "हैं").']}, {'check': 'sources:Flashcards_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_04_visheshan_kriya/QA.json'}
-21-11 15:45:02   [kaal_vachya] QA needs_reference: sources:Feynman_hi.txt
-21-11 15:45:10   [software_os] QA passed: editorial:Feynman_hi.txt
-21-11 15:45:10   [software_os] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
-21-11 15:45:10 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: NCERT Class 11 Computer Science', 'Fetch official supporting evidence for: Standard OS textbooks (Silberschatz, Galvin, Gagne)', 'Fetch official supporting evidence for: Operating System Concepts', 'Fetch official supporting evidence for: Microsoft Learn — FAT32 Specification', 'Fetch official supporting evidence for: Linux Documentation Project — File Permissions', 'Fetch official supporting evidence for: Browser vendor documentation (Google Chrome Help, Microsoft Edge Help, Mozilla Support)']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_04_software_os/QA.json'}
-21-11 15:45:43   [organization_cpu] QA blocked: editorial:Feynman_hi.txt
 21-11 15:45:59   [organization_cpu] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 2, "needs_reference": 3, "remaining": 75, 
 21-11 15:46:00 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_01_organization_cpu: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Example 5 states "Address bus width = word length (typically)" → Word length (internal data width) and address bus width are independent; they can differ (e.g., 8086 is 16-bit word with 20-bit address bus). The 4\u202fGB answer assumes a 32-bit address bus, not word length.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- Korean word "실행" (silhaeng) used in Hindi text for "execute" → replace with Hindi "निष्पादित करता है" or "क्रियान्वित करता है"']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_01_organization_cpu/QA.json'}
 21-11 15:46:00   [keyboard_shortcuts] QA needs_reference: sources:Content_hi.txt
@@ -122,6 +114,14 @@
 21-11 15:49:46   [word] QA passed: editorial:Feynman_hi.txt
 21-11 15:49:46   [word] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 2, "needs_reference": 3, "remaining": 75, 
 21-11 15:49:46 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- "Default line spacing: 1.08 (single) with 8 pt after paragraph" → The default line spacing is 1.08 lines (Multiple), not the "Single" preset; the "Single" preset uses 1.0 line spacing.', '- "Default font (Word 2016+): Calibri 11 pt" → For Microsoft 365 (included in the book\'s scope), the default font has been Aptos since 2023, not Calibri.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: Microsoft Word is a word-processing application used to create, edit, format, and print documents. In SSC, Railway, and Banking exams, questions test practical knowledge of the interface, shortcut keys, formatting tools, mail merge, tables, and document protection. The concepts below are version-agnostic (applicable to Word 2010 onward, including Microsoft 365) and drawn from official Microsoft Support documentation.']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- स्रोत उद्धरण में CERT-In सुरक्षा परामर्श और RBI साइबर सुरक्षा ढांचा को Word अवधारणाओं के स्रोत के रूप में सूचीबद्ध किया गया है, जो तथ्यात्मक रूप से गलत है → स्रोत सूची से CERT-In और RBI को हटाएँ; केवल Microsoft Support और Microsoft Learn रखें।']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word/QA.json'}
+21-11 15:50:17   [excel] QA blocked: editorial:Feynman_en.txt
+21-11 15:50:32   [excel] QA needs_reference: sources:Feynman_en.txt
+21-11 15:50:33   [powerpoint] QA needs_reference: sources:Content_hi.txt
+21-11 15:50:49   [samas] QA passed: editorial:Flashcards_hi.txt
+21-11 15:50:49   [samas] QA needs_reference: sources:Flashcards_hi.txt
+21-11 15:50:56   [excel] QA passed: editorial:Feynman_hi.txt
+21-11 15:50:56   [excel] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 2, "needs_reference": 3, "remaining": 75, 
+21-11 15:50:56 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_08_excel: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- स्तंभ छिपाने/दिखाने के शॉर्टकट में `Ctrl + Shift + 0` गलत है → `Ctrl + Shift + )` सही है', '- `SUBTOTAL(109, रेंज)` और `AGGREGATE(9, 5, रेंज)` छिपे स्तंभों को अनदेखा नहीं करते → ये केवल छिपी पंक्तियों को अनदेखा करते हैं']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- In Core Concepts #7, the shortcut for current time is listed as `Ctrl+Shift+:` → should be `Ctrl+Shift+;` (semicolon)', '- In Recall Question 5 explanation, the shortcut for current time is listed as `Ctrl+Shift+:` → should be `Ctrl+Shift+;` (semicolon)']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_08_excel/QA.json'}
 ````
 
 </details>

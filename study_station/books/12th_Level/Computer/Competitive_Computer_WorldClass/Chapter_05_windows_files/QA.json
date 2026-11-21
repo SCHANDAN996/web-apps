@@ -110,11 +110,72 @@
         "Content_hi.txt": "ab7d3f124db6a894ac84c00583c3d260e8b4313b89aaf2d51c3db5260622c040"
       },
       "checked_at": "2026-11-21T05:32:37+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "cd7c9e6f066ec4fdc76408057dc6dc65146a8ac93896afa441b52e2035f5b37e",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "2a2f19b0950c31ee5160db368e74cbd6100d25f1867f5332ab62cc89b1705450",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "ab7d3f124db6a894ac84c00583c3d260e8b4313b89aaf2d51c3db5260622c040",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:10:50+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "4fc8d43262196a34814fbae88e771163d5366598c7a6dd6551507de3e4953775",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "2a2f19b0950c31ee5160db368e74cbd6100d25f1867f5332ab62cc89b1705450",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "77ba639df25656842b6a2e102ec6d7f7f76d24c0d6b6dbb08366cbca8ca35914"
+      },
+      "checked_at": "2026-11-21T10:17:05+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "fec19a888bf2aac5d3b31eaaf8d40b12dd10cea79117a9db1482795927e4a75a",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "2a2f19b0950c31ee5160db368e74cbd6100d25f1867f5332ab62cc89b1705450",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "77ba639df25656842b6a2e102ec6d7f7f76d24c0d6b6dbb08366cbca8ca35914",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:17:06+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "f39f5c6f47d30622f4f23c27a25067812142080f55435125ee635998fc7631ef",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The search example `ext:.pdf` is incorrect; the correct Windows Search syntax for extension filter is `ext:pdf` (without the dot).",
+        "- The note claiming `Ctrl + T` and `Ctrl + W` do not work in Windows Explorer is false; in Windows 11 `Ctrl+T` opens a new tab and `Ctrl+W` closes the tab, and in Windows 10 `Ctrl+W` closes the window."
+      ],
+      "dependencies": {
+        "chapter.json": "2a2f19b0950c31ee5160db368e74cbd6100d25f1867f5332ab62cc89b1705450",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "5727ac951c6cf12d984f8b417b1a59e6497fe6769f08820a05579bab66ed962a"
+      },
+      "checked_at": "2026-11-21T10:19:34+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T05:32:37+00:00",
+  "updated_at": "2026-11-21T10:19:34+00:00",
   "chapter_fingerprint": "1bdd0140117f0f8b0665fbb5a52c8604eec8fb802d7fc3f2865ca3fa19f388f2"
 }
