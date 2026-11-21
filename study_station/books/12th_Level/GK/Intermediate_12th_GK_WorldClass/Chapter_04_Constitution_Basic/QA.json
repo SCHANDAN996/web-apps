@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "af20bfc55853ec3e44e79e06965bf41b11ecde6f756adf6df0f594c382d72ba4",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "61011b06a9961ea59114e8cfa0c93949bd4f4e268eab37462a422ef37ecc3c0d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "eefe6cc6195e15defa17b2d922b4ef5bd37aa89f7237dfa4f5dbd879aeba61ad",
+        "Content_hi.txt": "b01a7091ee6569552161fb61bb395750877944b7c8250571eb8e5513f245f0a4",
+        "Feynman_en.txt": "e4a550f75abcd8f0fdbca9cccc8d1e1d970cb108f34522200911ccb6a4a4831e",
+        "Feynman_hi.txt": "62d031f4303de0adc305d1d7e4359cae2cb18af0684ce35d0001d7693176309f",
+        "Flashcards_en.txt": "f80e77697952dcaf489657add32f840f826213bd82f81036c5d7eb902d54cdfd",
+        "Flashcards_hi.txt": "796249041ac0accaecff7994e2318e52bbddb91df8b29ea3a465af4073462d21",
+        "Key_Facts_en.txt": "a43dc1d6d1afa9e7d0a96147feccd0faf1d3ad29cd42da504215bc2cb672763b",
+        "Key_Facts_hi.txt": "8fce0a3550f3fc4639a023332bfa69bc1565f3d1ce1c6958c53c15fecd98c3a4",
+        "Memory_Hooks_en.txt": "e05456b845d3f98294836c06d1878c113ae7696aaae73dd8db696947430f3840",
+        "Memory_Hooks_hi.txt": "e6d0d42a55a02e2759de4abb165b60694216790400711c6dee7922a33f369109",
+        "Mind_Map.txt": "aede5ecc8bd9dd78ceebe94fda8779f7b86eee6715aa71ccd1b1c011e753fd53",
+        "PYQ_en.txt": "497be151206d08905bd564cc0f6070d234eff3a6ab3ec71ab45089505f024712",
+        "PYQ_hi.txt": "73acacf1101974973e2021368b15dea0c303c4a217590360c902d69b3ee443d6",
+        "Practice_en_Set_01.txt": "1a843bf6adc55ab04d679e356358520321c44afe97263f20dce856e7a908ab75",
+        "Practice_en_Set_02.txt": "86699640b0d392b2f3b1ba6662a9fb593007bf4f7d1b7c94c28f474810de6ef9",
+        "Practice_en_Set_03.txt": "f05d152f6f472682ba54e25df6bee7ea12d005bf6c0e36ce313aa6b3d021d873",
+        "Practice_en_Set_04.txt": "22b8b46e72f3168102c0aaee57f263f1cf5e2dc98b36f8cb01c7605637646ffd",
+        "Practice_en_Set_05.txt": "ba2092e13dcc94bb8ff21c0951811d9cd91885030d5045e7b9eaec67c418d763",
+        "Practice_en_Set_06.txt": "b0080638e29891e46ae725d0436572f09e97f7bf17ef069188f20df18c85cef8",
+        "Practice_hi_Set_01.txt": "1b4cd75ae22d66a7ebd3525feaeb6436b209b9e1f91692bf6e2c21f4e8caeb85",
+        "Practice_hi_Set_02.txt": "d322888e14f91966d307ee3428c2b06ecd14c0aea4bed860ce0694b2c9199d25",
+        "Practice_hi_Set_03.txt": "b6fd4fa740cf6471117323a3a87c520635e048b5f2285878262fc823ca43fb10",
+        "Practice_hi_Set_04.txt": "c4951f4c02b181e849f3aa73888e675521402b2f0ceee8ecc6b47228a79b1049",
+        "Practice_hi_Set_05.txt": "0f7b04acf36ff74432c550e4e5fa4348703fb754abe2663b94159a82d8060c91",
+        "Practice_hi_Set_06.txt": "4d7388ad6967dd8d793d40a618ddd740e902e40d85c35c60106bb8439bbb54c6",
+        "inventory": {
+          "Content_en.txt": "eefe6cc6195e15defa17b2d922b4ef5bd37aa89f7237dfa4f5dbd879aeba61ad",
+          "Content_hi.txt": "b01a7091ee6569552161fb61bb395750877944b7c8250571eb8e5513f245f0a4",
+          "Feynman_en.txt": "e4a550f75abcd8f0fdbca9cccc8d1e1d970cb108f34522200911ccb6a4a4831e",
+          "Feynman_hi.txt": "62d031f4303de0adc305d1d7e4359cae2cb18af0684ce35d0001d7693176309f",
+          "Flashcards_en.txt": "f80e77697952dcaf489657add32f840f826213bd82f81036c5d7eb902d54cdfd",
+          "Flashcards_hi.txt": "796249041ac0accaecff7994e2318e52bbddb91df8b29ea3a465af4073462d21",
+          "Key_Facts_en.txt": "a43dc1d6d1afa9e7d0a96147feccd0faf1d3ad29cd42da504215bc2cb672763b",
+          "Key_Facts_hi.txt": "8fce0a3550f3fc4639a023332bfa69bc1565f3d1ce1c6958c53c15fecd98c3a4",
+          "Memory_Hooks_en.txt": "e05456b845d3f98294836c06d1878c113ae7696aaae73dd8db696947430f3840",
+          "Memory_Hooks_hi.txt": "e6d0d42a55a02e2759de4abb165b60694216790400711c6dee7922a33f369109",
+          "Mind_Map.txt": "aede5ecc8bd9dd78ceebe94fda8779f7b86eee6715aa71ccd1b1c011e753fd53",
+          "PYQ_en.txt": "497be151206d08905bd564cc0f6070d234eff3a6ab3ec71ab45089505f024712",
+          "PYQ_hi.txt": "73acacf1101974973e2021368b15dea0c303c4a217590360c902d69b3ee443d6",
+          "Practice_en_Set_01.txt": "1a843bf6adc55ab04d679e356358520321c44afe97263f20dce856e7a908ab75",
+          "Practice_en_Set_02.txt": "86699640b0d392b2f3b1ba6662a9fb593007bf4f7d1b7c94c28f474810de6ef9",
+          "Practice_en_Set_03.txt": "f05d152f6f472682ba54e25df6bee7ea12d005bf6c0e36ce313aa6b3d021d873",
+          "Practice_en_Set_04.txt": "22b8b46e72f3168102c0aaee57f263f1cf5e2dc98b36f8cb01c7605637646ffd",
+          "Practice_en_Set_05.txt": "ba2092e13dcc94bb8ff21c0951811d9cd91885030d5045e7b9eaec67c418d763",
+          "Practice_en_Set_06.txt": "b0080638e29891e46ae725d0436572f09e97f7bf17ef069188f20df18c85cef8",
+          "Practice_hi_Set_01.txt": "1b4cd75ae22d66a7ebd3525feaeb6436b209b9e1f91692bf6e2c21f4e8caeb85",
+          "Practice_hi_Set_02.txt": "d322888e14f91966d307ee3428c2b06ecd14c0aea4bed860ce0694b2c9199d25",
+          "Practice_hi_Set_03.txt": "b6fd4fa740cf6471117323a3a87c520635e048b5f2285878262fc823ca43fb10",
+          "Practice_hi_Set_04.txt": "c4951f4c02b181e849f3aa73888e675521402b2f0ceee8ecc6b47228a79b1049",
+          "Practice_hi_Set_05.txt": "0f7b04acf36ff74432c550e4e5fa4348703fb754abe2663b94159a82d8060c91",
+          "Practice_hi_Set_06.txt": "4d7388ad6967dd8d793d40a618ddd740e902e40d85c35c60106bb8439bbb54c6"
+        }
+      },
+      "checked_at": "2026-11-21T08:00:12+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "af850f0d8e3c3c5d940513c35c2e460ec568e515ca0b26aac0d0af8747fd1ca3",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- \"Today it has grown to 448 Articles and 12 Schedules\" (current X is without a year) → Specify the year (e.g., \"As of 2023, it has 448 Articles and 12 Schedules\") or remove \"Today\".",
+        "- \"Master this, and 60% of Indian Polity becomes easy\" (invented exam weightage statistic) → Remove the invented weightage claim \"60% of Indian Polity becomes easy\".",
+        "- \"Every question in SSC, Banking, Railway and State PCS exams on 'Polity' begins from this chapter\" (invented exam claim, factually incorrect) → Remove the absolute claim \"Every question... begins from this chapter\"."
+      ],
+      "dependencies": {
+        "chapter.json": "61011b06a9961ea59114e8cfa0c93949bd4f4e268eab37462a422ef37ecc3c0d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "eefe6cc6195e15defa17b2d922b4ef5bd37aa89f7237dfa4f5dbd879aeba61ad"
+      },
+      "checked_at": "2026-11-21T08:05:06+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "66c59969d5796e6136dabe41299dfa62788075bafa24ff70c76c04fdec8f2632",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: - The Preamble was held to be a **part of the Constitution** in the **Kesavananda Bharati case (1973)**.",
+        "Fetch official supporting evidence for: 9. **Fundamental Duties** (Part IV-A) — added by the 42nd Amendment, 1976, on the recommendation of the **Swaran Singh Committee**; originally 10 duties, now **11** (86th Amendment, 2002 added the 11th — education of one's child).",
+        "Fetch official supporting evidence for: - Debates on the **basic structure doctrine** (Kesavananda Bharati, 1973) still appear in news whenever major constitutional amendments are discussed in Parliament.",
+        "Fetch official supporting evidence for: | 9 | Preamble part of Constitution (case) | Kesavananda Bharati, 1973 |",
+        "Fetch official supporting evidence for: | 10 | Fundamental Duties added by | 42nd Amendment, 1976 (Swaran Singh Committee) |"
+      ],
+      "dependencies": {
+        "chapter.json": "61011b06a9961ea59114e8cfa0c93949bd4f4e268eab37462a422ef37ecc3c0d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "eefe6cc6195e15defa17b2d922b4ef5bd37aa89f7237dfa4f5dbd879aeba61ad",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T08:05:06+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "75590bf2279fa2e2646805889b68b3d6174c3ab6ad7cb30e218cbe770e9db1e6",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- कुल सदस्य: 299 (ब्रिटिश प्रांतों से 292 + रियासतों से 93 का प्रावधान था; विभाजन के बाद संख्या घटी) → मूल प्रावधान 389 सदस्यों का था (ब्रिटिश प्रांतों से 292, रियासतों से 93, मुख्य आयुक्त प्रांतों से 4); विभाजन के बाद सदस्य संख्या 299 रह गई।"
+      ],
+      "dependencies": {
+        "chapter.json": "61011b06a9961ea59114e8cfa0c93949bd4f4e268eab37462a422ef37ecc3c0d",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "b01a7091ee6569552161fb61bb395750877944b7c8250571eb8e5513f245f0a4"
+      },
+      "checked_at": "2026-11-21T08:18:54+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T08:18:54+00:00",
+  "chapter_fingerprint": "91112f98d7310a638aac53fa1af208544a309db4c570744a3e64502a654efea6"
+}
