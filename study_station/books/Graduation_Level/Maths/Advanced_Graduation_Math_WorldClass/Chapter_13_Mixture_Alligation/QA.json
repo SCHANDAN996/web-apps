@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "be496586acf4f28f44660c668c9519a90e9d9780fc612153cd03d0d682f0f349",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "55e64a945a8f6ef6fcb1977d935060e0c6b8dd0e73b3ff2527a0778ab05095f4",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "4b1cf63e22b016c2385fbe550652fe15b3f8d168dbcdc28670f4923e5ccdffc1",
+        "Content_hi.txt": "7f081649cf90eef24b29f2cdfde3890f3bb80d4b2674e357f681af861fd8341c",
+        "Feynman_en.txt": "d2b04b4b5ce61eaf3c49b4bf3963addb430dcefd1aeef72f5507ff9caf67ceba",
+        "Feynman_hi.txt": "1310f78805dd021a6847d4f95b10dd9ef107df2eb8f8bf30eecad9bbcbdd6a15",
+        "Flashcards_en.txt": "db31ffd5be980bbf1f526b745f7bdfdb9960ed40dd1e5096055e67115c9148dc",
+        "Flashcards_hi.txt": "ff87e28a0a87f128537a1045e6949c3b2acd771a5cd3fd08f92d6fe59b847653",
+        "Important_Formulas_en.txt": "d3bc31033f46dda251d7a5d910c7654b949892fb005488a55a490cab04c8c5ff",
+        "Important_Formulas_hi.txt": "1a78a10dcaee4e63375eb2e7fc6efdba2685d2f1283ddb65d176f8292a5757a9",
+        "Mind_Map.txt": "da8d7ccc9b931cfdabe048198cc2647dd5a13d2a348a7377fc0be80642b10dd8",
+        "PYQ_en.txt": "8203881575780f81bf84d8e251161e1f679b41438520e695eb4a0b2af4b303ed",
+        "PYQ_hi.txt": "893df98373b3342f8b3222b7888446c9f0fc662137db98e8b44979e6b4f855bc",
+        "Practice_en_Set_01.txt": "bb10c2485a679f372ca6fd85e94e9d3adffaf588a41b2e7cd9ccf67abeb43786",
+        "Practice_en_Set_02.txt": "c2f08b97a382bd604414166fc37881687e412c82cfcd46d8ef4a8ff95b35f0e0",
+        "Practice_en_Set_03.txt": "67f1632b17a7464d4c10a9e71057c74fdd7c6a37b560c6f5dbd123176f7fd578",
+        "Practice_en_Set_04.txt": "f03fc1fb2c52c8493631f2b9ccd0e341b1a6be8d401f98381f344ce039f26550",
+        "Practice_en_Set_05.txt": "90d9306957be2b79bb335dbbc04839707ce532495d927f7ef1d3f7714a7b4909",
+        "Practice_en_Set_06.txt": "f0bc844ca38fa8a9d1adfa20bb4703dd3765e3da498db5a029d8e9f8f3937f5b",
+        "Practice_hi_Set_01.txt": "9e0cb342fc77e56f95eb03125f16ceea392d1b4a4630a7f831458ea2c02b7747",
+        "Practice_hi_Set_02.txt": "71de65bb75a3bbe55bb4fc579f911aab921210ecdcd56bd55281fe9a2436f11f",
+        "Practice_hi_Set_03.txt": "d168c7e11b565ef2595b17afff922dabc40b7dae675eead16140b08868b0ce0c",
+        "Practice_hi_Set_04.txt": "03b29a2097b5bc71f194ac815093c2c1ac19f988a7198a031df655ccdf2cb1e3",
+        "Practice_hi_Set_05.txt": "94f5312bc5cf284c2a3a7cc0413d14f55baf153e2b6bd1e1c7ba6c77d47eb746",
+        "Practice_hi_Set_06.txt": "6d218ae5b5866c3221b21e5676882f5f0da827b03ed1a02cc4d70428494b7ce5",
+        "Short_Tricks_en.txt": "a6515c3ca6c7e46781f5bf50817cfa4d9156bb0adb7e162a638d112cf07e065d",
+        "Short_Tricks_hi.txt": "e7354b779fae31b53013952507de6764af3282420405babaeae09afecb2a2690",
+        "inventory": {
+          "Content_en.txt": "4b1cf63e22b016c2385fbe550652fe15b3f8d168dbcdc28670f4923e5ccdffc1",
+          "Content_hi.txt": "7f081649cf90eef24b29f2cdfde3890f3bb80d4b2674e357f681af861fd8341c",
+          "Feynman_en.txt": "d2b04b4b5ce61eaf3c49b4bf3963addb430dcefd1aeef72f5507ff9caf67ceba",
+          "Feynman_hi.txt": "1310f78805dd021a6847d4f95b10dd9ef107df2eb8f8bf30eecad9bbcbdd6a15",
+          "Flashcards_en.txt": "db31ffd5be980bbf1f526b745f7bdfdb9960ed40dd1e5096055e67115c9148dc",
+          "Flashcards_hi.txt": "ff87e28a0a87f128537a1045e6949c3b2acd771a5cd3fd08f92d6fe59b847653",
+          "Important_Formulas_en.txt": "d3bc31033f46dda251d7a5d910c7654b949892fb005488a55a490cab04c8c5ff",
+          "Important_Formulas_hi.txt": "1a78a10dcaee4e63375eb2e7fc6efdba2685d2f1283ddb65d176f8292a5757a9",
+          "Mind_Map.txt": "da8d7ccc9b931cfdabe048198cc2647dd5a13d2a348a7377fc0be80642b10dd8",
+          "PYQ_en.txt": "8203881575780f81bf84d8e251161e1f679b41438520e695eb4a0b2af4b303ed",
+          "PYQ_hi.txt": "893df98373b3342f8b3222b7888446c9f0fc662137db98e8b44979e6b4f855bc",
+          "Practice_en_Set_01.txt": "bb10c2485a679f372ca6fd85e94e9d3adffaf588a41b2e7cd9ccf67abeb43786",
+          "Practice_en_Set_02.txt": "c2f08b97a382bd604414166fc37881687e412c82cfcd46d8ef4a8ff95b35f0e0",
+          "Practice_en_Set_03.txt": "67f1632b17a7464d4c10a9e71057c74fdd7c6a37b560c6f5dbd123176f7fd578",
+          "Practice_en_Set_04.txt": "f03fc1fb2c52c8493631f2b9ccd0e341b1a6be8d401f98381f344ce039f26550",
+          "Practice_en_Set_05.txt": "90d9306957be2b79bb335dbbc04839707ce532495d927f7ef1d3f7714a7b4909",
+          "Practice_en_Set_06.txt": "f0bc844ca38fa8a9d1adfa20bb4703dd3765e3da498db5a029d8e9f8f3937f5b",
+          "Practice_hi_Set_01.txt": "9e0cb342fc77e56f95eb03125f16ceea392d1b4a4630a7f831458ea2c02b7747",
+          "Practice_hi_Set_02.txt": "71de65bb75a3bbe55bb4fc579f911aab921210ecdcd56bd55281fe9a2436f11f",
+          "Practice_hi_Set_03.txt": "d168c7e11b565ef2595b17afff922dabc40b7dae675eead16140b08868b0ce0c",
+          "Practice_hi_Set_04.txt": "03b29a2097b5bc71f194ac815093c2c1ac19f988a7198a031df655ccdf2cb1e3",
+          "Practice_hi_Set_05.txt": "94f5312bc5cf284c2a3a7cc0413d14f55baf153e2b6bd1e1c7ba6c77d47eb746",
+          "Practice_hi_Set_06.txt": "6d218ae5b5866c3221b21e5676882f5f0da827b03ed1a02cc4d70428494b7ce5",
+          "Short_Tricks_en.txt": "a6515c3ca6c7e46781f5bf50817cfa4d9156bb0adb7e162a638d112cf07e065d",
+          "Short_Tricks_hi.txt": "e7354b779fae31b53013952507de6764af3282420405babaeae09afecb2a2690"
+        }
+      },
+      "checked_at": "2026-11-21T13:25:58+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "cb598d1423ce684acd176e1fcf39a7a594381779d663410f4ac392e90e9c3aed",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "55e64a945a8f6ef6fcb1977d935060e0c6b8dd0e73b3ff2527a0778ab05095f4",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "4b1cf63e22b016c2385fbe550652fe15b3f8d168dbcdc28670f4923e5ccdffc1"
+      },
+      "checked_at": "2026-11-21T13:27:04+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "eabffc7b1ce044fbc7ab2fc8ce78ea0634f061cdd21a19c6d1ba157eed5db053",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "55e64a945a8f6ef6fcb1977d935060e0c6b8dd0e73b3ff2527a0778ab05095f4",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "4b1cf63e22b016c2385fbe550652fe15b3f8d168dbcdc28670f4923e5ccdffc1",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T13:27:05+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "fe0b20787e2c9717838c7ae5f6169993a1aa55d7dc38d58b73e8ac4d3a6702e5",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- In the table under Part 3 (Alligation का विस्तार), the caution for Speed states \"सावधानी: तभी लागू जब दोनों खंडों का समय बराबर हो\" which is incorrect; alligation for average speed works for any time segments (weights), not only when times are equal. → Correct the caution to indicate that alligation applies when weights are times; if distances are equal, alligation cannot be directly applied with distances as weights."
+      ],
+      "dependencies": {
+        "chapter.json": "55e64a945a8f6ef6fcb1977d935060e0c6b8dd0e73b3ff2527a0778ab05095f4",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "7f081649cf90eef24b29f2cdfde3890f3bb80d4b2674e357f681af861fd8341c"
+      },
+      "checked_at": "2026-11-21T13:28:17+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T13:28:17+00:00",
+  "chapter_fingerprint": "a29e5073ab6a7f4d7a0a0a6484597dc9831c7065b1ea57196813153b318bb283"
+}
