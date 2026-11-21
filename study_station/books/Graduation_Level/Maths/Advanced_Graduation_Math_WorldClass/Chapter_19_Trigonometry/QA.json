@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "aa9a639f2e9dcd6b898dd919cb24ea6c935db626caadae82ab40045a36050d84",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "0c7c1f2a1ca36fcc5b956447cc75700dd9424a8320f0c52fa13e599d19a69544",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "18fe8036d2465c0aaf54930ce8178c2faea2fdb614fd71711d8b717f0c0cb723",
+        "Content_hi.txt": "d78ff54e94f8a6aec71811eaf0ecf0dc5eddf4de70125aa755dd1707f59f0034",
+        "Feynman_en.txt": "617c1920c2674770aa2d8d3917c56fff8f6ad6eb341ab29b5227a303e8c5056c",
+        "Feynman_hi.txt": "eb3ccecaf30eba822f4e629f719c05a95d1c648c4ba98b6f9908f737553b4841",
+        "Flashcards_en.txt": "f8dd1678285e70fa12560786ebf913e8594de5e4a736f4cf8dfb50f79e038fff",
+        "Flashcards_hi.txt": "f1997a414c85b45accfbec943550b52f488481b8b690b0d51f64fafa63bdfc0b",
+        "Important_Formulas_en.txt": "59a3fc0165d5a1b0f9452e61fb295ccf711e688dfa6074031ae2e42c182121cc",
+        "Important_Formulas_hi.txt": "b55eb8c7e7ba789f54d4ae88b09dfa34e42f2fa6afc9c3fb09b56d55065007ab",
+        "Mind_Map.txt": "23683ed297401b0c425395608befa2a3929d9d4dd8aa4ed6daefad458eec2bb5",
+        "PYQ_en.txt": "cb494c0d1e14cecddd4a24ad0eca6b18e8bcfb24456bff77edb27d7e4e0346ba",
+        "PYQ_hi.txt": "3b77d9019e7f642a83caec2e9432a308ee34d520ed1bd562ded819327762d77e",
+        "Practice_en_Set_01.txt": "47df21f19e563f99595af03497143f1b394f756cf5ac89c9e0d3154350f0a68a",
+        "Practice_en_Set_02.txt": "673a84af69302605c9f434b0a2c49c5dae1cf80dec5490d0530d6d53a32c7603",
+        "Practice_en_Set_03.txt": "f1f739cd10ccdd1a6febdd153d2dcf58fd84b6cabd25facbb065eb25478be5ec",
+        "Practice_en_Set_04.txt": "2e68207ab0d6e94f832627a4ae56284eadd33241031688caefd472c60d1cad0d",
+        "Practice_en_Set_05.txt": "f04ba267531dd66cb4ddda87a74776e6850f69f28dc7965ef79a629097f14db9",
+        "Practice_en_Set_06.txt": "68bb643674b110f4ede5e6528e49501c16c2b633d4011466b1d2a4c6aa8f3610",
+        "Practice_hi_Set_01.txt": "31f990e6c1b23472b466c3ee49b1bf7ab5711b042bafaaf871477e6cff1326e8",
+        "Practice_hi_Set_02.txt": "7f4bfe8289be59b8c07baf4c4c80afc6db6545b077a8becd137b4a65070d30ec",
+        "Practice_hi_Set_03.txt": "34a9f45ae56cb39ed1f850f94b65b4807b34d2f8aa0a1c43f96f6f523b03ccb5",
+        "Practice_hi_Set_04.txt": "d8a8f6e3867389ad1afcaed1ccf30c9d5218d71448e553fac0201162386cc3f4",
+        "Practice_hi_Set_05.txt": "c8863468c14c44eb1f845d0e084446a8e5bc5fe69687dd87690d57c35a093a0e",
+        "Practice_hi_Set_06.txt": "bd66c430bd1d290b6bc84779ff3c6f1db7851f29f001350653b013e8341ad77d",
+        "Short_Tricks_en.txt": "fe722484b2d4cd28930fbe4cd815a9086ac3fe160191368e323f5d482505b7d4",
+        "Short_Tricks_hi.txt": "d52f4df8418266a9ea991114ec330b4d3549fd075777b5e800d95d3eb460fa39",
+        "inventory": {
+          "Content_en.txt": "18fe8036d2465c0aaf54930ce8178c2faea2fdb614fd71711d8b717f0c0cb723",
+          "Content_hi.txt": "d78ff54e94f8a6aec71811eaf0ecf0dc5eddf4de70125aa755dd1707f59f0034",
+          "Feynman_en.txt": "617c1920c2674770aa2d8d3917c56fff8f6ad6eb341ab29b5227a303e8c5056c",
+          "Feynman_hi.txt": "eb3ccecaf30eba822f4e629f719c05a95d1c648c4ba98b6f9908f737553b4841",
+          "Flashcards_en.txt": "f8dd1678285e70fa12560786ebf913e8594de5e4a736f4cf8dfb50f79e038fff",
+          "Flashcards_hi.txt": "f1997a414c85b45accfbec943550b52f488481b8b690b0d51f64fafa63bdfc0b",
+          "Important_Formulas_en.txt": "59a3fc0165d5a1b0f9452e61fb295ccf711e688dfa6074031ae2e42c182121cc",
+          "Important_Formulas_hi.txt": "b55eb8c7e7ba789f54d4ae88b09dfa34e42f2fa6afc9c3fb09b56d55065007ab",
+          "Mind_Map.txt": "23683ed297401b0c425395608befa2a3929d9d4dd8aa4ed6daefad458eec2bb5",
+          "PYQ_en.txt": "cb494c0d1e14cecddd4a24ad0eca6b18e8bcfb24456bff77edb27d7e4e0346ba",
+          "PYQ_hi.txt": "3b77d9019e7f642a83caec2e9432a308ee34d520ed1bd562ded819327762d77e",
+          "Practice_en_Set_01.txt": "47df21f19e563f99595af03497143f1b394f756cf5ac89c9e0d3154350f0a68a",
+          "Practice_en_Set_02.txt": "673a84af69302605c9f434b0a2c49c5dae1cf80dec5490d0530d6d53a32c7603",
+          "Practice_en_Set_03.txt": "f1f739cd10ccdd1a6febdd153d2dcf58fd84b6cabd25facbb065eb25478be5ec",
+          "Practice_en_Set_04.txt": "2e68207ab0d6e94f832627a4ae56284eadd33241031688caefd472c60d1cad0d",
+          "Practice_en_Set_05.txt": "f04ba267531dd66cb4ddda87a74776e6850f69f28dc7965ef79a629097f14db9",
+          "Practice_en_Set_06.txt": "68bb643674b110f4ede5e6528e49501c16c2b633d4011466b1d2a4c6aa8f3610",
+          "Practice_hi_Set_01.txt": "31f990e6c1b23472b466c3ee49b1bf7ab5711b042bafaaf871477e6cff1326e8",
+          "Practice_hi_Set_02.txt": "7f4bfe8289be59b8c07baf4c4c80afc6db6545b077a8becd137b4a65070d30ec",
+          "Practice_hi_Set_03.txt": "34a9f45ae56cb39ed1f850f94b65b4807b34d2f8aa0a1c43f96f6f523b03ccb5",
+          "Practice_hi_Set_04.txt": "d8a8f6e3867389ad1afcaed1ccf30c9d5218d71448e553fac0201162386cc3f4",
+          "Practice_hi_Set_05.txt": "c8863468c14c44eb1f845d0e084446a8e5bc5fe69687dd87690d57c35a093a0e",
+          "Practice_hi_Set_06.txt": "bd66c430bd1d290b6bc84779ff3c6f1db7851f29f001350653b013e8341ad77d",
+          "Short_Tricks_en.txt": "fe722484b2d4cd28930fbe4cd815a9086ac3fe160191368e323f5d482505b7d4",
+          "Short_Tricks_hi.txt": "d52f4df8418266a9ea991114ec330b4d3549fd075777b5e800d95d3eb460fa39"
+        }
+      },
+      "checked_at": "2026-11-21T13:31:05+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "d84f976d8aa74f8147a1907cb0b51f78e03a234a0e22603383b408063eb1b173",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "0c7c1f2a1ca36fcc5b956447cc75700dd9424a8320f0c52fa13e599d19a69544",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "18fe8036d2465c0aaf54930ce8178c2faea2fdb614fd71711d8b717f0c0cb723"
+      },
+      "checked_at": "2026-11-21T13:31:37+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "346f6a98cea752a49d7b61b24db9d02afe01f370e15e550e8cf6f5af59b9a497",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "0c7c1f2a1ca36fcc5b956447cc75700dd9424a8320f0c52fa13e599d19a69544",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "18fe8036d2465c0aaf54930ce8178c2faea2fdb614fd71711d8b717f0c0cb723",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T13:31:38+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "943ec295f309b75b2152a365ad0c282abcd0c244f05927124059c755f55861b2",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- Radhanath Sikdar's location in 1852 is given as Dehradun, but he was working in Calcutta (Kolkata) for the Survey of India. → Correct location: Calcutta (Kolkata).",
+        "- The text states the announcement of Peak XV as the highest peak was made in 1852; the official announcement was made in 1856. → Correct year of announcement: 1856.",
+        "- The summary table claims \"हर सेट में 1 प्रश्न\" for standard angle values, which is an invented exam statistic without source. → Remove or qualify as \"अक्सर पूछा जाता है\" (often asked)."
+      ],
+      "dependencies": {
+        "chapter.json": "0c7c1f2a1ca36fcc5b956447cc75700dd9424a8320f0c52fa13e599d19a69544",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "d78ff54e94f8a6aec71811eaf0ecf0dc5eddf4de70125aa755dd1707f59f0034"
+      },
+      "checked_at": "2026-11-21T13:33:55+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T13:33:55+00:00",
+  "chapter_fingerprint": "5388a88a72d32bbd056b60e64779c075b2c4c01f2331e601d732efca7108a268"
+}
