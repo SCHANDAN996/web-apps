@@ -1,35 +1,34 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 05:09 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 05:10 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 91 मिनट |
-| W10 | Chapter 12 Sentence Structure (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W11 | Chapter 13 Synonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W12 | Chapter 09 Articles (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W2 | Chapter 04 Verb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W3 | Chapter 10 Voice (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W4 | Chapter 11 Narration (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W5 | Chapter 05 Tense (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W6 | Chapter 07 Preposition (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W7 | Chapter 06 Adverb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W8 | Chapter 08 Conjunction (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W9 | Chapter 03 Adjective (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 92 मिनट |
+| W10 | Chapter 12 Sentence Structure (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W11 | Chapter 13 Synonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W12 | Chapter 09 Articles (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W3 | Chapter 10 Voice (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W4 | Chapter 11 Narration (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W5 | Chapter 05 Tense (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W6 | Chapter 07 Preposition (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W7 | Chapter 06 Adverb (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W8 | Chapter 08 Conjunction (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W9 | Chapter 14 Antonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 59 |
-| key 4 | 78 |
-| key 5 | 59 |
-| key 6 | 46 |
+| key 4 | 79 |
+| key 5 | 60 |
+| key 6 | 47 |
 
 ## किताबों की प्रगति
 
@@ -64,7 +63,7 @@
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 76/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 83/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 100/1606 |
-| 10th English | 0 | 20 | 0 | 0 | 0 | 68/1622 |
+| 10th English | 0 | 20 | 0 | 0 | 0 | 70/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 62/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 58/1950 |
@@ -73,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 652/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 654/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,12 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 17:05:42   [Conjunction] QA needs_reference: sources:Feynman_en.txt
-21-11 17:05:53   [Articles] QA needs_reference: sources:Content_hi.txt
-21-11 17:06:31   [sandhi] Practice_hi_Set_02.txt try 4: re-solve disagrees (Q28 key d vs re-solve a, Q34 key b vs re-solve d, Q36 key d vs re-solve a, Q43 key c vs re-solve a, 
-21-11 17:06:31   [sandhi] REJECTED Practice_hi_Set_02.txt: no version passed the checks — not written
-21-11 17:06:57   [Voice] QA needs_reference: sources:Content_hi.txt
-21-11 17:07:05   [Voice] QA passed: editorial:Feynman_en.txt
 21-11 17:07:05   [Voice] QA needs_reference: sources:Feynman_en.txt
 21-11 17:07:18   [Conjunction] QA blocked: editorial:Feynman_hi.txt
 21-11 17:07:18   [Conjunction] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
@@ -127,6 +120,12 @@
 21-11 17:10:11   [Antonyms] QA needs_reference: sources:Content_hi.txt
 21-11 17:10:29   [Antonyms] QA passed: editorial:Feynman_en.txt
 21-11 17:10:29   [Antonyms] QA needs_reference: sources:Feynman_en.txt
+21-11 17:11:06   [Antonyms] QA passed: editorial:Feynman_hi.txt
+21-11 17:11:07   [Antonyms] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 3, "pending": 73, "blocked": 2, "needs_reference": 3, "remaining": 78, 
+21-11 17:11:08 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_14_Antonyms: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 3, 'pending': 73, 'blocked': 2, 'needs_reference': 3, 'remaining': 78, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- "Every SSC, Railway and Bank paper asks you one deceptively simple question" is an invented exam claim (absolute statement not true for all papers) → Qualify as "Many SSC, Railway and Bank papers include..." or remove the absolute claim.', '- "Exam insight: SSC and Railway questions are mostly gradable and complementary" is an invented exam statistic without source → Remove or provide verifiable source.', '- In the passage check yourself, "philanthropy ↔ misanthrope" is an incorrect antonym pair (philanthropy is an abstract noun, misanthrope is a person) → Correct to "philanthropy ↔ misanthropy" or "philanthropist ↔ misanthrope".']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In the Greek/Latin Roots table, the row for "pro-" incorrectly lists "re-" as an opposite prefix; "re-" means "again/back", not "against". The true antonym of pro- is "anti-" (or "contra-"). → Remove "re-" from the antonym column; only "anti-" is the opposite.', '- In the same table, the row for "phil-" gives "mis-" as the root for "hate" in "misanthropy"; the Greek root for hate is "miso-", while "mis-" is a Latin/English prefix meaning "bad/wrong". → Change "mis- (घृणा)" to "miso- (घृणा)" and note that "misanthropy" derives from Greek "misos" (hatred).']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_14_Antonyms/QA.json'}
+21-11 17:11:08   [One_Word_Substitution] QA needs_reference: sources:Content_hi.txt
+21-11 17:11:19   [One_Word_Substitution] QA passed: editorial:Feynman_en.txt
+21-11 17:11:19   [One_Word_Substitution] QA needs_reference: sources:Feynman_en.txt
 ````
 
 </details>
