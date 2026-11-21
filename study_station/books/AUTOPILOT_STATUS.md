@@ -5,30 +5,31 @@
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 104 मिनट |
-| W10 | Chapter 03 Simplification (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 105 मिनट |
+| W10 | Chapter 03 Simplification (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
 | W11 | Chapter 02 LCM HCF (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W12 | Chapter 01 Number System (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W2 | Chapter 06 Average (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W12 | Chapter 01 Number System (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W2 | Chapter 06 Average (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 | W3 | Chapter 20 Sentence Improvement Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W4 | Chapter 04 Fractions Decimals (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W5 | Chapter 07 Ratio Proportion (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W4 | Chapter 04 Fractions Decimals (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W5 | Chapter 07 Ratio Proportion (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 | W6 | Chapter 18 Error Spotting Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W7 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 0 मिनट |
 | W8 | Chapter 19 Fill in Blanks Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W9 | Chapter 05 Percentage (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W9 | Chapter 05 Percentage (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 65 |
 | key 4 | 88 |
 | key 5 | 65 |
-| key 6 | 56 |
+| key 6 | 57 |
 
 ## किताबों की प्रगति
 
@@ -86,15 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 17:17:28   [Sentence_Improvement_Basic] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 5, "pending": 73, "blocked": 0, "needs_reference": 3, "remaining": 76, 
-21-11 17:17:28 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_20_Sentence_Improvement_Basic: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 5, 'pending': 73, 'blocked': 0, 'needs_reference': 3, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_20_Sentence_Improvement_Basic/QA.json'}
-21-11 17:17:51   [LCM_HCF] QA needs_reference: sources:Content_hi.txt
-21-11 17:18:05   [LCM_HCF] QA passed: editorial:Feynman_en.txt
-21-11 17:18:05   [LCM_HCF] QA needs_reference: sources:Feynman_en.txt
-21-11 17:18:32   [Simplification] QA needs_reference: sources:Content_hi.txt
-21-11 17:18:34   [LCM_HCF] QA passed: editorial:Feynman_hi.txt
-21-11 17:18:34   [LCM_HCF] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
-21-11 17:18:34 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_02_LCM_HCF: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_02_LCM_HCF/QA.json'}
 21-11 17:19:21   [Simplification] QA passed: editorial:Feynman_en.txt
 21-11 17:19:36   [Simplification] QA needs_reference: sources:Feynman_en.txt
 21-11 17:19:36   [Simplification] QA passed: editorial:Feynman_hi.txt
@@ -126,6 +118,15 @@
 21-11 17:22:58 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_07_Ratio_Proportion: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_07_Ratio_Proportion/QA.json'}
 21-11 17:23:06 START 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_16_rikt_sthan_vakya_kram (TODO: todo 2, problems 0)
 21-11 17:23:06   [rikt_sthan_vakya_kram] Hindi-only writer: direct Hindi content; English generation and translation disabled
+21-11 17:24:10   [Profit_Loss] QA needs_reference: sources:Content_hi.txt
+21-11 17:24:14   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 1: rejected (Q83:duplicate_options)
+21-11 17:24:21   [Profit_Loss] QA passed: editorial:Feynman_en.txt
+21-11 17:24:22   [Profit_Loss] QA needs_reference: sources:Feynman_en.txt
+21-11 17:24:23   [sandhi] Practice_hi_Set_03.txt try 4: re-solve disagrees (Q51 key d vs re-solve c, Q53 key a vs re-solve c, Q55 key d vs re-solve a, Q56 key d vs re-solve c, 
+21-11 17:24:23   [sandhi] REJECTED Practice_hi_Set_03.txt: no version passed the checks — not written
+21-11 17:24:38   [Profit_Loss] QA passed: editorial:Feynman_hi.txt
+21-11 17:24:38   [Profit_Loss] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
+21-11 17:24:38 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_08_Profit_Loss: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- In Special Cases, the dishonest dealer formula "Profit % = (Error ÷ True weight − Error) × 100" is missing parentheses around the denominator → Should be "Profit % = (Error ÷ (True weight − Error)) × 100"']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_08_Profit_Loss/QA.json'}
 ````
 
 </details>
