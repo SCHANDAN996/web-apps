@@ -109,11 +109,77 @@
         "Content_hi.txt": "53b03eeb4c31e2b477e4260ca4243928dc8121a07f2c3afca07f94c0bc512efa"
       },
       "checked_at": "2026-11-21T06:17:48+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "4e9d5eb7e4e4340436842d6a0806195bb09cb7cedd25886c3291f9cf2bd1ddf3",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: ◆ 8 नवंबर 2016, रात 8 बजे। प्रधानमंत्री ने टेलीविज़न पर घोषणा की कि आधी रात से ₹500 और ₹1000 के पुराने नोट वैध मुद्रा (Legal Tender) नहीं रहेंगे। रातों-रात बैंकों के बाहर कतारें लग गईं। चाय वाला, किसान और सॉफ़्टवेयर इंजीनियर — सब एक ही सवाल पूछ रहे थे: हमारे नोट कौन छापता है? बैंक मेरा कुछ पैसा RBI के पास क्यों रखता है? चीज़ें महँगी क्यों होती हैं? यह अध्याय ठीक इन्हीं सवालों के जवाब देता है — और परीक्षक को यही सवाल सबसे ज़्यादा पसंद हैं।",
+        "Fetch official supporting evidence for: NCERT के अनुसार भारत में सबसे अधिक लोगों को रोज़गार कौन-सा क्षेत्रक देता है? (प्राथमिक)",
+        "Fetch official supporting evidence for: बैंकिंग के अन्य पड़ाव: इंपीरियल बैंक ऑफ़ इंडिया 1 जुलाई 1955 को भारतीय स्टेट बैंक (SBI) बना। 19 जुलाई 1969 को 14 बड़े बैंकों का और 1980 में 6 और बैंकों का राष्ट्रीयकरण हुआ। कृषि और ग्रामीण ऋण के लिए NABARD (1982)। रुपये का प्रतीक ₹ 2010 में अपनाया गया (डिज़ाइन: डी. उदय कुमार)।",
+        "Fetch official supporting evidence for: स्मृति सूत्र — \"RBI: 35 में जन्म, 49 में सरकारी, 69 में बैंक हमारी\": 1935 RBI की स्थापना, 1949 RBI का राष्ट्रीयकरण, 1969 चौदह बैंकों का राष्ट्रीयकरण।",
+        "Fetch official supporting evidence for: जाल वाला कथन: \"भारतीय रिज़र्व बैंक का राष्ट्रीयकरण 1969 में 14 बैंकों के साथ हुआ।\"",
+        "Fetch official supporting evidence for: सच्चाई: RBI का राष्ट्रीयकरण 1 जनवरी 1949 को हुआ। 1969 वह वर्ष है जब 14 वाणिज्यिक बैंकों का राष्ट्रीयकरण हुआ। RBI वाणिज्यिक बैंक नहीं है।",
+        "Fetch official supporting evidence for: स्मार्ट चाल: RBI = 1949; वाणिज्यिक बैंक = 1969 और 1980।",
+        "Fetch official supporting evidence for: भारतीय स्टेट बैंक\t1 जुलाई 1955 (इंपीरियल बैंक से)",
+        "Fetch official supporting evidence for: बैंक राष्ट्रीयकरण\t19 जुलाई 1969 को 14 बैंक; 1980 में 6 बैंक"
+      ],
+      "dependencies": {
+        "chapter.json": "a9569afc4503736dbc8318f995024f84848a0fae26164442c6f06fffb0e384bd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "53b03eeb4c31e2b477e4260ca4243928dc8121a07f2c3afca07f94c0bc512efa",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:40:04+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "cfc301afcbde06c837ea7d3e65a62e0fbf86a1d399f080f91ae9b29c8949e260",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "a9569afc4503736dbc8318f995024f84848a0fae26164442c6f06fffb0e384bd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "85aa9fb73469ac520cbf2d95c66c137a9d36ff54c81e5aa0c378d727fcf343af"
+      },
+      "checked_at": "2026-11-21T10:42:18+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "22bf63896b637bd4bf2bfb7674a16abe2f5794825bb1a7e2c541016e15d5187d",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "a9569afc4503736dbc8318f995024f84848a0fae26164442c6f06fffb0e384bd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "85aa9fb73469ac520cbf2d95c66c137a9d36ff54c81e5aa0c378d727fcf343af",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:42:19+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "0bd869acddc9b60f236618a974cf79ad3d7998d6a510e1e3e176ca59e15cc56a",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "a9569afc4503736dbc8318f995024f84848a0fae26164442c6f06fffb0e384bd",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "70a7f8889be728b19bb2daa88afb89318701e5d16350f9cad9ab0dc5f4df5e04"
+      },
+      "checked_at": "2026-11-21T10:42:35+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T06:17:48+00:00",
+  "updated_at": "2026-11-21T10:42:36+00:00",
   "chapter_fingerprint": "b47013a3d15c5f842831ce70fe24d005090b85706091332106f3d47e00e5e951"
 }
