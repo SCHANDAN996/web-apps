@@ -109,11 +109,71 @@
         "Content_hi.txt": "aebf667d81c7c9c7065dcfc807e7705e6709f7f1e4aef1820fb4a572ed6f4c0f"
       },
       "checked_at": "2026-11-21T07:23:54+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "b8c3316090a52e24111c0232b6ca79b610a7ff9cb926f057b87968d3b2782104",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "9f8c65dc0c2e329177ff941ef4b64f42b58b4bff301b992d3ed8d76ca1926266",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "aebf667d81c7c9c7065dcfc807e7705e6709f7f1e4aef1820fb4a572ed6f4c0f",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:35:53+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "f71bae531d28a0e241336ce5aecfbfc9cb30bf62d58cd7e8c5f35f317aa05316",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The \"magic rule\" (\"First time you mention something → torch OFF → use a/an\") is presented as absolute, but first mention can take \"the\" for unique nouns (the sun, the moon) or specifically defined nouns (the dog that bit Ramesh). → Clarify that \"a/an\" is for first mention of indefinite nouns; \"the\" is used for first mention of definite/unique nouns."
+      ],
+      "dependencies": {
+        "chapter.json": "9f8c65dc0c2e329177ff941ef4b64f42b58b4bff301b992d3ed8d76ca1926266",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "37776f0c3cd6485790ce3224235fc6ef58952cba7318cb2600c65dc8a88e3c91"
+      },
+      "checked_at": "2026-11-21T11:37:25+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "9a42661322447f5d933d3ddbc8bbf6c9caaf040e6734d610a6354c7658077582",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "9f8c65dc0c2e329177ff941ef4b64f42b58b4bff301b992d3ed8d76ca1926266",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "37776f0c3cd6485790ce3224235fc6ef58952cba7318cb2600c65dc8a88e3c91",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:37:25+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "93fd8660e48e1b7df9bad5c021eef2e240b0db4e7658941aa5f3f01174b55334",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "9f8c65dc0c2e329177ff941ef4b64f42b58b4bff301b992d3ed8d76ca1926266",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "f98755366618c1daf6603916ce65177bce51cb3b38210de23600e983de312acf"
+      },
+      "checked_at": "2026-11-21T11:38:47+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T07:23:55+00:00",
+  "updated_at": "2026-11-21T11:38:47+00:00",
   "chapter_fingerprint": "c6a6923a20ffe021f6240c9a537587c095b69a69ac65055322935a3973be6e8a"
 }
