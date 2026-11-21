@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 12:23 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 12:24 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,21 +11,21 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 92 मिनट |
-| W10 | Chapter 17 Course of Action (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W12 | Chapter 22 Figure Series (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W2 | Chapter 21 Paper Folding Cutting (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 92 मिनट |
-| W4 | Chapter 15 Mathematical Operations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W5 | Chapter 14 Alphabet Questions (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W6 | Chapter 10 Clock Calendar (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
-| W7 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W8 | Chapter 20 Mirror Water Images (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W9 | Chapter 01 Number System (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 93 मिनट |
+| W11 | Chapter 02 LCM HCF (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W12 | Chapter 22 Figure Series (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W2 | Chapter 21 Paper Folding Cutting (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 93 मिनट |
+| W4 | Chapter 15 Mathematical Operations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W5 | Chapter 14 Alphabet Questions (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W6 | Chapter 10 Clock Calendar (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 15 मिनट |
+| W7 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W8 | Chapter 20 Mirror Water Images (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W9 | Chapter 01 Number System (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 34 |
+| key 3 | 36 |
 | key 4 | 51 |
 | key 5 | 52 |
 | key 6 | 37 |
@@ -61,8 +61,8 @@
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 31/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 29/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 43/1482 |
-| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 46/1716 |
-| 10th Maths | 0 | 22 | 0 | 0 | 0 | 3/1606 |
+| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 47/1716 |
+| 10th Maths | 0 | 22 | 0 | 0 | 0 | 4/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 0/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 0/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 0/1872 |
@@ -72,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 152/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 154/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -82,10 +82,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 12:19:11 QA 10th_Level/Reasoning/Chapter_08_Puzzles_Basic: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_08_Puzzles_Basic/QA.json'}
-21-11 12:19:11   [Cubes_Dice] QA passed: structure
-21-11 12:19:12   [Inequality] QA passed: editorial:Content_en.txt
-21-11 12:19:13   [Inequality] QA needs_reference: sources:Content_en.txt
 21-11 12:19:52   [Course_of_Action] QA passed: editorial:Content_en.txt
 21-11 12:19:58   [Inequality] QA passed: editorial:Content_hi.txt
 21-11 12:20:11   [Course_of_Action] QA needs_reference: sources:Content_en.txt
@@ -122,6 +118,10 @@
 21-11 12:24:20   [Mirror_Water_Images] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 1, "pending": 74, "blocked": 2, "needs_reference": 1, "remaining": 77, 
 21-11 12:24:20 QA 10th_Level/Reasoning/Chapter_15_Mathematical_Operations: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_15_Mathematical_Operations/QA.json'}
 21-11 12:24:20 QA 10th_Level/Reasoning/Chapter_20_Mirror_Water_Images: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 1, 'pending': 74, 'blocked': 2, 'needs_reference': 1, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- Summary Table "What stays" column uses "Top ↔ Bottom" for Vertical Mirror and "Left ↔ Right" for Horizontal Mirror, implying these axes flip when they actually remain unchanged → For Vertical Mirror change "Top ↔ Bottom" to "Top/Bottom unchanged"; for Horizontal Mirror/Water Image change "Left ↔ Right" to "Left/Right unchanged"', '- Water Image symmetric letters list includes "S" as remaining the same; in standard exam reasoning (SSC, Banking, Railways) capital S is not horizontally symmetric → Remove "S" from the list; correct list: B, C, D, E, H, I, O, X']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- In the summary table, the row for 'अक्षर M (दर्पण)' incorrectly places 'वैसा ही रहता है' under the 'क्या पलटता है' column; it should be under 'क्या स्थिर रहता है' (with 'क्या पलटता है' as '–')."]}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_20_Mirror_Water_Images/QA.json'}
+21-11 12:24:28   [Simplification] QA passed: structure
+21-11 12:25:05   [Number_System] QA passed: editorial:Content_hi.txt
+21-11 12:25:05   [Number_System] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 73, "passed": 3, "pending": 69, "blocked": 0, "needs_reference": 1, "remaining": 70, 
+21-11 12:25:05 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_01_Number_System: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 3, 'pending': 69, 'blocked': 0, 'needs_reference': 1, 'remaining': 70, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_01_Number_System/QA.json'}
 ````
 
 </details>
