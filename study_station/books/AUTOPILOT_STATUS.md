@@ -1,6 +1,6 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 12:18 PM IST · **रन शुरू:** 21-11 10:51 AM IST
+**आखिरी अपडेट:** 21-11-2026 12:19 PM IST · **रन शुरू:** 21-11 10:51 AM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44865217555)
@@ -11,25 +11,25 @@
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 87 मिनट |
-| W10 | Chapter 17 Course of Action (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W11 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W12 | Chapter 16 Statement Conclusion (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W2 | Chapter 12 Missing Term (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 87 मिनट |
-| W4 | Chapter 15 Mathematical Operations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W5 | Chapter 14 Alphabet Questions (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W6 | Chapter 10 Clock Calendar (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W7 | Chapter 09 Venn Diagrams (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
-| W8 | Chapter 07 Sitting Arrangement (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 13 मिनट |
-| W9 | Chapter 08 Puzzles Basic (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 88 मिनट |
+| W10 | Chapter 17 Course of Action (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W11 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W12 | Chapter 16 Statement Conclusion (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W2 | Chapter 12 Missing Term (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W3 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 88 मिनट |
+| W4 | Chapter 15 Mathematical Operations (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W5 | Chapter 14 Alphabet Questions (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W6 | Chapter 10 Clock Calendar (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W7 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W8 | Chapter 07 Sitting Arrangement (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
+| W9 | Chapter 08 Puzzles Basic (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 12 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 31 |
-| key 4 | 48 |
-| key 5 | 49 |
-| key 6 | 33 |
+| key 4 | 49 |
+| key 5 | 50 |
+| key 6 | 34 |
 
 ## किताबों की प्रगति
 
@@ -62,7 +62,7 @@
 | 10th Hindi | 0 | 15 | 0 | 0 | 0 | 31/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 29/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 43/1482 |
-| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 36/1716 |
+| 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 41/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 0/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 0/1622 |
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 0/1794 |
@@ -73,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 139/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 144/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,15 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 12:14:00   [Mathematical_Operations] QA passed: structure
-21-11 12:14:48   [Statement_Conclusion] QA passed: structure
-21-11 12:14:48   [Days_Dates] QA passed: editorial:Content_hi.txt
-21-11 12:14:48   [Days_Dates] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
-21-11 12:14:48 QA 10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_15_Days_Dates: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ["Fetch official supporting evidence for: 12 January — National Youth Day: Swami Vivekananda's birth anniversary (born 1863). Declared in 1984, observed since 1985.", "Fetch official supporting evidence for: 15 November — Janjatiya Gaurav Divas: Bhagwan Birsa Munda's birth anniversary. Declared by the Union Cabinet in November 2021.", "Fetch official supporting evidence for: 15 November — Jharkhand (2000), on Birsa Munda's birth anniversary.", 'Fetch official supporting evidence for: 🧠 Active Recall: Which two states share 1 May as their foundation day? (Maharashtra and Gujarat, 1960.)']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/GK/Foundation_10th_GK_WorldClass/Chapter_15_Days_Dates/QA.json'}
-21-11 12:14:58   [Series] QA blocked: editorial:Content_en.txt
-21-11 12:14:58   [Series] QA needs_reference: sources:Content_en.txt
-21-11 12:15:24   [Clock_Calendar] QA passed: editorial:Content_en.txt
-21-11 12:15:24   [Clock_Calendar] QA needs_reference: sources:Content_en.txt
 21-11 12:16:01   [Series] QA blocked: editorial:Content_hi.txt
 21-11 12:16:01   [Series] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 1, "pending": 74, "blocked": 2, "needs_reference": 1, "remaining": 77, 
 21-11 12:16:01 QA 10th_Level/Reasoning/Chapter_11_Series: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 1, 'pending': 74, 'blocked': 2, 'needs_reference': 1, 'remaining': 77, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ["- In Examiner's Trap 2, the series 2, 4, 8, 16, 31 is incorrectly described as revealing a cubic pattern; its third differences (2, 3) are not constant, so it is not cubic. → Correct the description to say the pattern is not cubic (e.g., it is a higher‑order pattern or simply that the simple multiplication fails)."]}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- In Trap 2, the series 2, 4, 8, 16, 31 is incorrectly presented as a cubic pattern emerging from differences of differences; the cubic continuation (constant third difference) of 2, 4, 8, 16 is 30, not 31 → Correct the example to show a valid cubic pattern (e.g., 2, 4, 8, 16, 30) or clarify that 31 comes from a different, non‑cubic pattern.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_11_Series/QA.json'}
@@ -123,6 +114,15 @@
 21-11 12:19:11   [Cubes_Dice] QA passed: structure
 21-11 12:19:12   [Inequality] QA passed: editorial:Content_en.txt
 21-11 12:19:13   [Inequality] QA needs_reference: sources:Content_en.txt
+21-11 12:19:52   [Course_of_Action] QA passed: editorial:Content_en.txt
+21-11 12:19:58   [Inequality] QA passed: editorial:Content_hi.txt
+21-11 12:20:11   [Course_of_Action] QA needs_reference: sources:Content_en.txt
+21-11 12:20:11   [Course_of_Action] QA passed: editorial:Content_hi.txt
+21-11 12:20:11   [Inequality] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
+21-11 12:20:11   [Course_of_Action] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 74, "blocked": 0, "needs_reference": 1, "remaining": 75, 
+21-11 12:20:12 QA 10th_Level/Reasoning/Chapter_17_Course_of_Action: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_17_Course_of_Action/QA.json'}
+21-11 12:20:12 QA 10th_Level/Reasoning/Chapter_18_Inequality: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 74, 'blocked': 0, 'needs_reference': 1, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_18_Inequality/QA.json'}
+21-11 12:20:12   [Mirror_Water_Images] QA passed: structure
 ````
 
 </details>
