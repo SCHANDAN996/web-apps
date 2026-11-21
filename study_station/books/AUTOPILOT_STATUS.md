@@ -1,35 +1,34 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 06:30 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 06:31 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
-| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 172 मिनट |
-| W10 | Chapter 03 Adjective (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
-| W11 | Chapter 01 Noun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W12 | Chapter 02 Pronoun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
-| W2 | Chapter 05 Tense (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W3 | Chapter 09 Articles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W4 | Chapter 04 Verb (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W5 | Chapter 07 Preposition (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W6 | Chapter 23 Syllogism (12th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 11 मिनट |
-| W7 | Chapter 06 Adverb (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W8 | Chapter 10 Voice (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W9 | Chapter 08 Conjunction (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 173 मिनट |
+| W10 | Chapter 03 Adjective (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
+| W12 | Chapter 02 Pronoun (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
+| W2 | Chapter 05 Tense (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W3 | Chapter 09 Articles (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W4 | Chapter 04 Verb (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W5 | Chapter 07 Preposition (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W6 | Chapter 11 Narration (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W7 | Chapter 06 Adverb (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W8 | Chapter 10 Voice (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W9 | Chapter 08 Conjunction (12th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 123 |
+| key 3 | 124 |
 | key 4 | 116 |
 | key 5 | 114 |
-| key 6 | 99 |
+| key 6 | 100 |
 
 ## किताबों की प्रगति
 
@@ -68,12 +67,12 @@
 | 12th Maths | 0 | 23 | 0 | 0 | 0 | 104/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 96/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 101/1950 |
-| 12th English | 0 | 25 | 0 | 0 | 0 | 66/2025 |
+| 12th English | 0 | 25 | 0 | 0 | 0 | 68/2025 |
 | Graduation Maths | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 807/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 809/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -87,13 +86,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 18:24:56   [Verb] QA needs_reference: sources:Feynman_en.txt
-21-11 18:25:20   [Tense] QA needs_reference: sources:Content_hi.txt
-21-11 18:25:46   [Verb] QA passed: editorial:Feynman_hi.txt
-21-11 18:25:46   [Verb] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
-21-11 18:25:46 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_04_Verb: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- "Modal के बाद हमेशा Verb की पहली form (V1) आती है" नियम गलत है क्योंकि सूची में शामिल "ought to" के बाद "to + V1" आता है (जैसे *ought to go*) → सुधार: लिखें कि प्रमुख मोडल (can, could, may, might, shall, should, will, would, must, need, dare) के बाद bare infinitive (V1) आता है, लेकिन "ought to" के बाद "to + V1" आता है।', '- मेमोनिक "B-H-D मोडल की माँ" में कहा गया है कि केवल Be, Have, Do "असली Auxiliary" हैं और बाकी Modal हैं → सुधार: मोडल क्रियाएँ भी सहायक क्रियाएँ (modal auxiliaries) ही हैं; Be, Have, Do प्राथमिक सहायक क्रियाएँ (primary auxiliaries) हैं।']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_04_Verb/QA.json'}
-21-11 18:25:57   [Tense] QA passed: editorial:Feynman_en.txt
-21-11 18:26:18   [Tense] QA needs_reference: sources:Feynman_en.txt
 21-11 18:26:18   [Tense] QA passed: editorial:Feynman_hi.txt
 21-11 18:26:18   [Tense] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 5, "pending": 73, "blocked": 0, "needs_reference": 3, "remaining": 76, 
 21-11 18:26:18 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_05_Tense: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 5, 'pending': 73, 'blocked': 0, 'needs_reference': 3, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: > *since* = निश्चित समय-बिंदु (since Monday, since 2015, since morning)।']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_05_Tense/QA.json'}
@@ -127,6 +119,13 @@
 21-11 18:31:10   [Narration] QA needs_reference: sources:Content_hi.txt
 21-11 18:31:33   [Narration] QA passed: editorial:Feynman_en.txt
 21-11 18:31:33   [Narration] QA needs_reference: sources:Feynman_en.txt
+21-11 18:31:44   [Sentence_Structure] QA needs_reference: sources:Content_hi.txt
+21-11 18:32:04   [Voice] QA passed: editorial:Feynman_hi.txt
+21-11 18:32:04   [Voice] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 5, "pending": 73, "blocked": 0, "needs_reference": 3, "remaining": 76, 
+21-11 18:32:05 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_10_Voice: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 5, 'pending': 73, 'blocked': 0, 'needs_reference': 3, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_10_Voice/QA.json'}
+21-11 18:32:08   [Narration] QA passed: editorial:Feynman_hi.txt
+21-11 18:32:09   [Narration] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 5, "pending": 73, "blocked": 0, "needs_reference": 3, "remaining": 76, 
+21-11 18:32:09 QA 12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_11_Narration: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 5, 'pending': 73, 'blocked': 0, 'needs_reference': 3, 'remaining': 76, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/English/Intermediate_12th_English_WorldClass/Chapter_11_Narration/QA.json'}
 ````
 
 </details>
