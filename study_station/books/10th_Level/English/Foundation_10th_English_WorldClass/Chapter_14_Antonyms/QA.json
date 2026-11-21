@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "7fb9607f45cb1df1ffbe8b8a713be646d69c62ac94a11a79917e3f271f7896ea",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "ff6201f6f7ca180871c0a3aa57da0ade2213ea7d8a0f965a771e0cd1b34ba252",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "b320134c3a492c03904b5bd5cd9872a60bc7940dac5c42679b90f58d640e0ecf",
+        "Content_hi.txt": "40ea271f793fcc3557af178988e72e59a6103ab3bc94e8ca68c0e514b6879f18",
+        "Feynman_en.txt": "5331597b454b9cd7c47243a126b21cab205b15e19449de679c2e7549a8505b27",
+        "Feynman_hi.txt": "0a8c656dfa10019cb1ca4df4aa60e01f085e371a7c72fc0a49eebda67b4512a1",
+        "Flashcards_en.txt": "a1327597db439d9789f361f24447ea03742f1607f90709c2355718cde9daf6cf",
+        "Flashcards_hi.txt": "790c13bd428a1b6ad26f73fb13bf698c953f31dc0b692ed38883b0be29771756",
+        "Important_Rules_en.txt": "e8ab85140adec50e2d3c51d443a820f89d723682555e8a0caee78f880b31d61b",
+        "Important_Rules_hi.txt": "42dc0361722c8b6bf982267e22320d715b70c5dcaa80d6965920a88bdfe11a3f",
+        "Mind_Map_en.txt": "c0e829831a7404a9a1c916c8bba1b5fdbfa0d1d73d43beffde5b28f76c62de8d",
+        "Mind_Map_hi.txt": "9177579a2a1b6d7c12274c3d5b0f03224192103fdbbaac99f64f9e080a6c9bf7",
+        "PYQ_en.txt": "c02af3dc3f0cf113015452ec56f3df1cbaebf54b5d8ae6f714317d186a745675",
+        "PYQ_hi.txt": "403f52fef81d05697ba7d3002bdd63c6b57bb7d75202907f0e466ed18d6c5e97",
+        "Practice_en_Set_01.txt": "b9fc30ca0e57731d63142511ef7b2f43f6788b5255c2e6d3b8edb88ac12cf37f",
+        "Practice_en_Set_02.txt": "f7f77a49889f0d1cbebab6f008e2e2e907700778784fa5a647724791b735a8f5",
+        "Practice_en_Set_03.txt": "abf67e0f801741391572fd91ff0982d0e094753d49d2b7a2bf1cffd662f15862",
+        "Practice_en_Set_04.txt": "14f3342c391c1da0937682c627c7a100b231229cca060ade4755df392ba289a6",
+        "Practice_en_Set_05.txt": "c10cf8541cda25353ad389963682ad2594c86408dd587a750c0162dd94382800",
+        "Practice_en_Set_06.txt": "3fd97da19e43934c2e4c58b0539567b6af370e0ed2bb36f0933980cef30924b6",
+        "Practice_hi_Set_01.txt": "1d30e31bf3df1c118758dd59c97039320165a1404e742938d13cfa94298e4adc",
+        "Practice_hi_Set_02.txt": "9e8e1428ce077d5b980ebc28aa5781c7ef8328776321892657a7820e09f10d1f",
+        "Practice_hi_Set_03.txt": "3baa61431aa64b11be01b5febc51ea89e378f28a5b1f65f759636135c8e952f9",
+        "Practice_hi_Set_04.txt": "8927b8c879f33b6546f55dcfe10e394ca70d6a20e7803a5e6b4962c89334c6e0",
+        "Practice_hi_Set_05.txt": "b6e74691002de638ddad0bae723310f1c2ae895a82d90376f2990f94f1738459",
+        "Practice_hi_Set_06.txt": "cf62bb344b720ac264fa6e6c186a0bfbb4cdb910ef6db9a96822a21c8276b709",
+        "Short_Tricks_en.txt": "a28a1431cb2507112e9c02b31995ca868dea3cff638f432de2392f7cdab71de0",
+        "Short_Tricks_hi.txt": "9f3bcbf4f1c5acd3068a63f94b395278b0e860268510b12db7de0ee860be88ab",
+        "inventory": {
+          "Content_en.txt": "b320134c3a492c03904b5bd5cd9872a60bc7940dac5c42679b90f58d640e0ecf",
+          "Content_hi.txt": "40ea271f793fcc3557af178988e72e59a6103ab3bc94e8ca68c0e514b6879f18",
+          "Feynman_en.txt": "5331597b454b9cd7c47243a126b21cab205b15e19449de679c2e7549a8505b27",
+          "Feynman_hi.txt": "0a8c656dfa10019cb1ca4df4aa60e01f085e371a7c72fc0a49eebda67b4512a1",
+          "Flashcards_en.txt": "a1327597db439d9789f361f24447ea03742f1607f90709c2355718cde9daf6cf",
+          "Flashcards_hi.txt": "790c13bd428a1b6ad26f73fb13bf698c953f31dc0b692ed38883b0be29771756",
+          "Important_Rules_en.txt": "e8ab85140adec50e2d3c51d443a820f89d723682555e8a0caee78f880b31d61b",
+          "Important_Rules_hi.txt": "42dc0361722c8b6bf982267e22320d715b70c5dcaa80d6965920a88bdfe11a3f",
+          "Mind_Map_en.txt": "c0e829831a7404a9a1c916c8bba1b5fdbfa0d1d73d43beffde5b28f76c62de8d",
+          "Mind_Map_hi.txt": "9177579a2a1b6d7c12274c3d5b0f03224192103fdbbaac99f64f9e080a6c9bf7",
+          "PYQ_en.txt": "c02af3dc3f0cf113015452ec56f3df1cbaebf54b5d8ae6f714317d186a745675",
+          "PYQ_hi.txt": "403f52fef81d05697ba7d3002bdd63c6b57bb7d75202907f0e466ed18d6c5e97",
+          "Practice_en_Set_01.txt": "b9fc30ca0e57731d63142511ef7b2f43f6788b5255c2e6d3b8edb88ac12cf37f",
+          "Practice_en_Set_02.txt": "f7f77a49889f0d1cbebab6f008e2e2e907700778784fa5a647724791b735a8f5",
+          "Practice_en_Set_03.txt": "abf67e0f801741391572fd91ff0982d0e094753d49d2b7a2bf1cffd662f15862",
+          "Practice_en_Set_04.txt": "14f3342c391c1da0937682c627c7a100b231229cca060ade4755df392ba289a6",
+          "Practice_en_Set_05.txt": "c10cf8541cda25353ad389963682ad2594c86408dd587a750c0162dd94382800",
+          "Practice_en_Set_06.txt": "3fd97da19e43934c2e4c58b0539567b6af370e0ed2bb36f0933980cef30924b6",
+          "Practice_hi_Set_01.txt": "1d30e31bf3df1c118758dd59c97039320165a1404e742938d13cfa94298e4adc",
+          "Practice_hi_Set_02.txt": "9e8e1428ce077d5b980ebc28aa5781c7ef8328776321892657a7820e09f10d1f",
+          "Practice_hi_Set_03.txt": "3baa61431aa64b11be01b5febc51ea89e378f28a5b1f65f759636135c8e952f9",
+          "Practice_hi_Set_04.txt": "8927b8c879f33b6546f55dcfe10e394ca70d6a20e7803a5e6b4962c89334c6e0",
+          "Practice_hi_Set_05.txt": "b6e74691002de638ddad0bae723310f1c2ae895a82d90376f2990f94f1738459",
+          "Practice_hi_Set_06.txt": "cf62bb344b720ac264fa6e6c186a0bfbb4cdb910ef6db9a96822a21c8276b709",
+          "Short_Tricks_en.txt": "a28a1431cb2507112e9c02b31995ca868dea3cff638f432de2392f7cdab71de0",
+          "Short_Tricks_hi.txt": "9f3bcbf4f1c5acd3068a63f94b395278b0e860268510b12db7de0ee860be88ab"
+        }
+      },
+      "checked_at": "2026-11-21T07:26:01+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "e0bc9eef5d9efe65e17221760d85c75fe3600f6d3a69a486f5da9ae70171caf6",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- \"Every SSC, Railway and Bank paper asks you one deceptively simple question\" is an invented exam claim (absolute statement not true for all papers) → Qualify as \"Many SSC, Railway and Bank papers include...\" or remove the absolute claim.",
+        "- \"Exam insight: SSC and Railway questions are mostly gradable and complementary\" is an invented exam statistic without source → Remove or provide verifiable source.",
+        "- In the passage check yourself, \"philanthropy ↔ misanthrope\" is an incorrect antonym pair (philanthropy is an abstract noun, misanthrope is a person) → Correct to \"philanthropy ↔ misanthropy\" or \"philanthropist ↔ misanthrope\"."
+      ],
+      "dependencies": {
+        "chapter.json": "ff6201f6f7ca180871c0a3aa57da0ade2213ea7d8a0f965a771e0cd1b34ba252",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "b320134c3a492c03904b5bd5cd9872a60bc7940dac5c42679b90f58d640e0ecf"
+      },
+      "checked_at": "2026-11-21T07:27:52+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "3e86ee2ef21c2fdf5c8e6c4ae17da55cab6b69658573e0540d34d37175d72b92",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "ff6201f6f7ca180871c0a3aa57da0ade2213ea7d8a0f965a771e0cd1b34ba252",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "b320134c3a492c03904b5bd5cd9872a60bc7940dac5c42679b90f58d640e0ecf",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T07:27:52+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "809e096a8d589bc71f18245c12a96184190199962bb9d3ba98ec01a1717b3f76",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- In the Greek/Latin Roots table, the row for \"pro-\" incorrectly lists \"re-\" as an opposite prefix; \"re-\" means \"again/back\", not \"against\". The true antonym of pro- is \"anti-\" (or \"contra-\"). → Remove \"re-\" from the antonym column; only \"anti-\" is the opposite.",
+        "- In the same table, the row for \"phil-\" gives \"mis-\" as the root for \"hate\" in \"misanthropy\"; the Greek root for hate is \"miso-\", while \"mis-\" is a Latin/English prefix meaning \"bad/wrong\". → Change \"mis- (घृणा)\" to \"miso- (घृणा)\" and note that \"misanthropy\" derives from Greek \"misos\" (hatred)."
+      ],
+      "dependencies": {
+        "chapter.json": "ff6201f6f7ca180871c0a3aa57da0ade2213ea7d8a0f965a771e0cd1b34ba252",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "40ea271f793fcc3557af178988e72e59a6103ab3bc94e8ca68c0e514b6879f18"
+      },
+      "checked_at": "2026-11-21T07:29:42+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T07:29:42+00:00",
+  "chapter_fingerprint": "7f391db3d700c0f6783fe057879ca85921358804bc30b0e50acd330695b775f2"
+}
