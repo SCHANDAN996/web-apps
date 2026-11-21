@@ -1,34 +1,33 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 03:55 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 03:56 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 12/12
+**काम पर लगे workers:** 11/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
 | W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 17 मिनट |
-| W10 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W11 | Chapter 02 input output ports (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
+| W10 | Chapter 12 anekarthi samshrut (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W11 | Chapter 12 e banking (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
 | W12 | Chapter 09 upsarg pratyay (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 16 मिनट |
-| W3 | Chapter 01 varn vartani (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 14 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 17 मिनट |
 | W4 | Chapter 11 vilom (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
 | W5 | Chapter 11 email (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
 | W6 | Chapter 10 internet browser (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
 | W7 | Chapter 10 paryayvachi (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W8 | Chapter 08 samas (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W8 | Chapter 08 samas (10th Hindi) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
 | W9 | Chapter 09 powerpoint (12th Computer) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
 | key 3 | 11 |
 | key 4 | 17 |
-| key 5 | 8 |
+| key 5 | 10 |
 | key 6 | 5 |
 
 ## किताबों की प्रगति
@@ -59,7 +58,7 @@
 
 | किताब | QA पास | जाँच बाकी | प्रमाण बाकी | सुधार अटका | मैनुअल | जाँचें पास / कुल |
 |---|---:|---:|---:|---:|---:|---:|
-| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 40/540 |
+| 10th Hindi | 0 | 15 | 0 | 0 | 0 | 41/540 |
 | 12th Computer | 0 | 14 | 0 | 0 | 0 | 42/1092 |
 | 10th GK | 0 | 19 | 0 | 0 | 0 | 43/1482 |
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 49/1716 |
@@ -73,7 +72,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 512/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 513/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -83,15 +82,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 15:49:46   [word] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 2, "needs_reference": 3, "remaining": 75, 
-21-11 15:49:46 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'editorial:Content_en.txt', 'status': 'blocked', 'issues': ['- "Default line spacing: 1.08 (single) with 8 pt after paragraph" → The default line spacing is 1.08 lines (Multiple), not the "Single" preset; the "Single" preset uses 1.0 line spacing.', '- "Default font (Word 2016+): Calibri 11 pt" → For Microsoft 365 (included in the book\'s scope), the default font has been Aptos since 2023, not Calibri.']}, {'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: Microsoft Word is a word-processing application used to create, edit, format, and print documents. In SSC, Railway, and Banking exams, questions test practical knowledge of the interface, shortcut keys, formatting tools, mail merge, tables, and document protection. The concepts below are version-agnostic (applicable to Word 2010 onward, including Microsoft 365) and drawn from official Microsoft Support documentation.']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- स्रोत उद्धरण में CERT-In सुरक्षा परामर्श और RBI साइबर सुरक्षा ढांचा को Word अवधारणाओं के स्रोत के रूप में सूचीबद्ध किया गया है, जो तथ्यात्मक रूप से गलत है → स्रोत सूची से CERT-In और RBI को हटाएँ; केवल Microsoft Support और Microsoft Learn रखें।']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_07_word/QA.json'}
-21-11 15:50:17   [excel] QA blocked: editorial:Feynman_en.txt
-21-11 15:50:32   [excel] QA needs_reference: sources:Feynman_en.txt
-21-11 15:50:33   [powerpoint] QA needs_reference: sources:Content_hi.txt
-21-11 15:50:49   [samas] QA passed: editorial:Flashcards_hi.txt
-21-11 15:50:49   [samas] QA needs_reference: sources:Flashcards_hi.txt
-21-11 15:50:56   [excel] QA passed: editorial:Feynman_hi.txt
-21-11 15:50:56   [excel] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 3, "pending": 70, "blocked": 2, "needs_reference": 3, "remaining": 75, 
 21-11 15:50:56 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_08_excel: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- स्तंभ छिपाने/दिखाने के शॉर्टकट में `Ctrl + Shift + 0` गलत है → `Ctrl + Shift + )` सही है', '- `SUBTOTAL(109, रेंज)` और `AGGREGATE(9, 5, रेंज)` छिपे स्तंभों को अनदेखा नहीं करते → ये केवल छिपी पंक्तियों को अनदेखा करते हैं']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_en.txt', 'status': 'blocked', 'issues': ['- In Core Concepts #7, the shortcut for current time is listed as `Ctrl+Shift+:` → should be `Ctrl+Shift+;` (semicolon)', '- In Recall Question 5 explanation, the shortcut for current time is listed as `Ctrl+Shift+:` → should be `Ctrl+Shift+;` (semicolon)']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_08_excel/QA.json'}
 21-11 15:51:08   [kaal_vachya] QA blocked: editorial:Important_Rules_hi.txt
 21-11 15:51:20   [shabd_bhed] QA passed: editorial:Important_Rules_hi.txt
@@ -123,6 +113,15 @@
 21-11 15:56:00   [paryayvachi] QA passed: editorial:Flashcards_hi.txt
 21-11 15:56:00   [paryayvachi] QA needs_reference: sources:Flashcards_hi.txt
 21-11 15:56:13   [rikt_sthan_vakya_kram] Practice_hi_Set_04.txt try 2: re-solve disagrees (Q86 key c vs re-solve a)
+21-11 15:56:32   [email] QA passed: editorial:Feynman_en.txt
+21-11 15:56:39   [upsarg_pratyay] QA passed: editorial:Important_Rules_hi.txt
+21-11 15:56:43   [email] QA needs_reference: sources:Feynman_en.txt
+21-11 15:56:43   [upsarg_pratyay] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 36, "passed": 3, "pending": 28, "blocked": 2, "needs_reference": 3, "remaining": 33, 
+21-11 15:56:44 QA 10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay: {'status': 'pending', 'verified': False, 'total': 36, 'passed': 3, 'pending': 28, 'blocked': 2, 'needs_reference': 3, 'remaining': 33, 'failures': [{'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ["- In section 3.2 (ग) स्त्रीलिंग प्रत्यय table, the suffix '-त्री' is incorrectly exemplified with 'गायक → गायिका'; '-त्री' does not produce 'गायिका' (the correct suffix for that transformation is '-इका' or '-ई' with deletion of -क) → Replace the example for '-त्री' with a valid one (e.g., 'पुत्र → पुत्री' for '-ई') or change the suffix to '-इका' for 'गायक → गायिका'."]}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- "अनुचित" के विश्लेषण में उपसर्ग "अनु-" का अर्थ "अनुसार/पीछे" बताया गया है → "अनुचित" में "अनु-" निषेधार्थक उपसर्ग है (स्वर से पहले "अ-" का रूप "अनु-"), अर्थ "नहीं/अभाव"; मूल "चित्" (धातु) + "उ-" (उपसर्ग) + "त" (कृदन्त) = "उचित"', '- कृदन्त प्रत्ययों की सूची में "-आ, -ई, -न, -त, -नार" दिया है लेकिन उदाहरण "खेलना" में "ना" प्रयुक्त है → सूची में "ना" (क्रिया-संज्ञा/इन्फिनिटिव कारक) जोड़ें या उदाहरण बदलें']}, {'check': 'sources:Feynman_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Flashcards_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Hindi/Foundation_10th_Hindi_WorldClass/Chapter_09_upsarg_pratyay/QA.json'}
+21-11 15:56:44   [ek_shabd] QA needs_reference: sources:Feynman_hi.txt
+21-11 15:56:57   [email] QA passed: editorial:Feynman_hi.txt
+21-11 15:56:57   [email] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 4, "pending": 70, "blocked": 1, "needs_reference": 3, "remaining": 74, 
+21-11 15:56:57 QA 12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_11_email: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 4, 'pending': 70, 'blocked': 1, 'needs_reference': 3, 'remaining': 74, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: 1. **Subject line**: Clear, specific — "Application: SSC CGL 2024 — Roll No 12345" not "Hello".']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Local-part (उपयोगकर्तानाम) is stated as not case-sensitive, but per RFC 5321 the local-part is case-sensitive → Correct: Local-part is case-sensitive (though many providers treat it as case-insensitive in practice).']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Computer/Competitive_Computer_WorldClass/Chapter_11_email/QA.json'}
 ````
 
 </details>

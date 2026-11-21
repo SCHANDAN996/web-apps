@@ -86,11 +86,72 @@
         "Feynman_hi.txt": "573e57e3af0298e32458dc02de739cc0a49fde09827f18db21e86daa0be7e0ef"
       },
       "checked_at": "2026-11-21T05:46:35+00:00"
+    },
+    "sources:Feynman_hi.txt": {
+      "fingerprint": "206bf1e477efbc690b1998efb30505188038fb332a90cba3ddc7ed4d0badff88",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "5dc327568de176b8bd533241576ae4d4a02bb4a8220bd61b368a5849c2680ac2",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Feynman_hi.txt": "573e57e3af0298e32458dc02de739cc0a49fde09827f18db21e86daa0be7e0ef",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:17:56+00:00"
+    },
+    "editorial:Flashcards_hi.txt": {
+      "fingerprint": "2140d7a4757e80c59a96292769e43cb5baf3ab452ecd2a54647713935d920cd4",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "5dc327568de176b8bd533241576ae4d4a02bb4a8220bd61b368a5849c2680ac2",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Flashcards_hi.txt": "7ea2af7a150ab59af1516e54b1e59fdffd3f776745ececffdd24115604877f7e"
+      },
+      "checked_at": "2026-11-21T10:20:49+00:00"
+    },
+    "sources:Flashcards_hi.txt": {
+      "fingerprint": "46b3ef3a2202beac54ccc9ba6408f2bbb8756a9d8e8656c8c2cf779f3f116c19",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "5dc327568de176b8bd533241576ae4d4a02bb4a8220bd61b368a5849c2680ac2",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Flashcards_hi.txt": "7ea2af7a150ab59af1516e54b1e59fdffd3f776745ececffdd24115604877f7e",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T10:20:49+00:00"
+    },
+    "editorial:Important_Rules_hi.txt": {
+      "fingerprint": "95caafd1b3973609ae9469a24efd47aba463d0be4554133c2cac92245a3184d8",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- In practice example 10, the vigraha of चतुराननम् shows \"चतुरि आनानि\" which is an incorrect form; the correct vigraha is \"चत्वारि आनानि यस्य तत्\".",
+        "- In Rule 12 table, \"द्विमुखः\" is misclassified as कर्मधारय (संख्यावचन); द्विमुखः (masculine singular) is a बहुव्रीहि meaning 'having two faces', while a कर्मधारय with numeral 'dvi' and noun 'mukha' would be neuter (द्विमुखे/द्विमुखम्)."
+      ],
+      "dependencies": {
+        "chapter.json": "5dc327568de176b8bd533241576ae4d4a02bb4a8220bd61b368a5849c2680ac2",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": true,
+        "Important_Rules_hi.txt": "cfc6c56ec354773667a8fec86ed9b6001113a96e4a325e1c1e7c5f0ce93ef0c1"
+      },
+      "checked_at": "2026-11-21T10:25:47+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T05:46:36+00:00",
-  "chapter_fingerprint": "31f5910783dcfbbd7665d33f96cd4b87fda23479c002bcfe3921754e2031fc17"
+  "updated_at": "2026-11-21T10:25:47+00:00",
+  "chapter_fingerprint": "0bf31a232bde41c1ab12fe84457b692c3497e9fe1252af64b733cb57acf9b759"
 }
