@@ -1,34 +1,35 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 04:41 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 04:42 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
 | W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 63 मिनट |
-| W10 | Chapter 21 Paper Folding Cutting (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W11 | Chapter 02 LCM HCF (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W12 | Chapter 20 Mirror Water Images (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 62 मिनट |
-| W3 | Chapter 01 Number System (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W4 | Chapter 22 Figure Series (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W5 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W6 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W8 | Chapter 03 Simplification (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
-| W9 | Chapter 17 Course of Action (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W10 | Chapter 21 Paper Folding Cutting (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W11 | Chapter 02 LCM HCF (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W12 | Chapter 20 Mirror Water Images (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W2 | Chapter 16 rikt sthan vakya kram (10th Hindi) | ✍️ लिख रहा है | 63 मिनट |
+| W3 | Chapter 01 Number System (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W4 | Chapter 22 Figure Series (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W5 | Chapter 18 Inequality (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W6 | Chapter 19 Cubes Dice (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W7 | Chapter 04 Fractions Decimals (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W8 | Chapter 03 Simplification (10th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
+| W9 | Chapter 17 Course of Action (10th Reasoning) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 46 |
+| key 3 | 47 |
 | key 4 | 50 |
 | key 5 | 41 |
-| key 6 | 31 |
+| key 6 | 32 |
 
 ## किताबों की प्रगति
 
@@ -82,15 +83,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 16:36:12   [Inequality] QA needs_reference: sources:Feynman_en.txt
-21-11 16:36:12   [Inequality] QA passed: editorial:Feynman_hi.txt
-21-11 16:36:12   [Cubes_Dice] QA needs_reference: sources:Content_hi.txt
-21-11 16:36:13   [Inequality] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
-21-11 16:36:13 QA 10th_Level/Reasoning/Chapter_18_Inequality: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_18_Inequality/QA.json'}
-21-11 16:36:47   [Mirror_Water_Images] QA needs_reference: sources:Content_hi.txt
-21-11 16:37:27   [Paper_Folding_Cutting] QA needs_reference: sources:Content_hi.txt
-21-11 16:38:03   [Mirror_Water_Images] QA passed: editorial:Feynman_en.txt
-21-11 16:38:03   [Mirror_Water_Images] QA needs_reference: sources:Feynman_en.txt
 21-11 16:38:08   [Cubes_Dice] QA passed: editorial:Feynman_en.txt
 21-11 16:38:29   [Cubes_Dice] QA needs_reference: sources:Feynman_en.txt
 21-11 16:38:30   [Figure_Series] QA needs_reference: sources:Content_hi.txt
@@ -122,6 +114,15 @@
 21-11 16:41:55 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_03_Simplification: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 5, 'pending': 65, 'blocked': 0, 'needs_reference': 3, 'remaining': 68, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_03_Simplification/QA.json'}
 21-11 16:41:55 QA 10th_Level/Reasoning/Chapter_22_Figure_Series: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 3, 'pending': 70, 'blocked': 2, 'needs_reference': 3, 'remaining': 75, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- The text states "5 प्रमाणित पैटर्न प्रकार" but the SHAPES mnemonic lists 6 pattern types (Shading/Shifting, Half-turn/Rotation, Addition/Alternate, Position change, Element count, Symmetry/Size change) → Change the initial claim to "6 प्रमाणित पैटर्न प्रकार" or reduce the mnemonic to 5 types.', '- The claim "तुम्हारा दिमाग़ नई जानकारी का 50% 24 घंटों के अंदर भूल जाता है" is inaccurate; the Ebbinghaus forgetting curve indicates approximately 60-70% loss within 24 hours without repetition → Correct the percentage to "60-70%" or replace with a vague phrase like "अधिकांश भाग".']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- रिया-राज की चॉक-पत्थर वाली उपमा तार्किक रूप से टूटी हुई है: चॉक से बनी स्माइली को पत्थर पलटकर दर्पण प्रतिबिंब नहीं बनाया जा सकता → सुसंगत उपमा दें (जैसे स्टैम्प, डिजिटल लेयर, या सीधे आकृति पर क्रियाएँ बताएँ)', '- "यादगार सवाल" में सम-विषम स्थान के आधार पर "बारी किसकी है?" तय करने का नियम सार्वभौमिक बताया गया है, जबकि यह केवल इंटरलीव्ड श्रृंखला (प्रकार 2) के लिए सही है; बारी-बारी की क्रिया (प्रकार 1) में अगली क्रिया पिछली क्रिया से तय होती है, स्थान की समता से नहीं → स्पष्ट करें कि स्थान-आधारित नियम केवल प्रकार 2 के लिए है, प्रकार 1 में पिछली क्रिया देखकर अगली क्रिया चुनें']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Reasoning/Chapter_22_Figure_Series/QA.json'}
 21-11 16:41:55   [Fractions_Decimals] QA needs_reference: sources:Content_hi.txt
+21-11 16:42:59   [Percentage] QA needs_reference: sources:Content_hi.txt
+21-11 16:43:10   [Percentage] QA passed: editorial:Feynman_en.txt
+21-11 16:43:11   [Percentage] QA needs_reference: sources:Feynman_en.txt
+21-11 16:43:16   [Number_System] QA blocked: editorial:Feynman_hi.txt
+21-11 16:43:16   [Number_System] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 73, "passed": 4, "pending": 65, "blocked": 1, "needs_reference": 3, "remaining": 69, 
+21-11 16:43:17 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_01_Number_System: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 4, 'pending': 65, 'blocked': 1, 'needs_reference': 3, 'remaining': 69, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Feynman_hi.txt', 'status': 'blocked', 'issues': ['- The Hippasus drowning story is presented as historical fact ("ने यह बात एक नाव पर खोजी... उन्होंने हिप्पासस को समुद्र में फेंक दिया") but it is a later legend with no contemporary evidence; it should be labeled as a legend/anecdote. → Present it as a traditional story/legend, not verified history.']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_01_Number_System/QA.json'}
+21-11 16:43:31   [LCM_HCF] QA passed: editorial:Feynman_hi.txt
+21-11 16:43:31   [LCM_HCF] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 73, "passed": 5, "pending": 65, "blocked": 0, "needs_reference": 3, "remaining": 68, 
+21-11 16:43:31 QA 10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_02_LCM_HCF: {'status': 'pending', 'verified': False, 'total': 73, 'passed': 5, 'pending': 65, 'blocked': 0, 'needs_reference': 3, 'remaining': 68, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/Maths/Foundation_10th_Math_WorldClass/Chapter_02_LCM_HCF/QA.json'}
 ````
 
 </details>
