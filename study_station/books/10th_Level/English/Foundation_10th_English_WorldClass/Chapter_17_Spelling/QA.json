@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "policy_version": 1,
+  "checks": {
+    "structure": {
+      "fingerprint": "1e4ec9c70f0628affe4278e6045e8a29c2bd5945195a3ca572a4f2fbb5e27e32",
+      "kind": "structure",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "99584af52776927485f0797bb7fb3c19f10023089c77a2b5c0c4d46a5d86cfb6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "1d504c7de054a86f2a5a5a1faf3e3cc6547e4ed2b25fac23c99993da4afc2ada",
+        "Content_hi.txt": "415937da458a231c97f8fe6ab8813ebb032af1ec6aa893a2ac59700c4636cb41",
+        "Feynman_en.txt": "dd5d5ed19da9381a95e02c756b614302b2f9daaa36e46e336c10826833b58d8a",
+        "Feynman_hi.txt": "22bf1bcb6e943583c1436ada5908ee53ac65f0023d57928f7c6335ca6c185b6a",
+        "Flashcards_en.txt": "a2e4d1245a7db61e64b3553aa811d0fbc2e7222622cb498afb2ecef267dce604",
+        "Flashcards_hi.txt": "64dce92152cc8d798393788f3491fd83cf12fb9b6cb814d4db808112340be645",
+        "Important_Rules_en.txt": "c381836115a3c45ea85e2d05a9f59232b83a136327724c166548f68f00cbc657",
+        "Important_Rules_hi.txt": "c0c00172c5f4af042dcdaf497429c9ec3a391b53e54e89052c435df8b5cbd55b",
+        "Mind_Map_en.txt": "a6de55a064a7e0ad31c24a0d028f4bd3b02aad7fced81c796fd53c18c5155f68",
+        "Mind_Map_hi.txt": "2edb90f16b5cfdfd093d32852ca36cddf4c07fe1d2ecfe82692f9af9d42dfb04",
+        "PYQ_en.txt": "cd63f376d6ac15dcde1aad8df686b7cd1b118331ad4caca02b013057cdacf61c",
+        "PYQ_hi.txt": "04ce1a706eddc979ba581fd43723888cdb3b9adadb64a79e574f1c758cf7c270",
+        "Practice_en_Set_01.txt": "81da3ff6033558880b5be6b6e90ef09969199df4f9a3ccafaa542e972641b7ab",
+        "Practice_en_Set_02.txt": "34ecf7dace0ac3991288672b4d18b0cd2b1f5bf6b9145cc8e5f709f73151c11d",
+        "Practice_en_Set_03.txt": "5dab446329c2c73e2393e30de495bf3928fa6ce7890439309469249d34781356",
+        "Practice_en_Set_04.txt": "149cbdb95cd53c1f465386961ca057718af75226f277ac38eb8ee825427647d0",
+        "Practice_en_Set_05.txt": "7a2edd58213da861afbdaa4ebd67ed76203f6443c83e139074e0fb7c76751640",
+        "Practice_en_Set_06.txt": "c0617b9bab078fb581579d5950e095f22c61549aca9d006f2d35a2d2e231d964",
+        "Practice_hi_Set_01.txt": "6478a957d74afef3035fa0faa31b4f850dd312aeda379e9107287d68f1cb554b",
+        "Practice_hi_Set_02.txt": "11e25a45247c2dc0527d8dffdac5be79a4a926eda5024d95d3c178fad77e4f84",
+        "Practice_hi_Set_03.txt": "f7ea55ff99d8202ef9667fb70b33e8fb251190fc6c7293468a5a2070fbad38d6",
+        "Practice_hi_Set_04.txt": "b17ed5634a804b9832f90b6468a55a8d22f0a8b3e26aba19428771e4ee1ad6a9",
+        "Practice_hi_Set_05.txt": "fc2ba98ac6fcc7a063209557c36540728644c7abafcd1eac091850d89eec717d",
+        "Practice_hi_Set_06.txt": "864765de103c3e55695dde927fce4fd60cabcaae9c8ebd7dd5486758bf304604",
+        "Short_Tricks_en.txt": "359846a69491920b8bfd00f105318e0d99b744ddfd917a43c2b5dcb4816d7444",
+        "Short_Tricks_hi.txt": "e1df0722cac16edccd03409419d21f159037b60bfed75af76052620aea239047",
+        "inventory": {
+          "Content_en.txt": "1d504c7de054a86f2a5a5a1faf3e3cc6547e4ed2b25fac23c99993da4afc2ada",
+          "Content_hi.txt": "415937da458a231c97f8fe6ab8813ebb032af1ec6aa893a2ac59700c4636cb41",
+          "Feynman_en.txt": "dd5d5ed19da9381a95e02c756b614302b2f9daaa36e46e336c10826833b58d8a",
+          "Feynman_hi.txt": "22bf1bcb6e943583c1436ada5908ee53ac65f0023d57928f7c6335ca6c185b6a",
+          "Flashcards_en.txt": "a2e4d1245a7db61e64b3553aa811d0fbc2e7222622cb498afb2ecef267dce604",
+          "Flashcards_hi.txt": "64dce92152cc8d798393788f3491fd83cf12fb9b6cb814d4db808112340be645",
+          "Important_Rules_en.txt": "c381836115a3c45ea85e2d05a9f59232b83a136327724c166548f68f00cbc657",
+          "Important_Rules_hi.txt": "c0c00172c5f4af042dcdaf497429c9ec3a391b53e54e89052c435df8b5cbd55b",
+          "Mind_Map_en.txt": "a6de55a064a7e0ad31c24a0d028f4bd3b02aad7fced81c796fd53c18c5155f68",
+          "Mind_Map_hi.txt": "2edb90f16b5cfdfd093d32852ca36cddf4c07fe1d2ecfe82692f9af9d42dfb04",
+          "PYQ_en.txt": "cd63f376d6ac15dcde1aad8df686b7cd1b118331ad4caca02b013057cdacf61c",
+          "PYQ_hi.txt": "04ce1a706eddc979ba581fd43723888cdb3b9adadb64a79e574f1c758cf7c270",
+          "Practice_en_Set_01.txt": "81da3ff6033558880b5be6b6e90ef09969199df4f9a3ccafaa542e972641b7ab",
+          "Practice_en_Set_02.txt": "34ecf7dace0ac3991288672b4d18b0cd2b1f5bf6b9145cc8e5f709f73151c11d",
+          "Practice_en_Set_03.txt": "5dab446329c2c73e2393e30de495bf3928fa6ce7890439309469249d34781356",
+          "Practice_en_Set_04.txt": "149cbdb95cd53c1f465386961ca057718af75226f277ac38eb8ee825427647d0",
+          "Practice_en_Set_05.txt": "7a2edd58213da861afbdaa4ebd67ed76203f6443c83e139074e0fb7c76751640",
+          "Practice_en_Set_06.txt": "c0617b9bab078fb581579d5950e095f22c61549aca9d006f2d35a2d2e231d964",
+          "Practice_hi_Set_01.txt": "6478a957d74afef3035fa0faa31b4f850dd312aeda379e9107287d68f1cb554b",
+          "Practice_hi_Set_02.txt": "11e25a45247c2dc0527d8dffdac5be79a4a926eda5024d95d3c178fad77e4f84",
+          "Practice_hi_Set_03.txt": "f7ea55ff99d8202ef9667fb70b33e8fb251190fc6c7293468a5a2070fbad38d6",
+          "Practice_hi_Set_04.txt": "b17ed5634a804b9832f90b6468a55a8d22f0a8b3e26aba19428771e4ee1ad6a9",
+          "Practice_hi_Set_05.txt": "fc2ba98ac6fcc7a063209557c36540728644c7abafcd1eac091850d89eec717d",
+          "Practice_hi_Set_06.txt": "864765de103c3e55695dde927fce4fd60cabcaae9c8ebd7dd5486758bf304604",
+          "Short_Tricks_en.txt": "359846a69491920b8bfd00f105318e0d99b744ddfd917a43c2b5dcb4816d7444",
+          "Short_Tricks_hi.txt": "e1df0722cac16edccd03409419d21f159037b60bfed75af76052620aea239047"
+        }
+      },
+      "checked_at": "2026-11-21T07:28:45+00:00"
+    },
+    "editorial:Content_en.txt": {
+      "fingerprint": "605d061a30d43f54c4b57478706233015f4537ebdee25dfe6963fd6d8c1eb5d3",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The mnemonic in Part 3 claims Maintenance has double letters, but it does not → Remove Maintenance from the mnemonic or correct the claim that all listed words have double letters."
+      ],
+      "dependencies": {
+        "chapter.json": "99584af52776927485f0797bb7fb3c19f10023089c77a2b5c0c4d46a5d86cfb6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "1d504c7de054a86f2a5a5a1faf3e3cc6547e4ed2b25fac23c99993da4afc2ada"
+      },
+      "checked_at": "2026-11-21T07:31:28+00:00"
+    },
+    "sources:Content_en.txt": {
+      "fingerprint": "3257a483f0078fb86dea823ec71620dcc402a7f18ce6aff05f254313e5c2928f",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "99584af52776927485f0797bb7fb3c19f10023089c77a2b5c0c4d46a5d86cfb6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_en.txt": "1d504c7de054a86f2a5a5a1faf3e3cc6547e4ed2b25fac23c99993da4afc2ada",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T07:31:28+00:00"
+    },
+    "editorial:Content_hi.txt": {
+      "fingerprint": "b9f94dff680f299d6f7a6c4c028619c37093cae07af483d98a5aa769d55353a6",
+      "kind": "editorial",
+      "status": "passed",
+      "issues": [],
+      "dependencies": {
+        "chapter.json": "99584af52776927485f0797bb7fb3c19f10023089c77a2b5c0c4d46a5d86cfb6",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "415937da458a231c97f8fe6ab8813ebb032af1ec6aa893a2ac59700c4636cb41"
+      },
+      "checked_at": "2026-11-21T07:32:06+00:00"
+    }
+  },
+  "repairs": {},
+  "verified": false,
+  "status": "pending",
+  "updated_at": "2026-11-21T07:32:06+00:00",
+  "chapter_fingerprint": "7a7b40fbdefa9a344effcd31c04ab0eb2d82863372d7afb48aaa534e1a7296be"
+}
