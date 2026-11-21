@@ -109,11 +109,73 @@
         "Content_hi.txt": "6fa34565ad35c6a6f4760cb58bb4c546d691055dc7a50d1e6afeff4be987a3ce"
       },
       "checked_at": "2026-11-21T07:25:18+00:00"
+    },
+    "sources:Content_hi.txt": {
+      "fingerprint": "3dfc9d1e9f554b9992d2e491abb8fa858977eda58fe8b629872cbdf3758fd458",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "2ab6bea0a603bac7322665c08996c03c307cb0deac5378bca8fe26dc7f6c8b1b",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Content_hi.txt": "6fa34565ad35c6a6f4760cb58bb4c546d691055dc7a50d1e6afeff4be987a3ce",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:37:54+00:00"
+    },
+    "editorial:Feynman_en.txt": {
+      "fingerprint": "49ac5e50b09ebc8c8db461ba605d53b905e8ab691d6afd1293e470665ad1b93d",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The claim \"you can convert 90% of exam sentences\" is an invented exam statistic → remove the percentage or replace with \"most exam sentences\""
+      ],
+      "dependencies": {
+        "chapter.json": "2ab6bea0a603bac7322665c08996c03c307cb0deac5378bca8fe26dc7f6c8b1b",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "4b0c52215602fffb8d024c120b83fca63bb99ed9570c3d5aeea3ce0f1693d5b5"
+      },
+      "checked_at": "2026-11-21T11:38:46+00:00"
+    },
+    "sources:Feynman_en.txt": {
+      "fingerprint": "c46fc05098202b77ec29f9521e0d7f776f42895bb7c43a33f15d946fad0b61c8",
+      "kind": "sources",
+      "status": "needs_reference",
+      "issues": [
+        "Fetch official supporting evidence for: [file content]"
+      ],
+      "dependencies": {
+        "chapter.json": "2ab6bea0a603bac7322665c08996c03c307cb0deac5378bca8fe26dc7f6c8b1b",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_en.txt": "4b0c52215602fffb8d024c120b83fca63bb99ed9570c3d5aeea3ce0f1693d5b5",
+        "QA.references.json": []
+      },
+      "checked_at": "2026-11-21T11:38:46+00:00"
+    },
+    "editorial:Feynman_hi.txt": {
+      "fingerprint": "eac5cd431528046773def19ccc6cf90eb7277ae060bc3a9b48338df70f9cab31",
+      "kind": "editorial",
+      "status": "blocked",
+      "issues": [
+        "- The text claims \"सिर्फ़ तीन चीज़ें बदलती हैं\" (only three things change: Pronoun, Tense, Time/Place words) but the example shows a fourth change: verb \"come\" → \"go\" → Either add verb change as a fourth category or clarify that verb change is part of perspective shift."
+      ],
+      "dependencies": {
+        "chapter.json": "2ab6bea0a603bac7322665c08996c03c307cb0deac5378bca8fe26dc7f6c8b1b",
+        "book_rules": "ff4a375da2a7eac4b643fcc2e724ff9635ebcbb59b8cbfbd89be79fbc1d7e59b",
+        "hindi_only": false,
+        "Feynman_hi.txt": "fb48da555088b165bbc4fda26bf77c6a8ccc87a29db1bf8a6fc3e18c603373e8"
+      },
+      "checked_at": "2026-11-21T11:39:57+00:00"
     }
   },
   "repairs": {},
   "verified": false,
   "status": "pending",
-  "updated_at": "2026-11-21T07:25:18+00:00",
+  "updated_at": "2026-11-21T11:39:57+00:00",
   "chapter_fingerprint": "cedfc4ef16897e8c00c34e6536166883df72adf333c699880f4a040073d9870e"
 }

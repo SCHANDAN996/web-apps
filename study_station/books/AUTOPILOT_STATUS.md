@@ -1,34 +1,35 @@
 # Study Station · किताबों की लाइव स्थिति
 
-**आखिरी अपडेट:** 21-11-2026 05:17 PM IST · **रन शुरू:** 21-11 03:38 PM IST
+**आखिरी अपडेट:** 21-11-2026 05:18 PM IST · **रन शुरू:** 21-11 03:38 PM IST
 
 पेज लगभग हर 15 मिनट और प्रगति सेव होने पर अपडेट होता है। नई स्थिति देखने के लिए पेज रीफ़्रेश करें।
 [GitHub Actions पर रन की स्थिति](https://github.com/SCHANDAN996/web-apps/actions/runs/44891035153)
 
-**काम पर लगे workers:** 11/12
+**काम पर लगे workers:** 12/12
 
 ## अभी क्या चल रहा है
 
 | Worker | अध्याय | काम | बीता समय |
 |---|---|---|---|
 | W1 | Chapter 07 sandhi (10th Hindi) | ✍️ लिख रहा है | 99 मिनट |
-| W10 | Chapter 12 Sentence Structure (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W12 | Chapter 01 Number System (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W2 | Chapter 15 One Word Substitution (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
-| W3 | Chapter 20 Sentence Improvement Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 1 मिनट |
-| W4 | Chapter 11 Narration (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 9 मिनट |
-| W5 | Chapter 16 Idioms Phrases (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
-| W6 | Chapter 18 Error Spotting Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
-| W7 | Chapter 17 Spelling (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
-| W8 | Chapter 19 Fill in Blanks Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
-| W9 | Chapter 14 Antonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W10 | Chapter 12 Sentence Structure (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W11 | Chapter 02 LCM HCF (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 0 मिनट |
+| W12 | Chapter 01 Number System (12th Maths) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W2 | Chapter 15 One Word Substitution (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 7 मिनट |
+| W3 | Chapter 20 Sentence Improvement Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 2 मिनट |
+| W4 | Chapter 11 Narration (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 10 मिनट |
+| W5 | Chapter 16 Idioms Phrases (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 6 मिनट |
+| W6 | Chapter 18 Error Spotting Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 4 मिनट |
+| W7 | Chapter 17 Spelling (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 5 मिनट |
+| W8 | Chapter 19 Fill in Blanks Basic (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 3 मिनट |
+| W9 | Chapter 14 Antonyms (10th English) | 🧮 उत्तर दोबारा जाँच रहा है | 8 मिनट |
 
 | API key | इस रन में शुरू हुए अनुरोध |
 |---|---:|
-| key 3 | 61 |
+| key 3 | 62 |
 | key 4 | 84 |
 | key 5 | 65 |
-| key 6 | 52 |
+| key 6 | 53 |
 
 ## किताबों की प्रगति
 
@@ -64,7 +65,7 @@
 | 10th Reasoning | 0 | 22 | 0 | 0 | 0 | 83/1716 |
 | 10th Maths | 0 | 22 | 0 | 0 | 0 | 100/1606 |
 | 10th English | 0 | 20 | 0 | 0 | 0 | 81/1622 |
-| 12th Maths | 0 | 23 | 0 | 0 | 0 | 63/1794 |
+| 12th Maths | 0 | 23 | 0 | 0 | 0 | 65/1794 |
 | 12th GK | 0 | 24 | 0 | 0 | 0 | 55/1872 |
 | 12th Reasoning | 0 | 25 | 0 | 0 | 0 | 58/1950 |
 | 12th English | 0 | 25 | 0 | 0 | 0 | 50/2025 |
@@ -72,7 +73,7 @@
 | Graduation GK | 0 | 28 | 0 | 0 | 0 | 0/2184 |
 | Graduation Reasoning | 0 | 30 | 0 | 0 | 0 | 0/2340 |
 | Graduation English | 0 | 30 | 0 | 0 | 0 | 0/2430 |
-| **कुल** | 0 | 325 | 0 | 0 | 0 | 666/24837 |
+| **कुल** | 0 | 325 | 0 | 0 | 0 | 668/24837 |
 
 ## ✅ autopilot से हाल में पूरे हुए
 
@@ -86,10 +87,6 @@
 <summary>हाल की तकनीकी गतिविधि</summary>
 
 ````text
-21-11 17:12:23   [Idioms_Phrases] QA passed: editorial:Feynman_en.txt
-21-11 17:12:24   [Idioms_Phrases] QA needs_reference: sources:Feynman_en.txt
-21-11 17:12:41   [Idioms_Phrases] QA passed: editorial:Feynman_hi.txt
-21-11 17:13:02   [Idioms_Phrases] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 81, "passed": 4, "pending": 73, "blocked": 1, "needs_reference": 3, "remaining": 77, 
 21-11 17:13:02 QA 10th_Level/English/Foundation_10th_English_WorldClass/Chapter_16_Idioms_Phrases: {'status': 'pending', 'verified': False, 'total': 81, 'passed': 4, 'pending': 73, 'blocked': 1, 'needs_reference': 3, 'remaining': 77, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'editorial:Content_hi.txt', 'status': 'blocked', 'issues': ['- Linguistic Bridge table: "पेट में चूहे कूदना" → "To be very hungry" listed as \'सही अंग्रेज़ी मुहावरा\' → "To be very hungry" is not an idiom; use an actual idiom like "to be starving" or change column header to \'अर्थ\'', '- Linguistic Bridge table: "अंगारों पर पैर रखना" → "To beard the lion in his den" given as equivalent → meanings differ; "अंगारों पर पैर रखना" = to invite danger, better equivalent: "to play with fire" or "to walk into the lion\'s den"', '- Word Roots table: root \'vid/vis\' example phrase "To see eye to eye" contains no word from Latin vid/vis → replace with phrase using a vid/vis derivative like "in full view" or "visible evidence"', '- Word Roots table: root \'manu\' example phrase "To have the upper hand" contains no word from Latin manu → replace with phrase using a manu derivative like "manual labour" or "manufacture consent"', '- Word Roots table: root \'bene\' example phrase "A blessing in disguise" contains no word from Latin bene → replace with phrase using a bene derivative like "benevolent gesture" or "benefit of the doubt"']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/10th_Level/English/Foundation_10th_English_WorldClass/Chapter_16_Idioms_Phrases/QA.json'}
 21-11 17:13:03   [Spelling] QA needs_reference: sources:Content_hi.txt
 21-11 17:13:35   [Spelling] QA passed: editorial:Feynman_en.txt
@@ -126,6 +123,10 @@
 21-11 17:17:51   [LCM_HCF] QA needs_reference: sources:Content_hi.txt
 21-11 17:18:05   [LCM_HCF] QA passed: editorial:Feynman_en.txt
 21-11 17:18:05   [LCM_HCF] QA needs_reference: sources:Feynman_en.txt
+21-11 17:18:32   [Simplification] QA needs_reference: sources:Content_hi.txt
+21-11 17:18:34   [LCM_HCF] QA passed: editorial:Feynman_hi.txt
+21-11 17:18:34   [LCM_HCF] BOOK_QA_RESULT={"status": "pending", "verified": false, "total": 78, "passed": 5, "pending": 70, "blocked": 0, "needs_reference": 3, "remaining": 73, 
+21-11 17:18:34 QA 12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_02_LCM_HCF: {'status': 'pending', 'verified': False, 'total': 78, 'passed': 5, 'pending': 70, 'blocked': 0, 'needs_reference': 3, 'remaining': 73, 'failures': [{'check': 'sources:Content_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Content_hi.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}, {'check': 'sources:Feynman_en.txt', 'status': 'needs_reference', 'issues': ['Fetch official supporting evidence for: [file content]']}], 'ledger': '/home/runner/work/web-apps/web-apps/study_station/books/12th_Level/Maths/Intermediate_12th_Math_WorldClass/Chapter_02_LCM_HCF/QA.json'}
 ````
 
 </details>
